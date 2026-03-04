@@ -158,7 +158,7 @@ Your defensive strategy depends entirely on timing. Early recognition allows you
 
 The key defensive principle is that 50-50 is a position of mutual threat, and your opponent's attempt to transition breaks that mutual threat. Your job is to either maintain the mutual threat by preventing their extraction, or to create your own asymmetrical advantage by counter-transitioning before they complete their movement. Passive defense from 50-50 bottom against a transitioning opponent almost always results in positional loss.
 
-**Opponent's Starting Position**: [[50-50 Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The key defensive principle is that 50-50 is a position of mutual threat, and yo
 ### 1. Tighten inside leg control and re-establish deep triangle on opponent's extracting leg
 
 - **When to use**: Early phase - when you recognize inside control release but before opponent's hip rotation begins
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Opponent's extraction is blocked and you maintain 50-50 with potential to gain top position through the scramble
 - **Risk**: If opponent has already begun rotation, tightening may be too late and you waste energy fighting their momentum
 
 ### 2. Strip opponent's heel grip with aggressive two-on-one hand fighting to remove their control on your leg
 
 - **When to use**: Early to mid phase - when opponent is focused on leg extraction and their heel grip becomes their anchor point
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Without heel control, opponent cannot complete meaningful transition and must either re-grip or abandon the transition entirely
 - **Risk**: Releasing your own defensive grips to attack theirs may expose your heel momentarily
 
 ### 3. Race to your own outside ashi by releasing your entanglement and establishing figure-4 on opponent's leg first
 
 - **When to use**: Mid phase - when opponent has committed to extraction and you recognize you cannot prevent it through inside control alone
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You establish your own asymmetrical advantage or at minimum create a mutual-threat scramble that prevents them from settling into outside ashi
 - **Risk**: If opponent beats you to the position, you end up in outside ashi bottom with no defensive structure
 
 ### 4. Drive forward to stack opponent and disrupt their hip rotation mechanics during mid-extraction
 
 - **When to use**: Mid phase - when opponent's leg is partially extracted but not yet cleared, and their hip rotation creates vulnerability to forward pressure
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Forward pressure collapses their extraction angle and forces them back into 50-50 or worse position beneath your weight
 - **Risk**: If their leg has already cleared, your forward drive may actually help them complete the transition faster
 
@@ -228,11 +228,11 @@ The key defensive principle is that 50-50 is a position of mutual threat, and yo
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Prevent the extraction entirely by maintaining tight inside control, stripping opponent's heel grip, or driving forward to stack them during mid-extraction. Any of these responses returns you to 50-50 with the opportunity to establish top position through the resulting scramble.
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Race to your own counter-transition when you recognize you cannot prevent their extraction. Release your own entanglement and establish your own outside ashi or inside ashi before they complete their figure-4. Even if you end up in a mutual scramble, you avoid the worst outcome of passively allowing the full transition.
 

@@ -21,7 +21,7 @@ Strategically, the standing switch creates a genuine reversal threat that forces
 
 Within the broader standing escape system, the switch complements hand fighting, pummeling, counter throws, and hip escape techniques. A credible switch threat opens other escape pathways because the opponent must allocate attention to preventing the reversal, creating windows for alternative escapes. Practitioners who develop the switch as part of an integrated standing defense system become significantly harder to control from behind, often turning what should be a dominant position for the attacker into a liability.
 
-**From Position**: [[Standing Rear Clinch]] (Bottom)
+**From Position**: [[Positions/Standing Rear Clinch]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ Within the broader standing escape system, the switch complements hand fighting,
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Rear Clinch]] | 25% |
-| Success | [[Clinch]] | 20% |
-| Failure | [[Standing Rear Clinch]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Standing Rear Clinch]] | 25% |
+| Success | [[Positions/Clinch]] | 20% |
+| Failure | [[Positions/Standing Rear Clinch]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -194,27 +194,27 @@ The Standing Switch from Rear Clinch occupies a critical node in the standing es
 ## Related Techniques
 
 
-- [[Standing Rear Clinch]] - Starting position where this technique is initiated from the controlled bottom role
+- [[Positions/Standing Rear Clinch]] - Starting position where this technique is initiated from the controlled bottom role
 
-- [[Clinch]] - Partial success outcome when the switch clears rear control but does not achieve full reversal
+- [[Positions/Clinch]] - Partial success outcome when the switch clears rear control but does not achieve full reversal
 
-- [[Back Control]] - Counter outcome when opponent capitalizes on failed switch to establish ground back control
+- [[Positions/Back Control]] - Counter outcome when opponent capitalizes on failed switch to establish ground back control
 
-- [[Standing Position]] - Neutral position that may result from mutual separation during switch attempt
+- [[Positions/Standing Position]] - Neutral position that may result from mutual separation during switch attempt
 
-- [[Standing Switch Defense]] - The counter-technique used by the controlling player to prevent this switch
+- [[Transitions/Standing Switch Defense]] - The counter-technique used by the controlling player to prevent this switch
 
-- [[Defense from Standing Rear Clinch]] - Alternative escape technique from the same starting position using different mechanics
+- [[Transitions/Defense from Standing Rear Clinch]] - Alternative escape technique from the same starting position using different mechanics
 
-- [[Counter Throw from Standing Rear Clinch]] - Higher-risk reversal alternative that uses throwing mechanics instead of pivot mechanics
+- [[Transitions/Counter Throw from Standing Rear Clinch]] - Higher-risk reversal alternative that uses throwing mechanics instead of pivot mechanics
 
-- [[Mat Return from Standing Rear Clinch]] - Opponent's primary offensive option that the switch aims to preempt
+- [[Transitions/Mat Return from Standing Rear Clinch]] - Opponent's primary offensive option that the switch aims to preempt
 
-- [[Pummeling Escape from Body Lock]] - Complementary escape technique using underhook pummeling rather than switch mechanics
+- [[Transitions/Pummeling Escape from Body Lock]] - Complementary escape technique using underhook pummeling rather than switch mechanics
 
-- [[Body Lock]] - Related grip configuration that the switch must clear during execution
+- [[Positions/Body Lock]] - Related grip configuration that the switch must clear during execution
 
-- [[Arm Drag from Standing]] - Similar reversal concept using arm drag mechanics from neutral standing position
+- [[Transitions/Arm Drag from Standing]] - Similar reversal concept using arm drag mechanics from neutral standing position
 
 
 </section>

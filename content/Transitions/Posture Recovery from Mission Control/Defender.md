@@ -148,7 +148,7 @@ description: "Master defending against posture recovery from Mission Control. Ma
 
 Defending against posture recovery from Mission Control requires the bottom player to maintain the structural integrity of their rubber guard position while actively countering the top player's escape attempts. The defender must continuously re-establish head control, maintain hip elevation, and threaten submissions to disrupt the systematic posture recovery process. When posture recovery progresses beyond the point of retention, the defender should transition offensively to New York, triangle, or other advanced rubber guard attacks rather than fighting a losing grip battle to maintain the original Mission Control configuration. Understanding the attacker's phase-based approach allows the defender to identify which phase the escape has reached and deploy the appropriate counter for maximum effectiveness.
 
-**Opponent's Starting Position**: [[Mission Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Mission Control]] (Top)
 
 </section>
 
@@ -186,21 +186,21 @@ Defending against posture recovery from Mission Control requires the bottom play
 ### 1. Aggressively re-pull head control with renewed grip and increase downward pulling force
 
 - **When to use**: As soon as the top player begins stripping your head control grips or creating any upward separation with their chin and chest
-- **Targets**: [[Mission Control]]
+- **Targets**: [[Positions/Rubber Guard/Mission Control]]
 - **If successful**: Full Mission Control maintained with renewed posture break and submission threat access restored
 - **Risk**: Grip fatigue accumulates with repeated re-pulling battles and may eventually fail against a patient opponent
 
 ### 2. Transition to New York control by swimming the near arm deeper under the opponent's far armpit
 
 - **When to use**: When the top player creates arm slack by driving weight backward during posture recovery, opening space for the deeper underhook configuration
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: Advance to deeper rubber guard control with enhanced submission access and harder escape path for the top player
 - **Risk**: Incomplete transition during a scramble may result in losing Mission Control entirely without establishing New York
 
 ### 3. Elevate hips higher and tighten high guard leg position across the opponent's back
 
 - **When to use**: When the top player begins shifting weight off the trapped shoulder or the high guard leg starts sliding lower on their back
-- **Targets**: [[Mission Control]]
+- **Targets**: [[Positions/Rubber Guard/Mission Control]]
 - **If successful**: Structural reinforcement restores full mechanical advantage and prevents further posture degradation
 - **Risk**: Energy-intensive active hip elevation may not be sustainable if grip control is already compromised
 
@@ -212,11 +212,11 @@ Defending against posture recovery from Mission Control requires the bottom play
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mission Control]]
+### → [[Positions/Rubber Guard/Mission Control]]
 
 Maintain aggressive head control by immediately re-pulling every time grips are stripped. Keep hips elevated actively and continuously threaten submissions to prevent the top player from settling into a systematic grip-fighting rhythm. The longer you sustain Mission Control, the more the top player's energy and composure degrade.
 
-### → [[New York]]
+### → [[Positions/Rubber Guard/New York]]
 
 When the top player drives backward to recover posture, use the resulting slack on their trapped arm to swim your near-side arm deeper under their far armpit. Simultaneously adjust your high guard leg higher and reconfigure into New York's deeper underhook control. Their escape movement actually creates the space needed for this offensive transition.
 

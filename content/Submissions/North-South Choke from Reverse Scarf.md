@@ -26,8 +26,8 @@ Strategically, this submission serves as the primary threat from reverse scarf h
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Neck (Carotid Arteries)
-**Starting Position**: [[Reverse Scarf Hold]]
-**From Position**: [[Reverse Scarf Hold]] (Top)
+**Starting Position**: [[Positions/Side Control/Reverse Scarf Hold]]
+**From Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Top)
 **Success Rate**: 42%
 
 </section>
@@ -77,9 +77,9 @@ Strategically, this submission serves as the primary threat from reverse scarf h
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 42% |
-| Failure | [[Reverse Scarf Hold]] | 28% |
-| Failure | [[North-South]] | 15% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control/Reverse Scarf Hold]] | 28% |
+| Failure | [[Positions/North-South]] | 15% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -227,9 +227,9 @@ Strategically, this submission serves as the primary threat from reverse scarf h
 
 ## From Which Positions?
 
-- [[Reverse Scarf Hold]]
-- [[North-South]]
-- [[Side Control]]
+- [[Positions/Side Control/Reverse Scarf Hold]]
+- [[Positions/North-South]]
+- [[Positions/Side Control]]
 
 
 </section>
@@ -238,12 +238,12 @@ Strategically, this submission serves as the primary threat from reverse scarf h
 
 ## Related Submissions
 
-- [[Americana from Reverse Kesa]]
-- [[Kimura from Modified Scarf Hold]]
-- [[Arm Triangle from Scarf Hold]]
-- [[Kesa Gatame Arm Crush]]
-- [[Ezekiel from Side Control Consolidation]]
-- [[Kimura from Shoulder of Justice]]
+- [[Submissions/Americana from Reverse Kesa]]
+- [[Submissions/Kimura from Modified Scarf Hold]]
+- [[Submissions/Arm Triangle from Scarf Hold]]
+- [[Submissions/Kesa Gatame Arm Crush]]
+- [[Submissions/Ezekiel from Side Control Consolidation]]
+- [[Submissions/Kimura from Shoulder of Justice]]
 
 
 </section>
@@ -252,13 +252,13 @@ Strategically, this submission serves as the primary threat from reverse scarf h
 
 ## Additional Related Content
 
-- [[Reverse Scarf Hold]] - Primary starting position for this choke - reverse orientation provides the entry angle
-- [[North-South]] - Related control position with similar choking mechanics and alignment
-- [[Side Control]] - Common upstream position from which reverse scarf hold is established before choke entry
-- [[Kesa Gatame]] - Related scarf hold family position with different choking opportunities
-- [[Americana from Reverse Kesa]] - Alternative submission from same starting position when neck is defended
-- [[Kimura Trap]] - Control position accessible when choke attempt fails and arm becomes available
-- [[Arm Triangle from Scarf Hold]] - Alternative choke from scarf hold family using head-and-arm compression
+- [[Positions/Side Control/Reverse Scarf Hold]] - Primary starting position for this choke - reverse orientation provides the entry angle
+- [[Positions/North-South]] - Related control position with similar choking mechanics and alignment
+- [[Positions/Side Control]] - Common upstream position from which reverse scarf hold is established before choke entry
+- [[Positions/Side Control/Kesa Gatame]] - Related scarf hold family position with different choking opportunities
+- [[Submissions/Americana from Reverse Kesa]] - Alternative submission from same starting position when neck is defended
+- [[Positions/Kimura Trap]] - Control position accessible when choke attempt fails and arm becomes available
+- [[Submissions/Arm Triangle from Scarf Hold]] - Alternative choke from scarf hold family using head-and-arm compression
 
 
 </section>

@@ -158,7 +158,7 @@ Defending the Chin Strap Guillotine requires immediate recognition and decisive 
 
 The defensive hierarchy follows three priorities: first, protect the neck by tucking the chin and fighting the threading arm before the grip is secured; second, address the hip and leg control that prevents positional escape; third, create space and extract the head through posture, turning, or rolling. Many defenders fail because they attempt to escape the position before addressing the choking mechanics, which accelerates the finish rather than preventing it. Understanding the attacker's two-part mechanism - chin pull and shoulder drive - allows you to target the weakest link in the chain rather than fighting the entire system simultaneously.
 
-**Opponent's Starting Position**: [[Front Headlock]] (Top)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 
 </section>
@@ -198,28 +198,28 @@ The defensive hierarchy follows three priorities: first, protect the neck by tuc
 ### 1. Chin tuck and hand fight the threading arm at the wrist before the figure-four grip is established
 
 - **When to use**: Immediately when you feel the attacker beginning to thread their arm under your chin - this is the highest percentage defense and must happen before the bicep grip connects
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Returns to neutral front headlock position where you can work standard front headlock escapes without the immediate choke threat
 - **Risk**: If you fail to strip the grip in time, you may have wasted energy and the attacker now has the full configuration locked
 
 ### 2. Turn into the attacker and drive forward to close the shoulder drive angle while working to extract your head
 
 - **When to use**: When the chin strap grip is partially established but the shoulder drive has not yet compressed fully - turning in reduces the near-side carotid pressure
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You establish a guard position or scramble to a neutral position, neutralizing the immediate choke threat through angle change
 - **Risk**: Turning in can expose your back if the attacker releases the choke and transitions to back control during your rotation
 
 ### 3. Posture up explosively while stripping the grip with both hands on the choking arm wrist
 
 - **When to use**: When you still have base and the attacker's leg control is not fully established - requires timing the posture attempt before they lock their legs around your hips
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You create enough space to extract your head from the chin strap configuration and recover to a standing or neutral position
 - **Risk**: If their grip is deep, posturing can actually tighten the choke temporarily before you clear it, and you may lose balance if they have leg control
 
 ### 4. Roll through toward the choking arm side to invert the position and relieve choking pressure
 
 - **When to use**: As a last resort when the chin strap is fully locked and other defenses have failed - the roll changes the angle and can create momentary space to extract
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You end up in a scramble or guard position where the chin strap angle is disrupted and the attacker must re-establish control
 - **Risk**: The attacker may follow the roll and maintain the grip, finishing from a mounted or side position - this is a desperation defense
 
@@ -243,11 +243,11 @@ The defensive hierarchy follows three priorities: first, protect the neck by tuc
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Successfully strip the chin strap grip before it is fully established by fighting the choking arm wrist and tucking the chin. This returns you to a standard front headlock situation where you can work proven escape sequences without the immediate submission threat.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Turn into the attacker and drive forward to neutralize the shoulder drive angle, then use the forward momentum to establish closed guard where the chin strap loses its optimal finishing angle and you can begin standard guillotine defense from guard bottom.
 

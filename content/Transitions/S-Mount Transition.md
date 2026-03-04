@@ -19,7 +19,7 @@ The S-Mount Transition represents a critical positional advancement from Modifie
 
 Strategic timing involves transitioning to S-Mount when the opponent's near-side arm becomes isolated or when they attempt to turn away, as both reactions facilitate the leg-over-head movement. The transition requires committing fully to the armbar position, meaning escape to Modified Mount or standard mount becomes the fallback if the opponent defends successfully. Understanding S-Mount Transition as a commitment point rather than a reversible movement is essential for proper tactical deployment. The defender must recognize the transition cues early because once the leg clears the head, defensive options narrow dramatically and the armbar becomes nearly inevitable against a technically proficient attacker.
 
-**From Position**: [[Modified Mount]] (Top)
+**From Position**: [[Positions/Mount/Modified Mount]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -30,9 +30,9 @@ Strategic timing involves transitioning to S-Mount when the opponent's near-side
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[S Mount]] | 65% |
-| Failure | [[Modified Mount]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount/S Mount]] | 65% |
+| Failure | [[Positions/Mount/Modified Mount]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -189,25 +189,25 @@ The S-Mount Transition is a critical link between mount control and armbar finis
 ## Related Techniques
 
 
-- [[Modified Mount]] - Starting position from which S-Mount Transition is initiated
+- [[Positions/Mount/Modified Mount]] - Starting position from which S-Mount Transition is initiated
 
-- [[S Mount]] - Target position achieved on successful transition
+- [[Positions/Mount/S Mount]] - Target position achieved on successful transition
 
-- [[Armbar from Mount]] - Primary follow-up submission from S-Mount
+- [[Submissions/Armbar from Mount]] - Primary follow-up submission from S-Mount
 
-- [[Technical Mount]] - Alternative advancement when opponent turns during transition
+- [[Positions/Mount/Technical Mount]] - Alternative advancement when opponent turns during transition
 
-- [[Mounted Triangle]] - Alternative attack when arm escapes during transition
+- [[Positions/Mount/Mounted Triangle]] - Alternative attack when arm escapes during transition
 
-- [[High Mount Transition]] - Alternative positional advancement from Modified Mount
+- [[Transitions/High Mount Transition]] - Alternative positional advancement from Modified Mount
 
-- [[Gift Wrap Transition]] - Setup that facilitates S-Mount entry through arm entanglement
+- [[Transitions/Gift Wrap Transition]] - Setup that facilitates S-Mount entry through arm entanglement
 
-- [[Mount]] - Parent position family for this transition
+- [[Positions/Mount]] - Parent position family for this transition
 
-- [[Half Guard]] - Common escape destination if transition fails badly
+- [[Positions/Half Guard]] - Common escape destination if transition fails badly
 
-- [[Armbar Control]] - Control position reached from S-Mount before armbar finish
+- [[Positions/Armbar Control]] - Control position reached from S-Mount before armbar finish
 
 
 </section>

@@ -21,7 +21,7 @@ Strategically, this transition serves as a bail-out option when Reverse X-Guard 
 
 The key to success lies in timing the hook reconfiguration precisely as the opponent moves. Rather than fighting to maintain deteriorating Reverse X control, skilled practitioners flow into Single Leg X before losing connection entirely. This proactive approach maintains constant leg entanglement pressure and prevents the opponent from establishing a neutral passing position.
 
-**From Position**: [[Reverse X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The key to success lies in timing the hook reconfiguration precisely as the oppo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 58% |
-| Failure | [[Reverse X-Guard]] | 27% |
-| Counter | [[Headquarters Position]] | 15% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 58% |
+| Failure | [[Positions/X-Guard/Reverse X-Guard]] | 27% |
+| Counter | [[Positions/Headquarters Position]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ Reverse X to Single Leg X Entry functions as a critical connector within the mod
 ## Related Techniques
 
 
-- [[Reverse X-Guard]] - Starting position for this transition
+- [[Positions/X-Guard/Reverse X-Guard]] - Starting position for this transition
 
-- [[Single Leg X-Guard]] - Target position upon successful execution
+- [[Positions/X-Guard/Single Leg X-Guard]] - Target position upon successful execution
 
-- [[X-Guard]] - Alternative transition target from Reverse X-Guard
+- [[Positions/X-Guard]] - Alternative transition target from Reverse X-Guard
 
-- [[Ashi Garami]] - Follow-up leg entanglement accessible from Single Leg X
+- [[Positions/Ashi Garami]] - Follow-up leg entanglement accessible from Single Leg X
 
-- [[Deep Half Guard]] - Bail-out position when transition is countered with forward pressure
+- [[Positions/Half Guard/Deep Half Guard]] - Bail-out position when transition is countered with forward pressure
 
-- [[Heel Hook]] - Primary submission threat available from Single Leg X position
+- [[Transitions/Heel Hook]] - Primary submission threat available from Single Leg X position
 
-- [[Butterfly Guard]] - Recovery position if leg control is lost entirely
+- [[Positions/Butterfly Guard]] - Recovery position if leg control is lost entirely
 
-- [[Headquarters Position]] - Opponent's target position when countering this transition successfully
+- [[Positions/Headquarters Position]] - Opponent's target position when countering this transition successfully
 
-- [[Outside Ashi-Garami]] - Alternative leg entanglement when opponent extracts leg faster than expected
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative leg entanglement when opponent extracts leg faster than expected
 
-- [[Reverse X-Guard Sweep]] - Alternative attack option from starting position instead of transitioning
+- [[Transitions/Reverse X-Guard Sweep]] - Alternative attack option from starting position instead of transitioning
 
 
 </section>

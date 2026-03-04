@@ -154,7 +154,7 @@ description: "Complete defensive guide against the knee slice pass from butterfl
 
 Defending the knee slice from butterfly half guard bottom centers on preserving the two structural elements that make the position viable: the butterfly hook elevation potential and the half guard leg entanglement. The passer must neutralize both to complete the slice, so your defensive strategy focuses on keeping at least one of these elements active at all times. Early recognition of the knee slice setup—specifically the passer dropping hip weight onto your butterfly hook and establishing crossface—gives you the critical seconds needed to choose between maintaining the position through active hook defense, transitioning to an alternative guard system like deep half or knee shield, or converting the passer's commitment into a counter-sweep. The defender who waits until the knee is already crossing the thigh line has significantly fewer options than one who recognizes and reacts at the hook neutralization phase.
 
-**Opponent's Starting Position**: [[Butterfly Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Butterfly Half Guard]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the knee slice from butterfly half guard bottom centers on preserving 
 ### 1. Active butterfly hook elevation and sweep attempt
 
 - **When to use**: When you detect the knee slice setup early, before the passer has fully neutralized your hook, and you still have meaningful elevation power through the hooked leg
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You sweep the passer using their forward commitment against them, ending in top position with half guard or better
 - **Risk**: If the passer reads the elevation attempt and sprawls, they kill the hook more decisively and resume the pass from a stronger position
 
 ### 2. Hip escape and knee shield insertion
 
 - **When to use**: When the butterfly hook has been partially or fully neutralized and the passer is beginning the slicing motion—insert your inside knee as a frame before the knee crosses the thigh line
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You convert from butterfly half guard to knee shield half guard, which stops the knee slice and forces the passer to address a new defensive structure
 - **Risk**: If the knee shield insertion is late, the passer drives through it with the existing slice momentum and passes directly to side control
 
 ### 3. Underhook and come up to dogfight position
 
 - **When to use**: When the passer has killed your butterfly hook but has not yet established a strong crossface—you still have upper body mobility to fight for the underhook
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You achieve a dogfight scramble where your underhook gives you access to sweeps, back takes, or guard recovery from a strong position
 - **Risk**: The passer applies a whizzer and drives you flat, completing the pass or establishing a more dominant top position
 
 ### 4. Dive to deep half guard
 
 - **When to use**: When the passer applies heavy forward pressure with crossface established and your butterfly hook is compromised—use their forward momentum to slide underneath them
-- **Targets**: [[Butterfly Half Guard]]
+- **Targets**: [[Positions/Half Guard/Butterfly Half Guard]]
 - **If successful**: You escape the knee slice entirely and establish deep half guard, which offers superior sweeping mechanics from underneath
 - **Risk**: If the deep half entry is too slow, the passer sprawls and you end up flattened underneath them with neither butterfly half nor deep half guard established
 
@@ -226,11 +226,11 @@ Defending the knee slice from butterfly half guard bottom centers on preserving 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a counter-sweep as the passer commits their weight forward for the knee slice. Use the butterfly hook or an underhook-driven reversal to exploit their directional commitment and sweep them into bottom half guard. The critical timing window is during the passer's weight transfer from hook neutralization to slicing motion, when their base is temporarily narrowed.
 
-### → [[Butterfly Half Guard]]
+### → [[Positions/Half Guard/Butterfly Half Guard]]
 
 Maintain active butterfly hook defense by constantly driving the hook upward and fighting for the underhook to deny the crossface. Force the passer to abort the knee slice by threatening sweeps every time they attempt to initiate. Frame against the slicing knee with your far hand while hip escaping to reset the position. If successful, the passer returns to neutral butterfly half guard top without having advanced.
 

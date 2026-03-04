@@ -154,7 +154,7 @@ description: "Defend the Choke from Crucifix in BJJ. Recognition cues, survival 
 
 Defending the Choke from Crucifix represents one of the most challenging defensive scenarios in Brazilian Jiu-Jitsu because your primary defensive tools—your hands—are compromised. With one arm trapped in the opponent's leg triangle and the other controlled or recently freed, you face a neck attack with severely limited defensive options. The fundamental defensive approach requires early recognition of the choke attempt, immediate protective actions with whatever defensive resources remain available, and urgent work to either prevent the choke from being fully set or to escape the crucifix position entirely before the choke can be applied. Time is your greatest enemy in this position; every second of inaction brings you closer to unconsciousness. Your defensive priorities must be crystal clear: prevent the choking arm from getting under your chin, fight to free at least one arm for neck defense, and work to degrade the crucifix control structure so that escape becomes possible.
 
-**Opponent's Starting Position**: [[Crucifix]] (Top)
+**Opponent's Starting Position**: [[Positions/Crucifix]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Choke from Crucifix represents one of the most challenging defensi
 ### 1. Aggressive chin tuck with shoulder raise to block forearm insertion
 
 - **When to use**: Immediately upon recognizing the choke attempt—before the forearm gets under the chin. Bury chin into chest and raise the shoulder on the choking side to close the gap.
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: The opponent cannot complete the choke and must either try to pry your chin up or abandon the attempt and re-establish arm control
 - **Risk**: If the opponent manages to pry the chin up or switch to an arm-in variation, the choke proceeds with your defense already partially compromised
 
 ### 2. Use freed far arm to grab and fight the choking wrist or forearm
 
 - **When to use**: The instant the opponent releases your far arm to begin the choke—immediately grab their choking wrist before it reaches your neck
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Creates a grip fight that prevents the choke from being set, but exposes your arm to kimura or armbar counter-attacks from the opponent
 - **Risk**: The opponent may immediately attack the defending arm with a kimura or armbar, creating the fundamental crucifix dilemma
 
 ### 3. Explosive bridge and roll timed with the opponent's grip transition
 
 - **When to use**: During the brief window when the opponent has released your far arm but has not yet secured the choking grip—this is when their control is most compromised
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You escape the crucifix entirely, potentially ending up in back control which is significantly more defensible than crucifix
 - **Risk**: If the bridge fails and the opponent maintains position, you have used significant energy and the opponent may have advanced their choke setup during the attempt
 
 ### 4. Work trapped arm extraction from leg triangle while defending neck
 
 - **When to use**: As a continuous background priority throughout the choke defense—use hip movement and angle changes to create slack in the leg triangle
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Freeing the trapped arm transforms the position from crucifix to standard back control, where you have both hands available for choke defense and established escape sequences
 - **Risk**: Focusing too heavily on arm extraction may allow the choke to progress unchecked if neck defense is neglected
 
@@ -225,11 +225,11 @@ Defending the Choke from Crucifix represents one of the most challenging defensi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Crucifix]]
+### → [[Positions/Crucifix]]
 
 Defend the choke through aggressive chin tuck and hand fighting on the choking arm. By preventing the forearm from getting under the chin and actively fighting the wrist, you force the opponent to abandon the choke attempt and re-establish arm control, resetting to the base crucifix position where you can continue working escape sequences.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Time an explosive bridge and roll during the opponent's grip transition when they release your far arm to begin the choke. Alternatively, extract the trapped arm from the leg triangle using hip movement and angle changes while simultaneously defending the neck. Either path degrades the crucifix to standard back control where your defensive options are significantly better.
 

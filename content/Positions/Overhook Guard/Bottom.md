@@ -210,23 +210,23 @@ Overhook Guard is particularly effective against opponents who attempt to establ
 
 ## Available Escapes
 
-### [[Overhook Sweep]] (13% of attempts)
+### [[Transitions/Overhook Sweep]] (13% of attempts)
 
-### [[Hip Bump Sweep]] (21% of attempts)
+### [[Transitions/Hip Bump Sweep]] (21% of attempts)
 
-### [[Omoplata from Guard]] (11% of attempts)
+### [[Submissions/Omoplata from Guard]] (11% of attempts)
 
-### [[Arm Drag to Back]] (10% of attempts)
+### [[Transitions/Arm Drag to Back]] (10% of attempts)
 
-### [[Triangle Setup]] (13% of attempts)
+### [[Transitions/Triangle Setup]] (13% of attempts)
 
-### [[Kimura from Guard]] (11% of attempts)
+### [[Submissions/Kimura from Guard]] (11% of attempts)
 
-### [[Armbar from Guard]] (13% of attempts)
+### [[Submissions/Armbar from Guard]] (13% of attempts)
 
-### [[Overhook Guard Sweep]] (5% of attempts)
+### [[Transitions/Overhook Guard Sweep]] (5% of attempts)
 
-### [[Overhook to Closed Guard]] (3% of attempts)
+### [[Transitions/Overhook to Closed Guard]] (3% of attempts)
 
 
 
@@ -237,23 +237,23 @@ Overhook Guard is particularly effective against opponents who attempt to establ
 ## Decision Making from This Position
 
 **If opponent maintains strong upright posture with hips back:**
-- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Overhook Sweep]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Overhook Sweep]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent drives weight forward attempting to stack:**
-- Execute **[[Omoplata from Guard]]** → [[Omoplata Control]] (Probability: 50%)
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 55%)
+- Execute **[[Submissions/Omoplata from Guard]]** → [[Positions/Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
 
 
 **If opponent attempts to pull overhook arm free:**
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 65%)
-- Execute **[[Kimura from Guard]]** → [[Kimura Trap]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 65%)
+- Execute **[[Submissions/Kimura from Guard]]** → [[Positions/Kimura Trap]] (Probability: 50%)
 
 
 **If opponent circles away from overhook side:**
-- Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Armbar from Guard]]** → [[Armbar Control]] (Probability: 50%)
+- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Submissions/Armbar from Guard]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 
@@ -387,14 +387,14 @@ Bottom player maintains overhook guard while top player attempts to flatten them
 
 ## Related Positions and Techniques
 
-- **[[Overhook Guard]]** - Hub position - parent position for this bottom perspective
-- **[[Closed Guard]]** - Parent guard position from which overhook variation is established
-- **[[Kimura Trap]]** - Natural progression when overhook is converted to kimura grip
-- **[[Triangle Control]]** - Common submission position reached from overhook attacks
-- **[[Omoplata Control]]** - Alternative submission position using overhook control mechanics
-- **[[Back Control]]** - Transition target when executing rolling back take from overhook
-- **[[Mount]]** - Primary sweep target position from overhook guard
-- **[[Armbar Control]]** - Submission position accessible when opponent defends sweeps
+- **[[Positions/Overhook Guard]]** - Hub position - parent position for this bottom perspective
+- **[[Positions/Closed Guard]]** - Parent guard position from which overhook variation is established
+- **[[Positions/Kimura Trap]]** - Natural progression when overhook is converted to kimura grip
+- **[[Positions/Triangle Control]]** - Common submission position reached from overhook attacks
+- **[[Positions/Omoplata Control]]** - Alternative submission position using overhook control mechanics
+- **[[Positions/Back Control]]** - Transition target when executing rolling back take from overhook
+- **[[Positions/Mount]]** - Primary sweep target position from overhook guard
+- **[[Positions/Armbar Control]]** - Submission position accessible when opponent defends sweeps
 
 
 </section>

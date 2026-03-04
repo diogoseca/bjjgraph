@@ -178,7 +178,7 @@ The finishing mechanics differ fundamentally from mounted cross collar variation
 
 Strategically, this finish serves as the primary payoff for invisible collar positioning. When opponents defend effectively, the failed attempt maintains back control rather than surrendering position, making it a low-risk submission attempt. The technique chains naturally with rear naked choke attacks, creating a dilemma where defending one option opens vulnerability to the other.
 
-**From Position**: [[Invisible Collar]] (Top)
+**From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Top)
 
 </section>
 
@@ -231,8 +231,8 @@ Strategically, this finish serves as the primary payoff for invisible collar pos
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ Strategically, this finish serves as the primary payoff for invisible collar pos
 
 ## Opponent Counters
 
-- **Two-on-one grip fighting on choking wrist to strip collar grip** (Effectiveness: High) - Your Response: Immediately switch to rear naked choke setup while their arms are committed to grip removal, or maintain patience and re-establish grip depth when they tire → Leads to [[Back Control]]
-- **Aggressive chin tuck to block collar from reaching carotid arteries** (Effectiveness: Medium) - Your Response: Wait patiently as chin tuck is exhausting, or transition to armbar attack on extended defending arms which opens when they commit to neck protection → Leads to [[Back Control]]
-- **Turning toward collar side to relieve pressure and potentially escape** (Effectiveness: Medium) - Your Response: Follow the turn with crucifix entry or use their rotation to actually tighten the choke angle by driving your chest weight over their turning shoulder → Leads to [[Half Guard]]
-- **Removing hooks to create hip movement space for escape** (Effectiveness: Low) - Your Response: Prioritize maintaining collar grip over replacing hooks initially, as the choke can finish even with diminished lower body control if grip depth is sufficient → Leads to [[Half Guard]]
+- **Two-on-one grip fighting on choking wrist to strip collar grip** (Effectiveness: High) - Your Response: Immediately switch to rear naked choke setup while their arms are committed to grip removal, or maintain patience and re-establish grip depth when they tire → Leads to [[Positions/Back Control]]
+- **Aggressive chin tuck to block collar from reaching carotid arteries** (Effectiveness: Medium) - Your Response: Wait patiently as chin tuck is exhausting, or transition to armbar attack on extended defending arms which opens when they commit to neck protection → Leads to [[Positions/Back Control]]
+- **Turning toward collar side to relieve pressure and potentially escape** (Effectiveness: Medium) - Your Response: Follow the turn with crucifix entry or use their rotation to actually tighten the choke angle by driving your chest weight over their turning shoulder → Leads to [[Positions/Half Guard]]
+- **Removing hooks to create hip movement space for escape** (Effectiveness: Low) - Your Response: Prioritize maintaining collar grip over replacing hooks initially, as the choke can finish even with diminished lower body control if grip depth is sufficient → Leads to [[Positions/Half Guard]]
 
 
 </section>

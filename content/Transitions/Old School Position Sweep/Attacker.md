@@ -186,7 +186,7 @@ description: "Execute the Old School Position Sweep from half guard lockdown. St
 
 As the attacker executing the Old School Position Sweep, your objective is to convert the lockdown half guard bottom position into mount through a powerful circular sweep. The technique requires simultaneous management of three control points: lockdown immobilization of the opponent's trapped leg, deep underhook leverage on their far side, and head control pulling their posture down. Success depends on precise timing rather than brute force, capitalizing on the opponent's forward weight shift or lockdown clearing attempt to initiate the sweep when their base is most compromised. The sweep follows a circular arc from your side position through to mount, maintaining chest-to-chest connection throughout the rotation to prevent the opponent from recovering base or creating defensive space.
 
-**From Position**: [[Old School]] (Bottom)
+**From Position**: [[Positions/Half Guard/Old School]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ As the attacker executing the Old School Position Sweep, your objective is to co
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 46% |
-| Failure | [[Old School]] | 32% |
-| Counter | [[Side Control]] | 22% |
+| Success | [[Positions/Mount]] | 46% |
+| Failure | [[Positions/Half Guard/Old School]] | 32% |
+| Counter | [[Positions/Side Control]] | 22% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the attacker executing the Old School Position Sweep, your objective is to co
 
 ## Opponent Counters
 
-- **Opponent establishes deep whizzer and sprawls hips back to kill underhook leverage** (Effectiveness: High) - Your Response: Pump the lockdown more aggressively to prevent their sprawl from creating distance. If the whizzer is too deep, transition to Electric Chair by diving under their hips and attacking the leg split instead of fighting for the sweep angle. → Leads to [[Old School]]
-- **Opponent drives heavy crossface pressure to flatten you onto your back** (Effectiveness: Medium) - Your Response: Counter by pumping lockdown extension to create space and pulling your underhook tighter while driving your head into their chest. If being flattened, transition to deep half guard entry rather than fighting a losing battle for the side angle. → Leads to [[Old School]]
-- **Opponent posts far hand on mat to create a base preventing rotation** (Effectiveness: Medium) - Your Response: Increase head control pressure to prevent the posting arm from reaching the mat. If they successfully post, switch to the back take variation by coming up on the underhook and circling behind them while the lockdown prevents them from turning to face you. → Leads to [[Old School]]
-- **Opponent extracts trapped leg from lockdown and begins knee slice pass** (Effectiveness: High) - Your Response: Immediately recover knee shield or transition to butterfly half guard if lockdown is fully broken. The underhook can be used to establish a frame and recover to a standard half guard position. Do not continue the sweep attempt without lockdown control. → Leads to [[Side Control]]
+- **Opponent establishes deep whizzer and sprawls hips back to kill underhook leverage** (Effectiveness: High) - Your Response: Pump the lockdown more aggressively to prevent their sprawl from creating distance. If the whizzer is too deep, transition to Electric Chair by diving under their hips and attacking the leg split instead of fighting for the sweep angle. → Leads to [[Positions/Half Guard/Old School]]
+- **Opponent drives heavy crossface pressure to flatten you onto your back** (Effectiveness: Medium) - Your Response: Counter by pumping lockdown extension to create space and pulling your underhook tighter while driving your head into their chest. If being flattened, transition to deep half guard entry rather than fighting a losing battle for the side angle. → Leads to [[Positions/Half Guard/Old School]]
+- **Opponent posts far hand on mat to create a base preventing rotation** (Effectiveness: Medium) - Your Response: Increase head control pressure to prevent the posting arm from reaching the mat. If they successfully post, switch to the back take variation by coming up on the underhook and circling behind them while the lockdown prevents them from turning to face you. → Leads to [[Positions/Half Guard/Old School]]
+- **Opponent extracts trapped leg from lockdown and begins knee slice pass** (Effectiveness: High) - Your Response: Immediately recover knee shield or transition to butterfly half guard if lockdown is fully broken. The underhook can be used to establish a frame and recover to a standard half guard position. Do not continue the sweep attempt without lockdown control. → Leads to [[Positions/Side Control]]
 
 
 </section>

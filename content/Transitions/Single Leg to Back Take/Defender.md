@@ -156,7 +156,7 @@ Defending the Single Leg to Back Take requires understanding that your own defen
 
 Your defensive priorities follow a clear hierarchy. First, prevent the attacker from transitioning off the leg by squaring your hips back to them before they can release and climb. If they have already begun climbing, immediately address the first hook by clearing it with your hand or stepping over it. If they reach your back with one hook, prevent the seat belt from locking by fighting their top hand aggressively. At each stage, there is a specific defensive action that can stop the progression—the critical error is skipping steps or panicking into explosive movement that actually helps the attacker. Composure and awareness of the transition's stages give you the best chance of shutting down each phase before the attacker secures full back control.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ Your defensive priorities follow a clear hierarchy. First, prevent the attacker 
 ### 1. Square hips and face the attacker before they can release the leg and climb
 
 - **When to use**: Early in the sequence, when you feel the attacker beginning to release your leg or shifting their chest toward your back
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You neutralize the back take angle completely and return to a neutral standing exchange where you can re-engage on your terms
 - **Risk**: If you square up too slowly, the attacker may already have one hook inserted and squaring up gives them a better angle for the second hook
 
 ### 2. Sit back heavily onto the attacker to crush their climbing attempt and deny hooks
 
 - **When to use**: When the attacker has released your leg and begun climbing but has not yet established hooks or seat belt control
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Your weight collapses their climbing structure and forces them underneath you, allowing you to stand up or establish top position
 - **Risk**: If the attacker anticipates the sit-back and frames with their knee, they may recover to single leg X-guard or a sweep position
 
 ### 3. Strip the first hook with your hand and turn to face the attacker before they consolidate
 
 - **When to use**: When the attacker has inserted one hook but has not yet locked seat belt control or inserted the second hook
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Removing the hook and turning in forces a scramble where neither player has dominant position, and you can work to re-establish neutral standing
 - **Risk**: Reaching down to strip the hook leaves your neck exposed if the attacker already has partial seat belt control
 
 ### 4. Peel the seat belt grip with two-on-one hand fighting while keeping elbows tight
 
 - **When to use**: When the attacker has chest-to-back connection and is working to lock the seat belt grip over your shoulder
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Breaking the seat belt denies the attacker upper body control, making their hooks alone insufficient to maintain back control, and opens escape paths
 - **Risk**: If you focus entirely on hand fighting and ignore the hooks, the attacker can lock body triangle or deepen hooks while you strip the grip
 
@@ -227,11 +227,11 @@ Your defensive priorities follow a clear hierarchy. First, prevent the attacker 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Square your hips back to the attacker early in the transition before they release the leg grip. Drive your near hip into them and face them directly. Once squared, they are stuck holding a single leg against a facing opponent and must either finish the traditional takedown or disengage. Alternatively, sit back decisively the moment you feel them release the leg, collapsing their climbing position.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 If the attacker has begun climbing but has not secured full back control, aggressively strip the first hook with your near hand while turning your shoulders to face them. Accept a brief scramble position and use the momentum of your turn to create distance. You may end up in a disadvantaged standing position but you have prevented the back take, which is a net positive exchange.
 

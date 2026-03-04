@@ -150,7 +150,7 @@ Defending against the Roll to Deep Half Guard requires the buggy choke attacker 
 
 The key defensive insight is that the roll travels toward your near leg. By monitoring the bottom player's hip movement and frame creation, you can anticipate the escape and either sprawl to block the rolling angle, release grips to take the back during the roll, or post your far leg wide to deny deep half entry. Each defensive response carries different positional trade-offs, and selecting the appropriate counter depends on the stage of the escape attempt and your own positional priorities.
 
-**Opponent's Starting Position**: [[Buggy Choke]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Buggy Choke]] (Bottom)
 
 </section>
 
@@ -188,21 +188,21 @@ The key defensive insight is that the roll travels toward your near leg. By moni
 ### 1. Sprawl and flatten opponent before roll develops momentum
 
 - **When to use**: When you detect early hip loading or frame creation but the roll has not yet initiated. Most effective during the setup phase before explosive movement begins.
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: Bottom player is flattened with their rolling angle blocked, you maintain buggy choke grips with improved pressure and can continue finishing the choke
 - **Risk**: If timed late, the sprawl misses and you end up sprawled with poor base as the bottom player completes the roll underneath you
 
 ### 2. Release choke grips and transition to back control during the roll
 
 - **When to use**: When the roll has already initiated and cannot be stopped by sprawling. Abandon the choke attempt and prioritize positional advancement by following the rotation to establish hooks on the back.
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You give up the choke but establish back control with hooks, transitioning from a losing defensive exchange into the most dominant position in BJJ
 - **Risk**: If the bottom player anticipates the back take, they may establish defensive hand positioning during the roll that makes hook insertion difficult
 
 ### 3. Post far leg wide and drive knee through to deny deep half entry
 
 - **When to use**: When you feel the roll initiating but want to maintain top position without conceding back control. Post your far leg wide to remove the deep half angle and begin passing.
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: Bottom player's roll lands in an undefined scramble without deep half hooks, you maintain top position and can transition to passing or re-establish turtle control
 - **Risk**: Wide posting creates space that may allow the bottom player to recover to half guard or single leg x-guard instead of deep half
 
@@ -214,11 +214,11 @@ The key defensive insight is that the roll travels toward your near leg. By moni
 
 ## Best-Case Outcomes for Defender
 
-### → [[Buggy Choke]]
+### → [[Positions/Buggy Choke]]
 
 Detect the escape attempt early through recognition cues (hip loading, frame creation, arm reaching for your leg) and sprawl decisively before the roll initiates. Drive your chest weight down onto their back and shoulders to eliminate the rotational mobility needed for the escape. Maintain your choking grips and continue finishing pressure.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the roll has already initiated and cannot be stopped, immediately release your choking grips and follow the bottom player's rotation. As they roll, insert your hooks into their hips and establish seatbelt control on their upper body. Convert their escape attempt into a transition to the most dominant position. This requires accepting the choke is lost but capitalizing on the positional exposure the roll creates.
 

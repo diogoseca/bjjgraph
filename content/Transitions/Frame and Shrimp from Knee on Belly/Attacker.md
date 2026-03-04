@@ -180,7 +180,7 @@ description: "Learn how to execute the Frame and Shrimp escape from Knee on Bell
 
 As the bottom player executing the Frame and Shrimp escape, your objective is to systematically dismantle the opponent's Knee on Belly control through disciplined framing and precise hip escape mechanics. This technique requires composure under extreme pressure — the opponent's knee is driving into your diaphragm, making breathing difficult and creating urgency that tempts panicked reactions. Your success depends on executing a structured sequence: establish frames to manage pressure, bridge to create momentary space, shrimp your hips away from the knee, and insert your leg to recover half guard. Each phase must be executed with technical precision rather than desperate strength, as the opponent is actively working to maintain their dominant position and will exploit extended arms, poor timing, or incomplete movement.
 
-**From Position**: [[Knee on Belly]] (Bottom)
+**From Position**: [[Positions/Knee on Belly]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ As the bottom player executing the Frame and Shrimp escape, your objective is to
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Knee on Belly]] | 30% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Knee on Belly]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -242,9 +242,9 @@ As the bottom player executing the Frame and Shrimp escape, your objective is to
 
 ## Opponent Counters
 
-- **Opponent follows your hip escape by hopping their knee to your new position, re-establishing Knee on Belly on the opposite side of your torso** (Effectiveness: High) - Your Response: Chain multiple shrimps together without pausing — insert your knee shield immediately and continue shrimping in the same direction rather than resetting flat. Each successive shrimp degrades their ability to follow cleanly. → Leads to [[Knee on Belly]]
-- **Opponent transitions directly to mount by stepping over your body as you create space with your shrimp, using the gap you created for guard recovery as their entry to mount** (Effectiveness: High) - Your Response: Accelerate your knee insertion timing — the moment you feel space, drive your knee across before they can step over. Keep your near-side elbow tight and use it as a secondary barrier against their leg passing over your body. → Leads to [[Mount]]
-- **Opponent drives knee deeper and widens their base when they feel initial frames, increasing downward pressure to prevent the bridge from creating meaningful space** (Effectiveness: Medium) - Your Response: Wait for their weight commitment, then redirect your escape — when they fully commit pressure downward, their lateral mobility decreases. Use a sharper angled shrimp toward their feet where they have less ability to follow while maintaining pressure. → Leads to [[Knee on Belly]]
+- **Opponent follows your hip escape by hopping their knee to your new position, re-establishing Knee on Belly on the opposite side of your torso** (Effectiveness: High) - Your Response: Chain multiple shrimps together without pausing — insert your knee shield immediately and continue shrimping in the same direction rather than resetting flat. Each successive shrimp degrades their ability to follow cleanly. → Leads to [[Positions/Knee on Belly]]
+- **Opponent transitions directly to mount by stepping over your body as you create space with your shrimp, using the gap you created for guard recovery as their entry to mount** (Effectiveness: High) - Your Response: Accelerate your knee insertion timing — the moment you feel space, drive your knee across before they can step over. Keep your near-side elbow tight and use it as a secondary barrier against their leg passing over your body. → Leads to [[Positions/Mount]]
+- **Opponent drives knee deeper and widens their base when they feel initial frames, increasing downward pressure to prevent the bridge from creating meaningful space** (Effectiveness: Medium) - Your Response: Wait for their weight commitment, then redirect your escape — when they fully commit pressure downward, their lateral mobility decreases. Use a sharper angled shrimp toward their feet where they have less ability to follow while maintaining pressure. → Leads to [[Positions/Knee on Belly]]
 
 
 </section>

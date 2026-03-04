@@ -176,7 +176,7 @@ description: "How to execute Breadcutter Choke in BJJ. Attacking perspective wit
 
 The Breadcutter Choke is a powerful gi-based blood choke that utilizes the opponent's own collar to create a devastating strangling mechanism. Executed primarily from turtle position, back control, or transitional positions, this technique creates immense pressure on both carotid arteries while simultaneously compressing the trachea. The name derives from the cutting action of the collar across the neck, similar to slicing bread. What makes the Breadcutter particularly effective is its ability to be applied from positions where the opponent believes they are relatively safe or defending other attacks. The mechanics rely on deep collar grips combined with precise body positioning to generate choking pressure without requiring both arms wrapped around the opponent. This makes it an excellent option when traditional rear naked choke grips are not available. The Breadcutter belongs to a family of collar chokes that includes the Clock Choke, Bow and Arrow, and Baseball Bat variations, but distinguishes itself through its unique application angle and grip configuration.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 
 </section>
@@ -231,8 +231,8 @@ The Breadcutter Choke is a powerful gi-based blood choke that utilizes the oppon
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -241,11 +241,11 @@ The Breadcutter Choke is a powerful gi-based blood choke that utilizes the oppon
 
 ## Opponent Defenses
 
-- **Tucking chin and pulling collar away from neck** (Effectiveness: Medium) - Your Response: Establish collar grip before they recognize attack; use free hand to pull their head away from tucking angle; if collar is already defended, switch to alternative attack like Clock Choke or abandon for position advancement → Leads to [[Turtle]]
-- **Rolling toward the choking side to escape pressure** (Effectiveness: High) - Your Response: Post your head near their far shoulder to block rolling direction; use your non-choking hand to control far shoulder and prevent rotation; if roll continues, follow through and maintain collar grip, transitioning to modified finishing angle → Leads to [[Closed Guard]]
-- **Sitting back into guard to remove back exposure** (Effectiveness: Medium) - Your Response: Follow their movement and establish back control with hooks if they sit back; maintain collar grip throughout transition; if full back control achieved, reassess for Rear Naked Choke or continue Breadcutter from improved position → Leads to [[Closed Guard]]
-- **Gripping your choking arm with both hands to relieve pressure** (Effectiveness: Low) - Your Response: Increase body weight pressure through chest and hips rather than relying on arm strength alone; use your free hand to strip their defensive grips one at a time; adjust hip angle to maximize collar cutting pressure independently of arm position → Leads to [[Turtle]]
-- **Explosive forward motion to escape your body control** (Effectiveness: Medium) - Your Response: Anticipate forward pressure by establishing deep collar grip early; use your hip connection to load weight onto their back, making forward motion carry your weight; follow their escape attempt while maintaining collar control, potentially transitioning to Clock Choke if angle shifts → Leads to [[Turtle]]
+- **Tucking chin and pulling collar away from neck** (Effectiveness: Medium) - Your Response: Establish collar grip before they recognize attack; use free hand to pull their head away from tucking angle; if collar is already defended, switch to alternative attack like Clock Choke or abandon for position advancement → Leads to [[Positions/Turtle]]
+- **Rolling toward the choking side to escape pressure** (Effectiveness: High) - Your Response: Post your head near their far shoulder to block rolling direction; use your non-choking hand to control far shoulder and prevent rotation; if roll continues, follow through and maintain collar grip, transitioning to modified finishing angle → Leads to [[Positions/Closed Guard]]
+- **Sitting back into guard to remove back exposure** (Effectiveness: Medium) - Your Response: Follow their movement and establish back control with hooks if they sit back; maintain collar grip throughout transition; if full back control achieved, reassess for Rear Naked Choke or continue Breadcutter from improved position → Leads to [[Positions/Closed Guard]]
+- **Gripping your choking arm with both hands to relieve pressure** (Effectiveness: Low) - Your Response: Increase body weight pressure through chest and hips rather than relying on arm strength alone; use your free hand to strip their defensive grips one at a time; adjust hip angle to maximize collar cutting pressure independently of arm position → Leads to [[Positions/Turtle]]
+- **Explosive forward motion to escape your body control** (Effectiveness: Medium) - Your Response: Anticipate forward pressure by establishing deep collar grip early; use your hip connection to load weight onto their back, making forward motion carry your weight; follow their escape attempt while maintaining collar control, potentially transitioning to Clock Choke if angle shifts → Leads to [[Positions/Turtle]]
 
 
 </section>

@@ -21,7 +21,7 @@ The technique exploits the transitional nature of leg drag control. While the pa
 
 Strategically, this counter represents the middle path between complete guard recovery and accepting an inferior position. Rather than fighting for closed guard (often impossible from leg drag bottom) or conceding to turtle (giving up initiative), recovering half guard maintains your offensive potential while immediately neutralizing the back take threat. From half guard, you have sweeps, back takes, and leg lock entries available—making this counter a crucial bridge technique in any comprehensive guard retention system.
 
-**From Position**: [[Leg Drag Control]] (Bottom)
+**From Position**: [[Positions/Leg Drag Control]] (Bottom)
 **Success Rate**: 48%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this counter represents the middle path between complete guard re
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Leg Drag Control]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Leg Drag Control]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -187,27 +187,27 @@ The Leg Drag Counter to Half Guard serves as a critical bridge in your guard ret
 ## Related Techniques
 
 
-- [[Leg Drag Control]] - Starting position for this escape technique
+- [[Positions/Leg Drag Control]] - Starting position for this escape technique
 
-- [[Half Guard]] - Target position achieved upon successful execution
+- [[Positions/Half Guard]] - Target position achieved upon successful execution
 
-- [[Knee Shield Half Guard]] - Variant position if full half guard lock unavailable
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Variant position if full half guard lock unavailable
 
-- [[Deep Half Guard]] - Alternative recovery position when diving deep underneath
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative recovery position when diving deep underneath
 
-- [[Lockdown]] - Control option after securing half guard
+- [[Positions/Half Guard/Lockdown]] - Control option after securing half guard
 
-- [[Granby Roll to Guard]] - Alternative escape creating distance to open guard
+- [[Transitions/Granby Roll to Guard]] - Alternative escape creating distance to open guard
 
-- [[Roll to Turtle]] - Alternative when half guard recovery fails
+- [[Transitions/Roll to Turtle]] - Alternative when half guard recovery fails
 
-- [[Half Guard to Back Take]] - Follow-up attack after achieving half guard
+- [[Transitions/Half Guard to Back Take]] - Follow-up attack after achieving half guard
 
-- [[Electric Chair Submission]] - Offensive option available from half guard lockdown
+- [[Submissions/Electric Chair Submission]] - Offensive option available from half guard lockdown
 
-- [[Side Control]] - Worst-case outcome if counter fails and opponent consolidates
+- [[Positions/Side Control]] - Worst-case outcome if counter fails and opponent consolidates
 
-- [[Leg Drag Escape to Closed Guard]] - Alternative escape targeting full guard recovery
+- [[Transitions/Leg Drag Escape to Closed Guard]] - Alternative escape targeting full guard recovery
 
 
 </section>

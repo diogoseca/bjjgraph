@@ -21,7 +21,7 @@ From a strategic perspective, the Breadcutter Choke capitalizes on the unique co
 
 The mechanical efficiency of this choke makes it particularly effective against larger opponents. Rather than relying on arm strength to compress the neck, the Breadcutter uses body positioning and the gi material to create a mechanical stranglehold. Your forearm acts as a blade, your grip on the lapel provides the anchor point, and your body weight drives the cutting pressure. This makes the technique sustainable even against significant size differentials, as structural alignment rather than muscular strength creates the finishing pressure.
 
-**From Position**: [[Kuzure Kesa-Gatame]] (Top)
+**From Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -33,8 +33,8 @@ The mechanical efficiency of this choke makes it particularly effective against 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Kuzure Kesa-Gatame]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Side Control/Kuzure Kesa-Gatame]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -191,21 +191,21 @@ The Breadcutter Choke occupies a critical role in the Kuzure Kesa-Gatame submiss
 ## Related Techniques
 
 
-- [[Kuzure Kesa-Gatame]] - Starting position - the modified scarf hold that creates optimal mechanics for this choke
+- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Starting position - the modified scarf hold that creates optimal mechanics for this choke
 
-- [[Paper Cutter Choke]] - Sister technique using similar cutting mechanics from a different grip angle
+- [[Transitions/Paper Cutter Choke]] - Sister technique using similar cutting mechanics from a different grip angle
 
-- [[Americana from Side Control]] - Complementary attack - defending the americana often exposes the neck for Breadcutter
+- [[Submissions/Americana from Side Control]] - Complementary attack - defending the americana often exposes the neck for Breadcutter
 
-- [[Kimura from Side Control]] - Alternative shoulder attack that chains with the Breadcutter in submission sequences
+- [[Submissions/Kimura from Side Control]] - Alternative shoulder attack that chains with the Breadcutter in submission sequences
 
-- [[Side Control to Mount]] - Positional advancement when opponent defends the choke by turning in
+- [[Transitions/Side Control to Mount]] - Positional advancement when opponent defends the choke by turning in
 
-- [[Kesa Gatame]] - Parent position family sharing control principles
+- [[Positions/Side Control/Kesa Gatame]] - Parent position family sharing control principles
 
-- [[Baseball Bat Choke]] - Alternative gi choke available from similar control positions
+- [[Transitions/Baseball Bat Choke]] - Alternative gi choke available from similar control positions
 
-- [[Arm Triangle]] - Alternative choke option when opponent's arm positioning creates triangle entry
+- [[Transitions/Arm Triangle]] - Alternative choke option when opponent's arm positioning creates triangle entry
 
 
 </section>

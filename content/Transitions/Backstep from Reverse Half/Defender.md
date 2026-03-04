@@ -154,7 +154,7 @@ description: "Master defending the backstep back take from reverse half guard. R
 
 Defending the backstep from reverse half guard requires recognizing the attack early and responding with precisely timed defensive actions before the attacker completes the transition to back control. As the bottom player in reverse half guard, you are already in a compromised position with your back partially exposed, making the backstep a constant threat that demands proactive awareness. The defender's primary objective is to prevent hook insertion and seatbelt establishment by either turning into the attacker to recover half guard or blocking the stepping leg before it clears the body. Understanding the attacker's movement sequence and the windows of vulnerability within it provides the foundation for effective defense against this high-percentage back take.
 
-**Opponent's Starting Position**: [[Reverse Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Reverse Half Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the backstep from reverse half guard requires recognizing the attack e
 ### 1. Explosive bridge and turn into the attacker during the backstep arc
 
 - **When to use**: During the moment the attacker's free leg is airborne and their base is most compromised by the stepping motion
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Attacker is reversed into half guard bottom as your bridge disrupts their balance during the compromised single-leg base phase
 - **Risk**: If mistimed, the turn accelerates the back take by exposing your back further and helping the attacker complete the arc
 
 ### 2. Block the stepping leg with both hands before it completes the arc over your body
 
 - **When to use**: As soon as you feel the attacker's weight shift and the free leg begin to lift from the mat
-- **Targets**: [[Reverse Half Guard]]
+- **Targets**: [[Positions/Half Guard/Reverse Half Guard]]
 - **If successful**: Attacker's backstep is physically blocked and they are forced to return to reverse half guard top without advancing
 - **Risk**: Removing hands from defensive neck position to grab the leg exposes you to seatbelt tightening and potential choke attacks
 
 ### 3. Hip escape away and re-clamp half guard to deny hook insertion space
 
 - **When to use**: After the stepping leg lands on the far side but before the first hook is inserted inside your thigh
-- **Targets**: [[Reverse Half Guard]]
+- **Targets**: [[Positions/Half Guard/Reverse Half Guard]]
 - **If successful**: Half guard entanglement is maintained or re-established, preventing full back control despite the completed stepping motion
 - **Risk**: If the hip escape creates too much space without re-clamping, the attacker may complete a different pass to side control
 
 ### 4. Turtle defensively and deny hooks while protecting the neck with hand fighting
 
 - **When to use**: When the backstep is nearly complete and you cannot prevent the leg from clearing your body
-- **Targets**: [[Reverse Half Guard]]
+- **Targets**: [[Positions/Half Guard/Reverse Half Guard]]
 - **If successful**: Tight turtle position with elbows in and chin tucked denies hook insertion and prevents full back control establishment
 - **Risk**: Turtle is still a vulnerable position where the attacker has multiple back take re-entries and you face continued threat
 
@@ -225,11 +225,11 @@ Defending the backstep from reverse half guard requires recognizing the attack e
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive bridge and turn into the attacker during the backstep arc when their free leg is airborne. Their compromised single-leg base makes them vulnerable to reversal. Combine the bridge with a strong frame against their hip to create separation and complete the turn to top position.
 
-### → [[Reverse Half Guard]]
+### → [[Positions/Half Guard/Reverse Half Guard]]
 
 Block the backstep before it succeeds by maintaining tight elbow defense against the seatbelt, hip escaping to deny hook insertion space, or physically blocking the stepping leg. While remaining in reverse half guard bottom is not ideal, it is significantly better than conceding full back control with both hooks and seatbelt established.
 

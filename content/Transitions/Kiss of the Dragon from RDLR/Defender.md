@@ -154,7 +154,7 @@ description: "Learn to defend and counter the Kiss of the Dragon from Reverse De
 
 As the defender against Kiss of the Dragon from RDLR, you are the top player facing an opponent who has established Reverse De La Riva Guard and is threatening to invert underneath you to take your back. Your primary objective is to recognize the inversion setup early and deny the space required for the technique's execution. Successful defense relies on maintaining low base positioning with hips back, controlling the opponent's ankle grip that serves as their steering mechanism, and responding decisively to inversion attempts through sprawl, backstep, or forward pressure before the rotation passes the point of no return. Early recognition and immediate action are far more effective than reacting once the inversion has begun.
 
-**Opponent's Starting Position**: [[Reverse De La Riva Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against Kiss of the Dragon from RDLR, you are the top player fac
 ### 1. Sprawl hips back and drive weight down onto opponent's inverting body
 
 - **When to use**: When you feel opponent's hips shifting toward your centerline and recognize early inversion setup before head enters between legs
-- **Targets**: [[Reverse De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 - **If successful**: Opponent's inversion stalls and they return to RDLR guard position without gaining back exposure
 - **Risk**: If timed late after opponent has committed, the sprawl may compress your own base and actually accelerate their rotation through
 
 ### 2. Backstep far leg away from the RDLR hook to remove the pivot point entirely
 
 - **When to use**: When opponent releases far leg frame indicating imminent inversion commitment or when you feel the hook deepening
-- **Targets**: [[Reverse De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 - **If successful**: Removes the rotational axis needed for the technique, forcing opponent to re-establish guard structure from scratch
 - **Risk**: Backstepping opens space for X-Guard or Single Leg X transitions if opponent reads the retreat and adjusts
 
 ### 3. Drive crossface forward and flatten opponent before inversion begins
 
 - **When to use**: When opponent is still building grips and angle but has not yet committed to the rotation
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent is flattened and you consolidate passing position to side control over their compromised guard
 - **Risk**: Forward pressure feeds into waiter sweep if opponent redirects your momentum upward using the established RDLR hook
 
 ### 4. Strip the ankle grip with two-on-one break and re-establish base
 
 - **When to use**: When you identify the ankle grip as the primary threat and opponent has not begun the inversion rotation
-- **Targets**: [[Reverse De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 - **If successful**: Opponent loses their steering mechanism and cannot effectively direct the inversion rotation path
 - **Risk**: Grip fighting may divert attention from base maintenance, opening alternative sweep opportunities from RDLR
 
@@ -225,11 +225,11 @@ As the defender against Kiss of the Dragon from RDLR, you are the top player fac
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the inversion attempt stalls or is initiated with poor timing, drive forward with crossface pressure to flatten the opponent and consolidate to side control by pinning their hips and establishing chest-to-chest pressure over their compromised guard structure.
 
-### → [[Reverse De La Riva Guard]]
+### → [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 
 Deny the technique early by maintaining low base with heavy hips, stripping the ankle grip through two-on-one grip breaks, and preventing the space creation needed for the inversion. Force them to remain in RDLR where you can pursue systematic passing strategies.
 

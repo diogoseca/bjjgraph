@@ -21,7 +21,7 @@ The technique exploits a fundamental vulnerability in the Aoki Lock: the attacke
 
 This escape is essential for any practitioner facing advanced no-gi competitors who utilize leg entanglement shoulder locks. The turtle destination, while not ideal, represents a significant improvement from the submission danger of Aoki Lock bottom. From turtle, you have multiple recovery options including guard pull, stand-up, and rolling escapes. Understanding proper execution prevents the catastrophic shoulder injuries that can result from defending this position incorrectly.
 
-**From Position**: [[Aoki Lock]] (Bottom)
+**From Position**: [[Positions/Aoki Lock]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This escape is essential for any practitioner facing advanced no-gi competitors 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Aoki Lock]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Aoki Lock]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ Arm Extraction to Turtle serves as the primary escape pathway from Aoki Lock bot
 ## Related Techniques
 
 
-- [[Aoki Lock]] - Starting position - the submission control this escape addresses
+- [[Positions/Aoki Lock]] - Starting position - the submission control this escape addresses
 
-- [[Turtle]] - Target destination - position achieved upon successful escape
+- [[Positions/Turtle]] - Target destination - position achieved upon successful escape
 
-- [[Back Control]] - Potential counter outcome - opponent may take back during extraction
+- [[Positions/Back Control]] - Potential counter outcome - opponent may take back during extraction
 
-- [[Omoplata Control]] - Related position - similar shoulder mechanics in the attack
+- [[Positions/Omoplata Control]] - Related position - similar shoulder mechanics in the attack
 
-- [[Kimura Trap]] - Related position - similar escape principles apply to kimura defense
+- [[Positions/Kimura Trap]] - Related position - similar escape principles apply to kimura defense
 
-- [[Rolling Escape to Guard]] - Alternative escape - rolling option from Aoki Lock bottom
+- [[Transitions/Rolling Escape to Guard]] - Alternative escape - rolling option from Aoki Lock bottom
 
-- [[Hip Escape to Guard]] - Follow-up option - can transition from turtle to guard recovery
+- [[Transitions/Hip Escape to Guard]] - Follow-up option - can transition from turtle to guard recovery
 
-- [[Granby Roll to Guard]] - Alternative technique - different rolling escape pathway from turtle
+- [[Transitions/Granby Roll to Guard]] - Alternative technique - different rolling escape pathway from turtle
 
-- [[Arm Extraction]] - Related transition - general arm extraction mechanics applicable here
+- [[Transitions/Arm Extraction]] - Related transition - general arm extraction mechanics applicable here
 
-- [[Ashi Garami Escape]] - Related escape concept - similar principles of addressing leg control before limb extraction
+- [[Transitions/Ashi Garami Escape]] - Related escape concept - similar principles of addressing leg control before limb extraction
 
 
 </section>

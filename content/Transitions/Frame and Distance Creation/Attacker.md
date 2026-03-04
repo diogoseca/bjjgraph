@@ -178,7 +178,7 @@ The technique operates on the principle that leg lock control depends heavily on
 
 Strategically, Frame and Distance Creation serves as both a standalone escape and a preparatory action for other defensive sequences. The distance created provides the mobility needed to rotate hips, extract the trapped knee, or transition to standing. Against aggressive leg lockers who commit heavily to finishing, the framing action often creates windows where passing to top position becomes viable. This technique is particularly valuable because it addresses multiple control points simultaneously rather than fighting each grip individually.
 
-**From Position**: [[Straight Ankle Lock Control]] (Top)
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
 
@@ -230,9 +230,9 @@ Strategically, Frame and Distance Creation serves as both a standalone escape an
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 65% |
-| Failure | [[Straight Ankle Lock Control]] | 25% |
-| Counter | [[Inside Ashi-Garami]] | 10% |
+| Success | [[Positions/Open Guard]] | 65% |
+| Failure | [[Positions/Straight Ankle Lock Control]] | 25% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 10% |
 
 
 </section>
@@ -241,9 +241,9 @@ Strategically, Frame and Distance Creation serves as both a standalone escape an
 
 ## Opponent Counters
 
-- **Attacker clears frames and closes distance** (Effectiveness: High) - Your Response: Reset frames immediately and combine with hip rotation to create new angle. If they consistently clear frames, transition to standing escape sequence instead. → Leads to [[Straight Ankle Lock Control]]
-- **Attacker commits to finish attempt during frame extension** (Effectiveness: Medium) - Your Response: Their commitment to finishing sacrifices positional control. Accelerate the distance creation and look for opportunity to pass to top position as they lose leg configuration. → Leads to [[Open Guard]]
-- **Attacker transitions to inside ashi-garami before distance is achieved** (Effectiveness: High) - Your Response: Abandon framing sequence and address the inside ashi position directly. The transition indicates they read your escape and chose positional advancement over finishing. → Leads to [[Inside Ashi-Garami]]
+- **Attacker clears frames and closes distance** (Effectiveness: High) - Your Response: Reset frames immediately and combine with hip rotation to create new angle. If they consistently clear frames, transition to standing escape sequence instead. → Leads to [[Positions/Straight Ankle Lock Control]]
+- **Attacker commits to finish attempt during frame extension** (Effectiveness: Medium) - Your Response: Their commitment to finishing sacrifices positional control. Accelerate the distance creation and look for opportunity to pass to top position as they lose leg configuration. → Leads to [[Positions/Open Guard]]
+- **Attacker transitions to inside ashi-garami before distance is achieved** (Effectiveness: High) - Your Response: Abandon framing sequence and address the inside ashi position directly. The transition indicates they read your escape and chose positional advancement over finishing. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 </section>

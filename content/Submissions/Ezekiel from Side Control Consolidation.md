@@ -26,8 +26,8 @@ This submission works best as a secondary attack when opponents focus on defendi
 **Category**: Choke
 **Type**: Sleeve Choke
 **Target Area**: Neck
-**Starting Position**: [[Side Control Consolidation]]
-**From Position**: [[Side Control Consolidation]] (Top)
+**Starting Position**: [[Positions/Side Control/Side Control Consolidation]]
+**From Position**: [[Positions/Side Control/Side Control Consolidation]] (Top)
 **Success Rate**: 40%
 
 </section>
@@ -77,8 +77,8 @@ This submission works best as a secondary attack when opponents focus on defendi
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Side Control Consolidation]] | 40% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Side Control/Side Control Consolidation]] | 40% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -224,10 +224,10 @@ This submission works best as a secondary attack when opponents focus on defendi
 
 ## From Which Positions?
 
-- [[Side Control Consolidation]]
-- [[Side Control]]
-- [[Kesa Gatame]]
-- [[Modified Scarf Hold]]
+- [[Positions/Side Control/Side Control Consolidation]]
+- [[Positions/Side Control]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Side Control/Modified Scarf Hold]]
 
 
 </section>
@@ -236,14 +236,14 @@ This submission works best as a secondary attack when opponents focus on defendi
 
 ## Related Submissions
 
-- [[Ezekiel from Mount]]
-- [[Americana from Side Control]]
-- [[Arm Triangle]]
-- [[Arm Triangle from Scarf Hold]]
-- [[Breadcutter Choke]]
-- [[Baseball Bat Choke]]
-- [[Brabo Choke]]
-- [[Cross Collar Choke]]
+- [[Submissions/Ezekiel from Mount]]
+- [[Submissions/Americana from Side Control]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm Triangle from Scarf Hold]]
+- [[Transitions/Breadcutter Choke]]
+- [[Transitions/Baseball Bat Choke]]
+- [[Submissions/Brabo Choke]]
+- [[Transitions/Cross Collar Choke]]
 
 
 </section>
@@ -252,14 +252,14 @@ This submission works best as a secondary attack when opponents focus on defendi
 
 ## Additional Related Content
 
-- [[Side Control Consolidation]] - Primary starting position where the crossface arm is already threaded for choke setup
-- [[Side Control]] - Parent position family offering the same choke mechanics with slightly less control
-- [[Ezekiel from Mount]] - Same choke submission applied from mount, the more commonly taught variation
-- [[Americana from Side Control]] - Primary alternative submission and effective bait to set up the Ezekiel entry
-- [[Arm Triangle]] - Complementary choke attack when opponent turns into you during Ezekiel defense
-- [[Kesa Gatame]] - Related side control variation offering alternative Ezekiel entry angle with natural head control
-- [[North-South]] - Alternative control position to transition to when Ezekiel setup is defended
-- [[Breadcutter Choke]] - Alternative gi choke from similar side control positions targeting the same area
+- [[Positions/Side Control/Side Control Consolidation]] - Primary starting position where the crossface arm is already threaded for choke setup
+- [[Positions/Side Control]] - Parent position family offering the same choke mechanics with slightly less control
+- [[Submissions/Ezekiel from Mount]] - Same choke submission applied from mount, the more commonly taught variation
+- [[Submissions/Americana from Side Control]] - Primary alternative submission and effective bait to set up the Ezekiel entry
+- [[Transitions/Arm Triangle]] - Complementary choke attack when opponent turns into you during Ezekiel defense
+- [[Positions/Side Control/Kesa Gatame]] - Related side control variation offering alternative Ezekiel entry angle with natural head control
+- [[Positions/North-South]] - Alternative control position to transition to when Ezekiel setup is defended
+- [[Transitions/Breadcutter Choke]] - Alternative gi choke from similar side control positions targeting the same area
 
 
 </section>

@@ -23,7 +23,7 @@ Technically, the transition requires precise timing and hip angle adjustment. As
 
 Strategically, this transition exemplifies the dilemma-creation philosophy central to advanced guard play. From Meathook, opponents face impossible choices: driving forward walks into gogoplata, pulling arm upward opens triangle, spinning the arm enables omoplata. There is no safe defensive response, only selections of which submission they prefer to defend against.
 
-**From Position**: [[Meathook]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -34,9 +34,9 @@ Strategically, this transition exemplifies the dilemma-creation philosophy centr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Gogoplata Control]] | 55% |
-| Failure | [[Meathook]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Gogoplata Control]] | 55% |
+| Failure | [[Positions/Rubber Guard/Meathook]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -193,23 +193,23 @@ The Meathook to Gogoplata Control transition exemplifies the dilemma-creation ph
 ## Related Techniques
 
 
-- [[Meathook]] - Starting position—Meathook arm isolation creates the foundation for this transition
+- [[Positions/Rubber Guard/Meathook]] - Starting position—Meathook arm isolation creates the foundation for this transition
 
-- [[Gogoplata Control]] - Target position—successful transition establishes Gogoplata Control for finish
+- [[Positions/Gogoplata Control]] - Target position—successful transition establishes Gogoplata Control for finish
 
-- [[Gogoplata]] - Finishing submission available from Gogoplata Control
+- [[Transitions/Gogoplata]] - Finishing submission available from Gogoplata Control
 
-- [[Mission Control]] - Preceding position—Mission Control typically leads to Meathook in Rubber Guard chain
+- [[Positions/Rubber Guard/Mission Control]] - Preceding position—Mission Control typically leads to Meathook in Rubber Guard chain
 
-- [[Closed Guard to Triangle]] - Alternative attack when opponent defends gogoplata by pulling head upward
+- [[Transitions/Closed Guard to Triangle]] - Alternative attack when opponent defends gogoplata by pulling head upward
 
-- [[Closed Guard to Omoplata]] - Follow-up option when opponent stacks through gogoplata attempt
+- [[Transitions/Closed Guard to Omoplata]] - Follow-up option when opponent stacks through gogoplata attempt
 
-- [[Dead Orchard Control]] - Variant position that provides additional leverage for gogoplata finish
+- [[Positions/Dead Orchard Control]] - Variant position that provides additional leverage for gogoplata finish
 
-- [[Closed Guard]] - Fallback position if transition fails and Meathook cannot be re-established
+- [[Positions/Closed Guard]] - Fallback position if transition fails and Meathook cannot be re-established
 
-- [[Armbar from Guard]] - Alternative attack when opponent prioritizes arm defense over head protection
+- [[Submissions/Armbar from Guard]] - Alternative attack when opponent prioritizes arm defense over head protection
 
 
 </section>

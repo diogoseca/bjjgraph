@@ -216,25 +216,25 @@ Competition application requires understanding rule sets and opponent body types
 
 ## Available Escapes
 
-### [[Meathook to Gogoplata Control]] (11% of attempts)
+### [[Transitions/Meathook to Gogoplata Control]] (11% of attempts)
 
-### [[Triangle Setup]] (18% of attempts)
+### [[Transitions/Triangle Setup]] (18% of attempts)
 
-### [[Closed Guard to Omoplata]] (11% of attempts)
+### [[Transitions/Closed Guard to Omoplata]] (11% of attempts)
 
-### [[Crackhead Control to Carni]] (10% of attempts)
+### [[Transitions/Crackhead Control to Carni]] (10% of attempts)
 
-### [[Armbar from Guard]] (8% of attempts)
+### [[Submissions/Armbar from Guard]] (8% of attempts)
 
-### [[Omoplata to Back]] (7% of attempts)
+### [[Transitions/Omoplata to Back]] (7% of attempts)
 
-### [[Crackhead Control to Mission Control]] (11% of attempts)
+### [[Transitions/Crackhead Control to Mission Control]] (11% of attempts)
 
-### [[Baratoplata Setup]] (10% of attempts)
+### [[Transitions/Baratoplata Setup]] (10% of attempts)
 
-### [[Tarikoplata Setup]] (10% of attempts)
+### [[Transitions/Tarikoplata Setup]] (10% of attempts)
 
-### [[Sweep from Meathook]] (4% of attempts)
+### [[Transitions/Sweep from Meathook]] (4% of attempts)
 
 
 
@@ -245,28 +245,28 @@ Competition application requires understanding rule sets and opponent body types
 ## Decision Making from This Position
 
 **If opponent drives forward with pressure attempting to stack or smash guard:**
-- Execute **[[Meathook to Gogoplata Control]]** → [[Gogoplata Control]] (Probability: 65%)
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 50%)
+- Execute **[[Transitions/Meathook to Gogoplata Control]]** → [[Positions/Gogoplata Control]] (Probability: 65%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 50%)
 
 
 **If opponent attempts to extract trapped arm by pulling upward or circling:**
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 70%)
-- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 65%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 70%)
+- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 65%)
 
 
 **If opponent attempts to spin or rotate trapped arm to escape hook:**
-- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 75%)
-- Execute **[[Crackhead Control to Carni]]** → [[Carni]] (Probability: 70%)
+- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 75%)
+- Execute **[[Transitions/Crackhead Control to Carni]]** → [[Positions/Rubber Guard/Carni]] (Probability: 70%)
 
 
 **If opponent establishes strong base and pauses defensive movement:**
-- Execute **[[Crackhead Control to Mission Control]]** → [[Mission Control]] (Probability: 65%)
-- Execute **[[Armbar from Guard]]** → [[Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Crackhead Control to Mission Control]]** → [[Positions/Rubber Guard/Mission Control]] (Probability: 65%)
+- Execute **[[Submissions/Armbar from Guard]]** → [[Positions/Armbar Control]] (Probability: 55%)
 
 
 **If opponent attempts to pressure pass by driving shoulder into chest:**
-- Execute **[[Omoplata to Back]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Crackhead Control to Carni]]** → [[Carni]] (Probability: 65%)
+- Execute **[[Transitions/Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Crackhead Control to Carni]]** → [[Positions/Rubber Guard/Carni]] (Probability: 65%)
 
 
 
@@ -405,16 +405,16 @@ Start in Meathook position with partner attempting escapes using full resistance
 
 ## Related Positions and Techniques
 
-- **[[Mission Control]]** - Primary entry position—establish Mission Control before advancing to Meathook
-- **[[Gogoplata Control]]** - Direct finish when opponent drives forward from Meathook
-- **[[Triangle Control]]** - High-percentage finish when opponent attempts upward arm extraction
-- **[[Omoplata Control]]** - Natural transition when opponent spins or rotates trapped arm
-- **[[Carni]]** - Intermediate position that bridges Meathook to omoplata attacks
-- **[[New York]]** - Alternative Rubber Guard control that can transition to Meathook
-- **[[Invisible Collar]]** - Related Rubber Guard position within the same system
-- **[[Crackhead Control]]** - Transitional position in Rubber Guard chain connecting Meathook to other controls
-- **[[Armbar Control]]** - Alternative attack when opponent establishes strong defensive base
-- **[[Back Control]]** - Available when opponent rolls or pressure passes from Meathook attacks
+- **[[Positions/Rubber Guard/Mission Control]]** - Primary entry position—establish Mission Control before advancing to Meathook
+- **[[Positions/Gogoplata Control]]** - Direct finish when opponent drives forward from Meathook
+- **[[Positions/Triangle Control]]** - High-percentage finish when opponent attempts upward arm extraction
+- **[[Positions/Omoplata Control]]** - Natural transition when opponent spins or rotates trapped arm
+- **[[Positions/Rubber Guard/Carni]]** - Intermediate position that bridges Meathook to omoplata attacks
+- **[[Positions/Rubber Guard/New York]]** - Alternative Rubber Guard control that can transition to Meathook
+- **[[Positions/Rubber Guard/Invisible Collar]]** - Related Rubber Guard position within the same system
+- **[[Positions/Crackhead Control]]** - Transitional position in Rubber Guard chain connecting Meathook to other controls
+- **[[Positions/Armbar Control]]** - Alternative attack when opponent establishes strong defensive base
+- **[[Positions/Back Control]]** - Available when opponent rolls or pressure passes from Meathook attacks
 
 
 </section>

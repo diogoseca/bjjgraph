@@ -146,7 +146,7 @@ description: "Master defending against hand fights from seat belt back control. 
 
 Defending against hand fighting from seat belt back control requires the top player to maintain their grip structure while exploiting the defensive dilemma that hand fighting creates for the bottom player. When the bottom player commits hands to grip breaking, they necessarily reduce their neck defense, creating windows for choke entries and positional improvements. The defender's role is to reinforce grip connections faster than they can be stripped, punish grip fighting with submission advances, and maintain the overall back control structure through adjustments to hooks, chest pressure, and grip configuration. Understanding the bottom player's hand fight methodology allows the defender to anticipate which arm will be targeted and pre-position defenses accordingly, turning their escape attempts into submission opportunities.
 
-**Opponent's Starting Position**: [[Seat Belt Control Back]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control/Seat Belt Control Back]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending against hand fighting from seat belt back control requires the top pla
 ### 1. Reinforce seat belt grip by switching to stronger connection type or repositioning clasp point
 
 - **When to use**: When bottom player begins systematically attacking your grip connection with two-on-one methodology
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Maintains complete seat belt control and forces bottom player to restart hand fight sequence from zero
 - **Risk**: Brief grip adjustment creates momentary control reduction that skilled opponent may exploit
 
 ### 2. Advance choking arm toward opponent's neck when their hands leave neck defense to fight grips
 
 - **When to use**: When bottom player commits both hands to stripping your over-arm, leaving their throat undefended
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Forces bottom player to immediately abandon hand fight and return to neck defense, resetting all escape progress
 - **Risk**: Advancing the choke arm requires releasing part of the seat belt, which may compromise grip structure if the choke does not threaten
 
 ### 3. Increase chest pressure and deepen hooks to maintain positional dominance through body control rather than grip alone
 
 - **When to use**: When bottom player combines hand fighting with hip movement to create angles that weaken your grip structure
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Neutralizes hip movement that creates mechanical weakness, forcing bottom player to fight your grip at full structural strength
 - **Risk**: Sustained maximum pressure increases energy expenditure and may not be maintainable for extended sequences
 
 ### 4. Transition to gift wrap or alternative control configuration when seat belt is compromised
 
 - **When to use**: When bottom player successfully strips one arm of the seat belt and you cannot immediately re-establish the connection
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Maintains back control through alternative grip configuration despite loss of the specific seat belt structure
 - **Risk**: Transition period between grip configurations creates an escape window where bottom player may complete turtle escape
 
@@ -217,7 +217,7 @@ Defending against hand fighting from seat belt back control requires the top pla
 
 ## Best-Case Outcomes for Defender
 
-### → [[Seat Belt Control Back]]
+### → [[Positions/Back Control/Seat Belt Control Back]]
 
 Reinforce grip connections faster than bottom player can strip them by switching between gable grip, palm cup, and wrist-on-wrist configurations. Punish every hand fight attempt with immediate choke advancement that forces hands back to neck defense. Maintain constant chest pressure and deep hooks that deny the hip movement bottom player needs for effective grip breaking.
 

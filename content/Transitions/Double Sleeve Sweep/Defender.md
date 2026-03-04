@@ -146,7 +146,7 @@ description: "Defend against the Double Sleeve Sweep in BJJ. Recognition cues, c
 
 Defending the Double Sleeve Sweep requires immediate recognition of the bilateral sleeve control threat and systematic grip breaking before the bottom player generates sweeping momentum. The top player's primary objective is preventing the push-pull dynamic from developing by maintaining strong upright posture, breaking grips proactively, and denying foot placement on the hips. When the sweep is initiated, posting the hand wide on the sweep side and driving weight forward are the most effective emergency responses. Understanding the sweep's mechanics reveals its core vulnerabilities: it requires both sleeve grips, foot-on-hip contact, and a rotational angle. Removing any one of these three elements neutralizes the threat entirely, giving the defender multiple defensive pathways to choose from based on timing and positioning.
 
-**Opponent's Starting Position**: [[Double Sleeve Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ Defending the Double Sleeve Sweep requires immediate recognition of the bilatera
 ### 1. Post hand wide on the sweep side and drive forward to block the rotational path
 
 - **When to use**: When you feel the asymmetric pull beginning and your balance is being compromised to one side
-- **Targets**: [[Double Sleeve Guard]]
+- **Targets**: [[Positions/Double Sleeve Guard]]
 - **If successful**: Sweep is neutralized and you maintain top position with opportunity to initiate grip break and passing sequence
 - **Risk**: If you post with a hand still controlled by sleeve grip, opponent may redirect into armbar or triangle setup
 
 ### 2. Break one sleeve grip using wrist rotation toward their thumb combined with elbow posting
 
 - **When to use**: Before the sweep develops momentum, ideally when you first feel bilateral tension on your sleeves
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Bottom player loses the bilateral control needed for any sweep variant and you can initiate your preferred passing sequence
 - **Risk**: During the grip break, temporary one-handed base may allow a different sweep attempt if timed poorly by you
 
 ### 3. Drive weight low and forward while widening base to compress the guard
 
 - **When to use**: When opponent loads the overhead sweep variant with both feet on hips pushing upward
-- **Targets**: [[Double Sleeve Guard]]
+- **Targets**: [[Positions/Double Sleeve Guard]]
 - **If successful**: Forward pressure collapses their guard structure and prevents the elevation needed for the overhead variant
 - **Risk**: Driving forward into double sleeve control can expose you to triangle setups if opponent redirects one sleeve across your neck
 
 ### 4. Circle laterally away from the sweep direction to remove the angle
 
 - **When to use**: When you recognize the asymmetric loading early and have time to move before full sweep commitment
-- **Targets**: [[Double Sleeve Guard]]
+- **Targets**: [[Positions/Double Sleeve Guard]]
 - **If successful**: Removes the angle the bottom player needs for rotational force and may create a passing opportunity
 - **Risk**: Circling without first breaking grips may walk you into a redirected sweep to the opposite side
 
@@ -216,11 +216,11 @@ Defending the Double Sleeve Sweep requires immediate recognition of the bilatera
 
 ## Best-Case Outcomes for Defender
 
-### → [[Double Sleeve Guard]]
+### → [[Positions/Double Sleeve Guard]]
 
 Break at least one sleeve grip before the sweep develops momentum and maintain strong upright posture throughout. Post immediately on the sweep side if off-balanced. Drive weight forward to prevent elevation while systematically working grip breaks.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Aggressively strip both sleeve grips using two-on-one grip breaks with wrist rotation and hip movement. Once bilateral control is broken, immediately establish your own control grips on their pants or ankles and begin a passing sequence before they can re-grip your sleeves.
 

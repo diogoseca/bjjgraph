@@ -158,7 +158,7 @@ The defender's primary strategic goal is to deny the two prerequisites the attac
 
 Advanced defenders learn to navigate the Hindulotine dilemma by using responses that do not involve the near-side frame at all. Posturing through the hips rather than framing with the arms, turning into the opponent to compress space and deny the butterfly sweep, or timing an explosive posture recovery during the grip transition all avoid giving the attacker the arm they need. Understanding that the arm triangle transition is reaction-dependent—it only works when you frame—gives the defender the ability to choose responses that deny the trigger entirely.
 
-**Opponent's Starting Position**: [[Hindulotine]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Advanced defenders learn to navigate the Hindulotine dilemma by using responses 
 ### 1. Retract the framing arm immediately by pulling your elbow tight to your ribs before it can be pinned against your neck
 
 - **When to use**: The moment you feel the opponent's hand shift to clamp your framing arm—this is the earliest and highest-percentage defense
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: The arm triangle configuration is denied entirely, and the attacker must return to the Hindulotine guillotine, giving you the opportunity to address the original choke
 - **Risk**: Retracting the arm removes the frame that was relieving guillotine pressure, potentially tightening the original Hindulotine choke
 
 ### 2. Drive forward with heavy shoulder pressure and wide base to flatten the attacker and deny the butterfly sweep
 
 - **When to use**: When the arm is already trapped and the grip change is underway—focus on preventing the sweep rather than extracting the arm since the arm triangle cannot finish from bottom
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You maintain top position and the attacker cannot generate sufficient pressure from bottom to finish the arm triangle, forcing them to release or stall
 - **Risk**: Driving forward loads the attacker's butterfly hooks and may provide the energy they need to execute the sweep
 
 ### 3. Circle your hips away from the choking arm side while posturing up through your spine during the grip transition window
 
 - **When to use**: During the brief moment when the attacker releases the guillotine grip but has not yet fully secured the arm triangle—the transition creates a window of reduced control
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You extract your head from the incomplete grip and recover posture, potentially escaping to top half guard or resetting to address the guard position
 - **Risk**: If the attacker follows your hip movement with their legs, they may transition to a back take as your turning motion exposes your back
 
 ### 4. Post your free hand wide on the mat and sprawl your hips back to kill the butterfly sweep angle while keeping your trapped arm close to your body
 
 - **When to use**: When you feel the attacker loading their butterfly hooks for the sweep—the wide post and hip sprawl remove the elevation angle they need
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The sweep is negated and you maintain top position, where you can methodically work to extract your trapped arm and escape the arm triangle configuration
 - **Risk**: The attacker may switch to a hip escape pathway instead of the butterfly sweep, shrimping out and circling to side control while maintaining the grip
 
@@ -228,11 +228,11 @@ Advanced defenders learn to navigate the Hindulotine dilemma by using responses 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Retract the framing arm before it is fully trapped and address the original Hindulotine through standard guillotine defenses such as tucking the chin, posturing through the hips, or circling your head to the outside. Alternatively, exploit the grip transition window to posture up and extract your head when control is momentarily reduced.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If the arm is already trapped, deny the sweep by basing wide with a posted hand and sprawling your hips. Maintain top position at all costs since the arm triangle cannot finish from bottom. From top half guard with the arm trapped, work to extract by turning your trapped arm's palm toward the ceiling and swimming the elbow down toward your hip while driving heavy shoulder pressure.
 

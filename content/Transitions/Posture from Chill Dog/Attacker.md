@@ -180,7 +180,7 @@ description: "Execute posture recovery from Chill Dog top position. Systematic u
 
 As the Chill Dog top player executing Posture from Chill Dog, your objective is to systematically break the bottom player's compact defensive shell and force them into a guard position where you can apply your passing game. This transition acknowledges that sometimes the direct path to back control is blocked by exceptional Chill Dog defense, and the most productive option is to transition the engagement to a guard-passing scenario where you have more tools available. The execution requires patient grip work, strategic underhook placement, and controlled lifting mechanics to peel the defender out of their ball without exposing yourself to back takes during the positional change. Your success hinges on maintaining constant pressure throughout the transition and immediately establishing posture the moment their legs close around your waist.
 
-**From Position**: [[Chill Dog]] (Top)
+**From Position**: [[Positions/Rubber Guard/Chill Dog]] (Top)
 
 </section>
 
@@ -231,10 +231,10 @@ As the Chill Dog top player executing Posture from Chill Dog, your objective is 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 40% |
-| Failure | [[Chill Dog]] | 35% |
-| Success | [[Half Guard]] | 15% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Closed Guard]] | 40% |
+| Failure | [[Positions/Rubber Guard/Chill Dog]] | 35% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the Chill Dog top player executing Posture from Chill Dog, your objective is 
 
 ## Opponent Counters
 
-- **Bottom player re-tightens elbow-knee frame and compresses back into compact ball during underhook attempt** (Effectiveness: High) - Your Response: Maintain chest pressure and wait for the next loosening of the frame. Use short, sharp hip drives to create micro-gaps in the defensive shell rather than sustained pulling. → Leads to [[Chill Dog]]
-- **Bottom player uses the lifting momentum to barrel roll underneath and take the back** (Effectiveness: Medium) - Your Response: Keep your hips low and heavy throughout the lift. If you feel them rotating under you, immediately drop your weight and re-establish chest pressure rather than fighting the roll from a compromised position. → Leads to [[Back Control]]
-- **Bottom player threads near leg to catch half guard during the transition before full guard recovery** (Effectiveness: Medium) - Your Response: Accept the half guard position and immediately work to free your trapped leg using knee slide or hip switch mechanics. Half guard top is still a significant improvement over stalled Chill Dog for many practitioners. → Leads to [[Half Guard]]
-- **Bottom player explosively executes Granby roll as the lift creates momentary space** (Effectiveness: High) - Your Response: Follow the Granby by maintaining upper body contact and driving chest into them as they roll. If they complete the roll to guard, you still achieve your objective. If you can intercept mid-roll, immediately establish back control. → Leads to [[Chill Dog]]
+- **Bottom player re-tightens elbow-knee frame and compresses back into compact ball during underhook attempt** (Effectiveness: High) - Your Response: Maintain chest pressure and wait for the next loosening of the frame. Use short, sharp hip drives to create micro-gaps in the defensive shell rather than sustained pulling. → Leads to [[Positions/Rubber Guard/Chill Dog]]
+- **Bottom player uses the lifting momentum to barrel roll underneath and take the back** (Effectiveness: Medium) - Your Response: Keep your hips low and heavy throughout the lift. If you feel them rotating under you, immediately drop your weight and re-establish chest pressure rather than fighting the roll from a compromised position. → Leads to [[Positions/Back Control]]
+- **Bottom player threads near leg to catch half guard during the transition before full guard recovery** (Effectiveness: Medium) - Your Response: Accept the half guard position and immediately work to free your trapped leg using knee slide or hip switch mechanics. Half guard top is still a significant improvement over stalled Chill Dog for many practitioners. → Leads to [[Positions/Half Guard]]
+- **Bottom player explosively executes Granby roll as the lift creates momentary space** (Effectiveness: High) - Your Response: Follow the Granby by maintaining upper body contact and driving chest into them as they roll. If they complete the roll to guard, you still achieve your objective. If you can intercept mid-roll, immediately establish back control. → Leads to [[Positions/Rubber Guard/Chill Dog]]
 
 
 </section>

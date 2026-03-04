@@ -21,7 +21,7 @@ Strategically, this transition trades the specialized attacking opportunities of
 
 The primary challenge lies in maintaining control during the transition window between open and closed guard. The moment of ankle crossing is the most vulnerable point, as the bottom player must briefly adjust their leg position without creating space the top player can exploit. A poorly timed attempt gives the top player an opportunity to posture, strip the overhook, and begin establishing distance for guard passing. Successful execution requires precise timing, proper hip alignment, and decisive leg movement to lock the guard before the top player can react.
 
-**From Position**: [[Overhook Guard]] (Bottom)
+**From Position**: [[Positions/Overhook Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The primary challenge lies in maintaining control during the transition window b
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Overhook Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Overhook Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Overhook to Closed Guard transition sits at a critical junction in the guard
 ## Related Techniques
 
 
-- [[Overhook Guard]] - Source position from which this transition originates
+- [[Positions/Overhook Guard]] - Source position from which this transition originates
 
-- [[Closed Guard]] - Target position achieved on successful guard closure
+- [[Positions/Closed Guard]] - Target position achieved on successful guard closure
 
-- [[Open Guard]] - Position reached on counter when opponent strips overhook and creates distance
+- [[Positions/Open Guard]] - Position reached on counter when opponent strips overhook and creates distance
 
-- [[Overhook Sweep]] - Alternative offensive option from the same starting position
+- [[Transitions/Overhook Sweep]] - Alternative offensive option from the same starting position
 
-- [[Hip Bump Sweep]] - Primary sweep available after successfully closing guard
+- [[Transitions/Hip Bump Sweep]] - Primary sweep available after successfully closing guard
 
-- [[Triangle Setup]] - Chain attack option when opponent defends guard closure by pulling arm free
+- [[Transitions/Triangle Setup]] - Chain attack option when opponent defends guard closure by pulling arm free
 
-- [[Kimura Trap]] - Related control position accessible from overhook when opponent turns away
+- [[Positions/Kimura Trap]] - Related control position accessible from overhook when opponent turns away
 
-- [[Break Overhook Guard]] - Opponent's primary technique to prevent this transition
+- [[Transitions/Break Overhook Guard]] - Opponent's primary technique to prevent this transition
 
-- [[Guard Opening Sequence]] - Opponent's response after closed guard is established
+- [[Transitions/Guard Opening Sequence]] - Opponent's response after closed guard is established
 
-- [[Overhook Control]] - Related control concept sharing overhook mechanics
+- [[Positions/Overhook Control]] - Related control concept sharing overhook mechanics
 
-- [[Armbar from Guard]] - Submission available from closed guard after successful transition
+- [[Submissions/Armbar from Guard]] - Submission available from closed guard after successful transition
 
 
 </section>

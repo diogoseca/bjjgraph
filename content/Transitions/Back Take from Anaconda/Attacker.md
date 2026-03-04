@@ -186,7 +186,7 @@ description: "Master the attacking strategy for Back Take from Anaconda. Learn g
 
 The attacker executing the Back Take from Anaconda must develop the ability to read defensive reactions and convert choke pressure into positional advancement. This transition requires abandoning a near-submission in favor of a higher-value position, which demands both technical precision during the grip exchange and the strategic maturity to recognize when positional advancement outweighs submission persistence. The attacker maintains continuous physical connection throughout the transition, ensuring the defender never has a free moment to reorient or establish defensive frames. Success depends on seamless coordination between grip release, seatbelt establishment, hip positioning, and hook insertion executed as one fluid movement rather than discrete steps.
 
-**From Position**: [[Anaconda Control]] (Top)
+**From Position**: [[Positions/Anaconda Control]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ The attacker executing the Back Take from Anaconda must develop the ability to r
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Anaconda Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Anaconda Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ The attacker executing the Back Take from Anaconda must develop the ability to r
 
 ## Opponent Counters
 
-- **Opponent immediately turns back to face attacker during grip transition window** (Effectiveness: High) - Your Response: Abort the back take and re-establish anaconda grip or transition to front headlock. If they turn quickly, you may be able to shoot for a guillotine or darce as they rotate toward you. → Leads to [[Anaconda Control]]
-- **Opponent drops hips flat to mat and sprawls to prevent hook insertion** (Effectiveness: Medium) - Your Response: Maintain seatbelt control and walk your hips laterally to create an angle. Use the seatbelt to pull their upper body toward you while driving your knee under their hip to create space for hook entry. Alternatively, transition to a body triangle if one hook is in. → Leads to [[Anaconda Control]]
-- **Opponent grabs attacker's transitioning arm to prevent seatbelt establishment** (Effectiveness: Medium) - Your Response: Use your free arm to swim inside their grip while maintaining chest pressure. If they commit both hands to grip fighting your arms, their base is compromised and you can use hip pressure to roll them and insert hooks from the resulting scramble. → Leads to [[Anaconda Control]]
-- **Opponent executes hip switch and sits through during the transition to recover half guard** (Effectiveness: High) - Your Response: If the sit-through is already in motion, follow their hips and attempt to maintain top position. Prepare to transition to a passing position from half guard top rather than forcing the back take against strong hip movement. → Leads to [[Half Guard]]
+- **Opponent immediately turns back to face attacker during grip transition window** (Effectiveness: High) - Your Response: Abort the back take and re-establish anaconda grip or transition to front headlock. If they turn quickly, you may be able to shoot for a guillotine or darce as they rotate toward you. → Leads to [[Positions/Anaconda Control]]
+- **Opponent drops hips flat to mat and sprawls to prevent hook insertion** (Effectiveness: Medium) - Your Response: Maintain seatbelt control and walk your hips laterally to create an angle. Use the seatbelt to pull their upper body toward you while driving your knee under their hip to create space for hook entry. Alternatively, transition to a body triangle if one hook is in. → Leads to [[Positions/Anaconda Control]]
+- **Opponent grabs attacker's transitioning arm to prevent seatbelt establishment** (Effectiveness: Medium) - Your Response: Use your free arm to swim inside their grip while maintaining chest pressure. If they commit both hands to grip fighting your arms, their base is compromised and you can use hip pressure to roll them and insert hooks from the resulting scramble. → Leads to [[Positions/Anaconda Control]]
+- **Opponent executes hip switch and sits through during the transition to recover half guard** (Effectiveness: High) - Your Response: If the sit-through is already in motion, follow their hips and attempt to maintain top position. Prepare to transition to a passing position from half guard top rather than forcing the back take against strong hip movement. → Leads to [[Positions/Half Guard]]
 
 
 </section>

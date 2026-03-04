@@ -21,7 +21,7 @@ The strategic value of the Toreando from Headquarters lies in its complementary 
 
 Execution requires precise coordination between grip acquisition on both legs and the explosive lateral step. The pass fails most commonly when the passer pushes the legs without simultaneously stepping laterally, giving the opponent time to recover hip position and re-establish guard. The leg push and lateral step must function as a single coordinated movement rather than sequential actions. The speed differential between redirecting the legs and clearing the hips determines whether the passer reaches side control or the bottom player recovers guard structure.
 
-**From Position**: [[Headquarters Position]] (Top)
+**From Position**: [[Positions/Headquarters Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Execution requires precise coordination between grip acquisition on both legs an
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Headquarters Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Headquarters Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Toreando from Headquarters occupies a critical role in the systematic passin
 ## Related Techniques
 
 
-- [[Headquarters Position]] - Starting position providing established leg control and systematic passing hub
+- [[Positions/Headquarters Position]] - Starting position providing established leg control and systematic passing hub
 
-- [[Side Control]] - Primary target position achieved on successful pass completion
+- [[Positions/Side Control]] - Primary target position achieved on successful pass completion
 
-- [[Half Guard]] - Counter outcome position when opponent catches passer's leg during lateral movement
+- [[Positions/Half Guard]] - Counter outcome position when opponent catches passer's leg during lateral movement
 
-- [[Knee Cut from Headquarters]] - Complementary pressure pass from same starting position that punishes close-range defense
+- [[Transitions/Knee Cut from Headquarters]] - Complementary pressure pass from same starting position that punishes close-range defense
 
-- [[Leg Drag from Headquarters]] - Alternative directional pass from headquarters when opponent creates strong upper body frames
+- [[Transitions/Leg Drag from Headquarters]] - Alternative directional pass from headquarters when opponent creates strong upper body frames
 
-- [[Toreando Pass from De La Riva]] - Same toreando concept applied from different guard configuration requiring different grip setup
+- [[Transitions/Toreando Pass from De La Riva]] - Same toreando concept applied from different guard configuration requiring different grip setup
 
-- [[Toreando Pass from Seated Guard]] - Toreando variation from seated guard with different entry mechanics and timing
+- [[Transitions/Toreando Pass from Seated Guard]] - Toreando variation from seated guard with different entry mechanics and timing
 
-- [[Toreando from Double Sleeve]] - Toreando pass executed with specific double sleeve grip control variation
+- [[Transitions/Toreando from Double Sleeve]] - Toreando pass executed with specific double sleeve grip control variation
 
-- [[Combat Base]] - Preceding position from which headquarters is often established before toreando attempts
+- [[Positions/Combat Base]] - Preceding position from which headquarters is often established before toreando attempts
 
-- [[Knee on Belly]] - Secondary target position accessible when toreando overshoots past side control
+- [[Positions/Knee on Belly]] - Secondary target position accessible when toreando overshoots past side control
 
 
 </section>

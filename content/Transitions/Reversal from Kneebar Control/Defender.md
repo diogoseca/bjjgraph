@@ -154,7 +154,7 @@ description: "Learn to defend against the reversal from kneebar control in BJJ. 
 
 Defending the reversal from kneebar control requires the top player to recognize when the bottom player transitions from a kneebar submission attempt to a sweeping motion. The defender must maintain base and positional integrity while simultaneously managing the kneebar threat and preventing the sweep. The key challenge is that both threats demand different defensive responses: kneebar defense involves bending the knee and resisting extension, while sweep defense requires maintaining a strong posting base with forward weight distribution. Recognizing the moment of transition allows the defender to shift from kneebar defense to base maintenance before the sweep gains momentum, turning the attacker's positional gambit into an opportunity for leg extraction and top position consolidation.
 
-**Opponent's Starting Position**: [[Kneebar Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Kneebar Control]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the reversal from kneebar control requires the top player to recognize
 ### 1. Post hands behind your hips and scoot away to create distance from the sweep
 
 - **When to use**: When you feel the bottom player's momentum shifting forward and your leg is still entangled
-- **Targets**: [[Kneebar Control]]
+- **Targets**: [[Positions/Kneebar Control]]
 - **If successful**: Creates distance that kills sweep momentum, forcing attacker back to kneebar control where they must restart their attack sequence
 - **Risk**: Posting hands behind you can compromise your kneebar defense by reducing your ability to bend and protect your knee
 
 ### 2. Extract your leg forcefully during the grip transition when attacker shifts from submission to sweep grips
 
 - **When to use**: When you detect the moment the attacker loosens their kneebar finishing grip to adjust for the sweep
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Full leg extraction eliminates both the kneebar threat and sweep leverage, allowing you to establish half guard top or passing position
 - **Risk**: Failed extraction during the transition may give the attacker a better grip configuration for completing the sweep
 
 ### 3. Drive weight forward onto the bottom player to flatten them and prevent the sit-up drive
 
 - **When to use**: When the bottom player begins sitting up or posting on their elbow, indicating the sit-up drive reversal variant
-- **Targets**: [[Kneebar Control]]
+- **Targets**: [[Positions/Kneebar Control]]
 - **If successful**: Your forward pressure flattens the attacker back to the mat, killing their sit-up momentum and returning to kneebar control stalemate
 - **Risk**: Forward weight commitment can be redirected by the attacker into a roll-through reversal if they switch variants
 
 ### 4. Base wide with your free leg and actively kick out any inserted butterfly hooks
 
 - **When to use**: When you feel a hook being inserted under your thigh or when the attacker attempts the hook sweep variant
-- **Targets**: [[Kneebar Control]]
+- **Targets**: [[Positions/Kneebar Control]]
 - **If successful**: Wide base eliminates the elevation angle needed for the hook sweep, forcing the attacker to choose a different attack path
 - **Risk**: Wide base can create space that the attacker uses for a different sweep angle or to re-enter the kneebar with better positioning
 
@@ -225,11 +225,11 @@ Defending the reversal from kneebar control requires the top player to recognize
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your leg extraction with the attacker's grip transition from kneebar to sweep grips. When you feel arm pressure shift from downward pull to lateral pull, explosively straighten and retract your leg while posting your free hand. Establish half guard top immediately by inserting your knee across their hip line before they can recover guard.
 
-### → [[Kneebar Control]]
+### → [[Positions/Kneebar Control]]
 
 Maintain strong defensive base throughout the sweep attempt by keeping your free leg posted wide and your weight centered. When the attacker's sweep stalls, their momentum dies and they return to the kneebar attack from a weakened grip position. Use this moment to adjust your defensive posture and prepare for your own escape or continued defense.
 

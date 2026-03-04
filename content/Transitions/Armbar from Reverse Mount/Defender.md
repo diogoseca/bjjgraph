@@ -154,7 +154,7 @@ description: "Master defensive strategies against the armbar from reverse mount.
 
 Defending the armbar from reverse mount demands rapid recognition and immediate response because you cannot see the attacker's upper body movements from this position. You must rely entirely on tactile cues: feeling the attacker grip your wrist, sensing their weight shift laterally, and detecting the pressure change as their leg begins to swing over your body. The defensive window is narrow. Once the attacker completes the pivot and establishes armbar control with knees pinched and hips positioned, escape becomes significantly more difficult and energy-intensive. The primary defensive strategy operates on two timelines: preventing arm isolation before the pivot begins, and disrupting the pivot mechanics if isolation occurs. Keeping elbows tight to your ribs eliminates easy arm access, while clasping hands together after a grip is established creates the interlocked defense that delays the finish and buys time for escape movement.
 
-**Opponent's Starting Position**: [[Reverse Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Reverse Mount]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the armbar from reverse mount demands rapid recognition and immediate 
 ### 1. Clasp hands together immediately upon feeling wrist grip, creating interlocked defense that prevents arm extension
 
 - **When to use**: As soon as you feel the attacker grab your wrist or forearm, before they begin the pivot. This is the highest-percentage first response and buys critical time for follow-up escapes.
-- **Targets**: [[Reverse Mount]]
+- **Targets**: [[Positions/Reverse Mount]]
 - **If successful**: The attacker cannot extend your arm for the armbar finish and must either abandon the attempt, work to break your grip, or switch attacks, all of which create escape opportunities
 - **Risk**: If the attacker is skilled at grip breaking using hip elevation and leg pressure, the clasped hands may only delay the armbar rather than prevent it entirely
 
 ### 2. Bridge explosively and turn toward the attacker during their pivot transition, disrupting the armbar angle and creating scramble opportunity
 
 - **When to use**: When you feel the attacker's weight shift laterally and their base becomes compromised during the pivot. The moment they lift their far leg to swing over your body is when their balance is most vulnerable.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: The attacker loses the armbar angle and you can turn into them to establish closed guard or create a scramble position that favors reguarding
 - **Risk**: If the bridge is mistimed and the attacker has already completed the pivot, the turning motion may actually accelerate the armbar by extending your arm
 
 ### 3. Pull the targeted arm tight against your body immediately, denying the two-point grip and eliminating the isolation opportunity
 
 - **When to use**: At the earliest possible moment when you sense the attacker reaching for your arm. Proactive arm clamping prevents the initial grip that the entire armbar depends on.
-- **Targets**: [[Reverse Mount]]
+- **Targets**: [[Positions/Reverse Mount]]
 - **If successful**: The attacker cannot establish the wrist grip needed to begin the armbar sequence and must either attempt the other arm, abandon the submission, or switch to positional transitions
 - **Risk**: Keeping both arms tightly clamped restricts your own defensive options for bridging and framing, potentially making mount conversion or back take transitions easier for the attacker
 
 ### 4. Sit up and follow the attacker as they pivot, preventing them from establishing the perpendicular armbar angle by staying chest-to-chest
 
 - **When to use**: When the attacker has begun the pivot but has not yet completed the leg swing. Following their rotation prevents them from creating the distance and angle needed for the armbar.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You neutralize the armbar angle and create a scramble situation where you can reguard, establish closed guard, or potentially reverse the position entirely
 - **Risk**: Sitting up from reverse mount bottom requires significant core strength and timing. If the attacker maintains hip pressure, the sit-up may fail and expend valuable energy
 
@@ -225,11 +225,11 @@ Defending the armbar from reverse mount demands rapid recognition and immediate 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Use the attacker's overcommitment to the armbar pivot to bridge and turn into them, following their rotation to establish closed guard. Their focus on the arm control and pivot mechanics creates a window where they cannot defend the reguard. Time your bridge to coincide with their leg swing when their base is most compromised.
 
-### → [[Reverse Mount]]
+### → [[Positions/Reverse Mount]]
 
 Deny arm isolation entirely by keeping elbows clamped tight to your ribs and immediately clasping hands when any wrist grip is felt. Force the attacker to abandon the armbar attempt and return to positional control. This defense works best when combined with constant small hip movements that prevent the attacker from settling and reading your arm positions.
 

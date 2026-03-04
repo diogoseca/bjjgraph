@@ -146,7 +146,7 @@ description: "Learn to defend and counter the Side Control to Scarf Hold transit
 
 Defending the Transition to Scarf Hold Position requires recognizing the opponent's intention before the rotation completes and disrupting the sequence during its most vulnerable phase: the hip switch. Once scarf hold is fully consolidated, escape becomes significantly more difficult than escaping standard side control due to the perpendicular angle negating your lateral hip escape mechanics. The defender must prioritize early recognition of the transition cues, specifically the opponent threading their arm under yours and shifting their head control. Successful defense focuses on maintaining frames during the rotation window, extracting the near arm before it becomes fully trapped, and exploiting the momentary weight shift during the hip switch to recover guard or create scramble opportunities. Understanding this defense is essential for anyone facing opponents who use the scarf hold system, particularly those with judo backgrounds.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Transition to Scarf Hold Position requires recognizing the opponen
 ### 1. Frame on opponent's hip and execute aggressive hip escape during the rotation
 
 - **When to use**: As soon as you feel the opponent begin the hip switch, before they complete the perpendicular positioning
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover to half guard or closed guard by inserting knee before scarf hold is established
 - **Risk**: If timed too late, the frame is bypassed by the completed rotation and you end up in scarf hold with an exhausted frame
 
 ### 2. Extract near arm by pulling elbow tight to your body and turning forearm inward before the grip sets
 
 - **When to use**: When you feel the opponent beginning to thread their arm underneath yours, before the grip is fully secured
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent cannot establish scarf hold without arm isolation and must return to standard side control
 - **Risk**: If extraction fails, you have burned energy and the opponent now has a tighter grip on your arm
 
 ### 3. Bridge explosively during the hip switch when opponent's base is transitionally weakened
 
 - **When to use**: During the exact moment the opponent's hips are mid-rotation and their weight is shifting between positions
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The bridge disrupts the rotation, creating space for guard recovery or forcing the opponent to abort and re-establish side control
 - **Risk**: If the opponent has already completed the rotation, the bridge is less effective against the perpendicular angle and wastes energy
 
 ### 4. Turn toward opponent and establish underhook before they complete the transition
 
 - **When to use**: Early in the transition when you still have head mobility and can turn your face toward the opponent
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Underhook prevents the scarf hold configuration and can lead to a scramble or half guard recovery
 - **Risk**: Turning in incorrectly can expose your back if the opponent abandons scarf hold and takes the back instead
 
@@ -217,11 +217,11 @@ Defending the Transition to Scarf Hold Position requires recognizing the opponen
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a strong hip escape with frame on opponent's hip during the rotation phase, inserting your knee before the perpendicular angle is established. The moment you feel their weight shifting, shrimp hard toward the space opening on your far side and thread your knee between your bodies.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Extract your near arm before the grip sets by pulling your elbow tight and turning your forearm inward. Without the arm isolated, the opponent cannot establish scarf hold and must return to standard side control, giving you another opportunity to work your regular side control escape sequences.
 

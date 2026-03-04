@@ -180,7 +180,7 @@ description: "Master the attacking mechanics of the far side armbar from knee on
 
 The far side armbar from knee on belly targets the opponent's arm furthest from you, exploiting the defensive reactions created by intense knee pressure on the diaphragm. As the top player, you leverage your dominant position to reach across the opponent's body, isolate their far wrist, and transition through a leg swing into armbar control. This attack is particularly effective because it targets the arm most opponents consider safe — their focus is typically on protecting the near-side arm from baseball bat chokes and standard armbars. The misdirection inherent in crossing to the far side catches experienced defenders off-guard, making this a valuable addition to any knee on belly attack system. Success depends on maintaining knee pressure throughout the transition, precise timing of the wrist capture, and smooth weight transfer during the leg swing over the head.
 
-**From Position**: [[Knee on Belly]] (Top)
+**From Position**: [[Positions/Knee on Belly]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The far side armbar from knee on belly targets the opponent's arm furthest from 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 55% |
-| Failure | [[Knee on Belly]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Armbar Control]] | 55% |
+| Failure | [[Positions/Knee on Belly]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The far side armbar from knee on belly targets the opponent's arm furthest from 
 
 ## Opponent Counters
 
-- **Opponent tucks far elbow tight against their body, preventing wrist capture** (Effectiveness: High) - Your Response: Increase knee pressure to force a reaction, or threaten the near-side arm first with a collar choke or near armbar to bait the far arm extension, then switch back to the far side attack → Leads to [[Knee on Belly]]
-- **Opponent bridges and turns toward you during the leg swing transition** (Effectiveness: Medium) - Your Response: Follow their turning motion by maintaining wrist control and adjusting your leg swing angle — their turn may actually assist your transition to armbar or expose their back for a back take → Leads to [[Knee on Belly]]
-- **Opponent grabs their own wrist or lapel with the free hand to prevent arm isolation** (Effectiveness: High) - Your Response: Use two-on-one grip breaking to peel their defensive connection apart, or switch to an Americana attack that exploits the bent arm position they have created by linking their hands → Leads to [[Knee on Belly]]
-- **Opponent hip escapes away and begins recovering guard during the transition phase** (Effectiveness: Medium) - Your Response: Abort the armbar attempt and immediately transition back to knee on belly or drop to side control to re-establish pressure before attempting another attack from a stable base → Leads to [[Half Guard]]
+- **Opponent tucks far elbow tight against their body, preventing wrist capture** (Effectiveness: High) - Your Response: Increase knee pressure to force a reaction, or threaten the near-side arm first with a collar choke or near armbar to bait the far arm extension, then switch back to the far side attack → Leads to [[Positions/Knee on Belly]]
+- **Opponent bridges and turns toward you during the leg swing transition** (Effectiveness: Medium) - Your Response: Follow their turning motion by maintaining wrist control and adjusting your leg swing angle — their turn may actually assist your transition to armbar or expose their back for a back take → Leads to [[Positions/Knee on Belly]]
+- **Opponent grabs their own wrist or lapel with the free hand to prevent arm isolation** (Effectiveness: High) - Your Response: Use two-on-one grip breaking to peel their defensive connection apart, or switch to an Americana attack that exploits the bent arm position they have created by linking their hands → Leads to [[Positions/Knee on Belly]]
+- **Opponent hip escapes away and begins recovering guard during the transition phase** (Effectiveness: Medium) - Your Response: Abort the armbar attempt and immediately transition back to knee on belly or drop to side control to re-establish pressure before attempting another attack from a stable base → Leads to [[Positions/Half Guard]]
 
 
 </section>

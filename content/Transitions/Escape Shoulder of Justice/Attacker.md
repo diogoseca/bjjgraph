@@ -186,7 +186,7 @@ description: "Execute the Escape from Shoulder of Justice as the bottom player. 
 
 As the bottom player executing the Escape from Shoulder of Justice, you face one of the most uncomfortable and technically challenging escape scenarios in Brazilian Jiu-Jitsu. The Shoulder of Justice's concentrated jaw pressure is specifically designed to provoke reactive defensive movements that expose submission opportunities, making disciplined execution critical. Your primary objective is to systematically relieve the shoulder pressure through precise forearm micro-frames, time your hip escape to the opponent's weight shifts, insert a knee shield to prevent pressure reestablishment, and consolidate half guard position. Every movement must be calculated and purposeful rather than reactive, as the position's built-in dilemma system punishes desperate or unplanned escape attempts with kimura attacks, mount transitions, and arm triangle setups.
 
-**From Position**: [[Shoulder of Justice]] (Bottom)
+**From Position**: [[Positions/Shoulder of Justice]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the bottom player executing the Escape from Shoulder of Justice, you face one
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Shoulder of Justice]] | 40% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Shoulder of Justice]] | 40% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the bottom player executing the Escape from Shoulder of Justice, you face one
 
 ## Opponent Counters
 
-- **Top player drives heavier pressure and reconnects hips to your hip line during escape attempt** (Effectiveness: High) - Your Response: Abandon the escape attempt, return to breathing control, and wait for the next weight shift window rather than forcing through maximum pressure → Leads to [[Shoulder of Justice]]
-- **Top player transitions to mount by stepping over during your hip escape when space is created** (Effectiveness: High) - Your Response: If you feel the leg stepping over, immediately redirect your knee shield to block the mount entry and recover half guard with the crossing leg trapped → Leads to [[Mount]]
-- **Top player attacks kimura on your near arm if it extends beyond your centerline during framing** (Effectiveness: High) - Your Response: Retract the arm immediately to your ribcage, clamp your elbow tight, and grip your own belt or shorts to prevent isolation. Reset your frame position before attempting escape again → Leads to [[Shoulder of Justice]]
-- **Top player follows your hip escape and re-consolidates Shoulder of Justice pressure at new angle** (Effectiveness: Medium) - Your Response: If your knee shield is partially inserted, fight to complete the insertion. If not, use the momentum of their adjustment to attempt a second hip escape in the same direction while their weight is shifting → Leads to [[Shoulder of Justice]]
+- **Top player drives heavier pressure and reconnects hips to your hip line during escape attempt** (Effectiveness: High) - Your Response: Abandon the escape attempt, return to breathing control, and wait for the next weight shift window rather than forcing through maximum pressure → Leads to [[Positions/Shoulder of Justice]]
+- **Top player transitions to mount by stepping over during your hip escape when space is created** (Effectiveness: High) - Your Response: If you feel the leg stepping over, immediately redirect your knee shield to block the mount entry and recover half guard with the crossing leg trapped → Leads to [[Positions/Mount]]
+- **Top player attacks kimura on your near arm if it extends beyond your centerline during framing** (Effectiveness: High) - Your Response: Retract the arm immediately to your ribcage, clamp your elbow tight, and grip your own belt or shorts to prevent isolation. Reset your frame position before attempting escape again → Leads to [[Positions/Shoulder of Justice]]
+- **Top player follows your hip escape and re-consolidates Shoulder of Justice pressure at new angle** (Effectiveness: Medium) - Your Response: If your knee shield is partially inserted, fight to complete the insertion. If not, use the momentum of their adjustment to attempt a second hip escape in the same direction while their weight is shifting → Leads to [[Positions/Shoulder of Justice]]
 
 
 </section>

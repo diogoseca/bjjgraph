@@ -174,7 +174,7 @@ description: "How to execute Side Control Escape in BJJ. Systematic frame-based 
 
 The Side Control Escape from the attacker's perspective is a systematic defensive technique where the bottom player uses precise framing, bridging, and hip movement to create space and recover guard position. This is not an explosive, single-movement escape but rather a methodical sequence where each step builds on the previous one. The attacker must first establish defensive frames that prevent the opponent's weight from settling, then use a powerful bridge to momentarily disrupt base, immediately follow with a hip escape to create distance, rotate the hips to face the opponent, and finally insert knee shield or butterfly hooks to reestablish guard structure. The technique demands patience, controlled breathing under pressure, and the tactical awareness to time escape attempts during windows when the opponent shifts weight or initiates transitions. Advanced execution involves chaining multiple escape variations together, reading the opponent's counters in real time, and flowing between standard escape, ghost escape, underhook recovery, and knee push variations based on the opponent's defensive reactions.
 
-**From Position**: [[Side Control]] (Bottom)
+**From Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
 
@@ -227,10 +227,10 @@ The Side Control Escape from the attacker's perspective is a systematic defensiv
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 40% |
-| Success | [[Half Guard]] | 30% |
-| Failure | [[Side Control]] | 20% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Closed Guard]] | 40% |
+| Success | [[Positions/Half Guard]] | 30% |
+| Failure | [[Positions/Side Control]] | 20% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -239,10 +239,10 @@ The Side Control Escape from the attacker's perspective is a systematic defensiv
 
 ## Opponent Counters
 
-- **Opponent applies heavy crossface to flatten you back down and prevent hip rotation** (Effectiveness: High) - Your Response: Keep chin tucked tightly and use top arm frame to block the crossface path before it connects. If crossface is already established, focus intensive hand fighting with both hands to remove it before continuing escape. If removal fails, switch to ghost escape mechanics by turning away from opponent rather than toward them. → Leads to [[Side Control]]
-- **Opponent switches to knee on belly as you create space during escape sequence** (Effectiveness: Medium) - Your Response: Follow opponent's movement with your frames, pushing their knee off your belly while shrimping hips in the direction of their posted leg. The knee on belly transition is actually less stable than settled side control, creating better guard recovery opportunities as their base is compromised during the switch. → Leads to [[Side Control]]
-- **Opponent drives shoulder pressure into your face and pins your near arm against your body** (Effectiveness: High) - Your Response: Accept the trapped arm temporarily and focus on creating space with far side hip escape using only the free hand to frame against opponent's hip. Once space is created, extract the trapped arm by bridging to lift opponent's shoulder. If extraction fails, use ghost escape mechanics to turn away and create a different escape angle entirely. → Leads to [[Side Control]]
-- **Opponent steps over to mount as you turn your hips during escape** (Effectiveness: Medium) - Your Response: If opponent begins stepping over for mount, immediately redirect your frames to their hips and block their leg from completing the mount transition. Turn into them rather than away, inserting your knee across their thigh to recover half guard. The mount transition window is brief and if you catch it early, you end up in half guard rather than full mount. → Leads to [[Mount]]
+- **Opponent applies heavy crossface to flatten you back down and prevent hip rotation** (Effectiveness: High) - Your Response: Keep chin tucked tightly and use top arm frame to block the crossface path before it connects. If crossface is already established, focus intensive hand fighting with both hands to remove it before continuing escape. If removal fails, switch to ghost escape mechanics by turning away from opponent rather than toward them. → Leads to [[Positions/Side Control]]
+- **Opponent switches to knee on belly as you create space during escape sequence** (Effectiveness: Medium) - Your Response: Follow opponent's movement with your frames, pushing their knee off your belly while shrimping hips in the direction of their posted leg. The knee on belly transition is actually less stable than settled side control, creating better guard recovery opportunities as their base is compromised during the switch. → Leads to [[Positions/Side Control]]
+- **Opponent drives shoulder pressure into your face and pins your near arm against your body** (Effectiveness: High) - Your Response: Accept the trapped arm temporarily and focus on creating space with far side hip escape using only the free hand to frame against opponent's hip. Once space is created, extract the trapped arm by bridging to lift opponent's shoulder. If extraction fails, use ghost escape mechanics to turn away and create a different escape angle entirely. → Leads to [[Positions/Side Control]]
+- **Opponent steps over to mount as you turn your hips during escape** (Effectiveness: Medium) - Your Response: If opponent begins stepping over for mount, immediately redirect your frames to their hips and block their leg from completing the mount transition. Turn into them rather than away, inserting your knee across their thigh to recover half guard. The mount transition window is brief and if you catch it early, you end up in half guard rather than full mount. → Leads to [[Positions/Mount]]
 
 
 </section>

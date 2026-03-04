@@ -154,7 +154,7 @@ description: "Defend and counter the High Mount to S Mount transition. Recogniti
 
 From the defender's perspective, the High Mount to S Mount transition represents the moment when a dangerous situation becomes critical. While High Mount offers the bottom player slim but real escape opportunities, S Mount concentrates the threat into near-inevitable armbar mechanics. The defender's priority shifts from general mount survival to specific arm protection the instant they recognize the S Mount entry beginning. The transitional window — the 1-2 seconds when the top player's leg is moving over the head — represents both the greatest danger and the best escape opportunity. Reading the attacker's setup cues and reacting before the leg lands is the difference between defending from S Mount bottom (extremely difficult) and preventing the transition entirely.
 
-**Opponent's Starting Position**: [[High Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/High Mount]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ From the defender's perspective, the High Mount to S Mount transition represents
 ### 1. Explosive bridge during leg swing
 
 - **When to use**: The moment the attacker lifts their leg and is balancing on a single knee — this is their most vulnerable moment
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Disrupts the attacker's balance and forces them to post both hands, aborting the S Mount entry and returning to high mount where you have better escape options
 - **Risk**: If mistimed, the bridge may actually help the attacker complete the leg swing by lifting you into the transition
 
 ### 2. Retract arm and grip own collar before leg lands
 
 - **When to use**: When you feel the attacker beginning to isolate your arm — pull it back to your body immediately before they secure full control
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Eliminates the target arm from the attacker's control, making the S Mount entry purposeless and forcing them to return to high mount to re-isolate
 - **Risk**: Pulling the arm may expose your neck to collar choke attacks if the attacker switches threats
 
 ### 3. Hook the transitioning leg with free hand to block step-over
 
 - **When to use**: When the attacker's leg begins moving over your head and you can reach their knee or shin with your free arm
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Physically prevents the leg from completing its arc over your head, stalling the transition and potentially creating space to escape mount entirely
 - **Risk**: Extending your free arm to hook the leg may expose it to isolation and create a second arm target
 
 ### 4. Hip escape toward the leg-over side during transition
 
 - **When to use**: When the attacker commits to the leg swing and cannot easily change direction — timing must coincide with their single-base moment
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough space to insert your knee and recover half guard, completely escaping both high mount and the S Mount entry
 - **Risk**: If the hip escape is too slow, the attacker lands in S Mount with your hips displaced, potentially worsening your position
 
@@ -225,11 +225,11 @@ From the defender's perspective, the High Mount to S Mount transition represents
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a hip escape toward the side the attacker is swinging their leg, exploiting the momentary instability when they are on a single knee. Insert your knee before they can re-establish control, recovering to half guard where you have legitimate sweep and escape options.
 
-### → [[High Mount]]
+### → [[Positions/Mount/High Mount]]
 
 Retract the target arm before the attacker secures full isolation, or bridge explosively during the leg swing to disrupt their balance. Either action forces the attacker to abort the S Mount entry and return to high mount, where your defensive options remain more varied than in S Mount.
 

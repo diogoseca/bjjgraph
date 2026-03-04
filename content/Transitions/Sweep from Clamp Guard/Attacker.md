@@ -180,7 +180,7 @@ description: "Master the offensive sweep from Clamp Guard. Learn to time sweep e
 
 Executing the Sweep from Clamp Guard requires understanding how arm isolation fundamentally compromises your opponent's balance architecture. With one arm trapped, your opponent's ability to post and base is reduced by half, creating directional vulnerabilities that do not exist against a fully-based opponent. The key is reading when your opponent's remaining base is weakest — typically when they drive forward, reach with their free arm, or attempt to extract the trapped arm — and timing your sweep to exploit that precise moment of maximum instability. The sweep becomes a systemic weapon when combined with submission threats: each armbar or triangle attempt forces defensive reactions that degrade base, creating the exact conditions the sweep requires.
 
-**From Position**: [[Clamp Guard]] (Bottom)
+**From Position**: [[Positions/Clamp Guard]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ Executing the Sweep from Clamp Guard requires understanding how arm isolation fu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 45% |
-| Failure | [[Clamp Guard]] | 35% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Mount]] | 45% |
+| Failure | [[Positions/Clamp Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -242,10 +242,10 @@ Executing the Sweep from Clamp Guard requires understanding how arm isolation fu
 
 ## Opponent Counters
 
-- **Opponent widens base and drops hips low to create a stable platform that resists the directional sweep force** (Effectiveness: High) - Your Response: Switch from sweep to armbar or triangle attack since the wide base extends the trapped arm further and opens submission angles that a tight base would prevent → Leads to [[Clamp Guard]]
-- **Opponent posts their free arm aggressively on the mat in the sweep direction to block the roll** (Effectiveness: Medium) - Your Response: Switch sweep direction to attack the opposite side where the posting arm cannot reach, or use the arm commitment as an opportunity to deepen the clamp and threaten armbar on the now-extended posted arm → Leads to [[Clamp Guard]]
-- **Opponent extracts their trapped arm during the sweep motion when the clamp loosens from the dynamic movement** (Effectiveness: High) - Your Response: If mid-sweep and arm escapes, immediately close guard by wrapping legs around their torso before they can posture and pass. Alternatively, transition to butterfly guard hooks to maintain some form of guard retention → Leads to [[Side Control]]
-- **Opponent sprawls hips back forcefully to create distance and flatten the sweep angle before it can develop** (Effectiveness: Medium) - Your Response: Use the increased distance to re-angle your hips and threaten armbar with the extra space, which forces them to close distance again and re-enter the sweep danger zone → Leads to [[Clamp Guard]]
+- **Opponent widens base and drops hips low to create a stable platform that resists the directional sweep force** (Effectiveness: High) - Your Response: Switch from sweep to armbar or triangle attack since the wide base extends the trapped arm further and opens submission angles that a tight base would prevent → Leads to [[Positions/Clamp Guard]]
+- **Opponent posts their free arm aggressively on the mat in the sweep direction to block the roll** (Effectiveness: Medium) - Your Response: Switch sweep direction to attack the opposite side where the posting arm cannot reach, or use the arm commitment as an opportunity to deepen the clamp and threaten armbar on the now-extended posted arm → Leads to [[Positions/Clamp Guard]]
+- **Opponent extracts their trapped arm during the sweep motion when the clamp loosens from the dynamic movement** (Effectiveness: High) - Your Response: If mid-sweep and arm escapes, immediately close guard by wrapping legs around their torso before they can posture and pass. Alternatively, transition to butterfly guard hooks to maintain some form of guard retention → Leads to [[Positions/Side Control]]
+- **Opponent sprawls hips back forcefully to create distance and flatten the sweep angle before it can develop** (Effectiveness: Medium) - Your Response: Use the increased distance to re-angle your hips and threaten armbar with the extra space, which forces them to close distance again and re-enter the sweep danger zone → Leads to [[Positions/Clamp Guard]]
 
 
 </section>

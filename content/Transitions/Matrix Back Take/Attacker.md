@@ -184,7 +184,7 @@ This technique demands excellent body awareness, precise timing, and the ability
 
 The Matrix Back Take integrates naturally with truck entries, crab ride transitions, and traditional seat belt back takes, allowing the attacker to chain multiple options based on the defender's reactions. Practitioners who invest in developing this technique gain a significant advantage in turtle top situations, particularly against experienced defenders who have neutralized conventional back take entries.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -238,9 +238,9 @@ The Matrix Back Take integrates naturally with truck entries, crab ride transiti
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -249,10 +249,10 @@ The Matrix Back Take integrates naturally with truck entries, crab ride transiti
 
 ## Opponent Counters
 
-- **Opponent sits back heavily onto their heels as you attempt to insert your leg through the elbow-knee gap** (Effectiveness: High) - Your Response: Immediately switch to a traditional seat belt back take or truck entry. Use your near-side arm control to pull the opponent forward and off their base, then re-attempt the matrix entry or transition to an alternative back take path. → Leads to [[Turtle]]
-- **Opponent turns into you aggressively during the hip slide phase, attempting to face you** (Effectiveness: Medium) - Your Response: Maintain your arm and leg connections and follow the turn, transitioning to front headlock or darce control. From there you can finish a submission or re-establish turtle top to re-attempt the technique from a fresh angle. → Leads to [[Turtle]]
-- **Opponent pulls their near elbow tight to their body, eliminating the gap needed for leg insertion** (Effectiveness: Medium) - Your Response: Switch to attacking from the far side by circling in the opposite direction for a standard back take, or use a harness grip to lift the opponent's hips and create the space needed. Alternatively, transition to crucifix by controlling the trapped near arm with your legs. → Leads to [[Turtle]]
-- **Opponent rolls through explosively as you slide your hips underneath, attempting to invert the position** (Effectiveness: Low) - Your Response: Maintain your connections and follow the roll. This often results in truck position where you can attack calf slicers, banana splits, or continue working to establish back control. Your connection points prevent the roll from actually improving their position. → Leads to [[Turtle]]
+- **Opponent sits back heavily onto their heels as you attempt to insert your leg through the elbow-knee gap** (Effectiveness: High) - Your Response: Immediately switch to a traditional seat belt back take or truck entry. Use your near-side arm control to pull the opponent forward and off their base, then re-attempt the matrix entry or transition to an alternative back take path. → Leads to [[Positions/Turtle]]
+- **Opponent turns into you aggressively during the hip slide phase, attempting to face you** (Effectiveness: Medium) - Your Response: Maintain your arm and leg connections and follow the turn, transitioning to front headlock or darce control. From there you can finish a submission or re-establish turtle top to re-attempt the technique from a fresh angle. → Leads to [[Positions/Turtle]]
+- **Opponent pulls their near elbow tight to their body, eliminating the gap needed for leg insertion** (Effectiveness: Medium) - Your Response: Switch to attacking from the far side by circling in the opposite direction for a standard back take, or use a harness grip to lift the opponent's hips and create the space needed. Alternatively, transition to crucifix by controlling the trapped near arm with your legs. → Leads to [[Positions/Turtle]]
+- **Opponent rolls through explosively as you slide your hips underneath, attempting to invert the position** (Effectiveness: Low) - Your Response: Maintain your connections and follow the roll. This often results in truck position where you can attack calf slicers, banana splits, or continue working to establish back control. Your connection points prevent the roll from actually improving their position. → Leads to [[Positions/Turtle]]
 
 
 </section>

@@ -154,7 +154,7 @@ description: "How to defend against the Waiter Sweep in BJJ. Recognition cues, d
 
 Defending the Waiter Sweep requires understanding the biomechanical sequence the bottom player must complete and disrupting it at the earliest possible stage. As the top player facing butterfly guard, you must recognize the asymmetrical grip structure—underhook on one side, overhook or collar control on the other—as the primary warning signal. The sweep relies on a specific chain: posture break, weight loading onto hooks, diagonal rotation with arm extension. Each link in this chain presents a defensive intervention point, and the earlier you disrupt the sequence the less energy and risk involved. Your primary defensive tools are posture maintenance, grip fighting to prevent the asymmetrical control, base widening, and strategic posting. The most common error defenders make is passively accepting the underhook without immediately fighting to re-pummel or neutralize it, which allows the attacker to complete the most critical piece of their setup unopposed.
 
-**Opponent's Starting Position**: [[Butterfly Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the Waiter Sweep requires understanding the biomechanical sequence the
 ### 1. Establish a strong whizzer on the underhook side and drive shoulder pressure forward to kill the lifting angle
 
 - **When to use**: Immediately when you feel the opponent secure the underhook—this is the earliest and most effective intervention point before the sweep sequence begins
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Neutralizes the underhook which is the primary lifting mechanism, forcing the opponent to release and re-attempt grip fighting from a neutral position
 - **Risk**: If the opponent uses your whizzer pressure to roll underneath for a back take, you may give up back control
 
 ### 2. Post the far hand firmly on the mat when you feel elevation beginning to block the rotational sweep
 
 - **When to use**: When the sweep is already initiated and you feel your weight being lifted and rotated—this is the emergency stop when earlier defenses failed
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Stops the sweep completion by providing a structural post that prevents the rotation from finishing, allowing you to recover base and re-engage
 - **Risk**: The posted arm is exposed and the opponent may transition to a back take by swimming around the post, or attack with arm drag
 
 ### 3. Sprawl hips back explosively to remove hooks from under your thighs and flatten your base
 
 - **When to use**: When you feel hooks lifting your hips off the mat and your weight loading forward onto the opponent's body
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Removes the mechanical advantage of the butterfly hooks entirely, killing the elevation component and forcing the opponent to re-establish hooks from a worse position
 - **Risk**: Creates distance that the opponent can use to transition to single leg X-guard, deep half guard, or other open guard configurations
 
 ### 4. Drive forward with heavy chest pressure while pinching knees together to compress the opponent's hooks
 
 - **When to use**: When the opponent is still in the posture-breaking phase before initiating the lift—preemptive pressure to prevent the sequence from starting
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Flattens the opponent's seated posture, compromises their hooks, and transitions the engagement toward a passing opportunity
 - **Risk**: Forward pressure can be redirected by a well-timed elevation if the opponent reads your commitment and uses your momentum for the sweep
 
@@ -224,11 +224,11 @@ Defending the Waiter Sweep requires understanding the biomechanical sequence the
 
 ## Best-Case Outcomes for Defender
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 Neutralize the sweep attempt through early grip fighting (whizzer, re-pummel), posting, or sprawling. Return to a neutral engagement where you maintain top position in the opponent's butterfly guard and can resume passing attempts.
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 Counter the sweep attempt by timing a pressure pass or smash pass as the opponent commits to the lift. When they extend their hooks and rotate, drive forward with heavy pressure to flatten them and begin passing their guard. The moment of commitment is when they are most vulnerable to counter-pressure.
 

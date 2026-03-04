@@ -21,7 +21,7 @@ When executed with proper timing and technique, the Upa can completely reverse a
 
 This escape forms the cornerstone of mount defense and is typically the first escape taught to beginners due to its reliability and fundamental movement patterns that translate to many other techniques. At advanced levels, the Upa becomes part of a comprehensive escape matrix where it chains with elbow escape and hip escape to create an unsolvable defensive puzzle for the mounted opponent.
 
-**From Position**: [[Mount]] (Bottom)
+**From Position**: [[Positions/Mount]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This escape forms the cornerstone of mount defense and is typically the first es
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Mount]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Mount]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -194,29 +194,29 @@ The upa escape serves as the foundational mount escape and entry point to unders
 ## Related Techniques
 
 
-- [[Elbow Escape to Guard]] - Complementary escape that works when opponent sits back in high mount where upa is less effective
+- [[Transitions/Elbow Escape to Guard]] - Complementary escape that works when opponent sits back in high mount where upa is less effective
 
-- [[Hip Escape to Guard]] - Complementary shrimping escape that creates defensive dilemma with upa
+- [[Transitions/Hip Escape to Guard]] - Complementary shrimping escape that creates defensive dilemma with upa
 
-- [[Frame and Shrimp to Guard]] - Foundational movement pattern for creating escape space from mount
+- [[Transitions/Frame and Shrimp to Guard]] - Foundational movement pattern for creating escape space from mount
 
-- [[Closed Guard]] - Primary ending position after successful upa reversal
+- [[Positions/Closed Guard]] - Primary ending position after successful upa reversal
 
-- [[Mount]] - Starting position being escaped from
+- [[Positions/Mount]] - Starting position being escaped from
 
-- [[High Mount]] - Mount variation where upa is less effective due to opponent's rearward weight distribution
+- [[Positions/Mount/High Mount]] - Mount variation where upa is less effective due to opponent's rearward weight distribution
 
-- [[Technical Mount]] - Advanced mount variation requiring modified escape approach due to hook placement
+- [[Positions/Mount/Technical Mount]] - Advanced mount variation requiring modified escape approach due to hook placement
 
-- [[S Mount]] - Mount variation where opponent's asymmetric weight creates upa timing opportunities
+- [[Positions/Mount/S Mount]] - Mount variation where opponent's asymmetric weight creates upa timing opportunities
 
-- [[Back Control]] - Position opponent may achieve if they counter upa by switching hips during the roll
+- [[Positions/Back Control]] - Position opponent may achieve if they counter upa by switching hips during the roll
 
-- [[Bridge and Roll]] - Alternative name for the same fundamental escape technique
+- [[Transitions/Bridge and Roll]] - Alternative name for the same fundamental escape technique
 
-- [[Explosive Bridge to Guard Recovery]] - Related explosive bridging escape from mount using similar hip mechanics
+- [[Transitions/Explosive Bridge to Guard Recovery]] - Related explosive bridging escape from mount using similar hip mechanics
 
-- [[Guard Recovery]] - Alternative defensive strategy when upa and other primary escapes are unavailable
+- [[Principles/Guard Recovery]] - Alternative defensive strategy when upa and other primary escapes are unavailable
 
 
 </section>

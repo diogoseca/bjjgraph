@@ -174,7 +174,7 @@ description: "How to execute Consolidate Mount in BJJ. Attacking perspective wit
 
 Consolidate Mount is the critical transition between achieving mount position and establishing dominant control. Too many practitioners rush to attack immediately after achieving mount, only to have their opponent escape during the chaotic moments of position change. This technique emphasizes the fundamental principle that position must be secured before submission hunting begins. The consolidation process involves controlling hip movement, eliminating frames, and advancing to higher mount variations. By patiently consolidating first, you create a stable attacking platform while simultaneously draining your opponent's defensive resources. This methodical approach transforms a fleeting positional achievement into a suffocating dominant position where submissions become inevitable rather than hopeful.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -224,9 +224,9 @@ Consolidate Mount is the critical transition between achieving mount position an
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[High Mount]] | 50% |
-| Failure | [[Mount]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Mount/High Mount]] | 50% |
+| Failure | [[Positions/Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -235,9 +235,9 @@ Consolidate Mount is the critical transition between achieving mount position an
 
 ## Opponent Counters
 
-- **Bridge and roll attempt using elbows as pivot points** (Effectiveness: Medium) - Your Response: Post hand wide on the side they bridge toward, sprawl hips, and ride out the bridge before re-establishing grapevines → Leads to [[Half Guard]]
-- **Elbow-knee escape (shrimping) to recover half guard** (Effectiveness: High) - Your Response: Block their hip with your knee and maintain heavy chest pressure; if they create space, immediately re-close it before they can insert knee shield → Leads to [[Half Guard]]
-- **Framing on hips to create space and turn** (Effectiveness: Medium) - Your Response: Swim inside the frames using elbow-elbow connection, then pin their arms with cross-face or by trapping wrist to mat → Leads to [[Mount]]
+- **Bridge and roll attempt using elbows as pivot points** (Effectiveness: Medium) - Your Response: Post hand wide on the side they bridge toward, sprawl hips, and ride out the bridge before re-establishing grapevines → Leads to [[Positions/Half Guard]]
+- **Elbow-knee escape (shrimping) to recover half guard** (Effectiveness: High) - Your Response: Block their hip with your knee and maintain heavy chest pressure; if they create space, immediately re-close it before they can insert knee shield → Leads to [[Positions/Half Guard]]
+- **Framing on hips to create space and turn** (Effectiveness: Medium) - Your Response: Swim inside the frames using elbow-elbow connection, then pin their arms with cross-face or by trapping wrist to mat → Leads to [[Positions/Mount]]
 
 
 </section>

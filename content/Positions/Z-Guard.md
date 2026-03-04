@@ -93,27 +93,27 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (30% of attempts)
+- **[[Transitions/Old School Sweep]]** (30% of attempts)
 
-- **[[Underhook Sweep from Half]]** (11% of attempts)
+- **[[Transitions/Underhook Sweep from Half]]** (11% of attempts)
 
-- **[[Deep Half Entry]]** (10% of attempts)
+- **[[Transitions/Deep Half Entry]]** (10% of attempts)
 
-- **[[Back Take from Bottom]]** (9% of attempts)
+- **[[Transitions/Back Take from Bottom]]** (9% of attempts)
 
-- **[[Turtle to Truck]]** (8% of attempts)
+- **[[Transitions/Turtle to Truck]]** (8% of attempts)
 
-- **[[X-Guard Sweep]]** (10% of attempts)
+- **[[Transitions/X-Guard Sweep]]** (10% of attempts)
 
-- **[[Lockdown Recovery]]** (9% of attempts)
+- **[[Transitions/Lockdown Recovery]]** (9% of attempts)
 
-- **[[Electric Chair Transition]]** (8% of attempts)
+- **[[Transitions/Electric Chair Transition]]** (8% of attempts)
 
-- **[[Z-Guard Sweep]]** (3% of attempts)
+- **[[Transitions/Z-Guard Sweep]]** (3% of attempts)
 
-- **[[Z-Guard to Half Guard]]** (1% of attempts)
+- **[[Transitions/Z-Guard to Half Guard]]** (1% of attempts)
 
-- **[[Sweep from Z-Guard]]** (1% of attempts)
+- **[[Transitions/Sweep from Z-Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -178,25 +178,25 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (29% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (29% of attempts)
 
-- **[[Knee Slice from Half]]** (13% of attempts)
+- **[[Transitions/Knee Slice from Half]]** (13% of attempts)
 
-- **[[Knee Cut Pass]]** (11% of attempts)
+- **[[Transitions/Knee Cut Pass]]** (11% of attempts)
 
-- **[[Long Step Pass]]** (10% of attempts)
+- **[[Transitions/Long Step Pass]]** (10% of attempts)
 
-- **[[Smash Pass]]** (11% of attempts)
+- **[[Transitions/Smash Pass]]** (11% of attempts)
 
-- **[[Back Step]]** (9% of attempts)
+- **[[Transitions/Back Step]]** (9% of attempts)
 
-- **[[Underhook Pass]]** (10% of attempts)
+- **[[Transitions/Underhook Pass]]** (10% of attempts)
 
-- **[[Knee Slice from Z-Guard]]** (4% of attempts)
+- **[[Transitions/Knee Slice from Z-Guard]]** (4% of attempts)
 
-- **[[Pass Z-Guard]]** (2% of attempts)
+- **[[Transitions/Pass Z-Guard]]** (2% of attempts)
 
-- **[[Z-Guard Pass]]** (1% of attempts)
+- **[[Transitions/Z-Guard Pass]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -235,23 +235,23 @@ From both offensive and defensive perspectives, Z-Guard serves as a critical hub
 ## Related Positions
 
 
-- **[[Knee Shield Half Guard]]** - Parent position with lower knee placement on hip rather than shoulder
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Parent position with lower knee placement on hip rather than shoulder
 
-- **[[Half Guard]]** - Base position from which Z-Guard structure is established
+- **[[Positions/Half Guard]]** - Base position from which Z-Guard structure is established
 
-- **[[Deep Half Guard]]** - Primary transition target when knee shield is collapsed by pressure
+- **[[Positions/Half Guard/Deep Half Guard]]** - Primary transition target when knee shield is collapsed by pressure
 
-- **[[Lockdown]]** - Alternative retention system that can be combined with Z-Guard frames
+- **[[Positions/Half Guard/Lockdown]]** - Alternative retention system that can be combined with Z-Guard frames
 
-- **[[Electric Chair]]** - Offensive submission position reached via lockdown integration
+- **[[Positions/Half Guard/Electric Chair]]** - Offensive submission position reached via lockdown integration
 
-- **[[Dogfight Position]]** - Common scramble position after partial Z-Guard sweep success
+- **[[Positions/Dogfight Position]]** - Common scramble position after partial Z-Guard sweep success
 
-- **[[Headquarters Position]]** - Related passing position from top player's perspective
+- **[[Positions/Headquarters Position]]** - Related passing position from top player's perspective
 
-- **[[Side Control]]** - Common destination after successful pass or sweep
+- **[[Positions/Side Control]]** - Common destination after successful pass or sweep
 
-- **[[Back Control]]** - Offensive target when opponent circles around knee shield
+- **[[Positions/Back Control]]** - Offensive target when opponent circles around knee shield
 
 
 </section>

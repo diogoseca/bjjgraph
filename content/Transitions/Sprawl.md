@@ -19,7 +19,7 @@ The Sprawl is a fundamental defensive technique in Brazilian Jiu-Jitsu and wrest
 
 The sprawl is considered one of the most high-percentage defensive techniques in grappling because it relies on fundamental principles of base, weight distribution, and reactive timing rather than complex technical sequences. Mastery of the sprawl is essential for anyone seeking to develop a complete standing game, as it provides the foundation for defending against wrestling-based attacks while setting up submission opportunities and positional transitions. The technique integrates seamlessly into front headlock systems, where guillotines, darce chokes, anaconda chokes, and back takes become immediately available after a successful sprawl.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 75%
 
 </section>
@@ -30,9 +30,9 @@ The sprawl is considered one of the most high-percentage defensive techniques in
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 75% |
-| Failure | [[Standing Position]] | 15% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Front Headlock]] | 75% |
+| Failure | [[Positions/Standing Position]] | 15% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -192,29 +192,29 @@ The sprawl serves as the foundational takedown defense technique connecting stan
 ## Related Techniques
 
 
-- [[Front Headlock]] - Primary follow-up position after successful sprawl
+- [[Positions/Front Headlock]] - Primary follow-up position after successful sprawl
 
-- [[Guillotine Control]] - Direct submission threat from sprawl position
+- [[Positions/Guillotine Control]] - Direct submission threat from sprawl position
 
-- [[Double Leg Entry]] - Primary attack being defended by the sprawl
+- [[Transitions/Double Leg Entry]] - Primary attack being defended by the sprawl
 
-- [[Front Headlock to Guillotine]] - Follow-up transition from front headlock achieved after sprawl
+- [[Transitions/Front Headlock to Guillotine]] - Follow-up transition from front headlock achieved after sprawl
 
-- [[Guillotine Defense]] - Counter to opponent's guillotine attempt during sprawl
+- [[Transitions/Guillotine Defense]] - Counter to opponent's guillotine attempt during sprawl
 
-- [[Guard Pull]] - Alternative defensive response to takedowns
+- [[Transitions/Guard Pull]] - Alternative defensive response to takedowns
 
-- [[Turtle]] - Position opponent may assume after their failed shot
+- [[Positions/Turtle]] - Position opponent may assume after their failed shot
 
-- [[Darce Setup]] - Alternative submission available from front headlock after sprawl
+- [[Transitions/Darce Setup]] - Alternative submission available from front headlock after sprawl
 
-- [[Anaconda Setup]] - Alternative submission available from front headlock after sprawl
+- [[Transitions/Anaconda Setup]] - Alternative submission available from front headlock after sprawl
 
-- [[Front Headlock to Back]] - Positional advancement option after sprawl to front headlock
+- [[Transitions/Front Headlock to Back]] - Positional advancement option after sprawl to front headlock
 
-- [[Arm Drag to Back]] - Alternative standing defensive counter that can complement sprawl
+- [[Transitions/Arm Drag to Back]] - Alternative standing defensive counter that can complement sprawl
 
-- [[Standing Position]] - Starting position where sprawl is initiated
+- [[Positions/Standing Position]] - Starting position where sprawl is initiated
 
 
 </section>

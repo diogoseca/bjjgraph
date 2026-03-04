@@ -26,8 +26,8 @@ Strategically, this finish thrives on the dilemma it creates within the broader 
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Neck
-**Starting Position**: [[Dead Orchard Control]]
-**From Position**: [[Dead Orchard Control]] (Top)
+**Starting Position**: [[Positions/Dead Orchard Control]]
+**From Position**: [[Positions/Dead Orchard Control]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -80,8 +80,8 @@ Strategically, this finish thrives on the dilemma it creates within the broader 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Dead Orchard Control]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Dead Orchard Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -227,10 +227,10 @@ Strategically, this finish thrives on the dilemma it creates within the broader 
 
 ## From Which Positions?
 
-- [[Dead Orchard Control]]
-- [[Front Headlock]]
-- [[Turtle]]
-- [[Anaconda Control]]
+- [[Positions/Dead Orchard Control]]
+- [[Positions/Front Headlock]]
+- [[Positions/Turtle]]
+- [[Positions/Anaconda Control]]
 
 
 </section>
@@ -239,11 +239,11 @@ Strategically, this finish thrives on the dilemma it creates within the broader 
 
 ## Related Submissions
 
-- [[Anaconda Choke]]
-- [[Brabo Choke]]
-- [[Arm Triangle]]
-- [[Arm in Guillotine]]
-- [[Chin Strap Guillotine]]
+- [[Transitions/Anaconda Choke]]
+- [[Submissions/Brabo Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm in Guillotine]]
+- [[Submissions/Chin Strap Guillotine]]
 
 
 </section>
@@ -252,14 +252,14 @@ Strategically, this finish thrives on the dilemma it creates within the broader 
 
 ## Additional Related Content
 
-- [[Dead Orchard Control]] - Source position—the established control state from which this finish is executed
-- [[Anaconda Control]] - Parent control position—standard anaconda configuration that precedes Dead Orchard establishment
-- [[Front Headlock]] - Entry position—common setup state where the anaconda grip is initially established
-- [[Turtle]] - Common entry state—opponent turtle position frequently creates anaconda finishing opportunities
-- [[Anaconda Choke]] - Primary submission variant—standard anaconda finish without the extended Dead Orchard control phase
-- [[Darce Control]] - Sister position—alternative arm-in choke control with different arm threading mechanics
-- [[Back Control]] - Alternative advancement—transition target when the anaconda finish is successfully defended
-- [[North-South]] - Positional alternative—transition option when opponent neutralizes choke mechanics through strong defensive grips
+- [[Positions/Dead Orchard Control]] - Source position—the established control state from which this finish is executed
+- [[Positions/Anaconda Control]] - Parent control position—standard anaconda configuration that precedes Dead Orchard establishment
+- [[Positions/Front Headlock]] - Entry position—common setup state where the anaconda grip is initially established
+- [[Positions/Turtle]] - Common entry state—opponent turtle position frequently creates anaconda finishing opportunities
+- [[Transitions/Anaconda Choke]] - Primary submission variant—standard anaconda finish without the extended Dead Orchard control phase
+- [[Positions/Darce Control]] - Sister position—alternative arm-in choke control with different arm threading mechanics
+- [[Positions/Back Control]] - Alternative advancement—transition target when the anaconda finish is successfully defended
+- [[Positions/North-South]] - Positional alternative—transition option when opponent neutralizes choke mechanics through strong defensive grips
 
 
 </section>

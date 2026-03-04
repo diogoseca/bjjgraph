@@ -166,7 +166,7 @@ The defensive hierarchy against the Anaconda Setup follows a clear sequence: fir
 
 Successful defense depends on maintaining composure and avoiding the common panic response of pulling straight back or lifting your head, both of which accelerate the attacker's setup. Instead, the defender should work methodically through tactical options including sitting back to guard, circling away from the choking arm, or standing up to neutralize the front headlock entirely. Each defensive option carries specific timing requirements and risks that must be weighed against the urgency of the situation.
 
-**Opponent's Starting Position**: [[Front Headlock]] (Top)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -203,28 +203,28 @@ Successful defense depends on maintaining composure and avoiding the common pani
 ### 1. Sit back to guard by driving your hips backward and sitting through to establish closed or half guard before the arm is threaded
 
 - **When to use**: At the earliest stage of the setup when the attacker is still working to break your posting arm or just beginning to thread. Your near arm must still be free to post and assist the guard pull.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to half guard or closed guard, neutralizing the anaconda threat entirely and resetting to a guard-based exchange where you have legitimate offensive options
 - **Risk**: If timed too late, the attacker follows you down and completes the anaconda grip while you're transitioning, putting you in a worse position on your back with the choke partially locked
 
 ### 2. Tuck near arm tight and circle away from the choking arm side while fighting the threading wrist with your free hand
 
 - **When to use**: When the attacker has begun threading but hasn't secured the grip yet. Your near arm must be tucked so tightly that their arm cannot pass around it to complete the configuration.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You deny the arm-in configuration, forcing the attacker to either reset their front headlock attack or switch to a different technique like the Darce or guillotine, buying you time to improve position
 - **Risk**: Circling away while the attacker maintains head control can expose your back if they follow your rotation, potentially leading to back control or a completed anaconda from a different angle
 
 ### 3. Explosive technical standup by posting hands, driving upward, and turning to face the opponent while maintaining chin tuck
 
 - **When to use**: When the attacker's weight is high on your back and their hips are elevated, giving you space underneath to stand. Most effective when their arm threading is shallow and the grip is not yet completed.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You neutralize the turtle position entirely, standing breaks the mechanics of most front headlock submissions, and you can circle away to disengage or shoot for a takedown of your own
 - **Risk**: If the attacker has deep head control and heavy chest pressure, the standup attempt can stall halfway, leaving you in a compromised bent-over standing position where guillotine becomes the primary threat
 
 ### 4. Forward roll through the attacker's position to invert and recover guard, using their forward pressure against them
 
 - **When to use**: When the attacker overcommits their weight forward onto your back and their hips are high, making them vulnerable to being pulled over the top. Works best when they have not yet locked the grip.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You end up on your back in guard or half guard with the anaconda threat neutralized, and the attacker may end up scrambling to recover their position after being rolled
 - **Risk**: If the attacker follows the roll while maintaining their grip, you may end up in mounted anaconda position which is worse than the original turtle setup
 
@@ -236,11 +236,11 @@ Successful defense depends on maintaining composure and avoiding the common pani
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Tuck your near arm tight to your ribs and fight the choking arm's wrist with your free hand to prevent deep threading. Circle away from the choking arm side while keeping your chin tucked. This denies the arm-in configuration and forces the attacker to reset from standard front headlock, where you have more defensive options available.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Sit back explosively before the arm threading is complete by driving your hips backward and turning into the attacker. Catch their leg with your legs as you sit through, establishing half guard. Alternatively, execute a forward roll when the attacker overcommits their weight, using their momentum to end up in guard position underneath them.
 

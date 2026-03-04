@@ -184,7 +184,7 @@ The sweep functions as the positional advancement layer within the Hindulotine a
 
 Strategically, this technique bridges the gap between bottom guard attacking and top mount finishing. Landing in mount with residual guillotine control gives you immediate offensive options - you can finish the mounted guillotine, transition to standard mount attacks, or use the neck control to set up high mount advancement. The sweep is most effective against opponents who commit their weight forward or laterally while attempting to neutralize the Hindulotine grip, making their base structurally vulnerable to directional force application.
 
-**From Position**: [[Hindulotine]] (Bottom)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -238,9 +238,9 @@ Strategically, this technique bridges the gap between bottom guard attacking and
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 65% |
-| Failure | [[Hindulotine]] | 25% |
-| Counter | [[Hindulotine]] | 10% |
+| Success | [[Positions/Mount]] | 65% |
+| Failure | [[Positions/Hindulotine]] | 25% |
+| Counter | [[Positions/Hindulotine]] | 10% |
 
 
 </section>
@@ -249,10 +249,10 @@ Strategically, this technique bridges the gap between bottom guard attacking and
 
 ## Opponent Counters
 
-- **Posting the far-side arm wide and driving weight backward to prevent being tipped over the balance point** (Effectiveness: High) - Your Response: Their wide post compromises their choke defense. Abandon the sweep attempt and immediately tighten the guillotine for a direct finish, or switch to the Butterfly Sweep with Guillotine if hooks are available. Their arm extension also opens Hindulotine to Darce Choke transition. → Leads to [[Hindulotine]]
-- **Sprawling hips back and pulling head free to create distance and break the guillotine grip** (Effectiveness: Medium) - Your Response: If they create significant distance, close your guard to prevent pass and maintain whatever grip you retain. If only partial distance, re-establish hip angle and re-load the sweep threat. Their retreat resets the position but you retain guard control. → Leads to [[Hindulotine]]
-- **Circling toward the sweep direction to neutralize the off-balance angle and realign base** (Effectiveness: Medium) - Your Response: Follow their circular movement by adjusting your hip angle to maintain the off-balance threat from the new angle. If they circle past your sweep side, switch the sweep direction or transition to a back take as their rotation exposes their back. → Leads to [[Hindulotine]]
-- **Dropping weight low and flattening their body to remove the bridging space underneath** (Effectiveness: Low) - Your Response: Their low position increases guillotine pressure since they compress into your grip. Use their proximity to tighten the choke finish directly. If they flatten completely, insert butterfly hooks underneath and switch to the Butterfly Sweep with Guillotine variant. → Leads to [[Hindulotine]]
+- **Posting the far-side arm wide and driving weight backward to prevent being tipped over the balance point** (Effectiveness: High) - Your Response: Their wide post compromises their choke defense. Abandon the sweep attempt and immediately tighten the guillotine for a direct finish, or switch to the Butterfly Sweep with Guillotine if hooks are available. Their arm extension also opens Hindulotine to Darce Choke transition. → Leads to [[Positions/Hindulotine]]
+- **Sprawling hips back and pulling head free to create distance and break the guillotine grip** (Effectiveness: Medium) - Your Response: If they create significant distance, close your guard to prevent pass and maintain whatever grip you retain. If only partial distance, re-establish hip angle and re-load the sweep threat. Their retreat resets the position but you retain guard control. → Leads to [[Positions/Hindulotine]]
+- **Circling toward the sweep direction to neutralize the off-balance angle and realign base** (Effectiveness: Medium) - Your Response: Follow their circular movement by adjusting your hip angle to maintain the off-balance threat from the new angle. If they circle past your sweep side, switch the sweep direction or transition to a back take as their rotation exposes their back. → Leads to [[Positions/Hindulotine]]
+- **Dropping weight low and flattening their body to remove the bridging space underneath** (Effectiveness: Low) - Your Response: Their low position increases guillotine pressure since they compress into your grip. Use their proximity to tighten the choke finish directly. If they flatten completely, insert butterfly hooks underneath and switch to the Butterfly Sweep with Guillotine variant. → Leads to [[Positions/Hindulotine]]
 
 
 </section>

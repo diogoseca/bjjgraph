@@ -21,7 +21,7 @@ The technique begins from a deeply disadvantaged position where breathing is res
 
 This escape is fundamental to any serious practitioner's defensive arsenal because the body triangle is increasingly common at all competitive levels. Without a reliable clearing method, practitioners who concede body triangle face an extremely high submission rate. The technique rewards patience, technical precision, and understanding of the lock's biomechanics over athletic scrambling or panicked explosive movement.
 
-**From Position**: [[Body Triangle]] (Bottom)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 **Success Rate**: 35%
 
 </section>
@@ -32,9 +32,9 @@ This escape is fundamental to any serious practitioner's defensive arsenal becau
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 35% |
-| Failure | [[Body Triangle]] | 40% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Side Control]] | 35% |
+| Failure | [[Positions/Back Control/Body Triangle]] | 40% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -193,21 +193,21 @@ The body triangle escape to side control occupies a critical position in the def
 ## Related Techniques
 
 
-- [[Body Triangle]] - Starting position - the back control variation being escaped
+- [[Positions/Back Control/Body Triangle]] - Starting position - the back control variation being escaped
 
-- [[Side Control]] - Target position upon successful escape completion
+- [[Positions/Side Control]] - Target position upon successful escape completion
 
-- [[Back Control]] - Parent position category that body triangle is a variation of
+- [[Positions/Back Control]] - Parent position category that body triangle is a variation of
 
-- [[Seat Belt Control Back]] - Upper body control configuration commonly paired with body triangle
+- [[Positions/Back Control/Seat Belt Control Back]] - Upper body control configuration commonly paired with body triangle
 
-- [[Half Guard]] - Alternative escape target through guard recovery sequences
+- [[Positions/Half Guard]] - Alternative escape target through guard recovery sequences
 
-- [[Turtle]] - Alternative intermediate escape position from back control
+- [[Positions/Turtle]] - Alternative intermediate escape position from back control
 
-- [[Back Door Escape]] - Complementary escape system addressing standard back control hooks
+- [[Transitions/Back Door Escape]] - Complementary escape system addressing standard back control hooks
 
-- [[Rear Triangle]] - Alternative triangle configuration from back that uses similar escape principles
+- [[Positions/Triangle Control/Rear Triangle]] - Alternative triangle configuration from back that uses similar escape principles
 
 
 </section>

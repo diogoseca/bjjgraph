@@ -178,7 +178,7 @@ The attacker's strategy revolves around creating a dilemma. By controlling one a
 
 Execution requires disciplined footwork: small lateral steps at 45-degree angles, never crossing feet, maintaining a low base with hips below the opponent's hips. The transition from Russian Tie grip to seat belt back control is the most technically demanding phase, requiring precise timing of grip releases and immediate establishment of chest-to-back connection. Patient, pressure-based circling consistently outperforms explosive rushing at all skill levels.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ Execution requires disciplined footwork: small lateral steps at 45-degree angles
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Standing Position]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ Execution requires disciplined footwork: small lateral steps at 45-degree angles
 
 ## Opponent Counters
 
-- **Opponent pulls their controlled arm back explosively to strip the 2-on-1 grip** (Effectiveness: Medium) - Your Response: Follow their pull by stepping forward and converting to single leg or ankle pick on the near leg. Their backward pull creates forward momentum you can exploit for lower body attacks. Alternatively, use the momentum to accelerate your circle if grip is maintained. → Leads to [[Standing Position]]
-- **Opponent turns into you aggressively and establishes a body lock or underhook** (Effectiveness: High) - Your Response: Immediately limp arm out of their grip by rotating your shoulder internally and dropping weight. Use a whizzer on their underhook side to prevent them from consolidating control. Reset to neutral distance or switch to a snap down if they overcommit forward. → Leads to [[Standing Position]]
-- **Opponent sprawls backward dropping their hips and making themselves heavy** (Effectiveness: Medium) - Your Response: Adjust angle to be more lateral rather than forward-driving. Their backward weight shift actually prevents them from rotating to track you. Maintain head pressure on their bicep and continue small lateral steps. Their heavy sprawl makes the back take more accessible if you keep proper angle. → Leads to [[Standing Position]]
-- **Opponent grabs your head or neck with their free arm to create a collar tie counter** (Effectiveness: Low) - Your Response: Continue circling motion while keeping your posture low and base wide. Their neck grip typically weakens as you achieve the perpendicular angle since they cannot maintain leverage from that position. If the grip is strong, use it as a pivot point to accelerate your rotation around them. → Leads to [[Standing Position]]
+- **Opponent pulls their controlled arm back explosively to strip the 2-on-1 grip** (Effectiveness: Medium) - Your Response: Follow their pull by stepping forward and converting to single leg or ankle pick on the near leg. Their backward pull creates forward momentum you can exploit for lower body attacks. Alternatively, use the momentum to accelerate your circle if grip is maintained. → Leads to [[Positions/Standing Position]]
+- **Opponent turns into you aggressively and establishes a body lock or underhook** (Effectiveness: High) - Your Response: Immediately limp arm out of their grip by rotating your shoulder internally and dropping weight. Use a whizzer on their underhook side to prevent them from consolidating control. Reset to neutral distance or switch to a snap down if they overcommit forward. → Leads to [[Positions/Standing Position]]
+- **Opponent sprawls backward dropping their hips and making themselves heavy** (Effectiveness: Medium) - Your Response: Adjust angle to be more lateral rather than forward-driving. Their backward weight shift actually prevents them from rotating to track you. Maintain head pressure on their bicep and continue small lateral steps. Their heavy sprawl makes the back take more accessible if you keep proper angle. → Leads to [[Positions/Standing Position]]
+- **Opponent grabs your head or neck with their free arm to create a collar tie counter** (Effectiveness: Low) - Your Response: Continue circling motion while keeping your posture low and base wide. Their neck grip typically weakens as you achieve the perpendicular angle since they cannot maintain leverage from that position. If the grip is strong, use it as a pivot point to accelerate your rotation around them. → Leads to [[Positions/Standing Position]]
 
 
 </section>

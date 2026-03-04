@@ -184,7 +184,7 @@ From Twister Control, the neck crank works by amplifying the existing spinal rot
 
 Strategically, the neck crank serves multiple purposes within the Twister Control system. It provides an immediate threat that prevents opponents from weathering the position, the defensive reactions it creates open opportunities for alternative attacks like guillotines and arm locks, and it accelerates the opponent's fatigue and psychological pressure as defending neck attacks while breathing is restricted creates compounding stress. The finishing pressure should come from controlled body positioning and leverage rather than explosive jerking movements.
 
-**From Position**: [[Twister Control]] (Top)
+**From Position**: [[Positions/Twister Control]] (Top)
 
 </section>
 
@@ -238,8 +238,8 @@ Strategically, the neck crank serves multiple purposes within the Twister Contro
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Twister Control]] | 30% |
-| Counter | [[Turtle]] | 15% |
+| Failure | [[Positions/Twister Control]] | 30% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ Strategically, the neck crank serves multiple purposes within the Twister Contro
 
 ## Opponent Counters
 
-- **Opponent tucks chin aggressively and creates frames against your arms** (Effectiveness: High) - Your Response: Transition to guillotine attack by threading arm under their chin, or work to pry chin up using forearm pressure on forehead → Leads to [[Twister Control]]
-- **Opponent works to extract trapped leg while you focus on head control** (Effectiveness: High) - Your Response: Abandon neck attack temporarily and reestablish leg control - the base rotation is more important than the immediate submission → Leads to [[Turtle]]
-- **Opponent turns into you sacrificing back exposure to escape rotation** (Effectiveness: Medium) - Your Response: Accept the turn and transition to front headlock position or guillotine as their neck becomes available from the new angle → Leads to [[Turtle]]
-- **Opponent hand fights your grip before you can establish figure-four** (Effectiveness: Medium) - Your Response: Attack exposed arms with kimura or armbar attempts, or use their hand fighting to create openings for deeper head control → Leads to [[Twister Control]]
+- **Opponent tucks chin aggressively and creates frames against your arms** (Effectiveness: High) - Your Response: Transition to guillotine attack by threading arm under their chin, or work to pry chin up using forearm pressure on forehead → Leads to [[Positions/Twister Control]]
+- **Opponent works to extract trapped leg while you focus on head control** (Effectiveness: High) - Your Response: Abandon neck attack temporarily and reestablish leg control - the base rotation is more important than the immediate submission → Leads to [[Positions/Turtle]]
+- **Opponent turns into you sacrificing back exposure to escape rotation** (Effectiveness: Medium) - Your Response: Accept the turn and transition to front headlock position or guillotine as their neck becomes available from the new angle → Leads to [[Positions/Turtle]]
+- **Opponent hand fights your grip before you can establish figure-four** (Effectiveness: Medium) - Your Response: Attack exposed arms with kimura or armbar attempts, or use their hand fighting to create openings for deeper head control → Leads to [[Positions/Twister Control]]
 
 
 </section>

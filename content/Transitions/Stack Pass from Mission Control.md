@@ -21,7 +21,7 @@ The fundamental mechanic involves the top player committing their weight forward
 
 Strategically, the stack pass occupies a critical niche in the Mission Control escape hierarchy as the decisive, position-advancing option when posture recovery and arm extraction are unavailable or too slow. The technique is particularly valuable when the bottom player is actively threatening submissions, as the forward driving pressure simultaneously neutralizes triangle and omoplata angles while progressing toward a pass. The risk-reward calculation favors the stack pass when remaining in Mission Control means facing escalating submission danger where time works against the top player. However, overcommitting to the stack without controlling the opponent's hips can expose the passer to omoplata entries and sweeps that exploit the forward weight distribution.
 
-**From Position**: [[Mission Control]] (Top)
+**From Position**: [[Positions/Rubber Guard/Mission Control]] (Top)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the stack pass occupies a critical niche in the Mission Control e
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Mission Control]] | 35% |
-| Counter | [[Closed Guard]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Rubber Guard/Mission Control]] | 35% |
+| Counter | [[Positions/Closed Guard]] | 25% |
 
 
 </section>
@@ -191,23 +191,23 @@ The Stack Pass from Mission Control occupies a critical role in the Mission Cont
 ## Related Techniques
 
 
-- [[Mission Control]] - Source position—the rubber guard control position being escaped via stacking pressure
+- [[Positions/Rubber Guard/Mission Control]] - Source position—the rubber guard control position being escaped via stacking pressure
 
-- [[Half Guard]] - Primary target position after successful stack pass collapses the guard structure
+- [[Positions/Half Guard]] - Primary target position after successful stack pass collapses the guard structure
 
-- [[Rubber Guard]] - Parent system of Mission Control—understanding the system helps identify stack pass timing
+- [[Positions/Rubber Guard]] - Parent system of Mission Control—understanding the system helps identify stack pass timing
 
-- [[Posture Recovery from Mission Control]] - Alternative escape technique—posture-based escape that complements the stack pass option
+- [[Transitions/Posture Recovery from Mission Control]] - Alternative escape technique—posture-based escape that complements the stack pass option
 
-- [[Stack Pass from Carni]] - Related technique—similar stacking mechanics applied to a different rubber guard control
+- [[Transitions/Stack Pass from Carni]] - Related technique—similar stacking mechanics applied to a different rubber guard control
 
-- [[Closed Guard]] - Position reached if opponent counters the stack with a sweep or guard reclassification
+- [[Positions/Closed Guard]] - Position reached if opponent counters the stack with a sweep or guard reclassification
 
-- [[Omoplata Control]] - Primary submission threat—opponent can enter omoplata using forward stacking momentum
+- [[Positions/Omoplata Control]] - Primary submission threat—opponent can enter omoplata using forward stacking momentum
 
-- [[Stack Pass from Meathook]] - Related technique—stacking from another rubber guard transitional position
+- [[Transitions/Stack Pass from Meathook]] - Related technique—stacking from another rubber guard transitional position
 
-- [[Headquarters Position]] - Alternative passing destination when stack creates enough space to disengage legs
+- [[Positions/Headquarters Position]] - Alternative passing destination when stack creates enough space to disengage legs
 
 
 </section>

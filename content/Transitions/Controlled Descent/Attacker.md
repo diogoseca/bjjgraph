@@ -178,7 +178,7 @@ The strategic value of Controlled Descent lies in recognizing that standing back
 
 This technique represents a paradigm shift in defensive thinking - accepting a temporary positional disadvantage (grounded back exposure or turtle) in exchange for eliminating the immediate threats of standing submissions and forceful takedowns. The key distinction between Controlled Descent and simply being taken down is agency: you dictate the timing, angle, and manner of the descent, positioning yourself optimally for the next phase of escape rather than being thrown into a compromised position chosen by your opponent.
 
-**From Position**: [[Standing Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Bottom)
 
 </section>
 
@@ -228,10 +228,10 @@ This technique represents a paradigm shift in defensive thinking - accepting a t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 45% |
-| Success | [[Half Guard]] | 20% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Turtle]] | 45% |
+| Success | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ This technique represents a paradigm shift in defensive thinking - accepting a t
 
 ## Opponent Counters
 
-- **Opponent follows descent and immediately locks body triangle or deep hooks** (Effectiveness: High) - Your Response: Accept the grounded back control but continue systematic escape - you still eliminated standing threats and have more defensive options on the mat → Leads to [[Back Control]]
-- **Opponent sprawls weight onto your back during descent to flatten you** (Effectiveness: Medium) - Your Response: Exaggerate the hip turn during descent to land on your side rather than flat, then immediately work to establish turtle or create scramble → Leads to [[Back Control]]
-- **Opponent rides the descent and drives you past turtle into mount** (Effectiveness: Medium) - Your Response: Tighten elbows to ribs and maintain rounded back posture to prevent being driven flat; if mount is established, immediately begin elbow-knee escape sequence → Leads to [[Mount]]
-- **Opponent attempts standing submission during your descent** (Effectiveness: Low) - Your Response: The descent motion disrupts their submission mechanics - continue the descent while maintaining neck protection and the submission attempt will fail → Leads to [[Turtle]]
+- **Opponent follows descent and immediately locks body triangle or deep hooks** (Effectiveness: High) - Your Response: Accept the grounded back control but continue systematic escape - you still eliminated standing threats and have more defensive options on the mat → Leads to [[Positions/Back Control]]
+- **Opponent sprawls weight onto your back during descent to flatten you** (Effectiveness: Medium) - Your Response: Exaggerate the hip turn during descent to land on your side rather than flat, then immediately work to establish turtle or create scramble → Leads to [[Positions/Back Control]]
+- **Opponent rides the descent and drives you past turtle into mount** (Effectiveness: Medium) - Your Response: Tighten elbows to ribs and maintain rounded back posture to prevent being driven flat; if mount is established, immediately begin elbow-knee escape sequence → Leads to [[Positions/Mount]]
+- **Opponent attempts standing submission during your descent** (Effectiveness: Low) - Your Response: The descent motion disrupts their submission mechanics - continue the descent while maintaining neck protection and the submission attempt will fail → Leads to [[Positions/Turtle]]
 
 
 </section>

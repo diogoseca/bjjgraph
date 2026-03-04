@@ -21,7 +21,7 @@ This sweep is most effective against opponents who commit heavy chest pressure i
 
 Strategically, this sweep serves as a complementary threat within the pocket half guard attack system. While it carries lower individual attempt frequency than the Old School Sweep or back take entries, its presence forces the top player to manage weight distribution across multiple planes—forward pressure invites this sweep, while sitting back opens the Old School. This constant dilemma embodies the core half guard principle that offensive threat density from bottom creates defensive paralysis in the top player.
 
-**From Position**: [[Pocket Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Pocket Half Guard]] (Bottom)
 **Success Rate**: 48%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this sweep serves as a complementary threat within the pocket hal
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 48% |
-| Failure | [[Pocket Half Guard]] | 32% |
-| Counter | [[Flattened Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 48% |
+| Failure | [[Positions/Half Guard/Pocket Half Guard]] | 32% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Sweep from Pocket Half Guard occupies a supporting but essential role within
 ## Related Techniques
 
 
-- [[Pocket Half Guard]] - Source position providing the underhook and pocket frame foundation for this sweep
+- [[Positions/Half Guard/Pocket Half Guard]] - Source position providing the underhook and pocket frame foundation for this sweep
 
-- [[Side Control]] - Target position after successful sweep completion
+- [[Positions/Side Control]] - Target position after successful sweep completion
 
-- [[Half Guard]] - Parent position category containing pocket half guard variation
+- [[Positions/Half Guard]] - Parent position category containing pocket half guard variation
 
-- [[Flattened Half Guard]] - Counter outcome position when opponent flattens during failed sweep attempt
+- [[Positions/Half Guard/Flattened Half Guard]] - Counter outcome position when opponent flattens during failed sweep attempt
 
-- [[Deep Half Guard]] - Alternative transition from same starting position when sweep is blocked
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition from same starting position when sweep is blocked
 
-- [[Dogfight Position]] - Intermediate position sometimes reached during incomplete sweep execution
+- [[Positions/Dogfight Position]] - Intermediate position sometimes reached during incomplete sweep execution
 
-- [[Underhook Sweep from Pocket Half]] - Related sweep variant sharing underhook mechanics from same starting position
+- [[Transitions/Underhook Sweep from Pocket Half]] - Related sweep variant sharing underhook mechanics from same starting position
 
-- [[Old School]] - Primary offensive position from pocket half guard sharing underhook-based principles
+- [[Positions/Half Guard/Old School]] - Primary offensive position from pocket half guard sharing underhook-based principles
 
-- [[Knee Shield Half Guard]] - Recovery option when underhook control is compromised during sweep attempt
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Recovery option when underhook control is compromised during sweep attempt
 
-- [[Butterfly Half Guard Sweep]] - Related sweep concept from adjacent half guard variation
+- [[Transitions/Butterfly Half Guard Sweep]] - Related sweep concept from adjacent half guard variation
 
 
 </section>

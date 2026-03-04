@@ -21,7 +21,7 @@ This escape carries moderate risk because a poorly timed or telegraphed roll all
 
 Within the 10th Planet system, this technique serves as a supplementary escape option when standard exits like the technical stand-up or Granby roll are unavailable or have been defended. The low attempt probability reflects its situational nature - it works best when the opponent overcommits to attacks from behind, creating the forward space needed for the roll. Practitioners should develop this as an additional tool rather than a primary escape, using it to add unpredictability to their defensive repertoire and exploit specific patterns in the opponent's attack sequences.
 
-**From Position**: [[Chill Dog]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Chill Dog]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Within the 10th Planet system, this technique serves as a supplementary escape o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Failure | [[Chill Dog]] | 30% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Failure | [[Positions/Rubber Guard/Chill Dog]] | 30% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -193,21 +193,21 @@ The Roll from Chill Dog occupies a specific niche within the turtle escape hiera
 ## Related Techniques
 
 
-- [[Chill Dog]] - Source position - this escape is initiated from the compact Chill Dog turtle variant
+- [[Positions/Rubber Guard/Chill Dog]] - Source position - this escape is initiated from the compact Chill Dog turtle variant
 
-- [[Open Guard]] - Primary success target - successful roll recovers open guard with leg frames established
+- [[Positions/Open Guard]] - Primary success target - successful roll recovers open guard with leg frames established
 
-- [[Back Control]] - Counter risk - opponent may follow the roll and establish back control with hooks
+- [[Positions/Back Control]] - Counter risk - opponent may follow the roll and establish back control with hooks
 
-- [[Turtle]] - Parent position category - Chill Dog is a specific turtle variant
+- [[Positions/Turtle]] - Parent position category - Chill Dog is a specific turtle variant
 
-- [[Escape Chill Dog]] - Alternative escape technique from the same starting position
+- [[Transitions/Escape Chill Dog]] - Alternative escape technique from the same starting position
 
-- [[Advance to Chill Dog]] - Entry transition into the starting position of this technique
+- [[Transitions/Advance to Chill Dog]] - Entry transition into the starting position of this technique
 
-- [[Front Headlock]] - Risk position if roll partially fails and opponent redirects to front control
+- [[Positions/Front Headlock]] - Risk position if roll partially fails and opponent redirects to front control
 
-- [[Half Guard]] - Alternative defensive position reachable if roll lands short of full open guard
+- [[Positions/Half Guard]] - Alternative defensive position reachable if roll lands short of full open guard
 
 
 </section>

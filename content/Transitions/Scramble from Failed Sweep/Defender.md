@@ -146,7 +146,7 @@ description: "Learn to defend against scramble attempts after stuffing sweeps in
 
 As the defender against the scramble from failed sweep, you are the top player who has successfully defended an initial sweep attempt and must now prevent the opponent from converting that failed sweep into a productive scramble. Your primary objective is to maintain your established top position advantage and prevent the bottom player from building up to their knees or establishing a competitive scramble. The defender holds a structural advantage because the attacker must transition from a supine position to a competitive base, providing multiple windows to apply pressure, re-establish control, or advance past the guard entirely. The critical defensive moment occurs in the first 1-2 seconds after the sweep fails, when the bottom player begins redirecting their momentum. Your response speed and decisiveness in this window determine whether you maintain top position, advance to a better one, or concede a scramble.
 
-**Opponent's Starting Position**: [[Open Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the scramble from failed sweep, you are the top player w
 ### 1. Sprawl and drive crossface through opponent's jawline to flatten them back to bottom
 
 - **When to use**: Immediately when you recognize the opponent beginning to build up from the failed sweep, before they establish the underhook
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Opponent is driven flat to their back with your top pressure re-established and dominant grips intact for continued passing
 - **Risk**: Over-committing to the sprawl with hips too far back can allow the opponent to redirect underneath for a deep half guard entry
 
 ### 2. Backstep to initiate knee slice pass through the space created by opponent's upward movement
 
 - **When to use**: When the opponent has committed to building up and created space between their back and the mat, opening a passing lane
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Advance past the guard to half guard or side control by exploiting the space the opponent created during their scramble attempt
 - **Risk**: A failed backstep can give the opponent the lateral angle they need to complete the scramble to a competitive position
 
 ### 3. Disengage and reset to standing passing position with controlled distance
 
 - **When to use**: When the opponent has established a competitive scramble base with underhook and you cannot maintain top pressure advantage
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Reset to a standing open guard engagement with fresh passing opportunities and full posture and base restored
 - **Risk**: Gives the opponent time to recover full guard structure and re-establish defensive grips and frames
 
 ### 4. Drive forward with heavy chest pressure and wide base to smother the scramble before it develops
 
 - **When to use**: When the opponent begins turning to their side but has not yet posted their hand or established any base
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Pin the opponent flat with chest-to-chest pressure, eliminating their ability to turn or build up, and re-establish dominant passing position
 - **Risk**: If the opponent has already established a post or underhook, driving forward can be redirected into a sweep completion
 
@@ -217,11 +217,11 @@ As the defender against the scramble from failed sweep, you are the top player w
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Stuff the scramble attempt with immediate sprawl pressure and crossface before the opponent establishes an underhook. Drive them flat to their back and re-establish dominant collar and pant grips while maintaining heavy top pressure to prevent any subsequent scramble attempts.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Capitalize on the space created by the opponent's scramble attempt by initiating a backstep or knee slice pass through the gap between their body and the mat. Use their upward momentum against them to advance past their legs into half guard top, then consolidate with crossface and underhook before they can recover full guard.
 

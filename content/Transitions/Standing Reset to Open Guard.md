@@ -21,7 +21,7 @@ Once standing, the top player uses both hands to systematically strip the lapel 
 
 This transition is tactically important because it represents the top player accepting a temporary positional step backward (giving up pressure and proximity) in exchange for escaping a mechanically disadvantaged entanglement. The trade-off is worthwhile: a neutral open guard top position with full mobility is vastly superior to a compromised Ringworm Guard top position with restricted base and constant sweep threats. The key is executing the stand and extraction quickly enough that the bottom player cannot establish a new guard configuration before you begin your passing sequence.
 
-**From Position**: [[Ringworm Guard]] (Top)
+**From Position**: [[Positions/Ringworm Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ This transition is tactically important because it represents the top player acc
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Success | [[Headquarters Position]] | 15% |
-| Failure | [[Ringworm Guard]] | 20% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Success | [[Positions/Headquarters Position]] | 15% |
+| Failure | [[Positions/Ringworm Guard]] | 20% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -190,29 +190,29 @@ The Standing Reset to Open Guard occupies a critical role in the lapel guard def
 ## Related Techniques
 
 
-- [[Ringworm Guard]] - Starting position - the lapel guard entanglement this transition escapes
+- [[Positions/Ringworm Guard]] - Starting position - the lapel guard entanglement this transition escapes
 
-- [[Open Guard]] - Primary target position - neutral guard engagement after successful reset
+- [[Positions/Open Guard]] - Primary target position - neutral guard engagement after successful reset
 
-- [[Headquarters Position]] - Secondary success outcome - achieved when extraction leads directly to dominant leg control
+- [[Positions/Headquarters Position]] - Secondary success outcome - achieved when extraction leads directly to dominant leg control
 
-- [[Back Control]] - Counter risk - bottom player may take the back during failed extraction attempts
+- [[Positions/Back Control]] - Counter risk - bottom player may take the back during failed extraction attempts
 
-- [[Lapel Grip Break and Posture Recovery]] - Alternative technique - ground-based lapel extraction that this transition escalates from
+- [[Transitions/Lapel Grip Break and Posture Recovery]] - Alternative technique - ground-based lapel extraction that this transition escalates from
 
-- [[Standing Guard Pass with Distance Creation]] - Follow-up technique - passing sequence initiated after successful reset to open guard
+- [[Transitions/Standing Guard Pass with Distance Creation]] - Follow-up technique - passing sequence initiated after successful reset to open guard
 
-- [[Leg Extraction from Lapel Wrap]] - Alternative technique - another ground-based approach to clearing the lapel entanglement
+- [[Transitions/Leg Extraction from Lapel Wrap]] - Alternative technique - another ground-based approach to clearing the lapel entanglement
 
-- [[Worm Guard]] - Related position - parent lapel guard system sharing similar extraction principles
+- [[Positions/Worm Guard]] - Related position - parent lapel guard system sharing similar extraction principles
 
-- [[Squid Guard]] - Related position - sister lapel guard variation requiring comparable standing reset mechanics
+- [[Positions/Squid Guard]] - Related position - sister lapel guard variation requiring comparable standing reset mechanics
 
-- [[De La Riva Guard]] - Common resulting guard - frequently established by the bottom player after the reset
+- [[Positions/De La Riva Guard]] - Common resulting guard - frequently established by the bottom player after the reset
 
-- [[Smash Pass Counter]] - Alternative approach - pressure-based option when standing reset is not viable
+- [[Transitions/Smash Pass Counter]] - Alternative approach - pressure-based option when standing reset is not viable
 
-- [[Stack Pass with Lapel Control Negation]] - Alternative technique - forward pressure option from Ringworm Guard top
+- [[Transitions/Stack Pass with Lapel Control Negation]] - Alternative technique - forward pressure option from Ringworm Guard top
 
 
 </section>

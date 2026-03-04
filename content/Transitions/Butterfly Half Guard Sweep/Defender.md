@@ -146,7 +146,7 @@ description: "Complete guide to defending and countering the Butterfly Half Guar
 
 Defending the Butterfly Half Guard Sweep requires the top player to recognize the sweep setup early and apply specific defensive measures before the bottom player can coordinate their elevation drive with upper body pulling mechanics. The primary defensive strategy centers on preventing the bottom player from establishing the necessary conditions for the sweep: disrupting their butterfly hook elevation, neutralizing their underhook or upper body control, and managing weight distribution to avoid being loaded over the hook. Early recognition of the sweep setup through tactile and visual cues allows the defender to choose between multiple defensive responses, each with different risk-reward profiles depending on the specific situation and the opponent's grip configuration.
 
-**Opponent's Starting Position**: [[Butterfly Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Butterfly Half Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Butterfly Half Guard Sweep requires the top player to recognize th
 ### 1. Sprawl hips back and apply heavy crossface to flatten opponent's posture
 
 - **When to use**: When you feel the butterfly hook begin to elevate or opponent establishes underhook on butterfly side
-- **Targets**: [[Butterfly Half Guard]]
+- **Targets**: [[Positions/Half Guard/Butterfly Half Guard]]
 - **If successful**: Opponent's sweep attempt is neutralized and they are flattened, removing butterfly hook leverage entirely
 - **Risk**: If too aggressive with forward pressure during sprawl, opponent may redirect energy into deep half guard entry
 
 ### 2. Whizzer opponent's underhook arm and drive shoulder pressure to strip their grip
 
 - **When to use**: Immediately when opponent establishes underhook on butterfly side before they can coordinate the full sweep
-- **Targets**: [[Butterfly Half Guard]]
+- **Targets**: [[Positions/Half Guard/Butterfly Half Guard]]
 - **If successful**: Opponent loses the critical upper body control needed for sweep execution, forcing them to re-establish grips
 - **Risk**: Whizzer can be countered by opponent ducking under for deep half guard entry using the whizzer pressure
 
 ### 3. Post far hand wide on the mat and widen base against the sweep direction
 
 - **When to use**: When sweep is already in motion and you need immediate emergency base to prevent being toppled
-- **Targets**: [[Butterfly Half Guard]]
+- **Targets**: [[Positions/Half Guard/Butterfly Half Guard]]
 - **If successful**: Creates emergency base point that prevents sweep completion along that direction
 - **Risk**: Hand post commits your weight to one side and occupies one arm, potentially opening you to 100% sweep or old school sweep
 
 ### 4. Drive forward aggressively to pass guard during opponent's failed sweep attempt
 
 - **When to use**: When opponent commits fully to sweep but you successfully defend, catching them in a compromised transitional state
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Advance past butterfly half guard to kill the butterfly hook and establish regular half guard top or side control
 - **Risk**: Forward pressure into an active and loaded butterfly hook can be redirected into sweep completion
 
@@ -217,11 +217,11 @@ Defending the Butterfly Half Guard Sweep requires the top player to recognize th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Butterfly Half Guard]]
+### → [[Positions/Half Guard/Butterfly Half Guard]]
 
 Sprawl hips back immediately when you feel elevation pressure, apply heavy crossface to flatten opponent's posture, and strip their underhook to remove sweeping leverage. The sweep fails and you maintain top position with opportunity to initiate passing.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Use the opponent's committed sweep attempt as an opportunity to advance position by driving forward through their compromised guard structure while they are recovering from the failed technique, killing the butterfly hook and establishing regular half guard top or advancing to side control.
 

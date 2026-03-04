@@ -186,7 +186,7 @@ description: "Master executing the Sweep from Knee Shield in BJJ. Learn underhoo
 
 As the attacker executing the Sweep from Knee Shield, your objective is to transform the knee shield from a defensive barrier into an offensive lever that topples the top player. The sweep requires coordinating multiple elements simultaneously: maintaining the knee shield frame for distance management, securing a deep underhook for driving force, creating an off-angle through hip movement, and controlling the far side to prevent posting. The technique rewards patience in setup followed by explosive commitment during execution, and understanding the mechanical interplay between the push of the shield and pull of the underhook is essential for consistent success against resisting opponents.
 
-**From Position**: [[Knee Shield Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the attacker executing the Sweep from Knee Shield, your objective is to trans
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 45% |
-| Failure | [[Knee Shield Half Guard]] | 35% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Mount]] | 45% |
+| Failure | [[Positions/Half Guard/Knee Shield Half Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the attacker executing the Sweep from Knee Shield, your objective is to trans
 
 ## Opponent Counters
 
-- **Opponent whizzers the underhook to prevent deep grip and block the driving force** (Effectiveness: High) - Your Response: Use the whizzer pressure against them by continuing to drive forward—their whizzer commits their weight forward, making the sweep easier. Alternatively, switch to a lumberjack grip on their far leg. → Leads to [[Knee Shield Half Guard]]
-- **Opponent posts far hand wide on the mat to create a strong base preventing the roll** (Effectiveness: Medium) - Your Response: Control their posting arm by securing a wrist grip or sleeve grip before initiating the sweep. If they have already posted, attack the post by pulling their arm toward you or switching to an arm drag. → Leads to [[Knee Shield Half Guard]]
-- **Opponent drives heavy crossface pressure to flatten you and kill the angle before the sweep initiates** (Effectiveness: High) - Your Response: Frame on their crossface shoulder with your free hand to maintain your angle. If they flatten you, abandon the sweep and recover your knee shield frame first. Transition to deep half guard if position degrades. → Leads to [[Side Control]]
-- **Opponent backsteps away from the sweep direction to remove their weight from the lever** (Effectiveness: Medium) - Your Response: Follow their backstep by adjusting your angle and pursuing the underhook. Their backstep may expose their back for a back take opportunity or create space for you to come up to a single leg. → Leads to [[Knee Shield Half Guard]]
+- **Opponent whizzers the underhook to prevent deep grip and block the driving force** (Effectiveness: High) - Your Response: Use the whizzer pressure against them by continuing to drive forward—their whizzer commits their weight forward, making the sweep easier. Alternatively, switch to a lumberjack grip on their far leg. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
+- **Opponent posts far hand wide on the mat to create a strong base preventing the roll** (Effectiveness: Medium) - Your Response: Control their posting arm by securing a wrist grip or sleeve grip before initiating the sweep. If they have already posted, attack the post by pulling their arm toward you or switching to an arm drag. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
+- **Opponent drives heavy crossface pressure to flatten you and kill the angle before the sweep initiates** (Effectiveness: High) - Your Response: Frame on their crossface shoulder with your free hand to maintain your angle. If they flatten you, abandon the sweep and recover your knee shield frame first. Transition to deep half guard if position degrades. → Leads to [[Positions/Side Control]]
+- **Opponent backsteps away from the sweep direction to remove their weight from the lever** (Effectiveness: Medium) - Your Response: Follow their backstep by adjusting your angle and pursuing the underhook. Their backstep may expose their back for a back take opportunity or create space for you to come up to a single leg. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 
 
 </section>

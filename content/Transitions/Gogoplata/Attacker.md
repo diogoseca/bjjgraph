@@ -180,7 +180,7 @@ From Mission Control, the Gogoplata setup requires bringing your attacking foot 
 
 Competition footage shows the Gogoplata succeeding primarily when opponents are unfamiliar with the position's danger or when they're already compromised in their posture from preceding Rubber Guard attacks. The submission's unconventional appearance often causes defenders to misjudge the threat level, creating windows for finish that more traditional attacks might not generate. However, the flexibility requirements mean this technique suits certain body types better than others, and practitioners should honestly assess their physical attributes before investing heavily in Gogoplata development.
 
-**From Position**: [[Mission Control]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Competition footage shows the Gogoplata succeeding primarily when opponents are 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Gogoplata Control]] | 55% |
-| Failure | [[Mission Control]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Gogoplata Control]] | 55% |
+| Failure | [[Positions/Rubber Guard/Mission Control]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Competition footage shows the Gogoplata succeeding primarily when opponents are 
 
 ## Opponent Counters
 
-- **Posture recovery by stacking weight forward and standing up through the guard** (Effectiveness: High) - Your Response: Transition immediately to omoplata or triangle before they complete the posture recovery - attempting to force a Gogoplata against strong posture typically fails → Leads to [[Mission Control]]
-- **Stripping the grip behind the head by pulling the choking foot away** (Effectiveness: Medium) - Your Response: If they grab your foot, transition to armbar on that arm or switch to omoplata by releasing the leg and following their arm movement → Leads to [[Mission Control]]
-- **Turning their chin into the crook of your knee to relieve throat pressure** (Effectiveness: Medium) - Your Response: Pull harder on the back of their head while simultaneously angling your shin to maintain throat contact - if they successfully turn, switch to triangle or armbar → Leads to [[Mission Control]]
-- **Explosive bridge and roll toward the choking leg side to escape bottom position** (Effectiveness: Low) - Your Response: Maintain hip elevation and follow the roll - you often end up on top in a mounted gogoplata position which is even more effective → Leads to [[Mount]]
+- **Posture recovery by stacking weight forward and standing up through the guard** (Effectiveness: High) - Your Response: Transition immediately to omoplata or triangle before they complete the posture recovery - attempting to force a Gogoplata against strong posture typically fails → Leads to [[Positions/Rubber Guard/Mission Control]]
+- **Stripping the grip behind the head by pulling the choking foot away** (Effectiveness: Medium) - Your Response: If they grab your foot, transition to armbar on that arm or switch to omoplata by releasing the leg and following their arm movement → Leads to [[Positions/Rubber Guard/Mission Control]]
+- **Turning their chin into the crook of your knee to relieve throat pressure** (Effectiveness: Medium) - Your Response: Pull harder on the back of their head while simultaneously angling your shin to maintain throat contact - if they successfully turn, switch to triangle or armbar → Leads to [[Positions/Rubber Guard/Mission Control]]
+- **Explosive bridge and roll toward the choking leg side to escape bottom position** (Effectiveness: Low) - Your Response: Maintain hip elevation and follow the roll - you often end up on top in a mounted gogoplata position which is even more effective → Leads to [[Positions/Mount]]
 
 
 </section>

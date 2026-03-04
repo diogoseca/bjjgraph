@@ -21,7 +21,7 @@ The technique requires precise timing and grip coordination. The sweeper must es
 
 This sweep integrates naturally into the modern guard retention and back attack system, functioning as both an offensive weapon and a counter-passing tool. When the opponent attempts to pass the inverted guard, the sweep becomes available as a counter that transforms a defensive situation into dominant back control. The technique has been refined extensively through competition evolution, particularly within berimbolo-based systems, and serves as a critical link between guard retention sequences and systematic back attack chains.
 
-**From Position**: [[Inverted Guard]] (Bottom)
+**From Position**: [[Positions/Inverted Guard]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ This sweep integrates naturally into the modern guard retention and back attack 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 45% |
-| Failure | [[Inverted Guard]] | 35% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Back Control]] | 45% |
+| Failure | [[Positions/Inverted Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -189,23 +189,23 @@ The Sweep from Inverted Guard occupies a critical node within the modern guard r
 ## Related Techniques
 
 
-- [[Inverted Guard]] - Source position from which this sweep is initiated
+- [[Positions/Inverted Guard]] - Source position from which this sweep is initiated
 
-- [[Back Control]] - Primary target position achieved through successful sweep completion
+- [[Positions/Back Control]] - Primary target position achieved through successful sweep completion
 
-- [[Side Control]] - Counter outcome position when sweep fails and opponent passes
+- [[Positions/Side Control]] - Counter outcome position when sweep fails and opponent passes
 
-- [[De La Riva Guard]] - Common entry position that transitions into inverted guard for sweep setups
+- [[Positions/De La Riva Guard]] - Common entry position that transitions into inverted guard for sweep setups
 
-- [[Reverse De La Riva Guard]] - Related guard position with inversion pathways that connect to this sweep
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Related guard position with inversion pathways that connect to this sweep
 
-- [[Berimbolo Entry]] - Closely related back take technique sharing rotational mechanics and grip structures
+- [[Transitions/Berimbolo Entry]] - Closely related back take technique sharing rotational mechanics and grip structures
 
-- [[Crab Ride]] - Alternative back control entry from similar inverted angles
+- [[Positions/Crab Ride]] - Alternative back control entry from similar inverted angles
 
-- [[X-Guard]] - Alternative sweep position accessible when inverted guard sweep is defended
+- [[Positions/X-Guard]] - Alternative sweep position accessible when inverted guard sweep is defended
 
-- [[Butterfly Guard]] - Alternative sweep-oriented guard system with different mechanical principles
+- [[Positions/Butterfly Guard]] - Alternative sweep-oriented guard system with different mechanical principles
 
 
 </section>

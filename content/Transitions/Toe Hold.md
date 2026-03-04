@@ -21,7 +21,7 @@ Strategically, the toe hold functions as the third prong of the backside 50-50 a
 
 The backside 50-50 angle provides a distinct mechanical advantage over toe holds from other entanglements: your chest pressure pins the opponent's hip, eliminating the body rotation that is the toe hold's primary defensive counter. This transforms the toe hold from a position-dependent opportunistic attack into a high-percentage finish. The toe hold threat forces opponents into a defensive choice - hide the heel and expose the foot, or protect the foot and expose the heel - creating the submission dilemma that makes backside 50-50 top a dominant attacking platform.
 
-**From Position**: [[Backside 50-50]] (Top)
+**From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -33,8 +33,8 @@ The backside 50-50 angle provides a distinct mechanical advantage over toe holds
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Backside 50-50]] | 30% |
-| Counter | [[50-50 Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami/Backside 50-50]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Toe Hold from Backside 50-50 occupies a critical role in the backside 50-50 
 ## Related Techniques
 
 
-- [[Backside 50-50]] - Starting position providing chest-to-back pressure advantage
+- [[Positions/Ashi Garami/Backside 50-50]] - Starting position providing chest-to-back pressure advantage
 
-- [[Inside Heel Hook]] - Primary submission from same position - toe hold chains when heel is hidden
+- [[Submissions/Inside Heel Hook]] - Primary submission from same position - toe hold chains when heel is hidden
 
-- [[Outside Heel Hook]] - Alternative heel attack from same position sharing the attack trident
+- [[Transitions/Outside Heel Hook]] - Alternative heel attack from same position sharing the attack trident
 
-- [[Kneebar]] - Alternative submission when foot is buried too deep for toe hold grip
+- [[Transitions/Kneebar]] - Alternative submission when foot is buried too deep for toe hold grip
 
-- [[Calf Slicer]] - Chain submission accessible when opponent straightens leg to defend toe hold
+- [[Transitions/Calf Slicer]] - Chain submission accessible when opponent straightens leg to defend toe hold
 
-- [[Estima Lock]] - Related foot lock using forearm-across-foot grip variation
+- [[Positions/Estima Lock]] - Related foot lock using forearm-across-foot grip variation
 
-- [[50-50 Guard]] - Standard face-to-face entanglement opponent may reach when countering
+- [[Positions/Ashi Garami/50-50 Guard]] - Standard face-to-face entanglement opponent may reach when countering
 
-- [[Back Take from 50-50]] - Positional advancement alternative when all leg attacks are defended
+- [[Transitions/Back Take from 50-50]] - Positional advancement alternative when all leg attacks are defended
 
-- [[Straight Ankle Lock]] - Lower-risk foot lock option sharing similar positional setup
+- [[Submissions/Straight Ankle Lock]] - Lower-risk foot lock option sharing similar positional setup
 
-- [[Ashi Garami]] - Parent leg entanglement family governing positional hierarchy
+- [[Positions/Ashi Garami]] - Parent leg entanglement family governing positional hierarchy
 
-- [[Toe Hold from Top]] - Related toe hold from Honey Hole using similar grip mechanics
+- [[Submissions/Toe Hold from Top]] - Related toe hold from Honey Hole using similar grip mechanics
 
-- [[Heel Hook]] - Primary heel attack that creates the dilemma enabling toe hold entry
+- [[Transitions/Heel Hook]] - Primary heel attack that creates the dilemma enabling toe hold entry
 
 
 </section>

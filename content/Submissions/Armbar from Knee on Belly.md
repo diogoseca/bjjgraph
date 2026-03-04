@@ -26,8 +26,8 @@ Strategically, the armbar from knee on belly functions as part of a broader atta
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Shoulder and elbow joint
-**Starting Position**: [[Knee on Belly]]
-**From Position**: [[Knee on Belly]] (Top)
+**Starting Position**: [[Positions/Knee on Belly]]
+**From Position**: [[Positions/Knee on Belly]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -77,8 +77,8 @@ Strategically, the armbar from knee on belly functions as part of a broader atta
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Knee on Belly]] | 30% |
-| Counter | [[Closed Guard]] | 25% |
+| Failure | [[Positions/Knee on Belly]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 25% |
 
 
 </section>
@@ -205,9 +205,9 @@ Strategically, the armbar from knee on belly functions as part of a broader atta
 
 ## From Which Positions?
 
-- [[Knee on Belly]]
-- [[Side Control]]
-- [[Mount]]
+- [[Positions/Knee on Belly]]
+- [[Positions/Side Control]]
+- [[Positions/Mount]]
 
 
 </section>
@@ -216,13 +216,13 @@ Strategically, the armbar from knee on belly functions as part of a broader atta
 
 ## Related Submissions
 
-- [[Armbar from Mount]]
-- [[Armbar from Side Control]]
-- [[Armbar from High Mount]]
-- [[Baseball Bat Choke]]
-- [[Americana from Side Control]]
-- [[Cross Collar Choke]]
-- [[Belly Down Armbar]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Armbar from Side Control]]
+- [[Submissions/Armbar from High Mount]]
+- [[Transitions/Baseball Bat Choke]]
+- [[Submissions/Americana from Side Control]]
+- [[Transitions/Cross Collar Choke]]
+- [[Submissions/Belly Down Armbar]]
 
 
 </section>
@@ -231,12 +231,12 @@ Strategically, the armbar from knee on belly functions as part of a broader atta
 
 ## Additional Related Content
 
-- [[Knee on Belly]] - Primary starting position — armbar exploits opponent's reaction to knee pressure
-- [[Armbar Control]] - Control position reached during finishing phase of the armbar
-- [[Side Control]] - Common entry position before establishing knee on belly for the armbar setup
-- [[Armbar from Mount]] - Related armbar variation sharing similar finishing mechanics from a different starting position
-- [[Baseball Bat Choke]] - Complementary attack from knee on belly creating dual submission threats
-- [[Closed Guard]] - Common counter position where opponent recovers guard during failed armbar transition
+- [[Positions/Knee on Belly]] - Primary starting position — armbar exploits opponent's reaction to knee pressure
+- [[Positions/Armbar Control]] - Control position reached during finishing phase of the armbar
+- [[Positions/Side Control]] - Common entry position before establishing knee on belly for the armbar setup
+- [[Submissions/Armbar from Mount]] - Related armbar variation sharing similar finishing mechanics from a different starting position
+- [[Transitions/Baseball Bat Choke]] - Complementary attack from knee on belly creating dual submission threats
+- [[Positions/Closed Guard]] - Common counter position where opponent recovers guard during failed armbar transition
 
 
 </section>

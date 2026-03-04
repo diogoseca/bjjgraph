@@ -154,7 +154,7 @@ description: "Defend against the Underhook Sweep from Dogfight in BJJ. Learn to 
 
 As the defender against the Underhook Sweep from Dogfight, you are the top player in a dogfight position where your opponent has established a deep underhook and is threatening to drive you over for a positional reversal. Your primary objectives are to maintain your base through active posting, deny the sweeper's far-side control, and ideally counter-attack to flatten them back to half guard or advance your own passing position. Defense requires recognizing the sweep setup early through tactile cues in the underhook pressure and the opponent's free hand movement, then deploying the appropriate counter before the explosive drive phase begins. Reactive defense after the drive initiates is significantly less effective than proactive base maintenance and grip denial.
 
-**Opponent's Starting Position**: [[Dogfight Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Dogfight Position]] (Bottom)
 
 </section>
 
@@ -190,28 +190,28 @@ As the defender against the Underhook Sweep from Dogfight, you are the top playe
 ### 1. Post far hand wide on the mat and widen base with far knee to create a stable tripod against the sweep direction
 
 - **When to use**: As soon as you feel the opponent's free hand reaching for your far side or an increase in diagonal pressure through the underhook
-- **Targets**: [[Dogfight Position]]
+- **Targets**: [[Positions/Dogfight Position]]
 - **If successful**: The sweep attempt stalls as your tripod base absorbs the diagonal drive, returning to neutral dogfight where you can work to flatten or pass
 - **Risk**: Wide posting exposes your back to a back take if the opponent reads your post and switches attacks
 
 ### 2. Drive forward aggressively with whizzer and crossface to flatten the opponent before the sweep develops
 
 - **When to use**: When you recognize sweep setup cues early—before the opponent has secured far-side control or loaded their outside leg for the drive
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: You flatten the opponent back to half guard bottom, eliminating the dogfight position entirely and returning to a passing scenario
 - **Risk**: Overcommitting forward can be redirected into a forward drive sweep or deep half entry if the opponent reads your pressure
 
 ### 3. Hip switch away from the underhook side while maintaining whizzer control to neutralize the sweeping angle
 
 - **When to use**: When the opponent has already loaded their drive and direct posting would be too late to establish a stable base
-- **Targets**: [[Dogfight Position]]
+- **Targets**: [[Positions/Dogfight Position]]
 - **If successful**: Your hip switch changes the angle of engagement, neutralizing the opponent's diagonal drive and creating a new neutral dogfight orientation
 - **Risk**: The hip switch creates space that the opponent may use to deepen their underhook further or circle to your back
 
 ### 4. Strip the opponent's free hand from your far-side control point before they can secure it
 
 - **When to use**: At the earliest recognition cue—when you see or feel the opponent's free hand reaching for your far hip, knee, or ankle
-- **Targets**: [[Dogfight Position]]
+- **Targets**: [[Positions/Dogfight Position]]
 - **If successful**: Without far-side control, the opponent's sweep lacks the base-removal component and becomes a pure forward drive that is much easier to defend through basic posting
 - **Risk**: Reaching to strip the grip may momentarily weaken your whizzer or crossface control, creating a brief window for the sweep
 
@@ -223,11 +223,11 @@ As the defender against the Underhook Sweep from Dogfight, you are the top playe
 
 ## Best-Case Outcomes for Defender
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Recognize the sweep setup early and immediately drive forward with heavy whizzer and crossface pressure before the opponent can secure far-side control. Use your body weight and forward angle to collapse their upright posture and drive them flat to the mat, re-establishing top half guard where you can work guard passes.
 
-### → [[Dogfight Position]]
+### → [[Positions/Dogfight Position]]
 
 Maintain active posting with your far hand and wide base with your far knee throughout the exchange. Deny the opponent's free hand access to your far-side control points through grip fighting and distance management. Keep your whizzer active and pulling downward to limit underhook depth. The opponent remains in dogfight bottom without completing the sweep, giving you continued opportunities to pass or flatten.
 

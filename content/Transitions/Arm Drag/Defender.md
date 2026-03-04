@@ -150,7 +150,7 @@ The most effective arm drag defense is prevention through proper posture and gri
 
 When prevention fails and the attacker begins circling behind your shoulder line, your defensive priority shifts to hip orientation. The arm drag only works if the attacker reaches a position behind your back. By aggressively turning your hips to face them as they move, you convert their back take attempt into a neutral engagement or even a defensive scramble where you can counter-attack. The whizzer is your strongest tool in this phase: threading your arm over theirs and driving your hip into them stops their circular path and creates an anchor point from which you can re-square your position.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -188,28 +188,28 @@ When prevention fails and the attacker begins circling behind your shoulder line
 ### 1. Immediate arm retraction and hip square: yank your arm back toward your own hip while aggressively turning your hips to face the attacker
 
 - **When to use**: At the earliest stage when you feel the initial wrist grip and lateral pulling force, before the attacker has moved their feet behind your shoulder line
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Returns to neutral standing position with both practitioners facing each other and no positional advantage for either side
 - **Risk**: If retraction is too slow, the attacker may follow your arm back and convert to a snap down or maintain connection for a re-drag attempt
 
 ### 2. Whizzer defense: thread your dragged arm over the attacker's arm in an overhook and drive your hip into their body while squaring up
 
 - **When to use**: When the attacker has begun circling behind your shoulder line but has not yet secured chest-to-back connection or inserted hooks
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Arrests the attacker's circular movement and creates a clinch position where you can re-square your hips and disengage or counter-attack
 - **Risk**: The whizzer commits one of your arms, potentially leaving you vulnerable to the attacker ducking under to the opposite side or converting to a different takedown
 
 ### 3. Sprawl and circle away: drop your hips back explosively while circling away from the direction the attacker is moving to create distance and deny the back angle
 
 - **When to use**: When the attacker has strong grip control and you cannot retract your arm, particularly effective when you feel them loading weight forward to circle behind you
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Creates distance that breaks the attacker's grip connection and resets the standing engagement to neutral with you facing the attacker
 - **Risk**: If the attacker maintains grips through the sprawl, you may end up bent forward at the waist in a vulnerable position for snap downs or front headlock entries
 
 ### 4. Counter-turn and pummel to inside position: as the attacker circles, aggressively turn into them and establish an underhook on their near side to deny back access
 
 - **When to use**: During the mid-phase of the arm drag when the attacker is beside you but has not yet reached full back position with chest contact
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Converts the arm drag exchange into a clinch battle where you have inside position with an underhook, denying back access entirely
 - **Risk**: Turning into the attacker at the wrong timing can accelerate their back take if they have already passed your shoulder line
 
@@ -221,7 +221,7 @@ When prevention fails and the attacker begins circling behind your shoulder line
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Retract your arm sharply at the first sign of the wrist grip, square your hips immediately toward the attacker, and re-establish your stance with active hand fighting to deny further grip access. Alternatively, use a whizzer to arrest their circular movement and pummel back to inside position for a neutral reset.
 

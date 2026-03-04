@@ -152,7 +152,7 @@ The defensive hierarchy for the Ezekiel prioritizes prevention over escape. The 
 
 From bottom mount specifically, Ezekiel defense must be integrated into the broader mount escape framework. Every defensive action against the choke should simultaneously serve the larger goal of escaping mount. Inserting hands to block the threading also creates frames for hip escape. Bridging to disrupt the choke setup also tests the attacker's base for reversal opportunities. The most effective defenders treat the Ezekiel threat not as an isolated problem but as one component of the mount survival puzzle, using the attacker's commitment to the choke as a window for positional escape.
 
-**Opponent's Starting Position**: [[Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 
 </section>
@@ -191,28 +191,28 @@ From bottom mount specifically, Ezekiel defense must be integrated into the broa
 ### 1. Two-hand frame against threading arm to prevent it from passing behind your head
 
 - **When to use**: As soon as you recognize the attacker gripping their own sleeve and beginning to feed the arm behind your head - this must happen during the threading phase before bilateral pressure is established
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: The choke attempt is neutralized at the setup phase. Attacker remains in mount but must abandon the Ezekiel and choose a different attack, giving you time to work mount escape sequences
 - **Risk**: Both hands committed to blocking the threading arm leaves you vulnerable to cross collar choke if attacker switches attacks, and reduces framing options for hip escape
 
 ### 2. Explosive bridge timed with the attacker's forward weight shift during choke setup
 
 - **When to use**: When the attacker commits their weight forward and removes one or both posting hands to establish the choke grips - their base is momentarily compromised during this weight transfer
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Disrupts the attacker's mount stability, potentially creating enough space for knee insertion and half guard recovery. In best case, the bridge rolls the attacker over for full reversal
 - **Risk**: Failed bridge wastes significant energy and may actually help the attacker thread deeper if you fall back to the mat without achieving escape
 
 ### 3. Turn head toward the threading arm and tuck chin to deny blade access to far-side carotid
 
 - **When to use**: When the arm has already begun threading but has not yet achieved deep positioning against the far carotid - this reduces the effective choking angle
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Reduces the choke to single-sided pressure which is insufficient for blood choke finish. Attacker must readjust blade position, creating a window for you to insert hands and block the re-threading attempt
 - **Risk**: Turning your head may expose the back of your neck and can create angle for attacker to transition to other attacks. Must be combined with hand fighting to be effective
 
 ### 4. Strip the sleeve grip by peeling the attacker's gripping hand fingers from inside their own sleeve cuff
 
 - **When to use**: When the bilateral structure is partially established but the attacker has not yet begun squeezing. The sleeve grip is the fulcrum of the entire choke, and removing it eliminates the rigid lever
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Completely collapses the choking structure. Without the sleeve grip, the Ezekiel cannot generate sufficient bilateral pressure, and the attacker must re-establish the grip before continuing the attempt
 - **Risk**: Requires committing one or both hands to the grip strip, which reduces your ability to frame and may open armbar opportunities if the attacker reads your intention
 
@@ -235,11 +235,11 @@ From bottom mount specifically, Ezekiel defense must be integrated into the broa
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Successfully block the threading arm or strip the sleeve grip during setup, neutralizing the choke attempt while maintaining defensive posture under mount. The attacker remains in mount but must abandon the Ezekiel and restart their attack sequence, buying time for mount escape work.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Use the attacker's commitment to the Ezekiel setup as a window for hip escape. While their hands are occupied establishing choke grips, their ability to block knee insertion is reduced. Time your elbow escape with the threading phase to slide your knee in and recover half guard.
 

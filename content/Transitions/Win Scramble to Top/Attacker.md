@@ -180,7 +180,7 @@ description: "Complete guide to winning BJJ scrambles from bottom position. Mast
 
 As the attacker executing Win Scramble to Top, your objective is to emerge from a chaotic transitional exchange with dominant side control. This requires combining wrestling-based hip movement with BJJ positional awareness to recognize and capitalize on brief windows where your opponent's base is compromised. Success depends on underhook dominance, explosive hip positioning, and the discipline to commit decisively when pathways to top position appear rather than hesitating and allowing the scramble to continue or reset. The difference between winning and losing scrambles often comes down to who establishes inside position first and who commits to a direction with full conviction.
 
-**From Position**: [[Scramble Position]] (Bottom)
+**From Position**: [[Positions/Scramble Position]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ As the attacker executing Win Scramble to Top, your objective is to emerge from 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Scramble Position]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Scramble Position]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ As the attacker executing Win Scramble to Top, your objective is to emerge from 
 
 ## Opponent Counters
 
-- **Opponent sprawls and drives hips down heavily to flatten your base and deny upward drive** (Effectiveness: High) - Your Response: Switch to a sit-out motion, circling away from the sprawl pressure and using their forward commitment to create an angle for a back take or guard pull → Leads to [[Scramble Position]]
-- **Opponent pulls guard frames in during your transition, inserting knees and feet between your bodies as you come to top** (Effectiveness: Medium) - Your Response: Immediately pin their knees to one side with your hip pressure and attempt to pass the guard frames before they fully establish open guard structure → Leads to [[Open Guard]]
-- **Opponent whizzers aggressively to deny your underhook and uses the overhook to drive you back down** (Effectiveness: Medium) - Your Response: Limp arm your underhook out, re-pummel for inside position, or switch to a front headlock if their head drops below your shoulder during the whizzer exchange → Leads to [[Scramble Position]]
-- **Opponent grabs collar tie or chin strap and snaps your head down as you attempt to rise** (Effectiveness: High) - Your Response: Circle your head to the opposite side of their grip, maintain your underhook tight, and use a backstep motion to clear the snap-down pressure while maintaining top trajectory → Leads to [[Scramble Position]]
+- **Opponent sprawls and drives hips down heavily to flatten your base and deny upward drive** (Effectiveness: High) - Your Response: Switch to a sit-out motion, circling away from the sprawl pressure and using their forward commitment to create an angle for a back take or guard pull → Leads to [[Positions/Scramble Position]]
+- **Opponent pulls guard frames in during your transition, inserting knees and feet between your bodies as you come to top** (Effectiveness: Medium) - Your Response: Immediately pin their knees to one side with your hip pressure and attempt to pass the guard frames before they fully establish open guard structure → Leads to [[Positions/Open Guard]]
+- **Opponent whizzers aggressively to deny your underhook and uses the overhook to drive you back down** (Effectiveness: Medium) - Your Response: Limp arm your underhook out, re-pummel for inside position, or switch to a front headlock if their head drops below your shoulder during the whizzer exchange → Leads to [[Positions/Scramble Position]]
+- **Opponent grabs collar tie or chin strap and snaps your head down as you attempt to rise** (Effectiveness: High) - Your Response: Circle your head to the opposite side of their grip, maintain your underhook tight, and use a backstep motion to clear the snap-down pressure while maintaining top trajectory → Leads to [[Positions/Scramble Position]]
 
 
 </section>

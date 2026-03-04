@@ -21,7 +21,7 @@ This escape is particularly effective against opponents who commit heavy chest p
 
 Strategically, the Turn In complements other Reverse Kesa escape methods. When the bottom player threatens to turn in, the top player must widen their base or shift weight to block, which can open pathways for bridge escapes or shrimp-away recoveries. This creates a two-directional escape dilemma that prevents the top player from committing fully to either side. Advanced practitioners chain the turn-in with immediate underhook establishment upon reaching half guard, converting a desperate escape into an offensive half guard position with sweep potential.
 
-**From Position**: [[Reverse Kesa-Gatame]] (Bottom)
+**From Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Turn In complements other Reverse Kesa escape methods. When t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Reverse Kesa-Gatame]] | 40% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Side Control/Reverse Kesa-Gatame]] | 40% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Turn In from Reverse Kesa-Gatame occupies a critical role in the bottom play
 ## Related Techniques
 
 
-- [[Reverse Kesa-Gatame]] - Starting position - the pin this technique escapes from
+- [[Positions/Side Control/Reverse Kesa-Gatame]] - Starting position - the pin this technique escapes from
 
-- [[Half Guard]] - Primary target position upon successful turn-in escape
+- [[Positions/Half Guard]] - Primary target position upon successful turn-in escape
 
-- [[Mount]] - Counter outcome position if top player capitalizes on failed turn-in
+- [[Positions/Mount]] - Counter outcome position if top player capitalizes on failed turn-in
 
-- [[Bridge from Reverse Kesa-Gatame]] - Complementary escape creating two-directional dilemma with the turn-in
+- [[Transitions/Bridge from Reverse Kesa-Gatame]] - Complementary escape creating two-directional dilemma with the turn-in
 
-- [[Escape Reverse Kesa-Gatame]] - General escape framework that includes turn-in as primary technique option
+- [[Transitions/Escape Reverse Kesa-Gatame]] - General escape framework that includes turn-in as primary technique option
 
-- [[Reverse Kesa to Side Control]] - Top player transition that the turn-in can inadvertently enable if executed poorly
+- [[Transitions/Reverse Kesa to Side Control]] - Top player transition that the turn-in can inadvertently enable if executed poorly
 
-- [[Reverse Kesa to North-South]] - Top player transition that becomes available when bottom player turns away instead of in
+- [[Transitions/Reverse Kesa to North-South]] - Top player transition that becomes available when bottom player turns away instead of in
 
-- [[Knee Shield Half Guard]] - Optimal half guard configuration to establish immediately after successful turn-in
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Optimal half guard configuration to establish immediately after successful turn-in
 
-- [[Bridge Escape from Kesa Gatame]] - Related escape from parent scarf hold position using similar bridge mechanics
+- [[Transitions/Bridge Escape from Kesa Gatame]] - Related escape from parent scarf hold position using similar bridge mechanics
 
-- [[Elbow Escape from Mount]] - Backup escape needed if turn-in fails and top player transitions to mount
+- [[Transitions/Elbow Escape from Mount]] - Backup escape needed if turn-in fails and top player transitions to mount
 
-- [[Kesa Gatame]] - Related scarf hold position with analogous turn-in escape mechanics
+- [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position with analogous turn-in escape mechanics
 
 
 </section>

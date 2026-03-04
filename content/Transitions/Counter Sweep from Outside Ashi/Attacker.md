@@ -180,7 +180,7 @@ description: "Learn to execute the Counter Sweep from Outside Ashi-Garami. Step-
 
 As the attacker executing the counter sweep from outside ashi-garami, your objective is to exploit the opponent's compromised base during their escape attempt and convert your leg entanglement into a sweeping fulcrum. The key insight is that effective escapes from outside ashi require the top player to commit their weight in specific directions—standing requires upward commitment, stacking requires forward drive, hip rotation requires lateral movement—and each of these weight commitments creates a corresponding vulnerability that can be swept through. Your success depends on reading the opponent's weight distribution, timing the sweep to coincide with their maximum displacement from balanced base, and maintaining enough structural integrity through your figure-4 and upper body grips to generate the off-balancing force needed to topple them. The sweep is most available during the opponent's active escape attempt rather than from a static position.
 
-**From Position**: [[Outside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the counter sweep from outside ashi-garami, your objec
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Outside Ashi-Garami]] | 35% |
-| Counter | [[Open Guard]] | 25% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 35% |
+| Counter | [[Positions/Open Guard]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the counter sweep from outside ashi-garami, your objec
 
 ## Opponent Counters
 
-- **Opponent posts their free hand wide to block the sweep and re-establishes base before you complete the reversal** (Effectiveness: High) - Your Response: Attack the posting arm immediately with a two-on-one grip or kimura threat, forcing the opponent to choose between maintaining their post and protecting their arm. If they retract the post to defend, re-initiate the sweep. → Leads to [[Outside Ashi-Garami]]
-- **Opponent extracts their trapped leg during the sweep initiation by exploiting the loosened figure-4 configuration** (Effectiveness: High) - Your Response: If extraction is partial, tighten the figure-4 and abandon the sweep to maintain ashi position. If extraction is complete, immediately transition to open guard retention and work to re-establish leg entanglement or recover a different guard position. → Leads to [[Open Guard]]
-- **Opponent sprawls hips backward and drives crossface pressure to flatten you back to the mat** (Effectiveness: Medium) - Your Response: Use the sprawl momentum to rotate underneath and re-angle your hips for a different sweep direction, or abandon the sweep and use the opponent's forward pressure to threaten a heel hook as they drive into your entanglement. → Leads to [[Outside Ashi-Garami]]
-- **Opponent releases their trapped leg and immediately scrambles to pass your guard during the chaotic transition** (Effectiveness: Medium) - Your Response: Maintain forward pressure through the scramble and pursue top position aggressively rather than accepting bottom guard. If the scramble is lost, establish defensive frames and work guard recovery from the resulting open guard position. → Leads to [[Open Guard]]
+- **Opponent posts their free hand wide to block the sweep and re-establishes base before you complete the reversal** (Effectiveness: High) - Your Response: Attack the posting arm immediately with a two-on-one grip or kimura threat, forcing the opponent to choose between maintaining their post and protecting their arm. If they retract the post to defend, re-initiate the sweep. → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Opponent extracts their trapped leg during the sweep initiation by exploiting the loosened figure-4 configuration** (Effectiveness: High) - Your Response: If extraction is partial, tighten the figure-4 and abandon the sweep to maintain ashi position. If extraction is complete, immediately transition to open guard retention and work to re-establish leg entanglement or recover a different guard position. → Leads to [[Positions/Open Guard]]
+- **Opponent sprawls hips backward and drives crossface pressure to flatten you back to the mat** (Effectiveness: Medium) - Your Response: Use the sprawl momentum to rotate underneath and re-angle your hips for a different sweep direction, or abandon the sweep and use the opponent's forward pressure to threaten a heel hook as they drive into your entanglement. → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Opponent releases their trapped leg and immediately scrambles to pass your guard during the chaotic transition** (Effectiveness: Medium) - Your Response: Maintain forward pressure through the scramble and pursue top position aggressively rather than accepting bottom guard. If the scramble is lost, establish defensive frames and work guard recovery from the resulting open guard position. → Leads to [[Positions/Open Guard]]
 
 
 </section>

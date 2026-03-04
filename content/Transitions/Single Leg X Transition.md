@@ -23,7 +23,7 @@ Strategically, the Single Leg X Transition serves as a crucial link in the leg e
 
 The timing window for this transition typically opens when the opponent shifts their weight toward your trapped leg or attempts to step over your guard. Their forward pressure actually assists the entry by loading weight onto the leg you're attacking. Advanced practitioners learn to bait this pressure through feinting other attacks, then capitalizing on the reaction to secure the transition.
 
-**From Position**: [[Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -34,9 +34,9 @@ The timing window for this transition typically opens when the opponent shifts t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 55% |
-| Failure | [[Grasshopper Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 55% |
+| Failure | [[Positions/Grasshopper Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Single Leg X Transition is a cornerstone technique connecting inverted guard
 ## Related Techniques
 
 
-- [[Grasshopper Guard]] - Starting position for this transition
+- [[Positions/Grasshopper Guard]] - Starting position for this transition
 
-- [[Single Leg X-Guard]] - Target position upon successful entry
+- [[Positions/X-Guard/Single Leg X-Guard]] - Target position upon successful entry
 
-- [[X-Guard]] - Alternative entry when opponent posts on hips
+- [[Positions/X-Guard]] - Alternative entry when opponent posts on hips
 
-- [[Reverse De La Riva Guard]] - Recovery position when opponent sprawls
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Recovery position when opponent sprawls
 
-- [[Inside Ashi-Garami]] - Submission pathway from Single Leg X
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Submission pathway from Single Leg X
 
-- [[Outside Ashi-Garami]] - Alternative when opponent circles away
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative when opponent circles away
 
-- [[Heel Hook]] - Submission threat that can bait entry
+- [[Transitions/Heel Hook]] - Submission threat that can bait entry
 
-- [[Kneebar from Grasshopper]] - Alternative attack from starting position
+- [[Transitions/Kneebar from Grasshopper]] - Alternative attack from starting position
 
-- [[Butterfly Guard]] - Reset position when disengaged
+- [[Positions/Butterfly Guard]] - Reset position when disengaged
 
-- [[Inverted Guard]] - Parent guard category sharing inversion mechanics
+- [[Positions/Inverted Guard]] - Parent guard category sharing inversion mechanics
 
 
 </section>

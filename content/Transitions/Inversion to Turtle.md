@@ -21,7 +21,7 @@ Strategically, this escape serves as a pressure release valve when heel hook dan
 
 The technique requires precise timing and commitment. Half-hearted attempts create the worst possible scenario: inverted with leg still trapped, maximizing submission vulnerability. Success depends on reading the attacker's control depth, choosing the optimal moment to initiate rotation, and maintaining heel protection throughout the entire movement arc. Advanced practitioners develop the ability to chain this escape directly into back exposure defense or guard recovery from turtle.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique requires precise timing and commitment. Half-hearted attempts crea
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Ushiro Ashi-Garami]] | 30% |
-| Counter | [[Saddle]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ Inversion to Turtle serves as a critical pressure release within the leg entangl
 ## Related Techniques
 
 
-- [[Ushiro Ashi-Garami]] - Starting position—the reversed leg entanglement this technique escapes from
+- [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Starting position—the reversed leg entanglement this technique escapes from
 
-- [[Turtle]] - Target position—the defensive shell established upon completing the escape
+- [[Positions/Turtle]] - Target position—the defensive shell established upon completing the escape
 
-- [[Saddle]] - Counter position—where opponent may transition if escape is poorly timed
+- [[Positions/Ashi Garami/Saddle]] - Counter position—where opponent may transition if escape is poorly timed
 
-- [[Granby Roll to Guard]] - Follow-up technique—continuation option from turtle for guard recovery
+- [[Transitions/Granby Roll to Guard]] - Follow-up technique—continuation option from turtle for guard recovery
 
-- [[Deep Half Guard]] - Alternative escape—better option when opponent has deep leg control
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative escape—better option when opponent has deep leg control
 
-- [[Back Control]] - Follow-up threat—position opponent attempts as they follow your rotation
+- [[Positions/Back Control]] - Follow-up threat—position opponent attempts as they follow your rotation
 
-- [[Ashi Garami Escape]] - Related system—broader escape methodology this technique belongs to
+- [[Transitions/Ashi Garami Escape]] - Related system—broader escape methodology this technique belongs to
 
-- [[Single Leg X-Guard]] - Recovery option—position accessible via Granby continuation from turtle
+- [[Positions/X-Guard/Single Leg X-Guard]] - Recovery option—position accessible via Granby continuation from turtle
 
-- [[Inside Heel Hook]] - Submission threat—the primary attack this escape helps avoid
+- [[Submissions/Inside Heel Hook]] - Submission threat—the primary attack this escape helps avoid
 
-- [[Outside Ashi-Garami]] - Related position—standard entanglement that often precedes Ushiro
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related position—standard entanglement that often precedes Ushiro
 
 
 </section>

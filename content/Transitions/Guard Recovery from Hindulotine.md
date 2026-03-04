@@ -19,7 +19,7 @@ Guard Recovery from Hindulotine is a defensive transition where the bottom playe
 
 The Hindulotine's unique rotational mechanics create a recovery challenge that does not exist with standard guillotine control. Because the bottom player's hips are angled and partially turned away from the opponent, there is a structural vulnerability on the exposed back side that must be addressed before any guard recomposition can succeed. The recovery follows a specific sequence: protect the exposed flank with a knee shield, convert the choking grip to a transitional control, rotate the hips to face the opponent, and then build the open guard structure with coordinated leg and grip placement. Skipping any step in this sequence dramatically increases the probability of the opponent advancing to side control or taking the back.
 
-**From Position**: [[Hindulotine]] (Bottom)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -30,9 +30,9 @@ The Hindulotine's unique rotational mechanics create a recovery challenge that d
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 40% |
-| Failure | [[Hindulotine]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Open Guard]] | 40% |
+| Failure | [[Positions/Hindulotine]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -189,27 +189,27 @@ Guard Recovery from Hindulotine occupies a critical defensive node in the Hindul
 ## Related Techniques
 
 
-- [[Hindulotine]] - Source position - the compromised Hindulotine control from which guard recovery is initiated
+- [[Positions/Hindulotine]] - Source position - the compromised Hindulotine control from which guard recovery is initiated
 
-- [[Open Guard]] - Primary recovery target - reestablished guard with distance management and leg activity
+- [[Positions/Open Guard]] - Primary recovery target - reestablished guard with distance management and leg activity
 
-- [[Side Control]] - Counter outcome position when top player advances past guard during recovery attempt
+- [[Positions/Side Control]] - Counter outcome position when top player advances past guard during recovery attempt
 
-- [[Guillotine Control]] - Related head control position sharing similar recovery mechanics and grip transitions
+- [[Positions/Guillotine Control]] - Related head control position sharing similar recovery mechanics and grip transitions
 
-- [[Closed Guard]] - Alternative recovery destination if hip realignment and distance allow full guard closure
+- [[Positions/Closed Guard]] - Alternative recovery destination if hip realignment and distance allow full guard closure
 
-- [[Half Guard]] - Fallback recovery position when only one leg can be reinserted during the transition
+- [[Positions/Half Guard]] - Fallback recovery position when only one leg can be reinserted during the transition
 
-- [[Butterfly Guard]] - Alternative recovery guard using butterfly hooks when opponent stays close after Hindulotine release
+- [[Positions/Butterfly Guard]] - Alternative recovery guard using butterfly hooks when opponent stays close after Hindulotine release
 
-- [[Hindulotine to Darce Choke]] - Alternative offensive option from Hindulotine when choke fails but arm position allows Darce transition
+- [[Transitions/Hindulotine to Darce Choke]] - Alternative offensive option from Hindulotine when choke fails but arm position allows Darce transition
 
-- [[Hindulotine to Anaconda Choke]] - Alternative offensive option when Hindulotine grip can redirect to anaconda control
+- [[Transitions/Hindulotine to Anaconda Choke]] - Alternative offensive option when Hindulotine grip can redirect to anaconda control
 
-- [[Hindulotine Choke Finish]] - Offensive technique that precedes the need for guard recovery when it fails to produce a tap
+- [[Transitions/Hindulotine Choke Finish]] - Offensive technique that precedes the need for guard recovery when it fails to produce a tap
 
-- [[Front Headlock]] - Position the opponent may transition to during Hindulotine extraction, threatening front headlock attacks
+- [[Positions/Front Headlock]] - Position the opponent may transition to during Hindulotine extraction, threatening front headlock attacks
 
 
 </section>

@@ -21,7 +21,7 @@ This transition exemplifies the principle of using opponent reactions against th
 
 Strategically, the Roll to Truck should be viewed as an opportunistic transition rather than a forced entry. Attempting to roll an opponent who is defending statically typically fails. The technique works best when timed with the opponent's own escape momentum, requiring sensitivity to their movement intentions and commitment to following their direction while establishing boot control as the primary mechanism for truck position consolidation.
 
-**From Position**: [[Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Roll to Truck should be viewed as an opportunistic transition
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Truck]] | 55% |
-| Failure | [[Buggy Choke]] | 25% |
-| Counter | [[Turtle]] | 20% |
+| Success | [[Positions/Twister Control/Truck]] | 55% |
+| Failure | [[Positions/Buggy Choke]] | 25% |
+| Counter | [[Positions/Turtle]] | 20% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Roll to Truck transition connects the front headlock and turtle attack syste
 ## Related Techniques
 
 
-- [[Buggy Choke]] - Starting position for this transition
+- [[Positions/Buggy Choke]] - Starting position for this transition
 
-- [[Truck]] - Target position upon successful completion
+- [[Positions/Twister Control/Truck]] - Target position upon successful completion
 
-- [[Twister]] - Primary submission from truck position
+- [[Submissions/Twister]] - Primary submission from truck position
 
-- [[Calf Slicer from Truck]] - Secondary submission attacking trapped leg
+- [[Submissions/Calf Slicer from Truck]] - Secondary submission attacking trapped leg
 
-- [[Banana Split]] - Alternative submission from truck
+- [[Submissions/Banana Split]] - Alternative submission from truck
 
-- [[Back Control]] - Alternative target if truck is not fully established
+- [[Positions/Back Control]] - Alternative target if truck is not fully established
 
-- [[Crab Ride]] - Fallback position if roll does not complete fully
+- [[Positions/Crab Ride]] - Fallback position if roll does not complete fully
 
-- [[Turtle]] - Reset position if transition fails completely
+- [[Positions/Turtle]] - Reset position if transition fails completely
 
-- [[Crucifix]] - Alternative if opponent posts arm during roll
+- [[Positions/Crucifix]] - Alternative if opponent posts arm during roll
 
-- [[Granby Roll to Guard]] - The defensive technique this transition counters
+- [[Transitions/Granby Roll to Guard]] - The defensive technique this transition counters
 
-- [[Rolling Back Take]] - Similar rolling mechanic to different target position
+- [[Transitions/Rolling Back Take]] - Similar rolling mechanic to different target position
 
-- [[Twister Control]] - Submission control position accessible from truck
+- [[Positions/Twister Control]] - Submission control position accessible from truck
 
 
 </section>

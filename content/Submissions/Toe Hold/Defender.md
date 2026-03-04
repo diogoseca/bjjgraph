@@ -158,7 +158,7 @@ Defending the Toe Hold requires understanding the submission's dual-threat mecha
 
 The defensive hierarchy follows a clear sequence: first prevent the toe grip from being established, then address heel control, then extract the leg from the entanglement. Attempting to skip steps - such as explosively pulling the leg free while the attacker has a secure grip - often worsens the situation by adding kinetic energy that the attacker can redirect into finishing pressure. Controlled, methodical defense with constant grip fighting provides the highest escape percentages while minimizing injury risk. Defensive training should emphasize recognizing the transition from positional control to submission threat, as the Toe Hold can materialize from any leg entanglement position with very little telegraphing.
 
-**Opponent's Starting Position**: [[Toe Hold Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Toe Hold Control]] (Top)
 
 
 </section>
@@ -196,28 +196,28 @@ The defensive hierarchy follows a clear sequence: first prevent the toe grip fro
 ### 1. Strip the toe grip by grabbing the attacker's wrist with both hands and peeling their fingers off your forefoot
 
 - **When to use**: Immediately upon recognizing the attacker is transitioning to the cupping grip on your toes, before rotation begins
-- **Targets**: [[Toe Hold Control]]
+- **Targets**: [[Positions/Toe Hold Control]]
 - **If successful**: Returns to neutral leg entanglement where attacker must re-establish grips, giving you time to work leg extraction
 - **Risk**: If grip strip fails, you've committed both hands to their wrist and cannot address other threats simultaneously
 
 ### 2. Cross your trapped foot over the knee of your free leg to create a triangle configuration that blocks rotation
 
 - **When to use**: When the attacker has secured the toe grip but has not yet established full rotational pressure
-- **Targets**: [[Toe Hold Control]]
+- **Targets**: [[Positions/Toe Hold Control]]
 - **If successful**: Completely blocks the internal rotation component, neutralizing the submission and allowing you to work systematic escape
 - **Risk**: Attacker may switch to attacking your free leg or use their outside hand to separate the cross
 
 ### 3. Roll toward the attacker to relieve rotational pressure while simultaneously working to free your heel
 
 - **When to use**: When rotation has already begun and you cannot strip grips in time to prevent the submission
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Relieves immediate rotational pressure on the ankle, potentially scrambling to a new entanglement position or escaping entirely
 - **Risk**: If the attacker follows the roll and maintains grips, you may end up in a worse position such as bottom Saddle
 
 ### 4. Straighten your trapped leg explosively while pushing the attacker's hips away with your free leg to extract the heel
 
 - **When to use**: When the attacker has loose heel control and you can feel space between their torso and your heel
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Complete leg extraction returning to open guard or standing position with no submission threat
 - **Risk**: If heel control is tighter than you assessed, the explosive extension can accelerate injury if the attacker maintains the toe grip
 
@@ -240,11 +240,11 @@ The defensive hierarchy follows a clear sequence: first prevent the toe grip fro
 
 ## Best-Case Outcomes for Defender
 
-### → [[Toe Hold Control]]
+### → [[Positions/Toe Hold Control]]
 
 Strip the attacker's toe grip early using two-on-one grip fighting before rotation begins, then cross your trapped foot over your free knee to create a defensive triangle. From this stalemate position, systematically extract your heel from their control while using your free leg to push their hips away. Once the heel is free, disengage from the entanglement entirely.
 
-### → [[Ashi Garami]]
+### → [[Positions/Ashi Garami]]
 
 Roll toward the attacker to relieve rotational pressure, using the movement to scramble into a neutral position. During the roll, strip their toe grip and establish your own inside position. From the resulting neutral entanglement, either disengage to standing or establish your own offensive control.
 

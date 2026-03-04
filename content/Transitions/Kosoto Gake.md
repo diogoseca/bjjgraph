@@ -19,7 +19,7 @@ Kosoto Gake (minor outer reaping) is a fundamental judo throw that has become a 
 
 The throw creates a seamless transition from standing to dominant groundwork, with the thrower maintaining control throughout the entire movement and landing directly in a scoring position. This makes it particularly valuable in both gi and no-gi competition contexts where takedown points and top position are strategically critical. The biomechanical principle underlying Kosoto Gake is the creation of a force couple: the upper body pull generates rotational momentum backward while the leg reap removes the structural support beneath the opponent's center of gravity. This dual-action mechanism means neither component works effectively in isolation, but together they produce reliable off-balancing with minimal athletic demand.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -30,9 +30,9 @@ The throw creates a seamless transition from standing to dominant groundwork, wi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Clinch]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Clinch]] | 10% |
 
 
 </section>
@@ -189,27 +189,27 @@ Kosoto Gake occupies a critical role in the BJJ standing game as a fundamental, 
 ## Related Techniques
 
 
-- [[Osoto Gari]] - Alternative major outer reap targeting same leg with more power
+- [[Transitions/Osoto Gari]] - Alternative major outer reap targeting same leg with more power
 
-- [[Kosoto Gari]] - Combination technique targeting opponent's front leg when they defend
+- [[Transitions/Kosoto Gari]] - Combination technique targeting opponent's front leg when they defend
 
-- [[Kouchi Gari]] - Minor inner reap as follow-up when opponent steps away
+- [[Transitions/Kouchi Gari]] - Minor inner reap as follow-up when opponent steps away
 
-- [[Side Control]] - Primary landing position from successful execution
+- [[Positions/Side Control]] - Primary landing position from successful execution
 
-- [[Front Headlock]] - Backup position if opponent sprawls during attempted throw
+- [[Positions/Front Headlock]] - Backup position if opponent sprawls during attempted throw
 
-- [[Ouchi Gari]] - Inner reap variation for combination attack system
+- [[Transitions/Ouchi Gari]] - Inner reap variation for combination attack system
 
-- [[Ankle Pick]] - Alternative when opponent hops on supporting leg
+- [[Transitions/Ankle Pick]] - Alternative when opponent hops on supporting leg
 
-- [[Standing Position]] - Starting position for technique execution
+- [[Positions/Standing Position]] - Starting position for technique execution
 
-- [[Clinch]] - Grip control position used in setup phase
+- [[Positions/Clinch]] - Grip control position used in setup phase
 
-- [[Deashi Harai]] - Related foot sweep technique targeting advancing leg
+- [[Transitions/Deashi Harai]] - Related foot sweep technique targeting advancing leg
 
-- [[Harai Goshi]] - Higher-amplitude hip throw available from same grip configuration
+- [[Transitions/Harai Goshi]] - Higher-amplitude hip throw available from same grip configuration
 
 
 </section>

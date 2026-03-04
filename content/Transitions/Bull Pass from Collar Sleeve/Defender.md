@@ -154,7 +154,7 @@ description: "Defend the Bull Pass from Collar Sleeve Guard. Recognition cues, g
 
 As the defender facing a bull pass from your collar sleeve guard, your primary objective is to maintain your grip structure and use hip movement to track the passer's lateral movement before they can clear your leg line. The bull pass exploits the moment when your sleeve grip is broken to initiate explosive lateral passing, so your defensive strategy centers on preventing or recovering from that grip break while using your collar grip as an anchor to disrupt the passer's base throughout the sequence. Successful defense requires recognizing the pass attempt early during the two-on-one grip break setup and immediately activating your hip escape and leg framing responses. The defender who waits until their legs are already redirected to one side has significantly fewer recovery options than one who begins defensive hip movement at the first sign of the passing attempt.
 
-**Opponent's Starting Position**: [[Collar Sleeve Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Collar Sleeve Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender facing a bull pass from your collar sleeve guard, your primary o
 ### 1. Actively resist the two-on-one grip break by curling your gripping hand and pulling your elbow tight to your ribs
 
 - **When to use**: As soon as you feel the passer grab your sleeve-gripping wrist with their second hand, before they can generate hip-drive leverage
-- **Targets**: [[Collar Sleeve Guard]]
+- **Targets**: [[Positions/Collar Sleeve Guard]]
 - **If successful**: The grip break fails and you maintain full collar sleeve guard structure with both controlling grips intact
 - **Risk**: If the passer powers through your resistance, the delay may cause you to miss the window for hip escape defense
 
 ### 2. Pull collar grip hard and hip escape laterally to follow the passer's lateral movement direction
 
 - **When to use**: Immediately when you feel your legs being redirected to one side and the passer begins lateral stepping
-- **Targets**: [[Collar Sleeve Guard]]
+- **Targets**: [[Positions/Collar Sleeve Guard]]
 - **If successful**: Your hip movement tracks the passer's lateral step, allowing you to re-face them and re-establish guard structure before the pass completes
 - **Risk**: If your hip escape is too slow, the passer clears your legs and achieves passing position with top pressure
 
 ### 3. Insert knee shield by driving your nearside knee across the passer's hip line during their lateral step
 
 - **When to use**: When your legs have been partially redirected but the passer has not yet cleared your knee line with their hips
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish knee shield half guard which prevents the pass from completing fully and gives you a strong defensive platform
 - **Risk**: If the knee shield is inserted too late, the passer may already have cleared the leg line and you concede side control
 
 ### 4. Invert toward the passing direction and insert hooks to recover guard
 
 - **When to use**: When your legs have been redirected past the hip escape recovery angle and you cannot re-face the passer through normal movement
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You recover to open guard with new hooks and frames established, forcing the passer to restart their passing approach
 - **Risk**: Inversion exposes your back if the passer reads the movement and redirects to take back position instead of completing the pass
 
@@ -225,11 +225,11 @@ As the defender facing a bull pass from your collar sleeve guard, your primary o
 
 ## Best-Case Outcomes for Defender
 
-### → [[Collar Sleeve Guard]]
+### → [[Positions/Collar Sleeve Guard]]
 
 Maintain collar grip tension while hip escaping to track the passer's lateral movement. The collar grip serves as an anchor that disrupts the passer's base even when your legs are partially redirected. Active hip movement combined with collar pulling can collapse the passer's posture and force them to abandon the pass, returning both players to the collar sleeve guard exchange.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 When the bull pass redirects your legs past the recovery angle for collar sleeve guard, immediately transition to a different open guard by inserting hooks on the passer's lead leg. Use De La Riva hook, single leg X hook, or butterfly hook to re-establish guard connection before the passer can consolidate passing position. Accept that collar sleeve guard is temporarily lost and commit to a guard transition rather than attempting to rebuild the original guard structure.
 

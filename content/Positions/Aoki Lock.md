@@ -93,17 +93,17 @@ This position appears most commonly in no-gi competition, submission-only format
 ### Available Transitions
 
 
-- **[[Rolling Escape to Guard]]** (21% of attempts)
+- **[[Transitions/Rolling Escape to Guard]]** (21% of attempts)
 
-- **[[Arm Extraction to Turtle]]** (38% of attempts)
+- **[[Transitions/Arm Extraction to Turtle]]** (38% of attempts)
 
-- **[[Hip Escape to Guard]]** (17% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (17% of attempts)
 
-- **[[Counter Roll to Top]]** (4% of attempts)
+- **[[Transitions/Counter Roll to Top]]** (4% of attempts)
 
-- **[[Granby Roll to Guard]]** (18% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (18% of attempts)
 
-- **[[Base Attack to Sweep]]** (2% of attempts)
+- **[[Transitions/Base Attack to Sweep]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -160,15 +160,15 @@ This position appears most commonly in no-gi competition, submission-only format
 ### Available Transitions
 
 
-- **[[Aoki Lock Finish]]** (38% of attempts)
+- **[[Transitions/Aoki Lock Finish]]** (38% of attempts)
 
-- **[[Aoki Lock to Back Control]]** (22% of attempts)
+- **[[Transitions/Aoki Lock to Back Control]]** (22% of attempts)
 
-- **[[Aoki Lock to Crucifix]]** (15% of attempts)
+- **[[Transitions/Aoki Lock to Crucifix]]** (15% of attempts)
 
-- **[[Kimura Switch]]** (10% of attempts)
+- **[[Transitions/Kimura Switch]]** (10% of attempts)
 
-- **[[Truck Entry]]** (15% of attempts)
+- **[[Transitions/Truck Entry]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -211,15 +211,15 @@ This position appears most commonly in no-gi competition, submission-only format
 ## Related Positions
 
 
-- **[[Omoplata Control]]** - Similar shoulder lock mechanics with different control method
+- **[[Positions/Omoplata Control]]** - Similar shoulder lock mechanics with different control method
 
-- **[[Kimura Trap]]** - Related shoulder manipulation with different grip configuration
+- **[[Positions/Kimura Trap]]** - Related shoulder manipulation with different grip configuration
 
-- **[[Truck]]** - Common transition target from top Aoki Lock position
+- **[[Positions/Twister Control/Truck]]** - Common transition target from top Aoki Lock position
 
-- **[[Back Control]]** - Primary advancement target when opponent defends shoulder lock
+- **[[Positions/Back Control]]** - Primary advancement target when opponent defends shoulder lock
 
-- **[[Turtle]]** - Common entry position for Aoki Lock attacks
+- **[[Positions/Turtle]]** - Common entry position for Aoki Lock attacks
 
 
 </section>

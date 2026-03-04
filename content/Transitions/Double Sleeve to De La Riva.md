@@ -21,7 +21,7 @@ Strategically, this transition represents the evolution from a controlling but r
 
 The timing window for this transition is created by the opponent's passing attempts. When they step forward to initiate a toreando, knee slice, or pressure pass, their lead leg becomes available for the DLR hook. The critical detail is converting one sleeve grip to an ankle or pants grip on the lead leg while maintaining the far sleeve as a cross grip. This diagonal control system, combining the DLR hook with the cross sleeve grip, forms the foundation of all DLR attacks. Practitioners who master this grip conversion can flow seamlessly between double sleeve and DLR, creating a guard system that adapts to whatever the top player attempts.
 
-**From Position**: [[Double Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The timing window for this transition is created by the opponent's passing attem
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[De La Riva Guard]] | 55% |
-| Failure | [[Double Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/De La Riva Guard]] | 55% |
+| Failure | [[Positions/Double Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Double Sleeve to De La Riva transition is a critical link in the modern open
 ## Related Techniques
 
 
-- [[Double Sleeve Guard]] - Starting position providing the bilateral sleeve control foundation for this transition
+- [[Positions/Double Sleeve Guard]] - Starting position providing the bilateral sleeve control foundation for this transition
 
-- [[De La Riva Guard]] - Target position offering berimbolo, X-Guard, and back take attack systems
+- [[Positions/De La Riva Guard]] - Target position offering berimbolo, X-Guard, and back take attack systems
 
-- [[Open Guard]] - Parent guard category that both positions belong to
+- [[Positions/Open Guard]] - Parent guard category that both positions belong to
 
-- [[Spider Guard]] - Alternative guard transition from double sleeve using bicep hooks instead of DLR hook
+- [[Positions/Spider Guard]] - Alternative guard transition from double sleeve using bicep hooks instead of DLR hook
 
-- [[Lasso Guard]] - Alternative guard transition from double sleeve threading the lasso instead of DLR hook
+- [[Positions/Lasso Guard]] - Alternative guard transition from double sleeve threading the lasso instead of DLR hook
 
-- [[Collar Sleeve Guard]] - Related guard using similar diagonal grip configuration to DLR cross grip system
+- [[Positions/Collar Sleeve Guard]] - Related guard using similar diagonal grip configuration to DLR cross grip system
 
-- [[X-Guard]] - Follow-up position accessible through DLR when opponent maintains upright posture
+- [[Positions/X-Guard]] - Follow-up position accessible through DLR when opponent maintains upright posture
 
-- [[Single Leg X-Guard]] - Alternative follow-up from DLR when opponent attempts to extract hooked leg
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative follow-up from DLR when opponent attempts to extract hooked leg
 
-- [[Berimbolo Entry]] - Primary attack from DLR that becomes available after successful transition
+- [[Transitions/Berimbolo Entry]] - Primary attack from DLR that becomes available after successful transition
 
-- [[De La Riva Sweep]] - Fundamental sweep option available immediately after establishing DLR position
+- [[Transitions/De La Riva Sweep]] - Fundamental sweep option available immediately after establishing DLR position
 
-- [[Double Sleeve to Spider]] - Alternative guard transition from same starting position using different leg mechanics
+- [[Transitions/Double Sleeve to Spider]] - Alternative guard transition from same starting position using different leg mechanics
 
-- [[Armbar Setup from Double Sleeve]] - Submission threat from starting position that makes opponent cautious and opens transition window
+- [[Transitions/Armbar Setup from Double Sleeve]] - Submission threat from starting position that makes opponent cautious and opens transition window
 
 
 </section>

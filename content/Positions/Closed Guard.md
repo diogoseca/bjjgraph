@@ -89,55 +89,55 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
-- **[[Hip Bump Sweep]]** (25% of attempts)
+- **[[Transitions/Hip Bump Sweep]]** (25% of attempts)
 
-- **[[Armbar from Guard]]** (10% of attempts)
+- **[[Submissions/Armbar from Guard]]** (10% of attempts)
 
-- **[[Scissor Sweep]]** (8% of attempts)
+- **[[Transitions/Scissor Sweep]]** (8% of attempts)
 
-- **[[Triangle Setup]]** (8% of attempts)
+- **[[Transitions/Triangle Setup]]** (8% of attempts)
 
-- **[[Cross Collar Choke]]** (6% of attempts)
+- **[[Transitions/Cross Collar Choke]]** (6% of attempts)
 
-- **[[Pendulum Sweep]]** (6% of attempts)
+- **[[Transitions/Pendulum Sweep]]** (6% of attempts)
 
-- **[[Guillotine Setup]]** (5% of attempts)
+- **[[Transitions/Guillotine Setup]]** (5% of attempts)
 
-- **[[Kimura Sweep]]** (4% of attempts)
+- **[[Transitions/Kimura Sweep]]** (4% of attempts)
 
-- **[[Flower Sweep]]** (3% of attempts)
+- **[[Transitions/Flower Sweep]]** (3% of attempts)
 
-- **[[Kimura to Back Take]]** (3% of attempts)
+- **[[Transitions/Kimura to Back Take]]** (3% of attempts)
 
-- **[[Elevator Sweep]]** (2% of attempts)
+- **[[Transitions/Elevator Sweep]]** (2% of attempts)
 
-- **[[Overhook Sweep]]** (2% of attempts)
+- **[[Transitions/Overhook Sweep]]** (2% of attempts)
 
-- **[[Omoplata Sweep]]** (2% of attempts)
+- **[[Transitions/Omoplata Sweep]]** (2% of attempts)
 
-- **[[Lumberjack Sweep]]** (1% of attempts)
+- **[[Transitions/Lumberjack Sweep]]** (1% of attempts)
 
-- **[[Hip Bump Sweep V2]]** (1% of attempts)
+- **[[Transitions/Hip Bump Sweep V2]]** (1% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (1% of attempts)
+- **[[Transitions/Closed Guard to Omoplata]]** (1% of attempts)
 
-- **[[Omoplata to Back]]** (1% of attempts)
+- **[[Transitions/Omoplata to Back]]** (1% of attempts)
 
-- **[[Muscle Sweep]]** (1% of attempts)
+- **[[Transitions/Muscle Sweep]]** (1% of attempts)
 
-- **[[Closed Guard to Overhook Guard]]** (1% of attempts)
+- **[[Transitions/Closed Guard to Overhook Guard]]** (1% of attempts)
 
-- **[[High Guard to Rubber Guard]]** (1% of attempts)
+- **[[Transitions/High Guard to Rubber Guard]]** (1% of attempts)
 
-- **[[Transition to Diamond Guard]]** (1% of attempts)
+- **[[Transitions/Transition to Diamond Guard]]** (1% of attempts)
 
-- **[[Rolling Armbar]]** (2% of attempts)
+- **[[Submissions/Rolling Armbar]]** (2% of attempts)
 
-- **[[Spinning Armbar]]** (2% of attempts)
+- **[[Submissions/Spinning Armbar]]** (2% of attempts)
 
-- **[[Tarikoplata]]** (2% of attempts)
+- **[[Submissions/Tarikoplata]]** (2% of attempts)
 
-- **[[Triangle from Closed Guard]]** (2% of attempts)
+- **[[Submissions/Triangle from Closed Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -196,21 +196,21 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
-- **[[Posture Recovery]]** (32% of attempts)
+- **[[Transitions/Posture Recovery]]** (32% of attempts)
 
-- **[[Guard Opening Sequence]]** (27% of attempts)
+- **[[Transitions/Guard Opening Sequence]]** (27% of attempts)
 
-- **[[Standing up in Base]]** (22% of attempts)
+- **[[Transitions/Standing up in Base]]** (22% of attempts)
 
-- **[[Stack Pass]]** (10% of attempts)
+- **[[Transitions/Stack Pass]]** (10% of attempts)
 
-- **[[Stand Up in Closed Guard]]** (3% of attempts)
+- **[[Transitions/Stand Up in Closed Guard]]** (3% of attempts)
 
-- **[[Ezekiel from Closed Guard]]** (2% of attempts)
+- **[[Transitions/Ezekiel from Closed Guard]]** (2% of attempts)
 
-- **[[Knee Slice from Closed Guard]]** (2% of attempts)
+- **[[Transitions/Knee Slice from Closed Guard]]** (2% of attempts)
 
-- **[[Can Opener]]** (2% of attempts)
+- **[[Submissions/Can Opener]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -257,25 +257,25 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ## Related Positions
 
 
-- **[[Open Guard]]** - Natural transition when closed guard is opened - connected guard family
+- **[[Positions/Open Guard]]** - Natural transition when closed guard is opened - connected guard family
 
-- **[[Half Guard]]** - Common defensive transition during passing sequences or failed sweeps
+- **[[Positions/Half Guard]]** - Common defensive transition during passing sequences or failed sweeps
 
-- **[[Combat Base]]** - Top player's primary defensive posture for surviving closed guard pressure
+- **[[Positions/Combat Base]]** - Top player's primary defensive posture for surviving closed guard pressure
 
-- **[[Triangle Control]]** - Primary submission position accessible from bottom closed guard attacks
+- **[[Positions/Triangle Control]]** - Primary submission position accessible from bottom closed guard attacks
 
-- **[[Mount]]** - Most common target position for bottom player's sweep sequences
+- **[[Positions/Mount]]** - Most common target position for bottom player's sweep sequences
 
-- **[[Rubber Guard]]** - Advanced flexibility-based variation enhancing bottom control and offense
+- **[[Positions/Rubber Guard]]** - Advanced flexibility-based variation enhancing bottom control and offense
 
-- **[[Spider Guard]]** - Alternative guard system when closed guard is broken or opened
+- **[[Positions/Spider Guard]]** - Alternative guard system when closed guard is broken or opened
 
-- **[[Standing Position]]** - Top player's highest percentage position for initiating guard opening sequences
+- **[[Positions/Standing Position]]** - Top player's highest percentage position for initiating guard opening sequences
 
-- **[[Side Control]]** - Top player's target position after successful guard passing sequences
+- **[[Positions/Side Control]]** - Top player's target position after successful guard passing sequences
 
-- **[[Back Control]]** - Alternative target for bottom player via kimura or omoplata transitions
+- **[[Positions/Back Control]]** - Alternative target for bottom player via kimura or omoplata transitions
 
 
 </section>

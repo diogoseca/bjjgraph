@@ -180,7 +180,7 @@ description: "Complete guide to executing the Transition to Vaporizer from Lockd
 
 As the attacker executing the Transition to Vaporizer, your objective is to convert the static lockdown half guard into the dynamic Vaporizer attacking platform by combining three synchronized mechanics: tight lockdown extension, deep underhook leverage, and explosive hip drive. The transition begins from an established lockdown where you already control the opponent's trapped leg, and your task is to layer on the upper body control and whip-up motion that elevates lockdown retention into active offense. The key insight is that the lockdown alone only holds your opponent in place, but adding the underhook pull and hip elevation fundamentally shifts the positional dynamic by compromising their base, breaking their posture, and forcing them into reactive defense. Once you achieve the Vaporizer configuration, your opponent faces a cascading series of threats with no single correct defensive answer, making this transition the most important positional advancement in the 10th Planet half guard system.
 
-**From Position**: [[Lockdown]] (Bottom)
+**From Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Transition to Vaporizer, your objective is to conv
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Vaporizer]] | 55% |
-| Failure | [[Lockdown]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Vaporizer]] | 55% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,11 +243,11 @@ As the attacker executing the Transition to Vaporizer, your objective is to conv
 
 ## Opponent Counters
 
-- **Opponent establishes strong whizzer to prevent underhook depth** (Effectiveness: High) - Your Response: Use the whizzer commitment against them by transitioning to overhook Vaporizer entry, or convert directly to Electric Chair since their whizzer arm prevents them from defending the leg split. Alternatively, pummel inside the whizzer with a quick swim motion timed to their exhale. → Leads to [[Lockdown]]
-- **Opponent drives heavy crossface pressure to flatten bottom player before whip-up** (Effectiveness: High) - Your Response: Frame against their crossface arm with your free hand while turning into them rather than away. Use the frame to create enough space to recover the angle needed for the whip-up. If completely flattened, temporarily switch to lockdown retention mode and work to re-establish the underhook before reattempting. → Leads to [[Lockdown]]
-- **Opponent widens base and drops weight low to resist whip-up motion** (Effectiveness: Medium) - Your Response: Switch to progressive whip-up with rhythmic pulses rather than one explosive attempt. Their wide base actually exposes the Electric Chair because their legs are spread. Use multiple smaller hip drives to gradually walk their weight forward, or transition directly to Electric Chair entry from the widened base position. → Leads to [[Lockdown]]
-- **Opponent begins extracting trapped leg by circulating knee toward mat** (Effectiveness: Medium) - Your Response: Immediately tighten lockdown by squeezing knees together and extending legs forcefully. Hip escape away from them to lengthen their leg and make extraction harder. If they continue progressing, accelerate the whip-up attempt before the lockdown is fully cleared, using whatever lockdown tension remains to generate one last off-balancing motion. → Leads to [[Half Guard]]
-- **Opponent posts far hand and maintains posture through the whip-up attempt** (Effectiveness: Low) - Your Response: Their posted hand is actually the setup for the Old School sweep. Redirect immediately to Old School by posting your outside foot, bridging toward their posted hand while pulling with the underhook. Their hand post becomes a fixed point they cannot remove without being swept by the continued whip-up pressure. → Leads to [[Lockdown]]
+- **Opponent establishes strong whizzer to prevent underhook depth** (Effectiveness: High) - Your Response: Use the whizzer commitment against them by transitioning to overhook Vaporizer entry, or convert directly to Electric Chair since their whizzer arm prevents them from defending the leg split. Alternatively, pummel inside the whizzer with a quick swim motion timed to their exhale. → Leads to [[Positions/Half Guard/Lockdown]]
+- **Opponent drives heavy crossface pressure to flatten bottom player before whip-up** (Effectiveness: High) - Your Response: Frame against their crossface arm with your free hand while turning into them rather than away. Use the frame to create enough space to recover the angle needed for the whip-up. If completely flattened, temporarily switch to lockdown retention mode and work to re-establish the underhook before reattempting. → Leads to [[Positions/Half Guard/Lockdown]]
+- **Opponent widens base and drops weight low to resist whip-up motion** (Effectiveness: Medium) - Your Response: Switch to progressive whip-up with rhythmic pulses rather than one explosive attempt. Their wide base actually exposes the Electric Chair because their legs are spread. Use multiple smaller hip drives to gradually walk their weight forward, or transition directly to Electric Chair entry from the widened base position. → Leads to [[Positions/Half Guard/Lockdown]]
+- **Opponent begins extracting trapped leg by circulating knee toward mat** (Effectiveness: Medium) - Your Response: Immediately tighten lockdown by squeezing knees together and extending legs forcefully. Hip escape away from them to lengthen their leg and make extraction harder. If they continue progressing, accelerate the whip-up attempt before the lockdown is fully cleared, using whatever lockdown tension remains to generate one last off-balancing motion. → Leads to [[Positions/Half Guard]]
+- **Opponent posts far hand and maintains posture through the whip-up attempt** (Effectiveness: Low) - Your Response: Their posted hand is actually the setup for the Old School sweep. Redirect immediately to Old School by posting your outside foot, bridging toward their posted hand while pulling with the underhook. Their hand post becomes a fixed point they cannot remove without being swept by the continued whip-up pressure. → Leads to [[Positions/Half Guard/Lockdown]]
 
 
 </section>

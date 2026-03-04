@@ -178,7 +178,7 @@ The entry requires precise timing and hip mobility, as you must thread your legs
 
 This technique represents a sophisticated evolution in modern guard play, bridging inverted guard mobility with the powerful mechanical advantages of X-Guard systems. Practitioners who develop proficiency find it becomes a reliable pathway when standard berimbolo or back take entries are blocked.
 
-**From Position**: [[Inverted Guard]] (Bottom)
+**From Position**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ This technique represents a sophisticated evolution in modern guard play, bridgi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Reverse X-Guard]] | 58% |
-| Failure | [[Inverted Guard]] | 27% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/X-Guard/Reverse X-Guard]] | 58% |
+| Failure | [[Positions/Inverted Guard]] | 27% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ This technique represents a sophisticated evolution in modern guard play, bridgi
 
 ## Opponent Counters
 
-- **Opponent steps far leg back before crossing hook establishes, creating distance and preventing leg threading** (Effectiveness: High) - Your Response: Maintain pants grip and follow their retreating leg, using the grip to prevent full disengagement while transitioning to Single Leg X or technical standup → Leads to [[Inverted Guard]]
-- **Opponent applies immediate stack pressure when they recognize the inversion, driving weight onto your shoulders** (Effectiveness: High) - Your Response: Abandon the entry and granby roll to the opposite side, using their forward pressure to assist your rotation and recover to seated guard or De La Riva → Leads to [[Side Control]]
-- **Opponent posts their hand on your hip to prevent threading and maintains low base** (Effectiveness: Medium) - Your Response: Use your free hand to attack their posting arm with a two-on-one grip, clearing the obstruction and creating the window for leg insertion → Leads to [[Inverted Guard]]
-- **Opponent backsteps their near leg to avoid the hook and circles to pass** (Effectiveness: Medium) - Your Response: Follow their backstep motion and convert to Single Leg X on their retreating leg, or use the rotation to enter standard X-Guard → Leads to [[Side Control]]
+- **Opponent steps far leg back before crossing hook establishes, creating distance and preventing leg threading** (Effectiveness: High) - Your Response: Maintain pants grip and follow their retreating leg, using the grip to prevent full disengagement while transitioning to Single Leg X or technical standup → Leads to [[Positions/Inverted Guard]]
+- **Opponent applies immediate stack pressure when they recognize the inversion, driving weight onto your shoulders** (Effectiveness: High) - Your Response: Abandon the entry and granby roll to the opposite side, using their forward pressure to assist your rotation and recover to seated guard or De La Riva → Leads to [[Positions/Side Control]]
+- **Opponent posts their hand on your hip to prevent threading and maintains low base** (Effectiveness: Medium) - Your Response: Use your free hand to attack their posting arm with a two-on-one grip, clearing the obstruction and creating the window for leg insertion → Leads to [[Positions/Inverted Guard]]
+- **Opponent backsteps their near leg to avoid the hook and circles to pass** (Effectiveness: Medium) - Your Response: Follow their backstep motion and convert to Single Leg X on their retreating leg, or use the rotation to enter standard X-Guard → Leads to [[Positions/Side Control]]
 
 
 </section>

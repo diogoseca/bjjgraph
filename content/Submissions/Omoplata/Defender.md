@@ -158,7 +158,7 @@ Defending the omoplata requires understanding the attacker's sequential control 
 
 The defender must recognize omoplata setups early through specific tactile and visual cues: hip pivoting beneath you, a leg swinging toward your shoulder line, and grip isolation on one arm. Early recognition allows posture-based defenses that prevent the attacker from completing the leg insertion. Once the position is partially established, the defender's best options shift to the forward roll escape, posture recovery through base creation, or turning into the attacker to alleviate shoulder rotation. Each defensive option carries specific risks and timing requirements that the defender must understand to avoid worsening their position or sustaining injury.
 
-**Opponent's Starting Position**: [[Omoplata Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Omoplata Control]] (Top)
 
 
 </section>
@@ -197,28 +197,28 @@ The defender must recognize omoplata setups early through specific tactile and v
 ### 1. Posture up and extract trapped arm before leg fully crosses shoulder
 
 - **When to use**: During the entry phase when opponent is pivoting hips but has not yet secured their leg over your shoulder. This is the highest-percentage defense window.
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: Return to guard top position with opponent's attack neutralized, maintaining your passing position
 - **Risk**: If you posture too late after the leg is over your shoulder, the posturing motion can increase shoulder rotation and worsen your position
 
 ### 2. Forward roll over trapped shoulder to escape the rotation
 
 - **When to use**: When the omoplata is partially locked and posture recovery has failed, but the attacker has not yet established perpendicular angle and seated posture. Must be committed and explosive.
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: End up facing opponent with arm freed from the shoulder lock, often in a scramble position or back in their guard
 - **Risk**: If attacker maintains pressure during your roll, the combination of your body weight and their pressure can cause severe shoulder injury. Only roll when you feel a clear path.
 
 ### 3. Turn into the attacker and stack while keeping elbow tight
 
 - **When to use**: When you cannot posture up or roll, but the attacker has not yet fully established far-side control. Turning your body toward them reduces the rotational angle on your shoulder.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Reduce shoulder rotation pressure and potentially return to a neutral guard position where you can work to extract your arm
 - **Risk**: Turning into them can give them back access if they release the omoplata and transition. You may end up giving up back control.
 
 ### 4. Base wide and create distance by walking hips backward
 
 - **When to use**: When caught in omoplata but attacker has not yet sat up. Use a wide base and walk your knees backward to create distance and reduce the leverage they can generate.
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: Create enough distance to extract your arm or transition to a neutral position where you can address their leg control
 - **Risk**: Slow escape that gives the attacker time to adjust angle and establish seated posture. Only effective if they have not yet consolidated the position.
 
@@ -241,11 +241,11 @@ The defender must recognize omoplata setups early through specific tactile and v
 
 ## Best-Case Outcomes for Defender
 
-### → [[Omoplata Control]]
+### → [[Positions/Omoplata Control]]
 
 Successfully posture up or forward roll during the entry phase before the attacker consolidates all five control elements. Extract your arm and immediately apply guard passing pressure before they can re-establish the position.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Turn into the attacker and stack them while keeping your elbow tight, reducing shoulder rotation. Work to extract your arm and settle into their closed guard where you can begin a structured guard passing sequence from a safe position.
 

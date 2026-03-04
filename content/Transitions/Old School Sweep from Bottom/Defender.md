@@ -154,7 +154,7 @@ description: "Defend the Old School Sweep from half guard top. Recognition cues,
 
 Defending the Old School Sweep requires the top player to immediately recognize the threat pattern of lockdown combined with underhook and head control, then establish countermeasures before the sweep mechanics take hold. The defender must prioritize establishing a deep whizzer and heavy crossface pressure to neutralize the sweeping leverage, while maintaining a wide base to resist rotational forces. Understanding the sweep's three-point control system allows the defender to target the weakest link in the chain rather than fighting all three controls simultaneously. The most effective defensive strategy is prevention through early intervention, shutting down the underhook before it deepens or the head control before it establishes, rather than attempting to resist a fully loaded sweep.
 
-**Opponent's Starting Position**: [[Old School]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Old School]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Old School Sweep requires the top player to immediately recognize 
 ### 1. Establish deep whizzer immediately and clamp elbow tight to your body to control opponent's underhook arm
 
 - **When to use**: As soon as you feel the opponent threading an underhook. The whizzer must be established before the underhook deepens past your armpit.
-- **Targets**: [[Old School]]
+- **Targets**: [[Positions/Half Guard/Old School]]
 - **If successful**: Opponent's primary sweeping lever is neutralized. Their underhook cannot generate sufficient rotational force, and the sweep attempt stalls.
 - **Risk**: Over-committing to the whizzer can open Electric Chair attacks if the opponent redirects by diving under your hips.
 
 ### 2. Drive heavy crossface pressure with shoulder into opponent's jaw while keeping hips low and heavy
 
 - **When to use**: When opponent has established underhook and is fighting for head control. Crossface prevents the final control point from being established.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent is flattened onto their back, destroying the side angle necessary for the sweep. This also creates passing opportunities as you break down their lockdown structure.
 - **Risk**: If the opponent has already secured head control, driving forward feeds directly into the sweep timing.
 
 ### 3. Post free leg wide at 45 degrees with knee angled outward to create maximum base against rotational force
 
 - **When to use**: Throughout the entire defensive sequence. Wide base should be maintained as a constant rather than a reactive adjustment.
-- **Targets**: [[Old School]]
+- **Targets**: [[Positions/Half Guard/Old School]]
 - **If successful**: Wide base removes the rotational angle needed for the sweep. The opponent cannot generate sufficient lateral force to overcome the structural stability of the wide post.
 - **Risk**: Focusing solely on base without addressing grips allows opponent to strengthen their control points incrementally.
 
 ### 4. Sprawl hips backward while maintaining chest connection to remove weight from the sweeping angle
 
 - **When to use**: When you feel the opponent beginning to bridge or pump the lockdown aggressively, signaling imminent sweep initiation.
-- **Targets**: [[Old School]]
+- **Targets**: [[Positions/Half Guard/Old School]]
 - **If successful**: Hip sprawl removes your center of gravity from the sweep's rotational path, making the sweep mechanically impossible to complete.
 - **Risk**: Excessive sprawling creates space that allows opponent to transition to deep half guard or reset the lockdown position.
 
@@ -225,11 +225,11 @@ Defending the Old School Sweep requires the top player to immediately recognize 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Old School]]
+### → [[Positions/Half Guard/Old School]]
 
 Establish whizzer and crossface immediately upon recognizing the lockdown setup. Maintain wide base and heavy hips while systematically working to free your trapped leg through ankle manipulation and hip pressure. Patience and pressure prevent the sweep without feeding into chain attacks.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Drive aggressive crossface to flatten the bottom player while working to strip the lockdown. Once their angle is destroyed and they are flat on their back, the Old School position dissolves into regular half guard where you can begin standard passing sequences.
 

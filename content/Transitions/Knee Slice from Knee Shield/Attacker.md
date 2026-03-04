@@ -180,7 +180,7 @@ description: "Complete attacking guide for the knee slice pass against knee shie
 
 As the attacker executing the knee slice from knee shield, your primary objective is to systematically dismantle the opponent's shin barrier through a combination of crossface pressure, ankle control, and diagonal knee drive. The technique requires patience and sequential execution—rushing the slice before controlling the upper body and neutralizing the shield results in failed passes or sweeps. The key insight is that the knee shield is only as strong as the alignment between the bottom player's hip, knee, and shoulder. By controlling the head with crossface and pinning the shield ankle, you break this alignment and reduce the shield to a non-functional limb that can be bypassed. Mastery of this pass gives you a reliable, high-percentage answer to one of the most frustrating defensive structures in modern jiu-jitsu, and it chains seamlessly with smash pass, long step, and backstep variations when the initial slice is defended.
 
-**From Position**: [[Knee Shield Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ As the attacker executing the knee slice from knee shield, your primary objectiv
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Knee Shield Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Knee Shield Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -245,11 +245,11 @@ As the attacker executing the knee slice from knee shield, your primary objectiv
 
 ## Opponent Counters
 
-- **Opponent frames on bicep and hip escapes to re-insert knee shield** (Effectiveness: High) - Your Response: Maintain heavy crossface pressure and do not release the ankle grip. If they begin re-inserting, immediately drive your weight forward and re-collapse the shield before it reaches full extension. If the shield is fully re-established, reset your grips and begin the sequence again rather than fighting a strong frame. → Leads to [[Knee Shield Half Guard]]
-- **Opponent dives underneath for deep half guard as you commit forward** (Effectiveness: Medium) - Your Response: Sprawl your hips back and drive your weight down through your chest to prevent them from getting underneath you. Control their head with a crossface or whizzer to prevent the rotation needed for deep half entry. If they establish deep half, immediately transition to backstep pass or smash pass rather than continuing the knee slice. → Leads to [[Knee Shield Half Guard]]
-- **Opponent uses underhook to initiate old school sweep during your weight commitment** (Effectiveness: High) - Your Response: Immediately whizzer the underhook arm and drive your shoulder into their armpit to kill the sweep angle. Post your free hand on the mat for base if you feel your balance compromised. Re-establish crossface control before continuing the pass. If the sweep is well-timed, you may need to abandon the pass and reset to avoid being swept. → Leads to [[Half Guard]]
-- **Opponent grabs far collar or head and pulls you forward to break your posture** (Effectiveness: Medium) - Your Response: Use your free hand to strip their collar grip or peel their hand off your head. Drive your hips forward while keeping your head up to resist the pull. If they succeed in breaking your posture, reset to a stable base position before attempting the slice again. Never attempt the knee drive while your posture is broken. → Leads to [[Knee Shield Half Guard]]
-- **Opponent turns to turtle as the pass is nearly complete** (Effectiveness: Low) - Your Response: Follow their hip rotation and immediately secure a seatbelt grip or front headlock control as they turn. This counter actually exposes their back, so transition to back take or front headlock attacks rather than forcing the side control finish. The pass has effectively succeeded since you have cleared the guard. → Leads to [[Side Control]]
+- **Opponent frames on bicep and hip escapes to re-insert knee shield** (Effectiveness: High) - Your Response: Maintain heavy crossface pressure and do not release the ankle grip. If they begin re-inserting, immediately drive your weight forward and re-collapse the shield before it reaches full extension. If the shield is fully re-established, reset your grips and begin the sequence again rather than fighting a strong frame. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
+- **Opponent dives underneath for deep half guard as you commit forward** (Effectiveness: Medium) - Your Response: Sprawl your hips back and drive your weight down through your chest to prevent them from getting underneath you. Control their head with a crossface or whizzer to prevent the rotation needed for deep half entry. If they establish deep half, immediately transition to backstep pass or smash pass rather than continuing the knee slice. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
+- **Opponent uses underhook to initiate old school sweep during your weight commitment** (Effectiveness: High) - Your Response: Immediately whizzer the underhook arm and drive your shoulder into their armpit to kill the sweep angle. Post your free hand on the mat for base if you feel your balance compromised. Re-establish crossface control before continuing the pass. If the sweep is well-timed, you may need to abandon the pass and reset to avoid being swept. → Leads to [[Positions/Half Guard]]
+- **Opponent grabs far collar or head and pulls you forward to break your posture** (Effectiveness: Medium) - Your Response: Use your free hand to strip their collar grip or peel their hand off your head. Drive your hips forward while keeping your head up to resist the pull. If they succeed in breaking your posture, reset to a stable base position before attempting the slice again. Never attempt the knee drive while your posture is broken. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
+- **Opponent turns to turtle as the pass is nearly complete** (Effectiveness: Low) - Your Response: Follow their hip rotation and immediately secure a seatbelt grip or front headlock control as they turn. This counter actually exposes their back, so transition to back take or front headlock attacks rather than forcing the side control finish. The pass has effectively succeeded since you have cleared the guard. → Leads to [[Positions/Side Control]]
 
 
 </section>

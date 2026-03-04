@@ -21,7 +21,7 @@ The critical challenge is that every intuitive extraction method plays into the 
 
 Timing is equally important as technique. The longer the arm remains trapped, the deeper the bottom player consolidates control and sets up attacks. Early extraction attempts when the clamp is still shallow succeed at significantly higher rates than attempts against an established deep clamp with supplementary wrist control and optimal hip angle. Recognizing the clamp entry and responding within the first two to three seconds before the bottom player establishes wrist control is the highest-percentage window for successful extraction.
 
-**From Position**: [[Clamp Guard]] (Top)
+**From Position**: [[Positions/Clamp Guard]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Timing is equally important as technique. The longer the arm remains trapped, th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Failure | [[Clamp Guard]] | 30% |
-| Counter | [[Armbar Control]] | 20% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Failure | [[Positions/Clamp Guard]] | 30% |
+| Counter | [[Positions/Armbar Control]] | 20% |
 
 
 </section>
@@ -195,25 +195,25 @@ Arm extraction from clamp guard is a critical defensive skill within the guard p
 ## Related Techniques
 
 
-- [[Clamp Guard]] - Source position where the arm becomes trapped between opponent's legs
+- [[Positions/Clamp Guard]] - Source position where the arm becomes trapped between opponent's legs
 
-- [[Open Guard]] - Target position after successful extraction, where passing resumes
+- [[Positions/Open Guard]] - Target position after successful extraction, where passing resumes
 
-- [[Armbar Control]] - Counter outcome position when extraction feeds into opponent's armbar
+- [[Positions/Armbar Control]] - Counter outcome position when extraction feeds into opponent's armbar
 
-- [[Arm Extraction]] - Related general arm extraction technique applicable across guard positions
+- [[Transitions/Arm Extraction]] - Related general arm extraction technique applicable across guard positions
 
-- [[Armbar from Clamp Guard]] - Primary submission threat the guard player attacks during extraction attempts
+- [[Transitions/Armbar from Clamp Guard]] - Primary submission threat the guard player attacks during extraction attempts
 
-- [[Triangle Setup]] - Secondary submission threat when extraction circles outward past the shoulder
+- [[Transitions/Triangle Setup]] - Secondary submission threat when extraction circles outward past the shoulder
 
-- [[Lasso Guard]] - Alternative arm entanglement guard using similar leg-on-arm control concepts
+- [[Positions/Lasso Guard]] - Alternative arm entanglement guard using similar leg-on-arm control concepts
 
-- [[Combat Base]] - Posture variation used during extraction to maximize base and leverage
+- [[Positions/Combat Base]] - Posture variation used during extraction to maximize base and leverage
 
-- [[Headquarters Position]] - Passing position commonly established immediately after successful extraction
+- [[Positions/Headquarters Position]] - Passing position commonly established immediately after successful extraction
 
-- [[Collar Sleeve Guard]] - Related guard system that can transition into clamp guard if arm control deepens
+- [[Positions/Collar Sleeve Guard]] - Related guard system that can transition into clamp guard if arm control deepens
 
 
 </section>

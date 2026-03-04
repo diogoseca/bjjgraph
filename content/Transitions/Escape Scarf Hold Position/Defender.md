@@ -146,7 +146,7 @@ description: "Defend against Escape from Scarf Hold Position in BJJ. Learn to ma
 
 As the defender maintaining scarf hold against escape attempts, your primary objective is preserving the perpendicular pin while capitalizing on the bottom player's escape attempts to advance position or attack submissions. Effective defense requires understanding each escape pathway the bottom player may attempt and having pre-loaded counters that transform their escape energy into positional advancement for you. The defensive game from scarf hold top centers on maintaining the three pillars of control: heavy hip pressure through the ribcage, tight head control preventing rotation, and firm near arm isolation eliminating the bottom player's strongest defensive tool. When escape attempts compromise one pillar, the remaining two must compensate while you work to restore full control or transition to an even more dominant position.
 
-**Opponent's Starting Position**: [[Scarf Hold Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control/Scarf Hold Position]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender maintaining scarf hold against escape attempts, your primary obj
 ### 1. Widen base and drive hip pressure deeper when sensing bridge setup
 
 - **When to use**: When feeling bottom player hook your leg and reach for your arm, indicating imminent bridge-and-roll attempt
-- **Targets**: [[Scarf Hold Position]]
+- **Targets**: [[Positions/Side Control/Scarf Hold Position]]
 - **If successful**: Bridge attempt fails completely, bottom player wastes energy and returns to trapped position with reduced capacity for subsequent attempts
 - **Risk**: Widening base too much can create space on the opposite side, enabling ghost escape or frame-and-shrimp guard recovery
 
 ### 2. Transition to mount by stepping over when bottom player turns during escape attempt
 
 - **When to use**: When bottom player commits to turning away or bridging, creating space between their hips and yours that allows leg insertion for mount
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Advance to mount position achieving more dominant control with greater submission opportunities and scoring points
 - **Risk**: If mount transition is incomplete, bottom player may recover half guard or establish frames preventing consolidation
 
 ### 3. Attack americana or kimura when bottom player exposes arm during frame creation or escape attempt
 
 - **When to use**: When bottom player releases defensive grip on trapped arm to create frames or reach for escape grips, exposing the arm to joint lock attacks
-- **Targets**: [[Scarf Hold Position]]
+- **Targets**: [[Positions/Side Control/Scarf Hold Position]]
 - **If successful**: Bottom player must abandon escape attempt to defend submission, resetting their progress and consuming defensive energy
 - **Risk**: Committing to submission attack may require releasing some positional control, creating window for a determined escape
 
 ### 4. Re-secure head control and collapse frames by driving crossface deeper into opponent's jaw
 
 - **When to use**: When bottom player successfully establishes frames creating space but before they can convert frames into escape movement
-- **Targets**: [[Scarf Hold Position]]
+- **Targets**: [[Positions/Side Control/Scarf Hold Position]]
 - **If successful**: Bottom player's frames collapse, returning to tight scarf hold control with their escape attempt fully neutralized
 - **Risk**: Reaching to collapse frames may momentarily lighten hip pressure, creating brief window for hip escape or turtle transition
 
@@ -217,11 +217,11 @@ As the defender maintaining scarf hold against escape attempts, your primary obj
 
 ## Best-Case Outcomes for Defender
 
-### → [[Scarf Hold Position]]
+### → [[Positions/Side Control/Scarf Hold Position]]
 
 Maintain tight hip pressure, head control, and arm isolation while dynamically adjusting base to counter each escape attempt. Force the bottom player to burn energy on failed escapes while conserving your own energy through structural rather than muscular control.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Capitalize on escape-created space by transitioning to mount when the bottom player turns away or bridges, stepping over their head or body to establish mount before they can recover guard. Time the transition to coincide with their committed escape movement when they cannot redirect defensively.
 

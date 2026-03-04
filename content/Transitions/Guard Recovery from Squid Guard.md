@@ -19,7 +19,7 @@ Guard Recovery from Squid Guard is a defensive transition where the bottom playe
 
 The critical challenge unique to Squid Guard recovery is the asymmetric leg positioning that must be converted to symmetric closed guard configuration under time pressure. Unlike recovering from bilateral guards where both legs retract symmetrically, the Squid Guard threading leg and framing leg occupy fundamentally different positions and must be independently repositioned. The recovery window is narrow because the Squid Guard structure collapses rapidly once either the lapel connection or threading leg position is compromised, leaving the bottom player temporarily without an organized guard framework. Successful recovery depends on decisive commitment to closed guard rather than attempting to rebuild the complex Squid Guard under active passing pressure.
 
-**From Position**: [[Squid Guard]] (Bottom)
+**From Position**: [[Positions/Squid Guard]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -30,9 +30,9 @@ The critical challenge unique to Squid Guard recovery is the asymmetric leg posi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Failure | [[Squid Guard]] | 35% |
-| Counter | [[Combat Base]] | 20% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Failure | [[Positions/Squid Guard]] | 35% |
+| Counter | [[Positions/Combat Base]] | 20% |
 
 
 </section>
@@ -187,27 +187,27 @@ Guard Recovery from Squid Guard serves as the essential safety valve within the 
 ## Related Techniques
 
 
-- [[Squid Guard]] - Source position - the lapel-based guard configuration from which this recovery initiates when control is compromised
+- [[Positions/Squid Guard]] - Source position - the lapel-based guard configuration from which this recovery initiates when control is compromised
 
-- [[Closed Guard]] - Primary recovery target - fundamental closed guard providing stable offensive and defensive options
+- [[Positions/Closed Guard]] - Primary recovery target - fundamental closed guard providing stable offensive and defensive options
 
-- [[Combat Base]] - Counter outcome position when top player establishes passing stance during recovery attempt
+- [[Positions/Combat Base]] - Counter outcome position when top player establishes passing stance during recovery attempt
 
-- [[Lapel Guard]] - Related lapel-based guard system that shares grip mechanics and recovery pathways with Squid Guard
+- [[Positions/Lapel Guard]] - Related lapel-based guard system that shares grip mechanics and recovery pathways with Squid Guard
 
-- [[Worm Guard]] - Related advanced lapel guard that shares lapel threading concepts and similar recovery mechanics
+- [[Positions/Worm Guard]] - Related advanced lapel guard that shares lapel threading concepts and similar recovery mechanics
 
-- [[De La Riva Guard]] - Alternative guard recomposition option using the threading leg for a DLR hook during recovery
+- [[Positions/De La Riva Guard]] - Alternative guard recomposition option using the threading leg for a DLR hook during recovery
 
-- [[Open Guard]] - Parent guard category - Squid Guard is an advanced open guard variation
+- [[Positions/Open Guard]] - Parent guard category - Squid Guard is an advanced open guard variation
 
-- [[Spider Guard]] - Alternative guard recovery option when sleeve grips are available during the transition from Squid Guard
+- [[Positions/Spider Guard]] - Alternative guard recovery option when sleeve grips are available during the transition from Squid Guard
 
-- [[Half Guard]] - Fallback guard position when full closed guard closure is not achievable during the transition
+- [[Positions/Half Guard]] - Fallback guard position when full closed guard closure is not achievable during the transition
 
-- [[Butterfly Guard]] - Alternative guard composition using butterfly hooks when legs retract from the Squid Guard threading position
+- [[Positions/Butterfly Guard]] - Alternative guard composition using butterfly hooks when legs retract from the Squid Guard threading position
 
-- [[Guard Recovery from Combat Base]] - Related guard recovery technique that may follow if the opponent establishes combat base during the transition
+- [[Transitions/Guard Recovery from Combat Base]] - Related guard recovery technique that may follow if the opponent establishes combat base during the transition
 
 
 </section>

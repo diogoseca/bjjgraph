@@ -21,7 +21,7 @@ The strategic value of this pass lies in its ability to bypass the seated guard 
 
 This technique works particularly well when chained with other passing approaches from standing. If the seated guard player focuses on defending toreando or leg drag attempts, the bodylock entry catches them during grip transitions. The pass requires commitment and proper timing, as a poorly executed entry exposes the passer to butterfly sweeps and guard recovery. Success depends on an explosive level change, tight lock establishment, and relentless forward pressure that prevents the bottom player from creating any defensive structure.
 
-**From Position**: [[Seated Guard]] (Top)
+**From Position**: [[Positions/Seated Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This technique works particularly well when chained with other passing approache
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Seated Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Seated Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Bodylock Pass from Seated Guard integrates into the broader guard passing sy
 ## Related Techniques
 
 
-- [[Body Lock]] - Control position using the same grip configuration around the opponent's torso
+- [[Positions/Body Lock]] - Control position using the same grip configuration around the opponent's torso
 
-- [[Side Control]] - Primary target position after successful completion of the bodylock pass
+- [[Positions/Side Control]] - Primary target position after successful completion of the bodylock pass
 
-- [[Half Guard]] - Counter outcome position if opponent recovers partial guard during the pass
+- [[Positions/Half Guard]] - Counter outcome position if opponent recovers partial guard during the pass
 
-- [[Body Lock Pass]] - General bodylock pass technique sharing core mechanics and grip strategy
+- [[Transitions/Body Lock Pass]] - General bodylock pass technique sharing core mechanics and grip strategy
 
-- [[Body Lock Takedown]] - Related takedown using the same grip configuration from standing exchanges
+- [[Transitions/Body Lock Takedown]] - Related takedown using the same grip configuration from standing exchanges
 
-- [[Toreando Pass]] - Complementary leg-based pass that creates openings for bodylock entries
+- [[Transitions/Toreando Pass]] - Complementary leg-based pass that creates openings for bodylock entries
 
-- [[Knee Slice Pass]] - Alternative pass that chains effectively when bodylock is defended
+- [[Transitions/Knee Slice Pass]] - Alternative pass that chains effectively when bodylock is defended
 
-- [[Headquarters Position]] - Intermediate control position used during guard passing approach
+- [[Positions/Headquarters Position]] - Intermediate control position used during guard passing approach
 
-- [[Butterfly Guard]] - Guard the opponent may transition to when defending the bodylock entry
+- [[Positions/Butterfly Guard]] - Guard the opponent may transition to when defending the bodylock entry
 
-- [[Combat Base]] - Starting stance option for initiating the bodylock pass approach
+- [[Positions/Combat Base]] - Starting stance option for initiating the bodylock pass approach
 
 
 </section>

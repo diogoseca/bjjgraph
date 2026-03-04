@@ -22,8 +22,8 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and neck compression
-**Starting Position**: [[Half Guard]]
-**From Position**: [[Half Guard]] (Bottom)
+**Starting Position**: [[Positions/Half Guard]]
+**From Position**: [[Positions/Half Guard]] (Bottom)
 **Success Rate**: 52%
 
 </section>
@@ -78,8 +78,8 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Half Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Half Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -230,12 +230,12 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 
 ## From Which Positions?
 
-- [[Half Guard]]
-- [[Lockdown]]
-- [[Deep Half Guard]]
-- [[Quarter Guard]]
-- [[Half Butterfly]]
-- [[Flattened Half Guard]]
+- [[Positions/Half Guard]]
+- [[Positions/Half Guard/Lockdown]]
+- [[Positions/Half Guard/Deep Half Guard]]
+- [[Positions/Quarter Guard]]
+- [[Positions/Butterfly Guard/Half Butterfly]]
+- [[Positions/Half Guard/Flattened Half Guard]]
 
 
 </section>
@@ -244,14 +244,14 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 
 ## Related Submissions
 
-- [[Electric Chair Submission]]
-- [[Anaconda Choke]]
-- [[Darce Choke]]
-- [[Guillotine Choke]]
-- [[Arm Triangle]]
-- [[Kimura]]
-- [[Rear Naked Choke]]
-- [[Arm in Guillotine]]
+- [[Submissions/Electric Chair Submission]]
+- [[Transitions/Anaconda Choke]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/Kimura]]
+- [[Transitions/Rear Naked Choke]]
+- [[Submissions/Arm in Guillotine]]
 
 
 </section>
@@ -260,13 +260,13 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 
 ## Additional Related Content
 
-- [[Old School Sweep]] - Alternative attack from same half guard position when choke is defended
-- [[Deep Half Guard]] - Recovery position when Buggy Choke setup is defended
-- [[Electric Chair Submission]] - Primary follow-up submission when opponent defends the Buggy Choke
-- [[Crab Ride]] - Position that can develop from successful Buggy Choke angle creation
-- [[Lockdown]] - Complementary leg entanglement that enhances Buggy Choke control and posture breaking
-- [[Half Guard Pass]] - What opponent is attempting when Buggy Choke becomes available
-- [[Half Guard]] - Primary starting position and positional context for the Buggy Choke system
+- [[Transitions/Old School Sweep]] - Alternative attack from same half guard position when choke is defended
+- [[Positions/Half Guard/Deep Half Guard]] - Recovery position when Buggy Choke setup is defended
+- [[Submissions/Electric Chair Submission]] - Primary follow-up submission when opponent defends the Buggy Choke
+- [[Positions/Crab Ride]] - Position that can develop from successful Buggy Choke angle creation
+- [[Positions/Half Guard/Lockdown]] - Complementary leg entanglement that enhances Buggy Choke control and posture breaking
+- [[Transitions/Half Guard Pass]] - What opponent is attempting when Buggy Choke becomes available
+- [[Positions/Half Guard]] - Primary starting position and positional context for the Buggy Choke system
 
 
 </section>

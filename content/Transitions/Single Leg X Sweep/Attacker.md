@@ -184,7 +184,7 @@ Unlike traditional sweeps that rely primarily on hip movement or timing, the Sin
 
 The Single Leg X Sweep is a cornerstone technique in modern leg entanglement systems and connects seamlessly to various offensive sequences including back takes, other leg attacks, and transitional positions. Its high success rate across skill levels makes it an essential technique for any guard player, particularly those who favor open guard systems and leg-based guards. The sweep's effectiveness comes from its ability to work against standing or kneeling opponents and its natural progression into dominant positions or submission opportunities.
 
-**From Position**: [[Single Leg X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ The Single Leg X Sweep is a cornerstone technique in modern leg entanglement sys
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 75% |
-| Failure | [[Single Leg X-Guard]] | 15% |
-| Counter | [[Single Leg X-Guard]] | 10% |
+| Success | [[Positions/Standing Position]] | 75% |
+| Failure | [[Positions/X-Guard/Single Leg X-Guard]] | 15% |
+| Counter | [[Positions/X-Guard/Single Leg X-Guard]] | 10% |
 
 
 </section>
@@ -250,11 +250,11 @@ The Single Leg X Sweep is a cornerstone technique in modern leg entanglement sys
 
 ## Opponent Counters
 
-- **Opponent steps captured leg back and creates distance** (Effectiveness: High) - Your Response: Maintain connection with bottom leg hook, follow their movement by scooting hips forward, and immediately re-establish frames. If they create too much distance, transition to standing guard or technical stand-up. → Leads to [[Single Leg X-Guard]]
-- **Opponent drives forward with heavy pressure to flatten guard** (Effectiveness: Medium) - Your Response: Use top leg frame to create barrier, redirect their pressure to the side, and transition to X-Guard or Deep Half Guard. Alternatively, release bottom hook and invert under them to attack the back. → Leads to [[Single Leg X-Guard]]
-- **Opponent circles away from sweep direction and clears top leg** (Effectiveness: Medium) - Your Response: Follow their rotation with your hips, maintain bottom hook integrity, and switch sweep direction or transition to Technical Stand-Up. You can also convert to traditional X-Guard if they step the free leg forward. → Leads to [[Single Leg X-Guard]]
-- **Opponent grabs your top leg and attempts to pass** (Effectiveness: Low) - Your Response: This creates opportunity for reverse sweep or back take. Pull them forward with upper body control, elevate with bottom leg, and rotate under them as they commit weight to controlling your top leg. → Leads to [[Single Leg X-Guard]]
-- **Opponent posts far hand on mat to prevent sweep** (Effectiveness: Medium) - Your Response: Attack the posted arm with upper body control, transition to kiss of the dragon back take, or switch to waiter sweep mechanics using their post as an anchor point. → Leads to [[Single Leg X-Guard]]
+- **Opponent steps captured leg back and creates distance** (Effectiveness: High) - Your Response: Maintain connection with bottom leg hook, follow their movement by scooting hips forward, and immediately re-establish frames. If they create too much distance, transition to standing guard or technical stand-up. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Opponent drives forward with heavy pressure to flatten guard** (Effectiveness: Medium) - Your Response: Use top leg frame to create barrier, redirect their pressure to the side, and transition to X-Guard or Deep Half Guard. Alternatively, release bottom hook and invert under them to attack the back. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Opponent circles away from sweep direction and clears top leg** (Effectiveness: Medium) - Your Response: Follow their rotation with your hips, maintain bottom hook integrity, and switch sweep direction or transition to Technical Stand-Up. You can also convert to traditional X-Guard if they step the free leg forward. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Opponent grabs your top leg and attempts to pass** (Effectiveness: Low) - Your Response: This creates opportunity for reverse sweep or back take. Pull them forward with upper body control, elevate with bottom leg, and rotate under them as they commit weight to controlling your top leg. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Opponent posts far hand on mat to prevent sweep** (Effectiveness: Medium) - Your Response: Attack the posted arm with upper body control, transition to kiss of the dragon back take, or switch to waiter sweep mechanics using their post as an anchor point. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
 
 
 </section>

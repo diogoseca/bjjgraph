@@ -180,7 +180,7 @@ description: "Master escaping the standing rear clinch in BJJ. Step-by-step grip
 
 As the person trapped in the standing rear clinch, your immediate priorities are preventing submission, preventing takedown to ground back control, and systematically dismantling the opponent's control to escape or reverse the position. The escape operates on a strict sequence: first protect your neck from choke threats, then address the grip by fighting hands and breaking the clasp, then lower your base to prevent lifting, then create hip angle to set up the turn or throw. Rushing any step or skipping ahead in the sequence consistently results in failed escapes or worse outcomes. The mechanical foundation of the escape relies on disrupting the three pillars of the opponent's control: their grip connection, their chest-to-back pressure, and their hip alignment. By systematically attacking each pillar through hand fighting, weight distribution changes, and lateral hip movement, you create the openings necessary to turn, throw, or disengage. The critical insight is that you do not need to address all three simultaneously; breaking any single pillar creates a cascade that weakens the others, giving you the window to complete the escape.
 
-**From Position**: [[Standing Rear Clinch]] (Bottom)
+**From Position**: [[Positions/Standing Rear Clinch]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ As the person trapped in the standing rear clinch, your immediate priorities are
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 35% |
-| Failure | [[Standing Rear Clinch]] | 40% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Side Control]] | 35% |
+| Failure | [[Positions/Standing Rear Clinch]] | 40% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -244,11 +244,11 @@ As the person trapped in the standing rear clinch, your immediate priorities are
 
 ## Opponent Counters
 
-- **Opponent re-locks grip immediately after you break it by switching from gable grip to S-grip or vice versa** (Effectiveness: High) - Your Response: Transition from grip breaking to a hip throw or sit-out escape rather than engaging in repeated grip fighting. If you cannot keep the grip broken for more than a moment, use the brief window to change your body angle and begin the turn rather than trying to strip the grip again. Chain the grip break directly into the rotation without pausing. → Leads to [[Standing Rear Clinch]]
-- **Opponent drives forward aggressively and drags you to the ground, transitioning to seated back control with hooks** (Effectiveness: High) - Your Response: Lower your base even further and sprawl your hips back to counter the forward drive. If they succeed in pulling you to the ground, immediately begin ground-based back escape protocol by tucking your chin, fighting the choking hand, and working to remove hooks before they consolidate control. Prevention through base management is far more effective than recovering after being dragged down. → Leads to [[Back Control]]
-- **Opponent steps to match your lateral hip movement, maintaining chest-to-back alignment as you attempt to create angle** (Effectiveness: Medium) - Your Response: Use a change of direction by feinting hip movement to one side and then explosively stepping to the opposite side. The opponent's momentum from matching your first direction will create a delay in following the direction change, giving you the angle needed to initiate the turn. Alternatively, use their step as timing to execute a sit-out underneath their base. → Leads to [[Standing Rear Clinch]]
-- **Opponent lifts you off the ground when you attempt to lower your base, executing a suplex or mat return** (Effectiveness: Medium) - Your Response: Hook one leg behind the opponent's leg to anchor yourself and prevent full elevation. Spread your legs wide to distribute your weight across a larger area. If partially lifted, attack their hands aggressively to break the grip while in the air. The lifting attempt requires the opponent to temporarily sacrifice their chest-to-back pressure, which can be exploited upon landing. → Leads to [[Back Control]]
-- **Opponent transitions to a standing rear naked choke attempt as you focus on escaping rather than defending your neck** (Effectiveness: High) - Your Response: Immediately return to neck defense by tucking your chin and using two-on-one grip control on the choking arm. The choke threat takes absolute priority over escape attempts. Once the choke arm is controlled, resume the escape sequence. This is why maintaining hand contact with the opponent's grip throughout the escape is essential rather than pulling hands away to push on their legs. → Leads to [[Standing Rear Clinch]]
+- **Opponent re-locks grip immediately after you break it by switching from gable grip to S-grip or vice versa** (Effectiveness: High) - Your Response: Transition from grip breaking to a hip throw or sit-out escape rather than engaging in repeated grip fighting. If you cannot keep the grip broken for more than a moment, use the brief window to change your body angle and begin the turn rather than trying to strip the grip again. Chain the grip break directly into the rotation without pausing. → Leads to [[Positions/Standing Rear Clinch]]
+- **Opponent drives forward aggressively and drags you to the ground, transitioning to seated back control with hooks** (Effectiveness: High) - Your Response: Lower your base even further and sprawl your hips back to counter the forward drive. If they succeed in pulling you to the ground, immediately begin ground-based back escape protocol by tucking your chin, fighting the choking hand, and working to remove hooks before they consolidate control. Prevention through base management is far more effective than recovering after being dragged down. → Leads to [[Positions/Back Control]]
+- **Opponent steps to match your lateral hip movement, maintaining chest-to-back alignment as you attempt to create angle** (Effectiveness: Medium) - Your Response: Use a change of direction by feinting hip movement to one side and then explosively stepping to the opposite side. The opponent's momentum from matching your first direction will create a delay in following the direction change, giving you the angle needed to initiate the turn. Alternatively, use their step as timing to execute a sit-out underneath their base. → Leads to [[Positions/Standing Rear Clinch]]
+- **Opponent lifts you off the ground when you attempt to lower your base, executing a suplex or mat return** (Effectiveness: Medium) - Your Response: Hook one leg behind the opponent's leg to anchor yourself and prevent full elevation. Spread your legs wide to distribute your weight across a larger area. If partially lifted, attack their hands aggressively to break the grip while in the air. The lifting attempt requires the opponent to temporarily sacrifice their chest-to-back pressure, which can be exploited upon landing. → Leads to [[Positions/Back Control]]
+- **Opponent transitions to a standing rear naked choke attempt as you focus on escaping rather than defending your neck** (Effectiveness: High) - Your Response: Immediately return to neck defense by tucking your chin and using two-on-one grip control on the choking arm. The choke threat takes absolute priority over escape attempts. Once the choke arm is controlled, resume the escape sequence. This is why maintaining hand contact with the opponent's grip throughout the escape is essential rather than pulling hands away to push on their legs. → Leads to [[Positions/Standing Rear Clinch]]
 
 
 </section>

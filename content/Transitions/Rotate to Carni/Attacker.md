@@ -176,7 +176,7 @@ Executing the Rotate to Carni requires the bottom player to convert their establ
 
 The attacker's primary advantage is that this transition exploits a natural defensive reaction. Opponents trapped in New York frequently widen their base to resist sweeps or circle away from the overhook to reduce shoulder pressure. Both reactions create the lateral space that makes the rotation possible. By reading these defensive patterns, the attacker can time the rotation to coincide with the opponent's movement, effectively using their energy against them and dramatically increasing success rate.
 
-**From Position**: [[New York]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
 </section>
 
@@ -227,9 +227,9 @@ The attacker's primary advantage is that this transition exploits a natural defe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Carni]] | 60% |
-| Failure | [[New York]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Carni]] | 60% |
+| Failure | [[Positions/Rubber Guard/New York]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -238,10 +238,10 @@ The attacker's primary advantage is that this transition exploits a natural defe
 
 ## Opponent Counters
 
-- **Opponent drives forward before rotation completes to flatten position** (Effectiveness: High) - Your Response: If they drive early, accept the forward pressure and transition to Chill Dog or Invisible Collar instead - their forward drive actually assists those transitions → Leads to [[New York]]
-- **Opponent extracts trapped arm during rotation when overhook loosens** (Effectiveness: Medium) - Your Response: Maintain maximum overhook depth throughout rotation and be ready to transition to triangle setup if arm begins escaping - their extraction creates inside arm position for triangle → Leads to [[Closed Guard]]
-- **Opponent postures up and creates distance before rotation can complete** (Effectiveness: Medium) - Your Response: If they create significant distance, abort Carni attempt and use the space to reguard to closed guard with strong posture break, then re-establish New York → Leads to [[Closed Guard]]
-- **Opponent stacks aggressively to prevent perpendicular angle** (Effectiveness: Low) - Your Response: Use the stacking pressure to sweep them forward over your body, converting their defensive stacking into an omoplata sweep opportunity from the partial Carni angle → Leads to [[New York]]
+- **Opponent drives forward before rotation completes to flatten position** (Effectiveness: High) - Your Response: If they drive early, accept the forward pressure and transition to Chill Dog or Invisible Collar instead - their forward drive actually assists those transitions → Leads to [[Positions/Rubber Guard/New York]]
+- **Opponent extracts trapped arm during rotation when overhook loosens** (Effectiveness: Medium) - Your Response: Maintain maximum overhook depth throughout rotation and be ready to transition to triangle setup if arm begins escaping - their extraction creates inside arm position for triangle → Leads to [[Positions/Closed Guard]]
+- **Opponent postures up and creates distance before rotation can complete** (Effectiveness: Medium) - Your Response: If they create significant distance, abort Carni attempt and use the space to reguard to closed guard with strong posture break, then re-establish New York → Leads to [[Positions/Closed Guard]]
+- **Opponent stacks aggressively to prevent perpendicular angle** (Effectiveness: Low) - Your Response: Use the stacking pressure to sweep them forward over your body, converting their defensive stacking into an omoplata sweep opportunity from the partial Carni angle → Leads to [[Positions/Rubber Guard/New York]]
 
 
 </section>

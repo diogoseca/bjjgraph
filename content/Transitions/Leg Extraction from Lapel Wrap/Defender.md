@@ -158,7 +158,7 @@ Recognizing the extraction attempt early is critical because the technique becom
 
 Your most powerful tool is forcing the top player into a dilemma: if they commit fully to extraction, they expose themselves to sweeps and back takes. If they prioritize base defense, they cannot generate enough coordinated hand movement to strip the grip. Maintain secondary grips on their collar or sleeve so that even if they break the lapel, you retain enough control to transition to another guard system rather than losing position entirely.
 
-**Opponent's Starting Position**: [[Ringworm Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Your most powerful tool is forcing the top player into a dilemma: if they commit
 ### 1. Retighten the wrap and re-establish secondary grips immediately when you feel slack developing
 
 - **When to use**: At the earliest sign of extraction - when the opponent steps inward or begins moving their hand toward the lapel material
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: Opponent is forced to restart the entire extraction sequence from the beginning, burning energy and time while you maintain full guard control
 - **Risk**: If you focus only on retightening without threatening attacks, the opponent will simply repeat the extraction attempt with more setup
 
 ### 2. Load and execute a sweep when the opponent commits both hands to grip breaking, exploiting their compromised base
 
 - **When to use**: When the opponent releases their base-posting hand to work on the lapel strip, leaving them supported only by one leg
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: You sweep the opponent and come to top position, scoring points and establishing a dominant position while likely maintaining some lapel control
 - **Risk**: If the sweep fails due to their base recovery, you may have loosened your own grip tension during the sweeping motion
 
 ### 3. Attack the back by threading behind them when they turn their shoulders during the extraction attempt
 
 - **When to use**: When the opponent's shoulders rotate away from you during the extraction, exposing their back angle even momentarily
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You establish back control, the highest-value counter position, converting their extraction attempt into a catastrophic position loss
 - **Risk**: If the back take fails, you likely lose the lapel grip entirely and end up in open guard with poor positioning
 
 ### 4. Transition to Worm Guard or Squid Guard by re-threading the lapel into an alternative configuration
 
 - **When to use**: When the opponent has created significant slack and the Ringworm wrap is likely to be broken within seconds
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: You maintain lapel guard control in a different configuration, forcing the opponent to solve a new extraction problem
 - **Risk**: The transition window is narrow and requires releasing the current grip before establishing the new one, creating a brief moment of no control
 
@@ -228,11 +228,11 @@ Your most powerful tool is forcing the top player into a dilemma: if they commit
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ringworm Guard]]
+### → [[Positions/Ringworm Guard]]
 
 Retighten the wrap immediately when you detect slack by pulling the lapel tail toward your hip while simultaneously hip escaping laterally to change the angle. Establish a secondary collar or sleeve grip to create redundant control that persists even if they partially loosen the wrap.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the opponent turns their shoulders during extraction, immediately hip escape behind them and establish a seatbelt grip or harness. Use the remaining lapel tension to assist your rotation behind them. This is the highest-value counter and should be attempted whenever the shoulder turn is detected.
 

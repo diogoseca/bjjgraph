@@ -21,7 +21,7 @@ The escape mechanics center on systematically dismantling the top player's contr
 
 Timing is essential when executing this escape. Attempting to escape when the truck top player has fully consolidated all three control layers typically fails and wastes precious energy that accelerates submission vulnerability. The optimal window occurs during the opponent's submission setup transitions, when their weight shifts to attack the twister or calf slicer create momentary openings in the control structure. Advanced practitioners learn to create these openings through deliberate hand fighting and hip movement rather than waiting passively for opportunities to appear.
 
-**From Position**: [[Truck]] (Bottom)
+**From Position**: [[Positions/Twister Control/Truck]] (Bottom)
 **Success Rate**: 35%
 
 </section>
@@ -32,9 +32,9 @@ Timing is essential when executing this escape. Attempting to escape when the tr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 35% |
-| Failure | [[Truck]] | 40% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Side Control]] | 35% |
+| Failure | [[Positions/Twister Control/Truck]] | 40% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Escape from Truck integrates with the broader defensive hierarchy in BJJ by 
 ## Related Techniques
 
 
-- [[Truck]] - Starting position for this escape technique
+- [[Positions/Twister Control/Truck]] - Starting position for this escape technique
 
-- [[Back Control]] - Counter outcome when escape attempt is intercepted
+- [[Positions/Back Control]] - Counter outcome when escape attempt is intercepted
 
-- [[Side Control]] - Target position upon successful escape and reversal
+- [[Positions/Side Control]] - Target position upon successful escape and reversal
 
-- [[Twister Control]] - Primary submission threat motivating urgent escape
+- [[Positions/Twister Control]] - Primary submission threat motivating urgent escape
 
-- [[Turtle]] - Alternative escape destination via defensive roll
+- [[Positions/Turtle]] - Alternative escape destination via defensive roll
 
-- [[Half Guard]] - Alternative escape destination via hip escape variant
+- [[Positions/Half Guard]] - Alternative escape destination via hip escape variant
 
-- [[Deep Half Guard]] - Destination via forward roll escape variant
+- [[Positions/Half Guard/Deep Half Guard]] - Destination via forward roll escape variant
 
-- [[Crab Ride]] - Related back attack position with similar escape challenges
+- [[Positions/Crab Ride]] - Related back attack position with similar escape challenges
 
-- [[Calf Slicer from Truck]] - Submission threat during leg extraction phase of escape
+- [[Submissions/Calf Slicer from Truck]] - Submission threat during leg extraction phase of escape
 
-- [[Banana Split]] - Submission threat from truck creating escape urgency
+- [[Submissions/Banana Split]] - Submission threat from truck creating escape urgency
 
 
 </section>

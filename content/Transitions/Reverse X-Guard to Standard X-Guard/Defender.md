@@ -158,7 +158,7 @@ The key defensive concept is that any guard transition creates a moment of reduc
 
 Advanced defenders integrate this awareness into their overall X-Guard passing strategy, deliberately baiting the transition by defending Reverse X sweeps in ways that encourage the switch, then capitalizing on the predictable hook exchange. This transforms a defensive scenario into an offensive trap.
 
-**Opponent's Starting Position**: [[Reverse X-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Advanced defenders integrate this awareness into their overall X-Guard passing s
 ### 1. Backstep and extract the controlled leg during hook exchange, driving hips away from bottom player
 
 - **When to use**: When you feel the primary hook behind your knee loosen as it begins repositioning, indicating the transition has started
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: You clear the leg entanglement entirely and establish Headquarters Position for systematic passing
 - **Risk**: If timed too early, the bottom player still has strong hooks and can use your backstep movement to take your back
 
 ### 2. Drive forward pressure and smash hips down to flatten the bottom player during the reduced-control window
 
 - **When to use**: When you feel the scissoring pressure decrease as hooks transition between positions, indicating momentary structural weakness
-- **Targets**: [[Reverse X-Guard]]
+- **Targets**: [[Positions/X-Guard/Reverse X-Guard]]
 - **If successful**: You collapse the guard structure and force the bottom player back to a weaker Reverse X-Guard or flatten them for a pass
 - **Risk**: If the bottom player maintains strong grips, your forward drive can be redirected into a sweep using your own momentum
 
 ### 3. Strip the sleeve grip aggressively and establish cross-face control while hooks are in transition
 
 - **When to use**: When you notice the bottom player tightening their sleeve grip as a precursor to the transition, before hooks begin moving
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Without the sleeve grip, the bottom player cannot freeze your posture and you can freely disengage or initiate passing
 - **Risk**: Reaching to strip grips while entangled can compromise your base if the bottom player attacks with a sweep during your hand fighting
 
 ### 4. Step over the transitioning bottom hook before it establishes the new butterfly position under your thigh
 
 - **When to use**: When the secondary hook releases from the hip position and is in transit toward the butterfly hook configuration
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: You clear the bottom leg entirely and achieve a dominant passing position with the bottom player's guard completely broken
 - **Risk**: Stepping over requires momentary single-leg balance, and a well-timed elevation from the remaining hook can sweep you
 
@@ -229,11 +229,11 @@ Advanced defenders integrate this awareness into their overall X-Guard passing s
 
 ## Best-Case Outcomes for Defender
 
-### → [[Headquarters Position]]
+### → [[Positions/Headquarters Position]]
 
 Time your backstep or leg extraction to coincide with the hook exchange window. When the primary hook releases from behind your knee, immediately drive your hips back and step your leg free while maintaining upper body control. Transition directly to Headquarters by establishing knee-line control on the now-freed leg.
 
-### → [[Reverse X-Guard]]
+### → [[Positions/X-Guard/Reverse X-Guard]]
 
 Apply heavy forward pressure during the transition to collapse the bottom player's structure before they can complete the hook reconfiguration. Drive your hips toward their chest and flatten their elevation, forcing them back to Reverse X-Guard where they started. This denies them the angle change while you maintain your existing defensive framework.
 

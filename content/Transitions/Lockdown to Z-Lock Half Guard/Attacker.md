@@ -186,7 +186,7 @@ description: "Step-by-step guide to executing the Transition to Z-Lock Half Guar
 
 As the attacker executing the Transition to Z-Lock Half Guard, your objective is to convert a position of vulnerability - being trapped in lockdown - into one of dominance. The lockdown is designed to sweep, submit, or take your back. Every second you spend in it favors the bottom player. The Z-Lock transition provides a methodical answer: suppress upper body attacks through pressure, break the lockdown figure-four through precise knee movement, and immediately establish the Z-Lock configuration that shuts down all lockdown-based offense. The key insight is that this is not a strength move - it is a positional chess move that changes the rules of engagement entirely. Once your knee crosses their hip in the Z-shape, their entire 10th Planet lockdown game plan becomes irrelevant, and you gain access to systematic passing sequences from a position of control.
 
-**From Position**: [[Lockdown]] (Top)
+**From Position**: [[Positions/Half Guard/Lockdown]] (Top)
 
 </section>
 
@@ -240,9 +240,9 @@ As the attacker executing the Transition to Z-Lock Half Guard, your objective is
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Z-Lock Half Guard]] | 60% |
-| Failure | [[Lockdown]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard/Z-Lock Half Guard]] | 60% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the attacker executing the Transition to Z-Lock Half Guard, your objective is
 
 ## Opponent Counters
 
-- **Opponent re-establishes lockdown during knee transition by quickly re-crossing ankles** (Effectiveness: High) - Your Response: Reset to heavy upper body pressure and wait for next timing window. Attempting to force through a re-established lockdown wastes energy and opens sweep vulnerabilities. Focus on creating a better opportunity through pressure and grip fighting. → Leads to [[Lockdown]]
-- **Opponent hip escapes away during transition to recover knee shield or full guard** (Effectiveness: Medium) - Your Response: Follow their hip escape by driving forward with shoulder pressure and sliding your knee across their retreating hip. Their shrimping motion can actually assist your Z-Lock entry if you time the knee drive to follow their hip movement. Stay chest-to-chest to prevent space creation. → Leads to [[Lockdown]]
-- **Opponent times an underhook and comes up to dogfight during the transition window** (Effectiveness: High) - Your Response: If the opponent achieves underhook and starts coming up, abandon the Z-Lock attempt and address the immediate scramble threat. Establish a whizzer, drive crossface, or transition to front headlock if they overcommit to the underhook. The dogfight represents a counter outcome where you may end up in a disadvantageous half guard position. → Leads to [[Half Guard]]
-- **Opponent extends lockdown aggressively during knee circle to prevent break** (Effectiveness: Medium) - Your Response: When opponent locks down harder during your transition attempt, use their extension against them by driving your weight even lower and forward. Their extension creates a momentary structural weakness in the figure-four that can be exploited with increased rotational force on the knee circle. Alternatively, bait the extension by feinting the transition to tire their legs. → Leads to [[Lockdown]]
+- **Opponent re-establishes lockdown during knee transition by quickly re-crossing ankles** (Effectiveness: High) - Your Response: Reset to heavy upper body pressure and wait for next timing window. Attempting to force through a re-established lockdown wastes energy and opens sweep vulnerabilities. Focus on creating a better opportunity through pressure and grip fighting. → Leads to [[Positions/Half Guard/Lockdown]]
+- **Opponent hip escapes away during transition to recover knee shield or full guard** (Effectiveness: Medium) - Your Response: Follow their hip escape by driving forward with shoulder pressure and sliding your knee across their retreating hip. Their shrimping motion can actually assist your Z-Lock entry if you time the knee drive to follow their hip movement. Stay chest-to-chest to prevent space creation. → Leads to [[Positions/Half Guard/Lockdown]]
+- **Opponent times an underhook and comes up to dogfight during the transition window** (Effectiveness: High) - Your Response: If the opponent achieves underhook and starts coming up, abandon the Z-Lock attempt and address the immediate scramble threat. Establish a whizzer, drive crossface, or transition to front headlock if they overcommit to the underhook. The dogfight represents a counter outcome where you may end up in a disadvantageous half guard position. → Leads to [[Positions/Half Guard]]
+- **Opponent extends lockdown aggressively during knee circle to prevent break** (Effectiveness: Medium) - Your Response: When opponent locks down harder during your transition attempt, use their extension against them by driving your weight even lower and forward. Their extension creates a momentary structural weakness in the figure-four that can be exploited with increased rotational force on the knee circle. Alternatively, bait the extension by feinting the transition to tire their legs. → Leads to [[Positions/Half Guard/Lockdown]]
 
 
 </section>

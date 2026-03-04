@@ -93,23 +93,23 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 ### Available Transitions
 
 
-- **[[Granby Roll to Guard]]** (13% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (13% of attempts)
 
-- **[[Technical Stand-up]]** (11% of attempts)
+- **[[Transitions/Technical Stand-up]]** (11% of attempts)
 
-- **[[Hip Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Rolling Back Take]]** (11% of attempts)
+- **[[Transitions/Rolling Back Take]]** (11% of attempts)
 
-- **[[Arm Extraction to Turtle]]** (32% of attempts)
+- **[[Transitions/Arm Extraction to Turtle]]** (32% of attempts)
 
-- **[[Arm Recovery to Guard]]** (11% of attempts)
+- **[[Transitions/Arm Recovery to Guard]]** (11% of attempts)
 
-- **[[Hip Escape from Russian Cowboy]]** (5% of attempts)
+- **[[Transitions/Hip Escape from Russian Cowboy]]** (5% of attempts)
 
-- **[[Roll Escape from Russian Cowboy]]** (2% of attempts)
+- **[[Transitions/Roll Escape from Russian Cowboy]]** (2% of attempts)
 
-- **[[Escape from Russian Cowboy]]** (1% of attempts)
+- **[[Transitions/Escape from Russian Cowboy]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -166,25 +166,25 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 ### Available Transitions
 
 
-- **[[Truck Entry]]** (13% of attempts)
+- **[[Transitions/Truck Entry]]** (13% of attempts)
 
-- **[[Twister Finish]]** (10% of attempts)
+- **[[Transitions/Twister Finish]]** (10% of attempts)
 
-- **[[Back Control to Crucifix]]** (12% of attempts)
+- **[[Transitions/Back Control to Crucifix]]** (12% of attempts)
 
-- **[[Rear Naked Choke]]** (11% of attempts)
+- **[[Transitions/Rear Naked Choke]]** (11% of attempts)
 
-- **[[Calf Slicer]]** (10% of attempts)
+- **[[Transitions/Calf Slicer]]** (10% of attempts)
 
-- **[[Bow and Arrow Choke]]** (10% of attempts)
+- **[[Transitions/Bow and Arrow Choke]]** (10% of attempts)
 
-- **[[Turtle to Back Take]]** (16% of attempts)
+- **[[Transitions/Turtle to Back Take]]** (16% of attempts)
 
-- **[[Armbar from Back Transition]]** (11% of attempts)
+- **[[Transitions/Armbar from Back Transition]]** (11% of attempts)
 
-- **[[Russian Cowboy to Back Control]]** (5% of attempts)
+- **[[Transitions/Russian Cowboy to Back Control]]** (5% of attempts)
 
-- **[[Russian Cowboy RNC]]** (2% of attempts)
+- **[[Submissions/Russian Cowboy RNC]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -223,21 +223,21 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 ## Related Positions
 
 
-- **[[Truck]]** - Primary transition target for twister and calf slicer attacks
+- **[[Positions/Twister Control/Truck]]** - Primary transition target for twister and calf slicer attacks
 
-- **[[Back Control]]** - Traditional back control with both hooks - alternative control position
+- **[[Positions/Back Control]]** - Traditional back control with both hooks - alternative control position
 
-- **[[Twister Control]]** - Primary submission position accessible from Russian Cowboy
+- **[[Positions/Twister Control]]** - Primary submission position accessible from Russian Cowboy
 
-- **[[Crucifix]]** - Alternative controlling position when opponent defends truck entry
+- **[[Positions/Crucifix]]** - Alternative controlling position when opponent defends truck entry
 
-- **[[Turtle]]** - Common starting position for Russian Cowboy entry
+- **[[Positions/Turtle]]** - Common starting position for Russian Cowboy entry
 
-- **[[Crab Ride]]** - Similar back control variant with different hook configuration
+- **[[Positions/Crab Ride]]** - Similar back control variant with different hook configuration
 
-- **[[Gift Wrap]]** - Upper body control variation used in conjunction with Russian Cowboy
+- **[[Positions/Gift Wrap]]** - Upper body control variation used in conjunction with Russian Cowboy
 
-- **[[Harness]]** - Alternative upper body control system for back attacks
+- **[[Positions/Harness]]** - Alternative upper body control system for back attacks
 
 
 </section>

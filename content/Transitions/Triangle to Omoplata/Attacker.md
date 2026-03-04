@@ -180,7 +180,7 @@ description: "How to execute Triangle to Omoplata in BJJ. Attacking perspective 
 
 The Triangle to Omoplata transition exploits the opponent's defensive reactions to the triangle choke by converting their forward driving pressure into an omoplata shoulder lock opportunity. As the attacker, your objective is to recognize the precise moment when the opponent commits to their triangle defense and seamlessly redirect the trapped arm into a shoulder lock configuration. The transition demands precise timing—releasing the triangle too early allows escape while releasing too late means the opponent has already stabilized their defensive posture. Mastering this chain transforms your triangle into a multi-directional threat that becomes exponentially more dangerous as the opponent fatigues under sustained pressure, creating compounding defensive dilemmas where each escape attempt opens a new submission pathway.
 
-**From Position**: [[Triangle Control]] (Bottom)
+**From Position**: [[Positions/Triangle Control]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ The Triangle to Omoplata transition exploits the opponent's defensive reactions 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Omoplata Control]] | 55% |
-| Failure | [[Triangle Control]] | 25% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Omoplata Control]] | 55% |
+| Failure | [[Positions/Triangle Control]] | 25% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -245,10 +245,10 @@ The Triangle to Omoplata transition exploits the opponent's defensive reactions 
 
 ## Opponent Counters
 
-- **Opponent rolls forward to relieve shoulder pressure before omoplata is fully locked** (Effectiveness: High) - Your Response: Follow the roll while maintaining arm control and transition to back take by inserting hooks as they complete the rotation. Alternatively, maintain the omoplata grip through the roll and finish from the opposite side. The forward roll is an opportunity for positional advancement when anticipated correctly. → Leads to [[Open Guard]]
-- **Opponent pulls trapped arm free during the transition window between triangle and omoplata** (Effectiveness: Medium) - Your Response: Immediately return to closed guard or establish an open guard position such as spider guard or collar sleeve guard. Maintain active guard retention by establishing new grips and controlling distance. The arm extraction happens because wrist control was insufficient—address this in future attempts. → Leads to [[Open Guard]]
-- **Opponent drives weight backward and squares hips to prevent omoplata rotation** (Effectiveness: Medium) - Your Response: Use the backward pressure to reload the triangle by reconfiguring your legs around their neck, or switch to sweep mechanics by using the leg across their back to drive them forward. Their backward weight shift actually makes re-entering the triangle easier since their head drops back toward your hips. → Leads to [[Triangle Control]]
-- **Opponent grabs their own belt or clasps hands together to prevent arm isolation** (Effectiveness: Low) - Your Response: Use your free hand to strip the grip while maintaining hip pressure on the shoulder. Peel their fingers systematically rather than fighting the grip with strength. Alternatively, transition to the omoplata sweep by driving forward into them—the grip defense compromises their base and makes sweeping easier. → Leads to [[Omoplata Control]]
+- **Opponent rolls forward to relieve shoulder pressure before omoplata is fully locked** (Effectiveness: High) - Your Response: Follow the roll while maintaining arm control and transition to back take by inserting hooks as they complete the rotation. Alternatively, maintain the omoplata grip through the roll and finish from the opposite side. The forward roll is an opportunity for positional advancement when anticipated correctly. → Leads to [[Positions/Open Guard]]
+- **Opponent pulls trapped arm free during the transition window between triangle and omoplata** (Effectiveness: Medium) - Your Response: Immediately return to closed guard or establish an open guard position such as spider guard or collar sleeve guard. Maintain active guard retention by establishing new grips and controlling distance. The arm extraction happens because wrist control was insufficient—address this in future attempts. → Leads to [[Positions/Open Guard]]
+- **Opponent drives weight backward and squares hips to prevent omoplata rotation** (Effectiveness: Medium) - Your Response: Use the backward pressure to reload the triangle by reconfiguring your legs around their neck, or switch to sweep mechanics by using the leg across their back to drive them forward. Their backward weight shift actually makes re-entering the triangle easier since their head drops back toward your hips. → Leads to [[Positions/Triangle Control]]
+- **Opponent grabs their own belt or clasps hands together to prevent arm isolation** (Effectiveness: Low) - Your Response: Use your free hand to strip the grip while maintaining hip pressure on the shoulder. Peel their fingers systematically rather than fighting the grip with strength. Alternatively, transition to the omoplata sweep by driving forward into them—the grip defense compromises their base and makes sweeping easier. → Leads to [[Positions/Omoplata Control]]
 
 
 </section>

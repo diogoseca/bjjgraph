@@ -180,7 +180,7 @@ description: "Learn to execute the New York Control to Invisible Collar transiti
 
 Executing the New York Control to Invisible Collar transition requires precise coordination between hip movement, leg repositioning, and grip management. The attacker must maintain posture control throughout the transition while sliding the shin from across the opponent's shoulder to behind their neck. The key mechanical challenge is releasing the overhook at the correct moment without creating an escape window. Success depends on disguising the transition within an active submission threat sequence, using the opponent's defensive reactions to create the opening for shin repositioning. The attacker who masters this transition gains access to the full rubber guard positional cycling system, where each configuration flows into the next with continuous offensive pressure.
 
-**From Position**: [[New York Control]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/New York Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the New York Control to Invisible Collar transition requires precise c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Invisible Collar]] | 55% |
-| Failure | [[New York Control]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Invisible Collar]] | 55% |
+| Failure | [[Positions/Rubber Guard/New York Control]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the New York Control to Invisible Collar transition requires precise c
 
 ## Opponent Counters
 
-- **Opponent postures up aggressively during the shin repositioning window** (Effectiveness: High) - Your Response: If you feel the opponent beginning to posture, abort the transition and re-secure New York Control overhook. Alternatively, use their upward momentum to shoot the shin directly to the throat for an immediate gogoplata attempt rather than completing the invisible collar transition. → Leads to [[New York Control]]
-- **Opponent strips the leg off their shoulder before shin reaches behind the neck** (Effectiveness: High) - Your Response: Immediately retract the leg to closed guard position and re-establish rubber guard entry sequence through Mission Control. Do not attempt to force the leg back into position against active resistance, as this wastes energy and exposes you to passing. → Leads to [[Open Guard]]
-- **Opponent tucks chin and drives forward to prevent shin from settling behind neck** (Effectiveness: Medium) - Your Response: The chin tuck and forward drive actually assists the transition if you redirect appropriately. Use the forward pressure to pull the shin deeper behind the neck and over the chin tuck. Their forward momentum helps seat the invisible collar rather than preventing it. → Leads to [[New York Control]]
-- **Opponent frames on hip and creates distance during the grip change** (Effectiveness: Medium) - Your Response: Use your free hand to strip the framing arm while maintaining active leg control. If the frame successfully creates distance, transition to a butterfly hook or feet-on-hips configuration to prevent a complete guard pass, then work to re-enter rubber guard. → Leads to [[Open Guard]]
+- **Opponent postures up aggressively during the shin repositioning window** (Effectiveness: High) - Your Response: If you feel the opponent beginning to posture, abort the transition and re-secure New York Control overhook. Alternatively, use their upward momentum to shoot the shin directly to the throat for an immediate gogoplata attempt rather than completing the invisible collar transition. → Leads to [[Positions/Rubber Guard/New York Control]]
+- **Opponent strips the leg off their shoulder before shin reaches behind the neck** (Effectiveness: High) - Your Response: Immediately retract the leg to closed guard position and re-establish rubber guard entry sequence through Mission Control. Do not attempt to force the leg back into position against active resistance, as this wastes energy and exposes you to passing. → Leads to [[Positions/Open Guard]]
+- **Opponent tucks chin and drives forward to prevent shin from settling behind neck** (Effectiveness: Medium) - Your Response: The chin tuck and forward drive actually assists the transition if you redirect appropriately. Use the forward pressure to pull the shin deeper behind the neck and over the chin tuck. Their forward momentum helps seat the invisible collar rather than preventing it. → Leads to [[Positions/Rubber Guard/New York Control]]
+- **Opponent frames on hip and creates distance during the grip change** (Effectiveness: Medium) - Your Response: Use your free hand to strip the framing arm while maintaining active leg control. If the frame successfully creates distance, transition to a butterfly hook or feet-on-hips configuration to prevent a complete guard pass, then work to re-enter rubber guard. → Leads to [[Positions/Open Guard]]
 
 
 </section>

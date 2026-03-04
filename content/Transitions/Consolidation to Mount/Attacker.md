@@ -186,7 +186,7 @@ description: "Master the Consolidation to Mount transition from top side control
 
 Executing the Consolidation to Mount transition requires precise coordination between weight transfer, knee placement, and continuous pressure maintenance. The attacker must time the advancement to coincide with the opponent's defensive exhaustion, using the momentum built through sustained consolidation pressure to carry the transition past the critical vulnerability window. Success depends on maintaining at least one dominant control point throughout the movement, preventing the bottom player from inserting a knee during the brief moment when the top player's hips shift from perpendicular to straddling orientation. The transition rewards practitioners who invest in thorough consolidation before attempting advancement, as rushing from an unconsolidated position dramatically increases the probability of the opponent recovering half guard or creating scrambles.
 
-**From Position**: [[Side Control Consolidation]] (Top)
+**From Position**: [[Positions/Side Control/Side Control Consolidation]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Consolidation to Mount transition requires precise coordination be
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Side Control Consolidation]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Side Control/Side Control Consolidation]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Consolidation to Mount transition requires precise coordination be
 
 ## Opponent Counters
 
-- **Opponent inserts near-side knee during the slide to recover half guard** (Effectiveness: High) - Your Response: This is the highest-percentage counter. Prevent it by pinning the far arm before transitioning, which removes the frame that creates space for knee insertion. If the knee enters during the slide, immediately drive your knee down and back to strip their hook. If they establish half guard, do not force the mount completion. Instead, settle into half guard top and systematically re-pass. → Leads to [[Half Guard]]
-- **Opponent bridges explosively during the weight transfer phase when your base is shifting** (Effectiveness: High) - Your Response: Maintain the crossface anchor and ride the bridge by driving your hips forward rather than fighting the elevation. As the opponent descends from the bridge apex, immediately continue the knee slide while their hips are weakest. If the bridge is too powerful, abandon the transition and re-consolidate side control with heavy chest pressure. Attempting the mount from an unstable platform leads to scrambles. → Leads to [[Side Control Consolidation]]
-- **Opponent creates far-side frame with elbow against your hip to block the knee path** (Effectiveness: Medium) - Your Response: This frame should have been eliminated during setup. If it appears mid-transition, collapse it by driving your chest weight onto the framing arm while continuing the knee slide. Alternatively, switch to the leg swing method which bypasses the hip frame entirely by stepping over from the head side. The framing arm can also be attacked with americana or kimura if it extends during the frame attempt. → Leads to [[Side Control Consolidation]]
-- **Opponent turns away from you during the transition, exposing their back but blocking the mount entry** (Effectiveness: Low) - Your Response: This is actually favorable for the attacker. The turning motion exposes the back for hook insertion and back take. Immediately follow their turn by inserting your near-side hook and establishing seat belt control. Alternatively, complete the mount by stepping over their turning body and establishing technical mount. An opponent who turns away during mount transition has given you a higher-value position than mount. → Leads to [[Mount]]
+- **Opponent inserts near-side knee during the slide to recover half guard** (Effectiveness: High) - Your Response: This is the highest-percentage counter. Prevent it by pinning the far arm before transitioning, which removes the frame that creates space for knee insertion. If the knee enters during the slide, immediately drive your knee down and back to strip their hook. If they establish half guard, do not force the mount completion. Instead, settle into half guard top and systematically re-pass. → Leads to [[Positions/Half Guard]]
+- **Opponent bridges explosively during the weight transfer phase when your base is shifting** (Effectiveness: High) - Your Response: Maintain the crossface anchor and ride the bridge by driving your hips forward rather than fighting the elevation. As the opponent descends from the bridge apex, immediately continue the knee slide while their hips are weakest. If the bridge is too powerful, abandon the transition and re-consolidate side control with heavy chest pressure. Attempting the mount from an unstable platform leads to scrambles. → Leads to [[Positions/Side Control/Side Control Consolidation]]
+- **Opponent creates far-side frame with elbow against your hip to block the knee path** (Effectiveness: Medium) - Your Response: This frame should have been eliminated during setup. If it appears mid-transition, collapse it by driving your chest weight onto the framing arm while continuing the knee slide. Alternatively, switch to the leg swing method which bypasses the hip frame entirely by stepping over from the head side. The framing arm can also be attacked with americana or kimura if it extends during the frame attempt. → Leads to [[Positions/Side Control/Side Control Consolidation]]
+- **Opponent turns away from you during the transition, exposing their back but blocking the mount entry** (Effectiveness: Low) - Your Response: This is actually favorable for the attacker. The turning motion exposes the back for hook insertion and back take. Immediately follow their turn by inserting your near-side hook and establishing seat belt control. Alternatively, complete the mount by stepping over their turning body and establishing technical mount. An opponent who turns away during mount transition has given you a higher-value position than mount. → Leads to [[Positions/Mount]]
 
 
 </section>

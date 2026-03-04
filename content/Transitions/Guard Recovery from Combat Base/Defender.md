@@ -146,7 +146,7 @@ description: "Prevent guard recovery from combat base as the top player in BJJ. 
 
 As the top player in combat base, your opponent's guard recovery attempt represents a critical moment where your passing position is contested. Your objective is to prevent the bottom player from reestablishing closed guard by maintaining heavy pressure through your combat base structure, eliminating their frames before they generate hip escape distance, and advancing your position when they create movement that exposes passing lanes. Understanding the bottom player's recovery mechanics allows you to anticipate and shut down each phase of their sequence—frame creation, hip escape, shin insertion, and leg reattachment—converting their defensive movement into opportunities for you to advance your passing position rather than resetting the engagement.
 
-**Opponent's Starting Position**: [[Combat Base]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Combat Base]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the top player in combat base, your opponent's guard recovery attempt represe
 ### 1. Drive heavy crossface pressure while pinning near hip with hand to collapse bottom player's frames and flatten their structure
 
 - **When to use**: When bottom player establishes initial frame but has not yet begun hip escape movement
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Bottom player's frames collapse and they return to flat position under combat base with diminished framing options
 - **Risk**: Overcommitting forward can be redirected past centerline if bottom player uses good frame angles
 
 ### 2. Advance knee through shin frame gap and slide into half guard passing position with crossface control
 
 - **When to use**: When bottom player has created angle with hip escape and is attempting shin frame insertion
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You advance past one leg into half guard top with knee slice or crossface control, converting their recovery attempt into a passing opportunity
 - **Risk**: If bottom player establishes strong knee shield before your knee fully advances, they achieve stable half guard defense
 
 ### 3. Strip bottom player's sleeve grip and establish your own collar or pant control before they complete the recovery sequence
 
 - **When to use**: When bottom player reaches for secondary grip on your sleeve or bicep during early recovery phase
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Bottom player loses the upper body control needed to execute effective frames and hip escapes, resetting the engagement in your favor
 - **Risk**: Releasing your own grips to strip theirs may create a brief moment where neither player has dominant grip control
 
 ### 4. Stand up from combat base to disengage bottom player's leg reattachment and reset from standing position
 
 - **When to use**: When bottom player's far leg is circling behind your back and guard closure appears imminent
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: You create vertical distance that prevents guard closure and can resettle into combat base or initiate standing passes with new angles
 - **Risk**: Standing creates space that bottom player can use for alternative guard compositions like butterfly or De La Riva
 
@@ -217,11 +217,11 @@ As the top player in combat base, your opponent's guard recovery attempt represe
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your knee advancement during the bottom player's hip escape when they create angle—slide your knee through the gap between their shin frame and their far leg before they can close guard, establishing half guard top position with crossface control
 
-### → [[Combat Base]]
+### → [[Positions/Combat Base]]
 
 Maintain constant heavy pressure through crossface and hip control, eliminating frames as they appear by swimming past them and keeping your posted knee tight to their hip to prevent any meaningful hip escape distance
 

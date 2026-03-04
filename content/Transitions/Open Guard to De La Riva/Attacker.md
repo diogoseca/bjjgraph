@@ -186,7 +186,7 @@ description: "Learn the Open Guard to De La Riva transition as the bottom player
 
 As the bottom player transitioning from open guard to De La Riva, your objective is to thread the DLR hook around your opponent's lead leg while establishing complementary grips that create a complete control system. The transition requires reading your opponent's weight distribution and timing the hook entry when their lead leg bears weight, making extraction difficult. Success depends on coordinating the ankle grip, hook threading, and cross grip establishment into one fluid sequence that upgrades your guard before the top player can react with backstep or pressure counters. The speed and precision of this entry directly determines how much time you have to attack before they begin dismantling your guard structure.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the bottom player transitioning from open guard to De La Riva, your objective
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[De La Riva Guard]] | 55% |
-| Failure | [[Open Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/De La Riva Guard]] | 55% |
+| Failure | [[Positions/Open Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the bottom player transitioning from open guard to De La Riva, your objective
 
 ## Opponent Counters
 
-- **Backstep to clear the DLR hook by stepping the hooked leg backward and around** (Effectiveness: High) - Your Response: Follow their retreating leg with your hook while maintaining ankle grip. If they complete the backstep past your leg line, immediately transition to Reverse De La Riva by inverting your hook to the inside of their stepping leg. → Leads to [[Open Guard]]
-- **Strip the ankle grip using a two-on-one break to remove the hook anchor** (Effectiveness: High) - Your Response: Re-grip immediately on the pants or switch to a belt grip. If unable to re-grip before they create distance, retract the hook and reset to open guard rather than holding a gripless DLR that has no control. → Leads to [[Open Guard]]
-- **Drive forward with heavy smash pressure to flatten hips and collapse the guard structure** (Effectiveness: Medium) - Your Response: Frame with your non-hooking foot on their hip to maintain distance. If they collapse the space despite your frame, use their forward momentum to enter berimbolo or inversion rather than fighting the pressure directly. → Leads to [[Half Guard]]
-- **Circle away from the hook side to create lateral distance and deny the hooking angle** (Effectiveness: Medium) - Your Response: Follow their circular movement with hip adjustment to maintain the perpendicular hooking angle. If they create too much distance, transition to feet-on-hips guard and attempt re-entry once they advance again. → Leads to [[Open Guard]]
+- **Backstep to clear the DLR hook by stepping the hooked leg backward and around** (Effectiveness: High) - Your Response: Follow their retreating leg with your hook while maintaining ankle grip. If they complete the backstep past your leg line, immediately transition to Reverse De La Riva by inverting your hook to the inside of their stepping leg. → Leads to [[Positions/Open Guard]]
+- **Strip the ankle grip using a two-on-one break to remove the hook anchor** (Effectiveness: High) - Your Response: Re-grip immediately on the pants or switch to a belt grip. If unable to re-grip before they create distance, retract the hook and reset to open guard rather than holding a gripless DLR that has no control. → Leads to [[Positions/Open Guard]]
+- **Drive forward with heavy smash pressure to flatten hips and collapse the guard structure** (Effectiveness: Medium) - Your Response: Frame with your non-hooking foot on their hip to maintain distance. If they collapse the space despite your frame, use their forward momentum to enter berimbolo or inversion rather than fighting the pressure directly. → Leads to [[Positions/Half Guard]]
+- **Circle away from the hook side to create lateral distance and deny the hooking angle** (Effectiveness: Medium) - Your Response: Follow their circular movement with hip adjustment to maintain the perpendicular hooking angle. If they create too much distance, transition to feet-on-hips guard and attempt re-entry once they advance again. → Leads to [[Positions/Open Guard]]
 
 
 </section>

@@ -21,7 +21,7 @@ Strategically, the snap down serves as the primary gateway to the front headlock
 
 The technique integrates seamlessly into standing grip fighting exchanges. When an opponent reaches forward aggressively, establishes a collar tie, or drives their head position forward, the snap down punishes that forward commitment. This creates a strategic dilemma where the opponent must choose between maintaining aggressive grip fighting posture and exposing themselves to the snap down, or staying conservative and ceding the initiative in the grip battle entirely.
 
-**From Position**: [[Standing Position]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique integrates seamlessly into standing grip fighting exchanges. When 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Front Headlock]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -196,29 +196,29 @@ The snap down from standing functions as the primary bridge between the standing
 ## Related Techniques
 
 
-- [[Front Headlock]] - Primary target position established after a successful snap down
+- [[Positions/Front Headlock]] - Primary target position established after a successful snap down
 
-- [[Standing Position]] - Starting position where the snap down is initiated during grip fighting exchanges
+- [[Positions/Standing Position]] - Starting position where the snap down is initiated during grip fighting exchanges
 
-- [[Snap Down to Front Headlock]] - Closely related transition covering the same standing-to-front-headlock pathway
+- [[Transitions/Snap Down to Front Headlock]] - Closely related transition covering the same standing-to-front-headlock pathway
 
-- [[Arm Drag from Standing]] - Alternative standing offensive technique that chains well when snap down is defended
+- [[Transitions/Arm Drag from Standing]] - Alternative standing offensive technique that chains well when snap down is defended
 
-- [[Ankle Pick]] - Complementary low-line attack that creates a high-low dilemma with the snap down
+- [[Transitions/Ankle Pick]] - Complementary low-line attack that creates a high-low dilemma with the snap down
 
-- [[Single Leg Entry]] - Alternative takedown entry that can follow a failed snap down attempt
+- [[Transitions/Single Leg Entry]] - Alternative takedown entry that can follow a failed snap down attempt
 
-- [[Anaconda Setup]] - Primary follow-up attack from the front headlock position after successful snap down
+- [[Transitions/Anaconda Setup]] - Primary follow-up attack from the front headlock position after successful snap down
 
-- [[Turtle]] - Related defensive position where the opponent may land after being snapped down
+- [[Positions/Turtle]] - Related defensive position where the opponent may land after being snapped down
 
-- [[Clinch]] - Standing control position where snap down opportunities frequently arise during tie-ups
+- [[Positions/Clinch]] - Standing control position where snap down opportunities frequently arise during tie-ups
 
-- [[Back Control]] - High-value target position accessible through the front headlock chain after snap down
+- [[Positions/Back Control]] - High-value target position accessible through the front headlock chain after snap down
 
-- [[Open Guard]] - Counter outcome position when opponent sits to guard to avoid the snap down
+- [[Positions/Open Guard]] - Counter outcome position when opponent sits to guard to avoid the snap down
 
-- [[Body Lock Takedown]] - Alternative standing takedown technique from similar grip fighting range
+- [[Transitions/Body Lock Takedown]] - Alternative standing takedown technique from similar grip fighting range
 
 
 </section>

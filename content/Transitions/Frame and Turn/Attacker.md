@@ -178,7 +178,7 @@ The fundamental challenge when escaping Twister Control is that your spine is ro
 
 Strategically, Frame and Turn works best when executed early in the Twister Control sequence, before the opponent has fully established their leg control and maximized spinal rotation. The technique creates a systematic pathway out of an otherwise extremely dangerous position, buying time to prevent submission while working toward positional recovery. Success requires patience, composure under significant discomfort, and precise understanding of when to frame, when to turn, and when to commit to the escape movement.
 
-**From Position**: [[Twister Control]] (Bottom)
+**From Position**: [[Positions/Twister Control]] (Bottom)
 
 </section>
 
@@ -229,10 +229,10 @@ Strategically, Frame and Turn works best when executed early in the Twister Cont
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 45% |
-| Success | [[Half Guard]] | 20% |
-| Failure | [[Twister Control]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Turtle]] | 45% |
+| Success | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/Twister Control]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ Strategically, Frame and Turn works best when executed early in the Twister Cont
 
 ## Opponent Counters
 
-- **Opponent increases rotational pressure and locks submission grip as you attempt to turn** (Effectiveness: High) - Your Response: Abort the turn immediately and return to defensive frames. Tap if submission is locked - safety takes priority over positional pride. Wait for opponent to adjust before reattempting. → Leads to [[Twister Control]]
-- **Opponent recaptures leg control when you attempt extraction** (Effectiveness: Medium) - Your Response: Continue frame maintenance and work smaller incremental movements. Use your free leg to create leverage against their hook and wait for better extraction opportunity. → Leads to [[Twister Control]]
-- **Opponent transitions to guillotine or front headlock as you turn into them** (Effectiveness: Medium) - Your Response: Keep chin tucked and hand position defensive throughout turn. If guillotine is attempted, continue the turn to pass their hips rather than stopping in the danger zone. → Leads to [[Twister Control]]
-- **Opponent follows your turn and takes back control** (Effectiveness: Medium) - Your Response: This is acceptable if you have reduced spinal rotation. Back control without rotation is significantly more escapable than Twister Control. Continue with standard back escape sequences. → Leads to [[Back Control]]
+- **Opponent increases rotational pressure and locks submission grip as you attempt to turn** (Effectiveness: High) - Your Response: Abort the turn immediately and return to defensive frames. Tap if submission is locked - safety takes priority over positional pride. Wait for opponent to adjust before reattempting. → Leads to [[Positions/Twister Control]]
+- **Opponent recaptures leg control when you attempt extraction** (Effectiveness: Medium) - Your Response: Continue frame maintenance and work smaller incremental movements. Use your free leg to create leverage against their hook and wait for better extraction opportunity. → Leads to [[Positions/Twister Control]]
+- **Opponent transitions to guillotine or front headlock as you turn into them** (Effectiveness: Medium) - Your Response: Keep chin tucked and hand position defensive throughout turn. If guillotine is attempted, continue the turn to pass their hips rather than stopping in the danger zone. → Leads to [[Positions/Twister Control]]
+- **Opponent follows your turn and takes back control** (Effectiveness: Medium) - Your Response: This is acceptable if you have reduced spinal rotation. Back control without rotation is significantly more escapable than Twister Control. Continue with standard back escape sequences. → Leads to [[Positions/Back Control]]
 
 
 </section>

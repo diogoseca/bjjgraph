@@ -148,7 +148,7 @@ Defending the Crossface Pass requires understanding the specific sequence the pa
 
 The defender's primary objective is to prevent the passer from achieving the flattened, controlled position that makes leg extraction possible. This means winning the underhook battle before the crossface is established, maintaining frames that prevent shoulder pressure from driving you flat, and keeping your hips mobile and angled rather than pinned to the mat. If the crossface is established, the defender must shift to damage control: protecting the far arm from being controlled while working systematically to recover knee shield, create distance, or transition to a more favorable half guard variation like deep half or lockdown that changes the positional dynamic.
 
-**Opponent's Starting Position**: [[Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -186,28 +186,28 @@ The defender's primary objective is to prevent the passer from achieving the fla
 ### 1. Establish deep underhook on trapped leg side before crossface locks in and immediately create angle by turning into the passer
 
 - **When to use**: Before or during the initial crossface establishment phase when the passer's forearm has not yet settled across your jaw
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You retain half guard with dominant underhook position, creating sweep and back take opportunities while neutralizing the crossface pass entirely
 - **Risk**: If your underhook is shallow or the passer applies a strong whizzer, they may still drive the crossface through and you lose your arm positioning
 
 ### 2. Insert knee shield across passer's hip or chest to create distance and block forward pressure before they flatten you
 
 - **When to use**: When you feel the passer beginning to drive shoulder pressure but before they have fully flattened you and controlled your far arm
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to knee shield half guard which provides strong distance management and prevents the crossface from being effective, forcing the passer to change strategies
 - **Risk**: If the passer is already too close with heavy pressure, the knee insertion fails and you waste energy fighting against established weight
 
 ### 3. Transition to lockdown by capturing passer's trapped leg in a figure-four grip to prevent extraction and threaten sweeps
 
 - **When to use**: When the crossface is established and you cannot recover underhook or knee shield, but you still have leg mobility to lock down their trapped leg
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You prevent leg extraction entirely and create electric chair sweep threats that force the passer to abandon the crossface pass and address the lockdown
 - **Risk**: The lockdown commits you to a specific defensive structure that limits your hip mobility and can lead to being flattened if the passer maintains heavy top pressure
 
 ### 4. Frame on passer's face and bicep with near arm while hip escaping away to create distance for guard recovery
 
 - **When to use**: When crossface pressure is being applied but far arm is still free and you have space to generate hip escape movement
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough distance to recover full guard or re-establish knee shield, forcing the passer to restart their passing sequence
 - **Risk**: Extended arm frames can be stripped or swum through by the passer, and the frame temporarily weakens your elbow-to-knee connection
 
@@ -219,11 +219,11 @@ The defender's primary objective is to prevent the passer from achieving the fla
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Win the underhook battle before the crossface establishes by fighting for inside position immediately when you feel the passer attempt to drive their forearm across. Turn into the passer to create angle, secure deep underhook, and use the underhook to prevent flattening. Alternatively, establish lockdown on the trapped leg to prevent extraction and create sweep threats that force the passer to abandon the crossface pass attempt.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Execute a sweep from the defensive position by timing your hip movement with the passer's weight shift during extraction attempts. When the passer commits to stepping back for the extraction angle, they momentarily lighten their base. Use this window to insert knee shield and create distance, or drive into them with underhook to off-balance them. Successfully recovering knee shield half guard effectively resets the exchange in your favor and is considered a positional win for the defender.
 

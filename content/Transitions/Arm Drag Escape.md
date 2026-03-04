@@ -21,7 +21,7 @@ The technique exploits a fundamental vulnerability in front headlock control: th
 
 Strategically, the arm drag escape is most effective when your opponent commits their weight forward into head control rather than sprawling back. This forward commitment gives you the leverage needed to redirect their arm. The technique pairs naturally with other front headlock escapes—if you threaten the arm drag, your opponent must adjust their arm position, which can open pathways for technical standup or granby roll escapes. This makes it an essential component of a complete front headlock defense system.
 
-**From Position**: [[Front Headlock]] (Bottom)
+**From Position**: [[Positions/Front Headlock]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, the arm drag escape is most effective when your opponent commits 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Success | [[Turtle]] | 10% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Success | [[Positions/Turtle]] | 10% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -194,25 +194,25 @@ The Arm Drag Escape occupies a critical role within the front headlock defensive
 ## Related Techniques
 
 
-- [[Front Headlock]] - Starting position - the control position you are escaping from
+- [[Positions/Front Headlock]] - Starting position - the control position you are escaping from
 
-- [[Open Guard]] - Primary recovery position - where successful escape leads
+- [[Positions/Open Guard]] - Primary recovery position - where successful escape leads
 
-- [[Arm Drag]] - Related technique - shares the same two-on-one grip mechanics and arm redirection principles
+- [[Transitions/Arm Drag]] - Related technique - shares the same two-on-one grip mechanics and arm redirection principles
 
-- [[Arm Drag to Back]] - Offensive variant - uses the same arm drag to take back instead of recovering guard
+- [[Transitions/Arm Drag to Back]] - Offensive variant - uses the same arm drag to take back instead of recovering guard
 
-- [[Granby Roll to Guard]] - Alternative escape - used when opponent overcommits to one side
+- [[Transitions/Granby Roll to Guard]] - Alternative escape - used when opponent overcommits to one side
 
-- [[Guillotine Defense]] - Defensive prerequisite - must understand guillotine defense in case arm drag exposes neck
+- [[Transitions/Guillotine Defense]] - Defensive prerequisite - must understand guillotine defense in case arm drag exposes neck
 
-- [[Turtle]] - Related defensive position - arm drag escape often initiates from turtle-like posture
+- [[Positions/Turtle]] - Related defensive position - arm drag escape often initiates from turtle-like posture
 
-- [[Back Control]] - Counter risk - opponent may take back if arm drag is poorly executed
+- [[Positions/Back Control]] - Counter risk - opponent may take back if arm drag is poorly executed
 
-- [[Arm Drag Sweep]] - Related technique - arm drag mechanics applied offensively from guard
+- [[Transitions/Arm Drag Sweep]] - Related technique - arm drag mechanics applied offensively from guard
 
-- [[Guillotine Choke]] - Primary submission threat during failed arm drag attempts when neck is exposed
+- [[Transitions/Guillotine Choke]] - Primary submission threat during failed arm drag attempts when neck is exposed
 
 
 </section>

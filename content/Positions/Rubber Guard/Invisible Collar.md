@@ -93,17 +93,17 @@ The invisible collar serves multiple strategic functions within back attack syst
 ### Available Transitions
 
 
-- **[[Hand Fighting to Remove Collar Grip]]** (22% of attempts)
+- **[[Transitions/Hand Fighting to Remove Collar Grip]]** (22% of attempts)
 
-- **[[Hip Escape to Guard]]** (18% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (18% of attempts)
 
-- **[[Elbow Escape to Remove Hooks]]** (20% of attempts)
+- **[[Transitions/Elbow Escape to Remove Hooks]]** (20% of attempts)
 
-- **[[Rolling Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Rolling Escape to Guard]]** (13% of attempts)
 
-- **[[Standing Escape]]** (11% of attempts)
+- **[[Transitions/Standing Escape]]** (11% of attempts)
 
-- **[[Granby Roll to Guard]]** (16% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (16% of attempts)
 
 
 ### Common Mistakes
@@ -160,21 +160,21 @@ The invisible collar serves multiple strategic functions within back attack syst
 ### Available Transitions
 
 
-- **[[Cross Collar Choke Finish]]** (14% of attempts)
+- **[[Transitions/Cross Collar Choke Finish]]** (14% of attempts)
 
-- **[[Rear Naked Choke]]** (14% of attempts)
+- **[[Transitions/Rear Naked Choke]]** (14% of attempts)
 
-- **[[Armbar from Back Transition]]** (12% of attempts)
+- **[[Transitions/Armbar from Back Transition]]** (12% of attempts)
 
-- **[[Aoki Lock to Crucifix]]** (11% of attempts)
+- **[[Transitions/Aoki Lock to Crucifix]]** (11% of attempts)
 
-- **[[Bow and Arrow Choke]]** (11% of attempts)
+- **[[Transitions/Bow and Arrow Choke]]** (11% of attempts)
 
-- **[[Clock Choke]]** (10% of attempts)
+- **[[Transitions/Clock Choke]]** (10% of attempts)
 
-- **[[Back Control Maintenance]]** (15% of attempts)
+- **[[Transitions/Back Control Maintenance]]** (15% of attempts)
 
-- **[[Body Triangle Lock]]** (13% of attempts)
+- **[[Transitions/Body Triangle Lock]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -209,21 +209,21 @@ The invisible collar serves multiple strategic functions within back attack syst
 ## Related Positions
 
 
-- **[[Back Control]]** - Primary position from which invisible collar is established
+- **[[Positions/Back Control]]** - Primary position from which invisible collar is established
 
-- **[[Seat Belt Control Back]]** - Fundamental grip structure before collar transition
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Fundamental grip structure before collar transition
 
-- **[[Body Triangle]]** - Enhanced lower body control often combined with invisible collar
+- **[[Positions/Back Control/Body Triangle]]** - Enhanced lower body control often combined with invisible collar
 
-- **[[Crucifix]]** - Common transition target when opponent turns into collar
+- **[[Positions/Crucifix]]** - Common transition target when opponent turns into collar
 
-- **[[Mounted Triangle]]** - Alternative attack when transitioning from back control
+- **[[Positions/Mount/Mounted Triangle]]** - Alternative attack when transitioning from back control
 
-- **[[High Mount]]** - Position reached when opponent escapes back but remains controlled
+- **[[Positions/Mount/High Mount]]** - Position reached when opponent escapes back but remains controlled
 
-- **[[Turtle]]** - Defensive position opponent may adopt during escape attempts
+- **[[Positions/Turtle]]** - Defensive position opponent may adopt during escape attempts
 
-- **[[Standing Back Control]]** - Variation where invisible collar can be applied while standing
+- **[[Positions/Back Control/Standing Back Control]]** - Variation where invisible collar can be applied while standing
 
 
 </section>

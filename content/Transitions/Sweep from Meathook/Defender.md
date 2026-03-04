@@ -146,7 +146,7 @@ description: "Defend the Sweep from Meathook in BJJ. Learn base recovery, weight
 
 Defending the Sweep from Meathook requires the top player to recognize sweep initiation early and execute base recovery before the directional force overwhelms their compromised structure. The fundamental challenge is that the arm isolation inherent in Meathook removes the primary posting tool that normally prevents sweeps, leaving the defender reliant on their free arm, hip mobility, and timing. Understanding that the sweep targets the trapped arm side allows defenders to preemptively adjust their weight distribution away from the vulnerable direction. However, the defender faces an impossible dilemma: adjusting weight away from the sweep opens submission angles, while maintaining forward pressure to prevent submissions creates the base patterns the sweep exploits. Navigating this dilemma requires reading the bottom player's intentions and choosing between base-focused defense and posture-focused escape.
 
-**Opponent's Starting Position**: [[Meathook]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Sweep from Meathook requires the top player to recognize sweep ini
 ### 1. Widen base with free arm post toward the trapped arm side to create a tripod structure resisting directional force
 
 - **When to use**: Immediately upon feeling any hip elevation or increased pull toward the trapped arm side. This is the primary reflex defense.
-- **Targets**: [[Meathook]]
+- **Targets**: [[Positions/Rubber Guard/Meathook]]
 - **If successful**: Sweep is nullified as the wide post prevents toppling. You remain in Meathook top and can resume working on arm extraction and posture recovery.
 - **Risk**: Wide arm post opens your neck for gogoplata and creates space for triangle entry. The bottom player may abandon the sweep and immediately attack the submission angle your defense created.
 
 ### 2. Explosive posture recovery by driving upward through spine alignment to break the shin hook and collar grip simultaneously
 
 - **When to use**: Before the sweep loads fully, ideally when you first recognize the bottom player beginning to create angle with their hip escape. Requires significant energy commitment.
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Break free from Meathook entirely, recovering to open guard engagement where you can reset your passing game. Eliminates both sweep and submission threats.
 - **Risk**: Failed posture recovery wastes significant energy and may accelerate the sweep as your upward movement creates momentum the bottom player can redirect.
 
 ### 3. Drive forward with stacking pressure to flatten the bottom player's hips against the mat, preventing bridge elevation
 
 - **When to use**: During the initial hip elevation phase before directional force is applied. Most effective against lighter opponents or those with limited hip flexibility.
-- **Targets**: [[Meathook]]
+- **Targets**: [[Positions/Rubber Guard/Meathook]]
 - **If successful**: Bottom player's hips are flattened, eliminating the bridge that powers the sweep. Their Meathook control may also weaken as their hip angle changes.
 - **Risk**: Forward driving pressure feeds directly into gogoplata setup. The bottom player may redirect the shin from your tricep to your throat as your head drives forward.
 
 ### 4. Hip switch with knee insertion to break the Meathook configuration and begin guard passing
 
 - **When to use**: When the bottom player commits their hips to the sweep angle, temporarily loosening the hook pressure during their directional shift.
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Break the Meathook entirely and establish a passing position. The bottom player's commitment to the sweep opens the gap needed for knee insertion.
 - **Risk**: Incomplete hip switch exposes your back and may allow the bottom player to take back control rather than completing the sweep.
 
@@ -217,11 +217,11 @@ Defending the Sweep from Meathook requires the top player to recognize sweep ini
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Time an explosive posture recovery to the moment when the bottom player commits their hips to the sweep angle. Their commitment temporarily loosens the shin hook as they redirect force from control to sweeping. Use this window to break posture free, strip the collar grip, and disengage to open guard distance where you can reset your passing game entirely.
 
-### → [[Meathook]]
+### → [[Positions/Rubber Guard/Meathook]]
 
 Post your free arm wide immediately upon feeling hip elevation, driving your weight toward the non-trapped arm side to counterbalance the sweep force. Maintain this widened base while continuing to work on arm extraction. The failed sweep attempt often fatigues the bottom player's hip flexors and may create opportunities for arm extraction that were not available before.
 

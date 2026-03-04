@@ -21,7 +21,7 @@ The technique requires committing to the cartwheel motion with conviction, as he
 
 Strategically, the Cartwheel Pass functions best as a surprise element within your passing game. Its athletic nature means it cannot be spammed repeatedly without significant energy expenditure. The optimal timing occurs when the guard player has committed deeply to their inversion, creating space beside their body for your hand placement. Attempting the pass when they are actively adjusting or have legs extended toward you significantly reduces success probability and increases counter risk.
 
-**From Position**: [[Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Grasshopper Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Cartwheel Pass functions best as a surprise element within yo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Grasshopper Guard]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -185,23 +185,23 @@ The Cartwheel Pass occupies a specialized niche in the guard passing hierarchy, 
 ## Related Techniques
 
 
-- [[Grasshopper Guard]] - Starting position - the inverted guard this pass is designed to defeat
+- [[Positions/Grasshopper Guard]] - Starting position - the inverted guard this pass is designed to defeat
 
-- [[Side Control]] - Primary destination after successful pass completion
+- [[Positions/Side Control]] - Primary destination after successful pass completion
 
-- [[Back Step Pass]] - Alternative passing option when cartwheel is defended or legs intercept
+- [[Transitions/Back Step Pass]] - Alternative passing option when cartwheel is defended or legs intercept
 
-- [[Leg Drag Pass]] - Complementary pass that creates openings when cartwheel is threatened
+- [[Transitions/Leg Drag Pass]] - Complementary pass that creates openings when cartwheel is threatened
 
-- [[Inverted Guard]] - Parent guard category that cartwheel pass addresses
+- [[Positions/Inverted Guard]] - Parent guard category that cartwheel pass addresses
 
-- [[Bullfighter Pass]] - Ground-based alternative for passing inverted guards with leg control
+- [[Transitions/Bullfighter Pass]] - Ground-based alternative for passing inverted guards with leg control
 
-- [[North-South]] - Alternative landing position when opponent rotates during pass
+- [[Positions/North-South]] - Alternative landing position when opponent rotates during pass
 
-- [[Front Headlock]] - Conversion option when opponent technical stands during landing
+- [[Positions/Front Headlock]] - Conversion option when opponent technical stands during landing
 
-- [[Closed Guard]] - Counter outcome position when opponent catches legs during cartwheel
+- [[Positions/Closed Guard]] - Counter outcome position when opponent catches legs during cartwheel
 
 
 </section>

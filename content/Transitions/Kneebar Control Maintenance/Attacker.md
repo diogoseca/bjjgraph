@@ -180,7 +180,7 @@ description: "Complete guide to maintaining top kneebar control in BJJ. Covers g
 
 As the attacker maintaining kneebar control from top, your objective is to preserve the positional configuration that enables either a high-percentage finish or intelligent transition to alternative attacks. This is not a passive holding position - it requires continuous micro-adjustments to grip, hip angle, and weight distribution as the opponent cycles through escape patterns. The fundamental challenge is preventing the opponent from creating enough rotational freedom or linear distance to extract their knee from danger while simultaneously maintaining the base needed to survive their explosive escape attempts. Your grip endurance, proprioceptive awareness of hip-to-knee proximity, and ability to read the opponent's escape direction determine whether you retain the position or lose it.
 
-**From Position**: [[Kneebar Control]] (Top)
+**From Position**: [[Positions/Kneebar Control]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker maintaining kneebar control from top, your objective is to prese
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kneebar Control]] | 70% |
-| Failure | [[Half Guard]] | 20% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Kneebar Control]] | 70% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker maintaining kneebar control from top, your objective is to prese
 
 ## Opponent Counters
 
-- **Opponent forcefully rotates hips to extract knee from the pressure angle, turning their body perpendicular to your control** (Effectiveness: High) - Your Response: Follow their rotation by adjusting your hip angle to match their movement. If they rotate away, consider transitioning to saddle entry. If they rotate toward you, tighten the near-side leg hook and drive weight forward to suppress the turn. → Leads to [[Half Guard]]
-- **Opponent explosively bridges while simultaneously pulling their leg toward their body using both hands** (Effectiveness: Medium) - Your Response: Widen your base immediately by posting with your free hand and spreading your knees. Ride the bridge by staying heavy and low rather than fighting it. Once the bridge subsides, immediately re-consolidate grip and hip position before they can chain another escape attempt. → Leads to [[Kneebar Control]]
-- **Opponent uses their free leg to push against your hip, creating linear distance to slide their trapped knee out of the control zone** (Effectiveness: High) - Your Response: Pin their pushing leg with your base-side arm or trap it under your knee. If distance is created, follow forward with your hips rather than reaching with your arms. If they create too much distance, transition to passing their recovering guard rather than chasing a deteriorating kneebar. → Leads to [[Open Guard]]
-- **Opponent straightens the trapped leg completely and uses flexibility to point the toes, eliminating the bend needed for hyperextension** (Effectiveness: Medium) - Your Response: Redirect attack from kneebar extension to straight ankle lock or toe hold by adjusting grip position from knee area to foot and ankle. Their straight leg actually makes ankle attacks more accessible while their knee defense removes the kneebar threat. → Leads to [[Kneebar Control]]
+- **Opponent forcefully rotates hips to extract knee from the pressure angle, turning their body perpendicular to your control** (Effectiveness: High) - Your Response: Follow their rotation by adjusting your hip angle to match their movement. If they rotate away, consider transitioning to saddle entry. If they rotate toward you, tighten the near-side leg hook and drive weight forward to suppress the turn. → Leads to [[Positions/Half Guard]]
+- **Opponent explosively bridges while simultaneously pulling their leg toward their body using both hands** (Effectiveness: Medium) - Your Response: Widen your base immediately by posting with your free hand and spreading your knees. Ride the bridge by staying heavy and low rather than fighting it. Once the bridge subsides, immediately re-consolidate grip and hip position before they can chain another escape attempt. → Leads to [[Positions/Kneebar Control]]
+- **Opponent uses their free leg to push against your hip, creating linear distance to slide their trapped knee out of the control zone** (Effectiveness: High) - Your Response: Pin their pushing leg with your base-side arm or trap it under your knee. If distance is created, follow forward with your hips rather than reaching with your arms. If they create too much distance, transition to passing their recovering guard rather than chasing a deteriorating kneebar. → Leads to [[Positions/Open Guard]]
+- **Opponent straightens the trapped leg completely and uses flexibility to point the toes, eliminating the bend needed for hyperextension** (Effectiveness: Medium) - Your Response: Redirect attack from kneebar extension to straight ankle lock or toe hold by adjusting grip position from knee area to foot and ankle. Their straight leg actually makes ankle attacks more accessible while their knee defense removes the kneebar threat. → Leads to [[Positions/Kneebar Control]]
 
 
 </section>

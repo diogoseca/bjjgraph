@@ -21,7 +21,7 @@ The technique is particularly valuable because it works against forward pressure
 
 Mastery of the Granby to Closed Guard provides practitioners with a reliable escape route from dangerous positions, reducing the effectiveness of common pinning attacks and creating opportunities to return to offensive guard play. The technique requires good body awareness, hip mobility, and timing, but once developed becomes an instinctive defensive reaction that can save matches.
 
-**From Position**: [[Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Mastery of the Granby to Closed Guard provides practitioners with a reliable esc
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 65% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 65% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -190,25 +190,25 @@ The Granby to Closed Guard serves as a critical defensive recovery technique tha
 ## Related Techniques
 
 
-- [[Granby Roll to Guard]] - Foundation technique providing core Granby roll movement mechanics
+- [[Transitions/Granby Roll to Guard]] - Foundation technique providing core Granby roll movement mechanics
 
-- [[Turtle]] - Primary starting position for this technique
+- [[Positions/Turtle]] - Primary starting position for this technique
 
-- [[Closed Guard]] - Target position upon successful completion
+- [[Positions/Closed Guard]] - Target position upon successful completion
 
-- [[Back Control]] - Position opponent achieves if Granby roll is countered
+- [[Positions/Back Control]] - Position opponent achieves if Granby roll is countered
 
-- [[Butterfly Guard]] - Alternative guard recovery option when closed guard closure is prevented
+- [[Positions/Butterfly Guard]] - Alternative guard recovery option when closed guard closure is prevented
 
-- [[Half Guard]] - Fallback guard position if full closed guard cannot be established
+- [[Positions/Half Guard]] - Fallback guard position if full closed guard cannot be established
 
-- [[Bridge and Roll]] - Alternative rotation-based escape from bottom positions
+- [[Transitions/Bridge and Roll]] - Alternative rotation-based escape from bottom positions
 
-- [[Elbow Escape to Guard]] - Complementary escape using linear hip movement for similar recovery goals
+- [[Transitions/Elbow Escape to Guard]] - Complementary escape using linear hip movement for similar recovery goals
 
-- [[Peterson Roll]] - Related rolling escape from turtle using different rotational mechanics
+- [[Transitions/Peterson Roll]] - Related rolling escape from turtle using different rotational mechanics
 
-- [[Rolling to Guard]] - Related rolling-based guard recovery technique from turtle
+- [[Transitions/Rolling to Guard]] - Related rolling-based guard recovery technique from turtle
 
 
 </section>

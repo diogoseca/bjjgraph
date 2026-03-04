@@ -216,19 +216,19 @@ Energy management in escape attempts requires strategic consideration. Explosive
 
 ## Available Attacks
 
-### [[Arm Extraction]] (28% of attempts)
+### [[Transitions/Arm Extraction]] (28% of attempts)
 
-### [[Posture Recovery]] (17% of attempts)
+### [[Transitions/Posture Recovery]] (17% of attempts)
 
-### [[Stack Defense]] (17% of attempts)
+### [[Transitions/Stack Defense]] (17% of attempts)
 
-### [[Sprawl]] (12% of attempts)
+### [[Transitions/Sprawl]] (12% of attempts)
 
-### [[Guard Opening Sequence]] (17% of attempts)
+### [[Transitions/Guard Opening Sequence]] (17% of attempts)
 
-### [[Posture Recovery from Meathook]] (6% of attempts)
+### [[Transitions/Posture Recovery from Meathook]] (6% of attempts)
 
-### [[Stack Pass from Meathook]] (3% of attempts)
+### [[Transitions/Stack Pass from Meathook]] (3% of attempts)
 
 
 
@@ -239,23 +239,23 @@ Energy management in escape attempts requires strategic consideration. Explosive
 ## Decision Making from This Position
 
 **If trapped in Meathook with tight shin hook and active grip control:**
-- Execute **[[Arm Extraction]]** → [[Closed Guard]] (Probability: 45%)
-- Execute **[[Base Widening]]** → [[Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Base Widening]]** → [[Positions/Closed Guard]] (Probability: 35%)
 
 
 **If bottom player shifts hips toward gogoplata setup:**
-- Execute **[[Stack Defense]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Sprawl]]** → [[Turtle]] (Probability: 35%)
+- Execute **[[Transitions/Stack Defense]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Sprawl]]** → [[Positions/Turtle]] (Probability: 35%)
 
 
 **If arm extraction succeeds and hook pressure releases:**
-- Execute **[[Posture Recovery]]** → [[Closed Guard]] (Probability: 60%)
-- Execute **[[Guard Opening Sequence]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Transitions/Guard Opening Sequence]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If bottom player transitions to triangle or omoplata setup:**
-- Execute **[[Posture Recovery]]** → [[Closed Guard]] (Probability: 40%)
-- Execute **[[Arm Extraction]]** → [[Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 35%)
 
 
 
@@ -394,14 +394,14 @@ Start with arm already extracted but posture still broken in closed guard. Pract
 
 ## Related Positions and Techniques
 
-- **[[Closed Guard]]** - Most common position after successful Meathook escape
-- **[[Mission Control]]** - Related Rubber Guard control that often precedes Meathook
-- **[[Gogoplata Control]]** - Primary submission threat when trapped in Meathook
-- **[[Triangle Control]]** - Common finish when top player attempts upward arm extraction
-- **[[Omoplata Control]]** - High-probability submission when top player rotates trapped arm
-- **[[Armbar Control]]** - Submission threat requiring awareness during escape
-- **[[Half Guard]]** - Possible escape destination when using stack defense
-- **[[Turtle]]** - Emergency escape position via sprawl when gogoplata is imminent
+- **[[Positions/Closed Guard]]** - Most common position after successful Meathook escape
+- **[[Positions/Rubber Guard/Mission Control]]** - Related Rubber Guard control that often precedes Meathook
+- **[[Positions/Gogoplata Control]]** - Primary submission threat when trapped in Meathook
+- **[[Positions/Triangle Control]]** - Common finish when top player attempts upward arm extraction
+- **[[Positions/Omoplata Control]]** - High-probability submission when top player rotates trapped arm
+- **[[Positions/Armbar Control]]** - Submission threat requiring awareness during escape
+- **[[Positions/Half Guard]]** - Possible escape destination when using stack defense
+- **[[Positions/Turtle]]** - Emergency escape position via sprawl when gogoplata is imminent
 
 
 </section>

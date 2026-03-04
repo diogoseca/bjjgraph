@@ -156,7 +156,7 @@ As the top player in leg drag control, your opponent's half guard recovery repre
 
 The key to shutting down half guard recovery lies in understanding its timing dependencies. The bottom player needs your movement to create recovery space, so applying patient, heavy pressure while controlling their frames denies them the windows they need. When you do transition, you must do so decisively and with awareness of the recovery attempt, ready to drive your weight back down or change angles to prevent knee shield insertion. Every recovery attempt the bottom player makes should be met with a positional improvement on your end - their movement becomes your opportunity to advance rather than a defensive crisis to manage.
 
-**Opponent's Starting Position**: [[Leg Drag Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ The key to shutting down half guard recovery lies in understanding its timing de
 ### 1. Drive chest pressure into bottom player's near hip and sprawl to flatten their recovery attempt, pinning their knee before the shield can establish
 
 - **When to use**: When you feel the bottom player loading their hips or beginning the shrimp motion toward you, indicating imminent knee shield insertion
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: Bottom player's recovery is stuffed and you maintain full leg drag control with their energy spent on the failed attempt
 - **Risk**: If your sprawl is too aggressive, your base may shift enough for them to create an unexpected angle for deep half entry
 
 ### 2. Backstep around the recovery attempt, using their hip movement to take the back by circling behind their turning body
 
 - **When to use**: When the bottom player commits to turning toward you for the recovery and creates back exposure during their hip escape motion
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You bypass the recovery entirely and achieve back control or side control from the opposite angle, a significant positional upgrade
 - **Risk**: If the backstep is too slow or the bottom player recognizes it, they can turn into you and establish butterfly hooks or closed guard
 
 ### 3. Strip the far-side arm frame by controlling their wrist or elbow, then drive crossface pressure to prevent the hip escape that powers the recovery
 
 - **When to use**: When you observe the bottom player posting their far-side hand on your shoulder, which is the first step of their frame-building sequence
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: Without the upper body frame, the bottom player cannot generate the hip escape needed for knee insertion, and their recovery is structurally impossible
 - **Risk**: Reaching to strip the frame momentarily reduces your base and hip pressure, potentially creating a brief window for the bottom player to shrimp
 
 ### 4. Immediately advance to side control consolidation by driving your near knee across their hip line and establishing crossface, converting their movement into your pass completion
 
 - **When to use**: When the bottom player's recovery attempt partially succeeds but their knee shield is not yet fully established or their underhook is not secured
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You complete the pass to side control before the recovery can establish, turning their partial recovery into a worse position than the original leg drag
 - **Risk**: If their knee shield is further along than you assessed, you may drive directly into an established frame and lose your passing angle
 
@@ -225,11 +225,11 @@ The key to shutting down half guard recovery lies in understanding its timing de
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Drag Control]]
+### → [[Positions/Leg Drag Control]]
 
 Maintain relentless hip pressure and systematically strip the bottom player's frames before they can build the structure needed for recovery. Control their far-side arm, drive shoulder into their near hip, and keep their dragged leg pinned. When they attempt the recovery, immediately sprawl and drive weight down to stuff the knee insertion.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Use the bottom player's recovery movement against them by advancing your position during their hip escape. As they shrimp and create space, follow their movement with your hips and slide your knee across their hip line to establish side control. Their committed recovery motion often creates the exact opening you need to complete the pass.
 

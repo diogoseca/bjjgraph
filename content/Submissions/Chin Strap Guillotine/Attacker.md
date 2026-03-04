@@ -182,7 +182,7 @@ description: "How to execute Chin Strap Guillotine in BJJ. Attacking perspective
 
 The Chin Strap Guillotine is a sophisticated variation of the traditional guillotine choke that involves wrapping the arm around the opponent's head from a front headlock position, with the choking arm passing under the chin and connecting to the bicep of the opposite arm. Unlike the standard guillotine where you secure a guillotine grip, the chin strap variation creates a unique angle of attack by cupping the opponent's chin and pulling it toward your chest while simultaneously driving your shoulder into their neck. This technique is particularly effective when the opponent has good posture defense against traditional guillotines or when they're attempting to pass your guard with their head positioned to one side. The chin strap creates tremendous pressure on both the carotid arteries and the windpipe, making it a high-percentage finishing option from various front headlock scenarios. The submission works exceptionally well in no-gi situations where collar grips are unavailable, and it can be applied from standing positions, turtle attacks, or guard pull situations where you've secured front headlock control.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 
 
 </section>
@@ -239,8 +239,8 @@ The Chin Strap Guillotine is a sophisticated variation of the traditional guillo
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Front Headlock]] | 27% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Front Headlock]] | 27% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -249,11 +249,11 @@ The Chin Strap Guillotine is a sophisticated variation of the traditional guillo
 
 ## Opponent Defenses
 
-- **Opponent creates a frame with their arms and pushes against your chest to create space** (Effectiveness: Medium) - Your Response: Pin their near arm with your non-choking hand or trap it with your body weight. If they establish a frame, use your body weight to collapse it by driving forward and down. Transition to a different angle if necessary. → Leads to [[Front Headlock]]
-- **Opponent tucks their chin tightly to prevent you from threading under it** (Effectiveness: High) - Your Response: Use your non-choking hand to create space by pushing their forehead back or peeling their chin up. Alternatively, transition to a traditional guillotine or darce choke if the chin strap angle is blocked. Be patient and wait for them to move before attempting to thread. → Leads to [[Front Headlock]]
-- **Opponent attempts to turn toward you and roll through to escape the front headlock** (Effectiveness: Medium) - Your Response: Maintain heavy hip pressure and sprawl your legs back to prevent the roll. If they commit to turning in, follow them and maintain the chin strap configuration as you transition to a mounted or side position. Use your legs to hook and control their hips during the roll. → Leads to [[Closed Guard]]
-- **Opponent stands up and lifts you off the ground (if starting from guard)** (Effectiveness: Low) - Your Response: Maintain the chin strap grip and use your legs to pull them back down. If they succeed in standing, immediately transition your leg positioning to maintain control - wrap one leg around their leg or establish a body triangle. The choke remains effective even if they're standing. → Leads to [[Front Headlock]]
-- **Opponent grabs your choking arm and tries to strip the grip before you secure it** (Effectiveness: High) - Your Response: Establish the grip quickly and hide your choking hand deep under their chin where they can't reach it. Use your body weight and shoulder pressure to pin their defending arm. If they're too defensive, fake the chin strap and transition to other front headlock attacks like darce or anaconda. → Leads to [[Front Headlock]]
+- **Opponent creates a frame with their arms and pushes against your chest to create space** (Effectiveness: Medium) - Your Response: Pin their near arm with your non-choking hand or trap it with your body weight. If they establish a frame, use your body weight to collapse it by driving forward and down. Transition to a different angle if necessary. → Leads to [[Positions/Front Headlock]]
+- **Opponent tucks their chin tightly to prevent you from threading under it** (Effectiveness: High) - Your Response: Use your non-choking hand to create space by pushing their forehead back or peeling their chin up. Alternatively, transition to a traditional guillotine or darce choke if the chin strap angle is blocked. Be patient and wait for them to move before attempting to thread. → Leads to [[Positions/Front Headlock]]
+- **Opponent attempts to turn toward you and roll through to escape the front headlock** (Effectiveness: Medium) - Your Response: Maintain heavy hip pressure and sprawl your legs back to prevent the roll. If they commit to turning in, follow them and maintain the chin strap configuration as you transition to a mounted or side position. Use your legs to hook and control their hips during the roll. → Leads to [[Positions/Closed Guard]]
+- **Opponent stands up and lifts you off the ground (if starting from guard)** (Effectiveness: Low) - Your Response: Maintain the chin strap grip and use your legs to pull them back down. If they succeed in standing, immediately transition your leg positioning to maintain control - wrap one leg around their leg or establish a body triangle. The choke remains effective even if they're standing. → Leads to [[Positions/Front Headlock]]
+- **Opponent grabs your choking arm and tries to strip the grip before you secure it** (Effectiveness: High) - Your Response: Establish the grip quickly and hide your choking hand deep under their chin where they can't reach it. Use your body weight and shoulder pressure to pin their defending arm. If they're too defensive, fake the chin strap and transition to other front headlock attacks like darce or anaconda. → Leads to [[Positions/Front Headlock]]
 
 
 </section>

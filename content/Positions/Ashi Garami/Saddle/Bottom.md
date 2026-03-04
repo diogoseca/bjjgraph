@@ -210,29 +210,29 @@ Understanding common submission mechanics from Saddle is essential for defensive
 
 ## Available Escapes
 
-### [[Ashi Garami Escape]] (56% of attempts)
+### [[Transitions/Ashi Garami Escape]] (56% of attempts)
 
-### [[Standing up in Base]] (1% of attempts)
+### [[Transitions/Standing up in Base]] (1% of attempts)
 
-### [[Guard Recovery from Leg Entanglement]] (7% of attempts)
+### [[Transitions/Guard Recovery from Leg Entanglement]] (7% of attempts)
 
-### [[Frame and Shrimp to Guard]] (8% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (8% of attempts)
 
-### [[Counter-entangle to 50-50 Guard]] (10% of attempts)
+### [[Transitions/Counter-entangle to 50-50 Guard]] (10% of attempts)
 
-### [[Inversion Escape]] (11% of attempts)
+### [[Transitions/Inversion Escape]] (11% of attempts)
 
-### [[Leg Extraction to Guard]] (6% of attempts)
+### [[Transitions/Leg Extraction to Guard]] (6% of attempts)
 
-### [[Boot Scoot Escape from Saddle]] (0% of attempts)
+### [[Transitions/Boot Scoot Escape from Saddle]] (0% of attempts)
 
-### [[Fight to Inside Ashi from Saddle]] (0% of attempts)
+### [[Transitions/Fight to Inside Ashi from Saddle]] (0% of attempts)
 
-### [[Forward Roll from Saddle]] (0% of attempts)
+### [[Transitions/Forward Roll from Saddle]] (0% of attempts)
 
-### [[Leg Pummeling from Saddle]] (0% of attempts)
+### [[Transitions/Leg Pummeling from Saddle]] (0% of attempts)
 
-### [[Sweep from Saddle]] (1% of attempts)
+### [[Transitions/Sweep from Saddle]] (1% of attempts)
 
 
 
@@ -243,25 +243,25 @@ Understanding common submission mechanics from Saddle is essential for defensive
 ## Decision Making from This Position
 
 **Opponent has established heel control with figure-four grip but hasn't yet extended the heel:**
-- Execute **[[Hide the heel by rotating knee inward]]** → [[Saddle]] (Probability: 40%)
-- Execute **[[Attack opponent's grips systematically]]** → [[Inside Ashi-Garami]] (Probability: 35%)
-- Execute **[[Tap if rotation begins]]** → [[Game Over]] (Probability: 25%)
+- Execute **[[Hide the heel by rotating knee inward]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 40%)
+- Execute **[[Attack opponent's grips systematically]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 35%)
+- Execute **[[Tap if rotation begins]]** → [[Positions/Game Over]] (Probability: 25%)
 
 
 **Opponent is actively extending the heel with rotation:**
-- Execute **[[Tap immediately to prevent injury]]** → [[Game Over]] (Probability: 90%)
-- Execute **[[Emergency hip clear with frame]]** → [[Outside Ashi-Garami]] (Probability: 10%)
+- Execute **[[Tap immediately to prevent injury]]** → [[Positions/Game Over]] (Probability: 90%)
+- Execute **[[Emergency hip clear with frame]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 10%)
 
 
 **Opponent has loose control with space between your bodies:**
-- Execute **[[Ashi Garami Escape]]** → [[Open Guard]] (Probability: 55%)
-- Execute **[[Standing up in Base]]** → [[Standing Position]] (Probability: 45%)
+- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 45%)
 
 
 **You have created frame with free leg on opponent's hip:**
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Leg extraction to butterfly]]** → [[Butterfly Guard]] (Probability: 40%)
-- Execute **[[Standing up in Base]]** → [[Standing Position]] (Probability: 10%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Leg extraction to butterfly]]** → [[Positions/Butterfly Guard]] (Probability: 40%)
+- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 10%)
 
 
 
@@ -390,12 +390,12 @@ Partner alternates between heel hook and ankle lock threats. Practice transition
 
 ## Related Positions and Techniques
 
-- **[[Inside Ashi-Garami]]** - Common fallback position when saddle escape is partially successful
-- **[[Outside Ashi-Garami]]** - Intermediate position during escape sequence
-- **[[Ashi Garami Escape]]** - Primary defensive transition technique
-- **[[Heel Hook]]** - Primary submission threat requiring defense
-- **[[Straight Ankle Lock]]** - Secondary submission threat when heel is hidden
-- **[[Leg Entanglement]]** - Conceptual framework for understanding position hierarchy
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Common fallback position when saddle escape is partially successful
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Intermediate position during escape sequence
+- **[[Transitions/Ashi Garami Escape]]** - Primary defensive transition technique
+- **[[Transitions/Heel Hook]]** - Primary submission threat requiring defense
+- **[[Submissions/Straight Ankle Lock]]** - Secondary submission threat when heel is hidden
+- **[[Positions/Leg Entanglement]]** - Conceptual framework for understanding position hierarchy
 
 
 </section>

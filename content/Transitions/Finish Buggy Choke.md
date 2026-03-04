@@ -21,7 +21,7 @@ The finishing mechanics distinguish this technique from the positional control p
 
 Strategically, committing to the finish requires reading opponent defensive reactions. Static opponents who focus purely on grip fighting without movement create ideal finishing opportunities. However, opponents who move aggressively toward back escapes or sitting to guard may offer better positional advancement opportunities than forcing a contested choke. The finish should be executed with progressive pressure rather than explosive yanking, maximizing technical efficiency while minimizing energy expenditure and reducing injury risk to training partners.
 
-**From Position**: [[Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -33,8 +33,8 @@ Strategically, committing to the finish requires reading opponent defensive reac
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Buggy Choke]] | 30% |
-| Counter | [[Half Guard]] | 12% |
+| Failure | [[Positions/Buggy Choke]] | 30% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>
@@ -191,25 +191,25 @@ Finish Buggy Choke represents the terminal attack option from the buggy choke co
 ## Related Techniques
 
 
-- [[Buggy Choke]] - Starting control position and submission entry
+- [[Positions/Buggy Choke]] - Starting control position and submission entry
 
-- [[Turtle]] - Opponent's position where attack initiates
+- [[Positions/Turtle]] - Opponent's position where attack initiates
 
-- [[Back Control]] - Alternative transition when opponent sits to guard
+- [[Positions/Back Control]] - Alternative transition when opponent sits to guard
 
-- [[Crucifix]] - Alternative attack when opponent extends arm for base
+- [[Positions/Crucifix]] - Alternative attack when opponent extends arm for base
 
-- [[Truck]] - Transition option when opponent granby rolls
+- [[Positions/Twister Control/Truck]] - Transition option when opponent granby rolls
 
-- [[Darce Choke]] - Alternative choke when opponent turns into attack
+- [[Transitions/Darce Choke]] - Alternative choke when opponent turns into attack
 
-- [[Anaconda Choke]] - Related front headlock submission option
+- [[Transitions/Anaconda Choke]] - Related front headlock submission option
 
-- [[Clock Choke]] - Related turtle collar choke with similar mechanics
+- [[Transitions/Clock Choke]] - Related turtle collar choke with similar mechanics
 
-- [[Front Headlock]] - Related control position for turtle attacks
+- [[Positions/Front Headlock]] - Related control position for turtle attacks
 
-- [[Half Guard]] - Counter outcome position when opponent escapes to guard
+- [[Positions/Half Guard]] - Counter outcome position when opponent escapes to guard
 
 
 </section>

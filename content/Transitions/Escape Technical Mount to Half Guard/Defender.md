@@ -154,7 +154,7 @@ description: "Defend against the Technical Mount to Half Guard escape in BJJ. Le
 
 As the top player in Technical Mount facing an escape attempt to half guard, your objective is to maintain the dominant position while capitalizing on the escape attempt with submissions or positional upgrades. The bottom player's escape relies on coordinated hip escape timing and knee insertion, both of which create brief vulnerabilities you can exploit. Your defensive strategy combines heavy pressure maintenance to deny escape windows with immediate offensive transitions when you recognize escape initiation. Understanding the escape mechanics allows you to anticipate the bottom player's movements and position yourself to either shut down the escape entirely or convert their defensive movement into an offensive opportunity for armbar, back take, or position re-consolidation.
 
-**Opponent's Starting Position**: [[Technical Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount/Technical Mount]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the top player in Technical Mount facing an escape attempt to half guard, you
 ### 1. Drive heavy crossface and hip pressure to re-flatten the bottom player and eliminate escape space
 
 - **When to use**: At the earliest recognition of bridge or hip escape initiation, before significant lateral movement occurs
-- **Targets**: [[Technical Mount]]
+- **Targets**: [[Positions/Mount/Technical Mount]]
 - **If successful**: Bottom player is flattened back to starting position with escape attempt neutralized and energy expended
 - **Risk**: Committing weight forward to re-flatten may briefly lighten hip pressure, potentially accelerating the escape if timing is off
 
 ### 2. Immediately accelerate armbar attack by swinging leg over and sitting back as the bottom player's hip escape creates the ideal finishing angle
 
 - **When to use**: When the bottom player initiates the escape and momentarily compromises arm protection during the hip escape movement
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: Convert the escape attempt directly into an armbar finish, capitalizing on the brief arm exposure during transition
 - **Risk**: If the arm is properly protected, the armbar attempt may fail and the resulting position change could assist their escape
 
 ### 3. Follow the bottom player's rotation and transition to back control by establishing seat belt grip and inserting hooks
 
 - **When to use**: When the bottom player successfully creates lateral distance and begins turning to their side during the hip escape
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Upgrade from technical mount to back control, trading one dominant position for another with fresh submission opportunities
 - **Risk**: If the bottom player establishes half guard hooks before you secure back control, you end up in a guard passing scenario
 
 ### 4. Re-consolidate to standard mount by driving the posted leg back and re-establishing symmetric mount position
 
 - **When to use**: When the escape attempt partially succeeds but knee insertion is incomplete, allowing you to clear the knee and resettle
-- **Targets**: [[Technical Mount]]
+- **Targets**: [[Positions/Mount/Technical Mount]]
 - **If successful**: Return to mount position with the option to reset technical mount or work from standard mount control
 - **Risk**: Transitioning back to mount may give the bottom player enough time to fully insert their knee and establish half guard
 
@@ -225,15 +225,15 @@ As the top player in Technical Mount facing an escape attempt to half guard, you
 
 ## Best-Case Outcomes for Defender
 
-### → [[Technical Mount]]
+### → [[Positions/Mount/Technical Mount]]
 
 Maintain heavy settled pressure with strong arm control, deny space through hip-to-shoulder connection, and immediately re-flatten any bridging or hip escape attempts before they generate meaningful lateral distance
 
-### → [[Armbar Control]]
+### → [[Positions/Armbar Control]]
 
 Recognize the escape initiation and immediately accelerate the armbar attack, using the bottom player's hip escape movement to create the ideal armbar finishing angle. Their lateral movement often exposes the arm they are trying to protect if the timing is right
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Allow the partial escape and follow the bottom player's rotation rather than fighting it. Release arm control, establish seat belt grip, and insert hooks as they turn to their side. Convert their escape momentum into your positional advancement
 

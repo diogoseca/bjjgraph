@@ -213,27 +213,27 @@ The psychological component cannot be overlooked. Modified Scarf Hold creates in
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (12% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (12% of attempts)
 
-### [[Bridge and Roll]] (9% of attempts)
+### [[Transitions/Bridge and Roll]] (9% of attempts)
 
-### [[Roll to Turtle]] (45% of attempts)
+### [[Transitions/Roll to Turtle]] (45% of attempts)
 
-### [[Frame and Shrimp to Guard]] (11% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (11% of attempts)
 
-### [[Arm Extraction]] (13% of attempts)
+### [[Transitions/Arm Extraction]] (13% of attempts)
 
-### [[Ghost Escape]] (7% of attempts)
+### [[Transitions/Ghost Escape]] (7% of attempts)
 
-### [[Explosive Bridge to Guard Recovery]] (2% of attempts)
+### [[Transitions/Explosive Bridge to Guard Recovery]] (2% of attempts)
 
-### [[Side Control Escape]] (0% of attempts)
+### [[Transitions/Side Control Escape]] (0% of attempts)
 
-### [[Bridge Escape from Modified Scarf Hold]] (0% of attempts)
+### [[Transitions/Bridge Escape from Modified Scarf Hold]] (0% of attempts)
 
-### [[Bridge from Modified Scarf Hold]] (0% of attempts)
+### [[Transitions/Bridge from Modified Scarf Hold]] (0% of attempts)
 
-### [[Escape Modified Scarf Hold]] (1% of attempts)
+### [[Transitions/Escape Modified Scarf Hold]] (1% of attempts)
 
 
 
@@ -244,18 +244,18 @@ The psychological component cannot be overlooked. Modified Scarf Hold creates in
 ## Decision Making from This Position
 
 **If opponent maintains heavy chest pressure but near arm is not fully controlled:**
-- Execute **[[Arm Extraction]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 35%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
 
 
 **If opponent rises to transition to mount or hunt submissions:**
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Bridge and Roll]]** → [[Closed Guard]] (Probability: 30%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 30%)
 
 
 **If pressure becomes unbearable and breathing is severely restricted:**
-- Execute **[[Roll to Turtle]]** → [[Turtle]] (Probability: 60%)
-- Execute **[[Ghost Escape]]** → [[Standing Position]] (Probability: 25%)
+- Execute **[[Transitions/Roll to Turtle]]** → [[Positions/Turtle]] (Probability: 60%)
+- Execute **[[Transitions/Ghost Escape]]** → [[Positions/Standing Position]] (Probability: 25%)
 
 
 
@@ -377,13 +377,13 @@ Partner starts in Modified Scarf Hold, you attempt specific escape technique, pa
 
 ## Related Positions and Techniques
 
-- **[[Side Control]]** - Parent position family
-- **[[Kesa Gatame]]** - Traditional scarf hold variant
-- **[[Turtle]]** - Common escape destination
-- **[[Half Guard]]** - Primary guard recovery target
-- **[[Elbow Escape to Guard]]** - Primary escape technique
-- **[[Frame and Shrimp to Guard]]** - Fundamental escape movement
-- **[[Bridge and Roll]]** - Secondary escape technique
+- **[[Positions/Side Control]]** - Parent position family
+- **[[Positions/Side Control/Kesa Gatame]]** - Traditional scarf hold variant
+- **[[Positions/Turtle]]** - Common escape destination
+- **[[Positions/Half Guard]]** - Primary guard recovery target
+- **[[Transitions/Elbow Escape to Guard]]** - Primary escape technique
+- **[[Transitions/Frame and Shrimp to Guard]]** - Fundamental escape movement
+- **[[Transitions/Bridge and Roll]]** - Secondary escape technique
 
 
 </section>

@@ -154,7 +154,7 @@ description: "Learn to defend the Stack Pass from Double Unders in BJJ. Recognit
 
 Defending the Stack Pass from Double Unders requires immediate recognition and decisive action before the stacking compression becomes irreversible. As the defender, you face progressive folding of your body that eliminates hip mobility and compresses your spine, making escape exponentially harder with each second of delay. Your survival depends on establishing frames early, maintaining a side angle to preserve escape pathways, and using the attacker's forward commitment against them through well-timed reversals or guard transitions. The window for effective defense closes rapidly once your hips rise above your shoulders, making early recognition and proactive frame creation the critical difference between successful escape and being passed to side control.
 
-**Opponent's Starting Position**: [[Double Unders]] (Top)
+**Opponent's Starting Position**: [[Positions/Double Unders]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the Stack Pass from Double Unders requires immediate recognition and d
 ### 1. Establish hip frames and extend legs explosively to break the stacking pressure before full compression develops
 
 - **When to use**: Early in the stacking progression when your hips are still near the mat and you have sufficient space to insert your hands against their hips
-- **Targets**: [[Double Unders]]
+- **Targets**: [[Positions/Double Unders]]
 - **If successful**: Prevents the stack from completing and returns to standard double unders position where other escape options remain available
 - **Risk**: If the frame fails, you have expended energy and lost time that could have been used for deep half entry or granby roll escape
 
 ### 2. Dive to deep half guard by threading under the opponent's near leg as they drive forward, using their stacking momentum as entry energy
 
 - **When to use**: When the opponent commits weight forward during mid-stack progression and you can feel their hips beginning to drive over your centerline
-- **Targets**: [[Double Unders]]
+- **Targets**: [[Positions/Double Unders]]
 - **If successful**: Escapes the stack completely and establishes deep half guard position with sweep opportunities and better defensive structure
 - **Risk**: Failed deep half entry leaves you partially under them without guard structure, accelerating the pass completion
 
 ### 3. Execute a granby roll toward the opponent's passing direction, using their forward stacking momentum to rotate over your shoulder to turtle or guard recovery
 
 - **When to use**: When the stack is deep enough that hip frames are no longer viable but the opponent's weight is committed far forward creating rotational opportunity
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Reverses the position entirely by converting the opponent's stacking pressure into a sweep, ending with you on top in open guard
 - **Risk**: Mistimed granby can result in the opponent taking your back as you expose it during the rotation attempt
 
 ### 4. Bridge explosively and turn to one side during the stacking progression to create an angle that prevents complete compression
 
 - **When to use**: When the opponent is walking knees forward but has not yet achieved full stack compression, and you still have bridging power available
-- **Targets**: [[Double Unders]]
+- **Targets**: [[Positions/Double Unders]]
 - **If successful**: Breaks the symmetrical stacking pressure and creates an angle that prevents complete compression, maintaining escape options
 - **Risk**: Turning exposes one side to accelerated passing if the opponent follows your turn and converts to a lateral pass
 
@@ -226,11 +226,11 @@ Defending the Stack Pass from Double Unders requires immediate recognition and d
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Execute a well-timed granby roll when the opponent commits weight far forward during the stacking attempt, converting their downward momentum into a rotational sweep that reverses position entirely
 
-### → [[Double Unders]]
+### → [[Positions/Double Unders]]
 
 Establish hip frames early in the stacking progression and prevent complete compression, maintaining the ability to work deep half entries, butterfly hook recovery, or other escapes from the double unders bottom position
 

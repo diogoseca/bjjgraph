@@ -146,7 +146,7 @@ description: "Defend against the Escape from Rodeo Ride in BJJ. Learn to recogni
 
 As the rider in Rodeo Ride, your objective when the bottom practitioner attempts to escape is to either maintain your controlling position or capitalize on their movement to advance to full back control. The escape attempt actually creates opportunities because the bottom practitioner must generate space and movement to escape, and that same space and movement can be redirected into hook insertion or seat belt establishment. Your defensive strategy should focus on maintaining at least one primary control point throughout the escape attempt while staying ready to transition your control mechanism from riding position to back hooks when the bottom practitioner commits to their escape direction. Reading the escape early and choosing the correct response—maintain position or advance to back control—is the central skill of defending this transition.
 
-**Opponent's Starting Position**: [[Rodeo Ride]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rodeo Ride]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the rider in Rodeo Ride, your objective when the bottom practitioner attempts
 ### 1. Maintain tight hip pressure and immediately re-establish near-arm control after grip strip
 
 - **When to use**: When the escape attempt is in its early stages and the bottom practitioner has only begun grip fighting without creating significant hip space
-- **Targets**: [[Rodeo Ride]]
+- **Targets**: [[Positions/Rodeo Ride]]
 - **If successful**: Bottom practitioner's escape is neutralized and you maintain full riding control with all primary control points intact
 - **Risk**: Over-committing to re-gripping may create the weight shift the bottom practitioner needs to execute the escape rotation
 
 ### 2. Insert hooks and transition to full back control as space is created during the escape attempt
 
 - **When to use**: When the bottom practitioner creates significant hip space during their escape, particularly during the rotation phase when their back is briefly more exposed
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You advance from Rodeo Ride to the most dominant position in BJJ with 4-point scoring opportunity and high-percentage submission access
 - **Risk**: If hook insertion is timed poorly, the bottom practitioner may trap your leg and use it as leverage to complete their escape to side control
 
 ### 3. Follow hip movement with matching sprawl to shut down the escape and re-establish riding position
 
 - **When to use**: When the bottom practitioner attempts to create space through hip escape but has not yet begun the full rotation
-- **Targets**: [[Rodeo Ride]]
+- **Targets**: [[Positions/Rodeo Ride]]
 - **If successful**: You shut down the escape at its early stage and can immediately re-threaten attacks from a stabilized riding position
 - **Risk**: Sprawling too aggressively may flatten the bottom practitioner, which maintains control but can reduce your own attacking options from the new angle
 
 ### 4. Switch to seat belt grip during the scramble to maintain upper body control when riding position is lost
 
 - **When to use**: When the escape creates a scramble and you are losing riding position but still have chest-to-back contact
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You maintain upper body control through the seat belt and can re-establish hooks from the new control position
 - **Risk**: If the seat belt is not secured properly during the scramble, the bottom practitioner completes the escape to side control
 
@@ -217,11 +217,11 @@ As the rider in Rodeo Ride, your objective when the bottom practitioner attempts
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the bottom practitioner initiates rotation for the escape, follow their hip movement and use the space they create to insert both hooks while securing a seat belt grip. Their escape movement actually opens the path to full back control if you can match their rotation speed with hook insertion timing. Prioritize the bottom hook first, then establish the seat belt before inserting the top hook.
 
-### → [[Rodeo Ride]]
+### → [[Positions/Rodeo Ride]]
 
 Maintain constant hip pressure and active grip fighting throughout the escape attempt. Re-establish near-arm control immediately when the bottom practitioner fights it free. Stay connected with your chest to their back while adjusting your angle to match their movement, making their escape efforts ineffective without surrendering your riding position.
 

@@ -146,7 +146,7 @@ description: "Defend against the Spider to Lasso Guard transition in BJJ. Learn 
 
 As the top player facing a Spider to Lasso Guard transition, your primary concern is preventing the bottom player from upgrading their control system. The moment you recognize the bottom player releasing foot pressure on one bicep to begin threading their leg underneath your arm, you have a narrow window to counter before the lasso establishes and dramatically restricts your passing options. Understanding the transition mechanics allows you to exploit the vulnerability created during the threading motion, either by stripping the sleeve grip, pulling your arm free, or applying forward pressure to disrupt the bottom player's hip positioning and guard structure. Successful defense requires immediate recognition and decisive action within the first one to two seconds of the transition attempt.
 
-**Opponent's Starting Position**: [[Spider Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ As the top player facing a Spider to Lasso Guard transition, your primary concer
 ### 1. Strip the sleeve grip immediately using a two-on-one break or thumb strip
 
 - **When to use**: As soon as you feel the foot leave your bicep and recognize the tightening sleeve grip, before the leg begins threading
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: Bottom player loses the primary control mechanism and must reestablish spider guard or transition to alternative guard
 - **Risk**: Committing both hands to the grip break temporarily reduces your base and may create openings for sweeps on the opposite side
 
 ### 2. Drive forward with immediate pressure to compress space and prevent threading
 
 - **When to use**: When the foot just left the bicep and you can close distance before the leg circles underneath, especially effective from combat base
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Forward pressure disrupts the bottom player's hip positioning and may flatten their guard structure, creating passing opportunities
 - **Risk**: If the bottom player times the pressure and threads the leg during your forward drive, the lasso may establish with your weight committed forward
 
 ### 3. Retract arm by pulling elbow sharply to your hip to close the threading space
 
 - **When to use**: When you feel the foot beginning to circle underneath your arm, closing the gap between your arm and body prevents the shin from crossing
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: The lasso cannot seat because there is no space for the shin to cross your tricep, forcing the bottom player to return foot to bicep
 - **Risk**: Pulling the arm in may compromise your base on that side and the sleeve grip may still be maintained for a subsequent attempt
 
 ### 4. Step over the threading leg before it clears underneath your arm
 
 - **When to use**: When the leg is mid-thread and has not yet fully crossed underneath your arm, stepping over pins the leg and prevents completion
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: The threading motion is blocked and you may be able to pin the offending leg and begin a leg weave or toreando passing sequence
 - **Risk**: Stepping over commits your weight and balance, potentially opening you to sweeps if the bottom player redirects their attack
 
@@ -216,11 +216,11 @@ As the top player facing a Spider to Lasso Guard transition, your primary concer
 
 ## Best-Case Outcomes for Defender
 
-### → [[Spider Guard]]
+### → [[Positions/Spider Guard]]
 
 React quickly to strip the sleeve grip or retract your arm before the lasso threads, forcing the bottom player to remain in Spider Guard where you have more passing options and their control is bilateral rather than asymmetric
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Apply immediate forward pressure or aggressive grip breaking during the transition attempt to strip all controls and force the bottom player into a generic open guard with degraded control, creating a window for passing
 

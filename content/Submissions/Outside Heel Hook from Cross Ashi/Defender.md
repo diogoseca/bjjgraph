@@ -158,7 +158,7 @@ Defending the outside heel hook from Cross Ashi-Garami requires a proactive, pre
 
 Defensive priorities follow a strict hierarchy: first, prevent heel exposure by keeping the knee pointed inward and foot flexed; second, fight the grip by controlling the attacker's wrists and preventing finger interlock; third, extract the trapped leg through systematic escape mechanics if grip prevention fails. Understanding this hierarchy allows the defender to allocate energy efficiently rather than panicking into explosive movements that often accelerate the submission.
 
-**Opponent's Starting Position**: [[Cross Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Top)
 
 
 </section>
@@ -198,21 +198,21 @@ Defensive priorities follow a strict hierarchy: first, prevent heel exposure by 
 ### 1. Rotate trapped knee inward and dorsiflex foot to hide the heel from the attacker's grip
 
 - **When to use**: Immediately upon recognizing cross ashi control is being established, before the attacker begins hunting for the heel
-- **Targets**: [[Cross Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Cross Ashi-Garami]]
 - **If successful**: Prevents heel exposure and forces the attacker to spend energy fighting for grip access, buying time for escape
 - **Risk**: If you rotate too aggressively, the attacker may follow the rotation into inside ashi-garami or saddle which are more dominant positions
 
 ### 2. Aggressively hand fight to strip or prevent the figure-four grip by controlling the attacker's wrists and breaking thumb connections
 
 - **When to use**: When the attacker has begun reaching for the heel but has not yet completed the full figure-four grip configuration
-- **Targets**: [[Cross Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Cross Ashi-Garami]]
 - **If successful**: Prevents the finishing grip and forces the attacker to restart their grip sequence, creating time for leg extraction
 - **Risk**: Hand fighting commits both your hands to grip defense, limiting your ability to create frames for escape simultaneously
 
 ### 3. Boot scoot escape by framing on attacker's hips with free leg while pulling trapped leg free through systematic extraction
 
 - **When to use**: When the attacker's leg cross is loose enough to create extraction space, or during their transition between control and grip phases
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Fully extracts the trapped leg and disengages from the leg entanglement, returning to open guard standing position
 - **Risk**: If the attacker's control is tight, the extraction attempt may fail and exhaust energy without improving position
 
@@ -242,11 +242,11 @@ Defensive priorities follow a strict hierarchy: first, prevent heel exposure by 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Successfully extract trapped leg through systematic boot scoot escape or grip strip, then immediately recover to standing position while the attacker remains on the ground in open guard
 
-### → [[Cross Ashi-Garami]]
+### → [[Positions/Ashi Garami/Cross Ashi-Garami]]
 
 Prevent heel exposure through knee rotation and hand fighting, stalling the attacker's finishing sequence while buying time for escape opportunities or positional stalemate
 

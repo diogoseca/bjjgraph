@@ -178,7 +178,7 @@ The strategic value of this transition lies in its simplicity and directional ef
 
 From a competitive standpoint, the leg drag to mount sequence scores points immediately upon achieving the mount position (typically 4 points) while simultaneously opening a wide array of submission opportunities. Advanced practitioners use this transition as part of a systematic approach where the threat of the mount forces defensive reactions that expose the back, creating the dilemma-based passing system that characterizes elite-level guard passing.
 
-**From Position**: [[Leg Drag Control]] (Top)
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ From a competitive standpoint, the leg drag to mount sequence scores points imme
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 65% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount]] | 65% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ From a competitive standpoint, the leg drag to mount sequence scores points imme
 
 ## Opponent Counters
 
-- **Opponent bridges explosively during the step-over phase** (Effectiveness: High) - Your Response: Keep your weight low and forward during transition. If they start to bridge, post your hands wide and ride the bridge rather than fighting it. Once the bridge fails, immediately complete the mount. → Leads to [[Leg Drag Control]]
-- **Opponent inserts a knee shield as you attempt to slide your near knee across** (Effectiveness: Medium) - Your Response: If you feel a knee entering, immediately redirect to knee on belly or backstep to re-establish leg drag. Do not force the mount against an established knee shield—this wastes energy and creates scramble opportunities. → Leads to [[Half Guard]]
-- **Opponent hip escapes toward you and attempts to recover half guard** (Effectiveness: Medium) - Your Response: Follow their hip escape by stepping your far leg even wider and driving your near knee into their hip. Use their movement to complete the transition more quickly. The hip escape actually makes mount easier if you follow it properly. → Leads to [[Half Guard]]
-- **Opponent frames strongly against your shoulder and creates space** (Effectiveness: Low) - Your Response: Swim through their frame with an underhook or push their framing arm across their body. Once the frame is cleared, immediately continue the mount transition before they can re-establish defensive structure. → Leads to [[Leg Drag Control]]
+- **Opponent bridges explosively during the step-over phase** (Effectiveness: High) - Your Response: Keep your weight low and forward during transition. If they start to bridge, post your hands wide and ride the bridge rather than fighting it. Once the bridge fails, immediately complete the mount. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent inserts a knee shield as you attempt to slide your near knee across** (Effectiveness: Medium) - Your Response: If you feel a knee entering, immediately redirect to knee on belly or backstep to re-establish leg drag. Do not force the mount against an established knee shield—this wastes energy and creates scramble opportunities. → Leads to [[Positions/Half Guard]]
+- **Opponent hip escapes toward you and attempts to recover half guard** (Effectiveness: Medium) - Your Response: Follow their hip escape by stepping your far leg even wider and driving your near knee into their hip. Use their movement to complete the transition more quickly. The hip escape actually makes mount easier if you follow it properly. → Leads to [[Positions/Half Guard]]
+- **Opponent frames strongly against your shoulder and creates space** (Effectiveness: Low) - Your Response: Swim through their frame with an underhook or push their framing arm across their body. Once the frame is cleared, immediately continue the mount transition before they can re-establish defensive structure. → Leads to [[Positions/Leg Drag Control]]
 
 
 </section>

@@ -154,7 +154,7 @@ description: "How to continue your takedown against a sprawl in BJJ. Recognition
 
 As the defender against a sprawl, you are the person whose takedown attempt has been stuffed. Your opponent has driven their hips back and dropped their chest weight onto your shoulders and upper back, collapsing your posture and killing your forward momentum. This is a dangerous position because you are bent forward with compromised structure, and your opponent is already transitioning to front headlock control where guillotines, darce chokes, anaconda chokes, and back takes become immediate threats. Your defensive priorities are clear: protect your neck, maintain your base, and either complete the takedown through adjustment or disengage safely to standing. Panicking in this position leads to giving up your back or getting caught in chokes. Systematic responses based on reading where your opponent's weight is distributed give you the best chance of recovery.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against a sprawl, you are the person whose takedown attempt has 
 ### 1. Switch to single leg by redirecting to one leg and driving laterally while maintaining tight grip
 
 - **When to use**: Early in the sprawl when you still have grip on at least one leg and opponent has not yet established front headlock control
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Convert the stuffed double leg into a single leg finish by changing your angle and driving laterally, ending in top position
 - **Risk**: If the switch is too slow, opponent secures front headlock and your trapped position becomes worse with one arm committed to the leg
 
 ### 2. Circle and re-shoot by disengaging from the sprawl, standing up, and immediately hitting a second takedown attempt
 
 - **When to use**: When opponent's chest pressure is manageable and they have not locked up a front headlock grip, allowing you to create enough space to stand
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Reset to standing and immediately attack again while opponent is still recovering their stance from the sprawl position
 - **Risk**: If your re-shot timing is poor, opponent may be settled in their stance and you eat another sprawl while fatigued
 
 ### 3. Sit to guard by pulling opponent into your closed guard or half guard rather than fighting the front headlock
 
 - **When to use**: When opponent has established heavy front headlock pressure and submission threats are imminent, making continued standing engagement dangerous
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Transition to a guard position where you can neutralize the front headlock threats and work from a more manageable defensive position
 - **Risk**: You concede the takedown and give up positional advantage, and opponent may maintain head control during the guard pull transition
 
 ### 4. Drive forward explosively to complete the takedown through the sprawl by lifting and running the pipe
 
 - **When to use**: When you have deep penetration on at least one leg and opponent's hips have not fully dropped to the mat yet
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Power through the sprawl to complete the takedown and achieve top position despite the initial defense
 - **Risk**: Requires significant energy expenditure, and failure results in deeper front headlock control by the opponent with your posture further compromised
 
@@ -225,11 +225,11 @@ As the defender against a sprawl, you are the person whose takedown attempt has 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Complete the takedown by switching to a single leg, re-shooting after disengaging, or powering through the sprawl. The key is either changing your angle of attack to work around the sprawl or creating enough separation to reset and attack again before your opponent can settle their stance.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 If front headlock control is imminent and you cannot complete the takedown, pull guard by sitting through and bringing the opponent into your guard. While not ideal, this avoids the worst-case scenario of being caught in a submission from front headlock. Prioritize establishing grips on their arms during the transition to prevent them from maintaining head control.
 

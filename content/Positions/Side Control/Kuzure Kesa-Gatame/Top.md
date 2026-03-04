@@ -208,25 +208,25 @@ The position also serves a critical strategic role in competition and training s
 
 ## Available Attacks
 
-### [[Americana]] (11% of attempts)
+### [[Transitions/Americana]] (11% of attempts)
 
-### [[Armbar Finish]] (10% of attempts)
+### [[Transitions/Armbar Finish]] (10% of attempts)
 
-### [[Kimura]] (10% of attempts)
+### [[Transitions/Kimura]] (10% of attempts)
 
-### [[Side Control to Mount]] (11% of attempts)
+### [[Transitions/Side Control to Mount]] (11% of attempts)
 
-### [[Side Control to North-South]] (12% of attempts)
+### [[Transitions/Side Control to North-South]] (12% of attempts)
 
-### [[Paper Cutter Choke]] (9% of attempts)
+### [[Transitions/Paper Cutter Choke]] (9% of attempts)
 
-### [[Arm Triangle]] (10% of attempts)
+### [[Transitions/Arm Triangle]] (10% of attempts)
 
-### [[Breadcutter Choke]] (8% of attempts)
+### [[Transitions/Breadcutter Choke]] (8% of attempts)
 
-### [[Armbar on Free Arm]] (9% of attempts)
+### [[Transitions/Armbar on Free Arm]] (9% of attempts)
 
-### [[Gift Wrap Control]] (10% of attempts)
+### [[Transitions/Gift Wrap Control]] (10% of attempts)
 
 
 
@@ -237,23 +237,23 @@ The position also serves a critical strategic role in competition and training s
 ## Decision Making from This Position
 
 **If opponent keeps trapped arm bent and defensive while attempting hip escapes:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 70%)
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 60%)
 
 
 **Else if opponent extends trapped arm attempting to create frame or push:**
-- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 75%)
-- Execute **[[Americana]]** → [[Kimura Trap]] (Probability: 68%)
+- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 75%)
+- Execute **[[Transitions/Americana]]** → [[Positions/Kimura Trap]] (Probability: 68%)
 
 
 **Else if opponent bridges and attempts to roll you over posting leg:**
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 65%)
-- Execute **[[Gift Wrap Control]]** → [[Gift Wrap]] (Probability: 58%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 65%)
+- Execute **[[Transitions/Gift Wrap Control]]** → [[Positions/Gift Wrap]] (Probability: 58%)
 
 
 **Else if opponent turns away exposing their back to escape pressure:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 80%)
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 72%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 80%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 72%)
 
 
 
@@ -399,14 +399,14 @@ Start with compliant partner, increase their resistance by 20% every minute unti
 
 ## Related Positions and Techniques
 
-- **[[Kesa Gatame]]** - Parent position—traditional scarf hold without arm isolation
-- **[[Side Control]]** - Position family sharing control principles
-- **[[Americana]]** - Primary submission transition from trapped arm
-- **[[Armbar Finish]]** - High-percentage submission when arm extends
-- **[[Kimura]]** - Alternative shoulder lock transition from same arm control
-- **[[Mount]]** - Common advancement when opponent turns in
-- **[[North-South]]** - Transitional position for maintaining control
-- **[[Gift Wrap]]** - Alternative control when arm trapping opportunities arise
+- **[[Positions/Side Control/Kesa Gatame]]** - Parent position—traditional scarf hold without arm isolation
+- **[[Positions/Side Control]]** - Position family sharing control principles
+- **[[Transitions/Americana]]** - Primary submission transition from trapped arm
+- **[[Transitions/Armbar Finish]]** - High-percentage submission when arm extends
+- **[[Transitions/Kimura]]** - Alternative shoulder lock transition from same arm control
+- **[[Positions/Mount]]** - Common advancement when opponent turns in
+- **[[Positions/North-South]]** - Transitional position for maintaining control
+- **[[Positions/Gift Wrap]]** - Alternative control when arm trapping opportunities arise
 
 
 </section>

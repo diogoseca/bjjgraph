@@ -180,7 +180,7 @@ description: "How to execute Tomoe Nage in BJJ. Attacking perspective with setup
 
 Tomoe Nage from the attacker's perspective is a commitment-based sacrifice throw that converts standing grip advantage into immediate positional dominance. The technique requires decisive action: you sacrifice your standing base to generate a lever system using your foot on the opponent's hip, your grips controlling their upper body, and their own forward momentum completing the arc. Successful execution demands precise timing of the drop, coordinated pulling force through your grips, and explosive leg extension to launch the opponent overhead. The attacker must understand that half-measures fail catastrophically with this technique. A committed drop with proper mechanics produces either a clean throw to mount or a controlled guard pull with broken posture, while hesitation leaves you flat on your back with an opponent ready to pass. Master practitioners use Tomoe Nage as both a primary scoring technique and a guard pull upgrade that forces the opponent to deal with immediate threats upon landing.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -234,10 +234,10 @@ Tomoe Nage from the attacker's perspective is a commitment-based sacrifice throw
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 30% |
-| Success | [[Closed Guard]] | 30% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Mount]] | 30% |
+| Success | [[Positions/Closed Guard]] | 30% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -246,11 +246,11 @@ Tomoe Nage from the attacker's perspective is a commitment-based sacrifice throw
 
 ## Opponent Counters
 
-- **Opponent sprawls backward as you drop, preventing foot placement on hip** (Effectiveness: High) - Your Response: Transition to seated guard or shin-to-shin guard entry using your grips to maintain connection. Pull them into butterfly guard or De La Riva as they posture up after sprawling. Do not remain flat on your back without active leg engagement. → Leads to [[Standing Position]]
-- **Opponent posts hands on your hips to block the throw and frame against elevation** (Effectiveness: Medium) - Your Response: Use the momentum to transition to butterfly guard or X-guard, sweeping in the opposite direction. Their posted hands commit both arms forward, creating opportunities for arm drags or overhook controls that bypass their frames. → Leads to [[Closed Guard]]
-- **Opponent releases grips and jumps over you to establish side control or knee on belly** (Effectiveness: Medium) - Your Response: Maintain at least one grip and turn immediately to your side, using your bottom leg to create a knee shield while recovering guard. Frame on their hip with your free hand and hip escape to re-establish open guard before they consolidate top position. → Leads to [[Open Guard]]
-- **Opponent drives forward into you with heavy pressure before you can extend leg** (Effectiveness: Low) - Your Response: Accept the forward pressure and close your guard immediately, using their drive to break their posture. This is often a favorable outcome in competition as you establish closed guard with their weight forward and posture compromised, ready for immediate attacks. → Leads to [[Closed Guard]]
-- **Opponent breaks your grips during the throw attempt while you are on your back** (Effectiveness: High) - Your Response: Immediately recover grips or establish active open guard with feet on hips and frames extended. Do not remain flat on your back without grip control. Technical stand-up is an option if they disengage completely. Transition to seated guard to reset the standing exchange. → Leads to [[Open Guard]]
+- **Opponent sprawls backward as you drop, preventing foot placement on hip** (Effectiveness: High) - Your Response: Transition to seated guard or shin-to-shin guard entry using your grips to maintain connection. Pull them into butterfly guard or De La Riva as they posture up after sprawling. Do not remain flat on your back without active leg engagement. → Leads to [[Positions/Standing Position]]
+- **Opponent posts hands on your hips to block the throw and frame against elevation** (Effectiveness: Medium) - Your Response: Use the momentum to transition to butterfly guard or X-guard, sweeping in the opposite direction. Their posted hands commit both arms forward, creating opportunities for arm drags or overhook controls that bypass their frames. → Leads to [[Positions/Closed Guard]]
+- **Opponent releases grips and jumps over you to establish side control or knee on belly** (Effectiveness: Medium) - Your Response: Maintain at least one grip and turn immediately to your side, using your bottom leg to create a knee shield while recovering guard. Frame on their hip with your free hand and hip escape to re-establish open guard before they consolidate top position. → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward into you with heavy pressure before you can extend leg** (Effectiveness: Low) - Your Response: Accept the forward pressure and close your guard immediately, using their drive to break their posture. This is often a favorable outcome in competition as you establish closed guard with their weight forward and posture compromised, ready for immediate attacks. → Leads to [[Positions/Closed Guard]]
+- **Opponent breaks your grips during the throw attempt while you are on your back** (Effectiveness: High) - Your Response: Immediately recover grips or establish active open guard with feet on hips and frames extended. Do not remain flat on your back without grip control. Technical stand-up is an option if they disengage completely. Transition to seated guard to reset the standing exchange. → Leads to [[Positions/Open Guard]]
 
 
 </section>

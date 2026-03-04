@@ -216,29 +216,29 @@ Developing competency on top in lasso guard situations builds fundamental skills
 
 ## Available Attacks
 
-### [[Lasso Guard Pass]] (15% of attempts)
+### [[Transitions/Lasso Guard Pass]] (15% of attempts)
 
-### [[Stack Pass]] (10% of attempts)
+### [[Transitions/Stack Pass]] (10% of attempts)
 
-### [[Knee Cut Pass]] (34% of attempts)
+### [[Transitions/Knee Cut Pass]] (34% of attempts)
 
-### [[Smash Pass]] (8% of attempts)
+### [[Transitions/Smash Pass]] (8% of attempts)
 
-### [[Toreando Pass]] (8% of attempts)
+### [[Transitions/Toreando Pass]] (8% of attempts)
 
-### [[Long Step Pass]] (3% of attempts)
+### [[Transitions/Long Step Pass]] (3% of attempts)
 
-### [[Leg Weave Pass]] (8% of attempts)
+### [[Transitions/Leg Weave Pass]] (8% of attempts)
 
-### [[Kimura]] (3% of attempts)
+### [[Transitions/Kimura]] (3% of attempts)
 
-### [[Body Lock Pass]] (6% of attempts)
+### [[Transitions/Body Lock Pass]] (6% of attempts)
 
-### [[Spider Guard Pass]] (3% of attempts)
+### [[Transitions/Spider Guard Pass]] (3% of attempts)
 
-### [[Lasso Guard Backstep Pass]] (1% of attempts)
+### [[Transitions/Lasso Guard Backstep Pass]] (1% of attempts)
 
-### [[Lasso Guard Stack Pass]] (1% of attempts)
+### [[Transitions/Lasso Guard Stack Pass]] (1% of attempts)
 
 
 
@@ -249,28 +249,28 @@ Developing competency on top in lasso guard situations builds fundamental skills
 ## Decision Making from This Position
 
 **If opponent maintains tight lasso with strong sleeve grip and extended leg creating maximum leverage:**
-- Execute **[[Lasso Guard Pass]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Lasso Guard Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent attempts to sweep by pulling you forward and off-balancing toward the lasso side:**
-- Execute **[[Stack Defense]]** → [[Headquarters Position]] (Probability: 55%)
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Stack Defense]]** → [[Positions/Headquarters Position]] (Probability: 55%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent's non-lasso leg becomes available or loses positional control:**
-- Execute **[[Knee Cut Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If you successfully reduce lasso pressure through grip breaks or posture changes:**
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent over-commits to lasso and exposes their non-lasso arm or neck:**
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 45%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 
@@ -372,13 +372,13 @@ Start every round with partner in established lasso control. Full intensity spar
 
 ## Related Positions and Techniques
 
-- **[[Spider Guard]]** - Related guard position with similar sleeve control mechanics that requires comparable passing strategies
-- **[[De La Riva Guard]]** - Often combined with lasso on opposite leg, requiring integrated passing approach to both systems simultaneously
-- **[[Open Guard]]** - Parent category providing fundamental passing principles applicable to dealing with lasso situations
-- **[[Headquarters Position]]** - Transitional position often achieved when standing to disengage from lasso before completing pass
-- **[[Side Control]]** - Primary passing objective when successfully clearing lasso and completing guard pass
-- **[[Combat Base]]** - Essential posture for maintaining base and stability while dealing with lasso control and sweep threats
-- **[[Kimura Trap]]** - Counter-attacking opportunity when opponent over-commits to lasso and exposes non-lasso arm
+- **[[Positions/Spider Guard]]** - Related guard position with similar sleeve control mechanics that requires comparable passing strategies
+- **[[Positions/De La Riva Guard]]** - Often combined with lasso on opposite leg, requiring integrated passing approach to both systems simultaneously
+- **[[Positions/Open Guard]]** - Parent category providing fundamental passing principles applicable to dealing with lasso situations
+- **[[Positions/Headquarters Position]]** - Transitional position often achieved when standing to disengage from lasso before completing pass
+- **[[Positions/Side Control]]** - Primary passing objective when successfully clearing lasso and completing guard pass
+- **[[Positions/Combat Base]]** - Essential posture for maintaining base and stability while dealing with lasso control and sweep threats
+- **[[Positions/Kimura Trap]]** - Counter-attacking opportunity when opponent over-commits to lasso and exposes non-lasso arm
 
 
 </section>

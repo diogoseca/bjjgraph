@@ -206,21 +206,21 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 
 ## Available Attacks
 
-### [[Anaconda Choke]] (35% of attempts)
+### [[Transitions/Anaconda Choke]] (35% of attempts)
 
-### [[Darce from Turtle]] (13% of attempts)
+### [[Transitions/Darce from Turtle]] (13% of attempts)
 
-### [[Front Headlock to Back]] (18% of attempts)
+### [[Transitions/Front Headlock to Back]] (18% of attempts)
 
-### [[Side Control to Mount]] (18% of attempts)
+### [[Transitions/Side Control to Mount]] (18% of attempts)
 
-### [[Side Control to North-South]] (8% of attempts)
+### [[Transitions/Side Control to North-South]] (8% of attempts)
 
-### [[Dead Orchard to Anaconda Finish]] (4% of attempts)
+### [[Transitions/Dead Orchard to Anaconda Finish]] (4% of attempts)
 
-### [[Dead Orchard to Darce Switch]] (2% of attempts)
+### [[Transitions/Dead Orchard to Darce Switch]] (2% of attempts)
 
-### [[Anaconda Finish from Dead Orchard]] (2% of attempts)
+### [[Submissions/Anaconda Finish from Dead Orchard]] (2% of attempts)
 
 
 
@@ -231,28 +231,28 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 ## Decision Making from This Position
 
 **If opponent remains stationary with minimal defensive movement:**
-- Execute **[[Anaconda Choke]]** → [[Game Over]] (Probability: 70%)
-- Execute **[[Increase shoulder pressure gradually]]** → [[Dead Orchard Control]] (Probability: 30%)
+- Execute **[[Transitions/Anaconda Choke]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Increase shoulder pressure gradually]]** → [[Positions/Dead Orchard Control]] (Probability: 30%)
 
 
 **If opponent attempts to turn away from the choke pressure:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Front Headlock to Back]]** → [[Back Control]] (Probability: 40%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 40%)
 
 
 **If opponent drives forward attempting to escape the grip:**
-- Execute **[[Front Headlock to Back]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Guillotine Setup]]** → [[Guillotine Control]] (Probability: 45%)
+- Execute **[[Transitions/Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 45%)
 
 
 **If opponent creates space on the trapped arm side:**
-- Execute **[[Darce from Turtle]]** → [[Darce Control]] (Probability: 65%)
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 35%)
+- Execute **[[Transitions/Darce from Turtle]]** → [[Positions/Darce Control]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 35%)
 
 
 **If opponent establishes strong defensive grips preventing finish:**
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 50%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 
@@ -386,16 +386,16 @@ Partner executes specific escape sequences from dead orchard control (hip escape
 
 ## Related Positions and Techniques
 
-- **[[Anaconda Control]]** - Parent position - standard anaconda configuration without dead orchard specific mechanics
-- **[[Darce Control]]** - Sister technique - alternative arm-in choke control from similar entries
-- **[[Front Headlock]]** - Entry position - primary setup position for dead orchard control establishment
-- **[[Guillotine Control]]** - Alternative control - different front headlock choke configuration
-- **[[Anaconda Choke]]** - Primary submission - main finishing technique from this control position
-- **[[Turtle]]** - Common entry - opponent position from which dead orchard is frequently established
-- **[[Mount]]** - Transition target - high-percentage advancement when opponent defends submission
-- **[[Back Control]]** - Alternative advancement - transition when opponent drives forward
-- **[[North-South]]** - Control alternative - transition option maintaining top pressure
-- **[[Darce Choke]]** - Alternative submission - accessible when opponent defends anaconda by creating space
+- **[[Positions/Anaconda Control]]** - Parent position - standard anaconda configuration without dead orchard specific mechanics
+- **[[Positions/Darce Control]]** - Sister technique - alternative arm-in choke control from similar entries
+- **[[Positions/Front Headlock]]** - Entry position - primary setup position for dead orchard control establishment
+- **[[Positions/Guillotine Control]]** - Alternative control - different front headlock choke configuration
+- **[[Transitions/Anaconda Choke]]** - Primary submission - main finishing technique from this control position
+- **[[Positions/Turtle]]** - Common entry - opponent position from which dead orchard is frequently established
+- **[[Positions/Mount]]** - Transition target - high-percentage advancement when opponent defends submission
+- **[[Positions/Back Control]]** - Alternative advancement - transition when opponent drives forward
+- **[[Positions/North-South]]** - Control alternative - transition option maintaining top pressure
+- **[[Transitions/Darce Choke]]** - Alternative submission - accessible when opponent defends anaconda by creating space
 
 
 </section>

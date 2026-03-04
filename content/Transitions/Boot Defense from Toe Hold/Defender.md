@@ -146,7 +146,7 @@ description: "Counter the Boot Defense from Toe Hold as the attacking grappler. 
 
 When your opponent deploys the Boot Defense against your toe hold, you face a time-sensitive decision matrix requiring rapid assessment and response. The boot creates temporary ankle rigidity that prevents immediate submission completion, but it does not improve their positional standing—your leg entanglement control remains intact. Your advantage lies in maintaining the grip configuration while the opponent diverts their attention to foot rigidity, creating opportunities for angle adjustment, grip tightening, or transition to alternative leg attacks. Reading the boot deployment early allows you to preemptively adjust before the defense fully solidifies, maintaining offensive pressure through technical adaptation rather than attempting to power through the rigid structure. The boot defense signals that your opponent has recognized the danger but committed to a static response—exploit this commitment by transitioning through your attack chain.
 
-**Opponent's Starting Position**: [[Toe Hold Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Toe Hold Control]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ When your opponent deploys the Boot Defense against your toe hold, you face a ti
 ### 1. Adjust hip angle perpendicular to opponent's leg and transition to kneebar attack
 
 - **When to use**: When boot rigidity prevents toe hold completion and opponent's leg is straightened by the defensive posture
-- **Targets**: [[Kneebar Control]]
+- **Targets**: [[Positions/Kneebar Control]]
 - **If successful**: Convert from defended toe hold to viable kneebar submission control by exploiting the straightened leg the boot creates
 - **Risk**: Releasing toe hold grip partially to transition may create a brief escape window for the opponent
 
 ### 2. Apply progressive rotational pressure to gradually break through boot rigidity
 
 - **When to use**: When boot is freshly deployed and opponent has not yet begun effective grip fighting on your wrists
-- **Targets**: [[Toe Hold Control]]
+- **Targets**: [[Positions/Toe Hold Control]]
 - **If successful**: Boot structure collapses under sustained progressive pressure, restoring the toe hold finishing path
 - **Risk**: Extended pressure application consumes time and gives opponent opportunity to establish grip fighting
 
 ### 3. Maintain toe hold grip while using knee wedge pressure to break boot structure from alternative angle
 
 - **When to use**: When opponent's upper body posture indicates grip fighting is imminent and you need to act quickly
-- **Targets**: [[Toe Hold Control]]
+- **Targets**: [[Positions/Toe Hold Control]]
 - **If successful**: Wedge disrupts boot rigidity from an angle the defense cannot protect, maintaining toe hold control
 - **Risk**: Knee repositioning may create space that enables opponent's free leg framing and subsequent escape
 
 ### 4. Release toe hold and immediately transition to straight ankle lock from the same control position
 
 - **When to use**: When boot completely prevents toe hold rotation but the ankle and lower leg remain under your control
-- **Targets**: [[Toe Hold Control]]
+- **Targets**: [[Positions/Toe Hold Control]]
 - **If successful**: Bypasses boot defense entirely with a different submission vector from the same leg entanglement position
 - **Risk**: Grip transition creates a brief moment where opponent may accelerate escape before new submission establishes
 
@@ -217,11 +217,11 @@ When your opponent deploys the Boot Defense against your toe hold, you face a ti
 
 ## Best-Case Outcomes for Defender
 
-### → [[Toe Hold Control]]
+### → [[Positions/Toe Hold Control]]
 
 Maintain continuous grip pressure while adjusting angle incrementally. Use knee wedge or progressive rotation to break through boot rigidity before opponent completes their grip fighting sequence. The key is keeping constant pressure so the opponent cannot safely progress from boot defense to grip fighting.
 
-### → [[Kneebar Control]]
+### → [[Positions/Kneebar Control]]
 
 Recognize that the boot straightens the opponent's leg, creating the extension needed for kneebar application. Transition your hips perpendicular to their leg, release foot control and shift to above-knee control, applying downward pressure to complete the kneebar entry from the toe hold position.
 

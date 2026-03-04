@@ -156,7 +156,7 @@ As the gogoplata control holder (bottom player), your objective when the top pla
 
 The fundamental defensive strategy centers on maintaining hip elevation and foot depth behind the opponent's head. These two elements form the structural foundation of gogoplata control, and the escape specifically targets both. By actively pulling the foot deeper, re-elevating hips when pressed down, and using hand fighting to prevent the opponent from establishing hip control, the defender can force repeated failed escape attempts that drain the opponent's energy and composure. When the escape progresses despite defensive efforts, transitioning to triangle, omoplata, or back control provides alternative attacking pathways that punish imprecise escape attempts.
 
-**Opponent's Starting Position**: [[Gogoplata Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ The fundamental defensive strategy centers on maintaining hip elevation and foot
 ### 1. Re-elevate hips and pull foot deeper behind opponent's head using both hands to reinforce the closed-loop configuration
 
 - **When to use**: Immediately when you feel downward pressure on your hips or sense the opponent beginning the extraction sequence
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Opponent remains trapped in gogoplata control with renewed submission pressure, forcing them to restart their escape attempt
 - **Risk**: Using both hands on your own foot temporarily releases head control, allowing opponent a brief window for explosive escape
 
 ### 2. Transition to triangle by switching the choking leg over the opponent's shoulder and locking ankles as they move their head laterally
 
 - **When to use**: When the opponent has partially extracted their head laterally and the shin is sliding off the throat but their posture is still broken
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Opponent is caught in triangle control, converting their escape attempt into a new submission threat from a stronger position
 - **Risk**: If triangle lock is not secured quickly, opponent may posture up and escape both gogoplata and triangle attempt
 
 ### 3. Release gogoplata and immediately recover closed guard with strong collar and sleeve control before opponent can establish passing position
 
 - **When to use**: When extraction is nearly complete and continuing to hold risks losing all guard control as opponent powers through to side control
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Opponent lands in closed guard rather than achieving half guard top, maintaining guard retention and enabling immediate re-attack
 - **Risk**: Voluntary release surrenders the submission attempt and opponent may pass before closed guard is fully established
 
 ### 4. Use hip rotation and core engagement to re-angle the shin as the opponent drives hips down, maintaining perpendicular throat contact despite reduced elevation
 
 - **When to use**: When the opponent has established strong hip control and is successfully pressing your pelvis toward the mat
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Shin pressure is maintained despite hip drop through angle adjustment, frustrating the escape and potentially increasing compression through the new angle
 - **Risk**: Core fatigue from sustained hip elevation fight may compromise position if the exchange is prolonged
 
@@ -225,11 +225,11 @@ The fundamental defensive strategy centers on maintaining hip elevation and foot
 
 ## Best-Case Outcomes for Defender
 
-### → [[Gogoplata Control]]
+### → [[Positions/Gogoplata Control]]
 
 Maintain hip elevation and foot depth throughout the opponent's extraction attempt by actively pulling the foot deeper and fighting their hip control with core engagement. Each failed escape attempt increases their fatigue and panic, making the submission finish more likely on subsequent attempts.
 
-### → [[Gogoplata Control]]
+### → [[Positions/Gogoplata Control]]
 
 When the escape partially succeeds and the shin slides off the throat, immediately transition to triangle by bringing the opposite leg over the opponent's shoulder. Their lateral head movement during extraction creates the angle needed for triangle entry. Alternatively, if they turn away, redirect to omoplata by controlling their arm across your hip.
 

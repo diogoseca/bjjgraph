@@ -154,7 +154,7 @@ description: "Learn to defend the Lasso Guard Stack Pass in BJJ. Recognition cue
 
 Defending the Lasso Guard Stack Pass requires early recognition of the passer's intent and immediate preventive action before the stack compresses your spine. As the lasso guard bottom player, your primary defense relies on maintaining hip mobility and distance, which are precisely the elements the stack pass attacks. The moment you feel the passer commit their weight forward and begin driving your knees toward your face, you must react with hip escapes, strategic posting, or guard transitions that prevent the full compression from being established. Late defense against a fully committed stack is significantly more difficult, making recognition and early action the cornerstones of effective defense. Your secondary option is converting the passer's committed forward momentum into sweep opportunities, using their aggressive drive against them to transition to a dominant top position. Understanding the timing windows for each defensive response separates practitioners who consistently lose to the stack from those who turn it into an advantage.
 
-**Opponent's Starting Position**: [[Lasso Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Lasso Guard]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the Lasso Guard Stack Pass requires early recognition of the passer's 
 ### 1. Hip escape laterally before the stack compresses, recovering your perpendicular angle and lasso leverage
 
 - **When to use**: At the first sign of the forward drive, before the passer's weight has fully committed over your hips and while you still have hip mobility
-- **Targets**: [[Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard]]
 - **If successful**: You recover your optimal lasso angle with the passer having wasted energy on the failed stack, creating an opportunity to attack with sweeps
 - **Risk**: If timed too late, the partial hip escape can expose your back or create a scramble where the passer redirects to a knee cut
 
 ### 2. Post free hand on the mat and bridge into the passer to prevent your hips from folding over your shoulders
 
 - **When to use**: When the forward drive has already begun but your spine is not yet fully compressed, using your arm as a structural brace
-- **Targets**: [[Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard]]
 - **If successful**: The stack stalls and the passer must reset or change approach, giving you time to re-establish distance and lasso control
 - **Risk**: The posting arm is vulnerable to being stripped or controlled, and extended arms can be targeted for kimura attempts
 
 ### 3. Extend the lasso leg and pull the sleeve while bridging to sweep the passer over your head using their forward momentum
 
 - **When to use**: When the passer is fully committed to the forward drive with narrow base and their center of gravity is high over your body
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The passer rolls over you and ends up on their back, with you achieving a dominant top position from the momentum reversal
 - **Risk**: If the passer has wide base the sweep fails and you end up deeper in the stack, accelerating the pass completion
 
 ### 4. Abandon the lasso and transition to collar sleeve guard or closed guard before the stack fully develops
 
 - **When to use**: When the stack has degraded your lasso control beyond recovery but you still have enough hip mobility to reconfigure your guard
-- **Targets**: [[Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard]]
 - **If successful**: You establish a new guard configuration that the passer must address from scratch, resetting the passing exchange
 - **Risk**: The transition window is brief and the passer may complete the pass during the guard change if your timing is off
 
@@ -224,11 +224,11 @@ Defending the Lasso Guard Stack Pass requires early recognition of the passer's 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lasso Guard]]
+### → [[Positions/Lasso Guard]]
 
 React early to the forward drive with a lateral hip escape before compression develops, then re-establish your perpendicular angle and lasso tension. Post your non-lasso foot on the passer's hip to block subsequent stack attempts while re-gripping the sleeve tightly.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the passer overcommits to the forward drive with narrow base, time a bridge and extend the lasso leg to redirect their momentum over your head. Use the sleeve grip to pull them forward and over as your hips bridge upward, converting their aggressive pressure into a sweep that lands them on their back.
 

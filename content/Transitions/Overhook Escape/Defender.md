@@ -158,7 +158,7 @@ The defender's primary advantage is positional awareness. You control the timing
 
 Advanced defense integrates the threat of submission as a deterrent to extraction attempts. When the top player knows that every escape attempt risks a triangle or gogoplata entry, they hesitate and second-guess their timing. This psychological pressure compounds the mechanical difficulty of the extraction, making your New York Control increasingly secure as you demonstrate willingness to capitalize on their movement. The defender who treats extraction attempts as offensive opportunities rather than defensive emergencies transforms a potentially vulnerable moment into a high-percentage finishing sequence.
 
-**Opponent's Starting Position**: [[New York Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/New York Control]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Advanced defense integrates the threat of submission as a deterrent to extractio
 ### 1. Deepen overhook grip by pulling arm further across their centerline and clasping your own shin or ankle
 
 - **When to use**: As soon as you feel shoulder rotation beginning, before the spiral motion gains momentum
-- **Targets**: [[New York Control]]
+- **Targets**: [[Positions/Rubber Guard/New York Control]]
 - **If successful**: Extraction attempt fails completely, opponent returns to trapped position with increased energy expenditure
 - **Risk**: Over-committing to grip deepening can reduce your leg pressure, potentially allowing posture recovery
 
 ### 2. Shoot leg across their neck for triangle entry as their arm moves during extraction
 
 - **When to use**: When their elbow separates from their ribs during the spiral motion, creating space for your leg to enter
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Convert extraction attempt directly into triangle position with high finishing percentage
 - **Risk**: If their chin is tucked and elbow stays tight, the triangle entry fails and you may lose overhook depth in the attempt
 
 ### 3. Increase leg pressure across back while pulling head down with free hand to collapse their base
 
 - **When to use**: When top player widens base and commits weight laterally in preparation for extraction
-- **Targets**: [[New York Control]]
+- **Targets**: [[Positions/Rubber Guard/New York Control]]
 - **If successful**: Base collapse prevents extraction and returns opponent to compromised posture under your control
 - **Risk**: If they maintain base despite increased pressure, you expend energy without preventing the extraction
 
 ### 4. Transition to gogoplata by shooting shin across throat as their posture shifts during extraction
 
 - **When to use**: When top player lifts their chin or creates space between your bodies during the extraction attempt
-- **Targets**: [[New York Control]]
+- **Targets**: [[Positions/Rubber Guard/New York Control]]
 - **If successful**: Gogoplata threat forces immediate defensive reaction, abandoning extraction to address the choke
 - **Risk**: Requires excellent flexibility and timing - missed gogoplata attempt may compromise your leg control
 
@@ -229,11 +229,11 @@ Advanced defense integrates the threat of submission as a deterrent to extractio
 
 ## Best-Case Outcomes for Defender
 
-### → [[New York Control]]
+### → [[Positions/Rubber Guard/New York Control]]
 
 Deepen overhook grip the moment you feel shoulder rotation beginning. Pull your arm further across their centerline and clasp your own shin or the back of their neck. Simultaneously increase leg pressure across their back by actively pulling your knee toward their far shoulder. The combination of deeper overhook and increased leg pressure defeats the spiral extraction motion and returns them to fully controlled position.
 
-### → [[Triangle Control]]
+### → [[Positions/Triangle Control]]
 
 When their elbow separates from their ribs during the spiral motion, immediately shoot your leg from across their back up and over their neck on the exposed side. Their extraction motion creates the exact space needed for triangle entry. Use your overhook grip to control their arm position while your legs lock the triangle. Their escape attempt momentum carries them directly into your submission setup.
 

@@ -174,7 +174,7 @@ description: "Attacking guide for converting Russian Cowboy single-hook control 
 
 From the attacker's perspective, the Russian Cowboy to Back Control transition is a calculated positional upgrade that converts your single-hook advantage into the most dominant position in grappling. The transition demands patience and tactical awareness rather than raw athleticism. Your existing Russian Cowboy control provides a stable platform, so the key is creating the right conditions for hook insertion rather than forcing it prematurely. The attacker must manage three simultaneous concerns: maintaining existing control through seatbelt and chest pressure, creating a distraction or opening for the free leg, and executing the threading motion smoothly enough that the opponent cannot intercept it. Success depends on reading the opponent's defensive focus and exploiting momentary lapses in their leg-blocking awareness.
 
-**From Position**: [[Russian Cowboy]] (Top)
+**From Position**: [[Positions/Russian Cowboy]] (Top)
 
 </section>
 
@@ -225,9 +225,9 @@ From the attacker's perspective, the Russian Cowboy to Back Control transition i
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Russian Cowboy]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Russian Cowboy]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -236,10 +236,10 @@ From the attacker's perspective, the Russian Cowboy to Back Control transition i
 
 ## Opponent Counters
 
-- **Opponent blocks the threading leg with their far hand, physically preventing hook insertion by gripping the ankle or pushing the knee away** (Effectiveness: High) - Your Response: Increase seatbelt squeeze or reinitiate the choke threat to force their blocking hand back to neck defense. Alternatively, use a pummeling motion with your free leg to swim past their hand grip, or switch to the roll-through variant to change the angle of approach. → Leads to [[Russian Cowboy]]
-- **Opponent explosively turns into the attacker during the hook threading, exploiting the momentary instability to reverse position** (Effectiveness: High) - Your Response: If you feel the turn initiating, abort the hook insertion and immediately drive your chest forward while pulling with the seatbelt to stop rotation. Use your existing hook to anchor their hip and prevent the full turn. If the turn succeeds partially, follow into a scramble maintaining chest contact. → Leads to [[Half Guard]]
-- **Opponent shrimps their hips away explosively to create distance, making the threading arc too long to complete** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own hips, maintaining chest contact and using the existing hook to pull them back. The shrimp often creates space that actually assists a roll-through hook insertion if you chase their hips immediately rather than letting them fully separate. → Leads to [[Russian Cowboy]]
-- **Opponent traps the threading foot between their thighs or knees before the hook can be set deep enough** (Effectiveness: Medium) - Your Response: Use your seatbelt leverage to create a stretching force on their body while pumping your trapped foot to free it. If the foot remains trapped, use the partial entanglement as a platform to threaten a calf slicer or transition to truck position instead of forcing the back control. → Leads to [[Russian Cowboy]]
+- **Opponent blocks the threading leg with their far hand, physically preventing hook insertion by gripping the ankle or pushing the knee away** (Effectiveness: High) - Your Response: Increase seatbelt squeeze or reinitiate the choke threat to force their blocking hand back to neck defense. Alternatively, use a pummeling motion with your free leg to swim past their hand grip, or switch to the roll-through variant to change the angle of approach. → Leads to [[Positions/Russian Cowboy]]
+- **Opponent explosively turns into the attacker during the hook threading, exploiting the momentary instability to reverse position** (Effectiveness: High) - Your Response: If you feel the turn initiating, abort the hook insertion and immediately drive your chest forward while pulling with the seatbelt to stop rotation. Use your existing hook to anchor their hip and prevent the full turn. If the turn succeeds partially, follow into a scramble maintaining chest contact. → Leads to [[Positions/Half Guard]]
+- **Opponent shrimps their hips away explosively to create distance, making the threading arc too long to complete** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own hips, maintaining chest contact and using the existing hook to pull them back. The shrimp often creates space that actually assists a roll-through hook insertion if you chase their hips immediately rather than letting them fully separate. → Leads to [[Positions/Russian Cowboy]]
+- **Opponent traps the threading foot between their thighs or knees before the hook can be set deep enough** (Effectiveness: Medium) - Your Response: Use your seatbelt leverage to create a stretching force on their body while pumping your trapped foot to free it. If the foot remains trapped, use the partial entanglement as a platform to threaten a calf slicer or transition to truck position instead of forcing the back control. → Leads to [[Positions/Russian Cowboy]]
 
 
 </section>

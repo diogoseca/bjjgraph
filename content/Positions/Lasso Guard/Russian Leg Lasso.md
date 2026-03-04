@@ -87,23 +87,23 @@ Russian Leg Lasso is an advanced variation of the traditional lasso guard that i
 ### Available Transitions
 
 
-- **[[Overhook Sweep]]** (35% of attempts)
+- **[[Transitions/Overhook Sweep]]** (35% of attempts)
 
-- **[[Triangle Setup]]** (11% of attempts)
+- **[[Transitions/Triangle Setup]]** (11% of attempts)
 
-- **[[Omoplata Sweep]]** (12% of attempts)
+- **[[Transitions/Omoplata Sweep]]** (12% of attempts)
 
-- **[[Back Take from Bottom]]** (6% of attempts)
+- **[[Transitions/Back Take from Bottom]]** (6% of attempts)
 
-- **[[Sickle Sweep]]** (13% of attempts)
+- **[[Transitions/Sickle Sweep]]** (13% of attempts)
 
-- **[[Berimbolo Entry]]** (8% of attempts)
+- **[[Transitions/Berimbolo Entry]]** (8% of attempts)
 
-- **[[Omoplata]]** (10% of attempts)
+- **[[Transitions/Omoplata]]** (10% of attempts)
 
-- **[[Russian Lasso Sweep]]** (3% of attempts)
+- **[[Transitions/Russian Lasso Sweep]]** (3% of attempts)
 
-- **[[Russian Lasso to De La Riva]]** (2% of attempts)
+- **[[Transitions/Russian Lasso to De La Riva]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -164,23 +164,23 @@ Russian Leg Lasso is an advanced variation of the traditional lasso guard that i
 ### Available Transitions
 
 
-- **[[Lasso Guard Pass]]** (24% of attempts)
+- **[[Transitions/Lasso Guard Pass]]** (24% of attempts)
 
-- **[[Knee Slice Pass]]** (12% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (12% of attempts)
 
-- **[[Toreando Pass]]** (12% of attempts)
+- **[[Transitions/Toreando Pass]]** (12% of attempts)
 
-- **[[Long Step Pass]]** (12% of attempts)
+- **[[Transitions/Long Step Pass]]** (12% of attempts)
 
-- **[[Leg Drag Pass]]** (12% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (12% of attempts)
 
-- **[[Pressure Pass]]** (10% of attempts)
+- **[[Transitions/Pressure Pass]]** (10% of attempts)
 
-- **[[Back Step Pass]]** (10% of attempts)
+- **[[Transitions/Back Step Pass]]** (10% of attempts)
 
-- **[[Pass Russian Leg Lasso]]** (5% of attempts)
+- **[[Transitions/Pass Russian Leg Lasso]]** (5% of attempts)
 
-- **[[Strip Russian Leg Lasso]]** (3% of attempts)
+- **[[Transitions/Strip Russian Leg Lasso]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -219,21 +219,21 @@ Russian Leg Lasso is an advanced variation of the traditional lasso guard that i
 ## Related Positions
 
 
-- **[[Lasso Guard]]** - Parent position - standard lasso guard from which Russian variation evolved
+- **[[Positions/Lasso Guard]]** - Parent position - standard lasso guard from which Russian variation evolved
 
-- **[[Spider Guard]]** - Related gi-based open guard sharing grip control principles and extension mechanics
+- **[[Positions/Spider Guard]]** - Related gi-based open guard sharing grip control principles and extension mechanics
 
-- **[[De La Riva Guard]]** - Compatible guard system often combined with Russian Leg Lasso for enhanced control
+- **[[Positions/De La Riva Guard]]** - Compatible guard system often combined with Russian Leg Lasso for enhanced control
 
-- **[[Collar Sleeve Guard]]** - Shares grip configuration principles and can transition into Russian Leg Lasso
+- **[[Positions/Collar Sleeve Guard]]** - Shares grip configuration principles and can transition into Russian Leg Lasso
 
-- **[[Inverted Lasso Guard]]** - Alternative lasso variation with different mechanical properties and sweep opportunities
+- **[[Positions/Lasso Guard/Inverted Lasso Guard]]** - Alternative lasso variation with different mechanical properties and sweep opportunities
 
-- **[[Open Guard]]** - Parent category encompassing all open guard variations including Russian Leg Lasso
+- **[[Positions/Open Guard]]** - Parent category encompassing all open guard variations including Russian Leg Lasso
 
-- **[[Omoplata Control]]** - Common submission entry from Russian Leg Lasso when opponent defends sweeps improperly
+- **[[Positions/Omoplata Control]]** - Common submission entry from Russian Leg Lasso when opponent defends sweeps improperly
 
-- **[[Triangle Control]]** - Alternative submission path when transitioning from Russian Leg Lasso configurations
+- **[[Positions/Triangle Control]]** - Alternative submission path when transitioning from Russian Leg Lasso configurations
 
 
 </section>

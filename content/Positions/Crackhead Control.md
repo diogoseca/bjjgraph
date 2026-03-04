@@ -95,21 +95,21 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 ### Available Transitions
 
 
-- **[[Granby Roll to Guard]]** (14% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (14% of attempts)
 
-- **[[Standing up in Base]]** (12% of attempts)
+- **[[Transitions/Standing up in Base]]** (12% of attempts)
 
-- **[[Sit Through Escape]]** (26% of attempts)
+- **[[Transitions/Sit Through Escape]]** (26% of attempts)
 
-- **[[Peterson Roll]]** (12% of attempts)
+- **[[Transitions/Peterson Roll]]** (12% of attempts)
 
-- **[[Crackhead Control to Carni]]** (12% of attempts)
+- **[[Transitions/Crackhead Control to Carni]]** (12% of attempts)
 
-- **[[Crackhead Control to Mission Control]]** (10% of attempts)
+- **[[Transitions/Crackhead Control to Mission Control]]** (10% of attempts)
 
-- **[[Crackhead Control to New York]]** (8% of attempts)
+- **[[Transitions/Crackhead Control to New York]]** (8% of attempts)
 
-- **[[Posture Recovery to Closed Guard]]** (6% of attempts)
+- **[[Transitions/Posture Recovery to Closed Guard]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -170,25 +170,25 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 ### Available Transitions
 
 
-- **[[Turtle to Truck]]** (12% of attempts)
+- **[[Transitions/Turtle to Truck]]** (12% of attempts)
 
-- **[[Crucifix from Turtle]]** (10% of attempts)
+- **[[Transitions/Crucifix from Turtle]]** (10% of attempts)
 
-- **[[Crab Ride to Back]]** (10% of attempts)
+- **[[Transitions/Crab Ride to Back]]** (10% of attempts)
 
-- **[[Anaconda from Turtle]]** (8% of attempts)
+- **[[Transitions/Anaconda from Turtle]]** (8% of attempts)
 
-- **[[Darce from Turtle]]** (8% of attempts)
+- **[[Transitions/Darce from Turtle]]** (8% of attempts)
 
-- **[[Rolling Back Take]]** (10% of attempts)
+- **[[Transitions/Rolling Back Take]]** (10% of attempts)
 
-- **[[Guillotine from Turtle]]** (6% of attempts)
+- **[[Transitions/Guillotine from Turtle]]** (6% of attempts)
 
-- **[[Back Take]]** (22% of attempts)
+- **[[Transitions/Back Take]]** (22% of attempts)
 
-- **[[Arm Extraction and Pass]]** (8% of attempts)
+- **[[Transitions/Arm Extraction and Pass]]** (8% of attempts)
 
-- **[[Double Underhook Pass]]** (6% of attempts)
+- **[[Transitions/Double Underhook Pass]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -227,23 +227,23 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 ## Related Positions
 
 
-- **[[Turtle]]** - Parent position that crackhead control evolved from with enhanced mechanics
+- **[[Positions/Turtle]]** - Parent position that crackhead control evolved from with enhanced mechanics
 
-- **[[Back Control]]** - Primary advancement target from top perspective
+- **[[Positions/Back Control]]** - Primary advancement target from top perspective
 
-- **[[Twister Control]]** - Alternative advancement path for leg attack and twister systems via truck
+- **[[Positions/Twister Control]]** - Alternative advancement path for leg attack and twister systems via truck
 
-- **[[Crab Ride]]** - Similar chair-sit control mechanics with different grip configurations
+- **[[Positions/Crab Ride]]** - Similar chair-sit control mechanics with different grip configurations
 
-- **[[Crucifix]]** - Available when opponent extends arms during defense
+- **[[Positions/Crucifix]]** - Available when opponent extends arms during defense
 
-- **[[Dogfight Position]]** - Common guard recovery target from bottom perspective
+- **[[Positions/Dogfight Position]]** - Common guard recovery target from bottom perspective
 
-- **[[Deep Half Guard]]** - Alternative guard recovery option from bottom defensive position
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative guard recovery option from bottom defensive position
 
-- **[[Darce Control]]** - Submission control available when opponent turns into top attacker
+- **[[Positions/Darce Control]]** - Submission control available when opponent turns into top attacker
 
-- **[[Anaconda Control]]** - Alternative front headlock finish from top perspective
+- **[[Positions/Anaconda Control]]** - Alternative front headlock finish from top perspective
 
 
 </section>

@@ -21,7 +21,7 @@ The mechanics center on generating lateral hip displacement despite the opponent
 
 Strategically, the hip escape from mounted crucifix represents the first link in a survival chain. Success does not mean safety - it means transitioning from an almost inescapable position to one where proven escape methods can be applied. The practitioner must understand that reaching mount bottom after extracting their arms is a significant positional improvement, not a failure. From there, standard elbow escapes, bridge-and-roll techniques, and guard recovery sequences become viable. Training this escape develops the explosive hip mechanics and composure under extreme pressure that transfer to defensive competency across all bottom positions.
 
-**From Position**: [[Mounted Crucifix]] (Bottom)
+**From Position**: [[Positions/Mount/Mounted Crucifix]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the hip escape from mounted crucifix represents the first link in
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Mounted Crucifix]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Mount/Mounted Crucifix]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -195,23 +195,23 @@ The hip escape from mounted crucifix occupies a critical position in the defensi
 ## Related Techniques
 
 
-- [[Mounted Crucifix]] - Starting position - the dominant control position this escape addresses
+- [[Positions/Mount/Mounted Crucifix]] - Starting position - the dominant control position this escape addresses
 
-- [[Mount]] - Primary escape target - successfully escaping returns you to standard mount bottom
+- [[Positions/Mount]] - Primary escape target - successfully escaping returns you to standard mount bottom
 
-- [[Bridge Escape from Mounted Crucifix]] - Complementary escape - alternative bridge-based escape from the same position
+- [[Transitions/Bridge Escape from Mounted Crucifix]] - Complementary escape - alternative bridge-based escape from the same position
 
-- [[Arm Recovery from Crucifix]] - Related technique - arm extraction mechanics shared between crucifix variants
+- [[Transitions/Arm Recovery from Crucifix]] - Related technique - arm extraction mechanics shared between crucifix variants
 
-- [[Elbow Escape from Mount]] - Follow-up technique - primary escape method after successfully reaching mount bottom
+- [[Transitions/Elbow Escape from Mount]] - Follow-up technique - primary escape method after successfully reaching mount bottom
 
-- [[Hip Escape from Back Control]] - Related escape - shares hip escape mechanics applied from a different bad position
+- [[Transitions/Hip Escape from Back Control]] - Related escape - shares hip escape mechanics applied from a different bad position
 
-- [[Back Control]] - Counter risk position - failed escape may lead to opponent taking back control
+- [[Positions/Back Control]] - Counter risk position - failed escape may lead to opponent taking back control
 
-- [[Half Guard]] - Recovery target - aggressive hip escape may reach half guard directly
+- [[Positions/Half Guard]] - Recovery target - aggressive hip escape may reach half guard directly
 
-- [[Crucifix]] - Related control position - shares arm-trapping mechanics with mounted crucifix
+- [[Positions/Crucifix]] - Related control position - shares arm-trapping mechanics with mounted crucifix
 
 
 </section>

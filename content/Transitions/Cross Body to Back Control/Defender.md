@@ -154,7 +154,7 @@ description: "Master defensive strategies against Cross Body to Back Control. Le
 
 As the defender against the Cross Body to Back Control transition, you are in turtle position with the opponent mounted perpendicularly across your back, and they are now attempting to rotate behind you to establish full back control with hooks. Your defensive window is narrow but well-defined: the rotation phase creates momentary pressure shifts that you can exploit with properly timed defensive responses. The critical understanding is that once full back control with both hooks is established, your escape probability drops dramatically—so defense during the transition itself is far more efficient than defense after back control is consolidated. Every defensive action must be immediate and purposeful, targeting the specific phase of the transition where the attacker is most vulnerable to disruption.
 
-**Opponent's Starting Position**: [[Cross Body Ride]] (Top)
+**Opponent's Starting Position**: [[Positions/Cross Body Ride]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ As the defender against the Cross Body to Back Control transition, you are in tu
 ### 1. Tuck elbows and tighten turtle to deny seatbelt establishment
 
 - **When to use**: Immediately when you feel the opponent's arm beginning to thread under your armpit—this is the earliest and most effective defensive window before the transition can begin
-- **Targets**: [[Cross Body Ride]]
+- **Targets**: [[Positions/Cross Body Ride]]
 - **If successful**: The opponent cannot establish the seatbelt anchor and must return to maintaining cross body ride without the grip needed to initiate the back take rotation
 - **Risk**: Staying in tight turtle long-term allows the opponent to work alternative entries including crucifix and clock choke setups
 
 ### 2. Sit through toward the opponent's near hip during the rotation phase
 
 - **When to use**: When you feel the opponent's weight shift as they begin walking their hips behind you—the rotation creates a momentary pressure gap on your near side that enables the sit-through
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You rotate underneath the opponent and recover half guard or open guard, completely defeating the back take and establishing a defensible guard position
 - **Risk**: If mistimed, the sit-through can accelerate the back take by exposing your back further to the opponent's chest as you rotate
 
 ### 3. Explosive granby roll in the direction opposite to the opponent's rotation
 
 - **When to use**: When the opponent has committed to rotating behind you and their weight has shifted past the perpendicular angle, creating momentum you can use to roll through
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You invert and recover guard position, often ending up in half guard or closed guard with the opponent on top but facing you rather than behind you
 - **Risk**: A poorly timed granby with an attached opponent can result in giving up back control even faster if they follow the roll with their seatbelt intact
 
 ### 4. Stand explosively and peel seatbelt grips before hooks are inserted
 
 - **When to use**: When the opponent has begun rotating but has not yet inserted any hooks—standing eliminates their ability to complete the hook insertion while their weight is in transition
-- **Targets**: [[Cross Body Ride]]
+- **Targets**: [[Positions/Cross Body Ride]]
 - **If successful**: You reach standing position where you can address the seatbelt grip and work to disengage entirely, resetting to a neutral standing engagement
 - **Risk**: If the opponent maintains seatbelt during your stand attempt, they can transition to standing back control which is equally dangerous
 
@@ -226,11 +226,11 @@ As the defender against the Cross Body to Back Control transition, you are in tu
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a sit-through or granby roll during the opponent's rotation phase when their perpendicular pressure momentarily lightens. The rotation creates a weight shift you can exploit by moving in the opposite direction, enabling you to turn and face the opponent and establish half guard entanglement on their advancing leg.
 
-### → [[Cross Body Ride]]
+### → [[Positions/Cross Body Ride]]
 
 Deny the seatbelt grip by keeping elbows tucked tight to your ribs and maintaining a compact turtle structure. Without the seatbelt anchor, the opponent cannot safely initiate the rotation and must remain in the cross body ride position, buying you time to attempt turtle escapes or wait for a more favorable defensive opportunity.
 

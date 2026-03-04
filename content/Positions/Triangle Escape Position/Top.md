@@ -209,23 +209,23 @@ The position demands sophisticated decision-making about when to prioritize surv
 
 ## Available Attacks
 
-### [[Stack Pass]] (17% of attempts)
+### [[Transitions/Stack Pass]] (17% of attempts)
 
-### [[Posture Recovery]] (33% of attempts)
+### [[Transitions/Posture Recovery]] (33% of attempts)
 
-### [[Triangle Escape]] (17% of attempts)
+### [[Transitions/Triangle Escape]] (17% of attempts)
 
-### [[Arm Extraction]] (12% of attempts)
+### [[Transitions/Arm Extraction]] (12% of attempts)
 
-### [[Pass to Side Control]] (5% of attempts)
+### [[Transitions/Pass to Side Control]] (5% of attempts)
 
-### [[Standing up in Base]] (12% of attempts)
+### [[Transitions/Standing up in Base]] (12% of attempts)
 
-### [[Complete Triangle Escape from Top]] (2% of attempts)
+### [[Transitions/Complete Triangle Escape from Top]] (2% of attempts)
 
-### [[Posture in Triangle]] (1% of attempts)
+### [[Transitions/Posture in Triangle]] (1% of attempts)
 
-### [[Guard Pass from Triangle Escape]] (1% of attempts)
+### [[Transitions/Guard Pass from Triangle Escape]] (1% of attempts)
 
 
 
@@ -236,23 +236,23 @@ The position demands sophisticated decision-making about when to prioritize surv
 ## Decision Making from This Position
 
 **If triangle is not yet fully locked and opponent is still adjusting position:**
-- Execute **[[Posture Recovery]]** → [[Combat Base]] (Probability: 60%)
-- Execute **[[Arm Extraction]]** → [[Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Combat Base]] (Probability: 60%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
 **If triangle is locked but not yet tight with space at neck:**
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Triangle Escape]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Triangle Escape]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If triangle is locked tight and opponent has proper angle:**
-- Execute **[[Standing up in Base]]** → [[Open Guard]] (Probability: 45%)
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If opponent begins transitioning to armbar from triangle position:**
-- Execute **[[Armbar Defense]]** → [[Closed Guard]] (Probability: 50%)
-- Execute **[[Posture Recovery]]** → [[Combat Base]] (Probability: 40%)
+- Execute **[[Transitions/Armbar Defense]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Combat Base]] (Probability: 40%)
 
 
 
@@ -386,13 +386,13 @@ Partner alternates between tightening triangle and attempting armbar transitions
 
 ## Related Positions and Techniques
 
-- **[[Triangle Control]]** - Opposite perspective - understanding opponent's objectives improves defense
-- **[[Combat Base]]** - Target position for posture recovery and defensive stabilization
-- **[[Stack Pass]]** - Primary offensive escape transition from triangle position
-- **[[Armbar Control]]** - Common transition opponent attempts from triangle if escape is defended
-- **[[Defensive Posture]]** - Fundamental concept for maintaining structure under submission pressure
-- **[[Posture Recovery]]** - Essential transition technique for triangle escape success
-- **[[Armbar Defense]]** - Critical defensive skill when opponent transitions from triangle to armbar
+- **[[Positions/Triangle Control]]** - Opposite perspective - understanding opponent's objectives improves defense
+- **[[Positions/Combat Base]]** - Target position for posture recovery and defensive stabilization
+- **[[Transitions/Stack Pass]]** - Primary offensive escape transition from triangle position
+- **[[Positions/Armbar Control]]** - Common transition opponent attempts from triangle if escape is defended
+- **[[Principles/Defensive Posture]]** - Fundamental concept for maintaining structure under submission pressure
+- **[[Transitions/Posture Recovery]]** - Essential transition technique for triangle escape success
+- **[[Transitions/Armbar Defense]]** - Critical defensive skill when opponent transitions from triangle to armbar
 
 
 </section>

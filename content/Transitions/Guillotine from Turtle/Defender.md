@@ -156,7 +156,7 @@ Defending the guillotine from turtle is one of the most critical survival skills
 
 The defensive framework operates on a timeline: early recognition allows posture-based prevention, mid-stage recognition requires active grip fighting and rotation, and late-stage defense demands explosive movement to create space or reverse position. The defender's primary weapons are chin protection, shoulder rotation toward the choking arm, active hand fighting to prevent grip consolidation, and explosive movement to change the positional dynamic before the attacker can settle into a finishing configuration. Understanding this timeline and drilling responses at each stage transforms the guillotine from a high-percentage threat into a manageable position with clear escape pathways.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The defensive framework operates on a timeline: early recognition allows posture
 ### 1. Chin tuck with shoulder rotation toward the choking arm, then sit through to guard recovery
 
 - **When to use**: Early stage when attacker first begins threading arm around neck but grip is not yet locked. This is the highest-percentage defense because it prevents the choke from being established.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Attacker's arm slides off your neck without securing depth, returning you to standard turtle position where you can continue guard recovery or escape sequences
 - **Risk**: If rotation is too slow, attacker may deepen grip during your turn and transition to arm-in guillotine variation
 
 ### 2. Two-on-one grip strip on the choking wrist, pulling it away from your neck while driving your head through to the opposite side
 
 - **When to use**: Mid-stage when attacker has arm around neck but has not yet connected their hands together. There is a brief window between arm threading and grip consolidation where stripping is effective.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Breaking the attacker's grip before consolidation returns the exchange to a front headlock battle where you can resume hand fighting and escape attempts
 - **Risk**: Using both hands to strip the grip temporarily removes your posting base, and if the strip fails, you are now in a worse defensive position with compromised structure
 
 ### 3. Explosive granby roll away from the choking arm to invert and recover guard position
 
 - **When to use**: When attacker's weight is committed forward and high on your back during the base-breaking phase. Their forward commitment makes it difficult to follow your roll, and their grip may loosen during the inversion.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You escape the guillotine grip entirely and recover to closed guard or half guard, reversing the positional dynamic and potentially catching the attacker in your guard
 - **Risk**: If attacker follows the roll while maintaining grip, they end up in top guillotine control with superior finishing position. Poorly timed granby rolls can accelerate the choke.
 
 ### 4. Explosive standup by posting hands wide and driving upward through the attacker's chest pressure while turning to face them
 
 - **When to use**: When attacker has not fully committed their weight forward and your base is still intact. Works best in early stage before grip is consolidated or base is broken.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Standing breaks the attacker's positional advantage and forces them to either release the grip attempt or transition to a standing guillotine where you have better defensive options
 - **Risk**: If attacker has deep grip already secured, standing with a locked guillotine dramatically worsens your position and may accelerate the finish
 
@@ -227,11 +227,11 @@ The defensive framework operates on a timeline: early recognition allows posture
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Prevent the guillotine from being established through early chin tuck and shoulder rotation, strip the grip with two-on-one hand fighting before hands connect, or explode to standing when attacker has not yet committed weight forward. The key is acting during the setup phase before the grip is locked, making prevention the primary defensive strategy.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Execute a well-timed granby roll when attacker commits weight forward for the base-breaking phase. Use their forward momentum against them by inverting away from the choking arm, clearing your head through the gap as you rotate. Land in guard recovery position facing the attacker. This requires precise timing and commitment to the roll.
 

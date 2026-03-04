@@ -158,7 +158,7 @@ The most effective defensive approach is layered prevention rather than single-p
 
 Understanding the escaping player's decision points allows you to anticipate and counter each phase. They must verify grip depth is shallow, establish combat base, drive to standing, and remove hooks sequentially. Disrupting any single phase collapses the entire escape sequence and returns them to a defensive position where your submission threats remain active.
 
-**Opponent's Starting Position**: [[Invisible Collar]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Understanding the escaping player's decision points allows you to anticipate and
 ### 1. Deepen collar grip and apply immediate choking pressure by rotating your forearm toward your chest and driving knuckles into their neck
 
 - **When to use**: The moment you feel two-on-one wrist fighting on your collar hand, before they create any significant slack in the grip
-- **Targets**: [[Invisible Collar]]
+- **Targets**: [[Positions/Rubber Guard/Invisible Collar]]
 - **If successful**: Defender is forced to abort the standing attempt and return to pure survival defense, resetting to the starting position where your submission threats remain active
 - **Risk**: If your grip is already partially stripped, forcing the choke may result in a shallow attempt that wastes energy and gives defender confidence their grip fighting is working
 
 ### 2. Lock body triangle by crossing your feet into figure-four configuration around their waist, eliminating the hip mobility needed for combat base
 
 - **When to use**: When you feel the defender beginning to shift weight onto one hip and post a foot, indicating combat base transition
-- **Targets**: [[Invisible Collar]]
+- **Targets**: [[Positions/Rubber Guard/Invisible Collar]]
 - **If successful**: Body triangle prevents the hip escape to combat base entirely, trapping them flat and maintaining full back control with collar grip intact for continued submission attacks
 - **Risk**: Body triangle takes time to establish and if the defender is already partially standing, you may not complete the lock before they drive upward
 
 ### 3. Execute mat return by driving hips forward, extending your legs, and hooking their far ankle to collapse them back to the mat in a controlled takedown
 
 - **When to use**: When the defender has reached their feet but still has at least one hook in—the standing phase before hook removal is the optimal window
-- **Targets**: [[Invisible Collar]]
+- **Targets**: [[Positions/Rubber Guard/Invisible Collar]]
 - **If successful**: Defender is driven back to the mat with hooks reinserted and collar grip maintained or improved, resetting the position with their energy depleted from the failed escape attempt
 - **Risk**: If the defender has removed one hook and established strong forward lean, the mat return may fail and create momentum they can use to accelerate separation
 
 ### 4. Release collar grip and transition to rear naked choke by threading your arm under their chin during the grip-fighting phase when their hands are occupied with your collar wrist
 
 - **When to use**: When the defender commits both hands to two-on-one control on your collar wrist, leaving their neck temporarily unprotected on the opposite side
-- **Targets**: [[Invisible Collar]]
+- **Targets**: [[Positions/Rubber Guard/Invisible Collar]]
 - **If successful**: You establish a rear naked choke threat that forces them to abandon the standing escape entirely and redirect both hands to neck defense, maintaining back control with a new submission angle
 - **Risk**: The grip transition creates a 1-2 second window where you have neither choke established, and an alert defender may accelerate their standing escape during this gap
 
@@ -229,11 +229,11 @@ Understanding the escaping player's decision points allows you to anticipate and
 
 ## Best-Case Outcomes for Defender
 
-### → [[Invisible Collar]]
+### → [[Positions/Rubber Guard/Invisible Collar]]
 
 Deepen collar grip at the first sign of two-on-one wrist fighting to make the standing escape self-defeating. Simultaneously tighten hooks and drive chest weight forward to prevent the postural change needed for combat base. The combination of deep grip and active hooks makes the escape too dangerous to attempt.
 
-### → [[Invisible Collar]]
+### → [[Positions/Rubber Guard/Invisible Collar]]
 
 Execute a mat return during the standing phase by driving your hips forward and hooking their far ankle. Time this for the moment they reach their feet but before they begin removing hooks. The mat return collapses them back to starting position with depleted energy, giving you improved control for the next submission attempt.
 

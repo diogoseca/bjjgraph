@@ -21,7 +21,7 @@ The technique works by first establishing structural frames against the opponent
 
 Strategically, this escape represents disciplined, methodical KOB defense. Rather than panicking under pressure or wasting energy pushing against the knee with extended arms, the practitioner uses proper biomechanics — frames create structure, the bridge creates momentary space, and the shrimp creates the angle needed for guard recovery. The technique chains naturally with knee shield insertions, underhook battles, and the full half guard offensive system. Against opponents who follow the hip escape aggressively, the space created during their pursuit often enables even more favorable guard recoveries.
 
-**From Position**: [[Knee on Belly]] (Bottom)
+**From Position**: [[Positions/Knee on Belly]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape represents disciplined, methodical KOB defense. Rathe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Knee on Belly]] | 30% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Knee on Belly]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Frame and Shrimp from Knee on Belly sits within the broader KOB escape syste
 ## Related Techniques
 
 
-- [[Knee on Belly]] - Source position — this escape is initiated from Knee on Belly bottom
+- [[Positions/Knee on Belly]] - Source position — this escape is initiated from Knee on Belly bottom
 
-- [[Half Guard]] - Primary target position — successful escape recovers to half guard with offensive options
+- [[Positions/Half Guard]] - Primary target position — successful escape recovers to half guard with offensive options
 
-- [[Side Control]] - Adjacent position in the control hierarchy — opponent may drop to side control during escape
+- [[Positions/Side Control]] - Adjacent position in the control hierarchy — opponent may drop to side control during escape
 
-- [[Mount]] - Counter outcome position — opponent may advance to mount if escape timing is poor
+- [[Positions/Mount]] - Counter outcome position — opponent may advance to mount if escape timing is poor
 
-- [[Knee Shield Half Guard]] - Enhanced recovery target — inserting knee shield creates stronger defensive structure than standard half guard
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Enhanced recovery target — inserting knee shield creates stronger defensive structure than standard half guard
 
-- [[Open Guard]] - Alternative recovery target when more space is created than needed for half guard
+- [[Positions/Open Guard]] - Alternative recovery target when more space is created than needed for half guard
 
-- [[Frame and Shrimp to Guard]] - Related general-purpose escape technique sharing core framing and hip escape mechanics
+- [[Transitions/Frame and Shrimp to Guard]] - Related general-purpose escape technique sharing core framing and hip escape mechanics
 
-- [[Back Control]] - Positional threat that motivates proper escape direction — turning wrong way exposes back
+- [[Positions/Back Control]] - Positional threat that motivates proper escape direction — turning wrong way exposes back
 
-- [[Deep Half Guard]] - Advanced alternative recovery when opponent drives forward during escape attempt
+- [[Positions/Half Guard/Deep Half Guard]] - Advanced alternative recovery when opponent drives forward during escape attempt
 
-- [[Butterfly Guard]] - Alternative guard recovery when butterfly hook insertion is available during escape
+- [[Positions/Butterfly Guard]] - Alternative guard recovery when butterfly hook insertion is available during escape
 
 
 </section>

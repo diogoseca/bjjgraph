@@ -138,7 +138,7 @@ description: "Defend against the sit-out escape from side control in BJJ. Recogn
 
 As the top player in side control, defending against the sit-out requires recognizing the early indicators of this wrestling-based escape and responding before the rotation begins. The sit-out demands that the bottom player pass through a vulnerable turtle position during execution, creating a window where back control becomes available if you react decisively. Your defensive hierarchy should prioritize preventing the initial space creation at the hips that enables base building, and if the opponent establishes a base despite your pressure, immediately transitioning to back control rather than wasting energy attempting to re-flatten them. Understanding the mechanical sequence of the sit-out allows you to predict and preempt each phase, converting their escape attempt into a positional upgrade for yourself.
 
-**Opponent's Starting Position**: [[Side Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
 
@@ -176,28 +176,28 @@ As the top player in side control, defending against the sit-out requires recogn
 ### 1. Sprawl and re-establish crossface pressure to flatten opponent before they complete base building
 
 - **When to use**: As soon as you feel the opponent inserting their knee or turning to their side to build base from side control bottom
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent is flattened back to the mat and you re-establish full side control pin with heavy crossface and hip pressure
 - **Risk**: If your sprawl timing is late, the opponent may already have a solid base and your forward drive helps their rotation
 
 ### 2. Transition to back control by securing seatbelt grip and inserting hooks during the turtle phase
 
 - **When to use**: When the opponent has reached a turtle-like base but has not yet initiated the explosive sit-out rotation
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You establish dominant back control with seatbelt and hooks, upgrading from side control to the highest-value position
 - **Risk**: If the opponent's sit-out is explosive and immediate, you may miss the back take window and end up in the scramble
 
 ### 3. Follow the rotation with forward chest drive to collapse the opponent before the sit-out completes
 
 - **When to use**: When the opponent has begun the sit-out rotation but has not yet completed the 180-degree turn to face you
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Your forward pressure meets their rotation and collapses them back into a controllable position on the mat
 - **Risk**: Overcommitting to the forward drive can send you past the opponent if they switch direction mid-rotation
 
 ### 4. Hip switch to the opposite side of the opponent's rotation to cut off the sit-out path
 
 - **When to use**: When you recognize the direction of the sit-out rotation early and can reposition faster than they can complete the movement
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You re-establish side control from the opposite angle, cutting off the escape path and maintaining dominant position
 - **Risk**: The hip switch creates a brief moment of reduced pressure that a fast opponent can exploit to accelerate their rotation
 
@@ -209,11 +209,11 @@ As the top player in side control, defending against the sit-out requires recogn
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the opponent reaches turtle during their sit-out attempt, immediately secure a seatbelt grip with your over-arm across their chest and under-arm beneath their far armpit. Drive your chest into their upper back and begin inserting your near hook. The sit-out requires passing through this vulnerable turtle window, and reacting within the first second of their base-building gives you the highest percentage back take opportunity.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Maintain heavy hip-to-hip pressure throughout by keeping your hips low and sprawling your legs back when you feel the opponent attempting to create space. Drive your crossface pressure forward at the first sign of frame building to prevent them from turning to their side. React to the initial frames rather than waiting for the sit-out rotation to begin.
 

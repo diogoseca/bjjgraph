@@ -17,7 +17,7 @@ description: "Learn the Flower Sweep in BJJ. Master this fundamental closed guar
 
 The Flower Sweep is a fundamental closed guard sweep that exploits the opponent's reaction to your initial attack. Named for the circular, flowing motion that resembles a flower opening, this technique is one of the highest-percentage sweeps available from closed guard. The sweep works by creating a pendulum-like momentum that uses the opponent's forward pressure against them. What makes the Flower Sweep particularly effective is its ability to chain seamlessly with other attacks - if the opponent defends the sweep, you're already positioned for triangles, armbars, or omoplatas. The technique requires excellent hip mobility and precise timing, but once mastered, it becomes an instinctive response to the opponent's posture. The Flower Sweep is often one of the first sweeps taught to beginners due to its mechanical simplicity and high success rate, yet it remains effective at the highest levels of competition when executed with proper timing and setup.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 62%
 
 </section>
@@ -28,9 +28,9 @@ The Flower Sweep is a fundamental closed guard sweep that exploits the opponent'
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 62% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Closed Guard]] | 13% |
+| Success | [[Positions/Mount]] | 62% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 13% |
 
 
 </section>
@@ -188,25 +188,25 @@ The Flower Sweep is a cornerstone technique in the closed guard attack system an
 ## Related Techniques
 
 
-- [[Hip Bump Sweep]] - Primary combination - Hip Bump forces hand post that sets up Flower Sweep
+- [[Transitions/Hip Bump Sweep]] - Primary combination - Hip Bump forces hand post that sets up Flower Sweep
 
-- [[Scissor Sweep]] - Alternative sweep from similar positioning with different mechanics
+- [[Transitions/Scissor Sweep]] - Alternative sweep from similar positioning with different mechanics
 
-- [[Pendulum Sweep]] - Opposite-direction sweep that chains with Flower in some systems
+- [[Transitions/Pendulum Sweep]] - Opposite-direction sweep that chains with Flower in some systems
 
-- [[Triangle from Closed Guard]] - Follow-up submission when opponent defends sweep by tucking elbows
+- [[Submissions/Triangle from Closed Guard]] - Follow-up submission when opponent defends sweep by tucking elbows
 
-- [[Armbar from Guard]] - Direct attack on posted arm when opponent defends sweep
+- [[Submissions/Armbar from Guard]] - Direct attack on posted arm when opponent defends sweep
 
-- [[Omoplata from Guard]] - Alternative shoulder lock when opponent turns away during sweep defense
+- [[Submissions/Omoplata from Guard]] - Alternative shoulder lock when opponent turns away during sweep defense
 
-- [[Kimura from Guard]] - Part of fundamental closed guard system - shares grip fighting concepts
+- [[Submissions/Kimura from Guard]] - Part of fundamental closed guard system - shares grip fighting concepts
 
-- [[Closed Guard]] - Starting position - foundational guard where sweep is executed from
+- [[Positions/Closed Guard]] - Starting position - foundational guard where sweep is executed from
 
-- [[Mount]] - Ending position - primary destination when sweep is completed successfully
+- [[Positions/Mount]] - Ending position - primary destination when sweep is completed successfully
 
-- [[Butterfly Sweep]] - Related sweep using butterfly hook mechanics from open guard position
+- [[Transitions/Butterfly Sweep]] - Related sweep using butterfly hook mechanics from open guard position
 
 
 </section>

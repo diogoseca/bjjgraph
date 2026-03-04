@@ -208,55 +208,55 @@ Master practitioners understand that closed guard is not a passive holding posit
 
 ## Available Escapes
 
-### [[Hip Bump Sweep]] (25% of attempts)
+### [[Transitions/Hip Bump Sweep]] (25% of attempts)
 
-### [[Armbar from Guard]] (10% of attempts)
+### [[Submissions/Armbar from Guard]] (10% of attempts)
 
-### [[Scissor Sweep]] (8% of attempts)
+### [[Transitions/Scissor Sweep]] (8% of attempts)
 
-### [[Triangle Setup]] (8% of attempts)
+### [[Transitions/Triangle Setup]] (8% of attempts)
 
-### [[Cross Collar Choke]] (6% of attempts)
+### [[Transitions/Cross Collar Choke]] (6% of attempts)
 
-### [[Pendulum Sweep]] (6% of attempts)
+### [[Transitions/Pendulum Sweep]] (6% of attempts)
 
-### [[Guillotine Setup]] (5% of attempts)
+### [[Transitions/Guillotine Setup]] (5% of attempts)
 
-### [[Kimura Sweep]] (4% of attempts)
+### [[Transitions/Kimura Sweep]] (4% of attempts)
 
-### [[Flower Sweep]] (3% of attempts)
+### [[Transitions/Flower Sweep]] (3% of attempts)
 
-### [[Kimura to Back Take]] (3% of attempts)
+### [[Transitions/Kimura to Back Take]] (3% of attempts)
 
-### [[Elevator Sweep]] (2% of attempts)
+### [[Transitions/Elevator Sweep]] (2% of attempts)
 
-### [[Overhook Sweep]] (2% of attempts)
+### [[Transitions/Overhook Sweep]] (2% of attempts)
 
-### [[Omoplata Sweep]] (2% of attempts)
+### [[Transitions/Omoplata Sweep]] (2% of attempts)
 
-### [[Lumberjack Sweep]] (1% of attempts)
+### [[Transitions/Lumberjack Sweep]] (1% of attempts)
 
-### [[Hip Bump Sweep V2]] (1% of attempts)
+### [[Transitions/Hip Bump Sweep V2]] (1% of attempts)
 
-### [[Closed Guard to Omoplata]] (1% of attempts)
+### [[Transitions/Closed Guard to Omoplata]] (1% of attempts)
 
-### [[Omoplata to Back]] (1% of attempts)
+### [[Transitions/Omoplata to Back]] (1% of attempts)
 
-### [[Muscle Sweep]] (1% of attempts)
+### [[Transitions/Muscle Sweep]] (1% of attempts)
 
-### [[Closed Guard to Overhook Guard]] (1% of attempts)
+### [[Transitions/Closed Guard to Overhook Guard]] (1% of attempts)
 
-### [[High Guard to Rubber Guard]] (1% of attempts)
+### [[Transitions/High Guard to Rubber Guard]] (1% of attempts)
 
-### [[Transition to Diamond Guard]] (1% of attempts)
+### [[Transitions/Transition to Diamond Guard]] (1% of attempts)
 
-### [[Rolling Armbar]] (2% of attempts)
+### [[Submissions/Rolling Armbar]] (2% of attempts)
 
-### [[Spinning Armbar]] (2% of attempts)
+### [[Submissions/Spinning Armbar]] (2% of attempts)
 
-### [[Tarikoplata]] (2% of attempts)
+### [[Submissions/Tarikoplata]] (2% of attempts)
 
-### [[Triangle from Closed Guard]] (2% of attempts)
+### [[Submissions/Triangle from Closed Guard]] (2% of attempts)
 
 
 
@@ -267,28 +267,28 @@ Master practitioners understand that closed guard is not a passive holding posit
 ## Decision Making from This Position
 
 **If opponent maintains strong upright posture with hands on hips or chest creating distance:**
-- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Scissor Sweep]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Scissor Sweep]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent drives forward with shoulder pressure attempting to flatten you and establish control:**
-- Execute **[[Pendulum Sweep]]** → [[Mount]] (Probability: 55%)
-- Execute **[[Flower Sweep]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Flower Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent places arm inside your guard to frame or attempt guard break sequence:**
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 50%)
-- Execute **[[Omoplata Sweep]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 50%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent posts hand on mat to defend sweep or create stable base against off-balancing:**
-- Execute **[[Kimura to Back Take]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Omoplata to Back]]** → [[Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Kimura to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 **If opponent stands up to break guard or create distance for standing guard break:**
-- Execute **[[Pendulum Sweep]]** → [[Mount]] (Probability: 40%)
-- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 35%)
+- Execute **[[Transitions/Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 40%)
+- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 35%)
 
 
 
@@ -397,17 +397,17 @@ Partner attempts to break and pass closed guard using any legal methods while yo
 
 ## Related Positions and Techniques
 
-- **[[Open Guard]]** - Natural transition when guard is opened - connected position family
-- **[[Half Guard]]** - Common transition during guard passing defense or failed sweeps
-- **[[Triangle Control]]** - Primary submission position accessible from closed guard attacks
-- **[[Mount]]** - Most common target position for sweeps from closed guard
-- **[[Back Control]]** - Alternative sweep target via kimura or omoplata transitions
-- **[[Rubber Guard]]** - Advanced variation using extreme flexibility for enhanced control
-- **[[Spider Guard]]** - Alternative guard system when closed guard is broken
-- **[[Combat Base]]** - Opponent's defensive posture attempting to counter closed guard offense
-- **[[Hip Bump Sweep]]** - Fundamental sweep technique from this position
-- **[[Scissor Sweep]]** - High-percentage sweep utilizing angle creation
-- **[[Armbar from Guard]]** - Primary submission attack from broken posture
+- **[[Positions/Open Guard]]** - Natural transition when guard is opened - connected position family
+- **[[Positions/Half Guard]]** - Common transition during guard passing defense or failed sweeps
+- **[[Positions/Triangle Control]]** - Primary submission position accessible from closed guard attacks
+- **[[Positions/Mount]]** - Most common target position for sweeps from closed guard
+- **[[Positions/Back Control]]** - Alternative sweep target via kimura or omoplata transitions
+- **[[Positions/Rubber Guard]]** - Advanced variation using extreme flexibility for enhanced control
+- **[[Positions/Spider Guard]]** - Alternative guard system when closed guard is broken
+- **[[Positions/Combat Base]]** - Opponent's defensive posture attempting to counter closed guard offense
+- **[[Transitions/Hip Bump Sweep]]** - Fundamental sweep technique from this position
+- **[[Transitions/Scissor Sweep]]** - High-percentage sweep utilizing angle creation
+- **[[Submissions/Armbar from Guard]]** - Primary submission attack from broken posture
 
 
 </section>

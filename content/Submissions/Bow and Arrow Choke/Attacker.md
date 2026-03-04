@@ -182,7 +182,7 @@ description: "How to execute Bow and Arrow Choke in BJJ. Attacking perspective w
 
 The Bow and Arrow Choke is a highly effective gi-based blood choke executed from back control that combines collar control with leg configuration to create a powerful finishing position. Named for its distinctive shape where the practitioner's body resembles a drawn bow, this submission leverages the opponent's own lapel and pant leg to generate unstoppable pressure on both carotid arteries simultaneously. The technique is particularly valued in gi competition for its reliability once the position is secured, as it requires minimal strength and relies primarily on proper body mechanics and leverage. The bow and arrow creates a unique predicament where the opponent cannot effectively defend both the choking pressure from the collar grip and the stretching tension from the leg control. This submission is especially effective when transitioning from standard back control positions, as opponents often expose the necessary grips while defending against the rear naked choke. The technique represents a fundamental principle in advanced gi grappling: using the opponent's own garments as force multipliers to create inescapable finishing positions.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 
 
 </section>
@@ -239,8 +239,8 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -251,9 +251,9 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 
 - **Tucking chin and grabbing choking arm with both hands** (Effectiveness: Low) - Your Response: The bow and arrow does not require neck access like rear naked choke. Continue extending legs to generate pressure through the collar grip regardless of chin position. The leverage from your body extension overcomes grip fighting. → Leads to [[game-over]]
 - **Attempting to roll toward you (into the choke)** (Effectiveness: Low) - Your Response: Use this rolling momentum to help establish the perpendicular angle faster. As they roll toward you, accelerate your hip rotation and immediately establish the bow configuration. Their own movement assists your positional transition. → Leads to [[game-over]]
-- **Straightening their far leg and creating rigid posture** (Effectiveness: Medium) - Your Response: If they prevent the leg control, shift to a modified finish by placing your bottom foot on their near hip and your top leg straight across their far side. Use this configuration to generate the same bow tension through different leverage points. → Leads to [[Back Control]]
-- **Turning away from you (rolling away from the choke)** (Effectiveness: Medium) - Your Response: This is their highest-percentage defense if executed early. Counter by immediately tightening your bottom hook and using your collar grip to pull them back toward you. If they succeed in creating space, transition back to standard back control and reset the position. → Leads to [[Closed Guard]]
-- **Grabbing your bottom leg to prevent extension** (Effectiveness: Medium) - Your Response: If they secure your extending leg, use your top leg more actively by pushing off their hip to create rotational force. You can also transition to a modified bow and arrow by accepting less leg extension but increasing the pulling force on the collar grip. → Leads to [[Back Control]]
+- **Straightening their far leg and creating rigid posture** (Effectiveness: Medium) - Your Response: If they prevent the leg control, shift to a modified finish by placing your bottom foot on their near hip and your top leg straight across their far side. Use this configuration to generate the same bow tension through different leverage points. → Leads to [[Positions/Back Control]]
+- **Turning away from you (rolling away from the choke)** (Effectiveness: Medium) - Your Response: This is their highest-percentage defense if executed early. Counter by immediately tightening your bottom hook and using your collar grip to pull them back toward you. If they succeed in creating space, transition back to standard back control and reset the position. → Leads to [[Positions/Closed Guard]]
+- **Grabbing your bottom leg to prevent extension** (Effectiveness: Medium) - Your Response: If they secure your extending leg, use your top leg more actively by pushing off their hip to create rotational force. You can also transition to a modified bow and arrow by accepting less leg extension but increasing the pulling force on the collar grip. → Leads to [[Positions/Back Control]]
 
 
 </section>

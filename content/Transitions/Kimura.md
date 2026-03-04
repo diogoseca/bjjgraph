@@ -21,7 +21,7 @@ From a strategic standpoint, the Kimura from Crucifix serves as a secondary atta
 
 The mechanics of executing the Kimura from Crucifix differ from standard Kimura positions because you're attacking from behind rather than from a perpendicular angle. This requires specific adjustments in grip positioning and rotational force application. The crucifix position provides exceptional control throughout the submission attempt, making it difficult for the opponent to escape or create defensive angles even when they recognize the attack developing.
 
-**From Position**: [[Crucifix]] (Top)
+**From Position**: [[Positions/Crucifix]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -33,8 +33,8 @@ The mechanics of executing the Kimura from Crucifix differ from standard Kimura 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Crucifix]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Failure | [[Positions/Crucifix]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -191,21 +191,21 @@ The Kimura from Crucifix functions as a secondary attack option within the cruci
 ## Related Techniques
 
 
-- [[Crucifix]] - Starting position
+- [[Positions/Crucifix]] - Starting position
 
-- [[Choke from Crucifix]] - Primary alternative attack that creates Kimura openings
+- [[Transitions/Choke from Crucifix]] - Primary alternative attack that creates Kimura openings
 
-- [[Armbar from Crucifix]] - Chain attack when opponent defends by straightening arm
+- [[Transitions/Armbar from Crucifix]] - Chain attack when opponent defends by straightening arm
 
-- [[Rear Naked Choke]] - Complementary neck attack creating arm exposure
+- [[Transitions/Rear Naked Choke]] - Complementary neck attack creating arm exposure
 
-- [[Kimura from Side Control]] - Same submission from different position with similar mechanics
+- [[Submissions/Kimura from Side Control]] - Same submission from different position with similar mechanics
 
-- [[Kimura Trap]] - Related control concept using Kimura grip
+- [[Positions/Kimura Trap]] - Related control concept using Kimura grip
 
-- [[Back Control]] - Entry position for crucifix setup
+- [[Positions/Back Control]] - Entry position for crucifix setup
 
-- [[Mounted Crucifix]] - Advanced crucifix variation with enhanced Kimura leverage
+- [[Positions/Mount/Mounted Crucifix]] - Advanced crucifix variation with enhanced Kimura leverage
 
 
 </section>

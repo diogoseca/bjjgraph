@@ -21,7 +21,7 @@ Strategically, the Straight Armbar functions as the primary limb attack within t
 
 The execution demands precise hip positioning and controlled transition from crucifix control to armbar finishing position. The critical challenge is maintaining arm isolation throughout the transition. Rushing the finish before securing proper hip alignment across the elbow is the most common failure point. A systematic approach — isolate, control, align, then extend — produces the highest completion rates and prevents the opponent from extracting the arm during the transition phase.
 
-**From Position**: [[Mounted Crucifix]] (Top)
+**From Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The execution demands precise hip positioning and controlled transition from cru
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 65% |
-| Failure | [[Mounted Crucifix]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Armbar Control]] | 65% |
+| Failure | [[Positions/Mount/Mounted Crucifix]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Straight Armbar is a core component of the Mounted Crucifix attack system, f
 ## Related Techniques
 
 
-- [[Mounted Crucifix]] - Starting position — crucifix arm isolation provides the foundation for armbar entry
+- [[Positions/Mount/Mounted Crucifix]] - Starting position — crucifix arm isolation provides the foundation for armbar entry
 
-- [[Armbar Control]] - Success outcome position — where you finish or maintain submission threat
+- [[Positions/Armbar Control]] - Success outcome position — where you finish or maintain submission threat
 
-- [[Armbar from Guard]] - Related submission — shares finishing mechanics from different starting position
+- [[Submissions/Armbar from Guard]] - Related submission — shares finishing mechanics from different starting position
 
-- [[Armbar from Crucifix]] - Related technique — armbar variation from traditional (non-mounted) crucifix
+- [[Transitions/Armbar from Crucifix]] - Related technique — armbar variation from traditional (non-mounted) crucifix
 
-- [[Choke from Crucifix]] - Complementary attack — choke threat creates armbar openings and vice versa
+- [[Transitions/Choke from Crucifix]] - Complementary attack — choke threat creates armbar openings and vice versa
 
-- [[Mounted Crucifix to S Mount]] - Alternative transition — when armbar is defended, S-mount offers different attack angles
+- [[Transitions/Mounted Crucifix to S Mount]] - Alternative transition — when armbar is defended, S-mount offers different attack angles
 
-- [[Armbar from Mount]] - Related technique — shares finishing mechanics from standard mount position
+- [[Submissions/Armbar from Mount]] - Related technique — shares finishing mechanics from standard mount position
 
-- [[Gift Wrap Transition]] - Recovery option — when arm control is partially lost during armbar attempt
+- [[Transitions/Gift Wrap Transition]] - Recovery option — when arm control is partially lost during armbar attempt
 
-- [[Spinning Armbar]] - Variant technique — spinning entry offers alternative angle when direct path is blocked
+- [[Submissions/Spinning Armbar]] - Variant technique — spinning entry offers alternative angle when direct path is blocked
 
-- [[Armbar Defense]] - Counter technique — understanding defenses improves your ability to overcome them
+- [[Transitions/Armbar Defense]] - Counter technique — understanding defenses improves your ability to overcome them
 
 
 </section>

@@ -208,27 +208,27 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 
 ## Available Escapes
 
-### [[Omoplata Sweep]] (30% of attempts)
+### [[Transitions/Omoplata Sweep]] (30% of attempts)
 
-### [[Triangle Setup]] (9% of attempts)
+### [[Transitions/Triangle Setup]] (9% of attempts)
 
-### [[Omoplata to Back]] (9% of attempts)
+### [[Transitions/Omoplata to Back]] (9% of attempts)
 
-### [[Lapel Elevator Sweep]] (10% of attempts)
+### [[Transitions/Lapel Elevator Sweep]] (10% of attempts)
 
-### [[X-Guard Sweep]] (11% of attempts)
+### [[Transitions/X-Guard Sweep]] (11% of attempts)
 
-### [[De La Riva Sweep]] (10% of attempts)
+### [[Transitions/De La Riva Sweep]] (10% of attempts)
 
-### [[Bolo Sweep]] (8% of attempts)
+### [[Transitions/Bolo Sweep]] (8% of attempts)
 
-### [[Triangle from Guard]] (8% of attempts)
+### [[Transitions/Triangle from Guard]] (8% of attempts)
 
-### [[Collar Drag from Worm Guard]] (3% of attempts)
+### [[Transitions/Collar Drag from Worm Guard]] (3% of attempts)
 
-### [[Worm Guard Sweep]] (1% of attempts)
+### [[Transitions/Worm Guard Sweep]] (1% of attempts)
 
-### [[Worm to Squid Guard]] (1% of attempts)
+### [[Transitions/Worm to Squid Guard]] (1% of attempts)
 
 
 
@@ -239,23 +239,23 @@ Worm Guard Bottom is an innovative lapel-based guard system developed by Keenan 
 ## Decision Making from This Position
 
 **If opponent establishes strong posture and attempts to break lapel grip by standing or pulling backward:**
-- Execute **[[X-Guard Sweep]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 50%)
+- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 50%)
 
 
 **If opponent circles away from the lapel-wrapped leg trying to escape control mechanism:**
-- Execute **[[Omoplata Sweep]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Omoplata to Back]]** → [[Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 70%)
 
 
 **If opponent drives forward with pressure attempting to smash through guard structure:**
-- Execute **[[De La Riva Sweep]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Lapel Elevator Sweep]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Lapel Elevator Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent attempts to clear lapel wrap by extracting their trapped leg:**
-- Execute **[[Triangle from Guard]]** → [[Triangle Control]] (Probability: 45%)
-- Execute **[[Bolo Sweep]]** → [[Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle from Guard]]** → [[Positions/Triangle Control]] (Probability: 45%)
+- Execute **[[Transitions/Bolo Sweep]]** → [[Positions/Back Control]] (Probability: 50%)
 
 
 
@@ -389,17 +389,17 @@ Start in neutral open guard. Both partners grip fight—you attempt to establish
 
 ## Related Positions and Techniques
 
-- **[[Worm Guard]]** - Hub position for both perspectives
-- **[[Lapel Guard]]** - Parent category - worm guard is specialized lapel guard variation
-- **[[Squid Guard]]** - Advanced progression - adds additional leg control to worm structure
-- **[[Lasso Guard]]** - Similar control mechanism - uses leg threading for control
-- **[[Spider Guard]]** - Complementary guard - can transition between systems
-- **[[De La Riva Guard]]** - Related guard system - similar leg positioning concepts
-- **[[X-Guard]]** - Common transition target - frequently entered from worm sweeps
-- **[[Triangle Control]]** - Primary submission target - high-percentage finish from worm
-- **[[Omoplata Control]]** - Primary attack - signature submission from worm guard
-- **[[Back Control]]** - High-value transition - omoplata to back is key sequence
-- **[[Ringworm Guard]]** - Related lapel guard with similar mechanics
+- **[[Positions/Worm Guard]]** - Hub position for both perspectives
+- **[[Positions/Lapel Guard]]** - Parent category - worm guard is specialized lapel guard variation
+- **[[Positions/Squid Guard]]** - Advanced progression - adds additional leg control to worm structure
+- **[[Positions/Lasso Guard]]** - Similar control mechanism - uses leg threading for control
+- **[[Positions/Spider Guard]]** - Complementary guard - can transition between systems
+- **[[Positions/De La Riva Guard]]** - Related guard system - similar leg positioning concepts
+- **[[Positions/X-Guard]]** - Common transition target - frequently entered from worm sweeps
+- **[[Positions/Triangle Control]]** - Primary submission target - high-percentage finish from worm
+- **[[Positions/Omoplata Control]]** - Primary attack - signature submission from worm guard
+- **[[Positions/Back Control]]** - High-value transition - omoplata to back is key sequence
+- **[[Positions/Ringworm Guard]]** - Related lapel guard with similar mechanics
 
 
 </section>

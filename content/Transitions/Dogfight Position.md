@@ -21,7 +21,7 @@ The technique represents a fundamental bridge between defensive guard recovery a
 
 Strategically, the dogfight is particularly valuable against heavy passers who rely on grinding pressure. By coming up rather than staying flat, you deny their preferred passing mechanics and force them into a scramble they may be less comfortable with. Success requires excellent timing, strong underhook fighting skills, and the ability to chain multiple wrestling-based attacks from the kneeling position.
 
-**From Position**: [[Leg Weave]] (Bottom)
+**From Position**: [[Positions/Leg Weave]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the dogfight is particularly valuable against heavy passers who r
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Dogfight Position]] | 55% |
-| Failure | [[Leg Weave]] | 25% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Dogfight Position]] | 55% |
+| Failure | [[Positions/Leg Weave]] | 25% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -185,23 +185,23 @@ The Dogfight Position transition occupies a critical junction in the half guard 
 ## Related Techniques
 
 
-- [[Leg Weave]] - Starting position from which this transition is most commonly executed
+- [[Positions/Leg Weave]] - Starting position from which this transition is most commonly executed
 
-- [[Dogfight Position]] - Target position achieved upon successful completion of this transition
+- [[Positions/Dogfight Position]] - Target position achieved upon successful completion of this transition
 
-- [[Half Guard]] - Parent guard system where dogfight opportunities frequently arise
+- [[Positions/Half Guard]] - Parent guard system where dogfight opportunities frequently arise
 
-- [[Deep Half Guard]] - Alternative escape route when dogfight is countered by opponent's sprawl
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative escape route when dogfight is countered by opponent's sprawl
 
-- [[Back Take]] - Follow-up option from dogfight when opponent's back becomes exposed
+- [[Transitions/Back Take]] - Follow-up option from dogfight when opponent's back becomes exposed
 
-- [[Old School Sweep]] - Primary follow-up sweep attack from achieved dogfight position with underhook
+- [[Transitions/Old School Sweep]] - Primary follow-up sweep attack from achieved dogfight position with underhook
 
-- [[Frame and Shrimp to Guard]] - Prerequisite framing skills needed to create space for the dogfight entry
+- [[Transitions/Frame and Shrimp to Guard]] - Prerequisite framing skills needed to create space for the dogfight entry
 
-- [[Knee Shield Half Guard]] - Alternative defensive recovery target if dogfight is not achievable
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative defensive recovery target if dogfight is not achievable
 
-- [[Side Control]] - Counter outcome position when opponent successfully prevents the rise and completes pass
+- [[Positions/Side Control]] - Counter outcome position when opponent successfully prevents the rise and completes pass
 
 
 </section>

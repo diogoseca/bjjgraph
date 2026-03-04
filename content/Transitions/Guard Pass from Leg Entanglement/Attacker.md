@@ -180,7 +180,7 @@ description: "Execute the Guard Pass from Leg Entanglement as the top player. St
 
 As the attacker executing the Guard Pass from Leg Entanglement, your objective is to systematically disengage from your opponent's leg control structures and advance to side control. This requires reading which entanglement configuration you are caught in, identifying which hooks and grips must be stripped first to minimize submission exposure, and executing the extraction in a sequence that maintains your base against sweeps throughout the pass. The attacker must balance urgency—since remaining in the entanglement allows the bottom player to improve their position toward saddle or inside ashi—with technical precision, since rushed extraction attempts create the openings that lead to sweeps, deeper entanglement, or submission finishes on your exposed heel. Success depends on establishing an upper body anchor before addressing the lower body, stripping hooks in the correct danger-priority order, and accelerating through the final pass phase once legs are cleared.
 
-**From Position**: [[Leg Entanglement]] (Top)
+**From Position**: [[Positions/Leg Entanglement]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ As the attacker executing the Guard Pass from Leg Entanglement, your objective i
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Leg Entanglement]] | 40% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Leg Entanglement]] | 40% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -242,10 +242,10 @@ As the attacker executing the Guard Pass from Leg Entanglement, your objective i
 
 ## Opponent Counters
 
-- **Opponent re-pummels hooks immediately after each strip, maintaining entanglement through persistent leg activity** (Effectiveness: High) - Your Response: Increase the pace of hook stripping and use your wedging knee to occupy the space their hooks need to re-enter. If re-pummeling persists, transition to the smash pass variant where heavy downward pressure collapses their hook structure mechanically rather than stripping individual hooks. → Leads to [[Leg Entanglement]]
-- **Opponent attacks a heel hook or ankle lock during the extraction window when your foot is momentarily exposed** (Effectiveness: High) - Your Response: Immediately tuck your heel by pulling your knee to your chest and rotating your foot away from their grip. If they have secured a heel grip, address the submission threat completely before resuming extraction—never attempt to pass through an active heel hook attack. → Leads to [[Leg Entanglement]]
-- **Opponent sweeps during the drive-through phase by hooking your posted leg and using your forward momentum against you** (Effectiveness: Medium) - Your Response: Widen your base before the drive-through by posting your free leg further to the outside. If you feel the sweep loading, pause the drive and re-establish base rather than pushing through into a compromised position. Use your upper body anchor to pull the opponent flat before resuming the pass. → Leads to [[Half Guard]]
-- **Opponent transitions to a more dominant entanglement like saddle or inside ashi during your extraction attempt** (Effectiveness: High) - Your Response: Recognize the transition immediately by monitoring which direction their legs are moving. If they step over toward saddle, abort the pass and prioritize boot defense and heel protection. Address the new entanglement configuration before re-attempting the pass from the updated position. → Leads to [[Leg Entanglement]]
+- **Opponent re-pummels hooks immediately after each strip, maintaining entanglement through persistent leg activity** (Effectiveness: High) - Your Response: Increase the pace of hook stripping and use your wedging knee to occupy the space their hooks need to re-enter. If re-pummeling persists, transition to the smash pass variant where heavy downward pressure collapses their hook structure mechanically rather than stripping individual hooks. → Leads to [[Positions/Leg Entanglement]]
+- **Opponent attacks a heel hook or ankle lock during the extraction window when your foot is momentarily exposed** (Effectiveness: High) - Your Response: Immediately tuck your heel by pulling your knee to your chest and rotating your foot away from their grip. If they have secured a heel grip, address the submission threat completely before resuming extraction—never attempt to pass through an active heel hook attack. → Leads to [[Positions/Leg Entanglement]]
+- **Opponent sweeps during the drive-through phase by hooking your posted leg and using your forward momentum against you** (Effectiveness: Medium) - Your Response: Widen your base before the drive-through by posting your free leg further to the outside. If you feel the sweep loading, pause the drive and re-establish base rather than pushing through into a compromised position. Use your upper body anchor to pull the opponent flat before resuming the pass. → Leads to [[Positions/Half Guard]]
+- **Opponent transitions to a more dominant entanglement like saddle or inside ashi during your extraction attempt** (Effectiveness: High) - Your Response: Recognize the transition immediately by monitoring which direction their legs are moving. If they step over toward saddle, abort the pass and prioritize boot defense and heel protection. Address the new entanglement configuration before re-attempting the pass from the updated position. → Leads to [[Positions/Leg Entanglement]]
 
 
 </section>

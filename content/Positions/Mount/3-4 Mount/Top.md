@@ -210,25 +210,25 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 
 ## Available Attacks
 
-### [[Mount to Armbar]] (37% of attempts)
+### [[Transitions/Mount to Armbar]] (37% of attempts)
 
-### [[Mounted Triangle]] (8% of attempts)
+### [[Positions/Mount/Mounted Triangle]] (8% of attempts)
 
-### [[S-Mount Transition]] (8% of attempts)
+### [[Transitions/S-Mount Transition]] (8% of attempts)
 
-### [[Back Take]] (10% of attempts)
+### [[Transitions/Back Take]] (10% of attempts)
 
-### [[Consolidate Mount]] (16% of attempts)
+### [[Transitions/Consolidate Mount]] (16% of attempts)
 
-### [[High Mount Transition]] (8% of attempts)
+### [[Transitions/High Mount Transition]] (8% of attempts)
 
-### [[Cross Collar Choke]] (6% of attempts)
+### [[Transitions/Cross Collar Choke]] (6% of attempts)
 
-### [[3-4 Mount to S Mount]] (3% of attempts)
+### [[Transitions/3-4 Mount to S Mount]] (3% of attempts)
 
-### [[3-4 Mount to Technical Mount]] (2% of attempts)
+### [[Transitions/3-4 Mount to Technical Mount]] (2% of attempts)
 
-### [[Americana from 3-4 Mount]] (2% of attempts)
+### [[Submissions/Americana from 3-4 Mount]] (2% of attempts)
 
 
 
@@ -239,27 +239,27 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 ## Decision Making from This Position
 
 **If opponent remains flat and passive, accepting bottom position without immediate escape attempts:**
-- Execute **[[Consolidate Mount]]** → [[Mount]] (Probability: 75%)
-- Execute **[[Mount to Armbar]]** → [[Armbar Control]] (Probability: 60%)
-- Execute **[[Americana]]** → [[Kimura Trap]] (Probability: 50%)
+- Execute **[[Transitions/Consolidate Mount]]** → [[Positions/Mount]] (Probability: 75%)
+- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 60%)
+- Execute **[[Transitions/Americana]]** → [[Positions/Kimura Trap]] (Probability: 50%)
 
 
 **Else if opponent attempts to bridge explosively or turn into the mounted side to escape:**
-- Execute **[[Americana]]** → [[Kimura Trap]] (Probability: 65%)
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 60%)
-- Execute **[[Side Control to Mount]]** → [[Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Americana]]** → [[Positions/Kimura Trap]] (Probability: 65%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 **Else if opponent turns away from posted leg or exposes their back during escape attempt:**
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 70%)
-- Execute **[[S-Mount Transition]]** → [[S Mount]] (Probability: 65%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
+- Execute **[[Transitions/S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 65%)
 
 
 **Else if opponent successfully frames and begins creating space on the mounted side:**
-- Execute **[[Mount to Armbar]]** → [[Armbar Control]] (Probability: 55%)
-- Execute **[[Mounted Triangle]]** → [[Mounted Triangle]] (Probability: 45%)
-- Execute **[[Consolidate Mount]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Positions/Mount/Mounted Triangle]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 45%)
+- Execute **[[Transitions/Consolidate Mount]]** → [[Positions/Mount]] (Probability: 60%)
 
 
 
@@ -398,15 +398,15 @@ Start in 3-4 Mount position. Bottom player attempts any escape at 75% intensity.
 
 ## Related Positions and Techniques
 
-- **[[Mount]]** - Parent position - primary advancement target from 3-4 Mount
-- **[[3-4 Mount]]** - Hub page - containing both top and bottom perspectives
-- **[[Side Control]]** - Common transition target when opponent turns or escapes mounted side
-- **[[High Mount]]** - Advanced variation - higher positioning with increased submission access
-- **[[S Mount]]** - Variation - alternative asymmetric mount configuration for armbar attacks
-- **[[Technical Mount]]** - Variation - another asymmetric mount used for back take and control
-- **[[Armbar Control]]** - Primary submission target from 3-4 Mount position
-- **[[Kimura Trap]]** - Common submission control when opponent's arm becomes isolated
-- **[[Back Control]]** - Advanced transition when opponent turns away during escape attempts
+- **[[Positions/Mount]]** - Parent position - primary advancement target from 3-4 Mount
+- **[[Positions/Mount/3-4 Mount]]** - Hub page - containing both top and bottom perspectives
+- **[[Positions/Side Control]]** - Common transition target when opponent turns or escapes mounted side
+- **[[Positions/Mount/High Mount]]** - Advanced variation - higher positioning with increased submission access
+- **[[Positions/Mount/S Mount]]** - Variation - alternative asymmetric mount configuration for armbar attacks
+- **[[Positions/Mount/Technical Mount]]** - Variation - another asymmetric mount used for back take and control
+- **[[Positions/Armbar Control]]** - Primary submission target from 3-4 Mount position
+- **[[Positions/Kimura Trap]]** - Common submission control when opponent's arm becomes isolated
+- **[[Positions/Back Control]]** - Advanced transition when opponent turns away during escape attempts
 
 
 </section>

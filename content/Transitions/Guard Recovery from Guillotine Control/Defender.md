@@ -154,7 +154,7 @@ description: "Prevent guard recovery from guillotine control as the top player i
 
 As the top player escaping or defending against guillotine control, the moment the bottom player releases or loses their guillotine grip represents your best opportunity to advance position. Your objective is to capitalize on the grip transition window—the brief period when the bottom player's arms are switching from choking to framing—by driving forward with pressure, establishing passing grips, and advancing past their legs before they can recompose open guard. Understanding the bottom player's recovery sequence allows you to time your advancement to exploit the moment of weakest guard structure, converting a defensive escape from the guillotine into an offensive passing opportunity.
 
-**Opponent's Starting Position**: [[Guillotine Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Guillotine Control]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ As the top player escaping or defending against guillotine control, the moment t
 ### 1. Drive forward with heavy shoulder pressure through the grip transition window, collapsing frames before they can be established, and advance directly toward side control
 
 - **When to use**: Immediately upon feeling the guillotine grip weaken or release, before the bottom player can establish leg barriers
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Achieve side control with crossface and underhook established, consolidating dominant position from the failed guillotine attempt
 - **Risk**: If the bottom player has pre-positioned feet on hips, your forward drive runs into their leg barriers and you stall in open guard
 
 ### 2. Strip the bottom player's initial frames by swimming arms under or over their wrists while maintaining forward chest pressure to deny guard recomposition
 
 - **When to use**: When the bottom player has established initial hand frames but has not yet coordinated hip escape with leg repositioning
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: Collapse bottom player's guard structure and reset to a passing engagement where you control grips and distance
 - **Risk**: Swimming past frames momentarily removes your base, allowing the bottom player to hit a sweep if they have hooks established
 
 ### 3. Control both of the bottom player's legs by gripping pants or ankles, stacking them to one side to initiate a toreando or leg-drag pass before open guard establishes
 
 - **When to use**: When the bottom player has released the guillotine and is actively trying to position feet on your hips for distance management
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Clear their legs to one side and complete the pass to side control with established grips
 - **Risk**: Reaching for their legs creates space that the bottom player can exploit to insert butterfly hooks or close guard
 
 ### 4. Posture up and immediately establish combat base with passing grips, denying the bottom player's attempt to recompose at close range
 
 - **When to use**: When the bottom player has established partial leg barriers and close-range passing is not viable
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: Establish a standing or combat base passing position with grip control, initiating a systematic passing sequence
 - **Risk**: Creating vertical distance gives the bottom player exactly the range they need for feet-on-hips open guard
 
@@ -224,11 +224,11 @@ As the top player escaping or defending against guillotine control, the moment t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Time your forward drive to coincide with the guillotine release, advancing past the bottom player's legs before they can establish frames or feet-on-hips barriers, securing crossface and underhook to consolidate side control
 
-### → [[Guillotine Control]]
+### → [[Positions/Guillotine Control]]
 
 Strip the bottom player's transitional frames and collapse their guard structure through sustained forward pressure and grip fighting, resetting the engagement with you in a dominant passing position
 

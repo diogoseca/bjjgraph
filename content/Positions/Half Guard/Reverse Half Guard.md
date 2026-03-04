@@ -89,25 +89,25 @@ This position appears more frequently in advanced BJJ and no-gi grappling where 
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (9% of attempts)
+- **[[Transitions/Old School Sweep]]** (9% of attempts)
 
-- **[[Half Guard to Back Take]]** (41% of attempts)
+- **[[Transitions/Half Guard to Back Take]]** (41% of attempts)
 
-- **[[Underhook Sweep from Half]]** (7% of attempts)
+- **[[Transitions/Underhook Sweep from Half]]** (7% of attempts)
 
-- **[[Deep Half Entry]]** (9% of attempts)
+- **[[Transitions/Deep Half Entry]]** (9% of attempts)
 
-- **[[Half Guard Recovery]]** (13% of attempts)
+- **[[Transitions/Half Guard Recovery]]** (13% of attempts)
 
-- **[[Kimura Sweep]]** (9% of attempts)
+- **[[Transitions/Kimura Sweep]]** (9% of attempts)
 
-- **[[Guard Recovery from Reverse Half Guard]]** (7% of attempts)
+- **[[Transitions/Guard Recovery from Reverse Half Guard]]** (7% of attempts)
 
-- **[[Escape Reverse Half Guard]]** (3% of attempts)
+- **[[Transitions/Escape Reverse Half Guard]]** (3% of attempts)
 
-- **[[Invert from Reverse Half Guard]]** (1% of attempts)
+- **[[Transitions/Invert from Reverse Half Guard]]** (1% of attempts)
 
-- **[[Sweep from Reverse Half Guard]]** (1% of attempts)
+- **[[Transitions/Sweep from Reverse Half Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -168,23 +168,23 @@ This position appears more frequently in advanced BJJ and no-gi grappling where 
 ### Available Transitions
 
 
-- **[[Leg Drag Pass]]** (24% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (24% of attempts)
 
-- **[[Knee Slice from Half]]** (12% of attempts)
+- **[[Transitions/Knee Slice from Half]]** (12% of attempts)
 
-- **[[Crossface Pass]]** (11% of attempts)
+- **[[Transitions/Crossface Pass]]** (11% of attempts)
 
-- **[[Smash Pass]]** (12% of attempts)
+- **[[Transitions/Smash Pass]]** (12% of attempts)
 
-- **[[Crab Ride to Back]]** (12% of attempts)
+- **[[Transitions/Crab Ride to Back]]** (12% of attempts)
 
-- **[[Back Step Pass]]** (11% of attempts)
+- **[[Transitions/Back Step Pass]]** (11% of attempts)
 
-- **[[Back Take from Top]]** (10% of attempts)
+- **[[Transitions/Back Take from Top]]** (10% of attempts)
 
-- **[[Backstep from Reverse Half]]** (5% of attempts)
+- **[[Transitions/Backstep from Reverse Half]]** (5% of attempts)
 
-- **[[Pass Reverse Half]]** (3% of attempts)
+- **[[Transitions/Pass Reverse Half]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -219,23 +219,23 @@ This position appears more frequently in advanced BJJ and no-gi grappling where 
 ## Related Positions
 
 
-- **[[Half Guard]]** - Standard configuration from which reverse half typically originates
+- **[[Positions/Half Guard]]** - Standard configuration from which reverse half typically originates
 
-- **[[Dogfight Position]]** - Common transition target when recovering from reverse half
+- **[[Positions/Dogfight Position]]** - Common transition target when recovering from reverse half
 
-- **[[Back Control]]** - Primary offensive target from reverse half bottom via rolling back take
+- **[[Positions/Back Control]]** - Primary offensive target from reverse half bottom via rolling back take
 
-- **[[Deep Half Guard]]** - Alternative guard retention option when reverse half becomes compromised
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative guard retention option when reverse half becomes compromised
 
-- **[[Truck]]** - Advanced transition for back attack system from reverse half
+- **[[Positions/Twister Control/Truck]]** - Advanced transition for back attack system from reverse half
 
-- **[[Old School]]** - Sweep setup position utilizing reverse half mechanics
+- **[[Positions/Half Guard/Old School]]** - Sweep setup position utilizing reverse half mechanics
 
-- **[[Side Control]]** - Common passing completion from reverse half top
+- **[[Positions/Side Control]]** - Common passing completion from reverse half top
 
-- **[[Lockdown]]** - Related half guard variation with inverted control elements
+- **[[Positions/Half Guard/Lockdown]]** - Related half guard variation with inverted control elements
 
-- **[[Knee Shield Half Guard]]** - Standard half guard variation for comparison of defensive structures
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Standard half guard variation for comparison of defensive structures
 
 
 </section>

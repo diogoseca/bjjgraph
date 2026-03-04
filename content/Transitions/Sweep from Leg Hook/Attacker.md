@@ -186,7 +186,7 @@ description: "Learn to execute the Sweep from Leg Hook in BJJ. Step-by-step mech
 
 Executing the Sweep from Leg Hook requires coordinated upper and lower body mechanics that transform the leg hook from a passive retention tool into an active sweeping lever. The attacker's primary objective is to unify their underhook or overhook control with the leg hook elevation to generate a single sweeping force vector that displaces the opponent's base beyond recovery. Success depends on loading the opponent's weight onto the sweep-side before initiating the roll, reading the opponent's weight distribution to identify the optimal sweep window, and following through decisively to establish mount control immediately upon completion. The technique rewards patience during the setup phase and explosive commitment during the execution phase, with timing being the single most important variable separating successful sweeps from failed attempts that waste energy and expose the bottom player to passing counters.
 
-**From Position**: [[Leg Hook]] (Bottom)
+**From Position**: [[Positions/Leg Hook]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Sweep from Leg Hook requires coordinated upper and lower body mech
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 40% |
-| Failure | [[Leg Hook]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Mount]] | 40% |
+| Failure | [[Positions/Leg Hook]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Sweep from Leg Hook requires coordinated upper and lower body mech
 
 ## Opponent Counters
 
-- **Opponent posts free hand wide on the mat to block the roll and maintain base** (Effectiveness: High) - Your Response: Switch to controlling their posting wrist with your free hand before re-attempting the sweep, or transition to an arm drag that removes the post and opens back take opportunities → Leads to [[Leg Hook]]
-- **Opponent sprawls hips back and drives heavy crossface to flatten you before the sweep loads** (Effectiveness: High) - Your Response: Use their forward pressure to transition to deep half guard by ducking underneath their weight, converting their defensive aggression into an entry for a different sweep pathway → Leads to [[Side Control]]
-- **Opponent switches hips and re-centers weight over your torso to neutralize the angle** (Effectiveness: Medium) - Your Response: Use the hip switch timing to re-angle your own hips and re-load the sweep from the new angle, or immediately transition to a different sweep direction that exploits their re-centering movement → Leads to [[Leg Hook]]
-- **Opponent stands up and disengages from the leg hook to reset from standing** (Effectiveness: Medium) - Your Response: Transition immediately to single leg X-guard or X-guard as the opponent stands, converting the standing position into an even more favorable sweeping platform with longer lever arms → Leads to [[Leg Hook]]
+- **Opponent posts free hand wide on the mat to block the roll and maintain base** (Effectiveness: High) - Your Response: Switch to controlling their posting wrist with your free hand before re-attempting the sweep, or transition to an arm drag that removes the post and opens back take opportunities → Leads to [[Positions/Leg Hook]]
+- **Opponent sprawls hips back and drives heavy crossface to flatten you before the sweep loads** (Effectiveness: High) - Your Response: Use their forward pressure to transition to deep half guard by ducking underneath their weight, converting their defensive aggression into an entry for a different sweep pathway → Leads to [[Positions/Side Control]]
+- **Opponent switches hips and re-centers weight over your torso to neutralize the angle** (Effectiveness: Medium) - Your Response: Use the hip switch timing to re-angle your own hips and re-load the sweep from the new angle, or immediately transition to a different sweep direction that exploits their re-centering movement → Leads to [[Positions/Leg Hook]]
+- **Opponent stands up and disengages from the leg hook to reset from standing** (Effectiveness: Medium) - Your Response: Transition immediately to single leg X-guard or X-guard as the opponent stands, converting the standing position into an even more favorable sweeping platform with longer lever arms → Leads to [[Positions/Leg Hook]]
 
 
 </section>

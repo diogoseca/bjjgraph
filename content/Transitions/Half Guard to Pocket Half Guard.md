@@ -21,7 +21,7 @@ The transition addresses a fundamental problem in Half Guard Top: the bottom pla
 
 Strategically, this transition serves as the critical gateway to high-percentage pressure passes. Once Pocket Half Guard Top is established, the top player can chain knee slice passes, smash passes, and underhook passes with significantly higher success rates than from standard Half Guard Top. The position also opens submission opportunities including Darce Choke entries when the bottom player turns into the underhook and Kimura attacks on the defending arm. Understanding this transition transforms Half Guard Top from a contested battleground into a systematic passing sequence.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition serves as the critical gateway to high-percentage
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Pocket Half Guard]] | 65% |
-| Failure | [[Half Guard]] | 20% |
-| Counter | [[Knee Shield Half Guard]] | 15% |
+| Success | [[Positions/Half Guard/Pocket Half Guard]] | 65% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Counter | [[Positions/Half Guard/Knee Shield Half Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Transition to Pocket Half Guard occupies a critical position in the Half Gua
 ## Related Techniques
 
 
-- [[Half Guard]] - Parent position from which this transition originates
+- [[Positions/Half Guard]] - Parent position from which this transition originates
 
-- [[Pocket Half Guard]] - Target position achieved upon successful completion
+- [[Positions/Half Guard/Pocket Half Guard]] - Target position achieved upon successful completion
 
-- [[Knee Shield Half Guard]] - Counter position bottom player may achieve if transition fails
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Counter position bottom player may achieve if transition fails
 
-- [[Knee Slice Pass]] - Primary follow-up technique from established Pocket Half Guard Top
+- [[Transitions/Knee Slice Pass]] - Primary follow-up technique from established Pocket Half Guard Top
 
-- [[Smash Pass]] - High-percentage pass available after flattening in Pocket Half Guard
+- [[Transitions/Smash Pass]] - High-percentage pass available after flattening in Pocket Half Guard
 
-- [[Deep Half Guard]] - Defensive transition bottom player may attempt during underhook establishment
+- [[Positions/Half Guard/Deep Half Guard]] - Defensive transition bottom player may attempt during underhook establishment
 
-- [[Crossface Pass]] - Alternative passing technique that shares crossface control mechanics
+- [[Transitions/Crossface Pass]] - Alternative passing technique that shares crossface control mechanics
 
-- [[Darce Choke]] - Submission opportunity when bottom player turns into underhook during transition
+- [[Transitions/Darce Choke]] - Submission opportunity when bottom player turns into underhook during transition
 
-- [[Kimura]] - Submission threat on bottom player's defending arm during underhook battle
+- [[Transitions/Kimura]] - Submission threat on bottom player's defending arm during underhook battle
 
-- [[Flattened Half Guard]] - Related flattening concept that shares pressure mechanics with this transition
+- [[Positions/Half Guard/Flattened Half Guard]] - Related flattening concept that shares pressure mechanics with this transition
 
-- [[Underhook Pass]] - Follow-up passing technique that builds directly on established underhook control
+- [[Transitions/Underhook Pass]] - Follow-up passing technique that builds directly on established underhook control
 
-- [[Lockdown]] - Defensive leg entanglement bottom player may use to prevent flattening
+- [[Positions/Half Guard/Lockdown]] - Defensive leg entanglement bottom player may use to prevent flattening
 
 
 </section>

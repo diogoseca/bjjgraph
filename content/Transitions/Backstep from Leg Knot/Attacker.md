@@ -180,7 +180,7 @@ description: "Execute the Backstep from Leg Knot to escape leg entanglements and
 
 As the attacker executing the Backstep from Leg Knot, your objective is to cleanly disengage from the mutual leg entanglement and establish dominant side control. This requires precise timing, controlled hip switching, and immediate upper body consolidation once the legs are cleared. The key strategic decision is recognizing when the leg knot configuration favors passing over submission hunting. When the opponent has strong heel defense, when the entanglement is neutral, or when points are needed, the backstep becomes the highest-percentage option. Success depends on establishing upper body control before initiating the leg extraction, as attempting to disengage without controlling the opponent's torso allows them to follow your movement and re-establish guard.
 
-**From Position**: [[Leg Knot]] (Top)
+**From Position**: [[Positions/Leg Knot]] (Top)
 
 </section>
 
@@ -233,10 +233,10 @@ As the attacker executing the Backstep from Leg Knot, your objective is to clean
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Leg Knot]] | 25% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Leg Knot]] | 25% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -245,10 +245,10 @@ As the attacker executing the Backstep from Leg Knot, your objective is to clean
 
 ## Opponent Counters
 
-- **Opponent re-entangles legs by hooking your ankle or knee during extraction** (Effectiveness: High) - Your Response: Accelerate the hip switch and drive more forward pressure to complete the extraction before the hook sets. If caught, immediately pummel your leg free before they consolidate the re-entanglement. → Leads to [[Leg Knot]]
-- **Opponent inserts knee between your bodies during the backstep to recover half guard** (Effectiveness: Medium) - Your Response: Drive the crossface harder and use your near hand to clear their knee below your hip line. If the knee is already inserted, switch to a half guard passing sequence rather than fighting back to the backstep. → Leads to [[Half Guard]]
-- **Opponent frames with both arms and shrimps away to create distance for guard recovery** (Effectiveness: Medium) - Your Response: Follow their hip escape by adjusting your angle and maintaining chest contact. Use your forward momentum to cut through their frames before they can fully establish open guard. → Leads to [[Open Guard]]
-- **Opponent sits up and establishes underhook during the transition window** (Effectiveness: Medium) - Your Response: Immediately whizzer the underhook arm and drive forward to flatten them back to the mat. Use the whizzer combined with crossface pressure to re-establish the pin before they can build up to a sitting position. → Leads to [[Half Guard]]
+- **Opponent re-entangles legs by hooking your ankle or knee during extraction** (Effectiveness: High) - Your Response: Accelerate the hip switch and drive more forward pressure to complete the extraction before the hook sets. If caught, immediately pummel your leg free before they consolidate the re-entanglement. → Leads to [[Positions/Leg Knot]]
+- **Opponent inserts knee between your bodies during the backstep to recover half guard** (Effectiveness: Medium) - Your Response: Drive the crossface harder and use your near hand to clear their knee below your hip line. If the knee is already inserted, switch to a half guard passing sequence rather than fighting back to the backstep. → Leads to [[Positions/Half Guard]]
+- **Opponent frames with both arms and shrimps away to create distance for guard recovery** (Effectiveness: Medium) - Your Response: Follow their hip escape by adjusting your angle and maintaining chest contact. Use your forward momentum to cut through their frames before they can fully establish open guard. → Leads to [[Positions/Open Guard]]
+- **Opponent sits up and establishes underhook during the transition window** (Effectiveness: Medium) - Your Response: Immediately whizzer the underhook arm and drive forward to flatten them back to the mat. Use the whizzer combined with crossface pressure to re-establish the pin before they can build up to a sitting position. → Leads to [[Positions/Half Guard]]
 
 
 </section>

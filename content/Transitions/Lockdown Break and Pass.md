@@ -21,7 +21,7 @@ The technique centers on methodically breaking the lockdown's foot triangle conf
 
 Strategically, the Lockdown Break and Pass transforms a defensive scramble into offensive advancement. Rather than merely escaping back to a neutral half guard position, the technique channels the escape momentum directly into a passing sequence, typically finishing in side control. This prevents the opponent from immediately re-engaging the lockdown and capitalizes on the positional disruption caused by breaking their primary control structure.
 
-**From Position**: [[Electric Chair]] (Top)
+**From Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Lockdown Break and Pass transforms a defensive scramble into 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Electric Chair]] | 25% |
-| Counter | [[Deep Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Half Guard/Electric Chair]] | 25% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 10% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Lockdown Break and Pass represents the critical defensive response to the 10
 ## Related Techniques
 
 
-- [[Electric Chair]] - Starting position - the lockdown configuration this technique escapes
+- [[Positions/Half Guard/Electric Chair]] - Starting position - the lockdown configuration this technique escapes
 
-- [[Lockdown]] - Primary control structure being neutralized
+- [[Positions/Half Guard/Lockdown]] - Primary control structure being neutralized
 
-- [[Side Control]] - Target position after successful pass
+- [[Positions/Side Control]] - Target position after successful pass
 
-- [[Half Guard]] - Intermediate position avoided by immediate passing
+- [[Positions/Half Guard]] - Intermediate position avoided by immediate passing
 
-- [[Knee Slice Pass]] - Primary passing option after leg extraction
+- [[Transitions/Knee Slice Pass]] - Primary passing option after leg extraction
 
-- [[Smash Pass]] - Alternative passing finish from extraction
+- [[Transitions/Smash Pass]] - Alternative passing finish from extraction
 
-- [[Limp Leg Escape to Pass]] - Related technique using same limp leg concept
+- [[Transitions/Limp Leg Escape to Pass]] - Related technique using same limp leg concept
 
-- [[Deep Half Guard]] - Counter position opponent may transition to
+- [[Positions/Half Guard/Deep Half Guard]] - Counter position opponent may transition to
 
-- [[Old School Sweep]] - Sweep threat to defend against during extraction
+- [[Transitions/Old School Sweep]] - Sweep threat to defend against during extraction
 
-- [[Darce Choke]] - Submission opportunity during extraction
+- [[Transitions/Darce Choke]] - Submission opportunity during extraction
 
-- [[Back Take from Lockdown Defense]] - Alternative offensive transition
+- [[Transitions/Back Take from Lockdown Defense]] - Alternative offensive transition
 
 
 </section>

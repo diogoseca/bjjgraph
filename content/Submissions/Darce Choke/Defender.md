@@ -156,7 +156,7 @@ description: "How to defend against Darce Choke in BJJ. Recognition, escape path
 
 Defending the Darce Choke requires early recognition and immediate action—once the figure-four is locked and shoulder pressure engaged, escape options diminish rapidly. The defender's primary window exists during the arm-threading phase, before bilateral carotid compression is established. Understanding the Darce's mechanics from the defender's perspective reveals that the choke depends on three conditions: the choking arm threaded deep past the neck centerline, the figure-four grip locked, and shoulder pressure driving into the near-side carotid. Disrupting any one of these conditions prevents or breaks the submission. Defensive strategy follows a clear hierarchy: first, prevent the arm from threading by keeping elbows tight and chin tucked; second, if the arm threads, fight the grip lock by controlling the choking wrist; third, if the grip locks, create space and angle to relieve carotid compression before the choke takes effect. The Darce is a blood choke that produces unconsciousness in 3-6 seconds at full pressure, so defensive urgency increases dramatically once the grip is secured.
 
-**Opponent's Starting Position**: [[Darce Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Darce Control]] (Top)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the Darce Choke requires early recognition and immediate action—once
 ### 1. Turn into the attacker and fight to face them
 
 - **When to use**: During the threading phase before the figure-four is locked—turning toward the attacker closes the space their arm needs to reach the far side of your neck
-- **Targets**: [[Darce Control]]
+- **Targets**: [[Positions/Darce Control]]
 - **If successful**: Prevents the darce finish and may create scramble opportunity to recover guard or escape to half guard
 - **Risk**: If the arm is already deep, turning in can tighten the choke into an anaconda configuration instead
 
 ### 2. Posture up explosively and stand
 
 - **When to use**: When you feel the arm threading but before the figure-four locks—standing changes the angle and removes the shoulder pressure that drives the near-side compression
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Breaks the positional control needed for the darce, forcing attacker to either release or attempt a much lower-percentage standing darce
 - **Risk**: If figure-four is already locked, standing may not relieve enough pressure and you remain in danger while expending significant energy
 
 ### 3. Extract trapped arm by pulling elbow tight and circling away
 
 - **When to use**: When your near arm is being threaded through but the grip is not yet locked—pulling your elbow to your ribs while circling away from the choking arm side removes the arm from the choke structure
-- **Targets**: [[Darce Control]]
+- **Targets**: [[Positions/Darce Control]]
 - **If successful**: Removes the arm trap that the darce requires, reducing it to a loose headlock that can be more easily escaped
 - **Risk**: Circling away can expose your back if you move too far without maintaining defensive posture
 
 ### 4. Roll through toward the choking arm side
 
 - **When to use**: When the figure-four is partially locked but attacker's base is high—rolling toward the choking side can invert the position and relieve the compression angle
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Changes the angle so dramatically that the darce loses its compression mechanics, often landing you in half guard or a scramble
 - **Risk**: If attacker has strong base and inside leg positioning, the roll fails and you may end up in a worse position with the choke still locked
 
@@ -240,11 +240,11 @@ Defending the Darce Choke requires early recognition and immediate action—once
 
 ## Best-Case Outcomes for Defender
 
-### → [[Darce Control]]
+### → [[Positions/Darce Control]]
 
 Fight the arm threading early by keeping elbows tight, controlling the choking wrist, and turning toward the attacker to close the neck-arm gap before the figure-four can be secured
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Posture up explosively or roll through before the choke is fully locked, using the positional change to break the compression angle and recover to half guard
 

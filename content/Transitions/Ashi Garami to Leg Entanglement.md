@@ -21,7 +21,7 @@ The strategic value of this transition lies in the paradigm shift it creates. In
 
 This transition requires precise timing and mechanical understanding. Initiating too early, before the opponent has committed to their entanglement, allows them to simply adjust. Initiating too late, after they have advanced to dominant configurations like Saddle or Cross Ashi, means you are entering an exchange from severe positional disadvantage. The ideal window occurs when the opponent holds Outside or Inside Ashi Garami and is focused on advancing rather than finishing, creating momentary lapses in free leg management that allow you to thread your counter-entanglement.
 
-**From Position**: [[Ashi Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ This transition requires precise timing and mechanical understanding. Initiating
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Leg Entanglement]] | 65% |
-| Failure | [[Ashi Garami]] | 20% |
-| Counter | [[Inside Ashi-Garami]] | 15% |
+| Success | [[Positions/Leg Entanglement]] | 65% |
+| Failure | [[Positions/Ashi Garami]] | 20% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ This transition occupies a critical junction in the leg lock defense decision tr
 ## Related Techniques
 
 
-- [[Ashi Garami]] - Starting position hub where this transition originates from the top (defensive) role
+- [[Positions/Ashi Garami]] - Starting position hub where this transition originates from the top (defensive) role
 
-- [[Leg Entanglement]] - Destination position hub where bilateral leg control competition begins
+- [[Positions/Leg Entanglement]] - Destination position hub where bilateral leg control competition begins
 
-- [[Ashi Garami Escape]] - Alternative defensive option that extracts the trapped leg entirely rather than entering the leg exchange
+- [[Transitions/Ashi Garami Escape]] - Alternative defensive option that extracts the trapped leg entirely rather than entering the leg exchange
 
-- [[Counter Ashi Entry]] - Related counter-offensive transition that establishes your own specific Ashi Garami variant rather than general entanglement
+- [[Transitions/Counter Ashi Entry]] - Related counter-offensive transition that establishes your own specific Ashi Garami variant rather than general entanglement
 
-- [[50-50 Guard]] - Common resulting configuration when both practitioners establish symmetrical bilateral entanglement
+- [[Positions/Ashi Garami/50-50 Guard]] - Common resulting configuration when both practitioners establish symmetrical bilateral entanglement
 
-- [[Inside Ashi-Garami]] - Superior entanglement position that counter outcome leads to when opponent advances during your attempt
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Superior entanglement position that counter outcome leads to when opponent advances during your attempt
 
-- [[Outside Ashi-Garami]] - Fundamental entanglement variant often reached as initial counter-entanglement configuration
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Fundamental entanglement variant often reached as initial counter-entanglement configuration
 
-- [[Saddle]] - Advanced entanglement position accessible from Leg Entanglement through subsequent advancement transitions
+- [[Positions/Ashi Garami/Saddle]] - Advanced entanglement position accessible from Leg Entanglement through subsequent advancement transitions
 
-- [[Inside Ashi Entry]] - Follow-up transition available from Leg Entanglement to establish dominant inside control
+- [[Transitions/Inside Ashi Entry]] - Follow-up transition available from Leg Entanglement to establish dominant inside control
 
-- [[Heel Hook]] - Primary submission threat available once favorable entanglement position is achieved after this transition
+- [[Transitions/Heel Hook]] - Primary submission threat available once favorable entanglement position is achieved after this transition
 
 
 </section>

@@ -158,7 +158,7 @@ The defender's primary advantage is that the attacker must release structural el
 
 The key defensive mindset is prevention over reaction. Once inside ashi is fully established, your defensive options narrow dramatically and you face immediate submission threats. Every defensive action should focus on stopping the transition during the extraction phase rather than trying to escape after inside ashi is consolidated. Understanding the attacker's sequence allows you to identify the exact moments where defensive intervention is most effective.
 
-**Opponent's Starting Position**: [[50-50 Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The key defensive mindset is prevention over reaction. Once inside ashi is fully
 ### 1. Maintain heavy hip pressure and follow opponent's hip escape by driving your hips forward into their body, preventing them from creating extraction space
 
 - **When to use**: Immediately upon recognizing the initial hip escape motion - this is your highest-percentage defense and must be your first reaction
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Opponent's inside leg remains trapped in the entanglement, 50-50 mirror position is preserved, and you retain your current positional parity or advantage
 - **Risk**: If you drive forward too aggressively without controlling your own balance, opponent can use your momentum to redirect you into a sweep or accelerate their transition
 
 ### 2. Mirror opponent's hip escape by hip escaping in the same direction, maintaining symmetrical positioning and preventing them from establishing an angle advantage
 
 - **When to use**: When opponent has already created some space and direct forward pressure alone is insufficient to prevent extraction - your mirroring movement keeps the 50-50 structure intact
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: 50-50 symmetry is maintained as both practitioners move in parallel, negating opponent's attempt to create asymmetrical advantage
 - **Risk**: Your own hip escape may expose your back or create space that opponent exploits for a back take if they abandon the inside ashi attempt and circle behind you
 
 ### 3. Attack opponent's exposed heel with counter heel hook as they focus on extracting their inside leg, exploiting the momentary defensive gap created by their transition attempt
 
 - **When to use**: When opponent has committed fully to the extraction and their defensive grip on your attacks has loosened - their focus on repositioning creates a counter-attack window
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Opponent must abandon their transition to defend the heel hook threat, returning to neutral 50-50 or potentially conceding a submission if they fail to defend
 - **Risk**: If your counter-attack fails and opponent completes the transition while you focused on their heel, you end up in inside ashi without having established any defensive frames
 
 ### 4. Strip opponent's heel grip using aggressive two-on-one hand fighting to remove their anchor, then extract your own leg from the weakened entanglement
 
 - **When to use**: When you cannot prevent the hip escape but their transition depends on maintaining heel control - removing this anchor disrupts the entire sequence
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Without heel control, opponent cannot consolidate inside ashi effectively and the position resets to a neutral scramble or standing position
 - **Risk**: While fighting grips you may neglect your own leg positioning, allowing opponent to complete the transition despite losing heel control if their leg positioning is sufficiently strong
 
@@ -228,11 +228,11 @@ The key defensive mindset is prevention over reaction. Once inside ashi is fully
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Maintain heavy hip pressure and follow opponent's hip escape immediately. Drive your hips forward to close any space they create, keeping your inside leg actively pressing into their leg structure. If they persist, strip their heel grip with two-on-one hand fighting to remove their transition anchor. The goal is preventing extraction entirely so the position resets to the original 50-50 configuration where you retain top control.
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 When opponent commits fully to extraction and creates a defensive gap, immediately attack their exposed heel with a counter heel hook or straight ankle lock. Their focus on repositioning leaves their own heel vulnerable. Secure two-handed control on their heel and begin your own attack chain - even if you end up on bottom in the resulting scramble, you have active submission threats that force them to abandon their transition and address your offense.
 

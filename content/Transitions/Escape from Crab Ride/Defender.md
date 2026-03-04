@@ -146,7 +146,7 @@ description: "Learn to counter the Escape from Crab Ride in BJJ. Guide covering 
 
 As the defender against the Escape from Crab Ride, your role is the crab ride top player working to maintain control and advance position while your opponent attempts to strip your hook and recover guard. Your objective is twofold: prevent the escape from succeeding by retaining your hook and upper body control, and capitalize on the opponent's escape movements to advance to full back control or other dominant positions. The escape attempt itself creates opportunities because the bottom player must compromise their defensive structure to generate the hip movement needed for the escape. Understanding how to read escape attempts and respond with appropriate counters transforms the opponent's escape effort into your positional advancement. Maintaining heavy chest pressure, following hip movement with hook adjustments, and timing your second hook insertion with the opponent's escape direction are the core skills that determine whether you retain or lose the position.
 
-**Opponent's Starting Position**: [[Crab Ride]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Crab Ride]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the Escape from Crab Ride, your role is the crab ride to
 ### 1. Deepen hook and increase chest pressure when opponent begins hip escape
 
 - **When to use**: Immediately upon feeling the opponent's hips begin to shift away from the hooked side
-- **Targets**: [[Crab Ride]]
+- **Targets**: [[Positions/Crab Ride]]
 - **If successful**: Opponent's escape attempt is stuffed and they return to defensive crab ride bottom position
 - **Risk**: Over-committing forward pressure can expose you to Granby roll counter if opponent redirects
 
 ### 2. Follow hip movement and insert second hook during escape transition
 
 - **When to use**: When opponent creates lateral separation through hip escape, opening space on the far side for hook entry
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Convert crab ride to full back control with both hooks established and seatbelt grip
 - **Risk**: If second hook insertion fails, you may lose the first hook during the transition attempt
 
 ### 3. Switch to crossface sprawl if hook is partially stripped
 
 - **When to use**: When the hook is becoming shallow and further fighting for it will result in losing position entirely
-- **Targets**: [[Crab Ride]]
+- **Targets**: [[Positions/Crab Ride]]
 - **If successful**: Re-flatten opponent into turtle and re-establish crab ride from a fresh angle with a new hook
 - **Risk**: Abandoning the hook temporarily gives opponent a window to complete guard recovery
 
 ### 4. Transition to front headlock or anaconda grip when opponent turns toward you
 
 - **When to use**: When opponent successfully strips the hook and begins rotating to face you, exposing their neck
-- **Targets**: [[Crab Ride]]
+- **Targets**: [[Positions/Crab Ride]]
 - **If successful**: Establish new controlling position that prevents guard recovery and creates submission threats
 - **Risk**: If the transition is slow, opponent completes the turn and recovers full guard
 
@@ -217,11 +217,11 @@ As the defender against the Escape from Crab Ride, your role is the crab ride to
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Time your second hook insertion with the opponent's hip escape movement. When they create lateral space to strip your hook, their far hip opens up for your free leg to thread through. Follow their hip movement rather than fighting it, using their escape direction as your pathway to the second hook.
 
-### → [[Crab Ride]]
+### → [[Positions/Crab Ride]]
 
 Maintain heavy chest pressure and an active deep hook while following the opponent's hip movement with corresponding adjustments to your perpendicular alignment. Address each escape component as it develops rather than waiting for the full escape to materialize. Re-flatten after any failed escape attempt to reset your control structure.
 

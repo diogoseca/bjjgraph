@@ -184,7 +184,7 @@ The fundamental insight is that the Gift Wrap control relies on maintaining a sp
 
 Execution demands patience and precise timing. The optimal window opens when the opponent shifts weight to set up a submission or adjust their control. During these transitions, their grip pressure temporarily decreases and their attention divides. Recognizing and exploiting these moments while maintaining continuous neck defense with the free hand transforms arm recovery from a low-percentage desperation move into a reliable defensive tool.
 
-**From Position**: [[Gift Wrap]] (Bottom)
+**From Position**: [[Positions/Gift Wrap]] (Bottom)
 
 </section>
 
@@ -237,9 +237,9 @@ Execution demands patience and precise timing. The optimal window opens when the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 48% |
-| Failure | [[Gift Wrap]] | 37% |
-| Counter | [[Crucifix]] | 15% |
+| Success | [[Positions/Back Control]] | 48% |
+| Failure | [[Positions/Gift Wrap]] | 37% |
+| Counter | [[Positions/Crucifix]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ Execution demands patience and precise timing. The optimal window opens when the
 
 ## Opponent Counters
 
-- **Opponent tightens Gift Wrap control and flattens you to the mat** (Effectiveness: High) - Your Response: Bridge explosively to create space before re-initiating the recovery sequence, focus on staying on your side → Leads to [[Gift Wrap]]
-- **Opponent attacks rear naked choke as you begin arm recovery** (Effectiveness: High) - Your Response: Immediately abandon recovery attempt and use both hands for choke defense, then re-attempt when choke threat passes → Leads to [[Gift Wrap]]
-- **Opponent transitions to crucifix as you create space for arm recovery** (Effectiveness: Medium) - Your Response: Keep elbows tight to body during recovery, retract free arm if opponent reaches for it during your escape attempt → Leads to [[Crucifix]]
-- **Opponent follows your hip escape and maintains chest-to-back connection** (Effectiveness: Medium) - Your Response: Chain multiple hip escapes in sequence, or reverse direction suddenly to catch opponent during their adjustment → Leads to [[Gift Wrap]]
+- **Opponent tightens Gift Wrap control and flattens you to the mat** (Effectiveness: High) - Your Response: Bridge explosively to create space before re-initiating the recovery sequence, focus on staying on your side → Leads to [[Positions/Gift Wrap]]
+- **Opponent attacks rear naked choke as you begin arm recovery** (Effectiveness: High) - Your Response: Immediately abandon recovery attempt and use both hands for choke defense, then re-attempt when choke threat passes → Leads to [[Positions/Gift Wrap]]
+- **Opponent transitions to crucifix as you create space for arm recovery** (Effectiveness: Medium) - Your Response: Keep elbows tight to body during recovery, retract free arm if opponent reaches for it during your escape attempt → Leads to [[Positions/Crucifix]]
+- **Opponent follows your hip escape and maintains chest-to-back connection** (Effectiveness: Medium) - Your Response: Chain multiple hip escapes in sequence, or reverse direction suddenly to catch opponent during their adjustment → Leads to [[Positions/Gift Wrap]]
 
 
 </section>

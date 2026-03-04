@@ -180,7 +180,7 @@ description: "Complete guide to executing the knee slice pass from butterfly hal
 
 Executing the knee slice from butterfly half guard top requires a disciplined sequential approach that distinguishes it from a standard knee slice. The primary challenge is the butterfly hook, which acts as an active defensive mechanism capable of elevating and sweeping you if you attempt to slice without first neutralizing it. The pass demands that you solve three problems in order: kill the butterfly hook through hip pressure or direct control, establish dominant upper body position through crossface or underhook, and then execute the slicing motion with committed forward drive while maintaining chest connection. Rushing any step exposes you to sweeps from the butterfly hook or reguarding through the half guard trap. The successful passer treats this as a methodical progression rather than a single explosive movement, reading the bottom player's defensive adjustments at each stage and adapting the passing angle accordingly.
 
-**From Position**: [[Butterfly Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Butterfly Half Guard]] (Top)
 
 </section>
 
@@ -233,10 +233,10 @@ Executing the knee slice from butterfly half guard top requires a disciplined se
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Half Guard]] | 20% |
-| Failure | [[Butterfly Half Guard]] | 15% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/Half Guard/Butterfly Half Guard]] | 15% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -245,11 +245,11 @@ Executing the knee slice from butterfly half guard top requires a disciplined se
 
 ## Opponent Counters
 
-- **Bottom player elevates with butterfly hook during slice initiation** (Effectiveness: High) - Your Response: Immediately drop hips low and sprawl weight back onto the hook to kill the elevation. If the sweep is already in motion, post your far hand wide and circle to the non-butterfly side to redirect their momentum. Re-establish upper body control before reattempting the slice. → Leads to [[Butterfly Half Guard]]
-- **Bottom player hip escapes and inserts knee shield frame** (Effectiveness: Medium) - Your Response: Transition to a smash pass by dropping your weight onto the knee shield and driving it flat. Alternatively, backstep around the knee shield by reversing direction and stepping your free leg behind their knee shield to enter from a new angle. Do not try to force the knee slice through a fully established knee shield. → Leads to [[Half Guard]]
-- **Bottom player secures underhook and drives to dogfight position** (Effectiveness: High) - Your Response: Immediately whizzer the underhook arm by threading your arm over their bicep and clamping down with your elbow. Drive your weight onto their shoulder through the whizzer to flatten them back to the mat. If they achieve full dogfight, disengage the knee slice and re-establish top position through crossface pressure before reattempting. → Leads to [[Half Guard]]
-- **Bottom player dives underneath to deep half guard** (Effectiveness: Medium) - Your Response: Immediately sprawl your hips back to prevent them from getting fully underneath you. Control their far shoulder with a whizzer or crossface and work to flatten them by driving your hip into their face side. If they achieve deep half, transition to the deep half guard passing sequence rather than forcing the knee slice from a compromised angle. → Leads to [[Butterfly Half Guard]]
-- **Bottom player grabs your slicing leg ankle and redirects your knee path** (Effectiveness: Low) - Your Response: Strip the ankle grip by circling your foot away from their hand while maintaining forward hip drive. The forward pressure of the slice combined with your upper body control makes ankle grips alone insufficient to stop the pass. If they persist, use your free hand to break the grip and immediately resume the slicing motion before they can establish a stronger frame. → Leads to [[Half Guard]]
+- **Bottom player elevates with butterfly hook during slice initiation** (Effectiveness: High) - Your Response: Immediately drop hips low and sprawl weight back onto the hook to kill the elevation. If the sweep is already in motion, post your far hand wide and circle to the non-butterfly side to redirect their momentum. Re-establish upper body control before reattempting the slice. → Leads to [[Positions/Half Guard/Butterfly Half Guard]]
+- **Bottom player hip escapes and inserts knee shield frame** (Effectiveness: Medium) - Your Response: Transition to a smash pass by dropping your weight onto the knee shield and driving it flat. Alternatively, backstep around the knee shield by reversing direction and stepping your free leg behind their knee shield to enter from a new angle. Do not try to force the knee slice through a fully established knee shield. → Leads to [[Positions/Half Guard]]
+- **Bottom player secures underhook and drives to dogfight position** (Effectiveness: High) - Your Response: Immediately whizzer the underhook arm by threading your arm over their bicep and clamping down with your elbow. Drive your weight onto their shoulder through the whizzer to flatten them back to the mat. If they achieve full dogfight, disengage the knee slice and re-establish top position through crossface pressure before reattempting. → Leads to [[Positions/Half Guard]]
+- **Bottom player dives underneath to deep half guard** (Effectiveness: Medium) - Your Response: Immediately sprawl your hips back to prevent them from getting fully underneath you. Control their far shoulder with a whizzer or crossface and work to flatten them by driving your hip into their face side. If they achieve deep half, transition to the deep half guard passing sequence rather than forcing the knee slice from a compromised angle. → Leads to [[Positions/Half Guard/Butterfly Half Guard]]
+- **Bottom player grabs your slicing leg ankle and redirects your knee path** (Effectiveness: Low) - Your Response: Strip the ankle grip by circling your foot away from their hand while maintaining forward hip drive. The forward pressure of the slice combined with your upper body control makes ankle grips alone insufficient to stop the pass. If they persist, use your free hand to break the grip and immediately resume the slicing motion before they can establish a stronger frame. → Leads to [[Positions/Half Guard]]
 
 
 </section>

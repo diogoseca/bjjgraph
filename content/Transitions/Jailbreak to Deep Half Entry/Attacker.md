@@ -184,7 +184,7 @@ Strategically, this transition is most valuable when the top player bases wide t
 
 The biomechanical foundation of this entry relies on using your existing underhook as a steering mechanism while your hips drop and rotate to slide beneath the opponent's hips. Your trapped leg becomes an asset rather than a liability, as it provides the initial connection point that you convert into deep half control. Mastery of this transition significantly expands your half guard escape options, making you unpredictable and difficult to pin.
 
-**From Position**: [[Jailbreak]] (Bottom)
+**From Position**: [[Positions/Jailbreak]] (Bottom)
 
 </section>
 
@@ -237,9 +237,9 @@ The biomechanical foundation of this entry relies on using your existing underho
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Deep Half Guard]] | 55% |
-| Failure | [[Half Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard/Deep Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ The biomechanical foundation of this entry relies on using your existing underho
 
 ## Opponent Counters
 
-- **Opponent sprawls and drives hips forward to prevent the dive underneath** (Effectiveness: High) - Your Response: If they drive forward, revert to standard jailbreak roll since their forward weight commitment makes them vulnerable to being rolled → Leads to [[Half Guard]]
-- **Opponent strips your underhook during the transition attempt** (Effectiveness: High) - Your Response: Immediately establish frames and shrimp to recover half guard position before they can consolidate top control → Leads to [[Side Control]]
-- **Opponent backsteps to free their trapped leg before you complete the entry** (Effectiveness: Medium) - Your Response: Follow their movement and convert to single leg X-guard or regular X-guard as they create space with their backstep → Leads to [[Half Guard]]
-- **Opponent crossfaces hard to prevent your head from reaching their hip** (Effectiveness: Medium) - Your Response: Use your free hand to frame against their crossface while continuing the dive, or abort to standard jailbreak if crossface is too strong → Leads to [[Half Guard]]
+- **Opponent sprawls and drives hips forward to prevent the dive underneath** (Effectiveness: High) - Your Response: If they drive forward, revert to standard jailbreak roll since their forward weight commitment makes them vulnerable to being rolled → Leads to [[Positions/Half Guard]]
+- **Opponent strips your underhook during the transition attempt** (Effectiveness: High) - Your Response: Immediately establish frames and shrimp to recover half guard position before they can consolidate top control → Leads to [[Positions/Side Control]]
+- **Opponent backsteps to free their trapped leg before you complete the entry** (Effectiveness: Medium) - Your Response: Follow their movement and convert to single leg X-guard or regular X-guard as they create space with their backstep → Leads to [[Positions/Half Guard]]
+- **Opponent crossfaces hard to prevent your head from reaching their hip** (Effectiveness: Medium) - Your Response: Use your free hand to frame against their crossface while continuing the dive, or abort to standard jailbreak if crossface is too strong → Leads to [[Positions/Half Guard]]
 
 
 </section>

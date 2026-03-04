@@ -184,7 +184,7 @@ The escape mechanics center on three interconnected elements: counter-rotating t
 
 Strategically, Leg Extraction serves as the primary bailout when caught in Estima Lock scenarios during guard passing or leg entanglement exchanges. The technique integrates into broader defensive leg lock systems, connecting to guard recovery sequences and providing a foundation for understanding other leg entanglement escapes. Mastery of this escape significantly reduces the danger of engaging in modern leg lock exchanges where Estima Lock threats are common.
 
-**From Position**: [[Estima Lock]] (Bottom)
+**From Position**: [[Positions/Estima Lock]] (Bottom)
 
 </section>
 
@@ -237,10 +237,10 @@ Strategically, Leg Extraction serves as the primary bailout when caught in Estim
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Estima Lock]] | 25% |
-| Counter | [[Saddle]] | 10% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Estima Lock]] | 25% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 10% |
 
 
 </section>
@@ -249,10 +249,10 @@ Strategically, Leg Extraction serves as the primary bailout when caught in Estim
 
 ## Opponent Counters
 
-- **Opponent tightens grip and increases rotational pressure when sensing escape attempt** (Effectiveness: High) - Your Response: Pause extraction attempt, re-establish counter-rotation, and wait for next opportunity when they adjust or fatigue → Leads to [[Estima Lock]]
-- **Opponent follows your hip movement, maintaining pressure angle on trapped leg** (Effectiveness: Medium) - Your Response: Use free leg to hook behind their knee or push their hip to break their following momentum and create extraction window → Leads to [[Estima Lock]]
-- **Opponent transitions to toe hold as you begin extracting, attacking exposed toes** (Effectiveness: Medium) - Your Response: Accelerate extraction through the transition moment when their grip shifts, as grip changes create vulnerability windows → Leads to [[Saddle]]
-- **Opponent drives forward to flatten you and eliminate hip mobility** (Effectiveness: High) - Your Response: Maintain frames actively, turn shoulders toward trapped leg, post with far hand to preserve enough angle for hip escape → Leads to [[Estima Lock]]
+- **Opponent tightens grip and increases rotational pressure when sensing escape attempt** (Effectiveness: High) - Your Response: Pause extraction attempt, re-establish counter-rotation, and wait for next opportunity when they adjust or fatigue → Leads to [[Positions/Estima Lock]]
+- **Opponent follows your hip movement, maintaining pressure angle on trapped leg** (Effectiveness: Medium) - Your Response: Use free leg to hook behind their knee or push their hip to break their following momentum and create extraction window → Leads to [[Positions/Estima Lock]]
+- **Opponent transitions to toe hold as you begin extracting, attacking exposed toes** (Effectiveness: Medium) - Your Response: Accelerate extraction through the transition moment when their grip shifts, as grip changes create vulnerability windows → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent drives forward to flatten you and eliminate hip mobility** (Effectiveness: High) - Your Response: Maintain frames actively, turn shoulders toward trapped leg, post with far hand to preserve enough angle for hip escape → Leads to [[Positions/Estima Lock]]
 
 
 </section>

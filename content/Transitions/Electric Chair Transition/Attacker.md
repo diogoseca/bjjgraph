@@ -184,7 +184,7 @@ The transition exploits the mechanical advantage created by the lockdown's leg e
 
 Strategically, the Electric Chair Transition creates an immediate dilemma for the top player. Defending the elevation exposes them to the Old School sweep, while allowing the transition subjects them to the Electric Chair submission threat. This dual-threat nature makes the transition exceptionally difficult to stop once initiated with proper timing and control.
 
-**From Position**: [[Lockdown]] (Bottom)
+**From Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 
 </section>
 
@@ -238,9 +238,9 @@ Strategically, the Electric Chair Transition creates an immediate dilemma for th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Electric Chair]] | 65% |
-| Failure | [[Lockdown]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Half Guard/Electric Chair]] | 65% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -249,10 +249,10 @@ Strategically, the Electric Chair Transition creates an immediate dilemma for th
 
 ## Opponent Counters
 
-- **Opponent drives weight forward and flattens you with crossface pressure before underhook is secured** (Effectiveness: High) - Your Response: Prioritize underhook establishment before hip elevation. If flattened, use whip-up motion to re-break posture or transition to Deep Half Guard by diving underneath → Leads to [[Lockdown]]
-- **Opponent posts their far hand on the mat to base out against elevation** (Effectiveness: Medium) - Your Response: Use free hand to control their posting arm, pulling it across their body. Alternatively, accelerate transition and use their base commitment to hit Old School sweep → Leads to [[Lockdown]]
-- **Opponent windshield wipers their trapped leg to extract it from lockdown** (Effectiveness: Medium) - Your Response: Increase lockdown squeeze and follow their leg movement. If they create significant rotation, immediately pursue Truck entry as their defensive motion exposes the crab ride position → Leads to [[Half Guard]]
-- **Opponent sprawls hips backward to create distance and relieve pressure** (Effectiveness: Low) - Your Response: Follow their backward movement with continued hip extension. Their sprawling actually amplifies the Electric Chair pressure and often accelerates submission threat → Leads to [[Electric Chair]]
+- **Opponent drives weight forward and flattens you with crossface pressure before underhook is secured** (Effectiveness: High) - Your Response: Prioritize underhook establishment before hip elevation. If flattened, use whip-up motion to re-break posture or transition to Deep Half Guard by diving underneath → Leads to [[Positions/Half Guard/Lockdown]]
+- **Opponent posts their far hand on the mat to base out against elevation** (Effectiveness: Medium) - Your Response: Use free hand to control their posting arm, pulling it across their body. Alternatively, accelerate transition and use their base commitment to hit Old School sweep → Leads to [[Positions/Half Guard/Lockdown]]
+- **Opponent windshield wipers their trapped leg to extract it from lockdown** (Effectiveness: Medium) - Your Response: Increase lockdown squeeze and follow their leg movement. If they create significant rotation, immediately pursue Truck entry as their defensive motion exposes the crab ride position → Leads to [[Positions/Half Guard]]
+- **Opponent sprawls hips backward to create distance and relieve pressure** (Effectiveness: Low) - Your Response: Follow their backward movement with continued hip extension. Their sprawling actually amplifies the Electric Chair pressure and often accelerates submission threat → Leads to [[Positions/Half Guard/Electric Chair]]
 
 
 </section>

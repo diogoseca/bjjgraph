@@ -212,23 +212,23 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 ## Available Attacks
 
-### [[Guillotine Choke]] (31% of attempts)
+### [[Transitions/Guillotine Choke]] (31% of attempts)
 
-### [[Hindulotine to Darce Choke]] (10% of attempts)
+### [[Transitions/Hindulotine to Darce Choke]] (10% of attempts)
 
-### [[Hindulotine to Anaconda Choke]] (8% of attempts)
+### [[Transitions/Hindulotine to Anaconda Choke]] (8% of attempts)
 
-### [[Back Take from Top]] (13% of attempts)
+### [[Transitions/Back Take from Top]] (13% of attempts)
 
-### [[Front Headlock to Back]] (10% of attempts)
+### [[Transitions/Front Headlock to Back]] (10% of attempts)
 
-### [[Arm Triangle from Top]] (9% of attempts)
+### [[Transitions/Arm Triangle from Top]] (9% of attempts)
 
-### [[Snap Down to Front Headlock]] (13% of attempts)
+### [[Transitions/Snap Down to Front Headlock]] (13% of attempts)
 
-### [[Hindulotine Choke Finish]] (4% of attempts)
+### [[Transitions/Hindulotine Choke Finish]] (4% of attempts)
 
-### [[Finish from Hindulotine]] (2% of attempts)
+### [[Transitions/Finish from Hindulotine]] (2% of attempts)
 
 
 
@@ -239,25 +239,25 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 ## Decision Making from This Position
 
 **If opponent attempts to stand up or achieve vertical posture to escape:**
-- Execute **[[Follow to Standing Guillotine]]** → [[Standing Position]] (Probability: 50%)
-- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 60%)
+- Execute **[[Follow to Standing Guillotine]]** → [[Positions/Standing Position]] (Probability: 50%)
+- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 60%)
 - Execute **[[Guillotine Finish]]** → [[game-over]] (Probability: 55%)
 
 
 **If opponent turns away to relieve pressure and exposes their back:**
-- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Transition to Anaconda]]** → [[Anaconda Control]] (Probability: 60%)
+- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transition to Anaconda]]** → [[Positions/Anaconda Control]] (Probability: 60%)
 
 
 **If opponent flattens out completely in defensive turtle position:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Front Headlock to Back]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Arm Triangle from Top]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Arm Triangle from Top]]** → [[game-over]] (Probability: 50%)
 
 
 **If opponent creates defensive frames with arms while defending neck:**
-- Execute **[[Hindulotine to Darce Choke]]** → [[Darce Control]] (Probability: 65%)
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 55%)
+- Execute **[[Transitions/Hindulotine to Darce Choke]]** → [[Positions/Darce Control]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 55%)
 
 
 
@@ -386,14 +386,14 @@ Partner starts in turtle position. Practice establishing front headlock control 
 
 ## Related Positions and Techniques
 
-- **[[Front Headlock]]** - Primary entry position and control base
-- **[[Guillotine Control]]** - Parent position with standard mechanics
-- **[[Darce Control]]** - Common transition when opponent defends
-- **[[Anaconda Control]]** - Alternative finish from same control position
-- **[[Back Control]]** - High-percentage transition when opponent turns away
-- **[[Mount]]** - Transition option when opponent flattens
-- **[[North-South]]** - Positional transition option
-- **[[Turtle]]** - Common entry position for top attacks
+- **[[Positions/Front Headlock]]** - Primary entry position and control base
+- **[[Positions/Guillotine Control]]** - Parent position with standard mechanics
+- **[[Positions/Darce Control]]** - Common transition when opponent defends
+- **[[Positions/Anaconda Control]]** - Alternative finish from same control position
+- **[[Positions/Back Control]]** - High-percentage transition when opponent turns away
+- **[[Positions/Mount]]** - Transition option when opponent flattens
+- **[[Positions/North-South]]** - Positional transition option
+- **[[Positions/Turtle]]** - Common entry position for top attacks
 
 
 </section>

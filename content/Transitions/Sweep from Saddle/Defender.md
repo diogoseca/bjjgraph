@@ -146,7 +146,7 @@ description: "Defend against sweeps from saddle top position in BJJ. Recognition
 
 Defending against sweeps from saddle requires the top player to maintain base awareness while simultaneously attacking with leg submissions. The primary challenge is that submission setups naturally shift weight distribution in ways that compromise base stability, creating sweep opportunities for technically skilled bottom players. The top player must develop the ability to recognize pre-sweep indicators—frame establishment, free leg repositioning, and directional hip shifts—while maintaining enough positional awareness to post or adjust weight before the sweep generates full momentum. This defensive skill becomes increasingly important at higher belt levels where bottom players integrate sweep threats into their saddle defense systems, forcing the top player to balance aggression with positional security.
 
-**Opponent's Starting Position**: [[Saddle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending against sweeps from saddle requires the top player to maintain base aw
 ### 1. Post hand on mat to block sweep direction
 
 - **When to use**: When you feel the bottom player's bridge beginning to generate rotational momentum through your body
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Sweep is neutralized and you maintain saddle control with ability to resume submission attacks after re-establishing grips
 - **Risk**: Posting arm is temporarily unavailable for submission grips, creating a brief window where heel control is reduced
 
 ### 2. Lower hips and drive weight into opponent to flatten them
 
 - **When to use**: When you recognize frame establishment and pre-sweep positioning before the bridge is initiated
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Flattens the opponent and eliminates the space needed for bridge generation, killing the sweep before it develops any momentum
 - **Risk**: Forward weight commitment can be exploited if bottom player redirects to a forward roll sweep variation pulling you overhead
 
 ### 3. Accelerate submission attempt to force defensive reset
 
 - **When to use**: When sweep setup is in early stages and you have already established a strong heel grip with finishing position
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Forces opponent to abandon sweep attempt entirely and return to heel protection, resetting the defensive dynamic in your favor
 - **Risk**: Rushing submission without optimal control reduces finishing probability and may create additional sweep openings if the submission fails
 
 ### 4. Control opponent's free leg to eliminate bridging platform
 
 - **When to use**: Proactively when you notice opponent positioning free foot flat on mat, or reactively after recognizing initial sweep setup indicators
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Removes the primary mechanical driver of the sweep, making effective bridging impossible regardless of the bottom player's timing or technique
 - **Risk**: Using a hand to control the free leg reduces grips available for submission and entanglement maintenance
 
@@ -217,7 +217,7 @@ Defending against sweeps from saddle requires the top player to maintain base aw
 
 ## Best-Case Outcomes for Defender
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 Recognize sweep indicators early—frame establishment, foot repositioning, directional weight shifts—and preemptively adjust base by posting or lowering hips before the sweep generates momentum. Maintain at least one hand ready to post during all submission sequences, and control the opponent's free leg when possible to eliminate their bridging platform at its mechanical source.
 

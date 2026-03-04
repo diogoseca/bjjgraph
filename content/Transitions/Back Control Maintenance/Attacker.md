@@ -184,7 +184,7 @@ The fundamental concept driving back control maintenance is the understanding th
 
 Advanced back control maintenance integrates threat cycling—the continuous rotation between rear naked choke setups, collar chokes, armbars, and crucifix transitions—that keeps the defender perpetually reactive. By threatening submissions without fully committing, the attacking practitioner forces defensive movements that can be exploited to tighten positional control. This creates a feedback loop where defensive effort leads to tighter control, which creates more submission threats, requiring more defensive effort. Understanding and executing this cycle separates practitioners who occasionally get the back from those who systematically finish from back control.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -237,9 +237,9 @@ Advanced back control maintenance integrates threat cycling—the continuous rot
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ Advanced back control maintenance integrates threat cycling—the continuous rot
 
 ## Opponent Counters
 
-- **Explosive bridge and turn toward the underhook side attempting to face the attacker** (Effectiveness: Medium) - Your Response: Anticipate the turn direction and insert your underhook deeper while simultaneously driving your choking arm toward their far shoulder. Use their turning momentum to transition to mount or maintain back control on the opposite side. → Leads to [[Half Guard]]
-- **Two-on-one grip fighting on the seatbelt arm to break choking grip** (Effectiveness: High) - Your Response: When they commit both hands to fighting your top arm, immediately threaten the armbar from back by controlling their defending arm. Their commitment to grip fighting exposes the arm attack while their hips remain controlled by hooks. → Leads to [[Back Control]]
-- **Dropping hips to the mat and scooting backward to remove hooks** (Effectiveness: Medium) - Your Response: Follow their hip drop by dropping your own hips and driving hooks deeper toward their centerline. Increase chest pressure as they flatten out—this actually improves your choking angle as their neck becomes more accessible. → Leads to [[Turtle]]
-- **Standing up in back control to shake off hooks through elevation** (Effectiveness: Low) - Your Response: Maintain your hooks as climbing hooks and establish a body lock around their waist. From standing back control, you have additional takedown options and can return to seated back control at will by pulling them backward. → Leads to [[Back Control]]
+- **Explosive bridge and turn toward the underhook side attempting to face the attacker** (Effectiveness: Medium) - Your Response: Anticipate the turn direction and insert your underhook deeper while simultaneously driving your choking arm toward their far shoulder. Use their turning momentum to transition to mount or maintain back control on the opposite side. → Leads to [[Positions/Half Guard]]
+- **Two-on-one grip fighting on the seatbelt arm to break choking grip** (Effectiveness: High) - Your Response: When they commit both hands to fighting your top arm, immediately threaten the armbar from back by controlling their defending arm. Their commitment to grip fighting exposes the arm attack while their hips remain controlled by hooks. → Leads to [[Positions/Back Control]]
+- **Dropping hips to the mat and scooting backward to remove hooks** (Effectiveness: Medium) - Your Response: Follow their hip drop by dropping your own hips and driving hooks deeper toward their centerline. Increase chest pressure as they flatten out—this actually improves your choking angle as their neck becomes more accessible. → Leads to [[Positions/Turtle]]
+- **Standing up in back control to shake off hooks through elevation** (Effectiveness: Low) - Your Response: Maintain your hooks as climbing hooks and establish a body lock around their waist. From standing back control, you have additional takedown options and can return to seated back control at will by pulling them backward. → Leads to [[Positions/Back Control]]
 
 
 </section>

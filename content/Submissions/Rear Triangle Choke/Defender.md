@@ -158,7 +158,7 @@ Defending the Rear Triangle Choke requires immediate recognition of the choking 
 
 The escape hierarchy follows a strict sequence that must not be shortcut. First, protect the neck by tucking the chin and turning the face away from the choking leg to buy seconds. Second, address the trapped arm—extraction removes the wedge that seals the carotid compression and is the single most impactful defensive action. Third, disrupt the attacker's hip angle by rotating or bridging to reduce the bilateral cutting pressure. Fourth, create space and escape to a less compromised position. Attempting to skip steps, particularly fighting the triangle lock before addressing the trapped arm, consistently results in accelerated submission. Composure under the physiological stress of restricted blood flow is the most important defensive attribute.
 
-**Opponent's Starting Position**: [[Rear Triangle]] (Top)
+**Opponent's Starting Position**: [[Positions/Triangle Control/Rear Triangle]] (Top)
 
 
 </section>
@@ -197,28 +197,28 @@ The escape hierarchy follows a strict sequence that must not be shortcut. First,
 ### 1. Grip the choking leg at the ankle and fight to prevent the triangle from tightening while working arm extraction
 
 - **When to use**: Immediately upon feeling the triangle lock being established, before the attacker breaks your posture
-- **Targets**: [[Rear Triangle]]
+- **Targets**: [[Positions/Triangle Control/Rear Triangle]]
 - **If successful**: Prevents the choke from reaching finishing pressure and creates time to work systematic escape
 - **Risk**: Both hands committed to the leg leaves neck temporarily exposed to secondary attacks
 
 ### 2. Extract trapped arm by pulling elbow tight to ribs and threading forearm across centerline while shrimping hips
 
 - **When to use**: After initial survival is established and before the attacker achieves full posture break and maximum squeeze
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Removes the wedge that seals carotid compression, reducing choke effectiveness by approximately 60% and opening escape angles
 - **Risk**: The extraction movement may temporarily tighten the choke as the arm moves through the triangle space
 
 ### 3. Bridge and rotate toward the non-choking leg side to disrupt attacker's hip angle and create scramble opportunity
 
 - **When to use**: When the triangle is not yet fully tightened and the attacker's chest-to-back connection has gaps
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Disrupts the bilateral compression angle and may create enough space for full positional escape to guard
 - **Risk**: If poorly timed, the rotation can actually tighten the choke by driving your neck deeper into the triangle
 
 ### 4. Stack defense by driving weight backward into the attacker while controlling the choking leg
 
 - **When to use**: When the attacker extends their hips for the hip extension finish variation
-- **Targets**: [[Rear Triangle]]
+- **Targets**: [[Positions/Triangle Control/Rear Triangle]]
 - **If successful**: Collapses the attacker's hip extension and reduces choking pressure by compressing them under your weight
 - **Risk**: Driving backward can expose your neck further if the attacker adjusts angle during the stack
 
@@ -241,11 +241,11 @@ The escape hierarchy follows a strict sequence that must not be shortcut. First,
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time a bridge and rotation during the attacker's squeeze transition, using the momentary pressure gap to pull the head through the triangle and recover full guard
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Successfully extract the trapped arm and fight the triangle structure, reducing the position to standard back control where additional escape options become available
 

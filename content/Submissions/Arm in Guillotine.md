@@ -22,7 +22,7 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Front Headlock]]
+**Starting Position**: [[Positions/Front Headlock]]
 **Success Rate**: 58%
 
 </section>
@@ -77,8 +77,8 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -227,13 +227,13 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 ## From Which Positions?
 
-- [[Front Headlock]]
-- [[Closed Guard]]
-- [[Half Guard]]
-- [[Butterfly Guard]]
-- [[Turtle]]
-- [[Clinch]]
-- [[Open Guard]]
+- [[Positions/Front Headlock]]
+- [[Positions/Closed Guard]]
+- [[Positions/Half Guard]]
+- [[Positions/Butterfly Guard]]
+- [[Positions/Turtle]]
+- [[Positions/Clinch]]
+- [[Positions/Open Guard]]
 
 
 </section>
@@ -242,16 +242,16 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 ## Related Submissions
 
-- [[Guillotine Choke]]
-- [[High Elbow Guillotine]]
-- [[Chin Strap Guillotine]]
-- [[Ten Finger Guillotine]]
-- [[Anaconda Choke]]
-- [[Darce Choke]]
-- [[Rear Naked Choke]]
-- [[Triangle Choke]]
-- [[Arm Triangle]]
-- [[North-South Choke]]
+- [[Transitions/Guillotine Choke]]
+- [[Submissions/High Elbow Guillotine]]
+- [[Submissions/Chin Strap Guillotine]]
+- [[Submissions/Ten Finger Guillotine]]
+- [[Transitions/Anaconda Choke]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Rear Naked Choke]]
+- [[Transitions/Triangle Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/North-South Choke]]
 
 
 </section>
@@ -260,16 +260,16 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 ## Additional Related Content
 
-- [[Guillotine Control]] - Primary control position for setting up arm-in variant
-- [[Front Headlock]] - Primary entry position and control platform for arm-in guillotine
-- [[Anaconda Control]] - Alternative arm-in choke position when opponent turns toward choking arm
-- [[Darce Control]] - Alternative arm-in choke position accessible from similar setups
-- [[Closed Guard]] - Primary finishing position when pulling guard with guillotine locked
-- [[Butterfly Guard]] - Alternative guard position for arm-in guillotine finishes
-- [[Half Guard]] - Recovery position if opponent partially escapes guillotine
-- [[Back Control]] - Alternative position when opponent escapes guillotine by turning away
-- [[Clinch]] - Entry position for standing arm-in guillotine variations
-- [[Turtle]] - Entry position when attacking opponent's turtle with front headlock
+- [[Positions/Guillotine Control]] - Primary control position for setting up arm-in variant
+- [[Positions/Front Headlock]] - Primary entry position and control platform for arm-in guillotine
+- [[Positions/Anaconda Control]] - Alternative arm-in choke position when opponent turns toward choking arm
+- [[Positions/Darce Control]] - Alternative arm-in choke position accessible from similar setups
+- [[Positions/Closed Guard]] - Primary finishing position when pulling guard with guillotine locked
+- [[Positions/Butterfly Guard]] - Alternative guard position for arm-in guillotine finishes
+- [[Positions/Half Guard]] - Recovery position if opponent partially escapes guillotine
+- [[Positions/Back Control]] - Alternative position when opponent escapes guillotine by turning away
+- [[Positions/Clinch]] - Entry position for standing arm-in guillotine variations
+- [[Positions/Turtle]] - Entry position when attacking opponent's turtle with front headlock
 
 
 </section>

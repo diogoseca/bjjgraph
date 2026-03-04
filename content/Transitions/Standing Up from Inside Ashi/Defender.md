@@ -154,7 +154,7 @@ description: "Defend against the standup from Inside Ashi-Garami. Recognition cu
 
 When the bottom Inside Ashi-Garami player attempts to stand up, the defender has several opportunities to exploit the transition. The standup requires the attacker to release grips, shift weight, and pass through unstable intermediate positions—each phase creating windows for the defender to sweep, re-establish guard, or extract their trapped leg. The defender's primary advantage during this transition is the attacker's compromised balance and divided attention between standing and maintaining leg control. Rather than passively allowing the standup, the defender should actively choose between preventing the rise, exploiting the transition to escape the leg entanglement, or following the movement to establish a favorable guard position.
 
-**Opponent's Starting Position**: [[Inside Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ When the bottom Inside Ashi-Garami player attempts to stand up, the defender has
 ### 1. Hook or grab the attacker's posting arm to collapse their base structure before they can elevate their hips
 
 - **When to use**: Immediately upon recognizing the posting hand reaching for the mat, before they establish a stable post
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Attacker cannot elevate hips and collapses back to bottom ashi garami position, forced to reattempt standup or return to submissions
 - **Risk**: If the attacker posts with the opposite hand instead, you may be out of position with your arm extended
 
 ### 2. Hook your free leg behind the attacker's far hip and scissor to sweep during the knee recovery phase
 
 - **When to use**: During the intermediate phase when the attacker is transitioning from bridge to kneeling and their base is narrowest
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Attacker is swept off their base and lands in your open guard, losing all ashi garami control in the process
 - **Risk**: If mistimed, the hook may not generate enough force to sweep and the attacker continues to standing
 
 ### 3. Follow the attacker's upward movement by sitting up and establishing open guard hooks on their legs before they achieve full standing
 
 - **When to use**: When the attacker has already achieved a kneeling or low crouch position and preventing the standup is no longer viable
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You escape the ashi garami and transition to open guard bottom with active hooks and grip control on the now-standing attacker
 - **Risk**: If the attacker disengages quickly and creates distance, you may end up seated without effective guard hooks established
 
 ### 4. Extract your trapped heel during the knee recovery phase when the attacker's inside leg releases hip pressure
 
 - **When to use**: During the brief window when the attacker's inside leg transitions from hip frame to kneeling base, creating space around your trapped leg
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Your leg is freed from the entanglement and both players can reset to standing, eliminating the leg lock threat entirely
 - **Risk**: If the attacker's outside hook remains deep, extraction may fail and you remain partially entangled in a compromised position
 
@@ -225,11 +225,11 @@ When the bottom Inside Ashi-Garami player attempts to stand up, the defender has
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Counter the standup attempt by hooking the attacker's legs as they rise, establishing open guard connection before they achieve full standing. Extract your trapped leg during the transition when their inside leg pressure releases, converting a dangerous ashi garami into a manageable open guard exchange where you have sweep and guard retention pathways available.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Use the attacker's standup movement as an opportunity to extract your trapped heel. As they release heel grips to post and their inside leg pressure decreases, pull your leg free by rotating your knee outward and retracting your heel. Scramble to your feet alongside them, resetting to a neutral standing position where the leg lock threat is completely eliminated.
 

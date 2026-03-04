@@ -148,7 +148,7 @@ Defending the Transition to Double Jump requires understanding that the danger b
 
 When caught mid-transition, the defender must act immediately. Once both hooks are fully established with depth, escape becomes significantly more difficult and you face the cascading threats of back control, crab ride, and truck entries. Early recognition of the attack and immediate defensive response during the hook insertion phase offers the highest probability of successful defense. The key defensive principle is controlling the space between your thighs and the mat to deny hook entry points.
 
-**Opponent's Starting Position**: [[Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -186,28 +186,28 @@ When caught mid-transition, the defender must act immediately. Once both hooks a
 ### 1. Immediately sit back to butterfly guard by driving hips backward into the top player and establishing butterfly hooks before their legs can penetrate
 
 - **When to use**: As soon as you feel the top player's legs probing inside your thighs during the turtle transition, before hooks achieve depth
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: You establish butterfly guard with sweep and submission opportunities, completely negating the Double Jump threat
 - **Risk**: If timed late, opponent may have one hook in and can transition to crab ride as you sit back
 
 ### 2. Squeeze knees tightly together and drive hips to the mat to eliminate the space needed for hook insertion while maintaining strong turtle base
 
 - **When to use**: When you are committed to turtling and feel the Double Jump attempt beginning but hooks have not yet achieved depth
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Hooks are denied or extracted, opponent must reset to conventional turtle attacks, giving you time to recover guard or complete turtle defense
 - **Risk**: If opponent has strong upper body control, squeezing knees may not be sufficient against explosive insertion
 
 ### 3. Perform a Granby roll underneath the top player during the transition to escape the hook insertion and recover guard
 
 - **When to use**: When you have sufficient space and the top player is committed forward during their hook insertion attempt, creating momentum you can redirect
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: You rotate underneath and through, recovering to open guard or closed guard with the opponent forced to reset their attack
 - **Risk**: If the Granby roll is read, the top player can follow and establish even deeper control or take the back directly
 
 ### 4. Post strong arm on the mat and drive backward into the top player, reversing direction to re-establish half guard bottom position
 
 - **When to use**: Early in the transition before you have fully committed to turtle, when the top player begins following your rotation with hook intent
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard bottom with your opponent forced to restart their passing sequence from the beginning
 - **Risk**: Driving backward may expose your back if the opponent has already established partial hooks or strong seatbelt grip
 
@@ -219,11 +219,11 @@ When caught mid-transition, the defender must act immediately. Once both hooks a
 
 ## Best-Case Outcomes for Defender
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 Sit back immediately when you recognize the Double Jump attempt, driving your hips backward into the top player and establishing butterfly hooks before their legs can penetrate inside your thighs. This is the most reliable defense because it removes the positional context entirely.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Prevent the transition by maintaining strong half guard bottom position instead of turtling, or reverse direction early in the transition by posting an arm and driving backward to re-establish the half guard entanglement before hooks can be inserted.
 

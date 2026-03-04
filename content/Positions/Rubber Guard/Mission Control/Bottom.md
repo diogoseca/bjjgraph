@@ -214,23 +214,23 @@ Success in Mission Control bottom requires specific physical attributes and tech
 
 ## Available Escapes
 
-### [[Triangle Setup]] (15% of attempts)
+### [[Transitions/Triangle Setup]] (15% of attempts)
 
-### [[Omoplata to Sweep]] (12% of attempts)
+### [[Transitions/Omoplata to Sweep]] (12% of attempts)
 
-### [[Closed Guard to Omoplata]] (12% of attempts)
+### [[Transitions/Closed Guard to Omoplata]] (12% of attempts)
 
-### [[Closed Guard to Triangle]] (14% of attempts)
+### [[Transitions/Closed Guard to Triangle]] (14% of attempts)
 
-### [[Armbar Finish]] (10% of attempts)
+### [[Transitions/Armbar Finish]] (10% of attempts)
 
-### [[Hip Bump Sweep]] (10% of attempts)
+### [[Transitions/Hip Bump Sweep]] (10% of attempts)
 
-### [[Omoplata Sweep]] (10% of attempts)
+### [[Transitions/Omoplata Sweep]] (10% of attempts)
 
-### [[Progression to Zombie]] (8% of attempts)
+### [[Transitions/Progression to Zombie]] (8% of attempts)
 
-### [[Advance to Chill Dog]] (9% of attempts)
+### [[Transitions/Advance to Chill Dog]] (9% of attempts)
 
 
 
@@ -241,28 +241,28 @@ Success in Mission Control bottom requires specific physical attributes and tech
 ## Decision Making from This Position
 
 **Opponent maintains broken posture with head down and weight on trapped shoulder:**
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 75%)
-- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 70%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 75%)
+- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 70%)
 
 
 **Opponent attempts to posture up by driving weight back and lifting head:**
-- Execute **[[Closed Guard to Triangle]]** → [[Triangle Control]] (Probability: 70%)
-- Execute **[[Progression to Zombie]]** → [[Zombie]] (Probability: 55%)
+- Execute **[[Transitions/Closed Guard to Triangle]]** → [[Positions/Triangle Control]] (Probability: 70%)
+- Execute **[[Transitions/Progression to Zombie]]** → [[Positions/Rubber Guard/Zombie]] (Probability: 55%)
 
 
 **Opponent drives forward with stacking pressure attempting to collapse high guard:**
-- Execute **[[Progression to Zombie]]** → [[Zombie]] (Probability: 60%)
-- Execute **[[Omoplata Sweep]]** → [[Back Control]] (Probability: 58%)
+- Execute **[[Transitions/Progression to Zombie]]** → [[Positions/Rubber Guard/Zombie]] (Probability: 60%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Back Control]] (Probability: 58%)
 
 
 **Opponent pulls trapped arm back attempting to free shoulder from isolation:**
-- Execute **[[Omoplata to Sweep]]** → [[Omoplata Control]] (Probability: 68%)
-- Execute **[[New York to Invisible Collar]]** → [[Invisible Collar]] (Probability: 45%)
+- Execute **[[Transitions/Omoplata to Sweep]]** → [[Positions/Omoplata Control]] (Probability: 68%)
+- Execute **[[Transitions/New York to Invisible Collar]]** → [[Positions/Rubber Guard/Invisible Collar]] (Probability: 45%)
 
 
 **Opponent successfully extracts arm and begins to open guard:**
-- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 50%)
-- Execute **[[Advance to Chill Dog]]** → [[Chill Dog]] (Probability: 45%)
+- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Advance to Chill Dog]]** → [[Positions/Rubber Guard/Chill Dog]] (Probability: 45%)
 
 
 
@@ -408,16 +408,16 @@ Flow drill starting in Mission Control. Partner defends triangle, transition to 
 
 ## Related Positions and Techniques
 
-- **[[Rubber Guard]]** - Parent system - Mission Control is the foundational control position
-- **[[New York]]** - Advanced control - primary transition when opponent defends Mission Control
-- **[[Triangle Control]]** - Primary submission destination from Mission Control
-- **[[Omoplata Control]]** - Secondary submission destination from Mission Control
-- **[[Closed Guard]]** - Starting position - Mission Control is established from high guard
-- **[[Gogoplata Control]]** - Advanced submission option when posture is completely broken
-- **[[Carni]]** - Alternative shoulder isolation control within rubber guard system
-- **[[Invisible Collar]]** - Transition control when opponent strips grips or extracts arm
-- **[[Zombie]]** - Counter control when opponent stacks or drives forward pressure
-- **[[Back Control]]** - Alternative destination from omoplata sweeps when opponent over-defends
+- **[[Positions/Rubber Guard]]** - Parent system - Mission Control is the foundational control position
+- **[[Positions/Rubber Guard/New York]]** - Advanced control - primary transition when opponent defends Mission Control
+- **[[Positions/Triangle Control]]** - Primary submission destination from Mission Control
+- **[[Positions/Omoplata Control]]** - Secondary submission destination from Mission Control
+- **[[Positions/Closed Guard]]** - Starting position - Mission Control is established from high guard
+- **[[Positions/Gogoplata Control]]** - Advanced submission option when posture is completely broken
+- **[[Positions/Rubber Guard/Carni]]** - Alternative shoulder isolation control within rubber guard system
+- **[[Positions/Rubber Guard/Invisible Collar]]** - Transition control when opponent strips grips or extracts arm
+- **[[Positions/Rubber Guard/Zombie]]** - Counter control when opponent stacks or drives forward pressure
+- **[[Positions/Back Control]]** - Alternative destination from omoplata sweeps when opponent over-defends
 
 
 </section>

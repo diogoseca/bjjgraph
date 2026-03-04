@@ -186,7 +186,7 @@ description: "Master the Escape Reverse Mount technique from bottom position. Le
 
 As the bottom player trapped in reverse mount, your primary objective is to escape to half guard through systematic hip escapes and turning movements that exploit the inherent instability of your opponent's backward-facing position. The escape begins with neck protection and defensive posture, progresses through angle creation via hip escapes, and culminates in a controlled turn that recovers guard. Success depends on reading your opponent's weight distribution, timing your movements to their adjustments, and maintaining composure under pressure rather than panicking into explosive but poorly timed escape attempts that expose your back to hooks and chokes.
 
-**From Position**: [[Reverse Mount]] (Bottom)
+**From Position**: [[Positions/Reverse Mount]] (Bottom)
 
 </section>
 
@@ -240,10 +240,10 @@ As the bottom player trapped in reverse mount, your primary objective is to esca
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Success | [[Open Guard]] | 10% |
-| Failure | [[Reverse Mount]] | 30% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Reverse Mount]] | 30% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -252,10 +252,10 @@ As the bottom player trapped in reverse mount, your primary objective is to esca
 
 ## Opponent Counters
 
-- **Opponent drops weight and sprawls hips to flatten escape angle** (Effectiveness: High) - Your Response: Switch to incremental hip escapes rather than explosive movement, using small persistent shrimps that are harder to counter with weight alone. Wait for opponent to adjust their grips before resuming the turn. → Leads to [[Reverse Mount]]
-- **Opponent inserts hooks during turning movement to transition to back control** (Effectiveness: High) - Your Response: Keep elbows extremely tight during the turn and prioritize trapping their near leg before completing the full turn. If hooks are inserted, immediately transition to back escape protocol rather than continuing half guard recovery. → Leads to [[Back Control]]
-- **Opponent posts hand and adjusts base to prevent bridge effectiveness** (Effectiveness: Medium) - Your Response: Redirect escape to the opposite side of their posted hand where their base is weakest. The posted hand creates a momentary commitment that weakens their base on the opposite side, opening the hip escape window. → Leads to [[Reverse Mount]]
-- **Opponent secures seatbelt control during escape attempt** (Effectiveness: High) - Your Response: Immediately address the choking hand by two-on-one grip fighting before continuing escape. The seatbelt must be neutralized first or the escape becomes a back defense situation. Strip the top hand, then resume hip escape sequence. → Leads to [[Back Control]]
+- **Opponent drops weight and sprawls hips to flatten escape angle** (Effectiveness: High) - Your Response: Switch to incremental hip escapes rather than explosive movement, using small persistent shrimps that are harder to counter with weight alone. Wait for opponent to adjust their grips before resuming the turn. → Leads to [[Positions/Reverse Mount]]
+- **Opponent inserts hooks during turning movement to transition to back control** (Effectiveness: High) - Your Response: Keep elbows extremely tight during the turn and prioritize trapping their near leg before completing the full turn. If hooks are inserted, immediately transition to back escape protocol rather than continuing half guard recovery. → Leads to [[Positions/Back Control]]
+- **Opponent posts hand and adjusts base to prevent bridge effectiveness** (Effectiveness: Medium) - Your Response: Redirect escape to the opposite side of their posted hand where their base is weakest. The posted hand creates a momentary commitment that weakens their base on the opposite side, opening the hip escape window. → Leads to [[Positions/Reverse Mount]]
+- **Opponent secures seatbelt control during escape attempt** (Effectiveness: High) - Your Response: Immediately address the choking hand by two-on-one grip fighting before continuing escape. The seatbelt must be neutralized first or the escape becomes a back defense situation. Strip the top hand, then resume hip escape sequence. → Leads to [[Positions/Back Control]]
 
 
 </section>

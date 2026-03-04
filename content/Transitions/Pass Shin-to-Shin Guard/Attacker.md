@@ -180,7 +180,7 @@ description: "Complete attacking guide to passing Shin-to-Shin Guard. Step-by-st
 
 Passing Shin-to-Shin Guard from the attacker's perspective demands patience and systematic execution rather than explosive forward drives. The passer must sequence their attack correctly: establish upper body grip dominance, neutralize the shin connection through angle changes and controlled clearing mechanics, then immediately convert to a passing sequence before the guard player can recompose. The critical timing window opens when the shin connection weakens—hesitation at this point allows guard reestablishment, while premature advancement before clearing exposes you to sweeps and transitions. The entire sequence rewards the passer who reads the guard player's reactions and adapts their clearing approach accordingly.
 
-**From Position**: [[Shin-to-Shin Guard]] (Top)
+**From Position**: [[Positions/Shin-to-Shin Guard]] (Top)
 
 </section>
 
@@ -232,10 +232,10 @@ Passing Shin-to-Shin Guard from the attacker's perspective demands patience and 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Half Guard]] | 25% |
-| Failure | [[Open Guard]] | 20% |
-| Counter | [[Single Leg X-Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Failure | [[Positions/Open Guard]] | 20% |
+| Counter | [[Positions/X-Guard/Single Leg X-Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ Passing Shin-to-Shin Guard from the attacker's perspective demands patience and 
 
 ## Opponent Counters
 
-- **Guard player shoots hips underneath during clearing sequence to establish Single Leg X-Guard hooks** (Effectiveness: High) - Your Response: Widen base immediately and drive hips back while controlling their far shoulder. If they get one hook in, sprawl your hips and work to extract the trapped leg before the second hook establishes full Single Leg X control. → Leads to [[Single Leg X-Guard]]
-- **Guard player scoots hips back and reestablishes frames to recompose open guard after connection breaks** (Effectiveness: Medium) - Your Response: Follow their hip movement immediately rather than letting them create distance. Maintain sleeve grip and pressure forward to prevent recomposition while continuing your passing sequence without pause. → Leads to [[Open Guard]]
-- **Guard player inserts knee shield to catch half guard as you advance through their guard structure** (Effectiveness: Medium) - Your Response: Accept the half guard position and immediately transition to a half guard passing sequence—knee slice, hip switch, or smash pass—rather than trying to rip your leg free. Maintain crossface and shoulder pressure throughout. → Leads to [[Half Guard]]
-- **Guard player uses your forward clearing momentum to elevate for butterfly sweep or X-Guard entry** (Effectiveness: High) - Your Response: Recognize the weight shift and lower your base immediately. Avoid committing weight over their centerline during clearing. Post your hands if necessary and reset to standing posture rather than fighting the sweep from a compromised base. → Leads to [[Open Guard]]
+- **Guard player shoots hips underneath during clearing sequence to establish Single Leg X-Guard hooks** (Effectiveness: High) - Your Response: Widen base immediately and drive hips back while controlling their far shoulder. If they get one hook in, sprawl your hips and work to extract the trapped leg before the second hook establishes full Single Leg X control. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Guard player scoots hips back and reestablishes frames to recompose open guard after connection breaks** (Effectiveness: Medium) - Your Response: Follow their hip movement immediately rather than letting them create distance. Maintain sleeve grip and pressure forward to prevent recomposition while continuing your passing sequence without pause. → Leads to [[Positions/Open Guard]]
+- **Guard player inserts knee shield to catch half guard as you advance through their guard structure** (Effectiveness: Medium) - Your Response: Accept the half guard position and immediately transition to a half guard passing sequence—knee slice, hip switch, or smash pass—rather than trying to rip your leg free. Maintain crossface and shoulder pressure throughout. → Leads to [[Positions/Half Guard]]
+- **Guard player uses your forward clearing momentum to elevate for butterfly sweep or X-Guard entry** (Effectiveness: High) - Your Response: Recognize the weight shift and lower your base immediately. Avoid committing weight over their centerline during clearing. Post your hands if necessary and reset to standing posture rather than fighting the sweep from a compromised base. → Leads to [[Positions/Open Guard]]
 
 
 </section>

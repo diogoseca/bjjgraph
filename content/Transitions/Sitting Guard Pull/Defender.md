@@ -154,7 +154,7 @@ description: "How to defend against Sitting Guard Pull in BJJ. Recognition cues,
 
 Defending against the Sitting Guard Pull requires recognizing the technique early and exploiting the brief window of vulnerability during your opponent's descent. The moment an opponent commits to sitting, they sacrifice their standing base and mobility for a brief period. A prepared defender can capitalize on this transition by either preventing the guard establishment entirely through grip breaks and disengagement, or by immediately initiating a passing sequence before the guard player can settle into their preferred configuration. The defender's primary advantage is that they retain standing mobility while the guard puller is mid-transition, but this advantage is fleeting - once the opponent establishes grips, foot placement, and guard structure, the defender faces a fully functional guard game.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against the Sitting Guard Pull requires recognizing the technique earl
 ### 1. Strip grips and disengage before the sit completes - break the collar or sleeve grip using two-on-one grip breaks while stepping back to create distance
 
 - **When to use**: As soon as you recognize the guard pull setup, before or during the opponent's initial descent phase
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent is left sitting on the mat without connection, giving you time to re-engage on your terms or initiate a standing pass
 - **Risk**: If grip break is incomplete, opponent may still control one hand and pull you into their guard during the sit
 
 ### 2. Drive forward immediately with chest pressure and underhook control as opponent begins sitting, smashing through their guard before it establishes
 
 - **When to use**: When opponent has already begun the sit and you cannot prevent it - commit to pressure passing before their feet become active
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You achieve chest-to-chest pressure or side control before opponent establishes guard frames, effectively passing the guard during the pull
 - **Risk**: If opponent has strong foot placement, driving forward plays into their butterfly sweep or guard retention game
 
 ### 3. Circle laterally and grab both ankles or pants as opponent sits, immediately initiating toreando or leg drag pass before guard structure forms
 
 - **When to use**: When opponent sits but has not yet placed feet on your body - the brief window between landing and guard establishment
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You control their legs and dictate the passing angle before they can establish hooks, frames, or De La Riva connections
 - **Risk**: If you are too slow, opponent inserts hooks or establishes grips that compromise your leg control
 
 ### 4. Maintain distance and refuse to engage, forcing the seated opponent to either stand back up or scoot forward on the mat
 
 - **When to use**: When opponent pulls guard without strong grips or when you have a points lead and do not need to engage their guard game
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent must expend energy scooting forward or stand back up, resetting the engagement on your terms
 - **Risk**: Referee may penalize stalling if you disengage for too long without attempting to pass or engage
 
@@ -225,11 +225,11 @@ Defending against the Sitting Guard Pull requires recognizing the technique earl
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Break grips early and disengage before or during the opponent's sit. Strip the primary collar or sleeve grip using a two-on-one break while stepping back out of range. The opponent lands without connection and must either scoot forward or stand back up, giving you positional advantage and the ability to re-engage on your terms.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Capitalize on the transition window by immediately driving forward with chest pressure as opponent sits, or by grabbing both legs and initiating a fast toreando pass. The goal is to achieve a passing position before the guard player establishes frames and hooks. Timing is critical - you must attack within the 1-2 second window when their guard is not yet configured.
 

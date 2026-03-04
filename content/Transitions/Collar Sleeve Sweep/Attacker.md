@@ -186,7 +186,7 @@ description: "Execute the Collar Sleeve Sweep with precision. Complete attacking
 
 As the attacker executing the Collar Sleeve Sweep, your objective is to use your established collar and sleeve grips to create rotational instability that topples the opponent onto their back, allowing you to follow through to a dominant top position. The sweep depends on coordinating three mechanical systems simultaneously: your grips control the opponent's upper body rotation and posting ability, your framing foot on the hip generates explosive directional force, and your hooking leg behind the opponent's far leg removes their base in the sweep direction. Success requires loading all three systems before committing to the sweep, then executing with decisive, explosive timing rather than gradual pressure that allows the opponent to adjust their base. The sweep's effectiveness is highest when the opponent is actively engaging with your grips rather than disengaging, because their forward weight commitment amplifies the rotational force you generate.
 
-**From Position**: [[Collar Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Collar Sleeve Guard]] (Bottom)
 
 </section>
 
@@ -241,9 +241,9 @@ As the attacker executing the Collar Sleeve Sweep, your objective is to use your
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Collar Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Collar Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -252,10 +252,10 @@ As the attacker executing the Collar Sleeve Sweep, your objective is to use your
 
 ## Opponent Counters
 
-- **Opponent posts free hand on the mat to brace against sweep direction** (Effectiveness: High) - Your Response: Immediately shoot a triangle by bringing your hip-posted leg over their posted arm and around their neck. Their posting hand creates the arm isolation needed for the triangle entry. Alternatively, switch to an omoplata setup targeting the posted arm. → Leads to [[Collar Sleeve Guard]]
-- **Opponent drives forward with heavy pressure to flatten your hips against the mat** (Effectiveness: Medium) - Your Response: Use the hip-posted foot to push them away and re-create distance. If they commit fully forward, redirect their momentum overhead with a tomoe nage variation or switch to a hip bump sweep that exploits their forward weight commitment. → Leads to [[Open Guard]]
-- **Opponent strips the collar grip before the sweep loads using a two-on-one wrist peel** (Effectiveness: High) - Your Response: Immediately re-establish the collar grip from a different angle or transition to spider guard or lasso guard using the maintained sleeve control. Without the collar grip, the sweep lacks sufficient rotational force to succeed. → Leads to [[Collar Sleeve Guard]]
-- **Opponent backsteps to extract the hooking leg behind their far knee** (Effectiveness: Medium) - Your Response: Follow their backstep with your hooking leg and re-insert the hook, or transition to a collar drag attack or back take opportunity as their backstep rotation exposes their back. Their movement creates angles you can exploit offensively. → Leads to [[Collar Sleeve Guard]]
+- **Opponent posts free hand on the mat to brace against sweep direction** (Effectiveness: High) - Your Response: Immediately shoot a triangle by bringing your hip-posted leg over their posted arm and around their neck. Their posting hand creates the arm isolation needed for the triangle entry. Alternatively, switch to an omoplata setup targeting the posted arm. → Leads to [[Positions/Collar Sleeve Guard]]
+- **Opponent drives forward with heavy pressure to flatten your hips against the mat** (Effectiveness: Medium) - Your Response: Use the hip-posted foot to push them away and re-create distance. If they commit fully forward, redirect their momentum overhead with a tomoe nage variation or switch to a hip bump sweep that exploits their forward weight commitment. → Leads to [[Positions/Open Guard]]
+- **Opponent strips the collar grip before the sweep loads using a two-on-one wrist peel** (Effectiveness: High) - Your Response: Immediately re-establish the collar grip from a different angle or transition to spider guard or lasso guard using the maintained sleeve control. Without the collar grip, the sweep lacks sufficient rotational force to succeed. → Leads to [[Positions/Collar Sleeve Guard]]
+- **Opponent backsteps to extract the hooking leg behind their far knee** (Effectiveness: Medium) - Your Response: Follow their backstep with your hooking leg and re-insert the hook, or transition to a collar drag attack or back take opportunity as their backstep rotation exposes their back. Their movement creates angles you can exploit offensively. → Leads to [[Positions/Collar Sleeve Guard]]
 
 
 </section>

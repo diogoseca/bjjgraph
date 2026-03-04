@@ -180,7 +180,7 @@ description: "Master the Step Over pass from X-Guard as the attacker. Detailed e
 
 As the attacker executing the Step Over from X-Guard, your objective is to clear the bottom player's leg configuration by stepping your free leg over their body and landing directly in side control. This pass requires a combination of grip control, balance management, and decisive commitment that distinguishes it from more methodical X-Guard passing approaches. The key insight is that the step over is not a stand-alone technique but rather a finishing move that capitalizes on structural weaknesses created by prior passing pressure. Your ability to recognize the precise moment when the bottom player's hooks are compromised enough to allow the step over separates successful execution from a failed pass that exposes you to sweeps.
 
-**From Position**: [[X-Guard]] (Top)
+**From Position**: [[Positions/X-Guard]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ As the attacker executing the Step Over from X-Guard, your objective is to clear
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[X-Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/X-Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the Step Over from X-Guard, your objective is to clear
 
 ## Opponent Counters
 
-- **Bottom player re-establishes deep hooks by elevating hips and reinserting inside leg behind knee** (Effectiveness: High) - Your Response: Immediately re-compress by driving knee forward again and strip the re-inserted hook before it seats fully. If hooks reseat completely, reset to systematic passing rather than forcing the step over. → Leads to [[X-Guard]]
-- **Bottom player transitions to Single Leg X-Guard as hooks become shallow, maintaining leg control with a different configuration** (Effectiveness: Medium) - Your Response: Recognize the position change and address the SLX hooks before reattempting the step over. Use downward hip pressure to flatten the SLX structure or transition to a knee slice passing approach. → Leads to [[X-Guard]]
-- **Bottom player times a sweep during the single-leg balance phase, using the elevation to off-balance the top player** (Effectiveness: High) - Your Response: Post your free hand on the mat immediately if you feel your balance compromised. Abort the step over and reset your base rather than continuing the pass off-balance, which leads to being swept. → Leads to [[Half Guard]]
-- **Bottom player grabs the stepping leg during the arc and pulls it into half guard retention** (Effectiveness: Medium) - Your Response: Drive the stepping leg through aggressively with hip power rather than trying to pull it free. Use the forward momentum to complete the pass through their grip or transition to a knee slice finish. → Leads to [[X-Guard]]
+- **Bottom player re-establishes deep hooks by elevating hips and reinserting inside leg behind knee** (Effectiveness: High) - Your Response: Immediately re-compress by driving knee forward again and strip the re-inserted hook before it seats fully. If hooks reseat completely, reset to systematic passing rather than forcing the step over. → Leads to [[Positions/X-Guard]]
+- **Bottom player transitions to Single Leg X-Guard as hooks become shallow, maintaining leg control with a different configuration** (Effectiveness: Medium) - Your Response: Recognize the position change and address the SLX hooks before reattempting the step over. Use downward hip pressure to flatten the SLX structure or transition to a knee slice passing approach. → Leads to [[Positions/X-Guard]]
+- **Bottom player times a sweep during the single-leg balance phase, using the elevation to off-balance the top player** (Effectiveness: High) - Your Response: Post your free hand on the mat immediately if you feel your balance compromised. Abort the step over and reset your base rather than continuing the pass off-balance, which leads to being swept. → Leads to [[Positions/Half Guard]]
+- **Bottom player grabs the stepping leg during the arc and pulls it into half guard retention** (Effectiveness: Medium) - Your Response: Drive the stepping leg through aggressively with hip power rather than trying to pull it free. Use the forward momentum to complete the pass through their grip or transition to a knee slice finish. → Leads to [[Positions/X-Guard]]
 
 
 </section>

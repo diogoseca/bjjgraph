@@ -178,7 +178,7 @@ This technique prioritizes safety and position reset over direct passing. Rather
 
 From a systematic perspective, the Sprawl and Disengage represents intelligent risk management. When facing a skilled grasshopper guard player, attempting to pass through their legs often results in rolling kneebars, ankle locks, or 50-50 entanglements. By disengaging cleanly, you deny them the leg contact they need while maintaining top position and the ability to re-engage on your terms. The technique is particularly valuable in competition where conceding points for a sweep is far worse than resetting to neutral standing.
 
-**From Position**: [[Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Grasshopper Guard]] (Top)
 
 </section>
 
@@ -228,9 +228,9 @@ From a systematic perspective, the Sprawl and Disengage represents intelligent r
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 65% |
-| Failure | [[Grasshopper Guard]] | 25% |
-| Counter | [[Single Leg X-Guard]] | 10% |
+| Success | [[Positions/Standing Position]] | 65% |
+| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Counter | [[Positions/X-Guard/Single Leg X-Guard]] | 10% |
 
 
 </section>
@@ -239,10 +239,10 @@ From a systematic perspective, the Sprawl and Disengage represents intelligent r
 
 ## Opponent Counters
 
-- **Opponent follows with inversion roll to reestablish contact** (Effectiveness: High) - Your Response: Continue circling away and make them expend energy chasing. Their inverted position is unsustainable—patience wins. → Leads to [[Grasshopper Guard]]
-- **Opponent shoots for single leg as you disengage** (Effectiveness: Medium) - Your Response: Sprawl deeper and crossface to prevent them from getting underneath your hips. Their transition from inversion to shot creates vulnerability. → Leads to [[Single Leg X-Guard]]
-- **Opponent grabs ankle before you can fully extract** (Effectiveness: Medium) - Your Response: Continue hip extension while stripping grip with opposite hand. Pull leg in circular motion rather than straight back to break grip angle. → Leads to [[Grasshopper Guard]]
-- **Opponent uses momentum to come up to seated guard** (Effectiveness: Low) - Your Response: This is actually favorable—they've abandoned their inverted attack system for a more neutral position you can engage directly. → Leads to [[Standing Position]]
+- **Opponent follows with inversion roll to reestablish contact** (Effectiveness: High) - Your Response: Continue circling away and make them expend energy chasing. Their inverted position is unsustainable—patience wins. → Leads to [[Positions/Grasshopper Guard]]
+- **Opponent shoots for single leg as you disengage** (Effectiveness: Medium) - Your Response: Sprawl deeper and crossface to prevent them from getting underneath your hips. Their transition from inversion to shot creates vulnerability. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Opponent grabs ankle before you can fully extract** (Effectiveness: Medium) - Your Response: Continue hip extension while stripping grip with opposite hand. Pull leg in circular motion rather than straight back to break grip angle. → Leads to [[Positions/Grasshopper Guard]]
+- **Opponent uses momentum to come up to seated guard** (Effectiveness: Low) - Your Response: This is actually favorable—they've abandoned their inverted attack system for a more neutral position you can engage directly. → Leads to [[Positions/Standing Position]]
 
 
 </section>

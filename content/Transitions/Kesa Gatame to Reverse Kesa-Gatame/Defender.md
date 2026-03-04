@@ -156,7 +156,7 @@ Defending the Transition to Reverse Kesa-Gatame requires recognizing the early c
 
 The defender must understand that once Reverse Kesa-Gatame is fully established with the far arm isolated, escape becomes significantly more difficult than from standard Kesa Gatame. This makes early intervention during the transition far more valuable than attempting to escape after the rotation is complete. Reading the setup cues and acting immediately is the difference between preventing the position change and being trapped in an increasingly unfavorable pin.
 
-**Opponent's Starting Position**: [[Kesa Gatame]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The defender must understand that once Reverse Kesa-Gatame is fully established 
 ### 1. Bridge explosively during the rotation while the top player's base is compromised
 
 - **When to use**: As soon as you feel head control release and the hip direction change begins. The bridge is most effective before the rotation passes the midpoint, when the top player is between positions.
-- **Targets**: [[Kesa Gatame]]
+- **Targets**: [[Positions/Side Control/Kesa Gatame]]
 - **If successful**: The bridge disrupts the rotation and the top player must re-establish standard Kesa Gatame or lose the pin. You may create enough space to begin guard recovery.
 - **Risk**: If the bridge is too late, the top player uses your bridge momentum to accelerate their rotation and settle into Reverse Kesa-Gatame with even more pressure.
 
 ### 2. Retract and protect far arm by clamping elbow to ribs and grabbing your own lapel or wrist
 
 - **When to use**: The moment you recognize the rotation is occurring. Even if you cannot stop the transition, preventing arm isolation removes the primary offensive advantage of Reverse Kesa-Gatame.
-- **Targets**: [[Reverse Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Reverse Kesa-Gatame]]
 - **If successful**: You end up in Reverse Kesa-Gatame but with your arm protected, making subsequent escapes more achievable and eliminating immediate submission threats.
 - **Risk**: Focusing on arm protection may prevent you from using that arm to frame and shrimp, potentially allowing the pin to consolidate more deeply.
 
 ### 3. Shrimp hips away and insert knee shield during the transitional gap
 
 - **When to use**: When the top player's head control releases and before they complete the rotation. The space created by the directional change allows hip escape that would not work against settled Kesa Gatame.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard or insert a knee shield that prevents the top player from completing either Kesa Gatame or Reverse Kesa-Gatame.
 - **Risk**: If the top player completes the rotation before your knee shield is established, your hip escape may feed them an easier transition to mount.
 
 ### 4. Turn into the top player and pursue turtle or back exposure attack as they rotate
 
 - **When to use**: When the rotation is already past the midpoint and you cannot prevent it. Turning into the top player as they face away creates turtle position or potential back take opportunity.
-- **Targets**: [[Kesa Gatame]]
+- **Targets**: [[Positions/Side Control/Kesa Gatame]]
 - **If successful**: You achieve turtle position and can immediately begin stand-up or guard recovery sequences, potentially even threatening back takes if the top player is off-balance.
 - **Risk**: If the top player reads your turn and adjusts, they may take your back instead or secure a tighter Reverse Kesa-Gatame.
 
@@ -228,11 +228,11 @@ The defender must understand that once Reverse Kesa-Gatame is fully established 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Use the transitional window created by the rotation to shrimp your hips away and insert a knee shield between your bodies. The momentary instability of the top player's position during the pivot provides enough space for hip escape that would not be available against a settled pin. Commit fully to the shrimp the instant you feel head control release.
 
-### → [[Kesa Gatame]]
+### → [[Positions/Side Control/Kesa Gatame]]
 
 Bridge explosively during the early phase of the rotation, before the top player's hips pass the midpoint. The bridge disrupts the rotation and forces the top player to either abort and re-establish standard Kesa Gatame or lose the pin entirely. Time the bridge for the moment you feel the hip direction change begin. The forced return to standard Kesa Gatame means you have successfully defended the positional upgrade.
 

@@ -208,25 +208,25 @@ Strategically, being on bottom of Honey Hole is survival situation rather than c
 
 ## Available Escapes
 
-### [[Inversion Escape]] (14% of attempts)
+### [[Transitions/Inversion Escape]] (14% of attempts)
 
-### [[Hip Escape to Guard]] (7% of attempts)
+### [[Transitions/Hip Escape to Guard]] (7% of attempts)
 
-### [[Angle Change Escape]] (9% of attempts)
+### [[Transitions/Angle Change Escape]] (9% of attempts)
 
-### [[Ashi Garami Escape]] (7% of attempts)
+### [[Transitions/Ashi Garami Escape]] (7% of attempts)
 
-### [[Counter-entangle to 50-50 Guard]] (37% of attempts)
+### [[Transitions/Counter-entangle to 50-50 Guard]] (37% of attempts)
 
-### [[Counter heel hook]] (3% of attempts)
+### [[Transitions/Counter heel hook]] (3% of attempts)
 
-### [[Reverse the entanglement to Outside Ashi]] (8% of attempts)
+### [[Transitions/Reverse the entanglement to Outside Ashi]] (8% of attempts)
 
-### [[Grip Break]] (13% of attempts)
+### [[Transitions/Grip Break]] (13% of attempts)
 
-### [[Standing Escape]] (1% of attempts)
+### [[Transitions/Standing Escape]] (1% of attempts)
 
-### [[Sweep from Honey Hole]] (1% of attempts)
+### [[Transitions/Sweep from Honey Hole]] (1% of attempts)
 
 
 
@@ -237,26 +237,26 @@ Strategically, being on bottom of Honey Hole is survival situation rather than c
 ## Decision Making from This Position
 
 **If opponent has not yet secured heel grip and triangle is forming:**
-- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 35%)
-- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 30%)
-- Execute **[[Counter Sweep]]** → [[50-50 Guard]] (Probability: 25%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 30%)
+- Execute **[[Transitions/Counter Sweep]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 25%)
 
 
 **If opponent has heel grip but has not yet applied breaking pressure:**
-- Execute **[[Grip Break]]** → [[Honey Hole]] (Probability: 20%)
-- Execute **[[Rolling to Guard]]** → [[Half Guard]] (Probability: 15%)
-- Execute **[[Angle Change Escape]]** → [[Outside Ashi-Garami]] (Probability: 18%)
+- Execute **[[Transitions/Grip Break]]** → [[Positions/Ashi Garami/Honey Hole]] (Probability: 20%)
+- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Half Guard]] (Probability: 15%)
+- Execute **[[Transitions/Angle Change Escape]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 18%)
 
 
 **If opponent has locked heel hook grip with triangle secured and begins applying pressure:**
-- Execute **[[Tap Out]]** → [[Game Over]] (Probability: 95%)
-- Execute **[[Rolling Back Take]]** → [[Open Guard]] (Probability: 5%)
+- Execute **[[Tap Out]]** → [[Positions/Game Over]] (Probability: 95%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Open Guard]] (Probability: 5%)
 
 
 **If opponent loses triangle momentarily during transition:**
-- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 40%)
-- Execute **[[Standing Escape]]** → [[Clinch]] (Probability: 25%)
-- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 30%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/Standing Escape]]** → [[Positions/Clinch]] (Probability: 25%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 30%)
 
 
 
@@ -402,17 +402,17 @@ Partner establishes Honey Hole with graduated resistance levels: 30%, 50%, 70%, 
 
 ## Related Positions and Techniques
 
-- **[[Saddle]]** - Alternative name for same position - different terminology for identical entanglement
-- **[[Inside Ashi-Garami]]** - Opponent's dominant position - understanding top perspective crucial for defense
-- **[[50-50 Guard]]** - Primary escape target via counter-entanglement - neutralizes opponent's inside position
-- **[[Outside Ashi-Garami]]** - Less dangerous leg entanglement - preferred position if entanglement unavoidable
-- **[[Inside Heel Hook]]** - Primary submission threat from this position - highest danger submission
-- **[[Leg Entanglement]]** - Conceptual framework - understanding leg lock systems essential for defense
-- **[[Kneebar Control]]** - Alternative submission position - opponent may transition here from Honey Hole
-- **[[Turtle]]** - Common escape target via inversion - provides temporary safety if executed correctly
-- **[[Backside 50-50]]** - Counter-entanglement option through explosive rotation
-- **[[Open Guard]]** - Escape target position when successfully extracting from entanglement
-- **[[Toe Hold]]** - Secondary submission threat opponent may use from this position
+- **[[Positions/Ashi Garami/Saddle]]** - Alternative name for same position - different terminology for identical entanglement
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Opponent's dominant position - understanding top perspective crucial for defense
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Primary escape target via counter-entanglement - neutralizes opponent's inside position
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Less dangerous leg entanglement - preferred position if entanglement unavoidable
+- **[[Submissions/Inside Heel Hook]]** - Primary submission threat from this position - highest danger submission
+- **[[Positions/Leg Entanglement]]** - Conceptual framework - understanding leg lock systems essential for defense
+- **[[Positions/Kneebar Control]]** - Alternative submission position - opponent may transition here from Honey Hole
+- **[[Positions/Turtle]]** - Common escape target via inversion - provides temporary safety if executed correctly
+- **[[Positions/Ashi Garami/Backside 50-50]]** - Counter-entanglement option through explosive rotation
+- **[[Positions/Open Guard]]** - Escape target position when successfully extracting from entanglement
+- **[[Transitions/Toe Hold]]** - Secondary submission threat opponent may use from this position
 
 
 </section>

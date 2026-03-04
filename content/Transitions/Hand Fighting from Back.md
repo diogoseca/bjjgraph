@@ -21,7 +21,7 @@ The strategic importance of hand fighting cannot be overstated - it transforms b
 
 Advanced practitioners use hand fighting not merely as passive defense but as an active system that creates dilemmas for the attacking opponent. When executed with proper timing and pressure, hand fighting forces the attacker to choose between maintaining back control and pursuing submissions - a choice that creates windows for escape. This technique serves as the gateway to all other back escapes, making it essential foundational knowledge for any serious practitioner.
 
-**From Position**: [[Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Advanced practitioners use hand fighting not merely as passive defense but as an
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 40% |
-| Success | [[Half Guard]] | 25% |
-| Failure | [[Back Control]] | 25% |
+| Success | [[Positions/Turtle]] | 40% |
+| Success | [[Positions/Half Guard]] | 25% |
+| Failure | [[Positions/Back Control]] | 25% |
 | Counter | [[game-over]] | 10% |
 
 
@@ -192,25 +192,25 @@ Hand fighting from back represents the foundational defensive layer in the back 
 ## Related Techniques
 
 
-- [[Back Control]] - Starting position requiring this defensive technique
+- [[Positions/Back Control]] - Starting position requiring this defensive technique
 
-- [[Rear Naked Choke]] - Primary submission threat that hand fighting defends against
+- [[Transitions/Rear Naked Choke]] - Primary submission threat that hand fighting defends against
 
-- [[Back Door Escape]] - Comprehensive escape system that hand fighting enables
+- [[Transitions/Back Door Escape]] - Comprehensive escape system that hand fighting enables
 
-- [[Turtle]] - Common escape destination after successful hand fighting
+- [[Positions/Turtle]] - Common escape destination after successful hand fighting
 
-- [[Half Guard]] - Alternative escape position reachable through hand fighting and hip movement
+- [[Positions/Half Guard]] - Alternative escape position reachable through hand fighting and hip movement
 
-- [[Bow and Arrow Choke]] - Gi choke threat requiring modified hand fighting approach
+- [[Transitions/Bow and Arrow Choke]] - Gi choke threat requiring modified hand fighting approach
 
-- [[Elbow Escape to Remove Hooks]] - Follow-up technique after establishing hand control
+- [[Transitions/Elbow Escape to Remove Hooks]] - Follow-up technique after establishing hand control
 
-- [[Granby Roll to Guard]] - Alternative escape that can follow successful hand fighting
+- [[Transitions/Granby Roll to Guard]] - Alternative escape that can follow successful hand fighting
 
-- [[Body Triangle]] - Back control variation that significantly alters hand fighting strategy due to sustained squeeze pressure
+- [[Positions/Back Control/Body Triangle]] - Back control variation that significantly alters hand fighting strategy due to sustained squeeze pressure
 
-- [[Hip Escape to Turtle]] - Primary escape movement integrated with hand fighting to reach turtle position
+- [[Transitions/Hip Escape to Turtle]] - Primary escape movement integrated with hand fighting to reach turtle position
 
 
 </section>

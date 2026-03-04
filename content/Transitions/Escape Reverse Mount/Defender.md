@@ -146,7 +146,7 @@ description: "Learn to maintain Reverse Mount against escape attempts. Strategie
 
 As the top player in reverse mount facing an escape attempt, your role shifts from transitional control to active prevention and capitalization. The bottom player will attempt to create angles through hip escapes and turn to establish half guard, and your defensive strategy must address these mechanics directly. Understanding the escape sequence allows you to anticipate movements, time your counters, and potentially convert the escape attempt into a superior position like back control. The key insight is that reverse mount is inherently transitional — rather than desperately maintaining it, channel the bottom player's escape energy into your own positional advancement by reading their turning movement and inserting hooks at the optimal moment.
 
-**Opponent's Starting Position**: [[Reverse Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Reverse Mount]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the top player in reverse mount facing an escape attempt, your role shifts fr
 ### 1. Drop weight and sprawl hips to flatten the bottom player's escape angle
 
 - **When to use**: As soon as you feel lateral hip movement from the bottom player indicating shrimping initiation
-- **Targets**: [[Reverse Mount]]
+- **Targets**: [[Positions/Reverse Mount]]
 - **If successful**: Bottom player returns to flat position with escape angle neutralized, resetting their escape attempt
 - **Risk**: Committing weight forward may create space behind you if bottom player reverses direction
 
 ### 2. Insert hooks during turning movement to transition to back control
 
 - **When to use**: When the bottom player commits to the turn and begins rotating their shoulders — this is the optimal window for hook insertion
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Convert reverse mount into superior back control with hooks and seatbelt, significantly advancing position
 - **Risk**: Mistimed hook insertion may be stripped and provide the bottom player additional space for guard recovery
 
 ### 3. Follow the escape movement and re-center weight over bottom player's torso
 
 - **When to use**: When the bottom player's hip escape creates moderate angle but has not yet initiated the full turn
-- **Targets**: [[Reverse Mount]]
+- **Targets**: [[Positions/Reverse Mount]]
 - **If successful**: Negate the hip escape progress by adjusting your position to maintain centered weight on their torso
 - **Risk**: Constant re-centering burns energy and the bottom player may eventually create enough angle through persistent shrimping
 
 ### 4. Secure seatbelt control as bottom player exposes shoulders during turn
 
 - **When to use**: When the bottom player's turn exposes their upper back and shoulder line during the escape rotation
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Establish dominant seatbelt grip that facilitates full back control transition with immediate submission threats
 - **Risk**: Reaching for seatbelt may compromise your base and accelerate the escape if grip is not secured
 
@@ -217,11 +217,11 @@ As the top player in reverse mount facing an escape attempt, your role shifts fr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Time hook insertion as the bottom player initiates their turn, using their own rotational momentum to facilitate back take. Secure seatbelt control before they can complete the guard recovery, converting their escape energy into your positional advancement.
 
-### → [[Reverse Mount]]
+### → [[Positions/Reverse Mount]]
 
 Maintain heavy hip pressure and re-center weight immediately when hip escape movement is detected. Use your hands to control their hips and sense movement direction, dropping weight to flatten any escape angles before they develop into full escape sequences.
 

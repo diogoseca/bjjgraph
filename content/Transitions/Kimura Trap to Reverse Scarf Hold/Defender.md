@@ -146,7 +146,7 @@ description: "How to defend and counter the Kimura Trap to Reverse Scarf Hold tr
 
 Defending the Transition to Reverse Scarf Hold requires early recognition and immediate action during the brief window when the attacker's base is compromised by the rotation. The defender's primary advantage is that mid-rotation represents the attacker's weakest control phase, where their base is narrow, their pressure is shifting, and their orientation is temporarily confused. A well-timed defensive reaction during this window can prevent the position change entirely or convert the transition into an escape opportunity. The key defensive principle is recognizing the foot-walking pattern that precedes the rotation and responding before the attacker completes the position change. Once Reverse Scarf Hold is fully consolidated, escape becomes significantly more difficult than preventing the transition in the first place. Defenders must prioritize frame creation with the far arm, knee insertion to recover guard, and hip movement to create angles that disrupt the rotation.
 
-**Opponent's Starting Position**: [[Kimura Trap]] (Top)
+**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Transition to Reverse Scarf Hold requires early recognition and im
 ### 1. Insert far-side frame against attacker's neck or shoulder to block rotation
 
 - **When to use**: As soon as you feel the foot-walking pattern begin, before the attacker passes the perpendicular angle
-- **Targets**: [[Kimura Trap]]
+- **Targets**: [[Positions/Kimura Trap]]
 - **If successful**: The attacker cannot complete the rotation and must either abandon the transition or fight through your frame, giving you time to work other escapes
 - **Risk**: If the frame is weak or poorly timed, the attacker collapses it and completes the transition with your arm now out of defensive position
 
 ### 2. Hip escape and insert knee shield during mid-rotation vulnerability
 
 - **When to use**: When the attacker reaches the perpendicular angle and their base is at its narrowest point during the rotation
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your knee enters between your bodies, preventing the Reverse Scarf Hold consolidation and recovering half guard position
 - **Risk**: The hip escape may be insufficient if the attacker maintains heavy chest pressure, and the movement may expose your back
 
 ### 3. Explosive bridge toward attacker's head during rotation to destabilize base
 
 - **When to use**: When you feel the attacker's weight shifting during the mid-rotation phase and their base is temporarily compromised
-- **Targets**: [[Kimura Trap]]
+- **Targets**: [[Positions/Kimura Trap]]
 - **If successful**: The bridge disrupts the attacker's rotation and forces them to reset back to Kimura Trap Top, preventing the positional advancement
 - **Risk**: If the bridge fails, it expends significant energy and the attacker may use the bridge momentum to complete the rotation faster
 
 ### 4. Release Kimura defense and extend arm to attack during rotation gap
 
 - **When to use**: When the attacker is mid-rotation and focused on completing the position change rather than monitoring the Kimura grip
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The arm extension creates a frame or push that disrupts the transition and creates space for guard recovery
 - **Risk**: If the attacker recognizes the arm extension, they can immediately re-engage the Kimura submission with improved leverage from the new angle
 
@@ -217,11 +217,11 @@ Defending the Transition to Reverse Scarf Hold requires early recognition and im
 
 ## Best-Case Outcomes for Defender
 
-### → [[Kimura Trap]]
+### → [[Positions/Kimura Trap]]
 
 Force the attacker back to Kimura Trap by inserting a strong far-side frame against their neck during the early rotation phase, combined with an explosive bridge that disrupts their foot-walking arc. The goal is to make the transition fail and return to a known defensive position.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a hip escape during the mid-rotation vulnerability window when the attacker's base is narrowest. Insert your near-side knee between your bodies before the attacker can settle into Reverse Scarf Hold. Even partial guard recovery transforms the situation from a pin defense to a guard game.
 

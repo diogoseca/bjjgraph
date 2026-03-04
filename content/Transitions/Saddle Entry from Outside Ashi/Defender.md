@@ -154,7 +154,7 @@ description: "Defend against the Saddle Entry counter-entanglement from Outside 
 
 As the defender against the Saddle Entry from Outside Ashi, you are the practitioner who currently holds outside ashi-garami control on your opponent's leg. Your primary objective is to prevent your opponent from converting your advantageous attacking position into their own dominant saddle through counter-entanglement. Defense requires maintaining tight triangle configuration, recognizing early signs of a backstep attempt, and either tightening your control to prevent the rotation or capitalizing on the exposed heel that occurs during the transition attempt. Understanding this counter-entanglement threat is essential for any serious leg lock player, as it directly influences how aggressively you can commit to attacks from outside ashi-garami without creating counter-opportunities.
 
-**Opponent's Starting Position**: [[Outside Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the Saddle Entry from Outside Ashi, you are the practiti
 ### 1. Tighten triangle and pull opponent's leg back into deep entanglement
 
 - **When to use**: When you recognize early signs of backstep attempt before opponent has committed to rotation
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: Opponent's rotation is blocked by tight triangle and they remain trapped in your outside ashi-garami with submission threats active
 - **Risk**: If tightening is insufficient, opponent may still complete the backstep and the delay cost you a counter-attack opportunity
 
 ### 2. Attack heel hook immediately when opponent's heel becomes exposed during rotation
 
 - **When to use**: When opponent commits to the backstep and their heel is momentarily exposed during the rotation arc
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: Opponent is forced to abort the entry attempt and address the immediate heel hook threat, returning to defensive posture
 - **Risk**: If the heel hook is not secured quickly enough, opponent completes the rotation and you lose your attacking position
 
 ### 3. Hip escape and recover to guard before opponent establishes saddle
 
 - **When to use**: When opponent has partially completed the rotation and your outside ashi control is compromised beyond recovery
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You extract your own leg from the developing saddle and recover to half guard or open guard, forcing a positional reset
 - **Risk**: If the hip escape is too slow, opponent catches your leg in saddle and you end up in the worst-case defensive scenario
 
 ### 4. Follow the rotation and re-establish your own leg entanglement from the new angle
 
 - **When to use**: When opponent has completed the backstep but has not yet fully consolidated saddle control
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: You scramble into your own counter-entanglement, potentially re-establishing outside ashi or reaching 50-50 from the new angle
 - **Risk**: If opponent has already established inside position and hip pressure, your counter-entanglement attempt may give them deeper saddle control
 
@@ -225,11 +225,11 @@ As the defender against the Saddle Entry from Outside Ashi, you are the practiti
 
 ## Best-Case Outcomes for Defender
 
-### → [[Outside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 Prevent the entry entirely by maintaining tight triangle control and attacking the exposed heel when opponent initiates the backstep. The tighter your triangle and the more active your submission threats, the less likely the opponent will find an opening for counter-entanglement.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If the opponent's entry partially succeeds and your outside ashi is compromised, hip escape immediately to extract your own leg before they can consolidate saddle. Transition to half guard by framing on their hips and threading your legs into half guard configuration, accepting the positional reset over being caught in their saddle.
 

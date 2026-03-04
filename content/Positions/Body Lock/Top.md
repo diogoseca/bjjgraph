@@ -210,25 +210,25 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 
 ## Available Attacks
 
-### [[Back Take]] (14% of attempts)
+### [[Transitions/Back Take]] (14% of attempts)
 
-### [[Snap Down to Front Headlock]] (8% of attempts)
+### [[Transitions/Snap Down to Front Headlock]] (8% of attempts)
 
-### [[Tani Otoshi]] (10% of attempts)
+### [[Transitions/Tani Otoshi]] (10% of attempts)
 
-### [[Kosoto Gake]] (8% of attempts)
+### [[Transitions/Kosoto Gake]] (8% of attempts)
 
-### [[Mat Return to Back Mount]] (40% of attempts)
+### [[Transitions/Mat Return to Back Mount]] (40% of attempts)
 
-### [[Harai Goshi]] (5% of attempts)
+### [[Transitions/Harai Goshi]] (5% of attempts)
 
-### [[Body Lock Pass]] (10% of attempts)
+### [[Transitions/Body Lock Pass]] (10% of attempts)
 
-### [[Double Leg Finish]] (3% of attempts)
+### [[Transitions/Double Leg Finish]] (3% of attempts)
 
-### [[Body Lock Takedown]] (1% of attempts)
+### [[Transitions/Body Lock Takedown]] (1% of attempts)
 
-### [[Body Lock to Standing]] (1% of attempts)
+### [[Transitions/Body Lock to Standing]] (1% of attempts)
 
 
 
@@ -239,23 +239,23 @@ Modern no-gi competition has elevated the body lock to a primary offensive weapo
 ## Decision Making from This Position
 
 **If opponent maintains strong upright posture and resists backward pressure:**
-- Execute **[[Tani Otoshi]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 45%)
+- Execute **[[Transitions/Tani Otoshi]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 45%)
 
 
 **Else if opponent's posture breaks backward under hip pressure:**
-- Execute **[[Mat Return to Back Mount]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Body Lock Pass]]** → [[Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Mat Return to Back Mount]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Body Lock Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 **Else if opponent attempts to sit or pull guard:**
-- Execute **[[Follow to Closed Guard Top]]** → [[Closed Guard]] (Probability: 65%)
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Follow to Closed Guard Top]]** → [[Positions/Closed Guard]] (Probability: 65%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **Else if opponent creates frames or attempts to break grip:**
-- Execute **[[Increase hip pressure and re-lock]]** → [[Body Lock]] (Probability: 60%)
-- Execute **[[Kosoto Gake]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Increase hip pressure and re-lock]]** → [[Positions/Body Lock]] (Probability: 60%)
+- Execute **[[Transitions/Kosoto Gake]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 
@@ -389,15 +389,15 @@ Partner attempts various escapes from your body lock including frames, whizzer, 
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Primary goal position - highest value transition from body lock
-- **[[Turtle]]** - Common intermediate position when opponent defends mat return
-- **[[Front Headlock]]** - Alternative transition when opponent lowers level to defend
-- **[[Double Unders]]** - Related control position using double underhooks instead of lock
-- **[[Crab Ride]]** - Transition position used when moving from body lock to back control
-- **[[Harness]]** - Ground-based position using similar locked grip mechanics
-- **[[Closed Guard]]** - Counter position when opponent sits to guard to escape
-- **[[Clinch]]** - Precursor standing control position from which body lock is established
-- **[[Side Control]]** - Common resulting position after successful throw or trip from body lock
+- **[[Positions/Back Control]]** - Primary goal position - highest value transition from body lock
+- **[[Positions/Turtle]]** - Common intermediate position when opponent defends mat return
+- **[[Positions/Front Headlock]]** - Alternative transition when opponent lowers level to defend
+- **[[Positions/Double Unders]]** - Related control position using double underhooks instead of lock
+- **[[Positions/Crab Ride]]** - Transition position used when moving from body lock to back control
+- **[[Positions/Harness]]** - Ground-based position using similar locked grip mechanics
+- **[[Positions/Closed Guard]]** - Counter position when opponent sits to guard to escape
+- **[[Positions/Clinch]]** - Precursor standing control position from which body lock is established
+- **[[Positions/Side Control]]** - Common resulting position after successful throw or trip from body lock
 
 
 </section>

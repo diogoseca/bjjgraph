@@ -216,27 +216,27 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 
 ## Available Attacks
 
-### [[Sprawl Defense]] (11% of attempts)
+### [[Transitions/Sprawl Defense]] (11% of attempts)
 
-### [[Crossface Pass]] (10% of attempts)
+### [[Transitions/Crossface Pass]] (10% of attempts)
 
-### [[Back Step]] (8% of attempts)
+### [[Transitions/Back Step]] (8% of attempts)
 
-### [[Knee Slice Pass]] (8% of attempts)
+### [[Transitions/Knee Slice Pass]] (8% of attempts)
 
-### [[Back Take from Top]] (26% of attempts)
+### [[Transitions/Back Take from Top]] (26% of attempts)
 
-### [[Darce from Turtle]] (8% of attempts)
+### [[Transitions/Darce from Turtle]] (8% of attempts)
 
-### [[Guillotine from Turtle]] (8% of attempts)
+### [[Transitions/Guillotine from Turtle]] (8% of attempts)
 
-### [[Anaconda from Turtle]] (6% of attempts)
+### [[Transitions/Anaconda from Turtle]] (6% of attempts)
 
-### [[Turtle Flatten to Side Control]] (10% of attempts)
+### [[Transitions/Turtle Flatten to Side Control]] (10% of attempts)
 
-### [[Matrix to Back Control]] (3% of attempts)
+### [[Transitions/Matrix to Back Control]] (3% of attempts)
 
-### [[Matrix to Side Control]] (2% of attempts)
+### [[Transitions/Matrix to Side Control]] (2% of attempts)
 
 
 
@@ -247,23 +247,23 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 ## Decision Making from This Position
 
 **Bottom player begins hip elevation for Matrix entry:**
-- Execute **[[Sprawl Defense]]** → [[Turtle]] (Probability: 65%)
-- Execute **[[Back Step]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Sprawl Defense]]** → [[Positions/Turtle]] (Probability: 65%)
+- Execute **[[Transitions/Back Step]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **Bottom player posts shoulder and initiates rotation:**
-- Execute **[[Crossface Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **Matrix rotation blocked successfully, opponent momentarily vulnerable:**
-- Execute **[[Crossface Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **Opponent actively threatening Matrix, defensive posture required:**
-- Execute **[[Darce from Turtle]]** → [[Darce Control]] (Probability: 50%)
-- Execute **[[Guillotine from Turtle]]** → [[Guillotine Control]] (Probability: 45%)
+- Execute **[[Transitions/Darce from Turtle]]** → [[Positions/Darce Control]] (Probability: 50%)
+- Execute **[[Transitions/Guillotine from Turtle]]** → [[Positions/Guillotine Control]] (Probability: 45%)
 
 
 
@@ -397,14 +397,14 @@ Bottom player is encouraged to attempt Matrix back takes while top player focuse
 
 ## Related Positions and Techniques
 
-- **[[Turtle]]** - Primary position where Matrix defense is necessary when attacking turtle bottom
-- **[[Back Control]]** - Position lost if Matrix defense fails, or gained through successful counters
-- **[[Sprawl Defense]]** - Key defensive response to Matrix entry hip elevation
-- **[[Back Step]]** - Counter-attack available when opponent commits to Matrix rotation
-- **[[Darce from Turtle]]** - Offensive counter when opponent posts arm for Matrix entry
-- **[[Crossface Pass]]** - Pressure passing option after blocking Matrix rotation
-- **[[Back Take from Top]]** - Alternative back attack approach when Matrix is defended
-- **[[Guillotine from Turtle]]** - Submission counter when opponent exposes neck during Matrix setup
+- **[[Positions/Turtle]]** - Primary position where Matrix defense is necessary when attacking turtle bottom
+- **[[Positions/Back Control]]** - Position lost if Matrix defense fails, or gained through successful counters
+- **[[Transitions/Sprawl Defense]]** - Key defensive response to Matrix entry hip elevation
+- **[[Transitions/Back Step]]** - Counter-attack available when opponent commits to Matrix rotation
+- **[[Transitions/Darce from Turtle]]** - Offensive counter when opponent posts arm for Matrix entry
+- **[[Transitions/Crossface Pass]]** - Pressure passing option after blocking Matrix rotation
+- **[[Transitions/Back Take from Top]]** - Alternative back attack approach when Matrix is defended
+- **[[Transitions/Guillotine from Turtle]]** - Submission counter when opponent exposes neck during Matrix setup
 
 
 </section>

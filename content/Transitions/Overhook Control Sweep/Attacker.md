@@ -186,7 +186,7 @@ description: "Master executing the Overhook Control Sweep from bottom position. 
 
 Executing the Overhook Control Sweep requires precise coordination between your overhook grip, hip angle, and leg positioning. The sweep depends on breaking your opponent's base through the overhook side while simultaneously generating upward or rotational force with your legs and hips. Timing is critical: initiating the sweep when your opponent's weight is committed forward or when they are transitioning between positions dramatically increases success rate. Your free hand must actively contribute by controlling their head, collar, or opposite arm to prevent the posting that would stop the sweep. The most common execution error is treating this as an arm-strength technique rather than a full-body coordinated movement. Power generation comes from hip drive and leg elevation while the overhook serves as the directional control mechanism that prevents your opponent from recovering their base.
 
-**From Position**: [[Overhook Control]] (Bottom)
+**From Position**: [[Positions/Overhook Control]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Overhook Control Sweep requires precise coordination between your 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Overhook Control]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Overhook Control]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Overhook Control Sweep requires precise coordination between your 
 
 ## Opponent Counters
 
-- **Opponent posts free hand on the mat to block the sweep direction** (Effectiveness: High) - Your Response: Release secondary grip and immediately attack the posting arm with a Kimura or wrist control. Alternatively, switch to an arm drag on the overhook side since their weight is now committed to the posting arm. The post creates a new vulnerability even as it stops the sweep. → Leads to [[Overhook Control]]
-- **Opponent widens base by stepping leg out to the sweep side** (Effectiveness: High) - Your Response: Adjust sweep angle by angling hips further or switch to a pendulum variation using your outside leg to sweep their posted leg. If their base is too wide, abandon the sweep and transition to an arm drag or back take attempt since their wide base exposes their back. → Leads to [[Overhook Control]]
-- **Opponent strips overhook by limp-arming or forcefully rotating their shoulder free** (Effectiveness: Medium) - Your Response: As they pull their arm free, immediately transition to an arm drag using the momentum of their pull. Their arm extraction movement exposes their back. If the arm drag fails, recover to open guard and re-establish grips before they can advance their passing position. → Leads to [[Open Guard]]
-- **Opponent drives weight forward and flattens your hips to prevent elevation** (Effectiveness: Medium) - Your Response: Use their forward pressure against them by switching to a guillotine entry or front headlock control with your free hand. Alternatively, frame against their shoulder and create space to re-angle your hips. Their forward drive actually loads the bridge-based sweep variant if you can maintain hip mobility. → Leads to [[Overhook Control]]
+- **Opponent posts free hand on the mat to block the sweep direction** (Effectiveness: High) - Your Response: Release secondary grip and immediately attack the posting arm with a Kimura or wrist control. Alternatively, switch to an arm drag on the overhook side since their weight is now committed to the posting arm. The post creates a new vulnerability even as it stops the sweep. → Leads to [[Positions/Overhook Control]]
+- **Opponent widens base by stepping leg out to the sweep side** (Effectiveness: High) - Your Response: Adjust sweep angle by angling hips further or switch to a pendulum variation using your outside leg to sweep their posted leg. If their base is too wide, abandon the sweep and transition to an arm drag or back take attempt since their wide base exposes their back. → Leads to [[Positions/Overhook Control]]
+- **Opponent strips overhook by limp-arming or forcefully rotating their shoulder free** (Effectiveness: Medium) - Your Response: As they pull their arm free, immediately transition to an arm drag using the momentum of their pull. Their arm extraction movement exposes their back. If the arm drag fails, recover to open guard and re-establish grips before they can advance their passing position. → Leads to [[Positions/Open Guard]]
+- **Opponent drives weight forward and flattens your hips to prevent elevation** (Effectiveness: Medium) - Your Response: Use their forward pressure against them by switching to a guillotine entry or front headlock control with your free hand. Alternatively, frame against their shoulder and create space to re-angle your hips. Their forward drive actually loads the bridge-based sweep variant if you can maintain hip mobility. → Leads to [[Positions/Overhook Control]]
 
 
 </section>

@@ -95,21 +95,21 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (24% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (24% of attempts)
 
-- **[[Bridge and Roll]]** (13% of attempts)
+- **[[Transitions/Bridge and Roll]]** (13% of attempts)
 
-- **[[Upa Escape]]** (17% of attempts)
+- **[[Transitions/Upa Escape]]** (17% of attempts)
 
-- **[[Explosive Bridge to Turtle]]** (10% of attempts)
+- **[[Transitions/Explosive Bridge to Turtle]]** (10% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (13% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (13% of attempts)
 
-- **[[Half Guard Recovery]]** (15% of attempts)
+- **[[Transitions/Half Guard Recovery]]** (15% of attempts)
 
-- **[[Bridge Escape from 3-4 Mount]]** (5% of attempts)
+- **[[Transitions/Bridge Escape from 3-4 Mount]]** (5% of attempts)
 
-- **[[Elbow Escape from 3-4 Mount]]** (3% of attempts)
+- **[[Transitions/Elbow Escape from 3-4 Mount]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -170,25 +170,25 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 ### Available Transitions
 
 
-- **[[Mount to Armbar]]** (37% of attempts)
+- **[[Transitions/Mount to Armbar]]** (37% of attempts)
 
-- **[[Mounted Triangle]]** (8% of attempts)
+- **[[Positions/Mount/Mounted Triangle]]** (8% of attempts)
 
-- **[[S-Mount Transition]]** (8% of attempts)
+- **[[Transitions/S-Mount Transition]]** (8% of attempts)
 
-- **[[Back Take]]** (10% of attempts)
+- **[[Transitions/Back Take]]** (10% of attempts)
 
-- **[[Consolidate Mount]]** (16% of attempts)
+- **[[Transitions/Consolidate Mount]]** (16% of attempts)
 
-- **[[High Mount Transition]]** (8% of attempts)
+- **[[Transitions/High Mount Transition]]** (8% of attempts)
 
-- **[[Cross Collar Choke]]** (6% of attempts)
+- **[[Transitions/Cross Collar Choke]]** (6% of attempts)
 
-- **[[3-4 Mount to S Mount]]** (3% of attempts)
+- **[[Transitions/3-4 Mount to S Mount]]** (3% of attempts)
 
-- **[[3-4 Mount to Technical Mount]]** (2% of attempts)
+- **[[Transitions/3-4 Mount to Technical Mount]]** (2% of attempts)
 
-- **[[Americana from 3-4 Mount]]** (2% of attempts)
+- **[[Submissions/Americana from 3-4 Mount]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -231,25 +231,25 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 ## Related Positions
 
 
-- **[[Mount]]** - Parent position—traditional mount from which 3-4 variation derives through asymmetric leg positioning
+- **[[Positions/Mount]]** - Parent position—traditional mount from which 3-4 variation derives through asymmetric leg positioning
 
-- **[[S Mount]]** - Common advancement target when bottom player turns toward posted leg side
+- **[[Positions/Mount/S Mount]]** - Common advancement target when bottom player turns toward posted leg side
 
-- **[[Technical Mount]]** - Natural progression when bottom player attempts to turn away exposing their back
+- **[[Positions/Mount/Technical Mount]]** - Natural progression when bottom player attempts to turn away exposing their back
 
-- **[[High Mount]]** - Alternative advancement by walking hips higher on opponent's chest for submission attacks
+- **[[Positions/Mount/High Mount]]** - Alternative advancement by walking hips higher on opponent's chest for submission attacks
 
-- **[[Half Guard]]** - Primary escape destination for bottom player using elbow escape technique
+- **[[Positions/Half Guard]]** - Primary escape destination for bottom player using elbow escape technique
 
-- **[[Side Control]]** - Transition option when bottom player creates significant space or turns into posted leg
+- **[[Positions/Side Control]]** - Transition option when bottom player creates significant space or turns into posted leg
 
-- **[[Armbar Control]]** - Primary submission target from top perspective when far arm becomes isolated
+- **[[Positions/Armbar Control]]** - Primary submission target from top perspective when far arm becomes isolated
 
-- **[[Back Control]]** - Advanced position accessed when bottom player turns away during escape attempts
+- **[[Positions/Back Control]]** - Advanced position accessed when bottom player turns away during escape attempts
 
-- **[[Closed Guard]]** - Guard recovery position when bottom player successfully creates space and inserts legs
+- **[[Positions/Closed Guard]]** - Guard recovery position when bottom player successfully creates space and inserts legs
 
-- **[[Knee on Belly]]** - Alternative control position top player may transition to when mount becomes unstable
+- **[[Positions/Knee on Belly]]** - Alternative control position top player may transition to when mount becomes unstable
 
 
 </section>

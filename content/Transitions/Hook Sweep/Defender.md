@@ -150,7 +150,7 @@ Successful defense begins with recognizing the sweep setup early through tactile
 
 At the highest level, hook sweep defense transitions from pure survival into offensive opportunity. When the attacker commits to the sweep setup, they create brief windows of vulnerability in their guard structure. Recognizing and capitalizing on these windows through guard passes, submission entries, or positional advancement is what separates defensive competence from defensive mastery.
 
-**Opponent's Starting Position**: [[Butterfly Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
 
@@ -189,28 +189,28 @@ At the highest level, hook sweep defense transitions from pure survival into off
 ### 1. Post your hand firmly to the mat on the sweeping side, creating a third base point that prevents being toppled
 
 - **When to use**: When you feel the hook beginning to elevate and your weight shifting to the sweeping side, but before you have lost your base entirely
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Sweep is neutralized and you maintain top position in butterfly guard; opponent must abandon this sweep angle and reset
 - **Risk**: Posted arm becomes vulnerable to kimura attack or arm drag if opponent recognizes the post and transitions to attack it
 
 ### 2. Sprawl your hips backward and away from the hooks, removing your legs from effective hooking range while maintaining upper body control
 
 - **When to use**: When you recognize the angle creation during setup phase before the opponent has loaded the hook deeply or established tight chest connection
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Hooks lose leverage as your hips move beyond effective range; creates opportunity to initiate guard pass from distance
 - **Risk**: Creates space that opponent can use to transition to X-guard, single leg X-guard, or deep half guard entries
 
 ### 3. Widen your base and drop your hips low while driving your weight forward through the opponent's center, smashing their butterfly structure flat
 
 - **When to use**: When the opponent has established grips but has not yet created a full angle or loaded the hook deeply enough for the lift
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Opponent's butterfly guard is compressed and flattened, reducing elevation power and creating passing opportunities
 - **Risk**: If opponent maintains hooks during the pressure, your forward weight commitment can be redirected into a sweep using your own momentum
 
 ### 4. Strip the opponent's dominant grip and immediately establish your own controlling grip on their wrist or collar to prevent re-gripping
 
 - **When to use**: Early in the exchange when you recognize grip establishment that would enable the pull component of the sweep
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Without upper body grips, the opponent cannot generate the pull needed to off-balance you, neutralizing the sweep threat entirely and allowing you to initiate passing
 - **Risk**: Momentary loss of your own base during the grip fight may create a brief window for the opponent to attack
 
@@ -222,11 +222,11 @@ At the highest level, hook sweep defense transitions from pure survival into off
 
 ## Best-Case Outcomes for Defender
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 Neutralize the sweep through posting, base widening, or hip sprawl to maintain your top position while the opponent remains in butterfly guard bottom. From here, immediately re-engage your passing strategy before the opponent can reset and attempt again.
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 Counter the sweep attempt by capitalizing on the attacker's committed angle and grip configuration. As they load for the sweep, time a guard pass that exploits the gap created by their lateral hip shift, passing to the side they angled away from. Their sweep commitment compromises their guard retention on the opposite side.
 

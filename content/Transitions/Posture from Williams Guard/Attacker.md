@@ -180,7 +180,7 @@ description: "Complete guide to executing posture recovery from Williams Guard. 
 
 Executing posture recovery from Williams Guard requires addressing the shoulder lock mechanism before attempting any postural advancement. As the top player, you face a multi-layered control system where your opponent's figure-four grip on your arm creates constant submission danger while their legs maintain guard structure that prevents standard escape methods. The key insight is that shoulder lock pressure and guard retention are mechanically interdependent—by systematically weakening the shoulder lock through circular arm extraction, you simultaneously degrade the guard structure, creating openings for posture recovery. This transition demands patience, precise mechanics, and the recognition that rushing the escape dramatically increases both injury risk and sweep vulnerability. Your approach must balance shoulder joint protection with systematic weight redistribution, treating the arm extraction as the gateway to postural recovery rather than a separate objective.
 
-**From Position**: [[Williams Guard]] (Top)
+**From Position**: [[Positions/Williams Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing posture recovery from Williams Guard requires addressing the shoulder 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Williams Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Williams Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing posture recovery from Williams Guard requires addressing the shoulder 
 
 ## Opponent Counters
 
-- **Opponent tightens shoulder lock pressure as you begin circular extraction** (Effectiveness: High) - Your Response: Pause extraction and return to defensive shoulder protection. Re-establish base and wait for a moment when their grip fatigues or they shift focus to another attack before resuming circular movement. Never force extraction against increasing pressure. → Leads to [[Williams Guard]]
-- **Opponent uses hip bump sweep when you shift weight backward during posture attempt** (Effectiveness: High) - Your Response: Widen knee base immediately and drop weight low when you feel the hip bridge. Keep your center of gravity over your knees rather than shifting too far backward. Use your free arm as a post on the same side as the sweep direction to prevent being toppled. → Leads to [[Half Guard]]
-- **Opponent transitions to omoplata rotation as space opens during extraction** (Effectiveness: Medium) - Your Response: Drive forward immediately to stack and prevent the hip rotation from completing. The omoplata requires specific hip angle that your forward drive collapses. Posture recovery and omoplata defense are temporarily compatible—use the stack to address both threats simultaneously. → Leads to [[Williams Guard]]
-- **Opponent re-isolates your arm with fresh grip after partial extraction** (Effectiveness: Medium) - Your Response: If they catch your arm in the same configuration, restart the circular extraction process from your improved base. If they catch it differently, reassess the grip structure and adjust your extraction angle accordingly. Maintain your improved base from earlier phases. → Leads to [[Williams Guard]]
+- **Opponent tightens shoulder lock pressure as you begin circular extraction** (Effectiveness: High) - Your Response: Pause extraction and return to defensive shoulder protection. Re-establish base and wait for a moment when their grip fatigues or they shift focus to another attack before resuming circular movement. Never force extraction against increasing pressure. → Leads to [[Positions/Williams Guard]]
+- **Opponent uses hip bump sweep when you shift weight backward during posture attempt** (Effectiveness: High) - Your Response: Widen knee base immediately and drop weight low when you feel the hip bridge. Keep your center of gravity over your knees rather than shifting too far backward. Use your free arm as a post on the same side as the sweep direction to prevent being toppled. → Leads to [[Positions/Half Guard]]
+- **Opponent transitions to omoplata rotation as space opens during extraction** (Effectiveness: Medium) - Your Response: Drive forward immediately to stack and prevent the hip rotation from completing. The omoplata requires specific hip angle that your forward drive collapses. Posture recovery and omoplata defense are temporarily compatible—use the stack to address both threats simultaneously. → Leads to [[Positions/Williams Guard]]
+- **Opponent re-isolates your arm with fresh grip after partial extraction** (Effectiveness: Medium) - Your Response: If they catch your arm in the same configuration, restart the circular extraction process from your improved base. If they catch it differently, reassess the grip structure and adjust your extraction angle accordingly. Maintain your improved base from earlier phases. → Leads to [[Positions/Williams Guard]]
 
 
 </section>

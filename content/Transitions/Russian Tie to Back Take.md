@@ -21,7 +21,7 @@ What makes this technique particularly effective is its versatility and the dile
 
 The technique bridges standing wrestling and ground-based jiu-jitsu by converting a neutral standing exchange directly into the highest-value ground position. Unlike traditional wrestling back takes that rely on explosive speed, the Russian Tie allows for controlled, technical progression to back control through small lateral steps and constant pressure. This makes it accessible across skill levels while remaining effective at the highest levels of competition where opponents are difficult to surprise with speed alone.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique bridges standing wrestling and ground-based jiu-jitsu by convertin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Standing Position]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Russian Tie to Back Take serves as a critical bridge between standing wrestl
 ## Related Techniques
 
 
-- [[Arm Drag to Back]] - Alternative standing back take with similar objectives but different grip mechanics
+- [[Transitions/Arm Drag to Back]] - Alternative standing back take with similar objectives but different grip mechanics
 
-- [[Back Take]] - Parent category of back take techniques from various positions
+- [[Transitions/Back Take]] - Parent category of back take techniques from various positions
 
-- [[Snap Down to Front Headlock]] - Chain technique when back take is defended and opponent drops level
+- [[Transitions/Snap Down to Front Headlock]] - Chain technique when back take is defended and opponent drops level
 
-- [[Seat Belt Control Back]] - Target grip configuration established after successful back take
+- [[Positions/Back Control/Seat Belt Control Back]] - Target grip configuration established after successful back take
 
-- [[Rear Naked Choke]] - Primary submission finish from back control after completing this technique
+- [[Transitions/Rear Naked Choke]] - Primary submission finish from back control after completing this technique
 
-- [[Chair Sit to Back]] - Alternative back take method sharing angular movement principles
+- [[Transitions/Chair Sit to Back]] - Alternative back take method sharing angular movement principles
 
-- [[Back Control]] - Target position achieved on successful completion of this technique
+- [[Positions/Back Control]] - Target position achieved on successful completion of this technique
 
-- [[Standing Position]] - Starting position from which this technique is initiated
+- [[Positions/Standing Position]] - Starting position from which this technique is initiated
 
-- [[Arm Drag]] - Related standing control technique using similar 2-on-1 principles
+- [[Transitions/Arm Drag]] - Related standing control technique using similar 2-on-1 principles
 
-- [[Body Triangle]] - Back control variation used to consolidate position after completing back take
+- [[Positions/Back Control/Body Triangle]] - Back control variation used to consolidate position after completing back take
 
 
 </section>

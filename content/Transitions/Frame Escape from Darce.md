@@ -21,7 +21,7 @@ The Frame Escape is most effective when initiated early, before the opponent ful
 
 Strategically, the Frame Escape serves as the primary systematic response to Darce Control. It complements other escape options like the Granby Roll and step-over escape, forming a layered defensive system that forces the Darce attacker to address multiple threats simultaneously. The technique rewards methodical execution over panic-driven explosiveness, making it accessible across skill levels when drilled consistently.
 
-**From Position**: [[Darce Control]] (Bottom)
+**From Position**: [[Positions/Darce Control]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Frame Escape serves as the primary systematic response to Dar
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Darce Control]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Darce Control]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Frame Escape from Darce occupies a critical position in the BJJ defensive hi
 ## Related Techniques
 
 
-- [[Darce Control]] - Source position from which this escape is executed
+- [[Positions/Darce Control]] - Source position from which this escape is executed
 
-- [[Half Guard]] - Primary recovery position after successful escape
+- [[Positions/Half Guard]] - Primary recovery position after successful escape
 
-- [[Side Control]] - Position opponent may achieve if escape is countered
+- [[Positions/Side Control]] - Position opponent may achieve if escape is countered
 
-- [[Anaconda Control]] - Similar choke control position requiring parallel escape concepts
+- [[Positions/Anaconda Control]] - Similar choke control position requiring parallel escape concepts
 
-- [[Front Headlock]] - Parent position from which Darce entries commonly originate
+- [[Positions/Front Headlock]] - Parent position from which Darce entries commonly originate
 
-- [[Turtle]] - Alternative recovery position accessible through frame-to-turtle variant
+- [[Positions/Turtle]] - Alternative recovery position accessible through frame-to-turtle variant
 
-- [[Darce Control Maintenance]] - Opposing technique the top player uses to prevent this escape
+- [[Transitions/Darce Control Maintenance]] - Opposing technique the top player uses to prevent this escape
 
-- [[Darce to Anaconda Switch]] - Transition opponent may attempt if frame escape partially disrupts Darce grip
+- [[Transitions/Darce to Anaconda Switch]] - Transition opponent may attempt if frame escape partially disrupts Darce grip
 
-- [[Escape Dead Orchard Control]] - Similar escape pattern from related front headlock control position
+- [[Transitions/Escape Dead Orchard Control]] - Similar escape pattern from related front headlock control position
 
-- [[Arm Extraction]] - Complementary escape technique often chained with frame escape from Darce
+- [[Transitions/Arm Extraction]] - Complementary escape technique often chained with frame escape from Darce
 
 
 </section>

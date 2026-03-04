@@ -178,7 +178,7 @@ Strategically, this transition serves multiple purposes in your passing game. Kn
 
 The biomechanical advantage of this transition lies in the leg drag's control over the opponent's hips. With their leg dragged across their body, the opponent cannot effectively bridge or create the hip movement necessary to prevent your knee placement. Your existing shoulder control from the leg drag position provides the upper body dominance needed to safely release the leg and transition your knee to their midsection. Understanding this connection between leg drag mechanics and knee on belly establishment is essential for high-percentage execution.
 
-**From Position**: [[Leg Drag Control]] (Top)
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ The biomechanical advantage of this transition lies in the leg drag's control ov
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Knee on Belly]] | 65% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Knee on Belly]] | 65% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ The biomechanical advantage of this transition lies in the leg drag's control ov
 
 ## Opponent Counters
 
-- **Opponent frames on knee and hip escapes before knee settles** (Effectiveness: High) - Your Response: Anticipate the frame by driving your knee lower toward their hip initially, then slide it up to belly once past their hands. Alternatively, switch to north-south if they successfully create space. → Leads to [[Leg Drag Control]]
-- **Opponent bridges and attempts to turn away as you release leg** (Effectiveness: Medium) - Your Response: Follow their turning motion and take their back instead of forcing knee on belly. The bridge actually assists your back take if you maintain shoulder control and insert hooks. → Leads to [[Leg Drag Control]]
-- **Opponent attempts leg recovery by pulling knee to chest** (Effectiveness: Medium) - Your Response: Drive your knee across their thigh to pin it down while establishing knee on belly. Use your grip hand to push their recovering knee away or transition to leg weave control. → Leads to [[Half Guard]]
-- **Opponent sits up aggressively toward you during transition** (Effectiveness: Low) - Your Response: Meet their sit-up with increased shoulder pressure and consider transitioning to front headlock or guillotine rather than forcing knee on belly. Their forward momentum creates submission opportunities. → Leads to [[Leg Drag Control]]
+- **Opponent frames on knee and hip escapes before knee settles** (Effectiveness: High) - Your Response: Anticipate the frame by driving your knee lower toward their hip initially, then slide it up to belly once past their hands. Alternatively, switch to north-south if they successfully create space. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent bridges and attempts to turn away as you release leg** (Effectiveness: Medium) - Your Response: Follow their turning motion and take their back instead of forcing knee on belly. The bridge actually assists your back take if you maintain shoulder control and insert hooks. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent attempts leg recovery by pulling knee to chest** (Effectiveness: Medium) - Your Response: Drive your knee across their thigh to pin it down while establishing knee on belly. Use your grip hand to push their recovering knee away or transition to leg weave control. → Leads to [[Positions/Half Guard]]
+- **Opponent sits up aggressively toward you during transition** (Effectiveness: Low) - Your Response: Meet their sit-up with increased shoulder pressure and consider transitioning to front headlock or guillotine rather than forcing knee on belly. Their forward momentum creates submission opportunities. → Leads to [[Positions/Leg Drag Control]]
 
 
 </section>

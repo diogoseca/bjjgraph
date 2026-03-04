@@ -176,7 +176,7 @@ description: "How to execute Outside Heel Hook in BJJ. Attacking perspective wit
 
 The Outside Heel Hook attack requires systematic positional dominance before any finishing pressure. The attacker must establish outside ashi-garami control, secure hip control with the inside leg to prevent defensive rotation, and create leg extension through hip pressure before cupping the heel. The finishing sequence uses the forearm as a rotational lever, turning the heel away from the opponent's centerline while the leg entanglement fixes the upper leg in place. This creates devastating torque on the knee joint that attacks the ACL, MCL, and meniscus simultaneously. The attack chain from outside ashi connects to transitions including saddle entry, inside ashi conversion, and back takes when the primary heel hook is defended. Mastering the outside heel hook demands understanding that control precedes finish: rushing to rotate the heel without establishing all three control elements (hip control, leg extension, deep heel cup) results in either a failed attempt or an uncontrolled application that endangers your training partner.
 
-**From Position**: [[Outside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 
 
 </section>
@@ -232,8 +232,8 @@ The Outside Heel Hook attack requires systematic positional dominance before any
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Outside Ashi-Garami]] | 25% |
-| Counter | [[Standing Position]] | 15% |
+| Failure | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 25% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -242,11 +242,11 @@ The Outside Heel Hook attack requires systematic positional dominance before any
 
 ## Opponent Defenses
 
-- **Rotating knee line inward toward attacker to reduce torque** (Effectiveness: High) - Your Response: Use your inside leg to block their hip and prevent rotation. Increase hip extension to straighten the leg further, making rotation more difficult. Adjust your angle to stay perpendicular to their leg alignment. → Leads to [[Outside Ashi-Garami]]
-- **Grabbing attacker's legs or pants to prevent position consolidation** (Effectiveness: High) - Your Response: Break grips systematically before attempting the submission. Use your free hand to strip grips while maintaining leg control. Don't rush to the finish until grips are cleared and position is secure. → Leads to [[Outside Ashi-Garami]]
-- **Rolling toward the attacked leg to relieve pressure** (Effectiveness: Medium) - Your Response: Follow their roll while maintaining heel control and leg entanglement. Your body should rotate with them. Often the roll exposes their back or creates transition opportunities to back control. Don't release the heel during the roll. → Leads to [[Outside Ashi-Garami]]
-- **Pulling trapped leg out through gap between attacker's legs** (Effectiveness: Medium) - Your Response: Close distance with your legs and eliminate space. Keep your outside leg tight to their trapped leg. Extend your hips to create length in their leg, making extraction harder. Attack the submission quickly before they create escape space. → Leads to [[Standing Position]]
-- **Standing up or attempting to create vertical posture** (Effectiveness: Low) - Your Response: Use your outside leg to off-balance them and prevent standing. Pull them back down while maintaining heel control. If they achieve standing, transition to a guard position rather than forcing a compromised finish. → Leads to [[Standing Position]]
+- **Rotating knee line inward toward attacker to reduce torque** (Effectiveness: High) - Your Response: Use your inside leg to block their hip and prevent rotation. Increase hip extension to straighten the leg further, making rotation more difficult. Adjust your angle to stay perpendicular to their leg alignment. → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Grabbing attacker's legs or pants to prevent position consolidation** (Effectiveness: High) - Your Response: Break grips systematically before attempting the submission. Use your free hand to strip grips while maintaining leg control. Don't rush to the finish until grips are cleared and position is secure. → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Rolling toward the attacked leg to relieve pressure** (Effectiveness: Medium) - Your Response: Follow their roll while maintaining heel control and leg entanglement. Your body should rotate with them. Often the roll exposes their back or creates transition opportunities to back control. Don't release the heel during the roll. → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Pulling trapped leg out through gap between attacker's legs** (Effectiveness: Medium) - Your Response: Close distance with your legs and eliminate space. Keep your outside leg tight to their trapped leg. Extend your hips to create length in their leg, making extraction harder. Attack the submission quickly before they create escape space. → Leads to [[Positions/Standing Position]]
+- **Standing up or attempting to create vertical posture** (Effectiveness: Low) - Your Response: Use your outside leg to off-balance them and prevent standing. Pull them back down while maintaining heel control. If they achieve standing, transition to a guard position rather than forcing a compromised finish. → Leads to [[Positions/Standing Position]]
 
 
 </section>

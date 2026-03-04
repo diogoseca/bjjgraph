@@ -146,7 +146,7 @@ description: "Learn to counter the hip escape from crucifix in BJJ. Recognition 
 
 As the crucifix controller defending against the hip escape, your objective is to prevent the bottom player from successfully changing the angle of your leg trap through lateral hip movement. The hip escape threatens your crucifix by altering the geometric relationship that keeps your triangle tight, so your primary focus is following their hip movement to maintain perpendicular alignment. Recognizing the early signs of a hip escape attempt allows you to preemptively tighten control or transition to a submission attack that punishes the escape movement. The most effective defense creates a dilemma: the bottom player must choose between defending the choke with their free hand or using it to frame for the escape, and either choice leaves them vulnerable to the other threat.
 
-**Opponent's Starting Position**: [[Crucifix]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Crucifix]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ As the crucifix controller defending against the hip escape, your objective is t
 ### 1. Tighten leg triangle and follow hip movement to maintain perpendicular alignment
 
 - **When to use**: At the first sign of lateral hip escape movement before significant angle change occurs
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Nullifies the escape attempt completely and maintains full crucifix control with no positional loss
 - **Risk**: Requires energy expenditure to follow hips; if you over-commit to one direction, they may reverse
 
 ### 2. Attack the neck with choke during the escape attempt when neck becomes exposed
 
 - **When to use**: When the bottom player's body shift during hip escape creates a new angle exposing the neck
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Forces the bottom player to abandon the escape and return free hand to neck defense, resetting the position
 - **Risk**: If the choke attempt fails, you may have loosened your overall positional control during the attack
 
 ### 3. Transition proactively to standard back control with seatbelt and hooks
 
 - **When to use**: When the hip escape has created enough space that the crucifix leg trap is significantly compromised
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Maintains a dominant position with back control even though crucifix was lost
 - **Risk**: The bottom player may use the transition moment to escape further toward turtle or guard recovery
 
 ### 4. Control the free arm to prevent framing and eliminate escape leverage
 
 - **When to use**: When you observe the free arm repositioning from neck defense toward framing on your body
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Removes their primary escape leverage and may create total arm isolation for submission opportunities
 - **Risk**: Redirecting your controlling hand to capture the free arm may momentarily loosen far arm control
 
@@ -218,11 +218,11 @@ As the crucifix controller defending against the hip escape, your objective is t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Crucifix]]
+### → [[Positions/Crucifix]]
 
 Follow the bottom player's hip movement by adjusting your perpendicular alignment, tighten the leg triangle squeeze, and threaten neck attacks to force them back to defensive mode. React to their first hip movement faster than they can create meaningful space.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 If the crucifix becomes untenable due to progressive space creation, transition proactively to standard back control by releasing the leg trap and immediately inserting hooks while maintaining seatbelt grip. This preserves dominant position and creates fresh attacking opportunities.
 

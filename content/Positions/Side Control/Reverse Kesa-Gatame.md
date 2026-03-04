@@ -95,21 +95,21 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (33% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (33% of attempts)
 
-- **[[Hip Escape to Guard]]** (18% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (18% of attempts)
 
-- **[[Bridge and Roll]]** (14% of attempts)
+- **[[Transitions/Bridge and Roll]]** (14% of attempts)
 
-- **[[Shrimp Escape]]** (16% of attempts)
+- **[[Transitions/Shrimp Escape]]** (16% of attempts)
 
-- **[[Technical Stand-up]]** (11% of attempts)
+- **[[Transitions/Technical Stand-up]]** (11% of attempts)
 
-- **[[Bridge from Reverse Kesa-Gatame]]** (5% of attempts)
+- **[[Transitions/Bridge from Reverse Kesa-Gatame]]** (5% of attempts)
 
-- **[[Escape Reverse Kesa-Gatame]]** (2% of attempts)
+- **[[Transitions/Escape Reverse Kesa-Gatame]]** (2% of attempts)
 
-- **[[Turn In from Reverse Kesa]]** (1% of attempts)
+- **[[Transitions/Turn In from Reverse Kesa]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -170,23 +170,23 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 ### Available Transitions
 
 
-- **[[Side Control to Mount]]** (24% of attempts)
+- **[[Transitions/Side Control to Mount]]** (24% of attempts)
 
-- **[[Side Control to North-South]]** (15% of attempts)
+- **[[Transitions/Side Control to North-South]]** (15% of attempts)
 
-- **[[Kimura]]** (15% of attempts)
+- **[[Transitions/Kimura]]** (15% of attempts)
 
-- **[[Americana]]** (13% of attempts)
+- **[[Transitions/Americana]]** (13% of attempts)
 
-- **[[Arm Triangle]]** (10% of attempts)
+- **[[Transitions/Arm Triangle]]** (10% of attempts)
 
-- **[[Back Take]]** (13% of attempts)
+- **[[Transitions/Back Take]]** (13% of attempts)
 
-- **[[Reverse Kesa to North-South]]** (5% of attempts)
+- **[[Transitions/Reverse Kesa to North-South]]** (5% of attempts)
 
-- **[[Reverse Kesa to Side Control]]** (3% of attempts)
+- **[[Transitions/Reverse Kesa to Side Control]]** (3% of attempts)
 
-- **[[Americana from Reverse Kesa]]** (2% of attempts)
+- **[[Submissions/Americana from Reverse Kesa]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -225,27 +225,27 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 ## Related Positions
 
 
-- **[[Kesa Gatame]]** - Traditional scarf hold with forward-facing orientation - parent position in scarf hold family
+- **[[Positions/Side Control/Kesa Gatame]]** - Traditional scarf hold with forward-facing orientation - parent position in scarf hold family
 
-- **[[Reverse Scarf Hold]]** - General category encompassing reverse scarf hold variations
+- **[[Positions/Side Control/Reverse Scarf Hold]]** - General category encompassing reverse scarf hold variations
 
-- **[[Kuzure Kesa-Gatame]]** - Modified scarf hold variation with different arm control mechanics
+- **[[Positions/Side Control/Kuzure Kesa-Gatame]]** - Modified scarf hold variation with different arm control mechanics
 
-- **[[Modified Scarf Hold]]** - Alternative scarf variation with adjusted grip and pressure points
+- **[[Positions/Side Control/Modified Scarf Hold]]** - Alternative scarf variation with adjusted grip and pressure points
 
-- **[[Side Control]]** - Common entry position and parent category for pinning positions
+- **[[Positions/Side Control]]** - Common entry position and parent category for pinning positions
 
-- **[[North-South]]** - Natural transition target when opponent bridges or turns
+- **[[Positions/North-South]]** - Natural transition target when opponent bridges or turns
 
-- **[[Mount]]** - Primary advancement position when opponent creates space with hip movement
+- **[[Positions/Mount]]** - Primary advancement position when opponent creates space with hip movement
 
-- **[[Kimura Trap]]** - Primary submission control from reverse kesa when far arm is isolated
+- **[[Positions/Kimura Trap]]** - Primary submission control from reverse kesa when far arm is isolated
 
-- **[[Half Guard]]** - Common escape destination for bottom player via elbow escape
+- **[[Positions/Half Guard]]** - Common escape destination for bottom player via elbow escape
 
-- **[[Back Control]]** - Transition opportunity when bottom player turns in to escape pressure
+- **[[Positions/Back Control]]** - Transition opportunity when bottom player turns in to escape pressure
 
-- **[[Knee on Belly]]** - Transitional position when bottom player creates space
+- **[[Positions/Knee on Belly]]** - Transitional position when bottom player creates space
 
 
 </section>

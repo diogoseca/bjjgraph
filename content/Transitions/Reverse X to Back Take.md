@@ -21,7 +21,7 @@ This back take represents one of the most elegant applications of the inversion 
 
 Strategically, the Reverse X to Back Take creates a powerful dilemma for the opponent. If they stay committed to defending sweeps with a strong forward base, they become vulnerable to traditional elevation sweeps. If they attempt to disengage or backstep away from the sweep threat, they expose their back. This lose-lose scenario exemplifies positional BJJ at its highest level, where every defensive choice opens a different offensive pathway.
 
-**From Position**: [[Reverse X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Reverse X to Back Take creates a powerful dilemma for the opp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 58% |
-| Failure | [[Reverse X-Guard]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 58% |
+| Failure | [[Positions/X-Guard/Reverse X-Guard]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -185,25 +185,25 @@ The Reverse X to Back Take fits into the modern leg entanglement guard system as
 ## Related Techniques
 
 
-- [[Reverse X-Guard]] - Starting position providing the hook structure and sweeping threats that create the back take opportunity
+- [[Positions/X-Guard/Reverse X-Guard]] - Starting position providing the hook structure and sweeping threats that create the back take opportunity
 
-- [[Back Control]] - Target position upon successful completion - the most dominant position in BJJ
+- [[Positions/Back Control]] - Target position upon successful completion - the most dominant position in BJJ
 
-- [[Single Leg X-Guard]] - Alternative transition when back take fails or hook connection weakens during inversion
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative transition when back take fails or hook connection weakens during inversion
 
-- [[X-Guard]] - Related guard position with similar back take options through inversion mechanics
+- [[Positions/X-Guard]] - Related guard position with similar back take options through inversion mechanics
 
-- [[Rear Naked Choke]] - Primary submission follow-up from achieved back control position
+- [[Transitions/Rear Naked Choke]] - Primary submission follow-up from achieved back control position
 
-- [[Reverse X-Guard Sweep]] - Complementary attack that creates the defensive reaction enabling the back take
+- [[Transitions/Reverse X-Guard Sweep]] - Complementary attack that creates the defensive reaction enabling the back take
 
-- [[Back Take from Bottom]] - Related back take methodology from guard positions using similar principles
+- [[Transitions/Back Take from Bottom]] - Related back take methodology from guard positions using similar principles
 
-- [[Elevation Sweep to Mount]] - Alternative sweep when opponent defends back take by committing weight forward
+- [[Transitions/Elevation Sweep to Mount]] - Alternative sweep when opponent defends back take by committing weight forward
 
-- [[Chair Sit to Back]] - Alternative back take entry using chair sit rather than full inversion
+- [[Transitions/Chair Sit to Back]] - Alternative back take entry using chair sit rather than full inversion
 
-- [[Ashi Garami]] - Leg entanglement fallback when back take and sweep both fail
+- [[Positions/Ashi Garami]] - Leg entanglement fallback when back take and sweep both fail
 
 
 </section>

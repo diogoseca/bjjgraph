@@ -21,7 +21,7 @@ The escape mechanics center on three interconnected elements: counter-rotating t
 
 Strategically, Leg Extraction serves as the primary bailout when caught in Estima Lock scenarios during guard passing or leg entanglement exchanges. The technique integrates into broader defensive leg lock systems, connecting to guard recovery sequences and providing a foundation for understanding other leg entanglement escapes. Mastery of this escape significantly reduces the danger of engaging in modern leg lock exchanges where Estima Lock threats are common.
 
-**From Position**: [[Estima Lock]] (Bottom)
+**From Position**: [[Positions/Estima Lock]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, Leg Extraction serves as the primary bailout when caught in Estim
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Estima Lock]] | 25% |
-| Counter | [[Saddle]] | 10% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Estima Lock]] | 25% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 10% |
 
 
 </section>
@@ -194,23 +194,23 @@ Leg Extraction serves as a foundational escape within the broader defensive leg 
 ## Related Techniques
 
 
-- [[Estima Lock]] - Primary submission threat this technique escapes
+- [[Positions/Estima Lock]] - Primary submission threat this technique escapes
 
-- [[Ashi Garami Escape]] - Related leg entanglement escape with similar mechanics
+- [[Transitions/Ashi Garami Escape]] - Related leg entanglement escape with similar mechanics
 
-- [[Open Guard]] - Primary recovery position after successful extraction
+- [[Positions/Open Guard]] - Primary recovery position after successful extraction
 
-- [[Half Guard]] - Alternative recovery position when full extraction leads to half guard
+- [[Positions/Half Guard]] - Alternative recovery position when full extraction leads to half guard
 
-- [[50-50 Guard]] - Common position where Estima Lock threats develop
+- [[Positions/Ashi Garami/50-50 Guard]] - Common position where Estima Lock threats develop
 
-- [[Saddle]] - Counter position opponent may transition to if extraction fails
+- [[Positions/Ashi Garami/Saddle]] - Counter position opponent may transition to if extraction fails
 
-- [[Toe Hold]] - Alternative attack opponent may transition to during extraction
+- [[Transitions/Toe Hold]] - Alternative attack opponent may transition to during extraction
 
-- [[Counter Sweep]] - Follow-up option when opponent over-commits during extraction
+- [[Transitions/Counter Sweep]] - Follow-up option when opponent over-commits during extraction
 
-- [[Leg Extraction to Guard]] - Follow-up transition for guard recovery after successful extraction
+- [[Transitions/Leg Extraction to Guard]] - Follow-up transition for guard recovery after successful extraction
 
 
 </section>

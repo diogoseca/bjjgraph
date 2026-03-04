@@ -148,7 +148,7 @@ description: "Defend against the Matrix to Side Control transition in BJJ. Recog
 
 From the defender's perspective, the Matrix to Side Control transition represents the critical window after a failed back take attempt where the opponent seeks to punish the unsuccessful rotation by consolidating to side control. The defender's primary challenge is recovering from the compromised structure left by the blocked Matrix rotation—disrupted base, weakened grips, and suboptimal body alignment—before the top player can flatten them and establish crossface control. Defensive priorities include re-establishing connection through grips or hooks, creating frames to prevent flattening, and either re-entering the Matrix rotation or recovering a guard position that prevents the complete pass to side control. Speed of recognition is paramount, as the window between a blocked rotation and full side control consolidation is narrow and shrinks rapidly as the top player advances through each consolidation phase.
 
-**Opponent's Starting Position**: [[Matrix]] (Top)
+**Opponent's Starting Position**: [[Positions/Matrix]] (Top)
 
 </section>
 
@@ -185,21 +185,21 @@ From the defender's perspective, the Matrix to Side Control transition represent
 ### 1. Re-initiate Matrix rotation before crossface is fully established
 
 - **When to use**: Immediately after recognizing the consolidation attempt has begun, before the top player establishes crossface control and strips your primary grips
-- **Targets**: [[Matrix]]
+- **Targets**: [[Positions/Matrix]]
 - **If successful**: Top player is forced to return to defensive wide base, resetting the exchange and providing another opportunity to complete the back take
 - **Risk**: If the secondary rotation is stuffed, you will be in a more compromised position with fewer grips and less momentum for recovery
 
 ### 2. Insert knee shield to prevent side control consolidation
 
 - **When to use**: When the top player has established crossface but has not yet secured your far hip, creating a brief window to thread your knee between bodies
-- **Targets**: [[Matrix]]
+- **Targets**: [[Positions/Matrix]]
 - **If successful**: Knee shield prevents the complete pass to side control, recovering a defensive guard position with offensive options and distance management
 - **Risk**: Failed knee insertion attempt can be smash-passed if the opponent catches your leg in a compromised position
 
 ### 3. Use scramble momentum from blocked rotation to execute reversal sweep
 
 - **When to use**: When the top player overcommits weight forward during the flattening phase, creating a momentary base vulnerability exploitable through hip movement
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The top player is swept and you achieve top position, completely reversing the positional hierarchy from the exchange
 - **Risk**: Failed sweep attempt exposes your back and accelerates the opponent's side control consolidation with increased control
 
@@ -211,11 +211,11 @@ From the defender's perspective, the Matrix to Side Control transition represent
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the top player's forward weight commitment during the flattening phase by timing a hip bump or underhook reversal that uses their consolidation momentum against them. The transition from wide Matrix defense base to narrow passing posture creates a brief window of base vulnerability.
 
-### → [[Matrix]]
+### → [[Positions/Matrix]]
 
 Prevent the consolidation by maintaining at least one strong grip and threatening re-entry into the Matrix rotation, forcing the top player to remain in defensive width rather than advancing to side control. Even partial rotation attempts reset the exchange to a neutral Matrix state.
 

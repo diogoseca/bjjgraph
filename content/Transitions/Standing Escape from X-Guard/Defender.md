@@ -146,7 +146,7 @@ description: "Complete guide to defending against the Standing Escape from X-Gua
 
 As the bottom player in X-Guard, your objective when the top player attempts the Standing Escape is to maintain your guard structure, prevent systematic extraction of your hooks, and convert their escape attempts into sweeping opportunities. The escape attempt creates specific windows of vulnerability for the top player that you can exploit — each time they commit a hand to stripping a grip or removing a hook, their base and balance are temporarily compromised. Your defensive strategy centers on maintaining the integrity of your three-point control system while actively threatening sweeps that punish the top player's extraction attempts. The most effective defense is not passive resistance but proactive re-engagement: when one hook is stripped, immediately re-hook or transition to an alternative guard position that preserves your offensive capabilities. Understanding the top player's likely escape sequence allows you to anticipate and counter each phase before it succeeds.
 
-**Opponent's Starting Position**: [[X-Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/X-Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the bottom player in X-Guard, your objective when the top player attempts the
 ### 1. Explosive elevation sweep before extraction begins
 
 - **When to use**: The moment you feel the top player begin to lower their base or reach for your ankle grip — sweep before they can stabilize in a low defensive position
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Top player is swept to bottom position, you come up to top position with established control
 - **Risk**: If the sweep fails because the top player has already established a wide low base, you have spent your elevation power and may be in a weaker X-Guard configuration
 
 ### 2. Transition to Single Leg X when inside hook becomes shallow
 
 - **When to use**: When you feel your inside hook sliding from behind the knee toward the hip crease during the top player's extraction attempt — convert to SLX before full extraction completes
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: You maintain a strong guard position with sweep and submission threats, forcing the top player to restart their escape from a new guard configuration
 - **Risk**: If the transition is too slow, the top player may complete extraction during the positional change, achieving standing position
 
 ### 3. Re-grip and re-hook aggressively after partial stripping
 
 - **When to use**: Immediately after the top player strips one control point — use their momentary focus on that limb to aggressively re-establish the same grip or hook before they can address the next control point
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: X-Guard structure is fully restored and the top player must restart the escape sequence from scratch, burning their energy and time
 - **Risk**: Repeatedly fighting for the same grip creates a grip battle that may exhaust your forearms faster than the top player's
 
 ### 4. Transition to butterfly guard when X-Guard structure collapses
 
 - **When to use**: When the outside frame and inside hook have both been significantly compromised and X-Guard retention is no longer viable — retract both legs and establish butterfly hooks
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: You maintain guard with sweep options from butterfly, preventing the top player from achieving a fully disengaged standing position
 - **Risk**: Butterfly guard offers less control than X-Guard, giving the top player more passing options and potentially allowing them to establish headquarters position
 
@@ -217,11 +217,11 @@ As the bottom player in X-Guard, your objective when the top player attempts the
 
 ## Best-Case Outcomes for Defender
 
-### → [[X-Guard]]
+### → [[Positions/X-Guard]]
 
 Aggressively re-hook and re-grip each time the top player strips a control point. Use sleeve grips on their arms to limit their ability to reach your hooks. Maintain constant hip elevation to prevent them from collapsing your frame. The goal is to make their escape attempts fruitless until they abandon the escape and return to passing attempts from within X-Guard.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your elevation sweep to coincide with the top player's extraction attempt. When they commit a hand to stripping your ankle grip, their base is temporarily compromised. Execute a powerful hip extension through the inside hook combined with directional control through the outside leg to topple them. The optimal timing window is the moment they shift weight to reach for a grip strip.
 

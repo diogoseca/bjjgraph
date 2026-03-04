@@ -180,7 +180,7 @@ description: "Execute the transition to leg entanglement from Ashi Garami top po
 
 As the attacker executing this transition, you are the top player caught in your opponent's Ashi Garami who decides to enter the leg exchange rather than escape. Your goal is to thread your free leg into an entanglement configuration around the opponent's lower body, establishing reciprocal control that neutralizes their positional advantage. This requires reading the opponent's connection points, identifying which of their legs is vulnerable to counter-entanglement, and timing your entry during their advancement attempts when their free leg management lapses. Success transforms a defensive crisis into a competitive bilateral exchange where your base and upper body freedom become offensive weapons.
 
-**From Position**: [[Ashi Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing this transition, you are the top player caught in your
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Leg Entanglement]] | 65% |
-| Failure | [[Ashi Garami]] | 20% |
-| Counter | [[Inside Ashi-Garami]] | 15% |
+| Success | [[Positions/Leg Entanglement]] | 65% |
+| Failure | [[Positions/Ashi Garami]] | 20% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing this transition, you are the top player caught in your
 
 ## Opponent Counters
 
-- **Opponent accelerates their own heel hook attack before you can establish counter-entanglement** (Effectiveness: High) - Your Response: If they commit to the heel hook early, address the immediate submission threat by straightening your trapped leg and hiding the heel before continuing the counter-entry. Alternatively, if their grip is shallow, use the urgency to accelerate your own thread and race to a superior position. → Leads to [[Inside Ashi-Garami]]
-- **Opponent hip escapes away to create distance and deny your free leg threading angle** (Effectiveness: Medium) - Your Response: Follow their hip movement by driving forward with your base, collapsing the distance they create. If they retreat far enough, the space may actually facilitate a clean leg extraction instead, converting to Ashi Garami Escape. Maintain grip on their foot to prevent them from resetting their entanglement at a new angle. → Leads to [[Ashi Garami]]
-- **Opponent pumps their inside hook deeper and advances to Cross Ashi or Saddle during your transition attempt** (Effectiveness: High) - Your Response: Abort the counter-entanglement immediately if they advance past Inside Ashi to Cross or Saddle. Switch to emergency heel protection by straightening your leg and turning your toes outward. Prioritize Ashi Garami Escape mechanics over counter-entanglement from these advanced positions. → Leads to [[Inside Ashi-Garami]]
-- **Opponent releases their entanglement and recovers guard before you complete the counter-thread** (Effectiveness: Medium) - Your Response: If the opponent voluntarily disengages during your counter-entry, accept the positional reset and transition to standard guard passing. Your incomplete counter-thread can become a leg drag or toreando passing grip if you redirect the energy into a guard pass rather than chasing the abandoned entanglement. → Leads to [[Ashi Garami]]
+- **Opponent accelerates their own heel hook attack before you can establish counter-entanglement** (Effectiveness: High) - Your Response: If they commit to the heel hook early, address the immediate submission threat by straightening your trapped leg and hiding the heel before continuing the counter-entry. Alternatively, if their grip is shallow, use the urgency to accelerate your own thread and race to a superior position. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent hip escapes away to create distance and deny your free leg threading angle** (Effectiveness: Medium) - Your Response: Follow their hip movement by driving forward with your base, collapsing the distance they create. If they retreat far enough, the space may actually facilitate a clean leg extraction instead, converting to Ashi Garami Escape. Maintain grip on their foot to prevent them from resetting their entanglement at a new angle. → Leads to [[Positions/Ashi Garami]]
+- **Opponent pumps their inside hook deeper and advances to Cross Ashi or Saddle during your transition attempt** (Effectiveness: High) - Your Response: Abort the counter-entanglement immediately if they advance past Inside Ashi to Cross or Saddle. Switch to emergency heel protection by straightening your leg and turning your toes outward. Prioritize Ashi Garami Escape mechanics over counter-entanglement from these advanced positions. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent releases their entanglement and recovers guard before you complete the counter-thread** (Effectiveness: Medium) - Your Response: If the opponent voluntarily disengages during your counter-entry, accept the positional reset and transition to standard guard passing. Your incomplete counter-thread can become a leg drag or toreando passing grip if you redirect the energy into a guard pass rather than chasing the abandoned entanglement. → Leads to [[Positions/Ashi Garami]]
 
 
 </section>

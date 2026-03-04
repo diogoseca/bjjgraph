@@ -180,7 +180,7 @@ description: "How to execute Sasae Tsurikomi Ashi in BJJ. Attacking perspective 
 
 Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep technique that has been successfully adapted into modern Brazilian Jiu-Jitsu for standing exchanges. This technique exploits forward momentum and circular movement, using precise timing to block the opponent's ankle while simultaneously lifting and pulling their upper body. The beauty of Sasae Tsurikomi Ashi lies in its minimal force requirement - when executed with proper timing, the opponent's own movement and weight distribution do most of the work. Unlike power-based takedowns, this technique relies on kuzushi (off-balancing) and precise placement of the blocking foot. The throw is particularly effective against opponents who step forward aggressively or maintain an upright, forward-leaning posture. In BJJ competition, this technique offers a clean takedown that can lead directly to dominant positions, making it valuable for competitors who prefer technical entries over wrestling-heavy approaches.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -235,9 +235,9 @@ Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 60% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Standing Position]] | 15% |
+| Success | [[Positions/Side Control]] | 60% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -246,10 +246,10 @@ Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep
 
 ## Opponent Counters
 
-- **Opponent steps over or around the blocking foot** (Effectiveness: High) - Your Response: Immediately switch to Kouchi Gari or Deashi Harai using their altered stepping pattern, or transition to an upper body throw if they overcommit to avoiding the foot → Leads to [[Standing Position]]
-- **Opponent pulls back and retracts their foot before commitment** (Effectiveness: Medium) - Your Response: Use their backward movement to execute Osoto Gari or Ouchi Gari, attacking the leg they have loaded their weight onto when retreating → Leads to [[Standing Position]]
-- **Opponent grips your blocking leg and sprawls defensively** (Effectiveness: Low) - Your Response: Their grip on your leg requires them to break posture and bend forward, creating opportunities for snap down to front headlock or switching to a hip throw entry → Leads to [[Standing Position]]
-- **Opponent counters with their own throw during your entry** (Effectiveness: Medium) - Your Response: Maintain strong posture and grip control during entry; if countered mid-execution, release the foot block and reset to neutral standing with grip advantage intact → Leads to [[Standing Position]]
+- **Opponent steps over or around the blocking foot** (Effectiveness: High) - Your Response: Immediately switch to Kouchi Gari or Deashi Harai using their altered stepping pattern, or transition to an upper body throw if they overcommit to avoiding the foot → Leads to [[Positions/Standing Position]]
+- **Opponent pulls back and retracts their foot before commitment** (Effectiveness: Medium) - Your Response: Use their backward movement to execute Osoto Gari or Ouchi Gari, attacking the leg they have loaded their weight onto when retreating → Leads to [[Positions/Standing Position]]
+- **Opponent grips your blocking leg and sprawls defensively** (Effectiveness: Low) - Your Response: Their grip on your leg requires them to break posture and bend forward, creating opportunities for snap down to front headlock or switching to a hip throw entry → Leads to [[Positions/Standing Position]]
+- **Opponent counters with their own throw during your entry** (Effectiveness: Medium) - Your Response: Maintain strong posture and grip control during entry; if countered mid-execution, release the foot block and reset to neutral standing with grip advantage intact → Leads to [[Positions/Standing Position]]
 
 
 </section>

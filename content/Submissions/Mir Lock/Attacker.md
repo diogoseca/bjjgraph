@@ -182,7 +182,7 @@ description: "How to execute Mir Lock in BJJ. Attacking perspective with setup, 
 
 The Mir Lock is a powerful shoulder lock submission that targets the glenohumeral joint through hyperextension and rotation. Named after UFC Hall of Famer Frank Mir, who famously used this technique to break Tim Sylvia's arm at UFC 48, this submission represents a devastating variation of the traditional Americana position. The mechanics involve isolating the opponent's arm while applying rotational pressure that combines external rotation with backward leverage against the shoulder's natural range of motion. Unlike the standard Americana which emphasizes figure-four control and lateral rotation, the Mir Lock utilizes a straight-arm position with the attacker's body weight driving the shoulder into dangerous hyperextension. This submission is most commonly applied from top control positions like side control, north-south, or modified mount, where the attacker has superior positioning and can effectively isolate one of the opponent's arms. The technique requires precise understanding of shoulder anatomy and careful application due to its potential for catastrophic injury. The Mir Lock exemplifies the principle that submissions should control the position first, establish the grip structure second, and only then apply finishing pressure with proper safety awareness.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -239,8 +239,8 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Side Control]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -249,9 +249,9 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 ## Opponent Defenses
 
-- **Grabbing own gi or belt to create defensive frame** (Effectiveness: High) - Your Response: Break the grip by driving your weight through the elbow while peeling the defensive grip open with your free hand, then immediately re-establish figure-four control before they can re-grip → Leads to [[Side Control]]
-- **Rolling toward you to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Anticipate the roll by posting your far leg and driving your hips backward while maintaining the figure-four grip, following their momentum to back control or remount rather than losing the submission entirely → Leads to [[Half Guard]]
-- **Bridging explosively to create space and escape angle** (Effectiveness: Medium) - Your Response: Maintain chest pressure throughout the bridge by keeping your weight forward and hips low, ride the bridge motion while keeping the arm isolated, and reapply pressure as they settle back to the mat → Leads to [[Side Control]]
+- **Grabbing own gi or belt to create defensive frame** (Effectiveness: High) - Your Response: Break the grip by driving your weight through the elbow while peeling the defensive grip open with your free hand, then immediately re-establish figure-four control before they can re-grip → Leads to [[Positions/Side Control]]
+- **Rolling toward you to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Anticipate the roll by posting your far leg and driving your hips backward while maintaining the figure-four grip, following their momentum to back control or remount rather than losing the submission entirely → Leads to [[Positions/Half Guard]]
+- **Bridging explosively to create space and escape angle** (Effectiveness: Medium) - Your Response: Maintain chest pressure throughout the bridge by keeping your weight forward and hips low, ride the bridge motion while keeping the arm isolated, and reapply pressure as they settle back to the mat → Leads to [[Positions/Side Control]]
 - **Straightening the trapped arm to reduce leverage** (Effectiveness: Low) - Your Response: This defense actually increases the danger of the submission - simply maintain your grip structure and continue applying rotational pressure as the straight arm provides even less joint protection → Leads to [[game-over]]
 - **Turning face-down toward trapped arm** (Effectiveness: Low) - Your Response: Allow the turn while maintaining grip control, transition to modified mount or back control position, and continue applying the Mir Lock from the new angle with potentially even greater effectiveness → Leads to [[game-over]]
 

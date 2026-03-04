@@ -158,7 +158,7 @@ The critical insight for effective single leg defense is that timing determines 
 
 From a strategic perspective, consistent single leg defense relies on making the attacker pay a cost for every attempt. Whether through front headlock transitions, guillotine threats, or whizzer-to-back-take counters, the defender must create consequences that discourage repeated shooting. Passive defense that merely stuffs the takedown without counter-attacking allows the attacker to reset and try again indefinitely, slowly degrading your defensive reactions through fatigue.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -197,28 +197,28 @@ From a strategic perspective, consistent single leg defense relies on making the
 ### 1. Sprawl and establish front headlock - drop hips back explosively while driving weight onto opponent's upper back, then circle to their head side and secure a front headlock grip
 
 - **When to use**: As soon as you recognize the level change and penetration step, before opponent secures tight leg control. Most effective during the first 0.5 seconds of the shot attempt.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You stuff the takedown and establish front headlock control, creating opportunities for snap downs, go-behinds, guillotines, or darce chokes from a dominant upper body position
 - **Risk**: If you sprawl too late after opponent has already captured the leg tightly, the sprawl wastes energy without freeing your leg and may actually help them by adding weight to their shoulder
 
 ### 2. Whizzer defense with hip turn - secure a deep overhook on opponent's far arm while simultaneously turning your hips away from them and pushing their head down with your free hand
 
 - **When to use**: When opponent has captured your leg and is beginning to stand up with it, but has not yet established tight head-to-hip connection. Particularly effective when their far arm is accessible.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You prevent the takedown completion and can use the whizzer to circle behind for a back take, transition to a front headlock, or create enough separation to extract your leg and reset to standing
 - **Risk**: Over-relying on the whizzer without hip movement allows the attacker to power through using their legs. The whizzer alone is not sufficient - it must be combined with hip rotation and weight distribution
 
 ### 3. Guillotine counter - as opponent shoots and their head drops below your chest, wrap their neck with your arm in a guillotine configuration while defending the leg capture
 
 - **When to use**: When opponent's head positioning is too high or in the centerline during their entry, giving you access to their neck. Most effective against sloppy entries where head position is not tight to your hip.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You establish a guillotine grip that either forces opponent to abandon the takedown to defend the choke, or you complete the submission. Even an imperfect guillotine grip disrupts their finishing sequence
 - **Risk**: If opponent has proper outside head positioning tight to your hip, the guillotine is not available and attempting it may compromise your hip defense and sprawl reaction
 
 ### 4. Cross-face and backstep - post your far hand on opponent's face or jaw while stepping your captured leg backward to break their grip and create distance for leg extraction
 
 - **When to use**: When opponent has captured your leg but their grip is not yet fully locked and their posture is still low. The cross-face disrupts their forward drive while the backstep removes your leg from their control range.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You create enough separation to extract your captured leg and return to neutral standing position, potentially establishing dominant grips during their recovery
 - **Risk**: If opponent's grip is already locked tight, the backstep alone will not extract the leg and you will end up hopping backward in a compromised position
 
@@ -230,11 +230,11 @@ From a strategic perspective, consistent single leg defense relies on making the
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Execute sprawl defense at the earliest recognition of the shot, driving your hips back and weight onto opponent's upper back. Circle immediately to their head side and use front headlock control or crossface to create separation. Extract your leg by turning your knee outward while pushing their head down. Reset to standing with active hand fighting to prevent immediate re-attack. The key is explosive initial hip defense followed by controlled positional work rather than simply trying to muscle your leg free.
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 When you successfully sprawl but the opponent maintains contact and tries to work back to their feet, transition to an active counter-offense rather than simply resetting. Secure front headlock control by wrapping your arm around their head and far shoulder, then begin working toward guillotine, darce, or anaconda attacks. The attacker's forward commitment during their failed shot creates the positional advantage you exploit - their posture is broken forward and their neck is exposed. Even if you cannot finish a submission, this counter-attacking posture discourages repeated shot attempts.
 

@@ -180,7 +180,7 @@ description: "Master establishing the seat belt grip from back control in BJJ. S
 
 From the attacker's perspective, transitioning from general back control to seat belt configuration is the most important grip upgrade in the back attack system. The seat belt's diagonal over-under structure creates opposing force vectors that prevent the opponent's rotation in either direction, establishing the mechanical foundation for rear naked choke, armbar, and bow and arrow attacks. This transition requires maintaining complete positional control while systematically threading each arm into position, connecting hands, and consolidating the grip before the opponent can exploit the momentary vulnerability inherent in any grip change. The attacker must balance urgency with precision—rushing creates defensive windows, while hesitation allows the opponent to fortify their defensive frames.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ From the attacker's perspective, transitioning from general back control to seat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Seat Belt Control Back]] | 70% |
-| Failure | [[Back Control]] | 20% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control/Seat Belt Control Back]] | 70% |
+| Failure | [[Positions/Back Control]] | 20% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -243,10 +243,10 @@ From the attacker's perspective, transitioning from general back control to seat
 
 ## Opponent Counters
 
-- **Opponent strips over-shoulder arm before hands connect using two-on-one grip fighting** (Effectiveness: High) - Your Response: Immediately re-thread the over-arm or switch to the opposite shoulder if opponent has established a strong frame on the initial side, maintaining chest pressure throughout → Leads to [[Back Control]]
-- **Opponent tucks elbows tight to ribs blocking under-arm threading pathway** (Effectiveness: Medium) - Your Response: Use hook leverage to extend opponent's body by driving hips forward, creating space between their elbows and torso that allows arm threading underneath → Leads to [[Back Control]]
-- **Opponent explosively turns toward you during the grip change window** (Effectiveness: High) - Your Response: Follow their rotation with hooks and chest pressure, maintaining whatever grip you have while working to re-establish back control or transition to mount if they complete the turn → Leads to [[Turtle]]
-- **Opponent two-on-one grips your threading arm before it crosses their body** (Effectiveness: Medium) - Your Response: Use your free hand to peel their grip while maintaining hook pressure, or abandon that side and thread the under-arm first as an alternative entry to the seat belt → Leads to [[Back Control]]
+- **Opponent strips over-shoulder arm before hands connect using two-on-one grip fighting** (Effectiveness: High) - Your Response: Immediately re-thread the over-arm or switch to the opposite shoulder if opponent has established a strong frame on the initial side, maintaining chest pressure throughout → Leads to [[Positions/Back Control]]
+- **Opponent tucks elbows tight to ribs blocking under-arm threading pathway** (Effectiveness: Medium) - Your Response: Use hook leverage to extend opponent's body by driving hips forward, creating space between their elbows and torso that allows arm threading underneath → Leads to [[Positions/Back Control]]
+- **Opponent explosively turns toward you during the grip change window** (Effectiveness: High) - Your Response: Follow their rotation with hooks and chest pressure, maintaining whatever grip you have while working to re-establish back control or transition to mount if they complete the turn → Leads to [[Positions/Turtle]]
+- **Opponent two-on-one grips your threading arm before it crosses their body** (Effectiveness: Medium) - Your Response: Use your free hand to peel their grip while maintaining hook pressure, or abandon that side and thread the under-arm first as an alternative entry to the seat belt → Leads to [[Positions/Back Control]]
 
 
 </section>

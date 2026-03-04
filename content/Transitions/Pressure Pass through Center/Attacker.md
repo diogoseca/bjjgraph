@@ -178,7 +178,7 @@ This pass is most effective when the bottom player's hips begin to sag from fati
 
 Strategically, this pass works as a pressure-based counter to the high-energy inverted guard game. While many practitioners attempt to avoid engagement with inverted guards entirely, the pressure pass through center embraces direct confrontation, using superior weight distribution and timing to break through the guard structure. This approach is particularly valuable when you recognize that the bottom player is tiring or has overcommitted to an attack, creating the window for your forward drive.
 
-**From Position**: [[Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Grasshopper Guard]] (Top)
 
 </section>
 
@@ -230,9 +230,9 @@ Strategically, this pass works as a pressure-based counter to the high-energy in
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Grasshopper Guard]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ Strategically, this pass works as a pressure-based counter to the high-energy in
 
 ## Opponent Counters
 
-- **Re-inversion and leg hook insertion before pass completes** (Effectiveness: High) - Your Response: Maintain continuous forward pressure without pausing; if they begin to re-invert, increase speed of your forward drive and pin their near leg to prevent hook insertion → Leads to [[Grasshopper Guard]]
-- **Granby roll to guard recovery using your forward momentum** (Effectiveness: Medium) - Your Response: Recognize the roll initiation and sprawl your hips back momentarily, then resume forward pressure once their roll stalls; avoid chasing their movement → Leads to [[Closed Guard]]
-- **Leg entanglement entry during your forward drive** (Effectiveness: Medium) - Your Response: If you feel a hook behind your knee during the drive, immediately backstep that leg while continuing upper body pressure forward; clear the hook before resuming the pass → Leads to [[Grasshopper Guard]]
-- **Frame creation with arms against your shoulders** (Effectiveness: Low) - Your Response: Drive through the frames with chest pressure; their inverted position provides poor leverage for maintaining strong frames → Leads to [[Grasshopper Guard]]
+- **Re-inversion and leg hook insertion before pass completes** (Effectiveness: High) - Your Response: Maintain continuous forward pressure without pausing; if they begin to re-invert, increase speed of your forward drive and pin their near leg to prevent hook insertion → Leads to [[Positions/Grasshopper Guard]]
+- **Granby roll to guard recovery using your forward momentum** (Effectiveness: Medium) - Your Response: Recognize the roll initiation and sprawl your hips back momentarily, then resume forward pressure once their roll stalls; avoid chasing their movement → Leads to [[Positions/Closed Guard]]
+- **Leg entanglement entry during your forward drive** (Effectiveness: Medium) - Your Response: If you feel a hook behind your knee during the drive, immediately backstep that leg while continuing upper body pressure forward; clear the hook before resuming the pass → Leads to [[Positions/Grasshopper Guard]]
+- **Frame creation with arms against your shoulders** (Effectiveness: Low) - Your Response: Drive through the frames with chest pressure; their inverted position provides poor leverage for maintaining strong frames → Leads to [[Positions/Grasshopper Guard]]
 
 
 </section>

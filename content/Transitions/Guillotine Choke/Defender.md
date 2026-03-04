@@ -158,7 +158,7 @@ The defender's strategic framework operates on three time horizons: immediate su
 
 Successful guillotine defense at the purple and brown belt level demands the ability to remain calm under choking pressure, systematically address each component of the attacker's control (grip depth, hip angle, guard connection), and exploit the inherent instability of the bottom guillotine position where the attacker must balance offensive finishing with guard retention.
 
-**Opponent's Starting Position**: [[Guillotine Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Guillotine Control]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Successful guillotine defense at the purple and brown belt level demands the abi
 ### 1. Posture up aggressively by straightening spine, walking hands toward opponent's hips, and peeling the grip with your inside hand while stacking weight forward
 
 - **When to use**: Early in the choke before the attacker has established optimal hip angle and high guard—most effective when their legs are not yet locked high
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: Break free of the choking grip entirely, returning to neutral Guillotine Control position where you can begin passing or reset
 - **Risk**: If you posture without breaking the grip, the attacker may transition to high elbow guillotine which attacks behind the chin and is harder to defend
 
 ### 2. Drive weight forward into the opponent while turning your head toward the choking arm, walk your knees up beside their hips, and begin passing guard to the opposite side of the choke
 
 - **When to use**: When posture recovery alone is insufficient and the grip is deep—use your body weight to compress the attacker and reduce their hip mobility while working to pass
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Pass to side control on the non-choking side, forcing the attacker to release the guillotine or face Von Flue choke risk from their own grip
 - **Risk**: If the attacker maintains guard retention and uses your forward drive for a hip bump sweep, you may end up mounted with the guillotine still locked
 
 ### 3. Tuck chin firmly, peel the clasped hands apart using both of your hands in sequence (strip the top hand first, then peel the choking wrist), while maintaining your base
 
 - **When to use**: When the choke is locked but the attacker has not yet established finishing hip angle—the window where grip degradation can neutralize the threat before full pressure develops
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: Break the grip connection, converting the position from active choke threat back to neutral front headlock control where you can recover posture and begin passing
 - **Risk**: Focusing both hands on grip fighting temporarily sacrifices your posting base, making you vulnerable to sweeps if the attacker reads your intent
 
 ### 4. Swim your trapped-side arm inside the choking loop to convert the attack to an arm-in guillotine position, then drive shoulder pressure while circling toward the choke side to pass
 
 - **When to use**: When the standard guillotine is deep and posture recovery is failing—inserting your arm changes the choking mechanics and often reduces pressure enough to begin escaping
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: The arm insertion disrupts the choking angle and your shoulder drive combined with guard passing secures side control, nullifying the submission
 - **Risk**: A skilled attacker may immediately adjust to arm-in guillotine mechanics, which use your own trapped arm as additional compression—this defense requires continuous movement, not static positioning
 
@@ -229,11 +229,11 @@ Successful guillotine defense at the purple and brown belt level demands the abi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Guillotine Control]]
+### → [[Positions/Guillotine Control]]
 
 Posture aggressively by straightening your spine and walking your hands toward the opponent's hips. Use your inside hand to peel their grip clasp apart while maintaining strong base. Once the grip is broken, immediately begin guard passing sequences before they can re-establish the choke.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Drive your weight forward while turning your head toward the choking arm. Walk your knees up beside their hips and begin passing to the non-choking side. As you clear their legs, the attacker must release the guillotine or risk the Von Flue choke from their own grip compression. Consolidate side control immediately.
 

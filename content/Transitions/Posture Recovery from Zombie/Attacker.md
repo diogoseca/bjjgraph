@@ -186,7 +186,7 @@ description: "Master the systematic approach to recovering posture from the Zomb
 
 As the attacker executing Posture Recovery from Zombie, your objective is to systematically dismantle the bottom player's lockdown control system and re-establish the upright structural posture necessary to initiate passing sequences. This requires defeating multiple layers of control simultaneously: the lockdown on your leg, the underhook pulling your upper body down, and the head control preventing you from creating distance. The recovery must be methodical rather than explosive, as rushing creates openings for the bottom player's strongest counterattacks. Your success depends on establishing dominant grips, neutralizing the lockdown's pulling angle through strategic weight distribution, and gradually rebuilding your spine alignment while maintaining enough pressure to prevent the bottom player from improving their position during the transition.
 
-**From Position**: [[Zombie]] (Top)
+**From Position**: [[Positions/Rubber Guard/Zombie]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ As the attacker executing Posture Recovery from Zombie, your objective is to sys
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 48% |
-| Failure | [[Zombie]] | 32% |
-| Counter | [[Closed Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 48% |
+| Failure | [[Positions/Rubber Guard/Zombie]] | 32% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the attacker executing Posture Recovery from Zombie, your objective is to sys
 
 ## Opponent Counters
 
-- **Opponent tightens lockdown and initiates Old School Sweep during recovery** (Effectiveness: High) - Your Response: Immediately drop weight forward and drive heavy crossface pressure to flatten their shoulders. Widen your free leg base to counter the lateral sweeping force. If they get significant elevation, abandon recovery temporarily and re-establish base. → Leads to [[Zombie]]
-- **Opponent releases lockdown and shoots hips back to re-establish closed guard** (Effectiveness: Medium) - Your Response: The moment you feel lockdown release, immediately drive your hips forward and down to prevent them from closing their legs behind your back. If they do recover closed guard, you have at least achieved a more familiar passing position. → Leads to [[Closed Guard]]
-- **Opponent deepens underhook and attempts to come up to dogfight position** (Effectiveness: High) - Your Response: Counter the underhook with a strong whizzer and crossface combination. Drive your weight into their shoulder to prevent them from sitting up. If they achieve dogfight, immediately sprawl and re-establish heavy top pressure. → Leads to [[Zombie]]
-- **Opponent transitions to Electric Chair attempt by splitting the legs** (Effectiveness: Medium) - Your Response: When you feel the opponent threading their arm between your legs for Electric Chair, immediately bring your knees together and drive forward. The Electric Chair requires space between your legs, which you deny by keeping them tight and your hips low. → Leads to [[Zombie]]
+- **Opponent tightens lockdown and initiates Old School Sweep during recovery** (Effectiveness: High) - Your Response: Immediately drop weight forward and drive heavy crossface pressure to flatten their shoulders. Widen your free leg base to counter the lateral sweeping force. If they get significant elevation, abandon recovery temporarily and re-establish base. → Leads to [[Positions/Rubber Guard/Zombie]]
+- **Opponent releases lockdown and shoots hips back to re-establish closed guard** (Effectiveness: Medium) - Your Response: The moment you feel lockdown release, immediately drive your hips forward and down to prevent them from closing their legs behind your back. If they do recover closed guard, you have at least achieved a more familiar passing position. → Leads to [[Positions/Closed Guard]]
+- **Opponent deepens underhook and attempts to come up to dogfight position** (Effectiveness: High) - Your Response: Counter the underhook with a strong whizzer and crossface combination. Drive your weight into their shoulder to prevent them from sitting up. If they achieve dogfight, immediately sprawl and re-establish heavy top pressure. → Leads to [[Positions/Rubber Guard/Zombie]]
+- **Opponent transitions to Electric Chair attempt by splitting the legs** (Effectiveness: Medium) - Your Response: When you feel the opponent threading their arm between your legs for Electric Chair, immediately bring your knees together and drive forward. The Electric Chair requires space between your legs, which you deny by keeping them tight and your hips low. → Leads to [[Positions/Rubber Guard/Zombie]]
 
 
 </section>

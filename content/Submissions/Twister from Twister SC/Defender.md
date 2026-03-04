@@ -148,7 +148,7 @@ description: "Defend and escape the Twister spinal lock from Twister Side Contro
 
 Defending the Twister from Twister Side Control requires immediate recognition of the submission threat followed by systematic dismantling of the attacker's setup sequence. The Twister is one of the most dangerous submissions in Brazilian Jiu-Jitsu due to its attack on the cervical and thoracic spine across multiple vertebral segments simultaneously. Unlike many submissions where you can fight to the last moment, the Twister demands early recognition and proactive defense because the window between manageable pressure and structural injury is extremely narrow. Defenders must prioritize spinal protection above all other concerns, fight the attacker's far arm control and head grip establishment, and create escape opportunities through systematic positional improvement rather than explosive panic movements that can worsen the spinal rotation.
 
-**Opponent's Starting Position**: [[Twister Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Twister Control/Twister Side Control]] (Top)
 
 
 </section>
@@ -188,28 +188,28 @@ Defending the Twister from Twister Side Control requires immediate recognition o
 ### 1. Tuck chin and clasp both hands behind your head to create a structural barrier preventing the attacker from establishing the rotational grip
 
 - **When to use**: As soon as you recognize the attacker is transitioning from positional control to Twister setup, before they secure the far arm
-- **Targets**: [[Twister Side Control]]
+- **Targets**: [[Positions/Twister Control/Twister Side Control]]
 - **If successful**: Attacker cannot establish the finishing grip and must either continue working to strip your defensive hands or abandon the Twister for an alternative attack
 - **Risk**: Both hands committed to head defense leaves your legs undefended against calf slicer attacks
 
 ### 2. Fight far arm control by keeping elbows pinned tight against your ribcage and turning your far shoulder away from the attacker
 
 - **When to use**: When the attacker reaches across to control your far arm but before they have secured a grip on it
-- **Targets**: [[Twister Side Control]]
+- **Targets**: [[Positions/Twister Control/Twister Side Control]]
 - **If successful**: Attacker cannot complete the setup sequence required for the Twister finish and must reset their approach
 - **Risk**: If you focus entirely on arm defense, you may neglect leg extraction and remain trapped in Twister Side Control
 
 ### 3. Bridge toward the attacker and work to extract your trapped leg from the entanglement during the setup transition
 
 - **When to use**: When the attacker shifts focus from positional maintenance to upper body submission setup, creating a window where leg control momentarily loosens
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Extracting the trapped leg removes the opposing anchor that makes the Twister mechanically possible, forcing the attacker to re-establish control or abandon the position
 - **Risk**: Bridging explosively while the spine is already rotated can worsen the position if the leg extraction fails
 
 ### 4. Granby roll when the attacker overcommits weight forward during the head grip establishment phase
 
 - **When to use**: When you feel the attacker's weight shift forward as they thread their arm under your head, creating a momentary gap in their base
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: The roll uses the attacker's forward momentum against them, creating separation and the opportunity to turtle up or recover guard
 - **Risk**: Mistimed granby roll with the attacker's full weight settled can fail and leave you in a worse position with increased rotation
 
@@ -232,11 +232,11 @@ Defending the Twister from Twister Side Control requires immediate recognition o
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Successfully extract your trapped leg during the attacker's transition from positional control to submission setup, then use a bridge and turn to achieve turtle position where the spinal rotation is neutralized
 
-### → [[Twister Side Control]]
+### → [[Positions/Twister Control/Twister Side Control]]
 
 Defend the far arm control and head grip establishment so thoroughly that the attacker cannot progress beyond positional control, forcing them to abandon the Twister attempt while you remain in the same position to continue working escape sequences
 

@@ -180,7 +180,7 @@ description: "Learn to execute the knee slice pass from seated guard in BJJ. Ste
 
 The knee slice from seated guard is executed by the passer standing or kneeling over the seated guard player. Your objective is to drive your lead knee diagonally across the opponent's thigh line while establishing upper body control to advance past their leg defense. This technique requires precise grip-to-drive coordination: the grips must be set before the knee moves, and the crossface must arrive with the knee. Success depends on reading the opponent's weight distribution and timing the entry during their transitions rather than forcing through static defenses. The knee slice converts the open-distance seated guard into a pressure-based half guard position where your weight and angle provide systematic passing advantages.
 
-**From Position**: [[Seated Guard]] (Top)
+**From Position**: [[Positions/Seated Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The knee slice from seated guard is executed by the passer standing or kneeling 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Seated Guard]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Seated Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ The knee slice from seated guard is executed by the passer standing or kneeling 
 
 ## Opponent Counters
 
-- **Knee shield frame inserted before the knee crosses the thigh line, blocking the diagonal drive path** (Effectiveness: High) - Your Response: Switch to long step pass by stepping your lead leg back and around the shield, or use toreando to redirect laterally past the frame → Leads to [[Seated Guard]]
-- **Underhook and hip escape as the knee lands, creating angle for sweep from half guard** (Effectiveness: High) - Your Response: Apply immediate whizzer control on the underhook arm and drive heavy shoulder pressure to flatten the opponent before they complete the reversal → Leads to [[Half Guard]]
-- **Butterfly hook insertion under the slicing thigh before the knee reaches the mat** (Effectiveness: Medium) - Your Response: Accelerate the forward drive and use the collar grip to snap their posture down, removing the elevation angle the hook needs to function → Leads to [[Seated Guard]]
-- **Technical standup initiated as the passer closes distance for the knee slice entry** (Effectiveness: Medium) - Your Response: Use the collar grip to snap them back down before the standup completes, then immediately reinitiate the knee slice while their base is compromised → Leads to [[Seated Guard]]
+- **Knee shield frame inserted before the knee crosses the thigh line, blocking the diagonal drive path** (Effectiveness: High) - Your Response: Switch to long step pass by stepping your lead leg back and around the shield, or use toreando to redirect laterally past the frame → Leads to [[Positions/Seated Guard]]
+- **Underhook and hip escape as the knee lands, creating angle for sweep from half guard** (Effectiveness: High) - Your Response: Apply immediate whizzer control on the underhook arm and drive heavy shoulder pressure to flatten the opponent before they complete the reversal → Leads to [[Positions/Half Guard]]
+- **Butterfly hook insertion under the slicing thigh before the knee reaches the mat** (Effectiveness: Medium) - Your Response: Accelerate the forward drive and use the collar grip to snap their posture down, removing the elevation angle the hook needs to function → Leads to [[Positions/Seated Guard]]
+- **Technical standup initiated as the passer closes distance for the knee slice entry** (Effectiveness: Medium) - Your Response: Use the collar grip to snap them back down before the standup completes, then immediately reinitiate the knee slice while their base is compromised → Leads to [[Positions/Seated Guard]]
 
 
 </section>

@@ -148,7 +148,7 @@ description: "Defend against the turn into opponent escape from back control. Re
 
 Defending against the turn into opponent escape requires maintaining all three layers of back control: hook engagement, seatbelt grip, and chest-to-back connection. As the back control top player, you must recognize the early stages of this escape attempt, particularly the hip scoot and two-on-one grip establishment that precede the rotation. Your primary defensive tools include tightening hooks when you feel hip movement, re-establishing seatbelt grip before it is fully stripped, and driving forward with chest pressure to eliminate rotation space. When the escape becomes inevitable and hooks are compromised, transitioning proactively to mount during the rotation preserves your positional advantage rather than clinging to a deteriorating back control position. Understanding when to fight for back control versus when to transition to mount is a critical decision point that separates advanced back control players from those who lose position entirely during escape attempts.
 
-**Opponent's Starting Position**: [[Back Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
 
@@ -184,21 +184,21 @@ Defending against the turn into opponent escape requires maintaining all three l
 ### 1. Tighten hooks and drive chest forward to re-establish full back control
 
 - **When to use**: Early in the escape when opponent has only begun the hip scoot and has not yet cleared hooks or completed two-on-one grip
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Opponent returns to full back control bottom with escape attempt reset and energy wasted
 - **Risk**: If you over-commit chest pressure forward, opponent may use your momentum to accelerate their rotation
 
 ### 2. Follow the turn and transition to mount by swinging your top leg over the opponent's body
 
 - **When to use**: When hooks are compromised and the rotation is progressing past the point of back control recovery
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You establish mount position, maintaining dominant 4-point position with direct control and submission opportunities
 - **Risk**: If you transition too early, opponent may block with knee shield and recover to half guard instead of being caught in mount
 
 ### 3. Re-establish seatbelt grip and attack the neck during the rotation to force a defensive reset
 
 - **When to use**: When opponent releases two-on-one grip prematurely during the turn to post or frame
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Opponent must abandon the rotation attempt and return to neck defense priority, resetting the escape sequence entirely
 - **Risk**: If the choke attempt fails, you may lose grip positioning and hooks simultaneously during the attack
 
@@ -210,11 +210,11 @@ Defending against the turn into opponent escape requires maintaining all three l
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Maintain back control by tightening hooks immediately when you sense hip scooting, driving chest forward into opponent's back to eliminate rotation space, and actively hand fighting to prevent two-on-one grip establishment on your choking arm
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When hooks are lost and the turn is progressing, release remaining hook control proactively and swing your top leg over the opponent's body to establish mount before they can close guard, timing the transition to arrive in mount as they complete the rotation
 

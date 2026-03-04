@@ -21,7 +21,7 @@ Understanding side control escapes is essential because side control is one of t
 
 Mastering this fundamental escape provides the foundation for more advanced guard recovery systems and builds the defensive awareness necessary for high-level competition. The technique chains naturally with ghost escape variations, underhook recoveries, and technical stand-ups, creating a comprehensive escape system where defending one pathway opens another. At the highest levels, the escape becomes less about any single movement and more about reading the opponent's weight distribution, timing windows during their transitions or submission attempts, and flowing between escape variations based on real-time feedback.
 
-**From Position**: [[Side Control]] (Bottom)
+**From Position**: [[Positions/Side Control]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -32,10 +32,10 @@ Mastering this fundamental escape provides the foundation for more advanced guar
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 40% |
-| Success | [[Half Guard]] | 30% |
-| Failure | [[Side Control]] | 20% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Closed Guard]] | 40% |
+| Success | [[Positions/Half Guard]] | 30% |
+| Failure | [[Positions/Side Control]] | 20% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -195,29 +195,29 @@ Side control escape represents a fundamental component of the defensive hierarch
 ## Related Techniques
 
 
-- [[Elbow Escape to Guard]] - Alternative escape method using similar framing and hip movement mechanics
+- [[Transitions/Elbow Escape to Guard]] - Alternative escape method using similar framing and hip movement mechanics
 
-- [[Frame and Shrimp to Guard]] - Fundamental drill developing the core escape mechanics
+- [[Transitions/Frame and Shrimp to Guard]] - Fundamental drill developing the core escape mechanics
 
-- [[Ghost Escape]] - Variation used when traditional escape toward opponent is blocked
+- [[Transitions/Ghost Escape]] - Variation used when traditional escape toward opponent is blocked
 
-- [[Hip Escape to Guard]] - Essential component movement driving space creation
+- [[Transitions/Hip Escape to Guard]] - Essential component movement driving space creation
 
-- [[Bridge and Roll]] - Bridging mechanics used to disrupt opponent's base in escape sequence
+- [[Transitions/Bridge and Roll]] - Bridging mechanics used to disrupt opponent's base in escape sequence
 
-- [[Knee Shield Half Guard]] - Common guard structure established after partial escape
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Common guard structure established after partial escape
 
-- [[Guard Recovery]] - Follow-up technique completing guard reestablishment after space creation
+- [[Principles/Guard Recovery]] - Follow-up technique completing guard reestablishment after space creation
 
-- [[Granby Roll to Guard]] - Advanced movement used in ghost escape variation
+- [[Transitions/Granby Roll to Guard]] - Advanced movement used in ghost escape variation
 
-- [[Side Control]] - Starting position this technique escapes from
+- [[Positions/Side Control]] - Starting position this technique escapes from
 
-- [[Closed Guard]] - Primary target guard position after successful escape
+- [[Positions/Closed Guard]] - Primary target guard position after successful escape
 
-- [[Half Guard]] - Secondary target guard position when full guard recovery is incomplete
+- [[Positions/Half Guard]] - Secondary target guard position when full guard recovery is incomplete
 
-- [[Hip Escape to Turtle]] - Alternative escape pathway when guard recovery is blocked
+- [[Transitions/Hip Escape to Turtle]] - Alternative escape pathway when guard recovery is blocked
 
 
 </section>

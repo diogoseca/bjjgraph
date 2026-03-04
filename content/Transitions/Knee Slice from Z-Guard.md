@@ -21,7 +21,7 @@ Executing this pass demands a methodical three-phase approach. First, the passer
 
 Strategically, this technique occupies a central role in the top player's half guard passing system against modern guard players. It chains naturally with smash passes when the bottom player blocks the slice by flattening their shield, with backstep entries when the opponent over-commits to frontal defense, and with long step passes when distance management prevents close-range slicing. The bottom player facing this technique must choose between maintaining the shield frame, entering deep half guard, or recovering to a different guard variation—each decision carrying distinct risks and opportunities that shape the tactical exchange and create the cascading dilemmas that characterize high-level passing.
 
-**From Position**: [[Z-Guard]] (Top)
+**From Position**: [[Positions/Z-Guard]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this technique occupies a central role in the top player's half g
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Half Guard]] | 30% |
-| Counter | [[Deep Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 20% |
 
 
 </section>
@@ -191,23 +191,23 @@ The Knee Slice from Z-Guard occupies a central role in the top player's half gua
 ## Related Techniques
 
 
-- [[Half Guard]] - Parent position category from which Z-Guard derives as a specialized variation
+- [[Positions/Half Guard]] - Parent position category from which Z-Guard derives as a specialized variation
 
-- [[Side Control]] - Primary destination position after successful knee slice pass completion
+- [[Positions/Side Control]] - Primary destination position after successful knee slice pass completion
 
-- [[Deep Half Guard]] - Counter position the bottom player enters to stop the pass mid-execution
+- [[Positions/Half Guard/Deep Half Guard]] - Counter position the bottom player enters to stop the pass mid-execution
 
-- [[Knee Shield Half Guard]] - Related guard position with lower knee shield placement requiring similar passing approach
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Related guard position with lower knee shield placement requiring similar passing approach
 
-- [[Headquarters Position]] - Transitional passing position for resetting and re-initiating knee slice sequences
+- [[Positions/Headquarters Position]] - Transitional passing position for resetting and re-initiating knee slice sequences
 
-- [[Dogfight Position]] - Scramble position arising when bottom player comes up during contested pass attempts
+- [[Positions/Dogfight Position]] - Scramble position arising when bottom player comes up during contested pass attempts
 
-- [[Flattened Half Guard]] - Intermediate position when shield collapses but pass is not yet completed
+- [[Positions/Half Guard/Flattened Half Guard]] - Intermediate position when shield collapses but pass is not yet completed
 
-- [[Lockdown]] - Alternative half guard retention system bottom player may employ to counter the slice
+- [[Positions/Half Guard/Lockdown]] - Alternative half guard retention system bottom player may employ to counter the slice
 
-- [[Back Control]] - Position bottom player may achieve if passer overcommits during the slice
+- [[Positions/Back Control]] - Position bottom player may achieve if passer overcommits during the slice
 
 
 </section>

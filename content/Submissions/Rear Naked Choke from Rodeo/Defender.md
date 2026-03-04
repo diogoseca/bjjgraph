@@ -156,7 +156,7 @@ description: "Defend against the Rear Naked Choke from Rodeo Ride. Recognition c
 
 Defending the Rear Naked Choke from Rodeo Ride requires immediate recognition of the choking threat and disciplined hand fighting to prevent the arm from establishing position under your chin. The dynamic nature of the Rodeo Ride means the choke attack can come quickly and with less warning than from established back control, making proactive neck defense essential rather than reactive. Your defensive priorities follow a strict hierarchy: protect the neck first through chin tuck and hand placement, strip the choking arm grip before it consolidates, then address the positional control to create escape opportunities. The absence of traditional hooks in Rodeo Ride gives you more escape options than from full back control, but only if you survive the initial choking threat and maintain your turtle structure throughout the defensive sequence. Recognizing the difference between a committed choke attack and a positional threat allows you to allocate defensive resources appropriately and identify escape windows.
 
-**Opponent's Starting Position**: [[Rodeo Ride]] (Top)
+**Opponent's Starting Position**: [[Positions/Rodeo Ride]] (Top)
 
 
 </section>
@@ -194,28 +194,28 @@ Defending the Rear Naked Choke from Rodeo Ride requires immediate recognition of
 ### 1. Two-on-one chin grip strip: grab the choking arm wrist with both hands and peel it away from your neck while keeping chin buried
 
 - **When to use**: As soon as you feel the arm threading under your chin or across your throat—the earlier you engage the strip, the higher the success rate
-- **Targets**: [[Rodeo Ride]]
+- **Targets**: [[Positions/Rodeo Ride]]
 - **If successful**: Choke attempt fails and opponent must re-establish grip position, buying time for escape or forcing them to cycle to a different attack
 - **Risk**: Both hands occupied on the arm strip leaves you unable to post or address other positional threats temporarily
 
 ### 2. Explosive stand to feet: post with free hand and drive upward forcefully to break the chest-to-back connection and create separation
 
 - **When to use**: When the opponent commits weight forward for the choke and their posted leg base is compromised, or before the figure-four grip is established
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Break free from Rodeo Ride control entirely, transition to standing position or force opponent to chase from standing back control
 - **Risk**: If the choke is partially locked, standing can tighten the grip through gravity—only attempt when the choke grip is not yet consolidated
 
 ### 3. Granby roll escape: invert toward the free side using shoulder roll mechanics to face the opponent and recover guard position
 
 - **When to use**: When the opponent's weight is high on your shoulders with minimal hip control, creating space for the inversion movement underneath their pressure
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Escape the back exposure entirely and recover to a guard position where you face the opponent with defensive tools available
 - **Risk**: Exposes your neck momentarily during the roll if the choking arm is already partially threaded—timing must be before the arm is under the chin
 
 ### 4. Turn into opponent: rotate your body toward the choking side to close the space needed for the arm to thread under the chin
 
 - **When to use**: At the very beginning of the choke attempt before the arm has penetrated past the chin line, when your near arm is still free to assist the turn
-- **Targets**: [[Rodeo Ride]]
+- **Targets**: [[Positions/Rodeo Ride]]
 - **If successful**: Prevent the choke entry and potentially recover to half guard or create a scramble where you can face the opponent
 - **Risk**: If timed late, turning into the choke can actually help the opponent establish the grip deeper as you rotate into their arm
 
@@ -238,7 +238,7 @@ Defending the Rear Naked Choke from Rodeo Ride requires immediate recognition of
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Strip the choking arm grip through two-on-one hand fighting and create space through explosive posting or standing, forcing the opponent to release Rodeo Ride control and reset their attack entirely
 

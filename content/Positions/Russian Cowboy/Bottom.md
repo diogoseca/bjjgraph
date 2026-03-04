@@ -210,23 +210,23 @@ The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, 
 
 ## Available Escapes
 
-### [[Granby Roll to Guard]] (13% of attempts)
+### [[Transitions/Granby Roll to Guard]] (13% of attempts)
 
-### [[Technical Stand-up]] (11% of attempts)
+### [[Transitions/Technical Stand-up]] (11% of attempts)
 
-### [[Hip Escape to Guard]] (14% of attempts)
+### [[Transitions/Hip Escape to Guard]] (14% of attempts)
 
-### [[Rolling Back Take]] (11% of attempts)
+### [[Transitions/Rolling Back Take]] (11% of attempts)
 
-### [[Arm Extraction to Turtle]] (32% of attempts)
+### [[Transitions/Arm Extraction to Turtle]] (32% of attempts)
 
-### [[Arm Recovery to Guard]] (11% of attempts)
+### [[Transitions/Arm Recovery to Guard]] (11% of attempts)
 
-### [[Hip Escape from Russian Cowboy]] (5% of attempts)
+### [[Transitions/Hip Escape from Russian Cowboy]] (5% of attempts)
 
-### [[Roll Escape from Russian Cowboy]] (2% of attempts)
+### [[Transitions/Roll Escape from Russian Cowboy]] (2% of attempts)
 
-### [[Escape from Russian Cowboy]] (1% of attempts)
+### [[Transitions/Escape from Russian Cowboy]] (1% of attempts)
 
 
 
@@ -237,23 +237,23 @@ The defensive hierarchy in Russian Cowboy emphasizes protecting the neck first, 
 ## Decision Making from This Position
 
 **If opponent begins choking sequence or attacks neck:**
-- Execute **[[Hand Fighting from Back]]** → [[Russian Cowboy]] (Probability: 80%)
-- Execute **[[Chin Protection and Frame]]** → [[Russian Cowboy]] (Probability: 85%)
+- Execute **[[Transitions/Hand Fighting from Back]]** → [[Positions/Russian Cowboy]] (Probability: 80%)
+- Execute **[[Chin Protection and Frame]]** → [[Positions/Russian Cowboy]] (Probability: 85%)
 
 
 **If opponent advances hooking leg toward truck position:**
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Arm Extraction to Turtle]]** → [[Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 55%)
 
 
 **If opponent loosens upper body control to adjust position:**
-- Execute **[[Technical Stand-up]]** → [[Clinch]] (Probability: 45%)
-- Execute **[[Granby Roll to Guard]]** → [[Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 45%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
 
 
 **If opponent attempts to flatten you completely:**
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Arm Recovery to Guard]]** → [[Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Arm Recovery to Guard]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
 
@@ -375,11 +375,11 @@ Partner establishes Russian Cowboy then periodically loosens control. Practice r
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Related dominant position that shares similar escape principles
-- **[[Truck]]** - Primary advancement position to defend against
-- **[[Turtle]]** - Common escape target and transitional position
-- **[[Half Guard]]** - Intermediate recovery position during escape sequences
-- **[[Hand Fighting from Back]]** - Critical defensive technique for preventing choke setups
+- **[[Positions/Back Control]]** - Related dominant position that shares similar escape principles
+- **[[Positions/Twister Control/Truck]]** - Primary advancement position to defend against
+- **[[Positions/Turtle]]** - Common escape target and transitional position
+- **[[Positions/Half Guard]]** - Intermediate recovery position during escape sequences
+- **[[Transitions/Hand Fighting from Back]]** - Critical defensive technique for preventing choke setups
 
 
 </section>

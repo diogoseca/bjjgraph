@@ -21,7 +21,7 @@ The movement requires coordinating a hip-over-shoulder rotation with precise pos
 
 Strategically, this technique serves as the essential exit valve for grasshopper guard. Without a reliable standup pathway, the grasshopper player becomes trapped in a position that drains energy rapidly. Knowing when to abandon the inversion and come up to feet is often what separates effective grasshopper guard players from those who exhaust themselves chasing submissions from disadvantageous angles. The technique is most effective when the opponent retreats to a wide base or when fatigue begins compromising hip elevation, and it preserves offensive initiative by transitioning to a standing open guard rather than conceding position.
 
-**From Position**: [[Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this technique serves as the essential exit valve for grasshopper
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Grasshopper Guard]] | 30% |
-| Counter | [[Headquarters Position]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Grasshopper Guard]] | 30% |
+| Counter | [[Positions/Headquarters Position]] | 15% |
 
 
 </section>
@@ -193,29 +193,29 @@ The Technical Standup from Inversion serves as the essential exit valve within t
 ## Related Techniques
 
 
-- [[Grasshopper Guard]] - Starting position - inverted guard from which the standup initiates
+- [[Positions/Grasshopper Guard]] - Starting position - inverted guard from which the standup initiates
 
-- [[Open Guard]] - Primary destination after successful standup completion
+- [[Positions/Open Guard]] - Primary destination after successful standup completion
 
-- [[Grasshopper Sweep]] - Alternative offensive option when standup conditions are not met
+- [[Transitions/Grasshopper Sweep]] - Alternative offensive option when standup conditions are not met
 
-- [[Kneebar from Grasshopper]] - Alternative leg attack from same starting position
+- [[Transitions/Kneebar from Grasshopper]] - Alternative leg attack from same starting position
 
-- [[Granby Roll to Guard]] - Bail-out option when standup is countered by forward pressure
+- [[Transitions/Granby Roll to Guard]] - Bail-out option when standup is countered by forward pressure
 
-- [[Inversion Escape]] - Related escape concept from inverted positions
+- [[Transitions/Inversion Escape]] - Related escape concept from inverted positions
 
-- [[De La Riva Guard]] - Common guard engagement after reaching standing position
+- [[Positions/De La Riva Guard]] - Common guard engagement after reaching standing position
 
-- [[Inverted Guard]] - Parent guard category that grasshopper guard belongs to
+- [[Positions/Inverted Guard]] - Parent guard category that grasshopper guard belongs to
 
-- [[Reverse De La Riva Guard]] - Alternative guard recovery when opponent circles during standup
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Alternative guard recovery when opponent circles during standup
 
-- [[Butterfly Guard]] - Alternative seated guard destination if full standup is unnecessary
+- [[Positions/Butterfly Guard]] - Alternative seated guard destination if full standup is unnecessary
 
-- [[Headquarters Position]] - Counter outcome position when opponent capitalizes on failed standup
+- [[Positions/Headquarters Position]] - Counter outcome position when opponent capitalizes on failed standup
 
-- [[Inside Ashi Entry]] - Chain transition when ankle grab counter is converted to leg entanglement
+- [[Transitions/Inside Ashi Entry]] - Chain transition when ankle grab counter is converted to leg entanglement
 
 
 </section>

@@ -212,31 +212,31 @@ The learning progression for Twister Side Control top is significant, with begin
 
 ## Available Attacks
 
-### [[Twister Finish]] (12% of attempts)
+### [[Transitions/Twister Finish]] (12% of attempts)
 
-### [[Back Take]] (12% of attempts)
+### [[Transitions/Back Take]] (12% of attempts)
 
-### [[Darce Choke]] (10% of attempts)
+### [[Transitions/Darce Choke]] (10% of attempts)
 
-### [[Kimura]] (10% of attempts)
+### [[Transitions/Kimura]] (10% of attempts)
 
-### [[Side Control to North-South]] (12% of attempts)
+### [[Transitions/Side Control to North-South]] (12% of attempts)
 
-### [[Anaconda Choke]] (8% of attempts)
+### [[Transitions/Anaconda Choke]] (8% of attempts)
 
-### [[Arm Triangle]] (7% of attempts)
+### [[Transitions/Arm Triangle]] (7% of attempts)
 
-### [[Side Control to Mount]] (8% of attempts)
+### [[Transitions/Side Control to Mount]] (8% of attempts)
 
-### [[Turtle to Truck]] (7% of attempts)
+### [[Transitions/Turtle to Truck]] (7% of attempts)
 
-### [[Calf Slicer]] (5% of attempts)
+### [[Transitions/Calf Slicer]] (5% of attempts)
 
-### [[Twister SC to Back Take]] (4% of attempts)
+### [[Transitions/Twister SC to Back Take]] (4% of attempts)
 
-### [[Twister SC to Truck]] (3% of attempts)
+### [[Transitions/Twister SC to Truck]] (3% of attempts)
 
-### [[Twister from Twister SC]] (2% of attempts)
+### [[Submissions/Twister from Twister SC]] (2% of attempts)
 
 
 
@@ -247,28 +247,28 @@ The learning progression for Twister Side Control top is significant, with begin
 ## Decision Making from This Position
 
 **If bottom player's spine is fully rotated and shoulder is driven to mat with secure leg entanglement:**
-- Execute **[[Twister Finish]]** → [[game-over]] (Probability: 65%)
-- Execute **[[Calf Slicer]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Transitions/Twister Finish]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Transitions/Calf Slicer]]** → [[game-over]] (Probability: 45%)
 
 
 **If bottom player attempts to turn into top player to create frames or relieve pressure:**
-- Execute **[[Darce Choke]]** → [[game-over]] (Probability: 70%)
-- Execute **[[Anaconda Choke]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Transitions/Darce Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Transitions/Anaconda Choke]]** → [[game-over]] (Probability: 65%)
 
 
 **If bottom player turns away exposing their back to escape shoulder pressure:**
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 70%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 70%)
 
 
 **If bottom player successfully creates frames and begins extracting legs:**
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 60%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If bottom player extends near arm to frame or post during escape attempt:**
-- Execute **[[Kimura]]** → [[game-over]] (Probability: 68%)
-- Execute **[[Arm Triangle]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Transitions/Kimura]]** → [[game-over]] (Probability: 68%)
+- Execute **[[Transitions/Arm Triangle]]** → [[game-over]] (Probability: 55%)
 
 
 
@@ -402,14 +402,14 @@ Start from various positions (truck, side control, failed back take). Partner pr
 
 ## Related Positions and Techniques
 
-- **[[Truck]]** - Primary entry position and related control structure within twister system
-- **[[Twister Control]]** - Advanced progression when achieving full twister setup mechanics
-- **[[Darce Choke]]** - High-percentage submission option when bottom player turns into top player
-- **[[Anaconda Choke]]** - Alternative front choke option from similar positional structure
-- **[[Back Control]]** - Common transition when bottom player exposes back during escape attempts
-- **[[Kimura Trap]]** - Submission control option when bottom player extends arm to frame
-- **[[Calf Slicer from Truck]]** - Leg attack available from established leg entanglement
-- **[[Side Control]]** - Traditional variant that shares lateral control but differs in submission emphasis
+- **[[Positions/Twister Control/Truck]]** - Primary entry position and related control structure within twister system
+- **[[Positions/Twister Control]]** - Advanced progression when achieving full twister setup mechanics
+- **[[Transitions/Darce Choke]]** - High-percentage submission option when bottom player turns into top player
+- **[[Transitions/Anaconda Choke]]** - Alternative front choke option from similar positional structure
+- **[[Positions/Back Control]]** - Common transition when bottom player exposes back during escape attempts
+- **[[Positions/Kimura Trap]]** - Submission control option when bottom player extends arm to frame
+- **[[Submissions/Calf Slicer from Truck]]** - Leg attack available from established leg entanglement
+- **[[Positions/Side Control]]** - Traditional variant that shares lateral control but differs in submission emphasis
 
 
 </section>

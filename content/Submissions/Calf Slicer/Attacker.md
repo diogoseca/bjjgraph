@@ -182,7 +182,7 @@ description: "How to execute Calf Slicer in BJJ. Attacking perspective with setu
 
 The Calf Slicer attack centers on creating a wedge with your shin bone against the opponent's calf muscle while controlling their foot and preventing leg extension. This compression submission requires precise shin placement across the muscle belly, secure foot control to prevent rotation escapes, and coordinated hip extension to drive the finishing pressure. The technique integrates into leg lock chains from 50-50 Guard and Truck positions, where it serves as a powerful alternative when opponents successfully defend heel hooks and kneebars. The attacker must understand that this submission operates on a different mechanism than joint locks: rather than targeting ligaments at a specific angle, the Calf Slicer crushes soft tissue between bony surfaces, meaning the pain onset can be delayed and injury can occur rapidly once the compression threshold is reached. This makes controlled, progressive application absolutely critical in training.
 
-**From Position**: [[50-50 Guard]] (Top)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 
 </section>
@@ -239,9 +239,9 @@ The Calf Slicer attack centers on creating a wedge with your shin bone against t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[Half Guard]] | 15% |
-| Counter | [[Open Guard]] | 10% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -250,11 +250,11 @@ The Calf Slicer attack centers on creating a wedge with your shin bone against t
 
 ## Opponent Defenses
 
-- **Straightening the trapped leg forcefully** (Effectiveness: Medium) - Your Response: Tighten your bottom leg hook and pull their foot harder to maintain the bend in their knee. If they begin to straighten, immediately deepen your shin insertion. → Leads to [[50-50 Guard]]
-- **Rotating their leg internally or externally to slide calf off shin** (Effectiveness: High) - Your Response: Increase foot control by switching to a figure-four grip around their ankle. Your shin position must adjust to follow their calf as they rotate, maintaining constant bone-on-muscle pressure. → Leads to [[50-50 Guard]]
-- **Pushing your hips away with their free leg to break alignment** (Effectiveness: High) - Your Response: Control their free leg with an underhook or by trapping it with your arm. Alternatively, transition to attacking that leg with a heel hook or kneebar if they overcommit to the push. → Leads to [[Half Guard]]
-- **Grabbing your legs to break the scissor configuration** (Effectiveness: Medium) - Your Response: Maintain tight leg connection and accelerate the finish before they can break your hooks. Consider switching to an alternative submission like a heel hook if they expose their heel while grip fighting. → Leads to [[50-50 Guard]]
-- **Rolling or inverting to relieve compression pressure** (Effectiveness: Low) - Your Response: Follow their roll while maintaining all controls. The Calf Slicer can often be maintained through rolls, and the rotation may actually increase pressure if you adjust your hip extension angle properly. → Leads to [[Open Guard]]
+- **Straightening the trapped leg forcefully** (Effectiveness: Medium) - Your Response: Tighten your bottom leg hook and pull their foot harder to maintain the bend in their knee. If they begin to straighten, immediately deepen your shin insertion. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Rotating their leg internally or externally to slide calf off shin** (Effectiveness: High) - Your Response: Increase foot control by switching to a figure-four grip around their ankle. Your shin position must adjust to follow their calf as they rotate, maintaining constant bone-on-muscle pressure. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Pushing your hips away with their free leg to break alignment** (Effectiveness: High) - Your Response: Control their free leg with an underhook or by trapping it with your arm. Alternatively, transition to attacking that leg with a heel hook or kneebar if they overcommit to the push. → Leads to [[Positions/Half Guard]]
+- **Grabbing your legs to break the scissor configuration** (Effectiveness: Medium) - Your Response: Maintain tight leg connection and accelerate the finish before they can break your hooks. Consider switching to an alternative submission like a heel hook if they expose their heel while grip fighting. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Rolling or inverting to relieve compression pressure** (Effectiveness: Low) - Your Response: Follow their roll while maintaining all controls. The Calf Slicer can often be maintained through rolls, and the rotation may actually increase pressure if you adjust your hip extension angle properly. → Leads to [[Positions/Open Guard]]
 
 
 </section>

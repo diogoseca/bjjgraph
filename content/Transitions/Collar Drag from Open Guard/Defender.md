@@ -156,7 +156,7 @@ As the defender against the collar drag from open guard, you are the top player 
 
 Successful defense against the collar drag requires understanding that the technique relies on your forward commitment. If you never give the guard player forward weight to redirect, the collar drag becomes extremely difficult to execute. This means managing your posture and base proactively, keeping your center of gravity over or behind your feet, and recognizing the guard player's setup indicators before the drag initiates. When you do recognize a collar drag attempt, your counter-options range from simple posture recovery to aggressive forward drives that can advance your position past the guard player's legs.
 
-**Opponent's Starting Position**: [[Open Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ Successful defense against the collar drag requires understanding that the techn
 ### 1. Strip the collar grip with a two-on-one grip break before the drag initiates
 
 - **When to use**: As soon as you feel the deep collar grip being established, before the opponent sits up or begins pulling
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Opponent loses their primary attacking grip and must re-establish it, giving you time to advance your passing position
 - **Risk**: Both hands occupied with grip fighting momentarily reduces your ability to maintain base if they attack with legs
 
 ### 2. Sprawl hips back and drive forehead into opponent's shoulder while posting hands wide
 
 - **When to use**: When you feel the initial pull of the collar drag beginning, before your posture is fully broken
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Your sprawl creates distance and drops your center of gravity below the pulling angle, neutralizing the drag force
 - **Risk**: If you sprawl too aggressively, you may create space that allows the opponent to reguard or transition to other attacks
 
 ### 3. Drive forward aggressively through the drag attempt, using the guard player's upright sitting position to pass their guard
 
 - **When to use**: When the opponent sits up to execute the drag and has compromised their guard structure by releasing foot frames
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You advance past the opponent's legs into half guard or side control, converting their attack into your positional advancement
 - **Risk**: If the drag is well-timed, your forward drive feeds directly into the collar drag's pulling angle and accelerates your posture collapse
 
 ### 4. Circle laterally toward the drag direction while maintaining posture, reducing the effective pulling angle
 
 - **When to use**: When the drag has partially connected but you still have posture and base, and want to nullify the diagonal force
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Moving with the pull eliminates the angular advantage and allows you to posture up from a neutral angle
 - **Risk**: Circling exposes your back if you over-rotate, potentially giving the opponent an easier path to back control
 
@@ -226,11 +226,11 @@ Successful defense against the collar drag requires understanding that the techn
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Prevent the drag from succeeding by stripping the collar grip early, maintaining strong upright posture with your weight distributed behind your base, or sprawling immediately when you feel the initial pulling force. Any of these responses neutralizes the drag and returns the engagement to neutral open guard passing.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Counter the drag attempt by driving forward aggressively when the opponent sits up and compromises their guard structure. Their forward commitment to the drag opens space past their legs, and your drive through can advance you to half guard top or better. Time the forward drive for the moment they release their foot frames to sit up.
 

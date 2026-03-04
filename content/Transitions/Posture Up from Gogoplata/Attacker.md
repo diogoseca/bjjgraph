@@ -186,7 +186,7 @@ description: "Learn to execute the Posture Up escape from Gogoplata Control. Ste
 
 Executing the Posture Up from Gogoplata requires systematic dismantling of the bottom player's shin-across-throat configuration. As the attacker in this escape sequence, your objective is to recover upright posture by first reducing choke pressure through chin positioning and angle changes, then addressing the structural lock created by the opponent's foot behind your head. Success depends on methodical execution rather than explosive force, as rushing the posture recovery typically tightens the choke and exposes you to alternative attacks including triangle transitions and omoplata setups. The escape demands controlled hand fighting to displace the foot, strategic hip positioning to reduce shin angle effectiveness, and precise timing to exploit momentary gaps in the bottom player's control. Each step builds on the previous one, creating incremental space that accumulates into full extraction.
 
-**From Position**: [[Gogoplata Control]] (Top)
+**From Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
 
@@ -240,9 +240,9 @@ Executing the Posture Up from Gogoplata requires systematic dismantling of the b
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 40% |
-| Failure | [[Gogoplata Control]] | 35% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Open Guard]] | 40% |
+| Failure | [[Positions/Gogoplata Control]] | 35% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -251,10 +251,10 @@ Executing the Posture Up from Gogoplata requires systematic dismantling of the b
 
 ## Opponent Counters
 
-- **Bottom player re-elevates hips and pulls foot deeper behind head to re-lock the choke before extraction completes** (Effectiveness: High) - Your Response: Immediately push both hands into their hips to suppress the elevation. Their hip height directly controls shin angle effectiveness. Without elevated hips, the choke loses perpendicular compression regardless of foot depth. → Leads to [[Gogoplata Control]]
-- **Bottom player transitions to triangle choke as the shin displaces from the throat during posture recovery** (Effectiveness: Medium) - Your Response: Keep elbows tight and posture driving upward as the shin moves. Do not allow the leg to swing over your shoulder into triangle configuration. Control the transitioning leg with your hands immediately when you feel the shin sliding off. → Leads to [[Mount]]
-- **Bottom player uses your backward posture momentum to sweep, elevating hips and redirecting your weight to achieve mount** (Effectiveness: Medium) - Your Response: Maintain wide base with knees spread during the backward drive. Post one hand on the mat if you feel your balance compromised. Control the tempo of your hip drive rather than committing maximum force that can be redirected. → Leads to [[Mount]]
-- **Bottom player pulls your head back down with hand control on the back of your neck before posture recovery completes** (Effectiveness: High) - Your Response: Strip the hand from behind your neck using a two-on-one grip break before resuming the posture drive. Their ability to pull you back requires a grip on your head or neck. Removing this grip eliminates their primary re-breaking tool. → Leads to [[Gogoplata Control]]
+- **Bottom player re-elevates hips and pulls foot deeper behind head to re-lock the choke before extraction completes** (Effectiveness: High) - Your Response: Immediately push both hands into their hips to suppress the elevation. Their hip height directly controls shin angle effectiveness. Without elevated hips, the choke loses perpendicular compression regardless of foot depth. → Leads to [[Positions/Gogoplata Control]]
+- **Bottom player transitions to triangle choke as the shin displaces from the throat during posture recovery** (Effectiveness: Medium) - Your Response: Keep elbows tight and posture driving upward as the shin moves. Do not allow the leg to swing over your shoulder into triangle configuration. Control the transitioning leg with your hands immediately when you feel the shin sliding off. → Leads to [[Positions/Mount]]
+- **Bottom player uses your backward posture momentum to sweep, elevating hips and redirecting your weight to achieve mount** (Effectiveness: Medium) - Your Response: Maintain wide base with knees spread during the backward drive. Post one hand on the mat if you feel your balance compromised. Control the tempo of your hip drive rather than committing maximum force that can be redirected. → Leads to [[Positions/Mount]]
+- **Bottom player pulls your head back down with hand control on the back of your neck before posture recovery completes** (Effectiveness: High) - Your Response: Strip the hand from behind your neck using a two-on-one grip break before resuming the posture drive. Their ability to pull you back requires a grip on your head or neck. Removing this grip eliminates their primary re-breaking tool. → Leads to [[Positions/Gogoplata Control]]
 
 
 </section>

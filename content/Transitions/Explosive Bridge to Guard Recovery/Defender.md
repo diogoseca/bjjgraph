@@ -156,7 +156,7 @@ As the top player in North-South, your opponent will attempt to use an explosive
 
 The critical defensive window occurs during the opponent's bridge itself. Your ability to absorb the bridge without losing chest-to-chest pressure determines whether their escape succeeds. This requires maintaining a low, wide base with hips heavy and forward, and immediately responding to upward force by sprawling your hips back and widening your knees. The most dangerous moment for you as the top player is the split second after the bridge peaks, when the escaper attempts to insert frames and legs. Shutting down this transition from bridge to guard insertion is the key to maintaining your North-South control and preserving your dominant position.
 
-**Opponent's Starting Position**: [[North-South]] (Bottom)
+**Opponent's Starting Position**: [[Positions/North-South]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ The critical defensive window occurs during the opponent's bridge itself. Your a
 ### 1. Sprawl hips back and widen base during the bridge to ride it out and re-consolidate pressure
 
 - **When to use**: The moment you feel upward force from opponent's hips indicating the bridge has begun
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: Opponent's bridge fails to create space, they return flat with depleted energy, and you maintain or deepen North-South control
 - **Risk**: If you sprawl too aggressively, you may create distance that allows opponent to insert butterfly hooks
 
 ### 2. Transition to mount by sliding knees past opponent's hips during their bridge elevation
 
 - **When to use**: When the bridge lifts you enough that your hips become mobile but opponent has not yet established hip frames
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You convert their escape attempt into a position advancement, moving from North-South to mount which scores points and increases control
 - **Risk**: If opponent is quick with leg insertion, you may end up in half guard or closed guard instead of full mount
 
 ### 3. Isolate the near arm and attack with kimura as opponent extends to create hip frames
 
 - **When to use**: When opponent extends their arms toward your hips after bridging, exposing the near arm for grip isolation
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: You convert their escape attempt into a submission threat, forcing them to abandon the guard recovery and defend the kimura
 - **Risk**: Committing to the kimura requires shifting your weight, which may create additional space if the submission fails
 
 ### 4. Drive crossface pressure forward into opponent's jaw during the bridge to flatten them back down
 
 - **When to use**: When the bridge is at 60-70% power and you can feel it is not a fully committed explosive attempt
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: Forward pressure collapses the bridge before it reaches full extension, denying any space creation and discouraging future attempts
 - **Risk**: If the bridge is fully committed and powerful, driving forward may create momentum the opponent redirects into a bridge-and-turn to turtle
 
@@ -226,11 +226,11 @@ The critical defensive window occurs during the opponent's bridge itself. Your a
 
 ## Best-Case Outcomes for Defender
 
-### → [[North-South]]
+### → [[Positions/North-South]]
 
 Absorb the bridge by sprawling hips back, widening your base, and driving chest pressure downward as their bridge collapses. Immediately re-consolidate by tightening arm control and settling heavy weight across their chest before they can attempt another escape.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Use the elevation created by their bridge as an opportunity to slide your knees past their hips and establish mount. Time your knee movement to coincide with the peak of their bridge when their hips are highest and their attention is on creating frames rather than blocking your leg movement.
 

@@ -26,8 +26,8 @@ The choke operates on blood restriction principles, compressing the carotid arte
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Neck
-**Starting Position**: [[Cross Body Ride]]
-**From Position**: [[Cross Body Ride]] (Top)
+**Starting Position**: [[Positions/Cross Body Ride]]
+**From Position**: [[Positions/Cross Body Ride]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -77,8 +77,8 @@ The choke operates on blood restriction principles, compressing the carotid arte
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Cross Body Ride]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Cross Body Ride]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -226,9 +226,9 @@ The choke operates on blood restriction principles, compressing the carotid arte
 
 ## From Which Positions?
 
-- [[Cross Body Ride]]
-- [[Side Control]]
-- [[Back Control]]
+- [[Positions/Cross Body Ride]]
+- [[Positions/Side Control]]
+- [[Positions/Back Control]]
 
 
 </section>
@@ -237,13 +237,13 @@ The choke operates on blood restriction principles, compressing the carotid arte
 
 ## Related Submissions
 
-- [[RNC from Seat Belt]]
-- [[Bow and Arrow from Seat Belt]]
-- [[Choke from Crucifix]]
-- [[Rear Naked Choke from Rodeo]]
-- [[Russian Cowboy RNC]]
-- [[Gift Wrap RNC]]
-- [[Body Triangle RNC]]
+- [[Submissions/RNC from Seat Belt]]
+- [[Submissions/Bow and Arrow from Seat Belt]]
+- [[Transitions/Choke from Crucifix]]
+- [[Submissions/Rear Naked Choke from Rodeo]]
+- [[Submissions/Russian Cowboy RNC]]
+- [[Submissions/Gift Wrap RNC]]
+- [[Submissions/Body Triangle RNC]]
 
 
 </section>
@@ -252,13 +252,13 @@ The choke operates on blood restriction principles, compressing the carotid arte
 
 ## Additional Related Content
 
-- [[Cross Body Ride]] - Primary starting position providing the perpendicular control platform for the choke
-- [[Back Control]] - Related dominant position with similar choking mechanics from behind the opponent
-- [[Crucifix]] - Alternative attack position accessible from cross body ride when choke is defended
-- [[Turtle]] - Opponent's base defensive position during the choke attempt
-- [[Harness]] - Grip system that supports cross body control setup before choke initiation
-- [[Side Control]] - Alternative controlling position where similar short choke mechanics can be applied
-- [[RNC from Seat Belt]] - Related blood choke from back control sharing similar forearm-on-neck finishing mechanics
+- [[Positions/Cross Body Ride]] - Primary starting position providing the perpendicular control platform for the choke
+- [[Positions/Back Control]] - Related dominant position with similar choking mechanics from behind the opponent
+- [[Positions/Crucifix]] - Alternative attack position accessible from cross body ride when choke is defended
+- [[Positions/Turtle]] - Opponent's base defensive position during the choke attempt
+- [[Positions/Harness]] - Grip system that supports cross body control setup before choke initiation
+- [[Positions/Side Control]] - Alternative controlling position where similar short choke mechanics can be applied
+- [[Submissions/RNC from Seat Belt]] - Related blood choke from back control sharing similar forearm-on-neck finishing mechanics
 
 
 </section>

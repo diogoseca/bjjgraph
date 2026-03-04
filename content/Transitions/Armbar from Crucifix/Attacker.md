@@ -186,7 +186,7 @@ description: "Execute the Armbar from Crucifix in BJJ. Complete attacking guide 
 
 As the attacker executing the Armbar from Crucifix, you exploit the unique dynamics of bilateral arm control to isolate and hyperextend your opponent's free arm. The crucifix position gives you an extraordinary advantage: one arm is already trapped in your leg triangle, and the other arm is forced into a defensive position by your choke threats. When your opponent commits their free arm to defend their neck, you redirect your attack to that exposed limb. The key insight is that the armbar functions as the secondary threat in a two-attack system—the choke forces defensive arm commitment, which creates the armbar opportunity. Your ability to seamlessly transition between these two attacks creates an offensive loop that becomes progressively harder to survive. The mechanics require precise wrist capture, deliberate hip repositioning to create the extension angle, and controlled finishing pressure through hip elevation.
 
-**From Position**: [[Crucifix]] (Top)
+**From Position**: [[Positions/Crucifix]] (Top)
 
 </section>
 
@@ -240,8 +240,8 @@ As the attacker executing the Armbar from Crucifix, you exploit the unique dynam
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Crucifix]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Failure | [[Positions/Crucifix]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the attacker executing the Armbar from Crucifix, you exploit the unique dynam
 
 ## Opponent Counters
 
-- **Opponent clasps hands together to prevent arm isolation** (Effectiveness: High) - Your Response: Use a grip break by wedging your forearm between their clasped hands and peeling fingers, or transition back to choke threat to force them to release the clasp and defend the neck again → Leads to [[Crucifix]]
-- **Opponent tucks free arm tight against body and refuses to extend for neck defense** (Effectiveness: Medium) - Your Response: Increase choke pressure to force a defensive response, or transition to attacking the near arm trapped in the leg triangle using a near-arm armbar variation → Leads to [[Crucifix]]
-- **Opponent bridges explosively during hip repositioning** (Effectiveness: Medium) - Your Response: Stay tight to opponent's back and ride the bridge rather than posting, then immediately re-threaten either the choke or armbar as they settle from the bridge attempt → Leads to [[Back Control]]
-- **Opponent turns into attacker and partially extracts trapped arm during transition** (Effectiveness: High) - Your Response: If crucifix is compromised, transition to back control with hooks and harness grip, maintaining dominant position while resetting for another crucifix entry or alternative attacks → Leads to [[Back Control]]
+- **Opponent clasps hands together to prevent arm isolation** (Effectiveness: High) - Your Response: Use a grip break by wedging your forearm between their clasped hands and peeling fingers, or transition back to choke threat to force them to release the clasp and defend the neck again → Leads to [[Positions/Crucifix]]
+- **Opponent tucks free arm tight against body and refuses to extend for neck defense** (Effectiveness: Medium) - Your Response: Increase choke pressure to force a defensive response, or transition to attacking the near arm trapped in the leg triangle using a near-arm armbar variation → Leads to [[Positions/Crucifix]]
+- **Opponent bridges explosively during hip repositioning** (Effectiveness: Medium) - Your Response: Stay tight to opponent's back and ride the bridge rather than posting, then immediately re-threaten either the choke or armbar as they settle from the bridge attempt → Leads to [[Positions/Back Control]]
+- **Opponent turns into attacker and partially extracts trapped arm during transition** (Effectiveness: High) - Your Response: If crucifix is compromised, transition to back control with hooks and harness grip, maintaining dominant position while resetting for another crucifix entry or alternative attacks → Leads to [[Positions/Back Control]]
 
 
 </section>

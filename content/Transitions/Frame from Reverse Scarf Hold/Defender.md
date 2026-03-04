@@ -140,7 +140,7 @@ description: "Learn to prevent and counter the frame escape from Reverse Scarf H
 
 Defending against the frame escape from Reverse Scarf Hold means maintaining your dominant top control while denying the bottom player the structural frames and incremental space they need for hip escapes and knee insertion. Your primary tool is consistent hip pressure combined with a low chest position that prevents effective frame establishment. When the bottom player initiates frames, your response must address the structural barrier without abandoning the crushing pressure that makes the position dominant. The key defensive insight is that frame escapes require incremental space accumulation protected by active frames, and collapsing any single increment before the next hip escape prevents the entire escape chain from progressing. Skilled defenders convert frame escape attempts into submission opportunities or positional advancement to north-south or mount.
 
-**Opponent's Starting Position**: [[Reverse Scarf Hold]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Bottom)
 
 </section>
 
@@ -177,21 +177,21 @@ Defending against the frame escape from Reverse Scarf Hold means maintaining you
 ### 1. Drive hip pressure through the frame before it establishes full skeletal alignment
 
 - **When to use**: Immediately when the bottom player's forearm begins moving toward your hip, before they achieve structural positioning with elbow tight to body
-- **Targets**: [[Reverse Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Reverse Scarf Hold]]
 - **If successful**: Frame is collapsed before it can support any hip escape attempt and bottom player remains fully pinned under your control
 - **Risk**: Overcommitting forward pressure against a well-established frame may compromise your base and enable a bridge-and-roll escape
 
 ### 2. Transition toward north-south when sustained frames create persistent space that makes reverse scarf hold maintenance inefficient
 
 - **When to use**: When the bottom player has established strong frames and completed one or more hip escape increments, making distance re-closure energy-expensive
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: Advance to north-south control before the bottom player can insert knee shield, maintaining top position dominance from a fresh pinning configuration
 - **Risk**: The transition moment creates a brief window where the bottom player may insert knees and recover guard before north-south is consolidated
 
 ### 3. Attack the near-side arm with americana or kimura when the bottom player's attention shifts to maintaining their far-side frame
 
 - **When to use**: When the bottom player diverts defensive attention from their near-side arm to establish or sustain frames, creating a momentary gap in arm protection
-- **Targets**: [[Reverse Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Reverse Scarf Hold]]
 - **If successful**: Force the bottom player to abandon the frame escape entirely and return to pure arm defense, completely resetting their escape progress and draining energy
 - **Risk**: Releasing hip pressure to attack the arm creates a brief weight shift that the bottom player may exploit for a larger hip escape increment
 
@@ -203,11 +203,11 @@ Defending against the frame escape from Reverse Scarf Hold means maintaining you
 
 ## Best-Case Outcomes for Defender
 
-### → [[Reverse Scarf Hold]]
+### → [[Positions/Side Control/Reverse Scarf Hold]]
 
 Maintain constant hip pressure and low chest position. Address frames immediately before they achieve structural alignment by driving through them or re-angling your body. Use micro-adjustments in weight distribution to prevent timing windows. When frames collapse, immediately re-secure arm control and resettle full chest compression.
 
-### → [[North-South]]
+### → [[Positions/North-South]]
 
 When the bottom player creates persistent space through successful framing that makes reverse scarf hold maintenance energy-expensive, transition smoothly to north-south before they can insert a knee shield. Use their hip escape angle as the rotation path for your transition, arriving in north-south before their guard recovery mechanics can activate.
 

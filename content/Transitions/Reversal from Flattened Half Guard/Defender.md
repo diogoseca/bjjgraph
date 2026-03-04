@@ -146,7 +146,7 @@ description: "Learn to defend and prevent the reversal from flattened half guard
 
 As the defender against this reversal, you are the top player in flattened half guard who must prevent the bottom player from achieving a positional reversal to side control. Your primary task is recognizing the underhook acquisition that precedes every reversal attempt and addressing it before the bottom player can combine the underhook with a committed bridge. Skilled bottom players will disguise reversal setups as frame recovery attempts, making early recognition essential. Your defensive strategy operates on two levels: preventing the prerequisites from being established, and maintaining base if the bridge is initiated. The most effective defense is proactive - denying the underhook through sustained shoulder pressure and hip positioning that keeps the bottom player truly flat. When prevention fails, your reactive defense depends on posting, hip sprawling, and potentially capitalizing on the failed attempt to advance to mount.
 
-**Opponent's Starting Position**: [[Flattened Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Flattened Half Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against this reversal, you are the top player in flattened half 
 ### 1. Wizard the underhook arm by overhooking it and driving your shoulder down to neutralize the grip depth
 
 - **When to use**: As soon as you feel the bottom player threading the underhook - early intervention before they achieve full grip depth
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Bottom player loses the underhook prerequisite and must restart the setup process, returning to a purely defensive position under your pressure
 - **Risk**: The wizard position can create space that allows the bottom player to transition to deep half guard instead
 
 ### 2. Post your far hand wide on the mat toward the underhook side to create a strong base against the diagonal bridge
 
 - **When to use**: When you feel the bridge initiating and cannot prevent the underhook in time - reactive base defense
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Your posted hand absorbs the bridge force and prevents the sweep from completing, allowing you to resettle pressure
 - **Risk**: Posting the hand removes it from controlling the bottom player's hip, potentially allowing guard recovery through a different escape pathway
 
 ### 3. Sprawl your hips back and drive increased crossface pressure to flatten the bottom player before the bridge reaches full power
 
 - **When to use**: When you detect the bridge beginning but the bottom player has not yet generated full upward force
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Your increased forward pressure exceeds the bottom player's bridge power, pinning them back flat and nullifying the reversal attempt
 - **Risk**: Excessive forward commitment makes you more vulnerable if the bottom player has a deep underhook and uses your pressure as the sweep fulcrum
 
 ### 4. Extract the trapped leg during the bridge attempt when the bottom player's hook loosens from the explosive movement
 
 - **When to use**: During the reversal attempt when the bottom player's focus shifts to the bridge and their hook control momentarily weakens
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You complete the guard pass during their failed sweep attempt, achieving mount position as they have abandoned their defensive frames for the reversal
 - **Risk**: If the hook remains tight and you fail to extract, you have shifted your base into a position that may actually help the reversal succeed
 
@@ -217,11 +217,11 @@ As the defender against this reversal, you are the top player in flattened half 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Capitalize on the bottom player's failed reversal by extracting your trapped leg while they are committed to the bridge. Their abandonment of defensive frames to pursue the sweep creates a window to step over and establish mount. Time the leg extraction to the peak of their bridge when their focus is on driving through the underhook rather than maintaining the hook.
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Prevent the reversal through early underhook denial using wizard control or sustained shoulder pressure, then resettle your dominant flattened half guard position. The bottom player expends significant energy on the failed attempt while you maintain your positional advantage with minimal energy cost.
 

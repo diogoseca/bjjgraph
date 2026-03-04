@@ -21,7 +21,7 @@ This technique becomes particularly effective when the opponent has established 
 
 Strategically, the stack pass works best against opponents who rely heavily on the technical advantages of their lapel configuration without adequate upper body frames. The forward drive nullifies the pull of the lapel while your weight distribution prevents sweep attempts. Success requires committing fully to the pressure rather than hesitating in a compromised standing position where the lapel player has maximum leverage.
 
-**From Position**: [[Lapel Guard]] (Top)
+**From Position**: [[Positions/Lapel Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the stack pass works best against opponents who rely heavily on t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -189,25 +189,25 @@ Stack Pass Over Lapel Barrier occupies a specific niche in the guard passing hie
 ## Related Techniques
 
 
-- [[Lapel Guard]] - Starting position where opponent has established lapel configuration
+- [[Positions/Lapel Guard]] - Starting position where opponent has established lapel configuration
 
-- [[Side Control]] - Primary target position after successful pass
+- [[Positions/Side Control]] - Primary target position after successful pass
 
-- [[Backstep Around Worm Guard]] - Alternative lapel guard pass using movement instead of pressure
+- [[Transitions/Backstep Around Worm Guard]] - Alternative lapel guard pass using movement instead of pressure
 
-- [[Long Step Around Ringworm]] - Alternative pass for complex lapel configurations
+- [[Transitions/Long Step Around Ringworm]] - Alternative pass for complex lapel configurations
 
-- [[Pressure Pass Through Squid]] - Related pressure passing concept against squid guard variation
+- [[Transitions/Pressure Pass Through Squid]] - Related pressure passing concept against squid guard variation
 
-- [[Double Under Pass]] - Related stacking technique sharing similar compression mechanics
+- [[Transitions/Double Under Pass]] - Related stacking technique sharing similar compression mechanics
 
-- [[Knee Slice Despite Lapel]] - Alternative pass option when stack is defended
+- [[Transitions/Knee Slice Despite Lapel]] - Alternative pass option when stack is defended
 
-- [[Worm Guard]] - Common lapel configuration this pass addresses
+- [[Positions/Worm Guard]] - Common lapel configuration this pass addresses
 
-- [[Squid Guard]] - Lapel variation addressed by this passing approach
+- [[Positions/Squid Guard]] - Lapel variation addressed by this passing approach
 
-- [[Closed Guard]] - Counter outcome position when opponent locks guard during failed stack
+- [[Positions/Closed Guard]] - Counter outcome position when opponent locks guard during failed stack
 
 
 </section>

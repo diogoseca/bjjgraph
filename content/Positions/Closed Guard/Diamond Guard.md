@@ -93,17 +93,17 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 ### Available Transitions
 
 
-- **[[Triangle Setup]]** (22% of attempts)
+- **[[Transitions/Triangle Setup]]** (22% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (20% of attempts)
+- **[[Transitions/Closed Guard to Omoplata]]** (20% of attempts)
 
-- **[[Hip Bump Sweep]]** (18% of attempts)
+- **[[Transitions/Hip Bump Sweep]]** (18% of attempts)
 
-- **[[Kimura from Diamond Guard]]** (15% of attempts)
+- **[[Transitions/Kimura from Diamond Guard]]** (15% of attempts)
 
-- **[[Triangle from Diamond Guard]]** (13% of attempts)
+- **[[Transitions/Triangle from Diamond Guard]]** (13% of attempts)
 
-- **[[Sweep from Diamond Guard]]** (12% of attempts)
+- **[[Transitions/Sweep from Diamond Guard]]** (12% of attempts)
 
 
 ### Common Mistakes
@@ -164,15 +164,15 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 ### Available Transitions
 
 
-- **[[Posture Recovery]]** (22% of attempts)
+- **[[Transitions/Posture Recovery]]** (22% of attempts)
 
-- **[[Guard Pass from Diamond Guard]]** (22% of attempts)
+- **[[Transitions/Guard Pass from Diamond Guard]]** (22% of attempts)
 
-- **[[Posture Recovery from Diamond Guard]]** (20% of attempts)
+- **[[Transitions/Posture Recovery from Diamond Guard]]** (20% of attempts)
 
-- **[[Guard Opening Sequence]]** (18% of attempts)
+- **[[Transitions/Guard Opening Sequence]]** (18% of attempts)
 
-- **[[Overhook Strip from Diamond Guard]]** (18% of attempts)
+- **[[Transitions/Overhook Strip from Diamond Guard]]** (18% of attempts)
 
 
 ### Common Mistakes
@@ -211,25 +211,25 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 ## Related Positions
 
 
-- **[[Closed Guard]]** - Parent position — Diamond Guard is a specialized variation of closed guard
+- **[[Positions/Closed Guard]]** - Parent position — Diamond Guard is a specialized variation of closed guard
 
-- **[[Triangle Control]]** - Primary submission destination from diamond guard bottom
+- **[[Positions/Triangle Control]]** - Primary submission destination from diamond guard bottom
 
-- **[[Omoplata Control]]** - Secondary submission destination from overhook adjustment
+- **[[Positions/Omoplata Control]]** - Secondary submission destination from overhook adjustment
 
-- **[[Kimura Trap]]** - Tertiary attack destination using the overhook control
+- **[[Positions/Kimura Trap]]** - Tertiary attack destination using the overhook control
 
-- **[[Rubber Guard]]** - Related control concept using leg flexibility instead of overhook for head control
+- **[[Positions/Rubber Guard]]** - Related control concept using leg flexibility instead of overhook for head control
 
-- **[[Overhook Guard]]** - Shared control mechanism — Diamond Guard adds head control to overhook
+- **[[Positions/Overhook Guard]]** - Shared control mechanism — Diamond Guard adds head control to overhook
 
-- **[[Mission Control]]** - Related rubber guard position providing similar head control objective
+- **[[Positions/Rubber Guard/Mission Control]]** - Related rubber guard position providing similar head control objective
 
-- **[[Open Guard]]** - Fallback position if closed guard is opened during diamond control
+- **[[Positions/Open Guard]]** - Fallback position if closed guard is opened during diamond control
 
-- **[[Half Guard]]** - Common transition if top player partially escapes while diamond is maintained
+- **[[Positions/Half Guard]]** - Common transition if top player partially escapes while diamond is maintained
 
-- **[[Mount]]** - Destination from hip bump sweep when opponent resists posture break
+- **[[Positions/Mount]]** - Destination from hip bump sweep when opponent resists posture break
 
 
 </section>

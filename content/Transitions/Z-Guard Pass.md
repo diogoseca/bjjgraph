@@ -21,7 +21,7 @@ Strategically, the Z-Guard pass represents a critical skill for any top player, 
 
 The technical challenge lies in managing multiple simultaneous battles while maintaining base against sweep threats. The passer must control the underhook war, collapse the knee shield, neutralize the bottom player's hip mobility, and prevent transitions to deep half guard, all while maintaining sufficient base to avoid being swept. Success requires understanding when to apply heavy pressure and when to create angles, making this pass as much about timing and sensitivity as it is about physical technique. The concepts learned here transfer directly to passing all knee shield variations and pressure-based guard passing in general.
 
-**From Position**: [[Z-Guard]] (Top)
+**From Position**: [[Positions/Z-Guard]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ The technical challenge lies in managing multiple simultaneous battles while mai
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Z-Guard]] | 32% |
-| Counter | [[Z-Guard]] | 18% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Z-Guard]] | 32% |
+| Counter | [[Positions/Z-Guard]] | 18% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Z-Guard Pass occupies a central role in the modern guard passing hierarchy, 
 ## Related Techniques
 
 
-- [[Z-Guard]] - Source position where this pass is initiated from the top
+- [[Positions/Z-Guard]] - Source position where this pass is initiated from the top
 
-- [[Side Control]] - Primary target position reached after successful pass completion
+- [[Positions/Side Control]] - Primary target position reached after successful pass completion
 
-- [[Knee Shield Half Guard]] - Related position with similar passing challenges at lower knee shield height
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Related position with similar passing challenges at lower knee shield height
 
-- [[Half Guard]] - Parent guard category of which Z-Guard is a specialized variation
+- [[Positions/Half Guard]] - Parent guard category of which Z-Guard is a specialized variation
 
-- [[Deep Half Guard]] - Common counter-transition when bottom player dives under during pass attempt
+- [[Positions/Half Guard/Deep Half Guard]] - Common counter-transition when bottom player dives under during pass attempt
 
-- [[Headquarters Position]] - Alternative passing position reached by disengaging and resetting from Z-Guard
+- [[Positions/Headquarters Position]] - Alternative passing position reached by disengaging and resetting from Z-Guard
 
-- [[Dogfight Position]] - Scramble outcome when pass attempt stalls and both players come to knees
+- [[Positions/Dogfight Position]] - Scramble outcome when pass attempt stalls and both players come to knees
 
-- [[Knee Slice from Z-Guard]] - Specific knee slice variant designed for Z-Guard that shares setup principles
+- [[Transitions/Knee Slice from Z-Guard]] - Specific knee slice variant designed for Z-Guard that shares setup principles
 
-- [[Pass Z-Guard]] - Alternative Z-Guard passing methodology from Z-Lock variation
+- [[Transitions/Pass Z-Guard]] - Alternative Z-Guard passing methodology from Z-Lock variation
 
-- [[Sweep from Z-Guard]] - Primary counter-attack the bottom player uses to reverse position during pass
+- [[Transitions/Sweep from Z-Guard]] - Primary counter-attack the bottom player uses to reverse position during pass
 
 
 </section>

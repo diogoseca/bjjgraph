@@ -156,7 +156,7 @@ Defending the Jailbreak to Deep Half Entry requires the top player to recognize 
 
 The most critical defensive window occurs during the bottom player's hip drop and rotation phase. Before they thread underneath, you can use crossface pressure, underhook stripping, and hip positioning to shut down the entry. Once they get their head past your hip line with grips established, you are already in deep half and must shift to deep half top defense instead. Early recognition and immediate response are the keys to preventing this transition from succeeding.
 
-**Opponent's Starting Position**: [[Jailbreak]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Jailbreak]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ The most critical defensive window occurs during the bottom player's hip drop an
 ### 1. Drive hips forward and sprawl to close the space underneath before opponent threads through
 
 - **When to use**: At the first sign of the hip drop and inward rotation - before they get their head past your hip line
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent's dive is stuffed and they remain in bottom half guard where you can reestablish passing pressure
 - **Risk**: If you sprawl too aggressively with forward weight commitment, opponent can redirect to standard jailbreak roll and sweep you
 
 ### 2. Strip the underhook by driving your elbow into their bicep and establishing a whizzer to remove their steering mechanism
 
 - **When to use**: When you feel the underhook tighten and pull downward, signaling the transition from jailbreak to deep half entry
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Without the underhook, opponent cannot steer underneath you and you can flatten them for a pass to side control
 - **Risk**: Focusing on the underhook strip may briefly lift your weight, giving them space for other escapes
 
 ### 3. Crossface hard and turn their head away from your hip to prevent proper deep half head positioning
 
 - **When to use**: As opponent's head begins driving toward the inside of your far hip during the transition
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent cannot establish the head wedge needed for deep half structure and remains in compromised half guard bottom
 - **Risk**: Strong crossface pressure can drive you slightly off-balance, and opponent may use that momentum for alternative escapes
 
 ### 4. Backstep and extract your trapped leg before opponent completes the threading sequence
 
 - **When to use**: When opponent has begun the dive but has not yet secured grips around your far leg
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You free your leg entirely and can pass to side control as opponent is committed to the failed dive
 - **Risk**: Backstep creates significant space that opponent can use to recover guard or transition to X-guard entries
 
@@ -225,11 +225,11 @@ The most critical defensive window occurs during the bottom player's hip drop an
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Shut down the dive early by sprawling forward to close space and driving crossface to prevent head positioning. Strip the underhook with whizzer pressure to remove their steering control. This returns opponent to standard bottom half guard where you retain passing initiative.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Strip the underhook aggressively and flatten the bottom player before they can thread underneath. Use the momentum of their failed dive attempt to consolidate side control as they are momentarily out of position and without their primary control point.
 

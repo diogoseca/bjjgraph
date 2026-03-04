@@ -186,7 +186,7 @@ description: "Learn to execute the Trap and Roll reversal from bottom mount. Ste
 
 Executing the Trap and Roll from bottom mount requires precise coordination between arm trapping, foot hooking, and explosive hip bridging to reverse one of the most dominant positions in BJJ. As the attacker (the person on bottom initiating the escape), your primary challenge is creating the conditions for the reversal by provoking your opponent into committing an arm forward, then capitalizing on that structural weakness before they can retract. The technique demands patience in setup followed by explosive commitment in execution, as half-hearted bridges allow the mounted player to simply post and resettle. At the purple and brown belt level, success depends on disguising your intention, chaining the trap and roll with other escape threats to create openings, and having the mechanical precision to direct your bridge at the exact angle that compromises the opponent's remaining base. Mastering the setup game, where you use frames and defensive movements to bait the arm commitment, separates functional trap and roll ability from the white belt version that relies on strength and surprise.
 
-**From Position**: [[Mount]] (Bottom)
+**From Position**: [[Positions/Mount]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ Executing the Trap and Roll from bottom mount requires precise coordination betw
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Failure | [[Mount]] | 35% |
-| Counter | [[High Mount]] | 20% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Failure | [[Positions/Mount]] | 35% |
+| Counter | [[Positions/Mount/High Mount]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ Executing the Trap and Roll from bottom mount requires precise coordination betw
 
 ## Opponent Counters
 
-- **Opponent posts their free hand on the mat when they feel the bridge initiating** (Effectiveness: High) - Your Response: Immediately switch to elbow escape on the posting side, as their posting hand creates a high frame that opens space for your hip escape. The trap and roll attempt has already shifted their weight, making the elbow escape easier. → Leads to [[Mount]]
-- **Opponent widens their base by stepping their trapped foot out before the bridge reaches full extension** (Effectiveness: High) - Your Response: Re-hook the foot with more aggressive clamping, or abandon the trap and roll to pursue a heel drag escape on the wide-base side where their knee is now elevated off the mat. → Leads to [[Mount]]
-- **Opponent swims their trapped arm free by circling their elbow out of your grip** (Effectiveness: Medium) - Your Response: Use the momentary arm movement to re-establish frames on their hips and immediately threaten the elbow escape, or attempt to re-capture the arm if it extends again during their grip recovery. → Leads to [[Mount]]
-- **Opponent shifts weight forward into high mount as they feel the bridge attempt loading** (Effectiveness: High) - Your Response: Abandon the trap and roll immediately and address the high mount advancement by walking elbows inside their knees. From high mount, focus on framing and hip escape rather than bridging, as bridge leverage is severely compromised. → Leads to [[High Mount]]
+- **Opponent posts their free hand on the mat when they feel the bridge initiating** (Effectiveness: High) - Your Response: Immediately switch to elbow escape on the posting side, as their posting hand creates a high frame that opens space for your hip escape. The trap and roll attempt has already shifted their weight, making the elbow escape easier. → Leads to [[Positions/Mount]]
+- **Opponent widens their base by stepping their trapped foot out before the bridge reaches full extension** (Effectiveness: High) - Your Response: Re-hook the foot with more aggressive clamping, or abandon the trap and roll to pursue a heel drag escape on the wide-base side where their knee is now elevated off the mat. → Leads to [[Positions/Mount]]
+- **Opponent swims their trapped arm free by circling their elbow out of your grip** (Effectiveness: Medium) - Your Response: Use the momentary arm movement to re-establish frames on their hips and immediately threaten the elbow escape, or attempt to re-capture the arm if it extends again during their grip recovery. → Leads to [[Positions/Mount]]
+- **Opponent shifts weight forward into high mount as they feel the bridge attempt loading** (Effectiveness: High) - Your Response: Abandon the trap and roll immediately and address the high mount advancement by walking elbows inside their knees. From high mount, focus on framing and hip escape rather than bridging, as bridge leverage is severely compromised. → Leads to [[Positions/Mount/High Mount]]
 
 
 </section>

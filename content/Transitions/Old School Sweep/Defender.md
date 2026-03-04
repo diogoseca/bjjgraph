@@ -160,7 +160,7 @@ description: "Complete guide to defending the Old School Sweep from half guard t
 
 Defending the Old School Sweep requires immediate recognition of the sweep threat and systematic application of counter-pressure from the top position. As the top player caught in lockdown, your primary defensive tools are the whizzer, crossface shoulder pressure, and wide base positioning with your free leg. The defender must prevent the bottom player from combining all three sweep controls—lockdown tension, deep underhook, and head control—while systematically working to neutralize each element individually. Success depends on maintaining heavy hip pressure to prevent the sweeper from angling to their side, posting the free leg wide for maximum base stability, and timing your defensive adjustments to the sweeper's initiation rather than reacting after the sweep is already in motion. Understanding when to accept position and counter versus when to fight to maintain top control is critical for energy-efficient defense.
 
-**Opponent's Starting Position**: [[Old School]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Old School]] (Bottom)
 
 </section>
 
@@ -198,35 +198,35 @@ Defending the Old School Sweep requires immediate recognition of the sweep threa
 ### 1. Drive deep whizzer and sprawl hips back to block rotation
 
 - **When to use**: Immediately upon recognizing the opponent has secured underhook and is beginning to angle to their side for the sweep
-- **Targets**: [[Old School]]
+- **Targets**: [[Positions/Half Guard/Old School]]
 - **If successful**: Opponent's sweep angle is destroyed, underhook leverage is neutralized, and you maintain top position with ability to work toward passing
 - **Risk**: Committing too heavily to the whizzer can expose you to Electric Chair entry if opponent dives under your hips
 
 ### 2. Increase crossface pressure to flatten opponent onto their back
 
 - **When to use**: When opponent begins turning to their side but has not yet established full sweep alignment with shoulder under your center of gravity
-- **Targets**: [[Old School]]
+- **Targets**: [[Positions/Half Guard/Old School]]
 - **If successful**: Opponent is flattened and loses the geometric advantage needed for sweep, reducing their offensive options significantly
 - **Risk**: Crossface alone may not stop a committed sweep if lockdown tension is already high and underhook is deep
 
 ### 3. Post free hand on mat and widen base to resist rotational sweep
 
 - **When to use**: As emergency defense when sweep initiation has already begun and you feel your base being compromised
-- **Targets**: [[Old School]]
+- **Targets**: [[Positions/Half Guard/Old School]]
 - **If successful**: Creates structural post that prevents rotation, buying time to re-establish whizzer and crossface controls
 - **Risk**: Posted hand may be attacked with kimura grip from bottom, and posting reduces your chest pressure on opponent
 
 ### 4. Drive forward aggressively to flatten and pass to side control
 
 - **When to use**: When opponent's lockdown tension drops or they release head control momentarily, creating a passing window
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Advance past half guard entirely, achieving side control and eliminating all lockdown-based threats
 - **Risk**: Forward drive can feed directly into sweep momentum if opponent's controls are still tight
 
 ### 5. Strip head control arm and establish crossface before sweep can develop
 
 - **When to use**: Early in the position when opponent is still building controls and has not yet secured tight head wrap
-- **Targets**: [[Old School]]
+- **Targets**: [[Positions/Half Guard/Old School]]
 - **If successful**: Without head control, opponent cannot prevent you from posturing up, which removes most of the sweep's mechanical advantage
 - **Risk**: Fighting for the head control strip can create scramble opportunities that opponent may exploit
 
@@ -238,11 +238,11 @@ Defending the Old School Sweep requires immediate recognition of the sweep threa
 
 ## Best-Case Outcomes for Defender
 
-### → [[Old School]]
+### → [[Positions/Half Guard/Old School]]
 
 Defend the sweep by establishing strong whizzer control, driving heavy crossface pressure to flatten the bottom player, and posting your free leg wide for maximum base stability. Once the sweep threat is neutralized, work systematically to strip the lockdown through hip pressure and ankle manipulation.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Counter the sweep attempt by timing your forward drive with the moment the opponent releases lockdown tension or head control. Drive crossface pressure and advance past the half guard with a knee slice or smash pass to achieve dominant side control position.
 

@@ -158,7 +158,7 @@ The defender's primary advantage is that the attacker must release established c
 
 Defenders must also understand the positional hierarchy at play. Accepting turtle position with active escape attempts is significantly better than passively allowing side control consolidation. If the transition to side control is inevitable, inserting a knee to recover half guard during the transition is far preferable to being flattened into full side control. The defensive mindset should focus on incremental positional improvements rather than dramatic reversals—recovering to half guard from a failed buggy choke defense is a successful defensive outcome.
 
-**Opponent's Starting Position**: [[Buggy Choke]] (Top)
+**Opponent's Starting Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Defenders must also understand the positional hierarchy at play. Accepting turtl
 ### 1. Sit to guard during grip transition by dropping near hip to mat and turning into opponent
 
 - **When to use**: Immediately when you feel the threading arm extracting from under your armpit and before the underhook is established on your far hip
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover to half guard or closed guard where you have established defensive and offensive systems
 - **Risk**: If timed poorly, opponent follows your sit and takes your back instead of completing side control transition
 
 ### 2. Insert knee shield by driving inside knee across opponent's hip line as they walk perpendicular
 
 - **When to use**: When the attacker has begun their hip walk but has not yet fully settled chest-to-chest for side control consolidation
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Establish knee shield half guard which provides strong distance management and prevents heavy side control
 - **Risk**: If knee shield is not deep enough, opponent smashes through it and consolidates side control with additional momentum
 
 ### 3. Granby roll away during the momentary pressure gap when attacker releases choking grips
 
 - **When to use**: When you feel chest pressure lighten momentarily as the attacker converts grips, and their hips have not yet blocked your rolling path
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Create distance and reset to neutral turtle position where you can attempt guard recovery or standing escape
 - **Risk**: If attacker anticipates the roll direction, they can follow into truck position or maintain back exposure for back take
 
 ### 4. Frame against crossface shoulder with both hands to prevent deep crossface establishment
 
 - **When to use**: When attacker has established underhook but is attempting to drive crossface across your face to complete side control
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Prevent side control consolidation by blocking the crossface, maintaining ability to turn and face opponent for guard recovery
 - **Risk**: Extended arms during framing can be attacked with kimura or americana if frames collapse under pressure
 
@@ -228,11 +228,11 @@ Defenders must also understand the positional hierarchy at play. Accepting turtl
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your knee insertion during the grip transition window when the attacker releases choke grips and before they establish underhook on your far hip. Drive your inside knee across their hip line as they begin walking perpendicular, establishing knee shield half guard before they can flatten you into full side control. The key is inserting the knee before the crossface drives your head away from them.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Execute a granby roll or explosive posture recovery during the momentary pressure gap when the attacker converts from choking grips to passing grips. This window typically lasts 1-2 seconds and occurs when their threading arm extracts from under your armpit. Use this moment to create distance through directional movement and re-establish your defensive turtle structure with tight elbows, tucked chin, and active base.
 

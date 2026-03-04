@@ -148,7 +148,7 @@ As the defender against the Roll Through to Reversal, you are the front headlock
 
 Defending the roll through is fundamentally about base awareness and reactive sprawling. You need to develop the sensitivity to feel when your opponent loads their hips underneath them and begins the rolling motion, then respond instantly with hip sprawl, base widening, or positional adjustment. The best defense is proactive: maintaining a front headlock control style that never gives the opponent the forward weight commitment they need to initiate the roll. This means using skeletal structure and body positioning rather than driving forward with muscular effort, keeping your attacking pressure downward rather than forward.
 
-**Opponent's Starting Position**: [[Front Headlock]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Bottom)
 
 </section>
 
@@ -186,28 +186,28 @@ Defending the roll through is fundamentally about base awareness and reactive sp
 ### 1. Sprawl hips back immediately while driving chest weight down to flatten opponent
 
 - **When to use**: As soon as you feel opponent loading their hips underneath them or gripping your choking arm tighter
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Opponent's roll attempt fails completely, they remain in front headlock bottom with energy wasted, and you can re-establish attacking pressure
 - **Risk**: If you sprawl too aggressively, you may create space that allows opponent to execute a technical standup instead
 
 ### 2. Widen base by stepping your posting foot out and dropping your hip to block the roll direction
 
 - **When to use**: When you feel the opponent beginning to rotate and your sprawl alone is insufficient to stop the momentum
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Your posted leg acts as a physical barrier to the roll, stopping their rotation and keeping you in top control position
 - **Risk**: Widening base reduces your submission pressure and may allow opponent to circle away to the unblocked side
 
 ### 3. Follow the roll direction and circle to take the back as opponent rotates through
 
 - **When to use**: When the roll has already initiated and is too far along to stop with sprawl or base adjustment
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You convert their escape attempt into an even worse position for them by establishing back control with hooks
 - **Risk**: If you misjudge the timing, you may end up in a scramble where neither player has established control
 
 ### 4. Tighten guillotine or choke grip and commit to finishing the submission during the roll
 
 - **When to use**: When opponent lifts their chin or loses arm control during the roll attempt, exposing their neck
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: The rolling motion drives their neck deeper into your choke, potentially finishing the submission mid-roll
 - **Risk**: If their chin tuck is solid, the roll may actually break your choke angle and complete the reversal
 
@@ -219,11 +219,11 @@ Defending the roll through is fundamentally about base awareness and reactive sp
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Sprawl hips back immediately upon sensing the roll setup, drive weight downward to flatten opponent, and re-establish attacking front headlock pressure with improved grip position
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 If the roll initiates and cannot be stopped, follow the rotation by circling with the opponent's movement and transition to back control by inserting hooks as they complete the roll, converting their escape attempt into a worse position
 

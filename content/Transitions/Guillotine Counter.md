@@ -17,7 +17,7 @@ description: "Master the Guillotine Counter in BJJ. Systematic defense turning a
 
 The Guillotine Counter is a critical defensive technique that transforms a dangerous submission threat into a dominant top position. When caught in a guillotine choke, whether standing or on the ground, understanding proper defensive mechanics can mean the difference between tapping and establishing control. This counter relies on fundamental principles of posture management, pressure application, and strategic hand positioning to neutralize the choking threat while simultaneously advancing position. The technique is particularly valuable in both gi and no-gi contexts, as guillotine attempts are common across all levels of competition. By mastering this counter, practitioners develop confidence in scramble situations and learn to remain calm under submission pressure. The guillotine counter exemplifies the BJJ principle that every offensive technique has a systematic defense, and that proper technique overcomes strength and panic.
 
-**From Position**: [[Guillotine Control]] (Top)
+**From Position**: [[Positions/Guillotine Control]] (Top)
 **Success Rate**: 78%
 
 </section>
@@ -28,9 +28,9 @@ The Guillotine Counter is a critical defensive technique that transforms a dange
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 75% |
-| Failure | [[Guillotine Control]] | 15% |
-| Counter | [[Guillotine Control]] | 10% |
+| Success | [[Positions/Side Control]] | 75% |
+| Failure | [[Positions/Guillotine Control]] | 15% |
+| Counter | [[Positions/Guillotine Control]] | 10% |
 
 
 </section>
@@ -192,25 +192,25 @@ The Guillotine Counter is a critical component of front headlock defense and scr
 ## Related Techniques
 
 
-- [[Guillotine Defense]] - Core defensive technique - systematic approach to defending all guillotine variations
+- [[Transitions/Guillotine Defense]] - Core defensive technique - systematic approach to defending all guillotine variations
 
-- [[Guillotine Choke]] - Offensive technique being countered - understanding the attack improves defense
+- [[Transitions/Guillotine Choke]] - Offensive technique being countered - understanding the attack improves defense
 
-- [[Front Headlock to Guillotine]] - Common entry to guillotine that this counter must defend against
+- [[Transitions/Front Headlock to Guillotine]] - Common entry to guillotine that this counter must defend against
 
-- [[Side Control]] - Ending position after successful guillotine counter execution
+- [[Positions/Side Control]] - Ending position after successful guillotine counter execution
 
-- [[Guard Recovery]] - Alternative defensive goal if full counter to side control is not achieved
+- [[Principles/Guard Recovery]] - Alternative defensive goal if full counter to side control is not achieved
 
-- [[High Elbow Guillotine]] - Submission variation that requires modified counter approach with increased shoulder pressure
+- [[Submissions/High Elbow Guillotine]] - Submission variation that requires modified counter approach with increased shoulder pressure
 
-- [[Arm in Guillotine]] - Submission variation requiring specific defensive adjustments during counter execution
+- [[Submissions/Arm in Guillotine]] - Submission variation requiring specific defensive adjustments during counter execution
 
-- [[Front Headlock]] - Starting control position from which many guillotines are initiated
+- [[Positions/Front Headlock]] - Starting control position from which many guillotines are initiated
 
-- [[Von Flue Choke]] - Counter-submission available when opponent maintains guillotine grip during pass to side control
+- [[Submissions/Von Flue Choke]] - Counter-submission available when opponent maintains guillotine grip during pass to side control
 
-- [[Posture Recovery]] - Fundamental defensive skill required for effective guillotine counter initiation
+- [[Transitions/Posture Recovery]] - Fundamental defensive skill required for effective guillotine counter initiation
 
 
 </section>

@@ -158,7 +158,7 @@ The sweep relies on a directional hip bridge combined with the steering force of
 
 Defensive timing is paramount. The sweep has a specific loading phase where the attacker shifts their hips and plants their feet, followed by an explosive execution phase. Your best defensive window is during the loading phase, before the bridge generates momentum. Once the bridge fires with full force and proper angle, recovery becomes extremely difficult. Developing sensitivity to the attacker's preparatory movements through their hip shifts and foot adjustments gives you the early warning needed to preempt the sweep before it reaches full power.
 
-**Opponent's Starting Position**: [[Hindulotine]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -197,28 +197,28 @@ Defensive timing is paramount. The sweep has a specific loading phase where the 
 ### 1. Post your far-side hand wide on the mat and drive your weight backward, creating a wide tripod base that resists the directional bridge
 
 - **When to use**: When you feel the attacker loading the sweep angle by shifting their hips laterally and pulling your weight toward their choking arm side
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: The sweep stalls because your wide post prevents the off-balance from tipping you past the balance point, resetting to neutral Hindulotine bottom where you can work on grip removal
 - **Risk**: Your extended posting arm compromises your ability to fight the guillotine grip, potentially opening a direct choke finish or creating the angle needed for a Darce transition
 
 ### 2. Sprawl your hips back explosively while swimming your head free, combining distance creation with grip breaking in a single movement
 
 - **When to use**: When the attacker begins the loading phase but before the explosive bridge fires, ideally during their hip angle adjustment
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: You create enough distance to extract your head from the guillotine entirely, neutralizing both the choke and sweep threat and recovering to a neutral position or top control
 - **Risk**: If the sprawl is partial and you fail to extract your head, you lose your base momentarily and the attacker can re-angle and fire the sweep during your recovery
 
 ### 3. Circle toward the attacker's sweep direction to neutralize the off-balance angle, realigning your base relative to their hip position
 
 - **When to use**: When you detect the attacker establishing their hip angle but still have freedom to move laterally before they plant their feet for the bridge
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: Circling removes the angular advantage the attacker needs, forcing them to re-establish hip angle before attempting the sweep again, buying time for grip fighting
 - **Risk**: Excessive circling can expose your back if the attacker follows your rotation and transitions to a back take instead of insisting on the sweep
 
 ### 4. Drive your weight low and flatten your body against the attacker, removing the bridging space underneath while compressing into their guard
 
 - **When to use**: When you are confident in your guillotine defense and want to eliminate the sweep by removing the space needed for the bridge mechanic
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: The attacker cannot generate bridge height or direction because your weight pins their hips flat, stalling the sweep and forcing them to switch to alternative attacks
 - **Risk**: Flattening your body compresses you into the guillotine grip, increasing choking pressure and potentially accelerating the submission finish if your chin tuck and hand fighting are insufficient
 
@@ -230,11 +230,11 @@ Defensive timing is paramount. The sweep has a specific loading phase where the 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Hindulotine]]
+### → [[Positions/Hindulotine]]
 
 Stall the sweep by maintaining a wide base and active posting hand, then systematically work on extracting your head from the guillotine through chin tuck, hand fighting on the choking wrist, and incremental posture recovery. Each failed sweep attempt by the attacker burns their energy while you work toward full grip removal.
 
-### → [[Hindulotine]]
+### → [[Positions/Hindulotine]]
 
 Time a sprawl during the attacker's loading phase to break the guillotine grip entirely, then immediately drive your weight forward to establish top control or at minimum return to a neutral Hindulotine position where the choke threat is significantly reduced.
 

@@ -184,7 +184,7 @@ The beauty of the single leg entry lies in its versatility and the multiple fini
 
 From a strategic perspective, the single leg entry represents a crucial bridge between standing grappling and ground work. It allows BJJ practitioners to dictate where the fight takes place, avoiding guard pulls that might give up advantageous positions. The entry phase requires precise timing, proper level change mechanics, and understanding of grip fighting principles. When executed correctly, the single leg entry not only secures a takedown but often provides immediate access to dominant positions or submission opportunities, making it one of the most valuable techniques in modern BJJ.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ From a strategic perspective, the single leg entry represents a crucial bridge b
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Front Headlock]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Front Headlock]] | 15% |
 
 
 </section>
@@ -250,11 +250,11 @@ From a strategic perspective, the single leg entry represents a crucial bridge b
 
 ## Opponent Counters
 
-- **Sprawl defense - opponent drops hips back and spreads legs to prevent penetration and leg capture** (Effectiveness: High) - Your Response: Switch to double leg by bringing back leg forward and capturing both legs, or transition to ankle pick by releasing and attacking the far ankle as they sprawl backward → Leads to [[Standing Position]]
-- **Whizzer control - opponent secures overhook on your far arm and drives downward pressure to prevent you from standing** (Effectiveness: Medium) - Your Response: Use the whizzer against them by transitioning to outside position, switching to far side trip or dump, or converting to guard pull if standing finish is prevented → Leads to [[Standing Position]]
-- **Guillotine attack - opponent wraps your neck as you shoot in, threatening front headlock choke** (Effectiveness: Medium) - Your Response: Keep head position tight to hip rather than centerline, complete takedown despite guillotine grip, or hand fight the choking arm while maintaining leg control and adjusting position → Leads to [[Front Headlock]]
-- **Hop away - opponent hops backward on standing leg to create distance and prevent finish** (Effectiveness: Low) - Your Response: Follow their movement by continuing to drive forward, elevate captured leg higher to further compromise balance, or switch to inside trip or outside trip on the standing leg → Leads to [[Standing Position]]
-- **Crossface and underhook - opponent uses upper body frames to control your head and create separation** (Effectiveness: Medium) - Your Response: Circle away from the crossface pressure, maintain tight grip on captured leg, transition to different angle or finish, or accept guard pull to single leg X if takedown becomes too defended → Leads to [[Front Headlock]]
+- **Sprawl defense - opponent drops hips back and spreads legs to prevent penetration and leg capture** (Effectiveness: High) - Your Response: Switch to double leg by bringing back leg forward and capturing both legs, or transition to ankle pick by releasing and attacking the far ankle as they sprawl backward → Leads to [[Positions/Standing Position]]
+- **Whizzer control - opponent secures overhook on your far arm and drives downward pressure to prevent you from standing** (Effectiveness: Medium) - Your Response: Use the whizzer against them by transitioning to outside position, switching to far side trip or dump, or converting to guard pull if standing finish is prevented → Leads to [[Positions/Standing Position]]
+- **Guillotine attack - opponent wraps your neck as you shoot in, threatening front headlock choke** (Effectiveness: Medium) - Your Response: Keep head position tight to hip rather than centerline, complete takedown despite guillotine grip, or hand fight the choking arm while maintaining leg control and adjusting position → Leads to [[Positions/Front Headlock]]
+- **Hop away - opponent hops backward on standing leg to create distance and prevent finish** (Effectiveness: Low) - Your Response: Follow their movement by continuing to drive forward, elevate captured leg higher to further compromise balance, or switch to inside trip or outside trip on the standing leg → Leads to [[Positions/Standing Position]]
+- **Crossface and underhook - opponent uses upper body frames to control your head and create separation** (Effectiveness: Medium) - Your Response: Circle away from the crossface pressure, maintain tight grip on captured leg, transition to different angle or finish, or accept guard pull to single leg X if takedown becomes too defended → Leads to [[Positions/Front Headlock]]
 
 
 </section>

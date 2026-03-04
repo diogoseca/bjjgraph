@@ -156,7 +156,7 @@ description: "Complete defensive guide against the Standing Rear Naked Choke. Re
 
 Defending the Standing RNC demands immediate recognition of the threat and disciplined hand fighting to prevent the choking arm from sliding under the chin. The defender must prioritize chin protection while actively working to strip grips, create separation, or turn into the attacker. Every second of delay allows the attacker to deepen their grip and tighten the choke, making early intervention the single most important defensive principle. Unlike defending from ground back control where the defender can use the mat for leverage and framing, standing defense requires the defender to manage balance, grip fighting, and escape movement simultaneously without any surface to brace against. The defender must make a critical decision between stripping the choke attempt and resetting to a neutral standing exchange, or turning into the attacker to establish a clinch position that eliminates the back exposure entirely.
 
-**Opponent's Starting Position**: [[Standing Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 
 </section>
@@ -194,28 +194,28 @@ Defending the Standing RNC demands immediate recognition of the threat and disci
 ### 1. Two-on-one grip strip on the choking arm while tucking chin
 
 - **When to use**: Immediately upon recognizing the choking arm advancing from seatbelt position toward the neck, before the forearm clears the chin
-- **Targets**: [[Standing Back Control]]
+- **Targets**: [[Positions/Back Control/Standing Back Control]]
 - **If successful**: Resets the choke attempt and forces the attacker to re-establish their seatbelt before trying again, buying time for further escape
 - **Risk**: Low risk; grip stripping is the fundamental first-line defense with minimal exposure to counter-attacks
 
 ### 2. Aggressive turn toward choking arm side to face attacker
 
 - **When to use**: When grip stripping alone is insufficient and the attacker continues advancing despite your hand fighting
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Eliminates back exposure entirely and establishes a neutral clinch position where the RNC is no longer a threat
 - **Risk**: Medium risk; turning exposes you briefly to the choke if the attacker follows your rotation faster than you can complete the turn
 
 ### 3. Drop weight and sit to guard to change the engagement dynamic
 
 - **When to use**: When standing defensive options are failing and the attacker is close to seating the choke under your chin
-- **Targets**: [[Standing Back Control]]
+- **Targets**: [[Positions/Back Control/Standing Back Control]]
 - **If successful**: Transitions to ground back control where you have additional defensive tools including mat leverage, guard recovery, and hook clearing
 - **Risk**: Medium risk; dropping weight may allow the attacker to follow and finish the choke during the transition if timing is poor
 
 ### 4. Peel and strip the figure-four lock before the squeeze is applied
 
 - **When to use**: When the choking arm has already cleared the chin but the figure-four lock is not yet fully secured behind the head
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Breaks the mechanical closure of the choke and creates opportunity to strip the arm entirely and escape to neutral standing
 - **Risk**: High risk; this is a last-resort defense when the choke is nearly locked, and failure means the fully secured choke will finish quickly
 
@@ -238,11 +238,11 @@ Defending the Standing RNC demands immediate recognition of the threat and disci
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Successfully strip the choking arm through two-on-one grip fighting and create enough separation to fully disengage from back control, resetting to neutral standing
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Turn aggressively toward the attacker's choking arm side while fighting their grip, completing the rotation to face them and establishing a front-facing clinch that eliminates back exposure
 

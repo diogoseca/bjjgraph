@@ -206,25 +206,25 @@ Modified Mount from the top perspective represents a strategic decision to trade
 
 ## Available Attacks
 
-### [[Mount to Armbar]] (19% of attempts)
+### [[Transitions/Mount to Armbar]] (19% of attempts)
 
-### [[S-Mount Transition]] (11% of attempts)
+### [[Transitions/S-Mount Transition]] (11% of attempts)
 
-### [[Mounted Triangle]] (9% of attempts)
+### [[Positions/Mount/Mounted Triangle]] (9% of attempts)
 
-### [[High Mount Transition]] (12% of attempts)
+### [[Transitions/High Mount Transition]] (12% of attempts)
 
-### [[Americana]] (9% of attempts)
+### [[Transitions/Americana]] (9% of attempts)
 
-### [[Cross Collar Choke]] (9% of attempts)
+### [[Transitions/Cross Collar Choke]] (9% of attempts)
 
-### [[Kimura]] (7% of attempts)
+### [[Transitions/Kimura]] (7% of attempts)
 
-### [[Gift Wrap Transition]] (11% of attempts)
+### [[Transitions/Gift Wrap Transition]] (11% of attempts)
 
-### [[Back Take from Top]] (9% of attempts)
+### [[Transitions/Back Take from Top]] (9% of attempts)
 
-### [[Americana from Modified Mount]] (4% of attempts)
+### [[Transitions/Americana from Modified Mount]] (4% of attempts)
 
 
 
@@ -235,28 +235,28 @@ Modified Mount from the top perspective represents a strategic decision to trade
 ## Decision Making from This Position
 
 **If opponent extends near-side arm to frame or defend:**
-- Execute **[[Mount to Armbar]]** → [[Armbar Control]] (Probability: 75%)
-- Execute **[[S-Mount Transition]]** → [[S Mount]] (Probability: 65%)
+- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 75%)
+- Execute **[[Transitions/S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 65%)
 
 
 **If opponent attempts hip escape toward posted leg:**
-- Execute **[[Base Posting Against Hip Escape]]** → [[Modified Mount]] (Probability: 70%)
-- Execute **[[High Mount Transition]]** → [[High Mount]] (Probability: 60%)
+- Execute **[[Base Posting Against Hip Escape]]** → [[Positions/Mount/Modified Mount]] (Probability: 70%)
+- Execute **[[Transitions/High Mount Transition]]** → [[Positions/Mount/High Mount]] (Probability: 60%)
 
 
 **If opponent keeps arms tight and defends neck:**
-- Execute **[[Cross Collar Choke]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Americana]]** → [[Americana Control]] (Probability: 50%)
+- Execute **[[Transitions/Cross Collar Choke]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Transitions/Americana]]** → [[Americana Control]] (Probability: 50%)
 
 
 **If opponent turns to side or turtles:**
-- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Gift Wrap Transition]]** → [[Technical Mount]] (Probability: 65%)
+- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Gift Wrap Transition]]** → [[Positions/Mount/Technical Mount]] (Probability: 65%)
 
 
 **If opponent creates strong defensive frames:**
-- Execute **[[Mounted Triangle]]** → [[Mounted Triangle]] (Probability: 60%)
-- Execute **[[Gift Wrap]]** → [[Gift Wrap]] (Probability: 50%)
+- Execute **[[Positions/Mount/Mounted Triangle]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 60%)
+- Execute **[[Positions/Gift Wrap]]** → [[Positions/Gift Wrap]] (Probability: 50%)
 
 
 
@@ -390,13 +390,13 @@ Partner gives specific defensive responses (arm frames, hip escapes, turtling). 
 
 ## Related Positions and Techniques
 
-- **[[Mount to Armbar]]** - Primary submission transition accessible from Modified Mount structure
-- **[[S Mount]]** - Natural progression from Modified Mount when advancing toward armbar
-- **[[Technical Mount]]** - Alternative advancement when opponent turns to escape
-- **[[High Mount]]** - Advancement target when opponent creates frames
-- **[[Mounted Triangle]]** - Alternative submission when arm isolation is difficult
-- **[[Gift Wrap]]** - Control position accessible when opponent defends armbars
-- **[[Mount]]** - Parent position and control principles underlying Modified Mount effectiveness
+- **[[Transitions/Mount to Armbar]]** - Primary submission transition accessible from Modified Mount structure
+- **[[Positions/Mount/S Mount]]** - Natural progression from Modified Mount when advancing toward armbar
+- **[[Positions/Mount/Technical Mount]]** - Alternative advancement when opponent turns to escape
+- **[[Positions/Mount/High Mount]]** - Advancement target when opponent creates frames
+- **[[Positions/Mount/Mounted Triangle]]** - Alternative submission when arm isolation is difficult
+- **[[Positions/Gift Wrap]]** - Control position accessible when opponent defends armbars
+- **[[Positions/Mount]]** - Parent position and control principles underlying Modified Mount effectiveness
 
 
 </section>

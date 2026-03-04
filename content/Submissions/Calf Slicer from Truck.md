@@ -22,8 +22,8 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 **Category**: Compression
 **Type**: Leg Compression Lock
 **Target Area**: Calf muscle and knee joint
-**Starting Position**: [[Truck]]
-**From Position**: [[Truck]] (Top)
+**Starting Position**: [[Positions/Twister Control/Truck]]
+**From Position**: [[Positions/Twister Control/Truck]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -80,8 +80,8 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Truck]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Twister Control/Truck]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -230,14 +230,14 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 
 ## From Which Positions?
 
-- [[Truck]]
-- [[Twister Control]]
-- [[Twister Side Control]]
-- [[Crab Ride]]
-- [[Back Control]]
-- [[Lockdown]]
-- [[Deep Half Guard]]
-- [[Turtle]]
+- [[Positions/Twister Control/Truck]]
+- [[Positions/Twister Control]]
+- [[Positions/Twister Control/Twister Side Control]]
+- [[Positions/Crab Ride]]
+- [[Positions/Back Control]]
+- [[Positions/Half Guard/Lockdown]]
+- [[Positions/Half Guard/Deep Half Guard]]
+- [[Positions/Turtle]]
 
 
 </section>
@@ -246,17 +246,17 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 
 ## Related Submissions
 
-- [[Calf Slicer]]
-- [[Calf Slicer from 50-50]]
-- [[Twister]]
-- [[Banana Split]]
-- [[Kneebar]]
-- [[Bicep Slicer]]
-- [[Electric Chair Submission]]
-- [[Achilles Lock]]
-- [[Toe Hold]]
-- [[Boston Crab]]
-- [[Heel Hook]]
+- [[Transitions/Calf Slicer]]
+- [[Submissions/Calf Slicer from 50-50]]
+- [[Submissions/Twister]]
+- [[Submissions/Banana Split]]
+- [[Transitions/Kneebar]]
+- [[Submissions/Bicep Slicer]]
+- [[Submissions/Electric Chair Submission]]
+- [[Submissions/Achilles Lock]]
+- [[Transitions/Toe Hold]]
+- [[Submissions/Boston Crab]]
+- [[Transitions/Heel Hook]]
 
 
 </section>
@@ -265,16 +265,16 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 
 ## Additional Related Content
 
-- [[Truck]] - Primary starting position - truck control must be mastered before attempting this submission
-- [[Twister Control]] - Primary transition when opponent defends by straightening leg - rotate to upper body attack
-- [[Lockdown]] - Alternative entry - can transition from electric chair position in lockdown system
-- [[Crab Ride]] - Related control position - similar back exposure with different leg configuration
-- [[Banana Split]] - Alternative finish from truck - when calf slicer is defended, switch to hip-splitting attack
-- [[Deep Half Guard]] - Entry position - can roll into truck from deep half sweeps gone wrong
-- [[Leg Entanglement]] - Conceptual principle - understanding leg control mechanics applicable to truck position
-- [[Back Control]] - Alternative position - can transition to back control when calf slicer fails
-- [[Twister Side Control]] - Related position in the 10th Planet twister system with similar mechanics
-- [[Electric Chair]] - Entry pathway - electric chair position can transition to truck for calf slicer
+- [[Positions/Twister Control/Truck]] - Primary starting position - truck control must be mastered before attempting this submission
+- [[Positions/Twister Control]] - Primary transition when opponent defends by straightening leg - rotate to upper body attack
+- [[Positions/Half Guard/Lockdown]] - Alternative entry - can transition from electric chair position in lockdown system
+- [[Positions/Crab Ride]] - Related control position - similar back exposure with different leg configuration
+- [[Submissions/Banana Split]] - Alternative finish from truck - when calf slicer is defended, switch to hip-splitting attack
+- [[Positions/Half Guard/Deep Half Guard]] - Entry position - can roll into truck from deep half sweeps gone wrong
+- [[Positions/Leg Entanglement]] - Conceptual principle - understanding leg control mechanics applicable to truck position
+- [[Positions/Back Control]] - Alternative position - can transition to back control when calf slicer fails
+- [[Positions/Twister Control/Twister Side Control]] - Related position in the 10th Planet twister system with similar mechanics
+- [[Positions/Half Guard/Electric Chair]] - Entry pathway - electric chair position can transition to truck for calf slicer
 
 
 </section>

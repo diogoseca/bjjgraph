@@ -156,7 +156,7 @@ Defending the Finish Buggy Choke requires understanding that once your opponent 
 
 The defender's primary strategic goal is to prevent the finish from reaching full pressure by disrupting one or more mechanical requirements: grip depth, perpendicular angle, or body weight transfer. Stripping the primary threading grip is the highest-percentage defense but requires significant hand fighting skill against a deep palm-up grip. Alternatively, creating rotational movement to face the attacker eliminates the perpendicular choking geometry, while sitting to guard trades positional disadvantage for immediate choke relief. Each defensive pathway carries specific risks and requires precise timing to execute before pressure becomes overwhelming.
 
-**Opponent's Starting Position**: [[Buggy Choke]] (Top)
+**Opponent's Starting Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The defender's primary strategic goal is to prevent the finish from reaching ful
 ### 1. Two-on-one grip strip on the primary choking hand by grabbing opponent's wrist with both hands and peeling it away from your collar while driving posture upward
 
 - **When to use**: Early in the finish attempt before full body weight is committed and while you still have hand mobility to reach the choking wrist
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: Removes the primary choking mechanism and resets the position to buggy choke control without finishing pressure, giving you another defensive cycle
 - **Risk**: If grip strip fails, you have committed both hands to fighting grips and cannot frame or create movement, accelerating the finish
 
 ### 2. Sit to guard by driving your near hip to the mat and rotating to face opponent while accepting their weight transfer, pulling them into your half guard
 
 - **When to use**: When perpendicular pressure is established but grip is not yet at maximum depth, and you cannot win the grip fighting battle from turtle
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Eliminates the perpendicular choking angle and transitions to half guard where choke mechanics are significantly weaker and you have frame-based defenses
 - **Risk**: Opponent may follow the sit and convert to back control if you expose your back during the transition without securing guard position
 
 ### 3. Turn into the attacker by rotating your body toward the choking arm side, creating face-to-face position that eliminates the perpendicular choking geometry
 
 - **When to use**: When opponent's hips are not fully pinning your near hip and you have enough rotational freedom to turn before pressure peaks
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Facing the opponent nullifies buggy choke angle completely and may create scramble opportunities or allow guard recovery to closed guard or half guard
 - **Risk**: Turning motion can temporarily tighten the choke during rotation if timing is poor, and may expose your back if turn is incomplete
 
 ### 4. Explosive posture recovery by driving head and shoulders upward while posting hands wide, creating distance from collar and disrupting opponent's body weight distribution
 
 - **When to use**: Immediately upon recognizing the finishing commitment before body weight fully transfers and pins your posture down
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: Creates enough space to begin grip stripping or transition to a more defensible turtle posture where the finish cannot be applied
 - **Risk**: Posting hands wide may expose extended arms to crucifix attacks, and explosive movement burns significant energy
 
@@ -227,11 +227,11 @@ The defender's primary strategic goal is to prevent the finish from reaching ful
 
 ## Best-Case Outcomes for Defender
 
-### → [[Buggy Choke]]
+### → [[Positions/Buggy Choke]]
 
 Strip the primary choking grip using two-on-one hand fighting on the attacker's wrist, peeling it away from your collar. Simultaneously drive posture upward to create space. This resets to the control position without finishing pressure, giving you another defensive window to escape turtle entirely.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Sit to guard by driving your near hip to the mat and rotating to face the attacker. Accept the positional concession of half guard in exchange for eliminating the perpendicular choking angle. Secure half guard hooks on the attacker's leg during the transition to prevent them converting to back control or side control.
 

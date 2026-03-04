@@ -156,7 +156,7 @@ Defending the body lock pass from bottom half guard requires early recognition a
 
 The defensive framework prioritizes three objectives in order: prevent the body lock from being established, prevent being flattened if the lock is secured, and recover guard through hip movement if flattened. Each defensive phase has distinct techniques and timing windows. Understanding what the passer needs at each stage allows you to deny those specific requirements and force them to abandon the pass or chain to a different technique where your defenses may be stronger.
 
-**Opponent's Starting Position**: [[Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ The defensive framework prioritizes three objectives in order: prevent the body 
 ### 1. Establish and maintain knee shield before body lock is secured
 
 - **When to use**: As soon as you recognize the opponent is seeking chest-to-chest contact rather than fighting for crossface or underhook
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent cannot establish tight body lock due to your shin between your bodies, forcing them to address the knee shield first and giving you time to set up sweeps
 - **Risk**: If opponent smashes through the knee shield with heavy pressure, you may end up flat without the body lock defense in place
 
 ### 2. Fight the grip clasp by controlling one of the passer's wrists before they can connect hands behind your back
 
 - **When to use**: During the initial body lock establishment when the passer is threading their arms around your torso
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Without the clasped grip, the passer cannot generate the tight connection needed for the pass, and you can work to re-establish frames and recover your guard structure
 - **Risk**: Extending your arm to fight grips exposes it to potential kimura or americana attacks if you overcommit
 
 ### 3. Turn into the passer aggressively and fight for the underhook to prevent being flattened
 
 - **When to use**: When the body lock is secured but before the passer has fully flattened you - you still have hip angle and can turn
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Maintaining side angle with an underhook prevents flattening and opens pathways to underhook sweeps, back takes, or guard recovery
 - **Risk**: The passer may use your turning momentum to take your back if you turn too far without securing the underhook
 
 ### 4. Apply lockdown on the trapped leg to prevent hip walking and leg clearing
 
 - **When to use**: When you have been flattened and the passer begins the hip-walking phase to clear their trapped leg
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Lockdown stalls the pass by preventing the passer from clearing their leg, buying time to work back to your side and re-establish frames
 - **Risk**: A patient passer will flatten you further and methodically break the lockdown through far knee control, and the lockdown alone does not improve your position
 
@@ -226,11 +226,11 @@ The defensive framework prioritizes three objectives in order: prevent the body 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Prevent the body lock from being established through proactive knee shield and frame management, then use the passer's forward commitment to initiate sweeps such as underhook sweep, old school sweep, or butterfly hook elevation
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If flattened, use hip escape sequences and frame creation to recover to your side with knee shield re-inserted, returning to a neutral half guard position where you retain offensive options
 

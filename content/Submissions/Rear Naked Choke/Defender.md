@@ -158,7 +158,7 @@ Defending the Rear Naked Choke is one of the most critical survival skills in Br
 
 The critical defensive window occurs before the choking arm reaches full depth past the chin centerline. Once the attacker's elbow passes the midline with proper forearm blade positioning and the back hand secures the bicep grip, escape probability drops dramatically. This means early recognition and immediate hand fighting on the choking arm are paramount. The defender must develop tactile sensitivity to distinguish between general hand fighting and the specific insertion motion that signals choke commitment. Every second of delay in recognizing the attack narrows the defensive window. Advanced defenders develop the ability to chain multiple defensive responses together, using the attacker's adjustments as windows for positional escape rather than treating neck defense and position escape as separate problems.
 
-**Opponent's Starting Position**: [[Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 
 </section>
@@ -198,28 +198,28 @@ The critical defensive window occurs before the choking arm reaches full depth p
 ### 1. Two-on-one grip defense on the choking arm - grab the choking wrist and forearm with both hands to prevent arm insertion past the chin
 
 - **When to use**: Immediately upon recognizing the choking arm beginning to move toward your neck. Most effective when the arm has not yet passed the chin centerline.
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Prevents choke from being locked, forces attacker to reset and hand fight again, buying time for escape
 - **Risk**: Both hands committed to arm defense leaves you unable to address hooks or begin escape sequence simultaneously
 
 ### 2. Chin tuck with shoulder raise - drive chin to chest while raising the shoulder on the choking arm side to close the gap
 
 - **When to use**: As a continuous passive defense layered with active hand fighting. Maintain throughout the entire back control exchange.
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Creates structural barrier preventing forearm insertion, forces attacker to work around your chin and shoulder creating time
 - **Risk**: Chin tuck alone is not a complete defense - attacker can work around it with patience and angling. Must be combined with hand fighting.
 
 ### 3. Peel and strip the choking arm by pushing the elbow across your face toward the opposite side while bridging hips
 
 - **When to use**: When the choking arm has passed the chin but has not yet secured the bicep grip with the back hand. This is the last viable window for arm removal.
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Removes the choking arm from the neck entirely, resetting the attacker's progress and creating an opening to begin escape sequence
 - **Risk**: Requires significant energy expenditure and if it fails, you may have exhausted yourself with the choke still in place
 
 ### 4. Turn toward the choking arm side and begin hip escape to face the attacker
 
 - **When to use**: After successfully defending the initial choke attempt and when you have created enough space through grip fighting to begin rotation without the choke re-engaging
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Transitions from back control to half guard or closed guard, dramatically improving your position and eliminating the choke threat
 - **Risk**: Turning while the choke is partially set can accelerate the finish. Only attempt when you have successfully neutralized the immediate choking threat.
 
@@ -243,7 +243,7 @@ The critical defensive window occurs before the choking arm reaches full depth p
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Successfully defend the choke through two-on-one grip stripping and chin tuck, then systematically remove hooks through hip escape sequence and turn to face the attacker. Even returning to back control without the choke locked is a defensive victory that resets the attacker's progress.
 

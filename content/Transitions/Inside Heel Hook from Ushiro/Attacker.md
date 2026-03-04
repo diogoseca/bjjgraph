@@ -178,7 +178,7 @@ Unlike standard inside ashi-garami heel hooks, the ushiro configuration presents
 
 Strategically, this submission capitalizes on opponents who have partially escaped standard leg entanglements through inversion but remain trapped in the reversed configuration. The window for finishing is often narrow—advanced defenders will continue their rotation toward turtle or counter-attack with their own leg entanglement if given time. Understanding the biomechanical differences between ushiro and standard ashi-garami heel hooks is essential for consistent finishing success.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
 
@@ -230,8 +230,8 @@ Strategically, this submission capitalizes on opponents who have partially escap
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Ushiro Ashi-Garami]] | 30% |
-| Counter | [[50-50 Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, this submission capitalizes on opponents who have partially escap
 
 ## Opponent Counters
 
-- **Opponent continues rotation toward turtle to escape entanglement completely** (Effectiveness: High) - Your Response: Accelerate the finish before they complete rotation, or follow to back control if they escape the entanglement → Leads to [[Ushiro Ashi-Garami]]
-- **Opponent boots out by straightening their leg to prevent heel exposure** (Effectiveness: Medium) - Your Response: Transition to ankle lock or kneebar on the straightened leg, or work to re-bend the knee by driving your hips forward → Leads to [[Ushiro Ashi-Garami]]
-- **Opponent enters counter-entanglement on your legs during your grip establishment** (Effectiveness: High) - Your Response: Immediately address their leg control or accept the leg lock exchange if your position is more advanced → Leads to [[50-50 Guard]]
-- **Opponent hand fights aggressively to strip your heel grip** (Effectiveness: Medium) - Your Response: Use your top hand to control their wrist while maintaining heel grip with bottom hand, or transition to saddle for better control → Leads to [[Ushiro Ashi-Garami]]
+- **Opponent continues rotation toward turtle to escape entanglement completely** (Effectiveness: High) - Your Response: Accelerate the finish before they complete rotation, or follow to back control if they escape the entanglement → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Opponent boots out by straightening their leg to prevent heel exposure** (Effectiveness: Medium) - Your Response: Transition to ankle lock or kneebar on the straightened leg, or work to re-bend the knee by driving your hips forward → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Opponent enters counter-entanglement on your legs during your grip establishment** (Effectiveness: High) - Your Response: Immediately address their leg control or accept the leg lock exchange if your position is more advanced → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent hand fights aggressively to strip your heel grip** (Effectiveness: Medium) - Your Response: Use your top hand to control their wrist while maintaining heel grip with bottom hand, or transition to saddle for better control → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 
 </section>

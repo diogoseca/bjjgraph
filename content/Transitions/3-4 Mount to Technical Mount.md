@@ -21,7 +21,7 @@ The mechanical sequence involves reading the opponent's shoulder rotation or arm
 
 Strategically, this transition converts a positional control advantage into an immediate submission threat platform. Practitioners who master this read-and-react pattern maintain continuous offensive pressure from mount, preventing the bottom player from settling into predictable escape sequences. The transition feeds directly into armbar finishes, triangle setups, and back takes from Technical Mount, creating cascading offensive dilemmas that overwhelm even technically proficient defenders. Competition footage consistently shows that mount players who chain 3-4 Mount into Technical Mount achieve significantly higher finishing rates than those who remain in static mount configurations.
 
-**From Position**: [[3-4 Mount]] (Top)
+**From Position**: [[Positions/Mount/3-4 Mount]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition converts a positional control advantage into an i
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Technical Mount]] | 55% |
-| Failure | [[3-4 Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/Technical Mount]] | 55% |
+| Failure | [[Positions/Mount/3-4 Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The 3-4 Mount to Technical Mount transition sits at the heart of the mount offen
 ## Related Techniques
 
 
-- [[3-4 Mount]] - Starting position for this transition providing the asymmetric mount base
+- [[Positions/Mount/3-4 Mount]] - Starting position for this transition providing the asymmetric mount base
 
-- [[Technical Mount]] - Target position establishing the stepped-leg configuration for submission attacks
+- [[Positions/Mount/Technical Mount]] - Target position establishing the stepped-leg configuration for submission attacks
 
-- [[3-4 Mount to S Mount]] - Sister transition from the same starting position offering alternative mount advancement
+- [[Transitions/3-4 Mount to S Mount]] - Sister transition from the same starting position offering alternative mount advancement
 
-- [[Mount to Armbar]] - Primary follow-up technique from Technical Mount once arm isolation is complete
+- [[Transitions/Mount to Armbar]] - Primary follow-up technique from Technical Mount once arm isolation is complete
 
-- [[Back Take]] - Key follow-up transition when opponent turns away to defend armbar from Technical Mount
+- [[Transitions/Back Take]] - Key follow-up transition when opponent turns away to defend armbar from Technical Mount
 
-- [[Armbar from Technical Mount]] - Primary submission available after successful transition to Technical Mount
+- [[Submissions/Armbar from Technical Mount]] - Primary submission available after successful transition to Technical Mount
 
-- [[Americana from Technical Mount]] - Alternative submission when opponent defends armbar by keeping elbow tight
+- [[Submissions/Americana from Technical Mount]] - Alternative submission when opponent defends armbar by keeping elbow tight
 
-- [[Half Guard]] - Counter position reached by defender if transition attempt fails and mount is lost
+- [[Positions/Half Guard]] - Counter position reached by defender if transition attempt fails and mount is lost
 
-- [[S Mount]] - Alternative asymmetric mount progression sharing similar offensive principles
+- [[Positions/Mount/S Mount]] - Alternative asymmetric mount progression sharing similar offensive principles
 
-- [[Back Turn from Technical Mount]] - Defender's escape transition from the resulting Technical Mount position
+- [[Transitions/Back Turn from Technical Mount]] - Defender's escape transition from the resulting Technical Mount position
 
 
 </section>

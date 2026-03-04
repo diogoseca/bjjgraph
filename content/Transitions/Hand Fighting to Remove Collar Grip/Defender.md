@@ -158,7 +158,7 @@ The critical insight is that your opponent must commit both hands to your chokin
 
 Your grip retention strategy should combine active resistance to the strip with proactive counter-attacking. Rather than passively holding the collar while they work to remove it, use their pulling energy against them by driving your elbow toward your own hip to tighten the choke, or release and immediately re-grip at a deeper angle when they momentarily relax after a failed strip attempt. The invisible collar becomes most dangerous not as a static hold but as a dynamic threat that adapts to defensive responses.
 
-**Opponent's Starting Position**: [[Invisible Collar]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
 
 </section>
 
@@ -209,14 +209,14 @@ Your grip retention strategy should combine active resistance to the strip with 
 ### 3. Flatten opponent by driving hooks deep and extending your legs while maintaining collar grip with maximum resistance
 
 - **When to use**: When opponent begins bridging to assist their grip break, flatten them to eliminate the bridging platform they need
-- **Targets**: [[Invisible Collar]]
+- **Targets**: [[Positions/Rubber Guard/Invisible Collar]]
 - **If successful**: Opponent loses bridging ability and their grip break attempts become arm-only pulls without hip assistance, significantly reducing their effectiveness
 - **Risk**: Over-extending to flatten them may loosen your own chest-to-back connection, creating space they can use to turn or hip escape
 
 ### 4. Reinforce collar grip by grabbing your own wrist with free hand, creating a locked double-grip structure
 
 - **When to use**: When their two-on-one is progressively winning the grip battle and you need additional grip strength to maintain the collar
-- **Targets**: [[Invisible Collar]]
+- **Targets**: [[Positions/Rubber Guard/Invisible Collar]]
 - **If successful**: Your reinforced grip exceeds their two-on-one pulling force, allowing you to maintain collar position and eventually apply finishing pressure
 - **Risk**: Committing your second hand to grip reinforcement sacrifices seatbelt control, making you vulnerable to explosive hip escapes if they abandon the grip fight
 
@@ -232,7 +232,7 @@ Your grip retention strategy should combine active resistance to the strip with 
 
 Finish the collar choke by tightening grip against their strip attempts, or transition to rear naked choke when both their hands are occupied on your wrist. The opponent's commitment to grip removal creates windows for submission completion.
 
-### → [[Invisible Collar]]
+### → [[Positions/Rubber Guard/Invisible Collar]]
 
 Retain the collar grip by driving elbow to hip and maintaining forward pressure that prevents effective bridging. Re-grip at deeper angles after their failed strip attempts. Keep the position sustainable while waiting for finishing opportunities.
 

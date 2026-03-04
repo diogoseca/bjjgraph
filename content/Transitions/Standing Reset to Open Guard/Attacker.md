@@ -184,7 +184,7 @@ Once standing, the top player uses both hands to systematically strip the lapel 
 
 This transition is tactically important because it represents the top player accepting a temporary positional step backward (giving up pressure and proximity) in exchange for escaping a mechanically disadvantaged entanglement. The trade-off is worthwhile: a neutral open guard top position with full mobility is vastly superior to a compromised Ringworm Guard top position with restricted base and constant sweep threats. The key is executing the stand and extraction quickly enough that the bottom player cannot establish a new guard configuration before you begin your passing sequence.
 
-**From Position**: [[Ringworm Guard]] (Top)
+**From Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
 
@@ -236,10 +236,10 @@ This transition is tactically important because it represents the top player acc
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Success | [[Headquarters Position]] | 15% |
-| Failure | [[Ringworm Guard]] | 20% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Success | [[Positions/Headquarters Position]] | 15% |
+| Failure | [[Positions/Ringworm Guard]] | 20% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ This transition is tactically important because it represents the top player acc
 
 ## Opponent Counters
 
-- **Bottom player follows the stand by inverting or sitting up to re-establish the lapel wrap before extraction is complete** (Effectiveness: High) - Your Response: Accelerate the extraction by stepping backward aggressively while stripping the grip, creating distance that makes the re-wrap mechanically impossible from the bottom player's angle → Leads to [[Ringworm Guard]]
-- **Bottom player transitions to a different guard system (De La Riva, Spider, Collar Sleeve) during the standing sequence before you can establish passing grips** (Effectiveness: Medium) - Your Response: Accept the guard transition as a favorable outcome since any standard open guard is better than Ringworm Guard for the passer, then apply your standard passing game against the new configuration → Leads to [[Open Guard]]
-- **Bottom player attacks a single leg or ankle pick as you stand, exploiting the momentary base instability during the elevation transition** (Effectiveness: Medium) - Your Response: Sprawl your hips back immediately and use the still-attached lapel tension against them by driving your trapped leg into their chest, then resume the standing extraction from the resulting scramble → Leads to [[Ringworm Guard]]
-- **Bottom player pulls you forward during the stand using the lapel wrap combined with a collar grip, collapsing you back into the guard** (Effectiveness: High) - Your Response: Keep hips heavy and posterior throughout the stand, break the collar grip before committing to full elevation, and use a staggered stance to resist the forward pull vector → Leads to [[Ringworm Guard]]
+- **Bottom player follows the stand by inverting or sitting up to re-establish the lapel wrap before extraction is complete** (Effectiveness: High) - Your Response: Accelerate the extraction by stepping backward aggressively while stripping the grip, creating distance that makes the re-wrap mechanically impossible from the bottom player's angle → Leads to [[Positions/Ringworm Guard]]
+- **Bottom player transitions to a different guard system (De La Riva, Spider, Collar Sleeve) during the standing sequence before you can establish passing grips** (Effectiveness: Medium) - Your Response: Accept the guard transition as a favorable outcome since any standard open guard is better than Ringworm Guard for the passer, then apply your standard passing game against the new configuration → Leads to [[Positions/Open Guard]]
+- **Bottom player attacks a single leg or ankle pick as you stand, exploiting the momentary base instability during the elevation transition** (Effectiveness: Medium) - Your Response: Sprawl your hips back immediately and use the still-attached lapel tension against them by driving your trapped leg into their chest, then resume the standing extraction from the resulting scramble → Leads to [[Positions/Ringworm Guard]]
+- **Bottom player pulls you forward during the stand using the lapel wrap combined with a collar grip, collapsing you back into the guard** (Effectiveness: High) - Your Response: Keep hips heavy and posterior throughout the stand, break the collar grip before committing to full elevation, and use a staggered stance to resist the forward pull vector → Leads to [[Positions/Ringworm Guard]]
 
 
 </section>

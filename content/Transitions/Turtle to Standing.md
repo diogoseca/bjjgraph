@@ -21,7 +21,7 @@ The movement relies on explosive hip extension coordinated with a strong posting
 
 Strategically, the ability to threaten this escape forces opponents to commit more aggressively to turtle attacks, which paradoxically opens counter-opportunities for granby rolls, sit-throughs, and guard recovery. Practitioners who develop a reliable turtle-to-standing game create a cascading defensive advantage: opponents rush their attacks, make grip errors, and expose themselves to the bottom player's secondary escape options. In competition, successful completion earns no points but prevents opponent advancement and resets to a neutral engagement where guard pulling or re-shooting become available.
 
-**From Position**: [[Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the ability to threaten this escape forces opponents to commit mo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 60% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Standing Position]] | 60% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -198,29 +198,29 @@ The Turtle to Standing transition occupies a critical node in the BJJ defensive 
 ## Related Techniques
 
 
-- [[Granby Roll to Guard]] - Alternative escape when direct stand-up is blocked by heavy top pressure
+- [[Transitions/Granby Roll to Guard]] - Alternative escape when direct stand-up is blocked by heavy top pressure
 
-- [[Guard Pull]] - Common follow-up action after successfully reaching standing position
+- [[Transitions/Guard Pull]] - Common follow-up action after successfully reaching standing position
 
-- [[Back Control]] - Position opponent secures if stand-up attempt is countered
+- [[Positions/Back Control]] - Position opponent secures if stand-up attempt is countered
 
-- [[Front Headlock]] - Common attacking position opponent transitions to during failed stand attempt
+- [[Positions/Front Headlock]] - Common attacking position opponent transitions to during failed stand attempt
 
-- [[Turtle]] - Starting position for this escape transition
+- [[Positions/Turtle]] - Starting position for this escape transition
 
-- [[Standing Position]] - Target neutral position upon successful completion
+- [[Positions/Standing Position]] - Target neutral position upon successful completion
 
-- [[Guillotine Choke]] - Primary submission threat during the rising phase of this escape
+- [[Transitions/Guillotine Choke]] - Primary submission threat during the rising phase of this escape
 
-- [[Peterson Roll]] - Alternative escape option chained when stand-up is blocked
+- [[Transitions/Peterson Roll]] - Alternative escape option chained when stand-up is blocked
 
-- [[Sprawl]] - Defensive technique needed if opponent re-shoots after successful stand
+- [[Transitions/Sprawl]] - Defensive technique needed if opponent re-shoots after successful stand
 
-- [[Deep Half Entry]] - Alternative escape pathway when opponent blocks upward drive
+- [[Transitions/Deep Half Entry]] - Alternative escape pathway when opponent blocks upward drive
 
-- [[Anaconda Choke]] - Front headlock submission threat when neck is exposed during stand
+- [[Transitions/Anaconda Choke]] - Front headlock submission threat when neck is exposed during stand
 
-- [[Darce Choke]] - Arm-in choke threat if elbow positioning is compromised while rising
+- [[Transitions/Darce Choke]] - Arm-in choke threat if elbow positioning is compromised while rising
 
 
 </section>

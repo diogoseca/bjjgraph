@@ -186,7 +186,7 @@ description: "Execute the New York entry from Rubber Guard with precise overhook
 
 As the attacker executing the New York Entry from Rubber Guard, your objective is to advance from Mission Control to the more offensively potent New York position by establishing a deep overhook on the opponent's trapped arm. This transition requires coordinating the release of your shin-gripping hand with the threading of the overhook while maintaining enough hip engagement and leg pressure to prevent the opponent from escaping during the brief vulnerability window. The entry is fundamentally a grip transition under pressure, and success depends on your ability to maintain posture control through your legs alone while your arms execute the overhook swim. Once established, New York provides dual-point control through the overhook and shin grip that opens the entire upper chain of Rubber Guard attacks.
 
-**From Position**: [[Rubber Guard]] (Bottom)
+**From Position**: [[Positions/Rubber Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the attacker executing the New York Entry from Rubber Guard, your objective i
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[New York]] | 55% |
-| Failure | [[Rubber Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/New York]] | 55% |
+| Failure | [[Positions/Rubber Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the attacker executing the New York Entry from Rubber Guard, your objective i
 
 ## Opponent Counters
 
-- **Opponent initiates posture recovery by walking hands back and sitting upright before overhook is threaded** (Effectiveness: High) - Your Response: Abandon the threading attempt and use your shin grip to pull their posture back down immediately. If they achieve partial posture, switch to threatening a triangle by shooting your leg over their shoulder as the posture creates space between their arm and body. Their posture recovery often creates the very opening needed for triangle entry. → Leads to [[Rubber Guard]]
-- **Opponent retracts trapped arm toward their hip during the threading window, preventing overhook establishment** (Effectiveness: High) - Your Response: If the arm retracts before the overhook catches, redirect to a triangle setup since the retracting arm is now inside your guard frame. Alternatively, use your shin pressure to re-trap the arm by pulling them forward again and reattempting the thread when their arm naturally repositions forward for balance. → Leads to [[Rubber Guard]]
-- **Opponent drives forward with stack pressure to flatten the bottom player during the vulnerable one-handed phase** (Effectiveness: Medium) - Your Response: Accept the forward drive and use it to accelerate the overhook by letting their forward momentum bring their arm deeper into threading range. Simultaneously angle your hips to prevent being stacked flat. Their forward pressure actually assists the overhook depth if you time the swimming motion to coincide with their drive rather than fighting against it. → Leads to [[Open Guard]]
-- **Opponent grip-fights the shin-gripping hand, stripping control and opening the guard during transition** (Effectiveness: Medium) - Your Response: If the shin grip is stripped, immediately close your guard to prevent complete escape and re-establish posture control from closed guard. From there, re-enter Rubber Guard through the standard entry sequence. The opponent's grip fight on your shin hand also exposes their arm for potential arm drag or underhook opportunities. → Leads to [[Open Guard]]
+- **Opponent initiates posture recovery by walking hands back and sitting upright before overhook is threaded** (Effectiveness: High) - Your Response: Abandon the threading attempt and use your shin grip to pull their posture back down immediately. If they achieve partial posture, switch to threatening a triangle by shooting your leg over their shoulder as the posture creates space between their arm and body. Their posture recovery often creates the very opening needed for triangle entry. → Leads to [[Positions/Rubber Guard]]
+- **Opponent retracts trapped arm toward their hip during the threading window, preventing overhook establishment** (Effectiveness: High) - Your Response: If the arm retracts before the overhook catches, redirect to a triangle setup since the retracting arm is now inside your guard frame. Alternatively, use your shin pressure to re-trap the arm by pulling them forward again and reattempting the thread when their arm naturally repositions forward for balance. → Leads to [[Positions/Rubber Guard]]
+- **Opponent drives forward with stack pressure to flatten the bottom player during the vulnerable one-handed phase** (Effectiveness: Medium) - Your Response: Accept the forward drive and use it to accelerate the overhook by letting their forward momentum bring their arm deeper into threading range. Simultaneously angle your hips to prevent being stacked flat. Their forward pressure actually assists the overhook depth if you time the swimming motion to coincide with their drive rather than fighting against it. → Leads to [[Positions/Open Guard]]
+- **Opponent grip-fights the shin-gripping hand, stripping control and opening the guard during transition** (Effectiveness: Medium) - Your Response: If the shin grip is stripped, immediately close your guard to prevent complete escape and re-establish posture control from closed guard. From there, re-enter Rubber Guard through the standard entry sequence. The opponent's grip fight on your shin hand also exposes their arm for potential arm drag or underhook opportunities. → Leads to [[Positions/Open Guard]]
 
 
 </section>

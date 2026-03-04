@@ -21,7 +21,7 @@ The technical foundation rests on a critical insight about weight distribution. 
 
 This reversal holds strategic significance beyond its direct application. The credible threat of reversal forces top players to maintain conservative base positioning in the leg knot, which limits their submission finishing ability and creates a fundamental tactical dilemma. Practitioners who develop proficiency with this technique transform Leg Knot Bottom from a purely defensive survival position into a dynamic counter-attacking platform that demands respect from even the most aggressive leg lock specialists.
 
-**From Position**: [[Leg Knot]] (Bottom)
+**From Position**: [[Positions/Leg Knot]] (Bottom)
 **Success Rate**: 35%
 
 </section>
@@ -32,9 +32,9 @@ This reversal holds strategic significance beyond its direct application. The cr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 35% |
-| Failure | [[Leg Knot]] | 40% |
-| Counter | [[Saddle]] | 25% |
+| Success | [[Positions/Mount]] | 35% |
+| Failure | [[Positions/Leg Knot]] | 40% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 25% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Reversal from Leg Knot serves as a critical deterrent within the leg lock me
 ## Related Techniques
 
 
-- [[Leg Knot]] - Starting position hub page for this reversal technique
+- [[Positions/Leg Knot]] - Starting position hub page for this reversal technique
 
-- [[Mount]] - Target position achieved on successful reversal completion
+- [[Positions/Mount]] - Target position achieved on successful reversal completion
 
-- [[Saddle]] - Position opponent may advance to if reversal attempt is countered
+- [[Positions/Ashi Garami/Saddle]] - Position opponent may advance to if reversal attempt is countered
 
-- [[Backstep from Leg Knot]] - Opponent's alternative technique from same position that reversal can disrupt
+- [[Transitions/Backstep from Leg Knot]] - Opponent's alternative technique from same position that reversal can disrupt
 
-- [[Leg Extraction from Leg Knot]] - Alternative escape option from same starting position without reversal
+- [[Transitions/Leg Extraction from Leg Knot]] - Alternative escape option from same starting position without reversal
 
-- [[Pressure Pass from Leg Knot]] - Opponent's passing technique that reversal timing can exploit
+- [[Transitions/Pressure Pass from Leg Knot]] - Opponent's passing technique that reversal timing can exploit
 
-- [[50-50 Guard]] - Counter-entanglement fallback when reversal attempt stalls
+- [[Positions/Ashi Garami/50-50 Guard]] - Counter-entanglement fallback when reversal attempt stalls
 
-- [[Inside Ashi-Garami]] - Related leg entanglement position sharing reversal mechanics
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement position sharing reversal mechanics
 
-- [[Outside Ashi-Garami]] - Alternative reversal target through counter-entanglement
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative reversal target through counter-entanglement
 
-- [[Reversal from Kneebar Control]] - Similar reversal concept from different leg lock control position
+- [[Transitions/Reversal from Kneebar Control]] - Similar reversal concept from different leg lock control position
 
 
 </section>

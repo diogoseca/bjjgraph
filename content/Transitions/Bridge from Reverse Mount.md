@@ -21,7 +21,7 @@ The technique relies on creating angles before the explosive bridge rather than 
 
 Strategically, this escape sits within the broader reverse mount escape hierarchy alongside elbow escapes, hip escapes, and frame-based techniques. While not the highest-percentage option in isolation, the bridge is often the most accessible escape when the top player has compromised the bottom player's ability to use other methods. The bridge creates enough displacement for the bottom player to turn face-down into turtle, which while still defensive, offers significantly more escape pathways than remaining under reverse mount. The technique also functions as a threat that forces the top player to commit weight and base, potentially opening windows for alternative escapes.
 
-**From Position**: [[Reverse Mount]] (Bottom)
+**From Position**: [[Positions/Reverse Mount]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape sits within the broader reverse mount escape hierarch
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 45% |
-| Failure | [[Reverse Mount]] | 30% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Turtle]] | 45% |
+| Failure | [[Positions/Reverse Mount]] | 30% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -197,23 +197,23 @@ The Bridge from Reverse Mount is a critical connector between the reverse mount 
 ## Related Techniques
 
 
-- [[Reverse Mount]] - Starting position - escape originates from reverse mount bottom where opponent sits on torso facing feet
+- [[Positions/Reverse Mount]] - Starting position - escape originates from reverse mount bottom where opponent sits on torso facing feet
 
-- [[Turtle]] - Primary success outcome - bridge creates space to turn face-down and establish turtle base
+- [[Positions/Turtle]] - Primary success outcome - bridge creates space to turn face-down and establish turtle base
 
-- [[Back Control]] - Counter risk - failed or poorly timed bridge may allow opponent to establish back control with hooks
+- [[Positions/Back Control]] - Counter risk - failed or poorly timed bridge may allow opponent to establish back control with hooks
 
-- [[Bridge and Roll]] - Related technique - shares fundamental bridging mechanics with similar hip extension and turning movement patterns
+- [[Transitions/Bridge and Roll]] - Related technique - shares fundamental bridging mechanics with similar hip extension and turning movement patterns
 
-- [[Armbar from Reverse Mount]] - Submission threat - primary danger motivating urgency of bridge escape from reverse mount bottom
+- [[Transitions/Armbar from Reverse Mount]] - Submission threat - primary danger motivating urgency of bridge escape from reverse mount bottom
 
-- [[Back Take]] - Opponent counter option - primary threat the top player uses during bridge transition to advance position
+- [[Transitions/Back Take]] - Opponent counter option - primary threat the top player uses during bridge transition to advance position
 
-- [[Mount]] - Position family - reverse mount is a variant with different escape dynamics requiring adapted bridging angles
+- [[Positions/Mount]] - Position family - reverse mount is a variant with different escape dynamics requiring adapted bridging angles
 
-- [[Half Guard]] - Alternative escape target - bridge variant may create sufficient space to recover half guard directly
+- [[Positions/Half Guard]] - Alternative escape target - bridge variant may create sufficient space to recover half guard directly
 
-- [[Bridge Escape from S Mount]] - Related technique - similar bridging escape mechanics from a different mount variant with comparable weight challenges
+- [[Transitions/Bridge Escape from S Mount]] - Related technique - similar bridging escape mechanics from a different mount variant with comparable weight challenges
 
 
 </section>

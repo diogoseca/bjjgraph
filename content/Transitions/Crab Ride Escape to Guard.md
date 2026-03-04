@@ -21,7 +21,7 @@ Strategically, this escape occupies a critical junction in the turtle defense de
 
 The technique is particularly valuable against opponents who employ patient crab ride control rather than rushing for the back take. When the top player focuses on maintaining hooks and pressure rather than immediately completing the back take, the bottom player has windows to address each control point individually. Understanding when to initiate each phase - particularly recognizing weight shifts and grip changes from the top player - transforms this from a brute-force escape into a technical, high-percentage guard recovery that can be executed even against larger, stronger opponents.
 
-**From Position**: [[Crab Ride]] (Bottom)
+**From Position**: [[Positions/Crab Ride]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ The technique is particularly valuable against opponents who employ patient crab
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 35% |
-| Success | [[Half Guard]] | 20% |
-| Failure | [[Crab Ride]] | 25% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Closed Guard]] | 35% |
+| Success | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/Crab Ride]] | 25% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -192,25 +192,25 @@ The Crab Ride Escape to Guard sits at the critical intersection between turtle d
 ## Related Techniques
 
 
-- [[Crab Ride]] - Source position - the crab ride position this escape originates from
+- [[Positions/Crab Ride]] - Source position - the crab ride position this escape originates from
 
-- [[Closed Guard]] - Primary successful target position after completing the escape
+- [[Positions/Closed Guard]] - Primary successful target position after completing the escape
 
-- [[Half Guard]] - Secondary target position when full guard closure is not achieved
+- [[Positions/Half Guard]] - Secondary target position when full guard closure is not achieved
 
-- [[Back Control]] - Counter outcome position when opponent capitalizes on escape attempt
+- [[Positions/Back Control]] - Counter outcome position when opponent capitalizes on escape attempt
 
-- [[Turtle]] - Related defensive position family that precedes crab ride establishment
+- [[Positions/Turtle]] - Related defensive position family that precedes crab ride establishment
 
-- [[Butterfly Guard]] - Alternative guard recovery target using butterfly hook variant
+- [[Positions/Butterfly Guard]] - Alternative guard recovery target using butterfly hook variant
 
-- [[Hip Escape to Guard]] - Related escape technique using shrimp mechanics from crab ride
+- [[Transitions/Hip Escape to Guard]] - Related escape technique using shrimp mechanics from crab ride
 
-- [[Granby Roll to Guard]] - Alternative athletic escape using inversion from crab ride
+- [[Transitions/Granby Roll to Guard]] - Alternative athletic escape using inversion from crab ride
 
-- [[Sit Through Escape]] - Related wrestling-based escape from turtle and crab ride positions
+- [[Transitions/Sit Through Escape]] - Related wrestling-based escape from turtle and crab ride positions
 
-- [[Crab Ride to Back]] - Opponent's primary threat that motivates this escape attempt
+- [[Transitions/Crab Ride to Back]] - Opponent's primary threat that motivates this escape attempt
 
 
 </section>

@@ -154,7 +154,7 @@ description: "Master defending the KOB to Side Control transition. Learn to reco
 
 From the defender's perspective, the opponent's transition from Knee on Belly to Side Control represents both a threat and an opportunity. The threat is being pinned under stable side control, which is harder to escape than the more dynamic KOB. The opportunity is the brief vulnerability window during the weight transfer where focused knee pressure has been removed but distributed chest pressure has not yet been established. Recognizing this transition early and acting decisively during the pressure gap is essential. The defender who can reliably exploit the KOB-to-side-control transition window transforms a consolidation attempt into a guard recovery, turning the opponent's positional reset into an escape opportunity.
 
-**Opponent's Starting Position**: [[Knee on Belly]] (Top)
+**Opponent's Starting Position**: [[Positions/Knee on Belly]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ From the defender's perspective, the opponent's transition from Knee on Belly to
 ### 1. Insert knee shield during the knee drop phase
 
 - **When to use**: As the opponent's knee begins lifting off your belly and their weight shifts toward chest-to-chest contact, drive your near knee across their hip line
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover to knee shield half guard with strong defensive frames and distance management, preventing side control consolidation
 - **Risk**: If timed poorly, opponent may drive through the knee shield and establish deep side control with your leg pinned underneath
 
 ### 2. Hip escape and shrimp during weight transfer
 
 - **When to use**: When the opponent's weight transitions from vertical knee pressure to horizontal chest pressure, creating a brief reduction in total pinning force
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Create enough space to insert your leg and recover half guard or open guard before the opponent settles their weight
 - **Risk**: Failed shrimp allows the opponent to follow your hips with their chest pressure and establish even tighter side control
 
 ### 3. Frame against crossface arm to prevent head control
 
 - **When to use**: When the opponent reaches for crossface grip during the transition, before perpendicular chest pressure is fully established
-- **Targets**: [[Knee on Belly]]
+- **Targets**: [[Positions/Knee on Belly]]
 - **If successful**: Prevent the opponent from completing the crossface, forcing them back to KOB where further escape attempts can continue
 - **Risk**: Extended frames against the crossface arm may be captured for kimura or americana if the opponent abandons the transition and attacks
 
 ### 4. Sit-up escape during weight redistribution
 
 - **When to use**: When the opponent commits both hands to grip changes during the transition and momentarily loses direct chest contact with your torso
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Create enough space to recover seated guard, establish clinch, or achieve underhook for guard recovery
 - **Risk**: Opponent may drive immediate crossface to flatten you and accelerate their consolidation to side control
 
@@ -224,7 +224,7 @@ From the defender's perspective, the opponent's transition from Knee on Belly to
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your knee insertion to the exact moment the opponent's knee lifts off your belly. Frame against their hip with your near elbow while shrimping your hips away, then drive your knee across their hip line before their chest weight settles. The key is acting during the pressure gap — too early and their knee blocks you, too late and their chest pins you flat.
 

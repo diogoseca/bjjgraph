@@ -21,7 +21,7 @@ The mechanical advantage of the omoplata comes from using your entire leg struct
 
 Strategically, the omoplata finish demands patience and proper setup. Rushing the submission allows opponents to roll through or posture out. The key is establishing complete control before applying finishing pressure - control their hip to prevent rolling, break their posture to prevent stacking, and create the proper perpendicular angle to maximize shoulder rotation. When all control points are secured, the finish becomes inevitable as there is no muscular defense against the rotational torque applied to the shoulder joint.
 
-**From Position**: [[Omoplata Control]] (Top)
+**From Position**: [[Positions/Omoplata Control]] (Top)
 **Success Rate**: 62%
 
 </section>
@@ -33,8 +33,8 @@ Strategically, the omoplata finish demands patience and proper setup. Rushing th
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Omoplata Control]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Omoplata Control]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -187,25 +187,25 @@ The Omoplata finish is the terminal attack from Omoplata Control, representing t
 ## Related Techniques
 
 
-- [[Omoplata Control]] - Starting position for finish
+- [[Positions/Omoplata Control]] - Starting position for finish
 
-- [[Omoplata from Guard]] - Entry submission to control position
+- [[Submissions/Omoplata from Guard]] - Entry submission to control position
 
-- [[Omoplata Sweep]] - Alternative attack when finish is defended
+- [[Transitions/Omoplata Sweep]] - Alternative attack when finish is defended
 
-- [[Omoplata to Back]] - Transition when opponent rolls forward
+- [[Transitions/Omoplata to Back]] - Transition when opponent rolls forward
 
-- [[Closed Guard to Triangle]] - Chain attack when arm begins escaping
+- [[Transitions/Closed Guard to Triangle]] - Chain attack when arm begins escaping
 
-- [[Armbar from Guard]] - Alternative submission on same trapped arm
+- [[Submissions/Armbar from Guard]] - Alternative submission on same trapped arm
 
-- [[Rolling Omoplata]] - Variant finish following opponent roll
+- [[Submissions/Rolling Omoplata]] - Variant finish following opponent roll
 
-- [[Monoplata]] - Related shoulder lock variation
+- [[Submissions/Monoplata]] - Related shoulder lock variation
 
-- [[Baratoplata]] - Alternative shoulder attack from similar position
+- [[Transitions/Baratoplata]] - Alternative shoulder attack from similar position
 
-- [[Game Over]] - Terminal state after successful submission
+- [[Positions/Game Over]] - Terminal state after successful submission
 
 
 </section>

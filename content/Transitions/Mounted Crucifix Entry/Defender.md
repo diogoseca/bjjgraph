@@ -158,7 +158,7 @@ The critical window for defense exists between the moment your opponent shifts w
 
 Defensive success requires discipline above all else. The natural instinct when defending armbars from S Mount - reaching across your body with your far arm to grip your own wrist or lapel - is precisely the movement that exposes you to the crucifix entry. Understanding this trap allows you to modify your armbar defense by keeping your far arm tight to your body or using it to frame against the opponent's hip rather than reaching across. Prevention through proper defensive posture is always preferable to escaping an established crucifix.
 
-**Opponent's Starting Position**: [[S Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/S Mount]] (Top)
 
 </section>
 
@@ -197,28 +197,28 @@ Defensive success requires discipline above all else. The natural instinct when 
 ### 1. Explosive bridge toward the threading leg during weight shift
 
 - **When to use**: The instant you feel opponent shift weight forward and begin lifting their far leg off your torso
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: Disrupts opponent's balance during their most vulnerable moment, forcing them to abandon the crucifix attempt and re-establish S Mount base
 - **Risk**: If mistimed, the bridge may actually assist the leg threading by creating space underneath your body
 
 ### 2. Retract far arm tight to body and frame against opponent's hip
 
 - **When to use**: Preemptively whenever you recognize S Mount position, before any crucifix attempt begins
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: Removes the target arm from exposure, making the crucifix entry impossible while maintaining defensive structure against armbar
 - **Risk**: Limits your ability to create frames for hip escape and may leave you statically defending without an exit plan
 
 ### 3. Hip escape toward opponent's legs combined with shoulder turn during weight shift
 
 - **When to use**: When opponent commits to the forward weight shift and begins rotating hips for the leg thread
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough distance that opponent cannot complete the leg thread and may recover half guard position
 - **Risk**: If hip escape is insufficient, you end up in the same position but further from your starting point with less energy
 
 ### 4. Hook opponent's threading leg with free hand to physically block the leg-over motion
 
 - **When to use**: When you can see or feel the far leg beginning to lift off your torso for the thread
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: Physically prevents the leg from crossing over your arm, stalling the crucifix entry and potentially opening armbar defense windows
 - **Risk**: Reaching for the leg may extend your arm across your body, creating the exact exposure the crucifix entry requires
 
@@ -230,11 +230,11 @@ Defensive success requires discipline above all else. The natural instinct when 
 
 ## Best-Case Outcomes for Defender
 
-### → [[S Mount]]
+### → [[Positions/Mount/S Mount]]
 
 Time an explosive bridge to the attacker's weight shift moment, disrupting their balance and forcing them to re-establish S Mount base. Or preemptively deny the entry by keeping your far arm glued to your torso and framing against their hip, removing the target entirely.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Execute a strong hip escape toward opponent's legs during their weight shift, creating enough distance to insert your knee and recover half guard. This works best when combined with a shoulder turn that angles your body away from the threading direction, making the crucifix mechanically impossible.
 

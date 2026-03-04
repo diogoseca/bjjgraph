@@ -138,7 +138,7 @@ description: "Learn to prevent guard recovery when passing quarter guard. Unders
 
 As the defender against Recover Full Guard from Quarter Guard, you are the top player working to prevent the bottom player from recovering functional guard and instead capitalizing on their compromised position to complete the pass. Your primary objective is to maintain forward pressure that eliminates the space needed for hip escape and knee reinsertion while simultaneously advancing your own passing position. Understanding the bottom player's recovery mechanics allows you to anticipate their movement patterns and block recovery attempts before they generate meaningful space. The defender's advantage is positional—you have gravity, weight distribution, and superior angle working in your favor, making prevention primarily a matter of maintaining proper pressure rather than executing complex techniques.
 
-**Opponent's Starting Position**: [[Quarter Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Quarter Guard]] (Bottom)
 
 </section>
 
@@ -176,28 +176,28 @@ As the defender against Recover Full Guard from Quarter Guard, you are the top p
 ### 1. Drive crossface and increase forward pressure when feeling frames establish
 
 - **When to use**: When the bottom player begins framing against your chest or shoulder, indicating imminent recovery attempt
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Crossface prevents hip escape, flattens bottom player, and creates opportunity to complete pass to side control within seconds
 - **Risk**: Over-committing forward pressure without maintaining base exposes you to sweep attempts if the bottom player has underhook control
 
 ### 2. Backstep around the recovering knee before it establishes shield position
 
 - **When to use**: When the bottom player successfully creates space and begins inserting their knee but has not yet established full half guard entanglement
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Bypasses the knee shield entirely and allows pass completion to side control through a different angle that the bottom player's recovery cannot address
 - **Risk**: Backstep creates momentary space that skilled bottom players can use for crab ride or back take entries if the backstep is telegraphed
 
 ### 3. Drop weight and sprawl hips back to collapse the space created by hip escape
 
 - **When to use**: When the bottom player executes a hip escape and begins creating space between your bodies that threatens knee insertion
-- **Targets**: [[Quarter Guard]]
+- **Targets**: [[Positions/Quarter Guard]]
 - **If successful**: Eliminates the space created by hip escape, returns to quarter guard pressure, and forces bottom player to restart recovery sequence from more depleted energy
 - **Risk**: Sprawling too far back may disengage your passing pressure entirely, giving the bottom player time to recover guard or switch to alternative escape paths
 
 ### 4. Control inside knee with hand and pin it to the mat while continuing pass
 
 - **When to use**: When you feel the bottom player's inside knee beginning to drive toward your body for guard recovery
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Directly blocks the knee reinsertion that is essential for guard recovery, allowing you to continue passing while their primary recovery tool is neutralized
 - **Risk**: Using your hand to control the knee removes one point of base, potentially creating sweep vulnerability if the bottom player has strong underhook
 
@@ -209,11 +209,11 @@ As the defender against Recover Full Guard from Quarter Guard, you are the top p
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Capitalize on the bottom player's frame and hip escape attempt by driving through their recovery with crossface pressure. When they extend frames and create space, use that momentary opening to drive your knee past their hip line entirely and consolidate side control before their knee can reinsert. The recovery attempt actually creates opportunities for pass completion if you maintain forward pressure through their movement.
 
-### → [[Quarter Guard]]
+### → [[Positions/Quarter Guard]]
 
 Collapse the space created by the bottom player's hip escape by immediately dropping weight and driving your chest back down onto their torso. Control their inside knee with your hand to prevent reinsertion while re-establishing crossface control. This returns to the original quarter guard position but with the bottom player having expended energy on a failed recovery attempt, making subsequent passing easier.
 

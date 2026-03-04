@@ -21,7 +21,7 @@ Success depends on understanding the hierarchical nature of leg entanglements an
 
 The technique emphasizes hip positioning, frame management, and timing to create space for leg removal while maintaining constant defensive awareness of submission threats. Heel protection through proper foot positioning must be maintained throughout the entire escape sequence. This technique is essential for anyone training in modern submission grappling, as leg entanglements have become the primary offensive system in contemporary no-gi competition and training.
 
-**From Position**: [[Ashi Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique emphasizes hip positioning, frame management, and timing to create
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Ashi Garami]] | 30% |
-| Counter | [[Ashi Garami]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Ashi Garami]] | 30% |
+| Counter | [[Positions/Ashi Garami]] | 15% |
 
 
 </section>
@@ -196,27 +196,27 @@ The ashi garami escape is a critical defensive skill within the modern leg lock 
 ## Related Techniques
 
 
-- [[Inside Ashi-Garami]] - Variation - More advanced entanglement requiring modified escape with inside space denial
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Variation - More advanced entanglement requiring modified escape with inside space denial
 
-- [[Outside Ashi-Garami]] - Variation - Different angle requiring adapted clearing sequence and hip positioning
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Variation - Different angle requiring adapted clearing sequence and hip positioning
 
-- [[Saddle]] - Advancement - More dangerous position opponent may transition to during failed escape
+- [[Positions/Ashi Garami/Saddle]] - Advancement - More dangerous position opponent may transition to during failed escape
 
-- [[50-50 Guard]] - Related Position - Symmetrical entanglement with different bilateral escape requirements
+- [[Positions/Ashi Garami/50-50 Guard]] - Related Position - Symmetrical entanglement with different bilateral escape requirements
 
-- [[Heel Hook]] - Primary Threat - Main submission to defend against from ashi garami positions
+- [[Transitions/Heel Hook]] - Primary Threat - Main submission to defend against from ashi garami positions
 
-- [[Straight Ankle Lock]] - Secondary Threat - Common submission attempt from standard ashi garami
+- [[Submissions/Straight Ankle Lock]] - Secondary Threat - Common submission attempt from standard ashi garami
 
-- [[Kneebar]] - Alternative Attack - Submission opponent may switch to during escape attempts
+- [[Transitions/Kneebar]] - Alternative Attack - Submission opponent may switch to during escape attempts
 
-- [[Half Guard]] - Alternative Recovery - Guard position that may be established during extraction
+- [[Positions/Half Guard]] - Alternative Recovery - Guard position that may be established during extraction
 
-- [[Cross Ashi-Garami]] - Advanced Variation - Cross-body entanglement requiring distinct escape mechanics
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Advanced Variation - Cross-body entanglement requiring distinct escape mechanics
 
-- [[Counter Ashi Entry]] - Counter-Offensive Option - Establishing your own entanglement from defensive position
+- [[Transitions/Counter Ashi Entry]] - Counter-Offensive Option - Establishing your own entanglement from defensive position
 
-- [[Ashi Garami]] - Parent Position - The position family this escape addresses
+- [[Positions/Ashi Garami]] - Parent Position - The position family this escape addresses
 
 
 </section>

@@ -186,7 +186,7 @@ description: "Execute the Roll Escape from Cross Body Ride in BJJ. Step-by-step 
 
 Executing the Roll Escape from Cross Body Ride demands precise timing, full commitment, and immediate post-roll guard insertion. As the bottom player trapped under perpendicular back pressure, your objective is to generate rotational momentum that displaces the rider's weight past the point of recovery, then immediately establish half guard entanglement before the rider can reattach control. The technique requires reading the rider's weight distribution to identify the optimal roll direction, then committing explosively to the rotation during a window of momentary instability. Unlike hip escapes which can be chained incrementally, the roll escape is binary—partial execution leaves you in a worse position, so the decision to roll must be definitive and the follow-through immediate.
 
-**From Position**: [[Cross Body Ride]] (Bottom)
+**From Position**: [[Positions/Cross Body Ride]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Roll Escape from Cross Body Ride demands precise timing, full comm
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Cross Body Ride]] | 35% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Cross Body Ride]] | 35% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Roll Escape from Cross Body Ride demands precise timing, full comm
 
 ## Opponent Counters
 
-- **Rider follows the roll momentum and immediately inserts hooks for back control** (Effectiveness: High) - Your Response: If you feel hooks entering during the roll, immediately switch priority to hand fighting the choking hand and stripping the near-side hook. Abandon the half guard insertion and transition to dedicated back escape protocol with hip escapes and hook clearing. → Leads to [[Back Control]]
-- **Rider sprawls heavy and drives chest pressure down to kill the roll before it generates momentum** (Effectiveness: High) - Your Response: If the roll is killed before generating sufficient rotation, immediately redirect to a hip escape in the opposite direction. The rider's forward sprawl commitment creates lateral space that hip escapes can exploit. → Leads to [[Cross Body Ride]]
-- **Rider shifts weight to the opposite side to block the roll direction and maintain perpendicular control** (Effectiveness: Medium) - Your Response: If the rider adjusts weight to block your intended roll direction, use their weight shift as an opening for a hip escape in the direction they just vacated. Their defensive adjustment to block the roll necessarily compromises their coverage on the opposite side. → Leads to [[Cross Body Ride]]
-- **Rider secures collar grip and threatens choke during the rolling transition when neck is momentarily exposed** (Effectiveness: Medium) - Your Response: If you feel a collar grip establishing during the roll, use two-on-one grip fighting to strip the choking hand immediately. Do not continue the roll with an active choke threat. Return to defensive turtle posture, strip the grip, then reassess escape options. → Leads to [[Cross Body Ride]]
+- **Rider follows the roll momentum and immediately inserts hooks for back control** (Effectiveness: High) - Your Response: If you feel hooks entering during the roll, immediately switch priority to hand fighting the choking hand and stripping the near-side hook. Abandon the half guard insertion and transition to dedicated back escape protocol with hip escapes and hook clearing. → Leads to [[Positions/Back Control]]
+- **Rider sprawls heavy and drives chest pressure down to kill the roll before it generates momentum** (Effectiveness: High) - Your Response: If the roll is killed before generating sufficient rotation, immediately redirect to a hip escape in the opposite direction. The rider's forward sprawl commitment creates lateral space that hip escapes can exploit. → Leads to [[Positions/Cross Body Ride]]
+- **Rider shifts weight to the opposite side to block the roll direction and maintain perpendicular control** (Effectiveness: Medium) - Your Response: If the rider adjusts weight to block your intended roll direction, use their weight shift as an opening for a hip escape in the direction they just vacated. Their defensive adjustment to block the roll necessarily compromises their coverage on the opposite side. → Leads to [[Positions/Cross Body Ride]]
+- **Rider secures collar grip and threatens choke during the rolling transition when neck is momentarily exposed** (Effectiveness: Medium) - Your Response: If you feel a collar grip establishing during the roll, use two-on-one grip fighting to strip the choking hand immediately. Do not continue the roll with an active choke threat. Return to defensive turtle posture, strip the grip, then reassess escape options. → Leads to [[Positions/Cross Body Ride]]
 
 
 </section>

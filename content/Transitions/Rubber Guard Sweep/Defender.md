@@ -146,7 +146,7 @@ description: "Learn to defend the Rubber Guard Sweep from top position. Recognit
 
 Defending the Rubber Guard Sweep from top position requires understanding the sweep's mechanical triggers and maintaining structural awareness while trapped in rubber guard control. As the defender, you face a fundamental dilemma: attempting to recover posture triggers the sweep by providing backward momentum, while remaining in compromised posture exposes you to the full range of rubber guard submissions. Effective defense begins with recognizing the sweep setup before it reaches the execution phase through tactile cues in the bottom player's hip loading and angle changes. The key defensive principle is maintaining wide base and controlled forward pressure that denies the bottom player the backward weight shift they need to initiate the sweep. When the sweep is initiated despite your prevention efforts, immediate base adjustment and posting with the free hand are critical for absorbing the rotational force and preventing the complete positional reversal. Understanding this sweep's specific mechanics allows you to navigate the rubber guard dilemma more effectively, choosing defensive responses that neutralize both sweep and submission threats simultaneously rather than solving one problem while creating another.
 
-**Opponent's Starting Position**: [[Rubber Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Rubber Guard Sweep from top position requires understanding the sw
 ### 1. Drive hips forward and low to flatten the bottom player, removing the hip space needed for bridge initiation
 
 - **When to use**: When you recognize pre-sweep setup cues including hip loading and angle change before the bridge is actually executed
-- **Targets**: [[Rubber Guard]]
+- **Targets**: [[Positions/Rubber Guard]]
 - **If successful**: Sweep is neutralized and you maintain top position in rubber guard, though still in compromised posture requiring continued escape work
 - **Risk**: Forward pressure can feed into omoplata or gogoplata entries if the bottom player redirects your momentum into submission setups
 
 ### 2. Post free hand wide on the mat toward the sweep direction, creating a structural block against the rotational force
 
 - **When to use**: During the sweep execution phase when you feel the hip bridge initiation and directional pull beginning to generate rotational momentum
-- **Targets**: [[Rubber Guard]]
+- **Targets**: [[Positions/Rubber Guard]]
 - **If successful**: Bridge force is absorbed by your posted hand creating a tripod base, sweep fails, and you maintain top position with opportunity to recover
 - **Risk**: Posted hand may be targeted for kimura or wrist lock if the bottom player anticipates and re-routes to submission rather than continuing sweep
 
 ### 3. Extract trapped arm and break rubber guard leg configuration to eliminate the structural advantage driving the sweep mechanics
 
 - **When to use**: Before the sweep attempt when you can feel the bottom player tightening their rubber guard configuration in preparation for the sweep
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Rubber guard control is broken entirely, removing both sweep and submission threats, transitioning to open guard where systematic passing can begin
 - **Risk**: Arm extraction attempt may create the exact space needed for triangle setup if the timing or technique is incorrect
 
 ### 4. Circle toward the sweep direction and redirect the bridge momentum by walking your knees in the same direction the sweep pushes you
 
 - **When to use**: During sweep execution when posting alone is insufficient to fully resist the rotational force of the bridge and pull combination
-- **Targets**: [[Rubber Guard]]
+- **Targets**: [[Positions/Rubber Guard]]
 - **If successful**: Sweep momentum is redirected and absorbed through circular movement, you maintain top position and can reset your defensive base
 - **Risk**: Circling may create angles that improve the bottom player's submission entries from advanced rubber guard positions
 
@@ -217,11 +217,11 @@ Defending the Rubber Guard Sweep from top position requires understanding the sw
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Successfully extract the trapped arm and break the rubber guard leg configuration during or before the sweep attempt, converting the position to open guard where you can begin systematic guard passing without the rubber guard control threatening sweeps or submissions
 
-### → [[Rubber Guard]]
+### → [[Positions/Rubber Guard]]
 
 Maintain heavy forward pressure with wide base and immediate posting response to deny the sweep entirely, then work systematically toward incremental posture recovery and arm extraction to eventually break the rubber guard configuration
 

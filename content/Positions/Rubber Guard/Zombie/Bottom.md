@@ -208,27 +208,27 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 
 ## Available Escapes
 
-### [[Old School Sweep]] (35% of attempts)
+### [[Transitions/Old School Sweep]] (35% of attempts)
 
-### [[Electric Chair Transition]] (11% of attempts)
+### [[Transitions/Electric Chair Transition]] (11% of attempts)
 
-### [[Lockdown Recovery]] (10% of attempts)
+### [[Transitions/Lockdown Recovery]] (10% of attempts)
 
-### [[Guard Recovery from Zombie]] (13% of attempts)
+### [[Transitions/Guard Recovery from Zombie]] (13% of attempts)
 
-### [[Granby Roll to Guard]] (9% of attempts)
+### [[Transitions/Granby Roll to Guard]] (9% of attempts)
 
-### [[Rolling Back Take]] (7% of attempts)
+### [[Transitions/Rolling Back Take]] (7% of attempts)
 
-### [[Roll to Truck]] (6% of attempts)
+### [[Transitions/Roll to Truck]] (6% of attempts)
 
-### [[Deep Half Entry]] (5% of attempts)
+### [[Transitions/Deep Half Entry]] (5% of attempts)
 
-### [[Escape Zombie Control]] (2% of attempts)
+### [[Transitions/Escape Zombie Control]] (2% of attempts)
 
-### [[Turn to Face from Zombie]] (1% of attempts)
+### [[Transitions/Turn to Face from Zombie]] (1% of attempts)
 
-### [[Sweep from Zombie Guard]] (1% of attempts)
+### [[Transitions/Sweep from Zombie Guard]] (1% of attempts)
 
 
 
@@ -239,23 +239,23 @@ Unlike traditional turtle positions where the practitioner curls into a ball, th
 ## Decision Making from This Position
 
 **If opponent is heavy on your upper body with strong crossface pressure:**
-- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 45%)
 
 
 **If opponent is attempting to free their leg from lockdown by posting or pulling:**
-- Execute **[[Old School Sweep]]** → [[Half Guard]] (Probability: 60%)
-- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 50%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 50%)
 
 
 **If opponent establishes strong chest-to-chest pressure attempting to flatten you:**
-- Execute **[[Roll to Truck]]** → [[Truck]] (Probability: 45%)
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 40%)
+- Execute **[[Transitions/Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 45%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 40%)
 
 
 **If opponent creates distance trying to clear lockdown and establish passing grips:**
-- Execute **[[Guard Recovery from Zombie]]** → [[Half Guard]] (Probability: 65%)
-- Execute **[[Lockdown Recovery]]** → [[Lockdown]] (Probability: 55%)
+- Execute **[[Transitions/Guard Recovery from Zombie]]** → [[Positions/Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 55%)
 
 
 
@@ -394,16 +394,16 @@ Practice Granby Roll specifically from Zombie position when opponent applies hea
 
 ## Related Positions and Techniques
 
-- **[[Lockdown]]** - Core component - Zombie position utilizes lockdown mechanics as primary control mechanism
-- **[[Electric Chair]]** - Common transition - Natural progression from Zombie when opponent's leg is trapped
-- **[[Truck]]** - Advanced variation - Similar defensive structure with different leg entanglement
-- **[[Deep Half Guard]]** - Transition target - Frequently accessed when opponent pressures forward
-- **[[Half Guard]]** - Guard recovery destination - Primary goal for re-establishing guard structure
-- **[[Turtle]]** - Similar position - Traditional turtle alternative without lockdown mechanics
-- **[[Old School]]** - Primary offensive technique - Highest percentage sweep from Zombie position
-- **[[Twister Control]]** - Parent system - Zombie is integral component of 10th Planet Twister system
-- **[[Knee Shield Half Guard]]** - Systematic framework - Related half guard defensive structure
-- **[[Rubber Guard]]** - Related 10th Planet position - shares systematic philosophy
+- **[[Positions/Half Guard/Lockdown]]** - Core component - Zombie position utilizes lockdown mechanics as primary control mechanism
+- **[[Positions/Half Guard/Electric Chair]]** - Common transition - Natural progression from Zombie when opponent's leg is trapped
+- **[[Positions/Twister Control/Truck]]** - Advanced variation - Similar defensive structure with different leg entanglement
+- **[[Positions/Half Guard/Deep Half Guard]]** - Transition target - Frequently accessed when opponent pressures forward
+- **[[Positions/Half Guard]]** - Guard recovery destination - Primary goal for re-establishing guard structure
+- **[[Positions/Turtle]]** - Similar position - Traditional turtle alternative without lockdown mechanics
+- **[[Positions/Half Guard/Old School]]** - Primary offensive technique - Highest percentage sweep from Zombie position
+- **[[Positions/Twister Control]]** - Parent system - Zombie is integral component of 10th Planet Twister system
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Systematic framework - Related half guard defensive structure
+- **[[Positions/Rubber Guard]]** - Related 10th Planet position - shares systematic philosophy
 
 
 </section>

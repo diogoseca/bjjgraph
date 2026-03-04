@@ -21,7 +21,7 @@ The technique exploits the geometric relationship between the defender's inverte
 
 Strategically, Single Leg X Recovery represents the preferred escape path when the opponent's inside leg control is not deep enough to prevent leg threading. Unlike turtle recovery which merely neutralizes position, or counter-heel hooks which require specific grip availability, this technique creates immediate offensive opportunities while completing the escape in one fluid motion. Advanced practitioners chain this recovery directly into sweep and submission sequences.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, Single Leg X Recovery represents the preferred escape path when t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 55% |
-| Failure | [[Ushiro Ashi-Garami]] | 30% |
-| Counter | [[Saddle]] | 15% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 55% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 15% |
 
 
 </section>
@@ -187,25 +187,25 @@ Single Leg X Recovery occupies a critical role in the defensive leg lock system,
 ## Related Techniques
 
 
-- [[Ushiro Ashi-Garami]] - Starting position for this recovery technique
+- [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Starting position for this recovery technique
 
-- [[Single Leg X-Guard]] - Target position upon successful recovery
+- [[Positions/X-Guard/Single Leg X-Guard]] - Target position upon successful recovery
 
-- [[Saddle]] - Opponent's counter-transition if recovery fails
+- [[Positions/Ashi Garami/Saddle]] - Opponent's counter-transition if recovery fails
 
-- [[X-Guard]] - Advanced recovery target with similar mechanics
+- [[Positions/X-Guard]] - Advanced recovery target with similar mechanics
 
-- [[Ashi Garami Escape]] - Parent escape system containing this recovery
+- [[Transitions/Ashi Garami Escape]] - Parent escape system containing this recovery
 
-- [[Leg Extraction to Guard]] - Alternative recovery technique from same position
+- [[Transitions/Leg Extraction to Guard]] - Alternative recovery technique from same position
 
-- [[Granby Roll to Guard]] - Alternative escape option from ushiro
+- [[Transitions/Granby Roll to Guard]] - Alternative escape option from ushiro
 
-- [[Inside Heel Hook]] - Primary submission threat from completed Single Leg X
+- [[Submissions/Inside Heel Hook]] - Primary submission threat from completed Single Leg X
 
-- [[Kneebar]] - Secondary submission available from Single Leg X position
+- [[Transitions/Kneebar]] - Secondary submission available from Single Leg X position
 
-- [[Inversion to Turtle]] - Alternative escape when recovery is blocked
+- [[Transitions/Inversion to Turtle]] - Alternative escape when recovery is blocked
 
 
 </section>

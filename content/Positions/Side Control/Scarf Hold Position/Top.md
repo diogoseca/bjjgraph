@@ -205,23 +205,23 @@ Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived fr
 
 ## Available Attacks
 
-### [[Americana]] (14% of attempts)
+### [[Transitions/Americana]] (14% of attempts)
 
-### [[Kimura]] (12% of attempts)
+### [[Transitions/Kimura]] (12% of attempts)
 
-### [[Side Control to Mount]] (15% of attempts)
+### [[Transitions/Side Control to Mount]] (15% of attempts)
 
-### [[Side Control to North-South]] (24% of attempts)
+### [[Transitions/Side Control to North-South]] (24% of attempts)
 
-### [[Armbar Finish]] (11% of attempts)
+### [[Transitions/Armbar Finish]] (11% of attempts)
 
-### [[Arm Triangle]] (14% of attempts)
+### [[Transitions/Arm Triangle]] (14% of attempts)
 
-### [[Scarf Hold to Mount]] (5% of attempts)
+### [[Transitions/Scarf Hold to Mount]] (5% of attempts)
 
-### [[Scarf Hold to Side Control]] (3% of attempts)
+### [[Transitions/Scarf Hold to Side Control]] (3% of attempts)
 
-### [[Arm Triangle from Scarf Hold]] (2% of attempts)
+### [[Submissions/Arm Triangle from Scarf Hold]] (2% of attempts)
 
 
 
@@ -232,23 +232,23 @@ Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived fr
 ## Decision Making from This Position
 
 **If opponent attempts to turn their face toward you and bridge:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 45%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
 
 
 **If opponent pushes on your head with far arm to create space:**
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 70%)
-- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
+- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 **If opponent attempts to extract trapped near arm:**
-- Execute **[[Americana]]** → [[Armbar Control]] (Probability: 60%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Transitions/Americana]]** → [[Positions/Armbar Control]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent is passive and not defending actively:**
-- Execute **[[Americana]]** → [[Armbar Control]] (Probability: 75%)
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 65%)
+- Execute **[[Transitions/Americana]]** → [[Positions/Armbar Control]] (Probability: 75%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 65%)
 
 
 
@@ -370,15 +370,15 @@ Start in scarf hold top and chain between Americana, arm triangle, and kimura se
 
 ## Related Positions and Techniques
 
-- **[[Scarf Hold Position]]** - Parent position - umbrella category for both perspectives
-- **[[Side Control]]** - Predecessor position - standard transition point to scarf hold
-- **[[Kesa Gatame]]** - Alternative name - traditional Judo terminology for same position
-- **[[Modified Scarf Hold]]** - Variation - modified version with different arm positioning
-- **[[Reverse Kesa-Gatame]]** - Variation - facing opposite direction with similar control principles
-- **[[North-South]]** - Transition target - common progression from scarf hold
-- **[[Mount]]** - Transition target - advancement option when opponent turns in
-- **[[Americana]]** - Primary submission transition - highest percentage finish from this position
-- **[[Kimura]]** - Secondary submission transition when opponent defends americana
+- **[[Positions/Side Control/Scarf Hold Position]]** - Parent position - umbrella category for both perspectives
+- **[[Positions/Side Control]]** - Predecessor position - standard transition point to scarf hold
+- **[[Positions/Side Control/Kesa Gatame]]** - Alternative name - traditional Judo terminology for same position
+- **[[Positions/Side Control/Modified Scarf Hold]]** - Variation - modified version with different arm positioning
+- **[[Positions/Side Control/Reverse Kesa-Gatame]]** - Variation - facing opposite direction with similar control principles
+- **[[Positions/North-South]]** - Transition target - common progression from scarf hold
+- **[[Positions/Mount]]** - Transition target - advancement option when opponent turns in
+- **[[Transitions/Americana]]** - Primary submission transition - highest percentage finish from this position
+- **[[Transitions/Kimura]]** - Secondary submission transition when opponent defends americana
 
 
 </section>

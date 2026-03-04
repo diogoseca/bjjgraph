@@ -21,7 +21,7 @@ The escape works because the buggy choke's power comes from the threading arm wr
 
 Strategically, Turn In and Face is the preferred escape when the defender still has sufficient posture and mobility to execute a rotation. It creates direct pathways to open guard, closed guard, or half guard depending on how the attacker reacts. Compared to alternatives like granby rolls or sitting to half guard, this escape keeps the defender facing the opponent from the outset, reducing the risk of exposing the back during the escape sequence. For practitioners who play guard-centric games, this transition provides the most direct route back to their preferred positions.
 
-**From Position**: [[Buggy Choke]] (Bottom)
+**From Position**: [[Positions/Buggy Choke]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, Turn In and Face is the preferred escape when the defender still 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Success | [[Closed Guard]] | 15% |
-| Failure | [[Buggy Choke]] | 20% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Success | [[Positions/Closed Guard]] | 15% |
+| Failure | [[Positions/Buggy Choke]] | 20% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -188,27 +188,27 @@ Turn In and Face is a cornerstone escape within the Buggy Choke bottom defensive
 ## Related Techniques
 
 
-- [[Buggy Choke]] - Starting position — this escape defends against the buggy choke attack
+- [[Positions/Buggy Choke]] - Starting position — this escape defends against the buggy choke attack
 
-- [[Granby Roll to Guard]] - Alternative escape from buggy choke bottom that uses rolling rather than turning
+- [[Transitions/Granby Roll to Guard]] - Alternative escape from buggy choke bottom that uses rolling rather than turning
 
-- [[Technical Stand-up]] - Alternative escape option from buggy choke bottom when standing is viable
+- [[Transitions/Technical Stand-up]] - Alternative escape option from buggy choke bottom when standing is viable
 
-- [[Roll to Deep Half Guard]] - Alternative escape from buggy choke when turning is blocked but rolling underneath is available
+- [[Transitions/Roll to Deep Half Guard]] - Alternative escape from buggy choke when turning is blocked but rolling underneath is available
 
-- [[Elbow Escape to Guard]] - Complementary escape technique using hip escape mechanics after the turn completes
+- [[Transitions/Elbow Escape to Guard]] - Complementary escape technique using hip escape mechanics after the turn completes
 
-- [[Open Guard]] - Primary guard position recovered after successful turn and hip escape
+- [[Positions/Open Guard]] - Primary guard position recovered after successful turn and hip escape
 
-- [[Closed Guard]] - Guard position recovered when distance allows closing legs after the turn
+- [[Positions/Closed Guard]] - Guard position recovered when distance allows closing legs after the turn
 
-- [[Back Control]] - Counter position opponent may achieve if turn is slow or back is exposed during rotation
+- [[Positions/Back Control]] - Counter position opponent may achieve if turn is slow or back is exposed during rotation
 
-- [[Front Headlock]] - Position opponent may convert to if threading arm is released during the turn
+- [[Positions/Front Headlock]] - Position opponent may convert to if threading arm is released during the turn
 
-- [[Guillotine Control]] - Submission threat opponent may attempt as defender's head comes around during rotation
+- [[Positions/Guillotine Control]] - Submission threat opponent may attempt as defender's head comes around during rotation
 
-- [[Arm in Guillotine]] - Specific submission risk when near arm is trapped during the turning sequence
+- [[Submissions/Arm in Guillotine]] - Specific submission risk when near arm is trapped during the turning sequence
 
 
 </section>

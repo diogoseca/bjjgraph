@@ -158,7 +158,7 @@ Your defensive priorities are layered: first, maintain grip control on their ank
 
 The most dangerous moment is when their inside leg clears and they plant their knee on your hip. If you allow both legs to extract and crossface to establish, recovery becomes extremely difficult. Your defensive window is narrow - act during the grip fighting phase and initial extraction, not after they have already cleared. Timing your defensive responses to the early stages of their pass attempt dramatically increases your retention rate.
 
-**Opponent's Starting Position**: [[50-50 Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ The most dangerous moment is when their inside leg clears and they plant their k
 ### 1. Maintain two-handed ankle grip and re-hook with your legs as opponent attempts extraction, actively pulling their ankle back into the entanglement
 
 - **When to use**: Immediately when you feel opponent breaking your grips or beginning to straighten their inside leg for extraction
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Opponent's extraction fails and they return to 50-50 entanglement, resetting the position and wasting their energy on the failed pass attempt
 - **Risk**: If your re-hook attempt fails, you may lose ankle control entirely and accelerate their extraction, making subsequent defense harder
 
 ### 2. Hip escape away while framing against opponent's shoulder to create angle, then insert knee shield to block their forward pressure and prevent side control consolidation
 
 - **When to use**: When opponent's inside leg has already cleared and they are planting their knee on your hip, targeting the brief window before outside leg extraction
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You recover to half guard or re-establish a guard position that prevents full side control, maintaining defensive options and leg entanglement
 - **Risk**: Hip escaping creates space that opponent may use to accelerate their pass if your frame is not strong enough to block their forward drive
 
 ### 3. Sit up explosively and attack opponent's partially cleared leg with a counter heel hook or ankle lock, threatening their exposed heel during the extraction transition
 
 - **When to use**: When opponent commits chest weight forward for extraction but leaves their heel exposed, particularly during the outside leg extraction phase
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Opponent must abandon pass to defend their own leg, and you may achieve a submission or force a scramble that reverses position entirely
 - **Risk**: If opponent drives crossface before you complete the sit-up, you get flattened in a worse position with less defensive structure than before
 
 ### 4. Invert and granby roll underneath opponent's pressure to follow their movement, using the rotation to re-establish guard or expose their back
 
 - **When to use**: When opponent's pressure commits them forward and their weight shifts past your center line during the extraction sequence
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You re-establish guard position underneath or create a scramble situation where their committed forward pressure works against them
 - **Risk**: Failed inversion can expose your back to opponent, and if they follow your rotation with their pressure, you end up in a worse position
 
@@ -226,11 +226,11 @@ The most dangerous moment is when their inside leg clears and they plant their k
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Maintain strong two-handed grip on opponent's ankle throughout their extraction attempts and actively re-hook their leg with your own legs whenever they begin to clear. Their failed extraction attempt wastes energy and resets the position. Use aggressive grip fighting in the early phase to prevent extraction from ever progressing past the initial stage.
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 When opponent over-commits to the pass by driving chest forward, exploit the opening by sitting up and threatening a counter heel hook or ankle lock on their exposed leg. Their focus on passing creates vulnerability in their own leg defense. Even if the submission does not finish, the threat forces them to abandon the pass and return to defending, which reverses the initiative in the exchange.
 

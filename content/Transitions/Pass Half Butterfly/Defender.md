@@ -154,7 +154,7 @@ description: "Complete guide to defending the Pass Half Butterfly in BJJ. Recogn
 
 Defending the Pass Half Butterfly requires recognizing the passer's intent to neutralize your butterfly hook and responding with proactive guard retention, sweep attempts, or transitions to alternative guard positions before they establish the weight distribution needed to complete the pass. Your butterfly hook is your primary weapon, and the defender's core strategy is maintaining the conditions that keep this hook active: hip mobility, space for elevation, and an angle that allows the hook to generate lift. The moment you feel the passer driving their weight forward and low to collapse the hook, you must decide whether to fight for hook retention, attempt an immediate sweep before control is established, or transition to an alternative guard position like deep half or dogfight where you maintain offensive capability.
 
-**Opponent's Starting Position**: [[Half Butterfly]] (Top)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Pass Half Butterfly requires recognizing the passer's intent to ne
 ### 1. Immediate butterfly hook elevation and sweep attempt before passer's weight settles
 
 - **When to use**: Early in the pass sequence when you first recognize the passer shifting weight forward but before crossface and hip pressure are fully established
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Sweep the passer and end up in top position, reversing the positional hierarchy completely
 - **Risk**: If the sweep fails because the passer anticipated it, you may lose the hook entirely as they capitalize on your committed hip extension
 
 ### 2. Frame against shoulder and shrimp to maintain space and reload butterfly hook
 
 - **When to use**: When the passer has begun settling weight but has not yet completed hook neutralization, and you need to create space to re-engage the hook
-- **Targets**: [[Half Butterfly]]
+- **Targets**: [[Positions/Butterfly Guard/Half Butterfly]]
 - **If successful**: Reset the guard position by creating enough space to reload the butterfly hook with active hip elevation capability
 - **Risk**: Framing exposes your arms to potential grip attacks, and if the shrimp is insufficient, the passer follows and achieves even heavier pressure
 
 ### 3. Transition to deep half guard by diving underneath the passer
 
 - **When to use**: When the passer has established heavy forward pressure that makes butterfly hook retention impossible, but has committed their weight forward enough to create space underneath
-- **Targets**: [[Half Butterfly]]
+- **Targets**: [[Positions/Butterfly Guard/Half Butterfly]]
 - **If successful**: Escape to deep half guard where you have superior sweeping angles and the passer must restart their passing approach entirely
 - **Risk**: If the deep half entry is blocked by the passer's knee or hip position, you may end up flattened with even less defensive structure
 
 ### 4. Establish underhook and rise to dogfight position
 
 - **When to use**: When the passer's weight shifts create an opening for your arm to thread underneath for the underhook, particularly during their hook neutralization phase
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Reach dogfight position where you have equal or superior positioning with opportunities for sweeps and back takes
 - **Risk**: If the passer counters with a strong whizzer or drives you back down, you may lose the underhook and end up worse than before the attempt
 
@@ -225,11 +225,11 @@ Defending the Pass Half Butterfly requires recognizing the passer's intent to ne
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a butterfly hook sweep during the passer's weight transfer phase, coordinating hip elevation with upper body grip control to generate enough off-balancing force to complete the reversal before the passer can stabilize their base
 
-### → [[Half Butterfly]]
+### → [[Positions/Butterfly Guard/Half Butterfly]]
 
 Maintain active hook engagement through constant hip movement and angle changes, preventing the passer from ever establishing the stable weight distribution needed to neutralize the hook. Use frames and shrimps to repeatedly create space when pressure increases, resetting the guard position before the pass can progress
 

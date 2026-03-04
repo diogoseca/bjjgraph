@@ -21,7 +21,7 @@ This counter exemplifies the modern leg lock philosophy of fighting fire with fi
 
 The strategic value extends beyond mere survival. Entering 50-50 from a defensive position often catches opponents off-guard, as their focus on finishing their attack blinds them to your counter-entry. This creates opportunities where your subsequent attack sequence may be several steps ahead of an opponent who must now shift from offensive to defensive mindset. Understanding this transition is essential for anyone training leg locks, as it represents one of the primary equalizers in asymmetrical leg entanglement exchanges.
 
-**From Position**: [[Straight Ankle Lock Control]] (Top)
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The strategic value extends beyond mere survival. Entering 50-50 from a defensiv
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 65% |
-| Failure | [[Straight Ankle Lock Control]] | 25% |
-| Counter | [[Inside Ashi-Garami]] | 10% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 65% |
+| Failure | [[Positions/Straight Ankle Lock Control]] | 25% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 10% |
 
 
 </section>
@@ -189,25 +189,25 @@ Counter Entry to Opponent's Leg serves as a critical bridge between defensive su
 ## Related Techniques
 
 
-- [[Straight Ankle Lock Control]] - Starting position - you are defending this control
+- [[Positions/Straight Ankle Lock Control]] - Starting position - you are defending this control
 
-- [[50-50 Guard]] - Primary destination - successful entry establishes this position
+- [[Positions/Ashi Garami/50-50 Guard]] - Primary destination - successful entry establishes this position
 
-- [[Inside Ashi-Garami]] - Counter risk - opponent may achieve this if you rotate incorrectly
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Counter risk - opponent may achieve this if you rotate incorrectly
 
-- [[Outside Ashi-Garami]] - Alternative entry target when far leg is unavailable
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative entry target when far leg is unavailable
 
-- [[Ashi Garami Escape]] - Alternative option - pure escape rather than counter-attack
+- [[Transitions/Ashi Garami Escape]] - Alternative option - pure escape rather than counter-attack
 
-- [[50-50 Entry from Standing]] - Related technique using similar entry mechanics
+- [[Transitions/50-50 Entry from Standing]] - Related technique using similar entry mechanics
 
-- [[Back Take from 50-50]] - Follow-up attack chain from successful entry
+- [[Transitions/Back Take from 50-50]] - Follow-up attack chain from successful entry
 
-- [[Heel Hook]] - Primary submission threat available after successful entry
+- [[Transitions/Heel Hook]] - Primary submission threat available after successful entry
 
-- [[Counter-entangle to 50-50 Guard]] - Related counter-entanglement technique from similar scenarios
+- [[Transitions/Counter-entangle to 50-50 Guard]] - Related counter-entanglement technique from similar scenarios
 
-- [[Hip Rotation Defense]] - Defensive movement that can set up this counter-entry
+- [[Transitions/Hip Rotation Defense]] - Defensive movement that can set up this counter-entry
 
 
 </section>

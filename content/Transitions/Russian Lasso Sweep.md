@@ -21,7 +21,7 @@ What distinguishes this sweep from standard lasso sweeps is the enhanced force g
 
 Timing is the critical variable—the sweep achieves maximum effectiveness when the opponent commits their weight forward to address the lasso threat or reaches to break the collar grip, creating the momentary base disruption that allows rotational mechanics to overcome their stability. Elite practitioners use the sweep threat as the primary forcing function within the Russian Leg Lasso system, where the opponent's defensive reactions to the sweep open secondary attack paths into triangles, omoplatas, and back takes.
 
-**From Position**: [[Russian Leg Lasso]] (Bottom)
+**From Position**: [[Positions/Lasso Guard/Russian Leg Lasso]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Timing is the critical variable—the sweep achieves maximum effectiveness when 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Russian Leg Lasso]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Lasso Guard/Russian Leg Lasso]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Russian Lasso Sweep sits at the offensive core of the Russian Leg Lasso guar
 ## Related Techniques
 
 
-- [[Russian Leg Lasso]] - Source position from which this sweep is executed
+- [[Positions/Lasso Guard/Russian Leg Lasso]] - Source position from which this sweep is executed
 
-- [[Lasso Guard]] - Parent guard system sharing fundamental lasso mechanics and sweep principles
+- [[Positions/Lasso Guard]] - Parent guard system sharing fundamental lasso mechanics and sweep principles
 
-- [[Side Control]] - Primary target position achieved on successful sweep completion
+- [[Positions/Side Control]] - Primary target position achieved on successful sweep completion
 
-- [[Lasso Sweep]] - Related sweep from standard lasso guard using similar rotational mechanics
+- [[Transitions/Lasso Sweep]] - Related sweep from standard lasso guard using similar rotational mechanics
 
-- [[Inverted Lasso Sweep]] - Alternative lasso sweep variation with different angle and force vector
+- [[Transitions/Inverted Lasso Sweep]] - Alternative lasso sweep variation with different angle and force vector
 
-- [[Omoplata from Lasso]] - Chain attack when opponent defends sweep by posting hand
+- [[Transitions/Omoplata from Lasso]] - Chain attack when opponent defends sweep by posting hand
 
-- [[Open Guard]] - Degraded guard position resulting from counter when lasso is stripped
+- [[Positions/Open Guard]] - Degraded guard position resulting from counter when lasso is stripped
 
-- [[De La Riva Guard]] - Complementary guard for transitions when Russian Leg Lasso is compromised
+- [[Positions/De La Riva Guard]] - Complementary guard for transitions when Russian Leg Lasso is compromised
 
-- [[Collar Sleeve Guard]] - Related guard sharing grip configurations and transition pathways
+- [[Positions/Collar Sleeve Guard]] - Related guard sharing grip configurations and transition pathways
 
-- [[Inverted Lasso Guard]] - Alternative lasso configuration with different mechanical properties
+- [[Positions/Lasso Guard/Inverted Lasso Guard]] - Alternative lasso configuration with different mechanical properties
 
 
 </section>

@@ -208,21 +208,21 @@ From bottom, the primary concern is preventing the completion of the submission 
 
 ## Available Escapes
 
-### [[Ashi Garami Escape]] (23% of attempts)
+### [[Transitions/Ashi Garami Escape]] (23% of attempts)
 
-### [[Leg Extraction]] (38% of attempts)
+### [[Transitions/Leg Extraction]] (38% of attempts)
 
-### [[Counter Sweep]] (3% of attempts)
+### [[Transitions/Counter Sweep]] (3% of attempts)
 
-### [[Angle Change Escape]] (13% of attempts)
+### [[Transitions/Angle Change Escape]] (13% of attempts)
 
-### [[Standing Escape]] (13% of attempts)
+### [[Transitions/Standing Escape]] (13% of attempts)
 
-### [[50-50 Entry]] (8% of attempts)
+### [[Transitions/50-50 Entry]] (8% of attempts)
 
-### [[Estima Lock Counter Roll]] (1% of attempts)
+### [[Transitions/Estima Lock Counter Roll]] (1% of attempts)
 
-### [[Counter from Estima Lock]] (1% of attempts)
+### [[Transitions/Counter from Estima Lock]] (1% of attempts)
 
 
 
@@ -233,23 +233,23 @@ From bottom, the primary concern is preventing the completion of the submission 
 ## Decision Making from This Position
 
 **If opponent has shallow grip on foot without full inversion control:**
-- Execute **[[Leg Extraction]]** → [[Open Guard]] (Probability: 55%)
-- Execute **[[Ashi Garami Escape]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Leg Extraction]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If opponent has deep grip with full inversion and hip pressure established:**
-- Execute **[[Counter Sweep]]** → [[Estima Lock]] (Probability: 35%)
-- Execute **[[Angle Change Escape]]** → [[Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Counter Sweep]]** → [[Positions/Estima Lock]] (Probability: 35%)
+- Execute **[[Transitions/Angle Change Escape]]** → [[Positions/Half Guard]] (Probability: 65%)
 
 
 **If free leg can establish hooks or frames on opponent's body:**
-- Execute **[[Counter Sweep]]** → [[Estima Lock]] (Probability: 45%)
-- Execute **[[Leg Extraction]]** → [[Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/Counter Sweep]]** → [[Positions/Estima Lock]] (Probability: 45%)
+- Execute **[[Transitions/Leg Extraction]]** → [[Positions/Open Guard]] (Probability: 55%)
 
 
 **If opponent transitions grip toward toe hold or other submission:**
-- Execute **[[Ashi Garami Escape]]** → [[Ashi Garami]] (Probability: 60%)
-- Execute **[[Standing Escape]]** → [[Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Ashi Garami]] (Probability: 60%)
+- Execute **[[Transitions/Standing Escape]]** → [[Positions/Open Guard]] (Probability: 40%)
 
 
 
@@ -376,16 +376,16 @@ Bottom player in Estima Lock position focuses exclusively on using free leg for 
 
 ## Related Positions and Techniques
 
-- **[[Estima Lock]]** - Primary submission threat from this position
-- **[[50-50 Guard]]** - Common entry position where Estima Lock threat often develops
-- **[[Outside Ashi-Garami]]** - Related leg entanglement position with similar defensive principles
-- **[[Ashi Garami]]** - Similar defensive leg entanglement requiring comparable escape mechanics
-- **[[Ashi Garami Escape]]** - Primary escape transition technique from leg entanglements
-- **[[Leg Extraction]]** - Core escape technique for freeing trapped foot from inverted lock
-- **[[Counter Sweep]]** - Offensive counter option when opponent over-commits to finishing
-- **[[Half Guard]]** - Target position for successful escapes from leg entanglements
-- **[[Leg Entanglement]]** - Broader category encompassing this specific entanglement variant
-- **[[Open Guard]]** - Recovery position after successful leg extraction
+- **[[Positions/Estima Lock]]** - Primary submission threat from this position
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Common entry position where Estima Lock threat often develops
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Related leg entanglement position with similar defensive principles
+- **[[Positions/Ashi Garami]]** - Similar defensive leg entanglement requiring comparable escape mechanics
+- **[[Transitions/Ashi Garami Escape]]** - Primary escape transition technique from leg entanglements
+- **[[Transitions/Leg Extraction]]** - Core escape technique for freeing trapped foot from inverted lock
+- **[[Transitions/Counter Sweep]]** - Offensive counter option when opponent over-commits to finishing
+- **[[Positions/Half Guard]]** - Target position for successful escapes from leg entanglements
+- **[[Positions/Leg Entanglement]]** - Broader category encompassing this specific entanglement variant
+- **[[Positions/Open Guard]]** - Recovery position after successful leg extraction
 
 
 </section>

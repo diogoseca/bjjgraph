@@ -21,7 +21,7 @@ The extraction sequence requires precise timing, explosive hip movement, and coo
 
 Strategically, this escape reflects modern competitive reality: when facing a superior leg lock practitioner, the intelligent choice is often disengagement rather than engagement. Standing up resets the exchange on neutral terms where takedown wrestling and guard passing become the primary battlegrounds instead of leg lock exchanges that favor your opponent.
 
-**From Position**: [[50-50 Guard]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape reflects modern competitive reality: when facing a su
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 65% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[Ashi Garami]] | 10% |
+| Success | [[Positions/Open Guard]] | 65% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami]] | 10% |
 
 
 </section>
@@ -187,21 +187,21 @@ Extract Legs and Stand Up functions as the primary escape valve from the 50-50 G
 ## Related Techniques
 
 
-- [[50-50 Guard]] - Starting position
+- [[Positions/Ashi Garami/50-50 Guard]] - Starting position
 
-- [[Open Guard]] - Primary success outcome - reset position after standing
+- [[Positions/Open Guard]] - Primary success outcome - reset position after standing
 
-- [[Ashi Garami]] - Counter outcome if opponent transitions during extraction
+- [[Positions/Ashi Garami]] - Counter outcome if opponent transitions during extraction
 
-- [[Inside Heel Hook]] - Primary threat during extraction requiring heel protection
+- [[Submissions/Inside Heel Hook]] - Primary threat during extraction requiring heel protection
 
-- [[Counter heel hook]] - Alternative option from bottom 50-50 instead of extraction
+- [[Transitions/Counter heel hook]] - Alternative option from bottom 50-50 instead of extraction
 
-- [[50-50 Guard to Single Leg X-Guard]] - Alternative escape route to different guard position
+- [[Transitions/50-50 Guard to Single Leg X-Guard]] - Alternative escape route to different guard position
 
-- [[Back Take from 50-50]] - Alternative transition opponent may attempt during your extraction
+- [[Transitions/Back Take from 50-50]] - Alternative transition opponent may attempt during your extraction
 
-- [[Straight Ankle Lock]] - Secondary leg lock threat during extraction phase
+- [[Submissions/Straight Ankle Lock]] - Secondary leg lock threat during extraction phase
 
 
 </section>

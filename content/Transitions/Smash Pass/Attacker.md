@@ -174,7 +174,7 @@ description: "How to execute the Smash Pass in BJJ. Attacking perspective with s
 
 The Smash Pass is a fundamental pressure-based guard passing technique used to overcome half guard retention. This pass emphasizes heavy shoulder pressure, crossface control, and systematic hip positioning to flatten the opponent and transition to side control. The technique is particularly effective against knee shield half guard and traditional half guard positions, as it uses the passer's body weight and positioning to nullify the bottom player's frames and mobility. Unlike dynamic passing approaches, the smash pass relies on patient pressure application, forcing the opponent into progressively worse positions until the guard can be cleared. This technique is especially effective in gi and no-gi contexts, making it a staple of modern BJJ competition strategies.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The Smash Pass is a fundamental pressure-based guard passing technique used to o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 60% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 60% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -238,10 +238,10 @@ The Smash Pass is a fundamental pressure-based guard passing technique used to o
 
 ## Opponent Counters
 
-- **Opponent turns into you and attempts to take your back or recover butterfly guard** (Effectiveness: Medium) - Your Response: Immediately switch from crossface to controlling their far shoulder, preventing them from coming up fully. Drive your weight forward and establish front headlock control if they continue turning, or return to smash pressure if they're only partially turned. → Leads to [[Half Guard]]
-- **Opponent frames against your hip or posts on your shoulder to create space** (Effectiveness: High) - Your Response: Redirect your pressure more toward their head and upper body rather than their hips where frames are strongest. Consider switching to a different passing angle or temporarily backing out to reset your pressure from a better position. Never force against strong frames as this leads to being swept. → Leads to [[Half Guard]]
-- **Opponent locks deep half guard as you attempt to extract your leg** (Effectiveness: High) - Your Response: Stop the smash pass and address the deep half guard position. You may need to swim your leg under to clear the entanglement, or transition to a different passing strategy entirely. Trying to force the smash pass from deep half is low percentage and energy inefficient. → Leads to [[Half Guard]]
-- **Opponent uses their free leg to create a butterfly hook or push off your hip** (Effectiveness: Medium) - Your Response: Control their free leg with your hand or use your own leg to trap theirs. You can also adjust your angle to make it difficult for their free leg to generate leverage. In some cases, switching to a different pass variation like a knee slice becomes more appropriate. → Leads to [[Half Guard]]
+- **Opponent turns into you and attempts to take your back or recover butterfly guard** (Effectiveness: Medium) - Your Response: Immediately switch from crossface to controlling their far shoulder, preventing them from coming up fully. Drive your weight forward and establish front headlock control if they continue turning, or return to smash pressure if they're only partially turned. → Leads to [[Positions/Half Guard]]
+- **Opponent frames against your hip or posts on your shoulder to create space** (Effectiveness: High) - Your Response: Redirect your pressure more toward their head and upper body rather than their hips where frames are strongest. Consider switching to a different passing angle or temporarily backing out to reset your pressure from a better position. Never force against strong frames as this leads to being swept. → Leads to [[Positions/Half Guard]]
+- **Opponent locks deep half guard as you attempt to extract your leg** (Effectiveness: High) - Your Response: Stop the smash pass and address the deep half guard position. You may need to swim your leg under to clear the entanglement, or transition to a different passing strategy entirely. Trying to force the smash pass from deep half is low percentage and energy inefficient. → Leads to [[Positions/Half Guard]]
+- **Opponent uses their free leg to create a butterfly hook or push off your hip** (Effectiveness: Medium) - Your Response: Control their free leg with your hand or use your own leg to trap theirs. You can also adjust your angle to make it difficult for their free leg to generate leverage. In some cases, switching to a different pass variation like a knee slice becomes more appropriate. → Leads to [[Positions/Half Guard]]
 
 
 </section>

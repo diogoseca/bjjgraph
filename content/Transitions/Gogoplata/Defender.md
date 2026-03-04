@@ -158,7 +158,7 @@ The defense timeline is critically compressed compared to most submission escape
 
 Strategically, the best Gogoplata defense happens before the position is fully established. Recognizing the setup during the foot-threading phase from Mission Control and addressing it with posture recovery or arm extraction is far more effective than defending a locked Gogoplata. Defenders who understand the Rubber Guard attack chain can preemptively shut down Gogoplata entries by maintaining posture integrity and preventing the opponent from achieving the deep overhook control that precedes the shin-across-throat position. When caught, the defender must balance urgency with technical precision - panicked movements typically tighten the choke or expose alternative submissions.
 
-**Opponent's Starting Position**: [[Mission Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Strategically, the best Gogoplata defense happens before the position is fully e
 ### 1. Posture recovery and stacking pressure before the foot threads behind the head
 
 - **When to use**: Early in the setup when opponent releases their shin grip and begins threading the foot - the highest percentage defense window
-- **Targets**: [[Mission Control]]
+- **Targets**: [[Positions/Rubber Guard/Mission Control]]
 - **If successful**: You recover posture and return opponent to Mission Control where they must restart the attack sequence from scratch
 - **Risk**: If you fail to posture in time and the foot gets behind your head, you have worsened the position by driving forward into the choke
 
 ### 2. Strip the foot from behind your head using both hands while tucking chin toward the knee crook
 
 - **When to use**: When the foot is behind your head but opponent has not yet secured a deep two-handed grip on the back of your skull
-- **Targets**: [[Mission Control]]
+- **Targets**: [[Positions/Rubber Guard/Mission Control]]
 - **If successful**: Removing the foot eliminates the closed-loop submission structure and returns you to defending Mission Control
 - **Risk**: Using both hands to strip the foot removes your posting base, making you vulnerable to sweeps if the opponent redirects to hip bump or overhead sweep
 
 ### 3. Drive hips into opponent to flatten their hip elevation while turning chin into knee crook
 
 - **When to use**: When the Gogoplata is partially locked but opponent's hips are not maximally elevated - their finishing angle is imperfect
-- **Targets**: [[Mission Control]]
+- **Targets**: [[Positions/Rubber Guard/Mission Control]]
 - **If successful**: Flattening their hips removes the perpendicular shin angle needed for the choke, buying time to work hands behind head for foot extraction
 - **Risk**: Driving forward increases throat pressure momentarily before their hips flatten, and if they maintain elevation you have loaded more weight into the choke
 
 ### 4. Emergency tuck and roll toward turtle position to break the shin angle and foot configuration simultaneously
 
 - **When to use**: When the Gogoplata is fully locked with deep foot position and breathing is severely restricted - systematic escape time is not available
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: The explosive rolling movement breaks both the shin angle and foot position, though you will likely concede a positional disadvantage
 - **Risk**: The rolling motion exposes your back and may result in opponent following to mount or back control depending on their reaction speed
 
@@ -228,11 +228,11 @@ Strategically, the best Gogoplata defense happens before the position is fully e
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mission Control]]
+### → [[Positions/Rubber Guard/Mission Control]]
 
 Successfully strip the foot from behind your head or recover posture before the choke is fully locked. Focus on early recognition during the foot-threading phase and commit to posture recovery with your hands fighting the opponent's head control. Once the foot is removed or posture is recovered, you return to defending standard Mission Control which has significantly more escape options.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 If caught in a fully locked Gogoplata, the emergency tuck and roll can break the submission configuration at the cost of positional concession. Accept the positional loss to mount rather than risking unconsciousness. From mount bottom you have established escape sequences available, whereas inside a locked Gogoplata your options diminish rapidly with every passing second.
 

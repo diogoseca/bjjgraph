@@ -174,7 +174,7 @@ description: "How to execute the Overhook Sweep from closed guard in BJJ. Step-b
 
 The Overhook Sweep is a fundamental attacking technique from closed guard that capitalizes on controlling one of the opponent's arms with an overhook grip. This sweep is particularly effective when the opponent posts their hand on the mat or extends their arm, creating the opportunity to trap it and use their own base against them. The technique combines off-balancing principles with leverage mechanics to elevate and roll the opponent, transitioning from a bottom position to a dominant top position. The overhook sweep is highly reliable because it works with the opponent's natural defensive reactions - when they post to maintain base, they inadvertently create the exact weakness needed for the sweep. This makes it an excellent choice for practitioners at all levels, from beginners learning fundamental sweeping mechanics to advanced competitors using it as part of a sophisticated closed guard attacking system. The sweep can be executed both in gi and no-gi scenarios, though grip configurations differ slightly between the two contexts.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -227,9 +227,9 @@ The Overhook Sweep is a fundamental attacking technique from closed guard that c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Closed Guard]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -238,10 +238,10 @@ The Overhook Sweep is a fundamental attacking technique from closed guard that c
 
 ## Opponent Counters
 
-- **Opponent yanks trapped arm free before sweep is initiated** (Effectiveness: Medium) - Your Response: Immediately transition to hip bump sweep or switch to kimura attack on the arm they just freed, capitalizing on their pulling momentum to establish a new grip → Leads to [[Closed Guard]]
-- **Opponent bases wide with free hand to stabilize against the sweep direction** (Effectiveness: Low) - Your Response: Use their wide base against them by switching angle and attacking toward the posted hand side with a flower sweep or scissor sweep - the wide post opens the opposite direction → Leads to [[Closed Guard]]
-- **Opponent postures up forcefully using back muscles to create distance** (Effectiveness: Medium) - Your Response: Maintain overhook and transition to triangle or omoplata as their posture recovery creates the space needed for leg attacks over their shoulder → Leads to [[Closed Guard]]
-- **Opponent sprawls hips back and drives weight low to neutralize elevation** (Effectiveness: High) - Your Response: Follow their movement by sitting up while maintaining overhook, then transition to a technical stand-up or switch to an arm drag since their weight is committed backward → Leads to [[Closed Guard]]
+- **Opponent yanks trapped arm free before sweep is initiated** (Effectiveness: Medium) - Your Response: Immediately transition to hip bump sweep or switch to kimura attack on the arm they just freed, capitalizing on their pulling momentum to establish a new grip → Leads to [[Positions/Closed Guard]]
+- **Opponent bases wide with free hand to stabilize against the sweep direction** (Effectiveness: Low) - Your Response: Use their wide base against them by switching angle and attacking toward the posted hand side with a flower sweep or scissor sweep - the wide post opens the opposite direction → Leads to [[Positions/Closed Guard]]
+- **Opponent postures up forcefully using back muscles to create distance** (Effectiveness: Medium) - Your Response: Maintain overhook and transition to triangle or omoplata as their posture recovery creates the space needed for leg attacks over their shoulder → Leads to [[Positions/Closed Guard]]
+- **Opponent sprawls hips back and drives weight low to neutralize elevation** (Effectiveness: High) - Your Response: Follow their movement by sitting up while maintaining overhook, then transition to a technical stand-up or switch to an arm drag since their weight is committed backward → Leads to [[Positions/Closed Guard]]
 
 
 </section>

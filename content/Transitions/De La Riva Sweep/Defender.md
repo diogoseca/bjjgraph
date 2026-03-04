@@ -150,7 +150,7 @@ The most critical defensive principle is maintaining your base and weight distri
 
 Defense against DLR sweeps is not purely reactive. The best defenders proactively strip grips, address the hook, and initiate their own passing sequences before the bottom player can coordinate the sweep. Waiting passively in someone's DLR guard gives them time to set up perfect grip configurations and timing. Your defense should flow directly into passing attempts, turning their offensive position into your passing opportunity.
 
-**Opponent's Starting Position**: [[De La Riva Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -187,28 +187,28 @@ Defense against DLR sweeps is not purely reactive. The best defenders proactivel
 ### 1. Step back with the hooked leg to extract from the DLR hook while stripping the sleeve grip
 
 - **When to use**: Early in the sweep setup when you feel the hook tighten and the sleeve pull begin, before the bottom player generates full sweeping momentum
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Neutralizes the sweep by removing the primary lever, forces bottom player to re-establish guard structure and re-fight for grips
 - **Risk**: If you step back without stripping grips, bottom player can follow with X-Guard or Single Leg X-Guard entry
 
 ### 2. Post your free hand on the mat toward the sweep direction while driving your near knee to the mat to flatten their hips
 
 - **When to use**: When the sweep is already in motion and you need emergency base recovery, or when the sleeve grip prevents you from stepping back
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Stops the sweep mid-execution by re-establishing your base and flattening the bottom player's hips, removing their mechanical advantage
 - **Risk**: Posting exposes your arm to potential omoplata or triangle setups if bottom player redirects attack
 
 ### 3. Jump over the DLR hook to the opposite side while maintaining posture and immediately initiating a guard pass
 
 - **When to use**: When you read the sweep early and have enough mobility to clear the hook completely, especially effective against shallow DLR hooks
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Completely removes yourself from the DLR guard structure and positions you for an immediate passing attempt from a neutral or advantageous angle
 - **Risk**: If you land poorly or the bottom player inverts, they can take your back during the transition
 
 ### 4. Drive forward with heavy crossface pressure to flatten bottom player's shoulders to the mat while circling away from the hook
 
 - **When to use**: When bottom player's hips are not fully angled and you can use your weight advantage to shut down their mobility before the sweep develops
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Flattens bottom player and neutralizes the DLR structure, transitioning directly into a smash pass or pressure passing sequence
 - **Risk**: Committing weight forward against an alert DLR player with good grips can accelerate the sweep or open berimbolo entries
 
@@ -220,11 +220,11 @@ Defense against DLR sweeps is not purely reactive. The best defenders proactivel
 
 ## Best-Case Outcomes for Defender
 
-### → [[De La Riva Guard]]
+### → [[Positions/De La Riva Guard]]
 
 Strip the sleeve grip using your free hand while simultaneously stepping your hooked leg back to extract from the DLR hook. This forces the bottom player to restart their guard establishment without either of their primary controls, returning you to a neutral passing position.
 
-### → [[De La Riva Guard]]
+### → [[Positions/De La Riva Guard]]
 
 Jump over or backstep around the DLR hook while maintaining your grips on their legs or collar. Use the momentum of clearing the hook to immediately initiate a guard pass such as a leg drag, toreando, or knee slice before the bottom player can re-establish any guard structure.
 

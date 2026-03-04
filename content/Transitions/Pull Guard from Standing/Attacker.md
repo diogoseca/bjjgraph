@@ -180,7 +180,7 @@ description: "Execute the guard pull from standing in BJJ. Step-by-step grip set
 
 As the attacker executing the guard pull from standing, your objective is to use established grips to safely transition from a neutral standing exchange into closed guard bottom, where you gain immediate access to a complete offensive system of sweeps, submissions, and transitions. Success depends on grip security maintained throughout the descent, controlled hip placement that creates favorable angles, and immediate guard closure that denies your opponent any free passing opportunity during the transition. The guard pull is not a passive retreat to bottom position but an aggressive tactical choice to engage on your strongest terrain, and the quality of your execution in the first two seconds after landing determines whether you establish offensive control or face immediate defensive pressure.
 
-**From Position**: [[Standing Position]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
 
@@ -231,10 +231,10 @@ As the attacker executing the guard pull from standing, your objective is to use
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Success | [[Open Guard]] | 15% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Success | [[Positions/Open Guard]] | 15% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the guard pull from standing, your objective is to use
 
 ## Opponent Counters
 
-- **Opponent sprawls hips back and drives weight away as you begin sitting, creating separation** (Effectiveness: High) - Your Response: If the sprawl comes before you commit your hips, abort the pull by posting your foot and returning to standing to re-engage. If mid-pull, accelerate your leg closure and use maximum collar grip tension to pull them forward despite the sprawl. A strong collar grip makes pure sprawl defense alone insufficient to prevent the pull. → Leads to [[Standing Position]]
-- **Opponent drives a knee through the centerline during the transition before your guard closes** (Effectiveness: High) - Your Response: Use your sleeve grip to stiff-arm their advancing knee while accelerating leg closure on the opposite side. If the knee penetrates before you can close guard, transition immediately to half guard retention by clamping your legs around the intruding knee. From half guard, work to recover full guard rather than fighting a losing battle for closed guard closure. → Leads to [[Half Guard]]
-- **Opponent strips your controlling grips before you complete the descent to the mat** (Effectiveness: Medium) - Your Response: Immediately re-establish contact with any available connection point — collar tie, overhook, two-on-one on their remaining arm. If both grips are stripped before you sit, abort the pull entirely and return to standing rather than sitting without control. Never sit to guard without at least one controlling grip, as this gives a free passing opportunity. → Leads to [[Standing Position]]
-- **Opponent circles laterally and takes an angle as you begin the descent toward the mat** (Effectiveness: Medium) - Your Response: Follow their lateral movement with your hips by turning to face them as you sit rather than allowing them behind you. Your sleeve grip should track their circling arm. If they achieve a significant angle before you can adjust, release the guard pull attempt and address the back exposure by turning in and re-engaging from standing with active grip fighting. → Leads to [[Open Guard]]
+- **Opponent sprawls hips back and drives weight away as you begin sitting, creating separation** (Effectiveness: High) - Your Response: If the sprawl comes before you commit your hips, abort the pull by posting your foot and returning to standing to re-engage. If mid-pull, accelerate your leg closure and use maximum collar grip tension to pull them forward despite the sprawl. A strong collar grip makes pure sprawl defense alone insufficient to prevent the pull. → Leads to [[Positions/Standing Position]]
+- **Opponent drives a knee through the centerline during the transition before your guard closes** (Effectiveness: High) - Your Response: Use your sleeve grip to stiff-arm their advancing knee while accelerating leg closure on the opposite side. If the knee penetrates before you can close guard, transition immediately to half guard retention by clamping your legs around the intruding knee. From half guard, work to recover full guard rather than fighting a losing battle for closed guard closure. → Leads to [[Positions/Half Guard]]
+- **Opponent strips your controlling grips before you complete the descent to the mat** (Effectiveness: Medium) - Your Response: Immediately re-establish contact with any available connection point — collar tie, overhook, two-on-one on their remaining arm. If both grips are stripped before you sit, abort the pull entirely and return to standing rather than sitting without control. Never sit to guard without at least one controlling grip, as this gives a free passing opportunity. → Leads to [[Positions/Standing Position]]
+- **Opponent circles laterally and takes an angle as you begin the descent toward the mat** (Effectiveness: Medium) - Your Response: Follow their lateral movement with your hips by turning to face them as you sit rather than allowing them behind you. Your sleeve grip should track their circling arm. If they achieve a significant angle before you can adjust, release the guard pull attempt and address the back exposure by turning in and re-engaging from standing with active grip fighting. → Leads to [[Positions/Open Guard]]
 
 
 </section>

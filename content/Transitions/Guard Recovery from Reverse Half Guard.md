@@ -19,7 +19,7 @@ Guard Recovery from Reverse Half Guard is a defensive transition where the botto
 
 The technique demands coordinated movement across multiple body systems simultaneously: the legs must maintain the half guard hook to prevent leg extraction, the hips must generate rotational force through bridging, the head must wedge under the opponent to create turning space, and the arms must transition from back protection to underhook establishment at the precise moment of sufficient rotation. Failure at any stage resets the recovery or worsens position, making this one of the more technically demanding guard recovery sequences in the half guard system.
 
-**From Position**: [[Reverse Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Reverse Half Guard]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -30,9 +30,9 @@ The technique demands coordinated movement across multiple body systems simultan
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Failure | [[Reverse Half Guard]] | 35% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Failure | [[Positions/Half Guard/Reverse Half Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -189,29 +189,29 @@ Guard recovery from Reverse Half Guard is a critical defensive link within the h
 ## Related Techniques
 
 
-- [[Reverse Half Guard]] - Source position - the compromised inverted half guard from which guard recovery is initiated
+- [[Positions/Half Guard/Reverse Half Guard]] - Source position - the compromised inverted half guard from which guard recovery is initiated
 
-- [[Half Guard]] - Primary recovery target - standard half guard with knee shield and underhook defense
+- [[Positions/Half Guard]] - Primary recovery target - standard half guard with knee shield and underhook defense
 
-- [[Side Control]] - Counter outcome position when top player advances past guard during the rotation recovery
+- [[Positions/Side Control]] - Counter outcome position when top player advances past guard during the rotation recovery
 
-- [[Knee Shield Half Guard]] - Specific half guard variation that provides the strongest intermediate defensive structure after recovery
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Specific half guard variation that provides the strongest intermediate defensive structure after recovery
 
-- [[Deep Half Guard]] - Alternative recovery direction when rotation toward standard half guard is blocked but underneath access is available
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative recovery direction when rotation toward standard half guard is blocked but underneath access is available
 
-- [[Back Control]] - Dangerous position the top player may achieve if the bottom player's back exposure is not addressed during recovery
+- [[Positions/Back Control]] - Dangerous position the top player may achieve if the bottom player's back exposure is not addressed during recovery
 
-- [[Closed Guard]] - Full guard recovery option if enough rotation and distance are achieved during the transition
+- [[Positions/Closed Guard]] - Full guard recovery option if enough rotation and distance are achieved during the transition
 
-- [[Dogfight Position]] - Neutral scramble position that may result from aggressive rotation during recovery
+- [[Positions/Dogfight Position]] - Neutral scramble position that may result from aggressive rotation during recovery
 
-- [[Sweep from Reverse Half Guard]] - Offensive option to attempt before committing to guard recovery from reverse half guard
+- [[Transitions/Sweep from Reverse Half Guard]] - Offensive option to attempt before committing to guard recovery from reverse half guard
 
-- [[Escape Reverse Half Guard]] - Related escape technique addressing the same positional problem from reverse half guard
+- [[Transitions/Escape Reverse Half Guard]] - Related escape technique addressing the same positional problem from reverse half guard
 
-- [[Pass Reverse Half]] - Top player's passing technique from reverse half guard that the recovery must prevent
+- [[Transitions/Pass Reverse Half]] - Top player's passing technique from reverse half guard that the recovery must prevent
 
-- [[Invert from Reverse Half Guard]] - Alternative offensive transition using inversion rather than guard recovery rotation
+- [[Transitions/Invert from Reverse Half Guard]] - Alternative offensive transition using inversion rather than guard recovery rotation
 
 
 </section>

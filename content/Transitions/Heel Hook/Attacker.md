@@ -178,7 +178,7 @@ The attacking sequence follows a strict positional hierarchy: establish Ashi Gar
 
 Your body mechanics drive the finish, not arm strength. The rotation comes from driving your shoulder toward the mat, pulling your elbow to your hip, and extending your hips simultaneously. This full-body rotation generates far more torque than any arm-only effort and maintains your positional control throughout the finishing sequence.
 
-**From Position**: [[Ashi Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami]] (Bottom)
 
 </section>
 
@@ -230,8 +230,8 @@ Your body mechanics drive the finish, not arm strength. The rotation comes from 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Ashi Garami]] | 30% |
-| Counter | [[50-50 Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ Your body mechanics drive the finish, not arm strength. The rotation comes from 
 
 ## Opponent Counters
 
-- **Boot Defense (straightening the leg to hide heel)** (Effectiveness: High) - Your Response: Maintain strong knee-line control with your legs. If they boot, transition to straight ankle lock or reposition to better Ashi variation before re-attempting → Leads to [[Ashi Garami]]
-- **Hip rotation to face attacker and release pressure** (Effectiveness: High) - Your Response: Use your outside leg as a shelf on their hip to prevent rotation. Keep hips heavy and maintain inside space control. If they complete the turn, you lose finishing angle—reset position before re-attacking → Leads to [[Ashi Garami]]
-- **Counter heel hook on your own exposed leg** (Effectiveness: Medium) - Your Response: Ensure your own heel is protected before attacking. Keep your legs in defensive configuration with knees bent and heels hidden. If they secure your heel, disengage your attack and address the counter-threat immediately → Leads to [[50-50 Guard]]
-- **Spinning out and standing up to extract leg** (Effectiveness: Medium) - Your Response: Follow their movement with your hip control and transition to Single Leg X-Guard to maintain connection. If they fully stand, use elevation sweeps or re-enter Ashi Garami from below → Leads to [[Ashi Garami]]
+- **Boot Defense (straightening the leg to hide heel)** (Effectiveness: High) - Your Response: Maintain strong knee-line control with your legs. If they boot, transition to straight ankle lock or reposition to better Ashi variation before re-attempting → Leads to [[Positions/Ashi Garami]]
+- **Hip rotation to face attacker and release pressure** (Effectiveness: High) - Your Response: Use your outside leg as a shelf on their hip to prevent rotation. Keep hips heavy and maintain inside space control. If they complete the turn, you lose finishing angle—reset position before re-attacking → Leads to [[Positions/Ashi Garami]]
+- **Counter heel hook on your own exposed leg** (Effectiveness: Medium) - Your Response: Ensure your own heel is protected before attacking. Keep your legs in defensive configuration with knees bent and heels hidden. If they secure your heel, disengage your attack and address the counter-threat immediately → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Spinning out and standing up to extract leg** (Effectiveness: Medium) - Your Response: Follow their movement with your hip control and transition to Single Leg X-Guard to maintain connection. If they fully stand, use elevation sweeps or re-enter Ashi Garami from below → Leads to [[Positions/Ashi Garami]]
 
 
 </section>

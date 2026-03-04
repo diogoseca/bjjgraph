@@ -180,7 +180,7 @@ description: "How to execute the Harness to Body Lock transition in BJJ. Grip sw
 
 Executing the Transition to Body Lock requires converting your harness grip from a choking-optimized configuration around the upper chest to a takedown-optimized lock around the opponent's waist, all while maintaining the chest-to-back connection that defines your positional advantage. The transition capitalizes on the opponent's decision to stand as an escape from hooks, redirecting their upward movement into a new control position rather than allowing separation. Your primary tools are grip path management, hip pressure, and the ability to match your opponent's elevation changes while keeping your body weight loaded onto their structure. The body lock must be established before the opponent achieves full upright posture with their hands free to frame, making timing the single most important factor in successful execution.
 
-**From Position**: [[Harness]] (Top)
+**From Position**: [[Positions/Harness]] (Top)
 
 </section>
 
@@ -233,10 +233,10 @@ Executing the Transition to Body Lock requires converting your harness grip from
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Body Lock]] | 65% |
-| Failure | [[Harness]] | 20% |
-| Failure | [[Turtle]] | 10% |
-| Counter | [[Clinch]] | 5% |
+| Success | [[Positions/Body Lock]] | 65% |
+| Failure | [[Positions/Harness]] | 20% |
+| Failure | [[Positions/Turtle]] | 10% |
+| Counter | [[Positions/Clinch]] | 5% |
 
 
 </section>
@@ -245,10 +245,10 @@ Executing the Transition to Body Lock requires converting your harness grip from
 
 ## Opponent Counters
 
-- **Opponent posts hands on your wrists and fights grip before lock reaches waist** (Effectiveness: High) - Your Response: Increase chest pressure to pin their elbows against their body, making it difficult to reach your wrists. If they do get wrist control, use explosive hip bump to create momentary separation of their hands from your wrists, then complete the slide. → Leads to [[Harness]]
-- **Opponent drops back to seated position to deny the standing transition** (Effectiveness: Medium) - Your Response: If they sit back down, re-insert hooks immediately since their escape attempt has been abandoned. You return to standard harness back control with hooks, which is the original dominant position. → Leads to [[Harness]]
-- **Opponent turns their torso to face you during the grip slide** (Effectiveness: High) - Your Response: Maintain your locked grip and follow their rotation. If they turn fully, you end up in a front body lock which still provides control. Use the turning momentum to take them down to side control or re-circle to their back. → Leads to [[Clinch]]
-- **Opponent explosively sprawls hips away to break chest connection** (Effectiveness: Medium) - Your Response: Follow their hips with your own hip drive and maintain the grip at all costs. If they sprawl successfully but you keep the grip, transition to a turtle top position and work to re-establish back control from there. → Leads to [[Turtle]]
+- **Opponent posts hands on your wrists and fights grip before lock reaches waist** (Effectiveness: High) - Your Response: Increase chest pressure to pin their elbows against their body, making it difficult to reach your wrists. If they do get wrist control, use explosive hip bump to create momentary separation of their hands from your wrists, then complete the slide. → Leads to [[Positions/Harness]]
+- **Opponent drops back to seated position to deny the standing transition** (Effectiveness: Medium) - Your Response: If they sit back down, re-insert hooks immediately since their escape attempt has been abandoned. You return to standard harness back control with hooks, which is the original dominant position. → Leads to [[Positions/Harness]]
+- **Opponent turns their torso to face you during the grip slide** (Effectiveness: High) - Your Response: Maintain your locked grip and follow their rotation. If they turn fully, you end up in a front body lock which still provides control. Use the turning momentum to take them down to side control or re-circle to their back. → Leads to [[Positions/Clinch]]
+- **Opponent explosively sprawls hips away to break chest connection** (Effectiveness: Medium) - Your Response: Follow their hips with your own hip drive and maintain the grip at all costs. If they sprawl successfully but you keep the grip, transition to a turtle top position and work to re-establish back control from there. → Leads to [[Positions/Turtle]]
 
 
 </section>

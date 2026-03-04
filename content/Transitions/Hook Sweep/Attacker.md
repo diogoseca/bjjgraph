@@ -174,7 +174,7 @@ description: "How to execute Hook Sweep from Butterfly Guard in BJJ. Attacking p
 
 The Hook Sweep is a fundamental butterfly guard technique that leverages proper hook placement, angle creation, and weight manipulation to off-balance and sweep an opponent. This sweep is particularly effective when the opponent's weight is distributed forward or when they are attempting to pass your guard. The technique relies on elevating the opponent using a single butterfly hook while simultaneously pulling them off-balance with upper body grips, creating a sweeping motion that results in a dominant top position. The Hook Sweep is one of the most high-percentage sweeps from butterfly guard due to its mechanical efficiency and the difficulty opponents face in defending once proper grips and hooks are established. This technique forms the foundation of the butterfly guard system and connects seamlessly with other butterfly guard attacks, making it essential for any practitioner looking to develop a comprehensive guard game. The sweep can be executed from both seated and combat base butterfly positions, and its success depends on timing, proper hook placement, and the ability to create and exploit angles.
 
-**From Position**: [[Butterfly Guard]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
 
@@ -227,9 +227,9 @@ The Hook Sweep is a fundamental butterfly guard technique that leverages proper 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 68% |
-| Failure | [[Butterfly Guard]] | 20% |
-| Counter | [[Butterfly Guard]] | 12% |
+| Success | [[Positions/Side Control]] | 68% |
+| Failure | [[Positions/Butterfly Guard]] | 20% |
+| Counter | [[Positions/Butterfly Guard]] | 12% |
 
 
 </section>
@@ -238,10 +238,10 @@ The Hook Sweep is a fundamental butterfly guard technique that leverages proper 
 
 ## Opponent Counters
 
-- **Opponent posts hand to mat on sweeping side to prevent being toppled** (Effectiveness: High) - Your Response: Switch to opposite-side hook sweep exploiting the compromised base, or attack the posted arm with kimura since it is extended and vulnerable. Alternatively, use the post as an arm drag opportunity to take the back. → Leads to [[Butterfly Guard]]
-- **Opponent sprawls hips back and away to remove hooks from effective range** (Effectiveness: Medium) - Your Response: Follow their backward movement by transitioning to deep half guard entry or X-guard. Maintain grip connection and use their retreating momentum to enter leg entanglement positions. Their sprawl actually facilitates these transitions. → Leads to [[Butterfly Guard]]
-- **Opponent widens base and drops hips low to create stable platform** (Effectiveness: Medium) - Your Response: Create a more extreme angle and increase pulling force to collapse one side of their widened base. Chain to elevator sweep which exploits the low hip position, or threaten guillotine as their lowered head enters choking range. → Leads to [[Butterfly Guard]]
-- **Opponent strips your grips and establishes their own dominant grip configuration** (Effectiveness: High) - Your Response: Immediately re-engage grip fighting to establish alternative controls such as overhooks, underhooks, or wrist control. If grip re-establishment fails, transition to guard retention mode using hooks defensively while working to reset the grip exchange. → Leads to [[Butterfly Guard]]
+- **Opponent posts hand to mat on sweeping side to prevent being toppled** (Effectiveness: High) - Your Response: Switch to opposite-side hook sweep exploiting the compromised base, or attack the posted arm with kimura since it is extended and vulnerable. Alternatively, use the post as an arm drag opportunity to take the back. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent sprawls hips back and away to remove hooks from effective range** (Effectiveness: Medium) - Your Response: Follow their backward movement by transitioning to deep half guard entry or X-guard. Maintain grip connection and use their retreating momentum to enter leg entanglement positions. Their sprawl actually facilitates these transitions. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent widens base and drops hips low to create stable platform** (Effectiveness: Medium) - Your Response: Create a more extreme angle and increase pulling force to collapse one side of their widened base. Chain to elevator sweep which exploits the low hip position, or threaten guillotine as their lowered head enters choking range. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent strips your grips and establishes their own dominant grip configuration** (Effectiveness: High) - Your Response: Immediately re-engage grip fighting to establish alternative controls such as overhooks, underhooks, or wrist control. If grip re-establishment fails, transition to guard retention mode using hooks defensively while working to reset the grip exchange. → Leads to [[Positions/Butterfly Guard]]
 
 
 </section>

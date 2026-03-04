@@ -158,7 +158,7 @@ The defender's primary strategic objective is to prevent the attacker from achie
 
 The fundamental defensive dilemma is that protecting your heel from heel hook exposure often creates the straight leg alignment the kneebar requires. Skilled defenders learn to maintain heel protection while simultaneously managing knee alignment, using subtle knee bending and hip rotation to deny both attack angles. This dual awareness transforms kneebar defense from a reactive scramble into a proactive positional management system that prevents the attacker from ever establishing clean finishing mechanics.
 
-**Opponent's Starting Position**: [[Ushiro Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ The fundamental defensive dilemma is that protecting your heel from heel hook ex
 ### 1. Bend the trapped knee forcefully and turn it inward toward the attacker
 
 - **When to use**: As soon as you recognize the attacker's hip pivot beginning, before they establish perpendicular position
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Returns to neutral ushiro position where you must now defend both heel hook and kneebar threats, but with the immediate kneebar danger neutralized
 - **Risk**: Bending the knee while attacker maintains leg control can expose you to calf slicer if they triangle their legs around your shin
 
 ### 2. Drive hips toward attacker and extract the trapped leg while grip fighting their ankle control
 
 - **When to use**: When attacker has begun the pivot but has not yet fully secured the Gable grip behind your Achilles
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Full leg extraction leads to guard recovery in half guard or open guard with the leg lock exchange neutralized
 - **Risk**: Forward hip drive without breaking the ankle grip can worsen position by straightening the leg further into the kneebar
 
 ### 3. Roll through toward the attacker to break their perpendicular alignment and scramble to top position
 
 - **When to use**: When attacker has established the kneebar position but has not yet applied full bridging pressure for the finish
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Disrupts kneebar mechanics and creates scramble opportunity where you can recover guard or achieve top position
 - **Risk**: Rolling without controlling the attacker's legs can result in them following the roll and reestablishing the kneebar from a different angle
 
 ### 4. Use free leg to push attacker's top hip away while rotating trapped knee inward
 
 - **When to use**: When attacker is mid-pivot and their hips are not yet fully committed to perpendicular alignment
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Creates enough space to prevent the attacker from completing the pivot, returning to standard ushiro engagement
 - **Risk**: Committing the free leg to push may reduce your base and allow attacker to off-balance you during the defense
 
@@ -229,11 +229,11 @@ The fundamental defensive dilemma is that protecting your heel from heel hook ex
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ushiro Ashi-Garami]]
+### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Bend knee and rotate it inward before attacker completes the hip pivot. Use your free leg to push their hips away and deny perpendicular alignment. Fight the ankle grip by stripping their hands with two-on-one control. This returns you to the standard ushiro engagement where you still face leg lock threats but the immediate kneebar danger is neutralized.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Drive hips forward while simultaneously grip fighting the attacker's ankle control. As their grip breaks, continue forward momentum to extract your trapped leg completely. Use the scramble to establish half guard by trapping one of the attacker's legs between yours as you recover to a guard position. This fully exits the leg entanglement system.
 

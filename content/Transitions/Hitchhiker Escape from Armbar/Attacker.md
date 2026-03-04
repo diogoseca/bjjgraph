@@ -180,7 +180,7 @@ description: "Execute the Hitchhiker Escape from Armbar in BJJ. Step-by-step rot
 
 As the attacker executing the Hitchhiker Escape, your objective is to exploit the single-plane limitation of the armbar by introducing rotation perpendicular to the extension force. The escape begins with rotating the trapped arm so the thumb points toward your own head, then committing to a full-body rotation in that direction using a coordinated hip bridge. Every element of the escape works together: the thumb rotation changes the angle of the elbow joint relative to the opponent's hips, the bridge creates momentum, the free hand controls the opponent's leg to create space, and the body rotation carries you past the danger zone where the armbar is effective. Success requires understanding that this is a whole-body movement, not merely an arm escape. Your hips, core, and legs must drive the rotation while the arm position facilitates extraction through the rotational path you create.
 
-**From Position**: [[Armbar Control]] (Bottom)
+**From Position**: [[Positions/Armbar Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Hitchhiker Escape, your objective is to exploit th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 40% |
-| Failure | [[Armbar Control]] | 40% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Open Guard]] | 40% |
+| Failure | [[Positions/Armbar Control]] | 40% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Hitchhiker Escape, your objective is to exploit th
 
 ## Opponent Counters
 
-- **Opponent squeezes knees together tightly and raises hips to prevent rotation** (Effectiveness: High) - Your Response: Use your free hand to push the top knee away from your face while bridging higher to create additional rotational momentum. If the squeeze completely prevents rotation, revert to stacking defense or hand-clasping and wait for a better opening. → Leads to [[Armbar Control]]
-- **Opponent follows your rotation and transitions to belly-down armbar** (Effectiveness: High) - Your Response: Accelerate your rotation to outpace their adjustment. If they successfully follow to belly-down position, tuck your chin to your chest, keep your arm bent, and work to turn back into them or stand up. The belly-down armbar requires them to re-establish hip-to-shoulder contact, giving you a brief window. → Leads to [[Armbar Control]]
-- **Opponent releases the armbar and immediately transitions to mount** (Effectiveness: Medium) - Your Response: If you sense them releasing the arm, immediately recover guard by inserting your legs between your bodies before they can settle into mount. Frame on their hips with both hands and shrimp to create distance. The transition from armbar to mount creates a brief window where their weight is shifting that you can exploit. → Leads to [[Mount]]
-- **Opponent overhooks your trapped arm with their near arm to block the rotation** (Effectiveness: Medium) - Your Response: The overhook changes the control dynamic but also reduces their finishing leverage. Use your free hand to strip the overhook while continuing to bridge and create space. If the overhook holds, you may need to transition to a different escape strategy such as stacking since the rotation path is blocked. → Leads to [[Armbar Control]]
+- **Opponent squeezes knees together tightly and raises hips to prevent rotation** (Effectiveness: High) - Your Response: Use your free hand to push the top knee away from your face while bridging higher to create additional rotational momentum. If the squeeze completely prevents rotation, revert to stacking defense or hand-clasping and wait for a better opening. → Leads to [[Positions/Armbar Control]]
+- **Opponent follows your rotation and transitions to belly-down armbar** (Effectiveness: High) - Your Response: Accelerate your rotation to outpace their adjustment. If they successfully follow to belly-down position, tuck your chin to your chest, keep your arm bent, and work to turn back into them or stand up. The belly-down armbar requires them to re-establish hip-to-shoulder contact, giving you a brief window. → Leads to [[Positions/Armbar Control]]
+- **Opponent releases the armbar and immediately transitions to mount** (Effectiveness: Medium) - Your Response: If you sense them releasing the arm, immediately recover guard by inserting your legs between your bodies before they can settle into mount. Frame on their hips with both hands and shrimp to create distance. The transition from armbar to mount creates a brief window where their weight is shifting that you can exploit. → Leads to [[Positions/Mount]]
+- **Opponent overhooks your trapped arm with their near arm to block the rotation** (Effectiveness: Medium) - Your Response: The overhook changes the control dynamic but also reduces their finishing leverage. Use your free hand to strip the overhook while continuing to bridge and create space. If the overhook holds, you may need to transition to a different escape strategy such as stacking since the rotation path is blocked. → Leads to [[Positions/Armbar Control]]
 
 
 </section>

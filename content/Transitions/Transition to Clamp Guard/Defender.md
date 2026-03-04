@@ -132,7 +132,7 @@ description: "Learn to defend and counter the Transition to Clamp Guard. Recogni
 
 As the defender against the Transition to Clamp Guard, your primary objective is to prevent the opponent from isolating your arm between their legs. Once the clamp is fully established with the shin seated across your bicep and both legs closed, extraction becomes significantly more difficult and you face immediate armbar, triangle, and omoplata threats. Defense is most effective during the entry phase — recognizing the setup early and retracting the targeted arm before the shin makes contact. If the clamp does close, rapid extraction using proper mechanics is essential before the guard player can establish posture control and begin attacking.
 
-**Opponent's Starting Position**: [[Open Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -170,21 +170,21 @@ As the defender against the Transition to Clamp Guard, your primary objective is
 ### 1. Retract the arm immediately by bending the elbow and pulling it tight to your ribs before the shin seats on the bicep
 
 - **When to use**: At the first recognition cue — when you see the hip escape or feel initial shin contact on your arm. Most effective in the first 0.5 seconds of the attempt.
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Returns to standard open guard engagement with no arm isolation. You maintain full passing capability.
 - **Risk**: If you retract too slowly, the shin seats on the bicep and the second leg closes, making extraction much harder.
 
 ### 2. Drive forward aggressively with shoulder pressure to close the distance and prevent the opponent from establishing the hip angle needed for the clamp
 
 - **When to use**: When you recognize the hip escape but before the shin has threaded across your bicep. The forward drive eliminates the space needed for clamp mechanics.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You smash through the guard and advance to a passing position, potentially reaching half guard or side control.
 - **Risk**: If the shin is already on the bicep, the forward drive seats the clamp deeper and may create sweep opportunities for the opponent.
 
 ### 3. Circle your arm in a large outward rotation to slip past the shin before the second leg closes the clamp
 
 - **When to use**: When one shin has made contact on your bicep but the second leg has not yet closed. The circular motion exploits the single-contact vulnerability.
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Your arm clears the shin contact and returns to a free position. Immediately re-establish passing grips before they reattempt.
 - **Risk**: The circular motion may expose your arm to a triangle attempt if the opponent redirects their leg over your shoulder instead.
 
@@ -196,11 +196,11 @@ As the defender against the Transition to Clamp Guard, your primary objective is
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Prevent the clamp from establishing by retracting arms early, maintaining tight elbows, and not reaching inside the guard with extended arms. When you must engage grips, keep elbows pinned to your ribs.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Drive forward with strong shoulder pressure before the clamp closes, collapsing the space the opponent needs for shin threading. Combine the forward drive with a knee slice or leg weave to advance past their guard entirely.
 

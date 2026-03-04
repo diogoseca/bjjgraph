@@ -146,7 +146,7 @@ description: "Learn to prevent and counter the Double Sleeve to Lasso guard tran
 
 Defending the Double Sleeve to Lasso transition requires awareness of the bottom player's threading intentions and proactive arm management. As the defender in top position, your objective is to prevent the shin from crossing your arm, which would establish the powerful lasso control that severely restricts your mobility and passing options. Successful defense hinges on recognizing the threading attempt early through specific pre-threading cues, retracting the target arm before the shin completes its path, and using the bottom player's transition attempt as a window to advance your own passing position. Understanding the mechanics of the lasso entry allows you to position your arms and posture in ways that make the thread geometrically difficult, forcing the bottom player to abandon the attempt or settle for inferior guard positions.
 
-**Opponent's Starting Position**: [[Double Sleeve Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ Defending the Double Sleeve to Lasso transition requires awareness of the bottom
 ### 1. Retract the threatened arm by pulling your elbow tight to your ribs and rotating your wrist to strip the sleeve grip
 
 - **When to use**: As soon as you feel increased sleeve tension on one side combined with the foot lifting off your hip, before the shin enters
-- **Targets**: [[Double Sleeve Guard]]
+- **Targets**: [[Positions/Double Sleeve Guard]]
 - **If successful**: Bottom player fails to thread and must reset from double sleeve guard, potentially with a weakened or broken grip on the retracted side
 - **Risk**: If retraction is too late, the shin may already be partially threaded, making full extraction more difficult than prevention
 
 ### 2. Drive forward with shoulder pressure into the bottom player during the threading attempt to collapse their guard structure
 
 - **When to use**: When the bottom player lifts their foot off your hip to begin threading, removing their primary distance-management frame on that side
-- **Targets**: [[Double Sleeve Guard]]
+- **Targets**: [[Positions/Double Sleeve Guard]]
 - **If successful**: Collapses the bottom player's guard structure and prevents them from completing the thread by eliminating the space needed for hip rotation
 - **Risk**: If the bottom player is already mid-thread, forward pressure may actually help them complete the lasso by driving your arm deeper into their leg path
 
 ### 3. Strip both sleeve grips simultaneously by posting hands on opponent's hips and driving backward with posture
 
 - **When to use**: When the bottom player commits both arms to pulling and their feet are transitioning off your hips during the threading setup phase
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Completely breaks the bottom player's grip system, leaving them in open guard without sleeve controls while you maintain top position with full passing initiative
 - **Risk**: If the grip break fails, you may have compromised your own posture and arm positioning without gaining positional advantage
 
 ### 4. Circle laterally toward the threading side to flatten the angle and prevent the shin from achieving the crossing path
 
 - **When to use**: When you recognize the threading attempt early enough to reposition before the shin enters the threading channel
-- **Targets**: [[Double Sleeve Guard]]
+- **Targets**: [[Positions/Double Sleeve Guard]]
 - **If successful**: Removes the perpendicular angle the bottom player needs for threading, forcing them to abandon the attempt or readjust their entire guard structure
 - **Risk**: Circling may expose your back angle or create openings for alternative guard transitions like De La Riva entries on the opposite side
 
@@ -216,11 +216,11 @@ Defending the Double Sleeve to Lasso transition requires awareness of the bottom
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Time your grip break to coincide with the threading attempt when the bottom player has committed their leg to the transition and temporarily reduced their foot frames on your body. Strip both sleeve grips and immediately establish your own passing grips on their legs before they can recover controls.
 
-### → [[Double Sleeve Guard]]
+### → [[Positions/Double Sleeve Guard]]
 
 Retract the targeted arm sharply by pulling your elbow to your ribs the instant you feel the threading attempt initiate. Keep your arm tight against your body and maintain forward posture to deny the bottom player the space needed for a second threading attempt on the same side.
 

@@ -21,7 +21,7 @@ The technique's strategic value lies in its energy efficiency and reliability. W
 
 From a systems perspective, the frame escape integrates with the broader defensive toolkit available from Kuzure Kesa-Gatame bottom. It serves as the primary steady-state escape when explosive options are unavailable, and its mechanics naturally set up transitions to half guard where the bottom practitioner can immediately begin offensive sequences. The escape also creates submission defense windows by redirecting the top person's attention from arm attacks to position maintenance.
 
-**From Position**: [[Kuzure Kesa-Gatame]] (Bottom)
+**From Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ From a systems perspective, the frame escape integrates with the broader defensi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Kuzure Kesa-Gatame]] | 40% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Side Control/Kuzure Kesa-Gatame]] | 40% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Frame Escape from Kuzure Kesa-Gatame occupies a central role in the defensiv
 ## Related Techniques
 
 
-- [[Kuzure Kesa-Gatame]] - Source position from which this frame escape is executed
+- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Source position from which this frame escape is executed
 
-- [[Half Guard]] - Primary recovery position after successful escape completion
+- [[Positions/Half Guard]] - Primary recovery position after successful escape completion
 
-- [[Mount]] - Counter outcome position if escape is poorly timed or opponent advances
+- [[Positions/Mount]] - Counter outcome position if escape is poorly timed or opponent advances
 
-- [[Kesa Gatame]] - Related scarf hold position with similar escape principles and frame mechanics
+- [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position with similar escape principles and frame mechanics
 
-- [[Side Control]] - Broader position family sharing defensive framing and hip escape concepts
+- [[Positions/Side Control]] - Broader position family sharing defensive framing and hip escape concepts
 
-- [[Knee Shield Half Guard]] - Advanced recovery target offering immediate offensive frames after escape
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Advanced recovery target offering immediate offensive frames after escape
 
-- [[Bridge and Roll]] - Alternative escape technique creating complementary two-threat escape system
+- [[Transitions/Bridge and Roll]] - Alternative escape technique creating complementary two-threat escape system
 
-- [[Arm Recovery to Guard]] - Related escape from same position prioritizing trapped arm recovery first
+- [[Transitions/Arm Recovery to Guard]] - Related escape from same position prioritizing trapped arm recovery first
 
-- [[Elbow Escape to Guard]] - Fundamental escape technique sharing core hip escape mechanics
+- [[Transitions/Elbow Escape to Guard]] - Fundamental escape technique sharing core hip escape mechanics
 
-- [[Closed Guard]] - Alternative full guard recovery target through complete leg insertion
+- [[Positions/Closed Guard]] - Alternative full guard recovery target through complete leg insertion
 
 
 </section>

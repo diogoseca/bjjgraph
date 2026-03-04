@@ -184,7 +184,7 @@ The strategic value of this pass lies in its direct problem-solving approach. La
 
 This technique rewards patience and technical precision over athleticism. The clearing sequence requires understanding how the lapel is wrapped and systematically unwinding it rather than ripping against the fabric. The subsequent toreando must be immediate and committed, as any hesitation allows the opponent to recover guard or re-establish lapel grips. The combination of methodical clearing and explosive passing creates an effective solution to one of modern gi grappling's most challenging guard systems.
 
-**From Position**: [[Lapel Guard]] (Top)
+**From Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
 
@@ -236,9 +236,9 @@ This technique rewards patience and technical precision over athleticism. The cl
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -247,10 +247,10 @@ This technique rewards patience and technical precision over athleticism. The cl
 
 ## Opponent Counters
 
-- **Re-establishing lapel grip during clearing** (Effectiveness: High) - Your Response: Maintain constant control of their gripping hand throughout the clearing sequence. If they begin to re-grip, pause the clear and re-strip their hand control before continuing. → Leads to [[Lapel Guard]]
-- **Inverting or granby rolling as toreando initiates** (Effectiveness: Medium) - Your Response: Drive heavy shoulder pressure into their hips during the toreando. If they begin to invert, follow their rotation and transition to leg drag position rather than forcing the original passing angle. → Leads to [[Lapel Guard]]
-- **Sitting up and re-guarding during the transition phase** (Effectiveness: Medium) - Your Response: Minimize the gap between clearing and toreando execution. If they sit up, stuff their head down with collar grip pressure while continuing lateral movement to complete the pass. → Leads to [[Closed Guard]]
-- **Inserting knee shield when legs are released** (Effectiveness: Low) - Your Response: The toreando should pin their legs together and to one side, making knee shield insertion difficult. If they do insert a knee, transition to knee slice passing mechanics rather than forcing the bullfighter. → Leads to [[Lapel Guard]]
+- **Re-establishing lapel grip during clearing** (Effectiveness: High) - Your Response: Maintain constant control of their gripping hand throughout the clearing sequence. If they begin to re-grip, pause the clear and re-strip their hand control before continuing. → Leads to [[Positions/Lapel Guard]]
+- **Inverting or granby rolling as toreando initiates** (Effectiveness: Medium) - Your Response: Drive heavy shoulder pressure into their hips during the toreando. If they begin to invert, follow their rotation and transition to leg drag position rather than forcing the original passing angle. → Leads to [[Positions/Lapel Guard]]
+- **Sitting up and re-guarding during the transition phase** (Effectiveness: Medium) - Your Response: Minimize the gap between clearing and toreando execution. If they sit up, stuff their head down with collar grip pressure while continuing lateral movement to complete the pass. → Leads to [[Positions/Closed Guard]]
+- **Inserting knee shield when legs are released** (Effectiveness: Low) - Your Response: The toreando should pin their legs together and to one side, making knee shield insertion difficult. If they do insert a knee, transition to knee slice passing mechanics rather than forcing the bullfighter. → Leads to [[Positions/Lapel Guard]]
 
 
 </section>

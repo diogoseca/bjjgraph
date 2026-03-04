@@ -210,17 +210,17 @@ This position commonly arises when defending turtle position, during scrambles f
 
 ## Available Escapes
 
-### [[Rolling Escape to Guard]] (21% of attempts)
+### [[Transitions/Rolling Escape to Guard]] (21% of attempts)
 
-### [[Arm Extraction to Turtle]] (38% of attempts)
+### [[Transitions/Arm Extraction to Turtle]] (38% of attempts)
 
-### [[Hip Escape to Guard]] (17% of attempts)
+### [[Transitions/Hip Escape to Guard]] (17% of attempts)
 
-### [[Counter Roll to Top]] (4% of attempts)
+### [[Transitions/Counter Roll to Top]] (4% of attempts)
 
-### [[Granby Roll to Guard]] (18% of attempts)
+### [[Transitions/Granby Roll to Guard]] (18% of attempts)
 
-### [[Base Attack to Sweep]] (2% of attempts)
+### [[Transitions/Base Attack to Sweep]] (2% of attempts)
 
 
 
@@ -231,18 +231,18 @@ This position commonly arises when defending turtle position, during scrambles f
 ## Decision Making from This Position
 
 **If opponent is applying progressive shoulder pressure with tight leg control:**
-- Execute **[[Rolling Escape to Guard]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Tap Early if Pressure Dangerous]]** → [[Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Rolling Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Tap Early if Pressure Dangerous]]** → [[Positions/Game Over]] (Probability: 45%)
 
 
 **If opponent's posted leg base appears unstable or adjustable:**
-- Execute **[[Base Attack to Sweep]]** → [[Standing Position]] (Probability: 45%)
-- Execute **[[Arm Extraction to Turtle]]** → [[Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Base Attack to Sweep]]** → [[Positions/Standing Position]] (Probability: 45%)
+- Execute **[[Transitions/Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 55%)
 
 
 **If leg entanglement loosens but hip pressure remains:**
-- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 55%)
-- Execute **[[Arm Extraction]]** → [[Turtle]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Turtle]] (Probability: 45%)
 
 
 
@@ -371,14 +371,14 @@ Partner applies progressive Aoki Lock pressure very slowly. Practice tapping at 
 
 ## Related Positions and Techniques
 
-- **[[Omoplata Control]]** - Related submission defense - similar shoulder mechanics
-- **[[Kimura Trap]]** - Related shoulder lock defense system
-- **[[Turtle]]** - Common entry position and escape destination
-- **[[Closed Guard]]** - Primary escape target position
-- **[[Open Guard]]** - Alternative escape target position
-- **[[Rolling Escape to Guard]]** - Primary escape transition from this position
-- **[[Arm Extraction to Turtle]]** - Key escape technique addressing leg entanglement
-- **[[Granby Roll to Guard]]** - Alternative rolling escape pathway
+- **[[Positions/Omoplata Control]]** - Related submission defense - similar shoulder mechanics
+- **[[Positions/Kimura Trap]]** - Related shoulder lock defense system
+- **[[Positions/Turtle]]** - Common entry position and escape destination
+- **[[Positions/Closed Guard]]** - Primary escape target position
+- **[[Positions/Open Guard]]** - Alternative escape target position
+- **[[Transitions/Rolling Escape to Guard]]** - Primary escape transition from this position
+- **[[Transitions/Arm Extraction to Turtle]]** - Key escape technique addressing leg entanglement
+- **[[Transitions/Granby Roll to Guard]]** - Alternative rolling escape pathway
 
 
 </section>

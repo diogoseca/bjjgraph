@@ -178,7 +178,7 @@ The mechanical foundation of this transition relies on the backstep—a rotation
 
 Timing is critical for this transition. Executing too early abandons a potentially viable Estima Lock finish, while executing too late allows the opponent to extract their leg entirely or establish strong defensive frames. The optimal window occurs when you recognize the opponent's defense is working—their ankle rotation reduces your footlock pressure, their free leg threatens your balance, or their hip escape begins creating dangerous space. Reading these signals and immediately initiating the backstep preserves offensive momentum rather than losing the position entirely.
 
-**From Position**: [[Estima Lock]] (Top)
+**From Position**: [[Positions/Estima Lock]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ Timing is critical for this transition. Executing too early abandons a potential
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Saddle]] | 65% |
-| Failure | [[Estima Lock]] | 25% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Ashi Garami/Saddle]] | 65% |
+| Failure | [[Positions/Estima Lock]] | 25% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ Timing is critical for this transition. Executing too early abandons a potential
 
 ## Opponent Counters
 
-- **Opponent kicks free and posts their foot during backstep rotation** (Effectiveness: High) - Your Response: Accelerate the backstep and use your near-side hand to block their posting leg before it can establish a base. If they successfully post, immediately transition to leg drag passing rather than forcing the Saddle entry. → Leads to [[Open Guard]]
-- **Opponent straightens their leg and bridges during the transition window** (Effectiveness: Medium) - Your Response: Maintain heavy hip pressure against their leg throughout the rotation and keep your weight low. If they create significant space, abandon the Saddle and pursue outside ashi-garami or leg drag instead. → Leads to [[Estima Lock]]
-- **Opponent counter-rotates toward you and attempts to come on top** (Effectiveness: Medium) - Your Response: Use their rotation momentum to complete your backstep faster—their movement actually helps your transition. Immediately lock the triangle around their thigh before they can establish top position. → Leads to [[Open Guard]]
-- **Opponent sits up aggressively and frames on your hips during backstep** (Effectiveness: Low) - Your Response: Continue the backstep while using your free hand to swim past their frames. The sitting position actually assists your triangle establishment by bringing their thigh closer to your locking legs. → Leads to [[Estima Lock]]
+- **Opponent kicks free and posts their foot during backstep rotation** (Effectiveness: High) - Your Response: Accelerate the backstep and use your near-side hand to block their posting leg before it can establish a base. If they successfully post, immediately transition to leg drag passing rather than forcing the Saddle entry. → Leads to [[Positions/Open Guard]]
+- **Opponent straightens their leg and bridges during the transition window** (Effectiveness: Medium) - Your Response: Maintain heavy hip pressure against their leg throughout the rotation and keep your weight low. If they create significant space, abandon the Saddle and pursue outside ashi-garami or leg drag instead. → Leads to [[Positions/Estima Lock]]
+- **Opponent counter-rotates toward you and attempts to come on top** (Effectiveness: Medium) - Your Response: Use their rotation momentum to complete your backstep faster—their movement actually helps your transition. Immediately lock the triangle around their thigh before they can establish top position. → Leads to [[Positions/Open Guard]]
+- **Opponent sits up aggressively and frames on your hips during backstep** (Effectiveness: Low) - Your Response: Continue the backstep while using your free hand to swim past their frames. The sitting position actually assists your triangle establishment by bringing their thigh closer to your locking legs. → Leads to [[Positions/Estima Lock]]
 
 
 </section>

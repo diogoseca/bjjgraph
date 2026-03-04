@@ -160,7 +160,7 @@ The defender's primary challenge is that the Ezekiel attacks the neck directly t
 
 Defensive strategy follows a strict timeline: prevent the sleeve grip from being established, disrupt the arm thread if the grip is secured, create space through bridging or hip escape if the arm is threaded, and as a last resort, address the choke itself by fighting the pulling hand and turning into the pressure. Understanding that each stage of defense has diminishing returns reinforces the importance of early recognition and immediate reaction to the initial setup cues.
 
-**Opponent's Starting Position**: [[Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 
 </section>
@@ -200,28 +200,28 @@ Defensive strategy follows a strict timeline: prevent the sleeve grip from being
 ### 1. Frame on the bicep of the threading arm and push it away from your neck before it crosses your throat
 
 - **When to use**: As soon as you recognize the sleeve grip and the attacker begins threading the arm under your head - this is the highest-percentage defensive window
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Attacker's choke structure is broken and they must re-establish the sleeve grip and threading, returning to mount control without submission threat
 - **Risk**: Extending your arm to frame on their bicep can expose it to armbar or americana if the attacker abandons the Ezekiel and transitions
 
 ### 2. Bridge explosively toward the side of the threading arm while simultaneously hip escaping to create angle and space
 
 - **When to use**: When the arm has been threaded but the pulling hand has not yet been secured behind your head - you still have a brief window to disrupt the structure
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The bridge disrupts the attacker's base and the hip escape creates enough angle to recover half guard or prevent the bilateral compression needed for the choke
 - **Risk**: If the bridge fails or is mistimed, the attacker may advance to high mount where the Ezekiel becomes even tighter
 
 ### 3. Two-on-one grip fight the pulling hand behind your head, stripping it away while turning your chin toward the choking arm
 
 - **When to use**: When both hands are in position but the choke has not yet been fully tightened - this is your last-resort defense before the choke locks
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Removing the pulling hand eliminates the dynamic force needed to close the choke, forcing the attacker to reset their hand position
 - **Risk**: Committing both hands to fighting the pulling hand leaves your body undefended against transitions to armbar or americana
 
 ### 4. Swim your near-side arm under the attacker's threading arm and push it over your head to escape the arm loop
 
 - **When to use**: During the threading phase when there is still space between the attacker's forearm and your neck to insert your arm underneath
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Completely removes the choking arm from around your neck, forcing the attacker to abandon the Ezekiel and reset from mount
 - **Risk**: The swimming motion requires extending your arm which may be captured for an armbar if the attacker reads the escape
 
@@ -244,11 +244,11 @@ Defensive strategy follows a strict timeline: prevent the sleeve grip from being
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Disrupt the sleeve grip or arm threading early through active hand fighting on the bicep, forcing the attacker to abandon the choke and return to basic mount control without submission threat
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive bridge during the threading phase combined with hip escape to insert your knee and recover half guard, escaping the mount entirely while the attacker's hands are committed to the choke
 

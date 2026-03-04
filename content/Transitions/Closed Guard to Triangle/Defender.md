@@ -156,7 +156,7 @@ Defending the triangle setup from closed guard requires the top player to unders
 
 The defender's primary strategic framework centers on posture maintenance and arm management. Keeping the spine vertical and elbows connected to the torso eliminates the two prerequisites the attacker needs: broken posture and arm isolation. When posture is compromised, the defender must prioritize recovery over all other concerns, as every subsequent defensive action depends on structural integrity. Understanding that the attacker needs your arm across their centerline provides a clear defensive principle—keep elbows tight, hands connected to your own body, and never allow one arm to drift across the opponent's chest without the other following.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The defender's primary strategic framework centers on posture maintenance and ar
 ### 1. Posture recovery and grip stripping—drive hips back, straighten spine, and use two-on-one grip break to strip the controlling collar grip before the guard opens
 
 - **When to use**: Early stage defense when opponent has broken your posture and is establishing grips but has not yet opened their guard or begun the leg throw
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Returns to neutral closed guard position with posture intact, forcing opponent to restart the entire setup sequence from the beginning
 - **Risk**: If grip strip fails, the delay may give opponent time to complete arm isolation and proceed with triangle entry
 
 ### 2. Elbow retraction and stacking—pull the exposed arm back to your own hip while simultaneously driving forward with shoulder pressure to flatten the opponent and prevent hip escape angle
 
 - **When to use**: Mid-stage defense when opponent has begun isolating your arm but the triangle is not yet locked—their guard is open and leg is moving toward your shoulder
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Recovers arm position and collapses opponent's angle, returning to closed guard or creating opportunity to begin passing as their guard is already open
 - **Risk**: Driving forward without controlling the hip may allow opponent to complete the lock and transition to mounted triangle if your weight commits too far
 
 ### 3. Standing posture break with wedge defense—stand up in base while tucking chin and inserting the trapped arm's hand into the crook of the choking leg's knee to create a wedge preventing full lock
 
 - **When to use**: Late-stage defense when the triangle is partially locked but the opponent has not yet fully adjusted the angle or elevated their hips for maximum compression
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Creates sufficient space to begin extracting head and arm from the triangle configuration, potentially leading to guard pass or return to open guard top position
 - **Risk**: Standing exposes you to omoplata transition if opponent releases the triangle and swings their leg over your back, and may expose to armbar if trapped arm extends during escape
 
 ### 4. Square the hips and circle toward the trapped arm side—walk knees toward the side of the trapped arm to eliminate the perpendicular angle the attacker needs for effective arterial compression
 
 - **When to use**: When triangle is locked but you still have some posture and mobility—the opponent has the configuration but the angle is not yet optimized for finishing
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Reduces choking pressure by eliminating the critical 45-degree angle, buying time and space to work systematic escape by extracting head or transitioning to stack
 - **Risk**: Moving toward the trapped arm side without simultaneously addressing posture may allow opponent to adjust and re-angle their hips to maintain effective compression
 
@@ -227,11 +227,11 @@ The defender's primary strategic framework centers on posture maintenance and ar
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Maintain posture throughout the opponent's setup attempt, strip their controlling grips using two-on-one breaks, and retract any arm that drifts across centerline. Successful early defense returns you to standard closed guard top position where you can resume your guard opening and passing progression.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When caught in a late-stage triangle, stand in base and use stacking pressure combined with systematic arm extraction. Create a wedge with the trapped hand in the knee crook, square your hips to eliminate the angle, and work your head free by posting on the mat and walking backward. This defense may open into a passing opportunity as the opponent's guard is compromised.
 

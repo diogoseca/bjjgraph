@@ -21,7 +21,7 @@ The fundamental challenge of truck maintenance lies in balancing aggression with
 
 Successful truck maintenance creates the foundation for all high-percentage attacks from this position: the Twister, calf slicer, banana split, and transitions to traditional back control. Without reliable maintenance fundamentals, even perfectly timed entries from crab ride or turtle will be wasted as opponents escape before submissions can be applied. The maintenance skill itself also functions as an energy weapon, forcing the defender to work constantly against sustained pressure while the attacker conserves energy through efficient skeletal positioning.
 
-**From Position**: [[Truck]] (Top)
+**From Position**: [[Positions/Twister Control/Truck]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Successful truck maintenance creates the foundation for all high-percentage atta
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Truck]] | 55% |
-| Failure | [[Turtle]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Twister Control/Truck]] | 55% |
+| Failure | [[Positions/Turtle]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ Truck Maintenance is the foundational skill that enables the entire 10th Planet 
 ## Related Techniques
 
 
-- [[Truck]] - Source position being maintained through active control retention
+- [[Positions/Twister Control/Truck]] - Source position being maintained through active control retention
 
-- [[Back Control]] - Primary fallback position when truck maintenance becomes untenable
+- [[Positions/Back Control]] - Primary fallback position when truck maintenance becomes untenable
 
-- [[Turtle]] - Common entry position for truck and failure state when maintenance is lost
+- [[Positions/Turtle]] - Common entry position for truck and failure state when maintenance is lost
 
-- [[Escape from Truck]] - Opponent's primary escape method that maintenance directly counters
+- [[Transitions/Escape from Truck]] - Opponent's primary escape method that maintenance directly counters
 
-- [[Calf Slicer from Truck]] - Submission threat used as maintenance tool to prevent escape
+- [[Submissions/Calf Slicer from Truck]] - Submission threat used as maintenance tool to prevent escape
 
-- [[Twister Control]] - Submission target position accessible through successful truck maintenance
+- [[Positions/Twister Control]] - Submission target position accessible through successful truck maintenance
 
-- [[Crab Ride]] - Entry position that feeds into truck requiring immediate maintenance
+- [[Positions/Crab Ride]] - Entry position that feeds into truck requiring immediate maintenance
 
-- [[Hip Escape from Truck]] - Opponent hip escape that maintenance must address through boot pressure
+- [[Transitions/Hip Escape from Truck]] - Opponent hip escape that maintenance must address through boot pressure
 
-- [[Roll to Guard from Truck]] - Opponent rolling escape countered by maintenance adjustments
+- [[Transitions/Roll to Guard from Truck]] - Opponent rolling escape countered by maintenance adjustments
 
-- [[Electric Chair]] - Related 10th Planet leg entanglement sharing maintenance principles
+- [[Positions/Half Guard/Electric Chair]] - Related 10th Planet leg entanglement sharing maintenance principles
 
 
 </section>

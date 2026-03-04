@@ -206,35 +206,35 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 
 ## Available Escapes
 
-### [[Tripod Sweep]] (53% of attempts)
+### [[Transitions/Tripod Sweep]] (53% of attempts)
 
-### [[Sickle Sweep]] (14% of attempts)
+### [[Transitions/Sickle Sweep]] (14% of attempts)
 
-### [[Tomoe Nage]] (8% of attempts)
+### [[Transitions/Tomoe Nage]] (8% of attempts)
 
-### [[Lumberjack Sweep]] (6% of attempts)
+### [[Transitions/Lumberjack Sweep]] (6% of attempts)
 
-### [[Push Sweep from Feet on Hips]] (5% of attempts)
+### [[Transitions/Push Sweep from Feet on Hips]] (5% of attempts)
 
-### [[Single Leg X Sweep]] (3% of attempts)
+### [[Transitions/Single Leg X Sweep]] (3% of attempts)
 
-### [[De La Riva Sweep]] (3% of attempts)
+### [[Transitions/De La Riva Sweep]] (3% of attempts)
 
-### [[Arm Drag Sweep]] (2% of attempts)
+### [[Transitions/Arm Drag Sweep]] (2% of attempts)
 
-### [[Balloon Sweep]] (2% of attempts)
+### [[Transitions/Balloon Sweep]] (2% of attempts)
 
-### [[Elevator Sweep]] (2% of attempts)
+### [[Transitions/Elevator Sweep]] (2% of attempts)
 
-### [[X-Guard Sweep]] (1% of attempts)
+### [[Transitions/X-Guard Sweep]] (1% of attempts)
 
-### [[Feet on Hips to De La Riva]] (0% of attempts)
+### [[Transitions/Feet on Hips to De La Riva]] (0% of attempts)
 
-### [[Guard Pull]] (0% of attempts)
+### [[Transitions/Guard Pull]] (0% of attempts)
 
-### [[Feet on Hips Sickle Sweep]] (0% of attempts)
+### [[Transitions/Feet on Hips Sickle Sweep]] (0% of attempts)
 
-### [[Feet on Hips Tripod Sweep]] (1% of attempts)
+### [[Transitions/Feet on Hips Tripod Sweep]] (1% of attempts)
 
 
 
@@ -245,29 +245,29 @@ Feet on Hips Guard Bottom is the guard player's perspective in this fundamental 
 ## Decision Making from This Position
 
 **If opponent stands tall with upright posture and reaches for pant grips while maintaining distance:**
-- Execute **[[Spider Guard Sweeps]]** → [[Spider Guard]] (Probability: 65%)
-- Execute **[[De La Riva Sweep]]** → [[De La Riva Guard]] (Probability: 60%)
+- Execute **[[Spider Guard Sweeps]]** → [[Positions/Spider Guard]] (Probability: 65%)
+- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/De La Riva Guard]] (Probability: 60%)
 
 
 **If opponent drops to combat base attempting to control ankles or close distance:**
-- Execute **[[Butterfly Guard to X-Guard]]** → [[X-Guard]] (Probability: 55%)
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 50%)
+- Execute **[[Transitions/Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 50%)
 
 
 **If opponent commits weight forward to drive over frames with pressure:**
-- Execute **[[Scissor Sweep]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Pendulum Sweep]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Transitions/Scissor Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent circles laterally attempting Toreando pass or leg drag:**
-- Execute **[[De La Riva Sweep]]** → [[De La Riva Guard]] (Probability: 60%)
-- Execute **[[Guard Recovery]]** → [[Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/De La Riva Guard]] (Probability: 60%)
+- Execute **[[Principles/Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
 **If opponent grabs both ankles and attempts to stack or control legs:**
-- Execute **[[Omoplata Sweep]]** → [[Omoplata Control]] (Probability: 55%)
-- Execute **[[Guard Recovery]]** → [[Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 55%)
+- Execute **[[Principles/Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
 
@@ -413,15 +413,15 @@ Top partner starts with one ankle controlled. Bottom player must recover feet-on
 
 ## Related Positions and Techniques
 
-- **[[Open Guard]]** - Parent category - Feet on Hips Guard is fundamental open guard variation
-- **[[Spider Guard]]** - Common transition when grips are established on sleeves from feet-on-hips
-- **[[De La Riva Guard]]** - Natural progression when opponent attempts to pass to one side
-- **[[X-Guard]]** - Transition target when opponent steps in close or attempts ankle control
-- **[[Butterfly Guard]]** - Alternative guard when opponent drops to combat base between legs
-- **[[Closed Guard]]** - Recovery position when opponent drives forward into guard
-- **[[Triangle Control]]** - Primary submission threat when opponent reaches forward with arms
-- **[[Scissor Sweep]]** - High-percentage sweep when opponent commits weight forward
-- **[[Pendulum Sweep]]** - Alternative sweep utilizing same foot-on-hip mechanics
+- **[[Positions/Open Guard]]** - Parent category - Feet on Hips Guard is fundamental open guard variation
+- **[[Positions/Spider Guard]]** - Common transition when grips are established on sleeves from feet-on-hips
+- **[[Positions/De La Riva Guard]]** - Natural progression when opponent attempts to pass to one side
+- **[[Positions/X-Guard]]** - Transition target when opponent steps in close or attempts ankle control
+- **[[Positions/Butterfly Guard]]** - Alternative guard when opponent drops to combat base between legs
+- **[[Positions/Closed Guard]]** - Recovery position when opponent drives forward into guard
+- **[[Positions/Triangle Control]]** - Primary submission threat when opponent reaches forward with arms
+- **[[Transitions/Scissor Sweep]]** - High-percentage sweep when opponent commits weight forward
+- **[[Transitions/Pendulum Sweep]]** - Alternative sweep utilizing same foot-on-hip mechanics
 
 
 </section>

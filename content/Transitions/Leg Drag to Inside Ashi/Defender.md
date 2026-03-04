@@ -156,7 +156,7 @@ Defending the Leg Drag to Inside Ashi transition requires recognizing the moment
 
 The defender's primary advantage is timing. The transition from leg drag to ashi-garami requires the attacker to release upper body pressure and sit back, creating a brief moment where their control is weakest. Recognizing the cues that signal this shift—the attacker dropping their hips, releasing shoulder pressure, or threading a leg between yours—allows you to act during the transition rather than after the position is consolidated. Early intervention through leg straightening, hip creation, or turning into the attacker prevents the entanglement from forming. If caught in inside ashi, the priority becomes fighting the knee line control and preventing heel exposure while working systematic extraction of your trapped leg.
 
-**Opponent's Starting Position**: [[Leg Drag Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The defender's primary advantage is timing. The transition from leg drag to ashi
 ### 1. Immediately straighten your trapped leg and kick through before the attacker establishes hooks
 
 - **When to use**: As soon as you feel the attacker sitting back and releasing upper body pressure—this is the highest-percentage window
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: You retract your leg from the entanglement attempt and remain in leg drag bottom, which is superior to being caught in inside ashi-garami
 - **Risk**: If the attacker has already secured knee line control, kicking through is ineffective and may expose your heel further
 
 ### 2. Turn into the attacker by sitting up and facing them directly while fighting their leg hooks with your hands
 
 - **When to use**: When the attacker has begun threading their inside leg but has not yet consolidated the knee line hook
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You face the attacker directly, strip their leg hooks, and can recover to half guard or establish a seated guard position
 - **Risk**: Sitting up without addressing the leg hooks first can result in the attacker using your momentum to tighten the entanglement
 
 ### 3. Create hip separation by pushing against their hip with your free leg while extracting your trapped leg
 
 - **When to use**: When partially caught with the attacker's inside leg across your hip but before they secure the heel grip
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough space to pull your knee free from their leg triangle and recover to half guard or open guard
 - **Risk**: Pushing with your free leg can compromise your base and allow the attacker to transition to a different entanglement like cross ashi
 
 ### 4. Boot your trapped foot to the floor and drive your hips forward to prevent the attacker from pulling your leg tight
 
 - **When to use**: Early in the transition when the attacker is still adjusting from passing position to seated ashi position
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: You prevent the attacker from completing the sit-back and can re-establish the leg drag passing dynamic where you are on bottom defending the pass rather than a leg attack
 - **Risk**: Requires significant leg strength and timing; if the attacker already has deep hooks, driving forward pulls you deeper into the entanglement
 
@@ -227,11 +227,11 @@ The defender's primary advantage is timing. The transition from leg drag to ashi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Drag Control]]
+### → [[Positions/Leg Drag Control]]
 
 Straighten your trapped leg explosively the moment you feel the attacker's upper body pressure release and their hips drop. Kick your heel to the mat and retract your knee before they can establish the outside hook over your knee line. This returns you to the leg drag bottom position where the attacker must restart their passing or leg attack sequence.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Turn into the attacker by sitting up and facing them while stripping their leg hooks with your hands. Push their inside leg off your hip and retract your knee to your chest. As you clear the entanglement, immediately insert a knee shield or establish an underhook to transition to half guard bottom, which provides significantly better defensive and offensive options than being in leg entanglement bottom.
 

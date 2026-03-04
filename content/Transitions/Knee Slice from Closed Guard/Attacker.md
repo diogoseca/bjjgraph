@@ -180,7 +180,7 @@ description: "Learn to execute the knee slice pass from closed guard top. Guard 
 
 The knee slice from closed guard top demands a seamless chain from posture establishment through guard opening into immediate passing pressure. As the attacker, your objective is to deny the bottom player any recovery time between guard break and pass initiation. The technique rewards decisive, committed movement where the guard opening and knee insertion function as a single coordinated action rather than two separate steps. Success requires precise crossface timing, diagonal hip pressure, and relentless forward drive that overwhelms defensive frames before they can be established. Mastering this transition transforms guard opening from a vulnerable moment into an immediate passing opportunity.
 
-**From Position**: [[Closed Guard]] (Top)
+**From Position**: [[Positions/Closed Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The knee slice from closed guard top demands a seamless chain from posture estab
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Closed Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The knee slice from closed guard top demands a seamless chain from posture estab
 
 ## Opponent Counters
 
-- **Bottom player re-closes guard before knee can penetrate the thigh line** (Effectiveness: High) - Your Response: Maintain posture and immediately re-attempt the guard break. Use both hands on the hips with elbows inside their thighs to create wider separation before committing to the knee slice. → Leads to [[Closed Guard]]
-- **Bottom player frames on hip and shrimps away to create distance for guard recovery** (Effectiveness: Medium) - Your Response: Follow the hip escape with your own hip pressure, maintaining chest connection and driving forward. Strip the hip frame by swimming your arm inside or collapsing their elbow with shoulder weight. → Leads to [[Closed Guard]]
-- **Bottom player secures underhook and drives forward for a sweep during the transition** (Effectiveness: Medium) - Your Response: Immediately apply whizzer control on the underhook arm and sprawl your hips back to kill their sweep angle. Use the whizzer to re-establish crossface control before continuing the pass. → Leads to [[Half Guard]]
-- **Bottom player inserts knee shield to block the knee slice path before it crosses center** (Effectiveness: High) - Your Response: Switch to a smash pass approach by driving chest weight into the knee shield to flatten it. Alternatively, backstep to the opposite side or disengage to headquarters and re-enter with a different passing angle. → Leads to [[Closed Guard]]
+- **Bottom player re-closes guard before knee can penetrate the thigh line** (Effectiveness: High) - Your Response: Maintain posture and immediately re-attempt the guard break. Use both hands on the hips with elbows inside their thighs to create wider separation before committing to the knee slice. → Leads to [[Positions/Closed Guard]]
+- **Bottom player frames on hip and shrimps away to create distance for guard recovery** (Effectiveness: Medium) - Your Response: Follow the hip escape with your own hip pressure, maintaining chest connection and driving forward. Strip the hip frame by swimming your arm inside or collapsing their elbow with shoulder weight. → Leads to [[Positions/Closed Guard]]
+- **Bottom player secures underhook and drives forward for a sweep during the transition** (Effectiveness: Medium) - Your Response: Immediately apply whizzer control on the underhook arm and sprawl your hips back to kill their sweep angle. Use the whizzer to re-establish crossface control before continuing the pass. → Leads to [[Positions/Half Guard]]
+- **Bottom player inserts knee shield to block the knee slice path before it crosses center** (Effectiveness: High) - Your Response: Switch to a smash pass approach by driving chest weight into the knee shield to flatten it. Alternatively, backstep to the opposite side or disengage to headquarters and re-enter with a different passing angle. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

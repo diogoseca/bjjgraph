@@ -180,7 +180,7 @@ description: "Master the RDLR Backstep Counter from the attacker perspective. St
 
 The attacker in the RDLR Backstep Counter is the top player who uses a controlled backward stepping motion to clear the opponent's Reverse De La Riva hook and establish Headquarters Position. Success requires coordinating three simultaneous priorities: maintaining upper body control to prevent inversions, stripping the ankle grip that steers the hook, and executing a precise backstep arc that completely clears the entanglement. The technique rewards patience and mechanical precision over speed, as controlled backsteps maintain base integrity while explosive retreats create distance that the bottom player can exploit for guard recovery or alternative guard entries.
 
-**From Position**: [[Reverse De La Riva Guard]] (Top)
+**From Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The attacker in the RDLR Backstep Counter is the top player who uses a controlle
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Headquarters Position]] | 55% |
-| Failure | [[Reverse De La Riva Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Headquarters Position]] | 55% |
+| Failure | [[Positions/De La Riva Guard/Reverse De La Riva Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The attacker in the RDLR Backstep Counter is the top player who uses a controlle
 
 ## Opponent Counters
 
-- **Bottom player follows the backstep with inversion, rotating shoulders toward the mat for berimbolo or crab ride entry** (Effectiveness: High) - Your Response: Drive chest forward and down toward their hips immediately upon sensing shoulder rotation. Use your cross-face grip to turn their head away from the rotation direction. If they have already committed to the inversion, transition to body lock around their torso to pin them flat and eliminate rotational capacity. → Leads to [[Half Guard]]
-- **Bottom player re-hooks the leg during the backstep by adjusting hook depth and angle before clearance completes** (Effectiveness: Medium) - Your Response: Increase the arc of your backstep by stepping further behind and wider to create more distance from their re-hooking range. Simultaneously push their hooking leg down at the knee with your free hand to prevent the instep from catching your calf or thigh during the step. → Leads to [[Reverse De La Riva Guard]]
-- **Bottom player transitions to Single Leg X or X-Guard by repositioning feet on hips as the backstep creates space** (Effectiveness: Medium) - Your Response: Immediately strip foot placement on hip by gripping their ankle and pushing it to the mat. Do not allow dual hip control to establish. If one foot is already positioned, step back further and address it with grip breaks before attempting to settle into Headquarters. → Leads to [[Reverse De La Riva Guard]]
-- **Bottom player uses the backstep momentum to attempt a technical standup and come to feet** (Effectiveness: Low) - Your Response: Maintain cross-face or collar control to keep their upper body connected to the mat. If they begin rising, switch to a snapdown or front headlock control to redirect their momentum downward rather than allowing a clean standup that resets to neutral. → Leads to [[Reverse De La Riva Guard]]
+- **Bottom player follows the backstep with inversion, rotating shoulders toward the mat for berimbolo or crab ride entry** (Effectiveness: High) - Your Response: Drive chest forward and down toward their hips immediately upon sensing shoulder rotation. Use your cross-face grip to turn their head away from the rotation direction. If they have already committed to the inversion, transition to body lock around their torso to pin them flat and eliminate rotational capacity. → Leads to [[Positions/Half Guard]]
+- **Bottom player re-hooks the leg during the backstep by adjusting hook depth and angle before clearance completes** (Effectiveness: Medium) - Your Response: Increase the arc of your backstep by stepping further behind and wider to create more distance from their re-hooking range. Simultaneously push their hooking leg down at the knee with your free hand to prevent the instep from catching your calf or thigh during the step. → Leads to [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
+- **Bottom player transitions to Single Leg X or X-Guard by repositioning feet on hips as the backstep creates space** (Effectiveness: Medium) - Your Response: Immediately strip foot placement on hip by gripping their ankle and pushing it to the mat. Do not allow dual hip control to establish. If one foot is already positioned, step back further and address it with grip breaks before attempting to settle into Headquarters. → Leads to [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
+- **Bottom player uses the backstep momentum to attempt a technical standup and come to feet** (Effectiveness: Low) - Your Response: Maintain cross-face or collar control to keep their upper body connected to the mat. If they begin rising, switch to a snapdown or front headlock control to redirect their momentum downward rather than allowing a clean standup that resets to neutral. → Leads to [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 
 
 </section>

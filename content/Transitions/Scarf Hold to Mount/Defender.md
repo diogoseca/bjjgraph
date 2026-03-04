@@ -154,7 +154,7 @@ description: "Learn to defend and counter the Scarf Hold to Mount transition in 
 
 Defending the Scarf Hold to Mount transition requires recognition of the specific preparatory movements that signal the mounting attempt, combined with decisive action during the narrow window when the top player is most vulnerable. The defender must balance immediate escape attempts with energy conservation, understanding that the transition moment itself offers the highest-percentage defensive opportunities. Successful defense prioritizes knee insertion to recover half guard over explosive bridge attempts that risk back exposure, and integrates frame-based prevention with tactical counter-timing to disrupt the mounting sequence at its most mechanically weak point. The key defensive insight is that the attacker must sacrifice some control to complete the transition, and this sacrifice is your primary opportunity.
 
-**Opponent's Starting Position**: [[Scarf Hold Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Scarf Hold Position]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Scarf Hold to Mount transition requires recognition of the specifi
 ### 1. Explosive bridge toward the attacker's stepping side at the moment their leg lifts from the mat
 
 - **When to use**: When you detect the attacker's far leg lifting for the step-over and they have only one leg posted for base. The bridge must be timed precisely to the moment of maximum instability.
-- **Targets**: [[Scarf Hold Position]]
+- **Targets**: [[Positions/Side Control/Scarf Hold Position]]
 - **If successful**: The attacker loses balance and must abort the step-over, resetting to scarf hold control. Use the reset moment to improve your defensive positioning and establish stronger frames.
 - **Risk**: If mistimed, the bridge wastes energy and the attacker completes the mount while you are recovering from the failed bridge attempt.
 
 ### 2. Drive far-side knee upward and across the attacker's path to insert it between your bodies for half guard recovery
 
 - **When to use**: As soon as you detect the step-over initiation through grip changes and weight shift. The knee must enter the path before the attacker's stepping leg clears your hip line.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The attacker is caught in half guard top position, which is significantly more defensible than mount and provides immediate sweep and guard recovery options.
 - **Risk**: If the knee insertion is too late, the attacker clears your knee and establishes mount with your leg partially extended, making the initial mount escape more difficult.
 
 ### 3. Establish strong frame on attacker's near hip with your free arm to physically block the step-over path
 
 - **When to use**: Preemptively when you detect far hip grip establishment and suspect the mount transition is imminent. The frame must be established before the attacker releases head control.
-- **Targets**: [[Scarf Hold Position]]
+- **Targets**: [[Positions/Side Control/Scarf Hold Position]]
 - **If successful**: The physical barrier prevents the attacker from completing the step-over, forcing them to either address your frame or abandon the transition attempt entirely.
 - **Risk**: Extended arm framing on the hip can be attacked with americana or wrist control if the attacker recognizes the frame and redirects to submission rather than continuing the mount transition.
 
 ### 4. Turn into the attacker and establish underhook during the head control release window
 
 - **When to use**: When the attacker releases head control to post their arm for the step-over, creating a brief window where your head mobility is restored and you can turn toward them.
-- **Targets**: [[Scarf Hold Position]]
+- **Targets**: [[Positions/Side Control/Scarf Hold Position]]
 - **If successful**: Turning into the attacker and establishing an underhook disrupts the perpendicular angle required for the mount transition and creates sweep and guard recovery opportunities.
 - **Risk**: If the turn is incomplete or the underhook is shallow, the attacker can crossface and drive you back flat, potentially establishing mount from a worse defensive position.
 
@@ -225,11 +225,11 @@ Defending the Scarf Hold to Mount transition requires recognition of the specifi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Insert your far-side knee across the attacker's path during the step-over to recover half guard before mount is established. Time the insertion to the moment the attacker's leg lifts, driving your knee toward your own chest and across their hip line. Even a partial insertion prevents full mount and creates immediate guard retention opportunities.
 
-### → [[Scarf Hold Position]]
+### → [[Positions/Side Control/Scarf Hold Position]]
 
 Use a combination of hip framing, well-timed bridge, and grip fighting to force the attacker to abort the mount transition and reset to scarf hold. While remaining in scarf hold bottom is not ideal, it is significantly better than being mounted and preserves your existing defensive structure and escape opportunities.
 

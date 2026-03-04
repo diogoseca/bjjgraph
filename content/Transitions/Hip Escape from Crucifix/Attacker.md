@@ -186,7 +186,7 @@ description: "Complete guide to executing the hip escape from crucifix in BJJ. L
 
 Executing the hip escape from crucifix requires precise understanding of how lateral hip movement changes the geometry of the leg trap holding your arm. As the escaping player, your goal is to systematically create space through shrimping motions that exploit the angle-dependent nature of the crucifix control structure. This technique demands patience, proper neck defense throughout, and the ability to chain hip movements with arm extraction and immediate positional recovery. Unlike explosive bridge escapes, the hip escape relies on incremental space creation and technical precision, making it effective even when fatigued or outmatched in size and strength. The escape follows a strict hierarchy: defend the neck, create angle change through hip movement, extract the arm, and immediately recover to turtle without pause.
 
-**From Position**: [[Crucifix]] (Bottom)
+**From Position**: [[Positions/Crucifix]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ Executing the hip escape from crucifix requires precise understanding of how lat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 45% |
-| Failure | [[Crucifix]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Turtle]] | 45% |
+| Failure | [[Positions/Crucifix]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ Executing the hip escape from crucifix requires precise understanding of how lat
 
 ## Opponent Counters
 
-- **Opponent tightens leg triangle squeeze reactively during hip escape attempt** (Effectiveness: High) - Your Response: Pause the escape, re-establish your frame, and wait for the opponent to transition to a submission attempt—the loosening during their attack creates the next escape window → Leads to [[Crucifix]]
-- **Opponent attacks the neck with choke during escape movement when neck becomes exposed** (Effectiveness: High) - Your Response: Immediately abandon the escape and prioritize two-on-one choke defense with your free hand; resume escape only after completely neutralizing the choke threat → Leads to [[Crucifix]]
-- **Opponent follows hip movement to maintain perpendicular alignment and preserve trap angle** (Effectiveness: Medium) - Your Response: Chain multiple rapid hip escapes in the same direction to outpace their adjustment, or execute a directional change to catch them mid-correction → Leads to [[Crucifix]]
-- **Opponent releases crucifix and transitions to standard back control as space is created** (Effectiveness: Medium) - Your Response: Accept back control as a significant positional improvement over crucifix and immediately begin standard back escape sequences from the more familiar position → Leads to [[Back Control]]
+- **Opponent tightens leg triangle squeeze reactively during hip escape attempt** (Effectiveness: High) - Your Response: Pause the escape, re-establish your frame, and wait for the opponent to transition to a submission attempt—the loosening during their attack creates the next escape window → Leads to [[Positions/Crucifix]]
+- **Opponent attacks the neck with choke during escape movement when neck becomes exposed** (Effectiveness: High) - Your Response: Immediately abandon the escape and prioritize two-on-one choke defense with your free hand; resume escape only after completely neutralizing the choke threat → Leads to [[Positions/Crucifix]]
+- **Opponent follows hip movement to maintain perpendicular alignment and preserve trap angle** (Effectiveness: Medium) - Your Response: Chain multiple rapid hip escapes in the same direction to outpace their adjustment, or execute a directional change to catch them mid-correction → Leads to [[Positions/Crucifix]]
+- **Opponent releases crucifix and transitions to standard back control as space is created** (Effectiveness: Medium) - Your Response: Accept back control as a significant positional improvement over crucifix and immediately begin standard back escape sequences from the more familiar position → Leads to [[Positions/Back Control]]
 
 
 </section>

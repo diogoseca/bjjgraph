@@ -146,7 +146,7 @@ description: "Defend against the Backside 50-50 Entry from Inside Ashi Garami. R
 
 As the defender against the Backside 50-50 Entry, your primary objective is to prevent the attacker from rotating behind you and establishing the dominant chest-to-back pressure that characterizes Backside 50-50 Top. You are currently trapped in Inside Ashi-Garami with your leg controlled, but the transition attempt creates a brief window of reduced control that you can exploit. Your defensive priorities are to recognize the entry attempt early through tactile and visual cues, disrupt the rotation before it completes, and ideally extract your leg entirely during the attacker's moment of vulnerability when they remove their inside leg from your hip. Success requires understanding the attacker's mechanics well enough to identify and exploit the specific moments where their control is weakest.
 
-**Opponent's Starting Position**: [[Inside Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the Backside 50-50 Entry, your primary objective is to p
 ### 1. Turn to face the attacker by rotating your hips and torso toward them the moment you feel their inside leg withdraw from your hip
 
 - **When to use**: As soon as you detect the inside leg being removed - this is the earliest and most effective defensive window
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Attacker fails to establish backside angle and returns to standard inside ashi garami position, maintaining current positional dynamic
 - **Risk**: If you turn too aggressively, you may expose your heel to immediate attack from the attacker who still has grip control
 
 ### 2. Post strongly with your arms to create frames blocking the attacker's rotation path, preventing them from circling behind you
 
 - **When to use**: When the attacker begins the walk-around rotation and you can feel their body moving laterally around your torso
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Attacker's rotation is stalled by your frames, forcing them to either abandon the entry or switch to a different variant
 - **Risk**: Committing both arms to frames temporarily reduces your ability to defend your heel from direct submission attacks
 
 ### 3. Explosively extract your trapped leg during the moment the attacker's inside leg is removed from your hip, reducing their control to only the outside hook
 
 - **When to use**: The instant you feel the inside leg release from your hip - this is the narrowest but most rewarding defensive window
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Complete leg extraction frees you from the entanglement entirely, allowing you to recover to half guard, stand, or disengage
 - **Risk**: Failed extraction attempt may leave your leg in a worse configuration if the attacker accelerates their rotation during your escape attempt
 
 ### 4. Counter-rotate by turning your body in the same direction the attacker is moving, matching their circular motion to prevent them from getting behind you
 
 - **When to use**: When the attacker has already initiated rotation but has not yet established chest-to-back contact
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You maintain facing position and the attacker cannot establish the backside angle, potentially ending up in standard 50-50 or returning to inside ashi
 - **Risk**: Counter-rotation may be difficult to sustain if the attacker has momentum advantage, and it consumes significant energy
 
@@ -217,11 +217,11 @@ As the defender against the Backside 50-50 Entry, your primary objective is to p
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Extract your trapped leg during the attacker's inside leg removal phase when their control is reduced to a single outside hook. Pull your heel toward your body while posting with your arms to create distance. Follow the extraction by immediately recovering guard position rather than remaining in open space.
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Turn to face the attacker before they complete the rotation behind you, maintaining the original inside ashi garami dynamic. Use frames and hip rotation to block their circular path, forcing them back into the standard ashi position where you can continue your original defensive strategy.
 

@@ -26,8 +26,8 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (specifically rotator cuff)
-**Starting Position**: [[Side Control]]
-**From Position**: [[Side Control]] (Top)
+**Starting Position**: [[Positions/Side Control]]
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 68%
 
 </section>
@@ -86,8 +86,8 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -237,15 +237,15 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 ## From Which Positions?
 
-- [[Side Control]]
-- [[Kesa Gatame]]
-- [[Kuzure Kesa-Gatame]]
-- [[Modified Scarf Hold]]
-- [[Scarf Hold Position]]
-- [[North-South]]
-- [[Knee on Belly]]
-- [[Side Control Consolidation]]
-- [[Reverse Kesa-Gatame]]
+- [[Positions/Side Control]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Side Control/Scarf Hold Position]]
+- [[Positions/North-South]]
+- [[Positions/Knee on Belly]]
+- [[Positions/Side Control/Side Control Consolidation]]
+- [[Positions/Side Control/Reverse Kesa-Gatame]]
 
 
 </section>
@@ -254,18 +254,18 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 ## Related Submissions
 
-- [[Americana]]
-- [[Americana from Mount]]
-- [[Kimura from Side Control]]
-- [[Kimura]]
-- [[Armbar from Side Control]]
-- [[Arm Triangle]]
-- [[North-South Choke]]
-- [[Armbar from Mount]]
-- [[Kimura from Mount]]
-- [[Kimura from North-South]]
-- [[Reverse Kimura]]
-- [[Far Side Armbar]]
+- [[Transitions/Americana]]
+- [[Submissions/Americana from Mount]]
+- [[Submissions/Kimura from Side Control]]
+- [[Transitions/Kimura]]
+- [[Submissions/Armbar from Side Control]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/North-South Choke]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Kimura from Mount]]
+- [[Submissions/Kimura from North-South]]
+- [[Submissions/Reverse Kimura]]
+- [[Submissions/Far Side Armbar]]
 
 
 </section>
@@ -274,18 +274,18 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 ## Additional Related Content
 
-- [[Side Control]] - Primary starting position for this submission
-- [[Americana from Mount]] - Same submission from different position with similar mechanics
-- [[Kimura from Side Control]] - Complementary shoulder lock attacking opposite rotation direction
-- [[Americana]] - Parent submission technique with variations from multiple positions
-- [[Armbar from Side Control]] - Alternative arm attack from same position targeting elbow instead of shoulder
-- [[Side Control to Mount]] - Position advancement that can be combined with maintained Americana grip
-- [[North-South]] - Transitional position offering alternative angle for Americana application
-- [[Knee on Belly]] - Alternative top position for Americana variation with enhanced control
-- [[Kesa Gatame]] - Scarf hold variation offering similar Americana opportunities
-- [[Kuzure Kesa-Gatame]] - Modified scarf hold with arm isolation ideal for Americana setup
-- [[Kimura]] - Opposite rotation shoulder lock forming natural submission chain
-- [[Arm Triangle]] - Head and arm choke available when opponent defends Americana incorrectly
+- [[Positions/Side Control]] - Primary starting position for this submission
+- [[Submissions/Americana from Mount]] - Same submission from different position with similar mechanics
+- [[Submissions/Kimura from Side Control]] - Complementary shoulder lock attacking opposite rotation direction
+- [[Transitions/Americana]] - Parent submission technique with variations from multiple positions
+- [[Submissions/Armbar from Side Control]] - Alternative arm attack from same position targeting elbow instead of shoulder
+- [[Transitions/Side Control to Mount]] - Position advancement that can be combined with maintained Americana grip
+- [[Positions/North-South]] - Transitional position offering alternative angle for Americana application
+- [[Positions/Knee on Belly]] - Alternative top position for Americana variation with enhanced control
+- [[Positions/Side Control/Kesa Gatame]] - Scarf hold variation offering similar Americana opportunities
+- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Modified scarf hold with arm isolation ideal for Americana setup
+- [[Transitions/Kimura]] - Opposite rotation shoulder lock forming natural submission chain
+- [[Transitions/Arm Triangle]] - Head and arm choke available when opponent defends Americana incorrectly
 
 
 </section>

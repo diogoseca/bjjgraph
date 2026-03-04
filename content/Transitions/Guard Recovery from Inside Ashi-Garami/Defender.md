@@ -138,7 +138,7 @@ description: "Prevent guard recovery from Inside Ashi-Garami as the top player i
 
 As the top player whose leg is being released from Inside Ashi-Garami, the bottom player's disengagement creates an opportunity to advance from a defensive leg entanglement to an offensive top position. Your primary advantages during this transition are the bottom player's need to rotate their hips and reposition both legs—processes that take time and create vulnerability. You can exploit this window by counter-entangling with your own ashi garami, standing to establish combat base above their recovering guard, or driving forward with pressure to flatten them before guard recomposition completes. The key is recognizing the disengagement cues and immediately choosing your advancement path rather than passively allowing the bottom player to compose guard at their own pace.
 
-**Opponent's Starting Position**: [[Inside Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -174,28 +174,28 @@ As the top player whose leg is being released from Inside Ashi-Garami, the botto
 ### 1. Counter-entangle by stepping over the bottom player's disengaging leg and securing your own Inside Ashi-Garami or cross ashi position on their exposed leg
 
 - **When to use**: When the bottom player releases their inside leg and it becomes exposed during the disengagement phase
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 
 
 
 ### 2. Stand up immediately during the leg release to establish vertical distance and combat base above the recovering guard, denying close-range guard composition
 
 - **When to use**: When the bottom player begins sequential leg release and you can extract your trapped leg with a standing motion
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 
 ### 3. Drive forward with heavy top pressure during the hip rotation phase, flattening the bottom player before they complete the reorientation from ashi-angle to torso-facing guard
 
 - **When to use**: When the bottom player has released one leg but has not yet completed hip rotation or established the second guard barrier
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 
 ### 4. Control the bottom player's ankle as they disengage, preventing foot-on-hip barrier establishment and using their leg as a passing handle
 
 - **When to use**: When the bottom player's first leg releases from the entanglement and attempts to place foot on your hip
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 
 
 
@@ -207,11 +207,11 @@ As the top player whose leg is being released from Inside Ashi-Garami, the botto
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ashi Garami]]
+### → [[Positions/Ashi Garami]]
 
 Counter-entangle during the disengagement by stepping over the bottom player's exposed leg when they release their inside hook, securing your own ashi garami control with their leg trapped and your legs in dominant position
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Stand up during the leg release and immediately establish combat base with passing grips, maintaining vertical advantage that prevents the bottom player from composing close-range guard structure
 

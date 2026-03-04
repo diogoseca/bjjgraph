@@ -186,7 +186,7 @@ description: "Master the attacker perspective for Kimura Defense Arm Extraction.
 
 As the person executing the Kimura Defense Arm Extraction, your primary objective is to systematically dismantle the opponent's figure-four Kimura grip while maintaining top position and preventing sweeps. The extraction requires precise coordination between your posture, hip pressure, and the direction you drive the trapped arm. The Kimura grip has specific structural weaknesses: the holder's grip is weakest when your arm is straightened and driven toward the mat, as this forces their hands apart and reduces their mechanical advantage. The extraction is a methodical process of removing the grip's leverage points while using your superior weight distribution to suppress the bottom player's ability to create movement or initiate offensive sequences. Success depends on combining forward pressure with targeted arm movement, never allowing the bottom player to establish the dynamic movement patterns needed for sweeps or back takes.
 
-**From Position**: [[Kimura Trap]] (Bottom)
+**From Position**: [[Positions/Kimura Trap]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the person executing the Kimura Defense Arm Extraction, your primary objectiv
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Kimura Trap]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Kimura Trap]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the person executing the Kimura Defense Arm Extraction, your primary objectiv
 
 ## Opponent Counters
 
-- **Opponent deepens grip and locks elbows tight to body during extraction attempt** (Effectiveness: High) - Your Response: Switch to hip switch extraction variant by changing your hip angle to create a new pressure vector that the tight grip cannot resist. If the grip is too deep, focus on flattening the opponent with chest pressure to neutralize their offensive capability while looking for grip loosening opportunities. → Leads to [[Kimura Trap]]
-- **Opponent initiates Old School Sweep during extraction by hooking far ankle and bridging** (Effectiveness: Medium) - Your Response: Immediately widen base by posting your free arm wide and sprawling your free leg backward. The sweep requires hip elevation and angle creation. Deny both by driving weight into the opponent and keeping hips heavy and low. Temporarily pause arm extraction to address the sweep threat. → Leads to [[Open Guard]]
-- **Opponent transitions to back take as you drive arm forward and create space underneath** (Effectiveness: High) - Your Response: When you feel the opponent beginning to turn underneath you, stop the arm drive and immediately drive your shoulder into their chest. Turn your hips to face them directly and re-establish heavy top pressure. The back take requires angle creation so deny the angle by staying square and heavy on their torso. → Leads to [[Open Guard]]
-- **Opponent releases Kimura grip to establish underhook and sweep from half guard bottom** (Effectiveness: Medium) - Your Response: Immediately recognize the grip release and whizzer the freed arm to prevent the underhook establishment. Drive your crossface shoulder into their jaw to flatten them while securing your own underhook. The voluntary grip release is a win for you so capitalize by transitioning directly into passing pressure. → Leads to [[Half Guard]]
+- **Opponent deepens grip and locks elbows tight to body during extraction attempt** (Effectiveness: High) - Your Response: Switch to hip switch extraction variant by changing your hip angle to create a new pressure vector that the tight grip cannot resist. If the grip is too deep, focus on flattening the opponent with chest pressure to neutralize their offensive capability while looking for grip loosening opportunities. → Leads to [[Positions/Kimura Trap]]
+- **Opponent initiates Old School Sweep during extraction by hooking far ankle and bridging** (Effectiveness: Medium) - Your Response: Immediately widen base by posting your free arm wide and sprawling your free leg backward. The sweep requires hip elevation and angle creation. Deny both by driving weight into the opponent and keeping hips heavy and low. Temporarily pause arm extraction to address the sweep threat. → Leads to [[Positions/Open Guard]]
+- **Opponent transitions to back take as you drive arm forward and create space underneath** (Effectiveness: High) - Your Response: When you feel the opponent beginning to turn underneath you, stop the arm drive and immediately drive your shoulder into their chest. Turn your hips to face them directly and re-establish heavy top pressure. The back take requires angle creation so deny the angle by staying square and heavy on their torso. → Leads to [[Positions/Open Guard]]
+- **Opponent releases Kimura grip to establish underhook and sweep from half guard bottom** (Effectiveness: Medium) - Your Response: Immediately recognize the grip release and whizzer the freed arm to prevent the underhook establishment. Drive your crossface shoulder into their jaw to flatten them while securing your own underhook. The voluntary grip release is a win for you so capitalize by transitioning directly into passing pressure. → Leads to [[Positions/Half Guard]]
 
 
 </section>

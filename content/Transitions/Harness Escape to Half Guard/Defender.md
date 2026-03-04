@@ -146,7 +146,7 @@ description: "Learn to prevent and counter the Harness Escape to Half Guard from
 
 Defending against the Harness Escape to Half Guard means you are the practitioner maintaining back control with a harness grip while your opponent attempts to slide their hips down, turn, and catch your leg in half guard. Your primary objective is to maintain the chest-to-back alignment and harness grip integrity that make back control dominant. Early recognition of escape attempts is essential—the escape becomes exponentially harder to prevent once the opponent has cleared a hook and created significant hip angle. Successful defense requires a combination of grip re-tightening, hook management, hip following, and the tactical option of transitioning to mount if the opponent's turn becomes unstoppable rather than losing position entirely.
 
-**Opponent's Starting Position**: [[Harness]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Harness]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending against the Harness Escape to Half Guard means you are the practitione
 ### 1. Re-tighten harness grip and drive chest pressure forward while re-inserting any cleared hooks
 
 - **When to use**: At the earliest sign of escape—when opponent begins grip fighting on your choking arm or starts hip escape movement
-- **Targets**: [[Harness]]
+- **Targets**: [[Positions/Harness]]
 - **If successful**: Opponent remains in harness bottom with your control re-established, forcing them to restart their escape sequence from the beginning
 - **Risk**: If you overcommit forward pressure and opponent redirects momentum, they may accelerate their turn using your pressure against you
 
 ### 2. Follow opponent's rotation and transition to mount as they turn to face you
 
 - **When to use**: When opponent has created significant angle and their turn is nearly complete—catching their leg in half guard is imminent
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You achieve mount position, maintaining a dominant 4-point position despite losing back control. Mount offers strong submission and control options.
 - **Risk**: If poorly timed, opponent may catch your leg in half guard during the mount transition, achieving their escape objective
 
 ### 3. Switch to body triangle to lock opponent's hips and prevent the diagonal hip escape
 
 - **When to use**: When opponent begins clearing hooks but has not yet created significant hip angle—the body triangle prevents the hip escape entirely
-- **Targets**: [[Harness]]
+- **Targets**: [[Positions/Harness]]
 - **If successful**: Body triangle locks the opponent's hips, eliminating the diagonal hip escape that powers this escape and forcing them to pursue a different escape pathway
 - **Risk**: Transitioning to body triangle momentarily loosens your hook control, and a well-timed opponent may exploit the transition window to complete their escape
 
 ### 4. Release harness and re-grip with stronger control configuration such as gift wrap or collar control
 
 - **When to use**: When opponent has strong two-on-one grip control and your choking arm is being neutralized, reducing your offensive threat
-- **Targets**: [[Harness]]
+- **Targets**: [[Positions/Harness]]
 - **If successful**: New grip configuration bypasses opponent's defensive grips and re-establishes offensive control from back position
 - **Risk**: The moment between releasing and re-gripping is the most vulnerable window—opponent may accelerate their escape during the grip transition
 
@@ -217,11 +217,11 @@ Defending against the Harness Escape to Half Guard means you are the practitione
 
 ## Best-Case Outcomes for Defender
 
-### → [[Harness]]
+### → [[Positions/Harness]]
 
 Recognize the escape attempt early through the two-on-one grip and hip escape cues. Immediately re-tighten your harness, drive forward chest pressure, and re-insert any cleared hooks before the opponent can create meaningful angle. Active hook management and constant forward pressure prevent the escape from progressing past the initial grip-fighting phase.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 If the opponent successfully creates significant angle and begins their turn, do not fight to maintain back control from a losing position. Instead, follow their rotation, remove your hooks, and step over into mount. Time the transition for when they are mid-turn and committed to the rotational movement—this is when they are least able to establish the frames needed to prevent mount.
 

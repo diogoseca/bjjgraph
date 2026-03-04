@@ -91,25 +91,25 @@ Developed primarily within the 10th Planet system and refined by lockdown specia
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (30% of attempts)
+- **[[Transitions/Old School Sweep]]** (30% of attempts)
 
-- **[[Electric Chair Transition]]** (14% of attempts)
+- **[[Transitions/Electric Chair Transition]]** (14% of attempts)
 
-- **[[Butterfly Sweep]]** (11% of attempts)
+- **[[Transitions/Butterfly Sweep]]** (11% of attempts)
 
-- **[[Deep Half Entry]]** (13% of attempts)
+- **[[Transitions/Deep Half Entry]]** (13% of attempts)
 
-- **[[Lockdown Recovery]]** (8% of attempts)
+- **[[Transitions/Lockdown Recovery]]** (8% of attempts)
 
-- **[[Underhook Sweep from Half]]** (8% of attempts)
+- **[[Transitions/Underhook Sweep from Half]]** (8% of attempts)
 
-- **[[Kimura Sweep]]** (8% of attempts)
+- **[[Transitions/Kimura Sweep]]** (8% of attempts)
 
-- **[[Knee Shield Retention]]** (5% of attempts)
+- **[[Transitions/Knee Shield Retention]]** (5% of attempts)
 
-- **[[Escape Z-Lock Half Guard]]** (2% of attempts)
+- **[[Transitions/Escape Z-Lock Half Guard]]** (2% of attempts)
 
-- **[[Sweep from Z-Lock Half Guard]]** (1% of attempts)
+- **[[Transitions/Sweep from Z-Lock Half Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -170,25 +170,25 @@ Developed primarily within the 10th Planet system and refined by lockdown specia
 ### Available Transitions
 
 
-- **[[Knee Slice from Half]]** (28% of attempts)
+- **[[Transitions/Knee Slice from Half]]** (28% of attempts)
 
-- **[[Underhook Pass]]** (12% of attempts)
+- **[[Transitions/Underhook Pass]]** (12% of attempts)
 
-- **[[Back Take from Top]]** (13% of attempts)
+- **[[Transitions/Back Take from Top]]** (13% of attempts)
 
-- **[[Smash Pass]]** (14% of attempts)
+- **[[Transitions/Smash Pass]]** (14% of attempts)
 
-- **[[Crossface Pass]]** (11% of attempts)
+- **[[Transitions/Crossface Pass]]** (11% of attempts)
 
-- **[[Half Guard Pass]]** (8% of attempts)
+- **[[Transitions/Half Guard Pass]]** (8% of attempts)
 
-- **[[Darce Setup]]** (6% of attempts)
+- **[[Transitions/Darce Setup]]** (6% of attempts)
 
-- **[[Lockdown Break and Pass]]** (5% of attempts)
+- **[[Transitions/Lockdown Break and Pass]]** (5% of attempts)
 
-- **[[Lockdown Break from Z-Lock]]** (2% of attempts)
+- **[[Transitions/Lockdown Break from Z-Lock]]** (2% of attempts)
 
-- **[[Pass Z-Lock]]** (1% of attempts)
+- **[[Transitions/Pass Z-Lock]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -227,21 +227,21 @@ Developed primarily within the 10th Planet system and refined by lockdown specia
 ## Related Positions
 
 
-- **[[Lockdown]]** - Parent position - Z-Lock is advanced variation adding butterfly hook element
+- **[[Positions/Half Guard/Lockdown]]** - Parent position - Z-Lock is advanced variation adding butterfly hook element
 
-- **[[Deep Half Guard]]** - Common transition target when opponent drives forward pressure
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common transition target when opponent drives forward pressure
 
-- **[[Butterfly Half Guard]]** - Similar concept using butterfly hook in half guard context
+- **[[Positions/Half Guard/Butterfly Half Guard]]** - Similar concept using butterfly hook in half guard context
 
-- **[[Electric Chair]]** - Primary submission threat directly available from Z-Lock configuration
+- **[[Positions/Half Guard/Electric Chair]]** - Primary submission threat directly available from Z-Lock configuration
 
-- **[[Dogfight Position]]** - Frequent transition position when opponent attempts to disengage from Z-Lock
+- **[[Positions/Dogfight Position]]** - Frequent transition position when opponent attempts to disengage from Z-Lock
 
-- **[[Half Guard]]** - Parent category - Z-Lock is specialized variation
+- **[[Positions/Half Guard]]** - Parent category - Z-Lock is specialized variation
 
-- **[[Knee Shield Half Guard]]** - Alternative half guard framework with different defensive philosophy
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Alternative half guard framework with different defensive philosophy
 
-- **[[Flattened Half Guard]]** - Worst-case scenario when Z-Lock retention fails against heavy pressure
+- **[[Positions/Half Guard/Flattened Half Guard]]** - Worst-case scenario when Z-Lock retention fails against heavy pressure
 
 
 </section>

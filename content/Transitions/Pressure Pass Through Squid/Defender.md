@@ -158,7 +158,7 @@ The critical defensive window occurs in the first seconds after you recognize th
 
 Your most dangerous counter is the sit-up back take, which exploits the fact that the pressure passer has committed their weight forward with one arm trapped in your lapel. Their forward commitment creates a path behind them that a well-timed sit-up can exploit. However, this counter requires precise timing—attempt it too late after they have established chest contact and crossface, and you will simply be driven flat. The layered defense approach uses frame creation to buy time, guard reconfiguration as the primary retention strategy, and the back take as the high-reward counter when the timing window presents itself.
 
-**Opponent's Starting Position**: [[Lapel Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Your most dangerous counter is the sit-up back take, which exploits the fact tha
 ### 1. Sit-up back take: as opponent commits weight forward, use the lapel connection as an anchor and sit up aggressively toward their trapped-arm side, threading your free arm under their armpit to establish a seatbelt grip behind them
 
 - **When to use**: Early in the pass before opponent establishes chest contact and crossface—the timing window is when they drop level but before they seal hip-to-hip distance
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You achieve back control with seatbelt grip established, scoring 4 points and reaching the most dominant position in BJJ
 - **Risk**: If timed too late, opponent drives you back down with collar grip and crossface, advancing to side control with your guard completely compromised
 
 ### 2. Guard reconfiguration: redirect the lapel from their arm to their leg to transition to worm guard, or release the lapel entirely and recover to spider, lasso, or De La Riva guard using active leg frames
 
 - **When to use**: When you recognize the pressure commitment but the sit-up window has closed—use this when opponent begins establishing chest contact but has not yet walked legs around
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: You retain guard position with a new configuration that may be more effective against their pressure style, resetting the passing exchange
 - **Risk**: During the reconfiguration transition, you momentarily release your primary control, creating a window where opponent can accelerate the pass
 
 ### 3. Frame and hip escape: create a strong frame with your free arm against opponent's shoulder or neck, shrimp your hips away to re-establish distance, and reinsert legs for guard retention
 
 - **When to use**: When opponent has established chest contact and is walking legs around—this is the last-resort defensive option when earlier windows have passed
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: You create enough space to recover guard position, potentially returning to squid guard or establishing half guard as a fallback
 - **Risk**: If frames are insufficient against their pressure, you exhaust energy without creating space and they complete the pass to side control
 
 ### 4. Inversion to reguard: as opponent walks around, invert underneath their pressure by rolling your shoulders toward them and threading your legs back into guard position
 
 - **When to use**: When opponent has passed your legs to one side and is establishing crossface but has not yet settled perpendicular—requires flexibility and timing
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: You recover guard position from a nearly-passed state, often surprising the passer and resetting to open guard
 - **Risk**: Failed inversion leaves you in a worse position with back exposed and no guard structure, potentially giving up back control
 
@@ -228,11 +228,11 @@ Your most dangerous counter is the sit-up back take, which exploits the fact tha
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Time the sit-up back take during the early phase of the pressure pass when opponent drops level and commits weight forward. Use the lapel connection as your anchor point, sit up explosively toward their trapped-arm side, and thread your free arm under their armpit to establish seatbelt control behind them. Their trapped arm prevents them from posting to stop your rotation.
 
-### → [[Lapel Guard]]
+### → [[Positions/Lapel Guard]]
 
 Maintain distance through active hip movement and secondary frames before opponent can establish crushing chest contact. Create frames on their shoulder with your free hand, hip escape to re-establish angle, and either reconfigure your lapel guard or transition to spider, lasso, or De La Riva guard. The key is acting before their pressure collapses your guard structure entirely.
 

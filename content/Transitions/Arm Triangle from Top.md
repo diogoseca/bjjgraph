@@ -21,7 +21,7 @@ Strategically, this technique thrives on a predictable defensive reaction: when 
 
 The arm triangle from top integrates seamlessly with side control attacks. If the opponent defends the americana by bringing their elbow tight, they expose the arm triangle. If they frame against your neck to create escape space, they feed the configuration. This creates a submission chain where defending one attack opens the next, embodying the dilemma-based approach that characterizes high-level top control.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -33,8 +33,8 @@ The arm triangle from top integrates seamlessly with side control attacks. If th
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Side Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -196,29 +196,29 @@ The arm triangle from top is a cornerstone of the side control submission system
 ## Related Techniques
 
 
-- [[Arm Triangle]] - Parent submission technique—the arm triangle from top is the setup transition that leads to the finishing choke
+- [[Transitions/Arm Triangle]] - Parent submission technique—the arm triangle from top is the setup transition that leads to the finishing choke
 
-- [[Side Control]] - Primary starting position from which the arm triangle is initiated
+- [[Positions/Side Control]] - Primary starting position from which the arm triangle is initiated
 
-- [[Darce Choke]] - Complementary head-and-arm choke—when the opponent turns to defend the arm triangle, the darce becomes available
+- [[Transitions/Darce Choke]] - Complementary head-and-arm choke—when the opponent turns to defend the arm triangle, the darce becomes available
 
-- [[Americana from Side Control]] - Chain attack—americana defense (elbow high) creates the arm-across-neck configuration for the arm triangle
+- [[Submissions/Americana from Side Control]] - Chain attack—americana defense (elbow high) creates the arm-across-neck configuration for the arm triangle
 
-- [[Kimura from Side Control]] - Chain attack—kimura and arm triangle form a two-way dilemma when the opponent's arm is exposed
+- [[Submissions/Kimura from Side Control]] - Chain attack—kimura and arm triangle form a two-way dilemma when the opponent's arm is exposed
 
-- [[Arm Triangle Setup]] - Related transition for establishing the head-and-arm configuration from various positions
+- [[Transitions/Arm Triangle Setup]] - Related transition for establishing the head-and-arm configuration from various positions
 
-- [[Arm Triangle Transition]] - Related transition covering the movement between positions during arm triangle sequences
+- [[Transitions/Arm Triangle Transition]] - Related transition covering the movement between positions during arm triangle sequences
 
-- [[Arm Triangle from Front Headlock]] - Alternative entry—arm triangle setup from front headlock rather than side control
+- [[Transitions/Arm Triangle from Front Headlock]] - Alternative entry—arm triangle setup from front headlock rather than side control
 
-- [[Arm Triangle from Turtle]] - Alternative entry—arm triangle catch when opponent turtles from side control
+- [[Transitions/Arm Triangle from Turtle]] - Alternative entry—arm triangle catch when opponent turtles from side control
 
-- [[Mount]] - Alternative starting position for the mounted arm triangle variant
+- [[Positions/Mount]] - Alternative starting position for the mounted arm triangle variant
 
-- [[North-South]] - Transition position that can expose arm triangle opportunities during north-south attacks
+- [[Positions/North-South]] - Transition position that can expose arm triangle opportunities during north-south attacks
 
-- [[Half Guard]] - Counter outcome position—opponent may recover half guard during the walk-around, but the arm triangle can still be finished
+- [[Positions/Half Guard]] - Counter outcome position—opponent may recover half guard during the walk-around, but the arm triangle can still be finished
 
 
 </section>

@@ -21,7 +21,7 @@ The technique's effectiveness hinges on precise timing and sequential movement r
 
 The hip escape from consolidated side control serves as the primary escape pathway in most defensive game plans because it recovers a playable guard position rather than merely creating a scramble. Recovering half guard provides immediate offensive options through sweeps and back takes, making this escape both defensively sound and strategically advantageous. Understanding the mechanical principles behind each phase of the escape allows practitioners to adapt the technique to different side control variations and opponent body types.
 
-**From Position**: [[Side Control Consolidation]] (Bottom)
+**From Position**: [[Positions/Side Control/Side Control Consolidation]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ The hip escape from consolidated side control serves as the primary escape pathw
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Side Control Consolidation]] | 40% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Side Control/Side Control Consolidation]] | 40% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -196,25 +196,25 @@ The hip escape from consolidated side control sits at the critical junction betw
 ## Related Techniques
 
 
-- [[Side Control Consolidation]] - Source position from which this escape is initiated
+- [[Positions/Side Control/Side Control Consolidation]] - Source position from which this escape is initiated
 
-- [[Half Guard]] - Primary target position after successful escape
+- [[Positions/Half Guard]] - Primary target position after successful escape
 
-- [[Mount]] - Counter outcome position if escape timing fails and top player advances
+- [[Positions/Mount]] - Counter outcome position if escape timing fails and top player advances
 
-- [[Knee Shield Half Guard]] - Specific guard variation commonly established after successful knee insertion
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Specific guard variation commonly established after successful knee insertion
 
-- [[Ghost Escape from Side Control]] - Complementary escape technique sharing hip escape mechanics with shoulder roll addition
+- [[Transitions/Ghost Escape from Side Control]] - Complementary escape technique sharing hip escape mechanics with shoulder roll addition
 
-- [[Escape Side Control Consolidation]] - Broader escape category encompassing multiple escape methods from this position
+- [[Transitions/Escape Side Control Consolidation]] - Broader escape category encompassing multiple escape methods from this position
 
-- [[Frame from Side Control Consolidation]] - Prerequisite framing technique that enables the hip escape movement
+- [[Transitions/Frame from Side Control Consolidation]] - Prerequisite framing technique that enables the hip escape movement
 
-- [[Elbow Escape from Mount]] - Related technique applying identical hip escape mechanics from mount position
+- [[Transitions/Elbow Escape from Mount]] - Related technique applying identical hip escape mechanics from mount position
 
-- [[Open Guard]] - Alternative guard recovery target if escape creates significant distance
+- [[Positions/Open Guard]] - Alternative guard recovery target if escape creates significant distance
 
-- [[Side Control]] - Parent position category for the consolidated variation
+- [[Positions/Side Control]] - Parent position category for the consolidated variation
 
 
 </section>

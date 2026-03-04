@@ -178,7 +178,7 @@ This transition capitalizes on the opponent's compromised defensive position dur
 
 Strategically, the Ankle Lock Finish serves as a high-percentage option when heel hook access is compromised by the opponent's defensive hand fighting or when ruleset restrictions limit heel hook application. The straight ankle lock provides a legal submission across all major competition formats while maintaining offensive pressure that prevents the opponent from completing their escape sequence. Success requires precise timing, proper grip establishment, and coordinated breaking mechanics that account for the reversed entanglement geometry.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
 
@@ -230,9 +230,9 @@ Strategically, the Ankle Lock Finish serves as a high-percentage option when hee
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Straight Ankle Lock Control]] | 65% |
-| Failure | [[Ushiro Ashi-Garami]] | 25% |
-| Counter | [[Ushiro Ashi-Garami]] | 10% |
+| Success | [[Positions/Straight Ankle Lock Control]] | 65% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 25% |
+| Counter | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ Strategically, the Ankle Lock Finish serves as a high-percentage option when hee
 
 ## Opponent Counters
 
-- **Boot defense - opponent flexes foot strongly and points toes to protect heel** (Effectiveness: High) - Your Response: Switch to Estima Lock grip or transition to heel hook if rules permit → Leads to [[Ushiro Ashi-Garami]]
-- **Hip rotation escape - opponent rotates hip to relieve ankle pressure** (Effectiveness: Medium) - Your Response: Tighten leg control and follow their rotation, maintaining entanglement while adjusting angle → Leads to [[Ushiro Ashi-Garami]]
-- **Hand fighting - opponent strips your grip before you can apply breaking pressure** (Effectiveness: Medium) - Your Response: Maintain leg control while re-establishing grip; consider transitioning to kneebar → Leads to [[Ushiro Ashi-Garami]]
-- **Turtle roll through - opponent completes inversion and escapes to turtle** (Effectiveness: Low) - Your Response: Follow to back control or re-enter leg entanglement from turtle → Leads to [[Ushiro Ashi-Garami]]
+- **Boot defense - opponent flexes foot strongly and points toes to protect heel** (Effectiveness: High) - Your Response: Switch to Estima Lock grip or transition to heel hook if rules permit → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Hip rotation escape - opponent rotates hip to relieve ankle pressure** (Effectiveness: Medium) - Your Response: Tighten leg control and follow their rotation, maintaining entanglement while adjusting angle → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Hand fighting - opponent strips your grip before you can apply breaking pressure** (Effectiveness: Medium) - Your Response: Maintain leg control while re-establishing grip; consider transitioning to kneebar → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Turtle roll through - opponent completes inversion and escapes to turtle** (Effectiveness: Low) - Your Response: Follow to back control or re-enter leg entanglement from turtle → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 
 </section>

@@ -21,7 +21,7 @@ The essence of re-guarding from Headquarters lies in creating distance and frame
 
 Successful re-guarding from this position is fundamental to maintaining a strong defensive game. The ability to recover guard when a pass is nearly complete separates intermediate practitioners from advanced competitors. This technique builds upon fundamental concepts of guard retention, framing mechanics, and hip escape principles while requiring precise timing and spatial awareness to execute against resisting opponents.
 
-**From Position**: [[Headquarters Position]] (Bottom)
+**From Position**: [[Positions/Headquarters Position]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Successful re-guarding from this position is fundamental to maintaining a strong
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Headquarters Position]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Headquarters Position]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -197,31 +197,31 @@ Re-guarding from Headquarters position is a crucial component of a complete guar
 ## Related Techniques
 
 
-- [[Headquarters Position]] - Starting position - the position you are escaping from
+- [[Positions/Headquarters Position]] - Starting position - the position you are escaping from
 
-- [[Open Guard]] - Target position - primary guard recovered to on success
+- [[Positions/Open Guard]] - Target position - primary guard recovered to on success
 
-- [[Hip Escape to Guard]] - Foundational technique - core movement mechanic used throughout this sequence
+- [[Transitions/Hip Escape to Guard]] - Foundational technique - core movement mechanic used throughout this sequence
 
-- [[Granby Roll to Guard]] - Alternative method - different movement pattern for creating recovery space
+- [[Transitions/Granby Roll to Guard]] - Alternative method - different movement pattern for creating recovery space
 
-- [[Butterfly Sweep]] - Follow-up technique - immediate offensive option after successful recovery
+- [[Transitions/Butterfly Sweep]] - Follow-up technique - immediate offensive option after successful recovery
 
-- [[Deep Half Guard]] - Alternative recovery - fallback position when full guard recovery isn't available
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative recovery - fallback position when full guard recovery isn't available
 
-- [[Technical Stand-up]] - Alternative escape - different defensive option from same position
+- [[Transitions/Technical Stand-up]] - Alternative escape - different defensive option from same position
 
-- [[Knee Shield Half Guard]] - Target position - common guard structure recovered to
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Target position - common guard structure recovered to
 
-- [[Guard Retention]] - Core concept - fundamental principle applied throughout technique
+- [[Principles/Guard Retention]] - Core concept - fundamental principle applied throughout technique
 
-- [[Butterfly Guard]] - Target position - common guard structure with hook insertion variant
+- [[Positions/Butterfly Guard]] - Target position - common guard structure with hook insertion variant
 
-- [[Single Leg X-Guard]] - Target position - alternative guard with immediate sweeping potential
+- [[Positions/X-Guard/Single Leg X-Guard]] - Target position - alternative guard with immediate sweeping potential
 
-- [[Side Control]] - Negative outcome - position reached if opponent successfully counters
+- [[Positions/Side Control]] - Negative outcome - position reached if opponent successfully counters
 
-- [[Half Guard]] - Fallback position - acceptable recovery when full guard isn't achievable
+- [[Positions/Half Guard]] - Fallback position - acceptable recovery when full guard isn't achievable
 
 
 </section>

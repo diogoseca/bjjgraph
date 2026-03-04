@@ -176,7 +176,7 @@ The Bolo Sweep from De La Riva guard is a rotational inversion technique that by
 
 The technique's strategic value comes from its dilemma-based structure: opponents who base heavily to defend the sweep expose their back, while those who turn to defend the back take become vulnerable to being swept to bottom. This two-outcome attack forces reactive decision-making, and advanced practitioners read the opponent's defensive commitment in real-time to select the appropriate finish. The Bolo integrates tightly with the broader De La Riva system, chaining naturally with Kiss of the Dragon, X-Guard transitions, and traditional DLR sweeps to create a comprehensive rotational attack web.
 
-**From Position**: [[De La Riva Guard]] (Bottom)
+**From Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ The technique's strategic value comes from its dilemma-based structure: opponent
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[De La Riva Guard]] | 30% |
-| Counter | [[De La Riva Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/De La Riva Guard]] | 30% |
+| Counter | [[Positions/De La Riva Guard]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ The technique's strategic value comes from its dilemma-based structure: opponent
 
 ## Opponent Counters
 
-- **Opponent steps over your inverting body with their free leg to establish top position** (Effectiveness: High) - Your Response: Immediately hook their stepping leg with your free leg and transition to X-Guard or Single Leg X-Guard. Their stepping motion carries momentum you can redirect into an off-balance, converting their defensive step into a new sweeping opportunity. → Leads to [[De La Riva Guard]]
-- **Opponent posts their hand on the mat to brace against the rotational force and prevent being pulled forward** (Effectiveness: Medium) - Your Response: Continue your rotation toward the posted arm side, transitioning to Kiss of the Dragon mechanics. Their posted hand anchors them in place while you spin through to the opposite side. Alternatively, the posted arm opens triangle or omoplata setups if you abandon the rotation. → Leads to [[De La Riva Guard]]
-- **Opponent sits back and retracts their hooked leg to break the De La Riva connection** (Effectiveness: Medium) - Your Response: Follow their backward movement by coming up to a seated or posting position and transitioning to a single leg attack on the retracting leg, or revert to standard De La Riva sweeping mechanics with a waiter sweep or balloon sweep that exploits their rearward weight shift. → Leads to [[De La Riva Guard]]
-- **Opponent sprawls heavily and drives chest pressure downward to flatten your inversion** (Effectiveness: Low) - Your Response: Use their forward weight commitment to accelerate your rotation. Their driving pressure actually assists the inversion by loading weight onto the hooked leg. Maintain your grip tension and allow their momentum to carry you through the rotation faster than they can adjust. → Leads to [[Back Control]]
+- **Opponent steps over your inverting body with their free leg to establish top position** (Effectiveness: High) - Your Response: Immediately hook their stepping leg with your free leg and transition to X-Guard or Single Leg X-Guard. Their stepping motion carries momentum you can redirect into an off-balance, converting their defensive step into a new sweeping opportunity. → Leads to [[Positions/De La Riva Guard]]
+- **Opponent posts their hand on the mat to brace against the rotational force and prevent being pulled forward** (Effectiveness: Medium) - Your Response: Continue your rotation toward the posted arm side, transitioning to Kiss of the Dragon mechanics. Their posted hand anchors them in place while you spin through to the opposite side. Alternatively, the posted arm opens triangle or omoplata setups if you abandon the rotation. → Leads to [[Positions/De La Riva Guard]]
+- **Opponent sits back and retracts their hooked leg to break the De La Riva connection** (Effectiveness: Medium) - Your Response: Follow their backward movement by coming up to a seated or posting position and transitioning to a single leg attack on the retracting leg, or revert to standard De La Riva sweeping mechanics with a waiter sweep or balloon sweep that exploits their rearward weight shift. → Leads to [[Positions/De La Riva Guard]]
+- **Opponent sprawls heavily and drives chest pressure downward to flatten your inversion** (Effectiveness: Low) - Your Response: Use their forward weight commitment to accelerate your rotation. Their driving pressure actually assists the inversion by loading weight onto the hooked leg. Maintain your grip tension and allow their momentum to carry you through the rotation faster than they can adjust. → Leads to [[Positions/Back Control]]
 
 
 </section>

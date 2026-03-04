@@ -21,7 +21,7 @@ Unlike pure lifting sweeps that rely heavily on strength, the Waiter Sweep uses 
 
 Its high success rate across skill levels stems from its fundamental reliance on destroying base and creating directional momentum rather than explosive power. The angular sweeping motion—lifting diagonally rather than straight up—makes it significantly harder to counter than linear sweeps, as the opponent must resist forces in multiple planes simultaneously. When integrated into a complete butterfly guard system, the Waiter Sweep creates offensive dilemmas where defensive reactions open back takes, guillotine entries, and guard transitions.
 
-**From Position**: [[Butterfly Guard]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard]] (Bottom)
 **Success Rate**: 68%
 
 </section>
@@ -32,9 +32,9 @@ Its high success rate across skill levels stems from its fundamental reliance on
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 68% |
-| Failure | [[Butterfly Guard]] | 20% |
-| Counter | [[Butterfly Guard]] | 12% |
+| Success | [[Positions/Side Control]] | 68% |
+| Failure | [[Positions/Butterfly Guard]] | 20% |
+| Counter | [[Positions/Butterfly Guard]] | 12% |
 
 
 </section>
@@ -190,33 +190,33 @@ The Waiter Sweep is a cornerstone technique within the butterfly guard system an
 ## Related Techniques
 
 
-- [[Butterfly Guard]] - Starting position - primary guard for technique execution
+- [[Positions/Butterfly Guard]] - Starting position - primary guard for technique execution
 
-- [[Side Control]] - Primary ending position - sweep completion target
+- [[Positions/Side Control]] - Primary ending position - sweep completion target
 
-- [[Basic Butterfly Sweep]] - Related technique - alternative butterfly sweep with different grip structure
+- [[Transitions/Basic Butterfly Sweep]] - Related technique - alternative butterfly sweep with different grip structure
 
-- [[Elevator Sweep]] - Related technique - uses similar hook mechanics with different upper body control
+- [[Transitions/Elevator Sweep]] - Related technique - uses similar hook mechanics with different upper body control
 
-- [[Hook Sweep]] - Related technique - fundamental butterfly sweep variation
+- [[Transitions/Hook Sweep]] - Related technique - fundamental butterfly sweep variation
 
-- [[Arm Drag to Back]] - Follow-up technique - alternative attack from same grip structure
+- [[Transitions/Arm Drag to Back]] - Follow-up technique - alternative attack from same grip structure
 
-- [[Deep Half Guard]] - Backup position - transition when opponent sprawls to defend sweep
+- [[Positions/Half Guard/Deep Half Guard]] - Backup position - transition when opponent sprawls to defend sweep
 
-- [[Single Leg X-Guard]] - Follow-up position - transition when opponent removes near hook
+- [[Positions/X-Guard/Single Leg X-Guard]] - Follow-up position - transition when opponent removes near hook
 
-- [[Butterfly Sweep]] - System integration - variations within same positional framework
+- [[Transitions/Butterfly Sweep]] - System integration - variations within same positional framework
 
-- [[Guillotine Choke]] - Combination attack - submission available from same control structure
+- [[Transitions/Guillotine Choke]] - Combination attack - submission available from same control structure
 
-- [[Kimura from Guard]] - Alternative attack - submission when opponent defends with far arm post
+- [[Submissions/Kimura from Guard]] - Alternative attack - submission when opponent defends with far arm post
 
-- [[Mount]] - Alternative ending position - higher-value sweep completion option
+- [[Positions/Mount]] - Alternative ending position - higher-value sweep completion option
 
-- [[Back Control]] - Transition option - back take when opponent posts to defend sweep
+- [[Positions/Back Control]] - Transition option - back take when opponent posts to defend sweep
 
-- [[Half Butterfly]] - Related position - hybrid guard using similar hook mechanics
+- [[Positions/Butterfly Guard/Half Butterfly]] - Related position - hybrid guard using similar hook mechanics
 
 
 </section>

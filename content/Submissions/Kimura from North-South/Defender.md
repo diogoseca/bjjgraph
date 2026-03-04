@@ -192,28 +192,28 @@ Defending the Kimura from north-south requires early recognition and immediate p
 ### 1. Pull elbow tight to ribs and turn arm inward to deny wrist control
 
 - **When to use**: At the earliest recognition cue—when you feel the attacker reaching for your wrist before the figure-four grip is established
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: Attacker cannot establish the figure-four grip and must abandon the Kimura attempt, returning to standard north-south control
 - **Risk**: Low risk. Keeping elbows tight is always a safe defensive posture from north-south bottom
 
 ### 2. Bridge explosively and hip escape toward the attacked arm side to disrupt attacker's base and perpendicular alignment
 
 - **When to use**: When the figure-four grip is partially established but rotational pressure has not yet begun—this is your last high-percentage window
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough disruption to break the figure-four or force the attacker to abandon the submission to maintain position, allowing guard recovery
 - **Risk**: Medium risk. A poorly timed bridge wastes energy and may actually improve the attacker's grip if they absorb the movement
 
 ### 3. Roll toward the attacker (into the Kimura) to relieve rotational pressure and expose their back
 
 - **When to use**: When the figure-four is fully locked and rotational pressure has begun—this is your emergency escape when prevention has failed
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Relieves shoulder torque by following the rotation direction, and may expose attacker's back for a reversal or force them to release the grip to maintain position
 - **Risk**: Medium-high risk. If the attacker follows your roll while maintaining the grip, they can continue the submission from the new angle
 
 ### 4. Grab your own wrist or grip your gi/shorts to create a defensive anchor against rotation
 
 - **When to use**: When the figure-four is established but you need to buy time to set up a bridge or roll escape
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: Temporarily stalls the rotational pressure and gives you time to set up a more complete escape sequence
 - **Risk**: High risk as a standalone defense. The attacker can often overcome this grip with sustained pressure, and your arm remains trapped in a vulnerable position while you hold
 
@@ -236,11 +236,11 @@ Defending the Kimura from north-south requires early recognition and immediate p
 
 ## Best-Case Outcomes for Defender
 
-### → [[North-South]]
+### → [[Positions/North-South]]
 
 Deny the figure-four grip entirely by keeping elbows tight and fighting wrist control. The attacker abandons the Kimura attempt and returns to standard north-south pressure, allowing you to work standard north-south escapes.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive bridge during the attacker's grip transition to disrupt their base and perpendicular alignment. As they lose chest pressure, insert your knee to recover half guard and begin working standard guard retention.
 

@@ -180,7 +180,7 @@ description: "Master executing the Knee Cut from Headquarters. Step-by-step guid
 
 As the attacker executing the Knee Cut from Headquarters, your objective is to convert the positional control of headquarters into a completed guard pass to side control. The technique requires precise coordination of knee pressure, crossface control, and hip movement to slice through the opponent's defensive structure. Success depends on reading the opponent's hip angle and committing to the cut at the optimal moment when their defensive frames are weakest, combining systematic pressure with decisive execution to complete the pass before counter-attacks develop. The knee cut rewards patience in setup and explosiveness in execution—settling into headquarters control before committing ensures you pass against the opponent's weakest defensive angle.
 
-**From Position**: [[Headquarters Position]] (Top)
+**From Position**: [[Positions/Headquarters Position]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Knee Cut from Headquarters, your objective is to c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Headquarters Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Headquarters Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Knee Cut from Headquarters, your objective is to c
 
 ## Opponent Counters
 
-- **Opponent establishes strong knee shield before the cut initiates, blocking the knee from crossing the thigh line** (Effectiveness: High) - Your Response: Switch to smash pass by collapsing your weight laterally onto the knee shield, turning their defensive structure into a passing lane, or disengage and attack with toreando or leg drag from the opposite angle → Leads to [[Headquarters Position]]
-- **Opponent secures deep underhook during the knee cut and begins sitting up to threaten sweep or back take** (Effectiveness: High) - Your Response: Immediately drive crossface pressure harder to flatten them back down, or apply a whizzer on the underhook arm and switch to a darce choke threat that punishes their attempt to come underneath → Leads to [[Half Guard]]
-- **Opponent frames on your hip with a stiff arm and hip escapes away, creating distance that prevents the knee from crossing** (Effectiveness: Medium) - Your Response: Strip the hip frame by swimming your elbow inside their wrist and pinning it to their body, then immediately re-engage the knee cut before they can re-establish the defensive frame or recover full guard → Leads to [[Headquarters Position]]
-- **Opponent catches your cutting leg in half guard by locking their legs around your shin as it crosses the thigh line** (Effectiveness: Medium) - Your Response: Use the trapped position to settle into half guard top and begin a standard knee slice pass sequence from there, or backstep to free your leg and return to headquarters for another passing attempt → Leads to [[Headquarters Position]]
+- **Opponent establishes strong knee shield before the cut initiates, blocking the knee from crossing the thigh line** (Effectiveness: High) - Your Response: Switch to smash pass by collapsing your weight laterally onto the knee shield, turning their defensive structure into a passing lane, or disengage and attack with toreando or leg drag from the opposite angle → Leads to [[Positions/Headquarters Position]]
+- **Opponent secures deep underhook during the knee cut and begins sitting up to threaten sweep or back take** (Effectiveness: High) - Your Response: Immediately drive crossface pressure harder to flatten them back down, or apply a whizzer on the underhook arm and switch to a darce choke threat that punishes their attempt to come underneath → Leads to [[Positions/Half Guard]]
+- **Opponent frames on your hip with a stiff arm and hip escapes away, creating distance that prevents the knee from crossing** (Effectiveness: Medium) - Your Response: Strip the hip frame by swimming your elbow inside their wrist and pinning it to their body, then immediately re-engage the knee cut before they can re-establish the defensive frame or recover full guard → Leads to [[Positions/Headquarters Position]]
+- **Opponent catches your cutting leg in half guard by locking their legs around your shin as it crosses the thigh line** (Effectiveness: Medium) - Your Response: Use the trapped position to settle into half guard top and begin a standard knee slice pass sequence from there, or backstep to free your leg and return to headquarters for another passing attempt → Leads to [[Positions/Headquarters Position]]
 
 
 </section>

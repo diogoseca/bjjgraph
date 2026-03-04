@@ -184,7 +184,7 @@ The technique requires understanding the mechanical principles of how the lapel 
 
 Strategically, this extraction must be completed before attempting any guard passing sequences. The lapel wrap converts your forward pressure and explosive movements into sweeping momentum for the bottom player, making aggressive passing attempts counterproductive. Master this extraction to neutralize modern lapel guard systems and restore your ability to implement your preferred passing game.
 
-**From Position**: [[Ringworm Guard]] (Top)
+**From Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
 
@@ -235,10 +235,10 @@ Strategically, this extraction must be completed before attempting any guard pas
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Combat Base]] | 50% |
-| Success | [[Open Guard]] | 15% |
-| Failure | [[Ringworm Guard]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Combat Base]] | 50% |
+| Success | [[Positions/Open Guard]] | 15% |
+| Failure | [[Positions/Ringworm Guard]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -247,10 +247,10 @@ Strategically, this extraction must be completed before attempting any guard pas
 
 ## Opponent Counters
 
-- **Opponent retightens the lapel wrap and creates angle while you attempt extraction** (Effectiveness: High) - Your Response: Abort the extraction attempt and reset your base before trying again. Address their secondary grip that allowed the re-tightening before your next attempt. → Leads to [[Ringworm Guard]]
-- **Opponent loads for a sweep as you commit both hands to grip breaking** (Effectiveness: High) - Your Response: Widen your base immediately with your free leg and drop your hips lower. Post with your extraction hand if necessary rather than completing the grip break. → Leads to [[Ringworm Guard]]
-- **Opponent transitions to back take as you focus on the lapel extraction** (Effectiveness: Medium) - Your Response: Keep shoulders absolutely square throughout extraction. If you feel them loading for the back, immediately square up and accept remaining in the guard rather than giving up your back. → Leads to [[Back Control]]
-- **Opponent transitions to Worm Guard or Squid Guard as you extract** (Effectiveness: Medium) - Your Response: Complete your extraction before they can re-establish a new lapel configuration. Speed becomes critical once you have created initial slack. → Leads to [[Ringworm Guard]]
+- **Opponent retightens the lapel wrap and creates angle while you attempt extraction** (Effectiveness: High) - Your Response: Abort the extraction attempt and reset your base before trying again. Address their secondary grip that allowed the re-tightening before your next attempt. → Leads to [[Positions/Ringworm Guard]]
+- **Opponent loads for a sweep as you commit both hands to grip breaking** (Effectiveness: High) - Your Response: Widen your base immediately with your free leg and drop your hips lower. Post with your extraction hand if necessary rather than completing the grip break. → Leads to [[Positions/Ringworm Guard]]
+- **Opponent transitions to back take as you focus on the lapel extraction** (Effectiveness: Medium) - Your Response: Keep shoulders absolutely square throughout extraction. If you feel them loading for the back, immediately square up and accept remaining in the guard rather than giving up your back. → Leads to [[Positions/Back Control]]
+- **Opponent transitions to Worm Guard or Squid Guard as you extract** (Effectiveness: Medium) - Your Response: Complete your extraction before they can re-establish a new lapel configuration. Speed becomes critical once you have created initial slack. → Leads to [[Positions/Ringworm Guard]]
 
 
 </section>

@@ -21,7 +21,7 @@ The technique demands precise timing and reading of defensive reactions. The opt
 
 This transition is the connective tissue between the leg entanglement ecosystem and specific submission chains. Practitioners who master it can convert any leg-on-leg contact into a structured attacking position, while those who lack it remain dependent on catching perfect entries from guard or scramble positions. The ashi entry transforms opportunistic leg attacks into systematic positional control, establishing the principle that position must precede submission in the leg lock hierarchy.
 
-**From Position**: [[Leg Entanglement]] (Top)
+**From Position**: [[Positions/Leg Entanglement]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition is the connective tissue between the leg entanglement ecosystem 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 55% |
-| Failure | [[Leg Entanglement]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 55% |
+| Failure | [[Positions/Leg Entanglement]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Ashi Entry from Leg Entanglement occupies a critical junction in the modern 
 ## Related Techniques
 
 
-- [[Leg Entanglement]] - Source position from which this entry originates during leg-on-leg exchanges
+- [[Positions/Leg Entanglement]] - Source position from which this entry originates during leg-on-leg exchanges
 
-- [[Inside Ashi-Garami]] - Target position achieved upon successful entry with structured submission access
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Target position achieved upon successful entry with structured submission access
 
-- [[Half Guard]] - Counter outcome position where attacker may end up if entry is successfully countered
+- [[Positions/Half Guard]] - Counter outcome position where attacker may end up if entry is successfully countered
 
-- [[Ashi Garami]] - Parent position family encompassing all ashi garami variations and systematic entries
+- [[Positions/Ashi Garami]] - Parent position family encompassing all ashi garami variations and systematic entries
 
-- [[Saddle]] - Advanced entanglement accessible from Inside Ashi-Garami after successful entry
+- [[Positions/Ashi Garami/Saddle]] - Advanced entanglement accessible from Inside Ashi-Garami after successful entry
 
-- [[Outside Ashi-Garami]] - Alternative ashi variant when inside positioning is blocked or unavailable
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative ashi variant when inside positioning is blocked or unavailable
 
-- [[50-50 Guard]] - Related neutral entanglement that may develop during contested entry attempts
+- [[Positions/Ashi Garami/50-50 Guard]] - Related neutral entanglement that may develop during contested entry attempts
 
-- [[Back Take from Ashi]] - Chain transition available from similar starting position when opponent turns away
+- [[Transitions/Back Take from Ashi]] - Chain transition available from similar starting position when opponent turns away
 
-- [[Ashi Garami Escape]] - Primary escape technique the defender uses that this entry must overcome
+- [[Transitions/Ashi Garami Escape]] - Primary escape technique the defender uses that this entry must overcome
 
-- [[Honey Hole]] - Advanced dominant position accessible from Inside Ashi-Garami after completing entry
+- [[Positions/Ashi Garami/Honey Hole]] - Advanced dominant position accessible from Inside Ashi-Garami after completing entry
 
 
 </section>

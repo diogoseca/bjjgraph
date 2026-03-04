@@ -154,7 +154,7 @@ description: "Master defending the kneebar to 50-50 transition in BJJ. Recogniti
 
 From the defender's perspective, the kneebar to 50-50 transition presents both danger and opportunity. While you have successfully defended the kneebar finish, your opponent is now attempting to convert their positional control into a 50-50 configuration that opens new submission threats including heel hooks and calf slicers. The transition moment represents your best window for escape, as the attacker must briefly compromise their control to thread their legs into the new position. Recognizing this transition early and acting decisively during the grip change is essential for avoiding a potentially worse situation. The defender must quickly decide between preventing the 50-50 entry entirely, accepting it while fighting for inside position, or using the transition window to extract their leg and escape.
 
-**Opponent's Starting Position**: [[Kneebar Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Kneebar Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ From the defender's perspective, the kneebar to 50-50 transition presents both d
 ### 1. Post hand on attacker's hip to block leg threading
 
 - **When to use**: Early in transition as attacker begins shifting from kneebar finishing pressure to leg repositioning
-- **Targets**: [[Kneebar Control]]
+- **Targets**: [[Positions/Kneebar Control]]
 - **If successful**: Attacker cannot complete 50-50 entry and must either return to kneebar or abandon the attempt
 - **Risk**: Posting hand removes one of your defensive frames against kneebar reattack if attacker reverts
 
 ### 2. Hip escape and extract trapped leg during grip transition window
 
 - **When to use**: During the 1-2 second moment when attacker releases kneebar finishing grips to begin threading legs
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Full escape from leg entanglement, recovering to half guard top position
 - **Risk**: Failed extraction attempt leaves you partially entangled in a worse configuration with less energy
 
 ### 3. Bridge explosively to create distance and disrupt leg threading sequence
 
 - **When to use**: As attacker's weight shifts during leg repositioning, momentarily reducing their base stability
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Distance creation prevents 50-50 completion and enables leg extraction to half guard
 - **Risk**: Bridge energy expenditure without successful escape leaves you fatigued in same position
 
 ### 4. Accept 50-50 entry but immediately fight for inside position and heel control
 
 - **When to use**: When leg threading has progressed too far to prevent, making prevention attempts wasteful
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Equalizes or reverses positional advantage within 50-50 through superior inside control
 - **Risk**: Delayed action allows attacker to settle into dominant top 50-50 with established offensive grips
 
@@ -225,7 +225,7 @@ From the defender's perspective, the kneebar to 50-50 transition presents both d
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your hip escape and leg extraction during the transition moment when the attacker releases kneebar finishing grips to begin threading legs for 50-50. This window lasts approximately 1-2 seconds and represents your best opportunity to extract your leg completely and recover to half guard top position before the attacker can re-establish any leg entanglement.
 

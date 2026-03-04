@@ -21,7 +21,7 @@ The mechanics rely on using the opponent's compromised shoulder position as a pi
 
 This technique is particularly valuable in competition settings where the omoplata finish proves difficult against a well-defended opponent. Rather than fighting for a submission the opponent can defend through posture and hand fighting, the roll forward converts the position into a dominant top position worth points. Advanced practitioners use the threat of the roll to create a dilemma system where defending the sweep opens the submission and defending the submission opens the sweep, making the omoplata control exponentially more dangerous.
 
-**From Position**: [[Omoplata Control]] (Bottom)
+**From Position**: [[Positions/Omoplata Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This technique is particularly valuable in competition settings where the omopla
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Omoplata Control]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Omoplata Control]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Roll Forward from Omoplata sits at the intersection of the omoplata attack s
 ## Related Techniques
 
 
-- [[Omoplata Control]] - Source position from which the roll forward is initiated
+- [[Positions/Omoplata Control]] - Source position from which the roll forward is initiated
 
-- [[Side Control]] - Primary target position after successful roll completion
+- [[Positions/Side Control]] - Primary target position after successful roll completion
 
-- [[Open Guard]] - Fallback position when omoplata control is lost during the roll attempt
+- [[Positions/Open Guard]] - Fallback position when omoplata control is lost during the roll attempt
 
-- [[Omoplata Sweep]] - Alternative sweep option from the same omoplata control position using lateral momentum
+- [[Transitions/Omoplata Sweep]] - Alternative sweep option from the same omoplata control position using lateral momentum
 
-- [[Rolling Omoplata]] - Related rolling technique from omoplata that uses similar forward momentum principles
+- [[Submissions/Rolling Omoplata]] - Related rolling technique from omoplata that uses similar forward momentum principles
 
-- [[Cartwheel Escape from Omoplata]] - Opponent escape technique that the roll forward can preempt or follow
+- [[Transitions/Cartwheel Escape from Omoplata]] - Opponent escape technique that the roll forward can preempt or follow
 
-- [[Omoplata from Spider Guard]] - Common entry path through spider guard that establishes the omoplata control for this transition
+- [[Submissions/Omoplata from Spider Guard]] - Common entry path through spider guard that establishes the omoplata control for this transition
 
-- [[Back Control]] - Alternative advancement target from omoplata when opponent turns away instead of basing
+- [[Positions/Back Control]] - Alternative advancement target from omoplata when opponent turns away instead of basing
 
-- [[Closed Guard]] - Traditional guard position from which omoplata control is initially established
+- [[Positions/Closed Guard]] - Traditional guard position from which omoplata control is initially established
 
-- [[Lasso Guard]] - Entry guard with arm isolation that provides strong setups for omoplata attacks
+- [[Positions/Lasso Guard]] - Entry guard with arm isolation that provides strong setups for omoplata attacks
 
 
 </section>

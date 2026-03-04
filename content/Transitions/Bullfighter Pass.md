@@ -21,7 +21,7 @@ The technique relies on explosive footwork, proper weight distribution, and the 
 
 The Bullfighter Pass is particularly effective in no-gi grappling where leg grips are harder to maintain, but it remains highly useful in the gi when executed with proper timing. At the highest levels, this pass is rarely used in isolation. It functions as the primary entry in a standing passing system that chains with the Long Step Pass, Knee Cut Pass, and backstep entries to leg attacks, forcing the guard player to defend multiple threats simultaneously.
 
-**From Position**: [[Open Guard]] (Top)
+**From Position**: [[Positions/Open Guard]] (Top)
 **Success Rate**: 68%
 
 </section>
@@ -32,9 +32,9 @@ The Bullfighter Pass is particularly effective in no-gi grappling where leg grip
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 68% |
-| Failure | [[Open Guard]] | 22% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 68% |
+| Failure | [[Positions/Open Guard]] | 22% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -199,33 +199,33 @@ The Bullfighter Pass is a cornerstone technique in modern standing guard passing
 ## Related Techniques
 
 
-- [[Headquarters Pass]] - Transitional passing position that chains with toreando movement
+- [[Transitions/Headquarters Pass]] - Transitional passing position that chains with toreando movement
 
-- [[Long Step Pass]] - Complementary standing pass, often chained together
+- [[Transitions/Long Step Pass]] - Complementary standing pass, often chained together
 
-- [[Knee Cut Pass]] - Follow-up when opponent squares hips to defend
+- [[Transitions/Knee Cut Pass]] - Follow-up when opponent squares hips to defend
 
-- [[X Pass]] - Alternative lateral passing option with different mechanics
+- [[Transitions/X Pass]] - Alternative lateral passing option with different mechanics
 
-- [[Stack Pass]] - Alternative when opponent sits up to defend standing passes
+- [[Transitions/Stack Pass]] - Alternative when opponent sits up to defend standing passes
 
-- [[Open Guard]] - Starting position being passed
+- [[Positions/Open Guard]] - Starting position being passed
 
-- [[Spider Guard]] - Common guard configuration this pass defeats
+- [[Positions/Spider Guard]] - Common guard configuration this pass defeats
 
-- [[De La Riva Guard]] - Specific guard type vulnerable to this pass
+- [[Positions/De La Riva Guard]] - Specific guard type vulnerable to this pass
 
-- [[Collar Sleeve Guard]] - Specific guard type vulnerable to this pass
+- [[Positions/Collar Sleeve Guard]] - Specific guard type vulnerable to this pass
 
-- [[Side Control]] - Standard ending position after successful pass
+- [[Positions/Side Control]] - Standard ending position after successful pass
 
-- [[Leg Drag Pass]] - Complementary pass that shares similar grip and angle creation principles
+- [[Transitions/Leg Drag Pass]] - Complementary pass that shares similar grip and angle creation principles
 
-- [[Smash Pass]] - Alternative pressure-based pass when opponent collapses guard structure
+- [[Transitions/Smash Pass]] - Alternative pressure-based pass when opponent collapses guard structure
 
-- [[Berimbolo Entry]] - Common counter the guard player may attempt during passing
+- [[Transitions/Berimbolo Entry]] - Common counter the guard player may attempt during passing
 
-- [[Inside Ashi-Garami]] - Leg entanglement option when using backstep variation
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Leg entanglement option when using backstep variation
 
 
 </section>

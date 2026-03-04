@@ -180,7 +180,7 @@ description: "Execute the triangle setup from Diamond Guard. Step-by-step guide 
 
 As the attacker executing the triangle from Diamond Guard, you are leveraging an already-dominant control position to launch a submission entry that bypasses the two most common triangle defenses — posture recovery and arm posting. The overhook has already isolated one arm and eliminated posting ability, while the head control has already broken posture. Your challenge is executing a clean grip transition from head control to wrist control while simultaneously opening your guard and shooting your choking leg over the opponent's neck without losing the overhook or allowing posture recovery during the brief transition window. The key insight is that the grip switch moment is the highest-risk phase, and controlling this transition through proper sequencing and timing determines success or failure.
 
-**From Position**: [[Diamond Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard/Diamond Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the triangle from Diamond Guard, you are leveraging an
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Control]] | 50% |
-| Failure | [[Diamond Guard]] | 30% |
-| Counter | [[Closed Guard]] | 20% |
+| Success | [[Positions/Triangle Control]] | 50% |
+| Failure | [[Positions/Closed Guard/Diamond Guard]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the triangle from Diamond Guard, you are leveraging an
 
 ## Opponent Counters
 
-- **Opponent drives hips backward to recover posture before grip switch completes** (Effectiveness: High) - Your Response: Increase heel pressure into their lower back before initiating the grip switch. If they begin recovering posture, abort the triangle attempt and re-establish head control to restore the diamond frame before reattempting. → Leads to [[Diamond Guard]]
-- **Opponent strips the wrist grip during the head control to wrist control switch** (Effectiveness: Medium) - Your Response: If the wrist grip fails, immediately re-establish head control to restore the diamond. Alternatively, if your leg is already moving toward the neck, commit to the quick shoot variation and rely on the overhook alone to keep the arm trapped during the leg shoot. → Leads to [[Diamond Guard]]
-- **Opponent stacks forward and drives shoulder into your chest to compress your guard structure** (Effectiveness: Medium) - Your Response: Use the stacking momentum to pivot your hips further toward the overhook side, converting their forward drive into the angle you need. If stacking becomes severe, redirect to an omoplata entry which becomes easier when the opponent drives forward. → Leads to [[Diamond Guard]]
-- **Opponent yanks trapped arm free by explosively pulling backward while turning their shoulder outward** (Effectiveness: Medium) - Your Response: If the arm extraction happens before the triangle is locked, immediately close your guard and re-establish closed guard control. If the extraction happens as your leg is crossing the neck, redirect to a gogoplata attempt or armbar on the now-free arm. → Leads to [[Closed Guard]]
+- **Opponent drives hips backward to recover posture before grip switch completes** (Effectiveness: High) - Your Response: Increase heel pressure into their lower back before initiating the grip switch. If they begin recovering posture, abort the triangle attempt and re-establish head control to restore the diamond frame before reattempting. → Leads to [[Positions/Closed Guard/Diamond Guard]]
+- **Opponent strips the wrist grip during the head control to wrist control switch** (Effectiveness: Medium) - Your Response: If the wrist grip fails, immediately re-establish head control to restore the diamond. Alternatively, if your leg is already moving toward the neck, commit to the quick shoot variation and rely on the overhook alone to keep the arm trapped during the leg shoot. → Leads to [[Positions/Closed Guard/Diamond Guard]]
+- **Opponent stacks forward and drives shoulder into your chest to compress your guard structure** (Effectiveness: Medium) - Your Response: Use the stacking momentum to pivot your hips further toward the overhook side, converting their forward drive into the angle you need. If stacking becomes severe, redirect to an omoplata entry which becomes easier when the opponent drives forward. → Leads to [[Positions/Closed Guard/Diamond Guard]]
+- **Opponent yanks trapped arm free by explosively pulling backward while turning their shoulder outward** (Effectiveness: Medium) - Your Response: If the arm extraction happens before the triangle is locked, immediately close your guard and re-establish closed guard control. If the extraction happens as your leg is crossing the neck, redirect to a gogoplata attempt or armbar on the now-free arm. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

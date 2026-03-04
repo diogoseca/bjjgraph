@@ -21,7 +21,7 @@ This escape requires rapid recognition that the attack has failed and immediate 
 
 Successful execution demands exceptional body awareness, as the escaping practitioner must redirect their momentum from a rotational path into a linear recovery while simultaneously protecting their neck and managing their opponent's pressure. The technique serves as an essential safety valve within the Matrix attack system, allowing practitioners to attempt the high-risk back take while maintaining a viable exit strategy when the attack is defended. Without a reliable escape, practitioners cannot commit fully to Matrix rotations, which paradoxically makes the attack itself less effective.
 
-**From Position**: [[Matrix]] (Bottom)
+**From Position**: [[Positions/Matrix]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ Successful execution demands exceptional body awareness, as the escaping practit
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 35% |
-| Success | [[Closed Guard]] | 20% |
-| Failure | [[Matrix]] | 25% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Turtle]] | 35% |
+| Success | [[Positions/Closed Guard]] | 20% |
+| Failure | [[Positions/Matrix]] | 25% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -194,25 +194,25 @@ The Escape Matrix Position serves as the essential safety valve within the Matri
 ## Related Techniques
 
 
-- [[Matrix]] - Starting position from which the escape is executed when back take rotation stalls
+- [[Positions/Matrix]] - Starting position from which the escape is executed when back take rotation stalls
 
-- [[Turtle]] - Primary escape destination providing defensive base for further recovery
+- [[Positions/Turtle]] - Primary escape destination providing defensive base for further recovery
 
-- [[Back Control]] - Risk position if escape fails and opponent capitalizes on vulnerability
+- [[Positions/Back Control]] - Risk position if escape fails and opponent capitalizes on vulnerability
 
-- [[Closed Guard]] - Alternative recovery target when sufficient momentum remains for guard pull
+- [[Positions/Closed Guard]] - Alternative recovery target when sufficient momentum remains for guard pull
 
-- [[Counter Roll from Matrix]] - Related defensive transition from same starting position
+- [[Transitions/Counter Roll from Matrix]] - Related defensive transition from same starting position
 
-- [[Granby Roll to Guard]] - Shares rolling recovery mechanics and guard recovery objectives
+- [[Transitions/Granby Roll to Guard]] - Shares rolling recovery mechanics and guard recovery objectives
 
-- [[Rolling to Guard]] - Alternative guard recovery technique with overlapping movement patterns
+- [[Transitions/Rolling to Guard]] - Alternative guard recovery technique with overlapping movement patterns
 
-- [[Scramble Position]] - Potential intermediate state during scramble burst escape variant
+- [[Positions/Scramble Position]] - Potential intermediate state during scramble burst escape variant
 
-- [[Crab Ride]] - Alternative position from which similar escape decisions occur
+- [[Positions/Crab Ride]] - Alternative position from which similar escape decisions occur
 
-- [[Deep Half Guard]] - Shares rotational body mechanics and inversion recovery principles
+- [[Positions/Half Guard/Deep Half Guard]] - Shares rotational body mechanics and inversion recovery principles
 
 
 </section>

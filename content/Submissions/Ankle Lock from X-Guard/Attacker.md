@@ -188,7 +188,7 @@ description: "Learn to execute the ankle lock from X-Guard with expert technique
 
 Executing the ankle lock from X-Guard requires transitioning from sweep-based guard control to submission-focused leg isolation. The attacker must secure the ankle grip before fully committing to the submission, maintaining hip control with the legs throughout the transition. The finish relies on hip extension mechanics rather than arm strength, with the blade of the forearm pressing into the Achilles tendon while the body drives away from the opponent. Proper timing distinguishes successful attempts from ones that result in guard loss — attacking when the opponent's weight is committed forward or laterally prevents them from simply retracting the trapped foot. The ankle lock from X-Guard is most effective as part of a chain-attack system where sweep threats create the opening for submission entry, and defended ankle locks lead naturally into Ashi Garami entanglements for higher-percentage leg attacks.
 
-**From Position**: [[X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard]] (Bottom)
 
 
 </section>
@@ -244,9 +244,9 @@ Executing the ankle lock from X-Guard requires transitioning from sweep-based gu
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[X-Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
-| Failure | [[Ashi Garami]] | 15% |
+| Failure | [[Positions/X-Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami]] | 15% |
 
 
 </section>
@@ -255,10 +255,10 @@ Executing the ankle lock from X-Guard requires transitioning from sweep-based gu
 
 ## Opponent Defenses
 
-- **Opponent retracts foot before ankle grip is secured by pulling knee to chest and posting with free leg for base** (Effectiveness: High) - Your Response: Immediately follow the retracting leg with your hips and transition to Ashi Garami, maintaining at least hook contact on the leg throughout the withdrawal to prevent complete disengagement → Leads to [[X-Guard]]
-- **Opponent steps free leg over your body and begins passing while you hold the ankle in figure-four grip** (Effectiveness: Medium) - Your Response: Use your inside leg to frame against their stepping hip to slow the pass, then decide whether to abandon the ankle lock and recover guard or accelerate the finishing pressure before they complete the pass → Leads to [[Open Guard]]
-- **Opponent rotates knee inward and points toes aggressively to relieve Achilles pressure and prevent the finish** (Effectiveness: Medium) - Your Response: Adjust your angle to follow their knee rotation and slide your wrist higher on the Achilles where toe pointing provides less protection, or transition to a toe hold using their rigid foot position as leverage → Leads to [[X-Guard]]
-- **Opponent sits down and engages counter leg entanglement, threatening their own leg attacks to force you to release the ankle** (Effectiveness: Low) - Your Response: Maintain the ankle grip while reconfiguring your legs into a dominant Ashi Garami position — their sitting movement often improves your finishing angle by bringing their hip closer to your control → Leads to [[Ashi Garami]]
+- **Opponent retracts foot before ankle grip is secured by pulling knee to chest and posting with free leg for base** (Effectiveness: High) - Your Response: Immediately follow the retracting leg with your hips and transition to Ashi Garami, maintaining at least hook contact on the leg throughout the withdrawal to prevent complete disengagement → Leads to [[Positions/X-Guard]]
+- **Opponent steps free leg over your body and begins passing while you hold the ankle in figure-four grip** (Effectiveness: Medium) - Your Response: Use your inside leg to frame against their stepping hip to slow the pass, then decide whether to abandon the ankle lock and recover guard or accelerate the finishing pressure before they complete the pass → Leads to [[Positions/Open Guard]]
+- **Opponent rotates knee inward and points toes aggressively to relieve Achilles pressure and prevent the finish** (Effectiveness: Medium) - Your Response: Adjust your angle to follow their knee rotation and slide your wrist higher on the Achilles where toe pointing provides less protection, or transition to a toe hold using their rigid foot position as leverage → Leads to [[Positions/X-Guard]]
+- **Opponent sits down and engages counter leg entanglement, threatening their own leg attacks to force you to release the ankle** (Effectiveness: Low) - Your Response: Maintain the ankle grip while reconfiguring your legs into a dominant Ashi Garami position — their sitting movement often improves your finishing angle by bringing their hip closer to your control → Leads to [[Positions/Ashi Garami]]
 
 
 </section>

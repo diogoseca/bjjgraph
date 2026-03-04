@@ -154,7 +154,7 @@ description: "Complete defensive guide against the Toreando Pass from De La Riva
 
 Defending the Toreando Pass from De La Riva Guard requires understanding the attacker's three-phase sequence and developing specific countermeasures for each phase. The first defensive priority is grip retention: maintaining the ankle grip and DLR hook tension makes the toreando structurally impossible, so aggressive grip fighting to preserve these controls is the foundation of all defense. When grips are broken and the hook is cleared, the defender must transition immediately to secondary guard positions rather than attempting to re-establish DLR under compromised conditions. The most effective defenders treat the toreando attempt as an opportunity to transition to X-Guard, Single Leg X, or butterfly guard rather than fighting to maintain a weakened DLR structure. Understanding that the attacker's commitment to lateral movement creates predictable angles allows the defender to time counter-sweeps and guard transitions that exploit the passer's momentum.
 
-**Opponent's Starting Position**: [[De La Riva Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Toreando Pass from De La Riva Guard requires understanding the att
 ### 1. Aggressive grip fighting to retain ankle grip and re-establish DLR hook before pass can be initiated
 
 - **When to use**: As soon as you feel the passer begin stripping your ankle grip or pressuring your DLR hook. This is the first and most effective line of defense.
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: DLR guard is fully retained with all controls intact, forcing the passer to restart their passing sequence from scratch
 - **Risk**: If grip fighting fails, you may end up with both grips stripped and hook cleared simultaneously, leaving you in a worse position than transitioning proactively
 
 ### 2. Transition to X-Guard or Single Leg X by threading bottom hook as passer clears DLR hook
 
 - **When to use**: When the DLR hook is being cleared but the passer has not yet established bilateral grips on your legs. Thread your bottom foot to the passer's far hip while converting the DLR hook to an X-Guard hook.
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: You establish a new guard position with strong sweeping mechanics that the passer did not anticipate, forcing them to address a completely different guard structure
 - **Risk**: If the transition is too slow, the passer may establish grips and flatten your hips before you can complete the guard change, leaving you in open guard without hooks
 
 ### 3. Hip escape and insert knee shield as passer completes lateral arc to block side control consolidation
 
 - **When to use**: When the toreando is already in progress and the passer has cleared your legs. Time the knee insertion as they transition from lateral movement to chest drop. This is a last-resort defense.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to half guard or knee shield half guard, which while not ideal represents successful defense against the pass and provides a new offensive platform
 - **Risk**: If the knee insertion is too late, the passer establishes crossface and hip control in full side control before you can insert the knee
 
 ### 4. Invert toward the passer during their lateral commitment to attack the back via berimbolo or kiss of the dragon
 
 - **When to use**: When the passer commits fully to one lateral direction with significant momentum. The inversion exploits their linear movement pattern by attacking from underneath their passing trajectory.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You achieve a back take or reversal by using the passer's own momentum against them, converting their offensive action into a defensive scramble
 - **Risk**: A well-timed sprawl from the passer smashes the inversion and leaves you flattened on your back with no guard structure, potentially resulting in an immediate pass to side control
 
@@ -225,11 +225,11 @@ Defending the Toreando Pass from De La Riva Guard requires understanding the att
 
 ## Best-Case Outcomes for Defender
 
-### → [[De La Riva Guard]]
+### → [[Positions/De La Riva Guard]]
 
 Retain or re-establish the DLR hook and ankle grip through aggressive grip fighting before the passer can initiate the lateral passing phase. Fight every grip strip immediately and maintain constant hook tension to make the toreando structurally impossible.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If the pass is already in progress, time a hip escape and knee insertion during the passer's transition from lateral movement to chest contact. The brief moment when the passer shifts from moving laterally to dropping down creates a window for inserting a knee shield between your bodies.
 

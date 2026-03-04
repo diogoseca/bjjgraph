@@ -182,7 +182,7 @@ description: "How to execute Omoplata from Guard in BJJ. Attacking perspective w
 
 The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's rotator cuff and shoulder joint through hip extension and shoulder rotation. This submission originated from Brazilian Jiu-Jitsu's guard-playing traditions and has evolved into a central hub technique that connects sweeps, back takes, and other submissions. The Omoplata creates a mechanical advantage by using the legs to control the opponent's arm while the hips generate rotational pressure on the shoulder. Unlike many submissions that finish quickly, the Omoplata is often used as a position to create movement and opportunity - sweeps when opponent defends by rolling, back takes when they turn away, or transitions to triangles and armbars when they posture. The technique requires excellent hip mobility, timing, and understanding of how to maintain control throughout the finish. As a fundamental guard submission, the Omoplata teaches important principles about using legs for control, creating angles, and maintaining offensive pressure from bottom positions.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 
 </section>
@@ -239,8 +239,8 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -249,11 +249,11 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 ## Opponent Defenses
 
-- **Rolling forward over their trapped shoulder to relieve pressure** (Effectiveness: High) - Your Response: Recognize the roll early and ride with them while maintaining leg triangle and hip connection. As they roll, immediately take mount position or transition to their back. The roll attempt is actually a sweep opportunity - use your momentum to secure top position. → Leads to [[Closed Guard]]
-- **Stacking you by driving weight forward and up before you establish position** (Effectiveness: High) - Your Response: Before they can stack, immediately shift your hips further to the side and use your bottom leg to push their hip away, creating space. Alternatively, switch to Triangle Choke by bringing your top leg across to their opposite shoulder, or transition to Armbar by extending their arm. → Leads to [[Closed Guard]]
-- **Extracting the trapped arm by pulling elbow back before leg triangle is secured** (Effectiveness: Medium) - Your Response: Tighten your overhook grip immediately and use your leg swing to trap their arm before they can extract. If they begin extracting, quickly transition to Triangle by adjusting your leg position, or pursue a back take as they turn away from the pressure. → Leads to [[Closed Guard]]
+- **Rolling forward over their trapped shoulder to relieve pressure** (Effectiveness: High) - Your Response: Recognize the roll early and ride with them while maintaining leg triangle and hip connection. As they roll, immediately take mount position or transition to their back. The roll attempt is actually a sweep opportunity - use your momentum to secure top position. → Leads to [[Positions/Closed Guard]]
+- **Stacking you by driving weight forward and up before you establish position** (Effectiveness: High) - Your Response: Before they can stack, immediately shift your hips further to the side and use your bottom leg to push their hip away, creating space. Alternatively, switch to Triangle Choke by bringing your top leg across to their opposite shoulder, or transition to Armbar by extending their arm. → Leads to [[Positions/Closed Guard]]
+- **Extracting the trapped arm by pulling elbow back before leg triangle is secured** (Effectiveness: Medium) - Your Response: Tighten your overhook grip immediately and use your leg swing to trap their arm before they can extract. If they begin extracting, quickly transition to Triangle by adjusting your leg position, or pursue a back take as they turn away from the pressure. → Leads to [[Positions/Closed Guard]]
 - **Posting the far hand on mat for base and preventing the finish** (Effectiveness: Medium) - Your Response: Use your free hand to strip their posted grip by attacking their wrist or fingers. Alternatively, control their far hip with your hand, pulling them toward you to break their base. You can also use this as a Kimura opportunity on their posted arm. → Leads to [[game-over]]
-- **Turning away from the submission toward their trapped arm** (Effectiveness: Low) - Your Response: Encourage this movement as it exposes their back. As they turn, maintain your leg triangle and climb onto their back for back control. This is one of the primary reasons the Omoplata is valuable - failed escapes lead directly to back takes. → Leads to [[Side Control]]
+- **Turning away from the submission toward their trapped arm** (Effectiveness: Low) - Your Response: Encourage this movement as it exposes their back. As they turn, maintain your leg triangle and climb onto their back for back control. This is one of the primary reasons the Omoplata is valuable - failed escapes lead directly to back takes. → Leads to [[Positions/Side Control]]
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Learn to defend and counter the Leg Hook to Half Guard consolidati
 
 As the bottom player, your opponent's attempt to consolidate from Leg Hook to Half Guard Top represents both a threat and an opportunity. The consolidation means they are acknowledging that their current passing attempt has stalled, which gives you a window to act. During the transition, the top player must momentarily reduce lower body control while repositioning their legs, creating brief but exploitable gaps in their control structure. Your defensive priority shifts from preventing the pass to either maintaining the more dynamic Leg Hook Bottom position—where you have better offensive options—or capitalizing on the transition to reverse the position entirely through sweeps or guard recovery. The key is recognizing the consolidation early through tactile and visual cues, then executing your response before the top player can establish stable half guard top control.
 
-**Opponent's Starting Position**: [[Leg Hook]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Hook]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the bottom player, your opponent's attempt to consolidate from Leg Hook to Ha
 ### 1. Fight for underhook during transition window
 
 - **When to use**: As soon as you feel the hooked leg begin to disengage or the top player's weight shift upward, immediately attack the underhook on the trapped leg side
-- **Targets**: [[Leg Hook]]
+- **Targets**: [[Positions/Leg Hook]]
 - **If successful**: Establish the underhook and use it to create sweeping angle or initiate back take sequence before half guard top is consolidated
 - **Risk**: If the underhook attempt fails, the top player may use the overcommitment to accelerate their consolidation and establish deeper crossface control
 
 ### 2. Insert knee shield during the leg repositioning gap
 
 - **When to use**: During the brief moment when the hooked leg is transitioning and the top player's lower body control is minimal, insert your inside knee across their body as a frame
-- **Targets**: [[Leg Hook]]
+- **Targets**: [[Positions/Leg Hook]]
 - **If successful**: Establish Knee Shield Half Guard which provides strong distance management and prevents the flat half guard top the opponent was seeking
 - **Risk**: If knee shield is too late, the top player may smash it flat and use the extended leg as leverage for a pressure pass
 
 ### 3. Attempt deep half guard entry during weight transfer
 
 - **When to use**: When the top player's weight shifts to upper body during hook extraction, use the momentary lightness in the lower body to duck underneath them and enter deep half
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Establish Deep Half Guard position with superior sweeping mechanics and off-balance the top player by getting underneath their center of gravity
 - **Risk**: If the entry is too slow, the top player can sprawl and drive you flat, achieving an even more dominant half guard top position
 
 ### 4. Execute hip escape to recover guard during transition
 
 - **When to use**: When far hip control is momentarily lost during the leg repositioning phase, explosively hip escape to create distance and recover to a stronger guard position
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover to closed guard or open guard with established distance and frames, completely resetting the passing sequence
 - **Risk**: A failed hip escape attempt may leave you flattened and out of position, accelerating the opponent's consolidation to dominant half guard top
 
@@ -217,11 +217,11 @@ As the bottom player, your opponent's attempt to consolidate from Leg Hook to Ha
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Capitalize on the transition window to execute a sweep by timing your underhook or hip escape to coincide with the top player's leg repositioning phase. The brief instability in their base during the weight transfer creates a sweep opportunity that does not exist in either the stable leg hook or stable half guard top positions.
 
-### → [[Leg Hook]]
+### → [[Positions/Leg Hook]]
 
 Disrupt the consolidation by maintaining active hook retention, aggressive frame fighting, and underhook battles that prevent the top player from completing the leg repositioning. Force them to remain in the Leg Hook position where your offensive options are better than in standard half guard bottom.
 

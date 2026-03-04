@@ -21,7 +21,7 @@ The mechanics of the stack revolve around driving through the opponent's center 
 
 Strategically, the stack is most effective as part of a broader dilemma-based turtle attack system. Threatening the stack forces the bottom player to widen their base or post their hands forward to resist, which in turn opens opportunities for hook insertion, front headlock attacks, or crucifix entries. Even when the stack itself does not succeed, the defensive reactions it provokes create openings for higher-percentage attacks. This makes the stack a valuable chain-starting technique that pressures the opponent into increasingly compromised defensive responses.
 
-**From Position**: [[Chill Dog]] (Top)
+**From Position**: [[Positions/Rubber Guard/Chill Dog]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the stack is most effective as part of a broader dilemma-based tu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Failure | [[Chill Dog]] | 35% |
-| Counter | [[Closed Guard]] | 20% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Failure | [[Positions/Rubber Guard/Chill Dog]] | 35% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -191,21 +191,21 @@ The Stack from Chill Dog fills a specific tactical role within the turtle attack
 ## Related Techniques
 
 
-- [[Chill Dog]] - Source position where the stack is initiated from the top
+- [[Positions/Rubber Guard/Chill Dog]] - Source position where the stack is initiated from the top
 
-- [[Half Guard]] - Primary target position after successful stack collapses turtle defense
+- [[Positions/Half Guard]] - Primary target position after successful stack collapses turtle defense
 
-- [[Turtle]] - Parent position category that Chill Dog belongs to as a defensive variant
+- [[Positions/Turtle]] - Parent position category that Chill Dog belongs to as a defensive variant
 
-- [[Escape Chill Dog]] - Opponent's primary escape technique that the stack aims to preempt
+- [[Transitions/Escape Chill Dog]] - Opponent's primary escape technique that the stack aims to preempt
 
-- [[Closed Guard]] - Counter outcome position when opponent uses stack momentum to recover full guard
+- [[Positions/Closed Guard]] - Counter outcome position when opponent uses stack momentum to recover full guard
 
-- [[Back Control]] - Alternative high-value attack from Chill Dog Top that the stack complements
+- [[Positions/Back Control]] - Alternative high-value attack from Chill Dog Top that the stack complements
 
-- [[Side Control]] - Advanced target position if stack fully collapses turtle past half guard
+- [[Positions/Side Control]] - Advanced target position if stack fully collapses turtle past half guard
 
-- [[Front Headlock]] - Alternative control position accessible when stack forces opponent to lift head
+- [[Positions/Front Headlock]] - Alternative control position accessible when stack forces opponent to lift head
 
 
 </section>

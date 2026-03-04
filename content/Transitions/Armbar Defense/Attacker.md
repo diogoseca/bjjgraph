@@ -182,7 +182,7 @@ Armbar defense from the attacker's perspective focuses on the systematic process
 
 The urgency of execution cannot be overstated. Unlike many positional escapes where you can work methodically over thirty seconds or more, armbar defense operates in a compressed window where the difference between successful escape and submission is measured in fractions of a second once the opponent achieves full extension. This demands that the defensive response be trained to the level of automatic reflex, where recognition of armbar indicators triggers the complete defensive sequence without conscious deliberation. The most successful defenders treat armbar defense not as a single technique but as an integrated system where early recognition, defensive grip, rotational escape, and positional recovery flow as one continuous movement.
 
-**From Position**: [[Armbar Control]] (Bottom)
+**From Position**: [[Positions/Armbar Control]] (Bottom)
 
 </section>
 
@@ -236,9 +236,9 @@ The urgency of execution cannot be overstated. Unlike many positional escapes wh
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Armbar Control]] | 30% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Armbar Control]] | 30% |
 | Counter | [[game-over]] | 10% |
 
 
@@ -249,7 +249,7 @@ The urgency of execution cannot be overstated. Unlike many positional escapes wh
 ## Opponent Counters
 
 - **Opponent switches to triangle choke as you turn toward them** (Effectiveness: High) - Your Response: Maintain posture by keeping head up and posting free hand on opponent's hip. Stack aggressively to prevent triangle lock and work to extract trapped arm while defending the choke. If necessary, stand up to eliminate both submission angles. → Leads to [[game-over]]
-- **Opponent transitions to omoplata when you rotate shoulder forward** (Effectiveness: Medium) - Your Response: As opponent begins to thread your arm through for omoplata, roll forward over your trapped shoulder in a controlled somersault to alleviate shoulder pressure and come up in top position inside their guard. → Leads to [[Armbar Control]]
+- **Opponent transitions to omoplata when you rotate shoulder forward** (Effectiveness: Medium) - Your Response: As opponent begins to thread your arm through for omoplata, roll forward over your trapped shoulder in a controlled somersault to alleviate shoulder pressure and come up in top position inside their guard. → Leads to [[Positions/Armbar Control]]
 - **Opponent applies wrist control and breaks your defensive grip** (Effectiveness: High) - Your Response: Focus on keeping elbow bent even if hands separate. Turn thumb upward into hitchhiker position while continuing rotation toward opponent's head to reduce joint angle and maintain defensive posture. → Leads to [[game-over]]
 - **Opponent elevates hips explosively to finish before you can stack** (Effectiveness: Medium) - Your Response: Accelerate your rotation and drive weight laterally across opponent's hips rather than straight forward. Use lateral pressure to compromise their hip elevation angle and buy time to re-establish defensive structure. → Leads to [[game-over]]
 

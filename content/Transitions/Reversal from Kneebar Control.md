@@ -21,7 +21,7 @@ This reversal becomes particularly valuable when the kneebar finish is well-defe
 
 The strategic importance of this transition lies in its role within the modern leg lock game. Advanced practitioners understand that leg entanglements serve dual purposes: submission threats and positional control platforms. The ability to seamlessly transition between hunting the kneebar finish and sweeping to top position makes the bottom player's attacks unpredictable, forcing the top player to defend both the submission and the sweep simultaneously. This creates the kind of offensive dilemma that characterizes high-level grappling.
 
-**From Position**: [[Kneebar Control]] (Bottom)
+**From Position**: [[Positions/Kneebar Control]] (Bottom)
 **Success Rate**: 35%
 
 </section>
@@ -32,9 +32,9 @@ The strategic importance of this transition lies in its role within the modern l
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 35% |
-| Failure | [[Kneebar Control]] | 40% |
-| Counter | [[Half Guard]] | 25% |
+| Success | [[Positions/Side Control]] | 35% |
+| Failure | [[Positions/Kneebar Control]] | 40% |
+| Counter | [[Positions/Half Guard]] | 25% |
 
 
 </section>
@@ -191,25 +191,25 @@ The reversal from kneebar control connects the leg lock subsystem to the positio
 ## Related Techniques
 
 
-- [[Kneebar Control]] - Source position where this reversal begins
+- [[Positions/Kneebar Control]] - Source position where this reversal begins
 
-- [[Side Control]] - Primary target position upon successful reversal
+- [[Positions/Side Control]] - Primary target position upon successful reversal
 
-- [[Half Guard]] - Position reached when opponent successfully counters the reversal by extracting their leg
+- [[Positions/Half Guard]] - Position reached when opponent successfully counters the reversal by extracting their leg
 
-- [[Ashi Garami]] - Parent leg entanglement system encompassing kneebar control mechanics
+- [[Positions/Ashi Garami]] - Parent leg entanglement system encompassing kneebar control mechanics
 
-- [[Inside Ashi-Garami]] - Common leg entanglement configuration from which kneebar reversals are initiated
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Common leg entanglement configuration from which kneebar reversals are initiated
 
-- [[Kneebar Control Maintenance]] - Alternative to reversal when maintaining the kneebar attack from bottom is preferred
+- [[Transitions/Kneebar Control Maintenance]] - Alternative to reversal when maintaining the kneebar attack from bottom is preferred
 
-- [[Kneebar to Ashi Garami]] - Related transition redirecting kneebar control to different leg entanglement
+- [[Transitions/Kneebar to Ashi Garami]] - Related transition redirecting kneebar control to different leg entanglement
 
-- [[Kneebar to 50-50 Transition]] - Alternative positional transition from kneebar control
+- [[Transitions/Kneebar to 50-50 Transition]] - Alternative positional transition from kneebar control
 
-- [[Ashi Garami Escape]] - Opponent's primary escape pathway that can trigger reversal opportunities
+- [[Transitions/Ashi Garami Escape]] - Opponent's primary escape pathway that can trigger reversal opportunities
 
-- [[Single Leg X-Guard]] - Related sweep position sharing similar elevation and leg control mechanics
+- [[Positions/X-Guard/Single Leg X-Guard]] - Related sweep position sharing similar elevation and leg control mechanics
 
 
 </section>

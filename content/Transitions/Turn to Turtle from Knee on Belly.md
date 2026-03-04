@@ -21,7 +21,7 @@ While this escape provides immediate relief from one of BJJ's most uncomfortable
 
 The effectiveness of this transition depends heavily on timing and the integration of back defense principles during the turning motion itself. The bottom player must create a momentary disruption — through a frame, a bridge, or capitalizing on the opponent's own weight shift toward a submission — before initiating the turn. Executing the rotation during a moment when the top player's weight is committed forward dramatically increases success probability and reduces the window for back takes.
 
-**From Position**: [[Knee on Belly]] (Bottom)
+**From Position**: [[Positions/Knee on Belly]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ The effectiveness of this transition depends heavily on timing and the integrati
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 45% |
-| Failure | [[Knee on Belly]] | 30% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Turtle]] | 45% |
+| Failure | [[Positions/Knee on Belly]] | 30% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -191,21 +191,21 @@ The Turn to Turtle from Knee on Belly occupies a critical junction in the defens
 ## Related Techniques
 
 
-- [[Knee on Belly]] - Source position where this escape begins under crushing knee pressure
+- [[Positions/Knee on Belly]] - Source position where this escape begins under crushing knee pressure
 
-- [[Turtle]] - Target position after successful rotation away from Knee on Belly
+- [[Positions/Turtle]] - Target position after successful rotation away from Knee on Belly
 
-- [[Back Control]] - Counter position if the top player follows the turn and establishes hooks
+- [[Positions/Back Control]] - Counter position if the top player follows the turn and establishes hooks
 
-- [[Frame and Shrimp from Knee on Belly]] - Alternative escape from the same position prioritizing direct guard recovery
+- [[Transitions/Frame and Shrimp from Knee on Belly]] - Alternative escape from the same position prioritizing direct guard recovery
 
-- [[Push Knee and Reguard from Knee on Belly]] - Alternative escape using knee push mechanics to recover guard without turning
+- [[Transitions/Push Knee and Reguard from Knee on Belly]] - Alternative escape using knee push mechanics to recover guard without turning
 
-- [[Sit Out from Turtle]] - Primary follow-up technique after reaching turtle to recover guard
+- [[Transitions/Sit Out from Turtle]] - Primary follow-up technique after reaching turtle to recover guard
 
-- [[Side Control]] - Adjacent position in the control hierarchy that the top player may transition to
+- [[Positions/Side Control]] - Adjacent position in the control hierarchy that the top player may transition to
 
-- [[Half Guard]] - Alternative escape destination from Knee on Belly via framing and shrimping
+- [[Positions/Half Guard]] - Alternative escape destination from Knee on Belly via framing and shrimping
 
 
 </section>

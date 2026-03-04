@@ -186,7 +186,7 @@ description: "Master the offensive transition from 3-4 Mount to S Mount. Step-by
 
 From the attacker's perspective, the 3-4 Mount to S Mount transition is a calculated positional advancement that converts your asymmetric mount control into a high-percentage submission platform. The existing 3-4 configuration provides a significant mechanical advantage—your posted leg is already positioned outside the opponent's body, reducing the distance and exposure required to swing it over their head compared to entering S Mount from standard mount. Success depends on three sequential phases: securing arm control, executing the rotational movement while maintaining hip pressure, and establishing perpendicular alignment with your hip locked against the opponent's shoulder. Each phase must be completed before advancing to the next, as rushing creates the gaps that enable defensive responses.
 
-**From Position**: [[3-4 Mount]] (Top)
+**From Position**: [[Positions/Mount/3-4 Mount]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ From the attacker's perspective, the 3-4 Mount to S Mount transition is a calcul
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[S Mount]] | 55% |
-| Failure | [[3-4 Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/S Mount]] | 55% |
+| Failure | [[Positions/Mount/3-4 Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,11 +250,11 @@ From the attacker's perspective, the 3-4 Mount to S Mount transition is a calcul
 
 ## Opponent Counters
 
-- **Opponent bridges explosively during the leg swing to disrupt base and create space for escape** (Effectiveness: High) - Your Response: Abort the transition and immediately drop weight back to 3-4 Mount, driving your mounted knee into their ribs. Re-establish chest pressure and wait for the bridge to exhaust before reattempting. Never fight a committed bridge mid-transition. → Leads to [[3-4 Mount]]
-- **Opponent retracts the near-side arm before isolation is complete, re-establishing elbow-to-knee frame** (Effectiveness: High) - Your Response: Switch to an alternative attack from 3-4 Mount such as cross collar choke or Americana to re-expose the arm. Use the submission threat to force the arm back out, then reattempt the S Mount entry on the next exposure. → Leads to [[3-4 Mount]]
-- **Opponent frames against the hip with their far arm during rotation, blocking perpendicular alignment** (Effectiveness: Medium) - Your Response: Strip the frame by driving your shoulder into their forearm or pinning their wrist to the mat with your free hand. If the frame is strong, switch angles and attempt Technical Mount instead, which attacks the opposite direction. → Leads to [[3-4 Mount]]
-- **Opponent hip escapes toward the posted leg side during transition, creating space to recover half guard** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own hips, maintaining the shoulder connection. If they create significant space, immediately secure side control rather than forcing S Mount from a compromised angle. Maintain top position at all costs. → Leads to [[Half Guard]]
-- **Opponent turns into the mounted side and attempts to reguard during the momentary base disruption** (Effectiveness: Low) - Your Response: Use the turn to your advantage—their turning motion actually assists the perpendicular alignment. Drive your hip into their shoulder as they turn and complete the leg swing. Their turn often exposes the arm further rather than protecting it. → Leads to [[S Mount]]
+- **Opponent bridges explosively during the leg swing to disrupt base and create space for escape** (Effectiveness: High) - Your Response: Abort the transition and immediately drop weight back to 3-4 Mount, driving your mounted knee into their ribs. Re-establish chest pressure and wait for the bridge to exhaust before reattempting. Never fight a committed bridge mid-transition. → Leads to [[Positions/Mount/3-4 Mount]]
+- **Opponent retracts the near-side arm before isolation is complete, re-establishing elbow-to-knee frame** (Effectiveness: High) - Your Response: Switch to an alternative attack from 3-4 Mount such as cross collar choke or Americana to re-expose the arm. Use the submission threat to force the arm back out, then reattempt the S Mount entry on the next exposure. → Leads to [[Positions/Mount/3-4 Mount]]
+- **Opponent frames against the hip with their far arm during rotation, blocking perpendicular alignment** (Effectiveness: Medium) - Your Response: Strip the frame by driving your shoulder into their forearm or pinning their wrist to the mat with your free hand. If the frame is strong, switch angles and attempt Technical Mount instead, which attacks the opposite direction. → Leads to [[Positions/Mount/3-4 Mount]]
+- **Opponent hip escapes toward the posted leg side during transition, creating space to recover half guard** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own hips, maintaining the shoulder connection. If they create significant space, immediately secure side control rather than forcing S Mount from a compromised angle. Maintain top position at all costs. → Leads to [[Positions/Half Guard]]
+- **Opponent turns into the mounted side and attempts to reguard during the momentary base disruption** (Effectiveness: Low) - Your Response: Use the turn to your advantage—their turning motion actually assists the perpendicular alignment. Drive your hip into their shoulder as they turn and complete the leg swing. Their turn often exposes the arm further rather than protecting it. → Leads to [[Positions/Mount/S Mount]]
 
 
 </section>

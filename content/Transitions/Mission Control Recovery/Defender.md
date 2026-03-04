@@ -158,7 +158,7 @@ The defensive challenge centers on timing. The bottom player is moving from a co
 
 Strategically, preventing Mission Control Recovery breaks the rubber guard cycle entirely. If the top player can deny the recovery and force the exchange into closed guard or half guard, the bottom player loses their specialized positional advantage and must rebuild from a more neutral platform. This makes aggressive defense during the recovery window one of the highest-value defensive actions available against rubber guard specialists.
 
-**Opponent's Starting Position**: [[Gogoplata Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ Strategically, preventing Mission Control Recovery breaks the rubber guard cycle
 ### 1. Explosive posture recovery during shin withdrawal by driving hips back and chest up the moment the shin clears the throat
 
 - **When to use**: The instant you feel the shin pressure leave your throat and before the bottom player can re-establish the leg across your shoulder
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover full posture inside closed guard, breaking the rubber guard cycle and forcing the bottom player to re-establish high guard from scratch
 - **Risk**: If the overhook is deep, your posture attempt may be redirected into an omoplata as the bottom player uses your momentum
 
 ### 2. Strip the overhook during the transition by swimming your arm through and driving your elbow to the mat while turning your shoulder inward
 
 - **When to use**: When you feel the bottom player's focus shift to leg repositioning and their overhook grip momentarily loosens during the shin withdrawal
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Without the overhook, the bottom player cannot maintain Mission Control and you can drive a passing sequence through their weakened guard structure
 - **Risk**: Reaching to strip the overhook can expose your arm to triangle or armbar if the bottom player reads your intention and adjusts
 
 ### 3. Drive forward with stacking pressure the moment the shin leaves the throat, collapsing the bottom player's hip elevation and preventing Mission Control re-establishment
 
 - **When to use**: When the shin has cleared your throat but the bottom player has not yet placed their foot behind your shoulder blade
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your forward pressure collapses their guard structure and forces a scramble where you can achieve half guard or side control
 - **Risk**: Aggressive forward drive can be redirected into omoplata if the bottom player still has overhook control and angles their hips
 
 ### 4. Frame on the recovering leg with your free hand to prevent the shin from crossing your shoulder, blocking the Mission Control configuration entirely
 
 - **When to use**: As the bottom player attempts to place their foot behind your shoulder blade during step 5 of the recovery sequence
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: The bottom player cannot lock Mission Control and must settle for closed guard or attempt a different rubber guard entry from scratch
 - **Risk**: Using your hand to frame the leg reduces your ability to post for base, potentially making you vulnerable to sweeps during the exchange
 
@@ -227,11 +227,11 @@ Strategically, preventing Mission Control Recovery breaks the rubber guard cycle
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Recover posture during the shin withdrawal window by driving hips back and establishing frames on the bottom player's hips before they can re-establish Mission Control grips. Cross your arms against their chest and create maximum distance to prevent the high guard leg from reaching your shoulder.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Strip the overhook during the transition and immediately drive a knee slide or pressure pass through their compromised guard structure. The loss of overhook control combined with the unstable leg configuration creates a passing window where driving your knee across their thigh line forces half guard before they can recover.
 

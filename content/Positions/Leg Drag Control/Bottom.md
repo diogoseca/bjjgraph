@@ -209,23 +209,23 @@ Defensive success in this position requires recognizing the leg drag early in th
 
 ## Available Escapes
 
-### [[Leg Drag Escape to Closed Guard]] (4% of attempts)
+### [[Transitions/Leg Drag Escape to Closed Guard]] (4% of attempts)
 
-### [[Technical Stand-up]] (9% of attempts)
+### [[Transitions/Technical Stand-up]] (9% of attempts)
 
-### [[Leg Drag Counter to Half Guard]] (18% of attempts)
+### [[Transitions/Leg Drag Counter to Half Guard]] (18% of attempts)
 
-### [[Roll to Turtle]] (18% of attempts)
+### [[Transitions/Roll to Turtle]] (18% of attempts)
 
-### [[Inside Position Recovery]] (10% of attempts)
+### [[Transitions/Inside Position Recovery]] (10% of attempts)
 
-### [[Granby Roll to Guard]] (6% of attempts)
+### [[Transitions/Granby Roll to Guard]] (6% of attempts)
 
-### [[Leg Recovery to De La Riva]] (9% of attempts)
+### [[Transitions/Leg Recovery to De La Riva]] (9% of attempts)
 
-### [[Frame and Shrimp to Guard]] (12% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (12% of attempts)
 
-### [[Half Guard Recovery]] (14% of attempts)
+### [[Transitions/Half Guard Recovery]] (14% of attempts)
 
 
 
@@ -236,23 +236,23 @@ Defensive success in this position requires recognizing the leg drag early in th
 ## Decision Making from This Position
 
 **If opponent has strong shoulder control and is driving toward back take:**
-- Execute **[[Roll to Turtle]]** → [[Turtle]] (Probability: 60%)
+- Execute **[[Transitions/Roll to Turtle]]** → [[Positions/Turtle]] (Probability: 60%)
 - Execute **[[Fight underhook and frame hip]]** → [[Leg Drag Control Bottom]] (Probability: 40%)
 
 
 **If opponent's weight shifts forward toward head control:**
-- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 55%)
-- Execute **[[Granby Roll to Guard]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 55%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If opponent loosens leg control to adjust grip:**
-- Execute **[[Leg Drag Counter to Half Guard]]** → [[Half Guard]] (Probability: 65%)
-- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 35%)
+- Execute **[[Transitions/Leg Drag Counter to Half Guard]]** → [[Positions/Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
 
 
 **If opponent drops weight to attack leg entanglement:**
-- Execute **[[Inside Position Recovery]]** → [[Butterfly Guard]] (Probability: 50%)
-- Execute **[[Counter to Leg Entanglement]]** → [[Single Leg X-Guard]] (Probability: 50%)
+- Execute **[[Transitions/Inside Position Recovery]]** → [[Positions/Butterfly Guard]] (Probability: 50%)
+- Execute **[[Counter to Leg Entanglement]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 50%)
 
 
 
@@ -386,14 +386,14 @@ Partner has leg drag control and actively attempts back take. Bottom player focu
 
 ## Related Positions and Techniques
 
-- **[[Half Guard]]** - Primary recovery target when recapturing opponent's leg
-- **[[Turtle]]** - Safer transition option when leg cannot be freed
-- **[[Open Guard]]** - Target position for successful guard recovery
-- **[[Back Control]]** - Primary threat to defend against from this position
-- **[[Single Leg X-Guard]]** - Counter position if opponent drops for legs
-- **[[Butterfly Guard]]** - Alternative recovery when space is created
-- **[[Standing Position]]** - Escape option via technical standup
-- **[[De La Riva Guard]]** - Guard to recover if you can insert DLR hook
+- **[[Positions/Half Guard]]** - Primary recovery target when recapturing opponent's leg
+- **[[Positions/Turtle]]** - Safer transition option when leg cannot be freed
+- **[[Positions/Open Guard]]** - Target position for successful guard recovery
+- **[[Positions/Back Control]]** - Primary threat to defend against from this position
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Counter position if opponent drops for legs
+- **[[Positions/Butterfly Guard]]** - Alternative recovery when space is created
+- **[[Positions/Standing Position]]** - Escape option via technical standup
+- **[[Positions/De La Riva Guard]]** - Guard to recover if you can insert DLR hook
 
 
 </section>

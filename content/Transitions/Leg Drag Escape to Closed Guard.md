@@ -23,7 +23,7 @@ Strategically, recovering closed guard from leg drag serves multiple purposes be
 
 The timing window for this escape is narrow but predictable. The optimal moment occurs when your opponent adjusts their grip to transition from leg drag to side control, or when they shift weight to address the back take. These transitional moments create brief lapses in pressure where frame establishment and hip movement become viable. Attempting the escape against fully settled control rarely succeeds and wastes valuable energy.
 
-**From Position**: [[Leg Drag Control]] (Bottom)
+**From Position**: [[Positions/Leg Drag Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -34,10 +34,10 @@ The timing window for this escape is narrow but predictable. The optimal moment 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Success | [[Open Guard]] | 10% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Side Control]] | 10% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -194,27 +194,27 @@ The Leg Drag Escape to Closed Guard functions as a critical defensive recovery w
 ## Related Techniques
 
 
-- [[Leg Drag Control]] - Starting position this technique escapes from
+- [[Positions/Leg Drag Control]] - Starting position this technique escapes from
 
-- [[Closed Guard]] - Primary target position upon successful escape
+- [[Positions/Closed Guard]] - Primary target position upon successful escape
 
-- [[Open Guard]] - Alternative recovery if closed guard cannot be established
+- [[Positions/Open Guard]] - Alternative recovery if closed guard cannot be established
 
-- [[Half Guard]] - Secondary escape option when full leg extraction fails
+- [[Positions/Half Guard]] - Secondary escape option when full leg extraction fails
 
-- [[Leg Drag Counter to Half Guard]] - Alternative escape technique from same starting position
+- [[Transitions/Leg Drag Counter to Half Guard]] - Alternative escape technique from same starting position
 
-- [[Hip Escape to Guard]] - Core movement mechanic used in this escape
+- [[Transitions/Hip Escape to Guard]] - Core movement mechanic used in this escape
 
-- [[Frame and Shrimp to Guard]] - Related escape using similar framing principles
+- [[Transitions/Frame and Shrimp to Guard]] - Related escape using similar framing principles
 
-- [[Back Control]] - Primary threat this escape prevents
+- [[Positions/Back Control]] - Primary threat this escape prevents
 
-- [[Side Control]] - Secondary threat this escape prevents
+- [[Positions/Side Control]] - Secondary threat this escape prevents
 
-- [[Granby Roll to Guard]] - Advanced variant escape using inversion
+- [[Transitions/Granby Roll to Guard]] - Advanced variant escape using inversion
 
-- [[Leg Drag Pass]] - Opponent's technique that creates the starting position
+- [[Transitions/Leg Drag Pass]] - Opponent's technique that creates the starting position
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Complete guide to defending the reversal from triangle escape in B
 
 As the defender against the Reversal from Triangle Escape, you are the triangle holder whose opponent is converting their escape attempt into a guard pass. Your goal is to maintain the triangle lock's structural integrity or, if the lock is compromised, recover guard position before the opponent completes the pass to side control. Recognition of the reversal attempt is critical because the responses required to counter it differ from standard triangle finishing adjustments. You must identify when the opponent shifts from pure escape to offensive passing and respond by either re-tightening the triangle, transitioning to alternative submissions, or using sweeping opportunities created by the opponent's forward weight commitment. The reversal is most dangerous when you fail to distinguish it from a standard escape until the pass is already underway.
 
-**Opponent's Starting Position**: [[Triangle Escape Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Triangle Escape Position]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the Reversal from Triangle Escape, you are the triangle 
 ### 1. Re-lock triangle and pull head down using both hands behind the head
 
 - **When to use**: When the opponent's lateral movement has begun but the trapped arm is still inside the triangle and the leg configuration can still be tightened
-- **Targets**: [[Triangle Escape Position]]
+- **Targets**: [[Positions/Triangle Escape Position]]
 - **If successful**: Opponent is pulled back into full triangle pressure and must restart their escape sequence from the beginning
 - **Risk**: If the triangle is already too loose, the pulling motion may not generate sufficient pressure and the opponent accelerates through the pass
 
 ### 2. Transition to omoplata by releasing triangle and controlling the trapped arm at the wrist while swinging hips to the outside
 
 - **When to use**: When the opponent initiates circular arm extraction and the triangle lock is compromised beyond recovery but the arm is still within reach
-- **Targets**: [[Triangle Escape Position]]
+- **Targets**: [[Positions/Triangle Escape Position]]
 - **If successful**: Opponent's arm is caught in omoplata control, creating a new submission threat and sweeping opportunity from a different angle
 - **Risk**: If timing is late and the arm has already cleared, you lose both the triangle and the omoplata opportunity
 
 ### 3. Hip scoot away and establish defensive guard frames to prevent pass completion
 
 - **When to use**: When the pass angle becomes inevitable and the triangle cannot be re-established, prioritizing guard recovery over submission retention
-- **Targets**: [[Triangle Escape Position]]
+- **Targets**: [[Positions/Triangle Escape Position]]
 - **If successful**: Creates sufficient distance to recover open guard or closed guard before the opponent establishes side control
 - **Risk**: Requires releasing the triangle lock entirely, giving up the submission attempt and returning to a neutral guard position
 
 ### 4. Underhook and sweep using the opponent's forward weight commitment against them
 
 - **When to use**: When the opponent is deeply committed to the stack with their weight loaded past the balance point, creating vulnerability to directional redirection
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: The opponent's forward momentum carries them over your body and you establish mount position on top
 - **Risk**: Failed sweep attempt may accelerate their passing movement and leave you in a worse defensive position
 
@@ -217,11 +217,11 @@ As the defender against the Reversal from Triangle Escape, you are the triangle 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Triangle Escape Position]]
+### → [[Positions/Triangle Escape Position]]
 
 Maintain triangle integrity through active leg squeezing, continuous angle adjustment following the opponent's lateral movement, and wrist control on the trapped arm. Prevent the arm extraction by gripping the wrist or sleeve and pulling it back into the triangle whenever the opponent attempts circular extraction. Follow their hip movement with your own hip adjustments to preserve the perpendicular choking angle.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the opponent over-commits to the forward stacking pressure, use their momentum against them by controlling their posture with your legs and redirecting their weight over your body using a timed hip elevation and directional push. The sweep is most effective at the peak of their forward commitment when their base on one side is minimal and their center of gravity has passed the tipping point.
 

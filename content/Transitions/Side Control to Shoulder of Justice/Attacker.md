@@ -180,7 +180,7 @@ description: "Complete guide to executing the Transition to Shoulder of Justice 
 
 As the attacker executing the Transition to Shoulder of Justice, your objective is to convert standard side control into a concentrated pressure position that breaks your opponent's defensive structure and creates a cascading dilemma system. The transition requires precise shoulder angle adjustment, maintained hip connection, and continuous base management throughout the movement. The key mechanical insight is that you are redirecting your pressure from distributed chest weight into a focused point of contact through your shoulder blade into the opponent's jaw. This is not a dramatic positional change but rather a refinement of your existing control that dramatically increases offensive potency. Every detail matters: the angle of your shoulder blade, the depth of your hip connection, the position of your controlling hands, and the timing of your chest walk-up. When executed correctly, your opponent will feel the transition as a sudden escalation of discomfort that forces immediate defensive reactions, each of which opens specific offensive pathways for you to exploit.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ As the attacker executing the Transition to Shoulder of Justice, your objective 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Shoulder of Justice]] | 70% |
-| Failure | [[Side Control]] | 20% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Shoulder of Justice]] | 70% |
+| Failure | [[Positions/Side Control]] | 20% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the Transition to Shoulder of Justice, your objective 
 
 ## Opponent Counters
 
-- **Opponent frames against your neck with near-side forearm before shoulder insertion completes** (Effectiveness: High) - Your Response: Use your body weight to collapse the frame by walking your pressure into it, or switch to a kimura attack on the extended framing arm. If the frame is structurally sound, retreat to standard side control and attempt the transition again when the arm retracts. → Leads to [[Side Control]]
-- **Opponent shrimps explosively during the chest walk-up when hip connection is momentarily lighter** (Effectiveness: Medium) - Your Response: Drop hips immediately back to their hip line and re-consolidate standard side control. If they created significant space, transition to knee on belly rather than forcing the Shoulder of Justice. Their shrimp timing was correct, so you must re-establish control before attempting again. → Leads to [[Half Guard]]
-- **Opponent turns into you during the shoulder angle rotation to prevent jaw pressure establishment** (Effectiveness: Medium) - Your Response: Capitalize on their turning movement by transitioning to north-south control or taking the back. Their turn away from the shoulder pressure creates space behind them that you can exploit. This counter actually opens higher-value transitions than the original Shoulder of Justice target. → Leads to [[Side Control]]
-- **Opponent bridges explosively to disrupt your base during the transition** (Effectiveness: Low) - Your Response: Post your far knee wider and ride the bridge without fighting it. As they return to the mat, immediately re-drive shoulder pressure into the jaw. Bridging during the transition rarely succeeds because your perpendicular body angle provides natural stability against upward force. → Leads to [[Side Control]]
+- **Opponent frames against your neck with near-side forearm before shoulder insertion completes** (Effectiveness: High) - Your Response: Use your body weight to collapse the frame by walking your pressure into it, or switch to a kimura attack on the extended framing arm. If the frame is structurally sound, retreat to standard side control and attempt the transition again when the arm retracts. → Leads to [[Positions/Side Control]]
+- **Opponent shrimps explosively during the chest walk-up when hip connection is momentarily lighter** (Effectiveness: Medium) - Your Response: Drop hips immediately back to their hip line and re-consolidate standard side control. If they created significant space, transition to knee on belly rather than forcing the Shoulder of Justice. Their shrimp timing was correct, so you must re-establish control before attempting again. → Leads to [[Positions/Half Guard]]
+- **Opponent turns into you during the shoulder angle rotation to prevent jaw pressure establishment** (Effectiveness: Medium) - Your Response: Capitalize on their turning movement by transitioning to north-south control or taking the back. Their turn away from the shoulder pressure creates space behind them that you can exploit. This counter actually opens higher-value transitions than the original Shoulder of Justice target. → Leads to [[Positions/Side Control]]
+- **Opponent bridges explosively to disrupt your base during the transition** (Effectiveness: Low) - Your Response: Post your far knee wider and ride the bridge without fighting it. As they return to the mat, immediately re-drive shoulder pressure into the jaw. Bridging during the transition rarely succeeds because your perpendicular body angle provides natural stability against upward force. → Leads to [[Positions/Side Control]]
 
 
 </section>

@@ -178,7 +178,7 @@ Strategically, the Baratoplata Setup exploits the fundamental weakness of Meatho
 
 The technique requires precise timing and mechanical understanding. Unlike straight armlocks that attack the elbow through hyperextension, the Baratoplata attacks the shoulder through internal rotation combined with extension. This creates a submission that is difficult to defend through strength alone, as the rotational component bypasses the larger muscle groups that typically protect against arm attacks. For purple and brown belt practitioners, the Baratoplata represents an evolution beyond basic Rubber Guard attacks into the system's deeper submission chains.
 
-**From Position**: [[Meathook]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
 
 </section>
 
@@ -230,9 +230,9 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 55% |
-| Failure | [[Meathook]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Armbar Control]] | 55% |
+| Failure | [[Positions/Rubber Guard/Meathook]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 
 ## Opponent Counters
 
-- **Posture up explosively before figure-four is secured** (Effectiveness: High) - Your Response: If you feel them beginning to posture, immediately transition to Triangle Setup as their upward movement creates the angle for leg over neck → Leads to [[Closed Guard]]
-- **Straighten the trapped arm to prevent figure-four configuration** (Effectiveness: Medium) - Your Response: A straightened arm opens the Armbar from Guard directly—flow to standard armbar mechanics using your shin hook as initial control → Leads to [[Armbar Control]]
-- **Roll toward the trapped arm side to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Their roll momentum assists your sweep—follow their roll to achieve mount while maintaining the figure-four for mounted Baratoplata finish → Leads to [[Armbar Control]]
-- **Stack forward to collapse the attack angle** (Effectiveness: Low) - Your Response: Stacking forward drives them into Gogoplata range—release the Baratoplata attempt and transition to shin across throat for choke → Leads to [[Meathook]]
+- **Posture up explosively before figure-four is secured** (Effectiveness: High) - Your Response: If you feel them beginning to posture, immediately transition to Triangle Setup as their upward movement creates the angle for leg over neck → Leads to [[Positions/Closed Guard]]
+- **Straighten the trapped arm to prevent figure-four configuration** (Effectiveness: Medium) - Your Response: A straightened arm opens the Armbar from Guard directly—flow to standard armbar mechanics using your shin hook as initial control → Leads to [[Positions/Armbar Control]]
+- **Roll toward the trapped arm side to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Their roll momentum assists your sweep—follow their roll to achieve mount while maintaining the figure-four for mounted Baratoplata finish → Leads to [[Positions/Armbar Control]]
+- **Stack forward to collapse the attack angle** (Effectiveness: Low) - Your Response: Stacking forward drives them into Gogoplata range—release the Baratoplata attempt and transition to shin across throat for choke → Leads to [[Positions/Rubber Guard/Meathook]]
 
 
 </section>

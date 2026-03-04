@@ -154,7 +154,7 @@ description: "Master defending against Strip Russian Leg Lasso in BJJ. Learn to 
 
 As the defender against Strip Russian Leg Lasso, your objective is to maintain your Russian Leg Lasso guard configuration despite the opponent's systematic dismantling attempts. Defense operates on two levels: preventing the strip from succeeding through active grip maintenance, re-gripping, and positional adjustments, and capitalizing on the openings created during the strip attempt to execute sweeps or transitions to alternative attacking positions. The most effective defenders recognize that the strip sequence creates predictable windows of vulnerability for the top player, particularly during grip transitions when their base is compromised and their attention is divided between multiple tasks. Understanding the attacker's stripping sequence allows you to anticipate each step and prepare counters before they commit.
 
-**Opponent's Starting Position**: [[Russian Leg Lasso]] (Top)
+**Opponent's Starting Position**: [[Positions/Lasso Guard/Russian Leg Lasso]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against Strip Russian Leg Lasso, your objective is to maintain y
 ### 1. Immediately re-grip collar when opponent breaks it using two-on-one
 
 - **When to use**: The instant you feel your collar grip being stripped, reach for a new collar grip before the opponent can progress to the next step of their strip sequence
-- **Targets**: [[Russian Leg Lasso]]
+- **Targets**: [[Positions/Lasso Guard/Russian Leg Lasso]]
 - **If successful**: Forces the opponent to restart their stripping sequence, wasting their energy and buying time for your attacks
 - **Risk**: Reaching for collar leaves your sleeve grip momentarily undefended
 
 ### 2. Initiate sweep when opponent's base is compromised during grip break transition
 
 - **When to use**: When the opponent is focused on a two-on-one grip break and has committed both hands away from base recovery, typically during the collar or sleeve strip phase
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Sweep the opponent to bottom position, scoring points and establishing top control
 - **Risk**: If sweep fails with partially stripped grips, guard may collapse entirely
 
 ### 3. Tighten lasso by elevating hips and driving foot deeper past opponent's shoulder
 
 - **When to use**: When opponent creates distance to generate slack in the lasso, counter by elevating your hips to maintain or increase the binding tension despite the added distance
-- **Targets**: [[Russian Leg Lasso]]
+- **Targets**: [[Positions/Lasso Guard/Russian Leg Lasso]]
 - **If successful**: Negates the slack creation that is prerequisite for arm extraction, stalling the strip sequence
 - **Risk**: Hip elevation can compromise your own base if opponent suddenly changes direction
 
 ### 4. Transition to De La Riva or Spider Guard using non-lasso leg when strip is partially successful
 
 - **When to use**: When the sleeve grip is broken and lasso is being compromised but before the opponent has full leg control, use the non-lasso leg to insert a De La Riva hook or Spider Guard bicep control
-- **Targets**: [[Russian Leg Lasso]]
+- **Targets**: [[Positions/Lasso Guard/Russian Leg Lasso]]
 - **If successful**: Establishes alternative guard system before reaching the neutral open guard position the opponent seeks
 - **Risk**: Transition may not be fast enough if opponent controls legs immediately after extraction
 
@@ -225,11 +225,11 @@ As the defender against Strip Russian Leg Lasso, your objective is to maintain y
 
 ## Best-Case Outcomes for Defender
 
-### → [[Russian Leg Lasso]]
+### → [[Positions/Lasso Guard/Russian Leg Lasso]]
 
 Maintain active grips with constant re-gripping when controls are broken. Elevate hips to keep lasso tight when opponent creates distance. Force the opponent to restart their stripping sequence repeatedly until they abandon the approach or make a mistake you can exploit.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Time a sweep during the opponent's grip break transitions when their base is compromised by two-on-one grip fighting. Drive your lasso leg and hips into the opponent while they are focused on grip manipulation. The optimal sweep window is during the collar-to-sleeve grip break transition when both their hands are occupied.
 

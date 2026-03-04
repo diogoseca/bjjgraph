@@ -211,23 +211,23 @@ The psychological dimension of Side Control Consolidation Bottom cannot be under
 
 ## Available Escapes
 
-### [[Frame and Shrimp to Guard]] (41% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (41% of attempts)
 
-### [[Elbow Escape to Guard]] (19% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (19% of attempts)
 
-### [[Granby Roll to Guard]] (12% of attempts)
+### [[Transitions/Granby Roll to Guard]] (12% of attempts)
 
-### [[Bridge and Roll]] (10% of attempts)
+### [[Transitions/Bridge and Roll]] (10% of attempts)
 
-### [[Technical Stand-up]] (9% of attempts)
+### [[Transitions/Technical Stand-up]] (9% of attempts)
 
-### [[Angle Change Escape]] (5% of attempts)
+### [[Transitions/Angle Change Escape]] (5% of attempts)
 
-### [[Escape Side Control Consolidation]] (2% of attempts)
+### [[Transitions/Escape Side Control Consolidation]] (2% of attempts)
 
-### [[Frame from Side Control Consolidation]] (1% of attempts)
+### [[Transitions/Frame from Side Control Consolidation]] (1% of attempts)
 
-### [[Hip Escape from Side Control Consolidation]] (1% of attempts)
+### [[Transitions/Hip Escape from Side Control Consolidation]] (1% of attempts)
 
 
 
@@ -238,23 +238,23 @@ The psychological dimension of Side Control Consolidation Bottom cannot be under
 ## Decision Making from This Position
 
 **If opponent is actively consolidating with heavy chest pressure and establishing crossface:**
-- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 45%)
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If opponent raises hips or adjusts position preparing for advancement:**
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
 
 
 **If opponent extends base or posts hand creating structural vulnerability:**
-- Execute **[[Bridge and Roll]]** → [[Side Control]] (Probability: 35%)
-- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 40%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Side Control]] (Probability: 35%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 40%)
 
 
 **If opponent transitions toward north-south or adjusts pressure angle:**
-- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 48%)
-- Execute **[[Technical Stand-up]]** → [[Clinch]] (Probability: 32%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 48%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 32%)
 
 
 
@@ -393,16 +393,16 @@ Start in fully consolidated side control with heavy pressure. Bottom player must
 
 ## Related Positions and Techniques
 
-- **[[Side Control]]** - Parent position being defended against
-- **[[Half Guard]]** - Primary escape target and recovery position
-- **[[Turtle]]** - Alternative defensive position from granby roll escape
-- **[[Mount]]** - Position opponent advances to if consolidation successful
-- **[[Elbow Escape to Guard]]** - Related escape technique sharing shrimp and frame mechanics
-- **[[Frame and Shrimp to Guard]]** - Fundamental defensive movement for space creation
-- **[[Knee Shield Half Guard]]** - Common recovery position after successful escape
-- **[[Open Guard]]** - Guard recovery target after creating distance
+- **[[Positions/Side Control]]** - Parent position being defended against
+- **[[Positions/Half Guard]]** - Primary escape target and recovery position
+- **[[Positions/Turtle]]** - Alternative defensive position from granby roll escape
+- **[[Positions/Mount]]** - Position opponent advances to if consolidation successful
+- **[[Transitions/Elbow Escape to Guard]]** - Related escape technique sharing shrimp and frame mechanics
+- **[[Transitions/Frame and Shrimp to Guard]]** - Fundamental defensive movement for space creation
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Common recovery position after successful escape
+- **[[Positions/Open Guard]]** - Guard recovery target after creating distance
 - **[[Side Control Consolidation Top]]** - Opposite perspective - offensive counterpart position
-- **[[North-South]]** - Alternative pin opponent may transition to
+- **[[Positions/North-South]]** - Alternative pin opponent may transition to
 
 
 </section>

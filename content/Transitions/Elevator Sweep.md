@@ -21,7 +21,7 @@ The elevator sweep is particularly effective against opponents who are sitting h
 
 Strategically, the elevator sweep serves as a cornerstone technique in the butterfly guard system, working in combination with other butterfly attacks like the basic butterfly sweep, arm drag to back takes, and guillotine attacks. The threat of the elevator sweep forces opponents to adjust their base and posture, creating opportunities for these complementary techniques. Mastering this sweep is essential for anyone looking to develop a dangerous butterfly guard game.
 
-**From Position**: [[Butterfly Guard]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the elevator sweep serves as a cornerstone technique in the butte
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 58% |
-| Failure | [[Butterfly Guard]] | 30% |
-| Counter | [[Butterfly Guard]] | 12% |
+| Success | [[Positions/Mount]] | 58% |
+| Failure | [[Positions/Butterfly Guard]] | 30% |
+| Counter | [[Positions/Butterfly Guard]] | 12% |
 
 
 </section>
@@ -206,23 +206,23 @@ From a strategic perspective, the elevator sweep forces opponents to make defens
 ## Related Techniques
 
 
-- [[Basic Butterfly Sweep]] - Complementary technique - sweep to opposite side when elevator sweep is defended
+- [[Transitions/Basic Butterfly Sweep]] - Complementary technique - sweep to opposite side when elevator sweep is defended
 
-- [[Butterfly Sweep]] - Technical family - shares core principles and setups from butterfly guard
+- [[Transitions/Butterfly Sweep]] - Technical family - shares core principles and setups from butterfly guard
 
-- [[Arm Drag to Back]] - Follow-up technique - use when opponent posts far arm to defend elevator sweep
+- [[Transitions/Arm Drag to Back]] - Follow-up technique - use when opponent posts far arm to defend elevator sweep
 
-- [[Guillotine Choke]] - Submission setup - available when opponent lowers head to defend sweep
+- [[Transitions/Guillotine Choke]] - Submission setup - available when opponent lowers head to defend sweep
 
-- [[Hook Sweep]] - Alternative sweep - similar hook mechanics with different grip configuration
+- [[Transitions/Hook Sweep]] - Alternative sweep - similar hook mechanics with different grip configuration
 
-- [[Butterfly Guard to X-Guard]] - Position transition - natural progression when elevator sweep is denied and opponent stands
+- [[Transitions/Butterfly Guard to X-Guard]] - Position transition - natural progression when elevator sweep is denied and opponent stands
 
-- [[Deep Half Entry]] - Bail-out transition - available when opponent sits back heavily to avoid sweep
+- [[Transitions/Deep Half Entry]] - Bail-out transition - available when opponent sits back heavily to avoid sweep
 
-- [[Butterfly Guard]] - Starting position - elevator sweep is a primary attack from butterfly guard bottom
+- [[Positions/Butterfly Guard]] - Starting position - elevator sweep is a primary attack from butterfly guard bottom
 
-- [[Mount]] - Primary target position - successful elevator sweep lands in mount
+- [[Positions/Mount]] - Primary target position - successful elevator sweep lands in mount
 
 
 </section>

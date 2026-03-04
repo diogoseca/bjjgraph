@@ -21,7 +21,7 @@ Executing this transition demands precise weight management during the rotation.
 
 This transition functions as the bridge between mount control and submission finishing. Technical Mount initiates arm isolation, but S Mount provides the body angle necessary for high-percentage armbar completion. The transition is most effective when the opponent's defensive reactions to Technical Mount—such as pushing against the posted leg or turning away—create natural windows for the perpendicular rotation. Recognizing when to commit to this advancement versus maintaining Technical Mount pressure separates competent mount attackers from elite submission finishers.
 
-**From Position**: [[Technical Mount]] (Top)
+**From Position**: [[Positions/Mount/Technical Mount]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition functions as the bridge between mount control and submission fin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[S Mount]] | 55% |
-| Failure | [[Technical Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/S Mount]] | 55% |
+| Failure | [[Positions/Mount/Technical Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Technical Mount to S Mount transition occupies a pivotal role in the mount s
 ## Related Techniques
 
 
-- [[Technical Mount]] - Starting position from which this transition is initiated
+- [[Positions/Mount/Technical Mount]] - Starting position from which this transition is initiated
 
-- [[S Mount]] - Target position upon successful completion of the transition
+- [[Positions/Mount/S Mount]] - Target position upon successful completion of the transition
 
-- [[Half Guard]] - Position reached if opponent successfully counters during the rotation
+- [[Positions/Half Guard]] - Position reached if opponent successfully counters during the rotation
 
-- [[Mount]] - Parent position from which Technical Mount is entered before this transition
+- [[Positions/Mount]] - Parent position from which Technical Mount is entered before this transition
 
-- [[Armbar from S Mount]] - Primary submission available after successfully reaching S Mount
+- [[Submissions/Armbar from S Mount]] - Primary submission available after successfully reaching S Mount
 
-- [[Armbar from Technical Mount]] - Alternative submission from the starting position if S Mount entry is unnecessary
+- [[Submissions/Armbar from Technical Mount]] - Alternative submission from the starting position if S Mount entry is unnecessary
 
-- [[3-4 Mount to S Mount]] - Alternative pathway to reach S Mount from a different mount variation
+- [[Transitions/3-4 Mount to S Mount]] - Alternative pathway to reach S Mount from a different mount variation
 
-- [[High Mount to S Mount]] - Another pathway to S Mount sharing similar rotation mechanics
+- [[Transitions/High Mount to S Mount]] - Another pathway to S Mount sharing similar rotation mechanics
 
-- [[S Mount Armbar Setup]] - Follow-up technique commonly executed after completing this transition
+- [[Transitions/S Mount Armbar Setup]] - Follow-up technique commonly executed after completing this transition
 
-- [[Back Turn from Technical Mount]] - Alternative transition from Technical Mount when opponent turns away
+- [[Transitions/Back Turn from Technical Mount]] - Alternative transition from Technical Mount when opponent turns away
 
-- [[S Mount to Mounted Triangle]] - Chain attack from S Mount when opponent defends the armbar
+- [[Transitions/S Mount to Mounted Triangle]] - Chain attack from S Mount when opponent defends the armbar
 
-- [[Armbar Control]] - Control position accessed through the armbar pathway from S Mount
+- [[Positions/Armbar Control]] - Control position accessed through the armbar pathway from S Mount
 
 
 </section>

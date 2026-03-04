@@ -180,7 +180,7 @@ description: "Execute the Bull Pass from Seated Guard with expert technique. Ste
 
 Executing the Bull Pass from Seated Guard requires explosive forward commitment combined with precise leg control timing. As the attacker, your primary objective is to seize both of the seated opponent's legs and drive them forcefully to one side while your body advances past them into dominant position. The technique rewards decisiveness and forward pressure over finesse, making it an effective weapon against opponents who rely on reactive rather than proactive seated guard play. Understanding when to commit to the bull pass versus when to feint and switch to a toreando or knee slice is critical for making this technique effective at higher levels where opponents recognize the setup.
 
-**From Position**: [[Seated Guard]] (Top)
+**From Position**: [[Positions/Seated Guard]] (Top)
 
 </section>
 
@@ -233,10 +233,10 @@ Executing the Bull Pass from Seated Guard requires explosive forward commitment 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Seated Guard]] | 25% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 40% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Seated Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -245,11 +245,11 @@ Executing the Bull Pass from Seated Guard requires explosive forward commitment 
 
 ## Opponent Counters
 
-- **Opponent frames with feet on hips before the drive connects, creating distance** (Effectiveness: High) - Your Response: Switch immediately to toreando pass by redirecting their now-extended legs laterally instead of driving through. Their straightened legs pushing against your hips become a liability for the toreando redirection. → Leads to [[Seated Guard]]
-- **Opponent scoots hips backward and reestablishes distance before you close** (Effectiveness: Medium) - Your Response: Pursue with quick grip reestablishment on the legs. Close distance with a long step and reattempt the bull pass or transition to standing toreando. Do not overcommit to chasing if they continue scooting away. → Leads to [[Seated Guard]]
-- **Opponent hooks your lead leg with their foot and elevates using your forward momentum** (Effectiveness: High) - Your Response: Immediately base wide with your free leg and retract the hooked leg. If caught in the elevation, post both hands wide to prevent being swept and work to extract your leg before the opponent completes the reversal to top position. → Leads to [[Half Guard]]
-- **Opponent sits up and grabs collar tie or deep collar grip to control your posture** (Effectiveness: Medium) - Your Response: Strip the grip before driving forward. If they secure a deep collar grip, change levels and attack their legs from a lower angle where the collar grip loses leverage. Never drive forward into an opponent who controls your posture through collar. → Leads to [[Seated Guard]]
-- **Opponent inserts knee shield or butterfly hook as you begin closing distance** (Effectiveness: High) - Your Response: Abort the straight bull pass and transition to smash pass or knee slice to address the newly inserted frame. A butterfly hook converts the position to butterfly guard requiring completely different passing mechanics. → Leads to [[Half Guard]]
+- **Opponent frames with feet on hips before the drive connects, creating distance** (Effectiveness: High) - Your Response: Switch immediately to toreando pass by redirecting their now-extended legs laterally instead of driving through. Their straightened legs pushing against your hips become a liability for the toreando redirection. → Leads to [[Positions/Seated Guard]]
+- **Opponent scoots hips backward and reestablishes distance before you close** (Effectiveness: Medium) - Your Response: Pursue with quick grip reestablishment on the legs. Close distance with a long step and reattempt the bull pass or transition to standing toreando. Do not overcommit to chasing if they continue scooting away. → Leads to [[Positions/Seated Guard]]
+- **Opponent hooks your lead leg with their foot and elevates using your forward momentum** (Effectiveness: High) - Your Response: Immediately base wide with your free leg and retract the hooked leg. If caught in the elevation, post both hands wide to prevent being swept and work to extract your leg before the opponent completes the reversal to top position. → Leads to [[Positions/Half Guard]]
+- **Opponent sits up and grabs collar tie or deep collar grip to control your posture** (Effectiveness: Medium) - Your Response: Strip the grip before driving forward. If they secure a deep collar grip, change levels and attack their legs from a lower angle where the collar grip loses leverage. Never drive forward into an opponent who controls your posture through collar. → Leads to [[Positions/Seated Guard]]
+- **Opponent inserts knee shield or butterfly hook as you begin closing distance** (Effectiveness: High) - Your Response: Abort the straight bull pass and transition to smash pass or knee slice to address the newly inserted frame. A butterfly hook converts the position to butterfly guard requiring completely different passing mechanics. → Leads to [[Positions/Half Guard]]
 
 
 </section>

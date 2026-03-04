@@ -92,31 +92,31 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 ### Available Transitions
 
 
-- **[[Inside Ashi Entry]]** (62% of attempts)
+- **[[Transitions/Inside Ashi Entry]]** (62% of attempts)
 
-- **[[Cross Ashi Transition]]** (7% of attempts)
+- **[[Transitions/Cross Ashi Transition]]** (7% of attempts)
 
-- **[[Heel Hook]]** (4% of attempts)
+- **[[Transitions/Heel Hook]]** (4% of attempts)
 
-- **[[Straight Ankle Lock Entry]]** (12% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry]]** (12% of attempts)
 
-- **[[50-50 Entry]]** (5% of attempts)
+- **[[Transitions/50-50 Entry]]** (5% of attempts)
 
-- **[[Toe Hold]]** (5% of attempts)
+- **[[Transitions/Toe Hold]]** (5% of attempts)
 
-- **[[Kneebar Setup]]** (2% of attempts)
+- **[[Transitions/Kneebar Setup]]** (2% of attempts)
 
-- **[[Single Leg X Transition]]** (1% of attempts)
+- **[[Transitions/Single Leg X Transition]]** (1% of attempts)
 
-- **[[Backside 50-50 Entry from Ashi]]** (1% of attempts)
+- **[[Transitions/Backside 50-50 Entry from Ashi]]** (1% of attempts)
 
-- **[[Back Take from Ashi]]** (0% of attempts)
+- **[[Transitions/Back Take from Ashi]]** (0% of attempts)
 
-- **[[Ashi Garami Maintenance]]** (0% of attempts)
+- **[[Transitions/Ashi Garami Maintenance]]** (0% of attempts)
 
-- **[[Heel Strip from Ashi Garami]]** (0% of attempts)
+- **[[Transitions/Heel Strip from Ashi Garami]]** (0% of attempts)
 
-- **[[Standing Up from Ashi Garami]]** (1% of attempts)
+- **[[Transitions/Standing Up from Ashi Garami]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -173,23 +173,23 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 ### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** (38% of attempts)
+- **[[Transitions/Ashi Garami Escape]]** (38% of attempts)
 
-- **[[Counter Ashi Entry]]** (15% of attempts)
+- **[[Transitions/Counter Ashi Entry]]** (15% of attempts)
 
-- **[[Pass to Side Control]]** (8% of attempts)
+- **[[Transitions/Pass to Side Control]]** (8% of attempts)
 
-- **[[Guillotine Setup]]** (4% of attempts)
+- **[[Transitions/Guillotine Setup]]** (4% of attempts)
 
-- **[[Straight Ankle Lock Entry]]** (13% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry]]** (13% of attempts)
 
-- **[[Back Step Pass]]** (10% of attempts)
+- **[[Transitions/Back Step Pass]]** (10% of attempts)
 
-- **[[Toe Hold]]** (6% of attempts)
+- **[[Transitions/Toe Hold]]** (6% of attempts)
 
-- **[[Back Take from Ashi]]** (4% of attempts)
+- **[[Transitions/Back Take from Ashi]]** (4% of attempts)
 
-- **[[Ashi Garami to Leg Entanglement]]** (2% of attempts)
+- **[[Transitions/Ashi Garami to Leg Entanglement]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -228,15 +228,15 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 ## Related Positions
 
 
-- **[[X-Guard]]** - Shares leg hook control mechanics; transitional pathway between guard and leg entanglement systems
+- **[[Positions/X-Guard]]** - Shares leg hook control mechanics; transitional pathway between guard and leg entanglement systems
 
-- **[[Single Leg X-Guard]]** - Common entry position for Ashi Garami variations; single leg control precedes double leg entanglement
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Common entry position for Ashi Garami variations; single leg control precedes double leg entanglement
 
-- **[[De La Riva Guard]]** - Hook-based guard system that provides technical entries into outside Ashi Garami positions
+- **[[Positions/De La Riva Guard]]** - Hook-based guard system that provides technical entries into outside Ashi Garami positions
 
-- **[[Reverse De La Riva Guard]]** - Facilitates entries into reverse and cross-body Ashi Garami variations through leg drag mechanics
+- **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Facilitates entries into reverse and cross-body Ashi Garami variations through leg drag mechanics
 
-- **[[K-Guard]]** - Modern guard position designed specifically for entries into Ashi Garami leg entanglement variations
+- **[[Positions/K-Guard]]** - Modern guard position designed specifically for entries into Ashi Garami leg entanglement variations
 
 
 </section>

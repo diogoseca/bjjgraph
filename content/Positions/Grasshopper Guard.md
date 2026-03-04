@@ -101,33 +101,33 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 ### Available Transitions
 
 
-- **[[Kneebar from Grasshopper]]** (9% of attempts)
+- **[[Transitions/Kneebar from Grasshopper]]** (9% of attempts)
 
-- **[[Straight Ankle Lock Entry]]** (7% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry]]** (7% of attempts)
 
-- **[[Single Leg X Transition]]** (8% of attempts)
+- **[[Transitions/Single Leg X Transition]]** (8% of attempts)
 
-- **[[Inside Ashi Entry]]** (9% of attempts)
+- **[[Transitions/Inside Ashi Entry]]** (9% of attempts)
 
-- **[[Rolling Kneebar]]** (5% of attempts)
+- **[[Transitions/Rolling Kneebar]]** (5% of attempts)
 
-- **[[Grasshopper Sweep]]** (7% of attempts)
+- **[[Transitions/Grasshopper Sweep]]** (7% of attempts)
 
-- **[[Granby to Closed Guard]]** (13% of attempts)
+- **[[Transitions/Granby to Closed Guard]]** (13% of attempts)
 
-- **[[50-50 Entry]]** (4% of attempts)
+- **[[Transitions/50-50 Entry]]** (4% of attempts)
 
-- **[[Reverse De La Riva Recovery]]** (6% of attempts)
+- **[[Transitions/Reverse De La Riva Recovery]]** (6% of attempts)
 
-- **[[Technical Standup from Inversion]]** (5% of attempts)
+- **[[Transitions/Technical Standup from Inversion]]** (5% of attempts)
 
-- **[[X-Guard Elevation Sweep]]** (10% of attempts)
+- **[[Transitions/X-Guard Elevation Sweep]]** (10% of attempts)
 
-- **[[Heel Hook]]** (3% of attempts)
+- **[[Transitions/Heel Hook]]** (3% of attempts)
 
-- **[[Outside Ashi Entry]]** (9% of attempts)
+- **[[Transitions/Outside Ashi Entry]]** (9% of attempts)
 
-- **[[Berimbolo Entry]]** (5% of attempts)
+- **[[Transitions/Berimbolo Entry]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -188,27 +188,27 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 ### Available Transitions
 
 
-- **[[Back Step Pass]]** (15% of attempts)
+- **[[Transitions/Back Step Pass]]** (15% of attempts)
 
-- **[[Leg Drag Pass]]** (12% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (12% of attempts)
 
-- **[[Stack Pass from Inversion]]** (10% of attempts)
+- **[[Transitions/Stack Pass from Inversion]]** (10% of attempts)
 
-- **[[Step Over to Mount]]** (5% of attempts)
+- **[[Transitions/Step Over to Mount]]** (5% of attempts)
 
-- **[[Knee Slice Pass]]** (8% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (8% of attempts)
 
-- **[[Sprawl and Disengage]]** (14% of attempts)
+- **[[Transitions/Sprawl and Disengage]]** (14% of attempts)
 
-- **[[Toreando Pass]]** (12% of attempts)
+- **[[Transitions/Toreando Pass]]** (12% of attempts)
 
-- **[[Cartwheel Pass]]** (3% of attempts)
+- **[[Transitions/Cartwheel Pass]]** (3% of attempts)
 
-- **[[Pressure Pass through Center]]** (5% of attempts)
+- **[[Transitions/Pressure Pass through Center]]** (5% of attempts)
 
-- **[[Counter Ashi Entry]]** (8% of attempts)
+- **[[Transitions/Counter Ashi Entry]]** (8% of attempts)
 
-- **[[Double Under Pass]]** (8% of attempts)
+- **[[Transitions/Double Under Pass]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -247,21 +247,21 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 ## Related Positions
 
 
-- **[[Inverted Guard]]** - Parent category - grasshopper is specific inverted guard application
+- **[[Positions/Inverted Guard]]** - Parent category - grasshopper is specific inverted guard application
 
-- **[[Ashi Garami]]** - Common destination when securing single leg entanglement
+- **[[Positions/Ashi Garami]]** - Common destination when securing single leg entanglement
 
-- **[[X-Guard]]** - Transition point when coming up from inversion for sweep
+- **[[Positions/X-Guard]]** - Transition point when coming up from inversion for sweep
 
-- **[[Single Leg X-Guard]]** - Natural progression when establishing leg control from grasshopper
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Natural progression when establishing leg control from grasshopper
 
-- **[[50-50 Guard]]** - Can emerge when both players engage leg entanglements
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Can emerge when both players engage leg entanglements
 
-- **[[De La Riva Guard]]** - Alternative leg control system with upright positioning
+- **[[Positions/De La Riva Guard]]** - Alternative leg control system with upright positioning
 
-- **[[K-Guard]]** - Shares leg configuration concepts with different base structure
+- **[[Positions/K-Guard]]** - Shares leg configuration concepts with different base structure
 
-- **[[Reverse De La Riva Guard]]** - Connected system when opponent circles to back side
+- **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Connected system when opponent circles to back side
 
 
 </section>

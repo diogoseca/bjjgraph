@@ -146,7 +146,7 @@ description: "Learn to maintain the Vaporizer and counter escape attempts in BJJ
 
 The Escape from Vaporizer Defender is the bottom player who maintains the Vaporizer position and works to prevent the top player from clearing the lockdown and recovering a passing position. Defending against the escape is not purely reactive—it requires proactive tightening of controls, strategic attack sequencing that punishes escape attempts, and the awareness to capitalize on the positional vulnerabilities that escape movements inevitably create. The defender's advantage lies in the compound nature of the Vaporizer control: when the top player addresses one control point, other attack angles open. The defender must recognize which escape pathway the top player is pursuing and direct their energy toward the counter that exploits the specific defensive gap that pathway creates.
 
-**Opponent's Starting Position**: [[Vaporizer]] (Top)
+**Opponent's Starting Position**: [[Positions/Vaporizer]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ The Escape from Vaporizer Defender is the bottom player who maintains the Vapori
 ### 1. Tighten lockdown and drive explosive whip-up to disrupt the escape sequence and force the top player to re-stabilize their base
 
 - **When to use**: Immediately upon recognizing escape initiation signals—particularly when you feel the whizzer being established or knee circulation beginning
-- **Targets**: [[Vaporizer]]
+- **Targets**: [[Positions/Vaporizer]]
 - **If successful**: The top player's escape progress is reset and they must re-establish base and defensive grips before reattempting, costing them significant energy
 - **Risk**: Explosive whip-up attempts against a well-based opponent waste energy without producing meaningful positional change
 
 ### 2. Transition to Old School sweep when the top player widens their base or shifts weight during lockdown circulation
 
 - **When to use**: When the top player has committed to a wide base and is focused on leg circulation, creating a lateral weight imbalance that sweep mechanics can exploit
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You complete the sweep and establish mount position, converting a defensive maintenance into a dominant positional advancement
 - **Risk**: If the sweep fails against a well-based opponent, you expend significant energy and may compromise your lockdown grip during the attempt
 
 ### 3. Release lockdown and transition to back take when the top player's upper body defense creates a turning angle
 
 - **When to use**: When the top player has committed their arms heavily to whizzer and crossface, limiting their ability to prevent hip rotation, and their focus is entirely on the lockdown extraction
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You abandon the lockdown but gain back control, trading a controlling position for a dominant one with higher submission and point value
 - **Risk**: Releasing the lockdown voluntarily creates a scramble where the top player may immediately advance to a passing position if the back take entry fails
 
 ### 4. Switch to Electric Chair setup when the top player drives heavy forward shoulder pressure to flatten your hips
 
 - **When to use**: When the top player commits their weight forward and downward, elevating their own hips and creating the mechanical conditions for leg separation
-- **Targets**: [[Vaporizer]]
+- **Targets**: [[Positions/Vaporizer]]
 - **If successful**: You transition to the Electric Chair control or submission, converting their defensive pressure into a submission threat that forces immediate defensive response
 - **Risk**: The Electric Chair transition requires releasing the lockdown temporarily, creating an extraction window if the setup is not executed cleanly
 
@@ -217,11 +217,11 @@ The Escape from Vaporizer Defender is the bottom player who maintains the Vapori
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Capitalize on the top player's base adjustments during escape attempts to complete the Old School sweep. When they widen their base and shift weight for lockdown circulation, drive through the underhook and post your outside foot to bridge them over to mount. Their wide base creates a longer lever arm that actually makes the sweep easier when properly timed.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the top player commits both arms to defensive grips (whizzer and far post), release the lockdown and use the underhook to rotate behind them. Thread your near hook as you turn to face their back and secure seat belt control before they can turn to face you. The key timing is when their attention is focused on the lockdown rather than their back exposure.
 

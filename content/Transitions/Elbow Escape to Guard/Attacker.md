@@ -178,7 +178,7 @@ The escape works by using your near-side elbow as a wedge against the opponent's
 
 This technique is particularly valuable because it maintains a defensive posture throughout the escape sequence, minimizing risk of transitioning to worse positions like back control or crucifix. The escape naturally flows into open guard rather than requiring you to fight through multiple transitional positions. For practitioners facing skilled buggy choke attacks, developing proficiency in this escape is essential for building a complete turtle defense system that doesn't rely solely on preventing the initial grip establishment.
 
-**From Position**: [[Buggy Choke]] (Bottom)
+**From Position**: [[Positions/Buggy Choke]] (Bottom)
 
 </section>
 
@@ -228,9 +228,9 @@ This technique is particularly valuable because it maintains a defensive posture
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 58% |
-| Failure | [[Buggy Choke]] | 30% |
-| Counter | [[Side Control]] | 12% |
+| Success | [[Positions/Open Guard]] | 58% |
+| Failure | [[Positions/Buggy Choke]] | 30% |
+| Counter | [[Positions/Side Control]] | 12% |
 
 
 </section>
@@ -239,10 +239,10 @@ This technique is particularly valuable because it maintains a defensive posture
 
 ## Opponent Counters
 
-- **Opponent tightens grip and increases chest pressure before elbow can wedge** (Effectiveness: High) - Your Response: Attempt elbow wedge earlier in the sequence or transition to sitting to guard escape if pressure is too consolidated → Leads to [[Buggy Choke]]
-- **Opponent follows your hip escape and maintains connection to prevent space creation** (Effectiveness: Medium) - Your Response: Use the motion to transition toward back control acceptance, which is more defensible than continued buggy choke → Leads to [[Buggy Choke]]
-- **Opponent releases choke attempt and transitions to taking back or passes to side control as you hip escape** (Effectiveness: Medium) - Your Response: Recognize the transition and immediately address hooks or frames to prevent side control consolidation → Leads to [[Side Control]]
-- **Opponent strips elbow wedge by driving forearm deeper under armpit** (Effectiveness: Low) - Your Response: Reinforce wedge by grabbing your own collar or lapel and using gi grip to strengthen the barrier structure → Leads to [[Buggy Choke]]
+- **Opponent tightens grip and increases chest pressure before elbow can wedge** (Effectiveness: High) - Your Response: Attempt elbow wedge earlier in the sequence or transition to sitting to guard escape if pressure is too consolidated → Leads to [[Positions/Buggy Choke]]
+- **Opponent follows your hip escape and maintains connection to prevent space creation** (Effectiveness: Medium) - Your Response: Use the motion to transition toward back control acceptance, which is more defensible than continued buggy choke → Leads to [[Positions/Buggy Choke]]
+- **Opponent releases choke attempt and transitions to taking back or passes to side control as you hip escape** (Effectiveness: Medium) - Your Response: Recognize the transition and immediately address hooks or frames to prevent side control consolidation → Leads to [[Positions/Side Control]]
+- **Opponent strips elbow wedge by driving forearm deeper under armpit** (Effectiveness: Low) - Your Response: Reinforce wedge by grabbing your own collar or lapel and using gi grip to strengthen the barrier structure → Leads to [[Positions/Buggy Choke]]
 
 
 </section>

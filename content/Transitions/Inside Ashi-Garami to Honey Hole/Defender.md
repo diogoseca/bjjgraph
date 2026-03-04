@@ -158,7 +158,7 @@ The critical defensive window exists between the moment the attacker withdraws t
 
 Defensive success depends heavily on maintaining awareness of the attacker's leg positioning even while defending other threats. The attacker will typically precede the threading attempt with an ankle lock or heel hook threat designed to absorb your defensive attention. Recognizing this pattern allows you to allocate defensive resources appropriately: enough attention to the submission threat to survive it, while preserving awareness and physical positioning to deny the threading attempt that follows.
 
-**Opponent's Starting Position**: [[Inside Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Defensive success depends heavily on maintaining awareness of the attacker's leg
 ### 1. Block threading path with free leg by kicking it over the attacker's withdrawing outside leg
 
 - **When to use**: The instant you feel their outside leg unhook from behind your knee, before it begins threading through
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Attacker's threading attempt is denied and they return to basic Inside Ashi-Garami, where your defensive options are significantly better
 - **Risk**: If timed late, your blocking leg may become trapped in the developing Honey Hole triangle, worsening your position
 
 ### 2. Explosive hip rotation away from attacker to deny threading space and collapse the gap between your legs
 
 - **When to use**: When you feel the attacker bridge their hips up and begin withdrawing their outside leg, before the leg enters the gap
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Creates enough distance and angle change to prevent threading, may loosen overall entanglement enough for additional escape attempts
 - **Risk**: If attacker follows your rotation, they may transition to Outside Ashi-Garami instead, maintaining offensive position from a different angle
 
 ### 3. Counter-thread your own leg to establish 50-50 guard before attacker completes their triangle
 
 - **When to use**: When the attacker's threading motion is already partway through and blocking is no longer possible
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Converts asymmetric disadvantage into symmetrical 50-50 position where both players have equal attacking and defensive options
 - **Risk**: If attacker completes their triangle before your counter-thread finishes, you end up in Honey Hole bottom which is worse than 50-50
 
 ### 4. Strip heel grip with both hands while straightening trapped leg to push attacker away
 
 - **When to use**: As a preemptive measure when you sense the attacker setting up the transition through submission feints
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Breaking heel control removes the anchor point the attacker relies on during threading, making their transition attempt unstable and likely to fail
 - **Risk**: Committing both hands to grip fighting temporarily reduces your ability to block the threading leg physically
 
@@ -229,11 +229,11 @@ Defensive success depends heavily on maintaining awareness of the attacker's leg
 
 ## Best-Case Outcomes for Defender
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Block the threading attempt early by kicking your free leg over the attacker's withdrawing leg, or execute explosive hip rotation to deny space before the thread begins. Stripping their heel grip preemptively also forces them to re-establish control before attempting the transition again.
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 When the threading motion is already in progress and cannot be blocked, immediately counter-thread your own leg through the attacker's legs to establish symmetrical 50-50 entanglement. Race to complete your threading before they complete their triangle. Even arriving in 50-50 bottom is preferable to Honey Hole bottom.
 

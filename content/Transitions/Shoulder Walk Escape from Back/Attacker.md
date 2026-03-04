@@ -186,7 +186,7 @@ description: "Execute the shoulder walk escape from back control in BJJ. Step-by
 
 As the attacker executing the shoulder walk escape, your objective is to incrementally slide your body downward relative to your opponent's hook line using alternating shoulder drives against the mat. This grinding escape rewards patience and mechanical precision over athletic explosiveness. Each shoulder drive shifts your torso approximately one to two inches while your opponent's hooks remain relatively fixed, and over multiple repetitions this cumulative displacement makes their hooks progressively shallower until they can be cleared with a single hip escape or hand removal. The technique requires maintaining neck defense throughout the entire movement sequence, creating a dual-task coordination challenge that separates competent practitioners from those who abandon neck protection when focused on escaping hooks. Success depends on consistent rhythm, small movements, and the discipline to continue the methodical process without reverting to explosive escape attempts that telegraph your intentions.
 
-**From Position**: [[Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ As the attacker executing the shoulder walk escape, your objective is to increme
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Back Control]] | 35% |
-| Counter | [[Body Triangle]] | 15% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Back Control]] | 35% |
+| Counter | [[Positions/Back Control/Body Triangle]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the attacker executing the shoulder walk escape, your objective is to increme
 
 ## Opponent Counters
 
-- **Opponent follows your downward movement by scooting their hips to maintain hook depth** (Effectiveness: High) - Your Response: Add diagonal angle changes to your shoulder drives rather than walking straight down, disrupting the opponent's ability to follow in a single plane. Alternate between walking toward the underhook side and the overhook side to create unpredictable displacement vectors. → Leads to [[Back Control]]
-- **Opponent locks body triangle when they feel hooks becoming shallow to prevent further downward movement** (Effectiveness: High) - Your Response: Immediately switch to body triangle escape methodology by turning toward the triangle leg side and working to break the lock at the ankle. The body triangle changes the escape problem entirely and requires a different technical solution than continued shoulder walking. → Leads to [[Body Triangle]]
-- **Opponent tightens seatbelt and drives chest pressure forward to flatten you against the mat** (Effectiveness: Medium) - Your Response: Use their forward pressure to create a small gap between your hips and theirs, then resume shoulder walking with the additional space. Their commitment to forward pressure actually reduces their ability to follow your downward movement with their hooks since their hips are driving in the opposite direction. → Leads to [[Back Control]]
-- **Opponent attacks neck with choke attempt during your shoulder walking movement** (Effectiveness: Medium) - Your Response: Immediately pause the escape and re-prioritize neck defense by re-establishing two-on-one grip control on the choking arm. Never sacrifice neck protection for escape progress. Resume shoulder walking only after the choke threat is neutralized and your defensive grips are secure. → Leads to [[Back Control]]
+- **Opponent follows your downward movement by scooting their hips to maintain hook depth** (Effectiveness: High) - Your Response: Add diagonal angle changes to your shoulder drives rather than walking straight down, disrupting the opponent's ability to follow in a single plane. Alternate between walking toward the underhook side and the overhook side to create unpredictable displacement vectors. → Leads to [[Positions/Back Control]]
+- **Opponent locks body triangle when they feel hooks becoming shallow to prevent further downward movement** (Effectiveness: High) - Your Response: Immediately switch to body triangle escape methodology by turning toward the triangle leg side and working to break the lock at the ankle. The body triangle changes the escape problem entirely and requires a different technical solution than continued shoulder walking. → Leads to [[Positions/Back Control/Body Triangle]]
+- **Opponent tightens seatbelt and drives chest pressure forward to flatten you against the mat** (Effectiveness: Medium) - Your Response: Use their forward pressure to create a small gap between your hips and theirs, then resume shoulder walking with the additional space. Their commitment to forward pressure actually reduces their ability to follow your downward movement with their hooks since their hips are driving in the opposite direction. → Leads to [[Positions/Back Control]]
+- **Opponent attacks neck with choke attempt during your shoulder walking movement** (Effectiveness: Medium) - Your Response: Immediately pause the escape and re-prioritize neck defense by re-establishing two-on-one grip control on the choking arm. Never sacrifice neck protection for escape progress. Resume shoulder walking only after the choke threat is neutralized and your defensive grips are secure. → Leads to [[Positions/Back Control]]
 
 
 </section>

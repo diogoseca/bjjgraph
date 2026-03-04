@@ -154,7 +154,7 @@ description: "How to defend against overhook guard establishment from closed gua
 
 As the defender (top player in closed guard), you must prevent the bottom player from establishing overhook control on your arm, which would convert their neutral guard into a dangerous offensive platform. Your primary defense is maintaining disciplined arm positioning with elbows tight, strong upright posture that keeps your arms out of overhook range, and immediate grip-stripping responses when an overhook attempt begins. Recognizing the setup early is critical because a shallow overhook is easily stripped, while a deep, consolidated overhook with secondary control and angle established becomes extremely difficult to escape without conceding a sweep or submission.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -190,28 +190,28 @@ As the defender (top player in closed guard), you must prevent the bottom player
 ### 1. Immediate elbow retraction to strip shallow overhook before it consolidates
 
 - **When to use**: Within the first 1-2 seconds of feeling the overhook thread, before opponent's hand reaches your lat or shoulder blade
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Overhook is stripped and you return to standard closed guard top with posture recovered
 - **Risk**: If opponent has already secured deep grip, pulling straight back strengthens their control rather than breaking it
 
 ### 2. Corkscrew arm extraction by spiraling elbow toward hip with shoulder rotation forward
 
 - **When to use**: When overhook is partially established but opponent has not yet secured secondary control on your opposite arm
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Arm is extracted from overhook and you re-establish posture with both arms free for grip fighting
 - **Risk**: The spiraling motion can expose your neck to guillotine if you dip your head during extraction
 
 ### 3. Stand up in base to create distance and use gravity to strip the overhook
 
 - **When to use**: When overhook is established and ground-level extraction is failing, or when you need to simultaneously address guard opening
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Standing posture makes overhook mechanically weak due to angle change, and you can begin guard opening and passing
 - **Risk**: Standing with one arm partially trapped can expose you to sweeps if base is not established before rising
 
 ### 4. Drive opposite-side underhook and cross-face to flatten opponent and neutralize overhook angle
 
 - **When to use**: When overhook is deep and extraction is not immediately possible, requiring you to neutralize the position before escaping
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Opponent is flattened and loses the angle that makes overhook guard dangerous, reducing it to a neutral grip
 - **Risk**: Committing the opposite arm to underhook can expose it to kimura or further arm entanglement
 
@@ -223,11 +223,11 @@ As the defender (top player in closed guard), you must prevent the bottom player
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Strip the overhook early by retracting your elbow sharply to your hip before the grip consolidates, or use a corkscrew extraction to remove your arm while maintaining posture. Re-establish both hands on the opponent's hips or biceps and resume your guard passing strategy.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Stand up in base while the opponent commits to the overhook, using your elevated position to break their guard and strip the grip simultaneously. Their overhook becomes mechanically weak against a standing opponent, and you transition directly into a guard passing sequence.
 

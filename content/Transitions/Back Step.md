@@ -17,7 +17,7 @@ description: "Master the Back Step pass in BJJ. Essential leg entanglement count
 
 The Back Step is a fundamental leg entanglement escape and guard pass that creates immediate pressure passing opportunities when an opponent attempts to enter outside ashi-garami or other leg entanglement positions. By stepping the trapped leg backward over the opponent's body while maintaining heavy chest pressure, you simultaneously break their leg entanglement structure and establish dominant top position. This technique is essential in modern BJJ, particularly in no-gi competition where leg locks are prevalent. The back step exemplifies the principle of using aggressive forward movement to counter defensive guard retention, turning a potentially dangerous leg entanglement situation into a dominant passing position. When executed properly, the back step not only neutralizes the leg attack but also creates a direct path to side control or knee on belly, often catching opponents off-guard as they transition from offensive to defensive positioning.
 
-**From Position**: [[Outside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -28,9 +28,9 @@ The Back Step is a fundamental leg entanglement escape and guard pass that creat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Outside Ashi-Garami]] | 25% |
-| Counter | [[Outside Ashi-Garami]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 25% |
+| Counter | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 10% |
 
 
 </section>
@@ -187,29 +187,29 @@ The back step is an essential component of modern guard passing systems, particu
 ## Related Techniques
 
 
-- [[Outside Ashi-Garami]] - Primary starting position
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Primary starting position
 
-- [[Side Control]] - Primary ending position
+- [[Positions/Side Control]] - Primary ending position
 
-- [[Inside Ashi-Garami]] - Alternative starting position variant
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative starting position variant
 
-- [[Knee Slice Pass]] - Complementary passing technique
+- [[Transitions/Knee Slice Pass]] - Complementary passing technique
 
-- [[Leg Weave Pass]] - Alternative leg entanglement counter
+- [[Transitions/Leg Weave Pass]] - Alternative leg entanglement counter
 
-- [[Heel Hook]] - Primary threat requiring defense awareness
+- [[Transitions/Heel Hook]] - Primary threat requiring defense awareness
 
-- [[Knee on Belly]] - Alternative ending position
+- [[Positions/Knee on Belly]] - Alternative ending position
 
-- [[Lachlan Giles Leg Lock Defense Framework]] - Systematic defensive context
+- [[Systems/Lachlan Giles Leg Lock Defense Framework]] - Systematic defensive context
 
-- [[50-50 Guard]] - Related leg entanglement position
+- [[Positions/Ashi Garami/50-50 Guard]] - Related leg entanglement position
 
-- [[Saddle]] - Advanced leg entanglement counter context
+- [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement counter context
 
-- [[Headquarters Position]] - Alternative passing position entry
+- [[Positions/Headquarters Position]] - Alternative passing position entry
 
-- [[Ashi Garami Escape]] - Alternative escape from same starting position
+- [[Transitions/Ashi Garami Escape]] - Alternative escape from same starting position
 
 
 </section>

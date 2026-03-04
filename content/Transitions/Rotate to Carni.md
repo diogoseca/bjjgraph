@@ -21,7 +21,7 @@ The rotation occurs when the opponent widens their base or attempts to circle aw
 
 Strategically, Rotate to Carni represents the shoulder attack pathway from New York, complementing the head attack pathway (Invisible Collar/Zombie) and the leg attack pathway (Chill Dog). Understanding when to select the Carni rotation versus other options is essential for maximizing submission rate from the Rubber Guard system. The technique is particularly effective against opponents who recognize the triangle and gogoplata threats and attempt to create lateral space, as this exact defensive movement opens the Carni angle.
 
-**From Position**: [[New York]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, Rotate to Carni represents the shoulder attack pathway from New Y
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Carni]] | 60% |
-| Failure | [[New York]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Carni]] | 60% |
+| Failure | [[Positions/Rubber Guard/New York]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -187,27 +187,27 @@ Rotate to Carni is a cornerstone transition within the 10th Planet Rubber Guard 
 ## Related Techniques
 
 
-- [[New York]] - Starting position - Carni rotation initiates from established New York control
+- [[Positions/Rubber Guard/New York]] - Starting position - Carni rotation initiates from established New York control
 
-- [[Carni]] - Target position - successful rotation establishes Carni control for shoulder attacks
+- [[Positions/Rubber Guard/Carni]] - Target position - successful rotation establishes Carni control for shoulder attacks
 
-- [[Omoplata]] - Primary submission chain - Carni position directly threatens omoplata finish
+- [[Transitions/Omoplata]] - Primary submission chain - Carni position directly threatens omoplata finish
 
-- [[Mission Control]] - System entry - Mission Control leads to New York which enables Carni rotation
+- [[Positions/Rubber Guard/Mission Control]] - System entry - Mission Control leads to New York which enables Carni rotation
 
-- [[Invisible Collar]] - Alternative pathway - head attack option when opponent drives forward instead of widening
+- [[Positions/Rubber Guard/Invisible Collar]] - Alternative pathway - head attack option when opponent drives forward instead of widening
 
-- [[Chill Dog]] - Alternative pathway - leg attack option when opponent drives forward aggressively
+- [[Positions/Rubber Guard/Chill Dog]] - Alternative pathway - leg attack option when opponent drives forward aggressively
 
-- [[Rubber Guard]] - Parent system - Carni rotation is a core component of Rubber Guard methodology
+- [[Positions/Rubber Guard]] - Parent system - Carni rotation is a core component of Rubber Guard methodology
 
-- [[Omoplata Control]] - Follow-up position - Carni consolidation leads to omoplata control
+- [[Positions/Omoplata Control]] - Follow-up position - Carni consolidation leads to omoplata control
 
-- [[Closed Guard]] - Fallback position - failed rotation or successful counter resets to closed guard
+- [[Positions/Closed Guard]] - Fallback position - failed rotation or successful counter resets to closed guard
 
-- [[Triangle Control]] - Chain attack - arm extraction during rotation opens triangle opportunity
+- [[Positions/Triangle Control]] - Chain attack - arm extraction during rotation opens triangle opportunity
 
-- [[Crackhead Control]] - System predecessor - earlier Rubber Guard position in the progression chain
+- [[Positions/Crackhead Control]] - System predecessor - earlier Rubber Guard position in the progression chain
 
 
 </section>

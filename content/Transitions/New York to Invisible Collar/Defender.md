@@ -158,7 +158,7 @@ The defensive challenge is compounded by the fact that you are already trapped i
 
 From a tactical standpoint, the defender must understand that allowing Invisible Collar to fully consolidate makes escape dramatically harder. The addition of head control to the existing arm control creates a near-inescapable web of submissions. Prevention is far more effective than reaction - every defensive effort should be directed at stopping the collar grip before it locks rather than trying to strip it afterward.
 
-**Opponent's Starting Position**: [[New York]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ From a tactical standpoint, the defender must understand that allowing Invisible
 ### 1. Block the hand swim by posting your free hand against the bottom player's wrist or forearm before it reaches behind your head
 
 - **When to use**: Immediately upon recognizing the shin grip release - you have a 1-2 second window before the hand reaches collar position
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: Bottom player's transition stalls and they must either reattempt or choose an alternative attack, returning to standard New York control
 - **Risk**: Your blocking hand is now committed to defense rather than posture recovery, and an experienced attacker may redirect to triangle by shooting their leg over your blocking arm
 
 ### 2. Explosive posture recovery by driving hips back and chest upward the moment shin grip releases, using the brief loss of control to break the broken-posture cycle
 
 - **When to use**: When you feel the shin grip release and before the collar grip can establish - the brief window where one control point has been abandoned
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover upright posture, breaking the rubber guard structure entirely and forcing the position back to standard closed guard where you can begin systematic guard opening
 - **Risk**: If you posture too slowly, the attacker completes the collar grip with your head elevated, giving them even more leverage for the pull-down
 
 ### 3. Drive forward aggressively into the bottom player's chest, flattening their hips and denying them the space and angle needed to complete the hand swim arc
 
 - **When to use**: When you feel the transition beginning but cannot free your hand quickly enough to block - use forward pressure as an alternative disruption method
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: Bottom player's hand swim path is compressed and they cannot thread their hand behind your head, stalling the transition at the New York position
 - **Risk**: Forward drive brings your head closer to their chest, and an experienced attacker may redirect this energy into gogoplata or Chill Dog setup rather than Invisible Collar
 
 ### 4. Tuck chin aggressively and turn your head toward the overhook side, denying the collar grip access to the back of your skull while beginning elbow extraction
 
 - **When to use**: When the hand swim is already in progress and blocking is no longer possible - a late-stage defensive reaction to minimize grip quality
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: The attacker achieves only a shallow grip on your neck rather than a deep skull cup, making the resulting position far less threatening and easier to strip
 - **Risk**: Turning your head toward the overhook side may expose your neck to alternative choking angles if the attacker adjusts their grip positioning
 
@@ -228,11 +228,11 @@ From a tactical standpoint, the defender must understand that allowing Invisible
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time your posture recovery to the exact moment the shin grip releases. Drive hips backward and chest upward explosively, using the brief gap in control to break the rubber guard structure. As you recover posture, the bottom player's leg slides down your back and you return to standard closed guard where your systematic guard opening skills become effective.
 
-### → [[New York]]
+### → [[Positions/Rubber Guard/New York]]
 
 Block the hand swim with your free hand or drive forward to compress the transition space. While remaining in New York is not ideal, successfully preventing Invisible Collar denies the attacker head control and keeps their submission options limited to New York-level threats. Use the stalled transition to begin your own escape sequence from New York.
 

@@ -154,7 +154,7 @@ description: "Master defending the Toreando Pass from Seated Guard. Recognition 
 
 As the defender against the Toreando Pass from Seated Guard, your primary goal is to prevent the passer from establishing simultaneous control of both your legs and redirecting them laterally. Your seated guard provides excellent base through posted hands but limited ability to chase a passer who successfully redirects your legs. Defense begins with active grip fighting to prevent double leg control, progresses to hip mobility and leg recovery when grips are established, and culminates in guard recovery or guard improvement when the pass is partially completed. Understanding the attacker's timing windows allows you to deploy defensive responses at the most effective moments—before grips are secured, during leg redirection, or during the lateral step when the passer is committed to one direction.
 
-**Opponent's Starting Position**: [[Seated Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Seated Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the Toreando Pass from Seated Guard, your primary goal i
 ### 1. Grip fight to prevent double leg control by establishing sleeve or collar grips first
 
 - **When to use**: Before the passer secures both leg grips—this is the highest-percentage defense as it prevents the pass attempt entirely
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: Passer cannot initiate the toreando and must re-engage in grip fighting, maintaining your seated guard position
 - **Risk**: If grip fighting fails, you may have delayed your leg defense and given the passer time to establish control
 
 ### 2. Hip escape laterally to follow the passer's direction while retracting legs to chest
 
 - **When to use**: When the passer has already redirected your legs to one side and is beginning lateral movement—match their direction with hip escape
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: You recover facing the passer with legs between you, resetting the seated guard position
 - **Risk**: If too slow, the passer completes the pass before you can recover position
 
 ### 3. Sit up and close guard around the passer's waist as they close distance
 
 - **When to use**: When the passer gets close enough to reach your legs—sit up aggressively and wrap legs around their waist before they can redirect
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You improve position from seated guard to closed guard, neutralizing the toreando threat entirely
 - **Risk**: If the passer maintains distance and has strong leg grips, sitting up may leave you flat on your back without guard
 
 ### 4. Insert a butterfly hook or knee shield as passer transitions grips from legs to upper body
 
 - **When to use**: During the critical grip transition moment when the passer releases leg control to establish crossface—this brief window allows defensive frame insertion
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: You recover half guard or butterfly guard, preventing full side control consolidation
 - **Risk**: If mistimed, the passer maintains leg control and you expose your upper body to crossface
 
@@ -225,11 +225,11 @@ As the defender against the Toreando Pass from Seated Guard, your primary goal i
 
 ## Best-Case Outcomes for Defender
 
-### → [[Seated Guard]]
+### → [[Positions/Seated Guard]]
 
 Fight grips to prevent double leg control, or hip escape to follow the passer's lateral movement and recover seated guard facing them. Active grip fighting and foot-on-hip framing are the primary tools for maintaining this position.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the passer closes distance to grip your legs, time your sit-up to wrap your legs around their waist before they can establish lateral control. This requires recognizing the approach early and committing to the guard pull decisively before they redirect your legs.
 

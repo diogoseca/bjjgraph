@@ -154,7 +154,7 @@ description: "Complete guide to defending against side control consolidation in 
 
 As the defender against Transition to Side Control Consolidation, your objective is to prevent the top player from converting their loose side control into an airtight, pressure-dominant position. The consolidation window is your best opportunity for escape because the top player's control points are not yet fully established. Every second that passes during successful consolidation makes your escape exponentially harder. Your defensive strategy centers on maintaining at least one strong structural frame, preserving hip mobility for escape attempts, and recognizing the brief windows when the top player adjusts their position. The hierarchy of defensive priorities is clear: first maintain breathing capacity, second prevent full crossface establishment, third keep your far arm free for framing, and fourth preserve hip mobility for escape initiation. You are fighting a ratchet. Each control point the top player establishes is difficult to reverse. Your best chance is disrupting the consolidation sequence early, before multiple control points compound into an inescapable position. If you can force the top player to restart their consolidation sequence even once, you have significantly increased your escape probability.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ As the defender against Transition to Side Control Consolidation, your objective
 ### 1. Establish strong far-side forearm frame against opponent's shoulder or chest before they settle weight
 
 - **When to use**: Immediately when you feel side control being established, before the opponent begins their consolidation sequence
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Prevents full chest pressure settlement, maintains breathing space, and preserves the mechanical foundation for subsequent hip escape or guard recovery
 - **Risk**: If opponent collapses the frame by changing their pressure angle, you lose your primary defensive structure and must rebuild before attempting escape
 
 ### 2. Hip escape and insert near-side knee before opponent establishes hip control
 
 - **When to use**: During the first 5 seconds of consolidation when the opponent's hips are not yet settled against your body and a gap exists at the hip line
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recovers half guard position, completely negating the consolidation and forcing the opponent to re-pass your guard
 - **Risk**: If the hip escape is too shallow or too late, the opponent stuffs the knee and establishes deeper hip control than before the attempt
 
 ### 3. Bridge explosively toward the opponent when they lift their hips to adjust position
 
 - **When to use**: When you feel the opponent's weight shift upward during a positional adjustment, crossface transition, or grip change
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Disrupts the consolidation sequence, forces the opponent to re-establish base, and creates a window for follow-up hip escape or guard recovery
 - **Risk**: If mistimed, the bridge expends energy without creating meaningful disruption, and the opponent may use your upward movement to advance toward mount
 
 ### 4. Fight for underhook with near arm before crossface is fully established
 
 - **When to use**: When the opponent's crossface is shallow or they are prioritizing hip control over head control
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Establishes strong inside control that prevents full consolidation, creates angle for escape to dogfight position or guard recovery
 - **Risk**: If the opponent has already established crossface, reaching for the underhook exposes your arm to kimura or americana attacks
 
@@ -226,11 +226,11 @@ As the defender against Transition to Side Control Consolidation, your objective
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Insert your near-side knee between the opponent's legs during the early consolidation window before they establish hip-to-hip contact. Time the knee insertion with a hip escape movement, shrimping your hips away while simultaneously driving your knee toward their hip. The combination of hip escape angle and knee insertion recovers half guard and negates the consolidation entirely.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Disrupt the consolidation sequence through well-timed bridging, aggressive framing, or underhook fighting that forces the opponent to restart their consolidation process. While this keeps you in bottom side control, it resets the consolidation clock and preserves your escape windows. Repeatedly disrupting consolidation fatigues the top player and increases the probability of a successful escape on subsequent attempts.
 

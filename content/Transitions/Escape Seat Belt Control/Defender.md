@@ -146,7 +146,7 @@ description: "Learn to maintain seat belt back control against escape attempts. 
 
 The defender in the Escape Seat Belt Control context is the back controller working to maintain their dominant position against the bottom player's escape attempts. This perspective focuses on recognizing escape initiation cues, reinforcing the seat belt grip structure under attack, maintaining hook control during hip movement, and capitalizing on escape failures to advance position or secure submissions. The back controller holds the structural advantage but must remain vigilant and proactive, as a passive response to escape attempts allows cumulative grip degradation that eventually succeeds. The fundamental defensive strategy is creating dilemmas: when the bottom player fights grips, threaten the choke; when they protect the neck, maintain grip control and settle weight. This forces the escaper to solve two problems simultaneously, dramatically reducing their success rate.
 
-**Opponent's Starting Position**: [[Seat Belt Control Back]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control/Seat Belt Control Back]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ The defender in the Escape Seat Belt Control context is the back controller work
 ### 1. Tighten seat belt grip and increase chest-to-back pressure while driving hooks deeper
 
 - **When to use**: When bottom player begins grip fighting but has not yet created hip angle or cleared hooks
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Bottom player's escape attempt stalls and they remain in back control with grip structure intact
 - **Risk**: Excessive tightening creates fatigue in your arms; if grip eventually fails, the bottom player has generated momentum
 
 ### 2. Release seat belt to attack rear naked choke when opponent removes hands from neck defense to grip fight
 
 - **When to use**: When bottom player commits both hands to the two-on-one grip break, leaving neck exposed
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Choke threat forces bottom player to abandon grip fighting and return to neck defense, resetting the escape
 - **Risk**: If the choke fails to land, the seat belt must be re-established from scratch and the opponent may escape during the gap
 
 ### 3. Follow the turning motion and transition to mount when bottom player begins face-down rotation
 
 - **When to use**: When bottom player has broken grip partially and begins turning - follow rather than resist the rotation
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Transition to mount secures a dominant position worth 4 points with strong submission options
 - **Risk**: If the mount transition is sloppy, bottom player may recover half guard or create a scramble
 
 ### 4. Transition to body triangle to lock hips and prevent the shrimping movement essential to this escape
 
 - **When to use**: When you feel hip movement beginning and want to shut down the entire escape pathway before it develops
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Body triangle eliminates hip escape ability and forces the bottom player to address a completely different control problem
 - **Risk**: Body triangle transition creates a brief window where your hook control changes; aggressive opponent may exploit the gap
 
@@ -218,11 +218,11 @@ The defender in the Escape Seat Belt Control context is the back controller work
 
 ## Best-Case Outcomes for Defender
 
-### → [[Seat Belt Control Back]]
+### → [[Positions/Back Control/Seat Belt Control Back]]
 
 Maintain constant grip reinforcement and chest pressure while punishing every grip fighting attempt with choke threats. Switch between gable grip, wrist control, and palm cup configurations to prevent any single grip attack from succeeding. Drive hooks deeper whenever the bottom player creates hip movement.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the bottom player begins turning face-down despite your grip retention, proactively follow their rotation by releasing hooks and transitioning to mount. Use the turning momentum to establish mount position by posting your near-side knee over their hip as they rotate. This converts a partial escape into a dominant position change in your favor.
 

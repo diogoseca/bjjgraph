@@ -22,7 +22,7 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Ankle, knee ligaments, and surrounding connective tissue
-**Starting Position**: [[Inside Ashi-Garami]]
+**Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 **Success Rate**: 52%
 
 </section>
@@ -77,8 +77,8 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Inside Ashi-Garami]] | 25% |
-| Counter | [[Open Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -229,14 +229,14 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 
 ## From Which Positions?
 
-- [[Inside Ashi-Garami]]
-- [[50-50 Guard]]
-- [[Saddle]]
-- [[Outside Ashi-Garami]]
-- [[Cross Ashi-Garami]]
-- [[Single Leg X-Guard]]
-- [[Honey Hole]]
-- [[K-Guard]]
+- [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- [[Positions/Ashi Garami/50-50 Guard]]
+- [[Positions/Ashi Garami/Saddle]]
+- [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- [[Positions/X-Guard/Single Leg X-Guard]]
+- [[Positions/Ashi Garami/Honey Hole]]
+- [[Positions/K-Guard]]
 
 
 </section>
@@ -245,16 +245,16 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 
 ## Related Submissions
 
-- [[Outside Heel Hook]]
-- [[Heel Hook]]
-- [[Kneebar]]
-- [[Kneebar from 50-50]]
-- [[Toe Hold]]
-- [[Toe Hold from 50-50]]
-- [[Calf Slicer from 50-50]]
-- [[Estima Lock]]
-- [[Achilles Lock]]
-- [[Straight Ankle Lock]]
+- [[Transitions/Outside Heel Hook]]
+- [[Transitions/Heel Hook]]
+- [[Transitions/Kneebar]]
+- [[Submissions/Kneebar from 50-50]]
+- [[Transitions/Toe Hold]]
+- [[Submissions/Toe Hold from 50-50]]
+- [[Submissions/Calf Slicer from 50-50]]
+- [[Positions/Estima Lock]]
+- [[Submissions/Achilles Lock]]
+- [[Submissions/Straight Ankle Lock]]
 
 
 </section>
@@ -263,17 +263,17 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 
 ## Additional Related Content
 
-- [[Ashi Garami]] - Parent position family for leg entanglement control
-- [[Inside Ashi-Garami]] - Primary control position for establishing heel hook
-- [[Ashi Garami Escape]] - Defensive counters to study for complete understanding
-- [[X-Guard to Ashi Garami]] - Alternative entry pathway from guard position
-- [[Saddle Entry from Top]] - Transition to dominant leg entanglement position
-- [[Leg Entanglement]] - Fundamental principle underlying all ashi-garami positions
-- [[Backside 50-50]] - Alternative leg entanglement position with inside heel hook opportunities
-- [[Deep Half Guard]] - Guard position with transitions to leg entanglement attacks
-- [[Dogfight Position]] - Scramble position with leg entanglement entry opportunities
-- [[Outside Heel Hook]] - Complementary heel hook attack with opposite rotation direction
-- [[Kneebar Control]] - Alternative leg attack when heel is hidden
+- [[Positions/Ashi Garami]] - Parent position family for leg entanglement control
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary control position for establishing heel hook
+- [[Transitions/Ashi Garami Escape]] - Defensive counters to study for complete understanding
+- [[Transitions/X-Guard to Ashi Garami]] - Alternative entry pathway from guard position
+- [[Transitions/Saddle Entry from Top]] - Transition to dominant leg entanglement position
+- [[Positions/Leg Entanglement]] - Fundamental principle underlying all ashi-garami positions
+- [[Positions/Ashi Garami/Backside 50-50]] - Alternative leg entanglement position with inside heel hook opportunities
+- [[Positions/Half Guard/Deep Half Guard]] - Guard position with transitions to leg entanglement attacks
+- [[Positions/Dogfight Position]] - Scramble position with leg entanglement entry opportunities
+- [[Transitions/Outside Heel Hook]] - Complementary heel hook attack with opposite rotation direction
+- [[Positions/Kneebar Control]] - Alternative leg attack when heel is hidden
 
 
 </section>

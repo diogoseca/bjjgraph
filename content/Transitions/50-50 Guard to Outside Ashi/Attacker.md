@@ -178,7 +178,7 @@ From 50-50 top position, you release your inside control and use hip movement co
 
 This technique is strategically critical in modern leg lock systems because 50-50 often becomes a positional stalemate where both practitioners defend each other's heels. The outside ashi transition breaks this symmetry, forcing your opponent into a defensive position while you gain offensive control. The transition also opens pathways to more dominant positions like saddle and inside ashi-garami, making it a gateway technique in the leg entanglement hierarchy.
 
-**From Position**: [[50-50 Guard]] (Top)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ This technique is strategically critical in modern leg lock systems because 50-5
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Outside Ashi-Garami]] | 65% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[50-50 Guard]] | 10% |
+| Success | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 65% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ This technique is strategically critical in modern leg lock systems because 50-5
 
 ## Opponent Counters
 
-- **Opponent releases their leg entanglement and races to their own outside ashi** (Effectiveness: High) - Your Response: Accelerate your transition and establish your figure-4 first, or abandon the transition and re-establish 50-50 if they beat you to the position → Leads to [[50-50 Guard]]
-- **Opponent drives forward and stacks you during the transition moment** (Effectiveness: Medium) - Your Response: Use their forward momentum to complete the transition faster, or redirect into a kneebar setup as their knee extends from the stacking attempt → Leads to [[50-50 Guard]]
-- **Opponent strips your heel grip during the transition** (Effectiveness: Medium) - Your Response: Abandon the transition and immediately re-grip their heel before they can escape, or transition to single leg X if you maintain any leg control → Leads to [[50-50 Guard]]
-- **Opponent follows your leg extraction and enters their own inside ashi** (Effectiveness: High) - Your Response: Race to complete outside ashi faster, or accept the mutual entanglement and work from the new position with superior angle awareness → Leads to [[50-50 Guard]]
+- **Opponent releases their leg entanglement and races to their own outside ashi** (Effectiveness: High) - Your Response: Accelerate your transition and establish your figure-4 first, or abandon the transition and re-establish 50-50 if they beat you to the position → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent drives forward and stacks you during the transition moment** (Effectiveness: Medium) - Your Response: Use their forward momentum to complete the transition faster, or redirect into a kneebar setup as their knee extends from the stacking attempt → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent strips your heel grip during the transition** (Effectiveness: Medium) - Your Response: Abandon the transition and immediately re-grip their heel before they can escape, or transition to single leg X if you maintain any leg control → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent follows your leg extraction and enters their own inside ashi** (Effectiveness: High) - Your Response: Race to complete outside ashi faster, or accept the mutual entanglement and work from the new position with superior angle awareness → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 
 
 </section>

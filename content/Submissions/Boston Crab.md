@@ -22,7 +22,7 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 **Category**: Compression
 **Type**: Spinal Compression
 **Target Area**: Lumbar spine and hip flexors
-**Starting Position**: [[Turtle]]
+**Starting Position**: [[Positions/Turtle]]
 **Success Rate**: 42%
 
 </section>
@@ -77,8 +77,8 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Closed Guard]] | 20% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -229,12 +229,12 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 ## From Which Positions?
 
-- [[Turtle]]
-- [[Back Control]]
-- [[Crab Ride]]
-- [[Truck]]
-- [[Cross Body Ride]]
-- [[Twister Control]]
+- [[Positions/Turtle]]
+- [[Positions/Back Control]]
+- [[Positions/Crab Ride]]
+- [[Positions/Twister Control/Truck]]
+- [[Positions/Cross Body Ride]]
+- [[Positions/Twister Control]]
 
 
 </section>
@@ -243,16 +243,16 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 ## Related Submissions
 
-- [[Twister]]
-- [[Banana Split]]
-- [[Calf Slicer]]
-- [[Achilles Lock]]
-- [[Toe Hold]]
-- [[Kneebar]]
-- [[Rear Naked Choke]]
-- [[Bow and Arrow Choke]]
-- [[Armbar from Back]]
-- [[Kimura]]
+- [[Submissions/Twister]]
+- [[Submissions/Banana Split]]
+- [[Transitions/Calf Slicer]]
+- [[Submissions/Achilles Lock]]
+- [[Transitions/Toe Hold]]
+- [[Transitions/Kneebar]]
+- [[Transitions/Rear Naked Choke]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Submissions/Armbar from Back]]
+- [[Transitions/Kimura]]
 
 
 </section>
@@ -261,15 +261,15 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 ## Additional Related Content
 
-- [[Turtle]] - Primary starting position for Boston Crab entries
-- [[Truck]] - Alternative leg control position that can transition to Boston Crab
-- [[Crab Ride]] - Back control position with leg control access to Boston Crab setup
-- [[Twister]] - Similar compression submission targeting spinal rotation
-- [[Turtle to Back Control]] - Entry pathway where Boston Crab becomes option if traditional back control is defended
-- [[Back Control]] - Can transition to Boston Crab if opponent defends traditional choke attacks
-- [[Lockdown]] - Half guard control that shares leg control principles with Boston Crab mechanics
-- [[Banana Split]] - Another compression submission involving hip and groin pressure with leg control
-- [[Twister Control]] - Spinal lock position that shares anatomical targets with Boston Crab
+- [[Positions/Turtle]] - Primary starting position for Boston Crab entries
+- [[Positions/Twister Control/Truck]] - Alternative leg control position that can transition to Boston Crab
+- [[Positions/Crab Ride]] - Back control position with leg control access to Boston Crab setup
+- [[Submissions/Twister]] - Similar compression submission targeting spinal rotation
+- [[Transitions/Turtle to Back Control]] - Entry pathway where Boston Crab becomes option if traditional back control is defended
+- [[Positions/Back Control]] - Can transition to Boston Crab if opponent defends traditional choke attacks
+- [[Positions/Half Guard/Lockdown]] - Half guard control that shares leg control principles with Boston Crab mechanics
+- [[Submissions/Banana Split]] - Another compression submission involving hip and groin pressure with leg control
+- [[Positions/Twister Control]] - Spinal lock position that shares anatomical targets with Boston Crab
 
 
 </section>

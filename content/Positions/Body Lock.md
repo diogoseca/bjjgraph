@@ -93,25 +93,25 @@ The position is inherently transitional and requires immediate attack execution.
 ### Available Transitions
 
 
-- **[[Grip Break]]** (39% of attempts)
+- **[[Transitions/Grip Break]]** (39% of attempts)
 
-- **[[Sitting Guard Pull]]** (19% of attempts)
+- **[[Transitions/Sitting Guard Pull]]** (19% of attempts)
 
-- **[[Rolling to Guard]]** (12% of attempts)
+- **[[Transitions/Rolling to Guard]]** (12% of attempts)
 
-- **[[Whizzer]]** (7% of attempts)
+- **[[Transitions/Whizzer]]** (7% of attempts)
 
-- **[[Sprawl Defense]]** (7% of attempts)
+- **[[Transitions/Sprawl Defense]]** (7% of attempts)
 
-- **[[Turn In and Face]]** (7% of attempts)
+- **[[Transitions/Turn In and Face]]** (7% of attempts)
 
-- **[[Standing up in Base]]** (5% of attempts)
+- **[[Transitions/Standing up in Base]]** (5% of attempts)
 
-- **[[Escape Body Lock]]** (2% of attempts)
+- **[[Transitions/Escape Body Lock]]** (2% of attempts)
 
-- **[[Pummeling Escape from Body Lock]]** (1% of attempts)
+- **[[Transitions/Pummeling Escape from Body Lock]]** (1% of attempts)
 
-- **[[Reversal from Body Lock]]** (1% of attempts)
+- **[[Transitions/Reversal from Body Lock]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -168,25 +168,25 @@ The position is inherently transitional and requires immediate attack execution.
 ### Available Transitions
 
 
-- **[[Back Take]]** (14% of attempts)
+- **[[Transitions/Back Take]]** (14% of attempts)
 
-- **[[Snap Down to Front Headlock]]** (8% of attempts)
+- **[[Transitions/Snap Down to Front Headlock]]** (8% of attempts)
 
-- **[[Tani Otoshi]]** (10% of attempts)
+- **[[Transitions/Tani Otoshi]]** (10% of attempts)
 
-- **[[Kosoto Gake]]** (8% of attempts)
+- **[[Transitions/Kosoto Gake]]** (8% of attempts)
 
-- **[[Mat Return to Back Mount]]** (40% of attempts)
+- **[[Transitions/Mat Return to Back Mount]]** (40% of attempts)
 
-- **[[Harai Goshi]]** (5% of attempts)
+- **[[Transitions/Harai Goshi]]** (5% of attempts)
 
-- **[[Body Lock Pass]]** (10% of attempts)
+- **[[Transitions/Body Lock Pass]]** (10% of attempts)
 
-- **[[Double Leg Finish]]** (3% of attempts)
+- **[[Transitions/Double Leg Finish]]** (3% of attempts)
 
-- **[[Body Lock Takedown]]** (1% of attempts)
+- **[[Transitions/Body Lock Takedown]]** (1% of attempts)
 
-- **[[Body Lock to Standing]]** (1% of attempts)
+- **[[Transitions/Body Lock to Standing]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -225,23 +225,23 @@ The position is inherently transitional and requires immediate attack execution.
 ## Related Positions
 
 
-- **[[Clinch]]** - General standing control position from which body lock is often established
+- **[[Positions/Clinch]]** - General standing control position from which body lock is often established
 
-- **[[Double Unders]]** - Related grip configuration using double underhooks instead of locked hands
+- **[[Positions/Double Unders]]** - Related grip configuration using double underhooks instead of locked hands
 
-- **[[Front Headlock]]** - Transition option when opponent lowers level to defend body lock pressure
+- **[[Positions/Front Headlock]]** - Transition option when opponent lowers level to defend body lock pressure
 
-- **[[Turtle]]** - Common resulting position when opponent defends by turtling
+- **[[Positions/Turtle]]** - Common resulting position when opponent defends by turtling
 
-- **[[Back Control]]** - Primary target position from successful mat return or back take
+- **[[Positions/Back Control]]** - Primary target position from successful mat return or back take
 
-- **[[Harness]]** - Ground-based control position using similar locked grip mechanics
+- **[[Positions/Harness]]** - Ground-based control position using similar locked grip mechanics
 
-- **[[Overhook Control]]** - Alternative standing control using single overhook instead of locked grip
+- **[[Positions/Overhook Control]]** - Alternative standing control using single overhook instead of locked grip
 
-- **[[Crab Ride]]** - Transition position used when moving from body lock to back control on the mat
+- **[[Positions/Crab Ride]]** - Transition position used when moving from body lock to back control on the mat
 
-- **[[Closed Guard]]** - Counter position when bottom player sits to guard to escape body lock
+- **[[Positions/Closed Guard]]** - Counter position when bottom player sits to guard to escape body lock
 
 
 </section>

@@ -21,7 +21,7 @@ The technique is most effective when the top player commits forward pressure int
 
 From a systematic perspective, the Z-Guard Sweep complements the underhook-based sweep from the same position, creating a two-pronged offensive threat that addresses different grip configurations. When the opponent defends the underhook by pummel or crossface, the far-side grip sweep remains available. When they respect the frame push by backing away, space opens for underhook entry or transitions to deep half guard. This interconnected threat matrix transforms Z-Guard from a purely retentive position into an active offensive platform that demands constant dilemma management from the top player.
 
-**From Position**: [[Z-Guard]] (Bottom)
+**From Position**: [[Positions/Z-Guard]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ From a systematic perspective, the Z-Guard Sweep complements the underhook-based
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Z-Guard]] | 30% |
-| Counter | [[Flattened Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Z-Guard]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 20% |
 
 
 </section>
@@ -193,23 +193,23 @@ The Z-Guard Sweep integrates into the broader half guard ecosystem as one of the
 ## Related Techniques
 
 
-- [[Half Guard]] - Parent position category from which Z-Guard is a specialized variation
+- [[Positions/Half Guard]] - Parent position category from which Z-Guard is a specialized variation
 
-- [[Side Control]] - Primary target position achieved after successful sweep completion
+- [[Positions/Side Control]] - Primary target position achieved after successful sweep completion
 
-- [[Sweep from Z-Guard]] - Complementary underhook-based sweep from same position targeting mount
+- [[Transitions/Sweep from Z-Guard]] - Complementary underhook-based sweep from same position targeting mount
 
-- [[Knee Shield Half Guard]] - Closely related position with lower knee placement sharing similar sweep mechanics
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Closely related position with lower knee placement sharing similar sweep mechanics
 
-- [[Deep Half Guard]] - Alternative transition when sweep fails and opponent collapses knee shield
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition when sweep fails and opponent collapses knee shield
 
-- [[Dogfight Position]] - Common intermediate position when sweep partially succeeds
+- [[Positions/Dogfight Position]] - Common intermediate position when sweep partially succeeds
 
-- [[Flattened Half Guard]] - Worst-case counter outcome when opponent collapses knee shield during attempt
+- [[Positions/Half Guard/Flattened Half Guard]] - Worst-case counter outcome when opponent collapses knee shield during attempt
 
-- [[Lockdown]] - Alternative retention system when Z-Guard structure is compromised
+- [[Positions/Half Guard/Lockdown]] - Alternative retention system when Z-Guard structure is compromised
 
-- [[Old School Sweep]] - Complementary sweep from similar half guard positions using different mechanics
+- [[Transitions/Old School Sweep]] - Complementary sweep from similar half guard positions using different mechanics
 
 
 </section>

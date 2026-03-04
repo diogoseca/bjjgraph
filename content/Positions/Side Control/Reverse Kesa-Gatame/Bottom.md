@@ -208,21 +208,21 @@ From a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defe
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (33% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (33% of attempts)
 
-### [[Hip Escape to Guard]] (18% of attempts)
+### [[Transitions/Hip Escape to Guard]] (18% of attempts)
 
-### [[Bridge and Roll]] (14% of attempts)
+### [[Transitions/Bridge and Roll]] (14% of attempts)
 
-### [[Shrimp Escape]] (16% of attempts)
+### [[Transitions/Shrimp Escape]] (16% of attempts)
 
-### [[Technical Stand-up]] (11% of attempts)
+### [[Transitions/Technical Stand-up]] (11% of attempts)
 
-### [[Bridge from Reverse Kesa-Gatame]] (5% of attempts)
+### [[Transitions/Bridge from Reverse Kesa-Gatame]] (5% of attempts)
 
-### [[Escape Reverse Kesa-Gatame]] (2% of attempts)
+### [[Transitions/Escape Reverse Kesa-Gatame]] (2% of attempts)
 
-### [[Turn In from Reverse Kesa]] (1% of attempts)
+### [[Transitions/Turn In from Reverse Kesa]] (1% of attempts)
 
 
 
@@ -233,23 +233,23 @@ From a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defe
 ## Decision Making from This Position
 
 **If opponent sits high on chest with weight too far forward:**
-- Execute **[[Bridge and Roll]]** → [[Scramble Position]] (Probability: 50%)
-- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Scramble Position]] (Probability: 50%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If opponent maintains tight chest-to-chest pressure with proper weight distribution:**
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Shrimp Escape]]** → [[Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Open Guard]] (Probability: 40%)
 
 
 **If opponent begins transitioning to North-South or Mount:**
-- Execute **[[Shrimp Escape]]** → [[Turtle]] (Probability: 60%)
-- Execute **[[Shrimp Escape]]** → [[Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Turtle]] (Probability: 60%)
+- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Closed Guard]] (Probability: 35%)
 
 
 **If opponent attacks trapped arm for submission:**
-- Execute **[[Bridge and Roll]]** → [[Scramble Position]] (Probability: 45%)
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Scramble Position]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 
@@ -383,16 +383,16 @@ Partner sits in varying heights and weight distributions in Reverse Kesa-Gatame 
 
 ## Related Positions and Techniques
 
-- **[[Kesa Gatame]]** - Similar defensive position with different escape mechanics
-- **[[Reverse Scarf Hold]]** - Related pinning position family
-- **[[Side Control]]** - Parent category of pinning escapes
-- **[[North-South]]** - Common transition target from this position
-- **[[Half Guard]]** - Primary escape destination
-- **[[Elbow Escape to Guard]]** - Primary escape technique for recovering guard from pins
-- **[[Bridge and Roll]]** - Reversal technique option
-- **[[Hip Escape to Guard]]** - Fundamental hip escape movement for guard recovery
-- **[[Closed Guard]]** - Guard recovery destination
-- **[[Turtle]]** - Alternative escape destination
+- **[[Positions/Side Control/Kesa Gatame]]** - Similar defensive position with different escape mechanics
+- **[[Positions/Side Control/Reverse Scarf Hold]]** - Related pinning position family
+- **[[Positions/Side Control]]** - Parent category of pinning escapes
+- **[[Positions/North-South]]** - Common transition target from this position
+- **[[Positions/Half Guard]]** - Primary escape destination
+- **[[Transitions/Elbow Escape to Guard]]** - Primary escape technique for recovering guard from pins
+- **[[Transitions/Bridge and Roll]]** - Reversal technique option
+- **[[Transitions/Hip Escape to Guard]]** - Fundamental hip escape movement for guard recovery
+- **[[Positions/Closed Guard]]** - Guard recovery destination
+- **[[Positions/Turtle]]** - Alternative escape destination
 
 
 </section>

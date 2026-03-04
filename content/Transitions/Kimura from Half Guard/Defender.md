@@ -146,7 +146,7 @@ description: "Complete guide to defending the Kimura from Half Guard Top. Learn 
 
 As the defender in half guard top, your objective is to prevent the bottom player from establishing a Kimura grip on your arm and, if the grip is secured, to extract your arm and capitalize on their compromised defensive structure. The Kimura attempt from bottom half guard exploits arm exposure created by posting, reaching for crossface, or extending during passes. Understanding the attack's entry mechanics allows you to maintain proper arm discipline that eliminates these opportunities entirely. When prevention fails, immediate and decisive action is required because the difficulty of escaping the Kimura grip increases exponentially once the figure-four is fully locked and the bottom player establishes proper angle. Your defensive framework should prioritize prevention through arm discipline, early disruption before the grip completes, and counterattacking through position advancement when the bottom player commits both hands to the failed grip attempt.
 
-**Opponent's Starting Position**: [[Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ As the defender in half guard top, your objective is to prevent the bottom playe
 ### 1. Retract the targeted arm forcefully to your own hip while driving chest pressure forward
 
 - **When to use**: At the first sign of wrist contact or when you feel the bottom player's hand reaching for your arm before the figure-four locks
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Bottom player loses their offensive opportunity and is left without frames, allowing you to settle weight and continue passing
 - **Risk**: If retraction is too slow, the bottom player may have already threaded deep enough to complete the figure-four despite your withdrawal
 
 ### 2. Drive forward with heavy chest-to-chest pressure to flatten the bottom player's hip angle
 
 - **When to use**: When the bottom player begins creating the side angle needed for the Kimura entry before they have secured any grip
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Flattening eliminates the angle required for arm threading, neutralizes the Kimura threat, and creates passing opportunities through their compromised structure
 - **Risk**: Excessive forward pressure without controlling their legs may allow them to use your momentum for a sweep or redirect you into deep half guard
 
 ### 3. Circle the targeted elbow inward toward your own body to close the threading space under your tricep
 
 - **When to use**: When the bottom player has secured wrist control but has not yet completed the arm thread under your tricep
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Closing the elbow prevents the figure-four completion and forces the bottom player to release wrist control to attempt alternative attacks
 - **Risk**: If the thread is already deep, circling the elbow may tighten the Kimura grip rather than prevent it
 
 ### 4. Extract trapped leg and pass to side control while opponent's hands are committed to Kimura grip
 
 - **When to use**: When the bottom player has committed both hands to a Kimura attempt that is not fully locked, abandoning their defensive frames
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Completing the guard pass while their hands are occupied eliminates half guard entirely and advances to dominant side control position
 - **Risk**: If the Kimura grip is solid, attempting to pass may extend your arm further into their control and strengthen their position
 
@@ -216,11 +216,11 @@ As the defender in half guard top, your objective is to prevent the bottom playe
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Strip the opponent's grip before the figure-four is completed by pulling your arm back forcefully while driving chest forward. The failed Kimura attempt leaves them without frames, allowing you to consolidate top half guard control and resume passing.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the bottom player commits both hands to the Kimura attempt, their defensive structure collapses. Drive your weight forward and work to extract your trapped leg through their compromised guard. Their lack of frames from the failed grip attempt creates an immediate passing window to side control.
 

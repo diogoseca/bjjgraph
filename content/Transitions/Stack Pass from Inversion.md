@@ -21,7 +21,7 @@ This pass requires precise timing, as attempting to stack against a fully establ
 
 Strategically, the stack pass represents a commitment - once you drive forward, you cannot easily disengage without giving up position. This makes it critical to secure adequate leg control before initiating the stack. The technique works best as part of a pressure passing system where you've already forced the opponent to work hard maintaining their inversion, creating the fatigue that opens the stacking opportunity.
 
-**From Position**: [[Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Grasshopper Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the stack pass represents a commitment - once you drive forward, 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Grasshopper Guard]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -189,23 +189,23 @@ The Stack Pass from Inversion fits within the pressure passing system as a respo
 ## Related Techniques
 
 
-- [[Grasshopper Guard]] - Starting position - the inverted guard this pass is designed to defeat
+- [[Positions/Grasshopper Guard]] - Starting position - the inverted guard this pass is designed to defeat
 
-- [[Side Control]] - Primary destination after successful pass completion
+- [[Positions/Side Control]] - Primary destination after successful pass completion
 
-- [[Leg Drag Pass]] - Alternative pass when stack is defended with Granby roll
+- [[Transitions/Leg Drag Pass]] - Alternative pass when stack is defended with Granby roll
 
-- [[Toreando Pass]] - Complementary pass that can force inversions setting up the stack
+- [[Transitions/Toreando Pass]] - Complementary pass that can force inversions setting up the stack
 
-- [[Back Step Pass]] - Alternative when opponent threatens leg entanglements during stack
+- [[Transitions/Back Step Pass]] - Alternative when opponent threatens leg entanglements during stack
 
-- [[Double Under Pass]] - Related technique with similar stacking mechanics
+- [[Transitions/Double Under Pass]] - Related technique with similar stacking mechanics
 
-- [[Inverted Guard]] - Parent category of guards this pass addresses
+- [[Positions/Inverted Guard]] - Parent category of guards this pass addresses
 
-- [[Closed Guard]] - Possible counter destination if opponent Granby rolls successfully
+- [[Positions/Closed Guard]] - Possible counter destination if opponent Granby rolls successfully
 
-- [[Mount]] - Alternative destination when passing directly over stacked opponent
+- [[Positions/Mount]] - Alternative destination when passing directly over stacked opponent
 
 
 </section>

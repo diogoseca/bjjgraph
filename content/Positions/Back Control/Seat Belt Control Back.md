@@ -95,25 +95,25 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 ### Available Transitions
 
 
-- **[[Hand Fighting from Back]]** (45% of attempts)
+- **[[Transitions/Hand Fighting from Back]]** (45% of attempts)
 
-- **[[Back Door Escape]]** (12% of attempts)
+- **[[Transitions/Back Door Escape]]** (12% of attempts)
 
-- **[[Granby Roll to Guard]]** (2% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (2% of attempts)
 
-- **[[Elbow Escape to Remove Hooks]]** (19% of attempts)
+- **[[Transitions/Elbow Escape to Remove Hooks]]** (19% of attempts)
 
-- **[[Hip Escape to Turtle]]** (15% of attempts)
+- **[[Transitions/Hip Escape to Turtle]]** (15% of attempts)
 
-- **[[Standing up in Base]]** (2% of attempts)
+- **[[Transitions/Standing up in Base]]** (2% of attempts)
 
-- **[[Turn In and Face]]** (4% of attempts)
+- **[[Transitions/Turn In and Face]]** (4% of attempts)
 
-- **[[Escape Seat Belt Control]]** (0% of attempts)
+- **[[Transitions/Escape Seat Belt Control]]** (0% of attempts)
 
-- **[[Hand Fight from Seat Belt Control]]** (0% of attempts)
+- **[[Transitions/Hand Fight from Seat Belt Control]]** (0% of attempts)
 
-- **[[Seat Belt Peel Escape]]** (1% of attempts)
+- **[[Transitions/Seat Belt Peel Escape]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -174,35 +174,35 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (35% of attempts)
+- **[[Transitions/Rear Naked Choke]]** (35% of attempts)
 
-- **[[Armbar from Back Transition]]** (10% of attempts)
+- **[[Transitions/Armbar from Back Transition]]** (10% of attempts)
 
-- **[[Bow and Arrow Choke]]** (6% of attempts)
+- **[[Transitions/Bow and Arrow Choke]]** (6% of attempts)
 
-- **[[Back Control to Crucifix]]** (6% of attempts)
+- **[[Transitions/Back Control to Crucifix]]** (6% of attempts)
 
-- **[[Short Choke]]** (5% of attempts)
+- **[[Transitions/Short Choke]]** (5% of attempts)
 
-- **[[Back Control Maintenance]]** (12% of attempts)
+- **[[Transitions/Back Control Maintenance]]** (12% of attempts)
 
-- **[[Body Triangle Lock]]** (6% of attempts)
+- **[[Transitions/Body Triangle Lock]]** (6% of attempts)
 
-- **[[Kimura from Back]]** (3% of attempts)
+- **[[Transitions/Kimura from Back]]** (3% of attempts)
 
-- **[[Triangle from Back]]** (3% of attempts)
+- **[[Transitions/Triangle from Back]]** (3% of attempts)
 
-- **[[Roll to Truck]]** (3% of attempts)
+- **[[Transitions/Roll to Truck]]** (3% of attempts)
 
-- **[[Gift Wrap]]** (5% of attempts)
+- **[[Positions/Gift Wrap]]** (5% of attempts)
 
-- **[[Seat Belt to Body Triangle]]** (1% of attempts)
+- **[[Transitions/Seat Belt to Body Triangle]]** (1% of attempts)
 
-- **[[Seat Belt to Full Back Control]]** (1% of attempts)
+- **[[Transitions/Seat Belt to Full Back Control]]** (1% of attempts)
 
-- **[[Bow and Arrow from Seat Belt]]** (2% of attempts)
+- **[[Submissions/Bow and Arrow from Seat Belt]]** (2% of attempts)
 
-- **[[RNC from Seat Belt]]** (2% of attempts)
+- **[[Submissions/RNC from Seat Belt]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -245,23 +245,23 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 ## Related Positions
 
 
-- **[[Back Control]]** - Parent position - seat belt is optimal grip configuration within general back control framework
+- **[[Positions/Back Control]]** - Parent position - seat belt is optimal grip configuration within general back control framework
 
-- **[[Body Triangle]]** - Alternative hook configuration providing even tighter control with reduced mobility
+- **[[Positions/Back Control/Body Triangle]]** - Alternative hook configuration providing even tighter control with reduced mobility
 
-- **[[Crucifix]]** - Advanced position accessed when opponent makes arm positioning errors during defense
+- **[[Positions/Crucifix]]** - Advanced position accessed when opponent makes arm positioning errors during defense
 
-- **[[Turtle]]** - Common entry position and primary escape target from bottom perspective
+- **[[Positions/Turtle]]** - Common entry position and primary escape target from bottom perspective
 
-- **[[Mount]]** - Transition target when opponent turns into attacker during escape attempts
+- **[[Positions/Mount]]** - Transition target when opponent turns into attacker during escape attempts
 
-- **[[Gift Wrap]]** - Alternative upper body control configuration from back position
+- **[[Positions/Gift Wrap]]** - Alternative upper body control configuration from back position
 
-- **[[Technical Mount]]** - Position accessed when opponent partially escapes hooks but back control maintained
+- **[[Positions/Mount/Technical Mount]]** - Position accessed when opponent partially escapes hooks but back control maintained
 
-- **[[Truck]]** - Advanced leg entanglement position accessed when opponent turns away defensively
+- **[[Positions/Twister Control/Truck]]** - Advanced leg entanglement position accessed when opponent turns away defensively
 
-- **[[Harness]]** - Related upper body control concept sharing grip mechanics with seat belt configuration
+- **[[Positions/Harness]]** - Related upper body control concept sharing grip mechanics with seat belt configuration
 
 
 </section>

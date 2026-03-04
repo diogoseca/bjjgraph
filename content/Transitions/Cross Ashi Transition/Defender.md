@@ -158,7 +158,7 @@ The defensive challenge is compounded by the fact that the attacker maintains he
 
 Advanced defenders view the Cross Ashi Transition as one of the most exploitable moments in leg lock exchanges. The attacker's commitment to leg reconfiguration divides their attention between positional control and submission maintenance, creating opportunities for explosive escapes, counter-entanglements, or guard recovery that would not be available from a settled Ushiro or Cross Ashi position.
 
-**Opponent's Starting Position**: [[Ushiro Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Advanced defenders view the Cross Ashi Transition as one of the most exploitable
 ### 1. Explosive leg retraction during outside leg switch
 
 - **When to use**: The moment attacker's outside leg disengages from Ushiro configuration and before it crosses into Cross Ashi position
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Trapped leg clears the entanglement entirely, recovering to open guard with both legs free
 - **Risk**: If attacker maintains heel grip during retraction, pulling motion can expose heel to finishing position
 
 ### 2. Hip rotation away from attacker during transition to deny perpendicular alignment
 
 - **When to use**: When attacker begins hip adjustment phase and is rotating to face your trapped leg
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Attacker cannot achieve Cross Ashi angle and returns to Ushiro configuration where they started
 - **Risk**: Rotation may expose different heel angle that attacker can exploit from the intermediate position
 
 ### 3. Counter-entanglement on attacker's free leg during reconfiguration
 
 - **When to use**: When attacker's legs are between configurations and their own leg defense is compromised by the transition
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Creates mutual leg entanglement exchange that neutralizes attacker's positional advantage and may lead to 50-50
 - **Risk**: Engaging in counter-entanglement commits you to leg lock exchange rather than clean escape
 
 ### 4. Aggressive sit-up with frames on attacker's chest during leg switch
 
 - **When to use**: When attacker's inside hook depth decreases during the reconfiguration and backward tension weakens
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Creates upper body distance that prevents attacker from settling into Cross Ashi and may allow guard recovery
 - **Risk**: Sitting up without clearing legs first can result in deeper entanglement if attacker completes switch quickly
 
@@ -229,11 +229,11 @@ Advanced defenders view the Cross Ashi Transition as one of the most exploitable
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Time your leg extraction to the exact moment the attacker's outside leg disengages from Ushiro. Pull your trapped leg sharply toward your hip while pushing their body away with your free leg. Maintain dorsiflexion throughout to protect heel. The key is explosive movement during the 1-2 second window when their leg control is weakest.
 
-### → [[Ushiro Ashi-Garami]]
+### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Prevent the Cross Ashi configuration from completing by rotating your hips away from the attacker's intended perpendicular alignment. Use your hands to block their inside knee from settling into anchor position. Combined with active hip movement, this forces the attacker back to Ushiro where their previous attacks were already stalling.
 

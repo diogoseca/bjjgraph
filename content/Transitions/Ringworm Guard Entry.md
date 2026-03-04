@@ -21,7 +21,7 @@ The strategic value of ringworm lies in its ability to create compounding dilemm
 
 From a game theory perspective, ringworm represents an investment position. The complexity of establishing the full configuration means higher setup risk compared to basic worm or squid guard, but the payoff is a control position with dramatically higher submission and sweep percentages. Advanced practitioners use ringworm as an endgame configuration, transitioning into it from simpler lapel guards once they've read their opponent's defensive tendencies and identified optimal attack vectors.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ From a game theory perspective, ringworm represents an investment position. The 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Ringworm Guard]] | 58% |
-| Failure | [[Lapel Guard]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ringworm Guard]] | 58% |
+| Failure | [[Positions/Lapel Guard]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,27 +189,27 @@ Ringworm Guard Entry fits into the modern gi guard ecosystem as an advanced evol
 ## Related Techniques
 
 
-- [[Lapel Guard]] - Starting position and foundation for all lapel-based configurations
+- [[Positions/Lapel Guard]] - Starting position and foundation for all lapel-based configurations
 
-- [[Worm Guard]] - Primary component providing leg entanglement foundation
+- [[Positions/Worm Guard]] - Primary component providing leg entanglement foundation
 
-- [[Squid Guard]] - Secondary component providing arm control element
+- [[Positions/Squid Guard]] - Secondary component providing arm control element
 
-- [[Lapel Sweep to Back]] - High-percentage follow-up attack from established ringworm
+- [[Transitions/Lapel Sweep to Back]] - High-percentage follow-up attack from established ringworm
 
-- [[Lapel Omoplata Entry]] - Submission option when arm wrap is deep enough
+- [[Transitions/Lapel Omoplata Entry]] - Submission option when arm wrap is deep enough
 
-- [[Spider Guard]] - Alternative guard for transition when ringworm is cleared
+- [[Positions/Spider Guard]] - Alternative guard for transition when ringworm is cleared
 
-- [[Lasso Guard]] - Complementary guard sharing similar control principles
+- [[Positions/Lasso Guard]] - Complementary guard sharing similar control principles
 
-- [[De La Riva Guard]] - Common entry position before establishing lapel configurations
+- [[Positions/De La Riva Guard]] - Common entry position before establishing lapel configurations
 
-- [[Back Control]] - Primary destination from successful ringworm back takes
+- [[Positions/Back Control]] - Primary destination from successful ringworm back takes
 
-- [[Long Step Around Ringworm]] - Counter technique opponents use to escape the configuration
+- [[Transitions/Long Step Around Ringworm]] - Counter technique opponents use to escape the configuration
 
-- [[Ringworm Guard]] - Target position once entry is successfully completed
+- [[Positions/Ringworm Guard]] - Target position once entry is successfully completed
 
 
 </section>

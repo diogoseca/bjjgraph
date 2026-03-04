@@ -162,7 +162,7 @@ Defending the turtle to back control transition requires understanding that turt
 
 The critical defensive window occurs before the attacker secures their first hook. Once both hooks are in with seatbelt control, you are in full back control and facing a much more difficult escape scenario. Every defensive action from turtle bottom should be aimed at either preventing the back take entirely through grip fighting, rolling, or standing, or at worst transitioning to a less disadvantageous position like half guard or closed guard. Passivity in turtle bottom is the single greatest error, as it gives the attacker unlimited time to methodically establish each control point. Constant motion, aggressive grip fighting, and decisive escape attempts are your primary weapons.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -201,35 +201,35 @@ The critical defensive window occurs before the attacker secures their first hoo
 ### 1. Explosive sit-back to guard before seatbelt is locked
 
 - **When to use**: Immediately when you feel chest pressure establishing but before the attacker secures seatbelt grip and hip block. This must be executed in the first two to three seconds of contact.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You recover to closed guard or half guard, completely neutralizing the back take attempt and resetting to a defensible position
 - **Risk**: If attacker has already secured seatbelt and hip block, the sit-back fails and you may end up in a worse position with opponent already controlling your upper body from the front
 
 ### 2. Granby roll away from attacker's grip when weight is committed forward
 
 - **When to use**: When attacker's weight is high on your back and they have committed forward pressure but have not yet blocked your near hip with their knee. Their forward commitment makes it difficult to follow your rotation.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You escape to open guard or closed guard facing your opponent, completely reversing the positional dynamic and forcing them to re-engage from a neutral position
 - **Risk**: If attacker follows the roll with maintained seatbelt, you may end up in truck position or with opponent completing the back take through your rotation
 
 ### 3. Aggressive hand fighting to strip seatbelt grip combined with hip movement
 
 - **When to use**: When attacker has established seatbelt but has not yet inserted any hooks. Two-on-one grip on their choking hand while using hip movement to create space and prevent hook insertion.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Breaking the seatbelt forces attacker to re-establish upper body control, buying time for you to execute a secondary escape such as standing up or pulling guard
 - **Risk**: If you focus exclusively on hand fighting without hip movement, the attacker can maintain chest pressure and re-grip while you exhaust your arms
 
 ### 4. Technical standup with explosive hip drive to standing position
 
 - **When to use**: When attacker's weight is relatively light or they have not established hip control with their knee. Best executed as a surprise explosive movement when attacker is transitioning between control phases.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You achieve standing position where back take is much more difficult, and you can begin standing wrestling exchanges or disengage entirely
 - **Risk**: If attacker has seatbelt secured, they ride your standup and achieve standing back control, which can lead to mat return and completed back take
 
 ### 5. Turn into opponent with underhook to face them directly
 
 - **When to use**: When attacker has not secured hip control and you can generate enough rotation to turn your chest toward them. Works best when you can time it during their grip transitions or hook insertion attempts.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You face your opponent directly, recovering to half guard or closed guard and eliminating the back exposure threat entirely
 - **Risk**: If turn is incomplete, you may expose your neck to front headlock attacks including guillotine, anaconda, or darce choke
 
@@ -241,11 +241,11 @@ The critical defensive window occurs before the attacker secures their first hoo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Strip the attacker's seatbelt grip using two-on-one hand control on their choking arm, then immediately sit back to guard before they can re-establish upper body control. This converts their back take attempt into a neutral guard position where you have full defensive options.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Execute a well-timed granby roll or technical standup when attacker's weight is committed and they lack hip control. The goal is to create enough separation to either face the opponent directly or achieve standing position, forcing them to re-engage without back access. Any escape that removes their chest-to-back connection qualifies as achieving this outcome.
 

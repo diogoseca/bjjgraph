@@ -138,7 +138,7 @@ description: "Learn to maintain Modified Scarf Hold against frame-and-hip escape
 
 Defending against the frame-and-hip escape from Modified Scarf Hold requires the top player to recognize and neutralize incremental space creation before it accumulates into a viable escape pathway. Unlike defending bridge escapes which demand explosive counter-reactions, defending frame escapes requires patient pressure maintenance, active frame destruction, and the ability to follow hip movement without losing chest-to-chest contact. The top player must address each component of the escape system: collapse the frames before they become structural, follow each hip escape with corresponding pressure adjustment, and block knee insertion attempts that convert space into guard recovery. The defender who understands the frame escape mechanics can preemptively deny the escape by eliminating the setup conditions rather than reacting to completed movements. This requires maintaining dynamic pressure that prevents the bottom player from establishing the structural frames necessary to initiate the hip escape sequence.
 
-**Opponent's Starting Position**: [[Modified Scarf Hold]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control/Modified Scarf Hold]] (Bottom)
 
 </section>
 
@@ -176,28 +176,28 @@ Defending against the frame-and-hip escape from Modified Scarf Hold requires the
 ### 1. Swim past or collapse the free arm frame before it loads against your hip
 
 - **When to use**: The moment you feel the opponent's forearm positioning against your hip bone, before they load weight and establish structural alignment
-- **Targets**: [[Modified Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Modified Scarf Hold]]
 - **If successful**: The escape cannot initiate without structural frames. Removing the frame forces the opponent to restart the entire setup sequence, draining energy and time.
 - **Risk**: Reaching to address the frame may momentarily lighten your chest pressure, creating a window for a bridge escape
 
 ### 2. Follow each hip escape with a corresponding pressure slide to close created space
 
 - **When to use**: When you feel the opponent's hips moving laterally away from you despite frame contact, immediately slide your hips and chest to follow their movement
-- **Targets**: [[Modified Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Modified Scarf Hold]]
 - **If successful**: Each hip escape creates zero net space because you close the distance as fast as it is created, exhausting the opponent without allowing cumulative progress
 - **Risk**: Following too aggressively may expose your base if the opponent switches to a bridge escape while you are in motion
 
 ### 3. Transition to mount when hip escape creates lateral space
 
 - **When to use**: When the opponent's hip escape has created enough lateral separation that resettling scarf hold requires significant effort, step over to mount instead
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You convert the opponent's escape attempt into a positional advancement, gaining mount from their own movement creating the necessary space
 - **Risk**: The opponent may use their frame and inserted knee to block the mount transition if you hesitate
 
 ### 4. Circle toward north-south when opponent creates distance through hip escapes
 
 - **When to use**: When the opponent is shrimping away effectively and you cannot maintain chest-to-chest contact at the original angle, circle your body toward their head
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: You maintain dominant top control in north-south rather than losing position entirely, and the opponent must restart their escape from a different pin configuration
 - **Risk**: During the transition the opponent may insert their legs and recover to guard
 
@@ -209,11 +209,11 @@ Defending against the frame-and-hip escape from Modified Scarf Hold requires the
 
 ## Best-Case Outcomes for Defender
 
-### → [[Modified Scarf Hold]]
+### → [[Positions/Side Control/Modified Scarf Hold]]
 
 Neutralize the escape by collapsing the frame before it establishes structural alignment and following each hip escape with pressure adjustments that close created space. Maintain chest-to-chest contact and tighten near-arm control after each escape attempt. The opponent exhausts energy on unsuccessful frame-and-shrimp cycles while you maintain position with minimal effort.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the opponent's hip escape creates lateral separation, ride their movement and step your far knee over their body to establish mount. Use the space they created for the escape as the pathway for your knee to cross. Settle into low mount immediately and grapevine to prevent the bridge-and-roll response.
 

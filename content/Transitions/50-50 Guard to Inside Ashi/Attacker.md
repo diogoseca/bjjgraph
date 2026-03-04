@@ -178,7 +178,7 @@ The technique requires understanding the precise moment when your opponent's gri
 
 This transition is particularly valuable against opponents who play defensive 50-50, hiding their heel and refusing to engage. By converting to inside ashi, you gain superior heel access, better control over their hip movement, and a direct pathway to submissions like straight ankle locks and heel hooks. The position also opens transitions to more advanced entanglements like honey hole or saddle that are difficult to access from standard 50-50.
 
-**From Position**: [[50-50 Guard]] (Top)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ This transition is particularly valuable against opponents who play defensive 50
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 65% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[50-50 Guard]] | 10% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 65% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ This transition is particularly valuable against opponents who play defensive 50
 
 ## Opponent Counters
 
-- **Opponent hip escapes simultaneously to maintain mirror position and re-establish 50-50 entanglement** (Effectiveness: High) - Your Response: Accelerate your transition and drive your inside leg aggressively across their hip before they can mirror your movement. If they match your timing, consider switching to back take as they expose their back during the hip escape. → Leads to [[50-50 Guard]]
-- **Opponent attacks your exposed heel as your inside leg extracts from the entanglement** (Effectiveness: Medium) - Your Response: Maintain strong hip escape angle to keep your heel away from their grip range. If they secure your heel, immediately hide it by rotating your knee inward while continuing to drive toward inside ashi - their focus on your heel often means they lose control of their own position. → Leads to [[50-50 Guard]]
-- **Opponent drives forward aggressively to collapse distance and prevent inside leg from establishing frame** (Effectiveness: Medium) - Your Response: Use their forward drive against them by extending your inside leg forcefully and using the collision to create space. Their forward momentum often creates sweep opportunities if you redirect it with your outside leg hook. → Leads to [[50-50 Guard]]
-- **Opponent extracts their leg during the transition while you focus on repositioning** (Effectiveness: Low) - Your Response: If they begin extracting, immediately abandon the transition and pursue their retreating leg - this often creates better opportunities for back takes or single leg X sweeps than the original inside ashi you were seeking. → Leads to [[50-50 Guard]]
+- **Opponent hip escapes simultaneously to maintain mirror position and re-establish 50-50 entanglement** (Effectiveness: High) - Your Response: Accelerate your transition and drive your inside leg aggressively across their hip before they can mirror your movement. If they match your timing, consider switching to back take as they expose their back during the hip escape. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent attacks your exposed heel as your inside leg extracts from the entanglement** (Effectiveness: Medium) - Your Response: Maintain strong hip escape angle to keep your heel away from their grip range. If they secure your heel, immediately hide it by rotating your knee inward while continuing to drive toward inside ashi - their focus on your heel often means they lose control of their own position. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent drives forward aggressively to collapse distance and prevent inside leg from establishing frame** (Effectiveness: Medium) - Your Response: Use their forward drive against them by extending your inside leg forcefully and using the collision to create space. Their forward momentum often creates sweep opportunities if you redirect it with your outside leg hook. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent extracts their leg during the transition while you focus on repositioning** (Effectiveness: Low) - Your Response: If they begin extracting, immediately abandon the transition and pursue their retreating leg - this often creates better opportunities for back takes or single leg X sweeps than the original inside ashi you were seeking. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 
 
 </section>

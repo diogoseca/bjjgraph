@@ -158,7 +158,7 @@ The critical defensive window occurs between the moment the attacker locks their
 
 Once the choke is fully locked with the attacker sprawled on the finishing side, escape becomes significantly more difficult but not impossible. The key late-stage defense involves turning into the attacker and walking your hips away to reduce the compression angle, combined with working your trapped hand toward your own face to create space between your bicep and neck. Understanding that the arm triangle is a blood choke with rapid onset means you must act immediately when you recognize the threat—hesitation of even a few seconds once the squeeze is applied can result in unconsciousness.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Once the choke is fully locked with the attacker sprawled on the finishing side,
 ### 1. Retract the near arm before the grip locks by pulling your elbow back to your hip and framing against the attacker's shoulder instead of their head. Use your far hand to push their head away while shrimping your hips to create distance.
 
 - **When to use**: As soon as you feel the attacker swimming their head under your arm or pushing your elbow across your face—this is the highest-percentage window before the configuration is established
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You return to standard side control bottom with defensive frames intact, denying the arm triangle setup entirely and forcing the attacker to restart their attack sequence
 - **Risk**: If your retraction is too slow and the attacker locks the grip during your movement, you expend energy without preventing the choke and may be in worse position with your defensive frames compromised
 
 ### 2. Insert your inside knee across the attacker's hip during the walk-around transition, recovering half guard before they complete the finishing angle. Drive your knee between your bodies as they step over, using the brief lift in their hips to wedge your leg in.
 
 - **When to use**: During the walk-around when the attacker lifts their hips to step over your torso—this creates a momentary gap that allows knee insertion if you time the movement with their foot transition
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard which prevents the attacker from achieving the full sprawl angle needed for maximum compression. The arm triangle can still be finished from half guard but at significantly reduced effectiveness, buying time for further escape work
 - **Risk**: If the knee insertion fails, you have moved your hips closer to the attacker which may actually assist their walk-around completion and tighten the choke configuration
 
 ### 3. Turn your body toward the attacker and walk your hips away from the choking side while working your trapped hand toward your own face to wedge space between your bicep and neck. Bridge toward the attacker to create momentary space, then shrimp your hips in the opposite direction.
 
 - **When to use**: When the grip is already locked and the walk-around is complete—this is the last-resort late-stage escape when prevention and half guard recovery have failed
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You reduce compression on the carotid arteries by changing the angle and creating space between your bicep and neck. If you extract the arm fully, you return to side control bottom with the choke completely neutralized
 - **Risk**: This escape requires significant energy and the blood choke may render you unconscious before you complete the movement if the compression is already deep. Working against a fully locked arm triangle from the finishing position has a low success rate
 
 ### 4. Frame against the attacker's choking-side hip with your free hand and bridge explosively away from the choking side, then immediately shrimp to create distance. Use the bridge to disrupt the attacker's angle before they can fully settle their hips.
 
 - **When to use**: Immediately after the attacker completes the walk-around but before they settle their hips into the finishing sprawl—there is a brief transition window where their base is not yet established
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You disrupt the finishing angle and create enough space to begin working your trapped arm free or to re-establish defensive frames from side control bottom
 - **Risk**: An explosive bridge uses significant energy and if the attacker absorbs it by dropping their hips, you have wasted your energy reserve while the choke remains locked
 
@@ -229,11 +229,11 @@ Once the choke is fully locked with the attacker sprawled on the finishing side,
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Prevent the arm triangle entirely by keeping your near arm retracted with elbow at your hip, or extract the trapped arm before or during the walk-around by pulling your elbow back to your centerline while shrimping your hips away from the attacker. Early prevention through proper arm discipline in side control bottom is the most reliable path to this outcome.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Insert your knee across the attacker's hip during the walk-around transition when they lift their hips to step over your torso. Time the knee insertion with their foot movement to wedge your leg into the gap. Half guard recovery does not fully escape the arm triangle but significantly reduces its effectiveness by preventing the attacker from achieving the full sprawl angle needed for maximum carotid compression.
 

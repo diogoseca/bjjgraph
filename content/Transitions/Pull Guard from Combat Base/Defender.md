@@ -146,7 +146,7 @@ description: "Defend against guard pull attempts from combat base in BJJ. Postur
 
 As the defender in combat base against a guard pull attempt, your primary objective is maintaining the structural integrity of your combat base while preventing the bottom player from closing their guard. Combat base is designed as a passing platform, and allowing your opponent to establish closed guard negates your positional advantage and forces you into a fundamentally defensive posture. Your defense relies on posture maintenance, proactive grip fighting, proper weight distribution through your triangulated base, and recognizing guard pull attempts early enough to create distance or initiate passing before the guard closes. Understanding the timing and mechanics of the guard pull allows you to deny the closure at each stage and maintain your advantageous passing position.
 
-**Opponent's Starting Position**: [[Combat Base]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Combat Base]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender in combat base against a guard pull attempt, your primary object
 ### 1. Post hand on opponent's hip and drive your hips backward to create distance before legs can wrap
 
 - **When to use**: When you feel opponent's legs beginning to climb from your hips toward your waist — this is the early warning window before guard closure
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Opponent remains in open guard underneath your combat base with full passing options available to you
 - **Risk**: If timed too late, opponent may already have legs partially wrapped and can complete closure despite your retreat
 
 ### 2. Stand up immediately from combat base to maximum height, breaking all leg wrapping attempts through distance
 
 - **When to use**: When opponent establishes strong pulling grips on your collar and begins compromising your posture significantly
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Creates maximum distance that makes guard closure physically impossible and opens standing pass options
 - **Risk**: Standing exposes you to de la riva hooks, ankle picks, and other open guard attacks that exploit your elevated position
 
 ### 3. Initiate immediate knee slice pass through opponent's guard attempt while their focus is on closing legs
 
 - **When to use**: When opponent commits to the guard pull with their attention directed toward leg wrapping rather than pass defense
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Bypasses the guard entirely, achieving at least half guard passing position and potentially completing to side control
 - **Risk**: If opponent is baiting the pull to create a reaction, they may use your forward pressure for a sweep or back take
 
 ### 4. Strip grips aggressively with two-on-one breaks and immediately re-establish hand control on opponent's hips
 
 - **When to use**: As soon as opponent establishes collar or head control grips that threaten your posture before they can combine with leg pressure
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Removes opponent's posture-breaking capability and maintains your combat base structure for continued passing
 - **Risk**: Momentary loss of your own controlling grips during the strip may allow opponent to establish an alternative attack angle
 
@@ -217,11 +217,11 @@ As the defender in combat base against a guard pull attempt, your primary object
 
 ## Best-Case Outcomes for Defender
 
-### → [[Combat Base]]
+### → [[Positions/Combat Base]]
 
 Maintain strong upright posture, aggressively fight and strip grips within seconds of establishment, and use hip positioning to prevent guard closure. Stay patient with base structure while applying continuous passing pressure that keeps the opponent defensive rather than focused on closing guard.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When opponent commits to the guard pull, exploit their upward focus to initiate an immediate knee slice or pressure pass, advancing past their guard into half guard or side control. Time your pass entry during their grip establishment when their legs are transitioning from framing to wrapping.
 

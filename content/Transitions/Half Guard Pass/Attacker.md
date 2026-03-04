@@ -178,7 +178,7 @@ The effectiveness of the half guard pass lies in understanding the bottom player
 
 Successful half guard passing requires a combination of technical precision, pressure application, and strategic decision-making. The passer must recognize which variation of half guard they're facing (traditional half guard, lockdown, knee shield, deep half, etc.) and adapt their passing strategy accordingly. This technique forms the foundation for more advanced passing systems and represents a critical skill progression from beginner to advanced levels, with success rates improving dramatically as practitioners develop better pressure, timing, and recognition of defensive reactions.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Successful half guard passing requires a combination of technical precision, pre
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 75% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 75% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -243,11 +243,11 @@ Successful half guard passing requires a combination of technical precision, pre
 
 ## Opponent Counters
 
-- **Bottom player establishes lockdown (legs crossed) and prevents leg extraction** (Effectiveness: High) - Your Response: Address lockdown by whipping your trapped leg violently to break the hold, or systematically attack the lockdown by controlling their top leg's foot and prying it away from your trapped leg while maintaining upper body pressure. Do not try to forcefully rip your leg out - this often fails and wastes energy. → Leads to [[Half Guard]]
-- **Bottom player achieves underhook and uses it to come up on their side for sweep or back take** (Effectiveness: High) - Your Response: Immediately whizzer their underhook arm and drive your weight onto their shoulder, forcing them flat to the mat. Alternatively, if they've already started to come up, you may need to transition to a front headlock position or back step to defend the sweep. Prevention is key - never allow them to establish and maintain the underhook without addressing it. → Leads to [[Half Guard]]
-- **Bottom player creates strong knee shield and uses it to create distance for guard recovery** (Effectiveness: Medium) - Your Response: Either step over the knee shield to knee slice position, or pressure through by controlling the knee with your hand while driving your hips forward and low. Another option is to transition to a different passing angle such as headquarters position or long step pass. Do not remain static against an established knee shield. → Leads to [[Half Guard]]
-- **Bottom player pumps their trapped leg (the leg controlling yours) to off-balance you and create sweeping opportunities** (Effectiveness: Medium) - Your Response: Counter leg pumping by keeping your hips extremely low and heavy, maintaining chest pressure, and timing your leg extraction for moments when their leg is extended. Use your posting hand to maintain base and prevent being rolled. Some passers prefer to control opponent's bottom knee with their hand to limit the pumping motion. → Leads to [[Half Guard]]
-- **Bottom player transitions to deep half guard by getting underneath your hips** (Effectiveness: High) - Your Response: Prevent deep half entry by keeping your hips low and forward, never allowing space underneath your torso. If they begin to enter, immediately limp leg (remove your trapped leg) and hop over to the other side, or sprawl back and establish a front headlock or whizzer position. Deep half is very dangerous if fully established, so prevention is critical. → Leads to [[Half Guard]]
+- **Bottom player establishes lockdown (legs crossed) and prevents leg extraction** (Effectiveness: High) - Your Response: Address lockdown by whipping your trapped leg violently to break the hold, or systematically attack the lockdown by controlling their top leg's foot and prying it away from your trapped leg while maintaining upper body pressure. Do not try to forcefully rip your leg out - this often fails and wastes energy. → Leads to [[Positions/Half Guard]]
+- **Bottom player achieves underhook and uses it to come up on their side for sweep or back take** (Effectiveness: High) - Your Response: Immediately whizzer their underhook arm and drive your weight onto their shoulder, forcing them flat to the mat. Alternatively, if they've already started to come up, you may need to transition to a front headlock position or back step to defend the sweep. Prevention is key - never allow them to establish and maintain the underhook without addressing it. → Leads to [[Positions/Half Guard]]
+- **Bottom player creates strong knee shield and uses it to create distance for guard recovery** (Effectiveness: Medium) - Your Response: Either step over the knee shield to knee slice position, or pressure through by controlling the knee with your hand while driving your hips forward and low. Another option is to transition to a different passing angle such as headquarters position or long step pass. Do not remain static against an established knee shield. → Leads to [[Positions/Half Guard]]
+- **Bottom player pumps their trapped leg (the leg controlling yours) to off-balance you and create sweeping opportunities** (Effectiveness: Medium) - Your Response: Counter leg pumping by keeping your hips extremely low and heavy, maintaining chest pressure, and timing your leg extraction for moments when their leg is extended. Use your posting hand to maintain base and prevent being rolled. Some passers prefer to control opponent's bottom knee with their hand to limit the pumping motion. → Leads to [[Positions/Half Guard]]
+- **Bottom player transitions to deep half guard by getting underneath your hips** (Effectiveness: High) - Your Response: Prevent deep half entry by keeping your hips low and forward, never allowing space underneath your torso. If they begin to enter, immediately limp leg (remove your trapped leg) and hop over to the other side, or sprawl back and establish a front headlock or whizzer position. Deep half is very dangerous if fully established, so prevention is critical. → Leads to [[Positions/Half Guard]]
 
 
 </section>

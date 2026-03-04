@@ -21,7 +21,7 @@ The technique exploits a critical vulnerability in the mount-to-half-guard recov
 
 This chain technique is particularly effective against opponents who aggressively pursue leg extraction rather than settling into half guard top. The more forcefully they try to free their leg, the more momentum becomes available for the back take. Advanced practitioners bait the leg extraction by loosening half guard control just enough to invite the attempt while preparing the underhook and hip positioning needed for the back take.
 
-**From Position**: [[Mount]] (Bottom)
+**From Position**: [[Positions/Mount]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ This chain technique is particularly effective against opponents who aggressivel
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 50% |
-| Failure | [[Half Guard]] | 30% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Back Control]] | 50% |
+| Failure | [[Positions/Half Guard]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -179,21 +179,21 @@ This chain technique is particularly effective against opponents who aggressivel
 ## Related Techniques
 
 
-- [[Mount]] - Starting position from which escape initiates
+- [[Positions/Mount]] - Starting position from which escape initiates
 
-- [[Half Guard]] - Intermediate position during the chain sequence
+- [[Positions/Half Guard]] - Intermediate position during the chain sequence
 
-- [[Back Control]] - Target destination when chain completes successfully
+- [[Positions/Back Control]] - Target destination when chain completes successfully
 
-- [[Bridge and Roll]] - Initial escape mechanic that creates half guard entry
+- [[Transitions/Bridge and Roll]] - Initial escape mechanic that creates half guard entry
 
-- [[Elbow Escape from Mount]] - Alternative initial escape that can lead to half guard recovery
+- [[Transitions/Elbow Escape from Mount]] - Alternative initial escape that can lead to half guard recovery
 
-- [[Back Take from Bottom]] - Related back take technique from guard positions
+- [[Transitions/Back Take from Bottom]] - Related back take technique from guard positions
 
-- [[Dogfight Position]] - Intermediate position during the come-up phase
+- [[Positions/Dogfight Position]] - Intermediate position during the come-up phase
 
-- [[Knee Shield Half Guard]] - Alternative half guard retention if back take is unavailable
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative half guard retention if back take is unavailable
 
 
 </section>

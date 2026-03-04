@@ -184,7 +184,7 @@ The technique's effectiveness stems from its mechanical simplicity combined with
 
 Strategically, the rear naked choke serves as the primary threat from back control, forcing opponents to defend their neck continuously. This defensive commitment creates opportunities for alternative attacks including armbar variations, bow and arrow choke, and crucifix transitions. The submission's reliability across all experience levels makes it a foundational technique that every practitioner must master both offensively and defensively.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -237,8 +237,8 @@ Strategically, the rear naked choke serves as the primary threat from back contr
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Turtle]] | 12% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Turtle]] | 12% |
 
 
 </section>
@@ -247,10 +247,10 @@ Strategically, the rear naked choke serves as the primary threat from back contr
 
 ## Opponent Counters
 
-- **Two-on-one grip defense where opponent controls choking wrist with both hands preventing arm from reaching neck** (Effectiveness: High) - Your Response: Use your free hand to peel their fingers one at a time starting from the pinky, switch to arm attacks when they commit both hands to neck defense, or transition to bow and arrow choke in the gi → Leads to [[Back Control]]
-- **Chin tuck defense where opponent drives chin down trapping your forearm against their chest** (Effectiveness: Medium) - Your Response: Walk your fingers up past their chin using short controlled movements, use your other hand to create a wedge under their chin, or apply steady pressure to their jaw until the muscle fatigues and the arm slides through → Leads to [[Back Control]]
-- **Turn and face escape where opponent rotates their shoulders toward you while fighting hands to escape back control** (Effectiveness: Medium) - Your Response: Maintain chest-to-back connection and follow their rotation using hooks to prevent full turn, or transition to mounted position if they face you completely to maintain dominant control → Leads to [[Turtle]]
-- **Hook strip to back escape where opponent removes your hooks while defending neck and works to turtle** (Effectiveness: Low) - Your Response: Prioritize hook retention over immediate choke attempts, switch to body triangle if hooks are threatened, or follow opponent to turtle top and re-establish back control → Leads to [[Turtle]]
+- **Two-on-one grip defense where opponent controls choking wrist with both hands preventing arm from reaching neck** (Effectiveness: High) - Your Response: Use your free hand to peel their fingers one at a time starting from the pinky, switch to arm attacks when they commit both hands to neck defense, or transition to bow and arrow choke in the gi → Leads to [[Positions/Back Control]]
+- **Chin tuck defense where opponent drives chin down trapping your forearm against their chest** (Effectiveness: Medium) - Your Response: Walk your fingers up past their chin using short controlled movements, use your other hand to create a wedge under their chin, or apply steady pressure to their jaw until the muscle fatigues and the arm slides through → Leads to [[Positions/Back Control]]
+- **Turn and face escape where opponent rotates their shoulders toward you while fighting hands to escape back control** (Effectiveness: Medium) - Your Response: Maintain chest-to-back connection and follow their rotation using hooks to prevent full turn, or transition to mounted position if they face you completely to maintain dominant control → Leads to [[Positions/Turtle]]
+- **Hook strip to back escape where opponent removes your hooks while defending neck and works to turtle** (Effectiveness: Low) - Your Response: Prioritize hook retention over immediate choke attempts, switch to body triangle if hooks are threatened, or follow opponent to turtle top and re-establish back control → Leads to [[Positions/Turtle]]
 
 
 </section>

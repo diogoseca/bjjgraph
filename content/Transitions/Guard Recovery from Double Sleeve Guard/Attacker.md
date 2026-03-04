@@ -180,7 +180,7 @@ description: "Learn to recover closed guard from double sleeve guard as the bott
 
 As the bottom player in double sleeve guard, your primary threat comes from the opponent breaking your bilateral sleeve grips and collapsing the distance that your open guard relies on. When one or both grips fail, your extended legs lose their primary control mechanism and the opponent can advance past your feet-on-hips or bicep frames. Guard recovery requires a rapid transition from the distance-based sleeve control game to a close-range closed guard position. You must retract your legs from their extended pushing position, use your remaining grip and hip movement to prevent the passer from establishing combat base, and close your guard around their torso before they can consolidate a passing position. The critical window for this recovery is narrow—once the opponent strips both grips and drives forward, you have approximately two to three seconds before they advance past your leg barriers entirely.
 
-**From Position**: [[Double Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player in double sleeve guard, your primary threat comes from the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Failure | [[Double Sleeve Guard]] | 35% |
-| Counter | [[Combat Base]] | 20% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Failure | [[Positions/Double Sleeve Guard]] | 35% |
+| Counter | [[Positions/Combat Base]] | 20% |
 
 
 </section>
@@ -243,9 +243,9 @@ As the bottom player in double sleeve guard, your primary threat comes from the 
 
 ## Opponent Counters
 
-- **Opponent strips both sleeve grips simultaneously and immediately stands up to disengage from leg contact entirely** (Effectiveness: High) - Your Response: If the opponent stands before you can retract legs, immediately transition to feet-on-hips open guard rather than attempting closed guard from a flat position against a standing opponent. Establish collar and sleeve grips from the new open guard position. → Leads to [[Double Sleeve Guard]]
-- **Opponent drives heavy forward pressure after grip break, pinning your hips flat and preventing the hip escape needed for guard closure** (Effectiveness: High) - Your Response: Frame on the opponent's shoulders with both hands to create immediate distance, then use the frame as a platform for a powerful hip escape. If they establish combat base, transition to combat base guard recovery mechanics rather than fighting for closed guard. → Leads to [[Combat Base]]
-- **Opponent grabs your ankles or pants and redirects your legs to one side, initiating a toreando or leg drag pass** (Effectiveness: Medium) - Your Response: Pummel your legs back to centerline using circular hip movement and fight to get at least one knee between you and the passer. If legs are fully displaced to one side, turn into the pass direction and work to recover half guard rather than attempting closed guard. → Leads to [[Double Sleeve Guard]]
+- **Opponent strips both sleeve grips simultaneously and immediately stands up to disengage from leg contact entirely** (Effectiveness: High) - Your Response: If the opponent stands before you can retract legs, immediately transition to feet-on-hips open guard rather than attempting closed guard from a flat position against a standing opponent. Establish collar and sleeve grips from the new open guard position. → Leads to [[Positions/Double Sleeve Guard]]
+- **Opponent drives heavy forward pressure after grip break, pinning your hips flat and preventing the hip escape needed for guard closure** (Effectiveness: High) - Your Response: Frame on the opponent's shoulders with both hands to create immediate distance, then use the frame as a platform for a powerful hip escape. If they establish combat base, transition to combat base guard recovery mechanics rather than fighting for closed guard. → Leads to [[Positions/Combat Base]]
+- **Opponent grabs your ankles or pants and redirects your legs to one side, initiating a toreando or leg drag pass** (Effectiveness: Medium) - Your Response: Pummel your legs back to centerline using circular hip movement and fight to get at least one knee between you and the passer. If legs are fully displaced to one side, turn into the pass direction and work to recover half guard rather than attempting closed guard. → Leads to [[Positions/Double Sleeve Guard]]
 
 
 </section>

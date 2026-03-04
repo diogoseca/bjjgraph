@@ -21,7 +21,7 @@ Executing this transition requires precise timing around your opponent's defensi
 
 This transition occupies a critical role in modern leg lock systems as the bridge between the often-stalemated standard 50-50 and the decisively dominant Backside 50-50 configuration. Practitioners like Gordon Ryan and the Danaher Death Squad popularized this pathway as part of systematic leg entanglement hierarchies. Once in Backside 50-50, the dual threat of heel hooks and back control creates an almost unsolvable defensive dilemma, making the initial transition investment highly rewarding when executed properly.
 
-**From Position**: [[50-50 Guard]] (Top)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ This transition occupies a critical role in modern leg lock systems as the bridg
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Backside 50-50]] | 60% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[50-50 Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Backside 50-50]] | 60% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -189,27 +189,27 @@ The Transition to Backside 50-50 sits at a critical junction in the modern leg l
 ## Related Techniques
 
 
-- [[50-50 Guard]] - Starting position for this transition
+- [[Positions/Ashi Garami/50-50 Guard]] - Starting position for this transition
 
-- [[Backside 50-50]] - Target position achieved on successful execution
+- [[Positions/Ashi Garami/Backside 50-50]] - Target position achieved on successful execution
 
-- [[50-50 Guard to Inside Ashi]] - Alternative entanglement upgrade from the same starting position
+- [[Transitions/50-50 Guard to Inside Ashi]] - Alternative entanglement upgrade from the same starting position
 
-- [[50-50 Guard to Outside Ashi]] - Alternative entanglement upgrade targeting outside leg control
+- [[Transitions/50-50 Guard to Outside Ashi]] - Alternative entanglement upgrade targeting outside leg control
 
-- [[Back Take from 50-50]] - Complementary transition that abandons legs for back control from similar position
+- [[Transitions/Back Take from 50-50]] - Complementary transition that abandons legs for back control from similar position
 
-- [[Heel Hook]] - Primary submission available after successful transition to Backside 50-50
+- [[Transitions/Heel Hook]] - Primary submission available after successful transition to Backside 50-50
 
-- [[Outside Heel Hook]] - Secondary submission threat from Backside 50-50 top
+- [[Transitions/Outside Heel Hook]] - Secondary submission threat from Backside 50-50 top
 
-- [[Inside Ashi-Garami]] - Related leg entanglement position in the same system hierarchy
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement position in the same system hierarchy
 
-- [[Saddle]] - Further advancement option from Backside 50-50 top
+- [[Positions/Ashi Garami/Saddle]] - Further advancement option from Backside 50-50 top
 
-- [[50-50 Pass]] - Alternative option when entanglement upgrades are unavailable
+- [[Transitions/50-50 Pass]] - Alternative option when entanglement upgrades are unavailable
 
-- [[Counter-entangle to 50-50 Guard]] - Opponent's defensive re-entry if transition fails
+- [[Transitions/Counter-entangle to 50-50 Guard]] - Opponent's defensive re-entry if transition fails
 
 
 </section>

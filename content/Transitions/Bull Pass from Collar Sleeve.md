@@ -21,7 +21,7 @@ From collar sleeve guard specifically, the pass requires first neutralizing the 
 
 Strategically, the bull pass serves as a complement to pressure-based passing from collar sleeve guard top. When the bottom player expects and prepares for heavy forward pressure, knee slice entries, or stack passes, the sudden lateral explosion catches them oriented in the wrong defensive direction. The technique rewards decisive commitment and explosive athleticism, making it particularly effective as a secondary option that capitalizes on defensive overcommitment to pressure pass defense. However, hesitation during execution allows the bottom player to re-establish grips and recover guard structure, making this a high-risk, high-reward passing option that demands full commitment once initiated.
 
-**From Position**: [[Collar Sleeve Guard]] (Top)
+**From Position**: [[Positions/Collar Sleeve Guard]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, the bull pass serves as a complement to pressure-based passing fr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Success | [[Side Control]] | 15% |
-| Failure | [[Collar Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Success | [[Positions/Side Control]] | 15% |
+| Failure | [[Positions/Collar Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -194,25 +194,25 @@ The bull pass from collar sleeve guard occupies a specialized niche within the g
 ## Related Techniques
 
 
-- [[Collar Sleeve Guard]] - Starting position where the bull pass is initiated from top
+- [[Positions/Collar Sleeve Guard]] - Starting position where the bull pass is initiated from top
 
-- [[Half Guard]] - Primary success outcome when opponent catches a leg during the lateral pass
+- [[Positions/Half Guard]] - Primary success outcome when opponent catches a leg during the lateral pass
 
-- [[Side Control]] - Secondary success outcome when the pass completes cleanly past both legs
+- [[Positions/Side Control]] - Secondary success outcome when the pass completes cleanly past both legs
 
-- [[Toreando Pass]] - Parent technique family sharing lateral leg redirection mechanics
+- [[Transitions/Toreando Pass]] - Parent technique family sharing lateral leg redirection mechanics
 
-- [[Headquarters Position]] - Alternative passing position when bull pass creates partial opening between legs
+- [[Positions/Headquarters Position]] - Alternative passing position when bull pass creates partial opening between legs
 
-- [[Open Guard]] - Counter outcome position when opponent adjusts guard during pass attempt
+- [[Positions/Open Guard]] - Counter outcome position when opponent adjusts guard during pass attempt
 
-- [[Knee Cut Pass]] - Complementary pass that chains effectively when opponent defends the lateral movement
+- [[Transitions/Knee Cut Pass]] - Complementary pass that chains effectively when opponent defends the lateral movement
 
-- [[X Pass]] - Related speed pass sharing explosive lateral stepping patterns
+- [[Transitions/X Pass]] - Related speed pass sharing explosive lateral stepping patterns
 
-- [[Leg Drag Pass]] - Follow-up technique when bull pass creates a leg drag angle on one side
+- [[Transitions/Leg Drag Pass]] - Follow-up technique when bull pass creates a leg drag angle on one side
 
-- [[Combat Base]] - Starting stance from which the bull pass sequence is commonly initiated
+- [[Positions/Combat Base]] - Starting stance from which the bull pass sequence is commonly initiated
 
 
 </section>

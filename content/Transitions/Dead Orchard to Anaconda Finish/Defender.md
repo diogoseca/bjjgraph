@@ -154,7 +154,7 @@ description: "Defend the Dead Orchard to Anaconda Finish in BJJ. Recognition cue
 
 Defending the Dead Orchard to Anaconda Finish requires calm, systematic responses under extreme positional duress. The defender is already trapped in dead orchard control with restricted breathing, limited mobility, and an opponent who has built significant positional advantage through extended pressure application. The critical defensive window narrows rapidly once the attacker begins the finishing sequence, making early recognition of finishing indicators essential for survival. Successful defense demands targeted grip fighting at the choking arm's elbow where defensive leverage is greatest, precise timing of escape movements during the attacker's hip walking adjustments, and mental composure that prevents the panic responses which accelerate fatigue and submission. Understanding that even deeply locked anaconda finishes have exploitable gaps during the attacker's adjustment phases provides the framework needed to maintain composure and execute technical escapes under severe pressure.
 
-**Opponent's Starting Position**: [[Dead Orchard Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Dead Orchard Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Dead Orchard to Anaconda Finish requires calm, systematic response
 ### 1. Frame at the choking arm's elbow to prevent the grip from tightening into full bilateral compression
 
 - **When to use**: As soon as you recognize the attacker transitioning from control to finishing attempt, before the squeeze is fully locked and compression becomes overwhelming
-- **Targets**: [[Dead Orchard Control]]
+- **Targets**: [[Positions/Dead Orchard Control]]
 - **If successful**: Prevents the choke from reaching full compression, forcing the attacker back to control maintenance rather than finishing
 - **Risk**: If the grip is already too deep, framing at the elbow may be insufficient and wastes energy that could be used for escape movement
 
 ### 2. Hip escape toward trapped arm side during the attacker's hip walking phase when their pressure momentarily shifts
 
 - **When to use**: When the attacker is mid-step during hip walking and their weight distribution temporarily changes, creating a brief window for lateral movement
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough distance and angle change to extract from the choke configuration and recover to half guard position
 - **Risk**: If mistimed, the hip escape can move your neck deeper into the grip, actually tightening the choke compression
 
 ### 3. Clasp hands together to create a structural barrier preventing full grip tightening around the neck
 
 - **When to use**: When you feel the squeeze beginning but still have enough hand mobility to bring your hands together in a prayer or gable grip configuration
-- **Targets**: [[Dead Orchard Control]]
+- **Targets**: [[Positions/Dead Orchard Control]]
 - **If successful**: Creates an internal frame that mechanically prevents full carotid compression, buying time to work other defensive options
 - **Risk**: Only a temporary defense as the attacker can strip the clasp with angular pressure changes or continued hip walking
 
 ### 4. Forward roll through the choke when attacker overcommits hips past the optimal finishing angle
 
 - **When to use**: When you feel the attacker's hips have walked too far creating a cranking angle rather than compression, and their weight is committed forward preventing them from following a roll
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Inverts the position and can extract the trapped arm during the roll, recovering to half guard or open guard
 - **Risk**: High risk if the choke is well-positioned because rolling into a locked blood choke accelerates unconsciousness rather than creating escape
 
@@ -225,11 +225,11 @@ Defending the Dead Orchard to Anaconda Finish requires calm, systematic response
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a hip escape during the attacker's hip walking phase when pressure momentarily shifts, creating enough angle and distance to extract from the anaconda grip and recover to half guard where standard guard retention and escape sequences become available
 
-### → [[Dead Orchard Control]]
+### → [[Positions/Dead Orchard Control]]
 
 Survive the finishing attempt by maintaining elbow frames that prevent full bilateral compression and clasping hands to create structural barriers. Force the attacker back to the control phase where you can continue working escape sequences and wait for subsequent defensive opportunities
 

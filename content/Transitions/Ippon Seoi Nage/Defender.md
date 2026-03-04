@@ -156,7 +156,7 @@ Defending against Ippon Seoi Nage requires recognizing the technique early in it
 
 The defender's primary tools are posture management to resist off-balancing, hip blocking to prevent the attacker's hips from penetrating below yours, and circling movement to deny the angle needed for the rotational entry. Understanding the attacker's mechanical requirements allows you to systematically remove the conditions they need: if their hips cannot get below yours, the throw cannot work. If you deny the forward off-balance, they have no entry window. If you circle away from their throwing side, they cannot complete the rotation. The defender who understands these principles can shut down the Seoi Nage threat while creating counter-attack opportunities from the attacker's committed and often over-extended position.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The defender's primary tools are posture management to resist off-balancing, hip
 ### 1. Post your free hand on the attacker's near hip to block hip insertion and drive your own hips backward
 
 - **When to use**: The moment you recognize the entry step beginning, before the attacker completes their hip turn below your center of gravity
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Attacker's throw is stuffed and they are left in a compromised position with their back partially turned, giving you grip advantage and potential back take opportunity
 - **Risk**: If you post too late after the attacker achieves deep hip penetration, your hand on their hip will not have enough leverage to prevent the loading phase
 
 ### 2. Sprawl your hips backward and pull your controlled arm back to deny the loading across the attacker's shoulder
 
 - **When to use**: When the attacker has committed to the entry step and begun rotating, pulling your arm forward across their chest
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: The attacker cannot load your weight because your hips are too far away and your arm is not positioned across their shoulder, forcing them to abandon the throw or switch to an alternative attack
 - **Risk**: Over-committing to the backward sprawl can leave you leaning too far back with compromised balance, vulnerable to the attacker switching to a foot sweep or guard pull
 
 ### 3. Circle behind the attacker during their turning entry to take their back in the standing position
 
 - **When to use**: When you recognize the entry early enough and the attacker commits fully to the rotation, creating the opportunity to circle behind them as their back turns
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You end up behind the attacker with harness or seatbelt control, converting their offensive attempt into a dominant position for you with back take potential
 - **Risk**: If the attacker recognizes your circling and adjusts their throw angle or switches to Uchi Mata, you may be caught mid-movement in an off-balanced position
 
 ### 4. Drop your weight and pull guard using the attacker's established grips against them
 
 - **When to use**: When the attacker has committed to the entry but you cannot stuff the throw through hip blocking or sprawling, as a last-resort defense
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You avoid being thrown for points by pulling the attacker into your guard with favorable grips already established, converting their standing attack into a guard exchange
 - **Risk**: If timed poorly, the attacker may land in a dominant top position anyway, or the referee may still award takedown points if the guard pull is perceived as a completed throw
 
@@ -227,11 +227,11 @@ The defender's primary tools are posture management to resist off-balancing, hip
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Recognize the entry early and post your hand on the attacker's near hip while driving your hips backward. This stuffs the throw and leaves the attacker in a compromised position with their back partially turned toward you. Maintain your sleeve grip and use their failed entry to establish dominant grips or transition to your own takedown attack while they recover.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 When the attacker over-commits to the turning entry, circle aggressively behind them during the rotation. Secure a seatbelt grip or harness around their torso from behind. Their own turning momentum carries them past the throwing position, and you end up behind them with standing back control. From here you can work to take them down or transition to seated back control.
 

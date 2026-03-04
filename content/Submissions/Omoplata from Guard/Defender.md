@@ -164,7 +164,7 @@ description: "How to defend against Omoplata from Guard in BJJ. Recognition, esc
 
 Defending the Omoplata from Guard requires early recognition, immediate posture recovery, and systematic escape sequences that prevent the attacker from establishing the finishing position. The Omoplata is unusual among submissions because the danger escalates gradually through a series of control checkpoints rather than a sudden catch, giving the defender multiple windows to escape if they recognize each stage. However, the technique's dual nature as both submission and sweep means that poorly executed escapes often result in losing position rather than returning to safety. The defender must understand that the three critical defensive windows are: before the leg swings over the shoulder (highest percentage escape), during the transition before the attacker sits up (moderate difficulty), and once the attacker has established full finishing position (lowest percentage, highest injury risk). Each window requires different defensive responses, and attempting the wrong escape at the wrong stage can accelerate the submission or expose the back. Successful defense demands posture awareness, arm extraction mechanics, and the discipline to concede guard position rather than risk shoulder injury when the submission is fully locked.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 
 </section>
@@ -204,28 +204,28 @@ Defending the Omoplata from Guard requires early recognition, immediate posture 
 ### 1. Posture up and extract trapped arm before leg swing completes
 
 - **When to use**: During the initial setup when opponent is shifting hips and beginning the leg swing - this is the highest percentage escape window before position is established
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Return to closed guard top or open guard top with no positional loss and opportunity to resume passing
 - **Risk**: If extraction is too slow, opponent completes the leg swing and you enter a worse position with arm partially trapped and posture compromised
 
 ### 2. Forward roll over trapped shoulder to relieve pressure and scramble
 
 - **When to use**: When the Omoplata is partially established but opponent has not yet secured full hip connection to your back - timing is critical as rolling too late increases shoulder stress
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Escape the shoulder lock and end up in opponent's guard or scramble to neutral position
 - **Risk**: If opponent maintains hip connection and rides the roll, you concede mount or back control. If timed poorly with pressure already applied, the roll can worsen shoulder injury.
 
 ### 3. Stack and drive weight forward to flatten opponent before they can sit up
 
 - **When to use**: Immediately when you feel the leg swing beginning - drive your weight forward and down to prevent opponent from creating the perpendicular angle needed for the finish
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Flatten opponent on their back, preventing them from sitting up, and work to extract arm and pass guard to side control
 - **Risk**: Driving forward can accelerate the Omoplata if opponent redirects your weight into the shoulder rotation. Also vulnerable to Triangle transition if opponent adjusts leg position.
 
 ### 4. Turn palm up and hitchhiker escape to reduce shoulder rotation
 
 - **When to use**: When Omoplata is nearly locked and other escapes have failed - this is a last-resort technique that reduces immediate injury risk while you work to create an escape angle
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Reduce shoulder pressure enough to create time for forward roll or arm extraction
 - **Risk**: Does not escape the position on its own - only buys time. If opponent recognizes and adjusts grip, they can re-establish full pressure. Must be combined with another escape.
 
@@ -249,11 +249,11 @@ Defending the Omoplata from Guard requires early recognition, immediate posture 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Extract trapped arm early during setup phase by posturing aggressively and pulling elbow back before opponent's leg swing completes, returning to standard closed guard engagement
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Stack opponent flat by driving weight forward to prevent the sit-up, then systematically extract arm while maintaining heavy top pressure and pass to side control as they struggle to re-establish guard
 

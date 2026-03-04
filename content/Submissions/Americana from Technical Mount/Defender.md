@@ -156,7 +156,7 @@ description: "Defend against the Americana from Technical Mount in BJJ. Recognit
 
 Defending the Americana from Technical Mount requires immediate recognition of the shoulder lock threat and decisive early action before the figure-four grip is established. The technical mount configuration makes this Americana particularly dangerous because the stepped leg restricts the defender's shoulder movement and the attacker's weight distribution naturally assists the wrist pin. Once the figure-four is locked and tightened, escape becomes extremely difficult—the defender's primary goal is preventing the wrist from being pinned to the mat, as the submission difficulty increases exponentially once both grips connect. Early defense focuses on keeping the elbow tight and the arm retracted against the body, while late-stage defense requires bridging, grip fighting, and exploiting the attacker's positional commitment to create escape windows toward guard recovery.
 
-**Opponent's Starting Position**: [[Technical Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/Technical Mount]] (Top)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the Americana from Technical Mount requires immediate recognition of t
 ### 1. Straighten the threatened arm and retract elbow tight to the body before the figure-four locks
 
 - **When to use**: Early stage—when the attacker first grabs your wrist but has not yet threaded the underhook for the figure-four
-- **Targets**: [[Technical Mount]]
+- **Targets**: [[Positions/Mount/Technical Mount]]
 - **If successful**: Denies the figure-four grip entirely, forcing the attacker to restart the Americana setup or switch to a different attack
 - **Risk**: Straightening the arm momentarily creates armbar vulnerability—retract immediately after breaking the wrist pin
 
 ### 2. Bridge explosively toward the posted leg side to collapse the technical mount base and create escape space
 
 - **When to use**: When the attacker commits weight forward during the figure-four threading phase, reducing their base stability on the posted leg side
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Disrupts the technical mount structure, potentially forcing the attacker to abandon the Americana and return to standard mount
 - **Risk**: Requires significant explosive energy and may expose back if the bridge fails to displace the attacker's weight
 
 ### 3. Grip fight the figure-four by inserting free hand between the attacker's wrist grip and pulling the connected grip apart
 
 - **When to use**: When the figure-four is partially established but not fully tightened—the grip connection has gaps that can be exploited
-- **Targets**: [[Technical Mount]]
+- **Targets**: [[Positions/Mount/Technical Mount]]
 - **If successful**: Breaks the attacker's grip configuration, forcing them to restart the entire submission sequence
 - **Risk**: Energy-intensive hand fighting that may fatigue the free arm and leave it exposed to secondary attacks
 
 ### 4. Hip escape toward the posted leg side during the attacker's rotational pressure phase to recover guard
 
 - **When to use**: When the attacker lifts their hips slightly to apply finishing pressure, creating a momentary gap between their weight and your body
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Complete escape with guard recovery, removing the immediate submission threat entirely
 - **Risk**: Requires precise timing and the attacker may follow the hip escape to maintain position
 
@@ -239,11 +239,11 @@ Defending the Americana from Technical Mount requires immediate recognition of t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a bridge during the attacker's grip adjustment or finishing weight shift to create space, then hip escape and insert legs to recover half guard before they can re-establish technical mount
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Bridge toward the posted leg to collapse the technical mount structure, forcing the attacker to abandon the Americana and return to standard mount where escape options and base stability improve for both players
 

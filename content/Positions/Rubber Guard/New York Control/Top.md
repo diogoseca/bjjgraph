@@ -214,21 +214,21 @@ Competition preparation requires specific drilling of New York defensive protoco
 
 ## Available Attacks
 
-### [[Overhook Escape]] (15% of attempts)
+### [[Transitions/Overhook Escape]] (15% of attempts)
 
-### [[Posture Recovery]] (14% of attempts)
+### [[Transitions/Posture Recovery]] (14% of attempts)
 
-### [[Crossface to Combat Base]] (24% of attempts)
+### [[Transitions/Crossface to Combat Base]] (24% of attempts)
 
-### [[Stack Pass]] (11% of attempts)
+### [[Transitions/Stack Pass]] (11% of attempts)
 
-### [[Leg Extraction]] (15% of attempts)
+### [[Transitions/Leg Extraction]] (15% of attempts)
 
-### [[Standing Escape]] (13% of attempts)
+### [[Transitions/Standing Escape]] (13% of attempts)
 
-### [[New York Control Escape]] (5% of attempts)
+### [[Transitions/New York Control Escape]] (5% of attempts)
 
-### [[Guard Pass from New York Control]] (3% of attempts)
+### [[Transitions/Guard Pass from New York Control]] (3% of attempts)
 
 
 
@@ -239,18 +239,18 @@ Competition preparation requires specific drilling of New York defensive protoco
 ## Decision Making from This Position
 
 **If overhook control remains deep and leg pressure maintains posture restriction:**
-- Execute **[[Overhook Escape]]** → [[Open Guard]] (Probability: 50%)
-- Execute **[[Crossface to Combat Base]]** → [[Combat Base]] (Probability: 45%)
+- Execute **[[Transitions/Overhook Escape]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Crossface to Combat Base]]** → [[Positions/Combat Base]] (Probability: 45%)
 
 
 **If overhook is successfully extracted but leg control persists:**
-- Execute **[[Posture Recovery]]** → [[Closed Guard]] (Probability: 60%)
-- Execute **[[Leg Extraction]]** → [[Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Transitions/Leg Extraction]]** → [[Positions/Half Guard]] (Probability: 55%)
 
 
 **If bottom player begins triangle or gogoplata setup with leg positioning:**
-- Execute **[[Stack Pass]]** → [[Headquarters Position]] (Probability: 40%)
-- Execute **[[Standing Escape]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Headquarters Position]] (Probability: 40%)
+- Execute **[[Transitions/Standing Escape]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 
@@ -372,12 +372,12 @@ Begin in New York Control with top player working to escape or pass while bottom
 
 ## Related Positions and Techniques
 
-- **[[Triangle Control]]** - Primary submission threat requiring specific defensive protocols
-- **[[Omoplata Control]]** - Common attack target requiring shoulder protection and posture awareness
-- **[[Mission Control]]** - Related rubber guard position requiring similar defensive approach
-- **[[Closed Guard]]** - Recovery target position after successful overhook escape
-- **[[Combat Base]]** - Intermediate position achieved through base widening defense
-- **[[Headquarters Position]]** - Passing position achieved after successful stack defense
+- **[[Positions/Triangle Control]]** - Primary submission threat requiring specific defensive protocols
+- **[[Positions/Omoplata Control]]** - Common attack target requiring shoulder protection and posture awareness
+- **[[Positions/Rubber Guard/Mission Control]]** - Related rubber guard position requiring similar defensive approach
+- **[[Positions/Closed Guard]]** - Recovery target position after successful overhook escape
+- **[[Positions/Combat Base]]** - Intermediate position achieved through base widening defense
+- **[[Positions/Headquarters Position]]** - Passing position achieved after successful stack defense
 
 
 </section>

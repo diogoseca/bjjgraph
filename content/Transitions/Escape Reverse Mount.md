@@ -21,7 +21,7 @@ The escape exploits a fundamental weakness of reverse mount: the top player cann
 
 Strategically, this escape fits within the broader reverse mount survival framework. When combined with neck protection and continuous defensive movement, the hip escape to half guard provides a reliable pathway out of this dangerous transitional position. The technique is particularly effective against opponents who hesitate in reverse mount rather than immediately transitioning, punishing positional indecision with systematic guard recovery.
 
-**From Position**: [[Reverse Mount]] (Bottom)
+**From Position**: [[Positions/Reverse Mount]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, this escape fits within the broader reverse mount survival framew
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Success | [[Open Guard]] | 10% |
-| Failure | [[Reverse Mount]] | 30% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Reverse Mount]] | 30% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -196,25 +196,25 @@ Escape Reverse Mount connects the reverse mount survival system to the half guar
 ## Related Techniques
 
 
-- [[Reverse Mount]] - Starting position for this escape — understanding its control mechanics is essential for timing the escape correctly
+- [[Positions/Reverse Mount]] - Starting position for this escape — understanding its control mechanics is essential for timing the escape correctly
 
-- [[Half Guard]] - Primary target position providing immediate offensive options after successful escape
+- [[Positions/Half Guard]] - Primary target position providing immediate offensive options after successful escape
 
-- [[Back Control]] - Counter risk — opponent may transition to back control if escape timing is poor or hooks are inserted during turn
+- [[Positions/Back Control]] - Counter risk — opponent may transition to back control if escape timing is poor or hooks are inserted during turn
 
-- [[Open Guard]] - Secondary escape target when full turn and distance creation succeeds beyond half guard recovery
+- [[Positions/Open Guard]] - Secondary escape target when full turn and distance creation succeeds beyond half guard recovery
 
-- [[Bridge from Reverse Mount]] - Complementary escape technique using explosive bridge mechanics from the same starting position
+- [[Transitions/Bridge from Reverse Mount]] - Complementary escape technique using explosive bridge mechanics from the same starting position
 
-- [[Armbar from Reverse Mount]] - Submission threat the top player may attempt that this escape must account for during execution
+- [[Transitions/Armbar from Reverse Mount]] - Submission threat the top player may attempt that this escape must account for during execution
 
-- [[Back Take]] - Primary threat during escape — opponent capitalizes on turning movement to insert hooks
+- [[Transitions/Back Take]] - Primary threat during escape — opponent capitalizes on turning movement to insert hooks
 
-- [[Turtle]] - Intermediate position that may occur during escape scramble before guard is fully recovered
+- [[Positions/Turtle]] - Intermediate position that may occur during escape scramble before guard is fully recovered
 
-- [[Mount]] - Related position — opponent may convert to standard mount during failed escape attempt
+- [[Positions/Mount]] - Related position — opponent may convert to standard mount during failed escape attempt
 
-- [[Elbow Escape from Mount]] - Related escape concept using similar hip escape mechanics adapted for reverse orientation
+- [[Transitions/Elbow Escape from Mount]] - Related escape concept using similar hip escape mechanics adapted for reverse orientation
 
 
 </section>

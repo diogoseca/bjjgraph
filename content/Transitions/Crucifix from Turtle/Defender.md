@@ -154,7 +154,7 @@ description: "How to defend against Crucifix from Turtle in BJJ. Recognition cue
 
 Defending the crucifix from turtle requires a layered approach that begins with prevention and escalates through increasingly difficult escape sequences as the position consolidates. The primary defensive strategy is early recognition - identifying the crucifix entry attempt before bilateral arm control is established and shutting it down at the arm isolation phase rather than waiting until the leg is threaded. Once in turtle, the defender must maintain a tight defensive shell with elbows glued to knees, which eliminates the space the attacker needs to swim for the far arm. If the crucifix begins to take shape, the defender's priorities shift to immediate arm retraction, hip movement to disrupt the attacker's angle, and willingness to accept a lesser positional sacrifice (back control or scramble) rather than allowing full crucifix consolidation. Understanding that the crucifix is exponentially harder to escape once fully locked motivates aggressive early defense.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the crucifix from turtle requires a layered approach that begins with 
 ### 1. Retract the far arm and tuck elbow tight to knee before the opponent can complete the arm swim
 
 - **When to use**: As soon as you feel the opponent swimming under your far armpit - this is the highest-percentage defense because it prevents the crucifix at its earliest phase
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Opponent remains in turtle top but cannot progress to crucifix, forcing them to attempt standard back take or other attacks
 - **Risk**: If you retract too aggressively, you may create space for the opponent to insert hooks for standard back control
 
 ### 2. Sit back to guard immediately when you feel the near-side arm being controlled
 
 - **When to use**: When the opponent has grabbed your near-side arm and is beginning to establish the first hook - sitting to guard before the hook is set removes the crucifix threat entirely
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You recover to a guard position, trading turtle bottom for closed guard or half guard which is a significantly better defensive position
 - **Risk**: If the opponent has already inserted the hook, sitting back may expose your back further and accelerate their control establishment
 
 ### 3. Explosive forward roll or granby to disrupt the transition before the leg threads over the shoulder
 
 - **When to use**: When the opponent has established arm control and a hook but has not yet threaded the leg over your shoulder - the forward roll changes the angle and can break the arm control
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You end up in a scramble or recover guard, breaking the opponent's control sequence before it reaches the point of no return
 - **Risk**: If poorly timed, the opponent follows the roll and ends up in an even more dominant position, potentially with full back control
 
 ### 4. Bridge and turn into the opponent to prevent perpendicular angle establishment
 
 - **When to use**: When the leg is being threaded but the opponent has not yet settled into the perpendicular angle - turning into them collapses the T-shape they need for control
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You disrupt the crucifix angle and may create a scramble opportunity or transition to half guard
 - **Risk**: If the arm control is too tight, turning into the opponent may expose your neck more directly to choke attacks
 
@@ -226,11 +226,11 @@ Defending the crucifix from turtle requires a layered approach that begins with 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Prevent the crucifix by maintaining a tight turtle shell with elbows to knees, retracting any arm the opponent attempts to isolate, and using hip movement to disrupt their angle. The opponent remains in turtle top but must abandon the crucifix and attempt different attacks.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 If the crucifix entry has progressed beyond arm control, use a sit-back to guard, forward roll, or explosive hip escape to break the control sequence. Accept that you may end up in a worse position temporarily (such as being in someone's guard or a scramble), but this is far preferable to allowing full crucifix consolidation. Use the momentum of your escape to immediately work toward guard recovery.
 

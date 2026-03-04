@@ -154,7 +154,7 @@ description: "Defend against the Reguard from Pocket Half Guard as the top playe
 
 Defending the reguard from pocket half guard requires the top player to capitalize on the moment the bottom player releases their defining underhook—the very grip that made pocket half guard dangerous. The underhook release is simultaneously the bottom player's most vulnerable moment and the top player's greatest opportunity. The primary defensive strategy focuses on maintaining forward pressure to prevent the frame from establishing, driving crossface to flatten the bottom player's hip escape, and timing passing movements through the space created during the transition. When the bottom player initiates a reguard attempt, the defender should recognize this as a confession that their offensive position is failing and respond by accelerating the pass rather than allowing a defensive reset. Understanding that the bottom player must exchange underhook control for frame-based control reveals the critical window: attack during the exchange when neither control mechanism is fully active.
 
-**Opponent's Starting Position**: [[Pocket Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Pocket Half Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the reguard from pocket half guard requires the top player to capitali
 ### 1. Drive crossface and shoulder pressure to flatten bottom player during the underhook release window
 
 - **When to use**: The instant you feel the underhook withdrawing or loosening from your far side
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Bottom player is flattened before the replacement frame is established, unable to hip escape or insert knee shield, and now in a compromised position vulnerable to direct passing sequences
 - **Risk**: If the bottom player's frame is already in place when you drive forward, the pressure may actually help them create distance for the knee shield insertion
 
 ### 2. Maintain chest connection and block knee shield insertion by keeping torso tight against the bottom player
 
 - **When to use**: When the bottom player has established a frame but has not yet created enough space for the knee shield to thread between bodies
-- **Targets**: [[Pocket Half Guard]]
+- **Targets**: [[Positions/Half Guard/Pocket Half Guard]]
 - **If successful**: The knee shield cannot be inserted without space, keeping the bottom player stuck between positions—they have lost the underhook but cannot establish the knee shield, creating an extremely compromised guard
 - **Risk**: Staying tight without advancing may allow the bottom player to re-establish the underhook and return to full pocket half guard
 
 ### 3. Time a knee slice pass through the space created during the bottom player's hip escape
 
 - **When to use**: When the bottom player executes a hip escape to create knee shield insertion space and their frame is committed to distance management rather than pass blocking
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Your knee drives through the space before the knee shield can block it, completing or nearly completing the pass to side control during the transition window
 - **Risk**: If the bottom player reads the knee slice early, they insert the knee shield to block it and end up in a more defensively structured half guard than pocket half guard
 
 ### 4. Control the near arm to prevent frame establishment after underhook release
 
 - **When to use**: When you feel the underhook withdrawing and can capture or pin the arm before it converts to a forearm frame
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Without the frame, the bottom player has no structural barrier preventing you from driving chest-to-chest pressure and flattening them completely for a dominant passing position
 - **Risk**: Reaching to control the arm may momentarily lighten your overall pressure, giving the bottom player time to shrimp and insert the knee shield using the brief weight reduction
 
@@ -225,11 +225,11 @@ Defending the reguard from pocket half guard requires the top player to capitali
 
 ## Best-Case Outcomes for Defender
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Attack the transition window when the underhook is released but the frame is not yet established. Drive crossface and heavy shoulder pressure to collapse the bottom player flat before their hip escape creates knee shield space. Alternatively, time a knee slice pass through the space created during their hip escape, exploiting the extraction angle as a passing lane rather than allowing it to become a guard recovery platform.
 
-### → [[Pocket Half Guard]]
+### → [[Positions/Half Guard/Pocket Half Guard]]
 
 Prevent the reguard entirely by maintaining chest-to-chest connection and blocking the space needed for knee shield insertion. Keep your underhook control active and your crossface pressure constant so the bottom player cannot create enough room for the transition. If they release the underhook without establishing a viable replacement frame, immediately re-flatten the position and strip any remaining defensive structure to consolidate your pocket half guard top advantages.
 

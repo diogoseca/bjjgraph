@@ -186,7 +186,7 @@ description: "How to execute Sprawl Defense in BJJ. Attacking perspective with s
 
 The sprawl is the fundamental defensive response to takedown attempts in Brazilian Jiu-Jitsu and wrestling. It involves explosively driving the hips back and down while simultaneously shooting the legs back to prevent an opponent from completing a double leg or single leg takedown. This critical defensive technique transforms a potentially vulnerable position into an offensive opportunity, often transitioning to front headlock control or guillotine attacks. The sprawl's effectiveness lies in its ability to redirect an opponent's forward momentum while creating downward pressure that flattens them to the mat. When executed properly, the sprawl not only defends the takedown but establishes dominant top position, forcing the attacker to carry your weight while you control their head and arm. Mastering the sprawl is essential for maintaining standing position in BJJ, preventing takedowns in competition, and creating offensive opportunities from defensive situations.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -241,9 +241,9 @@ The sprawl is the fundamental defensive response to takedown attempts in Brazili
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 75% |
-| Failure | [[Standing Position]] | 15% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Front Headlock]] | 75% |
+| Failure | [[Positions/Standing Position]] | 15% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -252,10 +252,10 @@ The sprawl is the fundamental defensive response to takedown attempts in Brazili
 
 ## Opponent Counters
 
-- **Opponent changes levels and shoots deep under your hips before sprawl completes** (Effectiveness: High) - Your Response: If caught late, immediately transition to guillotine defense by getting hips back further, establishing front headlock, and working for guillotine or anaconda control rather than continuing sprawl → Leads to [[Standing Position]]
-- **Opponent switches to single leg by pulling one leg in tight to their chest** (Effectiveness: Medium) - Your Response: Circle away from the trapped leg while establishing whizzer control on their near arm, then work to limp-leg free or transition to front headlock as they lower their level → Leads to [[Standing Position]]
-- **Opponent drives forward continuously with strong base, refusing to flatten** (Effectiveness: Medium) - Your Response: Redirect their forward momentum by moving laterally, circling to the side while maintaining front headlock pressure, forcing them to chase and creating angles for submissions → Leads to [[Front Headlock]]
-- **Opponent releases and immediately re-shoots for different takedown** (Effectiveness: Low) - Your Response: Maintain active hands and ready stance, sprawl again on the second attempt while looking to capitalize on their fatigue and predictable pattern → Leads to [[Standing Position]]
+- **Opponent changes levels and shoots deep under your hips before sprawl completes** (Effectiveness: High) - Your Response: If caught late, immediately transition to guillotine defense by getting hips back further, establishing front headlock, and working for guillotine or anaconda control rather than continuing sprawl → Leads to [[Positions/Standing Position]]
+- **Opponent switches to single leg by pulling one leg in tight to their chest** (Effectiveness: Medium) - Your Response: Circle away from the trapped leg while establishing whizzer control on their near arm, then work to limp-leg free or transition to front headlock as they lower their level → Leads to [[Positions/Standing Position]]
+- **Opponent drives forward continuously with strong base, refusing to flatten** (Effectiveness: Medium) - Your Response: Redirect their forward momentum by moving laterally, circling to the side while maintaining front headlock pressure, forcing them to chase and creating angles for submissions → Leads to [[Positions/Front Headlock]]
+- **Opponent releases and immediately re-shoots for different takedown** (Effectiveness: Low) - Your Response: Maintain active hands and ready stance, sprawl again on the second attempt while looking to capitalize on their fatigue and predictable pattern → Leads to [[Positions/Standing Position]]
 
 
 </section>

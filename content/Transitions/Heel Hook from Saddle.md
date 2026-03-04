@@ -21,7 +21,7 @@ From a strategic perspective, the heel hook from saddle sits at the terminal nod
 
 The technique demands absolute respect for its injury potential. Unlike joint locks that produce progressive pain as warning signals, heel hooks can catastrophically damage knee ligaments with minimal pain feedback. This characteristic makes proper execution mechanics, progressive application, and clear training protocols non-negotiable for both attacker and defender. Understanding the biomechanics of rotational knee stress and maintaining communication with training partners about discomfort thresholds are essential safety practices that every practitioner must internalize before training this technique.
 
-**From Position**: [[Saddle]] (Top)
+**From Position**: [[Positions/Ashi Garami/Saddle]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -33,9 +33,9 @@ The technique demands absolute respect for its injury potential. Unlike joint lo
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Saddle]] | 25% |
-| Failure | [[Inside Ashi-Garami]] | 15% |
-| Counter | [[50-50 Guard]] | 10% |
+| Failure | [[Positions/Ashi Garami/Saddle]] | 25% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 10% |
 
 
 </section>
@@ -199,29 +199,29 @@ The heel hook from saddle represents the terminal submission in modern leg lock 
 ## Related Techniques
 
 
-- [[Saddle]] - Source position providing the dominant leg entanglement platform for this submission finish
+- [[Positions/Ashi Garami/Saddle]] - Source position providing the dominant leg entanglement platform for this submission finish
 
-- [[Honey Hole]] - Alternative name for the source position in 10th Planet system with identical finishing mechanics
+- [[Positions/Ashi Garami/Honey Hole]] - Alternative name for the source position in 10th Planet system with identical finishing mechanics
 
-- [[Inside Heel Hook from Honey Hole]] - Equivalent submission from the same position under alternative naming convention
+- [[Transitions/Inside Heel Hook from Honey Hole]] - Equivalent submission from the same position under alternative naming convention
 
-- [[Inside Heel Hook]] - General inside heel hook technique class that this specific positional finish belongs to
+- [[Submissions/Inside Heel Hook]] - General inside heel hook technique class that this specific positional finish belongs to
 
-- [[Outside Heel Hook]] - Alternative heel hook direction available when inside heel is defended by hiding
+- [[Transitions/Outside Heel Hook]] - Alternative heel hook direction available when inside heel is defended by hiding
 
-- [[Inside Ashi-Garami]] - Fallback position when saddle control degrades during the finishing attempt
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Fallback position when saddle control degrades during the finishing attempt
 
-- [[50-50 Guard]] - Counter-entanglement destination when defender rotates during escape
+- [[Positions/Ashi Garami/50-50 Guard]] - Counter-entanglement destination when defender rotates during escape
 
-- [[Heel Hook Defense Escape]] - Primary defensive transition the opponent uses to survive this attack
+- [[Transitions/Heel Hook Defense Escape]] - Primary defensive transition the opponent uses to survive this attack
 
-- [[Fight to Inside Ashi from Saddle]] - Defensive downgrade transition that reduces saddle to lesser entanglement
+- [[Transitions/Fight to Inside Ashi from Saddle]] - Defensive downgrade transition that reduces saddle to lesser entanglement
 
-- [[Boot Scoot Escape from Saddle]] - Specific escape technique defender uses to create distance and extract the leg
+- [[Transitions/Boot Scoot Escape from Saddle]] - Specific escape technique defender uses to create distance and extract the leg
 
-- [[Forward Roll from Saddle]] - Inversion-based escape the defender may attempt to relieve rotational pressure
+- [[Transitions/Forward Roll from Saddle]] - Inversion-based escape the defender may attempt to relieve rotational pressure
 
-- [[Fallback to Inside Ashi-Garami]] - Attacker's fallback transition when saddle control degrades during the heel hook attempt
+- [[Transitions/Fallback to Inside Ashi-Garami]] - Attacker's fallback transition when saddle control degrades during the heel hook attempt
 
 
 </section>

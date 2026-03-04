@@ -176,7 +176,7 @@ The Berimbolo Entry is a revolutionary back-taking technique that emerged from t
 
 The berimbolo represents a paradigm shift in guard play, prioritizing movement and angles over traditional sweeping mechanics. By inverting underneath the opponent, the practitioner creates a unique angle of attack that bypasses conventional passing defenses. The technique requires excellent hip mobility, timing, and spatial awareness, but when executed properly, it offers one of the highest percentage paths to back control in modern jiu-jitsu. The entry phase is crucial - proper De La Riva hook placement and grip control determine whether the inversion will be successful or if the opponent can counter-rotate to prevent the back take.
 
-**From Position**: [[De La Riva Guard]] (Bottom)
+**From Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ The berimbolo represents a paradigm shift in guard play, prioritizing movement a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[De La Riva Guard]] | 25% |
-| Counter | [[De La Riva Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/De La Riva Guard]] | 25% |
+| Counter | [[Positions/De La Riva Guard]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ The berimbolo represents a paradigm shift in guard play, prioritizing movement a
 
 ## Opponent Counters
 
-- **Opponent sits back and sprawls legs away, preventing De La Riva hook from off-balancing them** (Effectiveness: High) - Your Response: Switch to Kiss of the Dragon variation by releasing the hook and using momentum to spin directly to their back, or transition to Reverse De La Riva guard and attack with alternative sweeps → Leads to [[De La Riva Guard]]
-- **Opponent grabs your inverting leg/pants and prevents rotation by anchoring you to the mat** (Effectiveness: Medium) - Your Response: Use the pressure on your leg to spring back to De La Riva guard and immediately attack with different sweep or back-take attempt. Alternatively, switch to deep De La Riva position and work waiter sweep → Leads to [[De La Riva Guard]]
-- **Opponent counter-rotates in the same direction, following your spin to prevent back exposure** (Effectiveness: Medium) - Your Response: Accept the scramble position and use your superior positioning from the inversion to establish either Single Leg X-Guard or return to seated guard with dominant grips. Can also continue rotating for Kiss of the Dragon finish → Leads to [[De La Riva Guard]]
-- **Opponent steps over your inverting body and establishes top position during your rotation** (Effectiveness: Low) - Your Response: Maintain your hip grip and use momentum to complete the rotation into deep half guard rather than back control. From deep half, immediately work to sweep or return to guard rather than accepting bottom position → Leads to [[De La Riva Guard]]
+- **Opponent sits back and sprawls legs away, preventing De La Riva hook from off-balancing them** (Effectiveness: High) - Your Response: Switch to Kiss of the Dragon variation by releasing the hook and using momentum to spin directly to their back, or transition to Reverse De La Riva guard and attack with alternative sweeps → Leads to [[Positions/De La Riva Guard]]
+- **Opponent grabs your inverting leg/pants and prevents rotation by anchoring you to the mat** (Effectiveness: Medium) - Your Response: Use the pressure on your leg to spring back to De La Riva guard and immediately attack with different sweep or back-take attempt. Alternatively, switch to deep De La Riva position and work waiter sweep → Leads to [[Positions/De La Riva Guard]]
+- **Opponent counter-rotates in the same direction, following your spin to prevent back exposure** (Effectiveness: Medium) - Your Response: Accept the scramble position and use your superior positioning from the inversion to establish either Single Leg X-Guard or return to seated guard with dominant grips. Can also continue rotating for Kiss of the Dragon finish → Leads to [[Positions/De La Riva Guard]]
+- **Opponent steps over your inverting body and establishes top position during your rotation** (Effectiveness: Low) - Your Response: Maintain your hip grip and use momentum to complete the rotation into deep half guard rather than back control. From deep half, immediately work to sweep or return to guard rather than accepting bottom position → Leads to [[Positions/De La Riva Guard]]
 
 
 </section>

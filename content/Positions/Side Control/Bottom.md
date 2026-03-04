@@ -205,23 +205,23 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (28% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (28% of attempts)
 
-### [[Frame and Shrimp to Guard]] (22% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (22% of attempts)
 
-### [[Hip Escape to Guard]] (18% of attempts)
+### [[Transitions/Hip Escape to Guard]] (18% of attempts)
 
-### [[Bridge and Roll]] (10% of attempts)
+### [[Transitions/Bridge and Roll]] (10% of attempts)
 
-### [[Ghost Escape]] (8% of attempts)
+### [[Transitions/Ghost Escape]] (8% of attempts)
 
-### [[Side Control Escape]] (5% of attempts)
+### [[Transitions/Side Control Escape]] (5% of attempts)
 
-### [[Ghost Escape from Side Control]] (4% of attempts)
+### [[Transitions/Ghost Escape from Side Control]] (4% of attempts)
 
-### [[Sit Out from Side Control]] (3% of attempts)
+### [[Transitions/Sit Out from Side Control]] (3% of attempts)
 
-### [[Turtle from Side Control Bottom]] (2% of attempts)
+### [[Transitions/Turtle from Side Control Bottom]] (2% of attempts)
 
 
 
@@ -232,28 +232,28 @@ Side Control Bottom is one of the most challenging defensive positions in Brazil
 ## Decision Making from This Position
 
 **If opponent settles heavy chest pressure with tight crossface and hip control:**
-- Execute **[[Frame Creation]]** → [[Defensive frames established]] (Probability: 60%)
-- Execute **[[Ghost Escape]]** → [[Turtle]] (Probability: 35%)
+- Execute **[[Principles/Frame Creation]]** → [[Defensive frames established]] (Probability: 60%)
+- Execute **[[Transitions/Ghost Escape]]** → [[Positions/Turtle]] (Probability: 35%)
 
 
 **If opponent transitions toward mount raising hips:**
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Hip Escape to Guard]]** → [[Knee Shield Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 45%)
 
 
 **If opponent attacks submission lifting weight off hips:**
-- Execute **[[Side Control Escape]]** → [[Butterfly Guard]] (Probability: 40%)
-- Execute **[[Frame and Shrimp to Guard]]** → [[Closed Guard]] (Probability: 38%)
+- Execute **[[Transitions/Side Control Escape]]** → [[Positions/Butterfly Guard]] (Probability: 40%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Closed Guard]] (Probability: 38%)
 
 
 **If opponent transitions to north-south creating hip space:**
-- Execute **[[Hip Escape to Guard]]** → [[Knee Shield Half Guard]] (Probability: 45%)
-- Execute **[[Hip Escape to Guard]]** → [[Deep Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 35%)
 
 
 **If opponent drives aggressive crossface creating turning momentum:**
-- Execute **[[Ghost Escape]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Bridge and Roll]]** → [[Closed Guard]] (Probability: 25%)
+- Execute **[[Transitions/Ghost Escape]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 25%)
 
 
 
@@ -355,14 +355,14 @@ Partner transitions between side control variations and mount attempts. Practice
 
 ## Related Positions and Techniques
 
-- **[[Half Guard]]** - Primary escape target providing immediate guard recovery option
-- **[[Closed Guard]]** - Advanced escape target requiring more space and movement
-- **[[Turtle]]** - Survival position when full escape not immediately possible
-- **[[Knee Shield Half Guard]]** - Strong defensive position accessible via hip escape
-- **[[Deep Half Guard]]** - Advanced recovery position with sweep potential
-- **[[Elbow Escape to Guard]]** - Primary escape technique for recovering half guard
-- **[[Frame and Shrimp to Guard]]** - Fundamental escape combining framing with hip movement
-- **[[Bridge and Roll]]** - Explosive reversal technique when opponent overcommits
+- **[[Positions/Half Guard]]** - Primary escape target providing immediate guard recovery option
+- **[[Positions/Closed Guard]]** - Advanced escape target requiring more space and movement
+- **[[Positions/Turtle]]** - Survival position when full escape not immediately possible
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Strong defensive position accessible via hip escape
+- **[[Positions/Half Guard/Deep Half Guard]]** - Advanced recovery position with sweep potential
+- **[[Transitions/Elbow Escape to Guard]]** - Primary escape technique for recovering half guard
+- **[[Transitions/Frame and Shrimp to Guard]]** - Fundamental escape combining framing with hip movement
+- **[[Transitions/Bridge and Roll]]** - Explosive reversal technique when opponent overcommits
 
 
 </section>

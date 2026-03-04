@@ -180,7 +180,7 @@ description: "Master the attacker perspective for countering the Estima Lock in 
 
 Executing the Counter from Estima Lock requires a systematic approach to escaping one of the most dangerous inverted footlock positions in grappling. As the person caught in the Estima Lock bottom position, your priority sequence begins with immediate ankle protection through counter-rotation, progresses through strategic framing and grip disruption, and concludes with controlled foot extraction and guard recovery. The technique demands calm execution under significant submission pressure, where panic or explosive movements can worsen joint strain and lead to injury. Understanding the specific mechanical vulnerabilities of the Estima Lock's figure-four grip configuration is essential for efficient escape, and the entire sequence must be executed with awareness that the opponent will actively adjust to maintain control throughout your escape attempt.
 
-**From Position**: [[Estima Lock]] (Bottom)
+**From Position**: [[Positions/Estima Lock]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ Executing the Counter from Estima Lock requires a systematic approach to escapin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 40% |
-| Failure | [[Estima Lock]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Open Guard]] | 40% |
+| Failure | [[Positions/Estima Lock]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -242,10 +242,10 @@ Executing the Counter from Estima Lock requires a systematic approach to escapin
 
 ## Opponent Counters
 
-- **Opponent re-tightens grip and increases rotational pressure when sensing counter-rotation** (Effectiveness: High) - Your Response: Maintain counter-rotation and re-establish frames rather than fighting the grip directly; if pressure becomes dangerous, tap immediately and reset → Leads to [[Estima Lock]]
-- **Opponent follows hip escape movement to maintain hip-to-calf contact** (Effectiveness: Medium) - Your Response: Change direction of hip escape or use free leg to create a hook that prevents them from following; angle changes disrupt their tracking ability → Leads to [[Estima Lock]]
-- **Opponent releases grip and transitions to guard pass when sensing imminent escape** (Effectiveness: High) - Your Response: Immediately recover guard frames with both legs as soon as grip pressure releases; the transition moment is your window to establish active open guard → Leads to [[Side Control]]
-- **Opponent switches to toe hold grip when your counter-rotation exposes toes** (Effectiveness: Medium) - Your Response: Recognize the grip change and apply boot defense by pointing toes and flexing ankle; address the new submission threat before continuing escape sequence → Leads to [[Estima Lock]]
+- **Opponent re-tightens grip and increases rotational pressure when sensing counter-rotation** (Effectiveness: High) - Your Response: Maintain counter-rotation and re-establish frames rather than fighting the grip directly; if pressure becomes dangerous, tap immediately and reset → Leads to [[Positions/Estima Lock]]
+- **Opponent follows hip escape movement to maintain hip-to-calf contact** (Effectiveness: Medium) - Your Response: Change direction of hip escape or use free leg to create a hook that prevents them from following; angle changes disrupt their tracking ability → Leads to [[Positions/Estima Lock]]
+- **Opponent releases grip and transitions to guard pass when sensing imminent escape** (Effectiveness: High) - Your Response: Immediately recover guard frames with both legs as soon as grip pressure releases; the transition moment is your window to establish active open guard → Leads to [[Positions/Side Control]]
+- **Opponent switches to toe hold grip when your counter-rotation exposes toes** (Effectiveness: Medium) - Your Response: Recognize the grip change and apply boot defense by pointing toes and flexing ankle; address the new submission threat before continuing escape sequence → Leads to [[Positions/Estima Lock]]
 
 
 </section>

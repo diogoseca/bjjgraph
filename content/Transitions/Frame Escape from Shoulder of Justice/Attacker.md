@@ -186,7 +186,7 @@ description: "Execute the Frame Escape from Shoulder of Justice with systematic 
 
 As the attacker executing this escape, you are the bottom player trapped under Shoulder of Justice with intense jaw pressure compromising your comfort and defensive structure. Your objective is to create structural frames using forearm positioning and skeletal alignment, then leverage precisely timed hip escapes during the opponent's weight shifts to create enough space for knee insertion and half guard recovery. The key challenge is maintaining composure under significant physical discomfort while executing a disciplined, multi-step escape sequence that avoids the reactive arm extensions and panicked movements that your opponent is deliberately provoking through their pressure application.
 
-**From Position**: [[Shoulder of Justice]] (Bottom)
+**From Position**: [[Positions/Shoulder of Justice]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ As the attacker executing this escape, you are the bottom player trapped under S
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Shoulder of Justice]] | 40% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Shoulder of Justice]] | 40% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the attacker executing this escape, you are the bottom player trapped under S
 
 ## Opponent Counters
 
-- **Opponent increases pressure and re-settles weight onto hip line when sensing frame attempt** (Effectiveness: High) - Your Response: Maintain frames in position without pushing and wait for the next genuine weight shift. The opponent cannot maintain maximum pressure indefinitely and will eventually need to adjust. → Leads to [[Shoulder of Justice]]
-- **Opponent steps over to mount during hip escape, capitalizing on the space created by your shrimp** (Effectiveness: High) - Your Response: Insert knee shield immediately during the hip escape before committing to full shrimp distance. If opponent begins stepping over, use your knee to block their leg and recover half guard rather than allowing full mount. → Leads to [[Mount]]
-- **Opponent attacks kimura on near arm when any separation occurs between elbow and ribs during framing** (Effectiveness: Medium) - Your Response: Keep near-side elbow absolutely glued to your ribs throughout the framing process. If opponent reaches for the kimura, immediately clamp your elbow to your body and abandon the escape attempt until they return to pressure. → Leads to [[Shoulder of Justice]]
-- **Opponent transitions to north-south when you shrimp toward their head direction** (Effectiveness: Medium) - Your Response: Direct your hip escape away from the opponent's head, escaping toward their hips and legs rather than upward. If they begin spinning to north-south, immediately follow their movement with your hips to maintain facing position. → Leads to [[Shoulder of Justice]]
+- **Opponent increases pressure and re-settles weight onto hip line when sensing frame attempt** (Effectiveness: High) - Your Response: Maintain frames in position without pushing and wait for the next genuine weight shift. The opponent cannot maintain maximum pressure indefinitely and will eventually need to adjust. → Leads to [[Positions/Shoulder of Justice]]
+- **Opponent steps over to mount during hip escape, capitalizing on the space created by your shrimp** (Effectiveness: High) - Your Response: Insert knee shield immediately during the hip escape before committing to full shrimp distance. If opponent begins stepping over, use your knee to block their leg and recover half guard rather than allowing full mount. → Leads to [[Positions/Mount]]
+- **Opponent attacks kimura on near arm when any separation occurs between elbow and ribs during framing** (Effectiveness: Medium) - Your Response: Keep near-side elbow absolutely glued to your ribs throughout the framing process. If opponent reaches for the kimura, immediately clamp your elbow to your body and abandon the escape attempt until they return to pressure. → Leads to [[Positions/Shoulder of Justice]]
+- **Opponent transitions to north-south when you shrimp toward their head direction** (Effectiveness: Medium) - Your Response: Direct your hip escape away from the opponent's head, escaping toward their hips and legs rather than upward. If they begin spinning to north-south, immediately follow their movement with your hips to maintain facing position. → Leads to [[Positions/Shoulder of Justice]]
 
 
 </section>

@@ -154,7 +154,7 @@ description: "Defend against the Knee Slice from De La Riva Guard. Recognition c
 
 Defending the Knee Slice from DLR requires proactive disruption of the passer's sequential approach rather than reactive scrambling after the knee has already begun cutting through. As the DLR guard player, your primary defensive objective is maintaining hook integrity and ankle grip connection, which together form the foundation of your guard structure. When the passer begins stripping your hook, you must immediately escalate your offensive threats—attempting sweeps or inversions during their grip-fighting phase forces them to abandon the pass and defend. The worst defensive strategy is passively allowing the passer to complete each phase of the knee slice sequence unchallenged, as each completed phase makes the next progressively harder to stop. Early recognition and aggressive counter-attacking are far more effective than late-stage damage control.
 
-**Opponent's Starting Position**: [[De La Riva Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Knee Slice from DLR requires proactive disruption of the passer's 
 ### 1. Re-establish DLR hook before the knee touches the mat by immediately re-hooking when the passer clears your foot
 
 - **When to use**: During the early grip-fighting phase when the passer has stripped your hook but has not yet established the knee line or crossface
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Full DLR guard structure is restored and the passer must restart their passing sequence from scratch
 - **Risk**: If the passer anticipates the re-hook and backsteps, you may lose the hook again with less energy and worse grip positioning
 
 ### 2. Invert for berimbolo as the passer commits their weight forward during the knee slice drive
 
 - **When to use**: When the passer commits forward momentum during the knee slice and their weight is over your body, creating the ideal angle for an inversion entry
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You rotate underneath the passer and establish back control, completely reversing the positional exchange
 - **Risk**: If the passer reads the inversion and sprawls or backsteps, you end up inverted with no guard structure and vulnerable to a direct pass
 
 ### 3. Insert knee shield by bringing your top knee across the passer's body to block the cutting knee from completing its path
 
 - **When to use**: When the passer has cleared your DLR hook and begun the knee cut but has not yet driven past your thigh line
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: The knee shield creates a frame that stops the pass and allows you to recover distance, re-establish grips, and potentially re-enter DLR or transition to knee shield half guard
 - **Risk**: If the passer smashes through the knee shield with superior pressure, you end up in a flattened half guard with poor defensive positioning
 
 ### 4. Frame and hip escape to catch half guard as damage control when the knee slice is nearly completed
 
 - **When to use**: When the knee has already cut past your thigh line and re-establishing DLR is no longer viable as a defensive option
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You prevent the clean pass to side control and retain a half guard position with offensive options available
 - **Risk**: The passer may have sufficient momentum to complete through your half guard directly to side control if your frames are weak
 
@@ -225,11 +225,11 @@ Defending the Knee Slice from DLR requires proactive disruption of the passer's 
 
 ## Best-Case Outcomes for Defender
 
-### → [[De La Riva Guard]]
+### → [[Positions/De La Riva Guard]]
 
 Re-establish your DLR hook and ankle grip during the passer's grip-fighting phase, before they can initiate the knee slice. Use your non-hooking foot on their hip to create distance and prevent them from establishing the crossface needed to drive the knee through. Actively threaten sweeps during the grip fight to force the passer to abandon their passing sequence and defend.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Time your berimbolo or inversion entry to coincide with the passer's forward commitment during the knee slice drive. As they shift their weight forward and begin cutting their knee across your thigh, use their forward momentum to initiate the inversion, thread underneath them, and establish back control. The key is committing to the inversion before the crossface pins your shoulders to the mat.
 

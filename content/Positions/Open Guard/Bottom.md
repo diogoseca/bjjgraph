@@ -206,43 +206,43 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 
 ## Available Escapes
 
-### [[Butterfly Sweep]] (25% of attempts)
+### [[Transitions/Butterfly Sweep]] (25% of attempts)
 
-### [[De La Riva Sweep]] (4% of attempts)
+### [[Transitions/De La Riva Sweep]] (4% of attempts)
 
-### [[Sickle Sweep]] (3% of attempts)
+### [[Transitions/Sickle Sweep]] (3% of attempts)
 
-### [[Tripod Sweep]] (4% of attempts)
+### [[Transitions/Tripod Sweep]] (4% of attempts)
 
-### [[Elevator Sweep]] (2% of attempts)
+### [[Transitions/Elevator Sweep]] (2% of attempts)
 
-### [[Omoplata Sweep]] (2% of attempts)
+### [[Transitions/Omoplata Sweep]] (2% of attempts)
 
-### [[Kimura Sweep]] (2% of attempts)
+### [[Transitions/Kimura Sweep]] (2% of attempts)
 
-### [[Armbar Finish]] (2% of attempts)
+### [[Transitions/Armbar Finish]] (2% of attempts)
 
-### [[Scissor Sweep from Open Guard]] (4% of attempts)
+### [[Transitions/Scissor Sweep from Open Guard]] (4% of attempts)
 
-### [[Open Guard to Deep Half]] (5% of attempts)
+### [[Transitions/Open Guard to Deep Half]] (5% of attempts)
 
-### [[Open Guard to Collar Sleeve Guard]] (9% of attempts)
+### [[Transitions/Open Guard to Collar Sleeve Guard]] (9% of attempts)
 
-### [[Open Guard to De La Riva]] (11% of attempts)
+### [[Transitions/Open Guard to De La Riva]] (11% of attempts)
 
-### [[Open Guard to Double Sleeve Guard]] (4% of attempts)
+### [[Transitions/Open Guard to Double Sleeve Guard]] (4% of attempts)
 
-### [[Open Guard to Feet on Hips Guard]] (7% of attempts)
+### [[Transitions/Open Guard to Feet on Hips Guard]] (7% of attempts)
 
-### [[Collar Drag from Open Guard]] (4% of attempts)
+### [[Transitions/Collar Drag from Open Guard]] (4% of attempts)
 
-### [[Scramble from Failed Sweep]] (3% of attempts)
+### [[Transitions/Scramble from Failed Sweep]] (3% of attempts)
 
-### [[Technical Stand Up from Open Guard]] (6% of attempts)
+### [[Transitions/Technical Stand Up from Open Guard]] (6% of attempts)
 
-### [[Transition to Clamp Guard]] (1% of attempts)
+### [[Transitions/Transition to Clamp Guard]] (1% of attempts)
 
-### [[Triangle from Open Guard]] (2% of attempts)
+### [[Submissions/Triangle from Open Guard]] (2% of attempts)
 
 
 
@@ -253,32 +253,32 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 ## Decision Making from This Position
 
 **If opponent is standing or on knees with upright posture:**
-- Execute **[[De La Riva Sweep]]** → [[Standing Position]] (Probability: 55%)
-- Execute **[[Sickle Sweep]]** → [[Mount]] (Probability: 55%)
-- Execute **[[Tripod Sweep]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/Standing Position]] (Probability: 55%)
+- Execute **[[Transitions/Sickle Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Tripod Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent attempts to pass with knee cut or slice:**
-- Execute **[[Shin Shield Recovery]]** → [[Knee Shield Half Guard]] (Probability: 50%)
-- Execute **[[Open Guard to Deep Half]]** → [[Deep Half Guard]] (Probability: 45%)
-- Execute **[[Berimbolo Entry]]** → [[Back Control]] (Probability: 40%)
+- Execute **[[Transitions/Shin Shield Recovery]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Open Guard to Deep Half]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 40%)
 
 
 **If opponent drives forward with pressure passing:**
-- Execute **[[Butterfly Sweep]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Elevator Sweep]]** → [[Mount]] (Probability: 50%)
-- Execute **[[Collar Drag from Open Guard]]** → [[Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Elevator Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Collar Drag from Open Guard]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 **If opponent establishes strong grips and attempts toreando:**
-- Execute **[[Reverse De La Riva Recovery]]** → [[Reverse De La Riva Guard]] (Probability: 50%)
-- Execute **[[Granby to Closed Guard]]** → [[Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Reverse De La Riva Recovery]]** → [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Probability: 50%)
+- Execute **[[Transitions/Granby to Closed Guard]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
 **If opponent postures up and creates distance:**
-- Execute **[[Butterfly Guard to X-Guard]]** → [[X-Guard]] (Probability: 55%)
-- Execute **[[De La Riva to X-Guard Transition]]** → [[X-Guard]] (Probability: 50%)
-- Execute **[[Scissor Sweep from Open Guard]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/De La Riva to X-Guard Transition]]** → [[Positions/X-Guard]] (Probability: 50%)
+- Execute **[[Transitions/Scissor Sweep from Open Guard]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 
@@ -417,16 +417,16 @@ Positional sparring focused exclusively on establishing and breaking grips from 
 
 ## Related Positions and Techniques
 
-- **[[Closed Guard]]** - Alternative guard position - more secure but less mobile
-- **[[Butterfly Guard]]** - Specific open guard variation with butterfly hooks
-- **[[Spider Guard]]** - Specific open guard variation using sleeve and foot control
-- **[[De La Riva Guard]]** - Specific open guard variation with de la riva hook
-- **[[Lasso Guard]]** - Specific open guard variation with lasso grip
-- **[[X-Guard]]** - Advanced open guard variation for sweeps
-- **[[Half Guard]]** - Common transition when open guard is partially passed
-- **[[Scissor Sweep from Open Guard]]** - Fundamental sweep technique from open guard
-- **[[Butterfly Sweep]]** - Core sweeping technique from butterfly guard variation
-- **[[Collar Drag from Open Guard]]** - Off-balancing technique to create scramble or back take opportunities
+- **[[Positions/Closed Guard]]** - Alternative guard position - more secure but less mobile
+- **[[Positions/Butterfly Guard]]** - Specific open guard variation with butterfly hooks
+- **[[Positions/Spider Guard]]** - Specific open guard variation using sleeve and foot control
+- **[[Positions/De La Riva Guard]]** - Specific open guard variation with de la riva hook
+- **[[Positions/Lasso Guard]]** - Specific open guard variation with lasso grip
+- **[[Positions/X-Guard]]** - Advanced open guard variation for sweeps
+- **[[Positions/Half Guard]]** - Common transition when open guard is partially passed
+- **[[Transitions/Scissor Sweep from Open Guard]]** - Fundamental sweep technique from open guard
+- **[[Transitions/Butterfly Sweep]]** - Core sweeping technique from butterfly guard variation
+- **[[Transitions/Collar Drag from Open Guard]]** - Off-balancing technique to create scramble or back take opportunities
 
 
 </section>

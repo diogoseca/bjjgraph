@@ -186,7 +186,7 @@ description: "Step-by-step guide to executing the frame escape from Reverse Scar
 
 Executing the frame escape from Reverse Scarf Hold requires understanding the precise interaction between skeletal frames, hip movement, and timing. As the bottom player, your objective is to use forearm structures against the opponent's hip and shoulder to prevent them from re-closing distance while you incrementally create space through hip escapes. The technique succeeds through persistent mechanical advantage rather than explosive power, making it the most reliable escape available when trapped under reverse scarf hold pressure. The reverse orientation of the top player creates a unique vulnerability: their ability to address frames directed at their neck and far shoulder is limited because they face your legs, giving your frames a biomechanical advantage not available in standard side control escapes. Each phase of the escape must maintain near-side arm defense while progressively building toward knee insertion and guard recovery.
 
-**From Position**: [[Reverse Scarf Hold]] (Bottom)
+**From Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the frame escape from Reverse Scarf Hold requires understanding the pr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Reverse Scarf Hold]] | 35% |
-| Counter | [[North-South]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Side Control/Reverse Scarf Hold]] | 35% |
+| Counter | [[Positions/North-South]] | 25% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the frame escape from Reverse Scarf Hold requires understanding the pr
 
 ## Opponent Counters
 
-- **Opponent increases hip pressure and drops chest weight to collapse framing structure before hip escape initiates** (Effectiveness: High) - Your Response: Switch to bridge escape attempt when sustained pressure makes frames unsustainable, using their committed forward pressure against their base stability for the bridge angle → Leads to [[Reverse Scarf Hold]]
-- **Opponent transitions to north-south when they feel the frame creating separation and hip escape initiating** (Effectiveness: High) - Your Response: Follow their movement with your hips and immediately turn to face them as they rotate, using the transition moment to insert knees and establish open guard frames before north-south consolidation → Leads to [[North-South]]
-- **Opponent attacks near-side arm with americana or kimura when framing arm diverts attention to space creation** (Effectiveness: Medium) - Your Response: Immediately abandon the frame and return to two-arm near-side arm defense, resetting the escape sequence only after the submission threat is fully neutralized → Leads to [[Reverse Scarf Hold]]
-- **Opponent re-angles body position to nullify frame direction after partial hip escape increment** (Effectiveness: Medium) - Your Response: Follow their re-angle with your own hip adjustment and redirect your frame to match their new pressure angle, using their repositioning momentum to create additional escape space → Leads to [[Reverse Scarf Hold]]
+- **Opponent increases hip pressure and drops chest weight to collapse framing structure before hip escape initiates** (Effectiveness: High) - Your Response: Switch to bridge escape attempt when sustained pressure makes frames unsustainable, using their committed forward pressure against their base stability for the bridge angle → Leads to [[Positions/Side Control/Reverse Scarf Hold]]
+- **Opponent transitions to north-south when they feel the frame creating separation and hip escape initiating** (Effectiveness: High) - Your Response: Follow their movement with your hips and immediately turn to face them as they rotate, using the transition moment to insert knees and establish open guard frames before north-south consolidation → Leads to [[Positions/North-South]]
+- **Opponent attacks near-side arm with americana or kimura when framing arm diverts attention to space creation** (Effectiveness: Medium) - Your Response: Immediately abandon the frame and return to two-arm near-side arm defense, resetting the escape sequence only after the submission threat is fully neutralized → Leads to [[Positions/Side Control/Reverse Scarf Hold]]
+- **Opponent re-angles body position to nullify frame direction after partial hip escape increment** (Effectiveness: Medium) - Your Response: Follow their re-angle with your own hip adjustment and redirect your frame to match their new pressure angle, using their repositioning momentum to create additional escape space → Leads to [[Positions/Side Control/Reverse Scarf Hold]]
 
 
 </section>

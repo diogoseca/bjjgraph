@@ -146,7 +146,7 @@ description: "Complete defensive guide against the Suplex from Rear Clinch. Cove
 
 As the defender against a Suplex from Rear Clinch, your immediate priority is preventing the opponent from generating the lifting force needed to execute the throw. This requires recognizing the suplex setup early through tactile and positional cues, then deploying specific defensive mechanics that neutralize the lift before it develops dangerous momentum. The suplex is one of the most difficult takedowns to defend once it has been fully initiated, making early recognition and proactive defense essential. Your defensive hierarchy should prioritize preventing the lift entirely, then if lifted, controlling the landing angle to minimize positional damage, and finally recovering to the best possible position if the throw completes.
 
-**Opponent's Starting Position**: [[Standing Rear Clinch]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Rear Clinch]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against a Suplex from Rear Clinch, your immediate priority is pr
 ### 1. Drop base and sprawl hips backward
 
 - **When to use**: As soon as you feel the opponent drop their hips and tighten their body lock in preparation for the lift
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: The lift fails because your lowered center of gravity and backward hip pressure prevent the opponent from generating upward force, leaving you both in standing rear clinch
 - **Risk**: If you sprawl too aggressively, you may lose balance forward, and the opponent can convert to a mat return takedown using your forward momentum
 
 ### 2. Hook opponent's lead leg with your foot behind their knee
 
 - **When to use**: When you feel the opponent position their feet between yours during the suplex setup phase
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The leg hook prevents the opponent from completing the hip extension needed for the lift, creating a tangle that favors you ending on top in half guard
 - **Risk**: If the hook is not deep enough, the opponent may still generate sufficient lift to complete a modified throw with you entangled
 
 ### 3. Two-on-one grip break on the body lock
 
 - **When to use**: Before the opponent initiates the lift, when you feel them tightening the body lock during the setup phase
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: Breaking the body lock removes the connection needed for the suplex entirely, forcing the opponent to re-establish grips and resetting the exchange to grip fighting
 - **Risk**: Grip fighting takes both hands away from base defense, potentially allowing the opponent to initiate the lift during the brief moment your hands are occupied
 
 ### 4. Sit to guard preemptively while controlling opponent's grip
 
 - **When to use**: When you feel the lift beginning and cannot prevent it through base defense alone, as a last resort to avoid being thrown
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: By sitting before the opponent generates full lift height, you eliminate the throwing arc and force a ground-based engagement from turtle or seated guard rather than being suplexed
 - **Risk**: The opponent may follow you down with the body lock intact and convert to a body lock pass, though this is generally preferable to being suplexed to side control
 
@@ -217,11 +217,11 @@ As the defender against a Suplex from Rear Clinch, your immediate priority is pr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Counter the suplex by hooking the opponent's leg during the lift and rotating your hips to land on top. As the opponent's momentum carries them into the throw, use the leg hook to direct them underneath you, establishing half guard top control as they land on their back with their leg trapped between yours
 
-### → [[Standing Rear Clinch]]
+### → [[Positions/Standing Rear Clinch]]
 
 Prevent the suplex entirely through early recognition and immediate base defense. Drop your center of gravity, widen your stance, and attack the body lock grip as soon as you recognize the setup cues. While you remain in the rear clinch, you have successfully defended the highest-threat technique and can now focus on grip fighting to escape the position
 

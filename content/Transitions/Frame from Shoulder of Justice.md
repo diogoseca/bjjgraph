@@ -21,7 +21,7 @@ The technique exploits the fact that the Shoulder of Justice depends on a precis
 
 Strategically, this technique serves as the first link in an escape chain. Reaching standard side control bottom removes the jaw pressure dilemma and allows the practitioner to employ the full spectrum of side control escapes, including elbow escapes, hip escapes, ghost escapes, and underhook recoveries. The framing technique is particularly valuable for practitioners who struggle with the psychological pressure of the jaw attack and need to decompose the escape process into more manageable steps.
 
-**From Position**: [[Shoulder of Justice]] (Bottom)
+**From Position**: [[Positions/Shoulder of Justice]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this technique serves as the first link in an escape chain. Reach
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Shoulder of Justice]] | 40% |
-| Counter | [[Kimura Trap]] | 20% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Shoulder of Justice]] | 40% |
+| Counter | [[Positions/Kimura Trap]] | 20% |
 
 
 </section>
@@ -187,25 +187,25 @@ The Frame from Shoulder of Justice occupies a specific niche within the side con
 ## Related Techniques
 
 
-- [[Shoulder of Justice]] - Starting position from which this frame technique is executed to degrade the specialized pressure
+- [[Positions/Shoulder of Justice]] - Starting position from which this frame technique is executed to degrade the specialized pressure
 
-- [[Side Control]] - Target position after successful framing removes the Shoulder of Justice pressure advantage
+- [[Positions/Side Control]] - Target position after successful framing removes the Shoulder of Justice pressure advantage
 
-- [[Kimura Trap]] - Counter threat when near arm extends during frame attempt, exposing the arm to top player's kimura
+- [[Positions/Kimura Trap]] - Counter threat when near arm extends during frame attempt, exposing the arm to top player's kimura
 
-- [[Escape Shoulder of Justice]] - Related escape technique from the same position that aims for full guard recovery rather than side control
+- [[Transitions/Escape Shoulder of Justice]] - Related escape technique from the same position that aims for full guard recovery rather than side control
 
-- [[Frame Escape from Shoulder of Justice]] - Related frame-based escape that targets half guard recovery rather than side control transition
+- [[Transitions/Frame Escape from Shoulder of Justice]] - Related frame-based escape that targets half guard recovery rather than side control transition
 
-- [[Half Guard]] - Subsequent escape target available from side control bottom after successful frame technique
+- [[Positions/Half Guard]] - Subsequent escape target available from side control bottom after successful frame technique
 
-- [[Knee Shield Half Guard]] - Optimal guard recovery position accessible through subsequent escape chain from side control bottom
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Optimal guard recovery position accessible through subsequent escape chain from side control bottom
 
-- [[Kesa Gatame]] - Related pressure position requiring similar frame-based defensive principles and pressure vector disruption
+- [[Positions/Side Control/Kesa Gatame]] - Related pressure position requiring similar frame-based defensive principles and pressure vector disruption
 
-- [[North-South]] - Position the top player may transition to if the frame disrupts shoulder pressure toward the head direction
+- [[Positions/North-South]] - Position the top player may transition to if the frame disrupts shoulder pressure toward the head direction
 
-- [[Escape Side Control Consolidation]] - Follow-up escape technique usable after successfully transitioning to standard side control bottom
+- [[Transitions/Escape Side Control Consolidation]] - Follow-up escape technique usable after successfully transitioning to standard side control bottom
 
 
 </section>

@@ -19,7 +19,7 @@ The X Pass is a highly effective guard passing technique that combines pressure,
 
 The X Pass exemplifies modern pressure passing principles by combining forward pressure with lateral movement, creating a dilemma where the opponent must choose between maintaining their guard structure or preventing the pass. The angular drive across the opponent's body is what separates this pass from linear pressure passes: rather than pushing straight through the guard, the passer drives diagonally from the opponent's near shoulder toward their far hip, collapsing defensive frames from an angle they were not designed to resist. When executed with proper timing and pressure application, the X Pass becomes a cornerstone technique for any guard passing system, seamlessly transitioning into dominant side control.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -30,9 +30,9 @@ The X Pass exemplifies modern pressure passing principles by combining forward p
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Half Guard]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -187,29 +187,29 @@ The X Pass represents a cornerstone technique in modern pressure passing systems
 ## Related Techniques
 
 
-- [[Knee Cut Pass]] - Alternative pressure pass that can transition into X Pass when defended with strong frames
+- [[Transitions/Knee Cut Pass]] - Alternative pressure pass that can transition into X Pass when defended with strong frames
 
-- [[Smash Pass]] - Complementary pressure pass with similar flattening principles but different leg clearing mechanics
+- [[Transitions/Smash Pass]] - Complementary pressure pass with similar flattening principles but different leg clearing mechanics
 
-- [[Leg Drag Pass]] - Alternative passing angle that chains with X Pass in systematic passing sequences
+- [[Transitions/Leg Drag Pass]] - Alternative passing angle that chains with X Pass in systematic passing sequences
 
-- [[Over-Under Pass]] - Natural follow-up when opponent defends X Pass by establishing deep underhooks
+- [[Transitions/Over-Under Pass]] - Natural follow-up when opponent defends X Pass by establishing deep underhooks
 
-- [[Knee Shield Half Guard]] - Primary defensive structure that X Pass is designed to defeat through angular pressure
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Primary defensive structure that X Pass is designed to defeat through angular pressure
 
-- [[Deep Half Guard]] - Position opponent may attempt when X Pass is initiated, requiring awareness to prevent entry
+- [[Positions/Half Guard/Deep Half Guard]] - Position opponent may attempt when X Pass is initiated, requiring awareness to prevent entry
 
-- [[Underhook Pass]] - Alternative approach from similar half guard top positions with different control mechanisms
+- [[Transitions/Underhook Pass]] - Alternative approach from similar half guard top positions with different control mechanisms
 
-- [[Long Step Pass]] - Different passing method that chains effectively with X Pass in passing systems
+- [[Transitions/Long Step Pass]] - Different passing method that chains effectively with X Pass in passing systems
 
-- [[Side Control]] - Primary ending position requiring proper consolidation after completing the pass
+- [[Positions/Side Control]] - Primary ending position requiring proper consolidation after completing the pass
 
-- [[Lockdown]] - Defensive leg entanglement that can trap X Pass attempts, requiring specific counters
+- [[Positions/Half Guard/Lockdown]] - Defensive leg entanglement that can trap X Pass attempts, requiring specific counters
 
-- [[Knee on Belly]] - Alternative ending position for advanced X Pass variations with continued momentum
+- [[Positions/Knee on Belly]] - Alternative ending position for advanced X Pass variations with continued momentum
 
-- [[Crossface Pass]] - Related pressure pass sharing the crossface control principle as primary control mechanism
+- [[Transitions/Crossface Pass]] - Related pressure pass sharing the crossface control principle as primary control mechanism
 
 
 </section>

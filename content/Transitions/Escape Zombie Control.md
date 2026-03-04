@@ -21,7 +21,7 @@ The escape requires precise coordination between lockdown release timing and fra
 
 Strategically, this escape occupies the last-resort tier within the Zombie bottom system. The preferred offensive transitions - Old School Sweep, Electric Chair, Deep Half Entry - should be attempted first. Escape Zombie Control becomes necessary when the top player has effectively shut down your lockdown threats and is systematically advancing their pass. The decision to abandon the Zombie game requires recognizing the tipping point between productive defense and diminishing returns, then committing fully to the escape once initiated.
 
-**From Position**: [[Zombie]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Zombie]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape occupies the last-resort tier within the Zombie botto
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 50% |
-| Failure | [[Zombie]] | 30% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Turtle]] | 50% |
+| Failure | [[Positions/Rubber Guard/Zombie]] | 30% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -189,29 +189,29 @@ Escape Zombie Control occupies a critical defensive role within the 10th Planet 
 ## Related Techniques
 
 
-- [[Turtle]] - Target position after successful escape from Zombie
+- [[Positions/Turtle]] - Target position after successful escape from Zombie
 
-- [[Lockdown]] - Core mechanic that must be released to execute the escape
+- [[Positions/Half Guard/Lockdown]] - Core mechanic that must be released to execute the escape
 
-- [[Half Guard]] - Alternative guard recovery destination from the escape sequence
+- [[Positions/Half Guard]] - Alternative guard recovery destination from the escape sequence
 
-- [[Back Control]] - Counter-risk position if escape is poorly timed or executed
+- [[Positions/Back Control]] - Counter-risk position if escape is poorly timed or executed
 
-- [[Deep Half Guard]] - Alternative escape pathway from Zombie before committing to turtle
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative escape pathway from Zombie before committing to turtle
 
-- [[Open Guard]] - Ultimate guard recovery target after establishing turtle
+- [[Positions/Open Guard]] - Ultimate guard recovery target after establishing turtle
 
-- [[Old School]] - Preferred offensive sweep to attempt before committing to escape
+- [[Positions/Half Guard/Old School]] - Preferred offensive sweep to attempt before committing to escape
 
-- [[Electric Chair]] - Offensive submission option from Zombie to exhaust before escaping
+- [[Positions/Half Guard/Electric Chair]] - Offensive submission option from Zombie to exhaust before escaping
 
-- [[Granby Roll to Guard]] - Follow-up escape technique from turtle after completing the transition
+- [[Transitions/Granby Roll to Guard]] - Follow-up escape technique from turtle after completing the transition
 
-- [[Guard Recovery]] - Related escape concept for recovering guard from compromised position
+- [[Principles/Guard Recovery]] - Related escape concept for recovering guard from compromised position
 
-- [[Rolling to Guard]] - Alternative turtle escape for guard recovery after reaching turtle
+- [[Transitions/Rolling to Guard]] - Alternative turtle escape for guard recovery after reaching turtle
 
-- [[Deep Half Entry]] - Alternative escape entry from deteriorating Zombie position
+- [[Transitions/Deep Half Entry]] - Alternative escape entry from deteriorating Zombie position
 
 
 </section>

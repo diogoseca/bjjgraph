@@ -21,7 +21,7 @@ This entry capitalizes on the opponent's standing posture above your inverted gu
 
 Strategically, the Straight Ankle Lock Entry serves as the primary submission-oriented exit from grasshopper guard when sweep opportunities stall. It pairs naturally with kneebar attacks from the same position, forcing the opponent to defend both the knee and ankle simultaneously. Against opponents who stand tall and wide to neutralize your sweeping game, the ankle lock entry punishes their conservative posture by attacking the most exposed target - the lead foot planted closest to your inverted body.
 
-**From Position**: [[Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Straight Ankle Lock Control]] | 55% |
-| Success | [[Outside Ashi-Garami]] | 10% |
-| Failure | [[Grasshopper Guard]] | 20% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Straight Ankle Lock Control]] | 55% |
+| Success | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 10% |
+| Failure | [[Positions/Grasshopper Guard]] | 20% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -192,25 +192,25 @@ The Straight Ankle Lock Entry is the primary submission-oriented exit from Grass
 ## Related Techniques
 
 
-- [[Grasshopper Guard]] - Starting position for this entry
+- [[Positions/Grasshopper Guard]] - Starting position for this entry
 
-- [[Straight Ankle Lock Control]] - Primary destination on successful entry
+- [[Positions/Straight Ankle Lock Control]] - Primary destination on successful entry
 
-- [[Outside Ashi-Garami]] - Alternative leg entanglement when opponent back steps during entry
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative leg entanglement when opponent back steps during entry
 
-- [[Ankle Lock Finish]] - Follow-up submission finish from Straight Ankle Lock Control
+- [[Transitions/Ankle Lock Finish]] - Follow-up submission finish from Straight Ankle Lock Control
 
-- [[Kneebar from Grasshopper]] - Chain attack partner - same initial leg framing with different target
+- [[Transitions/Kneebar from Grasshopper]] - Chain attack partner - same initial leg framing with different target
 
-- [[Inside Ashi-Garami]] - Advanced leg entanglement accessible when opponent level changes
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Advanced leg entanglement accessible when opponent level changes
 
-- [[Single Leg X Transition]] - Alternative grasshopper exit that shares similar leg positioning
+- [[Transitions/Single Leg X Transition]] - Alternative grasshopper exit that shares similar leg positioning
 
-- [[Grasshopper Sweep]] - Complementary sweep attack from same starting position
+- [[Transitions/Grasshopper Sweep]] - Complementary sweep attack from same starting position
 
-- [[Rolling Kneebar]] - Rolling variant that shares momentum-based entry mechanics
+- [[Transitions/Rolling Kneebar]] - Rolling variant that shares momentum-based entry mechanics
 
-- [[Ashi Garami Escape]] - Opponent's primary defensive response once entanglement is established
+- [[Transitions/Ashi Garami Escape]] - Opponent's primary defensive response once entanglement is established
 
 
 </section>

@@ -158,7 +158,7 @@ The critical defensive window occurs between the moment the passer initiates the
 
 Successful defense integrates proactive hip movement with grip management. Rather than passively holding your ringworm configuration and hoping it blocks the pass, you must actively follow the passer's movement with your hips, maintaining the angle that keeps your lapel barriers relevant. The defender who reads the long step early and begins hip chasing before the passer's foot lands maintains guard far more consistently than one who reacts after the step is complete.
 
-**Opponent's Starting Position**: [[Lapel Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful defense integrates proactive hip movement with grip management. Rathe
 ### 1. Hip chase—immediately rotate your hips to follow the passer's stepping direction, maintaining the angle that keeps your ringworm barriers in their passing lane
 
 - **When to use**: As soon as you recognize the long step initiation, before the passer's foot lands past your hip
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Passer's long step fails to exit your controlled lanes and they remain stuck in your ringworm configuration with energy wasted on the failed direction change
 - **Risk**: If your hip chase is too slow, you end up in a compromised half guard with the passer already past your primary barriers
 
 ### 2. Sit-up to back take—release your primary lapel grips and aggressively sit up toward the passer's back as they commit to the wide arc, using their directional momentum against them
 
 - **When to use**: When the passer commits fully to the long step and their back becomes exposed during the arc—most effective mid-step when they cannot reverse direction
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You achieve back control by exploiting the back exposure created by the passer's commitment to the wide stepping arc
 - **Risk**: If the passer drives shoulder pressure before you can secure back control, you end up underneath them with no lapel configuration and limited guard retention options
 
 ### 3. Leg pummel and hook reinsertion—use active leg movement to reinsert butterfly hooks or half guard as the passer steps around, converting the position to a standard guard exchange
 
 - **When to use**: When the passer has partially completed the step but hasn't yet driven forward pressure—the window between foot landing and shoulder drive
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard, which neutralizes the ringworm bypass and puts the passer in a standard passing scenario they were trying to avoid
 - **Risk**: Passer reads the leg pummel and uses knee pressure to block your hooks, completing the pass to side control
 
 ### 4. Lapel reconfiguration—quickly adjust your existing lapel wraps to the new passing angle before the passer can consolidate, re-establishing barriers in their new direction
 
 - **When to use**: When the passer's step is slow or hesitant, giving you time to redirect your control structure to match their new angle
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: The passer finds new lapel barriers in their adjusted passing lane and must restart their passing attempt from a worse energy position
 - **Risk**: If reconfiguration takes too long, the passer completes their pass while your hands are occupied with fabric rather than frames
 
@@ -228,11 +228,11 @@ Successful defense integrates proactive hip movement with grip management. Rathe
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lapel Guard]]
+### → [[Positions/Lapel Guard]]
 
 Chase the passer's hips immediately when you detect the long step initiation. Rotate your entire body to follow their movement, keeping your ringworm configuration aligned with their new passing lane. Maintain sleeve control to prevent their shoulder drive. The passer ends up stuck in your guard with energy wasted on a failed direction change.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Time the sit-up for the moment the passer's foot lifts off the mat for the arc. Release your primary lapel grips and explosively sit up toward their far side, threading your arm under their armpit as their back rotates toward you. Secure seatbelt control before they can reverse direction or drive shoulder pressure. Their commitment to the wide step is what creates the back exposure.
 

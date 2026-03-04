@@ -21,7 +21,7 @@ This technique requires precise timing and grip management to ensure both hooks 
 
 Strategically, the butterfly guard pull is especially effective against aggressive opponents who drive forward, as their forward momentum feeds directly into the elevator mechanics of butterfly sweeps. Entering butterfly guard from standing creates immediate offensive pressure that keeps opponents defensive from the first second of ground engagement, denying them the chance to settle into a comfortable passing base.
 
-**From Position**: [[Standing Position]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the butterfly guard pull is especially effective against aggressi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Butterfly Guard]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Butterfly Guard]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -194,29 +194,29 @@ The Butterfly Guard Pull serves as the critical bridge between standing engageme
 ## Related Techniques
 
 
-- [[Butterfly Guard]] - Target position achieved on successful execution of the pull
+- [[Positions/Butterfly Guard]] - Target position achieved on successful execution of the pull
 
-- [[Standing Position]] - Starting position from which the guard pull is initiated
+- [[Positions/Standing Position]] - Starting position from which the guard pull is initiated
 
-- [[Guard Pull]] - Related generic guard pull transition sharing similar standing-to-ground mechanics
+- [[Transitions/Guard Pull]] - Related generic guard pull transition sharing similar standing-to-ground mechanics
 
-- [[Basic Butterfly Sweep]] - Primary offensive follow-up technique from achieved butterfly guard position
+- [[Transitions/Basic Butterfly Sweep]] - Primary offensive follow-up technique from achieved butterfly guard position
 
-- [[Arm Drag to Back]] - High-percentage follow-up attack from established butterfly guard
+- [[Transitions/Arm Drag to Back]] - High-percentage follow-up attack from established butterfly guard
 
-- [[Half Guard]] - Common fallback position if butterfly hooks do not fully establish during the pull
+- [[Positions/Half Guard]] - Common fallback position if butterfly hooks do not fully establish during the pull
 
-- [[Open Guard]] - Generic guard position resulting from partially successful or countered pull attempts
+- [[Positions/Open Guard]] - Generic guard position resulting from partially successful or countered pull attempts
 
-- [[X-Guard]] - Downstream transition target accessible from established butterfly guard
+- [[Positions/X-Guard]] - Downstream transition target accessible from established butterfly guard
 
-- [[Single Leg X-Guard]] - Alternative downstream transition from butterfly guard when opponent stands
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative downstream transition from butterfly guard when opponent stands
 
-- [[Clinch]] - Standing engagement position that may precede grip establishment for the pull
+- [[Positions/Clinch]] - Standing engagement position that may precede grip establishment for the pull
 
-- [[Deep Half Guard]] - Defensive transition from butterfly if flattened under pressure after the pull
+- [[Positions/Half Guard/Deep Half Guard]] - Defensive transition from butterfly if flattened under pressure after the pull
 
-- [[Sumi Gaeshi]] - Sacrifice throw sharing similar sitting mechanics and grip configurations
+- [[Transitions/Sumi Gaeshi]] - Sacrifice throw sharing similar sitting mechanics and grip configurations
 
 
 </section>

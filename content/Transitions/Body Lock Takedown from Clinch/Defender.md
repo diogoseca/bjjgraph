@@ -146,7 +146,7 @@ description: "Defend the body lock takedown from clinch with systematic grip den
 
 Defending the body lock takedown requires a layered defensive approach that addresses the attack at multiple stages. The highest-percentage defense occurs before the body lock closes, through active hand fighting and underhook denial that prevents the attacker from clasping their hands behind your back. Once the grip is established, defensive options narrow but remain available through sprawling, hip switching, and creating angular displacement that breaks the attacker's driving line. Understanding the timing windows at each phase of the attack, from the initial grip setting through the loading phase to the committed drive, allows you to select the appropriate defensive response and apply it at the moment of maximum effectiveness rather than reacting after the takedown is already in progress.
 
-**Opponent's Starting Position**: [[Clinch]] (Top)
+**Opponent's Starting Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the body lock takedown requires a layered defensive approach that addr
 ### 1. Active hand fighting and underhook denial to prevent body lock closure
 
 - **When to use**: As soon as you recognize the opponent transitioning from standard clinch grips to body-wrapping arm positioning, before their hands connect behind your back
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Opponent's body lock attempt fails and the exchange returns to neutral clinch grip fighting with no positional change
 - **Risk**: If you focus too much on hand fighting and neglect your base, the opponent may switch to a snap down or level-change takedown while your arms are occupied
 
 ### 2. Sprawl defense by driving hips back and lowering center of gravity
 
 - **When to use**: Immediately when you feel the body lock grip close and the opponent begins loading their hips for the forward drive, before full commitment to the drive angle
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Your sprawl removes your hips from the driving path, the opponent cannot generate forward progress, and the exchange stalls or resets to neutral clinch
 - **Risk**: If the sprawl is too shallow or too late, the opponent adjusts to a lateral drop variation that uses your backward momentum against you
 
 ### 3. Whizzer and lateral hip switch to redirect the driving force
 
 - **When to use**: When the opponent has committed to their drive and forward momentum is building, use their committed energy against them by redirecting laterally rather than trying to stop their force directly
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: The opponent's drive is redirected past you, breaking their grip and potentially exposing their back as their momentum carries them past your position
 - **Risk**: If the whizzer is too loose or the hip switch is mistimed, the opponent powers through and completes the takedown with added rotational force
 
 ### 4. Leg hook during descent to establish half guard on landing
 
 - **When to use**: When the takedown is inevitable and you are already being driven to the mat, hook the opponent's near leg with your inside leg during the fall to prevent them from achieving side control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You land in half guard bottom with a leg entanglement rather than flat under side control, giving you immediate sweep and recovery options from a guard position
 - **Risk**: Focusing on the leg hook too early may distract from initial takedown defense and accelerate the fall rather than preventing it
 
@@ -217,11 +217,11 @@ Defending the body lock takedown requires a layered defensive approach that addr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Prevent the body lock from closing through aggressive hand fighting and underhook maintenance, or break the grip through frame pressure and sprawl defense before the drive develops. The earlier you intervene in the attack sequence, the higher the probability of returning to neutral clinch.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the takedown cannot be stopped, hook the attacker's near leg with your inside leg during the descent and turn to face them before hitting the mat. Establishing half guard with an underhook gives you immediate offensive options rather than having to survive and escape from side control bottom.
 

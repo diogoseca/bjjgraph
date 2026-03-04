@@ -146,7 +146,7 @@ description: "Defend against the Back Take from Kesa Gatame. Guide for top playe
 
 As the top player in Kesa Gatame, defending against the back take is a fundamental skill because your perpendicular positioning inherently exposes your back to attack. The bottom player's highest-reward escape option targets this structural vulnerability, making back take awareness essential for maintaining effective scarf hold control. Your defensive strategy combines proactive positional adjustments—keeping your hips low and chest pressure forward—with reactive counter-transitions to mount or North-South when the bottom player initiates their turn. The back take attempt typically begins with the bottom player framing against your face and attempting to turn their hips toward you, and early recognition of these cues allows you to shut down the escape before it develops momentum. When executed well, your defense converts their escape attempt into a worse position for them through mount advancement.
 
-**Opponent's Starting Position**: [[Kesa Gatame]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control/Kesa Gatame]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the top player in Kesa Gatame, defending against the back take is a fundament
 ### 1. Drop weight and sprawl hips backward to re-establish heavy chest-to-chest pressure
 
 - **When to use**: At the earliest sign of the bottom player's hip rotation—when you feel their hips beginning to turn toward you but before they achieve chest-to-chest position
-- **Targets**: [[Kesa Gatame]]
+- **Targets**: [[Positions/Side Control/Kesa Gatame]]
 - **If successful**: Bottom player is flattened back under your pressure with Kesa Gatame control re-established, and their escape attempt has cost them energy
 - **Risk**: If timed too late, your sprawl can accelerate their rotation by adding momentum in their turning direction
 
 ### 2. Transition to mount by stepping your far leg over the bottom player's body during their turn-in
 
 - **When to use**: When the bottom player commits to turning their hips toward you and begins the rotation—use their turning motion to facilitate your leg clearing their body
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You advance from Kesa Gatame to mount, converting their escape attempt into a worse position for them and scoring additional points in competition
 - **Risk**: If they hook your stepping leg before it clears, you may end up in half guard rather than mount
 
 ### 3. Circle toward their head to transition to North-South position, denying the back take angle
 
 - **When to use**: When you feel the rotation starting but want to maintain a top pinning position without risking the mount transition
-- **Targets**: [[Kesa Gatame]]
+- **Targets**: [[Positions/Side Control/Kesa Gatame]]
 - **If successful**: You establish North-South control where your back is no longer exposed, maintaining dominant position from a safer angle
 - **Risk**: Circling creates momentary lightness that could allow guard recovery if not executed quickly
 
 ### 4. Control bottom player's far arm with your near leg or free hand to eliminate their framing and rotation ability
 
 - **When to use**: Proactively when you notice the bottom player positioning their far arm for frames against your face or reaching for your posting arm
-- **Targets**: [[Kesa Gatame]]
+- **Targets**: [[Positions/Side Control/Kesa Gatame]]
 - **If successful**: Bottom player loses the primary tool needed to initiate the back take, making the rotation mechanically impossible without first freeing the arm
 - **Risk**: Adjusting to control their arm may momentarily lighten your chest pressure, creating windows for other escapes
 
@@ -217,11 +217,11 @@ As the top player in Kesa Gatame, defending against the back take is a fundament
 
 ## Best-Case Outcomes for Defender
 
-### → [[Kesa Gatame]]
+### → [[Positions/Side Control/Kesa Gatame]]
 
 Recognize the back take attempt early through hip rotation cues and immediately respond by dropping your weight, sprawling your hips, and driving your shoulder into the opponent's face to flatten them back down before the rotation develops. Maintaining heavy forward pressure with low hips is the most reliable prevention method.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the bottom player commits to turning their hips toward you, use their rotation as an opportunity to step your far leg over their body and establish mount. Their turn-in motion actually assists your mount transition by creating the space for your leg to clear. This converts their escape attempt into positional advancement for you.
 

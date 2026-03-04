@@ -21,7 +21,7 @@ The mechanics of completing this pass revolve around a coordinated sequence of c
 
 Understanding this transition is essential for any practitioner who regularly employs half guard passing sequences, as the quarter guard is one of the most commonly encountered intermediate positions during competitive exchanges. The ability to efficiently convert quarter guard advantage into side control eliminates the energy-draining cycle of repeatedly establishing passing pressure only to have opponents recover defensive structures at the last moment. Successful execution opens the entire side control submission tree and earns three points in IBJJF competition, making it one of the highest-value transitions in the pressure passing chain.
 
-**From Position**: [[Quarter Guard]] (Top)
+**From Position**: [[Positions/Quarter Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Understanding this transition is essential for any practitioner who regularly em
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Quarter Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Quarter Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ Complete Pass from Quarter Guard serves as the critical final checkpoint in the 
 ## Related Techniques
 
 
-- [[Quarter Guard]] - Starting position where this transition is executed from top control
+- [[Positions/Quarter Guard]] - Starting position where this transition is executed from top control
 
-- [[Side Control]] - Primary target position achieved upon successful pass completion
+- [[Positions/Side Control]] - Primary target position achieved upon successful pass completion
 
-- [[Half Guard]] - Position bottom player recovers to if counter-sweep succeeds during pass attempt
+- [[Positions/Half Guard]] - Position bottom player recovers to if counter-sweep succeeds during pass attempt
 
-- [[Knee Slice Pass]] - Primary passing technique that often leads to quarter guard when partially completed
+- [[Transitions/Knee Slice Pass]] - Primary passing technique that often leads to quarter guard when partially completed
 
-- [[Smash Pass]] - Alternative pressure-based pass sharing similar mechanics and crossface control principles
+- [[Transitions/Smash Pass]] - Alternative pressure-based pass sharing similar mechanics and crossface control principles
 
-- [[Crossface Pass]] - Complementary passing technique using identical crossface pressure and weight distribution
+- [[Transitions/Crossface Pass]] - Complementary passing technique using identical crossface pressure and weight distribution
 
-- [[Knee Shield Half Guard]] - Defensive structure bottom player attempts to recover to prevent pass completion
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive structure bottom player attempts to recover to prevent pass completion
 
-- [[Deep Half Guard]] - Alternative defensive entry bottom player may attempt when passer commits weight forward
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative defensive entry bottom player may attempt when passer commits weight forward
 
-- [[Headquarters Position]] - Earlier passing position in the half guard passing chain before quarter guard advancement
+- [[Positions/Headquarters Position]] - Earlier passing position in the half guard passing chain before quarter guard advancement
 
-- [[Long Step Pass]] - Alternative pass technique available when direct completion is blocked by hook retention
+- [[Transitions/Long Step Pass]] - Alternative pass technique available when direct completion is blocked by hook retention
 
 
 </section>

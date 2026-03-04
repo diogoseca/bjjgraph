@@ -21,7 +21,7 @@ This transition is particularly valuable when facing opponents with superior hee
 
 Timing is critical for this transition. The optimal window occurs when opponent focuses on attacking your heel or when they momentarily release hip pressure to adjust their position. The movement requires coordinated leg extraction, hip repositioning, and immediate hook establishment to prevent opponent from following into your new position or returning to neutral. The entire sequence must be executed as a fluid chain rather than discrete steps, as any pause mid-transition creates vulnerability to heel hook counter-attacks.
 
-**From Position**: [[50-50 Guard]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Timing is critical for this transition. The optimal window occurs when opponent 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 55% |
-| Failure | [[50-50 Guard]] | 30% |
-| Counter | [[50-50 Guard]] | 15% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 55% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The 50-50 to Single Leg X-Guard transition occupies a critical junction in the l
 ## Related Techniques
 
 
-- [[50-50 Guard]] - Starting position for this transition
+- [[Positions/Ashi Garami/50-50 Guard]] - Starting position for this transition
 
-- [[Single Leg X-Guard]] - Target position achieved on success
+- [[Positions/X-Guard/Single Leg X-Guard]] - Target position achieved on success
 
-- [[X-Guard]] - Related guard with similar sweep mechanics, accessible from Single Leg X
+- [[Positions/X-Guard]] - Related guard with similar sweep mechanics, accessible from Single Leg X
 
-- [[Inside Ashi-Garami]] - Alternative leg entanglement transition from 50-50
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative leg entanglement transition from 50-50
 
-- [[Inside Heel Hook]] - Primary submission threat this transition avoids
+- [[Submissions/Inside Heel Hook]] - Primary submission threat this transition avoids
 
-- [[Butterfly Sweep]] - Follow-up sweep available from Single Leg X-Guard
+- [[Transitions/Butterfly Sweep]] - Follow-up sweep available from Single Leg X-Guard
 
-- [[Leg Drag Pass]] - Alternative follow-up pass from Single Leg X-Guard
+- [[Transitions/Leg Drag Pass]] - Alternative follow-up pass from Single Leg X-Guard
 
-- [[50-50 Guard to Inside Ashi]] - Alternative transition from same starting position
+- [[Transitions/50-50 Guard to Inside Ashi]] - Alternative transition from same starting position
 
-- [[50-50 Guard to Outside Ashi]] - Alternative leg entanglement exit from 50-50
+- [[Transitions/50-50 Guard to Outside Ashi]] - Alternative leg entanglement exit from 50-50
 
-- [[Honey Hole]] - Opportunistic submission position if opponent's heel exposes during transition
+- [[Positions/Ashi Garami/Honey Hole]] - Opportunistic submission position if opponent's heel exposes during transition
 
-- [[Back Take from 50-50]] - Alternative offensive option from 50-50 bottom
+- [[Transitions/Back Take from 50-50]] - Alternative offensive option from 50-50 bottom
 
 
 </section>

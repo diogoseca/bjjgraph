@@ -156,7 +156,7 @@ Defending the Anaconda from Turtle requires understanding that this technique op
 
 The critical defensive insight is that the anaconda requires three sequential elements - arm trap, deep threading, and grip lock - before the roll can succeed. Disrupting any single element in this chain prevents the finish. Your near arm is the primary target, so protecting it by keeping your elbow tight to your knee eliminates the trap opportunity. If the arm is already trapped, fighting the grip before it locks is far more energy-efficient than escaping after. If caught in a locked anaconda mid-roll, your survival depends on creating space at the choking arm's elbow joint while moving your hips away from the attacker's chest pressure to reduce bilateral compression. Time awareness is critical - tap early rather than risking unconsciousness from a fully locked bilateral blood choke.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The critical defensive insight is that the anaconda requires three sequential el
 ### 1. Retract near arm and tuck elbow to knee before trap is secured, denying the essential arm-in configuration
 
 - **When to use**: Immediately upon feeling opponent begin to thread arm under your neck - this is the highest-percentage defense window before the technique develops
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Opponent cannot establish anaconda mechanics without the arm trap, forcing them to abandon the attempt and try a different turtle attack
 - **Risk**: Brief vulnerability during arm retraction may expose you to Darce attempt if opponent switches to far arm trap instead
 
 ### 2. Explosive stand-up by posting both hands and driving legs underneath to standing position before roll can be initiated
 
 - **When to use**: When you feel the grip being established but before the roll has been initiated - the attacker's commitment to the grip limits their ability to follow a fast standup
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Creates standing position where anaconda roll is much more difficult to execute and you can begin hand fighting to break the grip
 - **Risk**: If grip is already locked tight, standing may not create enough space and attacker can transition to standing anaconda finish
 
 ### 3. Roll with opponent's momentum while fighting grip at the elbow joint, then immediately scramble to re-establish turtle or recover guard
 
 - **When to use**: When the roll has already been initiated and cannot be stopped - going with the roll rather than resisting reduces choking pressure during transition
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Survive the roll transition and create enough space during the scramble to escape to turtle position facing your opponent or recover half guard
 - **Risk**: If grip remains fully locked after the roll, you end up in completed anaconda control with limited escape options and immediate submission threat
 
 ### 4. Circle away from choking arm side while hand fighting to strip the grip before figure-four is secured
 
 - **When to use**: When arm threading has begun but the figure-four grip has not yet been locked - the loose grip is vulnerable to hand fighting and angular changes
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Break the developing grip and force opponent to reset their attack, returning to neutral turtle top vs bottom dynamic
 - **Risk**: Circling movement may expose your back further if opponent transitions to back take instead of maintaining anaconda attempt
 
@@ -228,11 +228,11 @@ The critical defensive insight is that the anaconda requires three sequential el
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Prevent the anaconda from developing by retracting your near arm, hand fighting the grip before it locks, or executing an explosive stand-up during the setup phase. The goal is to force the attacker back to neutral turtle top position where they must restart their attack sequence, buying you time to initiate your own turtle escape.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 If caught in the roll, go with the opponent's momentum while aggressively fighting the grip at the elbow joint. Use the chaos of the rolling transition to create space and scramble to re-establish a defensive turtle position facing your opponent. From here you have reset the situation and can work standard turtle escapes.
 

@@ -178,7 +178,7 @@ The Arm Extraction serves as a critical gateway technique connecting bottom side
 
 This escape is particularly effective against pressure-based top players who prioritize chest pressure over weight distribution. The technique's success depends on proper frame placement, shoulder rotation mechanics, and the ability to maintain defensive posture throughout the extraction sequence. Mastery of arm extraction fundamentally improves survival rates under side control and provides essential defensive foundations for all skill levels.
 
-**From Position**: [[Side Control]] (Bottom)
+**From Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
 
@@ -231,10 +231,10 @@ This escape is particularly effective against pressure-based top players who pri
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Success | [[Closed Guard]] | 25% |
-| Failure | [[Side Control]] | 15% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Success | [[Positions/Closed Guard]] | 25% |
+| Failure | [[Positions/Side Control]] | 15% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -243,10 +243,10 @@ This escape is particularly effective against pressure-based top players who pri
 
 ## Opponent Counters
 
-- **Opponent increases chest pressure and follows your shoulder rotation** (Effectiveness: High) - Your Response: Switch to a different escape pathway—either bridge and roll escape or knee-elbow escape. Alternatively, pause the extraction attempt, re-establish frames, and wait for opponent to shift their weight before attempting again. Do not fight against heavy forward pressure; instead, redirect it or wait for the opportunity. → Leads to [[Side Control]]
-- **Opponent switches to north-south position to counter the escape** (Effectiveness: Medium) - Your Response: This is actually favorable—north-south offers different escape opportunities with less control. Immediately work for elbow-knee connection and shrimp to re-guard, or execute the hitchhiker escape specific to north-south position. The transition to north-south indicates your frames are working. → Leads to [[Side Control]]
-- **Opponent establishes a far-side underhook and prevents shoulder rotation** (Effectiveness: High) - Your Response: Address the underhook first by swimming your arm inside and establishing an overhook or by using your near-side frame to strip the underhook. Alternatively, switch to attacking the opposite side or utilize the bridge and roll escape which is specifically designed to counter underhook control. → Leads to [[Side Control]]
-- **Opponent transitions to mount or knee on belly during escape attempt** (Effectiveness: Medium) - Your Response: This transition requires opponent to shift their weight distribution, which temporarily reduces pressure. Immediately establish new frames appropriate for the new position—for mount, establish elbow-knee frames; for knee on belly, establish frames on the knee and hip. Continue the fundamental principle of creating space and recovering guard. → Leads to [[Mount]]
+- **Opponent increases chest pressure and follows your shoulder rotation** (Effectiveness: High) - Your Response: Switch to a different escape pathway—either bridge and roll escape or knee-elbow escape. Alternatively, pause the extraction attempt, re-establish frames, and wait for opponent to shift their weight before attempting again. Do not fight against heavy forward pressure; instead, redirect it or wait for the opportunity. → Leads to [[Positions/Side Control]]
+- **Opponent switches to north-south position to counter the escape** (Effectiveness: Medium) - Your Response: This is actually favorable—north-south offers different escape opportunities with less control. Immediately work for elbow-knee connection and shrimp to re-guard, or execute the hitchhiker escape specific to north-south position. The transition to north-south indicates your frames are working. → Leads to [[Positions/Side Control]]
+- **Opponent establishes a far-side underhook and prevents shoulder rotation** (Effectiveness: High) - Your Response: Address the underhook first by swimming your arm inside and establishing an overhook or by using your near-side frame to strip the underhook. Alternatively, switch to attacking the opposite side or utilize the bridge and roll escape which is specifically designed to counter underhook control. → Leads to [[Positions/Side Control]]
+- **Opponent transitions to mount or knee on belly during escape attempt** (Effectiveness: Medium) - Your Response: This transition requires opponent to shift their weight distribution, which temporarily reduces pressure. Immediately establish new frames appropriate for the new position—for mount, establish elbow-knee frames; for knee on belly, establish frames on the knee and hip. Continue the fundamental principle of creating space and recovering guard. → Leads to [[Positions/Mount]]
 
 
 </section>

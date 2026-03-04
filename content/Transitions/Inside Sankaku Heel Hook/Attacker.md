@@ -186,7 +186,7 @@ description: "Complete attacker guide for the Inside Sankaku Heel Hook. Step-by-
 
 From the attacker's perspective, the Inside Sankaku Heel Hook is the highest-percentage finishing sequence in the modern leg lock game. The attacker has already secured the dominant Inside Sankaku entanglement and now transitions from positional control to submission completion. Success depends on methodical progression through grip establishment, heel exposure, and controlled force application rather than explosive cranking. The attacker must manage the tension between patience—waiting for optimal grip positioning—and urgency—finishing before the defender can counter-entangle or extract their leg. Elite finishers treat the heel hook as a systematic process where each defensive barrier is stripped in sequence, not a single explosive movement.
 
-**From Position**: [[Inside Sankaku]] (Top)
+**From Position**: [[Positions/Inside Sankaku]] (Top)
 
 </section>
 
@@ -240,8 +240,8 @@ From the attacker's perspective, the Inside Sankaku Heel Hook is the highest-per
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Inside Sankaku]] | 30% |
-| Counter | [[50-50 Guard]] | 20% |
+| Failure | [[Positions/Inside Sankaku]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ From the attacker's perspective, the Inside Sankaku Heel Hook is the highest-per
 
 ## Opponent Counters
 
-- **Heel hiding defense where opponent presses heel against their own hip and turns toes inward** (Effectiveness: High) - Your Response: Apply steady hip pressure forward while using your inside leg to elevate their knee slightly, creating tension on their hip flexor that makes maintaining the hidden position exhausting. Alternatively, transition to a toe hold attack that targets the foot regardless of heel positioning. → Leads to [[Inside Sankaku]]
-- **Grip stripping where opponent uses both hands to peel your wrist away from their Achilles** (Effectiveness: High) - Your Response: Immediately re-grip or switch to the opposite hand configuration. If they commit both hands to grip fighting, their hips and legs are undefended—use this window to improve your leg positioning or transition to belly-down where grip stripping becomes nearly impossible. → Leads to [[Inside Sankaku]]
-- **Counter-entanglement where opponent threads their free leg to establish 50-50 Guard** (Effectiveness: Medium) - Your Response: Prevent the counter-entangle by controlling their free leg with your outside hand before they can thread it. If they succeed in establishing 50-50, immediately assess whether you retain heel access or need to disengage and re-enter from a dominant angle. → Leads to [[50-50 Guard]]
-- **Boot defense where opponent straightens their leg and pushes against your hip to create distance** (Effectiveness: Medium) - Your Response: Pull their knee toward you by squeezing your figure-four tighter while driving your hips forward to close the distance they create. Their straight leg actually exposes the heel more in many cases—use the extended position to establish your grip before they can re-bend the knee. → Leads to [[Inside Sankaku]]
+- **Heel hiding defense where opponent presses heel against their own hip and turns toes inward** (Effectiveness: High) - Your Response: Apply steady hip pressure forward while using your inside leg to elevate their knee slightly, creating tension on their hip flexor that makes maintaining the hidden position exhausting. Alternatively, transition to a toe hold attack that targets the foot regardless of heel positioning. → Leads to [[Positions/Inside Sankaku]]
+- **Grip stripping where opponent uses both hands to peel your wrist away from their Achilles** (Effectiveness: High) - Your Response: Immediately re-grip or switch to the opposite hand configuration. If they commit both hands to grip fighting, their hips and legs are undefended—use this window to improve your leg positioning or transition to belly-down where grip stripping becomes nearly impossible. → Leads to [[Positions/Inside Sankaku]]
+- **Counter-entanglement where opponent threads their free leg to establish 50-50 Guard** (Effectiveness: Medium) - Your Response: Prevent the counter-entangle by controlling their free leg with your outside hand before they can thread it. If they succeed in establishing 50-50, immediately assess whether you retain heel access or need to disengage and re-enter from a dominant angle. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Boot defense where opponent straightens their leg and pushes against your hip to create distance** (Effectiveness: Medium) - Your Response: Pull their knee toward you by squeezing your figure-four tighter while driving your hips forward to close the distance they create. Their straight leg actually exposes the heel more in many cases—use the extended position to establish your grip before they can re-bend the knee. → Leads to [[Positions/Inside Sankaku]]
 
 
 </section>

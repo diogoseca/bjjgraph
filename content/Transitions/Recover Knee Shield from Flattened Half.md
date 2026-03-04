@@ -21,7 +21,7 @@ The recovery process follows a systematic sequence of micro-movements rather tha
 
 The strategic importance of this transition cannot be overstated. Without the ability to recover knee shield from a flattened position, any opponent who successfully collapses your half guard frames effectively ends your bottom game. Mastering this recovery transforms what would otherwise be a dead-end position into a temporary setback, ensuring that pressure passing is never a permanent solution against your guard. The transition also carries inherent risk: creating space for your knee simultaneously opens space the top player can exploit for a knee slice or complete pass, requiring careful attention to timing and leg hook retention throughout the recovery sequence.
 
-**From Position**: [[Flattened Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The strategic importance of this transition cannot be overstated. Without the ab
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Knee Shield Half Guard]] | 55% |
-| Failure | [[Flattened Half Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard/Knee Shield Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ Recovering knee shield from flattened half guard is the critical link in the hal
 ## Related Techniques
 
 
-- [[Flattened Half Guard]] - Source position where this recovery begins
+- [[Positions/Half Guard/Flattened Half Guard]] - Source position where this recovery begins
 
-- [[Knee Shield Half Guard]] - Target position after successful knee shield recovery
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Target position after successful knee shield recovery
 
-- [[Half Guard]] - Parent position system containing both source and target
+- [[Positions/Half Guard]] - Parent position system containing both source and target
 
-- [[Deep Half Guard]] - Alternative recovery target when direct knee shield insertion is blocked
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative recovery target when direct knee shield insertion is blocked
 
-- [[Side Control]] - Position opponent reaches if they exploit the recovery attempt to complete a pass
+- [[Positions/Side Control]] - Position opponent reaches if they exploit the recovery attempt to complete a pass
 
-- [[Lockdown]] - Alternative stabilization tool that can precede knee shield recovery
+- [[Positions/Half Guard/Lockdown]] - Alternative stabilization tool that can precede knee shield recovery
 
-- [[Elbow Escape from Flattened Half]] - Related escape technique sharing the same starting position and hip escape mechanics
+- [[Transitions/Elbow Escape from Flattened Half]] - Related escape technique sharing the same starting position and hip escape mechanics
 
-- [[Deep Half Entry from Flattened]] - Alternative transition from the same starting position when knee shield is unavailable
+- [[Transitions/Deep Half Entry from Flattened]] - Alternative transition from the same starting position when knee shield is unavailable
 
-- [[Complete Pass from Flattened Half]] - Opponent's primary counter-transition exploiting failed recovery attempts
+- [[Transitions/Complete Pass from Flattened Half]] - Opponent's primary counter-transition exploiting failed recovery attempts
 
-- [[Knee Slice from Knee Shield]] - Opponent's primary attack after successful knee shield recovery
+- [[Transitions/Knee Slice from Knee Shield]] - Opponent's primary attack after successful knee shield recovery
 
 
 </section>

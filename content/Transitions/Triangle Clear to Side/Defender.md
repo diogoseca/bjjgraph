@@ -158,7 +158,7 @@ Your defensive methodology operates on two parallel tracks: lock maintenance and
 
 Successful defense requires understanding when to prioritize re-locking the triangle versus capitalizing on the exposed neck. If your opponent is methodical and patient, focus on tightening the lock and adjusting your angle to make their clearing attempts fail. If they are desperate and rushing, exploit the defensive gaps their urgency creates. The body triangle defender who can seamlessly alternate between positional maintenance and submission attacks forces the escaping player into an impossible dual-priority problem that compounds with fatigue and breathing restriction.
 
-**Opponent's Starting Position**: [[Body Triangle]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Successful defense requires understanding when to prioritize re-locking the tria
 ### 1. Re-lock the triangle by pulling your ankle deeper behind your knee the moment you feel any loosening, using your free hand to assist repositioning the foot if necessary
 
 - **When to use**: Immediately when you feel the opponent's hand contact your ankle or when the figure-four begins to loosen during their bridge, before they can insert a frame to block re-locking
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: Triangle is fully re-established with opponent having wasted energy on the failed clearing attempt, increasing fatigue and breathing difficulty while resetting their escape progress to zero
 - **Risk**: If you reach down to assist your ankle repositioning with your hand, you momentarily reduce upper body control, potentially allowing them to create distance or improve their turning angle
 
 ### 2. Attack rear naked choke aggressively the instant opponent redirects their defending hand from throat to your triangle lock, driving your choking arm across their exposed neck
 
 - **When to use**: When opponent commits a hand to the ankle clearing, exposing their throat by removing one of the two hands protecting their neck, particularly effective during their bridge when they are focused on the clearing sequence
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Opponent is forced to abandon the triangle clearing entirely and return both hands to neck defense, resetting their escape while you advance toward a dominant choking position with deeper arm placement
 - **Risk**: If the choke attempt fails to force them to abandon the clearing, you may have loosened your chest-to-back connection during the aggressive arm insertion, giving them additional space
 
 ### 3. Shift your hips and adjust the triangle angle to follow their rotation, maintaining your position behind them as they attempt to turn toward the triangle side
 
 - **When to use**: When opponent begins rotating their torso and hips toward the triangle side after partially loosening the lock, before they can complete the full lateral escape to side-facing position
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: You remain behind the opponent with the triangle still engaged, denying them the side-facing angle they need to complete the escape and forcing them to restart the clearing sequence from scratch
 - **Risk**: Following their rotation requires you to loosen chest-to-back connection momentarily, and if your timing is off they can accelerate through the gap to complete the escape
 
 ### 4. Transition to standard hooks or rear triangle when body triangle lock is critically compromised, releasing the figure-four before they can use the clearing momentum to reach side position
 
 - **When to use**: When the body triangle is partially cleared and re-locking is not feasible, releasing proactively to maintain back control with hooks rather than losing both the triangle and the position entirely
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You maintain back control in hooks configuration, which while less dominant than body triangle still prevents the opponent from escaping to side control and preserves your submission threats
 - **Risk**: Hooks are significantly easier to clear than the body triangle, so transitioning gives the opponent a more favorable escape scenario than they had before
 
@@ -229,11 +229,11 @@ Successful defense requires understanding when to prioritize re-locking the tria
 
 ## Best-Case Outcomes for Defender
 
-### → [[Body Triangle]]
+### → [[Positions/Back Control/Body Triangle]]
 
 Re-lock the triangle immediately when you feel loosening by pulling your ankle deeper behind your knee and tightening the figure-four. Use your free hand to assist foot repositioning if needed. Increase squeeze pressure after re-locking to punish the failed escape attempt and accelerate their fatigue. Combine with aggressive upper body control to reduce future clearing opportunities.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 If the body triangle is irreversibly compromised, transition proactively to standard hook-based back control before losing position entirely. Insert hooks quickly as you release the triangle, maintain seatbelt grip, and immediately re-establish chest-to-back pressure. From hooks, begin working to re-establish the body triangle or shift to submission attacks while they are fatigued from the clearing attempt.
 

@@ -156,7 +156,7 @@ Defending the Worm Guard Entry requires understanding that the bottom player nee
 
 When prevention fails and the bottom player begins threading, your options narrow but remain effective if timed correctly. Backstep immediately to remove your lead leg from the threading channel, strip the lapel grip before it connects to their shin, or drive heavy forward pressure to compress the space they need. Each counter creates a different positional outcome, so choose based on your passing style and the specific stage of the entry. The critical window is between the moment the lapel passes under your thigh and the moment it connects to their shin—once tension is established in a complete Worm Guard weave, defensive options become significantly more difficult and energy-intensive.
 
-**Opponent's Starting Position**: [[Lapel Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ When prevention fails and the bottom player begins threading, your options narro
 ### 1. Strip the lapel grip and retuck the fabric into your belt before the threading sequence begins
 
 - **When to use**: As soon as you recognize the bottom player is extracting your lapel and accumulating slack material, before they have enough fabric to begin threading
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Resets the exchange to neutral Lapel Guard where the bottom player must re-extract the lapel, buying you time to initiate passing
 - **Risk**: Reaching down to strip the lapel temporarily compromises your posture, which the bottom player may exploit with a collar drag or hip bump sweep
 
 ### 2. Backstep and circle away from the threading side, removing your lead leg from the weave path
 
 - **When to use**: When you feel the lapel beginning to travel under your thigh or the bottom player angles their hips perpendicular to begin the threading motion
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Your lead leg exits the threading channel, the lapel falls away without completing the weave, and you arrive at a neutral passing position with the bottom player in basic Open Guard
 - **Risk**: Aggressive circling can expose your back if the bottom player follows your rotation with a back take attempt, and you may lose your established passing grips
 
 ### 3. Drive heavy forward pressure to collapse the threading channel under your thigh
 
 - **When to use**: When the bottom player begins the hip escape to create threading angle but has not yet started feeding the lapel under your leg
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Your forward pressure compresses the space under your thigh, preventing the lapel from traveling through. Your weight also limits the bottom player's hip mobility, stalling their entry sequence
 - **Risk**: Heavy forward commitment into an active lapel grip can be redirected into a sweep if the bottom player uses your momentum against you with a Lapel Elevator Sweep
 
 ### 4. Two-on-one grip break on the lapel hand to sever the primary control before the weave connects to their shin
 
 - **When to use**: When the lapel has already passed under your thigh but has not yet been connected to the bottom player's shin—the narrow window between threading and completion
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The lapel falls free from their grip and the weave collapses before establishing tension. You can immediately advance into a passing sequence against basic Open Guard
 - **Risk**: Using both hands for the grip break removes your posting base momentarily, and if the bottom player has already connected the lapel to their shin, your two-on-one will be fighting against structural tension rather than just grip strength
 
@@ -227,11 +227,11 @@ When prevention fails and the bottom player begins threading, your options narro
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lapel Guard]]
+### → [[Positions/Lapel Guard]]
 
 Strip the lapel grip early or drive forward pressure to prevent the threading sequence from starting. This resets the bottom player to basic Lapel Guard where they must re-extract material, giving you time to establish passing grips and initiate your passing sequence before they can reattempt the entry.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Backstep aggressively and circle away from the threading side as soon as you recognize the entry attempt. The lateral movement removes your leg from the weave path and can break the bottom player's secondary grips if they cannot follow your angle change, leaving them in basic Open Guard without lapel control.
 

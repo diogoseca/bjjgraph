@@ -154,7 +154,7 @@ description: "Defend against the Shoulder of Justice to Mount transition in BJJ.
 
 Defending the Shoulder of Justice to Mount transition requires recognizing the early preparatory movements that signal the attacker's intent and responding with precisely timed defensive actions during the narrow window when the attacker's base is most compromised. The defender must overcome the psychological challenge of acting decisively despite the intense jaw pressure, identifying the specific moment when the attacker's weight shifts during the step-over to create a genuine escape opportunity. Successful defense depends on maintaining hip mobility throughout the Shoulder of Justice pin and deploying frames or knee insertions at the exact moment the attacker commits to crossing their leg over. Early recognition and proactive positioning are far more effective than reactive scrambling once the step-over is underway.
 
-**Opponent's Starting Position**: [[Shoulder of Justice]] (Top)
+**Opponent's Starting Position**: [[Positions/Shoulder of Justice]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Shoulder of Justice to Mount transition requires recognizing the e
 ### 1. Insert near-side knee between your body and opponent's chest as their weight shifts during the step-over attempt
 
 - **When to use**: The moment you feel the opponent's weight lighten on your hip line as they begin walking their knee up or loading weight forward for the step-over
-- **Targets**: [[Shoulder of Justice]]
+- **Targets**: [[Positions/Shoulder of Justice]]
 - **If successful**: Block the step-over path and recover to half guard or re-establish frames to prevent repeated transition attempts
 - **Risk**: If poorly timed, opponent drives your knee down with chest weight and completes mount transition with your leg partially trapped underneath
 
 ### 2. Time a sharp hip escape toward the opponent's legs as their far leg lifts off the mat during the step-over
 
 - **When to use**: When you feel the opponent's base narrow and their weight shifts forward, indicating imminent step-over commitment
-- **Targets**: [[Shoulder of Justice]]
+- **Targets**: [[Positions/Shoulder of Justice]]
 - **If successful**: Create enough angle to prevent the step-over and force opponent to re-establish Shoulder of Justice positioning from scratch
 - **Risk**: Opponent reads the hip escape and follows with their knee, completing the mount transition more rapidly by exploiting your movement
 
 ### 3. Execute an explosive bridge directed toward the side the opponent is stepping from as their leg crosses your body midway through the step-over
 
 - **When to use**: When opponent's far leg is in the air and they are committed to the step-over with weight distributed across your centerline and their base at its narrowest
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Reverse the position by catching opponent off-balance during their most vulnerable transitional moment, potentially achieving top half guard
 - **Risk**: If the bridge is too early or too weak, opponent rides it out and completes mount with even more pressure and momentum
 
 ### 4. Create a forearm frame against opponent's hip line as you sense their weight consolidating for the mount attempt
 
 - **When to use**: As early as possible when you recognize setup cues such as base narrowing or increased forward pressure through the shoulder
-- **Targets**: [[Shoulder of Justice]]
+- **Targets**: [[Positions/Shoulder of Justice]]
 - **If successful**: Block the step-over path and maintain enough space to prevent mount establishment, forcing opponent to address the frame first
 - **Risk**: Extended arm becomes vulnerable to kimura or americana if opponent abandons the mount transition and attacks the framing arm instead
 
@@ -225,11 +225,11 @@ Defending the Shoulder of Justice to Mount transition requires recognizing the e
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive bridge during the critical moment when your opponent's far leg is in the air during the step-over. Direct the bridge toward the side they are stepping from to exploit their compromised base. If successful, catch them off-balance and establish top half guard position by controlling their trapped leg.
 
-### → [[Shoulder of Justice]]
+### → [[Positions/Shoulder of Justice]]
 
 Insert your near-side knee early as the opponent begins walking their base toward your hip. Combined with forearm frames, this blocks the step-over path and forces the opponent to abandon the mount transition. While you remain in Shoulder of Justice bottom, you prevent the more dangerous mount advancement and can continue working standard side control escapes.
 

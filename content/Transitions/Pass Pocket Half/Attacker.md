@@ -180,7 +180,7 @@ description: "Learn to pass the Pocket Half Guard with systematic pressure techn
 
 The Pocket Half Guard pass from the attacker's perspective demands a methodical approach that prioritizes systematic destruction of the bottom player's defensive architecture before committing to leg extraction. The attacker must coordinate three simultaneous pressure vectors: crossface driving the opponent's head away, underhook pulling their far shoulder forward, and hip pressure collapsing the pocket space. Success requires patience and positional sensitivity—rushing the extraction before the bottom player is fully flattened is the most common cause of failure. The pass rewards practitioners who understand progressive pressure application and can read when the bottom player's defensive structures have been sufficiently compromised to allow safe extraction of the trapped leg.
 
-**From Position**: [[Pocket Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Pocket Half Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The Pocket Half Guard pass from the attacker's perspective demands a methodical 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Pocket Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Pocket Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Pocket Half Guard pass from the attacker's perspective demands a methodical 
 
 ## Opponent Counters
 
-- **Bottom player scoots hips underneath for deep half guard entry during extraction phase** (Effectiveness: High) - Your Response: Immediately stop extraction, drive hips low and heavy back into their body, re-flatten with crossface pressure before reattempting. If deep half is already entered, address that position before continuing. → Leads to [[Pocket Half Guard]]
-- **Bottom player recovers pocket frame by reinserting bottom foot against your hip during weight shift** (Effectiveness: Medium) - Your Response: Use your free hand to strip their foot from your hip while maintaining chest pressure. Re-collapse the pocket space before continuing extraction. Do not attempt to pass through an active pocket frame. → Leads to [[Pocket Half Guard]]
-- **Bottom player executes Old School sweep by pulling your far shoulder down during extraction when your base is compromised** (Effectiveness: High) - Your Response: Post your free hand wide in the direction of the sweep and drive your weight back down. If you feel the sweep beginning, abandon extraction and reset your base before the momentum carries you over. → Leads to [[Half Guard]]
-- **Bottom player uses underhook to take the back during hip rotation or weight shift away from them** (Effectiveness: Medium) - Your Response: Keep your elbow tight to prevent them from getting their head to your hip. If they begin circling to your back, sit your hips back toward them and reestablish chest contact. Control their wrist to prevent them from completing the back take. → Leads to [[Half Guard]]
+- **Bottom player scoots hips underneath for deep half guard entry during extraction phase** (Effectiveness: High) - Your Response: Immediately stop extraction, drive hips low and heavy back into their body, re-flatten with crossface pressure before reattempting. If deep half is already entered, address that position before continuing. → Leads to [[Positions/Half Guard/Pocket Half Guard]]
+- **Bottom player recovers pocket frame by reinserting bottom foot against your hip during weight shift** (Effectiveness: Medium) - Your Response: Use your free hand to strip their foot from your hip while maintaining chest pressure. Re-collapse the pocket space before continuing extraction. Do not attempt to pass through an active pocket frame. → Leads to [[Positions/Half Guard/Pocket Half Guard]]
+- **Bottom player executes Old School sweep by pulling your far shoulder down during extraction when your base is compromised** (Effectiveness: High) - Your Response: Post your free hand wide in the direction of the sweep and drive your weight back down. If you feel the sweep beginning, abandon extraction and reset your base before the momentum carries you over. → Leads to [[Positions/Half Guard]]
+- **Bottom player uses underhook to take the back during hip rotation or weight shift away from them** (Effectiveness: Medium) - Your Response: Keep your elbow tight to prevent them from getting their head to your hip. If they begin circling to your back, sit your hips back toward them and reestablish chest contact. Control their wrist to prevent them from completing the back take. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -158,7 +158,7 @@ Defending the Americana from 3-4 Mount requires recognizing the attack early and
 
 Keep your elbows tight to your ribs at all times, never allowing your near arm to be pinned flat beside your head. Use the attacker's focus on the submission to create hip movement for escape. If the figure-four locks, your remaining options are gripping your own lapel to anchor against the rotation, bridging explosively toward the attacking side to disrupt their finishing angle, or turning into the attacker to close the rotational space needed for the paint-the-mat motion. Early recognition and immediate defensive action determine whether you survive this position or concede the tap.
 
-**Opponent's Starting Position**: [[3-4 Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/3-4 Mount]] (Top)
 
 
 </section>
@@ -196,28 +196,28 @@ Keep your elbows tight to your ribs at all times, never allowing your near arm t
 ### 1. Retract elbow tight to ribs before figure-four locks, pulling wrist away from mat and denying the pin
 
 - **When to use**: Immediately upon feeling the wrist pin attempt—this is your highest-percentage defense window before the grip establishes
-- **Targets**: [[3-4 Mount]]
+- **Targets**: [[Positions/Mount/3-4 Mount]]
 - **If successful**: Americana attempt is fully denied and attacker must reset or choose a different attack from mount
 - **Risk**: If retraction fails, you may inadvertently straighten the arm, creating an armbar opportunity for the attacker
 
 ### 2. Bridge explosively toward the attacking side during the threading phase to disrupt figure-four setup
 
 - **When to use**: When the attacker begins threading their arm under your elbow—their base is slightly compromised during this transitional movement
-- **Targets**: [[3-4 Mount]]
+- **Targets**: [[Positions/Mount/3-4 Mount]]
 - **If successful**: Disrupts the threading motion and may create enough space to retract the arm or begin hip escape sequence
 - **Risk**: If bridge lacks sufficient power, the attacker absorbs it through the posted leg and you've wasted energy
 
 ### 3. Hip escape toward the posted leg side during the wrist pin phase to recover half guard
 
 - **When to use**: When the attacker's attention shifts to securing the wrist pin—they must reduce hip pressure to reach for your arm
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Create enough space to insert knee and recover half guard, removing yourself from the submission threat entirely
 - **Risk**: Hip escape requires significant energy and may expose your back if timing is off
 
 ### 4. Grab own lapel, belt, or shorts with threatened hand to anchor against rotational pressure
 
 - **When to use**: Last-resort option when the figure-four is already locked—creates an anchor point that prevents the paint-the-mat finishing motion
-- **Targets**: [[3-4 Mount]]
+- **Targets**: [[Positions/Mount/3-4 Mount]]
 - **If successful**: Stalls the submission and forces the attacker to strip the grip, buying time and potentially opening other defensive windows
 - **Risk**: Anchoring is temporary—skilled attackers will eventually strip the grip through elbow repositioning or angle changes
 
@@ -240,11 +240,11 @@ Keep your elbows tight to your ribs at all times, never allowing your near arm t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time hip escape during the wrist pin phase when attacker is focused on grip setup rather than mount maintenance, creating enough space to insert knee and recover half guard
 
-### → [[3-4 Mount]]
+### → [[Positions/Mount/3-4 Mount]]
 
 Deny the figure-four grip through early elbow retraction and defensive anchoring, forcing the attacker to abandon the submission attempt and reset from mount
 

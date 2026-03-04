@@ -95,19 +95,19 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (22% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (22% of attempts)
 
-- **[[Arm Recovery to Guard]]** (16% of attempts)
+- **[[Transitions/Arm Recovery to Guard]]** (16% of attempts)
 
-- **[[Bridge and Roll]]** (13% of attempts)
+- **[[Transitions/Bridge and Roll]]** (13% of attempts)
 
-- **[[Granby Roll to Guard]]** (17% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (17% of attempts)
 
-- **[[Technical Stand-up]]** (11% of attempts)
+- **[[Transitions/Technical Stand-up]]** (11% of attempts)
 
-- **[[Re-Guard from Headquarters]]** (15% of attempts)
+- **[[Transitions/Re-Guard from Headquarters]]** (15% of attempts)
 
-- **[[Frame Escape from Kuzure Kesa]]** (6% of attempts)
+- **[[Transitions/Frame Escape from Kuzure Kesa]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -168,25 +168,25 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 ### Available Transitions
 
 
-- **[[Americana]]** (11% of attempts)
+- **[[Transitions/Americana]]** (11% of attempts)
 
-- **[[Armbar Finish]]** (10% of attempts)
+- **[[Transitions/Armbar Finish]]** (10% of attempts)
 
-- **[[Kimura]]** (10% of attempts)
+- **[[Transitions/Kimura]]** (10% of attempts)
 
-- **[[Side Control to Mount]]** (11% of attempts)
+- **[[Transitions/Side Control to Mount]]** (11% of attempts)
 
-- **[[Side Control to North-South]]** (12% of attempts)
+- **[[Transitions/Side Control to North-South]]** (12% of attempts)
 
-- **[[Paper Cutter Choke]]** (9% of attempts)
+- **[[Transitions/Paper Cutter Choke]]** (9% of attempts)
 
-- **[[Arm Triangle]]** (10% of attempts)
+- **[[Transitions/Arm Triangle]]** (10% of attempts)
 
-- **[[Breadcutter Choke]]** (8% of attempts)
+- **[[Transitions/Breadcutter Choke]]** (8% of attempts)
 
-- **[[Armbar on Free Arm]]** (9% of attempts)
+- **[[Transitions/Armbar on Free Arm]]** (9% of attempts)
 
-- **[[Gift Wrap Control]]** (10% of attempts)
+- **[[Transitions/Gift Wrap Control]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -229,19 +229,19 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 ## Related Positions
 
 
-- **[[Kesa Gatame]]** - Parent position - traditional scarf hold without arm isolation
+- **[[Positions/Side Control/Kesa Gatame]]** - Parent position - traditional scarf hold without arm isolation
 
-- **[[Modified Scarf Hold]]** - Alternative name for same position emphasizing the arm control modification
+- **[[Positions/Side Control/Modified Scarf Hold]]** - Alternative name for same position emphasizing the arm control modification
 
-- **[[Side Control]]** - Family of positions sharing lateral control characteristics
+- **[[Positions/Side Control]]** - Family of positions sharing lateral control characteristics
 
-- **[[North-South]]** - Common transition when opponent defends arm isolation effectively
+- **[[Positions/North-South]]** - Common transition when opponent defends arm isolation effectively
 
-- **[[Mount]]** - Natural progression when opponent turns into the pressure
+- **[[Positions/Mount]]** - Natural progression when opponent turns into the pressure
 
-- **[[Kimura Trap]]** - Alternative submission control available from trapped arm
+- **[[Positions/Kimura Trap]]** - Alternative submission control available from trapped arm
 
-- **[[Armbar Control]]** - Submission control achieved when arm is extended
+- **[[Positions/Armbar Control]]** - Submission control achieved when arm is extended
 
 
 </section>

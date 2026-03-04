@@ -26,8 +26,8 @@ Strategic application follows the leg lock positional hierarchy: establish domin
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Knee and ankle joint
-**Starting Position**: [[Cross Ashi-Garami]]
-**From Position**: [[Cross Ashi-Garami]] (Top)
+**Starting Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]]
+**From Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -78,8 +78,8 @@ Strategic application follows the leg lock positional hierarchy: establish domin
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Cross Ashi-Garami]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Failure | [[Positions/Ashi Garami/Cross Ashi-Garami]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -214,9 +214,9 @@ Strategic application follows the leg lock positional hierarchy: establish domin
 
 ## From Which Positions?
 
-- [[Cross Ashi-Garami]]
-- [[Outside Ashi-Garami]]
-- [[Ashi Garami]]
+- [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- [[Positions/Ashi Garami]]
 
 
 </section>
@@ -225,14 +225,14 @@ Strategic application follows the leg lock positional hierarchy: establish domin
 
 ## Related Submissions
 
-- [[Inside Heel Hook]]
-- [[Inside Heel Hook from Honey Hole]]
-- [[Outside Heel Hook from Backside 50-50]]
-- [[Heel Hook from Saddle]]
-- [[Heel Hook from Ushiro Ashi]]
-- [[Achilles Lock]]
-- [[Ankle Lock from X-Guard]]
-- [[Inside Sankaku Heel Hook Finish]]
+- [[Submissions/Inside Heel Hook]]
+- [[Transitions/Inside Heel Hook from Honey Hole]]
+- [[Submissions/Outside Heel Hook from Backside 50-50]]
+- [[Transitions/Heel Hook from Saddle]]
+- [[Submissions/Heel Hook from Ushiro Ashi]]
+- [[Submissions/Achilles Lock]]
+- [[Submissions/Ankle Lock from X-Guard]]
+- [[Submissions/Inside Sankaku Heel Hook Finish]]
 
 
 </section>
@@ -241,14 +241,14 @@ Strategic application follows the leg lock positional hierarchy: establish domin
 
 ## Additional Related Content
 
-- [[Cross Ashi-Garami]] - Primary starting position providing crossed leg control for heel hook application
-- [[Outside Ashi-Garami]] - Alternative starting position with outside leg angle enabling direct heel access
-- [[Ashi Garami]] - Parent position family encompassing all leg entanglement variations
-- [[Saddle]] - Advanced leg entanglement offering transition pathway for heel hook chains
-- [[Inside Heel Hook]] - Complementary submission attacking the medial knee from inside leg angle
-- [[Honey Hole]] - Related dominant leg entanglement position for heel hook finishing
-- [[50-50 Guard]] - Related bilateral leg entanglement reached during scrambles and counter-attacks
-- [[Kneebar Control]] - Alternative leg attack available from same cross ashi configuration
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Primary starting position providing crossed leg control for heel hook application
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative starting position with outside leg angle enabling direct heel access
+- [[Positions/Ashi Garami]] - Parent position family encompassing all leg entanglement variations
+- [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement offering transition pathway for heel hook chains
+- [[Submissions/Inside Heel Hook]] - Complementary submission attacking the medial knee from inside leg angle
+- [[Positions/Ashi Garami/Honey Hole]] - Related dominant leg entanglement position for heel hook finishing
+- [[Positions/Ashi Garami/50-50 Guard]] - Related bilateral leg entanglement reached during scrambles and counter-attacks
+- [[Positions/Kneebar Control]] - Alternative leg attack available from same cross ashi configuration
 
 
 </section>

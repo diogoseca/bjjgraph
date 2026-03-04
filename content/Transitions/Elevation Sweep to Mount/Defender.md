@@ -158,7 +158,7 @@ The primary defensive strategy centers on denying the sweeper the conditions the
 
 Understanding which outcome each defensive action targets is critical for intelligent defense. Prevention defenses keep you in the standing position and force the opponent to remain in Reverse X-Guard without completing their sweep. Mitigation defenses accept that you will be swept but minimize the positional damage by ensuring you land in half guard rather than full mount. Recognizing which category of defense is available based on the sweep's progression determines whether you fight the sweep entirely or manage where you end up.
 
-**Opponent's Starting Position**: [[Reverse X-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Understanding which outcome each defensive action targets is critical for intell
 ### 1. Widen base and drop hips low to deny the elevation platform
 
 - **When to use**: Early in the setup phase when you feel opponent loading hips underneath you and before significant upward pressure begins
-- **Targets**: [[Reverse X-Guard]]
+- **Targets**: [[Positions/X-Guard/Reverse X-Guard]]
 - **If successful**: Opponent remains in Reverse X-Guard without sweep completion, forced to transition to alternative attacks or re-attempt with different angle
 - **Risk**: Wide base creates vulnerability to lateral sweeps like the technical Reverse X-Guard Sweep and may open transitions to Single Leg X-Guard
 
 ### 2. Step back with the trapped leg to extract from hooks while maintaining upper body control
 
 - **When to use**: When you feel the hooks engaging but before full elevation begins, particularly when you still have posting ability on the trapped side
-- **Targets**: [[Reverse X-Guard]]
+- **Targets**: [[Positions/X-Guard/Reverse X-Guard]]
 - **If successful**: Hooks are cleared or weakened, allowing you to begin passing sequence or reset to neutral standing position
 - **Risk**: If opponent follows your retreat with inversion, they may take your back or transition to Ashi Garami leg entanglement
 
 ### 3. Post hand behind and rotate hips during mid-sweep to convert landing to half guard
 
 - **When to use**: When elevation has already begun and prevention is no longer possible - you are being lifted and swept backward
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You land in half guard rather than full mount, significantly reducing positional damage and maintaining guard recovery options
 - **Risk**: If opponent maintains strong grip control, the post may be insufficient and you still land in mount. The posted arm is also temporarily unavailable for defense
 
 ### 4. Strip the controlling sleeve or wrist grip before elevation can be initiated
 
 - **When to use**: Immediately upon recognizing the opponent establishing their controlling grip, before they can coordinate the pull with hook elevation
-- **Targets**: [[Reverse X-Guard]]
+- **Targets**: [[Positions/X-Guard/Reverse X-Guard]]
 - **If successful**: Without the controlling grip, the opponent cannot load your weight forward onto their hooks, making the elevation mechanically ineffective
 - **Risk**: Hand fighting requires momentary reduction in base stability, and aggressive grip fighting may open other attack angles
 
@@ -229,11 +229,11 @@ Understanding which outcome each defensive action targets is critical for intell
 
 ## Best-Case Outcomes for Defender
 
-### → [[Reverse X-Guard]]
+### → [[Positions/X-Guard/Reverse X-Guard]]
 
 Deny the sweep entirely through early base adjustment, hook removal, or grip stripping. Widen stance and drop hips before elevation begins, then immediately work to address hooks and begin your passing sequence. The key is acting during the setup phase rather than waiting for the sweep to initiate.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When caught mid-sweep and full prevention is impossible, rotate your hips during the fall and aggressively insert your near knee across the opponent's body as you land. This knee insertion converts the landing from full mount to half guard, giving you a significantly better defensive position to work from. Time the knee insertion to coincide with the moment of landing when the sweeper's control transitions from hooks to mount establishment.
 

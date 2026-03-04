@@ -21,7 +21,7 @@ The technique operates on the principle that sustained, structurally supported f
 
 From a strategic perspective, this escape integrates into a layered defense system where frame-based hip escapes work in conjunction with bridge escapes and turtle transitions. When the top player adjusts to prevent the hip escape, they often lighten their chest pressure, creating windows for bridge escapes. Conversely, failed bridge attempts create angular changes that improve frame positioning for subsequent hip escapes. This complementary relationship makes the frame escape the foundational technique in any Modified Scarf Hold escape system, providing consistent forward progress even when individual attempts do not achieve full guard recovery.
 
-**From Position**: [[Modified Scarf Hold]] (Bottom)
+**From Position**: [[Positions/Side Control/Modified Scarf Hold]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,11 +32,11 @@ From a strategic perspective, this escape integrates into a layered defense syst
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Open Guard]] | 10% |
-| Failure | [[Modified Scarf Hold]] | 30% |
-| Counter | [[Mount]] | 15% |
-| Counter | [[North-South]] | 10% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Side Control/Modified Scarf Hold]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
+| Counter | [[Positions/North-South]] | 10% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Frame Escape from Modified Scarf Hold occupies a central role in the bottom 
 ## Related Techniques
 
 
-- [[Modified Scarf Hold]] - Starting position - the oppressive pin this escape addresses
+- [[Positions/Side Control/Modified Scarf Hold]] - Starting position - the oppressive pin this escape addresses
 
-- [[Half Guard]] - Primary escape destination after successful frame escape and knee insertion
+- [[Positions/Half Guard]] - Primary escape destination after successful frame escape and knee insertion
 
-- [[Open Guard]] - Secondary escape destination when enough space is created for full guard recovery
+- [[Positions/Open Guard]] - Secondary escape destination when enough space is created for full guard recovery
 
-- [[Mount]] - Counter outcome if top player capitalizes on escape attempt to advance position
+- [[Positions/Mount]] - Counter outcome if top player capitalizes on escape attempt to advance position
 
-- [[North-South]] - Counter outcome when top player circles to north-south during hip escape
+- [[Positions/North-South]] - Counter outcome when top player circles to north-south during hip escape
 
-- [[Bridge Escape from Modified Scarf Hold]] - Complementary explosive escape that chains with frame-based hip escape
+- [[Transitions/Bridge Escape from Modified Scarf Hold]] - Complementary explosive escape that chains with frame-based hip escape
 
-- [[Kesa Gatame]] - Related scarf hold position with similar escape principles
+- [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position with similar escape principles
 
-- [[Side Control]] - Parent position family sharing common escape frameworks
+- [[Positions/Side Control]] - Parent position family sharing common escape frameworks
 
-- [[Turtle]] - Alternative escape destination via frame-to-turtle variant
+- [[Positions/Turtle]] - Alternative escape destination via frame-to-turtle variant
 
-- [[Knee Shield Half Guard]] - Preferred half guard variation to establish after successful escape
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Preferred half guard variation to establish after successful escape
 
-- [[Arm Extraction]] - Complementary technique for freeing the trapped near arm during escape
+- [[Transitions/Arm Extraction]] - Complementary technique for freeing the trapped near arm during escape
 
 
 </section>

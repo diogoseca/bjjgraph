@@ -21,7 +21,7 @@ The technique is particularly valuable in competition scenarios where opponents 
 
 Strategically, this transition transforms the triangle from a single-threat position into a dual-threat platform. Opponents who know the back take exists must moderate their defensive rotation, which paradoxically makes the triangle choke itself more effective. This dilemma-based attacking framework is what elevates triangle control from a submission attempt into a complete positional system.
 
-**From Position**: [[Triangle Control]] (Bottom)
+**From Position**: [[Positions/Triangle Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition transforms the triangle from a single-threat posi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Triangle Control]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Triangle Control]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -196,29 +196,29 @@ The triangle to back transition represents a crucial connection between guard-ba
 ## Related Techniques
 
 
-- [[Triangle Choke]] - Alternative finish from starting position when opponent defends without rotating
+- [[Transitions/Triangle Choke]] - Alternative finish from starting position when opponent defends without rotating
 
-- [[Triangle to Armbar]] - Alternative transition from triangle when opponent postures rather than turns
+- [[Transitions/Triangle to Armbar]] - Alternative transition from triangle when opponent postures rather than turns
 
-- [[Triangle to Omoplata]] - Alternative transition when opponent stacks forward into triangle pressure
+- [[Transitions/Triangle to Omoplata]] - Alternative transition when opponent stacks forward into triangle pressure
 
-- [[Omoplata to Back]] - Parallel technique using similar rotation-following principle from different guard attack
+- [[Transitions/Omoplata to Back]] - Parallel technique using similar rotation-following principle from different guard attack
 
-- [[Back Take from Bottom]] - Related back take category sharing entry mechanics from guard positions
+- [[Transitions/Back Take from Bottom]] - Related back take category sharing entry mechanics from guard positions
 
-- [[Arm Drag to Back]] - Alternative back take entry using upper body control rather than leg configuration
+- [[Transitions/Arm Drag to Back]] - Alternative back take entry using upper body control rather than leg configuration
 
-- [[Rear Naked Choke]] - Primary follow-up submission from the resulting back control position
+- [[Transitions/Rear Naked Choke]] - Primary follow-up submission from the resulting back control position
 
-- [[Armbar from Back]] - Secondary follow-up attack available from resulting back control
+- [[Submissions/Armbar from Back]] - Secondary follow-up attack available from resulting back control
 
-- [[Bow and Arrow Choke]] - High-percentage gi submission available after establishing back control
+- [[Transitions/Bow and Arrow Choke]] - High-percentage gi submission available after establishing back control
 
-- [[Closed Guard to Triangle]] - Common entry sequence that establishes the starting triangle control position
+- [[Transitions/Closed Guard to Triangle]] - Common entry sequence that establishes the starting triangle control position
 
-- [[Kimura to Back Take]] - Related transition using submission control to access back position
+- [[Transitions/Kimura to Back Take]] - Related transition using submission control to access back position
 
-- [[Berimbolo Entry]] - Alternative guard-based back take sharing rotational movement patterns
+- [[Transitions/Berimbolo Entry]] - Alternative guard-based back take sharing rotational movement patterns
 
 
 </section>

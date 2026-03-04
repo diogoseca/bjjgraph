@@ -148,7 +148,7 @@ description: "How to defend against Counter Sweep in BJJ. Recognition cues, defe
 
 The Counter Sweep Defender is the bottom guard player whose sweep attempt has been read and countered by the top player. When your sweep is stuffed, you enter a critical defensive window where the top player holds a significant tactical advantage: your grips are committed, your hips are displaced, and your guard structure is temporarily compromised from the failed sweep attempt. The defender must immediately recognize that their sweep has failed and transition from offensive sweep mechanics to defensive guard recovery or secondary attack chains. The worst response is to continue forcing a sweep that has already been neutralized, as this compounds the positional disadvantage and expends energy against a mechanically unfavorable configuration. Instead, the defender must rapidly re-establish guard frames, recover grips, and either reguard to a neutral open guard or redirect into a secondary technique that exploits the top player's counter-sweep commitment.
 
-**Opponent's Starting Position**: [[Open Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 
@@ -186,21 +186,21 @@ The Counter Sweep Defender is the bottom guard player whose sweep attempt has be
 ### 1. Abandon sweep and immediately reguard to neutral open guard with feet on hips and active grips
 
 - **When to use**: When you recognize early that the sweep has been read and the top player has adjusted base before you fully commit
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Reset to neutral open guard position where you retain all offensive options and can attempt a different sweep or transition to a specific guard system
 - **Risk**: If too slow recovering guard, top player may have already begun a passing sequence that is difficult to stop from half-committed sweep position
 
 ### 2. Chain to secondary sweep in the opposite direction exploiting the top player's counter-pressure commitment
 
 - **When to use**: When the top player overcommits their weight to defending your first sweep, creating vulnerability in the opposite direction
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Complete the secondary sweep and achieve top position, turning the failed first sweep into a two-part offensive combination
 - **Risk**: If the top player maintains centered base and does not overcommit, the secondary sweep also fails and you are more fatigued with further compromised guard structure
 
 ### 3. Create scramble by inverting, granby rolling, or explosively disengaging to prevent the top player from establishing a controlled pass
 
 - **When to use**: When the top player has already begun passing and a clean reguard is not possible, making a scramble the best available option
-- **Targets**: [[Scramble Position]]
+- **Targets**: [[Positions/Scramble Position]]
 - **If successful**: Prevent the clean guard pass and create a chaotic exchange where you can compete for position on more equal terms
 - **Risk**: Scrambles favor the more athletic and explosive practitioner, and energy expenditure is high with uncertain positional outcome
 
@@ -212,11 +212,11 @@ The Counter Sweep Defender is the bottom guard player whose sweep attempt has be
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Abandon the failed sweep early, retract your legs to reinsert feet on hips or establish shin frames, re-grip their sleeves or collar, and reset to a neutral open guard before they can initiate a passing sequence. The key is speed of recognition - the earlier you identify sweep failure, the more time you have to rebuild guard structure.
 
-### → [[Scramble Position]]
+### → [[Positions/Scramble Position]]
 
 When clean reguard is impossible because the top player is already advancing, use explosive hip movement (granby roll, inversion, or technical stand-up) to disrupt their passing trajectory and create a dynamic exchange. Focus on preventing them from establishing chest-to-chest contact or crossface control during the scramble.
 

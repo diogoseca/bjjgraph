@@ -158,7 +158,7 @@ The critical defensive window occurs when the top player begins addressing your 
 
 Understanding the escape mechanics from the defender's perspective allows you to anticipate each step and insert your counter at the optimal moment. The top player's extraction follows a predictable sequence: forward pressure, limp leg, triangle break, extraction, pass. Your goal is to disrupt this sequence as early as possible, ideally preventing them from ever reaching the triangle break stage by keeping them reactive to your offensive threats.
 
-**Opponent's Starting Position**: [[Lockdown]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Lockdown]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Understanding the escape mechanics from the defender's perspective allows you to
 ### 1. Tighten lockdown and extend hips aggressively while fighting for underhook to load Electric Chair or Old School sweep
 
 - **When to use**: Early in the escape sequence when opponent first begins applying forward pressure and before they address the foot triangle
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Opponent is forced to abandon extraction and defend sweep, resetting to neutral lockdown position where you retain offensive initiative
 - **Risk**: If opponent has already established deep crossface, your extension may be countered by their forward pressure and flattening
 
 ### 2. Transition to Deep Half Guard by releasing lockdown and diving underneath opponent's hips with deep underhook on far leg
 
 - **When to use**: When opponent has successfully broken or is about to break the foot triangle and lockdown re-engagement is unlikely
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: You establish a new offensive guard position with powerful sweep leverage, converting the lockdown loss into a positionally advantageous transition
 - **Risk**: If opponent reads the transition and sprawls early, you may end up flattened underneath without proper deep half structure
 
 ### 3. Re-engage lockdown by recapturing ankle triangle before opponent's heel fully clears your legs
 
 - **When to use**: During the extraction phase when opponent's foot is partially free but has not yet cleared completely
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Lockdown is fully re-established, negating opponent's escape effort and forcing them to restart the entire extraction sequence
 - **Risk**: If opponent anticipates re-engagement and uses their hand to guide their foot clear, you waste energy on a failed recapture
 
 ### 4. Execute whip-up sweep by coming up explosively to elbow and driving into opponent when their hand drops to break foot triangle
 
 - **When to use**: The moment opponent releases upper body control to reach for your feet—their base is momentarily compromised
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: You achieve sweep to top position or dogfight, completely reversing the positional dynamic and punishing their extraction attempt
 - **Risk**: If opponent maintains crossface while reaching with other hand, your elevation attempt may be stuffed and you lose energy
 
@@ -229,11 +229,11 @@ Understanding the escape mechanics from the defender's perspective allows you to
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lockdown]]
+### → [[Positions/Half Guard/Lockdown]]
 
 Maintain tight ankle triangle by actively squeezing knees together and pulling opponent's heel toward your hip. When they begin extraction, immediately attack with Old School sweep or whip-up to force them to defend rather than extract. Fight for the underhook constantly and use hip extension to disrupt their forward pressure. If they break the triangle, immediately re-engage by recapturing their ankle before full clearance.
 
-### → [[Deep Half Guard]]
+### → [[Positions/Half Guard/Deep Half Guard]]
 
 When you sense the lockdown is about to be broken—their hand is on your feet, the triangle is loosening—proactively release the lockdown and thread your body underneath their hips. Secure a deep underhook on their far leg and position your head and shoulder against their inner thigh. This converts a losing defensive exchange into a new offensive platform with powerful sweep leverage.
 

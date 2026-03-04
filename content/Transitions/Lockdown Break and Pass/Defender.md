@@ -166,7 +166,7 @@ The primary defensive strategy revolves around maintaining tension on the lockdo
 
 Strategically, if the lockdown is compromised despite your best defensive efforts, transitioning to Deep Half Guard represents your best recovery option. By diving underneath toward the opponent's far hip as the lockdown loosens, you convert one controlling position into another rather than conceding the pass. This transition must be executed before the opponent fully extracts their leg, making early recognition of a failing lockdown essential for maintaining offensive pressure from bottom.
 
-**Opponent's Starting Position**: [[Electric Chair]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 
 </section>
 
@@ -204,28 +204,28 @@ Strategically, if the lockdown is compromised despite your best defensive effort
 ### 1. Increase hip extension and pull heel deeper while threatening Old School sweep by gripping opponent's far arm and initiating backward roll
 
 - **When to use**: When you feel opponent relax their trapped leg or begin reaching for the foot triangle with their hand, indicating the early stages of the escape sequence
-- **Targets**: [[Electric Chair]]
+- **Targets**: [[Positions/Half Guard/Electric Chair]]
 - **If successful**: Opponent abandons the break attempt and must re-establish forward pressure, returning to the Electric Chair position where you maintain offensive control
 - **Risk**: If opponent has already broken the foot triangle, the sweep attempt may fail and accelerate their pass to side control
 
 ### 2. Dive underneath toward opponent's far hip to establish Deep Half Guard, releasing the lockdown proactively and securing deep underhook around their far leg
 
 - **When to use**: When the foot triangle is partially compromised and you feel the lockdown weakening despite your attempts to maintain it—transition before complete extraction
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: You establish a new offensive guard position with powerful sweep leverage, converting a failing lockdown into Deep Half Guard offense
 - **Risk**: If opponent recognizes the transition and sprawls immediately, you may end up flattened without either lockdown or deep half control
 
 ### 3. Release underhook to grab opponent's far ankle and initiate Electric Chair submission by pulling the ankle toward your hip while extending hips maximally
 
 - **When to use**: When opponent commits heavily to forward pressure and crossface, leaving their far leg exposed and your lockdown still intact—use their forward commitment against them
-- **Targets**: [[Electric Chair]]
+- **Targets**: [[Positions/Half Guard/Electric Chair]]
 - **If successful**: Opponent must immediately address the submission threat, completely abandoning the lockdown break attempt and returning focus to defending the Electric Chair
 - **Risk**: Releasing the underhook temporarily reduces your sweep control and may allow opponent to establish dominant upper body position if the submission attempt fails
 
 ### 4. Windshield wiper your legs to re-engage lockdown by catching opponent's ankle with your bottom foot as they attempt extraction
 
 - **When to use**: In the moment the opponent's foot is clearing the figure-four but has not yet fully escaped—a split-second re-catch window exists during extraction
-- **Targets**: [[Electric Chair]]
+- **Targets**: [[Positions/Half Guard/Electric Chair]]
 - **If successful**: Lockdown is re-established, forcing opponent to restart the entire break sequence from the beginning while they have expended energy on the failed attempt
 - **Risk**: If the re-catch fails, you have momentarily opened your guard structure and opponent can accelerate directly into a passing sequence
 
@@ -237,11 +237,11 @@ Strategically, if the lockdown is compromised despite your best defensive effort
 
 ## Best-Case Outcomes for Defender
 
-### → [[Electric Chair]]
+### → [[Positions/Half Guard/Electric Chair]]
 
 Maintain maximum lockdown tension by pulling your heel down and extending hips whenever you feel the opponent's leg relax. Threaten the Old School sweep or Electric Chair submission each time they reach for the foot triangle, forcing them to abandon break attempts. Keep your underhook deep and active to prevent them from establishing the forward pressure needed for extraction.
 
-### → [[Deep Half Guard]]
+### → [[Positions/Half Guard/Deep Half Guard]]
 
 When you recognize the lockdown is failing—foot triangle partially open, opponent's knee driving toward your hip—immediately release the lockdown and dive underneath toward their far hip. Secure a deep underhook around their far thigh before they can sprawl, and position your head and shoulder against their inner thigh to establish the Deep Half Guard sweep platform.
 

@@ -148,7 +148,7 @@ description: "Learn to defend the Half Butterfly to Dogfight transition. Recogni
 
 As the defender, you are the top player in half butterfly working to prevent the bottom player from rising to the dogfight position. Your primary objective is to deny the underhook, maintain heavy chest pressure, and neutralize the butterfly hook's elevation power before the bottom player can coordinate their rise. The dogfight position is significantly more dangerous for the top player than half butterfly top, so preventing this transition is a high priority. Early recognition of the setup cues—particularly the underhook attempt and hook loading—gives you the best chance to shut down the transition before it gains momentum. Once the bottom player begins rising, your options narrow rapidly, making proactive defense far more effective than reactive recovery.
 
-**Opponent's Starting Position**: [[Half Butterfly]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Bottom)
 
 </section>
 
@@ -185,21 +185,21 @@ As the defender, you are the top player in half butterfly working to prevent the
 ### 1. Drive heavy crossface and sprawl hips back to flatten the bottom player before they can complete the elevation
 
 - **When to use**: At the earliest sign of the underhook attempt or body rotation—most effective when applied before the bottom player has fully loaded their butterfly hook
-- **Targets**: [[Half Butterfly]]
+- **Targets**: [[Positions/Butterfly Guard/Half Butterfly]]
 - **If successful**: Bottom player is driven back to flat half butterfly with their underhook stripped and crossface pressure preventing re-attempts
 - **Risk**: If timed late, the crossface slides off as the bottom player's elevation momentum carries them through to dogfight
 
 ### 2. Establish deep whizzer overhook on the underhook arm and drive shoulder pressure downward while circling the hips away from the hook
 
 - **When to use**: When the bottom player has already secured the underhook and is beginning to turn—the whizzer counters the underhook's forward drive directly
-- **Targets**: [[Half Butterfly]]
+- **Targets**: [[Positions/Butterfly Guard/Half Butterfly]]
 - **If successful**: The whizzer peels the underhook or neutralizes its driving power, stalling the transition and allowing you to re-establish chest pressure
 - **Risk**: An overly committed whizzer can expose your back if the bottom player times a back take during the whizzer application
 
 ### 3. Shift weight onto the butterfly hook side and drive hips aggressively forward to kill the hook's elevation angle while driving the bottom player flat
 
 - **When to use**: When you feel the butterfly hook loading beneath you and the bottom player is about to initiate the elevation—this kills the hook's mechanical advantage
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: The butterfly hook is neutralized and the bottom player is driven flat onto their back in a compromised flattened half guard where passing becomes significantly easier
 - **Risk**: Committing weight forward creates vulnerability to deep half guard entries if the bottom player redirects under your hips
 
@@ -211,11 +211,11 @@ As the defender, you are the top player in half butterfly working to prevent the
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Butterfly]]
+### → [[Positions/Butterfly Guard/Half Butterfly]]
 
 Apply immediate crossface pressure and whizzer control at the first sign of the underhook attempt. Maintain heavy chest pressure and keep your hips low to deny the space needed for the bottom player to turn and load their butterfly hook. Strip the underhook by driving your shoulder across their face and swimming your arm inside.
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 When the bottom player begins their elevation attempt, drive your weight forward and sprawl your hips back aggressively. Use the crossface to drive their head to the mat while simultaneously shifting your hips onto the butterfly hook side to kill its elevation angle. The combination of head control and hip pressure flattens them into a compromised position.
 

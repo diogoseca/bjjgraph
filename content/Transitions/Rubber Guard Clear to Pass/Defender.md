@@ -160,7 +160,7 @@ description: "How to defend against Rubber Guard Clear to Pass in BJJ. Recogniti
 
 Defending against the Rubber Guard Clear to Pass means you are the bottom player working to maintain your Rubber Guard control while your opponent systematically attempts to extract their arm, recover posture, and pass to Side Control. Your primary objective is to prevent the escape sequence from progressing through its stages by maintaining the structural integrity of your leg configuration and arm isolation. The defender holds significant mechanical advantage in the early stages because the Rubber Guard system is designed to punish the exact movements the top player must make to escape. Every phase of their escape creates a vulnerability you can exploit: arm extraction opens triangle entries, distance creation enables omoplata rotation, and posture recovery attempts expose the arm for deeper control. Your defensive strategy centers on recognizing which phase of the escape the opponent has reached and deploying the appropriate counter before they complete the next step. Timing is critical - the moment the opponent begins addressing your leg control is your highest-percentage window for transitioning to a triangle or advancing through the Rubber Guard positional hierarchy. Maintaining calm grip fighting and controlled hip engagement prevents the escape from gaining momentum, while reactive submission entries capitalize on the openings each escape phase necessarily creates.
 
-**Opponent's Starting Position**: [[Rubber Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard]] (Top)
 
 </section>
 
@@ -196,35 +196,35 @@ Defending against the Rubber Guard Clear to Pass means you are the bottom player
 ### 1. Transition to triangle by shooting legs up around opponent's head and extracted arm as they begin circular arm withdrawal
 
 - **When to use**: When opponent begins arm extraction phase and creates the arm-plus-head configuration needed for triangle lock
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Locks triangle control with strong finishing angle, opponent must now defend immediate choke threat
 - **Risk**: If triangle lock is incomplete, opponent may stack and complete pass with accelerated urgency
 
 ### 2. Re-establish Mission Control by re-gripping shin and pulling leg back high across opponent's back while they fight your knee
 
 - **When to use**: When opponent has begun pushing your knee but has not yet created enough space for arm extraction
-- **Targets**: [[Rubber Guard]]
+- **Targets**: [[Positions/Rubber Guard]]
 - **If successful**: Resets opponent's escape progress entirely, forcing them to restart the sequence from the frame establishment phase
 - **Risk**: Repeated re-establishment without advancing position allows opponent to develop timing and eventually break through
 
 ### 3. Advance to New York or Invisible Collar position by using opponent's frame creation as leverage to deepen arm isolation
 
 - **When to use**: When opponent posts free hand on your hip creating a predictable frame that exposes their posture to further breaking
-- **Targets**: [[Rubber Guard]]
+- **Targets**: [[Positions/Rubber Guard]]
 - **If successful**: Advances to higher-threat Rubber Guard variation with enhanced submission options and deeper arm control
 - **Risk**: Advancement attempt requires releasing partial control momentarily, creating window for accelerated escape
 
 ### 4. Rotate hips for omoplata entry as opponent creates distance during posture recovery phase
 
 - **When to use**: When opponent successfully extracts arm but creates lateral distance that exposes their shoulder to rotational control
-- **Targets**: [[Rubber Guard]]
+- **Targets**: [[Positions/Rubber Guard]]
 - **If successful**: Establishes omoplata control position with sweep and submission options, converting their escape into a worse position
 - **Risk**: If opponent keeps elbow tight and drives forward through the rotation, they can flatten you and continue passing
 
 ### 5. Transition to closed guard by re-locking ankles behind opponent's back as they recover posture but before guard opening
 
 - **When to use**: When opponent has recovered posture but has not yet opened your legs to begin passing sequence
-- **Targets**: [[Rubber Guard]]
+- **Targets**: [[Positions/Rubber Guard]]
 - **If successful**: Establishes closed guard control, preventing the pass and providing a platform to re-enter Rubber Guard or work alternative attacks
 - **Risk**: Closed guard is a downgrade from Rubber Guard; opponent may immediately work standard guard opening sequences
 
@@ -236,11 +236,11 @@ Defending against the Rubber Guard Clear to Pass means you are the bottom player
 
 ## Best-Case Outcomes for Defender
 
-### → [[Rubber Guard]]
+### → [[Positions/Rubber Guard]]
 
 Maintain grip on shin or foot throughout opponent's escape attempt by actively fighting their hand that pushes your knee. Use hip elevation to re-lock the leg configuration before they complete arm extraction. Pull their head down with your free hand to re-break posture whenever they create any vertical space. The key is preventing the escape from progressing past the leg control phase - if you keep your shin anchored across their back, the arm trap remains functional.
 
-### → [[Triangle Control]]
+### → [[Positions/Triangle Control]]
 
 Time your triangle entry to the precise moment the opponent begins extracting their trapped arm using circular motion. As their arm withdraws toward their body, shoot your hips up and lock your legs around their head and the withdrawing arm before it clears your chest. The extraction movement naturally creates the one-arm-in, one-arm-out configuration that triangles require. Cut the angle immediately by rotating your hips 30-45 degrees and pull their head down to prevent posture recovery.
 

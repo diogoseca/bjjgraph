@@ -95,23 +95,23 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 ### Available Transitions
 
 
-- **[[Bridge and Roll]]** (12% of attempts)
+- **[[Transitions/Bridge and Roll]]** (12% of attempts)
 
-- **[[Elbow Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (13% of attempts)
 
-- **[[Hip Escape to Guard]]** (9% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (9% of attempts)
 
-- **[[Back Take from Kesa Gatame]]** (10% of attempts)
+- **[[Transitions/Back Take from Kesa Gatame]]** (10% of attempts)
 
-- **[[Bridge and Turn to Turtle]]** (28% of attempts)
+- **[[Transitions/Bridge and Turn to Turtle]]** (28% of attempts)
 
-- **[[Ghost Escape]]** (12% of attempts)
+- **[[Transitions/Ghost Escape]]** (12% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (10% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (10% of attempts)
 
-- **[[Bridge Escape from Kesa Gatame]]** (3% of attempts)
+- **[[Transitions/Bridge Escape from Kesa Gatame]]** (3% of attempts)
 
-- **[[Frame to Guard from Kesa Gatame]]** (3% of attempts)
+- **[[Transitions/Frame to Guard from Kesa Gatame]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -176,27 +176,27 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 ### Available Transitions
 
 
-- **[[Americana]]** (12% of attempts)
+- **[[Transitions/Americana]]** (12% of attempts)
 
-- **[[Kimura]]** (10% of attempts)
+- **[[Transitions/Kimura]]** (10% of attempts)
 
-- **[[Armbar Finish]]** (9% of attempts)
+- **[[Transitions/Armbar Finish]]** (9% of attempts)
 
-- **[[North-South Choke]]** (8% of attempts)
+- **[[Transitions/North-South Choke]]** (8% of attempts)
 
-- **[[Side Control to Mount]]** (14% of attempts)
+- **[[Transitions/Side Control to Mount]]** (14% of attempts)
 
-- **[[Side Control to North-South]]** (32% of attempts)
+- **[[Transitions/Side Control to North-South]]** (32% of attempts)
 
-- **[[Arm Triangle]]** (7% of attempts)
+- **[[Transitions/Arm Triangle]]** (7% of attempts)
 
-- **[[Kesa Gatame to Modified Scarf Hold]]** (2% of attempts)
+- **[[Transitions/Kesa Gatame to Modified Scarf Hold]]** (2% of attempts)
 
-- **[[Kesa Gatame to Reverse Kesa-Gatame]]** (2% of attempts)
+- **[[Transitions/Kesa Gatame to Reverse Kesa-Gatame]]** (2% of attempts)
 
-- **[[Americana from Kesa Gatame]]** (2% of attempts)
+- **[[Submissions/Americana from Kesa Gatame]]** (2% of attempts)
 
-- **[[Kesa Gatame Arm Crush]]** (2% of attempts)
+- **[[Submissions/Kesa Gatame Arm Crush]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -235,23 +235,23 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 ## Related Positions
 
 
-- **[[Side Control]]** - Parent category with similar point value but different control mechanics
+- **[[Positions/Side Control]]** - Parent category with similar point value but different control mechanics
 
-- **[[Reverse Kesa-Gatame]]** - Variation facing opposite direction that addresses back exposure concerns
+- **[[Positions/Side Control/Reverse Kesa-Gatame]]** - Variation facing opposite direction that addresses back exposure concerns
 
-- **[[Kuzure Kesa-Gatame]]** - Modified variation with different arm control and weight distribution
+- **[[Positions/Side Control/Kuzure Kesa-Gatame]]** - Modified variation with different arm control and weight distribution
 
-- **[[Modified Scarf Hold]]** - Variation with modified leg positioning for enhanced control
+- **[[Positions/Side Control/Modified Scarf Hold]]** - Variation with modified leg positioning for enhanced control
 
-- **[[North-South]]** - Common transition target for maintaining control when opponent creates space
+- **[[Positions/North-South]]** - Common transition target for maintaining control when opponent creates space
 
-- **[[Mount]]** - Advancement position when opponent turns into top player
+- **[[Positions/Mount]]** - Advancement position when opponent turns into top player
 
-- **[[Turtle]]** - Primary escape target for bottom player turning into opponent
+- **[[Positions/Turtle]]** - Primary escape target for bottom player turning into opponent
 
-- **[[Half Guard]]** - Guard recovery target for bottom player's escape sequences
+- **[[Positions/Half Guard]]** - Guard recovery target for bottom player's escape sequences
 
-- **[[Kimura Trap]]** - Alternative arm lock control when opponent defends americana
+- **[[Positions/Kimura Trap]]** - Alternative arm lock control when opponent defends americana
 
 
 </section>

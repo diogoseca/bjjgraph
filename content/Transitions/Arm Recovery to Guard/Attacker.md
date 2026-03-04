@@ -190,7 +190,7 @@ The strategic value of this transition lies in its directness. Rather than conce
 
 The technique requires precise coordination between shoulder mechanics, hip movement, and frame placement. The trapped arm cannot simply be pulled free against the opponent's clamping pressure. Instead, the practitioner must create a momentary release through a combination of bridge-induced weight shift and internal shoulder rotation that changes the angle of the trapped arm relative to the opponent's armpit clamp. This window is brief, typically coinciding with the opponent's weight shifting forward during a submission attempt or positional adjustment, making timing sensitivity the single most important skill for this technique.
 
-**From Position**: [[Kuzure Kesa-Gatame]] (Bottom)
+**From Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Bottom)
 
 </section>
 
@@ -245,10 +245,10 @@ The technique requires precise coordination between shoulder mechanics, hip move
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Kuzure Kesa-Gatame]] | 25% |
-| Counter | [[Armbar Control]] | 10% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Side Control/Kuzure Kesa-Gatame]] | 25% |
+| Counter | [[Positions/Armbar Control]] | 10% |
 
 
 </section>
@@ -257,10 +257,10 @@ The technique requires precise coordination between shoulder mechanics, hip move
 
 ## Opponent Counters
 
-- **Opponent tightens armpit clamp and drops chest weight when sensing extraction attempt** (Effectiveness: High) - Your Response: Abandon the direct extraction and chain into a Granby Roll or hip escape to Half Guard instead. Return to arm recovery when the opponent adjusts again. The failed attempt often causes them to overcommit to arm control, opening other escape paths. → Leads to [[Kuzure Kesa-Gatame]]
-- **Opponent transitions to armbar by extending your arm as you attempt extraction** (Effectiveness: High) - Your Response: Immediately abort extraction and defend the armbar by clasping hands together in a Gable grip, turning into the opponent, and working standard armbar defense. The key is recognizing the armbar transition early—if your elbow begins extending during extraction, stop and defend. → Leads to [[Armbar Control]]
-- **Opponent follows your hip escape and re-establishes side control before guard recovery** (Effectiveness: Medium) - Your Response: Use the knee shield aggressively to maintain distance. If they begin passing, transition to Knee Shield Half Guard rather than fighting for Closed Guard. A partial guard recovery is still a significant positional improvement over Kuzure Kesa-Gatame bottom. → Leads to [[Half Guard]]
-- **Opponent switches to North-South as you bridge to prevent guard recovery angle** (Effectiveness: Medium) - Your Response: Follow their rotation with your own hip movement, staying square to them rather than allowing the North-South transition to complete. Use the arm you just freed to frame against their hip and continue your guard recovery from the new angle. → Leads to [[Kuzure Kesa-Gatame]]
+- **Opponent tightens armpit clamp and drops chest weight when sensing extraction attempt** (Effectiveness: High) - Your Response: Abandon the direct extraction and chain into a Granby Roll or hip escape to Half Guard instead. Return to arm recovery when the opponent adjusts again. The failed attempt often causes them to overcommit to arm control, opening other escape paths. → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- **Opponent transitions to armbar by extending your arm as you attempt extraction** (Effectiveness: High) - Your Response: Immediately abort extraction and defend the armbar by clasping hands together in a Gable grip, turning into the opponent, and working standard armbar defense. The key is recognizing the armbar transition early—if your elbow begins extending during extraction, stop and defend. → Leads to [[Positions/Armbar Control]]
+- **Opponent follows your hip escape and re-establishes side control before guard recovery** (Effectiveness: Medium) - Your Response: Use the knee shield aggressively to maintain distance. If they begin passing, transition to Knee Shield Half Guard rather than fighting for Closed Guard. A partial guard recovery is still a significant positional improvement over Kuzure Kesa-Gatame bottom. → Leads to [[Positions/Half Guard]]
+- **Opponent switches to North-South as you bridge to prevent guard recovery angle** (Effectiveness: Medium) - Your Response: Follow their rotation with your own hip movement, staying square to them rather than allowing the North-South transition to complete. Use the arm you just freed to frame against their hip and continue your guard recovery from the new angle. → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
 
 
 </section>

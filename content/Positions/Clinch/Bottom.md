@@ -210,19 +210,19 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 ## Available Escapes
 
-### [[Guard Pull from Clinch]] (22% of attempts)
+### [[Transitions/Guard Pull from Clinch]] (22% of attempts)
 
-### [[Guard Pull]] (18% of attempts)
+### [[Transitions/Guard Pull]] (18% of attempts)
 
-### [[Underhook Pummeling from Clinch]] (15% of attempts)
+### [[Transitions/Underhook Pummeling from Clinch]] (15% of attempts)
 
-### [[Break Clinch]] (15% of attempts)
+### [[Transitions/Break Clinch]] (15% of attempts)
 
-### [[Arm Drag from Clinch]] (10% of attempts)
+### [[Transitions/Arm Drag from Clinch]] (10% of attempts)
 
-### [[Duck Under from Clinch]] (10% of attempts)
+### [[Transitions/Duck Under from Clinch]] (10% of attempts)
 
-### [[Arm Drag from Clinch Bottom]] (10% of attempts)
+### [[Transitions/Arm Drag from Clinch Bottom]] (10% of attempts)
 
 
 
@@ -233,33 +233,33 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 ## Decision Making from This Position
 
 **If opponent establishes strong underhooks and begins driving forward with pressure:**
-- Execute **[[Sprawl Defense]]** → [[Front Headlock]] (Probability: 60%)
-- Execute **[[Guard Pull]]** → [[Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Sprawl Defense]]** → [[Positions/Front Headlock]] (Probability: 60%)
+- Execute **[[Transitions/Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 55%)
 
 
 **If opponent maintains upright posture with hands high and limited hip commitment:**
-- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 65%)
-- Execute **[[Double Leg Entry]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 65%)
+- Execute **[[Transitions/Double Leg Entry]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent secures body lock or double underhooks with head control:**
-- Execute **[[Frame Creation]]** → [[Standing Position]] (Probability: 45%)
-- Execute **[[Guard Pull]]** → [[Open Guard]] (Probability: 60%)
+- Execute **[[Principles/Frame Creation]]** → [[Positions/Standing Position]] (Probability: 45%)
+- Execute **[[Transitions/Guard Pull]]** → [[Positions/Open Guard]] (Probability: 60%)
 
 
 **If opponent squares stance or exposes legs while grip fighting:**
-- Execute **[[Single Leg Entry]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Body Lock Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Single Leg Entry]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Body Lock Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent posts hands or attempts to create distance:**
-- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 65%)
-- Execute **[[High Crotch]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 65%)
+- Execute **[[Transitions/High Crotch]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent extends arm for grip without protecting position:**
-- Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Single Leg Entry]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Single Leg Entry]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 
@@ -405,17 +405,17 @@ Focused drill exclusively on establishing and maintaining dominant head position
 
 ## Related Positions and Techniques
 
-- **[[Body Lock]]** - Advanced clinch control with torso engagement
-- **[[Front Headlock]]** - Common transition target from clinch snap downs
-- **[[Standing Position]]** - General standing state containing clinch as a sub-position
-- **[[Double Leg Entry]]** - Primary offensive transition from clinch
-- **[[Guard Pull]]** - Alternative transition pathway to ground engagement
-- **[[Overhook Control]]** - Defensive grip configuration within clinch
-- **[[Arm Drag to Back]]** - High-percentage back take from clinch grip fighting
-- **[[Single Leg Takedown]]** - Essential wrestling takedown from clinch engagement
-- **[[Back Control]]** - Primary destination when arm drag succeeds
-- **[[Closed Guard]]** - Common landing position after guard pull
-- **[[Snap Down to Front Headlock]]** - Key clinch-to-control transition via level change
+- **[[Positions/Body Lock]]** - Advanced clinch control with torso engagement
+- **[[Positions/Front Headlock]]** - Common transition target from clinch snap downs
+- **[[Positions/Standing Position]]** - General standing state containing clinch as a sub-position
+- **[[Transitions/Double Leg Entry]]** - Primary offensive transition from clinch
+- **[[Transitions/Guard Pull]]** - Alternative transition pathway to ground engagement
+- **[[Positions/Overhook Control]]** - Defensive grip configuration within clinch
+- **[[Transitions/Arm Drag to Back]]** - High-percentage back take from clinch grip fighting
+- **[[Transitions/Single Leg Takedown]]** - Essential wrestling takedown from clinch engagement
+- **[[Positions/Back Control]]** - Primary destination when arm drag succeeds
+- **[[Positions/Closed Guard]]** - Common landing position after guard pull
+- **[[Transitions/Snap Down to Front Headlock]]** - Key clinch-to-control transition via level change
 
 
 </section>

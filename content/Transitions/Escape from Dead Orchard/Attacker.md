@@ -186,7 +186,7 @@ description: "Execute the aggressive Dead Orchard escape to open guard in BJJ. S
 
 As the bottom player executing the Escape from Dead Orchard to Open Guard, your objective is to create enough distance in a decisive burst to fully disengage from the anaconda grip and establish open guard with leg frames. This is not the patient, incremental escape - this is the committed, higher-amplitude movement reserved for situations where the methodical approach has stalled or where a window of reduced pressure presents itself. You are trading the lower-risk incremental gains for a single decisive action that either breaks you free to open guard or, if countered, may leave you under side control. The timing and commitment of this escape are critical: half-measures result in worsened position, while full commitment with proper mechanics yields the best recovery position available from dead orchard.
 
-**From Position**: [[Dead Orchard Control]] (Bottom)
+**From Position**: [[Positions/Dead Orchard Control]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the bottom player executing the Escape from Dead Orchard to Open Guard, your 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 35% |
-| Failure | [[Dead Orchard Control]] | 40% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Open Guard]] | 35% |
+| Failure | [[Positions/Dead Orchard Control]] | 40% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the bottom player executing the Escape from Dead Orchard to Open Guard, your 
 
 ## Opponent Counters
 
-- **Opponent sprawls heavily and drives weight forward as they feel the explosive escape begin** (Effectiveness: High) - Your Response: If the granby roll is stuffed, immediately switch to multi-shrimp chain in the opposite direction. If already committed to the roll, use their forward pressure to accelerate the rotation rather than fighting against it. → Leads to [[Dead Orchard Control]]
-- **Opponent releases the dead orchard grip and immediately transitions to side control pressure pass** (Effectiveness: Medium) - Your Response: Recognize the grip release and immediately pivot from escape mode to guard retention mode. Get legs between bodies before they can establish crossface and hip control. Even partial guard recovery is better than conceding side control passively. → Leads to [[Side Control]]
-- **Opponent follows the rolling movement and re-establishes anaconda grip from the new angle** (Effectiveness: High) - Your Response: If the opponent follows your roll, the new angle should provide better hip escape opportunity than the original position. Immediately chain into the incremental frame-and-shrimp escape from the new angle rather than attempting another roll. → Leads to [[Dead Orchard Control]]
-- **Opponent switches to darce grip during the explosive transition when the trapped arm shifts position** (Effectiveness: Medium) - Your Response: The darce requires a different arm threading than the anaconda. Use the momentary grip adjustment to accelerate your escape, as the transition between grips creates a window of reduced compression. Circle toward the newly threatened side to prevent the darce from locking. → Leads to [[Dead Orchard Control]]
+- **Opponent sprawls heavily and drives weight forward as they feel the explosive escape begin** (Effectiveness: High) - Your Response: If the granby roll is stuffed, immediately switch to multi-shrimp chain in the opposite direction. If already committed to the roll, use their forward pressure to accelerate the rotation rather than fighting against it. → Leads to [[Positions/Dead Orchard Control]]
+- **Opponent releases the dead orchard grip and immediately transitions to side control pressure pass** (Effectiveness: Medium) - Your Response: Recognize the grip release and immediately pivot from escape mode to guard retention mode. Get legs between bodies before they can establish crossface and hip control. Even partial guard recovery is better than conceding side control passively. → Leads to [[Positions/Side Control]]
+- **Opponent follows the rolling movement and re-establishes anaconda grip from the new angle** (Effectiveness: High) - Your Response: If the opponent follows your roll, the new angle should provide better hip escape opportunity than the original position. Immediately chain into the incremental frame-and-shrimp escape from the new angle rather than attempting another roll. → Leads to [[Positions/Dead Orchard Control]]
+- **Opponent switches to darce grip during the explosive transition when the trapped arm shifts position** (Effectiveness: Medium) - Your Response: The darce requires a different arm threading than the anaconda. Use the momentary grip adjustment to accelerate your escape, as the transition between grips creates a window of reduced compression. Circle toward the newly threatened side to prevent the darce from locking. → Leads to [[Positions/Dead Orchard Control]]
 
 
 </section>

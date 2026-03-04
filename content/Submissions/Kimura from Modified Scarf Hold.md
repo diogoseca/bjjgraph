@@ -26,8 +26,8 @@ The Kimura from Modified Scarf Hold appears frequently in both gi and no-gi comp
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Shoulder and elbow joint
-**Starting Position**: [[Modified Scarf Hold]]
-**From Position**: [[Modified Scarf Hold]] (Top)
+**Starting Position**: [[Positions/Side Control/Modified Scarf Hold]]
+**From Position**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -77,8 +77,8 @@ The Kimura from Modified Scarf Hold appears frequently in both gi and no-gi comp
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Modified Scarf Hold]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Side Control/Modified Scarf Hold]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -226,9 +226,9 @@ The Kimura from Modified Scarf Hold appears frequently in both gi and no-gi comp
 
 ## From Which Positions?
 
-- [[Modified Scarf Hold]]
-- [[Kesa Gatame]]
-- [[Side Control]]
+- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Side Control]]
 
 
 </section>
@@ -237,12 +237,12 @@ The Kimura from Modified Scarf Hold appears frequently in both gi and no-gi comp
 
 ## Related Submissions
 
-- [[Americana from Kesa Gatame]]
-- [[Arm Triangle from Scarf Hold]]
-- [[Americana from Side Control]]
-- [[Kesa Gatame Arm Crush]]
-- [[Americana]]
-- [[Armbar from Side Control]]
+- [[Submissions/Americana from Kesa Gatame]]
+- [[Submissions/Arm Triangle from Scarf Hold]]
+- [[Submissions/Americana from Side Control]]
+- [[Submissions/Kesa Gatame Arm Crush]]
+- [[Transitions/Americana]]
+- [[Submissions/Armbar from Side Control]]
 
 
 </section>
@@ -251,13 +251,13 @@ The Kimura from Modified Scarf Hold appears frequently in both gi and no-gi comp
 
 ## Additional Related Content
 
-- [[Modified Scarf Hold]] - Starting position from which this submission is initiated
-- [[Kesa Gatame]] - Related starting position offering similar kimura opportunities with different body angle
-- [[Side Control]] - Parent position family from which modified scarf hold is derived
-- [[Kimura Trap]] - Control position reached when kimura grip is secured but not yet finished
-- [[Americana]] - Alternative submission when opponent straightens arm defending the kimura
-- [[Arm Triangle from Scarf Hold]] - Alternative choke submission available from similar scarf hold positioning
-- [[North-South]] - Transition option available when kimura attempt fails and opponent creates space
+- [[Positions/Side Control/Modified Scarf Hold]] - Starting position from which this submission is initiated
+- [[Positions/Side Control/Kesa Gatame]] - Related starting position offering similar kimura opportunities with different body angle
+- [[Positions/Side Control]] - Parent position family from which modified scarf hold is derived
+- [[Positions/Kimura Trap]] - Control position reached when kimura grip is secured but not yet finished
+- [[Transitions/Americana]] - Alternative submission when opponent straightens arm defending the kimura
+- [[Submissions/Arm Triangle from Scarf Hold]] - Alternative choke submission available from similar scarf hold positioning
+- [[Positions/North-South]] - Transition option available when kimura attempt fails and opponent creates space
 
 
 </section>

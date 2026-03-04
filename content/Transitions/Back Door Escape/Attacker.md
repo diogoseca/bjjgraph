@@ -178,7 +178,7 @@ The technique works by recognizing that the Darce choke requires the attacker to
 
 Strategically, the Back Door Escape represents a last-resort option when arm extraction and other primary escapes have failed. Its success depends heavily on timing—attempting this escape too early wastes energy on a complex movement when simpler options remain, while attempting it too late puts you in an even worse position as the choke tightens. Advanced practitioners develop sensitivity to the precise moment when the back door becomes the highest-percentage option based on the attacker's grip depth and hip position.
 
-**From Position**: [[Darce Control]] (Bottom)
+**From Position**: [[Positions/Darce Control]] (Bottom)
 
 </section>
 
@@ -229,10 +229,10 @@ Strategically, the Back Door Escape represents a last-resort option when arm ext
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Success | [[Turtle]] | 15% |
-| Failure | [[Darce Control]] | 20% |
-| Counter | [[North-South]] | 10% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Success | [[Positions/Turtle]] | 15% |
+| Failure | [[Positions/Darce Control]] | 20% |
+| Counter | [[Positions/North-South]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ Strategically, the Back Door Escape represents a last-resort option when arm ext
 
 ## Opponent Counters
 
-- **Attacker walks hips backward to close the back door gap** (Effectiveness: High) - Your Response: Switch to arm extraction escape immediately when you feel the gap closing → Leads to [[Darce Control]]
-- **Attacker drops weight and flattens you to prevent rotation** (Effectiveness: High) - Your Response: Frame harder on hip and bridge into them before attempting rotation → Leads to [[Darce Control]]
-- **Attacker transitions to anaconda grip as you rotate** (Effectiveness: Medium) - Your Response: Continue rotation momentum—anaconda requires opposite direction control → Leads to [[Open Guard]]
-- **Attacker takes the back as you exit toward them** (Effectiveness: Medium) - Your Response: Immediately establish turtle with elbows tight and begin back defense sequence → Leads to [[North-South]]
+- **Attacker walks hips backward to close the back door gap** (Effectiveness: High) - Your Response: Switch to arm extraction escape immediately when you feel the gap closing → Leads to [[Positions/Darce Control]]
+- **Attacker drops weight and flattens you to prevent rotation** (Effectiveness: High) - Your Response: Frame harder on hip and bridge into them before attempting rotation → Leads to [[Positions/Darce Control]]
+- **Attacker transitions to anaconda grip as you rotate** (Effectiveness: Medium) - Your Response: Continue rotation momentum—anaconda requires opposite direction control → Leads to [[Positions/Open Guard]]
+- **Attacker takes the back as you exit toward them** (Effectiveness: Medium) - Your Response: Immediately establish turtle with elbows tight and begin back defense sequence → Leads to [[Positions/North-South]]
 
 
 </section>

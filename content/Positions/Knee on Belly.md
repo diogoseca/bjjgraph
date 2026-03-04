@@ -87,25 +87,25 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (42% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (42% of attempts)
 
-- **[[Hip Escape to Guard]]** (10% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (10% of attempts)
 
-- **[[Deep Half Entry]]** (5% of attempts)
+- **[[Transitions/Deep Half Entry]]** (5% of attempts)
 
-- **[[Knee Shield Retention]]** (11% of attempts)
+- **[[Transitions/Knee Shield Retention]]** (11% of attempts)
 
-- **[[Technical Stand-up]]** (4% of attempts)
+- **[[Transitions/Technical Stand-up]]** (4% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (10% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (10% of attempts)
 
-- **[[Hip Escape to Turtle]]** (9% of attempts)
+- **[[Transitions/Hip Escape to Turtle]]** (9% of attempts)
 
-- **[[Frame and Shrimp from Knee on Belly]]** (3% of attempts)
+- **[[Transitions/Frame and Shrimp from Knee on Belly]]** (3% of attempts)
 
-- **[[Push Knee and Reguard from Knee on Belly]]** (3% of attempts)
+- **[[Transitions/Push Knee and Reguard from Knee on Belly]]** (3% of attempts)
 
-- **[[Turn to Turtle from Knee on Belly]]** (3% of attempts)
+- **[[Transitions/Turn to Turtle from Knee on Belly]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -170,31 +170,31 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 ### Available Transitions
 
 
-- **[[Side Control to Mount]]** (33% of attempts)
+- **[[Transitions/Side Control to Mount]]** (33% of attempts)
 
-- **[[Armbar Finish]]** (9% of attempts)
+- **[[Transitions/Armbar Finish]]** (9% of attempts)
 
-- **[[Baseball Bat Choke]]** (11% of attempts)
+- **[[Transitions/Baseball Bat Choke]]** (11% of attempts)
 
-- **[[Side Control to North-South]]** (10% of attempts)
+- **[[Transitions/Side Control to North-South]]** (10% of attempts)
 
-- **[[Kimura]]** (7% of attempts)
+- **[[Transitions/Kimura]]** (7% of attempts)
 
-- **[[Back Take from Top]]** (7% of attempts)
+- **[[Transitions/Back Take from Top]]** (7% of attempts)
 
-- **[[S-Mount Transition]]** (6% of attempts)
+- **[[Transitions/S-Mount Transition]]** (6% of attempts)
 
-- **[[Cross Collar Choke]]** (9% of attempts)
+- **[[Transitions/Cross Collar Choke]]** (9% of attempts)
 
-- **[[Far Side Armbar from KOB]]** (2% of attempts)
+- **[[Transitions/Far Side Armbar from KOB]]** (2% of attempts)
 
-- **[[KOB to Mount]]** (1% of attempts)
+- **[[Transitions/KOB to Mount]]** (1% of attempts)
 
-- **[[KOB to Side Control]]** (1% of attempts)
+- **[[Transitions/KOB to Side Control]]** (1% of attempts)
 
-- **[[Armbar from Knee on Belly]]** (2% of attempts)
+- **[[Submissions/Armbar from Knee on Belly]]** (2% of attempts)
 
-- **[[Cross Collar Choke from KOB]]** (2% of attempts)
+- **[[Submissions/Cross Collar Choke from KOB]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -233,21 +233,21 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 ## Related Positions
 
 
-- **[[Side Control]]** - Primary entry and exit position - natural transition point before and after Knee on Belly
+- **[[Positions/Side Control]]** - Primary entry and exit position - natural transition point before and after Knee on Belly
 
-- **[[Mount]]** - Common advancement target from top, common deterioration from bottom escape failures
+- **[[Positions/Mount]]** - Common advancement target from top, common deterioration from bottom escape failures
 
-- **[[North-South]]** - Alternative transition when opponent turns into pressure or escapes toward head
+- **[[Positions/North-South]]** - Alternative transition when opponent turns into pressure or escapes toward head
 
-- **[[Half Guard]]** - Primary re-guard target for bottom player, common destination after successful escape
+- **[[Positions/Half Guard]]** - Primary re-guard target for bottom player, common destination after successful escape
 
-- **[[Back Control]]** - Opportunistic target when opponent turns away from pressure attempting to escape
+- **[[Positions/Back Control]]** - Opportunistic target when opponent turns away from pressure attempting to escape
 
-- **[[S Mount]]** - Advanced variation combining Knee on Belly pressure mechanics with mount control
+- **[[Positions/Mount/S Mount]]** - Advanced variation combining Knee on Belly pressure mechanics with mount control
 
-- **[[Turtle]]** - Emergency escape position when bottom player turns away under extreme pressure
+- **[[Positions/Turtle]]** - Emergency escape position when bottom player turns away under extreme pressure
 
-- **[[Open Guard]]** - Re-guard destination requiring frame creation and hip escape execution
+- **[[Positions/Open Guard]]** - Re-guard destination requiring frame creation and hip escape execution
 
 
 </section>

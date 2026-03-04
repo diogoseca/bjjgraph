@@ -186,7 +186,7 @@ description: "Complete guide to executing the elbow escape from back control. Le
 
 Executing the elbow escape from back control requires systematic dismantling of the opponent's control hierarchy through deliberate framing and hip movement. As the person trapped in back control, your objective is to use your elbows as rigid frames against the opponent's hooks while performing controlled hip escapes that slide your body below their leg control. The technique rewards patience and methodical execution over explosive movement, making it accessible to practitioners of all body types and athletic abilities. Success depends on maintaining neck defense throughout the entire sequence while progressively addressing each control point the opponent has established. The escape is built on the principle that even the tightest back control can be systematically deconstructed by addressing hooks one at a time through proper elbow placement and directional hip escape.
 
-**From Position**: [[Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
 
@@ -238,9 +238,9 @@ Executing the elbow escape from back control requires systematic dismantling of 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -249,10 +249,10 @@ Executing the elbow escape from back control requires systematic dismantling of 
 
 ## Opponent Counters
 
-- **Opponent tightens seatbelt and drives hips forward to collapse space and prevent downward hip escape** (Effectiveness: High) - Your Response: Maintain frame pressure patiently and work the hip escape in small increments during micro-adjustments rather than attempting one large movement against heavy pressure → Leads to [[Back Control]]
-- **Opponent transitions to body triangle during hook clearing attempt to eliminate hook-based escape** (Effectiveness: High) - Your Response: Switch to body triangle escape by turning toward the locked ankle side and working to push the top foot past the bottom knee before resuming the standard elbow escape → Leads to [[Back Control]]
-- **Opponent follows the turn and transitions to mount position before half guard can be established** (Effectiveness: Medium) - Your Response: Keep one leg actively hooked around the opponent's leg throughout the entire turning phase to ensure half guard is established before the rotation completes → Leads to [[Mount]]
-- **Opponent attacks rear naked choke aggressively during the grip transition between neck defense and framing** (Effectiveness: High) - Your Response: Immediately abandon the escape sequence and return to full two-on-one neck defense before re-attempting once the choking threat is neutralized → Leads to [[Back Control]]
+- **Opponent tightens seatbelt and drives hips forward to collapse space and prevent downward hip escape** (Effectiveness: High) - Your Response: Maintain frame pressure patiently and work the hip escape in small increments during micro-adjustments rather than attempting one large movement against heavy pressure → Leads to [[Positions/Back Control]]
+- **Opponent transitions to body triangle during hook clearing attempt to eliminate hook-based escape** (Effectiveness: High) - Your Response: Switch to body triangle escape by turning toward the locked ankle side and working to push the top foot past the bottom knee before resuming the standard elbow escape → Leads to [[Positions/Back Control]]
+- **Opponent follows the turn and transitions to mount position before half guard can be established** (Effectiveness: Medium) - Your Response: Keep one leg actively hooked around the opponent's leg throughout the entire turning phase to ensure half guard is established before the rotation completes → Leads to [[Positions/Mount]]
+- **Opponent attacks rear naked choke aggressively during the grip transition between neck defense and framing** (Effectiveness: High) - Your Response: Immediately abandon the escape sequence and return to full two-on-one neck defense before re-attempting once the choking threat is neutralized → Leads to [[Positions/Back Control]]
 
 
 </section>

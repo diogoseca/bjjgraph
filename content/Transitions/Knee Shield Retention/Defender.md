@@ -160,7 +160,7 @@ description: "How to defeat Knee Shield Retention in BJJ. Recognition cues, pass
 
 As the top player facing Knee Shield Retention, your goal is to systematically dismantle the bottom player's defensive framework by collapsing the shield, establishing dominant grips, and advancing past their guard structure. The knee shield creates a structural barrier that prevents you from consolidating chest-to-chest pressure, so your strategy must address both the physical shield and the accompanying grip fighting that supports it. Success requires patience, methodical pressure application, and the ability to switch between multiple passing strategies based on how the bottom player adjusts their retention. Rushing directly into the shield wastes energy and creates sweep opportunities for the bottom player.
 
-**Opponent's Starting Position**: [[Knee Shield Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 
 </section>
 
@@ -197,35 +197,35 @@ As the top player facing Knee Shield Retention, your goal is to systematically d
 ### 1. Establish crossface and collapse shield with angled shoulder pressure
 
 - **When to use**: When you have secured head control and the bottom player's near arm is not blocking your shoulder from driving into their jaw
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Shield collapses as bottom player is flattened, giving you chest-to-chest control and dominant passing position in flattened half guard
 - **Risk**: If bottom player has strong underhook or frames on your shoulder, your crossface attempt exposes your arm for kimura or allows them to re-angle their shield
 
 ### 2. Step over the knee shield with knee cut pass entry
 
 - **When to use**: When the bottom player's shield is positioned high on your chest and there is space between their knee and their body to thread your knee through
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: You bypass the shield entirely, establishing knee-on-belly or completing the pass to side control as the shield becomes irrelevant
 - **Risk**: If you step through without controlling their far hip, bottom player can hip escape and recover guard or transition to deep half guard underneath you
 
 ### 3. Backstep around the shield to attack from reverse angle
 
 - **When to use**: When the bottom player's shield is very strong and their grip fighting prevents direct collapse, or when repeated frontal attacks have failed
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: You bypass the shield completely by attacking from the opposite direction, potentially taking leg lock entries or establishing reverse half guard passing position
 - **Risk**: Bottom player follows your movement with their shield or uses the space created to enter deep half guard or recover full guard
 
 ### 4. Secure underhook and drive chest-to-chest to smother the shield
 
 - **When to use**: When you have won the underhook battle and the bottom player's far arm is occupied or unable to whizzer effectively
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: The underhook gives you the leverage to drive through the shield and flatten them, eliminating their hip mobility and converting to a dominant passing position
 - **Risk**: An alert bottom player will use your underhook commitment to transition to back take or set up a sweep by redirecting your forward momentum
 
 ### 5. Stand up to disengage and re-engage with standing pass
 
 - **When to use**: When ground-based attempts to collapse the shield are consistently failing and the bottom player has strong grip and shield management
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: Standing changes the angle of engagement entirely, allowing toreando-style passes or headquarters position where the shield is less effective against standing pressure
 - **Risk**: Standing creates space the bottom player can exploit for X-guard, single leg X, or technical stand-up entries
 
@@ -237,11 +237,11 @@ As the top player facing Knee Shield Retention, your goal is to systematically d
 
 ## Best-Case Outcomes for Defender
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Establish crossface first to control their head and prevent them from maintaining their side-facing posture. Then angle your shoulder pressure at 45 degrees into their jaw while controlling their shield leg ankle, collapsing their structure by driving their knee toward the mat. Once flat, consolidate with chest-to-chest pressure and work to extract your trapped leg.
 
-### → [[Knee Shield Half Guard]]
+### → [[Positions/Half Guard/Knee Shield Half Guard]]
 
 Win the grip fighting battle by establishing collar and pants control before attempting to pass. Use systematic pressure application switching between knee slice, smash pass, and backstep threats to force the bottom player into reactive mode. Control their shield leg at the ankle to limit their ability to redirect the barrier, then execute your preferred passing sequence once their retention structure is compromised.
 

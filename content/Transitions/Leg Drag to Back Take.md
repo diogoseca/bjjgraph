@@ -21,7 +21,7 @@ The strategic value of this technique lies in its reliability and the dominant p
 
 Execution requires maintaining constant pressure and connection throughout the transition. The moment you feel your opponent begin to rotate away, you must immediately abandon your leg drag grip priorities and shift to back control grips. Your underhook on the near side becomes your seatbelt grip, while your other arm reaches over their back for the far hip or establishes harness control. The bottom hook inserts first as their hip turns, followed by the top hook once you have secured upper body control. Timing is critical—hesitation allows them to complete their escape to turtle, while premature movement telegraphs your intention.
 
-**From Position**: [[Leg Drag Control]] (Top)
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Execution requires maintaining constant pressure and connection throughout the t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Leg Drag to Back Take is a cornerstone technique in modern guard passing sys
 ## Related Techniques
 
 
-- [[Leg Drag Control]] - Starting position providing the hip dominance needed to initiate this transition
+- [[Positions/Leg Drag Control]] - Starting position providing the hip dominance needed to initiate this transition
 
-- [[Back Control]] - Target position achieved on successful completion of the back take
+- [[Positions/Back Control]] - Target position achieved on successful completion of the back take
 
-- [[Leg Drag Pass]] - Entry technique used to establish the starting leg drag control position
+- [[Transitions/Leg Drag Pass]] - Entry technique used to establish the starting leg drag control position
 
-- [[Rear Naked Choke]] - Primary submission threat available after achieving back control
+- [[Transitions/Rear Naked Choke]] - Primary submission threat available after achieving back control
 
-- [[Bow and Arrow Choke]] - High-percentage gi submission available from the achieved back control position
+- [[Transitions/Bow and Arrow Choke]] - High-percentage gi submission available from the achieved back control position
 
-- [[Leg Drag Pass to Side Control]] - Alternative transition when opponent stays flat instead of turning away
+- [[Transitions/Leg Drag Pass to Side Control]] - Alternative transition when opponent stays flat instead of turning away
 
-- [[Leg Drag to Mount]] - Alternative transition when opponent turns toward you rather than away
+- [[Transitions/Leg Drag to Mount]] - Alternative transition when opponent turns toward you rather than away
 
-- [[Body Triangle Lock]] - Alternative leg control method available after completing the back take
+- [[Transitions/Body Triangle Lock]] - Alternative leg control method available after completing the back take
 
-- [[Gift Wrap]] - Control variation accessible when opponent reaches back during the transition
+- [[Positions/Gift Wrap]] - Control variation accessible when opponent reaches back during the transition
 
-- [[Turtle]] - Position opponent may reach if the back take transition is too slow
+- [[Positions/Turtle]] - Position opponent may reach if the back take transition is too slow
 
-- [[De La Riva Guard]] - Common guard position that the leg drag system passes through
+- [[Positions/De La Riva Guard]] - Common guard position that the leg drag system passes through
 
-- [[Crucifix]] - Alternative attack available if opponent extends arm during the transition
+- [[Positions/Crucifix]] - Alternative attack available if opponent extends arm during the transition
 
 
 </section>

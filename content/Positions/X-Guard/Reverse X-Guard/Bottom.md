@@ -210,19 +210,19 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 
 ## Available Escapes
 
-### [[Reverse X-Guard Sweep]] (15% of attempts)
+### [[Transitions/Reverse X-Guard Sweep]] (15% of attempts)
 
-### [[Elevation Sweep to Mount]] (14% of attempts)
+### [[Transitions/Elevation Sweep to Mount]] (14% of attempts)
 
-### [[Reverse X to Back Take]] (12% of attempts)
+### [[Transitions/Reverse X to Back Take]] (12% of attempts)
 
-### [[Reverse X-Guard to Standard X-Guard]] (18% of attempts)
+### [[Transitions/Reverse X-Guard to Standard X-Guard]] (18% of attempts)
 
-### [[Reverse X to Single Leg X Entry]] (15% of attempts)
+### [[Transitions/Reverse X to Single Leg X Entry]] (15% of attempts)
 
-### [[Reverse X to Ashi Garami Entry]] (13% of attempts)
+### [[Transitions/Reverse X to Ashi Garami Entry]] (13% of attempts)
 
-### [[Technical Stand-up]] (13% of attempts)
+### [[Transitions/Technical Stand-up]] (13% of attempts)
 
 
 
@@ -233,23 +233,23 @@ The position requires high technical proficiency, hip mobility, and timing to ex
 ## Decision Making from This Position
 
 **If opponent maintains standing posture with weight evenly distributed:**
-- Execute **[[Elevation Sweep to Mount]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Reverse X-Guard Sweep]]** → [[Mount]] (Probability: 70%)
+- Execute **[[Transitions/Elevation Sweep to Mount]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Reverse X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 70%)
 
 
 **If opponent drops weight and attempts to smash through hooks:**
-- Execute **[[Transition to Deep Half Guard]]** → [[Deep Half Guard]] (Probability: 60%)
-- Execute **[[Inversion to Back]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transition to Deep Half Guard]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 60%)
+- Execute **[[Inversion to Back]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent steps back or attempts to disengage controlled leg:**
-- Execute **[[Follow to Single Leg X]]** → [[Single Leg X-Guard]] (Probability: 70%)
-- Execute **[[Entry to Ashi Garami]]** → [[Ashi Garami]] (Probability: 65%)
+- Execute **[[Follow to Single Leg X]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 70%)
+- Execute **[[Entry to Ashi Garami]]** → [[Positions/Ashi Garami]] (Probability: 65%)
 
 
 **If opponent backsteps or attempts to pass around controlled leg:**
-- Execute **[[Inversion to Back Take]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Granby Roll to Guard Recovery]]** → [[Open Guard]] (Probability: 55%)
+- Execute **[[Inversion to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Granby Roll to Guard Recovery]]** → [[Positions/Open Guard]] (Probability: 55%)
 
 
 
@@ -383,15 +383,15 @@ Practice flowing from Reverse X-Guard Bottom to related positions: Standard X-Gu
 
 ## Related Positions and Techniques
 
-- **[[X-Guard]]** - Mirror position with inverted hook configuration
-- **[[Single Leg X-Guard]]** - Common transition target when opponent disengages
-- **[[Deep Half Guard]]** - Transition option when opponent drops weight
-- **[[Ashi Garami]]** - Leg entanglement transition for submission attacks
-- **[[De La Riva Guard]]** - Entry position for establishing Reverse X-Guard
-- **[[Outside Ashi-Garami]]** - Alternative leg entanglement when opponent pulls leg back
-- **[[Butterfly Guard]]** - Related elevation-based guard position
-- **[[Back Control]]** - Advanced position from inversion transitions
-- **[[Open Guard]]** - Parent guard category
+- **[[Positions/X-Guard]]** - Mirror position with inverted hook configuration
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Common transition target when opponent disengages
+- **[[Positions/Half Guard/Deep Half Guard]]** - Transition option when opponent drops weight
+- **[[Positions/Ashi Garami]]** - Leg entanglement transition for submission attacks
+- **[[Positions/De La Riva Guard]]** - Entry position for establishing Reverse X-Guard
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Alternative leg entanglement when opponent pulls leg back
+- **[[Positions/Butterfly Guard]]** - Related elevation-based guard position
+- **[[Positions/Back Control]]** - Advanced position from inversion transitions
+- **[[Positions/Open Guard]]** - Parent guard category
 
 
 </section>

@@ -186,7 +186,7 @@ description: "Execute the inversion escape from leg entanglement with proper rol
 
 As the person executing the inversion escape, your objective is to use rotational movement to extract your trapped leg from the opponent's entanglement and recover to butterfly guard. The escape demands that you coordinate heel protection, posting mechanics, and rolling momentum into a single fluid motion. Your primary advantage is that the inversion disrupts the plane of control your opponent has established, forcing them to react to three-dimensional movement when their grips and legs are optimized for two-dimensional retention. Success depends on reading your opponent's grip transitions to identify the narrow timing window where structural control is weakest, then committing fully to the roll with proper body mechanics that protect your knee throughout the rotation.
 
-**From Position**: [[Leg Entanglement]] (Bottom)
+**From Position**: [[Positions/Leg Entanglement]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the person executing the inversion escape, your objective is to use rotationa
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Butterfly Guard]] | 35% |
-| Failure | [[Leg Entanglement]] | 40% |
-| Counter | [[Saddle]] | 25% |
+| Success | [[Positions/Butterfly Guard]] | 35% |
+| Failure | [[Positions/Leg Entanglement]] | 40% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 25% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the person executing the inversion escape, your objective is to use rotationa
 
 ## Opponent Counters
 
-- **Opponent follows the inversion by maintaining hip pressure and rotating with the roll to stay attached** (Effectiveness: High) - Your Response: If the opponent follows your roll, abort the full inversion and use the partial rotation to create a scramble. Post on your hands, kick your legs free in the chaos, and immediately work to establish any guard position. The scramble is still preferable to a static entanglement. → Leads to [[Leg Entanglement]]
-- **Opponent preemptively tightens grips and pinches knees together to prevent the initial rotation from developing** (Effectiveness: High) - Your Response: Switch to an alternative escape such as boot scooting or systematic grip fighting. Use the inversion attempt as a feint to force the opponent to commit their grips to retention, then attack those grips while they are occupied preventing the roll. → Leads to [[Leg Entanglement]]
-- **Opponent releases the original entanglement during the inversion and backsteps to capture the saddle position as your legs become exposed mid-roll** (Effectiveness: Medium) - Your Response: If you recognize the backstep happening, immediately tuck both knees to your chest and curl into a defensive ball to prevent the saddle entry. If the saddle is partially established, address it as a new positional problem using saddle-specific escapes rather than continuing the original inversion. → Leads to [[Saddle]]
-- **Opponent attacks the heel during the moment of inversion when the rotational motion temporarily exposes the joint** (Effectiveness: High) - Your Response: This is the most dangerous counter. If you feel heel exposure during the roll, you must either accelerate through the inversion to clear the grip before rotation is applied, or immediately stop all movement and tap if rotational pressure is felt on the knee. Never fight through active heel hook pressure during an inversion. → Leads to [[Saddle]]
+- **Opponent follows the inversion by maintaining hip pressure and rotating with the roll to stay attached** (Effectiveness: High) - Your Response: If the opponent follows your roll, abort the full inversion and use the partial rotation to create a scramble. Post on your hands, kick your legs free in the chaos, and immediately work to establish any guard position. The scramble is still preferable to a static entanglement. → Leads to [[Positions/Leg Entanglement]]
+- **Opponent preemptively tightens grips and pinches knees together to prevent the initial rotation from developing** (Effectiveness: High) - Your Response: Switch to an alternative escape such as boot scooting or systematic grip fighting. Use the inversion attempt as a feint to force the opponent to commit their grips to retention, then attack those grips while they are occupied preventing the roll. → Leads to [[Positions/Leg Entanglement]]
+- **Opponent releases the original entanglement during the inversion and backsteps to capture the saddle position as your legs become exposed mid-roll** (Effectiveness: Medium) - Your Response: If you recognize the backstep happening, immediately tuck both knees to your chest and curl into a defensive ball to prevent the saddle entry. If the saddle is partially established, address it as a new positional problem using saddle-specific escapes rather than continuing the original inversion. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent attacks the heel during the moment of inversion when the rotational motion temporarily exposes the joint** (Effectiveness: High) - Your Response: This is the most dangerous counter. If you feel heel exposure during the roll, you must either accelerate through the inversion to clear the grip before rotation is applied, or immediately stop all movement and tap if rotational pressure is felt on the knee. Never fight through active heel hook pressure during an inversion. → Leads to [[Positions/Ashi Garami/Saddle]]
 
 
 </section>

@@ -182,7 +182,7 @@ description: "Master attacking the Omoplata from Spider Guard. Step-by-step entr
 
 Attacking the Omoplata from Spider Guard requires converting your bilateral sleeve control and foot-on-bicep positioning into a unilateral shoulder lock. The entry begins by creating asymmetric pressure - pulling one sleeve strongly while pushing the opposite bicep away - to isolate the target arm and create the angle needed to swing your leg over the opponent's shoulder. The key mechanical principle is that your spider guard already has the opponent's arm extended and controlled, making the omoplata entry a natural extension of the position rather than a dramatic change of configuration. Success depends on maintaining sleeve control throughout the transition, achieving a perpendicular hip angle to the opponent, and sitting up to apply progressive rotational pressure on the trapped shoulder joint.
 
-**From Position**: [[Spider Guard]] (Bottom)
+**From Position**: [[Positions/Spider Guard]] (Bottom)
 
 
 </section>
@@ -236,9 +236,9 @@ Attacking the Omoplata from Spider Guard requires converting your bilateral slee
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Omoplata Control]] | 25% |
-| Failure | [[Spider Guard]] | 20% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Omoplata Control]] | 25% |
+| Failure | [[Positions/Spider Guard]] | 20% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -247,10 +247,10 @@ Attacking the Omoplata from Spider Guard requires converting your bilateral slee
 
 ## Opponent Defenses
 
-- **Forward roll to escape the shoulder lock before it is fully secured** (Effectiveness: High) - Your Response: Grab the opponent's far hip or belt immediately when sitting up to block the roll. If they begin rolling, follow them and transition to a mounted position or re-establish omoplata control from the other side. → Leads to [[Side Control]]
-- **Posturing up and pulling the trapped arm free before the leg clears the shoulder** (Effectiveness: High) - Your Response: Maintain death grip on the sleeve and use your non-attacking foot on their bicep or hip to prevent posture recovery. If they begin to posture, abort the omoplata and retain spider guard or transition to triangle entry. → Leads to [[Spider Guard]]
-- **Clasping hands together to prevent arm isolation and shoulder lock extension** (Effectiveness: Medium) - Your Response: Use your free hand to attack the clasped grip by wedging your fingers between their hands or applying wrist control to separate them. Alternatively, maintain pressure and transition to a wrist lock on the clasped hand or sweep to mount. → Leads to [[Omoplata Control]]
-- **Stacking pressure by driving weight forward to compress the guard player's position** (Effectiveness: Medium) - Your Response: Use the non-attacking leg to frame on their hip and create space. If stacking is severe, transition to a triangle by bringing the framing leg across their neck, or abandon and recover to full spider guard. → Leads to [[Spider Guard]]
+- **Forward roll to escape the shoulder lock before it is fully secured** (Effectiveness: High) - Your Response: Grab the opponent's far hip or belt immediately when sitting up to block the roll. If they begin rolling, follow them and transition to a mounted position or re-establish omoplata control from the other side. → Leads to [[Positions/Side Control]]
+- **Posturing up and pulling the trapped arm free before the leg clears the shoulder** (Effectiveness: High) - Your Response: Maintain death grip on the sleeve and use your non-attacking foot on their bicep or hip to prevent posture recovery. If they begin to posture, abort the omoplata and retain spider guard or transition to triangle entry. → Leads to [[Positions/Spider Guard]]
+- **Clasping hands together to prevent arm isolation and shoulder lock extension** (Effectiveness: Medium) - Your Response: Use your free hand to attack the clasped grip by wedging your fingers between their hands or applying wrist control to separate them. Alternatively, maintain pressure and transition to a wrist lock on the clasped hand or sweep to mount. → Leads to [[Positions/Omoplata Control]]
+- **Stacking pressure by driving weight forward to compress the guard player's position** (Effectiveness: Medium) - Your Response: Use the non-attacking leg to frame on their hip and create space. If stacking is severe, transition to a triangle by bringing the framing leg across their neck, or abandon and recover to full spider guard. → Leads to [[Positions/Spider Guard]]
 
 
 </section>

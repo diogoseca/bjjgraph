@@ -21,7 +21,7 @@ Execution centers on a three-phase sequence: first establishing a defensive fram
 
 Strategically, this escape represents the highest-percentage avenue out of 3-4 mount bottom because it exploits the inherent mechanical weakness of asymmetric weight distribution. The technique chains naturally into half guard recovery and subsequent guard retention or sweep attempts, making it a critical link in the mount escape system. Practitioners should develop the ability to read the top player's weight distribution instantly and execute the escape toward the correct side without hesitation, as the window of opportunity narrows significantly once the top player recognizes the escape attempt.
 
-**From Position**: [[3-4 Mount]] (Bottom)
+**From Position**: [[Positions/Mount/3-4 Mount]] (Bottom)
 **Success Rate**: 35%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape represents the highest-percentage avenue out of 3-4 m
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Failure | [[3-4 Mount]] | 40% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Failure | [[Positions/Mount/3-4 Mount]] | 40% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Elbow Escape from 3-4 Mount serves as the foundational escape technique with
 ## Related Techniques
 
 
-- [[3-4 Mount]] - Starting position from which this escape is executed, providing the asymmetric weight distribution that creates the escape corridor
+- [[Positions/Mount/3-4 Mount]] - Starting position from which this escape is executed, providing the asymmetric weight distribution that creates the escape corridor
 
-- [[Half Guard]] - Primary escape destination where the bottom player recovers guard through knee insertion after successful hip escape
+- [[Positions/Half Guard]] - Primary escape destination where the bottom player recovers guard through knee insertion after successful hip escape
 
-- [[Mount]] - Counter outcome position when the top player consolidates to full mount during the escape attempt
+- [[Positions/Mount]] - Counter outcome position when the top player consolidates to full mount during the escape attempt
 
-- [[Bridge Escape from 3-4 Mount]] - Complementary escape technique that pairs with elbow escape to form the primary 3-4 mount escape system
+- [[Transitions/Bridge Escape from 3-4 Mount]] - Complementary escape technique that pairs with elbow escape to form the primary 3-4 mount escape system
 
-- [[Elbow Escape to Guard]] - Related hip escape technique from standard mount that shares core mechanics with this 3-4 mount specific variation
+- [[Transitions/Elbow Escape to Guard]] - Related hip escape technique from standard mount that shares core mechanics with this 3-4 mount specific variation
 
-- [[Knee Shield Half Guard]] - Common guard recovery configuration after successful escape, using knee shield to prevent immediate re-passing
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Common guard recovery configuration after successful escape, using knee shield to prevent immediate re-passing
 
-- [[High Mount]] - Position the top player may advance to if the escape is delayed, requiring modified defensive priorities
+- [[Positions/Mount/High Mount]] - Position the top player may advance to if the escape is delayed, requiring modified defensive priorities
 
-- [[S Mount]] - Dangerous advancement position the top player may transition to during failed escape attempts
+- [[Positions/Mount/S Mount]] - Dangerous advancement position the top player may transition to during failed escape attempts
 
-- [[Technical Mount]] - Alternative mount advancement that may result from partially successful escape attempts where back is exposed
+- [[Positions/Mount/Technical Mount]] - Alternative mount advancement that may result from partially successful escape attempts where back is exposed
 
-- [[Closed Guard]] - Full guard recovery goal achievable through continued hip escaping after reaching half guard
+- [[Positions/Closed Guard]] - Full guard recovery goal achievable through continued hip escaping after reaching half guard
 
 
 </section>

@@ -95,43 +95,43 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 ### Available Transitions
 
 
-- **[[Butterfly Sweep]]** (25% of attempts)
+- **[[Transitions/Butterfly Sweep]]** (25% of attempts)
 
-- **[[De La Riva Sweep]]** (4% of attempts)
+- **[[Transitions/De La Riva Sweep]]** (4% of attempts)
 
-- **[[Sickle Sweep]]** (3% of attempts)
+- **[[Transitions/Sickle Sweep]]** (3% of attempts)
 
-- **[[Tripod Sweep]]** (4% of attempts)
+- **[[Transitions/Tripod Sweep]]** (4% of attempts)
 
-- **[[Elevator Sweep]]** (2% of attempts)
+- **[[Transitions/Elevator Sweep]]** (2% of attempts)
 
-- **[[Omoplata Sweep]]** (2% of attempts)
+- **[[Transitions/Omoplata Sweep]]** (2% of attempts)
 
-- **[[Kimura Sweep]]** (2% of attempts)
+- **[[Transitions/Kimura Sweep]]** (2% of attempts)
 
-- **[[Armbar Finish]]** (2% of attempts)
+- **[[Transitions/Armbar Finish]]** (2% of attempts)
 
-- **[[Scissor Sweep from Open Guard]]** (4% of attempts)
+- **[[Transitions/Scissor Sweep from Open Guard]]** (4% of attempts)
 
-- **[[Open Guard to Deep Half]]** (5% of attempts)
+- **[[Transitions/Open Guard to Deep Half]]** (5% of attempts)
 
-- **[[Open Guard to Collar Sleeve Guard]]** (9% of attempts)
+- **[[Transitions/Open Guard to Collar Sleeve Guard]]** (9% of attempts)
 
-- **[[Open Guard to De La Riva]]** (11% of attempts)
+- **[[Transitions/Open Guard to De La Riva]]** (11% of attempts)
 
-- **[[Open Guard to Double Sleeve Guard]]** (4% of attempts)
+- **[[Transitions/Open Guard to Double Sleeve Guard]]** (4% of attempts)
 
-- **[[Open Guard to Feet on Hips Guard]]** (7% of attempts)
+- **[[Transitions/Open Guard to Feet on Hips Guard]]** (7% of attempts)
 
-- **[[Collar Drag from Open Guard]]** (4% of attempts)
+- **[[Transitions/Collar Drag from Open Guard]]** (4% of attempts)
 
-- **[[Scramble from Failed Sweep]]** (3% of attempts)
+- **[[Transitions/Scramble from Failed Sweep]]** (3% of attempts)
 
-- **[[Technical Stand Up from Open Guard]]** (6% of attempts)
+- **[[Transitions/Technical Stand Up from Open Guard]]** (6% of attempts)
 
-- **[[Transition to Clamp Guard]]** (1% of attempts)
+- **[[Transitions/Transition to Clamp Guard]]** (1% of attempts)
 
-- **[[Triangle from Open Guard]]** (2% of attempts)
+- **[[Submissions/Triangle from Open Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -196,27 +196,27 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 ### Available Transitions
 
 
-- **[[Toreando Pass]]** (17% of attempts)
+- **[[Transitions/Toreando Pass]]** (17% of attempts)
 
-- **[[Knee Slice Pass]]** (9% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (9% of attempts)
 
-- **[[Leg Drag Pass]]** (9% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (9% of attempts)
 
-- **[[Stack Pass]]** (8% of attempts)
+- **[[Transitions/Stack Pass]]** (8% of attempts)
 
-- **[[Long Step Pass]]** (9% of attempts)
+- **[[Transitions/Long Step Pass]]** (9% of attempts)
 
-- **[[X Pass]]** (8% of attempts)
+- **[[Transitions/X Pass]]** (8% of attempts)
 
-- **[[Smash Pass]]** (9% of attempts)
+- **[[Transitions/Smash Pass]]** (9% of attempts)
 
-- **[[Double Under Pass]]** (9% of attempts)
+- **[[Transitions/Double Under Pass]]** (9% of attempts)
 
-- **[[Pressure Pass]]** (9% of attempts)
+- **[[Transitions/Pressure Pass]]** (9% of attempts)
 
-- **[[Knee Cut Pass]]** (9% of attempts)
+- **[[Transitions/Knee Cut Pass]]** (9% of attempts)
 
-- **[[Float Passing]]** (4% of attempts)
+- **[[Transitions/Float Passing]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -259,25 +259,25 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 ## Related Positions
 
 
-- **[[Closed Guard]]** - Related guard position with locked leg configuration offering more security but less mobility
+- **[[Positions/Closed Guard]]** - Related guard position with locked leg configuration offering more security but less mobility
 
-- **[[Butterfly Guard]]** - Specific open guard variation using butterfly hooks for control and sweeping
+- **[[Positions/Butterfly Guard]]** - Specific open guard variation using butterfly hooks for control and sweeping
 
-- **[[Spider Guard]]** - Specific open guard variation using sleeve and shin control for distance management
+- **[[Positions/Spider Guard]]** - Specific open guard variation using sleeve and shin control for distance management
 
-- **[[De La Riva Guard]]** - Specific open guard variation with de la riva hook for controlling standing opponents
+- **[[Positions/De La Riva Guard]]** - Specific open guard variation with de la riva hook for controlling standing opponents
 
-- **[[Lasso Guard]]** - Specific open guard variation using lapel and shin control for asymmetrical attacks
+- **[[Positions/Lasso Guard]]** - Specific open guard variation using lapel and shin control for asymmetrical attacks
 
-- **[[X-Guard]]** - Advanced open guard variation for single leg control and sweeping
+- **[[Positions/X-Guard]]** - Advanced open guard variation for single leg control and sweeping
 
-- **[[Half Guard]]** - Common transition position when open guard is partially passed
+- **[[Positions/Half Guard]]** - Common transition position when open guard is partially passed
 
-- **[[Side Control]]** - Dominant position reached after successful guard passing
+- **[[Positions/Side Control]]** - Dominant position reached after successful guard passing
 
-- **[[Seated Guard]]** - Upright open guard variation with different angle dynamics
+- **[[Positions/Seated Guard]]** - Upright open guard variation with different angle dynamics
 
-- **[[Headquarters Position]]** - Transitional passing position during open guard top sequences
+- **[[Positions/Headquarters Position]]** - Transitional passing position during open guard top sequences
 
 
 </section>

@@ -154,7 +154,7 @@ description: "Learn to prevent underhook recovery when maintaining flattened hal
 
 As the top player in flattened half guard, your opponent's underhook recovery attempt represents the critical moment where your positional dominance is most threatened. When the bottom player begins working to thread their arm under your far armpit, they are initiating the sequence that transforms your dominant control position into an even exchange or worse. Your defensive objective has two tiers: the preferred outcome is maintaining the flattened position by preventing the underhook entirely, while the secondary objective is exploiting their movement to complete the guard pass to side control. Recognizing the early cues of an underhook attempt allows you to preemptively address the threat before it develops, rather than reacting after the underhook is already partially secured. Understanding the bottom player's recovery pipeline and where it is most vulnerable to disruption gives you the tactical framework to maintain your hard-earned positional advantage.
 
-**Opponent's Starting Position**: [[Flattened Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Flattened Half Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the top player in flattened half guard, your opponent's underhook recovery at
 ### 1. Drive crossface deeper and increase forward chest pressure to re-flatten the bottom player
 
 - **When to use**: At the earliest recognition of hip escape movement, before significant space has been created
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Bottom player is re-flattened with their recovery attempt reset, maintaining your dominant pressure position
 - **Risk**: Committing weight too far forward may allow the bottom player to time a sweep if they have already secured partial underhook
 
 ### 2. Clamp near-side elbow tight and apply whizzer on the underhook arm if it begins to thread
 
 - **When to use**: When you feel the bottom player's arm beginning to slide under your armpit despite your pressure
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: The underhook is neutralized by the whizzer before it reaches effective depth, and you can use the whizzer to re-flatten the bottom player
 - **Risk**: An aggressive whizzer can be used by a skilled bottom player to initiate a dogfight or old school sweep entry
 
 ### 3. Extract trapped leg and complete pass to side control during the bottom player's hip escape movement
 
 - **When to use**: When the bottom player commits their far arm to the underhook path and their leg hook loosens during the hip escape
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Guard pass completes to side control, completely bypassing the underhook recovery and advancing to a dominant position
 - **Risk**: If the leg hook remains secure, the pass attempt may create space that accelerates the bottom player's underhook recovery
 
 ### 4. Switch hips and drive knee across for an immediate knee slice pass during the recovery attempt
 
 - **When to use**: When the bottom player creates space with their hip escape but has not yet secured the underhook
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: The knee slice completes through the gap created by the bottom player's own hip escape, converting their escape attempt into your passing opportunity
 - **Risk**: If timed poorly, the knee slice creates additional space that assists the underhook recovery
 
@@ -225,11 +225,11 @@ As the top player in flattened half guard, your opponent's underhook recovery at
 
 ## Best-Case Outcomes for Defender
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Maintain constant forward pressure and follow the bottom player's hip escapes with your chest, preventing space creation. Clamp your near-side elbow to block the underhook path. Drive crossface deeper each time they attempt to move. The goal is to make their recovery attempts futile by eliminating the space they need before they can use it.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Read the bottom player's hip escape timing and use their movement as the trigger for your pass completion. When they shrimp away, their leg hook often loosens momentarily. Time your knee extraction to coincide with this loosening. Drive your knee across their thigh line while maintaining crossface control, completing the pass before they can recover their hook or secure the underhook.
 

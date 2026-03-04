@@ -152,7 +152,7 @@ Defending the Marce Choke requires recognizing the attack in its earliest stages
 
 The defensive framework operates on a timeline: before the lapel grip is established, you have multiple high-percentage defensive options including framing, turning, and grip fighting. Once the lapel is partially fed, your options narrow to grip stripping and explosive positional escapes. After the lapel is fully set and pressure begins, your survival depends on recognizing the choke early enough to tap before unconsciousness. Understanding this defensive timeline is critical - the Marce Choke becomes nearly inescapable once all elements are in place, so prevention is far more effective than late-stage escape attempts.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -192,21 +192,21 @@ The defensive framework operates on a timeline: before the lapel grip is establi
 ### 1. Turn into the attacker before the lapel is fed across the neck
 
 - **When to use**: As soon as you recognize the top player reaching for your far lapel - this is the highest-percentage defense and must be executed before the grip is established
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to half guard or closed guard, completely negating the Marce Choke threat and returning to a neutral guard position
 - **Risk**: If you turn too late after the lapel is already fed, the turning motion can actually tighten the choke. Must be executed early.
 
 ### 2. Two-on-one grip fight to strip the lapel grip before it crosses your neck
 
 - **When to use**: When you detect the attacker gripping your far lapel but before they have fully fed it across your neck - use both hands to attack their gripping hand
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You break the lapel grip and return to standard side control bottom position where you can work normal escapes without choke threat
 - **Risk**: Using both hands for grip fighting temporarily removes your defensive frames, potentially allowing the attacker to advance position
 
 ### 3. Bridge explosively while blocking the lapel feed with your far hand
 
 - **When to use**: When the attacker begins feeding the lapel but has not yet secured deep positioning across your neck - combine bridge with active hand defense
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The bridge disrupts the attacker's base and the hand block prevents the lapel from being seated deep enough to finish, creating space to recover guard
 - **Risk**: If bridge timing is off, you expend significant energy without escaping and the attacker reestablishes pressure with the lapel partially fed
 
@@ -229,11 +229,11 @@ The defensive framework operates on a timeline: before the lapel grip is establi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Turn into the attacker early before the lapel crosses your neck, insert your inside knee to establish half guard, then work standard half guard retention to prevent the attacker from re-establishing side control and reattempting the choke
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Strip the lapel grip using two-on-one grip fighting before the choke is set, then use frames and hip escapes to work standard side control escapes back to guard without the added submission threat
 

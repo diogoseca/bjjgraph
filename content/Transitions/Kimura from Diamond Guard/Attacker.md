@@ -186,7 +186,7 @@ description: "Execute the Kimura from Diamond Guard as the bottom player. Step-b
 
 The Kimura from Diamond Guard Attacker converts the established overhook control of the diamond frame into a Kimura figure-four grip, using the broken posture and trapped arm as a foundation for a powerful sweep-to-submission sequence. The attack capitalizes on the opponent's compromised structure within diamond guard, where their arm is already controlled and their posture is broken, making the transition to Kimura grip a natural evolution of the existing control. Success requires precise timing during the grip switch from head control to wrist control, maintaining the overhook throughout to prevent the opponent from recovering posture during the brief transition window. The attacker must coordinate hip movement with grip establishment to generate the sweeping force needed to arrive in Kimura Trap top position.
 
-**From Position**: [[Diamond Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard/Diamond Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ The Kimura from Diamond Guard Attacker converts the established overhook control
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kimura Trap]] | 45% |
-| Failure | [[Diamond Guard]] | 35% |
-| Counter | [[Closed Guard]] | 20% |
+| Success | [[Positions/Kimura Trap]] | 45% |
+| Failure | [[Positions/Closed Guard/Diamond Guard]] | 35% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ The Kimura from Diamond Guard Attacker converts the established overhook control
 
 ## Opponent Counters
 
-- **Opponent tucks elbow tight against ribs to deny figure-four grip depth** (Effectiveness: High) - Your Response: Maintain wrist control and use your overhook arm to pry the elbow away from their body through progressive leverage. If the elbow remains locked, switch to an omoplata entry by shooting your leg over the tucked arm — the tight elbow actually assists the omoplata rotation. → Leads to [[Diamond Guard]]
-- **Opponent grabs own belt, pants, or lapel to prevent arm rotation behind their back** (Effectiveness: High) - Your Response: Do not attempt to muscle through the defensive grip. Instead, use your free leg to kick their gripping hand free by threading your foot between their arm and body, or transition to the hip bump sweep using the existing grip pressure — their defensive hand commitment removes their ability to post against the sweep. → Leads to [[Diamond Guard]]
-- **Opponent drives hips forward and postures explosively during head control release window** (Effectiveness: Medium) - Your Response: If you already have the wrist, use their forward drive momentum to accelerate the hip bump sweep — their posture recovery attempt moves their center of gravity forward over your hips. If you have not yet secured the wrist, re-establish head control and return to diamond guard to reset the sequence. → Leads to [[Closed Guard]]
-- **Opponent straightens trapped arm to prevent figure-four lock from closing** (Effectiveness: Medium) - Your Response: A straightened arm from inside your overhook creates a long lever arm that is actually easier to manipulate. Use the extended arm to initiate a straight armbar by shooting your hips up and throwing your leg over their head, or bend the arm by driving your overhook elbow downward while pulling the wrist upward with your grip hand. → Leads to [[Diamond Guard]]
+- **Opponent tucks elbow tight against ribs to deny figure-four grip depth** (Effectiveness: High) - Your Response: Maintain wrist control and use your overhook arm to pry the elbow away from their body through progressive leverage. If the elbow remains locked, switch to an omoplata entry by shooting your leg over the tucked arm — the tight elbow actually assists the omoplata rotation. → Leads to [[Positions/Closed Guard/Diamond Guard]]
+- **Opponent grabs own belt, pants, or lapel to prevent arm rotation behind their back** (Effectiveness: High) - Your Response: Do not attempt to muscle through the defensive grip. Instead, use your free leg to kick their gripping hand free by threading your foot between their arm and body, or transition to the hip bump sweep using the existing grip pressure — their defensive hand commitment removes their ability to post against the sweep. → Leads to [[Positions/Closed Guard/Diamond Guard]]
+- **Opponent drives hips forward and postures explosively during head control release window** (Effectiveness: Medium) - Your Response: If you already have the wrist, use their forward drive momentum to accelerate the hip bump sweep — their posture recovery attempt moves their center of gravity forward over your hips. If you have not yet secured the wrist, re-establish head control and return to diamond guard to reset the sequence. → Leads to [[Positions/Closed Guard]]
+- **Opponent straightens trapped arm to prevent figure-four lock from closing** (Effectiveness: Medium) - Your Response: A straightened arm from inside your overhook creates a long lever arm that is actually easier to manipulate. Use the extended arm to initiate a straight armbar by shooting your hips up and throwing your leg over their head, or bend the arm by driving your overhook elbow downward while pulling the wrist upward with your grip hand. → Leads to [[Positions/Closed Guard/Diamond Guard]]
 
 
 </section>

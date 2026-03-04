@@ -21,7 +21,7 @@ The sweep's effectiveness derives from simultaneous neutralization of the oppone
 
 Strategic positioning within the broader half guard game makes this sweep particularly dangerous. The Electric Chair submission lurks as a chain attack when the opponent defends the sweep by extending their trapped leg, creating a genuine dilemma where defending one threat directly exposes the other. Advanced practitioners exploit this binary threat system to force opponents into choosing between two losing options, making the Old School sweep the cornerstone technique that powers the entire lockdown-based half guard offensive system.
 
-**From Position**: [[Old School]] (Bottom)
+**From Position**: [[Positions/Half Guard/Old School]] (Bottom)
 **Success Rate**: 46%
 
 </section>
@@ -32,9 +32,9 @@ Strategic positioning within the broader half guard game makes this sweep partic
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 46% |
-| Failure | [[Old School]] | 32% |
-| Counter | [[Side Control]] | 22% |
+| Success | [[Positions/Mount]] | 46% |
+| Failure | [[Positions/Half Guard/Old School]] | 32% |
+| Counter | [[Positions/Side Control]] | 22% |
 
 
 </section>
@@ -197,27 +197,27 @@ The Old School Position Sweep is the primary offensive tool from the lockdown ha
 ## Related Techniques
 
 
-- [[Old School]] - Source position from which this sweep is executed
+- [[Positions/Half Guard/Old School]] - Source position from which this sweep is executed
 
-- [[Mount]] - Primary target position upon successful sweep completion
+- [[Positions/Mount]] - Primary target position upon successful sweep completion
 
-- [[Side Control]] - Counter outcome position when opponent successfully defends and passes
+- [[Positions/Side Control]] - Counter outcome position when opponent successfully defends and passes
 
-- [[Half Guard]] - Parent position category containing the Old School variant
+- [[Positions/Half Guard]] - Parent position category containing the Old School variant
 
-- [[Lockdown]] - Prerequisite control mechanism that enables the sweep
+- [[Positions/Half Guard/Lockdown]] - Prerequisite control mechanism that enables the sweep
 
-- [[Deep Half Guard]] - Alternative transition when opponent flattens and prevents the sweep angle
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition when opponent flattens and prevents the sweep angle
 
-- [[Electric Chair]] - Chain attack submission when opponent defends the sweep by extending trapped leg
+- [[Positions/Half Guard/Electric Chair]] - Chain attack submission when opponent defends the sweep by extending trapped leg
 
-- [[Dogfight Position]] - Intermediate position when bottom player comes up on underhook instead of completing full sweep
+- [[Positions/Dogfight Position]] - Intermediate position when bottom player comes up on underhook instead of completing full sweep
 
-- [[Back Control]] - Alternative target position via back take variation of the sweep
+- [[Positions/Back Control]] - Alternative target position via back take variation of the sweep
 
-- [[Defend Old School Sweep]] - Direct counter-technique from the top player's perspective
+- [[Transitions/Defend Old School Sweep]] - Direct counter-technique from the top player's perspective
 
-- [[Crossface from Old School]] - Top player's primary defensive tool to shut down the sweep
+- [[Transitions/Crossface from Old School]] - Top player's primary defensive tool to shut down the sweep
 
 
 </section>

@@ -154,7 +154,7 @@ description: "Defend against posture up escape attempts from mounted triangle to
 
 Maintaining the mounted triangle against a posture up escape requires active counter-measures beyond simply holding the position. As the top player, your goal is to shut down frame establishment, maintain the triangle's choking angle through hip adjustments, and be prepared to transition to alternative attacks when escape attempts create new offensive opportunities. The posture up escape is a methodical technique that builds incrementally, making early recognition and intervention critical. Understanding the mechanics of each phase of the posture up allows you to apply the correct counter-measure before the bottom player can build momentum toward guard recovery. Effective defense from this perspective transforms the opponent's escape energy into pathways toward submission finishes or positional advancement.
 
-**Opponent's Starting Position**: [[Mounted Triangle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount/Mounted Triangle]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Maintaining the mounted triangle against a posture up escape requires active cou
 ### 1. Pull head down and re-tighten triangle lock by cupping behind the skull and squeezing knees
 
 - **When to use**: Immediately when you feel the bottom player's posture beginning to rise or their hip frame making contact
-- **Targets**: [[Mounted Triangle]]
+- **Targets**: [[Positions/Mount/Mounted Triangle]]
 - **If successful**: Bottom player returns to full triangle control with reduced energy for subsequent escape attempts
 - **Risk**: If the head pull grip fails, the bottom player may achieve significant posture before you can re-establish control
 
 ### 2. Transition to armbar by controlling the framing arm and pivoting hips toward it
 
 - **When to use**: When the bottom player extends their free arm to create a frame and it straightens past a safe angle
-- **Targets**: [[Mounted Triangle]]
+- **Targets**: [[Positions/Mount/Mounted Triangle]]
 - **If successful**: Catch immediate armbar finish or force the opponent to abandon the escape to defend their arm
 - **Risk**: If the armbar transition is mistimed, you may lose the triangle configuration entirely during the pivot
 
 ### 3. Deliberately release triangle and consolidate standard mount with crossface control
 
 - **When to use**: When the triangle angle is significantly disrupted and maintaining it requires more effort than the position justifies
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Settle into stable mount control with opportunity to re-attempt triangle setup or pursue mount-based submissions
 - **Risk**: Bottom player uses the transition moment to insert knee shield and recover half guard before you settle
 
 ### 4. Strip the framing hand by pushing it past your hip and immediately re-engaging head control
 
 - **When to use**: Early in the escape attempt when the bottom player first contacts your hip with their frame
-- **Targets**: [[Mounted Triangle]]
+- **Targets**: [[Positions/Mount/Mounted Triangle]]
 - **If successful**: Collapse the escape at its foundation before any posture is created, forcing the opponent to restart
 - **Risk**: If you cannot strip the frame quickly, the delay may give the opponent time to establish a stronger structure
 
@@ -225,11 +225,11 @@ Maintaining the mounted triangle against a posture up escape requires active cou
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mounted Triangle]]
+### → [[Positions/Mount/Mounted Triangle]]
 
 Pull the head down immediately when posture begins and re-angle your hips to tighten the triangle. Strip any frame attempts on contact. Use the opponent's energy expenditure against them, as each failed escape drains their reserves while you maintain position with minimal effort through gravity and triangle mechanics.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 If the triangle becomes unsustainable due to angle disruption, release it deliberately and immediately drive your hips down into mount position. Establish crossface control before the bottom player can insert frames, converting a potentially lost triangle into stable mount pressure. Make this a deliberate tactical decision rather than an uncontrolled loss of position.
 

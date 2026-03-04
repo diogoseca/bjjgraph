@@ -21,7 +21,7 @@ The escape works by combining a strategic weight shift with explosive hip rotati
 
 Strategically, the Sit Through Escape represents a high-percentage option when the opponent has established only the initial hook and has not yet secured deep upper body control. It is particularly effective against opponents who over-commit to the hooking leg or who extend too far forward in pursuit of back control. The escape transitions naturally into various open guard variations and can be chained with technical stand-ups when the opponent's reaction creates additional space.
 
-**From Position**: [[Crab Ride]] (Bottom)
+**From Position**: [[Positions/Crab Ride]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Sit Through Escape represents a high-percentage option when t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 65% |
-| Failure | [[Crab Ride]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Open Guard]] | 65% |
+| Failure | [[Positions/Crab Ride]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -185,25 +185,25 @@ The Sit Through Escape occupies a critical role in the defensive hierarchy from 
 ## Related Techniques
 
 
-- [[Crab Ride]] - Starting position - the position this escape defends against
+- [[Positions/Crab Ride]] - Starting position - the position this escape defends against
 
-- [[Open Guard]] - Target position - where successful escape establishes you
+- [[Positions/Open Guard]] - Target position - where successful escape establishes you
 
-- [[Granby Roll to Guard]] - Alternative escape - opposite rotation direction for combination attacks
+- [[Transitions/Granby Roll to Guard]] - Alternative escape - opposite rotation direction for combination attacks
 
-- [[Hip Escape to Guard]] - Complementary escape - allows turtle reset when sit through blocked
+- [[Transitions/Hip Escape to Guard]] - Complementary escape - allows turtle reset when sit through blocked
 
-- [[Technical Stand-up]] - Chain technique - can continue sit through momentum to standing
+- [[Transitions/Technical Stand-up]] - Chain technique - can continue sit through momentum to standing
 
-- [[Back Control]] - Threat position - what opponent achieves if escape fails
+- [[Positions/Back Control]] - Threat position - what opponent achieves if escape fails
 
-- [[Turtle]] - Related position - fundamental defensive posture preceding crab ride
+- [[Positions/Turtle]] - Related position - fundamental defensive posture preceding crab ride
 
-- [[Butterfly Guard]] - Follow-up option - guard variation to establish after escape
+- [[Positions/Butterfly Guard]] - Follow-up option - guard variation to establish after escape
 
-- [[Single Leg Takedown]] - Chain technique - offensive option from sit through momentum
+- [[Transitions/Single Leg Takedown]] - Chain technique - offensive option from sit through momentum
 
-- [[Back Door Escape]] - Related system - broader escape methodology this technique belongs to
+- [[Transitions/Back Door Escape]] - Related system - broader escape methodology this technique belongs to
 
 
 </section>

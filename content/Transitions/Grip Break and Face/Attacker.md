@@ -178,7 +178,7 @@ The technique operates on the principle that standing back control is transition
 
 Strategically, this escape is preferred when you have sufficient space to rotate and the opponent has not yet secured hooks or body triangle. It requires less energy than dropping to turtle and allows you to immediately threaten offensive positions from the resulting clinch. Advanced practitioners chain this with immediate underhooks or collar ties to gain clinch advantage after completing the rotation.
 
-**From Position**: [[Standing Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategically, this escape is preferred when you have sufficient space to rotate
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Clinch]] | 55% |
-| Failure | [[Standing Back Control]] | 30% |
-| Counter | [[Front Headlock]] | 15% |
+| Success | [[Positions/Clinch]] | 55% |
+| Failure | [[Positions/Back Control/Standing Back Control]] | 30% |
+| Counter | [[Positions/Front Headlock]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, this escape is preferred when you have sufficient space to rotate
 
 ## Opponent Counters
 
-- **Opponent circles with your rotation maintaining back exposure** (Effectiveness: High) - Your Response: Commit to faster, more explosive rotation and immediately establish underhook on the side you turn toward to block their circular movement → Leads to [[Standing Back Control]]
-- **Opponent drops hooks in deep before you can rotate** (Effectiveness: High) - Your Response: Switch to turtle descent escape or address hooks first by widening stance before attempting rotation → Leads to [[Standing Back Control]]
-- **Opponent re-establishes harness grip during rotation** (Effectiveness: Medium) - Your Response: Continue rotation anyway if past 90 degrees, or reset grip fighting if caught early - do not pause mid-rotation → Leads to [[Standing Back Control]]
-- **Opponent shoots for takedown as you face them** (Effectiveness: Medium) - Your Response: Sprawl immediately and establish front headlock control, converting their failed back take into your offensive position → Leads to [[Front Headlock]]
+- **Opponent circles with your rotation maintaining back exposure** (Effectiveness: High) - Your Response: Commit to faster, more explosive rotation and immediately establish underhook on the side you turn toward to block their circular movement → Leads to [[Positions/Back Control/Standing Back Control]]
+- **Opponent drops hooks in deep before you can rotate** (Effectiveness: High) - Your Response: Switch to turtle descent escape or address hooks first by widening stance before attempting rotation → Leads to [[Positions/Back Control/Standing Back Control]]
+- **Opponent re-establishes harness grip during rotation** (Effectiveness: Medium) - Your Response: Continue rotation anyway if past 90 degrees, or reset grip fighting if caught early - do not pause mid-rotation → Leads to [[Positions/Back Control/Standing Back Control]]
+- **Opponent shoots for takedown as you face them** (Effectiveness: Medium) - Your Response: Sprawl immediately and establish front headlock control, converting their failed back take into your offensive position → Leads to [[Positions/Front Headlock]]
 
 
 </section>

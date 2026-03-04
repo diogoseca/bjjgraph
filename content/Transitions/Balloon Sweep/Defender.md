@@ -154,7 +154,7 @@ description: "How to defend against the Balloon Sweep in BJJ. Recognition cues, 
 
 Defending the Balloon Sweep requires the top player in closed guard to recognize the sweep's loading sequence early and disrupt it before the explosive phase generates enough vertical force to displace your base. The Balloon Sweep is particularly dangerous because it exploits the forward weight distribution that many guard top players adopt to maintain pressure, turning your offensive posture into a vulnerability. Effective defense begins with posture awareness: if your weight is loaded forward onto your hands and your head is near the opponent's chest, you are already in the sweep's danger zone. The defensive priority hierarchy is: maintain structural posture first, deny the collar grip second, prevent hook insertion third, and counter the lift direction last. Understanding this progression allows you to intervene at the earliest possible stage rather than fighting the sweep once it has full momentum.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Balloon Sweep requires the top player in closed guard to recognize
 ### 1. Post far leg wide and drive hips back to break the loading position
 
 - **When to use**: As soon as you feel the opponent's guard open and a hook being inserted, before the compression phase completes
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You neutralize the sweep angle and can begin working to re-establish posture and pass the now-open guard
 - **Risk**: If you post too late after the lift has initiated, your posted leg may not generate enough counterforce to prevent the sweep
 
 ### 2. Strip the collar grip with two-on-one grip break while sitting hips back
 
 - **When to use**: When you recognize the opponent establishing a deep collar grip and beginning to break your posture forward
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Without the collar grip, the opponent cannot maintain the forward pull component and the sweep loses its upper body control
 - **Risk**: Momentarily releasing hip control to strip grips may allow opponent to adjust their hook position or attempt a different sweep
 
 ### 3. Stand up in base to eliminate the forward weight distribution and open passing options
 
 - **When to use**: When you feel your posture being systematically broken and the opponent is actively loading for the sweep
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Standing removes your weight from the opponent's hooks entirely and creates a completely different guard breaking dynamic
 - **Risk**: Standing with broken posture or compromised grips may expose you to sweeps during the stand-up transition
 
 ### 4. Drive forward explosively and flatten opponent while blocking the hook with your hip
 
 - **When to use**: When you feel the hook insertion but before the compression phase, using forward pressure to pin the opponent flat
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Flattening the opponent removes the hip angle they need for the sweep and may allow you to initiate a passing sequence
 - **Risk**: Driving forward loads more weight onto the hook, which the opponent can redirect into the sweep if your timing is wrong
 
@@ -225,11 +225,11 @@ Defending the Balloon Sweep requires the top player in closed guard to recognize
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Maintain strong upright posture, fight collar grips immediately, deny hook insertion by squeezing knees tight, and post far leg wide if you feel any upward lifting pressure. Return to standard closed guard top defensive position and resume guard opening sequence.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the opponent opens their guard to attempt the sweep, capitalize on the open guard by immediately initiating a guard pass. Drive forward to flatten them while controlling their legs, or stand up to break the guard position entirely and begin toreando or knee slice passing sequences.
 

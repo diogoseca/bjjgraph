@@ -146,7 +146,7 @@ description: "Understand how to overcome the Standing Switch Defense in BJJ. Rec
 
 When facing the Standing Switch Defense, you are the practitioner attempting to escape the rear clinch through a switch reversal. Your opponent will attempt to neutralize your hip pivot by driving forward, tightening grips, and widening their base to create structural resistance. Understanding how the defense works allows you to identify windows of opportunity during grip transitions, time your switch attempts to exploit momentary weight shifts, and chain the switch with secondary escapes when the initial attempt is stuffed. Recognizing the defender's mechanical limitations and response patterns reveals the precise moments when their defense is most vulnerable to your switch completion or follow-up attack.
 
-**Opponent's Starting Position**: [[Standing Rear Clinch]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Rear Clinch]] (Top)
 
 </section>
 
@@ -183,28 +183,28 @@ When facing the Standing Switch Defense, you are the practitioner attempting to 
 ### 1. Chain the switch immediately into a sit-out by dropping to one knee and pivoting away from the controller's forward pressure
 
 - **When to use**: When the controller successfully stuffs your initial switch attempt by driving hips forward, creating downward momentum you can redirect laterally into a sit-out escape
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You clear the controller's grip entirely and establish neutral standing or gain positional advantage through the directional change
 - **Risk**: If the sit-out fails, the controller may secure a mat return to back control, putting you in a worse position than the original rear clinch
 
 ### 2. Explosively complete the switch with maximum speed before the controller can widen their base and establish defensive structure
 
 - **When to use**: When you feel the controller's grip is loose or they are momentarily off-balance during a grip transition, giving you a split-second window before they can activate their defense
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You complete the full 180-degree rotation and establish neutral standing or your own rear clinch position behind the former controller
 - **Risk**: If the explosive attempt fails against a prepared controller, you have expended significant energy and may be in a weaker position within the rear clinch
 
 ### 3. Strip the controller's grip using aggressive two-on-one hand fighting before reattempting the switch from a weakened control position
 
 - **When to use**: When the controller has tightened their bodylock or seatbelt to the point where the switch is mechanically blocked, requiring grip degradation before another attempt can succeed
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: You weaken the controller's grip enough to create space for a subsequent switch attempt or transition to an alternative escape technique
 - **Risk**: Hand fighting exposes you to the controller transitioning to a different grip or capitalizing on your focus on hands to execute a mat return takedown
 
 ### 4. Drop level and shoot a single leg takedown as a follow-up when the switch is stuffed and the controller's weight is committed forward
 
 - **When to use**: When the controller drives their hips aggressively forward to stuff the switch, creating a moment where their weight is committed forward and their base is extended beyond recovery
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You convert the failed switch into a takedown that reverses the positional hierarchy, putting the former controller on the bottom
 - **Risk**: If the single leg fails, you may end up in front headlock or flattened on the mat under the controller's increased pressure
 
@@ -216,11 +216,11 @@ When facing the Standing Switch Defense, you are the practitioner attempting to 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Chain a failed switch directly into a single leg or double leg takedown while the controller's weight is committed forward from driving their hips to stuff the switch. Their forward commitment creates a vulnerable window for level-change takedown attacks that put them on the bottom.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Complete the switch through explosive speed and timing during grip transitions, or chain the switch with a sit-out to clear the controller's grips and establish neutral standing position where you are no longer controlled from behind.
 

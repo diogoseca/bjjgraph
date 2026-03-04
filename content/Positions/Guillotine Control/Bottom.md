@@ -210,25 +210,25 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 ## Available Escapes
 
-### [[Guillotine Choke]] (50% of attempts)
+### [[Transitions/Guillotine Choke]] (50% of attempts)
 
-### [[High Elbow Guillotine Variation]] (13% of attempts)
+### [[Transitions/High Elbow Guillotine Variation]] (13% of attempts)
 
-### [[Hip Bump Sweep]] (10% of attempts)
+### [[Transitions/Hip Bump Sweep]] (10% of attempts)
 
-### [[Closed Guard to Omoplata]] (4% of attempts)
+### [[Transitions/Closed Guard to Omoplata]] (4% of attempts)
 
-### [[Closed Guard to Triangle]] (6% of attempts)
+### [[Transitions/Closed Guard to Triangle]] (6% of attempts)
 
-### [[Guard Recovery from Guillotine Control]] (6% of attempts)
+### [[Transitions/Guard Recovery from Guillotine Control]] (6% of attempts)
 
-### [[Butterfly Sweep with Guillotine]] (6% of attempts)
+### [[Transitions/Butterfly Sweep with Guillotine]] (6% of attempts)
 
-### [[Guillotine Setup]] (3% of attempts)
+### [[Transitions/Guillotine Setup]] (3% of attempts)
 
-### [[Guillotine Escape to Von Flue]] (1% of attempts)
+### [[Transitions/Guillotine Escape to Von Flue]] (1% of attempts)
 
-### [[Guillotine Escape via Posture]] (1% of attempts)
+### [[Transitions/Guillotine Escape via Posture]] (1% of attempts)
 
 
 
@@ -239,28 +239,28 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 ## Decision Making from This Position
 
 **If opponent drives weight forward and attempts to flatten bottom player to relieve choke pressure:**
-- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 55%)
-- Execute **[[Closed Guard to Triangle]]** → [[Mounted Triangle]] (Probability: 40%)
+- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Closed Guard to Triangle]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 40%)
 
 
 **If opponent postures up and attempts to create space by extending arms or lifting torso:**
-- Execute **[[High Elbow Guillotine Variation]]** → [[Game Over]] (Probability: 65%)
-- Execute **[[Guillotine Setup]]** → [[Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/High Elbow Guillotine Variation]]** → [[Positions/Game Over]] (Probability: 65%)
+- Execute **[[Transitions/Guillotine Setup]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
 **If opponent turns head and shoulders away from choking arm to escape:**
-- Execute **[[Anaconda Choke]]** → [[Game Over]] (Probability: 60%)
-- Execute **[[Darce Choke]]** → [[Game Over]] (Probability: 55%)
+- Execute **[[Transitions/Anaconda Choke]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Darce Choke]]** → [[Positions/Game Over]] (Probability: 55%)
 
 
 **If opponent successfully creates significant space and begins extracting head:**
-- Execute **[[Guillotine Setup]]** → [[Closed Guard]] (Probability: 70%)
-- Execute **[[Guard Recovery from Guillotine Control]]** → [[Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Guillotine Setup]]** → [[Positions/Closed Guard]] (Probability: 70%)
+- Execute **[[Transitions/Guard Recovery from Guillotine Control]]** → [[Positions/Half Guard]] (Probability: 60%)
 
 
 **If opponent keeps head down and attempts to drive forward while defending neck:**
-- Execute **[[Guillotine Choke]]** → [[Game Over]] (Probability: 70%)
-- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 45%)
+- Execute **[[Transitions/Guillotine Choke]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 
@@ -406,16 +406,16 @@ Start each round with bottom player establishing guillotine control in guard. Bo
 
 ## Related Positions and Techniques
 
-- **[[Front Headlock]]** - Similar position - related control structure
-- **[[Closed Guard]]** - Common transition - guard position for maintaining control
-- **[[Half Guard]]** - Common transition - alternative guard retention option
-- **[[Guillotine Choke]]** - Primary submission - main finishing technique
-- **[[Arm in Guillotine]]** - Variation technique - arm-trapped finishing method
-- **[[Chin Strap Guillotine]]** - Variation technique - alternative finishing mechanics with chin control
-- **[[Anaconda Choke]]** - Alternative submission - counter when opponent turns
-- **[[Mounted Triangle]]** - Chain submission - transition when arm crosses during defense
-- **[[Omoplata Control]]** - Chain submission - transition when opponent posts hand
-- **[[Butterfly Guard]]** - Guard variation - alternative leg positioning for control
+- **[[Positions/Front Headlock]]** - Similar position - related control structure
+- **[[Positions/Closed Guard]]** - Common transition - guard position for maintaining control
+- **[[Positions/Half Guard]]** - Common transition - alternative guard retention option
+- **[[Transitions/Guillotine Choke]]** - Primary submission - main finishing technique
+- **[[Submissions/Arm in Guillotine]]** - Variation technique - arm-trapped finishing method
+- **[[Submissions/Chin Strap Guillotine]]** - Variation technique - alternative finishing mechanics with chin control
+- **[[Transitions/Anaconda Choke]]** - Alternative submission - counter when opponent turns
+- **[[Positions/Mount/Mounted Triangle]]** - Chain submission - transition when arm crosses during defense
+- **[[Positions/Omoplata Control]]** - Chain submission - transition when opponent posts hand
+- **[[Positions/Butterfly Guard]]** - Guard variation - alternative leg positioning for control
 
 
 </section>

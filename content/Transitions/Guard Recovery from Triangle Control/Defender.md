@@ -148,7 +148,7 @@ description: "Prevent guard recovery from your triangle control as the bottom pl
 
 As the bottom player maintaining triangle control, your opponent's escape attempt represents a critical challenge to your submission position. The top player will work to establish posture, extract their trapped arm, and eventually recover to closed guard top, neutralizing your submission threat entirely. Your objective is to prevent each phase of their escape—maintain head control to deny posture, re-tighten the triangle angle as they rotate, and transition to armbar or omoplata when the triangle configuration becomes unsustainable. Understanding the escape mechanics allows you to anticipate the top player's movements and apply the precise counter-adjustments that maintain submission danger throughout their recovery attempt.
 
-**Opponent's Starting Position**: [[Triangle Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Triangle Control]] (Top)
 
 </section>
 
@@ -185,21 +185,21 @@ As the bottom player maintaining triangle control, your opponent's escape attemp
 ### 1. Pull the opponent's head down with both hands while squeezing knees together and curling your hips upward to re-tighten the triangle angle
 
 - **When to use**: When the top player is attempting to establish posture but has not yet gripped your locking ankle or begun rotating
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Top player's posture is broken back down into the triangle, resetting their escape progress and re-establishing the choking angle
 - **Risk**: If the head pull fails against strong posture, you expend grip energy without maintaining the triangle angle
 
 ### 2. Transition to armbar by uncrossing ankles and swinging the top leg over the opponent's face when the arm extraction progresses past the centerline
 
 - **When to use**: When the top player's trapped arm has crossed your centerline and the triangle choke angle is compromised beyond recovery
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: The opponent's partially extracted arm becomes the armbar target, catching them during the transition moment when they believe they are escaping
 - **Risk**: If the armbar transition is too slow, the opponent stacks forward and passes to side control
 
 ### 3. Pivot hips and transition to omoplata by rotating the triangle configuration into a shoulder lock when the opponent turns toward their trapped arm
 
 - **When to use**: When the top player has rotated significantly toward the trapped arm side and their shoulder is exposed for the omoplata angle
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: The opponent's rotation momentum is used against them to establish the omoplata shoulder lock from the triangle position
 - **Risk**: If the opponent postures up and steps over during the hip pivot, they can escape the omoplata and pass
 
@@ -211,15 +211,15 @@ As the bottom player maintaining triangle control, your opponent's escape attemp
 
 ## Best-Case Outcomes for Defender
 
-### → [[Triangle Control]]
+### → [[Positions/Triangle Control]]
 
 Maintain constant head control and hip angle adjustments to prevent the posture establishment and arm extraction that enable the escape, keeping the top player trapped in the submission-threatening triangle configuration
 
-### → [[Armbar Control]]
+### → [[Positions/Armbar Control]]
 
 When the triangle escape progresses past the point of re-tightening and the trapped arm crosses your centerline, transition to armbar by uncrossing ankles and swinging the top leg over the opponent's face while controlling the partially extracted arm
 
-### → [[Omoplata Control]]
+### → [[Positions/Omoplata Control]]
 
 When the opponent rotates significantly toward the trapped arm side, use their rotation momentum to pivot your hips and transition the triangle configuration into an omoplata shoulder lock, capitalizing on their escape angle to create a new submission threat
 

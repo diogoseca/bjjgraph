@@ -186,7 +186,7 @@ description: "Master the bridge escape technique from 3-4 mount bottom. Step-by-
 
 Executing the bridge escape from 3-4 mount requires reading the asymmetric weight distribution and attacking the compromised base angle created by the posted leg configuration. As the escaping player, your primary advantage is that the top player's base has a built-in weak side—the posted leg creates a gap in their defensive structure that cannot be fully eliminated while maintaining the 3-4 configuration. Success depends on explosive timing, directional bridging toward the correct angle, and trapping the opponent's posting arm to prevent base recovery. The technique rewards patience in setup and explosiveness in execution, making it effective at all levels when the timing window is recognized and exploited. Even failed bridge attempts produce value by disrupting the top player's control and creating openings for secondary escapes.
 
-**From Position**: [[3-4 Mount]] (Bottom)
+**From Position**: [[Positions/Mount/3-4 Mount]] (Bottom)
 
 </section>
 
@@ -239,10 +239,10 @@ Executing the bridge escape from 3-4 mount requires reading the asymmetric weigh
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 25% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[3-4 Mount]] | 40% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Closed Guard]] | 25% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Mount/3-4 Mount]] | 40% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ Executing the bridge escape from 3-4 mount requires reading the asymmetric weigh
 
 ## Opponent Counters
 
-- **Top player posts free hand on the mat to block the roll** (Effectiveness: High) - Your Response: If you feel the post stopping your bridge mid-roll, immediately switch to an elbow escape toward the opposite side. The posting reaction shifts their weight and creates space on the other side for a shrimp escape to half guard. → Leads to [[3-4 Mount]]
-- **Top player drives chest weight forward and sprawls hips to kill bridge momentum before it develops** (Effectiveness: High) - Your Response: Use the forward weight commitment to create an elbow escape opportunity on the lighter side. Their forward pressure opens space at your hips for a shrimp. Alternatively, re-time the bridge for the moment they relax the forward sprawl. → Leads to [[3-4 Mount]]
-- **Top player switches hips and consolidates to full mount during failed bridge attempt** (Effectiveness: Medium) - Your Response: Accept the transition to full mount and immediately establish defensive frames. Full mount with even weight distribution can actually be easier to escape with standard upa and elbow escape combinations than the asymmetric 3-4 mount in some scenarios. → Leads to [[Mount]]
-- **Top player extracts trapped arm before bridge reaches full power by circling the wrist or pulling sharply** (Effectiveness: Medium) - Your Response: If arm control is lost before the bridge, abort the full roll attempt and convert to a bridge-to-space escape instead. Use the bridge power to create separation and immediately shrimp to recover half guard rather than attempting an armless reversal. → Leads to [[3-4 Mount]]
+- **Top player posts free hand on the mat to block the roll** (Effectiveness: High) - Your Response: If you feel the post stopping your bridge mid-roll, immediately switch to an elbow escape toward the opposite side. The posting reaction shifts their weight and creates space on the other side for a shrimp escape to half guard. → Leads to [[Positions/Mount/3-4 Mount]]
+- **Top player drives chest weight forward and sprawls hips to kill bridge momentum before it develops** (Effectiveness: High) - Your Response: Use the forward weight commitment to create an elbow escape opportunity on the lighter side. Their forward pressure opens space at your hips for a shrimp. Alternatively, re-time the bridge for the moment they relax the forward sprawl. → Leads to [[Positions/Mount/3-4 Mount]]
+- **Top player switches hips and consolidates to full mount during failed bridge attempt** (Effectiveness: Medium) - Your Response: Accept the transition to full mount and immediately establish defensive frames. Full mount with even weight distribution can actually be easier to escape with standard upa and elbow escape combinations than the asymmetric 3-4 mount in some scenarios. → Leads to [[Positions/Mount]]
+- **Top player extracts trapped arm before bridge reaches full power by circling the wrist or pulling sharply** (Effectiveness: Medium) - Your Response: If arm control is lost before the bridge, abort the full roll attempt and convert to a bridge-to-space escape instead. Use the bridge power to create separation and immediately shrimp to recover half guard rather than attempting an armless reversal. → Leads to [[Positions/Mount/3-4 Mount]]
 
 
 </section>

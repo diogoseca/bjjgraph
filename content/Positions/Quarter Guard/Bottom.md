@@ -207,27 +207,27 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 
 ## Available Escapes
 
-### [[Old School Sweep]] (10% of attempts)
+### [[Transitions/Old School Sweep]] (10% of attempts)
 
-### [[Half Guard to Back Take]] (9% of attempts)
+### [[Transitions/Half Guard to Back Take]] (9% of attempts)
 
-### [[Underhook Sweep from Half]] (10% of attempts)
+### [[Transitions/Underhook Sweep from Half]] (10% of attempts)
 
-### [[Deep Half Entry]] (11% of attempts)
+### [[Transitions/Deep Half Entry]] (11% of attempts)
 
-### [[Rolling Back Take]] (8% of attempts)
+### [[Transitions/Rolling Back Take]] (8% of attempts)
 
-### [[Electric Chair Transition]] (6% of attempts)
+### [[Transitions/Electric Chair Transition]] (6% of attempts)
 
-### [[Knee Shield Retention]] (33% of attempts)
+### [[Transitions/Knee Shield Retention]] (33% of attempts)
 
-### [[Lockdown Recovery]] (9% of attempts)
+### [[Transitions/Lockdown Recovery]] (9% of attempts)
 
-### [[Knee Shield from Quarter Guard]] (2% of attempts)
+### [[Transitions/Knee Shield from Quarter Guard]] (2% of attempts)
 
-### [[Recover Full Guard from Quarter Guard]] (1% of attempts)
+### [[Transitions/Recover Full Guard from Quarter Guard]] (1% of attempts)
 
-### [[Sweep from Quarter Guard]] (1% of attempts)
+### [[Transitions/Sweep from Quarter Guard]] (1% of attempts)
 
 
 
@@ -238,23 +238,23 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 ## Decision Making from This Position
 
 **If opponent drives weight forward and extends trapped leg attempting aggressive pass:**
-- Execute **[[Old School Sweep]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 40%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 40%)
 
 
 **If opponent attempts crossface or shoulder pressure to flatten you completely:**
-- Execute **[[Knee Shield Retention]]** → [[Knee Shield Half Guard]] (Probability: 70%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Knee Shield Retention]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 70%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 60%)
 
 
 **If opponent posts near side hand on mat for base during pass attempt:**
-- Execute **[[Half Guard to Back Take]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent establishes tight chest-to-chest connection without posting:**
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 45%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 50%)
 
 
 
@@ -388,15 +388,15 @@ Begin in severely compromised quarter guard with partner seventy-five percent th
 
 ## Related Positions and Techniques
 
-- **[[Half Guard]]** - Parent position from which quarter guard bottom emerges during passing sequences
-- **[[Deep Half Guard]]** - Common transition target when opponent drives forward with pressure
-- **[[Knee Shield Half Guard]]** - Recovery position when creating space with free leg and frames
-- **[[Lockdown]]** - Alternative leg configuration for quarter guard control offering submission threats
-- **[[Dogfight Position]]** - Similar underhook-based position with different leg configuration and tactical options
-- **[[Electric Chair]]** - Primary submission threat from lockdown quarter guard variation
-- **[[Old School Sweep]]** - High-percentage sweep when opponent extends trapped leg during pass
-- **[[Side Control]]** - Position opponent is attempting to reach through pass completion
-- **[[Back Control]]** - High-value offensive target via back take sequences when opponent posts
+- **[[Positions/Half Guard]]** - Parent position from which quarter guard bottom emerges during passing sequences
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common transition target when opponent drives forward with pressure
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Recovery position when creating space with free leg and frames
+- **[[Positions/Half Guard/Lockdown]]** - Alternative leg configuration for quarter guard control offering submission threats
+- **[[Positions/Dogfight Position]]** - Similar underhook-based position with different leg configuration and tactical options
+- **[[Positions/Half Guard/Electric Chair]]** - Primary submission threat from lockdown quarter guard variation
+- **[[Transitions/Old School Sweep]]** - High-percentage sweep when opponent extends trapped leg during pass
+- **[[Positions/Side Control]]** - Position opponent is attempting to reach through pass completion
+- **[[Positions/Back Control]]** - High-value offensive target via back take sequences when opponent posts
 
 
 </section>

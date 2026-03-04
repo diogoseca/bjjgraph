@@ -186,7 +186,7 @@ What makes the Gogoplata particularly effective is its unexpected nature and the
 
 While the Gogoplata has a reputation as a low-percentage submission due to its technical complexity and flexibility requirements, when executed by practitioners with the proper physical attributes and technical understanding, it becomes a powerful addition to the submission arsenal. The technique has been successfully used in high-level competition by flexibility-focused grapplers. The Gogoplata represents the evolution of submission grappling beyond traditional techniques, showcasing how creativity and physical attributes can be leveraged to create finishing opportunities from seemingly neutral positions.
 
-**From Position**: [[Gogoplata Control]] (Top)
+**From Position**: [[Positions/Gogoplata Control]] (Top)
 
 
 </section>
@@ -244,8 +244,8 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Gogoplata Control]] | 35% |
-| Counter | [[Closed Guard]] | 25% |
+| Failure | [[Positions/Gogoplata Control]] | 35% |
+| Counter | [[Positions/Closed Guard]] | 25% |
 
 
 </section>
@@ -254,9 +254,9 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 ## Opponent Defenses
 
-- **Posture up aggressively to create space and prevent shin placement** (Effectiveness: High) - Your Response: Anticipate the posture attempt and use your rubber guard leg to pull their head back down immediately. Secure head control with both hands before they can create significant space. If they succeed in posturing, abandon the submission and transition to triangle or omoplata. → Leads to [[Gogoplata Control]]
-- **Turn head to the side to prevent shin from settling across throat** (Effectiveness: Medium) - Your Response: Follow the direction of their head turn and adjust your shin angle accordingly. Use your hand grips to force their head back to center position. If they persist in turning, you can attack the exposed neck with an arm triangle or switch to a different submission. → Leads to [[Gogoplata Control]]
-- **Push against your hips to create distance and remove choking pressure** (Effectiveness: Medium) - Your Response: Squeeze your knees together to trap their arms and prevent effective pushing. Your non-choking leg should hook deeper over their back to maintain proximity. Pull their head more aggressively to counteract any distance they create. → Leads to [[Closed Guard]]
+- **Posture up aggressively to create space and prevent shin placement** (Effectiveness: High) - Your Response: Anticipate the posture attempt and use your rubber guard leg to pull their head back down immediately. Secure head control with both hands before they can create significant space. If they succeed in posturing, abandon the submission and transition to triangle or omoplata. → Leads to [[Positions/Gogoplata Control]]
+- **Turn head to the side to prevent shin from settling across throat** (Effectiveness: Medium) - Your Response: Follow the direction of their head turn and adjust your shin angle accordingly. Use your hand grips to force their head back to center position. If they persist in turning, you can attack the exposed neck with an arm triangle or switch to a different submission. → Leads to [[Positions/Gogoplata Control]]
+- **Push against your hips to create distance and remove choking pressure** (Effectiveness: Medium) - Your Response: Squeeze your knees together to trap their arms and prevent effective pushing. Your non-choking leg should hook deeper over their back to maintain proximity. Pull their head more aggressively to counteract any distance they create. → Leads to [[Positions/Closed Guard]]
 - **Grab the choking leg and attempt to push it away from throat** (Effectiveness: Low) - Your Response: If they commit both hands to gripping your choking leg, their head becomes vulnerable. Increase head control and pulling pressure. The act of them reaching for your leg often drives their head deeper into the choke. Maintain shin pressure and continue the submission. → Leads to [[game-over]]
 
 

@@ -180,7 +180,7 @@ description: "Execute the Escape from Reverse Half Guard as the bottom player. C
 
 As the bottom player trapped in Reverse Half Guard, your primary objective is recovering standard Half Guard through controlled hip rotation and frame establishment. This position is inherently compromised because your back faces the opponent, limiting your offensive options and exposing you to back takes and passing sequences. The escape requires precise timing, coordinated frame creation against the opponent's hips and shoulders, and explosive hip rotation to re-establish a facing orientation. Success depends on maintaining leg control throughout the rotation to prevent the opponent from extracting their leg and completing a pass. The key to executing this escape effectively is reading the opponent's weight distribution and committing to the rotation when they shift their pressure or begin setting up their own attack.
 
-**From Position**: [[Reverse Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Reverse Half Guard]] (Bottom)
 
 </section>
 
@@ -232,10 +232,10 @@ As the bottom player trapped in Reverse Half Guard, your primary objective is re
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Reverse Half Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Half Guard/Reverse Half Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the bottom player trapped in Reverse Half Guard, your primary objective is re
 
 ## Opponent Counters
 
-- **Top player drives crossface pressure from behind to block torso rotation** (Effectiveness: High) - Your Response: Use inside hand to block crossface before initiating rotation. If crossface is established, address it first by framing against their arm and creating space before reattempting the escape. → Leads to [[Reverse Half Guard]]
-- **Top player inserts hooks for back control during the rotation when back is exposed** (Effectiveness: High) - Your Response: Keep elbows tight to your body and maintain defensive hand positioning near your collar during rotation. If hooks are partially inserted, immediately address the hook by scooping it down before completing rotation. → Leads to [[Back Control]]
-- **Top player extracts trapped leg and completes guard pass during escape attempt** (Effectiveness: Medium) - Your Response: Maintain active clamping pressure on the trapped leg throughout the rotation. Squeeze your knees together and use your hips to maintain connection even during the explosive rotation phase. → Leads to [[Side Control]]
-- **Top player drives weight forward to collapse frames and re-flatten bottom player** (Effectiveness: Medium) - Your Response: Use their forward pressure against them by timing your rotation to coincide with their weight commitment. Their forward drive actually assists your hip rotation if you redirect their momentum during the turn. → Leads to [[Reverse Half Guard]]
+- **Top player drives crossface pressure from behind to block torso rotation** (Effectiveness: High) - Your Response: Use inside hand to block crossface before initiating rotation. If crossface is established, address it first by framing against their arm and creating space before reattempting the escape. → Leads to [[Positions/Half Guard/Reverse Half Guard]]
+- **Top player inserts hooks for back control during the rotation when back is exposed** (Effectiveness: High) - Your Response: Keep elbows tight to your body and maintain defensive hand positioning near your collar during rotation. If hooks are partially inserted, immediately address the hook by scooping it down before completing rotation. → Leads to [[Positions/Back Control]]
+- **Top player extracts trapped leg and completes guard pass during escape attempt** (Effectiveness: Medium) - Your Response: Maintain active clamping pressure on the trapped leg throughout the rotation. Squeeze your knees together and use your hips to maintain connection even during the explosive rotation phase. → Leads to [[Positions/Side Control]]
+- **Top player drives weight forward to collapse frames and re-flatten bottom player** (Effectiveness: Medium) - Your Response: Use their forward pressure against them by timing your rotation to coincide with their weight commitment. Their forward drive actually assists your hip rotation if you redirect their momentum during the turn. → Leads to [[Positions/Half Guard/Reverse Half Guard]]
 
 
 </section>

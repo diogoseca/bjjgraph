@@ -182,7 +182,7 @@ description: "Complete attacking guide for finishing the Arm Triangle choke from
 
 Executing the Arm Triangle from Scarf Hold requires precise sequencing of grip transitions and body positioning while maintaining the chest pressure that prevents escape. The top player must convert the existing scarf hold head control into a choking configuration by driving the opponent's arm across their own neck, threading the choking arm around the head, and connecting a figure-four or gable grip that seals both sides of the neck. The finishing mechanics demand a hip switch from the perpendicular scarf hold angle to a chest-to-chest alignment that generates maximum bilateral carotid compression. The critical tactical insight is that the transition from scarf hold control to choking position creates a brief vulnerability window when head control is temporarily modified—managing this window through maintained chest pressure and efficient grip work determines whether the submission succeeds or the opponent escapes.
 
-**From Position**: [[Scarf Hold Position]] (Top)
+**From Position**: [[Positions/Side Control/Scarf Hold Position]] (Top)
 
 
 </section>
@@ -236,8 +236,8 @@ Executing the Arm Triangle from Scarf Hold requires precise sequencing of grip t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Scarf Hold Position]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Side Control/Scarf Hold Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -246,10 +246,10 @@ Executing the Arm Triangle from Scarf Hold requires precise sequencing of grip t
 
 ## Opponent Defenses
 
-- **Opponent retracts trapped arm before the grip is connected, pulling the forearm away from their neck to eliminate the choking structure** (Effectiveness: High) - Your Response: If the arm retracts before the figure-four is connected, immediately return to standard scarf hold control and re-establish the arm trap. Attempt to drive the arm back across using chest pressure, or transition to americana or kimura on the now-repositioned arm. → Leads to [[Scarf Hold Position]]
-- **Opponent bridges explosively during the hip switch transition to disrupt base and prevent the chest-to-chest alignment** (Effectiveness: Medium) - Your Response: Absorb the bridge by widening your base and driving chest weight down into the opponent. Maintain the grip connection throughout the bridge. Once they settle, resume the hip switch. Their explosive effort exhausts energy while your grip remains intact. → Leads to [[Scarf Hold Position]]
-- **Opponent turns away and turtles during the grip transition to prevent the chest-to-chest finishing position** (Effectiveness: Medium) - Your Response: Follow the turn by maintaining the grip connection and transitioning to a front headlock or standing arm triangle position. The choke can still be finished from the front headlock angle. Alternatively, take the back if the grip breaks during the scramble. → Leads to [[Half Guard]]
-- **Opponent creates a frame with their free arm against your shoulder or chin to prevent the shoulder drop and compression** (Effectiveness: Medium) - Your Response: Use your body weight to collapse their frame by walking your hips higher and driving your shoulder through their frame structure. Alternatively, swim your head inside their frame to eliminate the posting surface. The frame loses effectiveness once your weight is committed downward. → Leads to [[Scarf Hold Position]]
+- **Opponent retracts trapped arm before the grip is connected, pulling the forearm away from their neck to eliminate the choking structure** (Effectiveness: High) - Your Response: If the arm retracts before the figure-four is connected, immediately return to standard scarf hold control and re-establish the arm trap. Attempt to drive the arm back across using chest pressure, or transition to americana or kimura on the now-repositioned arm. → Leads to [[Positions/Side Control/Scarf Hold Position]]
+- **Opponent bridges explosively during the hip switch transition to disrupt base and prevent the chest-to-chest alignment** (Effectiveness: Medium) - Your Response: Absorb the bridge by widening your base and driving chest weight down into the opponent. Maintain the grip connection throughout the bridge. Once they settle, resume the hip switch. Their explosive effort exhausts energy while your grip remains intact. → Leads to [[Positions/Side Control/Scarf Hold Position]]
+- **Opponent turns away and turtles during the grip transition to prevent the chest-to-chest finishing position** (Effectiveness: Medium) - Your Response: Follow the turn by maintaining the grip connection and transitioning to a front headlock or standing arm triangle position. The choke can still be finished from the front headlock angle. Alternatively, take the back if the grip breaks during the scramble. → Leads to [[Positions/Half Guard]]
+- **Opponent creates a frame with their free arm against your shoulder or chin to prevent the shoulder drop and compression** (Effectiveness: Medium) - Your Response: Use your body weight to collapse their frame by walking your hips higher and driving your shoulder through their frame structure. Alternatively, swim your head inside their frame to eliminate the posting surface. The frame loses effectiveness once your weight is committed downward. → Leads to [[Positions/Side Control/Scarf Hold Position]]
 
 
 </section>

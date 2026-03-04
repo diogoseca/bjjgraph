@@ -208,25 +208,25 @@ Success from top position requires understanding the sweep mechanics your oppone
 
 ## Available Attacks
 
-### [[Crossface Pass]] (33% of attempts)
+### [[Transitions/Crossface Pass]] (33% of attempts)
 
-### [[Knee Slice Pass]] (9% of attempts)
+### [[Transitions/Knee Slice Pass]] (9% of attempts)
 
-### [[Smash Pass]] (15% of attempts)
+### [[Transitions/Smash Pass]] (15% of attempts)
 
-### [[Half Guard Pass]] (12% of attempts)
+### [[Transitions/Half Guard Pass]] (12% of attempts)
 
-### [[Underhook Pass]] (9% of attempts)
+### [[Transitions/Underhook Pass]] (9% of attempts)
 
-### [[Kimura from Half Guard]] (8% of attempts)
+### [[Transitions/Kimura from Half Guard]] (8% of attempts)
 
-### [[Back Step Pass]] (9% of attempts)
+### [[Transitions/Back Step Pass]] (9% of attempts)
 
-### [[Backstep from Deep Half]] (3% of attempts)
+### [[Transitions/Backstep from Deep Half]] (3% of attempts)
 
-### [[Whizzer from Deep Half]] (1% of attempts)
+### [[Transitions/Whizzer from Deep Half]] (1% of attempts)
 
-### [[Knee Slice from Deep Half]] (1% of attempts)
+### [[Transitions/Knee Slice from Deep Half]] (1% of attempts)
 
 
 
@@ -237,22 +237,22 @@ Success from top position requires understanding the sweep mechanics your oppone
 ## Decision Making from This Position
 
 **If opponent establishes waiter sweep grip on belt or pants with weight shifted forward:**
-- Execute **[[Crossface Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Shift weight back and widen base]]** → [[Half Guard]] (Probability: 30%)
+- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Shift weight back and widen base]]** → [[Positions/Half Guard]] (Probability: 30%)
 
 
 **If opponent's head is deep under hip attempting sweep mechanics:**
-- Execute **[[Shift weight forward and establish crossface]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 40%)
+- Execute **[[Shift weight forward and establish crossface]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If opponent loses deep positioning or grip temporarily:**
-- Execute **[[Half Guard Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent overcommits to underhook or exposes arm:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 50%)
+- Execute **[[Transitions/Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 50%)
 
 
 
@@ -374,13 +374,13 @@ Positional sparring starting in deep half guard top. You work to pass while part
 
 ## Related Positions and Techniques
 
-- **[[Deep Half Guard]]** - Sibling variant - opponent's perspective of same position
-- **[[Half Guard]]** - Parent position - simpler position to retreat to when deep half is too challenging
-- **[[Side Control]]** - Primary target position when passing from deep half top
-- **[[Lockdown]]** - Common entry point for deep half guard bottom
-- **[[Knee Shield Half Guard]]** - Alternative half guard variation with different defensive mechanics
-- **[[Headquarters Position]]** - Intermediate position when extracting leg from deep half
-- **[[Combat Base]]** - Defensive posture used when maintaining base in deep half top
+- **[[Positions/Half Guard/Deep Half Guard]]** - Sibling variant - opponent's perspective of same position
+- **[[Positions/Half Guard]]** - Parent position - simpler position to retreat to when deep half is too challenging
+- **[[Positions/Side Control]]** - Primary target position when passing from deep half top
+- **[[Positions/Half Guard/Lockdown]]** - Common entry point for deep half guard bottom
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Alternative half guard variation with different defensive mechanics
+- **[[Positions/Headquarters Position]]** - Intermediate position when extracting leg from deep half
+- **[[Positions/Combat Base]]** - Defensive posture used when maintaining base in deep half top
 
 
 </section>

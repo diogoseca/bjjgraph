@@ -140,7 +140,7 @@ description: "Guide to countering the back turn from technical mount top. Recogn
 
 As the top player in technical mount, your opponent's back turn is a defensive reaction that can be exploited to your advantage in multiple ways. The ideal response depends on your timing and positioning: you can follow the rotation directly into back control—the most dominant position in BJJ—or catch the armbar mid-turn if the opponent exposes their arm during rotation. Understanding both options and recognizing which is available in real-time separates good top players from great ones. Your worst-case scenario when the opponent turns is failing to follow quickly enough and allowing them to reach organized turtle defense, which still leaves you in a favorable attacking position but with more work required to finish.
 
-**Opponent's Starting Position**: [[Technical Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount/Technical Mount]] (Bottom)
 
 </section>
 
@@ -177,21 +177,21 @@ As the top player in technical mount, your opponent's back turn is a defensive r
 ### 1. Follow the turn and establish back control with seatbelt grip and hooks
 
 - **When to use**: When the opponent commits to the full rotation and arm control is lost during the turn
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Establish the most dominant position in BJJ with immediate rear naked choke and bow and arrow choke threats
 - **Risk**: If you follow too slowly, opponent may reach turtle or begin organized back defense before hooks are established
 
 ### 2. Maintain arm grip during rotation and finish armbar as opponent turns
 
 - **When to use**: When you maintain solid wrist control throughout the opponent's rotation and their arm extends during the turn
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: Finish the armbar submission that prompted the escape attempt, often transitioning to belly-down armbar for highest percentage finish
 - **Risk**: Over-committing to the arm while opponent rotates may result in losing both arm control and positional advantage if grip breaks
 
 ### 3. Block the rotation by driving weight onto opponent's far shoulder and maintaining heavy chest pressure
 
 - **When to use**: When you detect the shoulder drop early and can prevent rotation before momentum builds
-- **Targets**: [[Technical Mount]]
+- **Targets**: [[Positions/Mount/Technical Mount]]
 - **If successful**: Maintain technical mount position with continued armbar threat and all offensive options preserved
 - **Risk**: Opponent may use your forward weight commitment to create hip escape opportunity in the opposite direction
 
@@ -203,11 +203,11 @@ As the top player in technical mount, your opponent's back turn is a defensive r
 
 ## Best-Case Outcomes for Defender
 
-### → [[Armbar Control]]
+### → [[Positions/Armbar Control]]
 
 Maintain death grip on opponent's wrist throughout their rotation. As they turn, their arm naturally extends creating optimal armbar angle. Follow the rotation with your hips while keeping the arm controlled and transition directly to belly-down armbar finish position for highest percentage completion.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Release arm grip smoothly as opponent turns, immediately establish seatbelt control by threading choking arm under their far armpit. Your stepped leg becomes your first hook—insert it immediately as their body rotates. Follow their rotation with your chest glued to their back and establish second hook before they can begin organized defense.
 

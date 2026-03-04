@@ -156,7 +156,7 @@ Defending the Double Jump to Side Control transition requires recognizing the cr
 
 The defender must understand that maintaining a sealed, static turtle position—while effective against back takes—is precisely the posture that makes the lateral side control transition viable. Active defensive engagement requires reading the transition cues and initiating counter-movements during the extraction window rather than waiting for side control to be established. The mechanical reality of side control bottom is significantly worse than turtle bottom: the defender loses base, mobility, and faces far more submission threats. Prevention during the transition is dramatically more effective than escape after establishment.
 
-**Opponent's Starting Position**: [[Double Jump]] (Top)
+**Opponent's Starting Position**: [[Positions/Double Jump]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The defender must understand that maintaining a sealed, static turtle position�
 ### 1. Execute sit-out reversal toward the opposite direction of the lateral transition by posting your far hand and rotating your hips away
 
 - **When to use**: During the first hook extraction when the top player's hip control is halved and their attention is focused on the lateral walk-around rather than preventing sit-outs
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Create scramble that disrupts the lateral transition and recover to guard position on top, completely reversing the positional hierarchy
 - **Risk**: Mistimed sit-out against a player who still has strong hook and crossface control may expose your back further or result in being flattened
 
 ### 2. Retuck and rebuild active turtle base by driving up to hands and knees while clamping elbows tight against the extracted hook side
 
 - **When to use**: When you feel the first hook extracting but before the lateral hip walk has progressed beyond a shallow angle, preventing the consolidation from advancing
-- **Targets**: [[Double Jump]]
+- **Targets**: [[Positions/Double Jump]]
 - **If successful**: Force the top player to re-insert hooks and restart their attack from Double Jump position, resetting the exchange and buying time
 - **Risk**: If base recovery is incomplete, the top player may accelerate the transition or redirect to mount by exploiting the widened posture
 
 ### 3. Perform granby roll toward the direction of the lateral transition, inverting underneath the top player's weight shift to recover guard
 
 - **When to use**: When the top player has committed their weight laterally and is midway through the hip walk with compromised balance on one side
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The inversion disrupts the lateral consolidation and positions you face-up with the ability to establish frames and recover guard before side control settles
 - **Risk**: Incomplete granby may leave you flat on your back with the opponent already in side control position, worsening the outcome
 
 ### 4. Insert knee frame between bodies as the top player approaches perpendicular alignment, blocking side control establishment with a structural barrier
 
 - **When to use**: In the final phase when the top player is reaching side control alignment but has not yet settled hips and blocked your far hip
-- **Targets**: [[Double Jump]]
+- **Targets**: [[Positions/Double Jump]]
 - **If successful**: The knee frame prevents full side control consolidation and creates a pathway to recover half guard or create enough space for a guard pull
 - **Risk**: Late insertion after the top player has already blocked your hip allows them to collapse the knee frame with shoulder pressure and complete the pass
 
@@ -227,11 +227,11 @@ The defender must understand that maintaining a sealed, static turtle position�
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a sit-out or granby roll during the hook extraction phase when the top player's bilateral hip control is compromised by sequential hook removal. The moment between first hook extraction and the lateral hip walk reaching forty-five degrees represents your optimal counter-window. Use the top player's lateral momentum commitment against them by moving in the opposite direction to create the scramble that leads to guard recovery on top.
 
-### → [[Double Jump]]
+### → [[Positions/Double Jump]]
 
 Immediately rebuild active turtle base by driving up to hands and knees the moment you feel the first hook extracting. Clamp your elbows tight to your body and widen your knee base to create a stable platform that resists the lateral flattening pressure. By reestablishing a strong turtle shell before the lateral walk progresses, you force the top player to re-insert hooks and restart their attack sequence from the beginning.
 

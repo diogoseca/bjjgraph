@@ -154,7 +154,7 @@ description: "Learn to defend against the Escape Zombie Control in BJJ. Techniqu
 
 Defending against the Escape Zombie Control means maintaining your dominant Zombie Top position and preventing the bottom player from transitioning to turtle. As the top player, your goal is to recognize the escape attempt early - signaled by frame establishment and lockdown tension changes - and either re-establish your control before the escape completes or capitalize on the transition to secure an even more dominant position like back control. The defender must balance between maintaining forward pressure to prevent the escape and avoiding overcommitting weight that creates the space the escaper needs to turn into turtle. Reading the bottom player's grip priority shifts and body positioning changes provides the critical early warning needed to shut down the escape or prepare your counter.
 
-**Opponent's Starting Position**: [[Zombie]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Zombie]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against the Escape Zombie Control means maintaining your dominant Zomb
 ### 1. Drive heavy crossface pressure when frame establishment begins to collapse their space
 
 - **When to use**: At the first sign of frame setup, before the lockdown is released
-- **Targets**: [[Zombie]]
+- **Targets**: [[Positions/Rubber Guard/Zombie]]
 - **If successful**: Bottom player's frames collapse and they remain stuck in deteriorating Zombie position
 - **Risk**: Committing too much weight forward may create space for Granby roll escape
 
 ### 2. Immediately attack the back when bottom player releases lockdown and begins turning
 
 - **When to use**: During the transition phase when their back is most exposed between Zombie and turtle
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Secure seatbelt control and hooks for full back control position
 - **Risk**: If mistimed, bottom player may complete the escape to turtle with sufficient base to defend
 
 ### 3. Flatten the bottom player by driving hips forward when lockdown tension loosens
 
 - **When to use**: When you feel the lockdown grip weakening or being deliberately released
-- **Targets**: [[Zombie]]
+- **Targets**: [[Positions/Rubber Guard/Zombie]]
 - **If successful**: Bottom player is flattened on their stomach, unable to establish turtle base, pass advances
 - **Risk**: Driving forward may allow the bottom player to use your momentum for a Granby roll
 
 ### 4. Transition to front headlock control as they enter turtle position
 
 - **When to use**: When the bottom player has reached turtle but you have not secured back control
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Establish front headlock with submission threats, preventing guard recovery from turtle
 - **Risk**: Bottom player may use the position change to execute a sit-out or immediate guard recovery
 
@@ -225,11 +225,11 @@ Defending against the Escape Zombie Control means maintaining your dominant Zomb
 
 ## Best-Case Outcomes for Defender
 
-### → [[Zombie]]
+### → [[Positions/Rubber Guard/Zombie]]
 
 Shut down the escape early by collapsing frames with crossface pressure, controlling the near-side arm, and re-establishing heavy top pressure and lockdown control before the bottom player can complete the transition
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Allow the escape to proceed partially, then capitalize on the back exposure during the Zombie-to-turtle transition by threading seatbelt control and inserting hooks before the bottom player can establish a tight turtle base with defensive integrity
 

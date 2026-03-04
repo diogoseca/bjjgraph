@@ -184,7 +184,7 @@ The technique is most effective when the opponent's triangle is positioned on th
 
 Strategically, this escape pairs with neck defense as a dual-priority system. You must protect your neck from rear naked choke and collar attacks throughout the clearing process while simultaneously working the leg configuration. Successful execution lands you in side-facing position where you can establish frames, recover guard, or work to a more neutral engagement. The technique is a high-value skill for anyone competing against back-attack specialists who favor the body triangle over traditional hooks.
 
-**From Position**: [[Body Triangle]] (Top)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
 
 </section>
 
@@ -236,9 +236,9 @@ Strategically, this escape pairs with neck defense as a dual-priority system. Yo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Body Triangle]] | 30% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Back Control/Body Triangle]] | 30% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -247,10 +247,10 @@ Strategically, this escape pairs with neck defense as a dual-priority system. Yo
 
 ## Opponent Counters
 
-- **Opponent re-locks the triangle during your clearing attempt by pulling their ankle back behind the knee before you can complete the extraction** (Effectiveness: High) - Your Response: Maintain your frame between your body and their legs after each clearing attempt. Keep your elbow wedged in the space you created so the triangle cannot fully re-lock. Repeat the bridge-and-clear sequence with the frame already in place to prevent full re-establishment. → Leads to [[Body Triangle]]
-- **Opponent attacks rear naked choke aggressively when they feel you redirecting a hand from neck defense to attack the triangle lock** (Effectiveness: High) - Your Response: Only commit your hand to the triangle clearing when you have a secure chin tuck and your shoulder is raised to block the choking arm pathway. If they get deep on the choke, abandon the triangle clear temporarily and re-establish neck defense before attempting again. → Leads to [[Back Control]]
-- **Opponent shifts their hips and adjusts the triangle angle to maintain pressure as you turn toward the triangle side, following your rotation** (Effectiveness: Medium) - Your Response: Accelerate your rotation and combine it with a strong shrimp away from their hips. Their adjustment requires them to loosen chest-to-back connection momentarily, creating a window to extract. Use the momentum of their adjustment to drive your hip escape further than they can follow. → Leads to [[Body Triangle]]
-- **Opponent transitions to hooks or rear triangle when they feel the body triangle being compromised to maintain back control** (Effectiveness: Medium) - Your Response: Recognize the transition and continue your lateral escape. Hooks are easier to clear than the body triangle, so their transition actually improves your escape prospects. Continue turning to face them and work standard back escape sequences from the hook-based back control. → Leads to [[Back Control]]
+- **Opponent re-locks the triangle during your clearing attempt by pulling their ankle back behind the knee before you can complete the extraction** (Effectiveness: High) - Your Response: Maintain your frame between your body and their legs after each clearing attempt. Keep your elbow wedged in the space you created so the triangle cannot fully re-lock. Repeat the bridge-and-clear sequence with the frame already in place to prevent full re-establishment. → Leads to [[Positions/Back Control/Body Triangle]]
+- **Opponent attacks rear naked choke aggressively when they feel you redirecting a hand from neck defense to attack the triangle lock** (Effectiveness: High) - Your Response: Only commit your hand to the triangle clearing when you have a secure chin tuck and your shoulder is raised to block the choking arm pathway. If they get deep on the choke, abandon the triangle clear temporarily and re-establish neck defense before attempting again. → Leads to [[Positions/Back Control]]
+- **Opponent shifts their hips and adjusts the triangle angle to maintain pressure as you turn toward the triangle side, following your rotation** (Effectiveness: Medium) - Your Response: Accelerate your rotation and combine it with a strong shrimp away from their hips. Their adjustment requires them to loosen chest-to-back connection momentarily, creating a window to extract. Use the momentum of their adjustment to drive your hip escape further than they can follow. → Leads to [[Positions/Back Control/Body Triangle]]
+- **Opponent transitions to hooks or rear triangle when they feel the body triangle being compromised to maintain back control** (Effectiveness: Medium) - Your Response: Recognize the transition and continue your lateral escape. Hooks are easier to clear than the body triangle, so their transition actually improves your escape prospects. Continue turning to face them and work standard back escape sequences from the hook-based back control. → Leads to [[Positions/Back Control]]
 
 
 </section>

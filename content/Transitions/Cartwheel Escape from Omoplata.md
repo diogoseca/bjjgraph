@@ -21,7 +21,7 @@ Strategically, the cartwheel escape transforms a dangerous submission threat int
 
 Understanding this escape is essential for any practitioner working the omoplata game from either side. The threat of the cartwheel escape forces omoplata players to develop comprehensive hip control systems before threatening the submission finish, while knowledge of counter-timing helps the escaper recognize exactly when the window closes and alternative defensive strategies such as posture recovery or stack defense become necessary instead.
 
-**From Position**: [[Omoplata Control]] (Bottom)
+**From Position**: [[Positions/Omoplata Control]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Understanding this escape is essential for any practitioner working the omoplata
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Failure | [[Omoplata Control]] | 30% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Failure | [[Positions/Omoplata Control]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Cartwheel Escape from Omoplata occupies a critical defensive node in the omo
 ## Related Techniques
 
 
-- [[Omoplata Control]] - Starting position where this escape is attempted from
+- [[Positions/Omoplata Control]] - Starting position where this escape is attempted from
 
-- [[Open Guard]] - Position reached after successful cartwheel escape
+- [[Positions/Open Guard]] - Position reached after successful cartwheel escape
 
-- [[Mount]] - Position reached by omoplata holder when countering the escape with a follow-through sweep
+- [[Positions/Mount]] - Position reached by omoplata holder when countering the escape with a follow-through sweep
 
-- [[Rolling Omoplata]] - Counter technique where omoplata holder follows the roll momentum to maintain submission threat
+- [[Submissions/Rolling Omoplata]] - Counter technique where omoplata holder follows the roll momentum to maintain submission threat
 
-- [[Omoplata Sweep]] - Alternative outcome where omoplata holder capitalizes on escape momentum to sweep
+- [[Transitions/Omoplata Sweep]] - Alternative outcome where omoplata holder capitalizes on escape momentum to sweep
 
-- [[Closed Guard]] - Common guard position from which omoplata attacks that lead to this escape scenario originate
+- [[Positions/Closed Guard]] - Common guard position from which omoplata attacks that lead to this escape scenario originate
 
-- [[Spider Guard]] - Frequent entry position for omoplata setups that create this escape situation
+- [[Positions/Spider Guard]] - Frequent entry position for omoplata setups that create this escape situation
 
-- [[Back Control]] - Position the omoplata holder may reach by following escape momentum for a back take
+- [[Positions/Back Control]] - Position the omoplata holder may reach by following escape momentum for a back take
 
-- [[Scramble Position]] - Transitional state that may occur during incomplete or contested cartwheel escape attempts
+- [[Positions/Scramble Position]] - Transitional state that may occur during incomplete or contested cartwheel escape attempts
 
-- [[Triangle Control]] - Related guard control position with similar escape mechanics involving forward pressure
+- [[Positions/Triangle Control]] - Related guard control position with similar escape mechanics involving forward pressure
 
 
 </section>

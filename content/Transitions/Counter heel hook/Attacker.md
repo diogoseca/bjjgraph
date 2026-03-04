@@ -184,7 +184,7 @@ This counter relies on the fundamental principle that when an attacker commits f
 
 Strategically, the Counter Heel Hook represents the highest-level defensive option from 50-50 Bottom because it maintains engagement in the leg lock exchange rather than conceding position through escape. This approach is favored by elite leg lock specialists who have confidence in their submission finishing ability. However, it carries significant risk since both practitioners are simultaneously attacking and defending, making tap recognition and injury prevention critical considerations.
 
-**From Position**: [[50-50 Guard]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 
 </section>
 
@@ -237,10 +237,10 @@ Strategically, the Counter Heel Hook represents the highest-level defensive opti
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 45% |
-| Success | [[Honey Hole]] | 20% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[Ashi Garami]] | 10% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 45% |
+| Success | [[Positions/Ashi Garami/Honey Hole]] | 20% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami]] | 10% |
 
 
 </section>
@@ -249,10 +249,10 @@ Strategically, the Counter Heel Hook represents the highest-level defensive opti
 
 ## Opponent Counters
 
-- **Opponent extracts their heel before you secure controlling grips by straightening their leg and pulling back** (Effectiveness: High) - Your Response: Immediately transition to kneebar attack on their straightened leg, or disengage to recover guard position → Leads to [[50-50 Guard]]
-- **Opponent abandons their attack to focus on defending their own heel through knee rotation** (Effectiveness: Medium) - Your Response: Use the defensive window they've created to either escape to standing or continue pursuing their heel with adjusted grips → Leads to [[50-50 Guard]]
-- **Opponent releases your heel to strip your grips on their heel using two-on-one grip fighting** (Effectiveness: Medium) - Your Response: If they release your heel, immediately re-establish your attack while your heel remains protected through continued knee rotation → Leads to [[Inside Ashi-Garami]]
-- **Opponent transitions to outside ashi or saddle position to change the angle of engagement** (Effectiveness: High) - Your Response: Follow their transition with your own position adjustment, looking to re-establish 50-50 parity or escape to standing → Leads to [[Ashi Garami]]
+- **Opponent extracts their heel before you secure controlling grips by straightening their leg and pulling back** (Effectiveness: High) - Your Response: Immediately transition to kneebar attack on their straightened leg, or disengage to recover guard position → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent abandons their attack to focus on defending their own heel through knee rotation** (Effectiveness: Medium) - Your Response: Use the defensive window they've created to either escape to standing or continue pursuing their heel with adjusted grips → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent releases your heel to strip your grips on their heel using two-on-one grip fighting** (Effectiveness: Medium) - Your Response: If they release your heel, immediately re-establish your attack while your heel remains protected through continued knee rotation → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent transitions to outside ashi or saddle position to change the angle of engagement** (Effectiveness: High) - Your Response: Follow their transition with your own position adjustment, looking to re-establish 50-50 parity or escape to standing → Leads to [[Positions/Ashi Garami]]
 
 
 </section>

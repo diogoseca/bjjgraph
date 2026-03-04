@@ -156,7 +156,7 @@ Defending the Reverse Mount to Mount transition requires recognizing the brief w
 
 The defender must balance two competing priorities: acting early enough to catch the attacker mid-rotation when their base is weakest, while not overcommitting to a defense so early that the attacker simply aborts the spin and re-establishes reverse mount. Timing the defensive action to the midpoint of the rotation—when the attacker is perpendicular to the defender's body with the narrowest possible base—provides the highest probability of disrupting the transition. Proprioceptive awareness is critical since the defender cannot see the attacker's upper body position from reverse mount bottom and must read the rotation through hip pressure changes and weight shifts.
 
-**Opponent's Starting Position**: [[Reverse Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Reverse Mount]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The defender must balance two competing priorities: acting early enough to catch
 ### 1. Insert knee shield during the rotation gap
 
 - **When to use**: When you feel the attacker's weight lighten on one side as they begin the spin, immediately drive your knee across their body into the opening gap
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard with a knee shield, converting the dominant mount attempt into a neutral guard battle where you have legitimate offensive options
 - **Risk**: If mistimed, the attacker may pin your knee against their body and complete the rotation into mount with your leg trapped in an awkward position
 
 ### 2. Explosive bridge timed to the midpoint of rotation
 
 - **When to use**: When the attacker is perpendicular to your body during the rotation with their narrowest base, bridge explosively toward their posted hand to amplify their instability
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The bridge disrupts the rotation completely, potentially reversing the position or at minimum creating enough space to recover half guard or full guard
 - **Risk**: If the attacker reads the bridge and pauses their rotation to ride it, you expend significant energy without improving position and are flatter when they resume the spin
 
 ### 3. Hip escape away from the rotation direction to create distance
 
 - **When to use**: When the attacker commits to the rotation, shrimp your hips away from their spin direction to create distance that prevents them from settling into standard mount
-- **Targets**: [[Reverse Mount]]
+- **Targets**: [[Positions/Reverse Mount]]
 - **If successful**: You create enough distance that the attacker arrives facing your head but cannot consolidate mount, forcing them to chase your hips and potentially recover guard
 - **Risk**: If the hip escape is too shallow, the attacker simply lands in standard mount slightly off-center and quickly adjusts to full control
 
 ### 4. Frame on the attacker's hips to block the rotation
 
 - **When to use**: Before the rotation begins, when you feel the weight shift indicating the spin is imminent, post your hands on their hips to physically prevent the rotation
-- **Targets**: [[Reverse Mount]]
+- **Targets**: [[Positions/Reverse Mount]]
 - **If successful**: The attacker remains stuck in reverse mount where their submission options are limited and they must spend additional time clearing your frames before reattempting
 - **Risk**: Extended arms framing on hips can be isolated for wrist control or kimura if the attacker reads the frame and attacks it rather than continuing the rotation
 
@@ -227,7 +227,7 @@ The defender must balance two competing priorities: acting early enough to catch
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a knee shield insertion to the exact moment the attacker's weight lightens during mid-rotation. Drive your knee across their body into the gap created by their spinning leg. Establish the knee shield deeply across their hip line and immediately fight for the underhook to develop offensive half guard rather than defensive half guard.
 

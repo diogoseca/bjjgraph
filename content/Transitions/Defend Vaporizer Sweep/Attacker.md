@@ -180,7 +180,7 @@ description: "Learn to defend Vaporizer sweeps from top position. Step-by-step g
 
 The Defend Vaporizer Sweep attacker is the top player caught in the Vaporizer position who must neutralize the bottom player's sweep attempts while systematically clearing the lockdown entanglement. This requires coordinated defensive responses across multiple threat vectors including the Old School sweep, rolling back takes, and Electric Chair transitions. The attacker must manage their base width, shoulder pressure placement, and hip positioning simultaneously to deny the bottom player the momentum and leverage needed for sweep completion. Success depends on recognizing which specific sweep is being attempted, applying the precise countermeasure at the optimal timing window, and then transitioning into lockdown clearing mechanics that lead to half guard top extraction. The defensive mindset must be active rather than passive, using controlled adjustments and constant pressure rather than explosive reactions that create the space the bottom player needs for their attacks.
 
-**From Position**: [[Vaporizer]] (Top)
+**From Position**: [[Positions/Vaporizer]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The Defend Vaporizer Sweep attacker is the top player caught in the Vaporizer po
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Vaporizer]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Vaporizer]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Defend Vaporizer Sweep attacker is the top player caught in the Vaporizer po
 
 ## Opponent Counters
 
-- **Bottom player transitions to Electric Chair by releasing lockdown and controlling far leg when top player widens base** (Effectiveness: High) - Your Response: Keep far knee tucked tight and legs together when widening base. If they begin splitting your legs, immediately squeeze knees together and drive hips forward to prevent the separation needed for Electric Chair entry → Leads to [[Half Guard]]
-- **Bottom player switches to rolling back take toward Truck position when top player commits shoulder pressure forward** (Effectiveness: Medium) - Your Response: Turn hips toward the bottom player rather than away when you feel rotational force. Establish a whizzer and drive weight into their chest to prevent the roll from gaining momentum. If they begin to secure the far leg hook, immediately address the back take threat → Leads to [[Half Guard]]
-- **Bottom player tightens lockdown and increases whip-up pressure from a different angle after initial defense** (Effectiveness: Medium) - Your Response: Maintain widened base and continue systematic lockdown clearing. The re-established whip-up is less effective once center of gravity is lowered. Continue patient leg circulation and avoid reverting to a narrow base that enables renewed sweep attempts → Leads to [[Vaporizer]]
-- **Bottom player releases underhook to reach for far leg, threatening sweep by attacking base directly** (Effectiveness: Low) - Your Response: When they release the underhook, immediately drive crossface pressure and accelerate lockdown clearing. Their base attack without the underhook has significantly less power, and the loss of upper body control weakens their overall position → Leads to [[Vaporizer]]
+- **Bottom player transitions to Electric Chair by releasing lockdown and controlling far leg when top player widens base** (Effectiveness: High) - Your Response: Keep far knee tucked tight and legs together when widening base. If they begin splitting your legs, immediately squeeze knees together and drive hips forward to prevent the separation needed for Electric Chair entry → Leads to [[Positions/Half Guard]]
+- **Bottom player switches to rolling back take toward Truck position when top player commits shoulder pressure forward** (Effectiveness: Medium) - Your Response: Turn hips toward the bottom player rather than away when you feel rotational force. Establish a whizzer and drive weight into their chest to prevent the roll from gaining momentum. If they begin to secure the far leg hook, immediately address the back take threat → Leads to [[Positions/Half Guard]]
+- **Bottom player tightens lockdown and increases whip-up pressure from a different angle after initial defense** (Effectiveness: Medium) - Your Response: Maintain widened base and continue systematic lockdown clearing. The re-established whip-up is less effective once center of gravity is lowered. Continue patient leg circulation and avoid reverting to a narrow base that enables renewed sweep attempts → Leads to [[Positions/Vaporizer]]
+- **Bottom player releases underhook to reach for far leg, threatening sweep by attacking base directly** (Effectiveness: Low) - Your Response: When they release the underhook, immediately drive crossface pressure and accelerate lockdown clearing. Their base attack without the underhook has significantly less power, and the loss of upper body control weakens their overall position → Leads to [[Positions/Vaporizer]]
 
 
 </section>

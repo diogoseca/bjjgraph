@@ -21,7 +21,7 @@ Strategically, this transition represents the final checkpoint in the mount subm
 
 The timing of this transition is dictated by the bottom player's defensive reactions. When the opponent pushes on the hips, extends an arm to frame, or attempts to bridge, they create the precise conditions that make the S Mount entry available. Reading these defensive patterns and capitalizing on the weight shift they produce is what separates competent mount players from dominant finishers. The transition must be decisive — hesitation allows the bottom player to recover defensive posture and potentially escape to half guard.
 
-**From Position**: [[High Mount]] (Top)
+**From Position**: [[Positions/Mount/High Mount]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The timing of this transition is dictated by the bottom player's defensive react
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[S Mount]] | 55% |
-| Failure | [[High Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/S Mount]] | 55% |
+| Failure | [[Positions/Mount/High Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The High Mount to S Mount transition occupies a pivotal position in the mount su
 ## Related Techniques
 
 
-- [[High Mount]] - Starting position — established high mount control is prerequisite for this transition
+- [[Positions/Mount/High Mount]] - Starting position — established high mount control is prerequisite for this transition
 
-- [[S Mount]] - Target position — the perpendicular armbar platform this transition achieves
+- [[Positions/Mount/S Mount]] - Target position — the perpendicular armbar platform this transition achieves
 
-- [[Mount]] - Parent position — standard mount from which high mount is established before S Mount entry
+- [[Positions/Mount]] - Parent position — standard mount from which high mount is established before S Mount entry
 
-- [[3-4 Mount to S Mount]] - Related transition — alternative S Mount entry from a different mount variation
+- [[Transitions/3-4 Mount to S Mount]] - Related transition — alternative S Mount entry from a different mount variation
 
-- [[Armbar from S Mount]] - Primary follow-up submission — the finish this transition sets up
+- [[Submissions/Armbar from S Mount]] - Primary follow-up submission — the finish this transition sets up
 
-- [[Armbar from High Mount]] - Alternative submission — direct armbar without transitioning to S Mount first
+- [[Submissions/Armbar from High Mount]] - Alternative submission — direct armbar without transitioning to S Mount first
 
-- [[Technical Mount]] - Alternative advancement — transition target when opponent turns to side during S Mount attempt
+- [[Positions/Mount/Technical Mount]] - Alternative advancement — transition target when opponent turns to side during S Mount attempt
 
-- [[Gift Wrap]] - Setup position — arm control that facilitates safe S Mount entry
+- [[Positions/Gift Wrap]] - Setup position — arm control that facilitates safe S Mount entry
 
-- [[Frame Escape from High Mount]] - Defensive counter — bottom player's primary escape that this transition must overcome
+- [[Transitions/Frame Escape from High Mount]] - Defensive counter — bottom player's primary escape that this transition must overcome
 
-- [[Bridge Escape from S Mount]] - Post-transition threat — escape the defender may attempt once S Mount is established
+- [[Transitions/Bridge Escape from S Mount]] - Post-transition threat — escape the defender may attempt once S Mount is established
 
-- [[Frame and Shrimp from S Mount]] - Post-transition defense — hip escape the defender uses to recover guard from S Mount
+- [[Transitions/Frame and Shrimp from S Mount]] - Post-transition defense — hip escape the defender uses to recover guard from S Mount
 
-- [[Half Guard]] - Counter outcome — position defender recovers to if they successfully disrupt the transition
+- [[Positions/Half Guard]] - Counter outcome — position defender recovers to if they successfully disrupt the transition
 
 
 </section>

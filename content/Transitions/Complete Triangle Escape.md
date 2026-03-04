@@ -21,7 +21,7 @@ This escape demands precise coordination of multiple mechanics operating simulta
 
 Strategic context positions this technique as the culmination of triangle defense methodology. While earlier defensive measures buy time and reduce immediate danger, the Complete Triangle Escape converts defensive survival into genuine positional improvement. The resulting closed guard top position, while not dominant, represents a massive improvement from submission danger and provides the platform for systematic guard passing. Understanding when defensive structure is sufficient to initiate the complete escape versus when further consolidation is needed separates competent triangle defenders from practitioners who repeatedly escape only to be re-caught in the same cycle.
 
-**From Position**: [[Triangle Escape Position]] (Bottom)
+**From Position**: [[Positions/Triangle Escape Position]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategic context positions this technique as the culmination of triangle defens
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Failure | [[Triangle Escape Position]] | 30% |
-| Counter | [[Armbar Control]] | 20% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Failure | [[Positions/Triangle Escape Position]] | 30% |
+| Counter | [[Positions/Armbar Control]] | 20% |
 
 
 </section>
@@ -199,23 +199,23 @@ The Complete Triangle Escape serves as the terminal node in the triangle defense
 ## Related Techniques
 
 
-- [[Closed Guard]] - Target position after successful escape, providing platform for guard passing
+- [[Positions/Closed Guard]] - Target position after successful escape, providing platform for guard passing
 
-- [[Armbar Control]] - Counter position opponent may achieve if arm is exposed during extraction
+- [[Positions/Armbar Control]] - Counter position opponent may achieve if arm is exposed during extraction
 
-- [[Combat Base]] - Related defensive posture used during intermediate phases of escape sequence
+- [[Positions/Combat Base]] - Related defensive posture used during intermediate phases of escape sequence
 
-- [[Side Control]] - Potential advancement target after establishing closed guard top and initiating passing
+- [[Positions/Side Control]] - Potential advancement target after establishing closed guard top and initiating passing
 
-- [[Open Guard]] - Alternative position reached when escape partially succeeds but guard closure is prevented
+- [[Positions/Open Guard]] - Alternative position reached when escape partially succeeds but guard closure is prevented
 
-- [[Half Guard]] - Alternative recovery position when full extraction to closed guard top is blocked
+- [[Positions/Half Guard]] - Alternative recovery position when full extraction to closed guard top is blocked
 
-- [[Omoplata Control]] - Secondary counter threat opponent may attempt during arm extraction phase
+- [[Positions/Omoplata Control]] - Secondary counter threat opponent may attempt during arm extraction phase
 
-- [[Stack Pass]] - Related technique sharing stacking mechanics used in the escape sequence
+- [[Transitions/Stack Pass]] - Related technique sharing stacking mechanics used in the escape sequence
 
-- [[Posture Recovery]] - Prerequisite transition establishing defensive structure before escape attempt
+- [[Transitions/Posture Recovery]] - Prerequisite transition establishing defensive structure before escape attempt
 
 
 </section>

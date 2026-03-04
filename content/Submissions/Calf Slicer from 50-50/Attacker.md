@@ -176,7 +176,7 @@ description: "How to execute Calf Slicer from 50-50 in BJJ. Attacking perspectiv
 
 The Calf Slicer from 50-50 Guard represents one of the most devastating compression submissions available from leg entanglement positions. This technique applies crushing pressure to the calf muscle by trapping the opponent's leg between your shin and thigh, creating a biomechanical vice that attacks multiple structures simultaneously. From the 50-50 position, where both practitioners have their legs entangled symmetrically, the calf slicer emerges when one player establishes superior control of the opponent's trapped leg and applies their shin blade across the calf muscle while pulling the foot toward their own body. The submission creates intense pressure on the gastrocnemius and soleus muscles, places dangerous strain on the Achilles tendon, and can hyperextend the knee joint if applied with excessive force. The 50-50 guard provides an ideal platform for this submission because the position naturally creates the leg entanglement required, both legs are already positioned close to the target area, and the symmetrical nature makes it difficult for opponents to recognize the submission setup until it is fully locked. This technique requires exceptional technical precision, careful control during application, and comprehensive understanding of the anatomical vulnerabilities being exploited. Due to its compression nature and potential for rapid onset injury, the calf slicer from 50-50 demands the highest level of training discipline and safety awareness.
 
-**From Position**: [[50-50 Guard]] (Top)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 
 </section>
@@ -234,8 +234,8 @@ The Calf Slicer from 50-50 Guard represents one of the most devastating compress
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[Inside Ashi-Garami]] | 15% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
 
 
 </section>
@@ -244,11 +244,11 @@ The Calf Slicer from 50-50 Guard represents one of the most devastating compress
 
 ## Opponent Defenses
 
-- **Tucking heel close to their own body to reduce extension** (Effectiveness: High) - Your Response: Transition to heel hook by releasing calf pressure, securing the heel with both hands in a figure-four grip, and rotating the heel laterally. The 50-50 position provides excellent structure for this counter-submission. → Leads to [[50-50 Guard]]
-- **Sitting up and pushing your shoulders backward to break posture** (Effectiveness: High) - Your Response: Establish a grip on their collar, sleeve, or behind their head before initiating the calf slicer. Use your free hand to control their upper body and prevent them from achieving upright posture. If they succeed in sitting up, abandon the calf slicer and transition to back attack opportunities. → Leads to [[50-50 Guard]]
+- **Tucking heel close to their own body to reduce extension** (Effectiveness: High) - Your Response: Transition to heel hook by releasing calf pressure, securing the heel with both hands in a figure-four grip, and rotating the heel laterally. The 50-50 position provides excellent structure for this counter-submission. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Sitting up and pushing your shoulders backward to break posture** (Effectiveness: High) - Your Response: Establish a grip on their collar, sleeve, or behind their head before initiating the calf slicer. Use your free hand to control their upper body and prevent them from achieving upright posture. If they succeed in sitting up, abandon the calf slicer and transition to back attack opportunities. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 - **Attempting to straighten their trapped leg explosively** (Effectiveness: Medium) - Your Response: Maintain constant downward pressure with your top leg across their thigh. As they push to straighten, increase your shin pressure into their calf immediately - their own extension amplifies the compression force. Be prepared to switch to straight ankle lock if they achieve full extension. → Leads to [[game-over]]
-- **Attacking your exposed leg with counter heel hook or toe hold** (Effectiveness: High) - Your Response: Control their hands and upper body before committing fully to the calf slicer. If they begin attacking your leg, you must decide whether to race to the finish or abandon your submission to defend. Generally, calf slicers finish slower than heel hooks, so defense may be necessary if they have secured proper heel control. → Leads to [[Inside Ashi-Garami]]
-- **Rolling or inverting away from the pressure** (Effectiveness: Medium) - Your Response: Follow their roll by maintaining your leg entanglement and continuing to extend your hips. The rolling motion often increases the compression temporarily. Be prepared to transition to truck position or back attack if they achieve a full rotation. → Leads to [[50-50 Guard]]
+- **Attacking your exposed leg with counter heel hook or toe hold** (Effectiveness: High) - Your Response: Control their hands and upper body before committing fully to the calf slicer. If they begin attacking your leg, you must decide whether to race to the finish or abandon your submission to defend. Generally, calf slicers finish slower than heel hooks, so defense may be necessary if they have secured proper heel control. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Rolling or inverting away from the pressure** (Effectiveness: Medium) - Your Response: Follow their roll by maintaining your leg entanglement and continuing to extend your hips. The rolling motion often increases the compression temporarily. Be prepared to transition to truck position or back attack if they achieve a full rotation. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 
 
 </section>

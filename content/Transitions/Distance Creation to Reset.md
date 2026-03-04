@@ -21,7 +21,7 @@ The strategic value of this transition lies in recognizing when continued engage
 
 This approach requires precise timing and grip sequencing. Premature disengagement exposes you to sweeps and back takes, while delayed attempts face increasingly complex lapel entanglements. The key is identifying the optimal window—when you've neutralized immediate threats but before the bottom player deepens their configuration. Executed properly, distance creation transforms a losing positional battle into a neutral restart where your passing skills can be applied fresh.
 
-**From Position**: [[Lapel Guard]] (Top)
+**From Position**: [[Positions/Lapel Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This approach requires precise timing and grip sequencing. Premature disengageme
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 65% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[De La Riva Guard]] | 10% |
+| Success | [[Positions/Open Guard]] | 65% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/De La Riva Guard]] | 10% |
 
 
 </section>
@@ -183,25 +183,25 @@ Distance Creation to Reset functions as a tactical reset button within the broad
 ## Related Techniques
 
 
-- [[Lapel Guard]] - Starting position requiring this reset technique
+- [[Positions/Lapel Guard]] - Starting position requiring this reset technique
 
-- [[Open Guard]] - Target position after successful distance creation
+- [[Positions/Open Guard]] - Target position after successful distance creation
 
-- [[Combat Base]] - Alternative reset position for immediate re-engagement
+- [[Positions/Combat Base]] - Alternative reset position for immediate re-engagement
 
-- [[Backstep Around Worm Guard]] - Alternative technique for simpler lapel configurations
+- [[Transitions/Backstep Around Worm Guard]] - Alternative technique for simpler lapel configurations
 
-- [[De La Riva Guard]] - Common counter-position opponent may transition to during reset
+- [[Positions/De La Riva Guard]] - Common counter-position opponent may transition to during reset
 
-- [[Toreando Pass]] - Primary passing option after clean reset to standing
+- [[Transitions/Toreando Pass]] - Primary passing option after clean reset to standing
 
-- [[Knee Slice Pass]] - Follow-up passing option after re-establishing grips
+- [[Transitions/Knee Slice Pass]] - Follow-up passing option after re-establishing grips
 
-- [[Worm Guard]] - Primary lapel configuration requiring this reset
+- [[Positions/Worm Guard]] - Primary lapel configuration requiring this reset
 
-- [[Spider Guard]] - Alternative guard opponent may transition to during reset
+- [[Positions/Spider Guard]] - Alternative guard opponent may transition to during reset
 
-- [[Long Step Pass]] - Passing option that navigates around rather than through lapel barriers
+- [[Transitions/Long Step Pass]] - Passing option that navigates around rather than through lapel barriers
 
 
 </section>

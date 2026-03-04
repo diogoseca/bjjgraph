@@ -156,7 +156,7 @@ Defending the Clock Choke requires recognizing the attack early, before the coll
 
 The most effective defensive window is during grip establishment. Tucking the chin, clamping elbows to knees, and actively hand fighting the choking arm before the thumb sinks deep into the collar can shut down the attack entirely. If the grip is established, the defender must choose between rolling toward the choking side to relieve rotational pressure, sitting back into the attacker to collapse their angle, or using frames to create enough space to recover guard. Each defensive response carries different risks and leads to different positional outcomes, making awareness of the attacker's secondary controls essential for choosing the right escape path.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The most effective defensive window is during grip establishment. Tucking the ch
 ### 1. Two-on-one grip strip on the choking hand before it sinks deep into the collar
 
 - **When to use**: Immediately upon feeling the attacker's hand entering your collar, before the grip is fully established
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Attacker loses their primary choking grip and must re-establish, resetting to neutral turtle top position
 - **Risk**: Lifting your arm to grip fight briefly exposes your back to potential hook insertion or harness control
 
 ### 2. Roll toward the choking side while controlling the attacker's hip-control arm to prevent them from following
 
 - **When to use**: When the collar grip is established but the attacker has not yet completed the perpendicular walk and sprawl
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You end up in half guard or side control bottom with the choke pressure relieved and guard recovery available
 - **Risk**: If the attacker follows the roll effectively, they may end up in mount or maintain the collar grip from a new angle
 
 ### 3. Sit back explosively into the attacker to collapse their rotational angle and prevent the sprawl
 
 - **When to use**: When the attacker begins the perpendicular walk but has not yet sprawled their hips to the mat
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You collapse the attacker's angle, relieve collar pressure, and may create back take opportunities as they end up underneath you
 - **Risk**: If timed poorly, sitting back into an attacker who has already sprawled deepens the choke rather than relieving it
 
 ### 4. Drive forward and flatten while tucking chin to mat to deny neck access and create scramble
 
 - **When to use**: When you cannot strip the grip but the choke is not yet fully tight, as a last-resort defensive posture
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Flattening reduces the rotational leverage and buys time to address the grip or transition to a different escape
 - **Risk**: Being flat limits your mobility and may allow the attacker to transition to back control or other attacks
 
@@ -227,11 +227,11 @@ The most effective defensive window is during grip establishment. Tucking the ch
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Strip the collar grip early using two-on-one hand fighting before the attacker can establish depth, then immediately tighten your defensive turtle structure with elbows to knees and chin tucked to prevent re-establishment
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a roll toward the choking side when the attacker commits weight to the perpendicular walk, using the momentum to turn into them and recover half guard by threading your legs around their trapped leg during the scramble
 

@@ -21,7 +21,7 @@ The sweep operates on a fundamental principle: when an opponent's posture is bro
 
 This technique occupies a critical role in the diamond guard offensive system. When opponents defend against triangle, omoplata, and kimura attacks by keeping their weight low and driving forward, the sweep becomes available as a natural consequence of their defensive posture. This creates a complete dilemma: posture forward to defend submissions and expose yourself to the sweep, or stay back and remain vulnerable to the submission chain. Advanced practitioners use this sweep as the positional pressure component that forces opponents into choosing which threat to address.
 
-**From Position**: [[Diamond Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard/Diamond Guard]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ This technique occupies a critical role in the diamond guard offensive system. W
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 45% |
-| Failure | [[Diamond Guard]] | 35% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Mount]] | 45% |
+| Failure | [[Positions/Closed Guard/Diamond Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Sweep from Diamond Guard serves as the positional pressure component within 
 ## Related Techniques
 
 
-- [[Diamond Guard]] - Source position providing the overhook and head control frame that enables this sweep
+- [[Positions/Closed Guard/Diamond Guard]] - Source position providing the overhook and head control frame that enables this sweep
 
-- [[Mount]] - Primary success destination where the sweeper establishes dominant top position
+- [[Positions/Mount]] - Primary success destination where the sweeper establishes dominant top position
 
-- [[Side Control]] - Counter outcome destination if opponent passes guard during failed sweep attempt
+- [[Positions/Side Control]] - Counter outcome destination if opponent passes guard during failed sweep attempt
 
-- [[Closed Guard]] - Parent position of diamond guard and fallback if diamond controls are stripped
+- [[Positions/Closed Guard]] - Parent position of diamond guard and fallback if diamond controls are stripped
 
-- [[Overhook Guard]] - Related guard sharing overhook control mechanics applicable to sweep setups
+- [[Positions/Overhook Guard]] - Related guard sharing overhook control mechanics applicable to sweep setups
 
-- [[Overhook Control Sweep]] - Related sweep technique using overhook as primary control for off-balancing
+- [[Transitions/Overhook Control Sweep]] - Related sweep technique using overhook as primary control for off-balancing
 
-- [[Overhook Guard Sweep]] - Alternative sweep from overhook position with similar mechanical principles
+- [[Transitions/Overhook Guard Sweep]] - Alternative sweep from overhook position with similar mechanical principles
 
-- [[Kimura Trap]] - Chain attack option accessible when opponent posts free arm to defend the sweep
+- [[Positions/Kimura Trap]] - Chain attack option accessible when opponent posts free arm to defend the sweep
 
-- [[Rubber Guard]] - Related guard system using head control concepts that inform sweep timing
+- [[Positions/Rubber Guard]] - Related guard system using head control concepts that inform sweep timing
 
-- [[Half Guard]] - Intermediate recovery point if sweep partially succeeds but mount is not fully established
+- [[Positions/Half Guard]] - Intermediate recovery point if sweep partially succeeds but mount is not fully established
 
 
 </section>

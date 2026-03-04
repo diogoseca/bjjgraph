@@ -22,8 +22,8 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Turtle]]
-**From Position**: [[Turtle]] (Top)
+**Starting Position**: [[Positions/Turtle]]
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -73,8 +73,8 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Turtle]] | 27% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Turtle]] | 27% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -225,14 +225,14 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 ## From Which Positions?
 
-- [[Turtle]]
-- [[Back Control]]
-- [[Crab Ride]]
-- [[North-South]]
-- [[Seat Belt Control Back]]
-- [[Gift Wrap]]
-- [[Kesa Gatame]]
-- [[Crucifix]]
+- [[Positions/Turtle]]
+- [[Positions/Back Control]]
+- [[Positions/Crab Ride]]
+- [[Positions/North-South]]
+- [[Positions/Back Control/Seat Belt Control Back]]
+- [[Positions/Gift Wrap]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Crucifix]]
 
 
 </section>
@@ -241,15 +241,15 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 ## Related Submissions
 
-- [[Rear Naked Choke]]
-- [[Bow and Arrow Choke]]
-- [[Darce Choke]]
-- [[Anaconda Choke]]
-- [[Arm Triangle]]
-- [[Breadcutter Choke]]
-- [[North-South Choke]]
-- [[Armbar from Back]]
-- [[Loop Choke]]
+- [[Transitions/Rear Naked Choke]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Anaconda Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/Breadcutter Choke]]
+- [[Transitions/North-South Choke]]
+- [[Submissions/Armbar from Back]]
+- [[Submissions/Loop Choke]]
 
 
 </section>
@@ -258,18 +258,18 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 ## Additional Related Content
 
-- [[Turtle]] - Primary starting position for Clock Choke setup and execution
-- [[Back Control]] - Alternative starting position and transition point when back take is defended
-- [[Seat Belt Control Back]] - Control position that naturally feeds into Clock Choke collar grip setup
-- [[Crab Ride]] - Control position from turtle that creates Clock Choke opportunities
-- [[Rear Naked Choke]] - Primary alternative finish from back control; Clock Choke serves as backup when RNC is defended
-- [[Bow and Arrow Choke]] - Complementary gi choke from similar positions; can chain between techniques
-- [[Crucifix]] - Alternative control position from turtle; can transition to Clock Choke when crucifix is defended
-- [[North-South]] - Alternative position from which Clock Choke variation can be applied
-- [[Darce Choke]] - Alternative front headlock choke that chains with Clock Choke attacks from turtle
-- [[Anaconda Choke]] - Related head and arm choke available from similar turtle attacking positions
-- [[Kesa Gatame]] - Side control variation that can transition to Clock Choke opportunities
-- [[Gift Wrap]] - Arm control position that creates collar access for Clock Choke setup
+- [[Positions/Turtle]] - Primary starting position for Clock Choke setup and execution
+- [[Positions/Back Control]] - Alternative starting position and transition point when back take is defended
+- [[Positions/Back Control/Seat Belt Control Back]] - Control position that naturally feeds into Clock Choke collar grip setup
+- [[Positions/Crab Ride]] - Control position from turtle that creates Clock Choke opportunities
+- [[Transitions/Rear Naked Choke]] - Primary alternative finish from back control; Clock Choke serves as backup when RNC is defended
+- [[Transitions/Bow and Arrow Choke]] - Complementary gi choke from similar positions; can chain between techniques
+- [[Positions/Crucifix]] - Alternative control position from turtle; can transition to Clock Choke when crucifix is defended
+- [[Positions/North-South]] - Alternative position from which Clock Choke variation can be applied
+- [[Transitions/Darce Choke]] - Alternative front headlock choke that chains with Clock Choke attacks from turtle
+- [[Transitions/Anaconda Choke]] - Related head and arm choke available from similar turtle attacking positions
+- [[Positions/Side Control/Kesa Gatame]] - Side control variation that can transition to Clock Choke opportunities
+- [[Positions/Gift Wrap]] - Arm control position that creates collar access for Clock Choke setup
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Learn to execute the Sweep from Inverted Guard as the attacker. Co
 
 As the sweeper executing from inverted guard, your primary advantage lies in the unconventional angles and rotational mechanics that the inverted position provides. The opponent's traditional base and posture become liabilities against the sweep because they cannot easily address the rotational force generated from beneath their center of gravity. Success depends on establishing proper grips before initiating the sweep, maintaining shoulder-and-back contact with the mat throughout the rotation, and committing fully to the directional change once momentum is generated. The sweep rewards precise timing over raw athleticism, making it accessible to practitioners who develop the specific hip mobility and spatial awareness required for effective inversion. Your attack plan follows a clear sequence: establish grips, insert hook, generate rotation, and follow through to back control without pausing at any intermediate stage.
 
-**From Position**: [[Inverted Guard]] (Bottom)
+**From Position**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the sweeper executing from inverted guard, your primary advantage lies in the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 45% |
-| Failure | [[Inverted Guard]] | 35% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Back Control]] | 45% |
+| Failure | [[Positions/Inverted Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the sweeper executing from inverted guard, your primary advantage lies in the
 
 ## Opponent Counters
 
-- **Opponent sprawls and drives hips down to eliminate hook insertion angle** (Effectiveness: High) - Your Response: Redirect to berimbolo entry by using your grips to pull yourself underneath rather than threading a hook, or transition to single leg X-guard where the sprawl creates the space needed for leg elevation → Leads to [[Inverted Guard]]
-- **Opponent backsteps and circles away from the hook side to remove sweeping angle** (Effectiveness: Medium) - Your Response: Follow their movement with hip rotation and re-establish the hook on the new angle, or use their lateral movement to enter crab ride or De La Riva guard on the opposite side → Leads to [[Inverted Guard]]
-- **Opponent stacks forward through your legs and applies crushing pressure to flatten your inversion** (Effectiveness: High) - Your Response: Granby roll away from the stack pressure to recover guard, or redirect their forward momentum into the sweep by using their drive as the rotational energy for a berimbolo entry → Leads to [[Side Control]]
-- **Opponent strips both grips and disengages from range to reset the interaction** (Effectiveness: Medium) - Your Response: Immediately re-establish grips before they fully disengage, or use the space created by their disengagement to recover to seated guard or standing position for a reset → Leads to [[Inverted Guard]]
+- **Opponent sprawls and drives hips down to eliminate hook insertion angle** (Effectiveness: High) - Your Response: Redirect to berimbolo entry by using your grips to pull yourself underneath rather than threading a hook, or transition to single leg X-guard where the sprawl creates the space needed for leg elevation → Leads to [[Positions/Inverted Guard]]
+- **Opponent backsteps and circles away from the hook side to remove sweeping angle** (Effectiveness: Medium) - Your Response: Follow their movement with hip rotation and re-establish the hook on the new angle, or use their lateral movement to enter crab ride or De La Riva guard on the opposite side → Leads to [[Positions/Inverted Guard]]
+- **Opponent stacks forward through your legs and applies crushing pressure to flatten your inversion** (Effectiveness: High) - Your Response: Granby roll away from the stack pressure to recover guard, or redirect their forward momentum into the sweep by using their drive as the rotational energy for a berimbolo entry → Leads to [[Positions/Side Control]]
+- **Opponent strips both grips and disengages from range to reset the interaction** (Effectiveness: Medium) - Your Response: Immediately re-establish grips before they fully disengage, or use the space created by their disengagement to recover to seated guard or standing position for a reset → Leads to [[Positions/Inverted Guard]]
 
 
 </section>

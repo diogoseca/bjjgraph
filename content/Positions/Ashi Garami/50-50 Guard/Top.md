@@ -209,33 +209,33 @@ The 50-50 Guard Top is particularly effective in no-gi competition where heel ho
 
 ## Available Attacks
 
-### [[Heel Hook]] (31% of attempts)
+### [[Transitions/Heel Hook]] (31% of attempts)
 
-### [[Kneebar entry]] (7% of attempts)
+### [[Transitions/Kneebar entry]] (7% of attempts)
 
-### [[Straight Ankle Lock Entry]] (2% of attempts)
+### [[Transitions/Straight Ankle Lock Entry]] (2% of attempts)
 
-### [[Calf Slicer]] (2% of attempts)
+### [[Transitions/Calf Slicer]] (2% of attempts)
 
-### [[Back Take from 50-50]] (12% of attempts)
+### [[Transitions/Back Take from 50-50]] (12% of attempts)
 
-### [[50-50 Guard to Outside Ashi]] (6% of attempts)
+### [[Transitions/50-50 Guard to Outside Ashi]] (6% of attempts)
 
-### [[50-50 Guard to Inside Ashi]] (7% of attempts)
+### [[Transitions/50-50 Guard to Inside Ashi]] (7% of attempts)
 
-### [[Outside Heel Hook]] (4% of attempts)
+### [[Transitions/Outside Heel Hook]] (4% of attempts)
 
-### [[50-50 Pass]] (8% of attempts)
+### [[Transitions/50-50 Pass]] (8% of attempts)
 
-### [[Toe Hold]] (3% of attempts)
+### [[Transitions/Toe Hold]] (3% of attempts)
 
-### [[Saddle Entry from Top]] (9% of attempts)
+### [[Transitions/Saddle Entry from Top]] (9% of attempts)
 
-### [[50-50 Guard to Backside 50-50]] (5% of attempts)
+### [[Transitions/50-50 Guard to Backside 50-50]] (5% of attempts)
 
-### [[Calf Slicer from 50-50]] (2% of attempts)
+### [[Submissions/Calf Slicer from 50-50]] (2% of attempts)
 
-### [[Kneebar from 50-50]] (2% of attempts)
+### [[Submissions/Kneebar from 50-50]] (2% of attempts)
 
 
 
@@ -246,20 +246,20 @@ The 50-50 Guard Top is particularly effective in no-gi competition where heel ho
 ## Decision Making from This Position
 
 **If opponent's heel is exposed and you have strong two-handed control with inside position maintained:**
-- Execute **[[Heel Hook]]** → [[Inside Heel Hook]] (Probability: 50%)
-- Execute **[[Outside Heel Hook]]** → [[Outside Heel Hook]] (Probability: 35%)
+- Execute **[[Transitions/Heel Hook]]** → [[Submissions/Inside Heel Hook]] (Probability: 50%)
+- Execute **[[Transitions/Outside Heel Hook]]** → [[Transitions/Outside Heel Hook]] (Probability: 35%)
 
 
 **If opponent hides heel by tucking it close to their body or you lose heel control:**
-- Execute **[[Kneebar entry]]** → [[Kneebar Control]] (Probability: 45%)
-- Execute **[[50-50 Guard to Inside Ashi]]** → [[Inside Ashi-Garami]] (Probability: 40%)
-- Execute **[[Back Take from 50-50]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Kneebar entry]]** → [[Positions/Kneebar Control]] (Probability: 45%)
+- Execute **[[Transitions/50-50 Guard to Inside Ashi]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 40%)
+- Execute **[[Transitions/Back Take from 50-50]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent attempts to sit up and equalize the position:**
 - Execute **[[Hip pressure reset]]** → [[50-50 Guard Top]] (Probability: 50%)
-- Execute **[[Calf Slicer]]** → [[Calf Slicer]] (Probability: 30%)
-- Execute **[[Pass to side control]]** → [[Side Control]] (Probability: 35%)
+- Execute **[[Transitions/Calf Slicer]]** → [[Transitions/Calf Slicer]] (Probability: 30%)
+- Execute **[[Pass to side control]]** → [[Positions/Side Control]] (Probability: 35%)
 
 
 
@@ -382,14 +382,14 @@ Partner in 50-50 bottom attempts to sit up and equalize position. You maintain h
 ## Related Positions and Techniques
 
 - **[[50-50 Guard Bottom]]** - Defensive mirror position when opponent gains top position in same leg entanglement
-- **[[Inside Ashi-Garami]]** - Similar leg entanglement with different configuration - excellent transition target
-- **[[Outside Ashi-Garami]]** - Alternative leg entanglement with outside control - complementary position in leg lock system
-- **[[Back Control]]** - Primary positional advancement when submissions are defended
-- **[[Honey Hole]]** - Advanced leg entanglement with stronger control - progression from 50-50 system
-- **[[Inside Heel Hook]]** - Primary submission attack from this position
-- **[[Kneebar entry]]** - Secondary submission when heel hook is defended
-- **[[50-50 Entry from Standing]]** - Common entry method to establish this position
-- **[[50-50 Pass]]** - Exit strategy to advance past the leg entanglement
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Similar leg entanglement with different configuration - excellent transition target
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Alternative leg entanglement with outside control - complementary position in leg lock system
+- **[[Positions/Back Control]]** - Primary positional advancement when submissions are defended
+- **[[Positions/Ashi Garami/Honey Hole]]** - Advanced leg entanglement with stronger control - progression from 50-50 system
+- **[[Submissions/Inside Heel Hook]]** - Primary submission attack from this position
+- **[[Transitions/Kneebar entry]]** - Secondary submission when heel hook is defended
+- **[[Transitions/50-50 Entry from Standing]]** - Common entry method to establish this position
+- **[[Transitions/50-50 Pass]]** - Exit strategy to advance past the leg entanglement
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Defend against the Matrix follow-through back take. Recognition cu
 
 As the defender in this scenario, you are the bottom player whose Matrix rolling back take attempt is being countered by a top player who follows your rotation rather than resisting it. This is one of the most dangerous counter-attacks you can face when executing the Matrix, because the very momentum you generate to take the back becomes the mechanism that delivers the opponent to yours. Understanding how to recognize, prevent, and escape this counter is essential for any practitioner who relies on the Matrix as a primary back take tool. Your defensive priorities shift from completing the rotation to either aborting cleanly, redirecting into guard recovery, or defending the back take if the follow-through succeeds.
 
-**Opponent's Starting Position**: [[Matrix]] (Top)
+**Opponent's Starting Position**: [[Positions/Matrix]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender in this scenario, you are the bottom player whose Matrix rolling
 ### 1. Abort Matrix and return to turtle before rotation gains momentum
 
 - **When to use**: When you recognize the follow-through intent during the early setup phase before committing to the full rotation
-- **Targets**: [[Matrix]]
+- **Targets**: [[Positions/Matrix]]
 - **If successful**: You return to the Matrix starting position with the opportunity to attempt an alternative attack or re-time the Matrix when conditions improve
 - **Risk**: If you abort too late, you may be caught in a compromised turtle position with the opponent already behind you
 
 ### 2. Redirect rotation into guard recovery by pulling knees to chest and establishing half guard
 
 - **When to use**: When you sense the follow-through mid-rotation and cannot complete the Matrix but still have rotational momentum to redirect
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You convert the failed Matrix into a guard recovery, arriving in half guard where you have defensive options and sweep opportunities
 - **Risk**: Incomplete guard recovery may leave you in a compromised position between back control and guard
 
 ### 3. Accelerate rotation and race to hook establishment before opponent can secure back control
 
 - **When to use**: When you are already deeply committed to the rotation and aborting would leave you more exposed than completing the movement
-- **Targets**: [[Matrix]]
+- **Targets**: [[Positions/Matrix]]
 - **If successful**: You complete the Matrix faster than the opponent can follow, potentially reversing the position and taking their back instead
 - **Risk**: If the opponent matches your acceleration, you arrive in a back-to-back scramble that often favors the follower due to their gravitational advantage
 
 ### 4. Block hook insertion by keeping elbows pinched tight and knees drawn toward chest during inversion
 
 - **When to use**: When the opponent has followed the rotation successfully and is arriving at your back, but has not yet inserted hooks
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You prevent complete back control establishment, giving you time to turn and establish guard or escape to half guard
 - **Risk**: The opponent may use alternative back control methods such as body triangle or direct seatbelt compression without hooks
 
@@ -217,11 +217,11 @@ As the defender in this scenario, you are the bottom player whose Matrix rolling
 
 ## Best-Case Outcomes for Defender
 
-### → [[Matrix]]
+### → [[Positions/Matrix]]
 
 Abort the Matrix early upon sensing the follow-through counter, return to starting position, and immediately transition to an alternative attack such as arm drag or conventional rolling back take that the opponent is not prepared for
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Redirect rotational momentum into guard recovery by pulling knees to chest, establishing frames against the approaching opponent, and securing at least half guard before they can complete hook insertion and seatbelt establishment
 

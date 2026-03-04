@@ -21,7 +21,7 @@ This sweep represents one of the primary offensive weapons from Reverse X-Guard,
 
 Success with the Reverse X-Guard Sweep requires understanding the relationship between hook placement, hip elevation, and grip control. The bottom practitioner must maintain constant elevating pressure while timing the sweep to coincide with the opponent's weight shift or base adjustment. Advanced practitioners chain this sweep with transitions to Single Leg X-Guard or Ashi Garami when the primary sweep is defended, creating a systematic attacking approach from the position.
 
-**From Position**: [[Reverse X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Success with the Reverse X-Guard Sweep requires understanding the relationship b
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 65% |
-| Failure | [[Reverse X-Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount]] | 65% |
+| Failure | [[Positions/X-Guard/Reverse X-Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Reverse X-Guard Sweep functions as a primary offensive weapon within the Rev
 ## Related Techniques
 
 
-- [[Reverse X-Guard]] - Starting position - must be established before sweep execution
+- [[Positions/X-Guard/Reverse X-Guard]] - Starting position - must be established before sweep execution
 
-- [[Mount]] - Primary target position after successful sweep
+- [[Positions/Mount]] - Primary target position after successful sweep
 
-- [[Single Leg X-Guard]] - Alternative transition when opponent defends with wide base
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative transition when opponent defends with wide base
 
-- [[Ashi Garami]] - Leg entanglement transition when sweep is heavily defended
+- [[Positions/Ashi Garami]] - Leg entanglement transition when sweep is heavily defended
 
-- [[X-Guard]] - Related guard position with similar sweep mechanics
+- [[Positions/X-Guard]] - Related guard position with similar sweep mechanics
 
-- [[Deep Half Guard]] - Defensive transition when opponent drives forward with smash pressure
+- [[Positions/Half Guard/Deep Half Guard]] - Defensive transition when opponent drives forward with smash pressure
 
-- [[Back Take]] - Alternative outcome when opponent backsteps during sweep defense
+- [[Transitions/Back Take]] - Alternative outcome when opponent backsteps during sweep defense
 
-- [[De La Riva Guard]] - Common entry position for establishing Reverse X-Guard
+- [[Positions/De La Riva Guard]] - Common entry position for establishing Reverse X-Guard
 
-- [[Elevation Sweep to Mount]] - Related elevation-based sweep with similar mechanics
+- [[Transitions/Elevation Sweep to Mount]] - Related elevation-based sweep with similar mechanics
 
-- [[Half Guard]] - Counter outcome position if opponent smashes through hooks during sweep
+- [[Positions/Half Guard]] - Counter outcome position if opponent smashes through hooks during sweep
 
 
 </section>

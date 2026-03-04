@@ -156,7 +156,7 @@ As the defender in Leg Recovery to De La Riva, you are the top player maintainin
 
 The critical defensive window for you is the moment between their leg extraction and hook insertion. If you can prevent the hook from landing behind your knee, their recovery fails and you maintain the passing advantage. This requires constant hip pressure, active grip maintenance on their upper body, and the ability to re-drag their leg the instant it begins to clear. Understanding that your opponent needs both angle and space to extract means that denying either one—through forward pressure, weight settling, or crossface control—shuts down their recovery before it starts.
 
-**Opponent's Starting Position**: [[Leg Drag Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ The critical defensive window for you is the moment between their leg extraction
 ### 1. Drive forward hip pressure and re-settle weight before extraction completes
 
 - **When to use**: As soon as you feel opponent hip escaping or their free leg pushing your hip—the earliest stage of their recovery attempt
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: Opponent's extraction attempt fails and they remain trapped in leg drag with depleted energy from the failed escape
 - **Risk**: If you overcommit forward, opponent may use your momentum for a sweep or scramble to turtle
 
 ### 2. Re-drag the freed leg before DLR hook is inserted by gripping the ankle or knee and pulling it back across their body
 
 - **When to use**: When the opponent's leg has partially cleared but the DLR hook has not yet been established behind your knee
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: You re-establish leg drag control and the opponent must restart their entire extraction sequence
 - **Risk**: Reaching for the leg requires releasing upper body control momentarily, which may allow opponent to sit up or face you
 
 ### 3. Accelerate to side control consolidation by driving crossface and sliding your hips past their guard recovery
 
 - **When to use**: When you recognize the recovery attempt is underway and your leg drag control is compromised—race to consolidate rather than fight the extraction
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You bypass the leg drag battle entirely and establish a dominant side control position worth 3 points
 - **Risk**: If the transition is too slow, opponent may establish DLR or half guard during your consolidation attempt
 
 ### 4. Backstep to leg entanglement as opponent extracts, converting their guard recovery into your leg attack entry
 
 - **When to use**: When opponent has created enough angle that re-dragging is unlikely to succeed and you have opportunity to capture their leg during extraction
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: You transition from a failing leg drag into an offensive leg entanglement position with heel hook or kneebar threats
 - **Risk**: Failed backstep may leave you in opponent's guard with no top control advantage
 
@@ -225,11 +225,11 @@ The critical defensive window for you is the moment between their leg extraction
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Drag Control]]
+### → [[Positions/Leg Drag Control]]
 
 Maintain constant forward hip pressure and crossface control to deny the space and angle needed for extraction. When you feel their free leg pushing, drive your weight lower and tighter. If their leg partially clears, immediately re-drag it by gripping the ankle and pulling it back across their body before the DLR hook is inserted.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When you recognize their recovery attempt is gaining traction and the leg drag is compromised, accelerate your passing sequence by driving a strong crossface while sliding your hips past their knee line. Prioritize consolidating side control over fighting to maintain the drag—a consolidated side control is better than a contested leg drag.
 

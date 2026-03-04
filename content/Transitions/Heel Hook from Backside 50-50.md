@@ -21,7 +21,7 @@ The mechanics of this heel hook rely on the same fundamental rotational breaking
 
 Competition analysis reveals that this attack succeeds most often as a counter-attack rather than a proactive offense. When the top player shifts weight to pursue back control or commits to their own leg attack, their heel becomes momentarily accessible and their defensive posture toward their own legs weakens. The attempt probability is low but the finish rate is meaningful when conditions align, making it a critical deterrent that prevents top players from attacking with impunity. Recognizing these windows and executing with precision separates the opportunistic finisher from the practitioner who simply absorbs pressure from bottom.
 
-**From Position**: [[Backside 50-50]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -33,8 +33,8 @@ Competition analysis reveals that this attack succeeds most often as a counter-a
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Backside 50-50]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Failure | [[Positions/Ashi Garami/Backside 50-50]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The heel hook from Backside 50-50 bottom occupies a critical role in the modern 
 ## Related Techniques
 
 
-- [[Backside 50-50]] - Source position where this heel hook attack originates from the bottom
+- [[Positions/Ashi Garami/Backside 50-50]] - Source position where this heel hook attack originates from the bottom
 
-- [[Outside Heel Hook from Backside 50-50]] - Alternative heel hook angle attacking the lateral knee structures from the same position
+- [[Submissions/Outside Heel Hook from Backside 50-50]] - Alternative heel hook angle attacking the lateral knee structures from the same position
 
-- [[Inside Heel Hook]] - Core submission mechanic applied in this specific positional context
+- [[Submissions/Inside Heel Hook]] - Core submission mechanic applied in this specific positional context
 
-- [[Inside Heel Hook from Honey Hole]] - Similar heel hook finish from a more dominant leg entanglement position for comparison
+- [[Transitions/Inside Heel Hook from Honey Hole]] - Similar heel hook finish from a more dominant leg entanglement position for comparison
 
-- [[Heel Hook from Saddle]] - Higher-percentage heel hook from superior entanglement showing ideal finishing mechanics
+- [[Transitions/Heel Hook from Saddle]] - Higher-percentage heel hook from superior entanglement showing ideal finishing mechanics
 
-- [[50-50 Guard]] - Parent position family sharing the mirrored leg entanglement structure
+- [[Positions/Ashi Garami/50-50 Guard]] - Parent position family sharing the mirrored leg entanglement structure
 
-- [[Honey Hole]] - Superior leg entanglement that the top player may transition toward if heel hook fails
+- [[Positions/Ashi Garami/Honey Hole]] - Superior leg entanglement that the top player may transition toward if heel hook fails
 
-- [[Back Control]] - Primary counter-threat position the top player advances to when bottom commits hands to heel hook
+- [[Positions/Back Control]] - Primary counter-threat position the top player advances to when bottom commits hands to heel hook
 
-- [[Ashi Garami Escape]] - Escape pathway available when heel hook attempt fails and position must be abandoned
+- [[Transitions/Ashi Garami Escape]] - Escape pathway available when heel hook attempt fails and position must be abandoned
 
-- [[Back Take from 50-50]] - Top player's primary positional advancement that creates the opening for this heel hook
+- [[Transitions/Back Take from 50-50]] - Top player's primary positional advancement that creates the opening for this heel hook
 
 
 </section>

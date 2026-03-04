@@ -180,7 +180,7 @@ description: "Learn systematic pressure passing through Squid Guard. Step-by-ste
 
 The attacker in Pressure Through Squid Guard is the top player who employs sustained, directional pressure to collapse the bottom player's Squid Guard structure. This approach prioritizes weight distribution and postural control over speed or grip fighting, creating an inexorable compression that gradually overwhelms the guard player's ability to maintain hooks, lapel tension, and framing simultaneously. The attacker must balance aggressive forward pressure with base maintenance to avoid being swept during the compression sequence, reading the bottom player's reactions to time the final breakthrough into half guard.
 
-**From Position**: [[Squid Guard]] (Top)
+**From Position**: [[Positions/Squid Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The attacker in Pressure Through Squid Guard is the top player who employs susta
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Open Guard]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Open Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ The attacker in Pressure Through Squid Guard is the top player who employs susta
 
 ## Opponent Counters
 
-- **Bottom player inverts and threatens back take during pressure application** (Effectiveness: High) - Your Response: Immediately backstep and redirect pressure downward to flatten their inversion attempt. If they achieve significant rotation, abandon the pressure pass and reset to standing base in open guard. → Leads to [[Open Guard]]
-- **Bottom player establishes knee shield to create frame against shoulder pressure** (Effectiveness: Medium) - Your Response: Switch to hip-switch pressure variant, changing the angle of your drive to go around the knee shield rather than through it. Use your free hand to control their shield leg at the knee, redirecting it downward while maintaining shoulder pressure. → Leads to [[Open Guard]]
-- **Bottom player times a sweep using lapel tension during forward weight commitment** (Effectiveness: High) - Your Response: Maintain wide base with your free leg posted far enough to resist lateral sweeps. If you feel your balance compromised, immediately post your hand on the mat and reset your base before continuing pressure rather than trying to power through. → Leads to [[Half Guard]]
-- **Bottom player releases lapel and transitions to De La Riva or Spider Guard** (Effectiveness: Medium) - Your Response: Capitalize on the transition window by accelerating your pressure pass while their guard structure is reorganizing. The transition between guard configurations creates a moment where neither guard is fully established, making pressure passing significantly easier. → Leads to [[Open Guard]]
+- **Bottom player inverts and threatens back take during pressure application** (Effectiveness: High) - Your Response: Immediately backstep and redirect pressure downward to flatten their inversion attempt. If they achieve significant rotation, abandon the pressure pass and reset to standing base in open guard. → Leads to [[Positions/Open Guard]]
+- **Bottom player establishes knee shield to create frame against shoulder pressure** (Effectiveness: Medium) - Your Response: Switch to hip-switch pressure variant, changing the angle of your drive to go around the knee shield rather than through it. Use your free hand to control their shield leg at the knee, redirecting it downward while maintaining shoulder pressure. → Leads to [[Positions/Open Guard]]
+- **Bottom player times a sweep using lapel tension during forward weight commitment** (Effectiveness: High) - Your Response: Maintain wide base with your free leg posted far enough to resist lateral sweeps. If you feel your balance compromised, immediately post your hand on the mat and reset your base before continuing pressure rather than trying to power through. → Leads to [[Positions/Half Guard]]
+- **Bottom player releases lapel and transitions to De La Riva or Spider Guard** (Effectiveness: Medium) - Your Response: Capitalize on the transition window by accelerating your pressure pass while their guard structure is reorganizing. The transition between guard configurations creates a moment where neither guard is fully established, making pressure passing significantly easier. → Leads to [[Positions/Open Guard]]
 
 
 </section>

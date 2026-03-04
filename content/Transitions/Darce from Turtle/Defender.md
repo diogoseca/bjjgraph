@@ -156,7 +156,7 @@ Defending the Darce choke from turtle position requires immediate recognition, d
 
 The defender must understand that the Darce works by trapping their own far-side arm against their neck, creating compression on both carotid arteries. This means the primary defensive objective is preventing the arm from being trapped, and if trapped, extracting it as quickly as possible. Every second the arm remains trapped while the grip tightens moves the situation closer to a forced tap. Effective defense combines chin tuck to block deep threading, active arm extraction using the free hand, and directional movement toward the choke rather than away from it, which counter-intuitively reduces the choking pressure and creates escape angles.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The defender must understand that the Darce works by trapping their own far-side
 ### 1. Sit through to guard before grip locks
 
 - **When to use**: When you feel opponent's arm begin threading across your neck but before hands connect - the earlier the better
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You escape to guard position, forcing opponent to abandon the Darce setup entirely and start a new passing sequence
 - **Risk**: If too slow, opponent follows the sit-through and locks the Darce from the new angle, potentially in a worse position for you
 
 ### 2. Pull far-side arm free and recover turtle defense
 
 - **When to use**: When you feel your arm being trapped against your neck but opponent has not yet locked their grip - use your free hand to grab your own wrist and pull the trapped arm out
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Eliminates the arm-in choke structure entirely, forcing opponent back to basic front headlock control with significantly reduced submission threat
 - **Risk**: Temporarily reduces your defensive frames, and if extraction fails you may have wasted energy and time in a worsening position
 
 ### 3. Granby roll toward the choking arm side to invert and recover guard
 
 - **When to use**: When opponent has partially threaded but committed their weight forward and high on your back, giving you space underneath to rotate
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You invert underneath opponent and recover to guard position, completely negating the Darce attempt
 - **Risk**: If opponent reads the roll and follows with their hips, they can tighten the Darce during your rotation and finish from the new angle
 
 ### 4. Turn into opponent and establish inside position to neutralize the choke angle
 
 - **When to use**: When opponent has locked the grip but has not yet adjusted their body angle for the finish - turning in reduces compression and creates scramble opportunities
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Facing opponent eliminates the choking angle and allows you to work inside control, potentially recovering guard or creating a scramble
 - **Risk**: If opponent has already achieved proper depth and body angle, turning in may not relieve enough pressure and you lose escape time
 
@@ -227,11 +227,11 @@ The defender must understand that the Darce works by trapping their own far-side
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Extract your trapped far-side arm using your free hand to grab your own wrist and pull it clear of opponent's encircling arm, then immediately tighten your turtle defense with elbows to knees and chin tucked, which returns the position to basic turtle top versus bottom without submission threat
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Execute a sit-through or granby roll before opponent locks their grip, using their forward weight commitment against them to create space for the escape movement, recovering to closed guard, half guard, or open guard depending on the angle of your escape
 

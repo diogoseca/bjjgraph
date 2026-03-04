@@ -150,7 +150,7 @@ description: "Learn to defend and escape the Kimura from Kimura Trap. Recognitio
 
 Defending the Kimura from Kimura Trap requires early recognition that the attacker is transitioning from positional control to active submission finishing. The defender must act decisively before the attacker achieves the finishing angle, as late-stage defense against a properly positioned Kimura with full rotational force is extremely difficult and risks injury. The primary defensive hierarchy involves preventing the trapped arm from being painted behind the back through grip defense and structural integrity, maintaining connection between the trapped elbow and the torso, and creating counter-movement opportunities through bridging and hip escape that force the attacker to choose between maintaining the submission or preserving positional control. Understanding the mechanical progression of the Kimura finish allows the defender to identify which defensive layer is appropriate at each stage and when tapping becomes the safest option.
 
-**Opponent's Starting Position**: [[Kimura Trap]] (Top)
+**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Top)
 
 
 </section>
@@ -188,21 +188,21 @@ Defending the Kimura from Kimura Trap requires early recognition that the attack
 ### 1. Clasp hands together using gable grip or S-grip to form a connected structure preventing arm rotation
 
 - **When to use**: As soon as you feel the opponent begin rotating your wrist away from your body or tightening grip for the finish
-- **Targets**: [[Kimura Trap]]
+- **Targets**: [[Positions/Kimura Trap]]
 - **If successful**: Prevents the finish and buys time to work positional escape while forcing the attacker to break your grip before progressing
 - **Risk**: Opponent may peel your grip apart using knee insertion, free hand leverage, or stepover techniques
 
 ### 2. Straighten the trapped arm and pull through the opponent's figure-four grip to extract the arm completely
 
 - **When to use**: When the opponent's grip is shallow near your wrist rather than deep near your elbow, giving you sufficient leverage to straighten
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Extract arm completely and immediately recover guard position by inserting knee shield
 - **Risk**: If the arm straightens but doesn't escape the figure-four, it becomes exposed to a straight armbar transition
 
 ### 3. Bridge explosively toward the Kimura side to disrupt the attacker's angle and create positional scramble
 
 - **When to use**: When the attacker commits weight forward to create finishing pressure, narrowing their base and becoming vulnerable to being rolled
-- **Targets**: [[Kimura Trap]]
+- **Targets**: [[Positions/Kimura Trap]]
 - **If successful**: Relieves immediate shoulder pressure, disrupts the finishing angle, and may create opportunity to recover position or reverse
 - **Risk**: Attacker may follow the roll and transition to back control while maintaining the Kimura grip
 
@@ -225,7 +225,7 @@ Defending the Kimura from Kimura Trap requires early recognition that the attack
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Successfully extract the trapped arm by straightening through the figure-four grip or timing an escape during the attacker's angle transition, then immediately recover half guard by inserting a knee shield
 

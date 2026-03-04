@@ -154,7 +154,7 @@ description: "Defend your diamond guard against passing attempts in BJJ. Learn r
 
 Defending against a guard pass from diamond guard centers on maintaining the integrity of the dual-control frame for as long as possible. The diamond structure is your primary weapon, and every moment the passer spends fighting your grips is time you can use to set up submissions or sweeps. Recognition of the passer's sequential approach is critical: they will typically address head control first by circling their head, then strip the overhook, then attempt to open your guard. Each phase presents specific counter-opportunities that can reverse the exchange entirely. Your defensive strategy should focus on disrupting their sequence by re-establishing controls as they are stripped, threatening submissions to force defensive reactions that reset their progress, and timing sweeps to coincide with moments when the passer's base is most compromised during weight transitions.
 
-**Opponent's Starting Position**: [[Diamond Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Closed Guard/Diamond Guard]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending against a guard pass from diamond guard centers on maintaining the int
 ### 1. Re-sink diamond frame during head circle attempt
 
 - **When to use**: When you feel the opponent beginning to circle their head to one side, tighten both the overhook and head control simultaneously by pulling your elbows toward your ribs and increasing heel pressure into their lower back
-- **Targets**: [[Diamond Guard]]
+- **Targets**: [[Positions/Closed Guard/Diamond Guard]]
 - **If successful**: The head circle fails and the opponent remains trapped in diamond guard with broken posture, resetting their passing sequence to zero
 - **Risk**: If the re-sink is too late and the head is already free, you may be pulling against empty space while the passer recovers posture
 
 ### 2. Hip bump sweep during posture recovery
 
 - **When to use**: When the opponent shifts their weight backward during posture recovery, creating the hip elevation and base compromise needed for the sweep, release head control to sit up explosively into the sweep
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You sweep the passer and achieve mount, completely reversing the positional exchange from a defensive guard situation to the most dominant top position
 - **Risk**: If the passer maintains heavy hips and blocks your sit-up, you have released head control without achieving the sweep, partially degrading your diamond frame
 
 ### 3. Triangle entry when head control is freed but overhook remains
 
 - **When to use**: When the passer successfully circles their head free but your overhook is still deep, angle your hips toward the overhook side and open your guard to shoot for a triangle on the overhook side
-- **Targets**: [[Diamond Guard]]
+- **Targets**: [[Positions/Closed Guard/Diamond Guard]]
 - **If successful**: You transition from diamond guard into a triangle attempt, maintaining offensive pressure and forcing the passer to defend a submission rather than continue passing
 - **Risk**: Opening the guard for the triangle removes the closed guard anchor, and if the triangle attempt fails, the passer is now free to pass against an open guard
 
 ### 4. Transition to open guard if diamond frame is fully broken
 
 - **When to use**: When both the overhook and head control have been stripped and the passer is beginning to stand or open your guard, immediately transition to an active open guard rather than attempting to re-establish the diamond
-- **Targets**: [[Diamond Guard]]
+- **Targets**: [[Positions/Closed Guard/Diamond Guard]]
 - **If successful**: You retain guard position in an open guard configuration, maintaining defensive coverage and creating new offensive opportunities from a different guard system
 - **Risk**: The transition period between diamond guard collapse and open guard establishment creates a vulnerable window where the passer can advance before your new guard is set
 
@@ -224,11 +224,11 @@ Defending against a guard pass from diamond guard centers on maintaining the int
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Time the hip bump sweep to coincide with the passer's backward weight shift during posture recovery. Release head control to sit up explosively while driving your hips upward. The combination of their compromised base and your forward momentum completes the sweep to mount.
 
-### → [[Diamond Guard]]
+### → [[Positions/Closed Guard/Diamond Guard]]
 
 Maintain constant pressure on both control points by actively adjusting overhook depth and head control angle whenever the passer fights grips. Use submission threats to interrupt their passing sequence and force defensive reactions that reset their progress. Every re-establishment of the diamond frame negates the passer's work and returns you to an offensive position.
 

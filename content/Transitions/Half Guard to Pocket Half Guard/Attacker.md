@@ -180,7 +180,7 @@ description: "How to execute the Transition to Pocket Half Guard from Half Guard
 
 As the attacker executing the Transition to Pocket Half Guard, your objective is to convert a contested Half Guard Top position into a dominant control platform by establishing a deep underhook and flattening the bottom player's defensive structure. This transition requires coordinating three simultaneous actions: threading the underhook past the bottom player's defensive frames, driving forward chest pressure to eliminate hip mobility, and positioning your head on the crossface side to prevent the bottom player from turning into you. The timing of the underhook entry is critical and must be disguised through pressure changes, grip fighting sequences, or angle adjustments that momentarily compromise the bottom player's arm positioning.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ As the attacker executing the Transition to Pocket Half Guard, your objective is
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Pocket Half Guard]] | 65% |
-| Failure | [[Half Guard]] | 20% |
-| Counter | [[Knee Shield Half Guard]] | 15% |
+| Success | [[Positions/Half Guard/Pocket Half Guard]] | 65% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Counter | [[Positions/Half Guard/Knee Shield Half Guard]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ As the attacker executing the Transition to Pocket Half Guard, your objective is
 
 ## Opponent Counters
 
-- **Bottom player fights for their own underhook before you establish yours, creating a contested underhook battle** (Effectiveness: High) - Your Response: If opponent wins the underhook first, immediately apply whizzer control on their underhook arm while driving your shoulder into their face. Use the whizzer to break their underhook depth, then re-attempt your own underhook entry. If the underhook battle is lost, transition to a crossface-based passing approach instead. → Leads to [[Half Guard]]
-- **Bottom player inserts knee shield before you can flatten their guard, creating distance and blocking chest pressure** (Effectiveness: High) - Your Response: Address the knee shield before continuing the underhook entry. Use smash pass mechanics to collapse the knee shield by driving their bottom knee to the mat, or switch to a long step pass to circumvent the shield entirely. Only re-attempt the Pocket Half Guard transition after the knee shield is cleared. → Leads to [[Knee Shield Half Guard]]
-- **Bottom player hip escapes and scoots underneath for deep half guard entry during your weight shift** (Effectiveness: Medium) - Your Response: Immediately sprawl your hips back and drive your trapped knee toward the mat to prevent them from getting underneath. If they are already entering deep half, abandon the Pocket Half Guard transition and address the deep half guard position with appropriate passing strategy before re-attempting. → Leads to [[Half Guard]]
-- **Bottom player frames with both arms against your shoulders to prevent chest contact and maintain distance** (Effectiveness: Medium) - Your Response: Use your body weight to walk your hands forward past their frames, collapsing the distance incrementally. Alternatively, grip one of their framing arms and pin it to their body to remove half the frame structure, then drive through the remaining single frame with shoulder pressure. → Leads to [[Half Guard]]
+- **Bottom player fights for their own underhook before you establish yours, creating a contested underhook battle** (Effectiveness: High) - Your Response: If opponent wins the underhook first, immediately apply whizzer control on their underhook arm while driving your shoulder into their face. Use the whizzer to break their underhook depth, then re-attempt your own underhook entry. If the underhook battle is lost, transition to a crossface-based passing approach instead. → Leads to [[Positions/Half Guard]]
+- **Bottom player inserts knee shield before you can flatten their guard, creating distance and blocking chest pressure** (Effectiveness: High) - Your Response: Address the knee shield before continuing the underhook entry. Use smash pass mechanics to collapse the knee shield by driving their bottom knee to the mat, or switch to a long step pass to circumvent the shield entirely. Only re-attempt the Pocket Half Guard transition after the knee shield is cleared. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
+- **Bottom player hip escapes and scoots underneath for deep half guard entry during your weight shift** (Effectiveness: Medium) - Your Response: Immediately sprawl your hips back and drive your trapped knee toward the mat to prevent them from getting underneath. If they are already entering deep half, abandon the Pocket Half Guard transition and address the deep half guard position with appropriate passing strategy before re-attempting. → Leads to [[Positions/Half Guard]]
+- **Bottom player frames with both arms against your shoulders to prevent chest contact and maintain distance** (Effectiveness: Medium) - Your Response: Use your body weight to walk your hands forward past their frames, collapsing the distance incrementally. Alternatively, grip one of their framing arms and pin it to their body to remove half the frame structure, then drive through the remaining single frame with shoulder pressure. → Leads to [[Positions/Half Guard]]
 
 
 </section>

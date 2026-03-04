@@ -21,7 +21,7 @@ The escape methodology centers on three sequential priorities: first, prevent ad
 
 Strategically, this escape functions as a race condition. The bottom player must disrupt the crab ride control structure faster than the top player can consolidate it. Timing is paramount because the highest percentage escape windows occur during grip transitions, weight shifts, and moments when the top player commits to advancing position. Practitioners who wait passively find the position deteriorating rapidly toward full back control, while those who act with technical precision during transitional moments achieve guard recovery at significantly higher rates. The escape integrates hip movement, frame creation, and directional changes to systematically dismantle the crab ride control structure.
 
-**From Position**: [[Crab Ride]] (Bottom)
+**From Position**: [[Positions/Crab Ride]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape functions as a race condition. The bottom player must
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Crab Ride]] | 35% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Crab Ride]] | 35% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Escape from Crab Ride occupies a critical defensive node in the BJJ position
 ## Related Techniques
 
 
-- [[Crab Ride]] - Starting position from which this escape is executed
+- [[Positions/Crab Ride]] - Starting position from which this escape is executed
 
-- [[Back Control]] - Position threatened if escape fails and opponent advances
+- [[Positions/Back Control]] - Position threatened if escape fails and opponent advances
 
-- [[Half Guard]] - Primary successful escape destination for guard recovery
+- [[Positions/Half Guard]] - Primary successful escape destination for guard recovery
 
-- [[Turtle]] - Parent defensive position where crab ride is typically established
+- [[Positions/Turtle]] - Parent defensive position where crab ride is typically established
 
-- [[Crab Ride Escape to Guard]] - Related guard recovery transition from the same starting position
+- [[Transitions/Crab Ride Escape to Guard]] - Related guard recovery transition from the same starting position
 
-- [[Peterson Roll]] - Wrestling-based reversal technique applicable from crab ride bottom
+- [[Transitions/Peterson Roll]] - Wrestling-based reversal technique applicable from crab ride bottom
 
-- [[Sit Through Escape]] - Alternative escape technique using wrestling sit-out mechanics
+- [[Transitions/Sit Through Escape]] - Alternative escape technique using wrestling sit-out mechanics
 
-- [[Granby Roll to Guard]] - Inversion-based escape alternative for guard recovery
+- [[Transitions/Granby Roll to Guard]] - Inversion-based escape alternative for guard recovery
 
-- [[Hip Escape to Guard]] - Fundamental escape movement used as component of this technique
+- [[Transitions/Hip Escape to Guard]] - Fundamental escape movement used as component of this technique
 
-- [[Back Door Escape]] - Related escape methodology used if position degrades to full back control
+- [[Transitions/Back Door Escape]] - Related escape methodology used if position degrades to full back control
 
-- [[Crucifix]] - Alternative threat position the opponent may transition to from crab ride
+- [[Positions/Crucifix]] - Alternative threat position the opponent may transition to from crab ride
 
 
 </section>

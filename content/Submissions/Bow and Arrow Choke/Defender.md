@@ -156,7 +156,7 @@ description: "How to defend against Bow and Arrow Choke in BJJ. Recognition cues
 
 Defending the Bow and Arrow Choke requires understanding that this submission operates on a rapidly closing timeline - once the attacker establishes the perpendicular angle with a deep collar grip and leg control, defensive options narrow dramatically. The defender's primary advantage lies in the transition period between standard back control and the committed bow and arrow configuration. During this window, the attacker must release hooks, rotate hips, and secure secondary grips, each of which presents a defensive opportunity if recognized early. The critical defensive principle is that prevention vastly outperforms escape: addressing the collar grip before the attacker commits to the bow position is exponentially more effective than trying to survive once the choke is locked. Defenders must develop tactile sensitivity to recognize the specific grip changes that signal a bow and arrow attempt versus a rear naked choke attempt, as the two submissions require fundamentally different defensive responses. The collar grip insertion with four fingers inside the lapel is the earliest and most reliable recognition cue, and defending this grip is the highest-percentage intervention point.
 
-**Opponent's Starting Position**: [[Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 
 </section>
@@ -196,28 +196,28 @@ Defending the Bow and Arrow Choke requires understanding that this submission op
 ### 1. Two-on-one grip strip on collar hand before angle established
 
 - **When to use**: Immediately upon feeling the attacker's fingers insert deep into your collar - this is the highest-percentage defensive window before the bow configuration forms
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Returns to standard back control where you face RNC threat but have eliminated the bow and arrow setup entirely
 - **Risk**: Committing both hands to collar defense momentarily leaves neck exposed to RNC if attacker abandons bow and arrow and switches attacks
 
 ### 2. Turn toward the attacker and fight to face them during hip rotation
 
 - **When to use**: When attacker begins rotating hips to perpendicular position but has not yet secured far leg control or completed the angle transition
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Disrupts the perpendicular angle requirement and can lead to guard recovery if you complete the turn before they re-establish hooks
 - **Risk**: If turn is incomplete, you may expose your back worse and give attacker an easier path to the bow and arrow finish from a partially turned position
 
 ### 3. Strip pants grip and straighten far leg to deny stretching mechanism
 
 - **When to use**: When attacker has established collar grip and angle but is reaching for your far-side pants or attempting to hook your far leg
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Prevents the bow tension that multiplies choking pressure, potentially forcing attacker to abandon bow and arrow and return to standard back attacks
 - **Risk**: Using hands to fight pants grip leaves collar grip unaddressed, and attacker may complete a modified finish using leg positioning alone
 
 ### 4. Block bottom leg extension by trapping attacker's extending leg with your near-side hand and hip
 
 - **When to use**: When attacker releases bottom hook and begins extending their leg to create the bow shape - this is a late-stage defense but can prevent the finish
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Prevents the force generation mechanism of the bow, reducing the choke to a weaker single-arm collar choke that is more survivable
 - **Risk**: Late-stage defense with lower success rate; if collar grip is already deep and angled, the choke may still be effective even without full leg extension
 
@@ -240,11 +240,11 @@ Defending the Bow and Arrow Choke requires understanding that this submission op
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Turn into the attacker during the hip rotation phase before perpendicular angle is established, using frames on their hip and shoulder to complete rotation and insert legs for guard recovery
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Successfully strip the deep collar grip using two-on-one wrist control before the attacker establishes the perpendicular angle, returning to standard back control defensive position where escape sequences can be attempted
 

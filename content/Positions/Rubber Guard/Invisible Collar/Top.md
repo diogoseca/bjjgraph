@@ -211,21 +211,21 @@ Success in invisible collar top requires coordinating upper body attacks with lo
 
 ## Available Attacks
 
-### [[Cross Collar Choke Finish]] (14% of attempts)
+### [[Transitions/Cross Collar Choke Finish]] (14% of attempts)
 
-### [[Rear Naked Choke]] (14% of attempts)
+### [[Transitions/Rear Naked Choke]] (14% of attempts)
 
-### [[Armbar from Back Transition]] (12% of attempts)
+### [[Transitions/Armbar from Back Transition]] (12% of attempts)
 
-### [[Aoki Lock to Crucifix]] (11% of attempts)
+### [[Transitions/Aoki Lock to Crucifix]] (11% of attempts)
 
-### [[Bow and Arrow Choke]] (11% of attempts)
+### [[Transitions/Bow and Arrow Choke]] (11% of attempts)
 
-### [[Clock Choke]] (10% of attempts)
+### [[Transitions/Clock Choke]] (10% of attempts)
 
-### [[Back Control Maintenance]] (15% of attempts)
+### [[Transitions/Back Control Maintenance]] (15% of attempts)
 
-### [[Body Triangle Lock]] (13% of attempts)
+### [[Transitions/Body Triangle Lock]] (13% of attempts)
 
 
 
@@ -242,19 +242,19 @@ Success in invisible collar top requires coordinating upper body attacks with lo
 
 **If opponent recognizes threat and begins hand fighting the collar grip:**
 - Execute **[[Switch to Rear Naked Choke]]** → [[game-over]] (Probability: 65%)
-- Execute **[[Aoki Lock to Crucifix]]** → [[Crucifix]] (Probability: 55%)
-- Execute **[[Attack Extended Arm with Armbar]]** → [[Armbar Control]] (Probability: 60%)
+- Execute **[[Transitions/Aoki Lock to Crucifix]]** → [[Positions/Crucifix]] (Probability: 55%)
+- Execute **[[Attack Extended Arm with Armbar]]** → [[Positions/Armbar Control]] (Probability: 60%)
 
 
 **If opponent turns into the collar side attempting to relieve pressure:**
-- Execute **[[Follow with Crucifix Entry]]** → [[Crucifix]] (Probability: 70%)
+- Execute **[[Follow with Crucifix Entry]]** → [[Positions/Crucifix]] (Probability: 70%)
 - Execute **[[Tighten Collar Choke with Rotation]]** → [[game-over]] (Probability: 68%)
 
 
 **If opponent successfully tucks chin and defends neck:**
-- Execute **[[Transition to Armbar from Back]]** → [[Armbar Control]] (Probability: 58%)
+- Execute **[[Transition to Armbar from Back]]** → [[Positions/Armbar Control]] (Probability: 58%)
 - Execute **[[Setup Bow and Arrow Choke]]** → [[game-over]] (Probability: 52%)
-- Execute **[[Maintain Back Control and Reset]]** → [[Back Control]] (Probability: 75%)
+- Execute **[[Maintain Back Control and Reset]]** → [[Positions/Back Control]] (Probability: 75%)
 
 
 
@@ -383,14 +383,14 @@ From invisible collar position, create three-way dilemma: collar choke, rear nak
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Primary position from which invisible collar is established
-- **[[Seat Belt Control Back]]** - Fundamental grip structure used before invisible collar transition
-- **[[Rear Naked Choke]]** - Primary alternative submission when collar is defended
-- **[[Cross Collar Choke]]** - Direct finishing technique from invisible collar position
-- **[[Crucifix]]** - Common transition target when opponent turns into collar
-- **[[Armbar from Back]]** - Alternative submission when opponent extends arms to defend
-- **[[Bow and Arrow Choke]]** - Advanced variation using invisible collar grip mechanics
-- **[[Body Triangle]]** - Enhanced control position often combined with invisible collar
+- **[[Positions/Back Control]]** - Primary position from which invisible collar is established
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Fundamental grip structure used before invisible collar transition
+- **[[Transitions/Rear Naked Choke]]** - Primary alternative submission when collar is defended
+- **[[Transitions/Cross Collar Choke]]** - Direct finishing technique from invisible collar position
+- **[[Positions/Crucifix]]** - Common transition target when opponent turns into collar
+- **[[Submissions/Armbar from Back]]** - Alternative submission when opponent extends arms to defend
+- **[[Transitions/Bow and Arrow Choke]]** - Advanced variation using invisible collar grip mechanics
+- **[[Positions/Back Control/Body Triangle]]** - Enhanced control position often combined with invisible collar
 
 
 </section>

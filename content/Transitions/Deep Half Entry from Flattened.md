@@ -21,7 +21,7 @@ This technique represents a paradigm shift in half guard recovery philosophy. Ra
 
 The transition carries inherent risk because the entry movement temporarily removes your remaining defensive structures. During the dive, you momentarily abandon your half guard hook and frame, committing to reaching the deep half position. If the top player recognizes the entry early and counters with sprawling pressure or a backstep, you can end up passed to side control. This risk-reward calculation makes timing the critical variable, executing when the top player shifts weight to advance rather than when they are settled and applying static pressure.
 
-**From Position**: [[Flattened Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The transition carries inherent risk because the entry movement temporarily remo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Deep Half Guard]] | 55% |
-| Failure | [[Flattened Half Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard/Deep Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Deep Half Entry from Flattened Half Guard occupies a crucial position in the
 ## Related Techniques
 
 
-- [[Flattened Half Guard]] - Starting position where this transition originates
+- [[Positions/Half Guard/Flattened Half Guard]] - Starting position where this transition originates
 
-- [[Deep Half Guard]] - Target position achieved on successful entry
+- [[Positions/Half Guard/Deep Half Guard]] - Target position achieved on successful entry
 
-- [[Half Guard]] - Parent guard system containing both positions
+- [[Positions/Half Guard]] - Parent guard system containing both positions
 
-- [[Lockdown]] - Complementary leg control that can facilitate the entry
+- [[Positions/Half Guard/Lockdown]] - Complementary leg control that can facilitate the entry
 
-- [[Side Control]] - Position reached if entry is countered and top player passes
+- [[Positions/Side Control]] - Position reached if entry is countered and top player passes
 
-- [[Knee Shield Half Guard]] - Alternative recovery target when frames can be re-established
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative recovery target when frames can be re-established
 
-- [[Waiter Sweep]] - Primary sweep available after successful deep half entry
+- [[Transitions/Waiter Sweep]] - Primary sweep available after successful deep half entry
 
-- [[Old School Sweep]] - High-percentage sweep accessible from deep half guard
+- [[Transitions/Old School Sweep]] - High-percentage sweep accessible from deep half guard
 
-- [[Backstep from Deep Half]] - Top player counter-technique that defends against deep half
+- [[Transitions/Backstep from Deep Half]] - Top player counter-technique that defends against deep half
 
-- [[Frame and Shrimp to Guard]] - Alternative escape from flattened half guard when deep half entry is not viable
+- [[Transitions/Frame and Shrimp to Guard]] - Alternative escape from flattened half guard when deep half entry is not viable
 
-- [[Complete Pass from Flattened Half]] - Top player passing sequence that this entry aims to preempt
+- [[Transitions/Complete Pass from Flattened Half]] - Top player passing sequence that this entry aims to preempt
 
 
 </section>

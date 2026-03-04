@@ -21,7 +21,7 @@ The technique requires precise timing and coordination between upper body contro
 
 Strategically, the Balloon Sweep occupies a key role in the closed guard sweeping system because it punishes the defensive posture that defeats lateral sweeps. When opponents widen their base to resist Scissor Sweeps or drop their hips to counter Hip Bumps, they concentrate weight forward and inward, which is precisely the loading condition the Balloon Sweep exploits. This creates a self-correcting offensive cycle where the opponent's successful defense of one sweep creates the ideal setup for another.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Balloon Sweep occupies a key role in the closed guard sweepin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 58% |
-| Failure | [[Closed Guard]] | 27% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Mount]] | 58% |
+| Failure | [[Positions/Closed Guard]] | 27% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -196,29 +196,29 @@ The Balloon Sweep is a fundamental component of closed guard offense that bridge
 ## Related Techniques
 
 
-- [[Hip Bump Sweep]] - Alternative sweep attacking similar forward posture with a different angle of force
+- [[Transitions/Hip Bump Sweep]] - Alternative sweep attacking similar forward posture with a different angle of force
 
-- [[Scissor Sweep]] - Chain option when opponent defends Balloon Sweep by widening their base laterally
+- [[Transitions/Scissor Sweep]] - Chain option when opponent defends Balloon Sweep by widening their base laterally
 
-- [[Pendulum Sweep]] - Combination sweep that exploits opponent driving hard forward to resist the lift
+- [[Transitions/Pendulum Sweep]] - Combination sweep that exploits opponent driving hard forward to resist the lift
 
-- [[Flower Sweep]] - Follow-up attack targeting posted arm after Balloon Sweep attempt is defended
+- [[Transitions/Flower Sweep]] - Follow-up attack targeting posted arm after Balloon Sweep attempt is defended
 
-- [[Basic Butterfly Sweep]] - Related technique sharing the fundamental lifting and hook mechanics
+- [[Transitions/Basic Butterfly Sweep]] - Related technique sharing the fundamental lifting and hook mechanics
 
-- [[Elevator Sweep]] - Related technique sharing the vertical displacement principle from guard
+- [[Transitions/Elevator Sweep]] - Related technique sharing the vertical displacement principle from guard
 
-- [[Closed Guard]] - Starting position and primary launch point for this sweep
+- [[Positions/Closed Guard]] - Starting position and primary launch point for this sweep
 
-- [[Mount]] - Primary target position achieved upon successful sweep completion
+- [[Positions/Mount]] - Primary target position achieved upon successful sweep completion
 
-- [[Butterfly Guard]] - Related position sharing hook mechanics used in the lifting phase
+- [[Positions/Butterfly Guard]] - Related position sharing hook mechanics used in the lifting phase
 
-- [[Armbar from Guard]] - Submission chain option when opponent posts arm to defend sweep
+- [[Submissions/Armbar from Guard]] - Submission chain option when opponent posts arm to defend sweep
 
-- [[Triangle from Closed Guard]] - Setup relationship where failed triangle creates ideal Balloon Sweep loading
+- [[Submissions/Triangle from Closed Guard]] - Setup relationship where failed triangle creates ideal Balloon Sweep loading
 
-- [[Back Take]] - Alternative transition when opponent defends sweep by turning and exposing back
+- [[Transitions/Back Take]] - Alternative transition when opponent defends sweep by turning and exposing back
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Execute the Escape from Scarf Hold Position in BJJ. Step-by-step g
 
 As the attacker executing the Escape from Scarf Hold Position, your objective is to systematically dismantle the top player's perpendicular pin through frame creation, base disruption, and explosive escape mechanics. Unlike standard side control escapes that rely on shrimping, kesa gatame escapes demand bridge-and-turn mechanics that exploit the unique vulnerabilities of the perpendicular angle. Your escape progression begins with establishing breathing space through frames, proceeds through attacking the opponent's base stability, and culminates in explosive guard recovery or turtle transition. The key tactical insight is that scarf hold becomes vulnerable when the top player commits weight in any direction, creating escape windows on the opposite side.
 
-**From Position**: [[Scarf Hold Position]] (Bottom)
+**From Position**: [[Positions/Side Control/Scarf Hold Position]] (Bottom)
 
 </section>
 
@@ -232,10 +232,10 @@ As the attacker executing the Escape from Scarf Hold Position, your objective is
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Turtle]] | 10% |
-| Failure | [[Scarf Hold Position]] | 40% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Turtle]] | 10% |
+| Failure | [[Positions/Side Control/Scarf Hold Position]] | 40% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the Escape from Scarf Hold Position, your objective is
 
 ## Opponent Counters
 
-- **Top player widens base and drives hip pressure deeper into ribs when sensing bridge setup** (Effectiveness: High) - Your Response: Switch to ghost escape by turning into opponent's back as their lowered hips create space behind them, or use frame-and-shrimp variation to create incremental space for guard recovery → Leads to [[Scarf Hold Position]]
-- **Top player transitions toward mount when bottom player turns or bridges, stepping over head or legs** (Effectiveness: Medium) - Your Response: Use bottom leg hook to block mount transition, keeping knee between opponent's legs. If mount is partially established, immediately transition to mount escape rather than continuing scarf hold escape → Leads to [[Mount]]
-- **Top player attacks americana or kimura on exposed arm during frame creation phase** (Effectiveness: Medium) - Your Response: Maintain straight arm defensive grip on own thigh or belt. Use the submission attack as escape window since opponent must release some positional control to pursue the finish → Leads to [[Scarf Hold Position]]
-- **Top player re-secures tight head control and collapses frames before escape develops momentum** (Effectiveness: High) - Your Response: Accept the reset and work frames again patiently. Use the failed attempt to identify which element of opponent's control is strongest and target the weaker element in next attempt → Leads to [[Scarf Hold Position]]
+- **Top player widens base and drives hip pressure deeper into ribs when sensing bridge setup** (Effectiveness: High) - Your Response: Switch to ghost escape by turning into opponent's back as their lowered hips create space behind them, or use frame-and-shrimp variation to create incremental space for guard recovery → Leads to [[Positions/Side Control/Scarf Hold Position]]
+- **Top player transitions toward mount when bottom player turns or bridges, stepping over head or legs** (Effectiveness: Medium) - Your Response: Use bottom leg hook to block mount transition, keeping knee between opponent's legs. If mount is partially established, immediately transition to mount escape rather than continuing scarf hold escape → Leads to [[Positions/Mount]]
+- **Top player attacks americana or kimura on exposed arm during frame creation phase** (Effectiveness: Medium) - Your Response: Maintain straight arm defensive grip on own thigh or belt. Use the submission attack as escape window since opponent must release some positional control to pursue the finish → Leads to [[Positions/Side Control/Scarf Hold Position]]
+- **Top player re-secures tight head control and collapses frames before escape develops momentum** (Effectiveness: High) - Your Response: Accept the reset and work frames again patiently. Use the failed attempt to identify which element of opponent's control is strongest and target the weaker element in next attempt → Leads to [[Positions/Side Control/Scarf Hold Position]]
 
 
 </section>

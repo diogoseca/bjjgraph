@@ -140,7 +140,7 @@ description: "Learn to defend against the forward roll escape from saddle. Recog
 
 Defending against the forward roll escape requires the saddle top player to recognize early indicators of the roll attempt and respond with appropriate counter-measures before momentum is established. The primary defensive strategy centers on maintaining hip pressure and perpendicular alignment that prevents the trapped person from generating the forward momentum needed to initiate the roll. When the roll does begin, the defender faces a critical decision point: tighten the entanglement to prevent leg extraction, or release and follow the roll to transition to back control. This decision hinges on grip security—if the heel is controlled with a secure figure-four, riding the roll while maintaining the entanglement is preferred. If grips are loose, abandoning the leg attack and converting to a back take offers the highest positional return.
 
-**Opponent's Starting Position**: [[Saddle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 
 </section>
 
@@ -178,21 +178,21 @@ Defending against the forward roll escape requires the saddle top player to reco
 ### 1. Increase hip pressure and block the posting hand to prevent roll initiation
 
 - **When to use**: When you feel the opponent loading weight forward or see them moving a hand to post on the mat
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Roll attempt is shut down completely and you maintain full saddle control with the opponent having wasted energy on the failed attempt
 - **Risk**: If the opponent has already committed significant momentum, the delayed response may not prevent the roll and you lose the window to follow
 
 ### 2. Follow the roll and transition to back control with seatbelt grip
 
 - **When to use**: When the roll has already initiated and you cannot prevent it, or when your leg entanglement grips are loose and saddle retention is unlikely
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You establish hooks and harness control as the opponent completes the roll to turtle, converting lost leg control into a dominant back position
 - **Risk**: If you lose connection during the roll transition, the opponent escapes cleanly to turtle or begins immediate guard recovery before you can establish control
 
 ### 3. Tighten the leg configuration and ride the rotation to maintain the entanglement
 
 - **When to use**: When you have a secure figure-four on the trapped leg and can maintain structural control through the rolling motion
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Opponent rolls but remains trapped in saddle with potentially worse positioning and less energy for subsequent escape attempts
 - **Risk**: Rotational forces during the roll can inadvertently apply heel hook mechanics if you maintain tight grip—be prepared to release to prevent training partner injury
 
@@ -204,11 +204,11 @@ Defending against the forward roll escape requires the saddle top player to reco
 
 ## Best-Case Outcomes for Defender
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 Increase hip pressure immediately when sensing the forward weight shift, use your free arm to control the opponent's posting wrist or forearm, and maintain perpendicular alignment throughout their attempt to generate rolling momentum. Blocking the post removes the pivot point that makes the roll possible.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the roll cannot be prevented, release the leg entanglement and follow the rolling motion while maintaining chest-to-back contact. Establish seatbelt control as the opponent enters turtle, then insert the bottom hook before they can begin guard recovery. Speed of transition from saddle player to back control is the determining factor.
 

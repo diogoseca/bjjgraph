@@ -21,7 +21,7 @@ The transition exploits the mechanical advantage created by the lockdown's leg e
 
 Strategically, the Electric Chair Transition creates an immediate dilemma for the top player. Defending the elevation exposes them to the Old School sweep, while allowing the transition subjects them to the Electric Chair submission threat. This dual-threat nature makes the transition exceptionally difficult to stop once initiated with proper timing and control.
 
-**From Position**: [[Lockdown]] (Bottom)
+**From Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Electric Chair Transition creates an immediate dilemma for th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Electric Chair]] | 65% |
-| Failure | [[Lockdown]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Half Guard/Electric Chair]] | 65% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Electric Chair Transition is the cornerstone movement of the 10th Planet loc
 ## Related Techniques
 
 
-- [[Lockdown]] - Starting position - transition initiates from established lockdown control
+- [[Positions/Half Guard/Lockdown]] - Starting position - transition initiates from established lockdown control
 
-- [[Electric Chair]] - Target position - successful transition establishes Electric Chair control
+- [[Positions/Half Guard/Electric Chair]] - Target position - successful transition establishes Electric Chair control
 
-- [[Electric Chair Submission]] - Follow-up submission - primary finish from completed transition
+- [[Submissions/Electric Chair Submission]] - Follow-up submission - primary finish from completed transition
 
-- [[Old School]] - Alternative attack - available when opponent defends elevation
+- [[Positions/Half Guard/Old School]] - Alternative attack - available when opponent defends elevation
 
-- [[Truck Entry]] - Alternative transition - opens when opponent windshield wipers to escape
+- [[Transitions/Truck Entry]] - Alternative transition - opens when opponent windshield wipers to escape
 
-- [[Half Guard]] - Base guard system - lockdown is a half guard variation
+- [[Positions/Half Guard]] - Base guard system - lockdown is a half guard variation
 
-- [[Deep Half Guard]] - Alternative transition - available if lockdown is broken
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition - available if lockdown is broken
 
-- [[Dogfight Position]] - Scramble option - accessible from partial Electric Chair position
+- [[Positions/Dogfight Position]] - Scramble option - accessible from partial Electric Chair position
 
-- [[Banana Split]] - Related submission - similar leg splitting mechanics
+- [[Submissions/Banana Split]] - Related submission - similar leg splitting mechanics
 
-- [[Truck]] - Alternative control - accessible from Electric Chair defensive reactions
+- [[Positions/Twister Control/Truck]] - Alternative control - accessible from Electric Chair defensive reactions
 
 
 </section>

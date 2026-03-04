@@ -21,7 +21,7 @@ Unlike dynamic passing approaches, the smash pass relies on patient pressure app
 
 The smash pass creates a cascading series of problems for the bottom player: the crossface turns their head away, shoulder pressure compromises their breathing and posture, flattening eliminates their hip mobility, and inside leg control removes their re-guarding options. Each stage compounds the next, making the pass feel inevitable when executed correctly. This technique is equally effective in gi and no-gi contexts, making it a staple of modern BJJ competition strategies at all levels.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ The smash pass creates a cascading series of problems for the bottom player: the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 60% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 60% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -194,31 +194,31 @@ The smash pass is a cornerstone technique within pressure passing systems and se
 ## Related Techniques
 
 
-- [[Half Guard]] - Primary starting position where smash pass is initiated from the top role
+- [[Positions/Half Guard]] - Primary starting position where smash pass is initiated from the top role
 
-- [[Side Control]] - Primary ending position achieved through successful pass completion
+- [[Positions/Side Control]] - Primary ending position achieved through successful pass completion
 
-- [[Knee Shield Half Guard]] - Common defensive structure that must be cleared before applying smash pressure
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Common defensive structure that must be cleared before applying smash pressure
 
-- [[Knee Slice from Half]] - Alternative pass option when smash pass is effectively defended
+- [[Transitions/Knee Slice from Half]] - Alternative pass option when smash pass is effectively defended
 
-- [[Underhook Pass]] - Related pressure technique using similar principles with different grip configuration
+- [[Transitions/Underhook Pass]] - Related pressure technique using similar principles with different grip configuration
 
-- [[Crossface Pass]] - Related technique emphasizing crossface control mechanics shared with smash pass
+- [[Transitions/Crossface Pass]] - Related technique emphasizing crossface control mechanics shared with smash pass
 
-- [[Long Step Pass]] - Variation using long step extraction instead of backward leg extraction
+- [[Transitions/Long Step Pass]] - Variation using long step extraction instead of backward leg extraction
 
-- [[Double Under Pass]] - Related pressure-based pass using double underhooks for control
+- [[Transitions/Double Under Pass]] - Related pressure-based pass using double underhooks for control
 
-- [[Kimura from Half Guard]] - Submission opportunity available when opponent defends smash pass with underhook
+- [[Transitions/Kimura from Half Guard]] - Submission opportunity available when opponent defends smash pass with underhook
 
-- [[Darce Choke]] - Submission available when opponent turns in during smash pass attempt
+- [[Transitions/Darce Choke]] - Submission available when opponent turns in during smash pass attempt
 
-- [[Deep Half Guard]] - Counter position opponent may establish requiring pass adjustment
+- [[Positions/Half Guard/Deep Half Guard]] - Counter position opponent may establish requiring pass adjustment
 
-- [[Lockdown]] - Defensive leg entanglement that complicates smash pass extraction
+- [[Positions/Half Guard/Lockdown]] - Defensive leg entanglement that complicates smash pass extraction
 
-- [[Pressure Pass]] - Broader conceptual framework that smash pass exemplifies
+- [[Transitions/Pressure Pass]] - Broader conceptual framework that smash pass exemplifies
 
 
 </section>

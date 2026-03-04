@@ -21,7 +21,7 @@ This sweep operates on the principle that controlling two diagonal points of an 
 
 Strategically, the Collar Sleeve Sweep serves as the anchor technique within the collar sleeve guard attack system. Its threat forces opponents to maintain wide, defensive postures that directly expose them to triangle entries and omoplata setups. Practitioners who develop a reliable collar sleeve sweep find that opponents begin over-defending the sweep direction, which creates systematic openings for complementary attacks. This sweep-to-submission interplay makes the collar sleeve guard one of the most complete open guard systems in gi BJJ competition.
 
-**From Position**: [[Collar Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Collar Sleeve Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Collar Sleeve Sweep serves as the anchor technique within the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Collar Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Collar Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -197,29 +197,29 @@ The Collar Sleeve Sweep functions as the primary sweeping threat from collar sle
 ## Related Techniques
 
 
-- [[Collar Sleeve Guard]] - Starting position from which the sweep is executed
+- [[Positions/Collar Sleeve Guard]] - Starting position from which the sweep is executed
 
-- [[Side Control]] - Primary landing position after successful sweep completion
+- [[Positions/Side Control]] - Primary landing position after successful sweep completion
 
-- [[Open Guard]] - Position resulting from opponent's successful counter of the sweep
+- [[Positions/Open Guard]] - Position resulting from opponent's successful counter of the sweep
 
-- [[Pendulum Sweep]] - Complementary sweep using similar grip structure with pendulum leg mechanics
+- [[Transitions/Pendulum Sweep]] - Complementary sweep using similar grip structure with pendulum leg mechanics
 
-- [[Flower Sweep]] - Alternative sweep from collar sleeve guard exploiting backward weight shift
+- [[Transitions/Flower Sweep]] - Alternative sweep from collar sleeve guard exploiting backward weight shift
 
-- [[Triangle Setup]] - Primary chain attack when opponent posts hand to defend sweep
+- [[Transitions/Triangle Setup]] - Primary chain attack when opponent posts hand to defend sweep
 
-- [[Hip Bump Sweep]] - Alternative sweep option when opponent postures strongly against collar pull
+- [[Transitions/Hip Bump Sweep]] - Alternative sweep option when opponent postures strongly against collar pull
 
-- [[Omoplata Sweep]] - Complementary attack targeting opponent's posted arm during sweep defense
+- [[Transitions/Omoplata Sweep]] - Complementary attack targeting opponent's posted arm during sweep defense
 
-- [[Spider Guard]] - Related guard system sharing sleeve control principles
+- [[Positions/Spider Guard]] - Related guard system sharing sleeve control principles
 
-- [[Lasso Guard]] - Alternative guard transition when sweep opportunities are limited
+- [[Positions/Lasso Guard]] - Alternative guard transition when sweep opportunities are limited
 
-- [[De La Riva Guard]] - Complementary guard system for when opponent stands during exchanges
+- [[Positions/De La Riva Guard]] - Complementary guard system for when opponent stands during exchanges
 
-- [[Mount]] - Alternative landing position when sweep generates enough momentum to come fully on top
+- [[Positions/Mount]] - Alternative landing position when sweep generates enough momentum to come fully on top
 
 
 </section>

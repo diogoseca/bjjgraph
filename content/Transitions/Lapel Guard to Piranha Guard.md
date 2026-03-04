@@ -21,7 +21,7 @@ This transition is fundamentally a grip reconfiguration performed from an alread
 
 Strategically, this transition is most effective when the opponent has settled into a predictable passing pattern against standard lapel guard. By evolving into Piranha Guard, the bottom player resets the technical puzzle the top player must solve, often catching them unprepared for the different control vectors and sweep angles. The transition pairs naturally with other lapel guard evolutions like Worm Guard and Squid Guard entries, creating a dynamic system where the bottom player can flow between configurations based on the opponent's reactions.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition is most effective when the opponent has settled i
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Piranha Guard]] | 55% |
-| Failure | [[Lapel Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Piranha Guard]] | 55% |
+| Failure | [[Positions/Lapel Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -187,25 +187,25 @@ The Transition to Piranha Guard sits within the broader lapel guard evolution tr
 ## Related Techniques
 
 
-- [[Lapel Guard]] - Starting position from which the Piranha Guard transition originates
+- [[Positions/Lapel Guard]] - Starting position from which the Piranha Guard transition originates
 
-- [[Piranha Guard]] - Target position achieved upon successful completion of this transition
+- [[Positions/Piranha Guard]] - Target position achieved upon successful completion of this transition
 
-- [[Worm Guard]] - Sister lapel guard variation that shares similar entry timing and can be used as alternative if Piranha threading fails
+- [[Positions/Worm Guard]] - Sister lapel guard variation that shares similar entry timing and can be used as alternative if Piranha threading fails
 
-- [[Squid Guard]] - Alternative lapel guard evolution targeting arm control instead of leg threading
+- [[Positions/Squid Guard]] - Alternative lapel guard evolution targeting arm control instead of leg threading
 
-- [[De La Riva Guard]] - Foundational hook position that provides stability during the threading phase of this transition
+- [[Positions/De La Riva Guard]] - Foundational hook position that provides stability during the threading phase of this transition
 
-- [[Open Guard]] - Fallback position if opponent successfully counters the transition by stripping all lapel grips
+- [[Positions/Open Guard]] - Fallback position if opponent successfully counters the transition by stripping all lapel grips
 
-- [[Collar Sleeve Guard]] - Recovery guard available when lapel configuration is stripped during threading attempt
+- [[Positions/Collar Sleeve Guard]] - Recovery guard available when lapel configuration is stripped during threading attempt
 
-- [[Ringworm Guard]] - Advanced multi-wrap lapel configuration that shares the same evolutionary tree from standard lapel guard
+- [[Positions/Ringworm Guard]] - Advanced multi-wrap lapel configuration that shares the same evolutionary tree from standard lapel guard
 
-- [[Spider Guard]] - Alternative guard transition available if opponent creates distance during failed Piranha entry
+- [[Positions/Spider Guard]] - Alternative guard transition available if opponent creates distance during failed Piranha entry
 
-- [[Back Control]] - High-value position accessible from Piranha Guard once established, motivating this transition
+- [[Positions/Back Control]] - High-value position accessible from Piranha Guard once established, motivating this transition
 
 
 </section>

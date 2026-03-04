@@ -154,7 +154,7 @@ description: "How to defend against the 100% Sweep in BJJ. Recognition cues, def
 
 Defending the 100% Sweep requires the top player in closed guard to recognize the arm trap and hip angle setup before the sweep reaches its point of no return. The 100% Sweep is dangerous precisely because it chains into submissions when defended improperly, so your defensive strategy must address the arm isolation without creating new vulnerabilities. The core defensive principle is maintaining strong posture and preventing your arm from being pinned across the opponent's centerline, as this arm trap is the single indispensable element of the sweep. If your arm gets trapped, you must act immediately to recover it or widen your base before they generate the hip drive that completes the roll. Understanding the mechanical requirements of this sweep allows you to disrupt the technique at multiple stages, from denying the initial arm trap through resisting the final rolling motion.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the 100% Sweep requires the top player in closed guard to recognize th
 ### 1. Posture recovery and arm extraction - drive your hips back, straighten your spine, and pull the trapped arm free using a circular motion toward your thumb
 
 - **When to use**: Early in the sweep setup when the opponent first attempts to isolate your arm but before they have secured a deep overhook or locked the grip tightly
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You return to standard closed guard top position with posture re-established, and can resume your guard breaking sequence
 - **Risk**: If you fail to extract the arm, your explosive posture recovery can momentarily create space that the opponent uses to accelerate the sweep
 
 ### 2. Base widening and hip drop - immediately widen your knees to shoulder width or beyond while driving your hips low and forward to flatten the opponent against the mat
 
 - **When to use**: When the arm is already partially trapped and extraction is difficult, but before the opponent has generated the hip drive with their planted foot
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: The widened base makes the rolling motion mechanically impossible even with the arm trapped, and their hip angle becomes ineffective against your lowered center of gravity
 - **Risk**: Driving forward with low hips while your arm is trapped can expose you to guillotine or triangle if the opponent abandons the sweep and chains to a submission
 
 ### 3. Post the free hand wide on the mat to the opposite side of the sweep direction and drive your weight over that posting arm
 
 - **When to use**: When the sweep is already in motion and you feel yourself being rolled, use the free hand to create a structural post that arrests the rolling momentum
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: The post stops the sweep mid-execution and you can work to recover posture and extract the trapped arm from a stabilized position
 - **Risk**: The posting arm becomes vulnerable to kimura attack if the opponent recognizes the post and transitions from sweep to submission
 
 ### 4. Stand up explosively to break the guard open and strip the arm trap by creating vertical distance
 
 - **When to use**: When you feel the arm trap beginning but still have your posture and can load weight into your legs before the opponent locks the angle
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Standing breaks the closed guard, removes the mechanical advantage of their hip angle, and allows you to strip the arm control using gravity and distance
 - **Risk**: If the opponent maintains the arm trap while you stand, their hanging weight can actually accelerate the sweep as you lose the stability of your kneeling base
 
@@ -225,7 +225,7 @@ Defending the 100% Sweep requires the top player in closed guard to recognize th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Maintain strong posture throughout, deny the arm trap by keeping elbows tight and arms close to your centerline, and immediately retract any arm that gets pulled across their body. When you feel the hip shift, widen your base and drive your hips low to eliminate their angle. Return to your guard breaking sequence once the sweep threat is neutralized.
 

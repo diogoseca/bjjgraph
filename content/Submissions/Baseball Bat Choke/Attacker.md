@@ -231,8 +231,8 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,9 +243,9 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 
 - **Turning into the choke to face attacker** (Effectiveness: Low) - Your Response: Maintain grips and follow the turn, allowing them to give you modified mount or full mount while keeping the choke secured. Their turn actually makes the angle worse for them. → Leads to [[game-over]]
 - **Tucking chin to protect neck** (Effectiveness: Low) - Your Response: The chin tuck is ineffective against baseball bat choke as the collar compression bypasses the chin. Continue elbow scissoring action regardless of chin position. → Leads to [[game-over]]
-- **Grabbing your choking arm with both hands** (Effectiveness: Medium) - Your Response: They cannot break properly secured collar grips. Maintain position, keep elbows tight, and continue pressure. Their grip fighting wastes energy while you control position. → Leads to [[Side Control]]
+- **Grabbing your choking arm with both hands** (Effectiveness: Medium) - Your Response: They cannot break properly secured collar grips. Maintain position, keep elbows tight, and continue pressure. Their grip fighting wastes energy while you control position. → Leads to [[Positions/Side Control]]
 - **Rolling to turtle or trying to come up on single leg** (Effectiveness: Low) - Your Response: Follow their movement while maintaining grips and chest pressure. Often their movement tightens the choke. Be prepared to sprawl or take back if they stand. → Leads to [[game-over]]
-- **Bridging explosively to create space and recovering guard** (Effectiveness: Medium) - Your Response: Keep hips heavy and base wide. A strong bridge might create momentary space, but your grips remain. Reset your position and reapply pressure immediately after bridge. → Leads to [[Half Guard]]
+- **Bridging explosively to create space and recovering guard** (Effectiveness: Medium) - Your Response: Keep hips heavy and base wide. A strong bridge might create momentary space, but your grips remain. Reset your position and reapply pressure immediately after bridge. → Leads to [[Positions/Half Guard]]
 
 
 </section>

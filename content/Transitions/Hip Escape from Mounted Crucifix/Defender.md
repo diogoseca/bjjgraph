@@ -146,7 +146,7 @@ description: "Prevent the hip escape from mounted crucifix in BJJ. Guide to main
 
 Defending against the hip escape from mounted crucifix means maintaining one of the most dominant control positions in BJJ against your opponent's most critical escape attempt. As the top player, your goal is to neutralize the hip movement that creates angular displacement, keep arm entanglements tight through the escape attempt, and ideally capitalize on the escape movement to advance your own position or finish a submission. Understanding the mechanics of the hip escape allows you to predict and shut down each phase of the escape sequence, converting your opponent's defensive energy expenditure into submission opportunities or deeper control.
 
-**Opponent's Starting Position**: [[Mounted Crucifix]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount/Mounted Crucifix]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ Defending against the hip escape from mounted crucifix means maintaining one of 
 ### 1. Drop weight and squeeze knees tight when bridge is initiated
 
 - **When to use**: The instant you feel the opponent's hips load or begin to rise, before the bridge reaches full power
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: The bridge fails to disrupt your base, opponent wastes energy, and crucifix control is maintained with even tighter leg entanglement
 - **Risk**: If you react too late, the bridge creates enough displacement for the subsequent hip escape to succeed
 
 ### 2. Follow the hip escape direction and transition to back control
 
 - **When to use**: When the opponent's hip escape creates significant lateral displacement that makes maintaining crucifix from mount impractical
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You convert the opponent's escape attempt into a transition to back control, maintaining dominant position with potential arm entanglement
 - **Risk**: If the transition is not smooth, the opponent may fully extract their arms and establish defensive guard during the positional change
 
 ### 3. Attack submission during the escape attempt to force defensive reset
 
 - **When to use**: When the opponent's bridge or hip movement exposes their neck or extends a trapped arm during the escape sequence
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: Opponent must abandon escape attempt to defend the submission, returning to passive survival mode with depleted energy
 - **Risk**: Overcommitting to the submission may compromise your base enough for the escape to succeed if the submission is not secured
 
 ### 4. Re-center hips and re-establish arm traps after partial escape
 
 - **When to use**: When the opponent has created some space but has not yet fully extracted their arms from the leg entanglement
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: Full crucifix control is restored despite the partial escape, and the opponent has wasted significant energy on the failed attempt
 - **Risk**: The window for re-centering is brief - if arms are already mostly free, attempting to re-trap may create scramble opportunities
 
@@ -218,11 +218,11 @@ Defending against the hip escape from mounted crucifix means maintaining one of 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mounted Crucifix]]
+### → [[Positions/Mount/Mounted Crucifix]]
 
 Maintain tight knee pressure and heavy hips throughout the escape attempt. Drop weight immediately when the bridge begins, ride the movement rather than resisting it, and re-center as soon as the bridge subsides. Keep legs deeply threaded to maintain arm control through the dynamic movement.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the opponent's hip escape creates significant lateral movement, flow with the direction and begin inserting hooks for back control. Maintain arm entanglement through the transition if possible, or switch to seat belt control as you follow their turning movement. The opponent's own escape momentum facilitates your transition to back control.
 

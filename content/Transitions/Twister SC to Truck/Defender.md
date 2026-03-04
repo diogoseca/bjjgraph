@@ -154,7 +154,7 @@ description: "Defend against the Twister Side Control to Truck transition with e
 
 From the defender's perspective, the Twister Side Control to Truck transition represents a critical escalation in positional danger that must be prevented or interrupted early. Already in the disadvantageous Twister Side Control bottom, the defender faces a transition that would dramatically worsen their situation by converting partial lateral control into the full truck position with its expanded submission arsenal. The defender's primary objective is to recognize the transition initiation early through tactile and positional cues, then intervene during the mechanically vulnerable rotation phase before the attacker can consolidate the figure-four entanglement and perpendicular alignment. The defender who waits until the truck is fully established faces a significantly harder escape problem than one who disrupts the transition mid-sequence. Timing defensive actions to exploit the attacker's transitional instability is the key strategic principle, as the rotation phase necessarily creates brief moments where control is less secure than in either the starting TSC or the target truck position.
 
-**Opponent's Starting Position**: [[Twister Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Twister Control/Twister Side Control]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ From the defender's perspective, the Twister Side Control to Truck transition re
 ### 1. Clear the boot from your hip by using your free hand to push the attacker's foot away while simultaneously hip escaping to create distance
 
 - **When to use**: Immediately upon feeling the attacker insert their foot against your hip - this is the highest-priority defensive action and must be addressed before any other concern
-- **Targets**: [[Twister Side Control]]
+- **Targets**: [[Positions/Twister Control/Twister Side Control]]
 - **If successful**: Removes the foundational control mechanism of the truck, forcing the attacker back to standard TSC where escape options are more numerous
 - **Risk**: Using a hand to clear the boot temporarily reduces your upper body frame defense, potentially allowing the attacker to advance shoulder pressure or grip your neck
 
 ### 2. Execute a granby roll during the rotation phase to create distance and recover to open guard or half guard
 
 - **When to use**: When the attacker has begun rotation but has not yet completed the figure-four entanglement, exploiting the transitional instability of the mid-rotation phase
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Escape the entire leg entanglement system and recover to a guard position where you have significantly more defensive and offensive options
 - **Risk**: A poorly timed granby can accelerate the attacker's rotation and actually help them achieve the truck position faster if they follow the roll
 
 ### 3. Straighten your trapped leg forcefully to prevent the figure-four from locking, then extract the leg through the resulting gap
 
 - **When to use**: When you feel the attacker threading their far leg underneath to create the figure-four, before the triangle lock is completed and cinched tight
-- **Targets**: [[Twister Side Control]]
+- **Targets**: [[Positions/Twister Control/Twister Side Control]]
 - **If successful**: Prevents the truck's leg entanglement from being established, keeping the position in TSC where the single leg hook is more escapable
 - **Risk**: The straightened leg becomes vulnerable to calf slicer or knee compression attacks, so you must extract quickly rather than simply holding the leg straight
 
 ### 4. Turn into the attacker aggressively during rotation to prevent perpendicular alignment and force a scramble
 
 - **When to use**: When the attacker has committed to rotation and their weight is shifting, creating a window where aggressive turning can disrupt their balance and create a positional reversal
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Disrupts the attacker's rotation completely and can lead to a reversal to half guard top or even side control if the scramble goes favorably
 - **Risk**: Turning into the attacker can expose your neck to front choke threats like the darce or guillotine if they maintain upper body control during your turn
 
@@ -224,11 +224,11 @@ From the defender's perspective, the Twister Side Control to Truck transition re
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Execute a well-timed granby roll or aggressive turn-in during the attacker's rotation phase to escape the leg entanglement completely and recover to half guard, reversing the positional hierarchy from bottom-of-truck to top-of-half-guard.
 
-### → [[Twister Side Control]]
+### → [[Positions/Twister Control/Twister Side Control]]
 
 Clear the boot from your hip early and prevent the figure-four from locking by straightening your trapped leg and extracting it before the entanglement deepens. This keeps you in TSC bottom rather than truck bottom, preserving more viable escape pathways.
 

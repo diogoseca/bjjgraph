@@ -180,7 +180,7 @@ description: "Master the Straighten Leg Defense from Electric Chair as the top p
 
 As the top player caught in the Electric Chair, executing the Straighten Leg Defense requires understanding the biomechanics of the lockdown configuration and the specific angle of force needed to overcome the figure-four entanglement. The defense begins with recognizing the Electric Chair setup before full extension is achieved, then systematically driving the trapped leg straight while maintaining forward pressure through your chest and crossface. Success depends on combining leg extension with proper upper body control to prevent the bottom player from converting your defensive movement into a sweep opportunity. The technique demands patience and proper force direction—engaging the posterior chain through the hip rather than simply kicking at the knee—to generate the sustained pressure that breaks down the lockdown's mechanical advantage.
 
-**From Position**: [[Electric Chair]] (Top)
+**From Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the top player caught in the Electric Chair, executing the Straighten Leg Def
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Electric Chair]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Half Guard/Electric Chair]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the top player caught in the Electric Chair, executing the Straighten Leg Def
 
 ## Opponent Counters
 
-- **Bottom player increases lockdown tension and actively re-curls the trapped leg against the straightening force** (Effectiveness: High) - Your Response: Combine the leg straightening with increased forward hip pressure to prevent re-bending—if they succeed in re-curling, pause your extension, reset your base, and restart the straightening with renewed hip engagement rather than fighting their momentum → Leads to [[Electric Chair]]
-- **Bottom player times Old School sweep during the straightening motion using the top player's forward weight commitment** (Effectiveness: Medium) - Your Response: Maintain strong crossface and wide base with your free leg throughout the defense—the Old School sweep requires them to roll backward, which your sustained forward pressure and posted leg should prevent if positioning is maintained correctly → Leads to [[Half Guard]]
-- **Bottom player releases one lockdown hook and inserts a crab ride hook to transition toward Truck control** (Effectiveness: Medium) - Your Response: If you feel the bottom player releasing the lockdown configuration, immediately pull your knee tight to their hip and sprawl your hips backward to prevent the Truck entry—their transition creates a brief moment of reduced control that favors your escape → Leads to [[Half Guard]]
-- **Bottom player deepens underhook and dives underneath for Deep Half Guard entry** (Effectiveness: Low) - Your Response: Maintain heavy crossface pressure and prevent them from rotating underneath you—if they begin moving to Deep Half, shift your weight onto their shoulder to pin them flat and continue leg extraction from an improved position → Leads to [[Electric Chair]]
+- **Bottom player increases lockdown tension and actively re-curls the trapped leg against the straightening force** (Effectiveness: High) - Your Response: Combine the leg straightening with increased forward hip pressure to prevent re-bending—if they succeed in re-curling, pause your extension, reset your base, and restart the straightening with renewed hip engagement rather than fighting their momentum → Leads to [[Positions/Half Guard/Electric Chair]]
+- **Bottom player times Old School sweep during the straightening motion using the top player's forward weight commitment** (Effectiveness: Medium) - Your Response: Maintain strong crossface and wide base with your free leg throughout the defense—the Old School sweep requires them to roll backward, which your sustained forward pressure and posted leg should prevent if positioning is maintained correctly → Leads to [[Positions/Half Guard]]
+- **Bottom player releases one lockdown hook and inserts a crab ride hook to transition toward Truck control** (Effectiveness: Medium) - Your Response: If you feel the bottom player releasing the lockdown configuration, immediately pull your knee tight to their hip and sprawl your hips backward to prevent the Truck entry—their transition creates a brief moment of reduced control that favors your escape → Leads to [[Positions/Half Guard]]
+- **Bottom player deepens underhook and dives underneath for Deep Half Guard entry** (Effectiveness: Low) - Your Response: Maintain heavy crossface pressure and prevent them from rotating underneath you—if they begin moving to Deep Half, shift your weight onto their shoulder to pin them flat and continue leg extraction from an improved position → Leads to [[Positions/Half Guard/Electric Chair]]
 
 
 </section>

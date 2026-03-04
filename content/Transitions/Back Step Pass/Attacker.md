@@ -184,7 +184,7 @@ This technique operates on a fundamental principle: when your leg becomes endang
 
 The back step is particularly valuable against modern leg lock systems where practitioners use inversions to access heel hooks and kneebars. Against a skilled grasshopper guard player, the window for executing this pass is narrow—you must recognize the entanglement attempt early and initiate the back step before they can fully establish control. Timing the back step to coincide with their inversion transition maximizes success probability, as their legs are temporarily in flux between configurations.
 
-**From Position**: [[Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Grasshopper Guard]] (Top)
 
 </section>
 
@@ -237,9 +237,9 @@ The back step is particularly valuable against modern leg lock systems where pra
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Grasshopper Guard]] | 25% |
-| Counter | [[Ashi Garami]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami]] | 10% |
 
 
 </section>
@@ -248,10 +248,10 @@ The back step is particularly valuable against modern leg lock systems where pra
 
 ## Opponent Counters
 
-- **Following with inversion - opponent rolls and reinverts to chase your retreating leg** (Effectiveness: High) - Your Response: Accelerate your forward drive as they begin rolling, using their momentum to flatten them. Establish crossface before they can complete the reinversion. → Leads to [[Grasshopper Guard]]
-- **Shooting legs through - opponent threads their legs underneath as you back step** (Effectiveness: Medium) - Your Response: Pin their legs to the mat with your hands as you extract, preventing them from following. Sprawl your hips if they manage to get underneath. → Leads to [[Ashi Garami]]
-- **Technical standup - opponent abandons guard and comes up to standing as you disengage** (Effectiveness: Medium) - Your Response: Recognize their standup attempt early and either complete the pass before they can rise or reset to wrestling engagement at standing. → Leads to [[Grasshopper Guard]]
-- **Reverse De La Riva recovery - opponent switches to RDLR hook as you circle** (Effectiveness: Low) - Your Response: Continue circling in the same direction and use knee slice mechanics to cut through the RDLR hook before it's fully established. → Leads to [[Grasshopper Guard]]
+- **Following with inversion - opponent rolls and reinverts to chase your retreating leg** (Effectiveness: High) - Your Response: Accelerate your forward drive as they begin rolling, using their momentum to flatten them. Establish crossface before they can complete the reinversion. → Leads to [[Positions/Grasshopper Guard]]
+- **Shooting legs through - opponent threads their legs underneath as you back step** (Effectiveness: Medium) - Your Response: Pin their legs to the mat with your hands as you extract, preventing them from following. Sprawl your hips if they manage to get underneath. → Leads to [[Positions/Ashi Garami]]
+- **Technical standup - opponent abandons guard and comes up to standing as you disengage** (Effectiveness: Medium) - Your Response: Recognize their standup attempt early and either complete the pass before they can rise or reset to wrestling engagement at standing. → Leads to [[Positions/Grasshopper Guard]]
+- **Reverse De La Riva recovery - opponent switches to RDLR hook as you circle** (Effectiveness: Low) - Your Response: Continue circling in the same direction and use knee slice mechanics to cut through the RDLR hook before it's fully established. → Leads to [[Positions/Grasshopper Guard]]
 
 
 </section>

@@ -190,7 +190,7 @@ Strategically, the Straight Armbar functions as the primary limb attack within t
 
 The execution demands precise hip positioning and controlled transition from crucifix control to armbar finishing position. The critical challenge is maintaining arm isolation throughout the transition. Rushing the finish before securing proper hip alignment across the elbow is the most common failure point. A systematic approach — isolate, control, align, then extend — produces the highest completion rates and prevents the opponent from extracting the arm during the transition phase.
 
-**From Position**: [[Mounted Crucifix]] (Top)
+**From Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
 
 </section>
 
@@ -243,9 +243,9 @@ The execution demands precise hip positioning and controlled transition from cru
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 65% |
-| Failure | [[Mounted Crucifix]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Armbar Control]] | 65% |
+| Failure | [[Positions/Mount/Mounted Crucifix]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -254,10 +254,10 @@ The execution demands precise hip positioning and controlled transition from cru
 
 ## Opponent Counters
 
-- **Opponent clasps hands together in a defensive grip (Gable grip or S-grip) to prevent arm extension** (Effectiveness: High) - Your Response: Attack the grip directly by wedging your forearm between their wrists, or switch to two-on-one grip breaking by peeling fingers. Alternatively, maintain position and apply gradual hip pressure — fatigue will eventually break the grip connection. → Leads to [[Mounted Crucifix]]
-- **Opponent stacks forward driving weight into you to compress the armbar space and relieve elbow pressure** (Effectiveness: Medium) - Your Response: Angle your hips away from the stacking direction to maintain extension leverage. Use your legs to control their posture and prevent full stack. If stack is deep, transition to belly-down armbar by rolling to the side with their arm secured. → Leads to [[Mounted Crucifix]]
-- **Opponent explosively bridges and rolls toward the trapped arm to escape the mounted position entirely** (Effectiveness: Medium) - Your Response: Maintain tight wrist control and follow the roll, ending in standard armbar from guard position. The arm remains trapped regardless of positional change. If you lose the arm, you typically end in top position or can re-establish mount. → Leads to [[Closed Guard]]
-- **Opponent bicep-curls the trapped arm and rotates thumb line to escape the hyperextension angle** (Effectiveness: Low) - Your Response: Squeeze knees tighter to prevent rotation and use two-on-one wrist control to fight the curl. If arm begins escaping, immediately switch to the opposite arm or transition to choke attack on the now-exposed neck. → Leads to [[Mounted Crucifix]]
+- **Opponent clasps hands together in a defensive grip (Gable grip or S-grip) to prevent arm extension** (Effectiveness: High) - Your Response: Attack the grip directly by wedging your forearm between their wrists, or switch to two-on-one grip breaking by peeling fingers. Alternatively, maintain position and apply gradual hip pressure — fatigue will eventually break the grip connection. → Leads to [[Positions/Mount/Mounted Crucifix]]
+- **Opponent stacks forward driving weight into you to compress the armbar space and relieve elbow pressure** (Effectiveness: Medium) - Your Response: Angle your hips away from the stacking direction to maintain extension leverage. Use your legs to control their posture and prevent full stack. If stack is deep, transition to belly-down armbar by rolling to the side with their arm secured. → Leads to [[Positions/Mount/Mounted Crucifix]]
+- **Opponent explosively bridges and rolls toward the trapped arm to escape the mounted position entirely** (Effectiveness: Medium) - Your Response: Maintain tight wrist control and follow the roll, ending in standard armbar from guard position. The arm remains trapped regardless of positional change. If you lose the arm, you typically end in top position or can re-establish mount. → Leads to [[Positions/Closed Guard]]
+- **Opponent bicep-curls the trapped arm and rotates thumb line to escape the hyperextension angle** (Effectiveness: Low) - Your Response: Squeeze knees tighter to prevent rotation and use two-on-one wrist control to fight the curl. If arm begins escaping, immediately switch to the opposite arm or transition to choke attack on the now-exposed neck. → Leads to [[Positions/Mount/Mounted Crucifix]]
 
 
 </section>

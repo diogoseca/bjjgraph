@@ -101,21 +101,21 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 ### Available Transitions
 
 
-- **[[Ushiro Ashi-Garami Escape]]** (11% of attempts)
+- **[[Transitions/Ushiro Ashi-Garami Escape]]** (11% of attempts)
 
-- **[[Inversion to Turtle]]** (39% of attempts)
+- **[[Transitions/Inversion to Turtle]]** (39% of attempts)
 
-- **[[Ushiro Ashi-Garami to Deep Half]]** (11% of attempts)
+- **[[Transitions/Ushiro Ashi-Garami to Deep Half]]** (11% of attempts)
 
-- **[[Single Leg X Recovery]]** (12% of attempts)
+- **[[Transitions/Single Leg X Recovery]]** (12% of attempts)
 
-- **[[Reverse Heel Hook Counter]]** (4% of attempts)
+- **[[Transitions/Reverse Heel Hook Counter]]** (4% of attempts)
 
-- **[[Leg Extraction to Guard]]** (14% of attempts)
+- **[[Transitions/Leg Extraction to Guard]]** (14% of attempts)
 
-- **[[Counter-entangle to 50-50 Guard]]** (7% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard]]** (7% of attempts)
 
-- **[[Sweep from Ushiro Ashi-Garami]]** (2% of attempts)
+- **[[Transitions/Sweep from Ushiro Ashi-Garami]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -176,25 +176,25 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 ### Available Transitions
 
 
-- **[[Inside Heel Hook from Ushiro]]** (13% of attempts)
+- **[[Transitions/Inside Heel Hook from Ushiro]]** (13% of attempts)
 
-- **[[Follow to Back Control]]** (16% of attempts)
+- **[[Transitions/Follow to Back Control]]** (16% of attempts)
 
-- **[[Ankle Lock Finish]]** (7% of attempts)
+- **[[Transitions/Ankle Lock Finish]]** (7% of attempts)
 
-- **[[Cross Ashi Transition]]** (10% of attempts)
+- **[[Transitions/Cross Ashi Transition]]** (10% of attempts)
 
-- **[[Outside Heel Hook Adjustment]]** (5% of attempts)
+- **[[Transitions/Outside Heel Hook Adjustment]]** (5% of attempts)
 
-- **[[Return to Outside Ashi]]** (12% of attempts)
+- **[[Transitions/Return to Outside Ashi]]** (12% of attempts)
 
-- **[[Kneebar from Ushiro]]** (15% of attempts)
+- **[[Transitions/Kneebar from Ushiro]]** (15% of attempts)
 
-- **[[Saddle Entry from Top]]** (12% of attempts)
+- **[[Transitions/Saddle Entry from Top]]** (12% of attempts)
 
-- **[[Toe Hold]]** (8% of attempts)
+- **[[Transitions/Toe Hold]]** (8% of attempts)
 
-- **[[Heel Hook from Ushiro Ashi]]** (2% of attempts)
+- **[[Submissions/Heel Hook from Ushiro Ashi]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -233,25 +233,25 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 ## Related Positions
 
 
-- **[[Outside Ashi-Garami]]** - Standard position that ushiro ashi-garami often transitions from during escape attempts
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Standard position that ushiro ashi-garami often transitions from during escape attempts
 
-- **[[Inside Ashi-Garami]]** - Alternative standard configuration with similar inversion escape vulnerabilities
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Alternative standard configuration with similar inversion escape vulnerabilities
 
-- **[[Saddle]]** - High-control leg entanglement that can transition through ushiro during scrambles
+- **[[Positions/Ashi Garami/Saddle]]** - High-control leg entanglement that can transition through ushiro during scrambles
 
-- **[[50-50 Guard]]** - Neutral leg entanglement that shares similar escape and counter-attack principles
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Neutral leg entanglement that shares similar escape and counter-attack principles
 
-- **[[Back Control]]** - Common transition target when opponent continues inverting from ushiro ashi-garami
+- **[[Positions/Back Control]]** - Common transition target when opponent continues inverting from ushiro ashi-garami
 
-- **[[Single Leg X-Guard]]** - Defensive recovery position accessible when clearing reversed leg entanglement
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Defensive recovery position accessible when clearing reversed leg entanglement
 
-- **[[Cross Ashi-Garami]]** - Related entanglement configuration with different mechanical properties
+- **[[Positions/Ashi Garami/Cross Ashi-Garami]]** - Related entanglement configuration with different mechanical properties
 
-- **[[Honey Hole]]** - High-control variant that attackers may transition to from ushiro configuration
+- **[[Positions/Ashi Garami/Honey Hole]]** - High-control variant that attackers may transition to from ushiro configuration
 
-- **[[Turtle]]** - Common defensive position reached when fully inverting away from leg entanglements
+- **[[Positions/Turtle]]** - Common defensive position reached when fully inverting away from leg entanglements
 
-- **[[Deep Half Guard]]** - Alternative defensive recovery position when successfully clearing reversed entanglement
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative defensive recovery position when successfully clearing reversed entanglement
 
 
 </section>

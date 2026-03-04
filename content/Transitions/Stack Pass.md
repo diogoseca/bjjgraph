@@ -21,7 +21,7 @@ This pass is particularly effective against opponents who rely on active hip mov
 
 When executed properly, the Stack Pass transitions seamlessly into dominant side control or mount positions. It serves as both a standalone technique and a pressure tool within larger passing systems, forcing defensive reactions that open complementary passes like knee slice, toreando, and leg drag. The stack pass remains one of the highest-percentage pressure passes at all competitive levels due to the overwhelming mechanical advantage it creates.
 
-**From Position**: [[Closed Guard]] (Top)
+**From Position**: [[Positions/Closed Guard]] (Top)
 **Success Rate**: 62%
 
 </section>
@@ -32,9 +32,9 @@ When executed properly, the Stack Pass transitions seamlessly into dominant side
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 62% |
-| Failure | [[Closed Guard]] | 23% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 62% |
+| Failure | [[Positions/Closed Guard]] | 23% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -200,29 +200,29 @@ The stack pass occupies a central position within pressure passing systems and i
 ## Related Techniques
 
 
-- [[Double Under Pass]] - Related pressure passing technique with similar stacking mechanics and double underhook control
+- [[Transitions/Double Under Pass]] - Related pressure passing technique with similar stacking mechanics and double underhook control
 
-- [[Knee Slice Pass]] - Common follow-up when opponent defends the stack by turning their knees to one side
+- [[Transitions/Knee Slice Pass]] - Common follow-up when opponent defends the stack by turning their knees to one side
 
-- [[Bullfighter Pass]] - Alternative speed-based pass when opponent keeps knees wide to prevent stacking
+- [[Transitions/Bullfighter Pass]] - Alternative speed-based pass when opponent keeps knees wide to prevent stacking
 
-- [[Pressure Pass]] - Related pressure-based passing approach often used in combination with stack mechanics
+- [[Transitions/Pressure Pass]] - Related pressure-based passing approach often used in combination with stack mechanics
 
-- [[Closed Guard]] - Primary starting position from which the stack pass is initiated
+- [[Positions/Closed Guard]] - Primary starting position from which the stack pass is initiated
 
-- [[Side Control]] - Primary ending position after successful stack pass execution
+- [[Positions/Side Control]] - Primary ending position after successful stack pass execution
 
-- [[Guillotine Defense]] - Essential defensive skill required during forward driving phase of the pass
+- [[Transitions/Guillotine Defense]] - Essential defensive skill required during forward driving phase of the pass
 
-- [[Pass to Side Control]] - General transition category this technique belongs to
+- [[Transitions/Pass to Side Control]] - General transition category this technique belongs to
 
-- [[Mount]] - Alternative ending position achievable with the stack-to-mount variation
+- [[Positions/Mount]] - Alternative ending position achievable with the stack-to-mount variation
 
-- [[Leg Drag Pass]] - Complementary pass that chains well when opponent defends the stack laterally
+- [[Transitions/Leg Drag Pass]] - Complementary pass that chains well when opponent defends the stack laterally
 
-- [[Over-Under Pass]] - Related asymmetric pressure pass that shares stacking principles on one side
+- [[Transitions/Over-Under Pass]] - Related asymmetric pressure pass that shares stacking principles on one side
 
-- [[Guard Opening Sequence]] - Prerequisite technique for breaking the closed guard before initiating the stack
+- [[Transitions/Guard Opening Sequence]] - Prerequisite technique for breaking the closed guard before initiating the stack
 
 
 </section>

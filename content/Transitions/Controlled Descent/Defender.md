@@ -156,7 +156,7 @@ As the defender against Controlled Descent, you are the practitioner with standi
 
 The primary challenge is that your opponent retains agency during their descent - they choose when, where, and how they go down. Your task is to remove that agency by anticipating the descent, following it tightly, and immediately consolidating grounded control before they can establish defensive structures. The transition from standing to ground is inherently destabilizing for both players, but the practitioner who maintains composure and technical precision during this chaotic moment gains a significant advantage. Understanding the mechanical cues that signal an imminent Controlled Descent allows you to preemptively adjust your hooks, harness, and weight distribution to maintain maximum control throughout the transition.
 
-**Opponent's Starting Position**: [[Standing Back Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control/Standing Back Control]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ The primary challenge is that your opponent retains agency during their descent 
 ### 1. Drive weight forward and sprawl heavy during opponent's descent to flatten them past turtle into prone position
 
 - **When to use**: As soon as you detect the descent beginning - the earlier you commit your weight forward, the harder it is for them to achieve turtle angle
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Opponent lands flat on their stomach with you maintaining back control and hooks, often in a stronger position than standing
 - **Risk**: If you over-commit forward and they abort the descent, you may lose balance and create a scramble opportunity
 
 ### 2. Follow the descent tightly while immediately working to insert or deepen hooks during the transition chaos
 
 - **When to use**: When opponent's descent is already in motion and you cannot prevent it - focus on maintaining control rather than fighting the inevitable
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You transition to grounded back control with both hooks deep and harness maintained, often with better hook position than you had standing
 - **Risk**: If you focus too much on hooks during transition, opponent may create enough separation to establish turtle and begin escape sequences
 
 ### 3. Release harness and circle to front headlock position as opponent drops, converting back control to front headlock
 
 - **When to use**: When you sense you are losing back control during the descent and cannot maintain hooks - front headlock preserves offensive advantage
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You achieve front headlock control on a turtled opponent with access to guillotine, anaconda, and darce submissions
 - **Risk**: Releasing harness voluntarily surrenders back control; if front headlock fails to materialize, opponent may escape to neutral
 
 ### 4. Drive opponent past turtle toward mount by following their descent angle and stepping over their hip as they land
 
 - **When to use**: When opponent's hip turn is incomplete and they land more prone than in proper turtle - capitalize on their poor descent angle
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You transition directly from standing back control to mount, achieving a dominant control position worth 4 points
 - **Risk**: Stepping over to mount requires releasing hooks temporarily, creating a window where opponent can recover half guard or establish frames
 
@@ -225,11 +225,11 @@ The primary challenge is that your opponent retains agency during their descent 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Follow the descent tightly maintaining chest-to-back connection, immediately deepen hooks during transition, and drive your weight forward to prevent turtle establishment. The key is matching their descent speed while using the landing impact to consolidate grounded control with both hooks and harness secured.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When opponent's hip turn fails and they land flat or near-flat, immediately step over their hip and transition to mount. This requires releasing hooks during the transition but capitalizes on their compromised landing position. Drive your chest pressure forward through the transition to prevent them from recovering turtle.
 

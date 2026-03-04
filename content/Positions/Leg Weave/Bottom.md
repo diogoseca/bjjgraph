@@ -206,23 +206,23 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 
 ## Available Escapes
 
-### [[Frame and Shrimp to Guard]] (15% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (15% of attempts)
 
-### [[Underhook Sweep from Half]] (11% of attempts)
+### [[Transitions/Underhook Sweep from Half]] (11% of attempts)
 
-### [[Deep Half Entry]] (13% of attempts)
+### [[Transitions/Deep Half Entry]] (13% of attempts)
 
-### [[Old School Sweep]] (8% of attempts)
+### [[Transitions/Old School Sweep]] (8% of attempts)
 
-### [[Dogfight Position]] (27% of attempts)
+### [[Positions/Dogfight Position]] (27% of attempts)
 
-### [[Lockdown Recovery]] (15% of attempts)
+### [[Transitions/Lockdown Recovery]] (15% of attempts)
 
-### [[Half Guard Recovery]] (6% of attempts)
+### [[Transitions/Half Guard Recovery]] (6% of attempts)
 
-### [[Leg Weave Escape to Half Guard]] (3% of attempts)
+### [[Transitions/Leg Weave Escape to Half Guard]] (3% of attempts)
 
-### [[Sweep from Leg Weave]] (2% of attempts)
+### [[Transitions/Sweep from Leg Weave]] (2% of attempts)
 
 
 
@@ -233,27 +233,27 @@ Leg Weave Bottom Position represents a challenging defensive scenario in half gu
 ## Decision Making from This Position
 
 **If top player establishes strong crossface and drives chest pressure to flatten you:**
-- Execute **[[Frame and Shrimp to Guard]]** → [[Knee Shield Half Guard]] (Probability: 40%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 35%)
-- Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 25%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 25%)
 
 
 **If top player posts hands forward or elevates hips to step over your leg:**
-- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 45%)
-- Execute **[[Old School Sweep]]** → [[Side Control]] (Probability: 35%)
-- Execute **[[Dogfight Position]]** → [[Dogfight Position]] (Probability: 50%)
+- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Side Control]] (Probability: 35%)
+- Execute **[[Positions/Dogfight Position]]** → [[Positions/Dogfight Position]] (Probability: 50%)
 
 
 **If top player drives weight forward while maintaining low posture:**
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 50%)
-- Execute **[[Lockdown Recovery]]** → [[Lockdown]] (Probability: 30%)
-- Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 20%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 30%)
+- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 20%)
 
 
 **If top player attempts to free their leg from your hook while controlling upper body:**
-- Execute **[[Frame and Shrimp to Guard]]** → [[Knee Shield Half Guard]] (Probability: 45%)
-- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 35%)
-- Execute **[[Dogfight Position]]** → [[Dogfight Position]] (Probability: 40%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 35%)
+- Execute **[[Positions/Dogfight Position]]** → [[Positions/Dogfight Position]] (Probability: 40%)
 
 
 
@@ -382,14 +382,14 @@ Top player alternates between forward pressure and backward weight shifts. Botto
 
 ## Related Positions and Techniques
 
-- **[[Half Guard]]** - Parent position - broader category of bottom half guard positions
-- **[[Knee Shield Half Guard]]** - Primary escape target - recovering defensive structure with frames
-- **[[Deep Half Guard]]** - Counter-attack option - diving under pressure to invert guard hierarchy
-- **[[Dogfight Position]]** - Scramble position - transitional state when coming up on elbow
-- **[[Lockdown]]** - Alternative defensive strategy - trapping weaving leg to counter pressure
-- **[[Frame and Shrimp to Guard]]** - Primary escape technique - fundamental movement for creating space and recovering guard
-- **[[Underhook Sweep from Half]]** - Counter-attack option - reversing position when opportunity presents
-- **[[Flattened Half Guard]]** - Position to avoid - result of failed defensive framing
+- **[[Positions/Half Guard]]** - Parent position - broader category of bottom half guard positions
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Primary escape target - recovering defensive structure with frames
+- **[[Positions/Half Guard/Deep Half Guard]]** - Counter-attack option - diving under pressure to invert guard hierarchy
+- **[[Positions/Dogfight Position]]** - Scramble position - transitional state when coming up on elbow
+- **[[Positions/Half Guard/Lockdown]]** - Alternative defensive strategy - trapping weaving leg to counter pressure
+- **[[Transitions/Frame and Shrimp to Guard]]** - Primary escape technique - fundamental movement for creating space and recovering guard
+- **[[Transitions/Underhook Sweep from Half]]** - Counter-attack option - reversing position when opportunity presents
+- **[[Positions/Half Guard/Flattened Half Guard]]** - Position to avoid - result of failed defensive framing
 
 
 </section>

@@ -186,7 +186,7 @@ description: "Learn to execute the posture break from Mission Control as the top
 
 As the top player trapped in Mission Control, executing the posture break requires a systematic approach to dismantling the bottom player's control structure. The technique targets three interconnected control mechanisms: head control grips, hip elevation, and shoulder isolation through the high guard leg. Unlike a gradual posture recovery that slowly chips away at control, the posture break coordinates attacks on all three mechanisms in rapid succession, creating a cascading failure in the Mission Control structure that returns you to neutral closed guard. Success demands precise grip fighting, proper weight distribution, and the composure to execute technically under the constant threat of triangle and omoplata entries.
 
-**From Position**: [[Mission Control]] (Top)
+**From Position**: [[Positions/Rubber Guard/Mission Control]] (Top)
 
 </section>
 
@@ -240,9 +240,9 @@ As the top player trapped in Mission Control, executing the posture break requir
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Failure | [[Mission Control]] | 35% |
-| Counter | [[New York]] | 20% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Failure | [[Positions/Rubber Guard/Mission Control]] | 35% |
+| Counter | [[Positions/Rubber Guard/New York]] | 20% |
 
 
 </section>
@@ -251,9 +251,9 @@ As the top player trapped in Mission Control, executing the posture break requir
 
 ## Opponent Counters
 
-- **Bottom player redirects the trapped arm into New York control as you strip head grips, using the transitional grip-fighting moment to establish deeper arm isolation before posture is recovered** (Effectiveness: High) - Your Response: If you feel the arm being redirected during grip stripping, immediately withdraw the arm completely and drive posture up before New York control is established. Speed is essential—the window for New York entry is narrow → Leads to [[New York]]
-- **Bottom player re-establishes head control with the opposite hand while simultaneously elevating hips higher to re-tighten shoulder isolation and reset the Mission Control structure** (Effectiveness: Medium) - Your Response: Maintain continuous grip fighting on both of the bottom player's hands—do not focus on stripping only one grip. Use your hip post frame to actively prevent re-elevation of their hips while fighting grips simultaneously → Leads to [[Mission Control]]
-- **Bottom player times your upward posture drive to swing their outside leg across your face, threatening triangle entry and forcing you to abort the posture break and drive weight back down** (Effectiveness: High) - Your Response: Keep your chin tucked and elbow tight to your body throughout the entire posture break sequence. If the leg starts crossing your face, immediately drive forward with stacking pressure rather than continuing upward—stacking prevents the triangle lock from closing → Leads to [[Mission Control]]
+- **Bottom player redirects the trapped arm into New York control as you strip head grips, using the transitional grip-fighting moment to establish deeper arm isolation before posture is recovered** (Effectiveness: High) - Your Response: If you feel the arm being redirected during grip stripping, immediately withdraw the arm completely and drive posture up before New York control is established. Speed is essential—the window for New York entry is narrow → Leads to [[Positions/Rubber Guard/New York]]
+- **Bottom player re-establishes head control with the opposite hand while simultaneously elevating hips higher to re-tighten shoulder isolation and reset the Mission Control structure** (Effectiveness: Medium) - Your Response: Maintain continuous grip fighting on both of the bottom player's hands—do not focus on stripping only one grip. Use your hip post frame to actively prevent re-elevation of their hips while fighting grips simultaneously → Leads to [[Positions/Rubber Guard/Mission Control]]
+- **Bottom player times your upward posture drive to swing their outside leg across your face, threatening triangle entry and forcing you to abort the posture break and drive weight back down** (Effectiveness: High) - Your Response: Keep your chin tucked and elbow tight to your body throughout the entire posture break sequence. If the leg starts crossing your face, immediately drive forward with stacking pressure rather than continuing upward—stacking prevents the triangle lock from closing → Leads to [[Positions/Rubber Guard/Mission Control]]
 
 
 </section>

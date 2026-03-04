@@ -146,7 +146,7 @@ description: "How to maintain side control against escape attempts in BJJ. Recog
 
 The Side Control Escape Defender is the top player working to maintain dominant side control position while the bottom player attempts to escape and recover guard. Defending against side control escapes requires understanding the bottom player's escape mechanics so you can preemptively shut down each stage of their sequence - framing, bridging, hip escape, hip rotation, and guard recovery. Effective retention combines heavy crossface pressure to prevent hip rotation, hip-to-hip connection to eliminate shrimping space, and near-side arm control to limit the bottom player's framing options. The defender must recognize early indicators of escape attempts and apply appropriate counters before the escape sequence gains momentum, because once the bottom player successfully turns their hips and inserts a knee shield, re-establishing side control becomes extremely difficult. The best defenders use the bottom player's escape reactions as triggers for position advancement to mount or knee on belly, or as openings for submission attacks, transforming the opponent's defensive movements into offensive opportunities.
 
-**Opponent's Starting Position**: [[Side Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ The Side Control Escape Defender is the top player working to maintain dominant 
 ### 1. Drive heavy crossface and re-cement hip-to-hip pressure when detecting frame establishment
 
 - **When to use**: When bottom player begins stiffening frames against your hip or shoulder but has not yet bridged or shrimped
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Bottom player's frames collapse under renewed pressure, resettling your dominant position and forcing them to restart their escape sequence from scratch
 - **Risk**: Overcommitting shoulder pressure forward can create space at your hips that the bottom player exploits with a hip escape underneath you
 
 ### 2. Transition to mount by stepping over as bottom player turns hips during escape attempt
 
 - **When to use**: When bottom player has created space and begun rotating hips but has not yet inserted knee shield or butterfly hook
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You advance to mount position, gaining additional points and a more dominant control position that is harder for the opponent to escape
 - **Risk**: If transition is too slow, bottom player catches your leg in half guard during the step-over, resulting in half guard rather than mount
 
 ### 3. Switch to knee on belly as bottom player creates space, using their escape momentum against them
 
 - **When to use**: When bottom player successfully creates initial space with bridge-and-shrimp but you cannot maintain chest-to-chest connection
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You establish knee on belly which scores additional points and creates new submission opportunities while maintaining top control from a mobile platform
 - **Risk**: Knee on belly is less stable than settled side control and the bottom player may use the transition to complete their guard recovery
 
 ### 4. Attack the near arm with kimura or americana when bottom player extends frames
 
 - **When to use**: When bottom player overextends their framing arm away from their body, creating isolation opportunity
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Bottom player must abandon escape to defend submission, resettling in a worse position with their arm compromised and psychological pressure increased
 - **Risk**: If submission attempt fails, the positional disruption during the attack may give bottom player the space needed to complete their escape
 
@@ -217,11 +217,11 @@ The Side Control Escape Defender is the top player working to maintain dominant 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Maintain heavy crossface and hip pressure throughout opponent's escape attempts, resettling position each time they create space by immediately driving forward and re-cementing chest contact. Keep near-side arm controlled and prevent any frame from becoming established long enough to support a full escape sequence.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Time your mount transition to coincide with the bottom player's hip rotation during their escape. As they turn their hips and create the space needed for their knee shield, step your leg over their body before the shield is established. Their own hip movement actually facilitates your mount transition when timed correctly, making their escape attempt the trigger for your positional advancement.
 

@@ -21,7 +21,7 @@ Strategically, the mat return represents a critical link in the chain from clinc
 
 The mat return also serves as a crucial decision point within the standing rear clinch strategy. When rolling back takes are defended, standing submissions prove difficult, or the opponent maintains strong hand fighting, the mat return provides a reliable high-percentage option that prioritizes positional advancement over riskier techniques. Understanding when to execute the mat return versus pursuing other options from standing rear clinch is a hallmark of experienced grapplers who prioritize systematic positional progression over spectacle. The technique is equally effective in gi and no-gi contexts, though grip configurations differ between the two rulesets.
 
-**From Position**: [[Standing Rear Clinch]] (Top)
+**From Position**: [[Positions/Standing Rear Clinch]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -32,11 +32,11 @@ The mat return also serves as a crucial decision point within the standing rear 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Success | [[Turtle]] | 10% |
-| Failure | [[Standing Rear Clinch]] | 20% |
-| Counter | [[Scramble Position]] | 10% |
-| Counter | [[Clinch]] | 5% |
+| Success | [[Positions/Back Control]] | 55% |
+| Success | [[Positions/Turtle]] | 10% |
+| Failure | [[Positions/Standing Rear Clinch]] | 20% |
+| Counter | [[Positions/Scramble Position]] | 10% |
+| Counter | [[Positions/Clinch]] | 5% |
 
 
 </section>
@@ -200,25 +200,25 @@ The mat return from standing rear clinch functions as the critical link between 
 ## Related Techniques
 
 
-- [[Standing Rear Clinch]] - Source position from which the mat return is initiated
+- [[Positions/Standing Rear Clinch]] - Source position from which the mat return is initiated
 
-- [[Back Control]] - Primary target position achieved through successful mat return with hooks
+- [[Positions/Back Control]] - Primary target position achieved through successful mat return with hooks
 
-- [[Body Lock Takedown]] - Related wrestling-based takedown using similar grip configuration from clinch
+- [[Transitions/Body Lock Takedown]] - Related wrestling-based takedown using similar grip configuration from clinch
 
-- [[Turtle]] - Alternate outcome position when mat return succeeds but hooks are not secured during descent
+- [[Positions/Turtle]] - Alternate outcome position when mat return succeeds but hooks are not secured during descent
 
-- [[Seat Belt Control Back]] - Grip configuration maintained or established during the ground transition after mat return
+- [[Positions/Back Control/Seat Belt Control Back]] - Grip configuration maintained or established during the ground transition after mat return
 
-- [[Body Lock]] - Primary grip position used for the bodylock variation of the mat return
+- [[Positions/Body Lock]] - Primary grip position used for the bodylock variation of the mat return
 
-- [[Defense from Standing Rear Clinch]] - Defensive counter system the opponent may employ to prevent the mat return
+- [[Transitions/Defense from Standing Rear Clinch]] - Defensive counter system the opponent may employ to prevent the mat return
 
-- [[Counter Throw from Standing Rear Clinch]] - Counter technique the opponent may attempt during the mat return descent
+- [[Transitions/Counter Throw from Standing Rear Clinch]] - Counter technique the opponent may attempt during the mat return descent
 
-- [[Double Leg Finish]] - Alternative takedown option from standing rear clinch when mat return is defended
+- [[Transitions/Double Leg Finish]] - Alternative takedown option from standing rear clinch when mat return is defended
 
-- [[Back Take]] - Related back control entry transition from similar standing clinch positions
+- [[Transitions/Back Take]] - Related back control entry transition from similar standing clinch positions
 
 
 </section>

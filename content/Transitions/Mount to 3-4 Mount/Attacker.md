@@ -180,7 +180,7 @@ description: "Complete guide to executing the Transition to 3-4 Mount from stand
 
 Executing the Transition to 3-4 Mount requires coordinating weight transfer, grip establishment, and leg extraction into a seamless movement that maintains constant pressure on the opponent throughout. The fundamental challenge is extracting one leg from inside mount configuration without creating a momentary gap that allows hip escape or knee insertion. Success depends on loading your weight onto the side that remains mounted before the extraction begins, ensuring the opponent bears maximum pressure precisely when your base is most vulnerable. This transition rewards patience and timing over speed—rushing the leg extraction is the most common cause of failure, while methodical weight shifting with grip-supported control produces consistent results at all levels.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ Executing the Transition to 3-4 Mount requires coordinating weight transfer, gri
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[3-4 Mount]] | 70% |
-| Failure | [[Mount]] | 20% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount/3-4 Mount]] | 70% |
+| Failure | [[Positions/Mount]] | 20% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ Executing the Transition to 3-4 Mount requires coordinating weight transfer, gri
 
 ## Opponent Counters
 
-- **Opponent hip escapes toward the extraction side during leg movement** (Effectiveness: High) - Your Response: Immediately abandon the extraction and re-settle standard mount. Drive both knees back inside and flatten your hips to kill their hip movement. Retry the transition only after re-establishing settled pressure and neutralizing their escape angle. → Leads to [[Half Guard]]
-- **Opponent bridges explosively the moment they feel weight shift** (Effectiveness: Medium) - Your Response: Use the posting leg to absorb the bridge by driving your foot into the mat and riding the upward movement. Keep your grip anchor tight and let the bridge energy pass underneath you. If the bridge is exceptionally strong, post your free hand on the mat for additional base and re-settle once the bridge collapses. → Leads to [[Mount]]
-- **Opponent inserts knee shield or elbow frame during the transition window** (Effectiveness: High) - Your Response: If the frame is shallow, drive your mounted knee over it using hip pressure and complete the transition. If the frame creates significant space, abandon the 3-4 attempt, fight the frame with crossface and underhook pressure, and re-establish standard mount before reattempting. → Leads to [[Half Guard]]
-- **Opponent grabs the extracting leg to prevent posting** (Effectiveness: Low) - Your Response: Continue the extraction—gripping the leg requires them to extend an arm, which creates an immediate Americana or wrist control opportunity. Use your controlling grip to pin their other arm while completing the transition, then attack the extended arm that attempted to block your leg. → Leads to [[3-4 Mount]]
+- **Opponent hip escapes toward the extraction side during leg movement** (Effectiveness: High) - Your Response: Immediately abandon the extraction and re-settle standard mount. Drive both knees back inside and flatten your hips to kill their hip movement. Retry the transition only after re-establishing settled pressure and neutralizing their escape angle. → Leads to [[Positions/Half Guard]]
+- **Opponent bridges explosively the moment they feel weight shift** (Effectiveness: Medium) - Your Response: Use the posting leg to absorb the bridge by driving your foot into the mat and riding the upward movement. Keep your grip anchor tight and let the bridge energy pass underneath you. If the bridge is exceptionally strong, post your free hand on the mat for additional base and re-settle once the bridge collapses. → Leads to [[Positions/Mount]]
+- **Opponent inserts knee shield or elbow frame during the transition window** (Effectiveness: High) - Your Response: If the frame is shallow, drive your mounted knee over it using hip pressure and complete the transition. If the frame creates significant space, abandon the 3-4 attempt, fight the frame with crossface and underhook pressure, and re-establish standard mount before reattempting. → Leads to [[Positions/Half Guard]]
+- **Opponent grabs the extracting leg to prevent posting** (Effectiveness: Low) - Your Response: Continue the extraction—gripping the leg requires them to extend an arm, which creates an immediate Americana or wrist control opportunity. Use your controlling grip to pin their other arm while completing the transition, then attack the extended arm that attempted to block your leg. → Leads to [[Positions/Mount/3-4 Mount]]
 
 
 </section>

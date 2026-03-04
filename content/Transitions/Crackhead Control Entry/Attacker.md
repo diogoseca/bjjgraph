@@ -186,7 +186,7 @@ description: "Execute Crackhead Control Entry from Rubber Guard bottom. Master t
 
 From the attacker's perspective, the Crackhead Control Entry is a calculated positional advancement that transforms standard Rubber Guard control into a dominant arm isolation platform. The attacker manipulates the opponent's trapped arm further across their centerline while adjusting leg positioning to apply direct downward pressure on the shoulder, creating a locked configuration that eliminates most defensive responses. This requires precise coordination between the controlling leg, both hands, and hip angle adjustments executed during windows where the opponent's posture is maximally compromised. The entry demands patience—attacking prematurely before securing proper grip transition results in the opponent extracting their arm and potentially escaping the Rubber Guard system entirely. Successful attackers develop sensitivity to the opponent's resistance patterns, recognizing when arm tension drops or posture recovery stalls as optimal entry windows.
 
-**From Position**: [[Rubber Guard]] (Bottom)
+**From Position**: [[Positions/Rubber Guard]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ From the attacker's perspective, the Crackhead Control Entry is a calculated pos
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Crackhead Control]] | 55% |
-| Failure | [[Rubber Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Crackhead Control]] | 55% |
+| Failure | [[Positions/Rubber Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ From the attacker's perspective, the Crackhead Control Entry is a calculated pos
 
 ## Opponent Counters
 
-- **Explosive posture recovery by driving upward with both arms before grip transfer completes** (Effectiveness: High) - Your Response: Increase leg pressure on the back and pull head down with your free hand. If they begin posturing before you initiate the entry, delay and maintain Mission Control rather than forcing the transition against active resistance. → Leads to [[Rubber Guard]]
-- **Arm extraction by circling the elbow outward during the grip transfer phase** (Effectiveness: Medium) - Your Response: Follow the circular arm extraction with your wrist grip, maintaining contact rather than fighting the direction. If they create significant space, immediately switch to triangle setup since their arm movement creates the exact space needed for leg insertion across the neck. → Leads to [[Rubber Guard]]
-- **Stack pass by driving forward aggressively to fold the bottom player and relieve leg pressure** (Effectiveness: Medium) - Your Response: Use their forward stacking momentum to load the omoplata angle. Frame on their hip with your free hand and rotate your body underneath them into omoplata control rather than fighting the stack directly. Their aggressive pressure assists the rotation. → Leads to [[Open Guard]]
-- **Explosive bridge combined with simultaneous grip stripping on both the shin grip and wrist control** (Effectiveness: High) - Your Response: If they successfully bridge and strip grips, immediately close your guard to prevent full posture recovery. Maintain at least one control point—sleeve, head, or collar tie—to prevent them from standing and opening the guard entirely. → Leads to [[Open Guard]]
+- **Explosive posture recovery by driving upward with both arms before grip transfer completes** (Effectiveness: High) - Your Response: Increase leg pressure on the back and pull head down with your free hand. If they begin posturing before you initiate the entry, delay and maintain Mission Control rather than forcing the transition against active resistance. → Leads to [[Positions/Rubber Guard]]
+- **Arm extraction by circling the elbow outward during the grip transfer phase** (Effectiveness: Medium) - Your Response: Follow the circular arm extraction with your wrist grip, maintaining contact rather than fighting the direction. If they create significant space, immediately switch to triangle setup since their arm movement creates the exact space needed for leg insertion across the neck. → Leads to [[Positions/Rubber Guard]]
+- **Stack pass by driving forward aggressively to fold the bottom player and relieve leg pressure** (Effectiveness: Medium) - Your Response: Use their forward stacking momentum to load the omoplata angle. Frame on their hip with your free hand and rotate your body underneath them into omoplata control rather than fighting the stack directly. Their aggressive pressure assists the rotation. → Leads to [[Positions/Open Guard]]
+- **Explosive bridge combined with simultaneous grip stripping on both the shin grip and wrist control** (Effectiveness: High) - Your Response: If they successfully bridge and strip grips, immediately close your guard to prevent full posture recovery. Maintain at least one control point—sleeve, head, or collar tie—to prevent them from standing and opening the guard entirely. → Leads to [[Positions/Open Guard]]
 
 
 </section>

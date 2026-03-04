@@ -186,7 +186,7 @@ description: "Complete guide to executing the inside heel hook from Honey Hole. 
 
 As the attacker executing the inside heel hook from Honey Hole, your objective is to convert dominant positional control into a submission finish through precise grip configuration and hip-driven rotational pressure. The Honey Hole position provides the mechanical foundation—your inside leg triangle imprisons the opponent's thigh while your hips pin their hip flat—but the finish itself requires disciplined sequencing. Rushing the grip before securing positional control is the most common reason this high-percentage submission fails. The attacker must establish control first, neutralize the opponent's free leg and grip-fighting capacity, then methodically secure the heel and apply breaking pressure through hip extension rather than arm strength. The entire finishing sequence from grip to tap should take two to four seconds when executed correctly, with the attacker's body doing the work rather than isolated muscle groups.
 
-**From Position**: [[Honey Hole]] (Top)
+**From Position**: [[Positions/Ashi Garami/Honey Hole]] (Top)
 
 </section>
 
@@ -241,8 +241,8 @@ As the attacker executing the inside heel hook from Honey Hole, your objective i
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Honey Hole]] | 30% |
-| Counter | [[50-50 Guard]] | 20% |
+| Failure | [[Positions/Ashi Garami/Honey Hole]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the attacker executing the inside heel hook from Honey Hole, your objective i
 
 ## Opponent Counters
 
-- **Opponent hides heel by pointing toes and curling foot toward their body, denying grip access** (Effectiveness: Medium) - Your Response: Transition to kneebar by sliding your grip from the heel to behind their knee, or use your top hand to strip their defensive foot positioning before re-attempting the heel grip. If they commit fully to hiding the heel, the kneebar angle becomes more exposed. → Leads to [[Honey Hole]]
-- **Opponent explosively counter-entangles by rotating into 50-50 guard, breaking the inside triangle** (Effectiveness: High) - Your Response: Anticipate the rotation and drive your hips forward to collapse the space they need to turn. If they begin rotating, tighten your knee pinch and increase hip pressure. If they complete the rotation, immediately secure your own heel hook grip in the 50-50 position before they establish offensive control. → Leads to [[50-50 Guard]]
-- **Opponent strips heel grip using both hands to peel fingers and redirect the cupping hand** (Effectiveness: Medium) - Your Response: Use your free hand to control their grip-fighting wrist while re-establishing the heel cup. Alternatively, release momentarily and immediately transition to a toe hold or ankle lock grip on the same foot, which requires different defensive hand positioning and catches them mid-adjustment. → Leads to [[Honey Hole]]
-- **Opponent boot scoots backward rapidly to create distance and extract the trapped leg** (Effectiveness: Medium) - Your Response: Follow their movement by hip-walking with them, maintaining your triangle and hip pressure throughout. Your legs should track their retreat while your outside leg continues driving across their hip. If they gain significant distance, use your free arm to pull them back by gripping their shorts, belt, or far leg. → Leads to [[Honey Hole]]
+- **Opponent hides heel by pointing toes and curling foot toward their body, denying grip access** (Effectiveness: Medium) - Your Response: Transition to kneebar by sliding your grip from the heel to behind their knee, or use your top hand to strip their defensive foot positioning before re-attempting the heel grip. If they commit fully to hiding the heel, the kneebar angle becomes more exposed. → Leads to [[Positions/Ashi Garami/Honey Hole]]
+- **Opponent explosively counter-entangles by rotating into 50-50 guard, breaking the inside triangle** (Effectiveness: High) - Your Response: Anticipate the rotation and drive your hips forward to collapse the space they need to turn. If they begin rotating, tighten your knee pinch and increase hip pressure. If they complete the rotation, immediately secure your own heel hook grip in the 50-50 position before they establish offensive control. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent strips heel grip using both hands to peel fingers and redirect the cupping hand** (Effectiveness: Medium) - Your Response: Use your free hand to control their grip-fighting wrist while re-establishing the heel cup. Alternatively, release momentarily and immediately transition to a toe hold or ankle lock grip on the same foot, which requires different defensive hand positioning and catches them mid-adjustment. → Leads to [[Positions/Ashi Garami/Honey Hole]]
+- **Opponent boot scoots backward rapidly to create distance and extract the trapped leg** (Effectiveness: Medium) - Your Response: Follow their movement by hip-walking with them, maintaining your triangle and hip pressure throughout. Your legs should track their retreat while your outside leg continues driving across their hip. If they gain significant distance, use your free arm to pull them back by gripping their shorts, belt, or far leg. → Leads to [[Positions/Ashi Garami/Honey Hole]]
 - **Opponent rolls toward you attempting to invert and relieve rotational pressure on the knee** (Effectiveness: Low) - Your Response: Continue applying the heel hook as they roll—the inversion often makes the submission tighter rather than relieving it, because their body rotation adds to the medial heel rotation you are already applying. Maintain grip and let their movement complete the finish. Only adjust if they successfully invert past the tightening point. → Leads to [[game-over]]
 
 

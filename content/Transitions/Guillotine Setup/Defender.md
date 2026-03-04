@@ -154,7 +154,7 @@ description: "How to defend against Guillotine Setup in BJJ. Recognition cues, d
 
 Defending the guillotine setup from the front headlock requires immediate, disciplined action the moment you recognize the transition from general head control to specific choking intent. The defender's window of opportunity is narrow—once the attacker threads their arm deep, secures a grip, and steps to an angle, defensive options diminish rapidly. The critical insight is that defending the guillotine setup is fundamentally different from defending a locked-in guillotine choke. During the setup phase, the attacker is in transition between control positions, which means they have temporarily loosened certain aspects of their control to reconfigure their grips. This transitional vulnerability is the defender's primary opportunity. Successful defense requires a layered approach: first protect the neck by tucking the chin and preventing the deep arm thread, second disrupt the grip formation before it consolidates, and third either recover posture to neutralize the position or drive through to a more favorable position. Panic and explosive pulling away are the most common reasons defenders get caught—measured, technical responses that exploit the attacker's transitional moments are far more effective.
 
-**Opponent's Starting Position**: [[Front Headlock]] (Top)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the guillotine setup from the front headlock requires immediate, disci
 ### 1. Tuck chin and strip the choking arm at the wrist before the grip is locked
 
 - **When to use**: During the initial threading phase when the attacker is transitioning from front headlock to guillotine—before they clasp their hands together
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Return to standard front headlock position where the guillotine threat is neutralized and you can work normal front headlock escapes
 - **Risk**: If you fail to strip the arm and the attacker locks the grip, you have lost your best defensive window and must now defend a more established choke
 
 ### 2. Drive forward aggressively with your shoulder into the attacker's hips while keeping chin tucked to stack them
 
 - **When to use**: When the attacker has begun stepping to an angle but has not yet established a deep grip—use their transitional instability against them
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Your forward drive disrupts their angle and balance, potentially reversing the position or at minimum forcing them to abandon the guillotine setup to re-establish base
 - **Risk**: If the attacker has a deeper grip than you realize, driving forward can tighten the choke and result in a standing guillotine finish
 
 ### 3. Circle away from the choking arm side while hand fighting to prevent grip consolidation
 
 - **When to use**: When the attacker has partially established their grip but has not yet pinned your head—circling removes you from their optimal angle
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You exit the choking angle entirely, returning to a neutral front headlock position or creating enough space to recover posture and stand
 - **Risk**: Circling too slowly or without hand fighting allows the attacker to follow your movement and maintain their setup angle
 
 ### 4. Two-on-one grip fight on the choking arm while posting your head against their chest
 
 - **When to use**: When the attacker has secured a partial grip but has not yet finalized elbow position—requires immediate hand fighting commitment
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You peel their choking arm away from your neck, breaking the guillotine structure and returning to standard front headlock defense
 - **Risk**: Committing both hands to grip fighting temporarily removes your ability to frame against their body, potentially allowing them to advance position
 
@@ -226,11 +226,11 @@ Defending the guillotine setup from the front headlock requires immediate, disci
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Strip the choking arm at the wrist before the grip locks, or circle away from the choking angle to neutralize the guillotine threat. Use two-on-one grip fighting on the choking arm combined with chin tucking to return to standard front headlock defense, then work normal front headlock escape sequences.
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Drive aggressively forward into the attacker during their transitional moment when they are stepping to an angle. Your forward pressure disrupts their base and balance, potentially reversing the positional dynamic. This is most effective when timed during their footwork adjustment, as they are briefly unstable.
 

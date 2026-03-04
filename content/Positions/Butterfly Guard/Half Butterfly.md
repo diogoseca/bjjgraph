@@ -93,29 +93,29 @@ From the top perspective, Half Butterfly Top represents a critical transitional 
 ### Available Transitions
 
 
-- **[[Basic Butterfly Sweep]]** (15% of attempts)
+- **[[Transitions/Basic Butterfly Sweep]]** (15% of attempts)
 
-- **[[Old School Sweep]]** (22% of attempts)
+- **[[Transitions/Old School Sweep]]** (22% of attempts)
 
-- **[[Hook Sweep]]** (10% of attempts)
+- **[[Transitions/Hook Sweep]]** (10% of attempts)
 
-- **[[Underhook Sweep from Half]]** (12% of attempts)
+- **[[Transitions/Underhook Sweep from Half]]** (12% of attempts)
 
-- **[[Deep Half Entry]]** (12% of attempts)
+- **[[Transitions/Deep Half Entry]]** (12% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** (6% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard]]** (6% of attempts)
 
-- **[[Elevator Sweep]]** (4% of attempts)
+- **[[Transitions/Elevator Sweep]]** (4% of attempts)
 
-- **[[Kimura from Half Guard]]** (5% of attempts)
+- **[[Transitions/Kimura from Half Guard]]** (5% of attempts)
 
-- **[[Half Butterfly Sweep]]** (4% of attempts)
+- **[[Transitions/Half Butterfly Sweep]]** (4% of attempts)
 
-- **[[Half Butterfly to Dogfight]]** (5% of attempts)
+- **[[Transitions/Half Butterfly to Dogfight]]** (5% of attempts)
 
-- **[[Reguard from Half Butterfly]]** (3% of attempts)
+- **[[Transitions/Reguard from Half Butterfly]]** (3% of attempts)
 
-- **[[Rolling Back Take from Half Butterfly]]** (2% of attempts)
+- **[[Transitions/Rolling Back Take from Half Butterfly]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -176,23 +176,23 @@ From the top perspective, Half Butterfly Top represents a critical transitional 
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (35% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (35% of attempts)
 
-- **[[Smash Pass]]** (18% of attempts)
+- **[[Transitions/Smash Pass]]** (18% of attempts)
 
-- **[[Underhook Pass]]** (10% of attempts)
+- **[[Transitions/Underhook Pass]]** (10% of attempts)
 
-- **[[Body Lock Pass]]** (8% of attempts)
+- **[[Transitions/Body Lock Pass]]** (8% of attempts)
 
-- **[[Half Guard to Flattened Half Guard]]** (10% of attempts)
+- **[[Transitions/Half Guard to Flattened Half Guard]]** (10% of attempts)
 
-- **[[Half Guard Pass]]** (5% of attempts)
+- **[[Transitions/Half Guard Pass]]** (5% of attempts)
 
-- **[[Leg Weave Pass]]** (10% of attempts)
+- **[[Transitions/Leg Weave Pass]]** (10% of attempts)
 
-- **[[Pass Half Butterfly]]** (2% of attempts)
+- **[[Transitions/Pass Half Butterfly]]** (2% of attempts)
 
-- **[[Smash Half Butterfly]]** (2% of attempts)
+- **[[Transitions/Smash Half Butterfly]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -231,29 +231,29 @@ From the top perspective, Half Butterfly Top represents a critical transitional 
 ## Related Positions
 
 
-- **[[Butterfly Guard]]** - Parent position - full butterfly guard with both hooks
+- **[[Positions/Butterfly Guard]]** - Parent position - full butterfly guard with both hooks
 
-- **[[Half Guard]]** - Foundation position - traditional half guard from which butterfly hook is added
+- **[[Positions/Half Guard]]** - Foundation position - traditional half guard from which butterfly hook is added
 
-- **[[Deep Half Guard]]** - Common transition target when opponent applies forward pressure
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common transition target when opponent applies forward pressure
 
-- **[[X-Guard]]** - Transition target when opponent stands or elevates posture
+- **[[Positions/X-Guard]]** - Transition target when opponent stands or elevates posture
 
-- **[[Knee Shield Half Guard]]** - Alternative half guard variation with different defensive structure
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Alternative half guard variation with different defensive structure
 
-- **[[Dogfight Position]]** - Similar hybrid position with different leg configuration
+- **[[Positions/Dogfight Position]]** - Similar hybrid position with different leg configuration
 
-- **[[Lockdown]]** - Alternative half guard retention mechanism
+- **[[Positions/Half Guard/Lockdown]]** - Alternative half guard retention mechanism
 
-- **[[Butterfly Half Guard]]** - Parent category encompassing half butterfly variations
+- **[[Positions/Half Guard/Butterfly Half Guard]]** - Parent category encompassing half butterfly variations
 
-- **[[Side Control]]** - Primary target position for top player's passing attempts
+- **[[Positions/Side Control]]** - Primary target position for top player's passing attempts
 
-- **[[Mount]]** - Secondary target for successful sweeps from bottom
+- **[[Positions/Mount]]** - Secondary target for successful sweeps from bottom
 
-- **[[Back Control]]** - Alternative advancement target from successful back takes
+- **[[Positions/Back Control]]** - Alternative advancement target from successful back takes
 
-- **[[Overhook Control]]** - Critical control concept determining success in exchanges
+- **[[Positions/Overhook Control]]** - Critical control concept determining success in exchanges
 
 
 </section>

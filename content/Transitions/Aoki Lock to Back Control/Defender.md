@@ -158,7 +158,7 @@ The critical defensive window exists during the transition itself, between your 
 
 Defensive success depends on recognizing the transition early through tactile cues such as feeling the shoulder pressure release and the chest driving forward onto your back. Trained defenders learn to differentiate between their opponent adjusting Aoki Lock pressure and actually abandoning the submission for the back take. This recognition allows you to switch from shoulder lock escape protocol to back take defense protocol before your opponent has established any control points behind you.
 
-**Opponent's Starting Position**: [[Aoki Lock]] (Top)
+**Opponent's Starting Position**: [[Positions/Aoki Lock]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Defensive success depends on recognizing the transition early through tactile cu
 ### 1. Turn into opponent and recover guard during the grip release window
 
 - **When to use**: Immediately when you feel shoulder lock pressure release and before opponent establishes seatbelt, during the brief transition gap when their hands are between grips
-- **Targets**: [[Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock]]
 - **If successful**: You face your opponent and recover to closed guard or half guard, completely negating the back take and resetting to a neutral guard position
 - **Risk**: If you turn too late after seatbelt is established, opponent follows your rotation and maintains back control. Turning into a partially set seatbelt can expose your neck to choke attacks
 
 ### 2. Turtle tight with elbows squeezed to knees and deny hook insertion
 
 - **When to use**: When opponent has already arrived behind you and you cannot turn to face them, but they have not yet inserted hooks or fully consolidated the seatbelt grip
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You prevent full back control establishment and force opponent to work from turtle top, which is a significantly less dominant position than back mount with hooks
 - **Risk**: Extended time in tight turtle allows opponent to use spiral rides, body locks, or crucifix entries to eventually break your defensive shell and establish hooks
 
 ### 3. Sprawl and flatten to prevent the roll-through from completing
 
 - **When to use**: When you feel the opponent beginning to follow your roll but you have not yet committed fully to the rolling escape, allowing you to reverse direction and flatten belly-down
-- **Targets**: [[Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock]]
 - **If successful**: You stall the transition and force opponent back to the Aoki Lock position or create a neutral scramble where neither player has dominant control
 - **Risk**: Flattening belly-down with opponent on top can lead to back mount if they maintain chest-to-back connection, and may re-expose you to the shoulder lock if they re-engage their original grip
 
 ### 4. Strip seatbelt grip with two-on-one hand fighting before hooks are inserted
 
 - **When to use**: When opponent has arrived behind you and established seatbelt but has not yet inserted hooks, giving you a narrow window to fight the upper body control before full back control is achieved
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Breaking the seatbelt forces opponent to re-establish upper body control, buying time for you to execute turtle escapes such as granby roll, sit-through, or technical standup
 - **Risk**: Hand fighting the seatbelt leaves your neck momentarily exposed if you release chin tuck, and opponent can use the distraction to insert hooks while you focus on their hands
 
@@ -228,11 +228,11 @@ Defensive success depends on recognizing the transition early through tactile cu
 
 ## Best-Case Outcomes for Defender
 
-### → [[Aoki Lock]]
+### → [[Positions/Aoki Lock]]
 
 Turn into your opponent during the transition window when they release the shoulder lock grip. Time the turn to coincide with the grip release and drive your hips toward them to recover guard. Alternatively, sprawl and flatten to stall the roll-through, forcing them back to the original position where you can restart your shoulder lock defense.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Immediately turtle tight with elbows glued to knees and chin tucked when you feel opponent arriving behind you. Deny hook insertion by keeping your legs tucked under you and hips low. From tight turtle, work grip fighting to strip seatbelt and execute granby rolls or sit-throughs to recover guard before opponent can break down your defensive shell.
 

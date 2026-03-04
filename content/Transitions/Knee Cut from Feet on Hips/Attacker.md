@@ -180,7 +180,7 @@ description: "Complete guide to executing the knee cut pass from feet on hips gu
 
 As the attacker executing the knee cut from feet on hips, your objective is to systematically dismantle the bottom player's leg frames and drive your knee across their thigh line to achieve half guard or side control. This pass requires a disciplined three-phase approach: first establish dominant grips at the knees, then clear one foot off your hip while maintaining forward pressure, and finally commit to the knee cut with crossface control and hip drive. The technique punishes guard players who rely on static distance management by converting their pushing frames into passing lanes once one frame is broken. Success depends on reading the moment when the bottom player adjusts their frames and exploiting that window before defensive structure is re-established.
 
-**From Position**: [[Feet on Hips Guard]] (Top)
+**From Position**: [[Positions/Feet on Hips Guard]] (Top)
 
 </section>
 
@@ -232,11 +232,11 @@ As the attacker executing the knee cut from feet on hips, your objective is to s
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Side Control]] | 10% |
-| Failure | [[Feet on Hips Guard]] | 30% |
-| Counter | [[De La Riva Guard]] | 15% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Side Control]] | 10% |
+| Failure | [[Positions/Feet on Hips Guard]] | 30% |
+| Counter | [[Positions/De La Riva Guard]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -245,10 +245,10 @@ As the attacker executing the knee cut from feet on hips, your objective is to s
 
 ## Opponent Counters
 
-- **Bottom player re-establishes foot on hip before knee enters gap** (Effectiveness: High) - Your Response: Maintain your grip on their knee and re-attempt the frame break with a sharper lateral angle. Consider switching to the opposite side or feinting the knee cut to draw a reaction before committing. → Leads to [[Feet on Hips Guard]]
-- **Bottom player inserts De La Riva hook on the cutting leg during transition** (Effectiveness: Medium) - Your Response: Immediately backstep your cutting leg to clear the hook before it sets, or drive your knee to the mat inside their hook to flatten the DLR guard and continue the pass from a smash position. → Leads to [[De La Riva Guard]]
-- **Bottom player hip escapes and closes guard during the distance collapse** (Effectiveness: Medium) - Your Response: Keep your elbows tight and posture strong as you feel the guard closing. If they lock their ankles, immediately posture up to break the closed guard rather than continuing the pass attempt from inside closed guard. → Leads to [[Closed Guard]]
-- **Bottom player frames with arms against your shoulder and hip escapes laterally to create angle** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own lateral adjustment, keeping your chest aimed at their centerline. Use the crossface to prevent their upper body from completing the turn and drive forward through their frames. → Leads to [[Feet on Hips Guard]]
+- **Bottom player re-establishes foot on hip before knee enters gap** (Effectiveness: High) - Your Response: Maintain your grip on their knee and re-attempt the frame break with a sharper lateral angle. Consider switching to the opposite side or feinting the knee cut to draw a reaction before committing. → Leads to [[Positions/Feet on Hips Guard]]
+- **Bottom player inserts De La Riva hook on the cutting leg during transition** (Effectiveness: Medium) - Your Response: Immediately backstep your cutting leg to clear the hook before it sets, or drive your knee to the mat inside their hook to flatten the DLR guard and continue the pass from a smash position. → Leads to [[Positions/De La Riva Guard]]
+- **Bottom player hip escapes and closes guard during the distance collapse** (Effectiveness: Medium) - Your Response: Keep your elbows tight and posture strong as you feel the guard closing. If they lock their ankles, immediately posture up to break the closed guard rather than continuing the pass attempt from inside closed guard. → Leads to [[Positions/Closed Guard]]
+- **Bottom player frames with arms against your shoulder and hip escapes laterally to create angle** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own lateral adjustment, keeping your chest aimed at their centerline. Use the crossface to prevent their upper body from completing the turn and drive forward through their frames. → Leads to [[Positions/Feet on Hips Guard]]
 
 
 </section>

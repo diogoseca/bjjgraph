@@ -21,7 +21,7 @@ The strategic rationale for this transition is situational. When the bottom play
 
 This is a lower-priority technique in the Chill Dog top arsenal because the primary objective from turtle top should always be back control or submission. However, when traditional attacks stall against an exceptionally tight defensive shell, the posture transition provides a systematic alternative that keeps the match progressing and prevents stalling penalties. The critical moment comes after forcing the guard recovery — the top player must immediately establish posture in the resulting guard position to avoid getting broken down during the transition and ending up in a worse situation than where they started.
 
-**From Position**: [[Chill Dog]] (Top)
+**From Position**: [[Positions/Rubber Guard/Chill Dog]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ This is a lower-priority technique in the Chill Dog top arsenal because the prim
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 40% |
-| Failure | [[Chill Dog]] | 35% |
-| Success | [[Half Guard]] | 15% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Closed Guard]] | 40% |
+| Failure | [[Positions/Rubber Guard/Chill Dog]] | 35% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -188,21 +188,21 @@ Posture from Chill Dog sits at the intersection of turtle attacking systems and 
 ## Related Techniques
 
 
-- [[Chill Dog]] - Source position — attacker begins in Chill Dog top
+- [[Positions/Rubber Guard/Chill Dog]] - Source position — attacker begins in Chill Dog top
 
-- [[Closed Guard]] - Primary target position after successful posture transition
+- [[Positions/Closed Guard]] - Primary target position after successful posture transition
 
-- [[Half Guard]] - Alternative target when bottom player catches half guard during transition
+- [[Positions/Half Guard]] - Alternative target when bottom player catches half guard during transition
 
-- [[Turtle]] - Parent position family — Chill Dog is a turtle variant
+- [[Positions/Turtle]] - Parent position family — Chill Dog is a turtle variant
 
-- [[Back Control]] - Counter risk if bottom player exploits the lifting movement to take the back
+- [[Positions/Back Control]] - Counter risk if bottom player exploits the lifting movement to take the back
 
-- [[Escape Chill Dog]] - Bottom player's primary escape technique from Chill Dog defense
+- [[Transitions/Escape Chill Dog]] - Bottom player's primary escape technique from Chill Dog defense
 
-- [[Posture Recovery]] - Related posture mechanics applicable after transitioning to closed guard top
+- [[Transitions/Posture Recovery]] - Related posture mechanics applicable after transitioning to closed guard top
 
-- [[Advance to Chill Dog]] - Entry transition that establishes the starting position for this technique
+- [[Transitions/Advance to Chill Dog]] - Entry transition that establishes the starting position for this technique
 
 
 </section>

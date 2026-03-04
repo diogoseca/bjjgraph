@@ -17,7 +17,7 @@ description: "Master the sprawl defense in BJJ. Essential takedown defense techn
 
 The sprawl is the fundamental defensive response to takedown attempts in Brazilian Jiu-Jitsu and wrestling. It involves explosively driving the hips back and down while simultaneously shooting the legs back to prevent an opponent from completing a double leg or single leg takedown. This critical defensive technique transforms a potentially vulnerable position into an offensive opportunity, often transitioning to front headlock control or guillotine attacks. The sprawl's effectiveness lies in its ability to redirect an opponent's forward momentum while creating downward pressure that flattens them to the mat. When executed properly, the sprawl not only defends the takedown but establishes dominant top position, forcing the attacker to carry your weight while you control their head and arm. Mastering the sprawl is essential for maintaining standing position in BJJ, preventing takedowns in competition, and creating offensive opportunities from defensive situations.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 75%
 
 </section>
@@ -28,9 +28,9 @@ The sprawl is the fundamental defensive response to takedown attempts in Brazili
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 75% |
-| Failure | [[Standing Position]] | 15% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Front Headlock]] | 75% |
+| Failure | [[Positions/Standing Position]] | 15% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -197,27 +197,27 @@ The sprawl defense is the cornerstone of standing defense in Brazilian Jiu-Jitsu
 ## Related Techniques
 
 
-- [[Front Headlock]] - Primary position after successful sprawl
+- [[Positions/Front Headlock]] - Primary position after successful sprawl
 
-- [[Guillotine Control]] - Common submission transition from sprawl
+- [[Positions/Guillotine Control]] - Common submission transition from sprawl
 
-- [[Anaconda Control]] - Alternative submission setup from sprawl position
+- [[Positions/Anaconda Control]] - Alternative submission setup from sprawl position
 
-- [[Darce Control]] - Submission option when opponent extends arm during sprawl defense
+- [[Positions/Darce Control]] - Submission option when opponent extends arm during sprawl defense
 
-- [[Snap Down to Front Headlock]] - Offensive follow-up after controlling sprawl position
+- [[Transitions/Snap Down to Front Headlock]] - Offensive follow-up after controlling sprawl position
 
-- [[Standing up in Base]] - Recovery technique if sprawl is incomplete
+- [[Transitions/Standing up in Base]] - Recovery technique if sprawl is incomplete
 
-- [[Guard Pull]] - Alternative defensive response when sprawl timing is missed
+- [[Transitions/Guard Pull]] - Alternative defensive response when sprawl timing is missed
 
-- [[Turtle]] - Position opponent commonly ends up in after being sprawled on, creating front headlock and submission opportunities
+- [[Positions/Turtle]] - Position opponent commonly ends up in after being sprawled on, creating front headlock and submission opportunities
 
-- [[Front Headlock to Guillotine]] - Submission path from sprawl position
+- [[Transitions/Front Headlock to Guillotine]] - Submission path from sprawl position
 
-- [[Back Control]] - Position advancement after successful sprawl and go-behind
+- [[Positions/Back Control]] - Position advancement after successful sprawl and go-behind
 
-- [[Double Leg Entry]] - Primary takedown attempt that sprawl defends against
+- [[Transitions/Double Leg Entry]] - Primary takedown attempt that sprawl defends against
 
 
 </section>

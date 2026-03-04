@@ -178,7 +178,7 @@ The finishing mechanics distinguish this technique from the positional control p
 
 Strategically, committing to the finish requires reading opponent defensive reactions. Static opponents who focus purely on grip fighting without movement create ideal finishing opportunities. However, opponents who move aggressively toward back escapes or sitting to guard may offer better positional advancement opportunities than forcing a contested choke. The finish should be executed with progressive pressure rather than explosive yanking, maximizing technical efficiency while minimizing energy expenditure and reducing injury risk to training partners.
 
-**From Position**: [[Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
 
@@ -232,8 +232,8 @@ Strategically, committing to the finish requires reading opponent defensive reac
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Buggy Choke]] | 30% |
-| Counter | [[Half Guard]] | 12% |
+| Failure | [[Positions/Buggy Choke]] | 30% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>
@@ -242,10 +242,10 @@ Strategically, committing to the finish requires reading opponent defensive reac
 
 ## Opponent Counters
 
-- **Opponent aggressively strips primary grip before pressure develops** (Effectiveness: High) - Your Response: Immediately re-establish threading depth or transition to alternative turtle attack like darce or anaconda before position deteriorates → Leads to [[Buggy Choke]]
-- **Opponent sits to guard during finishing attempt to relieve pressure** (Effectiveness: Medium) - Your Response: Hook near leg immediately and follow their sitting motion to convert to back control, maintaining collar grip throughout transition → Leads to [[Half Guard]]
-- **Opponent extends far arm to base and create space preventing full pressure application** (Effectiveness: Medium) - Your Response: Abandon choke finish and attack extended arm for crucifix position, which offers superior control and multiple submission options → Leads to [[Buggy Choke]]
-- **Opponent turns into the choke to face you and create defensive frames** (Effectiveness: Low) - Your Response: Switch grip configuration to darce or anaconda setup as their turning motion creates optimal head and arm positioning for those chokes → Leads to [[Half Guard]]
+- **Opponent aggressively strips primary grip before pressure develops** (Effectiveness: High) - Your Response: Immediately re-establish threading depth or transition to alternative turtle attack like darce or anaconda before position deteriorates → Leads to [[Positions/Buggy Choke]]
+- **Opponent sits to guard during finishing attempt to relieve pressure** (Effectiveness: Medium) - Your Response: Hook near leg immediately and follow their sitting motion to convert to back control, maintaining collar grip throughout transition → Leads to [[Positions/Half Guard]]
+- **Opponent extends far arm to base and create space preventing full pressure application** (Effectiveness: Medium) - Your Response: Abandon choke finish and attack extended arm for crucifix position, which offers superior control and multiple submission options → Leads to [[Positions/Buggy Choke]]
+- **Opponent turns into the choke to face you and create defensive frames** (Effectiveness: Low) - Your Response: Switch grip configuration to darce or anaconda setup as their turning motion creates optimal head and arm positioning for those chokes → Leads to [[Positions/Half Guard]]
 
 
 </section>

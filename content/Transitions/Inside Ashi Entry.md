@@ -17,7 +17,7 @@ description: "Master Inside Ashi Entry in BJJ. Systematic leg entanglement entry
 
 Inside Ashi Entry is a fundamental transition in modern leg lock systems that establishes the inside position on your opponent's leg. This entry creates immediate offensive opportunities for inside heel hooks, straight ankle locks, and transitions to more dominant leg entanglements. The inside position refers to having your outside leg positioned between your opponent's legs, creating a wedge that controls their hip and prevents escape. This entry is particularly effective from seated guard, single leg X-guard, or when your opponent is standing in your open guard. The key to successful execution lies in proper angle creation, hip control, and timing the entry when your opponent's weight is committed forward. Inside Ashi is considered one of the safest leg entanglements to enter because it offers strong control while maintaining defensive integrity against counter leg attacks.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -28,9 +28,9 @@ Inside Ashi Entry is a fundamental transition in modern leg lock systems that es
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 65% |
-| Failure | [[Open Guard]] | 25% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 65% |
+| Failure | [[Positions/Open Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -193,29 +193,29 @@ Inside ashi entry serves as a critical gateway into the modern leg entanglement 
 ## Related Techniques
 
 
-- [[Inside Ashi-Garami]] - Destination position - where this entry leads
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Destination position - where this entry leads
 
-- [[Outside Ashi Entry]] - Alternative entry method to different leg entanglement
+- [[Transitions/Outside Ashi Entry]] - Alternative entry method to different leg entanglement
 
-- [[Single Leg X Entry]] - Prerequisite transition that facilitates easier inside ashi entry
+- [[Transitions/Single Leg X Entry]] - Prerequisite transition that facilitates easier inside ashi entry
 
-- [[X-Guard to Ashi Garami]] - Related transition connecting X-guard system to leg locks
+- [[Transitions/X-Guard to Ashi Garami]] - Related transition connecting X-guard system to leg locks
 
-- [[Saddle Entry from Top]] - Follow-up transition from inside ashi to more dominant entanglement
+- [[Transitions/Saddle Entry from Top]] - Follow-up transition from inside ashi to more dominant entanglement
 
-- [[Ashi Garami Escape]] - Counter technique that opponent uses to defend this entry
+- [[Transitions/Ashi Garami Escape]] - Counter technique that opponent uses to defend this entry
 
-- [[Inside Heel Hook]] - Primary submission available from inside ashi position
+- [[Submissions/Inside Heel Hook]] - Primary submission available from inside ashi position
 
-- [[Straight Ankle Lock]] - Secondary submission option from inside ashi
+- [[Submissions/Straight Ankle Lock]] - Secondary submission option from inside ashi
 
-- [[Heel Grab Sweep]] - Alternative technique when inside ashi entry is defended
+- [[Transitions/Heel Grab Sweep]] - Alternative technique when inside ashi entry is defended
 
-- [[De La Riva to X-Guard Transition]] - Related entry method from similar guard position
+- [[Transitions/De La Riva to X-Guard Transition]] - Related entry method from similar guard position
 
-- [[Kiss of the Dragon]] - Advanced entry method that can transition to inside ashi
+- [[Transitions/Kiss of the Dragon]] - Advanced entry method that can transition to inside ashi
 
-- [[50-50 Guard]] - Neutral position that often results from inside ashi scrambles
+- [[Positions/Ashi Garami/50-50 Guard]] - Neutral position that often results from inside ashi scrambles
 
 
 </section>

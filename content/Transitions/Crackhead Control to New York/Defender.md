@@ -158,7 +158,7 @@ As the top player trapped in Crackhead Control, you must develop sensitivity to 
 
 Your defensive strategy should be calibrated to the transition's progress. Early intervention during the initial shin grip release offers the highest success percentage for full escape. Mid-transition intervention as the leg slides can still yield posture recovery. Late intervention after the New York shin grip is re-established requires you to address New York's control structure directly, which is a significantly harder defensive problem. Timing your response to the earliest possible recognition cue is therefore the single most important defensive skill for this scenario.
 
-**Opponent's Starting Position**: [[Crackhead Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Your defensive strategy should be calibrated to the transition's progress. Early
 ### 1. Explosive posture recovery during shin grip release - drive chest up and hips back the instant you feel the controlling leg lighten
 
 - **When to use**: The moment you feel the shin grip release and the controlling leg begins to shift - this is the highest percentage window for escape
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover full posture and the bottom player's rubber guard collapses to standard closed guard, dramatically reducing their offensive options
 - **Risk**: If you mistime the posture attempt, the bottom player may use your upward movement to accelerate their transition to New York or shoot for a triangle
 
 ### 2. Forward drive and stack pressure during leg repositioning - drive your weight forward and down to flatten the bottom player before they complete the transition
 
 - **When to use**: When you feel the leg sliding but the shin grip has not been re-established yet, typically 0.5-1 second into the transition
-- **Targets**: [[Crackhead Control]]
+- **Targets**: [[Positions/Crackhead Control]]
 - **If successful**: You prevent the New York position from being established and force the bottom player back into Crackhead Control where their leg is out of position, creating a scramble opportunity
 - **Risk**: Forward driving can assist Carni or Chill Dog entries if the bottom player reads your pressure and redirects to those transitions
 
 ### 3. Overhook extraction by pulling elbow sharply toward your hip while the bottom player's attention is divided between leg mechanics and arm control
 
 - **When to use**: During the mid-transition phase when the bottom player is focused on repositioning their leg and their overhook maintenance is at its weakest
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You free your trapped arm and can immediately begin guard passing or at minimum recover to standard closed guard top with full mobility
 - **Risk**: If extraction fails, the bottom player may tighten the overhook even deeper and complete the New York transition with enhanced control
 
 ### 4. Contest the shin re-grip by using your free hand to block or strip the bottom player's hand as they reach for their ankle to complete New York
 
 - **When to use**: Late in the transition when the leg has already repositioned but the shin grip has not yet been re-established
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Without the shin grip, the New York position cannot consolidate and the bottom player's leg slides off your back, returning to open or closed guard
 - **Risk**: Reaching to contest the grip temporarily reduces your base and can expose you to sweeps if the bottom player capitalizes on your weight shift
 
@@ -229,7 +229,7 @@ Your defensive strategy should be calibrated to the transition's progress. Early
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time your posture recovery to the exact moment the shin grip releases. Drive your chest forward and up while pushing your hips back, using your free hand to frame on their hip. The bottom player's controlling leg is in transit and cannot resist your posture recovery. Once posture is established, the rubber guard structure collapses to standard closed guard where you have significantly better defensive and passing options.
 

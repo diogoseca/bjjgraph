@@ -154,7 +154,7 @@ description: "Master defending against the hip escape from back control in BJJ. 
 
 As the back controller defending against the hip escape, your objective is to maintain all three layers of positional control while preventing the bottom player from executing their sequential escape. You must recognize the escape attempt early through tactile cues like hip scooting, grip fighting on your seatbelt arm, and frame establishment against your hip. The most critical defensive principle is following the opponent's hip movement with your own hips to maintain chest-to-back connection, which denies them the space needed to clear hooks and rotate. When the escape progresses past your ability to maintain back control, having a prepared transition to mount converts a defensive situation into continued dominant positioning rather than a scramble.
 
-**Opponent's Starting Position**: [[Back Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ As the back controller defending against the hip escape, your objective is to ma
 ### 1. Drive hips forward and tighten hooks to follow the opponent's hip scooting movement
 
 - **When to use**: Immediately when you feel the bottom player begin sliding their hips downward, before they create significant separation from your hooks
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Maintains back control with hooks intact, negating the escape progress and forcing them to restart the escape sequence
 - **Risk**: If you over-commit hips forward without maintaining upper body control, the bottom player may use the momentum to accelerate their rotation
 
 ### 2. Transition to mount by following the opponent's rotation and swinging your top leg over their body
 
 - **When to use**: When the bottom player has cleared one or both hooks and begun rotating but has not yet established guard, creating a window for mount transition
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Converts from a deteriorating back control position to a dominant mount position, maintaining top position and scoring advantage
 - **Risk**: If the opponent is prepared for this transition and has their knee ready to block, you may end up in half guard rather than full mount
 
 ### 3. Attack rear naked choke or collar choke during the escape transition to force the opponent back into neck defense
 
 - **When to use**: When the bottom player releases their two-on-one grip on your choking arm to establish frames or fight hooks, creating a momentary window for choke entry
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Forces the opponent to abandon all escape progress and return to full neck defense with both hands, resetting their escape to phase one
 - **Risk**: Committing fully to the choke may loosen your hooks and seatbelt control, accelerating the escape if the choke attempt fails
 
 ### 4. Re-establish seatbelt grip by threading your arm back across their neck when they redirect focus to hook removal
 
 - **When to use**: During the phase when the bottom player shifts both hands from your choking arm to fighting hooks or establishing frames against your hip
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Restores upper body control and forces the opponent to restart from the seatbelt stripping phase, undoing their escape progress
 - **Risk**: If the bottom player has already cleared hooks, re-establishing the seatbelt without hook control provides incomplete back control that is easier to escape
 
@@ -224,11 +224,11 @@ As the back controller defending against the hip escape, your objective is to ma
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Follow the opponent's hip scooting with your own hip drive to maintain chest-to-back connection. Re-insert hooks immediately when they loosen and maintain active seatbelt control throughout their hand fighting attempts. Threaten submissions during transitions to force them back into neck defense.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the opponent has progressed the escape past the point where back control is maintainable, capitalize on their rotation by following their turn and transitioning to mount. As they rotate to face you, swing your top leg over their body before they can insert a knee for half guard. This converts a losing back control position into a dominant mount.
 

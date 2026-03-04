@@ -154,7 +154,7 @@ description: "Complete guide to defending against butterfly hook control passes 
 
 As the butterfly guard player, defending against passes requires proactive hook management, posture maintenance, and timing awareness. Your primary defensive strategy is maintaining the structural integrity of your guard—upright posture, active hooks, and strong upper body grips—because the pass succeeds when any of these elements are compromised. When the passer begins to neutralize your hooks, you must decide between re-establishing your guard, committing to a sweep, or transitioning to an alternative guard position. The earlier you recognize the passing attempt, the more options you retain. Late recognition forces increasingly desperate defensive measures with lower success rates.
 
-**Opponent's Starting Position**: [[Butterfly Hook Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the butterfly guard player, defending against passes requires proactive hook 
 ### 1. Re-insert hooks by hip escaping and pumping hooks deep before passer consolidates the pin
 
 - **When to use**: When passer has just begun to address hooks but has not yet fully pinned them to the mat—the first one to two seconds of hook engagement
-- **Targets**: [[Butterfly Hook Control]]
+- **Targets**: [[Positions/Butterfly Guard/Butterfly Hook Control]]
 - **If successful**: Full guard retention with hooks re-established and opportunity to counter-attack with improved grip awareness
 - **Risk**: If timing is late, you waste energy fighting against an established pin and your escape window for alternative guards closes
 
 ### 2. Execute explosive hook sweep in opposite direction of passer's weight shift during their pass commitment
 
 - **When to use**: When passer commits weight laterally to clear hooks, creating momentary imbalance in the opposite direction with their base compromised
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Complete sweep reversal—you end up on top in mount or side control with full positional advantage
 - **Risk**: If sweep fails, passer uses your extended hook position to clear them completely and accelerates the pass completion
 
 ### 3. Transition to half guard by inserting knee shield as passer clears your near-side hook
 
 - **When to use**: When near-side hook is fully compromised and re-insertion is not possible, but passer has not yet cleared the far-side hook or achieved crossbody position
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Establish knee shield half guard with underhook access, creating a strong defensive position with sweep options from half guard
 - **Risk**: If knee shield is not established quickly enough, passer completes the pass directly to side control without any guard retention
 
 ### 4. Frame against passer's shoulders and shrimp to create distance for full guard structure reset
 
 - **When to use**: When both hooks are partially compromised but passer has not yet achieved crossbody position or full hook elimination
-- **Targets**: [[Butterfly Hook Control]]
+- **Targets**: [[Positions/Butterfly Guard/Butterfly Hook Control]]
 - **If successful**: Reset distance and re-establish hooks with improved grips before passer can close distance and resume the pass
 - **Risk**: Extended arms during framing expose arm drag opportunities and potential submission entries for the passer
 
@@ -225,11 +225,11 @@ As the butterfly guard player, defending against passes requires proactive hook 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Time an explosive hook sweep precisely when the passer shifts weight laterally during their pass attempt. The moment they commit to one side to pin a hook, their opposite side becomes light. Use your upper body grip to pull them into the sweep direction while elevating aggressively with the hook on their light side. This is the highest-value defensive outcome.
 
-### → [[Butterfly Hook Control]]
+### → [[Positions/Butterfly Guard/Butterfly Hook Control]]
 
 Maintain active hook pressure and strong upper body grips throughout the exchange. When the passer attempts to pin your near-side hook, hip escape to create distance and immediately re-insert the hook before they can follow with consolidated pressure. The key is keeping your posture upright so hooks retain maximum elevation power for both defense and counter-attack.
 

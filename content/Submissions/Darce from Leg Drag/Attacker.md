@@ -182,7 +182,7 @@ description: "Master the Darce choke attack from leg drag control. Step-by-step 
 
 Attacking the Darce choke from leg drag control requires precise timing and understanding of the mechanical relationship between the passing position and the choking mechanism. The leg drag creates a powerful platform for this submission because you already control your opponent's hips and have established a dominant angle. Your primary task is recognizing the moment your opponent commits to turning into you—this reaction, while a sound defensive instinct against the back take, opens the neck-armpit channel that the Darce requires. The key distinction from other Darce entries is that the leg drag provides continuous control throughout the entire submission sequence, preventing the opponent from creating distance or rolling free. Threading the arm must be decisive and deep; half-committed attempts allow the opponent to tuck their chin or frame against your shoulder. Once the figure-four grip is secured, finishing pressure comes from your hips and body positioning rather than arm strength, making this a sustainable and efficient submission that larger opponents cannot simply muscle out of.
 
-**From Position**: [[Leg Drag Control]] (Top)
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 
 
 </section>
@@ -236,9 +236,9 @@ Attacking the Darce choke from leg drag control requires precise timing and unde
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Failure | [[Side Control]] | 15% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Failure | [[Positions/Side Control]] | 15% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -247,11 +247,11 @@ Attacking the Darce choke from leg drag control requires precise timing and unde
 
 ## Opponent Defenses
 
-- **Opponent tucks chin and blocks arm threading with jaw and shoulder shrug** (Effectiveness: High) - Your Response: Use your free hand to clear their chin by pushing their forehead or jaw up while simultaneously driving your threading arm deeper. If chin tuck is too strong, switch to crossface and re-establish pressure to force them to open up again. → Leads to [[Leg Drag Control]]
-- **Opponent postures up and creates distance before the figure-four grip is secured** (Effectiveness: High) - Your Response: Follow their posture by driving forward with your hips and maintaining chest connection. If they create significant space, abandon the Darce and transition to side control consolidation or re-establish leg drag control with crossface pressure. → Leads to [[Side Control]]
-- **Opponent grabs the threading arm with both hands and fights the grip before lock is completed** (Effectiveness: Medium) - Your Response: Use your body weight to drive through their grip resistance while maintaining the threading depth. Pull your elbow tight to your body and use hip pressure to break their grip. If they commit both hands to grip fighting, their position becomes vulnerable to back take. → Leads to [[Leg Drag Control]]
-- **Opponent rolls through the choke attempt using momentum to create scramble** (Effectiveness: Medium) - Your Response: Follow the roll by maintaining the grip and adjusting your hip position to the new angle. Often the roll actually tightens the choke if you maintain the figure-four. Stay heavy on top and do not let them complete the roll to a position where they can face you. → Leads to [[Half Guard]]
-- **Opponent extracts the trapped arm from inside the choke, converting it to a loose headlock** (Effectiveness: High) - Your Response: If the arm escapes, the Darce loses most of its effectiveness. Immediately reassess—you may be able to convert to an anaconda choke by switching the grip direction, or release and transition to side control to maintain positional dominance. → Leads to [[Side Control]]
+- **Opponent tucks chin and blocks arm threading with jaw and shoulder shrug** (Effectiveness: High) - Your Response: Use your free hand to clear their chin by pushing their forehead or jaw up while simultaneously driving your threading arm deeper. If chin tuck is too strong, switch to crossface and re-establish pressure to force them to open up again. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent postures up and creates distance before the figure-four grip is secured** (Effectiveness: High) - Your Response: Follow their posture by driving forward with your hips and maintaining chest connection. If they create significant space, abandon the Darce and transition to side control consolidation or re-establish leg drag control with crossface pressure. → Leads to [[Positions/Side Control]]
+- **Opponent grabs the threading arm with both hands and fights the grip before lock is completed** (Effectiveness: Medium) - Your Response: Use your body weight to drive through their grip resistance while maintaining the threading depth. Pull your elbow tight to your body and use hip pressure to break their grip. If they commit both hands to grip fighting, their position becomes vulnerable to back take. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent rolls through the choke attempt using momentum to create scramble** (Effectiveness: Medium) - Your Response: Follow the roll by maintaining the grip and adjusting your hip position to the new angle. Often the roll actually tightens the choke if you maintain the figure-four. Stay heavy on top and do not let them complete the roll to a position where they can face you. → Leads to [[Positions/Half Guard]]
+- **Opponent extracts the trapped arm from inside the choke, converting it to a loose headlock** (Effectiveness: High) - Your Response: If the arm escapes, the Darce loses most of its effectiveness. Immediately reassess—you may be able to convert to an anaconda choke by switching the grip direction, or release and transition to side control to maintain positional dominance. → Leads to [[Positions/Side Control]]
 
 
 </section>

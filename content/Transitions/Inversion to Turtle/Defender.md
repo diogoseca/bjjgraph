@@ -158,7 +158,7 @@ The critical defensive window occurs during the initial phase of your opponent's
 
 Successful defense requires reading the telegraphed signs of the escape—changes in your opponent's foot position, hand placement on your knee, and hip shifting. By recognizing these cues early, you can preemptively tighten control, transition to a more dominant entanglement, or time your submission attempt to catch them during the most vulnerable phase of their rotation. The defender who can shut down inversion escapes forces the bottom player into increasingly desperate alternatives, systematically closing their escape options.
 
-**Opponent's Starting Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -197,28 +197,28 @@ Successful defense requires reading the telegraphed signs of the escape—change
 ### 1. Step your inside leg through to deepen entanglement toward saddle configuration
 
 - **When to use**: When you feel opponent's hands shift to your inside knee and their hips begin rotating away, but before full rotational momentum develops
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: You transition to saddle, a significantly more dominant leg entanglement with higher submission probability and fewer escape options for your opponent
 - **Risk**: If you step through too slowly, their rotation strips your leg and they complete the turtle escape cleanly
 
 ### 2. Follow the rotation and transition to back control as they complete turtle
 
 - **When to use**: When the rotation has already developed significant momentum and preventing turtle is no longer viable, but you can maintain upper body proximity
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You abandon the leg entanglement but gain back exposure with seatbelt control, converting a lost leg attack into a dominant positional advantage
 - **Risk**: If they establish tight turtle before you secure upper body grips, you end up in a neutral scramble with no offensive advantage
 
 ### 3. Accelerate heel hook finish during the rotation window
 
 - **When to use**: When opponent initiates rotation but their dorsiflexion weakens during the movement or their attention shifts away from heel protection
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: You catch the heel hook finish during the escape attempt, submitting your opponent during their most vulnerable moment when defensive focus is split between escaping and protecting
 - **Risk**: Committing to the finish while they rotate may cause you to lose all entanglement if the submission does not connect, leaving you with nothing
 
 ### 4. Block rotation by pinning their free hip with your hand while maintaining outside leg pressure
 
 - **When to use**: Early in the escape attempt before significant rotational momentum develops, when you detect their free leg positioning against your hip
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: You shut down the escape entirely, maintaining Ushiro Ashi-Garami with your opponent now having wasted energy and grip fighting capital on a failed attempt
 - **Risk**: Using a hand to block their hip means releasing one grip from their leg, potentially allowing them to improve heel protection or change escape direction
 
@@ -230,11 +230,11 @@ Successful defense requires reading the telegraphed signs of the escape—change
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ushiro Ashi-Garami]]
+### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Block the rotation before it develops momentum by maintaining heavy inside leg pressure and pinning their free hip. When you detect the escape setup, preemptively tighten your leg configuration and address their hand position on your knee. Forcing them to remain in Ushiro means they must attempt a different, potentially less effective escape.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 When the opponent commits to rotation, use their movement as an opportunity to step your inside leg through and deepen the entanglement to saddle. Their rotational attempt creates space that you can fill with your advancing leg. Time the step-through to coincide with the early phase of their rotation before momentum prevents your inside leg from advancing.
 

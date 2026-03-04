@@ -22,8 +22,8 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Closed Guard]]
-**From Position**: [[Closed Guard]] (Bottom)
+**Starting Position**: [[Positions/Closed Guard]]
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -76,8 +76,8 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -235,16 +235,16 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 ## From Which Positions?
 
-- [[Closed Guard]]
-- [[Open Guard]]
-- [[Spider Guard]]
-- [[Lasso Guard]]
-- [[Collar Sleeve Guard]]
-- [[Rubber Guard]]
-- [[Half Guard]]
-- [[Butterfly Guard]]
-- [[De La Riva Guard]]
-- [[Triangle Control]]
+- [[Positions/Closed Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/Spider Guard]]
+- [[Positions/Lasso Guard]]
+- [[Positions/Collar Sleeve Guard]]
+- [[Positions/Rubber Guard]]
+- [[Positions/Half Guard]]
+- [[Positions/Butterfly Guard]]
+- [[Positions/De La Riva Guard]]
+- [[Positions/Triangle Control]]
 
 
 </section>
@@ -253,16 +253,16 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 ## Related Submissions
 
-- [[Omoplata]]
-- [[Triangle Choke]]
-- [[Triangle from Closed Guard]]
-- [[Armbar from Guard]]
-- [[Rolling Omoplata]]
-- [[Kimura]]
-- [[Gogoplata]]
-- [[Baratoplata]]
-- [[Kimura from Guard]]
-- [[Inverted Triangle]]
+- [[Transitions/Omoplata]]
+- [[Transitions/Triangle Choke]]
+- [[Submissions/Triangle from Closed Guard]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Rolling Omoplata]]
+- [[Transitions/Kimura]]
+- [[Transitions/Gogoplata]]
+- [[Transitions/Baratoplata]]
+- [[Submissions/Kimura from Guard]]
+- [[Transitions/Inverted Triangle]]
 
 
 </section>
@@ -271,17 +271,17 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 ## Additional Related Content
 
-- [[Omoplata Sweep]] - Primary sweep when opponent rolls forward to escape submission pressure
-- [[Omoplata to Back]] - Transition when opponent turns away from shoulder pressure to expose their back
-- [[Spider Guard]] - High-percentage entry using foot-on-bicep control to facilitate leg swing
-- [[Triangle Setup]] - Alternative submission when opponent defends Omoplata by posturing or when entry fails
-- [[Closed Guard to Omoplata]] - Primary transition covering entries from closed guard position
-- [[Triangle to Omoplata]] - Chain submission when Triangle is defended with good posture
-- [[Closed Guard to Triangle]] - Related attack chain from closed guard sharing similar control concepts
-- [[Closed Guard]] - Primary starting position for establishing Omoplata control
-- [[Omoplata Control]] - Control position established before finishing the submission
-- [[Back Control]] - Alternative finish when opponent turns away from shoulder pressure
-- [[Mount]] - Sweep destination when opponent rolls forward to escape
+- [[Transitions/Omoplata Sweep]] - Primary sweep when opponent rolls forward to escape submission pressure
+- [[Transitions/Omoplata to Back]] - Transition when opponent turns away from shoulder pressure to expose their back
+- [[Positions/Spider Guard]] - High-percentage entry using foot-on-bicep control to facilitate leg swing
+- [[Transitions/Triangle Setup]] - Alternative submission when opponent defends Omoplata by posturing or when entry fails
+- [[Transitions/Closed Guard to Omoplata]] - Primary transition covering entries from closed guard position
+- [[Transitions/Triangle to Omoplata]] - Chain submission when Triangle is defended with good posture
+- [[Transitions/Closed Guard to Triangle]] - Related attack chain from closed guard sharing similar control concepts
+- [[Positions/Closed Guard]] - Primary starting position for establishing Omoplata control
+- [[Positions/Omoplata Control]] - Control position established before finishing the submission
+- [[Positions/Back Control]] - Alternative finish when opponent turns away from shoulder pressure
+- [[Positions/Mount]] - Sweep destination when opponent rolls forward to escape
 
 
 </section>

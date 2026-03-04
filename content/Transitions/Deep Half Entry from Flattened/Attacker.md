@@ -186,7 +186,7 @@ description: "Learn to execute the Deep Half Entry from Flattened Half Guard. St
 
 As the attacker executing the Deep Half Entry, you are the bottom player trapped in flattened half guard seeking to transform a desperate defensive position into an offensive deep half guard. Your primary challenge is creating enough hip movement to thread your body underneath the top player's base while they apply crushing forward pressure. The technique demands precise timing: you must identify moments when the top player shifts weight to advance or adjust, then exploit that brief window to dive beneath their hips. Success depends on your ability to remain calm under pressure, recognize the timing window, and commit fully to the entry motion once initiated. Half-measures result in being stuck in an even worse position than where you started.
 
-**From Position**: [[Flattened Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the attacker executing the Deep Half Entry, you are the bottom player trapped
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Deep Half Guard]] | 55% |
-| Failure | [[Flattened Half Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard/Deep Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the attacker executing the Deep Half Entry, you are the bottom player trapped
 
 ## Opponent Counters
 
-- **Top player drives crossface harder and sprawls hips back to prevent hip turn** (Effectiveness: High) - Your Response: Wait for a better timing window rather than forcing the entry. Use micro hip escapes to gradually create angle, or switch to frame recovery and knee shield re-establishment if the crossface prevents all hip movement. → Leads to [[Flattened Half Guard]]
-- **Top player recognizes the arm thread and whizzers the threading arm to prevent underhook establishment** (Effectiveness: Medium) - Your Response: Use the whizzer pressure to assist your rotation since the whizzer drives your arm deeper. Circle your hand past their whizzer control and re-establish the underhook from a deeper angle beneath their hip. → Leads to [[Flattened Half Guard]]
-- **Top player backsteps during the entry to extract their leg and pass to side control** (Effectiveness: High) - Your Response: If you feel the backstep beginning, immediately abandon the deep half entry and follow their hip with your legs, transitioning to single leg X-guard or open guard retention. Chase their leg with your hooks rather than committing to a position they are already escaping. → Leads to [[Side Control]]
-- **Top player drops hip weight down when they feel the dive beginning, removing the space underneath** (Effectiveness: Medium) - Your Response: Use the hip drop as a trigger to execute a different escape. Their lowered hips create an opportunity for an elbow escape to knee shield since their pressure angle changes from forward to downward, reducing the crossface effectiveness. → Leads to [[Flattened Half Guard]]
+- **Top player drives crossface harder and sprawls hips back to prevent hip turn** (Effectiveness: High) - Your Response: Wait for a better timing window rather than forcing the entry. Use micro hip escapes to gradually create angle, or switch to frame recovery and knee shield re-establishment if the crossface prevents all hip movement. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Top player recognizes the arm thread and whizzers the threading arm to prevent underhook establishment** (Effectiveness: Medium) - Your Response: Use the whizzer pressure to assist your rotation since the whizzer drives your arm deeper. Circle your hand past their whizzer control and re-establish the underhook from a deeper angle beneath their hip. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Top player backsteps during the entry to extract their leg and pass to side control** (Effectiveness: High) - Your Response: If you feel the backstep beginning, immediately abandon the deep half entry and follow their hip with your legs, transitioning to single leg X-guard or open guard retention. Chase their leg with your hooks rather than committing to a position they are already escaping. → Leads to [[Positions/Side Control]]
+- **Top player drops hip weight down when they feel the dive beginning, removing the space underneath** (Effectiveness: Medium) - Your Response: Use the hip drop as a trigger to execute a different escape. Their lowered hips create an opportunity for an elbow escape to knee shield since their pressure angle changes from forward to downward, reducing the crossface effectiveness. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 
 
 </section>

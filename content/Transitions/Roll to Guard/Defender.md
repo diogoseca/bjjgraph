@@ -156,7 +156,7 @@ Defending the Roll to Guard escape requires the back control player to recognize
 
 The defender's advantage lies in understanding that the roll to guard requires specific conditions - forward space, weakened grip structure, and committed momentum. By denying these conditions through proactive pressure, tight harness maintenance, and strategic hook placement, you force your opponent to abandon the roll attempt and return to less dynamic escape methods that are easier to counter. When the roll does initiate, your ability to drive your hips forward, follow the rotation, and maintain chest-to-back connection determines whether your opponent successfully escapes or merely repositions while you retain control.
 
-**Opponent's Starting Position**: [[Harness]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Harness]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ The defender's advantage lies in understanding that the roll to guard requires s
 ### 1. Flatten opponent by driving hips forward and spreading weight wide across their back to eliminate rolling space
 
 - **When to use**: When you recognize early grip fighting patterns on your choking arm and opponent begins tucking chin - act before roll initiates
-- **Targets**: [[Harness]]
+- **Targets**: [[Positions/Harness]]
 - **If successful**: Opponent's roll attempt is denied before initiation, maintaining your harness position with opportunity to re-tighten control and attack
 - **Risk**: If you over-commit weight forward, opponent may redirect into a different escape such as turning into you for guard recovery
 
 ### 2. Follow the roll by driving your hips into opponent's hips and matching their rotation with your own forward pressure throughout the movement
 
 - **When to use**: When roll has already initiated and you cannot prevent it - commit to following rather than resisting the momentum
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You maintain back control throughout the roll and end up in back mount or re-established harness after the rotation completes
 - **Risk**: If opponent accelerates the diagonal angle, you may lose chest contact and end up in scramble rather than maintained control
 
 ### 3. Release harness and transition to front headlock by circling to opponent's head as they roll forward, establishing a snap-down and guillotine threat
 
 - **When to use**: When roll is committed and following is not viable - opponent has created significant separation and angle during the roll
-- **Targets**: [[Harness]]
+- **Targets**: [[Positions/Harness]]
 - **If successful**: You transition from back control to front headlock, maintaining a dominant position with choke threats rather than conceding guard
 - **Risk**: If opponent continues rolling through to guard before you establish front headlock, you lose dominant position entirely
 
 ### 4. Lock body triangle to eliminate hip freedom and prevent the rotation mechanics needed for the roll
 
 - **When to use**: Proactively when you recognize opponent is systematically working toward roll escape through grip fighting and hook clearing
-- **Targets**: [[Harness]]
+- **Targets**: [[Positions/Harness]]
 - **If successful**: Body triangle completely shuts down roll to guard by locking opponent's hips in place, forcing them to address body triangle before any rolling attempt
 - **Risk**: Body triangle commitment reduces your ability to adjust hooks if opponent switches to a different escape method
 
@@ -228,11 +228,11 @@ The defender's advantage lies in understanding that the roll to guard requires s
 
 ## Best-Case Outcomes for Defender
 
-### → [[Harness]]
+### → [[Positions/Harness]]
 
 Deny the roll before it starts by maintaining constant forward pressure, keeping harness grip tight with hands clasped high, and using hooks to control opponent's hip rotation. When you feel the two-on-one grip fight intensify, immediately drive hips forward and widen your base to eliminate rolling space.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 If the roll initiates, follow the rotation by driving your hips forward into opponent's hips and maintaining chest-to-back connection throughout the movement. Match their speed and angle, keeping your hooks engaged. As the roll completes, immediately re-establish full back control with both hooks and tightened harness before opponent can turn to face you.
 

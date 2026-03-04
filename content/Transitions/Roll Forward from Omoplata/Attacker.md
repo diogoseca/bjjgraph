@@ -180,7 +180,7 @@ description: "Complete guide to executing the Roll Forward from Omoplata. Step-b
 
 As the attacker executing the Roll Forward from Omoplata, you are converting your established bottom-position shoulder control into a top-position sweep. Your legs have already isolated the opponent's shoulder through the omoplata configuration, and now you leverage that control to drive forward, rolling over the trapped shoulder to transition from guard to side control. The key to success lies in timing the roll when the opponent's base is compromised and maintaining continuous pressure on the shoulder throughout the transition. This technique rewards patience and positional awareness over raw athleticism. Rushing the roll without proper setup leads to scrambles where you lose the omoplata without gaining position, while waiting for the correct moment and securing the steering grip yields clean positional advancement with potential to maintain the shoulder attack even after reaching side control. The roll forward is most effective when integrated into the complete omoplata threat system, where the opponent cannot focus solely on defending the sweep without opening the submission finish or the back take.
 
-**From Position**: [[Omoplata Control]] (Bottom)
+**From Position**: [[Positions/Omoplata Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Roll Forward from Omoplata, you are converting you
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Omoplata Control]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Omoplata Control]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Roll Forward from Omoplata, you are converting you
 
 ## Opponent Counters
 
-- **Opponent posts free hand wide and sprawls hips back to resist the forward rolling momentum** (Effectiveness: High) - Your Response: If the opponent sprawls effectively, abandon the roll and return to standard omoplata finishing mechanics by increasing shoulder rotation pressure, or redirect force laterally to execute the omoplata sweep instead of the forward roll → Leads to [[Omoplata Control]]
-- **Opponent turns into the roll and begins recovering guard during the mid-roll transition phase** (Effectiveness: Medium) - Your Response: Maintain belt grip throughout the roll and land with immediate heavy chest pressure to prevent knee insertion. If guard recovery begins, use the rolling momentum to transition directly into a passing sequence rather than stopping to fight from a stalled position → Leads to [[Open Guard]]
-- **Opponent extracts trapped arm by pulling elbow tight to their body during the rolling motion** (Effectiveness: High) - Your Response: If arm extraction begins mid-roll, increase shin pressure across the back and accelerate the roll to complete the positional advancement even without the omoplata. Focus on achieving the top position and establishing side control rather than fighting to maintain the shoulder lock on a freeing arm → Leads to [[Omoplata Control]]
-- **Opponent sits back suddenly and creates distance by driving hips away, breaking hip connection** (Effectiveness: Medium) - Your Response: If the opponent creates distance by sitting back, follow them with your hips and convert the forward roll into the standard omoplata sweep by leveraging remaining shoulder control. Alternatively, transition to a back take if they turn away while creating distance → Leads to [[Omoplata Control]]
+- **Opponent posts free hand wide and sprawls hips back to resist the forward rolling momentum** (Effectiveness: High) - Your Response: If the opponent sprawls effectively, abandon the roll and return to standard omoplata finishing mechanics by increasing shoulder rotation pressure, or redirect force laterally to execute the omoplata sweep instead of the forward roll → Leads to [[Positions/Omoplata Control]]
+- **Opponent turns into the roll and begins recovering guard during the mid-roll transition phase** (Effectiveness: Medium) - Your Response: Maintain belt grip throughout the roll and land with immediate heavy chest pressure to prevent knee insertion. If guard recovery begins, use the rolling momentum to transition directly into a passing sequence rather than stopping to fight from a stalled position → Leads to [[Positions/Open Guard]]
+- **Opponent extracts trapped arm by pulling elbow tight to their body during the rolling motion** (Effectiveness: High) - Your Response: If arm extraction begins mid-roll, increase shin pressure across the back and accelerate the roll to complete the positional advancement even without the omoplata. Focus on achieving the top position and establishing side control rather than fighting to maintain the shoulder lock on a freeing arm → Leads to [[Positions/Omoplata Control]]
+- **Opponent sits back suddenly and creates distance by driving hips away, breaking hip connection** (Effectiveness: Medium) - Your Response: If the opponent creates distance by sitting back, follow them with your hips and convert the forward roll into the standard omoplata sweep by leveraging remaining shoulder control. Alternatively, transition to a back take if they turn away while creating distance → Leads to [[Positions/Omoplata Control]]
 
 
 </section>

@@ -21,7 +21,7 @@ The technique is particularly effective in BJJ because it requires minimal stren
 
 In the BJJ context, Deashi Harai serves as both a scoring takedown and a strategic tool for controlling the pace of engagement. It works exceptionally well against opponents who use aggressive forward pressure or attempt to establish collar-and-sleeve grips, as these actions naturally create the weight transfer necessary for the sweep to succeed. The technique also chains effectively with other foot sweeps and throws, creating a comprehensive standup system that keeps opponents defensive and hesitant.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Failure | [[Standing Position]] | 20% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Side Control]] | 70% |
+| Failure | [[Positions/Standing Position]] | 20% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -196,27 +196,27 @@ Deashi Harai serves as a fundamental component of a complete BJJ standup system,
 ## Related Techniques
 
 
-- [[Kosoto Gari]] - Alternative sweep targeting rear leg when Deashi Harai is defended
+- [[Transitions/Kosoto Gari]] - Alternative sweep targeting rear leg when Deashi Harai is defended
 
-- [[Kouchi Gari]] - Combination technique that works inside while Deashi Harai works outside
+- [[Transitions/Kouchi Gari]] - Combination technique that works inside while Deashi Harai works outside
 
-- [[Sasae Tsurikomi Ashi]] - Similar foot sweep with blocking action rather than sweeping motion
+- [[Transitions/Sasae Tsurikomi Ashi]] - Similar foot sweep with blocking action rather than sweeping motion
 
-- [[Osoto Gari]] - Follow-up technique when opponent steps back to defend Deashi Harai
+- [[Transitions/Osoto Gari]] - Follow-up technique when opponent steps back to defend Deashi Harai
 
-- [[Single Leg Entry]] - Alternative takedown when foot sweeps are consistently defended
+- [[Transitions/Single Leg Entry]] - Alternative takedown when foot sweeps are consistently defended
 
-- [[Snap Down to Front Headlock]] - Setup technique that creates forward pressure for Deashi Harai opportunity
+- [[Transitions/Snap Down to Front Headlock]] - Setup technique that creates forward pressure for Deashi Harai opportunity
 
-- [[Guard Pull]] - Alternative engagement strategy that can be facilitated by Deashi Harai off-balancing
+- [[Transitions/Guard Pull]] - Alternative engagement strategy that can be facilitated by Deashi Harai off-balancing
 
-- [[Side Control]] - Primary position to establish after successful Deashi Harai execution
+- [[Positions/Side Control]] - Primary position to establish after successful Deashi Harai execution
 
-- [[Front Headlock]] - Backup position when opponent sprawls in defense of sweep
+- [[Positions/Front Headlock]] - Backup position when opponent sprawls in defense of sweep
 
-- [[Sprawl]] - Essential takedown defense technique; understanding sprawl mechanics helps recognize when opponent is vulnerable to foot sweeps during recovery
+- [[Transitions/Sprawl]] - Essential takedown defense technique; understanding sprawl mechanics helps recognize when opponent is vulnerable to foot sweeps during recovery
 
-- [[Standing Position]] - Starting position and reset point when sweep attempt fails
+- [[Positions/Standing Position]] - Starting position and reset point when sweep attempt fails
 
 
 </section>

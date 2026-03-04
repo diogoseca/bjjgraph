@@ -21,7 +21,7 @@ The technique centers on explosive bridging at the precise moment the top player
 
 Strategically, this technique serves as both a direct escape method and a positional disruption tool within a layered defensive system. Even unsuccessful bridges force the top player to address base stability, momentarily reducing their finishing pressure and creating windows for alternative escapes such as frame-based hip movement or arm extraction. Advanced practitioners chain the bridge defense with shrimp escapes and elbow-knee frames to create multi-layered defensive sequences that systematically degrade the mounted triangle control. The bridge is highest-percentage when executed early, before the triangle is fully locked and cinched, making recognition and reaction speed essential defensive attributes.
 
-**From Position**: [[Mounted Triangle]] (Bottom)
+**From Position**: [[Positions/Mount/Mounted Triangle]] (Bottom)
 **Success Rate**: 35%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, this technique serves as both a direct escape method and a positi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 35% |
-| Success | [[Half Guard]] | 5% |
-| Failure | [[Mounted Triangle]] | 35% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Mount]] | 35% |
+| Success | [[Positions/Half Guard]] | 5% |
+| Failure | [[Positions/Mount/Mounted Triangle]] | 35% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -196,25 +196,25 @@ The bridge defense from mounted triangle occupies a critical niche within the de
 ## Related Techniques
 
 
-- [[Mounted Triangle]] - Source position where this escape is attempted from bottom
+- [[Positions/Mount/Mounted Triangle]] - Source position where this escape is attempted from bottom
 
-- [[Mount]] - Primary destination position on successful bridge escape
+- [[Positions/Mount]] - Primary destination position on successful bridge escape
 
-- [[Half Guard]] - Alternate favorable destination when bridge chains into guard recovery
+- [[Positions/Half Guard]] - Alternate favorable destination when bridge chains into guard recovery
 
-- [[Back Control]] - Counter outcome when opponent takes back during bridge attempt
+- [[Positions/Back Control]] - Counter outcome when opponent takes back during bridge attempt
 
-- [[Upa Escape]] - Related bridge-based escape sharing similar mechanics from mount positions
+- [[Transitions/Upa Escape]] - Related bridge-based escape sharing similar mechanics from mount positions
 
-- [[Elbow Escape to Guard]] - Complementary systematic escape that chains well after a bridge disruption
+- [[Transitions/Elbow Escape to Guard]] - Complementary systematic escape that chains well after a bridge disruption
 
-- [[Bridge and Roll]] - Fundamental bridging technique sharing core hip drive mechanics
+- [[Transitions/Bridge and Roll]] - Fundamental bridging technique sharing core hip drive mechanics
 
-- [[Mounted Triangle Finish]] - Submission threat that drives the urgency for this escape technique
+- [[Submissions/Mounted Triangle Finish]] - Submission threat that drives the urgency for this escape technique
 
-- [[High Mount]] - Related mount variation from which mounted triangle is commonly entered
+- [[Positions/Mount/High Mount]] - Related mount variation from which mounted triangle is commonly entered
 
-- [[Frame and Shrimp to Guard]] - Alternative escape technique that can follow a partially successful bridge
+- [[Transitions/Frame and Shrimp to Guard]] - Alternative escape technique that can follow a partially successful bridge
 
 
 </section>

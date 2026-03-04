@@ -180,7 +180,7 @@ description: "Complete attacker's guide to the Feet on Hips Tripod Sweep. Step-b
 
 The Feet on Hips Tripod Sweep is executed from bottom position with both feet on the opponent's hips, using a three-point base destruction system to topple the standing or kneeling opponent backward. As the attacker, your goal is to coordinate three simultaneous forces—pushing one hip with your foot, hooking behind the near ankle with your other foot, and pulling the far ankle with your hand—to create an irrecoverable collapse of your opponent's base. Success depends on precise timing, explosive hip extension, and immediate follow-through to secure top position before the opponent can recover guard. The technique rewards patience in the setup phase and explosiveness in the execution phase, and becomes significantly more dangerous when combined with the sickle sweep as a paired system.
 
-**From Position**: [[Feet on Hips Guard]] (Bottom)
+**From Position**: [[Positions/Feet on Hips Guard]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ The Feet on Hips Tripod Sweep is executed from bottom position with both feet on
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Feet on Hips Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Feet on Hips Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ The Feet on Hips Tripod Sweep is executed from bottom position with both feet on
 
 ## Opponent Counters
 
-- **Opponent backsteps the hooked ankle to remove the sweep fulcrum before the push engages** (Effectiveness: Medium) - Your Response: Follow with hip movement and immediately transition to the sickle sweep, which catches the retreating leg as the opponent's weight shifts to their remaining stance foot. The backstep actually loads their weight perfectly for the lateral sickle cut. → Leads to [[Feet on Hips Guard]]
-- **Opponent drops their base by sitting down or kneeling to lower center of gravity below the sweep threshold** (Effectiveness: High) - Your Response: Switch attack vectors entirely—transition to butterfly hooks for an elevator sweep, use a collar drag to snap them forward, or enter tomoe nage by catching their forward momentum as they drop. Their lowered base creates different opportunities that you must exploit immediately. → Leads to [[Feet on Hips Guard]]
-- **Opponent grabs your hooking leg at the ankle or pants and begins initiating a guard pass** (Effectiveness: Medium) - Your Response: Retract the leg immediately and re-establish feet-on-hips frames before they can advance. If they commit laterally with the grabbed leg, transition to De La Riva guard on the exposed side and continue attacking from the new guard configuration. → Leads to [[Half Guard]]
-- **Opponent posts one or both hands on the mat behind them to prevent the backward fall** (Effectiveness: Low) - Your Response: Increase the sweep angle by pulling more aggressively on the far ankle while extending your hip push fully. The hand post only works momentarily—maintain the three-point pressure and their arms will fatigue. Alternatively, add a collar grip pull to attack their posture and prevent the effective post. → Leads to [[Feet on Hips Guard]]
+- **Opponent backsteps the hooked ankle to remove the sweep fulcrum before the push engages** (Effectiveness: Medium) - Your Response: Follow with hip movement and immediately transition to the sickle sweep, which catches the retreating leg as the opponent's weight shifts to their remaining stance foot. The backstep actually loads their weight perfectly for the lateral sickle cut. → Leads to [[Positions/Feet on Hips Guard]]
+- **Opponent drops their base by sitting down or kneeling to lower center of gravity below the sweep threshold** (Effectiveness: High) - Your Response: Switch attack vectors entirely—transition to butterfly hooks for an elevator sweep, use a collar drag to snap them forward, or enter tomoe nage by catching their forward momentum as they drop. Their lowered base creates different opportunities that you must exploit immediately. → Leads to [[Positions/Feet on Hips Guard]]
+- **Opponent grabs your hooking leg at the ankle or pants and begins initiating a guard pass** (Effectiveness: Medium) - Your Response: Retract the leg immediately and re-establish feet-on-hips frames before they can advance. If they commit laterally with the grabbed leg, transition to De La Riva guard on the exposed side and continue attacking from the new guard configuration. → Leads to [[Positions/Half Guard]]
+- **Opponent posts one or both hands on the mat behind them to prevent the backward fall** (Effectiveness: Low) - Your Response: Increase the sweep angle by pulling more aggressively on the far ankle while extending your hip push fully. The hand post only works momentarily—maintain the three-point pressure and their arms will fatigue. Alternatively, add a collar grip pull to attack their posture and prevent the effective post. → Leads to [[Positions/Feet on Hips Guard]]
 
 
 </section>

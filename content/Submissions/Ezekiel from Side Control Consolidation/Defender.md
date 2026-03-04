@@ -148,7 +148,7 @@ description: "Defend against the Ezekiel choke from Side Control Consolidation. 
 
 Defending the Ezekiel choke from Side Control Consolidation demands early recognition of the setup, as the choke becomes extremely difficult to escape once the sleeve grip is secured. The crossface arm is already in position during normal side control, so the defender must identify the subtle shift when the opponent begins feeding their hand toward their own sleeve. The primary defensive window occurs during this threading phase, when the attacker must momentarily adjust their arm position and may lighten chest pressure. Effective defense combines immediate frame intervention on the choking hand with hip escape mechanics to create enough space to prevent the choke from closing. If the choke locks in fully, the defender's options narrow rapidly to emergency escapes that risk position but prevent unconsciousness.
 
-**Opponent's Starting Position**: [[Side Control Consolidation]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Side Control Consolidation]] (Top)
 
 
 </section>
@@ -187,28 +187,28 @@ Defending the Ezekiel choke from Side Control Consolidation demands early recogn
 ### 1. Use far hand to grip and strip opponent's wrist before it enters the sleeve, preventing the choke loop from closing
 
 - **When to use**: As soon as you feel the crossface arm thread deeper and their free hand moves toward your neck area
-- **Targets**: [[Side Control Consolidation]]
+- **Targets**: [[Positions/Side Control/Side Control Consolidation]]
 - **If successful**: Prevents choke setup entirely and forces opponent to abandon the Ezekiel or restart from scratch
 - **Risk**: Exposing far arm may create americana or kimura vulnerability if the strip attempt fails
 
 ### 2. Execute explosive bridge timed with opponent's arm adjustment, immediately follow with hip escape toward their legs
 
 - **When to use**: During the sleeve threading phase when the opponent's chest pressure momentarily lightens as they focus on hand entry
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover half guard and reset to a more defensible position with the choke threat eliminated
 - **Risk**: Failed bridge wastes significant energy and may accelerate the opponent's setup if they re-settle quickly
 
 ### 3. Turn into opponent and drive underhook deep to disrupt the perpendicular angle required for the choke
 
 - **When to use**: When you feel the crossface loosen during arm repositioning and have enough hip mobility to generate the turn
-- **Targets**: [[Side Control Consolidation]]
+- **Targets**: [[Positions/Side Control/Side Control Consolidation]]
 - **If successful**: Disrupts the choke angle completely and may create scramble or underhook battle opportunity
 - **Risk**: May expose back if the turn is too aggressive without proper frame support underneath
 
 ### 4. Tuck chin tightly to chest and use jaw pressure to block forearm access to throat as emergency defense
 
 - **When to use**: When the sleeve grip is already established and the forearm is approaching the front of your throat
-- **Targets**: [[Side Control Consolidation]]
+- **Targets**: [[Positions/Side Control/Side Control Consolidation]]
 - **If successful**: Buys time to work grip stripping defense with your hands or set up a hip escape
 - **Risk**: Jaw compression is painful and the opponent may adjust the forearm angle to bypass your chin entirely
 
@@ -231,7 +231,7 @@ Defending the Ezekiel choke from Side Control Consolidation demands early recogn
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time the explosive bridge during the opponent's sleeve-feeding phase when their chest pressure lifts momentarily, immediately follow with hip escape and near knee insertion to recover half guard before the choke can be re-attempted
 

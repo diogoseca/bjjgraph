@@ -21,7 +21,7 @@ The technique operates on the principle of compound off-balancing, where the lap
 
 Within the broader Piranha Guard system, this sweep serves as the primary positional advancement tool, creating a constant threat that forces the top player to maintain conservative posture and base width. This threat alone opens secondary attacks including berimbolo entries, collar drags to back control, and submission setups. The sweep integrates with the complete Piranha Guard attack tree, functioning as both a standalone technique and a chain-starting movement that flows into alternative attacks when the initial sweep is defended.
 
-**From Position**: [[Piranha Guard]] (Bottom)
+**From Position**: [[Positions/Piranha Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Within the broader Piranha Guard system, this sweep serves as the primary positi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Piranha Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Piranha Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Piranha Guard Sweep serves as the primary positional advancement tool within
 ## Related Techniques
 
 
-- [[Piranha Guard]] - Source guard position from which this sweep is executed using the lapel-through-legs configuration
+- [[Positions/Piranha Guard]] - Source guard position from which this sweep is executed using the lapel-through-legs configuration
 
-- [[Mount]] - Primary target position achieved upon successful sweep completion
+- [[Positions/Mount]] - Primary target position achieved upon successful sweep completion
 
-- [[Open Guard]] - Fallback position when Piranha Guard configuration is stripped during sweep attempt
+- [[Positions/Open Guard]] - Fallback position when Piranha Guard configuration is stripped during sweep attempt
 
-- [[Worm Guard]] - Sister lapel guard system with similar sweep mechanics and transition pathways
+- [[Positions/Worm Guard]] - Sister lapel guard system with similar sweep mechanics and transition pathways
 
-- [[Berimbolo Entry]] - Alternative attack chained from failed sweep when opponent bases wide to defend
+- [[Transitions/Berimbolo Entry]] - Alternative attack chained from failed sweep when opponent bases wide to defend
 
-- [[Collar Drag]] - Complementary technique that chains from sweep when opponent resists laterally
+- [[Transitions/Collar Drag]] - Complementary technique that chains from sweep when opponent resists laterally
 
-- [[Pass Piranha Guard]] - Opposing technique the defender uses to neutralize the sweep threat and pass
+- [[Transitions/Pass Piranha Guard]] - Opposing technique the defender uses to neutralize the sweep threat and pass
 
-- [[Pendulum Sweep]] - Related sweep sharing similar hip mechanics and timing principles
+- [[Transitions/Pendulum Sweep]] - Related sweep sharing similar hip mechanics and timing principles
 
-- [[Lapel Guard]] - Parent guard category encompassing the Piranha Guard sweep system
+- [[Positions/Lapel Guard]] - Parent guard category encompassing the Piranha Guard sweep system
 
-- [[De La Riva Guard]] - Foundational guard sharing hooking concepts used in sweep setup
+- [[Positions/De La Riva Guard]] - Foundational guard sharing hooking concepts used in sweep setup
 
-- [[Back Control]] - Alternative dominant position accessed when sweep converts to back take
+- [[Positions/Back Control]] - Alternative dominant position accessed when sweep converts to back take
 
 
 </section>

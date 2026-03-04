@@ -180,7 +180,7 @@ description: "Complete guide to executing the body triangle escape to side contr
 
 As the attacker executing this escape, you are trapped in your opponent's body triangle with restricted breathing, limited mobility, and constant choking threats. Your task is to systematically dismantle the most secure form of back control in Brazilian Jiu-Jitsu. This requires exceptional composure under genuine physical duress, precise technical execution during moments of opportunity, and unwavering commitment to the escape sequence even when the position feels hopeless. The escape succeeds when you understand that the body triangle, despite its formidable control, has a specific mechanical vulnerability at the figure-four junction that can be exploited through proper positioning and leverage rather than raw strength.
 
-**From Position**: [[Body Triangle]] (Bottom)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ As the attacker executing this escape, you are trapped in your opponent's body t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 35% |
-| Failure | [[Body Triangle]] | 40% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Side Control]] | 35% |
+| Failure | [[Positions/Back Control/Body Triangle]] | 40% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing this escape, you are trapped in your opponent's body t
 
 ## Opponent Counters
 
-- **Opponent tightens squeeze when they feel you attacking the lock** (Effectiveness: High) - Your Response: Pause the direct clearing attempt and refocus on hip positioning to reduce squeeze angle. A tighter squeeze actually commits their legs more to the lock, making the foot position more predictable. Wait for them to relax slightly or redirect attention to neck attacks before resuming. → Leads to [[Body Triangle]]
-- **Opponent attacks neck aggressively when your hand leaves defense to clear triangle** (Effectiveness: High) - Your Response: Immediately return to two-on-one neck defense and re-secure before reattempting. Use the opponent's attack commitment as a timing window for your next clearing attempt when they reset their grip. Never sacrifice neck safety for triangle clearing progress. → Leads to [[Body Triangle]]
-- **Opponent transitions to standard hooks when triangle is loosening** (Effectiveness: Medium) - Your Response: Recognize this as a significant victory since hooks are much easier to clear than body triangle. Immediately begin standard back escape sequences targeting hook removal through hip escapes. The transition period between triangle and hooks offers the best escape window. → Leads to [[Back Control]]
-- **Opponent follows your hip movement to maintain alignment behind you** (Effectiveness: Medium) - Your Response: Use misdirection by shifting hips one direction to draw the opponent's adjustment, then quickly reverse direction to create the actual clearing angle. The opponent's adjustment creates momentum you can exploit to generate space on the opposite side. → Leads to [[Body Triangle]]
+- **Opponent tightens squeeze when they feel you attacking the lock** (Effectiveness: High) - Your Response: Pause the direct clearing attempt and refocus on hip positioning to reduce squeeze angle. A tighter squeeze actually commits their legs more to the lock, making the foot position more predictable. Wait for them to relax slightly or redirect attention to neck attacks before resuming. → Leads to [[Positions/Back Control/Body Triangle]]
+- **Opponent attacks neck aggressively when your hand leaves defense to clear triangle** (Effectiveness: High) - Your Response: Immediately return to two-on-one neck defense and re-secure before reattempting. Use the opponent's attack commitment as a timing window for your next clearing attempt when they reset their grip. Never sacrifice neck safety for triangle clearing progress. → Leads to [[Positions/Back Control/Body Triangle]]
+- **Opponent transitions to standard hooks when triangle is loosening** (Effectiveness: Medium) - Your Response: Recognize this as a significant victory since hooks are much easier to clear than body triangle. Immediately begin standard back escape sequences targeting hook removal through hip escapes. The transition period between triangle and hooks offers the best escape window. → Leads to [[Positions/Back Control]]
+- **Opponent follows your hip movement to maintain alignment behind you** (Effectiveness: Medium) - Your Response: Use misdirection by shifting hips one direction to draw the opponent's adjustment, then quickly reverse direction to create the actual clearing angle. The opponent's adjustment creates momentum you can exploit to generate space on the opposite side. → Leads to [[Positions/Back Control/Body Triangle]]
 
 
 </section>

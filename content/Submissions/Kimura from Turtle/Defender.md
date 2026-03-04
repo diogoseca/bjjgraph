@@ -156,7 +156,7 @@ description: "How to defend against Kimura from Turtle in BJJ. Recognition, esca
 
 Defending the Kimura from turtle requires immediate recognition and decisive action before the attacker can consolidate their figure-four grip and establish chest-to-shoulder control. The turtle position inherently exposes the arms, making Kimura defense a critical skill for anyone who uses turtle as a transitional or recovery position. The defender's primary objective is to prevent the figure-four grip from being established, and if it is established, to deny the attacker the body angle and chest connection needed to generate finishing torque on the shoulder. Unlike defending the Kimura from other positions, turtle defense has the unique challenge that your base is already compromised and you cannot rely on guard retention as a fallback. Instead, the defender must use a combination of arm retraction, grip fighting, rolling mechanics, and positional transitions to either neutralize the attack entirely or convert the situation into a guard recovery. The most dangerous moment is when the attacker secures the figure-four and seals their chest against your shoulder blade, as escape probability drops dramatically once both control elements are in place. Early recognition and prevention are always superior to late-stage escape attempts.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 
 </section>
@@ -196,28 +196,28 @@ Defending the Kimura from turtle requires immediate recognition and decisive act
 ### 1. Clamp elbow to body and grab own wrist, gi lapel, or belt with trapped hand
 
 - **When to use**: Immediately when you feel the figure-four grip being established or when opponent controls your wrist and begins threading their arm
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Prevents the attacker from applying rotational pressure and stalls the submission, forcing them to either break your defensive grip or abandon the attack
 - **Risk**: If you rely solely on grip defense without creating movement, the attacker can methodically strip your grip using body weight and positional adjustments
 
 ### 2. Roll toward the trapped arm side, tucking chin and pulling the attacker over you
 
 - **When to use**: When the figure-four is locked but the attacker has not yet sealed chest-to-shoulder contact or broken your base completely
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You end up in guard or half guard with the attacker on top, neutralizing the Kimura angle and recovering a defensive guard position
 - **Risk**: If the attacker follows the roll while maintaining the grip, they may finish the Kimura from mount or side control, or use the grip to establish dominant top position
 
 ### 3. Sit back explosively toward the attacker, turning to face them and inserting guard hooks
 
 - **When to use**: When the attacker is committed to the arm but has poor base control and their legs are not blocking your hip movement
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard or closed guard, where the Kimura from top is much harder to finish and you have established defensive frames
 - **Risk**: If timing is poor or the attacker has already broken your base, the sit-back may accelerate their positional advancement rather than recovering guard
 
 ### 4. Stand up explosively while keeping trapped elbow pinned to body
 
 - **When to use**: Early in the attack before the figure-four is fully locked, when the attacker has light chest pressure and has not committed their weight forward
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Standing neutralizes the turtle-specific leverage of the Kimura and forces a standing grappling exchange where the attacker's control is significantly weaker
 - **Risk**: If the attacker has deep control and you stand, they may use the Kimura grip to take your back or execute a standing Kimura with increased leverage from gravity
 
@@ -241,11 +241,11 @@ Defending the Kimura from turtle requires immediate recognition and decisive act
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Prevent the figure-four grip from being established by keeping elbows tight and immediately retracting any exposed arm. If grip is established, use defensive grips and standing to force the attacker to abandon the attack and return to basic turtle top control.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Roll toward the trapped arm side or sit back into the attacker to transition from turtle to guard. The guard position neutralizes the Kimura angle and provides frames and hip control that make the shoulder lock extremely difficult to finish from top.
 

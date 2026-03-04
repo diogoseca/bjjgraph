@@ -21,7 +21,7 @@ This escape differs from standard mount bridge escapes in its directional specif
 
 The escape typically concludes with half guard recovery rather than a full reversal, as capturing the posted leg between your legs represents the most accessible and highest-percentage outcome. This makes the bridge escape a positional improvement tool that transitions from the highly disadvantageous Modified Mount to the more manageable half guard, where the bottom practitioner gains genuine offensive options including sweeps, back takes, and further guard recovery. The technique chains naturally with standard half guard offense, making it a gateway escape that opens entire attacking systems rather than merely surviving the mounted position.
 
-**From Position**: [[Modified Mount]] (Bottom)
+**From Position**: [[Positions/Mount/Modified Mount]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ The escape typically concludes with half guard recovery rather than a full rever
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Failure | [[Modified Mount]] | 35% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Failure | [[Positions/Mount/Modified Mount]] | 35% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -191,21 +191,21 @@ The bridge escape from Modified Mount functions as a critical link in the mount 
 ## Related Techniques
 
 
-- [[Modified Mount]] - Starting position from which this escape is executed, understanding its mechanics is essential
+- [[Positions/Mount/Modified Mount]] - Starting position from which this escape is executed, understanding its mechanics is essential
 
-- [[Half Guard]] - Primary recovery target after successful bridge escape, opens offensive half guard systems
+- [[Positions/Half Guard]] - Primary recovery target after successful bridge escape, opens offensive half guard systems
 
-- [[Bridge Escape from 3-4 Mount]] - Related bridge escape technique from a different mount variation with similar mechanics
+- [[Transitions/Bridge Escape from 3-4 Mount]] - Related bridge escape technique from a different mount variation with similar mechanics
 
-- [[Bridge Escape from Kesa Gatame]] - Analogous bridge escape from a different pin position sharing core bridging principles
+- [[Transitions/Bridge Escape from Kesa Gatame]] - Analogous bridge escape from a different pin position sharing core bridging principles
 
-- [[Armbar Defense]] - Critical complementary skill since Modified Mount naturally funnels toward armbar threats during escape attempts
+- [[Transitions/Armbar Defense]] - Critical complementary skill since Modified Mount naturally funnels toward armbar threats during escape attempts
 
-- [[Mount]] - Parent position category providing foundational escape principles applicable to all mount variations
+- [[Positions/Mount]] - Parent position category providing foundational escape principles applicable to all mount variations
 
-- [[S Mount]] - Potential counter-transition the top player may use when bridge escape is partially successful
+- [[Positions/Mount/S Mount]] - Potential counter-transition the top player may use when bridge escape is partially successful
 
-- [[Technical Mount]] - Alternative mount variation the top player may transition to when bridge escape disrupts Modified Mount
+- [[Positions/Mount/Technical Mount]] - Alternative mount variation the top player may transition to when bridge escape disrupts Modified Mount
 
 
 </section>

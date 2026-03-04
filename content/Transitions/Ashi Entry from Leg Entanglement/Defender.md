@@ -154,7 +154,7 @@ description: "Complete defensive guide against the Ashi Entry from Leg Entanglem
 
 Defending against the Ashi Entry from Leg Entanglement requires early recognition and immediate preventive action before the attacker can establish the two-point control structure of Inside Ashi-Garami. The defender's primary objective is to prevent the attacker's inside leg from crossing their hip, as this single control point enables the entire Inside Ashi-Garami configuration. Once the inside leg is established, defensive options become significantly more difficult and energy-intensive. Successful defense relies on maintaining active leg pummeling, controlling distance through hip positioning, and recognizing the attacker's timing windows to deny them the opportunity to thread. When prevention fails, the defender must transition immediately to Inside Ashi-Garami escape protocols rather than attempting to fight the established position from a compromised angle.
 
-**Opponent's Starting Position**: [[Leg Entanglement]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Entanglement]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against the Ashi Entry from Leg Entanglement requires early recognitio
 ### 1. Frame against the inside leg with both hands and hip escape laterally to prevent it from crossing your hip
 
 - **When to use**: Immediately when you feel the attacker's inside leg beginning to move across your hip, before it is fully established on the far side
-- **Targets**: [[Leg Entanglement]]
+- **Targets**: [[Positions/Leg Entanglement]]
 - **If successful**: Returns to neutral leg entanglement with the ashi entry denied, forcing the attacker to create a new timing window
 - **Risk**: If both hands commit to the inside leg frame, the attacker may capitalize with an ankle lock or toe hold on your now-undefended foot
 
 ### 2. Pump your trapped leg explosively to extract it from the entanglement before the outside hook is established
 
 - **When to use**: During the brief window after the attacker threads the inside leg but before they establish the outside hook behind your knee
-- **Targets**: [[Leg Entanglement]]
+- **Targets**: [[Positions/Leg Entanglement]]
 - **If successful**: Leg extraction returns you to neutral position or creates distance for guard recovery depending on the force of extraction
 - **Risk**: Failed extraction against a well-established hook burns significant energy and may leave you in a worse position with both legs controlled
 
 ### 3. Technical standup with explosive bridge to disengage from the entanglement entirely and return to top position
 
 - **When to use**: When the attacker is focused on threading their legs and has reduced grip pressure on your foot or upper body
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Complete disengagement from leg entanglement, potentially achieving top position in half guard or standing
 - **Risk**: If the attacker maintains heel control during your standup, you become vulnerable to ankle lock finishes or sweeps from your elevated position
 
 ### 4. Initiate your own counter-entanglement by grabbing the attacker's leg and entering your own ashi garami position
 
 - **When to use**: When the attacker commits both legs to the threading sequence and their own legs become vulnerable to entanglement
-- **Targets**: [[Leg Entanglement]]
+- **Targets**: [[Positions/Leg Entanglement]]
 - **If successful**: Creates a bilateral entanglement exchange where both players have attacking positions, denying the attacker's positional advantage
 - **Risk**: May result in a 50-50 position where the attacker had the initiative and better grip positioning from their original entry attempt
 
@@ -225,11 +225,11 @@ Defending against the Ashi Entry from Leg Entanglement requires early recognitio
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Execute a technical standup or explosive bridge during the threading sequence when the attacker's grip on your foot is compromised. Drive through their leg control with hip extension and use the momentum to disengage completely, establishing top position in half guard or returning to standing.
 
-### → [[Leg Entanglement]]
+### → [[Positions/Leg Entanglement]]
 
 Deny the inside leg from crossing your hip through active framing and hip escape, or extract your trapped leg through explosive pumping before the outside hook is established. Maintain active leg pummeling to prevent re-entry attempts and work to establish your own positional advantage within the entanglement.
 

@@ -210,23 +210,23 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 
 ## Available Escapes
 
-### [[Hip Escape to Guard]] (13% of attempts)
+### [[Transitions/Hip Escape to Guard]] (13% of attempts)
 
-### [[Stack Defense]] (13% of attempts)
+### [[Transitions/Stack Defense]] (13% of attempts)
 
-### [[Arm Extraction]] (11% of attempts)
+### [[Transitions/Arm Extraction]] (11% of attempts)
 
-### [[Hitchhiker Escape]] (23% of attempts)
+### [[Transitions/Hitchhiker Escape]] (23% of attempts)
 
-### [[Bridge and Roll]] (12% of attempts)
+### [[Transitions/Bridge and Roll]] (12% of attempts)
 
-### [[Rolling Escape to Guard]] (9% of attempts)
+### [[Transitions/Rolling Escape to Guard]] (9% of attempts)
 
-### [[Hip Escape to Turtle]] (8% of attempts)
+### [[Transitions/Hip Escape to Turtle]] (8% of attempts)
 
-### [[Armbar Defense]] (7% of attempts)
+### [[Transitions/Armbar Defense]] (7% of attempts)
 
-### [[Hitchhiker Escape from Armbar]] (4% of attempts)
+### [[Transitions/Hitchhiker Escape from Armbar]] (4% of attempts)
 
 
 
@@ -237,23 +237,23 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 ## Decision Making from This Position
 
 **If opponent has not fully extended the arm and legs are not tight across face:**
-- Execute **[[Hitchhiker Escape]]** → [[Half Guard]] (Probability: 60%)
-- Execute **[[Arm Extraction]]** → [[Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Hitchhiker Escape]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
 **If opponent is attempting to drop back for the finish with legs loose:**
-- Execute **[[Stack Defense]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Rolling Escape to Guard]]** → [[Closed Guard]] (Probability: 65%)
+- Execute **[[Transitions/Stack Defense]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Rolling Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 65%)
 
 
 **If opponent has tight control but arm is still bent:**
-- Execute **[[Hip Escape to Guard]]** → [[Closed Guard]] (Probability: 70%)
-- Execute **[[Bridge and Roll]]** → [[Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 70%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Half Guard]] (Probability: 60%)
 
 
 **If opponent transitions to triangle or omoplata from failed armbar:**
-- Execute **[[Posture Recovery]]** → [[Closed Guard]] (Probability: 45%)
-- Execute **[[Stack Defense]]** → [[Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Stack Defense]]** → [[Positions/Closed Guard]] (Probability: 40%)
 
 
 
@@ -387,15 +387,15 @@ Partner attempts armbar from guard. As they extend for finish, defender stacks t
 
 ## Related Positions and Techniques
 
-- **[[Armbar Control]]** - Parent hub page for this defensive position
-- **[[Armbar Finish]]** - Primary threat - submission being defended against
-- **[[Triangle Control]]** - Common transition - opponent switches to triangle when armbar is defended
-- **[[Hip Escape to Guard]]** - Primary escape technique - most reliable armbar defense method
-- **[[Closed Guard]]** - Common escape target - safe position after successful defense
-- **[[Mount]]** - Common origin - position often attacked from mount
-- **[[Hitchhiker Escape]]** - Key escape technique used from this position
-- **[[Stack Defense]]** - Primary defensive response to compromise opponent's finishing angle
-- **[[Half Guard]]** - Common recovery position after successful escape
+- **[[Positions/Armbar Control]]** - Parent hub page for this defensive position
+- **[[Transitions/Armbar Finish]]** - Primary threat - submission being defended against
+- **[[Positions/Triangle Control]]** - Common transition - opponent switches to triangle when armbar is defended
+- **[[Transitions/Hip Escape to Guard]]** - Primary escape technique - most reliable armbar defense method
+- **[[Positions/Closed Guard]]** - Common escape target - safe position after successful defense
+- **[[Positions/Mount]]** - Common origin - position often attacked from mount
+- **[[Transitions/Hitchhiker Escape]]** - Key escape technique used from this position
+- **[[Transitions/Stack Defense]]** - Primary defensive response to compromise opponent's finishing angle
+- **[[Positions/Half Guard]]** - Common recovery position after successful escape
 
 
 </section>

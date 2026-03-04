@@ -21,7 +21,7 @@ The strategic value of this escape lies in its reliability when the opponent has
 
 Timing is critical for this technique - the roll must be explosive enough to create separation but controlled enough to immediately establish the tight defensive turtle structure with elbows to knees and chin tucked. Executing this escape too slowly allows the opponent to follow and establish back control with hooks, negating the escape entirely.
 
-**From Position**: [[Side Control]] (Bottom)
+**From Position**: [[Positions/Side Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Timing is critical for this technique - the roll must be explosive enough to cre
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -189,25 +189,25 @@ Roll to Turtle fits into the BJJ positional hierarchy as a secondary escape opti
 ## Related Techniques
 
 
-- [[Turtle]] - Target position - the destination of this escape
+- [[Positions/Turtle]] - Target position - the destination of this escape
 
-- [[Side Control]] - Starting position - escape executed from bottom
+- [[Positions/Side Control]] - Starting position - escape executed from bottom
 
-- [[Granby Roll to Guard]] - Primary follow-up technique from turtle
+- [[Transitions/Granby Roll to Guard]] - Primary follow-up technique from turtle
 
-- [[Ghost Escape]] - Alternative escape with similar mechanics
+- [[Transitions/Ghost Escape]] - Alternative escape with similar mechanics
 
-- [[Hip Escape to Guard]] - Alternative escape when space is available
+- [[Transitions/Hip Escape to Guard]] - Alternative escape when space is available
 
-- [[Elbow Escape to Guard]] - Alternative escape for half guard recovery
+- [[Transitions/Elbow Escape to Guard]] - Alternative escape for half guard recovery
 
-- [[Technical Stand-up]] - Follow-up option from turtle
+- [[Transitions/Technical Stand-up]] - Follow-up option from turtle
 
-- [[Back Control]] - Counter position if escape fails
+- [[Positions/Back Control]] - Counter position if escape fails
 
-- [[Frame and Shrimp to Guard]] - Prerequisite skill for setup
+- [[Transitions/Frame and Shrimp to Guard]] - Prerequisite skill for setup
 
-- [[Rolling to Guard]] - Common chain after reaching turtle
+- [[Transitions/Rolling to Guard]] - Common chain after reaching turtle
 
 
 </section>

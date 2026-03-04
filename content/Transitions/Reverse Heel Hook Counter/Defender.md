@@ -158,7 +158,7 @@ The defender's primary challenge is managing two simultaneous demands: maintaini
 
 Successful defense requires early recognition of the counter attempt, ideally before inside position is fully established on your leg. The earlier you detect the counter, the more options remain available—from simply accelerating your finish to withdrawing and re-establishing position. Understanding the biomechanical tells that precede the counter (opponent's hip rotation toward your leg, free leg hooking your knee) allows proactive defensive responses rather than reactive scrambling.
 
-**Opponent's Starting Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -203,21 +203,21 @@ Successful defense requires early recognition of the counter attempt, ideally be
 ### 2. Withdraw attacking leg and re-establish ushiro ashi-garami control from scratch
 
 - **When to use**: When you detect the counter attempt early before your leg is entangled—opponent has begun rotating but has not yet secured inside position
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: You deny the counter entirely and return to the original attacking position with your leg safe, opponent remains trapped
 - **Risk**: Withdrawing creates space that may allow opponent to complete their escape entirely rather than just the counter
 
 ### 3. Transition to saddle or honey hole to deepen your control beyond counter-attack range
 
 - **When to use**: When opponent's counter rotation creates the angle for you to step your outside leg through to saddle configuration
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: You advance to a higher-control entanglement where the counter is no longer viable and your finishing options multiply
 - **Risk**: The transition requires momentary adjustment that could accelerate opponent's counter if your timing is off
 
 ### 4. Enter your own counter-counter by establishing 50-50 guard from the exchange
 
 - **When to use**: When opponent has partially established inside ashi on your leg but your entanglement is also partially maintained—neither side has clear advantage
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Creates a neutral 50-50 position where both practitioners have equal attacking opportunity, negating opponent's counter advantage
 - **Risk**: 50-50 exchanges favor whoever has better heel hook finishing mechanics, and you have lost your original positional advantage
 
@@ -233,7 +233,7 @@ Successful defense requires early recognition of the counter attempt, ideally be
 
 Accelerate your heel hook finish when you detect the counter attempt but already have deep grip control. Your positional advantage from the original ushiro top position means your grip was established first—commit to the finish before their counter-entanglement becomes dangerous.
 
-### → [[Ushiro Ashi-Garami]]
+### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Withdraw your attacking leg early when you sense the counter rotation beginning, then immediately re-engage with tighter inside leg control to deny future counter windows. This resets the exchange to your original advantageous position while eliminating the counter threat.
 

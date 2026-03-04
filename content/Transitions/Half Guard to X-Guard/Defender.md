@@ -146,7 +146,7 @@ description: "Defend and counter the Half Guard to X-Guard transition. Recogniti
 
 As the defender against the Half Guard to X-Guard transition, you are the top player in half guard working to prevent the bottom player from converting your trapped leg into an X-Guard entanglement. Recognizing the early stages of this transition is critical because once the X-Guard hooks are fully established, the bottom player gains powerful sweeping leverage that is extremely difficult to dismantle. Your primary defensive strategy centers on maintaining heavy forward pressure with crossface control to prevent the hip escape that initiates the transition. When early prevention fails, immediate action to address the butterfly hook before it deepens, combined with hip sprawling and leg extraction techniques, provides secondary defensive options that can return you to a dominant passing position.
 
-**Opponent's Starting Position**: [[Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the Half Guard to X-Guard transition, you are the top pl
 ### 1. Drive heavy crossface and flatten bottom player before any hook insertion begins
 
 - **When to use**: At the earliest recognition of hip escape or angle creation, before any hooks are inserted
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Bottom player is returned to flat half guard bottom with no angle, completely resetting their offensive sequence
 - **Risk**: If you overcommit forward pressure without maintaining base, bottom player may redirect into deep half guard entry using your weight
 
 ### 2. Sprawl hips back and extract trapped leg when feeling hook insertion behind knee
 
 - **When to use**: When you feel the butterfly hook beginning to thread behind your knee but before it deepens past the joint
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You clear your leg from the entanglement entirely, achieving open guard top passing position with full mobility
 - **Risk**: Sprawling creates distance that may allow bottom player to transition to other open guard variations or sit up
 
 ### 3. Drive trapped knee to the mat and apply smash pressure through the developing X-Guard structure
 
 - **When to use**: When the butterfly hook has been partially inserted but the full X-Guard configuration is not yet complete
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You collapse the X-Guard structure by removing the elevation that powers it, returning to half guard top with passing pressure
 - **Risk**: If hook is already deep, driving knee down may not dislodge it and may compromise your base stability
 
 ### 4. Backstep over the outside leg and enter counter leg entanglement position
 
 - **When to use**: When X-Guard hooks are nearly established and direct hook prevention is no longer viable
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You transition to a counter-attacking position, potentially entering ashi garami or saddle on the bottom player's exposed legs
 - **Risk**: Requires precise timing and leg lock technical knowledge; poor execution may result in being swept to bottom
 
@@ -217,11 +217,11 @@ As the defender against the Half Guard to X-Guard transition, you are the top pl
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Prevent the transition entirely by maintaining heavy crossface pressure and driving your hips forward to deny space for hook insertion. Address any hip escape immediately by following the bottom player's movement and re-establishing chest-to-chest connection before they create angle.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 When you feel hooks beginning to establish, sprawl your hips back forcefully while controlling the bottom player's upper body. Extract your trapped leg completely to achieve open guard top, where you can reset your passing approach with full mobility and no leg entanglement.
 

@@ -208,19 +208,19 @@ Strategically, Ringworm Guard Bottom sits within the broader lapel guard ecosyst
 
 ## Available Escapes
 
-### [[Ringworm Sweep to Back Control]] (15% of attempts)
+### [[Transitions/Ringworm Sweep to Back Control]] (15% of attempts)
 
-### [[Triangle Setup]] (13% of attempts)
+### [[Transitions/Triangle Setup]] (13% of attempts)
 
-### [[Omoplata to Sweep]] (13% of attempts)
+### [[Transitions/Omoplata to Sweep]] (13% of attempts)
 
-### [[Lapel Sweep to Back]] (16% of attempts)
+### [[Transitions/Lapel Sweep to Back]] (16% of attempts)
 
-### [[Berimbolo Entry]] (13% of attempts)
+### [[Transitions/Berimbolo Entry]] (13% of attempts)
 
-### [[Ringworm Guard to Worm Guard]] (23% of attempts)
+### [[Transitions/Ringworm Guard to Worm Guard]] (23% of attempts)
 
-### [[Ringworm to Spider Guard]] (7% of attempts)
+### [[Transitions/Ringworm to Spider Guard]] (7% of attempts)
 
 
 
@@ -231,23 +231,23 @@ Strategically, Ringworm Guard Bottom sits within the broader lapel guard ecosyst
 ## Decision Making from This Position
 
 **If opponent stands upright and attempts to back away from the guard:**
-- Execute **[[Lapel Sweep to Back]]** → [[Mount]] (Probability: 55%)
-- Execute **[[Ringworm Sweep to Back Control]]** → [[Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Lapel Sweep to Back]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Ringworm Sweep to Back Control]]** → [[Positions/Back Control]] (Probability: 50%)
 
 
 **If opponent drops into combat base and attempts to control your hips:**
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 45%)
-- Execute **[[Ringworm Guard to Worm Guard]]** → [[Worm Guard]] (Probability: 60%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 45%)
+- Execute **[[Transitions/Ringworm Guard to Worm Guard]]** → [[Positions/Worm Guard]] (Probability: 60%)
 
 
 **If opponent establishes strong crossface and begins passing to the side:**
-- Execute **[[Berimbolo Entry]]** → [[Back Control]] (Probability: 40%)
-- Execute **[[Omoplata to Sweep]]** → [[Omoplata Control]] (Probability: 35%)
+- Execute **[[Transitions/Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 40%)
+- Execute **[[Transitions/Omoplata to Sweep]]** → [[Positions/Omoplata Control]] (Probability: 35%)
 
 
 **If opponent successfully begins to extract their leg from the lapel wrap:**
-- Execute **[[Lapel Retention and Re-wrap]]** → [[Ringworm Guard]] (Probability: 50%)
-- Execute **[[Switch to Squid Guard Configuration]]** → [[Squid Guard]] (Probability: 45%)
+- Execute **[[Lapel Retention and Re-wrap]]** → [[Positions/Ringworm Guard]] (Probability: 50%)
+- Execute **[[Switch to Squid Guard Configuration]]** → [[Positions/Squid Guard]] (Probability: 45%)
 
 
 
@@ -374,14 +374,14 @@ With cooperative partner in Ringworm Guard configuration, flow through all avail
 
 ## Related Positions and Techniques
 
-- **[[Worm Guard]]** - Parent position in the lapel guard family - shares similar lapel manipulation principles with different leg configuration
-- **[[Squid Guard]]** - Sister position variation - another Keenan Cornelius lapel guard with related concepts but different wrapping methodology
-- **[[Lapel Guard]]** - General category - Ringworm is a specific variation of lapel-based guard systems
-- **[[Spider Guard]]** - Alternative open guard option - shares some distance management principles without lapel dependency
-- **[[Triangle Control]]** - Common submission transition target - frequently entered from Ringworm configurations
-- **[[Back Control]]** - Primary sweeping target - most high-percentage finish from Ringworm sweeps leads to back exposure
-- **[[De La Riva Guard]]** - Position with shared concepts - both use leg hooks and create similar angular attacks, though without lapel dependency
-- **[[Lasso Guard]]** - Alternative gi-based guard - shares concept of leg control restricting opponent mobility
+- **[[Positions/Worm Guard]]** - Parent position in the lapel guard family - shares similar lapel manipulation principles with different leg configuration
+- **[[Positions/Squid Guard]]** - Sister position variation - another Keenan Cornelius lapel guard with related concepts but different wrapping methodology
+- **[[Positions/Lapel Guard]]** - General category - Ringworm is a specific variation of lapel-based guard systems
+- **[[Positions/Spider Guard]]** - Alternative open guard option - shares some distance management principles without lapel dependency
+- **[[Positions/Triangle Control]]** - Common submission transition target - frequently entered from Ringworm configurations
+- **[[Positions/Back Control]]** - Primary sweeping target - most high-percentage finish from Ringworm sweeps leads to back exposure
+- **[[Positions/De La Riva Guard]]** - Position with shared concepts - both use leg hooks and create similar angular attacks, though without lapel dependency
+- **[[Positions/Lasso Guard]]** - Alternative gi-based guard - shares concept of leg control restricting opponent mobility
 
 
 </section>

@@ -21,7 +21,7 @@ From a strategic standpoint, the S Mount Armbar Setup exploits the arm isolation
 
 The critical decision in executing this setup is timing: commit too early before establishing proper arm control and the opponent escapes during transition; wait too long and the opponent creates defensive frames that prevent the fall-back. Elite practitioners treat this transition as a fluid continuation of S Mount control rather than a separate technique, maintaining constant pressure and arm isolation from mount through S Mount through armbar control as one continuous attacking sequence.
 
-**From Position**: [[S Mount]] (Top)
+**From Position**: [[Positions/Mount/S Mount]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The critical decision in executing this setup is timing: commit too early before
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 55% |
-| Failure | [[S Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Armbar Control]] | 55% |
+| Failure | [[Positions/Mount/S Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -197,25 +197,25 @@ The S Mount Armbar Setup serves as the critical bridge between mount-based posit
 ## Related Techniques
 
 
-- [[S Mount]] - Starting position providing the arm isolation and perpendicular control for this setup
+- [[Positions/Mount/S Mount]] - Starting position providing the arm isolation and perpendicular control for this setup
 
-- [[Armbar Control]] - Target position reached upon successful execution of this transition
+- [[Positions/Armbar Control]] - Target position reached upon successful execution of this transition
 
-- [[Half Guard]] - Position reached if opponent successfully counters the setup with bridge and escape
+- [[Positions/Half Guard]] - Position reached if opponent successfully counters the setup with bridge and escape
 
-- [[Mount]] - Primary entry position that leads into S Mount for armbar attacks
+- [[Positions/Mount]] - Primary entry position that leads into S Mount for armbar attacks
 
-- [[High Mount]] - Alternative dominant position that flows into S Mount configuration
+- [[Positions/Mount/High Mount]] - Alternative dominant position that flows into S Mount configuration
 
-- [[Armbar from S Mount]] - Direct submission finish available from the same starting position
+- [[Submissions/Armbar from S Mount]] - Direct submission finish available from the same starting position
 
-- [[Armbar Finish]] - Finishing technique executed from the armbar control position this setup creates
+- [[Transitions/Armbar Finish]] - Finishing technique executed from the armbar control position this setup creates
 
-- [[Frame and Shrimp from S Mount]] - Primary defensive technique opponents use to prevent this setup
+- [[Transitions/Frame and Shrimp from S Mount]] - Primary defensive technique opponents use to prevent this setup
 
-- [[Bridge Escape from S Mount]] - Alternative escape opponents attempt during the transition window
+- [[Transitions/Bridge Escape from S Mount]] - Alternative escape opponents attempt during the transition window
 
-- [[Mounted Triangle]] - Alternative submission option available when armbar setup is defended
+- [[Positions/Mount/Mounted Triangle]] - Alternative submission option available when armbar setup is defended
 
 
 </section>

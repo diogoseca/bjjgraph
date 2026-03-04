@@ -93,31 +93,31 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 ### Available Transitions
 
 
-- **[[Pull guard]]** (36% of attempts)
+- **[[Transitions/Pull guard]]** (36% of attempts)
 
-- **[[Sitting Guard Pull]]** (10% of attempts)
+- **[[Transitions/Sitting Guard Pull]]** (10% of attempts)
 
-- **[[Shin to Shin Pull]]** (8% of attempts)
+- **[[Transitions/Shin to Shin Pull]]** (8% of attempts)
 
-- **[[Standing to Single Leg X]]** (7% of attempts)
+- **[[Transitions/Standing to Single Leg X]]** (7% of attempts)
 
-- **[[Ankle Pick]]** (7% of attempts)
+- **[[Transitions/Ankle Pick]]** (7% of attempts)
 
-- **[[Arm Drag to Back]]** (6% of attempts)
+- **[[Transitions/Arm Drag to Back]]** (6% of attempts)
 
-- **[[Rolling Guard Pull]]** (5% of attempts)
+- **[[Transitions/Rolling Guard Pull]]** (5% of attempts)
 
-- **[[Double Leg Entry]]** (6% of attempts)
+- **[[Transitions/Double Leg Entry]]** (6% of attempts)
 
-- **[[Single Leg Entry]]** (6% of attempts)
+- **[[Transitions/Single Leg Entry]]** (6% of attempts)
 
-- **[[Snap Down to Front Headlock]]** (5% of attempts)
+- **[[Transitions/Snap Down to Front Headlock]]** (5% of attempts)
 
-- **[[Pull Guard from Ground]]** (2% of attempts)
+- **[[Transitions/Pull Guard from Ground]]** (2% of attempts)
 
-- **[[Technical Stand Up from Ground]]** (1% of attempts)
+- **[[Transitions/Technical Stand Up from Ground]]** (1% of attempts)
 
-- **[[Sweep from Standing Guard]]** (1% of attempts)
+- **[[Transitions/Sweep from Standing Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -182,25 +182,25 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 ### Available Transitions
 
 
-- **[[Toreando Pass]]** (22% of attempts)
+- **[[Transitions/Toreando Pass]]** (22% of attempts)
 
-- **[[Leg Drag Pass]]** (11% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (11% of attempts)
 
-- **[[Knee Slice Pass]]** (11% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (11% of attempts)
 
-- **[[Double Under Pass]]** (10% of attempts)
+- **[[Transitions/Double Under Pass]]** (10% of attempts)
 
-- **[[X Pass]]** (11% of attempts)
+- **[[Transitions/X Pass]]** (11% of attempts)
 
-- **[[Long Step Pass]]** (12% of attempts)
+- **[[Transitions/Long Step Pass]]** (12% of attempts)
 
-- **[[Stack Pass]]** (9% of attempts)
+- **[[Transitions/Stack Pass]]** (9% of attempts)
 
-- **[[Back Step]]** (8% of attempts)
+- **[[Transitions/Back Step]]** (8% of attempts)
 
-- **[[Guard Pass from Standing Guard]]** (4% of attempts)
+- **[[Transitions/Guard Pass from Standing Guard]]** (4% of attempts)
 
-- **[[Takedown from Standing Guard]]** (2% of attempts)
+- **[[Transitions/Takedown from Standing Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -243,27 +243,27 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 ## Related Positions
 
 
-- **[[Standing Position]]** - Initial engagement position before grip fighting begins
+- **[[Positions/Standing Position]]** - Initial engagement position before grip fighting begins
 
-- **[[Clinch]]** - Close-range standing engagement with established grips
+- **[[Positions/Clinch]]** - Close-range standing engagement with established grips
 
-- **[[Combat Base]]** - Alternative defensive structure from kneeling position
+- **[[Positions/Combat Base]]** - Alternative defensive structure from kneeling position
 
-- **[[Closed Guard]]** - Common target position via guard pull from standing
+- **[[Positions/Closed Guard]]** - Common target position via guard pull from standing
 
-- **[[Open Guard]]** - Alternative guard pull target from standing engagement
+- **[[Positions/Open Guard]]** - Alternative guard pull target from standing engagement
 
-- **[[Seated Guard]]** - Sitting guard pull option from standing position
+- **[[Positions/Seated Guard]]** - Sitting guard pull option from standing position
 
-- **[[Front Headlock]]** - Snap-down target from standing grip fighting
+- **[[Positions/Front Headlock]]** - Snap-down target from standing grip fighting
 
-- **[[De La Riva Guard]]** - Advanced guard pull target from standing
+- **[[Positions/De La Riva Guard]]** - Advanced guard pull target from standing
 
-- **[[X-Guard]]** - Dynamic guard entry option from standing
+- **[[Positions/X-Guard]]** - Dynamic guard entry option from standing
 
-- **[[Single Leg X-Guard]]** - Leg attack guard entry from standing position
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Leg attack guard entry from standing position
 
-- **[[Butterfly Guard]]** - Sitting guard variation accessible from standing
+- **[[Positions/Butterfly Guard]]** - Sitting guard variation accessible from standing
 
 
 </section>

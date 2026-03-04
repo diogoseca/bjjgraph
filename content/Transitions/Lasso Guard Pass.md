@@ -21,7 +21,7 @@ The pass requires a combination of precise grip control, posture management, and
 
 This technique integrates principles of base maintenance, pressure passing, and tactical grip fighting to achieve dominant top position. The key insight is that the lasso creates a lever system through the trapped arm, and the passer must change the angle of that lever rather than fighting it directly. By stepping outside the lasso leg and rotating the shoulder, the passer converts a strong control into a weak one before completing the pass to side control.
 
-**From Position**: [[Lasso Guard]] (Top)
+**From Position**: [[Positions/Lasso Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This technique integrates principles of base maintenance, pressure passing, and 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Lasso Guard]] | 25% |
-| Counter | [[Lasso Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Lasso Guard]] | 25% |
+| Counter | [[Positions/Lasso Guard]] | 10% |
 
 
 </section>
@@ -190,27 +190,27 @@ The Lasso Guard Pass is a fundamental component of any comprehensive passing sys
 ## Related Techniques
 
 
-- [[Lasso Guard]] - Starting position - the guard system being passed
+- [[Positions/Lasso Guard]] - Starting position - the guard system being passed
 
-- [[Side Control]] - Primary ending position after successful pass completion
+- [[Positions/Side Control]] - Primary ending position after successful pass completion
 
-- [[Knee Slice Pass]] - Follow-up finishing option after clearing the lasso hook
+- [[Transitions/Knee Slice Pass]] - Follow-up finishing option after clearing the lasso hook
 
-- [[Leg Drag Pass]] - Alternative finish after neutralizing lasso control
+- [[Transitions/Leg Drag Pass]] - Alternative finish after neutralizing lasso control
 
-- [[Bullfighter Pass]] - Alternative toreando-style approach to defeat lasso guard
+- [[Transitions/Bullfighter Pass]] - Alternative toreando-style approach to defeat lasso guard
 
-- [[Collar Sleeve Guard]] - Related position opponent may transition to during pass attempt
+- [[Positions/Collar Sleeve Guard]] - Related position opponent may transition to during pass attempt
 
-- [[De La Riva Guard]] - Related guard with similar passing concepts
+- [[Positions/De La Riva Guard]] - Related guard with similar passing concepts
 
-- [[Spider Guard]] - Related guard opponent may switch to when lasso is threatened
+- [[Positions/Spider Guard]] - Related guard opponent may switch to when lasso is threatened
 
-- [[Standing Position]] - Intermediate position used during the standing passing sequence
+- [[Positions/Standing Position]] - Intermediate position used during the standing passing sequence
 
-- [[Leg Drag Control]] - Control position achieved through leg drag variant of this pass
+- [[Positions/Leg Drag Control]] - Control position achieved through leg drag variant of this pass
 
-- [[Headquarters Position]] - Transitional position often used when disengaging from lasso
+- [[Positions/Headquarters Position]] - Transitional position often used when disengaging from lasso
 
 
 </section>

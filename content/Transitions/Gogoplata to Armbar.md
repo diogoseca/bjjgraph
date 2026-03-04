@@ -21,7 +21,7 @@ The mechanical basis of this transition lies in the hip pivot. The bottom player
 
 Strategically, the gogoplata to armbar chain creates a powerful offensive dilemma. Opponents who defend the gogoplata by keeping arms tight remain vulnerable to the choke finish. Those who extend arms to create distance provide the opening for the armbar transition. This no-win scenario for the defender is the hallmark of effective chain attack systems. The transition demands hip flexibility, precise timing, and the ability to recognize defensive patterns that signal the optimal moment to switch attacks.
 
-**From Position**: [[Gogoplata Control]] (Bottom)
+**From Position**: [[Positions/Gogoplata Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the gogoplata to armbar chain creates a powerful offensive dilemm
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 55% |
-| Failure | [[Gogoplata Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Armbar Control]] | 55% |
+| Failure | [[Positions/Gogoplata Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The gogoplata to armbar transition fits within the broader rubber guard chain at
 ## Related Techniques
 
 
-- [[Gogoplata Control]] - Source position from which this chain attack is initiated
+- [[Positions/Gogoplata Control]] - Source position from which this chain attack is initiated
 
-- [[Armbar Control]] - Target position on successful execution of the transition
+- [[Positions/Armbar Control]] - Target position on successful execution of the transition
 
-- [[Gogoplata Finish]] - Primary submission threat that creates the defensive reactions enabling the armbar transition
+- [[Submissions/Gogoplata Finish]] - Primary submission threat that creates the defensive reactions enabling the armbar transition
 
-- [[Rubber Guard]] - Guard system that establishes the prerequisites for gogoplata control and chain attacks
+- [[Positions/Rubber Guard]] - Guard system that establishes the prerequisites for gogoplata control and chain attacks
 
-- [[Mission Control]] - Specific rubber guard variation that facilitates gogoplata entries and chain development
+- [[Positions/Rubber Guard/Mission Control]] - Specific rubber guard variation that facilitates gogoplata entries and chain development
 
-- [[Triangle Control]] - Alternative chain attack available when shin slips off throat during transition
+- [[Positions/Triangle Control]] - Alternative chain attack available when shin slips off throat during transition
 
-- [[Omoplata Control]] - Alternative chain attack when opponent turns shoulder away to defend gogoplata
+- [[Positions/Omoplata Control]] - Alternative chain attack when opponent turns shoulder away to defend gogoplata
 
-- [[Armbar Finish]] - Follow-up submission executed from armbar control after successful transition
+- [[Transitions/Armbar Finish]] - Follow-up submission executed from armbar control after successful transition
 
-- [[Closed Guard]] - Base position from which rubber guard and gogoplata chains develop
+- [[Positions/Closed Guard]] - Base position from which rubber guard and gogoplata chains develop
 
-- [[Back Control]] - Alternative transition target when opponent rolls forward to escape submission chain
+- [[Positions/Back Control]] - Alternative transition target when opponent rolls forward to escape submission chain
 
-- [[Half Guard]] - Position resulting from opponent's successful counter-defense during transition
+- [[Positions/Half Guard]] - Position resulting from opponent's successful counter-defense during transition
 
 
 </section>

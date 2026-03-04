@@ -210,21 +210,21 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 
 ## Available Attacks
 
-### [[Turtle to Back Control]] (38% of attempts)
+### [[Transitions/Turtle to Back Control]] (38% of attempts)
 
-### [[Crab Ride to Back]] (20% of attempts)
+### [[Transitions/Crab Ride to Back]] (20% of attempts)
 
-### [[Turtle to Truck]] (13% of attempts)
+### [[Transitions/Turtle to Truck]] (13% of attempts)
 
-### [[Rolling Back Take]] (10% of attempts)
+### [[Transitions/Rolling Back Take]] (10% of attempts)
 
-### [[Turtle to Rodeo Ride]] (6% of attempts)
+### [[Transitions/Turtle to Rodeo Ride]] (6% of attempts)
 
-### [[Sit to Half Guard]] (8% of attempts)
+### [[Transitions/Sit to Half Guard]] (8% of attempts)
 
-### [[Double Jump to Mount]] (3% of attempts)
+### [[Transitions/Double Jump to Mount]] (3% of attempts)
 
-### [[Double Jump to Side Control]] (2% of attempts)
+### [[Transitions/Double Jump to Side Control]] (2% of attempts)
 
 
 
@@ -235,26 +235,26 @@ Double Jump Top represents modern turtle attack methodology, emphasizing leg-bas
 ## Decision Making from This Position
 
 **If opponent maintains strong turtle base and resists hook insertion:**
-- Execute **[[Crossface Pass]]** → [[Side Control]] (Probability: 45%)
-- Execute **[[Front Headlock to Anaconda]]** → [[Anaconda Control]] (Probability: 35%)
-- Execute **[[Front Headlock to Back]]** → [[Back Control]] (Probability: 40%)
+- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Front Headlock to Anaconda]]** → [[Positions/Anaconda Control]] (Probability: 35%)
+- Execute **[[Transitions/Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 40%)
 
 
 **If opponent attempts to sit to butterfly guard or turn into you:**
-- Execute **[[Crab Ride to Back]]** → [[Crab Ride]] (Probability: 65%)
-- Execute **[[Turtle to Back Control]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 65%)
+- Execute **[[Transitions/Turtle to Back Control]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent rolls away from pressure to escape hooks:**
-- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 70%)
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Truck Entry]]** → [[Truck]] (Probability: 60%)
+- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 70%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Truck Entry]]** → [[Positions/Twister Control/Truck]] (Probability: 60%)
 
 
 **If opponent flattens to belly to defend hooks:**
-- Execute **[[Turtle to Back Control]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Turtle to Back Control]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
 
 
 
@@ -381,15 +381,15 @@ Start each round with you in Double Jump Top position with both hooks establishe
 
 ## Related Positions and Techniques
 
-- **[[Turtle]]** - Parent position - Double Jump is advanced variation of turtle top attacks
-- **[[Back Control]]** - Primary advancement target - most common transition destination
-- **[[Crab Ride]]** - Alternative control position - similar leg hook mechanics with different upper body control
-- **[[Truck]]** - Transition variation - advanced leg entanglement position accessible from Double Jump
-- **[[Twister Control]]** - Submission destination - accessible through truck transitions from Double Jump
-- **[[Turtle to Back Control]]** - Primary transition technique - main method of advancing to back control
-- **[[Truck Entry]]** - Alternative transition - counter-option when opponent defends back take
-- **[[Seat Belt Control Back]]** - Upper body control configuration used when transitioning to back control
-- **[[Body Triangle]]** - Alternative leg control after completing back take from Double Jump
+- **[[Positions/Turtle]]** - Parent position - Double Jump is advanced variation of turtle top attacks
+- **[[Positions/Back Control]]** - Primary advancement target - most common transition destination
+- **[[Positions/Crab Ride]]** - Alternative control position - similar leg hook mechanics with different upper body control
+- **[[Positions/Twister Control/Truck]]** - Transition variation - advanced leg entanglement position accessible from Double Jump
+- **[[Positions/Twister Control]]** - Submission destination - accessible through truck transitions from Double Jump
+- **[[Transitions/Turtle to Back Control]]** - Primary transition technique - main method of advancing to back control
+- **[[Transitions/Truck Entry]]** - Alternative transition - counter-option when opponent defends back take
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Upper body control configuration used when transitioning to back control
+- **[[Positions/Back Control/Body Triangle]]** - Alternative leg control after completing back take from Double Jump
 
 
 </section>

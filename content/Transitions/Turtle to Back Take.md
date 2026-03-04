@@ -21,7 +21,7 @@ Mastery of this transition is essential for any grappler, as the turtle position
 
 The positional hierarchy in BJJ places back control as the highest-value position, scoring 4 points in IBJJF competition and offering the best submission percentages of any position. Converting turtle attacks into back control therefore represents one of the most valuable skill chains a practitioner can develop. The transition requires patience, systematic grip establishment, and the discipline to secure control layers in the correct sequence rather than rushing for hooks before upper body control is locked in.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 68%
 
 </section>
@@ -32,9 +32,9 @@ The positional hierarchy in BJJ places back control as the highest-value positio
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 68% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Turtle]] | 12% |
+| Success | [[Positions/Back Control]] | 68% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Turtle]] | 12% |
 
 
 </section>
@@ -196,29 +196,29 @@ The turtle to back take serves as a critical connecting technique within the bro
 ## Related Techniques
 
 
-- [[Back Control]] - Primary target position after successful back take
+- [[Positions/Back Control]] - Primary target position after successful back take
 
-- [[Turtle]] - Starting position where opponent is in defensive shell
+- [[Positions/Turtle]] - Starting position where opponent is in defensive shell
 
-- [[Seat Belt Control Back]] - Key upper body control configuration used during transition
+- [[Positions/Back Control/Seat Belt Control Back]] - Key upper body control configuration used during transition
 
-- [[Rear Naked Choke]] - Primary follow-up submission from back control
+- [[Transitions/Rear Naked Choke]] - Primary follow-up submission from back control
 
-- [[Crab Ride]] - Alternative intermediate control position for back take entry
+- [[Positions/Crab Ride]] - Alternative intermediate control position for back take entry
 
-- [[Crucifix]] - Alternative attack position accessible from turtle top
+- [[Positions/Crucifix]] - Alternative attack position accessible from turtle top
 
-- [[Chair Sit to Back]] - Chair sit variation of the back take technique
+- [[Transitions/Chair Sit to Back]] - Chair sit variation of the back take technique
 
-- [[Truck Entry]] - Alternative leg entanglement transition from turtle
+- [[Transitions/Truck Entry]] - Alternative leg entanglement transition from turtle
 
-- [[Bow and Arrow Choke]] - High-percentage gi submission from back control
+- [[Transitions/Bow and Arrow Choke]] - High-percentage gi submission from back control
 
-- [[Rolling Back Take]] - Rolling variation of back take method
+- [[Transitions/Rolling Back Take]] - Rolling variation of back take method
 
-- [[Body Triangle]] - Back control leg configuration after successful take
+- [[Positions/Back Control/Body Triangle]] - Back control leg configuration after successful take
 
-- [[Armbar from Back]] - Submission option when opponent over-defends neck
+- [[Submissions/Armbar from Back]] - Submission option when opponent over-defends neck
 
 
 </section>

@@ -21,7 +21,7 @@ Unlike the complete guard pass sequence that addresses both diamond controls and
 
 Timing and hip pressure are the two most important factors in successful execution. The top player must maintain constant forward pressure to prevent sweeps while systematically working the circular arm extraction that attacks the overhook at its weakest structural point. Rushing the strip with explosive pulling feeds directly into the bottom player's counter-attacks, while a patient, methodical approach progressively degrades the grip until extraction becomes mechanical rather than forceful.
 
-**From Position**: [[Diamond Guard]] (Top)
+**From Position**: [[Positions/Closed Guard/Diamond Guard]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Timing and hip pressure are the two most important factors in successful executi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Failure | [[Diamond Guard]] | 30% |
-| Counter | [[Triangle Control]] | 20% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Failure | [[Positions/Closed Guard/Diamond Guard]] | 30% |
+| Counter | [[Positions/Triangle Control]] | 20% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Overhook Strip from Diamond Guard occupies a critical role in the top player
 ## Related Techniques
 
 
-- [[Diamond Guard]] - Source position where this transition begins — the overhook is one of two pillars of the diamond frame
+- [[Positions/Closed Guard/Diamond Guard]] - Source position where this transition begins — the overhook is one of two pillars of the diamond frame
 
-- [[Closed Guard]] - Target position after successful overhook strip, where standard guard opening becomes available
+- [[Positions/Closed Guard]] - Target position after successful overhook strip, where standard guard opening becomes available
 
-- [[Triangle Control]] - Counter outcome position when the bottom player catches a triangle during the arm extraction phase
+- [[Positions/Triangle Control]] - Counter outcome position when the bottom player catches a triangle during the arm extraction phase
 
-- [[Guard Pass from Diamond Guard]] - Extended sequence that continues past the overhook strip through guard opening and passing to side control
+- [[Transitions/Guard Pass from Diamond Guard]] - Extended sequence that continues past the overhook strip through guard opening and passing to side control
 
-- [[Break Overhook Guard]] - Related grip-stripping technique from standard overhook guard sharing core circular extraction mechanics
+- [[Transitions/Break Overhook Guard]] - Related grip-stripping technique from standard overhook guard sharing core circular extraction mechanics
 
-- [[Hip Bump Sweep]] - Primary sweep threat the guard player uses when the top player's weight shifts during the stripping sequence
+- [[Transitions/Hip Bump Sweep]] - Primary sweep threat the guard player uses when the top player's weight shifts during the stripping sequence
 
-- [[Overhook Guard]] - Related position using single overhook control — the diamond adds head control to this concept
+- [[Positions/Overhook Guard]] - Related position using single overhook control — the diamond adds head control to this concept
 
-- [[Posture Recovery]] - Complementary technique used after stripping overhook to fully re-establish closed guard top posture
+- [[Transitions/Posture Recovery]] - Complementary technique used after stripping overhook to fully re-establish closed guard top posture
 
-- [[Triangle Setup]] - The counter-attack the guard player uses during the extraction when the arm creates space for leg entry
+- [[Transitions/Triangle Setup]] - The counter-attack the guard player uses during the extraction when the arm creates space for leg entry
 
-- [[Kimura Trap]] - Position the guard player may transition to by converting the overhook to a kimura grip during the strip
+- [[Positions/Kimura Trap]] - Position the guard player may transition to by converting the overhook to a kimura grip during the strip
 
 
 </section>

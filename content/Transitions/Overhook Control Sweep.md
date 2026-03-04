@@ -21,7 +21,7 @@ The sweep works by exploiting the principle that an opponent with one arm trappe
 
 Strategically, the Overhook Control Sweep serves as the primary offensive weapon from bottom overhook position, creating a fundamental dilemma for the top player. If they resist the sweep by posting wide, they open pathways for arm drags and back takes. If they drive forward to prevent the sweep angle, they become vulnerable to guillotines and front headlock entries. This branching threat structure makes the overhook sweep the centerpiece of bottom overhook guard systems and rewards practitioners who develop reliable sweep mechanics from this position.
 
-**From Position**: [[Overhook Control]] (Bottom)
+**From Position**: [[Positions/Overhook Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Overhook Control Sweep serves as the primary offensive weapon
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Overhook Control]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Overhook Control]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -195,23 +195,23 @@ The Overhook Control Sweep integrates directly into the bottom overhook guard sy
 ## Related Techniques
 
 
-- [[Overhook Control]] - Source position where this sweep is initiated from bottom overhook guard
+- [[Positions/Overhook Control]] - Source position where this sweep is initiated from bottom overhook guard
 
-- [[Mount]] - Target position achieved on successful sweep completion
+- [[Positions/Mount]] - Target position achieved on successful sweep completion
 
-- [[Open Guard]] - Degraded position attacker falls to when sweep is countered and overhook is stripped
+- [[Positions/Open Guard]] - Degraded position attacker falls to when sweep is countered and overhook is stripped
 
-- [[Overhook Guard]] - Dedicated guard system built around the overhook grip that includes this sweep as a primary weapon
+- [[Positions/Overhook Guard]] - Dedicated guard system built around the overhook grip that includes this sweep as a primary weapon
 
-- [[Butterfly Guard]] - Guard position frequently combined with overhook for the butterfly hook variant of this sweep
+- [[Positions/Butterfly Guard]] - Guard position frequently combined with overhook for the butterfly hook variant of this sweep
 
-- [[Butterfly Hook Sweep]] - Related sweep technique sharing similar mechanics of hook elevation combined with upper body control
+- [[Transitions/Butterfly Hook Sweep]] - Related sweep technique sharing similar mechanics of hook elevation combined with upper body control
 
-- [[Half Guard]] - Alternative guard position where overhook battles occur and bridge-based variant is commonly applied
+- [[Positions/Half Guard]] - Alternative guard position where overhook battles occur and bridge-based variant is commonly applied
 
-- [[Back Control]] - Alternative advancement target from overhook when sweep is defended by wide posting
+- [[Positions/Back Control]] - Alternative advancement target from overhook when sweep is defended by wide posting
 
-- [[Arm Drag]] - Chain attack available when opponent defends the sweep by pulling their arm backward
+- [[Transitions/Arm Drag]] - Chain attack available when opponent defends the sweep by pulling their arm backward
 
 
 </section>

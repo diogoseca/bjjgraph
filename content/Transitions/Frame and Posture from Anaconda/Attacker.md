@@ -180,7 +180,7 @@ description: "Learn to execute the Frame and Posture escape from Anaconda Contro
 
 Executing the Frame and Posture escape demands immediate structural framing against the opponent's body to create the space needed for posture recovery. As the bottom player in anaconda control, your approach shifts from attacking the opponent's grip directly to building structural barriers between your bodies using your free arm. The technique requires understanding that the anaconda's power comes from chest-on-shoulder compression—not just the grip—and that disrupting this compression through frames is sufficient to escape even when the grip remains intact. Success depends on establishing frames before the position fully consolidates, coordinating hip movement with framing to create progressive space, and transitioning smoothly to front headlock defense once posture is recovered.
 
-**From Position**: [[Anaconda Control]] (Bottom)
+**From Position**: [[Positions/Anaconda Control]] (Bottom)
 
 </section>
 
@@ -232,10 +232,10 @@ Executing the Frame and Posture escape demands immediate structural framing agai
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 40% |
-| Failure | [[Anaconda Control]] | 35% |
-| Counter | [[Darce Control]] | 15% |
-| Counter | [[Side Control]] | 10% |
+| Success | [[Positions/Front Headlock]] | 40% |
+| Failure | [[Positions/Anaconda Control]] | 35% |
+| Counter | [[Positions/Darce Control]] | 15% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -244,10 +244,10 @@ Executing the Frame and Posture escape demands immediate structural framing agai
 
 ## Opponent Counters
 
-- **Opponent drives chest deeper and increases compression to overwhelm the frame before it achieves structural alignment** (Effectiveness: High) - Your Response: Reinforce the frame by turning your trapped-side shoulder into it for additional structural support, and increase hip movement away from the intensified pressure to offset the additional compression through angular displacement → Leads to [[Anaconda Control]]
-- **Opponent releases anaconda grip and threads choking arm deeper for darce configuration during posture recovery** (Effectiveness: Medium) - Your Response: Recognize the grip switch immediately by the change in compression vector and redirect your frame toward the darce angle while circling your hips away from the new choking arm direction before the darce locks → Leads to [[Darce Control]]
-- **Opponent uses your posture recovery movement to step over and flatten you toward side control** (Effectiveness: Medium) - Your Response: Use your frame hand to block their hip from completing the step-over and immediately turn to face them, inserting a knee shield to prevent side control consolidation before they settle their weight → Leads to [[Side Control]]
-- **Opponent initiates roll-through finish while your frame briefly compromises your base and sprawl ability** (Effectiveness: High) - Your Response: Abandon the frame immediately, post your free hand on the mat and sprawl your legs backward to resist the roll. Resume the frame escape only after the roll attempt stalls and the opponent must resettle their position → Leads to [[Anaconda Control]]
+- **Opponent drives chest deeper and increases compression to overwhelm the frame before it achieves structural alignment** (Effectiveness: High) - Your Response: Reinforce the frame by turning your trapped-side shoulder into it for additional structural support, and increase hip movement away from the intensified pressure to offset the additional compression through angular displacement → Leads to [[Positions/Anaconda Control]]
+- **Opponent releases anaconda grip and threads choking arm deeper for darce configuration during posture recovery** (Effectiveness: Medium) - Your Response: Recognize the grip switch immediately by the change in compression vector and redirect your frame toward the darce angle while circling your hips away from the new choking arm direction before the darce locks → Leads to [[Positions/Darce Control]]
+- **Opponent uses your posture recovery movement to step over and flatten you toward side control** (Effectiveness: Medium) - Your Response: Use your frame hand to block their hip from completing the step-over and immediately turn to face them, inserting a knee shield to prevent side control consolidation before they settle their weight → Leads to [[Positions/Side Control]]
+- **Opponent initiates roll-through finish while your frame briefly compromises your base and sprawl ability** (Effectiveness: High) - Your Response: Abandon the frame immediately, post your free hand on the mat and sprawl your legs backward to resist the roll. Resume the frame escape only after the roll attempt stalls and the opponent must resettle their position → Leads to [[Positions/Anaconda Control]]
 
 
 </section>

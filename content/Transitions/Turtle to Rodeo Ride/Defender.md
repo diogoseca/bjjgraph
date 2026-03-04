@@ -146,7 +146,7 @@ description: "How to defend and prevent the Transition to Rodeo Ride from turtle
 
 Defending the Transition to Rodeo Ride requires recognizing the attack in its earliest stages and disrupting the entry before the opponent can establish their perpendicular angle and hip loading. The critical defensive window is narrow—once the opponent has fully established Rodeo Ride with near-arm control, a far-side anchor, and loaded hip pressure, your escape options diminish significantly. Effective defense therefore focuses heavily on prevention: identifying the grip sequence and angle changes that signal a Rodeo Ride entry and countering them before the position is consolidated. Your primary tools are grip fighting to deny the near-arm control, creating movement to prevent the opponent from settling into the angle change, and timing explosive escapes to the moments when the opponent is mid-transition and their control is least stable. Understanding that the attacker must complete several sequential steps (near-arm control, far-side anchor, leg post, hip walk, pressure load) gives you multiple intervention points where disruption is possible.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -185,28 +185,28 @@ Defending the Transition to Rodeo Ride requires recognizing the attack in its ea
 ### 1. Explosive sit-back to guard during the opponent's hip walk phase
 
 - **When to use**: When you feel the opponent beginning to walk their hips perpendicular but before they have loaded full pressure. The mid-transition moment is when their weight is least stable.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to half guard or butterfly guard with the opponent on top, significantly better than turtle bottom
 - **Risk**: If timed poorly, the opponent may have enough control to follow you down and maintain Rodeo Ride or transition to back control
 
 ### 2. Strip near-arm control and re-establish tight defensive shell
 
 - **When to use**: Immediately when you feel the opponent's hand threading toward your near arm. Use two hands on one to strip their grip before they can secure it.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You deny the first step of the Rodeo Ride entry, resetting the opponent to standard turtle top where you have more escape options
 - **Risk**: Using both hands to strip one grip momentarily reduces your structural defense, opening a brief window for collar attacks
 
 ### 3. Granby roll toward the opponent's posted leg side
 
 - **When to use**: When the opponent has committed their weight to the angle change and their far-side leg is posted wide. Rolling toward the posted leg forces them to choose between maintaining their base and following your roll.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You invert and recover guard while the opponent's perpendicular position makes it difficult for them to follow your rotation
 - **Risk**: If the opponent reads the granby, they can follow your roll and end up in an even stronger back control position
 
 ### 4. Technical standup explosively before angle change completes
 
 - **When to use**: When the opponent's grips are not fully established and you have at least one free posting arm. Best used early in the entry sequence before the opponent has loaded hip pressure.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You break free from turtle position entirely, forcing a reset to standing or at minimum disrupting the Rodeo Ride entry attempt
 - **Risk**: If the opponent has collar control, they can snap you back down during the standup attempt and may transition to a front headlock
 
@@ -218,11 +218,11 @@ Defending the Transition to Rodeo Ride requires recognizing the attack in its ea
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a sit-back or granby roll to the moment the opponent is mid-transition with their weight shifted but not yet loaded. Thread your legs between you and the opponent to establish half guard retention. The key timing cue is feeling the opponent's hips begin to walk perpendicular—this is when their control is weakest.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Deny the near-arm control that initiates the entry by maintaining an extremely tight elbow-to-knee shell and aggressively stripping any grip attempts. Force the opponent to abandon the Rodeo Ride entry and return to standard turtle top, where you have more established escape routes.
 

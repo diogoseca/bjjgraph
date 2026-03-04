@@ -21,7 +21,7 @@ This transition is typically employed when the Vaporizer's primary attacks—the
 
 The technique requires careful coordination between releasing the lockdown, maintaining an upper body connection with the opponent, and generating rotational momentum through hip and core engagement. The bottom player must thread their body underneath the opponent in a compact rolling motion and immediately establish an active turtle position that allows continuation of the offensive chain rather than settling into a defensive turtle shell.
 
-**From Position**: [[Vaporizer]] (Bottom)
+**From Position**: [[Positions/Vaporizer]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique requires careful coordination between releasing the lockdown, main
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Vaporizer]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Vaporizer]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Roll from Vaporizer occupies a critical junction in the 10th Planet attack c
 ## Related Techniques
 
 
-- [[Vaporizer]] - Source position from which this transition originates
+- [[Positions/Vaporizer]] - Source position from which this transition originates
 
-- [[Turtle]] - Primary target position on successful roll completion
+- [[Positions/Turtle]] - Primary target position on successful roll completion
 
-- [[Open Guard]] - Alternative outcome position when the roll is countered and positions scramble
+- [[Positions/Open Guard]] - Alternative outcome position when the roll is countered and positions scramble
 
-- [[Lockdown]] - Foundational control mechanism that must be released during the roll
+- [[Positions/Half Guard/Lockdown]] - Foundational control mechanism that must be released during the roll
 
-- [[Electric Chair]] - Primary Vaporizer attack whose successful defense triggers this transition
+- [[Positions/Half Guard/Electric Chair]] - Primary Vaporizer attack whose successful defense triggers this transition
 
-- [[Old School]] - Alternative Vaporizer sweep whose successful defense may trigger this transition
+- [[Positions/Half Guard/Old School]] - Alternative Vaporizer sweep whose successful defense may trigger this transition
 
-- [[Crab Ride]] - High-priority follow-up position from turtle after the roll completes
+- [[Positions/Crab Ride]] - High-priority follow-up position from turtle after the roll completes
 
-- [[Back Control]] - Ultimate target position in the offensive chain following turtle and truck entries
+- [[Positions/Back Control]] - Ultimate target position in the offensive chain following turtle and truck entries
 
-- [[Half Guard]] - Fallback position if lockdown control is partially lost during transition
+- [[Positions/Half Guard]] - Fallback position if lockdown control is partially lost during transition
 
-- [[Deep Half Guard]] - Alternative transition option from similar lockdown configurations
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition option from similar lockdown configurations
 
 
 </section>

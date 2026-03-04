@@ -21,7 +21,7 @@ Strategically, the Pocket Half Pass occupies a pivotal position in pressure-pass
 
 The technique draws from fundamental pressure-passing principles while requiring specific adaptations for the pocket half guard configuration. The deep underhook provides superior upper body control compared to standard half guard top, but the bottom player's tight leg entanglement creates additional extraction challenges. Success depends on patient progression through each phase, recognizing that the underhook advantage means the bottom player's only viable defense is preventing leg extraction - which the passer can overcome through systematic weight distribution and controlled hip movement rather than explosive force.
 
-**From Position**: [[Pocket Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Pocket Half Guard]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ The technique draws from fundamental pressure-passing principles while requiring
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Pocket Half Guard]] | 32% |
-| Counter | [[Half Guard]] | 18% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Half Guard/Pocket Half Guard]] | 32% |
+| Counter | [[Positions/Half Guard]] | 18% |
 
 
 </section>
@@ -195,23 +195,23 @@ The Pocket Half Pass integrates into the broader half guard passing hierarchy as
 ## Related Techniques
 
 
-- [[Pocket Half Guard]] - Source position - the starting configuration for this pass
+- [[Positions/Half Guard/Pocket Half Guard]] - Source position - the starting configuration for this pass
 
-- [[Side Control]] - Primary target position upon successful pass completion
+- [[Positions/Side Control]] - Primary target position upon successful pass completion
 
-- [[Half Guard]] - Parent guard category and counter outcome position if swept
+- [[Positions/Half Guard]] - Parent guard category and counter outcome position if swept
 
-- [[Flattened Half Guard]] - Intermediate position achieved during the flattening phase before pass completion
+- [[Positions/Half Guard/Flattened Half Guard]] - Intermediate position achieved during the flattening phase before pass completion
 
-- [[Knee Shield Half Guard]] - Common recovery position the defender attempts to establish to prevent the pass
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Common recovery position the defender attempts to establish to prevent the pass
 
-- [[Deep Half Guard]] - Primary escape route the defender uses when passer commits to forward pressure
+- [[Positions/Half Guard/Deep Half Guard]] - Primary escape route the defender uses when passer commits to forward pressure
 
-- [[Back Step Pass]] - Alternative passing technique from the same starting position
+- [[Transitions/Back Step Pass]] - Alternative passing technique from the same starting position
 
-- [[Darce Control]] - Submission opportunity when opponent turns into the underhook during pass attempt
+- [[Positions/Darce Control]] - Submission opportunity when opponent turns into the underhook during pass attempt
 
-- [[Knee on Belly]] - Advanced positional target accessible after completing the pass to side control
+- [[Positions/Knee on Belly]] - Advanced positional target accessible after completing the pass to side control
 
 
 </section>

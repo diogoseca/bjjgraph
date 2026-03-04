@@ -156,7 +156,7 @@ Defending the leg weave pass requires early recognition and proactive prevention
 
 The most effective defensive strategy against the leg weave is prevention through active half guard play. Maintaining a strong knee shield prevents the passer from establishing the threading angle, while fighting for the underhook creates enough offensive pressure that the passer cannot commit to the weave without risking a sweep. If the weave does begin, explosive hip movement during the threading phase offers the best chance to disrupt the configuration before the legs are pinned. Once the weave is complete and the legs are flat, the defender must shift to survival mode, protecting the neck and arms while working for incremental space creation through bridging and framing to eventually re-establish a half guard position.
 
-**Opponent's Starting Position**: [[Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The most effective defensive strategy against the leg weave is prevention throug
 ### 1. Establish and maintain knee shield before the weave begins
 
 - **When to use**: Proactively when you feel the opponent beginning to settle heavy crossface pressure in half guard top - this is the preventive measure before any threading attempt
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The knee shield blocks the threading angle entirely, forcing the passer to address the frame first and abandoning the leg weave in favor of a different pass
 - **Risk**: If the passer collapses the knee shield with their free hand before you can solidify it, you may end up flattened with less defensive structure than before
 
 ### 2. Explosive hip escape during the threading phase
 
 - **When to use**: The moment you feel the opponent's knee lifting and beginning to cross over your bottom leg - this narrow timing window is your highest-percentage escape opportunity
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your hip movement creates enough distance that the opponent's leg cannot complete the weave, allowing you to re-establish frames and return to active half guard
 - **Risk**: If timed too late, the hip escape is ineffective because the weave is already controlling your legs, and the energy expenditure weakens your subsequent escape attempts
 
 ### 3. Fight for underhook and initiate sweep threat
 
 - **When to use**: When you have inside position with your near arm and the opponent has not yet established the crossface - use this as an offensive defense that makes the weave too risky for the passer
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The underhook and sweep threat force the passer to abandon the weave to defend the sweep, allowing you to dictate the positional exchange
 - **Risk**: If the opponent counters with a whizzer and maintains top pressure, you may end up in a worse position with your arm trapped
 
 ### 4. Bridge and frame during leg extraction phase
 
 - **When to use**: After the weave is established but when the passer begins extracting their trapped leg - this is the final defensive window before they complete the pass to side control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your bridge creates enough space to re-engage your legs around the passer's extracting leg, re-establishing half guard and resetting the passing sequence
 - **Risk**: If the bridge is insufficient, the passer completes the extraction and establishes side control with you already bridged and potentially off-balance
 
@@ -227,11 +227,11 @@ The most effective defensive strategy against the leg weave is prevention throug
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Disrupt the weave during the threading phase with an explosive hip escape, then re-establish your knee shield or underhook position to return to an active half guard where you can threaten sweeps. Alternatively, bridge during the leg extraction phase to re-engage your legs around the passer's leg before they complete the pass.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Win the underhook battle before the weave begins and use it to generate sweep threats that force the passer to abandon the weave. From the underhook position, execute a standard half guard sweep such as the old school sweep or underhook sweep to reverse the position entirely.
 

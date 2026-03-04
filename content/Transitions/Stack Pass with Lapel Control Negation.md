@@ -21,7 +21,7 @@ The pass operates on the principle that stacking the bottom player's hips over t
 
 Strategically, this technique is most effective when the bottom player commits to an aggressive sweeping motion, because their own momentum can be redirected into the stack. It pairs naturally with other Ringworm Guard counters such as the Smash Pass Counter and Lapel Grip Break and Posture Recovery, creating a multi-threat passing system that forces the bottom player to choose between defending the stack and maintaining their lapel configuration. The pass requires significant forward pressure and hip drive, making it physically demanding but highly effective when the timing is correct.
 
-**From Position**: [[Ringworm Guard]] (Top)
+**From Position**: [[Positions/Ringworm Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this technique is most effective when the bottom player commits t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Ringworm Guard]] | 25% |
-| Counter | [[Ringworm Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Ringworm Guard]] | 25% |
+| Counter | [[Positions/Ringworm Guard]] | 10% |
 
 
 </section>
@@ -193,29 +193,29 @@ The Stack Pass with Lapel Control Negation is a critical component of the Ringwo
 ## Related Techniques
 
 
-- [[Ringworm Guard]] - Starting position - the guard this pass is specifically designed to defeat
+- [[Positions/Ringworm Guard]] - Starting position - the guard this pass is specifically designed to defeat
 
-- [[Side Control]] - Primary target position after successful pass completion
+- [[Positions/Side Control]] - Primary target position after successful pass completion
 
-- [[Smash Pass Counter]] - Complementary passing option when opponent defends the stack by turning to their side
+- [[Transitions/Smash Pass Counter]] - Complementary passing option when opponent defends the stack by turning to their side
 
-- [[Lapel Grip Break and Posture Recovery]] - Alternative approach that resets to neutral rather than forcing the pass through compression
+- [[Transitions/Lapel Grip Break and Posture Recovery]] - Alternative approach that resets to neutral rather than forcing the pass through compression
 
-- [[Stack Pass Over Lapel Barrier]] - Related technique sharing compression mechanics against lapel-based guards
+- [[Transitions/Stack Pass Over Lapel Barrier]] - Related technique sharing compression mechanics against lapel-based guards
 
-- [[Long Step Around Ringworm]] - Mobility-based alternative for passing Ringworm Guard without stacking
+- [[Transitions/Long Step Around Ringworm]] - Mobility-based alternative for passing Ringworm Guard without stacking
 
-- [[Backstep Around Worm Guard]] - Related lapel guard counter using backstep mechanics applicable to Ringworm variants
+- [[Transitions/Backstep Around Worm Guard]] - Related lapel guard counter using backstep mechanics applicable to Ringworm variants
 
-- [[Pressure Pass Through Squid]] - Shares compression principles against a different lapel guard configuration
+- [[Transitions/Pressure Pass Through Squid]] - Shares compression principles against a different lapel guard configuration
 
-- [[Leg Extraction from Lapel Wrap]] - Core sub-skill required during the extraction phase of this pass
+- [[Transitions/Leg Extraction from Lapel Wrap]] - Core sub-skill required during the extraction phase of this pass
 
-- [[Stack Pass]] - Parent technique providing fundamental stacking mechanics this variant builds upon
+- [[Transitions/Stack Pass]] - Parent technique providing fundamental stacking mechanics this variant builds upon
 
-- [[Ringworm Sweep to Back Control]] - Primary counter-attack the bottom player will attempt if the stack is poorly timed
+- [[Transitions/Ringworm Sweep to Back Control]] - Primary counter-attack the bottom player will attempt if the stack is poorly timed
 
-- [[Back Step Pass]] - Alternative passing approach when the stack creates backstep opportunities
+- [[Transitions/Back Step Pass]] - Alternative passing approach when the stack creates backstep opportunities
 
 
 </section>

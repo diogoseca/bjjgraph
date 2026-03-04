@@ -158,7 +158,7 @@ From the top position in half guard, your primary defensive objective against th
 
 Effective defense integrates crossface pressure, grip fighting, and tactical hip positioning. Maintaining heavy shoulder pressure and denying the underhook neutralizes the setup. If the attacker achieves the angle, strong posting combined with driving your weight forward can nullify the elevation. Skilled defenders also use the attacker's commitment against them by timing guard passes during the rotation attempt, capitalizing on the momentary vulnerability created when the bottom player fully commits to the sweep.
 
-**Opponent's Starting Position**: [[Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -197,28 +197,28 @@ Effective defense integrates crossface pressure, grip fighting, and tactical hip
 ### 1. Strip the two-on-one grip by circling your controlled elbow back toward your hip and pulling your wrist free using a strong circular motion
 
 - **When to use**: Immediately when you feel opponent establishing two-on-one control on your sleeve before they can create an angle. This is the highest-percentage defense because it stops the sweep at its foundation.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Returns to neutral half guard top position with opponent unable to execute sweep, allowing you to re-establish crossface and passing grips
 - **Risk**: If grip strip fails, you may overextend your arm and give opponent a deeper angle for the sweep
 
 ### 2. Drive crossface pressure and flatten opponent by sprawling your hips back and applying shoulder weight
 
 - **When to use**: When you feel the opponent creating angular positioning and your arm is already partially controlled. Best used before the pistol grip break occurs.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Flattens opponent and kills the underhook angle, resetting to a dominant half guard top position where you can work your passing game
 - **Risk**: If opponent has deep underhook, your forward pressure may fuel their sweep attempt
 
 ### 3. Establish whizzer (overhook) on opponent's underhook arm and drive forward with heavy hip pressure to kill the angle
 
 - **When to use**: When opponent has established the underhook and angle but has not yet executed the pistol grip break. The whizzer counters the underhook directly.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Neutralizes underhook and kills angular momentum, flattening opponent and potentially opening knee slice or smash pass opportunities
 - **Risk**: If opponent has already secured the two-on-one sleeve grip, the whizzer alone may not be enough to prevent the rotation
 
 ### 4. Post free hand strongly with wide base and immediately re-distribute weight over the posted arm when you feel the pistol grip break attempt
 
 - **When to use**: When opponent attempts the signature pistol grip break on your posted hand. Stiffen your posting arm, widen your base, and shift your center of gravity over the post.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Maintains your base structure despite the grip break attempt, forcing opponent to abandon the sweep or transition to a different attack
 - **Risk**: Posting with a straight arm creates vulnerability to kimura attack if opponent switches from grip break to submission
 
@@ -230,11 +230,11 @@ Effective defense integrates crossface pressure, grip fighting, and tactical hip
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Strip the two-on-one grip early by circling your elbow back to your hip, then re-establish crossface and passing posture. Alternatively, drive your weight forward to flatten them and nullify the underhook angle.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a counter-pass during the opponent's sweep commitment. When they fully commit to the rotation, their half guard structure is momentarily weakened. Drive forward through their legs with a knee slice or smash pass, or use the sprawl to flatten their guard and advance to side control.
 

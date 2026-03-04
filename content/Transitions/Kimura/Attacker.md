@@ -178,7 +178,7 @@ From a strategic standpoint, the Kimura from Crucifix serves as a secondary atta
 
 The mechanics of executing the Kimura from Crucifix differ from standard Kimura positions because you're attacking from behind rather than from a perpendicular angle. This requires specific adjustments in grip positioning and rotational force application. The crucifix position provides exceptional control throughout the submission attempt, making it difficult for the opponent to escape or create defensive angles even when they recognize the attack developing.
 
-**From Position**: [[Crucifix]] (Top)
+**From Position**: [[Positions/Crucifix]] (Top)
 
 </section>
 
@@ -231,8 +231,8 @@ The mechanics of executing the Kimura from Crucifix differ from standard Kimura 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Crucifix]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Failure | [[Positions/Crucifix]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ The mechanics of executing the Kimura from Crucifix differ from standard Kimura 
 
 ## Opponent Counters
 
-- **Straightening the arm by extending the elbow before the grip is secured** (Effectiveness: High) - Your Response: If they straighten before you secure the figure-four, immediately transition to an armbar attack on the extended arm or abandon the Kimura and return to choke attacks while their arm is committed → Leads to [[Crucifix]]
-- **Gripping their own belt, pants, or lapel to anchor the arm against rotation** (Effectiveness: Medium) - Your Response: Use your free leg or hip pressure to strip the grip by attacking the fingers or wrist. Alternatively, switch to attacking the grip itself with a wristlock or use the stalled position to advance to mounted crucifix for better leverage → Leads to [[Crucifix]]
-- **Rolling toward the attacking arm to relieve rotational pressure** (Effectiveness: Medium) - Your Response: Follow the roll and maintain the grip—the roll often exposes the back more fully. If they roll completely, transition to standard Kimura from top position or release and take the back with both hooks → Leads to [[Back Control]]
-- **Explosive bridging to create space and disrupt grip configuration** (Effectiveness: Low) - Your Response: Ride the bridge by staying tight to their body and maintaining hip pressure. As they return from the bridge, immediately reapply rotational pressure—the moment after the bridge is often when they're most vulnerable → Leads to [[Crucifix]]
+- **Straightening the arm by extending the elbow before the grip is secured** (Effectiveness: High) - Your Response: If they straighten before you secure the figure-four, immediately transition to an armbar attack on the extended arm or abandon the Kimura and return to choke attacks while their arm is committed → Leads to [[Positions/Crucifix]]
+- **Gripping their own belt, pants, or lapel to anchor the arm against rotation** (Effectiveness: Medium) - Your Response: Use your free leg or hip pressure to strip the grip by attacking the fingers or wrist. Alternatively, switch to attacking the grip itself with a wristlock or use the stalled position to advance to mounted crucifix for better leverage → Leads to [[Positions/Crucifix]]
+- **Rolling toward the attacking arm to relieve rotational pressure** (Effectiveness: Medium) - Your Response: Follow the roll and maintain the grip—the roll often exposes the back more fully. If they roll completely, transition to standard Kimura from top position or release and take the back with both hooks → Leads to [[Positions/Back Control]]
+- **Explosive bridging to create space and disrupt grip configuration** (Effectiveness: Low) - Your Response: Ride the bridge by staying tight to their body and maintaining hip pressure. As they return from the bridge, immediately reapply rotational pressure—the moment after the bridge is often when they're most vulnerable → Leads to [[Positions/Crucifix]]
 
 
 </section>

@@ -21,7 +21,7 @@ The technique capitalizes on the stability provided by the body triangle, which 
 
 Strategically, the Short Choke fits into a systematic back attack game where you cycle between RNC attempts and collar chokes based on the opponent's defensive reactions. When they defend one attack, it often opens the other. The Short Choke is particularly effective in gi competition where collar access is readily available, and it requires less physical exertion than fighting for the deep RNC position. Elite practitioners use this choke as part of a continuous threat cycle that eventually overwhelms the defender's ability to protect all attack vectors simultaneously.
 
-**From Position**: [[Body Triangle]] (Bottom)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -33,8 +33,8 @@ Strategically, the Short Choke fits into a systematic back attack game where you
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Body Triangle]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Failure | [[Positions/Back Control/Body Triangle]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -189,21 +189,21 @@ The Short Choke integrates into the back attack system as a primary alternative 
 ## Related Techniques
 
 
-- [[Body Triangle]] - Starting position providing leg control foundation
+- [[Positions/Back Control/Body Triangle]] - Starting position providing leg control foundation
 
-- [[Rear Naked Choke]] - Primary alternative - opponent defending RNC opens Short Choke
+- [[Transitions/Rear Naked Choke]] - Primary alternative - opponent defending RNC opens Short Choke
 
-- [[Bow and Arrow Choke]] - Transition target when opponent turns to defend
+- [[Transitions/Bow and Arrow Choke]] - Transition target when opponent turns to defend
 
-- [[Armbar from Back]] - Counter-attack when opponent grip fights
+- [[Submissions/Armbar from Back]] - Counter-attack when opponent grip fights
 
-- [[Back Control]] - Fallback position if choke fails
+- [[Positions/Back Control]] - Fallback position if choke fails
 
-- [[Seat Belt Control Back]] - Upper body control enabling choke setup
+- [[Positions/Back Control/Seat Belt Control Back]] - Upper body control enabling choke setup
 
-- [[Cross Collar Choke]] - Related collar choke mechanics
+- [[Transitions/Cross Collar Choke]] - Related collar choke mechanics
 
-- [[Clock Choke]] - Similar collar-based strangling mechanics
+- [[Transitions/Clock Choke]] - Similar collar-based strangling mechanics
 
 
 </section>

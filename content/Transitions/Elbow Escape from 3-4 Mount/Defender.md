@@ -154,7 +154,7 @@ description: "Prevent the Elbow Escape from 3-4 Mount as the top player. Learn t
 
 As the top player defending against the Elbow Escape from 3-4 Mount, your objective is to recognize the escape attempt early, shut down the hip escape mechanics through pressure and positioning, and ideally use the bottom player's movement to advance your position to full mount or initiate submission attacks. The 3-4 mount configuration is inherently less stable than full mount due to its asymmetric weight distribution, so you must actively manage the vulnerability on the posted leg side while maintaining offensive pressure through the mounted knee. Recognizing the bottom player's bridge timing and frame placement provides the earliest warning of an impending escape attempt, giving you the initiative to preemptively counter before the hip escape gains momentum. Successful defense combines weight distribution adjustments, knee pressure maintenance, and the ability to punish escape attempts with positional advancement or submission entries.
 
-**Opponent's Starting Position**: [[3-4 Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount/3-4 Mount]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the top player defending against the Elbow Escape from 3-4 Mount, your object
 ### 1. Drive mounted knee deeper and drop chest weight forward
 
 - **When to use**: At the earliest recognition of frame insertion or hip angling, before the bridge is initiated
-- **Targets**: [[3-4 Mount]]
+- **Targets**: [[Positions/Mount/3-4 Mount]]
 - **If successful**: Eliminates the space needed for the hip escape and re-settles your weight, forcing the bottom player to restart their escape sequence from scratch
 - **Risk**: Over-committing weight forward may expose you to a well-timed upa if the bottom player traps your posting arm
 
 ### 2. Switch mounted knee to opposite side during the bridge
 
 - **When to use**: When the bottom player commits to a bridge toward the mounted side, creating momentary space for you to reposition
-- **Targets**: [[3-4 Mount]]
+- **Targets**: [[Positions/Mount/3-4 Mount]]
 - **If successful**: Reverses the 3-4 configuration, forcing the bottom player to reassess escape direction and restart their frame sequence on the opposite side
 - **Risk**: The transition between configurations creates brief instability that an experienced bottom player can exploit to accelerate their escape
 
 ### 3. Consolidate to full mount by bringing posted leg across the body
 
 - **When to use**: When the bottom player's bridge creates enough momentum that you are being displaced from 3-4 mount, use that energy to settle into symmetric full mount
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Advances to full mount which eliminates the asymmetric escape corridor and establishes stronger overall control with symmetric weight distribution
 - **Risk**: During the transition, there is a brief window where both legs are in motion and base is compromised, potentially allowing guard recovery
 
 ### 4. Attack the framing arm with Americana setup
 
 - **When to use**: When the bottom player extends their far arm to frame against your chest or bicep, creating an isolation opportunity
-- **Targets**: [[3-4 Mount]]
+- **Targets**: [[Positions/Mount/3-4 Mount]]
 - **If successful**: Forces the bottom player to abandon their escape frames to defend the submission, returning them to a purely defensive posture without the structural support needed for the elbow escape
 - **Risk**: Committing to the submission attempt may shift your weight upward, creating space the bottom player can use for the hip escape if the submission is not controlled tightly
 
@@ -225,11 +225,11 @@ As the top player defending against the Elbow Escape from 3-4 Mount, your object
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the bottom player bridges toward the mounted side, flow with their momentum by bringing your posted leg across their body to establish full mount rather than fighting to maintain the 3-4 configuration. Use the bridge energy to transition your weight into symmetric mount with both knees on the mat, immediately establishing grapevines to prevent further escape attempts.
 
-### → [[3-4 Mount]]
+### → [[Positions/Mount/3-4 Mount]]
 
 Shut down the escape at the earliest recognition stage by driving your mounted knee deeper into the ribs as a wedge, dropping chest-to-chest pressure, and controlling the near-side arm to prevent effective framing. Proactively maintain tight knee-to-rib connection on the mounted side and stay heavy through your hips to deny the space needed for hip escape initiation.
 

@@ -154,7 +154,7 @@ description: "How to defend and survive late-stage submission finishes in BJJ. R
 
 As the defender against the Transition to Game Over, you are in the most dangerous phase of any grappling exchange - an opponent has established a submission control position and is actively working to complete the finish. Your survival depends on early recognition of the submission threat, immediate defensive action before the finishing mechanism is fully locked, and the discipline to tap when caught cleanly rather than risking injury. The best submission defense begins before the control position is established, but when caught, you need systematic defensive frameworks that buy time, create space, and ultimately either escape the position or force the opponent to abandon the submission attempt. Understanding the universal principles of late-stage submission defense allows you to remain composed under extreme pressure and make intelligent defensive choices rather than panicking into worse positions.
 
-**Opponent's Starting Position**: [[Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -192,21 +192,21 @@ As the defender against the Transition to Game Over, you are in the most dangero
 ### 1. Hand fight and grip prevention to stop the finishing grip from consolidating
 
 - **When to use**: During the early grip setup phase before the opponent has fully secured the finishing mechanism - this is the highest-percentage defensive window
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Prevents the submission from being locked in and returns the exchange to a positional control battle where escape attempts can be pursued
 - **Risk**: If timing is late and the grip is already partially set, your hand fighting may be insufficient and you burn energy in a losing grip battle
 
 ### 2. Frame and hip escape to create separation and extract the endangered limb or neck from the finishing position
 
 - **When to use**: After the grip is established but before full finishing pressure is applied, when you can still create space through hip movement and skeletal frames
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough space to pull the endangered limb free or break the choking angle, potentially escaping the control position entirely
 - **Risk**: Hip movement may give the opponent an opportunity to tighten their control if your frames are not strong enough to maintain the space you create
 
 ### 3. Explosive bridge and rotation to disrupt the finishing angle and force a positional scramble
 
 - **When to use**: As finishing pressure begins to build but before it reaches the point of no return, using the last available window of movement before the lock or choke is fully tight
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Disrupts the opponent's finishing alignment and may create a scramble where you can recover to a more neutral position
 - **Risk**: Burns significant energy and if the control position is too consolidated, the bridge will be absorbed without creating meaningful escape opportunity
 
@@ -225,7 +225,7 @@ As the defender against the Transition to Game Over, you are in the most dangero
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a bridge or hip escape during the transition between the opponent's control consolidation and their finishing grip setup, when they are momentarily focused on securing the submission rather than maintaining positional dominance. Use frames against their hips or shoulders to create the space needed to extract the endangered limb and recover to a guard position.
 

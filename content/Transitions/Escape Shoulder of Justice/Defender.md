@@ -154,7 +154,7 @@ description: "Maintain Shoulder of Justice control against escape attempts. Comp
 
 As the top player defending against the Escape from Shoulder of Justice, your objective is to maintain the crushing shoulder pressure position while recognizing and countering the bottom player's escape attempts. The Shoulder of Justice's effectiveness depends on your ability to maintain hip-to-hip connection, sustain the correct shoulder pressure angle, and immediately capitalize on any defensive reactions that expose submissions or position advancements. Your greatest weapon is the dilemma structure inherent in the position: every escape attempt the bottom player makes should open a specific offensive pathway. Understanding the escape mechanics your opponent is attempting allows you to either prevent the escape entirely or convert their movement into a mount transition, kimura attack, or pressure reestablishment that worsens their situation.
 
-**Opponent's Starting Position**: [[Shoulder of Justice]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Shoulder of Justice]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the top player defending against the Escape from Shoulder of Justice, your ob
 ### 1. Drive hips heavier into opponent's hip line and increase shoulder pressure angle
 
 - **When to use**: When you detect the bottom player establishing frames or planting their far foot for hip escape preparation
-- **Targets**: [[Shoulder of Justice]]
+- **Targets**: [[Positions/Shoulder of Justice]]
 - **If successful**: Collapses the bottom player's micro-frame, prevents hip escape from generating distance, and reestablishes maximum control
 - **Risk**: Over-committing weight forward can create bridge vulnerability if bottom player times a coordinated bridge during your weight shift
 
 ### 2. Step over to mount transition when bottom player creates space through hip escape
 
 - **When to use**: When the bottom player successfully shrimps and creates space between your hip line and theirs, before they can insert a knee shield
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Advances to mount position, converting the bottom player's escape attempt into a worse positional outcome for them
 - **Risk**: If the bottom player inserts a knee shield before your leg clears, you end up in half guard with them having an active defensive structure
 
 ### 3. Attack kimura on near arm if it extends beyond the bottom player's centerline during framing
 
 - **When to use**: Immediately when the bottom player's near arm extends past their chest in an attempt to create a larger frame or push your shoulder
-- **Targets**: [[Shoulder of Justice]]
+- **Targets**: [[Positions/Shoulder of Justice]]
 - **If successful**: Isolates the arm for kimura submission or kimura trap control, punishing the escape attempt and creating a new submission threat
 - **Risk**: Releasing shoulder pressure to attack the kimura may give the bottom player enough space to recover guard if the kimura is not secured quickly
 
 ### 4. Follow hip escape movement and re-consolidate pressure at new angle
 
 - **When to use**: When the bottom player executes a partial hip escape but has not yet inserted a knee shield
-- **Targets**: [[Shoulder of Justice]]
+- **Targets**: [[Positions/Shoulder of Justice]]
 - **If successful**: Re-establishes Shoulder of Justice control at the new position, negating the bottom player's escape progress entirely
 - **Risk**: If you are slow to follow, the bottom player completes the knee shield insertion and recovers to half guard
 
@@ -225,11 +225,11 @@ As the top player defending against the Escape from Shoulder of Justice, your ob
 
 ## Best-Case Outcomes for Defender
 
-### → [[Shoulder of Justice]]
+### → [[Positions/Shoulder of Justice]]
 
 Maintain continuous hip-to-hip connection and follow the bottom player's hip movements with your own hip adjustments. When you detect frame creation, increase pressure through your shoulder angle and drive your weight through your center of mass to collapse the frame before the hip escape can execute.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the bottom player successfully creates space through a hip escape, immediately capitalize by stepping your near leg over their body to mount before they can insert a knee shield. The escape attempt creates the space you need for the mount transition, converting their defensive movement into a positional advancement for you.
 

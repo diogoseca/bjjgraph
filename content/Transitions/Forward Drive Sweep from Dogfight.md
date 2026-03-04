@@ -21,7 +21,7 @@ Mechanically, the sweep relies on three coordinated actions: deep underhook cont
 
 This sweep integrates seamlessly into the broader Dogfight attack chain. If the opponent defends the forward drive by posting their far leg wide, this opens the Dogfight Sweep and back take opportunities. If they respond by driving whizzer pressure forward to counter, the bottom player can redirect into a deep half guard entry or the Underhook Sweep. This chain-attack integration makes the Forward Drive Sweep a critical first option that forces defensive reactions exploitable by complementary techniques.
 
-**From Position**: [[Dogfight Position]] (Bottom)
+**From Position**: [[Positions/Dogfight Position]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This sweep integrates seamlessly into the broader Dogfight attack chain. If the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Dogfight Position]] | 30% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Dogfight Position]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -197,25 +197,25 @@ The Forward Drive Sweep occupies a central role in the Dogfight attack system as
 ## Related Techniques
 
 
-- [[Dogfight Position]] - Starting position where both players are on knees with active underhook battle
+- [[Positions/Dogfight Position]] - Starting position where both players are on knees with active underhook battle
 
-- [[Mount]] - Primary target position achieved on successful sweep completion
+- [[Positions/Mount]] - Primary target position achieved on successful sweep completion
 
-- [[Half Guard]] - Parent guard system from which the Dogfight Position arises
+- [[Positions/Half Guard]] - Parent guard system from which the Dogfight Position arises
 
-- [[Flattened Half Guard]] - Position attacker regresses to when the sweep is countered by crossface pressure
+- [[Positions/Half Guard/Flattened Half Guard]] - Position attacker regresses to when the sweep is countered by crossface pressure
 
-- [[Dogfight Sweep]] - Complementary sweep from same position that chains when forward drive is defended
+- [[Transitions/Dogfight Sweep]] - Complementary sweep from same position that chains when forward drive is defended
 
-- [[Back Take]] - Alternative offensive path from Dogfight when forward drive forces defensive overcommitment
+- [[Transitions/Back Take]] - Alternative offensive path from Dogfight when forward drive forces defensive overcommitment
 
-- [[Deep Half Guard]] - Fallback transition when opponent applies overwhelming forward pressure against the drive
+- [[Positions/Half Guard/Deep Half Guard]] - Fallback transition when opponent applies overwhelming forward pressure against the drive
 
-- [[Crossface from Dogfight]] - Primary defensive technique used by the top player to counter the forward drive
+- [[Transitions/Crossface from Dogfight]] - Primary defensive technique used by the top player to counter the forward drive
 
-- [[Underhook Sweep from Dogfight]] - Chain attack option when forward drive stalls and opponent shifts weight laterally
+- [[Transitions/Underhook Sweep from Dogfight]] - Chain attack option when forward drive stalls and opponent shifts weight laterally
 
-- [[Side Control]] - Alternative dominant position achieved when sweep angle results in lateral rather than forward topple
+- [[Positions/Side Control]] - Alternative dominant position achieved when sweep angle results in lateral rather than forward topple
 
 
 </section>

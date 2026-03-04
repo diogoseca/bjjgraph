@@ -146,7 +146,7 @@ description: "Learn to defend and prevent the SLX to X-Guard transition from top
 
 Defending the SLX to X-Guard transition requires the top player to recognize the bottom player's preparatory movements and intervene before the outside leg thread is completed. The defender's primary objective is preventing the upgrade from single-leg to double-leg control, which dramatically increases the bottom player's sweeping power and directional attack options. Successful defense combines proactive base management with active free leg positioning and strategic weight distribution to deny the bottom player the angle and space needed for the leg thread. Early recognition is essential because once the full X-Guard configuration is established with deep bilateral hooks, defensive options become significantly more limited and energy-intensive. Containing the position in SLX rather than allowing the upgrade is a sound strategic choice, as SLX offers the top player more escape paths and fewer sweep angles than full X-Guard.
 
-**Opponent's Starting Position**: [[Single Leg X-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the SLX to X-Guard transition requires the top player to recognize the
 ### 1. Step free leg backward and away from threading range immediately upon recognizing the attempt
 
 - **When to use**: As soon as you feel the bottom player's outside foot leave your hip or sense their hips scooting toward your free leg side
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: Bottom player remains in SLX without the upgrade, maintaining a more manageable guard configuration with fewer sweep angles
 - **Risk**: Stepping too far back can compromise your base on the trapped leg side, opening SLX sweep opportunities as your weight shifts
 
 ### 2. Drive forward with heavy pressure to flatten the bottom player when their outside foot releases the hip frame
 
 - **When to use**: When the bottom player removes their outside foot from your hip, temporarily eliminating their primary distance management tool
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: Collapses the bottom player's elevation and prevents the angle creation needed for threading, potentially opening passing opportunities
 - **Risk**: If the bottom player maintains hooks under pressure, your forward drive can be redirected into ashi garami entries or used as sweep momentum
 
 ### 3. Backstep over the threading leg and initiate a passing sequence through the created opening
 
 - **When to use**: When the bottom player commits their outside leg fully to the threading motion, creating a momentary window where their guard structure is weakest
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Escapes the leg entanglement entirely and establishes a dominant passing position with the bottom player's guard compromised
 - **Risk**: Failed backstep can result in deeper entanglement or back exposure if the bottom player follows the rotation with their hooks
 
 ### 4. Strip the ankle grip and extract the trapped leg while the bottom player's attention is divided during the transition
 
 - **When to use**: During the threading motion when the bottom player's focus is split between maintaining SLX control and establishing the new hook
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Complete escape from all leg entanglement, returning to open guard top where you can reset with full passing strategy options
 - **Risk**: If the grip strip fails, energy is wasted and the bottom player may complete the X-Guard transition during your recovery
 
@@ -217,11 +217,11 @@ Defending the SLX to X-Guard transition requires the top player to recognize the
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Capitalize on the bottom player's divided attention during the threading attempt by explosively extracting the trapped leg or backstepping past their guard. The moment they remove their outside foot from your hip, their distance management is at its weakest. Drive forward through this window to collapse their structure entirely, or backstep to escape the entanglement before they can re-establish hooks.
 
-### → [[Single Leg X-Guard]]
+### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 Deny the transition by maintaining mobile free leg positioning and consistent forward pressure on the trapped side. Keep your free leg stepping in unpredictable micro-patterns that deny the bottom player a stationary target for their thread. This containment strategy limits them to SLX attacks only, which offer fewer sweep directions and less power than full X-Guard.
 

@@ -180,7 +180,7 @@ description: "Learn to execute the push knee and reguard escape from Knee on Bel
 
 Executing the Push Knee and Reguard escape requires coordinating three simultaneous actions: pushing the opponent's knee off your torso, hip escaping away from the pressure, and inserting your legs to establish guard. As the bottom player, your priority is addressing the knee pressure directly rather than working around it. The technique demands precise hand placement on the opponent's knee, explosive hip escape timing, and disciplined leg insertion to prevent the opponent from advancing to mount during the transition. Success depends on your ability to combine these elements into a single fluid motion rather than executing them sequentially, creating a moment where the opponent's primary control point is displaced while your body has already moved to a position where guard recovery is possible.
 
-**From Position**: [[Knee on Belly]] (Bottom)
+**From Position**: [[Positions/Knee on Belly]] (Bottom)
 
 </section>
 
@@ -233,10 +233,10 @@ Executing the Push Knee and Reguard escape requires coordinating three simultane
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 40% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Knee on Belly]] | 25% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Closed Guard]] | 40% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Knee on Belly]] | 25% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -245,10 +245,10 @@ Executing the Push Knee and Reguard escape requires coordinating three simultane
 
 ## Opponent Counters
 
-- **Opponent immediately re-plants knee on torso before guard recovery completes** (Effectiveness: High) - Your Response: Maintain push pressure and continue hip escaping — chain into a second push attempt or immediately transition to frame-and-shrimp escape to keep momentum → Leads to [[Knee on Belly]]
-- **Opponent slides knee across to mount as you create space by pushing** (Effectiveness: High) - Your Response: Prioritize inserting your knee shield to block the mount transition path — if mount is partially established, immediately begin elbow escape sequence before they consolidate → Leads to [[Mount]]
-- **Opponent drops weight forward and attacks your pushing arm with armbar or americana setup** (Effectiveness: Medium) - Your Response: Withdraw the pushing arm quickly and keep elbows tight to body — the arm attack requires them to release some knee pressure, creating an escape opportunity through hip escape → Leads to [[Knee on Belly]]
-- **Opponent circles to opposite side knee on belly to avoid the push direction entirely** (Effectiveness: Medium) - Your Response: Follow their movement and re-establish defensive frames on the new side — the transition gives you a moment of reduced pressure to initiate escape on the new side → Leads to [[Knee on Belly]]
+- **Opponent immediately re-plants knee on torso before guard recovery completes** (Effectiveness: High) - Your Response: Maintain push pressure and continue hip escaping — chain into a second push attempt or immediately transition to frame-and-shrimp escape to keep momentum → Leads to [[Positions/Knee on Belly]]
+- **Opponent slides knee across to mount as you create space by pushing** (Effectiveness: High) - Your Response: Prioritize inserting your knee shield to block the mount transition path — if mount is partially established, immediately begin elbow escape sequence before they consolidate → Leads to [[Positions/Mount]]
+- **Opponent drops weight forward and attacks your pushing arm with armbar or americana setup** (Effectiveness: Medium) - Your Response: Withdraw the pushing arm quickly and keep elbows tight to body — the arm attack requires them to release some knee pressure, creating an escape opportunity through hip escape → Leads to [[Positions/Knee on Belly]]
+- **Opponent circles to opposite side knee on belly to avoid the push direction entirely** (Effectiveness: Medium) - Your Response: Follow their movement and re-establish defensive frames on the new side — the transition gives you a moment of reduced pressure to initiate escape on the new side → Leads to [[Positions/Knee on Belly]]
 
 
 </section>

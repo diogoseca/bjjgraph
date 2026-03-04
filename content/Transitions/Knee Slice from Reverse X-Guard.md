@@ -21,7 +21,7 @@ Strategically, this pass succeeds when the bottom player's primary hook behind t
 
 The technique demands precise coordination between upper body control and lower body mechanics. The crossface must be established before or simultaneously with the knee slice to prevent the bottom player from following the movement and recovering guard. This pass is a staple of high-level competition passing, where the ability to transition from guard defense to offensive passing in a single fluid motion separates advanced practitioners from intermediate ones.
 
-**From Position**: [[Reverse X-Guard]] (Top)
+**From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,10 +32,10 @@ The technique demands precise coordination between upper body control and lower 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Half Guard]] | 25% |
-| Failure | [[Reverse X-Guard]] | 15% |
-| Counter | [[Single Leg X-Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Failure | [[Positions/X-Guard/Reverse X-Guard]] | 15% |
+| Counter | [[Positions/X-Guard/Single Leg X-Guard]] | 10% |
 
 
 </section>
@@ -192,27 +192,27 @@ The Knee Slice from Reverse X-Guard connects the defensive passing game against 
 ## Related Techniques
 
 
-- [[Reverse X-Guard]] - Starting position where the pass is initiated from top
+- [[Positions/X-Guard/Reverse X-Guard]] - Starting position where the pass is initiated from top
 
-- [[Side Control]] - Primary target position after successful pass completion
+- [[Positions/Side Control]] - Primary target position after successful pass completion
 
-- [[Half Guard]] - Common intermediate position when pass is partially defended
+- [[Positions/Half Guard]] - Common intermediate position when pass is partially defended
 
-- [[Single Leg X-Guard]] - Counter position opponent may transition to during pass attempt
+- [[Positions/X-Guard/Single Leg X-Guard]] - Counter position opponent may transition to during pass attempt
 
-- [[Backstep Pass from Reverse X-Guard]] - Complementary pass creating a two-option attack system from same position
+- [[Transitions/Backstep Pass from Reverse X-Guard]] - Complementary pass creating a two-option attack system from same position
 
-- [[Knee Slice from DLR]] - Related knee slice variation sharing core mechanics from different guard
+- [[Transitions/Knee Slice from DLR]] - Related knee slice variation sharing core mechanics from different guard
 
-- [[Knee Slice from Knee Shield]] - Related knee slice variation from half guard context
+- [[Transitions/Knee Slice from Knee Shield]] - Related knee slice variation from half guard context
 
-- [[Knee Cut from Headquarters]] - Standard knee cut pass sharing finishing mechanics
+- [[Transitions/Knee Cut from Headquarters]] - Standard knee cut pass sharing finishing mechanics
 
-- [[X-Guard]] - Related guard position with similar hook structures
+- [[Positions/X-Guard]] - Related guard position with similar hook structures
 
-- [[Deep Half Guard]] - Position opponent may transition to if they lose Reverse X hooks
+- [[Positions/Half Guard/Deep Half Guard]] - Position opponent may transition to if they lose Reverse X hooks
 
-- [[Headquarters Position]] - Neutral passing position if hooks are fully cleared without completing pass
+- [[Positions/Headquarters Position]] - Neutral passing position if hooks are fully cleared without completing pass
 
 
 </section>

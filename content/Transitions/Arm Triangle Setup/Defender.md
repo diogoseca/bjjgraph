@@ -158,7 +158,7 @@ The fundamental defensive principle is denying the arm-across-neck configuration
 
 Advanced defenders recognize that the arm triangle setup from North-South creates opportunities for counter-attacks. The attacker must redistribute their weight during the hip walk, momentarily compromising their base. Timing a bridge or hip escape during this weight shift can recover half guard or create enough chaos to extract the trapped arm. The defender who understands both the attacker's mechanical requirements and their own escape windows transforms a desperate survival situation into a calculated positional exchange.
 
-**Opponent's Starting Position**: [[North-South]] (Top)
+**Opponent's Starting Position**: [[Positions/North-South]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Advanced defenders recognize that the arm triangle setup from North-South create
 ### 1. Retract the near-side arm by pulling your elbow tight to your ribs and swimming your hand to inside position, preventing the arm from crossing your centerline
 
 - **When to use**: At the earliest stage when you feel the attacker begin to underhook or manipulate your near-side arm toward your neck
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: The attacker cannot establish the arm-across-neck configuration and must abandon the arm triangle attempt, returning to standard North-South control
 - **Risk**: If you overcommit both arms to defending the near side, the attacker can switch to a North-South choke or kimura on the exposed far-side arm
 
 ### 2. Bridge explosively and turn toward the attacker during the hip walk phase, using the momentum to extract your trapped arm from the developing choke configuration
 
 - **When to use**: When the grip is partially locked but the attacker has not yet completed the transition to side control and their hips are still moving laterally
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: The bridge disrupts the attacker's base during the hip walk, creating enough space to pull your arm free and return to a defensive North-South bottom position
 - **Risk**: If the bridge fails to create sufficient space, the attacker can use your turning momentum to accelerate their transition to side control with the arm triangle intact
 
 ### 3. Insert your near-side knee between your bodies as the attacker walks their hips to side control, establishing a half guard hook that prevents the side control angle needed for the finish
 
 - **When to use**: During the hip walk phase when the attacker's hips are transitioning laterally and a gap appears between their hips and yours
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard with the attacker's arm triangle grip compromised by the leg entanglement, dramatically reducing their finishing percentage and creating sweep opportunities
 - **Risk**: If the knee insertion is too slow, the attacker sprawls past your leg and consolidates side control with the arm triangle already configured for the finish
 
 ### 4. Frame against the attacker's choking-side shoulder with your far hand to prevent them from dropping their ear to the mat and consolidating the finishing angle
 
 - **When to use**: When the arm triangle grip is locked but the attacker has not yet achieved the proper side control angle with their ear dropped to the mat
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: The frame prevents the attacker from achieving the diagonal shoulder pressure needed for the finish, stalling their position and creating time to work the arm extraction or knee insertion
 - **Risk**: Extending the far arm exposes it to potential kimura or wrist control if the attacker abandons the arm triangle and transitions to an arm attack
 
@@ -228,11 +228,11 @@ Advanced defenders recognize that the arm triangle setup from North-South create
 
 ## Best-Case Outcomes for Defender
 
-### → [[North-South]]
+### → [[Positions/North-South]]
 
 Prevent the arm isolation entirely by keeping your near-side elbow pinched tight and fighting any underhook attempt with inside hand positioning. If the arm thread begins, bridge explosively during the attacker's weight shift to extract your arm and return to standard North-South bottom where you can work systematic escapes without the choke threat.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 During the hip walk phase, time your knee insertion to catch the attacker's near leg between yours as their hips transition laterally. The half guard hook disrupts the side control angle required for the arm triangle finish while giving you a leg entanglement that creates sweep and guard recovery opportunities. Even with the arm partially trapped, half guard dramatically reduces the choke's effectiveness.
 

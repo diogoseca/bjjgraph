@@ -180,7 +180,7 @@ description: "Execute the armbar setup from double sleeve guard with precision. 
 
 The attacker in the armbar setup from double sleeve guard operates from the bottom position, leveraging bilateral sleeve control to isolate one of the opponent's arms and rotate into armbar control. This offensive sequence demands precise coordination between grip manipulation, foot placement, and explosive hip rotation. The attacker must create asymmetric pulling forces that break the opponent's structural alignment while simultaneously generating the angular momentum needed to swing the leg over the opponent's head. Success depends on reading the opponent's weight distribution and timing the pivot to coincide with moments of postural vulnerability, such as when the opponent leans forward to break grips or reaches to establish their own controls.
 
-**From Position**: [[Double Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The attacker in the armbar setup from double sleeve guard operates from the bott
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 55% |
-| Failure | [[Double Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Armbar Control]] | 55% |
+| Failure | [[Positions/Double Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The attacker in the armbar setup from double sleeve guard operates from the bott
 
 ## Opponent Counters
 
-- **Opponent stacks forward driving their weight over the bottom player during the hip pivot** (Effectiveness: High) - Your Response: Angle your hips away from the stacking pressure and transition to triangle setup by swinging the far leg over their neck, or use the momentum to sweep them overhead with a pendulum motion → Leads to [[Double Sleeve Guard]]
-- **Opponent retracts the target arm sharply before the pivot completes, breaking sleeve isolation** (Effectiveness: Medium) - Your Response: Immediately re-grip the retreating sleeve and switch to the opposite arm if available, or chain into a tripod sweep while they are focused on arm recovery rather than base maintenance → Leads to [[Double Sleeve Guard]]
-- **Opponent circles laterally and disengages from the guard during the rotation attempt** (Effectiveness: Medium) - Your Response: Follow their lateral movement with your hips, maintaining at least one sleeve grip to prevent full disengagement. If they successfully disengage, immediately establish feet on hips and recover open guard structure → Leads to [[Open Guard]]
-- **Opponent posts their free hand on the mat to base against the rotation** (Effectiveness: Low) - Your Response: The posting hand is actually advantageous as it means they cannot use it to break grips or frame against your legs. Continue the pivot and use the foot on their hip to push them off their posting base → Leads to [[Double Sleeve Guard]]
+- **Opponent stacks forward driving their weight over the bottom player during the hip pivot** (Effectiveness: High) - Your Response: Angle your hips away from the stacking pressure and transition to triangle setup by swinging the far leg over their neck, or use the momentum to sweep them overhead with a pendulum motion → Leads to [[Positions/Double Sleeve Guard]]
+- **Opponent retracts the target arm sharply before the pivot completes, breaking sleeve isolation** (Effectiveness: Medium) - Your Response: Immediately re-grip the retreating sleeve and switch to the opposite arm if available, or chain into a tripod sweep while they are focused on arm recovery rather than base maintenance → Leads to [[Positions/Double Sleeve Guard]]
+- **Opponent circles laterally and disengages from the guard during the rotation attempt** (Effectiveness: Medium) - Your Response: Follow their lateral movement with your hips, maintaining at least one sleeve grip to prevent full disengagement. If they successfully disengage, immediately establish feet on hips and recover open guard structure → Leads to [[Positions/Open Guard]]
+- **Opponent posts their free hand on the mat to base against the rotation** (Effectiveness: Low) - Your Response: The posting hand is actually advantageous as it means they cannot use it to break grips or frame against your legs. Continue the pivot and use the foot on their hip to push them off their posting base → Leads to [[Positions/Double Sleeve Guard]]
 
 
 </section>

@@ -208,21 +208,21 @@ Success in this position correlates strongly with lapel grip management, base ma
 
 ## Available Attacks
 
-### [[Stack Pass]] (14% of attempts)
+### [[Transitions/Stack Pass]] (14% of attempts)
 
-### [[Leg Drag Pass]] (13% of attempts)
+### [[Transitions/Leg Drag Pass]] (13% of attempts)
 
-### [[Back Step]] (12% of attempts)
+### [[Transitions/Back Step]] (12% of attempts)
 
-### [[Toreando Pass]] (14% of attempts)
+### [[Transitions/Toreando Pass]] (14% of attempts)
 
-### [[Pressure Pass]] (24% of attempts)
+### [[Transitions/Pressure Pass]] (24% of attempts)
 
-### [[Knee Slice Pass]] (14% of attempts)
+### [[Transitions/Knee Slice Pass]] (14% of attempts)
 
-### [[Pass Squid Guard]] (6% of attempts)
+### [[Transitions/Pass Squid Guard]] (6% of attempts)
 
-### [[Pressure Through Squid Guard]] (3% of attempts)
+### [[Transitions/Pressure Through Squid Guard]] (3% of attempts)
 
 
 
@@ -233,23 +233,23 @@ Success in this position correlates strongly with lapel grip management, base ma
 ## Decision Making from This Position
 
 **If bottom player maintains tight lapel control and begins inverting:**
-- Execute **[[Back Step]]** → [[Headquarters Position]] (Probability: 65%)
-- Execute **[[Stack Pass]]** → [[Reverse De La Riva Guard]] (Probability: 55%)
+- Execute **[[Transitions/Back Step]]** → [[Positions/Headquarters Position]] (Probability: 65%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Probability: 55%)
 
 
 **If bottom player's lapel grip loosens or becomes shallow:**
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Toreando Pass]]** → [[Headquarters Position]] (Probability: 68%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Headquarters Position]] (Probability: 68%)
 
 
 **If bottom player transitions to traditional guard retention without lapel:**
-- Execute **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Probability: 72%)
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 75%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 72%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 75%)
 
 
 **If bottom player establishes triangle threat from inverted position:**
-- Execute **[[Posture Recovery]]** → [[Open Guard]] (Probability: 60%)
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 58%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 58%)
 
 
 
@@ -383,16 +383,16 @@ Isolated drill focusing on preventing bottom player from deepening lapel grips w
 
 ## Related Positions and Techniques
 
-- **[[Squid Guard]]** - Opposite perspective of same position
-- **[[Worm Guard]]** - Similar lapel-based guard passing challenge
-- **[[Lapel Guard]]** - Related lapel entanglement passing position
-- **[[Lasso Guard]]** - Similar control mechanics with different entanglement method
-- **[[Spider Guard]]** - Related open guard passing position
-- **[[De La Riva Guard]]** - Related hook-based guard with similar passing principles
-- **[[Leg Drag Pass]]** - Primary passing technique from this position
-- **[[Toreando Pass]]** - Alternative passing approach
-- **[[Stack Pass]]** - Pressure-based passing option
-- **[[Back Step]]** - Counter technique for inversion attempts
+- **[[Positions/Squid Guard]]** - Opposite perspective of same position
+- **[[Positions/Worm Guard]]** - Similar lapel-based guard passing challenge
+- **[[Positions/Lapel Guard]]** - Related lapel entanglement passing position
+- **[[Positions/Lasso Guard]]** - Similar control mechanics with different entanglement method
+- **[[Positions/Spider Guard]]** - Related open guard passing position
+- **[[Positions/De La Riva Guard]]** - Related hook-based guard with similar passing principles
+- **[[Transitions/Leg Drag Pass]]** - Primary passing technique from this position
+- **[[Transitions/Toreando Pass]]** - Alternative passing approach
+- **[[Transitions/Stack Pass]]** - Pressure-based passing option
+- **[[Transitions/Back Step]]** - Counter technique for inversion attempts
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Learn to defend and counter the Shin-to-Shin Sweep in BJJ. Recogni
 
 Defending the Shin-to-Shin Sweep requires understanding the three forces driving the technique — shin elevation, upper body pull, and hip extension — and systematically removing at least one of them before the explosive phase begins. The defender (top player) must recognize the sweep setup through changes in shin pressure, grip establishment patterns, and the guard player's postural adjustment from reclined to seated. Early recognition is the most effective defense, as once all three forces coordinate simultaneously, even excellent base becomes difficult to maintain. The defender's strategic priority is neutralizing the sweep threat without over-committing to a defense that opens secondary attacks like single leg X entries or back takes.
 
-**Opponent's Starting Position**: [[Shin-to-Shin Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Shin-to-Shin Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Shin-to-Shin Sweep requires understanding the three forces driving
 ### 1. Strip upper body grips before sweep initiation using two-on-one breaks or elbow circling
 
 - **When to use**: As soon as opponent begins establishing pulling grips — before they secure both collar and sleeve control
-- **Targets**: [[Shin-to-Shin Guard]]
+- **Targets**: [[Positions/Shin-to-Shin Guard]]
 - **If successful**: Removes the pulling force component, making the sweep mechanically incomplete and allowing you to work on clearing the shin connection safely
 - **Risk**: Momentarily occupying both hands with grip breaking leaves you vulnerable to being pulled off-balance if opponent maintains shin pressure
 
 ### 2. Post far hand on the mat and drive hip weight backward to resist the sweep direction
 
 - **When to use**: When the explosive sweep phase has already begun and you need immediate base recovery to prevent being toppled
-- **Targets**: [[Shin-to-Shin Guard]]
+- **Targets**: [[Positions/Shin-to-Shin Guard]]
 - **If successful**: Stops the sweep mid-execution by providing a structural post that the pulling force cannot overcome, keeping you upright while you recover base
 - **Risk**: The posted hand creates an arm drag opportunity for the guard player, and your withdrawn hips may open single leg X entries
 
 ### 3. Step laterally over the shin connection to disengage from the sweep angle entirely
 
 - **When to use**: When you feel the shin pressure shifting to an elevation angle and have time to move before the explosive phase
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Completely removes the sweeping lever by disengaging from the shin connection, resetting to open guard passing position
 - **Risk**: The stepping motion can expose your leg to outside ashi-garami entries or allow the guard player to follow and re-establish the connection
 
 ### 4. Drop hips and drive forward pressure into the guard player to flatten their seated posture
 
 - **When to use**: Preemptively when opponent begins sitting up to load hips, before they achieve the upright position needed for explosive extension
-- **Targets**: [[Shin-to-Shin Guard]]
+- **Targets**: [[Positions/Shin-to-Shin Guard]]
 - **If successful**: Prevents the guard player from loading their hips by driving them flat, eliminating the power source for the sweep
 - **Risk**: Forward pressure loads the shin connection and can amplify the sweep if the guard player times the elevation to coincide with your driving force
 
@@ -217,11 +217,11 @@ Defending the Shin-to-Shin Sweep requires understanding the three forces driving
 
 ## Best-Case Outcomes for Defender
 
-### → [[Shin-to-Shin Guard]]
+### → [[Positions/Shin-to-Shin Guard]]
 
 Strip opponent's upper body grips early and maintain wide base with hips back, preventing the sweep while working to clear the shin connection through systematic passing. The grip fight is your primary avenue — without pulling grips, the sweep cannot generate sufficient force to topple you.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Step laterally to disengage from the shin connection entirely when you recognize the sweep setup. Time the step to coincide with their grip establishment phase (when their attention is divided between maintaining shin pressure and securing upper body grips) and immediately advance into a standard open guard passing sequence.
 

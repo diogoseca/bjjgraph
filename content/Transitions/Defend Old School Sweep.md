@@ -21,7 +21,7 @@ The strategic importance of this defense cannot be overstated in modern half gua
 
 Timing is paramount in this defense. The whizzer must be established before the bottom player commits to the sweeping rotation, and the crossface pressure must be applied early enough to prevent the head control that drives the sweep. Late defensive reactions typically result in scrambles where the bottom player's momentum advantage leads to successful sweeps or back takes. The top player who masters this defense transforms the Old School position from a dangerous predicament into a controlled passing scenario.
 
-**From Position**: [[Old School]] (Top)
+**From Position**: [[Positions/Half Guard/Old School]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Timing is paramount in this defense. The whizzer must be established before the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ Defend Old School Sweep occupies a critical junction in the half guard top game 
 ## Related Techniques
 
 
-- [[Old School]] - Hub position where this defensive transition occurs
+- [[Positions/Half Guard/Old School]] - Hub position where this defensive transition occurs
 
-- [[Half Guard]] - Parent position category and typical destination after successful defense
+- [[Positions/Half Guard]] - Parent position category and typical destination after successful defense
 
-- [[Old School Sweep]] - The sweep being defended against - understanding this attack informs the defense
+- [[Transitions/Old School Sweep]] - The sweep being defended against - understanding this attack informs the defense
 
-- [[Lockdown]] - Core control mechanism enabling the sweep threat that must be managed
+- [[Positions/Half Guard/Lockdown]] - Core control mechanism enabling the sweep threat that must be managed
 
-- [[Electric Chair]] - Alternative attack bottom player may switch to when sweep defense succeeds
+- [[Positions/Half Guard/Electric Chair]] - Alternative attack bottom player may switch to when sweep defense succeeds
 
-- [[Deep Half Guard]] - Position bottom player may transition to when sweep is defended
+- [[Positions/Half Guard/Deep Half Guard]] - Position bottom player may transition to when sweep is defended
 
-- [[Dogfight Position]] - Scramble position that can emerge during contested sweep defense
+- [[Positions/Dogfight Position]] - Scramble position that can emerge during contested sweep defense
 
-- [[Mount]] - Destination if sweep defense fails and bottom player completes rotation
+- [[Positions/Mount]] - Destination if sweep defense fails and bottom player completes rotation
 
-- [[Back Control]] - Counter outcome if bottom player takes the back during scramble
+- [[Positions/Back Control]] - Counter outcome if bottom player takes the back during scramble
 
-- [[Crossface from Old School]] - Complementary technique using crossface pressure to flatten and pass from same position
+- [[Transitions/Crossface from Old School]] - Complementary technique using crossface pressure to flatten and pass from same position
 
 
 </section>

@@ -21,7 +21,7 @@ This transition exemplifies the modern approach to grappling where positional pa
 
 Strategically, this option expands your threat matrix significantly. Opponents who successfully defend traditional leg drag follow-ups (back take, mount, side control) by staying heavy on their hips suddenly face a different category of danger. The psychological pressure of knowing that strong positional defense opens leg attack vulnerabilities creates hesitation and uncertainty, making all your attacks more effective.
 
-**From Position**: [[Leg Drag Control]] (Top)
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this option expands your threat matrix significantly. Opponents w
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 65% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 65% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Leg Drag to Inside Ashi transition represents the integration of passing and
 ## Related Techniques
 
 
-- [[Leg Drag Control]] - Starting position
+- [[Positions/Leg Drag Control]] - Starting position
 
-- [[Inside Ashi-Garami]] - Target position on successful entry
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Target position on successful entry
 
-- [[Inside Heel Hook]] - Primary submission from resulting position
+- [[Submissions/Inside Heel Hook]] - Primary submission from resulting position
 
-- [[Cross Ashi-Garami]] - Alternative entry when inside leg cannot clear hip
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Alternative entry when inside leg cannot clear hip
 
-- [[Honey Hole]] - Advanced transition from inside ashi
+- [[Positions/Ashi Garami/Honey Hole]] - Advanced transition from inside ashi
 
-- [[Leg Drag Pass to Side Control]] - Alternative when passing is available
+- [[Transitions/Leg Drag Pass to Side Control]] - Alternative when passing is available
 
-- [[Leg Drag to Back Take]] - Alternative when opponent turns away
+- [[Transitions/Leg Drag to Back Take]] - Alternative when opponent turns away
 
-- [[Back Step Pass]] - Alternative entry method to ashi positions
+- [[Transitions/Back Step Pass]] - Alternative entry method to ashi positions
 
-- [[50-50 Guard]] - Common position if entry is not clean
+- [[Positions/Ashi Garami/50-50 Guard]] - Common position if entry is not clean
 
-- [[Half Guard]] - Potential counter outcome if opponent recovers leg
+- [[Positions/Half Guard]] - Potential counter outcome if opponent recovers leg
 
 
 </section>

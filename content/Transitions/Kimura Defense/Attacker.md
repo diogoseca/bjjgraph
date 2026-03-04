@@ -174,7 +174,7 @@ description: "How to execute Kimura Defense in BJJ. Step-by-step escape mechanic
 
 The Kimura Defense attacker is the practitioner escaping from an opponent's kimura grip. This defense operates on three levels: prevention through hand fighting and grip denial, early escape before full lock completion, and late-stage survival when the lock is deep. Success requires recognizing threat stages, maintaining defensive frames, and exploiting timing windows during opponent transitions. Unlike many submission defenses that focus purely on escape, kimura defense integrates offensive transitions, as the attacker's grip commitment creates vulnerabilities. Advanced practitioners transform defensive sequences into offensive opportunities, using the opponent's kimura grip against them through rolling escapes, back takes, or sweep reversals.
 
-**From Position**: [[Kimura Trap]] (Top)
+**From Position**: [[Positions/Kimura Trap]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The Kimura Defense attacker is the practitioner escaping from an opponent's kimu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 70% |
-| Failure | [[Kimura Trap]] | 20% |
-| Counter | [[Side Control]] | 10% |
+| Success | [[Positions/Half Guard]] | 70% |
+| Failure | [[Positions/Kimura Trap]] | 20% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -238,10 +238,10 @@ The Kimura Defense attacker is the practitioner escaping from an opponent's kimu
 
 ## Opponent Counters
 
-- **Opponent follows the roll maintaining grip** (Effectiveness: High) - Your Response: Continue rolling motion multiple times or transition to technical standup. Use momentum to create separation even if grip remains. Attack with triangle or omoplata as they follow. → Leads to [[Kimura Trap]]
-- **Opponent switches to armbar during escape attempt** (Effectiveness: Medium) - Your Response: Recognize the transition immediately and defend armbar by keeping elbow inside and turning thumb up. Use the momentum of your roll to extract arm before armbar is secured. → Leads to [[Side Control]]
-- **Opponent drives weight forward preventing roll** (Effectiveness: Medium) - Your Response: Switch to shrimping escape instead of forward roll. Create distance by moving hips away while continuing arm circle. Frame against opponent's head or chest to prevent follow. → Leads to [[Kimura Trap]]
-- **Opponent secures far side grip preventing arm circle** (Effectiveness: High) - Your Response: Focus on hip escape and creating space rather than arm movement. Use leg frames to push opponent away. Attempt hitchhiker escape or technical standup when space allows. → Leads to [[Kimura Trap]]
+- **Opponent follows the roll maintaining grip** (Effectiveness: High) - Your Response: Continue rolling motion multiple times or transition to technical standup. Use momentum to create separation even if grip remains. Attack with triangle or omoplata as they follow. → Leads to [[Positions/Kimura Trap]]
+- **Opponent switches to armbar during escape attempt** (Effectiveness: Medium) - Your Response: Recognize the transition immediately and defend armbar by keeping elbow inside and turning thumb up. Use the momentum of your roll to extract arm before armbar is secured. → Leads to [[Positions/Side Control]]
+- **Opponent drives weight forward preventing roll** (Effectiveness: Medium) - Your Response: Switch to shrimping escape instead of forward roll. Create distance by moving hips away while continuing arm circle. Frame against opponent's head or chest to prevent follow. → Leads to [[Positions/Kimura Trap]]
+- **Opponent secures far side grip preventing arm circle** (Effectiveness: High) - Your Response: Focus on hip escape and creating space rather than arm movement. Use leg frames to push opponent away. Attempt hitchhiker escape or technical standup when space allows. → Leads to [[Positions/Kimura Trap]]
 
 
 </section>

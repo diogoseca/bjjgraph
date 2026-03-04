@@ -152,7 +152,7 @@ The defender must understand the biomechanical reality of being stacked: once yo
 
 Strategically, the best defense integrates into your overall grasshopper guard game plan. Maintain constant leg activity that makes it difficult for the passer to pin both legs simultaneously. When you feel forward pressure beginning, immediately assess whether your legs are controlled - if they are, address the leg control before the stack develops. If your legs are free, use them to redirect the passer's momentum into a sweep or leg entanglement rather than absorbing the stack passively.
 
-**Opponent's Starting Position**: [[Grasshopper Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Top)
 
 </section>
 
@@ -190,21 +190,21 @@ Strategically, the best defense integrates into your overall grasshopper guard g
 ### 1. Separate legs and thread for ashi garami entry before stack develops
 
 - **When to use**: Early phase when opponent is attempting to control legs but has not yet secured both - requires at least one leg free to thread
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: Opponent must disengage the stack to address leg entanglement threat, resetting you to grasshopper guard or better
 - **Risk**: If opponent already has solid leg control, threading attempt fails and accelerates the stack by giving them tighter compression angle
 
 ### 2. Granby roll in the direction of stacking pressure to reset to closed guard
 
 - **When to use**: Mid-phase when stack is developing and your hips are beginning to compress but you still have shoulder mobility to initiate the roll
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You escape the stack entirely and recover to closed guard where you can re-establish offensive grips and restart your guard game
 - **Risk**: If timed too late when fully compressed, you lack the space and mobility to complete the roll and remain stacked with wasted energy
 
 ### 3. Frame on opponent's shoulders with both hands and push hips away to create space for leg recovery
 
 - **When to use**: Any phase where opponent is driving forward - frames slow the stack and create time for other defensive actions
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: Stacking pressure is interrupted and you recover hip elevation sufficient to reset leg configurations and resume grasshopper attacks
 - **Risk**: Extended arm frames can be stripped by opponent swimming inside, and hand position on hips reduces your ability to establish offensive grips
 
@@ -216,11 +216,11 @@ Strategically, the best defense integrates into your overall grasshopper guard g
 
 ## Best-Case Outcomes for Defender
 
-### → [[Grasshopper Guard]]
+### → [[Positions/Grasshopper Guard]]
 
 Prevent the stack entirely by maintaining active, separated legs that deny the passer control. Use constant hip elevation and leg pummeling to keep at least one leg free for threading. Frame against their shoulders to interrupt forward pressure and buy time for leg recovery.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Execute a Granby roll during the mid-phase of the stack when your hips are being compressed but you still have shoulder mobility. Roll in the direction of their pressure, allowing their momentum to carry them over you while your legs naturally retract. As you complete the roll, immediately lock your ankles behind their back to establish closed guard.
 

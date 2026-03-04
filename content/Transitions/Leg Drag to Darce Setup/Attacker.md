@@ -178,7 +178,7 @@ The mechanics of this transition rely on timing and angle recognition. As the op
 
 Strategically, this technique transforms what many consider a neutral exchange (opponent escaping to turtle) into an offensive opportunity. High-level competitors often bait the turtle escape from leg drag specifically to attack this sequence. The Darce setup from leg drag is particularly effective because the opponent's defensive movement generates the momentum you need to sink the arm through. Understanding this transition changes how you view leg drag control—it becomes not just a passing position but a launching pad for high-percentage submission attacks.
 
-**From Position**: [[Leg Drag Control]] (Top)
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
 
@@ -231,10 +231,10 @@ Strategically, this technique transforms what many consider a neutral exchange (
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 55% |
-| Success | [[Front Headlock]] | 10% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Darce Control]] | 55% |
+| Success | [[Positions/Front Headlock]] | 10% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -243,10 +243,10 @@ Strategically, this technique transforms what many consider a neutral exchange (
 
 ## Opponent Counters
 
-- **Opponent keeps elbow tight and refuses to post, denying arm threading space** (Effectiveness: High) - Your Response: Transition to traditional back take or switch to anaconda grip if their arm is tighter to their body → Leads to [[Leg Drag Control]]
-- **Opponent immediately flattens to stomach rather than posting to turtle** (Effectiveness: Medium) - Your Response: Consolidate to side control or mount; if partial arm access exists, switch to arm triangle setup → Leads to [[Leg Drag Control]]
-- **Opponent rolls through your Darce attempt toward open space** (Effectiveness: Medium) - Your Response: Follow the roll maintaining grip and finish from the opposite side, or release and take top position → Leads to [[Turtle]]
-- **Opponent sits back into you rather than turtling away** (Effectiveness: Low) - Your Response: Maintain leg drag control and look for mount or back take as they expose themselves turning in → Leads to [[Leg Drag Control]]
+- **Opponent keeps elbow tight and refuses to post, denying arm threading space** (Effectiveness: High) - Your Response: Transition to traditional back take or switch to anaconda grip if their arm is tighter to their body → Leads to [[Positions/Leg Drag Control]]
+- **Opponent immediately flattens to stomach rather than posting to turtle** (Effectiveness: Medium) - Your Response: Consolidate to side control or mount; if partial arm access exists, switch to arm triangle setup → Leads to [[Positions/Leg Drag Control]]
+- **Opponent rolls through your Darce attempt toward open space** (Effectiveness: Medium) - Your Response: Follow the roll maintaining grip and finish from the opposite side, or release and take top position → Leads to [[Positions/Turtle]]
+- **Opponent sits back into you rather than turtling away** (Effectiveness: Low) - Your Response: Maintain leg drag control and look for mount or back take as they expose themselves turning in → Leads to [[Positions/Leg Drag Control]]
 
 
 </section>

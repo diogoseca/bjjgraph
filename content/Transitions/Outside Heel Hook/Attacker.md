@@ -178,7 +178,7 @@ From Backside 50-50 Bottom, the attacker controls the opponent's leg with their 
 
 Strategically, the Outside Heel Hook serves as the primary submission threat from Backside 50-50, forcing opponents to choose between defending the heel and preventing positional advancement. When opponents hide their heel or boot-defend effectively, this opens pathways for Inside Heel Hook attacks, toe holds, or positional escapes. The technique epitomizes modern leg lock philosophy: systematic entanglement control combined with precise breaking mechanics.
 
-**From Position**: [[Backside 50-50]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Bottom)
 
 </section>
 
@@ -231,8 +231,8 @@ Strategically, the Outside Heel Hook serves as the primary submission threat fro
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Backside 50-50]] | 30% |
-| Counter | [[50-50 Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami/Backside 50-50]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ Strategically, the Outside Heel Hook serves as the primary submission threat fro
 
 ## Opponent Counters
 
-- **Boot defense - opponent straightens leg and points toes to hide heel behind your controlling leg** (Effectiveness: High) - Your Response: Transition to Inside Heel Hook by reshaping your grip to attack the other side of the heel, or switch to a straight ankle lock on the exposed ankle → Leads to [[Backside 50-50]]
-- **Spin escape - opponent rotates their entire body in the direction of the heel hook to relieve rotational pressure** (Effectiveness: High) - Your Response: Follow their rotation and maintain the submission, or if they fully escape, pursue the back take as they turn away from you → Leads to [[50-50 Guard]]
-- **Heel strip - opponent uses hands to pry your grip off their heel before you can set the breaking angle** (Effectiveness: Medium) - Your Response: Keep elbows tight and close grip configuration; if grip is broken, immediately re-grip or transition to toe hold on the same leg → Leads to [[Backside 50-50]]
-- **Counter entanglement - opponent attacks your leg simultaneously, creating a leg lock exchange scenario** (Effectiveness: Medium) - Your Response: Assess whose attack is further along; if yours is deeper, commit to finish; if theirs is more developed, release and defend before re-engaging → Leads to [[50-50 Guard]]
+- **Boot defense - opponent straightens leg and points toes to hide heel behind your controlling leg** (Effectiveness: High) - Your Response: Transition to Inside Heel Hook by reshaping your grip to attack the other side of the heel, or switch to a straight ankle lock on the exposed ankle → Leads to [[Positions/Ashi Garami/Backside 50-50]]
+- **Spin escape - opponent rotates their entire body in the direction of the heel hook to relieve rotational pressure** (Effectiveness: High) - Your Response: Follow their rotation and maintain the submission, or if they fully escape, pursue the back take as they turn away from you → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Heel strip - opponent uses hands to pry your grip off their heel before you can set the breaking angle** (Effectiveness: Medium) - Your Response: Keep elbows tight and close grip configuration; if grip is broken, immediately re-grip or transition to toe hold on the same leg → Leads to [[Positions/Ashi Garami/Backside 50-50]]
+- **Counter entanglement - opponent attacks your leg simultaneously, creating a leg lock exchange scenario** (Effectiveness: Medium) - Your Response: Assess whose attack is further along; if yours is deeper, commit to finish; if theirs is more developed, release and defend before re-engaging → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 
 
 </section>

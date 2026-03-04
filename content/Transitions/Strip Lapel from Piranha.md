@@ -21,7 +21,7 @@ The technique requires patience and methodical execution rather than explosive s
 
 Successful execution fundamentally changes the positional dynamic, converting a complex lapel guard engagement into a standard open guard passing scenario. This reset denies the bottom player the mechanical advantages that make Piranha Guard dangerous and forces them to rebuild their guard system from scratch. The technique integrates naturally with broader lapel guard passing methodology and serves as a prerequisite skill for anyone regularly facing lapel guard players in training or competition.
 
-**From Position**: [[Piranha Guard]] (Top)
+**From Position**: [[Positions/Piranha Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Successful execution fundamentally changes the positional dynamic, converting a 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Piranha Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Piranha Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ Strip Lapel from Piranha occupies a critical junction in the guard passing hiera
 ## Related Techniques
 
 
-- [[Piranha Guard]] - Source position where this technique is executed from the top perspective
+- [[Positions/Piranha Guard]] - Source position where this technique is executed from the top perspective
 
-- [[Open Guard]] - Target position reached after successful lapel strip, where standard passing resumes
+- [[Positions/Open Guard]] - Target position reached after successful lapel strip, where standard passing resumes
 
-- [[Pass Piranha Guard]] - Broader passing transition that often begins with or follows successful lapel stripping
+- [[Transitions/Pass Piranha Guard]] - Broader passing transition that often begins with or follows successful lapel stripping
 
-- [[Piranha Guard Sweep]] - Primary sweep threat the bottom player uses to counter during strip attempts
+- [[Transitions/Piranha Guard Sweep]] - Primary sweep threat the bottom player uses to counter during strip attempts
 
-- [[Piranha to Worm Guard]] - Alternative guard transition the bottom player may attempt when strip is nearly complete
+- [[Transitions/Piranha to Worm Guard]] - Alternative guard transition the bottom player may attempt when strip is nearly complete
 
-- [[Lapel Strip from Worm Guard]] - Similar lapel stripping technique applied against Worm Guard configuration with shared mechanics
+- [[Transitions/Lapel Strip from Worm Guard]] - Similar lapel stripping technique applied against Worm Guard configuration with shared mechanics
 
-- [[Lapel Guard]] - Parent guard category encompassing Piranha and related lapel-based systems
+- [[Positions/Lapel Guard]] - Parent guard category encompassing Piranha and related lapel-based systems
 
-- [[Combat Base]] - Common posture position from which the lapel strip sequence is initiated
+- [[Positions/Combat Base]] - Common posture position from which the lapel strip sequence is initiated
 
-- [[De La Riva Guard]] - Guard variation opponent may transition to after partial lapel strip compromises Piranha configuration
+- [[Positions/De La Riva Guard]] - Guard variation opponent may transition to after partial lapel strip compromises Piranha configuration
 
-- [[Strip Grip from Zombie]] - Related grip stripping technique sharing similar two-on-one hand-fighting principles
+- [[Transitions/Strip Grip from Zombie]] - Related grip stripping technique sharing similar two-on-one hand-fighting principles
 
 
 </section>

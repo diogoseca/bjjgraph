@@ -21,7 +21,7 @@ This entry serves as a cornerstone of modern leg lock methodology and has revolu
 
 The technique requires precise timing, spatial awareness, and the ability to recognize leg entanglement opportunities during passing sequences. Success depends on controlling the opponent's near leg while stepping over to secure the saddle configuration. When executed correctly, this entry creates a dominant position with minimal escape options for the opponent.
 
-**From Position**: [[Headquarters Position]] (Top)
+**From Position**: [[Positions/Headquarters Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique requires precise timing, spatial awareness, and the ability to rec
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Saddle]] | 55% |
-| Failure | [[Headquarters Position]] | 30% |
-| Counter | [[Headquarters Position]] | 15% |
+| Success | [[Positions/Ashi Garami/Saddle]] | 55% |
+| Failure | [[Positions/Headquarters Position]] | 30% |
+| Counter | [[Positions/Headquarters Position]] | 15% |
 
 
 </section>
@@ -201,29 +201,29 @@ This entry integrates seamlessly with headquarters position, knee slice passing,
 ## Related Techniques
 
 
-- [[Saddle]] - Destination position where this entry leads
+- [[Positions/Ashi Garami/Saddle]] - Destination position where this entry leads
 
-- [[Inside Heel Hook]] - Primary submission from ending position
+- [[Submissions/Inside Heel Hook]] - Primary submission from ending position
 
-- [[Outside Ashi Entry]] - Alternative leg entanglement entry from similar positions
+- [[Transitions/Outside Ashi Entry]] - Alternative leg entanglement entry from similar positions
 
-- [[Headquarters Position]] - Common starting position for this entry
+- [[Positions/Headquarters Position]] - Common starting position for this entry
 
-- [[Knee Slice Pass]] - Alternative starting position and passing option
+- [[Transitions/Knee Slice Pass]] - Alternative starting position and passing option
 
-- [[Inside Ashi-Garami]] - Related position in leg entanglement system
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related position in leg entanglement system
 
-- [[Toe Hold]] - Alternative submission from saddle position
+- [[Transitions/Toe Hold]] - Alternative submission from saddle position
 
-- [[X-Guard to Ashi Garami]] - Complementary technique when opponent attempts X-Guard
+- [[Transitions/X-Guard to Ashi Garami]] - Complementary technique when opponent attempts X-Guard
 
-- [[Leg Weave Pass]] - Alternative passing approach from similar positions
+- [[Transitions/Leg Weave Pass]] - Alternative passing approach from similar positions
 
-- [[50-50 Guard]] - Related leg entanglement position
+- [[Positions/Ashi Garami/50-50 Guard]] - Related leg entanglement position
 
-- [[Cross Ashi-Garami]] - Alternative ashi garami variation
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Alternative ashi garami variation
 
-- [[Kneebar]] - Alternative submission from saddle position
+- [[Transitions/Kneebar]] - Alternative submission from saddle position
 
 
 </section>

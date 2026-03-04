@@ -180,7 +180,7 @@ description: "Complete attacker guide for the knee slide pass from flattened hal
 
 As the attacker executing the Knee Slide from Flattened Half Guard, you are operating from a position of significant advantage. Your opponent is flattened, their frames are collapsed, and your crossface is turning their head away from the action. The technical challenge is converting this dominant control into a completed guard pass by extracting your trapped leg without sacrificing the pressure that keeps them immobilized. The knee slide achieves this by creating an angular path for your knee to travel across their thigh line while your upper body maintains constant forward drive. Success depends on timing the slide with moments when your opponent is managing your pressure rather than actively defending the leg extraction, and maintaining chest contact throughout the entire movement so no recovery space is created.
 
-**From Position**: [[Flattened Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Knee Slide from Flattened Half Guard, you are oper
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Flattened Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Knee Slide from Flattened Half Guard, you are oper
 
 ## Opponent Counters
 
-- **Bottom player shrimps and re-inserts knee shield during the slide** (Effectiveness: High) - Your Response: Maintain heavy crossface throughout and drop your weight forward immediately when you feel their hip movement. If the knee gets partially inserted, drive your chest over their knee to re-flatten before they establish the shield fully. You may need to reset to flattened half guard and re-attempt. → Leads to [[Flattened Half Guard]]
-- **Bottom player secures deep underhook and threatens sweep during weight transfer** (Effectiveness: Medium) - Your Response: Use your free hand to whizzer their underhook arm immediately and drive your shoulder weight onto their chest to kill the underhook leverage. If the underhook is deep, abandon the knee slide momentarily, re-establish crossface control, and strip the underhook before re-attempting the pass. → Leads to [[Half Guard]]
-- **Bottom player hooks inside the knee with their outside leg, blocking the slide path** (Effectiveness: Medium) - Your Response: Use a hip switch to change the angle of attack. Briefly shift your hips to face the opposite direction, which clears the hook block, then redirect back to complete the knee slide from the new angle. Alternatively, transition to a crossface pass that goes around their hook rather than through it. → Leads to [[Flattened Half Guard]]
-- **Bottom player turns away to turtle and prevent the pass completion** (Effectiveness: Low) - Your Response: Follow their rotation immediately and transition to back control. Their turning motion exposes their back, and your crossface control gives you the angle to climb onto their back as they rotate. Secure seatbelt control and hooks as they turtle rather than continuing the pass. → Leads to [[Flattened Half Guard]]
+- **Bottom player shrimps and re-inserts knee shield during the slide** (Effectiveness: High) - Your Response: Maintain heavy crossface throughout and drop your weight forward immediately when you feel their hip movement. If the knee gets partially inserted, drive your chest over their knee to re-flatten before they establish the shield fully. You may need to reset to flattened half guard and re-attempt. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Bottom player secures deep underhook and threatens sweep during weight transfer** (Effectiveness: Medium) - Your Response: Use your free hand to whizzer their underhook arm immediately and drive your shoulder weight onto their chest to kill the underhook leverage. If the underhook is deep, abandon the knee slide momentarily, re-establish crossface control, and strip the underhook before re-attempting the pass. → Leads to [[Positions/Half Guard]]
+- **Bottom player hooks inside the knee with their outside leg, blocking the slide path** (Effectiveness: Medium) - Your Response: Use a hip switch to change the angle of attack. Briefly shift your hips to face the opposite direction, which clears the hook block, then redirect back to complete the knee slide from the new angle. Alternatively, transition to a crossface pass that goes around their hook rather than through it. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Bottom player turns away to turtle and prevent the pass completion** (Effectiveness: Low) - Your Response: Follow their rotation immediately and transition to back control. Their turning motion exposes their back, and your crossface control gives you the angle to climb onto their back as they rotate. Secure seatbelt control and hooks as they turtle rather than continuing the pass. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 
 
 </section>

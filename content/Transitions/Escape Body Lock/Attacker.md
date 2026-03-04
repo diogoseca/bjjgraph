@@ -180,7 +180,7 @@ description: "Execute the Escape Body Lock technique in BJJ. Step-by-step guide 
 
 As the attacker executing the Escape Body Lock, your objective is to break your opponent's locked grip around your torso, disrupt their chest-to-back connection, and recover to a viable position before they can execute a takedown, throw, or back take. This escape demands coordinated grip fighting, explosive hip mechanics, and the ability to chain multiple escape attempts without pausing. The body lock bottom is an inherently time-sensitive position where every second increases the probability of your opponent successfully advancing, making urgency and decisiveness the defining qualities of a successful escape. Your escape should target the biomechanical weaknesses of their grip while using whole-body mechanics rather than arm strength alone.
 
-**From Position**: [[Body Lock]] (Bottom)
+**From Position**: [[Positions/Body Lock]] (Bottom)
 
 </section>
 
@@ -232,10 +232,10 @@ As the attacker executing the Escape Body Lock, your objective is to break your 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 30% |
-| Success | [[Clinch]] | 15% |
-| Failure | [[Body Lock]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Turtle]] | 30% |
+| Success | [[Positions/Clinch]] | 15% |
+| Failure | [[Positions/Body Lock]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the Escape Body Lock, your objective is to break your 
 
 ## Opponent Counters
 
-- **Opponent re-locks grip immediately after your break attempt** (Effectiveness: High) - Your Response: Do not pause after a failed break - immediately chain into a second attempt from a different angle or transition to a guard pull if grip re-establishment is too fast → Leads to [[Body Lock]]
-- **Opponent transitions to back control during your hip switch by inserting hooks** (Effectiveness: High) - Your Response: If you feel hooks being inserted during the hip switch, immediately sit and fight the hooks rather than continuing the standing escape. Strip the bottom hook first while keeping elbows tight → Leads to [[Back Control]]
-- **Opponent drives heavy forward pressure to collapse your base during escape** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by dropping to turtle while stripping their grip, or execute a controlled guard pull to prevent a chaotic takedown into a worse position → Leads to [[Body Lock]]
-- **Opponent releases grip voluntarily to transition to front headlock during your turn** (Effectiveness: Medium) - Your Response: Recognize the grip release and immediately circle away from the choking arm rather than turning directly into them. Establish defensive frames on their biceps before they can secure headlock control → Leads to [[Clinch]]
+- **Opponent re-locks grip immediately after your break attempt** (Effectiveness: High) - Your Response: Do not pause after a failed break - immediately chain into a second attempt from a different angle or transition to a guard pull if grip re-establishment is too fast → Leads to [[Positions/Body Lock]]
+- **Opponent transitions to back control during your hip switch by inserting hooks** (Effectiveness: High) - Your Response: If you feel hooks being inserted during the hip switch, immediately sit and fight the hooks rather than continuing the standing escape. Strip the bottom hook first while keeping elbows tight → Leads to [[Positions/Back Control]]
+- **Opponent drives heavy forward pressure to collapse your base during escape** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by dropping to turtle while stripping their grip, or execute a controlled guard pull to prevent a chaotic takedown into a worse position → Leads to [[Positions/Body Lock]]
+- **Opponent releases grip voluntarily to transition to front headlock during your turn** (Effectiveness: Medium) - Your Response: Recognize the grip release and immediately circle away from the choking arm rather than turning directly into them. Establish defensive frames on their biceps before they can secure headlock control → Leads to [[Positions/Clinch]]
 
 
 </section>

@@ -148,7 +148,7 @@ description: "How to defend against Frame and Extract to Half Guard in BJJ. Reco
 
 As the Inside Sankaku top player, your opponent's Frame and Extract to Half Guard represents the most systematic threat to your leg entanglement control. This escape relies on structured framing against your hips and knees to create separation, followed by controlled hip escape and leg extraction into Half Guard. Your role as the defender is to recognize the escape attempt early, maintain hip-to-hip connection throughout, and exploit any heel exposure that occurs during the extraction phase. Understanding the mechanics of this escape allows you to preemptively shut down each phase: deny frames by maintaining heavy forward hip pressure, follow hip escapes by advancing your own hips, and capitalize on extraction attempts by tightening your figure-four configuration or transitioning to Saddle when the opponent creates angles. The key defensive principle is that every frame your opponent builds must be immediately addressed - allowing even one solid frame to establish transforms the dynamic from offensive control to a positional struggle where time favors the escaper.
 
-**Opponent's Starting Position**: [[Inside Sankaku]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Inside Sankaku]] (Bottom)
 
 </section>
 
@@ -186,21 +186,21 @@ As the Inside Sankaku top player, your opponent's Frame and Extract to Half Guar
 ### 1. Advance hips forward and increase hip pressure to deny framing space
 
 - **When to use**: As soon as you detect forearm frames being established against your hips or legs
-- **Targets**: [[Inside Sankaku]]
+- **Targets**: [[Positions/Inside Sankaku]]
 - **If successful**: Opponent's frames collapse under your forward pressure and they remain trapped in Inside Sankaku with degraded defensive structure
 - **Risk**: Overcommitting forward can allow opponent to use your momentum for a Granby roll escape if your weight distribution is too high
 
 ### 2. Attack the inside heel hook when heel becomes exposed during extraction attempt
 
 - **When to use**: When opponent shifts focus from heel protection to frame building or during the extraction phase when the spiraling leg motion momentarily exposes the heel
-- **Targets**: [[Inside Sankaku]]
+- **Targets**: [[Positions/Inside Sankaku]]
 - **If successful**: Opponent must abandon the extraction attempt and return to pure heel defense, resetting them to a worse defensive position with depleted energy
 - **Risk**: Reaching for the heel may require releasing some positional control, creating a window for the extraction to succeed
 
 ### 3. Transition to Saddle by following the escape angle and capturing the second leg
 
 - **When to use**: When opponent creates a lateral angle during their hip escape that brings their free leg within reach of your entanglement
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Opponent ends up in a worse position with both legs controlled, facing multiple submission threats from the Saddle
 - **Risk**: Failed Saddle entry may lose Inside Sankaku control entirely if you release the figure-four to capture the second leg
 
@@ -212,11 +212,11 @@ As the Inside Sankaku top player, your opponent's Frame and Extract to Half Guar
 
 ## Best-Case Outcomes for Defender
 
-### → [[Inside Sankaku]]
+### → [[Positions/Inside Sankaku]]
 
 Deny all framing attempts by maintaining relentless forward hip pressure and immediately stripping any forearm contact from your hips. Follow every hip escape with your own forward hip advancement to prevent separation. Attack the heel hook when extraction attempts expose the heel to reset the opponent to pure survival mode.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 When the opponent generates lateral hip escape angle, follow their angle change and use the opening to capture their free leg into your entanglement. Thread your outside leg around their second leg as they hip escape laterally, establishing double-leg control in Saddle. This converts their escape attempt into an even worse position for them.
 

@@ -154,7 +154,7 @@ description: "How to defend and counter the Transition to Piranha Guard in BJJ. 
 
 Defending the Transition to Piranha Guard requires recognizing the brief window when the bottom player releases their standard Lapel Guard grip to thread the collar through their legs. This reconfiguration phase represents the guard player's most vulnerable moment — their primary control is temporarily offline while they execute the feed. Effective defense means either preventing the thread from completing by stripping the collar or capitalizing on the momentary loss of control to advance your passing position. Understanding what the bottom player needs to accomplish during this transition allows you to disrupt each phase systematically rather than reacting after the Piranha Guard is already established.
 
-**Opponent's Starting Position**: [[Lapel Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -190,28 +190,28 @@ Defending the Transition to Piranha Guard requires recognizing the brief window 
 ### 1. Posture up and strip collar grip during the transfer phase
 
 - **When to use**: The moment you feel the primary lapel tension release — this 1-2 second window is when the bottom player has the weakest hold on the collar material
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Bottom player loses lapel configuration entirely and must re-extract the collar from scratch, resetting to Open Guard
 - **Risk**: If you reach for the collar without maintaining base, the secondary DLR hook can off-balance you into a sweep
 
 ### 2. Drive forward with heavy pressure to close the threading gap between their legs
 
 - **When to use**: When you recognize the knee separation and channel creation before the collar feed begins — closing the gap prevents the material from passing through
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Bottom player cannot complete the thread and must revert to standard Lapel Guard with their existing grip configuration
 - **Risk**: Forward pressure against a player with DLR hook and sleeve grip can be redirected into sweeps if your base is not solid
 
 ### 3. Backstep and create distance to extract collar from their reach entirely
 
 - **When to use**: When the threading attempt is already in progress and stripping the grip in close range is too risky — creating distance pulls the collar material away before it completes the path through their legs
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The collar comes free as distance exceeds the length of threaded material, fully resetting the exchange to neutral Open Guard
 - **Risk**: Backing away gives the bottom player time to sit up and pursue, potentially re-gripping the collar in a seated guard position
 
 ### 4. Grab and control the threading hand to prevent the collar from being fed through the legs
 
 - **When to use**: When you can identify the threading hand and intercept it before or during the feed — this directly stops the reconfiguration at its source
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Thread is stopped completely and your grip on their hand creates an opportunity to initiate your own passing sequence
 - **Risk**: Committing a hand to control their wrist means one less hand for base, making you vulnerable to sweeps from the secondary anchor
 
@@ -223,11 +223,11 @@ Defending the Transition to Piranha Guard requires recognizing the brief window 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip the collar during the grip transfer window or create enough distance to extract the lapel entirely. Both approaches deny the bottom player their primary control mechanism and force them to re-extract the collar before re-establishing any lapel guard variation.
 
-### → [[Lapel Guard]]
+### → [[Positions/Lapel Guard]]
 
 Shut down the threading by closing the leg gap with pressure or controlling the threading hand. The bottom player reverts to standard Lapel Guard but with disrupted timing and potentially weakened grips from the failed attempt, giving you a better position to initiate passing sequences.
 

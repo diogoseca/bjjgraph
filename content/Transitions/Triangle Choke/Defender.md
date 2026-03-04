@@ -154,7 +154,7 @@ description: "Essential defense against the triangle choke from mounted triangle
 
 Defending the triangle choke from mounted triangle requires immediate recognition followed by calm, systematic defensive action under extreme pressure. The defender faces bilateral carotid compression compounded by gravitational disadvantage, making early intervention critical before the attacker establishes optimal angle and squeeze pressure. The defensive framework prioritizes preventing the finish first through chin tuck and posture creation, then systematically dismantling the triangle structure through arm extraction or positional disruption. Panic and random thrashing accelerate both energy depletion and submission onset, so composure is the defender's most valuable asset in this position.
 
-**Opponent's Starting Position**: [[Mounted Triangle]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/Mounted Triangle]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the triangle choke from mounted triangle requires immediate recognitio
 ### 1. Aggressive chin tuck with head turn toward trapped arm and immediate frame on attacker's hip
 
 - **When to use**: Immediately upon recognizing the finishing sequence has begun, before the attacker achieves full perpendicular angle
-- **Targets**: [[Mounted Triangle]]
+- **Targets**: [[Positions/Mount/Mounted Triangle]]
 - **If successful**: Reduces carotid exposure and prevents the attacker from achieving optimal choking angle, buying time for further defensive action
 - **Risk**: If the attacker has already achieved the angle, chin tuck alone delays but does not prevent the finish
 
 ### 2. Trapped arm extraction by straightening arm and pulling it free from the triangle
 
 - **When to use**: When the attacker shifts focus to angle cutting or shin grip and momentarily loosens control of the trapped arm
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Breaks the triangle structure entirely, forcing the attacker to abandon the choke and return to mount or scramble
 - **Risk**: Extending the arm during extraction creates armbar vulnerability if the attacker reads the movement
 
 ### 3. Explosive bridge toward the locking leg side timed to attacker's hip elevation
 
 - **When to use**: When the attacker elevates hips high to commit to the squeeze, temporarily compromising their base stability
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Disrupts the triangle configuration and can force the attacker to release the lock to prevent being swept
 - **Risk**: Failed bridge wastes significant energy and may tighten the triangle if the attacker absorbs the bridge and re-settles
 
 ### 4. Frame and hip escape to create distance and disrupt triangle angle
 
 - **When to use**: When the triangle lock is not fully tightened and small space exists between the attacker's legs and your neck
-- **Targets**: [[Mounted Triangle]]
+- **Targets**: [[Positions/Mount/Mounted Triangle]]
 - **If successful**: Creates enough space to begin working the triangle loose or transitions to a more defensible position within the triangle
 - **Risk**: Hip escape without sufficient space may expose the back to the attacker
 
@@ -225,11 +225,11 @@ Defending the triangle choke from mounted triangle requires immediate recognitio
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Extract the trapped arm during a moment when the attacker shifts focus to angle cutting or shin grip. Alternatively, bridge explosively when the attacker elevates hips for the finish, disrupting the triangle structure and forcing them to abandon the choke and settle back into standard mount.
 
-### → [[Mounted Triangle]]
+### → [[Positions/Mount/Mounted Triangle]]
 
 Maintain aggressive chin tuck and frame on the attacker's hip to prevent the finish from completing. Stall the submission by denying the perpendicular angle through constant head positioning and hip movement. This keeps you in a dangerous position but alive and still working toward escape.
 

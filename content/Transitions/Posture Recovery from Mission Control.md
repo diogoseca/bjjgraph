@@ -21,7 +21,7 @@ The strategic significance of this transition lies in its role as the gateway to
 
 The fundamental challenge of this technique is that Mission Control's mechanical design punishes the most intuitive defensive responses. Explosive posturing feeds directly into triangle entries, aggressive arm pulling opens omoplata angles, and forward driving strengthens the shoulder isolation that makes the position effective. Instead, the top player must employ a patient, systematic approach that gradually degrades the bottom player's control through persistent grip fighting, strategic weight redistribution, and precise timing of escape windows when the bottom player's hip elevation or grip endurance momentarily weakens.
 
-**From Position**: [[Mission Control]] (Top)
+**From Position**: [[Positions/Rubber Guard/Mission Control]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ The fundamental challenge of this technique is that Mission Control's mechanical
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Failure | [[Mission Control]] | 35% |
-| Counter | [[New York]] | 20% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Failure | [[Positions/Rubber Guard/Mission Control]] | 35% |
+| Counter | [[Positions/Rubber Guard/New York]] | 20% |
 
 
 </section>
@@ -193,25 +193,25 @@ Posture Recovery from Mission Control occupies a critical defensive junction in 
 ## Related Techniques
 
 
-- [[Mission Control]] - Starting position - the rubber guard control this technique escapes
+- [[Positions/Rubber Guard/Mission Control]] - Starting position - the rubber guard control this technique escapes
 
-- [[Closed Guard]] - Primary success destination after breaking Mission Control
+- [[Positions/Closed Guard]] - Primary success destination after breaking Mission Control
 
-- [[New York]] - Counter outcome - deeper rubber guard control bottom player may advance to
+- [[Positions/Rubber Guard/New York]] - Counter outcome - deeper rubber guard control bottom player may advance to
 
-- [[Rubber Guard]] - Parent guard system containing Mission Control
+- [[Positions/Rubber Guard]] - Parent guard system containing Mission Control
 
-- [[Carni]] - Related rubber guard position with similar escape mechanics
+- [[Positions/Rubber Guard/Carni]] - Related rubber guard position with similar escape mechanics
 
-- [[Triangle Control]] - Primary submission threat during posture recovery attempts
+- [[Positions/Triangle Control]] - Primary submission threat during posture recovery attempts
 
-- [[Omoplata Control]] - Secondary submission threat when arm extraction is attempted prematurely
+- [[Positions/Omoplata Control]] - Secondary submission threat when arm extraction is attempted prematurely
 
-- [[Posture Recovery from Carni]] - Similar posture recovery technique from related rubber guard position
+- [[Transitions/Posture Recovery from Carni]] - Similar posture recovery technique from related rubber guard position
 
-- [[Posture Recovery from Meathook]] - Related posture recovery from another rubber guard entry point
+- [[Transitions/Posture Recovery from Meathook]] - Related posture recovery from another rubber guard entry point
 
-- [[Combat Base]] - Follow-up position after successful posture recovery and guard opening
+- [[Positions/Combat Base]] - Follow-up position after successful posture recovery and guard opening
 
 
 </section>

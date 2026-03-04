@@ -146,7 +146,7 @@ description: "Defend against the arm drag from clinch with early recognition, pu
 
 Defending the arm drag from clinch requires recognizing the setup before the drag initiates and understanding why the technique succeeds. The arm drag exploits extended arms and forward weight commitment, so defensive strategy centers on maintaining compact arm positioning, active pummeling, and immediate response when you feel two hands controlling one of your arms. The defender must develop the ability to turn failed defense into counter-offense, using the attacker's commitment to the drag as an opportunity for snap downs, counter-drags, or shooting underneath their reaching arms. Effective defense starts well before the drag attempt through disciplined hand fighting that denies the two-on-one grip configuration from forming.
 
-**Opponent's Starting Position**: [[Clinch]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ Defending the arm drag from clinch requires recognizing the setup before the dra
 ### 1. Pummel underhook immediately when you feel the two-on-one forming on your arm
 
 - **When to use**: Early stage before the drag initiates, when you feel both opponent's hands controlling one of your arms
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Neutralize the drag and re-establish neutral clinch with inside position advantage from the underhook
 - **Risk**: If too slow, the drag completes while you are mid-pummel with no arm protecting the back
 
 ### 2. Circle sharply toward the drag direction to deny the angle change
 
 - **When to use**: During the drag when the opponent begins stepping laterally past your shoulder line
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Face the opponent directly, converting their lateral step into wasted movement and returning to neutral clinch
 - **Risk**: Circling into their momentum may accelerate the back take if your timing is off
 
 ### 3. Snap down on opponent's head as they drop level during the drag execution
 
 - **When to use**: When opponent's head drops below your shoulder level during the drag and their posture breaks forward
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Establish front headlock control and convert their failed drag into a disadvantageous position for them
 - **Risk**: Reaching for the snap down may expose your neck to a guillotine if they redirect upward
 
 ### 4. Retract the targeted arm and establish a strong underhook on the same side
 
 - **When to use**: At the earliest recognition of the two-on-one grip, before any significant pull is initiated
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Deny the grip entirely and establish dominant inside position with underhook advantage
 - **Risk**: Retracting too aggressively may create a window for the opponent to snap down or change levels
 
@@ -216,11 +216,11 @@ Defending the arm drag from clinch requires recognizing the setup before the dra
 
 ## Best-Case Outcomes for Defender
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Maintain compact arm positioning with elbows tight, pummel immediately when you feel the two-on-one forming, and circle toward the drag direction to deny the angle change. Active hand fighting prevents the grip sequence from developing into a completed drag.
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Time the snap down for the moment the opponent drops their head level during the drag execution. Use their forward momentum and lowered posture against them by pulling their head downward while sprawling your hips back to establish front headlock control.
 

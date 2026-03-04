@@ -180,7 +180,7 @@ description: "How to execute the Transition to Piranha Guard from Lapel Guard bo
 
 Executing the Transition to Piranha Guard requires reconfiguring your existing lapel control from standard external wrapping to an internal threading through your own legs. The key challenge is managing the vulnerable window where you must partially release your primary lapel grip to feed the collar between your legs while preventing the opponent from advancing position. Success depends on establishing strong secondary controls before initiating the thread, executing the feed with decisive speed, and immediately re-establishing tension once the collar passes through your legs. This is fundamentally a timing and grip management problem rather than a strength-based technique.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ Executing the Transition to Piranha Guard requires reconfiguring your existing l
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Piranha Guard]] | 55% |
-| Failure | [[Lapel Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Piranha Guard]] | 55% |
+| Failure | [[Positions/Lapel Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ Executing the Transition to Piranha Guard requires reconfiguring your existing l
 
 ## Opponent Counters
 
-- **Opponent postures up aggressively and strips the lapel during the threading window** (Effectiveness: High) - Your Response: Abort the thread immediately and re-establish standard Lapel Guard grips. Use your secondary anchor to prevent them from advancing past guard. Attempt the transition again only after re-establishing full lapel control. → Leads to [[Lapel Guard]]
-- **Opponent drives forward with pressure pass to pin your legs together and prevent threading space** (Effectiveness: Medium) - Your Response: Use the forward pressure to load a sweep from standard Lapel Guard. Their commitment to shutting down your legs creates upper body vulnerability. Transition to a collar drag or elevator sweep using their forward momentum. → Leads to [[Lapel Guard]]
-- **Opponent backsteps and creates distance to extract the collar entirely from your control** (Effectiveness: High) - Your Response: If they create enough distance to strip the lapel completely, transition to Open Guard with active feet on hips. Pursue re-gripping the collar from Spider Guard or Collar Sleeve Guard rather than chasing the lapel from a compromised position. → Leads to [[Open Guard]]
-- **Opponent grabs your threading hand to prevent the collar feed** (Effectiveness: Medium) - Your Response: Their hand commitment to your wrist leaves their posture undefended. Use your secondary anchor and remaining lapel control to break their posture, then reattempt the thread when they release your hand to post for base recovery. → Leads to [[Lapel Guard]]
+- **Opponent postures up aggressively and strips the lapel during the threading window** (Effectiveness: High) - Your Response: Abort the thread immediately and re-establish standard Lapel Guard grips. Use your secondary anchor to prevent them from advancing past guard. Attempt the transition again only after re-establishing full lapel control. → Leads to [[Positions/Lapel Guard]]
+- **Opponent drives forward with pressure pass to pin your legs together and prevent threading space** (Effectiveness: Medium) - Your Response: Use the forward pressure to load a sweep from standard Lapel Guard. Their commitment to shutting down your legs creates upper body vulnerability. Transition to a collar drag or elevator sweep using their forward momentum. → Leads to [[Positions/Lapel Guard]]
+- **Opponent backsteps and creates distance to extract the collar entirely from your control** (Effectiveness: High) - Your Response: If they create enough distance to strip the lapel completely, transition to Open Guard with active feet on hips. Pursue re-gripping the collar from Spider Guard or Collar Sleeve Guard rather than chasing the lapel from a compromised position. → Leads to [[Positions/Open Guard]]
+- **Opponent grabs your threading hand to prevent the collar feed** (Effectiveness: Medium) - Your Response: Their hand commitment to your wrist leaves their posture undefended. Use your secondary anchor and remaining lapel control to break their posture, then reattempt the thread when they release your hand to post for base recovery. → Leads to [[Positions/Lapel Guard]]
 
 
 </section>

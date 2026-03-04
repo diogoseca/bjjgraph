@@ -186,7 +186,7 @@ description: "Complete guide to executing the Triangle from Spider Guard in BJJ.
 
 Executing the Triangle from Spider Guard requires mastering the push-pull mechanic that converts bilateral arm control into unilateral arm isolation. The key insight is that spider guard's fundamental structure—feet on biceps with sleeve grips—already creates the positional framework for triangle entry. Your task is to weaponize the asymmetry by driving one arm away while dragging the other across the centerline, then replacing your bicep hook with a triangle lock. Success depends on hip elevation timing, maintaining sleeve control through the transition phase, and immediately establishing the correct finishing angle once the lock is secured. The technique rewards precision over athleticism—proper mechanics make this entry available to practitioners of all body types.
 
-**From Position**: [[Spider Guard]] (Bottom)
+**From Position**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Triangle from Spider Guard requires mastering the push-pull mechan
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Control]] | 50% |
-| Failure | [[Spider Guard]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Triangle Control]] | 50% |
+| Failure | [[Positions/Spider Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Triangle from Spider Guard requires mastering the push-pull mechan
 
 ## Opponent Counters
 
-- **Opponent postures explosively before the triangle is locked, straightening their spine to prevent the leg from crossing over the shoulder** (Effectiveness: High) - Your Response: If the leg has not crossed the shoulder, abort the triangle immediately, replace your foot on their bicep, and re-establish spider guard. Do not chase the triangle against a posturing opponent. If the leg is partially over, accelerate hip elevation and pull harder on the sleeve while using your other foot on their hip to prevent full posture recovery. → Leads to [[Spider Guard]]
-- **Opponent stacks forward and drives weight down onto you, compressing your legs and eliminating the space needed for the triangle lock** (Effectiveness: High) - Your Response: Transition immediately to an omoplata by pivoting your hips and swinging the blocked leg under the opponent's arm. The stacking motion brings their shoulder into perfect position for the omoplata. Alternatively, use the forward pressure for a balloon sweep by extending both legs and elevating them overhead. → Leads to [[Open Guard]]
-- **Opponent strips the sleeve grip on the pulling side during the transition phase before the triangle is secured** (Effectiveness: High) - Your Response: Without the sleeve grip, the arm cannot be controlled across centerline. Immediately retract the swinging leg back to bicep hook position and re-establish the sleeve grip. If grip recovery is not possible, transition to lasso on the side where you still have control, or switch to a collar drag to create a new attacking angle. → Leads to [[Spider Guard]]
-- **Opponent circles away laterally and disengages from the spider guard structure as the triangle entry begins** (Effectiveness: Medium) - Your Response: Follow their lateral movement with your hips, maintaining at least one sleeve grip and contact point. If they disengage completely, use the remaining sleeve grip to pull them back into range or transition to a seated guard position. Their lateral movement often exposes opportunities for collar drag, arm drag, or single leg entries as they create angles. → Leads to [[Open Guard]]
+- **Opponent postures explosively before the triangle is locked, straightening their spine to prevent the leg from crossing over the shoulder** (Effectiveness: High) - Your Response: If the leg has not crossed the shoulder, abort the triangle immediately, replace your foot on their bicep, and re-establish spider guard. Do not chase the triangle against a posturing opponent. If the leg is partially over, accelerate hip elevation and pull harder on the sleeve while using your other foot on their hip to prevent full posture recovery. → Leads to [[Positions/Spider Guard]]
+- **Opponent stacks forward and drives weight down onto you, compressing your legs and eliminating the space needed for the triangle lock** (Effectiveness: High) - Your Response: Transition immediately to an omoplata by pivoting your hips and swinging the blocked leg under the opponent's arm. The stacking motion brings their shoulder into perfect position for the omoplata. Alternatively, use the forward pressure for a balloon sweep by extending both legs and elevating them overhead. → Leads to [[Positions/Open Guard]]
+- **Opponent strips the sleeve grip on the pulling side during the transition phase before the triangle is secured** (Effectiveness: High) - Your Response: Without the sleeve grip, the arm cannot be controlled across centerline. Immediately retract the swinging leg back to bicep hook position and re-establish the sleeve grip. If grip recovery is not possible, transition to lasso on the side where you still have control, or switch to a collar drag to create a new attacking angle. → Leads to [[Positions/Spider Guard]]
+- **Opponent circles away laterally and disengages from the spider guard structure as the triangle entry begins** (Effectiveness: Medium) - Your Response: Follow their lateral movement with your hips, maintaining at least one sleeve grip and contact point. If they disengage completely, use the remaining sleeve grip to pull them back into range or transition to a seated guard position. Their lateral movement often exposes opportunities for collar drag, arm drag, or single leg entries as they create angles. → Leads to [[Positions/Open Guard]]
 
 
 </section>

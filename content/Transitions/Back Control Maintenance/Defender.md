@@ -158,7 +158,7 @@ The critical insight for defenders is that every maintenance adjustment the atta
 
 Energy management defines successful defense against back control maintenance. The attacker's strategy relies on cumulative pressure draining the defender's energy and composure over time. Defenders must resist the urge to make explosive escape attempts against fully locked control, instead using calculated movements that address specific control points. Maintaining defensive breathing, protecting the neck through structural positioning rather than muscular effort, and choosing escape moments based on the attacker's actions rather than desperation creates the conditions for successful escape to turtle or half guard.
 
-**Opponent's Starting Position**: [[Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Energy management defines successful defense against back control maintenance. T
 ### 1. Bridge toward the underhook side and turn to face the attacker while controlling the choking arm with two-on-one grip
 
 - **When to use**: When attacker's hooks are not fully consolidated and you have successfully controlled their choking hand with both of your hands
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You face the attacker and can establish half guard by trapping one of their legs between yours during the turn, reaching a position with legitimate offensive options
 - **Risk**: If the turn stalls midway, attacker can re-establish back control with deeper hooks on the opposite side or transition to mounted position
 
 ### 2. Hip escape toward the mat and scoot hips downward to slide below the attacker's hooks, working to remove one hook at a time
 
 - **When to use**: When attacker is focused on upper body threats and their hooks are relatively shallow, particularly when they transition between seatbelt and collar grip configurations
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You escape below the hooks and can turtle defensively, reaching a position where you can begin guard recovery or stand-up sequences
 - **Risk**: Attacker follows your hip movement and drives hooks deeper, or transitions to body triangle as your legs straighten during the escape attempt
 
 ### 3. Strip the seatbelt grip using two hands on the choking arm wrist, peel it below your chin, and pin it to your chest while beginning rotation
 
 - **When to use**: When attacker initiates a grip change or cycles from one submission threat to another, creating a moment where their hand control is transitioning and vulnerable to stripping
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Neutralizes the immediate choking threat and buys time to address hooks, even though you remain in back control the attacker must re-establish grips before threatening submissions
 - **Risk**: Committing both hands to grip stripping leaves your neck momentarily exposed if the strip fails, and removes your ability to address hooks simultaneously
 
 ### 4. Turn into the attacker by rotating toward the choking arm side, using frames on their hip and shoulder to create distance while threading your legs to recover guard
 
 - **When to use**: When you have successfully removed one hook and stripped or neutralized the seatbelt grip, creating enough freedom for a controlled rotation toward the attacker
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You face the attacker and establish closed guard or half guard, completely escaping the back control position and reaching a neutral or offensive guard position
 - **Risk**: If attempted with hooks still intact, the attacker follows the rotation and ends up in mount, which is a worse position than the back control you were escaping
 
@@ -228,11 +228,11 @@ Energy management defines successful defense against back control maintenance. T
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Systematically remove hooks by sliding your hips downward and away while controlling the attacker's upper body grips. Once hooks are cleared, turtle tightly with elbows to knees and chin tucked, then immediately begin working guard recovery or technical stand-up before attacker can re-establish back control.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 After securing neck defense and stripping the seatbelt grip, bridge toward the underhook side and rotate to face the attacker. During the turn, trap one of their legs between yours to establish half guard. The key timing is bridging when the attacker adjusts their hooks or cycles grips, using their transitional moment to power the rotation.
 

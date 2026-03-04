@@ -180,7 +180,7 @@ description: "Master executing the Stack Pass from Clamp Guard in BJJ. Step-by-s
 
 The Stack Pass from Clamp Guard is executed by the top player whose arm is trapped in the opponent's shin-on-bicep clamp configuration. Rather than engaging in the arm extraction battle that the guard player has engineered to trigger armbars, triangles, and omoplatas, the stack pass imposes a fundamentally different tactical framework — forward compression that neutralizes the entire clamp system through spinal folding and hip immobilization. The technique requires full commitment and precise head positioning to avoid the triangle counter that the forward drive naturally creates. When executed with correct mechanics, the passer converts the clamp guard's structural control into compressed immobility, creating a direct path to side control that bypasses extended guard retention exchanges and eliminates the need to fight the arm extraction battle.
 
-**From Position**: [[Clamp Guard]] (Top)
+**From Position**: [[Positions/Clamp Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The Stack Pass from Clamp Guard is executed by the top player whose arm is trapp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Clamp Guard]] | 35% |
-| Counter | [[Triangle Control]] | 25% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Clamp Guard]] | 35% |
+| Counter | [[Positions/Triangle Control]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Stack Pass from Clamp Guard is executed by the top player whose arm is trapp
 
 ## Opponent Counters
 
-- **Opponent shoots legs over neck to lock triangle during the initial forward drive phase** (Effectiveness: High) - Your Response: Pin head to the far side before driving to physically block triangle entry. If the triangle begins to form, immediately posture up and address the triangle threat before continuing the stack — do not drive forward into a developing triangle. → Leads to [[Triangle Control]]
-- **Opponent frames against shoulders with both hands and pushes hips away to create distance and maintain clamp guard** (Effectiveness: Medium) - Your Response: Drive forward low, dropping your chest below the frame line and targeting the opponent's thigh-to-hip junction. Use your head as a wedge against their hip to maintain forward progress underneath the frames rather than pushing through them. → Leads to [[Clamp Guard]]
-- **Opponent rotates hips to transition toward omoplata as the forward drive creates rotational opportunity** (Effectiveness: Medium) - Your Response: Maintain maximum forward pressure with your free arm pinning their far hip to the mat, blocking the rotation needed for omoplata. If rotation has progressed, step your far leg forward past their hip as a post and drive back into stack position to flatten them. → Leads to [[Clamp Guard]]
-- **Opponent extends legs and pushes on your hips with feet to prevent stack compression from establishing** (Effectiveness: Low) - Your Response: Use superior bodyweight and low driving angle to overcome leg extension. Grab behind the opponent's knees to collapse their leg structure and strip the foot placement off your hips, then re-initiate the stack from the collapsed leg position. → Leads to [[Clamp Guard]]
+- **Opponent shoots legs over neck to lock triangle during the initial forward drive phase** (Effectiveness: High) - Your Response: Pin head to the far side before driving to physically block triangle entry. If the triangle begins to form, immediately posture up and address the triangle threat before continuing the stack — do not drive forward into a developing triangle. → Leads to [[Positions/Triangle Control]]
+- **Opponent frames against shoulders with both hands and pushes hips away to create distance and maintain clamp guard** (Effectiveness: Medium) - Your Response: Drive forward low, dropping your chest below the frame line and targeting the opponent's thigh-to-hip junction. Use your head as a wedge against their hip to maintain forward progress underneath the frames rather than pushing through them. → Leads to [[Positions/Clamp Guard]]
+- **Opponent rotates hips to transition toward omoplata as the forward drive creates rotational opportunity** (Effectiveness: Medium) - Your Response: Maintain maximum forward pressure with your free arm pinning their far hip to the mat, blocking the rotation needed for omoplata. If rotation has progressed, step your far leg forward past their hip as a post and drive back into stack position to flatten them. → Leads to [[Positions/Clamp Guard]]
+- **Opponent extends legs and pushes on your hips with feet to prevent stack compression from establishing** (Effectiveness: Low) - Your Response: Use superior bodyweight and low driving angle to overcome leg extension. Grab behind the opponent's knees to collapse their leg structure and strip the foot placement off your hips, then re-initiate the stack from the collapsed leg position. → Leads to [[Positions/Clamp Guard]]
 
 
 </section>

@@ -174,7 +174,7 @@ description: "How to execute X-Guard Sweep in BJJ. Attacking perspective with se
 
 The X-Guard Sweep is a fundamental attacking technique from X-Guard that uses superior leverage and off-balancing mechanics to elevate and sweep the opponent. By controlling both legs while maintaining upper body connection, the bottom player creates a powerful mechanical advantage that makes the sweep extremely difficult to defend. The technique exploits the opponent's unstable base by removing their ability to post or widen their stance, forcing them into a position where they cannot recover balance. This sweep is particularly effective against standing opponents and those attempting to pass the guard, as it capitalizes on their forward pressure and commitment to forward movement. The X-Guard Sweep serves as a cornerstone technique within the broader X-Guard attacking system, leading to dominant positions like mount, side control, or back control depending on the opponent's defensive reactions.
 
-**From Position**: [[X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard]] (Bottom)
 
 </section>
 
@@ -228,9 +228,9 @@ The X-Guard Sweep is a fundamental attacking technique from X-Guard that uses su
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 65% |
-| Failure | [[X-Guard]] | 25% |
-| Counter | [[X-Guard]] | 10% |
+| Success | [[Positions/Mount]] | 65% |
+| Failure | [[Positions/X-Guard]] | 25% |
+| Counter | [[Positions/X-Guard]] | 10% |
 
 
 </section>
@@ -239,11 +239,11 @@ The X-Guard Sweep is a fundamental attacking technique from X-Guard that uses su
 
 ## Opponent Counters
 
-- **Opponent widens base and lowers hips to create heavy pressure downward** (Effectiveness: Medium) - Your Response: Switch to technical stand-up or transition to Single Leg X-Guard to attack from different angle. Alternatively, switch to opposite side X-Guard sweep if they overcommit to one direction. → Leads to [[X-Guard]]
-- **Opponent posts hand on mat to prevent completion of sweep** (Effectiveness: Medium) - Your Response: Attack the posted arm with armbar or triangle setup, or redirect sweep to opposite side, using their posting as a pivot point for rotational momentum. → Leads to [[X-Guard]]
-- **Opponent steps back with far leg to remove X-hook connection** (Effectiveness: High) - Your Response: Follow their backward movement by inverting or transitioning to Deep Half Guard. Can also transition to standard butterfly guard if they step completely back. → Leads to [[X-Guard]]
-- **Opponent grips your gi or belt to control your torso and prevent rotation** (Effectiveness: Low) - Your Response: Use their grip as an anchor point to generate more rotational force. Their grip actually prevents them from posting effectively, making the sweep easier once you commit. → Leads to [[X-Guard]]
-- **Opponent jumps over your X-Guard attempting to pass to opposite side** (Effectiveness: Medium) - Your Response: Maintain top hook and follow their jumping motion to take back control or transition to reverse X-Guard, then sweep from the new angle. → Leads to [[X-Guard]]
+- **Opponent widens base and lowers hips to create heavy pressure downward** (Effectiveness: Medium) - Your Response: Switch to technical stand-up or transition to Single Leg X-Guard to attack from different angle. Alternatively, switch to opposite side X-Guard sweep if they overcommit to one direction. → Leads to [[Positions/X-Guard]]
+- **Opponent posts hand on mat to prevent completion of sweep** (Effectiveness: Medium) - Your Response: Attack the posted arm with armbar or triangle setup, or redirect sweep to opposite side, using their posting as a pivot point for rotational momentum. → Leads to [[Positions/X-Guard]]
+- **Opponent steps back with far leg to remove X-hook connection** (Effectiveness: High) - Your Response: Follow their backward movement by inverting or transitioning to Deep Half Guard. Can also transition to standard butterfly guard if they step completely back. → Leads to [[Positions/X-Guard]]
+- **Opponent grips your gi or belt to control your torso and prevent rotation** (Effectiveness: Low) - Your Response: Use their grip as an anchor point to generate more rotational force. Their grip actually prevents them from posting effectively, making the sweep easier once you commit. → Leads to [[Positions/X-Guard]]
+- **Opponent jumps over your X-Guard attempting to pass to opposite side** (Effectiveness: Medium) - Your Response: Maintain top hook and follow their jumping motion to take back control or transition to reverse X-Guard, then sweep from the new angle. → Leads to [[Positions/X-Guard]]
 
 
 </section>

@@ -21,7 +21,7 @@ This submission capitalizes on the inherent vulnerability of the knee joint when
 
 The kneebar from Backside 50-50 integrates seamlessly into modern leg lock systems as a complementary attack to heel hooks and toe holds. When opponents defend heel hooks effectively by hiding their heel or rotating their knee outward, they often inadvertently straighten their leg, creating the exact configuration needed for kneebar entry. This makes the kneebar an essential tool for creating dilemmas within leg entanglement exchanges, forcing opponents to choose between exposing their heel or extending their leg.
 
-**From Position**: [[Backside 50-50]] (Top)
+**From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The kneebar from Backside 50-50 integrates seamlessly into modern leg lock syste
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kneebar Control]] | 55% |
-| Failure | [[Backside 50-50]] | 30% |
-| Counter | [[50-50 Guard]] | 15% |
+| Success | [[Positions/Kneebar Control]] | 55% |
+| Failure | [[Positions/Ashi Garami/Backside 50-50]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -189,27 +189,27 @@ The kneebar from Backside 50-50 functions as a critical component of modern leg 
 ## Related Techniques
 
 
-- [[Backside 50-50]] - Starting position - kneebar entry point from top control
+- [[Positions/Ashi Garami/Backside 50-50]] - Starting position - kneebar entry point from top control
 
-- [[Kneebar Control]] - Target position - control state before finishing
+- [[Positions/Kneebar Control]] - Target position - control state before finishing
 
-- [[Inside Heel Hook]] - Complementary attack - kneebar defense exposes heel
+- [[Submissions/Inside Heel Hook]] - Complementary attack - kneebar defense exposes heel
 
-- [[Outside Heel Hook]] - Alternative leg attack from same position
+- [[Transitions/Outside Heel Hook]] - Alternative leg attack from same position
 
-- [[Toe Hold]] - Complementary attack - third option in leg lock dilemma
+- [[Transitions/Toe Hold]] - Complementary attack - third option in leg lock dilemma
 
-- [[50-50 Guard]] - Related position - opponent may recover to neutral 50-50
+- [[Positions/Ashi Garami/50-50 Guard]] - Related position - opponent may recover to neutral 50-50
 
-- [[Saddle]] - Alternative leg entanglement offering kneebar access
+- [[Positions/Ashi Garami/Saddle]] - Alternative leg entanglement offering kneebar access
 
-- [[Inside Ashi-Garami]] - Related entanglement with similar kneebar mechanics
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related entanglement with similar kneebar mechanics
 
-- [[Kneebar from 50-50]] - Related technique from standard 50-50 position
+- [[Submissions/Kneebar from 50-50]] - Related technique from standard 50-50 position
 
-- [[Straight Ankle Lock]] - Alternative lower-risk leg attack from similar positions
+- [[Submissions/Straight Ankle Lock]] - Alternative lower-risk leg attack from similar positions
 
-- [[Back Take from Ashi]] - Positional alternative when leg attacks are defended
+- [[Transitions/Back Take from Ashi]] - Positional alternative when leg attacks are defended
 
 
 </section>

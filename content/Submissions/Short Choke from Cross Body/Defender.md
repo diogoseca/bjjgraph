@@ -156,7 +156,7 @@ description: "Master defending the Short Choke from Cross Body Ride. Recognition
 
 Defending the Short Choke from Cross Body requires immediate recognition of the choking arm threading under the chin and aggressive two-on-one hand fighting to prevent grip consolidation. The defender must protect the neck as the absolute primary objective while simultaneously working to create space and disrupt the attacker's cross body pressure angle. Understanding the progression from initial arm threading to locked choking position is critical for identifying the shrinking defensive window before the grip becomes inescapable. Once the grip locks behind the neck, defensive options narrow dramatically to tapping, so all defensive effort must be front-loaded into the early stages of the choke setup when the attacker's control is still developing and the forearm position can still be disrupted.
 
-**Opponent's Starting Position**: [[Cross Body Ride]] (Top)
+**Opponent's Starting Position**: [[Positions/Cross Body Ride]] (Top)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the Short Choke from Cross Body requires immediate recognition of the 
 ### 1. Tuck chin and execute two-on-one grip fight on the choking arm
 
 - **When to use**: As soon as you feel the attacker's arm beginning to thread under your chin or across your neck
-- **Targets**: [[Cross Body Ride]]
+- **Targets**: [[Positions/Cross Body Ride]]
 - **If successful**: Prevents choke from being established and forces attacker to reset or attempt a different attack from the same position
 - **Risk**: If chin tuck fails or grip is stripped, the choke may lock quickly with severely limited further defensive options
 
 ### 2. Frame against choking arm and hip escape to recover half guard
 
 - **When to use**: When the attacker is focused on threading the choking arm and momentarily reduces cross body pressure to adjust position
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Escapes cross body ride entirely and recovers to half guard where the choke threat is neutralized and guard retention is possible
 - **Risk**: Failed hip escape may expose neck further if attacker maintains chest pressure and follows the hip movement
 
 ### 3. Turn into attacker to disrupt perpendicular angle and create scramble
 
 - **When to use**: Early in the choke setup before the grip is locked, when the attacker's weight is committed to one side during arm threading
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Disrupts attacker's perpendicular angle and creates opportunity to recover half guard or establish a neutral scramble position
 - **Risk**: Turning incorrectly may expose back more fully and accelerate the attacker's back take transition rather than escape
 
 ### 4. Explosive granby roll to invert and recover guard
 
 - **When to use**: When attacker commits weight forward during choke attempt and momentarily lightens hip control pressure
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Completely escapes the cross body position and recovers open guard or half guard with full positional reset
 - **Risk**: Requires significant energy expenditure and precise timing; failed roll may result in flattened position under even heavier control
 
@@ -239,7 +239,7 @@ Defending the Short Choke from Cross Body requires immediate recognition of the 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Frame against the choking arm while hip escaping to insert knee shield, disrupting the cross body pressure angle and recovering half guard where the choke is no longer viable
 

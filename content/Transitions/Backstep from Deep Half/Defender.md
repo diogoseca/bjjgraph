@@ -154,7 +154,7 @@ description: "Defend against the backstep from deep half guard bottom. Recogniti
 
 As the deep half guard bottom player, the backstep represents one of the most dangerous threats to your position because it bypasses your primary sweep mechanics entirely and attacks from a direction your deep half structure is not designed to defend. Your deep underhook and head positioning create excellent forward-facing leverage for sweeps, but this same deep positioning exposes your back when the top player redirects behind you. Defending the backstep requires early recognition of setup cues, immediate hip adjustment to follow the rotation, and maintaining your underhook connection throughout the defensive sequence. The key insight is that your best defense mirrors the attack - you must rotate with the top player rather than trying to resist the rotation from a static position.
 
-**Opponent's Starting Position**: [[Deep Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Deep Half Guard]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ As the deep half guard bottom player, the backstep represents one of the most da
 ### 1. Follow the rotation by hip-escaping in the same direction as the backstep, turning to face the passer and reguarding
 
 - **When to use**: As soon as you feel the weight shift to the posted hand and the free leg begins lifting, before the step clears your body
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: Reguard into deep half or transition to standard half guard, maintaining your offensive position with sweep opportunities intact
 - **Risk**: If you follow too slowly, the top player establishes chest-to-back connection before you can turn, and you give your back with worse positioning than if you had stayed still
 
 ### 2. Hook the stepping leg with your free leg during the backstep arc, catching it before it clears your body
 
 - **When to use**: When the free leg begins its backward arc over your torso and is within reach of your top leg
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Entangle their stepping leg in a half guard configuration, disrupting the backstep and creating a scramble opportunity where you can work to sweep
 - **Risk**: You may lose your deep underhook control during the hooking motion, compromising your deep half position and leaving you in a weakened half guard
 
 ### 3. Bridge explosively into the weight shift moment, sweeping the top player before the backstep can complete
 
 - **When to use**: The instant you feel the top player's weight commit to the posted hand, before the free leg lifts off the mat
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Sweep the top player using their compromised base during the weight transfer, ending up in a dominant top position
 - **Risk**: If the bridge is mistimed and comes too late, it can actually accelerate the backstep by providing additional rotational momentum to the top player
 
 ### 4. Release underhook and frame against the top player's hips to push them away, creating distance to scramble or turtle
 
 - **When to use**: When you recognize the backstep early but cannot match the rotation speed and need to create emergency separation
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: Create enough distance to prevent chest-to-back connection and either reguard or establish turtle position for secondary defense
 - **Risk**: Releasing the underhook eliminates your primary deep half control mechanism and all sweep opportunities, leaving you in a compromised guard position
 
@@ -224,11 +224,11 @@ As the deep half guard bottom player, the backstep represents one of the most da
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a bridge or leg hook during the weight shift phase of the backstep. The top player's commitment to swinging their leg creates a brief window where their base is compromised on the posting hand. Use this window to sweep by driving into their momentum direction, or hook their stepping leg to prevent the rotation from completing and establish half guard entanglement.
 
-### → [[Deep Half Guard]]
+### → [[Positions/Half Guard/Deep Half Guard]]
 
 Follow the rotation with your hips immediately when you feel the weight shift, keeping your deep underhook tight and turning to face the passer. By staying connected and rotating with them, you prevent the backstep from completing and either maintain your deep half guard position or transition to a standard half guard with offensive options intact.
 

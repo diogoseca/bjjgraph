@@ -154,7 +154,7 @@ description: "Master defending the far side armbar from knee on belly. Recogniti
 
 Defending the far side armbar from knee on belly requires recognizing the threat before it develops, as the transition from pressure position to submission control happens rapidly once the attacker commits. The bottom player must identify the moment the top player reaches across for their far arm and respond immediately — either by tucking the elbow tight, gripping defensively, or using the transition as an opportunity to escape the knee on belly entirely. Understanding that the attacker must release established grips and shift their weight during this technique reveals the defensive windows available. The key defensive principle is denying arm isolation: without control of your far wrist, the top player cannot complete the armbar transition and must either return to knee on belly or risk losing the dominant position altogether. Early recognition and immediate response are far more effective than late-stage defense once armbar control has been established.
 
-**Opponent's Starting Position**: [[Knee on Belly]] (Top)
+**Opponent's Starting Position**: [[Positions/Knee on Belly]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the far side armbar from knee on belly requires recognizing the threat
 ### 1. Immediately tuck your far elbow tight to your ribs and grip your own collar or belt with your far hand
 
 - **When to use**: As soon as you feel the attacker reach across your body or sense their collar grip releasing — this is the earliest and most effective defensive window
-- **Targets**: [[Knee on Belly]]
+- **Targets**: [[Positions/Knee on Belly]]
 - **If successful**: The attacker cannot isolate your far arm and must return to standard knee on belly control, giving you time to work on escaping the position through standard KOB escape protocols
 - **Risk**: If the tuck is late, the attacker may still secure the wrist and use your bent arm position for an Americana variation instead of the armbar
 
 ### 2. Bridge explosively toward the attacker and turn to your knees as they initiate the leg swing
 
 - **When to use**: During the transition phase when the attacker lifts their far leg to swing over your head, creating a momentary base instability that can be exploited
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The bridge disrupts the attacker's balance during their most vulnerable moment, allowing you to come to your knees or recover half guard as they lose their dominant position
 - **Risk**: If mistimed, the bridge may accelerate the attacker into armbar position rather than disrupting it, worsening your defensive situation
 
 ### 3. Grab your own wrist with your free hand and lock your arms together in a tight defensive grip
 
 - **When to use**: When the attacker has already captured your far wrist but has not yet completed the leg swing or fully sat back into armbar control
-- **Targets**: [[Knee on Belly]]
+- **Targets**: [[Positions/Knee on Belly]]
 - **If successful**: The two-on-one defensive grip prevents full arm isolation and buys time to work an escape — the attacker cannot finish the armbar against properly linked hands
 - **Risk**: The grip is temporary and energy-intensive — the attacker will eventually break it through repositioning, so you must use this time to actively escape rather than merely survive
 
 ### 4. Hip escape away from the attacker as they release controlling grips to reach across your body
 
 - **When to use**: In the early phase when the attacker releases their controlling grips to reach for your far arm, before they have established any wrist control whatsoever
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creating distance prevents the far arm capture entirely and may allow you to recover half guard or open guard as the attacker's knee on belly control degrades from the hip escape
 - **Risk**: If the hip escape is shallow, the attacker can chase with their knee and still capture the arm from a modified angle while maintaining top pressure
 
@@ -224,11 +224,11 @@ Defending the far side armbar from knee on belly requires recognizing the threat
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Bridge and turn into the attacker during their leg swing transition. The weight shift required for the far side armbar creates a window where their base is compromised. A well-timed bridge combined with catching their swinging leg with your legs pulls the attacker off balance and into a half guard scramble where you recover to a more defensible position with the attacker in your half guard.
 
-### → [[Knee on Belly]]
+### → [[Positions/Knee on Belly]]
 
 Deny the arm isolation by keeping your far elbow pinned to your body and gripping your own collar or belt. Without wrist control, the attacker must abandon the armbar attempt and return to standard knee on belly. While still disadvantageous, you have prevented a far worse outcome and maintained the opportunity to execute standard knee on belly escape sequences.
 

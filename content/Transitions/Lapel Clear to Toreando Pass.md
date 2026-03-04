@@ -21,7 +21,7 @@ The strategic value of this pass lies in its direct problem-solving approach. La
 
 This technique rewards patience and technical precision over athleticism. The clearing sequence requires understanding how the lapel is wrapped and systematically unwinding it rather than ripping against the fabric. The subsequent toreando must be immediate and committed, as any hesitation allows the opponent to recover guard or re-establish lapel grips. The combination of methodical clearing and explosive passing creates an effective solution to one of modern gi grappling's most challenging guard systems.
 
-**From Position**: [[Lapel Guard]] (Top)
+**From Position**: [[Positions/Lapel Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This technique rewards patience and technical precision over athleticism. The cl
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -189,27 +189,27 @@ The Lapel Clear to Toreando Pass occupies a crucial position in modern gi guard 
 ## Related Techniques
 
 
-- [[Lapel Guard]] - Starting position where opponent has established lapel configuration
+- [[Positions/Lapel Guard]] - Starting position where opponent has established lapel configuration
 
-- [[Side Control]] - Primary target position upon successful pass completion
+- [[Positions/Side Control]] - Primary target position upon successful pass completion
 
-- [[Bullfighter Pass]] - Core passing mechanic used after clearing lapel configuration
+- [[Transitions/Bullfighter Pass]] - Core passing mechanic used after clearing lapel configuration
 
-- [[Backstep Around Worm Guard]] - Alternative passing solution for worm guard configurations
+- [[Transitions/Backstep Around Worm Guard]] - Alternative passing solution for worm guard configurations
 
-- [[Leg Drag While Clearing Lapel]] - Related pass using leg drag finish instead of toreando
+- [[Transitions/Leg Drag While Clearing Lapel]] - Related pass using leg drag finish instead of toreando
 
-- [[Knee Slice Despite Lapel]] - Alternative pass when toreando is defended with knee shield
+- [[Transitions/Knee Slice Despite Lapel]] - Alternative pass when toreando is defended with knee shield
 
-- [[Distance Creation to Reset]] - Fallback option when clearing proves too difficult
+- [[Transitions/Distance Creation to Reset]] - Fallback option when clearing proves too difficult
 
-- [[Worm Guard]] - Common lapel configuration this pass addresses
+- [[Positions/Worm Guard]] - Common lapel configuration this pass addresses
 
-- [[Spider Guard]] - Guard opponent may recover to if pass is incomplete
+- [[Positions/Spider Guard]] - Guard opponent may recover to if pass is incomplete
 
-- [[Half Guard]] - Common position reached if toreando is partially defended
+- [[Positions/Half Guard]] - Common position reached if toreando is partially defended
 
-- [[Closed Guard]] - Counter outcome position if opponent closes guard during failed pass
+- [[Positions/Closed Guard]] - Counter outcome position if opponent closes guard during failed pass
 
 
 </section>

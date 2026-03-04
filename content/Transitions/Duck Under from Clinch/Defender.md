@@ -156,7 +156,7 @@ Defending the Duck Under from Clinch requires the ability to recognize the techn
 
 The defender who masters duck under recognition can convert successful defenses into counter-offensive opportunities. A well-timed sprawl exposes the attacker's head for front headlock entries, a failed duck leaves the attacker at a lower level vulnerable to snap downs, and the attacker's forward commitment during the duck creates openings for guillotine threats. Understanding these counter-offensive pathways transforms duck under defense from a purely reactive skill into an active part of your clinch strategy.
 
-**Opponent's Starting Position**: [[Clinch]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The defender who masters duck under recognition can convert successful defenses 
 ### 1. Sprawl and drive hips back immediately upon recognizing the level change, pushing opponent's head or shoulders downward
 
 - **When to use**: At the earliest recognition of the level change, before the opponent's head passes beneath your arm
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Duck under is completely stuffed, you maintain clinch position or gain opportunity for front headlock control
 - **Risk**: If sprawl timing is late and opponent has already cleared the arm, you accelerate their circular momentum by driving forward
 
 ### 2. Thread a whizzer (overhook) on the duck side as the opponent's head passes beneath your arm to control their shoulder and block rotation
 
 - **When to use**: When the opponent's head is passing beneath your arm but has not yet established chest-to-back contact
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Controls opponent's shoulder, prevents completion of the circle behind you, and allows recovery to neutral clinch
 - **Risk**: If the whizzer is shallow or applied too late, the opponent drives through the overhook and completes the back take
 
 ### 3. Cross-face with free hand and immediately step to re-square hips, turning to face the opponent before they complete the circle
 
 - **When to use**: When opponent has partially completed the duck under but chest-to-back contact is not yet established
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Prevents back take and returns engagement to neutral clinch position where grip fighting resumes
 - **Risk**: If re-squaring is too slow, opponent uses your turning motion to accelerate their own circular movement behind you
 
 ### 4. Sit to guard to deny standing back exposure when duck under is nearly complete and re-squaring is no longer possible
 
 - **When to use**: As a last resort when opponent has established significant angle behind you and standing recovery is unlikely
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Denies the standing back take and transitions to guard position where defensive options exist against the top player
 - **Risk**: Concedes standing position entirely and gives opponent top position with momentum, requiring immediate guard establishment
 
@@ -227,11 +227,11 @@ The defender who masters duck under recognition can convert successful defenses 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 React early to the level change with a sprawl or whizzer to completely deny the duck under before the opponent clears your arm. Re-square your hips immediately and re-engage in clinch grip fighting. This preserves standing position and denies all back take attempts.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 When the duck under is nearly complete and standing back control is imminent, immediately sit to guard rather than giving up the full Standing Rear Clinch. While this concedes standing position, it prevents the high-danger back control and gives you open guard defensive options to work from.
 

@@ -146,7 +146,7 @@ description: "Defend against the Roll from Rodeo Ride in BJJ. Learn recognition 
 
 Defending against the Roll from Rodeo Ride requires the top player to maintain awareness of the bottom player's hip movement and weight distribution changes that telegraph rolling escape attempts. The primary defensive strategy involves maintaining heavy hip-to-back pressure that denies the rotational space needed to initiate the roll, combined with near-arm control that eliminates the posting capability essential for the technique. When prevention fails and the roll initiates, the defender faces a critical decision: sprawl to stop the rotation and recover Rodeo Ride control, or follow the roll to capitalize on the back exposure and advance to full back control with hooks. Skilled defenders transform the opponent's rolling attempt from a defensive escape into an offensive opportunity for positional advancement.
 
-**Opponent's Starting Position**: [[Rodeo Ride]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rodeo Ride]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending against the Roll from Rodeo Ride requires the top player to maintain a
 ### 1. Sprawl hips backward and drive chest weight downward onto opponent's upper back to kill rotational momentum
 
 - **When to use**: Immediately upon recognizing hip angle change or the first moment of explosive rotation initiation, before the roll builds momentum
-- **Targets**: [[Rodeo Ride]]
+- **Targets**: [[Positions/Rodeo Ride]]
 - **If successful**: Roll is stopped completely and you maintain or reestablish Rodeo Ride control with the opponent in defensive turtle
 - **Risk**: If the sprawl arrives too late after significant momentum has built, you may end up disconnected from the opponent with them mid-rotation
 
 ### 2. Follow the roll maintaining chest-to-back contact and immediately insert hooks as the opponent completes the rotation
 
 - **When to use**: When the roll has already initiated with significant momentum and cannot be stopped, or when you deliberately allow the roll to capitalize on the back exposure it creates
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You advance from Rodeo Ride to full back control with hooks and seat belt, the most dominant finishing position in grappling
 - **Risk**: If the opponent completes the rotation faster than you can follow, they may establish guard before you can insert hooks
 
 ### 3. Drive weight laterally and post wide with far leg to pin opponent's hip and block the rotation in its early phase
 
 - **When to use**: When the roll is in its early phase and you can identify the rotation direction quickly enough to apply lateral pressure against it
-- **Targets**: [[Rodeo Ride]]
+- **Targets**: [[Positions/Rodeo Ride]]
 - **If successful**: Roll is stopped with opponent partially rotated, creating opportunity to consolidate control or advance to a more secure position
 - **Risk**: Wide posting may temporarily create space on the opposite side that the opponent can use for an alternative escape direction
 
 ### 4. Switch to seat belt grip during the scramble to maintain upper body control even if riding position is lost
 
 - **When to use**: When the roll creates a chaotic scramble and you are losing Rodeo Ride positioning but still have chest-to-back contact with the opponent
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You maintain control through the seat belt and can work to insert hooks from the new body configuration after the scramble settles
 - **Risk**: If the seat belt is not secured deeply enough during the scramble, the opponent may strip it and complete guard recovery
 
@@ -217,11 +217,11 @@ Defending against the Roll from Rodeo Ride requires the top player to maintain a
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the bottom player initiates the roll, follow their rotational movement while maintaining chest-to-back connection. Use the space created by their rotation to insert the bottom hook first, then secure a seat belt grip before working the top hook. Their rolling escape actually opens the path to full back control if you can match their rotation speed with hook insertion timing.
 
-### → [[Rodeo Ride]]
+### → [[Positions/Rodeo Ride]]
 
 At the first sign of hip angle change or posting arm movement, immediately sprawl your hips backward and increase downward chest pressure on the opponent's upper back. Reestablish near-arm control that was loosened during their setup phase. Drive your weight through their shoulders to flatten their rotational angle and eliminate the hip space they need for the roll.
 

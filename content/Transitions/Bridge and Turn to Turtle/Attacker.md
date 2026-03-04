@@ -184,7 +184,7 @@ The mechanical foundation relies on an angled bridge that displaces the top play
 
 Advanced practitioners develop exceptional sensitivity to weight distribution changes, allowing them to identify micro-windows that less experienced grapplers miss entirely. The bridge itself need not be maximally powerful when the timing is precise; a moderate bridge during a genuine weight shift creates more displacement than an explosive bridge against settled weight.
 
-**From Position**: [[North-South]] (Bottom)
+**From Position**: [[Positions/North-South]] (Bottom)
 
 </section>
 
@@ -237,9 +237,9 @@ Advanced practitioners develop exceptional sensitivity to weight distribution ch
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[North-South]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/North-South]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ Advanced practitioners develop exceptional sensitivity to weight distribution ch
 
 ## Opponent Counters
 
-- **Opponent widens base and drops weight during bridge attempt** (Effectiveness: High) - Your Response: Abort the escape attempt and wait for a better timing window—forcing against settled weight wastes energy and exposes you to submissions. Return to frames and controlled breathing. → Leads to [[North-South]]
-- **Opponent follows your turn and immediately takes back control with hooks** (Effectiveness: High) - Your Response: Continue turning into them rather than settling in turtle—transition directly to seated guard or stand up before they can establish both hooks. A single hook is recoverable; allowing both is catastrophic. → Leads to [[Back Control]]
-- **Opponent sprawls and establishes front headlock during the turn** (Effectiveness: Medium) - Your Response: Circle toward their hips to prevent guillotine setup, tuck chin to protect neck, and work to clear their arm and continue the escape to guard or standing position. → Leads to [[North-South]]
-- **Opponent transitions to mount instead of following to turtle** (Effectiveness: Medium) - Your Response: Accept the mount position as an improvement over North-South since mount offers more structured escape options—immediately begin mount escape sequences with bridge and roll or elbow escape. → Leads to [[North-South]]
+- **Opponent widens base and drops weight during bridge attempt** (Effectiveness: High) - Your Response: Abort the escape attempt and wait for a better timing window—forcing against settled weight wastes energy and exposes you to submissions. Return to frames and controlled breathing. → Leads to [[Positions/North-South]]
+- **Opponent follows your turn and immediately takes back control with hooks** (Effectiveness: High) - Your Response: Continue turning into them rather than settling in turtle—transition directly to seated guard or stand up before they can establish both hooks. A single hook is recoverable; allowing both is catastrophic. → Leads to [[Positions/Back Control]]
+- **Opponent sprawls and establishes front headlock during the turn** (Effectiveness: Medium) - Your Response: Circle toward their hips to prevent guillotine setup, tuck chin to protect neck, and work to clear their arm and continue the escape to guard or standing position. → Leads to [[Positions/North-South]]
+- **Opponent transitions to mount instead of following to turtle** (Effectiveness: Medium) - Your Response: Accept the mount position as an improvement over North-South since mount offers more structured escape options—immediately begin mount escape sequences with bridge and roll or elbow escape. → Leads to [[Positions/North-South]]
 
 
 </section>

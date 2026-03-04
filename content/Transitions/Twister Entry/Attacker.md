@@ -184,7 +184,7 @@ Strategically, this entry represents a commitment point in the back attack seque
 
 The transition demands precise coordination between maintaining upper body pressure and executing lower body mechanics. Releasing too much chest pressure to thread the hook allows the opponent to turn in or recover guard, while insufficient hip drive prevents the hook from penetrating deep enough to establish the figure-four. Mastering this timing window is what separates practitioners who can reliably access the Twister system from those who lose position attempting it.
 
-**From Position**: [[Cross Body Ride]] (Top)
+**From Position**: [[Positions/Cross Body Ride]] (Top)
 
 </section>
 
@@ -237,9 +237,9 @@ The transition demands precise coordination between maintaining upper body press
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Twister Control]] | 55% |
-| Failure | [[Cross Body Ride]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Twister Control]] | 55% |
+| Failure | [[Positions/Cross Body Ride]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ The transition demands precise coordination between maintaining upper body press
 
 ## Opponent Counters
 
-- **Opponent clamps their knees together tightly to prevent the initial hook from threading between their thighs, creating a barrier to leg entry** (Effectiveness: High) - Your Response: Use your free hand to pry their top knee upward while driving your hook-side hip forward to force the gap. Alternatively, transition the threat to a back take or crucifix entry to force them to open their legs defensively, then re-enter. Cross-face pressure into their jaw can reflexively cause their hips to shift and create the opening. → Leads to [[Cross Body Ride]]
-- **Opponent sits through explosively toward your legs before the hook penetrates, turning to face you and recovering to half guard or closed guard** (Effectiveness: Medium) - Your Response: Follow their sit-through by driving your chest weight into them as they turn and immediately threatening the guillotine choke or front headlock from the new angle. If they complete the turn, you have the option to re-establish cross body ride by sprawling and circling to their back. Their sit-through momentum can also be redirected into a rolling back take. → Leads to [[Half Guard]]
-- **Opponent grabs their own far-side knee or ankle to prevent the figure-four from completing after the initial hook is threaded** (Effectiveness: Medium) - Your Response: Apply two-on-one grip breaking on their wrist while maintaining chest pressure. Peel their grip from their own leg using your hand closest to their grip. If the grip is unbreakable, use the single hook to threaten the banana split by splitting their legs apart, which forces them to release the defensive grip to address the new threat. → Leads to [[Cross Body Ride]]
-- **Opponent performs a granby roll as they feel the hook entering, using rotational momentum to clear the entanglement and recover guard** (Effectiveness: Medium) - Your Response: Ride the granby roll by maintaining chest contact and following their rotation with your body. During the roll, your hook often deepens naturally due to the rotational movement. Drive your weight into them as the roll completes to flatten them and secure the figure-four from the new angle. The granby actually accelerates your entry if you stay connected. → Leads to [[Half Guard]]
+- **Opponent clamps their knees together tightly to prevent the initial hook from threading between their thighs, creating a barrier to leg entry** (Effectiveness: High) - Your Response: Use your free hand to pry their top knee upward while driving your hook-side hip forward to force the gap. Alternatively, transition the threat to a back take or crucifix entry to force them to open their legs defensively, then re-enter. Cross-face pressure into their jaw can reflexively cause their hips to shift and create the opening. → Leads to [[Positions/Cross Body Ride]]
+- **Opponent sits through explosively toward your legs before the hook penetrates, turning to face you and recovering to half guard or closed guard** (Effectiveness: Medium) - Your Response: Follow their sit-through by driving your chest weight into them as they turn and immediately threatening the guillotine choke or front headlock from the new angle. If they complete the turn, you have the option to re-establish cross body ride by sprawling and circling to their back. Their sit-through momentum can also be redirected into a rolling back take. → Leads to [[Positions/Half Guard]]
+- **Opponent grabs their own far-side knee or ankle to prevent the figure-four from completing after the initial hook is threaded** (Effectiveness: Medium) - Your Response: Apply two-on-one grip breaking on their wrist while maintaining chest pressure. Peel their grip from their own leg using your hand closest to their grip. If the grip is unbreakable, use the single hook to threaten the banana split by splitting their legs apart, which forces them to release the defensive grip to address the new threat. → Leads to [[Positions/Cross Body Ride]]
+- **Opponent performs a granby roll as they feel the hook entering, using rotational momentum to clear the entanglement and recover guard** (Effectiveness: Medium) - Your Response: Ride the granby roll by maintaining chest contact and following their rotation with your body. During the roll, your hook often deepens naturally due to the rotational movement. Drive your weight into them as the roll completes to flatten them and secure the figure-four from the new angle. The granby actually accelerates your entry if you stay connected. → Leads to [[Positions/Half Guard]]
 
 
 </section>

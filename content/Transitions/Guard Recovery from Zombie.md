@@ -19,7 +19,7 @@ Guard Recovery from Zombie is a defensive transition where the bottom player ree
 
 The central challenge of this recovery is the control transfer problem: the lockdown is the Zombie's primary control mechanism, and releasing it eliminates your strongest defensive tool. The overhook or collar grip must serve as a bridge, maintaining continuous opponent connection while your legs transition from the high guard Zombie configuration down to standard hip-level closed guard. This brief window of vulnerability, typically lasting one to two seconds, determines whether the recovery succeeds or the top player capitalizes on the gap to advance position. Practitioners who master the coordination between upper body anchoring and lower body repositioning can convert deteriorating Zombie positions into stable, offensive closed guards with high reliability.
 
-**From Position**: [[Zombie]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Zombie]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -30,9 +30,9 @@ The central challenge of this recovery is the control transfer problem: the lock
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Failure | [[Zombie]] | 30% |
-| Counter | [[Open Guard]] | 25% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Failure | [[Positions/Rubber Guard/Zombie]] | 30% |
+| Counter | [[Positions/Open Guard]] | 25% |
 
 
 </section>
@@ -187,23 +187,23 @@ Guard Recovery from Zombie occupies a critical defensive role within the 10th Pl
 ## Related Techniques
 
 
-- [[Zombie]] - Source position - the Zombie lockdown configuration from which this guard recovery initiates
+- [[Positions/Rubber Guard/Zombie]] - Source position - the Zombie lockdown configuration from which this guard recovery initiates
 
-- [[Closed Guard]] - Primary recovery target - stable closed guard providing fundamental offensive and defensive options
+- [[Positions/Closed Guard]] - Primary recovery target - stable closed guard providing fundamental offensive and defensive options
 
-- [[Open Guard]] - Counter outcome position when top player creates distance during the lockdown release transition
+- [[Positions/Open Guard]] - Counter outcome position when top player creates distance during the lockdown release transition
 
-- [[Rubber Guard]] - Parent guard system - Zombie is part of the rubber guard family and recovery may transition through other rubber guard positions
+- [[Positions/Rubber Guard]] - Parent guard system - Zombie is part of the rubber guard family and recovery may transition through other rubber guard positions
 
-- [[Mission Control]] - Alternative rubber guard position to recover to when full lockdown release is risky but guard restructuring is needed
+- [[Positions/Rubber Guard/Mission Control]] - Alternative rubber guard position to recover to when full lockdown release is risky but guard restructuring is needed
 
-- [[Half Guard]] - Alternative recovery position when full closed guard closure is not achievable during the transition
+- [[Positions/Half Guard]] - Alternative recovery position when full closed guard closure is not achievable during the transition
 
-- [[Lockdown]] - Related lockdown-based guard that shares leg entanglement mechanics with the Zombie position
+- [[Positions/Half Guard/Lockdown]] - Related lockdown-based guard that shares leg entanglement mechanics with the Zombie position
 
-- [[Butterfly Guard]] - Alternative guard recovery option using butterfly hooks after releasing the Zombie lockdown entanglement
+- [[Positions/Butterfly Guard]] - Alternative guard recovery option using butterfly hooks after releasing the Zombie lockdown entanglement
 
-- [[Guard Recovery from Combat Base]] - Related guard recovery technique that may follow if the opponent establishes combat base during the transition
+- [[Transitions/Guard Recovery from Combat Base]] - Related guard recovery technique that may follow if the opponent establishes combat base during the transition
 
 
 </section>

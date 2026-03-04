@@ -21,7 +21,7 @@ Understanding the biomechanics of rolling forward while maintaining control of y
 
 The forward roll also builds body awareness and coordination that translates to other advanced movements in BJJ, including berimbolo entries, rolling back takes, and inverted guard play. At the highest levels, the forward roll becomes a tool for offensive guard transitions rather than purely defensive escape, allowing practitioners to flow between positions with minimal energy expenditure.
 
-**From Position**: [[Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ The forward roll also builds body awareness and coordination that translates to 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Seated Guard]] | 70% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Side Control]] | 10% |
+| Success | [[Positions/Seated Guard]] | 70% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -196,25 +196,25 @@ The Forward Roll is a fundamental component of the turtle escape system in BJJ, 
 ## Related Techniques
 
 
-- [[Granby Roll to Guard]] - Alternative rolling escape that moves laterally rather than forward
+- [[Transitions/Granby Roll to Guard]] - Alternative rolling escape that moves laterally rather than forward
 
-- [[Granby to Closed Guard]] - Similar guard recovery technique with different rolling direction
+- [[Transitions/Granby to Closed Guard]] - Similar guard recovery technique with different rolling direction
 
-- [[Hip Escape to Guard]] - Complementary escape movement used in similar defensive situations
+- [[Transitions/Hip Escape to Guard]] - Complementary escape movement used in similar defensive situations
 
-- [[Inverted Guard]] - Advanced position that can be accessed via forward rolling motion
+- [[Positions/Inverted Guard]] - Advanced position that can be accessed via forward rolling motion
 
-- [[Berimbolo Entry]] - Advanced rolling technique that builds on forward roll mechanics
+- [[Transitions/Berimbolo Entry]] - Advanced rolling technique that builds on forward roll mechanics
 
-- [[Peterson Roll]] - Related rolling escape from turtle using similar momentum principles
+- [[Transitions/Peterson Roll]] - Related rolling escape from turtle using similar momentum principles
 
-- [[Inversion to Turtle]] - Complementary movement pattern connecting inversion and turtle escapes
+- [[Transitions/Inversion to Turtle]] - Complementary movement pattern connecting inversion and turtle escapes
 
-- [[Guard Recovery]] - Primary objective when executing forward roll from bottom
+- [[Principles/Guard Recovery]] - Primary objective when executing forward roll from bottom
 
-- [[Defensive Roll]] - Related defensive rolling movement from turtle position
+- [[Transitions/Defensive Roll]] - Related defensive rolling movement from turtle position
 
-- [[Forward Roll]] - Self-reference for the forward roll transition technique
+- [[Transitions/Forward Roll]] - Self-reference for the forward roll transition technique
 
 
 </section>

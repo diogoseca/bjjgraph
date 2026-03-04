@@ -21,7 +21,7 @@ The mechanics of this transition rely on creating sufficient space through bridg
 
 This transition occupies a key strategic role in the escape hierarchy. When traditional hip escape and guard recovery pathways are blocked by tight crossface pressure or aggressive hip control, the turtle turn uses fundamentally different rotational mechanics to create a new escape vector. Advanced practitioners use this as part of a layered escape system, threatening guard recovery to draw reactions that open the turtle turn, and vice versa. The turtle turn is not an endpoint but a waypoint, and its value depends entirely on the practitioner's ability to immediately chain into subsequent escape sequences from the turtle position.
 
-**From Position**: [[Side Control]] (Bottom)
+**From Position**: [[Positions/Side Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition occupies a key strategic role in the escape hierarchy. When trad
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Side Control]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Side Control]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -191,23 +191,23 @@ The turtle turn from side control bottom occupies a critical position in the BJJ
 ## Related Techniques
 
 
-- [[Side Control]] - Source position where this escape technique begins from the bottom perspective
+- [[Positions/Side Control]] - Source position where this escape technique begins from the bottom perspective
 
-- [[Turtle]] - Target position reached upon successful execution of the turning escape
+- [[Positions/Turtle]] - Target position reached upon successful execution of the turning escape
 
-- [[Back Control]] - Risk position if opponent follows the turn and establishes hooks during rotation
+- [[Positions/Back Control]] - Risk position if opponent follows the turn and establishes hooks during rotation
 
-- [[Ghost Escape from Side Control]] - Alternative escape technique using opposite sliding direction rather than turning
+- [[Transitions/Ghost Escape from Side Control]] - Alternative escape technique using opposite sliding direction rather than turning
 
-- [[Sit Out from Side Control]] - Alternative escape technique with similar turning mechanics and body rotation
+- [[Transitions/Sit Out from Side Control]] - Alternative escape technique with similar turning mechanics and body rotation
 
-- [[Sit Out from Turtle]] - Common follow-up technique after reaching turtle to continue the escape sequence
+- [[Transitions/Sit Out from Turtle]] - Common follow-up technique after reaching turtle to continue the escape sequence
 
-- [[Half Guard]] - Alternative escape target accessible through hip escape rather than turning to turtle
+- [[Positions/Half Guard]] - Alternative escape target accessible through hip escape rather than turning to turtle
 
-- [[Escape Side Control Consolidation]] - Related escape sequence from tighter side control variant with similar principles
+- [[Transitions/Escape Side Control Consolidation]] - Related escape sequence from tighter side control variant with similar principles
 
-- [[Hip Escape from Side Control Consolidation]] - Alternative hip-escape-based method from consolidated side control position
+- [[Transitions/Hip Escape from Side Control Consolidation]] - Alternative hip-escape-based method from consolidated side control position
 
 
 </section>

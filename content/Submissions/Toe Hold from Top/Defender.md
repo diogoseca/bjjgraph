@@ -198,28 +198,28 @@ The most critical defensive principle is knowing when to tap. Because the toe ho
 ### 1. Grip your own foot with both hands to prevent figure-four establishment
 
 - **When to use**: Immediately upon recognizing the attacker reaching for your foot, before they establish the figure-four grip - this is the highest percentage defensive window
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Attacker cannot establish the submission grip and must either continue grip fighting (wasting time and energy) or abandon the toe hold for a different attack, returning to neutral leg entanglement
 - **Risk**: Both hands committed to foot defense leaves you vulnerable to positional advancement - attacker may transition to heel hook, kneebar, or improve their leg entanglement while your hands are occupied
 
 ### 2. Post free leg on attacker's hip or shoulder and drive to create distance
 
 - **When to use**: When attacker begins closing hip-to-hip distance or after their figure-four is partially established but before full rotational pressure begins
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Creates sufficient space to extract your trapped leg from the entanglement entirely, resetting to open guard or standing position where the submission threat is neutralized
 - **Risk**: If your pushing leg is caught or controlled, attacker may triangle their legs tighter and your escape avenue is eliminated - commit fully to the push or don't attempt it
 
 ### 3. Roll toward the toe hold direction to relieve rotational pressure and scramble
 
 - **When to use**: When figure-four is established and rotational pressure has begun but is still in early stages - this is a last-resort defense when grip fighting and distance creation have failed
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Rolling relieves the rotational pressure on your ankle and MCL, potentially breaking the attacker's hip connection and creating a scramble opportunity where you can extract your leg
 - **Risk**: Experienced attackers will follow your roll and maintain the grip, potentially increasing pressure as your rolling momentum adds to their rotational force - only effective if you can fully clear the entanglement during the roll
 
 ### 4. Sit up and attack attacker's upper body to force grip release
 
 - **When to use**: When attacker has poor postural control with their head and shoulders low, creating opportunity to reach their collar, neck, or head for guillotine or collar tie threats
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Upper body threat forces attacker to release figure-four grip to defend, neutralizing the toe hold and potentially creating positional reversal or scramble opportunity
 - **Risk**: Low percentage against attacker with good posture - if they maintain elevated head and shoulders, you cannot reach their upper body and have wasted energy while the submission remains locked
 
@@ -243,11 +243,11 @@ The most critical defensive principle is knowing when to tap. Because the toe ho
 
 ## Best-Case Outcomes for Defender
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Successfully strip the figure-four grip through hand fighting and maintain your leg in the entanglement but without submission threat, returning to neutral leg entanglement position where you can work your own offensive or defensive game plan
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Create sufficient distance through free leg posting and hip escape to fully extract your trapped leg from the attacker's entanglement, resetting to open guard where the immediate toe hold threat is completely eliminated
 

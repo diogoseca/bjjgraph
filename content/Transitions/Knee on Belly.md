@@ -21,7 +21,7 @@ The position's effectiveness stems from the concentrated pressure of your entire
 
 From a strategic perspective, Knee on Belly functions as a pressure multiplier that accelerates the pace of the match. The discomfort forces the bottom player to react rather than methodically defend, creating predictable movement patterns you can exploit. Common defensive reactions - pushing the knee, turning away, bridging - each open specific submission or positional advancement opportunities. Understanding this action-reaction dynamic transforms Knee on Belly from a static scoring position into an active hunting ground for finishing the match.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 68%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic perspective, Knee on Belly functions as a pressure multiplier t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Knee on Belly]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Knee on Belly]] | 60% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -187,25 +187,25 @@ Knee on Belly serves as a critical transitional hub in the top game, connecting 
 ## Related Techniques
 
 
-- [[Side Control]] - Primary starting position for the Knee on Belly transition
+- [[Positions/Side Control]] - Primary starting position for the Knee on Belly transition
 
-- [[Mount]] - Common follow-up position when opponent creates space escaping Knee on Belly
+- [[Positions/Mount]] - Common follow-up position when opponent creates space escaping Knee on Belly
 
-- [[Back Control]] - Available when opponent turns away to escape the pressure
+- [[Positions/Back Control]] - Available when opponent turns away to escape the pressure
 
-- [[Armbar from Side Control]] - Submission option when opponent pushes the knee with extended arms
+- [[Submissions/Armbar from Side Control]] - Submission option when opponent pushes the knee with extended arms
 
-- [[Baseball Bat Choke]] - Choke attack available when opponent turns to escape
+- [[Transitions/Baseball Bat Choke]] - Choke attack available when opponent turns to escape
 
-- [[North-South]] - Alternative transition when standard Knee on Belly is defended
+- [[Positions/North-South]] - Alternative transition when standard Knee on Belly is defended
 
-- [[Knee Slice from Half]] - Guard pass that can flow directly into Knee on Belly position
+- [[Transitions/Knee Slice from Half]] - Guard pass that can flow directly into Knee on Belly position
 
-- [[Kesa Gatame]] - Alternative control position when Knee on Belly cannot be maintained
+- [[Positions/Side Control/Kesa Gatame]] - Alternative control position when Knee on Belly cannot be maintained
 
-- [[Knee on Belly]] - Target position (Knee on Belly Top) established upon successful transition
+- [[Positions/Knee on Belly]] - Target position (Knee on Belly Top) established upon successful transition
 
-- [[Half Guard]] - Position opponent may recover if counter is successful during transition
+- [[Positions/Half Guard]] - Position opponent may recover if counter is successful during transition
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Learn to execute the inversion from reverse half guard. Step-by-st
 
 As the bottom player in reverse half guard, the inversion is your primary rotational escape when standard recovery paths are blocked. You convert the compromised reverse orientation into an advantage by rolling through an inverted position rather than fighting back to a face-to-face configuration. The technique requires explosive commitment, precise timing aligned with your opponent's weight distribution, and immediate guard establishment upon completing the rotation. Mastering this technique gives you a reliable bail-out option from one of the more dangerous half guard positions, ensuring you always have a path back to your open guard game regardless of how effectively the top player shuts down conventional escapes.
 
-**From Position**: [[Reverse Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Reverse Half Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player in reverse half guard, the inversion is your primary rotati
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 45% |
-| Failure | [[Reverse Half Guard]] | 30% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Open Guard]] | 45% |
+| Failure | [[Positions/Half Guard/Reverse Half Guard]] | 30% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the bottom player in reverse half guard, the inversion is your primary rotati
 
 ## Opponent Counters
 
-- **Opponent drives heavy crossface pressure to flatten and pin shoulders, preventing any rotational movement** (Effectiveness: High) - Your Response: Address the crossface before attempting the inversion—frame against their shoulder to create space, or abandon the inversion and switch to a different escape like turning to face them through elbow escape mechanics → Leads to [[Reverse Half Guard]]
-- **Opponent circles toward exposed back during the rotation, inserting hooks before the inversion completes** (Effectiveness: High) - Your Response: Accelerate through the rotation rather than pausing—commit fully and extend legs immediately upon completing the roll to create distance and prevent hook insertion before they establish control → Leads to [[Back Control]]
-- **Opponent sprawls hips back and drives weight down to crush the rotation attempt before it develops** (Effectiveness: Medium) - Your Response: Use their sprawl as the trigger for a different attack—their backward weight shift opens the door for an old school sweep or underhook recovery since their base is momentarily compromised → Leads to [[Reverse Half Guard]]
-- **Opponent controls near-side arm to prevent the posting frame that initiates the rotation** (Effectiveness: Medium) - Your Response: Switch to a leg-driven rotation using hip power alone, or use the arm entanglement to set up a kimura grip that creates a different sweep angle while their base is compromised by the arm control → Leads to [[Reverse Half Guard]]
+- **Opponent drives heavy crossface pressure to flatten and pin shoulders, preventing any rotational movement** (Effectiveness: High) - Your Response: Address the crossface before attempting the inversion—frame against their shoulder to create space, or abandon the inversion and switch to a different escape like turning to face them through elbow escape mechanics → Leads to [[Positions/Half Guard/Reverse Half Guard]]
+- **Opponent circles toward exposed back during the rotation, inserting hooks before the inversion completes** (Effectiveness: High) - Your Response: Accelerate through the rotation rather than pausing—commit fully and extend legs immediately upon completing the roll to create distance and prevent hook insertion before they establish control → Leads to [[Positions/Back Control]]
+- **Opponent sprawls hips back and drives weight down to crush the rotation attempt before it develops** (Effectiveness: Medium) - Your Response: Use their sprawl as the trigger for a different attack—their backward weight shift opens the door for an old school sweep or underhook recovery since their base is momentarily compromised → Leads to [[Positions/Half Guard/Reverse Half Guard]]
+- **Opponent controls near-side arm to prevent the posting frame that initiates the rotation** (Effectiveness: Medium) - Your Response: Switch to a leg-driven rotation using hip power alone, or use the arm entanglement to set up a kimura grip that creates a different sweep angle while their base is compromised by the arm control → Leads to [[Positions/Half Guard/Reverse Half Guard]]
 
 
 </section>

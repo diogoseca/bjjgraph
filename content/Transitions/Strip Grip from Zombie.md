@@ -21,7 +21,7 @@ The technique involves methodical breaking of connection points rather than expl
 
 Strip Grip from Zombie represents a critical utility technique in the passing toolkit against 10th Planet practitioners. While not flashy, mastering this grip-stripping sequence is the gateway to applying standard passing strategies against an otherwise highly resilient defensive structure. The technique emphasizes patience and positional control over athletic ability, rewarding practitioners who develop sensitivity to grip tension and the discipline to follow a systematic sequence rather than forcing through the position.
 
-**From Position**: [[Zombie]] (Top)
+**From Position**: [[Positions/Rubber Guard/Zombie]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strip Grip from Zombie represents a critical utility technique in the passing to
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Zombie]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Rubber Guard/Zombie]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,21 +189,21 @@ The Strip Grip from Zombie is a critical utility technique within the passing to
 ## Related Techniques
 
 
-- [[Zombie]] - Source position — the lockdown-based defensive structure being systematically dismantled
+- [[Positions/Rubber Guard/Zombie]] - Source position — the lockdown-based defensive structure being systematically dismantled
 
-- [[Open Guard]] - Target position — result of successful grip stripping, enabling standard passing sequences
+- [[Positions/Open Guard]] - Target position — result of successful grip stripping, enabling standard passing sequences
 
-- [[Lockdown]] - Key mechanic — primary leg entanglement being neutralized in this technique
+- [[Positions/Half Guard/Lockdown]] - Key mechanic — primary leg entanglement being neutralized in this technique
 
-- [[Half Guard]] - Related position family — Zombie is a specialized half guard variant with lockdown
+- [[Positions/Half Guard]] - Related position family — Zombie is a specialized half guard variant with lockdown
 
-- [[Old School]] - Primary sweep threat the bottom player may attempt during grip fighting transitions
+- [[Positions/Half Guard/Old School]] - Primary sweep threat the bottom player may attempt during grip fighting transitions
 
-- [[Electric Chair]] - Submission threat from bottom that top player must monitor during grip exchange
+- [[Positions/Half Guard/Electric Chair]] - Submission threat from bottom that top player must monitor during grip exchange
 
-- [[Deep Half Guard]] - Alternative guard recovery the bottom player may transition to when Zombie structure fails
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative guard recovery the bottom player may transition to when Zombie structure fails
 
-- [[Lockdown Whizzer Pass]] - Related passing technique that uses whizzer mechanics to defeat lockdown control
+- [[Transitions/Lockdown Whizzer Pass]] - Related passing technique that uses whizzer mechanics to defeat lockdown control
 
 
 </section>

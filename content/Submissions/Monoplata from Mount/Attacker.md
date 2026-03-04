@@ -176,7 +176,7 @@ description: "How to execute Monoplata from Mount in BJJ. Attacking perspective 
 
 The Monoplata from Mount is an advanced shoulder lock submission that combines elements of the traditional omoplata with mounted control. This technique targets the opponent's shoulder joint and rotator cuff by isolating one arm and applying rotational pressure through a leg-based figure-four configuration. From the mount position, the attacker transitions to isolate the opponent's arm, threads their leg through to create the lock, and applies controlled pressure to force the tap. The monoplata is particularly effective against opponents who defend by framing with their arms or attempting to create distance from mount. Unlike the traditional omoplata which is executed from guard positions, the monoplata from mount provides superior control and eliminates many common escape routes. The technique requires excellent hip mobility, precise timing, and thorough understanding of shoulder mechanics to execute safely. When performed correctly, the monoplata creates an inescapable position where the opponent must tap or risk serious shoulder injury. This submission has gained popularity in modern no-gi grappling due to its effectiveness against athletic opponents who maintain strong defensive frames from bottom mount.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 
 
 </section>
@@ -232,8 +232,8 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -242,11 +242,11 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 
 ## Opponent Defenses
 
-- **Grabbing your threading leg with their free hand to prevent the figure-four** (Effectiveness: High) - Your Response: Control their far arm proactively before threading your leg. If they grab your leg, use your free hand to strip their grip by prying their fingers or controlling their wrist. You can also switch to an armbar on the grabbing arm if the opportunity presents. → Leads to [[Mount]]
-- **Bridging explosively to disrupt your balance during leg threading** (Effectiveness: Medium) - Your Response: Keep your weight distributed and post your hand for base during the transition. If they bridge, ride the movement and wait for them to come back down before continuing. Alternatively, transition to traditional mount attacks like armbar or triangle if they create space. → Leads to [[Mount]]
-- **Tucking their trapped arm close to their body to prevent isolation** (Effectiveness: High) - Your Response: Use framing pressure and chest weight to extend their arm before attempting the monoplata. Create reactions by threatening other attacks (cross collar choke, armbar setup) that force them to extend the arm defensively. Be patient and don't force the position if the arm isn't properly isolated. → Leads to [[Mount]]
+- **Grabbing your threading leg with their free hand to prevent the figure-four** (Effectiveness: High) - Your Response: Control their far arm proactively before threading your leg. If they grab your leg, use your free hand to strip their grip by prying their fingers or controlling their wrist. You can also switch to an armbar on the grabbing arm if the opportunity presents. → Leads to [[Positions/Mount]]
+- **Bridging explosively to disrupt your balance during leg threading** (Effectiveness: Medium) - Your Response: Keep your weight distributed and post your hand for base during the transition. If they bridge, ride the movement and wait for them to come back down before continuing. Alternatively, transition to traditional mount attacks like armbar or triangle if they create space. → Leads to [[Positions/Mount]]
+- **Tucking their trapped arm close to their body to prevent isolation** (Effectiveness: High) - Your Response: Use framing pressure and chest weight to extend their arm before attempting the monoplata. Create reactions by threatening other attacks (cross collar choke, armbar setup) that force them to extend the arm defensively. Be patient and don't force the position if the arm isn't properly isolated. → Leads to [[Positions/Mount]]
 - **Rolling to their side toward the trapped arm** (Effectiveness: Low) - Your Response: This actually helps complete the submission as it loads more pressure on their shoulder. Follow their roll and maintain the figure-four lock. Adjust your hip position to stay perpendicular to their body. The roll eliminates their bridge escape and typically forces the tap faster. → Leads to [[game-over]]
-- **Straightening their arm aggressively to create space** (Effectiveness: Medium) - Your Response: If they fully extend their arm, this can actually disrupt your control. Counter by switching your grip to their wrist or elbow to maintain connection. You can also transition to a straight armbar if they create enough extension. Keep your legs ready to lock as soon as they stop extending. → Leads to [[Closed Guard]]
+- **Straightening their arm aggressively to create space** (Effectiveness: Medium) - Your Response: If they fully extend their arm, this can actually disrupt your control. Counter by switching your grip to their wrist or elbow to maintain connection. You can also transition to a straight armbar if they create enough extension. Keep your legs ready to lock as soon as they stop extending. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

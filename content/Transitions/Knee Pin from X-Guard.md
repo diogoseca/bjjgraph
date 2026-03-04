@@ -21,7 +21,7 @@ Strategically, the Knee Pin addresses situations where the bottom player's insid
 
 The knee pin also serves as a valuable setup tool within X-Guard passing chains. Even when the pin itself does not complete the pass, the bottom player's defensive reactions create openings for follow-up techniques. If they focus on recovering the inside hook, their outside leg frame weakens and grip connections loosen. If they abandon the hook and attempt to transition to Single Leg X-Guard or Butterfly Guard, the top player can capitalize on the structural disruption with secondary passing techniques. This dilemma-based approach makes the knee pin a strategically important tool even beyond its direct passing application.
 
-**From Position**: [[X-Guard]] (Top)
+**From Position**: [[Positions/X-Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The knee pin also serves as a valuable setup tool within X-Guard passing chains.
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[X-Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/X-Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Knee Pin from X-Guard integrates into the broader X-Guard passing system as 
 ## Related Techniques
 
 
-- [[X-Guard]] - Source position where the technique initiates from the top player's perspective
+- [[Positions/X-Guard]] - Source position where the technique initiates from the top player's perspective
 
-- [[Half Guard]] - Primary destination position after successful knee pin and leg extraction
+- [[Positions/Half Guard]] - Primary destination position after successful knee pin and leg extraction
 
-- [[Single Leg X-Guard]] - Common defensive transition by the bottom player when inside hook is compromised
+- [[Positions/X-Guard/Single Leg X-Guard]] - Common defensive transition by the bottom player when inside hook is compromised
 
-- [[Knee Slice Pass]] - Higher-percentage alternative pass and natural follow-up after knee pin disrupts guard structure
+- [[Transitions/Knee Slice Pass]] - Higher-percentage alternative pass and natural follow-up after knee pin disrupts guard structure
 
-- [[Smash Pass]] - Complementary pressure-based passing technique that chains well from a partially collapsed X-Guard
+- [[Transitions/Smash Pass]] - Complementary pressure-based passing technique that chains well from a partially collapsed X-Guard
 
-- [[X-Guard Sweep]] - Primary offensive threat from the bottom player that must be defended during the pin attempt
+- [[Transitions/X-Guard Sweep]] - Primary offensive threat from the bottom player that must be defended during the pin attempt
 
-- [[Headquarters Position]] - Intermediate control position accessible during the passing sequence after hooks are cleared
+- [[Positions/Headquarters Position]] - Intermediate control position accessible during the passing sequence after hooks are cleared
 
-- [[Butterfly Guard]] - Fallback guard position the bottom player may recover if the pin fails and hooks are released
+- [[Positions/Butterfly Guard]] - Fallback guard position the bottom player may recover if the pin fails and hooks are released
 
-- [[Long Step Pass]] - Movement-based passing alternative that can follow a partially successful knee pin
+- [[Transitions/Long Step Pass]] - Movement-based passing alternative that can follow a partially successful knee pin
 
-- [[Back Step Pass]] - Alternative passing technique accessible when the knee pin creates favorable angles
+- [[Transitions/Back Step Pass]] - Alternative passing technique accessible when the knee pin creates favorable angles
 
 
 </section>

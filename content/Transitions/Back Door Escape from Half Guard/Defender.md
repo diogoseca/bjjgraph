@@ -140,7 +140,7 @@ description: "Learn to defend against the Back Door Escape from Half Guard as th
 
 As the half guard top player, your primary defense against the back door escape centers on maintaining heavy crossface pressure and recognizing the early warning signs of the escape attempt. The defender has two strategic paths: prevent the escape entirely through pressure maintenance and weight distribution, or allow the escape to begin and capitalize by taking the back as the opponent exposes it during the turn. Both approaches require understanding the escape mechanics and precise timing. The most effective defense combines constant forward pressure with awareness of hip movement changes that signal the escape initiation, allowing you to either shut down the attempt before it develops or follow the turn to establish dominant back control with seatbelt and hooks.
 
-**Opponent's Starting Position**: [[Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -178,21 +178,21 @@ As the half guard top player, your primary defense against the back door escape 
 ### 1. Drive heavy crossface forward and sprawl hips to pin opponent flat, eliminating turning space
 
 - **When to use**: Early recognition phase when opponent first begins shifting hips away but before the turn has started and legs are still entangled
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent remains flattened in half guard bottom with reduced escape options and must reset their escape attempt entirely
 - **Risk**: If mistimed or opponent has already generated turning momentum, the forward pressure drive may actually accelerate their turn by providing something to push against
 
 ### 2. Follow the turn with chest glued to opponent's back, establishing seatbelt control and inserting hooks as they rotate
 
 - **When to use**: When the escape turn is already underway and it is too late to stuff the hip movement - opponent's shoulders have begun rotating
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Achieve full back control with seatbelt harness and hooks as opponent completes their turn, converting their escape into your dominant position
 - **Risk**: If opponent's turn is explosively fast and they immediately chain into turtle defense, you may arrive at turtle top without secure seatbelt or hooks
 
 ### 3. Control near hip with hand while maintaining crossface to anchor opponent in place and deny rotational freedom
 
 - **When to use**: When you feel the initial hip escape but opponent has not yet committed to the full turn, providing an opportunity to kill the movement early
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent's escape attempt is neutralized at the setup phase and they remain in half guard bottom having expended energy on the failed attempt
 - **Risk**: Reaching for hip control may slightly reduce crossface pressure, potentially giving opponent enough space to accelerate through the turn if your timing is late
 
@@ -204,11 +204,11 @@ As the half guard top player, your primary defense against the back door escape 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Follow the opponent's turning motion with your chest glued to their back, establishing seatbelt control with the choking arm over their shoulder before they complete the turn to turtle. Insert the near-side hook first as their hips rotate, then secure the second hook once they settle. Stay connected throughout their movement rather than reaching or creating space between your chest and their back.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Recognize the escape attempt in its earliest phase when the opponent begins hip escaping away from you. Immediately drive heavy crossface pressure forward while controlling their near hip with your free hand. This eliminates the turning space and forces them back to fighting for conventional half guard escapes. Maintain your weight low and spread through your chest to create an immovable base that denies the hip escape that initiates the entire sequence.
 

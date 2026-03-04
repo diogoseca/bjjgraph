@@ -93,23 +93,23 @@ From the bottom perspective, Side Control Consolidation Bottom represents one of
 ### Available Transitions
 
 
-- **[[Frame and Shrimp to Guard]]** (41% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (41% of attempts)
 
-- **[[Elbow Escape to Guard]]** (19% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (19% of attempts)
 
-- **[[Granby Roll to Guard]]** (12% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Bridge and Roll]]** (10% of attempts)
+- **[[Transitions/Bridge and Roll]]** (10% of attempts)
 
-- **[[Technical Stand-up]]** (9% of attempts)
+- **[[Transitions/Technical Stand-up]]** (9% of attempts)
 
-- **[[Angle Change Escape]]** (5% of attempts)
+- **[[Transitions/Angle Change Escape]]** (5% of attempts)
 
-- **[[Escape Side Control Consolidation]]** (2% of attempts)
+- **[[Transitions/Escape Side Control Consolidation]]** (2% of attempts)
 
-- **[[Frame from Side Control Consolidation]]** (1% of attempts)
+- **[[Transitions/Frame from Side Control Consolidation]]** (1% of attempts)
 
-- **[[Hip Escape from Side Control Consolidation]]** (1% of attempts)
+- **[[Transitions/Hip Escape from Side Control Consolidation]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -174,27 +174,27 @@ From the bottom perspective, Side Control Consolidation Bottom represents one of
 ### Available Transitions
 
 
-- **[[Side Control to Mount]]** (31% of attempts)
+- **[[Transitions/Side Control to Mount]]** (31% of attempts)
 
-- **[[Side Control to North-South]]** (10% of attempts)
+- **[[Transitions/Side Control to North-South]]** (10% of attempts)
 
-- **[[Knee on Belly]]** (14% of attempts)
+- **[[Positions/Knee on Belly]]** (14% of attempts)
 
-- **[[Kimura]]** (9% of attempts)
+- **[[Transitions/Kimura]]** (9% of attempts)
 
-- **[[Americana]]** (8% of attempts)
+- **[[Transitions/Americana]]** (8% of attempts)
 
-- **[[Arm Triangle]]** (8% of attempts)
+- **[[Transitions/Arm Triangle]]** (8% of attempts)
 
-- **[[Armbar Finish]]** (7% of attempts)
+- **[[Transitions/Armbar Finish]]** (7% of attempts)
 
-- **[[North-South Choke]]** (6% of attempts)
+- **[[Transitions/North-South Choke]]** (6% of attempts)
 
-- **[[Consolidation to Knee on Belly]]** (3% of attempts)
+- **[[Transitions/Consolidation to Knee on Belly]]** (3% of attempts)
 
-- **[[Consolidation to Mount]]** (2% of attempts)
+- **[[Transitions/Consolidation to Mount]]** (2% of attempts)
 
-- **[[Ezekiel from Side Control Consolidation]]** (2% of attempts)
+- **[[Submissions/Ezekiel from Side Control Consolidation]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -237,23 +237,23 @@ From the bottom perspective, Side Control Consolidation Bottom represents one of
 ## Related Positions
 
 
-- **[[Side Control]]** - Parent position being consolidated
+- **[[Positions/Side Control]]** - Parent position being consolidated
 
-- **[[Mount]]** - Primary advancement target from consolidated position
+- **[[Positions/Mount]]** - Primary advancement target from consolidated position
 
-- **[[North-South]]** - Alternative control position when opponent turns in
+- **[[Positions/North-South]]** - Alternative control position when opponent turns in
 
-- **[[Knee on Belly]]** - Dynamic advancement option from consolidation
+- **[[Positions/Knee on Belly]]** - Dynamic advancement option from consolidation
 
-- **[[Kesa Gatame]]** - Alternative side control variation with different control points
+- **[[Positions/Side Control/Kesa Gatame]]** - Alternative side control variation with different control points
 
-- **[[Modified Scarf Hold]]** - Related control position with head control emphasis
+- **[[Positions/Side Control/Modified Scarf Hold]]** - Related control position with head control emphasis
 
-- **[[Half Guard]]** - Common escape destination for bottom player
+- **[[Positions/Half Guard]]** - Common escape destination for bottom player
 
-- **[[Turtle]]** - Alternative escape route through granby roll
+- **[[Positions/Turtle]]** - Alternative escape route through granby roll
 
-- **[[Kimura Trap]]** - Submission control accessible from consolidation
+- **[[Positions/Kimura Trap]]** - Submission control accessible from consolidation
 
 
 </section>

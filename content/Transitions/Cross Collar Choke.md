@@ -21,7 +21,7 @@ Strategically, the Cross Collar Choke serves as a primary finishing option from 
 
 The choke's effectiveness stems from its direct attack on blood flow rather than airway compression. The crossed grips on the collar create a scissoring action that closes both carotid arteries simultaneously, causing rapid loss of consciousness if the opponent fails to defend or tap. This mechanism makes the technique extremely efficient against resisting opponents who cannot simply power through the submission.
 
-**From Position**: [[High Mount]] (Top)
+**From Position**: [[Positions/Mount/High Mount]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -33,8 +33,8 @@ The choke's effectiveness stems from its direct attack on blood flow rather than
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[High Mount]] | 30% |
-| Counter | [[Closed Guard]] | 12% |
+| Failure | [[Positions/Mount/High Mount]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 12% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Cross Collar Choke is a cornerstone of the high mount submission system, rep
 ## Related Techniques
 
 
-- [[High Mount]] - Starting position providing elevated control platform for collar access
+- [[Positions/Mount/High Mount]] - Starting position providing elevated control platform for collar access
 
-- [[Armbar from Mount]] - Chain attack when opponent defends collar with extended arms
+- [[Submissions/Armbar from Mount]] - Chain attack when opponent defends collar with extended arms
 
-- [[Ezekiel from Mount]] - Alternative attack when opponent tucks chin to defend collar access
+- [[Submissions/Ezekiel from Mount]] - Alternative attack when opponent tucks chin to defend collar access
 
-- [[Americana from Mount]] - Alternative attack when opponent keeps arms bent and tight to body
+- [[Submissions/Americana from Mount]] - Alternative attack when opponent keeps arms bent and tight to body
 
-- [[S Mount]] - Positional advancement option if choke fails and opponent turns to side
+- [[Positions/Mount/S Mount]] - Positional advancement option if choke fails and opponent turns to side
 
-- [[Mount]] - Parent position from which high mount is established through knee walking
+- [[Positions/Mount]] - Parent position from which high mount is established through knee walking
 
-- [[Technical Mount]] - Alternative mount variation for continued attacks after failed choke
+- [[Positions/Mount/Technical Mount]] - Alternative mount variation for continued attacks after failed choke
 
-- [[Cross Collar Choke]] - Submission entry this technique represents as a direct finish
+- [[Transitions/Cross Collar Choke]] - Submission entry this technique represents as a direct finish
 
-- [[Mounted Triangle]] - Alternative submission when opponent pushes on hips with both hands
+- [[Positions/Mount/Mounted Triangle]] - Alternative submission when opponent pushes on hips with both hands
 
-- [[Closed Guard]] - Counter outcome position when opponent successfully reverses during attempt
+- [[Positions/Closed Guard]] - Counter outcome position when opponent successfully reverses during attempt
 
 
 </section>

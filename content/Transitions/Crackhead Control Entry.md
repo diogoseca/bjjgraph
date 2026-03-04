@@ -21,7 +21,7 @@ The entry requires precise timing and mechanical understanding. The bottom playe
 
 Strategically, the Crackhead Control Entry represents a critical decision point in the Rubber Guard progression tree. When the opponent freezes or fails to defend the initial Mission Control position aggressively, the bottom player can advance to this more dominant configuration rather than immediately attacking with submissions from a less secure position. The entry creates a positional ratchet—once Crackhead Control is established, the opponent faces a dramatically narrower set of defensive options compared to standard Rubber Guard, making all subsequent submission entries substantially higher percentage.
 
-**From Position**: [[Rubber Guard]] (Bottom)
+**From Position**: [[Positions/Rubber Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Crackhead Control Entry represents a critical decision point 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Crackhead Control]] | 55% |
-| Failure | [[Rubber Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Crackhead Control]] | 55% |
+| Failure | [[Positions/Rubber Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -197,27 +197,27 @@ The Crackhead Control Entry functions as a critical mid-system progression withi
 ## Related Techniques
 
 
-- [[Rubber Guard]] - Starting position from which this entry is executed
+- [[Positions/Rubber Guard]] - Starting position from which this entry is executed
 
-- [[Crackhead Control]] - Target position achieved on successful execution of the entry
+- [[Positions/Crackhead Control]] - Target position achieved on successful execution of the entry
 
-- [[Mission Control]] - Primary sub-position used as the launching point for entry initiation
+- [[Positions/Rubber Guard/Mission Control]] - Primary sub-position used as the launching point for entry initiation
 
-- [[New York]] - Alternative advancement path from Rubber Guard system
+- [[Positions/Rubber Guard/New York]] - Alternative advancement path from Rubber Guard system
 
-- [[Carni]] - Advanced position accessible from established Crackhead Control
+- [[Positions/Rubber Guard/Carni]] - Advanced position accessible from established Crackhead Control
 
-- [[Chill Dog]] - Relaxed control alternative when Crackhead Control entry is blocked
+- [[Positions/Rubber Guard/Chill Dog]] - Relaxed control alternative when Crackhead Control entry is blocked
 
-- [[Meathook]] - Transitional arm control position within the Rubber Guard system
+- [[Positions/Rubber Guard/Meathook]] - Transitional arm control position within the Rubber Guard system
 
-- [[Closed Guard]] - Foundational position from which the entire Rubber Guard system originates
+- [[Positions/Closed Guard]] - Foundational position from which the entire Rubber Guard system originates
 
-- [[Open Guard]] - Position resulting from failed Rubber Guard retention after successful counter
+- [[Positions/Open Guard]] - Position resulting from failed Rubber Guard retention after successful counter
 
-- [[Gogoplata Control]] - Advanced submission target accessible through Crackhead Control progression
+- [[Positions/Gogoplata Control]] - Advanced submission target accessible through Crackhead Control progression
 
-- [[Omoplata Control]] - Submission control available from Rubber Guard system branches
+- [[Positions/Omoplata Control]] - Submission control available from Rubber Guard system branches
 
 
 </section>

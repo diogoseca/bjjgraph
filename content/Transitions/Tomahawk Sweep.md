@@ -21,7 +21,7 @@ This sweep is particularly effective against opponents who maintain upright post
 
 Strategically, the Tomahawk Sweep creates a dilemma for the standing passer: widen the base to resist the rotational sweep and become vulnerable to technical standup entries, or narrow the stance for mobility and become susceptible to the sweep's angular force. This binary defensive problem makes the Tomahawk Sweep a cornerstone technique in competition-oriented X-Guard systems where creating unsolvable positional puzzles determines success.
 
-**From Position**: [[X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Tomahawk Sweep creates a dilemma for the standing passer: wid
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 58% |
-| Failure | [[X-Guard]] | 30% |
-| Counter | [[X-Guard]] | 12% |
+| Success | [[Positions/Mount]] | 58% |
+| Failure | [[Positions/X-Guard]] | 30% |
+| Counter | [[Positions/X-Guard]] | 12% |
 
 
 </section>
@@ -196,29 +196,29 @@ The Tomahawk Sweep represents a crucial offensive tool within the X-Guard system
 ## Related Techniques
 
 
-- [[X-Guard Sweep]] - Parent technique family sharing same starting position with vertical lifting mechanics
+- [[Transitions/X-Guard Sweep]] - Parent technique family sharing same starting position with vertical lifting mechanics
 
-- [[X-Guard Elevation Sweep]] - Complementary X-Guard sweep using elevation rather than rotation
+- [[Transitions/X-Guard Elevation Sweep]] - Complementary X-Guard sweep using elevation rather than rotation
 
-- [[Technical Stand Up to Single Leg]] - Alternative X-Guard attack when sweep is defended
+- [[Transitions/Technical Stand Up to Single Leg]] - Alternative X-Guard attack when sweep is defended
 
-- [[Inside Ashi-Garami]] - Leg entanglement transition when opponent sprawls to defend sweep
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Leg entanglement transition when opponent sprawls to defend sweep
 
-- [[Straight Ankle Lock]] - Submission chain option from maintained leg control
+- [[Submissions/Straight Ankle Lock]] - Submission chain option from maintained leg control
 
-- [[Mount]] - Primary finishing position after successful sweep
+- [[Positions/Mount]] - Primary finishing position after successful sweep
 
-- [[Side Control Consolidation]] - Alternative consolidation position when angle prevents direct mount
+- [[Positions/Side Control/Side Control Consolidation]] - Alternative consolidation position when angle prevents direct mount
 
-- [[Butterfly Sweep]] - Complementary guard sweep sharing hook-based mechanics
+- [[Transitions/Butterfly Sweep]] - Complementary guard sweep sharing hook-based mechanics
 
-- [[Elevator Sweep]] - Similar single-hook elevation sweep from butterfly guard
+- [[Transitions/Elevator Sweep]] - Similar single-hook elevation sweep from butterfly guard
 
-- [[De La Riva Sweep]] - Alternative open guard sweep from related leg-hooking position
+- [[Transitions/De La Riva Sweep]] - Alternative open guard sweep from related leg-hooking position
 
-- [[Saddle]] - Leg entanglement destination when opponent rolls through sweep
+- [[Positions/Ashi Garami/Saddle]] - Leg entanglement destination when opponent rolls through sweep
 
-- [[Butterfly Guard to X-Guard]] - Primary entry pathway to establish the starting position
+- [[Transitions/Butterfly Guard to X-Guard]] - Primary entry pathway to establish the starting position
 
 
 </section>

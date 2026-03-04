@@ -186,7 +186,7 @@ description: "Learn to pass Reverse Half Guard as the attacker. Step-by-step leg
 
 As the attacker in Pass Reverse Half, your objective is to convert the angular advantage of reverse half guard top into consolidated side control. You have already disrupted the bottom player's defensive structure by achieving the reverse angle—now you must maintain relentless chest pressure while systematically extracting your trapped leg. The key insight is that this pass is a race against the clock: every second you spend in reverse half guard gives the bottom player another opportunity to recover their frames, initiate sweeps, or transition to deep half guard. Commit to the pass decisively once you read that the bottom player has chosen to flatten defensively rather than turn to face you. Your chest pressure directed toward their hips is the anchor that makes every subsequent step possible—without it, no extraction technique will succeed against a competent bottom player.
 
-**From Position**: [[Reverse Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Reverse Half Guard]] (Top)
 
 </section>
 
@@ -240,9 +240,9 @@ As the attacker in Pass Reverse Half, your objective is to convert the angular a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Reverse Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Reverse Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the attacker in Pass Reverse Half, your objective is to convert the angular a
 
 ## Opponent Counters
 
-- **Bottom player shrimps and recovers knee shield before leg extraction completes** (Effectiveness: High) - Your Response: Increase far hip pressure to prevent the shrimp, or immediately switch to backstep over the knee shield to maintain the passing advantage from a new angle. → Leads to [[Reverse Half Guard]]
-- **Bottom player bridges explosively and turns to face you during the hip switch** (Effectiveness: Medium) - Your Response: If they turn toward you, abandon the pass and immediately transition to back control by following their rotation and inserting hooks. Their turning movement exposes their back. → Leads to [[Reverse Half Guard]]
-- **Bottom player inverts and recovers full guard or sweeps during extraction** (Effectiveness: Medium) - Your Response: Drive heavy chest pressure downward to prevent the inversion from completing. If they begin inverting, redirect your weight to flatten them before they can establish an inverted guard position. → Leads to [[Half Guard]]
-- **Bottom player secures an underhook during the transition to side control and initiates a sweep** (Effectiveness: Low) - Your Response: Immediately establish a whizzer on the underhook arm and drive shoulder pressure to neutralize the sweep attempt. Use the whizzer to flatten them back down before completing the pass. → Leads to [[Half Guard]]
+- **Bottom player shrimps and recovers knee shield before leg extraction completes** (Effectiveness: High) - Your Response: Increase far hip pressure to prevent the shrimp, or immediately switch to backstep over the knee shield to maintain the passing advantage from a new angle. → Leads to [[Positions/Half Guard/Reverse Half Guard]]
+- **Bottom player bridges explosively and turns to face you during the hip switch** (Effectiveness: Medium) - Your Response: If they turn toward you, abandon the pass and immediately transition to back control by following their rotation and inserting hooks. Their turning movement exposes their back. → Leads to [[Positions/Half Guard/Reverse Half Guard]]
+- **Bottom player inverts and recovers full guard or sweeps during extraction** (Effectiveness: Medium) - Your Response: Drive heavy chest pressure downward to prevent the inversion from completing. If they begin inverting, redirect your weight to flatten them before they can establish an inverted guard position. → Leads to [[Positions/Half Guard]]
+- **Bottom player secures an underhook during the transition to side control and initiates a sweep** (Effectiveness: Low) - Your Response: Immediately establish a whizzer on the underhook arm and drive shoulder pressure to neutralize the sweep attempt. Use the whizzer to flatten them back down before completing the pass. → Leads to [[Positions/Half Guard]]
 
 
 </section>

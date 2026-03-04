@@ -160,7 +160,7 @@ The most common defensive failure is waiting too long to act. Every fraction of 
 
 Effective triangle defense combines posture maintenance, arm positioning discipline, and systematic escape mechanics. At the highest levels, the defender must understand that simply surviving inside a locked triangle is insufficient—the attacker will continuously adjust and tighten. Your goal must be to create a decisive structural change: either extract the trapped arm to neutralize the choke, posture high enough to stack and pass, or create sufficient distance to disengage the legs entirely. Half-measures that buy time without changing the fundamental position will fail against a skilled attacker who will simply re-adjust and finish.
 
-**Opponent's Starting Position**: [[Triangle Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Triangle Control]] (Top)
 
 
 </section>
@@ -199,28 +199,28 @@ Effective triangle defense combines posture maintenance, arm positioning discipl
 ### 1. Posture up and extract trapped arm before triangle locks
 
 - **When to use**: Immediately when you feel your arm being pulled across centerline or opponent's leg rising toward your shoulder—this is the highest percentage window
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Return to closed guard or open guard top position with both arms free, completely neutralizing the triangle threat
 - **Risk**: If too slow, opponent locks triangle during your posture attempt, making the situation worse than if you had chosen a different defense
 
 ### 2. Stack and drive forward to compress opponent and prevent angle cut
 
 - **When to use**: When triangle is locked but opponent has not yet cut the angle—drive your weight forward immediately, pinning their shoulders to the mat and walking around toward their head
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Neutralize choke pressure by stacking opponent's hips over their shoulders, then work to pass guard or extract arm from the weakened triangle position
 - **Risk**: If opponent has already cut the angle, stacking drives you into the choke rather than away from it—only effective before angle is established
 
 ### 3. Turn trapped arm thumb-down toward opponent's hip and posture to relieve pressure
 
 - **When to use**: When triangle is locked and angle is partially cut—rotating the trapped arm changes the shoulder angle and reduces compression on the carotid artery
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Creates enough relief from choke pressure to buy time for stacking or arm extraction, reducing immediate submission danger
 - **Risk**: Only buys time rather than escaping—must be combined with stacking or extraction to achieve a full escape rather than just delayed submission
 
 ### 4. Stand up, stack, and work guard pass from standing
 
 - **When to use**: When you have sufficient base and the opponent's angle is not fully established—standing changes the leverage dynamics and allows gravity-assisted stacking
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Pass guard entirely or force opponent to release triangle to prevent being stacked and passed, returning to neutral guard position
 - **Risk**: Standing with a locked triangle can accelerate the choke if opponent maintains angle control—requires strong base and posture throughout
 
@@ -243,11 +243,11 @@ Effective triangle defense combines posture maintenance, arm positioning discipl
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Extract trapped arm early before triangle fully locks by fighting sleeve grip, pulling arm back to your side, and reestablishing strong posture with both hands on opponent's hips
 
-### → [[Triangle Control]]
+### → [[Positions/Triangle Control]]
 
 Stack opponent by driving forward before angle is cut, pinning their shoulders to mat and neutralizing choke pressure while working to extract arm or pass guard from the stacked position
 

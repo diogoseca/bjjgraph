@@ -204,29 +204,29 @@ Feet on Hips Guard Top is the passing perspective when facing an opponent who ha
 
 ## Available Attacks
 
-### [[Toreando Pass]] (37% of attempts)
+### [[Transitions/Toreando Pass]] (37% of attempts)
 
-### [[Knee Cut Pass]] (11% of attempts)
+### [[Transitions/Knee Cut Pass]] (11% of attempts)
 
-### [[Leg Drag Pass]] (10% of attempts)
+### [[Transitions/Leg Drag Pass]] (10% of attempts)
 
-### [[Double Under Pass]] (3% of attempts)
+### [[Transitions/Double Under Pass]] (3% of attempts)
 
-### [[Long Step Pass]] (8% of attempts)
+### [[Transitions/Long Step Pass]] (8% of attempts)
 
-### [[X Pass]] (8% of attempts)
+### [[Transitions/X Pass]] (8% of attempts)
 
-### [[Stack Pass]] (5% of attempts)
+### [[Transitions/Stack Pass]] (5% of attempts)
 
-### [[Body Lock Pass]] (5% of attempts)
+### [[Transitions/Body Lock Pass]] (5% of attempts)
 
-### [[Smash Pass]] (6% of attempts)
+### [[Transitions/Smash Pass]] (6% of attempts)
 
-### [[Leg Weave Pass]] (5% of attempts)
+### [[Transitions/Leg Weave Pass]] (5% of attempts)
 
-### [[Knee Cut from Feet on Hips]] (1% of attempts)
+### [[Transitions/Knee Cut from Feet on Hips]] (1% of attempts)
 
-### [[Pass Feet on Hips Guard]] (1% of attempts)
+### [[Transitions/Pass Feet on Hips Guard]] (1% of attempts)
 
 
 
@@ -237,28 +237,28 @@ Feet on Hips Guard Top is the passing perspective when facing an opponent who ha
 ## Decision Making from This Position
 
 **If bottom player has both feet on hips with strong frames and no sleeve grips established:**
-- Execute **[[Grip pants at knees]]** → [[Combat Base]] (Probability: 60%)
-- Execute **[[Stand up to create pressure]]** → [[Standing Position]] (Probability: 70%)
+- Execute **[[Grip pants at knees]]** → [[Positions/Combat Base]] (Probability: 60%)
+- Execute **[[Stand up to create pressure]]** → [[Positions/Standing Position]] (Probability: 70%)
 
 
 **If bottom player tries to establish sleeve grips for spider guard or collar control:**
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Spider Guard Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Spider Guard Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If bottom player begins to shoot triangle or omoplata with hips inverting:**
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Posture up and circle away]]** → [[Combat Base]] (Probability: 70%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Posture up and circle away]]** → [[Positions/Combat Base]] (Probability: 70%)
 
 
 **If bottom player creates excessive distance with frames or retracts legs:**
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Step around to leg drag]]** → [[Leg Drag Control]] (Probability: 55%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Step around to leg drag]]** → [[Positions/Leg Drag Control]] (Probability: 55%)
 
 
 **If bottom player attempts to establish De La Riva or lasso hooks during frame breaking:**
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Clear hooks and knee cut]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Clear hooks and knee cut]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 
@@ -404,13 +404,13 @@ Start with bottom player in feet on hips position with grips already established
 
 ## Related Positions and Techniques
 
-- **[[Feet on Hips Guard]]** - Opposing perspective of same position
-- **[[Spider Guard]]** - Common progression when sleeve grips are established by bottom player
-- **[[Combat Base]]** - Fundamental posture for this position
-- **[[Toreando Pass]]** - Primary passing technique from this position
-- **[[Knee Cut Pass]]** - High-percentage passing option when frames are broken
-- **[[Leg Drag Pass]]** - Alternative passing strategy using lateral movement
-- **[[Standing Position]]** - Alternative posture for addressing feet-on-hips frames
+- **[[Positions/Feet on Hips Guard]]** - Opposing perspective of same position
+- **[[Positions/Spider Guard]]** - Common progression when sleeve grips are established by bottom player
+- **[[Positions/Combat Base]]** - Fundamental posture for this position
+- **[[Transitions/Toreando Pass]]** - Primary passing technique from this position
+- **[[Transitions/Knee Cut Pass]]** - High-percentage passing option when frames are broken
+- **[[Transitions/Leg Drag Pass]]** - Alternative passing strategy using lateral movement
+- **[[Positions/Standing Position]]** - Alternative posture for addressing feet-on-hips frames
 
 
 </section>

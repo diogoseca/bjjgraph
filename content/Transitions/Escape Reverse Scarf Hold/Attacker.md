@@ -186,7 +186,7 @@ description: "Learn to execute the Escape from Reverse Scarf Hold. Step-by-step 
 
 The Escape from Reverse Scarf Hold is executed by the bottom player trapped under reverse scarf hold control. Unlike the explosive bridge escape variant, this technique uses methodical framing and incremental hip escapes to systematically erode the top player's pin control. The attacker must first survive the crushing chest pressure, establish defensive frames that create initial space, then execute a series of shrimping movements that progressively open enough room for knee insertion and guard recovery. The technique rewards patience and precise frame placement over raw power, making it the primary escape option when the top player maintains a wide, low base that resists bridging attempts.
 
-**From Position**: [[Reverse Scarf Hold]] (Bottom)
+**From Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Bottom)
 
 </section>
 
@@ -239,10 +239,10 @@ The Escape from Reverse Scarf Hold is executed by the bottom player trapped unde
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Success | [[Closed Guard]] | 10% |
-| Failure | [[Reverse Scarf Hold]] | 25% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Success | [[Positions/Closed Guard]] | 10% |
+| Failure | [[Positions/Side Control/Reverse Scarf Hold]] | 25% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ The Escape from Reverse Scarf Hold is executed by the bottom player trapped unde
 
 ## Opponent Counters
 
-- **Top player drops hip weight lower and sprawls wider to eliminate shrimping space** (Effectiveness: High) - Your Response: When the opponent sprawls and drops low, switch to a bridge escape attempt that exploits their compromised height. Their wide base for anti-shrimp becomes vulnerable to directional bridges. Chain the bridge with an immediate return to hip escape if they re-settle high. → Leads to [[Reverse Scarf Hold]]
-- **Top player transitions to mount by stepping over during hip escape movement** (Effectiveness: High) - Your Response: If you feel the leg stepping over during your shrimp, immediately clamp your elbow to your hip on the mount side and insert your knee to block the leg clearance. Use the space from your hip escape to prevent the mount completion by keeping your knee as a barrier. → Leads to [[Mount]]
-- **Top player re-secures arm trap after frame creation breaks their initial control** (Effectiveness: Medium) - Your Response: Maintain your far-side frame even while defending the arm re-trap. Use short, quick shrimps to maintain whatever space exists. If they commit both hands to the arm trap, their base weakens and a bridge opportunity opens. → Leads to [[Reverse Scarf Hold]]
-- **Top player attacks near-side arm with kimura when it drifts during shrimping** (Effectiveness: Medium) - Your Response: Immediately address the kimura by turning your body toward the trapped arm and straightening it while pulling the elbow back to your hip. Do not continue the escape until the submission threat is neutralized. Reset to defensive posture before resuming. → Leads to [[Reverse Scarf Hold]]
+- **Top player drops hip weight lower and sprawls wider to eliminate shrimping space** (Effectiveness: High) - Your Response: When the opponent sprawls and drops low, switch to a bridge escape attempt that exploits their compromised height. Their wide base for anti-shrimp becomes vulnerable to directional bridges. Chain the bridge with an immediate return to hip escape if they re-settle high. → Leads to [[Positions/Side Control/Reverse Scarf Hold]]
+- **Top player transitions to mount by stepping over during hip escape movement** (Effectiveness: High) - Your Response: If you feel the leg stepping over during your shrimp, immediately clamp your elbow to your hip on the mount side and insert your knee to block the leg clearance. Use the space from your hip escape to prevent the mount completion by keeping your knee as a barrier. → Leads to [[Positions/Mount]]
+- **Top player re-secures arm trap after frame creation breaks their initial control** (Effectiveness: Medium) - Your Response: Maintain your far-side frame even while defending the arm re-trap. Use short, quick shrimps to maintain whatever space exists. If they commit both hands to the arm trap, their base weakens and a bridge opportunity opens. → Leads to [[Positions/Side Control/Reverse Scarf Hold]]
+- **Top player attacks near-side arm with kimura when it drifts during shrimping** (Effectiveness: Medium) - Your Response: Immediately address the kimura by turning your body toward the trapped arm and straightening it while pulling the elbow back to your hip. Do not continue the escape until the submission threat is neutralized. Reset to defensive posture before resuming. → Leads to [[Positions/Side Control/Reverse Scarf Hold]]
 
 
 </section>

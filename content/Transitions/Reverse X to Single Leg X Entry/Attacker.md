@@ -180,7 +180,7 @@ description: "How to execute Reverse X to Single Leg X Entry in BJJ. Attacking p
 
 As the attacker executing Reverse X to Single Leg X Entry, your objective is to convert the inverted hook configuration of Reverse X-Guard into the linear control platform of Single Leg X-Guard. This transition capitalizes on your opponent's attempts to clear your hooks or disengage from Reverse X by following their movement with a rapid hook reconfiguration. The transition maintains continuous leg entanglement pressure, preventing the opponent from reaching a neutral passing position. Single Leg X offers superior sweeping angles and more direct pathways to heel hook entries compared to Reverse X in many situations, making this both a defensive recovery and an offensive upgrade depending on context.
 
-**From Position**: [[Reverse X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ As the attacker executing Reverse X to Single Leg X Entry, your objective is to 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 58% |
-| Failure | [[Reverse X-Guard]] | 27% |
-| Counter | [[Headquarters Position]] | 15% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 58% |
+| Failure | [[Positions/X-Guard/Reverse X-Guard]] | 27% |
+| Counter | [[Positions/Headquarters Position]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ As the attacker executing Reverse X to Single Leg X Entry, your objective is to 
 
 ## Opponent Counters
 
-- **Opponent sprawls weight forward during hook reconfiguration to flatten guard player** (Effectiveness: High) - Your Response: Abort transition and use their forward pressure to enter Deep Half Guard by threading under their near leg, or maintain Reverse X and attempt elevation sweep using their committed weight → Leads to [[Headquarters Position]]
-- **Opponent rapidly extracts leg before Single Leg X hooks can be established** (Effectiveness: Medium) - Your Response: Follow their retreating leg with your hips using ankle grip to maintain connection, and immediately transition to Outside Ashi-Garami or seated guard to maintain engagement before they can establish passing position → Leads to [[Headquarters Position]]
-- **Opponent drives knee through center during hook reconfiguration to initiate headquarters pass** (Effectiveness: Medium) - Your Response: Abandon Single Leg X entry and use the knee drive to enter Deep Half Guard position or frame with near arm and hip escape to re-establish open guard with distance → Leads to [[Headquarters Position]]
-- **Opponent posts hand on hip and backsteps around controlled leg during transition** (Effectiveness: Medium) - Your Response: Invert underneath their backstep while maintaining ankle grip, emerging on the opposite side directly into Single Leg X rather than chasing back to Reverse X angle → Leads to [[Reverse X-Guard]]
+- **Opponent sprawls weight forward during hook reconfiguration to flatten guard player** (Effectiveness: High) - Your Response: Abort transition and use their forward pressure to enter Deep Half Guard by threading under their near leg, or maintain Reverse X and attempt elevation sweep using their committed weight → Leads to [[Positions/Headquarters Position]]
+- **Opponent rapidly extracts leg before Single Leg X hooks can be established** (Effectiveness: Medium) - Your Response: Follow their retreating leg with your hips using ankle grip to maintain connection, and immediately transition to Outside Ashi-Garami or seated guard to maintain engagement before they can establish passing position → Leads to [[Positions/Headquarters Position]]
+- **Opponent drives knee through center during hook reconfiguration to initiate headquarters pass** (Effectiveness: Medium) - Your Response: Abandon Single Leg X entry and use the knee drive to enter Deep Half Guard position or frame with near arm and hip escape to re-establish open guard with distance → Leads to [[Positions/Headquarters Position]]
+- **Opponent posts hand on hip and backsteps around controlled leg during transition** (Effectiveness: Medium) - Your Response: Invert underneath their backstep while maintaining ankle grip, emerging on the opposite side directly into Single Leg X rather than chasing back to Reverse X angle → Leads to [[Positions/X-Guard/Reverse X-Guard]]
 
 
 </section>

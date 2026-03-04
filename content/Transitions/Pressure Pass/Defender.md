@@ -154,7 +154,7 @@ description: "How to defend against Pressure Pass in BJJ. Recognition cues, defe
 
 Defending against the Pressure Pass requires early recognition and proactive frame management before the passer consolidates heavy chest pressure. The defender's primary objective is to prevent the passer from flattening their hips and establishing crossface control, which together create the pinning mechanism that makes pressure passes so effective. Once the passer settles their weight, escape becomes exponentially more difficult because every movement must fight against gravity and body weight. The defensive framework operates on a timing hierarchy: the earliest interventions (preventing initial pressure contact) have the highest success rate, while late-stage defenses (escaping after crossface and hip pin are established) require significantly more effort and carry greater risk. Successful defense combines proactive framing with hip movement, grip fighting, and the ability to transition between guard recovery and sweep attempts based on how the passer adjusts their weight. Understanding the passer's incremental progression allows the defender to identify the specific stage of the pass and apply the appropriate counter at each phase rather than relying on a single explosive escape attempt.
 
-**Opponent's Starting Position**: [[Combat Base]] (Top)
+**Opponent's Starting Position**: [[Positions/Combat Base]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against the Pressure Pass requires early recognition and proactive fra
 ### 1. Establish knee shield with bottom shin across opponent's hip line and top hand framing on their far shoulder
 
 - **When to use**: Early in the pass attempt before opponent establishes crossface, when you can still position your shin between bodies
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Creates a structural frame that prevents chest-to-chest contact and maintains distance, forcing passer to deal with the shield before advancing
 - **Risk**: If opponent collapses the knee shield by driving it flat, they achieve immediate chest pressure with your leg trapped in a weak half guard position
 
 ### 2. Hip escape away from pressure while framing on opponent's shoulder and hip to create space for guard recovery
 
 - **When to use**: When opponent commits weight forward and you have at least one frame established, particularly effective during their weight shifts
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Creates enough space to reinsert legs into a guard position such as half guard, butterfly guard, or closed guard, resetting the passing sequence
 - **Risk**: If hip escape is too shallow or frames collapse, you end up flat on your back with the passer settled in a stronger position with your arms out of position
 
 ### 3. Underhook on the near side and come to your hip, threatening to take the back or establish a scramble
 
 - **When to use**: When opponent's crossface is loose or they lift pressure to advance, creating a window to pummel for the underhook
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Reverses the pressure dynamic by coming to your side with an underhook, allowing you to wrestle up to a single leg or transition to a sweep
 - **Risk**: If opponent secures a strong whizzer or drives you flat before you complete the underhook, you expose your back and may end up in a worse position
 
 ### 4. Butterfly hook insertion and elevation when opponent drives forward with chest pressure
 
 - **When to use**: When you can get at least one foot between your bodies as opponent commits their weight forward, before they pin your knees to the mat
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Butterfly hook allows you to redirect their forward pressure into an elevation or sweep, converting their momentum into a reversal
 - **Risk**: If opponent smashes the hook flat by driving their hips low and sprawling, you lose the hook and they pass around the collapsed leg
 
@@ -225,11 +225,11 @@ Defending against the Pressure Pass requires early recognition and proactive fra
 
 ## Best-Case Outcomes for Defender
 
-### → [[Combat Base]]
+### → [[Positions/Combat Base]]
 
 Establish strong frames early with forearms against the passer's shoulders and hips, then execute a well-timed hip escape during their weight shift to reinsert your legs into a guard position. The goal is to reset the engagement to a neutral guard vs. passer dynamic where you have full leg involvement.
 
-### → [[Combat Base]]
+### → [[Positions/Combat Base]]
 
 When the passer overcommits their weight forward during the pressure pass, use an underhook on the near side to come to your hip and wrestle up, or insert a butterfly hook to redirect their forward momentum into an elevation sweep. Timing the counter to the moment of their maximum forward commitment creates the highest sweep probability.
 

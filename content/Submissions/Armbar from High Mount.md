@@ -26,8 +26,8 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint (hyperextension) and shoulder girdle
-**Starting Position**: [[High Mount]]
-**From Position**: [[High Mount]] (Top)
+**Starting Position**: [[Positions/Mount/High Mount]]
+**From Position**: [[Positions/Mount/High Mount]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -77,9 +77,9 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[High Mount]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Mount/High Mount]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -227,9 +227,9 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 
 ## From Which Positions?
 
-- [[High Mount]]
-- [[Mount]]
-- [[S Mount]]
+- [[Positions/Mount/High Mount]]
+- [[Positions/Mount]]
+- [[Positions/Mount/S Mount]]
 
 
 </section>
@@ -238,14 +238,14 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 
 ## Related Submissions
 
-- [[Armbar from Mount]]
-- [[Armbar from S Mount]]
-- [[Armbar from Technical Mount]]
-- [[Americana from Mount]]
-- [[Arm Triangle]]
-- [[Cross Collar Choke]]
-- [[Armbar from Guard]]
-- [[Armbar from Knee on Belly]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Armbar from S Mount]]
+- [[Submissions/Armbar from Technical Mount]]
+- [[Submissions/Americana from Mount]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/Cross Collar Choke]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Armbar from Knee on Belly]]
 
 
 </section>
@@ -254,14 +254,14 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 
 ## Additional Related Content
 
-- [[High Mount]] - Starting position providing elevated platform for arm isolation and submission entry
-- [[Armbar Control]] - Control position reached after successful armbar entry before finishing the submission
-- [[Mount]] - Parent position from which high mount is established through progressive knee walking
-- [[S Mount]] - Alternative attacking position with perpendicular body angle for armbar setup
-- [[Armbar from Mount]] - Related submission using the same mechanics from standard mount rather than high mount
-- [[Technical Mount]] - Transitional position accessible when defender turns during armbar attempt
-- [[Gift Wrap]] - Arm control position that creates high-percentage armbar entry from mount variations
-- [[Closed Guard]] - Common defensive recovery position when defender successfully counters the armbar attempt
+- [[Positions/Mount/High Mount]] - Starting position providing elevated platform for arm isolation and submission entry
+- [[Positions/Armbar Control]] - Control position reached after successful armbar entry before finishing the submission
+- [[Positions/Mount]] - Parent position from which high mount is established through progressive knee walking
+- [[Positions/Mount/S Mount]] - Alternative attacking position with perpendicular body angle for armbar setup
+- [[Submissions/Armbar from Mount]] - Related submission using the same mechanics from standard mount rather than high mount
+- [[Positions/Mount/Technical Mount]] - Transitional position accessible when defender turns during armbar attempt
+- [[Positions/Gift Wrap]] - Arm control position that creates high-percentage armbar entry from mount variations
+- [[Positions/Closed Guard]] - Common defensive recovery position when defender successfully counters the armbar attempt
 
 
 </section>

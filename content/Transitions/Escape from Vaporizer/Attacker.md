@@ -186,7 +186,7 @@ description: "Learn to escape the Vaporizer in BJJ. Step-by-step guide to cleari
 
 Executing the Escape from Vaporizer requires the top player to systematically dismantle a compound control system while resisting constant sweep and submission threats. The attacker must coordinate base stabilization, upper body control, and lockdown extraction in a specific sequence that prevents the bottom player from capitalizing on defensive gaps. The critical insight is that the lockdown's power derives from the coordination between the leg entanglement and the underhook—neutralizing the underhook first weakens the entire system and makes lockdown extraction dramatically easier. Rushing directly to leg extraction without addressing the upper body control is the most common and costly error, as it creates the exact space and momentum the bottom player needs for sweeps and transitions to more dangerous positions like the Electric Chair or Truck.
 
-**From Position**: [[Vaporizer]] (Top)
+**From Position**: [[Positions/Vaporizer]] (Top)
 
 </section>
 
@@ -239,11 +239,11 @@ Executing the Escape from Vaporizer requires the top player to systematically di
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 20% |
-| Success | [[Side Control]] | 10% |
-| Failure | [[Vaporizer]] | 40% |
-| Counter | [[Mount]] | 20% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 10% |
+| Failure | [[Positions/Vaporizer]] | 40% |
+| Counter | [[Positions/Mount]] | 20% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -252,10 +252,10 @@ Executing the Escape from Vaporizer requires the top player to systematically di
 
 ## Opponent Counters
 
-- **Opponent increases lockdown pressure and drives harder whip-up when sensing you beginning to establish defensive grips** (Effectiveness: High) - Your Response: Pause the escape sequence and focus entirely on widening your base and driving shoulder pressure. Do not fight the whip-up with upper body strength—use structural positioning by sprawling wider and sinking heavier. Resume the escape only after the whip-up attempt subsides. → Leads to [[Vaporizer]]
-- **Opponent initiates Old School sweep by posting their outside foot and driving through the underhook when you shift weight during lockdown circulation** (Effectiveness: High) - Your Response: Immediately widen your base in the opposite direction of the sweep and drive crossface pressure harder to limit their bridging power. Keep your far hand posted wide for stability rather than committed to the lockdown extraction. Accept the escape delay in exchange for maintaining top position. → Leads to [[Mount]]
-- **Opponent releases lockdown voluntarily during your escape to transition to a back take when you are focused on leg extraction** (Effectiveness: Medium) - Your Response: Turn your hips toward the opponent immediately rather than away. Establish a whizzer on the underhook arm and drive your shoulder pressure into their head. Do not give them the angle needed to secure the second hook—address the back take entry before resuming any passing attempt. → Leads to [[Back Control]]
-- **Opponent switches from underhook to overhook to maintain upper body control when you establish the whizzer** (Effectiveness: Medium) - Your Response: The overhook is weaker than the underhook for generating whip-up pressure. Swim your trapped arm inside their overhook to re-establish your own underhook, or use the reduced lateral pressure to accelerate your lockdown circulation since their sweep mechanics are now compromised. → Leads to [[Vaporizer]]
+- **Opponent increases lockdown pressure and drives harder whip-up when sensing you beginning to establish defensive grips** (Effectiveness: High) - Your Response: Pause the escape sequence and focus entirely on widening your base and driving shoulder pressure. Do not fight the whip-up with upper body strength—use structural positioning by sprawling wider and sinking heavier. Resume the escape only after the whip-up attempt subsides. → Leads to [[Positions/Vaporizer]]
+- **Opponent initiates Old School sweep by posting their outside foot and driving through the underhook when you shift weight during lockdown circulation** (Effectiveness: High) - Your Response: Immediately widen your base in the opposite direction of the sweep and drive crossface pressure harder to limit their bridging power. Keep your far hand posted wide for stability rather than committed to the lockdown extraction. Accept the escape delay in exchange for maintaining top position. → Leads to [[Positions/Mount]]
+- **Opponent releases lockdown voluntarily during your escape to transition to a back take when you are focused on leg extraction** (Effectiveness: Medium) - Your Response: Turn your hips toward the opponent immediately rather than away. Establish a whizzer on the underhook arm and drive your shoulder pressure into their head. Do not give them the angle needed to secure the second hook—address the back take entry before resuming any passing attempt. → Leads to [[Positions/Back Control]]
+- **Opponent switches from underhook to overhook to maintain upper body control when you establish the whizzer** (Effectiveness: Medium) - Your Response: The overhook is weaker than the underhook for generating whip-up pressure. Swim your trapped arm inside their overhook to re-establish your own underhook, or use the reduced lateral pressure to accelerate your lockdown circulation since their sweep mechanics are now compromised. → Leads to [[Positions/Vaporizer]]
 
 
 </section>

@@ -188,21 +188,21 @@ Defending the Von Flue Choke requires understanding a fundamental paradox: the t
 ### 1. Release the guillotine grip and immediately frame against their chest to establish standard side control bottom defense
 
 - **When to use**: As soon as you recognize your opponent has achieved side control while you hold the guillotine—this is the highest-percentage defense and should be your default response
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You transition to standard side control bottom defense with frames, removing the Von Flue threat entirely and working normal escape sequences
 - **Risk**: Low risk—releasing the guillotine concedes the pass but removes all Von Flue danger and returns you to a standard defensive position
 
 ### 2. Turn your body toward your opponent and use your legs to push their hips away while maintaining or releasing the guillotine
 
 - **When to use**: When you feel initial shoulder pressure but believe you still have time to create space before the choke locks in fully
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough distance to recover half guard or re-establish a guard position where the guillotine becomes effective again or you can safely release
 - **Risk**: Medium risk—if your timing is late, the turning motion can actually tighten the choke by pressing your neck further into their shoulder
 
 ### 3. Bridge explosively toward the opponent while releasing the guillotine to create a scramble and recover guard
 
 - **When to use**: When the Von Flue pressure is building but has not fully locked in, and you need an explosive movement to disrupt their positioning before the choke completes
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The bridge disrupts their base and shoulder position, creating space to insert your knee and recover half guard or initiate a scramble to a neutral position
 - **Risk**: Medium risk—a failed bridge wastes energy and may allow them to reposition with even heavier pressure, and bridging toward them can momentarily increase the choke pressure
 
@@ -225,11 +225,11 @@ Defending the Von Flue Choke requires understanding a fundamental paradox: the t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Release the guillotine early before any Von Flue pressure develops, then use the transition period to work a standard side control escape or reversal while your opponent adjusts from the failed Von Flue setup
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 As you feel initial shoulder pressure, immediately release the guillotine, bridge to create space, and insert your knee to establish half guard before your opponent can consolidate side control with full pressure
 

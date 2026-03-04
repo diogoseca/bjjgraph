@@ -22,7 +22,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)
-**Starting Position**: [[Closed Guard]]
+**Starting Position**: [[Positions/Closed Guard]]
 **Success Rate**: 52%
 
 </section>
@@ -78,8 +78,8 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -224,16 +224,16 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 ## From Which Positions?
 
-- [[Closed Guard]]
-- [[Butterfly Guard]]
-- [[Open Guard]]
-- [[De La Riva Guard]]
-- [[Spider Guard]]
-- [[Lasso Guard]]
-- [[X-Guard]]
-- [[Single Leg X-Guard]]
-- [[Half Butterfly]]
-- [[Seated Guard]]
+- [[Positions/Closed Guard]]
+- [[Positions/Butterfly Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/De La Riva Guard]]
+- [[Positions/Spider Guard]]
+- [[Positions/Lasso Guard]]
+- [[Positions/X-Guard]]
+- [[Positions/X-Guard/Single Leg X-Guard]]
+- [[Positions/Butterfly Guard/Half Butterfly]]
+- [[Positions/Seated Guard]]
 
 
 </section>
@@ -242,16 +242,16 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 ## Related Submissions
 
-- [[Kneebar]]
-- [[Kneebar from Half Guard]]
-- [[Kneebar from 50-50]]
-- [[Heel Hook]]
-- [[Straight Ankle Lock]]
-- [[Toe Hold]]
-- [[Triangle Choke]]
-- [[Armbar from Guard]]
-- [[Omoplata]]
-- [[Calf Slicer]]
+- [[Transitions/Kneebar]]
+- [[Submissions/Kneebar from Half Guard]]
+- [[Submissions/Kneebar from 50-50]]
+- [[Transitions/Heel Hook]]
+- [[Submissions/Straight Ankle Lock]]
+- [[Transitions/Toe Hold]]
+- [[Transitions/Triangle Choke]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Omoplata]]
+- [[Transitions/Calf Slicer]]
 
 
 </section>
@@ -260,15 +260,15 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 ## Additional Related Content
 
-- [[Single Leg X-Guard]] - Natural transition position that shares similar leg isolation mechanics
-- [[Ashi Garami]] - Fundamental leg entanglement position with similar control mechanics
-- [[Kneebar Control]] - Finishing position achieved when kneebar is secured from guard
-- [[Leg Entanglement]] - Fundamental principle underlying all kneebar entries and control
-- [[Inside Ashi-Garami]] - Related leg entanglement position with similar finishing mechanics
-- [[50-50 Guard]] - Connected leg entanglement position where kneebar is primary attack
-- [[Reverse X-Guard]] - Alternative guard position that can transition to kneebar attacks
-- [[X-Guard]] - Common transition when opponent defends kneebar by standing
-- [[De La Riva Guard]] - Primary entry guard for kneebar attacks against standing opponents
+- [[Positions/X-Guard/Single Leg X-Guard]] - Natural transition position that shares similar leg isolation mechanics
+- [[Positions/Ashi Garami]] - Fundamental leg entanglement position with similar control mechanics
+- [[Positions/Kneebar Control]] - Finishing position achieved when kneebar is secured from guard
+- [[Positions/Leg Entanglement]] - Fundamental principle underlying all kneebar entries and control
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement position with similar finishing mechanics
+- [[Positions/Ashi Garami/50-50 Guard]] - Connected leg entanglement position where kneebar is primary attack
+- [[Positions/X-Guard/Reverse X-Guard]] - Alternative guard position that can transition to kneebar attacks
+- [[Positions/X-Guard]] - Common transition when opponent defends kneebar by standing
+- [[Positions/De La Riva Guard]] - Primary entry guard for kneebar attacks against standing opponents
 
 
 </section>

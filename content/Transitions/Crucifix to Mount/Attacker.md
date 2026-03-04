@@ -180,7 +180,7 @@ description: "Execute the Crucifix to Mount transition with systematic leg extra
 
 Executing the Crucifix to Mount transition requires understanding the precise sequence of control transfers that allow you to abandon the leg-based arm trap while maintaining dominant position. The key insight is that upper body control through crossface and shoulder pressure must be fully established before any leg movement begins. The transition follows a strict sequence: anchor the upper body, release the legs, swing over, consolidate mount. Rushing any phase creates defensive windows that skilled opponents will exploit to recover guard or reverse position. Mastery of this transition transforms the crucifix from a terminal position into a dynamic control platform that flows into mount's extensive submission ecosystem.
 
-**From Position**: [[Crucifix]] (Top)
+**From Position**: [[Positions/Crucifix]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Crucifix to Mount transition requires understanding the precise se
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Crucifix]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Crucifix]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Crucifix to Mount transition requires understanding the precise se
 
 ## Opponent Counters
 
-- **Opponent bridges explosively during the leg swing when attacker's base is most compromised** (Effectiveness: High) - Your Response: Anticipate the bridge by keeping your weight low and forward through the crossface. If the bridge begins, post your free hand on the mat and ride the bridge rather than fighting it, then resettle once the opponent returns to the mat. → Leads to [[Half Guard]]
-- **Opponent immediately frames with the freed arm against hip or shoulder as soon as the leg trap opens** (Effectiveness: Medium) - Your Response: Swim through the frame using your crossface shoulder pressure to collapse it, or redirect the framing arm by controlling the wrist and pinning it to the mat before completing the leg swing. → Leads to [[Crucifix]]
-- **Opponent hip escapes and inserts knee shield as the attacker swings the leg over** (Effectiveness: High) - Your Response: Control the opponent's nearside hip with your free hand to block the shrimp. If the knee begins inserting, immediately drive your weight forward and smash the knee flat before it can establish a full shield barrier. → Leads to [[Half Guard]]
-- **Opponent catches the swinging leg and uses the leverage to initiate a sweep or guard recovery** (Effectiveness: Low) - Your Response: Keep the leg swing tight and fast with minimal arc distance. Maintain heavy chest pressure through the crossface so the opponent cannot generate sufficient leverage from a supine position to complete any reversal. → Leads to [[Half Guard]]
+- **Opponent bridges explosively during the leg swing when attacker's base is most compromised** (Effectiveness: High) - Your Response: Anticipate the bridge by keeping your weight low and forward through the crossface. If the bridge begins, post your free hand on the mat and ride the bridge rather than fighting it, then resettle once the opponent returns to the mat. → Leads to [[Positions/Half Guard]]
+- **Opponent immediately frames with the freed arm against hip or shoulder as soon as the leg trap opens** (Effectiveness: Medium) - Your Response: Swim through the frame using your crossface shoulder pressure to collapse it, or redirect the framing arm by controlling the wrist and pinning it to the mat before completing the leg swing. → Leads to [[Positions/Crucifix]]
+- **Opponent hip escapes and inserts knee shield as the attacker swings the leg over** (Effectiveness: High) - Your Response: Control the opponent's nearside hip with your free hand to block the shrimp. If the knee begins inserting, immediately drive your weight forward and smash the knee flat before it can establish a full shield barrier. → Leads to [[Positions/Half Guard]]
+- **Opponent catches the swinging leg and uses the leverage to initiate a sweep or guard recovery** (Effectiveness: Low) - Your Response: Keep the leg swing tight and fast with minimal arc distance. Maintain heavy chest pressure through the crossface so the opponent cannot generate sufficient leverage from a supine position to complete any reversal. → Leads to [[Positions/Half Guard]]
 
 
 </section>

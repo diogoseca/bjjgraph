@@ -156,7 +156,7 @@ description: "How to defend against Crotch Ripper in BJJ. Recognition, escape pa
 
 Defending the Crotch Ripper requires understanding that this compression submission operates differently from joint locks - there is no clear mechanical endpoint, and damage occurs along a continuous spectrum of pressure. As the defender trapped in the top position of lockdown, your primary objective is to neutralize the three pillars of the attack: the lockdown figure-four controlling your leg, the underhook creating the attacker's angle, and the knee positioning that delivers the compression. Early recognition is critical because once all three elements are established and hip extension begins, escape becomes extremely difficult. The defense prioritizes preventing the attacker from establishing their side angle, as without this rotation the knee cannot generate meaningful compression regardless of lockdown tightness. Your defensive strategy should integrate seamlessly with your overall lockdown top escape system, treating the Crotch Ripper threat as one element of the lockdown dilemma rather than an isolated submission to defend.
 
-**Opponent's Starting Position**: [[Lockdown]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 
 
 </section>
@@ -193,28 +193,28 @@ Defending the Crotch Ripper requires understanding that this compression submiss
 ### 1. Drive forward with heavy crossface and shoulder pressure to flatten attacker onto their back
 
 - **When to use**: As soon as you feel the attacker beginning to rotate onto their side - this is the highest-percentage defense when applied early before the angle is established
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Attacker is flattened on their back, eliminating the side angle required for knee compression. From here you can work lockdown extraction or maintain top pressure.
 - **Risk**: If attacker has strong underhook, your forward drive can be redirected into an Electric Chair sweep entry
 
 ### 2. Strip the underhook by driving your shoulder into their armpit and swimming your arm over theirs
 
 - **When to use**: When attacker has established underhook but has not yet committed to the side angle rotation - removing the underhook collapses their entire attack structure
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Without the underhook, attacker cannot maintain the side angle or generate effective compression. You re-establish dominant top control in lockdown.
 - **Risk**: Momentarily compromises your base while fighting for underhook position, which could open a window for sweep if timed poorly
 
 ### 3. Control the attacking knee by grabbing it with your free hand and pushing it away from your groin
 
 - **When to use**: When the attacker's knee is already approaching or on your groin but hip extension has not fully engaged - this buys time but does not solve the underlying angle problem
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Removes the direct compression point and forces attacker to fight for knee repositioning, creating a window to flatten them or work underhook strip.
 - **Risk**: Gripping the attacking leg gives the attacker a handle for Electric Chair transition - they may use your grip to load your weight for the sweep
 
 ### 4. Break the lockdown through systematic leg extraction using circular knee motion and hip pressure
 
 - **When to use**: When you cannot prevent the angle and the submission is being established - breaking the lockdown removes the foundation of the entire attack system
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Complete escape from the lockdown system, returning to standard half guard top where you can begin passing without lockdown-specific threats.
 - **Risk**: Lockdown extraction requires significant energy and focus, potentially leaving you vulnerable to other attacks if extraction fails midway
 
@@ -237,11 +237,11 @@ Defending the Crotch Ripper requires understanding that this compression submiss
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lockdown]]
+### → [[Positions/Half Guard/Lockdown]]
 
 Flatten the attacker by driving heavy crossface and shoulder pressure, strip their underhook, and re-establish dominant top position in lockdown. From here systematically work to extract your trapped leg and complete the half guard pass.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Successfully break the lockdown figure-four through circular knee extraction or hip pressure, escaping the lockdown system entirely and returning to standard half guard top where you can apply normal passing sequences without lockdown-specific threats.
 

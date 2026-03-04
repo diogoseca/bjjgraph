@@ -186,7 +186,7 @@ description: "Master the Triangle from Armbar as the attacker. Learn to read arm
 
 As the attacker executing the Triangle from Armbar, your objective is to capitalize on your opponent's armbar defense by smoothly reconfiguring your leg position from armbar control into a locked triangle. The key insight is that armbar defense—particularly hand clasping, arm bending, and stacking—all require the opponent to bring their head closer to your hips, which is precisely the positioning needed for a triangle entry. Your primary challenge is managing the transition window where your legs are momentarily unlocked, maintaining arm control throughout, and establishing the triangle lock before your opponent can posture or extract their arm. Success requires reading your opponent's specific defense pattern and timing the leg swing to coincide with their deepest commitment to that defense, when their posture is most broken and their ability to react is most compromised.
 
-**From Position**: [[Armbar Control]] (Top)
+**From Position**: [[Positions/Armbar Control]] (Top)
 
 </section>
 
@@ -240,9 +240,9 @@ As the attacker executing the Triangle from Armbar, your objective is to capital
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Control]] | 55% |
-| Failure | [[Armbar Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Triangle Control]] | 55% |
+| Failure | [[Positions/Armbar Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the attacker executing the Triangle from Armbar, your objective is to capital
 
 ## Opponent Counters
 
-- **Explosive posture recovery during the leg reconfiguration window before triangle locks** (Effectiveness: High) - Your Response: If you detect the posture recovery early, abort the triangle and return to armbar control by reclosing your legs in armbar position. If they partially posture, use your grip on their arm to pull them back down while accelerating the leg swing. Prevention is key: only initiate the transition when the opponent is deeply committed to their armbar defense with broken posture. → Leads to [[Half Guard]]
-- **Pulling the trapped arm free during the brief moment of reduced control as legs reconfigure** (Effectiveness: High) - Your Response: Maintain an iron grip on the wrist throughout the transition—this is non-negotiable. If the arm begins slipping, immediately clamp your knees together on whatever portion of the arm remains accessible. Consider switching to an overhook on the arm rather than a wrist grip if the opponent has sweaty or slippery arms. If the arm escapes completely, transition to back take or return to closed guard. → Leads to [[Half Guard]]
-- **Stacking forward with heavy pressure to prevent angle adjustment after the triangle is locked** (Effectiveness: Medium) - Your Response: Use the opponent's forward drive against them by angling your hips to the side and pulling their head down simultaneously. If stacking continues, transition to omoplata by releasing the triangle lock and swinging your hips to the trapped arm side. The stack defense actually creates excellent omoplata positioning, making it a poor long-term defensive strategy. → Leads to [[Armbar Control]]
-- **Tucking chin and blocking the leg swing with the free hand to prevent the choking leg from crossing behind the neck** (Effectiveness: Medium) - Your Response: Use your free hand to strip their blocking grip from your leg, or redirect your leg swing to go under their blocking arm rather than over it. If the block is solid, feint the triangle entry to draw the defensive hand, then quickly switch back to the armbar finish while their arm is occupied with triangle defense. → Leads to [[Armbar Control]]
+- **Explosive posture recovery during the leg reconfiguration window before triangle locks** (Effectiveness: High) - Your Response: If you detect the posture recovery early, abort the triangle and return to armbar control by reclosing your legs in armbar position. If they partially posture, use your grip on their arm to pull them back down while accelerating the leg swing. Prevention is key: only initiate the transition when the opponent is deeply committed to their armbar defense with broken posture. → Leads to [[Positions/Half Guard]]
+- **Pulling the trapped arm free during the brief moment of reduced control as legs reconfigure** (Effectiveness: High) - Your Response: Maintain an iron grip on the wrist throughout the transition—this is non-negotiable. If the arm begins slipping, immediately clamp your knees together on whatever portion of the arm remains accessible. Consider switching to an overhook on the arm rather than a wrist grip if the opponent has sweaty or slippery arms. If the arm escapes completely, transition to back take or return to closed guard. → Leads to [[Positions/Half Guard]]
+- **Stacking forward with heavy pressure to prevent angle adjustment after the triangle is locked** (Effectiveness: Medium) - Your Response: Use the opponent's forward drive against them by angling your hips to the side and pulling their head down simultaneously. If stacking continues, transition to omoplata by releasing the triangle lock and swinging your hips to the trapped arm side. The stack defense actually creates excellent omoplata positioning, making it a poor long-term defensive strategy. → Leads to [[Positions/Armbar Control]]
+- **Tucking chin and blocking the leg swing with the free hand to prevent the choking leg from crossing behind the neck** (Effectiveness: Medium) - Your Response: Use your free hand to strip their blocking grip from your leg, or redirect your leg swing to go under their blocking arm rather than over it. If the block is solid, feint the triangle entry to draw the defensive hand, then quickly switch back to the armbar finish while their arm is occupied with triangle defense. → Leads to [[Positions/Armbar Control]]
 
 
 </section>

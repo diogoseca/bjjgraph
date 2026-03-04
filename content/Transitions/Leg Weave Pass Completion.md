@@ -21,7 +21,7 @@ The primary technical challenge lies in maintaining unbroken pressure while chan
 
 From a systems perspective, the Leg Weave Pass Completion serves as the terminal link in the pressure passing chain. When the completion is executed with high proficiency, it forces the bottom player to commit defensive resources earlier in the passing sequence, which opens opportunities for alternative passes like backsteps, leg drags, and knee slices. This cascading pressure effect makes a reliable completion the force multiplier for the entire leg weave passing system.
 
-**From Position**: [[Leg Weave]] (Top)
+**From Position**: [[Positions/Leg Weave]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ From a systems perspective, the Leg Weave Pass Completion serves as the terminal
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Leg Weave]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Leg Weave]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Leg Weave Pass Completion connects the leg weave control platform directly t
 ## Related Techniques
 
 
-- [[Leg Weave]] - Starting position from which this pass completion is executed
+- [[Positions/Leg Weave]] - Starting position from which this pass completion is executed
 
-- [[Side Control]] - Primary target position achieved upon successful completion
+- [[Positions/Side Control]] - Primary target position achieved upon successful completion
 
-- [[Half Guard]] - Position bottom player may recover to if pass completion fails
+- [[Positions/Half Guard]] - Position bottom player may recover to if pass completion fails
 
-- [[Backstep from Leg Weave]] - Alternative passing option when direct completion is defended
+- [[Transitions/Backstep from Leg Weave]] - Alternative passing option when direct completion is defended
 
-- [[Complete Leg Weave Pass]] - Related passing transition from established leg weave control
+- [[Transitions/Complete Leg Weave Pass]] - Related passing transition from established leg weave control
 
-- [[Leg Weave Escape to Half Guard]] - Defender's primary escape technique countering this pass completion
+- [[Transitions/Leg Weave Escape to Half Guard]] - Defender's primary escape technique countering this pass completion
 
-- [[Headquarters Position]] - Related passing platform with similar pressure and control concepts
+- [[Positions/Headquarters Position]] - Related passing platform with similar pressure and control concepts
 
-- [[Knee Shield Half Guard]] - Defensive structure bottom player attempts to recover during pass
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive structure bottom player attempts to recover during pass
 
-- [[Deep Half Guard]] - Counter-entry available to bottom player if passer drives weight forward
+- [[Positions/Half Guard/Deep Half Guard]] - Counter-entry available to bottom player if passer drives weight forward
 
-- [[Flattened Half Guard]] - Intermediate state that precedes successful leg weave completion
+- [[Positions/Half Guard/Flattened Half Guard]] - Intermediate state that precedes successful leg weave completion
 
-- [[Leg Drag Control]] - Alternative passing outcome when bottom player turns during completion
+- [[Positions/Leg Drag Control]] - Alternative passing outcome when bottom player turns during completion
 
 
 </section>

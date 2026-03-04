@@ -193,11 +193,11 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 ## Available Escapes
 
-### [[Guard Recovery from Combat Base]] (35% of attempts)
+### [[Transitions/Guard Recovery from Combat Base]] (35% of attempts)
 
-### [[Sweep from Combat Base]] (35% of attempts)
+### [[Transitions/Sweep from Combat Base]] (35% of attempts)
 
-### [[Pull Guard from Combat Base]] (30% of attempts)
+### [[Transitions/Pull Guard from Combat Base]] (30% of attempts)
 
 
 
@@ -208,28 +208,28 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 ## Decision Making from This Position
 
 **If opponent maintains open guard with feet on hips and active frames preventing forward movement:**
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Probability: 45%)
+- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 45%)
 
 
 **If opponent attempts to close guard or establish butterfly hooks on posted knee:**
-- Execute **[[Knee Slide from Combat Base]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Knee Slide from Combat Base]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent establishes De La Riva or X-Guard hooks on posted leg:**
-- Execute **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Probability: 55%)
-- Execute **[[Combat Base to Headquarters]]** → [[Headquarters Position]] (Probability: 45%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 55%)
+- Execute **[[Transitions/Combat Base to Headquarters]]** → [[Positions/Headquarters Position]] (Probability: 45%)
 
 
 **If opponent creates distance with strong frames and extends legs to push hips away:**
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 45%)
-- Execute **[[Standing Up from Combat Base]]** → [[Standing Position]] (Probability: 55%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Standing Up from Combat Base]]** → [[Positions/Standing Position]] (Probability: 55%)
 
 
 **If opponent pulls knees to chest in defensive posture or inverts to retain guard:**
-- Execute **[[Double Under Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Double Under Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 
@@ -375,18 +375,18 @@ From combat base, use planted foot to circle around opponent's guard, creating n
 
 ## Related Positions and Techniques
 
-- **[[Closed Guard]]** - Precursor position - Combat Base is established after opening closed guard
-- **[[Open Guard]]** - Parent category - Combat Base is primary stance for top player in open guard
-- **[[Side Control]]** - Primary transition target - Most common destination from combat base passing
-- **[[Headquarters Position]]** - Advanced variation - Deeper knee position with similar passing principles
-- **[[Toreando Pass]]** - Primary transition technique - Most common dynamic pass from combat base
-- **[[Knee Slide from Combat Base]]** - Primary transition technique - High-percentage pressure pass from combat base
-- **[[De La Riva Guard]]** - Counter position - Common guard retention response to combat base
-- **[[Leg Drag Control]]** - Transition target - Alternative passing position from combat base against hooks
-- **[[Butterfly Guard]]** - Counter position - Opponent's hook-based guard for off-balancing combat base
-- **[[Half Guard]]** - Common destination - Position often reached when passes are partially defended
-- **[[Knee on Belly]]** - Alternative target - High-control position accessible from combat base passing
-- **[[Combat Base to Headquarters]]** - Positional advancement transition without completing a full guard pass
+- **[[Positions/Closed Guard]]** - Precursor position - Combat Base is established after opening closed guard
+- **[[Positions/Open Guard]]** - Parent category - Combat Base is primary stance for top player in open guard
+- **[[Positions/Side Control]]** - Primary transition target - Most common destination from combat base passing
+- **[[Positions/Headquarters Position]]** - Advanced variation - Deeper knee position with similar passing principles
+- **[[Transitions/Toreando Pass]]** - Primary transition technique - Most common dynamic pass from combat base
+- **[[Transitions/Knee Slide from Combat Base]]** - Primary transition technique - High-percentage pressure pass from combat base
+- **[[Positions/De La Riva Guard]]** - Counter position - Common guard retention response to combat base
+- **[[Positions/Leg Drag Control]]** - Transition target - Alternative passing position from combat base against hooks
+- **[[Positions/Butterfly Guard]]** - Counter position - Opponent's hook-based guard for off-balancing combat base
+- **[[Positions/Half Guard]]** - Common destination - Position often reached when passes are partially defended
+- **[[Positions/Knee on Belly]]** - Alternative target - High-control position accessible from combat base passing
+- **[[Transitions/Combat Base to Headquarters]]** - Positional advancement transition without completing a full guard pass
 
 
 </section>

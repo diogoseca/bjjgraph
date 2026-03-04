@@ -158,7 +158,7 @@ The defender's role here is counterintuitive because you are actually the top pl
 
 Advanced mounted crucifix controllers bait escape attempts by offering apparent windows, then capitalizing when the bottom player commits energy to a bridge that can be absorbed. This predator-prey dynamic transforms the defender's role from passive control maintenance into active trap-setting, where the opponent's escape attempts become fuel for advancing to submissions or improving control.
 
-**Opponent's Starting Position**: [[Mounted Crucifix]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount/Mounted Crucifix]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Advanced mounted crucifix controllers bait escape attempts by offering apparent 
 ### 1. Drop chest weight forward and sprawl hips down to flatten bottom player's bridge potential
 
 - **When to use**: When you recognize pre-bridge setup cues such as heel placement and hip loading
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: Bottom player's bridge lacks sufficient power to disrupt your balance, and they expend significant energy on a failed attempt
 - **Risk**: Over-committing weight forward can expose your neck to defensive grips if bottom player has any arm mobility
 
 ### 2. Squeeze knees tighter on trapped arms and widen base slightly to absorb lateral bridge force
 
 - **When to use**: During the bridge attempt itself when you feel upward and lateral force through your base
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: Arms remain trapped despite bridge power and bottom player fails to extract, returning to controlled position with depleted energy
 - **Risk**: Widening base too much reduces arm-trapping pressure and may create the extraction space you are trying to deny
 
 ### 3. Flow to back control by inserting hooks and establishing seatbelt as opponent turns to turtle
 
 - **When to use**: When bridge succeeds in creating space and arm extraction is imminent or complete but you maintain upper body proximity
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You transition from mounted crucifix to back control with hooks and harness, maintaining dominant attacking position
 - **Risk**: Opponent may complete turtle turn and begin immediate escape sequences before you can establish full back control
 
 ### 4. Attack submission during bridge transition when opponent's neck is briefly exposed
 
 - **When to use**: When you detect bridge initiation and can threaten a choke to force opponent to abort the escape or accelerate into danger
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: Opponent must choose between continuing escape into tightening choke or aborting bridge attempt to defend neck
 - **Risk**: Committing hands to choke attack reduces your base stability and may actually assist the bridge if not timed correctly
 
@@ -228,11 +228,11 @@ Advanced mounted crucifix controllers bait escape attempts by offering apparent 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mounted Crucifix]]
+### → [[Positions/Mount/Mounted Crucifix]]
 
 Absorb the bridge by dropping weight forward and sprawling hips, maintaining tight knee squeeze on trapped arms throughout the explosion. Time your weight adjustment to arrive heavy just as their bridge peaks. The failed attempt drains their energy significantly, making subsequent escape attempts weaker and opening submission windows.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When bridge partially succeeds and arm extraction begins, immediately transition your control from crucifix to back control. As they turn toward turtle, follow their rotation by sliding your chest onto their back, inserting your near-side hook first, and establishing seatbelt grip. Prioritize maintaining chest-to-back contact throughout their turn rather than fighting to re-establish crucifix.
 

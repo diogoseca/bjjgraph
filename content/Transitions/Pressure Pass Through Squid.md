@@ -21,7 +21,7 @@ This pass represents a critical skill for anyone competing in gi BJJ where moder
 
 Strategically, this technique should be deployed when you recognize squid guard early and before the bottom player establishes secondary grips or leg entanglements that would compound the problem. The pressure pass works best against opponents who rely primarily on the lapel configuration without developing complementary guard retention skills. Against experienced lapel players who chain multiple configurations together, combining pressure with technical lapel clearing produces superior results.
 
-**From Position**: [[Lapel Guard]] (Top)
+**From Position**: [[Positions/Lapel Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this technique should be deployed when you recognize squid guard 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Pressure Pass Through Squid fits into the broader lapel guard passing system
 ## Related Techniques
 
 
-- [[Lapel Guard]] - Starting position where this technique is applied
+- [[Positions/Lapel Guard]] - Starting position where this technique is applied
 
-- [[Side Control]] - Primary destination upon successful pass completion
+- [[Positions/Side Control]] - Primary destination upon successful pass completion
 
-- [[Back Control]] - Position opponent reaches if they counter with sit-up back take
+- [[Positions/Back Control]] - Position opponent reaches if they counter with sit-up back take
 
-- [[Lapel Clear to Toreando Pass]] - Alternative technical approach to passing lapel guard
+- [[Transitions/Lapel Clear to Toreando Pass]] - Alternative technical approach to passing lapel guard
 
-- [[Backstep Around Worm Guard]] - Required technique when opponent has worm guard instead of squid
+- [[Transitions/Backstep Around Worm Guard]] - Required technique when opponent has worm guard instead of squid
 
-- [[Knee Slice Despite Lapel]] - Follow-up option if pressure creates space for knee insertion
+- [[Transitions/Knee Slice Despite Lapel]] - Follow-up option if pressure creates space for knee insertion
 
-- [[Leg Drag While Clearing Lapel]] - Alternative finish when opponent recovers leg position during pass
+- [[Transitions/Leg Drag While Clearing Lapel]] - Alternative finish when opponent recovers leg position during pass
 
-- [[Stack Pass Over Lapel Barrier]] - Variant using vertical pressure instead of horizontal
+- [[Transitions/Stack Pass Over Lapel Barrier]] - Variant using vertical pressure instead of horizontal
 
-- [[Americana from Side Control]] - Primary submission threat from successful pass completion
+- [[Submissions/Americana from Side Control]] - Primary submission threat from successful pass completion
 
-- [[Double Under Pass]] - Alternative pass if forward momentum is established but pressure pass fails
+- [[Transitions/Double Under Pass]] - Alternative pass if forward momentum is established but pressure pass fails
 
 
 </section>

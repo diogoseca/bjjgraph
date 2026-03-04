@@ -146,7 +146,7 @@ description: "Defend against the Escape from Reverse Half Guard in BJJ. Learn to
 
 As the top player in Reverse Half Guard, your opponent's escape attempt represents a critical juncture where they try to rotate from the compromised inverted position back to standard Half Guard. Your primary objective is preventing their hip rotation while maintaining the advantageous reverse angle that gives you superior passing and back take opportunities. Recognizing the early signs of the escape attempt allows you to counter proactively with crossface pressure, hook insertion, or leg extraction before the bottom player completes their recovery. The fundamental defensive principle is maintaining heavy hip-to-hip contact from behind while controlling their upper body to eliminate the space needed for rotation.
 
-**Opponent's Starting Position**: [[Reverse Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Reverse Half Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the top player in Reverse Half Guard, your opponent's escape attempt represen
 ### 1. Drive crossface pressure from behind to block torso rotation
 
 - **When to use**: When you feel the bottom player creating frames against your hips or beginning to hip escape away from you
-- **Targets**: [[Reverse Half Guard]]
+- **Targets**: [[Positions/Half Guard/Reverse Half Guard]]
 - **If successful**: Bottom player remains trapped in reverse half guard with their rotation blocked, allowing you to continue advancing your pass or back take
 - **Risk**: Overcommitting to crossface may expose space on the opposite side for the bottom player to rotate in the other direction
 
 ### 2. Insert hooks and establish back control during the rotation window
 
 - **When to use**: When the bottom player has begun rotating and their back is maximally exposed during the transition
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You secure dominant back control position with hooks and seat belt grip, converting their escape attempt into a worse positional outcome
 - **Risk**: If bottom player completes rotation before hooks are secured, you lose the reverse angle advantage and end up in standard half guard
 
 ### 3. Extract trapped leg and complete guard pass during escape attempt
 
 - **When to use**: When the bottom player loosens leg control during rotation to focus on hip movement and frame creation
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You free your trapped leg and advance to side control, completing the guard pass while opponent focuses on rotation rather than leg retention
 - **Risk**: If extraction fails, bottom player may use your leg movement to assist their rotation and recover standard half guard more easily
 
 ### 4. Drive weight forward to collapse frames and re-flatten bottom player
 
 - **When to use**: At the very beginning of the escape attempt when frames are not yet fully established and structural
-- **Targets**: [[Reverse Half Guard]]
+- **Targets**: [[Positions/Half Guard/Reverse Half Guard]]
 - **If successful**: Bottom player's frames collapse under your weight, eliminating the space needed for rotation and returning them to controlled reverse half guard
 - **Risk**: Heavy forward pressure committed at the wrong moment may provide momentum the bottom player redirects for a sweep or back take
 
@@ -217,11 +217,11 @@ As the top player in Reverse Half Guard, your opponent's escape attempt represen
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Time your hook insertion to coincide with the bottom player's rotation when their back is maximally exposed. As they turn, follow their movement and establish seat belt grip with hooks, converting their escape attempt into dominant back control.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the bottom player loosens their leg control to create rotational space, immediately extract your trapped leg using a backstep or leg drag motion and consolidate to side control before they can recover guard.
 

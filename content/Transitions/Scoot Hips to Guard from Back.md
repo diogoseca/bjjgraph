@@ -21,7 +21,7 @@ The strategic value of this escape lies in its directness and reliability. Unlik
 
 Timing is critical for this technique. The ideal moment to initiate the hip scoot is after successfully defending the initial choking threat and establishing hand control on the opponent's seatbelt grip. Attempting to scoot before securing the neck invites immediate submission, while waiting too long allows the opponent to tighten their control and transition to body triangle or crucifix. The escape requires patience during the hand fighting phase followed by decisive hip movement once the opportunity presents itself.
 
-**From Position**: [[Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Timing is critical for this technique. The ideal moment to initiate the hip scoo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -193,23 +193,23 @@ The hip scoot escape from back control occupies a critical role in the BJJ posit
 ## Related Techniques
 
 
-- [[Back Control]] - Source position from which this escape technique is executed
+- [[Positions/Back Control]] - Source position from which this escape technique is executed
 
-- [[Half Guard]] - Primary recovery position achieved through successful hip scoot escape
+- [[Positions/Half Guard]] - Primary recovery position achieved through successful hip scoot escape
 
-- [[Mount]] - Position opponent may transition to if escape attempt is countered during rotation phase
+- [[Positions/Mount]] - Position opponent may transition to if escape attempt is countered during rotation phase
 
-- [[Hip Escape from Back Control]] - Related escape technique using similar hip movement mechanics from back control
+- [[Transitions/Hip Escape from Back Control]] - Related escape technique using similar hip movement mechanics from back control
 
-- [[Elbow Escape from Back]] - Alternative escape technique that complements hip scooting when hooks prevent downward movement
+- [[Transitions/Elbow Escape from Back]] - Alternative escape technique that complements hip scooting when hooks prevent downward movement
 
-- [[Back Door Escape]] - Comprehensive escape system that shares defensive hand fighting principles with this technique
+- [[Transitions/Back Door Escape]] - Comprehensive escape system that shares defensive hand fighting principles with this technique
 
-- [[Hand Fight to Turtle from Back]] - Alternative escape direction targeting turtle position rather than guard recovery
+- [[Transitions/Hand Fight to Turtle from Back]] - Alternative escape direction targeting turtle position rather than guard recovery
 
-- [[Body Triangle]] - Back control variation that significantly complicates hip scooting escape mechanics
+- [[Positions/Back Control/Body Triangle]] - Back control variation that significantly complicates hip scooting escape mechanics
 
-- [[Seat Belt Control Back]] - Upper body control configuration that must be addressed before hip movement begins
+- [[Positions/Back Control/Seat Belt Control Back]] - Upper body control configuration that must be addressed before hip movement begins
 
 
 </section>

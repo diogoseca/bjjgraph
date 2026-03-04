@@ -154,7 +154,7 @@ description: "Prevent guard recovery from Reverse Half Guard as the top player i
 
 As the top player in reverse half guard, you hold a significant positional advantage because the bottom player's back is partially exposed and their guard frames face the wrong direction. Your objective during their recovery attempt is to prevent the rotation that would allow them to face you and establish standard half guard. You have three primary strategies: maintain the reverse half guard by denying rotation through crossface and hip pressure, escalate to back control by establishing the seatbelt grip during their turning attempts, or advance past the half guard entirely by extracting your trapped leg and moving to side control or mount. The bottom player's rotation attempt often creates the movement that enables your own advancement—their bridge creates the space for your leg extraction, and their turning exposes gripping opportunities for back control.
 
-**Opponent's Starting Position**: [[Reverse Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Reverse Half Guard]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ As the top player in reverse half guard, you hold a significant positional advan
 ### 1. Drive heavy crossface or shoulder-of-justice pressure on the back of the bottom player's head to flatten their rotation attempt and maintain the reverse orientation
 
 - **When to use**: When the bottom player begins bridging and initiating the rotation toward you
-- **Targets**: [[Reverse Half Guard]]
+- **Targets**: [[Positions/Half Guard/Reverse Half Guard]]
 - **If successful**: Bottom player is flattened back to reverse half guard with back exposed, resetting their recovery attempt and allowing you to continue working for advancement
 - **Risk**: If the crossface is too high on the head rather than driving through the jaw, the bottom player can duck under the pressure and complete the rotation
 
 ### 2. Establish seatbelt grip during the bottom player's rotation attempt, converting their turning movement into a back take opportunity
 
 - **When to use**: When the bottom player creates space with their bridge and their far arm lifts away from their body during rotation
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You secure dominant back control with seatbelt grip, transitioning from half guard top to a superior position with rear naked choke and other back attack threats
 - **Risk**: Overreaching for the seatbelt without maintaining base can allow the bottom player to complete the rotation while you are extended, ending in their standard half guard with underhook
 
 ### 3. Extract your trapped leg during the bottom player's bridge by stepping over or sliding your knee through the loosened half guard hook, advancing to side control or mount
 
 - **When to use**: When the bottom player's bridge creates space around your trapped leg and loosens the half guard hook
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You free your trapped leg and advance to side control or mount, completely passing the bottom player's guard during their recovery attempt
 - **Risk**: If the bottom player maintains a tight hook despite the bridge, your extraction attempt may stall and give them time to complete the rotation
 
 ### 4. Sprawl your hips back and drive your weight low to deny the bridge space needed for rotation, maintaining flat chest-on-back pressure
 
 - **When to use**: When the bottom player attempts repeated bridges and you want to exhaust their rotation attempts without risking position
-- **Targets**: [[Reverse Half Guard]]
+- **Targets**: [[Positions/Half Guard/Reverse Half Guard]]
 - **If successful**: Bottom player's bridge attempts are neutralized by your low hip pressure, exhausting their energy while maintaining your positional advantage
 - **Risk**: Prolonged sprawling without advancing allows the bottom player to switch to pummel-based rotation that does not require bridge space
 
@@ -224,11 +224,11 @@ As the top player in reverse half guard, you hold a significant positional advan
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Extract your trapped leg during the bottom player's bridge by sliding your knee through the loosened half guard hook, or establish seatbelt grip during their rotation and advance to dominant back control position from which you can transition to side control
 
-### → [[Reverse Half Guard]]
+### → [[Positions/Half Guard/Reverse Half Guard]]
 
 Deny the rotation through sustained crossface or shoulder pressure on the back of the bottom player's head, keeping their back exposed and preventing them from achieving the face-to-face orientation needed for standard half guard
 

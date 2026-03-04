@@ -186,7 +186,7 @@ description: "Execute the Reversal from Leg Knot as the bottom player. Systemati
 
 Executing the Reversal from Leg Knot requires precise timing, mechanical understanding of entanglement dynamics, and full commitment to the sweep once initiated. The attacker must identify the optimal moment when the top player's base is compromised during submission transitions, then apply coordinated hip rotation and free leg driving force through the entangled legs to sweep the opponent. The technique demands that practitioners balance defensive heel protection with offensive sweeping mechanics throughout the reversal sequence, as abandoning joint safety during the transition creates vulnerability to last-second submissions. Success hinges on reading the opponent's weight distribution and grip commitment rather than relying on explosive strength alone.
 
-**From Position**: [[Leg Knot]] (Bottom)
+**From Position**: [[Positions/Leg Knot]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Reversal from Leg Knot requires precise timing, mechanical underst
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 35% |
-| Failure | [[Leg Knot]] | 40% |
-| Counter | [[Saddle]] | 25% |
+| Success | [[Positions/Mount]] | 35% |
+| Failure | [[Positions/Leg Knot]] | 40% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 25% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Reversal from Leg Knot requires precise timing, mechanical underst
 
 ## Opponent Counters
 
-- **Opponent posts free hand on mat to resist rotational sweep force** (Effectiveness: High) - Your Response: Redirect sweeping direction toward the posting arm side to load their arm with your body weight, or switch to secondary sweep angle that bypasses the post entirely. → Leads to [[Leg Knot]]
-- **Opponent tightens leg entanglement and drops weight to neutralize hip rotation** (Effectiveness: Medium) - Your Response: Abandon the reversal and immediately transition to counter-entanglement options such as 50-50 Guard entry or reverse entanglement to Outside Ashi-Garami. → Leads to [[Leg Knot]]
-- **Opponent advances to Saddle configuration using the reversal movement's leg loosening** (Effectiveness: High) - Your Response: Immediately address the new positional threat by protecting heel and fighting the knee line crossing before opponent consolidates the Saddle. → Leads to [[Saddle]]
-- **Opponent releases leg control and establishes upper body crossface to flatten you** (Effectiveness: Medium) - Your Response: Use the freed leg to establish guard recovery frames since the opponent has voluntarily released the entanglement to prevent the sweep. → Leads to [[Leg Knot]]
+- **Opponent posts free hand on mat to resist rotational sweep force** (Effectiveness: High) - Your Response: Redirect sweeping direction toward the posting arm side to load their arm with your body weight, or switch to secondary sweep angle that bypasses the post entirely. → Leads to [[Positions/Leg Knot]]
+- **Opponent tightens leg entanglement and drops weight to neutralize hip rotation** (Effectiveness: Medium) - Your Response: Abandon the reversal and immediately transition to counter-entanglement options such as 50-50 Guard entry or reverse entanglement to Outside Ashi-Garami. → Leads to [[Positions/Leg Knot]]
+- **Opponent advances to Saddle configuration using the reversal movement's leg loosening** (Effectiveness: High) - Your Response: Immediately address the new positional threat by protecting heel and fighting the knee line crossing before opponent consolidates the Saddle. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent releases leg control and establishes upper body crossface to flatten you** (Effectiveness: Medium) - Your Response: Use the freed leg to establish guard recovery frames since the opponent has voluntarily released the entanglement to prevent the sweep. → Leads to [[Positions/Leg Knot]]
 
 
 </section>

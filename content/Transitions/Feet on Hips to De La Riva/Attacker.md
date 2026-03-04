@@ -186,7 +186,7 @@ description: "Execute the feet on hips to De La Riva guard transition. Step-by-s
 
 As the bottom player in feet on hips guard, transitioning to De La Riva represents a deliberate upgrade from basic distance management to an angular, hook-based control system with significantly greater offensive potential. The transition requires coordinating the removal of one foot from the opponent's hip, threading the freed leg behind their lead knee as a DLR hook, and simultaneously transferring grips to establish the full DLR control framework. Success depends on reading the opponent's stance, timing the entry to coincide with their weight commitment, and maintaining distance control through the remaining foot throughout the vulnerable transition phase. The reward for a clean entry is access to the entire DLR attack ecosystem, including berimbolo sequences, X-Guard transitions, and powerful sweeping chains.
 
-**From Position**: [[Feet on Hips Guard]] (Bottom)
+**From Position**: [[Positions/Feet on Hips Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the bottom player in feet on hips guard, transitioning to De La Riva represen
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[De La Riva Guard]] | 55% |
-| Failure | [[Feet on Hips Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/De La Riva Guard]] | 55% |
+| Failure | [[Positions/Feet on Hips Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the bottom player in feet on hips guard, transitioning to De La Riva represen
 
 ## Opponent Counters
 
-- **Opponent strips ankle grip and circles lead leg away from hook attempt** (Effectiveness: High) - Your Response: Immediately retract the hooking leg and replace your foot on their hip to restore the feet-on-hips structure. If they advance during the grip break, transition to butterfly guard or closed guard rather than re-attempting DLR against a prepared opponent. → Leads to [[Feet on Hips Guard]]
-- **Opponent drives forward with heavy pressure to flatten guard before hook threads** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by pulling with your remaining foot on their hip and your collar or sleeve grip. Convert the failed DLR attempt into a scissor sweep or pendulum sweep opportunity, exploiting the committed weight distribution they created by driving forward. → Leads to [[Feet on Hips Guard]]
-- **Opponent backsteps over the hooking leg and initiates a pass** (Effectiveness: High) - Your Response: Follow their backstep with your hips, converting the DLR hook attempt into a reverse De La Riva position or recovering to shin-on-shin guard. Keep your grips active to prevent them from achieving a dominant passing position and immediately re-engage with an alternative guard system. → Leads to [[Open Guard]]
-- **Opponent grabs the hooking ankle and pins it to the mat before hook fully threads** (Effectiveness: Medium) - Your Response: Circle your hooking foot sharply outward to strip their ankle grip using rotational leverage from your hip movement. If the grip holds, abandon the DLR entry, replace your foot on their hip, and transition to spider guard or lasso guard where your already-engaged upper body grips support an alternative guard configuration. → Leads to [[Feet on Hips Guard]]
+- **Opponent strips ankle grip and circles lead leg away from hook attempt** (Effectiveness: High) - Your Response: Immediately retract the hooking leg and replace your foot on their hip to restore the feet-on-hips structure. If they advance during the grip break, transition to butterfly guard or closed guard rather than re-attempting DLR against a prepared opponent. → Leads to [[Positions/Feet on Hips Guard]]
+- **Opponent drives forward with heavy pressure to flatten guard before hook threads** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by pulling with your remaining foot on their hip and your collar or sleeve grip. Convert the failed DLR attempt into a scissor sweep or pendulum sweep opportunity, exploiting the committed weight distribution they created by driving forward. → Leads to [[Positions/Feet on Hips Guard]]
+- **Opponent backsteps over the hooking leg and initiates a pass** (Effectiveness: High) - Your Response: Follow their backstep with your hips, converting the DLR hook attempt into a reverse De La Riva position or recovering to shin-on-shin guard. Keep your grips active to prevent them from achieving a dominant passing position and immediately re-engage with an alternative guard system. → Leads to [[Positions/Open Guard]]
+- **Opponent grabs the hooking ankle and pins it to the mat before hook fully threads** (Effectiveness: Medium) - Your Response: Circle your hooking foot sharply outward to strip their ankle grip using rotational leverage from your hip movement. If the grip holds, abandon the DLR entry, replace your foot on their hip, and transition to spider guard or lasso guard where your already-engaged upper body grips support an alternative guard configuration. → Leads to [[Positions/Feet on Hips Guard]]
 
 
 </section>

@@ -26,8 +26,8 @@ The submission can be entered from various side control variations including sta
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint
-**Starting Position**: [[Side Control]]
-**From Position**: [[Side Control]] (Top)
+**Starting Position**: [[Positions/Side Control]]
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 62%
 
 </section>
@@ -81,8 +81,8 @@ The submission can be entered from various side control variations including sta
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -235,13 +235,13 @@ The submission can be entered from various side control variations including sta
 
 ## From Which Positions?
 
-- [[Side Control]]
-- [[Kesa Gatame]]
-- [[Kuzure Kesa-Gatame]]
-- [[Modified Scarf Hold]]
-- [[North-South]]
-- [[Knee on Belly]]
-- [[Side Control Consolidation]]
+- [[Positions/Side Control]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/North-South]]
+- [[Positions/Knee on Belly]]
+- [[Positions/Side Control/Side Control Consolidation]]
 
 
 </section>
@@ -250,15 +250,15 @@ The submission can be entered from various side control variations including sta
 
 ## Related Submissions
 
-- [[Armbar from Mount]]
-- [[Armbar from Guard]]
-- [[Kimura from Side Control]]
-- [[Americana from Side Control]]
-- [[Arm Triangle]]
-- [[Far Side Armbar]]
-- [[North-South Choke]]
-- [[Kimura from North-South]]
-- [[Reverse Armbar]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Kimura from Side Control]]
+- [[Submissions/Americana from Side Control]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Far Side Armbar]]
+- [[Transitions/North-South Choke]]
+- [[Submissions/Kimura from North-South]]
+- [[Submissions/Reverse Armbar]]
 
 
 </section>
@@ -267,16 +267,16 @@ The submission can be entered from various side control variations including sta
 
 ## Additional Related Content
 
-- [[Side Control]] - Primary starting position for this submission
-- [[Kesa Gatame]] - Alternative starting position with similar mechanics
-- [[Mount]] - Alternative dominant position for armbar variations
-- [[Kimura Trap]] - Chain attack position if armbar is defended
-- [[Armbar Control]] - Control position for maintaining armbar finishing position
-- [[Side Control to Mount]] - Alternative transition if armbar is not available
-- [[Side Control to North-South]] - Position transition that can lead to armbar setup
-- [[Armbar from Guard]] - General finishing mechanics applicable to all armbar variations
-- [[Gift Wrap]] - Control position that can transition to armbar
-- [[Kuzure Kesa-Gatame]] - Modified scarf hold with arm isolation ideal for armbar entry
+- [[Positions/Side Control]] - Primary starting position for this submission
+- [[Positions/Side Control/Kesa Gatame]] - Alternative starting position with similar mechanics
+- [[Positions/Mount]] - Alternative dominant position for armbar variations
+- [[Positions/Kimura Trap]] - Chain attack position if armbar is defended
+- [[Positions/Armbar Control]] - Control position for maintaining armbar finishing position
+- [[Transitions/Side Control to Mount]] - Alternative transition if armbar is not available
+- [[Transitions/Side Control to North-South]] - Position transition that can lead to armbar setup
+- [[Submissions/Armbar from Guard]] - General finishing mechanics applicable to all armbar variations
+- [[Positions/Gift Wrap]] - Control position that can transition to armbar
+- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Modified scarf hold with arm isolation ideal for armbar entry
 
 
 </section>

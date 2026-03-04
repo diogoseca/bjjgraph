@@ -21,7 +21,7 @@ The biomechanics of posture recovery against a locked triangle require precise c
 
 Timing is the primary determinant of success rate, outweighing physical attributes by a significant margin. The optimal posture recovery window occurs during the attacker's leg adjustment phases, when the triangle lock loosens briefly as they reposition for tighter closure. Recognizing these adjustment windows through tactile sensitivity and executing immediate posture recovery during them dramatically increases escape probability. Conversely, attempting posture against a fully cinched triangle with optimal perpendicular angle represents one of the lowest-percentage defensive scenarios in the art. The technique's success leads to half guard top when the postural disruption creates sufficient space for partial extraction and leg clearing, establishing an offensive passing platform from what was moments earlier a life-threatening submission scenario.
 
-**From Position**: [[Triangle Escape Position]] (Bottom)
+**From Position**: [[Positions/Triangle Escape Position]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Timing is the primary determinant of success rate, outweighing physical attribut
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Triangle Escape Position]] | 30% |
-| Counter | [[Armbar Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Triangle Escape Position]] | 30% |
+| Counter | [[Positions/Armbar Control]] | 20% |
 
 
 </section>
@@ -193,25 +193,25 @@ Posture in Triangle Escape serves as the foundational defensive transition withi
 ## Related Techniques
 
 
-- [[Triangle Escape Position]] - Source position where this posture recovery technique is initiated from the bottom defensive role
+- [[Positions/Triangle Escape Position]] - Source position where this posture recovery technique is initiated from the bottom defensive role
 
-- [[Half Guard]] - Primary target position reached upon successful posture recovery and partial extraction from triangle
+- [[Positions/Half Guard]] - Primary target position reached upon successful posture recovery and partial extraction from triangle
 
-- [[Armbar Control]] - Counter outcome position when opponent transitions to armbar during posture recovery attempt
+- [[Positions/Armbar Control]] - Counter outcome position when opponent transitions to armbar during posture recovery attempt
 
-- [[Complete Triangle Escape]] - Full escape sequence from same position that builds upon successful posture recovery as prerequisite
+- [[Transitions/Complete Triangle Escape]] - Full escape sequence from same position that builds upon successful posture recovery as prerequisite
 
-- [[Complete Triangle Escape from Top]] - Related complete escape from the top perspective of triangle escape position
+- [[Transitions/Complete Triangle Escape from Top]] - Related complete escape from the top perspective of triangle escape position
 
-- [[Posture Up from Triangle]] - Closely related posture technique initiated from Triangle Control rather than Triangle Escape Position
+- [[Transitions/Posture Up from Triangle]] - Closely related posture technique initiated from Triangle Control rather than Triangle Escape Position
 
-- [[Closed Guard]] - Common defensive position in the guard hierarchy related to triangle escape recovery
+- [[Positions/Closed Guard]] - Common defensive position in the guard hierarchy related to triangle escape recovery
 
-- [[Combat Base]] - Intermediate stabilization position used during combat base posture recovery variant
+- [[Positions/Combat Base]] - Intermediate stabilization position used during combat base posture recovery variant
 
-- [[Side Control]] - Downstream advancement position after successful escape and subsequent guard passing
+- [[Positions/Side Control]] - Downstream advancement position after successful escape and subsequent guard passing
 
-- [[Omoplata Control]] - Secondary submission threat opponent may attempt when posture recovery disrupts triangle structure
+- [[Positions/Omoplata Control]] - Secondary submission threat opponent may attempt when posture recovery disrupts triangle structure
 
 
 </section>

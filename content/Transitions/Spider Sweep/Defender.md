@@ -154,7 +154,7 @@ description: "Learn to defend the Spider Sweep in BJJ. Recognition cues, base ad
 
 Defending the Spider Sweep requires the top player to recognize the setup early, maintain proper base fundamentals, and systematically address the bottom player's control points before the sweep can be loaded. The defender must understand that the Spider Sweep relies on three elements working together: the hip angle creating the diagonal force line, the sleeve grip providing the pulling force, and the foot on the bicep providing the pushing force. Removing any one of these three elements prevents the sweep from functioning. The most effective defense combines proactive grip breaking with base adjustments, preventing the sweep from reaching the loading phase rather than trying to resist it once the rotational force is applied. Reactive defense against a fully loaded Spider Sweep is significantly more difficult than early prevention through recognition and systematic grip management.
 
-**Opponent's Starting Position**: [[Spider Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the Spider Sweep requires the top player to recognize the setup early,
 ### 1. Post the same-side hand on the mat toward the sweep direction to block the rotation
 
 - **When to use**: When you feel your weight being loaded to one side and the scissoring force has already begun
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: The sweep stalls as your posted hand creates a structural block against the rotational force, allowing you to reset your base
 - **Risk**: Posting removes one hand from the grip battle and may expose that arm to triangle or omoplata entries if the bottom player transitions
 
 ### 2. Strip the near-side sleeve grip using a two-on-one break while stepping back to create distance
 
 - **When to use**: Early in the setup when you recognize the hip angle shift but before the sweep is fully loaded
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Breaking the grip removes the pulling force essential to the sweep and creates a passing opportunity before the grip can be re-established
 - **Risk**: Committing both hands to the grip break momentarily compromises your base and may allow the bottom player to transition to a different attack
 
 ### 3. Widen base and lower center of gravity by bending knees and spreading feet while keeping weight centered
 
 - **When to use**: When you recognize sweep setup but cannot immediately break grips, as a stalling defense to buy time
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: The wider base and lower center of gravity make it structurally impossible for the scissoring force to generate enough rotation to complete the sweep
 - **Risk**: A static wide base may open opportunities for the bottom player to transition to overhead balloon sweep or omoplata entries that exploit the widened stance
 
 ### 4. Drive forward aggressively into the bottom player to stack them and collapse the spider guard structure
 
 - **When to use**: When you have strong grips on the bottom player's pants or belt and can drive weight through their guard structure before the sweep loads
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Forward pressure collapses the spider guard framework, folding the bottom player and preventing them from generating the extension needed for the sweep
 - **Risk**: If the bottom player reads the forward drive, they can redirect your momentum into an overhead balloon sweep using your own weight against you
 
@@ -226,11 +226,11 @@ Defending the Spider Sweep requires the top player to recognize the setup early,
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip both sleeve grips using systematic two-on-one breaks, then immediately control the opponent's pants at the knees and drive forward pressure to flatten their guard before they can re-establish spider guard control. The moment grips break, transition to passing rather than allowing regripping.
 
-### → [[Spider Guard]]
+### → [[Positions/Spider Guard]]
 
 Maintain centered base with wide stance and prevent the hip angle creation by applying forward pressure that keeps the bottom player flat. Address grip breaks one at a time while keeping your base stable. Even if grips remain, preventing the angle and keeping weight centered makes the sweep mechanically impossible to execute.
 

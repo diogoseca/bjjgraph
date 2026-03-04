@@ -21,7 +21,7 @@ The passing sequence demands disciplined execution through three distinct phases
 
 Competition application reveals that practitioners unfamiliar with rubber guard defense consistently make the critical error of applying standard forward pressure, which feeds directly into the bottom player's submission chains. The guard pass from New York Control rewards patient execution and mechanical understanding over athletic passing attempts, making it an essential technique for any competitor who may encounter 10th Planet practitioners or rubber guard specialists in tournament settings.
 
-**From Position**: [[New York Control]] (Top)
+**From Position**: [[Positions/Rubber Guard/New York Control]] (Top)
 **Success Rate**: 48%
 
 </section>
@@ -32,9 +32,9 @@ Competition application reveals that practitioners unfamiliar with rubber guard 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 48% |
-| Failure | [[New York Control]] | 34% |
-| Counter | [[Closed Guard]] | 18% |
+| Success | [[Positions/Side Control]] | 48% |
+| Failure | [[Positions/Rubber Guard/New York Control]] | 34% |
+| Counter | [[Positions/Closed Guard]] | 18% |
 
 
 </section>
@@ -191,23 +191,23 @@ The guard pass from New York Control connects the rubber guard defensive scenari
 ## Related Techniques
 
 
-- [[New York Control]] - Source position being escaped during the guard pass sequence
+- [[Positions/Rubber Guard/New York Control]] - Source position being escaped during the guard pass sequence
 
-- [[Side Control]] - Target position achieved on successful pass completion
+- [[Positions/Side Control]] - Target position achieved on successful pass completion
 
-- [[Closed Guard]] - Recovery position when bottom player counters the pass attempt
+- [[Positions/Closed Guard]] - Recovery position when bottom player counters the pass attempt
 
-- [[Mission Control]] - Related rubber guard position with similar escape mechanics and common transition target
+- [[Positions/Rubber Guard/Mission Control]] - Related rubber guard position with similar escape mechanics and common transition target
 
-- [[Invisible Collar]] - Adjacent rubber guard position that may be encountered during pass attempts
+- [[Positions/Rubber Guard/Invisible Collar]] - Adjacent rubber guard position that may be encountered during pass attempts
 
-- [[Rubber Guard]] - Parent guard system containing New York Control and related positions
+- [[Positions/Rubber Guard]] - Parent guard system containing New York Control and related positions
 
-- [[Combat Base]] - Intermediate posture used during overhook extraction and pass setup
+- [[Positions/Combat Base]] - Intermediate posture used during overhook extraction and pass setup
 
-- [[Headquarters Position]] - Passing platform achieved after clearing rubber guard controls
+- [[Positions/Headquarters Position]] - Passing platform achieved after clearing rubber guard controls
 
-- [[Chill Dog]] - Related rubber guard position requiring similar defensive approach from top
+- [[Positions/Rubber Guard/Chill Dog]] - Related rubber guard position requiring similar defensive approach from top
 
 
 </section>

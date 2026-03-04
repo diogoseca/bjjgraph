@@ -180,7 +180,7 @@ description: "Complete attacker guide for the Gift Wrap from Back transition. Le
 
 As the attacker executing the Gift Wrap from Back, your objective is to upgrade standard back control into a superior control position by isolating one of your opponent's arms. The transition begins from established back control with seatbelt grip and hooks or body triangle. You identify which arm is most accessible—typically the arm your opponent is using to defend the choke or the arm that has become momentarily extended during hand fighting—and capture the wrist or forearm. You then thread your controlling arm under their armpit and pull their arm diagonally across their chest to the opposite shoulder, locking in the gift wrap configuration. Throughout this process, you must maintain your fundamental back control structure: hooks stay engaged, chest stays connected to their back, and your hips remain directly behind theirs. The gift wrap is an enhancement to back control, never a replacement for it.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Gift Wrap from Back, your objective is to upgrade 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Gift Wrap]] | 55% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Gift Wrap]] | 55% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Gift Wrap from Back, your objective is to upgrade 
 
 ## Opponent Counters
 
-- **Opponent pins elbow tight to ribs preventing arm isolation** (Effectiveness: High) - Your Response: Switch to attacking the opposite arm if it is more accessible, or use your free hand to pry the elbow away from the ribs by inserting your fingers behind the elbow and levering it outward. Alternatively, attack the neck to force them to raise the arm for defense. → Leads to [[Back Control]]
-- **Opponent strips wrist control with their free hand before threading completes** (Effectiveness: Medium) - Your Response: Immediately re-engage the seatbelt grip to prevent position loss, then reattempt the capture when the opponent's free hand returns to neck defense. Chain the gift wrap attempt with a choke feint to force the defending hand back to the neck. → Leads to [[Back Control]]
-- **Opponent explosively bridges and rotates during the arm threading moment** (Effectiveness: Medium) - Your Response: Abandon the gift wrap attempt immediately and prioritize re-securing hooks and seatbelt control. Drive your hips forward and chest down to absorb the bridge energy. If rotation continues, follow their movement and look to re-establish back control or transition to a mounted position. → Leads to [[Half Guard]]
-- **Opponent grabs their own wrist, gi, or shorts to anchor the target arm against their body** (Effectiveness: Low) - Your Response: Use two-on-one grip breaking to peel the anchor grip. Attack the anchoring hand's fingers or wrist to break the connection, then immediately thread the freed arm across before they can re-establish the anchor. In gi, this grip is stronger but can be defeated by feeding the lapel to break the connection. → Leads to [[Back Control]]
+- **Opponent pins elbow tight to ribs preventing arm isolation** (Effectiveness: High) - Your Response: Switch to attacking the opposite arm if it is more accessible, or use your free hand to pry the elbow away from the ribs by inserting your fingers behind the elbow and levering it outward. Alternatively, attack the neck to force them to raise the arm for defense. → Leads to [[Positions/Back Control]]
+- **Opponent strips wrist control with their free hand before threading completes** (Effectiveness: Medium) - Your Response: Immediately re-engage the seatbelt grip to prevent position loss, then reattempt the capture when the opponent's free hand returns to neck defense. Chain the gift wrap attempt with a choke feint to force the defending hand back to the neck. → Leads to [[Positions/Back Control]]
+- **Opponent explosively bridges and rotates during the arm threading moment** (Effectiveness: Medium) - Your Response: Abandon the gift wrap attempt immediately and prioritize re-securing hooks and seatbelt control. Drive your hips forward and chest down to absorb the bridge energy. If rotation continues, follow their movement and look to re-establish back control or transition to a mounted position. → Leads to [[Positions/Half Guard]]
+- **Opponent grabs their own wrist, gi, or shorts to anchor the target arm against their body** (Effectiveness: Low) - Your Response: Use two-on-one grip breaking to peel the anchor grip. Attack the anchoring hand's fingers or wrist to break the connection, then immediately thread the freed arm across before they can re-establish the anchor. In gi, this grip is stronger but can be defeated by feeding the lapel to break the connection. → Leads to [[Positions/Back Control]]
 
 
 </section>

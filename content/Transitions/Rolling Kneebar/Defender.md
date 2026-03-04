@@ -156,7 +156,7 @@ Defending the Rolling Kneebar requires recognizing the attack before the roll co
 
 The defender's strategic framework operates on a timeline: before the roll begins, you can prevent it entirely through posture and base management; during the roll, you can disrupt it with sprawling or stepping mechanics; after the roll completes, you must address the kneebar control position directly. Each phase demands different responses, and the defender who can accurately read which phase they are in will choose the most effective counter. The fundamental defensive dilemma is that bending your knee to defend the kneebar extension can expose you to calf slicer attacks, while keeping the leg straight makes the kneebar finish easier. Navigating this tension requires understanding when to prioritize each response based on the attacker's grip quality and hip position.
 
-**Opponent's Starting Position**: [[Grasshopper Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ The defender's strategic framework operates on a timeline: before the roll begin
 ### 1. Post hand and sprawl immediately upon detecting lateral hip shift
 
 - **When to use**: Early stage - when you detect the roll initiation before the attacker's rotation begins, this is the highest-percentage defense
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: Roll is completely stopped, attacker remains on their back in grasshopper with disrupted positioning, you can begin passing or disengage
 - **Risk**: If you sprawl too late after rotation has begun, your posted hand may get trapped under the rolling body
 
 ### 2. Step over the rolling body with your free leg while pulling the trapped leg backward
 
 - **When to use**: Mid-stage - when the roll has begun but not yet completed, stepping over allows you to clear the entanglement before the figure-four locks
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: You extract your leg from the rolling entanglement and establish passing position or reset to standing over the guard
 - **Risk**: Stepping over exposes your free leg to potential secondary entanglement if the attacker follows with their hips
 
 ### 3. Drive forward aggressively to flatten the inversion before roll develops
 
 - **When to use**: Pre-emptive - when you recognize the grasshopper player is setting up for the roll but has not yet committed, forward pressure collapses their inversion
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent's grasshopper guard is flattened, their hips drop to the mat, and you can advance to side control or initiate a stack pass
 - **Risk**: If the roll has already begun, forward drive feeds momentum into their rotation and can accelerate the kneebar entry
 
 ### 4. Bend the trapped knee maximally and rotate your hip toward the attacker to deny extension angle
 
 - **When to use**: Late stage - when the roll is complete and the attacker has established belly-down position, this prevents the finish while you work to extract
-- **Targets**: [[Kneebar Control]]
+- **Targets**: [[Positions/Kneebar Control]]
 - **If successful**: The kneebar cannot be finished because your bent knee denies the hyperextension angle, buying time to work your leg free or counter-attack
 - **Risk**: Sustained bent-knee defense against a tight figure-four exposes you to calf slicer transition
 
@@ -228,11 +228,11 @@ The defender's strategic framework operates on a timeline: before the roll begin
 
 ## Best-Case Outcomes for Defender
 
-### → [[Grasshopper Guard]]
+### → [[Positions/Grasshopper Guard]]
 
 Stop the roll before it develops by sprawling with your hips back and posting your hand on the mat when you detect the lateral hip shift. Alternatively, step over the rolling body with your free leg while pulling the trapped leg backward to extract it from the entanglement.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Drive forward aggressively before the roll initiates to collapse the opponent's grasshopper inversion. Their flattened position allows you to advance past their legs into side control. This outcome is less favorable than stopping the roll but still preferable to being caught in kneebar control.
 

@@ -154,7 +154,7 @@ description: "Complete guide to defending the Stack Pass while maintaining Missi
 
 As the defender against the Stack Pass from Mission Control, you are the bottom player maintaining rubber guard control when your opponent commits to forward stacking pressure rather than posture recovery or arm extraction. Your role shifts from maintaining static control to dynamically redirecting the opponent's forward momentum into submission entries or sweep opportunities. The stack pass directly threatens your primary control mechanism—hip elevation—so successful defense requires recognizing the stack early and transitioning to positions that capitalize on the opponent's committed forward weight distribution rather than fighting the stacking pressure head-on.
 
-**Opponent's Starting Position**: [[Mission Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Mission Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the Stack Pass from Mission Control, you are the bottom 
 ### 1. Transition to omoplata by redirecting the forward stacking momentum into hip rotation and arm isolation
 
 - **When to use**: As soon as you recognize the stack initiation and before the opponent's weight fully commits forward—the early stack creates the hip angle needed for omoplata entry
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You catch the opponent in omoplata control with their arm isolated behind your hip, creating a direct submission or sweep opportunity
 - **Risk**: If the opponent keeps elbows extremely tight, the omoplata entry may fail and the stacking pressure continues unimpeded
 
 ### 2. Shrimp hips away to create distance and re-establish Mission Control grips before the guard structure collapses
 
 - **When to use**: When the initial stacking pressure is moderate and you have enough hip mobility to create lateral space while maintaining leg and arm connections
-- **Targets**: [[Mission Control]]
+- **Targets**: [[Positions/Rubber Guard/Mission Control]]
 - **If successful**: You reset the position to full Mission Control with the opponent's stack attempt neutralized and their energy partially wasted
 - **Risk**: If the opponent follows your hip movement with continued forward drive, the shrimp may be insufficient and the guard collapses from a compromised angle
 
 ### 3. Bring leg across opponent's face to enter triangle choke using their forward-committed head position
 
 - **When to use**: When the opponent's head is positioned on the outside during the stack or their chin tuck is inadequate, creating a clear path for your leg to cross their neck
-- **Targets**: [[Mission Control]]
+- **Targets**: [[Positions/Rubber Guard/Mission Control]]
 - **If successful**: You lock a triangle choke from the stacked position, which can be finished even while partially stacked by adjusting angle and squeezing
 - **Risk**: If the opponent's head is correctly positioned inside with chin tucked, the leg cannot cross effectively and the attempt may weaken your guard structure
 
 ### 4. Hip bump sweep using the opponent's forward weight distribution and elevated center of gravity
 
 - **When to use**: When the opponent overcommits to the forward stack and their base is narrow or compromised, creating vulnerability to lateral sweeping forces
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You reverse the position entirely, ending on top with the opponent on their back
 - **Risk**: If the opponent has widened their base adequately, the hip bump generates insufficient force and you waste the defensive opportunity window
 
@@ -225,11 +225,11 @@ As the defender against the Stack Pass from Mission Control, you are the bottom 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mission Control]]
+### → [[Positions/Rubber Guard/Mission Control]]
 
 Shrimp hips laterally during the early phase of the stack to create enough distance to re-establish your high guard leg position and head control grips. The key timing is before the stacking pressure reaches critical momentum—once your hips are folded past your shoulders, re-establishment becomes nearly impossible.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Redirect the opponent's forward momentum into either an omoplata rotation or a hip bump sweep. For omoplata, use their forward drive to rotate your hips and isolate the trapped arm as they push past the balance point. For the sweep, time a lateral hip bump when their weight is most committed forward and their base is narrowest.
 

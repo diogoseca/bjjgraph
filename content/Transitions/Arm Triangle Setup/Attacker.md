@@ -184,7 +184,7 @@ Strategically, this transition converts a dominant but static pinning position i
 
 The technique rewards patience and systematic grip progression. Rushing the arm thread before properly trapping the opponent's arm results in the bottom player framing out and recovering guard. Advanced practitioners use the arm triangle threat as part of a broader submission chain from North-South, combining it with kimura, North-South choke, and armbar attacks to create a web of threats where defending one opens another.
 
-**From Position**: [[North-South]] (Top)
+**From Position**: [[Positions/North-South]] (Top)
 
 </section>
 
@@ -236,9 +236,9 @@ The technique rewards patience and systematic grip progression. Rushing the arm 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[North-South]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/North-South]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -247,10 +247,10 @@ The technique rewards patience and systematic grip progression. Rushing the arm 
 
 ## Opponent Counters
 
-- **Opponent tucks near-side arm tight to their body to prevent arm isolation across the neck** (Effectiveness: High) - Your Response: Use your knee or hip to bump their elbow outward while simultaneously increasing chest pressure to flatten them. Alternatively, switch to a kimura attack on the same arm, which forces them to extend the arm and reopens the arm triangle setup → Leads to [[North-South]]
-- **Opponent bridges and turns away during the hip walk phase to create space and prevent side control transition** (Effectiveness: Medium) - Your Response: Follow their turn by continuing to walk your hips in the same direction, maintaining the head-and-arm grip throughout. Their turn often helps tighten the arm triangle configuration as they move into the choke rather than away from it → Leads to [[North-South]]
-- **Opponent frames with far-side arm against your hip to prevent the hip walk and create distance** (Effectiveness: Medium) - Your Response: Swim your free arm inside their frame to neutralize it, or use your knee to pin their wrist to the mat. The frame is weaker when your weight is properly distributed through your chest rather than sitting up → Leads to [[North-South]]
-- **Opponent attempts to hook your leg with half guard during the side control transition** (Effectiveness: Medium) - Your Response: Sprawl your hips low and heavy, driving your knee past their hooking leg. Keep your near-side leg free by circling it away from their catch attempt while maintaining upper body pressure through the arm triangle grip → Leads to [[Half Guard]]
+- **Opponent tucks near-side arm tight to their body to prevent arm isolation across the neck** (Effectiveness: High) - Your Response: Use your knee or hip to bump their elbow outward while simultaneously increasing chest pressure to flatten them. Alternatively, switch to a kimura attack on the same arm, which forces them to extend the arm and reopens the arm triangle setup → Leads to [[Positions/North-South]]
+- **Opponent bridges and turns away during the hip walk phase to create space and prevent side control transition** (Effectiveness: Medium) - Your Response: Follow their turn by continuing to walk your hips in the same direction, maintaining the head-and-arm grip throughout. Their turn often helps tighten the arm triangle configuration as they move into the choke rather than away from it → Leads to [[Positions/North-South]]
+- **Opponent frames with far-side arm against your hip to prevent the hip walk and create distance** (Effectiveness: Medium) - Your Response: Swim your free arm inside their frame to neutralize it, or use your knee to pin their wrist to the mat. The frame is weaker when your weight is properly distributed through your chest rather than sitting up → Leads to [[Positions/North-South]]
+- **Opponent attempts to hook your leg with half guard during the side control transition** (Effectiveness: Medium) - Your Response: Sprawl your hips low and heavy, driving your knee past their hooking leg. Keep your near-side leg free by circling it away from their catch attempt while maintaining upper body pressure through the arm triangle grip → Leads to [[Positions/Half Guard]]
 
 
 </section>

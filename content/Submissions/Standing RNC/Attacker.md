@@ -188,7 +188,7 @@ description: "Complete guide to executing the Standing Rear Naked Choke from sta
 
 Executing the Standing RNC requires mastery of the hand-fighting battle that precedes the choke itself. The attacker must maintain constant chest-to-back pressure while systematically advancing the choking arm past the defender's chin and grip defenses. Success depends on controlling the opponent's posture and preventing them from dropping their weight or turning to face you. The critical mechanical detail is precise blade-of-forearm placement against the carotid arteries rather than crushing the windpipe, combined with a figure-four lock behind the head that creates bilateral compression. From standing, the attacker must also manage the additional challenge of gravity working against control, making hip connection and weight distribution essential components of the finishing sequence.
 
-**From Position**: [[Standing Back Control]] (Top)
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 
 </section>
@@ -243,9 +243,9 @@ Executing the Standing RNC requires mastery of the hand-fighting battle that pre
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Standing Back Control]] | 25% |
-| Counter | [[Standing Position]] | 15% |
-| Counter | [[Clinch]] | 10% |
+| Failure | [[Positions/Back Control/Standing Back Control]] | 25% |
+| Counter | [[Positions/Standing Position]] | 15% |
+| Counter | [[Positions/Clinch]] | 10% |
 
 
 </section>
@@ -254,10 +254,10 @@ Executing the Standing RNC requires mastery of the hand-fighting battle that pre
 
 ## Opponent Defenses
 
-- **Chin tuck with both hands pulling down on the choking arm to prevent it from sliding under the jaw** (Effectiveness: High) - Your Response: Use your free hand to pry the chin upward or wedge your forearm along the jawline where the gap is widest. If the chin tuck is extremely tight, switch to a short choke variation where you squeeze across the jaw, which creates enough discomfort to force them to open up. → Leads to [[Standing Back Control]]
-- **Two-on-one grip strip where the defender uses both hands to peel the choking arm away from the neck** (Effectiveness: Medium) - Your Response: Immediately re-engage by switching your attack angle. Release the stripped arm and re-establish seatbelt, then attack from the opposite side or use the momentary distraction to advance deeper before they can reset their defense. → Leads to [[Standing Position]]
-- **Shoulder shrug and aggressive turning toward the choking arm side to face the attacker** (Effectiveness: Medium) - Your Response: Follow their rotation by circling your feet in the same direction to maintain your position behind them. If they gain significant angle, switch to a snap down or transition to a body lock to maintain control before re-establishing the choke threat. → Leads to [[Clinch]]
-- **Dropping weight suddenly to knees or sitting down to change the engagement level** (Effectiveness: Low) - Your Response: Follow the descent immediately by hooking your legs around their waist as they drop. This converts to a ground-based back control position where your choking mechanics actually improve due to gravity and the ability to use hooks for control. → Leads to [[Standing Back Control]]
+- **Chin tuck with both hands pulling down on the choking arm to prevent it from sliding under the jaw** (Effectiveness: High) - Your Response: Use your free hand to pry the chin upward or wedge your forearm along the jawline where the gap is widest. If the chin tuck is extremely tight, switch to a short choke variation where you squeeze across the jaw, which creates enough discomfort to force them to open up. → Leads to [[Positions/Back Control/Standing Back Control]]
+- **Two-on-one grip strip where the defender uses both hands to peel the choking arm away from the neck** (Effectiveness: Medium) - Your Response: Immediately re-engage by switching your attack angle. Release the stripped arm and re-establish seatbelt, then attack from the opposite side or use the momentary distraction to advance deeper before they can reset their defense. → Leads to [[Positions/Standing Position]]
+- **Shoulder shrug and aggressive turning toward the choking arm side to face the attacker** (Effectiveness: Medium) - Your Response: Follow their rotation by circling your feet in the same direction to maintain your position behind them. If they gain significant angle, switch to a snap down or transition to a body lock to maintain control before re-establishing the choke threat. → Leads to [[Positions/Clinch]]
+- **Dropping weight suddenly to knees or sitting down to change the engagement level** (Effectiveness: Low) - Your Response: Follow the descent immediately by hooking your legs around their waist as they drop. This converts to a ground-based back control position where your choking mechanics actually improve due to gravity and the ability to use hooks for control. → Leads to [[Positions/Back Control/Standing Back Control]]
 
 
 </section>

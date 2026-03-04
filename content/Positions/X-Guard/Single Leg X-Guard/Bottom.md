@@ -205,29 +205,29 @@ Single Leg X-Guard Bottom represents one of the most versatile and effective pos
 
 ## Available Escapes
 
-### [[Single Leg X Sweep]] (22% of attempts)
+### [[Transitions/Single Leg X Sweep]] (22% of attempts)
 
-### [[Ashi Entry from Leg Entanglement]] (12% of attempts)
+### [[Transitions/Ashi Entry from Leg Entanglement]] (12% of attempts)
 
-### [[Single Leg X Entry]] (3% of attempts)
+### [[Transitions/Single Leg X Entry]] (3% of attempts)
 
-### [[Technical Stand Up to Single Leg]] (10% of attempts)
+### [[Transitions/Technical Stand Up to Single Leg]] (10% of attempts)
 
-### [[Butterfly Guard to X-Guard]] (5% of attempts)
+### [[Transitions/Butterfly Guard to X-Guard]] (5% of attempts)
 
-### [[De La Riva to X-Guard Transition]] (3% of attempts)
+### [[Transitions/De La Riva to X-Guard Transition]] (3% of attempts)
 
-### [[Ankle Pick Sweep]] (10% of attempts)
+### [[Transitions/Ankle Pick Sweep]] (10% of attempts)
 
-### [[Inside Ashi Entry]] (8% of attempts)
+### [[Transitions/Inside Ashi Entry]] (8% of attempts)
 
-### [[Standing to Single Leg X]] (2% of attempts)
+### [[Transitions/Standing to Single Leg X]] (2% of attempts)
 
-### [[Heel Grab Sweep]] (10% of attempts)
+### [[Transitions/Heel Grab Sweep]] (10% of attempts)
 
-### [[SLX to Ashi Garami]] (10% of attempts)
+### [[Transitions/SLX to Ashi Garami]] (10% of attempts)
 
-### [[SLX to X-Guard]] (5% of attempts)
+### [[Transitions/SLX to X-Guard]] (5% of attempts)
 
 
 
@@ -238,28 +238,28 @@ Single Leg X-Guard Bottom represents one of the most versatile and effective pos
 ## Decision Making from This Position
 
 **If opponent maintains upright posture with elevated hips and attempts to disengage leg:**
-- Execute **[[Single Leg X Sweep]]** → [[Standing Position]] (Probability: 65%)
-- Execute **[[X-Guard Sweep]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Transitions/Single Leg X Sweep]]** → [[Positions/Standing Position]] (Probability: 65%)
+- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 60%)
 
 
 **If opponent drives forward with heavy pressure attempting to smash pass:**
-- Execute **[[Ashi Entry from Leg Entanglement]]** → [[Ashi Garami]] (Probability: 55%)
-- Execute **[[De La Riva to X-Guard Transition]]** → [[X-Guard]] (Probability: 50%)
+- Execute **[[Transitions/Ashi Entry from Leg Entanglement]]** → [[Positions/Ashi Garami]] (Probability: 55%)
+- Execute **[[Transitions/De La Riva to X-Guard Transition]]** → [[Positions/X-Guard]] (Probability: 50%)
 
 
 **If opponent stands completely upright or backs away to create distance:**
-- Execute **[[Technical Stand Up to Single Leg]]** → [[Standing Position]] (Probability: 60%)
-- Execute **[[Standing to Single Leg X]]** → [[Single Leg X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Technical Stand Up to Single Leg]]** → [[Positions/Standing Position]] (Probability: 60%)
+- Execute **[[Transitions/Standing to Single Leg X]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
 
 
 **If opponent attempts to clear hooks by stepping over or circling laterally:**
-- Execute **[[Butterfly Guard to X-Guard]]** → [[X-Guard]] (Probability: 50%)
-- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 45%)
+- Execute **[[Transitions/Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 50%)
+- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 45%)
 
 
 **If opponent exposes their trapped leg by pulling back defensively:**
-- Execute **[[Ankle Pick Sweep]]** → [[Standing Position]] (Probability: 55%)
-- Execute **[[Single Leg X Entry]]** → [[Outside Ashi-Garami]] (Probability: 50%)
+- Execute **[[Transitions/Ankle Pick Sweep]]** → [[Positions/Standing Position]] (Probability: 55%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 50%)
 
 
 
@@ -405,18 +405,18 @@ Maintain SLX hooks while partner attempts various passing strategies including k
 
 ## Related Positions and Techniques
 
-- **[[X-Guard]]** - Parent position - SLX is a variation that controls one leg while X-Guard controls both
-- **[[Ashi Garami]]** - Primary transition target for leg lock entries from SLX
-- **[[Outside Ashi-Garami]]** - Direct leg entanglement entry from SLX with leg isolation
-- **[[Inside Ashi-Garami]]** - Alternative leg entanglement configuration accessible from SLX
-- **[[Butterfly Guard]]** - Related open guard position that shares similar sweeping mechanics
-- **[[De La Riva Guard]]** - Common entry position into SLX using similar leg hooking concepts
-- **[[Reverse De La Riva Guard]]** - Alternative entry position with similar leg control principles
-- **[[Deep Half Guard]]** - Related guard position with similar off-balancing mechanics
-- **[[Saddle]]** - Advanced leg entanglement accessible through SLX transitions
-- **[[50-50 Guard]]** - Related leg entanglement position with different control dynamics
-- **[[Straight Ankle Lock]]** - Primary submission available directly from SLX position
-- **[[Kneebar from Guard]]** - High-percentage submission accessible through SLX leg control
+- **[[Positions/X-Guard]]** - Parent position - SLX is a variation that controls one leg while X-Guard controls both
+- **[[Positions/Ashi Garami]]** - Primary transition target for leg lock entries from SLX
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Direct leg entanglement entry from SLX with leg isolation
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Alternative leg entanglement configuration accessible from SLX
+- **[[Positions/Butterfly Guard]]** - Related open guard position that shares similar sweeping mechanics
+- **[[Positions/De La Riva Guard]]** - Common entry position into SLX using similar leg hooking concepts
+- **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Alternative entry position with similar leg control principles
+- **[[Positions/Half Guard/Deep Half Guard]]** - Related guard position with similar off-balancing mechanics
+- **[[Positions/Ashi Garami/Saddle]]** - Advanced leg entanglement accessible through SLX transitions
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Related leg entanglement position with different control dynamics
+- **[[Submissions/Straight Ankle Lock]]** - Primary submission available directly from SLX position
+- **[[Submissions/Kneebar from Guard]]** - High-percentage submission accessible through SLX leg control
 
 
 </section>

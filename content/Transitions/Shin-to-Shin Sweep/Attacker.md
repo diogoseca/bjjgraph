@@ -180,7 +180,7 @@ description: "Master executing the Shin-to-Shin Sweep in BJJ. Step-by-step guide
 
 Executing the Shin-to-Shin Sweep requires precise coordination of three biomechanical elements: shin-driven elevation through the perpendicular connection, upper body pulling to break opponent's posture, and explosive hip extension to generate sweeping force. The attacker must read the opponent's weight distribution to select the optimal sweep direction — directly backward when weight is centered, or laterally when weight shifts to one side. The sweep's effectiveness depends heavily on timing the explosive phase to coincide with the opponent's forward weight commitment, turning their own pressure into the momentum that completes the technique. Mastery involves developing sensitivity to weight shifts through the shin connection, establishing dominant grips before initiating the sweep, and maintaining sweep pressure even during partial success to prevent the opponent from recovering base.
 
-**From Position**: [[Shin-to-Shin Guard]] (Bottom)
+**From Position**: [[Positions/Shin-to-Shin Guard]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ Executing the Shin-to-Shin Sweep requires precise coordination of three biomecha
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 50% |
-| Failure | [[Shin-to-Shin Guard]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Mount]] | 50% |
+| Failure | [[Positions/Shin-to-Shin Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -245,11 +245,11 @@ Executing the Shin-to-Shin Sweep requires precise coordination of three biomecha
 
 ## Opponent Counters
 
-- **Opponent posts far hand on mat to prevent being swept backward** (Effectiveness: High) - Your Response: Switch to arm drag on the posting hand, pulling it across their body to remove the post and reattempt the sweep or transition to back take → Leads to [[Shin-to-Shin Guard]]
-- **Opponent widens base and sits hips back to reduce forward weight commitment** (Effectiveness: High) - Your Response: Transition to single leg X-guard entry by threading your free leg under their base, using their withdrawn hips to create the space needed for the entry → Leads to [[Shin-to-Shin Guard]]
-- **Opponent steps over the shin connection laterally to disengage and circle away** (Effectiveness: Medium) - Your Response: Follow their stepping leg with an outside ashi-garami entry or use the momentum to come to a technical stand and pursue with a single leg takedown → Leads to [[Open Guard]]
-- **Opponent drives forward aggressively with heavy pressure to flatten the guard player** (Effectiveness: Medium) - Your Response: Use their forward commitment to amplify the sweep — their aggressive pressure loads the shin connection even more, making the elevation more powerful when timed correctly → Leads to [[Shin-to-Shin Guard]]
-- **Opponent strips upper body grips before sweep can be initiated** (Effectiveness: High) - Your Response: Immediately regrip or transition to a different grip configuration; maintain shin pressure while fighting for grips, and consider switching to a no-grip sweep variation using the shin elevation alone → Leads to [[Open Guard]]
+- **Opponent posts far hand on mat to prevent being swept backward** (Effectiveness: High) - Your Response: Switch to arm drag on the posting hand, pulling it across their body to remove the post and reattempt the sweep or transition to back take → Leads to [[Positions/Shin-to-Shin Guard]]
+- **Opponent widens base and sits hips back to reduce forward weight commitment** (Effectiveness: High) - Your Response: Transition to single leg X-guard entry by threading your free leg under their base, using their withdrawn hips to create the space needed for the entry → Leads to [[Positions/Shin-to-Shin Guard]]
+- **Opponent steps over the shin connection laterally to disengage and circle away** (Effectiveness: Medium) - Your Response: Follow their stepping leg with an outside ashi-garami entry or use the momentum to come to a technical stand and pursue with a single leg takedown → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward aggressively with heavy pressure to flatten the guard player** (Effectiveness: Medium) - Your Response: Use their forward commitment to amplify the sweep — their aggressive pressure loads the shin connection even more, making the elevation more powerful when timed correctly → Leads to [[Positions/Shin-to-Shin Guard]]
+- **Opponent strips upper body grips before sweep can be initiated** (Effectiveness: High) - Your Response: Immediately regrip or transition to a different grip configuration; maintain shin pressure while fighting for grips, and consider switching to a no-grip sweep variation using the shin elevation alone → Leads to [[Positions/Open Guard]]
 
 
 </section>

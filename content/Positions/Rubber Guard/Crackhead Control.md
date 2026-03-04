@@ -99,21 +99,21 @@ The position's integration within the broader 10th Planet system provides multip
 ### Available Transitions
 
 
-- **[[Gogoplata]]** (11% of attempts)
+- **[[Transitions/Gogoplata]]** (11% of attempts)
 
-- **[[Omoplata]]** (13% of attempts)
+- **[[Transitions/Omoplata]]** (13% of attempts)
 
-- **[[Triangle Choke]]** (12% of attempts)
+- **[[Transitions/Triangle Choke]]** (12% of attempts)
 
-- **[[Crackhead Control to Carni]]** (15% of attempts)
+- **[[Transitions/Crackhead Control to Carni]]** (15% of attempts)
 
-- **[[Armbar from Guard]]** (12% of attempts)
+- **[[Submissions/Armbar from Guard]]** (12% of attempts)
 
-- **[[Baratoplata]]** (7% of attempts)
+- **[[Transitions/Baratoplata]]** (7% of attempts)
 
-- **[[Crackhead Control to Mission Control]]** (15% of attempts)
+- **[[Transitions/Crackhead Control to Mission Control]]** (15% of attempts)
 
-- **[[Crackhead Control to New York]]** (15% of attempts)
+- **[[Transitions/Crackhead Control to New York]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -174,17 +174,17 @@ The position's integration within the broader 10th Planet system provides multip
 ### Available Transitions
 
 
-- **[[Back Take]]** (18% of attempts)
+- **[[Transitions/Back Take]]** (18% of attempts)
 
-- **[[Stack Pass]]** (15% of attempts)
+- **[[Transitions/Stack Pass]]** (15% of attempts)
 
-- **[[Double Underhook Pass]]** (16% of attempts)
+- **[[Transitions/Double Underhook Pass]]** (16% of attempts)
 
-- **[[Rolling Back Take]]** (15% of attempts)
+- **[[Transitions/Rolling Back Take]]** (15% of attempts)
 
-- **[[Posture Recovery to Closed Guard]]** (20% of attempts)
+- **[[Transitions/Posture Recovery to Closed Guard]]** (20% of attempts)
 
-- **[[Arm Extraction and Pass]]** (16% of attempts)
+- **[[Transitions/Arm Extraction and Pass]]** (16% of attempts)
 
 
 ### Common Mistakes
@@ -223,21 +223,21 @@ The position's integration within the broader 10th Planet system provides multip
 ## Related Positions
 
 
-- **[[Mission Control]]** - Primary entry position - establishes initial rubber guard control before deepening overhook
+- **[[Positions/Rubber Guard/Mission Control]]** - Primary entry position - establishes initial rubber guard control before deepening overhook
 
-- **[[New York]]** - Alternative entry point with slightly different angle and overhook depth
+- **[[Positions/Rubber Guard/New York]]** - Alternative entry point with slightly different angle and overhook depth
 
-- **[[Carni]]** - Common transition target for gogoplata setups when opponent's posture breaks forward
+- **[[Positions/Rubber Guard/Carni]]** - Common transition target for gogoplata setups when opponent's posture breaks forward
 
-- **[[Omoplata Control]]** - Natural progression when opponent attempts to extract trapped arm
+- **[[Positions/Omoplata Control]]** - Natural progression when opponent attempts to extract trapped arm
 
-- **[[Triangle Control]]** - Alternative submission path when opponent defends omoplata by pulling arm back
+- **[[Positions/Triangle Control]]** - Alternative submission path when opponent defends omoplata by pulling arm back
 
-- **[[Rubber Guard]]** - Parent position family - shares fundamental principles of asymmetric control
+- **[[Positions/Rubber Guard]]** - Parent position family - shares fundamental principles of asymmetric control
 
-- **[[Back Control]]** - Critical defensive awareness - opponent's primary counter-attack target
+- **[[Positions/Back Control]]** - Critical defensive awareness - opponent's primary counter-attack target
 
-- **[[Closed Guard]]** - Fallback position if Crackhead Control fails or becomes untenable
+- **[[Positions/Closed Guard]]** - Fallback position if Crackhead Control fails or becomes untenable
 
 
 </section>

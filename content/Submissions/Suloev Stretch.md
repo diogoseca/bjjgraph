@@ -22,8 +22,8 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 **Category**: Compression
 **Type**: Knee Compression
 **Target Area**: Knee joint and calf muscle
-**Starting Position**: [[Half Guard]]
-**From Position**: [[Half Guard]] (Top)
+**Starting Position**: [[Positions/Half Guard]]
+**From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -78,8 +78,8 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -226,14 +226,14 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 
 ## From Which Positions?
 
-- [[Half Guard]]
-- [[Deep Half Guard]]
-- [[Z-Guard]]
-- [[Lockdown]]
-- [[Knee Shield Half Guard]]
-- [[Quarter Guard]]
-- [[Turtle]]
-- [[Side Control]]
+- [[Positions/Half Guard]]
+- [[Positions/Half Guard/Deep Half Guard]]
+- [[Positions/Z-Guard]]
+- [[Positions/Half Guard/Lockdown]]
+- [[Positions/Half Guard/Knee Shield Half Guard]]
+- [[Positions/Quarter Guard]]
+- [[Positions/Turtle]]
+- [[Positions/Side Control]]
 
 
 </section>
@@ -242,16 +242,16 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 
 ## Related Submissions
 
-- [[Kneebar]]
-- [[Toe Hold]]
-- [[Calf Slicer]]
-- [[Heel Hook]]
-- [[Straight Ankle Lock]]
-- [[Achilles Lock]]
-- [[Estima Lock]]
-- [[Banana Split]]
-- [[Calf Slicer from Truck]]
-- [[Twister]]
+- [[Transitions/Kneebar]]
+- [[Transitions/Toe Hold]]
+- [[Transitions/Calf Slicer]]
+- [[Transitions/Heel Hook]]
+- [[Submissions/Straight Ankle Lock]]
+- [[Submissions/Achilles Lock]]
+- [[Positions/Estima Lock]]
+- [[Submissions/Banana Split]]
+- [[Submissions/Calf Slicer from Truck]]
+- [[Submissions/Twister]]
 
 
 </section>
@@ -260,13 +260,13 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 
 ## Additional Related Content
 
-- [[Calf Slicer from 50-50]] - Similar mechanism - Both use calf-to-hamstring compression but from different positional contexts
-- [[Half Guard]] - Primary entry - The most common context for setting up the Suloev Stretch is during half guard passing sequences
-- [[Leg Entanglement]] - Related concept - Understanding leg entanglement principles helps both entering and defending the Suloev Stretch
-- [[Knee Shield Half Guard]] - Related transition - Can transition between knee cut passing and Suloev Stretch entries depending on opponent's leg positioning
-- [[Truck]] - Related position - Similar leg control concepts, both attack from top position with leg configurations
-- [[Kneebar]] - Alternative leg attack - Both target the knee joint but through different mechanical approaches
-- [[Calf Slicer]] - Closely related submission - Uses similar calf compression principles but with different body positioning
+- [[Submissions/Calf Slicer from 50-50]] - Similar mechanism - Both use calf-to-hamstring compression but from different positional contexts
+- [[Positions/Half Guard]] - Primary entry - The most common context for setting up the Suloev Stretch is during half guard passing sequences
+- [[Positions/Leg Entanglement]] - Related concept - Understanding leg entanglement principles helps both entering and defending the Suloev Stretch
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Related transition - Can transition between knee cut passing and Suloev Stretch entries depending on opponent's leg positioning
+- [[Positions/Twister Control/Truck]] - Related position - Similar leg control concepts, both attack from top position with leg configurations
+- [[Transitions/Kneebar]] - Alternative leg attack - Both target the knee joint but through different mechanical approaches
+- [[Transitions/Calf Slicer]] - Closely related submission - Uses similar calf compression principles but with different body positioning
 
 
 </section>

@@ -180,7 +180,7 @@ description: "How to execute the transition from Anaconda Control to Dead Orchar
 
 Executing the Transition to Dead Orchard Control requires converting an existing anaconda grip into a deeper, more sustainable control configuration while maintaining continuous pressure throughout the adjustment phase. The attacker must resist the temptation to squeeze for an immediate finish and instead invest in positional improvements that create a superior platform for later submission or advancement. The transition demands precise micro-adjustments to grip depth, shoulder angle, hip placement, and weight distribution, all performed without creating gaps that the defender can exploit. Success depends on maintaining the fundamental anaconda pressure while simultaneously improving every control parameter to dead orchard specifications. The transition typically takes 5-10 seconds of deliberate adjustment work, during which the attacker must balance between tightening control and maintaining existing pressure.
 
-**From Position**: [[Anaconda Control]] (Top)
+**From Position**: [[Positions/Anaconda Control]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Transition to Dead Orchard Control requires converting an existing
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Dead Orchard Control]] | 65% |
-| Failure | [[Anaconda Control]] | 20% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Dead Orchard Control]] | 65% |
+| Failure | [[Positions/Anaconda Control]] | 20% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Transition to Dead Orchard Control requires converting an existing
 
 ## Opponent Counters
 
-- **Opponent explosively bridges and turns into the grip during the hip repositioning phase, attempting to scramble free before dead orchard is established** (Effectiveness: High) - Your Response: If caught during the hip walk, abandon the dead orchard transition and follow their turning momentum to maintain anaconda control or take the back. Do not fight against an explosive turn with a half-completed transition. Reset to anaconda control and attempt the transition again once control is re-consolidated. → Leads to [[Anaconda Control]]
-- **Opponent uses free arm to create a strong frame against your shoulder, preventing the grip deepening by maintaining space at the neck** (Effectiveness: Medium) - Your Response: Address the framing arm by driving your shoulder pressure through their frame rather than trying to remove it with your grip hand. Alternatively, use your free arm to strip their framing arm toward their hip, removing the structural support. Once the frame collapses, continue the grip deepening sequence. → Leads to [[Dead Orchard Control]]
-- **Opponent turtles tighter and begins scooting their hips away during the transition, creating distance that loosens the grip** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own hips, maintaining the perpendicular angle while closing any distance they create. Use your chest pressure to prevent them from fully retreating. If they create significant distance, consider transitioning to a front headlock reset rather than chasing with a compromised grip. → Leads to [[Anaconda Control]]
-- **Opponent extracts trapped arm from the loop during the grip adjustment phase when tightness momentarily reduces** (Effectiveness: High) - Your Response: Immediately transition to darce choke configuration by sliding your choking arm deeper across their neck. The arm extraction actually opens the darce angle. Alternatively, if they pull the arm toward you, switch to guillotine control. Never attempt to re-trap a freed arm during this transition. → Leads to [[Turtle]]
+- **Opponent explosively bridges and turns into the grip during the hip repositioning phase, attempting to scramble free before dead orchard is established** (Effectiveness: High) - Your Response: If caught during the hip walk, abandon the dead orchard transition and follow their turning momentum to maintain anaconda control or take the back. Do not fight against an explosive turn with a half-completed transition. Reset to anaconda control and attempt the transition again once control is re-consolidated. → Leads to [[Positions/Anaconda Control]]
+- **Opponent uses free arm to create a strong frame against your shoulder, preventing the grip deepening by maintaining space at the neck** (Effectiveness: Medium) - Your Response: Address the framing arm by driving your shoulder pressure through their frame rather than trying to remove it with your grip hand. Alternatively, use your free arm to strip their framing arm toward their hip, removing the structural support. Once the frame collapses, continue the grip deepening sequence. → Leads to [[Positions/Dead Orchard Control]]
+- **Opponent turtles tighter and begins scooting their hips away during the transition, creating distance that loosens the grip** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own hips, maintaining the perpendicular angle while closing any distance they create. Use your chest pressure to prevent them from fully retreating. If they create significant distance, consider transitioning to a front headlock reset rather than chasing with a compromised grip. → Leads to [[Positions/Anaconda Control]]
+- **Opponent extracts trapped arm from the loop during the grip adjustment phase when tightness momentarily reduces** (Effectiveness: High) - Your Response: Immediately transition to darce choke configuration by sliding your choking arm deeper across their neck. The arm extraction actually opens the darce angle. Alternatively, if they pull the arm toward you, switch to guillotine control. Never attempt to re-trap a freed arm during this transition. → Leads to [[Positions/Turtle]]
 
 
 </section>

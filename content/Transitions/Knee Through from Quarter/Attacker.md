@@ -186,7 +186,7 @@ description: "Master the Knee Through from Quarter Guard attack. Step-by-step gu
 
 Executing the Knee Through from Quarter Guard requires converting established upper body dominance into complete positional control by driving the passing knee past the bottom player's remaining leg engagement. The attacker must coordinate sustained crossface pressure, strategic weight distribution, and precise knee advancement to clear the final defensive barrier between quarter guard and full mount. Success depends on reading the exact moment when the bottom player's leg control weakens—whether through pressure fatigue, failed frame attempt, or commitment to an alternative defense—and immediately capitalizing with a decisive forward knee drive that allows no recovery time. The technique rewards patience in setup combined with explosive commitment during execution, demanding the attacker maintain heavy positional pressure throughout without telegraphing the drive until the optimal moment arrives.
 
-**From Position**: [[Quarter Guard]] (Top)
+**From Position**: [[Positions/Quarter Guard]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Knee Through from Quarter Guard requires converting established up
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Quarter Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Quarter Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Knee Through from Quarter Guard requires converting established up
 
 ## Opponent Counters
 
-- **Bottom player re-inserts knee shield by driving knee between your hip and their body before the passing knee clears** (Effectiveness: High) - Your Response: Immediately increase crossface pressure and use your free hand to control their knee, pushing it toward the mat. If the knee shield re-establishes fully, abandon the knee through and transition to a smash pass or crossface pass that addresses the new defensive structure rather than forcing through a rebuilt defense. → Leads to [[Quarter Guard]]
-- **Bottom player hip escapes explosively during the knee drive, recovering enough space to re-engage full half guard leg entanglement** (Effectiveness: High) - Your Response: Follow their hip escape by advancing your own hips in the same direction, maintaining chest connection throughout. If they recover full half guard before you can re-establish quarter guard, accept the position reset and begin the passing sequence again from half guard top rather than overcommitting to the knee through. → Leads to [[Half Guard]]
-- **Bottom player uses underhook to come up to their side during the knee extraction, threatening a back take or sweep** (Effectiveness: Medium) - Your Response: Drive your weight downward through the whizzer or overhook to prevent them from rising, and use the knee drive momentum to advance past their attempted come-up. If they achieve a deep underhook, transition to a darce choke threat or whizzer-based pass rather than continuing the knee through against an active underhook. → Leads to [[Half Guard]]
-- **Bottom player dives underneath for deep half guard entry as the knee drive commits your weight forward** (Effectiveness: Medium) - Your Response: Immediately sprawl your hips back and widen your base to prevent them from getting underneath. If they achieve deep half before you can stop the entry, reset to deep half guard top passing rather than fighting from a compromised angle. Recognize that deep half entry often indicates you committed too much weight forward without adequate base. → Leads to [[Quarter Guard]]
+- **Bottom player re-inserts knee shield by driving knee between your hip and their body before the passing knee clears** (Effectiveness: High) - Your Response: Immediately increase crossface pressure and use your free hand to control their knee, pushing it toward the mat. If the knee shield re-establishes fully, abandon the knee through and transition to a smash pass or crossface pass that addresses the new defensive structure rather than forcing through a rebuilt defense. → Leads to [[Positions/Quarter Guard]]
+- **Bottom player hip escapes explosively during the knee drive, recovering enough space to re-engage full half guard leg entanglement** (Effectiveness: High) - Your Response: Follow their hip escape by advancing your own hips in the same direction, maintaining chest connection throughout. If they recover full half guard before you can re-establish quarter guard, accept the position reset and begin the passing sequence again from half guard top rather than overcommitting to the knee through. → Leads to [[Positions/Half Guard]]
+- **Bottom player uses underhook to come up to their side during the knee extraction, threatening a back take or sweep** (Effectiveness: Medium) - Your Response: Drive your weight downward through the whizzer or overhook to prevent them from rising, and use the knee drive momentum to advance past their attempted come-up. If they achieve a deep underhook, transition to a darce choke threat or whizzer-based pass rather than continuing the knee through against an active underhook. → Leads to [[Positions/Half Guard]]
+- **Bottom player dives underneath for deep half guard entry as the knee drive commits your weight forward** (Effectiveness: Medium) - Your Response: Immediately sprawl your hips back and widen your base to prevent them from getting underneath. If they achieve deep half before you can stop the entry, reset to deep half guard top passing rather than fighting from a compromised angle. Recognize that deep half entry often indicates you committed too much weight forward without adequate base. → Leads to [[Positions/Quarter Guard]]
 
 
 </section>

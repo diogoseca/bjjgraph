@@ -213,23 +213,23 @@ From a training perspective, High Mount Bottom teaches practitioners to remain c
 
 ## Available Escapes
 
-### [[Upa Escape]] (12% of attempts)
+### [[Transitions/Upa Escape]] (12% of attempts)
 
-### [[Elbow Escape to Guard]] (32% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (32% of attempts)
 
-### [[Bridge and Roll]] (9% of attempts)
+### [[Transitions/Bridge and Roll]] (9% of attempts)
 
-### [[Shrimp Escape]] (12% of attempts)
+### [[Transitions/Shrimp Escape]] (12% of attempts)
 
-### [[Hip Escape to Guard]] (15% of attempts)
+### [[Transitions/Hip Escape to Guard]] (15% of attempts)
 
-### [[Frame and Shrimp to Guard]] (13% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (13% of attempts)
 
-### [[Bridge to Mount from High Mount]] (4% of attempts)
+### [[Transitions/Bridge to Mount from High Mount]] (4% of attempts)
 
-### [[Frame Escape from High Mount]] (2% of attempts)
+### [[Transitions/Frame Escape from High Mount]] (2% of attempts)
 
-### [[Trap and Roll from High Mount]] (1% of attempts)
+### [[Transitions/Trap and Roll from High Mount]] (1% of attempts)
 
 
 
@@ -240,23 +240,23 @@ From a training perspective, High Mount Bottom teaches practitioners to remain c
 ## Decision Making from This Position
 
 **If opponent posts hand high near head to establish grip for submission attempt:**
-- Execute **[[Upa Escape]]** → [[Closed Guard]] (Probability: 30%)
-- Execute **[[Bridge and Roll]]** → [[Closed Guard]] (Probability: 25%)
+- Execute **[[Transitions/Upa Escape]]** → [[Positions/Closed Guard]] (Probability: 30%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 25%)
 
 
 **If opponent's knee slides away from armpit during transition or submission setup:**
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 35%)
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 30%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 30%)
 
 
 **If opponent reaches for collar or attempts to isolate extended arm for attack:**
-- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 45%)
-- Execute **[[Armbar Defense]]** → [[High Mount]] (Probability: 40%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Armbar Defense]]** → [[Positions/Mount/High Mount]] (Probability: 40%)
 
 
 **If opponent maintains static control without immediate submission threat:**
-- Execute **[[Shrimp Escape]]** → [[Open Guard]] (Probability: 25%)
-- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 30%)
+- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Open Guard]] (Probability: 25%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 30%)
 
 
 
@@ -402,14 +402,14 @@ Drill all escape options (upa, elbow escape, frame and shrimp) against progressi
 
 ## Related Positions and Techniques
 
-- **[[Mount]]** - Related position - standard mount that precedes high mount establishment
-- **[[S Mount]]** - Worse position - common progression when high mount escapes fail and opponent advances
-- **[[Technical Mount]]** - Alternative bad position - result of turning to side attempting elbow escape
-- **[[Half Guard]]** - Escape target - realistic goal position when elbow escape succeeds
-- **[[Closed Guard]]** - Escape target - optimal goal position when upa or bridge escapes succeed
-- **[[Upa Escape]]** - Primary technique - bridge-based escape requiring perfect timing during opponent's transitions
-- **[[Elbow Escape to Guard]]** - Most realistic technique - frame and shrimp escape to recover half guard
-- **[[Open Guard]]** - Escape target - possible outcome when frames and shrimps create sufficient space
+- **[[Positions/Mount]]** - Related position - standard mount that precedes high mount establishment
+- **[[Positions/Mount/S Mount]]** - Worse position - common progression when high mount escapes fail and opponent advances
+- **[[Positions/Mount/Technical Mount]]** - Alternative bad position - result of turning to side attempting elbow escape
+- **[[Positions/Half Guard]]** - Escape target - realistic goal position when elbow escape succeeds
+- **[[Positions/Closed Guard]]** - Escape target - optimal goal position when upa or bridge escapes succeed
+- **[[Transitions/Upa Escape]]** - Primary technique - bridge-based escape requiring perfect timing during opponent's transitions
+- **[[Transitions/Elbow Escape to Guard]]** - Most realistic technique - frame and shrimp escape to recover half guard
+- **[[Positions/Open Guard]]** - Escape target - possible outcome when frames and shrimps create sufficient space
 
 
 </section>

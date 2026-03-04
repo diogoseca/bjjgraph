@@ -208,25 +208,25 @@ From a competitive perspective, mastering Z-Guard Top passing is essential for a
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (29% of attempts)
+### [[Transitions/Knee Slice Pass]] (29% of attempts)
 
-### [[Knee Slice from Half]] (13% of attempts)
+### [[Transitions/Knee Slice from Half]] (13% of attempts)
 
-### [[Knee Cut Pass]] (11% of attempts)
+### [[Transitions/Knee Cut Pass]] (11% of attempts)
 
-### [[Long Step Pass]] (10% of attempts)
+### [[Transitions/Long Step Pass]] (10% of attempts)
 
-### [[Smash Pass]] (11% of attempts)
+### [[Transitions/Smash Pass]] (11% of attempts)
 
-### [[Back Step]] (9% of attempts)
+### [[Transitions/Back Step]] (9% of attempts)
 
-### [[Underhook Pass]] (10% of attempts)
+### [[Transitions/Underhook Pass]] (10% of attempts)
 
-### [[Knee Slice from Z-Guard]] (4% of attempts)
+### [[Transitions/Knee Slice from Z-Guard]] (4% of attempts)
 
-### [[Pass Z-Guard]] (2% of attempts)
+### [[Transitions/Pass Z-Guard]] (2% of attempts)
 
-### [[Z-Guard Pass]] (1% of attempts)
+### [[Transitions/Z-Guard Pass]] (1% of attempts)
 
 
 
@@ -237,23 +237,23 @@ From a competitive perspective, mastering Z-Guard Top passing is essential for a
 ## Decision Making from This Position
 
 **If bottom player has strong knee shield frame with deep underhook:**
-- Execute **[[Underhook Pass]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Underhook Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If bottom player's knee shield is extended and weak:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If bottom player turns to their side to defend:**
-- Execute **[[Back Step]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Knee Cut Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Back Step]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If bottom player attempts to go inverted or create scramble:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Re-Guard from Headquarters]]** → [[Headquarters Position]] (Probability: 50%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Re-Guard from Headquarters]]** → [[Positions/Headquarters Position]] (Probability: 50%)
 
 
 
@@ -388,12 +388,12 @@ Positional sparring starting from Z-Guard with emphasis on grip fighting. Top pl
 ## Related Positions and Techniques
 
 - **[[Z-Guard Bottom]]** - Opposite perspective - defensive position
-- **[[Knee Shield Half Guard]]** - Related position with similar mechanics
-- **[[Half Guard]]** - Parent position without knee shield frame
-- **[[Side Control]]** - Primary passing destination
-- **[[Headquarters Position]]** - Related passing position with similar pressure concepts
-- **[[Deep Half Guard]]** - Common transition for bottom player when knee shield fails
-- **[[Lockdown]]** - Related half guard variation with different control method
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Related position with similar mechanics
+- **[[Positions/Half Guard]]** - Parent position without knee shield frame
+- **[[Positions/Side Control]]** - Primary passing destination
+- **[[Positions/Headquarters Position]]** - Related passing position with similar pressure concepts
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common transition for bottom player when knee shield fails
+- **[[Positions/Half Guard/Lockdown]]** - Related half guard variation with different control method
 
 
 </section>

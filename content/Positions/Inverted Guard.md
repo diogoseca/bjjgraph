@@ -89,31 +89,31 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 ### Available Transitions
 
 
-- **[[Berimbolo Entry]]** (24% of attempts)
+- **[[Transitions/Berimbolo Entry]]** (24% of attempts)
 
-- **[[Rolling Back Take]]** (10% of attempts)
+- **[[Transitions/Rolling Back Take]]** (10% of attempts)
 
-- **[[Kiss of the Dragon]]** (7% of attempts)
+- **[[Transitions/Kiss of the Dragon]]** (7% of attempts)
 
-- **[[Single Leg X Entry]]** (9% of attempts)
+- **[[Transitions/Single Leg X Entry]]** (9% of attempts)
 
-- **[[X-Guard Sweep]]** (7% of attempts)
+- **[[Transitions/X-Guard Sweep]]** (7% of attempts)
 
-- **[[Granby Roll to Guard]]** (9% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (9% of attempts)
 
-- **[[Omoplata]]** (4% of attempts)
+- **[[Transitions/Omoplata]]** (4% of attempts)
 
-- **[[Roll to Truck]]** (5% of attempts)
+- **[[Transitions/Roll to Truck]]** (5% of attempts)
 
-- **[[Reverse X-Guard Entry]]** (4% of attempts)
+- **[[Transitions/Reverse X-Guard Entry]]** (4% of attempts)
 
-- **[[Technical Stand-up]]** (6% of attempts)
+- **[[Transitions/Technical Stand-up]]** (6% of attempts)
 
-- **[[Bolo Sweep]]** (7% of attempts)
+- **[[Transitions/Bolo Sweep]]** (7% of attempts)
 
-- **[[Reverse De La Riva Recovery]]** (6% of attempts)
+- **[[Transitions/Reverse De La Riva Recovery]]** (6% of attempts)
 
-- **[[Sweep from Inverted Guard]]** (2% of attempts)
+- **[[Transitions/Sweep from Inverted Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -178,29 +178,29 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 ### Available Transitions
 
 
-- **[[Smash Pass]]** (8% of attempts)
+- **[[Transitions/Smash Pass]]** (8% of attempts)
 
-- **[[Stack Pass]]** (6% of attempts)
+- **[[Transitions/Stack Pass]]** (6% of attempts)
 
-- **[[Pressure Pass]]** (7% of attempts)
+- **[[Transitions/Pressure Pass]]** (7% of attempts)
 
-- **[[Leg Weave Pass]]** (4% of attempts)
+- **[[Transitions/Leg Weave Pass]]** (4% of attempts)
 
-- **[[Knee Slice Pass]]** (6% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (6% of attempts)
 
-- **[[Headquarters Pass]]** (8% of attempts)
+- **[[Transitions/Headquarters Pass]]** (8% of attempts)
 
-- **[[Toreando Pass]]** (11% of attempts)
+- **[[Transitions/Toreando Pass]]** (11% of attempts)
 
-- **[[Back Step Pass]]** (29% of attempts)
+- **[[Transitions/Back Step Pass]]** (29% of attempts)
 
-- **[[Leg Drag Pass]]** (10% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (10% of attempts)
 
-- **[[Stack Pass from Inversion]]** (8% of attempts)
+- **[[Transitions/Stack Pass from Inversion]]** (8% of attempts)
 
-- **[[Stack from Inverted]]** (2% of attempts)
+- **[[Transitions/Stack from Inverted]]** (2% of attempts)
 
-- **[[Toreando from Inverted]]** (1% of attempts)
+- **[[Transitions/Toreando from Inverted]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -243,25 +243,25 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 ## Related Positions
 
 
-- **[[De La Riva Guard]]** - Primary entry position for inverted guard transitions and berimbolo sequences
+- **[[Positions/De La Riva Guard]]** - Primary entry position for inverted guard transitions and berimbolo sequences
 
-- **[[Reverse De La Riva Guard]]** - Frequently connects to inverted guard entries and back take opportunities
+- **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Frequently connects to inverted guard entries and back take opportunities
 
-- **[[Single Leg X-Guard]]** - Common transition target from inverted position with sweep and leg entanglement options
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Common transition target from inverted position with sweep and leg entanglement options
 
-- **[[X-Guard]]** - Related guard position with similar sweep mechanics and base disruption
+- **[[Positions/X-Guard]]** - Related guard position with similar sweep mechanics and base disruption
 
-- **[[Back Control]]** - Primary offensive goal from inverted guard via berimbolo and rolling back takes
+- **[[Positions/Back Control]]** - Primary offensive goal from inverted guard via berimbolo and rolling back takes
 
-- **[[Turtle]]** - Alternative defensive posture with different risk-reward trade-offs
+- **[[Positions/Turtle]]** - Alternative defensive posture with different risk-reward trade-offs
 
-- **[[Rubber Guard]]** - Alternative dynamic guard system with flexibility requirements
+- **[[Positions/Rubber Guard]]** - Alternative dynamic guard system with flexibility requirements
 
-- **[[Spider Guard]]** - Entry position that can transition to inverted guard for defensive retention
+- **[[Positions/Spider Guard]]** - Entry position that can transition to inverted guard for defensive retention
 
-- **[[Lasso Guard]]** - Connected guard position with inversion pathways
+- **[[Positions/Lasso Guard]]** - Connected guard position with inversion pathways
 
-- **[[Butterfly Guard]]** - Alternative mobile guard system with sweep emphasis
+- **[[Positions/Butterfly Guard]]** - Alternative mobile guard system with sweep emphasis
 
 
 </section>

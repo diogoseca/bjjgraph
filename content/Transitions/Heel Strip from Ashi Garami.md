@@ -21,7 +21,7 @@ The strategic importance of the heel strip cannot be overstated. In modern leg l
 
 Execution requires understanding the attacker's grip mechanics. The heel hook relies on controlling the heel and foot to create rotational force against the knee. The defender's goal is to two-on-one the attacker's wrist controlling the heel, strip it below the ankle line, and immediately straighten the leg to prevent re-gripping. The subsequent leg extraction and guard recovery must happen as a continuous sequence—pausing after the strip invites the attacker to re-establish control or advance position.
 
-**From Position**: [[Ashi Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Execution requires understanding the attacker's grip mechanics. The heel hook re
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Failure | [[Ashi Garami]] | 30% |
-| Counter | [[Saddle]] | 20% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Failure | [[Positions/Ashi Garami]] | 30% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 20% |
 
 
 </section>
@@ -194,25 +194,25 @@ The heel strip is the critical junction between leg lock defense and guard recov
 ## Related Techniques
 
 
-- [[Ashi Garami]] - Source position family—the heel strip addresses the primary submission threat from all Ashi Garami variations
+- [[Positions/Ashi Garami]] - Source position family—the heel strip addresses the primary submission threat from all Ashi Garami variations
 
-- [[Open Guard]] - Target position after successful heel strip and leg extraction—recovery destination
+- [[Positions/Open Guard]] - Target position after successful heel strip and leg extraction—recovery destination
 
-- [[Heel Hook Defense Escape]] - Complementary defensive technique for escaping heel hook threats from leg entanglements
+- [[Transitions/Heel Hook Defense Escape]] - Complementary defensive technique for escaping heel hook threats from leg entanglements
 
-- [[Ashi Garami Escape]] - Broader escape system that includes heel strip as one component of the defensive toolkit
+- [[Transitions/Ashi Garami Escape]] - Broader escape system that includes heel strip as one component of the defensive toolkit
 
-- [[Boot Defense from Toe Hold]] - Related defensive grip protection technique that precedes and enables the heel strip
+- [[Transitions/Boot Defense from Toe Hold]] - Related defensive grip protection technique that precedes and enables the heel strip
 
-- [[Saddle]] - Advanced ashi garami variation where heel strip becomes most urgent due to maximum heel exposure
+- [[Positions/Ashi Garami/Saddle]] - Advanced ashi garami variation where heel strip becomes most urgent due to maximum heel exposure
 
-- [[Inside Ashi-Garami]] - Intermediate ashi garami variation where heel strip timing and hand positioning differ from outside ashi
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Intermediate ashi garami variation where heel strip timing and hand positioning differ from outside ashi
 
-- [[Honey Hole]] - Legacy name for Saddle—position requiring immediate heel strip to prevent finish
+- [[Positions/Ashi Garami/Honey Hole]] - Legacy name for Saddle—position requiring immediate heel strip to prevent finish
 
-- [[50-50 Guard]] - Bilateral entanglement where heel strip may apply to both practitioners simultaneously
+- [[Positions/Ashi Garami/50-50 Guard]] - Bilateral entanglement where heel strip may apply to both practitioners simultaneously
 
-- [[Heel Hook from Saddle]] - Primary submission this technique defends against—understanding the finish improves defensive timing
+- [[Transitions/Heel Hook from Saddle]] - Primary submission this technique defends against—understanding the finish improves defensive timing
 
 
 </section>

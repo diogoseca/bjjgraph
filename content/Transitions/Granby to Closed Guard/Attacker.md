@@ -178,7 +178,7 @@ The technique is particularly valuable because it works against forward pressure
 
 Mastery of the Granby to Closed Guard provides practitioners with a reliable escape route from dangerous positions, reducing the effectiveness of common pinning attacks and creating opportunities to return to offensive guard play. The technique requires good body awareness, hip mobility, and timing, but once developed becomes an instinctive defensive reaction that can save matches.
 
-**From Position**: [[Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
@@ -230,9 +230,9 @@ Mastery of the Granby to Closed Guard provides practitioners with a reliable esc
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 65% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 65% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ Mastery of the Granby to Closed Guard provides practitioners with a reliable esc
 
 ## Opponent Counters
 
-- **Opponent sprawls backward as you begin the roll, maintaining distance** (Effectiveness: Medium) - Your Response: Adapt by completing the roll into a seated guard position instead, using your legs to create frames and prevent them from passing. You can transition to butterfly guard or continue working for closed guard from the seated position. → Leads to [[Turtle]]
-- **Opponent drives forward aggressively, attempting to flatten you mid-roll** (Effectiveness: High) - Your Response: Use their forward momentum to accelerate your roll, completing it faster than they can follow. The increased pressure actually helps you rotate more quickly. Ensure you thread your inside leg immediately as you complete the rotation to block their forward movement. → Leads to [[Back Control]]
-- **Opponent secures a grip on your leg during the roll, preventing guard closure** (Effectiveness: Medium) - Your Response: Accept an open guard position temporarily (butterfly, half guard, or single leg X-guard depending on which leg they control). Work to break their grip and recover full closed guard, or transition to attacks from the open guard position you've achieved. → Leads to [[Turtle]]
-- **Opponent posts their hand on the mat, creating a barrier that blocks your rotation path** (Effectiveness: Low) - Your Response: Roll in the opposite direction or use your legs to sweep their posted arm, removing the barrier. Their posted arm actually compromises their base, making them vulnerable to sweeps or other guard recovery methods. → Leads to [[Turtle]]
+- **Opponent sprawls backward as you begin the roll, maintaining distance** (Effectiveness: Medium) - Your Response: Adapt by completing the roll into a seated guard position instead, using your legs to create frames and prevent them from passing. You can transition to butterfly guard or continue working for closed guard from the seated position. → Leads to [[Positions/Turtle]]
+- **Opponent drives forward aggressively, attempting to flatten you mid-roll** (Effectiveness: High) - Your Response: Use their forward momentum to accelerate your roll, completing it faster than they can follow. The increased pressure actually helps you rotate more quickly. Ensure you thread your inside leg immediately as you complete the rotation to block their forward movement. → Leads to [[Positions/Back Control]]
+- **Opponent secures a grip on your leg during the roll, preventing guard closure** (Effectiveness: Medium) - Your Response: Accept an open guard position temporarily (butterfly, half guard, or single leg X-guard depending on which leg they control). Work to break their grip and recover full closed guard, or transition to attacks from the open guard position you've achieved. → Leads to [[Positions/Turtle]]
+- **Opponent posts their hand on the mat, creating a barrier that blocks your rotation path** (Effectiveness: Low) - Your Response: Roll in the opposite direction or use your legs to sweep their posted arm, removing the barrier. Their posted arm actually compromises their base, making them vulnerable to sweeps or other guard recovery methods. → Leads to [[Positions/Turtle]]
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Master the mounted triangle squeeze mechanics from the attacker pe
 
 Executing the Mounted Triangle Squeeze requires coordinated action across three mechanical systems: leg compression to close the triangle lock, hip angle adjustment to optimize the choking vector, and upper body control to break the opponent's posture and prevent defensive framing. The attacker leverages gravity and mount weight distribution to amplify squeeze pressure far beyond what is available from guard-based triangles. Success demands patience and systematic tightening rather than explosive muscular effort. The squeeze transforms a positional hold into an imminent submission threat by progressively eliminating all defensive space within the triangle configuration.
 
-**From Position**: [[Mounted Triangle]] (Top)
+**From Position**: [[Positions/Mount/Mounted Triangle]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ Executing the Mounted Triangle Squeeze requires coordinated action across three 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mounted Triangle]] | 70% |
-| Failure | [[Mounted Triangle]] | 20% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Mount/Mounted Triangle]] | 70% |
+| Failure | [[Positions/Mount/Mounted Triangle]] | 20% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -244,10 +244,10 @@ Executing the Mounted Triangle Squeeze requires coordinated action across three 
 
 ## Opponent Counters
 
-- **Opponent creates defensive frame with free arm against attacker's hip to prevent angle adjustment** (Effectiveness: High) - Your Response: Strip the frame by controlling their wrist and pinning it to their chest or the mat. Alternatively, switch to gift wrap control on the free arm before resuming the squeeze. The frame must be eliminated before meaningful squeeze pressure can be applied. → Leads to [[Mounted Triangle]]
-- **Opponent tucks chin aggressively and turns head away from choking angle** (Effectiveness: Medium) - Your Response: Use the head pull to rotate their chin back toward the trapped arm side. The chin tuck reduces choking pressure but cannot fully prevent it if your angle is correct. Increase hip angle adjustment to find the line where the squeeze bites despite the chin tuck. → Leads to [[Mounted Triangle]]
-- **Opponent attempts explosive bridge during squeeze to disrupt lock and create escape** (Effectiveness: Medium) - Your Response: Absorb the bridge by widening your bottom leg post and shifting your weight slightly backward. Maintain the triangle lock throughout the bridge. The bridge costs the opponent significant energy and often makes the subsequent squeeze easier as they fatigue. If the bridge is powerful enough to compromise position, transition back to high mount or S mount. → Leads to [[Mount]]
-- **Opponent works trapped arm extraction by straightening and pulling arm through triangle gap** (Effectiveness: High) - Your Response: Immediately increase knee squeeze to close the arm extraction space. If the arm begins clearing, transition to armbar on the extracting arm. Their extraction attempt leaves the arm extended and vulnerable. The arm extraction attempt can become your path to an armbar finish. → Leads to [[Mounted Triangle]]
+- **Opponent creates defensive frame with free arm against attacker's hip to prevent angle adjustment** (Effectiveness: High) - Your Response: Strip the frame by controlling their wrist and pinning it to their chest or the mat. Alternatively, switch to gift wrap control on the free arm before resuming the squeeze. The frame must be eliminated before meaningful squeeze pressure can be applied. → Leads to [[Positions/Mount/Mounted Triangle]]
+- **Opponent tucks chin aggressively and turns head away from choking angle** (Effectiveness: Medium) - Your Response: Use the head pull to rotate their chin back toward the trapped arm side. The chin tuck reduces choking pressure but cannot fully prevent it if your angle is correct. Increase hip angle adjustment to find the line where the squeeze bites despite the chin tuck. → Leads to [[Positions/Mount/Mounted Triangle]]
+- **Opponent attempts explosive bridge during squeeze to disrupt lock and create escape** (Effectiveness: Medium) - Your Response: Absorb the bridge by widening your bottom leg post and shifting your weight slightly backward. Maintain the triangle lock throughout the bridge. The bridge costs the opponent significant energy and often makes the subsequent squeeze easier as they fatigue. If the bridge is powerful enough to compromise position, transition back to high mount or S mount. → Leads to [[Positions/Mount]]
+- **Opponent works trapped arm extraction by straightening and pulling arm through triangle gap** (Effectiveness: High) - Your Response: Immediately increase knee squeeze to close the arm extraction space. If the arm begins clearing, transition to armbar on the extracting arm. Their extraction attempt leaves the arm extended and vulnerable. The arm extraction attempt can become your path to an armbar finish. → Leads to [[Positions/Mount/Mounted Triangle]]
 
 
 </section>

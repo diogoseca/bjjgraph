@@ -21,7 +21,7 @@ The mechanics rely on recognizing the specific defensive reactions that create m
 
 Strategically, this transition serves multiple purposes in a systematic game plan. First, it provides an escape route when the gogoplata is defended without conceding position. Second, it creates a genuine dilemma for the defender who must choose between accepting submission pressure or giving up the mount. Third, it demonstrates how guard attacks and positional advancement can be seamlessly integrated rather than treated as separate objectives. The high mount achieved provides immediate access to Americana, mounted triangle, and S-mount attacks, making this transition a gateway to multiple finishing sequences.
 
-**From Position**: [[Gogoplata Control]] (Bottom)
+**From Position**: [[Positions/Gogoplata Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition serves multiple purposes in a systematic game pla
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[High Mount]] | 58% |
-| Failure | [[Gogoplata Control]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/High Mount]] | 58% |
+| Failure | [[Positions/Gogoplata Control]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,27 +189,27 @@ The High Mount Transition integrates gogoplata attacks with positional advanceme
 ## Related Techniques
 
 
-- [[Gogoplata Control]] - Starting position from which transition initiates
+- [[Positions/Gogoplata Control]] - Starting position from which transition initiates
 
-- [[High Mount]] - Target position on successful execution
+- [[Positions/Mount/High Mount]] - Target position on successful execution
 
-- [[Mount]] - Alternative landing position if knees settle lower
+- [[Positions/Mount]] - Alternative landing position if knees settle lower
 
-- [[Back Take]] - Alternative transition when opponent escapes laterally
+- [[Transitions/Back Take]] - Alternative transition when opponent escapes laterally
 
-- [[Rubber Guard]] - System context providing entry pathways
+- [[Positions/Rubber Guard]] - System context providing entry pathways
 
-- [[Mission Control]] - Preceding rubber guard control position
+- [[Positions/Rubber Guard/Mission Control]] - Preceding rubber guard control position
 
-- [[Gogoplata]] - Primary submission threat creating offensive dilemma
+- [[Transitions/Gogoplata]] - Primary submission threat creating offensive dilemma
 
-- [[Armbar from Mount]] - Follow-up submission from target position
+- [[Submissions/Armbar from Mount]] - Follow-up submission from target position
 
-- [[Americana from Mount]] - Follow-up submission from target position
+- [[Submissions/Americana from Mount]] - Follow-up submission from target position
 
-- [[Mounted Triangle]] - Follow-up control and submission from target position
+- [[Positions/Mount/Mounted Triangle]] - Follow-up control and submission from target position
 
-- [[Half Guard]] - Possible outcome if leg trapped during transition
+- [[Positions/Half Guard]] - Possible outcome if leg trapped during transition
 
 
 </section>

@@ -26,8 +26,8 @@ From a positional standpoint, the Gift Wrap RNC connects directly to the broader
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Neck
-**Starting Position**: [[Gift Wrap]]
-**From Position**: [[Gift Wrap]] (Top)
+**Starting Position**: [[Positions/Gift Wrap]]
+**From Position**: [[Positions/Gift Wrap]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -77,8 +77,8 @@ From a positional standpoint, the Gift Wrap RNC connects directly to the broader
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Gift Wrap]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Failure | [[Positions/Gift Wrap]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -226,9 +226,9 @@ From a positional standpoint, the Gift Wrap RNC connects directly to the broader
 
 ## From Which Positions?
 
-- [[Gift Wrap]]
-- [[Mount]]
-- [[Back Control]]
+- [[Positions/Gift Wrap]]
+- [[Positions/Mount]]
+- [[Positions/Back Control]]
 
 
 </section>
@@ -237,12 +237,12 @@ From a positional standpoint, the Gift Wrap RNC connects directly to the broader
 
 ## Related Submissions
 
-- [[Body Triangle RNC]]
-- [[Bow and Arrow from Seat Belt]]
-- [[Gift Wrap Armbar]]
-- [[Armbar from Back]]
-- [[Armbar from Back with Legs]]
-- [[Choke from Crucifix]]
+- [[Submissions/Body Triangle RNC]]
+- [[Submissions/Bow and Arrow from Seat Belt]]
+- [[Submissions/Gift Wrap Armbar]]
+- [[Submissions/Armbar from Back]]
+- [[Submissions/Armbar from Back with Legs]]
+- [[Transitions/Choke from Crucifix]]
 
 
 </section>
@@ -251,13 +251,13 @@ From a positional standpoint, the Gift Wrap RNC connects directly to the broader
 
 ## Additional Related Content
 
-- [[Gift Wrap]] - Source control position where this submission is initiated from the arm trap
-- [[Back Control]] - Parent position from which Gift Wrap control is established before the choke
-- [[Body Triangle RNC]] - Related RNC variation using body triangle instead of gift wrap for enhanced control
-- [[Bow and Arrow from Seat Belt]] - Alternative high-percentage back choke that chains from similar back control positions
-- [[Gift Wrap Armbar]] - Chain submission targeting the free arm when RNC defense is strong
-- [[Crucifix]] - Advanced arm trap position sharing the concept of limb isolation for choke access
-- [[Seat Belt Control Back]] - Grip configuration that precedes Gift Wrap establishment for back choke entries
+- [[Positions/Gift Wrap]] - Source control position where this submission is initiated from the arm trap
+- [[Positions/Back Control]] - Parent position from which Gift Wrap control is established before the choke
+- [[Submissions/Body Triangle RNC]] - Related RNC variation using body triangle instead of gift wrap for enhanced control
+- [[Submissions/Bow and Arrow from Seat Belt]] - Alternative high-percentage back choke that chains from similar back control positions
+- [[Submissions/Gift Wrap Armbar]] - Chain submission targeting the free arm when RNC defense is strong
+- [[Positions/Crucifix]] - Advanced arm trap position sharing the concept of limb isolation for choke access
+- [[Positions/Back Control/Seat Belt Control Back]] - Grip configuration that precedes Gift Wrap establishment for back choke entries
 
 
 </section>

@@ -164,7 +164,7 @@ The critical defensive window occurs between when the attacker shifts from choke
 
 Advanced defenders use the transition attempt as an escape opportunity. When the attacker commits to the armbar by swinging their leg and rotating, their back control weakens momentarily. This creates a window to turn into them, drop to turtle, or create enough separation to begin recovering a more defensible position. The key is recognizing that the attacker cannot simultaneously maintain perfect back control and execute the armbar transition, and exploiting that brief structural compromise.
 
-**Opponent's Starting Position**: [[Standing Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
 
@@ -201,35 +201,35 @@ Advanced defenders use the transition attempt as an escape opportunity. When the
 ### 1. Retract arm and re-tuck to body the moment you feel wrist control being established, pulling elbow tight to ribs and dropping your chin back to defensive position
 
 - **When to use**: Immediately when you feel the attacker's hand transition from choke attempt to wrist grip, before leg swing begins
-- **Targets**: [[Standing Back Control]]
+- **Targets**: [[Positions/Back Control/Standing Back Control]]
 - **If successful**: Forces attacker back to choke attempts from standing back control, resetting the attack cycle with you still in back control bottom but without armbar threat
 - **Risk**: If arm retraction fails, you have committed both hands away from neck defense momentarily, potentially exposing the neck to a quick choke switch
 
 ### 2. Turn explosively into the attacker during their leg swing, rotating your shoulders to face them while the transition creates structural instability in their control
 
 - **When to use**: When you feel the attacker's leg begin to swing over your shoulder and their chest separates from your back during the rotation
-- **Targets**: [[Standing Back Control]]
+- **Targets**: [[Positions/Back Control/Standing Back Control]]
 - **If successful**: Disrupts the armbar transition entirely, potentially recovering to a clinch or neutral standing position where back control is lost
 - **Risk**: If the turn is incomplete, you may end up in a worse position with the attacker on top in mount or the armbar locked in from a different angle
 
 ### 3. Drop immediately to turtle position, tucking chin and pulling arms tight while curling into a defensive ball as the attacker attempts the rotation
 
 - **When to use**: When the transition is already in progress and arm retraction has failed, but before the attacker completes the descent to the ground
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Changes the angle and dynamics of the transition, making it significantly harder for the attacker to complete the armbar from the new body configuration
 - **Risk**: You are now in turtle with the opponent on top, trading the armbar threat for potential back take or front headlock attacks
 
 ### 4. Clasp your hands together in a prayer or S-grip configuration to prevent arm isolation, creating a two-arm defensive structure against the single-arm attack
 
 - **When to use**: When the attacker has gripped your wrist but has not yet begun the leg swing, buying time to work other escapes
-- **Targets**: [[Standing Back Control]]
+- **Targets**: [[Positions/Back Control/Standing Back Control]]
 - **If successful**: Prevents arm isolation and forces the attacker to spend time and energy breaking your grip before they can continue the transition
 - **Risk**: Both hands occupied with grip defense leaves your neck temporarily undefended if the attacker switches back to choke attacks
 
 ### 5. Step laterally in the direction of the attacker's rotation during descent, following their movement to prevent them from achieving perpendicular angle for the armbar
 
 - **When to use**: During the rotational descent phase when the attacker is midway between standing and ground position
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Prevents the attacker from establishing proper armbar angle, forcing a scramble where you can recover turtle or half guard
 - **Risk**: Stepping with the rotation may accelerate the descent and leave you in a worse ground position if timing is off
 
@@ -241,11 +241,11 @@ Advanced defenders use the transition attempt as an escape opportunity. When the
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Back Control]]
+### → [[Positions/Back Control/Standing Back Control]]
 
 Retract the targeted arm early by pulling your elbow tight to your ribs the instant you feel the attacker shift from choke to wrist control. Simultaneously turn your shoulders toward the attacker to disrupt their angle. The goal is to deny the arm isolation that initiates the entire sequence, forcing the attacker to either reset to choke attacks or abandon the transition attempt.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 When the transition is already in progress and arm retraction has failed, immediately drop to turtle by bending at the knees, tucking your chin, and curling your body into a tight defensive ball. Pull your trapped arm as close to your body as possible during the drop. The change in elevation and body position disrupts the attacker's rotation mechanics and makes completing the armbar significantly harder from the new configuration.
 

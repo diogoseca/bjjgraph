@@ -154,7 +154,7 @@ description: "Learn to prevent the Chill Dog hip escape to half guard. Counter e
 
 As the defender against Escape Chill Dog, you are the top player working to maintain your dominant turtle control while your opponent attempts to recover half guard through a hip escape and leg insertion. Your primary objective is to prevent the escape from succeeding by maintaining pressure, following hip movement, and denying the leg thread that establishes half guard. When the escape attempt begins, you must choose between shutting it down to maintain position, or capitalizing on the movement to advance to an even more dominant position like back control. Understanding the mechanics of this escape allows you to predict and intercept each phase, converting your opponent's escape attempt into your offensive opportunity.
 
-**Opponent's Starting Position**: [[Chill Dog]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Chill Dog]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against Escape Chill Dog, you are the top player working to main
 ### 1. Drive hips forward and sink weight through chest to prevent hip escape initiation
 
 - **When to use**: When you detect early escape preparation through weight shifting or arm posting
-- **Targets**: [[Chill Dog]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: Bottom player's escape attempt is smothered before it begins, maintaining Chill Dog top control
 - **Risk**: Over-committing forward pressure may trigger a Granby roll escape in the opposite direction
 
 ### 2. Follow the hip escape laterally and insert near-side hook during the rotation
 
 - **When to use**: When the hip escape has already initiated and lateral space is being created
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Convert the escape attempt into back control by riding the movement and inserting hooks before half guard is established
 - **Risk**: If you follow too slowly, bottom player completes the half guard establishment before hooks are inserted
 
 ### 3. Sprawl and drive hips down to flatten bottom player before leg thread completes
 
 - **When to use**: When you detect the inside leg beginning to thread between your legs during the escape
-- **Targets**: [[Chill Dog]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: Bottom player is flattened with the escape interrupted mid-sequence, returning to a controlled turtle position
 - **Risk**: Sprawling too aggressively can create space for a follow-up escape attempt or Granby roll
 
 ### 4. Secure front headlock by circling toward bottom player's head during the rotation
 
 - **When to use**: When the bottom player begins turning to face you but has not yet secured the half guard hook
-- **Targets**: [[Chill Dog]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: Establish front headlock control which prevents the half guard recovery and opens guillotine and darce opportunities
 - **Risk**: If the leg hook is already established, circling to front headlock allows them to complete the half guard recovery
 
@@ -225,11 +225,11 @@ As the defender against Escape Chill Dog, you are the top player working to main
 
 ## Best-Case Outcomes for Defender
 
-### → [[Chill Dog]]
+### → [[Positions/Rubber Guard/Chill Dog]]
 
 Prevent the escape by maintaining heavy chest pressure and hip-to-hip connection. When you feel the escape initiate, immediately drive your weight forward and down while controlling their near-side hip with your hand. This removes the space they need for the hip escape and forces them back into the defensive turtle shell.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Use the escape attempt as your opportunity to advance. When the bottom player begins their hip escape and rotation, follow their movement closely rather than trying to hold position. As they begin to turn from turtle to face you, insert your near-side hook into the space their rotation creates. Establish the seatbelt grip over-under before they can complete the half guard recovery. Their own escape movement exposes the back.
 

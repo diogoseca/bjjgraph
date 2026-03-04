@@ -180,7 +180,7 @@ description: "Complete guide to executing the Stack Pass from Mission Control. L
 
 As the attacker executing the Stack Pass from Mission Control, your primary objective is to convert a defensive predicament into an offensive passing opportunity through controlled forward pressure. You are the top player trapped in Mission Control with your posture broken, shoulder isolated, and submission threats mounting. The stack pass offers a direct path out of this increasingly dangerous position by attacking the fundamental structure of the rubber guard—the bottom player's hip elevation and high guard configuration. By driving your weight forward and folding the bottom player's hips over their shoulders, you systematically dismantle the control framework that enables Mission Control's submission threats while simultaneously advancing toward a passing position.
 
-**From Position**: [[Mission Control]] (Top)
+**From Position**: [[Positions/Rubber Guard/Mission Control]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Stack Pass from Mission Control, your primary obje
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Mission Control]] | 35% |
-| Counter | [[Closed Guard]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Rubber Guard/Mission Control]] | 35% |
+| Counter | [[Positions/Closed Guard]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Stack Pass from Mission Control, your primary obje
 
 ## Opponent Counters
 
-- **Opponent transitions to omoplata by using forward stacking momentum to rotate their hips and catch the trapped arm** (Effectiveness: High) - Your Response: Keep elbows extremely tight and pull arm across your body toward the opposite hip as you feel rotation. If omoplata locks, posture up and circle toward their head to extract the arm before they can flatten you. → Leads to [[Closed Guard]]
-- **Opponent shrimps away during the stack to create distance and re-establishes Mission Control grips before the guard collapses** (Effectiveness: Medium) - Your Response: Maintain constant forward pressure and follow their hip movement with your drive direction. If they create enough distance to re-establish, immediately switch to posture recovery rather than continuing a failed stack. → Leads to [[Mission Control]]
-- **Opponent brings leg across your face during the stack to enter triangle choke using your forward momentum** (Effectiveness: Medium) - Your Response: Turn head aggressively toward the trapped arm side and drive shoulder into their thigh to prevent the leg from crossing your centerline. If triangle locks partially, stack harder to compress the angle and prevent the choke from setting. → Leads to [[Mission Control]]
-- **Opponent hip bumps during the stack to sweep using your committed forward weight distribution** (Effectiveness: Medium) - Your Response: Widen your base by posting one foot wide during the stack drive to create stability against lateral sweeping forces. If you feel the sweep initiating, abandon the stack and post your hand to prevent being rolled. → Leads to [[Closed Guard]]
+- **Opponent transitions to omoplata by using forward stacking momentum to rotate their hips and catch the trapped arm** (Effectiveness: High) - Your Response: Keep elbows extremely tight and pull arm across your body toward the opposite hip as you feel rotation. If omoplata locks, posture up and circle toward their head to extract the arm before they can flatten you. → Leads to [[Positions/Closed Guard]]
+- **Opponent shrimps away during the stack to create distance and re-establishes Mission Control grips before the guard collapses** (Effectiveness: Medium) - Your Response: Maintain constant forward pressure and follow their hip movement with your drive direction. If they create enough distance to re-establish, immediately switch to posture recovery rather than continuing a failed stack. → Leads to [[Positions/Rubber Guard/Mission Control]]
+- **Opponent brings leg across your face during the stack to enter triangle choke using your forward momentum** (Effectiveness: Medium) - Your Response: Turn head aggressively toward the trapped arm side and drive shoulder into their thigh to prevent the leg from crossing your centerline. If triangle locks partially, stack harder to compress the angle and prevent the choke from setting. → Leads to [[Positions/Rubber Guard/Mission Control]]
+- **Opponent hip bumps during the stack to sweep using your committed forward weight distribution** (Effectiveness: Medium) - Your Response: Widen your base by posting one foot wide during the stack drive to create stability against lateral sweeping forces. If you feel the sweep initiating, abandon the stack and post your hand to prevent being rolled. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

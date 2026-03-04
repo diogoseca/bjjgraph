@@ -154,7 +154,7 @@ description: "Learn to defend and survive the Hindulotine Choke Finish. Recognit
 
 Defending the Hindulotine Choke Finish requires recognizing when the attacker transitions from positional control to active finishing mechanics and responding before the rotational pressure becomes inescapable. The defender must address multiple simultaneous threats: the grip compressing the carotid arteries, the hip angle generating rotational torque, and the leg control preventing escape movement. Successful defense prioritizes disrupting the attacker's perpendicular hip angle over direct grip fighting, because the Hindulotine grip is specifically designed to resist hand-fighting attempts. Early recognition and immediate defensive action are critical, as the window for effective defense narrows rapidly once the attacker begins the finishing sequence. The rotational nature of this choke means traditional chin-tuck defense is less effective than against standard guillotines, making positional escape and angle disruption the primary defensive strategies.
 
-**Opponent's Starting Position**: [[Hindulotine]] (Top)
+**Opponent's Starting Position**: [[Positions/Hindulotine]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Hindulotine Choke Finish requires recognizing when the attacker tr
 ### 1. Tuck chin and turn head toward choking arm while framing against attacker's hip to create space
 
 - **When to use**: Immediately upon recognizing the first finishing pressure increase, before the grip is fully optimized and the perpendicular angle is locked
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: Creates space under the chin that reduces carotid compression, buying time for further defensive action or angle change
 - **Risk**: If attacker adjusts angle using rotational torque, the chin tuck becomes insufficient and you remain under increasing pressure
 
 ### 2. Circle hips away from the choking arm side to disrupt the perpendicular angle relationship
 
 - **When to use**: When the attacker's legs allow any hip movement before they fully lock down control with hooks or base
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: Changing the perpendicular angle directly reduces rotational torque, the primary force generating the choke, creating escape opportunities
 - **Risk**: Circling toward the wrong side can increase pressure, and excessive movement may accelerate the finish if angle is misread
 
 ### 3. Drive forward explosively to break the attacker's base and posture up through their hip angle
 
 - **When to use**: When the attacker commits weight forward for the finish and their base becomes compromised by the submission attempt
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Breaking the attacker's base disrupts the entire finishing system and may create enough space to extract your head and establish guard
 - **Risk**: Driving forward against a set choke with good base can tighten the submission if the angle is not simultaneously disrupted
 
 ### 4. Hand fight the grip by inserting fingers between forearm and neck to create space for head extraction
 
 - **When to use**: As a secondary defense combined with angle disruption when posture and hip movement alone are insufficient
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Breaking even partial grip contact can reduce carotid pressure enough to posture up, extract the head, and establish a defensive guard position
 - **Risk**: Hand fighting without simultaneously addressing the hip angle is typically insufficient against an established Hindulotine grip and wastes energy
 
@@ -225,11 +225,11 @@ Defending the Hindulotine Choke Finish requires recognizing when the attacker tr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Drive forward to disrupt the attacker's base while simultaneously hand-fighting the grip and circling your hips to break the perpendicular angle. Once the rotational pressure is disrupted, posture aggressively and extract your head from the choke. Establish half guard to prevent the attacker from immediately re-establishing Hindulotine control.
 
-### → [[Hindulotine]]
+### → [[Positions/Hindulotine]]
 
 Survive the active finishing attempt by combining chin tuck with angle disruption and waiting for the attacker's arms and core to fatigue from the finishing effort. Once they cannot maintain maximum pressure, the position reverts to Hindulotine control without active finishing threat, giving you more time to work systematic escapes from the control position.
 

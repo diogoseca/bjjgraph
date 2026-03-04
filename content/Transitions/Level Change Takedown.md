@@ -19,7 +19,7 @@ The level change takedown is the most fundamental wrestling-based attack in Braz
 
 In competition, the level change takedown creates a direct path from neutral standing engagement to dominant side control, bypassing the guard entirely and immediately establishing a scoring advantage. The technique's effectiveness depends on proper setup through grip fighting, feints, and movement that disguises the actual shot entry. Without adequate setup, even technically sound level changes become predictable and easily defended through sprawling or guillotine counters. The integration of chain wrestling concepts allows the attacker to flow between single leg, double leg, and alternative finishes based on defensive reactions, making the level change a gateway to an entire wrestling subsystem within BJJ competition.
 
-**From Position**: [[Standing Position]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -30,9 +30,9 @@ In competition, the level change takedown creates a direct path from neutral sta
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -192,27 +192,27 @@ The level change takedown sits at the heart of the BJJ standing game, connecting
 ## Related Techniques
 
 
-- [[Standing Position]] - Starting position for the level change takedown
+- [[Positions/Standing Position]] - Starting position for the level change takedown
 
-- [[Side Control]] - Primary target position after successful takedown completion
+- [[Positions/Side Control]] - Primary target position after successful takedown completion
 
-- [[Open Guard]] - Counter outcome when opponent pulls guard or establishes leg frames during shot entry
+- [[Positions/Open Guard]] - Counter outcome when opponent pulls guard or establishes leg frames during shot entry
 
-- [[Clinch]] - Alternative standing engagement that can set up level changes through collar ties and snapdowns
+- [[Positions/Clinch]] - Alternative standing engagement that can set up level changes through collar ties and snapdowns
 
-- [[Double Leg Finish]] - Primary completion technique following double leg level change entry
+- [[Transitions/Double Leg Finish]] - Primary completion technique following double leg level change entry
 
-- [[Single Leg Entry]] - Alternative takedown sharing the same level change penetration mechanics
+- [[Transitions/Single Leg Entry]] - Alternative takedown sharing the same level change penetration mechanics
 
-- [[Body Lock Takedown]] - Complementary standing takedown using different finishing mechanics from similar range
+- [[Transitions/Body Lock Takedown]] - Complementary standing takedown using different finishing mechanics from similar range
 
-- [[Ankle Pick]] - Low-level takedown that chains from failed level change attempts or misdirection setups
+- [[Transitions/Ankle Pick]] - Low-level takedown that chains from failed level change attempts or misdirection setups
 
-- [[Sprawl]] - Primary defensive counter that must be overcome or avoided during execution
+- [[Transitions/Sprawl]] - Primary defensive counter that must be overcome or avoided during execution
 
-- [[Front Headlock]] - Defensive position opponent may achieve when successfully stuffing the shot
+- [[Positions/Front Headlock]] - Defensive position opponent may achieve when successfully stuffing the shot
 
-- [[Guard Pull]] - Opponent's alternative response to avoid the takedown by sitting to guard
+- [[Transitions/Guard Pull]] - Opponent's alternative response to avoid the takedown by sitting to guard
 
 
 </section>

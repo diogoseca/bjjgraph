@@ -21,7 +21,7 @@ The technique requires coordinated action across multiple control points simulta
 
 Strategic deployment of this escape depends on recognizing when the attacker's control remains incomplete. The optimal window exists when the attacker has established initial grip contact but has not yet consolidated their leg positioning or deepened their forearm against the Achilles tendon. Attempting this escape against fully consolidated control dramatically reduces success probability and risks being swept during the standing attempt. Reading the attacker's control level accurately determines whether standing escape, hip rotation defense, or counter-entanglement represents the highest-percentage response.
 
-**From Position**: [[Straight Ankle Lock Control]] (Top)
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategic deployment of this escape depends on recognizing when the attacker's c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Straight Ankle Lock Control]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Straight Ankle Lock Control]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The ankle lock escape to standing occupies a critical position in the defensive 
 ## Related Techniques
 
 
-- [[Straight Ankle Lock Control]] - Source position from which this escape is executed
+- [[Positions/Straight Ankle Lock Control]] - Source position from which this escape is executed
 
-- [[Standing Position]] - Primary target destination upon successful escape
+- [[Positions/Standing Position]] - Primary target destination upon successful escape
 
-- [[Open Guard]] - Position resulting from counter when opponent uses escape momentum to come on top
+- [[Positions/Open Guard]] - Position resulting from counter when opponent uses escape momentum to come on top
 
-- [[Ashi Garami Escape]] - Complementary escape technique addressing broader leg entanglement scenarios
+- [[Transitions/Ashi Garami Escape]] - Complementary escape technique addressing broader leg entanglement scenarios
 
-- [[Ankle Lock Finish]] - The submission this escape defends against
+- [[Transitions/Ankle Lock Finish]] - The submission this escape defends against
 
-- [[Inside Ashi-Garami]] - Dangerous progression if escape is misdirected or stalls
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Dangerous progression if escape is misdirected or stalls
 
-- [[50-50 Guard]] - Alternative defensive destination through counter-entanglement instead of standing
+- [[Positions/Ashi Garami/50-50 Guard]] - Alternative defensive destination through counter-entanglement instead of standing
 
-- [[Single Leg X-Guard]] - Common entry position to ankle lock that contextualizes escape mechanics
+- [[Positions/X-Guard/Single Leg X-Guard]] - Common entry position to ankle lock that contextualizes escape mechanics
 
-- [[Achilles Lock]] - The specific submission threat that motivates this escape
+- [[Submissions/Achilles Lock]] - The specific submission threat that motivates this escape
 
-- [[Outside Ashi-Garami]] - Alternate dangerous entanglement defender must avoid during escape
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternate dangerous entanglement defender must avoid during escape
 
 
 </section>

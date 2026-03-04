@@ -180,7 +180,7 @@ description: "Execute the Escape from Rodeo Ride in BJJ. Step-by-step guide to d
 
 As the bottom practitioner trapped in Rodeo Ride, your primary objective is to systematically dismantle the rider's control and transition to a dominant top position. The escape requires precise timing, active grip fighting, and explosive movement at the right moment. You must first address the near-arm control that limits your posting ability, then exploit the rider's weight shifts to collapse their base and rotate into side control. The attacker's mindset should be one of controlled aggression—patient enough to wait for the right moment but decisive enough to commit fully when the window appears. Every movement should serve the dual purpose of improving your defensive structure while degrading the rider's control mechanisms.
 
-**From Position**: [[Rodeo Ride]] (Bottom)
+**From Position**: [[Positions/Rodeo Ride]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom practitioner trapped in Rodeo Ride, your primary objective is to s
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Rodeo Ride]] | 35% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Rodeo Ride]] | 35% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the bottom practitioner trapped in Rodeo Ride, your primary objective is to s
 
 ## Opponent Counters
 
-- **Rider maintains tight hip pressure and immediately re-establishes near-arm control after grip is stripped** (Effectiveness: High) - Your Response: Chain multiple escape attempts rather than relying on a single effort. Use the first attempt to disrupt the rider's rhythm even if the escape itself fails, then immediately reattempt when they re-settle and their grip is not yet deep. → Leads to [[Rodeo Ride]]
-- **Rider inserts hooks and transitions to full back control during the escape rotation when space is created** (Effectiveness: High) - Your Response: If you feel hooks entering during the rotation, immediately abort the escape and sit back to trap the entering leg against the mat. Address hook removal before reattempting the escape, as completing the rotation with hooks in leads to back control. → Leads to [[Back Control]]
-- **Rider follows hip movement with matching pressure adjustment to maintain riding position on the new angle** (Effectiveness: Medium) - Your Response: Use a feint in one direction to draw the rider's weight shift, then explosively escape in the opposite direction when they commit to following your initial movement. Their adjustment creates momentum in the wrong direction. → Leads to [[Rodeo Ride]]
-- **Rider sprawls hips low and drives chest pressure forward to flatten you during the escape attempt** (Effectiveness: Medium) - Your Response: If flattened, immediately work to recover turtle structure by getting knees under hips rather than continuing a compromised escape from flat position. Once turtle is recovered, restart the escape sequence from step one. → Leads to [[Rodeo Ride]]
+- **Rider maintains tight hip pressure and immediately re-establishes near-arm control after grip is stripped** (Effectiveness: High) - Your Response: Chain multiple escape attempts rather than relying on a single effort. Use the first attempt to disrupt the rider's rhythm even if the escape itself fails, then immediately reattempt when they re-settle and their grip is not yet deep. → Leads to [[Positions/Rodeo Ride]]
+- **Rider inserts hooks and transitions to full back control during the escape rotation when space is created** (Effectiveness: High) - Your Response: If you feel hooks entering during the rotation, immediately abort the escape and sit back to trap the entering leg against the mat. Address hook removal before reattempting the escape, as completing the rotation with hooks in leads to back control. → Leads to [[Positions/Back Control]]
+- **Rider follows hip movement with matching pressure adjustment to maintain riding position on the new angle** (Effectiveness: Medium) - Your Response: Use a feint in one direction to draw the rider's weight shift, then explosively escape in the opposite direction when they commit to following your initial movement. Their adjustment creates momentum in the wrong direction. → Leads to [[Positions/Rodeo Ride]]
+- **Rider sprawls hips low and drives chest pressure forward to flatten you during the escape attempt** (Effectiveness: Medium) - Your Response: If flattened, immediately work to recover turtle structure by getting knees under hips rather than continuing a compromised escape from flat position. Once turtle is recovered, restart the escape sequence from step one. → Leads to [[Positions/Rodeo Ride]]
 
 
 </section>

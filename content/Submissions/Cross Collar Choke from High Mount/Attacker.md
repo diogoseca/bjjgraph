@@ -182,7 +182,7 @@ description: "Master attacking the Cross Collar Choke from High Mount. Step-by-s
 
 Attacking the Cross Collar Choke from High Mount demands patience in grip establishment, precise wrist alignment for the finish, and the ability to chain the choke threat with armbar attacks to create an unsolvable defensive dilemma. The elevated knee position of high mount places your hands at optimal collar height, reducing the distance your hands must travel to establish deep grips. Unlike attempting this choke from standard mount, the high mount platform eliminates the opponent's ability to bridge effectively, providing a stable attacking base from which to work your grip sequence methodically. The key to consistent success is understanding that the first grip establishes control while the second grip finishes the choke—rushing the second grip before securing the first is the most common cause of failure.
 
-**From Position**: [[High Mount]] (Top)
+**From Position**: [[Positions/Mount/High Mount]] (Top)
 
 
 </section>
@@ -236,8 +236,8 @@ Attacking the Cross Collar Choke from High Mount demands patience in grip establ
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[High Mount]] | 30% |
-| Counter | [[Mount]] | 20% |
+| Failure | [[Positions/Mount/High Mount]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -246,10 +246,10 @@ Attacking the Cross Collar Choke from High Mount demands patience in grip establ
 
 ## Opponent Defenses
 
-- **Opponent grips your sleeve or wrist to prevent second collar grip insertion** (Effectiveness: High) - Your Response: Strip their grip using your free hand or switch to armbar attack on the extended arm—their defensive grip exposes the arm for isolation → Leads to [[High Mount]]
-- **Opponent tucks chin tightly to block collar entry and protect neck** (Effectiveness: Medium) - Your Response: Use cross-face pressure or knuckle pressure on the jaw to create space, or switch to an americana or armbar attack on the arms being used to frame → Leads to [[High Mount]]
-- **Opponent bridges explosively during grip transition attempting to displace your base** (Effectiveness: Medium) - Your Response: Post your free hand wide, drive hips forward, and ride the bridge. Their bridge creates momentary arm extension that can be captured for armbar → Leads to [[Mount]]
-- **Opponent frames on your biceps with both hands to create distance and prevent collar access** (Effectiveness: High) - Your Response: Swim your arms inside their frames to break the structure, or capitalize on their extended arms by transitioning to armbar or triangle attack → Leads to [[High Mount]]
+- **Opponent grips your sleeve or wrist to prevent second collar grip insertion** (Effectiveness: High) - Your Response: Strip their grip using your free hand or switch to armbar attack on the extended arm—their defensive grip exposes the arm for isolation → Leads to [[Positions/Mount/High Mount]]
+- **Opponent tucks chin tightly to block collar entry and protect neck** (Effectiveness: Medium) - Your Response: Use cross-face pressure or knuckle pressure on the jaw to create space, or switch to an americana or armbar attack on the arms being used to frame → Leads to [[Positions/Mount/High Mount]]
+- **Opponent bridges explosively during grip transition attempting to displace your base** (Effectiveness: Medium) - Your Response: Post your free hand wide, drive hips forward, and ride the bridge. Their bridge creates momentary arm extension that can be captured for armbar → Leads to [[Positions/Mount]]
+- **Opponent frames on your biceps with both hands to create distance and prevent collar access** (Effectiveness: High) - Your Response: Swim your arms inside their frames to break the structure, or capitalize on their extended arms by transitioning to armbar or triangle attack → Leads to [[Positions/Mount/High Mount]]
 
 
 </section>

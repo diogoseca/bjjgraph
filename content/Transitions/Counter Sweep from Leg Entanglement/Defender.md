@@ -138,7 +138,7 @@ description: "Defend and prevent the counter sweep from leg entanglement. Recogn
 
 As the defender against the counter sweep, you are the leg lock attacker whose opponent is attempting to use the entanglement to reverse your position. Your challenge is maintaining effective leg attack positioning while preserving enough base to prevent being swept. The fundamental tension you face is that effective leg lock finishing requires committing your upper body and weight in directions that compromise your base. Understanding how to maintain submission threat while keeping sweep-resistant positioning is essential for any serious leg lock practitioner. The key defensive skill is recognizing sweep initiation early—before the opponent generates full hip drive—and responding with base adjustments, entanglement deepening, or strategic disengagement that preserves your attacking position without exposing you to the reversal.
 
-**Opponent's Starting Position**: [[Leg Entanglement]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Entanglement]] (Bottom)
 
 </section>
 
@@ -176,28 +176,28 @@ As the defender against the counter sweep, you are the leg lock attacker whose o
 ### 1. Post with free hand and sprawl hips back to re-establish base against the sweep force
 
 - **When to use**: Early in the sweep attempt when you feel the initial forward pressure but the opponent has not yet generated full hip drive
-- **Targets**: [[Leg Entanglement]]
+- **Targets**: [[Positions/Leg Entanglement]]
 - **If successful**: Opponent is driven back to flat position and you maintain your entanglement with the option to continue your leg attack
 - **Risk**: If the post is too slow or too high, the opponent may attack the posting arm with a kimura, converting your defensive action into their offensive opportunity
 
 ### 2. Deepen entanglement by stepping over to saddle configuration during the sweep initiation
 
 - **When to use**: When the opponent commits to the sweep and begins driving forward, using their momentum to facilitate your transition to a more dominant entanglement
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: You convert a defensive situation into an offensive advancement, reaching the most dominant leg entanglement position from which multiple submissions are available
 - **Risk**: If the step-over is mistimed, the opponent's forward drive may carry them over your leg before you can complete the saddle entry
 
 ### 3. Release the entanglement entirely and recover to a neutral standing or guard passing position
 
 - **When to use**: When the sweep is well-timed and your base is irrecoverably compromised, making continued entanglement defense more dangerous than resetting
-- **Targets**: [[Leg Entanglement]]
+- **Targets**: [[Positions/Leg Entanglement]]
 - **If successful**: You avoid the sweep and reset to a neutral position from which you can re-engage on your terms, though you lose your leg attack opportunity
 - **Risk**: If you release too late, the opponent has already generated enough momentum to complete the sweep regardless of entanglement release
 
 ### 4. Control opponent's free arm to remove their posting ability before they can initiate the sweep
 
 - **When to use**: Proactively when you sense the opponent is beginning to set up sweep conditions by freeing their arms and positioning to sit up
-- **Targets**: [[Leg Entanglement]]
+- **Targets**: [[Positions/Leg Entanglement]]
 - **If successful**: The opponent cannot generate the posting base necessary for the sweep and is forced to find alternative escapes from bottom position
 - **Risk**: Controlling the opponent's arm with your hands may compromise your grip on their foot, potentially losing the submission position
 
@@ -209,11 +209,11 @@ As the defender against the counter sweep, you are the leg lock attacker whose o
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Entanglement]]
+### → [[Positions/Leg Entanglement]]
 
 Maintain base integrity through active posting and upper body control of the opponent. When you feel sweep initiation, immediately sprawl your hips back and post your free hand wide while keeping your entanglement hooks engaged. The opponent remains in bottom position and you can continue your leg attack sequence.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 Use the opponent's forward sweep momentum against them by stepping over with your far leg into the saddle configuration. As they drive forward, their hip movement actually facilitates your leg transition over their hip, landing you in the most dominant entanglement position. This converts their offensive sweep attempt into your positional advancement.
 

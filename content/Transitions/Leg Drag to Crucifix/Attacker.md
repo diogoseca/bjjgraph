@@ -186,7 +186,7 @@ Strategically, this transition creates a powerful dilemma for opponents in leg d
 
 The technique requires sensitivity to feel when the opponent commits to turning in, and the coordination to capture their arm while maintaining leg control and transitioning your body perpendicular to theirs. The entry window is brief, typically lasting only one to two seconds while they're in transition, making timing critical for success.
 
-**From Position**: [[Leg Drag Control]] (Top)
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ The technique requires sensitivity to feel when the opponent commits to turning 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Crucifix]] | 55% |
-| Failure | [[Leg Drag Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Crucifix]] | 55% |
+| Failure | [[Positions/Leg Drag Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ The technique requires sensitivity to feel when the opponent commits to turning 
 
 ## Opponent Counters
 
-- **Opponent keeps elbows tight and does not extend arm during turn-in, denying the capture opportunity** (Effectiveness: High) - Your Response: If they turn with tight elbows, take their back since they cannot defend both threats. Their tight arm position actually helps your back take by preventing them from creating distance. → Leads to [[Leg Drag Control]]
-- **Opponent immediately reverses direction when they feel the arm capture beginning, turning away instead of in** (Effectiveness: Medium) - Your Response: Follow their direction change and pursue the back take which was your alternative anyway. Their reversal exposes the back they were trying to protect. → Leads to [[Leg Drag Control]]
-- **Opponent explosively frames against your chest during the capture to create separation** (Effectiveness: Medium) - Your Response: Use their frame as additional arm exposure. If they straighten the arm to frame, capture it instead of the original target arm and proceed with the crucifix entry. → Leads to [[Leg Drag Control]]
-- **Opponent turtles quickly to prevent the crucifix consolidation after you capture the first arm** (Effectiveness: Low) - Your Response: Follow them to turtle and attack crucifix from turtle top instead. Turtle position also offers alternative attacks like clock choke and back takes. → Leads to [[Crucifix]]
+- **Opponent keeps elbows tight and does not extend arm during turn-in, denying the capture opportunity** (Effectiveness: High) - Your Response: If they turn with tight elbows, take their back since they cannot defend both threats. Their tight arm position actually helps your back take by preventing them from creating distance. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent immediately reverses direction when they feel the arm capture beginning, turning away instead of in** (Effectiveness: Medium) - Your Response: Follow their direction change and pursue the back take which was your alternative anyway. Their reversal exposes the back they were trying to protect. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent explosively frames against your chest during the capture to create separation** (Effectiveness: Medium) - Your Response: Use their frame as additional arm exposure. If they straighten the arm to frame, capture it instead of the original target arm and proceed with the crucifix entry. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent turtles quickly to prevent the crucifix consolidation after you capture the first arm** (Effectiveness: Low) - Your Response: Follow them to turtle and attack crucifix from turtle top instead. Turtle position also offers alternative attacks like clock choke and back takes. → Leads to [[Positions/Crucifix]]
 
 
 </section>

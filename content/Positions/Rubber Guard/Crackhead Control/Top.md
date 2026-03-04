@@ -204,17 +204,17 @@ From the top perspective, Crackhead Control presents a complex defensive puzzle 
 
 ## Available Attacks
 
-### [[Back Take]] (18% of attempts)
+### [[Transitions/Back Take]] (18% of attempts)
 
-### [[Stack Pass]] (15% of attempts)
+### [[Transitions/Stack Pass]] (15% of attempts)
 
-### [[Double Underhook Pass]] (16% of attempts)
+### [[Transitions/Double Underhook Pass]] (16% of attempts)
 
-### [[Rolling Back Take]] (15% of attempts)
+### [[Transitions/Rolling Back Take]] (15% of attempts)
 
-### [[Posture Recovery to Closed Guard]] (20% of attempts)
+### [[Transitions/Posture Recovery to Closed Guard]] (20% of attempts)
 
-### [[Arm Extraction and Pass]] (16% of attempts)
+### [[Transitions/Arm Extraction and Pass]] (16% of attempts)
 
 
 
@@ -225,27 +225,27 @@ From the top perspective, Crackhead Control presents a complex defensive puzzle 
 ## Decision Making from This Position
 
 **If bottom player extends legs setting up triangle or omoplata, creating temporary back exposure:**
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 45%)
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If bottom player maintains tight position without extending for submissions, prioritizing control over immediate attack:**
-- Execute **[[Posture Recovery to Closed Guard]]** → [[Closed Guard]] (Probability: 60%)
-- Execute **[[Arm Extraction and Pass]]** → [[Side Control]] (Probability: 45%)
-- Execute **[[Double Underhook Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Posture Recovery to Closed Guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Transitions/Arm Extraction and Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Double Underhook Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If bottom player drives forward aggressively attempting gogoplata or transitioning to Carni:**
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 50%)
-- Execute **[[Sprawl]]** → [[Front Headlock]] (Probability: 45%)
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Sprawl]]** → [[Positions/Front Headlock]] (Probability: 45%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If bottom player loses leg control across back while maintaining overhook:**
-- Execute **[[Double Underhook Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Double Underhook Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 50%)
 
 
 
@@ -379,14 +379,14 @@ Maintain top position in Crackhead Control while modulating forward pressure - t
 
 ## Related Positions and Techniques
 
-- **[[Rubber Guard]]** - Parent position family requiring systematic defensive understanding
-- **[[Back Control]]** - Primary offensive target when bottom player creates exposure through submission attempts
-- **[[Closed Guard]]** - Common result of successful arm extraction and posture recovery
-- **[[Omoplata Control]]** - Primary submission threat when attempting arm extraction incorrectly
-- **[[Gogoplata Control]]** - Submission threat when driving excessive forward pressure
-- **[[Side Control]]** - Target position for successful passing sequences
-- **[[Front Headlock]]** - Alternative offensive option when sprawling on sweep attempts
-- **[[Triangle Control]]** - Submission threat requiring constant awareness during arm extraction
+- **[[Positions/Rubber Guard]]** - Parent position family requiring systematic defensive understanding
+- **[[Positions/Back Control]]** - Primary offensive target when bottom player creates exposure through submission attempts
+- **[[Positions/Closed Guard]]** - Common result of successful arm extraction and posture recovery
+- **[[Positions/Omoplata Control]]** - Primary submission threat when attempting arm extraction incorrectly
+- **[[Positions/Gogoplata Control]]** - Submission threat when driving excessive forward pressure
+- **[[Positions/Side Control]]** - Target position for successful passing sequences
+- **[[Positions/Front Headlock]]** - Alternative offensive option when sprawling on sweep attempts
+- **[[Positions/Triangle Control]]** - Submission threat requiring constant awareness during arm extraction
 
 
 </section>

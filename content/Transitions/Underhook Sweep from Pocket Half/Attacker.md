@@ -186,7 +186,7 @@ description: "Complete attacking guide for the Underhook Sweep from Pocket Half 
 
 As the attacker executing the Underhook Sweep from Pocket Half Guard, your objective is to convert your deep underhook control and pocket space into a powerful come-up sweep that lands you in side control top. The sweep relies on three integrated mechanics: underhook pulling power that controls the opponent's upper body, hip drive that generates forward momentum, and leg leverage from the half guard lock that prevents the opponent from basing out. The critical insight is that this sweep works with the opponent's pressure rather than against it - their forward weight commitment becomes the energy that powers the reversal. Your job is to time the come-up when the opponent's base is compromised, maintain underhook depth throughout the transition, and drive through to completion rather than stalling in intermediate positions.
 
-**From Position**: [[Pocket Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Pocket Half Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the attacker executing the Underhook Sweep from Pocket Half Guard, your objec
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 43% |
-| Failure | [[Pocket Half Guard]] | 35% |
-| Counter | [[Side Control]] | 22% |
+| Success | [[Positions/Side Control]] | 43% |
+| Failure | [[Positions/Half Guard/Pocket Half Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 22% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the attacker executing the Underhook Sweep from Pocket Half Guard, your objec
 
 ## Opponent Counters
 
-- **Opponent sprawls hips back and drops weight to kill the come-up** (Effectiveness: High) - Your Response: If you feel the sprawl early, immediately switch to a deep half guard entry by scooting your hips underneath them. Their sprawl creates the space needed for the deep half transition. Alternatively, if already partially up, convert to dogfight position and attack from there. → Leads to [[Pocket Half Guard]]
-- **Opponent establishes a whizzer (overhook) on the underhook arm to neutralize leverage** (Effectiveness: High) - Your Response: If the whizzer is shallow, continue the sweep with additional hip drive as the whizzer alone cannot stop committed forward pressure. If the whizzer is deep, abandon the direct sweep and transition to a limp arm escape to recover the underhook, or use the whizzer pressure to set up a back take by circling behind them. → Leads to [[Pocket Half Guard]]
-- **Opponent posts with their far arm and widens base to resist the topple** (Effectiveness: Medium) - Your Response: Target the posting arm with a grip break or redirect. You can use your free hand to chop their posting arm while driving through with the underhook. Alternatively, change the angle of your drive to attack the side where they cannot post, or convert to a roll-through variation that takes them over your body instead of directly backward. → Leads to [[Pocket Half Guard]]
-- **Opponent crossfaces aggressively while stripping the underhook to flatten and pass** (Effectiveness: High) - Your Response: If the crossface is being established during your come-up attempt, you must abort and defend the pass. Use your free hand to frame against the crossface while retreating your hips back to reestablish pocket half guard. If flattened, transition to knee shield or butterfly guard recovery rather than fighting from a compromised pocket half. → Leads to [[Side Control]]
+- **Opponent sprawls hips back and drops weight to kill the come-up** (Effectiveness: High) - Your Response: If you feel the sprawl early, immediately switch to a deep half guard entry by scooting your hips underneath them. Their sprawl creates the space needed for the deep half transition. Alternatively, if already partially up, convert to dogfight position and attack from there. → Leads to [[Positions/Half Guard/Pocket Half Guard]]
+- **Opponent establishes a whizzer (overhook) on the underhook arm to neutralize leverage** (Effectiveness: High) - Your Response: If the whizzer is shallow, continue the sweep with additional hip drive as the whizzer alone cannot stop committed forward pressure. If the whizzer is deep, abandon the direct sweep and transition to a limp arm escape to recover the underhook, or use the whizzer pressure to set up a back take by circling behind them. → Leads to [[Positions/Half Guard/Pocket Half Guard]]
+- **Opponent posts with their far arm and widens base to resist the topple** (Effectiveness: Medium) - Your Response: Target the posting arm with a grip break or redirect. You can use your free hand to chop their posting arm while driving through with the underhook. Alternatively, change the angle of your drive to attack the side where they cannot post, or convert to a roll-through variation that takes them over your body instead of directly backward. → Leads to [[Positions/Half Guard/Pocket Half Guard]]
+- **Opponent crossfaces aggressively while stripping the underhook to flatten and pass** (Effectiveness: High) - Your Response: If the crossface is being established during your come-up attempt, you must abort and defend the pass. Use your free hand to frame against the crossface while retreating your hips back to reestablish pocket half guard. If flattened, transition to knee shield or butterfly guard recovery rather than fighting from a compromised pocket half. → Leads to [[Positions/Side Control]]
 
 
 </section>

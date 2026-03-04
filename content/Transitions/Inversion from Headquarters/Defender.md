@@ -154,7 +154,7 @@ description: "Complete guide to defending the Inversion from Headquarters as the
 
 As the top player in headquarters, defending the inversion requires recognizing the bottom player's preparatory movements and shutting down the shoulder roll before it develops momentum. The headquarters position is designed to control the bottom player's hips and limit their mobility, but inversions exploit transitional moments when your weight shifts during passing initiation. Your defensive strategy centers on maintaining heavy, centered pressure that prevents the bottom player from creating the space and angle needed for the roll, while being prepared to capitalize aggressively if they commit to an inversion that you can counter. The most dangerous moment is when you begin a passing sequence and the bottom player times their inversion to your weight shift, so awareness of this vulnerability is the foundation of your defense.
 
-**Opponent's Starting Position**: [[Headquarters Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Headquarters Position]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ As the top player in headquarters, defending the inversion requires recognizing 
 ### 1. Drive heavy crossface toward the mat on the inversion side while increasing hip pressure on the trapped leg
 
 - **When to use**: When you detect early inversion setup cues such as framing activity and shoulder elevation before the roll begins
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: The crossface physically blocks the shoulder roll path and the hip pressure removes the space needed for any inversion, shutting down the attempt completely and maintaining your headquarters control
 - **Risk**: If applied too aggressively, you may overcommit your weight forward, creating a different escape opportunity through hip escape to the opposite side
 
 ### 2. Sprawl hips back and drive downward weight into the trapped leg to increase dead weight pressure
 
 - **When to use**: When you feel the bottom player beginning to create space through frames and hip movement but has not yet committed to the roll
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: The increased downward pressure makes inversion mechanically impossible by pinning the bottom player's hips to the mat and removing all rotational space
 - **Risk**: Sprawling too far back may temporarily disengage your upper body control, allowing the bottom player to sit up or establish frames for alternative guard recovery
 
 ### 3. Follow the inversion by circling toward the bottom player's back and converting to a leg drag or backstep pass
 
 - **When to use**: When the bottom player has already committed to and begun executing the inversion and it is too late to stuff the roll
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You capitalize on the bottom player's exposed back and compromised position during the inversion to complete your guard pass, achieving side control or better
 - **Risk**: If you follow too slowly, the bottom player completes the inversion and establishes DLR guard. If you follow too aggressively without controlling their legs, you may overrun the position and create a scramble
 
 ### 4. Control the hooking leg at the ankle as it emerges from the inversion, pushing it across the bottom player's centerline to prevent DLR establishment
 
 - **When to use**: When the inversion is partially complete and the bottom player is attempting to thread the DLR hook around your lead leg
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Without the DLR hook, the bottom player has no guard structure despite completing the inversion, allowing you to pass directly into side control through the open gap
 - **Risk**: Reaching for the hooking leg requires releasing some upper body control, which may give the bottom player space to complete a full guard recovery if you miss the grip
 
@@ -226,11 +226,11 @@ As the top player in headquarters, defending the inversion requires recognizing 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Follow the inversion by circling toward the bottom player's exposed back and executing a leg drag or backstep pass while they are mid-roll. Control the hooking leg to prevent DLR establishment and drive through to complete the pass before they can build any guard structure from the compromised post-inversion position.
 
-### → [[Headquarters Position]]
+### → [[Positions/Headquarters Position]]
 
 Shut down the inversion early by recognizing the preparatory cues and applying heavy crossface pressure combined with sprawling hip pressure on the trapped leg. Prevent the bottom player from creating the space and angle needed for the shoulder roll, maintaining your headquarters control throughout their failed attempt.
 

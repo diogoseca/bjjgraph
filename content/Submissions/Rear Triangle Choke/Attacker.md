@@ -184,7 +184,7 @@ Executing the Rear Triangle Choke requires precise biomechanical alignment betwe
 
 Successful finishing demands patience and systematic pressure escalation rather than explosive squeezing. The choke operates through arterial compression, not airway restriction, meaning it can render an opponent unconscious in seconds once properly locked. Your hands are free throughout the finish, allowing you to break posture, control the free arm, or add supplementary pressure. The ability to cycle between the triangle choke, armbar on the trapped arm, and rear naked choke when the opponent defends creates an interconnected attack web where each defensive choice opens a different submission pathway.
 
-**From Position**: [[Rear Triangle]] (Top)
+**From Position**: [[Positions/Triangle Control/Rear Triangle]] (Top)
 
 
 </section>
@@ -238,9 +238,9 @@ Successful finishing demands patience and systematic pressure escalation rather 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Rear Triangle]] | 30% |
-| Failure | [[Back Control]] | 15% |
-| Counter | [[Closed Guard]] | 5% |
+| Failure | [[Positions/Triangle Control/Rear Triangle]] | 30% |
+| Failure | [[Positions/Back Control]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 5% |
 
 
 </section>
@@ -249,10 +249,10 @@ Successful finishing demands patience and systematic pressure escalation rather 
 
 ## Opponent Defenses
 
-- **Opponent tucks chin aggressively and grips the choking leg with both hands to prevent tightening** (Effectiveness: High) - Your Response: Chin defense is less effective against the rear triangle than front triangles because the pressure comes from behind the jaw. Maintain your squeeze angle and use your free hands to peel their grip off your leg one hand at a time. If they commit both hands to your leg, their neck is exposed for a rear naked choke transition. → Leads to [[Rear Triangle]]
-- **Opponent works to extract the trapped arm from inside the triangle structure by straightening the arm and pulling through** (Effectiveness: Medium) - Your Response: Squeeze your knees together tightly to compress the space around the trapped arm. Angle your hips more aggressively toward the trapped arm to pin it against their own body. If extraction begins succeeding, immediately transition your attack to the now-extending arm for an armbar or maintain the triangle and work toward a rear naked choke as the freed space around the neck may actually improve your choking angle. → Leads to [[Back Control]]
-- **Opponent bridges explosively and creates space between your chest and their back to disrupt finishing angle** (Effectiveness: Medium) - Your Response: Follow them immediately with your hips, closing the gap before they can rotate. Tighten the triangle lock to restrict their hip movement and use your free hand to push off the mat and drive your chest back into contact. If significant space is created, revert to positional maintenance and re-establish control before reattempting the finish. → Leads to [[Rear Triangle]]
-- **Opponent rolls toward the non-choking leg side attempting to create a scramble and escape to guard** (Effectiveness: Low) - Your Response: Follow the roll while maintaining the triangle lock and chest connection. The roll often tightens the choke by changing the compression angle. Use the momentum to extend your hips and finish during the roll. If the roll successfully disrupts your position, maintain the triangle and work to re-establish back control from the new angle. → Leads to [[Closed Guard]]
+- **Opponent tucks chin aggressively and grips the choking leg with both hands to prevent tightening** (Effectiveness: High) - Your Response: Chin defense is less effective against the rear triangle than front triangles because the pressure comes from behind the jaw. Maintain your squeeze angle and use your free hands to peel their grip off your leg one hand at a time. If they commit both hands to your leg, their neck is exposed for a rear naked choke transition. → Leads to [[Positions/Triangle Control/Rear Triangle]]
+- **Opponent works to extract the trapped arm from inside the triangle structure by straightening the arm and pulling through** (Effectiveness: Medium) - Your Response: Squeeze your knees together tightly to compress the space around the trapped arm. Angle your hips more aggressively toward the trapped arm to pin it against their own body. If extraction begins succeeding, immediately transition your attack to the now-extending arm for an armbar or maintain the triangle and work toward a rear naked choke as the freed space around the neck may actually improve your choking angle. → Leads to [[Positions/Back Control]]
+- **Opponent bridges explosively and creates space between your chest and their back to disrupt finishing angle** (Effectiveness: Medium) - Your Response: Follow them immediately with your hips, closing the gap before they can rotate. Tighten the triangle lock to restrict their hip movement and use your free hand to push off the mat and drive your chest back into contact. If significant space is created, revert to positional maintenance and re-establish control before reattempting the finish. → Leads to [[Positions/Triangle Control/Rear Triangle]]
+- **Opponent rolls toward the non-choking leg side attempting to create a scramble and escape to guard** (Effectiveness: Low) - Your Response: Follow the roll while maintaining the triangle lock and chest connection. The roll often tightens the choke by changing the compression angle. Use the momentum to extend your hips and finish during the roll. If the roll successfully disrupts your position, maintain the triangle and work to re-establish back control from the new angle. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

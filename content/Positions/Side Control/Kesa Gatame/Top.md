@@ -212,27 +212,27 @@ From a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in I
 
 ## Available Attacks
 
-### [[Americana]] (12% of attempts)
+### [[Transitions/Americana]] (12% of attempts)
 
-### [[Kimura]] (10% of attempts)
+### [[Transitions/Kimura]] (10% of attempts)
 
-### [[Armbar Finish]] (9% of attempts)
+### [[Transitions/Armbar Finish]] (9% of attempts)
 
-### [[North-South Choke]] (8% of attempts)
+### [[Transitions/North-South Choke]] (8% of attempts)
 
-### [[Side Control to Mount]] (14% of attempts)
+### [[Transitions/Side Control to Mount]] (14% of attempts)
 
-### [[Side Control to North-South]] (32% of attempts)
+### [[Transitions/Side Control to North-South]] (32% of attempts)
 
-### [[Arm Triangle]] (7% of attempts)
+### [[Transitions/Arm Triangle]] (7% of attempts)
 
-### [[Kesa Gatame to Modified Scarf Hold]] (2% of attempts)
+### [[Transitions/Kesa Gatame to Modified Scarf Hold]] (2% of attempts)
 
-### [[Kesa Gatame to Reverse Kesa-Gatame]] (2% of attempts)
+### [[Transitions/Kesa Gatame to Reverse Kesa-Gatame]] (2% of attempts)
 
-### [[Americana from Kesa Gatame]] (2% of attempts)
+### [[Submissions/Americana from Kesa Gatame]] (2% of attempts)
 
-### [[Kesa Gatame Arm Crush]] (2% of attempts)
+### [[Submissions/Kesa Gatame Arm Crush]] (2% of attempts)
 
 
 
@@ -243,23 +243,23 @@ From a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in I
 ## Decision Making from This Position
 
 **If opponent attempts to turn into you and recover guard:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 70%)
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
 
 
 **If opponent creates space and attempts to shrimp away toward their feet:**
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 75%)
-- Execute **[[North-South Choke]]** → [[North-South]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 75%)
+- Execute **[[Transitions/North-South Choke]]** → [[Positions/North-South]] (Probability: 50%)
 
 
 **If opponent extends trapped arm attempting to push or frame:**
-- Execute **[[Americana]]** → [[Armbar Control]] (Probability: 65%)
-- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Americana]]** → [[Positions/Armbar Control]] (Probability: 65%)
+- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 55%)
 
 
 **If opponent remains flat and defensive without creating movement:**
-- Execute **[[Arm Triangle]]** → [[game-over]] (Probability: 45%)
-- Execute **[[North-South Choke]]** → [[North-South]] (Probability: 40%)
+- Execute **[[Transitions/Arm Triangle]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Transitions/North-South Choke]]** → [[Positions/North-South]] (Probability: 40%)
 
 
 
@@ -393,14 +393,14 @@ Bottom player attempts one specific escape type (hip escape, bridge and roll, or
 
 ## Related Positions and Techniques
 
-- **[[Reverse Kesa-Gatame]]** - Mirror variation facing opposite direction
-- **[[Kuzure Kesa-Gatame]]** - Modified variation with different arm control
-- **[[Side Control]]** - Parent category, closely related pinning position
-- **[[North-South]]** - Common transition target for control maintenance
-- **[[Mount]]** - Common advancement target when opponent turns in
-- **[[Americana]]** - Primary submission transition from this position
-- **[[Kimura]]** - High-percentage submission transition
-- **[[Arm Triangle]]** - Submission chain option from heavy pressure
+- **[[Positions/Side Control/Reverse Kesa-Gatame]]** - Mirror variation facing opposite direction
+- **[[Positions/Side Control/Kuzure Kesa-Gatame]]** - Modified variation with different arm control
+- **[[Positions/Side Control]]** - Parent category, closely related pinning position
+- **[[Positions/North-South]]** - Common transition target for control maintenance
+- **[[Positions/Mount]]** - Common advancement target when opponent turns in
+- **[[Transitions/Americana]]** - Primary submission transition from this position
+- **[[Transitions/Kimura]]** - High-percentage submission transition
+- **[[Transitions/Arm Triangle]]** - Submission chain option from heavy pressure
 
 
 </section>

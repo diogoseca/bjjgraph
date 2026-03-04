@@ -21,7 +21,7 @@ This approach is particularly valuable when the triangle is tight enough to prev
 
 Within the broader escape hierarchy from rear triangle bottom, the grip fight sits between passive survival and explosive escape attempts. It complements other defensive options like posture recovery and rolling escapes, often serving as the initial step that creates enough looseness in the triangle for more dynamic follow-up escapes to succeed. Practitioners who master this grip fight gain a calm, systematic tool for the most pressured moments in back defense.
 
-**From Position**: [[Rear Triangle]] (Bottom)
+**From Position**: [[Positions/Triangle Control/Rear Triangle]] (Bottom)
 **Success Rate**: 35%
 
 </section>
@@ -32,9 +32,9 @@ Within the broader escape hierarchy from rear triangle bottom, the grip fight si
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 35% |
-| Failure | [[Rear Triangle]] | 40% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Turtle]] | 35% |
+| Failure | [[Positions/Triangle Control/Rear Triangle]] | 40% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -193,21 +193,21 @@ This escape integrates into the broader rear triangle defense system as a method
 ## Related Techniques
 
 
-- [[Rear Triangle]] - Source position where this escape is initiated from bottom
+- [[Positions/Triangle Control/Rear Triangle]] - Source position where this escape is initiated from bottom
 
-- [[Turtle]] - Primary target position after successful escape
+- [[Positions/Turtle]] - Primary target position after successful escape
 
-- [[Back Control]] - Counter outcome position if opponent transitions during escape attempt
+- [[Positions/Back Control]] - Counter outcome position if opponent transitions during escape attempt
 
-- [[Arm Extraction]] - Closely related escape technique that often follows grip fight loosening
+- [[Transitions/Arm Extraction]] - Closely related escape technique that often follows grip fight loosening
 
-- [[Triangle Escape]] - Alternative escape technique from rear triangle bottom
+- [[Transitions/Triangle Escape]] - Alternative escape technique from rear triangle bottom
 
-- [[Seat Belt Control Back]] - Related back control position opponent may transition to
+- [[Positions/Back Control/Seat Belt Control Back]] - Related back control position opponent may transition to
 
-- [[Crucifix]] - Dangerous position that can result from poorly timed escape attempts
+- [[Positions/Crucifix]] - Dangerous position that can result from poorly timed escape attempts
 
-- [[Escape Seat Belt Control]] - Follow-up escape if opponent transitions to standard back control
+- [[Transitions/Escape Seat Belt Control]] - Follow-up escape if opponent transitions to standard back control
 
 
 </section>

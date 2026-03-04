@@ -21,7 +21,7 @@ This escape is particularly effective when the opponent has committed to flatten
 
 Strategically, the Step Over Escape pairs with the Back Door Escape and Counter Roll as the three primary escapes from Darce Control Bottom. Where the Back Door Escape retreats behind the opponent and the Counter Roll inverts through them, the Step Over goes over the top, making it the preferred option when the opponent's weight is shifted low and their head is accessible for the leg to clear. Advanced practitioners chain all three escapes together, forcing the attacker to defend multiple escape vectors simultaneously.
 
-**From Position**: [[Darce Control]] (Bottom)
+**From Position**: [[Positions/Darce Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Step Over Escape pairs with the Back Door Escape and Counter 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 65% |
-| Failure | [[Darce Control]] | 25% |
-| Counter | [[Darce Control]] | 10% |
+| Success | [[Positions/Open Guard]] | 65% |
+| Failure | [[Positions/Darce Control]] | 25% |
+| Counter | [[Positions/Darce Control]] | 10% |
 
 
 </section>
@@ -193,29 +193,29 @@ The Step Over Escape occupies a critical role in the Darce Control Bottom defens
 ## Related Techniques
 
 
-- [[Darce Control]] - Starting position
+- [[Positions/Darce Control]] - Starting position
 
-- [[Open Guard]] - Primary recovery position after successful escape
+- [[Positions/Open Guard]] - Primary recovery position after successful escape
 
-- [[Back Door Escape]] - Alternative escape from same position - retreats behind opponent
+- [[Transitions/Back Door Escape]] - Alternative escape from same position - retreats behind opponent
 
-- [[Counter Roll to Top]] - Alternative escape from same position - inverts through opponent
+- [[Transitions/Counter Roll to Top]] - Alternative escape from same position - inverts through opponent
 
-- [[Arm Extraction]] - Complementary technique - freeing the trapped arm during or after step over
+- [[Transitions/Arm Extraction]] - Complementary technique - freeing the trapped arm during or after step over
 
-- [[Darce Choke]] - Primary submission threat this escape defends against
+- [[Transitions/Darce Choke]] - Primary submission threat this escape defends against
 
-- [[Granby Roll to Guard]] - Related escape using similar rotational mechanics from front headlock positions
+- [[Transitions/Granby Roll to Guard]] - Related escape using similar rotational mechanics from front headlock positions
 
-- [[Front Headlock]] - Related position where similar step over mechanics apply
+- [[Positions/Front Headlock]] - Related position where similar step over mechanics apply
 
-- [[Turtle]] - Common preceding position before Darce is established
+- [[Positions/Turtle]] - Common preceding position before Darce is established
 
-- [[Half Guard]] - Alternative recovery position via step over to half guard variant
+- [[Positions/Half Guard]] - Alternative recovery position via step over to half guard variant
 
-- [[Guard Recovery]] - Follow-up technique to consolidate position after escaping
+- [[Principles/Guard Recovery]] - Follow-up technique to consolidate position after escaping
 
-- [[Anaconda Control]] - Similar choke position where step over principles also apply
+- [[Positions/Anaconda Control]] - Similar choke position where step over principles also apply
 
 
 </section>

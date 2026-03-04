@@ -21,7 +21,7 @@ Strategically, this finish represents the terminal point of the rear triangle at
 
 The finish integrates seamlessly with alternative submissions from the rear triangle. When the opponent defends the choke by tucking their chin or creating space, the attacker can immediately transition to armbar attacks on the trapped arm or shift to a rear naked choke by releasing the triangle and establishing hand grips. This submission cycling creates the dilemma-based offense that makes the rear triangle one of the most dangerous finishing positions in modern grappling.
 
-**From Position**: [[Rear Triangle]] (Top)
+**From Position**: [[Positions/Triangle Control/Rear Triangle]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -33,8 +33,8 @@ The finish integrates seamlessly with alternative submissions from the rear tria
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Rear Triangle]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Failure | [[Positions/Triangle Control/Rear Triangle]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Rear Triangle Choke Finish sits at the apex of the back control submission h
 ## Related Techniques
 
 
-- [[Rear Triangle]] - Source position from which this finish is executed
+- [[Positions/Triangle Control/Rear Triangle]] - Source position from which this finish is executed
 
-- [[Back Control]] - Parent position in the back control hierarchy preceding rear triangle entry
+- [[Positions/Back Control]] - Parent position in the back control hierarchy preceding rear triangle entry
 
-- [[Rear Triangle Choke]] - Submission category page for this choking technique
+- [[Submissions/Rear Triangle Choke]] - Submission category page for this choking technique
 
-- [[Grip Fight Escape from Rear Triangle]] - Primary defensive transition the opponent uses against this finish
+- [[Transitions/Grip Fight Escape from Rear Triangle]] - Primary defensive transition the opponent uses against this finish
 
-- [[Posture Defense from Rear Triangle]] - Defensive posture recovery technique used to survive the choke
+- [[Transitions/Posture Defense from Rear Triangle]] - Defensive posture recovery technique used to survive the choke
 
-- [[Body Triangle]] - Alternative back control leg configuration with different finishing options
+- [[Positions/Back Control/Body Triangle]] - Alternative back control leg configuration with different finishing options
 
-- [[Seat Belt Control Back]] - Standard back control that typically precedes rear triangle entry
+- [[Positions/Back Control/Seat Belt Control Back]] - Standard back control that typically precedes rear triangle entry
 
-- [[Armbar from Back Transition]] - Chain attack when opponent defends the choke by exposing the trapped arm
+- [[Transitions/Armbar from Back Transition]] - Chain attack when opponent defends the choke by exposing the trapped arm
 
-- [[Mounted Triangle]] - Related triangle choke mechanics applied from mount instead of back
+- [[Positions/Mount/Mounted Triangle]] - Related triangle choke mechanics applied from mount instead of back
 
-- [[Gift Wrap]] - Alternative arm control from back position that can set up rear triangle entry
+- [[Positions/Gift Wrap]] - Alternative arm control from back position that can set up rear triangle entry
 
 
 </section>

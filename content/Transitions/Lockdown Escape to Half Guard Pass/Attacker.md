@@ -178,7 +178,7 @@ The key insight is that the lockdown's power derives from the triangled leg conf
 
 Strategically, this technique transforms a defensive predicament into offensive momentum. By flowing directly from escape into a passing sequence, you capitalize on the momentary disruption caused by breaking the opponent's primary control structure. This prevents them from re-establishing the lockdown or transitioning to alternative guards, converting what could be an exhausting positional battle into efficient advancement to dominant position.
 
-**From Position**: [[Lockdown]] (Top)
+**From Position**: [[Positions/Half Guard/Lockdown]] (Top)
 
 </section>
 
@@ -230,9 +230,9 @@ Strategically, this technique transforms a defensive predicament into offensive 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Lockdown]] | 25% |
-| Counter | [[Deep Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 25% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ Strategically, this technique transforms a defensive predicament into offensive 
 
 ## Opponent Counters
 
-- **Opponent re-engages lockdown during extraction by catching your ankle before it fully clears their legs** (Effectiveness: High) - Your Response: Maintain forward pressure and restart from step 3. Focus on completely breaking the foot triangle and use your hand to guide your foot clear of their legs during extraction. → Leads to [[Lockdown]]
-- **Opponent transitions to Deep Half Guard as you break the lockdown by diving underneath toward your far hip** (Effectiveness: Medium) - Your Response: Sprawl hips immediately and establish whizzer control on their underhooking arm. Use your free leg to backstep and prevent their hips from getting under yours. Drive weight forward to flatten them. → Leads to [[Deep Half Guard]]
-- **Opponent uses the lockdown release to hit Old School sweep by rolling backward with deep underhook** (Effectiveness: Medium) - Your Response: Establish deep whizzer on their underhooking arm before extraction. If they begin rolling, sprawl and use the whizzer to drive them flat rather than following the sweep direction. → Leads to [[Lockdown]]
-- **Opponent attempts whip-up sweep by coming up to their side during your extraction** (Effectiveness: Low) - Your Response: Your forward chest pressure should prevent significant elevation. If they begin rising, drive your crossface harder while posting your hand far side for base. Stay heavy and connected. → Leads to [[Lockdown]]
+- **Opponent re-engages lockdown during extraction by catching your ankle before it fully clears their legs** (Effectiveness: High) - Your Response: Maintain forward pressure and restart from step 3. Focus on completely breaking the foot triangle and use your hand to guide your foot clear of their legs during extraction. → Leads to [[Positions/Half Guard/Lockdown]]
+- **Opponent transitions to Deep Half Guard as you break the lockdown by diving underneath toward your far hip** (Effectiveness: Medium) - Your Response: Sprawl hips immediately and establish whizzer control on their underhooking arm. Use your free leg to backstep and prevent their hips from getting under yours. Drive weight forward to flatten them. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Opponent uses the lockdown release to hit Old School sweep by rolling backward with deep underhook** (Effectiveness: Medium) - Your Response: Establish deep whizzer on their underhooking arm before extraction. If they begin rolling, sprawl and use the whizzer to drive them flat rather than following the sweep direction. → Leads to [[Positions/Half Guard/Lockdown]]
+- **Opponent attempts whip-up sweep by coming up to their side during your extraction** (Effectiveness: Low) - Your Response: Your forward chest pressure should prevent significant elevation. If they begin rising, drive your crossface harder while posting your hand far side for base. Stay heavy and connected. → Leads to [[Positions/Half Guard/Lockdown]]
 
 
 </section>

@@ -178,7 +178,7 @@ What makes this pass particularly effective is its ability to shut down the bott
 
 This pass represents a cornerstone of modern guard passing systems because it works equally well in gi and no-gi, against all body types, and connects seamlessly to other passing options. When executed with proper timing and pressure, the knee slice becomes nearly unstoppable, forcing the opponent into increasingly desperate defensive reactions that open them up to back takes, mount transitions, or submission attacks.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ This pass represents a cornerstone of modern guard passing systems because it wo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 75% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Deep Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 75% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 10% |
 
 
 </section>
@@ -243,11 +243,11 @@ This pass represents a cornerstone of modern guard passing systems because it wo
 
 ## Opponent Counters
 
-- **Opponent establishes a strong underhook and comes up to their side** (Effectiveness: High) - Your Response: Switch to a different passing angle such as the backstep or long step pass. You can also address their underhook by swimming your arm over theirs and re-establishing your underhook, or by transitioning to a kimura grip on their underhooking arm. → Leads to [[Half Guard]]
-- **Opponent frames on your hip and creates distance during the knee slice** (Effectiveness: Medium) - Your Response: Tighten your crossface and use your underhook to pull them back toward you, collapsing their frame. Alternatively, redirect to an over-under pass or switch to a knee cut variation if they're committed to extending. → Leads to [[Half Guard]]
-- **Opponent locks a deep half guard as you attempt to extract your leg** (Effectiveness: High) - Your Response: Don't force the pass. Instead, address the deep half guard position first by establishing a whizzer on their underhook, driving your weight back, and working specific deep half guard passing techniques. Only return to the knee slice once you've escaped the deep half entanglement. → Leads to [[Deep Half Guard]]
-- **Opponent grabs your slicing leg and prevents it from clearing** (Effectiveness: Medium) - Your Response: Use your grip on their far side to off-balance them away from your trapped leg. You can also switch to a leg weave pass, using your free leg to step over their grip and applying pressure to break their hold. → Leads to [[Half Guard]]
-- **Opponent turns away and attempts to take your back during the pass** (Effectiveness: Low) - Your Response: This is often a positive development. Maintain your crossface control, sprawl your hips back, and establish front headlock control. From here, you have strong back take opportunities or can transition to turtle attacks. → Leads to [[Side Control]]
+- **Opponent establishes a strong underhook and comes up to their side** (Effectiveness: High) - Your Response: Switch to a different passing angle such as the backstep or long step pass. You can also address their underhook by swimming your arm over theirs and re-establishing your underhook, or by transitioning to a kimura grip on their underhooking arm. → Leads to [[Positions/Half Guard]]
+- **Opponent frames on your hip and creates distance during the knee slice** (Effectiveness: Medium) - Your Response: Tighten your crossface and use your underhook to pull them back toward you, collapsing their frame. Alternatively, redirect to an over-under pass or switch to a knee cut variation if they're committed to extending. → Leads to [[Positions/Half Guard]]
+- **Opponent locks a deep half guard as you attempt to extract your leg** (Effectiveness: High) - Your Response: Don't force the pass. Instead, address the deep half guard position first by establishing a whizzer on their underhook, driving your weight back, and working specific deep half guard passing techniques. Only return to the knee slice once you've escaped the deep half entanglement. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Opponent grabs your slicing leg and prevents it from clearing** (Effectiveness: Medium) - Your Response: Use your grip on their far side to off-balance them away from your trapped leg. You can also switch to a leg weave pass, using your free leg to step over their grip and applying pressure to break their hold. → Leads to [[Positions/Half Guard]]
+- **Opponent turns away and attempts to take your back during the pass** (Effectiveness: Low) - Your Response: This is often a positive development. Maintain your crossface control, sprawl your hips back, and establish front headlock control. From here, you have strong back take opportunities or can transition to turtle attacks. → Leads to [[Positions/Side Control]]
 
 
 </section>

@@ -158,7 +158,7 @@ The critical defensive principle is preventing your own arm from being trapped a
 
 Timing determines which defensive option is available. Before the grip locks, you can extract your arm or circle away with relatively high success. Once the grip is locked but before the attacker achieves side control, your options narrow to rolling through or inserting a knee to recover half guard. After the attacker consolidates side control with the arm triangle locked, your survival depends on relieving the squeeze through bridging toward the trapped arm and working to create enough space to extract your shoulder from the compression. Understanding this timeline and matching your defensive response to the correct phase is essential for surviving this attack.
 
-**Opponent's Starting Position**: [[Front Headlock]] (Top)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Timing determines which defensive option is available. Before the grip locks, yo
 ### 1. Extend your near arm straight down toward the mat and fight to separate your bicep from your neck, then circle away from the trapped arm side while posting your far hand on the attacker's hip to create distance
 
 - **When to use**: As soon as you feel the attacker's free hand pushing your near arm toward your neck or their choking arm threading deeper - this is the earliest and highest-percentage defense window before the grip locks
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You prevent the arm triangle configuration from forming entirely and return to standard front headlock bottom position where you can pursue normal escapes
 - **Risk**: If you extend your arm too far or too late, the attacker may switch to a kimura on the extended arm or use your reaching motion to take your back
 
 ### 2. Frame on the attacker's near hip with both hands and explosively shrimp your hips away while inserting your inside knee between your bodies to establish half guard
 
 - **When to use**: When the attacker has locked their grip but has not yet completed the walk to side control - you still have space to insert your knee because they are mid-transition between front headlock and side control positions
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard with the attacker's arm triangle grip broken or loosened by the knee insertion, returning to a defensible guard position
 - **Risk**: If the attacker maintains the squeeze through your knee insertion, you may end up in half guard with an arm triangle still partially locked, requiring additional defensive work
 
 ### 3. Roll through toward the trapped arm side by tucking your chin, posting your far hand, and inverting your body to end up facing the attacker in guard
 
 - **When to use**: When the grip is locked and the attacker is mid-walk to side control but has not yet settled their weight - the roll must happen during their movement when their base is least stable
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You end up in a guard position with the arm triangle grip disrupted by the positional change, potentially recovering closed guard or half guard
 - **Risk**: If the attacker follows your roll and maintains the squeeze, the roll may actually tighten the choke as you rotate into a worse angle, accelerating the finish
 
 ### 4. Stand up explosively by posting both hands and driving your hips under you while the attacker is reconfiguring their grip from front headlock to arm triangle
 
 - **When to use**: During the grip transition moment when the attacker momentarily reduces their downward pressure to thread the arm triangle - requires explosive timing and is best attempted before the grip locks
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You achieve standing posture which removes the attacker's ability to walk to side control and breaks the downward control, returning to a neutral clinch or standing front headlock position
 - **Risk**: If the attacker snaps your head back down during the standup attempt, you may end up in a worse bent-over position with less energy and the attacker ready to re-attempt the arm triangle
 
@@ -229,11 +229,11 @@ Timing determines which defensive option is available. Before the grip locks, yo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Extract your near arm away from your neck before the grip locks by extending it toward the mat and fighting against the attacker's arm-trapping pressure. Combine arm extraction with explosive posture recovery or circling away from the attacker's grip. The earlier you act during the grip transition, the higher your success rate. Standing up during the transition moment is the highest-value escape as it resets the entire positional exchange.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the arm triangle grip has locked but the attacker has not yet consolidated side control, frame on their near hip and explosively insert your inside knee between your bodies. Time the hip escape with the attacker's lateral walk - as they step, their weight shifts and creates a brief window for knee insertion. Half guard recovery breaks the arm triangle's finishing angle even if the grip remains, giving you time to work further escapes.
 

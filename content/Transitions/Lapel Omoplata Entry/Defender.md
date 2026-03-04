@@ -158,7 +158,7 @@ The lapel configuration adds a unique defensive challenge because it restricts y
 
 The defensive timing window is narrow but decisive. Early recognition—before the leg crosses your shoulder—allows for posture recovery and arm retraction. Once the leg is positioned across your back, defensive options shift from prevention to escape, requiring forward rolls, hand clasping, or pressure stacking to relieve shoulder torque. Understanding both prevention and escape phases ensures you have answers regardless of when you recognize the threat.
 
-**Opponent's Starting Position**: [[Lapel Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The defensive timing window is narrow but decisive. Early recognition—before t
 ### 1. Early posture recovery and arm retraction before leg threads over shoulder
 
 - **When to use**: At the first sign of hip rotation and arm control—before the leg crosses your shoulder line
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Return to standard lapel guard top position with opponent's omoplata attempt neutralized, maintaining passing opportunity
 - **Risk**: If you pull arm back without addressing lapel control, opponent may use your retraction momentum to complete a sweep instead
 
 ### 2. Drive heavy forward pressure to stack opponent and kill the hip rotation angle
 
 - **When to use**: When you feel the hip escape beginning but the leg has not yet cleared your shoulder
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Collapse opponent's angle, forcing them flat on their back where omoplata mechanics cannot function, returning to neutral guard battle
 - **Risk**: Excessive forward drive without controlling the lapel can feed into opponent's sweep chain using your momentum
 
 ### 3. Forward roll through the omoplata once leg is positioned across your back
 
 - **When to use**: When the leg has already crossed your shoulder and omoplata control is being established—escape window for prevention has passed
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Escape the shoulder lock pressure and potentially end up in a scramble or half guard position where you can recover
 - **Risk**: Experienced attackers follow the roll and transition to mounted omoplata or back control, potentially worsening your position
 
 ### 4. Clasp hands together and circle toward opponent to relieve shoulder rotation angle
 
 - **When to use**: When arm is partially trapped but full omoplata control is not yet established—the transition window between entry and finish
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Prevent arm isolation and create opportunity to extract arm and return to guard passing position
 - **Risk**: Opponent may attack the clasped grip directly with wrist locks or use your stationary position to adjust their control angle
 
@@ -227,11 +227,11 @@ The defensive timing window is narrow but decisive. Early recognition—before t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lapel Guard]]
+### → [[Positions/Lapel Guard]]
 
 Recognize the attack early during the hip rotation phase, immediately retract the posting arm while driving your weight forward. Address the lapel grip by stripping or working the fabric free. Return to standard lapel guard top position ready to resume passing.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If caught late and forced to roll forward through the omoplata, use explosive forward momentum to clear the shoulder lock. As you roll through, immediately work to establish half guard by trapping one of opponent's legs before they can consolidate top position.
 

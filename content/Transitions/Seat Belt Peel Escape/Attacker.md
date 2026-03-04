@@ -180,7 +180,7 @@ description: "Master the Seat Belt Peel Escape execution from back control botto
 
 Executing the Seat Belt Peel Escape requires precise hand mechanics, strategic timing, and coordinated hip movement to break the structural foundation of your opponent's back control. As the person trapped in seat belt control, your goal is to systematically separate your opponent's clasped hands by isolating their over-arm and peeling it away from their under-arm connection point. This technique demands patience over explosiveness, using incremental grip degradation and properly timed hip escapes to convert grip separation into positional recovery. The peel mechanic works by applying rotational force to the weakest point of the opponent's grip connection while simultaneously creating torque through hip movement that amplifies the separation effect.
 
-**From Position**: [[Seat Belt Control Back]] (Bottom)
+**From Position**: [[Positions/Back Control/Seat Belt Control Back]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ Executing the Seat Belt Peel Escape requires precise hand mechanics, strategic t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 30% |
-| Failure | [[Seat Belt Control Back]] | 45% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 30% |
+| Failure | [[Positions/Back Control/Seat Belt Control Back]] | 45% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -244,10 +244,10 @@ Executing the Seat Belt Peel Escape requires precise hand mechanics, strategic t
 
 ## Opponent Counters
 
-- **Opponent reinforces grip by switching to stronger connection (gable grip or wrist grab) when feeling peel attempt** (Effectiveness: High) - Your Response: Switch to attacking the under-arm instead using elbow wedge variant, or alternate between over-arm and under-arm attacks to create confusion and grip fatigue in the opponent's hands → Leads to [[Seat Belt Control Back]]
-- **Opponent releases seat belt voluntarily and immediately attacks rear naked choke during the hand transition** (Effectiveness: High) - Your Response: Instantly abandon peel and return both hands to neck defense, tucking chin and controlling the choking arm with two-on-one before the choke can be established. This is the highest-risk counter. → Leads to [[Back Control]]
-- **Opponent drives hooks deeper and increases chest pressure to prevent hip escape during peel attempt** (Effectiveness: Medium) - Your Response: Focus on completing the grip separation first without hip escape, then use incremental shrimps once grip is broken rather than trying to do both simultaneously against heavy pressure → Leads to [[Seat Belt Control Back]]
-- **Opponent transitions from seat belt to body triangle when sensing grip degradation** (Effectiveness: Medium) - Your Response: Accelerate the peel attempt before body triangle is locked by increasing pull force and hip escape speed. If body triangle locks, shift strategy to body triangle escape protocols rather than continuing seat belt peel. → Leads to [[Back Control]]
+- **Opponent reinforces grip by switching to stronger connection (gable grip or wrist grab) when feeling peel attempt** (Effectiveness: High) - Your Response: Switch to attacking the under-arm instead using elbow wedge variant, or alternate between over-arm and under-arm attacks to create confusion and grip fatigue in the opponent's hands → Leads to [[Positions/Back Control/Seat Belt Control Back]]
+- **Opponent releases seat belt voluntarily and immediately attacks rear naked choke during the hand transition** (Effectiveness: High) - Your Response: Instantly abandon peel and return both hands to neck defense, tucking chin and controlling the choking arm with two-on-one before the choke can be established. This is the highest-risk counter. → Leads to [[Positions/Back Control]]
+- **Opponent drives hooks deeper and increases chest pressure to prevent hip escape during peel attempt** (Effectiveness: Medium) - Your Response: Focus on completing the grip separation first without hip escape, then use incremental shrimps once grip is broken rather than trying to do both simultaneously against heavy pressure → Leads to [[Positions/Back Control/Seat Belt Control Back]]
+- **Opponent transitions from seat belt to body triangle when sensing grip degradation** (Effectiveness: Medium) - Your Response: Accelerate the peel attempt before body triangle is locked by increasing pull force and hip escape speed. If body triangle locks, shift strategy to body triangle escape protocols rather than continuing seat belt peel. → Leads to [[Positions/Back Control]]
 
 
 </section>

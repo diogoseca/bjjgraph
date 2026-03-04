@@ -158,7 +158,7 @@ The biomechanics of defense center on preventing the crossface establishment and
 
 Strategically, your best outcomes come from early recognition and proactive defense. If you can prevent the crossface from being established, the entire consolidation sequence stalls. If the crossface lands but you maintain hip mobility, knee insertion during leg clearance becomes your primary recovery. If both are lost, turning into the passer for an underhook scramble is preferable to accepting flat side control. Each defensive layer provides a fallback, and training all three creates a resilient defensive system.
 
-**Opponent's Starting Position**: [[Leg Drag Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Strategically, your best outcomes come from early recognition and proactive defe
 ### 1. Frame against shoulder and insert knee during leg clearance
 
 - **When to use**: When the passer releases or adjusts their leg grip to transition to hip blocking. This is the primary defensive window—time your hip escape and knee insertion to their grip change.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard with a knee shield or at minimum a leg entanglement, resetting the passing sequence and forcing them to re-pass
 - **Risk**: If mistimed, the passer catches your inserting knee and drives through to complete the pass with even more momentum
 
 ### 2. Block crossface with forearm frame and hip escape to create angle
 
 - **When to use**: Early in the consolidation sequence when the passer's free arm begins reaching across your face. Your forearm against their bicep or shoulder prevents the crossface from landing.
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: The passer cannot complete the consolidation sequence without crossface, stalling them in leg drag control where you maintain more defensive options
 - **Risk**: Extended arm can be attacked with americana or kimura if the passer redirects to submission rather than continuing the pass
 
 ### 3. Turn into passer with underhook to create scramble
 
 - **When to use**: When crossface is partially established but you still have some hip mobility. Fight aggressively for the near-side underhook and drive your shoulder into them rather than away.
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: You create a scramble situation where the passer's consolidation is disrupted, potentially recovering to a neutral position or establishing your own offensive grips
 - **Risk**: If the passer has strong whizzer or crossface, turning in can accelerate the pass and you may end up flattened in side control faster
 
 ### 4. Explosive hip escape to seated guard recovery
 
 - **When to use**: When you detect the passer's weight shifting forward during the transition and their base momentarily lifts off the mat. Use the space created by their forward momentum to sit up.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to a seated position with frames established, forcing the passer to restart their guard passing sequence from a neutral engagement
 - **Risk**: If the passer maintains heavy hip pressure, your sit-up attempt fails and you waste energy while potentially exposing your back
 
@@ -228,11 +228,11 @@ Strategically, your best outcomes come from early recognition and proactive defe
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your knee insertion to the exact moment the passer releases their leg grip to transition to hip blocking. Hip escape explosively while driving your near knee between your bodies, then immediately establish a knee shield to prevent re-passing. This requires sensitivity to the passer's grip changes and pre-loaded hip escape positioning.
 
-### → [[Leg Drag Control]]
+### → [[Positions/Leg Drag Control]]
 
 Prevent the crossface from being established by maintaining a strong forearm frame against their shoulder throughout the transition. Without crossface, the passer cannot safely release the leg grip, stalling their consolidation. Combine the frame with constant micro-shrimping to maintain hip mobility and prevent them from advancing despite maintaining leg drag position.
 

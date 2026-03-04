@@ -154,7 +154,7 @@ description: "Defend the snap down from standing in BJJ. Recognition cues, postu
 
 Defending the snap down from standing demands constant postural awareness, active hand fighting to prevent head control, and immediate reactive responses when the downward pull is initiated. The defender's primary challenge is recognizing the snap down setup before it reaches full commitment, as once the head drops below hip level, recovery becomes exponentially more difficult and the attacker gains access to the entire front headlock submission system. Effective defense combines proactive posture maintenance with prepared counter-attacks that exploit the attacker's commitment to the downward pull, turning their offensive momentum into a defensive liability. The key defensive insight is that the snap down requires specific conditions to succeed, and denying those conditions through grip fighting and posture management is far more effective than trying to resist the snap once it is initiated.
 
-**Opponent's Starting Position**: [[Standing Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the snap down from standing demands constant postural awareness, activ
 ### 1. Posture hard and strip the collar tie grip with a two-on-one peel or circular wrist break
 
 - **When to use**: As soon as you feel the opponent's grip tighten on the back of your head or the first hint of downward pressure begins
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Returns to neutral standing with the opponent's offensive setup completely neutralized and grip advantage transferred to you
 - **Risk**: If too slow, the snap lands before you can strip the grip, and your hands are occupied with the grip break rather than protecting your posture
 
 ### 2. Circle laterally away from the pulling direction while maintaining your own collar tie or underhook
 
 - **When to use**: When the snap is initiated but has not yet fully broken your posture, and you can still move your feet freely
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Nullifies the snap by moving perpendicular to the force vector, returning to neutral standing with improved angle on the opponent
 - **Risk**: If the opponent follows your circle with their feet, they may re-angle and attempt a second snap or transition to an arm drag
 
 ### 3. Sit to guard preemptively by pulling the opponent into your closed guard or seated guard before the front headlock establishes
 
 - **When to use**: When your posture is already compromised and front headlock establishment appears imminent, making standing recovery unlikely
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Transitions the exchange to your guard game on your own terms rather than conceding front headlock control to the attacker
 - **Risk**: If executed too late, the opponent may secure front headlock control during your guard pull and finish a guillotine as you sit
 
 ### 4. Level change and shoot a takedown underneath the snap attempt as the opponent pulls their own weight backward
 
 - **When to use**: When the opponent commits heavily to the downward snap and their weight shifts backward, exposing their legs and creating space underneath
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Converts the defensive situation into an offensive takedown attempt, potentially resulting in a dominant top position
 - **Risk**: If the shot is too shallow, the opponent can sprawl and convert directly into the front headlock they were already pursuing
 
@@ -224,11 +224,11 @@ Defending the snap down from standing demands constant postural awareness, activ
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Strip the collar tie grip early before the snap develops full force, maintain strong upright posture with head above hips, and circle laterally to deny the pulling angle. Active hand fighting that prevents the grip establishment in the first place is the highest-percentage path to this outcome.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 When posture recovery is no longer viable and front headlock appears imminent, preemptively sit to guard on your own terms with established grips. Secure collar and sleeve control as you sit, denying the opponent the head control they need for front headlock submissions. This converts a defensive crisis into a guard game where you have initiative.
 

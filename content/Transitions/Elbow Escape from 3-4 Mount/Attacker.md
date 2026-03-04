@@ -186,7 +186,7 @@ description: "Execute the Elbow Escape from 3-4 Mount with proper hip mechanics,
 
 As the bottom player executing the Elbow Escape from 3-4 Mount, your objective is to exploit the inherent instability of the asymmetric mount configuration to create sufficient space for knee insertion and half guard recovery. The escape relies on precise frame placement against the mounted knee, a directional bridge to disrupt base, and a committed hip escape toward the posted leg side where the top player has compromised stability. Success depends on reading weight distribution accurately, timing the shrimp to coincide with momentary base disruption, and maintaining frame integrity throughout the sequence to prevent the top player from re-settling. The technique rewards methodical execution over explosive force, as chained small movements accumulate space more reliably than single large bursts that alert the top player and invite counters.
 
-**From Position**: [[3-4 Mount]] (Bottom)
+**From Position**: [[Positions/Mount/3-4 Mount]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ As the bottom player executing the Elbow Escape from 3-4 Mount, your objective i
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Failure | [[3-4 Mount]] | 40% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Failure | [[Positions/Mount/3-4 Mount]] | 40% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -251,11 +251,11 @@ As the bottom player executing the Elbow Escape from 3-4 Mount, your objective i
 
 ## Opponent Counters
 
-- **Top player drives mounted knee deeper into armpit and drops chest weight forward to eliminate shrimping space** (Effectiveness: High) - Your Response: Switch to a bridge-first strategy by executing a strong upa toward the mounted side to lift their weight, then immediately chain into the hip escape. If the pressure is too heavy, focus on creating micro-movements with chained shrimps rather than a single explosive escape. → Leads to [[3-4 Mount]]
-- **Top player recognizes the escape direction and switches mounted knee to the opposite side, re-establishing 3-4 mount with reversed configuration** (Effectiveness: High) - Your Response: Immediately reassess which side is now the lighter side and redirect your escape toward the new posted leg. Use the momentary instability during their switch to accelerate your hip escape before they can re-settle weight. → Leads to [[3-4 Mount]]
-- **Top player posts hand wide on the escape side and drives hips forward to block knee insertion while consolidating to full mount** (Effectiveness: Medium) - Your Response: If their hand is posted, grip their posting wrist and pull it across their body to remove the base. Alternatively, redirect your escape to the opposite side since their weight shift to block has lightened the other direction. → Leads to [[Mount]]
-- **Top player transitions to high mount by walking knees toward armpits as you begin the escape sequence** (Effectiveness: Medium) - Your Response: Abandon the elbow escape and immediately switch to defending the high mount advancement by tucking elbows tight, protecting the neck, and using frames to prevent further knee advancement. Reset and attempt the escape once they settle in a lower position. → Leads to [[3-4 Mount]]
-- **Top player attacks the far arm with an Americana as it extends during framing, exploiting the momentary isolation** (Effectiveness: Medium) - Your Response: Immediately straighten the attacked arm and drive your elbow to your hip. Use the top player's commitment to the submission as an opportunity to bridge and escape toward the opposite side, as their weight shifts during the attack setup. → Leads to [[3-4 Mount]]
+- **Top player drives mounted knee deeper into armpit and drops chest weight forward to eliminate shrimping space** (Effectiveness: High) - Your Response: Switch to a bridge-first strategy by executing a strong upa toward the mounted side to lift their weight, then immediately chain into the hip escape. If the pressure is too heavy, focus on creating micro-movements with chained shrimps rather than a single explosive escape. → Leads to [[Positions/Mount/3-4 Mount]]
+- **Top player recognizes the escape direction and switches mounted knee to the opposite side, re-establishing 3-4 mount with reversed configuration** (Effectiveness: High) - Your Response: Immediately reassess which side is now the lighter side and redirect your escape toward the new posted leg. Use the momentary instability during their switch to accelerate your hip escape before they can re-settle weight. → Leads to [[Positions/Mount/3-4 Mount]]
+- **Top player posts hand wide on the escape side and drives hips forward to block knee insertion while consolidating to full mount** (Effectiveness: Medium) - Your Response: If their hand is posted, grip their posting wrist and pull it across their body to remove the base. Alternatively, redirect your escape to the opposite side since their weight shift to block has lightened the other direction. → Leads to [[Positions/Mount]]
+- **Top player transitions to high mount by walking knees toward armpits as you begin the escape sequence** (Effectiveness: Medium) - Your Response: Abandon the elbow escape and immediately switch to defending the high mount advancement by tucking elbows tight, protecting the neck, and using frames to prevent further knee advancement. Reset and attempt the escape once they settle in a lower position. → Leads to [[Positions/Mount/3-4 Mount]]
+- **Top player attacks the far arm with an Americana as it extends during framing, exploiting the momentary isolation** (Effectiveness: Medium) - Your Response: Immediately straighten the attacked arm and drive your elbow to your hip. Use the top player's commitment to the submission as an opportunity to bridge and escape toward the opposite side, as their weight shifts during the attack setup. → Leads to [[Positions/Mount/3-4 Mount]]
 
 
 </section>

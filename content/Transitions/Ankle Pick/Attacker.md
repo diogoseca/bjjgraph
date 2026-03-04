@@ -182,7 +182,7 @@ The Ankle Pick from the attacker's perspective is a calculated, low-risk takedow
 
 The technique's strategic value extends beyond the takedown itself. Every ankle pick attempt forces your opponent into defensive reactions that open other attacks. A sprawl defense creates snap down opportunities, stepping back opens double leg entries, and posting a hand exposes their arm to drags. This makes the ankle pick a cornerstone forcing move in standing exchanges, creating a decision tree where every defensive choice leads to a new offensive opportunity for you.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -238,9 +238,9 @@ The technique's strategic value extends beyond the takedown itself. Every ankle 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Standing Position]] | 35% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Standing Position]] | 35% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -249,11 +249,11 @@ The technique's strategic value extends beyond the takedown itself. Every ankle 
 
 ## Opponent Counters
 
-- **Opponent sprawls backward when they feel level change** (Effectiveness: High) - Your Response: Maintain collar tie pressure and transition immediately to arm drag or snap down. If they sprawl hard, you can also transition to guard pull using your forward momentum. → Leads to [[Standing Position]]
-- **Opponent lifts ankle or steps back to avoid grip** (Effectiveness: Medium) - Your Response: Follow their backward movement aggressively, switching to double leg entry or transitioning to clinch. Their backward movement creates opportunity for different attacks as their base is compromised on one leg. → Leads to [[Standing Position]]
-- **Opponent posts hand on your head to prevent level change** (Effectiveness: Medium) - Your Response: Use their posted hand as an opportunity to switch to arm drag or two-on-one control. Their extended arm creates vulnerability in their upper body positioning that you can exploit for back takes. → Leads to [[Standing Position]]
-- **Opponent circles away from your attacking angle** (Effectiveness: Low) - Your Response: Follow with your footwork and re-establish angle. Their circling often creates openings for snap downs or can tire them if you maintain pressure. Re-engage collar tie and reset your attack angle. → Leads to [[Standing Position]]
-- **Opponent secures guillotine when you level change with head inside** (Effectiveness: High) - Your Response: This counter exploits incorrect head position. Keep your head outside their body line at all times. If caught, immediately complete the takedown and land in side control where the guillotine becomes much weaker due to positional pressure. → Leads to [[Closed Guard]]
+- **Opponent sprawls backward when they feel level change** (Effectiveness: High) - Your Response: Maintain collar tie pressure and transition immediately to arm drag or snap down. If they sprawl hard, you can also transition to guard pull using your forward momentum. → Leads to [[Positions/Standing Position]]
+- **Opponent lifts ankle or steps back to avoid grip** (Effectiveness: Medium) - Your Response: Follow their backward movement aggressively, switching to double leg entry or transitioning to clinch. Their backward movement creates opportunity for different attacks as their base is compromised on one leg. → Leads to [[Positions/Standing Position]]
+- **Opponent posts hand on your head to prevent level change** (Effectiveness: Medium) - Your Response: Use their posted hand as an opportunity to switch to arm drag or two-on-one control. Their extended arm creates vulnerability in their upper body positioning that you can exploit for back takes. → Leads to [[Positions/Standing Position]]
+- **Opponent circles away from your attacking angle** (Effectiveness: Low) - Your Response: Follow with your footwork and re-establish angle. Their circling often creates openings for snap downs or can tire them if you maintain pressure. Re-engage collar tie and reset your attack angle. → Leads to [[Positions/Standing Position]]
+- **Opponent secures guillotine when you level change with head inside** (Effectiveness: High) - Your Response: This counter exploits incorrect head position. Keep your head outside their body line at all times. If caught, immediately complete the takedown and land in side control where the guillotine becomes much weaker due to positional pressure. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

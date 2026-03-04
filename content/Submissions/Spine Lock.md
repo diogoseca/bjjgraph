@@ -24,7 +24,7 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 **Category**: Compression
 **Type**: Spinal Compression
 **Target Area**: Lumbar spine, thoracic vertebrae, spinal column
-**Starting Position**: [[Truck]]
+**Starting Position**: [[Positions/Twister Control/Truck]]
 **Success Rate**: 40%
 
 </section>
@@ -80,8 +80,8 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Truck]] | 25% |
-| Counter | [[Turtle]] | 15% |
+| Failure | [[Positions/Twister Control/Truck]] | 25% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -227,13 +227,13 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 
 ## From Which Positions?
 
-- [[Truck]]
-- [[Twister Control]]
-- [[Turtle]]
-- [[Back Control]]
-- [[Crucifix]]
-- [[Rodeo Ride]]
-- [[Twister Side Control]]
+- [[Positions/Twister Control/Truck]]
+- [[Positions/Twister Control]]
+- [[Positions/Turtle]]
+- [[Positions/Back Control]]
+- [[Positions/Crucifix]]
+- [[Positions/Rodeo Ride]]
+- [[Positions/Twister Control/Twister Side Control]]
 
 
 </section>
@@ -242,18 +242,18 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 
 ## Related Submissions
 
-- [[Twister]]
-- [[Calf Slicer from Truck]]
-- [[Banana Split]]
-- [[Boston Crab]]
-- [[Can Opener]]
-- [[Crotch Ripper]]
-- [[Rear Naked Choke]]
-- [[Bow and Arrow Choke]]
-- [[Armbar from Back]]
-- [[Kimura from Turtle]]
-- [[Choke from Crucifix]]
-- [[Electric Chair Submission]]
+- [[Submissions/Twister]]
+- [[Submissions/Calf Slicer from Truck]]
+- [[Submissions/Banana Split]]
+- [[Submissions/Boston Crab]]
+- [[Submissions/Can Opener]]
+- [[Submissions/Crotch Ripper]]
+- [[Transitions/Rear Naked Choke]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Submissions/Armbar from Back]]
+- [[Submissions/Kimura from Turtle]]
+- [[Transitions/Choke from Crucifix]]
+- [[Submissions/Electric Chair Submission]]
 
 
 </section>
@@ -262,15 +262,15 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 
 ## Additional Related Content
 
-- [[Truck]] - Primary attacking position for spine lock setup and control
-- [[Twister Control]] - Alternative finishing position that combines with spine compression
-- [[Turtle]] - Common starting position for Truck entry and spine lock sequence
-- [[Calf Slicer from Truck]] - Complementary submission that chains with spine lock from same position
-- [[Back Control]] - Alternative control position if Truck is defended during spine lock attempt
-- [[Twister]] - Related spinal submission with rotational cervical component
-- [[Banana Split]] - Alternative leg-based submission from Truck position
-- [[Crucifix]] - Control position with similar back exposure that can transition to spine lock
-- [[Electric Chair]] - Half guard position that can lead to Truck and spine lock entries
+- [[Positions/Twister Control/Truck]] - Primary attacking position for spine lock setup and control
+- [[Positions/Twister Control]] - Alternative finishing position that combines with spine compression
+- [[Positions/Turtle]] - Common starting position for Truck entry and spine lock sequence
+- [[Submissions/Calf Slicer from Truck]] - Complementary submission that chains with spine lock from same position
+- [[Positions/Back Control]] - Alternative control position if Truck is defended during spine lock attempt
+- [[Submissions/Twister]] - Related spinal submission with rotational cervical component
+- [[Submissions/Banana Split]] - Alternative leg-based submission from Truck position
+- [[Positions/Crucifix]] - Control position with similar back exposure that can transition to spine lock
+- [[Positions/Half Guard/Electric Chair]] - Half guard position that can lead to Truck and spine lock entries
 
 
 </section>

@@ -190,7 +190,7 @@ The mechanical change involves reconfiguring your leg position from parallel ash
 
 Strategically, this transition serves as an essential response when opponents successfully defend Inside Ashi attacks by rotating their knee line away from danger. Rather than forcing suboptimal attacks, advanced practitioners recognize when the opponent's defensive movement actually creates better opportunities from Cross Ashi. The ability to fluidly transition between ashi configurations based on opponent reactions is characteristic of high-level leg lock systems and demonstrates sophisticated positional awareness.
 
-**From Position**: [[Inside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
 
@@ -243,9 +243,9 @@ Strategically, this transition serves as an essential response when opponents su
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Cross Ashi-Garami]] | 60% |
-| Failure | [[Inside Ashi-Garami]] | 30% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Ashi Garami/Cross Ashi-Garami]] | 60% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -254,10 +254,10 @@ Strategically, this transition serves as an essential response when opponents su
 
 ## Opponent Counters
 
-- **Opponent retracts leg during transition when control loosens between configurations** (Effectiveness: High) - Your Response: Accelerate transition while increasing heel grip tension. If leg begins escaping, immediately return to Inside Ashi and reset before attempting again with better timing → Leads to [[Open Guard]]
-- **Opponent sits up aggressively during the switch to establish upper body frames and create distance** (Effectiveness: Medium) - Your Response: Drive your inside leg deeper across their hip and pull heel tighter to chest. The submission threat forces them back down. Complete transition and threaten heel hook immediately → Leads to [[Inside Ashi-Garami]]
-- **Opponent turns toward the entanglement to enter their own leg attacks on your exposed leg** (Effectiveness: Medium) - Your Response: Use your inside leg to block their hip rotation. If they achieve angle, complete transition quickly to attack first or address their leg threat before continuing → Leads to [[Open Guard]]
-- **Opponent kicks free leg into your hip to create separation during leg reconfiguration** (Effectiveness: Low) - Your Response: Absorb the kick by staying compact and connected. Use their pushing energy to help rotate your hips into the cross position. Their extended leg often creates better finishing angles → Leads to [[Inside Ashi-Garami]]
+- **Opponent retracts leg during transition when control loosens between configurations** (Effectiveness: High) - Your Response: Accelerate transition while increasing heel grip tension. If leg begins escaping, immediately return to Inside Ashi and reset before attempting again with better timing → Leads to [[Positions/Open Guard]]
+- **Opponent sits up aggressively during the switch to establish upper body frames and create distance** (Effectiveness: Medium) - Your Response: Drive your inside leg deeper across their hip and pull heel tighter to chest. The submission threat forces them back down. Complete transition and threaten heel hook immediately → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent turns toward the entanglement to enter their own leg attacks on your exposed leg** (Effectiveness: Medium) - Your Response: Use your inside leg to block their hip rotation. If they achieve angle, complete transition quickly to attack first or address their leg threat before continuing → Leads to [[Positions/Open Guard]]
+- **Opponent kicks free leg into your hip to create separation during leg reconfiguration** (Effectiveness: Low) - Your Response: Absorb the kick by staying compact and connected. Use their pushing energy to help rotate your hips into the cross position. Their extended leg often creates better finishing angles → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 </section>

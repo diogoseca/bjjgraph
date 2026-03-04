@@ -230,8 +230,8 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -240,10 +240,10 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 ## Opponent Defenses
 
-- **Sitting up immediately to face you and strip heel control** (Effectiveness: High) - Your Response: Use your free leg to push their shoulder or chest forcefully, preventing them from achieving upright posture. If they do sit up, transition to X-Guard or Single Leg X-Guard sweep rather than forcing the finish. → Leads to [[Closed Guard]]
-- **Grabbing their own knee or shin to prevent leg isolation** (Effectiveness: High) - Your Response: Use two-on-one grip breaking - both your hands should attack their weakest grip point (usually their fingers). Alternatively, threaten a sweep or back take to force them to release the defensive grip and post. → Leads to [[Closed Guard]]
-- **Stepping over your head with their free leg to establish a defensive hook** (Effectiveness: Medium) - Your Response: Angle your body further away from their free leg as you enter. If they do step over, you may need to transition to a different leg entanglement or sweep rather than forcing the kneebar finish. → Leads to [[Half Guard]]
-- **Stacking you by driving forward and putting weight on your shoulders** (Effectiveness: Medium) - Your Response: Your perpendicular angle and leg triangle should prevent effective stacking. If they begin to stack, use your free leg to push their hips away forcefully, or roll them over the top into a kneebar from top position. → Leads to [[Closed Guard]]
+- **Sitting up immediately to face you and strip heel control** (Effectiveness: High) - Your Response: Use your free leg to push their shoulder or chest forcefully, preventing them from achieving upright posture. If they do sit up, transition to X-Guard or Single Leg X-Guard sweep rather than forcing the finish. → Leads to [[Positions/Closed Guard]]
+- **Grabbing their own knee or shin to prevent leg isolation** (Effectiveness: High) - Your Response: Use two-on-one grip breaking - both your hands should attack their weakest grip point (usually their fingers). Alternatively, threaten a sweep or back take to force them to release the defensive grip and post. → Leads to [[Positions/Closed Guard]]
+- **Stepping over your head with their free leg to establish a defensive hook** (Effectiveness: Medium) - Your Response: Angle your body further away from their free leg as you enter. If they do step over, you may need to transition to a different leg entanglement or sweep rather than forcing the kneebar finish. → Leads to [[Positions/Half Guard]]
+- **Stacking you by driving forward and putting weight on your shoulders** (Effectiveness: Medium) - Your Response: Your perpendicular angle and leg triangle should prevent effective stacking. If they begin to stack, use your free leg to push their hips away forcefully, or roll them over the top into a kneebar from top position. → Leads to [[Positions/Closed Guard]]
 - **Rolling in the direction of the kneebar to relieve pressure** (Effectiveness: Low) - Your Response: Maintain heel control and follow their roll, often ending in an even stronger finishing position. Be prepared to adjust your leg triangle and hip position as they roll. → Leads to [[game-over]]
 
 

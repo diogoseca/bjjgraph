@@ -148,7 +148,7 @@ description: "Defend against the New York Control to Invisible Collar transition
 
 Defending the New York Control to Invisible Collar transition requires recognizing the subtle hip and leg movements that precede the shin repositioning. The defender's primary window for escape occurs during the brief moment when the attacker releases the overhook to complete the transition, as this creates a gap in the controlling structure that can be exploited for posture recovery. Understanding the transition mechanics allows the top player to anticipate the movement and preemptively posture before the invisible collar is established, converting the attacker's transition attempt into an opportunity to escape the rubber guard entirely. The defender must resist the instinct to remain passive during rubber guard position changes, instead treating each transition as an actionable escape window.
 
-**Opponent's Starting Position**: [[New York Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/New York Control]] (Bottom)
 
 </section>
 
@@ -186,21 +186,21 @@ Defending the New York Control to Invisible Collar transition requires recognizi
 ### 1. Posture up aggressively during the overhook release window
 
 - **When to use**: When you feel the overhook loosening or see the attacker's hand moving to guide their leg
-- **Targets**: [[New York Control]]
+- **Targets**: [[Positions/Rubber Guard/New York Control]]
 - **If successful**: Bottom player's transition is disrupted and they must re-establish New York Control or abandon rubber guard
 - **Risk**: If the shin has already reached behind your neck, posturing drives your neck into the invisible collar pressure
 
 ### 2. Strip the controlling leg off your shoulder during the shin slide
 
 - **When to use**: When the leg is in transit between shoulder and neck position, momentarily weakened in its control
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Rubber guard is completely broken and you establish open guard passing position
 - **Risk**: If the strip fails, you have exposed your arms to potential armbar or triangle from the transition
 
 ### 3. Drive forward and stack to prevent hip rotation
 
 - **When to use**: When you detect the initial hip rotation that precedes the shin slide
-- **Targets**: [[New York Control]]
+- **Targets**: [[Positions/Rubber Guard/New York Control]]
 - **If successful**: The bottom player cannot generate the angle needed for shin repositioning and must abandon the transition
 - **Risk**: Forward pressure against rubber guard can feed into other submissions like triangle or omoplata if poorly timed
 
@@ -212,7 +212,7 @@ Defending the New York Control to Invisible Collar transition requires recognizi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Exploit the transition window to strip the controlling leg when it is between positions. Time the strip when the overhook releases and the shin has not yet settled behind the neck. Use both hands to push the leg toward the mat while posturing your upper body to create maximum distance from the rubber guard structure.
 

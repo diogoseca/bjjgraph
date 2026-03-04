@@ -21,7 +21,7 @@ Unlike choke-based submissions from back control, the body triangle squeeze atta
 
 The squeeze is most effective when the triangle is locked at optimal height around the floating ribs and diaphragm, and when the attacker engages their entire posterior chain to generate maximum compression. At the competitive level, this technique functions as both a legitimate finishing threat and a pressure tool that degrades the defender's respiratory capacity, creating the dilemma-based attacking framework that defines elite back control. Combined with choke threats, the squeeze forces the opponent into choosing between protecting their ribs or their neck, a lose-lose defensive prioritization problem.
 
-**From Position**: [[Body Triangle]] (Bottom)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 **Success Rate**: 35%
 
 </section>
@@ -33,8 +33,8 @@ The squeeze is most effective when the triangle is locked at optimal height arou
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 35% |
-| Failure | [[Body Triangle]] | 45% |
-| Counter | [[Back Control]] | 20% |
+| Failure | [[Positions/Back Control/Body Triangle]] | 45% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Body Triangle Squeeze integrates into the back attack system as a force mult
 ## Related Techniques
 
 
-- [[Body Triangle]] - Source position from which the squeeze submission is executed
+- [[Positions/Back Control/Body Triangle]] - Source position from which the squeeze submission is executed
 
-- [[Back Control]] - Parent back control position before establishing triangle lock
+- [[Positions/Back Control]] - Parent back control position before establishing triangle lock
 
-- [[Body Triangle RNC]] - Complementary choke submission from same body triangle position
+- [[Submissions/Body Triangle RNC]] - Complementary choke submission from same body triangle position
 
-- [[Bow and Arrow from Seat Belt]] - Alternative gi choke submission from back control
+- [[Submissions/Bow and Arrow from Seat Belt]] - Alternative gi choke submission from back control
 
-- [[RNC from Seat Belt]] - Primary choke alternative from back position
+- [[Submissions/RNC from Seat Belt]] - Primary choke alternative from back position
 
-- [[Crucifix]] - Transition target when defender reaches back to attack locked legs
+- [[Positions/Crucifix]] - Transition target when defender reaches back to attack locked legs
 
-- [[Seat Belt Control Back]] - Upper body control configuration paired with body triangle squeeze
+- [[Positions/Back Control/Seat Belt Control Back]] - Upper body control configuration paired with body triangle squeeze
 
-- [[Back Control Maintenance]] - Maintaining back control if squeeze attempt is abandoned
+- [[Transitions/Back Control Maintenance]] - Maintaining back control if squeeze attempt is abandoned
 
-- [[Body Triangle Escape to Half Guard]] - Opponent's primary escape route to defend against during squeeze
+- [[Transitions/Body Triangle Escape to Half Guard]] - Opponent's primary escape route to defend against during squeeze
 
-- [[Body Triangle Escape to Side Control]] - Alternative escape sequence opponent may attempt under squeeze pressure
+- [[Transitions/Body Triangle Escape to Side Control]] - Alternative escape sequence opponent may attempt under squeeze pressure
 
 
 </section>

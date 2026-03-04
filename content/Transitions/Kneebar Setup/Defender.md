@@ -158,7 +158,7 @@ The primary defensive strategy centers on preventing leg extension and maintaini
 
 Defensive success also depends on recognizing the transition early through tactile and visual cues. When the attacker releases their heel hook grip, begins rotating their body, or shifts their hand positioning from heel to ankle, these signals indicate an imminent kneebar attempt. Early recognition allows proactive defense—stepping over the entanglement, driving forward to break their body angle, or extracting the leg before the attacker consolidates control. Reactive defense after the kneebar is locked in requires more energy and carries greater injury risk.
 
-**Opponent's Starting Position**: [[Outside Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Defensive success also depends on recognizing the transition early through tacti
 ### 1. Bend knee aggressively and rotate hip inward to prevent extension while keeping heel hidden
 
 - **When to use**: Immediately upon recognizing the kneebar setup—before attacker achieves full perpendicular angle and ankle control
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: Attacker cannot hyperextend your knee and must abandon kneebar attempt, returning to standard outside ashi exchange
 - **Risk**: Bending knee too far exposes heel for heel hook if attacker reads the defense and switches back to rotational attack
 
 ### 2. Step over the attacker's body with your free leg and rotate toward them to break their perpendicular angle
 
 - **When to use**: During the attacker's body rotation when their legs are loosening to re-triangle—the brief window before they consolidate kneebar position
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You clear the leg entanglement entirely and land in a passing position or half guard top, eliminating all leg lock threats
 - **Risk**: If attacker maintains tight control during your step-over, you may end up in a worse entanglement or expose your back
 
 ### 3. Drive forward aggressively to smash through the attacker's guard, collapsing their perpendicular angle by stacking
 
 - **When to use**: When the attacker has begun rotation but has not yet secured your ankle against their chest—forward pressure collapses their positioning
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: Attacker's body angle collapses from perpendicular back to parallel, removing kneebar leverage and forcing them to re-establish position
 - **Risk**: If attacker is already consolidated, driving forward extends your leg further and accelerates the hyperextension
 
 ### 4. Extract trapped leg by internally rotating hip and threading knee out of the figure-4 while posting with free leg
 
 - **When to use**: When attacker's leg triangle loosens during the grip transition from heel hook to ankle control—exploit the brief control gap
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Complete leg extraction returns you to a passing or neutral position with no remaining leg lock threat
 - **Risk**: Forceful extraction against a tight triangle strengthens their lock and may expose your ankle to straight ankle lock
 
@@ -229,11 +229,11 @@ Defensive success also depends on recognizing the transition early through tacti
 
 ## Best-Case Outcomes for Defender
 
-### → [[Outside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 Bend your knee and rotate hip inward to prevent extension, then fight the attacker's grips to return to the standard outside ashi exchange where you can work systematic escapes. Use your free leg to create frames on their hips preventing them from re-attempting the kneebar setup.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Extract your trapped leg during the attacker's grip transition by internally rotating your hip and threading your knee free from their figure-4. Immediately step over and establish passing position or half guard top. This is the best-case scenario as it eliminates all leg entanglement threats simultaneously.
 

@@ -146,7 +146,7 @@ description: "Counter the bridge escape from mounted triangle. Maintain triangle
 
 As the defender maintaining the mounted triangle, your objective is to prevent the bottom player's bridge from disrupting your triangle configuration while capitalizing on their escape attempts to either maintain position or transition to an even more dominant control. The bridge defense creates a predictable moment of explosive movement from the bottom player that, when properly anticipated, can be absorbed through base adjustment or exploited through positional transitions. Understanding bridge mechanics from the top perspective allows you to recognize the setup, preemptively adjust your base, and convert failed escape attempts into tighter control or back take opportunities. The key insight is that the mounted triangle's asymmetric leg configuration creates a known weak direction that skilled bottom players will target, allowing you to prepare your base accordingly.
 
-**Opponent's Starting Position**: [[Mounted Triangle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount/Mounted Triangle]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender maintaining the mounted triangle, your objective is to prevent t
 ### 1. Post wide on the anticipated bridge side to absorb force and maintain base
 
 - **When to use**: When you recognize the bottom player setting their feet and loading their hips for a bridge attempt
-- **Targets**: [[Mounted Triangle]]
+- **Targets**: [[Positions/Mount/Mounted Triangle]]
 - **If successful**: Bridge is absorbed with minimal disruption, you re-settle into triangle position and can immediately re-tighten the lock
 - **Risk**: Over-posting one direction leaves you vulnerable to hip escape on the opposite side
 
 ### 2. Drive hips forward and tighten triangle squeeze during the bridge attempt
 
 - **When to use**: When the bridge begins and you feel upward pressure but have sufficient base to resist the force
-- **Targets**: [[Mounted Triangle]]
+- **Targets**: [[Positions/Mount/Mounted Triangle]]
 - **If successful**: The increased triangle pressure discourages further bridge attempts and can accelerate the submission finish
 - **Risk**: Committing weight forward during a powerful bridge may result in being rolled if your base is insufficient
 
 ### 3. Release triangle and transition to back control as bridge creates turning momentum
 
 - **When to use**: When the bridge generates significant displacement and the bottom player's body begins turning during the movement
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You transition to back control with seat belt grip and hooks, upgrading from mounted triangle to an equally dominant position
 - **Risk**: Releasing the triangle without securing back grips may allow the bottom player to face you and recover guard
 
 ### 4. Transition to armbar by catching the trapped arm as it extends during bridge motion
 
 - **When to use**: When the bottom player's trapped arm extends or loosens during the explosive bridge movement
-- **Targets**: [[Mounted Triangle]]
+- **Targets**: [[Positions/Mount/Mounted Triangle]]
 - **If successful**: You transition to mounted armbar finish, converting their escape attempt into a different submission threat
 - **Risk**: The armbar transition requires releasing some triangle pressure, potentially giving the bottom player an escape window
 
@@ -217,11 +217,11 @@ As the defender maintaining the mounted triangle, your objective is to prevent t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mounted Triangle]]
+### → [[Positions/Mount/Mounted Triangle]]
 
 Maintain wide base on the anticipated bridge side, absorb the upward force through your posting leg, and immediately re-settle your weight and re-tighten the triangle once the bridge momentum dissipates. Use head control to prevent effective bridging angles.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the bridge creates significant momentum and the bottom player turns during the movement, release the triangle and flow with their turning motion. Establish seat belt grip over-under on their torso and insert hooks as they rotate. Their bridge energy becomes your transition fuel.
 

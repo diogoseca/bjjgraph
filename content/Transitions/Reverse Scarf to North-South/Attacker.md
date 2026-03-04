@@ -186,7 +186,7 @@ description: "Learn to execute the Reverse Scarf to North-South transition as th
 
 As the attacker executing the Reverse Scarf to North-South transition, your objective is to convert the reverse scarf hold pin into the more dominant and sustainable north-south position. The transition requires you to rotate your body from a reverse-facing orientation to a perpendicular chest-to-chest alignment while maintaining unbroken pressure on your opponent's upper body. The key mechanical principle is using your chest as a fixed pivot point against the opponent's sternum while your legs walk around in an arc to achieve the perpendicular alignment. Every phase of the rotation must maintain heavy weight distribution through your chest and hips to prevent the opponent from creating escape space during the vulnerable transitional window.
 
-**From Position**: [[Reverse Scarf Hold]] (Top)
+**From Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Top)
 
 </section>
 
@@ -238,9 +238,9 @@ As the attacker executing the Reverse Scarf to North-South transition, your obje
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[North-South]] | 55% |
-| Failure | [[Reverse Scarf Hold]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/North-South]] | 55% |
+| Failure | [[Positions/Side Control/Reverse Scarf Hold]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -249,10 +249,10 @@ As the attacker executing the Reverse Scarf to North-South transition, your obje
 
 ## Opponent Counters
 
-- **Opponent frames on your hip with far arm to block the rotation before it begins** (Effectiveness: High) - Your Response: Strip the frame by driving your hip into their forearm to collapse it, or switch to attacking the exposed arm with a kimura grip before reattempting the rotation. If the frame is strong, maintain reverse scarf hold and attack submissions from there rather than forcing the transition. → Leads to [[Reverse Scarf Hold]]
-- **Opponent bridges explosively during the rotation window when your base is narrowest** (Effectiveness: Medium) - Your Response: Ride the bridge by keeping your chest heavy as a pivot point and widening your base immediately. If the bridge is powerful enough to create space, use their upward momentum to accelerate your rotation toward north-south rather than fighting back to reverse scarf hold. Their bridge energy becomes your rotational momentum. → Leads to [[Half Guard]]
-- **Opponent inserts knee between bodies during the weight shift phase of the rotation** (Effectiveness: High) - Your Response: If the knee enters early, immediately push it down with your hip pressure and abort the rotation to reestablish reverse scarf control. If the knee enters during the later phase of rotation, continue to north-south and address the knee from perpendicular alignment where you have better leverage to clear it before they establish half guard. → Leads to [[Half Guard]]
-- **Opponent turns away toward turtle position during the transition** (Effectiveness: Low) - Your Response: Follow their rotation and take the back rather than continuing to north-south. Their turn exposes their back, and your momentum from the transition can be redirected into back control. Alternatively, complete the north-south transition and use the perpendicular alignment to prevent them from achieving turtle by driving them back flat. → Leads to [[Reverse Scarf Hold]]
+- **Opponent frames on your hip with far arm to block the rotation before it begins** (Effectiveness: High) - Your Response: Strip the frame by driving your hip into their forearm to collapse it, or switch to attacking the exposed arm with a kimura grip before reattempting the rotation. If the frame is strong, maintain reverse scarf hold and attack submissions from there rather than forcing the transition. → Leads to [[Positions/Side Control/Reverse Scarf Hold]]
+- **Opponent bridges explosively during the rotation window when your base is narrowest** (Effectiveness: Medium) - Your Response: Ride the bridge by keeping your chest heavy as a pivot point and widening your base immediately. If the bridge is powerful enough to create space, use their upward momentum to accelerate your rotation toward north-south rather than fighting back to reverse scarf hold. Their bridge energy becomes your rotational momentum. → Leads to [[Positions/Half Guard]]
+- **Opponent inserts knee between bodies during the weight shift phase of the rotation** (Effectiveness: High) - Your Response: If the knee enters early, immediately push it down with your hip pressure and abort the rotation to reestablish reverse scarf control. If the knee enters during the later phase of rotation, continue to north-south and address the knee from perpendicular alignment where you have better leverage to clear it before they establish half guard. → Leads to [[Positions/Half Guard]]
+- **Opponent turns away toward turtle position during the transition** (Effectiveness: Low) - Your Response: Follow their rotation and take the back rather than continuing to north-south. Their turn exposes their back, and your momentum from the transition can be redirected into back control. Alternatively, complete the north-south transition and use the perpendicular alignment to prevent them from achieving turtle by driving them back flat. → Leads to [[Positions/Side Control/Reverse Scarf Hold]]
 
 
 </section>

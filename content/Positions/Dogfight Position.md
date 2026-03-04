@@ -93,15 +93,15 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 ### Available Transitions
 
 
-- **[[Dogfight Sweep]]** (25% of attempts)
+- **[[Transitions/Dogfight Sweep]]** (25% of attempts)
 
-- **[[Back Take]]** (25% of attempts)
+- **[[Transitions/Back Take]]** (25% of attempts)
 
-- **[[Forward Drive Sweep from Dogfight]]** (20% of attempts)
+- **[[Transitions/Forward Drive Sweep from Dogfight]]** (20% of attempts)
 
-- **[[Underhook Sweep from Dogfight]]** (15% of attempts)
+- **[[Transitions/Underhook Sweep from Dogfight]]** (15% of attempts)
 
-- **[[Re-pull Half Guard from Dogfight]]** (15% of attempts)
+- **[[Transitions/Re-pull Half Guard from Dogfight]]** (15% of attempts)
 
 
 ### Common Mistakes
@@ -166,11 +166,11 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 ### Available Transitions
 
 
-- **[[Crossface from Dogfight]]** (35% of attempts)
+- **[[Transitions/Crossface from Dogfight]]** (35% of attempts)
 
-- **[[Re-flatten from Dogfight]]** (35% of attempts)
+- **[[Transitions/Re-flatten from Dogfight]]** (35% of attempts)
 
-- **[[Snap Down from Dogfight]]** (30% of attempts)
+- **[[Transitions/Snap Down from Dogfight]]** (30% of attempts)
 
 
 ### Common Mistakes
@@ -213,25 +213,25 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 ## Related Positions
 
 
-- **[[Half Guard]]** - Parent position - Dogfight is an elevated variation arising from flat half guard recovery
+- **[[Positions/Half Guard]]** - Parent position - Dogfight is an elevated variation arising from flat half guard recovery
 
-- **[[Deep Half Guard]]** - Common transition target when opponent applies forward pressure or posts wide from Dogfight
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common transition target when opponent applies forward pressure or posts wide from Dogfight
 
-- **[[Lockdown]]** - Alternative half guard control mechanism that can transition to Dogfight when coming up to knees
+- **[[Positions/Half Guard/Lockdown]]** - Alternative half guard control mechanism that can transition to Dogfight when coming up to knees
 
-- **[[Knee Shield Half Guard]]** - Often precedes Dogfight - bottom player comes up to knees from knee shield configuration
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Often precedes Dogfight - bottom player comes up to knees from knee shield configuration
 
-- **[[Back Control]]** - Primary offensive target from Dogfight via back take transitions when opponent exposes back
+- **[[Positions/Back Control]]** - Primary offensive target from Dogfight via back take transitions when opponent exposes back
 
-- **[[Old School]]** - Signature sweep technique from Dogfight position targeting opponent's posted far leg
+- **[[Positions/Half Guard/Old School]]** - Signature sweep technique from Dogfight position targeting opponent's posted far leg
 
-- **[[Overhook Control]]** - Defensive concept the top player uses to counter Dogfight underhook and flatten opponent
+- **[[Positions/Overhook Control]]** - Defensive concept the top player uses to counter Dogfight underhook and flatten opponent
 
-- **[[Butterfly Guard]]** - Alternative guard position with similar underhook battles and elevated posture dynamics
+- **[[Positions/Butterfly Guard]]** - Alternative guard position with similar underhook battles and elevated posture dynamics
 
-- **[[Crab Ride]]** - Alternative position top player may transition to when defending Dogfight back take attempts
+- **[[Positions/Crab Ride]]** - Alternative position top player may transition to when defending Dogfight back take attempts
 
-- **[[Flattened Half Guard]]** - Position you regress to when losing the underhook battle and getting driven backward
+- **[[Positions/Half Guard/Flattened Half Guard]]** - Position you regress to when losing the underhook battle and getting driven backward
 
 
 </section>

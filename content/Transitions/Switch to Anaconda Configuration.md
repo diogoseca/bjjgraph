@@ -21,7 +21,7 @@ This transition exemplifies the principle that sophisticated turtle attack syste
 
 The anaconda configuration offers a distinct advantage over maintaining the buggy choke because the grip structure is inherently more stable and allows the gator roll finishing mechanic. Once the anaconda grip locks, the top player can roll the opponent to their back, eliminating the turtle base entirely and consolidating a finishing position that is extremely difficult to escape. This makes the transition particularly valuable in competition where opponents are adept at surviving turtle attacks but less prepared for the dynamic grip change to anaconda control.
 
-**From Position**: [[Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The anaconda configuration offers a distinct advantage over maintaining the bugg
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Anaconda Control]] | 60% |
-| Failure | [[Buggy Choke]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Anaconda Control]] | 60% |
+| Failure | [[Positions/Buggy Choke]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Switch to Anaconda Configuration is a critical branch in the buggy choke att
 ## Related Techniques
 
 
-- [[Buggy Choke]] - Starting position and control structure from which the anaconda switch initiates
+- [[Positions/Buggy Choke]] - Starting position and control structure from which the anaconda switch initiates
 
-- [[Anaconda Control]] - Target position achieved upon successful grip reconfiguration
+- [[Positions/Anaconda Control]] - Target position achieved upon successful grip reconfiguration
 
-- [[Anaconda Choke]] - Primary submission finish available from the anaconda control position
+- [[Transitions/Anaconda Choke]] - Primary submission finish available from the anaconda control position
 
-- [[Switch to Darce Configuration]] - Alternative grip switch from same position when darce angle is favored over anaconda
+- [[Transitions/Switch to Darce Configuration]] - Alternative grip switch from same position when darce angle is favored over anaconda
 
-- [[Buggy Choke to Front Headlock]] - Alternative transition when neither anaconda nor darce angle is available
+- [[Transitions/Buggy Choke to Front Headlock]] - Alternative transition when neither anaconda nor darce angle is available
 
-- [[Front Headlock]] - Fallback control position accessible during failed anaconda switch attempts
+- [[Positions/Front Headlock]] - Fallback control position accessible during failed anaconda switch attempts
 
-- [[Finish Buggy Choke]] - Alternative path when opponent remains static and original choke angle is maintained
+- [[Transitions/Finish Buggy Choke]] - Alternative path when opponent remains static and original choke angle is maintained
 
-- [[Anaconda Setup]] - Related anaconda entry from different starting positions for cross-reference
+- [[Transitions/Anaconda Setup]] - Related anaconda entry from different starting positions for cross-reference
 
-- [[Anaconda from Turtle]] - Related anaconda attack from standard turtle top without buggy choke intermediate
+- [[Transitions/Anaconda from Turtle]] - Related anaconda attack from standard turtle top without buggy choke intermediate
 
-- [[Arm in Guillotine]] - Alternative submission when anaconda grip fails but neck access is maintained
+- [[Submissions/Arm in Guillotine]] - Alternative submission when anaconda grip fails but neck access is maintained
 
-- [[Crucifix]] - Alternative transition when opponent posts far arm to defend the anaconda switch
+- [[Positions/Crucifix]] - Alternative transition when opponent posts far arm to defend the anaconda switch
 
-- [[Back Control]] - Transition target when opponent sits to guard during the grip change window
+- [[Positions/Back Control]] - Transition target when opponent sits to guard during the grip change window
 
 
 </section>

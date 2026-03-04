@@ -178,7 +178,7 @@ The extraction sequence requires precise timing, explosive hip movement, and coo
 
 Strategically, this escape reflects modern competitive reality: when facing a superior leg lock practitioner, the intelligent choice is often disengagement rather than engagement. Standing up resets the exchange on neutral terms where takedown wrestling and guard passing become the primary battlegrounds instead of leg lock exchanges that favor your opponent.
 
-**From Position**: [[50-50 Guard]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategically, this escape reflects modern competitive reality: when facing a su
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 65% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[Ashi Garami]] | 10% |
+| Success | [[Positions/Open Guard]] | 65% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, this escape reflects modern competitive reality: when facing a su
 
 ## Opponent Counters
 
-- **Opponent maintains heel grip during extraction attempt and finishes heel hook** (Effectiveness: High) - Your Response: Abort extraction immediately if heel grip is not broken. Return to defensive shell position and re-establish heel protection before reattempting extraction with proper grip breaks → Leads to [[50-50 Guard]]
-- **Opponent shoots for single leg as you stand up** (Effectiveness: Medium) - Your Response: Sprawl immediately upon feeling contact, use crossface to drive opponent's head down, circle toward their back or establish front headlock control → Leads to [[Open Guard]]
-- **Opponent pulls guard during standing phase to re-establish leg entanglement** (Effectiveness: Medium) - Your Response: Maintain strong posture and base, keep hips back, establish grips before engaging, pass standing rather than entering guard where leg attacks resume → Leads to [[Ashi Garami]]
-- **Opponent transitions to ankle lock as you create space** (Effectiveness: Low) - Your Response: Continue extraction - ankle lock from bottom 50-50 with you creating distance has very low finish rate. Your extraction momentum defeats their grip establishment → Leads to [[50-50 Guard]]
+- **Opponent maintains heel grip during extraction attempt and finishes heel hook** (Effectiveness: High) - Your Response: Abort extraction immediately if heel grip is not broken. Return to defensive shell position and re-establish heel protection before reattempting extraction with proper grip breaks → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent shoots for single leg as you stand up** (Effectiveness: Medium) - Your Response: Sprawl immediately upon feeling contact, use crossface to drive opponent's head down, circle toward their back or establish front headlock control → Leads to [[Positions/Open Guard]]
+- **Opponent pulls guard during standing phase to re-establish leg entanglement** (Effectiveness: Medium) - Your Response: Maintain strong posture and base, keep hips back, establish grips before engaging, pass standing rather than entering guard where leg attacks resume → Leads to [[Positions/Ashi Garami]]
+- **Opponent transitions to ankle lock as you create space** (Effectiveness: Low) - Your Response: Continue extraction - ankle lock from bottom 50-50 with you creating distance has very low finish rate. Your extraction momentum defeats their grip establishment → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 
 
 </section>

@@ -26,8 +26,8 @@ At the competitive level, the guillotine from butterfly guard has become a corne
 **Category**: Choke
 **Type**: Guillotine Choke
 **Target Area**: Neck
-**Starting Position**: [[Butterfly Guard]]
-**From Position**: [[Butterfly Guard]] (Bottom)
+**Starting Position**: [[Positions/Butterfly Guard]]
+**From Position**: [[Positions/Butterfly Guard]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -78,9 +78,9 @@ At the competitive level, the guillotine from butterfly guard has become a corne
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Butterfly Guard]] | 25% |
-| Failure | [[Closed Guard]] | 20% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Butterfly Guard]] | 25% |
+| Failure | [[Positions/Closed Guard]] | 20% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -228,10 +228,10 @@ At the competitive level, the guillotine from butterfly guard has become a corne
 
 ## From Which Positions?
 
-- [[Butterfly Guard]]
-- [[Closed Guard]]
-- [[Half Guard]]
-- [[Open Guard]]
+- [[Positions/Butterfly Guard]]
+- [[Positions/Closed Guard]]
+- [[Positions/Half Guard]]
+- [[Positions/Open Guard]]
 
 
 </section>
@@ -240,12 +240,12 @@ At the competitive level, the guillotine from butterfly guard has become a corne
 
 ## Related Submissions
 
-- [[Arm in Guillotine]]
-- [[Chin Strap Guillotine]]
-- [[Anaconda Choke]]
-- [[Brabo Choke]]
-- [[Arm Triangle]]
-- [[Armbar from Guard]]
+- [[Submissions/Arm in Guillotine]]
+- [[Submissions/Chin Strap Guillotine]]
+- [[Transitions/Anaconda Choke]]
+- [[Submissions/Brabo Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Armbar from Guard]]
 
 
 </section>
@@ -254,12 +254,12 @@ At the competitive level, the guillotine from butterfly guard has become a corne
 
 ## Additional Related Content
 
-- [[Butterfly Guard]] - Primary starting position providing hooks and elevation leverage for guillotine setup
-- [[Guillotine Control]] - Intermediate control position reached when guillotine grip is locked but finish is not yet complete
-- [[Front Headlock]] - Related control position sharing similar head-and-arm neck control mechanics
-- [[Closed Guard]] - Alternative guard position where guillotine can be applied with locked legs for stability
-- [[Arm in Guillotine]] - Common variation applied when opponent's arm is trapped inside the guillotine grip
-- [[Anaconda Choke]] - Related front headlock choke that chains naturally from failed guillotine attempts
+- [[Positions/Butterfly Guard]] - Primary starting position providing hooks and elevation leverage for guillotine setup
+- [[Positions/Guillotine Control]] - Intermediate control position reached when guillotine grip is locked but finish is not yet complete
+- [[Positions/Front Headlock]] - Related control position sharing similar head-and-arm neck control mechanics
+- [[Positions/Closed Guard]] - Alternative guard position where guillotine can be applied with locked legs for stability
+- [[Submissions/Arm in Guillotine]] - Common variation applied when opponent's arm is trapped inside the guillotine grip
+- [[Transitions/Anaconda Choke]] - Related front headlock choke that chains naturally from failed guillotine attempts
 
 
 </section>

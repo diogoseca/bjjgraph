@@ -188,7 +188,7 @@ description: "Master attacking the Bow and Arrow choke from Seat Belt position. 
 
 Executing the Bow and Arrow from Seat Belt requires precise sequencing through three critical phases: collar grip establishment, leg control acquisition, and diagonal extension. The attacker must transition from the secure over-under seat belt configuration to a cross-collar grip without losing back control, which demands excellent timing and an understanding of when the defender's attention is diverted. The collar grip must reach knuckle depth against the side of the neck before committing to the extension, as shallow grips consistently fail under the tension of full body extension. Once both control points are secured, the attacker falls to their collar-grip side and drives their hips away from the opponent while pulling the collar across the throat and pushing the far leg in the opposite direction. This creates the distinctive bow-and-arrow shape that generates choking pressure through whole-body mechanics rather than arm strength alone, making it one of the most powerful finishes available from back control.
 
-**From Position**: [[Seat Belt Control Back]] (Top)
+**From Position**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
 
 
 </section>
@@ -244,8 +244,8 @@ Executing the Bow and Arrow from Seat Belt requires precise sequencing through t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Seat Belt Control Back]] | 35% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Back Control/Seat Belt Control Back]] | 35% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -254,10 +254,10 @@ Executing the Bow and Arrow from Seat Belt requires precise sequencing through t
 
 ## Opponent Defenses
 
-- **Opponent two-on-one fights the collar grip before it reaches finishing depth, stripping fingers from the lapel** (Effectiveness: High) - Your Response: Use your free hand to peel their grip off your collar hand one finger at a time while maintaining hook control. If they commit both hands to fighting the collar, their neck is exposed for a rear naked choke transition. Alternatively, re-grip the collar from a different angle after stripping their defensive grip. → Leads to [[Seat Belt Control Back]]
-- **Opponent turns aggressively toward the attacker during the transition window before leg control is established** (Effectiveness: Medium) - Your Response: Follow their rotation with your hooks and maintain the collar grip. If they turn far enough, transition to a mounted bow and arrow or use the collar grip for a cross-collar choke from the resulting position. Their turn can actually improve your collar angle if you maintain the grip through the rotation. → Leads to [[Half Guard]]
-- **Opponent strips the pants grip on the far leg and begins rotating free from the extension** (Effectiveness: Medium) - Your Response: Immediately hook your foot behind their far knee to replace the pants grip with leg-on-leg control. Alternatively, re-grip the pants at a different point or use your shin across their thigh to prevent rotation. If leg control cannot be re-established, maintain collar depth and transition to a no-leg bow and arrow variation using body weight for the extension. → Leads to [[Seat Belt Control Back]]
-- **Opponent tucks chin extremely tight and creates a frame with both hands against the collar forearm** (Effectiveness: Low) - Your Response: Commit to full extension, as the collar pressure across the jaw creates sufficient discomfort to force the chin up or compresses the carotid arteries even through the chin tuck. The extension mechanics generate enough force that chin tucking alone cannot prevent the choke. Alternatively, use the collar grip to pull their head forward while extending, which defeats the chin tuck by changing the angle of pressure. → Leads to [[Seat Belt Control Back]]
+- **Opponent two-on-one fights the collar grip before it reaches finishing depth, stripping fingers from the lapel** (Effectiveness: High) - Your Response: Use your free hand to peel their grip off your collar hand one finger at a time while maintaining hook control. If they commit both hands to fighting the collar, their neck is exposed for a rear naked choke transition. Alternatively, re-grip the collar from a different angle after stripping their defensive grip. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
+- **Opponent turns aggressively toward the attacker during the transition window before leg control is established** (Effectiveness: Medium) - Your Response: Follow their rotation with your hooks and maintain the collar grip. If they turn far enough, transition to a mounted bow and arrow or use the collar grip for a cross-collar choke from the resulting position. Their turn can actually improve your collar angle if you maintain the grip through the rotation. → Leads to [[Positions/Half Guard]]
+- **Opponent strips the pants grip on the far leg and begins rotating free from the extension** (Effectiveness: Medium) - Your Response: Immediately hook your foot behind their far knee to replace the pants grip with leg-on-leg control. Alternatively, re-grip the pants at a different point or use your shin across their thigh to prevent rotation. If leg control cannot be re-established, maintain collar depth and transition to a no-leg bow and arrow variation using body weight for the extension. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
+- **Opponent tucks chin extremely tight and creates a frame with both hands against the collar forearm** (Effectiveness: Low) - Your Response: Commit to full extension, as the collar pressure across the jaw creates sufficient discomfort to force the chin up or compresses the carotid arteries even through the chin tuck. The extension mechanics generate enough force that chin tucking alone cannot prevent the choke. Alternatively, use the collar grip to pull their head forward while extending, which defeats the chin tuck by changing the angle of pressure. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
 
 
 </section>

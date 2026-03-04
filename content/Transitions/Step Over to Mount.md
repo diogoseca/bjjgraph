@@ -21,7 +21,7 @@ This pass works because the grasshopper guard's inverted structure relies on bot
 
 Strategically, the Step Over to Mount functions as a high-reward option within the broader toolkit for dealing with inverted guards. Unlike the back step pass which creates lateral separation, or the leg drag which redirects the bottom player's legs to one side, the step over commits fully forward through the center line to achieve the most dominant positional outcome. This directness is both its strength and its vulnerability - if the bottom player reads the step over and catches the stepping leg, they can transition into leg entanglements. The technique pairs naturally with leg drag and back step passes as part of a three-option passing system against grasshopper guard, where each option covers the defensive response to the others.
 
-**From Position**: [[Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Grasshopper Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, the Step Over to Mount functions as a high-reward option within t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Grasshopper Guard]] | 25% |
-| Failure | [[Half Guard]] | 10% |
-| Counter | [[Ashi Garami]] | 10% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Failure | [[Positions/Half Guard]] | 10% |
+| Counter | [[Positions/Ashi Garami]] | 10% |
 
 
 </section>
@@ -196,25 +196,25 @@ The Step Over to Mount occupies a specific role within the grasshopper guard pas
 ## Related Techniques
 
 
-- [[Grasshopper Guard]] - Starting position - the guard being passed
+- [[Positions/Grasshopper Guard]] - Starting position - the guard being passed
 
-- [[Mount]] - Primary destination on successful execution
+- [[Positions/Mount]] - Primary destination on successful execution
 
-- [[Back Step Pass]] - Alternative passing option from same starting position
+- [[Transitions/Back Step Pass]] - Alternative passing option from same starting position
 
-- [[Leg Drag Pass]] - Complementary pass in the three-option system against grasshopper guard
+- [[Transitions/Leg Drag Pass]] - Complementary pass in the three-option system against grasshopper guard
 
-- [[Knee on Belly]] - Intermediate control position and variant destination
+- [[Positions/Knee on Belly]] - Intermediate control position and variant destination
 
-- [[Consolidate Mount]] - Follow-up technique to stabilize mount after successful step over
+- [[Transitions/Consolidate Mount]] - Follow-up technique to stabilize mount after successful step over
 
-- [[Grasshopper Sweep]] - Counter technique the bottom player may attempt during the pass
+- [[Transitions/Grasshopper Sweep]] - Counter technique the bottom player may attempt during the pass
 
-- [[Kneebar from Grasshopper]] - Counter-attack the bottom player may attempt if step over is poorly timed
+- [[Transitions/Kneebar from Grasshopper]] - Counter-attack the bottom player may attempt if step over is poorly timed
 
-- [[Side Control to Mount]] - Alternative mount entry from lateral passing outcomes
+- [[Transitions/Side Control to Mount]] - Alternative mount entry from lateral passing outcomes
 
-- [[Cartwheel Pass]] - Alternative passing approach against inverted guards
+- [[Transitions/Cartwheel Pass]] - Alternative passing approach against inverted guards
 
 
 </section>

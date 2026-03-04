@@ -174,7 +174,7 @@ description: "How to execute X Pass in BJJ. Attacking perspective with setup, ex
 
 The X Pass from the attacker's perspective centers on establishing overwhelming crossface pressure and then driving a diagonal angle across the opponent's body to collapse their guard structure. The passer initiates from top half guard by winning the upper body battle through crossface and shoulder pressure, then creates the signature angular drive by stepping the free leg wide and driving chest and hips diagonally from the opponent's near shoulder toward their far hip. This angular pressure line is what makes the X Pass uniquely effective: it attacks defensive frames from an angle they cannot resist, forces the bottom player to choose between protecting their upper body or retaining their guard, and creates a natural pathway for leg extraction once the opponent is flattened. Mastering this pass requires understanding the relationship between pressure application, timing of the angular step, and patience in waiting for the opponent's structure to collapse before attempting leg extraction.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -226,9 +226,9 @@ The X Pass from the attacker's perspective centers on establishing overwhelming 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Half Guard]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -237,11 +237,11 @@ The X Pass from the attacker's perspective centers on establishing overwhelming 
 
 ## Opponent Counters
 
-- **Opponent establishes strong knee shield frame to create distance and prevent forward pressure application** (Effectiveness: High) - Your Response: Control their shin or foot with your free hand, pinning it to your hip. Simultaneously drive chest pressure down into the top of their knee rather than through it. As the frame weakens under downward pressure, step wide and drive the angle to collapse the shield entirely. → Leads to [[Half Guard]]
-- **Opponent secures deep underhook on trapped side and begins coming to their side to threaten sweeps and back takes** (Effectiveness: High) - Your Response: Prevent underhook access by keeping tight elbow-to-rib connection. If the underhook is already established, immediately switch to over-under pass variation by wrapping their underhook arm and using it as a handle to drive them flat and complete the pass from the opposite angle. → Leads to [[Half Guard]]
-- **Opponent establishes lockdown figure-four on trapped leg, preventing extraction and threatening sweeps** (Effectiveness: Medium) - Your Response: Posture up slightly to create space, then drive your trapped knee to the mat while pulling your heel toward your glutes to break the figure-four grip. Alternatively, transition to a backstep pass or switch your passing direction entirely to exploit the leg entanglement from a different angle. → Leads to [[Half Guard]]
-- **Opponent frames against your hips with both hands to prevent forward pressure and create space for guard recovery** (Effectiveness: Medium) - Your Response: Use crossface pressure to drive their shoulders flat, which naturally weakens hip frames by misaligning their structure. Alternatively, pin one of their framing hands to their chest with your free hand, eliminating half their defensive structure and opening the passing lane. → Leads to [[Half Guard]]
-- **Opponent rolls away as you drive the angle, escaping to turtle position to avoid the pass** (Effectiveness: Low) - Your Response: Follow their roll by maintaining your crossface grip and driving forward momentum. Transition immediately to back take by inserting hooks as they turtle, or establish front headlock control if they turn away. Never allow space to develop during their escape attempt. → Leads to [[Half Guard]]
+- **Opponent establishes strong knee shield frame to create distance and prevent forward pressure application** (Effectiveness: High) - Your Response: Control their shin or foot with your free hand, pinning it to your hip. Simultaneously drive chest pressure down into the top of their knee rather than through it. As the frame weakens under downward pressure, step wide and drive the angle to collapse the shield entirely. → Leads to [[Positions/Half Guard]]
+- **Opponent secures deep underhook on trapped side and begins coming to their side to threaten sweeps and back takes** (Effectiveness: High) - Your Response: Prevent underhook access by keeping tight elbow-to-rib connection. If the underhook is already established, immediately switch to over-under pass variation by wrapping their underhook arm and using it as a handle to drive them flat and complete the pass from the opposite angle. → Leads to [[Positions/Half Guard]]
+- **Opponent establishes lockdown figure-four on trapped leg, preventing extraction and threatening sweeps** (Effectiveness: Medium) - Your Response: Posture up slightly to create space, then drive your trapped knee to the mat while pulling your heel toward your glutes to break the figure-four grip. Alternatively, transition to a backstep pass or switch your passing direction entirely to exploit the leg entanglement from a different angle. → Leads to [[Positions/Half Guard]]
+- **Opponent frames against your hips with both hands to prevent forward pressure and create space for guard recovery** (Effectiveness: Medium) - Your Response: Use crossface pressure to drive their shoulders flat, which naturally weakens hip frames by misaligning their structure. Alternatively, pin one of their framing hands to their chest with your free hand, eliminating half their defensive structure and opening the passing lane. → Leads to [[Positions/Half Guard]]
+- **Opponent rolls away as you drive the angle, escaping to turtle position to avoid the pass** (Effectiveness: Low) - Your Response: Follow their roll by maintaining your crossface grip and driving forward momentum. Transition immediately to back take by inserting hooks as they turtle, or establish front headlock control if they turn away. Never allow space to develop during their escape attempt. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -21,7 +21,7 @@ This technique exemplifies the principle of position before submission, as maint
 
 The Mount to Armbar serves as a gateway technique that opens pathways to complementary submissions including the triangle choke, Americana, and back takes, making it an essential component of any complete mount attack system. When the armbar is defended, those defensive reactions themselves become the entries to the next attack in the chain, creating the offensive dilemmas that characterize high-level mount play.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The Mount to Armbar serves as a gateway technique that opens pathways to complem
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 55% |
-| Failure | [[Mount]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Armbar Control]] | 55% |
+| Failure | [[Positions/Mount]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -195,29 +195,29 @@ The Mount to Armbar serves as the cornerstone of the mount attack system, functi
 ## Related Techniques
 
 
-- [[Mounted Triangle]] - Alternative submission when armbar is defended by elbow withdrawal
+- [[Positions/Mount/Mounted Triangle]] - Alternative submission when armbar is defended by elbow withdrawal
 
-- [[Americana]] - Alternative attack targeting bent-arm defense of the armbar
+- [[Transitions/Americana]] - Alternative attack targeting bent-arm defense of the armbar
 
-- [[Armbar Finish]] - Completion transition from Armbar Control to game-over
+- [[Transitions/Armbar Finish]] - Completion transition from Armbar Control to game-over
 
-- [[Consolidate Mount]] - Mount maintenance transition used before committing to armbar attack
+- [[Transitions/Consolidate Mount]] - Mount maintenance transition used before committing to armbar attack
 
-- [[Kimura]] - Alternative submission creating attacking dilemma with armbar
+- [[Transitions/Kimura]] - Alternative submission creating attacking dilemma with armbar
 
-- [[Gift Wrap to Technical Mount]] - Alternative control path when opponent defends arm isolation
+- [[Transitions/Gift Wrap to Technical Mount]] - Alternative control path when opponent defends arm isolation
 
-- [[Armbar Defense]] - Counter-technique understanding enhances attack execution
+- [[Transitions/Armbar Defense]] - Counter-technique understanding enhances attack execution
 
-- [[Triangle Setup]] - Follow-up option when opponent defends armbar by stacking
+- [[Transitions/Triangle Setup]] - Follow-up option when opponent defends armbar by stacking
 
-- [[Hitchhiker Escape]] - Primary escape the attacker must anticipate and prevent
+- [[Transitions/Hitchhiker Escape]] - Primary escape the attacker must anticipate and prevent
 
-- [[High Mount Transition]] - Positional advancement that improves armbar entry angle
+- [[Transitions/High Mount Transition]] - Positional advancement that improves armbar entry angle
 
-- [[S-Mount Transition]] - Advanced mount variation optimizing armbar setup leverage
+- [[Transitions/S-Mount Transition]] - Advanced mount variation optimizing armbar setup leverage
 
-- [[Back Take from Top]] - Alternative transition when opponent turns to defend armbar
+- [[Transitions/Back Take from Top]] - Alternative transition when opponent turns to defend armbar
 
 
 </section>

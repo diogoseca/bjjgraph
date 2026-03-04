@@ -154,7 +154,7 @@ description: "Defend the Knee Pin from X-Guard as the bottom player. Recognition
 
 As the defender against the Knee Pin from X-Guard, you are the bottom player in X-Guard whose inside hooking knee is being driven to the mat by the top player. Your primary objective is to prevent the collapse of your X-Guard structure by maintaining hook depth, disrupting the pinner's balance, or transitioning to alternative guard positions before the pin is consolidated. Early recognition is critical because once the knee is fully pinned to the mat, recovery becomes exponentially more difficult. The defender has three strategic layers of defense: preventing the pin from being initiated through proactive hook maintenance and grip fighting, countering the pin mid-execution through sweeps and transitions, and recovering guard structure if the pin partially succeeds by flowing to Single Leg X, Butterfly Guard, or other open guard variations.
 
-**Opponent's Starting Position**: [[X-Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/X-Guard]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ As the defender against the Knee Pin from X-Guard, you are the bottom player in 
 ### 1. Re-pummel the inside hook by driving your knee back behind the opponent's knee before the pin is consolidated
 
 - **When to use**: Immediately upon feeling downward pressure on your inside hook knee, before the opponent has committed bodyweight
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: The X-Guard structure is restored with the inside hook at full depth, nullifying the pass attempt and maintaining your sweeping platform
 - **Risk**: If the opponent blocks the re-pummel with elbow pressure, your hook may be trapped in a worse position than before the attempt
 
 ### 2. Execute a hip bump sweep by explosively elevating your hips when the opponent commits weight forward into the pin
 
 - **When to use**: When the opponent overcommits their center of gravity past the midline during the pinning action, creating forward imbalance
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The top player is swept forward and you end up in a dominant top position, typically half guard top or scramble to a dominant position
 - **Risk**: If the sweep fails, you have expended energy and the opponent may use the failed sweep attempt to accelerate their pin and pass
 
 ### 3. Transition to Single Leg X-Guard by withdrawing the compromised inside hook and reconfiguring your leg positioning
 
 - **When to use**: When the inside hook has been partially collapsed and full recovery is unlikely, but your outside leg frame is still intact
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: You establish a different guard position with fresh sweeping and leg entanglement opportunities from a modified configuration
 - **Risk**: The transition creates a brief window where neither X-Guard nor Single Leg X is fully established, during which the opponent can advance their pass
 
 ### 4. Pull opponent forward using upper body grips while extending legs to off-balance them during the pin commitment
 
 - **When to use**: When you have strong collar or sleeve grips and the opponent is in the process of lowering their center of gravity for the pin
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The opponent is pulled forward past their base and swept, or the disruption forces them to abandon the pin to recover their balance
 - **Risk**: If your grips are stripped or the opponent is well-anchored, you waste energy and the opponent continues the pin with less resistance
 
@@ -224,11 +224,11 @@ As the defender against the Knee Pin from X-Guard, you are the bottom player in 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a hip bump or upper body pull sweep when the top player overcommits weight forward into the pin. Use the moment of their forward commitment to redirect their weight past your centerline, sweeping them into half guard bottom where you achieve the dominant top position.
 
-### → [[X-Guard]]
+### → [[Positions/X-Guard]]
 
 Prevent the pin from completing by maintaining active hook depth through constant knee drive, controlling the opponent's near-side hand through grip fighting, and threatening sweeps that force them to defend rather than commit to the pin. Successful defense retains your X-Guard sweeping platform.
 

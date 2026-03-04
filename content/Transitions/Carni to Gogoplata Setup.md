@@ -21,7 +21,7 @@ The transition demands exceptional hip flexibility and precise timing. The attac
 
 Strategically, this transition adds an unexpected dimension to Carni attacks that opponents rarely anticipate. Most defenders focus exclusively on protecting their heel and preventing saddle or back transitions, creating a blind spot for upper body attacks. When the Carni to Gogoplata Setup is part of your arsenal, opponents must defend not only the leg lock chain but also the possibility of upper body submissions, dramatically expanding the dilemma created by the Carni position and making the entire Carni system significantly more dangerous.
 
-**From Position**: [[Carni]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Carni]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition adds an unexpected dimension to Carni attacks tha
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Gogoplata Control]] | 40% |
-| Failure | [[Carni]] | 40% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Gogoplata Control]] | 40% |
+| Failure | [[Positions/Rubber Guard/Carni]] | 40% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Carni to Gogoplata Setup connects two traditionally separate submission syst
 ## Related Techniques
 
 
-- [[Carni]] - Source position - leg entanglement from which this transition begins
+- [[Positions/Rubber Guard/Carni]] - Source position - leg entanglement from which this transition begins
 
-- [[Gogoplata Control]] - Target position - shin-across-throat control established on successful transition
+- [[Positions/Gogoplata Control]] - Target position - shin-across-throat control established on successful transition
 
-- [[Open Guard]] - Counter outcome position - where attacker ends up if opponent escapes during transition
+- [[Positions/Open Guard]] - Counter outcome position - where attacker ends up if opponent escapes during transition
 
-- [[Rubber Guard]] - Related system - traditional pathway to gogoplata that shares flexibility requirements
+- [[Positions/Rubber Guard]] - Related system - traditional pathway to gogoplata that shares flexibility requirements
 
-- [[Mission Control]] - Related control - rubber guard variation that parallels gogoplata setup mechanics
+- [[Positions/Rubber Guard/Mission Control]] - Related control - rubber guard variation that parallels gogoplata setup mechanics
 
-- [[Gogoplata Finish]] - Follow-up submission - finishing technique executed from gogoplata control position
+- [[Submissions/Gogoplata Finish]] - Follow-up submission - finishing technique executed from gogoplata control position
 
-- [[Saddle]] - Alternative advancement - primary transition target from Carni when gogoplata is unavailable
+- [[Positions/Ashi Garami/Saddle]] - Alternative advancement - primary transition target from Carni when gogoplata is unavailable
 
-- [[Ashi Garami]] - Parent system - foundational leg entanglement from which Carni and its transitions derive
+- [[Positions/Ashi Garami]] - Parent system - foundational leg entanglement from which Carni and its transitions derive
 
-- [[Back Control]] - Alternative path - common transition from Carni when opponent rolls to escape leg attacks
+- [[Positions/Back Control]] - Alternative path - common transition from Carni when opponent rolls to escape leg attacks
 
-- [[Closed Guard]] - Foundational guard - base position connecting rubber guard entries and leg lock entry systems
+- [[Positions/Closed Guard]] - Foundational guard - base position connecting rubber guard entries and leg lock entry systems
 
 
 </section>

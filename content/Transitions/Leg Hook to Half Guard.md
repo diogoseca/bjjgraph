@@ -21,7 +21,7 @@ Strategically, this consolidation prioritizes positional security over immediate
 
 The transition requires precise timing and weight management. The critical moment occurs during the leg repositioning phase, where the top player must shift from hook-based control to standard half guard entanglement without creating space for the bottom player to recover guard or initiate sweeps. Maintaining continuous upper body pressure throughout this transition is non-negotiable—any gap in chest-to-chest contact gives the bottom player the frame space needed to disrupt the consolidation.
 
-**From Position**: [[Leg Hook]] (Top)
+**From Position**: [[Positions/Leg Hook]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The transition requires precise timing and weight management. The critical momen
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Leg Hook]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Leg Hook]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Leg Hook to Half Guard transition occupies an essential role in the half gua
 ## Related Techniques
 
 
-- [[Leg Hook]] - Source position from which this consolidation transition initiates
+- [[Positions/Leg Hook]] - Source position from which this consolidation transition initiates
 
-- [[Half Guard]] - Target position providing stable base for renewed passing sequences
+- [[Positions/Half Guard]] - Target position providing stable base for renewed passing sequences
 
-- [[Deep Half Guard]] - Bottom player's primary counter-transition target during the consolidation phase
+- [[Positions/Half Guard/Deep Half Guard]] - Bottom player's primary counter-transition target during the consolidation phase
 
-- [[Knee Shield Half Guard]] - Defensive structure bottom player may establish if consolidation creates space
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive structure bottom player may establish if consolidation creates space
 
-- [[Side Control]] - Ultimate passing target accessible from the consolidated half guard top position
+- [[Positions/Side Control]] - Ultimate passing target accessible from the consolidated half guard top position
 
-- [[Counter Leg Hook]] - Bottom player's technique for disrupting leg hook control that may trigger this consolidation
+- [[Transitions/Counter Leg Hook]] - Bottom player's technique for disrupting leg hook control that may trigger this consolidation
 
-- [[Escape Leg Hook]] - Bottom player's escape pathway that creates urgency for consolidation decision
+- [[Transitions/Escape Leg Hook]] - Bottom player's escape pathway that creates urgency for consolidation decision
 
-- [[Headquarters Position]] - Alternative consolidation target offering different passing angles
+- [[Positions/Headquarters Position]] - Alternative consolidation target offering different passing angles
 
-- [[Lockdown]] - Bottom player's defensive entanglement that may develop during failed consolidation
+- [[Positions/Half Guard/Lockdown]] - Bottom player's defensive entanglement that may develop during failed consolidation
 
-- [[Dogfight Position]] - Scramble position arising when consolidation is contested with underhook battle
+- [[Positions/Dogfight Position]] - Scramble position arising when consolidation is contested with underhook battle
 
 
 </section>

@@ -154,7 +154,7 @@ description: "Defend against the Old School Pass in BJJ. Recognition cues, defen
 
 Defending the Old School Pass requires maintaining the integrity of your three-point control system: lockdown on the trapped leg, deep underhook for sweeping leverage, and head control to break the passer's posture. The defender must recognize the top player's passing sequence early and respond with appropriate counter-measures including lockdown pumping, underhook deepening, and sweep timing adjustments. When the pass begins to succeed, the defender must have contingency plans for guard recovery through deep half entry, knee shield insertion, or explosive sweep attempts that exploit the passer's commitment to leg extraction. The best defense against the Old School Pass is a strong offense - maintaining constant sweep threats forces the passer to prioritize base over passing progression.
 
-**Opponent's Starting Position**: [[Old School]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Old School]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Old School Pass requires maintaining the integrity of your three-p
 ### 1. Pump lockdown and execute Old School Sweep during extraction attempt
 
 - **When to use**: When you feel the opponent commit weight forward and begin angular hip displacement for leg extraction, creating the forward weight shift needed for the sweep
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent is swept from Old School top to half guard bottom, reversing the positional advantage completely
 - **Risk**: If the sweep fails, opponent may use your pumping momentum to complete the extraction and pass more quickly
 
 ### 2. Deepen underhook and increase head control pressure to prevent flattening
 
 - **When to use**: Early in the passing sequence when opponent first establishes whizzer and begins crossface pressure, before they can flatten your angle
-- **Targets**: [[Old School]]
+- **Targets**: [[Positions/Half Guard/Old School]]
 - **If successful**: Opponent's passing attempt stalls as they cannot achieve the flat angle needed for systematic lockdown extraction
 - **Risk**: Overcommitting to the underhook can expose you to whizzer-based attacks if the opponent redirects
 
 ### 3. Transition to deep half guard by diving underneath opponent's hips
 
 - **When to use**: When crossface pressure successfully flattens your angle and continuing to fight for Old School position is becoming a losing battle
-- **Targets**: [[Old School]]
+- **Targets**: [[Positions/Half Guard/Old School]]
 - **If successful**: You escape the Old School Pass entirely by entering deep half guard, which offers fresh sweep opportunities from a completely different angle
 - **Risk**: Mistiming the deep half entry can leave you in a compromised position between Old School and deep half where neither defensive system is fully engaged
 
 ### 4. Release lockdown strategically and insert knee shield before pass completion
 
 - **When to use**: When the lockdown is being systematically broken and maintaining it provides diminishing returns against the angular extraction
-- **Targets**: [[Old School]]
+- **Targets**: [[Positions/Half Guard/Old School]]
 - **If successful**: You transition to knee shield half guard which provides effective distance management and new offensive options through a different defensive framework
 - **Risk**: The moment of lockdown release creates a brief window where the opponent can drive through to complete the pass before the knee shield solidifies
 
@@ -225,11 +225,11 @@ Defending the Old School Pass requires maintaining the integrity of your three-p
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time the Old School Sweep during the opponent's extraction attempt. When they commit weight forward and begin pulling their leg free, their base is compromised. Pump the lockdown explosively, pull with the underhook and head control, and rotate them over you using their forward momentum against them. The extraction attempt creates the exact weight distribution vulnerability that the Old School Sweep exploits.
 
-### → [[Old School]]
+### → [[Positions/Half Guard/Old School]]
 
 Maintain all three control points by actively pumping the lockdown against extraction pressure, keeping the underhook deep with elbow tight to ribs, and pulling head control tight to break the passer's postural alignment. Constantly threaten sweeps to force them into defensive base reactions that prevent them from building the systematic pressure needed for extraction. Stay on your side and never allow yourself to be flattened.
 

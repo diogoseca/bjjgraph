@@ -21,7 +21,7 @@ Strategically, this transition is most valuable when the top player bases wide t
 
 The biomechanical foundation of this entry relies on using your existing underhook as a steering mechanism while your hips drop and rotate to slide beneath the opponent's hips. Your trapped leg becomes an asset rather than a liability, as it provides the initial connection point that you convert into deep half control. Mastery of this transition significantly expands your half guard escape options, making you unpredictable and difficult to pin.
 
-**From Position**: [[Jailbreak]] (Bottom)
+**From Position**: [[Positions/Jailbreak]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The biomechanical foundation of this entry relies on using your existing underho
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Deep Half Guard]] | 55% |
-| Failure | [[Half Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard/Deep Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Jailbreak to Deep Half Entry serves as a critical branch point in the half g
 ## Related Techniques
 
 
-- [[Jailbreak]] - Starting position - this transition originates from jailbreak bottom
+- [[Positions/Jailbreak]] - Starting position - this transition originates from jailbreak bottom
 
-- [[Deep Half Guard]] - Target position - successful entry establishes this powerful guard
+- [[Positions/Half Guard/Deep Half Guard]] - Target position - successful entry establishes this powerful guard
 
-- [[Half Guard]] - Parent position - jailbreak and deep half are both half guard variations
+- [[Positions/Half Guard]] - Parent position - jailbreak and deep half are both half guard variations
 
-- [[Jailbreak to Turtle]] - Alternative transition - standard jailbreak escape when opponent drives forward
+- [[Transitions/Jailbreak to Turtle]] - Alternative transition - standard jailbreak escape when opponent drives forward
 
-- [[Jailbreak to Back Take]] - Alternative transition - available when opponent follows your roll
+- [[Transitions/Jailbreak to Back Take]] - Alternative transition - available when opponent follows your roll
 
-- [[Lockdown]] - Preceding control - often used before creating jailbreak scenarios
+- [[Positions/Half Guard/Lockdown]] - Preceding control - often used before creating jailbreak scenarios
 
-- [[Old School Sweep]] - Related technique - similar underhook mechanics from half guard
+- [[Transitions/Old School Sweep]] - Related technique - similar underhook mechanics from half guard
 
-- [[Electric Chair]] - Follow-up position - can chain from deep half entry with lockdown retention
+- [[Positions/Half Guard/Electric Chair]] - Follow-up position - can chain from deep half entry with lockdown retention
 
-- [[Back Take from Bottom]] - Follow-up option - kiss of the dragon available from deep half
+- [[Transitions/Back Take from Bottom]] - Follow-up option - kiss of the dragon available from deep half
 
-- [[Kiss of the Dragon]] - Advanced chain - inversion back take accessible after deep half entry
+- [[Transitions/Kiss of the Dragon]] - Advanced chain - inversion back take accessible after deep half entry
 
 
 </section>

@@ -21,7 +21,7 @@ Strategically, this transition represents the bridge between passive half guard 
 
 The transition demands precise timing and sequencing rather than explosive athleticism. The lockdown must be secured first to anchor the position and limit the top player's base, then the underhook fight must be won before the top player can establish a whizzer or crossface, and finally head control cements the positional advantage. Practitioners who master this entry sequence convert half guard bottom from a survival position into a launching pad for sweeps and submissions that force the top player into constant defensive reactions.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The transition demands precise timing and sequencing rather than explosive athle
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Old School]] | 55% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Flattened Half Guard]] | 20% |
+| Success | [[Positions/Half Guard/Old School]] | 55% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 20% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Transition to Old School sits at the heart of the lockdown half guard system
 ## Related Techniques
 
 
-- [[Old School]] - Target position achieved upon successful completion of this transition
+- [[Positions/Half Guard/Old School]] - Target position achieved upon successful completion of this transition
 
-- [[Half Guard]] - Starting position from which this transition is initiated
+- [[Positions/Half Guard]] - Starting position from which this transition is initiated
 
-- [[Lockdown]] - Prerequisite control that must be established as the first step of entry
+- [[Positions/Half Guard/Lockdown]] - Prerequisite control that must be established as the first step of entry
 
-- [[Old School Sweep]] - Primary follow-up attack available immediately after establishing Old School position
+- [[Transitions/Old School Sweep]] - Primary follow-up attack available immediately after establishing Old School position
 
-- [[Electric Chair Transition]] - Alternative attack chain accessible from Old School when sweep is defended
+- [[Transitions/Electric Chair Transition]] - Alternative attack chain accessible from Old School when sweep is defended
 
-- [[Deep Half Entry]] - Alternative transition when Old School entry is denied by heavy crossface pressure
+- [[Transitions/Deep Half Entry]] - Alternative transition when Old School entry is denied by heavy crossface pressure
 
-- [[Dogfight Position]] - Scramble position that can arise during contested underhook battles in this transition
+- [[Positions/Dogfight Position]] - Scramble position that can arise during contested underhook battles in this transition
 
-- [[Knee Shield Half Guard]] - Fallback position if lockdown establishment fails and distance management is needed
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Fallback position if lockdown establishment fails and distance management is needed
 
-- [[Half Guard to Back Take]] - Alternative offensive pathway from the underhook control established during this transition
+- [[Transitions/Half Guard to Back Take]] - Alternative offensive pathway from the underhook control established during this transition
 
-- [[Lockdown Recovery]] - Re-entry pathway to restart this transition after lockdown is partially broken
+- [[Transitions/Lockdown Recovery]] - Re-entry pathway to restart this transition after lockdown is partially broken
 
-- [[Flattened Half Guard]] - Compromised position resulting from failed transition when top player establishes crossface
+- [[Positions/Half Guard/Flattened Half Guard]] - Compromised position resulting from failed transition when top player establishes crossface
 
 
 </section>

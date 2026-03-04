@@ -95,33 +95,33 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 ### Available Transitions
 
 
-- **[[Triangle Setup]]** (30% of attempts)
+- **[[Transitions/Triangle Setup]]** (30% of attempts)
 
-- **[[Omoplata Sweep]]** (9% of attempts)
+- **[[Transitions/Omoplata Sweep]]** (9% of attempts)
 
-- **[[Balloon Sweep]]** (9% of attempts)
+- **[[Transitions/Balloon Sweep]]** (9% of attempts)
 
-- **[[Scissor Sweep]]** (8% of attempts)
+- **[[Transitions/Scissor Sweep]]** (8% of attempts)
 
-- **[[De La Riva Sweep]]** (8% of attempts)
+- **[[Transitions/De La Riva Sweep]]** (8% of attempts)
 
-- **[[Spider Guard to Omoplata]]** (9% of attempts)
+- **[[Transitions/Spider Guard to Omoplata]]** (9% of attempts)
 
-- **[[Pendulum Sweep]]** (7% of attempts)
+- **[[Transitions/Pendulum Sweep]]** (7% of attempts)
 
-- **[[Armbar Finish]]** (6% of attempts)
+- **[[Transitions/Armbar Finish]]** (6% of attempts)
 
-- **[[Guard Recovery from Spider Guard]]** (6% of attempts)
+- **[[Transitions/Guard Recovery from Spider Guard]]** (6% of attempts)
 
-- **[[Spider Sweep]]** (2% of attempts)
+- **[[Transitions/Spider Sweep]]** (2% of attempts)
 
-- **[[Spider to Lasso Guard]]** (1% of attempts)
+- **[[Transitions/Spider to Lasso Guard]]** (1% of attempts)
 
-- **[[Triangle from Spider Guard]]** (1% of attempts)
+- **[[Transitions/Triangle from Spider Guard]]** (1% of attempts)
 
-- **[[Omoplata from Spider Guard]]** (2% of attempts)
+- **[[Submissions/Omoplata from Spider Guard]]** (2% of attempts)
 
-- **[[Triangle from Spider Guard Bottom]]** (2% of attempts)
+- **[[Submissions/Triangle from Spider Guard Bottom]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -182,23 +182,23 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 ### Available Transitions
 
 
-- **[[Toreando Pass]]** (22% of attempts)
+- **[[Transitions/Toreando Pass]]** (22% of attempts)
 
-- **[[Leg Drag Pass]]** (13% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (13% of attempts)
 
-- **[[Knee Slice Pass]]** (13% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (13% of attempts)
 
-- **[[Long Step Pass]]** (12% of attempts)
+- **[[Transitions/Long Step Pass]]** (12% of attempts)
 
-- **[[Double Under Pass]]** (11% of attempts)
+- **[[Transitions/Double Under Pass]]** (11% of attempts)
 
-- **[[Leg Weave Pass]]** (11% of attempts)
+- **[[Transitions/Leg Weave Pass]]** (11% of attempts)
 
-- **[[Grip Break]]** (10% of attempts)
+- **[[Transitions/Grip Break]]** (10% of attempts)
 
-- **[[Spider Guard Pass]]** (5% of attempts)
+- **[[Transitions/Spider Guard Pass]]** (5% of attempts)
 
-- **[[Stack Pass from Spider]]** (3% of attempts)
+- **[[Transitions/Stack Pass from Spider]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -241,23 +241,23 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 ## Related Positions
 
 
-- **[[Lasso Guard]]** - Common variation where one leg threads under opponent's arm creating lasso control
+- **[[Positions/Lasso Guard]]** - Common variation where one leg threads under opponent's arm creating lasso control
 
-- **[[Open Guard]]** - Parent category position that spider guard falls under
+- **[[Positions/Open Guard]]** - Parent category position that spider guard falls under
 
-- **[[Collar Sleeve Guard]]** - Related guard position using similar grip concepts with different foot placement
+- **[[Positions/Collar Sleeve Guard]]** - Related guard position using similar grip concepts with different foot placement
 
-- **[[De La Riva Guard]]** - Complementary open guard that combines well with spider guard transitions
+- **[[Positions/De La Riva Guard]]** - Complementary open guard that combines well with spider guard transitions
 
-- **[[Double Sleeve Guard]]** - Grip configuration used in establishing spider guard control
+- **[[Positions/Double Sleeve Guard]]** - Grip configuration used in establishing spider guard control
 
-- **[[Butterfly Guard]]** - Alternative open guard that can be transitioned to from spider guard
+- **[[Positions/Butterfly Guard]]** - Alternative open guard that can be transitioned to from spider guard
 
-- **[[X-Guard]]** - Transition target when opponent stands and spider guard sweeps create elevation
+- **[[Positions/X-Guard]]** - Transition target when opponent stands and spider guard sweeps create elevation
 
-- **[[Triangle Control]]** - Primary submission transition target from spider guard
+- **[[Positions/Triangle Control]]** - Primary submission transition target from spider guard
 
-- **[[Omoplata Control]]** - High-percentage submission transition when opponent drives forward
+- **[[Positions/Omoplata Control]]** - High-percentage submission transition when opponent drives forward
 
 
 </section>

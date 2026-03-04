@@ -174,7 +174,7 @@ description: "How to execute Tani Otoshi in BJJ. Attacking perspective with setu
 
 Executing Tani Otoshi requires committing fully to a sacrifice motion that exchanges your standing base for a powerful mechanical lever. The attacker must create a lateral angle through footwork, establish strong upper body control, then explosively drop their hips while blocking the opponent's leg at or below the knee. The technique rewards precise timing over raw athleticism - the optimal window opens when the opponent steps forward, shifts weight, or is momentarily distracted by grip exchanges. Success depends on the attacker's ability to maintain pulling pressure through the entire arc of the throw and immediately convert the landing into dominant top position. The psychological element is significant: because you willingly sacrifice your base, opponents who are prepared for traditional forward throws or shot-based takedowns are often caught off guard by the lateral dropping motion.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ Executing Tani Otoshi requires committing fully to a sacrifice motion that excha
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Standing Position]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -238,11 +238,11 @@ Executing Tani Otoshi requires committing fully to a sacrifice motion that excha
 
 ## Opponent Counters
 
-- **Opponent sprawls their hips back and widens their base before you can complete the drop** (Effectiveness: High) - Your Response: Abandon the technique immediately and transition to a different attack such as single leg or ankle pick. If you have already dropped, convert to seated guard and work from butterfly guard rather than remaining in a compromised position on the mat. → Leads to [[Standing Position]]
-- **Opponent steps over your blocking leg with a wide step, maintaining balance and posture** (Effectiveness: Medium) - Your Response: Immediately transition to a single leg attack on the leg that stepped over, or convert to butterfly guard hooks. The key is not to remain static in the failed throwing position - transition instantly to maintain offensive initiative. → Leads to [[Standing Position]]
-- **Opponent posts their free hand on the mat to prevent rotation and arrest the fall** (Effectiveness: Medium) - Your Response: Increase the rotational pull with your upper body grips, focusing on collapsing their posting arm. Alternatively, target the posted arm for a kimura grip as they defend the throw, or circle to take their back as they base on the mat. → Leads to [[Standing Position]]
-- **Opponent recognizes the setup early and circles away from your angle, denying the lateral step** (Effectiveness: High) - Your Response: Follow their circular movement and chain into a different throwing attack that works with their direction of movement, such as Kosoto Gari or Tai Otoshi on the opposite side. Never force Tani Otoshi against opponent's movement direction. → Leads to [[Standing Position]]
-- **Opponent drops their level and shoots a takedown as you begin your lateral step** (Effectiveness: Medium) - Your Response: Sprawl and disengage, or use the dropping motion to stuff their shot by driving your hips down onto their upper back. If their shot is deep, convert to a guillotine attempt as your body is already lowering toward the mat. → Leads to [[Standing Position]]
+- **Opponent sprawls their hips back and widens their base before you can complete the drop** (Effectiveness: High) - Your Response: Abandon the technique immediately and transition to a different attack such as single leg or ankle pick. If you have already dropped, convert to seated guard and work from butterfly guard rather than remaining in a compromised position on the mat. → Leads to [[Positions/Standing Position]]
+- **Opponent steps over your blocking leg with a wide step, maintaining balance and posture** (Effectiveness: Medium) - Your Response: Immediately transition to a single leg attack on the leg that stepped over, or convert to butterfly guard hooks. The key is not to remain static in the failed throwing position - transition instantly to maintain offensive initiative. → Leads to [[Positions/Standing Position]]
+- **Opponent posts their free hand on the mat to prevent rotation and arrest the fall** (Effectiveness: Medium) - Your Response: Increase the rotational pull with your upper body grips, focusing on collapsing their posting arm. Alternatively, target the posted arm for a kimura grip as they defend the throw, or circle to take their back as they base on the mat. → Leads to [[Positions/Standing Position]]
+- **Opponent recognizes the setup early and circles away from your angle, denying the lateral step** (Effectiveness: High) - Your Response: Follow their circular movement and chain into a different throwing attack that works with their direction of movement, such as Kosoto Gari or Tai Otoshi on the opposite side. Never force Tani Otoshi against opponent's movement direction. → Leads to [[Positions/Standing Position]]
+- **Opponent drops their level and shoots a takedown as you begin your lateral step** (Effectiveness: Medium) - Your Response: Sprawl and disengage, or use the dropping motion to stuff their shot by driving your hips down onto their upper back. If their shot is deep, convert to a guillotine attempt as your body is already lowering toward the mat. → Leads to [[Positions/Standing Position]]
 
 
 </section>

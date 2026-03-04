@@ -21,7 +21,7 @@ This technique is most effective when the bottom player overcommits to their inv
 
 The stack from inverted lasso occupies a specific tactical niche in the guard passing hierarchy. While cartwheel passes and arm extraction rely on lateral movement and grip fighting respectively, the stack uses direct vertical pressure to defeat the position. This makes it particularly effective against flexible opponents who maintain inverted positions through other passing attempts, as the compression targets their structural integrity rather than attempting to outmaneuver their mobility. The technique carries meaningful counter risk, however, as poorly timed or poorly angled stacking pressure can feed directly into the bottom player's overhead sweep mechanics, making precise angle selection and base management essential throughout execution.
 
-**From Position**: [[Inverted Lasso Guard]] (Top)
+**From Position**: [[Positions/Lasso Guard/Inverted Lasso Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ The stack from inverted lasso occupies a specific tactical niche in the guard pa
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Side Control]] | 20% |
-| Failure | [[Inverted Lasso Guard]] | 25% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Side Control]] | 20% |
+| Failure | [[Positions/Lasso Guard/Inverted Lasso Guard]] | 25% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -198,25 +198,25 @@ The stack from inverted lasso guard integrates into the broader guard passing sy
 ## Related Techniques
 
 
-- [[Inverted Lasso Guard]] - Starting position where this technique is initiated from top
+- [[Positions/Lasso Guard/Inverted Lasso Guard]] - Starting position where this technique is initiated from top
 
-- [[Lasso Guard]] - Parent guard system — understanding standard lasso mechanics aids stack application
+- [[Positions/Lasso Guard]] - Parent guard system — understanding standard lasso mechanics aids stack application
 
-- [[Half Guard]] - Primary success destination when pass completes with partial leg entanglement
+- [[Positions/Half Guard]] - Primary success destination when pass completes with partial leg entanglement
 
-- [[Side Control]] - Clean pass destination when full guard clearance is achieved
+- [[Positions/Side Control]] - Clean pass destination when full guard clearance is achieved
 
-- [[Lasso Guard Stack Pass]] - Related stacking technique from standard lasso guard with similar compression mechanics
+- [[Transitions/Lasso Guard Stack Pass]] - Related stacking technique from standard lasso guard with similar compression mechanics
 
-- [[Pass Inverted Lasso Guard]] - Alternative passing approach from the same starting position
+- [[Transitions/Pass Inverted Lasso Guard]] - Alternative passing approach from the same starting position
 
-- [[Inverted Lasso Sweep]] - Primary sweep threat that the stack pass aims to neutralize
+- [[Transitions/Inverted Lasso Sweep]] - Primary sweep threat that the stack pass aims to neutralize
 
-- [[Berimbolo Entry]] - Major offensive threat from inverted lasso that stack pressure can prevent
+- [[Transitions/Berimbolo Entry]] - Major offensive threat from inverted lasso that stack pressure can prevent
 
-- [[Stack Pass from Spider]] - Similar stacking mechanics applied from a different open guard system
+- [[Transitions/Stack Pass from Spider]] - Similar stacking mechanics applied from a different open guard system
 
-- [[Spider Guard]] - Related guard system with similar passing principles and stack applications
+- [[Positions/Spider Guard]] - Related guard system with similar passing principles and stack applications
 
 
 </section>

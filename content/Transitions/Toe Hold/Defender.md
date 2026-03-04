@@ -156,7 +156,7 @@ Defending the Toe Hold from Backside 50-50 bottom presents a unique challenge be
 
 The defender's strategic priority from backside 50-50 bottom facing a toe hold is to force the attacker into a positional choice: maintain the toe hold grip or maintain chest-to-back pressure. Defensive hip movement, grip fighting, and inversion attempts all serve this goal by making the attacker choose between controlling the position and finishing the submission. When the attacker cannot do both simultaneously, the defender creates escape windows. The ideal defensive outcome is reaching standard 50-50 guard where the asymmetric pressure advantage disappears, or reversing the entanglement entirely to gain top position.
 
-**Opponent's Starting Position**: [[Backside 50-50]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ The defender's strategic priority from backside 50-50 bottom facing a toe hold i
 ### 1. Aggressive two-on-one grip fighting to strip the kimura figure-four before consolidation, attacking the wrist-to-wrist connection with both hands while it is still being assembled
 
 - **When to use**: Immediately when you recognize the attacker transitioning from heel hook grip to toe hold grip - the 1-2 second window during the hand change is when the grip is weakest
-- **Targets**: [[Backside 50-50]]
+- **Targets**: [[Positions/Ashi Garami/Backside 50-50]]
 - **If successful**: Attacker's grip is broken and they must re-establish either the toe hold or return to heel hook hunting, buying you time and potentially allowing you to improve position to top
 - **Risk**: If grip stripping fails and you have committed both hands below your waist, you temporarily abandon frames against the attacker's chest pressure, potentially allowing them to advance toward back control
 
 ### 2. Invert and roll through in the direction of the toe hold rotation, using your entire body to rotate with the submission force rather than against it, attempting to enter standard 50-50 or reverse the entanglement
 
 - **When to use**: When the kimura grip is consolidated and you cannot strip it through grip fighting - the inversion must begin before rotational pressure reaches dangerous levels on the ankle
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You reach standard 50-50 guard where the chest-to-back pressure advantage disappears, or you reverse the entanglement entirely and gain a more neutral position
 - **Risk**: The inversion requires momentary commitment that may expose your back further if the attacker follows correctly, and the rolling motion can compound toe hold pressure if your timing is wrong
 
 ### 3. Boot the foot by dorsiflexing hard (pulling toes toward your shin) to stiffen the ankle joint and limit rotational range, while simultaneously bridging into the attacker to disrupt their chest pressure base
 
 - **When to use**: When the grip is locked and inversion is not possible due to the attacker's weight distribution - this is a survival defense to buy time rather than a complete escape
-- **Targets**: [[Backside 50-50]]
+- **Targets**: [[Positions/Ashi Garami/Backside 50-50]]
 - **If successful**: The stiffened ankle reduces the submission's effectiveness while the bridge disrupts the attacker's pressure, potentially creating space for secondary defensive actions or forcing them to reset
 - **Risk**: Dorsiflexion alone does not escape the submission - it only delays it. If the attacker maintains position and continues applying progressive pressure, the ankle will eventually yield despite the muscular resistance
 
 ### 4. Extract the trapped foot by straightening your leg explosively while simultaneously pushing the attacker's hips away with your free leg, attempting to pull your foot clear of the kimura grip entirely
 
 - **When to use**: When the attacker has not yet consolidated their grip tightly or when their leg entanglement has loosened during the grip transition - this requires the foot to have some freedom of movement within the grip
-- **Targets**: [[Backside 50-50]]
+- **Targets**: [[Positions/Ashi Garami/Backside 50-50]]
 - **If successful**: Complete foot extraction breaks the submission entirely and leaves you in a position to recover guard or scramble to a neutral position with leg entanglement partially dissolved
 - **Risk**: A straightened leg actually increases the toe hold's leverage if the attacker maintains the grip. If extraction fails, you have given them a longer moment arm and potentially worsened your defensive position
 
@@ -226,11 +226,11 @@ The defender's strategic priority from backside 50-50 bottom facing a toe hold i
 
 ## Best-Case Outcomes for Defender
 
-### → [[Backside 50-50]]
+### → [[Positions/Ashi Garami/Backside 50-50]]
 
 Strip the kimura grip during the transition window before it consolidates, then use the disruption to re-establish defensive frames and work toward reversing top-bottom position through hip elevation and underhooking
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Invert and roll through the toe hold direction when rotational pressure begins, timing the roll to dissolve the backside angle and arrive in standard 50-50 where the chest-to-back pressure advantage no longer exists
 

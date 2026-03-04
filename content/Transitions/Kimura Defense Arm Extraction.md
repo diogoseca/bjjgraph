@@ -21,7 +21,7 @@ The extraction requires understanding the mechanical weaknesses of the figure-fo
 
 Timing is paramount in this technique. The extraction must be initiated before the bottom player can consolidate secondary controls such as lockdown legs or underhook positioning that compound the Kimura threat. Practitioners who recognize the Kimura grip establishment early and immediately begin the extraction process have significantly higher success rates than those who allow the grip to settle and strengthen. The technique integrates naturally with half guard passing sequences, as a successful extraction typically returns both players to a standard half guard configuration where the top player can resume their passing campaign.
 
-**From Position**: [[Kimura Trap]] (Bottom)
+**From Position**: [[Positions/Kimura Trap]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Timing is paramount in this technique. The extraction must be initiated before t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Kimura Trap]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Kimura Trap]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -197,25 +197,25 @@ The Kimura Defense Arm Extraction integrates directly with the half guard passin
 ## Related Techniques
 
 
-- [[Kimura Trap]] - Source position where arm is trapped in opponent's figure-four grip from bottom
+- [[Positions/Kimura Trap]] - Source position where arm is trapped in opponent's figure-four grip from bottom
 
-- [[Half Guard]] - Primary target position after successful arm extraction, returning to standard passing situation
+- [[Positions/Half Guard]] - Primary target position after successful arm extraction, returning to standard passing situation
 
-- [[Kimura]] - The submission threat being defended against through arm extraction mechanics
+- [[Transitions/Kimura]] - The submission threat being defended against through arm extraction mechanics
 
-- [[Kimura Counter via Roll]] - Alternative defensive technique against Kimura grip using rolling mechanics
+- [[Transitions/Kimura Counter via Roll]] - Alternative defensive technique against Kimura grip using rolling mechanics
 
-- [[Lockdown]] - Secondary control that compounds Kimura trap difficulty and must be prevented
+- [[Positions/Half Guard/Lockdown]] - Secondary control that compounds Kimura trap difficulty and must be prevented
 
-- [[Old School Sweep]] - Primary sweep the Kimura holder threatens during extraction attempts
+- [[Transitions/Old School Sweep]] - Primary sweep the Kimura holder threatens during extraction attempts
 
-- [[Kimura to Back Take]] - Back take threat the holder may initiate if extraction creates angle
+- [[Transitions/Kimura to Back Take]] - Back take threat the holder may initiate if extraction creates angle
 
-- [[Knee Slice Pass]] - Follow-up passing technique after successful extraction from half guard top
+- [[Transitions/Knee Slice Pass]] - Follow-up passing technique after successful extraction from half guard top
 
-- [[Kimura Sweep]] - Counter-sweep the Kimura holder may execute during extraction attempt
+- [[Transitions/Kimura Sweep]] - Counter-sweep the Kimura holder may execute during extraction attempt
 
-- [[Half Guard to Back Take]] - Related transition available from half guard after arm recovery
+- [[Transitions/Half Guard to Back Take]] - Related transition available from half guard after arm recovery
 
 
 </section>

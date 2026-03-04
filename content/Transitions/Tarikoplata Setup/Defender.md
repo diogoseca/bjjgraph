@@ -158,7 +158,7 @@ The critical defensive window occurs during the attacker's leg transition from s
 
 Successful defense demands choosing a direction of movement rather than remaining static. Since static defense is precisely what triggers the Tarikoplata, the defender must commit to either explosive posture recovery (accepting potential Triangle exposure), backward arm extraction (accepting potential Baratoplata exposure), or forward stacking (accepting Gogoplata risk). Each direction carries its own secondary threat, but all three are preferable to allowing the Tarikoplata to reach full establishment where the compound lock makes escape nearly impossible without risking shoulder injury.
 
-**Opponent's Starting Position**: [[Meathook]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful defense demands choosing a direction of movement rather than remainin
 ### 1. Explosive posture recovery by driving head and shoulders upward while posting free hand on the mat behind you, creating distance before the wrist grip is established
 
 - **When to use**: Early in the sequence when the attacker's hips begin rotating but before their leg has cleared your shoulder—this is the highest-percentage window because the attacker must momentarily loosen shin hook pressure during the hip pivot
-- **Targets**: [[Meathook]]
+- **Targets**: [[Positions/Rubber Guard/Meathook]]
 - **If successful**: You recover posture and remain in Meathook with the attacker's shin hook disrupted, forcing them to re-establish control before attempting another attack. From recovered posture, you can work systematic Meathook escape sequences
 - **Risk**: Upward posture movement exposes your neck to Triangle Setup—the attacker's leg is already positioned near your shoulder and can redirect across your neck. If posture recovery fails midway, you may end up in a worse position with the leg already over your shoulder
 
 ### 2. Explosive arm extraction by rotating your trapped arm internally while pulling elbow tight to your ribs and driving backward with your hips to create separation from the hooking leg
 
 - **When to use**: When you feel the shin hook loosening during the attacker's hip pivot—the transition from horizontal shin hook to over-shoulder position creates a brief moment where the hook is less secure and arm extraction becomes mechanically possible
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You free your trapped arm and the attacker's omoplata leg position collapses without the arm to isolate, returning you to a standard closed guard or open guard position where you can begin guard passing sequences
 - **Risk**: Backward arm extraction is the specific trigger for Baratoplata—if the attacker reads your extraction attempt and has maintained sufficient hook control, they can thread for Baratoplata instead. You may also lose base during the explosive pull and get swept
 
 ### 3. Forward stack pressure by driving your shoulder into the attacker's chest and walking your knees forward to compress their guard and collapse the hip rotation angle needed for the omoplata
 
 - **When to use**: When the attacker has begun the leg transition but has not yet achieved full perpendicular angle—forward stacking disrupts the geometric requirements of the omoplata and compresses the attacker's hips, reducing their ability to generate shoulder rotation pressure
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You compress the attacker's guard structure, preventing the perpendicular angle needed for omoplata submission. From the stacked position, you can work to extract the arm and pass to half guard or side control
 - **Risk**: Forward pressure drives your head toward the attacker's shin, opening Gogoplata—if the attacker abandons the Tarikoplata and repositions their shin across your throat, your own stacking momentum accelerates the choke. Stack only if you can keep your chin tucked and head to the side of their shin
 
 ### 4. Grip the attacker's ankle or pant leg of the hooking leg with your free hand to physically prevent it from transitioning over your shoulder into omoplata configuration
 
 - **When to use**: As a supplementary defense combined with any of the above options—use your free hand to block the leg transition while simultaneously executing posture recovery or arm extraction for a compound defensive response
-- **Targets**: [[Meathook]]
+- **Targets**: [[Positions/Rubber Guard/Meathook]]
 - **If successful**: The attacker's leg cannot clear your shoulder, stalling the Tarikoplata sequence at the transition phase and forcing them to re-attempt or switch to a different Meathook attack
 - **Risk**: Dedicating your free hand to leg control removes it from base and posting functions, potentially compromising your stability against sweeps. If the attacker has already cleared the shoulder, gripping their ankle has minimal effect
 
@@ -228,11 +228,11 @@ Successful defense demands choosing a direction of movement rather than remainin
 
 ## Best-Case Outcomes for Defender
 
-### → [[Meathook]]
+### → [[Positions/Rubber Guard/Meathook]]
 
 Disrupt the Tarikoplata sequence early by explosive posture recovery or blocking the leg transition, forcing the attacker back to basic Meathook control where you can restart your escape sequence. Time your defense to the attacker's hip pivot when their shin hook momentarily loosens during the rotational transition.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Extract your trapped arm during the transition gap when the attacker's shin hook converts from horizontal tricep control to over-shoulder omoplata position. Combine arm extraction with backward hip movement to create distance, collapsing the attacker's guard structure to standard closed guard where you have full defensive options and can begin guard opening sequences.
 

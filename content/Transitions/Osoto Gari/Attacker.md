@@ -174,7 +174,7 @@ description: "How to execute Osoto Gari in BJJ. Attacking perspective with setup
 
 Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successfully integrated into Brazilian Jiu-Jitsu as a high-percentage standing technique. This technique involves reaping your opponent's weight-bearing leg from the outside while simultaneously driving their upper body backward, creating a powerful off-balancing motion that results in a controlled takedown. The beauty of Osoto Gari lies in its simplicity and effectiveness - it requires minimal setup compared to other throws and can be executed from various gripping configurations. In the BJJ context, Osoto Gari is particularly valuable because it allows the practitioner to maintain upper body control throughout the throw, often landing directly in dominant positions such as Side Control or Scarf Hold (Kesa Gatame). The technique capitalizes on fundamental principles of off-balancing and leverage, making it accessible to practitioners of all levels while remaining effective at the highest levels of competition. Unlike many judo throws that require extensive kuzushi (off-balancing) preparation, Osoto Gari can be executed explosively when the opponent is slightly forward-weighted, making it an excellent counter-attacking technique.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -228,9 +228,9 @@ Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successf
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 75% |
-| Failure | [[Standing Position]] | 15% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Side Control]] | 75% |
+| Failure | [[Positions/Standing Position]] | 15% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -239,10 +239,10 @@ Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successf
 
 ## Opponent Counters
 
-- **Opponent steps back with the attacked leg before you can reap, creating distance and neutralizing the throw** (Effectiveness: High) - Your Response: Immediately transition to a different attack on the other leg such as Kouchi Gari or follow their backward movement with forward pressure to set up a second Osoto Gari attempt when they reset their stance → Leads to [[Standing Position]]
-- **Opponent posts their hand on the mat on the side you're throwing to, creating a base that prevents them from being fully thrown** (Effectiveness: Medium) - Your Response: Use your sleeve control to strip the posting arm off the mat or transition to an arm drag position if they commit heavily to the post. Alternatively, follow through to land in a modified position and immediately attack the posted arm with a Kimura or sweep → Leads to [[Standing Position]]
-- **Opponent executes a counter-throw (such as Tani Otoshi) by dropping their weight and rotating under you as you commit to the throw** (Effectiveness: Medium) - Your Response: Maintain strong base with your supporting leg and be prepared to release the throw if you feel them dropping weight. Keep your hips lower than theirs and chest pressure strong to prevent rotation. Advanced practitioners can recognize the counter early and transition to a different attack → Leads to [[Standing Position]]
-- **Opponent turns into you (toward the throw direction) rather than away, nullifying the backward off-balancing motion** (Effectiveness: Low) - Your Response: If they turn toward you, they expose their back. Immediately transition to back-taking grips, securing harness control or body lock position. This counter actually creates an advantageous position for you if recognized quickly → Leads to [[Standing Position]]
+- **Opponent steps back with the attacked leg before you can reap, creating distance and neutralizing the throw** (Effectiveness: High) - Your Response: Immediately transition to a different attack on the other leg such as Kouchi Gari or follow their backward movement with forward pressure to set up a second Osoto Gari attempt when they reset their stance → Leads to [[Positions/Standing Position]]
+- **Opponent posts their hand on the mat on the side you're throwing to, creating a base that prevents them from being fully thrown** (Effectiveness: Medium) - Your Response: Use your sleeve control to strip the posting arm off the mat or transition to an arm drag position if they commit heavily to the post. Alternatively, follow through to land in a modified position and immediately attack the posted arm with a Kimura or sweep → Leads to [[Positions/Standing Position]]
+- **Opponent executes a counter-throw (such as Tani Otoshi) by dropping their weight and rotating under you as you commit to the throw** (Effectiveness: Medium) - Your Response: Maintain strong base with your supporting leg and be prepared to release the throw if you feel them dropping weight. Keep your hips lower than theirs and chest pressure strong to prevent rotation. Advanced practitioners can recognize the counter early and transition to a different attack → Leads to [[Positions/Standing Position]]
+- **Opponent turns into you (toward the throw direction) rather than away, nullifying the backward off-balancing motion** (Effectiveness: Low) - Your Response: If they turn toward you, they expose their back. Immediately transition to back-taking grips, securing harness control or body lock position. This counter actually creates an advantageous position for you if recognized quickly → Leads to [[Positions/Standing Position]]
 
 
 </section>

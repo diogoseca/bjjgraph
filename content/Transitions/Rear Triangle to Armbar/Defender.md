@@ -154,7 +154,7 @@ description: "Defend against the Rear Triangle to Armbar transition in BJJ. Lear
 
 As the defender caught in the rear triangle when the attacker begins transitioning to an armbar, your survival depends on recognizing the transition early and disrupting it during the brief window when the attacker is between positions. The transition from rear triangle to armbar requires the attacker to release the triangle lock and pivot their hips, creating a momentary vulnerability where neither the choke nor the armbar is fully established. This is your primary escape window. Your defensive priorities shift from choke defense (chin protection, posture recovery) to arm defense (elbow flexion, hand clasping, body rotation) as you feel the attacker's hips begin to rotate. Understanding the mechanical requirements of the armbar transition allows you to remove specific conditions the attacker needs, particularly arm extension and hip proximity. Every second of delay and every inch of space you create during the transition reduces the attacker's finishing probability and increases your chances of escaping to a recoverable position.
 
-**Opponent's Starting Position**: [[Rear Triangle]] (Top)
+**Opponent's Starting Position**: [[Positions/Triangle Control/Rear Triangle]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender caught in the rear triangle when the attacker begins transitioni
 ### 1. Clasp hands together and bend trapped elbow immediately upon sensing the transition
 
 - **When to use**: As soon as you feel the attacker establishing two-on-one wrist control and their hips beginning to rotate
-- **Targets**: [[Rear Triangle]]
+- **Targets**: [[Positions/Triangle Control/Rear Triangle]]
 - **If successful**: Prevents arm isolation and forces the attacker to either fight the grip or abandon the armbar attempt, returning to rear triangle attacks
 - **Risk**: If the attacker has already broken your grip before you clasp, this defense is ineffective and you may lose positioning during the attempt
 
 ### 2. Turn body toward trapped arm side and sit up aggressively during the transition window
 
 - **When to use**: During the brief moment when the attacker releases the triangle lock but has not yet secured the armbar leg across your face
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Disrupts the attacker's perpendicular angle and can lead to escaping to half guard or recovering a guard position as the attacker loses back control
 - **Risk**: If mistimed and the attacker still has the triangle locked, turning toward them may tighten the choke
 
 ### 3. Bridge explosively and create space as the attacker pivots their hips
 
 - **When to use**: When the attacker's hips are mid-rotation and their base is transitional between rear triangle and armbar positions
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates sufficient distance to prevent the attacker from establishing tight hip-to-shoulder contact, enabling guard recovery or scramble
 - **Risk**: If the attacker follows the bridge effectively, you may end up in a worse armbar position with less energy to continue defending
 
 ### 4. Control the attacker's swinging leg with your free hand to prevent it from crossing over your face
 
 - **When to use**: As the attacker's top leg begins lifting to swing over your face during the armbar transition
-- **Targets**: [[Rear Triangle]]
+- **Targets**: [[Positions/Triangle Control/Rear Triangle]]
 - **If successful**: Blocks the critical leg positioning needed for armbar control, forcing the attacker back to the rear triangle or creating a scramble opportunity
 - **Risk**: Using your free hand to block the leg removes it from defensive clasping, potentially allowing the attacker to isolate the trapped arm more easily
 
@@ -225,11 +225,11 @@ As the defender caught in the rear triangle when the attacker begins transitioni
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the transition window when the attacker releases the triangle lock by bridging explosively, turning toward the trapped arm side, and immediately working to insert your knee between your bodies. The attacker's loss of triangle control combined with their mid-pivot positioning creates the best escape opportunity. Use your free hand to frame against their hip and shrimp away to establish half guard retention.
 
-### → [[Rear Triangle]]
+### → [[Positions/Triangle Control/Rear Triangle]]
 
 Prevent the armbar transition by immediately clasping your hands together and pulling your trapped elbow tight to your ribcage the moment you sense wrist control being established. While remaining in the rear triangle is not ideal, it is significantly better than being caught in armbar control where the joint lock threat is more immediate. From the rear triangle, you can reset your choke defense and continue working escape sequences.
 

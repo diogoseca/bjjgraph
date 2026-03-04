@@ -21,7 +21,7 @@ The strategic value of this pass lies in its versatility and reliability across 
 
 The knee slide integrates seamlessly into broader passing systems. When opponents defend the initial knee cut, natural chain reactions open pathways to long step passes, leg drags, or headquarters transitions. This creates a dilemma-based passing game where defending one threat exposes vulnerability to another. Mastery of the knee slide from combat base is considered a foundational skill for developing an effective top game and serves as the entry point for understanding pressure-passing mechanics that apply across all guard passing scenarios.
 
-**From Position**: [[Combat Base]] (Top)
+**From Position**: [[Positions/Combat Base]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The knee slide integrates seamlessly into broader passing systems. When opponent
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Combat Base]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Combat Base]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The knee slide from combat base occupies a central position in the guard passing
 ## Related Techniques
 
 
-- [[Combat Base]] - Starting position from which this pass is initiated with stable asymmetric stance
+- [[Positions/Combat Base]] - Starting position from which this pass is initiated with stable asymmetric stance
 
-- [[Side Control]] - Primary target position upon successful pass completion
+- [[Positions/Side Control]] - Primary target position upon successful pass completion
 
-- [[Half Guard]] - Common position when opponent partially defends the knee slide by catching the cutting leg
+- [[Positions/Half Guard]] - Common position when opponent partially defends the knee slide by catching the cutting leg
 
-- [[Knee Shield Half Guard]] - Defensive guard structure opponent uses to block the knee slide cutting path
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive guard structure opponent uses to block the knee slide cutting path
 
-- [[Headquarters Position]] - Alternative passing position reached through combat base advancement when knee slide is unavailable
+- [[Positions/Headquarters Position]] - Alternative passing position reached through combat base advancement when knee slide is unavailable
 
-- [[Knee Cut from Headquarters]] - Related knee cut pass from a deeper passing position with similar mechanics
+- [[Transitions/Knee Cut from Headquarters]] - Related knee cut pass from a deeper passing position with similar mechanics
 
-- [[Knee Slice from Knee Shield]] - Chain technique when opponent establishes knee shield during the knee slide attempt
+- [[Transitions/Knee Slice from Knee Shield]] - Chain technique when opponent establishes knee shield during the knee slide attempt
 
-- [[Knee Slice from DLR]] - Related knee slide variation applied against De La Riva guard hooks
+- [[Transitions/Knee Slice from DLR]] - Related knee slide variation applied against De La Riva guard hooks
 
-- [[Combat Base to Headquarters]] - Alternative transition from the same starting position when knee slide path is blocked
+- [[Transitions/Combat Base to Headquarters]] - Alternative transition from the same starting position when knee slide path is blocked
 
-- [[Long Step Pass]] - Alternative pass chained when knee slide is blocked by distance-creating frames
+- [[Transitions/Long Step Pass]] - Alternative pass chained when knee slide is blocked by distance-creating frames
 
-- [[De La Riva Guard]] - Guard structure opponent may attempt to establish on the lead leg during pass initiation
+- [[Positions/De La Riva Guard]] - Guard structure opponent may attempt to establish on the lead leg during pass initiation
 
-- [[Flattened Half Guard]] - Compromised position opponent may end up in during a partially completed knee slide
+- [[Positions/Half Guard/Flattened Half Guard]] - Compromised position opponent may end up in during a partially completed knee slide
 
 
 </section>

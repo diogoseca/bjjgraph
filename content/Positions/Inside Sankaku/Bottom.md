@@ -208,23 +208,23 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 
 ## Available Escapes
 
-### [[Hip Escape to Guard]] (14% of attempts)
+### [[Transitions/Hip Escape to Guard]] (14% of attempts)
 
-### [[Granby Roll to Guard]] (13% of attempts)
+### [[Transitions/Granby Roll to Guard]] (13% of attempts)
 
-### [[Technical Stand-up]] (5% of attempts)
+### [[Transitions/Technical Stand-up]] (5% of attempts)
 
-### [[Counter Leg Attack]] (9% of attempts)
+### [[Transitions/Counter Leg Attack]] (9% of attempts)
 
-### [[Frame and Extract to Half Guard]] (26% of attempts)
+### [[Transitions/Frame and Extract to Half Guard]] (26% of attempts)
 
-### [[Counter-entangle to 50-50 Guard]] (17% of attempts)
+### [[Transitions/Counter-entangle to 50-50 Guard]] (17% of attempts)
 
-### [[Angle Change Escape]] (6% of attempts)
+### [[Transitions/Angle Change Escape]] (6% of attempts)
 
-### [[Ashi Garami Escape]] (7% of attempts)
+### [[Transitions/Ashi Garami Escape]] (7% of attempts)
 
-### [[Sweep from Inside Sankaku]] (3% of attempts)
+### [[Transitions/Sweep from Inside Sankaku]] (3% of attempts)
 
 
 
@@ -235,26 +235,26 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 ## Decision Making from This Position
 
 **If opponent has not yet established full control and submission grips:**
-- Execute **[[Immediate hip escape and leg extraction]]** → [[Open Guard]] (Probability: 45%)
-- Execute **[[Frame creation and distance generation]]** → [[Half Guard]] (Probability: 40%)
-- Execute **[[Counter leg attack]]** → [[50-50 Guard]] (Probability: 35%)
+- Execute **[[Immediate hip escape and leg extraction]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Frame creation and distance generation]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Counter leg attack]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 35%)
 
 
 **If opponent has established strong position but no submission grip yet:**
-- Execute **[[Heel protection and defensive posture]]** → [[Inside Sankaku]] (Probability: 60%)
-- Execute **[[Granby roll escape attempt]]** → [[Turtle]] (Probability: 30%)
-- Execute **[[Technical standup]]** → [[Standing Position]] (Probability: 25%)
+- Execute **[[Heel protection and defensive posture]]** → [[Positions/Inside Sankaku]] (Probability: 60%)
+- Execute **[[Granby roll escape attempt]]** → [[Positions/Turtle]] (Probability: 30%)
+- Execute **[[Technical standup]]** → [[Positions/Standing Position]] (Probability: 25%)
 
 
 **If opponent has established submission grip on your heel:**
 - Execute **[[Immediate tap if fully locked]]** → [[game-over]] (Probability: 100%)
-- Execute **[[Last resort rolling escape]]** → [[Turtle]] (Probability: 15%)
+- Execute **[[Last resort rolling escape]]** → [[Positions/Turtle]] (Probability: 15%)
 
 
 **If opponent loses hip connection or creates space:**
-- Execute **[[Explosive leg extraction]]** → [[Open Guard]] (Probability: 55%)
-- Execute **[[Hip escape to guard recovery]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Technical standup]]** → [[Standing Position]] (Probability: 40%)
+- Execute **[[Explosive leg extraction]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Hip escape to guard recovery]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Technical standup]]** → [[Positions/Standing Position]] (Probability: 40%)
 
 
 
@@ -388,13 +388,13 @@ When opponent establishes Inside Sankaku, practice entering your own leg attacks
 
 ## Related Positions and Techniques
 
-- **[[Inside Sankaku]]** - Opposite perspective - understanding offensive mechanics aids defensive strategy
-- **[[Saddle]]** - Common transition when bottom player makes escape errors
-- **[[50-50 Guard]]** - Counter-attack destination that neutralizes opponent's positional advantage
-- **[[Inside Heel Hook]]** - Primary submission threat that must be defended from this position
-- **[[Turtle]]** - Common escape destination after Granby roll or failed extraction attempts
-- **[[Open Guard]]** - Primary escape destination after successful leg extraction
-- **[[Half Guard]]** - Alternative guard recovery position during escape sequence
+- **[[Positions/Inside Sankaku]]** - Opposite perspective - understanding offensive mechanics aids defensive strategy
+- **[[Positions/Ashi Garami/Saddle]]** - Common transition when bottom player makes escape errors
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Counter-attack destination that neutralizes opponent's positional advantage
+- **[[Submissions/Inside Heel Hook]]** - Primary submission threat that must be defended from this position
+- **[[Positions/Turtle]]** - Common escape destination after Granby roll or failed extraction attempts
+- **[[Positions/Open Guard]]** - Primary escape destination after successful leg extraction
+- **[[Positions/Half Guard]]** - Alternative guard recovery position during escape sequence
 
 
 </section>

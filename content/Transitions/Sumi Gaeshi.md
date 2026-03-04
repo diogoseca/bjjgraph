@@ -21,7 +21,7 @@ In modern BJJ, Sumi Gaeshi serves multiple strategic purposes: as a direct taked
 
 The beauty of Sumi Gaeshi lies in its versatility across different grip configurations and situations. Whether you're working with collar and sleeve grips in the gi, double underhooks in no-gi, or countering a standing opponent from guard, the core mechanics remain consistent: create an angle, drop your weight, position your lifting leg at their hip or thigh, and execute the circular throwing motion that brings them overhead into a dominant position.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The beauty of Sumi Gaeshi lies in its versatility across different grip configur
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -196,29 +196,29 @@ Sumi Gaeshi occupies a unique position in BJJ's tactical hierarchy, serving as b
 ## Related Techniques
 
 
-- [[Tomoe Nage]] - Related sacrifice throw with foot on abdomen rather than hip
+- [[Transitions/Tomoe Nage]] - Related sacrifice throw with foot on abdomen rather than hip
 
-- [[Butterfly Sweep]] - Uses similar elevation mechanics from butterfly guard position
+- [[Transitions/Butterfly Sweep]] - Uses similar elevation mechanics from butterfly guard position
 
-- [[Elevation Sweep to Mount]] - Alternative sweep from butterfly guard with similar leg positioning
+- [[Transitions/Elevation Sweep to Mount]] - Alternative sweep from butterfly guard with similar leg positioning
 
-- [[Clear leg and transition to X-Guard]] - Follow-up option if Sumi Gaeshi is defended and opponent remains standing
+- [[Transitions/Clear leg and transition to X-Guard]] - Follow-up option if Sumi Gaeshi is defended and opponent remains standing
 
-- [[Butterfly Guard]] - Common starting position for seated Sumi Gaeshi variation
+- [[Positions/Butterfly Guard]] - Common starting position for seated Sumi Gaeshi variation
 
-- [[Double Leg Entry]] - Alternative takedown from similar standing position and grips
+- [[Transitions/Double Leg Entry]] - Alternative takedown from similar standing position and grips
 
-- [[Guard Pull]] - Backup option that shares similar initial movement
+- [[Transitions/Guard Pull]] - Backup option that shares similar initial movement
 
-- [[Ankle Pick]] - Chain technique when opponent circles away from Sumi Gaeshi angle
+- [[Transitions/Ankle Pick]] - Chain technique when opponent circles away from Sumi Gaeshi angle
 
-- [[Mount]] - Primary ending position when technique is executed successfully
+- [[Positions/Mount]] - Primary ending position when technique is executed successfully
 
-- [[Kimura from Guard]] - Attack option if opponent posts during the throw
+- [[Submissions/Kimura from Guard]] - Attack option if opponent posts during the throw
 
-- [[De La Riva Guard]] - Alternative sweeping system using leg hooks and angles
+- [[Positions/De La Riva Guard]] - Alternative sweeping system using leg hooks and angles
 
-- [[Standing Position]] - Starting position for the standing Sumi Gaeshi variation
+- [[Positions/Standing Position]] - Starting position for the standing Sumi Gaeshi variation
 
 
 </section>

@@ -210,31 +210,31 @@ The position excels in no-gi grappling where leg attacks are permitted, offering
 
 ## Available Attacks
 
-### [[Straight Ankle Lock Entry]] (43% of attempts)
+### [[Transitions/Straight Ankle Lock Entry]] (43% of attempts)
 
-### [[Heel Hook]] (6% of attempts)
+### [[Transitions/Heel Hook]] (6% of attempts)
 
-### [[Toe Hold]] (9% of attempts)
+### [[Transitions/Toe Hold]] (9% of attempts)
 
-### [[Kneebar Finish]] (4% of attempts)
+### [[Transitions/Kneebar Finish]] (4% of attempts)
 
-### [[Inside Ashi-Garami to Honey Hole]] (9% of attempts)
+### [[Transitions/Inside Ashi-Garami to Honey Hole]] (9% of attempts)
 
-### [[Back Take from Ashi]] (2% of attempts)
+### [[Transitions/Back Take from Ashi]] (2% of attempts)
 
-### [[Inside Ashi-Garami to Cross Ashi]] (5% of attempts)
+### [[Transitions/Inside Ashi-Garami to Cross Ashi]] (5% of attempts)
 
-### [[Outside Ashi Entry]] (9% of attempts)
+### [[Transitions/Outside Ashi Entry]] (9% of attempts)
 
-### [[Saddle Entry from Top]] (9% of attempts)
+### [[Transitions/Saddle Entry from Top]] (9% of attempts)
 
-### [[50-50 Entry]] (3% of attempts)
+### [[Transitions/50-50 Entry]] (3% of attempts)
 
-### [[Backside 50-50 Entry from Ashi]] (0% of attempts)
+### [[Transitions/Backside 50-50 Entry from Ashi]] (0% of attempts)
 
-### [[Inside Ashi to Outside Ashi]] (0% of attempts)
+### [[Transitions/Inside Ashi to Outside Ashi]] (0% of attempts)
 
-### [[Inside Ashi-Garami to Ushiro Ashi]] (1% of attempts)
+### [[Transitions/Inside Ashi-Garami to Ushiro Ashi]] (1% of attempts)
 
 
 
@@ -245,28 +245,28 @@ The position excels in no-gi grappling where leg attacks are permitted, offering
 ## Decision Making from This Position
 
 **If opponent remains stationary with leg trapped and shows little defensive movement or awareness:**
-- Execute **[[Straight Ankle Lock Entry]]** → [[Straight Ankle Lock Control]] (Probability: 75%)
-- Execute **[[Toe Hold]]** → [[Toe Hold Control]] (Probability: 65%)
+- Execute **[[Transitions/Straight Ankle Lock Entry]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 75%)
+- Execute **[[Transitions/Toe Hold]]** → [[Positions/Toe Hold Control]] (Probability: 65%)
 
 
 **If opponent turns knee inward to defend ankle lock and creates heel hook opportunity:**
-- Execute **[[Heel Hook]]** → [[Saddle]] (Probability: 70%)
-- Execute **[[Inside Ashi-Garami to Honey Hole]]** → [[Honey Hole]] (Probability: 60%)
+- Execute **[[Transitions/Heel Hook]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
+- Execute **[[Transitions/Inside Ashi-Garami to Honey Hole]]** → [[Positions/Ashi Garami/Honey Hole]] (Probability: 60%)
 
 
 **If opponent rotates hips away and attempts to clear inside leg from hip:**
-- Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 65%)
-- Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 55%)
+- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
 
 
 **If opponent extends trapped leg forcefully to create distance and escape:**
-- Execute **[[Kneebar Finish]]** → [[Kneebar Control]] (Probability: 60%)
-- Execute **[[Ankle Lock Finish]]** → [[Inside Ashi-Garami]] (Probability: 50%)
+- Execute **[[Transitions/Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 60%)
+- Execute **[[Transitions/Ankle Lock Finish]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
 
 
 **If opponent sits up aggressively and reaches for your legs or upper body:**
-- Execute **[[Back Take from Ashi]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Position reversal sweep to top]]** → [[Standing Position]] (Probability: 45%)
+- Execute **[[Transitions/Back Take from Ashi]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Position reversal sweep to top]]** → [[Positions/Standing Position]] (Probability: 45%)
 
 
 
@@ -400,15 +400,15 @@ Practice transitioning from inside ashi to more advanced positions (honey hole, 
 
 ## Related Positions and Techniques
 
-- **[[Honey Hole]]** - Advanced progression target from inside ashi providing superior control
-- **[[Saddle]]** - Alternative advancement position offering different attack angles
-- **[[Outside Ashi-Garami]]** - Variation position accessed by switching inside leg to outside
-- **[[Straight Ankle Lock]]** - Primary submission finish from this position
-- **[[Inside Heel Hook]]** - Advanced submission option requiring positional advancement
-- **[[Kneebar Control]]** - Alternative leg attack position accessible from inside ashi
-- **[[Single Leg X-Guard]]** - Similar position with different strategic purpose
-- **[[Leg Entanglement]]** - Conceptual framework governing all ashi garami positions
-- **[[Ashi Garami]]** - Parent position family for all ashi variations
+- **[[Positions/Ashi Garami/Honey Hole]]** - Advanced progression target from inside ashi providing superior control
+- **[[Positions/Ashi Garami/Saddle]]** - Alternative advancement position offering different attack angles
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Variation position accessed by switching inside leg to outside
+- **[[Submissions/Straight Ankle Lock]]** - Primary submission finish from this position
+- **[[Submissions/Inside Heel Hook]]** - Advanced submission option requiring positional advancement
+- **[[Positions/Kneebar Control]]** - Alternative leg attack position accessible from inside ashi
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Similar position with different strategic purpose
+- **[[Positions/Leg Entanglement]]** - Conceptual framework governing all ashi garami positions
+- **[[Positions/Ashi Garami]]** - Parent position family for all ashi variations
 
 
 </section>

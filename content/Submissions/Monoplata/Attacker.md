@@ -230,8 +230,8 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -240,11 +240,11 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 
 ## Opponent Defenses
 
-- **Rolling forward over the trapped shoulder to relieve pressure** (Effectiveness: High) - Your Response: Use your free leg to block their forward roll by hooking over their head or far shoulder. If they succeed in rolling, follow through and take their back or transition to crucifix position. → Leads to [[Closed Guard]]
+- **Rolling forward over the trapped shoulder to relieve pressure** (Effectiveness: High) - Your Response: Use your free leg to block their forward roll by hooking over their head or far shoulder. If they succeed in rolling, follow through and take their back or transition to crucifix position. → Leads to [[Positions/Closed Guard]]
 - **Pulling their arm straight and attempting to extract it from the figure-four** (Effectiveness: Medium) - Your Response: Tighten the figure-four configuration and use your hands to grip their wrist or forearm, keeping the arm bent. Extend your hips to create more pressure, making extraction impossible without tapping. → Leads to [[game-over]]
-- **Posturing up aggressively to create space and distance** (Effectiveness: Medium) - Your Response: Anticipate this by establishing your free leg control early. If they begin to posture, immediately hook their head or back with your outside leg while pulling them back down with your hand grips on their torso. → Leads to [[Closed Guard]]
-- **Stacking weight onto you to relieve shoulder pressure** (Effectiveness: Low) - Your Response: Accept the stack temporarily and use your hand grips to off-balance them to the side, creating the angle you need. Alternatively, transition to sweep or back take as they commit their weight forward. → Leads to [[Half Guard]]
-- **Attempting to stand up to escape the guard entirely** (Effectiveness: Low) - Your Response: The figure-four configuration makes standing extremely difficult. If attempted, maintain your leg locks and use the momentum to sweep them or transition to alternative attacks like triangle or omoplata. → Leads to [[Closed Guard]]
+- **Posturing up aggressively to create space and distance** (Effectiveness: Medium) - Your Response: Anticipate this by establishing your free leg control early. If they begin to posture, immediately hook their head or back with your outside leg while pulling them back down with your hand grips on their torso. → Leads to [[Positions/Closed Guard]]
+- **Stacking weight onto you to relieve shoulder pressure** (Effectiveness: Low) - Your Response: Accept the stack temporarily and use your hand grips to off-balance them to the side, creating the angle you need. Alternatively, transition to sweep or back take as they commit their weight forward. → Leads to [[Positions/Half Guard]]
+- **Attempting to stand up to escape the guard entirely** (Effectiveness: Low) - Your Response: The figure-four configuration makes standing extremely difficult. If attempted, maintain your leg locks and use the momentum to sweep them or transition to alternative attacks like triangle or omoplata. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

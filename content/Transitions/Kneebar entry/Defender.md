@@ -156,7 +156,7 @@ Defending the Kneebar entry from 50-50 Guard requires understanding the attacker
 
 Your defensive priority hierarchy is: first, prevent the foot trap by maintaining a bent knee and controlling your own ankle; second, if the foot is trapped, prevent the leg triangle above your knee by keeping your thigh tight and rotating toward the attacker; third, if both controls are established, address the finish by straightening your body line and creating distance. Early intervention is exponentially more effective than late-stage defense, so recognizing the entry cues and reacting within the first one to two seconds determines whether you return to neutral 50-50 or find yourself fighting a fully locked kneebar.
 
-**Opponent's Starting Position**: [[50-50 Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Your defensive priority hierarchy is: first, prevent the foot trap by maintainin
 ### 1. Bend knee and retract leg immediately upon recognizing the angle change, pulling your foot away from their armpit trap
 
 - **When to use**: Early stage - as soon as attacker begins shrimping to create the hip angle, before they secure foot control
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You return to neutral 50-50 entanglement with your heel potentially exposed from the retraction, but knee safe
 - **Risk**: Retracting your leg may expose your heel momentarily, allowing attacker to switch back to heel hook
 
 ### 2. Turn your hips aggressively toward the attacker while driving your weight forward to collapse their perpendicular angle
 
 - **When to use**: Mid stage - when attacker has secured ankle control but has not yet triangled their legs above your knee
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You flatten the attacker and re-establish top pressure in the 50-50, nullifying their kneebar angle entirely
 - **Risk**: If your hip rotation is too slow, attacker's inside leg hook prevents the turn and you end up in a worse position with partial control established
 
 ### 3. Strip the foot from attacker's armpit by posting your free hand on their hip and extending your leg forcefully while rotating knee outward
 
 - **When to use**: Late stage - when foot is trapped in armpit but legs have not yet fully triangled above the knee
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Breaking the foot trap removes the anchor for the kneebar finish, allowing you to retract and re-establish defensive position
 - **Risk**: Using your hand to strip the foot temporarily removes it from grip fighting, potentially allowing attacker to advance to a different submission
 
 ### 4. Straighten your entire body and drive hips forward while clasping your own knee to prevent hyperextension if fully caught
 
 - **When to use**: Emergency defense - both foot trap and leg triangle are established, kneebar is being applied
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You buy time by reducing the hyperextension angle, potentially allowing you to peel their legs off your thigh and extract
 - **Risk**: This is a survival defense only - if it fails you must tap immediately to avoid ligament damage
 
@@ -225,11 +225,11 @@ Your defensive priority hierarchy is: first, prevent the foot trap by maintainin
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Bend your knee and retract your leg before the attacker secures the foot trap, returning to neutral 50-50 entanglement. Immediately re-establish grip fighting on their heel to resume your own offensive options and prevent them from re-attempting the entry.
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Turn your hips aggressively toward the attacker to collapse their perpendicular angle. Drive your weight forward to flatten them and re-establish top position pressure in the 50-50 Guard. This hip rotation nullifies the kneebar mechanics by removing the perpendicular alignment the attacker needs.
 

@@ -178,7 +178,7 @@ The technique requires committing to the cartwheel motion with conviction, as he
 
 Strategically, the Cartwheel Pass functions best as a surprise element within your passing game. Its athletic nature means it cannot be spammed repeatedly without significant energy expenditure. The optimal timing occurs when the guard player has committed deeply to their inversion, creating space beside their body for your hand placement. Attempting the pass when they are actively adjusting or have legs extended toward you significantly reduces success probability and increases counter risk.
 
-**From Position**: [[Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Grasshopper Guard]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategically, the Cartwheel Pass functions best as a surprise element within yo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Grasshopper Guard]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, the Cartwheel Pass functions best as a surprise element within yo
 
 ## Opponent Counters
 
-- **Opponent tracks your movement and rotates their inversion to follow, maintaining leg threat** (Effectiveness: High) - Your Response: Abort the cartwheel and circle back to original side, using their rotation against them by attacking the now-exposed opposite angle → Leads to [[Grasshopper Guard]]
-- **Opponent extends legs directly at you during cartwheel initiation, catching your hips or legs** (Effectiveness: Medium) - Your Response: Increase cartwheel height and speed to clear the extended legs, or convert to a back step pass if legs catch early → Leads to [[Grasshopper Guard]]
-- **Opponent posts on hip and technical stands during your aerial transition** (Effectiveness: Medium) - Your Response: Land and immediately transition to front headlock or snap down rather than forcing side control on a recovering opponent → Leads to [[Grasshopper Guard]]
-- **Opponent Granby rolls under your landing trajectory, recovering guard as you land** (Effectiveness: Low) - Your Response: Follow their roll and reestablish top position, using their momentum to settle into north-south or repeat passing sequence → Leads to [[Closed Guard]]
+- **Opponent tracks your movement and rotates their inversion to follow, maintaining leg threat** (Effectiveness: High) - Your Response: Abort the cartwheel and circle back to original side, using their rotation against them by attacking the now-exposed opposite angle → Leads to [[Positions/Grasshopper Guard]]
+- **Opponent extends legs directly at you during cartwheel initiation, catching your hips or legs** (Effectiveness: Medium) - Your Response: Increase cartwheel height and speed to clear the extended legs, or convert to a back step pass if legs catch early → Leads to [[Positions/Grasshopper Guard]]
+- **Opponent posts on hip and technical stands during your aerial transition** (Effectiveness: Medium) - Your Response: Land and immediately transition to front headlock or snap down rather than forcing side control on a recovering opponent → Leads to [[Positions/Grasshopper Guard]]
+- **Opponent Granby rolls under your landing trajectory, recovering guard as you land** (Effectiveness: Low) - Your Response: Follow their roll and reestablish top position, using their momentum to settle into north-south or repeat passing sequence → Leads to [[Positions/Closed Guard]]
 
 
 </section>

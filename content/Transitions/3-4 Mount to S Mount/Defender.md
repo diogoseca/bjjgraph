@@ -154,7 +154,7 @@ description: "Essential defensive guide for preventing the 3-4 Mount to S Mount 
 
 Defending the 3-4 Mount to S Mount transition requires recognizing the attack before it develops and intervening during the attacker's most vulnerable phase—the rotational movement. From the bottom of 3-4 Mount, you are already in a disadvantaged position, but the opponent's attempt to advance to S Mount creates a brief window of opportunity as their base shifts during the leg swing. Your primary defensive objective is preventing the arm isolation that precedes the transition, as without a controlled arm the S Mount entry loses its purpose. If arm isolation has already occurred, your secondary objective is disrupting the leg swing through explosive bridging, framing against the hip rotation, or recovering half guard during the momentary base instability. Understanding the attacker's sequence—arm control, weight shift, rotation, leg swing—allows you to identify the optimal intervention point and execute the appropriate defensive response before the S Mount is fully established.
 
-**Opponent's Starting Position**: [[3-4 Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/3-4 Mount]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the 3-4 Mount to S Mount transition requires recognizing the attack be
 ### 1. Retract the near-side arm and re-establish elbow-to-knee frame before arm isolation is complete
 
 - **When to use**: Early phase—when you feel two-on-one grip being established on your wrist but the arm is not yet fully isolated across the attacker's body
-- **Targets**: [[3-4 Mount]]
+- **Targets**: [[Positions/Mount/3-4 Mount]]
 - **If successful**: Attacker cannot proceed with S Mount entry without arm isolation and must return to attacking from 3-4 Mount
 - **Risk**: Pulling the arm back aggressively may expose the opposite arm or create space the attacker exploits for a different submission
 
 ### 2. Frame the far arm against attacker's hip to block perpendicular rotation
 
 - **When to use**: Mid-phase—when the attacker begins rotating their hips but has not yet swung the leg over your head
-- **Targets**: [[3-4 Mount]]
+- **Targets**: [[Positions/Mount/3-4 Mount]]
 - **If successful**: Blocks the attacker's rotation and forces them to deal with your frame before continuing, buying time and potentially stalling the transition entirely
 - **Risk**: If the frame is stripped or collapsed, you have committed your far arm away from other defensive duties and may be briefly exposed
 
 ### 3. Explosive bridge timed to the leg swing to disrupt base and create reversal or escape opportunity
 
 - **When to use**: Late phase—when the attacker commits to the leg swing and their posted leg leaves the ground, creating momentary base instability
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Disrupts the attacker's base during their most vulnerable moment, potentially reversing to top position or recovering half guard as they scramble to maintain balance
 - **Risk**: A mistimed bridge when the attacker's base is still solid wastes energy and may accelerate the arm isolation as you lift your shoulders off the mat
 
 ### 4. Hip escape toward the posted leg side during the weight shift phase to recover half guard
 
 - **When to use**: When you feel the attacker shifting weight heavily toward the mounted side, creating lighter pressure on the posted leg side
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough space to insert a knee and recover half guard, completely negating the S Mount entry and improving your position significantly
 - **Risk**: If the hip escape is too slow or the attacker follows your movement, you may end up flattened in a worse position with the arm still isolated
 
@@ -225,11 +225,11 @@ Defending the 3-4 Mount to S Mount transition requires recognizing the attack be
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive bridge to coincide with the attacker's leg swing, then immediately hip escape toward the posted leg side while the attacker's base is disrupted. Insert your near-side knee between your bodies and recover half guard entanglement on their leg before they can re-establish mount control.
 
-### → [[3-4 Mount]]
+### → [[Positions/Mount/3-4 Mount]]
 
 Prevent the transition entirely by retracting the near-side arm early when you recognize the two-on-one grip, and maintaining a strong far-arm frame against the attacker's hip. Deny the arm isolation and perpendicular rotation, forcing the attacker to abandon the S Mount attempt and return to attacking from 3-4 Mount. While still a bad position, preventing advancement buys time for your own escape attempts.
 

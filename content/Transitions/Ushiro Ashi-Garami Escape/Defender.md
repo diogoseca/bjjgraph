@@ -158,7 +158,7 @@ The reversed orientation of ushiro ashi-garami gives the defender unique offensi
 
 Defensive success against the escape requires understanding the sequential nature of the opponent's clearing attempts. They must clear the outside leg before extracting the trapped leg, and each phase creates specific windows for counter-attacks. By recognizing which phase the escape has reached, you can apply targeted responses—tightening the outside leg cross during initial clearing attempts, stepping through to saddle when they commit both hands to outside leg clearing, or accelerating heel hook attacks when their dorsiflexion wavers. The defender who understands the escape's mechanics can systematically deny each step rather than relying on a single retention strategy.
 
-**Opponent's Starting Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Defensive success against the escape requires understanding the sequential natur
 ### 1. Tighten outside leg cross and attack heel hook when opponent's dorsiflexion relaxes during clearing attempt
 
 - **When to use**: When opponent shifts both hands to your inside knee and their foot dorsiflexion weakens during the distraction of leg clearing mechanics
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Opponent must abandon clearing sequence to defend heel hook, resetting the escape and potentially exposing the heel for a finish
 - **Risk**: If heel hook attempt fails, you may have loosened your outside leg cross during the attack, giving them a clearing window
 
 ### 2. Step inside leg through to saddle transition when opponent clears the outside leg
 
 - **When to use**: When the outside leg cross has been cleared but your inside leg still has deep thigh control, creating the geometry for saddle entry
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Transition to saddle establishes superior control with higher submission percentage than ushiro, upgrading your positional advantage
 - **Risk**: Opponent may Granby roll to turtle during the transition window before saddle is fully locked
 
 ### 3. Drive hips forward into opponent to collapse their pushing frame and re-tighten the entanglement
 
 - **When to use**: When opponent establishes free foot on your hip but has not yet begun active outside leg clearing, allowing you to deny the space creation before it develops
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Pushing frame collapses and opponent cannot generate the distance needed for sequential clearing, forcing them to restart the escape
 - **Risk**: Driving forward may create momentum the opponent redirects into a Granby roll if your base is compromised
 
 ### 4. Re-establish outside leg cross by chasing their knee after initial clearing attempt
 
 - **When to use**: When the outside leg has been partially cleared but the opponent has not yet begun extracting the trapped leg, creating a window for re-crossing before full extraction
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Returns to full ushiro control, forcing opponent to restart the entire clearing sequence from step one
 - **Risk**: Chasing the knee may open your inside leg position, giving the opponent access to counter-entanglement on your leg
 
@@ -228,11 +228,11 @@ Defensive success against the escape requires understanding the sequential natur
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ushiro Ashi-Garami]]
+### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Deny the sequential clearing by maintaining tight outside leg cross pressure, driving hips forward to collapse pushing frames, and attacking the heel whenever dorsiflexion relaxes. Force the opponent to repeatedly restart their escape sequence without making progress through any of the six extraction steps.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 Allow the outside leg to clear while maintaining deep inside leg thigh control, then step through with the inside leg to establish saddle configuration. This sacrifices ushiro position but upgrades to a higher-control entanglement with superior heel hook mechanics. Time the transition for the moment when opponent commits both hands to outside leg clearing, leaving their inside knee control temporarily weakened.
 

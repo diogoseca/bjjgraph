@@ -26,8 +26,8 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 **Category**: Compression
 **Type**: Arm Crush
 **Target Area**: Elbow/Forearm
-**Starting Position**: [[Kesa Gatame]]
-**From Position**: [[Kesa Gatame]] (Top)
+**Starting Position**: [[Positions/Side Control/Kesa Gatame]]
+**From Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -75,8 +75,8 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Kesa Gatame]] | 35% |
-| Counter | [[Half Guard]] | 25% |
+| Failure | [[Positions/Side Control/Kesa Gatame]] | 35% |
+| Counter | [[Positions/Half Guard]] | 25% |
 
 
 </section>
@@ -220,9 +220,9 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 
 ## From Which Positions?
 
-- [[Kesa Gatame]]
-- [[Kuzure Kesa-Gatame]]
-- [[Scarf Hold Position]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- [[Positions/Side Control/Scarf Hold Position]]
 
 
 </section>
@@ -231,12 +231,12 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 
 ## Related Submissions
 
-- [[Americana from Kesa Gatame]]
-- [[Arm Crush]]
-- [[Arm Triangle from Scarf Hold]]
-- [[Americana]]
-- [[Bicep Slicer]]
-- [[Armbar from Side Control]]
+- [[Submissions/Americana from Kesa Gatame]]
+- [[Submissions/Arm Crush]]
+- [[Submissions/Arm Triangle from Scarf Hold]]
+- [[Transitions/Americana]]
+- [[Submissions/Bicep Slicer]]
+- [[Submissions/Armbar from Side Control]]
 
 
 </section>
@@ -245,12 +245,12 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 
 ## Additional Related Content
 
-- [[Kesa Gatame]] - Primary starting position providing the control framework for the arm crush setup
-- [[Kuzure Kesa-Gatame]] - Alternative starting position with pre-isolated arm control that facilitates the crush entry
-- [[Scarf Hold Position]] - Positional family sharing control mechanics and arm trapping principles
-- [[Americana from Kesa Gatame]] - Primary submission chain partner - americana defense often exposes the arm for the crush
-- [[Arm Crush]] - Parent submission category sharing compression mechanics and elbow attack principles
-- [[Arm Triangle from Scarf Hold]] - Alternative submission from same position when opponent defends the arm crush by tucking elbow
+- [[Positions/Side Control/Kesa Gatame]] - Primary starting position providing the control framework for the arm crush setup
+- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Alternative starting position with pre-isolated arm control that facilitates the crush entry
+- [[Positions/Side Control/Scarf Hold Position]] - Positional family sharing control mechanics and arm trapping principles
+- [[Submissions/Americana from Kesa Gatame]] - Primary submission chain partner - americana defense often exposes the arm for the crush
+- [[Submissions/Arm Crush]] - Parent submission category sharing compression mechanics and elbow attack principles
+- [[Submissions/Arm Triangle from Scarf Hold]] - Alternative submission from same position when opponent defends the arm crush by tucking elbow
 
 
 </section>

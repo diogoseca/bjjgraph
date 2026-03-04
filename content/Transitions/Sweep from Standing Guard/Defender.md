@@ -154,7 +154,7 @@ description: "Complete defensive guide against sweeps from Standing Guard in BJJ
 
 Defending against sweeps from Standing Guard is essential for any practitioner who employs standing guard passing. The standing position offers significant passing advantages but creates inherent vulnerability to sweep attacks that exploit the elevated center of gravity and relatively narrow base. Effective defense requires anticipating sweep attempts before they develop, maintaining base width and weight distribution that resist off-balancing forces, and having immediate counter-responses prepared for each sweep variant. The defender must balance their passing objectives with constant awareness of sweep threats, developing the ability to address sweep mechanics early in their development rather than fighting fully committed sweep attempts. Understanding the attacker's grip requirements and force vectors allows the defender to disrupt sweep setups before they reach the point of execution, making early recognition and proactive grip fighting the most energy-efficient defensive strategy.
 
-**Opponent's Starting Position**: [[Standing Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Standing Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against sweeps from Standing Guard is essential for any practitioner w
 ### 1. Strip ankle grips immediately with a two-on-one grip break and backstep to create distance
 
 - **When to use**: As soon as you feel the opponent's hand contact your ankle or pants cuff, before they can establish a firm grip and begin generating sweeping force
-- **Targets**: [[Standing Guard]]
+- **Targets**: [[Positions/Standing Guard]]
 - **If successful**: Opponent loses the ankle control necessary for sweep execution and must reset their grip configuration, giving you time to re-establish passing position
 - **Risk**: Momentarily takes one hand off the opponent's guard, potentially allowing them to advance their guard position or establish alternative grips
 
 ### 2. Widen base and lower center of gravity by bending knees deeper while keeping chest upright
 
 - **When to use**: When you feel the initial push-pull force of a sweep attempt beginning but before the sweep reaches full commitment, allowing you to absorb the force through improved base
-- **Targets**: [[Standing Guard]]
+- **Targets**: [[Positions/Standing Guard]]
 - **If successful**: The wider base and lower center of gravity resist the rotational force of the sweep, stalling the attempt and forcing the opponent to abandon or restart
 - **Risk**: Lower posture may bring you closer to the opponent's guard hooks, potentially enabling closed guard or alternative guard entries
 
 ### 3. Drive forward aggressively through the sweep attempt to initiate a smash pass or stack pass
 
 - **When to use**: When the opponent commits fully to the sweep and removes one foot from your hip to hook your ankle, creating an opening to collapse their guard structure
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: The forward drive overwhelms the sweep mechanics and transitions directly into a guard pass, converting their offensive attempt into your positional advancement
 - **Risk**: If the sweep is already too developed, driving forward feeds into the sweep momentum and accelerates your fall rather than preventing it
 
 ### 4. Hop laterally to remove the hooking foot from behind your ankle while maintaining upper body connection
 
 - **When to use**: When you detect the opponent's foot dropping behind your ankle to establish the hook needed for tripod or sickle sweep execution
-- **Targets**: [[Standing Guard]]
+- **Targets**: [[Positions/Standing Guard]]
 - **If successful**: The lateral hop removes your ankle from the sweep hook, breaking the mechanical chain needed for the sweep while keeping you in passing range
 - **Risk**: The hopping motion momentarily lifts one foot off the mat, creating a brief single-leg balance moment that could be exploited by a well-timed secondary attack
 
@@ -225,11 +225,11 @@ Defending against sweeps from Standing Guard is essential for any practitioner w
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the opponent commits to a sweep attempt and removes one foot from your hip, immediately drive forward through their open guard structure with a stack or smash pass. Their commitment to the sweep removes the distance control that normally prevents your forward pressure, creating a direct passing lane to side control.
 
-### → [[Standing Guard]]
+### → [[Positions/Standing Guard]]
 
 Strip the opponent's ankle grips early using two-on-one grip breaks before they can develop sweep mechanics. Maintain a wide base with weight distributed through balls of feet and control the opponent's legs with downward pressure on their thighs or shins to prevent them from establishing feet on hips configuration. Proactive grip fighting prevents the sweep from ever reaching the execution phase.
 

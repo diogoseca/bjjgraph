@@ -180,7 +180,7 @@ description: "How to execute the transition to Russian Leg Lasso. Step-by-step t
 
 Executing the transition to Russian Leg Lasso requires threading a second leg through the opponent's free arm while maintaining full control of the existing lasso. The attacker (bottom player) must coordinate the release and rethreading of hip angle, grip management, and leg positioning without creating any window where the first lasso loosens. This is fundamentally a grip reconfiguration technique rather than a movement-based transition - the bottom player's body position changes minimally while the control architecture transforms from single-sided to bilateral. The critical skill is learning to identify the exact moment when the opponent's free arm becomes accessible, then executing the threading quickly enough that they cannot retract the arm before the second lasso locks in.
 
-**From Position**: [[Lasso Guard]] (Bottom)
+**From Position**: [[Positions/Lasso Guard]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ Executing the transition to Russian Leg Lasso requires threading a second leg th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Russian Leg Lasso]] | 65% |
-| Failure | [[Lasso Guard]] | 25% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Lasso Guard/Russian Leg Lasso]] | 65% |
+| Failure | [[Positions/Lasso Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ Executing the transition to Russian Leg Lasso requires threading a second leg th
 
 ## Opponent Counters
 
-- **Opponent retracts free arm explosively as soon as they feel the second sleeve grip, pulling it tight against their body before the leg can thread** (Effectiveness: High) - Your Response: If the arm retracts before threading, do not chase it. Return to standard lasso guard and use the first lasso to set up sweeps or submissions that force them to extend the arm again. A collar drag or triangle threat often forces the arm back out where it becomes accessible for a reattempt. → Leads to [[Lasso Guard]]
-- **Opponent strips the first sleeve grip during the transition moment when your non-lasso hand releases the collar to grab the second sleeve** (Effectiveness: High) - Your Response: The moment you release the collar grip is the highest vulnerability point. If the first sleeve breaks, immediately abandon the threading attempt and recover to open guard using your legs to create distance. Re-establish grips from a neutral position rather than fighting to recover from a compromised half-threaded state. → Leads to [[Open Guard]]
-- **Opponent postures up aggressively and stands tall to create distance as they feel the second leg beginning to thread** (Effectiveness: Medium) - Your Response: Use the first lasso to pull their arm downward, breaking their posture back into range. If they successfully stand, transition to single leg X-guard or De La Riva entries that work at longer range. The standing posture means their base is narrower, creating opportunities for different attacks even if the Russian Leg Lasso threading fails. → Leads to [[Lasso Guard]]
-- **Opponent drives forward with smashing pressure to flatten your hips and prevent the hip angle needed for threading** (Effectiveness: Medium) - Your Response: Forward pressure actually brings their arms closer and creates natural sweep opportunities. If they flatten you, use the first lasso to redirect their forward momentum into a sweep. Their committed forward pressure means they have less ability to retract arms, so the threading opportunity may reappear once you recover hip angle through a shrimp movement. → Leads to [[Lasso Guard]]
+- **Opponent retracts free arm explosively as soon as they feel the second sleeve grip, pulling it tight against their body before the leg can thread** (Effectiveness: High) - Your Response: If the arm retracts before threading, do not chase it. Return to standard lasso guard and use the first lasso to set up sweeps or submissions that force them to extend the arm again. A collar drag or triangle threat often forces the arm back out where it becomes accessible for a reattempt. → Leads to [[Positions/Lasso Guard]]
+- **Opponent strips the first sleeve grip during the transition moment when your non-lasso hand releases the collar to grab the second sleeve** (Effectiveness: High) - Your Response: The moment you release the collar grip is the highest vulnerability point. If the first sleeve breaks, immediately abandon the threading attempt and recover to open guard using your legs to create distance. Re-establish grips from a neutral position rather than fighting to recover from a compromised half-threaded state. → Leads to [[Positions/Open Guard]]
+- **Opponent postures up aggressively and stands tall to create distance as they feel the second leg beginning to thread** (Effectiveness: Medium) - Your Response: Use the first lasso to pull their arm downward, breaking their posture back into range. If they successfully stand, transition to single leg X-guard or De La Riva entries that work at longer range. The standing posture means their base is narrower, creating opportunities for different attacks even if the Russian Leg Lasso threading fails. → Leads to [[Positions/Lasso Guard]]
+- **Opponent drives forward with smashing pressure to flatten your hips and prevent the hip angle needed for threading** (Effectiveness: Medium) - Your Response: Forward pressure actually brings their arms closer and creates natural sweep opportunities. If they flatten you, use the first lasso to redirect their forward momentum into a sweep. Their committed forward pressure means they have less ability to retract arms, so the threading opportunity may reappear once you recover hip angle through a shrimp movement. → Leads to [[Positions/Lasso Guard]]
 
 
 </section>

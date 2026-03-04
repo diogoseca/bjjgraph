@@ -238,8 +238,8 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Crucifix]] | 25% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Crucifix]] | 25% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -248,10 +248,10 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 
 ## Opponent Defenses
 
-- **Straightening the trapped arm forcefully** (Effectiveness: High) - Your Response: Anticipate this defense by securing wrist control early and pulling the wrist toward your chest continuously. If they begin to straighten, immediately transition to an armbar or kimura position using their momentum against them. → Leads to [[Half Guard]]
-- **Rolling toward the trapped arm side** (Effectiveness: Medium) - Your Response: Maintain your body position and follow their roll while keeping your shin locked behind their elbow. Use your free leg as a hook to control their hip and prevent the full roll. You may end up in a different position but can often maintain the submission throughout the movement. → Leads to [[Crucifix]]
-- **Using free hand to push your shin away** (Effectiveness: Medium) - Your Response: Ensure you have dominant position control before attempting the submission. If they have a free hand attacking your shin, you may need to abandon the bicep slicer and transition to controlling their free arm, potentially setting up a crucifix or different submission. → Leads to [[Crucifix]]
-- **Creating space by bridging or shrimping** (Effectiveness: Low) - Your Response: Maintain tight connection with your upper body weight on their torso. Use your free hand to post on the mat or control their body, preventing effective bridging. Your weight distribution should make space creation nearly impossible. → Leads to [[Crucifix]]
+- **Straightening the trapped arm forcefully** (Effectiveness: High) - Your Response: Anticipate this defense by securing wrist control early and pulling the wrist toward your chest continuously. If they begin to straighten, immediately transition to an armbar or kimura position using their momentum against them. → Leads to [[Positions/Half Guard]]
+- **Rolling toward the trapped arm side** (Effectiveness: Medium) - Your Response: Maintain your body position and follow their roll while keeping your shin locked behind their elbow. Use your free leg as a hook to control their hip and prevent the full roll. You may end up in a different position but can often maintain the submission throughout the movement. → Leads to [[Positions/Crucifix]]
+- **Using free hand to push your shin away** (Effectiveness: Medium) - Your Response: Ensure you have dominant position control before attempting the submission. If they have a free hand attacking your shin, you may need to abandon the bicep slicer and transition to controlling their free arm, potentially setting up a crucifix or different submission. → Leads to [[Positions/Crucifix]]
+- **Creating space by bridging or shrimping** (Effectiveness: Low) - Your Response: Maintain tight connection with your upper body weight on their torso. Use your free hand to post on the mat or control their body, preventing effective bridging. Your weight distribution should make space creation nearly impossible. → Leads to [[Positions/Crucifix]]
 - **Grabbing their own gi or body to create a frame** (Effectiveness: Low) - Your Response: In gi, be aware of grip fighting. Strip their defensive grips before fully committing to the submission. In no-gi, if they grab their own wrist or body, increase the angle of your shin pressure and pull their wrist more forcefully to break their grip. → Leads to [[game-over]]
 
 

@@ -142,7 +142,7 @@ description: "How to defend against Tarikoplata in BJJ. Recognition, escape path
 
 Defending the tarikoplata requires recognizing the threat early and acting decisively before the compound lock is fully established. The tarikoplata is most dangerous once both control vectors - the omoplata hip pressure and wrist rotation - are coordinated, so your defensive window narrows rapidly once the attacker secures the wrist grip. Unlike defending a standard omoplata where rolling forward is a viable escape, the tarikoplata's wrist control makes forward rolls extremely dangerous, as the rotational torque on the shoulder amplifies dramatically during any rolling attempt. Your primary defensive strategy must focus on preventing wrist isolation in the first place, and if that fails, on extracting your arm before the attacker can coordinate both pressure vectors. Understanding the attacker's progression sequence - omoplata establishment, wrist grip, hip adjustment, coordinated finish - gives you specific windows where defensive action is most effective. The earliest intervention produces the highest success rate, while late-stage defense against a fully locked tarikoplata carries significant injury risk and should prioritize tapping over fighting a losing position.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 
 </section>
@@ -181,21 +181,21 @@ Defending the tarikoplata requires recognizing the threat early and acting decis
 ### 1. Clasp hands together and tuck trapped wrist against your own chest to prevent wrist isolation
 
 - **When to use**: Immediately when you feel the opponent reaching for your wrist during omoplata setup, before they can establish the four-finger grip
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Converts the tarikoplata attempt into a standard omoplata defense scenario where rolling and posture recovery become viable escape paths
 - **Risk**: Both hands committed to grip defense leaves you unable to post, making you vulnerable to sweeps if the attacker drives forward
 
 ### 2. Drive posture upward explosively while the attacker is transitioning from omoplata to wrist control
 
 - **When to use**: During the brief window when the attacker releases hip control to reach for your wrist - their control is weakest during this grip transition
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Breaks the omoplata structure entirely, returning you to a neutral closed guard or open guard position where you can reestablish defensive posture
 - **Risk**: If the attacker has already secured wrist control, posturing can accelerate the shoulder stress and cause injury - only effective before wrist grip is established
 
 ### 3. Circle trapped arm inward toward your centerline while sitting back to extract shoulder from omoplata configuration
 
 - **When to use**: When the attacker has partial wrist contact but has not yet achieved full rotation - the extraction must happen before they coordinate hip drive with wrist torque
-- **Targets**: [[Scramble Position]]
+- **Targets**: [[Positions/Scramble Position]]
 - **If successful**: Extracts your arm from the submission entirely, creating a scramble situation where you can recover guard or establish top position
 - **Risk**: Pulling the arm straight back feeds the omoplata finish; the arm must circle inward along your own body to reduce shoulder extension
 
@@ -218,11 +218,11 @@ Defending the tarikoplata requires recognizing the threat early and acting decis
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Recover posture during the wrist-seeking transition window before the attacker can establish the four-finger grip, breaking the omoplata structure and returning to neutral closed guard position
 
-### → [[Scramble Position]]
+### → [[Positions/Scramble Position]]
 
 Extract trapped arm by circling inward toward centerline while sitting back, creating a scramble where your base and posture recovery give you positional advantage over the attacker who has committed to the guard-based attack
 

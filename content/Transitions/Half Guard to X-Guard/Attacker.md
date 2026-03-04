@@ -180,7 +180,7 @@ description: "Complete attacking guide for the Half Guard to X-Guard transition.
 
 As the attacker executing the Half Guard to X-Guard transition, your objective is to convert the half guard leg trap into a full X-Guard configuration by threading a butterfly hook behind the opponent's near knee and crossing your outside leg across their hip. This transition requires precise timing, angle creation through hip escaping, and the ability to read when the top player's weight distribution creates an opening for hook insertion. The entry is most effective as a counter to forward pressure or when the top player attempts to stand, creating the space needed to slide underneath their center of gravity. Mastery of this technique provides access to the entire X-Guard sweeping and leg entanglement system, dramatically expanding your offensive options from half guard bottom.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Half Guard to X-Guard transition, your objective i
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[X-Guard]] | 55% |
-| Failure | [[Half Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/X-Guard]] | 55% |
+| Failure | [[Positions/Half Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Half Guard to X-Guard transition, your objective i
 
 ## Opponent Counters
 
-- **Opponent drives heavy crossface pressure to flatten and prevent the hip escape needed to start the transition** (Effectiveness: High) - Your Response: Frame against the crossface with your forearm to create enough space for a quick hip escape. Alternatively, redirect into deep half guard where the opponent's forward pressure actually assists your entry by driving you underneath their base → Leads to [[Half Guard]]
-- **Opponent sprawls hips back and circles away when feeling the butterfly hook threading behind their knee** (Effectiveness: Medium) - Your Response: Follow their hip movement by maintaining your half guard leg trap and re-angling toward them. If they create significant distance, use the space to transition to technical stand up or single leg X-guard using whatever hook depth you have achieved → Leads to [[Half Guard]]
-- **Opponent steps over the outside leg and drives knee across to initiate smash pass before X-Guard completes** (Effectiveness: High) - Your Response: Immediately retract the outside leg and re-establish knee shield or transition to closed guard recovery before they complete the pass sequence. If the inside hook is still deep, switch to single leg X as a fallback → Leads to [[Open Guard]]
-- **Opponent grabs and pins your outside leg down to prevent the X-pattern from forming across their hip** (Effectiveness: Medium) - Your Response: Use your inside hook to elevate their base while fighting to free your outside leg with hip movement. Alternatively, abandon the full X-Guard and transition to single leg X-guard using only the inside hook as primary control, which remains effective without the outside leg crossing → Leads to [[Half Guard]]
+- **Opponent drives heavy crossface pressure to flatten and prevent the hip escape needed to start the transition** (Effectiveness: High) - Your Response: Frame against the crossface with your forearm to create enough space for a quick hip escape. Alternatively, redirect into deep half guard where the opponent's forward pressure actually assists your entry by driving you underneath their base → Leads to [[Positions/Half Guard]]
+- **Opponent sprawls hips back and circles away when feeling the butterfly hook threading behind their knee** (Effectiveness: Medium) - Your Response: Follow their hip movement by maintaining your half guard leg trap and re-angling toward them. If they create significant distance, use the space to transition to technical stand up or single leg X-guard using whatever hook depth you have achieved → Leads to [[Positions/Half Guard]]
+- **Opponent steps over the outside leg and drives knee across to initiate smash pass before X-Guard completes** (Effectiveness: High) - Your Response: Immediately retract the outside leg and re-establish knee shield or transition to closed guard recovery before they complete the pass sequence. If the inside hook is still deep, switch to single leg X as a fallback → Leads to [[Positions/Open Guard]]
+- **Opponent grabs and pins your outside leg down to prevent the X-pattern from forming across their hip** (Effectiveness: Medium) - Your Response: Use your inside hook to elevate their base while fighting to free your outside leg with hip movement. Alternatively, abandon the full X-Guard and transition to single leg X-guard using only the inside hook as primary control, which remains effective without the outside leg crossing → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -186,7 +186,7 @@ description: "Learn to execute the backstep from deep half guard as the top play
 
 As the top player caught in deep half guard, the backstep offers a direct pathway to the most dominant position in BJJ without fighting through the bottom player's strongest defensive structures. Rather than engaging in the grinding forward extraction battle where the deep half player holds mechanical advantage, the backstep redirects your movement behind them, converting their deep positioning into a liability. This technique requires you to maintain composure in an uncomfortable position, recognize the correct timing window, and commit fully to the rotational movement. The reward is immediate access to back control with hooks and seat belt, bypassing the entire guard passing sequence and jumping directly to a dominant attacking position.
 
-**From Position**: [[Deep Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Deep Half Guard]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ As the top player caught in deep half guard, the backstep offers a direct pathwa
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Deep Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Half Guard/Deep Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the top player caught in deep half guard, the backstep offers a direct pathwa
 
 ## Opponent Counters
 
-- **Bottom player follows the rotation with their hips, turning to face the passer and reguarding into deep half or half guard** (Effectiveness: High) - Your Response: Accelerate the rotation and intensify crossface pressure to pin them flat before they can follow. If they begin tracking your movement, switch direction to a smash pass or crossface pass instead of completing the backstep. → Leads to [[Deep Half Guard]]
-- **Bottom player hooks the stepping leg with their free leg during the backstep arc, preventing the step from completing** (Effectiveness: Medium) - Your Response: Keep the stepping leg tight to their body during the arc rather than swinging wide. If hooked, use your posted hand to strip their hooking leg while continuing the rotation, or abort and settle into a leg entanglement position. → Leads to [[Half Guard]]
-- **Bottom player bridges explosively into the weight shift moment, sweeping the top player before the backstep can complete** (Effectiveness: High) - Your Response: Maintain strong posting hand base throughout the weight transfer. If you feel a bridge loading, pause the backstep and drive your weight back down to neutralize the sweep before re-attempting when the bridge energy is spent. → Leads to [[Half Guard]]
-- **Bottom player releases underhook and frames against hips to create distance and prevent chest-to-back connection** (Effectiveness: Medium) - Your Response: If they release the underhook, immediately switch strategy and extract your trapped leg forward for a conventional pass since their primary deep half control mechanism is gone. Their frame creates distance but they have abandoned their strongest weapon. → Leads to [[Deep Half Guard]]
+- **Bottom player follows the rotation with their hips, turning to face the passer and reguarding into deep half or half guard** (Effectiveness: High) - Your Response: Accelerate the rotation and intensify crossface pressure to pin them flat before they can follow. If they begin tracking your movement, switch direction to a smash pass or crossface pass instead of completing the backstep. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Bottom player hooks the stepping leg with their free leg during the backstep arc, preventing the step from completing** (Effectiveness: Medium) - Your Response: Keep the stepping leg tight to their body during the arc rather than swinging wide. If hooked, use your posted hand to strip their hooking leg while continuing the rotation, or abort and settle into a leg entanglement position. → Leads to [[Positions/Half Guard]]
+- **Bottom player bridges explosively into the weight shift moment, sweeping the top player before the backstep can complete** (Effectiveness: High) - Your Response: Maintain strong posting hand base throughout the weight transfer. If you feel a bridge loading, pause the backstep and drive your weight back down to neutralize the sweep before re-attempting when the bridge energy is spent. → Leads to [[Positions/Half Guard]]
+- **Bottom player releases underhook and frames against hips to create distance and prevent chest-to-back connection** (Effectiveness: Medium) - Your Response: If they release the underhook, immediately switch strategy and extract your trapped leg forward for a conventional pass since their primary deep half control mechanism is gone. Their frame creates distance but they have abandoned their strongest weapon. → Leads to [[Positions/Half Guard/Deep Half Guard]]
 
 
 </section>

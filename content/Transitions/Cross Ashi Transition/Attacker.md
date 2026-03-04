@@ -184,7 +184,7 @@ The technique involves reconfiguring your leg position while maintaining continu
 
 Strategically, this transition serves as an essential tool when Ushiro Ashi-Garami attacks stall or when the opponent's defensive positioning creates better finishing angles from Cross Ashi. Advanced practitioners use this transition fluidly within leg lock scrambles, recognizing that different entanglement configurations offer different submission opportunities based on the opponent's hip orientation and defensive reactions.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
 
@@ -237,9 +237,9 @@ Strategically, this transition serves as an essential tool when Ushiro Ashi-Gara
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Cross Ashi-Garami]] | 65% |
-| Failure | [[Ushiro Ashi-Garami]] | 25% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Ashi Garami/Cross Ashi-Garami]] | 65% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 25% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -248,10 +248,10 @@ Strategically, this transition serves as an essential tool when Ushiro Ashi-Gara
 
 ## Opponent Counters
 
-- **Opponent retracts leg during transition when control loosens momentarily between configurations** (Effectiveness: High) - Your Response: Accelerate the transition by maintaining heel grip tension throughout. If leg begins escaping, immediately return to Ushiro configuration and reset before attempting again → Leads to [[Open Guard]]
-- **Opponent turns into the transition to enter their own leg entanglement on your exposed leg** (Effectiveness: Medium) - Your Response: Use your inside hook to block their hip rotation and prevent them from squaring up. If they achieve angle, transition to 50-50 or address their leg attack before continuing → Leads to [[Open Guard]]
-- **Opponent sits up aggressively during the switch to establish upper body frames and create distance** (Effectiveness: Medium) - Your Response: Drive your inside hook deeper and pull their heel tighter to your chest. The submission threat forces them back down. If frames establish, complete transition to Cross Ashi and threaten heel hook immediately → Leads to [[Ushiro Ashi-Garami]]
-- **Opponent kicks free leg into your hip or chest to create separation during leg reconfiguration** (Effectiveness: Low) - Your Response: Absorb the kick by staying compact and connected. Use their pushing energy to help rotate your hips into the cross position. Their extended leg often creates better finishing angle → Leads to [[Ushiro Ashi-Garami]]
+- **Opponent retracts leg during transition when control loosens momentarily between configurations** (Effectiveness: High) - Your Response: Accelerate the transition by maintaining heel grip tension throughout. If leg begins escaping, immediately return to Ushiro configuration and reset before attempting again → Leads to [[Positions/Open Guard]]
+- **Opponent turns into the transition to enter their own leg entanglement on your exposed leg** (Effectiveness: Medium) - Your Response: Use your inside hook to block their hip rotation and prevent them from squaring up. If they achieve angle, transition to 50-50 or address their leg attack before continuing → Leads to [[Positions/Open Guard]]
+- **Opponent sits up aggressively during the switch to establish upper body frames and create distance** (Effectiveness: Medium) - Your Response: Drive your inside hook deeper and pull their heel tighter to your chest. The submission threat forces them back down. If frames establish, complete transition to Cross Ashi and threaten heel hook immediately → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Opponent kicks free leg into your hip or chest to create separation during leg reconfiguration** (Effectiveness: Low) - Your Response: Absorb the kick by staying compact and connected. Use their pushing energy to help rotate your hips into the cross position. Their extended leg often creates better finishing angle → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 
 </section>

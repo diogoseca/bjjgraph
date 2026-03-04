@@ -156,7 +156,7 @@ Defending the Long Step Pass requires understanding the passer's intent and reco
 
 The defensive hierarchy against the Long Step Pass follows three stages: prevention (stopping the pass before it begins through grip fighting and distance management), disruption (interrupting the pass mid-execution by inserting frames, hooks, or creating angles), and recovery (re-establishing guard after the pass has partially succeeded). The most effective defenders operate primarily in the prevention stage, using proactive grip fighting and leg positioning to deny the passer the conditions needed to initiate the long step. At the purple and brown belt level, the ability to read the passer's weight shifts and grip changes provides critical early warning that a long step is coming, giving you time to deploy the appropriate counter before the passer builds momentum.
 
-**Opponent's Starting Position**: [[Open Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The defensive hierarchy against the Long Step Pass follows three stages: prevent
 ### 1. Insert knee shield and establish inside position with far hand framing on passer's shoulder
 
 - **When to use**: As soon as you recognize the passer angling to one side and beginning to commit weight forward for the long step
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Stops the pass completely and creates opportunity to recover full open guard, re-establish grips, or transition to knee shield half guard with strong defensive structure
 - **Risk**: If knee shield is inserted too late, the passer can smash through it with superior angle and pressure, flattening you into a worse position
 
 ### 2. Hip escape away from the passing direction while maintaining foot-on-hip frame to create distance
 
 - **When to use**: When the passer begins the long step but has not yet established crossface pressure or full chest contact
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Creates sufficient distance to re-establish full open guard with active leg frames, resetting the passing exchange to neutral
 - **Risk**: If the hip escape is too slow or the passer follows with pressure, you may end up flat on your back with the passer in a dominant angle
 
 ### 3. Underhook the passer's near arm and sit up into them, threatening a back take or sweep
 
 - **When to use**: When the passer overcommits their weight forward during the long step and their base becomes narrow or compromised
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Reverses the position entirely - you end up on top or take the back, converting a defensive position into a dominant attacking position
 - **Risk**: If the underhook is not deep enough, the passer can use a whizzer to maintain control and may accelerate their pass using your forward commitment against you
 
 ### 4. Butterfly hook insertion and elevation when passer's hips come within range during the step
 
 - **When to use**: When the passer steps deep but their hips are momentarily elevated during the stepping transition before they settle weight
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Elevates and sweeps the passer, reversing the position and potentially landing in mount or top position
 - **Risk**: If the passer's weight is already committed low and forward, the butterfly hook cannot generate sufficient lift and the passer will smash through the hook
 
@@ -227,11 +227,11 @@ The defensive hierarchy against the Long Step Pass follows three stages: prevent
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Deny the pass through early frame insertion (knee shield or foot-on-hip), grip fighting to prevent the passer from establishing control, and hip escaping away from the passing direction to re-establish full open guard with active leg positioning and grip control
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Counter-attack when the passer overcommits weight forward by using underhooks, butterfly hook elevations, or sit-up sweeps to reverse the position. Time these counters during the stepping transition when the passer's base is narrowest and most vulnerable to off-balancing
 

@@ -21,7 +21,7 @@ From a biomechanical perspective, the Defensive Roll works by accepting and then
 
 Strategically, this escape must be initiated at the correct moment in the Twister Control sequence. Attempting the roll too early, before the opponent has committed to their controls, allows them to easily readjust. Waiting too long means the spinal rotation is too severe and the escape window has closed. The ideal timing is when the opponent is transitioning their grip to hunt for the Twister finish, as this creates a brief window where their leg control may momentarily weaken. Success requires commitment to the rolling direction and immediate follow-through to a defensive position such as Turtle or Half Guard retention.
 
-**From Position**: [[Twister Control]] (Bottom)
+**From Position**: [[Positions/Twister Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, this escape must be initiated at the correct moment in the Twiste
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 45% |
-| Success | [[Half Guard]] | 20% |
-| Failure | [[Twister Control]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Turtle]] | 45% |
+| Success | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/Twister Control]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -194,25 +194,25 @@ The Defensive Roll fits into the broader Twister Control escape system as one of
 ## Related Techniques
 
 
-- [[Twister Control]] - Starting position - this is the dangerous position you are escaping from
+- [[Positions/Twister Control]] - Starting position - this is the dangerous position you are escaping from
 
-- [[Truck]] - Related position - often precedes Twister Control in attack sequences
+- [[Positions/Twister Control/Truck]] - Related position - often precedes Twister Control in attack sequences
 
-- [[Back Control]] - Counter position - opponent may establish this if they follow your roll
+- [[Positions/Back Control]] - Counter position - opponent may establish this if they follow your roll
 
-- [[Turtle]] - Common escape destination after successful Defensive Roll
+- [[Positions/Turtle]] - Common escape destination after successful Defensive Roll
 
-- [[Half Guard]] - Alternative escape destination with knee shield recovery
+- [[Positions/Half Guard]] - Alternative escape destination with knee shield recovery
 
-- [[Granby Roll to Guard]] - Related technique - similar rolling mechanics used in guard recovery
+- [[Transitions/Granby Roll to Guard]] - Related technique - similar rolling mechanics used in guard recovery
 
-- [[Crab Ride]] - Counter position - opponent may transition here during escape attempt
+- [[Positions/Crab Ride]] - Counter position - opponent may transition here during escape attempt
 
-- [[Back Door Escape]] - Follow-up system - used if opponent establishes back control after roll
+- [[Transitions/Back Door Escape]] - Follow-up system - used if opponent establishes back control after roll
 
-- [[Leg Extraction]] - Complementary escape - incremental leg freeing used before or after roll attempt
+- [[Transitions/Leg Extraction]] - Complementary escape - incremental leg freeing used before or after roll attempt
 
-- [[Frame and Turn]] - Alternative Twister Control escape using frames instead of rolling momentum
+- [[Transitions/Frame and Turn]] - Alternative Twister Control escape using frames instead of rolling momentum
 
 
 </section>

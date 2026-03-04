@@ -21,7 +21,7 @@ The critical challenge lies in maintaining constant pressure throughout the tran
 
 Strategically, this transition fits within a larger pressure cycling system. The top player who can flow between KOB, side control, mount, and north-south creates constant positional dilemmas that exhaust the bottom player's defensive resources. Returning to side control is not a retreat but a deliberate positional reset that enables fresh attacking angles, different submission entries, and renewed pressure from a mechanically advantageous platform.
 
-**From Position**: [[Knee on Belly]] (Top)
+**From Position**: [[Positions/Knee on Belly]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition fits within a larger pressure cycling system. The
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Knee on Belly]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Knee on Belly]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,21 +189,21 @@ KOB to Side Control functions as a key link in the top pressure cycling system t
 ## Related Techniques
 
 
-- [[Knee on Belly]] - Source position — the starting point of this transition where dynamic pressure is exchanged for stable control
+- [[Positions/Knee on Belly]] - Source position — the starting point of this transition where dynamic pressure is exchanged for stable control
 
-- [[Side Control]] - Target position — the destination providing stable chest-to-chest control with multiple submission and advancement options
+- [[Positions/Side Control]] - Target position — the destination providing stable chest-to-chest control with multiple submission and advancement options
 
-- [[Half Guard]] - Counter position — the bottom player may recover half guard if the transition creates space during the knee drop
+- [[Positions/Half Guard]] - Counter position — the bottom player may recover half guard if the transition creates space during the knee drop
 
-- [[KOB to Mount]] - Alternative advancement from KOB — choosing mount advancement instead of side control consolidation
+- [[Transitions/KOB to Mount]] - Alternative advancement from KOB — choosing mount advancement instead of side control consolidation
 
-- [[Frame and Shrimp from Knee on Belly]] - Primary defensive response from bottom player that often prompts this consolidation transition
+- [[Transitions/Frame and Shrimp from Knee on Belly]] - Primary defensive response from bottom player that often prompts this consolidation transition
 
-- [[Side Control to Mount]] - Natural follow-up transition after successfully consolidating to side control
+- [[Transitions/Side Control to Mount]] - Natural follow-up transition after successfully consolidating to side control
 
-- [[Consolidation to Knee on Belly]] - Reverse transition — moving from side control up to KOB, the opposite direction of this technique
+- [[Transitions/Consolidation to Knee on Belly]] - Reverse transition — moving from side control up to KOB, the opposite direction of this technique
 
-- [[North-South]] - Alternative consolidation position accessible from KOB when opponent turns toward you during transition
+- [[Positions/North-South]] - Alternative consolidation position accessible from KOB when opponent turns toward you during transition
 
 
 </section>

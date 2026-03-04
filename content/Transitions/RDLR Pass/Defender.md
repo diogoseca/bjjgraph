@@ -156,7 +156,7 @@ Defending against the RDLR Pass requires the bottom player to maintain the struc
 
 The defensive framework operates on multiple layers: maintaining the ankle grip that steers the hook's force, keeping hips elevated to preserve dynamic mobility, controlling the opponent's far leg to prevent stable base establishment, and reading the passer's weight distribution to time counter-attacks. When the passer begins their clearing sequence, the defender must decide whether to fight to maintain the RDLR hook, transition proactively to a secondary guard position, or capitalize on the passer's committed movement to launch a back take or sweep. The best defenders layer all three options simultaneously, making the pass a high-risk proposition for the top player.
 
-**Opponent's Starting Position**: [[Reverse De La Riva Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The defensive framework operates on multiple layers: maintaining the ankle grip 
 ### 1. Reinforce the ankle grip and elevate hips to threaten waiter sweep or kiss of the dragon entry
 
 - **When to use**: Early in the passing sequence when the passer begins establishing grips and widening their base but has not yet committed chest pressure
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Forces the passer to address your offensive threats before continuing the pass, potentially achieving back control or sweeping to top position
 - **Risk**: If the passer maintains heavy pressure and breaks the ankle grip despite your reinforcement, you may end up flattened with compromised guard structure
 
 ### 2. Transition proactively to X-Guard or Single Leg X as the passer begins clearing the hook
 
 - **When to use**: When you feel the RDLR hook being stripped and cannot maintain the original guard structure—convert the clearing motion into a guard transition rather than fighting a losing battle
-- **Targets**: [[Reverse De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 - **If successful**: Establishes a new guard position with strong sweeping potential, effectively resetting the passing exchange from a position of strength
 - **Risk**: If the transition is too slow, the passer can backstep out of the secondary guard and achieve a more dominant passing angle
 
 ### 3. Invert underneath the passer and attempt berimbolo rotation to take the back
 
 - **When to use**: When the passer stands tall or shifts weight backward during the clearing attempt, creating space underneath their hips for inversion
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Achieves back control, completely reversing the positional exchange and scoring the highest-value position in BJJ
 - **Risk**: If the passer sprawls or backsteps effectively during your inversion, you can end up with your back exposed in a compromised turtle or flat position
 
 ### 4. Hip escape away and re-establish RDLR hook on the opposite leg after the initial hook is cleared
 
 - **When to use**: When the passer successfully clears your hook but has not yet established their knee barrier or committed to a circling direction
-- **Targets**: [[Reverse De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 - **If successful**: Resets the entire passing exchange, forcing the passer to restart the clearing sequence from scratch on the opposite side
 - **Risk**: If your re-guard is too slow, the passer can consolidate the pass and advance to side control before you establish the new hook
 
@@ -227,11 +227,11 @@ The defensive framework operates on multiple layers: maintaining the ankle grip 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Time your berimbolo or kiss of the dragon entry when the passer stands tall, shifts weight backward, or releases their far hip grip. Use your ankle grip to steer their base while inverting underneath their center of gravity, threading your hooks as you rotate to establish back control.
 
-### → [[Reverse De La Riva Guard]]
+### → [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 
 Maintain active hip elevation and constant push-pull pressure with both legs while threatening sweeps. If the passer's base is compromised by a waiter sweep attempt, complete the sweep by extending your hook-side leg while pulling across with your grips, arriving in top position. Alternatively, re-establish the guard after a failed clearing attempt by hip escaping and re-hooking.
 

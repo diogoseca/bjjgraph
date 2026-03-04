@@ -21,7 +21,7 @@ The core strategic principle is that the lapel wrap loses much of its sweeping a
 
 This pass is particularly effective against opponents who rely heavily on Keenan Cornelius-style lapel guard systems, as it addresses the root mechanical problem rather than trying to muscle through the wrap from a compromised kneeling position. The technique demands patience and disciplined posture maintenance, as premature passing attempts before the lapel is fully cleared will result in sweeps or re-entanglement. When executed correctly, the distance created during extraction leaves the bottom player in a weakened open guard with no grips, making the subsequent toreando or leg drag pass high-percentage.
 
-**From Position**: [[Ringworm Guard]] (Top)
+**From Position**: [[Positions/Ringworm Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,11 +32,11 @@ This pass is particularly effective against opponents who rely heavily on Keenan
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Success | [[Headquarters Position]] | 10% |
-| Failure | [[Ringworm Guard]] | 20% |
-| Failure | [[Open Guard]] | 5% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Side Control]] | 55% |
+| Success | [[Positions/Headquarters Position]] | 10% |
+| Failure | [[Positions/Ringworm Guard]] | 20% |
+| Failure | [[Positions/Open Guard]] | 5% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -195,29 +195,29 @@ The Standing Guard Pass with Distance Creation occupies a critical role in the t
 ## Related Techniques
 
 
-- [[Ringworm Guard]] - Starting position - the lapel guard configuration this technique is designed to escape and pass
+- [[Positions/Ringworm Guard]] - Starting position - the lapel guard configuration this technique is designed to escape and pass
 
-- [[Side Control]] - Primary target position upon successful completion of the pass
+- [[Positions/Side Control]] - Primary target position upon successful completion of the pass
 
-- [[Headquarters Position]] - Secondary target position if pass completes partially with opponent retaining half guard hooks
+- [[Positions/Headquarters Position]] - Secondary target position if pass completes partially with opponent retaining half guard hooks
 
-- [[Lapel Grip Break and Posture Recovery]] - Alternative technique - ground-based grip break when standing is too risky
+- [[Transitions/Lapel Grip Break and Posture Recovery]] - Alternative technique - ground-based grip break when standing is too risky
 
-- [[Long Step Around Ringworm]] - Alternative technique - long step passing approach against Ringworm Guard
+- [[Transitions/Long Step Around Ringworm]] - Alternative technique - long step passing approach against Ringworm Guard
 
-- [[Backstep Around Worm Guard]] - Related technique - backstep approach against similar lapel guard configurations
+- [[Transitions/Backstep Around Worm Guard]] - Related technique - backstep approach against similar lapel guard configurations
 
-- [[Lapel Clear to Toreando Pass]] - Follow-up technique - toreando finish after lapel clearance
+- [[Transitions/Lapel Clear to Toreando Pass]] - Follow-up technique - toreando finish after lapel clearance
 
-- [[Leg Drag Pass]] - Follow-up technique - leg drag finish after distance creation
+- [[Transitions/Leg Drag Pass]] - Follow-up technique - leg drag finish after distance creation
 
-- [[Berimbolo Entry]] - Counter threat - inversion-based back take the opponent may attempt during extraction
+- [[Transitions/Berimbolo Entry]] - Counter threat - inversion-based back take the opponent may attempt during extraction
 
-- [[Bullfighter Pass]] - Follow-up technique - toreando variant available after creating distance and clearing lapel
+- [[Transitions/Bullfighter Pass]] - Follow-up technique - toreando variant available after creating distance and clearing lapel
 
-- [[Back Control]] - Counter threat position - where you end up if opponent successfully takes your back during extraction
+- [[Positions/Back Control]] - Counter threat position - where you end up if opponent successfully takes your back during extraction
 
-- [[Open Guard]] - Intermediate state - position reached if extraction succeeds but passing grip transition is delayed
+- [[Positions/Open Guard]] - Intermediate state - position reached if extraction succeeds but passing grip transition is delayed
 
 
 </section>

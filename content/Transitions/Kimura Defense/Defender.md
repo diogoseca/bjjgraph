@@ -142,7 +142,7 @@ The Kimura Defense Defender is the practitioner who holds the kimura grip from t
 
 The key challenge is maintaining the figure-four grip structure while the opponent generates movement and momentum. Rather than fighting every escape with static resistance, the defender uses dynamic pressure adjustments - walking feet for angle, switching between chest pressure and hip pressure, and leveraging the grip itself as a steering mechanism to guide the opponent into worse positions. The defender who reads escape timing and preempts defensive movement maintains offensive initiative throughout the exchange.
 
-**Opponent's Starting Position**: [[Kimura Trap]] (Top)
+**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Top)
 
 </section>
 
@@ -178,21 +178,21 @@ The key challenge is maintaining the figure-four grip structure while the oppone
 ### 1. Tighten grip and walk feet toward opponent's head to increase finishing angle
 
 - **When to use**: When opponent begins arm circling but has not yet generated rolling momentum
-- **Targets**: [[Kimura Trap]]
+- **Targets**: [[Positions/Kimura Trap]]
 - **If successful**: Maintains kimura control with improved finishing angle, forcing opponent back into survival mode
 - **Risk**: Walking feet reduces base stability, making you vulnerable to bridge-and-roll if timing is poor
 
 ### 2. Follow the rolling escape and transition to back control or mount while maintaining grip
 
 - **When to use**: When opponent commits to the forward roll and you cannot prevent the rotation
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Convert the escape attempt into a positional advancement, arriving in mount or back control with arm still controlled
 - **Risk**: If you lose the grip during the follow, opponent recovers to neutral position
 
 ### 3. Sprawl hips back and drive shoulder pressure down to flatten opponent and kill rolling momentum
 
 - **When to use**: When you feel the opponent loading their bridge before they initiate the roll
-- **Targets**: [[Kimura Trap]]
+- **Targets**: [[Positions/Kimura Trap]]
 - **If successful**: Kills the escape attempt entirely, pinning opponent flat and resetting to dominant kimura control
 - **Risk**: Sprawling shifts weight off hips, potentially allowing opponent to shrimp out the back door
 
@@ -204,11 +204,11 @@ The key challenge is maintaining the figure-four grip structure while the oppone
 
 ## Best-Case Outcomes for Defender
 
-### → [[Kimura Trap]]
+### → [[Positions/Kimura Trap]]
 
 Maintain deep grip and heavy chest pressure throughout the escape attempt. When opponent circles their arm, tighten the figure-four and walk your feet to increase the finishing angle. Use your bodyweight to pin them flat and prevent rolling momentum from developing. Reset to stable control and re-threaten the submission.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the opponent successfully breaks your kimura grip through persistent rolling or arm extraction, immediately consolidate top position by establishing crossface and hip pressure. Transition to standard side control before they can recover guard. Your positional advantage remains even without the grip.
 

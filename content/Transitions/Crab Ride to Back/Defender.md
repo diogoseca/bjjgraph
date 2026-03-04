@@ -158,7 +158,7 @@ The critical defensive principle is prevention over recovery. Stopping the seat 
 
 Advanced defenders can create counter-attacking opportunities from this position by exploiting the attacker's commitment to specific grip changes. When the attacker releases near arm control to establish the seat belt, a well-timed sit-through or Granby roll can reverse the position entirely. The key is recognizing that the attacker is most vulnerable during transitions between control points, not when they are statically holding position. Developing the ability to feel these transitional moments through tactile awareness rather than visual recognition separates competent defenders from those who simply survive until they are submitted.
 
-**Opponent's Starting Position**: [[Crab Ride]] (Top)
+**Opponent's Starting Position**: [[Positions/Crab Ride]] (Top)
 
 </section>
 
@@ -197,28 +197,28 @@ Advanced defenders can create counter-attacking opportunities from this position
 ### 1. Sit through to guard by dropping your near hip to the mat and turning into the attacker before the seat belt is completed
 
 - **When to use**: Early in the transition when the attacker has only one hook and has not yet secured the seat belt grip. Most effective when the attacker releases near arm control to establish the over-shoulder grip.
-- **Targets**: [[Crab Ride]]
+- **Targets**: [[Positions/Crab Ride]]
 - **If successful**: You face the attacker and can establish a guard position such as half guard or butterfly guard, completely neutralizing the back take threat
 - **Risk**: If timed poorly, the attacker follows your turn and establishes the seat belt during rotation, accelerating the back take
 
 ### 2. Strip the hooking leg by cupping the ankle and driving it toward the mat while explosively shifting your hips away from the hook side
 
 - **When to use**: When the attacker's hook is shallow or they are adjusting their leg position. Best combined with upper body frames to prevent the attacker from reinsetting the hook immediately.
-- **Targets**: [[Crab Ride]]
+- **Targets**: [[Positions/Crab Ride]]
 - **If successful**: You remove the primary anchor of the Crab Ride, returning to standard turtle where escape options are significantly better
 - **Risk**: Reaching for the hook exposes your near arm and can open space for the attacker to deepen their seat belt grip
 
 ### 3. Granby roll away from the hook side, inverting underneath the attacker to recover guard position
 
 - **When to use**: When the attacker commits weight forward for the seat belt or second hook insertion, creating the momentum needed for the inversion. Requires enough space to initiate the roll before the attacker can flatten you.
-- **Targets**: [[Crab Ride]]
+- **Targets**: [[Positions/Crab Ride]]
 - **If successful**: You invert underneath the attacker and recover to closed guard or open guard, completely escaping the back take and potentially creating your own offensive opportunities
 - **Risk**: Failed Granby rolls can result in being flattened face-down with the attacker in an even stronger back control position
 
 ### 4. Stand up explosively while the attacker has only one hook established and the seat belt is incomplete
 
 - **When to use**: When you have strong base on both hands and at least one foot posted, and the attacker's upper body control is limited to near arm grip only. Most effective against lighter opponents or when you detect the attacker adjusting grips.
-- **Targets**: [[Crab Ride]]
+- **Targets**: [[Positions/Crab Ride]]
 - **If successful**: You break free of the turtle position entirely and can face the opponent from standing, resetting to a neutral position
 - **Risk**: If the attacker maintains hooks and seat belt during the stand, you end up in standing back control which is equally dangerous
 
@@ -230,11 +230,11 @@ Advanced defenders can create counter-attacking opportunities from this position
 
 ## Best-Case Outcomes for Defender
 
-### → [[Crab Ride]]
+### → [[Positions/Crab Ride]]
 
 Strip the attacker's hooking leg by cupping the ankle from the inside and driving it to the mat while explosively shifting your hips away. Combine with strong posting on your near arm to prevent the attacker from reestablishing control. Once the hook is cleared, immediately move to rebuild your turtle base or stand up before the attacker can re-engage.
 
-### → [[Crab Ride]]
+### → [[Positions/Crab Ride]]
 
 Execute a well-timed sit-through or Granby roll when the attacker transitions between grip configurations. The optimal window is when they release near arm control to establish the seat belt. Drop your near hip to the mat and turn aggressively into the attacker, using their forward weight commitment against them to complete the rotation to a guard-facing position.
 

@@ -188,7 +188,7 @@ description: "Learn to finish the outside heel hook from Cross Ashi-Garami. Step
 
 Executing the outside heel hook from Cross Ashi-Garami demands precise coordination between leg entanglement maintenance, grip establishment, and rotational finishing mechanics. The attacker must first secure dominant cross ashi control with a tight inside hook and outside cross that prevents the defender from retracting their knee or rotating their hip. Only after positional dominance is confirmed should the attacker transition to heel exposure and grip completion. The finishing sequence uses external rotation of the heel against the fixed femur, generating torsional force that attacks the lateral knee ligaments. Patience in establishing control before attempting the finish separates high-percentage finishers from those who burn energy on low-probability attempts from loose entanglements.
 
-**From Position**: [[Cross Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Top)
 
 
 </section>
@@ -244,8 +244,8 @@ Executing the outside heel hook from Cross Ashi-Garami demands precise coordinat
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Cross Ashi-Garami]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Failure | [[Positions/Ashi Garami/Cross Ashi-Garami]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -254,11 +254,11 @@ Executing the outside heel hook from Cross Ashi-Garami demands precise coordinat
 
 ## Opponent Defenses
 
-- **Defender rotates knee inward to hide heel and prevent grip establishment on the Achilles** (Effectiveness: High) - Your Response: Follow their rotation by scooting your hips and adjusting your body angle. Use your outside cross pressure to counter-rotate their knee outward. If they commit fully to the inward turn, transition to inside ashi-garami or saddle where their rotation aids your advancement. → Leads to [[Cross Ashi-Garami]]
-- **Defender clasps hands together around your wrist to prevent grip completion on the heel** (Effectiveness: High) - Your Response: Break the clasp by driving your elbow downward toward the mat while pulling their heel upward, separating their hands at the thumbs. Alternatively, switch to a toe hold grip which attacks from a different angle and doesn't require the same heel exposure. Keep constant leg pressure so they cannot escape during the grip battle. → Leads to [[Cross Ashi-Garami]]
-- **Defender attempts boot scoot escape by pulling trapped leg free while pushing on your hips with their free leg** (Effectiveness: Medium) - Your Response: Tighten your leg triangle immediately by squeezing knees together and pulling your inside hook deeper. Follow their retreating movement by scooting your hips to maintain connection. If they create significant distance, consider switching to a straight ankle lock which works at longer range before they fully extract. → Leads to [[Open Guard]]
-- **Defender rolls with the rotational pressure to relieve stress on the knee joint** (Effectiveness: Medium) - Your Response: Follow their roll by maintaining your grip and leg control throughout their rotation. Their rolling motion often creates additional heel exposure as they turn. Adjust your body angle to stay perpendicular to their new hip line and continue the finish from the updated angle. The roll often transitions them into a worse position for defense. → Leads to [[Cross Ashi-Garami]]
-- **Defender stands up and attempts to stack or step over to disengage the cross ashi configuration** (Effectiveness: Low) - Your Response: Their standing attempt is difficult from deep cross ashi because the wedge effect of your crossed legs prevents hip elevation. If they do partially stand, their elevated position actually extends their trapped leg further, improving your finishing mechanics. Accelerate the heel hook attempt or transition to a kneebar as their knee straightens. → Leads to [[Open Guard]]
+- **Defender rotates knee inward to hide heel and prevent grip establishment on the Achilles** (Effectiveness: High) - Your Response: Follow their rotation by scooting your hips and adjusting your body angle. Use your outside cross pressure to counter-rotate their knee outward. If they commit fully to the inward turn, transition to inside ashi-garami or saddle where their rotation aids your advancement. → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- **Defender clasps hands together around your wrist to prevent grip completion on the heel** (Effectiveness: High) - Your Response: Break the clasp by driving your elbow downward toward the mat while pulling their heel upward, separating their hands at the thumbs. Alternatively, switch to a toe hold grip which attacks from a different angle and doesn't require the same heel exposure. Keep constant leg pressure so they cannot escape during the grip battle. → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- **Defender attempts boot scoot escape by pulling trapped leg free while pushing on your hips with their free leg** (Effectiveness: Medium) - Your Response: Tighten your leg triangle immediately by squeezing knees together and pulling your inside hook deeper. Follow their retreating movement by scooting your hips to maintain connection. If they create significant distance, consider switching to a straight ankle lock which works at longer range before they fully extract. → Leads to [[Positions/Open Guard]]
+- **Defender rolls with the rotational pressure to relieve stress on the knee joint** (Effectiveness: Medium) - Your Response: Follow their roll by maintaining your grip and leg control throughout their rotation. Their rolling motion often creates additional heel exposure as they turn. Adjust your body angle to stay perpendicular to their new hip line and continue the finish from the updated angle. The roll often transitions them into a worse position for defense. → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- **Defender stands up and attempts to stack or step over to disengage the cross ashi configuration** (Effectiveness: Low) - Your Response: Their standing attempt is difficult from deep cross ashi because the wedge effect of your crossed legs prevents hip elevation. If they do partially stand, their elevated position actually extends their trapped leg further, improving your finishing mechanics. Accelerate the heel hook attempt or transition to a kneebar as their knee straightens. → Leads to [[Positions/Open Guard]]
 
 
 </section>

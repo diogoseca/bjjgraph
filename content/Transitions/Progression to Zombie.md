@@ -21,7 +21,7 @@ Strategically, this transition exploits the opponent's compromised posture in Ne
 
 The biomechanical advantage of Zombie over New York lies in the increased leverage created by the higher leg position. By bringing the shin from across the back to wrapping around the shoulder and neck region, the bottom player gains mechanical advantage that makes posture recovery nearly impossible. This deeper control also opens direct pathways to high-percentage submissions including the gogoplata, omoplata, and various choke combinations that are less accessible from standard New York control.
 
-**From Position**: [[New York]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The biomechanical advantage of Zombie over New York lies in the increased levera
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Zombie]] | 58% |
-| Failure | [[New York]] | 27% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Zombie]] | 58% |
+| Failure | [[Positions/Rubber Guard/New York]] | 27% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ Progression to Zombie is a critical link in the 10th Planet Rubber Guard system'
 ## Related Techniques
 
 
-- [[New York]] - Starting position - must be established before Progression to Zombie
+- [[Positions/Rubber Guard/New York]] - Starting position - must be established before Progression to Zombie
 
-- [[Zombie]] - Target position - deeper rubber guard control achieved through this transition
+- [[Positions/Rubber Guard/Zombie]] - Target position - deeper rubber guard control achieved through this transition
 
-- [[Mission Control]] - Foundation position - entry point to entire rubber guard system
+- [[Positions/Rubber Guard/Mission Control]] - Foundation position - entry point to entire rubber guard system
 
-- [[Invisible Collar]] - Alternative progression from New York - targets neck control
+- [[Positions/Rubber Guard/Invisible Collar]] - Alternative progression from New York - targets neck control
 
-- [[Chill Dog]] - Follow-up position from Zombie - gogoplata setup
+- [[Positions/Rubber Guard/Chill Dog]] - Follow-up position from Zombie - gogoplata setup
 
-- [[Carni]] - Alternative progression - omoplata attack pathway
+- [[Positions/Rubber Guard/Carni]] - Alternative progression - omoplata attack pathway
 
-- [[Gogoplata]] - Primary submission available from Zombie position
+- [[Transitions/Gogoplata]] - Primary submission available from Zombie position
 
-- [[Closed Guard]] - Fallback position if rubber guard control fails
+- [[Positions/Closed Guard]] - Fallback position if rubber guard control fails
 
-- [[Omoplata]] - Secondary submission pathway accessible from Zombie
+- [[Transitions/Omoplata]] - Secondary submission pathway accessible from Zombie
 
-- [[Advance to Chill Dog]] - Alternative transition from New York toward gogoplata pathway
+- [[Transitions/Advance to Chill Dog]] - Alternative transition from New York toward gogoplata pathway
 
 
 </section>

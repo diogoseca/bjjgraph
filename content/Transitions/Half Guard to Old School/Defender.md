@@ -154,7 +154,7 @@ description: "How to defend and prevent the Transition to Old School in BJJ half
 
 Defending against the Transition to Old School requires the top player to recognize the entry sequence early and disrupt it before all three controls are established. The defender's window of opportunity narrows dramatically with each control the bottom player secures: once lockdown, underhook, and head control are all in place, escape becomes significantly more difficult and energy-intensive. The most effective defensive strategy is prevention through early recognition, where the top player identifies the lockdown attempt and immediately applies counters before the bottom player can progress to upper body controls. Understanding the attacker's sequence allows the defender to target the weakest link in the chain at the optimal moment.
 
-**Opponent's Starting Position**: [[Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against the Transition to Old School requires the top player to recogn
 ### 1. Establish immediate crossface and whizzer upon feeling lockdown
 
 - **When to use**: As soon as you feel the lockdown figure-four being established, before the bottom player can initiate pumps or underhook attempts
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Bottom player cannot establish underhook and remains in standard half guard bottom without Old School controls
 - **Risk**: If crossface is too aggressive without base adjustment, bottom player may use your forward drive to accelerate their underhook entry
 
 ### 2. Drive heavy crossface to flatten bottom player onto their back
 
 - **When to use**: When bottom player begins turning to their side to initiate the underhook thread, before the underhook is fully secured
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Bottom player is flattened with no side angle, eliminating underhook leverage and creating passing opportunities
 - **Risk**: Over-committing forward weight can be exploited by lockdown pump timing to accelerate their entry or create a sweep
 
 ### 3. Extract trapped leg from lockdown through systematic hip pressure and ankle manipulation
 
 - **When to use**: When lockdown is established but upper body controls are not yet complete, giving you a window to address the leg entanglement
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Lockdown is broken, removing the foundation of the Old School position and returning to standard half guard passing situation
 - **Risk**: Focusing on leg extraction while neglecting upper body defense may allow the underhook to be established during the extraction attempt
 
 ### 4. Post free leg wide and sprawl hips to neutralize lockdown pumps
 
 - **When to use**: When bottom player begins pumping lockdown rhythmically to create base disruption and underhook windows
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your wide base absorbs the pump energy without significant disruption, denying the windows that enable underhook threading
 - **Risk**: Wide posting reduces forward pressure and may create the angle bottom player needs to thread the underhook from a different angle
 
@@ -225,11 +225,11 @@ Defending against the Transition to Old School requires the top player to recogn
 
 ## Best-Case Outcomes for Defender
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Drive heavy crossface into the bottom player's jaw while maintaining low hip pressure and wide base posting. The crossface turns their head away and flattens their torso to the mat, eliminating the side angle required for underhook establishment. Once flat, progress your half guard pass through knee slice or smash pass before they can re-establish lockdown and side angle.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Break the lockdown by systematically working your trapped ankle free through hip pressure adjustments and circular ankle extraction. Keep your whizzer deep and crossface heavy throughout the extraction. Once the lockdown is broken, immediately pressure forward into standard half guard top position and begin your passing sequence before they can re-establish the figure-four.
 

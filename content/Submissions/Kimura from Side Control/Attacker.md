@@ -182,7 +182,7 @@ description: "How to execute Kimura from Side Control in BJJ. Attacking perspect
 
 The Kimura from Side Control is one of the most fundamental and high-percentage shoulder locks in Brazilian Jiu-Jitsu, offering exceptional control and finishing potential from a dominant top position. This submission targets the shoulder joint through figure-four grip mechanics, creating rotational and elevational stress that forces the tap. From side control, the attacker has superior positioning, weight distribution, and multiple angles to establish the lock while the opponent's mobility is severely restricted. The technique's versatility allows for seamless transitions to other submissions, back takes, or positional advancements if the opponent defends. The Kimura grip itself becomes a powerful control mechanism, enabling the top player to manipulate the opponent's posture, break their defensive frames, and create submission opportunities even when the finish isn't immediately available. This makes it an essential tool for maintaining offensive pressure from side control while constantly threatening the finish.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -239,8 +239,8 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -249,10 +249,10 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 ## Opponent Defenses
 
-- **Opponent grabs their own belt or gi pants to prevent arm isolation** (Effectiveness: High) - Your Response: Use your head and shoulder to drive their elbow away from their body while using your near hand to pry their grip open. Alternatively, transition to Americana or maintain control and wait for grip fatigue. → Leads to [[Side Control]]
-- **Opponent turns into you (toward your legs) to escape the rotation** (Effectiveness: High) - Your Response: Block their hip with your near knee and maintain chest pressure to prevent the turn. If they succeed in turning, follow them to take the back or adjust to a rolling Kimura variation. → Leads to [[Closed Guard]]
-- **Opponent straightens their arm completely to break the figure-four structure** (Effectiveness: Medium) - Your Response: Keep your elbows pinched together near their body to prevent full extension. If they straighten, transition to an armbar or use the Kimura grip to sweep them when they push. → Leads to [[Side Control]]
-- **Opponent bridges explosively to create space and escape their hips** (Effectiveness: Medium) - Your Response: Maintain the Kimura grip and ride the bridge, then as they come down, immediately reestablish side control pressure. Use the grip to prevent them from turning away. → Leads to [[Side Control]]
+- **Opponent grabs their own belt or gi pants to prevent arm isolation** (Effectiveness: High) - Your Response: Use your head and shoulder to drive their elbow away from their body while using your near hand to pry their grip open. Alternatively, transition to Americana or maintain control and wait for grip fatigue. → Leads to [[Positions/Side Control]]
+- **Opponent turns into you (toward your legs) to escape the rotation** (Effectiveness: High) - Your Response: Block their hip with your near knee and maintain chest pressure to prevent the turn. If they succeed in turning, follow them to take the back or adjust to a rolling Kimura variation. → Leads to [[Positions/Closed Guard]]
+- **Opponent straightens their arm completely to break the figure-four structure** (Effectiveness: Medium) - Your Response: Keep your elbows pinched together near their body to prevent full extension. If they straighten, transition to an armbar or use the Kimura grip to sweep them when they push. → Leads to [[Positions/Side Control]]
+- **Opponent bridges explosively to create space and escape their hips** (Effectiveness: Medium) - Your Response: Maintain the Kimura grip and ride the bridge, then as they come down, immediately reestablish side control pressure. Use the grip to prevent them from turning away. → Leads to [[Positions/Side Control]]
 - **Opponent uses their free hand to push your head or create frames** (Effectiveness: Low) - Your Response: Use your head position to swim under their framing arm or pin it with your body weight. Your dominant side control position should neutralize single-arm frames if your pressure is correct. → Leads to [[game-over]]
 
 

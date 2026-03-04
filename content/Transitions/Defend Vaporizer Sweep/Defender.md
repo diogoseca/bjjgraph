@@ -138,7 +138,7 @@ description: "Learn to complete Vaporizer sweeps against defensive opponents. Ad
 
 The Defend Vaporizer Sweep defender is the bottom player whose sweep attempts from the Vaporizer position are being actively countered by a technically aware top player. When the top player successfully reads and defends the initial sweep, the bottom player must adapt by adjusting sweep mechanics, transitioning to alternative attacks such as the Electric Chair or Truck entry, or re-establishing Vaporizer control to threaten from a different angle. Understanding how the top player defends each specific sweep enables the bottom player to set traps and create chains of attacks that exploit defensive commitments. The key insight is that each defensive response the top player makes opens a different offensive opportunity, and the bottom player who can flow between these threats maintains offensive pressure even against well-prepared opponents.
 
-**Opponent's Starting Position**: [[Vaporizer]] (Top)
+**Opponent's Starting Position**: [[Positions/Vaporizer]] (Top)
 
 </section>
 
@@ -176,28 +176,28 @@ The Defend Vaporizer Sweep defender is the bottom player whose sweep attempts fr
 ### 1. Transition to Electric Chair by releasing lockdown and controlling far leg when top player widens base to defend sweep
 
 - **When to use**: When the top player commits to a wide base with knees spread apart to resist lateral rolling, exposing the far leg to capture and split
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Top player's far leg is captured and split, leading to Electric Chair submission or sweep to dominant top position
 - **Risk**: If far leg control fails, you lose the lockdown and the top player may immediately clear to half guard top
 
 ### 2. Switch to rolling back take toward Truck when top player drives forward shoulder pressure
 
 - **When to use**: When the top player commits weight forward through shoulder pressure, creating momentum that can be redirected into a rotational back take toward Truck position
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Top player is rotated and you secure leg hooks for Truck position or back control
 - **Risk**: If rotation is stopped, you may lose your underhook and the top player consolidates half guard top with strong crossface
 
 ### 3. Tighten lockdown and re-establish whip-up from an adjusted angle after initial defense
 
 - **When to use**: When the top player has defended the initial sweep but has not yet begun clearing the lockdown, providing a window to reset the attacking sequence
-- **Targets**: [[Vaporizer]]
+- **Targets**: [[Positions/Vaporizer]]
 - **If successful**: Full Vaporizer control is re-established with the top player still trapped, enabling renewed sweep and submission threats from a fresh angle
 - **Risk**: Repeated attempts from the same position may fatigue your legs and give the top player additional time to work their lockdown clearing sequence
 
 ### 4. Accelerate sweep commitment when lockdown clearing is detected before extraction progresses
 
 - **When to use**: When you feel the top player beginning to circulate their leg and the lockdown begins to loosen, requiring immediate offensive commitment before control is lost
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Sweep is completed before the lockdown fully clears, catching the top player in transition between defensive phases
 - **Risk**: Rushing the sweep without full lockdown control may produce a sloppy technique that the top player can easily defend or counter
 
@@ -209,11 +209,11 @@ The Defend Vaporizer Sweep defender is the bottom player whose sweep attempts fr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Chain sweep attempts by reading the top player's defensive commitment direction and attacking the opposite side. When they widen base for Old School defense, transition to Electric Chair. When they drive forward pressure, redirect into rolling back take. Force them to choose which sweep to defend, then execute the complementary attack they cannot simultaneously counter.
 
-### → [[Vaporizer]]
+### → [[Positions/Vaporizer]]
 
 Maintain lockdown integrity and re-establish whip-up pressure from an adjusted angle after each defended sweep attempt. Use small hip adjustments to change the angle of force and refresh underhook depth each time. As long as the lockdown remains intact and the underhook is active, you retain the offensive advantage and can continue threatening sweeps until one succeeds.
 

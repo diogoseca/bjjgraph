@@ -21,7 +21,7 @@ Strategically, the counter throw occupies a critical niche in the standing rear 
 
 The counter throw family from rear clinch draws heavily from judo and wrestling methodology adapted for grappling contexts. The lateral drop variant uses the opponent's body lock as a lever, the modified hip throw (o-goshi adaptation) requires turning into the opponent's pressure, and sacrifice throw variations trade positional risk for explosive finishing power. Each variant addresses a different grip configuration and weight distribution pattern from the controlling player, making the practitioner's ability to read these variables the primary determinant of success.
 
-**From Position**: [[Standing Rear Clinch]] (Bottom)
+**From Position**: [[Positions/Standing Rear Clinch]] (Bottom)
 **Success Rate**: 35%
 
 </section>
@@ -32,9 +32,9 @@ The counter throw family from rear clinch draws heavily from judo and wrestling 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 35% |
-| Failure | [[Standing Rear Clinch]] | 38% |
-| Counter | [[Back Control]] | 27% |
+| Success | [[Positions/Mount]] | 35% |
+| Failure | [[Positions/Standing Rear Clinch]] | 38% |
+| Counter | [[Positions/Back Control]] | 27% |
 
 
 </section>
@@ -196,27 +196,27 @@ The counter throw from standing rear clinch sits at the intersection of defensiv
 ## Related Techniques
 
 
-- [[Standing Rear Clinch]] - Starting position where opponent has established rear control requiring counter throw defense
+- [[Positions/Standing Rear Clinch]] - Starting position where opponent has established rear control requiring counter throw defense
 
-- [[Mount]] - Primary success outcome position achieved when counter throw lands cleanly
+- [[Positions/Mount]] - Primary success outcome position achieved when counter throw lands cleanly
 
-- [[Back Control]] - Counter outcome position opponent achieves if throw attempt fails and they follow to ground
+- [[Positions/Back Control]] - Counter outcome position opponent achieves if throw attempt fails and they follow to ground
 
-- [[Standing Switch from Rear Clinch]] - Alternative escape technique from same position using hip switch rather than throw
+- [[Transitions/Standing Switch from Rear Clinch]] - Alternative escape technique from same position using hip switch rather than throw
 
-- [[Defense from Standing Rear Clinch]] - Complementary defensive system using grip fighting and incremental escape from same position
+- [[Transitions/Defense from Standing Rear Clinch]] - Complementary defensive system using grip fighting and incremental escape from same position
 
-- [[Body Lock Takedown from Clinch]] - Related standing takedown technique sharing hip loading and level change mechanics
+- [[Transitions/Body Lock Takedown from Clinch]] - Related standing takedown technique sharing hip loading and level change mechanics
 
-- [[Mat Return from Standing Rear Clinch]] - Opponent's primary offensive transition that the counter throw aims to preempt
+- [[Transitions/Mat Return from Standing Rear Clinch]] - Opponent's primary offensive transition that the counter throw aims to preempt
 
-- [[Clinch]] - Neutral standing position that may result from partially successful counter throw attempts
+- [[Positions/Clinch]] - Neutral standing position that may result from partially successful counter throw attempts
 
-- [[Standing Position]] - Neutral standing state achieved if throw creates full separation without ground transition
+- [[Positions/Standing Position]] - Neutral standing state achieved if throw creates full separation without ground transition
 
-- [[Side Control]] - Alternative landing position from lateral drop variant when full mount rotation is incomplete
+- [[Positions/Side Control]] - Alternative landing position from lateral drop variant when full mount rotation is incomplete
 
-- [[Suplex from Rear Clinch]] - Related high-amplitude throw from similar position with different mechanics and risk profile
+- [[Transitions/Suplex from Rear Clinch]] - Related high-amplitude throw from similar position with different mechanics and risk profile
 
 
 </section>

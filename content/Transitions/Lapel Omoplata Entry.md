@@ -21,7 +21,7 @@ From lapel guard bottom, the practitioner uses the existing lapel configuration 
 
 Strategically, this entry creates a true dilemma for the top player. When threatened with lapel sweeps, posting the hand becomes a natural defensive reaction. However, this posting arm becomes the target for omoplata entry. The technical challenge lies in maintaining lapel control while executing the hip rotation necessary to thread the leg over the opponent's shoulder. Success requires precise timing—attacking the posting arm at the moment of maximum commitment when the opponent cannot easily retract.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this entry creates a true dilemma for the top player. When threat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Omoplata Control]] | 55% |
-| Failure | [[Lapel Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Omoplata Control]] | 55% |
+| Failure | [[Positions/Lapel Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -185,21 +185,21 @@ Lapel Omoplata Entry occupies a critical position in the lapel guard attack syst
 ## Related Techniques
 
 
-- [[Lapel Guard]] - Starting position for this technique
+- [[Positions/Lapel Guard]] - Starting position for this technique
 
-- [[Omoplata Control]] - Target position on successful entry
+- [[Positions/Omoplata Control]] - Target position on successful entry
 
-- [[Worm Guard]] - Common lapel variation for omoplata setup via leg wrap destabilization
+- [[Positions/Worm Guard]] - Common lapel variation for omoplata setup via leg wrap destabilization
 
-- [[Squid Guard]] - Alternative lapel configuration using arm wrap for tighter entry mechanics
+- [[Positions/Squid Guard]] - Alternative lapel configuration using arm wrap for tighter entry mechanics
 
-- [[Lapel Sweep to Back]] - Complementary attack that forces the posting reaction targeted by this entry
+- [[Transitions/Lapel Sweep to Back]] - Complementary attack that forces the posting reaction targeted by this entry
 
-- [[Lapel Triangle Setup]] - Chain attack when arm escapes but head remains trapped during rotation
+- [[Transitions/Lapel Triangle Setup]] - Chain attack when arm escapes but head remains trapped during rotation
 
-- [[Back Control]] - Follow-up position if opponent rolls through the omoplata
+- [[Positions/Back Control]] - Follow-up position if opponent rolls through the omoplata
 
-- [[Half Guard]] - Counter outcome position when opponent disrupts entry and advances
+- [[Positions/Half Guard]] - Counter outcome position when opponent disrupts entry and advances
 
 
 </section>

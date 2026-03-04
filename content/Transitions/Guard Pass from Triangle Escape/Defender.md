@@ -154,7 +154,7 @@ description: "Defend against the guard pass from triangle escape in BJJ. Recogni
 
 Defending against the guard pass from triangle escape is fundamentally about recovery speed and structural reorganization after your primary attack has failed. As the bottom player whose triangle has been compromised, you face a cascading positional crisis: your submission attempt has been neutralized, your legs are disorganized from the broken triangle structure, your opponent has established forward momentum with stacking pressure, and you must shift from offensive submission hunting to defensive guard recovery within a narrow window. Your defensive priorities change instantly from finishing the triangle to preventing the guard pass, requiring immediate hip recovery, frame creation, and rapid leg repositioning to establish either a new guard configuration or recover to closed guard before the top player consolidates side control. Success demands recognizing the moment your triangle fails and transitioning to defense without the hesitation that comes from trying to salvage a broken submission.
 
-**Opponent's Starting Position**: [[Triangle Escape Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Triangle Escape Position]] (Top)
 
 </section>
 
@@ -190,28 +190,28 @@ Defending against the guard pass from triangle escape is fundamentally about rec
 ### 1. Re-lock triangle before legs fully clear by hooking the top leg back behind the opponent's neck and closing the ankle lock
 
 - **When to use**: When you feel the triangle loosening but the opponent has not yet cleared your locking leg past their head—the earlier you re-lock, the higher the success rate
-- **Targets**: [[Triangle Escape Position]]
+- **Targets**: [[Positions/Triangle Escape Position]]
 - **If successful**: Opponent returns to full triangle defense and you can resume submission attempts with renewed pressure
 - **Risk**: If the re-lock fails, you lose additional time for guard recovery and the opponent gains further passing momentum
 
 ### 2. Shrimp hips away and recover closed guard by pulling legs back to wrap around the opponent's waist before they establish perpendicular alignment
 
 - **When to use**: When the triangle is definitively broken and the opponent is beginning lateral movement for the pass but has not yet cleared your legs
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover to closed guard with full offensive capability and can restart your attack sequence
 - **Risk**: Shrimping away may expose your back if the opponent follows aggressively with their stacking pressure
 
 ### 3. Frame strongly against the opponent's shoulder and hip with both forearms to create distance and insert a knee shield for half guard recovery
 
 - **When to use**: When the opponent has cleared one leg but not both, making closed guard recovery unlikely but half guard still available
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You establish a defensive guard position that stops the pass and provides a platform for sweep or guard recovery sequences
 - **Risk**: Frames can be swum through if they are not structurally sound, allowing the opponent to collapse into side control
 
 ### 4. Attack the freed arm with an armbar attempt to force the opponent to defend rather than continue the pass
 
 - **When to use**: When the opponent extends their arm during the leg clearance phase, creating an isolation opportunity during the transition between escape and pass
-- **Targets**: [[Triangle Escape Position]]
+- **Targets**: [[Positions/Triangle Escape Position]]
 - **If successful**: The opponent must abandon the pass to defend the armbar, resetting the exchange and potentially creating a new submission opportunity
 - **Risk**: A poorly timed armbar attempt accelerates positional loss if the opponent simply continues the pass through the attempt
 
@@ -223,11 +223,11 @@ Defending against the guard pass from triangle escape is fundamentally about rec
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 As soon as you recognize the triangle is failing, immediately retract your legs and hip escape to create the angle needed to re-wrap your legs around the opponent's waist. Focus on closing your ankles behind their back before they achieve lateral passing position. Use frames against their shoulders to buy the half-second needed for leg recovery.
 
-### → [[Triangle Escape Position]]
+### → [[Positions/Triangle Escape Position]]
 
 If the opponent pauses or adjusts during the pass attempt, quickly re-hook your locking leg behind their neck and close the ankle lock to re-establish the triangle threat. This works best when the opponent slows their forward pressure to change grips or adjust position, creating a brief window to re-attack.
 

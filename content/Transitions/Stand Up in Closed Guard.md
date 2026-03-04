@@ -21,7 +21,7 @@ The technique operates on a powerful biomechanical principle: when executed with
 
 Proper execution demands a precise sequence of hand placement, weight distribution, and postural maintenance that preserves defensive integrity throughout the vulnerable transition from kneeling to standing. The most critical moment occurs during the initial weight shift when one knee lifts off the mat—this is when the guard player has the greatest opportunity to disrupt balance or launch attacks. Once fully standing with staggered feet, controlled hips, and upright posture, the position becomes inherently advantageous, enabling gravity-assisted guard breaks and immediate transitions into high-percentage passing sequences like toreando, leg drag, and knee slice variations.
 
-**From Position**: [[Closed Guard]] (Top)
+**From Position**: [[Positions/Closed Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Proper execution demands a precise sequence of hand placement, weight distributi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Closed Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ Standing up in closed guard connects the fundamental closed guard battle to the 
 ## Related Techniques
 
 
-- [[Closed Guard]] - Source position where this technique begins—top player is trapped inside closed guard
+- [[Positions/Closed Guard]] - Source position where this technique begins—top player is trapped inside closed guard
 
-- [[Open Guard]] - Primary target position after successful guard opening from standing
+- [[Positions/Open Guard]] - Primary target position after successful guard opening from standing
 
-- [[Half Guard]] - Potential counter outcome if bottom player sweeps during stand-up transition
+- [[Positions/Half Guard]] - Potential counter outcome if bottom player sweeps during stand-up transition
 
-- [[Posture Recovery]] - Prerequisite technique for establishing upright posture before initiating stand-up
+- [[Transitions/Posture Recovery]] - Prerequisite technique for establishing upright posture before initiating stand-up
 
-- [[Combat Base]] - Alternative defensive posture in closed guard top when standing is not viable
+- [[Positions/Combat Base]] - Alternative defensive posture in closed guard top when standing is not viable
 
-- [[Toreando Pass]] - High-percentage follow-up passing technique after opening guard from standing
+- [[Transitions/Toreando Pass]] - High-percentage follow-up passing technique after opening guard from standing
 
-- [[Knee Slice from Closed Guard]] - Alternative guard opening approach from kneeling position
+- [[Transitions/Knee Slice from Closed Guard]] - Alternative guard opening approach from kneeling position
 
-- [[Hip Bump Sweep]] - Common counter-attack from bottom player during the stand-up transition
+- [[Transitions/Hip Bump Sweep]] - Common counter-attack from bottom player during the stand-up transition
 
-- [[Standing Position]] - Related position for guard engagement and passing from standing
+- [[Positions/Standing Position]] - Related position for guard engagement and passing from standing
 
-- [[Pull Guard from Standing]] - Opponent's tactical option when facing a standing guard break
+- [[Transitions/Pull Guard from Standing]] - Opponent's tactical option when facing a standing guard break
 
 
 </section>

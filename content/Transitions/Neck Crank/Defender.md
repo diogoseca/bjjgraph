@@ -158,7 +158,7 @@ Defensive success depends on understanding the biomechanics that make the attack
 
 Critically, defenders must develop the discipline to tap early when the submission is locked in deeply. Unlike arm locks where you can assess your escape window under pressure, cervical injuries can progress from discomfort to structural damage with very little warning. Positional pride has no place when your neck is at stake. The intelligent defensive hierarchy is: prevent the grip, fight the grip if established, reduce rotation if possible, and tap immediately if the crank is locked and escape is not imminent.
 
-**Opponent's Starting Position**: [[Twister Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Twister Control]] (Top)
 
 </section>
 
@@ -196,21 +196,21 @@ Critically, defenders must develop the discipline to tap early when the submissi
 ### 1. Aggressive chin tuck with two-hand grip defense - bury chin to chest and use both hands to fight opponent's arm before figure-four locks in
 
 - **When to use**: Immediately when you feel opponent reaching for your head or threading an arm around your neck - this is the highest-priority early defense
-- **Targets**: [[Twister Control]]
+- **Targets**: [[Positions/Twister Control]]
 - **If successful**: Prevents the neck crank from being established, forcing opponent to either continue working for the grip or transition to alternative attacks
 - **Risk**: Both hands committed to head defense leaves your trapped leg undefended, and opponent may switch to arm attacks on your exposed limbs
 
 ### 2. Leg extraction and hip realignment - focus on freeing the trapped leg to eliminate the base spinal rotation that powers the crank
 
 - **When to use**: When opponent commits both hands to head control and temporarily loosens leg entanglement, or when their weight shifts high toward your upper body
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Frees your leg and allows you to turn into opponent, reducing spinal rotation and recovering to turtle where the neck crank no longer has mechanical advantage
 - **Risk**: If opponent maintains leg control while you focus on extraction, the divided defensive effort may allow them to secure the figure-four grip on your head
 
 ### 3. Turn into opponent and sacrifice back exposure - rotate your entire body toward opponent to eliminate the opposing rotational forces on your spine
 
 - **When to use**: When the crank is partially established but not yet at full pressure - use the remaining mobility to align your spine before the finish
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Eliminates the rotational mechanics that power the crank, potentially exposing your back but removing the immediate cervical danger
 - **Risk**: Opponent may transition to back control with hooks, guillotine from the new angle, or front headlock if you turn too far
 
@@ -229,11 +229,11 @@ Critically, defenders must develop the discipline to tap early when the submissi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Twister Control]]
+### → [[Positions/Twister Control]]
 
 Fight the grip early before the figure-four is established. Use aggressive chin tuck combined with two-on-one grip fighting to strip opponent's arm from around your head. Once the head control is removed, opponent remains in Twister Control but lacks the neck attack, giving you time to work on leg extraction.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Extract your trapped leg by working hip movement and using your free leg to push against opponent's leg entanglement. Once the leg is free, turn your body to align your spine and recover to turtle position. From turtle, the spinal rotation that powers the neck crank is eliminated, removing the primary submission threat.
 

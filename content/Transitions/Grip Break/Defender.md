@@ -156,7 +156,7 @@ Defending against grip breaks means you are the person whose grips are being att
 
 Effective grip retention is not simply squeezing harder. It requires understanding grip reinforcement mechanics, anticipating which grips your opponent will target, and having contingency plans for when grips are inevitably broken. The best defenders maintain multiple connection points simultaneously so that losing any single grip does not collapse their entire control structure. They also recognize that certain grips are worth fighting to maintain while others can be sacrificed strategically to bait opponents into positions where new, more advantageous grips can be established. Grip defense is fundamentally about maintaining the positional advantages your grips create, not about holding on for its own sake.
 
-**Opponent's Starting Position**: [[Open Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Effective grip retention is not simply squeezing harder. It requires understandi
 ### 1. Deepen and reinforce the threatened grip by pulling the gripped material deeper into your palm and adding elbow pressure inward
 
 - **When to use**: The moment you feel opponent's second hand arrive on your gripping wrist, before they establish full two-on-one angle
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Grip is maintained, opponent wastes energy on a failed break attempt, and you retain your control advantage
 - **Risk**: Committing both hands to reinforcement leaves your other connection points unguarded and may allow opponent to establish their own dominant grips
 
 ### 2. Switch to an alternative grip on a different control point before the break completes, releasing the contested grip voluntarily
 
 - **When to use**: When opponent has established strong two-on-one angle and the break is likely to succeed regardless of resistance
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You maintain a connection point and control despite losing the original grip, keeping the opponent from gaining free movement
 - **Risk**: The new grip may be less tactically valuable than the original, and opponent may have already planned for common switching patterns
 
 ### 3. Advance position aggressively while opponent commits both hands to the grip break, using their hand occupation as a passing or pressure opportunity
 
 - **When to use**: When opponent removes both hands from framing to break your grip, creating a window where they cannot defend positional advancement
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You achieve positional advancement or a pass while opponent is focused on grip fighting rather than guard retention
 - **Risk**: If advancement fails, you may lose both the grip and your base, ending up in a worse position than before
 
 ### 4. Rotate your gripping hand to reset the angle, turning your wrist so the break direction no longer aligns with your thumb
 
 - **When to use**: When you feel directional force being applied toward your thumb before the break reaches full power
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The rotation nullifies the directional advantage, forcing opponent to re-establish their breaking angle and buying time
 - **Risk**: Rotation may momentarily loosen your own grip, and a savvy opponent will adjust their break angle to match your rotation
 
@@ -228,11 +228,11 @@ Effective grip retention is not simply squeezing harder. It requires understandi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Maintain at least one controlling grip throughout the exchange by reinforcing the threatened grip early, switching to alternative grips when breaks are inevitable, or re-establishing grips faster than your opponent can capitalize on the momentary freedom. Keep multiple connection points active so losing any single grip does not collapse your control structure.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Capitalize on the opponent committing both hands to grip breaking by advancing position aggressively through their weakened frames. When they remove both hands from guard retention to strip your grip, drive forward with shoulder pressure, cut an angle for a knee slice or leg drag, or establish head control while their hands are occupied. The grip break attempt becomes your passing opportunity.
 

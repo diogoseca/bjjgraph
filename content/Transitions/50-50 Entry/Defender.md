@@ -158,7 +158,7 @@ The defender's primary strategic framework centers on denying the thread before 
 
 If prevention fails and the entanglement begins forming, your defensive priorities shift immediately to leg extraction and passing. A half-completed 50-50 entry where you maintain leg clearing capability is actually a passing opportunity, as the attacker is inverted and vulnerable. Understanding this offensive-within-defensive framework transforms the 50-50 Entry defense from pure survival into a counter-attacking system.
 
-**Opponent's Starting Position**: [[Inverted Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ If prevention fails and the entanglement begins forming, your defensive prioriti
 ### 1. Backstep and clear your lead leg by stepping it behind your rear leg, removing the threading target entirely
 
 - **When to use**: As soon as you detect the opponent beginning to invert or shoot their outside leg toward your knee
-- **Targets**: [[Inverted Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: Opponent's thread misses entirely and they remain inverted without entanglement, leaving them vulnerable to your passing pressure
 - **Risk**: If you backstep too late, their leg may follow yours and complete a partial thread, or they redirect to outside ashi-garami on your trailing leg
 
 ### 2. Drive forward with heavy stack pressure, pinning opponent's shoulders to the mat and collapsing their inversion before the thread completes
 
 - **When to use**: When opponent has begun inverting but has not yet completed the leg thread behind your knee
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent's inversion collapses under your weight and you can pass directly to side control as they are flattened on their back
 - **Risk**: If opponent is already partially threaded, your forward pressure may accelerate their rotation and help complete the entry into 50-50
 
 ### 3. Straighten your lead leg explosively and push your knee forward to prevent the calf from hooking behind it, then circle your foot out
 
 - **When to use**: When you feel the opponent's calf beginning to contact the back of your knee but the hook is not yet secured
-- **Targets**: [[Inverted Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: Their threading leg slides off your straightened leg and they must re-attempt the entry from a less favorable angle
 - **Risk**: Straightening your leg shifts your weight forward onto one foot, which can create a sweep opportunity if opponent redirects to X-guard
 
 ### 4. Strip opponent's grips on your pants or ankle and step completely out of range, resetting to neutral standing
 
 - **When to use**: When opponent is still establishing grips before initiating the inversion, before any leg contact is made
-- **Targets**: [[Inverted Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: Complete distance reset denies the entry entirely and forces opponent to work from an inferior guard position without controlling grips
 - **Risk**: Giving up proximity may allow opponent to recover to a more sustainable guard like De La Riva or seated guard
 
@@ -227,11 +227,11 @@ If prevention fails and the entanglement begins forming, your defensive prioriti
 
 ## Best-Case Outcomes for Defender
 
-### → [[Inverted Guard]]
+### → [[Positions/Inverted Guard]]
 
 Deny the leg thread through early backstep, leg straightening, or grip stripping before the entanglement forms. Maintain your standing base while opponent remains inverted, then immediately apply passing pressure while they are in a compromised upside-down position.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 This represents the worst-case counter outcome where your opponent completes a pass after your failed defense. Minimize this risk by never committing fully forward during stack pressure unless you are certain the thread has not begun. If you do end up here, it means the attacker redirected from their 50-50 attempt into a guard pass.
 

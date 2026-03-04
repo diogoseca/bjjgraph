@@ -26,8 +26,8 @@ The finishing phase also serves as a forcing function within the broader turtle 
 **Category**: Choke
 **Type**: Collar Choke
 **Target Area**: Neck
-**Starting Position**: [[Buggy Choke]]
-**From Position**: [[Buggy Choke]] (Top)
+**Starting Position**: [[Positions/Buggy Choke]]
+**From Position**: [[Positions/Buggy Choke]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -76,9 +76,9 @@ The finishing phase also serves as a forcing function within the broader turtle 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Buggy Choke]] | 25% |
-| Failure | [[Side Control]] | 15% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Buggy Choke]] | 25% |
+| Failure | [[Positions/Side Control]] | 15% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -220,9 +220,9 @@ The finishing phase also serves as a forcing function within the broader turtle 
 
 ## From Which Positions?
 
-- [[Buggy Choke]]
-- [[Side Control]]
-- [[Half Guard]]
+- [[Positions/Buggy Choke]]
+- [[Positions/Side Control]]
+- [[Positions/Half Guard]]
 
 
 </section>
@@ -231,12 +231,12 @@ The finishing phase also serves as a forcing function within the broader turtle 
 
 ## Related Submissions
 
-- [[Buggy Choke]]
-- [[Anaconda Choke]]
-- [[Bow and Arrow Choke]]
-- [[Clock Choke]]
-- [[Brabo Choke]]
-- [[Choke from Crucifix]]
+- [[Positions/Buggy Choke]]
+- [[Transitions/Anaconda Choke]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Transitions/Clock Choke]]
+- [[Submissions/Brabo Choke]]
+- [[Transitions/Choke from Crucifix]]
 
 
 </section>
@@ -245,13 +245,13 @@ The finishing phase also serves as a forcing function within the broader turtle 
 
 ## Additional Related Content
 
-- [[Buggy Choke]] - Primary control position from which the finishing sequence is executed
-- [[Turtle]] - Starting position for the broader buggy choke attack system
-- [[Back Control]] - Common transition when opponent sits to guard defending the choke finish
-- [[Crucifix]] - Alternative attack when opponent extends far arm during finish defense
-- [[Side Control]] - Fallback position when grips are stripped during the finishing attempt
-- [[Anaconda Choke]] - Related turtle attack choke with similar control principles and positioning
-- [[Clock Choke]] - Alternative collar choke from turtle top with overlapping grip mechanics
+- [[Positions/Buggy Choke]] - Primary control position from which the finishing sequence is executed
+- [[Positions/Turtle]] - Starting position for the broader buggy choke attack system
+- [[Positions/Back Control]] - Common transition when opponent sits to guard defending the choke finish
+- [[Positions/Crucifix]] - Alternative attack when opponent extends far arm during finish defense
+- [[Positions/Side Control]] - Fallback position when grips are stripped during the finishing attempt
+- [[Transitions/Anaconda Choke]] - Related turtle attack choke with similar control principles and positioning
+- [[Transitions/Clock Choke]] - Alternative collar choke from turtle top with overlapping grip mechanics
 
 
 </section>

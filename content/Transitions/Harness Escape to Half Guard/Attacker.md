@@ -186,7 +186,7 @@ description: "Complete guide to executing the Harness Escape to Half Guard. Lear
 
 Executing the Harness Escape to Half Guard requires a disciplined sequence that prioritizes choking arm control before any positional movement. The escape begins with systematic grip fighting to neutralize the rear naked choke threat, progresses through hook clearing and hip escape mechanics, and concludes with threading your legs around the opponent's leg to establish half guard. Success depends on disrupting the opponent's chest-to-back alignment through diagonal movement rather than explosive bridging, and on catching the half guard position before the opponent can transition to mount or re-establish hooks. The escape is most effective when executed as part of a chain with other back defense options, creating a defensive system where each attempt feeds into the next if unsuccessful.
 
-**From Position**: [[Harness]] (Bottom)
+**From Position**: [[Positions/Harness]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Harness Escape to Half Guard requires a disciplined sequence that 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Harness]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Harness]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Harness Escape to Half Guard requires a disciplined sequence that 
 
 ## Opponent Counters
 
-- **Opponent re-tightens harness grip and drives chest pressure forward to prevent hip escape** (Effectiveness: High) - Your Response: Maintain two-on-one grip and wait for opponent to shift weight before re-attempting the hip escape. Use small incremental hip escapes rather than one large movement. If they overcommit forward, use their momentum to accelerate your turn. → Leads to [[Harness]]
-- **Opponent follows your rotation and transitions to mount as you turn** (Effectiveness: High) - Your Response: If you feel them riding over, immediately stop turning and re-establish defensive frames. Keep your elbow and knee connected on the turning side to block them from achieving mount. If mount is imminent, abandon the half guard catch and focus on preventing the mount with frames and hip escape in the opposite direction. → Leads to [[Mount]]
-- **Opponent re-inserts cleared hooks before hip escape is completed** (Effectiveness: Medium) - Your Response: Continue controlling the choking arm while using your legs actively to prevent hook re-insertion. Keep knees squeezed together and legs heavy on the mat. If they re-insert one hook, continue the escape attempt—a single hook is insufficient to prevent the half guard recovery if your grip fighting is sound. → Leads to [[Harness]]
-- **Opponent releases harness to establish gift wrap or switch to different control** (Effectiveness: Medium) - Your Response: The moment they release the harness grip to transition, accelerate your escape. The transition between grips is the weakest moment in their control chain. Use the brief window of reduced upper body control to complete your hip escape and leg catch in one fluid motion. → Leads to [[Harness]]
+- **Opponent re-tightens harness grip and drives chest pressure forward to prevent hip escape** (Effectiveness: High) - Your Response: Maintain two-on-one grip and wait for opponent to shift weight before re-attempting the hip escape. Use small incremental hip escapes rather than one large movement. If they overcommit forward, use their momentum to accelerate your turn. → Leads to [[Positions/Harness]]
+- **Opponent follows your rotation and transitions to mount as you turn** (Effectiveness: High) - Your Response: If you feel them riding over, immediately stop turning and re-establish defensive frames. Keep your elbow and knee connected on the turning side to block them from achieving mount. If mount is imminent, abandon the half guard catch and focus on preventing the mount with frames and hip escape in the opposite direction. → Leads to [[Positions/Mount]]
+- **Opponent re-inserts cleared hooks before hip escape is completed** (Effectiveness: Medium) - Your Response: Continue controlling the choking arm while using your legs actively to prevent hook re-insertion. Keep knees squeezed together and legs heavy on the mat. If they re-insert one hook, continue the escape attempt—a single hook is insufficient to prevent the half guard recovery if your grip fighting is sound. → Leads to [[Positions/Harness]]
+- **Opponent releases harness to establish gift wrap or switch to different control** (Effectiveness: Medium) - Your Response: The moment they release the harness grip to transition, accelerate your escape. The transition between grips is the weakest moment in their control chain. Use the brief window of reduced upper body control to complete your hip escape and leg catch in one fluid motion. → Leads to [[Positions/Harness]]
 
 
 </section>

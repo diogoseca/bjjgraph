@@ -156,7 +156,7 @@ As the defender against Hip Rotation Defense, you are the ankle lock attacker wh
 
 The critical defensive skill is reading which direction your opponent will rotate and preparing your leg configuration to capitalize on that movement. Every rotation direction opens a specific transition pathway. Hip rotation away from you exposes inside ashi garami entries. Hip rotation toward you opens outside ashi garami. Your ability to follow their rotation while maintaining ankle control or smoothly transitioning to a better entanglement position determines whether their escape attempt becomes your advancement opportunity. The best ankle lock attackers treat hip rotation defense not as a threat but as a trigger for systematic position advancement.
 
-**Opponent's Starting Position**: [[Straight Ankle Lock Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The critical defensive skill is reading which direction your opponent will rotat
 ### 1. Follow rotation toward inside ashi garami by threading your inside leg through as they rotate away from you
 
 - **When to use**: When opponent rotates their hip away from you, creating the angle needed for inside leg threading
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You advance to inside ashi garami with superior heel control and access to heel hook attacks, converting their escape into your positional advancement
 - **Risk**: If they reverse rotation direction quickly, you may end up with your leg extended and vulnerable to counter-entanglement
 
 ### 2. Tighten leg triangle and deepen ankle grip to prevent rotation entirely, then commit to finishing the ankle lock
 
 - **When to use**: Early in their rotation attempt when they have not yet generated significant angle change and your leg control is still consolidated
-- **Targets**: [[Straight Ankle Lock Control]]
+- **Targets**: [[Positions/Straight Ankle Lock Control]]
 - **If successful**: You shut down the escape attempt completely and maintain original control position with potentially tighter grips, forcing them to find a different escape path
 - **Risk**: If they have already generated significant rotation, attempting to hold static position burns energy without preventing the angle change
 
 ### 3. Follow rotation toward outside ashi garami by transitioning your outside leg to establish outside position as they rotate toward you
 
 - **When to use**: When opponent rotates their hip toward you, creating the angle that exposes their far hip for outside leg positioning
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You advance to outside ashi garami where you maintain leg attack threats from a different and potentially superior angle of control
 - **Risk**: Their rotation toward you may allow them to establish frames on your upper body and begin working to a passing or standing position
 
 ### 4. Commit to rapid submission finish by arching back and extending hips while their rotation is mid-execution
 
 - **When to use**: When their rotation has partially succeeded but you still maintain strong ankle grip and their knee is not fully bent
-- **Targets**: [[Straight Ankle Lock Control]]
+- **Targets**: [[Positions/Straight Ankle Lock Control]]
 - **If successful**: You finish the ankle lock submission before they complete the escape, as their rotation focus may distract from defending the actual finish
 - **Risk**: Over-committing to the finish sacrifices leg control, and if the submission fails, their rotation succeeds with you in a compromised position
 
@@ -227,11 +227,11 @@ The critical defensive skill is reading which direction your opponent will rotat
 
 ## Best-Case Outcomes for Defender
 
-### → [[Straight Ankle Lock Control]]
+### → [[Positions/Straight Ankle Lock Control]]
 
 Consolidate leg triangle control before they initiate rotation by crossing your ankles around their thigh and deepening your forearm against their Achilles tendon. When you feel preparatory knee bending, immediately tighten your entire control structure - squeeze legs, deepen grip, and pull their heel tighter to your chest. Early consolidation prevents rotation from being mechanically possible.
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 When you recognize them rotating away from you, immediately follow their rotation by threading your inside leg across their hip and transitioning to inside ashi garami. Their rotation away creates the exact angle you need for inside position. Maintain heel control throughout the transition and use their defensive momentum to advance to a position where heel hooks become available.
 

@@ -154,7 +154,7 @@ description: "How to defend against Lockdown Recovery in BJJ. Recognition cues, 
 
 Defending against Lockdown Recovery from Modified Mount top requires understanding the specific mechanics the bottom player uses to capture your posted leg and proactively eliminating their entry opportunities. As the top player in Modified Mount, your posted leg is the structural anchor providing stability against bridge-and-roll escapes, but it simultaneously creates the vulnerability the bottom player targets for Lockdown entry. The defense centers on three pillars: monitoring the bottom player's hip angle to detect escape attempts early, managing posted leg distance to maintain stability without overexposing the leg, and punishing escape attempts with immediate submission threats or positional advancement. Effective defense transforms the opponent's Lockdown attempt into an opportunity for you to isolate their arms, advance to a more dominant mount variation, or finish a submission. The key defensive principle is that the posted leg must remain active and responsive rather than static - if you feel the opponent's hips turning toward your posted leg or their legs beginning to thread, you must immediately retract, reposition, or transition before the figure-four lock is established. Once the Lockdown is fully locked, extraction becomes significantly more difficult and energy-intensive.
 
-**Opponent's Starting Position**: [[Modified Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount/Modified Mount]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending against Lockdown Recovery from Modified Mount top requires understandi
 ### 1. Retract posted leg and transition to standard mount by bringing knee back across opponent's torso
 
 - **When to use**: When you feel the bottom player's hips beginning to turn toward your posted leg but before any leg threading has started
-- **Targets**: [[Modified Mount]]
+- **Targets**: [[Positions/Mount/Modified Mount]]
 - **If successful**: Removes the posted leg vulnerability entirely, returning to standard mount where Lockdown entry is not available
 - **Risk**: Momentary base instability during the transition may allow a hip escape or bridge attempt
 
 ### 2. Drive posted leg knee forward into opponent's hip crease while increasing crossface pressure to flatten them
 
 - **When to use**: When the bottom player begins threading their leg but has not completed the figure-four configuration
-- **Targets**: [[Modified Mount]]
+- **Targets**: [[Positions/Mount/Modified Mount]]
 - **If successful**: Crushes the space needed for leg insertion, prevents figure-four completion, and flattens opponent eliminating hip mobility
 - **Risk**: If they have already hooked your ankle, driving forward may help them complete the capture rather than prevent it
 
 ### 3. Attack armbar on the near-side arm as bottom player commits hips to the Lockdown entry
 
 - **When to use**: When the bottom player's hip turn and leg movement create a momentary loosening of their arm defense
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Forces bottom player to abandon Lockdown attempt entirely to defend the armbar, and may result in submission or transition to armbar control
 - **Risk**: Committing to the armbar requires swinging your posted leg over, which temporarily gives up Modified Mount control
 
 ### 4. Circle posted leg backward in a windshield-wiper motion to strip the bottom leg hook before figure-four completes
 
 - **When to use**: When the bottom player has hooked your ankle with their near-side leg but has not yet wrapped the top leg over for the triangle
-- **Targets**: [[Modified Mount]]
+- **Targets**: [[Positions/Mount/Modified Mount]]
 - **If successful**: Strips the initial hook and returns to Modified Mount with the posted leg freed, bottom player's escape attempt is reset
 - **Risk**: The circular motion requires briefly lightening pressure through the posted leg, potentially allowing a secondary hip escape
 
@@ -224,11 +224,11 @@ Defending against Lockdown Recovery from Modified Mount top requires understandi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Modified Mount]]
+### → [[Positions/Mount/Modified Mount]]
 
 Detect the Lockdown entry attempt early through hip angle recognition and either retract the posted leg to standard mount position or drive the knee forward to crush space before the figure-four completes. Maintain heavy crossface and across-body knee pressure throughout to prevent the bottom player from generating the hip angle needed for re-entry.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the bottom player commits fully to the Lockdown capture attempt, transition to standard mount by pulling both knees tight to their torso. Alternatively, capitalize on their arm loosening during the escape attempt to attack the armbar, forcing them to defend the submission and abandon the Lockdown entry. If successful, consolidate full mount with both knees tight, eliminating all posted-leg vulnerabilities.
 

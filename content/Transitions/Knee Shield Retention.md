@@ -21,7 +21,7 @@ Unlike passive defensive positions, knee shield retention is an active managemen
 
 This technique serves as the foundation for modern half guard systems, providing a platform for sweeps, back takes, and submissions while simultaneously defending against the most common passing sequences. The bottom player who masters knee shield retention transforms half guard from a survival position into a launching point for offensive chains.
 
-**From Position**: [[Knee Shield Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 **Success Rate**: 65%
 
 </section>
@@ -32,9 +32,9 @@ This technique serves as the foundation for modern half guard systems, providing
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Knee Shield Half Guard]] | 65% |
-| Failure | [[Flattened Half Guard]] | 20% |
-| Counter | [[Knee Shield Half Guard]] | 15% |
+| Success | [[Positions/Half Guard/Knee Shield Half Guard]] | 65% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 20% |
+| Counter | [[Positions/Half Guard/Knee Shield Half Guard]] | 15% |
 
 
 </section>
@@ -194,35 +194,35 @@ Knee Shield Retention serves as the central hub of modern half guard systems and
 ## Related Techniques
 
 
-- [[Knee Shield Half Guard]] - Primary position where this technique is applied
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Primary position where this technique is applied
 
-- [[Half Guard]] - Parent position family
+- [[Positions/Half Guard]] - Parent position family
 
-- [[Deep Half Guard]] - Common transition when shield is compromised or for offensive entry
+- [[Positions/Half Guard/Deep Half Guard]] - Common transition when shield is compromised or for offensive entry
 
-- [[Lockdown]] - Alternative retention system when shield fails
+- [[Positions/Half Guard/Lockdown]] - Alternative retention system when shield fails
 
-- [[Old School Sweep]] - Primary offensive attack from knee shield position
+- [[Transitions/Old School Sweep]] - Primary offensive attack from knee shield position
 
-- [[Z-Guard]] - Related guard structure with similar retention principles
+- [[Positions/Z-Guard]] - Related guard structure with similar retention principles
 
-- [[Underhook Sweep from Half]] - Offensive sweep when opponent drives into shield
+- [[Transitions/Underhook Sweep from Half]] - Offensive sweep when opponent drives into shield
 
-- [[Dogfight Position]] - Common transition point from knee shield
+- [[Positions/Dogfight Position]] - Common transition point from knee shield
 
-- [[Knee Slice from Half]] - Primary passing attack being defended against
+- [[Transitions/Knee Slice from Half]] - Primary passing attack being defended against
 
-- [[Half Guard Pass]] - Generic passing attempts countered by this retention
+- [[Transitions/Half Guard Pass]] - Generic passing attempts countered by this retention
 
-- [[Flattened Half Guard]] - Degraded position resulting from failed retention
+- [[Positions/Half Guard/Flattened Half Guard]] - Degraded position resulting from failed retention
 
-- [[Hip Escape Mechanics]] - Essential movement pattern for maintaining shield
+- [[Principles/Hip Escape Mechanics]] - Essential movement pattern for maintaining shield
 
-- [[Shrimping]] - Fundamental movement used to create angles
+- [[Principles/Shrimping]] - Fundamental movement used to create angles
 
-- [[Guard Recovery]] - Broader defensive system this technique belongs to
+- [[Principles/Guard Recovery]] - Broader defensive system this technique belongs to
 
-- [[Knee Shield Retention]] - Self-reference for retention drilling context
+- [[Transitions/Knee Shield Retention]] - Self-reference for retention drilling context
 
 
 </section>

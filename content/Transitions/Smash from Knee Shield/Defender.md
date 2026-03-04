@@ -154,7 +154,7 @@ description: "Defend against the Smash from Knee Shield with early recognition a
 
 Defending against the Smash from Knee Shield requires early recognition and proactive responses to prevent your primary defensive frame from being collapsed. The knee shield is your most valuable structural tool in half guard bottom, and its loss typically leads to heavy chest-to-chest pressure and advanced passing sequences that are extremely difficult to recover from. Your defensive priorities center on maintaining hip mobility, fighting for grip advantages that prevent the passer from controlling your ankle, and recognizing when to transition to alternative guards rather than fighting a losing battle to maintain a compromised shield. Active defense—including threatening sweeps during the smash attempt—forces the passer to balance offense with defensive awareness, creating windows for you to recover position or reverse the situation entirely.
 
-**Opponent's Starting Position**: [[Knee Shield Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against the Smash from Knee Shield requires early recognition and proa
 ### 1. Frame on opponent's shoulder and hip escape to recreate shield angle
 
 - **When to use**: When opponent first begins angling their body and driving shoulder pressure downward—early intervention before the shield is significantly compromised
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: Knee shield angle is re-established and opponent must restart their passing sequence from neutral
 - **Risk**: If framing arm is stripped or opponent swims inside the elbow, they gain uncontested access to continue the smash
 
 ### 2. Fight the ankle grip by pulling foot back and re-positioning shield height
 
 - **When to use**: Immediately when you feel the opponent's hand close around your ankle before they begin redirecting your leg
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: Opponent loses the primary control point needed for the smash and must re-establish the grip
 - **Risk**: Pulling the foot too aggressively can compromise your own shield structure momentarily
 
 ### 3. Pummel for underhook and drive up to knees for sweep
 
 - **When to use**: When opponent commits their weight forward during the smash, creating space behind them and reducing their base stability
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Achieve sweep to top position or establish dogfight with superior underhook control
 - **Risk**: If opponent whizzers and drives you flat, you end up in worse position without your knee shield
 
 ### 4. Transition to deep half guard by diving underneath opponent's hips
 
 - **When to use**: When knee shield is beginning to collapse and standard frame retention is failing despite your defensive efforts
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: Position transitions to deep half guard with strong sweeping opportunities from underneath
 - **Risk**: If timing is late, opponent sprawls and pins you in flattened half guard under heavy pressure
 
@@ -225,11 +225,11 @@ Defending against the Smash from Knee Shield requires early recognition and proa
 
 ## Best-Case Outcomes for Defender
 
-### → [[Knee Shield Half Guard]]
+### → [[Positions/Half Guard/Knee Shield Half Guard]]
 
 Maintain active hip escape motion and frame on opponent's shoulder whenever they attempt to angle and apply pressure. Control their grip hand on your ankle by keeping your foot mobile and tucked. Constantly adjust knee shield angle to keep your shin perpendicular to their advancing pressure vector. Force them to restart the smash sequence repeatedly until they abandon the approach.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your underhook attempt to coincide with opponent's forward weight commitment during the smash. As they drive their shoulder down, swim your near arm underneath their armpit and explosively come to your knees. Use the momentum of their forward drive against them by redirecting it laterally into a sweep. The key is attacking during their commitment, not waiting until after the shield is collapsed.
 

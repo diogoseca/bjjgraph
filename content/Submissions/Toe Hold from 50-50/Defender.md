@@ -158,7 +158,7 @@ Defending the toe hold from 50-50 Guard requires early recognition and systemati
 
 The bilateral nature of 50-50 creates a unique defensive dynamic: your best defense is often a strong offense. By threatening your own leg attacks, you force the opponent to divide attention between finishing their toe hold and protecting their own legs. This offensive-defensive interplay defines high-level 50-50 exchanges and separates reactive defenders who simply endure from proactive defenders who create escape opportunities through counter-threats. Understanding the attacker's sequential requirements—grip, figure-four, angle, chest connection, rotation—allows you to identify the optimal intervention point at each stage and apply the correct defensive response rather than panicking into explosive movements that often accelerate the finish.
 
-**Opponent's Starting Position**: [[50-50 Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 
 
 </section>
@@ -196,14 +196,14 @@ The bilateral nature of 50-50 creates a unique defensive dynamic: your best defe
 ### 1. Strip the figure-four grip with aggressive two-on-one hand fighting before chest connection is established
 
 - **When to use**: As soon as you recognize the opponent threading their inside arm underneath your foot to establish the figure-four grip—this is the highest-percentage defensive window
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Returns to neutral 50-50 position with both practitioners resetting grip fighting; you maintain foot freedom and can immediately threaten your own attacks
 - **Risk**: If you commit both hands to grip stripping, you temporarily abandon control of opponent's legs, potentially allowing them to advance position or switch to heel hook
 
 ### 2. Rotate your entire body in the direction of the toe hold pressure to alleviate torque while maintaining leg hooks
 
 - **When to use**: When the figure-four grip is already established and you feel rotational pressure beginning—this is the primary escape once the grip is locked
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Alleviates ankle pressure and can lead to position scramble; your rotation may expose opponent's heel for your counter-attack or disentangle legs entirely
 - **Risk**: If opponent follows your rotation effectively with their leg hooks, the toe hold may tighten rather than release; must commit fully to the rotation
 
@@ -217,7 +217,7 @@ The bilateral nature of 50-50 creates a unique defensive dynamic: your best defe
 ### 4. Cross your free foot over your trapped knee to block opponent's access to your foot entirely
 
 - **When to use**: Preemptively when you recognize the opponent adjusting their hips for foot access—must be established before they grip your toes
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Completely blocks toe hold access and forces opponent to address the cross before attacking; buys time to improve your own position or counter-attack
 - **Risk**: Crossing feet can compromise your 50-50 structure and expose your crossed leg to different attacks; opponent may strip the cross with their free hand
 
@@ -240,11 +240,11 @@ The bilateral nature of 50-50 creates a unique defensive dynamic: your best defe
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Successfully strip the figure-four grip before rotation begins and immediately establish your own offensive grips on opponent's foot, converting the defensive situation into an attacking opportunity by capitalizing on their failed attempt
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Rotate with the toe hold pressure to alleviate torque, then use the rotational momentum to disentangle from 50-50 and establish inside ashi-garami on opponent's leg, converting their attack into your own dominant leg entanglement position
 

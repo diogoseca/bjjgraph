@@ -154,7 +154,7 @@ description: "Defend and counter the Twister Side Control to Back Take. Recogniz
 
 Defending the Twister Side Control to Back Take requires immediate recognition that the top player has abandoned the twister submission in favor of positional advancement to back control, the most dominant position in grappling. The defender must transition their defensive priority from spinal protection to preventing back exposure, using frames against the top player's shoulder and hip to resist the rotation that enables hook insertion. Successful defense demands maintaining a position facing toward the attacker's body rather than turning away, which paradoxically increases back exposure and accelerates the transition. The defender should seek to either keep the attacker locked in Twister Side Control where established escape pathways remain available, or time a reversal during the transitional phase when the attacker's base is most compromised between control systems. Recognizing the back take attempt early provides significantly more defensive options than reacting after hooks have been partially inserted.
 
-**Opponent's Starting Position**: [[Twister Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Twister Control/Twister Side Control]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the Twister Side Control to Back Take requires immediate recognition t
 ### 1. Frame against attacker's shoulder and turn to face their hips, denying back exposure
 
 - **When to use**: Early in the transition when you first sense the rotational pressure change and the attacker has not yet established the seatbelt grip
-- **Targets**: [[Twister Side Control]]
+- **Targets**: [[Positions/Twister Control/Twister Side Control]]
 - **If successful**: Attacker is forced to remain in Twister Side Control and must re-engage twister attacks or restart the back take sequence from scratch
 - **Risk**: If the frame is weak or poorly positioned, the attacker can collapse it and accelerate past to establish the seatbelt with even less resistance
 
 ### 2. Hip escape to create distance and deny hook insertion space behind your body
 
 - **When to use**: During the transitional window when the attacker releases leg entanglement to begin inserting hooks, creating a brief moment of reduced lower body control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough distance to recover guard position, forcing the attacker into a passing situation rather than back control
 - **Risk**: If timed poorly, the hip escape can accelerate back exposure by creating rotational momentum the attacker exploits
 
 ### 3. Two-on-one grip control on the seatbelt arm to strip upper body control before hooks are established
 
 - **When to use**: When the attacker has established seatbelt grip but has not yet inserted hooks, meaning upper body control is their only connection point
-- **Targets**: [[Twister Side Control]]
+- **Targets**: [[Positions/Twister Control/Twister Side Control]]
 - **If successful**: Breaking the seatbelt eliminates the attacker's primary control mechanism, forcing them to either re-establish it or abandon the back take entirely
 - **Risk**: Committing both hands to grip fighting leaves your body undefended against hook insertion if the grip strip fails
 
 ### 4. Bridge and turn into the attacker during hook insertion phase to reverse the rotation and deny back exposure
 
 - **When to use**: When the attacker has one hook partially inserted and is working to establish the second, creating a moment of split base between control systems
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The bridge disrupts the attacker's base during the most vulnerable transition phase, potentially reversing position to half guard or creating scramble
 - **Risk**: If the bridge is absorbed without creating positional change, you have expended significant energy while the attacker consolidates the remaining hook
 
@@ -226,11 +226,11 @@ Defending the Twister Side Control to Back Take requires immediate recognition t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a hip escape or bridge reversal during the critical transitional moment when the attacker has released the leg entanglement but before back control hooks are fully established. The attacker's base is most compromised during this exchange of control systems, making reversals and guard recovery highest percentage during this narrow window.
 
-### → [[Twister Side Control]]
+### → [[Positions/Twister Control/Twister Side Control]]
 
 Maintain strong structural frames against the attacker's shoulder and hips while keeping your body facing toward the attacker rather than turning away. Deny the seatbelt grip by keeping elbows tight to your body and actively stripping any arm that threads over your shoulder. Force the attacker to remain in Twister Side Control where your established escape pathways remain available.
 

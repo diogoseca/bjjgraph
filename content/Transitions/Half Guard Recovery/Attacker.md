@@ -178,7 +178,7 @@ The fundamental challenge of this recovery lies in the mechanical disadvantage c
 
 Strategically, half guard recovery is preferred over other escape options when your opponent begins a knee slice or pressure pass, as their forward movement creates the exact space you need to insert your knee. The position you recover to - ideally knee shield half guard - gives you immediate offensive threats including underhook battles, sweeps, and leg lock entries. This makes the recovery not just a defensive technique but a positional reset that can shift momentum in your favor.
 
-**From Position**: [[Leg Drag Control]] (Bottom)
+**From Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
 
@@ -230,10 +230,10 @@ Strategically, half guard recovery is preferred over other escape options when y
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Knee Shield Half Guard]] | 50% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Side Control]] | 10% |
+| Success | [[Positions/Half Guard/Knee Shield Half Guard]] | 50% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ Strategically, half guard recovery is preferred over other escape options when y
 
 ## Opponent Counters
 
-- **Opponent sprawls and drives chest pressure down during knee insertion attempt** (Effectiveness: High) - Your Response: Abandon knee shield attempt and immediately transition to deep half guard entry by threading under their base, or reset frames and wait for next transition opportunity → Leads to [[Leg Drag Control]]
-- **Opponent backsteps to take back as you begin hip movement** (Effectiveness: High) - Your Response: Recognize the backstep early and switch to turtle defense or rolling back take counter, keeping elbows tight and chin tucked to prevent seatbelt establishment → Leads to [[Side Control]]
-- **Opponent clears knee shield by pushing knee down and re-establishing crossface** (Effectiveness: Medium) - Your Response: Swim the underhook aggressively and use butterfly hook with outside leg to create elevation and prevent flattening, then re-attempt shield insertion from improved angle → Leads to [[Leg Drag Control]]
-- **Opponent maintains heavy hip control preventing shrimp** (Effectiveness: Medium) - Your Response: Attack their grip directly with your far arm to strip hip control, or transition to granby roll if their weight is committed forward and their base is narrow → Leads to [[Leg Drag Control]]
+- **Opponent sprawls and drives chest pressure down during knee insertion attempt** (Effectiveness: High) - Your Response: Abandon knee shield attempt and immediately transition to deep half guard entry by threading under their base, or reset frames and wait for next transition opportunity → Leads to [[Positions/Leg Drag Control]]
+- **Opponent backsteps to take back as you begin hip movement** (Effectiveness: High) - Your Response: Recognize the backstep early and switch to turtle defense or rolling back take counter, keeping elbows tight and chin tucked to prevent seatbelt establishment → Leads to [[Positions/Side Control]]
+- **Opponent clears knee shield by pushing knee down and re-establishing crossface** (Effectiveness: Medium) - Your Response: Swim the underhook aggressively and use butterfly hook with outside leg to create elevation and prevent flattening, then re-attempt shield insertion from improved angle → Leads to [[Positions/Leg Drag Control]]
+- **Opponent maintains heavy hip control preventing shrimp** (Effectiveness: Medium) - Your Response: Attack their grip directly with your far arm to strip hip control, or transition to granby roll if their weight is committed forward and their base is narrow → Leads to [[Positions/Leg Drag Control]]
 
 
 </section>

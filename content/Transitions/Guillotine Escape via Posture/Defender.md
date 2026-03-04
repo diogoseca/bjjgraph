@@ -140,7 +140,7 @@ description: "Master defending against the Guillotine Escape via Posture. Learn 
 
 As the guillotine holder defending against a posture escape attempt, your objective is to maintain the choking grip and prevent the opponent from recovering their spine alignment. The posture escape exploits the structural weakness of holding both choke and guard simultaneously—your defense must address this by immediately closing guard to add leg pressure, adjusting to high elbow mechanics that resist posture recovery, or capitalizing on the opponent's upward momentum with a hip bump sweep to mount. Recognizing the early signs of the posture attempt—knee walking, wrist grip on your choking arm, spine stiffening—allows you to respond before the escape gains momentum and your grip mechanics are compromised.
 
-**Opponent's Starting Position**: [[Guillotine Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Guillotine Control]] (Bottom)
 
 </section>
 
@@ -178,21 +178,21 @@ As the guillotine holder defending against a posture escape attempt, your object
 ### 1. Close guard immediately by locking ankles behind the opponent's back and pulling knees toward your chest to add leg compression to the choke
 
 - **When to use**: As soon as you feel the opponent's posture beginning to stiffen or their knees walking forward past your hips—this must be your fastest response
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: Opponent cannot posture effectively because your legs add tremendous compression to the choke, their knees are blocked from advancing, and you maintain the submission threat
 - **Risk**: If guard closure is late, the opponent may already have sufficient posture to work the escape from inside your closed guard
 
 ### 2. Transition to high elbow guillotine by driving your choking elbow toward the ceiling and rotating your wrist angle to attack behind the chin
 
 - **When to use**: When the opponent begins stripping your standard grip but has not yet achieved full posture—the transition must happen before the grip is fully compromised
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: High elbow mechanics create a significantly tighter choke that is more resistant to posture escape, potentially forcing a tap during the escape attempt itself
 - **Risk**: The grip transition creates a brief window where the choke is loosened, potentially allowing the opponent to extract their head if timed poorly
 
 ### 3. Execute hip bump sweep by bridging explosively into the opponent's upward momentum and rolling them over your hip to mount
 
 - **When to use**: When the opponent commits significant weight upward and backward during the posture attempt, creating a clear sweep angle with their base temporarily elevated
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You sweep to mount position with the potential to maintain the guillotine grip for a mounted guillotine finish, one of the highest-percentage submissions in BJJ
 - **Risk**: A failed sweep attempt may give the opponent additional momentum and posture to complete the escape, leaving you in open guard bottom
 
@@ -204,11 +204,11 @@ As the guillotine holder defending against a posture escape attempt, your object
 
 ## Best-Case Outcomes for Defender
 
-### → [[Guillotine Control]]
+### → [[Positions/Guillotine Control]]
 
 Close guard early before the opponent's knees pass your hip line, pull their head down with core engagement and leg compression, and transition to high elbow mechanics. Use your legs to break the opponent's posture by pulling your knees toward your chest while crunching your torso forward to close all space.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Time the hip bump sweep as the opponent drives upward during the posture attempt. Bridge explosively into their upward momentum, posting on your far foot and rolling them over your near hip. Maintain the guillotine grip through the sweep to create a mounted guillotine opportunity.
 

@@ -146,7 +146,7 @@ description: "Defend the collar sleeve to spider guard transition. Learn to reco
 
 As the defender facing the collar sleeve to spider guard transition, your objective is to either prevent the guard evolution entirely or capitalize on the momentary vulnerability created during the grip conversion. The transition requires the bottom player to release their collar grip and reach for your second sleeve, creating a brief window where their control structure is weakened. Recognizing the setup cues for this transition allows you to time defensive actions that exploit the grip switch. Your best outcomes come from pressuring forward during the collar release or stripping grips before the spider guard structure solidifies. Understanding this transition from the defensive perspective also informs your general guard passing strategy, as the bottom player's desire to evolve guards creates predictable patterns you can exploit.
 
-**Opponent's Starting Position**: [[Collar Sleeve Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Collar Sleeve Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender facing the collar sleeve to spider guard transition, your object
 ### 1. Drive forward with heavy pressure the moment you feel the collar grip release
 
 - **When to use**: When you recognize the collar release timing and have stable base to commit forward pressure without being swept
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You collapse the guard structure during the vulnerable grip transition and establish a passing position with the bottom player's control compromised
 - **Risk**: If the bottom player already has both feet on your biceps, your forward drive loads their spider guard sweep mechanisms
 
 ### 2. Strip the existing sleeve grip using a two-on-one grip break during the transition
 
 - **When to use**: When you recognize the bottom player is committed to the transition and their attention is divided between releasing collar and securing second sleeve
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Bottom player loses all upper body grip control simultaneously, leaving them with only feet on biceps and no pulling mechanism to maintain spider guard
 - **Risk**: Committing both hands to the grip break temporarily compromises your base and could be exploited if the bottom player switches to a sweep
 
 ### 3. Withdraw your free arm by pulling your elbow tight to your ribs and stepping back
 
 - **When to use**: When you feel the bottom player's foot approaching your bicep or sense them releasing the collar to reach for your sleeve
-- **Targets**: [[Collar Sleeve Guard]]
+- **Targets**: [[Positions/Collar Sleeve Guard]]
 - **If successful**: Bottom player cannot complete the transition to spider guard and must remain in collar sleeve guard or attempt a different guard evolution
 - **Risk**: Stepping back creates distance that may allow the bottom player to sit up or transition to a different guard like De La Riva
 
 ### 4. Circle laterally to create an angle that prevents bilateral foot-on-bicep placement
 
 - **When to use**: When the bottom player begins the transition sequence but has not yet established the second foot on your bicep
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Your lateral angle makes it physically impossible for the bottom player to place both feet on your biceps, and you can initiate a toreando or leg drag pass from the new angle
 - **Risk**: Lateral movement while still connected to one spider hook could load a single-leg sweep or De La Riva entry
 
@@ -217,7 +217,7 @@ As the defender facing the collar sleeve to spider guard transition, your object
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Capitalize on the collar grip release by surging forward with heavy pressure or stripping the remaining sleeve grip during the transition. Act within the 1-2 second vulnerability window before spider guard is established. Immediately establish your own passing grips on their legs or collar to prevent guard re-establishment.
 

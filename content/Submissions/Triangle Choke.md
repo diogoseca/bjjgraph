@@ -26,8 +26,8 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and brachial plexus
-**Starting Position**: [[Closed Guard]]
-**From Position**: [[Triangle Control]] (Top)
+**Starting Position**: [[Positions/Closed Guard]]
+**From Position**: [[Positions/Triangle Control]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -80,8 +80,8 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Triangle Control]] | 27% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Triangle Control]] | 27% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -232,13 +232,13 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 ## From Which Positions?
 
-- [[Closed Guard]]
-- [[Mount]]
-- [[Spider Guard]]
-- [[De La Riva Guard]]
-- [[Rubber Guard]]
-- [[Back Control]]
-- [[Triangle Control]]
+- [[Positions/Closed Guard]]
+- [[Positions/Mount]]
+- [[Positions/Spider Guard]]
+- [[Positions/De La Riva Guard]]
+- [[Positions/Rubber Guard]]
+- [[Positions/Back Control]]
+- [[Positions/Triangle Control]]
 
 
 </section>
@@ -247,13 +247,13 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 ## Related Submissions
 
-- [[Armbar from Guard]]
-- [[Omoplata]]
-- [[Guillotine Choke]]
-- [[Armbar from Back]]
-- [[Kimura from Guard]]
-- [[Gogoplata]]
-- [[Arm Triangle]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Omoplata]]
+- [[Transitions/Guillotine Choke]]
+- [[Submissions/Armbar from Back]]
+- [[Submissions/Kimura from Guard]]
+- [[Transitions/Gogoplata]]
+- [[Transitions/Arm Triangle]]
 
 
 </section>
@@ -262,13 +262,13 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 ## Additional Related Content
 
-- [[Armbar from Guard]] - Primary transition when opponent defends triangle by pulling arm free
-- [[Omoplata]] - Alternative finish when triangle is defended—opponent's defensive movements open omoplata
-- [[Closed Guard]] - Most common starting position for triangle choke setup
-- [[Pendulum Sweep]] - Sweep option that creates triangle opportunity when opponent posts hand to defend
-- [[Guillotine Choke]] - Complementary guard submission—similar head control principles
-- [[Triangle Control]] - Control position that precedes the triangle choke finish
-- [[Spider Guard]] - Open guard variation offering triangle entry opportunities
+- [[Submissions/Armbar from Guard]] - Primary transition when opponent defends triangle by pulling arm free
+- [[Transitions/Omoplata]] - Alternative finish when triangle is defended—opponent's defensive movements open omoplata
+- [[Positions/Closed Guard]] - Most common starting position for triangle choke setup
+- [[Transitions/Pendulum Sweep]] - Sweep option that creates triangle opportunity when opponent posts hand to defend
+- [[Transitions/Guillotine Choke]] - Complementary guard submission—similar head control principles
+- [[Positions/Triangle Control]] - Control position that precedes the triangle choke finish
+- [[Positions/Spider Guard]] - Open guard variation offering triangle entry opportunities
 
 
 </section>

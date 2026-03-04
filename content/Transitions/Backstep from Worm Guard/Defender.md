@@ -146,7 +146,7 @@ description: "Defend against the Backstep from Worm Guard. Recognition cues, tim
 
 As the bottom player in worm guard defending against the backstep, your primary task is recognizing the technique early enough to prevent the passer from clearing your lapel entanglement. The backstep exploits the directional weakness of your wrap—it only controls forward movement effectively—so your defensive strategy centers on following the passer's hip rotation with your own hip adjustment to maintain the lapel tension line. When the passer commits to the rotation and exposes their back, you have a narrow window to transition from guard retention to an offensive back take. Early recognition of the backstep setup is critical because once the passer clears the lapel, your primary control mechanism is gone and guard recovery becomes significantly more difficult than maintaining the existing guard structure.
 
-**Opponent's Starting Position**: [[Worm Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Worm Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the bottom player in worm guard defending against the backstep, your primary 
 ### 1. Chase the passer's hip rotation with your own hip adjustment to maintain lapel tension throughout the backstep
 
 - **When to use**: As soon as you recognize the weight shift and feel the passer beginning to rotate, before they complete the full arc
-- **Targets**: [[Worm Guard]]
+- **Targets**: [[Positions/Worm Guard]]
 - **If successful**: The lapel tension is maintained, the backstep is nullified, and you retain your worm guard with all offensive options intact
 - **Risk**: Chasing requires energy expenditure and may compromise your secondary grips if you commit too aggressively to the hip rotation
 
 ### 2. Release worm guard and immediately pursue a back take as the passer rotates and exposes their back
 
 - **When to use**: When the passer has committed fully to the backstep rotation and their back is exposed beyond the point of easy recovery
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You achieve back control, transitioning from guard to one of the most dominant positions in the hierarchy
 - **Risk**: If the back take attempt fails, you have voluntarily released your worm guard and may end up in an open guard with no established control
 
 ### 3. Insert knee shield during the backstep transition to salvage half guard position
 
 - **When to use**: When the lapel is partially cleared but the passer has not yet settled chest-to-chest pressure into side control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard with a knee shield, which provides a strong defensive platform to rebuild guard or sweep
 - **Risk**: Half guard bottom is less advantageous than worm guard, so this represents a positional concession even when successful
 
 ### 4. Strip the passer's upper body anchor grip to deny them the rotational control needed for the backstep
 
 - **When to use**: Early in the setup phase when you recognize the passer reaching for your collar or shoulder before the backstep begins
-- **Targets**: [[Worm Guard]]
+- **Targets**: [[Positions/Worm Guard]]
 - **If successful**: Without the upper body anchor, the passer cannot execute the backstep effectively and must reset their passing attempt
 - **Risk**: Grip fighting for the anchor may temporarily loosen your lapel tension if you redirect your hands away from the wrap
 
@@ -217,11 +217,11 @@ As the bottom player in worm guard defending against the backstep, your primary 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the passer commits fully to the backstep rotation, release your lapel grip and immediately climb onto their back using the exposed angle. The rotational momentum of the backstep actually assists your back take because the passer is turning away from you. Establish seat belt control and insert hooks before they can face you. Time this transition at the peak of their rotation when their back exposure is maximum.
 
-### → [[Worm Guard]]
+### → [[Positions/Worm Guard]]
 
 Chase the passer's hip rotation with your own hip adjustment the instant you feel the weight shift. Use your free leg to hook their non-trapped leg and prevent them from completing the full backstep arc. Maintain constant pulling pressure on the lapel throughout their rotation attempt to deny the slack they need to clear the wrap. Fight their collar grip with your free hand to deny them the anchor.
 

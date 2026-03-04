@@ -210,23 +210,23 @@ Strategically, Reverse X-Guard Top represents a transitional state where the top
 
 ## Available Attacks
 
-### [[Smash Pass]] (30% of attempts)
+### [[Transitions/Smash Pass]] (30% of attempts)
 
-### [[Knee Slice Pass]] (13% of attempts)
+### [[Transitions/Knee Slice Pass]] (13% of attempts)
 
-### [[Long Step Pass]] (11% of attempts)
+### [[Transitions/Long Step Pass]] (11% of attempts)
 
-### [[Leg Drag Pass]] (13% of attempts)
+### [[Transitions/Leg Drag Pass]] (13% of attempts)
 
-### [[Butterfly Pass]] (14% of attempts)
+### [[Transitions/Butterfly Pass]] (14% of attempts)
 
-### [[Back Step]] (11% of attempts)
+### [[Transitions/Back Step]] (11% of attempts)
 
-### [[Backstep Pass from Reverse X-Guard]] (5% of attempts)
+### [[Transitions/Backstep Pass from Reverse X-Guard]] (5% of attempts)
 
-### [[Knee Slice from Reverse X-Guard]] (2% of attempts)
+### [[Transitions/Knee Slice from Reverse X-Guard]] (2% of attempts)
 
-### [[Standing Escape from Reverse X-Guard]] (1% of attempts)
+### [[Transitions/Standing Escape from Reverse X-Guard]] (1% of attempts)
 
 
 
@@ -237,23 +237,23 @@ Strategically, Reverse X-Guard Top represents a transitional state where the top
 ## Decision Making from This Position
 
 **If opponent has strong elevation and is actively attempting to sweep backward:**
-- Execute **[[Smash Pass]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Widen base and apply forward pressure]]** → [[Reverse X-Guard]] (Probability: 30%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Widen base and apply forward pressure]]** → [[Positions/X-Guard/Reverse X-Guard]] (Probability: 30%)
 
 
 **If opponent's hooks are weakening or losing connection to legs:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Probability: 50%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 50%)
 
 
 **If opponent is transitioning to leg lock entry or ankle lock position:**
-- Execute **[[Back Step]]** → [[Standing Position]] (Probability: 65%)
-- Execute **[[Sprawl Defense]]** → [[Front Headlock]] (Probability: 40%)
+- Execute **[[Transitions/Back Step]]** → [[Positions/Standing Position]] (Probability: 65%)
+- Execute **[[Transitions/Sprawl Defense]]** → [[Positions/Front Headlock]] (Probability: 40%)
 
 
 **If opponent transitions to X-Guard or Single Leg X-Guard variation:**
-- Execute **[[Long Step Pass]]** → [[Headquarters Position]] (Probability: 50%)
-- Execute **[[Butterfly Pass]]** → [[Butterfly Guard]] (Probability: 45%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Headquarters Position]] (Probability: 50%)
+- Execute **[[Transitions/Butterfly Pass]]** → [[Positions/Butterfly Guard]] (Probability: 45%)
 
 
 
@@ -380,14 +380,14 @@ Positional sparring starting from Reverse X-Guard Top. Top player attempts to pa
 
 ## Related Positions and Techniques
 
-- **[[Reverse X-Guard]]** - Hub position - opposite perspective
-- **[[X-Guard]]** - Similar guard defense position with different hook configuration
-- **[[Single Leg X-Guard]]** - Related leg entanglement defense position
-- **[[Ashi Garami]]** - Leg entanglement position opponent may transition to
-- **[[Half Guard]]** - Common transition target from smash passing
-- **[[Side Control]]** - Target position from successful knee slice pass
-- **[[Leg Drag Control]]** - Alternative passing position from angle creation
-- **[[Headquarters Position]]** - Neutral passing position after hook clearing
+- **[[Positions/X-Guard/Reverse X-Guard]]** - Hub position - opposite perspective
+- **[[Positions/X-Guard]]** - Similar guard defense position with different hook configuration
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Related leg entanglement defense position
+- **[[Positions/Ashi Garami]]** - Leg entanglement position opponent may transition to
+- **[[Positions/Half Guard]]** - Common transition target from smash passing
+- **[[Positions/Side Control]]** - Target position from successful knee slice pass
+- **[[Positions/Leg Drag Control]]** - Alternative passing position from angle creation
+- **[[Positions/Headquarters Position]]** - Neutral passing position after hook clearing
 
 
 </section>

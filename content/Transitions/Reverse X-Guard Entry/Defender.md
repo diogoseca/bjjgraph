@@ -156,7 +156,7 @@ Defending against the Reverse X-Guard Entry requires understanding the mechanics
 
 The most dangerous moment is when you allow the bottom player to thread their outside leg deep enough to establish the crossing hook on your far hip. Once that hook is locked, Reverse X-Guard is largely established and your defensive options narrow significantly. Effective defense therefore focuses on early recognition and immediate reaction during the threading phase, before the bottom player secures mechanical control. The window for optimal defense is narrow - typically 1-2 seconds from when you first feel their leg moving beneath your hips.
 
-**Opponent's Starting Position**: [[Inverted Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ The most dangerous moment is when you allow the bottom player to thread their ou
 ### 1. Apply immediate stack pressure by driving your weight forward onto opponent's shoulders and hips, compressing their inverted position and eliminating threading space
 
 - **When to use**: As soon as you recognize the hip rotation that signals the entry attempt, before any leg has threaded beneath you
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent is forced to abandon the entry and either granby roll away or accept being flattened, creating passing opportunities to side control
 - **Risk**: If applied too aggressively, opponent may use your forward momentum for a berimbolo entry or rolling back take
 
 ### 2. Backstep your far leg away from the threading direction, removing the target for the crossing hook and creating an angle to circle toward a passing position
 
 - **When to use**: When you feel the opponent's leg beginning to thread beneath your hips but the crossing hook has not yet locked behind your far hip
-- **Targets**: [[Inverted Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: Opponent's threading leg finds no target and the entry fails, leaving them inverted without hooks while you maintain top position with passing options
 - **Risk**: Creates temporary space that opponent may exploit to transition to berimbolo, Single Leg X, or standard X-Guard if you do not immediately follow with a passing attempt
 
 ### 3. Post your near-side hand firmly on opponent's hip to block the threading angle, combined with stripping their pants grip on your ankle using your other hand
 
 - **When to use**: When opponent has grip control on your ankle but has not yet begun threading their leg, giving you time to address the grip before the dynamic entry begins
-- **Targets**: [[Inverted Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: Opponent loses the anchor grip needed to prevent your disengagement and cannot maintain the threading angle, allowing you to back away or initiate a passing sequence
 - **Risk**: Posting your hand on their hip commits your arm and temporarily reduces your base; if they strip your post with a two-on-one grip, you lose positional control
 
 ### 4. Drive knee through opponent's guard centerline while maintaining crossface pressure, converting their inverted position into a smash passing opportunity
 
 - **When to use**: When opponent has partially threaded but hooks are not yet secured, allowing you to use your knee to pin their threading leg and flatten their guard structure
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent's guard structure collapses under smash pressure, allowing you to consolidate side control while their legs are trapped beneath your weight
 - **Risk**: If hooks are more established than you assessed, your knee drive may be redirected into an even deeper leg entanglement position
 
@@ -225,11 +225,11 @@ The most dangerous moment is when you allow the bottom player to thread their ou
 
 ## Best-Case Outcomes for Defender
 
-### → [[Inverted Guard]]
+### → [[Positions/Inverted Guard]]
 
 Shut down the entry before hooks establish by backstepping your far leg, stripping the pants grip, or applying stack pressure that forces opponent to abandon the attempt and return to basic inverted guard position
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Convert your defensive pressure into a passing sequence by driving through the compromised inverted position with stack pressure or smash passing mechanics when the opponent's entry attempt fails and they are momentarily flattened
 

@@ -154,7 +154,7 @@ description: "Defend against Counter from Estima Lock attempts in BJJ. Strategie
 
 Defending against the Counter from Estima Lock means maintaining your submission control when your opponent initiates a systematic escape from the bottom Estima Lock position. As the practitioner holding the Estima Lock, your defensive priority is recognizing early escape indicators such as counter-rotation, frame establishment, and free leg activation, then responding with appropriate adjustments to maintain grip integrity, positional pressure, and submission threat. When the primary lock becomes compromised, transitioning to alternative attacks or positional advancement preserves offensive momentum rather than wasting energy forcing an ineffective submission. The defender must balance between finishing the submission and maintaining positional control, choosing the option that offers the highest probability of success based on the current state of the exchange.
 
-**Opponent's Starting Position**: [[Estima Lock]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Estima Lock]] (Bottom)
 
 </section>
 
@@ -190,28 +190,28 @@ Defending against the Counter from Estima Lock means maintaining your submission
 ### 1. Re-tighten grip and increase rotational pressure while driving hips forward
 
 - **When to use**: When opponent begins counter-rotation but has not yet established frames or activated free leg
-- **Targets**: [[Estima Lock]]
+- **Targets**: [[Positions/Estima Lock]]
 - **If successful**: Opponent's escape attempt fails and submission pressure deepens toward tap
 - **Risk**: Over-committing to rotation may allow opponent to use momentum for a rolling counter escape
 
 ### 2. Follow hip escape movement and re-establish hip-to-calf contact by adjusting body position
 
 - **When to use**: When opponent hip escapes to create space but your grip remains intact
-- **Targets**: [[Estima Lock]]
+- **Targets**: [[Positions/Estima Lock]]
 - **If successful**: Space creation is negated and lock control is maintained with renewed fulcrum contact
 - **Risk**: Chasing movement may compromise your own base stability and create opportunities for sweep
 
 ### 3. Release grip and immediately transition to guard pass by driving into opponent
 
 - **When to use**: When grip has been significantly compromised and foot extraction is imminent
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent ends up under side control rather than recovering to open guard
 - **Risk**: If pass attempt fails, opponent recovers to open guard and you lose all positional advantage
 
 ### 4. Transition to toe hold grip when opponent's counter-rotation exposes metatarsals
 
 - **When to use**: When opponent's counter-rotation changes the foot angle to expose toe hold opportunity
-- **Targets**: [[Estima Lock]]
+- **Targets**: [[Positions/Estima Lock]]
 - **If successful**: New submission threat forces opponent to address different defensive angle, resetting their escape progress
 - **Risk**: Grip transition creates momentary vulnerability where opponent may extract foot completely
 
@@ -223,11 +223,11 @@ Defending against the Counter from Estima Lock means maintaining your submission
 
 ## Best-Case Outcomes for Defender
 
-### → [[Estima Lock]]
+### → [[Positions/Estima Lock]]
 
 Maintain tight figure-four grip, follow opponent's hip movement to prevent space creation, and gradually increase rotational pressure when counter-rotation weakens to force the tap
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When grip is compromised beyond recovery, immediately release and drive forward into guard pass using the positional proximity from the leg entanglement to establish side control before opponent recovers guard
 

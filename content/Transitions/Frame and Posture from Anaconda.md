@@ -21,7 +21,7 @@ The technique works by establishing a forearm frame against the opponent's far s
 
 Strategically, Frame and Posture from Anaconda serves as a complementary escape to the anaconda grip break. When the opponent's grip junction is inaccessible or too tightly locked for direct grip fighting to succeed, the framing approach provides an alternative pathway that bypasses the grip entirely. The technique deposits you in front headlock bottom position, where the full defensive arsenal of front headlock escapes becomes available. This makes it an essential component of a complete anaconda defense system that gives practitioners multiple escape pathways from one of grappling's most dangerous submission control positions.
 
-**From Position**: [[Anaconda Control]] (Bottom)
+**From Position**: [[Positions/Anaconda Control]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, Frame and Posture from Anaconda serves as a complementary escape 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 40% |
-| Failure | [[Anaconda Control]] | 35% |
-| Counter | [[Darce Control]] | 15% |
-| Counter | [[Side Control]] | 10% |
+| Success | [[Positions/Front Headlock]] | 40% |
+| Failure | [[Positions/Anaconda Control]] | 35% |
+| Counter | [[Positions/Darce Control]] | 15% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -192,25 +192,25 @@ Frame and Posture from Anaconda is a complementary escape to the Anaconda Grip B
 ## Related Techniques
 
 
-- [[Anaconda Control]] - Source position from which this frame escape is executed
+- [[Positions/Anaconda Control]] - Source position from which this frame escape is executed
 
-- [[Front Headlock]] - Target position achieved after successful frame escape and posture recovery
+- [[Positions/Front Headlock]] - Target position achieved after successful frame escape and posture recovery
 
-- [[Anaconda Grip Break to Front Headlock]] - Complementary escape targeting the grip directly rather than body compression
+- [[Transitions/Anaconda Grip Break to Front Headlock]] - Complementary escape targeting the grip directly rather than body compression
 
-- [[Frame Escape from Darce]] - Parallel framing escape concept from the related darce choke position
+- [[Transitions/Frame Escape from Darce]] - Parallel framing escape concept from the related darce choke position
 
-- [[Anaconda Choke]] - Primary submission being defended against during the frame escape
+- [[Transitions/Anaconda Choke]] - Primary submission being defended against during the frame escape
 
-- [[Darce Control]] - Position opponent may transition to if frame escape partially disrupts anaconda angle
+- [[Positions/Darce Control]] - Position opponent may transition to if frame escape partially disrupts anaconda angle
 
-- [[Side Control]] - Position opponent may achieve by flattening you during the escape attempt
+- [[Positions/Side Control]] - Position opponent may achieve by flattening you during the escape attempt
 
-- [[Anaconda Setup]] - Entry transition that creates the anaconda control requiring this escape
+- [[Transitions/Anaconda Setup]] - Entry transition that creates the anaconda control requiring this escape
 
-- [[Escape Dead Orchard Control]] - Related escape from an advanced position accessible from anaconda control
+- [[Transitions/Escape Dead Orchard Control]] - Related escape from an advanced position accessible from anaconda control
 
-- [[Anaconda to Side Control]] - Alternative advancement the opponent may attempt from anaconda top
+- [[Transitions/Anaconda to Side Control]] - Alternative advancement the opponent may attempt from anaconda top
 
 
 </section>

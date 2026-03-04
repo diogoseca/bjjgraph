@@ -21,7 +21,7 @@ The transition represents a critical junction in the turtle attack hierarchy. Wh
 
 Successful execution demands maintaining constant chest-to-back connection throughout the entire rotation. The most common failure occurs when practitioners lift their weight to insert hooks, creating space that allows the opponent to turn, granby roll, or sit through to guard. Elite practitioners solve this by threading hooks sequentially while driving their shoulder into the opponent's back, ensuring zero daylight between their chest and the opponent's spine throughout the transition. The seatbelt grip serves as the primary anchor, preventing the opponent from exploiting rotational momentum to escape.
 
-**From Position**: [[Cross Body Ride]] (Top)
+**From Position**: [[Positions/Cross Body Ride]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Successful execution demands maintaining constant chest-to-back connection throu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Cross Body Ride]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Cross Body Ride]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -197,29 +197,29 @@ Cross Body to Back Control functions as the primary advancement pathway within t
 ## Related Techniques
 
 
-- [[Cross Body Ride]] - Source position - perpendicular turtle top control where this transition begins
+- [[Positions/Cross Body Ride]] - Source position - perpendicular turtle top control where this transition begins
 
-- [[Back Control]] - Target position - dominant back control achieved upon successful completion
+- [[Positions/Back Control]] - Target position - dominant back control achieved upon successful completion
 
-- [[Turtle]] - Opponent's base position - the defensive turtle that cross body ride controls
+- [[Positions/Turtle]] - Opponent's base position - the defensive turtle that cross body ride controls
 
-- [[Seat Belt Control Back]] - Follow-up control - specific grip configuration used after back take completion
+- [[Positions/Back Control/Seat Belt Control Back]] - Follow-up control - specific grip configuration used after back take completion
 
-- [[Crab Ride]] - Alternative intermediate position - used as stepping stone in crab ride variant
+- [[Positions/Crab Ride]] - Alternative intermediate position - used as stepping stone in crab ride variant
 
-- [[Crucifix]] - Alternative advancement - available when opponent posts arm defending back take
+- [[Positions/Crucifix]] - Alternative advancement - available when opponent posts arm defending back take
 
-- [[Harness]] - Related control system - seatbelt grip mechanics shared between both positions
+- [[Positions/Harness]] - Related control system - seatbelt grip mechanics shared between both positions
 
-- [[Body Triangle]] - Follow-up variation - leg control option after establishing back control
+- [[Positions/Back Control/Body Triangle]] - Follow-up variation - leg control option after establishing back control
 
-- [[Back Take]] - Related transition category - broader back take system this technique belongs to
+- [[Transitions/Back Take]] - Related transition category - broader back take system this technique belongs to
 
-- [[Crab Ride to Back]] - Alternative pathway - parallel transition through crab ride intermediate
+- [[Transitions/Crab Ride to Back]] - Alternative pathway - parallel transition through crab ride intermediate
 
-- [[Rear Naked Choke]] - Primary follow-up submission - highest percentage finish from back control
+- [[Transitions/Rear Naked Choke]] - Primary follow-up submission - highest percentage finish from back control
 
-- [[Gift Wrap]] - Setup control - arm trap that facilitates the transition when opponent defends
+- [[Positions/Gift Wrap]] - Setup control - arm trap that facilitates the transition when opponent defends
 
 
 </section>

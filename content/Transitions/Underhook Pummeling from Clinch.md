@@ -21,7 +21,7 @@ The strategic importance of pummeling cannot be overstated in modern grappling. 
 
 At the highest levels, pummeling transcends simple arm swimming and becomes an integrated system combining level changes, pressure shifts, and feints to create windows for underhook establishment. Elite clinch fighters create the conditions that make pummeling succeed by manipulating the opponent's posture, weight distribution, and attention before executing the swim motion. This systematic approach transforms pummeling from a single technique into a complete positional control methodology.
 
-**From Position**: [[Clinch]] (Bottom)
+**From Position**: [[Positions/Clinch]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ At the highest levels, pummeling transcends simple arm swimming and becomes an i
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Clinch]] | 55% |
-| Failure | [[Clinch]] | 30% |
-| Counter | [[Body Lock]] | 15% |
+| Success | [[Positions/Clinch]] | 55% |
+| Failure | [[Positions/Clinch]] | 30% |
+| Counter | [[Positions/Body Lock]] | 15% |
 
 
 </section>
@@ -194,25 +194,25 @@ Underhook pummeling is the critical link between defensive clinch play and offen
 ## Related Techniques
 
 
-- [[Clinch]] - Source position where the underhook pummeling battle occurs
+- [[Positions/Clinch]] - Source position where the underhook pummeling battle occurs
 
-- [[Body Lock]] - Counter position opponent may establish during a failed pummel attempt
+- [[Positions/Body Lock]] - Counter position opponent may establish during a failed pummel attempt
 
-- [[Standing Position]] - Parent standing context for clinch engagement
+- [[Positions/Standing Position]] - Parent standing context for clinch engagement
 
-- [[Back Control]] - Potential follow-up position after establishing dominant underhooks and chaining to back take
+- [[Positions/Back Control]] - Potential follow-up position after establishing dominant underhooks and chaining to back take
 
-- [[Front Headlock]] - Alternative clinch outcome when opponent capitalizes on posture break during pummel
+- [[Positions/Front Headlock]] - Alternative clinch outcome when opponent capitalizes on posture break during pummel
 
-- [[Arm Drag from Clinch]] - Complementary clinch technique that chains effectively with pummeling sequences
+- [[Transitions/Arm Drag from Clinch]] - Complementary clinch technique that chains effectively with pummeling sequences
 
-- [[Arm Drag from Clinch Bottom]] - Alternative offensive technique from the same disadvantaged clinch position
+- [[Transitions/Arm Drag from Clinch Bottom]] - Alternative offensive technique from the same disadvantaged clinch position
 
-- [[Body Lock Takedown]] - Primary follow-up takedown after establishing double underhooks through pummeling
+- [[Transitions/Body Lock Takedown]] - Primary follow-up takedown after establishing double underhooks through pummeling
 
-- [[Break Clinch]] - Alternative response when pummeling fails and disengagement is preferred
+- [[Transitions/Break Clinch]] - Alternative response when pummeling fails and disengagement is preferred
 
-- [[Ankle Pick]] - Takedown opportunity that opens when pummeling creates angular displacement
+- [[Transitions/Ankle Pick]] - Takedown opportunity that opens when pummeling creates angular displacement
 
 
 </section>

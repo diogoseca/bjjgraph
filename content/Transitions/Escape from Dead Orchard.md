@@ -21,7 +21,7 @@ This escape exploits a fundamental weakness of the dead orchard position: the to
 
 Strategically, this escape is best deployed when the incremental escape has stalled or when the opponent's grip has been partially loosened but not broken. It represents the second phase of the dead orchard escape decision tree: attempt the methodical frame-and-shrimp first, and if it stalls after two to three attempts, commit to the higher-amplitude movement while whatever space has been created still exists. The successful outcome places you in open guard with full leg frames, which is a significantly better recovery position than front headlock bottom.
 
-**From Position**: [[Dead Orchard Control]] (Bottom)
+**From Position**: [[Positions/Dead Orchard Control]] (Bottom)
 **Success Rate**: 35%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape is best deployed when the incremental escape has stal
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 35% |
-| Failure | [[Dead Orchard Control]] | 40% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Open Guard]] | 35% |
+| Failure | [[Positions/Dead Orchard Control]] | 40% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -193,29 +193,29 @@ The Escape from Dead Orchard to Open Guard functions as the aggressive second op
 ## Related Techniques
 
 
-- [[Dead Orchard Control]] - Source position - the control state this escape addresses
+- [[Positions/Dead Orchard Control]] - Source position - the control state this escape addresses
 
-- [[Open Guard]] - Primary escape target - full guard recovery with leg frames
+- [[Positions/Open Guard]] - Primary escape target - full guard recovery with leg frames
 
-- [[Side Control]] - Counter outcome - where opponent lands if they abandon grip and pass
+- [[Positions/Side Control]] - Counter outcome - where opponent lands if they abandon grip and pass
 
-- [[Anaconda Control]] - Parent control family - dead orchard is an advanced anaconda variation
+- [[Positions/Anaconda Control]] - Parent control family - dead orchard is an advanced anaconda variation
 
-- [[Escape Dead Orchard Control]] - Complementary escape - incremental frame-and-shrimp pathway to front headlock
+- [[Transitions/Escape Dead Orchard Control]] - Complementary escape - incremental frame-and-shrimp pathway to front headlock
 
-- [[Anaconda Grip Break to Front Headlock]] - Related escape technique - similar grip-breaking principles from standard anaconda
+- [[Transitions/Anaconda Grip Break to Front Headlock]] - Related escape technique - similar grip-breaking principles from standard anaconda
 
-- [[Dead Orchard to Anaconda Finish]] - Primary threat - submission this escape must prevent
+- [[Transitions/Dead Orchard to Anaconda Finish]] - Primary threat - submission this escape must prevent
 
-- [[Dead Orchard to Darce Switch]] - Secondary threat - alternative submission during escape attempts
+- [[Transitions/Dead Orchard to Darce Switch]] - Secondary threat - alternative submission during escape attempts
 
-- [[Darce Control]] - Related control position - similar defensive principles apply
+- [[Positions/Darce Control]] - Related control position - similar defensive principles apply
 
-- [[Front Headlock]] - Intermediate position - less aggressive escapes target this recovery state
+- [[Positions/Front Headlock]] - Intermediate position - less aggressive escapes target this recovery state
 
-- [[Turtle]] - Common preceding position - dead orchard often established from failed turtle defense
+- [[Positions/Turtle]] - Common preceding position - dead orchard often established from failed turtle defense
 
-- [[Half Guard]] - Alternative escape target - accessible if open guard recovery is partially blocked
+- [[Positions/Half Guard]] - Alternative escape target - accessible if open guard recovery is partially blocked
 
 
 </section>

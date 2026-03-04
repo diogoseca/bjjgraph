@@ -209,31 +209,31 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 
 ## Available Attacks
 
-### [[Turtle to Back Take]] (28% of attempts)
+### [[Transitions/Turtle to Back Take]] (28% of attempts)
 
-### [[Crab Ride to Back]] (12% of attempts)
+### [[Transitions/Crab Ride to Back]] (12% of attempts)
 
-### [[Turtle to Truck]] (10% of attempts)
+### [[Transitions/Turtle to Truck]] (10% of attempts)
 
-### [[Crucifix from Turtle]] (10% of attempts)
+### [[Transitions/Crucifix from Turtle]] (10% of attempts)
 
-### [[Clock Choke]] (8% of attempts)
+### [[Transitions/Clock Choke]] (8% of attempts)
 
-### [[Bow and Arrow Choke]] (6% of attempts)
+### [[Transitions/Bow and Arrow Choke]] (6% of attempts)
 
-### [[Consolidate Mount]] (8% of attempts)
+### [[Transitions/Consolidate Mount]] (8% of attempts)
 
-### [[Rolling Back Take]] (6% of attempts)
+### [[Transitions/Rolling Back Take]] (6% of attempts)
 
-### [[Darce from Turtle]] (5% of attempts)
+### [[Transitions/Darce from Turtle]] (5% of attempts)
 
-### [[Rodeo Ride to Back Control]] (2% of attempts)
+### [[Transitions/Rodeo Ride to Back Control]] (2% of attempts)
 
-### [[Rodeo Ride to Turtle]] (1% of attempts)
+### [[Transitions/Rodeo Ride to Turtle]] (1% of attempts)
 
-### [[Calf Slicer from Rodeo Ride]] (2% of attempts)
+### [[Submissions/Calf Slicer from Rodeo Ride]] (2% of attempts)
 
-### [[Rear Naked Choke from Rodeo]] (2% of attempts)
+### [[Submissions/Rear Naked Choke from Rodeo]] (2% of attempts)
 
 
 
@@ -244,29 +244,29 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 ## Decision Making from This Position
 
 **If opponent maintains tight turtle with good base and head protection:**
-- Execute **[[Crab Ride to Back]]** → [[Crab Ride]] (Probability: 55%)
-- Execute **[[Clock Choke]]** → [[game-over]] (Probability: 35%)
-- Execute **[[Crucifix from Turtle]]** → [[Crucifix]] (Probability: 45%)
+- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 55%)
+- Execute **[[Transitions/Clock Choke]]** → [[game-over]] (Probability: 35%)
+- Execute **[[Transitions/Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 45%)
 
 
 **If opponent attempts to sit back to guard or roll through:**
-- Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent turns away to protect neck or attempts to stand:**
-- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 65%)
-- Execute **[[Bow and Arrow Choke]]** → [[game-over]] (Probability: 40%)
+- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 65%)
+- Execute **[[Transitions/Bow and Arrow Choke]]** → [[game-over]] (Probability: 40%)
 
 
 **If opponent flattens out on stomach or extends arms for base:**
-- Execute **[[Consolidate Mount]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Crucifix from Turtle]]** → [[Crucifix]] (Probability: 55%)
+- Execute **[[Transitions/Consolidate Mount]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 55%)
 
 
 **If opponent creates space between hips and mat:**
-- Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Pass to Side Control]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Pass to Side Control]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 
@@ -405,18 +405,18 @@ Partner in turtle, practitioner establishes Rodeo Ride and flows through submiss
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Primary advancement target from Rodeo Ride
-- **[[Crab Ride]]** - Related turtle attack position with similar control mechanics
-- **[[Crucifix]]** - Submission position accessible from Rodeo Ride
-- **[[Turtle]]** - Parent position from which Rodeo Ride develops
-- **[[Turtle to Back Take]]** - Key transition technique from this position
-- **[[Clock Choke]]** - Primary submission available from Rodeo Ride
-- **[[Bow and Arrow Choke]]** - Gi-specific submission opportunity from this position
-- **[[Harness]]** - Related back attack control position
-- **[[Seat Belt Control Back]]** - Control mechanism used in transitions from Rodeo Ride
-- **[[Front Headlock]]** - Alternative attack position from turtle scenarios
-- **[[Darce Choke]]** - Submission opportunity from turtle attack sequences
-- **[[Crab Ride to Back]]** - Key transition technique to back control
+- **[[Positions/Back Control]]** - Primary advancement target from Rodeo Ride
+- **[[Positions/Crab Ride]]** - Related turtle attack position with similar control mechanics
+- **[[Positions/Crucifix]]** - Submission position accessible from Rodeo Ride
+- **[[Positions/Turtle]]** - Parent position from which Rodeo Ride develops
+- **[[Transitions/Turtle to Back Take]]** - Key transition technique from this position
+- **[[Transitions/Clock Choke]]** - Primary submission available from Rodeo Ride
+- **[[Transitions/Bow and Arrow Choke]]** - Gi-specific submission opportunity from this position
+- **[[Positions/Harness]]** - Related back attack control position
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Control mechanism used in transitions from Rodeo Ride
+- **[[Positions/Front Headlock]]** - Alternative attack position from turtle scenarios
+- **[[Transitions/Darce Choke]]** - Submission opportunity from turtle attack sequences
+- **[[Transitions/Crab Ride to Back]]** - Key transition technique to back control
 
 
 </section>

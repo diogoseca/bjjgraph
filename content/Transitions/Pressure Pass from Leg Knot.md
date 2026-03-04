@@ -21,7 +21,7 @@ The mechanics of this pass rely on the fundamental principle that upper body con
 
 This transition is particularly valuable in competition scenarios where time pressure demands positional scoring over submission hunting, and against opponents with exceptional leg lock defense who are difficult to finish from entangled positions. The pressure pass from Leg Knot integrates seamlessly into a broader top game strategy, allowing practitioners to flow between leg lock attacks and pressure passing based on the opponent's defensive reactions and the evolving tactical situation.
 
-**From Position**: [[Leg Knot]] (Top)
+**From Position**: [[Positions/Leg Knot]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ This transition is particularly valuable in competition scenarios where time pre
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Success | [[Side Control]] | 10% |
-| Failure | [[Leg Knot]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Success | [[Positions/Side Control]] | 10% |
+| Failure | [[Positions/Leg Knot]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -192,23 +192,23 @@ The Pressure Pass from Leg Knot occupies a critical strategic niche at the inter
 ## Related Techniques
 
 
-- [[Leg Knot]] - Starting position where this technique originates from the top player's perspective
+- [[Positions/Leg Knot]] - Starting position where this technique originates from the top player's perspective
 
-- [[Half Guard]] - Primary target position after successful pressure pass completion
+- [[Positions/Half Guard]] - Primary target position after successful pressure pass completion
 
-- [[Side Control]] - Advanced target position when the pass completes cleanly beyond half guard
+- [[Positions/Side Control]] - Advanced target position when the pass completes cleanly beyond half guard
 
-- [[Backstep from Leg Knot]] - Alternative passing technique from the same starting position using backstep mechanics
+- [[Transitions/Backstep from Leg Knot]] - Alternative passing technique from the same starting position using backstep mechanics
 
-- [[Leg Extraction from Leg Knot]] - Related leg freeing technique that prioritizes disengagement over passing
+- [[Transitions/Leg Extraction from Leg Knot]] - Related leg freeing technique that prioritizes disengagement over passing
 
-- [[Leg Entanglement]] - Parent positional category encompassing the leg knot configuration
+- [[Positions/Leg Entanglement]] - Parent positional category encompassing the leg knot configuration
 
-- [[50-50 Guard]] - Counter-entanglement position the defender may transition to during pass attempt
+- [[Positions/Ashi Garami/50-50 Guard]] - Counter-entanglement position the defender may transition to during pass attempt
 
-- [[Flattened Half Guard]] - Intermediate position the bottom player may reach during the pressure pass sequence
+- [[Positions/Half Guard/Flattened Half Guard]] - Intermediate position the bottom player may reach during the pressure pass sequence
 
-- [[Saddle]] - Alternative offensive option from Leg Knot Top if pass attempt is abandoned
+- [[Positions/Ashi Garami/Saddle]] - Alternative offensive option from Leg Knot Top if pass attempt is abandoned
 
 
 </section>

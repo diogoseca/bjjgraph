@@ -154,7 +154,7 @@ description: "Prevent the Matrix escape and capitalize on your opponent's stalle
 
 From the defender perspective, preventing the Matrix escape represents a critical opportunity to convert your successful Matrix defense into dominant offensive positioning. Having already defended the initial Matrix rotation through base adjustments, sprawling, or counter-pressure, you must now capitalize on your opponent's vulnerable transitional state by maintaining pressure, following their recovery motion, and seeking either back control establishment or positional advancement. The window to capitalize is brief—once the opponent establishes a tight turtle structure, your advantage shifts back toward neutral and you face the standard challenges of attacking turtle rather than exploiting a compromised opponent. The key is continuous forward pressure that denies them the space and time needed to complete their positional recovery.
 
-**Opponent's Starting Position**: [[Matrix]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Matrix]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ From the defender perspective, preventing the Matrix escape represents a critica
 ### 1. Sprawl and drive hips into opponent's back to pin them in the stalled position
 
 - **When to use**: Immediately upon recognizing the rotation has stalled, before they begin hip retraction
-- **Targets**: [[Matrix]]
+- **Targets**: [[Positions/Matrix]]
 - **If successful**: Opponent remains stuck in the vulnerable partially inverted position, unable to recover base or establish turtle. Provides extended window to work toward back control or submission setups.
 - **Risk**: If the opponent uses the sprawl pressure to accelerate their hip retraction, they may reach turtle faster than expected.
 
 ### 2. Follow the transition closely and insert hooks as they roll to turtle
 
 - **When to use**: When the opponent has begun hip retraction and is clearly heading toward turtle recovery
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Establish back control with hooks before the opponent can tighten their turtle defensive structure. The transition period is when their legs are most vulnerable to hook insertion.
 - **Risk**: Over-committing to following the roll can allow the opponent to redirect into a guard pull that catches you in their guard.
 
 ### 3. Crossface hard to block the shoulder roll and prevent turtle establishment
 
 - **When to use**: When the opponent is attempting to roll from the stalled position and you can reach across their face
-- **Targets**: [[Matrix]]
+- **Targets**: [[Positions/Matrix]]
 - **If successful**: Blocks the roll completion and keeps the opponent in a compromised position on their back or side where front headlock attacks become available.
 - **Risk**: The crossface arm can be captured for kimura or armbar attempts if the opponent redirects to submission attacks during the stall.
 
 ### 4. Circle toward the opponent's back during their recovery to cut off escape angles
 
 - **When to use**: When the opponent creates lateral movement during the escape rather than direct hip retraction
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Arrive at the opponent's back before they can complete turtle establishment, achieving back control from an angle they cannot defend.
 - **Risk**: Circling too aggressively may lose contact, allowing the opponent to complete the guard pull redirect variant.
 
@@ -225,11 +225,11 @@ From the defender perspective, preventing the Matrix escape represents a critica
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Follow the opponent's transition closely, maintaining chest-to-back connection throughout their recovery. Insert the bottom hook as their legs retract from the Matrix rotation and before they can tighten their turtle. Establish seatbelt control first, then work for the second hook. The key timing window is during their roll to turtle when their legs are in motion.
 
-### → [[Matrix]]
+### → [[Positions/Matrix]]
 
 Apply immediate heavy sprawl pressure the moment you recognize the stall, driving your hips into their upper back to pin them in the compromised position. Strip any grips they attempt for the recovery and use crossface pressure to prevent the shoulder roll. Keeping them stuck in the Matrix buys unlimited time to systematically work toward back control or front headlock submissions.
 

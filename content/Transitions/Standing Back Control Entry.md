@@ -21,7 +21,7 @@ The strategic importance of this entry cannot be overstated. Grounded back contr
 
 This transition integrates into the broader back attack system as a critical retention skill. When opponents recognize that standing escape attempts will not free them from back control, their escape options narrow significantly. The ability to follow to standing transforms what many opponents view as their best escape route into simply another controlled position within your attacking framework, creating the psychological pressure that forces defensive errors across the entire back control sequence.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition integrates into the broader back attack system as a critical ret
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Back Control]] | 55% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control/Standing Back Control]] | 55% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,29 +189,29 @@ Standing Back Control Entry occupies a crucial role in the back attack system as
 ## Related Techniques
 
 
-- [[Back Control]] - Source position from which this transition originates when opponent attempts to stand from grounded back control
+- [[Positions/Back Control]] - Source position from which this transition originates when opponent attempts to stand from grounded back control
 
-- [[Standing Back Control]] - Target position achieved upon successful completion of this transition
+- [[Positions/Back Control/Standing Back Control]] - Target position achieved upon successful completion of this transition
 
-- [[Seat Belt Control Back]] - Primary grip configuration that must be maintained throughout the standing transition for upper body control
+- [[Positions/Back Control/Seat Belt Control Back]] - Primary grip configuration that must be maintained throughout the standing transition for upper body control
 
-- [[Body Triangle]] - Alternative leg control configuration that can be established during or after the standing transition for enhanced stability
+- [[Positions/Back Control/Body Triangle]] - Alternative leg control configuration that can be established during or after the standing transition for enhanced stability
 
-- [[Harness]] - Upper body control mechanism fundamental to maintaining back control during the vertical transition
+- [[Positions/Harness]] - Upper body control mechanism fundamental to maintaining back control during the vertical transition
 
-- [[Half Guard]] - Counter outcome position where the attacker may end up if the transition fails and the opponent escapes
+- [[Positions/Half Guard]] - Counter outcome position where the attacker may end up if the transition fails and the opponent escapes
 
-- [[Mat Return from Standing Rear Clinch]] - Follow-up technique used to bring the fight back to the ground after achieving standing back control
+- [[Transitions/Mat Return from Standing Rear Clinch]] - Follow-up technique used to bring the fight back to the ground after achieving standing back control
 
-- [[Back Control Maintenance]] - Complementary retention technique for maintaining grounded back control when the standing transition is not pursued
+- [[Transitions/Back Control Maintenance]] - Complementary retention technique for maintaining grounded back control when the standing transition is not pursued
 
-- [[Bow and Arrow Setup from Standing Back]] - Gi-based attack pathway available after successfully achieving standing back control
+- [[Transitions/Bow and Arrow Setup from Standing Back]] - Gi-based attack pathway available after successfully achieving standing back control
 
-- [[Body Lock Takedown]] - Takedown option available from standing back control using body lock grip variation
+- [[Transitions/Body Lock Takedown]] - Takedown option available from standing back control using body lock grip variation
 
-- [[Turtle]] - Common position the opponent may attempt to reach during the transition to avoid standing back control
+- [[Positions/Turtle]] - Common position the opponent may attempt to reach during the transition to avoid standing back control
 
-- [[Shoulder Walk Escape from Back]] - Defensive technique the opponent may attempt that can precede or replace their standing escape attempt
+- [[Transitions/Shoulder Walk Escape from Back]] - Defensive technique the opponent may attempt that can precede or replace their standing escape attempt
 
 
 </section>

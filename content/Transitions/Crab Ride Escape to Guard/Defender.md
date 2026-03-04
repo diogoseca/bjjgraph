@@ -146,7 +146,7 @@ description: "Learn to defend against the Crab Ride Escape to Guard as the top p
 
 Defending against the Crab Ride Escape to Guard means maintaining your crab ride control while the bottom player systematically works to strip your hook, rotate their hips, and pull you into their guard. Your role as the crab ride top player is to recognize each phase of the escape attempt early and shut it down before it progresses to the next phase. The escape follows a predictable sequence - neck protection, hook stripping, hip rotation, guard establishment - and each phase presents specific counter-opportunities. Your most powerful defensive tool is maintaining constant pressure and hook depth while being prepared to advance to full back control when the bottom player creates space during their escape attempts. Understanding these escape mechanics allows you to anticipate movements and convert failed escape attempts into positional advancement rather than simply maintaining the status quo.
 
-**Opponent's Starting Position**: [[Crab Ride]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Crab Ride]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ Defending against the Crab Ride Escape to Guard means maintaining your crab ride
 ### 1. Deepen hook and sprawl chest weight onto opponent's upper back to flatten their posture
 
 - **When to use**: When you feel the bottom player beginning to reach for your hooking foot or shifting their hips laterally
-- **Targets**: [[Crab Ride]]
+- **Targets**: [[Positions/Crab Ride]]
 - **If successful**: Bottom player is forced back to flat turtle position with your hook re-established at maximum depth, resetting their escape progress
 - **Risk**: Over-committing your weight forward can create opportunities for the bottom player to roll you if they redirect the pressure
 
 ### 2. Release crab ride hook and immediately transition to seatbelt grip with double hook back control
 
 - **When to use**: When the bottom player's rotation creates enough space for your second hook but before they can establish any guard structure
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You advance from crab ride to full back control with seatbelt and double hooks, a significantly more dominant position
 - **Risk**: If the transition is mistimed, the bottom player may complete their guard recovery during the brief moment when neither crab ride nor back control is fully established
 
 ### 3. Follow hip rotation with matching pressure adjustment, keeping chest connected to their back throughout the turn
 
 - **When to use**: When the bottom player begins rotating toward you after partially stripping the hook, maintaining contact throughout their turning motion
-- **Targets**: [[Crab Ride]]
+- **Targets**: [[Positions/Crab Ride]]
 - **If successful**: You ride the rotation and re-establish crab ride control from the new angle, negating the bottom player's rotational progress entirely
 - **Risk**: If the bottom player accelerates the turn faster than you can follow, they may complete guard closure before you can re-establish the hook
 
 ### 4. Drive forward aggressively when bottom player attempts to sit up or post, collapsing their base to flatten them
 
 - **When to use**: When the bottom player tries to create space by posting on their hands or elevating their torso during the early escape phase
-- **Targets**: [[Crab Ride]]
+- **Targets**: [[Positions/Crab Ride]]
 - **If successful**: Bottom player is driven flat to the mat with your weight on top, eliminating the elevation they need for effective rotation
 - **Risk**: Forward drive may be redirected if bottom player times a turn or roll with your momentum commitment
 
@@ -216,11 +216,11 @@ Defending against the Crab Ride Escape to Guard means maintaining your crab ride
 
 ## Best-Case Outcomes for Defender
 
-### → [[Crab Ride]]
+### → [[Positions/Crab Ride]]
 
 Maintain constant hook depth and chest pressure throughout the escape attempt, re-establishing control points faster than the bottom player can dismantle them. Focus on keeping the hook active and following all hip movements with matching adjustments.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Time the transition to back control during the moment when the bottom player creates rotational space. Their escape attempt often creates the exact space needed for your second hook insertion. Release the crab ride configuration and immediately establish seatbelt grip and double hooks before they can complete their guard pull.
 

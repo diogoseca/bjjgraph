@@ -21,7 +21,7 @@ This technique is particularly effective against opponents who commit their weig
 
 The underhook sweep functions as the central hub of half guard offense. Every defensive reaction your opponent makes to stop this sweep opens a different attack: wide base enables the old school sweep, whizzer defense opens back takes, backward weight shift allows butterfly transitions. This chain-reaction dynamic makes the underhook sweep indispensable for any serious half guard player.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The underhook sweep functions as the central hub of half guard offense. Every de
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Flattened Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 20% |
 
 
 </section>
@@ -194,31 +194,31 @@ The underhook sweep is a cornerstone technique of modern half guard bottom game,
 ## Related Techniques
 
 
-- [[Half Guard]] - Primary starting position
+- [[Positions/Half Guard]] - Primary starting position
 
-- [[Side Control]] - Primary ending position after successful sweep
+- [[Positions/Side Control]] - Primary ending position after successful sweep
 
-- [[Flattened Half Guard]] - Counter outcome when opponent crossfaces and flattens
+- [[Positions/Half Guard/Flattened Half Guard]] - Counter outcome when opponent crossfaces and flattens
 
-- [[Deep Half Guard]] - Variation and fallback position when flattened
+- [[Positions/Half Guard/Deep Half Guard]] - Variation and fallback position when flattened
 
-- [[Knee Shield Half Guard]] - Common starting configuration before securing underhook
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Common starting configuration before securing underhook
 
-- [[Old School Sweep]] - Primary combination when opponent posts wide
+- [[Transitions/Old School Sweep]] - Primary combination when opponent posts wide
 
-- [[Lockdown]] - Enhanced leg control variation
+- [[Positions/Half Guard/Lockdown]] - Enhanced leg control variation
 
-- [[Back Take from Bottom]] - Chain attack when opponent defends with whizzer
+- [[Transitions/Back Take from Bottom]] - Chain attack when opponent defends with whizzer
 
-- [[Butterfly Sweep]] - Related sweeping mechanics from butterfly hook
+- [[Transitions/Butterfly Sweep]] - Related sweeping mechanics from butterfly hook
 
-- [[Underhook Pass]] - Counter technique from top position
+- [[Transitions/Underhook Pass]] - Counter technique from top position
 
-- [[Kimura from Half Guard]] - Alternative submission attack from half guard
+- [[Transitions/Kimura from Half Guard]] - Alternative submission attack from half guard
 
-- [[Dogfight Position]] - Intermediate position during sweep to back take chain
+- [[Positions/Dogfight Position]] - Intermediate position during sweep to back take chain
 
-- [[Electric Chair Submission]] - Lockdown variation finish
+- [[Submissions/Electric Chair Submission]] - Lockdown variation finish
 
 
 </section>

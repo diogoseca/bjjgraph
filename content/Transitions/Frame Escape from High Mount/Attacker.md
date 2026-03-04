@@ -180,7 +180,7 @@ description: "Learn to execute the Frame Escape from High Mount in BJJ. Step-by-
 
 As the bottom player trapped in high mount, your immediate priority is reducing positional severity before attempting a full escape. The Frame Escape uses rigid skeletal structures—forearms, elbows, and hip movement—to push the top player's base back from your upper chest to your waist, converting the near-impossible-to-escape high mount into standard mount where your full escape toolkit becomes available. Success requires precise timing during the top player's transitions and the discipline to use short frames that do not expose your arms to submission attacks. This is not a flashy technique but a methodical positional improvement that experienced practitioners recognize as the essential first step in any high mount escape sequence.
 
-**From Position**: [[High Mount]] (Bottom)
+**From Position**: [[Positions/Mount/High Mount]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player trapped in high mount, your immediate priority is reducing 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 50% |
-| Failure | [[High Mount]] | 30% |
-| Counter | [[S Mount]] | 20% |
+| Success | [[Positions/Mount]] | 50% |
+| Failure | [[Positions/Mount/High Mount]] | 30% |
+| Counter | [[Positions/Mount/S Mount]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the bottom player trapped in high mount, your immediate priority is reducing 
 
 ## Opponent Counters
 
-- **Top player pins framing arms to the mat or chest and drives weight forward to prevent frame establishment** (Effectiveness: High) - Your Response: Switch to hip bump timing when opponent reaches for arm pin, using their grip commitment as the next frame insertion window since pinning requires them to shift weight off center → Leads to [[High Mount]]
-- **Top player transitions to S Mount by stepping one leg over the exposed framing arm** (Effectiveness: High) - Your Response: Immediately abandon the frame escape and defend the trapped arm by clasping hands together or gripping your own lapel, then work S Mount-specific escapes rather than continuing frame attempts → Leads to [[S Mount]]
-- **Top player drives weight aggressively forward and attacks cross collar choke during frame creation attempt** (Effectiveness: Medium) - Your Response: Prioritize neck defense over frame completion by grip fighting the choking hand with both hands, then re-attempt frames during the next weight shift when the choke attempt is neutralized → Leads to [[High Mount]]
-- **Top player isolates one framing arm and begins armbar setup by controlling the wrist and rotating hips** (Effectiveness: High) - Your Response: Retract the exposed arm immediately, clasp hands together, and turn your body toward the threatened side to prevent arm extension while following the opponent's rotation to prevent isolation → Leads to [[S Mount]]
+- **Top player pins framing arms to the mat or chest and drives weight forward to prevent frame establishment** (Effectiveness: High) - Your Response: Switch to hip bump timing when opponent reaches for arm pin, using their grip commitment as the next frame insertion window since pinning requires them to shift weight off center → Leads to [[Positions/Mount/High Mount]]
+- **Top player transitions to S Mount by stepping one leg over the exposed framing arm** (Effectiveness: High) - Your Response: Immediately abandon the frame escape and defend the trapped arm by clasping hands together or gripping your own lapel, then work S Mount-specific escapes rather than continuing frame attempts → Leads to [[Positions/Mount/S Mount]]
+- **Top player drives weight aggressively forward and attacks cross collar choke during frame creation attempt** (Effectiveness: Medium) - Your Response: Prioritize neck defense over frame completion by grip fighting the choking hand with both hands, then re-attempt frames during the next weight shift when the choke attempt is neutralized → Leads to [[Positions/Mount/High Mount]]
+- **Top player isolates one framing arm and begins armbar setup by controlling the wrist and rotating hips** (Effectiveness: High) - Your Response: Retract the exposed arm immediately, clasp hands together, and turn your body toward the threatened side to prevent arm extension while following the opponent's rotation to prevent isolation → Leads to [[Positions/Mount/S Mount]]
 
 
 </section>

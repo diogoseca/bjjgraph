@@ -156,7 +156,7 @@ Defending the Baratoplata requires understanding that you are in a rapidly escal
 
 The critical defensive principle is prevention over reaction. Once the arm weave is fully locked with a grip on the attacker's shin, your options diminish dramatically because the figure-four cannot be stripped through grip fighting alone. Effective defense focuses on three phases: preventing the weave from being established, disrupting the hip angle before pressure is applied, and executing emergency escapes when the finish is imminent. Each phase has specific mechanical responses that exploit the inherent vulnerabilities in the Baratoplata position - primarily the attacker's need for precise hip angle and their reliance on leg pressure to prevent your posture recovery.
 
-**Opponent's Starting Position**: [[Omoplata Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Omoplata Control]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ The critical defensive principle is prevention over reaction. Once the arm weave
 ### 1. Strip the arm weave before the figure-four grip is established by pulling your elbow back toward your hip and turning your forearm to create friction against the threading motion
 
 - **When to use**: As soon as you feel the opponent's arm beginning to thread under your elbow - this is the highest percentage defensive window before the weave locks
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: Returns to standard Omoplata Control where traditional omoplata defenses remain available
 - **Risk**: If you focus only on the weave strip and neglect posture, the attacker may abandon the Baratoplata and finish a standard Omoplata instead
 
 ### 2. Drive forward explosively to recover posture, using your free arm to post on the mat and your trapped arm to push against the attacker's hip, fighting through the leg pressure across your back
 
 - **When to use**: When the arm weave is partially or fully established but before the attacker has locked their hip angle - posture recovery nullifies the finish
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: Breaks the finishing angle and returns to Omoplata Control where you can work standard escape sequences
 - **Risk**: If posture recovery fails, you may have exhausted energy and be in worse position for the finish. Forward drive can also open Gogoplata if attacker transitions
 
 ### 3. Execute a controlled forward roll to relieve shoulder rotation pressure, tucking your chin and rolling over the trapped shoulder to invert the positional dynamic
 
 - **When to use**: When the finish is imminent and posture recovery has failed - this is an emergency escape when you feel shoulder pressure approaching your pain threshold
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Relieves immediate shoulder pressure and may create scramble to recover guard position
 - **Risk**: The attacker may follow the roll and achieve mounted Baratoplata with gravity-assisted pressure, or transition to back control
 
 ### 4. Straighten your trapped arm forcefully to change the mechanical angle from shoulder rotation to elbow hyperextension, then immediately retract the arm while the attacker adjusts
 
 - **When to use**: When the arm weave is locked and hip extension has begun but you still have muscular capacity to straighten the arm against the weave
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Defeats the shoulder rotation but you must immediately pull the arm free during the transition window before the attacker switches to armbar
 - **Risk**: Straightening the arm directly exposes you to armbar transition - this defense trades one submission threat for another
 
@@ -226,11 +226,11 @@ The critical defensive principle is prevention over reaction. Once the arm weave
 
 ## Best-Case Outcomes for Defender
 
-### → [[Omoplata Control]]
+### → [[Positions/Omoplata Control]]
 
 Strip the arm weave early before the figure-four locks, or recover posture by driving forward with free arm post and hip drive to break the finishing angle. This returns you to standard Omoplata Control where traditional defense sequences apply.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Execute forward roll when finish is imminent to relieve shoulder pressure, then use the scramble to disengage legs and recover to closed guard. Alternatively, straighten the trapped arm to change the attack angle, retract the arm during the attacker's adjustment window, and pull back into closed guard while they reset.
 

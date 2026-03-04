@@ -95,17 +95,17 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (72% of attempts)
+- **[[Transitions/Old School Sweep]]** (72% of attempts)
 
-- **[[Deep Half Entry]]** (14% of attempts)
+- **[[Transitions/Deep Half Entry]]** (14% of attempts)
 
-- **[[Hip Rotation Escape from Electric Chair]]** (7% of attempts)
+- **[[Transitions/Hip Rotation Escape from Electric Chair]]** (7% of attempts)
 
-- **[[Straighten Leg Defense from Electric Chair]]** (3% of attempts)
+- **[[Transitions/Straighten Leg Defense from Electric Chair]]** (3% of attempts)
 
-- **[[Sweep from Electric Chair]]** (2% of attempts)
+- **[[Transitions/Sweep from Electric Chair]]** (2% of attempts)
 
-- **[[Electric Chair Finish]]** (2% of attempts)
+- **[[Submissions/Electric Chair Finish]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -166,13 +166,13 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 ### Available Transitions
 
 
-- **[[Lockdown Break and Pass]]** (28% of attempts)
+- **[[Transitions/Lockdown Break and Pass]]** (28% of attempts)
 
-- **[[Limp Leg Escape to Pass]]** (24% of attempts)
+- **[[Transitions/Limp Leg Escape to Pass]]** (24% of attempts)
 
-- **[[Back Take from Lockdown Defense]]** (18% of attempts)
+- **[[Transitions/Back Take from Lockdown Defense]]** (18% of attempts)
 
-- **[[Darce from Lockdown Counter]]** (30% of attempts)
+- **[[Transitions/Darce from Lockdown Counter]]** (30% of attempts)
 
 
 ### Common Mistakes
@@ -211,21 +211,21 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 ## Related Positions
 
 
-- **[[Lockdown]]** - Parent position - Electric Chair develops from established lockdown control
+- **[[Positions/Half Guard/Lockdown]]** - Parent position - Electric Chair develops from established lockdown control
 
-- **[[Half Guard]]** - Base position - Traditional half guard that lockdown modifies
+- **[[Positions/Half Guard]]** - Base position - Traditional half guard that lockdown modifies
 
-- **[[Truck]]** - Alternative transition - Available when opponent defends sweep
+- **[[Positions/Twister Control/Truck]]** - Alternative transition - Available when opponent defends sweep
 
-- **[[Deep Half Guard]]** - Transition option - Can transition if lockdown is broken
+- **[[Positions/Half Guard/Deep Half Guard]]** - Transition option - Can transition if lockdown is broken
 
-- **[[Old School]]** - Common finish - Primary sweep from electric chair pressure
+- **[[Positions/Half Guard/Old School]]** - Common finish - Primary sweep from electric chair pressure
 
-- **[[Back Control]]** - Advanced transition - Available when opponent turns into pressure
+- **[[Positions/Back Control]]** - Advanced transition - Available when opponent turns into pressure
 
-- **[[Mount]]** - Sweep destination - Common target after successful old school sweep
+- **[[Positions/Mount]]** - Sweep destination - Common target after successful old school sweep
 
-- **[[Dogfight Position]]** - Transition option when underhook is strong but lockdown is compromised
+- **[[Positions/Dogfight Position]]** - Transition option when underhook is strong but lockdown is compromised
 
 
 </section>

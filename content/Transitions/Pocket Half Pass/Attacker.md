@@ -180,7 +180,7 @@ description: "Master executing the Pocket Half Pass in BJJ. Step-by-step guide t
 
 The Pocket Half Pass attacker has already won the critical underhook battle and established flattening pressure from pocket half guard top. The primary challenge now is completing the pass by extracting the trapped leg while maintaining all existing control points. This requires patience, systematic progression through defined phases, and the ability to read the bottom player's defensive adjustments to select the optimal extraction method. The attacker must coordinate upper body pulling pressure through the underhook with lower body extraction mechanics, ensuring that the bottom player cannot exploit the momentary instability of leg movement to recover guard, insert frames, or execute sweeps. Success comes from treating the pass as a sequential process rather than a single explosive movement.
 
-**From Position**: [[Pocket Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Pocket Half Guard]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ The Pocket Half Pass attacker has already won the critical underhook battle and 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Pocket Half Guard]] | 32% |
-| Counter | [[Half Guard]] | 18% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Half Guard/Pocket Half Guard]] | 32% |
+| Counter | [[Positions/Half Guard]] | 18% |
 
 
 </section>
@@ -244,10 +244,10 @@ The Pocket Half Pass attacker has already won the critical underhook battle and 
 
 ## Opponent Counters
 
-- **Opponent bridges explosively during leg extraction phase to create space and threaten sweep** (Effectiveness: Medium) - Your Response: Ride the bridge by widening your base with the free leg rather than fighting it directly. Maintain chest connection and underhook grip throughout. When they land back on the mat, immediately re-establish flattening pressure and continue extraction from where you paused. → Leads to [[Half Guard]]
-- **Opponent scoots hips under you to enter deep half guard before extraction is complete** (Effectiveness: High) - Your Response: Immediately sprawl your hips back and drive your trapped knee toward the mat to prevent them from getting underneath. If they achieve partial deep half entry, abandon the current pass sequence and address the deep half position before it becomes fully established. → Leads to [[Pocket Half Guard]]
-- **Opponent recovers knee shield by inserting their shin across your hip line during extraction** (Effectiveness: Medium) - Your Response: Drive your shoulder deeper into the crossface while simultaneously pushing their knee down with your free hand. If the knee shield is solidly established, transition to a knee slice angle that uses their shin as a fulcrum rather than fighting directly against the frame. → Leads to [[Pocket Half Guard]]
-- **Opponent turns into the underhook and attempts to come to their knees for a scramble** (Effectiveness: Medium) - Your Response: Recognize the turn-in as an opportunity rather than a threat. Immediately switch to a darce choke entry by releasing the crossface hand and threading it under their neck as they turn. Alternatively, use their rotation momentum to take the back by sliding behind them. → Leads to [[Pocket Half Guard]]
+- **Opponent bridges explosively during leg extraction phase to create space and threaten sweep** (Effectiveness: Medium) - Your Response: Ride the bridge by widening your base with the free leg rather than fighting it directly. Maintain chest connection and underhook grip throughout. When they land back on the mat, immediately re-establish flattening pressure and continue extraction from where you paused. → Leads to [[Positions/Half Guard]]
+- **Opponent scoots hips under you to enter deep half guard before extraction is complete** (Effectiveness: High) - Your Response: Immediately sprawl your hips back and drive your trapped knee toward the mat to prevent them from getting underneath. If they achieve partial deep half entry, abandon the current pass sequence and address the deep half position before it becomes fully established. → Leads to [[Positions/Half Guard/Pocket Half Guard]]
+- **Opponent recovers knee shield by inserting their shin across your hip line during extraction** (Effectiveness: Medium) - Your Response: Drive your shoulder deeper into the crossface while simultaneously pushing their knee down with your free hand. If the knee shield is solidly established, transition to a knee slice angle that uses their shin as a fulcrum rather than fighting directly against the frame. → Leads to [[Positions/Half Guard/Pocket Half Guard]]
+- **Opponent turns into the underhook and attempts to come to their knees for a scramble** (Effectiveness: Medium) - Your Response: Recognize the turn-in as an opportunity rather than a threat. Immediately switch to a darce choke entry by releasing the crossface hand and threading it under their neck as they turn. Alternatively, use their rotation momentum to take the back by sliding behind them. → Leads to [[Positions/Half Guard/Pocket Half Guard]]
 
 
 </section>

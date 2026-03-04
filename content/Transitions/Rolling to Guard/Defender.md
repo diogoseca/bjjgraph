@@ -154,7 +154,7 @@ description: "How to defend against Rolling to Guard in BJJ. Recognition cues, c
 
 As the defender against Rolling to Guard, you are the top player in turtle who must prevent the bottom player from converting your dominant position into a guard-based exchange that favors them. Your primary objective is to recognize the roll attempt early through telltale body mechanics - frame creation, shoulder loading, and hip shifting - and respond with appropriate counters that either maintain your turtle top control or advance to a superior position like back control. The defensive game here is fundamentally about denying space and maintaining connection: the roll requires separation to execute, so your strategy centers on eliminating the space the bottom player needs while keeping your weight and grips attached to their body. Understanding the attacker's mechanics allows you to predict their rolling direction and either follow with maintained pressure or exploit the transitional moment to advance your own position. The best defenders do not simply react to the roll but create conditions that make the roll unattractive, forcing the bottom player into slower escape options that are easier to control.
 
-**Opponent's Starting Position**: [[Turtle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ As the defender against Rolling to Guard, you are the top player in turtle who m
 ### 1. Drive hips forward and sprawl heavy onto their lower back to flatten their rolling angle
 
 - **When to use**: When you recognize the initial frame creation and space generation before the roll has begun
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Bottom player remains flattened in turtle with insufficient space to initiate any rolling movement, allowing you to re-establish dominant grips and work your attack sequence
 - **Risk**: If your sprawl is late and they have already initiated the roll, your forward weight commitment can accelerate their rotation and create worse positional exchange
 
 ### 2. Follow the roll direction by circling with your weight attached, transitioning to seatbelt control during their rotation
 
 - **When to use**: When the roll has already been initiated and you cannot prevent it, typically after the first quarter of the rotation
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You ride the roll with maintained chest-to-back contact, arriving at back control as they complete their rotation. Their roll does the work of exposing their back for your hooks.
 - **Risk**: If they adjust their rolling angle mid-rotation or you lose chest contact, you may end up in their guard instead of achieving back control
 
 ### 3. Block the rolling shoulder by posting your hand on the mat beside their head on the rolling side, creating a structural barrier to the rotation
 
 - **When to use**: When you detect the shoulder loading phase before full rotation begins, particularly effective when you have head and arm control
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Your posted arm creates a physical barrier that prevents the shoulder from completing its rotation arc, stalling the roll and keeping them in turtle where you maintain top control
 - **Risk**: Posting one hand removes it from controlling their body, potentially opening alternative escapes like sit-through or technical standup
 
 ### 4. Secure seatbelt harness with hooks before they can generate space, preemptively shutting down the roll
 
 - **When to use**: When you anticipate the roll attempt based on their body positioning and movement patterns before they create frames
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Established hooks and harness control prevent the hip drive necessary for the roll, and you have already advanced to back control which is a superior position to turtle top
 - **Risk**: Rushing hook insertion without proper upper body control can result in them using your hook attempt as leverage for the roll or a different escape
 
@@ -226,11 +226,11 @@ As the defender against Rolling to Guard, you are the top player in turtle who m
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Deny space through heavy hip pressure and sprawl weight whenever you detect frame creation. Control the near-side shoulder and hip simultaneously to prevent the body rotation needed for the roll. Maintain constant chest-to-back connection and re-establish dominant grips immediately after any scramble.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the roll is already in motion, follow their rotation by keeping your chest glued to their back and circling in the same direction. Use the transitional moment to insert hooks - the near-side hook first as their hips rotate. Secure seatbelt or harness control during the rotation so that when they complete the roll, you arrive in full back control with hooks and upper body control established.
 

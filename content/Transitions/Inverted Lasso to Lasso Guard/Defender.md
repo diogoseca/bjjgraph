@@ -138,7 +138,7 @@ description: "Learn to counter the inverted lasso to lasso guard recovery. Guide
 
 As the defender (top player), you face a critical decision window when the bottom player attempts to recover from inverted lasso to standard lasso guard. This transition represents one of the most vulnerable moments in the lasso guard system because the bottom player must simultaneously change body orientation and maintain grip control, a coordination challenge that creates exploitable gaps. Your objective is to either extract your trapped arm during the transition, pass the guard by exploiting the positional instability, or at minimum prevent the bottom player from arriving in a well-structured standard lasso guard with immediate offensive threats. Recognizing the transition early and responding within the first second is essential, as the window of vulnerability is brief.
 
-**Opponent's Starting Position**: [[Inverted Lasso Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Lasso Guard/Inverted Lasso Guard]] (Bottom)
 
 </section>
 
@@ -176,28 +176,28 @@ As the defender (top player), you face a critical decision window when the botto
 ### 1. Explosive arm retraction during the hip rotation phase when lasso tension is momentarily reduced
 
 - **When to use**: During the first 1-2 seconds of the rotation when the body orientation change creates brief slack in the lasso hook
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Bottom player loses the lasso structure entirely and must scramble to establish alternative guard with no controlling grips
 - **Risk**: If the extraction fails, the bottom player may convert your arm retraction into an omoplata or triangle entry using your momentum
 
 ### 2. Forward pressure drive to stack the bottom player during the vulnerable transition phase
 
 - **When to use**: When the bottom player begins rotating but has not yet established the hip post frame on your hip
-- **Targets**: [[Inverted Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard/Inverted Lasso Guard]]
 - **If successful**: Bottom player's rotation is blocked, trapping them in an energy-draining inverted position under your pressure where their guard is deteriorating
 - **Risk**: Forward pressure can be redirected into overhead sweep if the bottom player still has sufficient hip mobility and hook tension
 
 ### 3. Lateral step and angle change to pass around the recovering guard
 
 - **When to use**: As the bottom player commits to the rotation and their hip angle is in transition between inverted and upright
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You bypass the guard structure before it re-establishes, achieving a passing position or forcing the bottom player into a scramble
 - **Risk**: The bottom player may follow your lateral movement with their hips and use the sleeve grip to maintain control through the angle change
 
 ### 4. Control the free leg to prevent the hip post that enables the rotation
 
 - **When to use**: Preemptively, before the bottom player initiates the recovery when you notice decreased attack intensity from the inverted position
-- **Targets**: [[Inverted Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard/Inverted Lasso Guard]]
 - **If successful**: Bottom player cannot establish the frame needed for controlled rotation, forcing them to remain in the exhausting inverted position or attempt a riskier uncontrolled recovery
 - **Risk**: Reaching for their free leg may compromise your own base and create sweep opportunities from the inverted position
 
@@ -209,7 +209,7 @@ As the defender (top player), you face a critical decision window when the botto
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Extract your trapped arm during the transition by timing your retraction to coincide with the moment of least lasso tension, typically when the bottom player's hips are halfway between inverted and upright. Use a controlled withdrawal rather than an explosive pull, addressing the ankle hook first then withdrawing the arm once slack is created.
 

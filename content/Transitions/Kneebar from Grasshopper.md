@@ -23,7 +23,7 @@ From a systematic perspective, the Kneebar from Grasshopper functions as both a 
 
 The inverted nature of this entry makes it particularly effective in no-gi competition where the absence of gi grips means the top player cannot easily control your inverting motion. The technique gained prominence through modern leg lock systems that emphasize attacking from bottom positions against standing opponents, reversing traditional assumptions about who holds positional advantage.
 
-**From Position**: [[Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -34,9 +34,9 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kneebar Control]] | 55% |
-| Failure | [[Grasshopper Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Kneebar Control]] | 55% |
+| Failure | [[Positions/Grasshopper Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Kneebar from Grasshopper fits into the broader leg entanglement system as a 
 ## Related Techniques
 
 
-- [[Grasshopper Guard]] - Starting position - the inverted guard from which this attack is launched
+- [[Positions/Grasshopper Guard]] - Starting position - the inverted guard from which this attack is launched
 
-- [[Kneebar Control]] - Destination position when entry succeeds - consolidation before finish
+- [[Positions/Kneebar Control]] - Destination position when entry succeeds - consolidation before finish
 
-- [[Inside Ashi-Garami]] - Alternative entry when opponent turns to defend kneebar
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative entry when opponent turns to defend kneebar
 
-- [[Single Leg X-Guard]] - Transition option when opponent retreats from kneebar threat
+- [[Positions/X-Guard/Single Leg X-Guard]] - Transition option when opponent retreats from kneebar threat
 
-- [[X-Guard]] - Sweep option when kneebar entry is denied but leg contact maintained
+- [[Positions/X-Guard]] - Sweep option when kneebar entry is denied but leg contact maintained
 
-- [[Calf Slicer]] - Follow-up submission when opponent straightens leg to defend
+- [[Transitions/Calf Slicer]] - Follow-up submission when opponent straightens leg to defend
 
-- [[Inverted Guard]] - Parent guard category that grasshopper belongs to
+- [[Positions/Inverted Guard]] - Parent guard category that grasshopper belongs to
 
-- [[Kneebar Finish]] - Completion technique from Kneebar Control position
+- [[Transitions/Kneebar Finish]] - Completion technique from Kneebar Control position
 
-- [[Grasshopper Sweep]] - Alternative offensive option from the same starting position
+- [[Transitions/Grasshopper Sweep]] - Alternative offensive option from the same starting position
 
-- [[50-50 Guard]] - Potential entanglement when both players engage legs simultaneously
+- [[Positions/Ashi Garami/50-50 Guard]] - Potential entanglement when both players engage legs simultaneously
 
 
 </section>

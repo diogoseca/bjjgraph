@@ -238,8 +238,8 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -248,11 +248,11 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 ## Opponent Defenses
 
-- **Pulling trapped arm free to remove shoulder from choke** (Effectiveness: High) - Your Response: Switch your overhook to an underhook on their far arm instead, or immediately transition to standard guillotine by releasing the trapped arm but maintaining neck control. Alternatively, pinch your elbow tighter to their body and use your bodyweight to prevent arm extraction. → Leads to [[Front Headlock]]
+- **Pulling trapped arm free to remove shoulder from choke** (Effectiveness: High) - Your Response: Switch your overhook to an underhook on their far arm instead, or immediately transition to standard guillotine by releasing the trapped arm but maintaining neck control. Alternatively, pinch your elbow tighter to their body and use your bodyweight to prevent arm extraction. → Leads to [[Positions/Front Headlock]]
 - **Rolling toward you to relieve neck pressure** (Effectiveness: Medium) - Your Response: Follow their roll by rolling with them, maintaining the same perpendicular angle throughout the rotation. Often their roll actually tightens the choke as it loads more weight into the position. Keep your grips locked and your shoulder pressure consistent during the roll. → Leads to [[game-over]]
-- **Driving forward and standing up to create space** (Effectiveness: Medium) - Your Response: If they begin standing, immediately jump guard by wrapping your legs around their waist, or drop your weight dramatically to prevent them achieving full standing position. You can also transition to a standing Japanese Necktie by maintaining grips while on your feet and using your legs to control their hips. → Leads to [[Front Headlock]]
-- **Turning into you to face guard position** (Effectiveness: Low) - Your Response: This defensive movement typically tightens the choke as it loads their weight into your shoulder pressure. Encourage this movement by not resisting their turn, then finish the choke as they face you. Alternatively, transition to closed guard with the choke still locked for a front guillotine finish. → Leads to [[Closed Guard]]
-- **Hand fighting to prevent grip lock** (Effectiveness: High) - Your Response: If they prevent you from locking your hands or grabbing your leg, maintain heavy shoulder pressure and work to tire their arms. Use short, pulsing pressure to drain their defensive energy. When they fatigue, quickly secure your grip lock. Alternatively, adjust to a different front headlock submission like anaconda or darce. → Leads to [[Front Headlock]]
+- **Driving forward and standing up to create space** (Effectiveness: Medium) - Your Response: If they begin standing, immediately jump guard by wrapping your legs around their waist, or drop your weight dramatically to prevent them achieving full standing position. You can also transition to a standing Japanese Necktie by maintaining grips while on your feet and using your legs to control their hips. → Leads to [[Positions/Front Headlock]]
+- **Turning into you to face guard position** (Effectiveness: Low) - Your Response: This defensive movement typically tightens the choke as it loads their weight into your shoulder pressure. Encourage this movement by not resisting their turn, then finish the choke as they face you. Alternatively, transition to closed guard with the choke still locked for a front guillotine finish. → Leads to [[Positions/Closed Guard]]
+- **Hand fighting to prevent grip lock** (Effectiveness: High) - Your Response: If they prevent you from locking your hands or grabbing your leg, maintain heavy shoulder pressure and work to tire their arms. Use short, pulsing pressure to drain their defensive energy. When they fatigue, quickly secure your grip lock. Alternatively, adjust to a different front headlock submission like anaconda or darce. → Leads to [[Positions/Front Headlock]]
 
 
 </section>

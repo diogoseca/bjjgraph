@@ -21,7 +21,7 @@ The fundamental challenge lies in the lapel wrap's function as a control lever t
 
 Strategically, this technique serves as the gateway to all other passing options against Ringworm Guard. Without successfully breaking the lapel configuration, standard guard passes become dangerous as the wrap creates predictable defensive patterns that skilled guard players exploit for sweeps and back takes. Mastering this grip break is essential for any serious competitor facing lapel guard systems in gi competition.
 
-**From Position**: [[Ringworm Guard]] (Top)
+**From Position**: [[Positions/Ringworm Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this technique serves as the gateway to all other passing options
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 65% |
-| Failure | [[Ringworm Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Open Guard]] | 65% |
+| Failure | [[Positions/Ringworm Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -187,25 +187,25 @@ Lapel Grip Break and Posture Recovery serves as the essential gateway technique 
 ## Related Techniques
 
 
-- [[Ringworm Guard]] - Starting position - this technique escapes from being caught in this guard
+- [[Positions/Ringworm Guard]] - Starting position - this technique escapes from being caught in this guard
 
-- [[Open Guard]] - Primary success outcome - neutral position achieved after successful extraction
+- [[Positions/Open Guard]] - Primary success outcome - neutral position achieved after successful extraction
 
-- [[Combat Base]] - Intermediate position during recovery sequence
+- [[Positions/Combat Base]] - Intermediate position during recovery sequence
 
-- [[Worm Guard]] - Related lapel guard requiring similar defensive concepts
+- [[Positions/Worm Guard]] - Related lapel guard requiring similar defensive concepts
 
-- [[Lapel Guard]] - Parent category - this technique applies to general lapel guard escape principles
+- [[Positions/Lapel Guard]] - Parent category - this technique applies to general lapel guard escape principles
 
-- [[Knee Slice from Half]] - Integration option - can chain directly into knee slice after extraction
+- [[Transitions/Knee Slice from Half]] - Integration option - can chain directly into knee slice after extraction
 
-- [[Headquarters Position]] - Common position to establish after successful extraction for safe passing
+- [[Positions/Headquarters Position]] - Common position to establish after successful extraction for safe passing
 
-- [[Leg Extraction from Lapel Wrap]] - Related technique - shares extraction mechanics
+- [[Transitions/Leg Extraction from Lapel Wrap]] - Related technique - shares extraction mechanics
 
-- [[Half Guard]] - Counter outcome position - opponent may achieve half guard during failed extraction
+- [[Positions/Half Guard]] - Counter outcome position - opponent may achieve half guard during failed extraction
 
-- [[Squid Guard]] - Sister lapel guard variation - opponent may transition here during grip break attempts
+- [[Positions/Squid Guard]] - Sister lapel guard variation - opponent may transition here during grip break attempts
 
 
 </section>

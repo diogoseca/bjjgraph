@@ -21,7 +21,7 @@ This technique represents one of the highest-percentage mount escapes available 
 
 Strategic integration of the bridge escape within the overall mount escape system is essential. The technique works best as either a primary escape when timing is optimal or as a setup for secondary escapes. A committed bridge that fails to complete the reversal still creates substantial space and reaction from the top player, enabling follow-up elbow escapes and half guard recovery. Training both the full reversal and the partial escape ensures that bridge attempts produce positive outcomes regardless of completion percentage.
 
-**From Position**: [[3-4 Mount]] (Bottom)
+**From Position**: [[Positions/Mount/3-4 Mount]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,10 +32,10 @@ Strategic integration of the bridge escape within the overall mount escape syste
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 25% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[3-4 Mount]] | 40% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Closed Guard]] | 25% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Mount/3-4 Mount]] | 40% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -194,25 +194,25 @@ The bridge escape from 3-4 mount integrates into the broader mount escape system
 ## Related Techniques
 
 
-- [[3-4 Mount]] - Source position from which this escape is executed
+- [[Positions/Mount/3-4 Mount]] - Source position from which this escape is executed
 
-- [[Closed Guard]] - Primary reversal destination after successful bridge and roll completion
+- [[Positions/Closed Guard]] - Primary reversal destination after successful bridge and roll completion
 
-- [[Half Guard]] - Partial escape destination when bridge creates space but does not complete full reversal
+- [[Positions/Half Guard]] - Partial escape destination when bridge creates space but does not complete full reversal
 
-- [[Mount]] - Parent mount position and counter outcome when top player consolidates during failed escape
+- [[Positions/Mount]] - Parent mount position and counter outcome when top player consolidates during failed escape
 
-- [[High Mount]] - Advanced mount variation top player may transition to if bridge threat forces positional adjustment
+- [[Positions/Mount/High Mount]] - Advanced mount variation top player may transition to if bridge threat forces positional adjustment
 
-- [[Technical Mount]] - Mount variation top player may use to counter the turning motion of the bridge
+- [[Positions/Mount/Technical Mount]] - Mount variation top player may use to counter the turning motion of the bridge
 
-- [[Upa Escape]] - Related bridge-based escape technique using similar hip extension mechanics from standard mount
+- [[Transitions/Upa Escape]] - Related bridge-based escape technique using similar hip extension mechanics from standard mount
 
-- [[Elbow Escape to Guard]] - Complementary escape that chains with bridge attempts when full reversal fails
+- [[Transitions/Elbow Escape to Guard]] - Complementary escape that chains with bridge attempts when full reversal fails
 
-- [[Bridge and Roll]] - Related fundamental escape using bridge mechanics from standard mount bottom
+- [[Transitions/Bridge and Roll]] - Related fundamental escape using bridge mechanics from standard mount bottom
 
-- [[Half Guard Recovery]] - Follow-up technique used after partial bridge creates space for guard insertion
+- [[Transitions/Half Guard Recovery]] - Follow-up technique used after partial bridge creates space for guard insertion
 
 
 </section>

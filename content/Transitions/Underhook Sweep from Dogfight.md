@@ -21,7 +21,7 @@ Strategically, this sweep functions as a core weapon in the dogfight arsenal alo
 
 At higher levels, the Underhook Sweep chains seamlessly with other dogfight options. When the opponent defends this sweep by posting their far hand wide, the back take becomes available as they expose their far side. When they overcommit to whizzer defense anticipating this sweep, the forward drive sweep opens as their weight shifts rearward. This creates a three-way dilemma from dogfight where the underhook sweep serves as the primary threat that sets up secondary attacks, making it an essential technique for anyone developing a serious half guard bottom game.
 
-**From Position**: [[Dogfight Position]] (Bottom)
+**From Position**: [[Positions/Dogfight Position]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ At higher levels, the Underhook Sweep chains seamlessly with other dogfight opti
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 35% |
-| Success | [[Mount]] | 20% |
-| Failure | [[Dogfight Position]] | 30% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 35% |
+| Success | [[Positions/Mount]] | 20% |
+| Failure | [[Positions/Dogfight Position]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -190,25 +190,25 @@ The Underhook Sweep from Dogfight sits at a critical junction in the half guard 
 ## Related Techniques
 
 
-- [[Dogfight Position]] - Source position where this sweep initiates from elevated kneeling half guard
+- [[Positions/Dogfight Position]] - Source position where this sweep initiates from elevated kneeling half guard
 
-- [[Mount]] - Primary success outcome when the sweep drives fully over the opponent
+- [[Positions/Mount]] - Primary success outcome when the sweep drives fully over the opponent
 
-- [[Side Control]] - Most common success outcome when the sweep topples opponent laterally
+- [[Positions/Side Control]] - Most common success outcome when the sweep topples opponent laterally
 
-- [[Dogfight Sweep]] - Complementary sweep from same position using different mechanics and timing
+- [[Transitions/Dogfight Sweep]] - Complementary sweep from same position using different mechanics and timing
 
-- [[Forward Drive Sweep from Dogfight]] - Related forward-pressure sweep that chains with underhook sweep in the dogfight attack system
+- [[Transitions/Forward Drive Sweep from Dogfight]] - Related forward-pressure sweep that chains with underhook sweep in the dogfight attack system
 
-- [[Back Take]] - Alternative attack from dogfight when opponent overdefends the sweep by posting wide
+- [[Transitions/Back Take]] - Alternative attack from dogfight when opponent overdefends the sweep by posting wide
 
-- [[Flattened Half Guard]] - Counter outcome when opponent successfully drives you back down from dogfight
+- [[Positions/Half Guard/Flattened Half Guard]] - Counter outcome when opponent successfully drives you back down from dogfight
 
-- [[Half Guard]] - Parent position system from which dogfight and this sweep originate
+- [[Positions/Half Guard]] - Parent position system from which dogfight and this sweep originate
 
-- [[Re-flatten from Dogfight]] - Top player's counter technique that this sweep must overcome or avoid
+- [[Transitions/Re-flatten from Dogfight]] - Top player's counter technique that this sweep must overcome or avoid
 
-- [[Deep Half Guard]] - Fallback position when the sweep fails and opponent applies heavy forward pressure
+- [[Positions/Half Guard/Deep Half Guard]] - Fallback position when the sweep fails and opponent applies heavy forward pressure
 
 
 </section>

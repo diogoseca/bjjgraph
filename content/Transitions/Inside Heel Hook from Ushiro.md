@@ -21,7 +21,7 @@ Unlike standard inside ashi-garami heel hooks, the ushiro configuration presents
 
 Strategically, this submission capitalizes on opponents who have partially escaped standard leg entanglements through inversion but remain trapped in the reversed configuration. The window for finishing is often narrow—advanced defenders will continue their rotation toward turtle or counter-attack with their own leg entanglement if given time. Understanding the biomechanical differences between ushiro and standard ashi-garami heel hooks is essential for consistent finishing success.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -33,8 +33,8 @@ Strategically, this submission capitalizes on opponents who have partially escap
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Ushiro Ashi-Garami]] | 30% |
-| Counter | [[50-50 Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -187,29 +187,29 @@ The Inside Heel Hook from Ushiro occupies a critical position in modern leg lock
 ## Related Techniques
 
 
-- [[Ushiro Ashi-Garami]] - Starting position for this technique
+- [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Starting position for this technique
 
-- [[Heel Hook]] - Parent submission category
+- [[Transitions/Heel Hook]] - Parent submission category
 
-- [[Saddle]] - Alternative position to transition to for higher-control finish
+- [[Positions/Ashi Garami/Saddle]] - Alternative position to transition to for higher-control finish
 
-- [[Honey Hole]] - Related high-control leg entanglement
+- [[Positions/Ashi Garami/Honey Hole]] - Related high-control leg entanglement
 
-- [[Back Control]] - Follow-up position when opponent escapes entanglement
+- [[Positions/Back Control]] - Follow-up position when opponent escapes entanglement
 
-- [[Inside Ashi-Garami]] - Standard position with different finishing mechanics for comparison
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Standard position with different finishing mechanics for comparison
 
-- [[Outside Ashi-Garami]] - Position that often precedes ushiro when opponent inverts
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Position that often precedes ushiro when opponent inverts
 
-- [[Ankle Lock Finish]] - Alternative submission when heel hook is not available
+- [[Transitions/Ankle Lock Finish]] - Alternative submission when heel hook is not available
 
-- [[Cross Ashi Transition]] - Related transition option from leg entanglement
+- [[Transitions/Cross Ashi Transition]] - Related transition option from leg entanglement
 
-- [[50-50 Guard]] - Position opponent may achieve through counter-entanglement
+- [[Positions/Ashi Garami/50-50 Guard]] - Position opponent may achieve through counter-entanglement
 
-- [[Inside Heel Hook]] - Related standard inside heel hook submission with different mechanics
+- [[Submissions/Inside Heel Hook]] - Related standard inside heel hook submission with different mechanics
 
-- [[Kneebar from Ushiro]] - Alternative submission from the same starting position
+- [[Transitions/Kneebar from Ushiro]] - Alternative submission from the same starting position
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Learn to counter the Frame Escape from Darce in BJJ. Techniques fo
 
 As the defender against the Frame Escape from Darce, you are the practitioner holding Darce Control and working to prevent your opponent from escaping through framing techniques. Your primary objective is to maintain the choking configuration by defeating frames before they become structural, keeping your weight properly distributed to prevent hip escapes, and tightening the grip before the bottom player can create sufficient space for arm extraction. Understanding the mechanics of the frame escape allows you to anticipate each phase of the escape attempt and apply specific counter-measures that either maintain the Darce position or transition smoothly to advantageous alternatives like side control when the grip becomes compromised.
 
-**Opponent's Starting Position**: [[Darce Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Darce Control]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the Frame Escape from Darce, you are the practitioner ho
 ### 1. Increase shoulder pressure and drive forward to collapse frames before they become structural
 
 - **When to use**: When opponent first places free hand against your hip or shoulder to establish initial frame contact
-- **Targets**: [[Darce Control]]
+- **Targets**: [[Positions/Darce Control]]
 - **If successful**: Frame is defeated before it can create space, maintaining full Darce control and choke pressure
 - **Risk**: Overcommitting forward pressure may create space behind you that opponent exploits with a Granby roll
 
 ### 2. Release Darce grip and immediately transition to tight crossface side control
 
 - **When to use**: When opponent has created significant space through frames and arm extraction has progressed past the point of recovery
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Maintain dominant top position with side control, preventing guard recovery and maintaining scoring position
 - **Risk**: Timing must be precise—releasing too early wastes the Darce submission opportunity, releasing too late allows guard recovery
 
 ### 3. Walk hips laterally to re-angle the choke and bypass the direction of the established frame
 
 - **When to use**: When opponent has established a strong frame in one direction that you cannot drive through with direct forward pressure
-- **Targets**: [[Darce Control]]
+- **Targets**: [[Positions/Darce Control]]
 - **If successful**: New angle renders the frame ineffective and restores full choking pressure from a vector the opponent is not prepared to defend
 - **Risk**: Hip movement may momentarily reduce compression, creating a window for accelerated arm extraction
 
 ### 4. Control opponent's free arm by pinning it with your free hand before frame establishment
 
 - **When to use**: Early in the exchange when opponent first reaches toward your body to establish the initial frame
-- **Targets**: [[Darce Control]]
+- **Targets**: [[Positions/Darce Control]]
 - **If successful**: Removes opponent's primary framing tool entirely, making systematic escape extremely difficult without their free arm
 - **Risk**: Using your free hand to control their arm may compromise your grip configuration or reduce the pressure driving the choke
 
@@ -217,11 +217,11 @@ As the defender against the Frame Escape from Darce, you are the practitioner ho
 
 ## Best-Case Outcomes for Defender
 
-### → [[Darce Control]]
+### → [[Positions/Darce Control]]
 
 Defeat the frame escape by maintaining constant forward shoulder pressure, keeping elbows pinched tight to prevent arm extraction, and driving hips into the opponent to prevent hip escapes. If frames begin to generate space, immediately re-angle by walking your hips laterally to bypass the frame direction and restore choking pressure from a new vector.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the Darce grip is compromised but the escape has not yet been completed, release the grip and immediately drive your shoulder across the opponent's face to establish crossface side control. Secure hip-to-hip contact and establish chest pressure before they can insert a knee shield or complete guard recovery.
 

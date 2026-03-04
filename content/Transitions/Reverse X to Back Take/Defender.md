@@ -156,7 +156,7 @@ Defending the Reverse X to Back Take requires the top player to recognize the at
 
 The defender's primary strategy centers on denying the space required for the inversion by maintaining forward pressure and hip position. Rather than retreating from sweep threats, the top player should address the guard player's hooks and grips directly through controlled pressure passing or systematic hook removal. When the back take is already in motion, the defender must immediately focus on preventing chest-to-back connection and seatbelt establishment, as these two control points determine whether the back take succeeds or fails. Early intervention during the inversion phase is far more effective than attempting to escape fully established back control.
 
-**Opponent's Starting Position**: [[Reverse X-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ The defender's primary strategy centers on denying the space required for the in
 ### 1. Drop hips and sit back immediately to deny inversion space
 
 - **When to use**: At the earliest recognition of inversion initiation, before the guard player's shoulders have rotated past the midline
-- **Targets**: [[Reverse X-Guard]]
+- **Targets**: [[Positions/X-Guard/Reverse X-Guard]]
 - **If successful**: Guard player is unable to complete the inversion and remains in Reverse X-Guard bottom, allowing you to re-establish passing posture
 - **Risk**: Sitting back too aggressively can compromise your own base and make you vulnerable to the original elevation sweep
 
 ### 2. Post near hand firmly on the mat and turn aggressively to face the guard player
 
 - **When to use**: When the inversion is already in progress but the guard player has not yet established chest-to-back connection
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You face the guard player directly, denying back control and forcing a scramble where you can establish top position in half guard or side control
 - **Risk**: If guard player maintains sleeve control, posting is impossible and the turning motion may actually assist their rotation to your back
 
 ### 3. Drive forward with heavy chest pressure to flatten the guard player before inversion completes
 
 - **When to use**: When you recognize the back take attempt early and can commit forward pressure before the guard player has rotated past 90 degrees
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Guard player is flattened and unable to complete the inversion, often resulting in a scramble favorable to the top player ending in half guard or side control
 - **Risk**: If the guard player has already committed to the inversion, your forward drive provides momentum that accelerates their rotation to your back
 
 ### 4. Strip the near sleeve grip and immediately backstep to disengage completely
 
 - **When to use**: When you recognize the sweep-to-back-take setup before the guard player initiates the inversion, as a preemptive measure
-- **Targets**: [[Reverse X-Guard]]
+- **Targets**: [[Positions/X-Guard/Reverse X-Guard]]
 - **If successful**: Without sleeve control, the guard player cannot execute the inversion effectively and you reset to a neutral passing position
 - **Risk**: Breaking the grip while under hook pressure may temporarily compromise your balance, creating a brief sweep window
 
@@ -225,11 +225,11 @@ The defender's primary strategy centers on denying the space required for the in
 
 ## Best-Case Outcomes for Defender
 
-### → [[Reverse X-Guard]]
+### → [[Positions/X-Guard/Reverse X-Guard]]
 
 Deny the inversion by sitting hips down and driving forward pressure before the guard player can rotate underneath you. Strip their sleeve grip to remove the pulling control they need for the inversion. You return to Reverse X-Guard top where you can resume passing.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If the inversion is partially completed, turn aggressively to face the guard player while posting your near hand. Drive your weight forward to flatten them and work to extract your legs from their hooks. Establish crossface and begin standard half guard passing sequences.
 

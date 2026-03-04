@@ -215,23 +215,23 @@ The psychological dimension of defending straight ankle lock control cannot be u
 
 ## Available Attacks
 
-### [[Ashi Garami Escape]] (25% of attempts)
+### [[Transitions/Ashi Garami Escape]] (25% of attempts)
 
-### [[Counter Entry to Opponent's Leg]] (14% of attempts)
+### [[Transitions/Counter Entry to Opponent's Leg]] (14% of attempts)
 
-### [[Hip Rotation Defense]] (14% of attempts)
+### [[Transitions/Hip Rotation Defense]] (14% of attempts)
 
-### [[Knee Extraction]] (14% of attempts)
+### [[Transitions/Knee Extraction]] (14% of attempts)
 
-### [[Frame and Distance Creation]] (11% of attempts)
+### [[Transitions/Frame and Distance Creation]] (11% of attempts)
 
-### [[Pass to Side Control]] (7% of attempts)
+### [[Transitions/Pass to Side Control]] (7% of attempts)
 
-### [[Counter-entangle to 50-50 Guard]] (9% of attempts)
+### [[Transitions/Counter-entangle to 50-50 Guard]] (9% of attempts)
 
-### [[Counter from Ankle Lock]] (4% of attempts)
+### [[Transitions/Counter from Ankle Lock]] (4% of attempts)
 
-### [[Straight Ankle Lock]] (2% of attempts)
+### [[Submissions/Straight Ankle Lock]] (2% of attempts)
 
 
 
@@ -242,28 +242,28 @@ The psychological dimension of defending straight ankle lock control cannot be u
 ## Decision Making from This Position
 
 **If attacker has not yet completed leg triangle and grip security is moderate:**
-- Execute **[[Ashi Garami Escape]]** → [[Standing Position]] (Probability: 65%)
-- Execute **[[Rotate hip away and extract knee]]** → [[Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Standing Position]] (Probability: 65%)
+- Execute **[[Rotate hip away and extract knee]]** → [[Positions/Open Guard]] (Probability: 60%)
 
 
 **If attacker has established strong grips but leg control remains incomplete:**
-- Execute **[[Standing Escape]]** → [[Standing Position]] (Probability: 60%)
-- Execute **[[Frame and Distance Creation]]** → [[Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/Standing Escape]]** → [[Positions/Standing Position]] (Probability: 60%)
+- Execute **[[Transitions/Frame and Distance Creation]]** → [[Positions/Open Guard]] (Probability: 55%)
 
 
 **If attacker's leg configuration allows symmetrical entry to their far leg:**
-- Execute **[[Counter Entry to Opponent's Leg]]** → [[50-50 Guard]] (Probability: 65%)
-- Execute **[[Establish mutual ankle control]]** → [[50-50 Guard]] (Probability: 60%)
+- Execute **[[Transitions/Counter Entry to Opponent's Leg]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 65%)
+- Execute **[[Establish mutual ankle control]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 60%)
 
 
 **If attacker commits heavily to submission attempt sacrificing upper body positioning:**
-- Execute **[[Pass to Side Control]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Circle around attacker's guard]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Pass to Side Control]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Circle around attacker's guard]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 **If leg extraction proves impossible but attacker's control remains unstable:**
-- Execute **[[Hip Rotation Defense]]** → [[Open Guard]] (Probability: 60%)
-- Execute **[[Prevent progression to inside or outside ashi]]** → [[Straight Ankle Lock Control]] (Probability: 55%)
+- Execute **[[Transitions/Hip Rotation Defense]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Prevent progression to inside or outside ashi]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 55%)
 
 
 
@@ -397,14 +397,14 @@ Partner establishes straight ankle lock control and applies moderate submission 
 
 ## Related Positions and Techniques
 
-- **[[Inside Ashi-Garami]]** - Dangerous progression defender must prevent when rotating hip away
-- **[[Outside Ashi-Garami]]** - Alternative danger position defender must avoid when rotating hip toward
-- **[[50-50 Guard]]** - Symmetrical neutralization option through counter-entry on attacker's leg
-- **[[Ashi Garami Escape]]** - Primary technical escape sequence from this defensive position
-- **[[Standing Position]]** - Primary objective destination for successful escape sequences
-- **[[Leg Entanglement]]** - Conceptual framework principle for understanding position category
-- **[[Open Guard]]** - Intermediate recovery state during progressive escape execution
-- **[[Half Guard]]** - Alternative recovery position when full extraction is not possible
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Dangerous progression defender must prevent when rotating hip away
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Alternative danger position defender must avoid when rotating hip toward
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Symmetrical neutralization option through counter-entry on attacker's leg
+- **[[Transitions/Ashi Garami Escape]]** - Primary technical escape sequence from this defensive position
+- **[[Positions/Standing Position]]** - Primary objective destination for successful escape sequences
+- **[[Positions/Leg Entanglement]]** - Conceptual framework principle for understanding position category
+- **[[Positions/Open Guard]]** - Intermediate recovery state during progressive escape execution
+- **[[Positions/Half Guard]]** - Alternative recovery position when full extraction is not possible
 
 
 </section>

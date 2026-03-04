@@ -180,7 +180,7 @@ description: "Master the offensive frame technique from Side Control Consolidati
 
 As the attacker executing this frame, you are the bottom player trapped under Side Control Consolidation. Your objective is not a full escape but an incremental positional improvement: establishing structural frames that prevent the top player from completing their consolidation and degrading their control enough to return to standard side control bottom. This requires precise placement of forearm bones against the opponent's load-bearing structures, strategic timing aligned with their breathing and adjustment cycles, and the discipline to build frames progressively rather than wasting energy on explosive movements that get immediately re-crushed. The frame is your first weapon in the escape hierarchy, and its quality determines whether subsequent escape attempts succeed or fail.
 
-**From Position**: [[Side Control Consolidation]] (Bottom)
+**From Position**: [[Positions/Side Control/Side Control Consolidation]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing this frame, you are the bottom player trapped under Si
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Side Control Consolidation]] | 35% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Side Control/Side Control Consolidation]] | 35% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing this frame, you are the bottom player trapped under Si
 
 ## Opponent Counters
 
-- **Opponent drops chest heavily to collapse hip frame through direct pressure** (Effectiveness: High) - Your Response: Redirect frame angle from directly opposing their pressure to angling it toward their head, converting their downward force into lateral displacement. If the hip frame collapses, immediately re-establish the secondary shoulder frame and attempt to re-insert the hip frame from the new angle. → Leads to [[Side Control Consolidation]]
-- **Opponent swims their arm past your frame and re-establishes crossface or underhook** (Effectiveness: Medium) - Your Response: As they swim their arm past, use the brief moment when their weight shifts to execute a quick hip escape. Their arm swimming motion temporarily lightens their chest pressure, creating the exact window needed for hip movement. Re-establish frames from the new angle created by the hip escape. → Leads to [[Side Control Consolidation]]
-- **Opponent uses space created by framing to step over into mount transition** (Effectiveness: High) - Your Response: The moment you feel their hip elevate for a step-over, redirect your hip frame into a knee insertion, driving your near-side knee across their thigh to prevent the leg from clearing. Prioritize blocking the mount transition over maintaining the frame; half guard recovery from a mount attempt is preferable to accepting mount. → Leads to [[Mount]]
-- **Opponent isolates framing arm by pinning wrist to mat and threatens kimura** (Effectiveness: Medium) - Your Response: Immediately pull your elbow tight to your ribs and grip your own belt or pants with the threatened hand. Use the opponent's submission focus to generate hip escape space with your lower body while their hands are occupied attacking your arm rather than maintaining pressure. → Leads to [[Side Control Consolidation]]
+- **Opponent drops chest heavily to collapse hip frame through direct pressure** (Effectiveness: High) - Your Response: Redirect frame angle from directly opposing their pressure to angling it toward their head, converting their downward force into lateral displacement. If the hip frame collapses, immediately re-establish the secondary shoulder frame and attempt to re-insert the hip frame from the new angle. → Leads to [[Positions/Side Control/Side Control Consolidation]]
+- **Opponent swims their arm past your frame and re-establishes crossface or underhook** (Effectiveness: Medium) - Your Response: As they swim their arm past, use the brief moment when their weight shifts to execute a quick hip escape. Their arm swimming motion temporarily lightens their chest pressure, creating the exact window needed for hip movement. Re-establish frames from the new angle created by the hip escape. → Leads to [[Positions/Side Control/Side Control Consolidation]]
+- **Opponent uses space created by framing to step over into mount transition** (Effectiveness: High) - Your Response: The moment you feel their hip elevate for a step-over, redirect your hip frame into a knee insertion, driving your near-side knee across their thigh to prevent the leg from clearing. Prioritize blocking the mount transition over maintaining the frame; half guard recovery from a mount attempt is preferable to accepting mount. → Leads to [[Positions/Mount]]
+- **Opponent isolates framing arm by pinning wrist to mat and threatens kimura** (Effectiveness: Medium) - Your Response: Immediately pull your elbow tight to your ribs and grip your own belt or pants with the threatened hand. Use the opponent's submission focus to generate hip escape space with your lower body while their hands are occupied attacking your arm rather than maintaining pressure. → Leads to [[Positions/Side Control/Side Control Consolidation]]
 
 
 </section>

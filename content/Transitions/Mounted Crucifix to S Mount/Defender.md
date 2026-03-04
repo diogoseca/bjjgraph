@@ -158,7 +158,7 @@ The transition creates a specific mechanical vulnerability: as the top player ex
 
 Defensive success depends on reading the transition early through hip rotation cues and committing fully to your chosen escape direction. Half-hearted defense during this window wastes your best opportunity and leaves you trapped in S Mount where submission threats multiply. The priority sequence is clear: first attempt arm extraction during the transition, then hip escape to recover guard if arm extraction succeeds, or bridge explosively to disrupt the transition entirely if arm extraction fails.
 
-**Opponent's Starting Position**: [[Mounted Crucifix]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Defensive success depends on reading the transition early through hip rotation c
 ### 1. Explosive bridge toward the extracting leg side timed with the hip rotation
 
 - **When to use**: The instant you feel hip rotation beginning and one leg starts to lift - this is the highest-percentage moment before S Mount locks in
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: Disrupts opponent's balance during vulnerable single-leg phase, preventing S Mount establishment and potentially creating space to extract trapped arm
 - **Risk**: If mistimed after S Mount is established, the bridge may extend your trapped arm directly into armbar position
 
 ### 2. Arm extraction by pulling trapped arm toward centerline during reduced leg pressure
 
 - **When to use**: When you feel the departing leg release pressure on your arm during the extraction phase - the window is brief but the single remaining leg cannot maintain full crucifix pressure alone
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: Freeing the trapped arm restores defensive framing ability, converting the position back to standard mount where traditional escape options exist
 - **Risk**: Pulling the arm forcefully may straighten it, making armbar finish easier if opponent completes S Mount despite your extraction attempt
 
 ### 3. Hip escape toward the threading leg side combined with knee insertion to recover half guard
 
 - **When to use**: When the opponent's leg is mid-thread across your neck and their weight has shifted away from your hip line, creating space for shrimp movement
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough distance to insert knee and recover half guard, escaping both crucifix and S Mount to a recoverable position
 - **Risk**: If hip escape is incomplete, you may end up in S Mount with your hips displaced, making armbar finish even easier for the top player
 
 ### 4. Turn into opponent and attempt to come to knees before S Mount locks in
 
 - **When to use**: As a last resort when bridge and arm extraction have failed but S Mount is not yet fully consolidated - their perpendicular angle may allow you to rotate underneath
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: Reaching turtle or knees from under a transitioning opponent can create scramble opportunities and prevent S Mount finalization
 - **Risk**: Turning away exposes your back and may result in rear mount or back control rather than S Mount - potentially worse if hooks are secured
 
@@ -228,11 +228,11 @@ Defensive success depends on reading the transition early through hip rotation c
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mounted Crucifix]]
+### → [[Positions/Mount/Mounted Crucifix]]
 
 Disrupt the transition early through explosive bridging during the hip rotation phase before S Mount establishes. The goal is to force opponent back into settled crucifix where you can then work standard crucifix escapes, or to create enough disruption that arm extraction becomes possible during the scramble.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If arm extraction succeeds during the transition, immediately hip escape and insert your knee across opponent's thigh before they can re-establish mount or crucifix. The freed arm provides the frame needed to create space for knee insertion. Timing the hip escape with the opponent's weight shift during failed transition gives maximum space for guard recovery.
 

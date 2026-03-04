@@ -21,7 +21,7 @@ This transition emphasizes proper hip movement, head positioning, and timing to 
 
 The open guard to deep half pathway is most effective against opponents who commit their weight forward during passing sequences, as their forward pressure actually facilitates the dive underneath. Against opponents who maintain distance and upright posture, alternative guard transitions such as butterfly or De La Riva are typically more appropriate. Understanding when to select this entry versus other options is what separates intermediate practitioners from advanced guard players.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The open guard to deep half pathway is most effective against opponents who comm
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Deep Half Guard]] | 55% |
-| Failure | [[Open Guard]] | 25% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Half Guard/Deep Half Guard]] | 55% |
+| Failure | [[Positions/Open Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -196,31 +196,31 @@ The open guard to deep half transition represents a critical component of modern
 ## Related Techniques
 
 
-- [[Deep Half Guard]] - Ending position providing sweep and back take options
+- [[Positions/Half Guard/Deep Half Guard]] - Ending position providing sweep and back take options
 
-- [[Old School Sweep]] - Primary follow-up sweep from deep half
+- [[Transitions/Old School Sweep]] - Primary follow-up sweep from deep half
 
-- [[Waiter Sweep]] - Alternative sweep when opponent drives weight forward
+- [[Transitions/Waiter Sweep]] - Alternative sweep when opponent drives weight forward
 
-- [[Electric Chair Submission]] - Advanced submission available from deep half with lockdown
+- [[Submissions/Electric Chair Submission]] - Advanced submission available from deep half with lockdown
 
-- [[Half Guard Pass]] - Common counter the top player attempts during entry
+- [[Transitions/Half Guard Pass]] - Common counter the top player attempts during entry
 
-- [[Butterfly Guard to X-Guard]] - Alternative transition pathway from open guard
+- [[Transitions/Butterfly Guard to X-Guard]] - Alternative transition pathway from open guard
 
-- [[Guard Recovery]] - Broader positional concept this transition serves
+- [[Principles/Guard Recovery]] - Broader positional concept this transition serves
 
-- [[Single Leg X Sweep]] - Alternative when deep half entry is defended
+- [[Transitions/Single Leg X Sweep]] - Alternative when deep half entry is defended
 
-- [[De La Riva Guard]] - Alternative starting guard for depth entries
+- [[Positions/De La Riva Guard]] - Alternative starting guard for depth entries
 
-- [[Lockdown Recovery]] - Related half guard control system
+- [[Transitions/Lockdown Recovery]] - Related half guard control system
 
-- [[Underhook Sweep from Half]] - Related sweeping mechanics from half guard
+- [[Transitions/Underhook Sweep from Half]] - Related sweeping mechanics from half guard
 
-- [[Hook Sweep]] - Alternative sweep from butterfly/open guard
+- [[Transitions/Hook Sweep]] - Alternative sweep from butterfly/open guard
 
-- [[Deep Half Entry]] - Related entry pathway from different starting positions
+- [[Transitions/Deep Half Entry]] - Related entry pathway from different starting positions
 
 
 </section>

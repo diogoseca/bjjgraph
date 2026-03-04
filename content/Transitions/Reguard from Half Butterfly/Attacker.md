@@ -180,7 +180,7 @@ description: "Learn to execute the Reguard from Half Butterfly as the bottom pla
 
 Executing the reguard from half butterfly requires coordinating hip movement, framing, and leg pummeling to extract the trapped leg and establish full butterfly guard. The bottom player must create sufficient space through shrimping while maintaining the existing butterfly hook as an anchor that prevents the top player from advancing. The critical insight is that the reguard is not simply pulling a leg free—it is a systematic sequence of frame establishment, hip escape, knee pummeling, and immediate hook insertion flowing as one continuous movement. Success depends on reading the opponent's weight distribution and timing extraction during moments when their pressure is displaced forward or laterally rather than into the half guard trap. The butterfly hook remains active throughout, serving as both defensive insurance and the positional anchor that keeps the opponent engaged while the extraction occurs.
 
-**From Position**: [[Half Butterfly]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the reguard from half butterfly requires coordinating hip movement, fr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Butterfly Guard]] | 55% |
-| Failure | [[Half Butterfly]] | 25% |
-| Counter | [[Flattened Half Guard]] | 20% |
+| Success | [[Positions/Butterfly Guard]] | 55% |
+| Failure | [[Positions/Butterfly Guard/Half Butterfly]] | 25% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the reguard from half butterfly requires coordinating hip movement, fr
 
 ## Opponent Counters
 
-- **Opponent drives heavy crossface and shoulder pressure to flatten posture during hip escape** (Effectiveness: High) - Your Response: Establish frame against the crossface shoulder before attempting extraction. If crossface is already locked in, address it first by swimming your arm inside or turning into the pressure. If crossface is too strong, abandon reguard and transition to deep half entry where their forward pressure becomes an asset. → Leads to [[Flattened Half Guard]]
-- **Opponent tightens squeeze on trapped leg and drives hip pressure downward to block pummeling path** (Effectiveness: Medium) - Your Response: Switch to elevator reguard variant, using aggressive butterfly hook drive to create upward space rather than lateral space. Alternatively, abandon the reguard and use the loaded butterfly hook to attempt a sweep that exploits their commitment to the trapped-leg squeeze. → Leads to [[Half Butterfly]]
-- **Opponent times a knee slice through the space created during the extraction hip escape** (Effectiveness: High) - Your Response: If you feel the knee slice initiating, immediately recover a knee shield frame to block the slice rather than continuing extraction. The knee shield stops the pass and creates a stable position to reattempt later. Never continue an extraction while a knee slice is in progress. → Leads to [[Flattened Half Guard]]
-- **Opponent sprawls weight and flattens hips to eliminate all movement space** (Effectiveness: Medium) - Your Response: Use the butterfly hook elevation to create space from underneath rather than shrimping laterally. A strong hook drive lifts their weight momentarily, creating the extraction window from a vertical angle. If sprawl is too heavy, use the hook to threaten sweep and force a weight shift that reopens the lateral extraction path. → Leads to [[Half Butterfly]]
+- **Opponent drives heavy crossface and shoulder pressure to flatten posture during hip escape** (Effectiveness: High) - Your Response: Establish frame against the crossface shoulder before attempting extraction. If crossface is already locked in, address it first by swimming your arm inside or turning into the pressure. If crossface is too strong, abandon reguard and transition to deep half entry where their forward pressure becomes an asset. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent tightens squeeze on trapped leg and drives hip pressure downward to block pummeling path** (Effectiveness: Medium) - Your Response: Switch to elevator reguard variant, using aggressive butterfly hook drive to create upward space rather than lateral space. Alternatively, abandon the reguard and use the loaded butterfly hook to attempt a sweep that exploits their commitment to the trapped-leg squeeze. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
+- **Opponent times a knee slice through the space created during the extraction hip escape** (Effectiveness: High) - Your Response: If you feel the knee slice initiating, immediately recover a knee shield frame to block the slice rather than continuing extraction. The knee shield stops the pass and creates a stable position to reattempt later. Never continue an extraction while a knee slice is in progress. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent sprawls weight and flattens hips to eliminate all movement space** (Effectiveness: Medium) - Your Response: Use the butterfly hook elevation to create space from underneath rather than shrimping laterally. A strong hook drive lifts their weight momentarily, creating the extraction window from a vertical angle. If sprawl is too heavy, use the hook to threaten sweep and force a weight shift that reopens the lateral extraction path. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
 
 
 </section>

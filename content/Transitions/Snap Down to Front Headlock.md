@@ -21,7 +21,7 @@ This transition serves as a critical gateway technique in modern grappling, brid
 
 The snap down's effectiveness lies in its ability to bypass traditional takedown defenses by attacking the opponent's posture rather than their legs or hips. Against skilled defensive grapplers who excel at sprawling or defending leg attacks, the snap down provides an alternative pathway to top position that requires different defensive skills. Understanding proper timing, grip configuration, and follow-up options transforms this technique from a simple movement into a comprehensive control system.
 
-**From Position**: [[Clinch]] (Top)
+**From Position**: [[Positions/Clinch]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ The snap down's effectiveness lies in its ability to bypass traditional takedown
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 60% |
-| Failure | [[Clinch]] | 25% |
-| Counter | [[Clinch]] | 15% |
+| Success | [[Positions/Front Headlock]] | 60% |
+| Failure | [[Positions/Clinch]] | 25% |
+| Counter | [[Positions/Clinch]] | 15% |
 
 
 </section>
@@ -201,29 +201,29 @@ The Snap Down to Front Headlock serves as a critical bridge technique in the BJJ
 ## Related Techniques
 
 
-- [[Front Headlock]] - Ending position - the dominant control established after successful snap down
+- [[Positions/Front Headlock]] - Ending position - the dominant control established after successful snap down
 
-- [[Front Headlock to Guillotine]] - Primary follow-up submission from established front headlock
+- [[Transitions/Front Headlock to Guillotine]] - Primary follow-up submission from established front headlock
 
-- [[Front Headlock to Anaconda]] - Alternative submission entry from front headlock position
+- [[Transitions/Front Headlock to Anaconda]] - Alternative submission entry from front headlock position
 
-- [[Front Headlock to Darce]] - Secondary submission option depending on opponent's defensive reaction
+- [[Transitions/Front Headlock to Darce]] - Secondary submission option depending on opponent's defensive reaction
 
-- [[Front Headlock to Back]] - Positional advancement alternative when submissions are defended
+- [[Transitions/Front Headlock to Back]] - Positional advancement alternative when submissions are defended
 
-- [[Arm Drag]] - Alternative technique from similar standing clinch position
+- [[Transitions/Arm Drag]] - Alternative technique from similar standing clinch position
 
-- [[Collar Drag]] - Related technique using similar principles with different grip
+- [[Transitions/Collar Drag]] - Related technique using similar principles with different grip
 
-- [[Guillotine Choke]] - Most common submission finish from front headlock position
+- [[Transitions/Guillotine Choke]] - Most common submission finish from front headlock position
 
-- [[Turtle]] - Common defensive position opponent assumes after being snapped down
+- [[Positions/Turtle]] - Common defensive position opponent assumes after being snapped down
 
-- [[Clinch]] - Primary starting position for executing snap down
+- [[Positions/Clinch]] - Primary starting position for executing snap down
 
-- [[Double Leg Entry]] - Alternative takedown from clinch that chains with snap down as misdirection
+- [[Transitions/Double Leg Entry]] - Alternative takedown from clinch that chains with snap down as misdirection
 
-- [[Anaconda Choke]] - High-percentage submission available from front headlock after snap down
+- [[Transitions/Anaconda Choke]] - High-percentage submission available from front headlock after snap down
 
 
 </section>

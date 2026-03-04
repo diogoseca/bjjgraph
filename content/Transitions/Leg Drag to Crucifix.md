@@ -23,7 +23,7 @@ Strategically, this transition creates a powerful dilemma for opponents in leg d
 
 The technique requires sensitivity to feel when the opponent commits to turning in, and the coordination to capture their arm while maintaining leg control and transitioning your body perpendicular to theirs. The entry window is brief, typically lasting only one to two seconds while they're in transition, making timing critical for success.
 
-**From Position**: [[Leg Drag Control]] (Top)
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -34,9 +34,9 @@ The technique requires sensitivity to feel when the opponent commits to turning 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Crucifix]] | 55% |
-| Failure | [[Leg Drag Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Crucifix]] | 55% |
+| Failure | [[Positions/Leg Drag Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Leg Drag to Crucifix transition fits into the leg drag passing system as the
 ## Related Techniques
 
 
-- [[Leg Drag Control]] - Starting position for this transition
+- [[Positions/Leg Drag Control]] - Starting position for this transition
 
-- [[Crucifix]] - Target position achieved on successful completion
+- [[Positions/Crucifix]] - Target position achieved on successful completion
 
-- [[Leg Drag to Back Take]] - Alternative attack when opponent turns away instead of in
+- [[Transitions/Leg Drag to Back Take]] - Alternative attack when opponent turns away instead of in
 
-- [[Leg Drag Pass to Side Control]] - Alternative when opponent stays flat and defends both directions
+- [[Transitions/Leg Drag Pass to Side Control]] - Alternative when opponent stays flat and defends both directions
 
-- [[Choke from Crucifix]] - Primary submission from completed crucifix position
+- [[Transitions/Choke from Crucifix]] - Primary submission from completed crucifix position
 
-- [[Armbar from Crucifix]] - Alternative submission when choke is defended
+- [[Transitions/Armbar from Crucifix]] - Alternative submission when choke is defended
 
-- [[Back Control]] - Fallback position if crucifix entry is defended
+- [[Positions/Back Control]] - Fallback position if crucifix entry is defended
 
-- [[Crucifix from Turtle]] - Follow-up entry if opponent turtles during transition
+- [[Transitions/Crucifix from Turtle]] - Follow-up entry if opponent turtles during transition
 
-- [[Mounted Crucifix]] - Variant position if opponent gets back flat during entry
+- [[Positions/Mount/Mounted Crucifix]] - Variant position if opponent gets back flat during entry
 
-- [[Side Control]] - Alternative consolidation if crucifix is fully defended
+- [[Positions/Side Control]] - Alternative consolidation if crucifix is fully defended
 
 
 </section>

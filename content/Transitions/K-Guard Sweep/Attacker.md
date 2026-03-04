@@ -180,7 +180,7 @@ description: "Master executing the K-Guard Sweep in BJJ. Step-by-step guide cove
 
 The K-Guard Sweep from the attacker's perspective centers on mastering the coordinated action of two distinct hooks to generate overwhelming sweeping force. The inverted inside hook creates lateral displacement by pulling the opponent's trapped leg across their centerline, while the butterfly outside hook generates vertical lift that removes their base. The attacker must develop sensitivity to the opponent's weight distribution and forward pressure, learning to load both hooks during moments of commitment before executing explosively. Timing is paramount - the sweep succeeds when the opponent's weight moves forward onto the hook system, and fails when attempted against a withdrawn or well-based opponent. The technical challenge lies in synchronizing upper body steering with lower body mechanics to produce a compound force vector that bypasses all standard base recovery reactions.
 
-**From Position**: [[K-Guard]] (Bottom)
+**From Position**: [[Positions/K-Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The K-Guard Sweep from the attacker's perspective centers on mastering the coord
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[K-Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/K-Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The K-Guard Sweep from the attacker's perspective centers on mastering the coord
 
 ## Opponent Counters
 
-- **Opponent posts hand on mat to prevent the topple after off-balance initiates** (Effectiveness: Medium) - Your Response: Switch immediately to back take by swimming your underhook under their posting arm and circling behind while maintaining hook tension to prevent them from turning to face you → Leads to [[K-Guard]]
-- **Opponent widens base and drops hips low to resist butterfly hook elevation** (Effectiveness: High) - Your Response: Transition to Single Leg X-Guard entry by extending your butterfly hook to full leg control on their far leg, exploiting the wide stance they created to defend the sweep → Leads to [[K-Guard]]
-- **Opponent backsteps the trapped leg to disengage from the inverted hook entirely** (Effectiveness: High) - Your Response: Follow with hip extension and re-establish open guard hooks or transition to butterfly guard retention, using their disengagement as an opportunity to reset guard structure → Leads to [[Open Guard]]
-- **Opponent drives heavy crossface pressure to flatten K-Guard structure before sweep loads** (Effectiveness: Medium) - Your Response: Frame against the crossface and redirect the forward pressure into a Deep Half Guard entry, using their committed weight against them by diving underneath → Leads to [[K-Guard]]
+- **Opponent posts hand on mat to prevent the topple after off-balance initiates** (Effectiveness: Medium) - Your Response: Switch immediately to back take by swimming your underhook under their posting arm and circling behind while maintaining hook tension to prevent them from turning to face you → Leads to [[Positions/K-Guard]]
+- **Opponent widens base and drops hips low to resist butterfly hook elevation** (Effectiveness: High) - Your Response: Transition to Single Leg X-Guard entry by extending your butterfly hook to full leg control on their far leg, exploiting the wide stance they created to defend the sweep → Leads to [[Positions/K-Guard]]
+- **Opponent backsteps the trapped leg to disengage from the inverted hook entirely** (Effectiveness: High) - Your Response: Follow with hip extension and re-establish open guard hooks or transition to butterfly guard retention, using their disengagement as an opportunity to reset guard structure → Leads to [[Positions/Open Guard]]
+- **Opponent drives heavy crossface pressure to flatten K-Guard structure before sweep loads** (Effectiveness: Medium) - Your Response: Frame against the crossface and redirect the forward pressure into a Deep Half Guard entry, using their committed weight against them by diving underneath → Leads to [[Positions/K-Guard]]
 
 
 </section>

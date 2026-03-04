@@ -21,7 +21,7 @@ This technique operates on a fundamental principle: when your leg becomes endang
 
 The back step is particularly valuable against modern leg lock systems where practitioners use inversions to access heel hooks and kneebars. Against a skilled grasshopper guard player, the window for executing this pass is narrow—you must recognize the entanglement attempt early and initiate the back step before they can fully establish control. Timing the back step to coincide with their inversion transition maximizes success probability, as their legs are temporarily in flux between configurations.
 
-**From Position**: [[Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Grasshopper Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The back step is particularly valuable against modern leg lock systems where pra
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Grasshopper Guard]] | 25% |
-| Counter | [[Ashi Garami]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami]] | 10% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Back Step Pass is a cornerstone technique in the guard passing toolkit again
 ## Related Techniques
 
 
-- [[Grasshopper Guard]] - Starting position - the guard you are passing
+- [[Positions/Grasshopper Guard]] - Starting position - the guard you are passing
 
-- [[Side Control]] - Primary destination after successful pass completion
+- [[Positions/Side Control]] - Primary destination after successful pass completion
 
-- [[Leg Drag Pass]] - Alternative passing technique from same scenario
+- [[Transitions/Leg Drag Pass]] - Alternative passing technique from same scenario
 
-- [[Knee Slice Pass]] - Chain technique when opponent attempts half guard recovery
+- [[Transitions/Knee Slice Pass]] - Chain technique when opponent attempts half guard recovery
 
-- [[Ashi Garami]] - Counter position opponent may achieve if back step fails
+- [[Positions/Ashi Garami]] - Counter position opponent may achieve if back step fails
 
-- [[Reverse De La Riva Guard]] - Guard opponent may transition to during your circling motion
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Guard opponent may transition to during your circling motion
 
-- [[Inverted Guard]] - Parent category of guards this technique defeats
+- [[Positions/Inverted Guard]] - Parent category of guards this technique defeats
 
-- [[Combat Base]] - Starting posture often used before executing the pass
+- [[Positions/Combat Base]] - Starting posture often used before executing the pass
 
-- [[Back Step]] - Related back step transition used in other passing contexts
+- [[Transitions/Back Step]] - Related back step transition used in other passing contexts
 
-- [[Bullfighter Pass]] - Alternative standing pass that shares leg control clearing mechanics
+- [[Transitions/Bullfighter Pass]] - Alternative standing pass that shares leg control clearing mechanics
 
 
 </section>

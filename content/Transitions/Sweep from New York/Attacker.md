@@ -180,7 +180,7 @@ description: "Execute the Sweep from New York to reach mount. Step-by-step hip b
 
 As the attacker executing the Sweep from New York, your primary advantage is the structural control already established by the New York position. The opponent's arm is trapped in your overhook, their posture is broken by your shin across their back, and their base is compromised on the trapped-arm side. The sweep converts this control advantage into positional dominance by using an explosive hip bridge timed to the opponent's posture recovery attempt. Your overhook becomes both a posting block and a pulling lever, while the shin release timing determines whether you generate enough rotational momentum to complete the reversal. The technique rewards patience in waiting for the optimal timing window rather than forcing the sweep against a settled opponent.
 
-**From Position**: [[New York]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Sweep from New York, your primary advantage is the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 43% |
-| Failure | [[New York]] | 37% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Mount]] | 43% |
+| Failure | [[Positions/Rubber Guard/New York]] | 37% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Sweep from New York, your primary advantage is the
 
 ## Opponent Counters
 
-- **Opponent widens base and drops hips to resist the bridge direction** (Effectiveness: High) - Your Response: Switch to the angle change sweep variant—shift hips laterally first to attack from an angle their widened base cannot defend, or abandon the sweep and advance to Invisible Collar while their posture remains broken. → Leads to [[New York]]
-- **Opponent posts with their free hand on the mat as they feel the bridge initiate** (Effectiveness: Medium) - Your Response: Use your freed shin-grip hand to attack their posting wrist or push it across their body. Their free hand is the only post available, so controlling it removes their last defensive option. If you capture the wrist, re-attempt the bridge immediately. → Leads to [[New York]]
-- **Opponent explosively extracts overhook arm before the bridge completes** (Effectiveness: High) - Your Response: If the overhook is lost during the sweep attempt, immediately transition to triangle control by shooting your leg over their shoulder as the extracted arm creates space. Their extraction movement naturally positions their arm inside your guard for the triangle entry. → Leads to [[Open Guard]]
-- **Opponent drives forward aggressively to flatten the bottom player before the sweep can initiate** (Effectiveness: Medium) - Your Response: Accept their forward pressure and redirect it into Chill Dog or Invisible Collar advancement. Their forward drive actually assists these transitions by compressing the distance needed for deeper control positions. Return to sweep threat once they attempt to back out. → Leads to [[New York]]
+- **Opponent widens base and drops hips to resist the bridge direction** (Effectiveness: High) - Your Response: Switch to the angle change sweep variant—shift hips laterally first to attack from an angle their widened base cannot defend, or abandon the sweep and advance to Invisible Collar while their posture remains broken. → Leads to [[Positions/Rubber Guard/New York]]
+- **Opponent posts with their free hand on the mat as they feel the bridge initiate** (Effectiveness: Medium) - Your Response: Use your freed shin-grip hand to attack their posting wrist or push it across their body. Their free hand is the only post available, so controlling it removes their last defensive option. If you capture the wrist, re-attempt the bridge immediately. → Leads to [[Positions/Rubber Guard/New York]]
+- **Opponent explosively extracts overhook arm before the bridge completes** (Effectiveness: High) - Your Response: If the overhook is lost during the sweep attempt, immediately transition to triangle control by shooting your leg over their shoulder as the extracted arm creates space. Their extraction movement naturally positions their arm inside your guard for the triangle entry. → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward aggressively to flatten the bottom player before the sweep can initiate** (Effectiveness: Medium) - Your Response: Accept their forward pressure and redirect it into Chill Dog or Invisible Collar advancement. Their forward drive actually assists these transitions by compressing the distance needed for deeper control positions. Return to sweep threat once they attempt to back out. → Leads to [[Positions/Rubber Guard/New York]]
 
 
 </section>

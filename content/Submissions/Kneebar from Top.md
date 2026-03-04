@@ -26,8 +26,8 @@ The top kneebar serves dual purposes: as a finishing submission and as a positio
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Knee joint (tibial plateau, popliteal ligaments, meniscus)
-**Starting Position**: [[Side Control]]
-**From Position**: [[Side Control]] (Top)
+**Starting Position**: [[Positions/Side Control]]
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -83,8 +83,8 @@ The top kneebar serves dual purposes: as a finishing submission and as a positio
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Kneebar Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Kneebar Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -237,12 +237,12 @@ The top kneebar serves dual purposes: as a finishing submission and as a positio
 
 ## From Which Positions?
 
-- [[Side Control]]
-- [[Mount]]
-- [[Knee on Belly]]
-- [[Half Guard]]
-- [[Turtle]]
-- [[North-South]]
+- [[Positions/Side Control]]
+- [[Positions/Mount]]
+- [[Positions/Knee on Belly]]
+- [[Positions/Half Guard]]
+- [[Positions/Turtle]]
+- [[Positions/North-South]]
 
 
 </section>
@@ -251,15 +251,15 @@ The top kneebar serves dual purposes: as a finishing submission and as a positio
 
 ## Related Submissions
 
-- [[Kneebar]]
-- [[Straight Ankle Lock]]
-- [[Toe Hold]]
-- [[Heel Hook]]
-- [[Armbar from Side Control]]
-- [[Kimura from Side Control]]
-- [[Americana from Side Control]]
-- [[Calf Slicer]]
-- [[Kneebar from Half Guard]]
+- [[Transitions/Kneebar]]
+- [[Submissions/Straight Ankle Lock]]
+- [[Transitions/Toe Hold]]
+- [[Transitions/Heel Hook]]
+- [[Submissions/Armbar from Side Control]]
+- [[Submissions/Kimura from Side Control]]
+- [[Submissions/Americana from Side Control]]
+- [[Transitions/Calf Slicer]]
+- [[Submissions/Kneebar from Half Guard]]
 
 
 </section>
@@ -268,14 +268,14 @@ The top kneebar serves dual purposes: as a finishing submission and as a positio
 
 ## Additional Related Content
 
-- [[Inside Ashi-Garami]] - Alternative leg entanglement position offering better control for leg attacks when top kneebarring proves difficult
-- [[Outside Ashi-Garami]] - Transitional position often reached when opponent defends top kneebar by rolling away from pressure
-- [[Saddle]] - Advanced leg entanglement position accessible when opponent's kneebar defense exposes heel
-- [[Kneebar Control]] - Control position for finishing the kneebar submission with proper positioning
-- [[Leg Entanglement]] - Principle covering general leg control mechanics applicable to all leg attacks including top kneebarring
-- [[Straight Ankle Lock]] - Alternative leg submission when kneebar defense is too strong; chains naturally from failed kneebar attempts
-- [[Toe Hold]] - Complementary leg attack targeting different joint; available when opponent bends knee to defend kneebar
-- [[Half Guard]] - Common position opponent recovers to when successfully countering kneebar entry from top
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative leg entanglement position offering better control for leg attacks when top kneebarring proves difficult
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Transitional position often reached when opponent defends top kneebar by rolling away from pressure
+- [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement position accessible when opponent's kneebar defense exposes heel
+- [[Positions/Kneebar Control]] - Control position for finishing the kneebar submission with proper positioning
+- [[Positions/Leg Entanglement]] - Principle covering general leg control mechanics applicable to all leg attacks including top kneebarring
+- [[Submissions/Straight Ankle Lock]] - Alternative leg submission when kneebar defense is too strong; chains naturally from failed kneebar attempts
+- [[Transitions/Toe Hold]] - Complementary leg attack targeting different joint; available when opponent bends knee to defend kneebar
+- [[Positions/Half Guard]] - Common position opponent recovers to when successfully countering kneebar entry from top
 
 
 </section>

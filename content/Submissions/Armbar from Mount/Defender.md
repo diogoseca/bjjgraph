@@ -160,7 +160,7 @@ The defender's primary advantage lies in the transitional windows that the attac
 
 Defensive hierarchy follows a strict sequence: prevent arm isolation first, disrupt the leg swing second, stack or turn if caught in transition third, and protect the arm from extension as a last resort. Each successive layer of defense is lower-percentage than the previous one, reinforcing the critical importance of early recognition and proactive defense rather than reactive escaping.
 
-**Opponent's Starting Position**: [[Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 
 </section>
@@ -200,28 +200,28 @@ Defensive hierarchy follows a strict sequence: prevent arm isolation first, disr
 ### 1. Clasp hands and stack forward during the leg swing transition
 
 - **When to use**: When attacker has committed to the leg swing but hasn't fully secured position with both legs clamped. This is the highest-percentage defense window.
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Attacker fails to complete the transition and you drive them back to mount position, often recovering to closed guard as they fall back
 - **Risk**: If stacking attempt fails and attacker maintains wrist control, you may end up in a deeper armbar position with less defensive options
 
 ### 2. Hitchhiker escape by turning toward the trapped arm and rolling to knees
 
 - **When to use**: When attacker has established the armbar position with both legs but has not eliminated the space between your arm and their chest. Requires timing and commitment.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You rotate your body in the direction of your trapped thumb, extracting your elbow across their body and ending in a scramble or top position
 - **Risk**: If attacker has tight chest-to-arm contact and strong knee squeeze, the rotation is blocked and you exhaust energy without escaping
 
 ### 3. Pull arm back to body before leg swing completes
 
 - **When to use**: During the very early stage of the armbar setup when attacker first isolates your wrist but hasn't yet shifted their weight fully or swung their leg over. This is the earliest and most effective defense.
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You retract your arm to your body, denying the attacker the isolation they need. You remain in bottom mount but have prevented the submission attempt
 - **Risk**: Attacker may chain immediately to a different submission like Americana or triangle if you overcommit to arm retraction
 
 ### 4. Bridge and roll toward the trapped arm side during transition
 
 - **When to use**: When attacker is mid-transition with their weight shifted and base compromised by the angle change. Requires explosive timing coordinated with the moment their leg lifts.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You reverse the position by exploiting the attacker's compromised base during the transition, ending in their guard or a scramble
 - **Risk**: If timing is off, you may accelerate the armbar transition by helping the attacker's leg clear your head
 
@@ -245,11 +245,11 @@ Defensive hierarchy follows a strict sequence: prevent arm isolation first, disr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Pull arm back to body during early isolation phase before attacker commits to the leg swing, or stack aggressively during transition to collapse attacker back to mount position
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Successfully stack forward during armbar transition, driving attacker flat on their back and following into their closed guard as they release the submission attempt
 

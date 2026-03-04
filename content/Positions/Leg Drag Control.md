@@ -97,23 +97,23 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 ### Available Transitions
 
 
-- **[[Leg Drag Escape to Closed Guard]]** (4% of attempts)
+- **[[Transitions/Leg Drag Escape to Closed Guard]]** (4% of attempts)
 
-- **[[Technical Stand-up]]** (9% of attempts)
+- **[[Transitions/Technical Stand-up]]** (9% of attempts)
 
-- **[[Leg Drag Counter to Half Guard]]** (18% of attempts)
+- **[[Transitions/Leg Drag Counter to Half Guard]]** (18% of attempts)
 
-- **[[Roll to Turtle]]** (18% of attempts)
+- **[[Transitions/Roll to Turtle]]** (18% of attempts)
 
-- **[[Inside Position Recovery]]** (10% of attempts)
+- **[[Transitions/Inside Position Recovery]]** (10% of attempts)
 
-- **[[Granby Roll to Guard]]** (6% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (6% of attempts)
 
-- **[[Leg Recovery to De La Riva]]** (9% of attempts)
+- **[[Transitions/Leg Recovery to De La Riva]]** (9% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (12% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (12% of attempts)
 
-- **[[Half Guard Recovery]]** (14% of attempts)
+- **[[Transitions/Half Guard Recovery]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -174,25 +174,25 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 ### Available Transitions
 
 
-- **[[Leg Drag Pass to Side Control]]** (22% of attempts)
+- **[[Transitions/Leg Drag Pass to Side Control]]** (22% of attempts)
 
-- **[[Leg Drag to Back Take]]** (20% of attempts)
+- **[[Transitions/Leg Drag to Back Take]]** (20% of attempts)
 
-- **[[Leg Drag to Mount]]** (12% of attempts)
+- **[[Transitions/Leg Drag to Mount]]** (12% of attempts)
 
-- **[[Leg Drag to Knee on Belly]]** (12% of attempts)
+- **[[Transitions/Leg Drag to Knee on Belly]]** (12% of attempts)
 
-- **[[Leg Drag to North-South]]** (7% of attempts)
+- **[[Transitions/Leg Drag to North-South]]** (7% of attempts)
 
-- **[[Leg Drag to Crucifix]]** (4% of attempts)
+- **[[Transitions/Leg Drag to Crucifix]]** (4% of attempts)
 
-- **[[Leg Drag to Inside Ashi]]** (6% of attempts)
+- **[[Transitions/Leg Drag to Inside Ashi]]** (6% of attempts)
 
-- **[[Leg Drag to Technical Mount]]** (8% of attempts)
+- **[[Transitions/Leg Drag to Technical Mount]]** (8% of attempts)
 
-- **[[Leg Drag to Darce Setup]]** (7% of attempts)
+- **[[Transitions/Leg Drag to Darce Setup]]** (7% of attempts)
 
-- **[[Darce from Leg Drag]]** (2% of attempts)
+- **[[Submissions/Darce from Leg Drag]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -231,21 +231,21 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 ## Related Positions
 
 
-- **[[Side Control]]** - Primary consolidation target from leg drag control
+- **[[Positions/Side Control]]** - Primary consolidation target from leg drag control
 
-- **[[Back Control]]** - High-percentage transition when opponent turns away
+- **[[Positions/Back Control]]** - High-percentage transition when opponent turns away
 
-- **[[Mount]]** - Alternative consolidation when opponent flattens
+- **[[Positions/Mount]]** - Alternative consolidation when opponent flattens
 
-- **[[Knee on Belly]]** - Quick control option to pressure opponent
+- **[[Positions/Knee on Belly]]** - Quick control option to pressure opponent
 
-- **[[Turtle]]** - Common result when bottom player attempts to escape
+- **[[Positions/Turtle]]** - Common result when bottom player attempts to escape
 
-- **[[Half Guard]]** - Potential recovery position if opponent recaptures leg
+- **[[Positions/Half Guard]]** - Potential recovery position if opponent recaptures leg
 
-- **[[De La Riva Guard]]** - Common starting position before leg drag entry
+- **[[Positions/De La Riva Guard]]** - Common starting position before leg drag entry
 
-- **[[Single Leg X-Guard]]** - Alternative guard bottom may attempt during scramble
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Alternative guard bottom may attempt during scramble
 
 
 </section>

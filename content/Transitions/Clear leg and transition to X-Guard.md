@@ -21,7 +21,7 @@ The biomechanical foundation of this transition relies on understanding the rela
 
 Strategically, this transition exemplifies modern leg lock defense philosophy: never simply escape, but escape to a position of advantage. By establishing X-Guard rather than returning to neutral, practitioners maintain lower body control over their opponent while eliminating the immediate leg lock threats. The resulting X-Guard position offers immediate sweep opportunities and leg attack pathways of your own, effectively punishing the opponent for their failed leg entanglement attempt.
 
-**From Position**: [[Leg Knot]] (Bottom)
+**From Position**: [[Positions/Leg Knot]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition exemplifies modern leg lock defense philosophy: n
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[X-Guard]] | 55% |
-| Failure | [[Leg Knot]] | 30% |
-| Counter | [[Saddle]] | 15% |
+| Success | [[Positions/X-Guard]] | 55% |
+| Failure | [[Positions/Leg Knot]] | 30% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ Clear Leg to X-Guard fits within the defensive leg entanglement hierarchy as a p
 ## Related Techniques
 
 
-- [[Leg Knot]] - Starting position for this transition
+- [[Positions/Leg Knot]] - Starting position for this transition
 
-- [[X-Guard]] - Target position on successful execution
+- [[Positions/X-Guard]] - Target position on successful execution
 
-- [[Single Leg X-Guard]] - Alternative target when full X-Guard is unavailable
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative target when full X-Guard is unavailable
 
-- [[Ashi Garami Escape]] - Related defensive technique from leg entanglements
+- [[Transitions/Ashi Garami Escape]] - Related defensive technique from leg entanglements
 
-- [[Saddle]] - Position opponent may achieve on failed execution
+- [[Positions/Ashi Garami/Saddle]] - Position opponent may achieve on failed execution
 
-- [[Butterfly Sweep]] - Follow-up attack from established X-Guard
+- [[Transitions/Butterfly Sweep]] - Follow-up attack from established X-Guard
 
-- [[Heel Hook]] - Primary submission threat being escaped
+- [[Transitions/Heel Hook]] - Primary submission threat being escaped
 
-- [[50-50 Guard]] - Alternative counter-entanglement option from Leg Knot
+- [[Positions/Ashi Garami/50-50 Guard]] - Alternative counter-entanglement option from Leg Knot
 
-- [[Inside Ashi-Garami]] - Related leg entanglement position
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement position
 
-- [[Butterfly Guard]] - Related guard sharing hook mechanics with X-Guard
+- [[Positions/Butterfly Guard]] - Related guard sharing hook mechanics with X-Guard
 
 
 </section>

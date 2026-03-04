@@ -154,7 +154,7 @@ description: "Defend against the Transition to Leg Hook from Half Guard Bottom. 
 
 As the defender against the Transition to Leg Hook, you are in Half Guard Bottom and your opponent is attempting to convert their trapped leg into an offensive hook that will compromise your guard structure. Your primary objective is to prevent the hook insertion by maintaining strong knee connection, establishing frames that prevent the weight shift required for insertion, or timing a counter-attack that exploits the vulnerability window created during the transition. Recognition is critical: the top player must shift their weight and reposition their leg, creating a brief opportunity for sweeps, deep half entries, or guard recovery that does not exist during standard half guard top pressure. Understanding the sequence of the hook insertion allows you to identify the optimal moment to act, whether that means preventing the hook entirely or redirecting the transition into a position that favors your game.
 
-**Opponent's Starting Position**: [[Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ As the defender against the Transition to Leg Hook, you are in Half Guard Bottom
 ### 1. Re-establish knee shield before hook insertion completes
 
 - **When to use**: When you detect the early weight shift and their leg has not yet cleared your knee line
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Returns to standard half guard with knee shield, resetting the position and forcing the top player to clear your shield before reattempting
 - **Risk**: If timing is late, the knee shield attempt may be too weak to prevent the hook and you lose the frame without gaining meaningful defensive structure
 
 ### 2. Duck underneath for deep half guard entry during the weight shift
 
 - **When to use**: When the top player lifts their hips during the hook insertion, creating space underneath their body that enables deep half entry
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: Establishes deep half guard with superior sweeping position, converting the opponent's passing attempt into a defensive scramble for them
 - **Risk**: If the top player recognizes the entry and sprawls, you may be caught in a compromised position between half guard and deep half without the advantages of either
 
 ### 3. Bridge and sweep during the weight transfer phase
 
 - **When to use**: When the top player is mid-transition with weight distributed unevenly between their hooked leg and posted leg, creating sweep vulnerability
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Sweeps the top player and reverses position, potentially achieving top half guard or side control depending on sweep completion
 - **Risk**: If the top player's base is strong and your bridge lacks sufficient power, you waste energy and the top player consolidates deeper into the hook position
 
 ### 4. Lockdown entanglement to prevent hook conversion
 
 - **When to use**: When you detect the initial foot movement but the hook has not yet cleared your knee line
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Locks the trapped leg in a figure-four that prevents hook insertion entirely and returns to a lockdown half guard with sweep and submission options
 - **Risk**: Establishing the lockdown requires temporarily releasing other defensive frames, which the top player may exploit to advance position
 
@@ -226,11 +226,11 @@ As the defender against the Transition to Leg Hook, you are in Half Guard Bottom
 
 ## Best-Case Outcomes for Defender
 
-### → [[Deep Half Guard]]
+### → [[Positions/Half Guard/Deep Half Guard]]
 
 Time your deep half entry during the moment the top player shifts weight upward for hook insertion. Use their forward momentum to duck your head underneath their body, establishing deep half control with your near-side arm wrapping their far leg. The key timing window is when their hips lift even slightly during the threading motion.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Execute a bridge-based sweep during the weight transfer phase when the top player's base is split between the hooking leg and their posted foot. Combine the bridge with your leg entanglement to off-balance them laterally, driving them toward the posted foot side where their base is weakest. Alternatively, re-establish knee shield to reset the position and deny the hook insertion.
 

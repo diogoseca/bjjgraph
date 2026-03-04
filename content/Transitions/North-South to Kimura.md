@@ -21,7 +21,7 @@ The transition requires precise timing and grip sequencing. The attacker must ma
 
 Once the Kimura Trap is established from North-South, the position offers branching attack pathways: finish the Kimura submission directly, use the grip to roll the opponent and take the back, advance to mount while maintaining arm control, or switch to armbar attacks when the opponent straightens their arm defensively. This versatility makes the North-South to Kimura transition a cornerstone of systematic top-game offense, creating cascading dilemmas where every defensive reaction opens a different submission or positional threat.
 
-**From Position**: [[North-South]] (Top)
+**From Position**: [[Positions/North-South]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ Once the Kimura Trap is established from North-South, the position offers branch
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kimura Trap]] | 60% |
-| Failure | [[North-South]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Kimura Trap]] | 60% |
+| Failure | [[Positions/North-South]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -192,29 +192,29 @@ The North-South to Kimura transition is a cornerstone technique in modern BJJ's 
 ## Related Techniques
 
 
-- [[North-South]] - Starting position for this transition
+- [[Positions/North-South]] - Starting position for this transition
 
-- [[Kimura Trap]] - Primary target position upon successful execution
+- [[Positions/Kimura Trap]] - Primary target position upon successful execution
 
-- [[Kimura from Side Control]] - Related Kimura entry from adjacent top control position
+- [[Submissions/Kimura from Side Control]] - Related Kimura entry from adjacent top control position
 
-- [[North-South Choke]] - Alternative submission from the same starting position
+- [[Transitions/North-South Choke]] - Alternative submission from the same starting position
 
-- [[Side Control]] - Common entry position before reaching North-South
+- [[Positions/Side Control]] - Common entry position before reaching North-South
 
-- [[Kimura to Back Take]] - Follow-up transition when opponent defends by turning
+- [[Transitions/Kimura to Back Take]] - Follow-up transition when opponent defends by turning
 
-- [[Armbar from North-South]] - Alternative attack when opponent straightens arm defensively
+- [[Transitions/Armbar from North-South]] - Alternative attack when opponent straightens arm defensively
 
-- [[Gift Wrap]] - Intermediate control position used in some entry variations
+- [[Positions/Gift Wrap]] - Intermediate control position used in some entry variations
 
-- [[Crucifix]] - Advanced control position combining arm and leg trapping
+- [[Positions/Crucifix]] - Advanced control position combining arm and leg trapping
 
-- [[Kimura]] - Submission finish from the established Kimura Trap
+- [[Transitions/Kimura]] - Submission finish from the established Kimura Trap
 
-- [[North-South Escape]] - How opponents attempt to escape the starting position
+- [[Transitions/North-South Escape]] - How opponents attempt to escape the starting position
 
-- [[Americana]] - Related shoulder lock available from North-South
+- [[Transitions/Americana]] - Related shoulder lock available from North-South
 
 
 </section>

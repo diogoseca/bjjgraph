@@ -154,7 +154,7 @@ description: "Defend and counter the New York entry from Rubber Guard. Learn to 
 
 As the defender trapped in the opponent's Rubber Guard, your priority when they attempt the New York entry is to prevent the overhook from being established. The New York position represents a significant escalation in offensive control compared to Mission Control, so stopping this transition is critical for your survival and escape prospects. The threading attempt creates a brief vulnerability window when the bottom player releases their shin grip to swim the overhook, and this window is your best opportunity for escape or disruption. Understanding the entry mechanics allows you to recognize the attempt early and apply the appropriate counter before the overhook locks in. Once New York is fully established with both the deep overhook and shin grip active, escape becomes dramatically more difficult and submission threats multiply.
 
-**Opponent's Starting Position**: [[Rubber Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender trapped in the opponent's Rubber Guard, your priority when they 
 ### 1. Retract trapped arm to hip and initiate posture recovery
 
 - **When to use**: Immediately upon recognizing the threading attempt, before the overhook catches your tricep. Most effective during the early phase when the bottom player has just released their shin grip.
-- **Targets**: [[Rubber Guard]]
+- **Targets**: [[Positions/Rubber Guard]]
 - **If successful**: Prevents overhook establishment entirely and may create opportunity for posture recovery if the shin grip is not quickly re-established
 - **Risk**: If the arm retracts after the overhook has partially caught, the bottom player may redirect to a triangle by shooting their leg over the exposed shoulder
 
 ### 2. Drive forward with stack pressure during the one-handed vulnerability window
 
 - **When to use**: When you feel the shin grip release and the bottom player's control momentarily weakens. Drive your weight forward immediately to flatten their hips and collapse the guard structure.
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Flattens the bottom player's hips, breaking the shin-across-back structure and potentially opening the guard entirely for a passing opportunity
 - **Risk**: Forward drive can be redirected by the bottom player to accelerate the overhook catch if timed incorrectly, actually deepening their control rather than breaking it
 
 ### 3. Strip shin grip and fight to open guard before overhook swim begins
 
 - **When to use**: When you detect the bottom player testing their hip engagement by loosening their shin grip. Attack the grip with your free hand to strip it before they commit to the threading motion.
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Breaks the entire Rubber Guard configuration, dropping the bottom player to open guard where you can begin passing sequences from a neutral position
 - **Risk**: Committing your free hand to grip fighting may compromise your base if the bottom player uses hip movement to sweep during the grip exchange
 
 ### 4. Circle away from the overhook side while maintaining base
 
 - **When to use**: When the overhook is partially established but not yet deep. Circling away creates an angle that makes it difficult for the bottom player to drive the overhook deeper and may create enough space to extract the arm.
-- **Targets**: [[Rubber Guard]]
+- **Targets**: [[Positions/Rubber Guard]]
 - **If successful**: Creates angle that prevents overhook deepening and may allow arm extraction, returning the position to Mission Control dynamics where escape is easier
 - **Risk**: Circling can expose your back if the bottom player follows the rotation, potentially opening back take opportunities from the Rubber Guard system
 
@@ -225,11 +225,11 @@ As the defender trapped in the opponent's Rubber Guard, your priority when they 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip the shin grip during the one-handed vulnerability window using your free hand while simultaneously driving forward to flatten the bottom player's hips. This breaks the entire Rubber Guard structure and returns the engagement to a neutral open guard position where standard passing applies.
 
-### → [[Rubber Guard]]
+### → [[Positions/Rubber Guard]]
 
 Retract your trapped arm toward your hip before the overhook catches your tricep, preventing the advancement to New York. While remaining in Rubber Guard is not ideal, preventing the New York transition preserves your escape opportunities and avoids the escalated submission threats of the New York position.
 

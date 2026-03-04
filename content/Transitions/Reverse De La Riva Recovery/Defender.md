@@ -148,7 +148,7 @@ As the top player defending against RDLR Recovery, your objective is to recogniz
 
 The defender's strategic framework centers on three pillars: pressure consolidation to prevent the hip escape, leg control to block hook reinsertion, and grip denial to prevent them from rebuilding secondary controls. When you feel the bottom player begin to shrimp, that is your cue to accelerate your passing progression rather than pause. Every second you give them to reorganize increases the probability that their recovery succeeds. The most common error from the top perspective is assuming a partially cleared guard is equivalent to a passed guard—this complacency allows skilled guard players to rebuild their position from the smallest remaining connection.
 
-**Opponent's Starting Position**: [[Reverse De La Riva Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -187,28 +187,28 @@ The defender's strategic framework centers on three pillars: pressure consolidat
 ### 1. Drive shoulder pressure forward and establish crossface to flatten the bottom player
 
 - **When to use**: When you feel the bottom player beginning to hip escape and create frames, before they generate significant angle
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Bottom player is flattened, frames collapse, and you can advance to side control or knee slice completion
 - **Risk**: Over-committing forward can feed into waiter sweep if any hook remains, or allow underhook if your weight is too far over their centerline
 
 ### 2. Control their near-side knee or thigh with your hand to block the hook reinsertion lane
 
 - **When to use**: When you see their inside leg beginning to thread underneath your near leg during the hip escape
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The RDLR hook cannot be re-established, forcing them to accept a diminished open guard position you can continue passing
 - **Risk**: Using a hand for leg control reduces your base and upper body pressure, potentially allowing them to sit up to butterfly or seated guard
 
 ### 3. Backstep away from the recovery and re-engage from headquarters position
 
 - **When to use**: When the bottom player has already created significant angle and forcing the pass risks being swept or entangled
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You reset to a neutral passing position without giving up sweep or back exposure, maintaining top advantage
 - **Risk**: Allows the bottom player time to fully recover their guard structure, potentially re-establishing RDLR or transitioning to another guard
 
 ### 4. Strip their remaining grip and immediately leg drag to the opposite side
 
 - **When to use**: When the bottom player is focused on recovering hook on one side and has committed their hip escape in that direction
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Their hip escape movement in one direction makes them vulnerable to passes going the opposite way, completing the guard pass
 - **Risk**: If you fail to strip the grip cleanly, you may end up in a scramble where they recover to a different guard system
 
@@ -220,11 +220,11 @@ The defender's strategic framework centers on three pillars: pressure consolidat
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Maintain relentless forward pressure while denying the hip escape angle. Use crossface to flatten their upper body, control their near-side knee to block hook reinsertion, and complete your original passing sequence before they can rebuild guard structure. The key is acceleration—do not pause when you feel them beginning recovery movements.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Even if you cannot complete the pass immediately, deny the RDLR hook reinsertion by controlling their near leg. This forces them into a diminished open guard position without the inverted hook mechanics that make RDLR dangerous. From open guard top, you maintain passing initiative with significantly reduced sweep and back-take threats.
 

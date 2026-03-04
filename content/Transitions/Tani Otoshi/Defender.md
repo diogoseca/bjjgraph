@@ -154,7 +154,7 @@ description: "How to defend against Tani Otoshi in BJJ. Recognition cues, defens
 
 Defending Tani Otoshi requires early recognition and immediate reaction, because once the thrower commits to the sacrifice drop with proper angle and leg placement, the mechanical advantage makes escape extremely difficult. The defender's primary goal is to prevent the throw from developing by recognizing the setup cues - the lateral angle step, the grip tightening, and the weight shift that precede the drop. If the throw is already in progress, the defender must choose between widening their base to step over the blocking leg, sprawling their hips back to deny the rotational pull, or posting a hand to arrest the fall and convert to a scramble. Understanding the attacker's mechanics is essential: the throw relies on your forward weight commitment combined with the rigid leg block, so maintaining a balanced, reactive stance with hips slightly back is the strongest preventive posture. Successful defense often leads to advantageous positions because a failed sacrifice throw leaves the attacker seated on the mat.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending Tani Otoshi requires early recognition and immediate reaction, because
 ### 1. Sprawl hips back and widen base the instant you feel the opponent dropping
 
 - **When to use**: Early recognition - when you detect the lateral step and beginning of the drop before the blocking leg is fully in position
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent ends up seated on the mat below you with no control, giving you the option to disengage, establish front headlock, or pass to side control
 - **Risk**: If you sprawl too late after the blocking leg is set, your extended hips may actually increase the rotational leverage
 
 ### 2. Step over the blocking leg with a wide step in the direction of the throw
 
 - **When to use**: Mid-throw - when the blocking leg is extending but has not yet made solid contact below your knee
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You clear the blocking leg and remain standing while opponent is seated, allowing you to disengage or attack their turtle or seated guard
 - **Risk**: If the block is already below your knee and locked, attempting to step over may cause you to trip over their leg and fall into a worse position
 
 ### 3. Post your free hand on the mat and fight the rotational pull to prevent being swept over
 
 - **When to use**: Late defense - when the throw is already in progress and you cannot step over or sprawl effectively
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You arrest the fall and can work to extract your blocked leg, potentially establishing a top scramble position
 - **Risk**: Your posted arm is vulnerable to kimura attack, and if the rotational force is too strong, your post collapses and the throw completes
 
 ### 4. Circle aggressively away from opponent's angle when you detect the lateral step setup
 
 - **When to use**: Earliest possible defense - during the setup phase before the drop has begun
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You deny the angle entirely, forcing opponent to abandon the throw or attempt from an ineffective position
 - **Risk**: Circling into their opposite-side throw (Tai Otoshi or similar) if they chain attacks
 
@@ -226,11 +226,11 @@ Defending Tani Otoshi requires early recognition and immediate reaction, because
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Recognize the setup early through the lateral step and grip tightening cues. Circle away from the throwing direction while breaking the dominant collar grip with a two-on-one grip strip. Maintain balanced stance with hips slightly back throughout. If the opponent commits to the drop anyway, sprawl your hips back to deny the rotational pull and step over their blocking leg to remain standing with positional advantage.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 If caught late in the throw but able to post your hand and partially arrest the fall, scramble to recover standing position. Even though you may be momentarily off-balance, the attacker sacrificed their base, so both practitioners may end up resetting to neutral standing. Use the scramble to fight back to your feet and re-engage grip fighting.
 

@@ -156,7 +156,7 @@ Defending the leg drag from headquarters requires early recognition and immediat
 
 The biomechanics of defense center on maintaining knee retraction strength, hip mobility, and frame integrity at the shoulder line. When you feel the passer transitioning their grip from your knee to your ankle, this is the critical recognition window. Early defensive action during the grip transition is exponentially more effective than attempting to recover after the drag has landed. Your defensive responses must address both the leg control and the inevitable upper body control that follows, as defeating only one element still allows the passer to complete the technique.
 
-**Opponent's Starting Position**: [[Headquarters Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Headquarters Position]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The biomechanics of defense center on maintaining knee retraction strength, hip 
 ### 1. Retract the controlled leg by bending the knee explosively and pulling the heel toward your buttock
 
 - **When to use**: The moment you feel the passer's grip transition from your knee to your ankle, before the drag motion has begun
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Passer loses the ankle grip and must re-establish headquarters control, resetting the passing sequence and giving you time to improve your guard position
 - **Risk**: If timed too late, the passer has already initiated the hip drive and your retraction pulls against their full-body mechanics, wasting energy without freeing the leg
 
 ### 2. Frame at the passer's shoulder with near arm and hip escape in the opposite direction of the drag to create angle and space
 
 - **When to use**: During the drag motion when the leg is being pulled across your centerline but before the passer has pinned it with their hip
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Creates enough distance and angle to recover your leg position and potentially re-establish a guard frame such as knee shield or foot-on-hip
 - **Risk**: If the frame is weak or the hip escape is insufficient, the passer collapses the frame and completes the drag with your energy already spent
 
 ### 3. Underhook the passer's far arm and drive into them, turning the drag into a scramble position
 
 - **When to use**: When the passer has committed to the drag and their upper body is momentarily unprotected during the lateral movement
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The underhook prevents the passer from establishing crossface control and can create a sweep opportunity or force a half guard recovery where you have the underhook advantage
 - **Risk**: If the passer anticipates the underhook, they can whizzer and use your forward motion to accelerate their pass completion
 
 ### 4. Post your free foot on the mat and bridge explosively into the passer while their weight is displaced laterally
 
 - **When to use**: During the moment the passer's hips are moving sideways for the drag, when their base is most compromised and susceptible to off-balancing
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The bridge disrupts the passer's lateral momentum and can create a scramble where you recover to a half guard or open guard position with active hooks
 - **Risk**: A poorly timed bridge when the passer has already settled creates space they can exploit to advance to mount rather than side control
 
@@ -227,11 +227,11 @@ The biomechanics of defense center on maintaining knee retraction strength, hip 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your underhook or bridge counter to the passer's lateral weight shift during the drag motion. The passer's base is most vulnerable during this transitional moment. A well-timed underhook combined with a hip bump can disrupt their mechanics entirely and create a scramble that reverses the positional hierarchy.
 
-### → [[Headquarters Position]]
+### → [[Positions/Headquarters Position]]
 
 Retract your leg explosively during the grip transition window before the drag motion begins. Combine the leg retraction with a strong shoulder frame that prevents the passer from following your retreating leg. Once the leg is free, immediately re-establish a defensive guard structure such as knee shield or foot-on-hip to prevent an immediate re-attack.
 

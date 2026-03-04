@@ -17,7 +17,7 @@ description: "Master the X-Guard to Ashi Garami transition in BJJ. Strategic leg
 
 The X-Guard to Ashi Garami transition represents a fundamental connection between traditional sweeping systems and modern leg entanglement attacks. This transition exploits the inherent vulnerability of the standing opponent's near leg while maintaining the control framework established in X-Guard. The technique creates a seamless progression from a sweep-oriented position into a submission-focused leg entanglement, forcing opponents into a defensive dilemma where defending the sweep opens the leg lock, and defending the leg opens the sweep. This dual-threat system exemplifies modern no-gi grappling's evolution toward integrated positional systems. The transition requires precise timing, as the window of opportunity opens when the opponent attempts to disengage from X-Guard by pulling their trapped leg backward. Success depends on maintaining hip connection throughout the transition while simultaneously transitioning grip configurations from sweep-oriented controls to leg entanglement frames. Mastery of this transition fundamentally changes the threat landscape from X-Guard, transforming it from a purely sweeping position into a submission entry system.
 
-**From Position**: [[X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -28,9 +28,9 @@ The X-Guard to Ashi Garami transition represents a fundamental connection betwee
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 65% |
-| Failure | [[X-Guard]] | 25% |
-| Counter | [[X-Guard]] | 10% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 65% |
+| Failure | [[Positions/X-Guard]] | 25% |
+| Counter | [[Positions/X-Guard]] | 10% |
 
 
 </section>
@@ -194,33 +194,33 @@ The X-Guard to Ashi transition represents a critical link between traditional gu
 ## Related Techniques
 
 
-- [[X-Guard]] - Starting Position
+- [[Positions/X-Guard]] - Starting Position
 
-- [[Inside Ashi-Garami]] - Primary Ending Position
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary Ending Position
 
-- [[Outside Ashi-Garami]] - Alternative Ending Position
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative Ending Position
 
-- [[50-50 Guard]] - Alternative Entry Option
+- [[Positions/Ashi Garami/50-50 Guard]] - Alternative Entry Option
 
-- [[Saddle]] - Advanced Variation Endpoint
+- [[Positions/Ashi Garami/Saddle]] - Advanced Variation Endpoint
 
-- [[Single Leg X-Guard]] - Related Starting Position
+- [[Positions/X-Guard/Single Leg X-Guard]] - Related Starting Position
 
-- [[X-Guard Sweep]] - Complementary Attack Creating Transition Window
+- [[Transitions/X-Guard Sweep]] - Complementary Attack Creating Transition Window
 
-- [[Outside Ashi Entry]] - Counter-Defensive Variation
+- [[Transitions/Outside Ashi Entry]] - Counter-Defensive Variation
 
-- [[Inside Ashi Entry]] - Alternative Entry Method
+- [[Transitions/Inside Ashi Entry]] - Alternative Entry Method
 
-- [[Heel Hook]] - Primary Submission Follow-Up
+- [[Transitions/Heel Hook]] - Primary Submission Follow-Up
 
-- [[Inside Heel Hook]] - Specific Submission From Position
+- [[Submissions/Inside Heel Hook]] - Specific Submission From Position
 
-- [[Straight Ankle Lock]] - Alternative Submission Option
+- [[Submissions/Straight Ankle Lock]] - Alternative Submission Option
 
-- [[Ashi Garami Escape]] - Opponent's Counter Defense
+- [[Transitions/Ashi Garami Escape]] - Opponent's Counter Defense
 
-- [[Deep Half Guard]] - Backup Position If Transition Fails
+- [[Positions/Half Guard/Deep Half Guard]] - Backup Position If Transition Fails
 
 
 </section>

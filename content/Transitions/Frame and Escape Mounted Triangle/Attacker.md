@@ -186,7 +186,7 @@ description: "Master the frame and escape technique from mounted triangle bottom
 
 Executing the frame and escape from mounted triangle requires the bottom player to systematically dismantle the opponent's triangle configuration using structural frames rather than explosive muscular effort. The technique prioritizes bone-on-bone contact against the opponent's hip to create incremental space, combined with directional hip escape toward the trapped arm side to open the triangle angle. This approach conserves energy while methodically creating the space needed to insert a knee shield and recover half guard, converting a critical submission defense into a stable guard position from which offensive options become available.
 
-**From Position**: [[Mounted Triangle]] (Bottom)
+**From Position**: [[Positions/Mount/Mounted Triangle]] (Bottom)
 
 </section>
 
@@ -239,10 +239,10 @@ Executing the frame and escape from mounted triangle requires the bottom player 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Closed Guard]] | 10% |
-| Failure | [[Mounted Triangle]] | 35% |
-| Counter | [[Armbar Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Closed Guard]] | 10% |
+| Failure | [[Positions/Mount/Mounted Triangle]] | 35% |
+| Counter | [[Positions/Armbar Control]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ Executing the frame and escape from mounted triangle requires the bottom player 
 
 ## Opponent Counters
 
-- **Opponent tightens triangle squeeze and pulls head down when feeling initial frame placement** (Effectiveness: High) - Your Response: Maintain frames in position without abandoning the sequence. The sustained squeeze is metabolically expensive for their legs. Hold frames and breathe deliberately, then reinitiate hip escape when squeeze pressure momentarily decreases as their legs fatigue. → Leads to [[Mounted Triangle]]
-- **Opponent transitions to armbar by targeting the extended framing arm during escape attempt** (Effectiveness: Medium) - Your Response: Keep framing arm bent at all times with elbow close to body—never fully extend. If arm begins to be isolated, immediately retract and grip your own wrist with your trapped hand to create a two-on-one defense. Turn toward the opponent to prevent hip pivot needed for armbar completion. → Leads to [[Armbar Control]]
-- **Opponent posts wide and drives weight down to absorb hip escape momentum and prevent lateral movement** (Effectiveness: High) - Your Response: Chain multiple smaller hip escapes rather than relying on one large movement. Use the frame to block them from re-settling weight between escapes. If they post very wide, their triangle angle loosens—use that moment to accelerate the extraction sequence. → Leads to [[Mounted Triangle]]
-- **Opponent releases triangle and immediately pivots to isolate the framing arm for armbar finish** (Effectiveness: Medium) - Your Response: The moment you feel the triangle release, accelerate your hip escape and immediately pull both arms tight to your body. Their pivot creates space—use it to continue escaping toward guard rather than defending the armbar statically. Turn into them and get on your side to prevent arm extension. → Leads to [[Armbar Control]]
+- **Opponent tightens triangle squeeze and pulls head down when feeling initial frame placement** (Effectiveness: High) - Your Response: Maintain frames in position without abandoning the sequence. The sustained squeeze is metabolically expensive for their legs. Hold frames and breathe deliberately, then reinitiate hip escape when squeeze pressure momentarily decreases as their legs fatigue. → Leads to [[Positions/Mount/Mounted Triangle]]
+- **Opponent transitions to armbar by targeting the extended framing arm during escape attempt** (Effectiveness: Medium) - Your Response: Keep framing arm bent at all times with elbow close to body—never fully extend. If arm begins to be isolated, immediately retract and grip your own wrist with your trapped hand to create a two-on-one defense. Turn toward the opponent to prevent hip pivot needed for armbar completion. → Leads to [[Positions/Armbar Control]]
+- **Opponent posts wide and drives weight down to absorb hip escape momentum and prevent lateral movement** (Effectiveness: High) - Your Response: Chain multiple smaller hip escapes rather than relying on one large movement. Use the frame to block them from re-settling weight between escapes. If they post very wide, their triangle angle loosens—use that moment to accelerate the extraction sequence. → Leads to [[Positions/Mount/Mounted Triangle]]
+- **Opponent releases triangle and immediately pivots to isolate the framing arm for armbar finish** (Effectiveness: Medium) - Your Response: The moment you feel the triangle release, accelerate your hip escape and immediately pull both arms tight to your body. Their pivot creates space—use it to continue escaping toward guard rather than defending the armbar statically. Turn into them and get on your side to prevent arm extension. → Leads to [[Positions/Armbar Control]]
 
 
 </section>

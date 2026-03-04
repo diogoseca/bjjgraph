@@ -217,27 +217,27 @@ From a learning progression standpoint, New York Bottom typically requires 40-60
 
 ## Available Escapes
 
-### [[New York to Invisible Collar]] (10% of attempts)
+### [[Transitions/New York to Invisible Collar]] (10% of attempts)
 
-### [[Progression to Zombie]] (10% of attempts)
+### [[Transitions/Progression to Zombie]] (10% of attempts)
 
-### [[Advance to Chill Dog]] (8% of attempts)
+### [[Transitions/Advance to Chill Dog]] (8% of attempts)
 
-### [[Rotate to Carni]] (9% of attempts)
+### [[Transitions/Rotate to Carni]] (9% of attempts)
 
-### [[Triangle Setup]] (18% of attempts)
+### [[Transitions/Triangle Setup]] (18% of attempts)
 
-### [[Omoplata Sweep]] (7% of attempts)
+### [[Transitions/Omoplata Sweep]] (7% of attempts)
 
-### [[Gogoplata]] (6% of attempts)
+### [[Transitions/Gogoplata]] (6% of attempts)
 
-### [[Armbar Finish]] (10% of attempts)
+### [[Transitions/Armbar Finish]] (10% of attempts)
 
-### [[Hip Bump Sweep]] (10% of attempts)
+### [[Transitions/Hip Bump Sweep]] (10% of attempts)
 
-### [[Omoplata to Back]] (9% of attempts)
+### [[Transitions/Omoplata to Back]] (9% of attempts)
 
-### [[Sweep from New York]] (3% of attempts)
+### [[Transitions/Sweep from New York]] (3% of attempts)
 
 
 
@@ -248,23 +248,23 @@ From a learning progression standpoint, New York Bottom typically requires 40-60
 ## Decision Making from This Position
 
 **If opponent maintains low posture and tries to slowly extract overhook arm:**
-- Execute **[[New York to Invisible Collar]]** → [[Invisible Collar]] (Probability: 65%)
-- Execute **[[Progression to Zombie]]** → [[Zombie]] (Probability: 55%)
+- Execute **[[Transitions/New York to Invisible Collar]]** → [[Positions/Rubber Guard/Invisible Collar]] (Probability: 65%)
+- Execute **[[Transitions/Progression to Zombie]]** → [[Positions/Rubber Guard/Zombie]] (Probability: 55%)
 
 
 **If opponent drives forward aggressively trying to flatten the position:**
-- Execute **[[Advance to Chill Dog]]** → [[Chill Dog]] (Probability: 50%)
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 60%)
+- Execute **[[Transitions/Advance to Chill Dog]]** → [[Positions/Rubber Guard/Chill Dog]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 60%)
 
 
 **If opponent widens base and attempts to circle away from overhook side:**
-- Execute **[[Rotate to Carni]]** → [[Carni]] (Probability: 55%)
-- Execute **[[Omoplata Sweep]]** → [[Omoplata Control]] (Probability: 45%)
+- Execute **[[Transitions/Rotate to Carni]]** → [[Positions/Rubber Guard/Carni]] (Probability: 55%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 45%)
 
 
 **If opponent successfully restores partial posture but arm remains trapped:**
-- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 55%)
 
 
 
@@ -403,14 +403,14 @@ Partner chooses randomly between three escape attempts (overhook extraction, pos
 
 ## Related Positions and Techniques
 
-- **[[Mission Control]]** - Primary entry position for establishing New York control
-- **[[Rubber Guard]]** - Parent system containing New York and all related positions
-- **[[Invisible Collar]]** - Advanced attacking position reached from New York
-- **[[Zombie]]** - Deeper control position for maintaining attack pressure
-- **[[Chill Dog]]** - Finishing position for gogoplata attacks
-- **[[Carni]]** - Omoplata attack position from New York rotation
-- **[[Closed Guard]]** - Foundational position and fallback if New York fails
-- **[[Triangle Control]]** - Alternative attack when overhook is compromised
+- **[[Positions/Rubber Guard/Mission Control]]** - Primary entry position for establishing New York control
+- **[[Positions/Rubber Guard]]** - Parent system containing New York and all related positions
+- **[[Positions/Rubber Guard/Invisible Collar]]** - Advanced attacking position reached from New York
+- **[[Positions/Rubber Guard/Zombie]]** - Deeper control position for maintaining attack pressure
+- **[[Positions/Rubber Guard/Chill Dog]]** - Finishing position for gogoplata attacks
+- **[[Positions/Rubber Guard/Carni]]** - Omoplata attack position from New York rotation
+- **[[Positions/Closed Guard]]** - Foundational position and fallback if New York fails
+- **[[Positions/Triangle Control]]** - Alternative attack when overhook is compromised
 
 
 </section>

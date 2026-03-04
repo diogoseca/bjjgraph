@@ -180,7 +180,7 @@ description: "How to execute Basic Butterfly Sweep in BJJ. Attacking perspective
 
 The Basic Butterfly Sweep is a fundamental technique from the Butterfly Guard that exploits opponent's forward pressure and balance. Using hooks underneath the opponent's thighs combined with proper grip control and hip movement, the practitioner elevates and off-balances the opponent to achieve a dominant top position. This sweep is highly effective against opponents who attempt to establish base in your butterfly guard or pressure forward without proper posture. The technique relies on timing, leverage, and the mechanical advantage created by the butterfly hooks rather than pure strength. When executed properly, the Basic Butterfly Sweep can transition smoothly into mount, side control, or back control depending on the opponent's defensive reactions. This is considered an essential technique for all BJJ practitioners and forms the foundation for more advanced butterfly guard sweeping systems.
 
-**From Position**: [[Butterfly Guard]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ The Basic Butterfly Sweep is a fundamental technique from the Butterfly Guard th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 62% |
-| Failure | [[Butterfly Guard]] | 25% |
-| Counter | [[Butterfly Guard]] | 13% |
+| Success | [[Positions/Mount]] | 62% |
+| Failure | [[Positions/Butterfly Guard]] | 25% |
+| Counter | [[Positions/Butterfly Guard]] | 13% |
 
 
 </section>
@@ -245,11 +245,11 @@ The Basic Butterfly Sweep is a fundamental technique from the Butterfly Guard th
 
 ## Opponent Counters
 
-- **Opponent posts hand on mat to block sweep** (Effectiveness: High) - Your Response: Switch to opposite side butterfly sweep, attack posted arm with kimura, or transition to single leg X-guard by diving under the posted arm → Leads to [[Butterfly Guard]]
-- **Opponent sprawls hips back and creates distance** (Effectiveness: High) - Your Response: Follow their movement by extending guard forward, switch to deep half guard entry, or stand up and pursue with front headlock control → Leads to [[Butterfly Guard]]
-- **Opponent steps over butterfly hook to establish headquarters position** (Effectiveness: Medium) - Your Response: Immediately switch to single leg X-guard, attack the trapped leg, or transition to reverse De La Riva guard before they can pass → Leads to [[Butterfly Guard]]
-- **Opponent maintains strong upright posture and prevents forward weight commitment** (Effectiveness: Medium) - Your Response: Use elevator sweep variation by pulling them forward with collar grip, or transition to seated guard with ankle picks and arm drags → Leads to [[Butterfly Guard]]
-- **Opponent counters by driving weight extremely heavy onto your chest** (Effectiveness: Low) - Your Response: Use their forward pressure to enhance the sweep - their committed weight actually makes the basic butterfly sweep easier to execute with proper timing → Leads to [[Mount]]
+- **Opponent posts hand on mat to block sweep** (Effectiveness: High) - Your Response: Switch to opposite side butterfly sweep, attack posted arm with kimura, or transition to single leg X-guard by diving under the posted arm → Leads to [[Positions/Butterfly Guard]]
+- **Opponent sprawls hips back and creates distance** (Effectiveness: High) - Your Response: Follow their movement by extending guard forward, switch to deep half guard entry, or stand up and pursue with front headlock control → Leads to [[Positions/Butterfly Guard]]
+- **Opponent steps over butterfly hook to establish headquarters position** (Effectiveness: Medium) - Your Response: Immediately switch to single leg X-guard, attack the trapped leg, or transition to reverse De La Riva guard before they can pass → Leads to [[Positions/Butterfly Guard]]
+- **Opponent maintains strong upright posture and prevents forward weight commitment** (Effectiveness: Medium) - Your Response: Use elevator sweep variation by pulling them forward with collar grip, or transition to seated guard with ankle picks and arm drags → Leads to [[Positions/Butterfly Guard]]
+- **Opponent counters by driving weight extremely heavy onto your chest** (Effectiveness: Low) - Your Response: Use their forward pressure to enhance the sweep - their committed weight actually makes the basic butterfly sweep easier to execute with proper timing → Leads to [[Positions/Mount]]
 
 
 </section>

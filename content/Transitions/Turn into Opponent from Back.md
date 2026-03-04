@@ -21,7 +21,7 @@ The technique operates on the principle that back control depends on three inter
 
 At the competition level, this escape is most effective when combined with other back escape options to create an unpredictable escape system. When the opponent anticipates a turn attempt and tightens hooks, the back door escape becomes available. When they defend the back door, the turn becomes accessible. This multi-directional approach prevents the controlling player from preemptively shutting down any single escape direction, making each individual escape significantly more effective within the broader back defense system.
 
-**From Position**: [[Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ At the competition level, this escape is most effective when combined with other
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -187,25 +187,25 @@ Turn into Opponent from Back occupies a central role within the back escape syst
 ## Related Techniques
 
 
-- [[Back Control]] - Source position from which this escape is initiated when trapped in back control bottom
+- [[Positions/Back Control]] - Source position from which this escape is initiated when trapped in back control bottom
 
-- [[Closed Guard]] - Primary target position achieved through successful rotation and guard closure
+- [[Positions/Closed Guard]] - Primary target position achieved through successful rotation and guard closure
 
-- [[Mount]] - Counter position opponent may achieve by following the turn and establishing mount
+- [[Positions/Mount]] - Counter position opponent may achieve by following the turn and establishing mount
 
-- [[Hip Escape from Back Control]] - Alternative escape technique using hip movement without full rotation toward opponent
+- [[Transitions/Hip Escape from Back Control]] - Alternative escape technique using hip movement without full rotation toward opponent
 
-- [[Elbow Escape from Back]] - Related escape method using elbow frames to create space for positional improvement
+- [[Transitions/Elbow Escape from Back]] - Related escape method using elbow frames to create space for positional improvement
 
-- [[Back Door Escape]] - Complementary escape in opposite direction creating multi-directional escape system
+- [[Transitions/Back Door Escape]] - Complementary escape in opposite direction creating multi-directional escape system
 
-- [[Shoulder Walk Escape from Back]] - Alternative escape using shoulder walking movement to create angle for exit
+- [[Transitions/Shoulder Walk Escape from Back]] - Alternative escape using shoulder walking movement to create angle for exit
 
-- [[Scoot Hips to Guard from Back]] - Related guard recovery technique using hip movement to establish guard position
+- [[Transitions/Scoot Hips to Guard from Back]] - Related guard recovery technique using hip movement to establish guard position
 
-- [[Back Control Maintenance]] - Opponent's primary response technique to prevent this escape and maintain dominant position
+- [[Transitions/Back Control Maintenance]] - Opponent's primary response technique to prevent this escape and maintain dominant position
 
-- [[Restore Back Control]] - Opponent's recovery technique used if escape is partially successful but not completed
+- [[Transitions/Restore Back Control]] - Opponent's recovery technique used if escape is partially successful but not completed
 
 
 </section>

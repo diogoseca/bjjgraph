@@ -180,7 +180,7 @@ description: "Master the attacking mechanics of the Smash Pocket Half. Step-by-s
 
 As the attacker executing the Smash Pocket Half, your objective is to systematically dismantle the bottom player's pocket half guard structure through progressive pressure application. The pocket half guard is defined by the bottom player's deep underhook and active hip frame, and your goal is to eliminate both control points by driving heavy chest pressure while stripping or compromising the underhook. Success requires patience and methodical execution rather than explosive force - each component of the pocket must be addressed in sequence to prevent the bottom player from recovering or countering with sweeps.
 
-**From Position**: [[Pocket Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Pocket Half Guard]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ As the attacker executing the Smash Pocket Half, your objective is to systematic
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Flattened Half Guard]] | 55% |
-| Failure | [[Pocket Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard/Flattened Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Pocket Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the Smash Pocket Half, your objective is to systematic
 
 ## Opponent Counters
 
-- **Bottom player deepens underhook and threatens Old School sweep during pressure application** (Effectiveness: High) - Your Response: Immediately widen your base on the far side and lower your hips to prevent the sweep angle. If the underhook is too deep, abandon the smash and address the sweep threat before re-attempting. → Leads to [[Half Guard]]
-- **Bottom player scoots hips underneath for Deep Half Guard entry as you commit weight forward** (Effectiveness: High) - Your Response: Sprawl your hips back immediately and drive your trapped knee to the mat. If they establish deep half, you must abandon the smash and address the new guard position before it becomes established. → Leads to [[Pocket Half Guard]]
-- **Bottom player frames with free arm against your shoulder or hip to maintain pocket distance** (Effectiveness: Medium) - Your Response: Use your free hand to pin their framing arm to their body before continuing the smash sequence. Control their wrist or elbow to prevent re-establishment of the frame. → Leads to [[Pocket Half Guard]]
-- **Bottom player bridges explosively to create space and recover pocket position** (Effectiveness: Medium) - Your Response: Ride the bridge by maintaining chest connection and widening your base rather than fighting the lift. Wait for them to return to the mat, then immediately re-apply pressure and continue the smash progression. → Leads to [[Pocket Half Guard]]
+- **Bottom player deepens underhook and threatens Old School sweep during pressure application** (Effectiveness: High) - Your Response: Immediately widen your base on the far side and lower your hips to prevent the sweep angle. If the underhook is too deep, abandon the smash and address the sweep threat before re-attempting. → Leads to [[Positions/Half Guard]]
+- **Bottom player scoots hips underneath for Deep Half Guard entry as you commit weight forward** (Effectiveness: High) - Your Response: Sprawl your hips back immediately and drive your trapped knee to the mat. If they establish deep half, you must abandon the smash and address the new guard position before it becomes established. → Leads to [[Positions/Half Guard/Pocket Half Guard]]
+- **Bottom player frames with free arm against your shoulder or hip to maintain pocket distance** (Effectiveness: Medium) - Your Response: Use your free hand to pin their framing arm to their body before continuing the smash sequence. Control their wrist or elbow to prevent re-establishment of the frame. → Leads to [[Positions/Half Guard/Pocket Half Guard]]
+- **Bottom player bridges explosively to create space and recover pocket position** (Effectiveness: Medium) - Your Response: Ride the bridge by maintaining chest connection and widening your base rather than fighting the lift. Wait for them to return to the mat, then immediately re-apply pressure and continue the smash progression. → Leads to [[Positions/Half Guard/Pocket Half Guard]]
 
 
 </section>

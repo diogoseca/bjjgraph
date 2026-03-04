@@ -21,7 +21,7 @@ Unlike Side Control where opponents can create frames with their near-side arm, 
 
 Understanding when to transition versus when to maintain Side Control is critical for strategic positional flow. The decision should be reactive, not pre-planned. When the opponent gives you cues through their defensive movements, you capitalize by flowing to North-South. This reactive approach means you are always one step ahead, using their energy against them while maintaining constant pressure throughout the entire rotational path.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 78%
 
 </section>
@@ -32,9 +32,9 @@ Understanding when to transition versus when to maintain Side Control is critica
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[North-South]] | 75% |
-| Failure | [[Side Control]] | 15% |
-| Counter | [[Side Control]] | 10% |
+| Success | [[Positions/North-South]] | 75% |
+| Failure | [[Positions/Side Control]] | 15% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -191,29 +191,29 @@ The North-South transition is a critical component of top control maintenance an
 ## Related Techniques
 
 
-- [[Side Control]] - Starting position - master this before transitioning
+- [[Positions/Side Control]] - Starting position - master this before transitioning
 
-- [[North-South]] - Ending position - destination of this technique
+- [[Positions/North-South]] - Ending position - destination of this technique
 
-- [[Side Control to Mount]] - Alternative transition from same starting position
+- [[Transitions/Side Control to Mount]] - Alternative transition from same starting position
 
-- [[North-South to Kimura]] - Primary submission attack after transition
+- [[Transitions/North-South to Kimura]] - Primary submission attack after transition
 
-- [[North-South Choke]] - High-percentage submission from arrived position
+- [[Transitions/North-South Choke]] - High-percentage submission from arrived position
 
-- [[North-South Escape]] - Understanding opponent's defensive options from North-South
+- [[Transitions/North-South Escape]] - Understanding opponent's defensive options from North-South
 
-- [[Knee on Belly]] - Alternative pinning position in top control sequence
+- [[Positions/Knee on Belly]] - Alternative pinning position in top control sequence
 
-- [[Mount]] - Connected position in pinning progression hierarchy
+- [[Positions/Mount]] - Connected position in pinning progression hierarchy
 
-- [[Kesa Gatame]] - Related side pinning position with different orientation
+- [[Positions/Side Control/Kesa Gatame]] - Related side pinning position with different orientation
 
-- [[Side Control Escape]] - Opponent's defense you are preventing with transition timing
+- [[Transitions/Side Control Escape]] - Opponent's defense you are preventing with transition timing
 
-- [[Reverse Kesa-Gatame]] - Alternative pinning angle from similar starting position
+- [[Positions/Side Control/Reverse Kesa-Gatame]] - Alternative pinning angle from similar starting position
 
-- [[Armbar from North-South]] - Arm attack available after completing transition
+- [[Transitions/Armbar from North-South]] - Arm attack available after completing transition
 
 
 </section>

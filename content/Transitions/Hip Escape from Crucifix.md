@@ -21,7 +21,7 @@ Strategically, the hip escape targets the weakest link in the crucifix structure
 
 The technique serves as a critical survival skill in the crucifix escape hierarchy. While arm recovery and explosive bridging receive more attention, the hip escape offers a methodical, energy-efficient alternative that works even against opponents with strong leg lock configurations. Success depends on timing the hip movement to coincide with moments when the top player transitions between attacks, chaining multiple small shrimps rather than one explosive movement, and immediately converting the extracted arm into a turtle recovery without pause.
 
-**From Position**: [[Crucifix]] (Bottom)
+**From Position**: [[Positions/Crucifix]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ The technique serves as a critical survival skill in the crucifix escape hierarc
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 45% |
-| Failure | [[Crucifix]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Turtle]] | 45% |
+| Failure | [[Positions/Crucifix]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -197,25 +197,25 @@ The hip escape from crucifix integrates into the broader crucifix survival frame
 ## Related Techniques
 
 
-- [[Crucifix]] - Source position—the dominant pin this technique escapes from
+- [[Positions/Crucifix]] - Source position—the dominant pin this technique escapes from
 
-- [[Turtle]] - Primary success destination after completing the escape
+- [[Positions/Turtle]] - Primary success destination after completing the escape
 
-- [[Back Control]] - Common counter outcome when opponent transitions during escape
+- [[Positions/Back Control]] - Common counter outcome when opponent transitions during escape
 
-- [[Arm Recovery from Crucifix]] - Complementary escape technique focusing on direct arm extraction
+- [[Transitions/Arm Recovery from Crucifix]] - Complementary escape technique focusing on direct arm extraction
 
-- [[Crucifix Maintenance]] - Opponent's primary retention technique—study to understand escape windows
+- [[Transitions/Crucifix Maintenance]] - Opponent's primary retention technique—study to understand escape windows
 
-- [[Crucifix Choke Defense]] - Related defensive technique often needed before initiating escape
+- [[Transitions/Crucifix Choke Defense]] - Related defensive technique often needed before initiating escape
 
-- [[Choke from Crucifix]] - Primary submission threat that must be defended during escape
+- [[Transitions/Choke from Crucifix]] - Primary submission threat that must be defended during escape
 
-- [[Armbar from Crucifix]] - Secondary submission threat requiring awareness during escape
+- [[Transitions/Armbar from Crucifix]] - Secondary submission threat requiring awareness during escape
 
-- [[Mounted Crucifix]] - Worse positional variant if escape attempt is poorly executed
+- [[Positions/Mount/Mounted Crucifix]] - Worse positional variant if escape attempt is poorly executed
 
-- [[Hand Fight to Turtle from Back]] - Related escape concept applicable after transitioning to back control
+- [[Transitions/Hand Fight to Turtle from Back]] - Related escape concept applicable after transitioning to back control
 
 
 </section>

@@ -154,7 +154,7 @@ description: "How to prevent Knee Extraction in BJJ. Maintain ankle lock control
 
 From the defender's perspective (the person maintaining ankle lock control), the knee extraction represents the most common and immediate threat to your straight ankle lock position. Your opponent will attempt to bend their trapped knee, break your heel grip, and clear their leg past your controlling legs. Your objective is to prevent the extraction by consolidating your leg triangle before they can pull their knee free, maintaining heel grip integrity under two-on-one attack pressure, and recognizing when to transition to more dominant entanglements rather than fighting a losing battle for ankle control. The key strategic insight is that the extraction attempt itself creates opportunities - their hip rotation and knee pulling movements open pathways to inside ashi-garami, outside ashi-garami, and other advanced leg positions that offer superior control and submission options.
 
-**Opponent's Starting Position**: [[Straight Ankle Lock Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ From the defender's perspective (the person maintaining ankle lock control), the
 ### 1. Consolidate leg triangle by crossing ankles around their thigh and squeezing knees together to lock their leg in place
 
 - **When to use**: Immediately upon establishing ankle control, before opponent begins extraction attempt - this is proactive prevention
-- **Targets**: [[Straight Ankle Lock Control]]
+- **Targets**: [[Positions/Straight Ankle Lock Control]]
 - **If successful**: Opponent's extraction is blocked by your completed leg control, maintaining your ankle lock position and submission threat
 - **Risk**: If you focus too heavily on leg triangle and neglect grip, opponent may strip your ankle grip while you consolidate legs
 
 ### 2. Follow their hip rotation and transition to inside ashi-garami by threading your inside leg behind their knee
 
 - **When to use**: When opponent rotates hip away from you during extraction attempt, opening the pathway to inside position
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You advance to a more dominant leg entanglement where heel hook threats emerge and escape becomes significantly harder for opponent
 - **Risk**: If transition is too slow, opponent completes extraction during the positional change and escapes to standing
 
 ### 3. Extend their leg by driving your hips forward and pulling the ankle while pushing your top leg against their thigh to prevent knee bend
 
 - **When to use**: At the first sign of opponent attempting to bend their knee, before the extraction sequence gains momentum
-- **Targets**: [[Straight Ankle Lock Control]]
+- **Targets**: [[Positions/Straight Ankle Lock Control]]
 - **If successful**: Opponent's leg remains extended, maintaining your submission leverage and eliminating their primary escape mechanic
 - **Risk**: Over-committing to leg extension may sacrifice your upper body positioning and open passing opportunities for opponent
 
 ### 4. Attack their free leg with your bottom leg to prevent them from pushing against your control, neutralizing their primary disruption tool
 
 - **When to use**: When opponent's free leg begins actively pushing against your legs or hips to create extraction space
-- **Targets**: [[Straight Ankle Lock Control]]
+- **Targets**: [[Positions/Straight Ankle Lock Control]]
 - **If successful**: Opponent loses their primary escape tool, making extraction significantly harder and preserving your control configuration
 - **Risk**: Repositioning your bottom leg to control their free leg may temporarily loosen your leg triangle
 
@@ -225,11 +225,11 @@ From the defender's perspective (the person maintaining ankle lock control), the
 
 ## Best-Case Outcomes for Defender
 
-### → [[Straight Ankle Lock Control]]
+### → [[Positions/Straight Ankle Lock Control]]
 
 Complete your leg triangle before extraction begins, maintain deep heel grip through their two-on-one attack by keeping forearm tight against Achilles, and use your legs to prevent their knee from bending by applying extension pressure through hip positioning
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 When opponent rotates their hip away during extraction, follow the rotation by threading your inside leg through to establish inside position with your shin across their far hip. Their defensive movement facilitates your advancement to a more dominant entanglement with heel hook access
 

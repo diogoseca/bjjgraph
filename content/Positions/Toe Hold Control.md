@@ -93,21 +93,21 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 ### Available Transitions
 
 
-- **[[Angle Change Escape]]** (25% of attempts)
+- **[[Transitions/Angle Change Escape]]** (25% of attempts)
 
-- **[[Ashi Garami Escape]]** (15% of attempts)
+- **[[Transitions/Ashi Garami Escape]]** (15% of attempts)
 
-- **[[Inside Ashi Entry]]** (14% of attempts)
+- **[[Transitions/Inside Ashi Entry]]** (14% of attempts)
 
-- **[[Counter-entangle to 50-50 Guard]]** (12% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard]]** (12% of attempts)
 
-- **[[Guard Recovery from Leg Entanglement]]** (13% of attempts)
+- **[[Transitions/Guard Recovery from Leg Entanglement]]** (13% of attempts)
 
-- **[[Deep Half Entry]]** (12% of attempts)
+- **[[Transitions/Deep Half Entry]]** (12% of attempts)
 
-- **[[Boot Defense from Toe Hold]]** (6% of attempts)
+- **[[Transitions/Boot Defense from Toe Hold]]** (6% of attempts)
 
-- **[[Counter Rotation from Toe Hold]]** (3% of attempts)
+- **[[Transitions/Counter Rotation from Toe Hold]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -172,21 +172,21 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 ### Available Transitions
 
 
-- **[[Toe Hold]]** (14% of attempts)
+- **[[Transitions/Toe Hold]]** (14% of attempts)
 
-- **[[Outside Ashi Entry]]** (24% of attempts)
+- **[[Transitions/Outside Ashi Entry]]** (24% of attempts)
 
-- **[[Inside Ashi Entry]]** (14% of attempts)
+- **[[Transitions/Inside Ashi Entry]]** (14% of attempts)
 
-- **[[Saddle Entry from Top]]** (13% of attempts)
+- **[[Transitions/Saddle Entry from Top]]** (13% of attempts)
 
-- **[[Ankle Lock Finish]]** (14% of attempts)
+- **[[Transitions/Ankle Lock Finish]]** (14% of attempts)
 
-- **[[Kneebar Finish]]** (12% of attempts)
+- **[[Transitions/Kneebar Finish]]** (12% of attempts)
 
-- **[[Toe Hold to Ashi Garami]]** (6% of attempts)
+- **[[Transitions/Toe Hold to Ashi Garami]]** (6% of attempts)
 
-- **[[Toe Hold to Straight Ankle Lock]]** (3% of attempts)
+- **[[Transitions/Toe Hold to Straight Ankle Lock]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -225,27 +225,27 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 ## Related Positions
 
 
-- **[[Outside Ashi-Garami]]** - Primary entry position and common transition target when opponent rotates knee outward during defense
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Primary entry position and common transition target when opponent rotates knee outward during defense
 
-- **[[Inside Ashi-Garami]]** - Alternative ashi configuration accessed through knee line rotation, offering pathway to inside heel hook attacks
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Alternative ashi configuration accessed through knee line rotation, offering pathway to inside heel hook attacks
 
-- **[[Saddle]]** - Advanced control position when opponent sits up or flexes knee attempting to alleviate toe hold pressure
+- **[[Positions/Ashi Garami/Saddle]]** - Advanced control position when opponent sits up or flexes knee attempting to alleviate toe hold pressure
 
-- **[[50-50 Guard]]** - Symmetrical leg entanglement position offering mutual toe hold and ankle lock opportunities for both practitioners
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Symmetrical leg entanglement position offering mutual toe hold and ankle lock opportunities for both practitioners
 
-- **[[Kneebar Control]]** - Alternative leg lock target when opponent extends leg straight during escape attempts from toe hold
+- **[[Positions/Kneebar Control]]** - Alternative leg lock target when opponent extends leg straight during escape attempts from toe hold
 
-- **[[Single Leg X-Guard]]** - Guard position that offers entry opportunities to toe hold control through elevation and leg isolation
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Guard position that offers entry opportunities to toe hold control through elevation and leg isolation
 
-- **[[Deep Half Guard]]** - Defensive depth position that bottom player may recover when successfully escaping toe hold danger
+- **[[Positions/Half Guard/Deep Half Guard]]** - Defensive depth position that bottom player may recover when successfully escaping toe hold danger
 
-- **[[Half Guard]]** - Common recovery position for bottom player after clearing toe hold grip and extracting endangered leg
+- **[[Positions/Half Guard]]** - Common recovery position for bottom player after clearing toe hold grip and extracting endangered leg
 
-- **[[Ashi Garami]]** - Parent positional category governing entry mechanics and fundamental leg entanglement control principles
+- **[[Positions/Ashi Garami]]** - Parent positional category governing entry mechanics and fundamental leg entanglement control principles
 
-- **[[Leg Entanglement]]** - Fundamental positional category encompassing all ashi-based configurations and leg control scenarios
+- **[[Positions/Leg Entanglement]]** - Fundamental positional category encompassing all ashi-based configurations and leg control scenarios
 
-- **[[Open Guard]]** - General guard category that bottom player seeks to recover after escaping toe hold control entirely
+- **[[Positions/Open Guard]]** - General guard category that bottom player seeks to recover after escaping toe hold control entirely
 
 
 </section>

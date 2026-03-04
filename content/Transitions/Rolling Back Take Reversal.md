@@ -21,7 +21,7 @@ This reversal represents a high-risk, high-reward option in the back defense hie
 
 Strategically, this escape works best against opponents who squeeze aggressively with the body triangle while hunting for chokes. Their focus on the submission creates momentary lapses in base maintenance, providing the window needed to execute the roll. The technique is particularly effective in no-gi where friction is reduced and rolling mechanics are more fluid.
 
-**From Position**: [[Body Triangle]] (Top)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
 **Success Rate**: 48%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape works best against opponents who squeeze aggressively
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Body Triangle]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Back Control/Body Triangle]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Rolling Back Take Reversal occupies a unique space in the back defense hiera
 ## Related Techniques
 
 
-- [[Body Triangle]] - Starting position - opponent's leg control you're escaping from
+- [[Positions/Back Control/Body Triangle]] - Starting position - opponent's leg control you're escaping from
 
-- [[Back Control]] - Target position - the dominant control you achieve on successful completion
+- [[Positions/Back Control]] - Target position - the dominant control you achieve on successful completion
 
-- [[Back Door Escape]] - Alternative - standard escape option when rolling reversal isn't available
+- [[Transitions/Back Door Escape]] - Alternative - standard escape option when rolling reversal isn't available
 
-- [[Hip Escape to Turtle]] - Alternative - safer escape option requiring less commitment
+- [[Transitions/Hip Escape to Turtle]] - Alternative - safer escape option requiring less commitment
 
-- [[Rear Naked Choke]] - Follow-up - primary attack after securing back control
+- [[Transitions/Rear Naked Choke]] - Follow-up - primary attack after securing back control
 
-- [[Harness]] - Related control - grip you establish after completing the roll
+- [[Positions/Harness]] - Related control - grip you establish after completing the roll
 
-- [[Turtle]] - Bail-out position - where you end up if opponent releases triangle mid-roll
+- [[Positions/Turtle]] - Bail-out position - where you end up if opponent releases triangle mid-roll
 
-- [[Granby Roll to Guard]] - Related technique - similar rolling mechanics used in guard recovery
+- [[Transitions/Granby Roll to Guard]] - Related technique - similar rolling mechanics used in guard recovery
 
-- [[Armbar from Back Transition]] - Opponent attack that creates the timing window for this reversal
+- [[Transitions/Armbar from Back Transition]] - Opponent attack that creates the timing window for this reversal
 
-- [[Back Control Maintenance]] - Opponent's retention technique that this reversal circumvents
+- [[Transitions/Back Control Maintenance]] - Opponent's retention technique that this reversal circumvents
 
 
 </section>

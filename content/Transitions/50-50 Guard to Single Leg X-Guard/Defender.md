@@ -156,7 +156,7 @@ Defending the 50-50 Guard to Single Leg X-Guard transition requires the top play
 
 The defender's strategic framework centers on a simple principle: the transitioning player cannot simultaneously extract their leg and defend their heel. When they commit to the extraction hip escape, their heel becomes more accessible. When they focus on heel defense, they cannot complete the extraction. Your job is to recognize which phase they are in and attack the vulnerability of that phase. Early recognition of the hip escape motion is the single most important defensive skill, as it gives you the reaction time needed to choose the optimal counter.
 
-**Opponent's Starting Position**: [[50-50 Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The defender's strategic framework centers on a simple principle: the transition
 ### 1. Drive hips forward and increase pressure to collapse extraction space
 
 - **When to use**: Immediately when you feel opponent's lateral hip escape beginning, before they establish the extraction angle
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Opponent's hip escape is neutralized, they remain flat in 50-50 bottom, and you maintain top position with submission opportunities
 - **Risk**: If opponent has already established significant angle, your forward drive may load your weight onto their establishing hooks, accelerating their transition to Single Leg X-Guard
 
 ### 2. Attack opponent's heel aggressively during extraction when their defensive structure is compromised
 
 - **When to use**: When opponent has begun the extraction motion and their knee rotation changes during the movement, momentarily exposing the heel
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Opponent is forced to abort transition and return to heel defense, resetting to original 50-50 position where you maintain dominant top control
 - **Risk**: If opponent's heel is genuinely well-hidden and you overcommit to the heel chase, you may sacrifice positional control and inside position
 
 ### 3. Backstep and disengage from leg entanglement to reset to standing or top passing position
 
 - **When to use**: When opponent has already established significant extraction angle and continuing the 50-50 battle is becoming disadvantageous
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You escape the leg entanglement entirely and reset to a neutral or advantageous standing position, avoiding the Single Leg X-Guard sweep platform
 - **Risk**: Concedes the leg entanglement battle entirely and opponent may follow with technical stand-up or guard pull to re-engage on favorable terms
 
 ### 4. Tighten inside leg control and re-triangle your legs around opponent's trapped leg
 
 - **When to use**: Early in the extraction attempt when opponent's outside leg has not yet cleared the entanglement
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Opponent's extraction is physically blocked by your leg configuration, forcing them to abandon the attempt and remain in 50-50 bottom
 - **Risk**: If you focus exclusively on leg re-triangling, you may miss the opportunity to attack their temporarily exposed heel
 
@@ -227,11 +227,11 @@ The defender's strategic framework centers on a simple principle: the transition
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Drive hips forward at the first sign of hip escape motion to collapse the extraction space. Simultaneously tighten inside leg control and re-triangle your legs around opponent's trapped leg. This removes the angle they need and forces them back to flat 50-50 bottom position.
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 If opponent has already created significant extraction angle, disengage your legs from the entanglement by backstopping and establishing top position. Strip their ankle grip and reset to standing where you can choose to re-engage on your terms or pursue passing sequences.
 

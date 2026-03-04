@@ -21,7 +21,7 @@ This sweep is most effective when the top player commits weight forward or attem
 
 Strategically, this technique creates a fundamental dilemma for the top player: pressure forward and feed the underhook sweep, or posture away and expose back takes and Old School variations. This push-pull dynamic makes pocket half guard a dangerous attacking platform where no safe equilibrium exists for the passer, and the underhook sweep is the primary tool that punishes forward commitment.
 
-**From Position**: [[Pocket Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Pocket Half Guard]] (Bottom)
 **Success Rate**: 43%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this technique creates a fundamental dilemma for the top player: 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 43% |
-| Failure | [[Pocket Half Guard]] | 35% |
-| Counter | [[Side Control]] | 22% |
+| Success | [[Positions/Side Control]] | 43% |
+| Failure | [[Positions/Half Guard/Pocket Half Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 22% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Underhook Sweep from Pocket Half Guard occupies a central role in the half g
 ## Related Techniques
 
 
-- [[Pocket Half Guard]] - Starting position - sweep is initiated from pocket half guard bottom with deep underhook
+- [[Positions/Half Guard/Pocket Half Guard]] - Starting position - sweep is initiated from pocket half guard bottom with deep underhook
 
-- [[Side Control]] - Primary target position on successful sweep completion
+- [[Positions/Side Control]] - Primary target position on successful sweep completion
 
-- [[Half Guard]] - Parent position category - pocket half is a specialized half guard variant
+- [[Positions/Half Guard]] - Parent position category - pocket half is a specialized half guard variant
 
-- [[Deep Half Guard]] - Alternative transition when opponent's pressure prevents the come-up sweep
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition when opponent's pressure prevents the come-up sweep
 
-- [[Old School]] - Complementary sweep from the same position creating an either-or dilemma for the top player
+- [[Positions/Half Guard/Old School]] - Complementary sweep from the same position creating an either-or dilemma for the top player
 
-- [[Dogfight Position]] - Intermediate position when sweep stalls midway through the come-up
+- [[Positions/Dogfight Position]] - Intermediate position when sweep stalls midway through the come-up
 
-- [[Back Control]] - Alternative attack target from the same underhook position when sweep is defended
+- [[Positions/Back Control]] - Alternative attack target from the same underhook position when sweep is defended
 
-- [[Flattened Half Guard]] - Risk position if underhook is lost and opponent flattens during sweep attempt
+- [[Positions/Half Guard/Flattened Half Guard]] - Risk position if underhook is lost and opponent flattens during sweep attempt
 
-- [[Knee Shield Half Guard]] - Recovery position when pocket half guard is compromised
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Recovery position when pocket half guard is compromised
 
-- [[Dogfight Sweep]] - Follow-up sweep technique if initial come-up transitions to dogfight
+- [[Transitions/Dogfight Sweep]] - Follow-up sweep technique if initial come-up transitions to dogfight
 
-- [[Sweep from Pocket Half Guard]] - Related sweep variation from the same starting position
+- [[Transitions/Sweep from Pocket Half Guard]] - Related sweep variation from the same starting position
 
 
 </section>

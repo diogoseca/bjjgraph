@@ -180,7 +180,7 @@ description: "How to execute the Leg Weave Pass in BJJ. Complete attacking guide
 
 The Leg Weave Pass is executed from half guard top by threading your inside leg between and over the opponent's legs while maintaining crushing upper body pressure. The technique creates a configuration where your shin pins both of the opponent's legs flat to the mat, eliminating their hip mobility and guard retention ability. The pass proceeds through three distinct phases: establishing upper body control with crossface and hip grip, completing the leg weave to immobilize the opponent's lower body, and extracting the trapped leg to finish in side control. Each phase must be completed methodically before advancing to the next. The key mechanical insight is that the weave transfers leg control responsibility from your trapped leg to your free leg, allowing you to extract the trapped leg without the opponent being able to re-engage their guard.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The Leg Weave Pass is executed from half guard top by threading your inside leg 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 60% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 60% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -245,11 +245,11 @@ The Leg Weave Pass is executed from half guard top by threading your inside leg 
 
 ## Opponent Counters
 
-- **Opponent bridges explosively as you begin the weave** (Effectiveness: Medium) - Your Response: Anticipate the bridge by keeping your base wide and your hips low. When they bridge, use their momentum to complete the weave more quickly as their legs momentarily lighten. If they create excessive space, transition to a knee slice pass instead of forcing the weave. → Leads to [[Half Guard]]
-- **Opponent secures a deep underhook on the near side** (Effectiveness: High) - Your Response: If they get the underhook before you establish the weave, abandon this pass and address the underhook first. Use a whizzer to control their arm, switch your passing direction to the opposite side, or transition to a different passing approach. Never force the weave against a deep underhook as it exposes you to sweeps and back takes. → Leads to [[Half Guard]]
-- **Opponent shrimps away repeatedly as you thread the leg** (Effectiveness: Medium) - Your Response: Follow their hip movement while maintaining pressure with your entire body, not just your legs. Each time they shrimp, advance your position slightly and reset your crossface and hip control. The key is moving your whole body forward as a unit rather than chasing with just your legs. → Leads to [[Half Guard]]
-- **Opponent inserts knee shield before weave is completed** (Effectiveness: High) - Your Response: If the knee shield is inserted early, switch to the knee shield leg weave variation. Use your crossface-side hand to push their knee down toward their bottom leg, then re-initiate the threading sequence. Alternatively, abandon the weave and chain to a smash pass or long step pass that addresses the knee shield directly. → Leads to [[Half Guard]]
-- **Opponent rolls for a leg lock as you establish the weave** (Effectiveness: Low) - Your Response: Your weaved leg position provides excellent defense against most leg attack attempts from bottom half guard because the weave creates a natural entanglement that protects your knee line. Maintain heavy top pressure and keep your leg woven. If they commit to rolling, follow their rotation and establish a more dominant position or take the back. → Leads to [[Side Control]]
+- **Opponent bridges explosively as you begin the weave** (Effectiveness: Medium) - Your Response: Anticipate the bridge by keeping your base wide and your hips low. When they bridge, use their momentum to complete the weave more quickly as their legs momentarily lighten. If they create excessive space, transition to a knee slice pass instead of forcing the weave. → Leads to [[Positions/Half Guard]]
+- **Opponent secures a deep underhook on the near side** (Effectiveness: High) - Your Response: If they get the underhook before you establish the weave, abandon this pass and address the underhook first. Use a whizzer to control their arm, switch your passing direction to the opposite side, or transition to a different passing approach. Never force the weave against a deep underhook as it exposes you to sweeps and back takes. → Leads to [[Positions/Half Guard]]
+- **Opponent shrimps away repeatedly as you thread the leg** (Effectiveness: Medium) - Your Response: Follow their hip movement while maintaining pressure with your entire body, not just your legs. Each time they shrimp, advance your position slightly and reset your crossface and hip control. The key is moving your whole body forward as a unit rather than chasing with just your legs. → Leads to [[Positions/Half Guard]]
+- **Opponent inserts knee shield before weave is completed** (Effectiveness: High) - Your Response: If the knee shield is inserted early, switch to the knee shield leg weave variation. Use your crossface-side hand to push their knee down toward their bottom leg, then re-initiate the threading sequence. Alternatively, abandon the weave and chain to a smash pass or long step pass that addresses the knee shield directly. → Leads to [[Positions/Half Guard]]
+- **Opponent rolls for a leg lock as you establish the weave** (Effectiveness: Low) - Your Response: Your weaved leg position provides excellent defense against most leg attack attempts from bottom half guard because the weave creates a natural entanglement that protects your knee line. Maintain heavy top pressure and keep your leg woven. If they commit to rolling, follow their rotation and establish a more dominant position or take the back. → Leads to [[Positions/Side Control]]
 
 
 </section>

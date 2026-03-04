@@ -180,7 +180,7 @@ description: "Master the Body Lock Takedown from the attacker's perspective. Det
 
 The Body Lock Takedown from the attacker's perspective is a systematic process of converting standing body lock control into a dominant ground position. The technique begins with an already-established body lock where chest-to-back connection and locked grip are maintained. The attacker's objective is to break the opponent's base through strategic foot placement, directional hip pressure, and controlled driving force that collapses the defender's stance and brings them to the mat. Success depends on reading the defender's weight distribution to choose the optimal angle of attack, maintaining the locked grip throughout the entire descent, and immediately transitioning to side control upon landing before the defender can establish guard. The attacker must commit decisively once the takedown is initiated while remaining responsive to defensive reactions that may require mid-execution adjustments to angle or force direction.
 
-**From Position**: [[Body Lock]] (Top)
+**From Position**: [[Positions/Body Lock]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The Body Lock Takedown from the attacker's perspective is a systematic process o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Body Lock]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Body Lock]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,9 +243,9 @@ The Body Lock Takedown from the attacker's perspective is a systematic process o
 
 ## Opponent Counters
 
-- **Opponent sprawls explosively, dropping hips away and widening base to resist forward drive** (Effectiveness: High) - Your Response: Switch from forward drive to lateral angle change. Step to the opposite side and redirect driving force where the sprawl has not created resistance. If the sprawl is deep, transition to a mat return by pulling them backward or switch to body lock pass if they turtle. → Leads to [[Body Lock]]
-- **Opponent executes hip switch reversal, using your forward momentum to rotate and drive you off-balance** (Effectiveness: Medium) - Your Response: Recognize the hip switch early by feeling the rotational force and immediately square your hips to eliminate the turning angle. Re-drive forward pressure with chest connection before the reversal develops. If caught mid-reversal, release the lock and fight for top position during the scramble. → Leads to [[Half Guard]]
-- **Opponent drops weight and widens base significantly, creating an immovable low stance that resists forward and lateral drives** (Effectiveness: Medium) - Your Response: Transition from a driving takedown to a lift-based approach. Drive your hips under their center of gravity and elevate slightly before redirecting sideways. Alternatively, use the stalemate to re-establish hip pressure and set up a different attack angle where their widened stance creates vulnerability. → Leads to [[Body Lock]]
+- **Opponent sprawls explosively, dropping hips away and widening base to resist forward drive** (Effectiveness: High) - Your Response: Switch from forward drive to lateral angle change. Step to the opposite side and redirect driving force where the sprawl has not created resistance. If the sprawl is deep, transition to a mat return by pulling them backward or switch to body lock pass if they turtle. → Leads to [[Positions/Body Lock]]
+- **Opponent executes hip switch reversal, using your forward momentum to rotate and drive you off-balance** (Effectiveness: Medium) - Your Response: Recognize the hip switch early by feeling the rotational force and immediately square your hips to eliminate the turning angle. Re-drive forward pressure with chest connection before the reversal develops. If caught mid-reversal, release the lock and fight for top position during the scramble. → Leads to [[Positions/Half Guard]]
+- **Opponent drops weight and widens base significantly, creating an immovable low stance that resists forward and lateral drives** (Effectiveness: Medium) - Your Response: Transition from a driving takedown to a lift-based approach. Drive your hips under their center of gravity and elevate slightly before redirecting sideways. Alternatively, use the stalemate to re-establish hip pressure and set up a different attack angle where their widened stance creates vulnerability. → Leads to [[Positions/Body Lock]]
 
 
 </section>

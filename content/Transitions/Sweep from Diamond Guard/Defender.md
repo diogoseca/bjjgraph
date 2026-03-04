@@ -154,7 +154,7 @@ description: "Learn to defend the Sweep from Diamond Guard in BJJ. Recognition c
 
 Defending the Sweep from Diamond Guard requires recognizing the guard player's preparatory movements before the explosive sit-up phase begins. The defender's primary challenge is that the diamond frame has already eliminated one of their posting arms through the overhook, significantly reducing their ability to resist the sweep through standard posting mechanics. Effective defense focuses on disrupting the sweep prerequisites — maintaining posture, preventing the hip angle, and keeping base wide enough to absorb the rotational force. The defender must address the sweep threat without abandoning defensive posture against the diamond guard submission chain, creating a dual-threat management challenge that demands systematic prioritization and awareness of which threat is most immediate.
 
-**Opponent's Starting Position**: [[Diamond Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard/Diamond Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Sweep from Diamond Guard requires recognizing the guard player's p
 ### 1. Drive hips back and sit on heels to deny forward weight distribution while maintaining posture
 
 - **When to use**: Early — when you feel the guard player angling hips or increasing pull tension before the explosive sit-up begins
-- **Targets**: [[Diamond Guard]]
+- **Targets**: [[Positions/Closed Guard/Diamond Guard]]
 - **If successful**: Guard player cannot generate sufficient momentum for the sit-up because your weight is centered back rather than forward over their frame
 - **Risk**: Extending posture backward may open space for submission entries as the diamond frame becomes less effective at breaking posture
 
 ### 2. Post free hand wide on the mat on the sweep side to create a structural brace against rotation
 
 - **When to use**: During the sit-up phase when you feel your weight being driven off-center toward the overhook side
-- **Targets**: [[Diamond Guard]]
+- **Targets**: [[Positions/Closed Guard/Diamond Guard]]
 - **If successful**: Posted hand prevents the rotation from completing, allowing you to drive weight back down into the guard player and re-settle
 - **Risk**: Posted arm becomes isolated and vulnerable to kimura or triangle entry if the guard player switches from sweep to submission attack
 
 ### 3. Strip the overhook by circling your trapped arm downward and pulling it back across your body
 
 - **When to use**: Before the sweep is initiated — proactively reducing the diamond frame's effectiveness and restoring base symmetry
-- **Targets**: [[Diamond Guard]]
+- **Targets**: [[Positions/Closed Guard/Diamond Guard]]
 - **If successful**: Restoring posting ability on both sides eliminates the asymmetric base weakness the sweep exploits entirely
 - **Risk**: Grip fighting to strip the overhook may momentarily compromise your base, creating the very weight shift the guard player needs for the sweep
 
 ### 4. Drive crossface and sprawl legs back to flatten the guard player and kill the sit-up motion
 
 - **When to use**: When you feel the guard player beginning to sit up — aggressive forward pressure counters the upward momentum directly
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Flattening the guard player prevents the sit-up and may create guard passing opportunities if their guard opens during the failed sweep
 - **Risk**: Aggressive forward drive can be redirected by the guard player to accelerate the sweep rotation if the timing is poorly matched
 
@@ -225,11 +225,11 @@ Defending the Sweep from Diamond Guard requires recognizing the guard player's p
 
 ## Best-Case Outcomes for Defender
 
-### → [[Diamond Guard]]
+### → [[Positions/Closed Guard/Diamond Guard]]
 
 Deny the sweep by sitting back on heels and maintaining low center of gravity while systematically working to strip the overhook and restore posting ability on both sides
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Counter the sweep attempt by driving crossface and sprawling aggressively as the guard player opens their legs during the failed sweep, passing directly to side control during the transitional moment when guard structure is broken
 

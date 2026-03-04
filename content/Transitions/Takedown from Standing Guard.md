@@ -21,7 +21,7 @@ The standing guard exchange provides specific grip configurations that must be s
 
 Success requires integrating wrestling fundamentals with BJJ-specific tactical awareness: recognizing when the opponent loads weight forward (susceptible to snap-downs and go-behinds), when they retreat (susceptible to level-change entries), and when they maintain static balance (requiring combination attacks to create necessary reactions). The finishing mechanics differ from pure wrestling because the bottom player's guard retention abilities mean many successful takedowns land in half guard rather than side control, making the ability to immediately transition to passing from the landing position an essential extension of the takedown itself.
 
-**From Position**: [[Standing Guard]] (Top)
+**From Position**: [[Positions/Standing Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ Success requires integrating wrestling fundamentals with BJJ-specific tactical a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 20% |
-| Success | [[Half Guard]] | 35% |
-| Failure | [[Standing Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Failure | [[Positions/Standing Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -196,25 +196,25 @@ The Takedown from Standing Guard integrates into the broader BJJ positional hier
 ## Related Techniques
 
 
-- [[Standing Position]] - Base standing posture before entering the standing guard exchange
+- [[Positions/Standing Position]] - Base standing posture before entering the standing guard exchange
 
-- [[Half Guard]] - Most common landing position after successful takedown completion
+- [[Positions/Half Guard]] - Most common landing position after successful takedown completion
 
-- [[Side Control]] - Target position when takedown finishes cleanly past opponent's guard retention
+- [[Positions/Side Control]] - Target position when takedown finishes cleanly past opponent's guard retention
 
-- [[Clinch]] - Close-range standing engagement that often precedes body lock takedown entries
+- [[Positions/Clinch]] - Close-range standing engagement that often precedes body lock takedown entries
 
-- [[Double Leg Finish]] - Related bilateral leg takedown technique with similar penetration mechanics
+- [[Transitions/Double Leg Finish]] - Related bilateral leg takedown technique with similar penetration mechanics
 
-- [[Single Leg Entry]] - Alternative single-leg takedown approach from standing engagement
+- [[Transitions/Single Leg Entry]] - Alternative single-leg takedown approach from standing engagement
 
-- [[Level Change Takedown]] - Core mechanic shared across all penetration-based takedown entries
+- [[Transitions/Level Change Takedown]] - Core mechanic shared across all penetration-based takedown entries
 
-- [[Body Lock Takedown]] - Alternative close-range takedown using body clinch rather than leg attacks
+- [[Transitions/Body Lock Takedown]] - Alternative close-range takedown using body clinch rather than leg attacks
 
-- [[Ankle Pick]] - Lower-commitment takedown option available from standing guard grip fighting
+- [[Transitions/Ankle Pick]] - Lower-commitment takedown option available from standing guard grip fighting
 
-- [[Sprawl Defense]] - Primary defensive counter that opponents use against takedown attempts
+- [[Transitions/Sprawl Defense]] - Primary defensive counter that opponents use against takedown attempts
 
 
 </section>

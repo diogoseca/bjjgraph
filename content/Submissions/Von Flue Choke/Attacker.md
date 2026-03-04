@@ -237,8 +237,8 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -247,10 +247,10 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 ## Opponent Defenses
 
-- **Releasing the guillotine grip immediately** (Effectiveness: High) - Your Response: This is the desired outcome—maintain side control and continue your passing or submission attack from the improved position. Do not continue applying pressure once they release. → Leads to [[Side Control]]
-- **Attempting to turn into you to recover guard** (Effectiveness: Low) - Your Response: Your crossface and hip control should prevent this entirely. If they create any turning motion, increase your crossface pressure and walk your hips higher to shut down the movement. → Leads to [[Half Guard]]
-- **Using legs to push your hips away and create distance** (Effectiveness: Medium) - Your Response: Counter by walking your hips even higher toward their head, which removes their leverage to push. Alternatively, if they successfully create distance, transition to mount while maintaining shoulder pressure. → Leads to [[Side Control]]
-- **Switching to a different grip or attempting to re-guard** (Effectiveness: Medium) - Your Response: As soon as they release the original guillotine grip, immediately remove the Von Flue pressure and consolidate your side control position. Don't give them time to establish a new defensive structure. → Leads to [[Side Control]]
+- **Releasing the guillotine grip immediately** (Effectiveness: High) - Your Response: This is the desired outcome—maintain side control and continue your passing or submission attack from the improved position. Do not continue applying pressure once they release. → Leads to [[Positions/Side Control]]
+- **Attempting to turn into you to recover guard** (Effectiveness: Low) - Your Response: Your crossface and hip control should prevent this entirely. If they create any turning motion, increase your crossface pressure and walk your hips higher to shut down the movement. → Leads to [[Positions/Half Guard]]
+- **Using legs to push your hips away and create distance** (Effectiveness: Medium) - Your Response: Counter by walking your hips even higher toward their head, which removes their leverage to push. Alternatively, if they successfully create distance, transition to mount while maintaining shoulder pressure. → Leads to [[Positions/Side Control]]
+- **Switching to a different grip or attempting to re-guard** (Effectiveness: Medium) - Your Response: As soon as they release the original guillotine grip, immediately remove the Von Flue pressure and consolidate your side control position. Don't give them time to establish a new defensive structure. → Leads to [[Positions/Side Control]]
 
 
 </section>

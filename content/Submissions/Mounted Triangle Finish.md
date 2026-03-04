@@ -26,8 +26,8 @@ Strategically, the mounted triangle finish creates a layered dilemma for the def
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Neck
-**Starting Position**: [[Mounted Triangle]]
-**From Position**: [[Mounted Triangle]] (Top)
+**Starting Position**: [[Positions/Mount/Mounted Triangle]]
+**From Position**: [[Positions/Mount/Mounted Triangle]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -78,9 +78,9 @@ Strategically, the mounted triangle finish creates a layered dilemma for the def
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Mounted Triangle]] | 30% |
-| Counter | [[Mount]] | 15% |
-| Counter | [[Closed Guard]] | 5% |
+| Failure | [[Positions/Mount/Mounted Triangle]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 5% |
 
 
 </section>
@@ -228,10 +228,10 @@ Strategically, the mounted triangle finish creates a layered dilemma for the def
 
 ## From Which Positions?
 
-- [[Mounted Triangle]]
-- [[Mount]]
-- [[High Mount]]
-- [[S Mount]]
+- [[Positions/Mount/Mounted Triangle]]
+- [[Positions/Mount]]
+- [[Positions/Mount/High Mount]]
+- [[Positions/Mount/S Mount]]
 
 
 </section>
@@ -240,13 +240,13 @@ Strategically, the mounted triangle finish creates a layered dilemma for the def
 
 ## Related Submissions
 
-- [[Armbar from High Mount]]
-- [[Armbar from S Mount]]
-- [[Armbar from Mount]]
-- [[Cross Collar Choke from High Mount]]
-- [[Ezekiel from Mount]]
-- [[Mounted Crucifix Armbar]]
-- [[Gogoplata Finish]]
+- [[Submissions/Armbar from High Mount]]
+- [[Submissions/Armbar from S Mount]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Cross Collar Choke from High Mount]]
+- [[Submissions/Ezekiel from Mount]]
+- [[Submissions/Mounted Crucifix Armbar]]
+- [[Submissions/Gogoplata Finish]]
 
 
 </section>
@@ -255,13 +255,13 @@ Strategically, the mounted triangle finish creates a layered dilemma for the def
 
 ## Additional Related Content
 
-- [[Mounted Triangle]] - Starting control position from which the mounted triangle finish is executed
-- [[High Mount]] - Primary entry position for establishing the mounted triangle configuration
-- [[Mount]] - Parent position from which the mounted triangle develops through progressive advancement
-- [[S Mount]] - Alternative mount variation that enables triangle setup through asymmetric leg positioning
-- [[Back Control]] - Common transition target when opponent turns to escape the mounted triangle finish
-- [[Armbar Control]] - Alternative submission target when opponent defends the triangle by extracting their arm
-- [[Gift Wrap]] - Arm control position that facilitates mounted triangle entry and arm isolation
+- [[Positions/Mount/Mounted Triangle]] - Starting control position from which the mounted triangle finish is executed
+- [[Positions/Mount/High Mount]] - Primary entry position for establishing the mounted triangle configuration
+- [[Positions/Mount]] - Parent position from which the mounted triangle develops through progressive advancement
+- [[Positions/Mount/S Mount]] - Alternative mount variation that enables triangle setup through asymmetric leg positioning
+- [[Positions/Back Control]] - Common transition target when opponent turns to escape the mounted triangle finish
+- [[Positions/Armbar Control]] - Alternative submission target when opponent defends the triangle by extracting their arm
+- [[Positions/Gift Wrap]] - Arm control position that facilitates mounted triangle entry and arm isolation
 
 
 </section>

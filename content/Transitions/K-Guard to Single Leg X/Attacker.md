@@ -186,7 +186,7 @@ description: "Master the K-Guard to Single Leg X transition as the attacking gua
 
 As the K-Guard bottom player transitioning to Single Leg X, your primary objective is to convert your existing hook connections into the SLX configuration that offers superior sweeping leverage and direct leg lock access. This transition requires reading your opponent's weight distribution and movement patterns to identify the optimal moment for hook reconfiguration. The key insight is that the opponent's defensive responses to K-Guard—posturing up, creating distance, attempting to extract their trapped leg—all create the exact conditions you need for a successful SLX entry. Your job is to follow their movement rather than force the transition, using their defensive energy against them to establish the more dangerous position. Success depends on maintaining constant leg connection throughout the hook transfer, preventing any gap where the opponent could disengage entirely.
 
-**From Position**: [[K-Guard]] (Bottom)
+**From Position**: [[Positions/K-Guard]] (Bottom)
 
 </section>
 
@@ -241,9 +241,9 @@ As the K-Guard bottom player transitioning to Single Leg X, your primary objecti
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 55% |
-| Failure | [[K-Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 55% |
+| Failure | [[Positions/K-Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -252,10 +252,10 @@ As the K-Guard bottom player transitioning to Single Leg X, your primary objecti
 
 ## Opponent Counters
 
-- **Opponent backsteps immediately upon recognizing hook reconfiguration, extracting trapped leg before SLX is established** (Effectiveness: High) - Your Response: Follow their backstep by maintaining ankle connection and transitioning to seated guard or De La Riva hook on their stepping leg. If you maintain any hook connection during the backstep, continue pursuing SLX on the new angle. → Leads to [[Open Guard]]
-- **Opponent drives heavy forward pressure to flatten hooks before you can complete the transition to SLX** (Effectiveness: Medium) - Your Response: Accept the forward pressure and redirect it into a Deep Half Guard entry instead of fighting for SLX. Their forward commitment makes Deep Half the higher-percentage option. Alternatively, use their forward pressure to attempt a K-Guard sweep directly. → Leads to [[K-Guard]]
-- **Opponent grabs your transitioning inside leg at the knee and pushes it to the mat, preventing the ankle wrap from establishing** (Effectiveness: High) - Your Response: Use your outside hook to maintain elevation and threaten a butterfly-style sweep, forcing them to release the knee control to base. This reopens the SLX entry. Alternatively, switch to an X-Guard entry using both legs on the same side. → Leads to [[K-Guard]]
-- **Opponent widens base and lowers hips during the transition, making it difficult to achieve proper elevation in SLX** (Effectiveness: Medium) - Your Response: Use a hip scoot combined with collar or sleeve pulls to break their posture forward over your hooks. Their widened base reduces lateral stability, so direct the off-balancing force sideways rather than backward for sweep completion. → Leads to [[K-Guard]]
+- **Opponent backsteps immediately upon recognizing hook reconfiguration, extracting trapped leg before SLX is established** (Effectiveness: High) - Your Response: Follow their backstep by maintaining ankle connection and transitioning to seated guard or De La Riva hook on their stepping leg. If you maintain any hook connection during the backstep, continue pursuing SLX on the new angle. → Leads to [[Positions/Open Guard]]
+- **Opponent drives heavy forward pressure to flatten hooks before you can complete the transition to SLX** (Effectiveness: Medium) - Your Response: Accept the forward pressure and redirect it into a Deep Half Guard entry instead of fighting for SLX. Their forward commitment makes Deep Half the higher-percentage option. Alternatively, use their forward pressure to attempt a K-Guard sweep directly. → Leads to [[Positions/K-Guard]]
+- **Opponent grabs your transitioning inside leg at the knee and pushes it to the mat, preventing the ankle wrap from establishing** (Effectiveness: High) - Your Response: Use your outside hook to maintain elevation and threaten a butterfly-style sweep, forcing them to release the knee control to base. This reopens the SLX entry. Alternatively, switch to an X-Guard entry using both legs on the same side. → Leads to [[Positions/K-Guard]]
+- **Opponent widens base and lowers hips during the transition, making it difficult to achieve proper elevation in SLX** (Effectiveness: Medium) - Your Response: Use a hip scoot combined with collar or sleeve pulls to break their posture forward over your hooks. Their widened base reduces lateral stability, so direct the off-balancing force sideways rather than backward for sweep completion. → Leads to [[Positions/K-Guard]]
 
 
 </section>

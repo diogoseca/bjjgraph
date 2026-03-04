@@ -158,7 +158,7 @@ The defender's advantage lies in understanding the sequence: the bottom player m
 
 Strategically, the most effective defense combines grip denial with offensive pressure. Rather than passively resisting the drag, use the bottom player's commitment to their arm drag grips as an opportunity to advance your own position—switching to guillotine, spinning to back control, or driving them flat. A reactive defender who only tries to hold position will eventually lose to a persistent arm dragger; a proactive defender who punishes the attempt forces the bottom player into a lose-lose scenario.
 
-**Opponent's Starting Position**: [[Front Headlock]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Strategically, the most effective defense combines grip denial with offensive pr
 ### 1. Retract choking arm and sprawl hips back immediately upon feeling two-on-one grip acquisition, pulling your elbow tight to your ribs and extending your hips away from their reach
 
 - **When to use**: Early in the sequence when you feel their hands beginning to isolate your choking arm but before the drag has been initiated
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You deny the grip foundation of the escape and maintain front headlock control with your opponent unable to complete the drag mechanics
 - **Risk**: Sprawling back reduces your forward pressure, which may open opportunities for technical standup or granby roll escapes instead
 
 ### 2. Switch to guillotine grip by tightening your choking arm around their neck and locking your hands as they expose their neck during the drag attempt, converting their escape into a submission threat
 
 - **When to use**: When you feel the drag initiating and their head begins to move laterally, exposing their neck during the transition between positions
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You catch a guillotine choke or at minimum force them to abandon the arm drag to defend the choke, returning to a defensive survival posture
 - **Risk**: If the drag is already past the point of no return, attempting the guillotine may fail and you lose both the headlock and the choke position
 
 ### 3. Release head control and spin behind them to take back control as they commit to the lateral drag movement, using their lateral commitment against them to circle to their back
 
 - **When to use**: When the drag has been partially completed and your choking arm is being pulled across but their head has not yet fully cleared your control
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You convert the escape attempt into a back take, establishing seatbelt control and hooks while they are oriented laterally and unable to face you
 - **Risk**: If they maintain the two-on-one grip on your arm while you spin, they can use it to control your arm and prevent seatbelt establishment, leading to a scramble
 
 ### 4. Drive forward and flatten them to the mat by posting your free hand and driving chest pressure down, collapsing their base before they can complete the angular hip movement
 
 - **When to use**: When you feel their hips beginning to rotate but they have not yet generated enough momentum to complete the head circle
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You collapse their turtle base flat to the mat, eliminating their ability to generate the hip movement and torso rotation needed for the drag
 - **Risk**: Driving forward commits your weight and may provide additional leverage for their drag if they time it correctly against your forward momentum
 
@@ -229,11 +229,11 @@ Strategically, the most effective defense combines grip denial with offensive pr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Deny the two-on-one grip by retracting your choking arm early, sprawling hips back to remove forward leverage, or driving them flat to eliminate their angular hip movement. Maintain chest pressure and re-establish your choking arm position once the attempt fails.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the arm drag is partially completed and you cannot retain front headlock, release head control and spin behind them using their lateral commitment against them. As they focus on dragging your arm across, circle to their back and establish seatbelt control before they can complete the guard recovery phase.
 

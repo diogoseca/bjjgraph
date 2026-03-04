@@ -21,7 +21,7 @@ The fundamental challenge of this recovery lies in the mechanical disadvantage c
 
 Strategically, half guard recovery is preferred over other escape options when your opponent begins a knee slice or pressure pass, as their forward movement creates the exact space you need to insert your knee. The position you recover to - ideally knee shield half guard - gives you immediate offensive threats including underhook battles, sweeps, and leg lock entries. This makes the recovery not just a defensive technique but a positional reset that can shift momentum in your favor.
 
-**From Position**: [[Leg Drag Control]] (Bottom)
+**From Position**: [[Positions/Leg Drag Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, half guard recovery is preferred over other escape options when y
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Knee Shield Half Guard]] | 50% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Side Control]] | 10% |
+| Success | [[Positions/Half Guard/Knee Shield Half Guard]] | 50% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -188,27 +188,27 @@ Half Guard Recovery is a cornerstone defensive transition within the guard reten
 ## Related Techniques
 
 
-- [[Leg Drag Control]] - Starting position - the compromised state requiring recovery
+- [[Positions/Leg Drag Control]] - Starting position - the compromised state requiring recovery
 
-- [[Knee Shield Half Guard]] - Primary recovery target providing defensive stability and offensive options
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Primary recovery target providing defensive stability and offensive options
 
-- [[Half Guard]] - Alternative recovery position when full knee shield cannot be established
+- [[Positions/Half Guard]] - Alternative recovery position when full knee shield cannot be established
 
-- [[Deep Half Guard]] - Alternative recovery when knee shield is blocked by heavy forward pressure
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative recovery when knee shield is blocked by heavy forward pressure
 
-- [[Lockdown]] - Transitional control during recovery to stall opponent's passing progression
+- [[Positions/Half Guard/Lockdown]] - Transitional control during recovery to stall opponent's passing progression
 
-- [[Quarter Guard]] - Intermediate position during recovery before full half guard establishment
+- [[Positions/Quarter Guard]] - Intermediate position during recovery before full half guard establishment
 
-- [[Granby Roll to Guard]] - Alternative escape pathway when half guard recovery fails
+- [[Transitions/Granby Roll to Guard]] - Alternative escape pathway when half guard recovery fails
 
-- [[Butterfly Hook Recovery]] - Alternative guard recovery option using butterfly hook insertion
+- [[Transitions/Butterfly Hook Recovery]] - Alternative guard recovery option using butterfly hook insertion
 
-- [[Back Control]] - Danger position if recovery timing fails and opponent backsteps
+- [[Positions/Back Control]] - Danger position if recovery timing fails and opponent backsteps
 
-- [[Side Control]] - Opponent's consolidation target if recovery fails completely
+- [[Positions/Side Control]] - Opponent's consolidation target if recovery fails completely
 
-- [[Knee Slice Pass]] - Opponent technique whose forward movement creates the recovery window
+- [[Transitions/Knee Slice Pass]] - Opponent technique whose forward movement creates the recovery window
 
 
 </section>

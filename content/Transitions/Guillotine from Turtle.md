@@ -19,7 +19,7 @@ The Guillotine from Turtle is a high-percentage submission setup that capitalize
 
 The guillotine from turtle represents a critical junction in modern grappling where the top player must decide between back attacks and front headlock submissions. Understanding this transition is essential for anyone developing a complete top game, as it creates a dilemma for the bottom player: defend the back or defend the neck. The technique's success rate increases dramatically with proper setup and grip configuration, making it one of the most reliable submissions from turtle position. The key insight is that turtle defense concentrates on preventing hook insertion and harness control, leaving the front of the neck relatively unprotected for the attacker who understands how to transition from back attacks to front headlock entries.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -30,9 +30,9 @@ The guillotine from turtle represents a critical junction in modern grappling wh
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Guillotine Control]] | 70% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Guillotine Control]] | 70% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -195,29 +195,29 @@ The guillotine from turtle is a critical component of the complete front headloc
 ## Related Techniques
 
 
-- [[Guillotine Choke]] - Primary submission finish from this transition
+- [[Transitions/Guillotine Choke]] - Primary submission finish from this transition
 
-- [[Front Headlock]] - Required control position before attempting technique
+- [[Positions/Front Headlock]] - Required control position before attempting technique
 
-- [[Guillotine Setup]] - Alternative setup methods for same submission
+- [[Transitions/Guillotine Setup]] - Alternative setup methods for same submission
 
-- [[Front Headlock to Guillotine]] - Related transition from same control position
+- [[Transitions/Front Headlock to Guillotine]] - Related transition from same control position
 
-- [[Darce from Turtle]] - Alternative submission from same starting position
+- [[Transitions/Darce from Turtle]] - Alternative submission from same starting position
 
-- [[Anaconda from Turtle]] - Alternative submission using similar mechanics
+- [[Transitions/Anaconda from Turtle]] - Alternative submission using similar mechanics
 
-- [[Turtle to Back Control]] - Alternative attack option from turtle top
+- [[Transitions/Turtle to Back Control]] - Alternative attack option from turtle top
 
-- [[Crucifix from Turtle]] - Follow-up position if guillotine is defended
+- [[Transitions/Crucifix from Turtle]] - Follow-up position if guillotine is defended
 
-- [[High Elbow Guillotine]] - Variation of the same submission technique
+- [[Submissions/High Elbow Guillotine]] - Variation of the same submission technique
 
-- [[Arm in Guillotine]] - Common variation when opponent traps arm defending
+- [[Submissions/Arm in Guillotine]] - Common variation when opponent traps arm defending
 
-- [[Turtle]] - Starting position for this transition
+- [[Positions/Turtle]] - Starting position for this transition
 
-- [[Guillotine Control]] - Ending position after successful transition
+- [[Positions/Guillotine Control]] - Ending position after successful transition
 
 
 </section>

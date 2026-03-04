@@ -212,23 +212,23 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 
 ## Available Escapes
 
-### [[Granby Roll to Guard]] (12% of attempts)
+### [[Transitions/Granby Roll to Guard]] (12% of attempts)
 
-### [[Technical Stand-up]] (10% of attempts)
+### [[Transitions/Technical Stand-up]] (10% of attempts)
 
-### [[Hip Escape to Guard]] (13% of attempts)
+### [[Transitions/Hip Escape to Guard]] (13% of attempts)
 
-### [[Frame and Shrimp to Guard]] (14% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (14% of attempts)
 
-### [[Arm Extraction to Turtle]] (31% of attempts)
+### [[Transitions/Arm Extraction to Turtle]] (31% of attempts)
 
-### [[Rolling to Guard]] (13% of attempts)
+### [[Transitions/Rolling to Guard]] (13% of attempts)
 
-### [[Escape Twister Side Control]] (4% of attempts)
+### [[Transitions/Escape Twister Side Control]] (4% of attempts)
 
-### [[Frame from Twister Side Control]] (2% of attempts)
+### [[Transitions/Frame from Twister Side Control]] (2% of attempts)
 
-### [[Turn In from Twister Side Control]] (1% of attempts)
+### [[Transitions/Turn In from Twister Side Control]] (1% of attempts)
 
 
 
@@ -244,18 +244,18 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 
 
 **If top player has shoulder control but incomplete leg entanglement:**
-- Execute **[[Leg Extraction]]** → [[Side Control]] (Probability: 45%)
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Leg Extraction]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If top player's weight is distributed unevenly or too far forward:**
-- Execute **[[Bridge and Roll]]** → [[Mount]] (Probability: 35%)
-- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 30%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Mount]] (Probability: 35%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 30%)
 
 
 **If bottom player successfully creates upper body frames and partial separation:**
-- Execute **[[Granby Roll to Guard]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 
@@ -389,13 +389,13 @@ Multiple rounds starting from twister side control bottom. Defender attempts ful
 
 ## Related Positions and Techniques
 
-- **[[Turtle]]** - Common transitional position when achieving partial escape from twister side control
-- **[[Side Control]]** - Traditional position sharing lateral control mechanics with different escape priorities
-- **[[Granby Roll to Guard]]** - Key escape technique for creating distance and recovering guard
-- **[[Half Guard]]** - Common recovery position after successful leg extraction
-- **[[Hip Escape to Guard]]** - Fundamental movement pattern adapted for escaping leg entanglement
-- **[[Technical Stand-up]]** - Advanced escape option when sufficient upper body separation is achieved
-- **[[Open Guard]]** - Recovery position achievable through successful shrimp escape sequences
+- **[[Positions/Turtle]]** - Common transitional position when achieving partial escape from twister side control
+- **[[Positions/Side Control]]** - Traditional position sharing lateral control mechanics with different escape priorities
+- **[[Transitions/Granby Roll to Guard]]** - Key escape technique for creating distance and recovering guard
+- **[[Positions/Half Guard]]** - Common recovery position after successful leg extraction
+- **[[Transitions/Hip Escape to Guard]]** - Fundamental movement pattern adapted for escaping leg entanglement
+- **[[Transitions/Technical Stand-up]]** - Advanced escape option when sufficient upper body separation is achieved
+- **[[Positions/Open Guard]]** - Recovery position achievable through successful shrimp escape sequences
 
 
 </section>

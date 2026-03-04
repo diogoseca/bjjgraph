@@ -22,8 +22,8 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (glenohumeral joint and rotator cuff)
-**Starting Position**: [[Williams Guard]]
-**From Position**: [[Williams Guard]] (Bottom)
+**Starting Position**: [[Positions/Williams Guard]]
+**From Position**: [[Positions/Williams Guard]] (Bottom)
 **Success Rate**: 52%
 
 </section>
@@ -78,8 +78,8 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Williams Guard]] | 25% |
-| Counter | [[Closed Guard]] | 20% |
+| Failure | [[Positions/Williams Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -230,14 +230,14 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 
 ## From Which Positions?
 
-- [[Williams Guard]]
-- [[Closed Guard]]
-- [[Rubber Guard]]
-- [[Overhook Guard]]
-- [[Half Guard]]
-- [[Butterfly Guard]]
-- [[Open Guard]]
-- [[Spider Guard]]
+- [[Positions/Williams Guard]]
+- [[Positions/Closed Guard]]
+- [[Positions/Rubber Guard]]
+- [[Positions/Overhook Guard]]
+- [[Positions/Half Guard]]
+- [[Positions/Butterfly Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/Spider Guard]]
 
 
 </section>
@@ -246,15 +246,15 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 
 ## Related Submissions
 
-- [[Kimura]]
-- [[Kimura from Guard]]
-- [[Omoplata]]
-- [[Omoplata from Guard]]
-- [[Tarikoplata]]
-- [[Baratoplata]]
-- [[Americana]]
-- [[Armbar from Guard]]
-- [[Gogoplata]]
+- [[Transitions/Kimura]]
+- [[Submissions/Kimura from Guard]]
+- [[Transitions/Omoplata]]
+- [[Submissions/Omoplata from Guard]]
+- [[Submissions/Tarikoplata]]
+- [[Transitions/Baratoplata]]
+- [[Transitions/Americana]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Gogoplata]]
 
 
 </section>
@@ -263,17 +263,17 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 
 ## Additional Related Content
 
-- [[Williams Guard]] - Primary position where this submission is executed
-- [[Overhook Guard]] - Essential control position for establishing the submission
-- [[Kimura]] - Alternative shoulder lock using different grip and angle
-- [[Omoplata]] - Natural transition when opponent defends by extracting arm
-- [[Kimura Trap]] - Strategic position incorporating overhook-based attacks
-- [[Rubber Guard]] - Related guard system using high leg control and shoulder attacks
-- [[Closed Guard]] - Foundation guard from which Williams Guard is often entered
-- [[Triangle Control]] - Alternative submission when opponent defends shoulder lock
-- [[Tarikoplata]] - Advanced shoulder lock with similar mechanics but different entry
-- [[Omoplata Control]] - Control position reached when transitioning from failed shoulder lock
-- [[Back Control]] - Dominant position achievable when opponent rolls to escape
+- [[Positions/Williams Guard]] - Primary position where this submission is executed
+- [[Positions/Overhook Guard]] - Essential control position for establishing the submission
+- [[Transitions/Kimura]] - Alternative shoulder lock using different grip and angle
+- [[Transitions/Omoplata]] - Natural transition when opponent defends by extracting arm
+- [[Positions/Kimura Trap]] - Strategic position incorporating overhook-based attacks
+- [[Positions/Rubber Guard]] - Related guard system using high leg control and shoulder attacks
+- [[Positions/Closed Guard]] - Foundation guard from which Williams Guard is often entered
+- [[Positions/Triangle Control]] - Alternative submission when opponent defends shoulder lock
+- [[Submissions/Tarikoplata]] - Advanced shoulder lock with similar mechanics but different entry
+- [[Positions/Omoplata Control]] - Control position reached when transitioning from failed shoulder lock
+- [[Positions/Back Control]] - Dominant position achievable when opponent rolls to escape
 
 
 </section>

@@ -21,7 +21,7 @@ The technique demands precise timing and full commitment. Initiating the roll to
 
 Strategically, the rolling escape sits within the broader anaconda defense hierarchy alongside grip breaking, framing, and posture recovery techniques. It serves as the go-to escape when initial hand fighting has failed to break the grip but the choke is not yet fully sunk. Success depends on reading grip tightness, identifying the correct rolling direction relative to the trapped arm, and committing without hesitation. The most common successful outcome is recovery to turtle position, from which further guard recovery or standup sequences can be pursued. When the opponent anticipates and follows the roll, they may advance to dead orchard control, making correct timing and explosive execution essential.
 
-**From Position**: [[Anaconda Control]] (Bottom)
+**From Position**: [[Positions/Anaconda Control]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the rolling escape sits within the broader anaconda defense hiera
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 50% |
-| Failure | [[Anaconda Control]] | 30% |
-| Counter | [[Dead Orchard Control]] | 20% |
+| Success | [[Positions/Turtle]] | 50% |
+| Failure | [[Positions/Anaconda Control]] | 30% |
+| Counter | [[Positions/Dead Orchard Control]] | 20% |
 
 
 </section>
@@ -195,27 +195,27 @@ The Rolling Escape from Anaconda connects the dangerous anaconda choke defense s
 ## Related Techniques
 
 
-- [[Anaconda Control]] - Source position - the control position this escape addresses
+- [[Positions/Anaconda Control]] - Source position - the control position this escape addresses
 
-- [[Turtle]] - Primary success outcome - position recovered after successful rolling escape
+- [[Positions/Turtle]] - Primary success outcome - position recovered after successful rolling escape
 
-- [[Dead Orchard Control]] - Counter outcome - position opponent achieves if they follow the roll successfully
+- [[Positions/Dead Orchard Control]] - Counter outcome - position opponent achieves if they follow the roll successfully
 
-- [[Front Headlock]] - Related positional family from which anaconda control originates
+- [[Positions/Front Headlock]] - Related positional family from which anaconda control originates
 
-- [[Darce Control]] - Sister choke position requiring similar defensive awareness and rolling mechanics
+- [[Positions/Darce Control]] - Sister choke position requiring similar defensive awareness and rolling mechanics
 
-- [[Anaconda Choke]] - The submission being escaped - understanding finishing mechanics informs escape timing
+- [[Transitions/Anaconda Choke]] - The submission being escaped - understanding finishing mechanics informs escape timing
 
-- [[Anaconda Grip Break to Front Headlock]] - Alternative escape technique when grip breaking is viable before rolling
+- [[Transitions/Anaconda Grip Break to Front Headlock]] - Alternative escape technique when grip breaking is viable before rolling
 
-- [[Frame and Posture from Anaconda]] - Complementary defensive technique addressing different stage of anaconda defense
+- [[Transitions/Frame and Posture from Anaconda]] - Complementary defensive technique addressing different stage of anaconda defense
 
-- [[Roll Defense from Anaconda]] - Related defensive concept for preventing opponent's roll-through finish
+- [[Transitions/Roll Defense from Anaconda]] - Related defensive concept for preventing opponent's roll-through finish
 
-- [[Anaconda Control to Dead Orchard Control]] - Opponent's advancement path that a failed rolling escape may facilitate
+- [[Transitions/Anaconda Control to Dead Orchard Control]] - Opponent's advancement path that a failed rolling escape may facilitate
 
-- [[Back Take from Anaconda]] - Opponent's alternative attack if rolling escape creates back exposure
+- [[Transitions/Back Take from Anaconda]] - Opponent's alternative attack if rolling escape creates back exposure
 
 
 </section>

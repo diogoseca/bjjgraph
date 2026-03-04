@@ -184,7 +184,7 @@ The technique operates on a simple mechanical principle: gravity is your ally wh
 
 Strategically, this transition should be attempted when the opponent demonstrates strong upright posture, active grip fighting that threatens your harness, or when they begin loading weight to attempt a throw or reversal. The decision to take the fight down rather than pursue standing submissions reflects a positional-dominance philosophy: grounded back control with hooks is statistically the highest-percentage finishing position in competition grappling. Converting standing back exposure to grounded back control is not merely a positional improvement; it is the single most important conversion in the back attack system.
 
-**From Position**: [[Standing Back Control]] (Top)
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
 
@@ -237,10 +237,10 @@ Strategically, this transition should be attempted when the opponent demonstrate
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Standing Back Control]] | 15% |
-| Failure | [[Turtle]] | 10% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Back Control/Standing Back Control]] | 15% |
+| Failure | [[Positions/Turtle]] | 10% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -249,11 +249,11 @@ Strategically, this transition should be attempted when the opponent demonstrate
 
 ## Opponent Counters
 
-- **Opponent widens stance and drops weight to resist the takedown, anchoring themselves to prevent the descent** (Effectiveness: High) - Your Response: Switch from lateral displacement to a trip by hooking their near ankle with your foot while driving diagonally across their center of gravity. Their wide stance makes them vulnerable to trip mechanics. → Leads to [[Standing Back Control]]
-- **Opponent explosively turns into you during the descent, attempting to recover facing position and establish guard** (Effectiveness: Medium) - Your Response: Follow the turn by maintaining harness grip and dropping your weight onto them. If they partially turn, transition to side control or front headlock rather than fighting to maintain back position against their momentum. → Leads to [[Half Guard]]
-- **Opponent reaches behind to grab your head or collar, using the grip to create a frame that prevents your descent or threatens a throw** (Effectiveness: Medium) - Your Response: Strip the grip immediately with your control arm while maintaining the choking arm on the neck. If the grip persists, use it as an anchor point to accelerate your descent, pulling them down with you. → Leads to [[Standing Back Control]]
-- **Opponent drops to their knees preemptively into turtle position to deny you hook insertion and control the ground transition** (Effectiveness: Medium) - Your Response: Follow them down maintaining chest-to-back pressure and immediately work to flatten them from turtle using your weight and harness control. Insert hooks before they can establish defensive frames with their arms. → Leads to [[Turtle]]
-- **Opponent grabs your leg or hooks to prevent insertion during the descent, blocking your hip control** (Effectiveness: Low) - Your Response: Use the free leg to hook first, then use your secured hook as leverage to pry the opponent's grip off the second leg. Their hand fighting your hooks exposes their neck to your choking arm. → Leads to [[Back Control]]
+- **Opponent widens stance and drops weight to resist the takedown, anchoring themselves to prevent the descent** (Effectiveness: High) - Your Response: Switch from lateral displacement to a trip by hooking their near ankle with your foot while driving diagonally across their center of gravity. Their wide stance makes them vulnerable to trip mechanics. → Leads to [[Positions/Back Control/Standing Back Control]]
+- **Opponent explosively turns into you during the descent, attempting to recover facing position and establish guard** (Effectiveness: Medium) - Your Response: Follow the turn by maintaining harness grip and dropping your weight onto them. If they partially turn, transition to side control or front headlock rather than fighting to maintain back position against their momentum. → Leads to [[Positions/Half Guard]]
+- **Opponent reaches behind to grab your head or collar, using the grip to create a frame that prevents your descent or threatens a throw** (Effectiveness: Medium) - Your Response: Strip the grip immediately with your control arm while maintaining the choking arm on the neck. If the grip persists, use it as an anchor point to accelerate your descent, pulling them down with you. → Leads to [[Positions/Back Control/Standing Back Control]]
+- **Opponent drops to their knees preemptively into turtle position to deny you hook insertion and control the ground transition** (Effectiveness: Medium) - Your Response: Follow them down maintaining chest-to-back pressure and immediately work to flatten them from turtle using your weight and harness control. Insert hooks before they can establish defensive frames with their arms. → Leads to [[Positions/Turtle]]
+- **Opponent grabs your leg or hooks to prevent insertion during the descent, blocking your hip control** (Effectiveness: Low) - Your Response: Use the free leg to hook first, then use your secured hook as leverage to pry the opponent's grip off the second leg. Their hand fighting your hooks exposes their neck to your choking arm. → Leads to [[Positions/Back Control]]
 
 
 </section>

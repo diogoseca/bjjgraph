@@ -204,21 +204,21 @@ From the bottom perspective, Crackhead Control represents a calculated gamble wh
 
 ## Available Escapes
 
-### [[Gogoplata]] (11% of attempts)
+### [[Transitions/Gogoplata]] (11% of attempts)
 
-### [[Omoplata]] (13% of attempts)
+### [[Transitions/Omoplata]] (13% of attempts)
 
-### [[Triangle Choke]] (12% of attempts)
+### [[Transitions/Triangle Choke]] (12% of attempts)
 
-### [[Crackhead Control to Carni]] (15% of attempts)
+### [[Transitions/Crackhead Control to Carni]] (15% of attempts)
 
-### [[Armbar from Guard]] (12% of attempts)
+### [[Submissions/Armbar from Guard]] (12% of attempts)
 
-### [[Baratoplata]] (7% of attempts)
+### [[Transitions/Baratoplata]] (7% of attempts)
 
-### [[Crackhead Control to Mission Control]] (15% of attempts)
+### [[Transitions/Crackhead Control to Mission Control]] (15% of attempts)
 
-### [[Crackhead Control to New York]] (15% of attempts)
+### [[Transitions/Crackhead Control to New York]] (15% of attempts)
 
 
 
@@ -229,27 +229,27 @@ From the bottom perspective, Crackhead Control represents a calculated gamble wh
 ## Decision Making from This Position
 
 **If opponent drives weight forward attempting to smash through position or establish double underhooks:**
-- Execute **[[Crackhead Control to Carni]]** → [[Carni]] (Probability: 65%)
-- Execute **[[Gogoplata]]** → [[Gogoplata Control]] (Probability: 45%)
-- Execute **[[Hook Sweep]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/Crackhead Control to Carni]]** → [[Positions/Rubber Guard/Carni]] (Probability: 65%)
+- Execute **[[Transitions/Gogoplata]]** → [[Positions/Gogoplata Control]] (Probability: 45%)
+- Execute **[[Transitions/Hook Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent attempts to extract trapped arm by pulling it back toward their body:**
-- Execute **[[Omoplata]]** → [[Omoplata Control]] (Probability: 60%)
-- Execute **[[Omoplata Sweep]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Triangle Choke]]** → [[Triangle Control]] (Probability: 50%)
+- Execute **[[Transitions/Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 60%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Triangle Choke]]** → [[Positions/Triangle Control]] (Probability: 50%)
 
 
 **If opponent postures up attempting to create distance and reduce submission threat:**
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 55%)
-- Execute **[[Armbar from Guard]]** → [[Armbar Control]] (Probability: 50%)
-- Execute **[[Crackhead Control to Mission Control]]** → [[Mission Control]] (Probability: 65%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Submissions/Armbar from Guard]]** → [[Positions/Armbar Control]] (Probability: 50%)
+- Execute **[[Transitions/Crackhead Control to Mission Control]]** → [[Positions/Rubber Guard/Mission Control]] (Probability: 65%)
 
 
 **If opponent begins circling toward back exposure side or establishes strong hip pressure:**
-- Execute **[[Technical Stand Up to Single Leg]]** → [[Standing Position]] (Probability: 60%)
-- Execute **[[Transition to Closed Guard]]** → [[Closed Guard]] (Probability: 70%)
-- Execute **[[Rolling Guard Pull]]** → [[Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Technical Stand Up to Single Leg]]** → [[Positions/Standing Position]] (Probability: 60%)
+- Execute **[[Transition to Closed Guard]]** → [[Positions/Closed Guard]] (Probability: 70%)
+- Execute **[[Transitions/Rolling Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
 
@@ -383,14 +383,14 @@ Begin in standard closed guard with broken posture. Partner provides specific re
 
 ## Related Positions and Techniques
 
-- **[[Rubber Guard]]** - Parent position providing systematic framework and entry mechanics
-- **[[Mission Control]]** - Primary entry position before deepening overhook to Crackhead Control
-- **[[Carni]]** - Key transition for gogoplata setups when opponent drives forward
-- **[[Omoplata Control]]** - Primary submission target when opponent attempts arm extraction
-- **[[Triangle Control]]** - Alternative submission when opponent postures up defending omoplata
-- **[[Gogoplata Control]]** - High-percentage submission from Carni transition
-- **[[Closed Guard]]** - Safe fallback position when back exposure becomes dangerous
-- **[[New York]]** - Alternative rubber guard position with different overhook angle
+- **[[Positions/Rubber Guard]]** - Parent position providing systematic framework and entry mechanics
+- **[[Positions/Rubber Guard/Mission Control]]** - Primary entry position before deepening overhook to Crackhead Control
+- **[[Positions/Rubber Guard/Carni]]** - Key transition for gogoplata setups when opponent drives forward
+- **[[Positions/Omoplata Control]]** - Primary submission target when opponent attempts arm extraction
+- **[[Positions/Triangle Control]]** - Alternative submission when opponent postures up defending omoplata
+- **[[Positions/Gogoplata Control]]** - High-percentage submission from Carni transition
+- **[[Positions/Closed Guard]]** - Safe fallback position when back exposure becomes dangerous
+- **[[Positions/Rubber Guard/New York]]** - Alternative rubber guard position with different overhook angle
 
 
 </section>

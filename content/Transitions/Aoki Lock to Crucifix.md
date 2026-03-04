@@ -21,7 +21,7 @@ From a strategic perspective, this transition follows the principle of using sub
 
 The crucifix destination represents a significant positional upgrade from Aoki Lock. While Aoki Lock offers a single submission threat with moderate escape routes, the crucifix eliminates virtually all defensive options and opens multiple high-percentage finishing paths including rear naked choke, arm-in chokes, and armbars. Practitioners who master this transition develop the ability to convert stalled submission attempts into dominant control positions, embodying the position-before-submission principle at an advanced level.
 
-**From Position**: [[Aoki Lock]] (Top)
+**From Position**: [[Positions/Aoki Lock]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The crucifix destination represents a significant positional upgrade from Aoki L
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Crucifix]] | 65% |
-| Failure | [[Aoki Lock]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Crucifix]] | 65% |
+| Failure | [[Positions/Aoki Lock]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Aoki Lock to Crucifix transition sits within the advanced turtle and back at
 ## Related Techniques
 
 
-- [[Aoki Lock]] - Starting position for this transition
+- [[Positions/Aoki Lock]] - Starting position for this transition
 
-- [[Crucifix]] - Target position achieved on success
+- [[Positions/Crucifix]] - Target position achieved on success
 
-- [[Aoki Lock to Back Control]] - Alternative transition when crucifix entry is blocked
+- [[Transitions/Aoki Lock to Back Control]] - Alternative transition when crucifix entry is blocked
 
-- [[Truck]] - Alternative leg entanglement control position accessible from Aoki Lock
+- [[Positions/Twister Control/Truck]] - Alternative leg entanglement control position accessible from Aoki Lock
 
-- [[Back Control to Crucifix]] - Related crucifix entry from different starting position
+- [[Transitions/Back Control to Crucifix]] - Related crucifix entry from different starting position
 
-- [[Choke from Crucifix]] - Primary follow-up submission from crucifix position
+- [[Transitions/Choke from Crucifix]] - Primary follow-up submission from crucifix position
 
-- [[Armbar from Crucifix]] - Secondary follow-up submission from crucifix position
+- [[Transitions/Armbar from Crucifix]] - Secondary follow-up submission from crucifix position
 
-- [[Crucifix from Turtle]] - Related crucifix entry using similar arm isolation mechanics
+- [[Transitions/Crucifix from Turtle]] - Related crucifix entry using similar arm isolation mechanics
 
-- [[Kimura Trap]] - Related shoulder control system with transition options
+- [[Positions/Kimura Trap]] - Related shoulder control system with transition options
 
-- [[Aoki Lock Finish]] - Alternative outcome when choosing to finish rather than transition
+- [[Transitions/Aoki Lock Finish]] - Alternative outcome when choosing to finish rather than transition
 
 
 </section>

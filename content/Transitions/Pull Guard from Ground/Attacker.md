@@ -186,7 +186,7 @@ description: "Master executing guard pulls from ground position in BJJ. Step-by-
 
 As the attacker executing Pull Guard from Ground, your objective is to transition from a seated or partially grounded position into a fully locked closed guard around your opponent's waist. This requires establishing dominant grips before committing your hips, timing the pull to coincide with your opponent's forward weight distribution, and generating sufficient hip elevation from a low base to wrap and lock your legs. The technique demands coordination between your upper body pull and lower body wrap, creating a unified motion that closes distance and establishes guard simultaneously. Success depends on grip quality, timing precision, and the ability to immediately consolidate closed guard with posture-breaking pressure once the legs are locked.
 
-**From Position**: [[Standing Guard]] (Bottom)
+**From Position**: [[Positions/Standing Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the attacker executing Pull Guard from Ground, your objective is to transitio
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Standing Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Standing Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the attacker executing Pull Guard from Ground, your objective is to transitio
 
 ## Opponent Counters
 
-- **Opponent sprawls hips back and drives weight downward to prevent guard closure** (Effectiveness: High) - Your Response: Maintain pulling pressure on collar grip and transition to butterfly hooks or shin-to-shin guard rather than forcing closed guard against sprawl pressure. Use their downward pressure to set up collar drag or arm drag from the seated position. → Leads to [[Standing Guard]]
-- **Opponent posts hands on your hips and creates straight-arm distance to prevent leg wrap** (Effectiveness: High) - Your Response: Attack the posting arm with a two-on-one grip break, pulling their arm across your body to eliminate the frame. Alternatively, angle your body 45 degrees to bypass the frame on one side and wrap from an angle rather than directly forward. → Leads to [[Open Guard]]
-- **Opponent circles laterally and angles away from the guard pull attempt** (Effectiveness: Medium) - Your Response: Track their movement by pivoting on your hip and maintaining grip connection. Use the collar grip to prevent full disengagement while scooting your hips to follow their angle change. If they create too much angle, transition to De La Riva or single leg X entry instead. → Leads to [[Open Guard]]
-- **Opponent grabs your collar and pushes you flat on your back while stiff-arming to prevent hip elevation** (Effectiveness: Medium) - Your Response: Use feet on hips to manage distance while fighting the collar grip with two-on-one break. Once the grip is stripped, immediately bridge and re-attempt the pull before they can re-establish the frame. If flattened, transition to open guard with feet on hips and work guard pull from that configuration. → Leads to [[Standing Guard]]
+- **Opponent sprawls hips back and drives weight downward to prevent guard closure** (Effectiveness: High) - Your Response: Maintain pulling pressure on collar grip and transition to butterfly hooks or shin-to-shin guard rather than forcing closed guard against sprawl pressure. Use their downward pressure to set up collar drag or arm drag from the seated position. → Leads to [[Positions/Standing Guard]]
+- **Opponent posts hands on your hips and creates straight-arm distance to prevent leg wrap** (Effectiveness: High) - Your Response: Attack the posting arm with a two-on-one grip break, pulling their arm across your body to eliminate the frame. Alternatively, angle your body 45 degrees to bypass the frame on one side and wrap from an angle rather than directly forward. → Leads to [[Positions/Open Guard]]
+- **Opponent circles laterally and angles away from the guard pull attempt** (Effectiveness: Medium) - Your Response: Track their movement by pivoting on your hip and maintaining grip connection. Use the collar grip to prevent full disengagement while scooting your hips to follow their angle change. If they create too much angle, transition to De La Riva or single leg X entry instead. → Leads to [[Positions/Open Guard]]
+- **Opponent grabs your collar and pushes you flat on your back while stiff-arming to prevent hip elevation** (Effectiveness: Medium) - Your Response: Use feet on hips to manage distance while fighting the collar grip with two-on-one break. Once the grip is stripped, immediately bridge and re-attempt the pull before they can re-establish the frame. If flattened, transition to open guard with feet on hips and work guard pull from that configuration. → Leads to [[Positions/Standing Guard]]
 
 
 </section>

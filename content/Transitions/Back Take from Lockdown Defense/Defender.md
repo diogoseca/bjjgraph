@@ -158,7 +158,7 @@ The defender's primary advantage is that the backstep back take requires precise
 
 Advanced defenders develop the ability to bait the backstep attempt by offering partial extension, then quickly retracting to re-establish guard when the opponent commits to the circular motion. This turns the defender's awareness into an offensive weapon, as the opponent's failed backstep often leaves them in a compromised position that can be exploited for sweeps or guard recovery.
 
-**Opponent's Starting Position**: [[Electric Chair]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Advanced defenders develop the ability to bait the backstep attempt by offering 
 ### 1. Release lockdown and immediately recover closed guard or half guard by retracting legs and inserting knee shield
 
 - **When to use**: At the earliest recognition of backstep initiation, before the opponent's leg clears the lockdown configuration
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to half guard or closed guard with no back exposure, resetting the position to a neutral guard exchange
 - **Risk**: If you release too late, the opponent has already cleared and you lose both lockdown control and guard position
 
 ### 2. Turn toward the opponent during their backstep by driving your underhook side shoulder into them and rotating your hips to face them
 
 - **When to use**: When the backstep is already in progress but the opponent has not yet established their first hook behind you
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You face the opponent and re-establish half guard or open guard, denying the back take entirely
 - **Risk**: If the opponent maintains strong crossface during your turn, they may drive you flat and pass to side control
 
 ### 3. Tighten lockdown grip and pull your heel down hard while extending hips to prevent the trapped leg from clearing
 
 - **When to use**: When you feel the opponent beginning to circle but has not yet generated enough arc to clear the lockdown
-- **Targets**: [[Electric Chair]]
+- **Targets**: [[Positions/Half Guard/Electric Chair]]
 - **If successful**: The opponent's backstep stalls with their leg still caught, returning to the Electric Chair position where you maintain offensive control
 - **Risk**: If the opponent's momentum is too far along, forcing the lockdown may create dangerous rotational torque on your own knee
 
 ### 4. Abandon Electric Chair and transition to deep half guard by releasing lockdown and diving underneath the opponent toward their far hip
 
 - **When to use**: When the backstep is well underway and recovering guard seems unlikely, but the opponent has not yet secured hooks
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You enter deep half guard underneath the opponent, a strong offensive position that completely negates the back take
 - **Risk**: If transition is too slow, opponent completes back take while you are in transition between positions
 
@@ -229,11 +229,11 @@ Advanced defenders develop the ability to bait the backstep attempt by offering 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Electric Chair]]
+### → [[Positions/Half Guard/Electric Chair]]
 
 Recognize the backstep early and tighten your lockdown grip before the opponent's leg clears. Pull your heel down aggressively while maintaining hip extension to stall their circular motion. Once their backstep stalls, resume your Electric Chair attack from the re-established position.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Release the lockdown at the first sign of backstep initiation and immediately insert your knee shield while retracting your legs. Use your underhook to drive your shoulder into the opponent and rotate to face them, establishing standard half guard with frames before they can circle behind you.
 

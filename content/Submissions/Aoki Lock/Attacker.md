@@ -238,8 +238,8 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Ashi Garami]] | 25% |
-| Counter | [[Open Guard]] | 20% |
+| Failure | [[Positions/Ashi Garami]] | 25% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -248,10 +248,10 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 
 ## Opponent Defenses
 
-- **Rapidly pulling trapped leg free before figure-four is completed** (Effectiveness: High) - Your Response: Maintain tight ashi garami control with outside leg hook and use upper body grips to control their knee, preventing leg extraction. Transition to traditional heel hook or kneebar if they create distance. → Leads to [[Ashi Garami]]
-- **Rotating the trapped leg externally to prevent foot entrapment** (Effectiveness: Medium) - Your Response: Counter rotation by adjusting your hip angle and using your hands to control their foot positioning. If rotation persists, switch to inside heel hook which works with the rotation direction. → Leads to [[Ashi Garami]]
-- **Sitting up aggressively to create pressure on your legs and break the figure-four** (Effectiveness: Medium) - Your Response: Use your upper body to push their shoulders back down, or accept the sit-up and transition to 50-50 position where you can reestablish the lock from a different angle. Maintain leg entanglement throughout. → Leads to [[Ashi Garami]]
-- **Attempting to pass your guard and cross-face before lock is secured** (Effectiveness: High) - Your Response: Abandon the Aoki Lock setup and return to defensive ashi garami control, blocking the pass with proper leg positioning. Reset the attack once positional control is reestablished. → Leads to [[Open Guard]]
+- **Rapidly pulling trapped leg free before figure-four is completed** (Effectiveness: High) - Your Response: Maintain tight ashi garami control with outside leg hook and use upper body grips to control their knee, preventing leg extraction. Transition to traditional heel hook or kneebar if they create distance. → Leads to [[Positions/Ashi Garami]]
+- **Rotating the trapped leg externally to prevent foot entrapment** (Effectiveness: Medium) - Your Response: Counter rotation by adjusting your hip angle and using your hands to control their foot positioning. If rotation persists, switch to inside heel hook which works with the rotation direction. → Leads to [[Positions/Ashi Garami]]
+- **Sitting up aggressively to create pressure on your legs and break the figure-four** (Effectiveness: Medium) - Your Response: Use your upper body to push their shoulders back down, or accept the sit-up and transition to 50-50 position where you can reestablish the lock from a different angle. Maintain leg entanglement throughout. → Leads to [[Positions/Ashi Garami]]
+- **Attempting to pass your guard and cross-face before lock is secured** (Effectiveness: High) - Your Response: Abandon the Aoki Lock setup and return to defensive ashi garami control, blocking the pass with proper leg positioning. Reset the attack once positional control is reestablished. → Leads to [[Positions/Open Guard]]
 - **Keeping foot in dorsiflexion (toes up) to resist plantar flexion** (Effectiveness: Low) - Your Response: Use superior leg strength and mechanical advantage of the figure-four to overcome their foot positioning. The compression across the shin will force tap even if full plantar flexion is not achieved. → Leads to [[game-over]]
 
 

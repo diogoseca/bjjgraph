@@ -174,7 +174,7 @@ description: "How to execute Baseball Bat Choke in BJJ. Attacking perspective wi
 
 The Baseball Bat Choke attack begins from an established Knee on Belly position where your knee pressure on the opponent's solar plexus forces defensive arm extension. This arm extension creates the critical window to secure the second collar grip, completing the baseball bat grip configuration. The technique requires understanding the relationship between pressure and opportunity — your knee pressure is not merely positional control but the active mechanism that creates your submission entry. The spinning finish generates tremendous choking leverage through bilateral forearm compression of the carotid arteries, requiring correct spin direction, low body position, and proper wrist rotation mechanics. The entire sequence from grip acquisition through finish can happen in under three seconds against an unprepared opponent, making it one of the fastest submission attacks in gi jiu-jitsu when the timing and mechanics are correct.
 
-**From Position**: [[Knee on Belly]] (Top)
+**From Position**: [[Positions/Knee on Belly]] (Top)
 
 </section>
 
@@ -226,8 +226,8 @@ The Baseball Bat Choke attack begins from an established Knee on Belly position 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Knee on Belly]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Knee on Belly]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -236,10 +236,10 @@ The Baseball Bat Choke attack begins from an established Knee on Belly position 
 
 ## Opponent Counters
 
-- **Opponent tucks chin and turns toward you before spin completes, preventing full rotation** (Effectiveness: High) - Your Response: If spin is blocked, transition to North-South choke by continuing pressure with same grips and sliding to North-South position, or abandon spin and return to Knee on Belly to reset the attack → Leads to [[Knee on Belly]]
-- **Opponent frames on your hip with both hands, creating space to shrimp and recover half guard** (Effectiveness: Medium) - Your Response: Drop your weight lower and pin their near arm before attempting the spin. Alternatively, attack the extended arm with armbar or Americana since their framing exposes the elbow joint → Leads to [[Half Guard]]
-- **Opponent grabs your pants or belt to anchor you and prevent the spin** (Effectiveness: Medium) - Your Response: Strip their grip by circling your leg or pummeling their grip off before spinning. The grip strip can become part of your spinning motion rather than a separate action → Leads to [[Knee on Belly]]
-- **Opponent bridges explosively and rolls toward you during the spin, attempting reversal to half guard** (Effectiveness: Low) - Your Response: Maintain tight grips and continue the spin — their roll momentum often helps complete your rotation. Finish the choke from the new angle since the grips remain intact regardless of body position → Leads to [[Half Guard]]
+- **Opponent tucks chin and turns toward you before spin completes, preventing full rotation** (Effectiveness: High) - Your Response: If spin is blocked, transition to North-South choke by continuing pressure with same grips and sliding to North-South position, or abandon spin and return to Knee on Belly to reset the attack → Leads to [[Positions/Knee on Belly]]
+- **Opponent frames on your hip with both hands, creating space to shrimp and recover half guard** (Effectiveness: Medium) - Your Response: Drop your weight lower and pin their near arm before attempting the spin. Alternatively, attack the extended arm with armbar or Americana since their framing exposes the elbow joint → Leads to [[Positions/Half Guard]]
+- **Opponent grabs your pants or belt to anchor you and prevent the spin** (Effectiveness: Medium) - Your Response: Strip their grip by circling your leg or pummeling their grip off before spinning. The grip strip can become part of your spinning motion rather than a separate action → Leads to [[Positions/Knee on Belly]]
+- **Opponent bridges explosively and rolls toward you during the spin, attempting reversal to half guard** (Effectiveness: Low) - Your Response: Maintain tight grips and continue the spin — their roll momentum often helps complete your rotation. Finish the choke from the new angle since the grips remain intact regardless of body position → Leads to [[Positions/Half Guard]]
 
 
 </section>

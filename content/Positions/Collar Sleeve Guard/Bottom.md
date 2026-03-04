@@ -218,33 +218,33 @@ Transitioning out of collar sleeve guard bottom occurs through successful sweeps
 
 ## Available Escapes
 
-### [[Triangle Setup]] (31% of attempts)
+### [[Transitions/Triangle Setup]] (31% of attempts)
 
-### [[Pendulum Sweep]] (11% of attempts)
+### [[Transitions/Pendulum Sweep]] (11% of attempts)
 
-### [[Scissor Sweep]] (9% of attempts)
+### [[Transitions/Scissor Sweep]] (9% of attempts)
 
-### [[Hip Bump Sweep]] (8% of attempts)
+### [[Transitions/Hip Bump Sweep]] (8% of attempts)
 
-### [[Flower Sweep]] (7% of attempts)
+### [[Transitions/Flower Sweep]] (7% of attempts)
 
-### [[Omoplata Sweep]] (7% of attempts)
+### [[Transitions/Omoplata Sweep]] (7% of attempts)
 
-### [[Collar Drag]] (6% of attempts)
+### [[Transitions/Collar Drag]] (6% of attempts)
 
-### [[Arm Drag to Back]] (5% of attempts)
+### [[Transitions/Arm Drag to Back]] (5% of attempts)
 
-### [[Lapel to Spider Guard]] (4% of attempts)
+### [[Transitions/Lapel to Spider Guard]] (4% of attempts)
 
-### [[Lapel to Lasso Guard]] (4% of attempts)
+### [[Transitions/Lapel to Lasso Guard]] (4% of attempts)
 
-### [[Collar Sleeve to De La Riva]] (3% of attempts)
+### [[Transitions/Collar Sleeve to De La Riva]] (3% of attempts)
 
-### [[Standing up in Base]] (3% of attempts)
+### [[Transitions/Standing up in Base]] (3% of attempts)
 
-### [[Collar Sleeve Sweep]] (1% of attempts)
+### [[Transitions/Collar Sleeve Sweep]] (1% of attempts)
 
-### [[Collar Sleeve to Spider Guard]] (1% of attempts)
+### [[Transitions/Collar Sleeve to Spider Guard]] (1% of attempts)
 
 
 
@@ -255,28 +255,28 @@ Transitioning out of collar sleeve guard bottom occurs through successful sweeps
 ## Decision Making from This Position
 
 **If opponent maintains square posture and strong base with both knees planted:**
-- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 55%)
-- Execute **[[Pendulum Sweep]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 60%)
 
 
 **If opponent posts free hand forward to defend collar pull or sweep attempt:**
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 65%)
-- Execute **[[Omoplata Sweep]]** → [[Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 65%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 50%)
 
 
 **If opponent sits back heavily to break posture and defend collar grip:**
-- Execute **[[Flower Sweep]]** → [[Mount]] (Probability: 55%)
-- Execute **[[Scissor Sweep]]** → [[Mount]] (Probability: 65%)
+- Execute **[[Transitions/Flower Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Scissor Sweep]]** → [[Positions/Mount]] (Probability: 65%)
 
 
 **If opponent attempts to circle around to pass toward sleeve-grip side:**
-- Execute **[[Lapel to Spider Guard]]** → [[Spider Guard]] (Probability: 60%)
-- Execute **[[Lapel to Lasso Guard]]** → [[Lasso Guard]] (Probability: 55%)
+- Execute **[[Transitions/Lapel to Spider Guard]]** → [[Positions/Spider Guard]] (Probability: 60%)
+- Execute **[[Transitions/Lapel to Lasso Guard]]** → [[Positions/Lasso Guard]] (Probability: 55%)
 
 
 **If opponent stands up completely to initiate standing guard pass:**
-- Execute **[[Standing up in Base]]** → [[Clinch]] (Probability: 50%)
-- Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Clinch]] (Probability: 50%)
+- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 
@@ -410,14 +410,14 @@ Attempt collar sleeve sweep (pendulum, flower, or scissor). If partner defends a
 
 ## Related Positions and Techniques
 
-- **[[Spider Guard]]** - Advanced variation - add second sleeve grip for enhanced control
-- **[[Lasso Guard]]** - Specialized variation - thread leg through sleeve arm
-- **[[Triangle Control]]** - Primary submission path when opponent posts to defend sweeps
-- **[[Omoplata Control]]** - Alternative submission when triangle is defended
-- **[[Closed Guard]]** - Common entry position before opening to collar sleeve
-- **[[De La Riva Guard]]** - Complementary guard combining hooks with collar sleeve grips
-- **[[Mount]]** - Target position after successful sweep completion
-- **[[Back Control]]** - Alternative target when opponent turns away during attacks
+- **[[Positions/Spider Guard]]** - Advanced variation - add second sleeve grip for enhanced control
+- **[[Positions/Lasso Guard]]** - Specialized variation - thread leg through sleeve arm
+- **[[Positions/Triangle Control]]** - Primary submission path when opponent posts to defend sweeps
+- **[[Positions/Omoplata Control]]** - Alternative submission when triangle is defended
+- **[[Positions/Closed Guard]]** - Common entry position before opening to collar sleeve
+- **[[Positions/De La Riva Guard]]** - Complementary guard combining hooks with collar sleeve grips
+- **[[Positions/Mount]]** - Target position after successful sweep completion
+- **[[Positions/Back Control]]** - Alternative target when opponent turns away during attacks
 
 
 </section>

@@ -156,7 +156,7 @@ Defending the open guard to deep half entry requires the top player to recognize
 
 The most dangerous moment for the defender is the transition window when the bottom player begins their hip escape and initiates the dive. During this window, the defender must either stuff the entry with sprawl pressure and crossface, or step their near leg back to remove the pathway. Understanding that deep half is an offensive position disguised as a bottom position is critical — the urgency to prevent or immediately counter this entry cannot be overstated. Defenders who treat it casually will find themselves swept repeatedly by an opponent who has created massive leverage underneath their center of gravity.
 
-**Opponent's Starting Position**: [[Open Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ The most dangerous moment for the defender is the transition window when the bot
 ### 1. Sprawl back and establish crossface pressure to flatten opponent's angle before they complete the dive
 
 - **When to use**: Early in the entry when you recognize the hip escape and initial dive — most effective before their head passes under your leg
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Opponent is flattened underneath you without establishing deep half structure, allowing you to consolidate top position and resume passing
 - **Risk**: If timed too late, your sprawl momentum can actually facilitate their entry by loading weight onto their frame
 
 ### 2. Step your near leg backward to remove the pathway and re-establish distance from their dive angle
 
 - **When to use**: When you feel them gripping your pants and beginning to create angle but before they commit to the dive
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Entry pathway is removed and you maintain standing or combat base position with passing initiative
 - **Risk**: Stepping back concedes initiative and may allow them to transition to De La Riva, single leg X, or other guard systems
 
 ### 3. Drive your near knee to the mat to block the threading pathway and flatten their hip escape angle
 
 - **When to use**: When opponent has begun the dive but has not yet cleared your knee line with their head and shoulders
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Entry is blocked at the knee line and you can establish half guard top pressure or transition to a passing sequence
 - **Risk**: Knee drop commits your weight downward, potentially opening butterfly sweep or X-guard entries if opponent redirects
 
 ### 4. Strip their pant grip with a two-on-one break and immediately circle away from their dive angle
 
 - **When to use**: At the earliest stage when you feel them gripping your pants to initiate the entry sequence
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Without the controlling grip, opponent cannot pull themselves underneath and the entry attempt collapses
 - **Risk**: Two-on-one grip break momentarily reduces your posting ability, creating a brief vulnerability window
 
@@ -228,11 +228,11 @@ The most dangerous moment for the defender is the transition window when the bot
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Recognize the entry early through grip and angle cues, then sprawl with crossface or step your near leg back before their head passes under your leg. Strip their controlling grips to deny them the pulling power needed to complete the dive. Maintain upright posture with hips back throughout your open guard passing sequences to deny the entry pathway from developing.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If the dive has partially succeeded but they haven't established the deep underhook, drive your knee to the mat and apply crossface pressure to flatten them into standard half guard rather than deep half. Immediately begin half guard passing sequences before they can re-enter the deep half position. Priority is denying the deep underhook and keeping their shoulders flat.
 

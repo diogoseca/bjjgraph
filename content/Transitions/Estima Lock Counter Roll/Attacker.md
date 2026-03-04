@@ -180,7 +180,7 @@ description: "Learn to execute the Estima Lock Counter Roll from bottom position
 
 The Estima Lock Counter Roll from the attacker's perspective is about converting a dangerous submission defense into an active position reversal through precise rolling mechanics. Rather than simply fighting grips and attempting to extract the trapped leg through direct resistance, the counter roll uses the opponent's committed grip as a pivot point for a full-body rotation that simultaneously relieves ankle pressure and creates sweeping momentum. This technique demands courage and technical precision—rolling while caught in a submission requires trust in your mechanical understanding and split-second timing to initiate the rotation before the lock reaches submission-threatening depth. The attacker must coordinate free leg posting, hip engagement, shoulder rotation, and grip management in a single fluid motion that disrupts the top player's base while protecting the vulnerable ankle throughout the transition. Mastery of this technique transforms the Estima Lock from a terminal defensive crisis into a reversible positional exchange.
 
-**From Position**: [[Estima Lock]] (Bottom)
+**From Position**: [[Positions/Estima Lock]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ The Estima Lock Counter Roll from the attacker's perspective is about converting
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Estima Lock]] | 30% |
-| Counter | [[Saddle]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Estima Lock]] | 30% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ The Estima Lock Counter Roll from the attacker's perspective is about converting
 
 ## Opponent Counters
 
-- **Opponent drives hips forward and increases rotational pressure to eliminate the space needed for body rotation** (Effectiveness: High) - Your Response: Abandon the counter roll attempt and return to conventional grip fighting and framing defense. If hip pressure intensifies beyond the rolling window, prioritize counter-rotating the ankle and establishing frames on their hips to relieve submission pressure through conventional escape methods. → Leads to [[Estima Lock]]
-- **Opponent follows the rolling direction and backsteps into saddle position during the rotation** (Effectiveness: High) - Your Response: Recognize the saddle entry immediately and address the inside heel hook threat by straightening your trapped leg and initiating boot scoot escape protocols. The transition to saddle is dangerous but expected—having prepared saddle defense as a contingency makes the counter roll viable as part of a layered escape strategy. → Leads to [[Saddle]]
-- **Opponent bases out wide with far hand and drives shoulder into your turning shoulder to stuff the roll midway** (Effectiveness: Medium) - Your Response: If the roll stalls in the early phase, retreat to starting position and switch to conventional leg extraction using the space the roll attempt created. If stalled past halfway, drive through with maximum hip engagement to complete the rotation despite the shoulder pressure. → Leads to [[Estima Lock]]
-- **Opponent transitions grip to toe hold configuration as you begin rotating, attacking the newly exposed angle** (Effectiveness: Medium) - Your Response: Halt the roll immediately if the toe hold threat materializes before significant rotation. Straighten your leg to reduce toe hold leverage and apply boot defense by pointing toes and flexing the foot. Address the new submission threat before reattempting any escape. → Leads to [[Estima Lock]]
+- **Opponent drives hips forward and increases rotational pressure to eliminate the space needed for body rotation** (Effectiveness: High) - Your Response: Abandon the counter roll attempt and return to conventional grip fighting and framing defense. If hip pressure intensifies beyond the rolling window, prioritize counter-rotating the ankle and establishing frames on their hips to relieve submission pressure through conventional escape methods. → Leads to [[Positions/Estima Lock]]
+- **Opponent follows the rolling direction and backsteps into saddle position during the rotation** (Effectiveness: High) - Your Response: Recognize the saddle entry immediately and address the inside heel hook threat by straightening your trapped leg and initiating boot scoot escape protocols. The transition to saddle is dangerous but expected—having prepared saddle defense as a contingency makes the counter roll viable as part of a layered escape strategy. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent bases out wide with far hand and drives shoulder into your turning shoulder to stuff the roll midway** (Effectiveness: Medium) - Your Response: If the roll stalls in the early phase, retreat to starting position and switch to conventional leg extraction using the space the roll attempt created. If stalled past halfway, drive through with maximum hip engagement to complete the rotation despite the shoulder pressure. → Leads to [[Positions/Estima Lock]]
+- **Opponent transitions grip to toe hold configuration as you begin rotating, attacking the newly exposed angle** (Effectiveness: Medium) - Your Response: Halt the roll immediately if the toe hold threat materializes before significant rotation. Straighten your leg to reduce toe hold leverage and apply boot defense by pointing toes and flexing the foot. Address the new submission threat before reattempting any escape. → Leads to [[Positions/Estima Lock]]
 
 
 </section>

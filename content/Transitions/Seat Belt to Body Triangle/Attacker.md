@@ -180,7 +180,7 @@ description: "Master the attacker's guide to transitioning from seat belt to bod
 
 As the attacker executing the Seat Belt to Body Triangle transition, your objective is to convert standard hook-based back control into the mechanically superior body triangle configuration without sacrificing positional dominance during the process. This requires precise timing, deliberate leg threading, and maintained upper body control throughout the transition. The key challenge is that releasing one hook to thread across the defender's torso creates a temporary vulnerability window where the defender can initiate hip escapes or guard recovery. Successful execution depends on controlling this window through increased seat belt pressure, strategic timing during defender's passive moments, and rapid completion of the figure-four lock. Once locked, the body triangle provides a self-reinforcing control structure that requires minimal energy to maintain while dramatically increasing your offensive pressure and submission threat level.
 
-**From Position**: [[Seat Belt Control Back]] (Top)
+**From Position**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Seat Belt to Body Triangle transition, your object
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Body Triangle]] | 55% |
-| Failure | [[Seat Belt Control Back]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control/Body Triangle]] | 55% |
+| Failure | [[Positions/Back Control/Seat Belt Control Back]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Seat Belt to Body Triangle transition, your object
 
 ## Opponent Counters
 
-- **Defender explosively hip escapes during the single-hook phase when crossing leg is mid-thread** (Effectiveness: High) - Your Response: Immediately abort the threading attempt and re-insert the hook to restore bilateral control. Increase seat belt pressure and chest connection to re-stabilize before attempting again. Do not chase a failed threading — restoring hooks is always safer than forcing completion. → Leads to [[Seat Belt Control Back]]
-- **Defender grabs the crossing leg with both hands to prevent it from passing centerline** (Effectiveness: Medium) - Your Response: Use the hand-fighting opportunity — if both defender's hands are on your leg, their neck is undefended. Release the threading attempt and immediately attack the rear naked choke while their hands are occupied. Alternatively, use seat belt pressure to pin their arms while completing the leg thread with hip drive. → Leads to [[Seat Belt Control Back]]
-- **Defender turns into you during the transition, converting back control into a scramble or guard recovery** (Effectiveness: High) - Your Response: If the defender successfully turns to face you, abandon the body triangle attempt and immediately secure mount or side control from the turning motion. The turn itself opens transition opportunities to dominant top positions. Prioritize maintaining some form of top control over completing the body triangle. → Leads to [[Half Guard]]
-- **Defender straightens legs and bridges to prevent the figure-four from closing** (Effectiveness: Medium) - Your Response: Maintain the crossing leg position and use seat belt pressure to ride the bridge. When the defender returns to the mat from the bridge, immediately close the figure-four during their landing when their defensive tension momentarily decreases. The bridge cannot be sustained indefinitely, and each return creates a closing window. → Leads to [[Seat Belt Control Back]]
+- **Defender explosively hip escapes during the single-hook phase when crossing leg is mid-thread** (Effectiveness: High) - Your Response: Immediately abort the threading attempt and re-insert the hook to restore bilateral control. Increase seat belt pressure and chest connection to re-stabilize before attempting again. Do not chase a failed threading — restoring hooks is always safer than forcing completion. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
+- **Defender grabs the crossing leg with both hands to prevent it from passing centerline** (Effectiveness: Medium) - Your Response: Use the hand-fighting opportunity — if both defender's hands are on your leg, their neck is undefended. Release the threading attempt and immediately attack the rear naked choke while their hands are occupied. Alternatively, use seat belt pressure to pin their arms while completing the leg thread with hip drive. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
+- **Defender turns into you during the transition, converting back control into a scramble or guard recovery** (Effectiveness: High) - Your Response: If the defender successfully turns to face you, abandon the body triangle attempt and immediately secure mount or side control from the turning motion. The turn itself opens transition opportunities to dominant top positions. Prioritize maintaining some form of top control over completing the body triangle. → Leads to [[Positions/Half Guard]]
+- **Defender straightens legs and bridges to prevent the figure-four from closing** (Effectiveness: Medium) - Your Response: Maintain the crossing leg position and use seat belt pressure to ride the bridge. When the defender returns to the mat from the bridge, immediately close the figure-four during their landing when their defensive tension momentarily decreases. The bridge cannot be sustained indefinitely, and each return creates a closing window. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
 
 
 </section>

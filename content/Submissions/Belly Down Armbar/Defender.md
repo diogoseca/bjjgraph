@@ -148,7 +148,7 @@ description: "How to defend against Belly Down Armbar in BJJ. Recognition, escap
 
 Defending the belly down armbar requires early recognition and immediate action because the submission develops rapidly once your arm is isolated and your shoulder is pinned. The primary danger is that your face-down orientation severely limits your ability to rotate your body to relieve elbow pressure, which is the standard armbar defense from other positions. Your defensive window is narrowest once the attacker has established chest weight on your shoulder blade and secured two-on-one wrist control, so the priority must be preventing arm isolation in the first place. When caught in the belly down armbar, your best options involve either rolling through the position to change the angle and recover guard, pulling your arm back to your body before the attacker can establish the fulcrum, or creating enough space to turtle defensively and reset the scramble. Understanding the attacker's control sequence allows you to identify the optimal defensive window and choose the escape that matches the stage of the attack.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 
 </section>
@@ -186,28 +186,28 @@ Defending the belly down armbar requires early recognition and immediate action 
 ### 1. Roll through toward the attacker to disrupt hip angle and recover guard
 
 - **When to use**: Early stage when attacker has wrist control but has not fully settled chest weight on your shoulder - you still have hip mobility
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You end up in closed guard or half guard with arm free, completely neutralizing the submission threat
 - **Risk**: If timed poorly or attacker follows the roll maintaining wrist control, you may end up in a traditional armbar position instead
 
 ### 2. Bend elbow explosively and pull trapped arm back toward your body using both arms
 
 - **When to use**: When attacker has grip on your wrist but has not yet established the forearm fulcrum across your tricep - the arm is still partially bent
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Arm returns to defensive turtle position, denying the submission entirely and forcing attacker to restart their attack sequence
 - **Risk**: Requires significant grip strength and timing; if attacker has already locked the fulcrum and hip pressure, pulling back becomes extremely difficult
 
 ### 3. Bridge and post with free arm to create space, then circle hips away from the attacker
 
 - **When to use**: When attacker has committed their weight across your shoulder but your hips still have freedom of movement on the mat
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Creates enough space to retract the arm or scramble to a neutral position where the attacker must re-establish control
 - **Risk**: Bridging can momentarily create more extension on the arm if direction is wrong; must bridge toward attacker to reduce arm angle, not away
 
 ### 4. Sit through to guard by threading your near leg through and turning to face the attacker
 
 - **When to use**: When attacker is focused on arm control and has not established heavy hip pressure pinning your lower body
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Transition to closed guard or half guard facing the attacker, which completely removes the belly down armbar threat
 - **Risk**: Sit-through requires releasing your defensive turtle posture momentarily, which can expose your back if the attacker transitions to back control
 
@@ -230,11 +230,11 @@ Defending the belly down armbar requires early recognition and immediate action 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Pull the trapped arm back to your body before the attacker can establish the forearm fulcrum and hip pressure, then immediately return to tight defensive turtle with elbows to knees
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Roll through toward the attacker while maintaining a bent elbow, using the momentum to end up facing them in closed guard where the belly down armbar is completely neutralized
 

@@ -154,7 +154,7 @@ description: "Defensive strategies against the Rear Clinch to Body Lock transiti
 
 As the defender facing the Rear Clinch to Body Lock conversion, your situation escalates from already disadvantageous to potentially critical if the body lock is established. The seatbelt configuration, while controlling, leaves the attacker's arms split between upper and lower body, creating natural defensive handles. Once the body lock unifies both arms around your waist, your escape options narrow dramatically and the attacker gains access to high-percentage takedowns including mat returns and lifts. Your primary defensive objective is to prevent the body lock from being established by exploiting the transition window where the attacker's grip is at its weakest. Recognizing the early signs of the grip conversion and responding with immediate hand fighting, space creation, or positional counters is essential for avoiding the upgraded control. If prevention fails, knowing how to defend from the body lock position itself becomes the secondary priority, with controlled guard pulling often being preferable to being thrown.
 
-**Opponent's Starting Position**: [[Standing Rear Clinch]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Rear Clinch]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender facing the Rear Clinch to Body Lock conversion, your situation e
 ### 1. Two-on-one hand fight the sliding arm before it reaches your waist
 
 - **When to use**: The instant you feel the attacker's underhook arm begin sliding downward from your armpit
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: The attacker is forced to return to seatbelt configuration, unable to complete the body lock, and you maintain the less dangerous control state
 - **Risk**: If you commit both hands to fighting one arm, the remaining seatbelt arm may tighten into a choke threat
 
 ### 2. Explosive hip escape to create separation during the grip release window
 
 - **When to use**: When you feel the attacker release their over-shoulder arm to slide it down to waist level, creating a momentary bilateral grip weakness
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: You create enough distance to turn and face the attacker, potentially escaping to neutral clinch or fully disengaging to open space
 - **Risk**: If the attacker follows your hip escape and completes the lock while you move, you may be taken down during the escape attempt
 
 ### 3. Sit to guard proactively before the body lock is consolidated
 
 - **When to use**: When you feel both of the attacker's arms reaching waist level and the lock is about to be completed, making standing defense unlikely to succeed
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You control your descent into a defensive guard position rather than being thrown into a worse position, and can immediately work guard retention
 - **Risk**: The attacker may follow you down with the body lock intact and immediately begin a body lock pass, putting you in guard under pressure
 
 ### 4. Peel the lock and turn to face before takedown is initiated
 
 - **When to use**: If the body lock is established but the attacker hesitates before executing the takedown
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: You break the grip structure and face the attacker, transitioning to a neutral clinch exchange where you are no longer back-exposed
 - **Risk**: Turning into the lock can expose your back further if the grip break is incomplete
 
@@ -225,11 +225,11 @@ As the defender facing the Rear Clinch to Body Lock conversion, your situation e
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Execute a controlled guard pull or counter the takedown attempt during the transition window by sitting while maintaining frame contact, inserting a knee shield, and closing half guard to prevent full pass. Time the sit so you control the landing position rather than being thrown into side control.
 
-### → [[Standing Rear Clinch]]
+### → [[Positions/Standing Rear Clinch]]
 
 Fight the grip transition aggressively with two-on-one hand control on the sliding arm, preventing the lock from being established. Force the attacker back to the seatbelt configuration where your defensive options are more favorable and the takedown threat is less immediate.
 

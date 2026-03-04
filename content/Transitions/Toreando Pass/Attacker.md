@@ -180,7 +180,7 @@ description: "How to execute Toreando Pass in BJJ. Attacking perspective with se
 
 The Toreando Pass is a standing guard pass built on bilateral leg control and explosive lateral movement. The passer grips both of the opponent's knees or pant legs, then simultaneously steps to one side while redirecting the opponent's legs to the opposite side. This opposing-vector motion breaks the guard player's hip connection and clears a direct path to side control. The technique rewards practitioners who develop strong grip fighting, explosive footwork, and the ability to read defensive reactions in real time. Because the Toreando creates a binary choice for the defender — either allow the pass or turn and expose the back — it functions as both a standalone pass and a forcing mechanism that opens chain-passing opportunities.
 
-**From Position**: [[Open Guard]] (Top)
+**From Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The Toreando Pass is a standing guard pass built on bilateral leg control and ex
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Open Guard]] | 25% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Open Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -245,11 +245,11 @@ The Toreando Pass is a standing guard pass built on bilateral leg control and ex
 
 ## Opponent Counters
 
-- **Opponent establishes strong collar grips to break posture and prevent standing** (Effectiveness: High) - Your Response: Strip grips immediately using two-on-one grip breaks, or establish leg grips first and accept momentary collar contact while executing the pass explosively before they can capitalize → Leads to [[Open Guard]]
-- **Opponent uses De La Riva or Reverse De La Riva hook to off-balance passer during lateral movement** (Effectiveness: High) - Your Response: Clear the hooking leg before attempting the Toreando by pushing it across their body or using a specific De La Riva guard pass. Alternatively, switch to a different passing approach when hooks are established → Leads to [[Open Guard]]
-- **Opponent frames with feet on hips or biceps to create distance and prevent grip establishment** (Effectiveness: Medium) - Your Response: Control opponent's ankle or heel with one hand while using the other to clear their frames. Once one leg is controlled, the Toreando becomes available on that side, or switch to knee cut pass → Leads to [[Open Guard]]
-- **Opponent follows the movement and re-guards by turning toward the passer during lateral step** (Effectiveness: Medium) - Your Response: If opponent turns successfully, immediately switch to back take as they expose their back, or establish headquarters position and chain to knee slice or double under pass → Leads to [[Open Guard]]
-- **Opponent grips passer's sleeves or wrists to prevent effective hand pressure on knees** (Effectiveness: Low) - Your Response: Use wrist rotation and circular hand movements to break sleeve grips while maintaining forward pressure. Consider switching to pant grips at the ankles where sleeve control is less effective → Leads to [[Open Guard]]
+- **Opponent establishes strong collar grips to break posture and prevent standing** (Effectiveness: High) - Your Response: Strip grips immediately using two-on-one grip breaks, or establish leg grips first and accept momentary collar contact while executing the pass explosively before they can capitalize → Leads to [[Positions/Open Guard]]
+- **Opponent uses De La Riva or Reverse De La Riva hook to off-balance passer during lateral movement** (Effectiveness: High) - Your Response: Clear the hooking leg before attempting the Toreando by pushing it across their body or using a specific De La Riva guard pass. Alternatively, switch to a different passing approach when hooks are established → Leads to [[Positions/Open Guard]]
+- **Opponent frames with feet on hips or biceps to create distance and prevent grip establishment** (Effectiveness: Medium) - Your Response: Control opponent's ankle or heel with one hand while using the other to clear their frames. Once one leg is controlled, the Toreando becomes available on that side, or switch to knee cut pass → Leads to [[Positions/Open Guard]]
+- **Opponent follows the movement and re-guards by turning toward the passer during lateral step** (Effectiveness: Medium) - Your Response: If opponent turns successfully, immediately switch to back take as they expose their back, or establish headquarters position and chain to knee slice or double under pass → Leads to [[Positions/Open Guard]]
+- **Opponent grips passer's sleeves or wrists to prevent effective hand pressure on knees** (Effectiveness: Low) - Your Response: Use wrist rotation and circular hand movements to break sleeve grips while maintaining forward pressure. Consider switching to pant grips at the ankles where sleeve control is less effective → Leads to [[Positions/Open Guard]]
 
 
 </section>

@@ -154,7 +154,7 @@ description: "Defend against the snap down from dogfight position. Recognition c
 
 As the defender against the snap down from dogfight, your primary challenge is maintaining your elevated kneeling posture and underhook control when the top player attacks your head and neck with a sharp downward pull. The snap down is particularly dangerous because it converts the competitive dogfight position—where you have legitimate offensive options—into front headlock bottom, one of the most dangerous defensive positions in grappling. Your defensive strategy centers on recognizing the snap down setup before it fully develops, maintaining postural integrity through proper head position and hand posting, and counterattacking with forward drives or sweeps that exploit the top player's commitment to the pulling direction. Early recognition and immediate response are critical because once the snap fully breaks your posture and the opponent establishes chest pressure on your back, escape becomes significantly more difficult and energy-intensive.
 
-**Opponent's Starting Position**: [[Dogfight Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Dogfight Position]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the snap down from dogfight, your primary challenge is m
 ### 1. Post hands on mat and drive head upward against the snap, maintaining posture through skeletal structure rather than muscular resistance
 
 - **When to use**: As soon as you feel downward pulling pressure on your head or neck, before the snap has fully broken your posture past the point of recovery
-- **Targets**: [[Dogfight Position]]
+- **Targets**: [[Positions/Dogfight Position]]
 - **If successful**: You maintain your kneeling posture in dogfight and the opponent has wasted their whizzer position for a failed snap, creating an opening for your underhook sweep or back take
 - **Risk**: If you post both hands you temporarily release underhook control, and a quick opponent may convert the failed snap into a crossface or re-flatten before you recover the underhook
 
 ### 2. Drive forward explosively with underhook at the moment of snap initiation, using the opponent's backward sprawl against them to advance to a sweep
 
 - **When to use**: When you recognize the snap setup early and the opponent begins sprawling their hips back, creating the space and direction that your forward drive can exploit
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You reverse the position by driving through the opponent's sprawl, potentially sweeping to top half guard or side control as their weight moves away from you
 - **Risk**: If your forward drive is mistimed and the snap is deeper than expected, your forward momentum combined with the snap can accelerate your postural collapse into a deeper front headlock
 
 ### 3. Tuck chin and circle away from the snapping direction while maintaining underhook connection, denying the snap depth needed for front headlock establishment
 
 - **When to use**: When the snap has partially broken your posture but you still have enough mobility to change angle rather than fighting the pull directly head-on
-- **Targets**: [[Dogfight Position]]
+- **Targets**: [[Positions/Dogfight Position]]
 - **If successful**: You escape the snap angle and re-establish dogfight posture from a new angle, often with improved underhook positioning since the opponent released their whizzer for the snap attempt
 - **Risk**: Circling too aggressively may expose your back if the opponent follows your circle and converts the snap attempt into a go-behind back take
 
 ### 4. Drop level and shoot for a single leg or body lock takedown underneath the snap, converting their pulling energy into your takedown entry
 
 - **When to use**: When the opponent fully commits to the snap with maximum pulling force and backward hip sprawl, creating significant space underneath that you can penetrate through
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You complete the takedown by driving underneath their snap and establishing top position, completely reversing the exchange from a defensive to dominant outcome
 - **Risk**: A shallow or mistimed shot under the snap can result in getting caught in a deeper guillotine or front headlock as you change levels directly into their control
 
@@ -225,11 +225,11 @@ As the defender against the snap down from dogfight, your primary challenge is m
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your forward underhook drive to coincide with the opponent's snap initiation. As they pull downward and sprawl their hips back, their base becomes temporarily unstable. Drive explosively forward through their center line with your underhook, using the momentum differential between your forward drive and their backward sprawl to reverse the position and establish top control in half guard.
 
-### → [[Dogfight Position]]
+### → [[Positions/Dogfight Position]]
 
 Recognize the snap setup through the whizzer release cue and immediately tuck your chin while posting one hand on the mat for structural support. Resist the downward pull for the one to two seconds needed for the opponent's snap momentum to dissipate, then re-engage the underhook battle from an improved position since the opponent has abandoned their whizzer to attempt the failed snap.
 

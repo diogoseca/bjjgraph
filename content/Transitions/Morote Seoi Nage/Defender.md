@@ -154,7 +154,7 @@ description: "How to defend against Morote Seoi Nage in BJJ. Recognition cues, d
 
 Defending Morote Seoi Nage requires early recognition, strong posture management, and decisive counter-action during the narrow window before the thrower completes their rotation. Because this throw relies on bilateral sleeve control and deep hip entry, the defender's primary objective is to deny the kuzushi phase by maintaining upright posture and resisting the forward pull. If the entry begins, the defender must immediately address the hip loading by sprawling, circling away from the rotation, or blocking the thrower's hip turn with their own hip pressure. The defensive hierarchy prioritizes preventing the throw completion first, recovering neutral standing position second, and capitalizing on the thrower's compromised posture for counter-attacks third. Understanding the mechanical sequence of Morote Seoi Nage allows you to identify which phase the attacker is in and apply the highest-percentage defensive response for that specific moment.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -190,28 +190,28 @@ Defending Morote Seoi Nage requires early recognition, strong posture management
 ### 1. Sprawl with hip drop and whizzer control
 
 - **When to use**: Immediately when you feel the opponent's lead foot step across your stance and their hips begin to rotate, before they complete the loading phase
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent's throw is stuffed, their hips cannot get under you, and you end up with chest pressure on their back with potential front headlock or back take opportunity
 - **Risk**: If sprawl is late and opponent has already loaded you, the sprawl momentum can accelerate the throw. Must be initiated before back-to-chest contact is established.
 
 ### 2. Strip grips and circle away from rotation direction
 
 - **When to use**: During the kuzushi phase when opponent tightens both sleeve grips and pulls forward, before they have stepped in for the entry rotation
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Breaks the prerequisite grip configuration, resetting to neutral standing where you can re-engage on your terms with grip advantage
 - **Risk**: If grip break fails or is only partial, opponent may accelerate their entry while you are focused on hands rather than hip defense
 
 ### 3. Block hip rotation with cross-hip pressure and step behind
 
 - **When to use**: When the opponent has begun rotating but has not yet fully loaded you onto their back, and you still have your hips behind theirs
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Prevents the throw completion and can create a scramble where you take the opponent's back or establish a body lock from behind as they are turned away
 - **Risk**: If your hip block is weak or late, the opponent can power through with leg drive and complete the throw from the partially loaded position
 
 ### 4. Counter-rotate and sit to guard
 
 - **When to use**: As a last resort when the throw is partially completed and you are being lifted, use the rotational momentum to pull opponent into your closed guard rather than landing flat on your back in side control
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You land on your back but immediately establish closed guard or half guard, denying the opponent side control and converting a bad situation into a neutral guard position
 - **Risk**: You concede the takedown points but avoid the worst outcome of landing flat in side control with no defensive structure
 
@@ -223,11 +223,11 @@ Defending Morote Seoi Nage requires early recognition, strong posture management
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Sprawl decisively at the first sign of entry rotation, driving your hips down and back to prevent the opponent from loading you. As their failed throw leaves them bent forward with their back exposed, transition to front headlock control or circle to take their back from standing. Alternatively, strip both sleeve grips during the kuzushi pull before the entry begins, resetting to neutral with grip advantage.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 If the throw is partially initiated and you cannot fully prevent it, block the hip rotation by driving your hips into the opponent's back and stepping around behind them, creating a scramble. Alternatively, as the throw begins to lift you, counter-rotate your body and pull the opponent into your closed guard to avoid landing flat in side control, accepting the takedown but denying dominant position.
 

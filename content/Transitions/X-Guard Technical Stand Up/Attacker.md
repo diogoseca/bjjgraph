@@ -180,7 +180,7 @@ description: "Learn to execute the X-Guard Technical Stand Up with step-by-step 
 
 The X-Guard Technical Stand Up requires precise coordination between your leg hooks, posting hand, and hip drive to safely transition from bottom to standing. As the attacker, your goal is to use the momentary off-balancing effect of X-Guard to create a window where you can post behind you and drive your hips forward to stand. The technique demands timing rather than strength, leveraging the structural control of X-Guard to freeze your opponent's base while you build your own. Success depends on maintaining leg control throughout the transition so you arrive standing with immediate offensive options rather than resetting to a neutral exchange. The stand-up creates a natural chain with single leg finishes, ankle picks, and clinch entries, making it a gateway technique that converts guard play into top game pressure.
 
-**From Position**: [[X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The X-Guard Technical Stand Up requires precise coordination between your leg ho
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[X-Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/X-Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The X-Guard Technical Stand Up requires precise coordination between your leg ho
 
 ## Opponent Counters
 
-- **Opponent posts free hand and hip escapes to recover guard structure before stand-up completes** (Effectiveness: High) - Your Response: Time the stand-up with a strong initial elevation that forces opponent to use both hands for balance recovery rather than posting, or chain directly from a sweep fake into the stand-up when their posting hand is already occupied → Leads to [[X-Guard]]
-- **Opponent grabs collar or head and pulls downward as you begin to stand** (Effectiveness: Medium) - Your Response: Keep head up and chest driving forward throughout the transition; break the collar grip by circling your head free before committing fully to the stand-up, or use your free hand to strip the grip during the posting phase → Leads to [[X-Guard]]
-- **Opponent sits to open guard and establishes grips as you release hooks to stand** (Effectiveness: Medium) - Your Response: Maintain ankle control throughout the entire transition and immediately attack with single leg pressure before opponent can consolidate guard grips; do not pause at standing → Leads to [[Open Guard]]
-- **Opponent drives forward with crossface pressure to flatten you during the posting phase** (Effectiveness: Low) - Your Response: Time the stand-up when opponent's weight is shifted backward; if they drive forward aggressively, convert to an elevation sweep using their forward momentum against them rather than fighting the pressure → Leads to [[X-Guard]]
+- **Opponent posts free hand and hip escapes to recover guard structure before stand-up completes** (Effectiveness: High) - Your Response: Time the stand-up with a strong initial elevation that forces opponent to use both hands for balance recovery rather than posting, or chain directly from a sweep fake into the stand-up when their posting hand is already occupied → Leads to [[Positions/X-Guard]]
+- **Opponent grabs collar or head and pulls downward as you begin to stand** (Effectiveness: Medium) - Your Response: Keep head up and chest driving forward throughout the transition; break the collar grip by circling your head free before committing fully to the stand-up, or use your free hand to strip the grip during the posting phase → Leads to [[Positions/X-Guard]]
+- **Opponent sits to open guard and establishes grips as you release hooks to stand** (Effectiveness: Medium) - Your Response: Maintain ankle control throughout the entire transition and immediately attack with single leg pressure before opponent can consolidate guard grips; do not pause at standing → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward with crossface pressure to flatten you during the posting phase** (Effectiveness: Low) - Your Response: Time the stand-up when opponent's weight is shifted backward; if they drive forward aggressively, convert to an elevation sweep using their forward momentum against them rather than fighting the pressure → Leads to [[Positions/X-Guard]]
 
 
 </section>

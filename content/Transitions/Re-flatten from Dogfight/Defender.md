@@ -146,7 +146,7 @@ description: "Learn to defend the Re-flatten from Dogfight as the bottom player.
 
 Defending the re-flatten from the dogfight bottom position requires understanding the top player's pressure mechanics and deploying proactive structural defenses before the flattening sequence gains momentum. The bottom player's primary defensive tools are maintaining the depth and angle of their underhook, preserving head position against the crossface, and keeping their posting points wide and mobile to resist the directional hip drive. Early recognition of the re-flatten attempt is critical because the technique becomes exponentially harder to defend once the top player establishes crossface control and begins generating whizzer torque. Successful defense often transitions directly into offensive opportunities as the top player overcommits to the flattening pressure, creating windows for sweeps and back takes.
 
-**Opponent's Starting Position**: [[Dogfight Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Dogfight Position]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the re-flatten from the dogfight bottom position requires understandin
 ### 1. Deepen underhook and drive forward explosively before the crossface locks in
 
 - **When to use**: When the crossface is not yet fully established and you still have head position advantage with your underhook actively threatening
-- **Targets**: [[Dogfight Position]]
+- **Targets**: [[Positions/Dogfight Position]]
 - **If successful**: Maintains dogfight position and potentially creates back take opportunity as opponent is pushed backward off their pressure angle
 - **Risk**: If underhook is stripped during the forward drive, you are exposed to immediate flattening without defensive frames in place
 
 ### 2. Drop level and enter deep half guard before flattening pressure completes
 
 - **When to use**: When the crossface is established and you cannot maintain upright posture against the combined pressure of crossface, whizzer, and hip drive
-- **Targets**: [[Dogfight Position]]
+- **Targets**: [[Positions/Dogfight Position]]
 - **If successful**: Transitions to deep half guard where sweeping mechanics are strong and the top player must completely adjust their passing strategy
 - **Risk**: If the opponent follows your level change and maintains chest contact, you may end up in a compromised flattened position rather than established deep half
 
 ### 3. Circle away from crossface and redirect opponent's forward momentum for a counter-sweep
 
 - **When to use**: When the opponent overcommits their weight forward during the hip drive phase and their base narrows from the driving effort
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Sweeps the opponent to half guard bottom using their own forward momentum against them, achieving a complete positional reversal
 - **Risk**: If the sweep fails, the circling motion may create an angle that accelerates the flattening and gives the top player side control access
 
 ### 4. Post outside hand wide and re-pummel underhook deeper while sprawling hips back momentarily
 
 - **When to use**: When the whizzer torque is the primary threat and the crossface pressure is still manageable through head positioning
-- **Targets**: [[Dogfight Position]]
+- **Targets**: [[Positions/Dogfight Position]]
 - **If successful**: Neutralizes the whizzer torque by deepening the underhook past the control range and re-establishes strong dogfight posture with offensive initiative
 - **Risk**: Posting the hand removes it from offensive gripping and may allow the top player to achieve crossface dominance if re-pummeling is too slow
 
@@ -217,11 +217,11 @@ Defending the re-flatten from the dogfight bottom position requires understandin
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a counter-sweep when the top player overcommits their weight forward during the hip drive phase. Use their momentum against them by redirecting their driving force laterally while simultaneously elevating with your underhook and outside leg to complete the reversal to top position.
 
-### → [[Dogfight Position]]
+### → [[Positions/Dogfight Position]]
 
 Prevent the re-flatten by maintaining deep underhook depth reaching past the opponent's far shoulder, keeping your head pressed into the opponent's body to resist crossface, and maintaining a wide mobile base with your posting leg. Active forward pressure through the underhook neutralizes the top player's ability to generate the directional hip drive needed for flattening.
 

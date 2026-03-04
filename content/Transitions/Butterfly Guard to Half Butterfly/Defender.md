@@ -146,7 +146,7 @@ description: "How to defend against the Transition to Half Butterfly in BJJ. Mai
 
 As the defender in this scenario, you are the bottom player in butterfly guard attempting to prevent the top player from clearing one of your hooks. Your butterfly guard is at its most powerful with both hooks engaged, and losing one hook dramatically reduces your sweeping capability while giving the passer a significant positional advantage. Defense centers on maintaining active hook pressure, disrupting the passer's upper body control that enables the clearing sequence, and having immediate counter-attacks ready when the passer commits weight to one side. Your goal is either to retain full butterfly guard or capitalize on the passer's commitment to the clearing sequence by executing sweeps in the direction of their weight shift.
 
-**Opponent's Starting Position**: [[Butterfly Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender in this scenario, you are the bottom player in butterfly guard a
 ### 1. Elevate and sweep in the direction of weight shift
 
 - **When to use**: When you feel the passer commit weight to one side for the clearing sequence, use their momentum against them with a butterfly sweep in that direction
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You end up in mount or top position after capitalizing on the passer's committed weight distribution
 - **Risk**: If mistimed, your elevation attempt may accelerate their hook clearing if they are prepared to sprawl and redirect
 
 ### 2. Hip scoot backward to re-engage cleared hook
 
 - **When to use**: Immediately when you feel one hook being pushed past engagement point, scoot hips back to maintain the hook under their thigh
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Both hooks remain engaged and you return to full butterfly guard with both hooks intact
 - **Risk**: Scooting creates momentary space that the passer can use to advance their upper body control or switch to a different passing approach
 
 ### 3. Frame and re-insert the cleared hook before consolidation
 
 - **When to use**: If one hook is cleared but the passer has not yet consolidated half butterfly top, frame on their shoulder or bicep to create space and slide your foot back to hook position
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: You recover full butterfly guard and reset the passing exchange from a neutral position
 - **Risk**: The framing effort may open space that the passer exploits for passing if the re-insertion is too slow
 
 ### 4. Transition to deep half guard
 
 - **When to use**: When the hook clearing is inevitable and the passer's weight is committed forward, dive under their hips to establish deep half guard rather than accepting half butterfly bottom
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You bypass the disadvantageous half butterfly bottom and enter deep half guard which offers its own sweep and back take opportunities
 - **Risk**: Mistimed deep half entry can result in the passer sprawling and establishing heavy crossface control in an even worse position
 
@@ -217,11 +217,11 @@ As the defender in this scenario, you are the bottom player in butterfly guard a
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Time a butterfly sweep to coincide with the passer's weight shift during the clearing attempt. As they commit weight toward the clearing side, use the hook on that side to elevate while pulling with your upper body grips, directing them over your body and into a mounted position for you.
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 Maintain active hook pressure and fight grips to prevent the passer from establishing the upper body control needed for the clearing sequence. Use hip mobility to scoot back and re-engage any partially cleared hooks. Keep the position symmetrical with both hooks functional.
 

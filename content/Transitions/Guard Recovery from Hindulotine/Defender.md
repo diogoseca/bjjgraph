@@ -154,7 +154,7 @@ description: "Prevent guard recovery from Hindulotine as the top player in BJJ. 
 
 As the top player escaping from Hindulotine control, the bottom player's angular hip position gives you a significant structural advantage during their recovery attempt. The Hindulotine's rotational mechanics leave the bottom player's hips turned with one side of their back partially exposed - this exposed flank is your primary target for passing advancement. Your objective is to exploit this angular weakness by circling toward the exposed side, preventing hip realignment, and advancing to side control or back take before the bottom player can square up and establish functional guard structure. The key is recognizing that the bottom player must complete a hip realignment before their guard becomes structurally sound, and your job is to prevent that realignment.
 
-**Opponent's Starting Position**: [[Hindulotine]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ As the top player escaping from Hindulotine control, the bottom player's angular
 ### 1. Circle rapidly toward the bottom player's exposed back side before hip realignment completes, advancing past their guard structure to side control or back control
 
 - **When to use**: Immediately when the Hindulotine grip releases and before the bottom player establishes a knee shield on the exposed flank
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You advance to side control on the exposed flank with the bottom player's guard completely bypassed, consolidating with crossface and underhook
 - **Risk**: If the bottom player reads the circling movement early and establishes the knee shield, you may end up stuck against their strongest guard angle
 
 ### 2. Pin the bottom player's near-side hip with your hand or knee to prevent the rotation needed for hip realignment, maintaining the angular weakness
 
 - **When to use**: When the bottom player begins hip rotation but has not yet completed squaring up to face you
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: The bottom player remains stuck in the angular position unable to complete guard recomposition, giving you time to set up a more deliberate pass
 - **Risk**: Dedicating a hand to the hip pin reduces your upper body control options and may allow the bottom player to establish grips
 
 ### 3. Drive heavy crossface pressure toward the exposed side to flatten the bottom player and collapse their frame structure during the grip transition
 
 - **When to use**: When the bottom player has released the Hindulotine but has not yet established leg barriers or completed grip conversion
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You flatten the bottom player and consolidate side control before they can establish any guard structure
 - **Risk**: If the bottom player still has partial Hindulotine grip control, driving into them may allow them to re-lock the choke
 
 ### 4. Strip the overhook conversion and posture up aggressively to create distance and establish passing grips before the bottom player can recompose guard at range
 
 - **When to use**: When the bottom player successfully converts to overhook and you cannot immediately advance through the angular opening
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: You break all upper body connection and establish a passing stance with grip advantages against an incomplete guard structure
 - **Risk**: Creating distance gives the bottom player space for hip realignment, potentially eliminating the angular advantage entirely
 
@@ -224,11 +224,11 @@ As the top player escaping from Hindulotine control, the bottom player's angular
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Circle to the exposed back side during the grip transition window before the bottom player completes hip realignment, driving crossface pressure to flatten their structure and consolidating side control with underhook and crossface
 
-### → [[Hindulotine]]
+### → [[Positions/Hindulotine]]
 
 Pin the bottom player's hip to prevent rotation and strip their transitional grips, maintaining the angular disadvantage that prevents them from establishing structurally sound guard
 

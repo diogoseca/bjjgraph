@@ -178,7 +178,7 @@ The Hip Bump Sweep serves as a cornerstone technique in closed guard offense, te
 
 This sweep is considered essential curriculum for white and blue belts, as it develops fundamental skills in breaking posture, creating angles, and understanding weight distribution. The Hip Bump Sweep integrates seamlessly into closed guard attack systems and creates multiple offensive opportunities through the reactions it generates from opponents.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ This sweep is considered essential curriculum for white and blue belts, as it de
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Mount]] | 60% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ This sweep is considered essential curriculum for white and blue belts, as it de
 
 ## Opponent Counters
 
-- **Opponent posts their right hand wide to prevent the sweep** (Effectiveness: High) - Your Response: Switch to triangle attack by bringing right leg over opponent's posted arm and across their back, or transition to armbar by sitting back and extending the posted arm → Leads to [[Closed Guard]]
-- **Opponent pulls their arm free and bases with both hands** (Effectiveness: Medium) - Your Response: Immediately transition to kimura grip on the freed arm, or switch to scissor sweep by changing hip angle and using different leverage point → Leads to [[Closed Guard]]
-- **Opponent drives their weight backward to counter the forward bump** (Effectiveness: Medium) - Your Response: Follow opponent's backward movement into pendulum sweep or flower sweep, using their momentum against them → Leads to [[Closed Guard]]
-- **Opponent sprawls their hips back and circles away from the sweep** (Effectiveness: Low) - Your Response: Maintain guard closure and return to posture breaking, or transition to omoplata as they circle → Leads to [[Closed Guard]]
+- **Opponent posts their right hand wide to prevent the sweep** (Effectiveness: High) - Your Response: Switch to triangle attack by bringing right leg over opponent's posted arm and across their back, or transition to armbar by sitting back and extending the posted arm → Leads to [[Positions/Closed Guard]]
+- **Opponent pulls their arm free and bases with both hands** (Effectiveness: Medium) - Your Response: Immediately transition to kimura grip on the freed arm, or switch to scissor sweep by changing hip angle and using different leverage point → Leads to [[Positions/Closed Guard]]
+- **Opponent drives their weight backward to counter the forward bump** (Effectiveness: Medium) - Your Response: Follow opponent's backward movement into pendulum sweep or flower sweep, using their momentum against them → Leads to [[Positions/Closed Guard]]
+- **Opponent sprawls their hips back and circles away from the sweep** (Effectiveness: Low) - Your Response: Maintain guard closure and return to posture breaking, or transition to omoplata as they circle → Leads to [[Positions/Closed Guard]]
 
 
 </section>

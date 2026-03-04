@@ -154,7 +154,7 @@ description: "How to defend against X-Guard to Ashi Transition in BJJ. Recogniti
 
 Defending the X-Guard to Ashi Garami transition requires understanding the precise mechanical sequence your opponent must complete and identifying the windows where each step can be disrupted. The defender is the standing player whose leg is trapped in X-Guard and who faces an opponent attempting to reconfigure from sweep-oriented hooks into leg entanglement controls. Your primary advantage is gravity and the ability to generate downward pressure, but this advantage erodes rapidly once the opponent establishes perpendicular angle and heel control. The critical defensive window exists between the moment your opponent releases their bottom hook and when they fully establish Inside Ashi-Garami configuration. During this window, you have multiple high-percentage options: extracting your trapped leg before the new configuration locks in, stepping over the incoming inside leg to deny position, or driving forward pressure to collapse the transition before it completes. Successful defense requires early recognition of the transition attempt rather than reactive scrambling after the position is established. Once full Inside Ashi-Garami is locked in with heel control, your defensive options become significantly more limited and dangerous. Understanding the attacker's sequential dependencies, specifically that they must release one hook before establishing the new leg configuration, gives you a clear map of when and how to intervene. The defender who can consistently shut down this transition forces the X-Guard player back into a purely sweep-based game, which is far less threatening than the combined sweep-and-submission system that the Ashi entry creates.
 
-**Opponent's Starting Position**: [[X-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/X-Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the X-Guard to Ashi Garami transition requires understanding the preci
 ### 1. Immediate leg extraction by driving your knee forward and pulling your foot back while their bottom hook is released
 
 - **When to use**: The instant you feel the bottom hook disengage from your hip. This window is narrow: you have approximately 1-2 seconds before the new inside leg position locks in.
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: You free your trapped leg entirely, breaking the X-Guard configuration and establishing top position with passing opportunities. Immediately advance to guard pass before opponent can re-establish any guard.
 - **Risk**: If you pull your leg back too slowly, you extend it directly into their control zone, actually making the Ashi entry easier. Failed extraction often accelerates their transition.
 
 ### 2. Step over the incoming inside leg by lifting your free leg and placing it on the opposite side of their threading leg before it crosses your centerline
 
 - **When to use**: When you see or feel their bottom leg beginning to thread across your hip. This must occur before their foot passes your centerline, otherwise you step into a deeper entanglement.
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: You deny inside position entirely, collapsing the Ashi configuration before it forms. From here you can immediately pressure pass or establish top control since their guard structure is broken.
 - **Risk**: Stepping over requires momentary single-leg balance, which can be exploited if they time a sweep during your weight transfer. Also risks entering outside Ashi if executed poorly.
 
 ### 3. Drive forward pressure by dropping your hips low and driving your chest into their torso, collapsing the space needed for their hip escape and angle creation
 
 - **When to use**: As soon as you recognize the transition attempt beginning, particularly when you feel the upward pressure from X-Guard hooks diminish. Most effective before they complete the hip escape.
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: You flatten their hip escape angle, preventing perpendicular positioning. This forces them back into standard X-Guard where they must restart the transition sequence. From flattened position, you can begin systematic hook removal and guard passing.
 - **Risk**: If they have already established partial Ashi configuration, forward pressure can drive you into their entanglement. Also risks being swept if they retain sufficient X-Guard hooks during your forward drive.
 
 ### 4. Strip heel grips aggressively with both hands while maintaining base through your free leg and core tension
 
 - **When to use**: When you feel their hands transitioning to your heel or Achilles tendon, indicating they are entering the grip consolidation phase of the transition. This is a secondary defense when earlier windows have passed.
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: Breaking heel control removes the submission threat and makes the Ashi position far less dangerous, giving you time to work leg extraction or establish defensive positioning within the entanglement.
 - **Risk**: Using both hands for grip stripping means you cannot post for balance, making you vulnerable to sweeps. If they have strong leg configuration already, grip fighting alone may not prevent position establishment.
 
@@ -225,11 +225,11 @@ Defending the X-Guard to Ashi Garami transition requires understanding the preci
 
 ## Best-Case Outcomes for Defender
 
-### → [[X-Guard]]
+### → [[Positions/X-Guard]]
 
 Extract your trapped leg during the transition window when opponent releases their bottom hook. Drive your knee forward assertively while pulling your foot back, then immediately advance to a passing position before they can re-establish guard hooks. Alternatively, step over their incoming inside leg before it crosses your centerline to deny Ashi configuration entirely.
 
-### → [[X-Guard]]
+### → [[Positions/X-Guard]]
 
 Drive forward pressure to collapse their hip escape angle, forcing them back into standard X-Guard configuration. Strip their heel grips with both hands to remove submission threat and stall the transition. From here you reset to standard X-Guard top passing defense, which is a significantly better defensive position than Inside Ashi-Garami bottom.
 

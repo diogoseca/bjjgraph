@@ -26,8 +26,8 @@ Historically developed and refined within the 10th Planet system, the Electric C
 **Category**: Compression
 **Type**: Knee and Hip Compression
 **Target Area**: Knee joint, hip flexors, and posterior chain
-**Starting Position**: [[Lockdown]]
-**From Position**: [[Lockdown]] (Bottom)
+**Starting Position**: [[Positions/Half Guard/Lockdown]]
+**From Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 **Success Rate**: 62%
 
 </section>
@@ -87,8 +87,8 @@ Historically developed and refined within the 10th Planet system, the Electric C
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Lockdown]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -246,13 +246,13 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 ## From Which Positions?
 
-- [[Lockdown]]
-- [[Half Guard]]
-- [[Deep Half Guard]]
-- [[Butterfly Half Guard]]
-- [[Old School]]
-- [[Dogfight Position]]
-- [[Electric Chair]]
+- [[Positions/Half Guard/Lockdown]]
+- [[Positions/Half Guard]]
+- [[Positions/Half Guard/Deep Half Guard]]
+- [[Positions/Half Guard/Butterfly Half Guard]]
+- [[Positions/Half Guard/Old School]]
+- [[Positions/Dogfight Position]]
+- [[Positions/Half Guard/Electric Chair]]
 
 
 </section>
@@ -261,17 +261,17 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 ## Related Submissions
 
-- [[Calf Slicer]]
-- [[Banana Split]]
-- [[Crotch Ripper]]
-- [[Twister]]
-- [[Kneebar]]
-- [[Toe Hold]]
-- [[Heel Hook]]
-- [[Straight Ankle Lock]]
-- [[Achilles Lock]]
-- [[Boston Crab]]
-- [[Estima Lock]]
+- [[Transitions/Calf Slicer]]
+- [[Submissions/Banana Split]]
+- [[Submissions/Crotch Ripper]]
+- [[Submissions/Twister]]
+- [[Transitions/Kneebar]]
+- [[Transitions/Toe Hold]]
+- [[Transitions/Heel Hook]]
+- [[Submissions/Straight Ankle Lock]]
+- [[Submissions/Achilles Lock]]
+- [[Submissions/Boston Crab]]
+- [[Positions/Estima Lock]]
 
 
 </section>
@@ -280,16 +280,16 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 ## Additional Related Content
 
-- [[Lockdown]] - Primary starting position - Electric Chair is signature submission from lockdown control
-- [[Old School]] - Alternative attack from same lockdown setup; often used when Electric Chair is defended
-- [[Twister]] - Advanced follow-up submission when transitioning from Electric Chair to truck position
-- [[Banana Split]] - Alternative compression submission targeting similar anatomical structures with different leg configuration
-- [[Calf Slicer from Truck]] - Related leg compression technique often combined with Electric Chair in sequence
-- [[Truck]] - Advanced position transition available from Electric Chair defensive reactions
-- [[Half Guard]] - Foundational position from which lockdown and Electric Chair are established
-- [[Dogfight Position]] - Common transition position when opponent defends Electric Chair by attempting to come up
-- [[Back Control]] - Available transition when opponent turns away from Electric Chair pressure
-- [[Leg Entanglement]] - Conceptual framework for understanding how Electric Chair controls and attacks the leg
+- [[Positions/Half Guard/Lockdown]] - Primary starting position - Electric Chair is signature submission from lockdown control
+- [[Positions/Half Guard/Old School]] - Alternative attack from same lockdown setup; often used when Electric Chair is defended
+- [[Submissions/Twister]] - Advanced follow-up submission when transitioning from Electric Chair to truck position
+- [[Submissions/Banana Split]] - Alternative compression submission targeting similar anatomical structures with different leg configuration
+- [[Submissions/Calf Slicer from Truck]] - Related leg compression technique often combined with Electric Chair in sequence
+- [[Positions/Twister Control/Truck]] - Advanced position transition available from Electric Chair defensive reactions
+- [[Positions/Half Guard]] - Foundational position from which lockdown and Electric Chair are established
+- [[Positions/Dogfight Position]] - Common transition position when opponent defends Electric Chair by attempting to come up
+- [[Positions/Back Control]] - Available transition when opponent turns away from Electric Chair pressure
+- [[Positions/Leg Entanglement]] - Conceptual framework for understanding how Electric Chair controls and attacks the leg
 
 
 </section>

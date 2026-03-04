@@ -21,7 +21,7 @@ Establishing DLR from open guard requires precise timing and grip sequencing. Th
 
 This transition serves as the gateway to the entire De La Riva system, connecting generic open guard to berimbolo entries, X-Guard and Single Leg X transitions, direct sweeps, and modern leg entanglement pathways. Players who master this entry can threaten the DLR hook from nearly any open guard configuration, forcing the top player to constantly manage their lead leg positioning and making their guard passing substantially more difficult. The frequency with which this transition appears in high-level competition underscores its importance as a core skill for any guard-centric game plan.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition serves as the gateway to the entire De La Riva system, connectin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[De La Riva Guard]] | 55% |
-| Failure | [[Open Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/De La Riva Guard]] | 55% |
+| Failure | [[Positions/Open Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Open Guard to De La Riva transition occupies a critical node within the BJJ 
 ## Related Techniques
 
 
-- [[De La Riva Guard]] - Target position achieved upon successful DLR hook and grip establishment
+- [[Positions/De La Riva Guard]] - Target position achieved upon successful DLR hook and grip establishment
 
-- [[Open Guard]] - Source position from which this transition initiates
+- [[Positions/Open Guard]] - Source position from which this transition initiates
 
-- [[Reverse De La Riva Guard]] - Alternative hook direction available when opponent backsteps past the DLR hook line
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Alternative hook direction available when opponent backsteps past the DLR hook line
 
-- [[X-Guard]] - Primary follow-up transition from established DLR when opponent maintains upright posture
+- [[Positions/X-Guard]] - Primary follow-up transition from established DLR when opponent maintains upright posture
 
-- [[Single Leg X-Guard]] - Common follow-up position from DLR when opponent stands tall or attempts to retract the hooked leg
+- [[Positions/X-Guard/Single Leg X-Guard]] - Common follow-up position from DLR when opponent stands tall or attempts to retract the hooked leg
 
-- [[Spider Guard]] - Alternative open guard upgrade that shares grip principles and can transition to DLR
+- [[Positions/Spider Guard]] - Alternative open guard upgrade that shares grip principles and can transition to DLR
 
-- [[Collar Sleeve Guard]] - Alternative open guard upgrade whose sleeve grips can facilitate the DLR hook entry
+- [[Positions/Collar Sleeve Guard]] - Alternative open guard upgrade whose sleeve grips can facilitate the DLR hook entry
 
-- [[De La Riva Sweep]] - Primary sweep attack available immediately after successful DLR establishment
+- [[Transitions/De La Riva Sweep]] - Primary sweep attack available immediately after successful DLR establishment
 
-- [[Berimbolo Entry]] - Advanced back take technique accessible from established DLR position
+- [[Transitions/Berimbolo Entry]] - Advanced back take technique accessible from established DLR position
 
-- [[Backstep from De La Riva]] - Top player's primary counter-technique used to dismantle the DLR hook
+- [[Transitions/Backstep from De La Riva]] - Top player's primary counter-technique used to dismantle the DLR hook
 
 
 </section>

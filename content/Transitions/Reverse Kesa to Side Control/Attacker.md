@@ -180,7 +180,7 @@ description: "Master the Reverse Kesa to Side Control transition from the attack
 
 As the top player executing the Reverse Kesa to Side Control transition, your primary objective is rotating from the reverse scarf hold orientation to standard perpendicular side control while maintaining continuous pressure and arm control. This transition gives you access to the full side control submission arsenal and clearer advancement pathways to mount. The key challenge is managing the rotational movement without creating space gaps that the bottom player can exploit for guard recovery or escape. Success depends on timing the rotation correctly, maintaining chest contact throughout the movement, and immediately establishing crossface control upon completing the rotation.
 
-**From Position**: [[Reverse Kesa-Gatame]] (Top)
+**From Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ As the top player executing the Reverse Kesa to Side Control transition, your pr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Reverse Kesa-Gatame]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Side Control/Reverse Kesa-Gatame]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ As the top player executing the Reverse Kesa to Side Control transition, your pr
 
 ## Opponent Counters
 
-- **Bottom player bridges explosively during the rotation to create space and disrupt the transition** (Effectiveness: High) - Your Response: Ride the bridge by staying connected through your chest pivot point. Widen your base immediately and drop your hips lower. If the bridge creates significant space, abandon the transition and re-settle in reverse kesa rather than forcing completion. → Leads to [[Reverse Kesa-Gatame]]
-- **Bottom player inserts near knee across your hip line during the rotation gap to recover half guard** (Effectiveness: High) - Your Response: Drive your hip forward to smash the knee back down before it establishes position. If their knee is already through, immediately switch to a knee slice passing sequence from the newly formed half guard top rather than forcing the side control transition. → Leads to [[Half Guard]]
-- **Bottom player frames with free arm against your shoulder or neck during the rotation to create distance** (Effectiveness: Medium) - Your Response: Swim through or collapse the frame by driving your shoulder into their forearm. Use your chest weight to crush the frame flat. If the frame is established before you rotate, return to reverse kesa and re-secure arm control before attempting again. → Leads to [[Reverse Kesa-Gatame]]
-- **Bottom player shrimps hips away during the transition to create distance for guard recovery** (Effectiveness: Medium) - Your Response: Follow their hip movement by advancing your hips forward, maintaining contact. If they create significant distance, accelerate the transition and immediately drop into crossface side control pressure before they can fully establish guard. → Leads to [[Reverse Kesa-Gatame]]
+- **Bottom player bridges explosively during the rotation to create space and disrupt the transition** (Effectiveness: High) - Your Response: Ride the bridge by staying connected through your chest pivot point. Widen your base immediately and drop your hips lower. If the bridge creates significant space, abandon the transition and re-settle in reverse kesa rather than forcing completion. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
+- **Bottom player inserts near knee across your hip line during the rotation gap to recover half guard** (Effectiveness: High) - Your Response: Drive your hip forward to smash the knee back down before it establishes position. If their knee is already through, immediately switch to a knee slice passing sequence from the newly formed half guard top rather than forcing the side control transition. → Leads to [[Positions/Half Guard]]
+- **Bottom player frames with free arm against your shoulder or neck during the rotation to create distance** (Effectiveness: Medium) - Your Response: Swim through or collapse the frame by driving your shoulder into their forearm. Use your chest weight to crush the frame flat. If the frame is established before you rotate, return to reverse kesa and re-secure arm control before attempting again. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
+- **Bottom player shrimps hips away during the transition to create distance for guard recovery** (Effectiveness: Medium) - Your Response: Follow their hip movement by advancing your hips forward, maintaining contact. If they create significant distance, accelerate the transition and immediately drop into crossface side control pressure before they can fully establish guard. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
 
 
 </section>

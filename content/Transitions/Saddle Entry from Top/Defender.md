@@ -164,7 +164,7 @@ The defense operates on a timeline of diminishing returns. At the earliest stage
 
 Modern defensive methodology emphasizes proactive leg management from bottom positions. Rather than waiting to react to entry attempts, skilled defenders maintain awareness of their leg positioning relative to the top player throughout guard interactions. Keeping knees close to the body, avoiding extended legs when possible, and maintaining frames that prevent the step-over are all preventive measures that reduce the frequency of successful entries before they begin.
 
-**Opponent's Starting Position**: [[Headquarters Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Headquarters Position]] (Top)
 
 </section>
 
@@ -202,35 +202,35 @@ Modern defensive methodology emphasizes proactive leg management from bottom pos
 ### 1. Immediately retract near leg by pulling knee to chest and turning hip away from attacker
 
 - **When to use**: At the earliest stage when opponent first grips your leg before the step-over begins
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Denies the entry entirely and resets to standard guard passing scenario where you retain defensive guard structure
 - **Risk**: If retraction is too slow, opponent follows the leg and may achieve partial entanglement or use your turning motion to take the back
 
 ### 2. Frame on opponent's hip with far leg and push to create distance while stripping ankle grip with hands
 
 - **When to use**: When opponent has gripped your leg but has not yet stepped over - prevents the angle creation phase
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Creates enough distance to free your leg and recover guard position with opponent still in top passing position
 - **Risk**: If opponent maintains grip despite your frame, they can use your push to accelerate the step-over by pulling your leg past your frame
 
 ### 3. Sit up aggressively and attack opponent's upper body with underhook or collar tie while they focus on leg control
 
 - **When to use**: During the step-over phase when opponent's hands are committed to leg control and their posture is compromised
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Forces opponent to abandon leg entry to defend upper body attack, often resulting in scramble where you can recover to neutral or take top position
 - **Risk**: If opponent maintains leg control despite your sit-up, you may end up in a worse position with your leg still trapped and your base compromised
 
 ### 4. Bring far leg over opponent's head and body to clear the knee line before entanglement completes
 
 - **When to use**: During the threading phase when opponent has stepped over but has not yet locked their feet together
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Clears your knee past their leg configuration, preventing the saddle from locking and allowing guard recovery
 - **Risk**: Requires significant hip mobility and timing; if too late, your far leg gets captured and the entanglement deepens
 
 ### 5. Invert and roll through the entanglement to face opponent before saddle locks
 
 - **When to use**: As a last resort when the step-over is nearly complete but feet are not yet locked
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Reverses the angle of entanglement and can create scramble opportunities or transition to counter-entanglement
 - **Risk**: Requires excellent inversion ability; mistimed inversion can tighten the entanglement and accelerate the saddle lock
 
@@ -242,11 +242,11 @@ Modern defensive methodology emphasizes proactive leg management from bottom pos
 
 ## Best-Case Outcomes for Defender
 
-### → [[Headquarters Position]]
+### → [[Positions/Headquarters Position]]
 
 React at the earliest possible moment by retracting your near leg and stripping grips before the step-over begins. Use your far leg to frame on the opponent's hips to prevent them from following. Re-establish guard frames and return to standard guard retention against passing.
 
-### → [[Headquarters Position]]
+### → [[Positions/Headquarters Position]]
 
 Exploit the opponent's commitment to leg control by sitting up aggressively with upper body attacks during the step-over phase. When they abandon their base to thread their leg, use the momentum to achieve an underhook or collar tie and drive into them, forcing a scramble where your aggressive posture creates top position opportunities.
 

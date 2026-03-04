@@ -21,7 +21,7 @@ The effectiveness of the Ankle Pick lies in its ability to create a sudden level
 
 In the modern BJJ meta-game, the Ankle Pick serves as both a primary offensive takedown and an excellent setup for other attacks. When opponents defend the ankle grip, they often create opportunities for arm drags, snap downs, or transitions to the clinch. The ankle pick also integrates seamlessly with guard pulling strategies, as the same forward motion can be converted into a seated guard entry if the takedown is defended. This versatility makes it an essential tool for competitors who need reliable standing techniques that complement their ground game.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ In the modern BJJ meta-game, the Ankle Pick serves as both a primary offensive t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Standing Position]] | 35% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Standing Position]] | 35% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -201,27 +201,27 @@ In the broader BJJ system, the Ankle Pick functions as both a primary attack and
 ## Related Techniques
 
 
-- [[Single Leg Entry]] - Alternative low-level takedown sharing similar level change mechanics
+- [[Transitions/Single Leg Entry]] - Alternative low-level takedown sharing similar level change mechanics
 
-- [[Arm Drag to Back]] - Setup technique that creates ideal angle for ankle pick follow-up
+- [[Transitions/Arm Drag to Back]] - Setup technique that creates ideal angle for ankle pick follow-up
 
-- [[Snap Down to Front Headlock]] - Combination attack when ankle pick is defended with backward movement
+- [[Transitions/Snap Down to Front Headlock]] - Combination attack when ankle pick is defended with backward movement
 
-- [[Sprawl]] - Primary counter defense opponent uses against ankle pick level change
+- [[Transitions/Sprawl]] - Primary counter defense opponent uses against ankle pick level change
 
-- [[Guard Pull]] - Alternative transition sharing same collar tie setup and forward momentum
+- [[Transitions/Guard Pull]] - Alternative transition sharing same collar tie setup and forward momentum
 
-- [[Standing Position]] - Starting and reset position when ankle pick attempt fails
+- [[Positions/Standing Position]] - Starting and reset position when ankle pick attempt fails
 
-- [[Standing Guillotine from Clinch]] - Submission threat opponent can apply if head position is incorrect during level change
+- [[Submissions/Standing Guillotine from Clinch]] - Submission threat opponent can apply if head position is incorrect during level change
 
-- [[Double Leg Entry]] - Alternative takedown chain when opponent lifts ankle to defend
+- [[Transitions/Double Leg Entry]] - Alternative takedown chain when opponent lifts ankle to defend
 
-- [[Arm Drag from Standing]] - Alternative attack using collar tie grip to off-balance opponent and create angle
+- [[Transitions/Arm Drag from Standing]] - Alternative attack using collar tie grip to off-balance opponent and create angle
 
-- [[Clinch]] - Position reached when ankle pick attempt is stuffed at close range
+- [[Positions/Clinch]] - Position reached when ankle pick attempt is stuffed at close range
 
-- [[Side Control]] - Primary target position after successful ankle pick completion
+- [[Positions/Side Control]] - Primary target position after successful ankle pick completion
 
 
 </section>

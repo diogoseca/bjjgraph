@@ -148,7 +148,7 @@ As the defender facing a mat return from rear clinch, you are in a disadvantageo
 
 The defensive hierarchy prioritizes grip stripping and separation first, base maintenance and posture recovery second, and positional minimization during descent third. Understanding when to fight the takedown versus when to accept the descent and focus on landing in the best possible position is a critical tactical decision. Expending all energy resisting a committed mat return often results in a worse landing position than accepting the takedown early and focusing on turning or establishing defensive structure during the controlled descent. The best defenders operate at multiple levels simultaneously, fighting grips with their hands while managing base with their feet and planning their ground defense contingency.
 
-**Opponent's Starting Position**: [[Standing Rear Clinch]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Rear Clinch]] (Top)
 
 </section>
 
@@ -186,28 +186,28 @@ The defensive hierarchy prioritizes grip stripping and separation first, base ma
 ### 1. Two-on-one grip strip before descent begins
 
 - **When to use**: When you feel the attacker tightening their grip and shifting hips to angle, but before the sitting descent has started
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: Breaks the attacker's controlling grip, creating opportunity to turn and face them, separate entirely, or establish your own clinch position
 - **Risk**: If grip strip fails, your hands are committed low near the attacker's grip rather than posted for base, potentially accelerating the mat return
 
 ### 2. Drop base and widen stance to resist the sitting motion
 
 - **When to use**: When you recognize the hip angle change but the attacker has not yet initiated the descent, or in the first moment of the sitting motion
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: Your lowered center of gravity and wide base make it significantly harder for the attacker to complete the sitting motion and bring you to the mat
 - **Risk**: A static wide base can be exploited by the ankle pick variation or by the attacker changing angle to the opposite side
 
 ### 3. Turn into the attacker during the descent to establish half guard
 
 - **When to use**: When the mat return has been initiated and you cannot prevent the takedown, typically once the attacker's hips have committed to the sitting motion
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Instead of landing with your back to the attacker in back control, you rotate to face them and establish half guard where you have significantly more defensive and offensive options
 - **Risk**: Incomplete turn may result in a scramble where the attacker can re-establish back control, or you may end up in a worse position than standard back control defense
 
 ### 4. Post hands and sprawl hips away as descent begins
 
 - **When to use**: In the first instant of the descent before the attacker's bodyweight has fully committed to the sitting motion
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: Sprawling your hips away and posting your hands creates enough separation to prevent the controlled descent, potentially forcing the attacker to release their grip or abandon the attempt
 - **Risk**: Posting hands removes them from grip defense and creates vulnerable arm positions if the attacker adjusts to an arm attack
 
@@ -219,11 +219,11 @@ The defensive hierarchy prioritizes grip stripping and separation first, base ma
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Rear Clinch]]
+### → [[Positions/Standing Rear Clinch]]
 
 Strip the attacker's grip through aggressive two-on-one hand fighting before the descent begins, or maintain a strong wide base that prevents the sitting motion from completing. Fight to remain standing where you have more escape options than on the ground.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If the takedown is inevitable, turn aggressively into the attacker during the descent phase. Rotate your shoulders and hips toward them as you go to the ground, threading your legs to establish half guard rather than allowing them to land in clean back control. Half guard bottom, while not ideal, provides significantly more offensive and defensive options than back control bottom.
 

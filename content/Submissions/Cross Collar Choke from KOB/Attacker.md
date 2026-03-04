@@ -182,7 +182,7 @@ description: "Learn to execute the Cross Collar Choke from Knee on Belly. Step-b
 
 The Cross Collar Choke from Knee on Belly represents one of the most effective gi-specific attacks available from this dominant pressure position. As the attacker, your primary advantage lies in the dilemma created by combining positional pressure with submission threat — the opponent cannot simultaneously address the crushing knee pressure and defend their collar. The key to success is establishing the first deep grip before the opponent recognizes the threat, then using KOB pressure to force the defensive reactions that open access for the second grip. Timing, grip depth, and maintaining positional stability throughout the attack sequence determine whether this choke finishes or becomes a positional tool that sets up alternative attacks like the armbar or baseball bat choke.
 
-**From Position**: [[Knee on Belly]] (Top)
+**From Position**: [[Positions/Knee on Belly]] (Top)
 
 
 </section>
@@ -236,9 +236,9 @@ The Cross Collar Choke from Knee on Belly represents one of the most effective g
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Knee on Belly]] | 30% |
-| Failure | [[Side Control]] | 15% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Knee on Belly]] | 30% |
+| Failure | [[Positions/Side Control]] | 15% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -247,10 +247,10 @@ The Cross Collar Choke from Knee on Belly represents one of the most effective g
 
 ## Opponent Defenses
 
-- **Opponent uses two-on-one grip to strip the first collar grip before the second hand is established** (Effectiveness: High) - Your Response: Immediately transition to armbar on the extended gripping arm, or re-insert the grip from a different angle while increasing KOB pressure to limit their grip-fighting mobility → Leads to [[Knee on Belly]]
-- **Opponent bridges explosively and turns toward you to relieve choke angle and escape KOB** (Effectiveness: Medium) - Your Response: Follow the bridge by posting your base leg wide and transitioning to side control while maintaining collar grips. From side control, the cross collar choke can still be finished or you can attack the back as they turn → Leads to [[Side Control]]
-- **Opponent pushes your knee off and shrimps to recover half guard during grip transition** (Effectiveness: Medium) - Your Response: Accept the positional change but maintain deep collar grips — the cross collar choke can be finished from half guard top or used to set up a pass. Alternatively, release grips and consolidate half guard top position → Leads to [[Half Guard]]
-- **Opponent tucks chin and brings both hands to collar to prevent second grip entry** (Effectiveness: High) - Your Response: Use the chin tuck as a setup — increase KOB pressure forcing their hands down to address the knee, creating the opening for the second grip. Alternatively, transition to baseball bat choke which requires only one side of the collar → Leads to [[Knee on Belly]]
+- **Opponent uses two-on-one grip to strip the first collar grip before the second hand is established** (Effectiveness: High) - Your Response: Immediately transition to armbar on the extended gripping arm, or re-insert the grip from a different angle while increasing KOB pressure to limit their grip-fighting mobility → Leads to [[Positions/Knee on Belly]]
+- **Opponent bridges explosively and turns toward you to relieve choke angle and escape KOB** (Effectiveness: Medium) - Your Response: Follow the bridge by posting your base leg wide and transitioning to side control while maintaining collar grips. From side control, the cross collar choke can still be finished or you can attack the back as they turn → Leads to [[Positions/Side Control]]
+- **Opponent pushes your knee off and shrimps to recover half guard during grip transition** (Effectiveness: Medium) - Your Response: Accept the positional change but maintain deep collar grips — the cross collar choke can be finished from half guard top or used to set up a pass. Alternatively, release grips and consolidate half guard top position → Leads to [[Positions/Half Guard]]
+- **Opponent tucks chin and brings both hands to collar to prevent second grip entry** (Effectiveness: High) - Your Response: Use the chin tuck as a setup — increase KOB pressure forcing their hands down to address the knee, creating the opening for the second grip. Alternatively, transition to baseball bat choke which requires only one side of the collar → Leads to [[Positions/Knee on Belly]]
 
 
 </section>

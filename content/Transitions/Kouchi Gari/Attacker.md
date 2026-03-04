@@ -174,7 +174,7 @@ description: "How to execute Kouchi Gari in BJJ. Attacking perspective with setu
 
 As the attacker executing Kouchi Gari, your primary objective is to remove your opponent's base through a coordinated upper-body pull and lower-body reap that dumps them diagonally backward onto the mat. The technique demands precise timing: you must read when your opponent's weight settles onto the target leg, generate diagonal kuzushi with your grips, and execute the small reaping motion in a single fluid sequence. Unlike power throws, Kouchi Gari rewards sensitivity and combination thinking over brute force. The attacker who treats this as the opening move in a series—rather than a standalone throw—will find dramatically higher returns, because every defensive reaction your opponent makes opens a clear follow-up attack.
 
-**From Position**: [[Clinch]] (Top)
+**From Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ As the attacker executing Kouchi Gari, your primary objective is to remove your 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Clinch]] | 25% |
-| Counter | [[Clinch]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Clinch]] | 25% |
+| Counter | [[Positions/Clinch]] | 10% |
 
 
 </section>
@@ -238,10 +238,10 @@ As the attacker executing Kouchi Gari, your primary objective is to remove your 
 
 ## Opponent Counters
 
-- **Opponent steps back aggressively with targeted leg** (Effectiveness: Medium) - Your Response: Follow their backward step and switch to Osoto Gari or Kouchi Makikomi (wrapping variation), using their retreating momentum against them → Leads to [[Clinch]]
-- **Opponent widens stance and lowers hips defensively** (Effectiveness: High) - Your Response: Abandon Kouchi Gari and transition to Uchi Mata or knee tap, attacking the opposite side or switching levels to exploit the wide base → Leads to [[Clinch]]
-- **Opponent hops on base leg to maintain balance** (Effectiveness: Medium) - Your Response: Chain into Kosoto Gari or Deashi Harai, attacking the hopping leg as they are airborne and vulnerable on a single support point → Leads to [[Clinch]]
-- **Opponent sprawls and drives weight forward** (Effectiveness: Low) - Your Response: Transition to front headlock or snap down position, capitalizing on their forward commitment rather than forcing the throw → Leads to [[Clinch]]
+- **Opponent steps back aggressively with targeted leg** (Effectiveness: Medium) - Your Response: Follow their backward step and switch to Osoto Gari or Kouchi Makikomi (wrapping variation), using their retreating momentum against them → Leads to [[Positions/Clinch]]
+- **Opponent widens stance and lowers hips defensively** (Effectiveness: High) - Your Response: Abandon Kouchi Gari and transition to Uchi Mata or knee tap, attacking the opposite side or switching levels to exploit the wide base → Leads to [[Positions/Clinch]]
+- **Opponent hops on base leg to maintain balance** (Effectiveness: Medium) - Your Response: Chain into Kosoto Gari or Deashi Harai, attacking the hopping leg as they are airborne and vulnerable on a single support point → Leads to [[Positions/Clinch]]
+- **Opponent sprawls and drives weight forward** (Effectiveness: Low) - Your Response: Transition to front headlock or snap down position, capitalizing on their forward commitment rather than forcing the throw → Leads to [[Positions/Clinch]]
 
 
 </section>

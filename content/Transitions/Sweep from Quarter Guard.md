@@ -21,7 +21,7 @@ The technique operates on a fundamental biomechanical principle: when the top pl
 
 Quarter guard sweeps occupy a unique strategic position in the half guard system. While higher-percentage sweeps exist from more established half guard positions, the quarter guard sweep serves as a last-resort offensive option before complete guard loss. This creates a powerful dilemma for the passer: committing aggressively to finish the pass creates sweep vulnerability, while proceeding cautiously allows the bottom player time to recover guard. Understanding this dynamic transforms quarter guard from a purely defensive situation into an offensive opportunity that punishes overly aggressive passing.
 
-**From Position**: [[Quarter Guard]] (Bottom)
+**From Position**: [[Positions/Quarter Guard]] (Bottom)
 **Success Rate**: 42%
 
 </section>
@@ -32,9 +32,9 @@ Quarter guard sweeps occupy a unique strategic position in the half guard system
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 42% |
-| Failure | [[Quarter Guard]] | 35% |
-| Counter | [[Side Control]] | 23% |
+| Success | [[Positions/Side Control]] | 42% |
+| Failure | [[Positions/Quarter Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 23% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Sweep from Quarter Guard occupies a critical position in the half guard rete
 ## Related Techniques
 
 
-- [[Quarter Guard]] - Source position from which this sweep is executed by the bottom player
+- [[Positions/Quarter Guard]] - Source position from which this sweep is executed by the bottom player
 
-- [[Side Control]] - Target position achieved upon successful sweep completion
+- [[Positions/Side Control]] - Target position achieved upon successful sweep completion
 
-- [[Half Guard]] - Parent position in the guard hierarchy from which quarter guard emerges
+- [[Positions/Half Guard]] - Parent position in the guard hierarchy from which quarter guard emerges
 
-- [[Deep Half Guard]] - Alternative transition target when sweep fails and opponent drives forward
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition target when sweep fails and opponent drives forward
 
-- [[Knee Shield Half Guard]] - Guard recovery position when sweep is abandoned for defensive retention
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Guard recovery position when sweep is abandoned for defensive retention
 
-- [[Dogfight Position]] - Related underhook-based position with similar sweep mechanics and principles
+- [[Positions/Dogfight Position]] - Related underhook-based position with similar sweep mechanics and principles
 
-- [[Back Control]] - Alternative high-value target accessible when sweep is partially blocked and opponent posts
+- [[Positions/Back Control]] - Alternative high-value target accessible when sweep is partially blocked and opponent posts
 
-- [[Flattened Half Guard]] - Adjacent compromised position with similar defensive urgency for bottom player
+- [[Positions/Half Guard/Flattened Half Guard]] - Adjacent compromised position with similar defensive urgency for bottom player
 
-- [[Complete Pass from Quarter]] - Opposing technique representing the top player's primary objective during sweep defense
+- [[Transitions/Complete Pass from Quarter]] - Opposing technique representing the top player's primary objective during sweep defense
 
-- [[Recover Full Guard from Quarter Guard]] - Alternative bottom player option for guard retention instead of sweep attempt
+- [[Transitions/Recover Full Guard from Quarter Guard]] - Alternative bottom player option for guard retention instead of sweep attempt
 
 
 </section>

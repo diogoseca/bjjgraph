@@ -21,7 +21,7 @@ The technical execution demands precise coordination between the inside leg wrap
 
 Within the broader guard system, this transition represents one branch of a decision tree that includes entries to X-Guard, outside ashi garami, and direct shin-to-shin sweeps. The ability to threaten multiple transitions from the same starting position creates the offensive dilemmas that make shin-to-shin effective at competition level. Practitioners who master this entry gain a reliable pathway from seated guard engagement to one of the most dominant attacking positions in modern grappling.
 
-**From Position**: [[Shin-to-Shin Guard]] (Bottom)
+**From Position**: [[Positions/Shin-to-Shin Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Within the broader guard system, this transition represents one branch of a deci
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 55% |
-| Failure | [[Shin-to-Shin Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 55% |
+| Failure | [[Positions/Shin-to-Shin Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Shin-to-Shin to Single Leg X-Guard transition occupies a central node in the
 ## Related Techniques
 
 
-- [[Single Leg X-Guard]] - Target position achieved on successful entry, providing sweeping and leg attack platform
+- [[Positions/X-Guard/Single Leg X-Guard]] - Target position achieved on successful entry, providing sweeping and leg attack platform
 
-- [[X-Guard]] - Related guard position accessible from SLX for additional sweep options and control
+- [[Positions/X-Guard]] - Related guard position accessible from SLX for additional sweep options and control
 
-- [[De La Riva Guard]] - Complementary open guard sharing entry mechanics and sweeping principles
+- [[Positions/De La Riva Guard]] - Complementary open guard sharing entry mechanics and sweeping principles
 
-- [[Butterfly Guard]] - Close-range alternative guard when opponent drops weight during shin-to-shin engagement
+- [[Positions/Butterfly Guard]] - Close-range alternative guard when opponent drops weight during shin-to-shin engagement
 
-- [[Outside Ashi-Garami]] - Leg entanglement pathway accessible from SLX for heel hook attacks
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Leg entanglement pathway accessible from SLX for heel hook attacks
 
-- [[Shin-to-Shin Sweep]] - Alternative sweeping attack from the same starting position
+- [[Transitions/Shin-to-Shin Sweep]] - Alternative sweeping attack from the same starting position
 
-- [[SLX to Ashi Garami]] - Follow-up transition chaining from target SLX position to leg locks
+- [[Transitions/SLX to Ashi Garami]] - Follow-up transition chaining from target SLX position to leg locks
 
-- [[Single Leg X Sweep]] - Primary sweep attack available after achieving the SLX position
+- [[Transitions/Single Leg X Sweep]] - Primary sweep attack available after achieving the SLX position
 
-- [[Backstep from Single Leg X]] - Opponent's primary counter-passing technique to defend against from SLX
+- [[Transitions/Backstep from Single Leg X]] - Opponent's primary counter-passing technique to defend against from SLX
 
-- [[K-Guard to Single Leg X]] - Alternative entry pathway to the same target position from different guard
+- [[Transitions/K-Guard to Single Leg X]] - Alternative entry pathway to the same target position from different guard
 
 
 </section>

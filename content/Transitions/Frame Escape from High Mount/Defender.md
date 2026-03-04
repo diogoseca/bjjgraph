@@ -146,7 +146,7 @@ description: "Learn to counter the Frame Escape from High Mount in BJJ. Strategi
 
 As the top player in high mount, defending against frame escapes requires understanding the mechanical principles your opponent uses and preemptively eliminating their tools. The bottom player will attempt to insert forearm frames against your hips during your weight shifts, then combine hip movement with frame pressure to walk your base back down their torso. Your defensive strategy centers on maintaining forward pressure, controlling or neutralizing framing arms before they establish structure, and capitalizing on frame attempts by advancing to S Mount or attacking exposed limbs. Patience and positional awareness prevent the bottom player from creating the windows they need for frame insertion, while active arm control eliminates the frames before they can generate meaningful force.
 
-**Opponent's Starting Position**: [[High Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount/High Mount]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the top player in high mount, defending against frame escapes requires unders
 ### 1. Pin the framing arms to the mat or opponent's chest before frames establish full structural integrity
 
 - **When to use**: Immediately upon recognizing forearm contact against your hips, before the opponent combines frames with hip movement
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Opponent's frame escape is neutralized and they remain trapped in high mount without viable defensive tools
 - **Risk**: Reaching for arm pins creates momentary weight shift that a well-timed opponent may exploit for bridge or alternate escape
 
 ### 2. Drive weight aggressively forward and walk knees higher to compress the space needed for frame insertion
 
 - **When to use**: When you feel the opponent's forearms beginning to press against your hip area with increasing deliberate pressure
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Eliminates the angle and space the opponent needs for effective frames, re-establishing full high mount control pressure
 - **Risk**: Overcommitting forward weight may open opportunities for upa escape if the opponent traps an arm during the drive
 
 ### 3. Transition to S Mount by stepping one leg over the opponent's arm when they commit both arms to framing
 
 - **When to use**: When both of the opponent's arms are committed to hip frames, leaving at least one arm isolated and accessible for leg crossover
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: Advances to S Mount with armbar setup already in progress, directly punishing the opponent's frame escape attempt
 - **Risk**: S Mount requires precise leg placement and the transition creates a brief window where the opponent may extract their arm
 
 ### 4. Attack the exposed framing arm with americana or wrist lock when it extends past safe bent-arm range
 
 - **When to use**: When the opponent's frame extends their arm beyond ninety degrees during aggressive pushing, exposing the joint
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Forces opponent to retract arms defensively, abandoning the frame escape and returning to passive survival posture
 - **Risk**: Committing to the arm attack while opponent has active hip movement may result in losing mount position during the submission attempt
 
@@ -217,11 +217,11 @@ As the top player in high mount, defending against frame escapes requires unders
 
 ## Best-Case Outcomes for Defender
 
-### → [[S Mount]]
+### → [[Positions/Mount/S Mount]]
 
 When the opponent commits both arms to hip frames, step one leg over their most isolated arm and transition to S Mount. Their frame commitment positions their arm perfectly for isolation, making S Mount entry higher percentage than from standard high mount where arms are tucked defensively.
 
-### → [[High Mount]]
+### → [[Positions/Mount/High Mount]]
 
 Drive forward weight aggressively when sensing frame insertion, pin one or both framing arms to the mat with wrist control, and re-establish tight knee pressure against the armpits. Maintaining high mount after a failed frame escape attempt often breaks the opponent's will and leads directly to submission opportunities.
 

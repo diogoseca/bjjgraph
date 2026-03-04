@@ -205,25 +205,25 @@ Knee on Belly Bottom is a highly disadvantageous defensive position where the pr
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (42% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (42% of attempts)
 
-### [[Hip Escape to Guard]] (10% of attempts)
+### [[Transitions/Hip Escape to Guard]] (10% of attempts)
 
-### [[Deep Half Entry]] (5% of attempts)
+### [[Transitions/Deep Half Entry]] (5% of attempts)
 
-### [[Knee Shield Retention]] (11% of attempts)
+### [[Transitions/Knee Shield Retention]] (11% of attempts)
 
-### [[Technical Stand-up]] (4% of attempts)
+### [[Transitions/Technical Stand-up]] (4% of attempts)
 
-### [[Frame and Shrimp to Guard]] (10% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (10% of attempts)
 
-### [[Hip Escape to Turtle]] (9% of attempts)
+### [[Transitions/Hip Escape to Turtle]] (9% of attempts)
 
-### [[Frame and Shrimp from Knee on Belly]] (3% of attempts)
+### [[Transitions/Frame and Shrimp from Knee on Belly]] (3% of attempts)
 
-### [[Push Knee and Reguard from Knee on Belly]] (3% of attempts)
+### [[Transitions/Push Knee and Reguard from Knee on Belly]] (3% of attempts)
 
-### [[Turn to Turtle from Knee on Belly]] (3% of attempts)
+### [[Transitions/Turn to Turtle from Knee on Belly]] (3% of attempts)
 
 
 
@@ -234,28 +234,28 @@ Knee on Belly Bottom is a highly disadvantageous defensive position where the pr
 ## Decision Making from This Position
 
 **If opponent's weight is fully committed to knee pressure with hands posted low:**
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Elbow Escape to Guard]]** → [[Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
 **If opponent lifts knee to transition to mount or north-south:**
-- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 60%)
-- Execute **[[Knee Shield Retention]]** → [[Knee Shield Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Knee Shield Retention]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 55%)
 
 
 **If opponent attempts submission and loses base stability:**
-- Execute **[[Ghost Escape]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Technical Stand-up]]** → [[Clinch]] (Probability: 35%)
+- Execute **[[Transitions/Ghost Escape]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 35%)
 
 
 **If opponent controls far side collar and near side arm:**
-- Execute **[[Shrimp Escape]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 40%)
 
 
 **If opponent's base is narrow with feet close together:**
-- Execute **[[Frame and Shrimp to Guard]]** → [[Butterfly Guard]] (Probability: 55%)
-- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Butterfly Guard]] (Probability: 55%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
 
 
 
@@ -394,14 +394,14 @@ Top player establishes knee on belly and actively hunts for submissions (armbar,
 
 ## Related Positions and Techniques
 
-- **[[Side Control]]** - Similar pressure-based bottom position with related escape mechanics
-- **[[Mount]]** - Common progression if knee on belly escape fails
-- **[[Half Guard]]** - Primary escape destination for elbow escape and hip escape techniques
-- **[[Deep Half Guard]]** - Advanced escape destination when opponent shifts weight forward
-- **[[Closed Guard]]** - High-priority escape target for re-establishing offensive guard game
-- **[[Elbow Escape to Guard]]** - Primary escape technique using hip movement and frames
-- **[[Hip Escape to Guard]]** - Foundational movement pattern for all escape sequences
-- **[[Butterfly Guard]]** - Alternative re-guard destination when hooks can be established
+- **[[Positions/Side Control]]** - Similar pressure-based bottom position with related escape mechanics
+- **[[Positions/Mount]]** - Common progression if knee on belly escape fails
+- **[[Positions/Half Guard]]** - Primary escape destination for elbow escape and hip escape techniques
+- **[[Positions/Half Guard/Deep Half Guard]]** - Advanced escape destination when opponent shifts weight forward
+- **[[Positions/Closed Guard]]** - High-priority escape target for re-establishing offensive guard game
+- **[[Transitions/Elbow Escape to Guard]]** - Primary escape technique using hip movement and frames
+- **[[Transitions/Hip Escape to Guard]]** - Foundational movement pattern for all escape sequences
+- **[[Positions/Butterfly Guard]]** - Alternative re-guard destination when hooks can be established
 
 
 </section>

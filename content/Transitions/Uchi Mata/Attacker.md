@@ -180,7 +180,7 @@ description: "How to execute Uchi Mata in BJJ. Attacking perspective with setup,
 
 The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile throwing techniques, highly effective in both gi and no-gi grappling. Translated as 'inner thigh reap,' this technique involves using your inner thigh to sweep your opponent's supporting leg while simultaneously rotating them over your hip. The Uchi Mata is particularly effective against taller opponents or those who stand upright in the clinch, as it exploits their high center of gravity. When executed properly, this throw generates tremendous force and typically results in a direct transition to side control or mount, making it one of the highest-percentage scoring techniques in BJJ competition. The technique requires precise timing, proper kuzushi (off-balancing), and coordinated hip and leg movement. Unlike some throws that rely purely on strength, Uchi Mata is a technical throw that uses rotational momentum and leverage to amplify your power. Its effectiveness has made it a staple in the arsenals of many high-level BJJ competitors who incorporate judo into their standing game.
 
-**From Position**: [[Clinch]] (Top)
+**From Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Failure | [[Clinch]] | 20% |
-| Counter | [[Clinch]] | 10% |
+| Success | [[Positions/Side Control]] | 70% |
+| Failure | [[Positions/Clinch]] | 20% |
+| Counter | [[Positions/Clinch]] | 10% |
 
 
 </section>
@@ -244,10 +244,10 @@ The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile t
 
 ## Opponent Counters
 
-- **Opponent sprawls their hips back to prevent hip contact** (Effectiveness: High) - Your Response: Chain to different throw such as Osoto Gari or adapt to Kouchi Gari. If they over-sprawl, switch to front headlock position or single leg attack. → Leads to [[Clinch]]
-- **Opponent posts their free leg wide to maintain base** (Effectiveness: Medium) - Your Response: Continue rotation and adapt to a different angle, or switch to Harai Goshi by hooking their posted leg. Alternatively, drive them backward into a different throwing direction. → Leads to [[Clinch]]
-- **Opponent grips your belt or pants to block rotation** (Effectiveness: Medium) - Your Response: Use their grip as an anchor point and increase your rotational speed. Break their posture more aggressively before entering. In no-gi, this counter is less effective. → Leads to [[Clinch]]
-- **Opponent counters with Uchi Mata Sukashi (void throw) by pulling leg back** (Effectiveness: Low) - Your Response: If committed properly to Uchi Mata with strong grips, the sukashi counter is difficult to execute. Maintain upper body control and complete your rotation faster than they can void the throw. Keep pulling hand active to prevent them redirecting your momentum. → Leads to [[Clinch]]
+- **Opponent sprawls their hips back to prevent hip contact** (Effectiveness: High) - Your Response: Chain to different throw such as Osoto Gari or adapt to Kouchi Gari. If they over-sprawl, switch to front headlock position or single leg attack. → Leads to [[Positions/Clinch]]
+- **Opponent posts their free leg wide to maintain base** (Effectiveness: Medium) - Your Response: Continue rotation and adapt to a different angle, or switch to Harai Goshi by hooking their posted leg. Alternatively, drive them backward into a different throwing direction. → Leads to [[Positions/Clinch]]
+- **Opponent grips your belt or pants to block rotation** (Effectiveness: Medium) - Your Response: Use their grip as an anchor point and increase your rotational speed. Break their posture more aggressively before entering. In no-gi, this counter is less effective. → Leads to [[Positions/Clinch]]
+- **Opponent counters with Uchi Mata Sukashi (void throw) by pulling leg back** (Effectiveness: Low) - Your Response: If committed properly to Uchi Mata with strong grips, the sukashi counter is difficult to execute. Maintain upper body control and complete your rotation faster than they can void the throw. Keep pulling hand active to prevent them redirecting your momentum. → Leads to [[Positions/Clinch]]
 
 
 </section>

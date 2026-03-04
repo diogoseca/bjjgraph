@@ -213,33 +213,33 @@ Success in butterfly half guard bottom requires mastering several key technical 
 
 ## Available Escapes
 
-### [[100% Sweep]] (33% of attempts)
+### [[Transitions/100% Sweep]] (33% of attempts)
 
-### [[Old School Sweep]] (10% of attempts)
+### [[Transitions/Old School Sweep]] (10% of attempts)
 
-### [[Butterfly Sweep]] (6% of attempts)
+### [[Transitions/Butterfly Sweep]] (6% of attempts)
 
-### [[Deep Half Entry]] (8% of attempts)
+### [[Transitions/Deep Half Entry]] (8% of attempts)
 
-### [[Waiter Sweep]] (4% of attempts)
+### [[Transitions/Waiter Sweep]] (4% of attempts)
 
-### [[Underhook Sweep from Half]] (6% of attempts)
+### [[Transitions/Underhook Sweep from Half]] (6% of attempts)
 
-### [[Knee Tap]] (5% of attempts)
+### [[Transitions/Knee Tap]] (5% of attempts)
 
-### [[Half Guard to Back Take]] (6% of attempts)
+### [[Transitions/Half Guard to Back Take]] (6% of attempts)
 
-### [[Butterfly Guard to X-Guard]] (4% of attempts)
+### [[Transitions/Butterfly Guard to X-Guard]] (4% of attempts)
 
-### [[Lockdown Recovery]] (4% of attempts)
+### [[Transitions/Lockdown Recovery]] (4% of attempts)
 
-### [[Kimura Sweep]] (6% of attempts)
+### [[Transitions/Kimura Sweep]] (6% of attempts)
 
-### [[Electric Chair Transition]] (5% of attempts)
+### [[Transitions/Electric Chair Transition]] (5% of attempts)
 
-### [[Butterfly Half Guard Sweep]] (2% of attempts)
+### [[Transitions/Butterfly Half Guard Sweep]] (2% of attempts)
 
-### [[Reguard from Butterfly Half Guard]] (1% of attempts)
+### [[Transitions/Reguard from Butterfly Half Guard]] (1% of attempts)
 
 
 
@@ -250,29 +250,29 @@ Success in butterfly half guard bottom requires mastering several key technical 
 ## Decision Making from This Position
 
 **If opponent maintains upright posture and attempts to free trapped leg with backward hip pressure:**
-- Execute **[[100% Sweep]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Old School Sweep]]** → [[Side Control]] (Probability: 70%)
+- Execute **[[Transitions/100% Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 **If opponent drives forward with heavy pressure and establishes crossface control threatening to flatten:**
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 75%)
-- Execute **[[Lockdown Recovery]]** → [[Lockdown]] (Probability: 60%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 75%)
+- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 60%)
 
 
 **If opponent stands tall or attempts to step over the trapped leg creating vertical posture:**
-- Execute **[[Half Guard to Back Take]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Knee Tap]]** → [[Standing Position]] (Probability: 50%)
-- Execute **[[Butterfly Guard to X-Guard]]** → [[X-Guard]] (Probability: 60%)
+- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Tap]]** → [[Positions/Standing Position]] (Probability: 50%)
+- Execute **[[Transitions/Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 60%)
 
 
 **If opponent posts hand on mat to defend butterfly hook elevation and stabilize base:**
-- Execute **[[Old School Sweep]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Butterfly Sweep]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 60%)
 
 
 **If opponent establishes underhook on trapped leg side and drives shoulder pressure:**
-- Execute **[[Waiter Sweep]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Waiter Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
 
 
 
@@ -418,18 +418,18 @@ Isolated drill focusing exclusively on hip angle adjustments to optimize sweep m
 
 ## Related Positions and Techniques
 
-- **[[Half Guard]]** - Parent position providing leg entanglement control mechanics and defensive structure
-- **[[Butterfly Guard]]** - Parent position providing butterfly hook mechanics and elevation concepts
-- **[[Deep Half Guard]]** - Primary transition target when opponent applies forward pressure or establishes crossface
-- **[[X-Guard]]** - Advanced transition option when opponent stands or creates vertical posture
-- **[[Lockdown]]** - Defensive variation when being flattened or losing upper body control
-- **[[Knee Shield Half Guard]]** - Alternative half guard frame when butterfly hook is compromised by pressure
-- **[[Dogfight Position]]** - Transitional state during sweep execution and scrambles
-- **[[Butterfly Sweep]]** - Primary offensive technique utilizing butterfly hook mechanics
-- **[[Old School Sweep]]** - High-percentage sweep when opponent posts hand to defend elevation
-- **[[Butterfly Hook Retention]]** - Essential principle for maintaining active butterfly hook under pressure
-- **[[Underhook Sweep from Half]]** - Related sweep technique sharing underhook mechanics from half guard
-- **[[Waiter Sweep]]** - Alternative sweep option when opponent establishes strong shoulder pressure
+- **[[Positions/Half Guard]]** - Parent position providing leg entanglement control mechanics and defensive structure
+- **[[Positions/Butterfly Guard]]** - Parent position providing butterfly hook mechanics and elevation concepts
+- **[[Positions/Half Guard/Deep Half Guard]]** - Primary transition target when opponent applies forward pressure or establishes crossface
+- **[[Positions/X-Guard]]** - Advanced transition option when opponent stands or creates vertical posture
+- **[[Positions/Half Guard/Lockdown]]** - Defensive variation when being flattened or losing upper body control
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Alternative half guard frame when butterfly hook is compromised by pressure
+- **[[Positions/Dogfight Position]]** - Transitional state during sweep execution and scrambles
+- **[[Transitions/Butterfly Sweep]]** - Primary offensive technique utilizing butterfly hook mechanics
+- **[[Transitions/Old School Sweep]]** - High-percentage sweep when opponent posts hand to defend elevation
+- **[[Principles/Butterfly Hook Retention]]** - Essential principle for maintaining active butterfly hook under pressure
+- **[[Transitions/Underhook Sweep from Half]]** - Related sweep technique sharing underhook mechanics from half guard
+- **[[Transitions/Waiter Sweep]]** - Alternative sweep option when opponent establishes strong shoulder pressure
 
 
 </section>

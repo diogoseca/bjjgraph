@@ -154,7 +154,7 @@ description: "How to defend against Side Control to Mount in BJJ. Recognition cu
 
 Defending the side control to mount transition is one of the most critical defensive skills in Brazilian Jiu-Jitsu, as allowing mount represents a significant positional downgrade that dramatically increases submission vulnerability and scoring deficit. The defender's primary objective is to recognize the transition attempt early through tactile and visual cues, then deploy the appropriate defensive response before the top player completes the step-over. Effective defense requires understanding that the transition has distinct phases - hip shift, arm isolation, leg step-over, and consolidation - each offering a different window for defensive intervention. The earlier you disrupt the sequence, the higher your success rate. Late-stage defense (once the first leg is already over) becomes exponentially harder and often results in half guard at best. Training this defense systematically builds the proprioceptive awareness needed to feel the weight shift that precedes every mount transition attempt, allowing you to launch preemptive frames and hip movement before the top player commits to the step-over.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the side control to mount transition is one of the most critical defen
 ### 1. Insert near-side knee shield by turning your hips toward opponent and bringing your knee across their body as they initiate the step-over
 
 - **When to use**: At the earliest recognition cue when you feel their hips shift toward your head or their hand moves to isolate your arm - this must be preemptive rather than reactive
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to half guard with knee shield established, neutralizing the mount attempt and returning to a guard position with offensive options
 - **Risk**: If timed too late, your knee gets pinned by their stepping leg and you end up in a compromised mount with one leg partially inserted
 
 ### 2. Explosive bridge toward the side they are stepping from, combined with near-side frame against their hip to create space and disrupt their base
 
 - **When to use**: When you feel the weight shift during the actual step-over movement - their base is temporarily compromised as one leg is in the air crossing your body
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You disrupt their balance during the most vulnerable phase of the transition, forcing them to abandon the mount attempt and re-establish side control from a less dominant angle
 - **Risk**: If the bridge is poorly timed or underpowered, you expend significant energy without creating meaningful disruption and may accelerate their mount achievement
 
 ### 3. Turn away (ghost escape) by rotating your shoulders and hips away from opponent, pulling your near-side elbow tight and creating distance as they attempt to step over
 
 - **When to use**: When their crossface is driving your head away and you cannot effectively turn into them - use their own pressure direction to fuel your escape by continuing the rotation to turtle
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You escape to turtle position, avoiding mount entirely and entering a position with its own set of offensive and defensive options including standup and guard pulls
 - **Risk**: Exposes your back if the turn is not committed fully - a half-turn gives opponent easy back control with both hooks
 
 ### 4. Swim your near-side arm inside to re-establish the frame against their hip, blocking the leg step-over path with your forearm and elbow structure
 
 - **When to use**: When you feel your near-side arm being isolated but before the step-over has begun - this is a frame recovery technique that buys time for a more definitive escape
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You re-establish the defensive frame that prevents the step-over, forcing opponent to re-attempt arm isolation before they can transition to mount
 - **Risk**: The swimming motion creates a brief window where your arm is extended and vulnerable to kimura or americana if opponent reads your recovery attempt
 
@@ -226,11 +226,11 @@ Defending the side control to mount transition is one of the most critical defen
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Disrupt the mount transition early by maintaining active frames, bridging during the step-over weight shift, or swimming your arm back inside to re-establish defensive structure. The goal is to force them to reset to standard side control rather than achieving mount, buying you time to attempt full escapes from side control.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Insert your near-side knee between your bodies as the top player's first leg steps over, catching their second leg between yours before they can complete the mount. This requires timing the knee insertion during the brief window between first and second leg crossing. Even if you cannot prevent the first leg from clearing, trapping the second leg in half guard is a significant defensive success that returns you to a guard position.
 

@@ -21,7 +21,7 @@ The technique centers on positioning forearm wedges against the opponent's hip l
 
 Strategically, this escape requires exceptional composure under pressure. The jaw discomfort is designed to provoke panic reactions that expose submission vulnerabilities. Successful execution demands controlled breathing, patience to wait for genuine timing windows, and disciplined frame mechanics that resist the instinct to push or extend. Practitioners who master this escape transform the Shoulder of Justice from a position of hopelessness into a manageable problem with reliable solutions.
 
-**From Position**: [[Shoulder of Justice]] (Bottom)
+**From Position**: [[Positions/Shoulder of Justice]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape requires exceptional composure under pressure. The ja
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Shoulder of Justice]] | 40% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Shoulder of Justice]] | 40% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Frame Escape from Shoulder of Justice sits within the broader side control e
 ## Related Techniques
 
 
-- [[Shoulder of Justice]] - Starting position that this escape technique addresses
+- [[Positions/Shoulder of Justice]] - Starting position that this escape technique addresses
 
-- [[Half Guard]] - Primary escape target and recovery position after successful frame escape
+- [[Positions/Half Guard]] - Primary escape target and recovery position after successful frame escape
 
-- [[Mount]] - Counter outcome when escape timing is poor and opponent advances position
+- [[Positions/Mount]] - Counter outcome when escape timing is poor and opponent advances position
 
-- [[Side Control]] - Parent position category from which Shoulder of Justice derives
+- [[Positions/Side Control]] - Parent position category from which Shoulder of Justice derives
 
-- [[Escape Shoulder of Justice]] - Related escape technique from the same starting position
+- [[Transitions/Escape Shoulder of Justice]] - Related escape technique from the same starting position
 
-- [[Knee Shield Half Guard]] - Optimal half guard variation to recover into after successful escape
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Optimal half guard variation to recover into after successful escape
 
-- [[Kimura Trap]] - Primary submission threat when near arm extends during escape attempt
+- [[Positions/Kimura Trap]] - Primary submission threat when near arm extends during escape attempt
 
-- [[North-South]] - Position opponent may transition to if escape direction moves toward their head
+- [[Positions/North-South]] - Position opponent may transition to if escape direction moves toward their head
 
-- [[Kesa Gatame]] - Related pressure position requiring similar frame-based escape principles
+- [[Positions/Side Control/Kesa Gatame]] - Related pressure position requiring similar frame-based escape principles
 
-- [[Closed Guard]] - Secondary guard recovery target through full hip escape and leg insertion
+- [[Positions/Closed Guard]] - Secondary guard recovery target through full hip escape and leg insertion
 
 
 </section>

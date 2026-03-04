@@ -97,27 +97,27 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (31% of attempts)
+- **[[Transitions/Old School Sweep]]** (31% of attempts)
 
-- **[[Kimura to Back Take]]** (14% of attempts)
+- **[[Transitions/Kimura to Back Take]]** (14% of attempts)
 
-- **[[Kimura Sweep]]** (10% of attempts)
+- **[[Transitions/Kimura Sweep]]** (10% of attempts)
 
-- **[[Rolling Kimura]]** (10% of attempts)
+- **[[Transitions/Rolling Kimura]]** (10% of attempts)
 
-- **[[Underhook Sweep from Half]]** (6% of attempts)
+- **[[Transitions/Underhook Sweep from Half]]** (6% of attempts)
 
-- **[[Half Guard to Back Take]]** (6% of attempts)
+- **[[Transitions/Half Guard to Back Take]]** (6% of attempts)
 
-- **[[Lockdown Recovery]]** (6% of attempts)
+- **[[Transitions/Lockdown Recovery]]** (6% of attempts)
 
-- **[[Electric Chair Transition]]** (6% of attempts)
+- **[[Transitions/Electric Chair Transition]]** (6% of attempts)
 
-- **[[Half Guard Pass]]** (6% of attempts)
+- **[[Transitions/Half Guard Pass]]** (6% of attempts)
 
-- **[[Kimura Counter via Roll]]** (3% of attempts)
+- **[[Transitions/Kimura Counter via Roll]]** (3% of attempts)
 
-- **[[Kimura Defense Arm Extraction]]** (2% of attempts)
+- **[[Transitions/Kimura Defense Arm Extraction]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -178,25 +178,25 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 ### Available Transitions
 
 
-- **[[Kimura]]** (30% of attempts)
+- **[[Transitions/Kimura]]** (30% of attempts)
 
-- **[[North-South to Kimura]]** (13% of attempts)
+- **[[Transitions/North-South to Kimura]]** (13% of attempts)
 
-- **[[Side Control to Mount]]** (15% of attempts)
+- **[[Transitions/Side Control to Mount]]** (15% of attempts)
 
-- **[[Kimura to Back Take]]** (13% of attempts)
+- **[[Transitions/Kimura to Back Take]]** (13% of attempts)
 
-- **[[Knee on Belly]]** (8% of attempts)
+- **[[Positions/Knee on Belly]]** (8% of attempts)
 
-- **[[Arm Triangle Setup]]** (8% of attempts)
+- **[[Transitions/Arm Triangle Setup]]** (8% of attempts)
 
-- **[[Americana]]** (6% of attempts)
+- **[[Transitions/Americana]]** (6% of attempts)
 
-- **[[Kimura Defense]]** (3% of attempts)
+- **[[Transitions/Kimura Defense]]** (3% of attempts)
 
-- **[[Kimura Trap to Reverse Scarf Hold]]** (2% of attempts)
+- **[[Transitions/Kimura Trap to Reverse Scarf Hold]]** (2% of attempts)
 
-- **[[Kimura from Kimura Trap]]** (2% of attempts)
+- **[[Submissions/Kimura from Kimura Trap]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -235,25 +235,25 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 ## Related Positions
 
 
-- **[[Half Guard]]** - Primary entry position for Kimura Trap from both top and bottom perspectives
+- **[[Positions/Half Guard]]** - Primary entry position for Kimura Trap from both top and bottom perspectives
 
-- **[[Side Control]]** - Common transition point and alternative entry for Kimura Trap system
+- **[[Positions/Side Control]]** - Common transition point and alternative entry for Kimura Trap system
 
-- **[[Turtle]]** - Key entry position where opponent's arm exposure creates Kimura opportunities
+- **[[Positions/Turtle]]** - Key entry position where opponent's arm exposure creates Kimura opportunities
 
-- **[[Back Control]]** - Common transition target when opponent turns into Kimura grip defensively
+- **[[Positions/Back Control]]** - Common transition target when opponent turns into Kimura grip defensively
 
-- **[[Mount]]** - Finishing position reached via Kimura Trap sweeps like Old School
+- **[[Positions/Mount]]** - Finishing position reached via Kimura Trap sweeps like Old School
 
-- **[[Lockdown]]** - Complementary leg control often combined with Kimura grip from bottom
+- **[[Positions/Half Guard/Lockdown]]** - Complementary leg control often combined with Kimura grip from bottom
 
-- **[[North-South]]** - Alternative top control position with strong Kimura finishing mechanics
+- **[[Positions/North-South]]** - Alternative top control position with strong Kimura finishing mechanics
 
-- **[[Omoplata Control]]** - Related shoulder lock position accessible via Kimura grip transitions
+- **[[Positions/Omoplata Control]]** - Related shoulder lock position accessible via Kimura grip transitions
 
-- **[[Gift Wrap]]** - Alternative arm control system with similar control principles
+- **[[Positions/Gift Wrap]]** - Alternative arm control system with similar control principles
 
-- **[[Deep Half Guard]]** - Alternative bottom position when opponent defends Kimura by sprawling back
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative bottom position when opponent defends Kimura by sprawling back
 
 
 </section>

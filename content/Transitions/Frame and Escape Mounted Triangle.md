@@ -21,7 +21,7 @@ The escape sequence centers on creating structural frames—using forearm-to-bon
 
 Strategic timing is paramount. The optimal window opens when the top player commits weight forward for the triangle finish or reaches to adjust finishing grips, creating temporary base vulnerabilities. Advanced practitioners chain multiple consecutive hip escapes while maintaining frame pressure, threading a knee shield or establishing half guard lock before the opponent can re-establish the mounted triangle configuration. The transition from survival to guard recovery must be seamless—any pause between creating space and consolidating a defensive guard position invites the opponent to recapture control.
 
-**From Position**: [[Mounted Triangle]] (Bottom)
+**From Position**: [[Positions/Mount/Mounted Triangle]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ Strategic timing is paramount. The optimal window opens when the top player comm
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Closed Guard]] | 10% |
-| Failure | [[Mounted Triangle]] | 35% |
-| Counter | [[Armbar Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Closed Guard]] | 10% |
+| Failure | [[Positions/Mount/Mounted Triangle]] | 35% |
+| Counter | [[Positions/Armbar Control]] | 20% |
 
 
 </section>
@@ -192,25 +192,25 @@ Frame and Escape Mounted Triangle sits within the broader mounted triangle defen
 ## Related Techniques
 
 
-- [[Mounted Triangle]] - Source position from which this escape is executed
+- [[Positions/Mount/Mounted Triangle]] - Source position from which this escape is executed
 
-- [[Half Guard]] - Primary escape destination after successful frame and hip escape sequence
+- [[Positions/Half Guard]] - Primary escape destination after successful frame and hip escape sequence
 
-- [[Closed Guard]] - Alternative escape destination when full guard recovery is achieved
+- [[Positions/Closed Guard]] - Alternative escape destination when full guard recovery is achieved
 
-- [[Armbar Control]] - Counter position opponent may achieve if framing arm is exposed during escape
+- [[Positions/Armbar Control]] - Counter position opponent may achieve if framing arm is exposed during escape
 
-- [[Bridge Defense from Mounted Triangle]] - Complementary escape technique using explosive bridging rather than systematic framing
+- [[Transitions/Bridge Defense from Mounted Triangle]] - Complementary escape technique using explosive bridging rather than systematic framing
 
-- [[Mounted Triangle Finish]] - Submission threat being escaped, understanding finish mechanics informs defensive priorities
+- [[Submissions/Mounted Triangle Finish]] - Submission threat being escaped, understanding finish mechanics informs defensive priorities
 
-- [[Mount]] - Parent position category from which mounted triangle develops
+- [[Positions/Mount]] - Parent position category from which mounted triangle develops
 
-- [[High Mount]] - Position opponent may transition to when triangle is abandoned during escape
+- [[Positions/Mount/High Mount]] - Position opponent may transition to when triangle is abandoned during escape
 
-- [[Back Control]] - Position opponent may reach if escape creates back exposure during turning movement
+- [[Positions/Back Control]] - Position opponent may reach if escape creates back exposure during turning movement
 
-- [[S Mount]] - Related mount variation that frequently transitions to and from mounted triangle
+- [[Positions/Mount/S Mount]] - Related mount variation that frequently transitions to and from mounted triangle
 
 
 </section>

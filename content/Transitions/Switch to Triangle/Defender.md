@@ -148,7 +148,7 @@ Defending the Switch to Triangle requires understanding that the triangle threat
 
 The defensive hierarchy follows a clear priority sequence. First, prevent the conditions for the switch by maintaining posture and denying the angle during the initial attack defense. Second, if the switch begins, immediately address posture and the leg crossing your neck before the lock completes. Third, if the triangle locks, shift to systematic triangle escape protocols. At each stage, the defender has progressively fewer options and less time, making early recognition the most valuable defensive skill. Advanced defenders learn to defend the initial attack in ways that do not create triangle openings - for example, posturing during armbar defense rather than simply pulling the arm back, which denies both the armbar and the subsequent triangle switch.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -186,28 +186,28 @@ The defensive hierarchy follows a clear priority sequence. First, prevent the co
 ### 1. Posture aggressively and stack before triangle locks by driving your trapped shoulder into opponent's thigh
 
 - **When to use**: The moment you recognize the hip angle change and leg throw beginning, before the figure-four lock is established
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Opponent cannot complete triangle lock, forced to abandon the switch and return to closed guard or attempt a different technique from compromised angle
 - **Risk**: If you posture too late after the lock is secured, your upward movement actually helps them tighten the triangle and cut the finishing angle
 
 ### 2. Drive forward into the triangle attempt, keeping your trapped arm's elbow pinned to your ribcage while circling toward the choking leg to reduce the angle
 
 - **When to use**: When the triangle is partially locked but the opponent has not yet achieved the perpendicular finishing angle or full hip extension
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You neutralize the choking angle and can begin systematic triangle escape by stacking, extracting the trapped arm, or passing to the side
 - **Risk**: If you drive forward without controlling the angle, you may assist the opponent in achieving the perpendicular position they need for maximum choking pressure
 
 ### 3. Block the leg from crossing your neck by immediately framing your free hand against their thigh or knee as it rises toward your head
 
 - **When to use**: In the earliest stage when you see or feel the opponent's leg beginning to come across your shoulder and neck
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Triangle entry is denied completely, forcing opponent to either re-close guard or attempt alternative technique from their established angle
 - **Risk**: Committing your free hand to blocking the leg removes it from base, potentially making you vulnerable to sweeps or allowing the opponent to redirect to omoplata
 
 ### 4. Stand up explosively while the guard is momentarily open during the transition, denying both the triangle lock and the closed guard recovery
 
 - **When to use**: In the brief window when the opponent uncrosses their ankles to throw the triangle leg, before the new leg configuration is established
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You achieve standing position with opponent's guard broken, allowing you to begin standing guard passing sequence from a dominant tactical position
 - **Risk**: If the opponent maintains strong head or collar control during your stand-up, they may use your upward momentum to complete the triangle or switch to a flying triangle variation
 
@@ -219,11 +219,11 @@ The defensive hierarchy follows a clear priority sequence. First, prevent the co
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Deny the triangle switch by maintaining posture during the initial attack defense and blocking the leg before it crosses your neck. Keep both arms symmetrically positioned and prevent the hip angle change. The opponent returns to closed guard without achieving the triangle configuration.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 If the triangle partially develops, drive forward with strong posture while circling toward the choking leg to neutralize the angle. Stack the opponent to relieve choking pressure, extract your trapped arm by pushing it toward their hip, and pass to side control or settle back into closed guard top with recovered posture.
 

@@ -148,7 +148,7 @@ description: "Complete guide to defending against the elbow escape from your bac
 
 Defending against your opponent's elbow escape requires early recognition and immediate adjustments to your back control structure. As the back controller, you must identify the telltale signs of elbow framing and hip escape initiation, then respond by tightening your hooks, driving your hips forward into the opponent's back, and maintaining seatbelt grip integrity. The elbow escape is a methodical technique that relies on progressive space creation, so your defensive strategy must deny space at every phase rather than waiting for a single dramatic escape moment. When the escape partially succeeds and one hook is cleared, transitioning to mount by following the opponent's turn represents a high-percentage recovery option that preserves your positional dominance rather than fighting desperately to maintain an increasingly compromised back control position.
 
-**Opponent's Starting Position**: [[Back Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
 
@@ -185,21 +185,21 @@ Defending against your opponent's elbow escape requires early recognition and im
 ### 1. Tighten seatbelt grip and drive hips forward while deepening both hooks simultaneously
 
 - **When to use**: When you feel initial two-on-one grip fighting on your choking arm and sense the opponent preparing to shift their hips
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Re-establishes tight back control and forces the opponent to restart the entire escape sequence from the beginning
 - **Risk**: Overcommitting forward hip pressure can create momentum the opponent uses to accelerate their turn if they switch escape direction
 
 ### 2. Transition to body triangle to eliminate hook-based escape vulnerability entirely
 
 - **When to use**: When the opponent begins successfully framing against your top hook and your hook depth is being compromised despite active resistance
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Body triangle eliminates the hook-based escape pathway and forces the opponent to address the body triangle lock before any escape can proceed
 - **Risk**: The transition period between hooks and body triangle briefly loosens leg control and may create a window for an explosive escape
 
 ### 3. Follow the opponent's turn and transition to mount position by driving hips over theirs
 
 - **When to use**: When the opponent has cleared one hook and committed to the turning phase with momentum that makes re-establishing back control unlikely
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Achieve full mount position which maintains dominant control worth 4 points and preserves strong submission opportunities
 - **Risk**: If the mount transition is poorly timed, the opponent may complete the turn to half guard or full guard before you can establish mount
 
@@ -211,11 +211,11 @@ Defending against your opponent's elbow escape requires early recognition and im
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Tighten hooks and seatbelt immediately upon sensing the earliest escape cues, maintaining relentless hip-to-hip connection and heavy forward pressure to deny any space creation throughout the escape attempt
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When one hook is cleared and the opponent commits to turning, flow with their rotation by driving your hips over theirs and placing your knees on the mat on either side of their hips to establish mount before they can complete the half guard leg trap
 

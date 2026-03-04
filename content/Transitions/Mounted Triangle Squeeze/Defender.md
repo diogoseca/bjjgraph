@@ -146,7 +146,7 @@ description: "Defend and escape the mounted triangle squeeze in BJJ. Recognition
 
 Defending the mounted triangle squeeze requires understanding that the attacker is not attempting a discrete technique but rather a progressive tightening process. Each second the squeeze continues, defensive options diminish as space is eliminated. The defender's priority is to interrupt the squeeze sequence before it reaches critical compression, either by disrupting the angle, creating frames to prevent tightening, extracting the trapped arm, or generating sufficient positional disruption to force the attacker to reset. Time is the enemy. Every defensive action must be purposeful and immediate, as passive survival accelerates the attacker's consolidation toward the finish.
 
-**Opponent's Starting Position**: [[Mounted Triangle]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/Mounted Triangle]] (Top)
 
 </section>
 
@@ -185,28 +185,28 @@ Defending the mounted triangle squeeze requires understanding that the attacker 
 ### 1. Establish frame against attacker's hip with free arm to block angle adjustment
 
 - **When to use**: Immediately upon recognizing squeeze initiation, before the attacker achieves optimal hip angle. Most effective in the first 3-5 seconds of the squeeze attempt.
-- **Targets**: [[Mounted Triangle]]
+- **Targets**: [[Positions/Mount/Mounted Triangle]]
 - **If successful**: Prevents the attacker from achieving the perpendicular choking angle, reducing squeeze effectiveness significantly and buying time for further escape attempts
 - **Risk**: If frame is stripped, you lose your primary defensive tool and the squeeze accelerates. Attacker may use frame stripping to transition to gift wrap control.
 
 ### 2. Aggressive chin tuck with head rotation toward trapped arm side
 
 - **When to use**: When the attacker has established angle but has not yet achieved full compression. Acts as immediate pressure reduction while other defensive actions are prepared.
-- **Targets**: [[Mounted Triangle]]
+- **Targets**: [[Positions/Mount/Mounted Triangle]]
 - **If successful**: Reduces carotid compression by positioning the chin as a structural barrier between the inner thigh and the neck. Extends survival time significantly.
 - **Risk**: Chin tuck alone does not escape the position. If the attacker adjusts angle to bypass the chin, the defense becomes less effective over time.
 
 ### 3. Explosive bridge timed to the attacker's squeeze commitment
 
 - **When to use**: When the attacker commits maximum effort to the squeeze, narrowing their base and lifting their hips. The squeeze commitment reduces their stability and creates a window for explosive disruption.
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Disrupts the triangle configuration, potentially breaking the figure-four lock. Can result in escaping to standard mount bottom or creating enough space for guard recovery.
 - **Risk**: Failed bridge wastes significant energy and often results in the attacker re-consolidating with even tighter squeeze. Only attempt when base vulnerability is clearly identified.
 
 ### 4. Trapped arm extraction by straightening and pulling through the triangle gap
 
 - **When to use**: When the squeeze is in early stages and the figure-four lock has a gap near the elbow side. Most viable when the attacker is focused on head control rather than thigh compression.
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Removes the choking fulcrum entirely. Without the trapped arm, the triangle becomes a head-and-arm position with dramatically reduced submission threat.
 - **Risk**: Extending the arm during extraction exposes it to armbar attack. If the attacker catches the arm during extraction, the armbar transition is immediate and high-percentage.
 
@@ -218,11 +218,11 @@ Defending the mounted triangle squeeze requires understanding that the attacker 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Disrupt the triangle lock through explosive bridging timed to the attacker's squeeze commitment or extract the trapped arm to eliminate the choking fulcrum. The bridge should target the side where the attacker's bottom leg is posted, attacking their weakest base point. Follow through immediately into guard recovery rather than settling for mount bottom.
 
-### → [[Mounted Triangle]]
+### → [[Positions/Mount/Mounted Triangle]]
 
 Prevent the squeeze from tightening to finishing pressure through sustained framing and chin tuck defense. While remaining in mounted triangle bottom is not ideal, successfully stalling the squeeze forces the attacker to either transition to a different attack (creating escape windows) or expend significant energy without finishing, shifting the fatigue balance in your favor.
 

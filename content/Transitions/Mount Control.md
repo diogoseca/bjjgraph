@@ -17,7 +17,7 @@ description: "Master mount control in BJJ. Maintain dominant position against es
 
 Mount Control represents the ongoing process of maintaining dominant position against an actively escaping opponent. Unlike initial consolidation which establishes the mount, Mount Control addresses the dynamic battle that continues throughout the position - reading escape attempts, adjusting base in real-time, and using pressure to drain defensive resources. The fundamental principle is that mount maintenance is not passive holding but active control through constant micro-adjustments. Every time your opponent creates a frame, you eliminate it. Every bridge attempt requires base adjustment. Every hip escape must be blocked before it generates momentum. This constant responsiveness transforms mount from a position that can be escaped with patience into an inescapable cage that progressively worsens for the defender. The strategic goal of Mount Control extends beyond simply staying on top - it involves systematically degrading your opponent's defensive capacity through sustained pressure while preserving your energy and creating submission opportunities. Skilled practitioners use Mount Control to create dilemmas: the opponent's attempts to escape actually open them to attacks, while staying still allows you to advance position. This creates a lose-lose scenario for the defender where their best option becomes surrendering to a submission rather than continuing to fight the mount.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 **Success Rate**: 78%
 
 </section>
@@ -28,9 +28,9 @@ Mount Control represents the ongoing process of maintaining dominant position ag
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 70% |
-| Failure | [[Half Guard]] | 20% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Mount]] | 70% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -183,23 +183,23 @@ Mount Control is the connective tissue of the entire mount attack system. Withou
 ## Related Techniques
 
 
-- [[Mount]] - Position being controlled
+- [[Positions/Mount]] - Position being controlled
 
-- [[Consolidate Mount]] - Prerequisite technique for initial establishment
+- [[Transitions/Consolidate Mount]] - Prerequisite technique for initial establishment
 
-- [[High Mount Transition]] - Advancement opportunity from controlled mount
+- [[Transitions/High Mount Transition]] - Advancement opportunity from controlled mount
 
-- [[Americana from Mount]] - Submission option from stable control
+- [[Submissions/Americana from Mount]] - Submission option from stable control
 
-- [[Armbar from Mount]] - Submission option from stable control
+- [[Submissions/Armbar from Mount]] - Submission option from stable control
 
-- [[Cross Collar Choke]] - Submission option from stable control
+- [[Transitions/Cross Collar Choke]] - Submission option from stable control
 
-- [[Technical Mount]] - Alternative control variation
+- [[Positions/Mount/Technical Mount]] - Alternative control variation
 
-- [[Half Guard]] - Common escape destination to defend against
+- [[Positions/Half Guard]] - Common escape destination to defend against
 
-- [[Closed Guard]] - Escape destination requiring full recovery
+- [[Positions/Closed Guard]] - Escape destination requiring full recovery
 
 
 </section>

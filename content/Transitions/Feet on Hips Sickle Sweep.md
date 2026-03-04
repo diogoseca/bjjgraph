@@ -21,7 +21,7 @@ The sweep's effectiveness stems from its ability to exploit the natural instabil
 
 Strategically, the sickle sweep pairs naturally with the tripod sweep to form one of BJJ's most effective sweep combinations. When the opponent defends the tripod by stepping the targeted foot back, they become vulnerable to the sickle sweep on the opposite side, and vice versa. This creates a sweep dilemma that significantly increases the success rate of both techniques when used in combination, embodying the principle that techniques become exponentially more dangerous when they force the opponent to choose between two equally threatening options.
 
-**From Position**: [[Feet on Hips Guard]] (Bottom)
+**From Position**: [[Positions/Feet on Hips Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the sickle sweep pairs naturally with the tripod sweep to form on
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Feet on Hips Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Feet on Hips Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Feet on Hips Sickle Sweep occupies a central position within the open guard 
 ## Related Techniques
 
 
-- [[Feet on Hips Guard]] - Source position from which this sweep is executed
+- [[Positions/Feet on Hips Guard]] - Source position from which this sweep is executed
 
-- [[Side Control]] - Primary target position achieved on successful sweep completion
+- [[Positions/Side Control]] - Primary target position achieved on successful sweep completion
 
-- [[Tripod Sweep]] - Complementary sweep forming the classic sickle-tripod combination pair
+- [[Transitions/Tripod Sweep]] - Complementary sweep forming the classic sickle-tripod combination pair
 
-- [[Balloon Sweep]] - Alternative feet-on-hips sweep when opponent drives weight forward
+- [[Transitions/Balloon Sweep]] - Alternative feet-on-hips sweep when opponent drives weight forward
 
-- [[Tomoe Nage]] - Alternative overhead sweep from similar guard configuration
+- [[Transitions/Tomoe Nage]] - Alternative overhead sweep from similar guard configuration
 
-- [[De La Riva Guard]] - Transition target when sickle sweep setup is blocked and angle is created
+- [[Positions/De La Riva Guard]] - Transition target when sickle sweep setup is blocked and angle is created
 
-- [[Open Guard]] - Parent guard category containing the feet on hips guard position
+- [[Positions/Open Guard]] - Parent guard category containing the feet on hips guard position
 
-- [[Half Guard]] - Position reached when opponent partially counters the sweep attempt
+- [[Positions/Half Guard]] - Position reached when opponent partially counters the sweep attempt
 
-- [[X-Guard]] - Alternative guard entry available when opponent steps close during setup
+- [[Positions/X-Guard]] - Alternative guard entry available when opponent steps close during setup
 
-- [[Collar Sleeve Guard]] - Related grip configuration used in sweep setup variations
+- [[Positions/Collar Sleeve Guard]] - Related grip configuration used in sweep setup variations
 
 
 </section>

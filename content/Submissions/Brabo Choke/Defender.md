@@ -156,7 +156,7 @@ description: "How to defend against Brabo Choke in BJJ. Recognition, escape path
 
 Defending the Brabo Choke requires early recognition and immediate action, as this blood choke finishes rapidly once the grip circuit is completed. The defender's primary advantage is the narrow window between the attacker's initial arm threading and the locked bicep grip - once the circuit is closed, escape probability drops dramatically. Effective defense begins well before the choke is locked by preventing the arm from threading deep under your armpit. The defensive hierarchy prioritizes preventing arm insertion first, breaking the grip circuit second, and creating whole-body space to extract your head third. Understanding the attacker's mechanical requirements - deep arm insertion, perpendicular angle, and chest-to-back connection - reveals specific vulnerabilities at each stage that the defender can exploit. The most common defensive error is fighting the choking arm directly once it is threaded rather than addressing the positional requirements that make the choke effective. Successful defenders focus on posture recovery, angle denial, and space creation rather than isolated grip fighting.
 
-**Opponent's Starting Position**: [[Front Headlock]] (Top)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 
 </section>
@@ -196,28 +196,28 @@ Defending the Brabo Choke requires early recognition and immediate action, as th
 ### 1. Hand fight to prevent arm insertion by controlling opponent's threading wrist and keeping elbow pinched tight to your ribs
 
 - **When to use**: Early stage - before opponent's arm has threaded past your armpit. This is the highest-percentage defensive window.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Opponent remains in front headlock without choke threat, allowing you to work standard front headlock escapes
 - **Risk**: If your hand fighting fails and they thread past your defense, you've lost time and may be in worse position
 
 ### 2. Posture up explosively by driving off your knees and extending your spine while pushing against opponent's hips to create space
 
 - **When to use**: When opponent has begun threading but has not yet secured the bicep grip. Your posture recovery removes the angle they need to finish.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You break the bent-forward posture requirement, making the choke mechanically impossible and potentially escaping the front headlock entirely
 - **Risk**: If opponent has deep insertion, posturing can tighten the choke momentarily before you clear it
 
 ### 3. Circle away from the choking arm side while tucking chin and swimming your trapped arm free, then sit through to guard recovery
 
 - **When to use**: When the arm is threaded but the grip is not yet secured or is loose. Circling removes the perpendicular angle the attacker needs.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You extract your trapped arm and recover to half guard or closed guard, completely neutralizing the choke threat
 - **Risk**: Circling the wrong direction (toward the choke) dramatically tightens the submission
 
 ### 4. Roll through toward the choking arm side, inverting your body to disrupt the attacker's chest-to-back connection and land in guard
 
 - **When to use**: When the choke is partially locked but the attacker's hips are high - use their forward commitment against them by rolling underneath
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You end up in guard or half guard with the choke disrupted due to loss of perpendicular angle and chest connection
 - **Risk**: If attacker follows the roll well, you may end up in a tighter choke in a worse position
 
@@ -240,11 +240,11 @@ Defending the Brabo Choke requires early recognition and immediate action, as th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Successfully deny the arm threading through early hand fighting and elbow control, keeping opponent in standard front headlock position without choke threat, then work standard front headlock escapes
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Circle away from the choking arm while sitting through to recover half guard, using the directional change to break the attacker's perpendicular angle and extract your trapped arm from the choking circuit
 

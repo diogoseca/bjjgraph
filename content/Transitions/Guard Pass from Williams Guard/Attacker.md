@@ -180,7 +180,7 @@ description: "Complete guide to passing Williams Guard from top position. Learn 
 
 Passing Williams Guard from the top requires a disciplined two-phase approach that prioritizes arm extraction before any passing mechanics engage. The trapped arm creates a mechanical constraint that makes traditional passing impossible—attempting to pass with the arm still controlled virtually guarantees either a deeper shoulder lock submission or an omoplata transition. The attacker must treat arm extraction as the primary objective, using circular disengagement mechanics and angle changes to gradually strip the figure-four grip before explosively transitioning into a pressure pass or stack pass during the brief window when the bottom player has lost their primary control mechanism. Success depends on understanding that patience during extraction enables speed during the pass—rushing either phase collapses the entire sequence.
 
-**From Position**: [[Williams Guard]] (Top)
+**From Position**: [[Positions/Williams Guard]] (Top)
 
 </section>
 
@@ -234,10 +234,10 @@ Passing Williams Guard from the top requires a disciplined two-phase approach th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Failure | [[Williams Guard]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
-| Counter | [[Omoplata Control]] | 10% |
+| Success | [[Positions/Side Control]] | 45% |
+| Failure | [[Positions/Williams Guard]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Omoplata Control]] | 10% |
 
 
 </section>
@@ -246,11 +246,11 @@ Passing Williams Guard from the top requires a disciplined two-phase approach th
 
 ## Opponent Counters
 
-- **Bottom player tightens figure-four grip and increases shoulder lock pressure during extraction attempt** (Effectiveness: High) - Your Response: Stop linear extraction immediately. Reset your angle and begin circular disengagement from a different rotation direction. If grip tightening is extreme, consider standing extraction variant which changes force angles dramatically enough to overcome grip strength. → Leads to [[Williams Guard]]
-- **Bottom player transitions to omoplata by swinging leg over shoulder during extraction** (Effectiveness: High) - Your Response: Immediately posture up and drive forward stacking their hips to prevent the rotation from completing. Use your free hand to push their knee off your shoulder while circling your trapped arm in the opposite direction of the omoplata rotation. If partially caught, stack aggressively to reduce omoplata angle. → Leads to [[Omoplata Control]]
-- **Bottom player re-closes guard during the extraction-to-pass transition window** (Effectiveness: Medium) - Your Response: Use your freed arm as a frame against their hip or knee to prevent guard closure while maintaining forward pressure. If guard closes fully, you have returned to closed guard top which is a better position than Williams Guard since the shoulder lock threat is eliminated. Restart passing from closed guard. → Leads to [[Closed Guard]]
-- **Bottom player inserts butterfly hooks during pass attempt and threatens sweep** (Effectiveness: Medium) - Your Response: Drop your hips low and sprawl to flatten the butterfly hooks before they generate lifting force. Maintain heavy chest pressure and use underhooks to prevent the hooks from creating elevation. Transition to a smash pass that nullifies butterfly guard mechanics by pinning one knee to the mat. → Leads to [[Williams Guard]]
-- **Bottom player hip escapes and re-angles to re-establish arm control for Williams Guard** (Effectiveness: Medium) - Your Response: Follow their hip escape with lateral movement to maintain chest-to-chest alignment. Keep both hands controlling their knees or hips to prevent the re-angle from creating enough space for arm isolation. Accelerate your pass during their hip escape—their movement creates passing angles if you follow correctly. → Leads to [[Williams Guard]]
+- **Bottom player tightens figure-four grip and increases shoulder lock pressure during extraction attempt** (Effectiveness: High) - Your Response: Stop linear extraction immediately. Reset your angle and begin circular disengagement from a different rotation direction. If grip tightening is extreme, consider standing extraction variant which changes force angles dramatically enough to overcome grip strength. → Leads to [[Positions/Williams Guard]]
+- **Bottom player transitions to omoplata by swinging leg over shoulder during extraction** (Effectiveness: High) - Your Response: Immediately posture up and drive forward stacking their hips to prevent the rotation from completing. Use your free hand to push their knee off your shoulder while circling your trapped arm in the opposite direction of the omoplata rotation. If partially caught, stack aggressively to reduce omoplata angle. → Leads to [[Positions/Omoplata Control]]
+- **Bottom player re-closes guard during the extraction-to-pass transition window** (Effectiveness: Medium) - Your Response: Use your freed arm as a frame against their hip or knee to prevent guard closure while maintaining forward pressure. If guard closes fully, you have returned to closed guard top which is a better position than Williams Guard since the shoulder lock threat is eliminated. Restart passing from closed guard. → Leads to [[Positions/Closed Guard]]
+- **Bottom player inserts butterfly hooks during pass attempt and threatens sweep** (Effectiveness: Medium) - Your Response: Drop your hips low and sprawl to flatten the butterfly hooks before they generate lifting force. Maintain heavy chest pressure and use underhooks to prevent the hooks from creating elevation. Transition to a smash pass that nullifies butterfly guard mechanics by pinning one knee to the mat. → Leads to [[Positions/Williams Guard]]
+- **Bottom player hip escapes and re-angles to re-establish arm control for Williams Guard** (Effectiveness: Medium) - Your Response: Follow their hip escape with lateral movement to maintain chest-to-chest alignment. Keep both hands controlling their knees or hips to prevent the re-angle from creating enough space for arm isolation. Accelerate your pass during their hip escape—their movement creates passing angles if you follow correctly. → Leads to [[Positions/Williams Guard]]
 
 
 </section>

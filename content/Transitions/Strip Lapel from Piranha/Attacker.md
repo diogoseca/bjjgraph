@@ -180,7 +180,7 @@ description: "Learn to execute the Strip Lapel from Piranha as the top player. S
 
 As the top player executing the Strip Lapel from Piranha, your primary objective is to systematically dismantle the bottom player's lapel configuration that forms the foundation of their Piranha Guard control. This requires a disciplined approach combining stable base maintenance with targeted grip-fighting sequences. The technique demands patience and strategic thinking—rushing the strip creates the very openings the bottom player needs to sweep you. Success comes from treating the strip as a methodical process: establish base, control hips, break grips hierarchically, extract material along its threading path, and immediately transition to passing before the opponent can rebuild their guard structure.
 
-**From Position**: [[Piranha Guard]] (Top)
+**From Position**: [[Positions/Piranha Guard]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ As the top player executing the Strip Lapel from Piranha, your primary objective
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Piranha Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Piranha Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -242,9 +242,9 @@ As the top player executing the Strip Lapel from Piranha, your primary objective
 
 ## Opponent Counters
 
-- **Bottom player immediately re-grips the lapel with their opposite hand before extraction is complete** (Effectiveness: High) - Your Response: Maintain continuous pressure on the stripping action without pausing between grip break and extraction. If they re-grip, immediately target the new grip with another two-on-one break, treating the strip as a flowing sequence rather than discrete steps. → Leads to [[Piranha Guard]]
-- **Bottom player executes sweep during the grip-fighting exchange when both your hands are committed to stripping** (Effectiveness: Medium) - Your Response: Never release your hip-controlling grip and strip-hand simultaneously. If you feel your base shifting, abandon the strip attempt immediately, widen your stance, and re-establish base before resuming. → Leads to [[Open Guard]]
-- **Bottom player squeezes knees together and pulls lapel deeper through legs, increasing threading friction and resistance** (Effectiveness: High) - Your Response: Use your hip control grip to push their top knee outward, opening the channel between their legs. Alternatively, change your extraction angle to pull the lapel diagonally rather than straight back through the tightened channel. → Leads to [[Piranha Guard]]
+- **Bottom player immediately re-grips the lapel with their opposite hand before extraction is complete** (Effectiveness: High) - Your Response: Maintain continuous pressure on the stripping action without pausing between grip break and extraction. If they re-grip, immediately target the new grip with another two-on-one break, treating the strip as a flowing sequence rather than discrete steps. → Leads to [[Positions/Piranha Guard]]
+- **Bottom player executes sweep during the grip-fighting exchange when both your hands are committed to stripping** (Effectiveness: Medium) - Your Response: Never release your hip-controlling grip and strip-hand simultaneously. If you feel your base shifting, abandon the strip attempt immediately, widen your stance, and re-establish base before resuming. → Leads to [[Positions/Open Guard]]
+- **Bottom player squeezes knees together and pulls lapel deeper through legs, increasing threading friction and resistance** (Effectiveness: High) - Your Response: Use your hip control grip to push their top knee outward, opening the channel between their legs. Alternatively, change your extraction angle to pull the lapel diagonally rather than straight back through the tightened channel. → Leads to [[Positions/Piranha Guard]]
 
 
 </section>

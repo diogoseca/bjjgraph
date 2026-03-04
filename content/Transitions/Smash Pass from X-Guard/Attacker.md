@@ -180,7 +180,7 @@ description: "Complete guide to executing the Smash Pass from X-Guard. Learn pre
 
 The attacker in the Smash Pass from X-Guard is the top player who commits their weight downward through the X-Guard structure to collapse the bottom player's hooks and advance to side control. Success requires understanding the precise moment to commit weight, the correct angle of pressure application, and the systematic progression from initial hook destruction through final pass consolidation. The attacker must balance aggressive forward pressure with sufficient base to prevent being swept during the commitment phase, making timing and weight distribution the two most critical skills for this technique.
 
-**From Position**: [[X-Guard]] (Top)
+**From Position**: [[Positions/X-Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The attacker in the Smash Pass from X-Guard is the top player who commits their 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[X-Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/X-Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The attacker in the Smash Pass from X-Guard is the top player who commits their 
 
 ## Opponent Counters
 
-- **Bottom player elevates hips explosively during weight commitment to execute a sweep** (Effectiveness: High) - Your Response: Maintain wide base with your free foot and keep weight distributed across both legs during the initial commitment. If you feel the elevation, post your hand on the mat on the far side and drive your shoulder deeper into the crossface to kill the sweep angle. → Leads to [[Half Guard]]
-- **Bottom player transitions to Single Leg X-Guard by retracting the far leg and converting to ankle control** (Effectiveness: Medium) - Your Response: Accelerate your forward pressure before the transition completes. The moment you feel the outside leg withdrawing, immediately drive your hips past the remaining hook and begin clearing the inside leg. The transition to Single Leg X requires momentary hook adjustment that creates a passing window. → Leads to [[X-Guard]]
-- **Bottom player frames with arms against your shoulders to prevent forward drive and create distance** (Effectiveness: Medium) - Your Response: Strip the frames by swimming your arms inside and re-establishing underhook or crossface control. Use your chest weight to compress through the frames rather than trying to pass around them. Arm frames against smash pressure are weaker than leg-based guard structure. → Leads to [[X-Guard]]
-- **Bottom player releases hooks voluntarily and attempts to recover to butterfly guard or closed guard** (Effectiveness: Low) - Your Response: Follow their hip movement immediately with your own forward pressure, not allowing any space to develop. When hooks release, this is your optimal passing window. Drive through immediately to side control before any new guard structure can form. → Leads to [[X-Guard]]
+- **Bottom player elevates hips explosively during weight commitment to execute a sweep** (Effectiveness: High) - Your Response: Maintain wide base with your free foot and keep weight distributed across both legs during the initial commitment. If you feel the elevation, post your hand on the mat on the far side and drive your shoulder deeper into the crossface to kill the sweep angle. → Leads to [[Positions/Half Guard]]
+- **Bottom player transitions to Single Leg X-Guard by retracting the far leg and converting to ankle control** (Effectiveness: Medium) - Your Response: Accelerate your forward pressure before the transition completes. The moment you feel the outside leg withdrawing, immediately drive your hips past the remaining hook and begin clearing the inside leg. The transition to Single Leg X requires momentary hook adjustment that creates a passing window. → Leads to [[Positions/X-Guard]]
+- **Bottom player frames with arms against your shoulders to prevent forward drive and create distance** (Effectiveness: Medium) - Your Response: Strip the frames by swimming your arms inside and re-establishing underhook or crossface control. Use your chest weight to compress through the frames rather than trying to pass around them. Arm frames against smash pressure are weaker than leg-based guard structure. → Leads to [[Positions/X-Guard]]
+- **Bottom player releases hooks voluntarily and attempts to recover to butterfly guard or closed guard** (Effectiveness: Low) - Your Response: Follow their hip movement immediately with your own forward pressure, not allowing any space to develop. When hooks release, this is your optimal passing window. Drive through immediately to side control before any new guard structure can form. → Leads to [[Positions/X-Guard]]
 
 
 </section>

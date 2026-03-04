@@ -158,7 +158,7 @@ The defensive window for the Kimura from Crucifix is narrow and time-sensitive. 
 
 Advanced defenders understand that the Kimura and choke threats from crucifix form an interconnected system. Defending one attack often exposes you to the other, which means your defensive strategy must account for transitions between threats rather than addressing each submission in isolation. The most successful defensive approach involves disrupting the opponent's attack rhythm and creating enough uncertainty in their grip to force positional adjustments that open escape opportunities.
 
-**Opponent's Starting Position**: [[Crucifix]] (Top)
+**Opponent's Starting Position**: [[Positions/Crucifix]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Advanced defenders understand that the Kimura and choke threats from crucifix fo
 ### 1. Straighten the arm explosively before the figure-four grip is secured, extending the elbow to deny the bent-arm configuration the Kimura requires
 
 - **When to use**: As soon as you feel the opponent threading their arm under yours but before they connect their grip—this is a narrow window that requires immediate recognition and response
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Denies the Kimura entirely and forces the opponent to abandon the shoulder lock attempt, though you remain in crucifix and may face armbar threat on the now-extended arm
 - **Risk**: A straight arm is vulnerable to armbar attacks, so you may be trading one submission threat for another. Only use if you have a plan to re-bend and protect once the Kimura grip is abandoned
 
 ### 2. Grip your own belt, lapel, or waistband with the targeted hand, anchoring the arm against rotational force and creating a static barrier the opponent must break before finishing
 
 - **When to use**: When the opponent has already secured the figure-four grip and is beginning to apply rotational pressure—this is a survival defense that buys time rather than an escape
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Stalls the Kimura finish and forces the opponent to either strip your grip (creating transitions) or abandon the Kimura for another attack, giving you time to work on freeing the trapped arm
 - **Risk**: Opponent may strip the grip using their legs or hip pressure, or use the stalled position to advance to mounted crucifix for superior leverage
 
 ### 3. Roll toward the attacking arm, turning your body in the direction the opponent is applying rotational force to relieve pressure on the shoulder joint
 
 - **When to use**: When the Kimura grip is locked and rotational pressure is being applied—rolling with the force reduces the effective angle of attack on your shoulder and may create scramble opportunities
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Relieves immediate shoulder pressure and may disrupt the crucifix leg configuration, potentially transitioning to standard back control bottom which offers better escape pathways
 - **Risk**: If opponent follows the roll and maintains the grip, you may end up in a worse position with Kimura still applied from a different angle, or transition to mounted Kimura
 
 ### 4. Bridge explosively while pulling the targeted arm toward your centerline, using the hip elevation to disrupt the opponent's weight distribution and grip configuration simultaneously
 
 - **When to use**: When you feel the opponent's weight committed forward during the finishing phase—the bridge works best when their hips are elevated or their base is momentarily compromised
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Disrupts the opponent's base and may create enough space to withdraw the arm or loosen the figure-four grip, returning to standard crucifix defense without active Kimura threat
 - **Risk**: If the bridge fails, the return to the mat creates a moment of vulnerability where the opponent can immediately reapply rotational pressure with increased commitment
 
@@ -229,11 +229,11 @@ Advanced defenders understand that the Kimura and choke threats from crucifix fo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Crucifix]]
+### → [[Positions/Crucifix]]
 
 Successfully deny or disrupt the Kimura grip through arm straightening, grip anchoring, or bridging. Neutralizing the Kimura returns you to standard crucifix bottom—still a bad position, but without the immediate shoulder lock threat. From here, work the standard crucifix escape sequence: protect neck, free trapped arm through hip movement, and recover to turtle or back control.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Roll toward the Kimura attack to relieve shoulder pressure, using the momentum to disrupt the crucifix leg configuration. If the roll breaks the leg trap on your near arm, you transition to standard back control bottom where both arms are mobile and escape options are significantly better. Immediately establish hand fighting on the choking arm and begin systematic back escape.
 

@@ -180,7 +180,7 @@ description: "How to execute Standing up in Base from turtle bottom in BJJ. Step
 
 The technical standup from base is a fundamental defensive movement that allows a grounded fighter to safely return to standing position while maintaining defensive posture and base. This essential skill bridges the gap between ground-based positions and standing engagement, providing both escape utility and offensive opportunity. The technique emphasizes proper weight distribution, frame creation, and sequential base-building to prevent opponent interference during the standup process. Understanding this movement is critical for guard retention, scramble navigation, and preventing opponents from consolidating top position control. The standup sequence involves establishing a stable posting base, creating distance through frames, and executing a coordinated hip elevation that brings you to your feet while maintaining defensive awareness. This technique serves as a gateway movement that connects various bottom positions to standing engagements, making it indispensable for complete positional fluency in Brazilian Jiu-Jitsu.
 
-**From Position**: [[Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ The technical standup from base is a fundamental defensive movement that allows 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Guard]] | 70% |
-| Failure | [[Turtle]] | 18% |
-| Counter | [[Back Control]] | 12% |
+| Success | [[Positions/Standing Guard]] | 70% |
+| Failure | [[Positions/Turtle]] | 18% |
+| Counter | [[Positions/Back Control]] | 12% |
 
 
 </section>
@@ -245,11 +245,11 @@ The technical standup from base is a fundamental defensive movement that allows 
 
 ## Opponent Counters
 
-- **Opponent drives forward with heavy chest pressure as you attempt to post hand** (Effectiveness: High) - Your Response: Immediately transition to alternative escape such as granby roll or hip escape rather than fighting directly against superior pressure. Wait for pressure transition before reattempting standup. → Leads to [[Turtle]]
-- **Opponent grabs your posting arm or wrist to prevent base establishment** (Effectiveness: Medium) - Your Response: Switch to opposite side posting, using circular motion to clear the grip while establishing frame with the previously grabbed arm. Alternatively, use the grip to pull opponent off-balance forward. → Leads to [[Turtle]]
-- **Opponent secures seatbelt harness and inserts hooks during standup attempt** (Effectiveness: High) - Your Response: Abandon standup attempt and immediately address back control defense. Fight the choking hand, prevent second hook, and transition to back escape protocol rather than continuing standup against established back control. → Leads to [[Back Control]]
-- **Opponent circles to maintain pressure on your hips during elevation attempt** (Effectiveness: Medium) - Your Response: Use opponent's circular motion to your advantage by pivoting your base to face them continuously. Extend frames more aggressively to create additional space before completing standup sequence. → Leads to [[Turtle]]
-- **Opponent grabs your trailing leg during step-through phase** (Effectiveness: Medium) - Your Response: Immediately sprawl your hips backward and establish wrestling defensive posture. Fight hands to clear the leg grip or whizzer the near arm to create separation and complete the standup with modified base. → Leads to [[Turtle]]
+- **Opponent drives forward with heavy chest pressure as you attempt to post hand** (Effectiveness: High) - Your Response: Immediately transition to alternative escape such as granby roll or hip escape rather than fighting directly against superior pressure. Wait for pressure transition before reattempting standup. → Leads to [[Positions/Turtle]]
+- **Opponent grabs your posting arm or wrist to prevent base establishment** (Effectiveness: Medium) - Your Response: Switch to opposite side posting, using circular motion to clear the grip while establishing frame with the previously grabbed arm. Alternatively, use the grip to pull opponent off-balance forward. → Leads to [[Positions/Turtle]]
+- **Opponent secures seatbelt harness and inserts hooks during standup attempt** (Effectiveness: High) - Your Response: Abandon standup attempt and immediately address back control defense. Fight the choking hand, prevent second hook, and transition to back escape protocol rather than continuing standup against established back control. → Leads to [[Positions/Back Control]]
+- **Opponent circles to maintain pressure on your hips during elevation attempt** (Effectiveness: Medium) - Your Response: Use opponent's circular motion to your advantage by pivoting your base to face them continuously. Extend frames more aggressively to create additional space before completing standup sequence. → Leads to [[Positions/Turtle]]
+- **Opponent grabs your trailing leg during step-through phase** (Effectiveness: Medium) - Your Response: Immediately sprawl your hips backward and establish wrestling defensive posture. Fight hands to clear the leg grip or whizzer the near arm to create separation and complete the standup with modified base. → Leads to [[Positions/Turtle]]
 
 
 </section>

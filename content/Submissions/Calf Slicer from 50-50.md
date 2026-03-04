@@ -22,8 +22,8 @@ The Calf Slicer from 50-50 Guard represents one of the most devastating compress
 **Category**: Compression
 **Type**: Leg Compression Lock
 **Target Area**: Calf muscle, Achilles tendon, knee joint
-**Starting Position**: [[50-50 Guard]]
-**From Position**: [[50-50 Guard]] (Top)
+**Starting Position**: [[Positions/Ashi Garami/50-50 Guard]]
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 **Success Rate**: 42%
 
 </section>
@@ -80,8 +80,8 @@ The Calf Slicer from 50-50 Guard represents one of the most devastating compress
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[Inside Ashi-Garami]] | 15% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
 
 
 </section>
@@ -230,14 +230,14 @@ The Calf Slicer from 50-50 Guard represents one of the most devastating compress
 
 ## From Which Positions?
 
-- [[50-50 Guard]]
-- [[Inside Ashi-Garami]]
-- [[Outside Ashi-Garami]]
-- [[Backside 50-50]]
-- [[Honey Hole]]
-- [[Saddle]]
-- [[Single Leg X-Guard]]
-- [[Leg Entanglement]]
+- [[Positions/Ashi Garami/50-50 Guard]]
+- [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- [[Positions/Ashi Garami/Backside 50-50]]
+- [[Positions/Ashi Garami/Honey Hole]]
+- [[Positions/Ashi Garami/Saddle]]
+- [[Positions/X-Guard/Single Leg X-Guard]]
+- [[Positions/Leg Entanglement]]
 
 
 </section>
@@ -246,18 +246,18 @@ The Calf Slicer from 50-50 Guard represents one of the most devastating compress
 
 ## Related Submissions
 
-- [[Calf Slicer]]
-- [[Calf Slicer from Truck]]
-- [[Inside Heel Hook]]
-- [[Outside Heel Hook]]
-- [[Heel Hook]]
-- [[Straight Ankle Lock]]
-- [[Toe Hold]]
-- [[Kneebar]]
-- [[Achilles Lock]]
-- [[Estima Lock]]
-- [[Banana Split]]
-- [[Bicep Slicer]]
+- [[Transitions/Calf Slicer]]
+- [[Submissions/Calf Slicer from Truck]]
+- [[Submissions/Inside Heel Hook]]
+- [[Transitions/Outside Heel Hook]]
+- [[Transitions/Heel Hook]]
+- [[Submissions/Straight Ankle Lock]]
+- [[Transitions/Toe Hold]]
+- [[Transitions/Kneebar]]
+- [[Submissions/Achilles Lock]]
+- [[Positions/Estima Lock]]
+- [[Submissions/Banana Split]]
+- [[Submissions/Bicep Slicer]]
 
 
 </section>
@@ -266,14 +266,14 @@ The Calf Slicer from 50-50 Guard represents one of the most devastating compress
 
 ## Additional Related Content
 
-- [[50-50 Guard]] - Primary starting position providing leg entanglement structure
-- [[Inside Ashi-Garami]] - Alternative leg entanglement position with similar submission access
-- [[Leg Entanglement]] - Core positional principle enabling all leg-based submissions
-- [[Inside Heel Hook]] - Primary follow-up submission when opponent defends calf slicer
-- [[Straight Ankle Lock]] - Alternative submission available when opponent extends leg
-- [[Calf Slicer]] - Parent submission with broader positional applications
-- [[Saddle]] - Advanced leg entanglement with superior control for similar attacks
-- [[Backside 50-50]] - Variation position enabling different angles for calf compression
+- [[Positions/Ashi Garami/50-50 Guard]] - Primary starting position providing leg entanglement structure
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative leg entanglement position with similar submission access
+- [[Positions/Leg Entanglement]] - Core positional principle enabling all leg-based submissions
+- [[Submissions/Inside Heel Hook]] - Primary follow-up submission when opponent defends calf slicer
+- [[Submissions/Straight Ankle Lock]] - Alternative submission available when opponent extends leg
+- [[Transitions/Calf Slicer]] - Parent submission with broader positional applications
+- [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement with superior control for similar attacks
+- [[Positions/Ashi Garami/Backside 50-50]] - Variation position enabling different angles for calf compression
 
 
 </section>

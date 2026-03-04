@@ -93,25 +93,25 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ### Available Transitions
 
 
-- **[[Guillotine Choke]]** (50% of attempts)
+- **[[Transitions/Guillotine Choke]]** (50% of attempts)
 
-- **[[High Elbow Guillotine Variation]]** (13% of attempts)
+- **[[Transitions/High Elbow Guillotine Variation]]** (13% of attempts)
 
-- **[[Hip Bump Sweep]]** (10% of attempts)
+- **[[Transitions/Hip Bump Sweep]]** (10% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (4% of attempts)
+- **[[Transitions/Closed Guard to Omoplata]]** (4% of attempts)
 
-- **[[Closed Guard to Triangle]]** (6% of attempts)
+- **[[Transitions/Closed Guard to Triangle]]** (6% of attempts)
 
-- **[[Guard Recovery from Guillotine Control]]** (6% of attempts)
+- **[[Transitions/Guard Recovery from Guillotine Control]]** (6% of attempts)
 
-- **[[Butterfly Sweep with Guillotine]]** (6% of attempts)
+- **[[Transitions/Butterfly Sweep with Guillotine]]** (6% of attempts)
 
-- **[[Guillotine Setup]]** (3% of attempts)
+- **[[Transitions/Guillotine Setup]]** (3% of attempts)
 
-- **[[Guillotine Escape to Von Flue]]** (1% of attempts)
+- **[[Transitions/Guillotine Escape to Von Flue]]** (1% of attempts)
 
-- **[[Guillotine Escape via Posture]]** (1% of attempts)
+- **[[Transitions/Guillotine Escape via Posture]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -176,25 +176,25 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ### Available Transitions
 
 
-- **[[Guillotine Choke]]** (44% of attempts)
+- **[[Transitions/Guillotine Choke]]** (44% of attempts)
 
-- **[[High Elbow Guillotine Variation]]** (16% of attempts)
+- **[[Transitions/High Elbow Guillotine Variation]]** (16% of attempts)
 
-- **[[Front Headlock to Anaconda]]** (7% of attempts)
+- **[[Transitions/Front Headlock to Anaconda]]** (7% of attempts)
 
-- **[[Front Headlock to Darce]]** (7% of attempts)
+- **[[Transitions/Front Headlock to Darce]]** (7% of attempts)
 
-- **[[Side Control to Mount]]** (7% of attempts)
+- **[[Transitions/Side Control to Mount]]** (7% of attempts)
 
-- **[[Side Control to North-South]]** (5% of attempts)
+- **[[Transitions/Side Control to North-South]]** (5% of attempts)
 
-- **[[Pass to Side Control]]** (10% of attempts)
+- **[[Transitions/Pass to Side Control]]** (10% of attempts)
 
-- **[[Arm in Guillotine Variation]]** (2% of attempts)
+- **[[Transitions/Arm in Guillotine Variation]]** (2% of attempts)
 
-- **[[Guillotine Counter]]** (1% of attempts)
+- **[[Transitions/Guillotine Counter]]** (1% of attempts)
 
-- **[[Ten Finger Guillotine Variation]]** (1% of attempts)
+- **[[Transitions/Ten Finger Guillotine Variation]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -237,25 +237,25 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 ## Related Positions
 
 
-- **[[Front Headlock]]** - Parent position category - broader control position before securing guillotine grip
+- **[[Positions/Front Headlock]]** - Parent position category - broader control position before securing guillotine grip
 
-- **[[Anaconda Control]]** - Alternative submission when opponent turns into guillotine defense
+- **[[Positions/Anaconda Control]]** - Alternative submission when opponent turns into guillotine defense
 
-- **[[Darce Control]]** - Alternative submission when opponent rotates away from guillotine pressure
+- **[[Positions/Darce Control]]** - Alternative submission when opponent rotates away from guillotine pressure
 
-- **[[Closed Guard]]** - Common consolidation position from standing guillotine entry
+- **[[Positions/Closed Guard]]** - Common consolidation position from standing guillotine entry
 
-- **[[Half Guard]]** - Frequent transition point when opponent defends and advances position
+- **[[Positions/Half Guard]]** - Frequent transition point when opponent defends and advances position
 
-- **[[Mount]]** - Advancement target when using guillotine threat for positional improvement
+- **[[Positions/Mount]]** - Advancement target when using guillotine threat for positional improvement
 
-- **[[Back Control]]** - Transition opportunity when opponent turns away from choking pressure
+- **[[Positions/Back Control]]** - Transition opportunity when opponent turns away from choking pressure
 
-- **[[North-South]]** - Alternative advancement position maintaining head control
+- **[[Positions/North-South]]** - Alternative advancement position maintaining head control
 
-- **[[Turtle]]** - Common entry position for securing guillotine grip
+- **[[Positions/Turtle]]** - Common entry position for securing guillotine grip
 
-- **[[Side Control]]** - Advancement target when passing while maintaining guillotine grip
+- **[[Positions/Side Control]]** - Advancement target when passing while maintaining guillotine grip
 
 
 </section>

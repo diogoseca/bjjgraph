@@ -180,7 +180,7 @@ Historically known as the "key lock" or "bent armlock," the Americana earned its
 
 The Americana from Side Control exemplifies the principle of positional dominance before submission, as proper side control maintenance is essential for successful execution. The technique serves as both a finishing mechanism and a powerful tool for advancing position, as opponents often expose their backs or give up mount while defending the lock. Understanding this submission provides practitioners with a reliable pathway from control to finish while maintaining dominant position throughout the sequence.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -236,8 +236,8 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -246,10 +246,10 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 ## Opponent Defenses
 
-- **Grabbing their own belt or gi pants to prevent arm isolation** (Effectiveness: High) - Your Response: Increase cross-face pressure to break their grip by making them uncomfortable. Alternatively, threaten mount transition to force them to release the defensive grip and address the more immediate positional threat. → Leads to [[Side Control]]
-- **Straightening the arm completely to prevent the elbow bend** (Effectiveness: Medium) - Your Response: Use your body weight to collapse their straight arm by driving your chest forward. Alternatively, switch to a straight armbar or transition to mount while they're extended and vulnerable. → Leads to [[Side Control]]
-- **Rolling toward you to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Follow their roll and transition to mount or take their back as they turn. Maintain the Americana grip throughout the transition and finish from the new position. Keep your weight heavy to make the roll difficult. → Leads to [[Closed Guard]]
-- **Bridging explosively to create space** (Effectiveness: Low) - Your Response: Maintain low hips and wide base to counter the bridge. As they bridge, increase downward pressure and continue the rotation. Their bridge actually helps complete the submission by driving their shoulder into the lock. → Leads to [[Side Control]]
+- **Grabbing their own belt or gi pants to prevent arm isolation** (Effectiveness: High) - Your Response: Increase cross-face pressure to break their grip by making them uncomfortable. Alternatively, threaten mount transition to force them to release the defensive grip and address the more immediate positional threat. → Leads to [[Positions/Side Control]]
+- **Straightening the arm completely to prevent the elbow bend** (Effectiveness: Medium) - Your Response: Use your body weight to collapse their straight arm by driving your chest forward. Alternatively, switch to a straight armbar or transition to mount while they're extended and vulnerable. → Leads to [[Positions/Side Control]]
+- **Rolling toward you to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Follow their roll and transition to mount or take their back as they turn. Maintain the Americana grip throughout the transition and finish from the new position. Keep your weight heavy to make the roll difficult. → Leads to [[Positions/Closed Guard]]
+- **Bridging explosively to create space** (Effectiveness: Low) - Your Response: Maintain low hips and wide base to counter the bridge. As they bridge, increase downward pressure and continue the rotation. Their bridge actually helps complete the submission by driving their shoulder into the lock. → Leads to [[Positions/Side Control]]
 - **Pushing your head away with their free arm** (Effectiveness: Low) - Your Response: This exposes their other arm for attack. Maintain position and continue the Americana while noting the opportunity to switch to an arm triangle or attack the pushing arm after completing the initial submission. → Leads to [[game-over]]
 
 

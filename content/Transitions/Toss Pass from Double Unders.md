@@ -21,7 +21,7 @@ The technique operates on the principle of misdirection within the pressure pass
 
 Strategic deployment of the toss pass is most effective when paired with standard double unders passing options as part of a pressure passing chain. When the opponent successfully defends the stack pass by maintaining strong frames against vertical pressure, the toss pass becomes available as a complementary angle of attack. The technique requires solid grip mechanics and timing but rewards the passer with a clean pass to side control that often leaves the opponent disoriented and unable to establish defensive frames before the pass is consolidated.
 
-**From Position**: [[Double Unders]] (Top)
+**From Position**: [[Positions/Double Unders]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ Strategic deployment of the toss pass is most effective when paired with standar
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Double Unders]] | 20% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Double Unders]] | 20% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -192,25 +192,25 @@ The Toss Pass integrates into the double unders passing system as the lateral co
 ## Related Techniques
 
 
-- [[Double Unders]] - Source position providing the bilateral underhook control platform from which the toss pass is launched
+- [[Positions/Double Unders]] - Source position providing the bilateral underhook control platform from which the toss pass is launched
 
-- [[Side Control]] - Primary target position achieved upon successful completion of the toss pass
+- [[Positions/Side Control]] - Primary target position achieved upon successful completion of the toss pass
 
-- [[Stack Pass from Double Unders]] - Vertical stacking complement that creates the two-dimensional passing threat with the toss pass
+- [[Transitions/Stack Pass from Double Unders]] - Vertical stacking complement that creates the two-dimensional passing threat with the toss pass
 
-- [[Guard Recovery from Double Unders]] - Defender's primary escape transition that the toss pass aims to prevent
+- [[Transitions/Guard Recovery from Double Unders]] - Defender's primary escape transition that the toss pass aims to prevent
 
-- [[Half Guard]] - Common partial pass outcome when the toss fails to fully clear opponent's legs
+- [[Positions/Half Guard]] - Common partial pass outcome when the toss fails to fully clear opponent's legs
 
-- [[Open Guard]] - Counter outcome position when defender successfully recovers guard during the toss
+- [[Positions/Open Guard]] - Counter outcome position when defender successfully recovers guard during the toss
 
-- [[Sweep from Double Unders]] - Opponent's offensive threat from bottom that incentivizes the passer to complete the pass quickly
+- [[Transitions/Sweep from Double Unders]] - Opponent's offensive threat from bottom that incentivizes the passer to complete the pass quickly
 
-- [[Headquarters Position]] - Related passing control position with similar forward pressure mechanics but different arm configuration
+- [[Positions/Headquarters Position]] - Related passing control position with similar forward pressure mechanics but different arm configuration
 
-- [[Body Lock Pass]] - Related explosive pressure passing technique sharing commitment-based passing philosophy
+- [[Transitions/Body Lock Pass]] - Related explosive pressure passing technique sharing commitment-based passing philosophy
 
-- [[Butterfly Guard]] - Common guard position that precedes double unders establishment when hooks are cleared
+- [[Positions/Butterfly Guard]] - Common guard position that precedes double unders establishment when hooks are cleared
 
 
 </section>

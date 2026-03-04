@@ -146,7 +146,7 @@ description: "Learn to defend the toe hold from outside ashi-garami. Recognition
 
 Defending the toe hold from outside ashi-garami requires early recognition of the grip transition and immediate defensive action before rotational force is applied. The defender must understand that the toe hold is typically a chain attack following unsuccessful heel hook attempts, meaning defensive awareness should heighten when the attacker releases their heel hook grip and reaches for the foot. Success depends on preventing the kimura grip from being fully established, maintaining foot integrity through boot defense, and using defensive reactions to create opportunities to escape the entire leg entanglement or reverse position. The critical window for defense is during the grip transition phase - once rotation is applied with chest pressure consolidated, defensive options narrow significantly and injury risk increases.
 
-**Opponent's Starting Position**: [[Outside Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the toe hold from outside ashi-garami requires early recognition of th
 ### 1. Boot defense - extend your foot and flex your toes strongly, making your foot rigid and straight to prevent the kimura grip from wrapping around the ball of your foot
 
 - **When to use**: Immediately when you feel the attacker's arm threading under your foot, before the figure-four grip is fully established
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: Attacker cannot establish finishing grip and must seek alternative attack or re-attempt, giving you time to work leg extraction
 - **Risk**: Boot defense may expose your heel if foot extension creates heel access, potentially allowing the attacker to transition to an outside heel hook
 
 ### 2. Counter-rotation - rotate your entire body in the same direction as the toe hold rotation to neutralize the torque being applied to your ankle and knee joints
 
 - **When to use**: When the attacker has established the grip and begins applying rotational force - this is the emergency defense when grip prevention has failed
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Torque on ankle is neutralized, and continued rotation can create enough space for scramble opportunity or full leg extraction from entanglement
 - **Risk**: Excessive rotation may create new entanglement angles or expose your opposite leg to attack from a different position
 
 ### 3. Grip stripping - use both hands to break the attacker's figure-four grip by wedging fingers between their clasped hands and breaking the wrist-to-wrist connection
 
 - **When to use**: When the kimura grip is established but before significant rotation has been applied - the grip is most vulnerable before force locks it in place
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: Attacker loses submission grip entirely and must re-establish the figure-four or transition to a different attack, creating a defensive window
 - **Risk**: Both hands committed to grip fighting leaves you unable to establish frames or work simultaneous leg extraction
 
 ### 4. Standing extraction - stand up explosively using your free leg and bodyweight to create height advantage, then extract trapped foot using elevation and gravity
 
 - **When to use**: When the attacker's leg entanglement is loose enough to allow standing and before the toe hold grip is fully consolidated with chest pressure
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Complete escape from both the toe hold threat and the outside ashi-garami entanglement, returning to standing neutral position
 - **Risk**: Standing attempt may tighten attacker's leg entanglement if not timed correctly, and hanging bodyweight can actually increase toe hold leverage against you
 
@@ -217,11 +217,11 @@ Defending the toe hold from outside ashi-garami requires early recognition of th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Execute boot defense to prevent grip establishment, then immediately work standing extraction by posting with free leg and elevating hips. Use height advantage and gravity to extract trapped leg from the weakened figure-four entanglement before the attacker can re-establish offensive grips.
 
-### → [[Outside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 Strip the attacker's kimura grip early before rotation is applied using both hands to break the wrist-to-wrist connection, then immediately transition to standard ashi garami escape sequences including hip rotation, framing, and systematic leg extraction.
 

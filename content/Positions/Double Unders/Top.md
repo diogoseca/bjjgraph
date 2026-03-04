@@ -207,25 +207,25 @@ The Double Unders position excels at breaking down various open guard styles, pa
 
 ## Available Attacks
 
-### [[Double Under Pass]] (33% of attempts)
+### [[Transitions/Double Under Pass]] (33% of attempts)
 
-### [[Stack Pass]] (14% of attempts)
+### [[Transitions/Stack Pass]] (14% of attempts)
 
-### [[Leg Weave Pass]] (10% of attempts)
+### [[Transitions/Leg Weave Pass]] (10% of attempts)
 
-### [[Back Take]] (8% of attempts)
+### [[Transitions/Back Take]] (8% of attempts)
 
-### [[Over-Under Pass]] (6% of attempts)
+### [[Transitions/Over-Under Pass]] (6% of attempts)
 
-### [[Body Lock Pass]] (10% of attempts)
+### [[Transitions/Body Lock Pass]] (10% of attempts)
 
-### [[Knee Slice Pass]] (8% of attempts)
+### [[Transitions/Knee Slice Pass]] (8% of attempts)
 
-### [[Smash Pass]] (6% of attempts)
+### [[Transitions/Smash Pass]] (6% of attempts)
 
-### [[Stack Pass from Double Unders]] (3% of attempts)
+### [[Transitions/Stack Pass from Double Unders]] (3% of attempts)
 
-### [[Toss Pass from Double Unders]] (2% of attempts)
+### [[Transitions/Toss Pass from Double Unders]] (2% of attempts)
 
 
 
@@ -236,23 +236,23 @@ The Double Unders position excels at breaking down various open guard styles, pa
 ## Decision Making from This Position
 
 **If opponent keeps legs together and attempts to frame with hands on chest maintaining flat back:**
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 75%)
-- Execute **[[Double Under Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 75%)
+- Execute **[[Transitions/Double Under Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent turns to their side trying to face away and escape the crushing pressure:**
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent attempts to separate legs or insert butterfly hooks between your arms:**
-- Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent extends arms to create frames or push away from chest pressure:**
-- Execute **[[Kimura from Side Control]]** → [[Kimura Trap]] (Probability: 45%)
-- Execute **[[Double Under Pass]]** → [[Side Control]] (Probability: 70%)
+- Execute **[[Submissions/Kimura from Side Control]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Transitions/Double Under Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 
@@ -379,15 +379,15 @@ Partner actively attempts specific escapes: hip escape, granby roll, butterfly h
 
 ## Related Positions and Techniques
 
-- **[[Headquarters Position]]** - Similar pressure passing control with different arm configuration
-- **[[Leg Weave]]** - Related passing position when legs separate during double unders
-- **[[Side Control]]** - Primary transition target upon successful pass completion
-- **[[Half Guard]]** - Common escape position opponent seeks to recover from this pressure
-- **[[Butterfly Guard]]** - Vulnerable guard position that double unders effectively counters and neutralizes
-- **[[Double Under Pass]]** - Primary technique used to advance from this position to side control
-- **[[Stack Pass]]** - Alternative passing technique using vertical stacking pressure
-- **[[Back Control]]** - Alternative transition when opponent turns away during pressure
-- **[[Knee Slice Pass]]** - Chain passing option when transitioning from double unders
+- **[[Positions/Headquarters Position]]** - Similar pressure passing control with different arm configuration
+- **[[Positions/Leg Weave]]** - Related passing position when legs separate during double unders
+- **[[Positions/Side Control]]** - Primary transition target upon successful pass completion
+- **[[Positions/Half Guard]]** - Common escape position opponent seeks to recover from this pressure
+- **[[Positions/Butterfly Guard]]** - Vulnerable guard position that double unders effectively counters and neutralizes
+- **[[Transitions/Double Under Pass]]** - Primary technique used to advance from this position to side control
+- **[[Transitions/Stack Pass]]** - Alternative passing technique using vertical stacking pressure
+- **[[Positions/Back Control]]** - Alternative transition when opponent turns away during pressure
+- **[[Transitions/Knee Slice Pass]]** - Chain passing option when transitioning from double unders
 
 
 </section>

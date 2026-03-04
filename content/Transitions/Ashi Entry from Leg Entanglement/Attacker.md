@@ -186,7 +186,7 @@ description: "Complete guide to executing the Ashi Entry from Leg Entanglement. 
 
 The attacker's objective in the Ashi Entry from Leg Entanglement is to convert a loosely defined or neutral leg exchange into the structured Inside Ashi-Garami configuration. This requires establishing the two defining control points of inside ashi: threading the inside leg across the opponent's near hip to control rotation, and hooking the outside leg behind their knee to prevent leg extraction. The attacker must create timing windows through submission threats or positional pressure, then execute the threading sequence before the opponent can re-establish defensive barriers. Success depends on reading the opponent's weight distribution, identifying moments of divided attention, and maintaining constant forward pressure toward the target leg throughout the entry sequence.
 
-**From Position**: [[Leg Entanglement]] (Top)
+**From Position**: [[Positions/Leg Entanglement]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ The attacker's objective in the Ashi Entry from Leg Entanglement is to convert a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 55% |
-| Failure | [[Leg Entanglement]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 55% |
+| Failure | [[Positions/Leg Entanglement]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ The attacker's objective in the Ashi Entry from Leg Entanglement is to convert a
 
 ## Opponent Counters
 
-- **Opponent pumps their leg explosively to extract it before the outside hook is established** (Effectiveness: High) - Your Response: Follow their leg immediately by scooting your hips forward and re-clamping your legs. If they create significant distance, transition to a kneebar threat on the extended leg rather than chasing the original ashi entry. → Leads to [[Leg Entanglement]]
-- **Opponent hip escapes laterally and frames against your inside leg to prevent it from crossing their hip** (Effectiveness: Medium) - Your Response: Use the backstep entry variant by rotating over their leg rather than threading directly. Their hip escape often exposes the opposite angle for outside ashi or saddle entry as an alternative. → Leads to [[Leg Entanglement]]
-- **Opponent initiates a counter-entanglement by grabbing your leg and entering their own ashi garami** (Effectiveness: Medium) - Your Response: If your position is more advanced, accelerate the entry and finish threading before their counter develops. If they achieve equal entanglement, disengage and re-enter rather than accepting a 50-50 exchange from a previously superior angle. → Leads to [[Leg Entanglement]]
-- **Opponent performs a technical standup or explosive bridge to disengage from the entanglement entirely** (Effectiveness: High) - Your Response: Maintain heel grip and use their standing motion to sweep them by extending your legs and controlling their base. If they achieve full standing posture, transition to single leg X-guard or release and re-engage from open guard. → Leads to [[Half Guard]]
+- **Opponent pumps their leg explosively to extract it before the outside hook is established** (Effectiveness: High) - Your Response: Follow their leg immediately by scooting your hips forward and re-clamping your legs. If they create significant distance, transition to a kneebar threat on the extended leg rather than chasing the original ashi entry. → Leads to [[Positions/Leg Entanglement]]
+- **Opponent hip escapes laterally and frames against your inside leg to prevent it from crossing their hip** (Effectiveness: Medium) - Your Response: Use the backstep entry variant by rotating over their leg rather than threading directly. Their hip escape often exposes the opposite angle for outside ashi or saddle entry as an alternative. → Leads to [[Positions/Leg Entanglement]]
+- **Opponent initiates a counter-entanglement by grabbing your leg and entering their own ashi garami** (Effectiveness: Medium) - Your Response: If your position is more advanced, accelerate the entry and finish threading before their counter develops. If they achieve equal entanglement, disengage and re-enter rather than accepting a 50-50 exchange from a previously superior angle. → Leads to [[Positions/Leg Entanglement]]
+- **Opponent performs a technical standup or explosive bridge to disengage from the entanglement entirely** (Effectiveness: High) - Your Response: Maintain heel grip and use their standing motion to sweep them by extending your legs and controlling their base. If they achieve full standing posture, transition to single leg X-guard or release and re-engage from open guard. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -180,7 +180,7 @@ Strategically, the Single Leg X Transition serves as a crucial link in the leg e
 
 The timing window for this transition typically opens when the opponent shifts their weight toward your trapped leg or attempts to step over your guard. Their forward pressure actually assists the entry by loading weight onto the leg you're attacking. Advanced practitioners learn to bait this pressure through feinting other attacks, then capitalizing on the reaction to secure the transition.
 
-**From Position**: [[Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ The timing window for this transition typically opens when the opponent shifts t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 55% |
-| Failure | [[Grasshopper Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 55% |
+| Failure | [[Positions/Grasshopper Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ The timing window for this transition typically opens when the opponent shifts t
 
 ## Opponent Counters
 
-- **Opponent sprawls and drives hips back immediately upon recognizing the entry attempt** (Effectiveness: High) - Your Response: Anticipate the sprawl and use their backward momentum to come up into a technical standup or follow with Reverse De La Riva recovery → Leads to [[Grasshopper Guard]]
-- **Opponent posts hands on your hips and creates distance before the leg can thread completely** (Effectiveness: Medium) - Your Response: Switch to X-Guard entry by shooting both legs to their hips, or disengage to Butterfly Guard to reset the attack → Leads to [[Grasshopper Guard]]
-- **Opponent steps their targeted leg backward and circles away from the entanglement** (Effectiveness: Medium) - Your Response: Follow with continuous inversion and roll toward them, transitioning to Outside Ashi-Garami on their retreating leg → Leads to [[Grasshopper Guard]]
-- **Opponent drops their knee to the mat and drives a smash pass through your guard** (Effectiveness: Low) - Your Response: Use their committed knee position to complete the entry - their knee drop actually assists the leg threading motion and exposes them to the X configuration → Leads to [[Side Control]]
+- **Opponent sprawls and drives hips back immediately upon recognizing the entry attempt** (Effectiveness: High) - Your Response: Anticipate the sprawl and use their backward momentum to come up into a technical standup or follow with Reverse De La Riva recovery → Leads to [[Positions/Grasshopper Guard]]
+- **Opponent posts hands on your hips and creates distance before the leg can thread completely** (Effectiveness: Medium) - Your Response: Switch to X-Guard entry by shooting both legs to their hips, or disengage to Butterfly Guard to reset the attack → Leads to [[Positions/Grasshopper Guard]]
+- **Opponent steps their targeted leg backward and circles away from the entanglement** (Effectiveness: Medium) - Your Response: Follow with continuous inversion and roll toward them, transitioning to Outside Ashi-Garami on their retreating leg → Leads to [[Positions/Grasshopper Guard]]
+- **Opponent drops their knee to the mat and drives a smash pass through your guard** (Effectiveness: Low) - Your Response: Use their committed knee position to complete the entry - their knee drop actually assists the leg threading motion and exposes them to the X configuration → Leads to [[Positions/Side Control]]
 
 
 </section>

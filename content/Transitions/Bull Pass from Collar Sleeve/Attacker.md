@@ -180,7 +180,7 @@ description: "Execute the Bull Pass from Collar Sleeve Guard. Step-by-step guide
 
 As the attacker executing the bull pass from collar sleeve guard, your primary objective is to exploit a momentary grip vulnerability to create explosive lateral passing movement that clears the opponent's guard structure. This technique demands precise timing in the grip break to pass transition, decisive commitment to the lateral step, and immediate pressure consolidation once past the leg line. The bull pass succeeds by changing the direction of engagement from the forward-backward battle that characterizes most collar sleeve guard exchanges to a sudden lateral passing angle that the bottom player's grip structure is poorly equipped to defend. Understanding the mechanical relationship between grip control, leg redirection, and lateral movement allows you to execute this pass with minimal energy expenditure while maximizing the element of surprise.
 
-**From Position**: [[Collar Sleeve Guard]] (Top)
+**From Position**: [[Positions/Collar Sleeve Guard]] (Top)
 
 </section>
 
@@ -233,10 +233,10 @@ As the attacker executing the bull pass from collar sleeve guard, your primary o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Success | [[Side Control]] | 15% |
-| Failure | [[Collar Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Success | [[Positions/Side Control]] | 15% |
+| Failure | [[Positions/Collar Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ As the attacker executing the bull pass from collar sleeve guard, your primary o
 
 ## Opponent Counters
 
-- **Hip escape and re-guard when legs are redirected to one side** (Effectiveness: High) - Your Response: Accelerate your lateral step and drive the legs further past the recovery angle. If they begin hip escaping, follow their hip movement with your body and cut your knee through the space they create to intercept the reguard. → Leads to [[Collar Sleeve Guard]]
-- **Insert knee shield during lateral step to block the pass completion** (Effectiveness: Medium) - Your Response: Accept the knee shield and transition to half guard top rather than fighting through it. Immediately establish crossface pressure and begin systematic half guard passing from the improved position you achieved. → Leads to [[Half Guard]]
-- **Invert and insert hooks to recover to open guard or De La Riva** (Effectiveness: Medium) - Your Response: Maintain pant grips and continue forward pressure to prevent their inversion from completing. If they begin to invert, stuff their near hip to the mat with your knee and redirect to a leg drag passing angle. → Leads to [[Open Guard]]
-- **Pull collar grip hard to break posture during grip transition phase** (Effectiveness: High) - Your Response: If the collar pull breaks your posture before you secure pant grips, abort the bull pass attempt and re-establish your base. Do not force the pass with compromised posture as this creates sweep vulnerability. → Leads to [[Collar Sleeve Guard]]
+- **Hip escape and re-guard when legs are redirected to one side** (Effectiveness: High) - Your Response: Accelerate your lateral step and drive the legs further past the recovery angle. If they begin hip escaping, follow their hip movement with your body and cut your knee through the space they create to intercept the reguard. → Leads to [[Positions/Collar Sleeve Guard]]
+- **Insert knee shield during lateral step to block the pass completion** (Effectiveness: Medium) - Your Response: Accept the knee shield and transition to half guard top rather than fighting through it. Immediately establish crossface pressure and begin systematic half guard passing from the improved position you achieved. → Leads to [[Positions/Half Guard]]
+- **Invert and insert hooks to recover to open guard or De La Riva** (Effectiveness: Medium) - Your Response: Maintain pant grips and continue forward pressure to prevent their inversion from completing. If they begin to invert, stuff their near hip to the mat with your knee and redirect to a leg drag passing angle. → Leads to [[Positions/Open Guard]]
+- **Pull collar grip hard to break posture during grip transition phase** (Effectiveness: High) - Your Response: If the collar pull breaks your posture before you secure pant grips, abort the bull pass attempt and re-establish your base. Do not force the pass with compromised posture as this creates sweep vulnerability. → Leads to [[Positions/Collar Sleeve Guard]]
 
 
 </section>

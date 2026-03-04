@@ -21,7 +21,7 @@ The sweep capitalizes on a fundamental vulnerability in the Inside Sankaku posit
 
 Success with this technique requires disciplined patience and accurate reading of the opponent's weight distribution. Premature sweep attempts waste energy and expose the heel to submission, while delayed attempts miss the narrow window of vulnerability. The sweep integrates into a broader defensive strategy from Inside Sankaku that includes heel protection, escape attempts, and counter-entanglement, making it one weapon in an arsenal of bottom-position options rather than a standalone technique.
 
-**From Position**: [[Inside Sankaku]] (Bottom)
+**From Position**: [[Positions/Inside Sankaku]] (Bottom)
 **Success Rate**: 30%
 
 </section>
@@ -32,9 +32,9 @@ Success with this technique requires disciplined patience and accurate reading o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 30% |
-| Failure | [[Inside Sankaku]] | 45% |
-| Counter | [[Saddle]] | 25% |
+| Success | [[Positions/Mount]] | 30% |
+| Failure | [[Positions/Inside Sankaku]] | 45% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 25% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Sweep from Inside Sankaku occupies a critical role in the leg entanglement d
 ## Related Techniques
 
 
-- [[Inside Sankaku]] - Starting position - the leg entanglement from which this sweep is executed
+- [[Positions/Inside Sankaku]] - Starting position - the leg entanglement from which this sweep is executed
 
-- [[Mount]] - Target position - successful sweep lands in mount, the highest-scoring dominant position
+- [[Positions/Mount]] - Target position - successful sweep lands in mount, the highest-scoring dominant position
 
-- [[Saddle]] - Counter outcome - failed sweep can allow opponent to advance to the tighter Saddle entanglement
+- [[Positions/Ashi Garami/Saddle]] - Counter outcome - failed sweep can allow opponent to advance to the tighter Saddle entanglement
 
-- [[Sweep from Honey Hole]] - Closely related technique - sweep from the same position using alternative terminology
+- [[Transitions/Sweep from Honey Hole]] - Closely related technique - sweep from the same position using alternative terminology
 
-- [[Inside Sankaku Heel Hook]] - Primary submission threat that must be neutralized before attempting the sweep
+- [[Transitions/Inside Sankaku Heel Hook]] - Primary submission threat that must be neutralized before attempting the sweep
 
-- [[Heel Hook Defense Escape]] - Complementary defensive technique - heel protection is prerequisite to sweep attempts
+- [[Transitions/Heel Hook Defense Escape]] - Complementary defensive technique - heel protection is prerequisite to sweep attempts
 
-- [[Counter Sweep from Leg Entanglement]] - Related reversal concept applied across different leg entanglement positions
+- [[Transitions/Counter Sweep from Leg Entanglement]] - Related reversal concept applied across different leg entanglement positions
 
-- [[Ashi Garami Escape]] - Alternative defensive option from leg entanglements when sweep is not available
+- [[Transitions/Ashi Garami Escape]] - Alternative defensive option from leg entanglements when sweep is not available
 
-- [[Inside Sankaku to Saddle]] - Risk transition - failed sweep attempt can facilitate opponent's advancement to Saddle
+- [[Transitions/Inside Sankaku to Saddle]] - Risk transition - failed sweep attempt can facilitate opponent's advancement to Saddle
 
-- [[50-50 Guard]] - Alternative counter-entanglement destination that neutralizes opponent's Inside Sankaku advantage
+- [[Positions/Ashi Garami/50-50 Guard]] - Alternative counter-entanglement destination that neutralizes opponent's Inside Sankaku advantage
 
 
 </section>

@@ -156,7 +156,7 @@ description: "How to defend against Suloev Stretch in BJJ. Recognition, escape p
 
 Defending the Suloev Stretch requires early recognition and decisive action, as this knee compression submission becomes extremely difficult to escape once the figure-four lock is fully secured and hip extension begins. The defender's primary objective is to prevent the attacker from completing the figure-four configuration around the trapped leg, and failing that, to immediately work toward straightening the leg or creating enough rotation to disrupt the compression angle. The Suloev Stretch is particularly dangerous because it attacks both the knee joint and calf muscle simultaneously, creating a dual-threat that can cause injury rapidly if not addressed in the early stages. Understanding the attacker's progression from leg isolation through figure-four completion to hip extension pressure allows the defender to identify the optimal window for each defensive response and prioritize the most effective escape based on the stage of the submission attempt.
 
-**Opponent's Starting Position**: [[Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the Suloev Stretch requires early recognition and decisive action, as 
 ### 1. Straighten the trapped leg by driving your heel away from your buttocks and extending forcefully through the knee
 
 - **When to use**: As soon as you recognize the opponent is attempting to bend your knee and establish the figure-four lock. Most effective before the lock is fully secured. This is your highest-percentage defense in the early stages
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Removes the compression angle entirely, forcing the attacker to abandon the submission attempt and return to their passing game
 - **Risk**: If the figure-four is already locked, extension attempts may be ineffective and can waste energy. Explosive extension against a fully locked figure-four can also increase strain on your own knee
 
 ### 2. Turn aggressively toward the attacker by bridging and rotating into them, disrupting the perpendicular body angle they need
 
 - **When to use**: When the attacker has begun establishing the figure-four but has not yet secured strong upper body control. Your rotation changes the compression angle and can create scramble opportunities
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Disrupts the attacker's T-shape body position, reduces compression effectiveness, and may create opportunities to recover guard or enter a leg entanglement of your own
 - **Risk**: Turning too late when the lock is fully secured may increase rotational stress on the knee. If the attacker has strong crossface control, rotation attempts may be blocked entirely
 
 ### 3. Frame against the attacker's hips and chest to prevent them from driving forward, while simultaneously working to extract your leg from the developing figure-four
 
 - **When to use**: During the transition phase when the attacker is stepping over your thigh but has not yet completed the ankle hook. Use strong frames to create space while kicking your leg free
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Prevents the figure-four from being completed and returns you to a standard half guard position where you can begin your guard retention or recovery sequences
 - **Risk**: Requires significant upper body engagement which may tire you quickly. If frames fail and the lock completes, you have used energy that could have been applied to other escapes
 
 ### 4. Grab your own trapped leg at the ankle or foot and pull it toward you, preventing the attacker from driving your heel toward your buttocks
 
 - **When to use**: When the figure-four is partially or fully locked but the attacker has not yet begun applying hip extension pressure. Grip your ankle to prevent the compression angle from deepening
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Stalls the submission by preventing the optimal compression angle, buying time to work other escapes or wait for the attacker to adjust and create an opening
 - **Risk**: This is a stalling defense, not an escape. The attacker can work to strip your grip or adjust angle to bypass your grip. Energy expenditure holding your own leg is significant over time
 
@@ -239,11 +239,11 @@ Defending the Suloev Stretch requires early recognition and decisive action, as 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Successfully straighten the trapped leg or strip the figure-four lock early, forcing the attacker to abandon the submission and return to their passing game. Use the disruption to recover your defensive frames and re-establish guard structure
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Turn into the attacker during the setup phase to disrupt their angle, then use the resulting scramble to recover half guard bottom with proper frames. The attacker's commitment to the submission leaves them vulnerable to guard recovery during the transition
 

@@ -21,7 +21,7 @@ Strategically, the reguard functions as both a guard retention tool and a positi
 
 The mechanical challenge lies in creating sufficient space for leg extraction without surrendering the connections that prevent passing. The existing butterfly hook serves as the primary anchor throughout the transition, maintaining elevation pressure that keeps the top player's weight honest while the bottom player shrimps and pummels the trapped knee free. The entire sequence must flow continuously from hip escape through extraction to hook insertion, as any pause between steps creates a window where the bottom player has neither full butterfly guard nor secure half butterfly, leaving them vulnerable to passing attacks.
 
-**From Position**: [[Half Butterfly]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The mechanical challenge lies in creating sufficient space for leg extraction wi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Butterfly Guard]] | 55% |
-| Failure | [[Half Butterfly]] | 25% |
-| Counter | [[Flattened Half Guard]] | 20% |
+| Success | [[Positions/Butterfly Guard]] | 55% |
+| Failure | [[Positions/Butterfly Guard/Half Butterfly]] | 25% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Reguard from Half Butterfly occupies a critical node in the bottom player's 
 ## Related Techniques
 
 
-- [[Half Butterfly]] - Source position where the technique begins
+- [[Positions/Butterfly Guard/Half Butterfly]] - Source position where the technique begins
 
-- [[Butterfly Guard]] - Target position providing dual-hook sweeping platform upon successful reguard
+- [[Positions/Butterfly Guard]] - Target position providing dual-hook sweeping platform upon successful reguard
 
-- [[Flattened Half Guard]] - Counter outcome when opponent capitalizes on extraction space to advance pass
+- [[Positions/Half Guard/Flattened Half Guard]] - Counter outcome when opponent capitalizes on extraction space to advance pass
 
-- [[Half Butterfly Sweep]] - Primary sweep from same position whose defense can create reguard timing windows
+- [[Transitions/Half Butterfly Sweep]] - Primary sweep from same position whose defense can create reguard timing windows
 
-- [[Half Butterfly to Dogfight]] - Alternative transition from same starting position when reguard is blocked
+- [[Transitions/Half Butterfly to Dogfight]] - Alternative transition from same starting position when reguard is blocked
 
-- [[Deep Half Guard]] - Alternative recovery target when forward pressure makes reguard impractical
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative recovery target when forward pressure makes reguard impractical
 
-- [[Pass Half Butterfly]] - Opponent's primary goal that the reguard aims to prevent
+- [[Transitions/Pass Half Butterfly]] - Opponent's primary goal that the reguard aims to prevent
 
-- [[Knee Shield Half Guard]] - Alternative guard frame to recover if butterfly hook is compromised during attempt
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative guard frame to recover if butterfly hook is compromised during attempt
 
-- [[Reguard from Butterfly Half Guard]] - Analogous technique from the related butterfly half guard position
+- [[Transitions/Reguard from Butterfly Half Guard]] - Analogous technique from the related butterfly half guard position
 
-- [[X-Guard]] - Downstream transition available from successful butterfly guard recovery
+- [[Positions/X-Guard]] - Downstream transition available from successful butterfly guard recovery
 
 
 </section>

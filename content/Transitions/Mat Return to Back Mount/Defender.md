@@ -156,7 +156,7 @@ Defending against the Mat Return to Back Mount requires you to recognize the att
 
 The most common defensive error is passivity. Practitioners who accept the standing back control and wait for the opponent to act almost always end up in grounded back mount with hooks established. Instead, you must be actively fighting grips, adjusting your base, and creating movement that makes the mat return timing difficult. Every second you remain standing with active defensive movement is a second your opponent cannot commit to the takedown cleanly. When the takedown does come, your preparation determines whether you land in a recoverable turtle position or flat on your back with hooks already in.
 
-**Opponent's Starting Position**: [[Standing Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The most common defensive error is passivity. Practitioners who accept the stand
 ### 1. Widen stance and sprawl hips back to deny base break
 
 - **When to use**: When you feel opponent begin to load their weight for the takedown or attempt to kick your leg out, before they have fully committed
-- **Targets**: [[Standing Back Control]]
+- **Targets**: [[Positions/Back Control/Standing Back Control]]
 - **If successful**: You remain standing with back control still engaged but the immediate takedown threat is neutralized, giving you time to continue grip fighting
 - **Risk**: Wide stance can expose you to lateral trips if opponent switches direction, and excessive sprawling can break your own posture forward
 
 ### 2. Drop to turtle preemptively with elbows tight before opponent controls the descent
 
 - **When to use**: When you recognize the mat return is inevitable and cannot prevent the takedown, choosing to go down on your terms rather than being driven down
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You land in a defensively sound turtle with elbows tight to knees, preventing immediate hook insertion and giving you access to granby rolls, sit-throughs, and guard recovery options
 - **Risk**: Opponent may follow your descent seamlessly and insert hooks before you can fully establish turtle defense, ending up in grounded back control anyway
 
 ### 3. Strip harness grip with aggressive two-on-one hand fighting during the takedown attempt
 
 - **When to use**: When opponent commits to the takedown but their grip is not fully locked, creating a window to break the harness connection before they complete the descent
-- **Targets**: [[Standing Back Control]]
+- **Targets**: [[Positions/Back Control/Standing Back Control]]
 - **If successful**: Breaking the harness during the takedown attempt converts it into a scramble rather than a controlled mat return, giving you opportunity to turn and face or separate entirely
 - **Risk**: Focusing on grip fighting during the descent can leave your base undefended, and if the grip strip fails you may land in a worse position with arms out of defensive position
 
 ### 4. Turn into opponent and sit to guard during the transition to ground
 
 - **When to use**: When the takedown has been initiated and you are descending to the mat, using the transition moment to rotate your hips and face the opponent
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You recover facing position and establish guard rather than landing with back exposed, converting a dominant position loss into a neutral guard engagement
 - **Risk**: Turning during descent can expose your neck to chokes if opponent maintains harness, and failed rotation may land you in worse position than controlled turtle
 
@@ -227,11 +227,11 @@ The most common defensive error is passivity. Practitioners who accept the stand
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Back Control]]
+### → [[Positions/Back Control/Standing Back Control]]
 
 Maintain wide active base with constant movement, aggressively strip harness grips using two-on-one technique, deny opponent's ability to break your stance by sprawling hips back when you feel the leg attack, and keep shifting direction so they cannot read your weight distribution for the takedown timing
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 When the mat return becomes inevitable, preemptively drop to your knees with elbows glued tight to your inner thighs, chin tucked, and back rounded before the opponent can control the descent direction. This denies them the controlled landing they need to immediately establish hooks and gives you access to turtle escape sequences
 

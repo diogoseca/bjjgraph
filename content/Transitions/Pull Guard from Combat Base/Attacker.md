@@ -180,7 +180,7 @@ description: "Master the guard pull from combat base bottom in BJJ. Step-by-step
 
 As the attacker executing the guard pull from combat base, your objective is to disrupt the top player's passing platform by closing your guard around their waist. This requires breaking their structural base through strategic grips, creating the necessary hip proximity through controlled movement, and timing your guard closure to catch them during transitions or weight shifts. Your success depends on persistent grip fighting, precise hip escaping, and the ability to recognize and exploit momentary openings in the combat base structure. The guard pull is not a single explosive movement but a systematic sequence of posture breaking, distance closing, and leg wrapping that culminates in established closed guard control.
 
-**From Position**: [[Combat Base]] (Bottom)
+**From Position**: [[Positions/Combat Base]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the guard pull from combat base, your objective is to 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Combat Base]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Combat Base]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the guard pull from combat base, your objective is to 
 
 ## Opponent Counters
 
-- **Opponent stands up explosively to break distance and deny guard closure** (Effectiveness: High) - Your Response: Switch immediately to feet-on-hips open guard, then transition to de la riva or shin-to-shin hooks before re-attempting guard closure from the new angle → Leads to [[Combat Base]]
-- **Opponent posts hand on mat and drives hips backward to create separation** (Effectiveness: Medium) - Your Response: Follow their hip retreat with your own hip escape, maintaining grip tension throughout; re-attempt closure from the new angle or threaten a hip bump sweep to force them forward again → Leads to [[Combat Base]]
-- **Opponent strips your primary collar grip aggressively before you can break posture** (Effectiveness: Medium) - Your Response: Immediately establish an alternative grip such as cross sleeve control, lapel wrap around their bicep, or underhook on the near arm before they can fully posture up → Leads to [[Combat Base]]
-- **Opponent initiates knee slice pass during your upward transition, exploiting your focus on guard closure** (Effectiveness: High) - Your Response: Abandon the guard pull and frame your inside forearm against their slicing knee to prevent pass completion; establish knee shield half guard and work from there → Leads to [[Half Guard]]
+- **Opponent stands up explosively to break distance and deny guard closure** (Effectiveness: High) - Your Response: Switch immediately to feet-on-hips open guard, then transition to de la riva or shin-to-shin hooks before re-attempting guard closure from the new angle → Leads to [[Positions/Combat Base]]
+- **Opponent posts hand on mat and drives hips backward to create separation** (Effectiveness: Medium) - Your Response: Follow their hip retreat with your own hip escape, maintaining grip tension throughout; re-attempt closure from the new angle or threaten a hip bump sweep to force them forward again → Leads to [[Positions/Combat Base]]
+- **Opponent strips your primary collar grip aggressively before you can break posture** (Effectiveness: Medium) - Your Response: Immediately establish an alternative grip such as cross sleeve control, lapel wrap around their bicep, or underhook on the near arm before they can fully posture up → Leads to [[Positions/Combat Base]]
+- **Opponent initiates knee slice pass during your upward transition, exploiting your focus on guard closure** (Effectiveness: High) - Your Response: Abandon the guard pull and frame your inside forearm against their slicing knee to prevent pass completion; establish knee shield half guard and work from there → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -182,7 +182,7 @@ description: "Master the attacking mechanics of the Heel Hook from Ushiro Ashi-G
 
 Executing the heel hook from ushiro ashi-garami demands precise mechanical adjustments that account for the reversed hip orientation of the entanglement. The attacker must adapt standard heel hook grips, hip positioning, and rotational force application to the inverted geometry, where the opponent's hip faces away rather than toward the attacker. Success depends on capitalizing on narrow finishing windows that open during the opponent's escape transitions, combining disciplined positional control with decisive grip establishment and controlled rotational force. The attacker who understands the specific biomechanical differences between ushiro and standard heel hooks can finish from positions that less experienced practitioners abandon, turning defensive scrambles into submission opportunities.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 
 </section>
@@ -236,9 +236,9 @@ Executing the heel hook from ushiro ashi-garami demands precise mechanical adjus
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Ushiro Ashi-Garami]] | 25% |
-| Counter | [[Open Guard]] | 15% |
-| Counter | [[50-50 Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -247,10 +247,10 @@ Executing the heel hook from ushiro ashi-garami demands precise mechanical adjus
 
 ## Opponent Defenses
 
-- **Opponent boots the heel by maintaining strong dorsiflexion and hiding the heel behind the lower leg** (Effectiveness: High) - Your Response: Use your grip fighting hand to peel their toes back toward their shin, creating space behind the Achilles. Alternatively, switch to a straight ankle lock attack that does not require heel exposure. → Leads to [[Ushiro Ashi-Garami]]
-- **Opponent strip-fights your grips using two-on-one hand control to prevent heel hook establishment** (Effectiveness: High) - Your Response: Transition between grip attempts, using the momentum of their grip break to re-enter from a different angle. Maintain leg control throughout and use their grip fighting focus to advance to saddle or honey hole. → Leads to [[Ushiro Ashi-Garami]]
-- **Opponent completes full inversion rotation to turtle position, escaping the ushiro entanglement entirely** (Effectiveness: High) - Your Response: Follow their rotation to establish back control rather than forcing the heel hook from a degrading position. The back take is often higher percentage than a desperate finishing attempt against a committed escape. → Leads to [[Open Guard]]
-- **Opponent counter-entangles your free leg to establish 50-50 guard, creating bilateral threats** (Effectiveness: Medium) - Your Response: Recognize the counter-entanglement early and either accelerate your finish before they establish control, or disengage your free leg and re-establish ushiro control before they complete the 50-50 entry. → Leads to [[50-50 Guard]]
+- **Opponent boots the heel by maintaining strong dorsiflexion and hiding the heel behind the lower leg** (Effectiveness: High) - Your Response: Use your grip fighting hand to peel their toes back toward their shin, creating space behind the Achilles. Alternatively, switch to a straight ankle lock attack that does not require heel exposure. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Opponent strip-fights your grips using two-on-one hand control to prevent heel hook establishment** (Effectiveness: High) - Your Response: Transition between grip attempts, using the momentum of their grip break to re-enter from a different angle. Maintain leg control throughout and use their grip fighting focus to advance to saddle or honey hole. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Opponent completes full inversion rotation to turtle position, escaping the ushiro entanglement entirely** (Effectiveness: High) - Your Response: Follow their rotation to establish back control rather than forcing the heel hook from a degrading position. The back take is often higher percentage than a desperate finishing attempt against a committed escape. → Leads to [[Positions/Open Guard]]
+- **Opponent counter-entangles your free leg to establish 50-50 guard, creating bilateral threats** (Effectiveness: Medium) - Your Response: Recognize the counter-entanglement early and either accelerate your finish before they establish control, or disengage your free leg and re-establish ushiro control before they complete the 50-50 entry. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 
 
 </section>

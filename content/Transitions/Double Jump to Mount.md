@@ -21,7 +21,7 @@ This transition exploits the opponent's defensive choice to flatten rather than 
 
 The Double Jump to Mount pathway represents a critical secondary option within the turtle attack system that prevents opponents from using a flat belly-down defense as a safe harbor against back takes. When practitioners demonstrate the ability to convert flattened turtle defense into mount as readily as active turtle into back control, they create a complete offensive dilemma where no defensive response from turtle is truly safe. This dual threat significantly increases the overall success rate of turtle attacks and forces the bottom player into increasingly narrow defensive corridors where every choice opens a different avenue of positional advancement.
 
-**From Position**: [[Double Jump]] (Top)
+**From Position**: [[Positions/Double Jump]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The Double Jump to Mount pathway represents a critical secondary option within t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Double Jump]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Double Jump]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,21 +193,21 @@ The Double Jump to Mount transition occupies a strategic role within the turtle 
 ## Related Techniques
 
 
-- [[Double Jump]] - Source position - bilateral leg hook control from turtle top serving as the transition starting point
+- [[Positions/Double Jump]] - Source position - bilateral leg hook control from turtle top serving as the transition starting point
 
-- [[Mount]] - Target position - full mount established through successful step-over from hook control
+- [[Positions/Mount]] - Target position - full mount established through successful step-over from hook control
 
-- [[Half Guard]] - Counter outcome position - reached when defender successfully reverses during the transition attempt
+- [[Positions/Half Guard]] - Counter outcome position - reached when defender successfully reverses during the transition attempt
 
-- [[Back Control]] - Alternative advancement - primary target from Double Jump when mount pathway is defended or suboptimal
+- [[Positions/Back Control]] - Alternative advancement - primary target from Double Jump when mount pathway is defended or suboptimal
 
-- [[Turtle]] - Parent position - Double Jump enters from turtle top attacks and this transition continues the attack chain
+- [[Positions/Turtle]] - Parent position - Double Jump enters from turtle top attacks and this transition continues the attack chain
 
-- [[Crab Ride]] - Alternative lateral control option when step-over mount is defended by active hip movement
+- [[Positions/Crab Ride]] - Alternative lateral control option when step-over mount is defended by active hip movement
 
-- [[Side Control]] - Alternative dominant position accessible if mount entry angles laterally during the step-over
+- [[Positions/Side Control]] - Alternative dominant position accessible if mount entry angles laterally during the step-over
 
-- [[Truck]] - Alternative leg entanglement available when opponent rolls during the mount transition attempt
+- [[Positions/Twister Control/Truck]] - Alternative leg entanglement available when opponent rolls during the mount transition attempt
 
 
 </section>

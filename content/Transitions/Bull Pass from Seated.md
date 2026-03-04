@@ -21,7 +21,7 @@ From seated guard, the bull pass exploits the seated player's relatively open le
 
 The primary risk of the bull pass lies in its forward commitment. An alert guard player can use the passer's momentum against them, timing a sweep or guard recovery at the exact moment the passer drives forward. This makes the bull pass a high-reward but conditionally risky technique that works best when the opponent is momentarily static or distracted by grip fighting. Chaining the bull pass with toreando attempts creates effective passing sequences where each failed attempt sets up the next.
 
-**From Position**: [[Seated Guard]] (Top)
+**From Position**: [[Positions/Seated Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ The primary risk of the bull pass lies in its forward commitment. An alert guard
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Seated Guard]] | 25% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 40% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Seated Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -192,25 +192,25 @@ The Bull Pass from Seated Guard connects the standing passing game to the side c
 ## Related Techniques
 
 
-- [[Seated Guard]] - Source position where the bull pass is initiated from top
+- [[Positions/Seated Guard]] - Source position where the bull pass is initiated from top
 
-- [[Side Control]] - Primary target position after successful pass completion
+- [[Positions/Side Control]] - Primary target position after successful pass completion
 
-- [[Half Guard]] - Common intermediate result when pass is partially completed
+- [[Positions/Half Guard]] - Common intermediate result when pass is partially completed
 
-- [[Toreando Pass]] - Related lateral passing technique frequently chained with bull pass
+- [[Transitions/Toreando Pass]] - Related lateral passing technique frequently chained with bull pass
 
-- [[Knee Slice Pass]] - Follow-up pass when bull pass results in half guard top
+- [[Transitions/Knee Slice Pass]] - Follow-up pass when bull pass results in half guard top
 
-- [[Leg Drag Pass]] - Alternative angle-based pass from seated guard top
+- [[Transitions/Leg Drag Pass]] - Alternative angle-based pass from seated guard top
 
-- [[Smash Pass]] - Related pressure-based pass sharing forward driving mechanics
+- [[Transitions/Smash Pass]] - Related pressure-based pass sharing forward driving mechanics
 
-- [[Long Step Pass]] - Alternative pressure pass from standing over seated guard
+- [[Transitions/Long Step Pass]] - Alternative pressure pass from standing over seated guard
 
-- [[Headquarters Position]] - Intermediate control position during passing sequences
+- [[Positions/Headquarters Position]] - Intermediate control position during passing sequences
 
-- [[Bodylock Pass from Seated]] - Alternative seated guard pass using upper body control
+- [[Transitions/Bodylock Pass from Seated]] - Alternative seated guard pass using upper body control
 
 
 </section>

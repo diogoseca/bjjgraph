@@ -21,7 +21,7 @@ The transition is fundamentally a race condition: the bottom player must convert
 
 Strategically, this recovery represents a critical decision point in bottom-game flow. Holding a failing guillotine bleeds grip endurance and telegraphs desperation, while releasing too late allows the opponent to plan their passing sequence during the choke attempt. The highest-level practitioners treat the guillotine-to-guard transition as a planned contingency rather than a panic response, pre-positioning legs and mentally committing to the switch before the choke fully deteriorates.
 
-**From Position**: [[Guillotine Control]] (Bottom)
+**From Position**: [[Positions/Guillotine Control]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this recovery represents a critical decision point in bottom-game
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 45% |
-| Failure | [[Guillotine Control]] | 35% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Open Guard]] | 45% |
+| Failure | [[Positions/Guillotine Control]] | 35% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ Guard Recovery from Guillotine Control occupies a critical junction in the botto
 ## Related Techniques
 
 
-- [[Guillotine Control]] - Source position - the compromised guillotine state from which guard recovery is initiated
+- [[Positions/Guillotine Control]] - Source position - the compromised guillotine state from which guard recovery is initiated
 
-- [[Open Guard]] - Primary recovery target - reestablished guard with distance management and leg activity
+- [[Positions/Open Guard]] - Primary recovery target - reestablished guard with distance management and leg activity
 
-- [[Side Control]] - Counter outcome position when top player advances past guard during recovery attempt
+- [[Positions/Side Control]] - Counter outcome position when top player advances past guard during recovery attempt
 
-- [[Closed Guard]] - Alternative recovery destination if distance allows full guard closure during recovery
+- [[Positions/Closed Guard]] - Alternative recovery destination if distance allows full guard closure during recovery
 
-- [[Half Guard]] - Fallback recovery position when only one leg can be reinserted during transition
+- [[Positions/Half Guard]] - Fallback recovery position when only one leg can be reinserted during transition
 
-- [[Front Headlock]] - Related control position the opponent may transition to when extracting from guillotine
+- [[Positions/Front Headlock]] - Related control position the opponent may transition to when extracting from guillotine
 
-- [[Guillotine Defense]] - Opponent's technique for escaping the guillotine that triggers the need for guard recovery
+- [[Transitions/Guillotine Defense]] - Opponent's technique for escaping the guillotine that triggers the need for guard recovery
 
-- [[Guillotine Escape via Posture]] - Common escape method that creates the posture break requiring guard recomposition
+- [[Transitions/Guillotine Escape via Posture]] - Common escape method that creates the posture break requiring guard recomposition
 
-- [[Butterfly Guard]] - Alternative guard recovery option using butterfly hooks when opponent stays close
+- [[Positions/Butterfly Guard]] - Alternative guard recovery option using butterfly hooks when opponent stays close
 
-- [[Guillotine Setup]] - Original offensive technique that preceded the compromised guillotine control state
+- [[Transitions/Guillotine Setup]] - Original offensive technique that preceded the compromised guillotine control state
 
 
 </section>

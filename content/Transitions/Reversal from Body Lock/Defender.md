@@ -154,7 +154,7 @@ description: "Defend against the Reversal from Body Lock in BJJ. Maintain body l
 
 As the defender against the Reversal from Body Lock, you are the body lock holder working to maintain your dominant standing control while your opponent attempts to break your grip and recover guard. Your primary objective is to convert the body lock into a successful mat return, throw, or transition to back control before the opponent can break your grip connection. Recognizing the early signs of a reversal attempt allows you to preemptively tighten control, increase pressure, or execute your takedown before the opponent's escape gains momentum. The body lock is an inherently transitional position, and your advantage diminishes with every second the opponent spends working the grip break. Immediate offensive action upon recognizing reversal attempts is essential for maintaining positional dominance and preventing guard recovery.
 
-**Opponent's Starting Position**: [[Body Lock]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Body Lock]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ As the defender against the Reversal from Body Lock, you are the body lock holde
 ### 1. Tighten grip and drive maximum forward hip pressure into opponent's lower back
 
 - **When to use**: At the first sign of grip break attempts when you still have strong lock connection and chest-to-back contact
-- **Targets**: [[Body Lock]]
+- **Targets**: [[Positions/Body Lock]]
 - **If successful**: Opponent cannot generate sufficient force to break the lock, and increased pressure breaks their posture further, maintaining your dominant control
 - **Risk**: If opponent has already created significant wedge space, tightening alone may not overcome their structural advantage and you waste energy on a losing grip fight
 
 ### 2. Execute immediate mat return or trip before grip break completes
 
 - **When to use**: When you feel the opponent committing both hands to the grip break, meaning they cannot defend the takedown and break the grip simultaneously
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent is taken down into side control where you have dominant top position and can begin passing or submission attacks
 - **Risk**: If opponent hooks your leg during the takedown, they may establish half guard rather than you achieving clean side control
 
 ### 3. Re-lock grip at different height after partial break
 
 - **When to use**: When opponent breaks the initial lock but has not yet secured wrist control on your arm, leaving a window to re-establish the connection
-- **Targets**: [[Body Lock]]
+- **Targets**: [[Positions/Body Lock]]
 - **If successful**: Body lock is re-established and opponent must restart their escape from a more fatigued state with reduced grip break options
 - **Risk**: The re-locked grip may be weaker than the original and more susceptible to the next break attempt
 
 ### 4. Circle laterally while maintaining lock to disrupt opponent's base and breaking angle
 
 - **When to use**: When opponent has established a strong wedge but has not yet committed to the explosive grip break, and lateral movement can change the angle of their attack
-- **Targets**: [[Body Lock]]
+- **Targets**: [[Positions/Body Lock]]
 - **If successful**: Opponent's grip break setup is disrupted as the angle changes, forcing them to readjust their hand positioning and restart the wedge process
 - **Risk**: Circling reduces your forward drive momentarily, potentially giving opponent a lighter pressure window to execute their break
 
@@ -224,11 +224,11 @@ As the defender against the Reversal from Body Lock, you are the body lock holde
 
 ## Best-Case Outcomes for Defender
 
-### → [[Body Lock]]
+### → [[Positions/Body Lock]]
 
 Maintain grip integrity through immediate pressure increases and proactive re-locking when breaks are attempted. Drive chest tightly against opponent's back and increase hip pressure at the first sign of escape activity. The goal is to prevent the grip from separating long enough to execute your preferred takedown or mat return.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Convert the opponent's grip break attempt into a takedown opportunity by executing a mat return or trip the moment both their hands commit to fighting your grip. Their focus on the grip break creates a defensive gap for takedowns. Drive through aggressively during the takedown to achieve side control rather than allowing them to hook a leg for half guard.
 

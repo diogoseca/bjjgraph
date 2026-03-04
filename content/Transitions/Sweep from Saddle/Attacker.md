@@ -180,7 +180,7 @@ description: "Learn to execute the sweep from saddle bottom in BJJ. Step-by-step
 
 Executing the Sweep from Saddle requires the bottom player to transform a defensive crisis into an offensive opportunity. The attacker must read the top player's weight distribution, identify when their base is compromised during submission setups or grip transitions, and coordinate explosive bridge mechanics with directional rotation. Success depends on using the leg entanglement as a structural connector rather than fighting against it. The sweep is most effective when integrated into a broader defensive framework where grip fighting and frame creation precede the sweep attempt, ensuring the opponent cannot simply reset after a failed attempt. The psychological impact of threatening sweeps from bottom saddle is substantial—it forces the top player to divide attention between finishing and maintaining position.
 
-**From Position**: [[Saddle]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Sweep from Saddle requires the bottom player to transform a defens
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 35% |
-| Failure | [[Saddle]] | 40% |
-| Counter | [[Saddle]] | 25% |
+| Success | [[Positions/Side Control]] | 35% |
+| Failure | [[Positions/Ashi Garami/Saddle]] | 40% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Sweep from Saddle requires the bottom player to transform a defens
 
 ## Opponent Counters
 
-- **Opponent posts hand or elbow on the mat to block the sweep direction** (Effectiveness: High) - Your Response: Redirect the sweep angle to the opposite direction, or use their extended posting arm as a target for an arm drag that pulls their weight into the sweep. If the post is too strong, abandon the sweep and use the positional disruption to advance grip fighting. → Leads to [[Saddle]]
-- **Opponent drops weight and drives forward to flatten you before bridge generates momentum** (Effectiveness: Medium) - Your Response: Convert to a forward roll variation, pulling them over you rather than bridging them to the side. Use their forward pressure against them by framing on their shoulders and channeling the momentum overhead rather than laterally. → Leads to [[Saddle]]
-- **Opponent immediately tightens entanglement and attacks heel hook during the sweep motion** (Effectiveness: High) - Your Response: Abandon sweep attempt immediately and return to heel protection protocol. The opponent is using your movement to accelerate their submission mechanics. Never continue a sweep when heel is exposed to finishing grips—prioritize joint safety over positional gain. → Leads to [[Saddle]]
-- **Opponent hooks or pins free leg to eliminate the bridging platform** (Effectiveness: Medium) - Your Response: Without the free leg bridge, the primary sweep mechanic is neutralized. Transition to grip fighting and alternative escapes such as hip clearing or leg extraction. If the opponent has committed a hand to controlling your free leg, their submission grips are weakened—exploit this opening. → Leads to [[Saddle]]
+- **Opponent posts hand or elbow on the mat to block the sweep direction** (Effectiveness: High) - Your Response: Redirect the sweep angle to the opposite direction, or use their extended posting arm as a target for an arm drag that pulls their weight into the sweep. If the post is too strong, abandon the sweep and use the positional disruption to advance grip fighting. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent drops weight and drives forward to flatten you before bridge generates momentum** (Effectiveness: Medium) - Your Response: Convert to a forward roll variation, pulling them over you rather than bridging them to the side. Use their forward pressure against them by framing on their shoulders and channeling the momentum overhead rather than laterally. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent immediately tightens entanglement and attacks heel hook during the sweep motion** (Effectiveness: High) - Your Response: Abandon sweep attempt immediately and return to heel protection protocol. The opponent is using your movement to accelerate their submission mechanics. Never continue a sweep when heel is exposed to finishing grips—prioritize joint safety over positional gain. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent hooks or pins free leg to eliminate the bridging platform** (Effectiveness: Medium) - Your Response: Without the free leg bridge, the primary sweep mechanic is neutralized. Transition to grip fighting and alternative escapes such as hip clearing or leg extraction. If the opponent has committed a hand to controlling your free leg, their submission grips are weakened—exploit this opening. → Leads to [[Positions/Ashi Garami/Saddle]]
 
 
 </section>

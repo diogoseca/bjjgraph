@@ -21,7 +21,7 @@ The rolling motion works by using momentum and body rotation to change the angle
 
 Success depends heavily on recognizing the exact moment when your opponent is committed forward to the finish and cannot easily adjust their base to follow your roll. The technique represents a last-resort option in the Kimura defense hierarchy, employed only after conventional defenses such as grip fighting, posture recovery, and hip escape have been exhausted. Understanding the biomechanics of the Kimura lock progression is essential for identifying the narrow timing window where this escape becomes viable without excessive injury risk.
 
-**From Position**: [[Kimura Trap]] (Bottom)
+**From Position**: [[Positions/Kimura Trap]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Success depends heavily on recognizing the exact moment when your opponent is co
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Kimura Trap]] | 25% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Kimura Trap]] | 25% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -193,29 +193,29 @@ The Rolling Kimura Escape occupies a unique position in the BJJ defensive hierar
 ## Related Techniques
 
 
-- [[Kimura Defense]] - Primary preventative technique preferred over rolling escape
+- [[Transitions/Kimura Defense]] - Primary preventative technique preferred over rolling escape
 
-- [[Kimura Trap]] - Starting position for the attack this escape counters
+- [[Positions/Kimura Trap]] - Starting position for the attack this escape counters
 
-- [[Frame and Shrimp to Guard]] - Alternative escape method to attempt before rolling
+- [[Transitions/Frame and Shrimp to Guard]] - Alternative escape method to attempt before rolling
 
-- [[Hip Escape to Guard]] - Foundational escape movement that should be attempted first
+- [[Transitions/Hip Escape to Guard]] - Foundational escape movement that should be attempted first
 
-- [[Open Guard]] - Common ending position after successful escape
+- [[Positions/Open Guard]] - Common ending position after successful escape
 
-- [[Rolling Kimura]] - Offensive counter-technique using similar rolling mechanics
+- [[Transitions/Rolling Kimura]] - Offensive counter-technique using similar rolling mechanics
 
-- [[Kimura to Back Take]] - Common follow-up if opponent successfully follows your roll
+- [[Transitions/Kimura to Back Take]] - Common follow-up if opponent successfully follows your roll
 
-- [[Kimura from Side Control]] - Understanding the attack improves defensive awareness
+- [[Submissions/Kimura from Side Control]] - Understanding the attack improves defensive awareness
 
-- [[Escape Fundamentals]] - Conceptual foundation for all escape techniques
+- [[Principles/Escape Fundamentals]] - Conceptual foundation for all escape techniques
 
-- [[Bridge and Roll]] - Related rolling escape mechanics from different position
+- [[Transitions/Bridge and Roll]] - Related rolling escape mechanics from different position
 
-- [[Back Control]] - Worst-case counter outcome if opponent follows the roll
+- [[Positions/Back Control]] - Worst-case counter outcome if opponent follows the roll
 
-- [[Kimura]] - The submission this escape is designed to counter
+- [[Transitions/Kimura]] - The submission this escape is designed to counter
 
 
 </section>

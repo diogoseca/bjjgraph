@@ -194,28 +194,28 @@ Defending the Reverse Kimura requires understanding its unique grip mechanics an
 ### 1. Turn into the attacker to relieve shoulder rotation pressure
 
 - **When to use**: As soon as you feel rotational pressure beginning on your shoulder, before the grip tightens fully
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Relieves shoulder pressure and may create scramble opportunity, though attacker may follow rotation for back take
 - **Risk**: If attacker reads the turn, they can follow your rotation to establish back control with hooks
 
 ### 2. Strip the wrist grip with your free hand and straighten your trapped arm
 
 - **When to use**: When the reverse grip is not yet fully secured or the attacker has a shallow connection on their own wrist
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Breaks the entire submission structure and returns to neutral grip fighting position
 - **Risk**: Requires using your free hand which may compromise your base or head defense from front headlock
 
 ### 3. Drive forward explosively to stand up and posture while keeping elbow tight
 
 - **When to use**: When attacker's weight is relatively light or during a transition moment before they settle their base
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Standing posture removes most of the attacker's leverage and makes the reverse Kimura mechanically difficult to finish
 - **Risk**: If attacker maintains the grip during standup, they may have submission control from a standing position which carries fall risk
 
 ### 4. Sit to guard by pulling attacker into your closed guard or half guard
 
 - **When to use**: When standing defense is failing and you need to change the positional dynamics to remove their standing leverage
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Changes the angle and removes their standing base advantage, creating guard recovery opportunities
 - **Risk**: Attacker may maintain the grip and continue the submission from top position, though their leverage is reduced
 
@@ -238,11 +238,11 @@ Defending the Reverse Kimura requires understanding its unique grip mechanics an
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Strip the reverse grip by attacking the wrist connection with your free hand, straighten your arm explosively, and circle away to neutral standing position before the attacker can re-establish control
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Turn into the attacker to relieve shoulder pressure, fight for an underhook on the near side, and use the scramble to recover to a front headlock defensive position where you can work standard front headlock escapes
 

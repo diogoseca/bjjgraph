@@ -17,7 +17,7 @@ description: "Master the Sit Through to Guard escape from turtle. Complete guide
 
 The Sit Through to Guard is a fundamental turtle escape that converts a vulnerable bottom position into an offensive guard. Unlike rolling escapes that rely on momentum, the sit through uses lateral hip movement and precise timing to thread one leg through while creating a frame against the opponent's advancing pressure. This technique excels when the opponent commits weight forward for front headlock attacks or back takes, as their forward pressure can be redirected into your guard recovery. The sit through creates a dilemma for the attacker: commit to following the movement and risk ending up in your closed guard, or disengage and allow a clean escape. For practitioners who prefer systematic, controlled escapes over explosive scrambles, the sit through offers a methodical path from turtle to a dominant guard position where you can begin attacking.
 
-**From Position**: [[Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -28,10 +28,10 @@ The Sit Through to Guard is a fundamental turtle escape that converts a vulnerab
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Success | [[Closed Guard]] | 20% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Success | [[Positions/Closed Guard]] | 20% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -190,25 +190,25 @@ The Sit Through to Guard is a cornerstone of systematic turtle defense, offering
 ## Related Techniques
 
 
-- [[Turtle]] - Starting position for this escape
+- [[Positions/Turtle]] - Starting position for this escape
 
-- [[Half Guard]] - Primary target position after successful execution
+- [[Positions/Half Guard]] - Primary target position after successful execution
 
-- [[Closed Guard]] - Alternative target position with full leg clearance
+- [[Positions/Closed Guard]] - Alternative target position with full leg clearance
 
-- [[Granby Roll to Guard]] - Alternative escape that chains well when sit through is defended
+- [[Transitions/Granby Roll to Guard]] - Alternative escape that chains well when sit through is defended
 
-- [[Deep Half Guard]] - Variant target position for advanced practitioners threading deeper
+- [[Positions/Half Guard/Deep Half Guard]] - Variant target position for advanced practitioners threading deeper
 
-- [[Front Headlock]] - Common counter position opponent may achieve if rotation exposes neck
+- [[Positions/Front Headlock]] - Common counter position opponent may achieve if rotation exposes neck
 
-- [[Back Control]] - Position to avoid - counter result if timing is wrong
+- [[Positions/Back Control]] - Position to avoid - counter result if timing is wrong
 
-- [[Peterson Roll]] - Alternative rolling escape from turtle that chains with sit through
+- [[Transitions/Peterson Roll]] - Alternative rolling escape from turtle that chains with sit through
 
-- [[Guard Recovery]] - Parent concept this technique serves
+- [[Principles/Guard Recovery]] - Parent concept this technique serves
 
-- [[Hip Escape Mechanics]] - Foundational movement principle underlying the sit through rotation
+- [[Principles/Hip Escape Mechanics]] - Foundational movement principle underlying the sit through rotation
 
 
 </section>

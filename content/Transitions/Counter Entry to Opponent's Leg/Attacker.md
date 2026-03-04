@@ -178,7 +178,7 @@ This counter exemplifies the modern leg lock philosophy of fighting fire with fi
 
 The strategic value extends beyond mere survival. Entering 50-50 from a defensive position often catches opponents off-guard, as their focus on finishing their attack blinds them to your counter-entry. This creates opportunities where your subsequent attack sequence may be several steps ahead of an opponent who must now shift from offensive to defensive mindset. Understanding this transition is essential for anyone training leg locks, as it represents one of the primary equalizers in asymmetrical leg entanglement exchanges.
 
-**From Position**: [[Straight Ankle Lock Control]] (Top)
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ The strategic value extends beyond mere survival. Entering 50-50 from a defensiv
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 65% |
-| Failure | [[Straight Ankle Lock Control]] | 25% |
-| Counter | [[Inside Ashi-Garami]] | 10% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 65% |
+| Failure | [[Positions/Straight Ankle Lock Control]] | 25% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 10% |
 
 
 </section>
@@ -240,9 +240,9 @@ The strategic value extends beyond mere survival. Entering 50-50 from a defensiv
 
 ## Opponent Counters
 
-- **Opponent finishes ankle lock before entry completes** (Effectiveness: High) - Your Response: Prioritize submission defense over counter-entry. Only attempt this transition when you have successfully neutralized immediate finishing threat. → Leads to [[Straight Ankle Lock Control]]
-- **Opponent withdraws far leg and prevents your entry** (Effectiveness: Medium) - Your Response: Their withdrawal creates escape opportunity. Use the space created to extract your trapped leg and recover to open guard or standing. → Leads to [[Straight Ankle Lock Control]]
-- **Opponent transitions to inside ashi-garami as you rotate toward them** (Effectiveness: Medium) - Your Response: Be aware that hip rotation toward opponent can facilitate their advancement. If they begin inside ashi entry, immediately reverse direction and work extraction instead. → Leads to [[Inside Ashi-Garami]]
+- **Opponent finishes ankle lock before entry completes** (Effectiveness: High) - Your Response: Prioritize submission defense over counter-entry. Only attempt this transition when you have successfully neutralized immediate finishing threat. → Leads to [[Positions/Straight Ankle Lock Control]]
+- **Opponent withdraws far leg and prevents your entry** (Effectiveness: Medium) - Your Response: Their withdrawal creates escape opportunity. Use the space created to extract your trapped leg and recover to open guard or standing. → Leads to [[Positions/Straight Ankle Lock Control]]
+- **Opponent transitions to inside ashi-garami as you rotate toward them** (Effectiveness: Medium) - Your Response: Be aware that hip rotation toward opponent can facilitate their advancement. If they begin inside ashi entry, immediately reverse direction and work extraction instead. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 </section>

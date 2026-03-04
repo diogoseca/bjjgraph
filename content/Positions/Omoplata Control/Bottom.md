@@ -205,23 +205,23 @@ Omoplata Control Bottom represents the offensive application of this position wh
 
 ## Available Escapes
 
-### [[Omoplata]] (13% of attempts)
+### [[Transitions/Omoplata]] (13% of attempts)
 
-### [[Omoplata Sweep]] (30% of attempts)
+### [[Transitions/Omoplata Sweep]] (30% of attempts)
 
-### [[Omoplata to Back]] (11% of attempts)
+### [[Transitions/Omoplata to Back]] (11% of attempts)
 
-### [[Triangle Setup]] (14% of attempts)
+### [[Transitions/Triangle Setup]] (14% of attempts)
 
-### [[Closed Guard to Omoplata]] (13% of attempts)
+### [[Transitions/Closed Guard to Omoplata]] (13% of attempts)
 
-### [[Rolling Omoplata]] (11% of attempts)
+### [[Submissions/Rolling Omoplata]] (11% of attempts)
 
-### [[Cartwheel Escape from Omoplata]] (5% of attempts)
+### [[Transitions/Cartwheel Escape from Omoplata]] (5% of attempts)
 
-### [[Roll Forward from Omoplata]] (2% of attempts)
+### [[Transitions/Roll Forward from Omoplata]] (2% of attempts)
 
-### [[Stack Defense from Omoplata]] (1% of attempts)
+### [[Transitions/Stack Defense from Omoplata]] (1% of attempts)
 
 
 
@@ -232,18 +232,18 @@ Omoplata Control Bottom represents the offensive application of this position wh
 ## Decision Making from This Position
 
 **If opponent attempts to roll forward through the omoplata:**
-- Execute **[[Omoplata Sweep]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Rolling Omoplata]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Submissions/Rolling Omoplata]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent turns into the submission or sits to their hip:**
-- Execute **[[Omoplata]]** → [[game-over]] (Probability: 65%)
-- Execute **[[Omoplata to Back]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Omoplata]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Transitions/Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent postures up and pulls arm free:**
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 60%)
-- Execute **[[Closed Guard to Omoplata]]** → [[Armbar Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 60%)
+- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 
@@ -365,14 +365,14 @@ Bottom practitioner establishes omoplata control. Top practitioner attempts vari
 
 ## Related Positions and Techniques
 
-- **[[Omoplata]]** - Primary submission finish from this control position
-- **[[Triangle Control]]** - Common transition when opponent defends omoplata by pulling arm free
-- **[[Spider Guard]]** - Common entry position for establishing omoplata control
-- **[[Closed Guard]]** - Traditional starting position for omoplata attacks
-- **[[Back Control]]** - Advanced transition target when opponent turns into the shoulder lock
-- **[[Side Control]]** - Common result after successful omoplata sweep
-- **[[Rubber Guard]]** - Alternative guard position with similar shoulder control mechanics
-- **[[Triangle to Omoplata]]** - Reverse transition path for attacking shoulder when triangle is defended
+- **[[Transitions/Omoplata]]** - Primary submission finish from this control position
+- **[[Positions/Triangle Control]]** - Common transition when opponent defends omoplata by pulling arm free
+- **[[Positions/Spider Guard]]** - Common entry position for establishing omoplata control
+- **[[Positions/Closed Guard]]** - Traditional starting position for omoplata attacks
+- **[[Positions/Back Control]]** - Advanced transition target when opponent turns into the shoulder lock
+- **[[Positions/Side Control]]** - Common result after successful omoplata sweep
+- **[[Positions/Rubber Guard]]** - Alternative guard position with similar shoulder control mechanics
+- **[[Transitions/Triangle to Omoplata]]** - Reverse transition path for attacking shoulder when triangle is defended
 
 
 </section>

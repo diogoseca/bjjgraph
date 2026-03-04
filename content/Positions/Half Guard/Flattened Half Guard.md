@@ -93,29 +93,29 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 ### Available Transitions
 
 
-- **[[Frame and Shrimp to Guard]]** (68% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (68% of attempts)
 
-- **[[Deep Half Entry]]** (12% of attempts)
+- **[[Transitions/Deep Half Entry]]** (12% of attempts)
 
-- **[[Elbow Escape to Guard]]** (12% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (12% of attempts)
 
-- **[[Lockdown Recovery]]** (4% of attempts)
+- **[[Transitions/Lockdown Recovery]]** (4% of attempts)
 
-- **[[Underhook Sweep from Half]]** (2% of attempts)
+- **[[Transitions/Underhook Sweep from Half]]** (2% of attempts)
 
-- **[[Old School Sweep]]** (1% of attempts)
+- **[[Transitions/Old School Sweep]]** (1% of attempts)
 
-- **[[Underhook Recovery from Flattened]]** (0% of attempts)
+- **[[Transitions/Underhook Recovery from Flattened]]** (0% of attempts)
 
-- **[[Granby Roll to Guard]]** (0% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (0% of attempts)
 
-- **[[Deep Half Entry from Flattened]]** (0% of attempts)
+- **[[Transitions/Deep Half Entry from Flattened]]** (0% of attempts)
 
-- **[[Elbow Escape from Flattened Half]]** (0% of attempts)
+- **[[Transitions/Elbow Escape from Flattened Half]]** (0% of attempts)
 
-- **[[Recover Knee Shield from Flattened Half]]** (0% of attempts)
+- **[[Transitions/Recover Knee Shield from Flattened Half]]** (0% of attempts)
 
-- **[[Reversal from Flattened Half Guard]]** (1% of attempts)
+- **[[Transitions/Reversal from Flattened Half Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -168,25 +168,25 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 ### Available Transitions
 
 
-- **[[Knee Slice from Half]]** (38% of attempts)
+- **[[Transitions/Knee Slice from Half]]** (38% of attempts)
 
-- **[[Crossface Pass]]** (15% of attempts)
+- **[[Transitions/Crossface Pass]]** (15% of attempts)
 
-- **[[Underhook Pass]]** (11% of attempts)
+- **[[Transitions/Underhook Pass]]** (11% of attempts)
 
-- **[[Back Take]]** (9% of attempts)
+- **[[Transitions/Back Take]]** (9% of attempts)
 
-- **[[Arm Triangle Setup]]** (9% of attempts)
+- **[[Transitions/Arm Triangle Setup]]** (9% of attempts)
 
-- **[[Half Guard Pass]]** (9% of attempts)
+- **[[Transitions/Half Guard Pass]]** (9% of attempts)
 
-- **[[Kimura]]** (5% of attempts)
+- **[[Transitions/Kimura]]** (5% of attempts)
 
-- **[[Complete Pass from Flattened Half]]** (2% of attempts)
+- **[[Transitions/Complete Pass from Flattened Half]]** (2% of attempts)
 
-- **[[Knee Slide from Flattened Half]]** (1% of attempts)
+- **[[Transitions/Knee Slide from Flattened Half]]** (1% of attempts)
 
-- **[[Cross Face Pass from Flattened Half]]** (1% of attempts)
+- **[[Transitions/Cross Face Pass from Flattened Half]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -221,21 +221,21 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 ## Related Positions
 
 
-- **[[Half Guard]]** - The active parent position that Flattened Half Guard degrades from
+- **[[Positions/Half Guard]]** - The active parent position that Flattened Half Guard degrades from
 
-- **[[Deep Half Guard]]** - Alternative recovery position accessible through specific hip movement sequences
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative recovery position accessible through specific hip movement sequences
 
-- **[[Knee Shield Half Guard]]** - Target position for frame recovery - re-establishing the knee shield escapes flattening
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Target position for frame recovery - re-establishing the knee shield escapes flattening
 
-- **[[Side Control]]** - The position top player advances to if bottom player loses the leg hook
+- **[[Positions/Side Control]]** - The position top player advances to if bottom player loses the leg hook
 
-- **[[Turtle]]** - Emergency escape option when frame recovery fails - gives up position to avoid the pass
+- **[[Positions/Turtle]]** - Emergency escape option when frame recovery fails - gives up position to avoid the pass
 
-- **[[Quarter Guard]]** - Transitional position when top player begins freeing the trapped leg
+- **[[Positions/Quarter Guard]]** - Transitional position when top player begins freeing the trapped leg
 
-- **[[Lockdown]]** - Alternative leg control system that can provide stability when flattened
+- **[[Positions/Half Guard/Lockdown]]** - Alternative leg control system that can provide stability when flattened
 
-- **[[Overhook Control]]** - Critical control point that determines escape viability from flattened position
+- **[[Positions/Overhook Control]]** - Critical control point that determines escape viability from flattened position
 
 
 </section>

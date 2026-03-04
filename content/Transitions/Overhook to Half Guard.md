@@ -21,7 +21,7 @@ Strategically, this transition serves as a critical bridge between two distinct 
 
 The key mechanical challenge lies in maintaining control during the transition window. As the bottom player adjusts hip position and threads the inside leg into the half guard entanglement, there is a brief vulnerability period where the top player can attempt to pass. Proper execution requires using the overhook grip as a controlling frame during the leg insertion, then transitioning seamlessly to standard half guard controls such as the underhook, knee shield, or lockdown. Practitioners who master this conversion develop a guard game that flows naturally between overhook attacks and half guard offense, preventing the top player from neutralizing any single approach.
 
-**From Position**: [[Overhook Control]] (Bottom)
+**From Position**: [[Positions/Overhook Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The key mechanical challenge lies in maintaining control during the transition w
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Overhook Control]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Overhook Control]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Overhook to Half Guard transition occupies a critical junction in the bottom
 ## Related Techniques
 
 
-- [[Overhook Control]] - Source position from which this transition begins when overhook control is losing effectiveness or half guard offers better offensive options
+- [[Positions/Overhook Control]] - Source position from which this transition begins when overhook control is losing effectiveness or half guard offers better offensive options
 
-- [[Half Guard]] - Primary target position providing stable guard platform with systematic sweeping, back-taking, and submission opportunities
+- [[Positions/Half Guard]] - Primary target position providing stable guard platform with systematic sweeping, back-taking, and submission opportunities
 
-- [[Overhook Guard]] - Related guard system built around the overhook grip that feeds into this transition when guard retention requires adjustment
+- [[Positions/Overhook Guard]] - Related guard system built around the overhook grip that feeds into this transition when guard retention requires adjustment
 
-- [[Knee Shield Half Guard]] - Defensive half guard variation commonly established after completing this transition, providing immediate distance management
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive half guard variation commonly established after completing this transition, providing immediate distance management
 
-- [[Deep Half Guard]] - Advanced half guard variation accessible as a follow-up once half guard is established from the overhook transition
+- [[Positions/Half Guard/Deep Half Guard]] - Advanced half guard variation accessible as a follow-up once half guard is established from the overhook transition
 
-- [[Overhook Control Sweep]] - Alternative offensive option from overhook control when direct sweep opportunity exists before needing to transition
+- [[Transitions/Overhook Control Sweep]] - Alternative offensive option from overhook control when direct sweep opportunity exists before needing to transition
 
-- [[Old School Sweep]] - High-percentage sweep available once half guard is established, making it a primary chain technique after this transition
+- [[Transitions/Old School Sweep]] - High-percentage sweep available once half guard is established, making it a primary chain technique after this transition
 
-- [[Butterfly Guard]] - Alternative guard position that can serve as intermediate step during the butterfly hook variant of this transition
+- [[Positions/Butterfly Guard]] - Alternative guard position that can serve as intermediate step during the butterfly hook variant of this transition
 
-- [[Side Control]] - Position the top player achieves if they capitalize on the transition window to pass guard during the conversion
+- [[Positions/Side Control]] - Position the top player achieves if they capitalize on the transition window to pass guard during the conversion
 
-- [[Dogfight Position]] - Scramble position that may emerge when both players contest the half guard establishment during the transition
+- [[Positions/Dogfight Position]] - Scramble position that may emerge when both players contest the half guard establishment during the transition
 
 
 </section>

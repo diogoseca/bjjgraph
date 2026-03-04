@@ -21,7 +21,7 @@ The sweep functions as a high-percentage reversal triggered by the opponent's po
 
 Within the broader rubber guard system, this sweep serves as a critical branch in the decision tree. When submission pathways stall because the opponent defends without providing the reactions needed for triangle, omoplata, or gogoplata entries, the sweep offers a direct route to mount. It also creates a fundamental dilemma: the opponent must choose between maintaining compromised posture to avoid submissions or attempting to posture up and triggering the sweep. This binary forces constant tactical decision-making from the top player and ensures that purely defensive responses are insufficient to neutralize the rubber guard.
 
-**From Position**: [[Rubber Guard]] (Bottom)
+**From Position**: [[Positions/Rubber Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Within the broader rubber guard system, this sweep serves as a critical branch i
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Rubber Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Rubber Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Rubber Guard Sweep integrates into the 10th Planet system as the positional 
 ## Related Techniques
 
 
-- [[Rubber Guard]] - Source position from which this sweep is initiated using established arm trap and posture control
+- [[Positions/Rubber Guard]] - Source position from which this sweep is initiated using established arm trap and posture control
 
-- [[Mount]] - Target position achieved upon successful sweep completion requiring immediate consolidation
+- [[Positions/Mount]] - Target position achieved upon successful sweep completion requiring immediate consolidation
 
-- [[Open Guard]] - Fallback position if sweep is countered and rubber guard control is lost during the attempt
+- [[Positions/Open Guard]] - Fallback position if sweep is countered and rubber guard control is lost during the attempt
 
-- [[Mission Control]] - Primary rubber guard sub-position used as the sweep launching platform with optimal control
+- [[Positions/Rubber Guard/Mission Control]] - Primary rubber guard sub-position used as the sweep launching platform with optimal control
 
-- [[Closed Guard]] - Foundation position from which rubber guard is established before the sweep becomes available
+- [[Positions/Closed Guard]] - Foundation position from which rubber guard is established before the sweep becomes available
 
-- [[New York Control]] - Alternative rubber guard progression when sweep conditions are not met and submissions are preferred
+- [[Positions/Rubber Guard/New York Control]] - Alternative rubber guard progression when sweep conditions are not met and submissions are preferred
 
-- [[Omoplata Control]] - Submission pathway available as chain attack when sweep is defended by heavy forward pressure
+- [[Positions/Omoplata Control]] - Submission pathway available as chain attack when sweep is defended by heavy forward pressure
 
-- [[Mission Control Entry from Rubber Guard]] - Entry to the primary control position that enables the sweep setup and execution
+- [[Transitions/Mission Control Entry from Rubber Guard]] - Entry to the primary control position that enables the sweep setup and execution
 
-- [[New York Entry from Rubber Guard]] - Alternative offensive pathway branching from rubber guard when sweep timing is unavailable
+- [[Transitions/New York Entry from Rubber Guard]] - Alternative offensive pathway branching from rubber guard when sweep timing is unavailable
 
-- [[Crackhead Control Entry]] - Advanced rubber guard progression that creates additional sweep angles through extreme arm isolation
+- [[Transitions/Crackhead Control Entry]] - Advanced rubber guard progression that creates additional sweep angles through extreme arm isolation
 
 
 </section>

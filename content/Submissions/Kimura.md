@@ -22,7 +22,7 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint, rotator cuff, and shoulder capsule
-**Starting Position**: [[Side Control]]
+**Starting Position**: [[Positions/Side Control]]
 **Success Rate**: 62%
 
 </section>
@@ -76,8 +76,8 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -243,15 +243,15 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 ## From Which Positions?
 
-- [[Side Control]]
-- [[Mount]]
-- [[Closed Guard]]
-- [[Half Guard]]
-- [[Turtle]]
-- [[North-South]]
-- [[Standing Position]]
-- [[Kimura Trap]]
-- [[Open Guard]]
+- [[Positions/Side Control]]
+- [[Positions/Mount]]
+- [[Positions/Closed Guard]]
+- [[Positions/Half Guard]]
+- [[Positions/Turtle]]
+- [[Positions/North-South]]
+- [[Positions/Standing Position]]
+- [[Positions/Kimura Trap]]
+- [[Positions/Open Guard]]
 
 
 </section>
@@ -260,21 +260,21 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 ## Related Submissions
 
-- [[Armbar from Side Control]]
-- [[Armbar from Mount]]
-- [[Armbar from Guard]]
-- [[Americana]]
-- [[Americana from Side Control]]
-- [[Americana from Mount]]
-- [[Omoplata]]
-- [[Triangle Choke]]
-- [[Guillotine Choke]]
-- [[Kimura from Side Control]]
-- [[Kimura from Mount]]
-- [[Kimura from Guard]]
-- [[Kimura from Half Guard]]
-- [[Kimura from North-South]]
-- [[Kimura from Turtle]]
+- [[Submissions/Armbar from Side Control]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Americana]]
+- [[Submissions/Americana from Side Control]]
+- [[Submissions/Americana from Mount]]
+- [[Transitions/Omoplata]]
+- [[Transitions/Triangle Choke]]
+- [[Transitions/Guillotine Choke]]
+- [[Submissions/Kimura from Side Control]]
+- [[Submissions/Kimura from Mount]]
+- [[Submissions/Kimura from Guard]]
+- [[Transitions/Kimura from Half Guard]]
+- [[Submissions/Kimura from North-South]]
+- [[Submissions/Kimura from Turtle]]
 
 
 </section>
@@ -283,18 +283,18 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 ## Additional Related Content
 
-- [[Kimura Trap]] - Specialized control position built entirely around Kimura grip mechanics
-- [[Kimura to Back Take]] - Primary transition when opponent defends Kimura finish by rolling or turning
-- [[North-South to Kimura]] - Common transition path from side control through north-south to Kimura setup
-- [[Rolling Kimura]] - Dynamic variation using momentum and rolling motion to establish the submission
-- [[Rolling Kimura Escape]] - Counter-technique that can reverse the position when defending
-- [[Side Control]] - Most common and high-percentage position for Kimura application
-- [[Half Guard]] - Key position for bottom player to attack Kimura on opponent's underhook
-- [[Gift Wrap]] - Alternative shoulder control position that can transition to Kimura
-- [[Omoplata]] - Related shoulder attack that targets similar joint structures with different mechanics
-- [[Reverse Kimura]] - Variation that combines shoulder rotation with wrist lock pressure
-- [[Crucifix]] - Advanced control position where Kimura can be applied with both arms trapped
-- [[Americana]] - Closely related shoulder lock with opposite rotational direction
+- [[Positions/Kimura Trap]] - Specialized control position built entirely around Kimura grip mechanics
+- [[Transitions/Kimura to Back Take]] - Primary transition when opponent defends Kimura finish by rolling or turning
+- [[Transitions/North-South to Kimura]] - Common transition path from side control through north-south to Kimura setup
+- [[Transitions/Rolling Kimura]] - Dynamic variation using momentum and rolling motion to establish the submission
+- [[Transitions/Rolling Kimura Escape]] - Counter-technique that can reverse the position when defending
+- [[Positions/Side Control]] - Most common and high-percentage position for Kimura application
+- [[Positions/Half Guard]] - Key position for bottom player to attack Kimura on opponent's underhook
+- [[Positions/Gift Wrap]] - Alternative shoulder control position that can transition to Kimura
+- [[Transitions/Omoplata]] - Related shoulder attack that targets similar joint structures with different mechanics
+- [[Submissions/Reverse Kimura]] - Variation that combines shoulder rotation with wrist lock pressure
+- [[Positions/Crucifix]] - Advanced control position where Kimura can be applied with both arms trapped
+- [[Transitions/Americana]] - Closely related shoulder lock with opposite rotational direction
 
 
 </section>

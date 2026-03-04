@@ -154,7 +154,7 @@ description: "Defend against heel hook escape attempts from Honey Hole top. Cont
 
 As the Honey Hole top player, your opponent is attempting to escape your inside leg entanglement before you can finish the heel hook. Your goal is to maintain the triangle configuration, preserve heel exposure, and either retain the position for submission or transition to an alternative attack like a kneebar when their escape creates leg extension. Success requires anticipating escape attempts, following rotational movement with your hips to maintain positional dominance, and immediately re-establishing control points when any space is created. The best defense against escape is offensive pressure — maintaining constant submission threat forces your opponent to divide attention between escaping and defending the heel hook.
 
-**Opponent's Starting Position**: [[Honey Hole]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Honey Hole]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the Honey Hole top player, your opponent is attempting to escape your inside 
 ### 1. Tighten triangle and immediately re-grip heel with cup configuration
 
 - **When to use**: At the first sign of escape attempt — when opponent begins rotating or grip fighting before they build momentum
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: Opponent remains trapped with heel re-exposed, enabling continuation of heel hook finishing sequence
 - **Risk**: If re-grip is slow, opponent may complete rotation during the transition and escape to open guard
 
 ### 2. Follow opponent's rotation by driving your hips forward and adjusting triangle angle
 
 - **When to use**: When opponent has initiated rotation and is building momentum — match their movement to maintain relative position
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: Opponent's rotation is neutralized because you maintained the same angular relationship throughout their movement
 - **Risk**: If you over-follow, opponent may reverse direction and catch you out of position for a brief extraction window
 
 ### 3. Transition to kneebar when opponent's leg extends during extraction attempt
 
 - **When to use**: When opponent begins pulling their knee to chest and their leg straightens through the extraction movement
-- **Targets**: [[Kneebar Control]]
+- **Targets**: [[Positions/Kneebar Control]]
 - **If successful**: Opponent escapes Honey Hole but enters kneebar control where you maintain a different submission threat
 - **Risk**: If kneebar transition is too slow, opponent completes extraction and recovers to open guard with no submission threat
 
 ### 4. Control opponent's free leg to eliminate posting ability and escape force
 
 - **When to use**: When opponent posts their free foot on your hip — hook or grab their free leg before they can generate pushing force
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: Opponent loses the mechanical base needed for rotational escape, effectively trapping them in position
 - **Risk**: Using a hand to control the free leg means releasing heel grip temporarily, creating a brief escape window
 
@@ -225,11 +225,11 @@ As the Honey Hole top player, your opponent is attempting to escape your inside 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Honey Hole]]
+### → [[Positions/Ashi Garami/Honey Hole]]
 
 Maintain tight triangle configuration, follow all rotation attempts with your hips, and immediately re-grip the heel after any successful grip break. Apply progressive heel hook pressure to force tap before escape builds momentum.
 
-### → [[Kneebar Control]]
+### → [[Positions/Kneebar Control]]
 
 When opponent's rotational escape creates leg extension during extraction, immediately transition your control from triangle to kneebar by securing their extended leg with your arms and driving your hips forward over their knee line. This capitalizes on the space created by their escape attempt.
 

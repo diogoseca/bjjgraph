@@ -156,7 +156,7 @@ description: "Defend and escape the Kesa Gatame Arm Crush. Recognition cues, def
 
 Defending the Kesa Gatame Arm Crush requires early recognition and immediate action before the attacker can isolate and lock the arm in the finishing position. The defender must maintain a bent arm position, keeping the elbow tight to their body to prevent the attacker from straightening and positioning it for the crush. Once the arm is fully extended across the attacker's body with the elbow seated against their hip, escape becomes extremely difficult. The primary defensive strategy centers on preventing arm isolation through active grip fighting and maintaining bent-arm positioning, while the secondary strategy involves creating angles and space to pull the arm free during the attacker's setup transitions. Understanding the submission's mechanics allows the defender to identify the critical moments where defensive action is most effective—particularly during the transition when the attacker releases head control to secure wrist grips.
 
-**Opponent's Starting Position**: [[Kesa Gatame]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
 
 
 </section>
@@ -194,28 +194,28 @@ Defending the Kesa Gatame Arm Crush requires early recognition and immediate act
 ### 1. Bend arm and grip own lapel or opposite bicep to anchor the elbow against your body
 
 - **When to use**: As soon as you feel the attacker attempting to straighten your trapped arm or switching to two-on-one wrist control
-- **Targets**: [[Kesa Gatame]]
+- **Targets**: [[Positions/Side Control/Kesa Gatame]]
 - **If successful**: Arm crush is neutralized and attacker must return to standard kesa gatame control or attempt different submission
 - **Risk**: Maintaining the bent arm under heavy pressure is exhausting and the attacker may switch to americana on your bent arm
 
 ### 2. Bridge explosively toward attacker when they release head control to grab your wrist
 
 - **When to use**: During the transition moment when the attacker has released head control but has not yet secured full two-on-one wrist grip
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Create enough space to extract trapped arm or recover half guard as the attacker scrambles to maintain position
 - **Risk**: If timed poorly, the bridge expends energy without creating meaningful positional change
 
 ### 3. Rotate forearm and wrist to slide elbow off the hip fulcrum
 
 - **When to use**: When the arm is already extended and the attacker is positioning the elbow against their hip but has not yet applied full crushing pressure
-- **Targets**: [[Kesa Gatame]]
+- **Targets**: [[Positions/Side Control/Kesa Gatame]]
 - **If successful**: Elbow slides off the bone fulcrum, reducing the crush to ineffective soft-tissue pressure and allowing arm recovery
 - **Risk**: The rotation window is narrow—once the attacker applies hip pressure with bone-on-bone contact, rotation is no longer possible
 
 ### 4. Use free arm to strip attacker's grip on your wrist and retract the trapped arm
 
 - **When to use**: When the attacker has only single-hand control on your wrist during the initial grip transition phase
-- **Targets**: [[Kesa Gatame]]
+- **Targets**: [[Positions/Side Control/Kesa Gatame]]
 - **If successful**: Arm is freed and returned to defensive position, negating the arm crush threat entirely
 - **Risk**: Reaching across with the free arm may expose it to being trapped as well if attacker is aware
 
@@ -238,7 +238,7 @@ Defending the Kesa Gatame Arm Crush requires early recognition and immediate act
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive bridge during the attacker's grip transition when head control is released, create space with the bridge, and immediately hip escape to insert a knee and recover half guard before the attacker can re-consolidate kesa gatame
 

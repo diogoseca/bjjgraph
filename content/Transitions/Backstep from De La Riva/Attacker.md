@@ -180,7 +180,7 @@ description: "Complete guide to executing the backstep from De La Riva Guard. Ma
 
 The attacker in the backstep from De La Riva is the top player attempting to pass the DLR guard through rotational displacement. Your primary objective is to step your hooked leg backward in a committed arc, rotate your hips to disengage the DLR hook, and immediately establish a dominant passing position before the guard player can re-establish control. The technique requires precise sequencing: grip establishment, ankle grip disruption, explosive backstep, and immediate consolidation. Unlike linear passes that fight through the guard's control axis, the backstep circumvents it entirely by changing the angle of engagement. Success depends on full commitment to the rotation, proper grip management during the step, and immediate forward pressure once the hook clears. Half-measures result in the worst possible scenario: rotational exposure without hook clearance, leaving you vulnerable to back takes.
 
-**From Position**: [[De La Riva Guard]] (Top)
+**From Position**: [[Positions/De La Riva Guard]] (Top)
 
 </section>
 
@@ -232,10 +232,10 @@ The attacker in the backstep from De La Riva is the top player attempting to pas
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Headquarters Position]] | 45% |
-| Failure | [[De La Riva Guard]] | 25% |
-| Failure | [[Reverse De La Riva Guard]] | 15% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Headquarters Position]] | 45% |
+| Failure | [[Positions/De La Riva Guard]] | 25% |
+| Failure | [[Positions/De La Riva Guard/Reverse De La Riva Guard]] | 15% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ The attacker in the backstep from De La Riva is the top player attempting to pas
 
 ## Opponent Counters
 
-- **Opponent follows the rotation by actively chasing with their hips and adjusting DLR hook angle to maintain connection throughout the backstep** (Effectiveness: High) - Your Response: Increase backstep speed and arc size to outpace their hip adjustment. Control their far leg tightly to limit hip mobility. If they successfully follow, immediately re-attempt with a direction change or switch to toreando. → Leads to [[De La Riva Guard]]
-- **Opponent inserts a Reverse De La Riva hook with their opposite leg as you step behind them, transitioning to RDLR guard before you can consolidate** (Effectiveness: High) - Your Response: Anticipate the RDLR transition and immediately address the new hook with a long step pass or by driving your knee across their thigh line. Do not allow them to settle into established RDLR with grips. → Leads to [[Reverse De La Riva Guard]]
-- **Opponent inverts underneath you during the rotation, using the momentary back exposure to come up behind you and establish back control** (Effectiveness: Medium) - Your Response: Maintain strong hip connection and downward pressure during the rotation to prevent inversion. If they begin inverting, sit your hips down heavily and square back toward them rather than continuing the rotation. Keep your elbows tight to deny seatbelt grips. → Leads to [[Back Control]]
-- **Opponent frames on your hips with both feet during the rotation to create distance and re-establish open guard before you can consolidate headquarters** (Effectiveness: Medium) - Your Response: Control their legs with strong pants grips throughout the rotation to prevent foot-on-hip frames. If they establish frames, immediately grip fight to clear feet and drive forward before they can re-insert the DLR hook or transition to another guard. → Leads to [[De La Riva Guard]]
+- **Opponent follows the rotation by actively chasing with their hips and adjusting DLR hook angle to maintain connection throughout the backstep** (Effectiveness: High) - Your Response: Increase backstep speed and arc size to outpace their hip adjustment. Control their far leg tightly to limit hip mobility. If they successfully follow, immediately re-attempt with a direction change or switch to toreando. → Leads to [[Positions/De La Riva Guard]]
+- **Opponent inserts a Reverse De La Riva hook with their opposite leg as you step behind them, transitioning to RDLR guard before you can consolidate** (Effectiveness: High) - Your Response: Anticipate the RDLR transition and immediately address the new hook with a long step pass or by driving your knee across their thigh line. Do not allow them to settle into established RDLR with grips. → Leads to [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
+- **Opponent inverts underneath you during the rotation, using the momentary back exposure to come up behind you and establish back control** (Effectiveness: Medium) - Your Response: Maintain strong hip connection and downward pressure during the rotation to prevent inversion. If they begin inverting, sit your hips down heavily and square back toward them rather than continuing the rotation. Keep your elbows tight to deny seatbelt grips. → Leads to [[Positions/Back Control]]
+- **Opponent frames on your hips with both feet during the rotation to create distance and re-establish open guard before you can consolidate headquarters** (Effectiveness: Medium) - Your Response: Control their legs with strong pants grips throughout the rotation to prevent foot-on-hip frames. If they establish frames, immediately grip fight to clear feet and drive forward before they can re-insert the DLR hook or transition to another guard. → Leads to [[Positions/De La Riva Guard]]
 
 
 </section>

@@ -166,7 +166,7 @@ The most common defensive failure is passivity. Practitioners who simply try to 
 
 Timing is the critical variable in this defense. The three windows for successful defense are: before the attacker commits their weight to the descent, during the fall when both practitioners are in motion and the attacker's control is most vulnerable, and immediately upon landing before hooks are consolidated. Missing all three windows typically results in full back control with hooks, which is the hardest position to escape in BJJ. Recognizing the attacker's preparatory movements and acting within the first window produces the highest success rates.
 
-**Opponent's Starting Position**: [[Standing Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
 
@@ -204,28 +204,28 @@ Timing is the critical variable in this defense. The three windows for successfu
 ### 1. Widen base, sprawl hips back, and aggressively strip the seatbelt grip using two-on-one on the choking arm to prevent the takedown from initiating
 
 - **When to use**: When you recognize the attacker shifting their hips laterally or dropping their weight but before they have fully committed to the descent
-- **Targets**: [[Standing Back Control]]
+- **Targets**: [[Positions/Back Control/Standing Back Control]]
 - **If successful**: You remain standing with reduced opponent control, buying time to work further grip strips and potential escape to neutral position
 - **Risk**: A wide sprawled base is vulnerable to lateral trip variations if the attacker adjusts, and extended hand fighting exposes your neck if the grip strip fails
 
 ### 2. Drop to your knees preemptively into a tight defensive turtle, tucking elbows to knees and chin to chest before the attacker can control the landing angle
 
 - **When to use**: When the attacker has committed to the descent and you cannot maintain standing position, but before they have inserted hooks during the fall
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You land in a defensive turtle with your structural frame intact, denying the attacker hook insertion and forcing them to work from turtle top rather than back control
 - **Risk**: The attacker follows you down and may still insert hooks if your turtle posture is not immediately tight, or they transition to front headlock
 
 ### 3. Explosively turn into the attacker during the descent, using their downward momentum to rotate and face them, fighting for underhook or clinch position
 
 - **When to use**: During the fall when the attacker's control is most compromised by the transition and they cannot maintain perfect chest-to-back alignment
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover facing position and establish guard, converting a back exposure into a guard position where you have defensive frames and submission threats
 - **Risk**: If the turn is incomplete, you may end up in a worse position with the attacker maintaining partial back control while you have no defensive structure
 
 ### 4. Block hook insertion by clamping thighs together and using your hands to fight the attacker's feet during the landing phase, preventing hip control establishment
 
 - **When to use**: Immediately upon landing when the attacker attempts to thread hooks inside your thighs during or right after the descent
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You deny the attacker hooks even though they achieved the takedown, forcing them to work from turtle top where your defensive frames are effective
 - **Risk**: Using hands to fight hooks exposes your neck to the seatbelt choking arm, creating a direct submission threat if hook defense takes too long
 
@@ -237,15 +237,15 @@ Timing is the critical variable in this defense. The three windows for successfu
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Back Control]]
+### → [[Positions/Back Control/Standing Back Control]]
 
 Maintain a wide, active stance with constant weight shifting and direction changes to prevent the attacker from timing their base break. Use two-on-one grip control to strip the seatbelt systematically, targeting the choking arm wrist with both hands. Sprawl your hips back aggressively when you feel the attacker begin to sit their weight, maintaining enough distance between your hips and theirs that they cannot generate the downward force needed for the mat return. This keeps the fight standing where escape probability is highest.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 When the takedown becomes inevitable, take control of your own descent by dropping to your knees explosively before the attacker can dictate the landing angle. Immediately establish a tight defensive turtle with elbows glued to knees, chin tucked to chest, and rounded back. The key is arriving in turtle with your structural frame already intact, denying the attacker the side-landing they need for easy hook insertion. From turtle, you have multiple escape pathways including granby rolls, sit-throughs, and technical standups that are unavailable from flat back control.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 During the descent when the attacker's control is most compromised, commit to a full explosive turn toward the attacker. Use the momentum of the fall to rotate your shoulders and hips, fighting to face them before landing. As you turn, immediately establish frames on their shoulder and hip, then recover your legs into half guard position. This requires complete commitment to the turn - half-measures result in a worse scramble. Time the turn for the moment the attacker's weight shifts during the hip drop, as this is when their chest-to-back connection is weakest.
 

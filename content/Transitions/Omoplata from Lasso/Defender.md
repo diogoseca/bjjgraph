@@ -154,7 +154,7 @@ description: "Learn to defend and counter the Omoplata from Lasso Guard as the t
 
 As the defender against the Omoplata from Lasso, your primary challenge is recognizing the entry early enough to prevent the hip rotation from completing. The lasso guard already compromises your trapped arm, and the omoplata entry exploits this existing vulnerability. Your defensive strategy must address the problem at multiple stages: preventing the posture break that enables the entry, disrupting the hip rotation during the transition, and escaping the omoplata position if it establishes. Early recognition is paramount because the window for effective defense narrows dramatically once the bottom player's leg clears your shoulder. Understanding which of your own movements trigger the omoplata attempt allows you to avoid presenting the opportunity while still working to pass the lasso guard.
 
-**Opponent's Starting Position**: [[Lasso Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Lasso Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the Omoplata from Lasso, your primary challenge is recog
 ### 1. Posture up immediately and retract the trapped arm by driving elbow to your hip
 
 - **When to use**: At the earliest recognition of hip rotation initiation, before the lasso leg releases from the threading
-- **Targets**: [[Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard]]
 - **If successful**: You deny the omoplata entry and return to standard lasso guard passing position with arm partially freed
 - **Risk**: If posture attempt fails, your upward motion may create space that the bottom player exploits for the leg swing
 
 ### 2. Step over the rotating leg with your near-side leg as it swings upward toward your shoulder
 
 - **When to use**: During the mid-rotation phase when the lasso leg has released but has not yet cleared over your shoulder
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You clear the omoplata threat entirely and end up in a dominant passing position with the bottom player's guard broken
 - **Risk**: Mistiming the step-over can result in your leg being trapped, potentially worsening your position
 
 ### 3. Drive forward and stack the bottom player by dropping your weight onto their chest and hips
 
 - **When to use**: When you feel the initial posture pull but before full rotation begins, using your weight to compress the space needed for rotation
-- **Targets**: [[Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard]]
 - **If successful**: You shut down the rotation space and collapse the bottom player's hip angle, forcing them to abandon the omoplata attempt
 - **Risk**: Driving forward into an advanced lasso player can feed directly into the omoplata if they redirect your momentum
 
 ### 4. Roll forward through the established omoplata to escape shoulder pressure
 
 - **When to use**: As a last resort when the omoplata has fully established and you cannot retract your arm or posture up
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You escape the shoulder lock and may end up in a scramble or top position depending on the bottom player's hip control
 - **Risk**: If the bottom player controls your hip with a belt or pants grip, the forward roll is blocked and you remain trapped
 
@@ -225,11 +225,11 @@ As the defender against the Omoplata from Lasso, your primary challenge is recog
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Step over the rotating leg during the mid-transition phase or roll through an established omoplata when the bottom player lacks hip control, breaking free from the lasso and shoulder lock threat entirely to establish a clean passing position
 
-### → [[Lasso Guard]]
+### → [[Positions/Lasso Guard]]
 
 Posture up and retract the trapped arm early in the rotation, or stack forward to compress the rotation space. While still in lasso guard, you have prevented the more dangerous omoplata position and can resume your passing strategy
 

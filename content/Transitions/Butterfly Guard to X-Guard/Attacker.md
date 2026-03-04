@@ -180,7 +180,7 @@ description: "How to execute Butterfly Guard to X-Guard in BJJ. Attacking perspe
 
 The Butterfly Guard to X-Guard transition exploits a fundamental defensive dilemma: when you elevate with butterfly hooks, the opponent must post a leg forward or be swept. That posted leg becomes the target for X-Guard capture. The attacker's role is to create this dilemma through explosive elevation, then capitalize on the reaction by sliding underneath and threading legs into the X-configuration before the opponent can retract. Success requires coordinating upper body grip control with lower body hook mechanics in a single fluid motion, treating the transition as a continuous transformation from butterfly to X rather than two separate positions. The attacker who masters this timing creates a guard system where every butterfly sweep defense feeds directly into X-Guard entry, maintaining relentless offensive pressure.
 
-**From Position**: [[Butterfly Guard]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ The Butterfly Guard to X-Guard transition exploits a fundamental defensive dilem
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[X-Guard]] | 58% |
-| Failure | [[Butterfly Guard]] | 30% |
-| Counter | [[Butterfly Guard]] | 12% |
+| Success | [[Positions/X-Guard]] | 58% |
+| Failure | [[Positions/Butterfly Guard]] | 30% |
+| Counter | [[Positions/Butterfly Guard]] | 12% |
 
 
 </section>
@@ -245,10 +245,10 @@ The Butterfly Guard to X-Guard transition exploits a fundamental defensive dilem
 
 ## Opponent Counters
 
-- **Opponent sprawls backward and pulls their leg out before X-Guard hooks are secured** (Effectiveness: High) - Your Response: Immediately transition to seated guard or shin-to-shin guard, maintaining sleeve control. Use the momentum of their backward movement to come up on your hip and pursue with technical standup or follow them to establish alternative guard position. Do not stay flat chasing a failed entry. → Leads to [[Butterfly Guard]]
-- **Opponent drives their knee down to mat and smashes through your hook placement attempt** (Effectiveness: Medium) - Your Response: Switch to deep half guard entry by diving under their downward pressure. Their forward drive creates the perfect angle for deep half penetration. Alternatively, retain butterfly position by re-establishing your hook and resetting the sequence with a fresh elevation attempt. → Leads to [[Butterfly Guard]]
-- **Opponent steps their targeted leg back while you are mid-transition before hooks are locked** (Effectiveness: Medium) - Your Response: Follow their movement by scooting your hips forward aggressively, maintaining contact with your remaining butterfly hook. If they fully clear, immediately switch to the opposite leg as your new target since their weight has now shifted. Use your grips to prevent them from establishing passing position during the reset. → Leads to [[Butterfly Guard]]
-- **Opponent posts their hands on your hips and creates strong frames to prevent hip slide underneath** (Effectiveness: Low) - Your Response: Use their posted hands as an opportunity to attack arm drags or strip their grip to create underhook opportunities. Their hands-on-hips position means they have abandoned collar or sleeve control, making them vulnerable to butterfly elevation sweeps. Alternatively, switch attack direction to the opposite leg. → Leads to [[Butterfly Guard]]
+- **Opponent sprawls backward and pulls their leg out before X-Guard hooks are secured** (Effectiveness: High) - Your Response: Immediately transition to seated guard or shin-to-shin guard, maintaining sleeve control. Use the momentum of their backward movement to come up on your hip and pursue with technical standup or follow them to establish alternative guard position. Do not stay flat chasing a failed entry. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent drives their knee down to mat and smashes through your hook placement attempt** (Effectiveness: Medium) - Your Response: Switch to deep half guard entry by diving under their downward pressure. Their forward drive creates the perfect angle for deep half penetration. Alternatively, retain butterfly position by re-establishing your hook and resetting the sequence with a fresh elevation attempt. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent steps their targeted leg back while you are mid-transition before hooks are locked** (Effectiveness: Medium) - Your Response: Follow their movement by scooting your hips forward aggressively, maintaining contact with your remaining butterfly hook. If they fully clear, immediately switch to the opposite leg as your new target since their weight has now shifted. Use your grips to prevent them from establishing passing position during the reset. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent posts their hands on your hips and creates strong frames to prevent hip slide underneath** (Effectiveness: Low) - Your Response: Use their posted hands as an opportunity to attack arm drags or strip their grip to create underhook opportunities. Their hands-on-hips position means they have abandoned collar or sleeve control, making them vulnerable to butterfly elevation sweeps. Alternatively, switch attack direction to the opposite leg. → Leads to [[Positions/Butterfly Guard]]
 
 
 </section>

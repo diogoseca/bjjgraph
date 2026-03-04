@@ -26,8 +26,8 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Neck (Carotid Arteries)
-**Starting Position**: [[Standing Rear Clinch]]
-**From Position**: [[Standing Rear Clinch]] (Top)
+**Starting Position**: [[Positions/Standing Rear Clinch]]
+**From Position**: [[Positions/Standing Rear Clinch]] (Top)
 **Success Rate**: 35%
 
 </section>
@@ -81,9 +81,9 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 35% |
-| Failure | [[Standing Rear Clinch]] | 35% |
-| Counter | [[Standing Position]] | 15% |
-| Counter | [[Clinch]] | 15% |
+| Failure | [[Positions/Standing Rear Clinch]] | 35% |
+| Counter | [[Positions/Standing Position]] | 15% |
+| Counter | [[Positions/Clinch]] | 15% |
 
 
 </section>
@@ -231,9 +231,9 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 
 ## From Which Positions?
 
-- [[Standing Rear Clinch]]
-- [[Standing Back Control]]
-- [[Standing Position]]
+- [[Positions/Standing Rear Clinch]]
+- [[Positions/Back Control/Standing Back Control]]
+- [[Positions/Standing Position]]
 
 
 </section>
@@ -242,14 +242,14 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 
 ## Related Submissions
 
-- [[RNC from Seat Belt]]
-- [[Body Triangle RNC]]
-- [[Rear Naked Choke from Rodeo]]
-- [[Russian Cowboy RNC]]
-- [[Standing Guillotine from Clinch]]
-- [[Bow and Arrow from Seat Belt]]
-- [[Rear Triangle Choke]]
-- [[Short Choke from Cross Body]]
+- [[Submissions/RNC from Seat Belt]]
+- [[Submissions/Body Triangle RNC]]
+- [[Submissions/Rear Naked Choke from Rodeo]]
+- [[Submissions/Russian Cowboy RNC]]
+- [[Submissions/Standing Guillotine from Clinch]]
+- [[Submissions/Bow and Arrow from Seat Belt]]
+- [[Submissions/Rear Triangle Choke]]
+- [[Submissions/Short Choke from Cross Body]]
 
 
 </section>
@@ -258,14 +258,14 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 
 ## Additional Related Content
 
-- [[Standing Rear Clinch]] - Primary starting position from which this submission is initiated through seatbelt-to-choke transition
-- [[Standing Back Control]] - Alternative standing control position with hooks that provides additional stability for the choke attempt
-- [[Back Control]] - Ground-based equivalent position offering greater stability for RNC finishing mechanics
-- [[Seat Belt Control Back]] - The specific grip configuration that serves as the starting point for transitioning to the choking arm
-- [[Clinch]] - Common escape destination when defender successfully turns to face the attacker
-- [[RNC from Seat Belt]] - Ground-based equivalent submission using identical carotid compression mechanics from seated back control
-- [[Body Lock]] - Alternative grip configuration from standing rear clinch that can set up RNC transition
-- [[Harness]] - Core grip system that controls opponent's upper body and creates the platform for choke entry
+- [[Positions/Standing Rear Clinch]] - Primary starting position from which this submission is initiated through seatbelt-to-choke transition
+- [[Positions/Back Control/Standing Back Control]] - Alternative standing control position with hooks that provides additional stability for the choke attempt
+- [[Positions/Back Control]] - Ground-based equivalent position offering greater stability for RNC finishing mechanics
+- [[Positions/Back Control/Seat Belt Control Back]] - The specific grip configuration that serves as the starting point for transitioning to the choking arm
+- [[Positions/Clinch]] - Common escape destination when defender successfully turns to face the attacker
+- [[Submissions/RNC from Seat Belt]] - Ground-based equivalent submission using identical carotid compression mechanics from seated back control
+- [[Positions/Body Lock]] - Alternative grip configuration from standing rear clinch that can set up RNC transition
+- [[Positions/Harness]] - Core grip system that controls opponent's upper body and creates the platform for choke entry
 
 
 </section>

@@ -184,7 +184,7 @@ This sweep represents one of the primary offensive weapons from Reverse X-Guard,
 
 Success with the Reverse X-Guard Sweep requires understanding the relationship between hook placement, hip elevation, and grip control. The bottom practitioner must maintain constant elevating pressure while timing the sweep to coincide with the opponent's weight shift or base adjustment. Advanced practitioners chain this sweep with transitions to Single Leg X-Guard or Ashi Garami when the primary sweep is defended, creating a systematic attacking approach from the position.
 
-**From Position**: [[Reverse X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
 
@@ -237,9 +237,9 @@ Success with the Reverse X-Guard Sweep requires understanding the relationship b
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 65% |
-| Failure | [[Reverse X-Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount]] | 65% |
+| Failure | [[Positions/X-Guard/Reverse X-Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -248,10 +248,10 @@ Success with the Reverse X-Guard Sweep requires understanding the relationship b
 
 ## Opponent Counters
 
-- **Widening base and dropping weight to flatten sweep attempt** (Effectiveness: High) - Your Response: When opponent widens base, immediately transition to Single Leg X-Guard by repositioning your bottom hook, or attack the exposed far leg with an Ashi Garami entry → Leads to [[Reverse X-Guard]]
-- **Backstep to clear hooks and pass around controlled leg** (Effectiveness: Medium) - Your Response: Follow the backstep with an inversion, looking to take the back as they circle around. Their backstep exposes their back if you maintain hook connection during the spin → Leads to [[Half Guard]]
-- **Posting hand on mat and establishing strong defensive frame** (Effectiveness: Medium) - Your Response: Attack the posted arm with a sweep in the opposite direction, or use the posting commitment to transition to technical stand-up while maintaining grip control → Leads to [[Reverse X-Guard]]
-- **Smash pass by driving forward and flattening guard player's hips** (Effectiveness: Medium) - Your Response: When opponent drives forward, use their momentum to enter Deep Half Guard by threading under their near leg, turning their pressure into a transition opportunity → Leads to [[Half Guard]]
+- **Widening base and dropping weight to flatten sweep attempt** (Effectiveness: High) - Your Response: When opponent widens base, immediately transition to Single Leg X-Guard by repositioning your bottom hook, or attack the exposed far leg with an Ashi Garami entry → Leads to [[Positions/X-Guard/Reverse X-Guard]]
+- **Backstep to clear hooks and pass around controlled leg** (Effectiveness: Medium) - Your Response: Follow the backstep with an inversion, looking to take the back as they circle around. Their backstep exposes their back if you maintain hook connection during the spin → Leads to [[Positions/Half Guard]]
+- **Posting hand on mat and establishing strong defensive frame** (Effectiveness: Medium) - Your Response: Attack the posted arm with a sweep in the opposite direction, or use the posting commitment to transition to technical stand-up while maintaining grip control → Leads to [[Positions/X-Guard/Reverse X-Guard]]
+- **Smash pass by driving forward and flattening guard player's hips** (Effectiveness: Medium) - Your Response: When opponent drives forward, use their momentum to enter Deep Half Guard by threading under their near leg, turning their pressure into a transition opportunity → Leads to [[Positions/Half Guard]]
 
 
 </section>

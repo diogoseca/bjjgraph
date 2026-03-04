@@ -186,7 +186,7 @@ description: "Learn to execute the push sweep from feet on hips guard. Step-by-s
 
 The push sweep from feet on hips guard requires the attacking guard player to convert defensive leg frames into an explosive sweeping mechanism. Success depends on reading the opponent's weight distribution, timing the push to coincide with forward commitment, and coordinating bilateral leg extension with upper body pulling grips. The attacker must treat this sweep as part of a broader system rather than an isolated technique—the push sweep threat makes the tripod sweep and sickle sweep more effective, and vice versa. Immediate follow-up after the sweep distinguishes competent practitioners from experts, as failing to establish top position after a successful sweep negates the positional advantage gained.
 
-**From Position**: [[Feet on Hips Guard]] (Bottom)
+**From Position**: [[Positions/Feet on Hips Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ The push sweep from feet on hips guard requires the attacking guard player to co
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Feet on Hips Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Feet on Hips Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ The push sweep from feet on hips guard requires the attacking guard player to co
 
 ## Opponent Counters
 
-- **Opponent widens base and drops hips backward to resist the push direction** (Effectiveness: High) - Your Response: Switch to asymmetric push directing force to one side to collapse half their base, or transition to tripod sweep which specifically targets wide stances by attacking the lateral base → Leads to [[Feet on Hips Guard]]
-- **Opponent grabs both ankles during leg extension to strip feet off hips** (Effectiveness: Medium) - Your Response: Retract legs immediately before full ankle control is established by bending knees sharply, then reset feet on hips or transition to butterfly guard with hooks inside their thighs → Leads to [[Open Guard]]
-- **Opponent posts one hand behind them to catch backward fall and prevent full sweep completion** (Effectiveness: High) - Your Response: Redirect additional force toward the posting side to collapse the post, or immediately switch push angle to the opposite side where they have no support structure → Leads to [[Feet on Hips Guard]]
-- **Opponent steps laterally to avoid the push vector rather than resisting straight backward** (Effectiveness: Medium) - Your Response: Track their lateral movement with hip rotation and redirect the push angle to follow them, or transition to sickle sweep targeting the side they are stepping toward → Leads to [[Feet on Hips Guard]]
+- **Opponent widens base and drops hips backward to resist the push direction** (Effectiveness: High) - Your Response: Switch to asymmetric push directing force to one side to collapse half their base, or transition to tripod sweep which specifically targets wide stances by attacking the lateral base → Leads to [[Positions/Feet on Hips Guard]]
+- **Opponent grabs both ankles during leg extension to strip feet off hips** (Effectiveness: Medium) - Your Response: Retract legs immediately before full ankle control is established by bending knees sharply, then reset feet on hips or transition to butterfly guard with hooks inside their thighs → Leads to [[Positions/Open Guard]]
+- **Opponent posts one hand behind them to catch backward fall and prevent full sweep completion** (Effectiveness: High) - Your Response: Redirect additional force toward the posting side to collapse the post, or immediately switch push angle to the opposite side where they have no support structure → Leads to [[Positions/Feet on Hips Guard]]
+- **Opponent steps laterally to avoid the push vector rather than resisting straight backward** (Effectiveness: Medium) - Your Response: Track their lateral movement with hip rotation and redirect the push angle to follow them, or transition to sickle sweep targeting the side they are stepping toward → Leads to [[Positions/Feet on Hips Guard]]
 
 
 </section>

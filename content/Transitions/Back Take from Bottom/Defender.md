@@ -158,7 +158,7 @@ The defensive priority hierarchy is clear: first, prevent the seatbelt from bein
 
 Successful defenders understand that the safest option is often to not turn at all, instead addressing the guillotine through posture, driving forward, or hand fighting the grip directly. When turning is necessary, controlling the speed and depth of your rotation while keeping your elbows tight and hands prepared to intercept the seatbelt creates the best defensive outcomes. The goal is either to stall the transition and return to the original Hindulotine position where you can resume your escape, or to complete your turn fully and re-establish guard before the attacker can secure hooks.
 
-**Opponent's Starting Position**: [[Hindulotine]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful defenders understand that the safest option is often to not turn at a
 ### 1. Stop the turn and re-face the attacker by squaring your shoulders back toward them and driving your hips forward
 
 - **When to use**: Early in the transition when you feel the guillotine pressure release and recognize the back take attempt before seatbelt is established
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: You return to the original Hindulotine position where you can resume escaping the guillotine through other methods such as posturing or hand fighting
 - **Risk**: Re-facing puts you back into the guillotine choke, which may be tighter if your partial turn worsened your neck position
 
 ### 2. Complete the turn explosively and immediately establish defensive frames against the attacker's chest while pulling your hips away to create distance
 
 - **When to use**: When you have already committed too far into the turn to stop, and the attacker has not yet secured the seatbelt or inserted hooks
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You complete the rotation, face the attacker, and re-establish guard position, negating the back take entirely
 - **Risk**: If the attacker follows your rotation and locks seatbelt during the fast turn, you accelerate into back control instead of escaping
 
 ### 3. Two-on-one grip fight the overhook arm to prevent seatbelt completion while keeping elbows tight to block the underhook
 
 - **When to use**: When the attacker has released the guillotine and begun threading the overhook arm across your chest but has not yet clasped hands
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: You strip or block the seatbelt, preventing full back control establishment, and can work to re-face or posture from the disrupted position
 - **Risk**: Committing both hands to fighting the overhook leaves you vulnerable if they switch to re-establishing the guillotine or transition to darce
 
 ### 4. Drive forward aggressively into the attacker's guard to flatten them and prevent the transition by smashing their hips to the mat
 
 - **When to use**: When you recognize the guillotine pressure is decreasing and the attacker is preparing to transition, but before you have begun turning
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: The forward drive prevents the rotation-based back take, potentially stacks the attacker, and may open guard passing opportunities
 - **Risk**: Driving forward into an intact guillotine grip may actually tighten the choke if the attacker does not fully commit to the back take transition
 
@@ -228,11 +228,11 @@ Successful defenders understand that the safest option is often to not turn at a
 
 ## Best-Case Outcomes for Defender
 
-### → [[Hindulotine]]
+### → [[Positions/Hindulotine]]
 
 Stop your turn early when you recognize the attacker releasing their guillotine grip. Square your shoulders back toward the attacker, drive your hips forward, and use two-on-one grip fighting to strip their transitioning arm before it crosses your chest into seatbelt position. This returns you to the original position where you can resume guillotine defense.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Complete your rotation fully and explosively before the attacker can establish seatbelt control. As you turn through, immediately frame against their chest with both arms, push your hips away to create distance, and establish closed guard or open guard before they can insert hooks. The key is turning faster than they can follow with their grip transition.
 

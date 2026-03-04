@@ -21,7 +21,7 @@ Strategically, the Gift Wrap serves as a critical transitional hub within the mo
 
 The key to successful Gift Wrap entries lies in understanding opponent reactions. When you threaten submissions from mount—armbars, collar chokes, or Ezekiels—the opponent naturally extends or repositions their arms defensively. These defensive movements create the arm isolation opportunities that facilitate the Gift Wrap entry. Patient practitioners who set up the wrap through positional pressure and submission threats achieve significantly higher success rates than those who attempt to force the arm across.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The key to successful Gift Wrap entries lies in understanding opponent reactions
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Gift Wrap]] | 65% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Gift Wrap]] | 65% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Gift Wrap functions as a critical transitional hub within the mount attack s
 ## Related Techniques
 
 
-- [[Mount]] - Starting position for this transition
+- [[Positions/Mount]] - Starting position for this transition
 
-- [[Gift Wrap]] - Target control position upon successful transition
+- [[Positions/Gift Wrap]] - Target control position upon successful transition
 
-- [[Gift Wrap to Back]] - Common follow-up—Gift Wrap facilitates back take when opponent turns
+- [[Transitions/Gift Wrap to Back]] - Common follow-up—Gift Wrap facilitates back take when opponent turns
 
-- [[Gift Wrap to Technical Mount]] - Positional advancement while maintaining arm trap
+- [[Transitions/Gift Wrap to Technical Mount]] - Positional advancement while maintaining arm trap
 
-- [[Armbar from Mount]] - Setup feint that creates Gift Wrap entry opportunities
+- [[Submissions/Armbar from Mount]] - Setup feint that creates Gift Wrap entry opportunities
 
-- [[Ezekiel from Mount]] - Submission threat that forces defensive arm extension
+- [[Submissions/Ezekiel from Mount]] - Submission threat that forces defensive arm extension
 
-- [[Back Control]] - Primary destination after Gift Wrap is established
+- [[Positions/Back Control]] - Primary destination after Gift Wrap is established
 
-- [[Technical Mount]] - Alternative advancement when opponent turns during transition
+- [[Positions/Mount/Technical Mount]] - Alternative advancement when opponent turns during transition
 
-- [[High Mount]] - Related position offering similar Gift Wrap entries
+- [[Positions/Mount/High Mount]] - Related position offering similar Gift Wrap entries
 
-- [[Rear Naked Choke]] - Primary submission threat from established Gift Wrap control
+- [[Transitions/Rear Naked Choke]] - Primary submission threat from established Gift Wrap control
 
 
 </section>

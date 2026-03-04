@@ -22,7 +22,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries
-**Starting Position**: [[Side Control]]
+**Starting Position**: [[Positions/Side Control]]
 **Success Rate**: 58%
 
 </section>
@@ -76,8 +76,8 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -225,13 +225,13 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 ## From Which Positions?
 
-- [[Side Control]]
-- [[Half Guard]]
-- [[North-South]]
-- [[Knee on Belly]]
-- [[Side Control Consolidation]]
-- [[Mount]]
-- [[Scramble Position]]
+- [[Positions/Side Control]]
+- [[Positions/Half Guard]]
+- [[Positions/North-South]]
+- [[Positions/Knee on Belly]]
+- [[Positions/Side Control/Side Control Consolidation]]
+- [[Positions/Mount]]
+- [[Positions/Scramble Position]]
 
 
 </section>
@@ -240,14 +240,14 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 ## Related Submissions
 
-- [[Guillotine Choke]]
-- [[Arm in Guillotine]]
-- [[Chin Strap Guillotine]]
-- [[North-South Choke]]
-- [[Arm Triangle]]
-- [[Darce Choke]]
-- [[Anaconda Choke]]
-- [[Ezekiel Choke]]
+- [[Transitions/Guillotine Choke]]
+- [[Submissions/Arm in Guillotine]]
+- [[Submissions/Chin Strap Guillotine]]
+- [[Transitions/North-South Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Anaconda Choke]]
+- [[Submissions/Ezekiel Choke]]
 
 
 </section>
@@ -256,14 +256,14 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 ## Additional Related Content
 
-- [[Side Control]] - Primary position for applying Von Flue choke
-- [[Guillotine Control]] - Position being countered by Von Flue technique
-- [[Half Guard]] - Common position where Von Flue can be applied during passing
-- [[North-South]] - Alternative position where similar shoulder pressure can be applied
-- [[Kesa Gatame]] - Related side control variation with similar pressure principles
-- [[Front Headlock]] - Related upper body control position used in guillotine sequences
-- [[Side Control Consolidation]] - Position to consolidate after successful Von Flue forces grip release
-- [[Mount]] - Alternative finish position when opponent bridges during Von Flue attempt
+- [[Positions/Side Control]] - Primary position for applying Von Flue choke
+- [[Positions/Guillotine Control]] - Position being countered by Von Flue technique
+- [[Positions/Half Guard]] - Common position where Von Flue can be applied during passing
+- [[Positions/North-South]] - Alternative position where similar shoulder pressure can be applied
+- [[Positions/Side Control/Kesa Gatame]] - Related side control variation with similar pressure principles
+- [[Positions/Front Headlock]] - Related upper body control position used in guillotine sequences
+- [[Positions/Side Control/Side Control Consolidation]] - Position to consolidate after successful Von Flue forces grip release
+- [[Positions/Mount]] - Alternative finish position when opponent bridges during Von Flue attempt
 
 
 </section>

@@ -186,7 +186,7 @@ description: "Master the Modified Scarf Hold to Kesa Gatame transition. Complete
 
 Executing the Modified Scarf to Kesa Gatame transition requires precise coordination of hip rotation, arm threading, and weight transfer that maintains top control throughout a significant geometric change. The attacker moves from a prone chest-pressure position to a seated perpendicular scarf hold, fundamentally altering the control dynamic while keeping the bottom player pinned. The critical skill is maintaining at least two control points at all times during the rotation: never release one anchor before establishing the next. The transition rewards patience and methodical execution over speed, as rushing the hip rotation without securing the head wrap and arm trap creates the space that allows guard recovery. Advanced practitioners develop the ability to feel when the bottom player's defensive structure has committed to addressing modified scarf hold pressure, using that moment of defensive commitment as the ideal window to switch to the entirely different problem of kesa gatame.
 
-**From Position**: [[Modified Scarf Hold]] (Top)
+**From Position**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
 
 </section>
 
@@ -241,9 +241,9 @@ Executing the Modified Scarf to Kesa Gatame transition requires precise coordina
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kesa Gatame]] | 60% |
-| Failure | [[Modified Scarf Hold]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control/Kesa Gatame]] | 60% |
+| Failure | [[Positions/Side Control/Modified Scarf Hold]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -252,10 +252,10 @@ Executing the Modified Scarf to Kesa Gatame transition requires precise coordina
 
 ## Opponent Counters
 
-- **Bottom player inserts far knee between bodies during hip rotation** (Effectiveness: High) - Your Response: If you feel the knee entering mid-rotation, immediately drive your hips forward and down to flatten their knee. If the knee is already established, abort the kesa gatame transition and return to modified scarf hold or transition to knee on belly on the far side. → Leads to [[Half Guard]]
-- **Bottom player bridges explosively during the weight transfer phase** (Effectiveness: Medium) - Your Response: Ride the bridge by keeping your head wrap and arm trap tight while widening your posted leg for base. If the bridge is powerful enough to create separation, flow with the momentum into north-south rather than fighting back to kesa gatame. The bridge direction will dictate your best transitional option. → Leads to [[Modified Scarf Hold]]
-- **Bottom player frames with free arm against your face or shoulder during rotation** (Effectiveness: Medium) - Your Response: Drive your shoulder into the frame to collapse it while continuing the rotation. If the frame is strong, pause the rotation and address the frame first by swimming your arm inside their frame or using your head to pressure their forearm down. Never force the rotation against a solid frame as it creates the space needed for guard recovery. → Leads to [[Modified Scarf Hold]]
-- **Bottom player turns toward you and attempts to take the back during the perpendicular transition** (Effectiveness: Medium) - Your Response: If they turn into you, this actually aids your transition to kesa gatame since you need the perpendicular angle. However, if they begin reaching for your back, immediately drive your hips down and forward while pulling their head tighter to prevent them from getting behind you. Settle heavy into kesa gatame to shut down the back take attempt. → Leads to [[Kesa Gatame]]
+- **Bottom player inserts far knee between bodies during hip rotation** (Effectiveness: High) - Your Response: If you feel the knee entering mid-rotation, immediately drive your hips forward and down to flatten their knee. If the knee is already established, abort the kesa gatame transition and return to modified scarf hold or transition to knee on belly on the far side. → Leads to [[Positions/Half Guard]]
+- **Bottom player bridges explosively during the weight transfer phase** (Effectiveness: Medium) - Your Response: Ride the bridge by keeping your head wrap and arm trap tight while widening your posted leg for base. If the bridge is powerful enough to create separation, flow with the momentum into north-south rather than fighting back to kesa gatame. The bridge direction will dictate your best transitional option. → Leads to [[Positions/Side Control/Modified Scarf Hold]]
+- **Bottom player frames with free arm against your face or shoulder during rotation** (Effectiveness: Medium) - Your Response: Drive your shoulder into the frame to collapse it while continuing the rotation. If the frame is strong, pause the rotation and address the frame first by swimming your arm inside their frame or using your head to pressure their forearm down. Never force the rotation against a solid frame as it creates the space needed for guard recovery. → Leads to [[Positions/Side Control/Modified Scarf Hold]]
+- **Bottom player turns toward you and attempts to take the back during the perpendicular transition** (Effectiveness: Medium) - Your Response: If they turn into you, this actually aids your transition to kesa gatame since you need the perpendicular angle. However, if they begin reaching for your back, immediately drive your hips down and forward while pulling their head tighter to prevent them from getting behind you. Settle heavy into kesa gatame to shut down the back take attempt. → Leads to [[Positions/Side Control/Kesa Gatame]]
 
 
 </section>

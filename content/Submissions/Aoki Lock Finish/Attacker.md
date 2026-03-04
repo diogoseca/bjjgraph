@@ -182,7 +182,7 @@ description: "Master the Aoki Lock Finish as the attacker. Step-by-step shoulder
 
 Executing the Aoki Lock Finish requires establishing dominant leg entanglement control over the opponent's shoulder before applying progressive rotational pressure through controlled hip drive. The finish demands precise coordination between leg squeeze, hip positioning, and pressure application to generate submission-forcing torque on the glenohumeral joint while maintaining safety for your training partner. Success depends on methodical execution, patience, and the ability to recognize when transitioning to alternative attacks like back control or crucifix offers better probability than forcing a defended shoulder lock. The finishing sequence uses body weight mechanics rather than muscular effort, making it sustainable and controllable when applied correctly.
 
-**From Position**: [[Aoki Lock]] (Top)
+**From Position**: [[Positions/Aoki Lock]] (Top)
 
 
 </section>
@@ -236,9 +236,9 @@ Executing the Aoki Lock Finish requires establishing dominant leg entanglement c
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Aoki Lock]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
-| Counter | [[Turtle]] | 10% |
+| Failure | [[Positions/Aoki Lock]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -247,10 +247,10 @@ Executing the Aoki Lock Finish requires establishing dominant leg entanglement c
 
 ## Opponent Defenses
 
-- **Defender rolls toward trapped arm to relieve shoulder pressure and recover guard** (Effectiveness: High) - Your Response: Follow the roll and transition to back control using the rolling momentum to establish seat belt grip as they expose their back during the escape attempt → Leads to [[Closed Guard]]
-- **Defender attacks posted leg with free hand to destabilize finishing base** (Effectiveness: Medium) - Your Response: Reposition posted leg quickly while maintaining leg entanglement tightness, then re-establish hip pressure before defender can complete arm extraction → Leads to [[Aoki Lock]]
-- **Defender bridges explosively upward to create space for arm extraction** (Effectiveness: Medium) - Your Response: Drive hips forward and tighten legs during the bridge, using opponent's upward momentum to increase shoulder pressure rather than fighting against it → Leads to [[Aoki Lock]]
-- **Defender extracts arm by loosening leg entanglement and pulling free to turtle** (Effectiveness: High) - Your Response: If arm extraction begins, immediately transition to back control or crucifix rather than fighting to maintain a compromised shoulder lock position → Leads to [[Turtle]]
+- **Defender rolls toward trapped arm to relieve shoulder pressure and recover guard** (Effectiveness: High) - Your Response: Follow the roll and transition to back control using the rolling momentum to establish seat belt grip as they expose their back during the escape attempt → Leads to [[Positions/Closed Guard]]
+- **Defender attacks posted leg with free hand to destabilize finishing base** (Effectiveness: Medium) - Your Response: Reposition posted leg quickly while maintaining leg entanglement tightness, then re-establish hip pressure before defender can complete arm extraction → Leads to [[Positions/Aoki Lock]]
+- **Defender bridges explosively upward to create space for arm extraction** (Effectiveness: Medium) - Your Response: Drive hips forward and tighten legs during the bridge, using opponent's upward momentum to increase shoulder pressure rather than fighting against it → Leads to [[Positions/Aoki Lock]]
+- **Defender extracts arm by loosening leg entanglement and pulling free to turtle** (Effectiveness: High) - Your Response: If arm extraction begins, immediately transition to back control or crucifix rather than fighting to maintain a compromised shoulder lock position → Leads to [[Positions/Turtle]]
 
 
 </section>

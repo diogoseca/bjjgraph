@@ -180,7 +180,7 @@ description: "Execute the Stack Pass from Meathook as the top player. Step-by-st
 
 As the attacker executing the Stack Pass from Meathook, you are the top player currently trapped in your opponent's Meathook position with one arm isolated by their shin hook. Your objective is to drive forward aggressively, folding your opponent's body by stacking their hips over their shoulders, which collapses the flexible guard structure and creates opportunities for arm extraction and guard passing. This is an aggressive escape that trades the safety of gradual arm extraction for the reward of potentially advancing directly past guard. The technique demands precise chin positioning, controlled shoulder pressure, and awareness of the gogoplata threat that increases as you drive forward into your opponent's guard structure.
 
-**From Position**: [[Meathook]] (Top)
+**From Position**: [[Positions/Rubber Guard/Meathook]] (Top)
 
 </section>
 
@@ -233,11 +233,11 @@ As the attacker executing the Stack Pass from Meathook, you are the top player c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Success | [[Side Control]] | 10% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Gogoplata Control]] | 15% |
-| Failure | [[Meathook]] | 10% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Success | [[Positions/Side Control]] | 10% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Gogoplata Control]] | 15% |
+| Failure | [[Positions/Rubber Guard/Meathook]] | 10% |
 
 
 </section>
@@ -246,10 +246,10 @@ As the attacker executing the Stack Pass from Meathook, you are the top player c
 
 ## Opponent Counters
 
-- **Bottom player redirects shin to throat for gogoplata as top player drives forward** (Effectiveness: High) - Your Response: Keep chin tucked throughout the drive and turn head away from hooking leg. If you feel shin contact near throat, immediately stop forward drive and redirect to lateral movement or retreat to posture recovery instead. → Leads to [[Gogoplata Control]]
-- **Bottom player frames against shoulder to prevent forward stack progression** (Effectiveness: Medium) - Your Response: Swim through their frames by circling your shoulder under their arms while maintaining forward pressure. Alternatively, switch to double-under grip to bypass frame resistance and re-establish stacking leverage. → Leads to [[Closed Guard]]
-- **Bottom player hip escapes laterally during stack to re-angle for triangle or omoplata** (Effectiveness: High) - Your Response: Follow their hip movement by walking your own hips in the same direction to prevent angle creation. If they achieve significant angle, abandon the stack and transition to posture recovery to avoid entering a worse submission position. → Leads to [[Closed Guard]]
-- **Bottom player releases Meathook to transition to closed guard or re-establish mission control** (Effectiveness: Medium) - Your Response: Capitalize on the hook release by immediately extracting your arm and driving to posture recovery. The moment the shin hook releases, the stacking pressure becomes pure passing advantage with no submission risk. → Leads to [[Meathook]]
+- **Bottom player redirects shin to throat for gogoplata as top player drives forward** (Effectiveness: High) - Your Response: Keep chin tucked throughout the drive and turn head away from hooking leg. If you feel shin contact near throat, immediately stop forward drive and redirect to lateral movement or retreat to posture recovery instead. → Leads to [[Positions/Gogoplata Control]]
+- **Bottom player frames against shoulder to prevent forward stack progression** (Effectiveness: Medium) - Your Response: Swim through their frames by circling your shoulder under their arms while maintaining forward pressure. Alternatively, switch to double-under grip to bypass frame resistance and re-establish stacking leverage. → Leads to [[Positions/Closed Guard]]
+- **Bottom player hip escapes laterally during stack to re-angle for triangle or omoplata** (Effectiveness: High) - Your Response: Follow their hip movement by walking your own hips in the same direction to prevent angle creation. If they achieve significant angle, abandon the stack and transition to posture recovery to avoid entering a worse submission position. → Leads to [[Positions/Closed Guard]]
+- **Bottom player releases Meathook to transition to closed guard or re-establish mission control** (Effectiveness: Medium) - Your Response: Capitalize on the hook release by immediately extracting your arm and driving to posture recovery. The moment the shin hook releases, the stacking pressure becomes pure passing advantage with no submission risk. → Leads to [[Positions/Rubber Guard/Meathook]]
 
 
 </section>

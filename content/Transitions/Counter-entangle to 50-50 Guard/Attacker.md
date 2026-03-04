@@ -178,7 +178,7 @@ The strategic value of this counter lies in its risk mitigation properties. When
 
 This technique requires precise timing and technical execution. Attempting the counter-entangle too early when the opponent has strong control results in accelerated positional deterioration. Waiting too long allows the opponent to consolidate into Saddle or Inside Ashi where counter-entanglement becomes impossible. The window of opportunity exists during transitional moments when the opponent is adjusting grips or attempting to advance their position.
 
-**From Position**: [[Leg Knot]] (Bottom)
+**From Position**: [[Positions/Leg Knot]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ This technique requires precise timing and technical execution. Attempting the c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 65% |
-| Failure | [[Leg Knot]] | 25% |
-| Counter | [[Saddle]] | 10% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 65% |
+| Failure | [[Positions/Leg Knot]] | 25% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ This technique requires precise timing and technical execution. Attempting the c
 
 ## Opponent Counters
 
-- **Opponent sprawls their hips back and blocks the threading leg with their hand** (Effectiveness: High) - Your Response: Use the blocking hand as a lever to hip escape away and either complete the thread from a different angle or transition to Single Leg X-Guard recovery → Leads to [[Leg Knot]]
-- **Opponent immediately attacks heel hook during your transition when heel becomes briefly exposed** (Effectiveness: High) - Your Response: Accelerate the threading motion and turn into the opponent to hide heel. If heel hook is locked, complete the 50-50 anyway as it gives you equal access to their heel → Leads to [[Saddle]]
-- **Opponent recognizes the counter and quickly transitions to Saddle before you can thread** (Effectiveness: Medium) - Your Response: If Saddle is achieved, abandon the 50-50 counter and transition to Saddle-specific escapes like boot or the Granby roll escape → Leads to [[Saddle]]
-- **Opponent posts their free leg wide to prevent the weave** (Effectiveness: Medium) - Your Response: Target the posted leg with your threading motion, essentially changing to an X-Guard entry that still disrupts their base → Leads to [[Leg Knot]]
+- **Opponent sprawls their hips back and blocks the threading leg with their hand** (Effectiveness: High) - Your Response: Use the blocking hand as a lever to hip escape away and either complete the thread from a different angle or transition to Single Leg X-Guard recovery → Leads to [[Positions/Leg Knot]]
+- **Opponent immediately attacks heel hook during your transition when heel becomes briefly exposed** (Effectiveness: High) - Your Response: Accelerate the threading motion and turn into the opponent to hide heel. If heel hook is locked, complete the 50-50 anyway as it gives you equal access to their heel → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent recognizes the counter and quickly transitions to Saddle before you can thread** (Effectiveness: Medium) - Your Response: If Saddle is achieved, abandon the 50-50 counter and transition to Saddle-specific escapes like boot or the Granby roll escape → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent posts their free leg wide to prevent the weave** (Effectiveness: Medium) - Your Response: Target the posted leg with your threading motion, essentially changing to an X-Guard entry that still disrupts their base → Leads to [[Positions/Leg Knot]]
 
 
 </section>

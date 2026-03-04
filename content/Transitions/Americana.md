@@ -21,7 +21,7 @@ The submission mechanics rely on creating a figure-four grip configuration that 
 
 The Americana serves dual purposes in a complete grappling game: as a direct finishing mechanism when the opponent's arm becomes available, and as a gateway technique that creates defensive reactions opening paths to other submissions. When opponents defend by straightening their arm, they expose themselves to armbars; when they turn into the lock, back takes become available. This makes the Americana a cornerstone of systematic top control offense.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -33,8 +33,8 @@ The Americana serves dual purposes in a complete grappling game: as a direct fin
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Side Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Americana is a cornerstone submission from dominant top positions, particula
 ## Related Techniques
 
 
-- [[Side Control]] - Primary starting position for the Americana attack
+- [[Positions/Side Control]] - Primary starting position for the Americana attack
 
-- [[Mount]] - Alternative starting position with elevated weight advantage
+- [[Positions/Mount]] - Alternative starting position with elevated weight advantage
 
-- [[Americana from Side Control]] - Position-specific submission variation from side control
+- [[Submissions/Americana from Side Control]] - Position-specific submission variation from side control
 
-- [[Americana from Mount]] - Position-specific submission variation from mount
+- [[Submissions/Americana from Mount]] - Position-specific submission variation from mount
 
-- [[Kimura]] - Complementary shoulder lock attacking internal rotation instead of external
+- [[Transitions/Kimura]] - Complementary shoulder lock attacking internal rotation instead of external
 
-- [[Armbar from Side Control]] - Chain attack when opponent straightens arm to defend Americana
+- [[Submissions/Armbar from Side Control]] - Chain attack when opponent straightens arm to defend Americana
 
-- [[Armbar from Mount]] - Chain attack when opponent straightens arm defending from mount
+- [[Submissions/Armbar from Mount]] - Chain attack when opponent straightens arm defending from mount
 
-- [[Knee on Belly]] - Alternative top position offering Americana entry opportunities
+- [[Positions/Knee on Belly]] - Alternative top position offering Americana entry opportunities
 
-- [[Kesa Gatame]] - Scarf hold variation providing Americana grip access
+- [[Positions/Side Control/Kesa Gatame]] - Scarf hold variation providing Americana grip access
 
-- [[Arm Triangle]] - Alternative choke attack when Americana defense exposes the neck
+- [[Transitions/Arm Triangle]] - Alternative choke attack when Americana defense exposes the neck
 
-- [[Half Guard]] - Common position opponent reaches when successfully countering the Americana attempt
+- [[Positions/Half Guard]] - Common position opponent reaches when successfully countering the Americana attempt
 
 
 </section>

@@ -158,7 +158,7 @@ The hierarchy of defensive responses follows a time-sensitivity gradient. Before
 
 Advanced defenders treat the Straight Footlock threat as an opportunity rather than purely a crisis. Every defensive reaction the defender makes carries information about positional openings. A successful sit-up counter can transition directly into a guard pass. Hip rotation that defeats the finish can advance the defender into a more neutral position. Grip stripping that breaks the compression pocket creates immediate foot extraction windows. By maintaining composure and executing trained defensive sequences, the defender transforms a submission defense into a positional transition that resets the engagement on more favorable terms.
 
-**Opponent's Starting Position**: [[Straight Ankle Lock Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Straight Ankle Lock Control]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Advanced defenders treat the Straight Footlock threat as an opportunity rather t
 ### 1. External hip rotation escape - turn your hip outward aggressively to change the angle of dorsiflexion force, relieving Achilles pressure and creating space to begin extracting your foot from the compression pocket
 
 - **When to use**: As soon as you feel the attacker begin hip extension or ideally before they commit to the finish. Most effective when their leg control has any gap that permits rotational movement
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Dorsiflexion pressure is immediately relieved as the force angle changes, allowing you to extract your foot and recover to open guard where you can re-establish distance and defensive frames
 - **Risk**: If hip rotation is incomplete, it may transition the attacker into Outside Ashi-Garami where heel hook threats emerge, making a partial rotation worse than no rotation
 
 ### 2. Explosive sit-up and forward drive - sit up forcefully while driving your upper body into the attacker, collapsing the extension angle and preventing their hips from generating finishing pressure
 
 - **When to use**: When the attacker begins extension but has not yet generated significant dorsiflexion pressure. Most effective in the first 1-2 seconds of the extension attempt before the arch deepens
-- **Targets**: [[Straight Ankle Lock Control]]
+- **Targets**: [[Positions/Straight Ankle Lock Control]]
 - **If successful**: The attacker's extension angle collapses, neutralizing finishing pressure and potentially allowing you to advance to a passing position over their legs or force them to abandon the finish and reset control
 - **Risk**: Requires explosive energy expenditure and if the attacker posts with their outside leg to brace, the sit-up may fail while leaving you fatigued and still trapped in the control position
 
 ### 3. Boot defense - curl your toes aggressively toward your shin and rotate your knee inward to create a structural barrier that prevents the attacker's forearm from maintaining position behind the Achilles tendon
 
 - **When to use**: Preventively before the attacker initiates extension, ideally immediately upon recognizing ankle lock control is established. Less effective once extension has already begun generating pressure
-- **Targets**: [[Straight Ankle Lock Control]]
+- **Targets**: [[Positions/Straight Ankle Lock Control]]
 - **If successful**: The structural barrier displaces the attacker's forearm from behind the Achilles, removing the fulcrum needed for dorsiflexion pressure and forcing them to either reposition or transition to a different attack
 - **Risk**: The boot defense exposes your knee to kneebar attacks because the inward knee rotation creates an angle the attacker can exploit by shifting control above the joint
 
 ### 4. Two-on-one grip strip targeting the heel cup - use both hands to peel the attacker's grip that traps your heel against their body, breaking the compression pocket and creating space to extract your foot
 
 - **When to use**: When the attacker has established grips but has not yet initiated strong hip extension. Most effective when combined with simultaneous hip rotation to compound the defensive effect
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The compression pocket collapses, the heel is freed from the attacker's body, and foot extraction becomes possible through toe-pointing and pulling the knee toward your chest
 - **Risk**: While both hands are occupied with grip stripping, you cannot establish defensive frames against the attacker's upper body, leaving you vulnerable if they transition to a passing sequence or alternative submission
 
@@ -228,11 +228,11 @@ Advanced defenders treat the Straight Footlock threat as an opportunity rather t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Straight Ankle Lock Control]]
+### → [[Positions/Straight Ankle Lock Control]]
 
 Use boot defense or explosive sit-up to neutralize the finishing attempt without fully escaping control. This resets the attacker to the control phase where you have more defensive options and time. Combine sit-up with frame establishment on their upper body to prevent immediate re-attempt of the finish.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Execute hip rotation escape combined with grip stripping to fully extract your foot from the attacker's control. Once the foot is free, immediately retract your leg by pulling your knee to your chest, establish feet-on-hips frames, and create distance to prevent the attacker from re-engaging your ankle. Recover to open guard where you can re-establish grips and defensive structure.
 

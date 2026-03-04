@@ -21,7 +21,7 @@ From High Mount, the Arm Triangle becomes available when the opponent attempts t
 
 Strategically, the Arm Triangle serves as a cornerstone technique that chains seamlessly with other attacks. When opponents defend by keeping elbows tight to prevent the arm from crossing, they expose themselves to americanas and collar chokes. When they extend arms to create frames, they create the exact opening needed for the Arm Triangle setup. This dilemma-based approach makes the Arm Triangle particularly effective at higher levels where opponents understand the danger but must choose which submission to defend.
 
-**From Position**: [[High Mount]] (Top)
+**From Position**: [[Positions/Mount/High Mount]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Arm Triangle serves as a cornerstone technique that chains se
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 58% |
-| Failure | [[High Mount]] | 30% |
-| Counter | [[Half Guard]] | 12% |
+| Success | [[Positions/Darce Control]] | 58% |
+| Failure | [[Positions/Mount/High Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Arm Triangle from High Mount integrates seamlessly into the mount submission
 ## Related Techniques
 
 
-- [[High Mount]] - Starting position - optimal platform for initiating the arm triangle setup
+- [[Positions/Mount/High Mount]] - Starting position - optimal platform for initiating the arm triangle setup
 
-- [[Darce Control]] - Success outcome - control position for finishing the choke
+- [[Positions/Darce Control]] - Success outcome - control position for finishing the choke
 
-- [[Darce Choke]] - Related submission - same choking mechanics from different entry positions
+- [[Transitions/Darce Choke]] - Related submission - same choking mechanics from different entry positions
 
-- [[Arm Triangle from Top]] - Alternative entry - same submission from side control starting position
+- [[Transitions/Arm Triangle from Top]] - Alternative entry - same submission from side control starting position
 
-- [[Americana from Mount]] - Chain attack - option when opponent defends arm triangle by keeping elbows tight
+- [[Submissions/Americana from Mount]] - Chain attack - option when opponent defends arm triangle by keeping elbows tight
 
-- [[Armbar from Mount]] - Chain attack - option when opponent extends arm attempting to frame
+- [[Submissions/Armbar from Mount]] - Chain attack - option when opponent extends arm attempting to frame
 
-- [[Gift Wrap]] - Setup control - arm control position that facilitates arm triangle entry
+- [[Positions/Gift Wrap]] - Setup control - arm control position that facilitates arm triangle entry
 
-- [[Back Take from Top]] - Alternative outcome - available when opponent turns into the choke
+- [[Transitions/Back Take from Top]] - Alternative outcome - available when opponent turns into the choke
 
-- [[Side Control]] - Finishing position - common position for completing the arm triangle squeeze
+- [[Positions/Side Control]] - Finishing position - common position for completing the arm triangle squeeze
 
-- [[Half Guard]] - Counter outcome - position opponent may recover if bridge during dismount succeeds
+- [[Positions/Half Guard]] - Counter outcome - position opponent may recover if bridge during dismount succeeds
 
 
 </section>

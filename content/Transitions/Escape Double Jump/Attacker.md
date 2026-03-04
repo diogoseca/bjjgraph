@@ -180,7 +180,7 @@ description: "Learn to execute the Escape Double Jump as the bottom player. Syst
 
 The attacker in Escape Double Jump is the bottom player who has committed to a double jump guard entry that has been defended. From this compromised transitional position, the practitioner must systematically extract both legs from underneath the opponent's base, re-establish defensive frames, and settle into a stable half guard. The critical challenge lies in managing the extraction window where legs are partially committed and vulnerability to being flattened or passed is at its peak. Success requires early recognition that the entry has stalled and decisive, methodical execution of the retreat sequence before the opponent can capitalize on the failed attack. The escape converts a potentially catastrophic position loss into a controlled return to an offensive guard.
 
-**From Position**: [[Double Jump]] (Bottom)
+**From Position**: [[Positions/Double Jump]] (Bottom)
 
 </section>
 
@@ -232,10 +232,10 @@ The attacker in Escape Double Jump is the bottom player who has committed to a d
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Success | [[Knee Shield Half Guard]] | 10% |
-| Failure | [[Flattened Half Guard]] | 25% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Success | [[Positions/Half Guard/Knee Shield Half Guard]] | 10% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ The attacker in Escape Double Jump is the bottom player who has committed to a d
 
 ## Opponent Counters
 
-- **Opponent drives heavy crossface pressure during leg extraction to flatten you** (Effectiveness: High) - Your Response: Prioritize forearm frame on their shoulder before starting extraction. If crossface lands, use the pressure to hip escape to the opposite side and accelerate knee shield insertion to create structural barrier against the drive. → Leads to [[Flattened Half Guard]]
-- **Opponent backsteps or steps over during the transition window to complete a pass** (Effectiveness: Medium) - Your Response: Maintain leg contact throughout extraction. If they begin stepping, immediately clamp both legs on their nearest leg and pull knees to chest to prevent clearance. Use their stepping motion to accelerate your guard recovery. → Leads to [[Side Control]]
-- **Opponent sprawls weight forward to pin you flat during extraction phase** (Effectiveness: High) - Your Response: Use the knee shield insertion as your primary defense against the sprawl. The shin across their body prevents their hips from driving through even against strong forward pressure. Combine with hip escape to maintain side angle. → Leads to [[Flattened Half Guard]]
-- **Opponent grabs kimura grip on your framing arm during the escape attempt** (Effectiveness: Medium) - Your Response: Keep elbows tight to body during frame establishment. If kimura grip is threatened, immediately tuck the targeted arm against your body and use the opening created by their grip change to accelerate leg extraction. → Leads to [[Flattened Half Guard]]
+- **Opponent drives heavy crossface pressure during leg extraction to flatten you** (Effectiveness: High) - Your Response: Prioritize forearm frame on their shoulder before starting extraction. If crossface lands, use the pressure to hip escape to the opposite side and accelerate knee shield insertion to create structural barrier against the drive. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent backsteps or steps over during the transition window to complete a pass** (Effectiveness: Medium) - Your Response: Maintain leg contact throughout extraction. If they begin stepping, immediately clamp both legs on their nearest leg and pull knees to chest to prevent clearance. Use their stepping motion to accelerate your guard recovery. → Leads to [[Positions/Side Control]]
+- **Opponent sprawls weight forward to pin you flat during extraction phase** (Effectiveness: High) - Your Response: Use the knee shield insertion as your primary defense against the sprawl. The shin across their body prevents their hips from driving through even against strong forward pressure. Combine with hip escape to maintain side angle. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent grabs kimura grip on your framing arm during the escape attempt** (Effectiveness: Medium) - Your Response: Keep elbows tight to body during frame establishment. If kimura grip is threatened, immediately tuck the targeted arm against your body and use the opening created by their grip change to accelerate leg extraction. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 
 
 </section>

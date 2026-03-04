@@ -138,7 +138,7 @@ description: "Defend against the transition to leg entanglement when your oppone
 
 As the defender against this transition, you are the bottom player who has established Ashi Garami control on the opponent's leg and they are now attempting to thread their free leg into a counter-entanglement rather than simply escaping. Your primary goal is preventing the counter-entry from completing, which preserves your positional advantage in the Ashi Garami hierarchy. If prevention fails, your secondary goal is ensuring you arrive in the resulting bilateral exchange with superior inside space control and positional hierarchy. Recognition of the counter-entanglement attempt is critical because the response differs fundamentally from defending against a standard escape: against an escape you chase and re-hook, but against a counter-entanglement you must protect your own far leg while maintaining your original control.
 
-**Opponent's Starting Position**: [[Ashi Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami]] (Top)
 
 </section>
 
@@ -176,28 +176,28 @@ As the defender against this transition, you are the bottom player who has estab
 ### 1. Accelerate advancement to Saddle or Cross Ashi before counter-entanglement completes
 
 - **When to use**: When you recognize the counter-entry attempt early and still have time to advance your own position before their free leg threads into place
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You arrive at a dominant entanglement position where their counter-thread is neutralized by your superior inside space and heel exposure
 - **Risk**: If your advancement fails, you may end up in bilateral entanglement from an overextended position
 
 ### 2. Knee shield block on opponent's free leg to prevent threading
 
 - **When to use**: When opponent begins driving forward with their free leg targeting the space between your legs or around your far hip
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Opponent's threading attempt is physically blocked, preserving your unilateral Ashi Garami control and forcing them back to escape-based defense
 - **Risk**: Redirecting your leg to block may weaken your primary entanglement hooks on their trapped leg
 
 ### 3. Hip escape away to create distance and deny threading range
 
 - **When to use**: When opponent collapses distance and drives weight onto your midsection, compressing your space and bringing their free leg within counter-entanglement range
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Distance creation pulls their free leg out of threading range and forces them to rebuild their approach, buying time for your own advancement
 - **Risk**: Excessive hip escaping may weaken your own connection points and allow the opponent to extract their trapped leg entirely
 
 ### 4. Commit to immediate heel hook finish during counter-entry attempt
 
 - **When to use**: When opponent commits their hips forward and focuses on threading rather than heel protection, exposing their trapped leg's heel during the transition
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Submission finish before bilateral entanglement establishes, punishing the counter-entry attempt with an accelerated attack
 - **Risk**: Rushing the heel hook from suboptimal position may result in a sloppy grip that opponent can strip, and you lose advancement momentum
 
@@ -209,11 +209,11 @@ As the defender against this transition, you are the bottom player who has estab
 
 ## Best-Case Outcomes for Defender
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Advance your entanglement hierarchy to Inside Ashi or deeper before the opponent can complete their counter-thread. Use their forward driving motion against them by re-pummeling your inside hook deeper as their weight shifts forward, then transition to Cross Ashi or Saddle before the bilateral exchange can equalize.
 
-### → [[Ashi Garami]]
+### → [[Positions/Ashi Garami]]
 
 Block the counter-entanglement attempt using knee shield positioning or hip escape distance creation, then maintain your existing unilateral Ashi Garami control. Their failed counter-entry attempt often disrupts their base, creating an advancement window for your own position.
 

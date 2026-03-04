@@ -154,7 +154,7 @@ description: "How to defend the Spider Guard to Omoplata in BJJ. Recognition cue
 
 Defending the Spider Guard to Omoplata requires a layered defensive approach that begins well before the opponent initiates the leg swing. As the top player facing spider guard, your primary defense is postural: maintaining strong upright posture with a wide base prevents the conditions that make the omoplata entry possible. The best defense is prevention through systematic grip breaking and posture management. However, when the opponent successfully initiates the omoplata entry, you must recognize the attack immediately by its telltale cues and execute the appropriate counter based on the phase of the attack. Early-phase defense focuses on arm withdrawal and posture recovery. Mid-phase defense involves stacking or stepping around. Late-phase defense after the omoplata is partially established requires the forward roll escape or posture-up extraction. Understanding the timing windows for each defensive option is critical because the wrong defense at the wrong moment can accelerate your opponent's attack rather than stop it.
 
-**Opponent's Starting Position**: [[Spider Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the Spider Guard to Omoplata requires a layered defensive approach tha
 ### 1. Withdraw the targeted arm by bending the elbow and pulling it tight to your body while stepping back to create distance
 
 - **When to use**: Early phase - when you recognize the opponent removing one foot and angling their hips but before they have initiated the leg swing
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: You deny the omoplata entry entirely and return to standard spider guard passing position with your arm safe and posture intact
 - **Risk**: If you withdraw too late, the opponent may already have enough angle to catch your arm even as you retract, or they transition to triangle since your defensive movement brings your head forward
 
 ### 2. Stack by driving your weight forward and stepping your far leg around their body to pass, using your shoulder to pin their hips to the mat
 
 - **When to use**: Mid-phase - when their leg is swinging over your shoulder but before they have sat up and established chest-to-back contact
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: You flatten them on their back using your bodyweight, neutralizing both the omoplata and creating a guard passing opportunity as their legs are compromised
 - **Risk**: If you stack too slowly, the opponent completes the sit-up and your forward pressure actually assists their omoplata control. Stacking also exposes you to triangle if they adjust their bottom leg
 
 ### 3. Execute a forward roll through the omoplata by posting your free hand and rolling over your shoulder in the direction of the trapped arm
 
 - **When to use**: Late phase - when the opponent has established omoplata control with their leg across your back and is beginning to apply finishing pressure
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: You escape the shoulder lock entirely and end up in a scramble position where you can recover to top position or at minimum reset to neutral standing
 - **Risk**: If the opponent controls your hips with their bottom leg and belt grip, the roll is blocked and you remain trapped with their control tightened from your failed escape attempt
 
 ### 4. Posture up by driving your forehead into the mat and walking your knees backward to straighten your spine, then extract the arm by circling it downward
 
 - **When to use**: When caught in omoplata control but the opponent has not yet secured hip control with their bottom leg or belt grip
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: You extract your arm from the omoplata configuration and can re-establish your base in the opponent's spider guard
 - **Risk**: Posturing up against a secured omoplata exposes you to the omoplata sweep, as the opponent can use your upward momentum to flip you forward into a reversal
 
@@ -226,11 +226,11 @@ Defending the Spider Guard to Omoplata requires a layered defensive approach tha
 
 ## Best-Case Outcomes for Defender
 
-### → [[Spider Guard]]
+### → [[Positions/Spider Guard]]
 
 Withdraw your arm early when you recognize the foot removal and hip angle cues. Bend your elbow, pull tight to your torso, and step back to reset distance. Re-establish your passing posture and resume grip breaking to pass the guard.
 
-### → [[Spider Guard]]
+### → [[Positions/Spider Guard]]
 
 If caught mid-entry, stack aggressively by driving your shoulder into their hips and stepping around their body. If caught late, execute the forward roll by posting your free hand and rolling through. Both escapes can result in you achieving a passing position or at minimum resetting to the spider guard top engagement.
 

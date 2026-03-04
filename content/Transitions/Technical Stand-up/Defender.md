@@ -158,7 +158,7 @@ Effective defense begins with recognizing the early setup indicators: opponent s
 
 The most sophisticated defensive approach combines grip maintenance to prevent the stand-up initiation with reactive pressure timing to capitalize on the movement's vulnerable phases. Rather than passively allowing your opponent to establish their posting hand and lead leg barrier, proactive defenders maintain constant engagement through collar, sleeve, or pants grips that deny the space needed for the technical stand-up setup. When the stand-up is initiated despite your grips, targeted attacks on the posting arm or lead leg convert the opponent's escape attempt into a guard passing opportunity.
 
-**Opponent's Starting Position**: [[Seated Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Seated Guard]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ The most sophisticated defensive approach combines grip maintenance to prevent t
 ### 1. Rush forward with low chest pressure during hip elevation phase to collapse the posting arm and flatten opponent backward
 
 - **When to use**: When you see opponent's hips begin to lift off the mat but trail leg has not yet swung through — the 1-2 second window where they are committed but structurally incomplete
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Opponent is driven flat to their back with you in dominant top position, typically establishing Headquarters or beginning a guard pass sequence
 - **Risk**: If timed too late, opponent completes the stand-up and you overcommit forward into a potential snap-down or single leg counter
 
 ### 2. Grab and control the posting arm with a two-on-one grip to remove the primary structural support of the tripod base
 
 - **When to use**: When opponent places their posting hand on the mat before initiating hip elevation — the earlier you control the arm, the more completely you shut down the stand-up attempt
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: Opponent cannot elevate hips and collapses back to seated position, and you maintain arm control that can transition to arm drag passing or Kimura grip sequences
 - **Risk**: If opponent pulls arm free quickly, you may have abandoned your other grips to secure the two-on-one, leaving you momentarily without control
 
 ### 3. Control opponent's lead leg at the knee or ankle to remove the barrier and immediately enter a leg drag or toreando pass
 
 - **When to use**: When opponent establishes the lead leg barrier with foot flat and knee up but has not yet begun hip elevation — controlling the barrier leg before it becomes weight-bearing
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Opponent loses the lead leg barrier and you establish leg control that converts directly into a passing sequence with their primary defensive tool removed
 - **Risk**: Reaching for the lead leg while standing can lower your posture and expose you to a collar drag or arm drag if opponent reads the attempt
 
 ### 4. Maintain constant collar and sleeve grips to deny the space and grip freedom needed for stand-up initiation
 
 - **When to use**: Proactively before opponent begins the technical stand-up — sustained grip pressure prevents them from ever establishing the posting hand position
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: Opponent remains seated and unable to initiate the stand-up, giving you time to advance your passing strategy from a controlled position
 - **Risk**: Over-focusing on grip maintenance can make you static and vulnerable to sweeps or guard entries if opponent redirects to an alternative attack
 
@@ -229,11 +229,11 @@ The most sophisticated defensive approach combines grip maintenance to prevent t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Seated Guard]]
+### → [[Positions/Seated Guard]]
 
 Maintain controlling grips on collar, sleeve, or pants throughout the stand-up attempt to prevent opponent from establishing the posting hand. When their grip break fails, immediately advance your passing position while they are still seated and have expended energy on the failed attempt. The key is denying space proactively rather than reacting to the stand-up once it begins.
 
-### → [[Headquarters Position]]
+### → [[Positions/Headquarters Position]]
 
 Time forward pressure to coincide with the hip elevation phase, driving into opponent with low chest pressure to collapse the posting arm and flatten them backward. As they fall back, immediately secure control of one leg to establish Headquarters Position. This converts their escape attempt into a guard passing opportunity by capitalizing on the structural vulnerability of the mid-transition tripod.
 

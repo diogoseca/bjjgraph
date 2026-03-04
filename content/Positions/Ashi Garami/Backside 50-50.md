@@ -93,27 +93,27 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 ### Available Transitions
 
 
-- **[[Heel Hook]]** (6% of attempts)
+- **[[Transitions/Heel Hook]]** (6% of attempts)
 
-- **[[Outside Heel Hook]]** (5% of attempts)
+- **[[Transitions/Outside Heel Hook]]** (5% of attempts)
 
-- **[[Straight Ankle Lock Entry]]** (4% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry]]** (4% of attempts)
 
-- **[[Standing up in Base]]** (6% of attempts)
+- **[[Transitions/Standing up in Base]]** (6% of attempts)
 
-- **[[Ashi Garami Escape]]** (44% of attempts)
+- **[[Transitions/Ashi Garami Escape]]** (44% of attempts)
 
-- **[[Counter-entangle to 50-50 Guard]]** (11% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard]]** (11% of attempts)
 
-- **[[Hip Escape to Guard]]** (5% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (5% of attempts)
 
-- **[[Rolling Back Take]]** (7% of attempts)
+- **[[Transitions/Rolling Back Take]]** (7% of attempts)
 
-- **[[Counter heel hook]]** (6% of attempts)
+- **[[Transitions/Counter heel hook]]** (6% of attempts)
 
-- **[[Angle Change Escape]]** (4% of attempts)
+- **[[Transitions/Angle Change Escape]]** (4% of attempts)
 
-- **[[Heel Hook from Backside 50-50]]** (2% of attempts)
+- **[[Transitions/Heel Hook from Backside 50-50]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -174,29 +174,29 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 ### Available Transitions
 
 
-- **[[Heel Hook]]** (18% of attempts)
+- **[[Transitions/Heel Hook]]** (18% of attempts)
 
-- **[[Outside Heel Hook]]** (10% of attempts)
+- **[[Transitions/Outside Heel Hook]]** (10% of attempts)
 
-- **[[Toe Hold]]** (10% of attempts)
+- **[[Transitions/Toe Hold]]** (10% of attempts)
 
-- **[[Straight Ankle Lock Entry]]** (5% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry]]** (5% of attempts)
 
-- **[[Saddle Entry from Top]]** (12% of attempts)
+- **[[Transitions/Saddle Entry from Top]]** (12% of attempts)
 
-- **[[Kneebar]]** (7% of attempts)
+- **[[Transitions/Kneebar]]** (7% of attempts)
 
-- **[[50-50 Pass]]** (6% of attempts)
+- **[[Transitions/50-50 Pass]]** (6% of attempts)
 
-- **[[Back Take from 50-50]]** (16% of attempts)
+- **[[Transitions/Back Take from 50-50]]** (16% of attempts)
 
-- **[[Calf Slicer]]** (4% of attempts)
+- **[[Transitions/Calf Slicer]]** (4% of attempts)
 
-- **[[Inside Ashi-Garami to Honey Hole]]** (6% of attempts)
+- **[[Transitions/Inside Ashi-Garami to Honey Hole]]** (6% of attempts)
 
-- **[[Counter heel hook]]** (4% of attempts)
+- **[[Transitions/Counter heel hook]]** (4% of attempts)
 
-- **[[Outside Heel Hook from Backside 50-50]]** (2% of attempts)
+- **[[Submissions/Outside Heel Hook from Backside 50-50]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -235,25 +235,25 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 ## Related Positions
 
 
-- **[[50-50 Guard]]** - Standard face-to-face configuration - precursor position before backside angle establishment
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Standard face-to-face configuration - precursor position before backside angle establishment
 
-- **[[Saddle]]** - Common transition target from top position - enhanced leg control configuration
+- **[[Positions/Ashi Garami/Saddle]]** - Common transition target from top position - enhanced leg control configuration
 
-- **[[Inside Sankaku]]** - Alternative leg entanglement accessible through proper transitional mechanics
+- **[[Positions/Inside Sankaku]]** - Alternative leg entanglement accessible through proper transitional mechanics
 
-- **[[Back Control]]** - Major advancement opportunity from top position when opponent defends legs well
+- **[[Positions/Back Control]]** - Major advancement opportunity from top position when opponent defends legs well
 
-- **[[Inside Ashi-Garami]]** - Related leg entanglement position with single leg control mechanics
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Related leg entanglement position with single leg control mechanics
 
-- **[[Outside Ashi-Garami]]** - Alternative ashi variation accessible through rotational transitions
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Alternative ashi variation accessible through rotational transitions
 
-- **[[Honey Hole]]** - Advanced leg entanglement position sharing similar control principles
+- **[[Positions/Ashi Garami/Honey Hole]]** - Advanced leg entanglement position sharing similar control principles
 
-- **[[X-Guard]]** - Transitional position accessible when extracting from leg entanglement
+- **[[Positions/X-Guard]]** - Transitional position accessible when extracting from leg entanglement
 
-- **[[Single Leg X-Guard]]** - Alternative leg control position reachable through proper hip movement
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Alternative leg control position reachable through proper hip movement
 
-- **[[Turtle]]** - Defensive position bottom player may adopt when escaping leg entanglement
+- **[[Positions/Turtle]]** - Defensive position bottom player may adopt when escaping leg entanglement
 
 
 </section>

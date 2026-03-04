@@ -182,7 +182,7 @@ description: "Execute the standing guillotine from clinch in BJJ. Step-by-step g
 
 Attacking with the standing guillotine from clinch requires understanding the precise interplay between grip depth, hip positioning, and directional pressure that produces the tap while standing. Unlike ground-based guillotines where you can use guard control and gravity to consolidate the choke, the standing version demands that you create all finishing pressure through your arm mechanics and hip drive alone. The attacker must secure a deep grip under the chin during the narrow window when the opponent's head drops in the clinch, then rapidly close all space and apply a shearing upward force across the carotid arteries. The standing position offers the advantage of mobility—you can adjust angles and follow the defender's movement—but requires constant awareness of your own base and balance. The best practitioners treat the standing guillotine as the first stage of a two-part system: finish standing if possible, pull guard to guillotine control if the standing finish stalls, creating a submission sequence that is extremely difficult to survive once the initial grip is established.
 
-**From Position**: [[Clinch]] ()
+**From Position**: [[Positions/Clinch]] ()
 
 
 </section>
@@ -236,9 +236,9 @@ Attacking with the standing guillotine from clinch requires understanding the pr
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Guillotine Control]] | 20% |
-| Failure | [[Clinch]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Guillotine Control]] | 20% |
+| Failure | [[Positions/Clinch]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -247,10 +247,10 @@ Attacking with the standing guillotine from clinch requires understanding the pr
 
 ## Opponent Defenses
 
-- **Opponent postures up forcefully to create distance and strip the grip by driving their head upward and straightening their spine** (Effectiveness: High) - Your Response: Follow their posture by stepping forward and maintaining chest-to-head contact. If they create significant separation, immediately switch to pulling guard to guillotine control where gravity assists. Alternatively, if the grip breaks, transition to a snap down and re-establish front headlock control. → Leads to [[Clinch]]
-- **Opponent drives forward aggressively, attempting to run through the choke and take the attacker down to pass to side control** (Effectiveness: Medium) - Your Response: Sprawl your hips back to absorb the drive while maintaining the guillotine grip. If the forward pressure is too strong to resist standing, sit to guard and close your legs around their waist, converting to a ground guillotine finish from closed guard or butterfly guard. The forward drive actually tightens the choke if you maintain proper hip position. → Leads to [[Side Control]]
-- **Opponent uses two-on-one grip fighting to peel the choking hand away from under their chin, creating space in the choke** (Effectiveness: High) - Your Response: Reinforce your grip by pulling elbows tighter to your ribs and increasing the curl of your wrists. If they successfully create space on one side, switch to an arm-in variation by trapping their peeling arm inside the choke. If the grip is truly compromised, disengage to a snap down or collar tie rather than holding a weak guillotine that wastes energy. → Leads to [[Clinch]]
-- **Opponent tucks chin tightly to chest and turns their head to the side, blocking the forearm from settling under the jawline** (Effectiveness: Medium) - Your Response: Drive your wrist deeper by using short pumping motions while increasing chest pressure on the crown of their head. The chin tuck protects momentarily but cannot be maintained indefinitely under increasing pressure. If the chin remains tucked, shift to a high-elbow grip where the elbow rises above their shoulder line, creating an angle that bypasses the chin defense by attacking from above rather than directly under. → Leads to [[Guillotine Control]]
+- **Opponent postures up forcefully to create distance and strip the grip by driving their head upward and straightening their spine** (Effectiveness: High) - Your Response: Follow their posture by stepping forward and maintaining chest-to-head contact. If they create significant separation, immediately switch to pulling guard to guillotine control where gravity assists. Alternatively, if the grip breaks, transition to a snap down and re-establish front headlock control. → Leads to [[Positions/Clinch]]
+- **Opponent drives forward aggressively, attempting to run through the choke and take the attacker down to pass to side control** (Effectiveness: Medium) - Your Response: Sprawl your hips back to absorb the drive while maintaining the guillotine grip. If the forward pressure is too strong to resist standing, sit to guard and close your legs around their waist, converting to a ground guillotine finish from closed guard or butterfly guard. The forward drive actually tightens the choke if you maintain proper hip position. → Leads to [[Positions/Side Control]]
+- **Opponent uses two-on-one grip fighting to peel the choking hand away from under their chin, creating space in the choke** (Effectiveness: High) - Your Response: Reinforce your grip by pulling elbows tighter to your ribs and increasing the curl of your wrists. If they successfully create space on one side, switch to an arm-in variation by trapping their peeling arm inside the choke. If the grip is truly compromised, disengage to a snap down or collar tie rather than holding a weak guillotine that wastes energy. → Leads to [[Positions/Clinch]]
+- **Opponent tucks chin tightly to chest and turns their head to the side, blocking the forearm from settling under the jawline** (Effectiveness: Medium) - Your Response: Drive your wrist deeper by using short pumping motions while increasing chest pressure on the crown of their head. The chin tuck protects momentarily but cannot be maintained indefinitely under increasing pressure. If the chin remains tucked, shift to a high-elbow grip where the elbow rises above their shoulder line, creating an angle that bypasses the chin defense by attacking from above rather than directly under. → Leads to [[Positions/Guillotine Control]]
 
 
 </section>

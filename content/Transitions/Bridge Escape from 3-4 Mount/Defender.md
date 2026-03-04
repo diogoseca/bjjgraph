@@ -146,7 +146,7 @@ description: "Defend against bridge escapes from 3-4 mount top. Recognition cues
 
 Defending the bridge escape from 3-4 mount top requires understanding the specific vulnerabilities your asymmetric base creates and preemptively addressing them before the bottom player can exploit the timing window. As the top player, your primary challenge is that the 3-4 configuration inherently creates a weaker base on the posted-leg side—a trade-off you accept for the transitional mobility and submission access the position provides. Effective defense combines early recognition of bridge setups, proactive weight distribution adjustments, and the ability to transition to more stable positions when the bridge threat becomes too significant to manage through base alone. Your goal is to either prevent the bridge entirely through pressure and arm control, or to flow with the bridge into a controlled transition that maintains your top position.
 
-**Opponent's Starting Position**: [[3-4 Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount/3-4 Mount]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the bridge escape from 3-4 mount top requires understanding the specif
 ### 1. Post free hand on the mat on the escape side as soon as you feel the bridge initiate
 
 - **When to use**: The instant you feel upward hip pressure or see the bridge beginning to develop from planted feet
-- **Targets**: [[3-4 Mount]]
+- **Targets**: [[Positions/Mount/3-4 Mount]]
 - **If successful**: The post creates a tripod base that absorbs the rotational force and stops the roll, allowing you to settle back into mount control
 - **Risk**: If your posting arm was trapped, this option is unavailable and you must use an alternative defense
 
 ### 2. Drive chest weight forward and sprawl hips to kill bridge momentum before it develops full power
 
 - **When to use**: When you recognize bridge setup cues such as foot planting and arm gripping before the explosive bridge phase begins
-- **Targets**: [[3-4 Mount]]
+- **Targets**: [[Positions/Mount/3-4 Mount]]
 - **If successful**: Forward pressure compresses the opponent's diaphragm and reduces their ability to generate upward hip force, smothering the escape before it starts
 - **Risk**: Excessive forward lean can expose you to elbow escapes on the lighter side if the bridge was a feint
 
 ### 3. Switch hips and consolidate to full mount by bringing the posted leg across the opponent's body during their turning motion
 
 - **When to use**: When the bridge partially succeeds and you feel your 3-4 mount base becoming unstable but can still maintain top position
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You advance from the asymmetric 3-4 mount to a more stable full mount position, eliminating the base weakness the opponent was targeting
 - **Risk**: During the hip switch there is a momentary transition period where the opponent may complete the reversal or recover half guard
 
 ### 4. Withdraw the targeted arm and immediately control the opponent's far hip to prevent the turning motion
 
 - **When to use**: When you feel the opponent beginning to secure a grip on your posting arm but before they have fully trapped it
-- **Targets**: [[3-4 Mount]]
+- **Targets**: [[Positions/Mount/3-4 Mount]]
 - **If successful**: Denying the arm trap removes the critical setup element for the bridge roll, forcing the opponent to restart their escape sequence
 - **Risk**: Withdrawing the arm momentarily reduces your control and may create an opening for a different escape
 
@@ -217,11 +217,11 @@ Defending the bridge escape from 3-4 mount top requires understanding the specif
 
 ## Best-Case Outcomes for Defender
 
-### → [[3-4 Mount]]
+### → [[Positions/Mount/3-4 Mount]]
 
 Maintain forward chest pressure with weight distributed through hips, keep the posted-side arm free for posting, and drive the mounted-side knee into the opponent's armpit as a wedge. When you feel the bridge initiate, immediately post your free hand to create a tripod base that absorbs the rotational force. After stopping the bridge, re-consolidate your mount control and begin attacking to prevent another attempt.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 If the bridge partially disrupts your 3-4 mount base, use the opponent's turning motion to switch your hips and bring the posted leg across their body, consolidating to full mount. This converts the opponent's escape energy into a position advancement for you. Immediately establish heavy pressure in full mount to prevent follow-up escape attempts.
 

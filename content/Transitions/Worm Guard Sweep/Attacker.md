@@ -180,7 +180,7 @@ description: "Execute the Worm Guard Sweep in BJJ. Complete offensive guide cove
 
 Executing the Worm Guard Sweep requires precise coordination of lapel tension, hip angle, and leg elevation to generate the rotational off-balancing force that topples the opponent into mount. The attacker must maintain constant tension on the lapel wrap while establishing a secondary grip that prevents the opponent from posting during the sweep. Success depends on reading the opponent's weight distribution and timing the elevation when their base is most compromised. The technique rewards patient setup over explosive athleticism because the mechanical advantage created by the lapel configuration does most of the work when properly positioned. The key insight is that you are not muscling the sweep through strength, but creating a structural trap where the opponent's own weight becomes the primary sweeping force once the fulcrum is properly loaded.
 
-**From Position**: [[Worm Guard]] (Bottom)
+**From Position**: [[Positions/Worm Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Worm Guard Sweep requires precise coordination of lapel tension, h
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Worm Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Worm Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Worm Guard Sweep requires precise coordination of lapel tension, h
 
 ## Opponent Counters
 
-- **Opponent widens base and sits hips back low, creating a stable platform that resists the elevation mechanics** (Effectiveness: Medium) - Your Response: When the opponent creates a wide low base, switch from direct elevation to the DLR hook variant by inserting a hook on their far leg. This removes their far leg stability and restores the sweep angle. Alternatively, threaten a collar drag to bring their weight forward, then immediately switch back to the sweep. → Leads to [[Worm Guard]]
-- **Opponent strips the lapel wrap using two-on-one grip break, removing the mechanical connection** (Effectiveness: High) - Your Response: If the lapel is being stripped, immediately transition to an alternative guard position before losing all control. Switch to De La Riva guard, spider guard, or attempt a collar drag while you still have some residual control. Re-establishing worm guard from scratch is possible but the opponent will be more vigilant against the sweep. → Leads to [[Open Guard]]
-- **Opponent backsteps their trapped leg to escape the lapel wrap before the sweep is loaded** (Effectiveness: Medium) - Your Response: Follow the backstep with your hips, maintaining lapel tension throughout their movement. If they successfully extract the leg, immediately transition to De La Riva or collar sleeve guard using whatever grips remain. If the backstep is incomplete, the changed angle may actually create a better sweep angle on the other side. → Leads to [[Open Guard]]
-- **Opponent drives forward aggressively with heavy smash pressure to flatten you before the sweep loads** (Effectiveness: Low) - Your Response: Forward pressure is actually advantageous for the overhead balloon sweep variation. Use their forward momentum by redirecting it over your head with the lapel tension and leg elevation. The harder they drive forward, the more momentum is available for the overhead arc. Switch from lateral sweep to overhead sweep when heavy forward pressure is detected. → Leads to [[Worm Guard]]
+- **Opponent widens base and sits hips back low, creating a stable platform that resists the elevation mechanics** (Effectiveness: Medium) - Your Response: When the opponent creates a wide low base, switch from direct elevation to the DLR hook variant by inserting a hook on their far leg. This removes their far leg stability and restores the sweep angle. Alternatively, threaten a collar drag to bring their weight forward, then immediately switch back to the sweep. → Leads to [[Positions/Worm Guard]]
+- **Opponent strips the lapel wrap using two-on-one grip break, removing the mechanical connection** (Effectiveness: High) - Your Response: If the lapel is being stripped, immediately transition to an alternative guard position before losing all control. Switch to De La Riva guard, spider guard, or attempt a collar drag while you still have some residual control. Re-establishing worm guard from scratch is possible but the opponent will be more vigilant against the sweep. → Leads to [[Positions/Open Guard]]
+- **Opponent backsteps their trapped leg to escape the lapel wrap before the sweep is loaded** (Effectiveness: Medium) - Your Response: Follow the backstep with your hips, maintaining lapel tension throughout their movement. If they successfully extract the leg, immediately transition to De La Riva or collar sleeve guard using whatever grips remain. If the backstep is incomplete, the changed angle may actually create a better sweep angle on the other side. → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward aggressively with heavy smash pressure to flatten you before the sweep loads** (Effectiveness: Low) - Your Response: Forward pressure is actually advantageous for the overhead balloon sweep variation. Use their forward momentum by redirecting it over your head with the lapel tension and leg elevation. The harder they drive forward, the more momentum is available for the overhead arc. Switch from lateral sweep to overhead sweep when heavy forward pressure is detected. → Leads to [[Positions/Worm Guard]]
 
 
 </section>

@@ -158,7 +158,7 @@ The most critical defensive priority is protecting the heel throughout the entir
 
 Strategically, the defender should recognize that remaining in Ushiro Ashi-Garami while the attacker works the adjustment is a losing proposition. The defensive plan must include an exit strategy: either accelerating the inversion to complete the escape to turtle, counter-entangling the attacker's legs to create a 50-50 exchange, or systematically clearing the leg entanglement to recover guard. Each option has different risk profiles depending on the attacker's grip progress and the depth of the remaining entanglement.
 
-**Opponent's Starting Position**: [[Ushiro Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Strategically, the defender should recognize that remaining in Ushiro Ashi-Garam
 ### 1. Boot defense with aggressive grip fighting: dorsiflex your foot hard while using both hands to strip the attacker's grip on your heel, preventing the figure-four from being established
 
 - **When to use**: Immediately when you feel the attacker's hand sliding toward your heel—this is the earliest and highest-percentage defensive window
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Attacker fails to establish heel hook grip and remains in Ushiro Ashi-Garami without submission threat, giving you time to work escape sequences
 - **Risk**: If your grip fighting fails, the attacker has already begun the heel capture and you've burned defensive energy without escaping the position
 
 ### 2. Accelerate inversion to turtle: commit fully to continuing your rotation, turning your back to the attacker and pulling your trapped leg free during the momentum of the roll
 
 - **When to use**: When the attacker's leg entanglement is shallow enough that committed rotation can clear your leg, typically before they squeeze their knees together tightly
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: You complete the escape to turtle position, clearing the leg entanglement entirely and resetting to a defensible position
 - **Risk**: If the attacker follows your rotation and maintains entanglement, you end up in a worse position with your back exposed for potential back take
 
 ### 3. Counter-entangle the attacker's legs: use your free leg to hook the attacker's near leg and establish your own inside ashi-garami position, creating a leg lock exchange
 
 - **When to use**: When the attacker releases outside leg pressure on your free leg during their grip transition, creating an opening for counter-attack
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You establish your own leg entanglement on the attacker, creating a mutual leg lock exchange where you have inside position on their leg
 - **Risk**: The attacker may finish the heel hook before you establish sufficient counter-control, resulting in submission during the exchange attempt
 
 ### 4. Straighten and retract trapped leg: explosively extend your knee to break the attacker's figure-four leg configuration while pulling your heel away from their hands
 
 - **When to use**: When the attacker's figure-four leg control has loosened during the grip transition and there is space to straighten your leg
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: You break the leg entanglement and can recover to open guard or standing position
 - **Risk**: A straight leg is actually more vulnerable to heel hook finishing if the attacker maintains heel control—only attempt when their leg control is genuinely loose
 
@@ -228,11 +228,11 @@ Strategically, the defender should recognize that remaining in Ushiro Ashi-Garam
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ushiro Ashi-Garami]]
+### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Deny the heel hook grip by combining boot defense with aggressive wrist fighting, then work systematic leg extraction or accelerate inversion to turtle. The key is preventing the attacker from establishing the figure-four grip while actively progressing your escape sequence rather than passively defending.
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Exploit the moment when the attacker releases outside leg pressure to reposition their hands. Thread your free leg inside the attacker's near leg to establish your own ashi-garami position. This converts a purely defensive situation into a leg lock exchange where you have offensive options.
 

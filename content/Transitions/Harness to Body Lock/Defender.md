@@ -154,7 +154,7 @@ description: "How to defend the Harness to Body Lock transition in BJJ. Grip fig
 
 Defending the Transition to Body Lock requires recognizing the moment your opponent abandons hook fighting in favor of following your standing escape with a grip conversion to the waist. This is a critical defensive window because if you allow the body lock to settle at your waist with full chest connection, you face immediate mat return and throwing threats that are arguably worse than the original back control. Your defensive priority shifts from escaping back control to preventing the grip from reaching your waist, creating separation during the transition, or completing your stand-up before the body lock can be established. The transition phase where your opponent's grip is sliding downward represents their moment of weakest control and your best opportunity to escape.
 
-**Opponent's Starting Position**: [[Harness]] (Top)
+**Opponent's Starting Position**: [[Positions/Harness]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the Transition to Body Lock requires recognizing the moment your oppon
 ### 1. Intercept the grip slide by grabbing opponent's wrists and preventing the lock from reaching waist level
 
 - **When to use**: The moment you feel the opponent's grip begin to slide downward from your upper chest, before the lock settles at your waist
-- **Targets**: [[Harness]]
+- **Targets**: [[Positions/Harness]]
 - **If successful**: Opponent's grip is stuck in a weak mid-torso position with no effective control, allowing you to peel the grip open and escape to standing
 - **Risk**: If unsuccessful, you delay the body lock by only a second or two but have committed both hands to grip fighting rather than base creation
 
 ### 2. Explosive forward hip escape to break chest connection during the transition
 
 - **When to use**: When opponent's grip is in transit between chest and waist, creating a brief window where their control is weakest
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Chest-to-back connection breaks and opponent cannot complete the body lock, allowing you to turn and face them in neutral clinch
 - **Risk**: If the hip escape is not explosive enough, opponent follows your movement and establishes the body lock with even more forward momentum
 
 ### 3. Complete the stand-up rapidly and establish wide base before body lock pressure arrives
 
 - **When to use**: When you have already begun standing and can reach full upright posture with wide base before the opponent's hip pressure breaks your posture
-- **Targets**: [[Body Lock]]
+- **Targets**: [[Positions/Body Lock]]
 - **If successful**: You accept the body lock but from a strong defensive base, giving you time to execute grip breaks and frame creation from a stable position
 - **Risk**: If your base is not wide enough, the opponent's immediate hip pressure breaks your posture and executes a mat return
 
 ### 4. Controlled sit to guard to deny the standing body lock entirely
 
 - **When to use**: When the body lock has been established at your waist and your standing escape options are exhausted within the first two to three seconds
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You control the descent and establish closed guard or half guard rather than being thrown or mat-returned into a worse position
 - **Risk**: You concede guard position, and the opponent may use their body lock to immediately begin a guard pass sequence
 
@@ -226,11 +226,11 @@ Defending the Transition to Body Lock requires recognizing the moment your oppon
 
 ## Best-Case Outcomes for Defender
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Break the chest-to-back connection during the grip transition window when control is weakest, using explosive hip movement and frames to create space, then turn to face the opponent and establish neutral clinch
 
-### → [[Harness]]
+### → [[Positions/Harness]]
 
 Intercept the grip slide before it reaches the waist by grabbing the opponent's wrists, then peel the weakened grip open and extract yourself back to a neutral position while the opponent still has ineffective mid-torso grip
 

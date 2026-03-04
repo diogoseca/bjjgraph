@@ -164,7 +164,7 @@ The defensive window for the knee cut is narrow but well-defined. Your strongest
 
 Successful defense requires understanding the passer's sequential dependencies: they need grips, then combat base, then knee penetration, then shoulder pressure, then far leg clearance. Disrupting any step in this chain forces them to restart or adapt, and each adaptation creates new defensive opportunities. The most skilled defenders use the passer's commitment against them, timing sweeps and back takes to the moments when the passer's weight shifts forward during the cutting motion.
 
-**Opponent's Starting Position**: [[Open Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 
@@ -203,35 +203,35 @@ Successful defense requires understanding the passer's sequential dependencies: 
 ### 1. Insert knee shield by placing your shin across opponent's chest or hip before their knee cuts through
 
 - **When to use**: Early in the pass sequence when you recognize combat base and the initial forward drive. Must be established before their knee crosses your thigh line.
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Resets the pass attempt and returns you to an active open guard position with a strong defensive structure. From knee shield you can work sweeps or reguard.
 - **Risk**: If your knee shield is too high, opponent can smash it down. If too low, they can step over it. Requires proper angle and active grip fighting to maintain.
 
 ### 2. Frame on opponent's shoulder and hip with both arms to prevent chest-to-chest connection while shrimping hips away
 
 - **When to use**: When opponent has begun the knee cut but has not yet established full shoulder pressure. Your frames must get in before their chest drops onto you.
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Creates enough distance to recover feet on hips or re-establish a guard variation. The space generated allows you to insert hooks or regrip for guard retention.
 - **Risk**: Extended arms can be attacked with kimura or americana if frames collapse. If you frame without shrimping, the passer simply drives through your arms.
 
 ### 3. Underhook on the passing side and come up to dogfight position to threaten back take or sweep
 
 - **When to use**: When the passer's weight commits forward during the knee cut, creating an opportunity to get underneath them. Best when their collar grip is loose or you can beat it.
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You achieve the underhook and can come up to a dogfight position for back take or single leg, completely reversing the pass attempt and gaining top position.
 - **Risk**: If the passer has strong collar control, your sit-up attempt gets stuffed and you end up flattened with their crossface established. Requires explosive timing.
 
 ### 4. Catch half guard by locking your legs around their passing leg before the far leg clears
 
 - **When to use**: When the knee has already cut through your thigh line but the passer has not cleared your far leg past their hips. This is a late-stage defensive recovery.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to half guard bottom, which provides a structured defensive position with sweep and back take opportunities. While not ideal, it prevents the full pass to side control.
 - **Risk**: The passer may be prepared for this common response and immediately begin half guard passing sequences. You must quickly establish an underhook or knee shield after catching half guard.
 
 ### 5. Granby roll or inversion when passer overcommits forward pressure
 
 - **When to use**: When the passer drives extremely hard with shoulder pressure and their weight is far forward, creating a window to roll underneath them and recover guard from the opposite side.
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You spin underneath the pass and recover to open guard or even take the back if the passer does not adjust in time. Completely negates their pressure-based approach.
 - **Risk**: Requires significant flexibility and timing. If mistimed, you end up inverted with the passer on top in a worse position. Exposing your back during the inversion is also dangerous.
 
@@ -243,11 +243,11 @@ Successful defense requires understanding the passer's sequential dependencies: 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Insert knee shield early, frame on shoulder and hip, then shrimp your hips away to re-establish feet-on-hips distance. Strip their collar grip with a two-on-one break and push their knee back to reset the engagement. Focus on disrupting their grip sequence before the knee cut initiates.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Time the underhook entry to the passer's forward weight shift. As their chest drops and weight commits forward over their cutting knee, pummel for the underhook on the passing side and sit up explosively into dogfight. From dogfight, drive into a single leg or back take to achieve top position or sweep them completely.
 

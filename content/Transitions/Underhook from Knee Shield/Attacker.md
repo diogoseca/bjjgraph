@@ -180,7 +180,7 @@ description: "Master the attacking mechanics of the Underhook from Knee Shield. 
 
 As the attacker executing the Underhook from Knee Shield, your objective is to convert the defensive security of the knee shield into offensive momentum by establishing a deep underhook and elevating to the Dogfight position. This transition requires reading the opponent's weight distribution and grip commitments to identify the optimal window for removing your knee shield frame and swimming your near-side arm under their armpit. The entire movement must flow as a single coordinated action—removing the shield, swimming the underhook, and driving to your knees happen as one beat, not three. Hesitation at any point allows the top player to drive a crossface or whizzer that collapses the attempt and flattens you into a worse position than where you started.
 
-**From Position**: [[Knee Shield Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ As the attacker executing the Underhook from Knee Shield, your objective is to c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Dogfight Position]] | 55% |
-| Failure | [[Knee Shield Half Guard]] | 30% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Dogfight Position]] | 55% |
+| Failure | [[Positions/Half Guard/Knee Shield Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the Underhook from Knee Shield, your objective is to c
 
 ## Opponent Counters
 
-- **Crossface and flatten—opponent drives shoulder into jaw and applies heavy forward pressure during knee shield removal** (Effectiveness: High) - Your Response: If crossface arrives before underhook is established, abort immediately and re-establish knee shield frame. If crossface arrives after deep underhook, tuck chin toward underhook side and use forehead pressure against their shoulder to resist while completing the elevation to knees. → Leads to [[Flattened Half Guard]]
-- **Strong whizzer—opponent wraps arm over underhook and pulls elbow to their hip, preventing elevation to Dogfight** (Effectiveness: Medium) - Your Response: Do not fight the whizzer head-on. Either drop level to enter deep half guard using their whizzer pressure against them, or circle your hips away from the whizzer side to reduce its leverage while driving forward with your head position. → Leads to [[Knee Shield Half Guard]]
-- **Near-side arm pin—opponent controls your near arm at the wrist or elbow before you can swim, physically blocking the underhook path** (Effectiveness: Medium) - Your Response: Use your knee shield frame to push the opponent away and break the arm control through distance creation. Alternatively, threaten a sweep with the outside arm to force them to release the pin, then immediately swim for the underhook. → Leads to [[Knee Shield Half Guard]]
-- **Backstep pass—opponent reads the knee shield removal and immediately backsteps their trapped leg free to pass** (Effectiveness: Medium) - Your Response: Maintain your bottom leg hook actively throughout the transition. If you feel the leg extracting, immediately re-establish the knee shield or transition to open guard retention before committing further to the underhook attempt. → Leads to [[Flattened Half Guard]]
+- **Crossface and flatten—opponent drives shoulder into jaw and applies heavy forward pressure during knee shield removal** (Effectiveness: High) - Your Response: If crossface arrives before underhook is established, abort immediately and re-establish knee shield frame. If crossface arrives after deep underhook, tuck chin toward underhook side and use forehead pressure against their shoulder to resist while completing the elevation to knees. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Strong whizzer—opponent wraps arm over underhook and pulls elbow to their hip, preventing elevation to Dogfight** (Effectiveness: Medium) - Your Response: Do not fight the whizzer head-on. Either drop level to enter deep half guard using their whizzer pressure against them, or circle your hips away from the whizzer side to reduce its leverage while driving forward with your head position. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
+- **Near-side arm pin—opponent controls your near arm at the wrist or elbow before you can swim, physically blocking the underhook path** (Effectiveness: Medium) - Your Response: Use your knee shield frame to push the opponent away and break the arm control through distance creation. Alternatively, threaten a sweep with the outside arm to force them to release the pin, then immediately swim for the underhook. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
+- **Backstep pass—opponent reads the knee shield removal and immediately backsteps their trapped leg free to pass** (Effectiveness: Medium) - Your Response: Maintain your bottom leg hook actively throughout the transition. If you feel the leg extracting, immediately re-establish the knee shield or transition to open guard retention before committing further to the underhook attempt. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 
 
 </section>

@@ -190,7 +190,7 @@ Strategically, the Triangle from Back is a high-level chain attack that punishes
 
 The Triangle from Back serves as a critical branch in the back attack decision tree. When opponents develop strong rear naked choke defense, this option forces them to choose between defending the choke and exposing the triangle entry, creating the kind of offensive dilemma that elite back attackers rely on to finish matches.
 
-**From Position**: [[Harness]] (Top)
+**From Position**: [[Positions/Harness]] (Top)
 
 </section>
 
@@ -243,9 +243,9 @@ The Triangle from Back serves as a critical branch in the back attack decision t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Rear Triangle]] | 55% |
-| Failure | [[Harness]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Triangle Control/Rear Triangle]] | 55% |
+| Failure | [[Positions/Harness]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -254,10 +254,10 @@ The Triangle from Back serves as a critical branch in the back attack decision t
 
 ## Opponent Counters
 
-- **Opponent tucks chin and pulls their shoulder down to block the leg from threading over, closing the gap above the shoulder** (Effectiveness: High) - Your Response: Maintain choke pressure to keep them reacting with both hands low, then use your controlling arm to pry the shoulder open by pushing on their elbow or use a wrist-peel to create the gap → Leads to [[Harness]]
-- **Opponent strips the threading leg as it comes over the shoulder by grabbing the ankle or shin and pushing it away before the triangle locks** (Effectiveness: Medium) - Your Response: If the leg is intercepted, immediately re-attack the rear naked choke while the opponent has released their defensive grip to fight the leg. The choke-to-triangle-to-choke chain creates a constant dilemma → Leads to [[Harness]]
-- **Opponent turns into you during the transition when the hook is withdrawn, attempting to recover guard or escape to half guard** (Effectiveness: Medium) - Your Response: Use the remaining hook and your underhook control to prevent the turn. If they partially turn, adapt by transitioning to a front triangle or switch to an armbar setup using the exposed arm → Leads to [[Half Guard]]
-- **Opponent postures up explosively and stacks forward when they feel the leg coming over, attempting to create distance and prevent the lock** (Effectiveness: Low) - Your Response: Follow with your hips and maintain the chest-to-back connection. Their forward posture actually makes it easier to close the triangle once the leg is over since their head drops forward into the triangle gap → Leads to [[Harness]]
+- **Opponent tucks chin and pulls their shoulder down to block the leg from threading over, closing the gap above the shoulder** (Effectiveness: High) - Your Response: Maintain choke pressure to keep them reacting with both hands low, then use your controlling arm to pry the shoulder open by pushing on their elbow or use a wrist-peel to create the gap → Leads to [[Positions/Harness]]
+- **Opponent strips the threading leg as it comes over the shoulder by grabbing the ankle or shin and pushing it away before the triangle locks** (Effectiveness: Medium) - Your Response: If the leg is intercepted, immediately re-attack the rear naked choke while the opponent has released their defensive grip to fight the leg. The choke-to-triangle-to-choke chain creates a constant dilemma → Leads to [[Positions/Harness]]
+- **Opponent turns into you during the transition when the hook is withdrawn, attempting to recover guard or escape to half guard** (Effectiveness: Medium) - Your Response: Use the remaining hook and your underhook control to prevent the turn. If they partially turn, adapt by transitioning to a front triangle or switch to an armbar setup using the exposed arm → Leads to [[Positions/Half Guard]]
+- **Opponent postures up explosively and stacks forward when they feel the leg coming over, attempting to create distance and prevent the lock** (Effectiveness: Low) - Your Response: Follow with your hips and maintain the chest-to-back connection. Their forward posture actually makes it easier to close the triangle once the leg is over since their head drops forward into the triangle gap → Leads to [[Positions/Harness]]
 
 
 </section>

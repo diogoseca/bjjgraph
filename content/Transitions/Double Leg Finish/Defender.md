@@ -158,7 +158,7 @@ The most common defensive error is passivity - allowing the attacker to complete
 
 Advanced defenders develop the ability to counterattack during the finish phase itself. The attacker's commitment to the drive creates vulnerabilities - their head is exposed for guillotine and front headlock attacks, their posture is compromised, and their balance is forward-loaded. Capitalizing on these openings requires precise timing and the confidence to attack rather than purely defend during a moment of apparent positional disadvantage.
 
-**Opponent's Starting Position**: [[Clinch]] (Top)
+**Opponent's Starting Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ Advanced defenders develop the ability to counterattack during the finish phase 
 ### 1. Sprawl and drive hips back while cross-facing opponent's head away from your body
 
 - **When to use**: Early in the finish attempt before opponent has achieved full hip extension and before your weight has shifted significantly backward
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Opponent's driving angle is neutralized, their grip weakens, and you recover to a standing clinch with positional advantage or transition to front headlock control
 - **Risk**: If sprawl is too late or shallow, opponent maintains grip and drives through the sprawl, potentially finishing to a worse position than if you had pursued other defensive options
 
 ### 2. Secure guillotine choke grip around opponent's neck while their head is exposed during the drive
 
 - **When to use**: When opponent's head is positioned on the inside (between your arms) rather than tight to your hip, creating the neck exposure needed for the choke
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Opponent must abandon the takedown attempt to address the choke threat, or if they complete the takedown, you establish guillotine control from guard which is a strong offensive position
 - **Risk**: If the guillotine is not secured tightly before landing, opponent passes to side control and you have wasted defensive time on an ineffective choke attempt
 
 ### 3. Establish deep whizzer on one side while circling toward the whizzer to break opponent's angle and grip symmetry
 
 - **When to use**: When opponent has secured grip but has not yet achieved full hip extension, particularly effective when you can get the whizzer before their drive reaches full power
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: The whizzer disrupts opponent's structural alignment, breaks the symmetry of their drive, and creates opportunity to pummel back to neutral clinch or establish front headlock
 - **Risk**: A weak or shallow whizzer will not stop the drive and may compromise your ability to use that arm for other defensive options like framing or guard establishment
 
 ### 4. Accept the takedown but immediately pull guard by hooking legs around opponent's waist during the descent
 
 - **When to use**: When the takedown is clearly going to succeed and defensive options to prevent it have been exhausted, typically when opponent has full hip extension and your base is completely compromised
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You establish closed guard upon landing rather than conceding side control, maintaining a defensive position with submission and sweep threats rather than being pinned
 - **Risk**: Guard pull timing must be precise - too early and opponent adjusts to pass, too late and they have already established side control before you can close your guard
 
@@ -227,11 +227,11 @@ Advanced defenders develop the ability to counterattack during the finish phase 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Achieve this by sprawling aggressively early in the finish attempt while cross-facing the opponent's head, or by establishing a deep whizzer that breaks their driving angle. Once their momentum is stopped, pummel to establish dominant grip position in the clinch. The key is addressing the finish attempt before the opponent achieves full hip extension - once they are driving at full power, returning to a dominant clinch position becomes significantly harder.
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 This counter outcome occurs when you successfully threaten a guillotine choke during the finish attempt, forcing the opponent to abandon or modify their takedown. Even if the guillotine does not finish, the threat alone can stall their drive and create a scramble where you end up in bottom clinch rather than being taken down cleanly. From bottom clinch you still have recovery options including re-establishing standing base or pulling guard on your own terms.
 

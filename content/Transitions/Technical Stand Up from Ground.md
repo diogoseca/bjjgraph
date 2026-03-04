@@ -21,7 +21,7 @@ Strategically, the technical stand up serves dual purposes in competition and se
 
 The effectiveness of this technique hinges on proper sequencing: creating distance through framing, establishing a stable posting base, generating momentum through the hip lift and kick-through, and finishing with immediate distance creation upon reaching standing. Equally important is recognizing when NOT to attempt a technical stand up. If the opponent has controlling grips, heavy top pressure, or tight proximity, forcing the stand up may expose you to takedowns or guard passes. The technique works best when preceded by successful frame creation and distance management, making it a natural complement to any guard retention system.
 
-**From Position**: [[Standing Guard]] (Bottom)
+**From Position**: [[Positions/Standing Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The effectiveness of this technique hinges on proper sequencing: creating distan
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Standing Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Standing Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,23 +191,23 @@ The Technical Stand Up from Ground serves as a critical bridge between the groun
 ## Related Techniques
 
 
-- [[Standing Position]] - Target position upon successful completion of the stand up
+- [[Positions/Standing Position]] - Target position upon successful completion of the stand up
 
-- [[Open Guard]] - Counter outcome position and common starting context for stand up attempts
+- [[Positions/Open Guard]] - Counter outcome position and common starting context for stand up attempts
 
-- [[Combat Base]] - Alternative upright defensive posture related to standing mechanics
+- [[Positions/Combat Base]] - Alternative upright defensive posture related to standing mechanics
 
-- [[Closed Guard]] - Alternative guard retention option when stand up is not viable
+- [[Positions/Closed Guard]] - Alternative guard retention option when stand up is not viable
 
-- [[Half Guard]] - Common guard position from which technical stand ups may be initiated
+- [[Positions/Half Guard]] - Common guard position from which technical stand ups may be initiated
 
-- [[Butterfly Guard]] - Guard variation that shares hip elevation mechanics with the stand up
+- [[Positions/Butterfly Guard]] - Guard variation that shares hip elevation mechanics with the stand up
 
-- [[Ankle Pick]] - Complementary standing technique available after successful stand up
+- [[Transitions/Ankle Pick]] - Complementary standing technique available after successful stand up
 
-- [[Arm Drag from Standing]] - Follow-up offensive option after reaching standing position
+- [[Transitions/Arm Drag from Standing]] - Follow-up offensive option after reaching standing position
 
-- [[Single Leg Entry]] - Common opponent counter-attack during stand up transition
+- [[Transitions/Single Leg Entry]] - Common opponent counter-attack during stand up transition
 
 
 </section>

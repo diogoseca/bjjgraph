@@ -21,7 +21,7 @@ The mechanical principle underlying this consolidation is the progressive transf
 
 Strategically, this pass should be executed when the opponent flattens out rather than turning away or attempting to sit up. If they turn away, the back take becomes the higher-percentage option. If they turn toward you aggressively, north-south or crucifix transitions may be more appropriate. The side control consolidation is optimal against opponents who accept the bottom position and focus on frame-based defense rather than dynamic escape attempts.
 
-**From Position**: [[Leg Drag Control]] (Top)
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this pass should be executed when the opponent flattens out rathe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -189,27 +189,27 @@ The Leg Drag Pass to Side Control is the primary consolidation pathway in the le
 ## Related Techniques
 
 
-- [[Leg Drag Control]] - Starting position
+- [[Positions/Leg Drag Control]] - Starting position
 
-- [[Side Control]] - Target position
+- [[Positions/Side Control]] - Target position
 
-- [[Leg Drag to Back Take]] - Alternative when opponent turns away
+- [[Transitions/Leg Drag to Back Take]] - Alternative when opponent turns away
 
-- [[Leg Drag to Mount]] - Alternative consolidation path
+- [[Transitions/Leg Drag to Mount]] - Alternative consolidation path
 
-- [[Knee on Belly]] - Intermediate position option
+- [[Positions/Knee on Belly]] - Intermediate position option
 
-- [[Americana from Side Control]] - Follow-up submission
+- [[Submissions/Americana from Side Control]] - Follow-up submission
 
-- [[Kimura from Side Control]] - Follow-up submission
+- [[Submissions/Kimura from Side Control]] - Follow-up submission
 
-- [[Arm Triangle]] - Follow-up submission
+- [[Transitions/Arm Triangle]] - Follow-up submission
 
-- [[Leg Drag Counter to Half Guard]] - Opponent's primary counter
+- [[Transitions/Leg Drag Counter to Half Guard]] - Opponent's primary counter
 
-- [[Half Guard]] - Common escape position for opponent
+- [[Positions/Half Guard]] - Common escape position for opponent
 
-- [[De La Riva Guard]] - Common guard leading to leg drag entry
+- [[Positions/De La Riva Guard]] - Common guard leading to leg drag entry
 
 
 </section>

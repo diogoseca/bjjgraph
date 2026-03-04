@@ -146,7 +146,7 @@ description: "Prevent the Frame Escape from Shoulder of Justice by maintaining p
 
 As the defender against the Frame Escape, you are the top player maintaining Shoulder of Justice control and must prevent the bottom player from establishing effective frames, creating space, and recovering guard. Your objective is to recognize frame attempts early, counter them by adjusting pressure or attacking the framing arms, and capitalize on the bottom player's movement to advance to mount or set up submissions. The most effective defense combines relentless pressure maintenance with tactical awareness of when the bottom player's escape attempts create offensive opportunities for positional advancement or kimura attacks.
 
-**Opponent's Starting Position**: [[Shoulder of Justice]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Shoulder of Justice]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the Frame Escape, you are the top player maintaining Sho
 ### 1. Collapse frames by driving body weight through shoulder and re-settling hips heavier onto opponent's hip line
 
 - **When to use**: Immediately upon recognizing forearm frame positioning against your hip before the opponent can establish structural alignment
-- **Targets**: [[Shoulder of Justice]]
+- **Targets**: [[Positions/Shoulder of Justice]]
 - **If successful**: Bottom player's frames collapse and they return to fully controlled position under maximum pressure
 - **Risk**: If you overcommit weight forward while re-settling, opponent may use your momentum for a bridge and frame combination
 
 ### 2. Step over to mount when opponent creates space with hip escape
 
 - **When to use**: When the bottom player's hip escape creates separation between your bodies, step your near leg over their body before they can insert a knee shield
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You advance to full mount, significantly worsening the opponent's defensive situation
 - **Risk**: If opponent inserts knee shield before your leg clears, you end up in half guard top rather than mount
 
 ### 3. Attack kimura on the near arm when any separation occurs between their elbow and ribs during framing
 
 - **When to use**: When the bottom player's near arm creates even slight separation from their body during frame attempts, immediately grip the wrist and begin kimura mechanics
-- **Targets**: [[Shoulder of Justice]]
+- **Targets**: [[Positions/Shoulder of Justice]]
 - **If successful**: Opponent must abandon escape to defend the kimura, returning to pure defensive mode under your control
 - **Risk**: Reaching for the kimura grip momentarily reduces your shoulder pressure, creating a brief escape window
 
 ### 4. Transition to north-south when opponent shrimps toward your head
 
 - **When to use**: When the bottom player's escape direction moves them toward your head rather than away, follow their movement and spin to north-south control
-- **Targets**: [[Shoulder of Justice]]
+- **Targets**: [[Positions/Shoulder of Justice]]
 - **If successful**: You establish north-south control which eliminates the frame escape pathway entirely and opens new submission threats
 - **Risk**: During the transition, opponent may recover guard if you lose chest-to-chest pressure during the spin
 
@@ -217,11 +217,11 @@ As the defender against the Frame Escape, you are the top player maintaining Sho
 
 ## Best-Case Outcomes for Defender
 
-### → [[Shoulder of Justice]]
+### → [[Positions/Shoulder of Justice]]
 
 Recognize frame attempts early and collapse them with increased body weight pressure before the opponent can establish structural alignment. Keep hips permanently connected to their hip line and control the near arm proactively to eliminate framing opportunities.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the opponent commits to a hip escape and creates separation, immediately step your near leg over their body to advance to mount. Time the step-over to coincide with their maximum hip escape distance when their knee shield is not yet established.
 

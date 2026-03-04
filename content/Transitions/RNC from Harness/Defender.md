@@ -146,7 +146,7 @@ description: "Complete defensive guide for surviving the Rear Naked Choke from H
 
 Defending the Rear Naked Choke from Harness requires immediate threat recognition and systematic hand fighting to prevent the choking arm from crossing the neck. The defender faces the most dangerous submission in Brazilian Jiu-Jitsu from the most disadvantageous positional configuration, where the attacker has both structural control through the seatbelt grip and direct proximity to the neck. Success depends entirely on addressing the choke threat before it fully materializes through proactive two-on-one grip fighting on the choking arm, consistent chin protection and shoulder shrugging, and precisely timed escape attempts during the attacker's grip transition windows when the seatbelt clasp is temporarily broken.
 
-**Opponent's Starting Position**: [[Harness]] (Top)
+**Opponent's Starting Position**: [[Positions/Harness]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Rear Naked Choke from Harness requires immediate threat recognitio
 ### 1. Establish two-on-one grip on the choking arm wrist and forearm, pulling it below chin level toward your chest
 
 - **When to use**: Immediately when the choking arm begins to slide across the neck or as a preemptive defense when you feel the seatbelt shift
-- **Targets**: [[Harness]]
+- **Targets**: [[Positions/Harness]]
 - **If successful**: Prevents the choke from being completed and returns the exchange to a grip-fighting battle from harness position
 - **Risk**: Both hands committed to choking arm defense leaves hooks undefended and may allow deeper positional control
 
 ### 2. Chin tuck with shoulder shrug creating a physical barrier against the forearm slide
 
 - **When to use**: During the early stages of the arm slide before the figure-four grip is locked behind the head
-- **Targets**: [[Harness]]
+- **Targets**: [[Positions/Harness]]
 - **If successful**: Creates a physical barrier that prevents the forearm from reaching the proper choking position across both carotid arteries
 - **Risk**: Only delays the choke rather than resolving the positional problem. Attacker can use jaw pressure to force chin up.
 
 ### 3. Hip escape and turn toward underhook side during the attacker's grip transition window
 
 - **When to use**: During the moment when the attacker releases the seatbelt clasp to advance the choking arm, creating a brief gap in two-handed control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Escapes back control entirely by turning to face the attacker and establishing half guard position
 - **Risk**: If timed poorly, the turn exposes the neck during rotation and may accelerate the choke completion
 
 ### 4. Peel the figure-four grip by grabbing the choking wrist and rotating body toward the choking arm side
 
 - **When to use**: After the attacker has locked the figure-four configuration but before full squeezing pressure is applied
-- **Targets**: [[Harness]]
+- **Targets**: [[Positions/Harness]]
 - **If successful**: Breaks the choking configuration and forces the attacker to re-establish the entire grip sequence from the seatbelt position
 - **Risk**: Requires significant grip strength and precise timing. Failure to break the grip means the choke is fully locked with both your hands trapped.
 
@@ -217,11 +217,11 @@ Defending the Rear Naked Choke from Harness requires immediate threat recognitio
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time the hip escape during the attacker's grip transition when the seatbelt clasp is temporarily broken. Turn toward the underhook side while using both hands to control the choking arm, sliding hips away from the hooks and completing the full turn to establish half guard with the attacker's leg trapped between yours.
 
-### → [[Harness]]
+### → [[Positions/Harness]]
 
 Successfully defend the choke by maintaining persistent two-on-one grip control on the choking arm, preventing it from ever crossing the centerline of the neck. While remaining in harness bottom is not ideal, neutralizing the immediate submission threat gives you time to work systematic positional escapes from the harness position.
 

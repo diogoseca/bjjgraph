@@ -154,7 +154,7 @@ description: "Defend against the Piranha to Worm Guard transition in BJJ. Learn 
 
 As the defender against the Piranha to Worm Guard transition, your objective is to prevent the bottom player from upgrading their guard control from Piranha to the more threatening Worm Guard configuration. The transition creates a brief but exploitable vulnerability window when the attacker must partially release their Piranha Guard tension to re-route the lapel around your lead leg. Recognizing this transition attempt early and responding decisively during the re-routing phase is critical—once the worm wrap is fully established around your lead leg, your passing options become severely limited and the bottom player gains access to powerful sweep chains. Your defensive strategy should target the transition moment itself, using grip strips, leg positioning, and forward pressure to deny the worm guard entry while the attacker's control is temporarily weakened. The ideal defensive outcome is stripping the lapel entirely during the transition, but even forcing the attacker to abort and return to Piranha Guard is tactically valuable since it prevents them from reaching the more dangerous position.
 
-**Opponent's Starting Position**: [[Piranha Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Piranha Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the Piranha to Worm Guard transition, your objective is 
 ### 1. Strip lapel grip during the hand transfer phase when the attacker reduces bilateral tension to single-hand control
 
 - **When to use**: The moment you feel lapel tension decrease or shift to one-handed control, indicating the attacker is beginning the re-routing sequence
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The attacker loses all lapel control and falls back to basic open guard without the Piranha or Worm configuration, giving you a clean passing opportunity
 - **Risk**: If mistimed, you may pull your own collar tighter into their remaining grip, strengthening their Piranha Guard position
 
 ### 2. Step your lead leg backward and circle it outward to prevent the DLR hook from setting and deny the lapel feed path
 
 - **When to use**: When you recognize the hip angle shift toward your lead leg before the DLR hook is fully established
-- **Targets**: [[Piranha Guard]]
+- **Targets**: [[Positions/Piranha Guard]]
 - **If successful**: The transition is blocked because the attacker cannot anchor their DLR hook, forcing them to remain in Piranha Guard or attempt a different guard evolution
 - **Risk**: Stepping back may create the angle the attacker needs for a collar drag or berimbolo entry from Piranha Guard
 
 ### 3. Drive forward with pressure into the attacker's guard during the transition window to collapse their structure while hands are occupied
 
 - **When to use**: When you detect the lapel tension shift and see the attacker's hands working the re-routing rather than maintaining defensive frames
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Your forward pressure collapses the partially-transitioned guard, stripping the lapel configuration and establishing a dominant passing position
 - **Risk**: If the attacker reads the pressure early, they can redirect your forward momentum into a sweep using the existing Piranha Guard tension
 
 ### 4. Grip the tail of the lapel material before the attacker can feed it under your thigh, preventing the worm wrap from completing
 
 - **When to use**: When you see or feel the attacker's hand pulling lapel material toward the underside of your lead leg during the feed phase
-- **Targets**: [[Piranha Guard]]
+- **Targets**: [[Positions/Piranha Guard]]
 - **If successful**: The worm wrap cannot complete because you control the lapel tail, forcing the attacker to either re-consolidate Piranha Guard or engage in a grip fight
 - **Risk**: Reaching for the lapel tail may compromise your base if you lean too far forward, creating a sweep opportunity
 
@@ -225,11 +225,11 @@ As the defender against the Piranha to Worm Guard transition, your objective is 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip the lapel completely during the re-routing phase by timing your grip break to the moment when the attacker has single-hand control. Use a two-on-one grip break on their remaining control hand while simultaneously pulling your collar material free. Once stripped, immediately establish passing grips before they can re-feed the lapel.
 
-### → [[Piranha Guard]]
+### → [[Positions/Piranha Guard]]
 
 Deny the DLR hook by stepping your lead leg back and circling outward before the hook sets. Without the DLR anchor, the attacker cannot complete the worm wrap and must return to Piranha Guard. While less ideal than stripping the lapel entirely, this prevents the dangerous upgrade to Worm Guard and buys you time to work on clearing the Piranha configuration.
 

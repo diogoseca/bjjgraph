@@ -162,7 +162,7 @@ description: "Learn to survive and escape the Rear Triangle Choke Finish. Covers
 
 Defending the Rear Triangle Choke Finish requires immediate recognition that the opponent is transitioning from positional control to active finishing. The defender faces a narrowing window of opportunity as the attacker optimizes their angle and begins squeezing. Priority one is protecting the carotid arteries by tucking the chin and creating any available distance between the choking leg and the neck. The defender must address both the triangle structure and the choking pressure simultaneously, understanding that passive defense leads to unconsciousness while aggressive but undisciplined escape attempts can accelerate the finish or expose secondary submission threats like armbars on the trapped arm. Survival depends on calm, methodical execution of defensive sequences rather than explosive panic movements.
 
-**Opponent's Starting Position**: [[Rear Triangle]] (Top)
+**Opponent's Starting Position**: [[Positions/Triangle Control/Rear Triangle]] (Top)
 
 </section>
 
@@ -200,28 +200,28 @@ Defending the Rear Triangle Choke Finish requires immediate recognition that the
 ### 1. Two-hand grip strip on the choking leg ankle to prevent lock tightening and disrupt the angle
 
 - **When to use**: Immediately upon recognizing the finishing attempt, before the squeeze reaches full compression and while you still have grip strength
-- **Targets**: [[Rear Triangle]]
+- **Targets**: [[Positions/Triangle Control/Rear Triangle]]
 - **If successful**: Prevents the attacker from achieving full choking compression, buying time and creating opportunities for further escape work
 - **Risk**: Both hands occupied on the leg leaves the trapped arm undefended and prevents other defensive actions
 
 ### 2. Arm extraction by threading trapped elbow tight to ribs and pulling forearm across centerline
 
 - **When to use**: When the triangle has momentary looseness during attacker's angle adjustments or when you create space through bridging
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Removing the trapped arm eliminates the wedge that makes the triangle choke effective, breaking the submission threat entirely
 - **Risk**: Attempting extraction against a tight lock exposes the arm to armbar if the attacker transitions mid-extraction
 
 ### 3. Bridge and rotate toward the non-choking leg side to disrupt the attacker's finishing angle
 
 - **When to use**: When the attacker is committed to the squeeze and their weight is distributed for the finish rather than for base retention
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Disrupts the diagonal cutting angle that creates the blood choke, potentially loosening the triangle enough for arm extraction
 - **Risk**: Explosive bridging can accelerate the choke if the attacker follows the movement and maintains angle
 
 ### 4. Frame against attacker's hip with free hand while shrimping away to create separation distance
 
 - **When to use**: When the triangle is not yet fully tight and you have enough space to insert a frame between your body and the attacker
-- **Targets**: [[Rear Triangle]]
+- **Targets**: [[Positions/Triangle Control/Rear Triangle]]
 - **If successful**: Creates space that reduces choking pressure and may prevent the attacker from achieving the posture break needed for the finish
 - **Risk**: The free hand is no longer available to fight the choking leg grip, and shrimping may tighten the triangle if direction is wrong
 
@@ -233,11 +233,11 @@ Defending the Rear Triangle Choke Finish requires immediate recognition that the
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Extract the trapped arm from the triangle by pulling the elbow tight against your ribs and threading the forearm across your centerline during a moment of looseness. Once the arm is free, the triangle structure collapses and the position reverts to standard back control where your escape options are significantly better.
 
-### → [[Rear Triangle]]
+### → [[Positions/Triangle Control/Rear Triangle]]
 
 Prevent the choke from finishing by maintaining chin protection, fighting the choking leg angle with grip on the ankle, and creating enough angular disruption that the attacker cannot achieve bilateral carotid compression. While still a compromised position, surviving the finish attempt forces the attacker to reset and gives you additional escape windows during their transitions.
 

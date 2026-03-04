@@ -21,7 +21,7 @@ The technique represents a critical decision point in the outside ashi-garami ga
 
 Timing is the defining factor in this sweep's success rate. The sweep window opens when the opponent commits their weight in a readable direction during their escape sequence. Forward driving, standing posture, and lateral hip rotation all create distinct sweep opportunities with different angles of attack. Initiating the sweep from a static position against a balanced opponent yields minimal results—the technique requires reading and exploiting the opponent's movement rather than forcing a sweep against a settled base. The risk-reward calculation is significant: loosening the figure-4 to generate sweep momentum creates a window where the opponent may extract their leg entirely, converting the position from outside ashi to open guard.
 
-**From Position**: [[Outside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Timing is the defining factor in this sweep's success rate. The sweep window ope
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Outside Ashi-Garami]] | 35% |
-| Counter | [[Open Guard]] | 25% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 35% |
+| Counter | [[Positions/Open Guard]] | 25% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Counter Sweep from Outside Ashi-Garami bridges the modern leg lock game with
 ## Related Techniques
 
 
-- [[Outside Ashi-Garami]] - Starting position from which the counter sweep is initiated
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Starting position from which the counter sweep is initiated
 
-- [[Side Control]] - Primary target position achieved on successful sweep completion
+- [[Positions/Side Control]] - Primary target position achieved on successful sweep completion
 
-- [[Counter Sweep from Leg Entanglement]] - General version of this technique applicable to all leg entanglement configurations
+- [[Transitions/Counter Sweep from Leg Entanglement]] - General version of this technique applicable to all leg entanglement configurations
 
-- [[Ashi Garami Escape]] - Opponent's primary defensive technique that creates the sweep timing window
+- [[Transitions/Ashi Garami Escape]] - Opponent's primary defensive technique that creates the sweep timing window
 
-- [[Outside Heel Hook]] - Alternative submission attack from the same starting position when sweep conditions are absent
+- [[Transitions/Outside Heel Hook]] - Alternative submission attack from the same starting position when sweep conditions are absent
 
-- [[Inside Ashi-Garami]] - Related leg entanglement with different sweep angles and mechanics
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement with different sweep angles and mechanics
 
-- [[Saddle]] - Alternative positional advancement target from outside ashi bottom
+- [[Positions/Ashi Garami/Saddle]] - Alternative positional advancement target from outside ashi bottom
 
-- [[Ashi Garami]] - Parent position family encompassing all ashi variations including outside ashi
+- [[Positions/Ashi Garami]] - Parent position family encompassing all ashi variations including outside ashi
 
-- [[Open Guard]] - Position reached on failed sweep when entanglement is lost during the attempt
+- [[Positions/Open Guard]] - Position reached on failed sweep when entanglement is lost during the attempt
 
-- [[50-50 Guard]] - Related leg entanglement with mutual control dynamics that affect sweep availability
+- [[Positions/Ashi Garami/50-50 Guard]] - Related leg entanglement with mutual control dynamics that affect sweep availability
 
 
 </section>

@@ -156,7 +156,7 @@ description: "Master Aoki Lock Finish defense in BJJ. Recognition cues, escape t
 
 Defending against the Aoki Lock Finish requires immediate recognition of the shoulder lock threat and systematic address of both the leg entanglement and the rotational pressure simultaneously. The defender must protect the shoulder through internal rotation, attack the attacker's base to create escape opportunities, and maintain continuous movement toward escape rather than adopting static defensive posture. Critical safety awareness is paramount, as the shoulder joint can sustain catastrophic damage including rotator cuff tears, labrum tears, and dislocations if the defender fights the submission beyond safe limits rather than tapping early. Every defensive decision must balance escape probability against shoulder injury risk.
 
-**Opponent's Starting Position**: [[Aoki Lock]] (Top)
+**Opponent's Starting Position**: [[Positions/Aoki Lock]] (Top)
 
 
 </section>
@@ -195,21 +195,21 @@ Defending against the Aoki Lock Finish requires immediate recognition of the sho
 ### 1. Roll toward trapped arm to relieve shoulder pressure and recover guard
 
 - **When to use**: When shoulder pressure is building but before the attacker commits fully to the finish with maximum hip drive
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Escape shoulder lock pressure and recover to closed guard position where you can rebuild defense
 - **Risk**: If timed poorly, rolling can temporarily increase shoulder torque before relief is achieved
 
 ### 2. Attack attacker's posted leg base to destabilize finishing platform
 
 - **When to use**: When attacker adjusts position or pressure angle, creating momentary instability in their posted leg base
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Destabilize attacker's finishing platform, creating window for arm extraction and escape to turtle
 - **Risk**: Requires committing free hand to base attack, temporarily reducing other defensive options
 
 ### 3. Extract arm by loosening leg entanglement before full pressure
 
 - **When to use**: When leg entanglement has any slack or looseness before full finishing pressure application begins
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Remove arm from entanglement entirely and recover to turtle or guard position
 - **Risk**: Failed extraction attempt may cause attacker to tighten the lock further and worsen position
 
@@ -239,11 +239,11 @@ Defending against the Aoki Lock Finish requires immediate recognition of the sho
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Roll toward trapped arm direction using attacker's forward pressure momentum to escape shoulder lock and recover closed guard
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Extract arm from loosened leg entanglement during attacker's position adjustment window and recover to turtle position
 

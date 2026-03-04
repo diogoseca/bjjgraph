@@ -21,7 +21,7 @@ The sweep combines two simultaneous force vectors: rotational torque on the oppo
 
 Among half guard bottom sweeps, the Knee Torque Sweep occupies a distinct tactical niche as a secondary attack that chains naturally with standard underhook sweeps. When the opponent defends traditional sweeps by widening their base or driving crossface pressure, the knee torque mechanism attacks a different structural axis. If the sweep itself is defended by posting, the posted arm becomes vulnerable to kimura entries. If defended by hip retreat, the created space enables deep half guard transitions or dogfight entries, making the sweep a valuable node in the half guard attacking network.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Among half guard bottom sweeps, the Knee Torque Sweep occupies a distinct tactic
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Half Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Half Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Knee Torque Sweep integrates into the half guard bottom system as a mid-rang
 ## Related Techniques
 
 
-- [[Half Guard]] - Source position where this sweep is initiated from bottom role
+- [[Positions/Half Guard]] - Source position where this sweep is initiated from bottom role
 
-- [[Mount]] - Primary target position achieved on successful sweep completion
+- [[Positions/Mount]] - Primary target position achieved on successful sweep completion
 
-- [[Side Control]] - Counter outcome position when sweep attempt is exploited by top player to complete guard pass
+- [[Positions/Side Control]] - Counter outcome position when sweep attempt is exploited by top player to complete guard pass
 
-- [[Deep Half Guard]] - Alternative attack path when opponent defends knee torque by retreating hips
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative attack path when opponent defends knee torque by retreating hips
 
-- [[Lockdown]] - Related leg entanglement that can amplify knee torque mechanics through figure-four control
+- [[Positions/Half Guard/Lockdown]] - Related leg entanglement that can amplify knee torque mechanics through figure-four control
 
-- [[Knee Shield Half Guard]] - Complementary half guard variation used to create distance before transitioning to sweep setup
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Complementary half guard variation used to create distance before transitioning to sweep setup
 
-- [[Dogfight Position]] - Alternative transition when opponent defends sweep by sprawling back and creating space
+- [[Positions/Dogfight Position]] - Alternative transition when opponent defends sweep by sprawling back and creating space
 
-- [[Deep Half Entry from Half Guard]] - Chain attack transition when knee torque sweep is defended through hip retreat
+- [[Transitions/Deep Half Entry from Half Guard]] - Chain attack transition when knee torque sweep is defended through hip retreat
 
-- [[Half Guard to X-Guard]] - Alternative sweep pathway from half guard when knee torque mechanics are unavailable
+- [[Transitions/Half Guard to X-Guard]] - Alternative sweep pathway from half guard when knee torque mechanics are unavailable
 
-- [[Dogfight Sweep]] - Follow-up sweep option when knee torque defense creates dogfight scramble
+- [[Transitions/Dogfight Sweep]] - Follow-up sweep option when knee torque defense creates dogfight scramble
 
 
 </section>

@@ -178,7 +178,7 @@ The recovery hinges on controlling the opponent's inside knee to prevent them fr
 
 Once the threading is complete, establishing Single Leg X structure immediately—foot on hip, inside leg hooked behind their knee, hands on ankle, hips elevated—transforms you from defender to attacker. The speed of this positional reversal is what makes this recovery superior to simply escaping to neutral, as you gain immediate sweep and submission threats before the opponent can adjust their defensive posture.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ Once the threading is complete, establishing Single Leg X structure immediately�
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 55% |
-| Failure | [[Ushiro Ashi-Garami]] | 30% |
-| Counter | [[Saddle]] | 15% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 55% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ Once the threading is complete, establishing Single Leg X structure immediately�
 
 ## Opponent Counters
 
-- **Opponent drives inside leg deep to establish saddle before recovery completes** (Effectiveness: High) - Your Response: Accelerate the threading motion and accept turtle position if saddle transition is imminent, rather than fighting a losing positional battle → Leads to [[Saddle]]
-- **Opponent posts on far leg and circles away as you establish Single Leg X structure** (Effectiveness: Medium) - Your Response: Follow the circular movement with hip rotation, maintaining foot on hip connection and transitioning to technical standup or X-Guard entry → Leads to [[Ushiro Ashi-Garami]]
-- **Opponent grabs heel during extraction when foot momentarily extends** (Effectiveness: High) - Your Response: Immediately re-establish dorsiflexion and abort Single Leg X entry, returning to inside knee control and waiting for safer extraction window → Leads to [[Ushiro Ashi-Garami]]
-- **Opponent sprawls weight forward to flatten your hips during threading** (Effectiveness: Medium) - Your Response: Use the sprawl momentum to assist your hip rotation, threading leg through and coming up to seated position rather than staying on back → Leads to [[Ushiro Ashi-Garami]]
+- **Opponent drives inside leg deep to establish saddle before recovery completes** (Effectiveness: High) - Your Response: Accelerate the threading motion and accept turtle position if saddle transition is imminent, rather than fighting a losing positional battle → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent posts on far leg and circles away as you establish Single Leg X structure** (Effectiveness: Medium) - Your Response: Follow the circular movement with hip rotation, maintaining foot on hip connection and transitioning to technical standup or X-Guard entry → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Opponent grabs heel during extraction when foot momentarily extends** (Effectiveness: High) - Your Response: Immediately re-establish dorsiflexion and abort Single Leg X entry, returning to inside knee control and waiting for safer extraction window → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Opponent sprawls weight forward to flatten your hips during threading** (Effectiveness: Medium) - Your Response: Use the sprawl momentum to assist your hip rotation, threading leg through and coming up to seated position rather than staying on back → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 
 </section>

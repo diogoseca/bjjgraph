@@ -21,7 +21,7 @@ The strategic value lies in punishing overcommitment. When an opponent dedicates
 
 This technique has become increasingly important in modern no-gi grappling where leg lock exchanges dominate. Practitioners who can sweep from entanglements create a powerful deterrent against reckless leg attack entries, forcing opponents to maintain better positional discipline during their leg lock sequences. The ability to reverse from bottom leg entanglement to side control represents one of the highest-value positional swings in the sport, converting a defensive crisis into three points and dominant top position.
 
-**From Position**: [[Leg Entanglement]] (Bottom)
+**From Position**: [[Positions/Leg Entanglement]] (Bottom)
 **Success Rate**: 35%
 
 </section>
@@ -32,9 +32,9 @@ This technique has become increasingly important in modern no-gi grappling where
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 35% |
-| Failure | [[Leg Entanglement]] | 40% |
-| Counter | [[Saddle]] | 25% |
+| Success | [[Positions/Side Control]] | 35% |
+| Failure | [[Positions/Leg Entanglement]] | 40% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 25% |
 
 
 </section>
@@ -193,25 +193,25 @@ The counter sweep from leg entanglement occupies a critical position in the mode
 ## Related Techniques
 
 
-- [[Leg Entanglement]] - Source position from which the counter sweep is initiated
+- [[Positions/Leg Entanglement]] - Source position from which the counter sweep is initiated
 
-- [[Side Control]] - Primary target position achieved on successful sweep completion
+- [[Positions/Side Control]] - Primary target position achieved on successful sweep completion
 
-- [[Ashi Garami]] - Specific entanglement configuration commonly countered by this sweep
+- [[Positions/Ashi Garami]] - Specific entanglement configuration commonly countered by this sweep
 
-- [[Inside Ashi-Garami]] - Dominant entanglement variant requiring modified sweep mechanics
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Dominant entanglement variant requiring modified sweep mechanics
 
-- [[Saddle]] - Counter outcome position where opponent advances during failed sweep attempt
+- [[Positions/Ashi Garami/Saddle]] - Counter outcome position where opponent advances during failed sweep attempt
 
-- [[50-50 Guard]] - Neutral entanglement from which counter sweep can be attempted
+- [[Positions/Ashi Garami/50-50 Guard]] - Neutral entanglement from which counter sweep can be attempted
 
-- [[Ashi Garami Escape]] - Alternative defensive option when sweep conditions are not present
+- [[Transitions/Ashi Garami Escape]] - Alternative defensive option when sweep conditions are not present
 
-- [[Back Take from Ashi]] - Alternative offensive transition available from similar entanglement positions
+- [[Transitions/Back Take from Ashi]] - Alternative offensive transition available from similar entanglement positions
 
-- [[Ashi Entry from Leg Entanglement]] - Transition the opponent may use to re-enter after a failed sweep
+- [[Transitions/Ashi Entry from Leg Entanglement]] - Transition the opponent may use to re-enter after a failed sweep
 
-- [[Ashi Garami Maintenance]] - Opponent's primary strategy to prevent sweep by maintaining entanglement control
+- [[Transitions/Ashi Garami Maintenance]] - Opponent's primary strategy to prevent sweep by maintaining entanglement control
 
 
 </section>

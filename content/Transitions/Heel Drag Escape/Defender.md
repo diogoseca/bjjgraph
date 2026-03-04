@@ -146,7 +146,7 @@ description: "Learn to prevent and counter the Heel Drag Escape from mount. Foot
 
 Defending against the Heel Drag Escape requires the top mount player to understand the specific foot positioning and base management vulnerabilities that make this escape possible. The heel drag targets your feet rather than your core base structure, making it a subtle escape that can succeed before you recognize it is occurring. Prevention focuses on three key areas: maintaining proper foot positioning that denies hooking access, reading the bottom player's hip movement patterns that signal the escape attempt, and having immediate counter-transitions ready when partial escape occurs. Unlike defending explosive bridge escapes where the threat is obvious, the heel drag demands awareness of your own foot placement and sensitivity to the subtle leg movements happening below your hips. Understanding when your mount is most vulnerable to the heel drag allows preemptive adjustment of foot position and weight distribution to eliminate the technique before it begins.
 
-**Opponent's Starting Position**: [[Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending against the Heel Drag Escape requires the top mount player to understa
 ### 1. Lift the threatened foot off the mat and drive that knee upward toward the opponent's armpit
 
 - **When to use**: When you feel heel contact on your foot or ankle, or when you recognize lateral foot movement from the bottom player targeting your feet
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Denies the hooking point completely and advances your mount position toward high mount
 - **Risk**: Momentary base instability on one leg creates brief vulnerability to upa escape if opponent reads the weight shift
 
 ### 2. Insert grapevine hooks by wrapping your feet around the opponent's legs to eliminate all lower body mobility
 
 - **When to use**: Proactively when you sense increased leg activity and lateral foot movement from the bottom player before they initiate the hook
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Eliminates all heel drag attempts and most lower body escape movements while maintaining heavy mount control
 - **Risk**: Grapevines reduce your own mobility and make it harder to transition to submissions or advance to higher mount variations
 
 ### 3. Transition to technical mount by inserting a far hook behind the opponent's body as their leg movement creates space
 
 - **When to use**: When the heel drag partially succeeds and the opponent's legs are actively working to close around your leg, converting their escape motion into your advancement
-- **Targets**: [[Technical Mount]]
+- **Targets**: [[Positions/Mount/Technical Mount]]
 - **If successful**: Converts the opponent's escape attempt into a more dominant position that threatens back control
 - **Risk**: Incomplete hook insertion may result in a scramble where the opponent recovers turtle or half guard
 
 ### 4. Drive heavy downward hip pressure while widening base to flatten the opponent's positioning
 
 - **When to use**: As a preemptive measure when you feel the opponent begin to adjust their feet or generate small hip bumps
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Eliminates the space needed for the bridge component of the heel drag and pins the opponent flat
 - **Risk**: Over-committing weight forward can expose you to upa escape if the opponent transitions from heel drag to bridge reversal
 
@@ -217,11 +217,11 @@ Defending against the Heel Drag Escape requires the top mount player to understa
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Recognize the heel drag attempt early through lateral foot movement cues, immediately lift the threatened foot and drive your knee upward, then re-settle your weight with adjusted foot positioning to prevent further attempts.
 
-### → [[Technical Mount]]
+### → [[Positions/Mount/Technical Mount]]
 
 When the opponent's heel drag partially succeeds and their legs are actively working, use their leg movement to insert your far hook behind their body. Convert their escape energy into your positional advancement by threading your hook as they open their legs for the drag.
 

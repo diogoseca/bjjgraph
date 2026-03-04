@@ -26,8 +26,8 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries via deep collar grip and body positioning
-**Starting Position**: [[Mount]]
-**From Position**: [[Mount]] (Top)
+**Starting Position**: [[Positions/Mount]]
+**From Position**: [[Positions/Mount]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -79,8 +79,8 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Closed Guard]] | 17% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 17% |
 
 
 </section>
@@ -245,16 +245,16 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 
 ## From Which Positions?
 
-- [[Mount]]
-- [[High Mount]]
-- [[S Mount]]
-- [[Side Control]]
-- [[Kesa Gatame]]
-- [[North-South]]
-- [[Turtle]]
-- [[Knee on Belly]]
-- [[Closed Guard]]
-- [[Half Guard]]
+- [[Positions/Mount]]
+- [[Positions/Mount/High Mount]]
+- [[Positions/Mount/S Mount]]
+- [[Positions/Side Control]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/North-South]]
+- [[Positions/Turtle]]
+- [[Positions/Knee on Belly]]
+- [[Positions/Closed Guard]]
+- [[Positions/Half Guard]]
 
 
 </section>
@@ -263,17 +263,17 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 
 ## Related Submissions
 
-- [[Cross Collar Choke]]
-- [[Baseball Bat Choke]]
-- [[Ezekiel Choke]]
-- [[Ezekiel from Mount]]
-- [[Bow and Arrow Choke]]
-- [[Breadcutter Choke]]
-- [[Clock Choke]]
-- [[Guillotine Choke]]
-- [[Arm Triangle]]
-- [[Americana from Mount]]
-- [[Loop Choke from Mount]]
+- [[Transitions/Cross Collar Choke]]
+- [[Transitions/Baseball Bat Choke]]
+- [[Submissions/Ezekiel Choke]]
+- [[Submissions/Ezekiel from Mount]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Transitions/Breadcutter Choke]]
+- [[Transitions/Clock Choke]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Americana from Mount]]
+- [[Submissions/Loop Choke from Mount]]
 
 
 </section>
@@ -282,17 +282,17 @@ Advanced practitioners excel at chaining the Loop Choke with other collar attack
 
 ## Additional Related Content
 
-- [[Mount]] - Primary top position for establishing loop choke setups with dominant control
-- [[Side Control]] - Alternative attacking position allowing collar access with chest pressure control
-- [[Turtle]] - Defensive position vulnerable to loop choke attacks from back exposure
-- [[Cross Collar Choke]] - Complementary collar attack creating offensive combinations and dilemmas
-- [[Ezekiel Choke]] - Alternative mount finishing option when collar grip is unavailable
-- [[Americana from Mount]] - Joint lock threat that can be chained with loop choke to create submission dilemmas
-- [[Kesa Gatame]] - Scarf hold variation providing excellent angle for loop choke application
-- [[High Mount]] - Elevated mount variation offering optimal collar access for loop choke setup
-- [[Knee on Belly]] - Transitional position that can flow into loop choke attack with collar grip
-- [[Bow and Arrow Choke]] - Alternative collar choke that can be transitioned to when opponent defends loop choke
-- [[Closed Guard]] - Classical bottom position where loop choke is initiated with angle creation and head pull
+- [[Positions/Mount]] - Primary top position for establishing loop choke setups with dominant control
+- [[Positions/Side Control]] - Alternative attacking position allowing collar access with chest pressure control
+- [[Positions/Turtle]] - Defensive position vulnerable to loop choke attacks from back exposure
+- [[Transitions/Cross Collar Choke]] - Complementary collar attack creating offensive combinations and dilemmas
+- [[Submissions/Ezekiel Choke]] - Alternative mount finishing option when collar grip is unavailable
+- [[Submissions/Americana from Mount]] - Joint lock threat that can be chained with loop choke to create submission dilemmas
+- [[Positions/Side Control/Kesa Gatame]] - Scarf hold variation providing excellent angle for loop choke application
+- [[Positions/Mount/High Mount]] - Elevated mount variation offering optimal collar access for loop choke setup
+- [[Positions/Knee on Belly]] - Transitional position that can flow into loop choke attack with collar grip
+- [[Transitions/Bow and Arrow Choke]] - Alternative collar choke that can be transitioned to when opponent defends loop choke
+- [[Positions/Closed Guard]] - Classical bottom position where loop choke is initiated with angle creation and head pull
 
 
 </section>

@@ -21,7 +21,7 @@ The mechanical basis of this transition centers on hip rotation and pressure tra
 
 Strategically, this transition serves a critical role in the Kimura Trap system by providing a high-percentage positional option when the submission is well-defended. It creates a dilemma for the defender: commit to defending the Kimura and risk having position advanced to Reverse Scarf Hold, or loosen the arm defense to prevent the positional change and get caught in the Kimura. This fork in the decision tree is what makes the Kimura Trap system so effective at the purple belt level and above, where opponents are skilled enough to defend individual attacks but struggle against systematic chains that punish every defensive choice.
 
-**From Position**: [[Kimura Trap]] (Top)
+**From Position**: [[Positions/Kimura Trap]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition serves a critical role in the Kimura Trap system 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Reverse Scarf Hold]] | 65% |
-| Failure | [[Kimura Trap]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control/Reverse Scarf Hold]] | 65% |
+| Failure | [[Positions/Kimura Trap]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ This transition occupies a critical junction in the Kimura Trap system's decisio
 ## Related Techniques
 
 
-- [[Kimura Trap]] - Source position providing figure-four grip control that enables this transition
+- [[Positions/Kimura Trap]] - Source position providing figure-four grip control that enables this transition
 
-- [[Reverse Scarf Hold]] - Target position achieved upon successful completion of this transition
+- [[Positions/Side Control/Reverse Scarf Hold]] - Target position achieved upon successful completion of this transition
 
-- [[Kimura]] - Primary submission threat that forces defensive reactions opening this transition
+- [[Transitions/Kimura]] - Primary submission threat that forces defensive reactions opening this transition
 
-- [[Kimura to Back Take]] - Alternative transition when opponent turns away rather than tucking elbow
+- [[Transitions/Kimura to Back Take]] - Alternative transition when opponent turns away rather than tucking elbow
 
-- [[Side Control to Mount]] - Alternative positional advancement from similar starting configuration
+- [[Transitions/Side Control to Mount]] - Alternative positional advancement from similar starting configuration
 
-- [[Americana]] - Follow-up submission available from Reverse Scarf Hold after transition
+- [[Transitions/Americana]] - Follow-up submission available from Reverse Scarf Hold after transition
 
-- [[North-South]] - Secondary transition target accessible from Reverse Scarf Hold
+- [[Positions/North-South]] - Secondary transition target accessible from Reverse Scarf Hold
 
-- [[Kesa Gatame]] - Related scarf hold variant with traditional forward-facing orientation
+- [[Positions/Side Control/Kesa Gatame]] - Related scarf hold variant with traditional forward-facing orientation
 
-- [[Side Control]] - Foundational top control position from which Kimura Trap is commonly established
+- [[Positions/Side Control]] - Foundational top control position from which Kimura Trap is commonly established
 
-- [[Half Guard]] - Position opponent may recover to if transition is poorly executed
+- [[Positions/Half Guard]] - Position opponent may recover to if transition is poorly executed
 
-- [[Arm Triangle]] - Submission option available from Reverse Scarf Hold after successful transition
+- [[Transitions/Arm Triangle]] - Submission option available from Reverse Scarf Hold after successful transition
 
 
 </section>

@@ -154,7 +154,7 @@ description: "Defend against the Z-Guard sweep from top position. Recognition cu
 
 As the defender (top player) facing the Sweep from Z-Guard, your primary objective is to prevent the bottom player from converting their defensive knee shield structure into an offensive sweeping platform. Defending this sweep requires understanding the mechanical principles that make it work: the coordination of knee shield extension with underhook pull creates rotational force that tips you over the trapped leg. Your defense targets these mechanics individually and collectively by maintaining wide base, fighting the underhook battle, and preventing the bottom player from establishing the angular hip position needed to generate sweeping force. Successful defense not only stops the sweep but can create opportunities to advance your own passing position or establish dominant control.
 
-**Opponent's Starting Position**: [[Z-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Z-Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender (top player) facing the Sweep from Z-Guard, your primary objecti
 ### 1. Widen base and drop hips to resist rotational force
 
 - **When to use**: When you feel the bottom player loading their knee shield and beginning to create sweeping angle with their hips
-- **Targets**: [[Z-Guard]]
+- **Targets**: [[Positions/Z-Guard]]
 - **If successful**: Sweep attempt fails and you maintain top Z-Guard position with ability to reset passing sequence
 - **Risk**: Lowered hips can be exploited for deep half guard entry if bottom player recognizes the defensive adjustment
 
 ### 2. Strip underhook and establish crossface control
 
 - **When to use**: Early in the sweep setup before the bottom player has coordinated all their control points for the sweep
-- **Targets**: [[Z-Guard]]
+- **Targets**: [[Positions/Z-Guard]]
 - **If successful**: Bottom player loses primary sweep grip and you establish dominant crossface enabling pressure passing sequences
 - **Risk**: Momentary weight shift during grip fighting can be exploited for immediate sweep if timing is poor
 
 ### 3. Drive crossface aggressively to flatten bottom player onto their back
 
 - **When to use**: When bottom player begins creating hip angle but has not yet initiated the explosive sweep motion
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Bottom player's hip angle is eliminated, knee shield collapses under pressure, and you can complete a pass to side control
 - **Risk**: Excessive forward drive can load energy into the bottom player's sweep mechanism if they maintain their underhook
 
 ### 4. Post hand on mat in sweep direction to catch yourself
 
 - **When to use**: Emergency response when sweep has already been initiated and you are being tipped past the balance point
-- **Targets**: [[Z-Guard]]
+- **Targets**: [[Positions/Z-Guard]]
 - **If successful**: You catch your base and can reset to top Z-Guard position, though you may need to re-establish grips
 - **Risk**: The posting arm becomes vulnerable to arm drag or can be controlled to prevent base recovery
 
@@ -225,11 +225,11 @@ As the defender (top player) facing the Sweep from Z-Guard, your primary objecti
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Counter the sweep by driving aggressive crossface pressure to flatten the bottom player, collapsing their knee shield, and completing a pass to side control while they are committed to the sweep setup and unable to recover guard structure
 
-### → [[Z-Guard]]
+### → [[Positions/Z-Guard]]
 
 Defend the sweep by maintaining wide base, stripping the underhook early, and preventing the bottom player from establishing the angular hip position needed for the sweep. Reset to your passing sequence with improved grip positioning
 

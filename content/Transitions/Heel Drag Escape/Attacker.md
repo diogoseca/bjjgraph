@@ -180,7 +180,7 @@ description: "Learn to execute the Heel Drag Escape from mount with precise heel
 
 The Heel Drag Escape from mount leverages precise foot mechanics to bypass the opponent's core base structure, targeting their foot placement rather than their weight distribution. As the bottom mount player, your primary objective is to hook the top player's near foot with your heel and drag it across your centerline to establish half guard. This technique excels in situations where explosive bridge escapes are unavailable or have been defended, offering a low-energy alternative that can be executed repeatedly without significant fatigue. The heel drag's effectiveness increases when combined with other escape attempts, as the opponent's defensive adjustments to block bridges or elbow escapes often create the exact foot positioning that makes the heel drag possible. Mastering this escape transforms mount defense from a desperate survival situation into a methodical positional recovery process.
 
-**From Position**: [[Mount]] (Bottom)
+**From Position**: [[Positions/Mount]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The Heel Drag Escape from mount leverages precise foot mechanics to bypass the o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Mount]] | 30% |
-| Counter | [[Technical Mount]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Mount]] | 30% |
+| Counter | [[Positions/Mount/Technical Mount]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Heel Drag Escape from mount leverages precise foot mechanics to bypass the o
 
 ## Opponent Counters
 
-- **Opponent lifts threatened foot off mat and drives knee upward toward armpit to deny hooking access** (Effectiveness: High) - Your Response: Switch immediately to an elbow escape on the same side. The knee driving toward your armpit creates space on the opposite hip that you can exploit with a hip escape. The failed heel drag becomes a setup that opens the elbow escape. → Leads to [[Mount]]
-- **Opponent inserts grapevine hooks by wrapping their feet around your legs to eliminate all lower body mobility** (Effectiveness: High) - Your Response: Abandon the heel drag and work to clear the grapevine first by walking your feet inward toward your hips and prying your knees apart. Once one grapevine is cleared, immediately attempt the heel drag before they can re-establish the hook. → Leads to [[Mount]]
-- **Opponent transitions to technical mount by inserting a hook behind your body as your leg movement creates space** (Effectiveness: Medium) - Your Response: Abandon the heel drag and immediately address the technical mount by turning into the opponent and working to clear the hook. Frame on their hip to prevent further advancement toward back control and fight to recover half guard through standard technical mount escapes. → Leads to [[Technical Mount]]
-- **Opponent drives heavy downward hip pressure while widening base to flatten your positioning and eliminate bridging space** (Effectiveness: Medium) - Your Response: Use persistent small hip bumps combined with frame pressure on their hips to gradually create micro-spaces. Chain multiple small heel drag attempts rather than waiting for one large opening. Alternatively, switch to elbow escape which works better against heavy forward pressure. → Leads to [[Mount]]
+- **Opponent lifts threatened foot off mat and drives knee upward toward armpit to deny hooking access** (Effectiveness: High) - Your Response: Switch immediately to an elbow escape on the same side. The knee driving toward your armpit creates space on the opposite hip that you can exploit with a hip escape. The failed heel drag becomes a setup that opens the elbow escape. → Leads to [[Positions/Mount]]
+- **Opponent inserts grapevine hooks by wrapping their feet around your legs to eliminate all lower body mobility** (Effectiveness: High) - Your Response: Abandon the heel drag and work to clear the grapevine first by walking your feet inward toward your hips and prying your knees apart. Once one grapevine is cleared, immediately attempt the heel drag before they can re-establish the hook. → Leads to [[Positions/Mount]]
+- **Opponent transitions to technical mount by inserting a hook behind your body as your leg movement creates space** (Effectiveness: Medium) - Your Response: Abandon the heel drag and immediately address the technical mount by turning into the opponent and working to clear the hook. Frame on their hip to prevent further advancement toward back control and fight to recover half guard through standard technical mount escapes. → Leads to [[Positions/Mount/Technical Mount]]
+- **Opponent drives heavy downward hip pressure while widening base to flatten your positioning and eliminate bridging space** (Effectiveness: Medium) - Your Response: Use persistent small hip bumps combined with frame pressure on their hips to gradually create micro-spaces. Chain multiple small heel drag attempts rather than waiting for one large opening. Alternatively, switch to elbow escape which works better against heavy forward pressure. → Leads to [[Positions/Mount]]
 
 
 </section>

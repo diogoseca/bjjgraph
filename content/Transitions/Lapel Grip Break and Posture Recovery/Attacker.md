@@ -178,7 +178,7 @@ The fundamental challenge lies in the lapel wrap's function as a control lever t
 
 Strategically, this technique serves as the gateway to all other passing options against Ringworm Guard. Without successfully breaking the lapel configuration, standard guard passes become dangerous as the wrap creates predictable defensive patterns that skilled guard players exploit for sweeps and back takes. Mastering this grip break is essential for any serious competitor facing lapel guard systems in gi competition.
 
-**From Position**: [[Ringworm Guard]] (Top)
+**From Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategically, this technique serves as the gateway to all other passing options
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 65% |
-| Failure | [[Ringworm Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Open Guard]] | 65% |
+| Failure | [[Positions/Ringworm Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, this technique serves as the gateway to all other passing options
 
 ## Opponent Counters
 
-- **Opponent switches to Worm Guard configuration as you begin breaking the grip** (Effectiveness: High) - Your Response: Recognize the transition early by monitoring their leg position. If they begin threading the lapel differently, restart the grip break sequence for the new configuration before it consolidates. → Leads to [[Ringworm Guard]]
-- **Opponent uses their free leg to create a butterfly hook or shin shield during grip break** (Effectiveness: Medium) - Your Response: Address the leg frame before continuing the grip break. Pin their knee to the mat with your free hand or step over the hook to neutralize the barrier before returning to the lapel. → Leads to [[Ringworm Guard]]
-- **Opponent accelerates sweep attempt while you commit both hands to grip breaking** (Effectiveness: Medium) - Your Response: Abort the grip break and immediately address the sweep by widening base and posting with one hand. Better to reset than get swept while focused on the grip. → Leads to [[Half Guard]]
-- **Opponent grabs your sleeve to prevent two-on-one grip fighting** (Effectiveness: Low) - Your Response: Strip their sleeve grip first using wrist circles or elbow pressure, then return to the lapel grip break. Their sleeve grip is typically weaker than the lapel configuration. → Leads to [[Ringworm Guard]]
+- **Opponent switches to Worm Guard configuration as you begin breaking the grip** (Effectiveness: High) - Your Response: Recognize the transition early by monitoring their leg position. If they begin threading the lapel differently, restart the grip break sequence for the new configuration before it consolidates. → Leads to [[Positions/Ringworm Guard]]
+- **Opponent uses their free leg to create a butterfly hook or shin shield during grip break** (Effectiveness: Medium) - Your Response: Address the leg frame before continuing the grip break. Pin their knee to the mat with your free hand or step over the hook to neutralize the barrier before returning to the lapel. → Leads to [[Positions/Ringworm Guard]]
+- **Opponent accelerates sweep attempt while you commit both hands to grip breaking** (Effectiveness: Medium) - Your Response: Abort the grip break and immediately address the sweep by widening base and posting with one hand. Better to reset than get swept while focused on the grip. → Leads to [[Positions/Half Guard]]
+- **Opponent grabs your sleeve to prevent two-on-one grip fighting** (Effectiveness: Low) - Your Response: Strip their sleeve grip first using wrist circles or elbow pressure, then return to the lapel grip break. Their sleeve grip is typically weaker than the lapel configuration. → Leads to [[Positions/Ringworm Guard]]
 
 
 </section>

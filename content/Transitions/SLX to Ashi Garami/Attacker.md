@@ -186,7 +186,7 @@ description: "Complete attacker guide for the SLX to Ashi Garami transition. Ste
 
 As the attacker executing the SLX to Ashi Garami transition, your objective is to convert your Single Leg X-Guard control into a dedicated leg attack position. You are shifting from a position primarily designed for sweeping into one optimized for leg lock submissions. The critical challenge is maintaining continuous control of the opponent's trapped leg throughout the positional change, particularly during the brief window when your hip hook is removed and your legs are being repositioned. Success depends on precise grip sequencing—securing heel control before releasing structural hooks—and on reading the opponent's weight distribution to select the optimal moment for transition. The transition opens the entire leg lock system for follow-up attacks, making the quality of your initial ashi garami establishment directly determine your submission success rate.
 
-**From Position**: [[Single Leg X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ As the attacker executing the SLX to Ashi Garami transition, your objective is t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 55% |
-| Failure | [[Single Leg X-Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 55% |
+| Failure | [[Positions/X-Guard/Single Leg X-Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the attacker executing the SLX to Ashi Garami transition, your objective is t
 
 ## Opponent Counters
 
-- **Opponent drives hips down and re-establishes heavy base during hip hook removal** (Effectiveness: Medium) - Your Response: Anticipate the downward drive by timing the transition during an off-balance moment. If they re-base before you complete the transition, maintain heel grip and re-insert hip hook to reset SLX, then reattempt when they shift weight again. → Leads to [[Single Leg X-Guard]]
-- **Opponent extracts heel by pulling leg back sharply during the grip transfer window** (Effectiveness: High) - Your Response: Follow their retreating leg by scooting your hips forward aggressively. If they pull free, immediately pursue with guard recovery or attempt to re-engage SLX hooks before they can fully disengage. Consider the heel-first variant to close this window. → Leads to [[Open Guard]]
-- **Opponent steps over your legs and initiates a passing sequence during repositioning** (Effectiveness: High) - Your Response: If they begin stepping over, immediately abort the ashi entry and re-establish open guard frames with feet on hips. Use the momentum of their step-over to invert or recover De La Riva hooks. This counter is most dangerous when you release the hip hook prematurely. → Leads to [[Open Guard]]
-- **Opponent sits back and applies defensive counter-pressure while controlling your gripping hand** (Effectiveness: Medium) - Your Response: Use your free hand to strip their grip on your wrist. If they commit both hands to grip fighting, their base becomes vulnerable—convert to a sweep attempt and use their defensive posture as the entry for the next ashi attempt. → Leads to [[Single Leg X-Guard]]
+- **Opponent drives hips down and re-establishes heavy base during hip hook removal** (Effectiveness: Medium) - Your Response: Anticipate the downward drive by timing the transition during an off-balance moment. If they re-base before you complete the transition, maintain heel grip and re-insert hip hook to reset SLX, then reattempt when they shift weight again. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Opponent extracts heel by pulling leg back sharply during the grip transfer window** (Effectiveness: High) - Your Response: Follow their retreating leg by scooting your hips forward aggressively. If they pull free, immediately pursue with guard recovery or attempt to re-engage SLX hooks before they can fully disengage. Consider the heel-first variant to close this window. → Leads to [[Positions/Open Guard]]
+- **Opponent steps over your legs and initiates a passing sequence during repositioning** (Effectiveness: High) - Your Response: If they begin stepping over, immediately abort the ashi entry and re-establish open guard frames with feet on hips. Use the momentum of their step-over to invert or recover De La Riva hooks. This counter is most dangerous when you release the hip hook prematurely. → Leads to [[Positions/Open Guard]]
+- **Opponent sits back and applies defensive counter-pressure while controlling your gripping hand** (Effectiveness: Medium) - Your Response: Use your free hand to strip their grip on your wrist. If they commit both hands to grip fighting, their base becomes vulnerable—convert to a sweep attempt and use their defensive posture as the entry for the next ashi attempt. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
 
 
 </section>

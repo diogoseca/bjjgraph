@@ -21,7 +21,7 @@ The technique's success hinges on preparation rather than raw power. Controlling
 
 Within the broader Kesa Gatame escape framework, the bridge escape creates a valuable directional dilemma for the top player. While ghost escapes and back takes exploit the opponent's exposed back through turning away, the bridge escape attacks the base directly by turning into the opponent. This two-directional threat prevents the top player from committing their defensive resources entirely to either escape pathway, making both options more effective when integrated into a systematic escape strategy.
 
-**From Position**: [[Kesa Gatame]] (Bottom)
+**From Position**: [[Positions/Side Control/Kesa Gatame]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,10 +32,10 @@ Within the broader Kesa Gatame escape framework, the bridge escape creates a val
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Kesa Gatame]] | 35% |
-| Counter | [[Mount]] | 15% |
-| Counter | [[North-South]] | 10% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Side Control/Kesa Gatame]] | 35% |
+| Counter | [[Positions/Mount]] | 15% |
+| Counter | [[Positions/North-South]] | 10% |
 
 
 </section>
@@ -192,25 +192,25 @@ The Bridge Escape from Kesa Gatame occupies a critical role within the Kesa Gata
 ## Related Techniques
 
 
-- [[Kesa Gatame]] - Starting position from which this escape is executed
+- [[Positions/Side Control/Kesa Gatame]] - Starting position from which this escape is executed
 
-- [[Half Guard]] - Primary target position upon successful escape
+- [[Positions/Half Guard]] - Primary target position upon successful escape
 
-- [[Bridge and Roll]] - Related fundamental escape using similar bridge mechanics from different pins
+- [[Transitions/Bridge and Roll]] - Related fundamental escape using similar bridge mechanics from different pins
 
-- [[Back Take from Kesa Gatame]] - Alternative escape that exploits opponent's exposed back through turning away
+- [[Transitions/Back Take from Kesa Gatame]] - Alternative escape that exploits opponent's exposed back through turning away
 
-- [[Ghost Escape]] - Complementary escape creating two-directional threat with bridge escape
+- [[Transitions/Ghost Escape]] - Complementary escape creating two-directional threat with bridge escape
 
-- [[Bridge and Turn to Turtle]] - Related escape technique using bridge to reach turtle instead of half guard
+- [[Transitions/Bridge and Turn to Turtle]] - Related escape technique using bridge to reach turtle instead of half guard
 
-- [[Elbow Escape to Guard]] - Alternative guard recovery escape from Kesa Gatame using different mechanics
+- [[Transitions/Elbow Escape to Guard]] - Alternative guard recovery escape from Kesa Gatame using different mechanics
 
-- [[Frame and Shrimp to Guard]] - Frame-based escape alternative when bridge timing is unavailable
+- [[Transitions/Frame and Shrimp to Guard]] - Frame-based escape alternative when bridge timing is unavailable
 
-- [[Mount]] - Counter position opponent may achieve if bridge is poorly timed
+- [[Positions/Mount]] - Counter position opponent may achieve if bridge is poorly timed
 
-- [[North-South]] - Counter position opponent may transition to during failed bridge attempt
+- [[Positions/North-South]] - Counter position opponent may transition to during failed bridge attempt
 
 
 </section>

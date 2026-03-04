@@ -21,7 +21,7 @@ The core principle behind this sweep is using the opponent's committed forward p
 
 This sweep occupies a unique position in the double unders defensive hierarchy. While most responses from double unders bottom focus on guard recovery through framing, deep half entries, or strategic position acceptance via granby rolls, the sweep offers the distinctive advantage of completely reversing the positional dynamic. The threat of the sweep also serves as a powerful deterrent that forces opponents to moderate their forward pressure, indirectly supporting other escape pathways by creating hesitation in the passer's commitment.
 
-**From Position**: [[Double Unders]] (Bottom)
+**From Position**: [[Positions/Double Unders]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ This sweep occupies a unique position in the double unders defensive hierarchy. 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Double Unders]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Double Unders]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Sweep from Double Unders occupies a unique role in the pressure passing defe
 ## Related Techniques
 
 
-- [[Double Unders]] - Starting position where the sweep is initiated from the bottom role
+- [[Positions/Double Unders]] - Starting position where the sweep is initiated from the bottom role
 
-- [[Side Control]] - Primary target position achieved upon successful sweep completion
+- [[Positions/Side Control]] - Primary target position achieved upon successful sweep completion
 
-- [[Guard Recovery from Double Unders]] - Alternative defensive option from the same starting position when sweep is not viable
+- [[Transitions/Guard Recovery from Double Unders]] - Alternative defensive option from the same starting position when sweep is not viable
 
-- [[Deep Half Guard]] - Alternative escape destination that chains with failed sweep attempts using generated momentum
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative escape destination that chains with failed sweep attempts using generated momentum
 
-- [[Butterfly Guard]] - Related guard position whose sweep mechanics inform the leg hook reversal variant
+- [[Positions/Butterfly Guard]] - Related guard position whose sweep mechanics inform the leg hook reversal variant
 
-- [[Half Guard]] - Fallback defensive position accessible if sweep partially succeeds but full reversal fails
+- [[Positions/Half Guard]] - Fallback defensive position accessible if sweep partially succeeds but full reversal fails
 
-- [[Turtle]] - Alternative escape position from double unders when sweep and guard recovery both fail
+- [[Positions/Turtle]] - Alternative escape position from double unders when sweep and guard recovery both fail
 
-- [[Butterfly Hook Sweep]] - Related sweeping technique sharing similar hip elevation and hook mechanics
+- [[Transitions/Butterfly Hook Sweep]] - Related sweeping technique sharing similar hip elevation and hook mechanics
 
-- [[Homer Simpson Sweep]] - Related sweep concept using opponent's forward pressure as the primary sweeping engine
+- [[Transitions/Homer Simpson Sweep]] - Related sweep concept using opponent's forward pressure as the primary sweeping engine
 
-- [[Open Guard]] - Guard recovery target that may result from partially successful sweep disrupting opponent's control
+- [[Positions/Open Guard]] - Guard recovery target that may result from partially successful sweep disrupting opponent's control
 
 
 </section>

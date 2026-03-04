@@ -95,23 +95,23 @@ From a systematic perspective, Cross Body Ride functions as a forcing position w
 ### Available Transitions
 
 
-- **[[Rolling to Guard]]** (15% of attempts)
+- **[[Transitions/Rolling to Guard]]** (15% of attempts)
 
-- **[[Turtle to Guard]]** (38% of attempts)
+- **[[Transitions/Turtle to Guard]]** (38% of attempts)
 
-- **[[Turtle to Standing]]** (15% of attempts)
+- **[[Transitions/Turtle to Standing]]** (15% of attempts)
 
-- **[[Sit Through to Guard]]** (13% of attempts)
+- **[[Transitions/Sit Through to Guard]]** (13% of attempts)
 
-- **[[Peterson Roll]]** (7% of attempts)
+- **[[Transitions/Peterson Roll]]** (7% of attempts)
 
-- **[[Hip Escape to Guard]]** (7% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (7% of attempts)
 
-- **[[Hip Escape from Cross Body Ride]]** (3% of attempts)
+- **[[Transitions/Hip Escape from Cross Body Ride]]** (3% of attempts)
 
-- **[[Roll Escape from Cross Body Ride]]** (1% of attempts)
+- **[[Transitions/Roll Escape from Cross Body Ride]]** (1% of attempts)
 
-- **[[Escape from Cross Body Ride]]** (1% of attempts)
+- **[[Transitions/Escape from Cross Body Ride]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -172,27 +172,27 @@ From a systematic perspective, Cross Body Ride functions as a forcing position w
 ### Available Transitions
 
 
-- **[[Turtle to Back Control]]** (51% of attempts)
+- **[[Transitions/Turtle to Back Control]]** (51% of attempts)
 
-- **[[Crucifix from Turtle]]** (17% of attempts)
+- **[[Transitions/Crucifix from Turtle]]** (17% of attempts)
 
-- **[[Twister]]** (3% of attempts)
+- **[[Submissions/Twister]]** (3% of attempts)
 
-- **[[Turtle Flatten to Side Control]]** (9% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control]]** (9% of attempts)
 
-- **[[Turtle to Truck]]** (7% of attempts)
+- **[[Transitions/Turtle to Truck]]** (7% of attempts)
 
-- **[[Crab Ride to Back]]** (7% of attempts)
+- **[[Transitions/Crab Ride to Back]]** (7% of attempts)
 
-- **[[Darce from Turtle]]** (1% of attempts)
+- **[[Transitions/Darce from Turtle]]** (1% of attempts)
 
-- **[[Cross Body to Back Control]]** (1% of attempts)
+- **[[Transitions/Cross Body to Back Control]]** (1% of attempts)
 
-- **[[Cross Body to Side Control]]** (1% of attempts)
+- **[[Transitions/Cross Body to Side Control]]** (1% of attempts)
 
-- **[[Twister Entry]]** (1% of attempts)
+- **[[Transitions/Twister Entry]]** (1% of attempts)
 
-- **[[Short Choke from Cross Body]]** (2% of attempts)
+- **[[Submissions/Short Choke from Cross Body]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -231,23 +231,23 @@ From a systematic perspective, Cross Body Ride functions as a forcing position w
 ## Related Positions
 
 
-- **[[Back Control]]** - Primary advancement target - highest percentage transition from cross body ride
+- **[[Positions/Back Control]]** - Primary advancement target - highest percentage transition from cross body ride
 
-- **[[Crucifix]]** - Secondary advancement target - exploits opponent's posting defense
+- **[[Positions/Crucifix]]** - Secondary advancement target - exploits opponent's posting defense
 
-- **[[Truck]]** - Alternative advancement - capitalized when opponent sits through
+- **[[Positions/Twister Control/Truck]]** - Alternative advancement - capitalized when opponent sits through
 
-- **[[Crab Ride]]** - Transitional variation - intermediate position to back control
+- **[[Positions/Crab Ride]]** - Transitional variation - intermediate position to back control
 
-- **[[Turtle]]** - Entry position - cross body ride established from turtle top control
+- **[[Positions/Turtle]]** - Entry position - cross body ride established from turtle top control
 
-- **[[Gift Wrap]]** - Related arm control - can be combined with cross body pressure
+- **[[Positions/Gift Wrap]]** - Related arm control - can be combined with cross body pressure
 
-- **[[Harness]]** - Control system - uses same seatbelt grip mechanics
+- **[[Positions/Harness]]** - Control system - uses same seatbelt grip mechanics
 
-- **[[Front Headlock]]** - Alternative turtle control - transitions possible between positions
+- **[[Positions/Front Headlock]]** - Alternative turtle control - transitions possible between positions
 
-- **[[Seat Belt Control Back]]** - Follow-up position - established after successful back take
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Follow-up position - established after successful back take
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Execute the Grip Strip from Buggy Choke to transition from a stall
 
 The Grip Strip from Buggy Choke is executed by the top player who has established buggy choke grips from turtle but recognizes the submission is not progressing against effective defensive grip fighting. Rather than exhausting energy on a defended choke, the attacker systematically breaks the bottom player's defensive grips and frames while maintaining body pressure, then redirects control into side control. This transition demands reading the defensive state accurately and timing the grip break to prevent escape attempts during the positional shift. The attacker must balance abandoning the choke quickly enough to maintain positional advantage while controlling the transition tightly enough to prevent the bottom player from exploiting the movement to escape to guard or reverse position.
 
-**From Position**: [[Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The Grip Strip from Buggy Choke is executed by the top player who has establishe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Buggy Choke]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Buggy Choke]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Grip Strip from Buggy Choke is executed by the top player who has establishe
 
 ## Opponent Counters
 
-- **Bottom player immediately re-grips or re-establishes defensive frames after each strip attempt** (Effectiveness: High) - Your Response: Switch to a two-on-one grip break on their strongest defensive grip, or maintain partial choke pressure with one hand while stripping with the other to prevent simultaneous re-gripping → Leads to [[Buggy Choke]]
-- **Bottom player sits to half guard during the transitional moment when choking grips are released** (Effectiveness: High) - Your Response: Anticipate the sit-out and immediately drive crossface pressure to flatten them before they can establish half guard frames. Follow their movement with hip pressure to prevent knee insertion and guard recovery → Leads to [[Half Guard]]
-- **Bottom player tucks elbows tight and turtles down to prevent grip access during strip attempt** (Effectiveness: Medium) - Your Response: Use body weight to flatten the turtle posture first by driving hips and chest down heavily, then peel grips from the weakened defensive structure once the tightened turtle collapses under sustained pressure → Leads to [[Buggy Choke]]
-- **Bottom player explosively granby rolls during the transition to recover guard or create distance** (Effectiveness: Medium) - Your Response: Maintain heavy hip pressure throughout to prevent rotational movement from developing. If the granby begins, follow the roll maintaining chest contact and establish side control on the opposite side or take the back → Leads to [[Half Guard]]
+- **Bottom player immediately re-grips or re-establishes defensive frames after each strip attempt** (Effectiveness: High) - Your Response: Switch to a two-on-one grip break on their strongest defensive grip, or maintain partial choke pressure with one hand while stripping with the other to prevent simultaneous re-gripping → Leads to [[Positions/Buggy Choke]]
+- **Bottom player sits to half guard during the transitional moment when choking grips are released** (Effectiveness: High) - Your Response: Anticipate the sit-out and immediately drive crossface pressure to flatten them before they can establish half guard frames. Follow their movement with hip pressure to prevent knee insertion and guard recovery → Leads to [[Positions/Half Guard]]
+- **Bottom player tucks elbows tight and turtles down to prevent grip access during strip attempt** (Effectiveness: Medium) - Your Response: Use body weight to flatten the turtle posture first by driving hips and chest down heavily, then peel grips from the weakened defensive structure once the tightened turtle collapses under sustained pressure → Leads to [[Positions/Buggy Choke]]
+- **Bottom player explosively granby rolls during the transition to recover guard or create distance** (Effectiveness: Medium) - Your Response: Maintain heavy hip pressure throughout to prevent rotational movement from developing. If the granby begins, follow the roll maintaining chest contact and establish side control on the opposite side or take the back → Leads to [[Positions/Half Guard]]
 
 
 </section>

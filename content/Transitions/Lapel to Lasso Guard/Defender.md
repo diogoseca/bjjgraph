@@ -158,7 +158,7 @@ The critical defensive window occurs between the moment you successfully strip t
 
 Successful defense demands continuous pressure and grip awareness throughout the lapel clearing process. Many passers make the mistake of treating lapel clearing as the end goal rather than the beginning of the passing sequence. The moment you free yourself from the lapel, you must immediately advance position or strip the sleeve grip that enables the lasso conversion. Passers who pause after clearing the lapel consistently find themselves caught in lasso guard, having traded one control system for another without meaningful positional improvement.
 
-**Opponent's Starting Position**: [[Lapel Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful defense demands continuous pressure and grip awareness throughout the
 ### 1. Step over the threading leg before lasso is established by lifting your foot over their shin and planting it on the far side of their hip
 
 - **When to use**: Immediately when you see or feel the opponent's shin beginning to cross your arm—this must happen before they achieve full extension and tension on the lasso
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You clear the lasso attempt entirely, ending up in a passing position with your leg past their guard structure. From here you can proceed to knee cut or pressure pass to consolidate half guard top or advance to side control
 - **Risk**: If you step over too slowly, the opponent catches your leg mid-step and establishes a deeper lasso or transitions to De La Riva guard using the same hooking motion
 
 ### 2. Drive aggressive forward pressure through the transition by dropping your hips and chest onto the opponent, flattening their perpendicular hip angle before they can complete the thread
 
 - **When to use**: When you recognize the hip rotation that precedes lasso threading—their hips turning perpendicular is your cue to immediately smash forward and deny the angle
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You flatten the opponent's guard structure, preventing the space needed for lasso threading. Their flattened hips leave them in a compromised half guard or allow you to complete a pressure pass to side control
 - **Risk**: Driving forward against an opponent who has already completed the lasso gives them sweep leverage—ensure you act before the lasso is established, not after
 
 ### 3. Strip the sleeve grip by peeling their fingers off your wrist using your free hand, removing the foundation that connects lapel guard to lasso guard
 
 - **When to use**: During the transition window when the opponent's grip is most vulnerable—they are adjusting from lapel control grips to lasso control grips and their sleeve hold may be compromised
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Without sleeve control the opponent cannot establish any meaningful lasso. They are left in a neutral open guard with no configured control system, giving you clean passing lanes with dominant grip advantage
 - **Risk**: Focusing on grip stripping can slow your forward advancement, and a skilled opponent may re-grip your sleeve or establish collar control while you work to break their hold
 
 ### 4. Circle away from the lasso side while pulling your elbow tight to your body, denying the gap between elbow and shoulder where the shin must thread
 
 - **When to use**: When you feel initial contact of the opponent's shin against your arm but they haven't yet achieved full threading—closing the elbow-shoulder gap makes it mechanically impossible to complete the lasso
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: The lasso attempt fails because there is no space for the shin to thread. You maintain passing position with the opponent stuck in a degraded open guard without their primary control system
 - **Risk**: Circling away without maintaining forward pressure can give the opponent time to re-establish lapel grips or transition to a different guard system like spider or collar sleeve
 
@@ -228,11 +228,11 @@ Successful defense demands continuous pressure and grip awareness throughout the
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lapel Guard]]
+### → [[Positions/Lapel Guard]]
 
 Strip the sleeve grip during the transition window or close the elbow gap to deny threading. Without the lasso conversion succeeding, the opponent is stuck in a degraded guard with their lapel already cleared. Immediately advance your passing sequence before they can re-establish any guard configuration.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Drive aggressive forward pressure the instant you recognize the hip rotation preceding the lasso attempt. Flatten their angle by smashing your hips forward and driving your knee through their guard structure. Even if you don't achieve full pass, landing in half guard top with dominant upper body control represents a significant positional improvement over being in any configured guard.
 

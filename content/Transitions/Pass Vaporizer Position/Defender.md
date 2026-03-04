@@ -146,7 +146,7 @@ description: "Complete guide to defending the Vaporizer pass in BJJ. Learn to ma
 
 Defending against the Vaporizer pass means maintaining the integrity of both control mechanisms—the lockdown and the underhook—while actively threatening sweeps and transitions that punish pass attempts. The defender's goal is to make every extraction attempt costly by increasing lockdown pressure, re-establishing controls when loosened, and capitalizing on the weight shifts inherent in passing mechanics to execute sweeps or advance to dominant attacking positions like the Electric Chair or Truck. The best defense is an aggressive offense that forces the top player to abandon their pass and focus on surviving your attacks instead.
 
-**Opponent's Starting Position**: [[Vaporizer]] (Top)
+**Opponent's Starting Position**: [[Positions/Vaporizer]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending against the Vaporizer pass means maintaining the integrity of both con
 ### 1. Increase lockdown extension and re-establish underhook depth to counter extraction
 
 - **When to use**: As soon as you feel the top player's trapped knee pointing toward the mat or any loosening in the lockdown configuration
-- **Targets**: [[Vaporizer]]
+- **Targets**: [[Positions/Vaporizer]]
 - **If successful**: Top player's extraction attempt fails and they remain trapped in the Vaporizer with your full control re-established
 - **Risk**: Focusing too much on re-locking may delay offensive transitions and allow top player to settle into a more stable defensive posture
 
 ### 2. Execute Old School sweep using top player's weight shift as the trigger
 
 - **When to use**: When top player shifts weight laterally during extraction attempt and posts a hand on the mat creating a leverage fulcrum
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You sweep the top player and establish a dominant top position, completely reversing the positional hierarchy
 - **Risk**: If the sweep fails, you may lose lockdown position and end up in standard half guard bottom without the Vaporizer controls
 
 ### 3. Insert knee for half guard retention as lockdown begins to clear
 
 - **When to use**: When you feel the lockdown is about to be fully cleared and you cannot re-establish it in time
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You prevent the full pass to side control and retain a guard position from which you can work to re-establish the lockdown or transition to other guards
 - **Risk**: Accepting half guard means losing the Vaporizer control and its associated offensive options
 
 ### 4. Threaten Electric Chair transition to force top player to abandon extraction and defend
 
 - **When to use**: When top player commits weight forward during extraction attempt, elevating their hips and creating the leg separation angle needed for Electric Chair
-- **Targets**: [[Vaporizer]]
+- **Targets**: [[Positions/Vaporizer]]
 - **If successful**: Top player abandons pass attempt to defend the submission threat, resetting the positional battle with your Vaporizer controls intact
 - **Risk**: If the Electric Chair setup is too shallow, the top player may use the transition to accelerate their extraction
 
@@ -217,11 +217,11 @@ Defending against the Vaporizer pass means maintaining the integrity of both con
 
 ## Best-Case Outcomes for Defender
 
-### → [[Vaporizer]]
+### → [[Positions/Vaporizer]]
 
 Maintain constant lockdown pressure through leg extension and re-establish underhook control whenever it is threatened. Actively increase whip-up pressure during extraction attempts to make the top player's position increasingly unstable. The goal is to make the Vaporizer so uncomfortable that they abandon pass attempts entirely.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time the Old School sweep to coincide with the top player's lateral weight shift during extraction. Post your outside foot and bridge toward their posted hand, using their own base structure against them. The sweep works best when they have partially committed to extraction and their weight distribution is compromised.
 

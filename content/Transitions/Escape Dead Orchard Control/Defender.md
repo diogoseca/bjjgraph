@@ -138,7 +138,7 @@ description: "Prevent the Dead Orchard Control escape as the top player in BJJ. 
 
 As the practitioner maintaining Dead Orchard Control while the bottom player attempts to escape, your task is to preserve grip integrity, counter hip escape movements, and capitalize on escape attempt openings to either finish the submission or advance to a superior position. The defender role in this transition requires sensitivity to the bottom player's movements and the ability to distinguish between genuine escape attempts that need countering and small defensive adjustments that can be absorbed without response. Over-reacting to minor movements wastes energy and can create the very openings the bottom player needs, while under-reacting to committed escape attempts allows them to build momentum toward recovery. The key is maintaining steady pressure while having pre-planned responses to each escape pathway.
 
-**Opponent's Starting Position**: [[Dead Orchard Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Dead Orchard Control]] (Bottom)
 
 </section>
 
@@ -176,28 +176,28 @@ As the practitioner maintaining Dead Orchard Control while the bottom player att
 ### 1. Increase shoulder pressure and re-tighten grip to collapse the frame before hip escape develops
 
 - **When to use**: When you feel the bottom player establishing a frame at your elbow but before they initiate hip movement
-- **Targets**: [[Dead Orchard Control]]
+- **Targets**: [[Positions/Dead Orchard Control]]
 - **If successful**: Frame is collapsed, bottom player returns to compressed state with reduced defensive resources
 - **Risk**: Over-committing forward can create space if bottom player times a forward roll
 
 ### 2. Walk hips toward bottom player's head to accelerate anaconda finishing angle
 
 - **When to use**: When bottom player's hip escape has stalled or when they are focused on arm extraction rather than angle defense
-- **Targets**: [[Game Over]]
+- **Targets**: [[Positions/Game Over]]
 - **If successful**: Anaconda choke finishes as the rotation creates full blood choke compression
 - **Risk**: If bottom player matches your rotation or forward rolls, you may lose the grip entirely
 
 ### 3. Release dead orchard grip to take back control when hip escape creates opening
 
 - **When to use**: When the bottom player's hip escape has significantly compromised the choke angle and the submission is no longer viable
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Transition to back control with hooks, establishing an even more dominant position
 - **Risk**: Bottom player may turn into you during the grip release and recover guard
 
 ### 4. Switch from anaconda to darce grip when trapped arm begins extracting
 
 - **When to use**: When the bottom player successfully creates space for arm extraction, changing the arm threading to maintain a choke threat
-- **Targets**: [[Dead Orchard Control]]
+- **Targets**: [[Positions/Dead Orchard Control]]
 - **If successful**: New submission threat is established from the changed grip, resetting the defensive challenge for the bottom player
 - **Risk**: The grip transition creates a momentary gap where bottom player may complete their escape
 
@@ -209,15 +209,15 @@ As the practitioner maintaining Dead Orchard Control while the bottom player att
 
 ## Best-Case Outcomes for Defender
 
-### → [[Dead Orchard Control]]
+### → [[Positions/Dead Orchard Control]]
 
 Maintain constant shoulder pressure, follow hip escape movements with your own adjustments, and re-tighten grip whenever the bottom player pauses between escape attempts
 
-### → [[Game Over]]
+### → [[Positions/Game Over]]
 
 When bottom player's escape stalls or they focus on arm extraction, walk hips toward their head to achieve the anaconda finishing angle and complete the blood choke
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When hip escape compromises the choke angle beyond recovery, release the dead orchard grip and transition to back control by stepping over and inserting hooks before the bottom player can turn in
 

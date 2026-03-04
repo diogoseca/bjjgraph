@@ -21,7 +21,7 @@ The core mechanic involves a controlled 180-degree rotation while maintaining hi
 
 Strategically, this transition should be executed within the first 3-5 seconds of achieving reverse mount. Delaying the rotation allows the bottom player to develop frames, begin hip escapes, or create angles that complicate the turn. The most common failure occurs when the top player attempts to spin too quickly without maintaining base, allowing the bottom player to insert a knee during the rotation and recover half guard. Conversely, spinning too slowly telegraphs the movement and gives the opponent time to bridge at the precise moment weight distribution is compromised during the turn. Reading the opponent's energy level and defensive posture determines whether to spin over the near shoulder or far shoulder, each direction offering different advantages against specific escape patterns.
 
-**From Position**: [[Reverse Mount]] (Top)
+**From Position**: [[Positions/Reverse Mount]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition should be executed within the first 3-5 seconds o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Reverse Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Reverse Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Reverse Mount to Mount transition sits at a critical junction in the top-pla
 ## Related Techniques
 
 
-- [[Reverse Mount]] - Source position - the starting point for this transition where practitioner faces opponent's feet
+- [[Positions/Reverse Mount]] - Source position - the starting point for this transition where practitioner faces opponent's feet
 
-- [[Mount]] - Target position - the standard mount achieved upon successful rotation providing superior control and submissions
+- [[Positions/Mount]] - Target position - the standard mount achieved upon successful rotation providing superior control and submissions
 
-- [[Half Guard]] - Counter outcome - position reached if opponent successfully inserts knee during rotation
+- [[Positions/Half Guard]] - Counter outcome - position reached if opponent successfully inserts knee during rotation
 
-- [[Back Control]] - Alternative transition from reverse mount when opponent turns to side instead of staying flat
+- [[Positions/Back Control]] - Alternative transition from reverse mount when opponent turns to side instead of staying flat
 
-- [[Technical Mount]] - Related mount variation that can be established mid-rotation if opponent begins turning
+- [[Positions/Mount/Technical Mount]] - Related mount variation that can be established mid-rotation if opponent begins turning
 
-- [[S Mount]] - Advanced mount variation accessible after completing the rotation if opponent extends an arm
+- [[Positions/Mount/S Mount]] - Advanced mount variation accessible after completing the rotation if opponent extends an arm
 
-- [[Armbar from Reverse Mount]] - Alternative attack from reverse mount if opponent creates armbar opportunity before rotation
+- [[Transitions/Armbar from Reverse Mount]] - Alternative attack from reverse mount if opponent creates armbar opportunity before rotation
 
-- [[Escape Reverse Mount]] - Opponent's primary escape technique that this transition must preempt through quick execution
+- [[Transitions/Escape Reverse Mount]] - Opponent's primary escape technique that this transition must preempt through quick execution
 
-- [[Bridge from Reverse Mount]] - Opponent's bridge escape that threatens during the rotation when weight distribution shifts
+- [[Transitions/Bridge from Reverse Mount]] - Opponent's bridge escape that threatens during the rotation when weight distribution shifts
 
-- [[High Mount]] - Advanced mount position accessible after completing rotation and advancing knees toward armpits
+- [[Positions/Mount/High Mount]] - Advanced mount position accessible after completing rotation and advancing knees toward armpits
 
 
 </section>

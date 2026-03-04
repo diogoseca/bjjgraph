@@ -138,7 +138,7 @@ description: "Master defending against the bottom player's framing attempts from
 
 As the defender, you are the top player in Side Control Consolidation attempting to complete your consolidation against the bottom player's framing attempts. Your goal is to prevent effective frames from being established, collapse any frames that do get inserted, and either re-establish full consolidation or capitalize on the bottom player's movement to advance to a more dominant position. Understanding the biomechanics of framing allows you to anticipate where frames will be placed and preemptively shut down insertion angles. The key insight is that frames are most vulnerable during insertion and immediately after; once a frame is structurally locked with skeletal alignment and hip angle, collapsing it requires significantly more effort than preventing it in the first place.
 
-**Opponent's Starting Position**: [[Side Control Consolidation]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control/Side Control Consolidation]] (Bottom)
 
 </section>
 
@@ -175,28 +175,28 @@ As the defender, you are the top player in Side Control Consolidation attempting
 ### 1. Collapse frame immediately with chest weight drop and crossface pressure increase
 
 - **When to use**: When frame is first being inserted and has not yet been reinforced with hip angle change
-- **Targets**: [[Side Control Consolidation]]
+- **Targets**: [[Positions/Side Control/Side Control Consolidation]]
 - **If successful**: Frame collapses before structural integrity is established, bottom player returns to fully consolidated position with reduced energy
 - **Risk**: If frame survives the initial collapse attempt, you may have committed weight forward, creating a brief hip escape window
 
 ### 2. Swim underhook past the frame and re-establish chest-to-chest control from new angle
 
 - **When to use**: When hip frame is structurally sound and direct collapse fails against skeletal alignment
-- **Targets**: [[Side Control Consolidation]]
+- **Targets**: [[Positions/Side Control/Side Control Consolidation]]
 - **If successful**: Bypasses the frame entirely by changing the angle of engagement, re-establishing consolidation from a direction the frame does not address
 - **Risk**: Swimming motion temporarily lifts chest pressure, creating a window for the bottom player to chain into full hip escape
 
 ### 3. Capitalize on frame space to step over into mount transition
 
 - **When to use**: When bottom player's frames create space between bodies that also opens their hip line for leg passage
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Advancing to mount makes the bottom player's frames irrelevant and achieves a more dominant position with higher point value
 - **Risk**: If the step-over is blocked by knee insertion, you may end up in half guard bottom player's escape chain
 
 ### 4. Pin framing wrist to mat and attack arm isolation for kimura or americana
 
 - **When to use**: When bottom player extends their arm too far during frame attempt, creating submission opportunity
-- **Targets**: [[Side Control Consolidation]]
+- **Targets**: [[Positions/Side Control/Side Control Consolidation]]
 - **If successful**: Submission threat forces bottom player to abandon frame and prioritize arm defense, allowing you to re-consolidate while they recover defensively
 - **Risk**: Committing to submission attack requires releasing some control points, potentially enabling escape if submission fails
 
@@ -208,11 +208,11 @@ As the defender, you are the top player in Side Control Consolidation attempting
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control Consolidation]]
+### → [[Positions/Side Control/Side Control Consolidation]]
 
 Collapse frames immediately upon insertion using heavy chest drop combined with crossface pressure increase. Address frames before the bottom player reinforces them with hip angle changes. Preemptively control the far arm through underhook or wrist pinning to prevent frame construction entirely.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the bottom player's framing creates space between bodies, use that space offensively by stepping your near leg over their hip line into mount. The framing motion often exposes the hip passage needed for mount transition. Time the step-over when their frame is committed and they cannot redirect it to block your leg.
 

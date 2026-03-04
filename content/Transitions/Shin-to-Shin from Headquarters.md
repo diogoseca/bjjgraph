@@ -21,7 +21,7 @@ This transition represents a paradigm shift from passive guard retention to acti
 
 The timing window for this transition is narrow but identifiable. The optimal moment occurs when the top player shifts weight or adjusts grips to initiate a specific passing direction, momentarily lightening pressure on the controlled leg or creating space with their posting leg. Recognizing and exploiting these micro-windows separates effective guard players from those who remain trapped in the headquarters cycle of pass-defend-repass.
 
-**From Position**: [[Headquarters Position]] (Bottom)
+**From Position**: [[Positions/Headquarters Position]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ The timing window for this transition is narrow but identifiable. The optimal mo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Shin-to-Shin Guard]] | 50% |
-| Failure | [[Headquarters Position]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Shin-to-Shin Guard]] | 50% |
+| Failure | [[Positions/Headquarters Position]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -191,29 +191,29 @@ Shin-to-Shin from Headquarters occupies a vital role in the guard retention ecos
 ## Related Techniques
 
 
-- [[Headquarters Position]] - Starting position - the passing hub from which bottom player must escape or counter
+- [[Positions/Headquarters Position]] - Starting position - the passing hub from which bottom player must escape or counter
 
-- [[Shin-to-Shin Guard]] - Target position - the guard established upon successful shin insertion
+- [[Positions/Shin-to-Shin Guard]] - Target position - the guard established upon successful shin insertion
 
-- [[Open Guard]] - Counter outcome - position reached if top player clears shin and resets to open guard engagement
+- [[Positions/Open Guard]] - Counter outcome - position reached if top player clears shin and resets to open guard engagement
 
-- [[Single Leg X-Guard]] - Follow-up transition from established shin-to-shin guard position
+- [[Positions/X-Guard/Single Leg X-Guard]] - Follow-up transition from established shin-to-shin guard position
 
-- [[X-Guard]] - Advanced follow-up position accessible through shin-to-shin elevation mechanics
+- [[Positions/X-Guard]] - Advanced follow-up position accessible through shin-to-shin elevation mechanics
 
-- [[Knee Cut from Headquarters]] - Primary passing threat that creates timing windows for shin insertion
+- [[Transitions/Knee Cut from Headquarters]] - Primary passing threat that creates timing windows for shin insertion
 
-- [[Shin-to-Shin Sweep]] - Offensive continuation once shin-to-shin guard is established
+- [[Transitions/Shin-to-Shin Sweep]] - Offensive continuation once shin-to-shin guard is established
 
-- [[Shin-to-Shin to Single Leg X]] - Chain transition from established shin-to-shin to deeper leg entanglement
+- [[Transitions/Shin-to-Shin to Single Leg X]] - Chain transition from established shin-to-shin to deeper leg entanglement
 
-- [[Pressure from Shin-to-Shin]] - Top player's counter-strategy once shin-to-shin is established
+- [[Transitions/Pressure from Shin-to-Shin]] - Top player's counter-strategy once shin-to-shin is established
 
-- [[Combat Base]] - Position top player may retreat to when shin-to-shin disrupts headquarters structure
+- [[Positions/Combat Base]] - Position top player may retreat to when shin-to-shin disrupts headquarters structure
 
-- [[Butterfly Guard]] - Alternative guard the bottom player may transition to if shin-to-shin is partially blocked
+- [[Positions/Butterfly Guard]] - Alternative guard the bottom player may transition to if shin-to-shin is partially blocked
 
-- [[De La Riva Guard]] - Complementary open guard sharing similar distance management and leg entanglement concepts
+- [[Positions/De La Riva Guard]] - Complementary open guard sharing similar distance management and leg entanglement concepts
 
 
 </section>

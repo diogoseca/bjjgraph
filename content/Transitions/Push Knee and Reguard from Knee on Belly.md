@@ -21,7 +21,7 @@ Unlike frame-based escapes that work around the knee pressure, this technique di
 
 This escape is most effective when the top player commits their weight to knee pressure rather than maintaining a mobile, transitional stance. The technique serves as a direct answer to heavy, grinding knee on belly pressure and integrates naturally with other KOB escape sequences, creating a chain of attempts that progressively degrades the top player's control even when individual attempts fail.
 
-**From Position**: [[Knee on Belly]] (Bottom)
+**From Position**: [[Positions/Knee on Belly]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ This escape is most effective when the top player commits their weight to knee p
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 40% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Knee on Belly]] | 25% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Closed Guard]] | 40% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Knee on Belly]] | 25% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -192,23 +192,23 @@ The Push Knee and Reguard fits within the broader Knee on Belly escape system as
 ## Related Techniques
 
 
-- [[Knee on Belly]] - Source position — this escape initiates from Knee on Belly bottom
+- [[Positions/Knee on Belly]] - Source position — this escape initiates from Knee on Belly bottom
 
-- [[Closed Guard]] - Primary target position after successful reguard
+- [[Positions/Closed Guard]] - Primary target position after successful reguard
 
-- [[Half Guard]] - Alternate guard recovery destination when full guard closure is blocked
+- [[Positions/Half Guard]] - Alternate guard recovery destination when full guard closure is blocked
 
-- [[Frame and Shrimp from Knee on Belly]] - Complementary KOB escape — chains with this technique when push is blocked
+- [[Transitions/Frame and Shrimp from Knee on Belly]] - Complementary KOB escape — chains with this technique when push is blocked
 
-- [[Mount]] - Counter outcome position if opponent slides knee to mount during escape
+- [[Positions/Mount]] - Counter outcome position if opponent slides knee to mount during escape
 
-- [[Side Control]] - Related pressure position with similar escape mechanics and frame concepts
+- [[Positions/Side Control]] - Related pressure position with similar escape mechanics and frame concepts
 
-- [[Open Guard]] - Alternative guard recovery destination requiring less leg control
+- [[Positions/Open Guard]] - Alternative guard recovery destination requiring less leg control
 
-- [[KOB to Mount]] - Transition this escape must prevent — primary threat during push execution
+- [[Transitions/KOB to Mount]] - Transition this escape must prevent — primary threat during push execution
 
-- [[KOB to Side Control]] - Opponent's consolidation option when KOB is disrupted but escape incomplete
+- [[Transitions/KOB to Side Control]] - Opponent's consolidation option when KOB is disrupted but escape incomplete
 
 
 </section>

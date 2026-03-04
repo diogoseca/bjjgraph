@@ -21,7 +21,7 @@ The Knee Through differs from the Knee Slice in that it emphasizes driving the k
 
 This pass forms the cornerstone of pressure-based passing systems and serves as a critical transition between standing passes and consolidated top positions. Its high success rate at advanced levels stems from the difficulty of defending simultaneous upper body pressure and forward knee drive. The technique chains naturally with the Knee Slice Pass and Long Step Pass, creating a three-option passing framework that covers the primary defensive reactions from half guard bottom.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 68%
 
 </section>
@@ -32,9 +32,9 @@ This pass forms the cornerstone of pressure-based passing systems and serves as 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 68% |
-| Failure | [[Half Guard]] | 20% |
-| Counter | [[Half Guard]] | 12% |
+| Success | [[Positions/Side Control]] | 68% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>
@@ -189,29 +189,29 @@ The Knee Through pass represents a fundamental element in the pressure passing s
 ## Related Techniques
 
 
-- [[Knee Slice Pass]] - Alternative half guard pass using lateral cutting motion rather than straight-line drive
+- [[Transitions/Knee Slice Pass]] - Alternative half guard pass using lateral cutting motion rather than straight-line drive
 
-- [[Long Step Pass]] - Complementary pass when opponent extends knee shield and prevents forward pressure
+- [[Transitions/Long Step Pass]] - Complementary pass when opponent extends knee shield and prevents forward pressure
 
-- [[Half Guard Pass]] - General passing category containing this specific technique
+- [[Transitions/Half Guard Pass]] - General passing category containing this specific technique
 
-- [[Crossface Pass]] - Related pressure pass sharing crossface control mechanics
+- [[Transitions/Crossface Pass]] - Related pressure pass sharing crossface control mechanics
 
-- [[Back Step Pass]] - Alternative direction pass when forward drive is blocked
+- [[Transitions/Back Step Pass]] - Alternative direction pass when forward drive is blocked
 
-- [[Side Control]] - Primary ending position after successful pass completion
+- [[Positions/Side Control]] - Primary ending position after successful pass completion
 
-- [[Knee on Belly]] - Alternative consolidation position after pass clears the legs
+- [[Positions/Knee on Belly]] - Alternative consolidation position after pass clears the legs
 
-- [[Kimura from Side Control]] - Common submission follow-up after establishing side control
+- [[Submissions/Kimura from Side Control]] - Common submission follow-up after establishing side control
 
-- [[Darce Choke]] - Submission opportunity when opponent turns into you during pass
+- [[Transitions/Darce Choke]] - Submission opportunity when opponent turns into you during pass
 
-- [[Deep Half Guard]] - Counter position opponent may attempt during leg extraction phase
+- [[Positions/Half Guard/Deep Half Guard]] - Counter position opponent may attempt during leg extraction phase
 
-- [[Half Guard]] - Starting position from which this pass is initiated
+- [[Positions/Half Guard]] - Starting position from which this pass is initiated
 
-- [[Knee Shield Half Guard]] - Half guard variation requiring specific adjustments before initiating pass
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Half guard variation requiring specific adjustments before initiating pass
 
 
 </section>

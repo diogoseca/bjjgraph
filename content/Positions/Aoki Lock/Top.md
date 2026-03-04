@@ -205,15 +205,15 @@ The Aoki Lock top position is particularly effective in no-gi competition where 
 
 ## Available Attacks
 
-### [[Aoki Lock Finish]] (38% of attempts)
+### [[Transitions/Aoki Lock Finish]] (38% of attempts)
 
-### [[Aoki Lock to Back Control]] (22% of attempts)
+### [[Transitions/Aoki Lock to Back Control]] (22% of attempts)
 
-### [[Aoki Lock to Crucifix]] (15% of attempts)
+### [[Transitions/Aoki Lock to Crucifix]] (15% of attempts)
 
-### [[Kimura Switch]] (10% of attempts)
+### [[Transitions/Kimura Switch]] (10% of attempts)
 
-### [[Truck Entry]] (15% of attempts)
+### [[Transitions/Truck Entry]] (15% of attempts)
 
 
 
@@ -224,23 +224,23 @@ The Aoki Lock top position is particularly effective in no-gi competition where 
 ## Decision Making from This Position
 
 **If opponent attempts to roll forward through the position:**
-- Execute **[[Follow to Back Control]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Maintain Aoki Lock]]** → [[Aoki Lock]] (Probability: 30%)
+- Execute **[[Transitions/Follow to Back Control]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Maintain Aoki Lock]]** → [[Positions/Aoki Lock]] (Probability: 30%)
 
 
 **If opponent turns away or creates hip distance:**
-- Execute **[[Truck Entry]]** → [[Truck]] (Probability: 65%)
-- Execute **[[Follow to Back]]** → [[Back Control]] (Probability: 35%)
+- Execute **[[Transitions/Truck Entry]]** → [[Positions/Twister Control/Truck]] (Probability: 65%)
+- Execute **[[Follow to Back]]** → [[Positions/Back Control]] (Probability: 35%)
 
 
 **If opponent exposes far arm while defending:**
-- Execute **[[Crucifix Transition]]** → [[Crucifix]] (Probability: 60%)
-- Execute **[[Kimura Switch]]** → [[Kimura Trap]] (Probability: 40%)
+- Execute **[[Transitions/Crucifix Transition]]** → [[Positions/Crucifix]] (Probability: 60%)
+- Execute **[[Transitions/Kimura Switch]]** → [[Positions/Kimura Trap]] (Probability: 40%)
 
 
 **If opponent's shoulder is fully controlled with no escape attempts:**
-- Execute **[[Finish Aoki Lock]]** → [[Game Over]] (Probability: 75%)
-- Execute **[[Transition to Back]]** → [[Back Control]] (Probability: 25%)
+- Execute **[[Finish Aoki Lock]]** → [[Positions/Game Over]] (Probability: 75%)
+- Execute **[[Transition to Back]]** → [[Positions/Back Control]] (Probability: 25%)
 
 
 
@@ -379,16 +379,16 @@ With compliant partner practice applying Aoki Lock pressure using 3-5 second gra
 
 ## Related Positions and Techniques
 
-- **[[Aoki Lock]]** - Primary submission finish from this position
-- **[[Truck]]** - Transition target - alternative control position
-- **[[Back Control]]** - Transition target - superior control position
-- **[[Crucifix]]** - Transition target - alternative submission control
-- **[[Kimura Trap]]** - Transition target - related shoulder lock control
-- **[[Omoplata Control]]** - Related position - similar shoulder lock mechanics
-- **[[Front Headlock]]** - Common entry position for Aoki Lock attacks
-- **[[Aoki Lock Finish]]** - Primary finishing transition from this position
-- **[[Aoki Lock to Back Control]]** - Key transition when finish is defended
-- **[[Aoki Lock to Crucifix]]** - Transition when far arm is exposed
+- **[[Positions/Aoki Lock]]** - Primary submission finish from this position
+- **[[Positions/Twister Control/Truck]]** - Transition target - alternative control position
+- **[[Positions/Back Control]]** - Transition target - superior control position
+- **[[Positions/Crucifix]]** - Transition target - alternative submission control
+- **[[Positions/Kimura Trap]]** - Transition target - related shoulder lock control
+- **[[Positions/Omoplata Control]]** - Related position - similar shoulder lock mechanics
+- **[[Positions/Front Headlock]]** - Common entry position for Aoki Lock attacks
+- **[[Transitions/Aoki Lock Finish]]** - Primary finishing transition from this position
+- **[[Transitions/Aoki Lock to Back Control]]** - Key transition when finish is defended
+- **[[Transitions/Aoki Lock to Crucifix]]** - Transition when far arm is exposed
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Master defending the grip switch from toe hold to straight ankle l
 
 From the defender's perspective, the attacker's grip switch from toe hold to straight ankle lock represents both danger and opportunity. The danger lies in the new submission threat attacking a different mechanical plane, potentially catching the defender unprepared after they invested effort in neutralizing the toe hold. The opportunity lies in the momentary grip release required for the reconfiguration, which creates the best escape window available in the entire leg entanglement exchange. Recognizing the grip change early and responding decisively during the transition window is the defender's primary objective. The defender must understand that the same boot defense and internal rotation that successfully neutralized the toe hold may actually facilitate the ankle lock by exposing the Achilles tendon, requiring an adjustment in defensive foot positioning when the grip switch is detected. Effective defense requires reading the attacker's preparatory movements, recognizing when the grip change is imminent, and having pre-planned responses that exploit the control gap rather than simply weathering the new submission threat.
 
-**Opponent's Starting Position**: [[Toe Hold Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Toe Hold Control]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ From the defender's perspective, the attacker's grip switch from toe hold to str
 ### 1. Explosive leg extraction during grip release window
 
 - **When to use**: The moment you feel the toe hold figure-four grip loosen or release, immediately pull your knee toward your chest with maximal hip flexion while pushing off the attacker's hips with your free leg
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Complete leg extraction from the entanglement, recovering to half guard where the leg lock threat is eliminated and you have re-established a functional guard position
 - **Risk**: If the attacker's leg entanglement is sufficiently tight, the extraction attempt fails and you may end up more extended, potentially facilitating the ankle lock they are transitioning toward
 
 ### 2. Sit up and post during momentary control gap
 
 - **When to use**: When you detect the grip change beginning and the attacker's forward pressure decreases even slightly during the hand reconfiguration
-- **Targets**: [[Toe Hold Control]]
+- **Targets**: [[Positions/Toe Hold Control]]
 - **If successful**: Achieving upright posture disrupts the attacker's ability to complete the ankle lock setup and creates angles for systematic leg extraction from the entanglement
 - **Risk**: If the attacker maintains strong forward hip pressure, the sit-up attempt may fail and waste defensive energy needed for subsequent escape attempts
 
 ### 3. Counter-rotate foot externally to deny Achilles exposure
 
 - **When to use**: When you recognize the attacker is redirecting their grip from the foot to the Achilles area, immediately rotate your foot externally to hide the Achilles tendon
-- **Targets**: [[Toe Hold Control]]
+- **Targets**: [[Positions/Toe Hold Control]]
 - **If successful**: Forces the attacker to either abandon the ankle lock attempt and return to toe hold, or attempt the ankle lock with suboptimal forearm placement that lacks finishing leverage
 - **Risk**: External foot rotation re-exposes you to the toe hold attack, potentially giving the attacker a better toe hold angle than they had before the switch attempt
 
 ### 4. Free leg frame and counter-entangle
 
 - **When to use**: During the transition window when the attacker's attention and hands are focused on grip reconfiguration rather than controlling your free leg
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Establishing a frame on the attacker's hips creates distance for leg extraction, or threading your free leg into their entanglement creates a symmetrical position that neutralizes the submission threat
 - **Risk**: Counter-entanglement attempts that fail may result in the attacker gaining additional control over both legs, worsening your defensive position
 
@@ -217,11 +217,11 @@ From the defender's perspective, the attacker's grip switch from toe hold to str
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the grip release window by pulling your knee to your chest with maximum hip flexion while simultaneously pushing the attacker's hips away with your free leg. The staggered hand release during the grip change creates a 1-2 second window where leg extraction is most viable. Time your escape attempt to the moment you feel the figure-four grip loosen rather than waiting for the new grip to consolidate.
 
-### → [[Toe Hold Control]]
+### → [[Positions/Toe Hold Control]]
 
 Prevent the successful grip transition by counter-rotating your foot externally when you detect the switch, forcing the attacker back to the toe hold configuration where your existing defensive protocols remain effective. While this does not escape the entanglement, it prevents position worsening and forces the attacker to re-attempt a submission you have already demonstrated ability to defend.
 

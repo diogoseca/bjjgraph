@@ -180,7 +180,7 @@ description: "Execute the Kneebar from Estima Lock transition in BJJ. Step-by-st
 
 As the attacker executing the Kneebar from Estima Lock, your objective is to capitalize on the opponent's footlock defense by redirecting your attack from the ankle to the knee joint. The transition requires recognizing specific defensive patterns—counter-rotation of the foot, leg straightening for extraction, or frame creation with the free leg—and responding with a decisive hip switch that repositions your body perpendicular to the opponent's thigh. The key mechanical insight is that you never fully release leg control during the transition; instead, you slide your control point from the foot up to the knee while maintaining continuous pressure that prevents the opponent from recovering guard or creating distance. Success depends on timing the transition to coincide with the opponent's defensive commitment, precise hip placement across the front of the knee joint, and rapid consolidation of kneebar control before the opponent can adjust their defense to address the new threat vector.
 
-**From Position**: [[Estima Lock]] (Top)
+**From Position**: [[Positions/Estima Lock]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ As the attacker executing the Kneebar from Estima Lock, your objective is to cap
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kneebar Control]] | 50% |
-| Failure | [[Estima Lock]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Kneebar Control]] | 50% |
+| Failure | [[Positions/Estima Lock]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the Kneebar from Estima Lock, your objective is to cap
 
 ## Opponent Counters
 
-- **Opponent bends their knee sharply to prevent hyperextension during the hip switch** (Effectiveness: High) - Your Response: Thread your shin behind their calf to create a calf slicer threat that forces them to straighten, or maintain thigh control and work to pry the knee straight using hip pressure and forearm leverage against their ankle → Leads to [[Estima Lock]]
-- **Opponent uses free leg to push your hips away and create distance before you complete the transition** (Effectiveness: High) - Your Response: Trap their free leg with an underhook or by threading your arm under their knee before committing to the hip switch, or use a rolling entry that bypasses the free leg push entirely → Leads to [[Open Guard]]
-- **Opponent sits up and establishes grips on your body during the grip change** (Effectiveness: Medium) - Your Response: Accelerate through the transition rather than pausing—the sitting up motion actually brings their knee closer to your hips, making the kneebar easier if you complete the hip switch quickly before they can establish meaningful control → Leads to [[Estima Lock]]
-- **Opponent rolls toward you during the transition to alleviate kneebar angle** (Effectiveness: Medium) - Your Response: Follow their roll and maintain leg control throughout, using their rotational momentum to arrive in a belly-down kneebar position which is actually stronger than the standard position. Keep your grip locked on the thigh regardless of the rolling direction. → Leads to [[Kneebar Control]]
+- **Opponent bends their knee sharply to prevent hyperextension during the hip switch** (Effectiveness: High) - Your Response: Thread your shin behind their calf to create a calf slicer threat that forces them to straighten, or maintain thigh control and work to pry the knee straight using hip pressure and forearm leverage against their ankle → Leads to [[Positions/Estima Lock]]
+- **Opponent uses free leg to push your hips away and create distance before you complete the transition** (Effectiveness: High) - Your Response: Trap their free leg with an underhook or by threading your arm under their knee before committing to the hip switch, or use a rolling entry that bypasses the free leg push entirely → Leads to [[Positions/Open Guard]]
+- **Opponent sits up and establishes grips on your body during the grip change** (Effectiveness: Medium) - Your Response: Accelerate through the transition rather than pausing—the sitting up motion actually brings their knee closer to your hips, making the kneebar easier if you complete the hip switch quickly before they can establish meaningful control → Leads to [[Positions/Estima Lock]]
+- **Opponent rolls toward you during the transition to alleviate kneebar angle** (Effectiveness: Medium) - Your Response: Follow their roll and maintain leg control throughout, using their rotational momentum to arrive in a belly-down kneebar position which is actually stronger than the standard position. Keep your grip locked on the thigh regardless of the rolling direction. → Leads to [[Positions/Kneebar Control]]
 
 
 </section>

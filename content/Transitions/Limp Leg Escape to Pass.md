@@ -21,7 +21,7 @@ This escape exemplifies the counter-intuitive nature of high-level grappling def
 
 The technique integrates seamlessly with standard half guard passing strategies. Once the leg is extracted through the limp leg mechanics, the top player can immediately transition to knee slice, smash pass, or other high-percentage passing sequences. Understanding this escape is essential for any practitioner facing lockdown-based half guards, as it provides the primary pathway out of an otherwise dangerous position.
 
-**From Position**: [[Electric Chair]] (Top)
+**From Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The technique integrates seamlessly with standard half guard passing strategies.
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 65% |
-| Failure | [[Electric Chair]] | 25% |
-| Counter | [[Deep Half Guard]] | 10% |
+| Success | [[Positions/Half Guard]] | 65% |
+| Failure | [[Positions/Half Guard/Electric Chair]] | 25% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 10% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Limp Leg Escape represents the primary defensive pathway from Electric Chair
 ## Related Techniques
 
 
-- [[Electric Chair]] - Starting position - this escape counters Electric Chair attacks
+- [[Positions/Half Guard/Electric Chair]] - Starting position - this escape counters Electric Chair attacks
 
-- [[Lockdown]] - Component position - lockdown creates the leg entanglement this escape addresses
+- [[Positions/Half Guard/Lockdown]] - Component position - lockdown creates the leg entanglement this escape addresses
 
-- [[Half Guard]] - Target position - successful escape returns you to half guard top
+- [[Positions/Half Guard]] - Target position - successful escape returns you to half guard top
 
-- [[Knee Slice Pass]] - Follow-up technique - primary passing option after extraction
+- [[Transitions/Knee Slice Pass]] - Follow-up technique - primary passing option after extraction
 
-- [[Smash Pass]] - Follow-up technique - alternative passing option after extraction
+- [[Transitions/Smash Pass]] - Follow-up technique - alternative passing option after extraction
 
-- [[Deep Half Guard]] - Counter threat - opponent may transition here if escape is slow
+- [[Positions/Half Guard/Deep Half Guard]] - Counter threat - opponent may transition here if escape is slow
 
-- [[Old School Sweep]] - Counter threat - opponent may attempt this if you create space
+- [[Transitions/Old School Sweep]] - Counter threat - opponent may attempt this if you create space
 
-- [[Darce Choke]] - Counter-attack option - available if opponent turns significantly during escape
+- [[Transitions/Darce Choke]] - Counter-attack option - available if opponent turns significantly during escape
 
-- [[Back Take from Lockdown Defense]] - Alternative outcome - possible when opponent overcommits to preventing escape
+- [[Transitions/Back Take from Lockdown Defense]] - Alternative outcome - possible when opponent overcommits to preventing escape
 
-- [[Side Control]] - Ultimate destination - target position after passing from escaped half guard
+- [[Positions/Side Control]] - Ultimate destination - target position after passing from escaped half guard
 
 
 </section>

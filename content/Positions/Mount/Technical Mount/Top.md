@@ -211,27 +211,27 @@ This position represents a critical junction in mount offense where the practiti
 
 ## Available Attacks
 
-### [[Mount to Armbar]] (50% of attempts)
+### [[Transitions/Mount to Armbar]] (50% of attempts)
 
-### [[Back Take]] (20% of attempts)
+### [[Transitions/Back Take]] (20% of attempts)
 
-### [[Consolidate Mount]] (10% of attempts)
+### [[Transitions/Consolidate Mount]] (10% of attempts)
 
-### [[Triangle Setup]] (6% of attempts)
+### [[Transitions/Triangle Setup]] (6% of attempts)
 
-### [[Gift Wrap Control]] (4% of attempts)
+### [[Transitions/Gift Wrap Control]] (4% of attempts)
 
-### [[High Mount Transition]] (3% of attempts)
+### [[Transitions/High Mount Transition]] (3% of attempts)
 
-### [[Technical Mount to Back Control]] (1% of attempts)
+### [[Transitions/Technical Mount to Back Control]] (1% of attempts)
 
-### [[Technical Mount to Mount]] (1% of attempts)
+### [[Transitions/Technical Mount to Mount]] (1% of attempts)
 
-### [[Technical Mount to S Mount]] (1% of attempts)
+### [[Transitions/Technical Mount to S Mount]] (1% of attempts)
 
-### [[Americana from Technical Mount]] (2% of attempts)
+### [[Submissions/Americana from Technical Mount]] (2% of attempts)
 
-### [[Armbar from Technical Mount]] (2% of attempts)
+### [[Submissions/Armbar from Technical Mount]] (2% of attempts)
 
 
 
@@ -242,23 +242,23 @@ This position represents a critical junction in mount offense where the practiti
 ## Decision Making from This Position
 
 **If opponent extends arm defensively while in mount and fails to immediately retract:**
-- Execute **[[Mount to Armbar]]** → [[Armbar Control]] (Probability: 70%)
-- Execute **[[High Mount Transition]]** → [[S Mount]] (Probability: 60%)
+- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 70%)
+- Execute **[[Transitions/High Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 60%)
 
 
 **If opponent defends armbar by turning away and exposing back:**
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Gift Wrap Control]]** → [[Gift Wrap]] (Probability: 65%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Gift Wrap Control]]** → [[Positions/Gift Wrap]] (Probability: 65%)
 
 
 **If opponent successfully retracts arm before armbar completion:**
-- Execute **[[Consolidate Mount]]** → [[Mount]] (Probability: 80%)
-- Execute **[[Triangle Setup]]** → [[Mounted Triangle]] (Probability: 50%)
+- Execute **[[Transitions/Consolidate Mount]]** → [[Positions/Mount]] (Probability: 80%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 50%)
 
 
 **If opponent bridges explosively or attempts to roll while arm is controlled:**
-- Execute **[[Mount to Armbar]]** → [[Armbar Control]] (Probability: 65%)
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 65%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 
@@ -387,15 +387,15 @@ Partner cycles through three defenses in sequence: arm retraction (recover mount
 
 ## Related Positions and Techniques
 
-- **[[Mount]]** - Parent position - base mount before transitioning to Technical Mount
-- **[[S Mount]]** - Similar variation - alternative asymmetric mount configuration
-- **[[High Mount]]** - Related variation - another specialized mount for attacking
-- **[[Armbar Control]]** - Primary transition target - most common finishing position from Technical Mount
-- **[[Back Control]]** - Secondary transition target - common result when opponent defends armbar
-- **[[Gift Wrap]]** - Alternative attack - available when opponent uses free arm to defend
-- **[[Mounted Triangle]]** - Alternative submission - available when opponent creates space defending armbar
-- **[[Mount to Armbar]]** - Primary technique - main transition used from this position
-- **[[Armbar from Technical Mount]]** - Primary submission - finish technique from this position
+- **[[Positions/Mount]]** - Parent position - base mount before transitioning to Technical Mount
+- **[[Positions/Mount/S Mount]]** - Similar variation - alternative asymmetric mount configuration
+- **[[Positions/Mount/High Mount]]** - Related variation - another specialized mount for attacking
+- **[[Positions/Armbar Control]]** - Primary transition target - most common finishing position from Technical Mount
+- **[[Positions/Back Control]]** - Secondary transition target - common result when opponent defends armbar
+- **[[Positions/Gift Wrap]]** - Alternative attack - available when opponent uses free arm to defend
+- **[[Positions/Mount/Mounted Triangle]]** - Alternative submission - available when opponent creates space defending armbar
+- **[[Transitions/Mount to Armbar]]** - Primary technique - main transition used from this position
+- **[[Submissions/Armbar from Technical Mount]]** - Primary submission - finish technique from this position
 
 
 </section>

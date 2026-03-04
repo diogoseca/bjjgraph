@@ -186,7 +186,7 @@ description: "Learn to execute the hand fight to turtle escape from back control
 
 As the practitioner trapped in back control, your primary objective is to systematically dismantle the opponent's controlling grips before rotating to turtle. This requires disciplined hand fighting that addresses the choking threat first, then the harness control, and finally the hook control. Each phase builds on the previous one, and rushing any step typically results in the opponent re-establishing control or finding a submission opening. The technique demands patience, precise grip manipulation, and coordinated hip movement timed to moments when the opponent's grip control is compromised. The two-on-one principle is your primary weapon: using both of your hands against one of theirs creates the mechanical advantage necessary to strip grips that a single hand cannot overcome.
 
-**From Position**: [[Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the practitioner trapped in back control, your primary objective is to system
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the practitioner trapped in back control, your primary objective is to system
 
 ## Opponent Counters
 
-- **Opponent immediately re-secures harness grip each time you strip it through persistent re-gripping** (Effectiveness: High) - Your Response: Maintain two-on-one control and repeat the grip strip. Each strip attempt weakens their grip endurance. After two to three failed strips, switch to peeling the under arm instead to change the problem and force them to adjust → Leads to [[Back Control]]
-- **Opponent follows your rotation and drives their hips over the top to transition to mount** (Effectiveness: High) - Your Response: If you feel the opponent riding over during your turn, immediately stop the rotation and return to back defense rather than conceding mount. Alternatively, accelerate the turn and establish turtle before they can complete the mount transition by getting your knees under you first → Leads to [[Mount]]
-- **Opponent re-inserts hooks before you can complete the rotation to turtle** (Effectiveness: Medium) - Your Response: Continue working the grip strip on the upper body while using your legs to fight the hooks simultaneously. Address the re-inserted hook with a hip escape to create angle, then resume the rotation sequence from the hook clearing step → Leads to [[Back Control]]
-- **Opponent switches to body triangle to prevent hip rotation when they sense the escape** (Effectiveness: Medium) - Your Response: Turn toward the lock side of the body triangle to reduce squeeze pressure, then work to push the top foot through the triangle gap. Once the triangle is broken, immediately resume the grip strip and rotation sequence before they can re-lock → Leads to [[Back Control]]
+- **Opponent immediately re-secures harness grip each time you strip it through persistent re-gripping** (Effectiveness: High) - Your Response: Maintain two-on-one control and repeat the grip strip. Each strip attempt weakens their grip endurance. After two to three failed strips, switch to peeling the under arm instead to change the problem and force them to adjust → Leads to [[Positions/Back Control]]
+- **Opponent follows your rotation and drives their hips over the top to transition to mount** (Effectiveness: High) - Your Response: If you feel the opponent riding over during your turn, immediately stop the rotation and return to back defense rather than conceding mount. Alternatively, accelerate the turn and establish turtle before they can complete the mount transition by getting your knees under you first → Leads to [[Positions/Mount]]
+- **Opponent re-inserts hooks before you can complete the rotation to turtle** (Effectiveness: Medium) - Your Response: Continue working the grip strip on the upper body while using your legs to fight the hooks simultaneously. Address the re-inserted hook with a hip escape to create angle, then resume the rotation sequence from the hook clearing step → Leads to [[Positions/Back Control]]
+- **Opponent switches to body triangle to prevent hip rotation when they sense the escape** (Effectiveness: Medium) - Your Response: Turn toward the lock side of the body triangle to reduce squeeze pressure, then work to push the top foot through the triangle gap. Once the triangle is broken, immediately resume the grip strip and rotation sequence before they can re-lock → Leads to [[Positions/Back Control]]
 
 
 </section>

@@ -209,25 +209,25 @@ From a strategic perspective, Z-Lock Half Guard Top serves as a transitional con
 
 ## Available Attacks
 
-### [[Knee Slice from Half]] (28% of attempts)
+### [[Transitions/Knee Slice from Half]] (28% of attempts)
 
-### [[Underhook Pass]] (12% of attempts)
+### [[Transitions/Underhook Pass]] (12% of attempts)
 
-### [[Back Take from Top]] (13% of attempts)
+### [[Transitions/Back Take from Top]] (13% of attempts)
 
-### [[Smash Pass]] (14% of attempts)
+### [[Transitions/Smash Pass]] (14% of attempts)
 
-### [[Crossface Pass]] (11% of attempts)
+### [[Transitions/Crossface Pass]] (11% of attempts)
 
-### [[Half Guard Pass]] (8% of attempts)
+### [[Transitions/Half Guard Pass]] (8% of attempts)
 
-### [[Darce Setup]] (6% of attempts)
+### [[Transitions/Darce Setup]] (6% of attempts)
 
-### [[Lockdown Break and Pass]] (5% of attempts)
+### [[Transitions/Lockdown Break and Pass]] (5% of attempts)
 
-### [[Lockdown Break from Z-Lock]] (2% of attempts)
+### [[Transitions/Lockdown Break from Z-Lock]] (2% of attempts)
 
-### [[Pass Z-Lock]] (1% of attempts)
+### [[Transitions/Pass Z-Lock]] (1% of attempts)
 
 
 
@@ -238,23 +238,23 @@ From a strategic perspective, Z-Lock Half Guard Top serves as a transitional con
 ## Decision Making from This Position
 
 **If opponent attempts to recover knee shield or establish inside frames:**
-- Execute **[[Knee Slice from Half]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent turns away from pressure to protect upper body:**
-- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent secures underhook on trapped side:**
-- Execute **[[Crossface Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Underhook Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Underhook Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent extends trapped leg attempting to free it:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Knee Slice from Half]]** → [[Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 
@@ -388,14 +388,14 @@ Establish Z-lock position. Partner attempts to create frames, recover underhooks
 
 ## Related Positions and Techniques
 
-- **[[Half Guard]]** - Parent position - generic half guard top before Z-lock establishment
-- **[[Lockdown]]** - Primary defensive position this control neutralizes
-- **[[Knee Shield Half Guard]]** - Alternative half guard variation prevented by Z-lock control
-- **[[Deep Half Guard]]** - Common escape target that Z-lock specifically prevents
-- **[[Dogfight Position]]** - Intermediate position reached if opponent recovers underhook
-- **[[Side Control]]** - Primary passing destination from successful Z-lock sequences
-- **[[Knee Slice from Half]]** - Primary passing transition from Z-Lock top position
-- **[[Back Control]]** - High-value transition when opponent turns away from pressure
+- **[[Positions/Half Guard]]** - Parent position - generic half guard top before Z-lock establishment
+- **[[Positions/Half Guard/Lockdown]]** - Primary defensive position this control neutralizes
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Alternative half guard variation prevented by Z-lock control
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common escape target that Z-lock specifically prevents
+- **[[Positions/Dogfight Position]]** - Intermediate position reached if opponent recovers underhook
+- **[[Positions/Side Control]]** - Primary passing destination from successful Z-lock sequences
+- **[[Transitions/Knee Slice from Half]]** - Primary passing transition from Z-Lock top position
+- **[[Positions/Back Control]]** - High-value transition when opponent turns away from pressure
 
 
 </section>

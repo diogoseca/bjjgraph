@@ -154,7 +154,7 @@ description: "How to defend against Reverse X to Single Leg X Entry in BJJ. Reco
 
 Defending against the Reverse X to Single Leg X Entry requires understanding the transitional vulnerability window that exists when the bottom player reconfigures their hooks. As the defender (top player), your objective is to exploit the brief moment when the attacker releases their far hook from behind your knee and has not yet established the Single Leg X configuration. This window represents the attacker's weakest structural point - they have committed to abandoning Reverse X but have not yet secured the new position. Effective defense requires recognizing the transition early through tactile and visual cues, then selecting the appropriate counter based on the attacker's stage of completion. The best defenders do not simply react to the transition but proactively create conditions that make the reconfiguration difficult or redirect it into positions favorable for passing.
 
-**Opponent's Starting Position**: [[Reverse X-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against the Reverse X to Single Leg X Entry requires understanding the
 ### 1. Drive weight forward and sprawl hips during hook reconfiguration window
 
 - **When to use**: Immediately when you feel the far hook release from behind your knee - this is the optimal timing before the attacker can establish Single Leg X structure
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Flatten the attacker during their most vulnerable moment and advance to headquarters passing position with their leg controlled
 - **Risk**: If mistimed and attacker has already established Single Leg X hooks, your forward pressure gives them elevation for an immediate sweep
 
 ### 2. Rapidly extract trapped leg by stepping back explosively while stripping ankle grip
 
 - **When to use**: When the attacker releases the far hook but before they complete hip rotation - use both hands to break their ankle grip while pulling leg free
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Complete leg extraction leaves you in standing position with no entanglement, free to re-engage with passing from neutral
 - **Risk**: If ankle grip is too strong to break, you end up in worse position having created the exact backward momentum the attacker needs for the transition
 
 ### 3. Drive knee through center toward attacker's hip during hook release
 
 - **When to use**: When you detect the far hook releasing and the attacker beginning hip rotation - drive your controlled knee forward through the gap before new hooks establish
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Your knee drive splits the attacker's guard structure and establishes headquarters position with dominant leg control and passing initiative
 - **Risk**: If the attacker threads under your knee drive, they may enter Deep Half Guard which presents its own set of sweeping threats
 
 ### 4. Backstep around the controlled leg to change angle and prevent Single Leg X establishment
 
 - **When to use**: When the attacker has begun hip rotation but has not yet placed the cross-body hook - backstep removes the angle they need for the outside hook
-- **Targets**: [[Reverse X-Guard]]
+- **Targets**: [[Positions/X-Guard/Reverse X-Guard]]
 - **If successful**: Attacker is forced back to compromised Reverse X-Guard or loses position entirely as your angle change defeats the linear hook configuration
 - **Risk**: Aggressive backstep may expose your back if the attacker inverts and follows your movement for a back take attempt
 
@@ -225,11 +225,11 @@ Defending against the Reverse X to Single Leg X Entry requires understanding the
 
 ## Best-Case Outcomes for Defender
 
-### → [[Headquarters Position]]
+### → [[Positions/Headquarters Position]]
 
 Exploit the hook reconfiguration window by driving forward aggressively when the far hook releases, flattening the attacker before they can establish Single Leg X structure. Strip ankle grip and drive knee through center to establish headquarters control with trapped leg and dominant passing position.
 
-### → [[Reverse X-Guard]]
+### → [[Positions/X-Guard/Reverse X-Guard]]
 
 Prevent the transition from completing by maintaining heavy downward pressure on your leg that inhibits the attacker's hip rotation. When they attempt to release the far hook, immediately re-seat your weight and angle to force them back into deteriorating Reverse X where you continue your original passing strategy.
 

@@ -21,7 +21,7 @@ The choke can be applied using several grip configurations including rear naked 
 
 Strategically, the crucifix choke serves as the primary threat that anchors the entire crucifix attack system. By threatening the neck first, the top player forces the bottom player to commit their free arm to neck defense, which then exposes that arm to kimura and armbar attacks. This creates the fundamental crucifix dilemma: defend the neck and lose the arm, or protect the arm and get choked.
 
-**From Position**: [[Crucifix]] (Top)
+**From Position**: [[Positions/Crucifix]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -33,8 +33,8 @@ Strategically, the crucifix choke serves as the primary threat that anchors the 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Crucifix]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Failure | [[Positions/Crucifix]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -194,25 +194,25 @@ The Choke from Crucifix sits at the apex of the crucifix attack system, function
 ## Related Techniques
 
 
-- [[Crucifix]] - Starting position providing the bilateral arm control that enables undefended neck access
+- [[Positions/Crucifix]] - Starting position providing the bilateral arm control that enables undefended neck access
 
-- [[Crucifix Maintenance]] - Position retention technique ensuring stable control before committing to choke attempt
+- [[Transitions/Crucifix Maintenance]] - Position retention technique ensuring stable control before committing to choke attempt
 
-- [[Armbar from Crucifix]] - Primary chain attack when opponent defends neck by committing free arm to defense
+- [[Transitions/Armbar from Crucifix]] - Primary chain attack when opponent defends neck by committing free arm to defense
 
-- [[Back Control]] - Entry position and fallback if crucifix control degrades during choke attempt
+- [[Positions/Back Control]] - Entry position and fallback if crucifix control degrades during choke attempt
 
-- [[Mounted Crucifix]] - Enhanced variation combining mount pressure with crucifix arm control for finishing
+- [[Positions/Mount/Mounted Crucifix]] - Enhanced variation combining mount pressure with crucifix arm control for finishing
 
-- [[Crucifix to Mount]] - Positional advancement option when choke proves difficult to finish
+- [[Transitions/Crucifix to Mount]] - Positional advancement option when choke proves difficult to finish
 
-- [[Back Control to Crucifix]] - Primary entry transition establishing the crucifix control needed for this choke
+- [[Transitions/Back Control to Crucifix]] - Primary entry transition establishing the crucifix control needed for this choke
 
-- [[Arm Recovery from Crucifix]] - Defender's primary escape mechanism that the choke must preempt
+- [[Transitions/Arm Recovery from Crucifix]] - Defender's primary escape mechanism that the choke must preempt
 
-- [[Crucifix Choke Defense]] - Specific defensive protocol the attacker must overcome to finish
+- [[Transitions/Crucifix Choke Defense]] - Specific defensive protocol the attacker must overcome to finish
 
-- [[RNC from Seat Belt]] - Related choking mechanics applied from standard back control for comparison
+- [[Submissions/RNC from Seat Belt]] - Related choking mechanics applied from standard back control for comparison
 
 
 </section>

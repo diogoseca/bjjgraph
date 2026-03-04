@@ -182,7 +182,7 @@ The Knee Extraction from the attacker's (escaping person's) perspective is a sys
 
 The execution requires coordinating three simultaneous objectives: two-on-one grip breaking on the heel grip, free leg management to prevent leg triangle completion, and hip rotation to create extraction angles. The temporal urgency cannot be overstated - this escape must begin within seconds of ankle control being established, as every moment of delay allows the opponent to improve their leg positioning and tighten their grip configuration. Advanced practitioners treat this as a reflex response rather than a deliberate decision, drilling the recognition-to-action sequence until it becomes automatic.
 
-**From Position**: [[Straight Ankle Lock Control]] (Top)
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
 
@@ -234,10 +234,10 @@ The execution requires coordinating three simultaneous objectives: two-on-one gr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 45% |
-| Success | [[Open Guard]] | 20% |
-| Failure | [[Straight Ankle Lock Control]] | 25% |
-| Counter | [[Inside Ashi-Garami]] | 10% |
+| Success | [[Positions/Standing Position]] | 45% |
+| Success | [[Positions/Open Guard]] | 20% |
+| Failure | [[Positions/Straight Ankle Lock Control]] | 25% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 10% |
 
 
 </section>
@@ -246,10 +246,10 @@ The execution requires coordinating three simultaneous objectives: two-on-one gr
 
 ## Opponent Counters
 
-- **Attacker completes leg triangle before knee clears** (Effectiveness: High) - Your Response: Transition to hip rotation defense or counter-entry to 50-50 guard rather than continuing extraction against consolidated control → Leads to [[Straight Ankle Lock Control]]
-- **Attacker follows hip rotation and transitions to inside ashi-garami** (Effectiveness: High) - Your Response: Recognize the transition early and change rotation direction or immediately address the new entanglement with appropriate escape sequence → Leads to [[Inside Ashi-Garami]]
-- **Attacker maintains strong heel grip despite two-on-one attack** (Effectiveness: Medium) - Your Response: Add wrist rotation to grip break, peel fingers individually, or create angle change through hip movement that reduces grip efficacy → Leads to [[Straight Ankle Lock Control]]
-- **Attacker straightens your leg before you can bend knee** (Effectiveness: Medium) - Your Response: Frame on their hip to prevent full extension, use free leg to push on their chest creating space for knee bend → Leads to [[Straight Ankle Lock Control]]
+- **Attacker completes leg triangle before knee clears** (Effectiveness: High) - Your Response: Transition to hip rotation defense or counter-entry to 50-50 guard rather than continuing extraction against consolidated control → Leads to [[Positions/Straight Ankle Lock Control]]
+- **Attacker follows hip rotation and transitions to inside ashi-garami** (Effectiveness: High) - Your Response: Recognize the transition early and change rotation direction or immediately address the new entanglement with appropriate escape sequence → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Attacker maintains strong heel grip despite two-on-one attack** (Effectiveness: Medium) - Your Response: Add wrist rotation to grip break, peel fingers individually, or create angle change through hip movement that reduces grip efficacy → Leads to [[Positions/Straight Ankle Lock Control]]
+- **Attacker straightens your leg before you can bend knee** (Effectiveness: Medium) - Your Response: Frame on their hip to prevent full extension, use free leg to push on their chest creating space for knee bend → Leads to [[Positions/Straight Ankle Lock Control]]
 
 
 </section>

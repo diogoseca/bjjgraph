@@ -180,7 +180,7 @@ description: "Learn to execute the K-Guard pass from the attacker perspective. S
 
 The K-Guard pass from the attacker's perspective demands a systematic, pressure-based approach to dismantling the bottom player's inverted hook retention system. As the passer, your primary objective is to neutralize both the inverted inside hook and the butterfly hook simultaneously while preventing the guard player from creating offensive angles. Success requires patience, grip dominance, and the ability to chain multiple passing concepts together based on how the defender reacts to your initial pressure. The attacker must resist the temptation to rush through the guard, as premature passing attempts against active K-Guard hooks consistently result in sweeps, back takes, or reset to the starting position. Methodical pressure that degrades the hook system phase by phase is the foundation of every successful K-Guard pass.
 
-**From Position**: [[K-Guard]] (Top)
+**From Position**: [[Positions/K-Guard]] (Top)
 
 </section>
 
@@ -232,10 +232,10 @@ The K-Guard pass from the attacker's perspective demands a systematic, pressure-
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Failure | [[Half Guard]] | 20% |
-| Failure | [[K-Guard]] | 20% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Side Control]] | 45% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/K-Guard]] | 20% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ The K-Guard pass from the attacker's perspective demands a systematic, pressure-
 
 ## Opponent Counters
 
-- **Bottom player loads butterfly hook and elevates passer's weight as forward pressure commits** (Effectiveness: High) - Your Response: Immediately widen base with free leg and drop hips lower rather than fighting the elevation vertically. Redirect weight laterally into the butterfly hook side and tighten far hip grip to prevent sweep completion. → Leads to [[K-Guard]]
-- **Bottom player swims inside arm for underhook to initiate back take during grip transition** (Effectiveness: High) - Your Response: Whizzer immediately with the near arm and drive their shoulder flat with heavy shoulder pressure. If the underhook is already deep, abandon the pass attempt and reset crossface control before they complete the back take sequence. → Leads to [[Back Control]]
-- **Bottom player hip escapes to reestablish angle and reload hook tension during pass execution** (Effectiveness: Medium) - Your Response: Follow the hip escape with your own hip pressure maintaining body-to-body connection. Do not allow them to create distance. Re-engage far hip control immediately and resume the pressure sequence from the new angle. → Leads to [[K-Guard]]
-- **Bottom player inserts knee shield to recover half guard as hooks are being neutralized** (Effectiveness: Medium) - Your Response: Accept the half guard position rather than retreating to K-Guard. Maintain crossface control and transition to knee slice or smash pass from half guard top, which is a more favorable passing position than K-Guard top. → Leads to [[Half Guard]]
+- **Bottom player loads butterfly hook and elevates passer's weight as forward pressure commits** (Effectiveness: High) - Your Response: Immediately widen base with free leg and drop hips lower rather than fighting the elevation vertically. Redirect weight laterally into the butterfly hook side and tighten far hip grip to prevent sweep completion. → Leads to [[Positions/K-Guard]]
+- **Bottom player swims inside arm for underhook to initiate back take during grip transition** (Effectiveness: High) - Your Response: Whizzer immediately with the near arm and drive their shoulder flat with heavy shoulder pressure. If the underhook is already deep, abandon the pass attempt and reset crossface control before they complete the back take sequence. → Leads to [[Positions/Back Control]]
+- **Bottom player hip escapes to reestablish angle and reload hook tension during pass execution** (Effectiveness: Medium) - Your Response: Follow the hip escape with your own hip pressure maintaining body-to-body connection. Do not allow them to create distance. Re-engage far hip control immediately and resume the pressure sequence from the new angle. → Leads to [[Positions/K-Guard]]
+- **Bottom player inserts knee shield to recover half guard as hooks are being neutralized** (Effectiveness: Medium) - Your Response: Accept the half guard position rather than retreating to K-Guard. Maintain crossface control and transition to knee slice or smash pass from half guard top, which is a more favorable passing position than K-Guard top. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -184,7 +184,7 @@ The technique exploits the inherent vulnerability in leg entanglement exchanges�
 
 Strategically, Counter Ashi Entry represents the counter-attacking philosophy within the leg lock game. Rather than purely defensive extraction, it embraces the bilateral nature of leg entanglements and seeks to gain superior position within the exchange. Success requires understanding positional hierarchy, recognizing optimal entry timing, and maintaining awareness of both offensive opportunities and defensive vulnerabilities throughout the transition.
 
-**From Position**: [[Ashi Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami]] (Top)
 
 </section>
 
@@ -236,9 +236,9 @@ Strategically, Counter Ashi Entry represents the counter-attacking philosophy wi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Outside Ashi-Garami]] | 65% |
-| Failure | [[Ashi Garami]] | 25% |
-| Counter | [[Inside Ashi-Garami]] | 10% |
+| Success | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 65% |
+| Failure | [[Positions/Ashi Garami]] | 25% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 10% |
 
 
 </section>
@@ -247,10 +247,10 @@ Strategically, Counter Ashi Entry represents the counter-attacking philosophy wi
 
 ## Opponent Counters
 
-- **Opponent clears your inserting leg before you establish control** (Effectiveness: High) - Your Response: Maintain persistent pressure and re-attempt entry, or switch to standard leg extraction if opponent creates significant distance → Leads to [[Ashi Garami]]
-- **Opponent hip escapes to create angle and block your inside space entry** (Effectiveness: Medium) - Your Response: Follow the hip escape with your entry, using their movement to load your leg deeper into position → Leads to [[Ashi Garami]]
-- **Opponent abandons original Ashi and transitions to standing** (Effectiveness: Medium) - Your Response: Convert to single leg attack or establish guard position from your partial entry → Leads to [[Ashi Garami]]
-- **Opponent accelerates heel hook attempt as you begin entry** (Effectiveness: High) - Your Response: Prioritize heel protection by straightening trapped leg; abort counter entry if heel becomes exposed → Leads to [[Inside Ashi-Garami]]
+- **Opponent clears your inserting leg before you establish control** (Effectiveness: High) - Your Response: Maintain persistent pressure and re-attempt entry, or switch to standard leg extraction if opponent creates significant distance → Leads to [[Positions/Ashi Garami]]
+- **Opponent hip escapes to create angle and block your inside space entry** (Effectiveness: Medium) - Your Response: Follow the hip escape with your entry, using their movement to load your leg deeper into position → Leads to [[Positions/Ashi Garami]]
+- **Opponent abandons original Ashi and transitions to standing** (Effectiveness: Medium) - Your Response: Convert to single leg attack or establish guard position from your partial entry → Leads to [[Positions/Ashi Garami]]
+- **Opponent accelerates heel hook attempt as you begin entry** (Effectiveness: High) - Your Response: Prioritize heel protection by straightening trapped leg; abort counter entry if heel becomes exposed → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 </section>

@@ -21,7 +21,7 @@ From S Mount, the gift wrap becomes particularly powerful because you already ha
 
 The strategic value of this transition lies in its forcing function—the opponent must choose between defending the arm attack (which exposes the back) or preventing the back take (which exposes the arm). This dilemma creation is fundamental to high-level positional grappling. The gift wrap control also travels with you during the transition, providing continuous control through the movement rather than requiring you to release and re-establish grips.
 
-**From Position**: [[S Mount]] (Top)
+**From Position**: [[Positions/Mount/S Mount]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The strategic value of this transition lies in its forcing function—the oppone
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[S Mount]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Mount/S Mount]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -187,25 +187,25 @@ The Gift Wrap to Back transition fits into the broader mount attack system as a 
 ## Related Techniques
 
 
-- [[S Mount]] - Starting position providing perpendicular hip alignment and natural arm isolation
+- [[Positions/Mount/S Mount]] - Starting position providing perpendicular hip alignment and natural arm isolation
 
-- [[Back Control]] - Primary destination after successful rotation and hook insertion
+- [[Positions/Back Control]] - Primary destination after successful rotation and hook insertion
 
-- [[Gift Wrap]] - Control position used during transition to trap arm across body
+- [[Positions/Gift Wrap]] - Control position used during transition to trap arm across body
 
-- [[Mount]] - Alternative starting position with lower percentage gift wrap entry
+- [[Positions/Mount]] - Alternative starting position with lower percentage gift wrap entry
 
-- [[Armbar from Mount]] - Complementary attack whose threat creates the turning reaction needed for gift wrap
+- [[Submissions/Armbar from Mount]] - Complementary attack whose threat creates the turning reaction needed for gift wrap
 
-- [[Back Take]] - General back take technique category this transition belongs to
+- [[Transitions/Back Take]] - General back take technique category this transition belongs to
 
-- [[Mounted Crucifix]] - Alternative destination when opponent's far arm is trapped during rotation
+- [[Positions/Mount/Mounted Crucifix]] - Alternative destination when opponent's far arm is trapped during rotation
 
-- [[High Mount]] - Related dominant position that can also serve as gift wrap entry point
+- [[Positions/Mount/High Mount]] - Related dominant position that can also serve as gift wrap entry point
 
-- [[Gift Wrap to Technical Mount]] - Alternative gift wrap pathway maintaining top control without back take
+- [[Transitions/Gift Wrap to Technical Mount]] - Alternative gift wrap pathway maintaining top control without back take
 
-- [[Rear Naked Choke]] - Primary submission available after successful back take completion
+- [[Transitions/Rear Naked Choke]] - Primary submission available after successful back take completion
 
 
 </section>

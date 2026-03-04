@@ -154,7 +154,7 @@ description: "Complete guide to preventing the Boot Scoot Escape from Saddle. Re
 
 From the defender's perspective—you are the saddle top player maintaining control—your objective is recognizing and shutting down the boot scoot escape before it generates sufficient distance to compromise your entanglement. The boot scoot creates a specific tactical problem: each hip retreat incrementally loosens your control structure, and the effect compounds over multiple repetitions. Early intervention is critical, as the escape becomes progressively harder to stop once momentum builds. Your primary tools are following the escapee's hip movement to maintain proximity, consolidating grips and hip pressure before they can establish effective frames, and transitioning to alternative entanglements if the original saddle configuration begins to degrade beyond recovery.
 
-**Opponent's Starting Position**: [[Saddle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ From the defender's perspective—you are the saddle top player maintaining cont
 ### 1. Follow the hip retreat by driving your hips forward to maintain contact and entanglement pressure
 
 - **When to use**: Immediately when you feel the opponent's hips beginning to retreat backward during the first scoot
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Opponent remains trapped in saddle with entanglement maintained at original tightness
 - **Risk**: If you over-commit to following forward, opponent may redirect with an angular escape or use your momentum against you
 
 ### 2. Strip the free leg frame off your hip by controlling their ankle or redirecting their foot
 
 - **When to use**: When opponent has established a pushing frame on your hip and begins generating push-off force for scooting
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Opponent loses their primary escape mechanism and cannot generate the backward force needed to scoot
 - **Risk**: Using one hand to address the frame may momentarily loosen your grip on the entangled leg
 
 ### 3. Transition to inside ashi garami before the saddle fully degrades from accumulated distance
 
 - **When to use**: When the boot scoot has created enough distance that re-establishing full saddle control is no longer realistic
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You maintain leg control and offensive attacking potential from a modified but still dangerous entanglement
 - **Risk**: Inside ashi garami offers less control than full saddle, giving the opponent additional escape options
 
 ### 4. Secure a finishing grip on the heel during the transitional moment between scoots when hands release for frame reset
 
 - **When to use**: When the opponent briefly adjusts their heel protection to reset their frame position between scooting repetitions
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: You lock in the submission finish before the escape can succeed, ending the exchange
 - **Risk**: If the grip is shallow, opponent may strip it and accelerate their escape with increased urgency
 
@@ -225,11 +225,11 @@ From the defender's perspective—you are the saddle top player maintaining cont
 
 ## Best-Case Outcomes for Defender
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 Follow the opponent's hip retreat immediately by driving your hips forward, strip their free leg frame to eliminate the escape mechanism, and consolidate your entanglement grips between scoots before they can build momentum
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 When the saddle begins to degrade from accumulated scooting distance, proactively transition your leg configuration to inside ashi garami rather than losing all control, maintaining offensive potential from a modified entanglement
 

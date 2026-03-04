@@ -21,7 +21,7 @@ The mechanical foundation of this transition lies in deepening the existing leg 
 
 Success demands patience and mechanical precision rather than explosive movement. The most common failure mode occurs when practitioners sacrifice existing Twister Side Control in pursuit of the truck, allowing the bottom player to exploit transitional instability and escape to half guard or recover defensive frames. Advanced practitioners maintain constant pressure throughout every phase of the rotation, ensuring that each step improves rather than compromises their positional control. The transition rewards systematic execution and sensitivity to the opponent's weight distribution over raw athleticism.
 
-**From Position**: [[Twister Side Control]] (Top)
+**From Position**: [[Positions/Twister Control/Twister Side Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Success demands patience and mechanical precision rather than explosive movement
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Truck]] | 55% |
-| Failure | [[Twister Side Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Twister Control/Truck]] | 55% |
+| Failure | [[Positions/Twister Control/Twister Side Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,29 +189,29 @@ The Twister Side Control to Truck transition occupies a critical node within the
 ## Related Techniques
 
 
-- [[Twister Side Control]] - Starting position providing the lateral control and partial leg hook foundation for this transition
+- [[Positions/Twister Control/Twister Side Control]] - Starting position providing the lateral control and partial leg hook foundation for this transition
 
-- [[Truck]] - Target position offering perpendicular back control with full figure-four leg entanglement
+- [[Positions/Twister Control/Truck]] - Target position offering perpendicular back control with full figure-four leg entanglement
 
-- [[Truck Maintenance]] - Follow-up control technique for consolidating truck position after successful transition
+- [[Transitions/Truck Maintenance]] - Follow-up control technique for consolidating truck position after successful transition
 
-- [[Twister SC to Back Take]] - Alternative advancement from Twister Side Control when truck entry is defended
+- [[Transitions/Twister SC to Back Take]] - Alternative advancement from Twister Side Control when truck entry is defended
 
-- [[Truck to Back Control]] - Downstream transition from truck to traditional back control when submissions are unavailable
+- [[Transitions/Truck to Back Control]] - Downstream transition from truck to traditional back control when submissions are unavailable
 
-- [[Escape from Truck]] - Defensive counter-technique the opponent will attempt once truck is established
+- [[Transitions/Escape from Truck]] - Defensive counter-technique the opponent will attempt once truck is established
 
-- [[Calf Slicer from Truck]] - High-percentage submission available immediately upon achieving truck position
+- [[Submissions/Calf Slicer from Truck]] - High-percentage submission available immediately upon achieving truck position
 
-- [[Twister Finish]] - Primary submission attack accessible from both TSC and truck positions
+- [[Transitions/Twister Finish]] - Primary submission attack accessible from both TSC and truck positions
 
-- [[Escape Twister Side Control]] - Defensive technique the opponent uses to prevent this transition from initiating
+- [[Transitions/Escape Twister Side Control]] - Defensive technique the opponent uses to prevent this transition from initiating
 
-- [[Crab Ride]] - Related back attack position sharing leg entanglement principles with the truck
+- [[Positions/Crab Ride]] - Related back attack position sharing leg entanglement principles with the truck
 
-- [[Back Control]] - Alternative advancement pathway from both TSC and truck positions
+- [[Positions/Back Control]] - Alternative advancement pathway from both TSC and truck positions
 
-- [[Half Guard]] - Counter outcome position where defender successfully reverses during transition
+- [[Positions/Half Guard]] - Counter outcome position where defender successfully reverses during transition
 
 
 </section>

@@ -184,7 +184,7 @@ Unlike the traditional guillotine or Darce choke setups, the anaconda requires p
 
 This technique exemplifies the modern front headlock system's emphasis on control, patience, and positional dominance before attempting the finish. Rushing the setup often results in the opponent escaping to guard or achieving a single leg position, making methodical execution essential for success at all levels of competition.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -238,9 +238,9 @@ This technique exemplifies the modern front headlock system's emphasis on contro
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Anaconda Control]] | 65% |
-| Failure | [[Front Headlock]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Anaconda Control]] | 65% |
+| Failure | [[Positions/Front Headlock]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -249,11 +249,11 @@ This technique exemplifies the modern front headlock system's emphasis on contro
 
 ## Opponent Counters
 
-- **Opponent sits back to guard before arm threading** (Effectiveness: High) - Your Response: Follow them back while maintaining head control, transitioning to guillotine attack or passing to side control by driving forward and circling to their back → Leads to [[Half Guard]]
-- **Opponent rolls through toward the choking arm side** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining your grip, allowing them to give you their back or mounting them as they complete the roll. The anaconda grip transitions well to mounted position. → Leads to [[Anaconda Control]]
-- **Opponent grabs your leg for single leg defense** (Effectiveness: Medium) - Your Response: Sprawl your hips back while maintaining the anaconda grip, using your free leg to whizzer their head or establish a front headlock ride. Alternatively, limp-leg out of the single leg attempt. → Leads to [[Front Headlock]]
-- **Opponent frames against your hip to create space** (Effectiveness: Low) - Your Response: Shift your weight more onto their upper back/head and adjust your angle to remove the frame's leverage. Drop your hips lower to eliminate the space they're trying to create. → Leads to [[Anaconda Control]]
-- **Opponent tucks their near arm tight to their body** (Effectiveness: High) - Your Response: Switch to Darce choke setup (threading from the opposite direction) or transition to different front headlock attack like the guillotine. Can also work to flatten them first before attempting the arm capture. → Leads to [[Front Headlock]]
+- **Opponent sits back to guard before arm threading** (Effectiveness: High) - Your Response: Follow them back while maintaining head control, transitioning to guillotine attack or passing to side control by driving forward and circling to their back → Leads to [[Positions/Half Guard]]
+- **Opponent rolls through toward the choking arm side** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining your grip, allowing them to give you their back or mounting them as they complete the roll. The anaconda grip transitions well to mounted position. → Leads to [[Positions/Anaconda Control]]
+- **Opponent grabs your leg for single leg defense** (Effectiveness: Medium) - Your Response: Sprawl your hips back while maintaining the anaconda grip, using your free leg to whizzer their head or establish a front headlock ride. Alternatively, limp-leg out of the single leg attempt. → Leads to [[Positions/Front Headlock]]
+- **Opponent frames against your hip to create space** (Effectiveness: Low) - Your Response: Shift your weight more onto their upper back/head and adjust your angle to remove the frame's leverage. Drop your hips lower to eliminate the space they're trying to create. → Leads to [[Positions/Anaconda Control]]
+- **Opponent tucks their near arm tight to their body** (Effectiveness: High) - Your Response: Switch to Darce choke setup (threading from the opposite direction) or transition to different front headlock attack like the guillotine. Can also work to flatten them first before attempting the arm capture. → Leads to [[Positions/Front Headlock]]
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Execute the S Mount to Mounted Triangle transition with precision.
 
 Attacking the mounted triangle from S Mount requires recognizing the specific defensive reactions that create the opening and executing the leg thread with technical precision while maintaining continuous arm control. The transition exploits the natural defensive dilemma of S Mount: when the opponent bends their arm to prevent armbar extension, they position their arm inside the triangle space and expose their neck to the threading leg. The attacker must coordinate hip adjustment, leg movement, and arm control simultaneously, threading the leg that is already over the opponent's head under their chin while keeping the trapped arm secured between their legs. Timing is critical because the window between armbar defense and triangle entry is narrow, and premature or telegraphed movements allow the defender to extract their arm or create frames that prevent the lock. The transition rewards patience in reading defensive reactions and decisiveness in executing the thread once the opening presents itself.
 
-**From Position**: [[S Mount]] (Top)
+**From Position**: [[Positions/Mount/S Mount]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Attacking the mounted triangle from S Mount requires recognizing the specific de
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mounted Triangle]] | 55% |
-| Failure | [[S Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/Mounted Triangle]] | 55% |
+| Failure | [[Positions/Mount/S Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,11 +243,11 @@ Attacking the mounted triangle from S Mount requires recognizing the specific de
 
 ## Opponent Counters
 
-- **Opponent straightens their trapped arm explosively to extract it before the triangle locks** (Effectiveness: High) - Your Response: Immediately switch back to the armbar attack on the now-extended arm. Their attempt to escape the triangle by straightening the arm creates the exact opening the armbar requires. Maintain wrist control and pivot hips to secure the armbar before they can re-bend. → Leads to [[S Mount]]
-- **Opponent bridges explosively during the hip adjustment phase to displace your base** (Effectiveness: High) - Your Response: Post your free foot wide on the mat to absorb the bridge momentum and drive your hips back down into their shoulder. If the bridge is powerful enough to displace you, abandon the triangle attempt and secure standard mount before they can recover guard. Do not chase the triangle from an unstable base. → Leads to [[Half Guard]]
-- **Opponent uses their free arm to block your leg from threading under their chin** (Effectiveness: Medium) - Your Response: Control or pin their blocking arm with your near hand, pushing it across their body or trapping it against your hip. Alternatively, use the arm push variant by driving their blocking arm across their centerline, which simultaneously removes the block and positions the arm for the triangle. If their arm is persistent, consider the gift wrap entry. → Leads to [[S Mount]]
-- **Opponent turns onto their side away from you to create space and protect their neck** (Effectiveness: Medium) - Your Response: Recognize the turning motion as a back take opportunity. Release the triangle attempt and immediately establish a seatbelt grip over-under on their torso while inserting your hooks. Their attempt to turn away from the triangle gives you their back, which is an even more dominant position. → Leads to [[S Mount]]
-- **Opponent hip escapes toward your legs during the transition creating distance** (Effectiveness: Medium) - Your Response: Follow their hip movement by scooting your hips with them to maintain the shoulder connection. If they create significant distance, abandon the triangle and drop back to standard mount to consolidate before re-attacking. Chasing the triangle against effective hip escape usually results in losing the position entirely. → Leads to [[Half Guard]]
+- **Opponent straightens their trapped arm explosively to extract it before the triangle locks** (Effectiveness: High) - Your Response: Immediately switch back to the armbar attack on the now-extended arm. Their attempt to escape the triangle by straightening the arm creates the exact opening the armbar requires. Maintain wrist control and pivot hips to secure the armbar before they can re-bend. → Leads to [[Positions/Mount/S Mount]]
+- **Opponent bridges explosively during the hip adjustment phase to displace your base** (Effectiveness: High) - Your Response: Post your free foot wide on the mat to absorb the bridge momentum and drive your hips back down into their shoulder. If the bridge is powerful enough to displace you, abandon the triangle attempt and secure standard mount before they can recover guard. Do not chase the triangle from an unstable base. → Leads to [[Positions/Half Guard]]
+- **Opponent uses their free arm to block your leg from threading under their chin** (Effectiveness: Medium) - Your Response: Control or pin their blocking arm with your near hand, pushing it across their body or trapping it against your hip. Alternatively, use the arm push variant by driving their blocking arm across their centerline, which simultaneously removes the block and positions the arm for the triangle. If their arm is persistent, consider the gift wrap entry. → Leads to [[Positions/Mount/S Mount]]
+- **Opponent turns onto their side away from you to create space and protect their neck** (Effectiveness: Medium) - Your Response: Recognize the turning motion as a back take opportunity. Release the triangle attempt and immediately establish a seatbelt grip over-under on their torso while inserting your hooks. Their attempt to turn away from the triangle gives you their back, which is an even more dominant position. → Leads to [[Positions/Mount/S Mount]]
+- **Opponent hip escapes toward your legs during the transition creating distance** (Effectiveness: Medium) - Your Response: Follow their hip movement by scooting your hips with them to maintain the shoulder connection. If they create significant distance, abandon the triangle and drop back to standard mount to consolidate before re-attacking. Chasing the triangle against effective hip escape usually results in losing the position entirely. → Leads to [[Positions/Half Guard]]
 
 
 </section>

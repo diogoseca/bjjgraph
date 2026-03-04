@@ -180,7 +180,7 @@ description: "Learn to execute the Backstep from K-Guard as the top player. Step
 
 The Backstep from K-Guard Attacker perspective focuses on the systematic extraction of the trapped leg from the K-Guard's inverted hook system. As the top player, your primary objective is to change the angle of engagement by withdrawing your trapped leg backward, bypassing the bottom player's strongest retention mechanics. Success requires controlling the bottom player's hip movement to prevent them from following your backstep with guard transitions, while timing the extraction to coincide with moments of reduced hook tension. The technique demands integration of upper body control, weight distribution, and precise footwork to execute cleanly without exposing your legs to entanglement counters.
 
-**From Position**: [[K-Guard]] (Top)
+**From Position**: [[Positions/K-Guard]] (Top)
 
 </section>
 
@@ -232,10 +232,10 @@ The Backstep from K-Guard Attacker perspective focuses on the systematic extract
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Success | [[Headquarters Position]] | 15% |
-| Failure | [[K-Guard]] | 25% |
-| Counter | [[Single Leg X-Guard]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Success | [[Positions/Headquarters Position]] | 15% |
+| Failure | [[Positions/K-Guard]] | 25% |
+| Counter | [[Positions/X-Guard/Single Leg X-Guard]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ The Backstep from K-Guard Attacker perspective focuses on the systematic extract
 
 ## Opponent Counters
 
-- **Bottom player re-hooks inverted leg during extraction by increasing hook tension and pulling trapped leg back across centerline** (Effectiveness: High) - Your Response: Reset and attempt backstep with more explosive timing, or feint the backstep and switch to a forward-pressure pass while they overcommit to the re-hook → Leads to [[K-Guard]]
-- **Bottom player releases K-Guard hooks and immediately transitions to Single Leg X-Guard by catching the backstepping leg at the hip** (Effectiveness: High) - Your Response: Post free hand on the mat immediately and drive hip forward to compress SLX hooks before they consolidate, then apply SLX-specific passing sequence or backstep from SLX → Leads to [[Single Leg X-Guard]]
-- **Bottom player frames with both arms and hip escapes in the direction of the backstep to maintain guard angle and re-establish hooks** (Effectiveness: Medium) - Your Response: Maintain crossface control throughout the backstep to prevent effective framing, and pin the far hip to block hip escape movement that follows your directional change → Leads to [[K-Guard]]
-- **Bottom player loads butterfly hook with elevation during the weight transfer phase, destabilizing your posting base** (Effectiveness: Medium) - Your Response: Compress the butterfly hook through downward hip pressure before initiating the backstep weight transfer, or time the backstep to coincide with a moment when the butterfly hook is not loaded → Leads to [[K-Guard]]
+- **Bottom player re-hooks inverted leg during extraction by increasing hook tension and pulling trapped leg back across centerline** (Effectiveness: High) - Your Response: Reset and attempt backstep with more explosive timing, or feint the backstep and switch to a forward-pressure pass while they overcommit to the re-hook → Leads to [[Positions/K-Guard]]
+- **Bottom player releases K-Guard hooks and immediately transitions to Single Leg X-Guard by catching the backstepping leg at the hip** (Effectiveness: High) - Your Response: Post free hand on the mat immediately and drive hip forward to compress SLX hooks before they consolidate, then apply SLX-specific passing sequence or backstep from SLX → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Bottom player frames with both arms and hip escapes in the direction of the backstep to maintain guard angle and re-establish hooks** (Effectiveness: Medium) - Your Response: Maintain crossface control throughout the backstep to prevent effective framing, and pin the far hip to block hip escape movement that follows your directional change → Leads to [[Positions/K-Guard]]
+- **Bottom player loads butterfly hook with elevation during the weight transfer phase, destabilizing your posting base** (Effectiveness: Medium) - Your Response: Compress the butterfly hook through downward hip pressure before initiating the backstep weight transfer, or time the backstep to coincide with a moment when the butterfly hook is not loaded → Leads to [[Positions/K-Guard]]
 
 
 </section>

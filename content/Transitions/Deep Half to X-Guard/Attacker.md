@@ -180,7 +180,7 @@ description: "Learn to execute the Deep Half to X-Guard transition with precise 
 
 Executing the Deep Half to X-Guard transition requires precise timing and hip coordination to reconfigure your leg hooks as the opponent's leg becomes available. The key is reading the top player's weight shifts — when they begin pulling their trapped leg backward or adjusting their base to defeat deep half sweeps, this creates the window for X-Guard entry. Your inside leg must thread deep behind their knee before they can fully extract, while your outside leg crosses their hip to complete the X-configuration. Success depends on maintaining continuous control throughout the transition, never allowing a moment where the opponent is free to disengage entirely. The transition should feel like a smooth rotation from underneath positioning to perpendicular X-Guard rather than a scramble for new grips.
 
-**From Position**: [[Deep Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Deep Half to X-Guard transition requires precise timing and hip co
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[X-Guard]] | 55% |
-| Failure | [[Deep Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/X-Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Deep Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Deep Half to X-Guard transition requires precise timing and hip co
 
 ## Opponent Counters
 
-- **Opponent drives forward with heavy crossface pressure during the transition phase** (Effectiveness: High) - Your Response: If crossface is applied before hooks are set, abandon the X-Guard attempt and re-establish deep half positioning. Use your free arm to frame against their shoulder and shrimp to recover the deep underhook. Their forward drive actually loads the waiter sweep. → Leads to [[Deep Half Guard]]
-- **Opponent quickly extracts their leg with circular knee motion before inside hook threads** (Effectiveness: High) - Your Response: Follow their retreating leg immediately. If you cannot thread the inside hook, transition to Single Leg X-Guard by hooking their leg with both feet in a butterfly configuration, or sit up to pursue a single leg takedown while they are still retracting. → Leads to [[Half Guard]]
-- **Opponent sprawls and drives hips away to create distance while maintaining crossface** (Effectiveness: Medium) - Your Response: Use the space created by their sprawl to sit up and pursue the ankle. If their hips are far enough away, transition to open guard and immediately re-engage with foot-on-hip frames. The sprawl removes their pressure, which can be exploited by coming up to a seated guard. → Leads to [[Deep Half Guard]]
-- **Opponent steps their free leg over your body to pass during the transition** (Effectiveness: Medium) - Your Response: If they step over before X-Guard is established, use the step-over momentum to attempt a rolling back take underneath them. Hook their stepping leg with your arm and continue the roll to establish back control. Their step-over commits their weight in a direction you can exploit. → Leads to [[Half Guard]]
+- **Opponent drives forward with heavy crossface pressure during the transition phase** (Effectiveness: High) - Your Response: If crossface is applied before hooks are set, abandon the X-Guard attempt and re-establish deep half positioning. Use your free arm to frame against their shoulder and shrimp to recover the deep underhook. Their forward drive actually loads the waiter sweep. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Opponent quickly extracts their leg with circular knee motion before inside hook threads** (Effectiveness: High) - Your Response: Follow their retreating leg immediately. If you cannot thread the inside hook, transition to Single Leg X-Guard by hooking their leg with both feet in a butterfly configuration, or sit up to pursue a single leg takedown while they are still retracting. → Leads to [[Positions/Half Guard]]
+- **Opponent sprawls and drives hips away to create distance while maintaining crossface** (Effectiveness: Medium) - Your Response: Use the space created by their sprawl to sit up and pursue the ankle. If their hips are far enough away, transition to open guard and immediately re-engage with foot-on-hip frames. The sprawl removes their pressure, which can be exploited by coming up to a seated guard. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Opponent steps their free leg over your body to pass during the transition** (Effectiveness: Medium) - Your Response: If they step over before X-Guard is established, use the step-over momentum to attempt a rolling back take underneath them. Hook their stepping leg with your arm and continue the roll to establish back control. Their step-over commits their weight in a direction you can exploit. → Leads to [[Positions/Half Guard]]
 
 
 </section>

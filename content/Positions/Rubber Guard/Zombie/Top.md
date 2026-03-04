@@ -208,27 +208,27 @@ Success in Zombie Top depends on recognizing the opponent's defensive structure 
 
 ## Available Attacks
 
-### [[Crossface Pass]] (27% of attempts)
+### [[Transitions/Crossface Pass]] (27% of attempts)
 
-### [[Leg Weave Pass]] (10% of attempts)
+### [[Transitions/Leg Weave Pass]] (10% of attempts)
 
-### [[Knee Slice Pass]] (11% of attempts)
+### [[Transitions/Knee Slice Pass]] (11% of attempts)
 
-### [[Smash Pass]] (9% of attempts)
+### [[Transitions/Smash Pass]] (9% of attempts)
 
-### [[Turtle to Back Take]] (12% of attempts)
+### [[Transitions/Turtle to Back Take]] (12% of attempts)
 
-### [[Crab Ride to Back]] (10% of attempts)
+### [[Transitions/Crab Ride to Back]] (10% of attempts)
 
-### [[Anaconda from Turtle]] (8% of attempts)
+### [[Transitions/Anaconda from Turtle]] (8% of attempts)
 
-### [[Darce from Turtle]] (6% of attempts)
+### [[Transitions/Darce from Turtle]] (6% of attempts)
 
-### [[Back Take]] (4% of attempts)
+### [[Transitions/Back Take]] (4% of attempts)
 
-### [[Posture Recovery from Zombie]] (2% of attempts)
+### [[Transitions/Posture Recovery from Zombie]] (2% of attempts)
 
-### [[Strip Grip from Zombie]] (1% of attempts)
+### [[Transitions/Strip Grip from Zombie]] (1% of attempts)
 
 
 
@@ -239,24 +239,24 @@ Success in Zombie Top depends on recognizing the opponent's defensive structure 
 ## Decision Making from This Position
 
 **If opponent maintains strong lockdown and underhook with good posture control:**
-- Execute **[[Crossface Pass]]** → [[Side Control]] (Probability: 45%)
-- Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If opponent's lockdown begins to loosen or defensive structure weakens:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 42%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 42%)
 
 
 **If opponent turns to turtle to escape passing pressure:**
-- Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Crab Ride to Back]]** → [[Crab Ride]] (Probability: 52%)
-- Execute **[[Anaconda from Turtle]]** → [[Anaconda Control]] (Probability: 38%)
+- Execute **[[Transitions/Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 52%)
+- Execute **[[Transitions/Anaconda from Turtle]]** → [[Positions/Anaconda Control]] (Probability: 38%)
 
 
 **If opponent attempts sweep (Old School, Electric Chair):**
-- Execute **[[Crossface Pass]]** → [[Side Control]] (Probability: 48%)
-- Execute **[[Underhook Pass]]** → [[Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Underhook Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 
@@ -402,17 +402,17 @@ Bottom player attempts Old School Sweep and Electric Chair attacks while top pla
 
 ## Related Positions and Techniques
 
-- **[[Lockdown]]** - Related defensive structure - lockdown mechanics that top player must defeat
-- **[[Half Guard]]** - Similar position - traditional half guard top without lockdown complications
-- **[[Electric Chair]]** - Common submission threat from bottom that top player must defend
-- **[[Old School]]** - Primary sweep threat to defend against from Zombie Top
-- **[[Crossface Pass]]** - Primary passing technique from Zombie Top position
-- **[[Leg Weave Pass]]** - Alternative passing approach when lockdown loosens
-- **[[Turtle to Back Take]]** - Common transition when opponent defends to turtle
-- **[[Side Control]]** - Common target position after successful pass
-- **[[Back Control]]** - High-value transition target when opponent turns away
-- **[[Deep Half Guard]]** - Understanding opponent's system - common transition target from lockdown
-- **[[Knee Slice Pass]]** - Related passing concept - systematic pressure application
+- **[[Positions/Half Guard/Lockdown]]** - Related defensive structure - lockdown mechanics that top player must defeat
+- **[[Positions/Half Guard]]** - Similar position - traditional half guard top without lockdown complications
+- **[[Positions/Half Guard/Electric Chair]]** - Common submission threat from bottom that top player must defend
+- **[[Positions/Half Guard/Old School]]** - Primary sweep threat to defend against from Zombie Top
+- **[[Transitions/Crossface Pass]]** - Primary passing technique from Zombie Top position
+- **[[Transitions/Leg Weave Pass]]** - Alternative passing approach when lockdown loosens
+- **[[Transitions/Turtle to Back Take]]** - Common transition when opponent defends to turtle
+- **[[Positions/Side Control]]** - Common target position after successful pass
+- **[[Positions/Back Control]]** - High-value transition target when opponent turns away
+- **[[Positions/Half Guard/Deep Half Guard]]** - Understanding opponent's system - common transition target from lockdown
+- **[[Transitions/Knee Slice Pass]]** - Related passing concept - systematic pressure application
 
 
 </section>

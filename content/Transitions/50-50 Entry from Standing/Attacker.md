@@ -182,7 +182,7 @@ The 50-50 Entry from Standing is a modern leg entanglement technique that allows
 
 This entry has become increasingly popular in modern competitive BJJ, particularly among leg lock specialists who use the 50-50 as a platform for attacking heel hooks and toe holds. The position's symmetry creates a strategic stalemate that can frustrate opponents unfamiliar with its intricacies, while providing numerous attacking opportunities for those well-versed in the system. The entry requires precise timing and coordination to successfully establish the position without exposing yourself to counters.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -236,9 +236,9 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 60% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 60% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -247,11 +247,11 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 
 ## Opponent Counters
 
-- **Sprawl and distance creation** (Effectiveness: High) - Your Response: Maintain your ankle/shin grip and use it to pull yourself into position even as they sprawl. If they create significant distance, abandon the 50-50 entry and transition to a single leg attack or standing reset. → Leads to [[Standing Position]]
-- **Immediate backward step and leg extraction** (Effectiveness: Medium) - Your Response: Use your upper body grip to prevent them from stepping back. If they begin to extract, follow them with your hips and try to establish a deep half guard or outside ashi garami instead. → Leads to [[Standing Position]]
-- **Forward pressure and knee slice attempt** (Effectiveness: Medium) - Your Response: Use your outside leg frame to create distance and prevent them from driving their knee across. Transition to X-Guard or single leg X if they commit too much forward pressure. → Leads to [[Open Guard]]
-- **Guillotine attempt during entry** (Effectiveness: Low) - Your Response: Keep your head up and posture strong during the entry. If they attempt a guillotine, use your outside leg frame to create distance and break their grip, or transition to a leg lock attack to force them to release. → Leads to [[Open Guard]]
-- **Standing and lifting attempt** (Effectiveness: Medium) - Your Response: Break your opponent down with upper body grips. If they succeed in standing, release the position and recover guard or stand up to reset, as holding onto 50-50 while being lifted can result in a slam or sweep. → Leads to [[Standing Position]]
+- **Sprawl and distance creation** (Effectiveness: High) - Your Response: Maintain your ankle/shin grip and use it to pull yourself into position even as they sprawl. If they create significant distance, abandon the 50-50 entry and transition to a single leg attack or standing reset. → Leads to [[Positions/Standing Position]]
+- **Immediate backward step and leg extraction** (Effectiveness: Medium) - Your Response: Use your upper body grip to prevent them from stepping back. If they begin to extract, follow them with your hips and try to establish a deep half guard or outside ashi garami instead. → Leads to [[Positions/Standing Position]]
+- **Forward pressure and knee slice attempt** (Effectiveness: Medium) - Your Response: Use your outside leg frame to create distance and prevent them from driving their knee across. Transition to X-Guard or single leg X if they commit too much forward pressure. → Leads to [[Positions/Open Guard]]
+- **Guillotine attempt during entry** (Effectiveness: Low) - Your Response: Keep your head up and posture strong during the entry. If they attempt a guillotine, use your outside leg frame to create distance and break their grip, or transition to a leg lock attack to force them to release. → Leads to [[Positions/Open Guard]]
+- **Standing and lifting attempt** (Effectiveness: Medium) - Your Response: Break your opponent down with upper body grips. If they succeed in standing, release the position and recover guard or stand up to reset, as holding onto 50-50 while being lifted can result in a slam or sweep. → Leads to [[Positions/Standing Position]]
 
 
 </section>

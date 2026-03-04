@@ -21,7 +21,7 @@ The strategic value of this escape lies in its reliability as a moderate-risk, c
 
 At purple belt and above, the hip escape from truck functions as part of an integrated escape system rather than a standalone technique. A partially successful hip escape that fails to fully extract the leg naturally sets up subsequent granby roll attempts by creating the angles needed for rotation. The framing sequences developed during the hip escape can transition into leg extraction entries or forward roll setups. Building this interconnected escape network transforms truck bottom from a panic position into a manageable problem with systematic solutions.
 
-**From Position**: [[Truck]] (Bottom)
+**From Position**: [[Positions/Twister Control/Truck]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ At purple belt and above, the hip escape from truck functions as part of an inte
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Failure | [[Truck]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Failure | [[Positions/Twister Control/Truck]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -193,25 +193,25 @@ The hip escape from truck occupies a critical position within the truck bottom e
 ## Related Techniques
 
 
-- [[Truck]] - Starting position requiring escape
+- [[Positions/Twister Control/Truck]] - Starting position requiring escape
 
-- [[Half Guard]] - Primary escape destination after successful leg extraction
+- [[Positions/Half Guard]] - Primary escape destination after successful leg extraction
 
-- [[Back Control]] - Counter outcome when opponent transitions during escape attempt
+- [[Positions/Back Control]] - Counter outcome when opponent transitions during escape attempt
 
-- [[Escape from Truck]] - Related general escape technique from truck position
+- [[Transitions/Escape from Truck]] - Related general escape technique from truck position
 
-- [[Calf Slicer from Truck]] - Submission threat that motivates urgency for escape
+- [[Submissions/Calf Slicer from Truck]] - Submission threat that motivates urgency for escape
 
-- [[Twister Control]] - Primary submission threat position accessible from truck
+- [[Positions/Twister Control]] - Primary submission threat position accessible from truck
 
-- [[Turtle]] - Alternative escape destination through different escape routes
+- [[Positions/Turtle]] - Alternative escape destination through different escape routes
 
-- [[Deep Half Guard]] - Alternative recovery position accessible via forward roll from truck
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative recovery position accessible via forward roll from truck
 
-- [[Crab Ride]] - Related back attack position with similar escape mechanics
+- [[Positions/Crab Ride]] - Related back attack position with similar escape mechanics
 
-- [[Hip Escape from Back Control]] - Similar escape mechanics applied from traditional back control
+- [[Transitions/Hip Escape from Back Control]] - Similar escape mechanics applied from traditional back control
 
 
 </section>

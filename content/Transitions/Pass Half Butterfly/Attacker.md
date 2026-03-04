@@ -180,7 +180,7 @@ description: "Complete guide to executing the Pass Half Butterfly in BJJ. Step-b
 
 As the attacker executing the Pass Half Butterfly, your objective is to systematically neutralize the bottom player's butterfly hook while maintaining upper body control, then complete the pass to side control. The critical insight is that the butterfly hook only generates dangerous lifting power when your weight is positioned directly above it. By shifting your center of gravity forward onto the bottom player's chest and driving your hips low and away from the hook's optimal fulcrum point, you reduce the hook to a passive obstacle rather than an active threat. The pass requires patience and sequential progression through control establishment, hook neutralization, and pass completion rather than explosive forcing through the guard.
 
-**From Position**: [[Half Butterfly]] (Top)
+**From Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Pass Half Butterfly, your objective is to systemat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Half Butterfly]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Butterfly Guard/Half Butterfly]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,11 +243,11 @@ As the attacker executing the Pass Half Butterfly, your objective is to systemat
 
 ## Opponent Counters
 
-- **Bottom player elevates butterfly hook for sweep attempt during weight transfer** (Effectiveness: High) - Your Response: Immediately widen base and drive hips toward the mat while increasing crossface pressure. If the elevation has significant momentum, post your far hand momentarily to stabilize, then immediately return to chest pressure once the sweep attempt stalls. → Leads to [[Half Butterfly]]
-- **Bottom player establishes underhook and begins to come up to dogfight position** (Effectiveness: High) - Your Response: Apply heavy overhook or whizzer on the underhook arm while driving shoulder pressure down to prevent them from rising. If they continue climbing, sprawl hips back and circle toward their back to take advantage of their committed body angle. → Leads to [[Half Butterfly]]
-- **Bottom player dives underneath for deep half guard entry during pass attempt** (Effectiveness: Medium) - Your Response: Keep hips heavy and inside knee positioned to block their head from shooting underneath. When you feel the dive, immediately flatten your weight forward and drive your hips down to prevent them from completing the deep half entry. Reestablish crossface and restart pass. → Leads to [[Half Butterfly]]
-- **Bottom player frames and shrimps to create distance for guard recovery** (Effectiveness: Medium) - Your Response: Follow the shrimp with constant forward pressure and close the distance immediately. Use your near hand to control their hip and prevent further hip escape. If they create enough space to insert a knee shield, address it with a smash pass or backstep before restarting the half butterfly pass. → Leads to [[Half Butterfly]]
-- **Bottom player times a hook sweep during the moment you slide your knee through** (Effectiveness: High) - Your Response: Ensure the hook is fully neutralized before attempting to slide through. If caught mid-transition, post your far hand and sprawl immediately to abort the pass. Return to heavy top pressure and restart the hook neutralization sequence before attempting the knee slide again. → Leads to [[Half Guard]]
+- **Bottom player elevates butterfly hook for sweep attempt during weight transfer** (Effectiveness: High) - Your Response: Immediately widen base and drive hips toward the mat while increasing crossface pressure. If the elevation has significant momentum, post your far hand momentarily to stabilize, then immediately return to chest pressure once the sweep attempt stalls. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
+- **Bottom player establishes underhook and begins to come up to dogfight position** (Effectiveness: High) - Your Response: Apply heavy overhook or whizzer on the underhook arm while driving shoulder pressure down to prevent them from rising. If they continue climbing, sprawl hips back and circle toward their back to take advantage of their committed body angle. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
+- **Bottom player dives underneath for deep half guard entry during pass attempt** (Effectiveness: Medium) - Your Response: Keep hips heavy and inside knee positioned to block their head from shooting underneath. When you feel the dive, immediately flatten your weight forward and drive your hips down to prevent them from completing the deep half entry. Reestablish crossface and restart pass. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
+- **Bottom player frames and shrimps to create distance for guard recovery** (Effectiveness: Medium) - Your Response: Follow the shrimp with constant forward pressure and close the distance immediately. Use your near hand to control their hip and prevent further hip escape. If they create enough space to insert a knee shield, address it with a smash pass or backstep before restarting the half butterfly pass. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
+- **Bottom player times a hook sweep during the moment you slide your knee through** (Effectiveness: High) - Your Response: Ensure the hook is fully neutralized before attempting to slide through. If caught mid-transition, post your far hand and sprawl immediately to abort the pass. Return to heavy top pressure and restart the hook neutralization sequence before attempting the knee slide again. → Leads to [[Positions/Half Guard]]
 
 
 </section>

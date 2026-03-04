@@ -180,7 +180,7 @@ description: "How to execute Jumping Guard in BJJ. Attacking perspective with se
 
 As the attacker executing Jumping Guard, your objective is to explosively close standing distance and establish closed guard in a single committed movement. This technique bypasses conventional grip fighting sequences by forcing immediate body-to-body contact, denying your opponent the distance they need to execute takedowns or maintain standing control. The attacker must balance explosive commitment with technical precision: the jump itself requires proper trajectory, grip integrity, and instantaneous leg wrapping to succeed. Your success depends on reading the opponent's weight distribution, disguising intent within normal grip exchanges, and having trained backup guard options for when the closed guard lock fails. The attacker who masters jumping guard possesses a powerful tool for dictating the terms of engagement from standing, but must understand that this technique demands more athletic preparation and carries higher consequence for failure than conventional guard pulls.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ As the attacker executing Jumping Guard, your objective is to explosively close 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Standing Position]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -245,11 +245,11 @@ As the attacker executing Jumping Guard, your objective is to explosively close 
 
 ## Opponent Counters
 
-- **Opponent sprawls backward and drives hips away while you are mid-jump** (Effectiveness: High) - Your Response: If opponent begins sprawling, immediately adjust by opening your guard and transitioning to butterfly hooks or De La Riva hooks as you descend. Alternatively, maintain upper body grips and use momentum to establish seated guard rather than forcing closed guard. The key is recognizing the sprawl during your jump and adapting leg positioning before landing. → Leads to [[Standing Position]]
-- **Opponent catches you mid-jump and uses your momentum to drive you to the mat with heavy top pressure** (Effectiveness: High) - Your Response: If opponent absorbs your jump and drives forward, accept the forward pressure by pulling them into your guard rather than fighting it. Use their forward momentum to accelerate your posture breaking and immediately threaten a sweep or submission. If you cannot lock closed guard, transition to butterfly hooks using their driving force to load an elevator sweep. → Leads to [[Standing Position]]
-- **Opponent uses your jumping momentum to initiate immediate guard pass by driving forward and around** (Effectiveness: Medium) - Your Response: As opponent drives forward, use your leg position to redirect their momentum by opening your guard and establishing butterfly hooks or overhooks. The key is not fighting their forward pressure but redirecting it laterally while maintaining upper body control through grips. Frame on their shoulder to create the angle needed to re-establish guard. → Leads to [[Standing Position]]
-- **Opponent keeps distance and refuses engagement, making jumping guard timing impossible** (Effectiveness: Medium) - Your Response: Use feint movements and grip fighting to create reaction openings. Employ collar drags or snap downs to break their distance and force a reaction that shifts their weight forward. If opponent consistently avoids engagement, switch to traditional guard pull methods or takedown entries rather than forcing jumping guard from bad distance. → Leads to [[Standing Position]]
-- **Opponent locks out arms to stiff-arm and prevent you from getting close enough to jump effectively** (Effectiveness: Low) - Your Response: Attack the extended arms with arm drags, collar drags, or snap downs to break their defensive posture. Extended arms are structurally weak against lateral forces. Once their arm structure is compromised and they retract, the jumping guard entry becomes accessible. Patient grip breaking and arm manipulation will create the timing window. → Leads to [[Standing Position]]
+- **Opponent sprawls backward and drives hips away while you are mid-jump** (Effectiveness: High) - Your Response: If opponent begins sprawling, immediately adjust by opening your guard and transitioning to butterfly hooks or De La Riva hooks as you descend. Alternatively, maintain upper body grips and use momentum to establish seated guard rather than forcing closed guard. The key is recognizing the sprawl during your jump and adapting leg positioning before landing. → Leads to [[Positions/Standing Position]]
+- **Opponent catches you mid-jump and uses your momentum to drive you to the mat with heavy top pressure** (Effectiveness: High) - Your Response: If opponent absorbs your jump and drives forward, accept the forward pressure by pulling them into your guard rather than fighting it. Use their forward momentum to accelerate your posture breaking and immediately threaten a sweep or submission. If you cannot lock closed guard, transition to butterfly hooks using their driving force to load an elevator sweep. → Leads to [[Positions/Standing Position]]
+- **Opponent uses your jumping momentum to initiate immediate guard pass by driving forward and around** (Effectiveness: Medium) - Your Response: As opponent drives forward, use your leg position to redirect their momentum by opening your guard and establishing butterfly hooks or overhooks. The key is not fighting their forward pressure but redirecting it laterally while maintaining upper body control through grips. Frame on their shoulder to create the angle needed to re-establish guard. → Leads to [[Positions/Standing Position]]
+- **Opponent keeps distance and refuses engagement, making jumping guard timing impossible** (Effectiveness: Medium) - Your Response: Use feint movements and grip fighting to create reaction openings. Employ collar drags or snap downs to break their distance and force a reaction that shifts their weight forward. If opponent consistently avoids engagement, switch to traditional guard pull methods or takedown entries rather than forcing jumping guard from bad distance. → Leads to [[Positions/Standing Position]]
+- **Opponent locks out arms to stiff-arm and prevent you from getting close enough to jump effectively** (Effectiveness: Low) - Your Response: Attack the extended arms with arm drags, collar drags, or snap downs to break their defensive posture. Extended arms are structurally weak against lateral forces. Once their arm structure is compromised and they retract, the jumping guard entry becomes accessible. Patient grip breaking and arm manipulation will create the timing window. → Leads to [[Positions/Standing Position]]
 
 
 </section>

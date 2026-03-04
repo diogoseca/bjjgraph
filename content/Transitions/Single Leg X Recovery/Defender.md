@@ -158,7 +158,7 @@ The critical defensive window occurs during the opponent's hip rotation and leg 
 
 Successful defense requires proactive control maintenance rather than reactive scrambling. By keeping your inside leg deep on their thigh and maintaining constant heel-side grip pressure, you deny the conditions necessary for recovery. When recovery attempts begin despite your control, transitioning to saddle or re-engaging heel attacks converts their escape effort into a worse positional outcome for them.
 
-**Opponent's Starting Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful defense requires proactive control maintenance rather than reactive s
 ### 1. Drive inside leg deep to establish saddle position
 
 - **When to use**: When opponent begins pushing your knee away and creating space for threading, step your inside leg through to control their thigh deeply
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: You transition to saddle, a higher-control entanglement with immediate heel hook and kneebar threats that puts opponent in worse position than before their recovery attempt
 - **Risk**: If you overcommit to the deep step and opponent has already partially extracted, you may lose entanglement entirely and they establish Single Leg X
 
 ### 2. Attack the heel during threading when dorsiflexion lapses
 
 - **When to use**: When opponent's foot momentarily extends or relaxes during the threading motion, creating a brief window for heel hook grip establishment
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: You catch a heel hook grip during their most vulnerable moment, forcing them to abort the recovery and return to full defensive mode or face submission
 - **Risk**: If the heel grab fails, you may have released inside leg control to reach for the heel, giving them the space needed to complete extraction
 
 ### 3. Sprawl forward and flatten opponent's hips to deny threading angle
 
 - **When to use**: When opponent begins hip rotation but has not yet started the threading motion, use forward pressure to pin their hips flat and eliminate the diagonal angle they need
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Opponent's hips are flattened, denying the rotation angle needed for threading and allowing you to re-establish optimal attacking position with heel exposure
 - **Risk**: Forward sprawl can assist their hip rotation if timed incorrectly, potentially accelerating rather than preventing the recovery
 
 ### 4. Circle away on far leg while maintaining ankle control
 
 - **When to use**: When opponent has partially completed extraction and is establishing foot on your hip, post on far leg and circle away to prevent full Single Leg X establishment
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: You break the Single Leg X structure before it is fully established, maintaining some leg entanglement control and resetting to ashi-garami attacking position
 - **Risk**: Circling away may create enough distance for opponent to disengage entirely and recover to open guard
 
@@ -228,11 +228,11 @@ Successful defense requires proactive control maintenance rather than reactive s
 
 ## Best-Case Outcomes for Defender
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 When opponent creates space by pushing your inside knee away, use that momentum to step your inside leg through and deepen the entanglement to saddle. Their extraction attempt actually assists your transition to a superior control position with immediate submission threats.
 
-### → [[Ushiro Ashi-Garami]]
+### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Maintain deep inside leg control and constant heel-side grip pressure throughout the recovery attempt. When their threading fails due to insufficient space or your pressure, they return to the starting position having expended energy while your control is intact.
 

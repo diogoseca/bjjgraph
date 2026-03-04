@@ -209,23 +209,23 @@ From this position, you face multiple submission threats, primarily heel hook, a
 
 ## Available Escapes
 
-### [[Position reversal sweep to top]] (22% of attempts)
+### [[Transitions/Position reversal sweep to top]] (22% of attempts)
 
-### [[Counter heel hook]] (12% of attempts)
+### [[Transitions/Counter heel hook]] (12% of attempts)
 
-### [[50-50 Guard to Single Leg X-Guard]] (22% of attempts)
+### [[Transitions/50-50 Guard to Single Leg X-Guard]] (22% of attempts)
 
-### [[Extract legs and stand up]] (23% of attempts)
+### [[Transitions/Extract legs and stand up]] (23% of attempts)
 
-### [[Straight Ankle Lock Entry]] (4% of attempts)
+### [[Transitions/Straight Ankle Lock Entry]] (4% of attempts)
 
-### [[Kneebar entry]] (5% of attempts)
+### [[Transitions/Kneebar entry]] (5% of attempts)
 
-### [[Toe Hold]] (5% of attempts)
+### [[Transitions/Toe Hold]] (5% of attempts)
 
-### [[Counter-entangle to 50-50 Guard]] (5% of attempts)
+### [[Transitions/Counter-entangle to 50-50 Guard]] (5% of attempts)
 
-### [[Toe Hold from 50-50]] (2% of attempts)
+### [[Submissions/Toe Hold from 50-50]] (2% of attempts)
 
 
 
@@ -237,17 +237,17 @@ From this position, you face multiple submission threats, primarily heel hook, a
 
 **If opponent has clear inside position control and is setting up heel hook attack:**
 - Execute **[[Hide heel and defend immediately]]** → [[50-50 Guard Bottom]] (Probability: 90%)
-- Execute **[[Extract legs to standing if heel defense becomes compromised]]** → [[Standing Guard]] (Probability: 70%)
+- Execute **[[Extract legs to standing if heel defense becomes compromised]]** → [[Positions/Standing Guard]] (Probability: 70%)
 
 
 **If you successfully match opponent's inside position or gain inside position advantage:**
-- Execute **[[Sweep to top position using inside control]]** → [[50-50 Guard]] (Probability: 65%)
-- Execute **[[Attack opponent's heel with counter heel hook]]** → [[Inside Ashi-Garami]] (Probability: 50%)
+- Execute **[[Sweep to top position using inside control]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 65%)
+- Execute **[[Attack opponent's heel with counter heel hook]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
 
 
 **If opponent drives forward pressure trying to pass your guard:**
-- Execute **[[Use their momentum to sweep to top position]]** → [[50-50 Guard]] (Probability: 60%)
-- Execute **[[Transition to Single Leg X-Guard for better control]]** → [[Single Leg X-Guard]] (Probability: 55%)
+- Execute **[[Use their momentum to sweep to top position]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 60%)
+- Execute **[[Transition to Single Leg X-Guard for better control]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
 
 
 
@@ -369,13 +369,13 @@ Partner gives 50% resistance from top 50-50. Practice sweeping to top position u
 
 ## Related Positions and Techniques
 
-- **[[50-50 Guard]]** - Sibling variant - preferred position to achieve through reversal
-- **[[Inside Heel Hook]]** - Primary submission threat from opponent when you are on bottom
-- **[[Single Leg X-Guard]]** - Preferred transformation target offering better offensive options
-- **[[Ashi Garami]]** - Related leg entanglement position with similar defensive requirements
-- **[[Honey Hole]]** - Related leg lock position with similar submission threats
-- **[[Outside Ashi-Garami]]** - Alternative leg entanglement with different control dynamics
-- **[[Heel Hook]]** - Submission attacks you must defend against from this position
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Sibling variant - preferred position to achieve through reversal
+- **[[Submissions/Inside Heel Hook]]** - Primary submission threat from opponent when you are on bottom
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Preferred transformation target offering better offensive options
+- **[[Positions/Ashi Garami]]** - Related leg entanglement position with similar defensive requirements
+- **[[Positions/Ashi Garami/Honey Hole]]** - Related leg lock position with similar submission threats
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Alternative leg entanglement with different control dynamics
+- **[[Transitions/Heel Hook]]** - Submission attacks you must defend against from this position
 
 
 </section>

@@ -158,7 +158,7 @@ The critical defensive window occurs between the angle creation and the backward
 
 Even when the throw is partially completed, defensive options remain available. Landing mechanics, grip fighting during the transition, and immediate guard recovery can transform a successful throw into a neutral exchange rather than a dominant position for the attacker. The defender who understands the throw's trajectory can influence where and how they land, minimizing the positional damage and creating immediate recovery opportunities.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -197,28 +197,28 @@ Even when the throw is partially completed, defensive options remain available. 
 ### 1. Sprawl and widen base immediately when feeling the lateral angle creation
 
 - **When to use**: Early in the setup when opponent steps offline and begins pulling forward, before foot contacts your hip
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Kills the throw entirely by denying the forward weight transfer and creating distance between your hips and their lifting leg
 - **Risk**: If you sprawl too aggressively forward, opponent can switch to a different takedown using your forward momentum
 
 ### 2. Circle away from the throwing side while stripping the dominant grip
 
 - **When to use**: When you recognize the angle creation but still have time to adjust position before the drop
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Denies the angular entry entirely and resets to neutral standing where you can re-engage on your terms
 - **Risk**: If grips are too strong to strip, circling may load your weight into the throw angle instead of away from it
 
 ### 3. Drive hips back and sit weight down while posting free hand on their shoulder to prevent the pull
 
 - **When to use**: When the throw is mid-execution and opponent has committed to the backward drop with foot already at your hip
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Your lowered center of gravity and backward hip position prevent the circular arc from completing, stalling the throw
 - **Risk**: If opponent adjusts foot position or switches to tomoe nage variation, your lowered hips may facilitate the adjusted throw
 
 ### 4. Accept the throw but control the landing by tucking chin and securing your own grip to pull guard immediately
 
 - **When to use**: When the throw has passed the point of no return and you are already being elevated over opponent's center
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You land in a controlled manner and immediately close your guard, converting the throw into a guard pull rather than a dominant position for the thrower
 - **Risk**: If you cannot close guard fast enough, the thrower follows through to mount or side control
 
@@ -230,11 +230,11 @@ Even when the throw is partially completed, defensive options remain available. 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Recognize the setup early through the lateral step and pulling grips. Immediately sprawl your hips back, widen your base, and strip the dominant grip. Circle away from the angle they are creating. Your priority is denying the forward weight transfer by keeping your center of gravity behind your feet.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the throw reaches the point of no return, control your fall by tucking your chin and maintaining grip contact with your opponent. As you land, immediately wrap your legs around their waist and lock your ankles before they can posture up or transition to mount. Establish collar or wrist grips during the descent to have offensive options the moment you land.
 

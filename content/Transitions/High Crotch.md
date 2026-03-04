@@ -21,7 +21,7 @@ The High Crotch works by combining forward pressure with rotational mechanics, f
 
 In the context of BJJ competition, the High Crotch has gained prominence due to its effectiveness in both gi and no-gi settings, its compatibility with guard pulling as a backup option, and its ability to score takedown points while maintaining relatively safe positioning. The technique requires proper timing, explosive penetration step, and understanding of weight distribution, but once mastered, it becomes one of the highest percentage takedowns available to grapplers at all levels.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ In the context of BJJ competition, the High Crotch has gained prominence due to 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 60% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Standing Position]] | 15% |
+| Success | [[Positions/Side Control]] | 60% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -194,27 +194,27 @@ The high crotch is a foundational wrestling-based takedown that has become integ
 ## Related Techniques
 
 
-- [[Single Leg Takedown]] - Alternative - targets same leg with different grip and finish mechanics
+- [[Transitions/Single Leg Takedown]] - Alternative - targets same leg with different grip and finish mechanics
 
-- [[Double Leg Entry]] - Follow-up - common transition when opponent squares hips to defend high crotch
+- [[Transitions/Double Leg Entry]] - Follow-up - common transition when opponent squares hips to defend high crotch
 
-- [[Body Lock Pass]] - Alternative - different approach to controlling hips and achieving takedown
+- [[Transitions/Body Lock Pass]] - Alternative - different approach to controlling hips and achieving takedown
 
-- [[Guillotine Choke]] - Counter - primary defensive submission opponent uses against high crotch
+- [[Transitions/Guillotine Choke]] - Counter - primary defensive submission opponent uses against high crotch
 
-- [[Front Headlock]] - Counter - opponent's control position if high crotch head position is compromised
+- [[Positions/Front Headlock]] - Counter - opponent's control position if high crotch head position is compromised
 
-- [[Snap Down to Front Headlock]] - Setup - forces opponent's weight forward creating high crotch opportunity
+- [[Transitions/Snap Down to Front Headlock]] - Setup - forces opponent's weight forward creating high crotch opportunity
 
-- [[Fireman's Carry]] - Follow-up - natural transition when opponent defends with whizzer overhook
+- [[Transitions/Fireman's Carry]] - Follow-up - natural transition when opponent defends with whizzer overhook
 
-- [[Ankle Pick]] - Combination - alternates with high crotch to attack different levels
+- [[Transitions/Ankle Pick]] - Combination - alternates with high crotch to attack different levels
 
-- [[Standing Back Control]] - Follow-up - achieved by running around to back instead of finishing forward takedown
+- [[Positions/Back Control/Standing Back Control]] - Follow-up - achieved by running around to back instead of finishing forward takedown
 
-- [[Single Leg Entry]] - Related entry - shares penetration step mechanics with different grip placement
+- [[Transitions/Single Leg Entry]] - Related entry - shares penetration step mechanics with different grip placement
 
-- [[Sprawl]] - Primary defensive counter used against high crotch attempts
+- [[Transitions/Sprawl]] - Primary defensive counter used against high crotch attempts
 
 
 </section>

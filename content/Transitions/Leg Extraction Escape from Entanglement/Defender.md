@@ -146,7 +146,7 @@ description: "Defend against the Leg Extraction Escape from your leg entanglemen
 
 As the defender (the person maintaining the leg entanglement while the opponent attempts to extract), your objective is to preserve your control structure by preventing the systematic clearing of connection points that makes extraction possible. You must maintain the integrity of your inside hook, foot grip, and hip pressure while simultaneously looking for opportunities to advance to a deeper entanglement or finish a submission when the opponent's escape attempt creates momentary heel exposure. The defender's mindset combines patient retention of existing control with opportunistic advancement, recognizing that each failed extraction attempt depletes the opponent's energy and erodes their defensive composure. Understanding the escaping practitioner's clearing sequence allows you to anticipate and counter each step before it compromises your position.
 
-**Opponent's Starting Position**: [[Leg Entanglement]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Entanglement]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender (the person maintaining the leg entanglement while the opponent 
 ### 1. Follow the opponent's hip retreat with your own hip advancement to maintain zero distance
 
 - **When to use**: When the opponent shifts their hips away to create extraction angle, advance your hips to match their retreat
-- **Targets**: [[Leg Entanglement]]
+- **Targets**: [[Positions/Leg Entanglement]]
 - **If successful**: Opponent cannot create the gap needed for extraction and remains trapped in the current entanglement
 - **Risk**: If you overcommit to following, the opponent may redirect and use your forward momentum to sweep or create a scramble
 
 ### 2. Advance to inside ashi or saddle during the opponent's grip-stripping phase when their hands are occupied
 
 - **When to use**: When the opponent uses both hands to strip your foot grip, their legs and hips are momentarily undefended, creating a window for advancement
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Opponent's extraction attempt fails and they are now in a deeper entanglement with reduced escape options
 - **Risk**: If the advancement is sloppy, you may lose the original entanglement without securing the deeper position
 
 ### 3. Attack the heel when it becomes momentarily exposed during the extraction movement
 
 - **When to use**: When the opponent bends the trapped knee during clearing or changes leg angle during extraction, creating brief heel exposure
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Opponent must abandon extraction and address the immediate heel hook threat, resetting their entire escape sequence
 - **Risk**: If the heel grab misses, you may have released a connection point to reach for it, facilitating their extraction
 
 ### 4. Control the opponent's free leg with your hand or by hooking it to eliminate the push-kick
 
 - **When to use**: When the opponent positions their free foot on your body in preparation for the push-kick phase of extraction
-- **Targets**: [[Leg Entanglement]]
+- **Targets**: [[Positions/Leg Entanglement]]
 - **If successful**: Without the push-kick, the opponent lacks the force to complete the extraction and remains in the entanglement
 - **Risk**: Reaching for the free leg may require releasing a grip on the trapped leg, temporarily weakening your entanglement structure
 
@@ -217,11 +217,11 @@ As the defender (the person maintaining the leg entanglement while the opponent 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Entanglement]]
+### → [[Positions/Leg Entanglement]]
 
 Maintain persistent hip pressure and immediately re-pummel any cleared hooks. Follow the opponent's lateral hip movement to prevent gap creation. Control their free leg to eliminate the push-kick force. Patient retention of the existing entanglement exhausts the opponent's escape energy and preserves your attacking position.
 
-### → [[Ashi Garami]]
+### → [[Positions/Ashi Garami]]
 
 Capitalize on the window created when the opponent uses both hands to strip grips by advancing to inside ashi or saddle. Alternatively, attack the heel during momentary exposure created by the opponent's extraction angle changes. Convert their escape attempt into a deeper positional problem through opportunistic advancement.
 

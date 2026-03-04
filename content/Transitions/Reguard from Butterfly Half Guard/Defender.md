@@ -154,7 +154,7 @@ description: "Defend against the reguard from butterfly half guard. Learn to pre
 
 Defending the reguard from butterfly half guard requires the top player to maintain pressure on the trapped leg while preventing the bottom player from creating the hip angle necessary for extraction. The primary defensive strategy combines crossface control to limit hip escape range with tight squeeze pressure on the trapped leg to block pummeling attempts. When the bottom player initiates a reguard attempt, the defender should recognize this as an opportunity to advance position rather than simply resist—timing passing movements to coincide with the moments when the bottom player creates space during their extraction effort. The defender's goal is to either maintain the butterfly half guard top position by shutting down the extraction, or capitalize on the movement to flatten the bottom player or complete a pass. Understanding the bottom player's mechanical requirements for the reguard allows the defender to systematically deny each prerequisite: denying posture through crossface, denying hip angle through weight distribution, and denying extraction through leg squeeze and hip positioning.
 
-**Opponent's Starting Position**: [[Butterfly Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Butterfly Half Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the reguard from butterfly half guard requires the top player to maint
 ### 1. Drive crossface and heavy shoulder pressure to flatten bottom player's posture
 
 - **When to use**: When you feel the bottom player beginning to shrimp or elevate their shoulder on the trapped-leg side
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Bottom player is flattened with compromised posture, unable to generate hip escape power for extraction, and vulnerable to passing sequences
 - **Risk**: If bottom player has strong frames established, driving into them can provide leverage for their reguard or sweep attempt
 
 ### 2. Tighten squeeze on trapped leg and drive hips forward to block pummeling path
 
 - **When to use**: When you detect the bottom player's trapped knee beginning circular pummeling motion toward their chest
-- **Targets**: [[Butterfly Half Guard]]
+- **Targets**: [[Positions/Half Guard/Butterfly Half Guard]]
 - **If successful**: Extraction attempt is blocked, bottom player remains in butterfly half guard with wasted energy from failed attempt
 - **Risk**: Driving hips too far forward can provide the bottom player with momentum for butterfly hook elevation sweeps
 
 ### 3. Time knee slice pass to exploit space created during extraction attempt
 
 - **When to use**: When the bottom player creates lateral space through hip escape and their frame is committed to the extraction rather than blocking passes
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: You advance through the space created by their hip escape, completing or nearly completing a pass to side control
 - **Risk**: If bottom player recognizes the knee slice and recovers knee shield, you may end up in a more structured defensive guard
 
 ### 4. Secure underhook on butterfly side and rotate to deny posture
 
 - **When to use**: When bottom player is focused on the trapped leg and their butterfly-side arm control is weakened
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: You establish dominant upper body control that prevents both the reguard and offensive sweeps from butterfly half guard
 - **Risk**: Reaching for the underhook briefly lightens your weight on the trapped leg, potentially allowing faster extraction
 
@@ -225,7 +225,7 @@ Defending the reguard from butterfly half guard requires the top player to maint
 
 ## Best-Case Outcomes for Defender
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Apply crossface during the bottom player's hip escape attempt and drive shoulder pressure to flatten their posture while maintaining tight squeeze on the trapped leg. Their shrimping motion creates a brief window where you can collapse their structure by driving your weight at an angle into their frame. Alternatively, time a knee slice through the space they create during extraction to advance past their guard entirely.
 

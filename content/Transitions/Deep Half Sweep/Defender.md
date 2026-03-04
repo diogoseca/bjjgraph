@@ -146,7 +146,7 @@ description: "Defend the Deep Half Sweep in BJJ. Recognition cues, defensive cou
 
 As the defender against the Deep Half Sweep, you are the top player in deep half guard who must prevent the bottom player from completing their hip elevation sweep. Your primary challenge is that the bottom player has already established a strong mechanical advantage through their deep underhook and positioning underneath your center of gravity. Successful defense requires early recognition of the sweep setup, disruption of the bottom player's angle creation, and either neutralizing the sweep threat to maintain position or countering to improve your position by passing their guard entirely. Understanding the sweep mechanics allows you to identify and attack the critical failure points in the bottom player's technique.
 
-**Opponent's Starting Position**: [[Deep Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the Deep Half Sweep, you are the top player in deep half
 ### 1. Sprawl hips back to remove weight from bottom player's shoulder wedge
 
 - **When to use**: As soon as you feel the bottom player begin to walk their feet toward your head or sense increased upward pressure from their shoulder
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: Bottom player loses the loaded angle needed for the sweep and must reset their positioning to attempt again
 - **Risk**: Sprawling too aggressively can open space for the bottom player to transition to a rolling back take or X-Guard entry
 
 ### 2. Drive crossface pressure and flatten the bottom player's upper body
 
 - **When to use**: When the bottom player is still in the setup phase and has not yet created sufficient angle for the sweep
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: Flattening the bottom player removes their ability to generate hip elevation and forces them to address the crossface before attempting any sweep
 - **Risk**: Excessive forward pressure during crossface can actually load the sweep if the bottom player maintains proper underhook and timing
 
 ### 3. Backstep pass to extract trapped leg and pass around to side control
 
 - **When to use**: When the bottom player commits heavily to the sweep setup and their legs are not actively blocking your backstep path
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You extract your trapped leg from deep half and transition to a passing position, converting from a defensive situation to an offensive one
 - **Risk**: The backstep creates a brief moment of instability where the bottom player can follow your rotation and enter a back take attempt
 
 ### 4. Strip the underhook by circling your trapped leg outward and driving your knee through
 
 - **When to use**: When you have established crossface control and the bottom player's underhook grip has loosened due to your pressure or positional adjustments
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Breaking the underhook eliminates the deep half position entirely, allowing you to extract your leg and transition to standard half guard top for passing
 - **Risk**: If the underhook strip fails, the movement may create space that the bottom player exploits for elevation or angle creation
 
@@ -217,7 +217,7 @@ As the defender against the Deep Half Sweep, you are the top player in deep half
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Counter the sweep by combining crossface pressure with systematic leg extraction. Drive crossface to flatten the bottom player, then circle your trapped knee outward and pull it free while maintaining upper body control. Transition immediately to standard half guard top where you have superior passing options and the deep half leverage system is neutralized.
 

@@ -146,7 +146,7 @@ description: "Defend against the Escape Body Lock. Recognition cues, counter-str
 
 As the defender against the Escape Body Lock, your objective is to maintain your dominant body lock control and either prevent the escape entirely or capitalize on the escape attempt to advance to an even more dominant position such as back control. You hold the positional advantage and your goal is to convert the transitional body lock into a permanent positional advancement before the bottom player can break free. Recognizing escape attempts early, maintaining constant forward pressure, and having predetermined counters for each escape pattern are the keys to neutralizing your opponent's defensive efforts. Every escape attempt your opponent makes creates movement that you can exploit if you read it correctly and react faster than they can complete their technique.
 
-**Opponent's Starting Position**: [[Body Lock]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Body Lock]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the Escape Body Lock, your objective is to maintain your
 ### 1. Increase hip pressure and immediately re-lock grip tighter
 
 - **When to use**: When opponent begins early grip fighting before generating full escape momentum
-- **Targets**: [[Body Lock]]
+- **Targets**: [[Positions/Body Lock]]
 - **If successful**: Opponent remains trapped in body lock with tighter control, reducing subsequent escape probability
 - **Risk**: Minimal risk - maintains current dominant position with enhanced control
 
 ### 2. Follow hip switch with hook insertion to transition to back control
 
 - **When to use**: When opponent executes hip switch and creates angular displacement during escape
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Convert body lock into full back control with hooks and seatbelt, upgrading from transitional to dominant position
 - **Risk**: If you fail to insert hooks during the scramble, opponent may complete escape to turtle or clinch
 
 ### 3. Execute immediate mat return before escape completes
 
 - **When to use**: When opponent's base is compromised during escape attempt, particularly during level change or hip switch
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Opponent is driven to mat in turtle position where you maintain top control and can continue attacking
 - **Risk**: If throw is poorly timed, opponent may use the momentum to complete their escape or reverse position
 
 ### 4. Release grip to transition to front headlock control
 
 - **When to use**: When opponent successfully turns to face you during escape and lowers their head level
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Transition from body lock to front headlock control, maintaining offensive pressure despite losing locked grip
 - **Risk**: If opponent frames effectively during the transition, they may recover to neutral clinch
 
@@ -217,11 +217,11 @@ As the defender against the Escape Body Lock, your objective is to maintain your
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When opponent creates angular displacement during hip switch, follow their rotation and immediately insert your near-side hook while transitioning your grip from body lock to seatbelt harness. Their escape movement actually helps your hook insertion by creating space between their legs.
 
-### → [[Body Lock]]
+### → [[Positions/Body Lock]]
 
 Re-lock your grip immediately when opponent's break attempt fails, driving increased forward hip pressure to re-establish full chest-to-back connection. Tighten your grip configuration and accelerate your attack timeline to execute a takedown before they can attempt another escape.
 

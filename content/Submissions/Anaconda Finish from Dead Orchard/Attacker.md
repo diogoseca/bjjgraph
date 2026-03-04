@@ -182,7 +182,7 @@ description: "Execute the Anaconda Finish from Dead Orchard in BJJ. Step-by-step
 
 Executing the Anaconda Finish from Dead Orchard requires mastery of sustained positional pressure combined with precise finishing mechanics. The attacker has already invested significant effort establishing the Dead Orchard control configuration—deep anaconda grip, shoulder pressure, and hip control—and must now convert this positional advantage into a successful submission. The finishing phase demands sensitivity to the opponent's defensive state, precise hip walking to achieve optimal compression angle, and coordinated application of grip squeeze, shoulder drive, and body rotation. Unlike explosive submission attempts, this finish rewards patience and methodical pressure escalation, capitalizing on the defensive fatigue created during the extended control phase. Understanding the relationship between grip depth, hip angle, and shoulder pressure is essential for consistently completing this choke against resisting opponents.
 
-**From Position**: [[Dead Orchard Control]] (Top)
+**From Position**: [[Positions/Dead Orchard Control]] (Top)
 
 
 </section>
@@ -237,8 +237,8 @@ Executing the Anaconda Finish from Dead Orchard requires mastery of sustained po
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Dead Orchard Control]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Dead Orchard Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -247,10 +247,10 @@ Executing the Anaconda Finish from Dead Orchard requires mastery of sustained po
 
 ## Opponent Defenses
 
-- **Opponent clasps hands together to create a defensive barrier preventing grip tightening** (Effectiveness: High) - Your Response: Attack their bottom grip hand by stripping it toward their hip with your free hand, or walk hips further to increase angular pressure that bypasses the clasped defense entirely → Leads to [[Dead Orchard Control]]
-- **Opponent drives forward and attempts to roll through the choke to invert the position** (Effectiveness: Medium) - Your Response: Sprawl hips back immediately and increase chest pressure to flatten their forward drive. Use their forward momentum to tighten the choke angle rather than fighting against it → Leads to [[Half Guard]]
-- **Opponent extends trapped arm and turns away to reduce compression angle on the neck** (Effectiveness: Medium) - Your Response: Follow their turning motion while maintaining grip integrity. Their rotation often improves your finishing angle. If the grip loosens during their turn, transition to back control or darce angle immediately → Leads to [[Dead Orchard Control]]
-- **Opponent posts free hand on mat and attempts to elevate or stand to relieve pressure** (Effectiveness: Low) - Your Response: Drive shoulder weight forward and down to collapse their posting base. Walk hips around to maintain the finishing angle while their elevated position actually tightens the choke by stretching their neck → Leads to [[Dead Orchard Control]]
+- **Opponent clasps hands together to create a defensive barrier preventing grip tightening** (Effectiveness: High) - Your Response: Attack their bottom grip hand by stripping it toward their hip with your free hand, or walk hips further to increase angular pressure that bypasses the clasped defense entirely → Leads to [[Positions/Dead Orchard Control]]
+- **Opponent drives forward and attempts to roll through the choke to invert the position** (Effectiveness: Medium) - Your Response: Sprawl hips back immediately and increase chest pressure to flatten their forward drive. Use their forward momentum to tighten the choke angle rather than fighting against it → Leads to [[Positions/Half Guard]]
+- **Opponent extends trapped arm and turns away to reduce compression angle on the neck** (Effectiveness: Medium) - Your Response: Follow their turning motion while maintaining grip integrity. Their rotation often improves your finishing angle. If the grip loosens during their turn, transition to back control or darce angle immediately → Leads to [[Positions/Dead Orchard Control]]
+- **Opponent posts free hand on mat and attempts to elevate or stand to relieve pressure** (Effectiveness: Low) - Your Response: Drive shoulder weight forward and down to collapse their posting base. Walk hips around to maintain the finishing angle while their elevated position actually tightens the choke by stretching their neck → Leads to [[Positions/Dead Orchard Control]]
 
 
 </section>

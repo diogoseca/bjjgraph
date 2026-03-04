@@ -156,7 +156,7 @@ description: "How to defend against Clock Choke in BJJ. Recognition, escape path
 
 Defending the Clock Choke requires early recognition and immediate action before the attacker completes their circular walking motion and locks in the rotational pressure. The defender is typically in turtle position when the Clock Choke is initiated, meaning they already face the challenge of limited visibility and restricted mobility. The critical window for defense exists between the initial collar grip establishment and the attacker reaching perpendicular alignment - once the attacker walks past perpendicular with a deep collar grip and chest pressure sealed, escape options diminish dramatically. Successful Clock Choke defense integrates three overlapping defensive layers: preventing the initial deep collar grip through chin protection and collar management, disrupting the walking motion through explosive positional changes before pressure accumulates, and executing escape sequences that address both the collar grip and the rotational body positioning simultaneously. Understanding which layer of defense is available at each stage of the Clock Choke progression is what separates effective defenders from those who simply endure increasing pressure until they tap.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the Clock Choke requires early recognition and immediate action before
 ### 1. Strip the collar grip early by using your near hand to peel attacker's fingers from the collar before the grip sets deep, while simultaneously tucking your chin tight to your chest to deny collar access
 
 - **When to use**: Immediately upon feeling the attacker's hand enter your collar - this is the highest-percentage defense because it removes the foundation of the choke before any rotational pressure begins
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Attacker loses the essential collar grip and must re-establish it, resetting the attack sequence and giving you time to improve position or escape turtle entirely
 - **Risk**: Focusing both hands on grip fighting may expose your neck to alternative chokes or allow attacker to advance to back control if they abandon the Clock Choke
 
 ### 2. Execute an explosive sit-out toward the attacker's choking arm side, turning your hips through and facing the attacker to establish a guard position
 
 - **When to use**: When the attacker has established the collar grip but has not yet completed significant walking motion - the early-to-mid phase before rotational pressure builds
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You face the attacker in guard position, completely neutralizing the Clock Choke which requires back access. The collar grip becomes non-threatening from guard
 - **Risk**: If sit-out is poorly timed or executed, the attacker can follow your rotation and maintain the collar grip while transitioning to a different choking position
 
 ### 3. Drive forward explosively while grabbing the attacker's far-side control arm, then execute a granby roll in the opposite direction of their walking motion to invert underneath them
 
 - **When to use**: When the attacker has committed their weight to the walking motion and their base is loaded forward - use their momentum against them
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: The inversion disrupts the attacker's base and rotational alignment, allowing you to recover guard or create a scramble from the inverted position
 - **Risk**: Failed granby attempt may accelerate the choke if attacker follows the roll effectively, and you may end up in a worse position with the collar grip still intact
 
 ### 4. Post with your far arm and drive your body toward the attacker while standing up explosively, using your legs to power through their chest pressure and break the rotational alignment
 
 - **When to use**: When you have strong base and the attacker's weight is not fully committed - best used before the walking motion reaches perpendicular to your body
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Standing breaks the mechanical advantage of the Clock Choke by removing the ground-based rotation. The attacker must either release and re-engage or transition to standing control
 - **Risk**: If the collar grip is already deep and rotational pressure established, standing up may tighten the choke rather than relieve it as your neck extends
 
@@ -240,11 +240,11 @@ Defending the Clock Choke requires early recognition and immediate action before
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Strip the collar grip early before rotational pressure builds, then re-establish strong turtle posture with chin tucked and elbows tight. Combine grip stripping with immediate positional movement to prevent re-establishment of the collar grip.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Execute a sit-out or granby roll that allows you to face the attacker and pull them into closed guard. From guard, the Clock Choke is completely neutralized and you can begin your own offensive sequence. This is the most favorable defensive outcome as it reverses the positional hierarchy.
 

@@ -26,8 +26,8 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Front Headlock]]
-**From Position**: [[Anaconda Control]] (Top)
+**Starting Position**: [[Positions/Front Headlock]]
+**From Position**: [[Positions/Anaconda Control]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -82,8 +82,8 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Anaconda Control]] | 30% |
-| Counter | [[Front Headlock]] | 15% |
+| Failure | [[Positions/Anaconda Control]] | 30% |
+| Counter | [[Positions/Front Headlock]] | 15% |
 
 
 </section>
@@ -254,14 +254,14 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 
 ## From Which Positions?
 
-- [[Front Headlock]]
-- [[Turtle]]
-- [[Anaconda Control]]
-- [[Scramble Position]]
-- [[Standing Position]]
-- [[Clinch]]
-- [[Combat Base]]
-- [[Half Guard]]
+- [[Positions/Front Headlock]]
+- [[Positions/Turtle]]
+- [[Positions/Anaconda Control]]
+- [[Positions/Scramble Position]]
+- [[Positions/Standing Position]]
+- [[Positions/Clinch]]
+- [[Positions/Combat Base]]
+- [[Positions/Half Guard]]
 
 
 </section>
@@ -270,13 +270,13 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 
 ## Related Submissions
 
-- [[Darce Choke]]
-- [[Guillotine Choke]]
-- [[Arm Triangle]]
-- [[Rear Naked Choke]]
-- [[Brabo Choke]]
-- [[Arm in Guillotine]]
-- [[Chin Strap Guillotine]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/Rear Naked Choke]]
+- [[Submissions/Brabo Choke]]
+- [[Submissions/Arm in Guillotine]]
+- [[Submissions/Chin Strap Guillotine]]
 
 
 </section>
@@ -285,17 +285,17 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 
 ## Additional Related Content
 
-- [[Front Headlock to Anaconda]] - Primary setup transition from front headlock control
-- [[Anaconda from Turtle]] - Common entry transition from opponent's turtle position
-- [[Anaconda Setup]] - General setup technique for establishing Anaconda control
-- [[Darce from Turtle]] - Alternative submission from same position with related mechanics
-- [[Darce Setup]] - Complementary technique with shared setup principles
-- [[Front Headlock]] - Control position from which Anaconda is commonly initiated
-- [[Turtle]] - Primary attacking position for Anaconda setups
-- [[Side Control]] - Position you can transition to if Anaconda attempt fails
-- [[North-South]] - Alternative finishing position for Marce variation
-- [[Darce Control]] - Control position closely related to Anaconda mechanics
-- [[Anaconda Control]] - Specific control position for setting up the Anaconda finish
+- [[Transitions/Front Headlock to Anaconda]] - Primary setup transition from front headlock control
+- [[Transitions/Anaconda from Turtle]] - Common entry transition from opponent's turtle position
+- [[Transitions/Anaconda Setup]] - General setup technique for establishing Anaconda control
+- [[Transitions/Darce from Turtle]] - Alternative submission from same position with related mechanics
+- [[Transitions/Darce Setup]] - Complementary technique with shared setup principles
+- [[Positions/Front Headlock]] - Control position from which Anaconda is commonly initiated
+- [[Positions/Turtle]] - Primary attacking position for Anaconda setups
+- [[Positions/Side Control]] - Position you can transition to if Anaconda attempt fails
+- [[Positions/North-South]] - Alternative finishing position for Marce variation
+- [[Positions/Darce Control]] - Control position closely related to Anaconda mechanics
+- [[Positions/Anaconda Control]] - Specific control position for setting up the Anaconda finish
 
 
 </section>

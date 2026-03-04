@@ -180,7 +180,7 @@ description: "Step-by-step guide to executing the frame escape from Kuzure Kesa-
 
 Executing the frame escape from Kuzure Kesa-Gatame requires understanding the precise interaction between frames, hip movement, and timing. As the bottom practitioner, your objective is to use skeletal structures—forearm frames against the opponent's hip and shoulder—to prevent them from closing distance while you incrementally create space through hip escapes. The technique succeeds through persistent mechanical advantage rather than explosive power, making it the most reliable escape available when trapped under modified scarf hold pressure. Each phase of the escape must maintain trapped arm defense while progressively building toward knee insertion and guard recovery.
 
-**From Position**: [[Kuzure Kesa-Gatame]] (Bottom)
+**From Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ Executing the frame escape from Kuzure Kesa-Gatame requires understanding the pr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Kuzure Kesa-Gatame]] | 40% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Side Control/Kuzure Kesa-Gatame]] | 40% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ Executing the frame escape from Kuzure Kesa-Gatame requires understanding the pr
 
 ## Opponent Counters
 
-- **Opponent increases hip pressure and drops chest weight to collapse framing space** (Effectiveness: High) - Your Response: Switch to bridge-and-roll attempt when frames cannot be maintained, using their forward pressure commitment against their base stability → Leads to [[Kuzure Kesa-Gatame]]
-- **Opponent slides knee across belly to transition to mount when hip escape creates space** (Effectiveness: High) - Your Response: Immediately turn hips toward opponent and drive inside knee between bodies to block their knee from crossing, prioritizing mount prevention over escape completion → Leads to [[Mount]]
-- **Opponent attacks trapped arm with americana or armbar when attention shifts to framing** (Effectiveness: Medium) - Your Response: Immediately abandon frame and return to two-arm trapped arm defense, resetting the escape sequence after the submission threat passes → Leads to [[Kuzure Kesa-Gatame]]
-- **Opponent backsteps around frame to re-angle their pressure from a different direction** (Effectiveness: Medium) - Your Response: Follow their movement with your hips and re-establish frame on their new angle, using their repositioning momentum to create additional escape space → Leads to [[Kuzure Kesa-Gatame]]
+- **Opponent increases hip pressure and drops chest weight to collapse framing space** (Effectiveness: High) - Your Response: Switch to bridge-and-roll attempt when frames cannot be maintained, using their forward pressure commitment against their base stability → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- **Opponent slides knee across belly to transition to mount when hip escape creates space** (Effectiveness: High) - Your Response: Immediately turn hips toward opponent and drive inside knee between bodies to block their knee from crossing, prioritizing mount prevention over escape completion → Leads to [[Positions/Mount]]
+- **Opponent attacks trapped arm with americana or armbar when attention shifts to framing** (Effectiveness: Medium) - Your Response: Immediately abandon frame and return to two-arm trapped arm defense, resetting the escape sequence after the submission threat passes → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- **Opponent backsteps around frame to re-angle their pressure from a different direction** (Effectiveness: Medium) - Your Response: Follow their movement with your hips and re-establish frame on their new angle, using their repositioning momentum to create additional escape space → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
 
 
 </section>

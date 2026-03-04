@@ -180,7 +180,7 @@ description: "Execute the Posture Up from Triangle escape in BJJ. Step-by-step g
 
 As the player caught in the triangle, your primary objective is recovering spinal alignment to relieve arterial compression and create a pathway out of the submission. The posture-up is the most direct approach to triangle defense, using the powerful posterior chain muscles to overcome the leg compression that maintains the choke. This technique requires disciplined grip establishment before generating force, systematic hip-driven extension rather than neck-based pulling, and constant attention to the opponent's angle adjustment that determines choking efficiency. Success depends on addressing both the vertical component (posture height) and the angular component (squaring your shoulders to opponent's hips) simultaneously, as partial solutions in either dimension leave the choke effective enough to threaten consciousness.
 
-**From Position**: [[Triangle Control]] (Top)
+**From Position**: [[Positions/Triangle Control]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the player caught in the triangle, your primary objective is recovering spina
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Triangle Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Triangle Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the player caught in the triangle, your primary objective is recovering spina
 
 ## Opponent Counters
 
-- **Opponent pulls head down aggressively and extends hips to maximize choking pressure as you begin to posture** (Effectiveness: High) - Your Response: Maintain connected grip behind hips and focus entirely on hip drive rather than fighting the head pull directly—the posterior chain will overpower their pulling force if your grip and base are solid and you drive incrementally → Leads to [[Triangle Control]]
-- **Opponent adjusts angle by hip-walking to re-establish 30-45 degree position as you attempt to square up** (Effectiveness: High) - Your Response: Follow their angle adjustment by walking your knees laterally to match their hip movement, maintaining your squaring effort as an ongoing process rather than a one-time correction → Leads to [[Triangle Control]]
-- **Opponent isolates the trapped arm and begins transitioning to armbar during posture recovery** (Effectiveness: Medium) - Your Response: Immediately glue your trapped arm's elbow to your ribcage and pause the posture-up—address the arm isolation by pushing their hip down with your free hand before resuming upward drive → Leads to [[Triangle Control]]
-- **Opponent uses hip bump or scissor motion to sweep as your weight shifts upward during posture attempt** (Effectiveness: Medium) - Your Response: Maintain wide base through your knees with weight centered—use incremental posture gains rather than explosive movements that shift your center of gravity laterally and compromise balance → Leads to [[Half Guard]]
+- **Opponent pulls head down aggressively and extends hips to maximize choking pressure as you begin to posture** (Effectiveness: High) - Your Response: Maintain connected grip behind hips and focus entirely on hip drive rather than fighting the head pull directly—the posterior chain will overpower their pulling force if your grip and base are solid and you drive incrementally → Leads to [[Positions/Triangle Control]]
+- **Opponent adjusts angle by hip-walking to re-establish 30-45 degree position as you attempt to square up** (Effectiveness: High) - Your Response: Follow their angle adjustment by walking your knees laterally to match their hip movement, maintaining your squaring effort as an ongoing process rather than a one-time correction → Leads to [[Positions/Triangle Control]]
+- **Opponent isolates the trapped arm and begins transitioning to armbar during posture recovery** (Effectiveness: Medium) - Your Response: Immediately glue your trapped arm's elbow to your ribcage and pause the posture-up—address the arm isolation by pushing their hip down with your free hand before resuming upward drive → Leads to [[Positions/Triangle Control]]
+- **Opponent uses hip bump or scissor motion to sweep as your weight shifts upward during posture attempt** (Effectiveness: Medium) - Your Response: Maintain wide base through your knees with weight centered—use incremental posture gains rather than explosive movements that shift your center of gravity laterally and compromise balance → Leads to [[Positions/Half Guard]]
 
 
 </section>

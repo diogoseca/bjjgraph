@@ -231,8 +231,8 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 ## Opponent Defenses
 
-- **Opponent postures up and keeps strong arm frame** (Effectiveness: High) - Your Response: Cannot finish armbar if posture is intact. Reset by using closed guard to break posture, threatening with collar chokes, or transitioning to triangle or omoplata to force defensive reactions. → Leads to [[Closed Guard]]
-- **Opponent pulls elbow back toward their body before you establish angle** (Effectiveness: High) - Your Response: Maintain overhook grip on their arm and use your legs to prevent posture recovery. Consider switching to omoplata or triangle as they defend the arm, or use the pulling motion to sweep them forward. → Leads to [[Closed Guard]]
-- **Opponent stacks you by driving forward and standing up** (Effectiveness: Medium) - Your Response: Immediately shift angle further (toward their back) to prevent stacking pressure. If they complete the stack, transition to omoplata sweep or release and reguard rather than fighting from compromised position. → Leads to [[Side Control]]
-- **Opponent rotates their arm so thumb points down (hitchhiker escape)** (Effectiveness: Medium) - Your Response: Squeeze knees tighter together to prevent rotation. If they complete rotation, transition to wristlock or triangle rather than forcing compromised armbar. Can also follow their rotation and adjust to belly-down armbar. → Leads to [[Closed Guard]]
+- **Opponent postures up and keeps strong arm frame** (Effectiveness: High) - Your Response: Cannot finish armbar if posture is intact. Reset by using closed guard to break posture, threatening with collar chokes, or transitioning to triangle or omoplata to force defensive reactions. → Leads to [[Positions/Closed Guard]]
+- **Opponent pulls elbow back toward their body before you establish angle** (Effectiveness: High) - Your Response: Maintain overhook grip on their arm and use your legs to prevent posture recovery. Consider switching to omoplata or triangle as they defend the arm, or use the pulling motion to sweep them forward. → Leads to [[Positions/Closed Guard]]
+- **Opponent stacks you by driving forward and standing up** (Effectiveness: Medium) - Your Response: Immediately shift angle further (toward their back) to prevent stacking pressure. If they complete the stack, transition to omoplata sweep or release and reguard rather than fighting from compromised position. → Leads to [[Positions/Side Control]]
+- **Opponent rotates their arm so thumb points down (hitchhiker escape)** (Effectiveness: Medium) - Your Response: Squeeze knees tighter together to prevent rotation. If they complete rotation, transition to wristlock or triangle rather than forcing compromised armbar. Can also follow their rotation and adjust to belly-down armbar. → Leads to [[Positions/Closed Guard]]
 - **Opponent locks their hands together in defensive grip** (Effectiveness: Low) - Your Response: Apply progressive hip pressure to break the grip—most grips will break under sustained pressure. Can also peel the defensive hand away by attacking the thumb, or transition to triangle while they focus on grip defense. → Leads to [[game-over]]
 
 

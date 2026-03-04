@@ -21,7 +21,7 @@ The fundamental challenge of this pass is extracting your legs from the symmetri
 
 This transition exemplifies the principle that positional dominance sometimes outweighs submission hunting. Against defensive opponents who excel at heel protection, repeatedly attacking leg locks may waste energy with diminishing returns. Recognizing when to abandon the entanglement and advance position separates intermediate practitioners from advanced ones. The 3 points earned for the pass often proves more valuable than continued position-neutral leg lock exchanges.
 
-**From Position**: [[50-50 Guard]] (Top)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This transition exemplifies the principle that positional dominance sometimes ou
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[50-50 Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 10% |
 
 
 </section>
@@ -185,23 +185,23 @@ Pass to Side Control represents the escape valve from 50-50 Guard when leg attac
 ## Related Techniques
 
 
-- [[50-50 Guard]] - Starting position for this transition
+- [[Positions/Ashi Garami/50-50 Guard]] - Starting position for this transition
 
-- [[Side Control]] - Target position upon successful completion
+- [[Positions/Side Control]] - Target position upon successful completion
 
-- [[Knee on Belly]] - Alternative stabilization point during transition
+- [[Positions/Knee on Belly]] - Alternative stabilization point during transition
 
-- [[Inside Heel Hook]] - Primary alternative attack when opponent over-defends pass
+- [[Submissions/Inside Heel Hook]] - Primary alternative attack when opponent over-defends pass
 
-- [[Back Take from 50-50]] - Alternative transition when opponent inverts during pass attempt
+- [[Transitions/Back Take from 50-50]] - Alternative transition when opponent inverts during pass attempt
 
-- [[Half Guard]] - Common recovery position for defending opponent
+- [[Positions/Half Guard]] - Common recovery position for defending opponent
 
-- [[Headquarters Position]] - Transitional control point during leg extraction
+- [[Positions/Headquarters Position]] - Transitional control point during leg extraction
 
-- [[Kneebar from 50-50]] - Chain attack option before committing to pass
+- [[Submissions/Kneebar from 50-50]] - Chain attack option before committing to pass
 
-- [[50-50 Guard to Inside Ashi]] - Alternative transition to different leg entanglement
+- [[Transitions/50-50 Guard to Inside Ashi]] - Alternative transition to different leg entanglement
 
 
 </section>

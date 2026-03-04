@@ -156,7 +156,7 @@ description: "Defend and escape the Mounted Triangle Finish in BJJ. Recognition 
 
 Defending the Mounted Triangle Finish requires immediate recognition that you are in one of the most dangerous submission positions in BJJ. The combination of mount pressure and triangle compression creates bilateral carotid artery compression that can cause unconsciousness within seconds if fully locked. Your defensive priorities form a strict hierarchy: first, prevent the full figure-four lock from being established; second, protect your trapped arm from armbar transition; third, reduce choking pressure through chin tuck, posture, and frame creation; and fourth, identify escape windows during the attacker's finishing adjustments. Survival depends on calm, systematic defense and precise timing rather than panicked strength expenditure. Every defensive action must account for the interconnected threats - defending the choke may expose the armbar, and attempting to escape may give up the back.
 
-**Opponent's Starting Position**: [[Mounted Triangle]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/Mounted Triangle]] (Top)
 
 
 </section>
@@ -196,28 +196,28 @@ Defending the Mounted Triangle Finish requires immediate recognition that you ar
 ### 1. Fight the figure-four lock by pushing on the attacking leg before it connects behind the knee
 
 - **When to use**: Immediately when you feel the attacker threading their leg over your shoulder, before the triangle lock is fully established
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Prevents the triangle from being locked, forcing attacker back to standard mount control
 - **Risk**: Using both hands to fight the leg may expose your neck to alternative choke attacks
 
 ### 2. Tuck chin aggressively and clasp hands together to defend the choke while maintaining bent-arm protection
 
 - **When to use**: When the triangle is locked and the attacker begins applying squeeze pressure, as an immediate survival measure
-- **Targets**: [[Mounted Triangle]]
+- **Targets**: [[Positions/Mount/Mounted Triangle]]
 - **If successful**: Delays the finish and forces the attacker to adjust angle or transition, creating potential escape windows
 - **Risk**: Extended time in defensive posture depletes energy and the attacker may isolate your clasped hands to break the grip
 
 ### 3. Frame on attacker's hip with free arm and bridge explosively toward the trapped arm side
 
 - **When to use**: When the attacker commits weight forward to finish the choke, creating a momentary base vulnerability
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Disrupts the triangle structure and may reverse the position to closed guard
 - **Risk**: Failed bridge wastes significant energy and may tighten the triangle if the attacker adjusts during the movement
 
 ### 4. Posture up by driving off your feet and straightening your spine to create space between your neck and their thighs
 
 - **When to use**: When the triangle lock is loose or the attacker's angle is suboptimal, before they establish full finishing pressure
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Creates enough space to begin extracting your head from the triangle structure
 - **Risk**: Extending your body to posture may expose your trapped arm to armbar if the attacker transitions quickly
 
@@ -240,11 +240,11 @@ Defending the Mounted Triangle Finish requires immediate recognition that you ar
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Break the triangle lock through a combination of fighting the figure-four connection and posturing up to create space, forcing the attacker back to standard mount where defensive options are significantly broader
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time an explosive bridge during the attacker's finishing commitment when their weight shifts forward, rolling them into closed guard where you recover full defensive capabilities
 

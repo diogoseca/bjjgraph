@@ -21,7 +21,7 @@ The mechanics of standing up from ashi garami require careful management of the 
 
 This transition occupies a niche but important role in the leg lock practitioner's arsenal. Advanced players recognize that the ability to freely enter and exit leg entanglement positions creates a strategic advantage—opponents cannot rely on stalling or defensive positioning to neutralize the leg lock threat if the attacker can simply disengage and re-engage from a different angle. The threat of standing up also creates tactical pressure, as opponents who focus entirely on defense may find themselves in worse positions when the bottom player changes levels and repositions.
 
-**From Position**: [[Ashi Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition occupies a niche but important role in the leg lock practitioner
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Ashi Garami]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Ashi Garami]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ Standing Up from Ashi Garami connects the leg entanglement system to the standin
 ## Related Techniques
 
 
-- [[Ashi Garami]] - Source position from which this standing transition is initiated
+- [[Positions/Ashi Garami]] - Source position from which this standing transition is initiated
 
-- [[Standing Position]] - Primary target position upon successful disengagement from leg entanglement
+- [[Positions/Standing Position]] - Primary target position upon successful disengagement from leg entanglement
 
-- [[Open Guard]] - Counter outcome position when opponent retains guard hooks during standing attempt
+- [[Positions/Open Guard]] - Counter outcome position when opponent retains guard hooks during standing attempt
 
-- [[Ashi Garami Escape]] - Related escape transition used by the top player to extract from leg entanglements
+- [[Transitions/Ashi Garami Escape]] - Related escape transition used by the top player to extract from leg entanglements
 
-- [[Single Leg X-Guard]] - Common re-entry position for leg entanglements after returning to standing
+- [[Positions/X-Guard/Single Leg X-Guard]] - Common re-entry position for leg entanglements after returning to standing
 
-- [[Ankle Lock Escape to Standing]] - Similar standing escape concept from a different leg lock control position
+- [[Transitions/Ankle Lock Escape to Standing]] - Similar standing escape concept from a different leg lock control position
 
-- [[Heel Strip from Ashi Garami]] - Alternative disengagement technique focused on breaking heel control rather than standing
+- [[Transitions/Heel Strip from Ashi Garami]] - Alternative disengagement technique focused on breaking heel control rather than standing
 
-- [[Technical Stand Up from Open Guard]] - Related standing transition sharing similar hip drive and base establishment mechanics
+- [[Transitions/Technical Stand Up from Open Guard]] - Related standing transition sharing similar hip drive and base establishment mechanics
 
-- [[Inside Ashi Entry]] - Re-engagement option available after standing up and choosing to re-enter leg entanglements
+- [[Transitions/Inside Ashi Entry]] - Re-engagement option available after standing up and choosing to re-enter leg entanglements
 
-- [[Ashi Garami Maintenance]] - Alternative to standing up—maintaining current ashi garami control rather than disengaging
+- [[Transitions/Ashi Garami Maintenance]] - Alternative to standing up—maintaining current ashi garami control rather than disengaging
 
 
 </section>

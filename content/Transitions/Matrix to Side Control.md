@@ -21,7 +21,7 @@ This transition capitalizes on the mechanical reality that a halted Matrix rotat
 
 Strategically, this transition rewards patient, methodical Matrix defense. Rather than treating a stuffed back take as merely a defensive success, the top player who chains defensive blocking into offensive positional advancement gains a substantial reward for their awareness. The technique demands precise timing—acting too early before the rotation is fully neutralized risks being caught in a secondary rotation attempt, while waiting too long allows the bottom player to reset their grips and defensive frames for another Matrix entry. The transition exemplifies the principle that defense and offense in BJJ are not separate phases but continuous, interconnected aspects of positional grappling.
 
-**From Position**: [[Matrix]] (Top)
+**From Position**: [[Positions/Matrix]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition rewards patient, methodical Matrix defense. Rathe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Matrix]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Matrix]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,21 +189,21 @@ The Matrix to Side Control transition occupies a critical role within the Matrix
 ## Related Techniques
 
 
-- [[Matrix]] - Starting position from which this transition is initiated after defending the back take rotation
+- [[Positions/Matrix]] - Starting position from which this transition is initiated after defending the back take rotation
 
-- [[Side Control]] - Target dominant position achieved through successful completion of this transition
+- [[Positions/Side Control]] - Target dominant position achieved through successful completion of this transition
 
-- [[Half Guard]] - Position resulting from counter outcome when bottom player reverses during consolidation attempt
+- [[Positions/Half Guard]] - Position resulting from counter outcome when bottom player reverses during consolidation attempt
 
-- [[Counter Roll from Matrix]] - Related defensive transition from the same Matrix position that addresses rotation threats
+- [[Transitions/Counter Roll from Matrix]] - Related defensive transition from the same Matrix position that addresses rotation threats
 
-- [[Matrix to Back Control]] - Alternative transition from Matrix top that targets back control instead of side control
+- [[Transitions/Matrix to Back Control]] - Alternative transition from Matrix top that targets back control instead of side control
 
-- [[Back Control]] - Position the Matrix bottom player was originally attempting to reach through their rotation
+- [[Positions/Back Control]] - Position the Matrix bottom player was originally attempting to reach through their rotation
 
-- [[Turtle]] - Common position involved in Matrix exchanges where similar consolidation principles apply
+- [[Positions/Turtle]] - Common position involved in Matrix exchanges where similar consolidation principles apply
 
-- [[Knee on Belly]] - Alternative advancement target from Matrix top when side control consolidation path is blocked
+- [[Positions/Knee on Belly]] - Alternative advancement target from Matrix top when side control consolidation path is blocked
 
 
 </section>

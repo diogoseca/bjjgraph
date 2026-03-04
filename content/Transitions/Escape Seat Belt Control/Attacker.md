@@ -180,7 +180,7 @@ description: "Master the systematic seat belt escape from back control. Step-by-
 
 Executing the Escape Seat Belt Control requires the bottom player to systematically dismantle the most powerful grip configuration in grappling while under constant submission threat. The attacker in this context is the person performing the escape, working against the diagonal over-under harness that creates opposing force vectors across their torso. Success demands a precise sequence of neck protection, grip isolation, hip movement, and directional turning that must be executed with composure despite the proximity of rear naked choke and other high-percentage attacks. The escape is built on the principle of sequential problem-solving: protect the neck first, isolate the over-shoulder grip second, create hip angle third, and turn to safety fourth. Rushing any step or attempting to skip ahead typically results in submission or wasted energy.
 
-**From Position**: [[Seat Belt Control Back]] (Bottom)
+**From Position**: [[Positions/Back Control/Seat Belt Control Back]] (Bottom)
 
 </section>
 
@@ -233,10 +233,10 @@ Executing the Escape Seat Belt Control requires the bottom player to systematica
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 35% |
-| Success | [[Half Guard]] | 10% |
-| Failure | [[Seat Belt Control Back]] | 40% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Turtle]] | 35% |
+| Success | [[Positions/Half Guard]] | 10% |
+| Failure | [[Positions/Back Control/Seat Belt Control Back]] | 40% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -245,11 +245,11 @@ Executing the Escape Seat Belt Control requires the bottom player to systematica
 
 ## Opponent Counters
 
-- **Opponent tightens seat belt grip and increases chest pressure when they feel grip fighting begin** (Effectiveness: High) - Your Response: Persist with two-on-one grip control and add hip movement to weaken the grip structure from multiple angles. Wait for a moment when opponent adjusts or commits to a submission attempt before renewing the grip break. → Leads to [[Seat Belt Control Back]]
-- **Opponent transitions to body triangle to lock hips and prevent the shrimping movement needed for escape** (Effectiveness: High) - Your Response: Shift to body triangle-specific escape protocols focusing on straightening the locked leg and creating hip space before returning to seat belt grip break. The body triangle changes the escape priority order. → Leads to [[Seat Belt Control Back]]
-- **Opponent releases seat belt to attack rear naked choke when hands leave collar defense during grip fighting** (Effectiveness: Medium) - Your Response: Immediately abandon grip break and return to full neck defense with chin tucked and hands protecting collar line. The opponent's choke attempt creates a window after the attack fails where their grip is compromised and a fresh escape attempt has higher probability. → Leads to [[Seat Belt Control Back]]
-- **Opponent follows the turning motion and transitions to mount instead of losing back control** (Effectiveness: Medium) - Your Response: If you feel the opponent following your turn, immediately stop rotating and work to re-guard by inserting a knee between your bodies. If mount is established, transition to mount escape protocols which offer better escape percentages than continued back defense. → Leads to [[Mount]]
-- **Opponent drives hooks deeper and pulls you onto your side to prevent face-down rotation** (Effectiveness: Medium) - Your Response: Use the side-lying position to your advantage by executing a back door escape or sliding your hips to the mat on the low side. Being on your side with hooks in is actually closer to escape than being flat on your back with hooks in. → Leads to [[Seat Belt Control Back]]
+- **Opponent tightens seat belt grip and increases chest pressure when they feel grip fighting begin** (Effectiveness: High) - Your Response: Persist with two-on-one grip control and add hip movement to weaken the grip structure from multiple angles. Wait for a moment when opponent adjusts or commits to a submission attempt before renewing the grip break. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
+- **Opponent transitions to body triangle to lock hips and prevent the shrimping movement needed for escape** (Effectiveness: High) - Your Response: Shift to body triangle-specific escape protocols focusing on straightening the locked leg and creating hip space before returning to seat belt grip break. The body triangle changes the escape priority order. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
+- **Opponent releases seat belt to attack rear naked choke when hands leave collar defense during grip fighting** (Effectiveness: Medium) - Your Response: Immediately abandon grip break and return to full neck defense with chin tucked and hands protecting collar line. The opponent's choke attempt creates a window after the attack fails where their grip is compromised and a fresh escape attempt has higher probability. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
+- **Opponent follows the turning motion and transitions to mount instead of losing back control** (Effectiveness: Medium) - Your Response: If you feel the opponent following your turn, immediately stop rotating and work to re-guard by inserting a knee between your bodies. If mount is established, transition to mount escape protocols which offer better escape percentages than continued back defense. → Leads to [[Positions/Mount]]
+- **Opponent drives hooks deeper and pulls you onto your side to prevent face-down rotation** (Effectiveness: Medium) - Your Response: Use the side-lying position to your advantage by executing a back door escape or sliding your hips to the mat on the low side. Being on your side with hooks in is actually closer to escape than being flat on your back with hooks in. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
 
 
 </section>

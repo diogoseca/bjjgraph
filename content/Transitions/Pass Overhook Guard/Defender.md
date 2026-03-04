@@ -146,7 +146,7 @@ description: "Complete guide to defending against the Overhook Guard pass from b
 
 As the defender in the Overhook Guard, your primary objective is to maintain your overhook control and prevent the top player from advancing to side control. Your overhook is a powerful weapon that limits their passing options and creates direct pathways to sweeps and back takes, but only if you actively maintain it and chain attacks. A passive overhook guard player will eventually be passed because the top player can methodically strip the grip and establish pressure. Your defense must be active: constantly threatening sweeps and submissions to force the passer into reactive mode, tightening the overhook when they attempt to strip it, and using hip movement to prevent them from flattening you. When the pass attempt is committed, recognizing which variation they are using determines your optimal counter.
 
-**Opponent's Starting Position**: [[Overhook Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Overhook Guard]] (Top)
 
 </section>
 
@@ -185,28 +185,28 @@ As the defender in the Overhook Guard, your primary objective is to maintain you
 ### 1. Tighten overhook and re-break posture by pulling elbow to ribs and using legs to pull opponent forward
 
 - **When to use**: When the top player begins posturing up and attempting to strip your overhook grip through posture or circular motions
-- **Targets**: [[Overhook Guard]]
+- **Targets**: [[Positions/Overhook Guard]]
 - **If successful**: Top player's posture is broken back down, overhook control is re-established, and you can resume offensive attacks from guard
 - **Risk**: If the grip strip is too far advanced, fighting for the overhook wastes energy and delays transitioning to alternate defense
 
 ### 2. Execute hip bump sweep by posting on free hand and driving hips upward into the top player's compromised base
 
 - **When to use**: When the top player shifts weight forward during the pass or lifts their hips during the transition phase, creating a momentary base vulnerability
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Top player is swept and you achieve mount position, completely reversing the positional hierarchy
 - **Risk**: If the sweep fails, you may lose the overhook and end up flat with the top player in an improved passing position
 
 ### 3. Lock ankles and recover closed guard by pulling legs tight around the opponent's waist
 
 - **When to use**: When the top player creates distance during grip stripping or stands up to break the overhook, creating space for ankle closure
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Full closed guard is recovered with legs locked, and you can re-establish the overhook or transition to other guard attacks
 - **Risk**: Closing guard without the overhook may leave you in a neutral closed guard with less offensive control
 
 ### 4. Hip escape toward the overhook side and threaten triangle or omoplata as the top player advances
 
 - **When to use**: When the top player commits to the pass and begins hip advancement, creating space on the far side for leg attacks
-- **Targets**: [[Overhook Guard]]
+- **Targets**: [[Positions/Overhook Guard]]
 - **If successful**: The passing attempt is disrupted and you create a submission threat that forces the top player to retreat and defend
 - **Risk**: If the triangle or omoplata setup fails, you may end up in a worse position with your legs extended and no overhook
 
@@ -218,15 +218,15 @@ As the defender in the Overhook Guard, your primary objective is to maintain you
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Time the hip bump sweep for when the top player shifts weight forward during the passing sequence. Post on your free hand, bridge your hips into their chest, and drive them over the overhook side where they cannot post. The overhook eliminates their posting ability on that side, making this sweep highly effective.
 
-### → [[Overhook Guard]]
+### → [[Positions/Overhook Guard]]
 
 Maintain active overhook control by tightening the grip whenever the passer attempts to strip it. Use your legs to break their posture back down and your free hand to prevent them from establishing the frames needed to advance. Continuous offensive threats from guard force the passer to abandon passing attempts and focus on defense.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the passer creates distance during grip fighting or stands up, immediately capitalize on the space by locking your ankles behind their back. Pull them back down into closed guard and re-establish grips. While closed guard without the overhook is less offensive, it successfully prevents the pass and gives you time to set up new attacks.
 

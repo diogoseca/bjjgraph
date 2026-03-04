@@ -21,7 +21,7 @@ Strategically, the Calf Slicer functions as an excellent secondary attack in the
 
 The finish requires precise angle control and understanding that the submission works through compression rather than rotation. Your shin must wedge deeply behind their knee joint while you control their ankle and drive your hips forward. The tap typically comes quickly once the position is properly established, as the pain is immediate and attempting to fight through risks muscle damage.
 
-**From Position**: [[Inside Sankaku]] (Top)
+**From Position**: [[Positions/Inside Sankaku]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -33,8 +33,8 @@ The finish requires precise angle control and understanding that the submission 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Inside Sankaku]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Inside Sankaku]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Calf Slicer integrates seamlessly into the modern leg lock system as a secon
 ## Related Techniques
 
 
-- [[Inside Sankaku]] - Starting position providing the leg entanglement base for the calf slicer
+- [[Positions/Inside Sankaku]] - Starting position providing the leg entanglement base for the calf slicer
 
-- [[Inside Heel Hook]] - Primary alternative attack that creates dilemma with calf slicer
+- [[Submissions/Inside Heel Hook]] - Primary alternative attack that creates dilemma with calf slicer
 
-- [[Toe Hold]] - Alternative attack when heel is hidden and leg is bent
+- [[Transitions/Toe Hold]] - Alternative attack when heel is hidden and leg is bent
 
-- [[Calf Slicer from Truck]] - Related technique from Truck control position
+- [[Submissions/Calf Slicer from Truck]] - Related technique from Truck control position
 
-- [[Saddle]] - Related leg entanglement with similar calf slicer setups
+- [[Positions/Ashi Garami/Saddle]] - Related leg entanglement with similar calf slicer setups
 
-- [[Outside Ashi-Garami]] - Entry position that can transition to Inside Sankaku for calf slicer
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Entry position that can transition to Inside Sankaku for calf slicer
 
-- [[Kneebar Control]] - Alternative submission control when calf slicer defenses are strong
+- [[Positions/Kneebar Control]] - Alternative submission control when calf slicer defenses are strong
 
-- [[Back Take from Ashi]] - Positional advancement when opponent overcommits to leg attack defense
+- [[Transitions/Back Take from Ashi]] - Positional advancement when opponent overcommits to leg attack defense
 
-- [[Heel Hook]] - Primary finishing transition from Inside Sankaku that sets up calf slicer dilemma
+- [[Transitions/Heel Hook]] - Primary finishing transition from Inside Sankaku that sets up calf slicer dilemma
 
-- [[Honey Hole]] - Alternative name for Inside Sankaku position where calf slicer is attacked
+- [[Positions/Ashi Garami/Honey Hole]] - Alternative name for Inside Sankaku position where calf slicer is attacked
 
 
 </section>

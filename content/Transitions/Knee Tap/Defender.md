@@ -162,7 +162,7 @@ description: "How to defend against Knee Tap in BJJ. Recognition cues, defensive
 
 Defending the knee tap requires understanding the attacker's mechanical objectives and disrupting them before the technique develops full momentum. The knee tap relies on a coordinated upper-body pull combined with a lower-body sweep, meaning your defense must address both vectors simultaneously. The most dangerous phase is when the attacker has already established their collar tie and created angle - at this point, purely reactive defense has a low success rate. Effective knee tap defense therefore begins with proactive stance management, grip fighting to deny the collar tie, and weight distribution awareness that keeps your lead leg light enough to retract when threatened. When the attack does initiate, your defensive priority hierarchy is clear: first deny the knee grip by stepping the targeted leg back or circling away, second counter-attack their compromised posture with a front headlock or guillotine if their head drops too low, and third maintain your base through sprawling mechanics if the initial defenses fail. The defender who understands these layers can shut down the knee tap before it develops, or capitalize on the attacker's commitment to secure an advantageous counter position.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -199,28 +199,28 @@ Defending the knee tap requires understanding the attacker's mechanical objectiv
 ### 1. Step the targeted leg back and re-square your stance while posting your hand on their shoulder to create distance
 
 - **When to use**: Early in the attack when you feel the collar tie pressure increase and see them creating angle but before they secure the knee grip
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Returns to neutral standing with both practitioners squared up and the attacker's setup negated
 - **Risk**: If you step back too late after the knee grip is secured, you expose yourself to a follow-up double leg since your stance becomes momentarily square
 
 ### 2. Sprawl your hips back and down while driving your weight through their upper back with crossface pressure
 
 - **When to use**: When the attacker has already dropped level and their hand is reaching for or has contacted your knee, making the step-back defense too late
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Kills the takedown momentum and can lead to front headlock position if you maintain chest pressure on their back as they're driven to the mat
 - **Risk**: If sprawl timing is late, they may already have the knee secured and can still complete the sweep despite your hip position
 
 ### 3. Secure front headlock by wrapping your arm around their head and sprawling as they drop level, threatening guillotine
 
 - **When to use**: When the attacker's head position drops below your chest line during their penetration step, exposing their neck
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You establish dominant front headlock position with guillotine, anaconda, and darce threats while negating the takedown attempt entirely
 - **Risk**: If the attacker keeps proper head position tight to your ribs with head outside, you cannot secure the headlock and may overcommit your upper body while they complete the knee tap
 
 ### 4. Whizzer defense - overhook the shooting arm and drive your hip into their shoulder while circling away from the attack
 
 - **When to use**: When the attacker's shooting arm passes your hip level and you can secure the overhook before they lock the knee grip
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: The whizzer kills their penetration and allows you to circle back to neutral stance or transition to your own offensive position
 - **Risk**: A skilled attacker can use your whizzer commitment as leverage to elevate the knee higher and still complete the takedown if you don't simultaneously sprawl
 
@@ -232,11 +232,11 @@ Defending the knee tap requires understanding the attacker's mechanical objectiv
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Deny the knee grip through early recognition and stepping the targeted leg back while hand fighting to strip the collar tie. Re-square your stance immediately and reset the grip exchange. This is the highest-percentage defensive outcome because it stops the attack before it develops, requiring only awareness and footwork rather than athletic reactions.
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 When the attacker drops their head too low during the penetration step, capitalize by wrapping your arm around their neck, securing a chin strap or front headlock grip, and sprawling your hips back forcefully. Drive your chest weight down onto their upper back to collapse their posture. This counter turns their offensive commitment into your attacking position with guillotine, anaconda, and darce threats immediately available.
 

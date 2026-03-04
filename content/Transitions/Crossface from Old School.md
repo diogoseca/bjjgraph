@@ -21,7 +21,7 @@ The technique works by leveraging shoulder and forearm pressure across the botto
 
 Strategic application demands patience and incrementally increasing pressure rather than explosive force. The bottom player in Old School relies on the top player's reactions to time sweeps, so steady, suffocating pressure denies them the timing windows they need while gradually degrading their control structure. This technique pairs naturally with the whizzer control already established in Old School Top to create a comprehensive passing system from the lockdown half guard.
 
-**From Position**: [[Old School]] (Top)
+**From Position**: [[Positions/Half Guard/Old School]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategic application demands patience and incrementally increasing pressure rat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Old School]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Old School]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,29 +195,29 @@ The Crossface from Old School occupies a critical position in the half guard pas
 ## Related Techniques
 
 
-- [[Old School]] - Source position where this transition originates from the top perspective
+- [[Positions/Half Guard/Old School]] - Source position where this transition originates from the top perspective
 
-- [[Side Control]] - Primary target position achieved upon successful completion of the crossface pass
+- [[Positions/Side Control]] - Primary target position achieved upon successful completion of the crossface pass
 
-- [[Half Guard]] - Parent guard category containing the Old School variation
+- [[Positions/Half Guard]] - Parent guard category containing the Old School variation
 
-- [[Lockdown]] - Control mechanism that the crossface aims to neutralize by flattening the bottom player
+- [[Positions/Half Guard/Lockdown]] - Control mechanism that the crossface aims to neutralize by flattening the bottom player
 
-- [[Complete Pass from Flattened Half]] - Related passing technique using similar flattening mechanics from standard half guard
+- [[Transitions/Complete Pass from Flattened Half]] - Related passing technique using similar flattening mechanics from standard half guard
 
-- [[Old School Sweep]] - Primary sweep threat from bottom that the crossface aims to prevent
+- [[Transitions/Old School Sweep]] - Primary sweep threat from bottom that the crossface aims to prevent
 
-- [[Crossface from Dogfight]] - Similar crossface-based transition from a related half guard exchange position
+- [[Transitions/Crossface from Dogfight]] - Similar crossface-based transition from a related half guard exchange position
 
-- [[Deep Half Guard]] - Position the bottom player may transition to if crossface is partially applied
+- [[Positions/Half Guard/Deep Half Guard]] - Position the bottom player may transition to if crossface is partially applied
 
-- [[Electric Chair]] - Submission threat from bottom that crossface pressure helps prevent
+- [[Positions/Half Guard/Electric Chair]] - Submission threat from bottom that crossface pressure helps prevent
 
-- [[Dogfight Position]] - Alternative exchange position if crossface fails and bottom player comes up on underhook
+- [[Positions/Dogfight Position]] - Alternative exchange position if crossface fails and bottom player comes up on underhook
 
-- [[Flattened Half Guard]] - Intermediate position state achieved when crossface successfully flattens the lockdown player
+- [[Positions/Half Guard/Flattened Half Guard]] - Intermediate position state achieved when crossface successfully flattens the lockdown player
 
-- [[Knee Shield Half Guard]] - Alternative half guard variation the bottom player may transition to if lockdown is broken
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative half guard variation the bottom player may transition to if lockdown is broken
 
 
 </section>

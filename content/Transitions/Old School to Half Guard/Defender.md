@@ -146,7 +146,7 @@ description: "Defend against the Old School to Half Guard recovery in BJJ. Capit
 
 Defending against the Old School to Half Guard transition means capitalizing on the bottom player's momentary vulnerability as they release lockdown controls and attempt to establish standard half guard frames. The defender—the top player—must recognize the early signs of this transition and immediately increase pressure to either prevent the reset entirely or counter into a dominant flattened half guard position. The transition window where the bottom player has released lockdown but not yet established knee shield represents the highest-value moment for the top player to advance position, making vigilant attention to lockdown tension changes essential. Success requires understanding that the bottom player's transition follows a predictable sequence that creates specific vulnerability windows you can exploit with well-timed pressure increases and passing attempts.
 
-**Opponent's Starting Position**: [[Old School]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Old School]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending against the Old School to Half Guard transition means capitalizing on 
 ### 1. Drive heavy crossface and chest pressure forward when lockdown tension decreases
 
 - **When to use**: Immediately upon feeling lockdown releasing, before the bottom player can insert knee shield or establish frames
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Bottom player is flattened without frames, creating dominant top half guard position with crossface control
 - **Risk**: If bottom player already has frames established, the forward drive may feed into their butterfly half guard sweep
 
 ### 2. Maintain deep whizzer and increase sprawl pressure to prevent any space creation
 
 - **When to use**: When you feel the bottom player attempting to create preliminary frames while still in Old School position
-- **Targets**: [[Old School]]
+- **Targets**: [[Positions/Half Guard/Old School]]
 - **If successful**: Bottom player remains trapped in Old School position unable to establish frames for the transition
 - **Risk**: Extended whizzer control in Old School may eventually lead to bottom player finding alternative transitions like deep half entry
 
 ### 3. Attempt immediate knee slice pass during lockdown dissolution window
 
 - **When to use**: During the specific moment when lockdown has released but knee shield has not yet been inserted
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Pass the guard entirely during the transition window, advancing to side control or at minimum achieving dominant flattened half guard
 - **Risk**: Premature knee slice attempt while lockdown is still partially engaged may create the sweep angle the bottom player is seeking
 
 ### 4. Block knee shield insertion by controlling bottom player's top knee with your hand
 
 - **When to use**: When you see the bottom player's knee beginning to slide across your body after lockdown release
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Prevents standard half guard establishment, keeping bottom player in a frameless position vulnerable to pressure passing
 - **Risk**: Using a hand to control the knee temporarily removes it from upper body control, potentially allowing underhook or grip establishment
 
@@ -217,11 +217,11 @@ Defending against the Old School to Half Guard transition means capitalizing on 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Drive heavy crossface and chest pressure forward the instant lockdown tension decreases, collapsing on the bottom player before they can insert knee shield. Use your chest weight to pin their shoulders flat while maintaining half guard top pressure that prevents any frame recovery.
 
-### → [[Old School]]
+### → [[Positions/Half Guard/Old School]]
 
 Maintain deep whizzer control and increase forward sprawl pressure to prevent the bottom player from creating any space for frames. Keep your weight low and heavy to deny the hip escape movement they need to begin the transition sequence, trapping them in the stalled Old School position.
 

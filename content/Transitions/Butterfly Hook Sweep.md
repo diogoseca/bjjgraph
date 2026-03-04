@@ -21,7 +21,7 @@ What makes this sweep particularly reliable is its mechanical simplicity combine
 
 The Butterfly Hook Sweep functions as the primary threat from butterfly hook control, creating the foundational dilemma that enables all other attacks from this position. When the opponent respects the sweep by posting wide or shifting weight backward, opportunities for arm drags, guillotines, and guard transitions open. When they drive forward to neutralize hooks, the sweep becomes even more available as their weight feeds directly into the elevation. This action-reaction dynamic makes the sweep not just a standalone technique but the cornerstone of an entire offensive system built around threatening elevation and capitalizing on defensive reactions.
 
-**From Position**: [[Butterfly Hook Control]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The Butterfly Hook Sweep functions as the primary threat from butterfly hook con
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Butterfly Hook Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Butterfly Guard/Butterfly Hook Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Butterfly Hook Sweep serves as the primary offensive technique from butterfl
 ## Related Techniques
 
 
-- [[Butterfly Hook Control]] - Starting position from which this sweep is executed
+- [[Positions/Butterfly Guard/Butterfly Hook Control]] - Starting position from which this sweep is executed
 
-- [[Butterfly Guard]] - Parent guard system encompassing all butterfly-based attacks
+- [[Positions/Butterfly Guard]] - Parent guard system encompassing all butterfly-based attacks
 
-- [[Mount]] - Primary target position achieved after successful sweep completion
+- [[Positions/Mount]] - Primary target position achieved after successful sweep completion
 
-- [[Half Guard]] - Common counter outcome when opponent partially defends the sweep
+- [[Positions/Half Guard]] - Common counter outcome when opponent partially defends the sweep
 
-- [[Basic Butterfly Sweep]] - Closely related sweep sharing identical starting position and similar mechanics
+- [[Transitions/Basic Butterfly Sweep]] - Closely related sweep sharing identical starting position and similar mechanics
 
-- [[Arm Drag to Back]] - Complementary attack available when opponent posts to defend sweep
+- [[Transitions/Arm Drag to Back]] - Complementary attack available when opponent posts to defend sweep
 
-- [[X-Guard]] - Transition alternative when opponent stands to escape butterfly hooks
+- [[Positions/X-Guard]] - Transition alternative when opponent stands to escape butterfly hooks
 
-- [[Guillotine from Butterfly Guard]] - Submission threat available when opponent's head drops during sweep defense
+- [[Submissions/Guillotine from Butterfly Guard]] - Submission threat available when opponent's head drops during sweep defense
 
-- [[Deep Half Guard]] - Transition option when opponent drives forward to smash butterfly hooks
+- [[Positions/Half Guard/Deep Half Guard]] - Transition option when opponent drives forward to smash butterfly hooks
 
-- [[Single Leg X-Guard]] - Alternative guard transition accessible from butterfly when opponent elevates
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative guard transition accessible from butterfly when opponent elevates
 
 
 </section>

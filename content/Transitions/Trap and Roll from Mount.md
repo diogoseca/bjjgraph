@@ -21,7 +21,7 @@ At the purple and brown belt level, the trap and roll succeeds less through raw 
 
 Strategically, the trap and roll serves a dual purpose within the mount escape hierarchy. As a standalone reversal, it returns you to top position inside your opponent's closed guard. As a threat, it forces the mounted player to maintain wide base and post defensively, which creates the space and weight distribution shifts necessary for the elbow escape. Understanding this complementary relationship between the trap and roll and the hip escape transforms mount defense from a collection of isolated techniques into an integrated escape system where each attempt amplifies the effectiveness of the next.
 
-**From Position**: [[Mount]] (Bottom)
+**From Position**: [[Positions/Mount]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the trap and roll serves a dual purpose within the mount escape h
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Failure | [[Mount]] | 35% |
-| Counter | [[High Mount]] | 20% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Failure | [[Positions/Mount]] | 35% |
+| Counter | [[Positions/Mount/High Mount]] | 20% |
 
 
 </section>
@@ -197,21 +197,21 @@ The Trap and Roll from Mount is the cornerstone of the mount escape hierarchy, f
 ## Related Techniques
 
 
-- [[Mount]] - Source position where the trap and roll is initiated from bottom
+- [[Positions/Mount]] - Source position where the trap and roll is initiated from bottom
 
-- [[Closed Guard]] - Primary target position after successful trap and roll reversal
+- [[Positions/Closed Guard]] - Primary target position after successful trap and roll reversal
 
-- [[High Mount]] - Counter position where opponent may advance if trap and roll fails
+- [[Positions/Mount/High Mount]] - Counter position where opponent may advance if trap and roll fails
 
-- [[Elbow Escape from Mount]] - Complementary escape that chains with trap and roll to create escape dilemma
+- [[Transitions/Elbow Escape from Mount]] - Complementary escape that chains with trap and roll to create escape dilemma
 
-- [[Heel Drag Escape]] - Alternative mount escape using foot mechanics for guard recovery
+- [[Transitions/Heel Drag Escape]] - Alternative mount escape using foot mechanics for guard recovery
 
-- [[Mount Escape to Half Guard Back Take]] - Advanced escape chain from the same starting position
+- [[Transitions/Mount Escape to Half Guard Back Take]] - Advanced escape chain from the same starting position
 
-- [[Bridge Escape from 3-4 Mount]] - Related bridge-based escape from a mount variant position
+- [[Transitions/Bridge Escape from 3-4 Mount]] - Related bridge-based escape from a mount variant position
 
-- [[Americana from Mount]] - Common submission that creates arm commitment exploitable for trap and roll setup
+- [[Submissions/Americana from Mount]] - Common submission that creates arm commitment exploitable for trap and roll setup
 
 
 </section>

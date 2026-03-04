@@ -178,7 +178,7 @@ The mechanical beauty of this transition lies in using the opponent's own escape
 
 Strategically, the back take option makes your Hindulotine attacks significantly more dangerous. Opponents who know you will take their back if they turn become hesitant to execute the primary escape, allowing more finishing opportunities on the guillotine itself. The mere threat of this transition improves your overall submission percentage from the position.
 
-**From Position**: [[Hindulotine]] (Top)
+**From Position**: [[Positions/Hindulotine]] (Top)
 
 </section>
 
@@ -230,9 +230,9 @@ Strategically, the back take option makes your Hindulotine attacks significantly
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Hindulotine]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Hindulotine]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ Strategically, the back take option makes your Hindulotine attacks significantly
 
 ## Opponent Counters
 
-- **Opponent turns fully through to face you and re-establishes guard** (Effectiveness: High) - Your Response: Accelerate hook insertion and pull them onto their side before they complete the full rotation; maintain upper body control to slow their turn → Leads to [[Hindulotine]]
-- **Opponent turtles tightly instead of giving up back hooks** (Effectiveness: Medium) - Your Response: Transition to standard turtle attack methodology; establish seat belt and work systematic hook insertion or spiral ride to back → Leads to [[Turtle]]
-- **Opponent posts arm to prevent being pulled to their side** (Effectiveness: Medium) - Your Response: Use the posting arm as a target for arm drag or trap the arm to eliminate the post and continue back take sequence → Leads to [[Hindulotine]]
-- **Opponent explosively stands up during transition** (Effectiveness: Low) - Your Response: Follow to standing back control or drag them back down with your body weight while maintaining seat belt grip → Leads to [[Back Control]]
+- **Opponent turns fully through to face you and re-establishes guard** (Effectiveness: High) - Your Response: Accelerate hook insertion and pull them onto their side before they complete the full rotation; maintain upper body control to slow their turn → Leads to [[Positions/Hindulotine]]
+- **Opponent turtles tightly instead of giving up back hooks** (Effectiveness: Medium) - Your Response: Transition to standard turtle attack methodology; establish seat belt and work systematic hook insertion or spiral ride to back → Leads to [[Positions/Turtle]]
+- **Opponent posts arm to prevent being pulled to their side** (Effectiveness: Medium) - Your Response: Use the posting arm as a target for arm drag or trap the arm to eliminate the post and continue back take sequence → Leads to [[Positions/Hindulotine]]
+- **Opponent explosively stands up during transition** (Effectiveness: Low) - Your Response: Follow to standing back control or drag them back down with your body weight while maintaining seat belt grip → Leads to [[Positions/Back Control]]
 
 
 </section>

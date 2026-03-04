@@ -186,7 +186,7 @@ description: "Learn to execute the Squid to Ringworm Guard transition in BJJ. St
 
 The Squid to Ringworm Guard transition from the attacker's perspective involves a deliberate reconfiguration of the lapel wrap while maintaining positional control from bottom guard. The attacker must manage the critical vulnerability window where the lapel is being rethreaded by maintaining secondary control points and creating distractions through leg frame adjustments. Successful execution requires understanding the mechanical differences between both guard configurations, the precise hand movements needed to adjust the lapel path without losing tension, and the ability to exploit the opponent's momentary confusion as the guard structure changes beneath them. The key challenge is performing the reconfiguration smoothly enough that the opponent cannot strip the lapel during the transitional gap.
 
-**From Position**: [[Squid Guard]] (Bottom)
+**From Position**: [[Positions/Squid Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ The Squid to Ringworm Guard transition from the attacker's perspective involves 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Ringworm Guard]] | 55% |
-| Failure | [[Squid Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Ringworm Guard]] | 55% |
+| Failure | [[Positions/Squid Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ The Squid to Ringworm Guard transition from the attacker's perspective involves 
 
 ## Opponent Counters
 
-- **Opponent strips lapel grip during the reconfiguration window when tension is momentarily reduced** (Effectiveness: High) - Your Response: If you feel the grip breaking, immediately abandon the transition and pull the lapel back into Squid Guard configuration. If the lapel is fully lost, transition to Spider Guard or De La Riva Guard using your remaining hooks and grips rather than fighting for the lapel from a compromised position. → Leads to [[Open Guard]]
-- **Opponent drives forward with heavy pressure to flatten you during the transitional gap** (Effectiveness: Medium) - Your Response: Use your framing leg on their hip to absorb the pressure and prevent being flattened. If they drive through your frame, pull guard closed temporarily or transition to butterfly hooks to create a secondary sweep threat that forces them to address their base rather than your lapel. → Leads to [[Squid Guard]]
-- **Opponent backsteps or disengages from the guard entirely during the reconfiguration** (Effectiveness: High) - Your Response: Follow their retreat with hip movement and maintain the lapel connection. If they create too much distance, use the lapel tension to pull them back into range or transition to standing guard recovery. Do not allow them to disengage completely while holding your lapel. → Leads to [[Open Guard]]
-- **Opponent controls your free hand to prevent lapel rethreading and manipulation** (Effectiveness: Medium) - Your Response: Use your legs to create a sweep threat that forces them to release your hand to post, then immediately resume the lapel reconfiguration. Alternatively, use a foot on their bicep to strip their grip on your wrist while maintaining the partial wrap with your other hand. → Leads to [[Squid Guard]]
+- **Opponent strips lapel grip during the reconfiguration window when tension is momentarily reduced** (Effectiveness: High) - Your Response: If you feel the grip breaking, immediately abandon the transition and pull the lapel back into Squid Guard configuration. If the lapel is fully lost, transition to Spider Guard or De La Riva Guard using your remaining hooks and grips rather than fighting for the lapel from a compromised position. → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward with heavy pressure to flatten you during the transitional gap** (Effectiveness: Medium) - Your Response: Use your framing leg on their hip to absorb the pressure and prevent being flattened. If they drive through your frame, pull guard closed temporarily or transition to butterfly hooks to create a secondary sweep threat that forces them to address their base rather than your lapel. → Leads to [[Positions/Squid Guard]]
+- **Opponent backsteps or disengages from the guard entirely during the reconfiguration** (Effectiveness: High) - Your Response: Follow their retreat with hip movement and maintain the lapel connection. If they create too much distance, use the lapel tension to pull them back into range or transition to standing guard recovery. Do not allow them to disengage completely while holding your lapel. → Leads to [[Positions/Open Guard]]
+- **Opponent controls your free hand to prevent lapel rethreading and manipulation** (Effectiveness: Medium) - Your Response: Use your legs to create a sweep threat that forces them to release your hand to post, then immediately resume the lapel reconfiguration. Alternatively, use a foot on their bicep to strip their grip on your wrist while maintaining the partial wrap with your other hand. → Leads to [[Positions/Squid Guard]]
 
 
 </section>

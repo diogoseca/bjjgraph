@@ -146,7 +146,7 @@ description: "Defend against the Roll to Guard escape from Truck top position. R
 
 As the defender in the Roll to Guard from Truck, you are the top player maintaining the truck position and working to prevent the bottom player from escaping via a forward roll to guard recovery. Your primary objectives are maintaining boot pressure that locks the leg entanglement, recognizing the rolling escape attempt before it develops momentum, and either preventing the roll entirely or following it to transition into back control. Understanding the timing and mechanics of this escape allows you to shut it down at multiple stages or convert the escape attempt into an even more dominant position.
 
-**Opponent's Starting Position**: [[Truck]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Twister Control/Truck]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender in the Roll to Guard from Truck, you are the top player maintain
 ### 1. Increase boot pressure and sprawl hips back to flatten the bottom player
 
 - **When to use**: At the earliest sign of roll attempt, before the bottom player generates momentum or posts their hand
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: Bottom player is flattened with increased torque through the entanglement, unable to generate the forward momentum needed for the roll
 - **Risk**: If bottom player has already generated significant momentum, sprawling back may not stop the roll and you lose upper body connection
 
 ### 2. Control the far arm to eliminate the posting hand needed for the roll
 
 - **When to use**: Proactively when you sense the bottom player is preparing an escape, before they attempt to post
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: Without the posting hand, the bottom player cannot perform a controlled forward roll and must abandon the escape attempt or risk an uncontrolled tumble
 - **Risk**: Reaching for the far arm may briefly reduce your upper body pressure, potentially opening other escape windows like the granby roll
 
 ### 3. Follow the roll and transition to back control by inserting hooks during the rotation
 
 - **When to use**: When the roll has already been initiated and stopping it is no longer possible
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You convert the escape attempt into traditional back control, which is often a stronger finishing position than the truck depending on your game
 - **Risk**: If you fail to insert hooks during the transition, the bottom player completes the roll to guard and you lose the dominant position entirely
 
 ### 4. Release truck and immediately attack with a calf slicer as the bottom player initiates rotation
 
 - **When to use**: When the roll is starting and the bottom player's leg position creates an opening for the calf slicer during rotation
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: The calf slicer threat forces the bottom player to abort the roll and defend the submission, returning to truck bottom defense
 - **Risk**: If the calf slicer does not lock before the roll completes, you may lose the truck position without finishing
 
@@ -217,11 +217,11 @@ As the defender in the Roll to Guard from Truck, you are the top player maintain
 
 ## Best-Case Outcomes for Defender
 
-### → [[Truck]]
+### → [[Positions/Twister Control/Truck]]
 
 Recognize the escape attempt early by watching for boot fighting and far hand posting. Immediately increase boot pressure while sprawling your hips back to flatten the bottom player. Secure control of their far arm to eliminate the posting hand. The earlier you shut down the attempt, the more effectively you maintain the truck position.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 If the roll has already begun and cannot be stopped, stay connected to the bottom player's upper body and follow their rotation. As they roll through, use the momentum to insert your hooks and establish a seatbelt grip. Transition smoothly from truck to back control during their escape attempt, converting their escape into a position change that still favors you.
 

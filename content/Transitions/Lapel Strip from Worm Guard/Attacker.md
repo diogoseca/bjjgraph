@@ -180,7 +180,7 @@ description: "Master the attacker perspective for the Lapel Strip from Worm Guar
 
 The Lapel Strip from Worm Guard Attacker is the top player executing the systematic removal of the bottom player's lapel wrap. This technique requires precise grip fighting, stable base maintenance, and methodical sequencing to break the mechanical advantage that defines worm guard. Success depends on addressing supporting grips before attacking the primary lapel connection, maintaining base against sweep attempts throughout the sequence, and immediately transitioning to a guard pass once the lapel is cleared. The attacker must treat this as a multi-step grip fighting problem rather than a single explosive action, with each step building on the previous one to progressively dismantle the worm guard structure.
 
-**From Position**: [[Worm Guard]] (Top)
+**From Position**: [[Positions/Worm Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The Lapel Strip from Worm Guard Attacker is the top player executing the systema
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 45% |
-| Failure | [[Worm Guard]] | 35% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Open Guard]] | 45% |
+| Failure | [[Positions/Worm Guard]] | 35% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -243,9 +243,9 @@ The Lapel Strip from Worm Guard Attacker is the top player executing the systema
 
 ## Opponent Counters
 
-- **Bottom player re-feeds the lapel immediately after partial strip by re-gripping exposed material** (Effectiveness: High) - Your Response: Control the stripped lapel material immediately after breaking the grip. Tuck it into your belt area or hold it away from the bottom player's reach. Never leave loose lapel material accessible after a successful grip break. → Leads to [[Worm Guard]]
-- **Bottom player initiates sweep when both of your hands are committed to grip fighting the lapel** (Effectiveness: Medium) - Your Response: Maintain wide base throughout the strip sequence. If you feel significant off-balancing, immediately abandon the strip attempt and re-establish base before trying again. Never compromise base stability for grip fighting progress. → Leads to [[Open Guard]]
-- **Bottom player reinforces lapel grip with second hand creating a stronger two-handed connection that resists two-on-one breaks** (Effectiveness: High) - Your Response: Address the secondary reinforcing hand first before returning to the primary grip break. When both their hands are locked on the lapel, their upper body control is compromised, potentially opening passing opportunities around the lapel instead. → Leads to [[Worm Guard]]
+- **Bottom player re-feeds the lapel immediately after partial strip by re-gripping exposed material** (Effectiveness: High) - Your Response: Control the stripped lapel material immediately after breaking the grip. Tuck it into your belt area or hold it away from the bottom player's reach. Never leave loose lapel material accessible after a successful grip break. → Leads to [[Positions/Worm Guard]]
+- **Bottom player initiates sweep when both of your hands are committed to grip fighting the lapel** (Effectiveness: Medium) - Your Response: Maintain wide base throughout the strip sequence. If you feel significant off-balancing, immediately abandon the strip attempt and re-establish base before trying again. Never compromise base stability for grip fighting progress. → Leads to [[Positions/Open Guard]]
+- **Bottom player reinforces lapel grip with second hand creating a stronger two-handed connection that resists two-on-one breaks** (Effectiveness: High) - Your Response: Address the secondary reinforcing hand first before returning to the primary grip break. When both their hands are locked on the lapel, their upper body control is compromised, potentially opening passing opportunities around the lapel instead. → Leads to [[Positions/Worm Guard]]
 
 
 </section>

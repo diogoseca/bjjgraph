@@ -154,7 +154,7 @@ description: "How to defend against Underhook Sweep from Half in BJJ. Recognitio
 
 Defending the Underhook Sweep from Half Guard requires the top player to recognize and neutralize the bottom player's underhook control before the sweep reaches its tipping point. The underhook is the engine of this sweep, and your defensive strategy must center on either preventing it from being established or nullifying its power once secured. The top player who understands the sweep's mechanics can shut it down at multiple stages: during the initial underhook fight, during the angle creation phase, or even mid-sweep by establishing superior base and counter-pressure. Effective defense demands proactive positioning rather than reactive scrambling, with particular emphasis on the whizzer, crossface pressure, and hip position as your primary defensive tools. Recognizing the early warning signs of this sweep allows you to address it before your opponent loads their hips and commits to the driving phase, where stopping the sweep becomes significantly more difficult.
 
-**Opponent's Starting Position**: [[Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Underhook Sweep from Half Guard requires the top player to recogni
 ### 1. Establish deep whizzer over the underhook arm by threading your arm over their bicep and gripping your own thigh or their hip, then drive your shoulder weight down to flatten them
 
 - **When to use**: Immediately when opponent establishes underhook before they create significant angle or load their hips
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent's underhook is neutralized and they are driven flat on their back, removing their angle and sweeping leverage entirely
 - **Risk**: If whizzer is too shallow, opponent can use your overcommitment to the overhook to climb up your back for a back take
 
 ### 2. Post your far leg out wide at a 45-degree angle with your foot firmly on the mat, creating a wide triangular base that prevents being tipped over the sweeping trajectory
 
 - **When to use**: When you feel the sweep being loaded and your weight shifting toward the underhook side, or preemptively when opponent has established angle
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The wide base absorbs the sweeping force and prevents the reversal, allowing you to reset your passing position and re-engage
 - **Risk**: Posting the leg creates space that opponent may exploit to transition to deep half guard or recover full guard
 
 ### 3. Drive heavy crossface pressure by dropping your shoulder into opponent's jaw and neck while sprawling your hips back, flattening their shoulders to the mat
 
 - **When to use**: As a preventive measure before opponent establishes angle, or to counter early-stage sweep attempts before the explosive phase
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent is flattened with shoulders on the mat, eliminating the side angle necessary for sweep mechanics and opening passing opportunities
 - **Risk**: Overcommitting upper body forward while sprawling can leave you vulnerable if opponent redirects to deep half entry under your hips
 
 ### 4. Strip the far hip grip by peeling opponent's hand off your hip or pants and pinning it to the mat, then immediately resume passing pressure
 
 - **When to use**: When you feel opponent's hand grip your far hip, belt, or pants during the setup phase before they combine it with the underhook drive
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Without the far hip grip, opponent cannot prevent your base leg from posting, and the sweep loses a critical control element
 - **Risk**: Releasing your own grips momentarily to strip their hand may create a brief window for opponent to improve position
 
@@ -225,11 +225,11 @@ Defending the Underhook Sweep from Half Guard requires the top player to recogni
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Shut down the sweep early by winning the underhook battle with a deep whizzer and flattening the opponent with crossface pressure, then resume your passing sequence from a dominant half guard top position with the opponent unable to re-establish their offensive structure
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the sweep is already loaded, post your far leg wide for base to absorb the force, then use your whizzer and crossface to drive the opponent back flat. Strip their far hip grip and re-establish heavy top pressure to begin your pass from a stabilized position
 

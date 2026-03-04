@@ -148,7 +148,7 @@ From the defender's perspective (the bottom player maintaining ashi garami), pre
 
 Effective ashi garami retention demands active grip management, constant hip following to deny the angle your opponent needs, and the tactical awareness to recognize when an escape attempt has created an opportunity to advance up the positional hierarchy to inside ashi, cross ashi, or saddle. The best defenders treat escape attempts not as threats but as opportunities, because the movements required to escape often momentarily expose the heel or create pathways for positional advancement that would not exist against a passive opponent.
 
-**Opponent's Starting Position**: [[Ashi Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami]] (Top)
 
 </section>
 
@@ -186,28 +186,28 @@ Effective ashi garami retention demands active grip management, constant hip fol
 ### 1. Advance to inside ashi or saddle by backstep when opponent creates hip angle for escape
 
 - **When to use**: When opponent rotates hips away and begins clearing sequence, creating space that allows you to backstep your outside leg to achieve superior inside position
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: You advance to a more dominant leg entanglement position with better heel exposure and finishing angles, forcing opponent to restart escape from worse position
 - **Risk**: If the backstep is incomplete, opponent may use the transitional moment to accelerate their leg extraction through the gap you created
 
 ### 2. Secure heel hook grip and attack during escape movement when opponent exposes heel
 
 - **When to use**: When opponent straightens their trapped leg during extraction attempt or loses foot flexion during the clearing sequence, momentarily exposing the heel to hook grip
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Opponent must immediately stop escape and address the heel control, resetting the escape sequence and potentially allowing you to finish the submission
 - **Risk**: Committing both hands to heel hook grip temporarily reduces your ability to maintain entanglement structure if the attack fails
 
 ### 3. Recompose entanglement by re-triangling legs after opponent clears bottom leg
 
 - **When to use**: Immediately after opponent successfully clears your bottom leg but before they address the top leg, re-triangle your legs to restore the full entanglement structure
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Escape is fully reset and opponent must restart the entire clearing sequence, costing them significant energy and time while you maintain position
 - **Risk**: If recomposition is too slow, opponent clears the top leg simultaneously and extracts before you can re-establish control
 
 ### 4. Switch to kneebar or toe hold attack when opponent posts and creates distance
 
 - **When to use**: When opponent's frames create distance that makes heel hook finishing difficult but their leg remains partially controlled with knee accessible
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Forces opponent to defend a different submission angle, disrupting their escape sequence and potentially creating a finish or positional advancement
 - **Risk**: Switching attacks may loosen your entanglement structure, giving opponent an easier extraction path if the submission attempt fails
 
@@ -219,11 +219,11 @@ Effective ashi garami retention demands active grip management, constant hip fol
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ashi Garami]]
+### → [[Positions/Ashi Garami]]
 
 Maintain tight entanglement structure by keeping legs triangled, following opponent's hip rotation with your own adjustments, and immediately recomposing any cleared legs before opponent can complete the full extraction sequence. Time submission attacks for moments of heel exposure during escape attempts.
 
-### → [[Ashi Garami]]
+### → [[Positions/Ashi Garami]]
 
 Use opponent's escape movements as advancement opportunities by backstep to saddle or inside ashi when they create hip angle. Their rotation away from you opens pathways for your outside leg to step behind their trapped leg, achieving superior inside position with greater heel exposure and finishing angles.
 

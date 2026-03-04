@@ -22,8 +22,8 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Front Headlock]]
-**From Position**: [[Front Headlock]] (Top)
+**Starting Position**: [[Positions/Front Headlock]]
+**From Position**: [[Positions/Front Headlock]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -78,8 +78,8 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -233,14 +233,14 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 ## From Which Positions?
 
-- [[Front Headlock]]
-- [[Turtle]]
-- [[Side Control]]
-- [[North-South]]
-- [[Half Guard]]
-- [[Clinch]]
-- [[Combat Base]]
-- [[Open Guard]]
+- [[Positions/Front Headlock]]
+- [[Positions/Turtle]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
+- [[Positions/Half Guard]]
+- [[Positions/Clinch]]
+- [[Positions/Combat Base]]
+- [[Positions/Open Guard]]
 
 
 </section>
@@ -249,15 +249,15 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 ## Related Submissions
 
-- [[Darce Choke]]
-- [[Anaconda Choke]]
-- [[Guillotine Choke]]
-- [[Arm Triangle]]
-- [[North-South Choke]]
-- [[Rear Naked Choke]]
-- [[Arm in Guillotine]]
-- [[Ezekiel Choke]]
-- [[Clock Choke]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Anaconda Choke]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/North-South Choke]]
+- [[Transitions/Rear Naked Choke]]
+- [[Submissions/Arm in Guillotine]]
+- [[Submissions/Ezekiel Choke]]
+- [[Transitions/Clock Choke]]
 
 
 </section>
@@ -266,18 +266,18 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 ## Additional Related Content
 
-- [[Front Headlock]] - Primary setup position - Brabo is initiated from dominant front headlock control
-- [[Turtle]] - High-percentage entry - turtle defense creates ideal Brabo threading opportunity
-- [[Darce Control]] - Control position - intermediate position between Brabo setup and finish
-- [[Anaconda Control]] - Alternative choke - if Brabo angle is blocked, Anaconda threading may be available
-- [[Crucifix]] - Alternative finish - if Brabo is defended, position may transition to crucifix control
-- [[Darce Choke]] - Closely related submission - same arm threading family with different entry angle
-- [[Anaconda Choke]] - Complementary attack - threaten both Brabo and Anaconda from turtle to create dilemma
-- [[Guillotine Choke]] - Chain submission - transition available when opponent defends by lifting head
-- [[Side Control]] - Setup position - Brabo available when opponent attempts to escape toward you
-- [[Back Control]] - Positional alternative - if Brabo fails, may transition to back take
-- [[Arm in Guillotine]] - Related choke - similar trapped arm mechanism creates choking pressure
-- [[Arm Triangle]] - System connection - both submissions use opponent's shoulder as part of choking mechanism
+- [[Positions/Front Headlock]] - Primary setup position - Brabo is initiated from dominant front headlock control
+- [[Positions/Turtle]] - High-percentage entry - turtle defense creates ideal Brabo threading opportunity
+- [[Positions/Darce Control]] - Control position - intermediate position between Brabo setup and finish
+- [[Positions/Anaconda Control]] - Alternative choke - if Brabo angle is blocked, Anaconda threading may be available
+- [[Positions/Crucifix]] - Alternative finish - if Brabo is defended, position may transition to crucifix control
+- [[Transitions/Darce Choke]] - Closely related submission - same arm threading family with different entry angle
+- [[Transitions/Anaconda Choke]] - Complementary attack - threaten both Brabo and Anaconda from turtle to create dilemma
+- [[Transitions/Guillotine Choke]] - Chain submission - transition available when opponent defends by lifting head
+- [[Positions/Side Control]] - Setup position - Brabo available when opponent attempts to escape toward you
+- [[Positions/Back Control]] - Positional alternative - if Brabo fails, may transition to back take
+- [[Submissions/Arm in Guillotine]] - Related choke - similar trapped arm mechanism creates choking pressure
+- [[Transitions/Arm Triangle]] - System connection - both submissions use opponent's shoulder as part of choking mechanism
 
 
 </section>

@@ -21,7 +21,7 @@ The strategic value of this transition becomes apparent when the opponent begins
 
 From a systems perspective, the Double Sleeve to Lasso transition serves as a critical link between two major guard families. Double Sleeve Guard functions as a gateway position with connections to Spider Guard, Collar Sleeve Guard, and various sweep systems. By transitioning to Lasso Guard, the bottom player accesses a different attack ecosystem featuring sickle sweeps, omoplata entries, and triangle setups that chain together more effectively than the options available from pure double sleeve control. This transition also serves as a defensive upgrade when the opponent threatens to pass the double sleeve guard, as the lasso provides stronger unilateral control even if one grip is compromised.
 
-**From Position**: [[Double Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ From a systems perspective, the Double Sleeve to Lasso transition serves as a cr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Lasso Guard]] | 55% |
-| Failure | [[Double Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Lasso Guard]] | 55% |
+| Failure | [[Positions/Double Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Double Sleeve to Lasso transition occupies a central role in the open guard 
 ## Related Techniques
 
 
-- [[Double Sleeve Guard]] - Starting position for this transition providing bilateral sleeve control foundation
+- [[Positions/Double Sleeve Guard]] - Starting position for this transition providing bilateral sleeve control foundation
 
-- [[Lasso Guard]] - Target position achieved on successful completion of the threading motion
+- [[Positions/Lasso Guard]] - Target position achieved on successful completion of the threading motion
 
-- [[Spider Guard]] - Related guard system sharing sleeve control mechanics and common alternative transition from double sleeve
+- [[Positions/Spider Guard]] - Related guard system sharing sleeve control mechanics and common alternative transition from double sleeve
 
-- [[Open Guard]] - Parent guard category and counter outcome position when grips are stripped during transition
+- [[Positions/Open Guard]] - Parent guard category and counter outcome position when grips are stripped during transition
 
-- [[Collar Sleeve Guard]] - Alternative sleeve-based guard with similar grip foundations and transition pathways
+- [[Positions/Collar Sleeve Guard]] - Alternative sleeve-based guard with similar grip foundations and transition pathways
 
-- [[De La Riva Guard]] - Common guard transition partner accessible from double sleeve when opponent stands
+- [[Positions/De La Riva Guard]] - Common guard transition partner accessible from double sleeve when opponent stands
 
-- [[Inverted Lasso Guard]] - Advanced lasso variation accessible after establishing initial lasso control
+- [[Positions/Lasso Guard/Inverted Lasso Guard]] - Advanced lasso variation accessible after establishing initial lasso control
 
-- [[Russian Leg Lasso]] - Double lasso variation that can be built from the initial single lasso entry
+- [[Positions/Lasso Guard/Russian Leg Lasso]] - Double lasso variation that can be built from the initial single lasso entry
 
-- [[Armbar Setup from Double Sleeve]] - Alternative offensive option from the starting position when lasso entry is unavailable
+- [[Transitions/Armbar Setup from Double Sleeve]] - Alternative offensive option from the starting position when lasso entry is unavailable
 
-- [[Double Sleeve Sweep]] - Direct sweep alternative from double sleeve when guard transition is not needed
+- [[Transitions/Double Sleeve Sweep]] - Direct sweep alternative from double sleeve when guard transition is not needed
 
-- [[Sickle Sweep]] - High-percentage follow-up technique commonly executed immediately after establishing lasso guard
+- [[Transitions/Sickle Sweep]] - High-percentage follow-up technique commonly executed immediately after establishing lasso guard
 
-- [[Triangle Setup]] - Submission entry commonly chained when opponent's posture breaks after lasso is established
+- [[Transitions/Triangle Setup]] - Submission entry commonly chained when opponent's posture breaks after lasso is established
 
 
 </section>

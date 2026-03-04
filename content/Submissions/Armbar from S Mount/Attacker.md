@@ -184,7 +184,7 @@ Attacking the armbar from S Mount is among the most mechanically advantageous su
 
 The key to high-percentage finishing from S Mount lies in maintaining continuous control throughout the entire sequence. The wrist grip is non-negotiable from setup through tap. The knees must remain squeezed to prevent the opponent from pulling the arm free. And the hip-to-shoulder connection must stay tight until the moment you lean back to finish, ensuring no space exists for defensive movement. Rushing any phase—particularly releasing wrist control to adjust position or leaning back before the arm is fully extended across your hips—is the primary cause of failed armbar attempts from this dominant position.
 
-**From Position**: [[S Mount]] (Top)
+**From Position**: [[Positions/Mount/S Mount]] (Top)
 
 
 </section>
@@ -240,9 +240,9 @@ The key to high-percentage finishing from S Mount lies in maintaining continuous
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[S Mount]] | 20% |
-| Failure | [[Mount]] | 15% |
-| Counter | [[Closed Guard]] | 10% |
+| Failure | [[Positions/Mount/S Mount]] | 20% |
+| Failure | [[Positions/Mount]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -251,10 +251,10 @@ The key to high-percentage finishing from S Mount lies in maintaining continuous
 
 ## Opponent Defenses
 
-- **Opponent clasps hands together or grips own collar to prevent arm extension** (Effectiveness: High) - Your Response: Use figure-four grip break by rotating wrist toward their thumb. Alternatively, drive hips forward while stacking their gripped hands toward their face to create separation angle. If grip is very strong, switch to mounted triangle by threading your leg under their chin. → Leads to [[S Mount]]
-- **Opponent bridges explosively and turns toward you to relieve arm pressure** (Effectiveness: Medium) - Your Response: Drop your weight and post your free hand on the mat for base stability. Follow their hip movement by scooting your hips with them. If they create significant space, abandon the armbar and consolidate mount position rather than chasing a compromised finish. → Leads to [[Mount]]
-- **Opponent hip escapes toward your legs creating space to extract arm** (Effectiveness: Medium) - Your Response: Squeeze knees tighter and scoot your hips to follow their movement. If they create too much space, transition back to standard mount immediately. The hip escape is only effective if you allow your knees to separate—maintain the vise and their escape fails. → Leads to [[Closed Guard]]
-- **Opponent uses free hand to push on your near knee preventing full step-over** (Effectiveness: High) - Your Response: Pin their free arm with your far hand before stepping over, or trap it under your far leg during the transition. If they successfully block the step-over, maintain S Mount control and re-attempt when you can neutralize their free hand through positional pressure or grip control. → Leads to [[S Mount]]
+- **Opponent clasps hands together or grips own collar to prevent arm extension** (Effectiveness: High) - Your Response: Use figure-four grip break by rotating wrist toward their thumb. Alternatively, drive hips forward while stacking their gripped hands toward their face to create separation angle. If grip is very strong, switch to mounted triangle by threading your leg under their chin. → Leads to [[Positions/Mount/S Mount]]
+- **Opponent bridges explosively and turns toward you to relieve arm pressure** (Effectiveness: Medium) - Your Response: Drop your weight and post your free hand on the mat for base stability. Follow their hip movement by scooting your hips with them. If they create significant space, abandon the armbar and consolidate mount position rather than chasing a compromised finish. → Leads to [[Positions/Mount]]
+- **Opponent hip escapes toward your legs creating space to extract arm** (Effectiveness: Medium) - Your Response: Squeeze knees tighter and scoot your hips to follow their movement. If they create too much space, transition back to standard mount immediately. The hip escape is only effective if you allow your knees to separate—maintain the vise and their escape fails. → Leads to [[Positions/Closed Guard]]
+- **Opponent uses free hand to push on your near knee preventing full step-over** (Effectiveness: High) - Your Response: Pin their free arm with your far hand before stepping over, or trap it under your far leg during the transition. If they successfully block the step-over, maintain S Mount control and re-attempt when you can neutralize their free hand through positional pressure or grip control. → Leads to [[Positions/Mount/S Mount]]
 
 
 </section>

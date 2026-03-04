@@ -180,7 +180,7 @@ description: "Complete attacking guide for the heel hook from Backside 50-50 bot
 
 Attacking the heel hook from Backside 50-50 bottom demands a fundamentally different mindset than attacking from dominant leg entanglement positions. You are operating from a positional deficit where your back is exposed to your opponent's chest, your frames are your primary survival tool, and committing to the heel hook means temporarily abandoning those frames. The attack succeeds through precise timing and rapid execution rather than sustained pressure. Your goal is to recognize the narrow window when the opponent's heel becomes accessible, commit decisively to the grip, apply finishing mechanics with urgency, and either finish or disengage before the top player can capitalize on your frame abandonment. This is a sniper's attack, not a grinding positional tool.
 
-**From Position**: [[Backside 50-50]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Bottom)
 
 </section>
 
@@ -233,8 +233,8 @@ Attacking the heel hook from Backside 50-50 bottom demands a fundamentally diffe
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Backside 50-50]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Failure | [[Positions/Ashi Garami/Backside 50-50]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ Attacking the heel hook from Backside 50-50 bottom demands a fundamentally diffe
 
 ## Opponent Counters
 
-- **Opponent boots the heel by dorsiflexing aggressively and pulling toes toward shin to deny grip access** (Effectiveness: High) - Your Response: Switch to toe hold on the exposed forefoot, or abandon and return to frames if the heel is fully hidden. Do not chase a properly booted heel as this wastes time and energy. → Leads to [[Backside 50-50]]
-- **Opponent strips your initial grip with both hands before figure-four is established and drives chest pressure forward** (Effectiveness: Medium) - Your Response: If grip is stripped early, return to frames immediately rather than fighting for re-grip. Wait for the next timing window when opponent re-engages their offense. Forcing a second attempt against an alert opponent dramatically increases counter risk. → Leads to [[Backside 50-50]]
-- **Opponent abandons leg entanglement entirely and advances to full back control while both your hands are committed to heel grip** (Effectiveness: High) - Your Response: This is the highest-risk counter. Prevention requires keeping your attack window short. If you feel their hips walking up your body toward back control, release the heel immediately and address the back take. Finishing the heel hook is secondary to preventing back control. → Leads to [[Back Control]]
-- **Opponent counter-rotates their body in the direction of the heel hook to relieve knee pressure and neutralize the breaking mechanism** (Effectiveness: Medium) - Your Response: Follow their rotation and adjust your hip angle to maintain the breaking mechanism. If they rotate far enough, the position may transition and you may need to reconfigure. Alternatively, use their rotation to improve your own position within the entanglement. → Leads to [[Backside 50-50]]
+- **Opponent boots the heel by dorsiflexing aggressively and pulling toes toward shin to deny grip access** (Effectiveness: High) - Your Response: Switch to toe hold on the exposed forefoot, or abandon and return to frames if the heel is fully hidden. Do not chase a properly booted heel as this wastes time and energy. → Leads to [[Positions/Ashi Garami/Backside 50-50]]
+- **Opponent strips your initial grip with both hands before figure-four is established and drives chest pressure forward** (Effectiveness: Medium) - Your Response: If grip is stripped early, return to frames immediately rather than fighting for re-grip. Wait for the next timing window when opponent re-engages their offense. Forcing a second attempt against an alert opponent dramatically increases counter risk. → Leads to [[Positions/Ashi Garami/Backside 50-50]]
+- **Opponent abandons leg entanglement entirely and advances to full back control while both your hands are committed to heel grip** (Effectiveness: High) - Your Response: This is the highest-risk counter. Prevention requires keeping your attack window short. If you feel their hips walking up your body toward back control, release the heel immediately and address the back take. Finishing the heel hook is secondary to preventing back control. → Leads to [[Positions/Back Control]]
+- **Opponent counter-rotates their body in the direction of the heel hook to relieve knee pressure and neutralize the breaking mechanism** (Effectiveness: Medium) - Your Response: Follow their rotation and adjust your hip angle to maintain the breaking mechanism. If they rotate far enough, the position may transition and you may need to reconfigure. Alternatively, use their rotation to improve your own position within the entanglement. → Leads to [[Positions/Ashi Garami/Backside 50-50]]
 
 
 </section>

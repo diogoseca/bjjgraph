@@ -178,7 +178,7 @@ The escape works by accepting and accelerating the rotation your opponent has es
 
 Strategically, this escape requires precise timing and commitment. Attempting it too early when controls are fully established results in simply tightening the Twister. Waiting too long allows the opponent to secure finishing grips. The optimal window occurs when the opponent transitions their grips or adjusts their position, momentarily weakening their leg control. Reading these transitions and exploding through the roll creates the highest success probability while minimizing the risk of accelerating into a worse position.
 
-**From Position**: [[Twister Control]] (Bottom)
+**From Position**: [[Positions/Twister Control]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ Strategically, this escape requires precise timing and commitment. Attempting it
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 65% |
-| Failure | [[Twister Control]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Open Guard]] | 65% |
+| Failure | [[Positions/Twister Control]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -242,9 +242,9 @@ Strategically, this escape requires precise timing and commitment. Attempting it
 
 ## Opponent Counters
 
-- **Opponent deepens leg control when they feel you creating slack, preventing the roll initiation** (Effectiveness: High) - Your Response: Immediately stop the escape attempt and return to defensive positioning, then wait for a better opportunity when opponent transitions → Leads to [[Twister Control]]
-- **Opponent follows your roll and re-establishes back control or Twister Control on the other side** (Effectiveness: Medium) - Your Response: Accelerate through the roll faster than they can follow and immediately establish frames and distance when completing rotation → Leads to [[Back Control]]
-- **Opponent transitions to guillotine as you begin rotating, catching your neck during the movement** (Effectiveness: High) - Your Response: Keep chin tucked throughout and use your near-side arm to block the guillotine grip before it can be established → Leads to [[Back Control]]
+- **Opponent deepens leg control when they feel you creating slack, preventing the roll initiation** (Effectiveness: High) - Your Response: Immediately stop the escape attempt and return to defensive positioning, then wait for a better opportunity when opponent transitions → Leads to [[Positions/Twister Control]]
+- **Opponent follows your roll and re-establishes back control or Twister Control on the other side** (Effectiveness: Medium) - Your Response: Accelerate through the roll faster than they can follow and immediately establish frames and distance when completing rotation → Leads to [[Positions/Back Control]]
+- **Opponent transitions to guillotine as you begin rotating, catching your neck during the movement** (Effectiveness: High) - Your Response: Keep chin tucked throughout and use your near-side arm to block the guillotine grip before it can be established → Leads to [[Positions/Back Control]]
 
 
 </section>

@@ -158,7 +158,7 @@ Defending the Loop Choke requires early recognition and decisive action before t
 
 The defensive hierarchy against the loop choke follows three stages. First, prevent the deep collar grip entirely through hand fighting, posture management, and grip stripping. Second, if the grip is established, prevent the angle change and shoulder drive that converts the grip into a choke. Third, if the choke is partially set, address the tightest point of compression by creating space, turning into the attacker to relieve the loop geometry, or tucking the chin to buy time for grip removal. Understanding which stage you are in determines the correct defensive response, and attempting later-stage defenses when early-stage options are still available wastes the most effective defensive windows.
 
-**Opponent's Starting Position**: [[Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 
 </section>
@@ -198,28 +198,28 @@ The defensive hierarchy against the loop choke follows three stages. First, prev
 ### 1. Two-handed grip strip before choke is set
 
 - **When to use**: As soon as you recognize the deep collar grip being established, before opponent commits body angle and shoulder pressure
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Attacker loses primary submission threat and must re-establish grip or transition to different attack, returning to positional control without submission danger
 - **Risk**: Using both hands on the grip momentarily reduces your defensive frames, potentially allowing positional advancement if the strip fails
 
 ### 2. Turn into the attacker to collapse loop geometry
 
 - **When to use**: When opponent has established the grip and begun the angle change but has not yet driven full shoulder pressure into the neck
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Turning toward the attacker's body collapses the space needed for the loop to function, relieving carotid pressure and creating opportunity to strip the grip or recover defensive position
 - **Risk**: Turning may expose your back if attacker reads the movement and transitions to back control
 
 ### 3. Bridge explosively during angle transition
 
 - **When to use**: When attacker shifts weight to commit to the finishing angle, creating a momentary base vulnerability during their body repositioning
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Disrupts attacker's base and angle, potentially reversing position or creating enough space to recover guard and strip the collar grip
 - **Risk**: If bridge timing is wrong, the explosive movement can actually help the attacker close distance and tighten the choke
 
 ### 4. Chin tuck and posture defense
 
 - **When to use**: When choke is partially set and you need to buy time to work on grip removal or create an escape window
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Tucking chin prevents full carotid compression and extends the time you have to work defensive grip fighting before the choke becomes effective
 - **Risk**: Chin tuck alone is a stalling measure, not a complete defense - you must actively work to strip the grip while protecting your neck
 
@@ -243,11 +243,11 @@ The defensive hierarchy against the loop choke follows three stages. First, prev
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Successfully strip the collar grip before the choke is set, neutralizing the submission threat and returning to standard positional defense where you can work escape sequences without immediate submission danger
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Bridge explosively during the attacker's angle transition to disrupt their base and recover to closed guard, or turn into the attacker and use the rotation to insert knee and recover guard position
 

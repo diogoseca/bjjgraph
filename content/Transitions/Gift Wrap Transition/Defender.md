@@ -158,7 +158,7 @@ The critical defensive window occurs between the moment the attacker begins targ
 
 From a positional hierarchy perspective, the defender should prioritize keeping elbows tight and connected to the torso, preventing any single arm from being isolated away from centerline. If the wrap begins, the defender's immediate goal shifts to preventing completion by fighting the grip transfer and using bridges timed to the attacker's threading motion. Understanding that the attacker needs both hands temporarily committed to the wrap creates a brief window where neither choking nor secondary control is active.
 
-**Opponent's Starting Position**: [[High Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/High Mount]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ From a positional hierarchy perspective, the defender should prioritize keeping 
 ### 1. Retract arm and pin elbow tight to ribs the moment you feel wrist control being established, while simultaneously turning your shoulder toward the attacker to close the armpit space
 
 - **When to use**: Early phase - as soon as the attacker grabs your wrist or forearm before they begin threading
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Attacker's wrap attempt fails and they remain in High Mount without the arm trap, resetting to standard mount offense
 - **Risk**: If you focus too much on one arm, the attacker may switch to the opposite arm or attack your exposed neck
 
 ### 2. Explosive bridge toward the side of the threading arm, timed to coincide with the attacker's arm reaching under your armpit when their base is most compromised
 
 - **When to use**: Mid-phase - when the attacker is actively threading but has not yet completed the grip transfer to their threading hand
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Bridge disrupts mount base and creates space to insert knee for half guard recovery, escaping the mount entirely
 - **Risk**: Mistimed bridge wastes energy and may accelerate the wrap if the attacker absorbs the bridge while completing the thread
 
 ### 3. Two-on-one grip fight against the threading arm, using both hands to strip the attacker's grip on your wrist before they can complete the transfer
 
 - **When to use**: Mid-to-late phase - when the attacker has begun threading but the grip transfer between their hands is not yet complete
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Breaks the connection between the attacker's threading arm and your wrist, forcing them to restart the setup from scratch
 - **Risk**: Using both hands to grip fight temporarily abandons neck protection, creating a choke opening if the attacker switches attacks
 
 ### 4. Hip escape and knee insertion on the side opposite the wrap attempt, using the attacker's lateral weight shift as the opening to create space
 
 - **When to use**: When the attacker commits weight to one side during the threading motion, leaving the opposite hip lighter
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover half guard by inserting knee before the attacker can re-center their weight, transitioning from mount bottom to half guard bottom
 - **Risk**: If the hip escape is incomplete, you may end up in a worse position with the Gift Wrap partially established and your guard not fully recovered
 
@@ -228,11 +228,11 @@ From a positional hierarchy perspective, the defender should prioritize keeping 
 
 ## Best-Case Outcomes for Defender
 
-### → [[High Mount]]
+### → [[Positions/Mount/High Mount]]
 
 Prevent the arm isolation by keeping elbows pinned to ribs and fighting wrist control early. If you can deny the initial grip and armpit threading, the attacker remains in High Mount without the Gift Wrap advantage, giving you a chance to work standard mount escapes.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive bridge and hip escape to coincide with the attacker's weight shift during the threading motion. As they commit to one side to thread their arm, bridge toward that side to disrupt their base, then immediately shrimp and insert your knee to recover half guard before they can re-establish mount.
 

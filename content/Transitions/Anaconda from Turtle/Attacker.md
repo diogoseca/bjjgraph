@@ -180,7 +180,7 @@ description: "How to execute Anaconda from Turtle in BJJ. Attacking perspective 
 
 The Anaconda from Turtle is a dynamic submission setup that transitions from turtle top position to anaconda control through a committed rolling motion. This technique exploits the opponent's defensive turtle posture by threading your arm under their neck while trapping their near arm, then using a figure-four grip and rolling motion to secure the optimal choking angle. Your bicep compresses one carotid artery while their own trapped arm and shoulder compress the other, creating bilateral vascular pressure. The execution demands precise sequencing: deep palm-down arm threading, near arm verification, maximum grip tightness, and decisive roll commitment before the opponent can establish a defensive base. The rolling momentum is the essential mechanism for creating proper choking angle, not merely a finishing flourish. This technique has become fundamental in modern no-gi grappling because the dynamic roll is unexpected and frequently secures the finish before opponents can mount proper defense. It represents sophisticated front headlock mechanics combined with dynamic movement principles, integrating naturally with other turtle top attacks to create a branching threat tree.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -235,9 +235,9 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Anaconda Control]] | 58% |
-| Failure | [[Turtle]] | 28% |
-| Counter | [[Turtle]] | 14% |
+| Success | [[Positions/Anaconda Control]] | 58% |
+| Failure | [[Positions/Turtle]] | 28% |
+| Counter | [[Positions/Turtle]] | 14% |
 
 
 </section>
@@ -246,11 +246,11 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 
 ## Opponent Counters
 
-- **Pull Arm In - opponent retracts near arm before trap is secured** (Effectiveness: High) - Your Response: Recognize early and transition to different attack from turtle top such as Darce (trap far arm instead), or pursue the arm as they pull it in and follow to back take position while they are occupied defending their arm → Leads to [[Turtle]]
-- **Base Out - opponent posts with free arm wide to prevent roll completion** (Effectiveness: Medium) - Your Response: Maintain pressure and grip while walking your hips in a wide arc around their posted base to find a new rolling angle, or transition to side control while maintaining front headlock control and threatening guillotine from the modified angle → Leads to [[Turtle]]
-- **Counter Roll - opponent rolls in opposite direction to escape the choking angle** (Effectiveness: Medium) - Your Response: Maintain grip and use their momentum to adjust to the new angle by following their roll while keeping the figure-four locked, or release and scramble for dominant turtle top position if grip integrity is compromised during their rotation → Leads to [[Turtle]]
-- **Explosive Stand Up - opponent drives to feet before roll is initiated to create space** (Effectiveness: Low) - Your Response: Follow them up maintaining front headlock position and adjust to standing anaconda setup, or transition to standing guillotine if they expose their neck during the rising motion. Their standing creates space but your grip maintains the threat → Leads to [[Turtle]]
-- **Chin Tuck and Elbow Lock - opponent tucks chin to chest and locks elbows to knees preventing arm threading entirely** (Effectiveness: High) - Your Response: Use hand fighting and snap downs to create opening in their defensive shell, or abandon the anaconda and transition to back take or crucifix attack while they remain committed to static neck defense and cannot move → Leads to [[Turtle]]
+- **Pull Arm In - opponent retracts near arm before trap is secured** (Effectiveness: High) - Your Response: Recognize early and transition to different attack from turtle top such as Darce (trap far arm instead), or pursue the arm as they pull it in and follow to back take position while they are occupied defending their arm → Leads to [[Positions/Turtle]]
+- **Base Out - opponent posts with free arm wide to prevent roll completion** (Effectiveness: Medium) - Your Response: Maintain pressure and grip while walking your hips in a wide arc around their posted base to find a new rolling angle, or transition to side control while maintaining front headlock control and threatening guillotine from the modified angle → Leads to [[Positions/Turtle]]
+- **Counter Roll - opponent rolls in opposite direction to escape the choking angle** (Effectiveness: Medium) - Your Response: Maintain grip and use their momentum to adjust to the new angle by following their roll while keeping the figure-four locked, or release and scramble for dominant turtle top position if grip integrity is compromised during their rotation → Leads to [[Positions/Turtle]]
+- **Explosive Stand Up - opponent drives to feet before roll is initiated to create space** (Effectiveness: Low) - Your Response: Follow them up maintaining front headlock position and adjust to standing anaconda setup, or transition to standing guillotine if they expose their neck during the rising motion. Their standing creates space but your grip maintains the threat → Leads to [[Positions/Turtle]]
+- **Chin Tuck and Elbow Lock - opponent tucks chin to chest and locks elbows to knees preventing arm threading entirely** (Effectiveness: High) - Your Response: Use hand fighting and snap downs to create opening in their defensive shell, or abandon the anaconda and transition to back take or crucifix attack while they remain committed to static neck defense and cannot move → Leads to [[Positions/Turtle]]
 
 
 </section>

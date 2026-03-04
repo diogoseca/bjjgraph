@@ -156,7 +156,7 @@ As the defender in Overhook Extraction, you are the bottom player in New York po
 
 Successful defense requires understanding that the overhook and shin control function as an integrated system. When one element weakens, the other becomes vulnerable. Your defensive priority is maintaining both control points simultaneously while cycling through offensive threats that keep the top player reacting rather than executing their extraction plan. Every moment they spend defending your attacks is a moment they cannot dedicate to the corkscrew motion that frees their arm.
 
-**Opponent's Starting Position**: [[New York]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/New York]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Successful defense requires understanding that the overhook and shin control fun
 ### 1. Deepen the overhook by swimming your shoulder tighter against their armpit and pulling their elbow across your centerline
 
 - **When to use**: When you feel the initial elbow angle change signaling corkscrew setup, before they have committed to the spiral motion
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: Opponent's extraction attempt stalls and they remain trapped in New York with reinforced overhook control
 - **Risk**: Over-committing to the deepen may compromise your shin grip if you shift too much attention to the overhook
 
 ### 2. Shoot your leg over opponent's shoulder for triangle as their arm begins to extract, using the extraction motion to create the space needed for leg placement
 
 - **When to use**: When opponent's arm is partially extracted and their posture has momentarily dropped during the corkscrew motion
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: You transition from New York control to an even more dominant triangle position with immediate submission threat
 - **Risk**: If opponent maintains strong posture during extraction, the triangle attempt fails and you lose New York entirely
 
 ### 3. Transition to Invisible Collar or Zombie by advancing your leg position and swimming your free hand to the back of their head before extraction completes
 
 - **When to use**: When you sense the overhook is weakening despite your reinforcement and extraction appears inevitable within 2-3 seconds
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: You advance to a deeper rubber guard position with stronger control, making the overhook extraction irrelevant as the new position presents different threats
 - **Risk**: The transition requires momentary adjustment that may give opponent the opening to complete extraction if your timing is off
 
 ### 4. Use hip bump momentum timed with their extraction effort to sweep, converting their focus on arm extraction into a balance vulnerability
 
 - **When to use**: When opponent has committed heavily to the extraction and shifted weight backward, creating an exploitable imbalance
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: You sweep the opponent and achieve mount or top position, completely nullifying the extraction attempt
 - **Risk**: If opponent maintains wide base, the hip bump fails and you may lose positional control during the sweep attempt
 
@@ -226,11 +226,11 @@ Successful defense requires understanding that the overhook and shin control fun
 
 ## Best-Case Outcomes for Defender
 
-### → [[New York]]
+### → [[Positions/Rubber Guard/New York]]
 
 Maintain constant shoulder-to-armpit overhook pressure while actively reinforcing your shin grip. When you feel the elbow angle change, immediately deepen the overhook by pulling their tricep tighter across your chest. Keep cycling through minor attack threats to prevent them from dedicating full attention to extraction mechanics.
 
-### → [[Triangle Control]]
+### → [[Positions/Triangle Control]]
 
 Time your triangle entry to the moment their arm is partially extracted and their posture dips. As the corkscrew creates space between their arm and your body, shoot your choking leg over their shoulder while pulling their head down. Their extracted arm is now inside your triangle configuration. This requires precise timing - too early and you lack space, too late and they have posture to defend.
 

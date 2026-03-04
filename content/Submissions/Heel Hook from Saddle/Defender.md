@@ -156,7 +156,7 @@ description: "Essential guide to surviving and escaping heel hook attacks from t
 
 Defending the heel hook from saddle is among the most urgent and dangerous defensive scenarios in Brazilian Jiu-Jitsu. The defender must recognize that once the attacker has established saddle control with proper heel exposure, the window for successful escape is measured in seconds. The defensive hierarchy is absolute: protect the heel first by hiding it against your own hip, fight grips to prevent the finishing configuration, clear hip pressure to create space, and only then attempt leg extraction. Violating this sequence—particularly by attempting to pull the leg free before addressing the attacker's hip pressure—dramatically increases both injury risk and the probability of submission. The most critical skill in heel hook defense is recognizing when escape is no longer technically possible and tapping immediately, as the knee's ligaments provide almost no pain warning before catastrophic structural failure. Developing the composure to make this recognition under competitive pressure requires systematic training where practitioners practice identifying the transition from a defensible position to a locked submission.
 
-**Opponent's Starting Position**: [[Saddle]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Saddle]] (Top)
 
 
 </section>
@@ -196,21 +196,21 @@ Defending the heel hook from saddle is among the most urgent and dangerous defen
 ### 1. Hide the heel and grip-fight to prevent finishing configuration
 
 - **When to use**: When attacker is transitioning from positional grips to finishing grips and heel is not yet fully exposed
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Attacker cannot establish finishing grip and must return to positional control, buying time for escape attempts
 - **Risk**: Energy-intensive and only delays the submission—must be combined with positional escape work
 
 ### 2. Counter-entangle to 50-50 guard by hooking attacker's leg and rotating
 
 - **When to use**: When attacker's inside position loosens during grip transition, creating a window for hip rotation
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Neutralizes the asymmetric advantage of the saddle by creating symmetrical leg entanglement
 - **Risk**: Failed counter-entangle can tighten the saddle and accelerate heel exposure
 
 ### 3. Bridge explosively and frame on attacker's hips to create space for leg extraction
 
 - **When to use**: When heel is still hidden and attacker has not yet established finishing grip configuration
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Creates sufficient space to begin systematic leg extraction or recover to a less dangerous entanglement
 - **Risk**: If heel is exposed during the bridge, the explosive movement may accelerate the submission finish
 
@@ -239,7 +239,7 @@ Defending the heel hook from saddle is among the most urgent and dangerous defen
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Counter-entangle during the attacker's grip transition by hooking their far leg and rotating into the 50-50 position, neutralizing their asymmetric positional advantage
 

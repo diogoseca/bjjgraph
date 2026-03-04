@@ -140,7 +140,7 @@ description: "Master defending the Underhook from Knee Shield in BJJ. Learn reco
 
 As the defender (top player) against the Underhook from Knee Shield, your objective is to either prevent the underhook from being established or counter it immediately before the bottom player can elevate to Dogfight. The knee shield removal creates a momentary vulnerability that you must exploit—when the bottom player drops their primary defensive frame to swim for the underhook, they are briefly exposed to crossface pressure and flattening that can convert their offensive attempt into a worse defensive position. The most effective defense is proactive prevention through sustained crossface pressure and near-side arm control that makes the underhook path physically impossible, rather than reactive countering after the underhook is partially established. Recognizing the pre-movement cues that signal an incoming underhook attempt gives you the critical split-second advantage needed to shut down the transition before it develops momentum.
 
-**Opponent's Starting Position**: [[Knee Shield Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 
 </section>
 
@@ -178,21 +178,21 @@ As the defender (top player) against the Underhook from Knee Shield, your object
 ### 1. Crossface and forward drive—immediately drive shoulder into opponent's jaw and apply maximum forward pressure when you detect knee shield lowering
 
 - **When to use**: The moment you sense the knee shield dropping or the near-side arm beginning to swim. Most effective when applied preemptively before the underhook is established.
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Opponent is flattened back to the mat with no knee shield and no underhook, leaving them in the worst half guard configuration
 - **Risk**: If the underhook is already deep when you commit forward, your momentum can be redirected into a sweep
 
 ### 2. Whizzer control—wrap your arm over and around the opponent's underhook arm, pulling elbow tight to your hip while driving weight downward
 
 - **When to use**: When the underhook has been partially or fully established but the opponent has not yet elevated to their knees. The whizzer must be immediate—delay allows the elevation.
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: Opponent's underhook leverage is neutralized by the whizzer, and sustained downward pressure forces them back to flat half guard where they must re-establish the knee shield
 - **Risk**: Deep underhook combined with strong head position can overcome the whizzer, and the opponent may use your whizzer commitment to set up a back take
 
 ### 3. Near-side arm pin—control opponent's near arm at wrist or elbow before they can swim, physically blocking the underhook path
 
 - **When to use**: Proactively before the underhook attempt begins. Best applied when you have crossface established and can use your free hand to pin their near arm to the mat or their body.
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: The underhook path is completely denied, forcing the opponent to either abandon the attempt or try to free their arm first, which gives you additional time to consolidate
 - **Risk**: Committing a hand to arm control reduces your available grips for passing and may allow the opponent to attack with their free outside arm
 
@@ -204,11 +204,11 @@ As the defender (top player) against the Underhook from Knee Shield, your object
 
 ## Best-Case Outcomes for Defender
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Exploit the knee shield removal by immediately driving forward with maximum crossface pressure before the underhook is established. Flatten the opponent to the mat with shoulder and chest weight, eliminating both their knee shield frame and their ability to come to their knees. Establish dominant crossface and underhook control in the resulting flattened half guard.
 
-### → [[Knee Shield Half Guard]]
+### → [[Positions/Half Guard/Knee Shield Half Guard]]
 
 Deny the underhook through proactive arm control and crossface pressure, forcing the opponent to re-establish the knee shield frame. Use whizzer control to neutralize partial underhook attempts and drive the opponent's shoulder back to the mat. The goal is to maintain the status quo where you retain your passing position against a purely defensive knee shield.
 

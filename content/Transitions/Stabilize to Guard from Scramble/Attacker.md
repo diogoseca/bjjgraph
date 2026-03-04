@@ -180,7 +180,7 @@ description: "Learn to execute guard recovery from BJJ scrambles. Step-by-step g
 
 As the attacker executing guard recovery from a scramble, your primary objective is to convert chaotic positional uncertainty into a structured open guard with active frames, grips, and foot positioning. This requires a disciplined sequential approach: frame first, hip escape second, insert barriers third, establish grips fourth. Rushing to grips before creating structural separation is the single most common failure mode. The attacker must resist the instinct to grab and pull, instead focusing on building the mechanical foundation of guard from the ground up. Success depends on reading the scramble's momentum and choosing the precise moment when the opponent's forward pressure can be redirected into your guard structure rather than fought against directly. Elite guard players treat this transition as a tactical choice rather than a desperate retreat, viewing the open guard as a position of strength from which they can launch sweeps, submissions, and back takes.
 
-**From Position**: [[Scramble Position]] (Bottom)
+**From Position**: [[Positions/Scramble Position]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ As the attacker executing guard recovery from a scramble, your primary objective
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Scramble Position]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Scramble Position]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing guard recovery from a scramble, your primary objective
 
 ## Opponent Counters
 
-- **Opponent drives heavy crossface pressure to flatten you and prevent hip escape** (Effectiveness: High) - Your Response: Frame on the crossface arm with both hands, create space by bridging into the pressure, then hip escape in the opposite direction to establish angle and insert knee barrier → Leads to [[Side Control]]
-- **Opponent disengages and resets to standing, denying you grip connections and guard structure** (Effectiveness: Medium) - Your Response: Follow their retreat with active feet, immediately sit up into seated guard position, and use collar drag or ankle grip to re-engage before they can establish a passing position → Leads to [[Scramble Position]]
-- **Opponent grabs both ankles or pants to control your legs and prevent foot placement on hips** (Effectiveness: Medium) - Your Response: Use a two-on-one grip break on one leg, kick that foot free to establish hip contact, and use the freed leg as primary distance management while working to free the second → Leads to [[Side Control]]
-- **Opponent uses immediate knee slide pressure through your developing frames before guard solidifies** (Effectiveness: High) - Your Response: Underhook the sliding knee with your near arm, turn into the pressure to create a knee shield or half guard position, and use the partial guard as a platform to recover full open guard → Leads to [[Side Control]]
+- **Opponent drives heavy crossface pressure to flatten you and prevent hip escape** (Effectiveness: High) - Your Response: Frame on the crossface arm with both hands, create space by bridging into the pressure, then hip escape in the opposite direction to establish angle and insert knee barrier → Leads to [[Positions/Side Control]]
+- **Opponent disengages and resets to standing, denying you grip connections and guard structure** (Effectiveness: Medium) - Your Response: Follow their retreat with active feet, immediately sit up into seated guard position, and use collar drag or ankle grip to re-engage before they can establish a passing position → Leads to [[Positions/Scramble Position]]
+- **Opponent grabs both ankles or pants to control your legs and prevent foot placement on hips** (Effectiveness: Medium) - Your Response: Use a two-on-one grip break on one leg, kick that foot free to establish hip contact, and use the freed leg as primary distance management while working to free the second → Leads to [[Positions/Side Control]]
+- **Opponent uses immediate knee slide pressure through your developing frames before guard solidifies** (Effectiveness: High) - Your Response: Underhook the sliding knee with your near arm, turn into the pressure to create a knee shield or half guard position, and use the partial guard as a platform to recover full open guard → Leads to [[Positions/Side Control]]
 
 
 </section>

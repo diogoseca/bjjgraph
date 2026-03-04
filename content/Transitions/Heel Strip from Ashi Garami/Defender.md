@@ -138,7 +138,7 @@ description: "Counter the heel strip defense when attacking from Ashi Garami. Gr
 
 As the person attacking from Ashi Garami, your opponent's heel strip attempt represents a critical defensive sequence that threatens to neutralize your submission control. Your primary objectives are maintaining heel control through grip retention, capitalizing on the strip attempt to advance position, and re-establishing control if the strip partially succeeds. The heel strip defense creates a window where the opponent commits both hands to grip fighting, temporarily abandoning other defensive options like boot defense or positional escape. Recognizing this window and exploiting it—through grip adjustments, positional advances to Saddle or Cross Ashi, or submission acceleration—separates elite leg lock attackers from one-dimensional finishers who lose exchanges the moment their grip is challenged.
 
-**Opponent's Starting Position**: [[Ashi Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami]] (Top)
 
 </section>
 
@@ -176,28 +176,28 @@ As the person attacking from Ashi Garami, your opponent's heel strip attempt rep
 ### 1. Switch grips before strip completes—release and immediately re-grip the heel from a different angle or with different hand configuration
 
 - **When to use**: When opponent establishes two-on-one on your wrist but hasn't cleared the ankle line yet—you still have time to switch
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Opponent must restart strip sequence against new grip configuration, buying time for finish or positional advancement
 - **Risk**: Momentary loss of heel control during the switch may allow partial leg extraction if timing is poor
 
 ### 2. Advance to Saddle or Cross Ashi during the strip attempt by using legs to improve entanglement position
 
 - **When to use**: When opponent commits both hands to strip, leaving their legs undefended against your positional advancement through the hierarchy
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Achieve dominant finishing position where stronger entanglement compensates for grip challenges and even a successful strip is harder to convert to escape
 - **Risk**: If advancement fails, may lose heel grip entirely during the positional transition attempt
 
 ### 3. Accelerate heel hook finish before the two-on-one strip fully establishes on your controlling wrist
 
 - **When to use**: When opponent reaches for your wrist but hasn't established full two-on-one mechanical advantage yet—narrow timing window
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Finish the submission before defense completes, ending the exchange with a tap
 - **Risk**: Rushed finish may be mechanically poor and fail, giving opponent confidence and momentum in their strip attempt
 
 ### 4. Transition to ankle lock or toe hold when heel grip is compromised but leg entanglement remains intact
 
 - **When to use**: When heel strip succeeds partially or fully but opponent hasn't extracted their leg from the entanglement yet
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: New submission threat maintains offensive pressure despite losing primary heel hook grip, forcing continued defense
 - **Risk**: Ankle lock and toe hold are generally lower-percentage than heel hook from this position and may allow extraction during transition
 
@@ -209,11 +209,11 @@ As the person attacking from Ashi Garami, your opponent's heel strip attempt rep
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ashi Garami]]
+### → [[Positions/Ashi Garami]]
 
 Maintain grip integrity through layered control and grip switches. When strip attempt begins, immediately reinforce primary grip with secondary foot or ankle control and use grip intelligence rather than pure strength to retain heel position.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 Capitalize on opponent's hand commitment to stripping by advancing leg entanglement position. While they fight your grip with both hands, use your legs to transition to Saddle where heel exposure is maximum and the stronger entanglement makes escape exponentially harder even if a subsequent strip succeeds.
 

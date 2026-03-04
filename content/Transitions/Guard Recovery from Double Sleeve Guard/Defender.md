@@ -148,7 +148,7 @@ description: "Prevent guard recovery from double sleeve guard as the top player 
 
 As the top player against double sleeve guard, your opponent's guard recovery attempt represents the critical transition point between their open guard retention and your passing success. When you strip one or both sleeve grips, you have a narrow window to advance past the bottom player's legs before they can retract and close guard. Your objective is to capitalize on grip failure by immediately driving forward with passing pressure, preventing the hip escape that creates guard closure angle, and either establishing combat base for systematic passing or completing a pass before the bottom player can reorganize their leg barriers. Understanding the bottom player's recovery mechanics—grip retention priority, leg retraction timing, and hip escape direction—allows you to exploit each phase of their recovery sequence rather than simply chasing their legs.
 
-**Opponent's Starting Position**: [[Double Sleeve Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 
 </section>
 
@@ -185,21 +185,21 @@ As the top player against double sleeve guard, your opponent's guard recovery at
 ### 1. Drive forward through the bottom player's centerline immediately after grip stripping, pinning their hips flat with chest pressure to prevent hip escape
 
 - **When to use**: Immediately after stripping one or both sleeve grips when the bottom player's legs are still in extended position
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Bottom player's hips are pinned flat preventing guard closure angle, allowing you to establish combat base and begin systematic passing
 - **Risk**: If bottom player frames on your shoulders effectively, your forward pressure may stall and they recover composure for alternative guard recomposition
 
 ### 2. Grab the bottom player's ankles or pants as their legs retract and redirect them to one side for a toreando pass
 
 - **When to use**: When the bottom player begins retracting their legs from extended position but has not yet gotten knees to their chest
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Legs are displaced to one side eliminating guard closure possibility and opening direct toreando or leg drag passing lanes
 - **Risk**: If the bottom player pummels legs back to centerline, you may lose your grip advantage and they can recompose guard
 
 ### 3. Stand up and disengage from the bottom player's leg contact entirely, resetting from standing with superior passing angles
 
 - **When to use**: When the bottom player's legs are actively threatening to close around your torso and guard closure appears imminent
-- **Targets**: [[Double Sleeve Guard]]
+- **Targets**: [[Positions/Double Sleeve Guard]]
 - **If successful**: You reset at standing range where the bottom player must reestablish grips and distance control from scratch
 - **Risk**: Concedes the initiative and allows the bottom player time to recompose their open guard system with new grips
 
@@ -211,7 +211,7 @@ As the top player against double sleeve guard, your opponent's guard recovery at
 
 ## Best-Case Outcomes for Defender
 
-### → [[Combat Base]]
+### → [[Positions/Combat Base]]
 
 Strip both sleeve grips explosively and immediately drive forward with heavy chest pressure while blocking the far hip with your hand, preventing the hip escape needed for guard closure and establishing combat base for systematic passing
 

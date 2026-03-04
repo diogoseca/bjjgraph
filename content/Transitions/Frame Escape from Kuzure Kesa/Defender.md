@@ -146,7 +146,7 @@ description: "Learn to prevent and counter the frame escape from Kuzure Kesa-Gat
 
 Defending against the frame escape from Kuzure Kesa-Gatame means maintaining your dominant control position while denying the bottom person the space they need for hip escapes and knee insertion. Your primary tool is consistent hip pressure combined with a low chest position that prevents effective framing. When the bottom person initiates frames, your response must address the frame without abandoning the pressure that makes the position dominant. The key defensive insight is that frame escapes require incremental space creation, and denying any single increment prevents the entire escape chain from progressing. Skilled defenders convert escape attempts into submission opportunities or positional advancement to mount.
 
-**Opponent's Starting Position**: [[Kuzure Kesa-Gatame]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ Defending against the frame escape from Kuzure Kesa-Gatame means maintaining you
 ### 1. Drive hip pressure through the frame before it establishes structural position
 
 - **When to use**: Immediately when bottom person's forearm begins moving toward your hip before full skeletal alignment is achieved
-- **Targets**: [[Kuzure Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Kuzure Kesa-Gatame]]
 - **If successful**: Frame is collapsed before it can support hip escape and bottom person remains pinned under control
 - **Risk**: Overcommitting forward pressure may create bridge-and-roll opportunity if bottom person traps your posting arm
 
 ### 2. Slide knee across bottom person's belly to transition to mount when they create space
 
 - **When to use**: When bottom person successfully hip escapes and creates space between your bodies but has not yet inserted their knee
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Advance to mount position which offers higher control retention and more diverse submission options
 - **Risk**: If knee slide is blocked by their knee insertion, may temporarily lose hip pressure and enable further escape progress
 
 ### 3. Attack trapped arm with americana when bottom person focuses attention on framing with free arm
 
 - **When to use**: When bottom person diverts trapped arm defense attention to establish or maintain frames with their free arm
-- **Targets**: [[Kuzure Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Kuzure Kesa-Gatame]]
 - **If successful**: Force bottom person to abandon escape and return to pure arm defense, completely resetting their escape progress
 - **Risk**: Forward weight shift for submission attempt creates bridge-and-roll opening for the bottom person
 
 ### 4. Re-angle body position to nullify frame direction after partial hip escape
 
 - **When to use**: After bottom person completes a partial hip escape increment but before knee insertion is possible
-- **Targets**: [[Kuzure Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Kuzure Kesa-Gatame]]
 - **If successful**: Negate space created by hip escape by changing pressure angle and prevent knee insertion
 - **Risk**: Movement during re-angle creates brief pressure reduction that bottom person may exploit for additional hip escape
 
@@ -216,11 +216,11 @@ Defending against the frame escape from Kuzure Kesa-Gatame means maintaining you
 
 ## Best-Case Outcomes for Defender
 
-### → [[Kuzure Kesa-Gatame]]
+### → [[Positions/Side Control/Kuzure Kesa-Gatame]]
 
 Maintain constant hip pressure and low chest position. Immediately address frames before they establish structural position by driving through them or re-angling. Use micro-adjustments to prevent timing windows for hip escapes.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the bottom person creates space during escape attempts, convert that space into a mount transition by sliding your knee across their belly as they turn their hips away. Their own escape motion opens the lane for your advancement.
 

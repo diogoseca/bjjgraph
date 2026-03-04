@@ -146,7 +146,7 @@ description: "Counter the Frame and Shrimp escape from S Mount top. Maintain dom
 
 As the S Mount top practitioner, defending against the Frame and Shrimp escape means maintaining your positional dominance while your opponent attempts to create space through frames and systematic hip movement. Your primary defensive tools are relentless hip-to-shoulder pressure that eliminates framing space, leg positioning that blocks knee insertion, and the ability to follow your opponent's lateral hip movement to maintain your perpendicular attacking angle. Understanding the Frame and Shrimp mechanics from the defender's perspective allows you to anticipate escape timing, block space creation at its origin, and capitalize on escape attempts by transitioning to armbar or adjusting to maintain S Mount when the bottom person creates openings during their movement. The key insight is that escape attempts often create better submission opportunities than static control, because the bottom person must compromise their arm defense to generate frames.
 
-**Opponent's Starting Position**: [[S Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount/S Mount]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the S Mount top practitioner, defending against the Frame and Shrimp escape m
 ### 1. Drive hip weight down into opponent's shoulder when you feel frame hand contact your hip
 
 - **When to use**: Immediately when opponent's free hand makes contact with your hip, before the frame is fully established
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: Crushes the frame attempt before it generates space, demoralizing the escape effort and forcing the opponent to reset
 - **Risk**: Over-committing forward weight can be exploited by an explosive bridge if you lose structural balance
 
 ### 2. Follow opponent's hip movement by scooting your hips laterally in the same direction they shrimp
 
 - **When to use**: When opponent successfully creates initial space through frame and begins shrimping away from the trapped arm
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: Maintains S Mount control by keeping hip-to-shoulder connection despite their lateral movement, negating the escape
 - **Risk**: Following too aggressively can compromise your own perpendicular base and create opportunity for bridge escape
 
 ### 3. Attack armbar immediately when opponent commits their free hand to framing, weakening arm defense
 
 - **When to use**: When opponent moves free hand to your hip and their collar grip on the trapped arm loosens or their attention splits between defense and escape
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: Secure armbar finish during the escape attempt while opponent's defensive structure is momentarily compromised
 - **Risk**: If the armbar attempt fails because the collar grip held, the opponent may have already created significant escape distance
 
 ### 4. Block knee insertion by driving your crossing leg down and pinching your knees together when space opens
 
 - **When to use**: When opponent has created lateral space and is attempting to insert their knee between your bodies
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: Prevents half guard recovery even after successful shrimping, keeping opponent in compromised position between S Mount and half guard
 - **Risk**: Focusing on leg defense may cause you to lose hip-to-shoulder pressure, allowing further space creation
 
@@ -217,11 +217,11 @@ As the S Mount top practitioner, defending against the Frame and Shrimp escape m
 
 ## Best-Case Outcomes for Defender
 
-### → [[S Mount]]
+### → [[Positions/Mount/S Mount]]
 
 Maintain constant hip-to-shoulder pressure, follow opponent's hip movement by scooting laterally, and prevent knee insertion by keeping legs tight. Stay heavy through your hip connection and deny every inch of space the opponent tries to create through their frames and shrimps.
 
-### → [[Armbar Control]]
+### → [[Positions/Armbar Control]]
 
 Capitalize when opponent commits their free hand to framing against your hip, which momentarily weakens their trapped arm defense. Attack the armbar aggressively during this window, securing wrist control and extending the arm before they can retract. The escape attempt creates the submission opportunity.
 

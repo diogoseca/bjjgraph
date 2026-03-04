@@ -202,15 +202,15 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 
 ## Available Attacks
 
-### [[Heel Hook from Saddle]] (35% of attempts)
+### [[Transitions/Heel Hook from Saddle]] (35% of attempts)
 
-### [[Backstep from Leg Knot]] (20% of attempts)
+### [[Transitions/Backstep from Leg Knot]] (20% of attempts)
 
-### [[Toe Hold from Outside Ashi]] (20% of attempts)
+### [[Transitions/Toe Hold from Outside Ashi]] (20% of attempts)
 
-### [[Pressure Pass from Leg Knot]] (15% of attempts)
+### [[Transitions/Pressure Pass from Leg Knot]] (15% of attempts)
 
-### [[Leg Extraction from Leg Knot]] (10% of attempts)
+### [[Transitions/Leg Extraction from Leg Knot]] (10% of attempts)
 
 
 
@@ -221,23 +221,23 @@ The strategic value of Leg Knot Top lies in its ability to create submission opp
 ## Decision Making from This Position
 
 **If opponent attempts to extract trapped leg by pulling knee toward chest:**
-- Execute **[[Heel Hook]]** → [[Saddle]] (Probability: 65%)
-- Execute **[[Estima Lock Setup]]** → [[Saddle]] (Probability: 70%)
+- Execute **[[Transitions/Heel Hook]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 65%)
+- Execute **[[Estima Lock Setup]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
 
 
 **If opponent pushes away with free leg or attempts to sit up and create distance:**
-- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 60%)
-- Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 60%)
+- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent rotates hip outward or straightens trapped leg defensively:**
-- Execute **[[Inside Heel Hook from Ushiro]]** → [[Inside Ashi-Garami]] (Probability: 70%)
-- Execute **[[Toe Hold]]** → [[Leg Entanglement]] (Probability: 50%)
+- Execute **[[Transitions/Inside Heel Hook from Ushiro]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 70%)
+- Execute **[[Transitions/Toe Hold]]** → [[Positions/Leg Entanglement]] (Probability: 50%)
 
 
 **If opponent maintains defensive posture with flexed knee and protected heel:**
-- Execute **[[Kneebar]]** → [[Kneebar Control]] (Probability: 55%)
-- Execute **[[Estima Lock Setup]]** → [[Saddle]] (Probability: 65%)
+- Execute **[[Transitions/Kneebar]]** → [[Positions/Kneebar Control]] (Probability: 55%)
+- Execute **[[Estima Lock Setup]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 65%)
 
 
 
@@ -371,16 +371,16 @@ Partner alternates between pushing away and pulling close while in leg knot bott
 
 ## Related Positions and Techniques
 
-- **[[Saddle]]** - Primary transition target and related leg entanglement position
-- **[[Inside Ashi-Garami]]** - Common entry position and alternative entanglement configuration
-- **[[Outside Ashi-Garami]]** - Primary entry position for leg knot development
-- **[[Honey Hole]]** - Related advanced leg entanglement with similar control principles
-- **[[Heel Hook from Saddle]]** - Primary submission finish pathway from advanced leg entanglement
-- **[[Toe Hold from Outside Ashi]]** - Alternative submission attack when heel is defended
-- **[[Kneebar Control]]** - Secondary submission option from leg knot configuration
-- **[[Ashi Garami Escape]]** - Primary defensive response from bottom position
-- **[[50-50 Guard]]** - Counter-entanglement option for bottom player
-- **[[Leg Weave]]** - Position advancement technique to escape leg entanglement exchange
+- **[[Positions/Ashi Garami/Saddle]]** - Primary transition target and related leg entanglement position
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Common entry position and alternative entanglement configuration
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Primary entry position for leg knot development
+- **[[Positions/Ashi Garami/Honey Hole]]** - Related advanced leg entanglement with similar control principles
+- **[[Transitions/Heel Hook from Saddle]]** - Primary submission finish pathway from advanced leg entanglement
+- **[[Transitions/Toe Hold from Outside Ashi]]** - Alternative submission attack when heel is defended
+- **[[Positions/Kneebar Control]]** - Secondary submission option from leg knot configuration
+- **[[Transitions/Ashi Garami Escape]]** - Primary defensive response from bottom position
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Counter-entanglement option for bottom player
+- **[[Positions/Leg Weave]]** - Position advancement technique to escape leg entanglement exchange
 
 
 </section>

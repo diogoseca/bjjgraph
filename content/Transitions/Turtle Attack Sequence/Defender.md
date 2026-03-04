@@ -154,7 +154,7 @@ description: "How to defend against Turtle attacks in BJJ. Recognition cues, gri
 
 As the defender in bottom turtle, you are in a time-critical position where the top player is working to establish back control, front headlock submissions, or crucifix entries. Your survival depends on maintaining a tight defensive shell while actively creating escape opportunities before the attacker consolidates dominant grips. The defensive methodology follows a strict priority sequence: prevent seat belt and harness establishment through aggressive grip fighting, maintain structural integrity with elbows inside knees and chin tucked, then execute explosive escapes during the attacker's grip transitions or weight shifts. Bottom turtle is never a resting position. Every second spent static increases the attacker's probability of establishing back control. Your goal is to transition through turtle as quickly as possible, recovering guard, achieving standing position, or reversing to top position within 3-5 seconds of entering the turtle posture.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender in bottom turtle, you are in a time-critical position where the 
 ### 1. Aggressive two-on-one grip fighting to strip seat belt overhook before hooks are inserted
 
 - **When to use**: As soon as attacker begins threading the overhook arm over your shoulder. Must be addressed immediately before the grip is clasped and consolidated.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Attacker loses primary control mechanism and must restart grip establishment, buying time for escape attempt or forcing them to transition to less advantageous control
 - **Risk**: Lifting elbows away from knees during hand fighting can expose underhook opportunities and create space for hook insertion on the non-fighting side
 
 ### 2. Granby roll away from the attacker's hook side to recover guard position
 
 - **When to use**: When attacker's weight is committed forward on your shoulders and they have not yet inserted hooks. Most effective during grip adjustment moments when their chest contact loosens.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Inversion disrupts attacker's positional control and creates guard recovery opportunity in closed guard, half guard, or butterfly guard
 - **Risk**: Poorly timed granby roll exposes your back completely if the attacker follows with maintained grip, often resulting in immediate back control with both hooks
 
 ### 3. Explosive sit-through to butterfly guard by threading near hip through and establishing butterfly hook
 
 - **When to use**: When attacker's weight is committed to one side for back take attempt or when they have weak seat belt control without hip blocking. Best when attacker's knee is not blocking the near hip.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Creates seated guard position with immediate offensive options including butterfly sweep and underhook battles, fully neutralizing the back take threat
 - **Risk**: If attacker reads the sit-through early, they can follow to front headlock position or drive you flat, converting to side control
 
 ### 4. Technical standup with explosive hip drive to break all controls and achieve standing position
 
 - **When to use**: When attacker has poor hip control and their weight is relatively high on your back. Most effective in no-gi where grip insecurity makes control harder to maintain.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Achieves standing position where you can re-engage on your terms, face the opponent, and work from neutral clinch or distance
 - **Risk**: Attacker can follow the standup into standing back control if they maintain harness grip, or snap you back down into front headlock if they circle to your head
 
@@ -225,11 +225,11 @@ As the defender in bottom turtle, you are in a time-critical position where the 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Strip the attacker's seat belt grip through aggressive two-on-one hand fighting and create enough space to turn and face them, reversing the positional dynamic so they must re-establish attacking position from scratch. Time the grip strip during their weight shift or hook insertion attempt when their hands are committed.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Execute a successful reversal through Peterson roll, scramble, or sit-through that results in the attacker being placed in an inferior position. The Peterson roll is highest percentage when attacker has inserted hooks without tight upper body control, allowing you to grab their far ankle and roll over your shoulder to end in top position.
 

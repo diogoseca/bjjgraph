@@ -156,7 +156,7 @@ Defending the Rotate to Carni requires the top player to recognize the rotation 
 
 The most effective defensive strategy is prevention rather than reaction. By maintaining a compact base and avoiding the lateral widening or circling that triggers the rotation, the defender eliminates the space needed for the bottom player's hip swing. When the rotation does initiate, the defender must act within the first 30-45 degrees of movement to have the highest probability of shutting it down, either by driving forward to flatten the bottom player, extracting the trapped arm during the moment of loosened control, or creating enough distance to disengage entirely and reset to closed guard.
 
-**Opponent's Starting Position**: [[New York]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ The most effective defensive strategy is prevention rather than reaction. By mai
 ### 1. Drive forward and flatten - immediately drop chest weight forward and drive shoulder pressure into opponent's hips to collapse the rotation before the perpendicular angle is achieved
 
 - **When to use**: At the earliest sign of rotation, within the first 30 degrees of hip movement when the bottom player has released their shin grip but hasn't completed the swing
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: Bottom player is flattened and cannot complete rotation, position resets to New York where you continue working standard escapes
 - **Risk**: If the bottom player reads the forward drive and redirects to Chill Dog or Invisible Collar, you may advance them to a different attacking position
 
 ### 2. Extract trapped arm by corkscrewing elbow down and back toward your hip while the overhook loosens during the rotational movement
 
 - **When to use**: When you feel the overhook loosen even slightly during mid-rotation, typically as the bottom player's attention shifts to powering the hip swing with their core
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Arm extraction breaks the entire Rubber Guard structure and resets to closed guard where you have significantly better defensive options
 - **Risk**: Partial extraction with rotation continuing creates triangle vulnerability as your arm ends up inside their guard in the position needed for triangle setup
 
 ### 3. Posture up explosively and create distance by driving hips back and chest up before the rotation can establish the Carni angle
 
 - **When to use**: When you recognize rotation setup cues before it initiates - the shin grip release and overhook deepening signal gives you a 1-2 second window to act
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Distance creation breaks the Rubber Guard entirely and resets to closed guard or potentially open guard where you can begin proper passing
 - **Risk**: Explosive posturing can burn significant energy and if the overhook is very deep, your posture attempt may fail and leave you worse off than a controlled response
 
 ### 4. Keep base narrow and compact by squeezing knees together and keeping weight centered to deny the lateral space needed for rotation
 
 - **When to use**: Preventive defense used continuously while trapped in New York - eliminates the trigger conditions for Carni rotation entirely
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: Bottom player cannot find a rotation window and must select alternative attacks from New York, giving you time to work standard New York escape sequences
 - **Risk**: Compact base may be more vulnerable to forward-drive based attacks like hip bump sweeps if bottom player adapts strategy
 
@@ -226,11 +226,11 @@ The most effective defensive strategy is prevention rather than reaction. By mai
 
 ## Best-Case Outcomes for Defender
 
-### → [[New York]]
+### → [[Positions/Rubber Guard/New York]]
 
 Drive forward immediately when rotation begins to flatten the bottom player's hips and deny the perpendicular angle. Your forward pressure collapses their rotation and resets you to standard New York top where you continue systematic escape work.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Extract the trapped arm during the rotation window when the overhook loosens, or posture up explosively before rotation completes to break the Rubber Guard structure entirely. Either method resets to closed guard which is a significantly safer defensive position.
 

@@ -146,7 +146,7 @@ description: "Defend against Leg Extraction from your Cross Ashi-Garami control.
 
 As the defender (the person maintaining cross ashi-garami control while the opponent attempts leg extraction), your objective is to preserve the crossed leg structure that gives this position its mechanical advantage. The cross is the keystone of your control: if the opponent clears your outside crossing leg, the entanglement degrades to loose standard ashi with dramatically reduced retention. Your defensive strategy combines maintaining the cross through active re-crossing when cleared, following the opponent's hip movement to prevent gap creation, and opportunistically advancing to saddle during the windows created by their grip-fighting focus. Understanding that the opponent must clear the outside cross before extraction becomes viable tells you exactly what to protect: keep that cross tight and re-establish it immediately whenever partially cleared.
 
-**Opponent's Starting Position**: [[Cross Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender (the person maintaining cross ashi-garami control while the oppo
 ### 1. Follow the opponent's hip retreat with your own hip advancement to maintain zero distance and preserve the cross angle
 
 - **When to use**: When the opponent shifts their hips laterally to create the extraction gap after clearing or loosening the outside cross
-- **Targets**: [[Cross Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Cross Ashi-Garami]]
 - **If successful**: Opponent cannot create the gap needed for extraction and remains trapped with the crossed structure intact
 - **Risk**: Overcommitting to following may allow the opponent to redirect and use your forward momentum to sweep or enter counter-entanglement
 
 ### 2. Advance to saddle by stepping your outside leg over the opponent's hip during their grip-stripping phase
 
 - **When to use**: When the opponent commits both hands to stripping your heel grip, leaving their hips and legs undefended for positional advancement
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Opponent's extraction attempt fails and they are now in a deeper entanglement where extraction is nearly impossible
 - **Risk**: If the advancement is poorly timed, you may lose the cross without securing the saddle, ending up in loose ashi garami
 
 ### 3. Attack the heel opportunistically when it becomes exposed during the extraction clearing motion
 
 - **When to use**: When the opponent bends the trapped knee during the clearing sequence or changes leg angle, creating momentary heel exposure
-- **Targets**: [[Cross Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Cross Ashi-Garami]]
 - **If successful**: Opponent must abandon extraction and address the heel hook threat, resetting their entire escape sequence from scratch
 - **Risk**: Reaching for the heel may require releasing a connection point, facilitating the very extraction you are trying to prevent
 
 ### 4. Control the opponent's free leg by hooking or gripping it to eliminate the push-kick
 
 - **When to use**: When the opponent positions their free foot on your body in preparation for the push-kick phase of extraction
-- **Targets**: [[Cross Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Cross Ashi-Garami]]
 - **If successful**: Without the push-kick, the opponent lacks the separation force to complete the extraction even if they clear the cross temporarily
 - **Risk**: Reaching for the free leg may require releasing a grip on the trapped leg, temporarily weakening the entanglement
 
@@ -217,11 +217,11 @@ As the defender (the person maintaining cross ashi-garami control while the oppo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Cross Ashi-Garami]]
+### → [[Positions/Ashi Garami/Cross Ashi-Garami]]
 
 Maintain persistent pressure on the outside cross by actively pressing your shin against the trapped leg. Follow the opponent's hip movement immediately to prevent gap creation. Re-cross instantly when the opponent partially clears the outside leg. Control their free leg to eliminate the push-kick. Patient retention exhausts their escape energy and preserves your attacking position.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 Capitalize on the window created when the opponent uses both hands to strip your heel grip by stepping your outside leg over their hip to advance to saddle. Their hand commitment to grip stripping leaves their hips undefended for exactly the positional advancement that makes extraction impossible. Convert their escape attempt into a deeper positional problem.
 

@@ -21,7 +21,7 @@ The technique centers on timing an explosive angled bridge that disrupts the top
 
 From a strategic perspective, the bridge escape pairs naturally with hip escape and frame-based escape methods from reverse scarf hold bottom. When the top player widens their base to defend against hip escapes, they become more vulnerable to bridge disruption. Conversely, when they tighten their base against bridges, hip escape pathways open. This creates a defensive dilemma system where each escape attempt sets up the conditions for the next, systematically degrading the top player's control until one method succeeds.
 
-**From Position**: [[Reverse Scarf Hold]] (Bottom)
+**From Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic perspective, the bridge escape pairs naturally with hip escape 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Reverse Scarf Hold]] | 35% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Side Control/Reverse Scarf Hold]] | 35% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Bridge Escape from Reverse Scarf Hold occupies a critical role within the bo
 ## Related Techniques
 
 
-- [[Reverse Scarf Hold]] - Source position from which the bridge escape is initiated
+- [[Positions/Side Control/Reverse Scarf Hold]] - Source position from which the bridge escape is initiated
 
-- [[Half Guard]] - Primary recovery position after successful bridge escape execution
+- [[Positions/Half Guard]] - Primary recovery position after successful bridge escape execution
 
-- [[Mount]] - Counter outcome position when top player capitalizes on failed bridge attempt
+- [[Positions/Mount]] - Counter outcome position when top player capitalizes on failed bridge attempt
 
-- [[Bridge and Roll]] - Related bridge-based escape technique sharing core hip drive mechanics
+- [[Transitions/Bridge and Roll]] - Related bridge-based escape technique sharing core hip drive mechanics
 
-- [[Hip Escape to Guard]] - Complementary escape method that pairs with bridge escape in dilemma system
+- [[Transitions/Hip Escape to Guard]] - Complementary escape method that pairs with bridge escape in dilemma system
 
-- [[Elbow Escape to Guard]] - Alternative frame-based escape sharing guard recovery objectives
+- [[Transitions/Elbow Escape to Guard]] - Alternative frame-based escape sharing guard recovery objectives
 
-- [[Kesa Gatame]] - Related scarf hold position with similar bridge escape mechanics and directional adjustments
+- [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position with similar bridge escape mechanics and directional adjustments
 
-- [[Modified Scarf Hold]] - Scarf hold variant where bridge escape principles transfer with angle modifications
+- [[Positions/Side Control/Modified Scarf Hold]] - Scarf hold variant where bridge escape principles transfer with angle modifications
 
-- [[Side Control]] - Related pinning position with bridge escape applications sharing foundational mechanics
+- [[Positions/Side Control]] - Related pinning position with bridge escape applications sharing foundational mechanics
 
-- [[North-South]] - Position top player may transition to when bridge escape disrupts reverse scarf hold control
+- [[Positions/North-South]] - Position top player may transition to when bridge escape disrupts reverse scarf hold control
 
 
 </section>

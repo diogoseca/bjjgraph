@@ -21,7 +21,7 @@ The smash pass works by converting a dynamic, leg-based guard exchange into a st
 
 Strategically, the smash pass complements lighter, more mobile passing approaches like the knee slice and long step. When the bottom player becomes accustomed to defending movement-based passes, the sudden application of crushing downward pressure disrupts their defensive timing and forces them into a fundamentally different defensive paradigm. This makes the smash pass particularly effective as a secondary option after initial passing attempts have conditioned the opponent to expect lateral movement rather than direct forward pressure.
 
-**From Position**: [[X-Guard]] (Top)
+**From Position**: [[Positions/X-Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the smash pass complements lighter, more mobile passing approache
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[X-Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/X-Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,21 +191,21 @@ The Smash Pass from X-Guard occupies a critical role in the guard passing hierar
 ## Related Techniques
 
 
-- [[X-Guard]] - Source position where this technique begins, providing the guard structure being passed
+- [[Positions/X-Guard]] - Source position where this technique begins, providing the guard structure being passed
 
-- [[Side Control]] - Primary target position achieved upon successful completion of the smash pass
+- [[Positions/Side Control]] - Primary target position achieved upon successful completion of the smash pass
 
-- [[Half Guard]] - Position reached when the bottom player successfully counters with a sweep during the pass attempt
+- [[Positions/Half Guard]] - Position reached when the bottom player successfully counters with a sweep during the pass attempt
 
-- [[Single Leg X-Guard]] - Related guard variation that the bottom player may transition to if hooks become shallow during the pass
+- [[Positions/X-Guard/Single Leg X-Guard]] - Related guard variation that the bottom player may transition to if hooks become shallow during the pass
 
-- [[Headquarters Position]] - Intermediate control position the passer may reach before completing the full pass to side control
+- [[Positions/Headquarters Position]] - Intermediate control position the passer may reach before completing the full pass to side control
 
-- [[Butterfly Guard]] - Common entry guard from which X-Guard is established, understanding this pathway helps anticipate guard recovery attempts
+- [[Positions/Butterfly Guard]] - Common entry guard from which X-Guard is established, understanding this pathway helps anticipate guard recovery attempts
 
-- [[Knee Pin from X-Guard]] - Alternative passing technique from the same starting position using knee control rather than pressure
+- [[Transitions/Knee Pin from X-Guard]] - Alternative passing technique from the same starting position using knee control rather than pressure
 
-- [[Back Step Pass]] - Complementary passing approach that can be chained with the smash pass when the bottom player defends pressure by creating angles
+- [[Transitions/Back Step Pass]] - Complementary passing approach that can be chained with the smash pass when the bottom player defends pressure by creating angles
 
 
 </section>

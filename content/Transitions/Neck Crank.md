@@ -23,7 +23,7 @@ Strategically, the neck crank serves multiple purposes within the Twister Contro
 
 The technique requires precise understanding of rotational mechanics. The finishing pressure should come from controlled body positioning and leverage rather than explosive jerking movements. The goal is to create irresistible pressure that forces the tap, not to cause injury through violent application. This distinction separates skilled practitioners from those who rely on aggression over technique.
 
-**From Position**: [[Twister Control]] (Top)
+**From Position**: [[Positions/Twister Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -35,8 +35,8 @@ The technique requires precise understanding of rotational mechanics. The finish
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Twister Control]] | 30% |
-| Counter | [[Turtle]] | 15% |
+| Failure | [[Positions/Twister Control]] | 30% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Neck Crank fits into the Twister Control attack system as one of several sub
 ## Related Techniques
 
 
-- [[Twister Control]] - Starting position - provides base spinal rotation
+- [[Positions/Twister Control]] - Starting position - provides base spinal rotation
 
-- [[Twister]] - Alternative submission - attacks entire spine from same position
+- [[Submissions/Twister]] - Alternative submission - attacks entire spine from same position
 
-- [[Guillotine Choke]] - Chain attack - available when opponent tucks chin
+- [[Transitions/Guillotine Choke]] - Chain attack - available when opponent tucks chin
 
-- [[Banana Split]] - Alternative attack - available from similar control
+- [[Submissions/Banana Split]] - Alternative attack - available from similar control
 
-- [[Calf Slicer from Truck]] - Alternative submission - targets leg when neck defended
+- [[Submissions/Calf Slicer from Truck]] - Alternative submission - targets leg when neck defended
 
-- [[Back Take]] - Transition option - when Twister Control deteriorates
+- [[Transitions/Back Take]] - Transition option - when Twister Control deteriorates
 
-- [[Truck]] - Entry position - leads to Twister Control
+- [[Positions/Twister Control/Truck]] - Entry position - leads to Twister Control
 
-- [[Can Opener]] - Similar mechanics - compression-based cervical attack
+- [[Submissions/Can Opener]] - Similar mechanics - compression-based cervical attack
 
-- [[Turtle]] - Counter outcome - opponent escapes rotation to turtle
+- [[Positions/Turtle]] - Counter outcome - opponent escapes rotation to turtle
 
-- [[Calf Slicer]] - Alternative leg attack from Twister Control system
+- [[Transitions/Calf Slicer]] - Alternative leg attack from Twister Control system
 
 
 </section>

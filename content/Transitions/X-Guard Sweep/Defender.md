@@ -156,7 +156,7 @@ Defending the X-Guard Sweep requires the top player to understand the mechanical
 
 The defensive hierarchy follows three priorities: first, prevent the sweeper from generating upward elevation by lowering your hips and widening your base; second, break at least one of the three control points (X-hook, top hook, or ankle grip) to collapse the sweep's mechanical structure; and third, extract your trapped leg or pass around the guard entirely. Attempting to simply resist the sweep through strength without addressing the underlying mechanics leads to rapid fatigue and inevitable sweep completion. The top player who understands X-Guard defense transforms a dangerous position into a guard passing opportunity by using the sweeper's commitment against them.
 
-**Opponent's Starting Position**: [[X-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/X-Guard]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The defensive hierarchy follows three priorities: first, prevent the sweeper fro
 ### 1. Lower hips and widen base while stripping the ankle grip to prevent elevation
 
 - **When to use**: Immediately upon recognizing X-Guard establishment, before the sweeper begins generating upward force
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: Neutralizes the sweep threat and creates opportunity to begin systematic guard passing from top position
 - **Risk**: If you lower hips too aggressively, the sweeper may transition to ashi garami or Single Leg X to attack your legs
 
 ### 2. Step the far leg backward to extract it from the X-hook while posting the free hand for balance
 
 - **When to use**: When the sweeper has begun elevation but has not yet added rotational force, and your far leg still has enough freedom to step
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: Removes the primary load-bearing hook and collapses the X-Guard structure entirely, allowing you to re-establish passing position
 - **Risk**: If the sweeper follows your backward step with an inversion, they may transition to Deep Half Guard or retain guard
 
 ### 3. Drive forward pressure through the trapped leg while crossfacing the sweeper's head to flatten their angle
 
 - **When to use**: When the sweep is actively being attempted and you cannot extract your leg, use forward pressure to collapse their structure
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: Flattens the sweeper's hips to the mat, removing their ability to generate upward elevation or rotational force
 - **Risk**: Committing weight forward gives the sweeper exactly what they need if your timing is wrong, potentially accelerating the sweep
 
 ### 4. Jump over the X-Guard configuration to the opposite side, clearing both hooks simultaneously
 
 - **When to use**: As a last resort when the sweep is nearly completed and standard defenses have failed, or as a preemptive counter against a predictable sweep
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: Completely bypasses the X-Guard and lands you in a dominant passing position on the opposite side
 - **Risk**: Mistiming the jump exposes you to back take or reverse X-Guard entry if the sweeper maintains hook contact during your jump
 
@@ -227,11 +227,11 @@ The defensive hierarchy follows three priorities: first, prevent the sweeper fro
 
 ## Best-Case Outcomes for Defender
 
-### → [[X-Guard]]
+### → [[Positions/X-Guard]]
 
 Strip the ankle grip and extract your far leg from the X-hook by stepping backward while maintaining your balance through a wide base and low hips. Once the X-hook is cleared, immediately begin passing the now-weakened guard before the sweeper can re-establish hooks.
 
-### → [[X-Guard]]
+### → [[Positions/X-Guard]]
 
 Counter the sweep momentum by jumping over the X-Guard configuration to the opposite side or backstep around the guard entirely. This requires precise timing during the sweeper's rotation phase when their hooks are loosest. Immediately consolidate top control and begin passing after landing.
 

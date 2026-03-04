@@ -156,7 +156,7 @@ As the Side Control top player, defending against the Roll to Turtle means preve
 
 The critical defensive window occurs between the moment your opponent initiates their turn and the moment they complete their turtle structure. During this window, their back is exposed but their defensive shell is not yet formed. If you can maintain chest-to-back contact and thread your arms for control during this transition phase, you convert their escape attempt into a worse position for them. Understanding the biomechanics of the roll allows you to anticipate the movement and position yourself to either prevent or capitalize on it.
 
-**Opponent's Starting Position**: [[Side Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ The critical defensive window occurs between the moment your opponent initiates 
 ### 1. Follow the roll and establish seatbelt control with hooks
 
 - **When to use**: When opponent has already committed to the turn and you cannot prevent the rotation
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You establish back control with seatbelt and hooks, converting their escape into a worse position worth 4 points
 - **Risk**: If you follow too aggressively without securing grips, opponent can use your momentum for a granby roll and recover guard
 
 ### 2. Sprawl and flatten opponent during mid-rotation to prevent turtle completion
 
 - **When to use**: When you recognize the roll early and can drop your hips before they complete the turn
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent is flattened on their stomach unable to complete turtle structure, and you re-establish side control or transition to north-south
 - **Risk**: If your sprawl timing is off, you may end up in a scramble where opponent can recover guard
 
 ### 3. Drive crossface pressure harder and block hip movement to prevent roll initiation
 
 - **When to use**: When you detect early frame-building and shoulder turning before the roll fully commits
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent remains pinned in side control bottom with their escape attempt neutralized, and you can continue attacking
 - **Risk**: Overcommitting forward pressure may open space for hip escape in the opposite direction
 
 ### 4. Circle toward opponent's head as they turn to establish front headlock control
 
 - **When to use**: When opponent commits to the turn but their head is exposed and chin is not fully tucked
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You secure a front headlock position with guillotine, anaconda, or darce choke threats, forcing them to abandon the escape
 - **Risk**: If opponent completes the turtle with chin tucked before you secure the headlock, you lose top pressure and they establish defensive turtle
 
@@ -226,11 +226,11 @@ The critical defensive window occurs between the moment your opponent initiates 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Follow opponent's rotation with your chest glued to their back, immediately thread your choking arm over their shoulder and underhook arm under their armpit to establish seatbelt control. As they reach the four-point turtle base, insert your near hook first inside their thigh, then work to secure the second hook before they can begin their next escape sequence. The key is maintaining chest-to-back contact throughout the entire rotation rather than reaching for hooks prematurely.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Prevent the escape entirely by recognizing early cues and increasing hip pressure and crossface. When you feel the frame-building against your hip, immediately drop your weight lower and drive your crossface deeper. Block their hip movement by sprawling your near leg back and pinching your knees against their hips. If they partially turn, use your underhook to pull them back flat and re-establish perpendicular chest pressure across their torso.
 

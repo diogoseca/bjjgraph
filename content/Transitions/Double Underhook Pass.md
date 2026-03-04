@@ -21,7 +21,7 @@ Strategically, this pass exploits the defensive limitations created when an oppo
 
 The technique represents an evolution in turtle passing methodology, moving away from traditional approaches that emphasized riding the back toward modern systems that prioritize flattening and immediate dominant position acquisition. When executed with proper timing and hip pressure coordination, the Double Underhook Pass creates a direct pathway to Side Control while eliminating the scramble opportunities that make turtle attacks risky.
 
-**From Position**: [[Crackhead Control]] (Top)
+**From Position**: [[Positions/Crackhead Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The technique represents an evolution in turtle passing methodology, moving away
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Crackhead Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Crackhead Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -187,25 +187,25 @@ The Double Underhook Pass represents one of three primary pathways from Crackhea
 ## Related Techniques
 
 
-- [[Crackhead Control]] - Starting position
+- [[Positions/Crackhead Control]] - Starting position
 
-- [[Side Control]] - Primary success outcome
+- [[Positions/Side Control]] - Primary success outcome
 
-- [[Turtle to Back Take]] - Alternative attack from same position
+- [[Transitions/Turtle to Back Take]] - Alternative attack from same position
 
-- [[Turtle to Truck]] - Alternative attack pathway
+- [[Transitions/Turtle to Truck]] - Alternative attack pathway
 
-- [[Body Lock Pass]] - Related passing technique with similar mechanics
+- [[Transitions/Body Lock Pass]] - Related passing technique with similar mechanics
 
-- [[Double Under Pass]] - Related double underhook passing concept from guard
+- [[Transitions/Double Under Pass]] - Related double underhook passing concept from guard
 
-- [[North-South]] - Alternative outcome when driving toward head
+- [[Positions/North-South]] - Alternative outcome when driving toward head
 
-- [[Americana from Side Control]] - Follow-up submission from pass completion
+- [[Submissions/Americana from Side Control]] - Follow-up submission from pass completion
 
-- [[Kimura from Side Control]] - Follow-up submission from pass completion
+- [[Submissions/Kimura from Side Control]] - Follow-up submission from pass completion
 
-- [[Arm Triangle]] - Follow-up submission from pass completion
+- [[Transitions/Arm Triangle]] - Follow-up submission from pass completion
 
 
 </section>

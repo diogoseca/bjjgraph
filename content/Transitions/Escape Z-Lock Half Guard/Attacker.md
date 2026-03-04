@@ -180,7 +180,7 @@ description: "Complete guide to executing the Escape Z-Lock Half Guard. Learn wh
 
 As the attacker executing this escape, you are the bottom player recognizing that your Z-Lock Half Guard configuration is failing and making the tactical decision to reset to standard Half Guard. This is not a desperate escape but a calculated positional adjustment—you are choosing to trade a deteriorating specialized position for a more versatile one that offers broader offensive pathways. The key challenge is managing the transition period where your legs are reconfiguring and you are temporarily more vulnerable to passes and pressure. Success requires maintaining strong upper body frames throughout, choosing the correct leg disengagement sequence based on top player pressure, and immediately establishing offensive grips in standard half guard before the top player can capitalize on the positional change.
 
-**From Position**: [[Z-Lock Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing this escape, you are the bottom player recognizing tha
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Z-Lock Half Guard]] | 30% |
-| Counter | [[Flattened Half Guard]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Half Guard/Z-Lock Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing this escape, you are the bottom player recognizing tha
 
 ## Opponent Counters
 
-- **Top player drives heavy crossface and increases shoulder pressure during leg reconfiguration** (Effectiveness: High) - Your Response: Prioritize the inside forearm frame on their shoulder before releasing any leg control. If pressure is overwhelming, consider the deep half bail variant instead of recovering standard half guard at the same level. → Leads to [[Z-Lock Half Guard]]
-- **Top player initiates knee slice pass the moment butterfly hook is released** (Effectiveness: Medium) - Your Response: Use your newly freed outside leg to immediately establish a knee shield blocking their slicing knee. If you maintained lockdown during the hook release, the lockdown prevents them from completing the slice until you can reposition. → Leads to [[Flattened Half Guard]]
-- **Top player sprawls hips back and applies downward pressure to maintain Z-Lock control** (Effectiveness: Medium) - Your Response: Use their sprawl against them—as they drive hips back, the lockdown stretch increases your leverage for electric chair or old school sweep threats. Force them to choose between maintaining Z-Lock pressure and defending the sweep, then escape during their defensive adjustment. → Leads to [[Z-Lock Half Guard]]
-- **Top player attacks kimura or darce during arm exposure in the transition** (Effectiveness: Low) - Your Response: Keep elbows tight to your body during the entire reconfiguration. If they overcommit to a submission attempt during your escape, the positional change disrupts their angle and you can use their commitment to complete the transition to standard half guard. → Leads to [[Flattened Half Guard]]
+- **Top player drives heavy crossface and increases shoulder pressure during leg reconfiguration** (Effectiveness: High) - Your Response: Prioritize the inside forearm frame on their shoulder before releasing any leg control. If pressure is overwhelming, consider the deep half bail variant instead of recovering standard half guard at the same level. → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
+- **Top player initiates knee slice pass the moment butterfly hook is released** (Effectiveness: Medium) - Your Response: Use your newly freed outside leg to immediately establish a knee shield blocking their slicing knee. If you maintained lockdown during the hook release, the lockdown prevents them from completing the slice until you can reposition. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Top player sprawls hips back and applies downward pressure to maintain Z-Lock control** (Effectiveness: Medium) - Your Response: Use their sprawl against them—as they drive hips back, the lockdown stretch increases your leverage for electric chair or old school sweep threats. Force them to choose between maintaining Z-Lock pressure and defending the sweep, then escape during their defensive adjustment. → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
+- **Top player attacks kimura or darce during arm exposure in the transition** (Effectiveness: Low) - Your Response: Keep elbows tight to your body during the entire reconfiguration. If they overcommit to a submission attempt during your escape, the positional change disrupts their angle and you can use their commitment to complete the transition to standard half guard. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 
 
 </section>

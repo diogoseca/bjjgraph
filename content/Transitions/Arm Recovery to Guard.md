@@ -21,7 +21,7 @@ The strategic value of this transition lies in its directness. Rather than conce
 
 The technique requires precise coordination between shoulder mechanics, hip movement, and frame placement. The trapped arm cannot simply be pulled free against the opponent's clamping pressure. Instead, the practitioner must create a momentary release through a combination of bridge-induced weight shift and internal shoulder rotation that changes the angle of the trapped arm relative to the opponent's armpit clamp. This window is brief, typically coinciding with the opponent's weight shifting forward during a submission attempt or positional adjustment, making timing sensitivity the single most important skill for this technique.
 
-**From Position**: [[Kuzure Kesa-Gatame]] (Bottom)
+**From Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ The technique requires precise coordination between shoulder mechanics, hip move
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Kuzure Kesa-Gatame]] | 25% |
-| Counter | [[Armbar Control]] | 10% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Side Control/Kuzure Kesa-Gatame]] | 25% |
+| Counter | [[Positions/Armbar Control]] | 10% |
 
 
 </section>
@@ -196,25 +196,25 @@ Arm Recovery to Guard is one of the primary escape transitions from Kuzure Kesa-
 ## Related Techniques
 
 
-- [[Kuzure Kesa-Gatame]] - Starting position—modified scarf hold where arm is trapped
+- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Starting position—modified scarf hold where arm is trapped
 
-- [[Closed Guard]] - Primary successful outcome—full guard recovery with both arms free
+- [[Positions/Closed Guard]] - Primary successful outcome—full guard recovery with both arms free
 
-- [[Half Guard]] - Secondary successful outcome when full guard distance is not achievable
+- [[Positions/Half Guard]] - Secondary successful outcome when full guard distance is not achievable
 
-- [[Elbow Escape to Guard]] - Alternative escape from same position—chains when arm recovery is denied
+- [[Transitions/Elbow Escape to Guard]] - Alternative escape from same position—chains when arm recovery is denied
 
-- [[Granby Roll to Guard]] - Alternative escape to Turtle when direct guard recovery is blocked
+- [[Transitions/Granby Roll to Guard]] - Alternative escape to Turtle when direct guard recovery is blocked
 
-- [[Bridge and Roll]] - Alternative reversal technique from same position targeting opponent's base
+- [[Transitions/Bridge and Roll]] - Alternative reversal technique from same position targeting opponent's base
 
-- [[Armbar Control]] - Counter risk—opponent may transition to armbar during failed extraction
+- [[Positions/Armbar Control]] - Counter risk—opponent may transition to armbar during failed extraction
 
-- [[Americana from Side Control]] - Opponent's submission threat that creates the timing window for extraction
+- [[Submissions/Americana from Side Control]] - Opponent's submission threat that creates the timing window for extraction
 
-- [[Knee Shield Half Guard]] - Intermediate recovery position when Closed Guard is not reachable
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Intermediate recovery position when Closed Guard is not reachable
 
-- [[Kesa Gatame]] - Related parent position with similar but distinct arm control dynamics
+- [[Positions/Side Control/Kesa Gatame]] - Related parent position with similar but distinct arm control dynamics
 
 
 </section>

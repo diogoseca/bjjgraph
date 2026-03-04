@@ -154,7 +154,7 @@ description: "How to defend against the transition from Anaconda Control to Dead
 
 Defending the Transition to Dead Orchard Control requires recognizing the attacker's shift from immediate finish attempt to positional deepening and exploiting the transitional vulnerability this creates. The critical defensive window exists during the 5-10 seconds when the attacker is adjusting grip depth and repositioning hips, because these adjustments momentarily reduce the tightness and cohesion of their control. The defender who recognizes the dead orchard transition early has significantly better escape prospects than one who waits until the position is fully established, where escape rates drop dramatically. Defending this transition means disrupting the attacker's sequential adjustment process at the earliest possible stage, ideally during grip deepening or hip repositioning when the control structure is partially dismantled for rebuilding at a deeper level. The defender must balance between addressing the ongoing choke threat and exploiting transitional gaps to escape.
 
-**Opponent's Starting Position**: [[Anaconda Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Anaconda Control]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the Transition to Dead Orchard Control requires recognizing the attack
 ### 1. Explosive bridge and turn toward the trapped arm side during the attacker's hip repositioning phase to scramble free before dead orchard angle is established
 
 - **When to use**: When you feel the attacker's hips beginning to walk perpendicular, creating a brief moment where their base is narrowed and vulnerable to your rotational force
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You escape the anaconda configuration entirely and recover turtle position where you can begin guard recovery or stand-up sequences
 - **Risk**: If the bridge lacks commitment or timing is wrong, the attacker follows your rotation and deepens their grip further, accelerating the dead orchard establishment
 
 ### 2. Extract trapped arm by bending elbow tight and pulling arm toward your hip during a grip deepening micro-adjustment when tightness momentarily reduces
 
 - **When to use**: When you feel the attacker's grip loosen slightly between ratcheting adjustments, typically during the hand-walking phase when they are repositioning their clasp
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: The arm extraction removes the structural foundation of the anaconda grip, forcing the attacker to transition to darce, guillotine, or front headlock rather than dead orchard
 - **Risk**: Failed extraction attempt tightens your arm deeper into the loop and may accelerate the attacker's grip deepening by providing resistance they can pull against
 
 ### 3. Create a strong frame with free arm against the attacker's shoulder to prevent grip deepening, using skeletal structure to resist their shoulder pressure
 
 - **When to use**: Immediately upon recognizing the transition from finish attempt to dead orchard setup, before the attacker can establish secondary control on your free arm
-- **Targets**: [[Anaconda Control]]
+- **Targets**: [[Positions/Anaconda Control]]
 - **If successful**: The frame prevents the attacker from achieving dead orchard depth, forcing them to either reset to standard anaconda or abandon the transition and attempt a direct finish
 - **Risk**: The frame consumes energy and the attacker may strip it using their free arm, but it buys time and prevents the worst outcome of allowing dead orchard to establish unchallenged
 
 ### 4. Scoot hips away from the attacker's hip walk direction to prevent them from achieving perpendicular angle, maintaining parallel hip alignment
 
 - **When to use**: When the attacker begins walking hips laterally toward your head, matching their movement step-for-step to deny the angle change
-- **Targets**: [[Anaconda Control]]
+- **Targets**: [[Positions/Anaconda Control]]
 - **If successful**: Prevents the perpendicular hip angle that dead orchard requires, keeping the attacker in standard anaconda control where your defensive options remain broader
 - **Risk**: Hip scooting while under chest pressure is energy-intensive and may tire you for subsequent escape attempts if it does not fully prevent the transition
 
@@ -224,11 +224,11 @@ Defending the Transition to Dead Orchard Control requires recognizing the attack
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Time an explosive bridge-and-turn to coincide with the attacker's hip repositioning phase when their base is narrowest. Alternatively, extract your trapped arm during a grip deepening micro-adjustment and immediately turtle tight with elbows to knees to prevent re-establishment of the anaconda configuration.
 
-### → [[Anaconda Control]]
+### → [[Positions/Anaconda Control]]
 
 Prevent the dead orchard transition from completing by maintaining active frames against the attacker's shoulder and scooting your hips to deny their perpendicular angle. Force them to remain in standard anaconda control where your defensive options and escape probability are significantly better than from established dead orchard.
 

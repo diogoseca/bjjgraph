@@ -186,7 +186,7 @@ description: "Complete guide to executing the pummeling escape from body lock. L
 
 As the attacker executing the pummeling escape, your objective is to systematically insert your arms inside the opponent's body lock grip through rotational underhook fighting. This requires reading your opponent's weight shifts and grip adjustments to identify the micro-windows where pummeling entries become available. The technique demands coordination between hip movement, arm threading, and explosive separation once inside position is achieved. Unlike brute-force grip breaks, pummeling creates structural advantages that make the body lock mechanically unsustainable regardless of the opponent's grip strength.
 
-**From Position**: [[Body Lock]] (Bottom)
+**From Position**: [[Positions/Body Lock]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the attacker executing the pummeling escape, your objective is to systematica
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Clinch]] | 45% |
-| Failure | [[Body Lock]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Clinch]] | 45% |
+| Failure | [[Positions/Body Lock]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the attacker executing the pummeling escape, your objective is to systematica
 
 ## Opponent Counters
 
-- **Opponent re-locks grip immediately after your initial pummel by squeezing tighter and re-connecting hands** (Effectiveness: High) - Your Response: Do not pause after the first pummel entry. Chain directly into the second pummel or combine with hip rotation to maintain the space you created. A single pummel that stalls gives the opponent time to adjust. → Leads to [[Body Lock]]
-- **Opponent transitions to back control by hooking your far hip and inserting hooks as you create space with the pummel** (Effectiveness: Medium) - Your Response: Keep your hips square and low throughout the pummeling sequence. If you feel them reaching for hooks, immediately sit your hips to the mat for a controlled guard pull rather than allowing the back take. → Leads to [[Back Control]]
-- **Opponent drives forward aggressively with hip pressure to flatten you before you can complete the pummel sequence** (Effectiveness: Medium) - Your Response: Use the forward pressure to your advantage by combining the pummel with a level change. Drop your level sharply and use their forward momentum to create space underneath their arms for a deeper pummel entry. → Leads to [[Body Lock]]
-- **Opponent lifts or attempts a throw as you initiate the pummel, using your shifted weight distribution against you** (Effectiveness: High) - Your Response: Maintain strong base with bent knees throughout the pummel. If you feel a lift, immediately hook their near leg with your foot and drive your hips to the mat. Prioritize base over pummel completion when throw attempts are imminent. → Leads to [[Back Control]]
+- **Opponent re-locks grip immediately after your initial pummel by squeezing tighter and re-connecting hands** (Effectiveness: High) - Your Response: Do not pause after the first pummel entry. Chain directly into the second pummel or combine with hip rotation to maintain the space you created. A single pummel that stalls gives the opponent time to adjust. → Leads to [[Positions/Body Lock]]
+- **Opponent transitions to back control by hooking your far hip and inserting hooks as you create space with the pummel** (Effectiveness: Medium) - Your Response: Keep your hips square and low throughout the pummeling sequence. If you feel them reaching for hooks, immediately sit your hips to the mat for a controlled guard pull rather than allowing the back take. → Leads to [[Positions/Back Control]]
+- **Opponent drives forward aggressively with hip pressure to flatten you before you can complete the pummel sequence** (Effectiveness: Medium) - Your Response: Use the forward pressure to your advantage by combining the pummel with a level change. Drop your level sharply and use their forward momentum to create space underneath their arms for a deeper pummel entry. → Leads to [[Positions/Body Lock]]
+- **Opponent lifts or attempts a throw as you initiate the pummel, using your shifted weight distribution against you** (Effectiveness: High) - Your Response: Maintain strong base with bent knees throughout the pummel. If you feel a lift, immediately hook their near leg with your foot and drive your hips to the mat. Prioritize base over pummel completion when throw attempts are imminent. → Leads to [[Positions/Back Control]]
 
 
 </section>

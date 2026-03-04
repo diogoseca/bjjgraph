@@ -21,7 +21,7 @@ The technique's strategic significance lies in its opposition to the twister sid
 
 Success with the turn-in demands patience and mechanical precision rather than explosive athleticism. The bottom player must resist the impulse to rush the escape, instead building space incrementally through small positional adjustments. Each micro-movement improves the situation slightly, and the cumulative effect of proper frame maintenance, gradual hip rotation, and systematic leg extraction creates the conditions for a clean transition to half guard. From half guard bottom, the practitioner regains access to sweeps, underhook battles, back takes, and guard transitions that are completely unavailable from twister side control bottom.
 
-**From Position**: [[Twister Side Control]] (Bottom)
+**From Position**: [[Positions/Twister Control/Twister Side Control]] (Bottom)
 **Success Rate**: 35%
 
 </section>
@@ -32,9 +32,9 @@ Success with the turn-in demands patience and mechanical precision rather than e
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Failure | [[Twister Side Control]] | 40% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Failure | [[Positions/Twister Control/Twister Side Control]] | 40% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -191,21 +191,21 @@ The turn-in escape from twister side control connects the defensive escape syste
 ## Related Techniques
 
 
-- [[Twister Side Control]] - Source position from which this escape is executed
+- [[Positions/Twister Control/Twister Side Control]] - Source position from which this escape is executed
 
-- [[Half Guard]] - Primary recovery position after successful turn-in escape
+- [[Positions/Half Guard]] - Primary recovery position after successful turn-in escape
 
-- [[Mount]] - Counter outcome position if top player capitalizes on space created during rotation
+- [[Positions/Mount]] - Counter outcome position if top player capitalizes on space created during rotation
 
-- [[Escape Twister Side Control]] - Related escape technique using outward turning and turtle recovery
+- [[Transitions/Escape Twister Side Control]] - Related escape technique using outward turning and turtle recovery
 
-- [[Frame from Twister Side Control]] - Complementary frame-based escape sharing setup mechanics
+- [[Transitions/Frame from Twister Side Control]] - Complementary frame-based escape sharing setup mechanics
 
-- [[Truck]] - Related position in the twister system that shares leg entanglement mechanics
+- [[Positions/Twister Control/Truck]] - Related position in the twister system that shares leg entanglement mechanics
 
-- [[Knee Shield Half Guard]] - Preferred half guard variation to establish immediately after successful turn-in
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Preferred half guard variation to establish immediately after successful turn-in
 
-- [[Side Control]] - Traditional lateral control position sharing escape principles with twister side control
+- [[Positions/Side Control]] - Traditional lateral control position sharing escape principles with twister side control
 
 
 </section>

@@ -154,7 +154,7 @@ description: "How to prevent seat belt establishment from back control in BJJ. L
 
 Defending against seat belt establishment from back control is a critical skill that can significantly reduce your opponent's offensive capability. While you are already in a disadvantaged position with your opponent on your back, preventing them from upgrading to the seat belt grip keeps their attacks disorganized and maintains wider escape options. The seat belt is the structural prerequisite for all high-percentage back submissions, so denying this grip is nearly as important as defending the choke itself. Your defensive focus should center on aggressive hand fighting to prevent arm threading, maintaining tight elbow position to block the under-arm path, and recognizing timing windows where the opponent's grip transition creates momentary vulnerability for escape attempts. Every second you spend in general back control without the seat belt is a second with better escape probability than you would have once the grip completes.
 
-**Opponent's Starting Position**: [[Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending against seat belt establishment from back control is a critical skill 
 ### 1. Two-on-one strip the threading over-arm before it crosses your chest
 
 - **When to use**: As soon as you feel the opponent's arm sliding over your shoulder toward your opposite side
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Opponent remains in general back control without seat belt, preserving your wider escape windows
 - **Risk**: Both hands occupied on one arm leaves neck momentarily exposed if opponent abandons seat belt for direct choke attack
 
 ### 2. Tuck elbows tight to ribs to block the under-arm threading pathway
 
 - **When to use**: When opponent has established over-arm and is attempting to complete the seat belt with the under-arm
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Prevents seat belt completion, forcing opponent to maintain incomplete and weaker control structure
 - **Risk**: Tight elbow position reduces your ability to create frames needed for escape sequences
 
 ### 3. Explosive hip escape during grip transition window
 
 - **When to use**: When opponent releases existing grips to begin threading arms and momentarily has reduced upper body control
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Escape to turtle position before seat belt is established, dramatically improving overall escape probability
 - **Risk**: If escape fails during opponent's grip change, you may end up with freshly established seat belt in worse defensive position
 
 ### 4. Turn toward opponent during grip change to disrupt threading angle
 
 - **When to use**: When opponent commits one arm to threading and temporarily loses the ability to control your rotation
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Creates scramble where you can recover guard or reach turtle before opponent re-establishes any back control
 - **Risk**: Turning into opponent with their partial grips can result in mount transition if your timing is poor
 
@@ -224,11 +224,11 @@ Defending against seat belt establishment from back control is a critical skill 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Time your escape attempt during the moment when opponent releases existing grips to begin the seat belt transition. Execute explosive hip escape combined with hook clearing to reach turtle before the new grip configuration is established. The grip transition window is brief—commit fully when you feel the grip release.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Prevent the seat belt through persistent hand fighting and tight elbow positioning. Two-on-one strip any threading attempts immediately, keeping opponent in disorganized general back control where your escape options remain more numerous and their submission percentage is significantly lower.
 

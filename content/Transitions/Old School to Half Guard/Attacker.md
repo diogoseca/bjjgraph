@@ -180,7 +180,7 @@ description: "Execute the Old School to Half Guard transition in BJJ. Step-by-st
 
 Executing the Old School to Half Guard transition requires precise sequencing to safely release lockdown controls while maintaining half guard entanglement and establishing new defensive frames. The attacker—the bottom player initiating this positional reset—must manage the critical vulnerability window between releasing lockdown's powerful control mechanism and establishing the knee shield and framing structure that define effective standard half guard. This transition demands tactical awareness to recognize when Old School attacks have been neutralized, technical precision to sequence the release of controls correctly, and quick reflexes to establish new frames before the top player can exploit the momentary opening. The key insight is that releasing controls must happen in the correct order—frames first, then head control release, then lockdown dissolution—to minimize the window of vulnerability.
 
-**From Position**: [[Old School]] (Bottom)
+**From Position**: [[Positions/Half Guard/Old School]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Old School to Half Guard transition requires precise sequencing to
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Old School]] | 30% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Old School]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Old School to Half Guard transition requires precise sequencing to
 
 ## Opponent Counters
 
-- **Top player drives heavy crossface pressure the moment lockdown tension decreases** (Effectiveness: High) - Your Response: Accelerate the knee shield insertion and use both frames to push their shoulder away while hip escaping laterally. If crossface establishes before knee shield, immediately transition to deep half entry instead of fighting for standard half guard. → Leads to [[Flattened Half Guard]]
-- **Top player maintains deep whizzer and sprawls heavy to prevent any space creation** (Effectiveness: High) - Your Response: If the whizzer prevents frame establishment, abandon the standard transition and use the deep half bail variant—release lockdown and dive underneath their hips using their forward pressure to facilitate the deep half entry. → Leads to [[Old School]]
-- **Top player attempts immediate knee slice pass when lockdown releases** (Effectiveness: Medium) - Your Response: Use the knee shield insertion to block the knee slice path. If their knee is already cutting through, switch to a shin-on-shin frame and hip escape aggressively to recover guard angle before the pass completes. → Leads to [[Flattened Half Guard]]
-- **Top player grabs your knee shield leg and pushes it to the mat to prevent insertion** (Effectiveness: Medium) - Your Response: Switch to butterfly half guard by inserting a butterfly hook with the inside leg instead of the knee shield. The butterfly hook provides immediate elevation threat that forces them to address the sweep rather than continuing to suppress your framing. → Leads to [[Half Guard]]
+- **Top player drives heavy crossface pressure the moment lockdown tension decreases** (Effectiveness: High) - Your Response: Accelerate the knee shield insertion and use both frames to push their shoulder away while hip escaping laterally. If crossface establishes before knee shield, immediately transition to deep half entry instead of fighting for standard half guard. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Top player maintains deep whizzer and sprawls heavy to prevent any space creation** (Effectiveness: High) - Your Response: If the whizzer prevents frame establishment, abandon the standard transition and use the deep half bail variant—release lockdown and dive underneath their hips using their forward pressure to facilitate the deep half entry. → Leads to [[Positions/Half Guard/Old School]]
+- **Top player attempts immediate knee slice pass when lockdown releases** (Effectiveness: Medium) - Your Response: Use the knee shield insertion to block the knee slice path. If their knee is already cutting through, switch to a shin-on-shin frame and hip escape aggressively to recover guard angle before the pass completes. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Top player grabs your knee shield leg and pushes it to the mat to prevent insertion** (Effectiveness: Medium) - Your Response: Switch to butterfly half guard by inserting a butterfly hook with the inside leg instead of the knee shield. The butterfly hook provides immediate elevation threat that forces them to address the sweep rather than continuing to suppress your framing. → Leads to [[Positions/Half Guard]]
 
 
 </section>

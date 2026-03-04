@@ -26,8 +26,8 @@ Strategically, the rear triangle choke creates a layered submission dilemma. Def
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Neck
-**Starting Position**: [[Rear Triangle]]
-**From Position**: [[Rear Triangle]] (Top)
+**Starting Position**: [[Positions/Triangle Control/Rear Triangle]]
+**From Position**: [[Positions/Triangle Control/Rear Triangle]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -79,9 +79,9 @@ Strategically, the rear triangle choke creates a layered submission dilemma. Def
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Rear Triangle]] | 30% |
-| Failure | [[Back Control]] | 15% |
-| Counter | [[Closed Guard]] | 5% |
+| Failure | [[Positions/Triangle Control/Rear Triangle]] | 30% |
+| Failure | [[Positions/Back Control]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 5% |
 
 
 </section>
@@ -227,9 +227,9 @@ Strategically, the rear triangle choke creates a layered submission dilemma. Def
 
 ## From Which Positions?
 
-- [[Rear Triangle]]
-- [[Back Control]]
-- [[Body Triangle]]
+- [[Positions/Triangle Control/Rear Triangle]]
+- [[Positions/Back Control]]
+- [[Positions/Back Control/Body Triangle]]
 
 
 </section>
@@ -238,13 +238,13 @@ Strategically, the rear triangle choke creates a layered submission dilemma. Def
 
 ## Related Submissions
 
-- [[RNC from Seat Belt]]
-- [[Armbar from Back]]
-- [[Armbar from Back with Legs]]
-- [[Body Triangle RNC]]
-- [[Bow and Arrow from Seat Belt]]
-- [[Mounted Triangle Finish]]
-- [[Choke from Crucifix]]
+- [[Submissions/RNC from Seat Belt]]
+- [[Submissions/Armbar from Back]]
+- [[Submissions/Armbar from Back with Legs]]
+- [[Submissions/Body Triangle RNC]]
+- [[Submissions/Bow and Arrow from Seat Belt]]
+- [[Submissions/Mounted Triangle Finish]]
+- [[Transitions/Choke from Crucifix]]
 
 
 </section>
@@ -253,14 +253,14 @@ Strategically, the rear triangle choke creates a layered submission dilemma. Def
 
 ## Additional Related Content
 
-- [[Rear Triangle]] - Primary control position from which this submission is executed
-- [[Back Control]] - Parent position from which rear triangle is typically entered before finishing
-- [[Body Triangle]] - Alternative back control leg configuration that can transition to rear triangle setup
-- [[RNC from Seat Belt]] - Primary alternative choke from back control when triangle is not available
-- [[Armbar from Back with Legs]] - Complementary arm attack when opponent defends the triangle choke
-- [[Mounted Triangle]] - Similar triangle mechanics applied from mount position rather than back
-- [[Crucifix]] - Transition target when opponent turns in to defend the rear triangle choke
-- [[Bow and Arrow from Seat Belt]] - Alternative gi-based choke from back control sharing similar positional prerequisites
+- [[Positions/Triangle Control/Rear Triangle]] - Primary control position from which this submission is executed
+- [[Positions/Back Control]] - Parent position from which rear triangle is typically entered before finishing
+- [[Positions/Back Control/Body Triangle]] - Alternative back control leg configuration that can transition to rear triangle setup
+- [[Submissions/RNC from Seat Belt]] - Primary alternative choke from back control when triangle is not available
+- [[Submissions/Armbar from Back with Legs]] - Complementary arm attack when opponent defends the triangle choke
+- [[Positions/Mount/Mounted Triangle]] - Similar triangle mechanics applied from mount position rather than back
+- [[Positions/Crucifix]] - Transition target when opponent turns in to defend the rear triangle choke
+- [[Submissions/Bow and Arrow from Seat Belt]] - Alternative gi-based choke from back control sharing similar positional prerequisites
 
 
 </section>

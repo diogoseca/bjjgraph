@@ -174,7 +174,7 @@ description: "How to execute Sprawl in BJJ. Attacking perspective with setup, ex
 
 The Sprawl is executed by the defender of a takedown attempt, making you the 'attacker' in the sense that you are actively imposing your defensive technique to stuff the shot and transition to an offensive position. The sprawl works by explosively driving your hips down and back while simultaneously transferring your chest weight onto the opponent's shoulders and upper back. This breaks their posture, kills their forward momentum, and prevents them from completing the takedown. The immediate goal is to transition from a defensive reaction into front headlock control, where a full arsenal of submissions and positional advancements becomes available. The sprawl's effectiveness depends on three factors: recognition speed, explosive hip drive, and immediate follow-up. A sprawl without transition is merely a delay, not a solution.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The Sprawl is executed by the defender of a takedown attempt, making you the 'at
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 75% |
-| Failure | [[Standing Position]] | 15% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Front Headlock]] | 75% |
+| Failure | [[Positions/Standing Position]] | 15% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -238,10 +238,10 @@ The Sprawl is executed by the defender of a takedown attempt, making you the 'at
 
 ## Opponent Counters
 
-- **Opponent adjusts angle and continues driving forward, refusing to abandon the takedown attempt** (Effectiveness: Medium) - Your Response: Continue circling aggressively away from their head while maintaining heavy chest pressure. Use hand placement to steer their head toward the mat. If necessary, secure a whizzer on their arm to prevent completion while you re-establish front headlock control. → Leads to [[Front Headlock]]
-- **Opponent switches to single leg attack mid-sprawl, grabbing one leg and elevating it** (Effectiveness: High) - Your Response: Post your free leg out wide for base, drive your trapped leg's hip down toward the mat, and establish crossface or whizzer control. Circle away from the trapped leg while hopping on your free foot to maintain balance. Transition to dedicated single leg defense sequences. → Leads to [[Standing Position]]
-- **Opponent uses a fake level change to bait the sprawl, then attacks after you commit** (Effectiveness: Low) - Your Response: Maintain athletic stance and do not overcommit to the sprawl until the opponent fully commits to their shot. Use feints and level changes of your own to disrupt their timing. Stay heavy on hands briefly, then return to standing position if the shot was a fake. → Leads to [[Standing Position]]
-- **Opponent grabs a guillotine as you sprawl, threatening a choke as your head drops** (Effectiveness: Medium) - Your Response: Immediately look up and turn your head away from the choking arm to relieve pressure. Circle toward the non-choking side while controlling their grip hand with your free hand. Consider passing to side control or driving through to escape the guillotine angle. → Leads to [[Standing Position]]
+- **Opponent adjusts angle and continues driving forward, refusing to abandon the takedown attempt** (Effectiveness: Medium) - Your Response: Continue circling aggressively away from their head while maintaining heavy chest pressure. Use hand placement to steer their head toward the mat. If necessary, secure a whizzer on their arm to prevent completion while you re-establish front headlock control. → Leads to [[Positions/Front Headlock]]
+- **Opponent switches to single leg attack mid-sprawl, grabbing one leg and elevating it** (Effectiveness: High) - Your Response: Post your free leg out wide for base, drive your trapped leg's hip down toward the mat, and establish crossface or whizzer control. Circle away from the trapped leg while hopping on your free foot to maintain balance. Transition to dedicated single leg defense sequences. → Leads to [[Positions/Standing Position]]
+- **Opponent uses a fake level change to bait the sprawl, then attacks after you commit** (Effectiveness: Low) - Your Response: Maintain athletic stance and do not overcommit to the sprawl until the opponent fully commits to their shot. Use feints and level changes of your own to disrupt their timing. Stay heavy on hands briefly, then return to standing position if the shot was a fake. → Leads to [[Positions/Standing Position]]
+- **Opponent grabs a guillotine as you sprawl, threatening a choke as your head drops** (Effectiveness: Medium) - Your Response: Immediately look up and turn your head away from the choking arm to relieve pressure. Circle toward the non-choking side while controlling their grip hand with your free hand. Consider passing to side control or driving through to escape the guillotine angle. → Leads to [[Positions/Standing Position]]
 
 
 </section>

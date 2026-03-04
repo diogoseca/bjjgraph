@@ -180,7 +180,7 @@ description: "Master the back control to turtle escape in BJJ. Learn systematic 
 
 As the person escaping back control, your goal is to systematically dismantle the opponent's control hierarchy and transition to turtle position, which removes the immediate choking threat and opens multiple escape pathways. This escape is most effective when executed patiently and methodically rather than explosively. The key mechanical sequence involves securing neck defense, neutralizing the seatbelt grip, stripping hooks through hip movement, and establishing a four-point turtle base before the opponent can re-secure their controls. Understanding that this is a sequential process where each phase must be completed before progressing to the next separates successful escapes from panicked attempts that strengthen the opponent's position.
 
-**From Position**: [[Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the person escaping back control, your goal is to systematically dismantle th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 50% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Turtle]] | 50% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the person escaping back control, your goal is to systematically dismantle th
 
 ## Opponent Counters
 
-- **Opponent tightens hooks and re-secures seatbelt grip during hook strip attempt** (Effectiveness: High) - Your Response: Pause the escape, return to full neck defense, and wait for another opening. Attempting to force through tightened hooks wastes energy and exposes you to choke. Allow 3-5 seconds for the opponent to relax before reattempting. → Leads to [[Back Control]]
-- **Opponent follows your hip escape and transitions their weight to mount position** (Effectiveness: Medium) - Your Response: If you feel the opponent's weight shifting over your hips during the turn, immediately frame with your near-side elbow against their thigh and hip escape in the opposite direction to prevent mount establishment before they can settle. → Leads to [[Mount]]
-- **Opponent switches to body triangle configuration to prevent hook removal** (Effectiveness: High) - Your Response: Shift your escape strategy to address the body triangle first. Turn toward the locked-leg side to relieve triangle pressure, then use both hands to push the locking ankle down while driving your hips into the lock to create slack before reattempting the turtle transition. → Leads to [[Back Control]]
-- **Opponent attacks rear naked choke as you release grip control to strip hooks** (Effectiveness: High) - Your Response: Never release neck defense to address hooks. Strip hooks with your legs and hips while maintaining two-on-one control on the choking arm. If the choke deepens at any point, immediately abandon the escape attempt and return to full neck defense. → Leads to [[Back Control]]
+- **Opponent tightens hooks and re-secures seatbelt grip during hook strip attempt** (Effectiveness: High) - Your Response: Pause the escape, return to full neck defense, and wait for another opening. Attempting to force through tightened hooks wastes energy and exposes you to choke. Allow 3-5 seconds for the opponent to relax before reattempting. → Leads to [[Positions/Back Control]]
+- **Opponent follows your hip escape and transitions their weight to mount position** (Effectiveness: Medium) - Your Response: If you feel the opponent's weight shifting over your hips during the turn, immediately frame with your near-side elbow against their thigh and hip escape in the opposite direction to prevent mount establishment before they can settle. → Leads to [[Positions/Mount]]
+- **Opponent switches to body triangle configuration to prevent hook removal** (Effectiveness: High) - Your Response: Shift your escape strategy to address the body triangle first. Turn toward the locked-leg side to relieve triangle pressure, then use both hands to push the locking ankle down while driving your hips into the lock to create slack before reattempting the turtle transition. → Leads to [[Positions/Back Control]]
+- **Opponent attacks rear naked choke as you release grip control to strip hooks** (Effectiveness: High) - Your Response: Never release neck defense to address hooks. Strip hooks with your legs and hips while maintaining two-on-one control on the choking arm. If the choke deepens at any point, immediately abandon the escape attempt and return to full neck defense. → Leads to [[Positions/Back Control]]
 
 
 </section>

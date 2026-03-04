@@ -156,7 +156,7 @@ Defending the Bullfighter Pass requires understanding that this is fundamentally
 
 The most common defensive failure against the Bullfighter Pass is allowing the passer to control both legs simultaneously without contesting their grips. When both your knees are gripped and pushed together, your hip mobility is severely compromised. Prioritize grip fighting to deny bilateral leg control, and use your feet actively on their hips and biceps to create distance barriers that must be addressed before the pass can begin.
 
-**Opponent's Starting Position**: [[Open Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The most common defensive failure against the Bullfighter Pass is allowing the p
 ### 1. Hip follow and knee shield recovery: as passer steps laterally, rotate your hips to track their movement and insert your near knee across their hip line as a shield
 
 - **When to use**: When you recognize the lateral movement early and still have hip mobility. Must be initiated within the first half-second of their lateral step
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Passer's lateral movement is blocked by your knee shield, forcing them to reset or change passing strategy. You recover to a structured guard position
 - **Risk**: If you rotate too slowly, the passer clears your legs before the knee shield is established, and you end up in a worse position with your back partially turned
 
 ### 2. Grip strip and foot re-insertion: use a two-on-one grip break on their controlling hand while simultaneously placing your opposite foot back on their hip or bicep
 
 - **When to use**: When the passer has established bilateral leg control but has not yet initiated explosive lateral movement. This is the grip fighting phase before the pass launches
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Breaking one grip destroys the bilateral control needed for the toreando. The re-inserted foot creates a barrier they must clear again before re-attempting
 - **Risk**: If the grip break fails and you commit both hands to it, you temporarily lose upper body frames and the passer may capitalize with an immediate pass
 
 ### 3. Inversion to reguard: when legs are thrown to one side and the passer begins dropping weight, invert underneath them by rolling over your shoulder toward the passer to reguard or threaten berimbolo
 
 - **When to use**: Last-resort option when the passer has already cleared your legs and is dropping weight. Requires good flexibility and inversion skills
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You recover guard beneath the passer or establish a De La Riva or reverse De La Riva hook during the inversion, creating a new guard structure
 - **Risk**: A failed inversion exposes your back and may result in the passer taking back control instead of just side control
 
 ### 4. Sit-up to single leg: as the passer attempts to control your legs, sit up explosively, swim an underhook, and attack a single leg takedown
 
 - **When to use**: When the passer is standing upright with high posture and has not yet compressed your guard. Best used before they establish deep grips
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You transition from guard bottom to a wrestling exchange or takedown, completely nullifying the passing attempt and potentially gaining top position
 - **Risk**: If the passer sprawls effectively or has a front headlock ready, you end up in a worse position underneath their sprawl pressure
 
@@ -228,11 +228,11 @@ The most common defensive failure against the Bullfighter Pass is allowing the p
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip the passer's grips early through aggressive two-on-one grip breaks and immediately re-establish feet on hips or insert De La Riva hooks. Force the passer to restart their grip sequence. Maintain active hip movement and feet as barriers throughout, never allowing them to settle into bilateral leg control. Chain grip breaks with guard transitions to stay one step ahead of their passing attempts.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 If the passer commits heavily to lateral movement, use their momentum against them by inverting underneath or executing a technical standup to disengage. A well-timed sweep during their lateral step exploits their compromised base. When they shift weight onto one foot for the explosive step, a hook sweep or scissor motion targeting the planted leg can off-balance them and reverse the position entirely.
 

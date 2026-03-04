@@ -180,7 +180,7 @@ description: "Execute the Shake Off Rodeo Ride escape in BJJ. Step-by-step explo
 
 From the attacker perspective, executing the Shake Off requires generating explosive force from your turtle base to physically dislodge the rider's hip-to-back connection. Unlike rolling or rotation-based escapes, the Shake Off uses upward and lateral hip extension to break the rider's balance without committing your body to a directional escape that exposes your back. The technique relies on timing, explosive power, and immediate follow-up action during the brief window of separation created. Your tactical mindset should treat the Shake Off as the opening move in an escape sequence rather than a complete solution—the momentary disruption of the rider's control creates the conditions for more decisive escapes like the sit-through, guard recovery, or technical stand-up.
 
-**From Position**: [[Rodeo Ride]] (Bottom)
+**From Position**: [[Positions/Rodeo Ride]] (Bottom)
 
 </section>
 
@@ -232,10 +232,10 @@ From the attacker perspective, executing the Shake Off requires generating explo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 35% |
-| Success | [[Standing Position]] | 10% |
-| Failure | [[Rodeo Ride]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Turtle]] | 35% |
+| Success | [[Positions/Standing Position]] | 10% |
+| Failure | [[Positions/Rodeo Ride]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ From the attacker perspective, executing the Shake Off requires generating explo
 
 ## Opponent Counters
 
-- **Rider sinks hips low and heavy before the pop, making the explosive extension insufficient to dislodge settled weight** (Effectiveness: High) - Your Response: Switch to a different escape method. Against heavy settled pressure, the Shake Off loses effectiveness—transition to sit-back guard recovery, the Escape from Rodeo Ride rotation, or wait for the rider to initiate an attack that lightens their pressure before reattempting. → Leads to [[Rodeo Ride]]
-- **Rider follows the lateral displacement by posting wide and immediately re-establishing hip contact on the new angle** (Effectiveness: Medium) - Your Response: If the rider follows quickly, chain a second shake-off in the opposite direction to exploit their newly shifted weight, or immediately transition to a sit-through while they are resettling on the new angle. Their recovery movement creates its own timing window. → Leads to [[Rodeo Ride]]
-- **Rider uses the momentary lift to insert hooks and transition to back control while your hips are elevated** (Effectiveness: High) - Your Response: If you feel hooks threading during the shake-off, immediately sit your hips back down to trap the entering leg between your body and the mat. Abort the lateral shift and prioritize hook removal over the shake-off escape. Remaining in Rodeo Ride is far preferable to conceding back control. → Leads to [[Back Control]]
-- **Rider locks a tighter grip configuration during the disruption phase, converting the shake-off into a deeper control position** (Effectiveness: Medium) - Your Response: Address the new grip immediately through focused grip fighting before attempting another shake-off. If the rider has deepened their control, the shake-off window has closed—switch to systematic grip stripping followed by the Escape from Rodeo Ride rotation. → Leads to [[Rodeo Ride]]
+- **Rider sinks hips low and heavy before the pop, making the explosive extension insufficient to dislodge settled weight** (Effectiveness: High) - Your Response: Switch to a different escape method. Against heavy settled pressure, the Shake Off loses effectiveness—transition to sit-back guard recovery, the Escape from Rodeo Ride rotation, or wait for the rider to initiate an attack that lightens their pressure before reattempting. → Leads to [[Positions/Rodeo Ride]]
+- **Rider follows the lateral displacement by posting wide and immediately re-establishing hip contact on the new angle** (Effectiveness: Medium) - Your Response: If the rider follows quickly, chain a second shake-off in the opposite direction to exploit their newly shifted weight, or immediately transition to a sit-through while they are resettling on the new angle. Their recovery movement creates its own timing window. → Leads to [[Positions/Rodeo Ride]]
+- **Rider uses the momentary lift to insert hooks and transition to back control while your hips are elevated** (Effectiveness: High) - Your Response: If you feel hooks threading during the shake-off, immediately sit your hips back down to trap the entering leg between your body and the mat. Abort the lateral shift and prioritize hook removal over the shake-off escape. Remaining in Rodeo Ride is far preferable to conceding back control. → Leads to [[Positions/Back Control]]
+- **Rider locks a tighter grip configuration during the disruption phase, converting the shake-off into a deeper control position** (Effectiveness: Medium) - Your Response: Address the new grip immediately through focused grip fighting before attempting another shake-off. If the rider has deepened their control, the shake-off window has closed—switch to systematic grip stripping followed by the Escape from Rodeo Ride rotation. → Leads to [[Positions/Rodeo Ride]]
 
 
 </section>

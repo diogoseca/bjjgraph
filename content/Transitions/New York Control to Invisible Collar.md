@@ -21,7 +21,7 @@ The strategic value lies in the invisible collar's ability to open distinct subm
 
 Timing and hip mobility determine success. The critical vulnerability window occurs during the brief moment when the overhook is released and the shin is being repositioned. If the top player recognizes this gap and postures aggressively, they can strip the rubber guard controls entirely. Advanced practitioners disguise the transition by threatening submissions from New York Control first, then using the opponent's defensive reaction as the opening to slide the shin into invisible collar position without resistance.
 
-**From Position**: [[New York Control]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/New York Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Timing and hip mobility determine success. The critical vulnerability window occ
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Invisible Collar]] | 55% |
-| Failure | [[New York Control]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Invisible Collar]] | 55% |
+| Failure | [[Positions/Rubber Guard/New York Control]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The New York Control to Invisible Collar transition serves as a critical connect
 ## Related Techniques
 
 
-- [[New York Control]] - Source position for this transition within the rubber guard system
+- [[Positions/Rubber Guard/New York Control]] - Source position for this transition within the rubber guard system
 
-- [[Invisible Collar]] - Target position establishing shin-based collar control
+- [[Positions/Rubber Guard/Invisible Collar]] - Target position establishing shin-based collar control
 
-- [[Mission Control]] - Related rubber guard position and alternative transition path from New York
+- [[Positions/Rubber Guard/Mission Control]] - Related rubber guard position and alternative transition path from New York
 
-- [[Rubber Guard]] - Parent guard system providing the foundation for both positions
+- [[Positions/Rubber Guard]] - Parent guard system providing the foundation for both positions
 
-- [[Crackhead Control]] - Alternative rubber guard intermediate position accessible from New York
+- [[Positions/Crackhead Control]] - Alternative rubber guard intermediate position accessible from New York
 
-- [[Gogoplata Control]] - Primary submission target accessible from invisible collar configuration
+- [[Positions/Gogoplata Control]] - Primary submission target accessible from invisible collar configuration
 
-- [[Omoplata Control]] - Submission and sweep option from rubber guard transitions
+- [[Positions/Omoplata Control]] - Submission and sweep option from rubber guard transitions
 
-- [[Closed Guard]] - Base guard position and initial entry point for rubber guard system
+- [[Positions/Closed Guard]] - Base guard position and initial entry point for rubber guard system
 
-- [[Open Guard]] - Counter outcome position when rubber guard controls are stripped
+- [[Positions/Open Guard]] - Counter outcome position when rubber guard controls are stripped
 
-- [[Mission Control Entry from Rubber Guard]] - Related entry transition within the rubber guard system
+- [[Transitions/Mission Control Entry from Rubber Guard]] - Related entry transition within the rubber guard system
 
 
 </section>

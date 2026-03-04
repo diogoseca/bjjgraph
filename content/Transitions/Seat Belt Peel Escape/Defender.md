@@ -138,7 +138,7 @@ description: "Learn to defend against the Seat Belt Peel Escape from top back co
 
 Defending the Seat Belt Peel Escape means maintaining your seat belt grip integrity from the top back control position while your opponent systematically attacks your hand connection. As the controlling player, you must recognize the specific grip-breaking mechanics of the peel escape and deploy appropriate counter-strategies that either reinforce your grip connection, punish the escape attempt with submission entries, or adjust your control configuration to render the peel ineffective. Understanding the defender perspective is essential because the peel escape exploits predictable grip weaknesses, and awareness of these vulnerabilities allows you to preemptively strengthen your control before the escape gains momentum.
 
-**Opponent's Starting Position**: [[Seat Belt Control Back]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control/Seat Belt Control Back]] (Bottom)
 
 </section>
 
@@ -176,28 +176,28 @@ Defending the Seat Belt Peel Escape means maintaining your seat belt grip integr
 ### 1. Reinforce grip by switching to gable grip or deepening hand connection
 
 - **When to use**: When you feel the initial peel attempt beginning and your current grip configuration is being effectively attacked
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Opponent's peel attempt fails and they must restart the grip-breaking process, wasting their energy while you maintain full control
 - **Risk**: Momentary grip adjustment may create brief opening if opponent times a hip escape perfectly with the switch
 
 ### 2. Release seat belt and immediately attack rear naked choke when opponent commits both hands to peel
 
 - **When to use**: When opponent has clearly committed both hands to your over-arm, leaving their neck completely undefended
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Opponent must abandon peel attempt and return to emergency neck defense, potentially exposing them to choke finish
 - **Risk**: If choke attempt fails, you have voluntarily broken your own seat belt and must re-establish grip from scratch
 
 ### 3. Transition to body triangle to eliminate hook vulnerability
 
 - **When to use**: When opponent's peel attempts are persistent and you anticipate they will target hooks immediately after grip separation
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Body triangle provides superior lower body control that compensates for any grip degradation and prevents the hip escape chain
 - **Risk**: Body triangle transition requires momentary hook adjustment that may create escape window if mistimed
 
 ### 4. Increase chest pressure and drive hooks deeper to reinforce overall control
 
 - **When to use**: As a complementary response to any peel attempt, maintaining maximum positional control regardless of grip status
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Enhanced positional control makes the peel escape insufficient even if grip partially breaks, as hooks and chest pressure prevent meaningful escape
 - **Risk**: Overcommitting weight forward may allow opponent to use momentum for a forward roll or granby escape
 
@@ -209,11 +209,11 @@ Defending the Seat Belt Peel Escape means maintaining your seat belt grip integr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Seat Belt Control Back]]
+### → [[Positions/Back Control/Seat Belt Control Back]]
 
 Reinforce grip connection proactively by switching grip types when feeling peel pressure, and drive hooks deeper to maintain multiple layers of control even if grip is temporarily weakened.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Capitalize on opponent's commitment of both hands to peel by releasing seat belt and immediately attacking neck with rear naked choke setup, forcing them to abandon escape for emergency neck defense.
 

@@ -26,8 +26,8 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Knee ligaments (MCL, LCL, meniscus) via rotational force through heel
-**Starting Position**: [[Ushiro Ashi-Garami]]
-**From Position**: [[Ushiro Ashi-Garami]] (Top)
+**Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -80,9 +80,9 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Ushiro Ashi-Garami]] | 25% |
-| Counter | [[Open Guard]] | 15% |
-| Counter | [[50-50 Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -228,9 +228,9 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 
 ## From Which Positions?
 
-- [[Ushiro Ashi-Garami]]
-- [[Outside Ashi-Garami]]
-- [[Backside 50-50]]
+- [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- [[Positions/Ashi Garami/Backside 50-50]]
 
 
 </section>
@@ -239,12 +239,12 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 
 ## Related Submissions
 
-- [[Heel Hook from Saddle]]
-- [[Achilles Lock]]
-- [[Aoki Lock Finish]]
-- [[Calf Slicer from 50-50]]
-- [[Ankle Lock from X-Guard]]
-- [[Estima Lock Finish]]
+- [[Transitions/Heel Hook from Saddle]]
+- [[Submissions/Achilles Lock]]
+- [[Transitions/Aoki Lock Finish]]
+- [[Submissions/Calf Slicer from 50-50]]
+- [[Submissions/Ankle Lock from X-Guard]]
+- [[Submissions/Estima Lock Finish]]
 
 
 </section>
@@ -253,15 +253,15 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 
 ## Additional Related Content
 
-- [[Ushiro Ashi-Garami]] - Primary starting position providing the reversed leg entanglement control for this submission
-- [[Outside Ashi-Garami]] - Standard ashi position that commonly transitions to ushiro during opponent inversion escapes
-- [[Saddle]] - Higher-control leg entanglement offering alternative heel hook finishing opportunities
-- [[Ashi Garami]] - Parent position family encompassing all leg entanglement variations including ushiro
-- [[Inside Ashi-Garami]] - Related entanglement with different finishing mechanics for comparative study
-- [[50-50 Guard]] - Counter-entanglement destination when defender successfully establishes bilateral control
-- [[Cross Ashi-Garami]] - Alternative cross-body entanglement with distinct heel exposure angles
-- [[Honey Hole]] - High-control position accessible through transition from ushiro configuration
-- [[Backside 50-50]] - Related reversed entanglement position sharing similar finishing angles
+- [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Primary starting position providing the reversed leg entanglement control for this submission
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Standard ashi position that commonly transitions to ushiro during opponent inversion escapes
+- [[Positions/Ashi Garami/Saddle]] - Higher-control leg entanglement offering alternative heel hook finishing opportunities
+- [[Positions/Ashi Garami]] - Parent position family encompassing all leg entanglement variations including ushiro
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related entanglement with different finishing mechanics for comparative study
+- [[Positions/Ashi Garami/50-50 Guard]] - Counter-entanglement destination when defender successfully establishes bilateral control
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Alternative cross-body entanglement with distinct heel exposure angles
+- [[Positions/Ashi Garami/Honey Hole]] - High-control position accessible through transition from ushiro configuration
+- [[Positions/Ashi Garami/Backside 50-50]] - Related reversed entanglement position sharing similar finishing angles
 
 
 </section>

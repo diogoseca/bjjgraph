@@ -160,7 +160,7 @@ description: "How to defend against Berimbolo Entry in BJJ. Recognition cues, de
 
 Defending the berimbolo entry requires the top player to recognize the attack early, maintain hip alignment, and shut down the inversion before rotational momentum develops. As the passer facing De La Riva guard, you must understand that the berimbolo threat intensifies the moment the bottom player secures both a deep DLR hook and a far hip grip simultaneously. Your defensive strategy centers on preventing these two control points from working together, denying the forward weight shift the attacker needs to initiate their inversion, and counter-attacking with passing pressure when the berimbolo attempt stalls or fails. Effective berimbolo defense transforms the attacker's commitment into a passing opportunity for you, since the inversion leaves the bottom player temporarily unable to retain guard if the rotation is stopped mid-movement.
 
-**Opponent's Starting Position**: [[De La Riva Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -196,35 +196,35 @@ Defending the berimbolo entry requires the top player to recognize the attack ea
 ### 1. Sit your hips back and sprawl your legs away from the De La Riva hook to deny forward loading
 
 - **When to use**: Early stage when you feel the attacker beginning to pull your weight forward with combined hook and hip grip pressure
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Attacker's inversion is denied and they return to standard De La Riva guard without the angle needed for berimbolo. You can immediately begin passing from a neutral DLR position
 - **Risk**: Sitting too far back can expose you to Kiss of the Dragon variation or allow the attacker to transition to X-Guard underneath you
 
 ### 2. Strip the far hip grip by peeling their fingers or redirecting their wrist before they can generate pulling force
 
 - **When to use**: As soon as you recognize the far hip grip being established, before inversion begins
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Without the hip grip the attacker cannot generate the pulling force needed for the inversion. They return to basic De La Riva guard and must re-establish their grip configuration before reattempting
 - **Risk**: Reaching down to strip the grip can compromise your posture and momentarily shift weight forward, which the attacker may exploit if they are faster than your grip strip
 
 ### 3. Backstep over the De La Riva hook and square your hips to face the opponent, removing the hook's mechanical advantage
 
 - **When to use**: When the De La Riva hook is deep and the attacker is loading up for the inversion but has not yet begun rotating
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Removes the DLR hook entirely and puts you in a strong passing position such as headquarters or leg drag angle. The berimbolo threat is completely neutralized
 - **Risk**: A poorly timed backstep can expose your back if the attacker reads the movement and accelerates their inversion to catch you mid-transition
 
 ### 4. Drive forward with pressure and flatten the attacker's hips to the mat, collapsing the inversion space
 
 - **When to use**: When the attacker has already begun their inversion and you cannot retreat or strip grips in time
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Smashing pressure pins the attacker on their shoulders with their hips flattened, creating an immediate guard passing opportunity from a dominant angle
 - **Risk**: Driving forward into a well-timed berimbolo actually feeds the attacker the weight they need. This defense only works if you time it to catch them during the rotation, not before it
 
 ### 5. Counter-rotate by turning your hips in the same direction as the attacker's spin, following their rotation to prevent back exposure
 
 - **When to use**: When the attacker has initiated the rotation and is mid-spin underneath you
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: You maintain facing position throughout their rotation, denying back exposure. The scramble often resolves with you in top position as the attacker ends up underneath without achieving the back
 - **Risk**: If the attacker reads your counter-rotation and switches to Kiss of the Dragon, your turning momentum can be used against you to expose the opposite side of your back
 
@@ -236,11 +236,11 @@ Defending the berimbolo entry requires the top player to recognize the attack ea
 
 ## Best-Case Outcomes for Defender
 
-### → [[De La Riva Guard]]
+### → [[Positions/De La Riva Guard]]
 
 Deny the inversion before it begins by sitting your hips back, stripping the far hip grip, or backstep-removing the DLR hook. This resets the attacker to standard De La Riva guard without the angles needed for berimbolo, allowing you to resume your passing strategy from a neutral guard engagement
 
-### → [[De La Riva Guard]]
+### → [[Positions/De La Riva Guard]]
 
 When the attacker commits to the inversion, drive forward with smash pressure to flatten their rotation and pin their shoulders. Alternatively, follow their counter-rotation to maintain facing position and establish top control. Both approaches convert the attacker's failed berimbolo into a passing opportunity where their guard structure is compromised from the aborted inversion
 

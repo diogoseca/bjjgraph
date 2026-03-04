@@ -158,7 +158,7 @@ The primary defensive strategy centers on eliminating the arm-in structure that 
 
 Successful Darce defense demands composure under threat. Panicked, explosive movements typically tighten the choke and waste the energy needed for systematic escape. Experienced defenders recognize the setup early, address the trapped arm immediately, and use deliberate movement toward the attacker rather than away to reduce choking pressure and create viable escape angles.
 
-**Opponent's Starting Position**: [[Darce Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Darce Control]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful Darce defense demands composure under threat. Panicked, explosive mov
 ### 1. Extract trapped arm by gripping your own wrist with your free hand and pulling the trapped arm toward your hip while turning into the attacker
 
 - **When to use**: As soon as you recognize the darce grip is being established, before the attacker locks their hands and achieves depth
-- **Targets**: [[Darce Control]]
+- **Targets**: [[Positions/Darce Control]]
 - **If successful**: Eliminates the arm-in choke structure entirely, reducing the position to a loose headlock that you can escape to turtle or guard
 - **Risk**: If extraction fails midway, the attacker may tighten the grip further and you lose your free hand's framing ability temporarily
 
 ### 2. Frame on attacker's hip with free hand to block the sprawl while turning your body toward them and working to get your knees underneath you
 
 - **When to use**: When the grip is locked but the attacker has not yet achieved perpendicular hip position or completed the sprawl
-- **Targets**: [[Darce Control]]
+- **Targets**: [[Positions/Darce Control]]
 - **If successful**: Prevents the finishing angle and buying time to work arm extraction or recover to turtle position with base
 - **Risk**: Extended arm frame can be stripped if attacker drives hip pressure forward, and framing alone does not address the choke structure
 
 ### 3. Roll through toward the choking arm side, somersaulting to reverse the position and end up on top or recover to half guard
 
 - **When to use**: When the attacker commits heavily to the sprawl finish and their weight shifts forward, creating momentum you can redirect
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Reverses the positional dynamic and can land you in half guard or scramble position where the darce grip becomes less effective
 - **Risk**: The roll can tighten the choke if the attacker follows properly, and you may end up in a worse finishing position for the attacker
 
 ### 4. Step over the attacker's head with your far leg, creating a scramble that disrupts their body positioning and grip angle
 
 - **When to use**: When you still have hip mobility and the attacker is positioned relatively low near your waist rather than high near your shoulders
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates a complete positional scramble that forces the attacker to release the grip or end up in an inferior position
 - **Risk**: Requires significant hip mobility and if the step-over is incomplete, you expose your back while the choke remains partially locked
 
@@ -228,11 +228,11 @@ Successful Darce defense demands composure under threat. Panicked, explosive mov
 
 ## Best-Case Outcomes for Defender
 
-### → [[Darce Control]]
+### → [[Positions/Darce Control]]
 
 Extract the trapped arm by gripping your own wrist with your free hand and pulling it toward your hip while turning your body into the attacker. Once the arm is free, the darce structure collapses and you can work to turtle or recover guard from what becomes a loose head-and-arm control.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Roll through toward the choking arm side when attacker commits to the sprawl, using their forward momentum to complete the reversal. As you come through the roll, immediately establish half guard by trapping their near leg between yours before they can re-establish top control or re-lock the darce grip.
 

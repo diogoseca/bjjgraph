@@ -154,7 +154,7 @@ description: "How to defend against Mount Control in BJJ. Recognition cues, defe
 
 Defending against Mount Control requires understanding that the top player's primary weapon is sustained pressure combined with constant micro-adjustments that deny you the space needed to escape. Unlike defending a single submission attempt where timing one explosive movement can save you, Mount Control demands a systematic, patient defensive approach that chains incremental gains into a complete escape. Your opponent is actively reading and countering every movement you make, so random explosive efforts waste energy and often expose you to submissions. The defender must first establish protective frames using skeletal alignment rather than muscular effort, then execute precise hip escapes timed to exploit the brief windows that appear when the top player adjusts position. The critical defensive insight is that you are not trying to throw the top player off - you are creating just enough space to insert a knee and recover guard. Every centimeter of space you create must be preserved through frame adjustment before attempting the next increment of movement. Successful defense against active Mount Control requires composure under extreme pressure, systematic escape methodology, and the discipline to chain small movements rather than gambling on explosive attempts that leave you worse off when they fail.
 
-**Opponent's Starting Position**: [[Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending against Mount Control requires understanding that the top player's pri
 ### 1. Elbow-knee escape (shrimp) to insert knee shield and recover half guard
 
 - **When to use**: When top player shifts weight forward or laterally to counter your bridge or adjust position, creating a brief moment where hip pressure decreases on one side
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard with knee shield established, transitioning from worst-case defensive position to a guard with offensive sweep and back-take options
 - **Risk**: If the hip escape is too shallow or slow, top player drives knee back into your hip and re-settles with tighter control, potentially advancing to high mount
 
 ### 2. Trap-arm bridge and roll (upa) to reverse the position completely
 
 - **When to use**: When top player posts one hand on the mat or reaches for a collar grip, creating a structural weakness in their base on the trapped side
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You reverse the position entirely, ending in your opponent's closed guard - a dramatic positional improvement from bottom mount to top inside guard
 - **Risk**: If the bridge lacks commitment or you fail to trap both arm and leg on the same side, top player posts and rides the bridge, potentially using your turn to take your back
 
 ### 3. Frame on hips and create sustained distance to set up progressive hip escape sequence
 
 - **When to use**: When top player momentarily lightens hip pressure to address your upper body movement or hand fight for grips, creating a window to insert forearm frames
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Frames create enough distance to begin hip escape sequences that chain into knee insertion and half guard recovery
 - **Risk**: Extended arms become targets for Americana or Kimura if the top player swims inside your frames and isolates the arm against the mat
 
 ### 4. Chain bridge into immediate hip escape as a two-part escape combination
 
 - **When to use**: When initial bridge forces top player to post wide for base, their weight temporarily shifts off your hips as they counter the bridge direction
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The bridge forces a base adjustment that creates the exact window needed for the hip escape - the two movements complement each other to overcome active control
 - **Risk**: If both movements fail, significant energy expenditure leaves you more fatigued with the top player now anticipating your escape pattern and tightening control
 
@@ -224,11 +224,11 @@ Defending against Mount Control requires understanding that the top player's pri
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Execute a hip escape sequence by first establishing a forearm frame on the top player's hip, then shrimping your hips away to create enough space to insert your inside knee across their thigh. Lock your legs around their trapped leg to establish half guard. Chain multiple small hip escapes rather than one large movement - each shrimp creates incremental space that your frame preserves until the next movement.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Set up the upa by first trapping the top player's arm on one side (overhook or wrist control) while hooking their same-side foot with your leg. Bridge explosively at a 45-degree angle over the trapped shoulder, committing fully to the roll. Once on top, immediately close your guard by crossing ankles behind their back before they can re-establish posture. This requires proper trapping of both arm and leg on the same side - without both traps, the bridge will fail against active mount control.
 

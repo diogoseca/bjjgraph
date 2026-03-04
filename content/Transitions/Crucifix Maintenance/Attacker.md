@@ -180,7 +180,7 @@ description: "Master crucifix maintenance from the attacker perspective. Systema
 
 Crucifix Maintenance from the attacker's perspective involves the continuous adjustments and controls required to retain bilateral arm isolation against the opponent's escape attempts. The maintenance practitioner must simultaneously manage three control points—the leg triangle on the near arm, hand control on the far arm, and upper body pressure—while reading and preemptively countering escape movements before they develop momentum. Effective maintenance transforms the crucifix from a static hold into a dynamic control system where each micro-adjustment progressively tightens the position and creates submission opportunities. The attacker's goal is not merely to hold position but to systematically degrade the opponent's remaining escape capability until finishing becomes inevitable.
 
-**From Position**: [[Crucifix]] (Top)
+**From Position**: [[Positions/Crucifix]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Crucifix Maintenance from the attacker's perspective involves the continuous adj
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Crucifix]] | 65% |
-| Failure | [[Back Control]] | 20% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Crucifix]] | 65% |
+| Failure | [[Positions/Back Control]] | 20% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Crucifix Maintenance from the attacker's perspective involves the continuous adj
 
 ## Opponent Counters
 
-- **Explosive arm extraction where opponent pulls trapped arm forcefully while shrimping hips to change the leg triangle angle** (Effectiveness: High) - Your Response: Immediately squeeze the leg triangle tighter by pulling knees together and adjusting crossing angle. If the arm begins clearing, transition your weight forward and threaten the neck to force defensive priority shift. If extraction succeeds, flow to back control maintaining hooks. → Leads to [[Back Control]]
-- **Bridge and roll escape where opponent loads hips and explosively bridges to create rotational momentum and displace your weight** (Effectiveness: Medium) - Your Response: Stay tight to their back rather than posting your hands—posting creates space. Roll with the bridge if necessary, maintaining leg triangle and arm control throughout the rotation. As they settle from the bridge, re-establish perpendicular hip position and threaten a submission during their recovery moment. → Leads to [[Side Control]]
-- **Hip escape and shrimp where opponent incrementally creates new angle by shrimping away, changing the geometry of the leg trap to create extraction space** (Effectiveness: Medium) - Your Response: Follow their hip movement with a hip switch to maintain perpendicular alignment. Do not allow them to change angle without you adjusting—each unanswered angle change accumulates toward escape. Increase chest pressure to limit their shrimping range and re-squeeze the leg triangle at the new angle. → Leads to [[Back Control]]
-- **Turning into the attacker where opponent rotates their torso toward you to reduce the effectiveness of the back-facing control angle and access your body for frames** (Effectiveness: Low) - Your Response: Use your chest and head to block the turn, maintaining back-facing angle. If they partially turn, increase weight distribution onto their upper body and use the far arm control to prevent them from completing the rotation. A partial turn often exposes the neck further, creating submission opportunity. → Leads to [[Crucifix]]
+- **Explosive arm extraction where opponent pulls trapped arm forcefully while shrimping hips to change the leg triangle angle** (Effectiveness: High) - Your Response: Immediately squeeze the leg triangle tighter by pulling knees together and adjusting crossing angle. If the arm begins clearing, transition your weight forward and threaten the neck to force defensive priority shift. If extraction succeeds, flow to back control maintaining hooks. → Leads to [[Positions/Back Control]]
+- **Bridge and roll escape where opponent loads hips and explosively bridges to create rotational momentum and displace your weight** (Effectiveness: Medium) - Your Response: Stay tight to their back rather than posting your hands—posting creates space. Roll with the bridge if necessary, maintaining leg triangle and arm control throughout the rotation. As they settle from the bridge, re-establish perpendicular hip position and threaten a submission during their recovery moment. → Leads to [[Positions/Side Control]]
+- **Hip escape and shrimp where opponent incrementally creates new angle by shrimping away, changing the geometry of the leg trap to create extraction space** (Effectiveness: Medium) - Your Response: Follow their hip movement with a hip switch to maintain perpendicular alignment. Do not allow them to change angle without you adjusting—each unanswered angle change accumulates toward escape. Increase chest pressure to limit their shrimping range and re-squeeze the leg triangle at the new angle. → Leads to [[Positions/Back Control]]
+- **Turning into the attacker where opponent rotates their torso toward you to reduce the effectiveness of the back-facing control angle and access your body for frames** (Effectiveness: Low) - Your Response: Use your chest and head to block the turn, maintaining back-facing angle. If they partially turn, increase weight distribution onto their upper body and use the far arm control to prevent them from completing the rotation. A partial turn often exposes the neck further, creating submission opportunity. → Leads to [[Positions/Crucifix]]
 
 
 </section>

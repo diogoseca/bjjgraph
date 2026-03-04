@@ -154,7 +154,7 @@ description: "Master defending against turtle escapes from back control in BJJ. 
 
 As the back controller, preventing the opponent's escape to turtle requires understanding the sequential nature of their escape and disrupting it at each phase. Your defensive priorities are maintaining hook control to prevent hip movement, preserving the seatbelt grip to limit their upper body freedom, and recognizing when escape attempts create submission opportunities or transitions to mount. The back controller who reads escape timing correctly can either shut down the attempt and maintain the most dominant position in BJJ, or capitalize on the opponent's movement to transition to mount or attack rear naked choke during their defensive hand transitions. The key insight is that the opponent's escape follows a predictable sequence, and each phase of their escape creates specific vulnerabilities that you can exploit.
 
-**Opponent's Starting Position**: [[Back Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the back controller, preventing the opponent's escape to turtle requires unde
 ### 1. Re-secure hooks by driving heels deeper and squeezing knees together while tightening chest pressure
 
 - **When to use**: When opponent begins leg-based hook stripping before they have fully cleared the first hook from inside the thigh
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Maintain full back control with hooks re-established, forcing opponent to return to defensive neck protection position
 - **Risk**: If hook reinsertion is too aggressive with forward weight commitment, opponent may use the momentum shift to create more space for their hip escape
 
 ### 2. Follow opponent's turning motion and transition weight over their hips to establish mount position
 
 - **When to use**: When opponent successfully clears one hook and begins turning to turtle, making full back control retention unlikely
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Transition to mount position with 4-point scoring opportunity and continued dominant control from the top
 - **Risk**: If mount transition timing is too slow, opponent may complete turtle escape and immediately begin guard recovery sequences
 
 ### 3. Tighten seatbelt and attack rear naked choke when opponent releases hand fighting grip to strip hooks
 
 - **When to use**: When opponent transitions their hands from two-on-one neck defense to hook fighting, creating a 1-2 second window of neck exposure
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Force opponent to abandon escape attempt and return to neck defense, resetting to full back control with renewed submission threat
 - **Risk**: Over-committing to choke attempt may loosen hook control if opponent continues escape while you focus on the neck attack
 
 ### 4. Switch to body triangle configuration when standard hooks are being systematically stripped
 
 - **When to use**: When opponent is successfully attacking hooks and standard hook retention methods are consistently failing
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Body triangle provides vastly superior hip control that is extremely difficult to escape compared to standard hooks
 - **Risk**: Body triangle transition requires momentarily loosening hook control, creating a brief escape window during the configuration change
 
@@ -225,11 +225,11 @@ As the back controller, preventing the opponent's escape to turtle requires unde
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Maintain active hook pressure and seatbelt control throughout escape attempts. Drive heels deep into opponent's inner thighs, squeeze knees together, and tighten chest-to-back connection whenever the opponent initiates movement. Attack the rear naked choke during hand transitions to force them back to defensive priorities.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the opponent successfully clears one hook and begins turning their hips, follow their hip movement by walking your top leg over their body toward mount. Use their turning momentum to establish mount position before they can complete turtle formation. Time the mount transition when they are halfway between back control and turtle, as this is when their frames are least organized.
 

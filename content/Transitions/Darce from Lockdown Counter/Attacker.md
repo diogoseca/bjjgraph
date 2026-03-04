@@ -178,7 +178,7 @@ This counter represents an advanced understanding of positional warfare in half 
 
 From a strategic perspective, having this counter in your arsenal changes the dynamic of the Electric Chair exchange entirely. Bottom players who know you threaten the Darce must be more conservative with their underhook depth and extension, which reduces the effectiveness of their sweeps and submissions. This creates a dilemma-based defense that exemplifies high-level guard passing against the lockdown system.
 
-**From Position**: [[Electric Chair]] (Top)
+**From Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ From a strategic perspective, having this counter in your arsenal changes the dy
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 65% |
-| Failure | [[Electric Chair]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Darce Control]] | 65% |
+| Failure | [[Positions/Half Guard/Electric Chair]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -242,9 +242,9 @@ From a strategic perspective, having this counter in your arsenal changes the dy
 
 ## Opponent Counters
 
-- **Opponent immediately releases underhook and frames on your bicep to create distance before you can connect the Darce grip** (Effectiveness: High) - Your Response: If they release early, immediately transition to passing the now-weakened lockdown guard since their primary control is gone. Use knee slice or smash pass. → Leads to [[Electric Chair]]
-- **Opponent tucks chin tightly and turns into you, preventing the arm from threading across their neck** (Effectiveness: Medium) - Your Response: Switch to anaconda grip by threading under their neck instead of over, or transition to arm triangle setup by driving their arm across their own face. → Leads to [[Electric Chair]]
-- **Opponent rolls toward you to relieve choke pressure and attempts to come on top** (Effectiveness: Medium) - Your Response: Follow the roll, maintaining the Darce grip. The roll often tightens the choke. If they complete the roll, you can finish from top position with better leverage. → Leads to [[Half Guard]]
+- **Opponent immediately releases underhook and frames on your bicep to create distance before you can connect the Darce grip** (Effectiveness: High) - Your Response: If they release early, immediately transition to passing the now-weakened lockdown guard since their primary control is gone. Use knee slice or smash pass. → Leads to [[Positions/Half Guard/Electric Chair]]
+- **Opponent tucks chin tightly and turns into you, preventing the arm from threading across their neck** (Effectiveness: Medium) - Your Response: Switch to anaconda grip by threading under their neck instead of over, or transition to arm triangle setup by driving their arm across their own face. → Leads to [[Positions/Half Guard/Electric Chair]]
+- **Opponent rolls toward you to relieve choke pressure and attempts to come on top** (Effectiveness: Medium) - Your Response: Follow the roll, maintaining the Darce grip. The roll often tightens the choke. If they complete the roll, you can finish from top position with better leverage. → Leads to [[Positions/Half Guard]]
 
 
 </section>

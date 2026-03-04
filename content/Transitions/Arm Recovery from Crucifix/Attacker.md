@@ -186,7 +186,7 @@ description: "Execute arm recovery from crucifix in BJJ. Step-by-step guide cove
 
 As the bottom player trapped in crucifix, your objective is to systematically free the trapped arm and recover to closed guard where you regain both defensive security and offensive capability. The crucifix is one of the most dangerous positions you can find yourself in—both arms controlled, neck exposed, and escape windows narrow rapidly as the opponent consolidates. The arm recovery technique uses hip escape mechanics to change the geometric angle between your arm and the leg trap, creating an extraction path that cannot be achieved through direct pulling force. Your free arm serves dual purpose throughout: primarily defending the neck against immediate choke threats, and secondarily creating frames against the opponent's controlling leg when safe windows exist. The complete sequence—neck defense, angular displacement, arm extraction, frame establishment, guard recovery—must flow as one continuous movement rather than discrete steps.
 
-**From Position**: [[Crucifix]] (Bottom)
+**From Position**: [[Positions/Crucifix]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ As the bottom player trapped in crucifix, your objective is to systematically fr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 40% |
-| Failure | [[Crucifix]] | 35% |
-| Counter | [[Mounted Crucifix]] | 25% |
+| Success | [[Positions/Closed Guard]] | 40% |
+| Failure | [[Positions/Crucifix]] | 35% |
+| Counter | [[Positions/Mount/Mounted Crucifix]] | 25% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the bottom player trapped in crucifix, your objective is to systematically fr
 
 ## Opponent Counters
 
-- **Tightens leg triangle squeeze when sensing hip escape movement to eliminate extraction space** (Effectiveness: High) - Your Response: Pause and wait for the opponent to relax the squeeze—sustained maximum compression is fatiguing. Use your free arm lever against their top leg to create mechanical slack while maintaining hip escape angle for the next attempt. → Leads to [[Crucifix]]
-- **Transitions to mounted crucifix by swinging leg over to mount during escape attempt** (Effectiveness: High) - Your Response: Immediately bridge and turn toward the mounting leg before it settles into position. Use the momentum of their transition—the brief looseness in the leg trap during repositioning—as an extraction window rather than defending the mount. → Leads to [[Mounted Crucifix]]
-- **Attacks neck with rear naked choke when free arm shifts from defense to frame against leg** (Effectiveness: High) - Your Response: Abandon frame attempt immediately and return to neck defense. Fight the choking hand with two-on-one grip defense while tucking chin. Only resume arm recovery once the choke threat is neutralized—never sacrifice neck safety for positional progress. → Leads to [[Crucifix]]
-- **Readjusts hip position following your hip escape to close the angular space and maintain perpendicular alignment** (Effectiveness: Medium) - Your Response: Chain multiple hip escapes in rapid sequence rather than relying on a single movement. Each escape creates incremental progress even if partially countered. The opponent cannot follow every hip adjustment while simultaneously maintaining squeeze and controlling your free arm. → Leads to [[Crucifix]]
+- **Tightens leg triangle squeeze when sensing hip escape movement to eliminate extraction space** (Effectiveness: High) - Your Response: Pause and wait for the opponent to relax the squeeze—sustained maximum compression is fatiguing. Use your free arm lever against their top leg to create mechanical slack while maintaining hip escape angle for the next attempt. → Leads to [[Positions/Crucifix]]
+- **Transitions to mounted crucifix by swinging leg over to mount during escape attempt** (Effectiveness: High) - Your Response: Immediately bridge and turn toward the mounting leg before it settles into position. Use the momentum of their transition—the brief looseness in the leg trap during repositioning—as an extraction window rather than defending the mount. → Leads to [[Positions/Mount/Mounted Crucifix]]
+- **Attacks neck with rear naked choke when free arm shifts from defense to frame against leg** (Effectiveness: High) - Your Response: Abandon frame attempt immediately and return to neck defense. Fight the choking hand with two-on-one grip defense while tucking chin. Only resume arm recovery once the choke threat is neutralized—never sacrifice neck safety for positional progress. → Leads to [[Positions/Crucifix]]
+- **Readjusts hip position following your hip escape to close the angular space and maintain perpendicular alignment** (Effectiveness: Medium) - Your Response: Chain multiple hip escapes in rapid sequence rather than relying on a single movement. Each escape creates incremental progress even if partially countered. The opponent cannot follow every hip adjustment while simultaneously maintaining squeeze and controlling your free arm. → Leads to [[Positions/Crucifix]]
 
 
 </section>

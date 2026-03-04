@@ -158,7 +158,7 @@ The defensive framework centers on three priorities in order: maintain your lape
 
 The most dangerous moment is when the attacker has controlled your gripping hand and secured a low pant grip. At this point, you must immediately activate your defense rather than waiting for the drag to begin. Framing on the shoulder, hip escaping to recover angle, or inverting to leg entanglements are all viable responses, but each must be initiated proactively. Reactive defense after the drag motion has started is significantly less effective because the attacker's rotational momentum compounds with each second of uncontested movement.
 
-**Opponent's Starting Position**: [[Lapel Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The most dangerous moment is when the attacker has controlled your gripping hand
 ### 1. Frame on passer's shoulder and hip escape toward the drag direction to re-face them
 
 - **When to use**: As soon as you feel lateral leg movement beginning, before shoulder contact is established on your hip
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Passer fails to complete the drag and you maintain your lapel guard position with configurations intact
 - **Risk**: If timed late, the passer drives through your frame and completes the drag to an even more dominant position
 
 ### 2. Re-grip the lapel with your free hand while pulling knees back to center
 
 - **When to use**: When the passer has stripped your primary lapel grip but has not yet completed the drag motion
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: You re-establish lapel configuration and force the passer to restart their clearing sequence
 - **Risk**: Reaching for the lapel leaves your upper body undefended and the passer may advance directly to crossface control
 
 ### 3. Invert and insert legs between you and the passer to recover shin-on-shin or single leg X
 
 - **When to use**: When the drag is partially completed and you cannot re-face the passer through hip escape alone
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover a guard position with leg entanglement that prevents the pass from completing
 - **Risk**: Failed inversion exposes your back and accelerates the passer's transition to back control
 
 ### 4. Scissor your legs to trap the passer's lead leg and recover half guard
 
 - **When to use**: When the drag is nearly complete and lapel guard recovery is no longer viable
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish half guard with knee shield, stopping the pass before side control consolidation
 - **Risk**: If the passer has already cleared your legs fully, the scissoring motion is too late and wastes energy
 
@@ -228,11 +228,11 @@ The most dangerous moment is when the attacker has controlled your gripping hand
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lapel Guard]]
+### → [[Positions/Lapel Guard]]
 
 Disrupt the drag early by framing on the passer's shoulder and hip escaping to re-face them before the lateral motion completes. Simultaneously, fight to maintain or re-establish your lapel grip with your free hand. The key timing is before the passer achieves shoulder-to-hip contact.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If the drag is partially completed, accept the positional loss of lapel guard and immediately focus on trapping the passer's lead leg between your knees before they can establish full leg drag control. Insert a knee shield as the passer attempts to consolidate, converting their passing position into a manageable half guard exchange.
 

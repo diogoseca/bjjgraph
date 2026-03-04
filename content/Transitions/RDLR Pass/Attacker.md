@@ -188,7 +188,7 @@ The RDLR Pass from the attacker perspective focuses on systematically dismantlin
 
 Success with this pass requires reading the guard player's weight distribution and grip configuration before committing to the clearing sequence. The passer should establish dominant grips on the far hip and the hooking-side wrist or sleeve, then use chest pressure on the inside thigh to flatten the guard before clearing the hook. The entire sequence must flow as a continuous chain of pressure rather than isolated steps, as any pause gives the guard player time to recover hooks, transition guards, or launch counter-attacks. Integration with complementary passing systems like leg drag, knee slice, and long step creates a multi-threat passing game that overwhelms defensive guard retention.
 
-**From Position**: [[Reverse De La Riva Guard]] (Top)
+**From Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Top)
 
 </section>
 
@@ -243,9 +243,9 @@ Success with this pass requires reading the guard player's weight distribution a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Reverse De La Riva Guard]] | 25% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/De La Riva Guard/Reverse De La Riva Guard]] | 25% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -254,11 +254,11 @@ Success with this pass requires reading the guard player's weight distribution a
 
 ## Opponent Counters
 
-- **Opponent transitions to Single Leg X or X-Guard as you clear the hook** (Effectiveness: High) - Your Response: Maintain constant pressure on their inside thigh and control their far hip throughout the clearing process. If they begin to establish the secondary guard, immediately backstep and extract your leg completely while maintaining upper body pressure. Do not allow them to establish both feet on your hips. → Leads to [[Reverse De La Riva Guard]]
-- **Opponent uses the RDLR hook to elevate and attempt to take the back via kiss of the dragon** (Effectiveness: High) - Your Response: Keep your hips back and base wide. If you feel elevation, immediately sit your hips back further and use your far hip grip to turn them away from your back. Do not allow them to get underneath your center of gravity. If they commit to the inversion, backstep completely and reset. → Leads to [[Back Control]]
-- **Opponent establishes a strong collar tie or overhook to break your posture** (Effectiveness: Medium) - Your Response: Address grips before attempting to pass. Strip or break the collar tie by posturing away and using your head positioning. If they secure an overhook, use it to circle toward that side, as it limits their mobility in that direction and can feed into a leg drag variation. → Leads to [[Reverse De La Riva Guard]]
-- **Opponent inverts or attempts berimbolo entry by rotating shoulders to the mat** (Effectiveness: Medium) - Your Response: As they attempt to invert, follow with pressure, stepping around their legs in the direction of their inversion. Use your chest pressure and far hip grip to prevent full rotation. If they commit deeply, backstep and drive them flat rather than chasing the inversion. → Leads to [[Back Control]]
-- **Opponent uses their free leg to push your hip and create distance for guard retention** (Effectiveness: Low) - Your Response: Trap their free leg with your chest pressure or control it with your trailing hand. If they establish a push on your hip, use that resistance to circle in the opposite direction, converting to a different passing angle such as leg drag or long step. → Leads to [[Reverse De La Riva Guard]]
+- **Opponent transitions to Single Leg X or X-Guard as you clear the hook** (Effectiveness: High) - Your Response: Maintain constant pressure on their inside thigh and control their far hip throughout the clearing process. If they begin to establish the secondary guard, immediately backstep and extract your leg completely while maintaining upper body pressure. Do not allow them to establish both feet on your hips. → Leads to [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
+- **Opponent uses the RDLR hook to elevate and attempt to take the back via kiss of the dragon** (Effectiveness: High) - Your Response: Keep your hips back and base wide. If you feel elevation, immediately sit your hips back further and use your far hip grip to turn them away from your back. Do not allow them to get underneath your center of gravity. If they commit to the inversion, backstep completely and reset. → Leads to [[Positions/Back Control]]
+- **Opponent establishes a strong collar tie or overhook to break your posture** (Effectiveness: Medium) - Your Response: Address grips before attempting to pass. Strip or break the collar tie by posturing away and using your head positioning. If they secure an overhook, use it to circle toward that side, as it limits their mobility in that direction and can feed into a leg drag variation. → Leads to [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
+- **Opponent inverts or attempts berimbolo entry by rotating shoulders to the mat** (Effectiveness: Medium) - Your Response: As they attempt to invert, follow with pressure, stepping around their legs in the direction of their inversion. Use your chest pressure and far hip grip to prevent full rotation. If they commit deeply, backstep and drive them flat rather than chasing the inversion. → Leads to [[Positions/Back Control]]
+- **Opponent uses their free leg to push your hip and create distance for guard retention** (Effectiveness: Low) - Your Response: Trap their free leg with your chest pressure or control it with your trailing hand. If they establish a push on your hip, use that resistance to circle in the opposite direction, converting to a different passing angle such as leg drag or long step. → Leads to [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 
 
 </section>

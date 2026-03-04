@@ -19,7 +19,7 @@ The Reverse Kesa to Side Control transition is a fundamental positional adjustme
 
 The transition is most commonly initiated when the top player recognizes that reverse kesa-gatame is becoming unstable due to the bottom player's escape attempts, when standard side control submissions are preferred over reverse kesa options, or when mount advancement is the strategic goal. Timing is critical: the safest window occurs when the bottom player pauses between escape attempts or when their near-side arm is securely controlled, limiting their ability to insert frames during the rotation. Rushing the transition while the bottom player is actively bridging or shrimping creates dangerous openings for guard recovery.
 
-**From Position**: [[Reverse Kesa-Gatame]] (Top)
+**From Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -30,9 +30,9 @@ The transition is most commonly initiated when the top player recognizes that re
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Reverse Kesa-Gatame]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Side Control/Reverse Kesa-Gatame]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Reverse Kesa to Side Control transition serves as a critical link in the top
 ## Related Techniques
 
 
-- [[Reverse Kesa-Gatame]] - Source position from which this transition begins
+- [[Positions/Side Control/Reverse Kesa-Gatame]] - Source position from which this transition begins
 
-- [[Side Control]] - Target position achieved upon successful completion of the transition
+- [[Positions/Side Control]] - Target position achieved upon successful completion of the transition
 
-- [[Half Guard]] - Counter outcome position if bottom player inserts knee during rotation
+- [[Positions/Half Guard]] - Counter outcome position if bottom player inserts knee during rotation
 
-- [[Reverse Kesa to North-South]] - Alternative transition from the same starting position heading toward opponent's head
+- [[Transitions/Reverse Kesa to North-South]] - Alternative transition from the same starting position heading toward opponent's head
 
-- [[Side Control to Mount]] - Common follow-up transition after establishing standard side control
+- [[Transitions/Side Control to Mount]] - Common follow-up transition after establishing standard side control
 
-- [[Kesa Gatame]] - Related scarf hold family position with similar rotational transition mechanics
+- [[Positions/Side Control/Kesa Gatame]] - Related scarf hold family position with similar rotational transition mechanics
 
-- [[North-South]] - Alternative dominant position accessible after reaching side control
+- [[Positions/North-South]] - Alternative dominant position accessible after reaching side control
 
-- [[Americana]] - Primary submission accessible from the target side control position
+- [[Transitions/Americana]] - Primary submission accessible from the target side control position
 
-- [[Kimura]] - Submission option available from both reverse kesa and the target side control
+- [[Transitions/Kimura]] - Submission option available from both reverse kesa and the target side control
 
-- [[Bridge from Reverse Kesa-Gatame]] - Defensive technique the bottom player may use to disrupt the transition
+- [[Transitions/Bridge from Reverse Kesa-Gatame]] - Defensive technique the bottom player may use to disrupt the transition
 
 
 </section>

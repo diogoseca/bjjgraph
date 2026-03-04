@@ -154,7 +154,7 @@ description: "Complete guide to defending the Lockdown Whizzer Pass from lockdow
 
 As the defender against the Lockdown Whizzer Pass, your primary challenge is preventing the top player from converting your underhook into a liability through the whizzer overhook. The whizzer pass specifically targets the underhook that powers your lockdown offense, making early recognition and immediate reaction essential. Your defensive priorities follow a clear hierarchy: first prevent the flattening that kills all lockdown attacks, second maintain or recover your underhook angle, and third use the top player's whizzer commitment to create sweep or transition opportunities. The pass is most dangerous when the bottom player fails to recognize the whizzer establishment and allows themselves to be flattened progressively. Active defense through underhook depth management, hip mobility maintenance, and timely transitions to alternative positions gives the lockdown player multiple pathways to neutralize this passing strategy.
 
-**Opponent's Starting Position**: [[Lockdown]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Lockdown]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ As the defender against the Lockdown Whizzer Pass, your primary challenge is pre
 ### 1. Deepen underhook and drive into top player to prevent flattening
 
 - **When to use**: Immediately upon feeling the whizzer overhook being established, before the top player can generate significant rotational pressure
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Maintains lockdown position with offensive underhook angle, preventing the pass and preserving sweep opportunities
 - **Risk**: If the underhook is not deep enough, the whizzer still flattens you and you have committed forward into their pressure
 
 ### 2. Time a whip-up sweep as top player shifts weight for leg extraction
 
 - **When to use**: When the top player begins the leg extraction phase and their weight shifts away from center, compromising their base momentarily
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Sweeps the top player, reversing position to achieve top position in half guard or reaching dogfight
 - **Risk**: If mistimed, the sweep fails and the leg extraction completes with you off-balance and unable to recover guard
 
 ### 3. Release lockdown and transition to deep half guard entry
 
 - **When to use**: When whizzer pressure is winning the flattening battle and continued lockdown retention becomes untenable
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Escapes the whizzer pressure entirely by going underneath the top player, establishing deep half guard with strong sweep options
 - **Risk**: If the deep half entry is scouted, the top player sprawls and passes to side control through the opening created by releasing the lockdown
 
 ### 4. Switch to overhook control on the whizzer arm and attack with triangle or omoplata
 
 - **When to use**: When the top player's whizzer arm is extended and their posture is low, creating an opportunity to capture the arm in your guard
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Neutralizes the whizzer and creates a new offensive position with submission threats from overhook guard
 - **Risk**: Releasing the underhook to switch to overhook may allow the top player to complete the pass if the transition is not clean
 
@@ -224,11 +224,11 @@ As the defender against the Lockdown Whizzer Pass, your primary challenge is pre
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lockdown]]
+### → [[Positions/Half Guard/Lockdown]]
 
 React immediately to the whizzer by deepening your underhook past the top player's far lat, making the overhook too shallow to generate effective rotational pressure. Maintain aggressive lockdown extension and side angle throughout. If the top player cannot flatten you within the first few seconds, their whizzer commitment weakens their base and you retain full lockdown offense.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your whip-up sweep for the moment the top player begins shifting weight to extract their trapped leg. The extraction phase requires them to move their hip away from you, creating a window where their base is compromised. Explode upward with the whip-up using lockdown extension and underhook drive to come to the top position. Their whizzer arm is occupied and cannot post to defend the sweep.
 

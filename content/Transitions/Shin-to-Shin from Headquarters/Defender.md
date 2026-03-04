@@ -146,7 +146,7 @@ description: "Defend against Shin-to-Shin entry from Headquarters top. Learn to 
 
 As the defender (top player in headquarters), you must prevent the bottom player from establishing shin-to-shin guard, which would completely neutralize your systematic passing structure and hand them an offensive guard position. Your headquarters position is designed to control one leg while maintaining base on the posting leg — the bottom player's shin insertion targets that posting leg specifically because disrupting it collapses your entire passing platform. Defense requires maintaining consistent pressure on the controlled leg while being aware of the bottom player's free leg movements, keeping your posting leg heavy and positioned to resist insertion attempts, and recognizing the early stages of the insertion so you can counter before the connection is established rather than after.
 
-**Opponent's Starting Position**: [[Headquarters Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Headquarters Position]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender (top player in headquarters), you must prevent the bottom player
 ### 1. Drive knee forward through insertion attempt to collapse shin connection before it establishes
 
 - **When to use**: When you recognize the free leg moving toward your posting shin in the early stages before perpendicular contact is achieved
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Shin insertion is stuffed and bottom player's free leg is displaced, potentially worsening their guard structure and opening passing lanes
 - **Risk**: If you overcommit forward, and the bottom player converts to a butterfly hook, your momentum can be used against you for an elevation sweep
 
 ### 2. Backstep posting leg away from the insertion while maintaining trapped-leg control
 
 - **When to use**: When the insertion is well-timed and you cannot collapse it with forward pressure — removing the target is safer than fighting the connection
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Shin insertion is denied entirely, though you may need to re-establish full headquarters position or settle for open guard top engagement
 - **Risk**: Backstepping compromises your headquarters base temporarily and may allow the bottom player to recover guard or create scramble opportunities
 
 ### 3. Strip the anchoring grip and apply cross-face pressure to flatten bottom player's angle
 
 - **When to use**: When you identify the preliminary grip that precedes the insertion — destroying the grip removes their mechanical anchor for pulling into position
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Bottom player cannot generate the hip escape angle needed for insertion and remains in headquarters bottom with diminished grip positioning
 - **Risk**: Grip stripping momentarily occupies your hands, potentially creating a different guard recovery opportunity if the bottom player is quick to exploit
 
 ### 4. Accelerate pass initiation to advance past guard before insertion completes
 
 - **When to use**: When you recognize the insertion attempt early and have sufficient grip positioning to complete a knee cut or leg drag faster than they can establish shin-to-shin
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You pass the guard entirely, making the shin-to-shin attempt irrelevant as you advance to side control or a dominant passing position
 - **Risk**: Rushing the pass without proper setup may result in a sloppy attempt that the bottom player can exploit for sweep or guard recovery
 
@@ -217,11 +217,11 @@ As the defender (top player in headquarters), you must prevent the bottom player
 
 ## Best-Case Outcomes for Defender
 
-### → [[Headquarters Position]]
+### → [[Positions/Headquarters Position]]
 
 Stuff the insertion early by driving your knee forward, stripping their preliminary grip, and applying cross-face pressure to flatten their angle. This keeps them in the disadvantageous headquarters bottom position where your systematic passing system remains intact.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 If the insertion is well-timed, backstep your posting leg to deny the target, then immediately re-engage with your passing sequence. While this resets to a less advantageous position than headquarters, it prevents the bottom player from establishing an offensive guard and keeps you in a top passing position.
 

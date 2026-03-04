@@ -180,7 +180,7 @@ description: "Learn to recover closed guard from Spider Guard as the bottom play
 
 As the bottom player with a compromised spider guard, your primary objective is to close the distance and wrap your legs around the opponent's torso before they can capitalize on the grip break to establish a passing position. Spider guard operates at long range through foot-on-bicep and sleeve grip controls, so when these controls fail, you must rapidly transition from a distance-based guard to the close-range closed guard system. The key challenge is managing the distance collapse—as the opponent breaks your grips, they drive forward into the newly available space, and you must use their forward momentum to pull them into closed guard rather than being overwhelmed by their pressure. This recovery is among the higher-percentage guard recoveries because the transition from spider to closed guard follows a natural distance-closing trajectory rather than requiring a complete positional restructuring.
 
-**From Position**: [[Spider Guard]] (Bottom)
+**From Position**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player with a compromised spider guard, your primary objective is 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Failure | [[Spider Guard]] | 30% |
-| Counter | [[Combat Base]] | 20% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Failure | [[Positions/Spider Guard]] | 30% |
+| Counter | [[Positions/Combat Base]] | 20% |
 
 
 </section>
@@ -243,9 +243,9 @@ As the bottom player with a compromised spider guard, your primary objective is 
 
 ## Opponent Counters
 
-- **Opponent creates maximum distance by standing up and extending arms during the spider grip break, preventing you from pulling them into guard closure range** (Effectiveness: High) - Your Response: If standing distance prevents closed guard, immediately transition to an alternative open guard—De La Riva hook on their lead leg, or feet-on-hips with collar grip for open guard distance management rather than fighting for closed guard at impossible range → Leads to [[Spider Guard]]
-- **Opponent drives a knee through your centerline as you retract your legs, establishing combat base before you can wrap guard around their torso** (Effectiveness: High) - Your Response: If the knee penetrates, redirect to half guard by wrapping one leg around their posted leg and establishing knee shield, then work toward full guard recovery from the stabilized half guard position → Leads to [[Combat Base]]
-- **Opponent strips your collar grip during the leg retraction, denying you the pulling handle needed to close distance for guard closure** (Effectiveness: Medium) - Your Response: Switch to a two-on-one sleeve grip or underhook their arm to create an alternative pulling mechanism, using the arm control to draw them toward you while your legs complete the guard wrap → Leads to [[Spider Guard]]
+- **Opponent creates maximum distance by standing up and extending arms during the spider grip break, preventing you from pulling them into guard closure range** (Effectiveness: High) - Your Response: If standing distance prevents closed guard, immediately transition to an alternative open guard—De La Riva hook on their lead leg, or feet-on-hips with collar grip for open guard distance management rather than fighting for closed guard at impossible range → Leads to [[Positions/Spider Guard]]
+- **Opponent drives a knee through your centerline as you retract your legs, establishing combat base before you can wrap guard around their torso** (Effectiveness: High) - Your Response: If the knee penetrates, redirect to half guard by wrapping one leg around their posted leg and establishing knee shield, then work toward full guard recovery from the stabilized half guard position → Leads to [[Positions/Combat Base]]
+- **Opponent strips your collar grip during the leg retraction, denying you the pulling handle needed to close distance for guard closure** (Effectiveness: Medium) - Your Response: Switch to a two-on-one sleeve grip or underhook their arm to create an alternative pulling mechanism, using the arm control to draw them toward you while your legs complete the guard wrap → Leads to [[Positions/Spider Guard]]
 
 
 </section>

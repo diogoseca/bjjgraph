@@ -17,7 +17,7 @@ description: "Master the Pressure Pass in BJJ. Complete guide to heavy pressure 
 
 The Pressure Pass is a fundamental guard passing technique that relies on controlled, heavy pressure to pin the opponent's hips and progressively advance past their legs. Unlike speed-based passes that seek to quickly bypass the guard, pressure passing emphasizes control, weight distribution, and methodical advancement. This approach is particularly effective against flexible opponents or those with strong retention, as it limits their mobility and forces them to carry your weight while you systematically break down their defensive structure. The Pressure Pass can be initiated from various guard positions including closed guard, half guard, and open guard variations. The key principle is establishing chest-to-chest or chest-to-hip pressure while controlling the opponent's hips and preventing them from creating space or recovering their guard. This pass is highly effective in gi and no-gi contexts and forms the foundation of many modern guard passing systems. The technique requires patience, proper weight distribution, and the ability to maintain pressure while advancing position incrementally.
 
-**From Position**: [[Combat Base]] (Top)
+**From Position**: [[Positions/Combat Base]] (Top)
 **Success Rate**: 72%
 
 </section>
@@ -28,9 +28,9 @@ The Pressure Pass is a fundamental guard passing technique that relies on contro
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 75% |
-| Failure | [[Combat Base]] | 15% |
-| Counter | [[Combat Base]] | 10% |
+| Success | [[Positions/Side Control]] | 75% |
+| Failure | [[Positions/Combat Base]] | 15% |
+| Counter | [[Positions/Combat Base]] | 10% |
 
 
 </section>
@@ -192,29 +192,29 @@ The Pressure Pass is a cornerstone technique in the guard passing hierarchy and 
 ## Related Techniques
 
 
-- [[Knee Slice Pass]] - Complementary technique - switch to knee slice when opponent creates space or uses frames
+- [[Transitions/Knee Slice Pass]] - Complementary technique - switch to knee slice when opponent creates space or uses frames
 
-- [[Leg Drag Pass]] - Alternative when opponent turns to side or establishes strong frames
+- [[Transitions/Leg Drag Pass]] - Alternative when opponent turns to side or establishes strong frames
 
-- [[Smash Pass]] - Variation from half guard using similar pressure principles
+- [[Transitions/Smash Pass]] - Variation from half guard using similar pressure principles
 
-- [[Over-Under Pass]] - Pressure pass variation with specific leg control mechanics
+- [[Transitions/Over-Under Pass]] - Pressure pass variation with specific leg control mechanics
 
-- [[Stack Pass]] - Stacking variation that uses vertical pressure instead of forward pressure
+- [[Transitions/Stack Pass]] - Stacking variation that uses vertical pressure instead of forward pressure
 
-- [[Combat Base]] - Primary starting position for initiating pressure pass
+- [[Positions/Combat Base]] - Primary starting position for initiating pressure pass
 
-- [[Side Control]] - Primary ending position after successful pressure pass
+- [[Positions/Side Control]] - Primary ending position after successful pressure pass
 
-- [[Half Guard Pass]] - Often combined when opponent retains half guard during pressure pass
+- [[Transitions/Half Guard Pass]] - Often combined when opponent retains half guard during pressure pass
 
-- [[Crossface Pass]] - Uses similar crossface control principles in passing mechanics
+- [[Transitions/Crossface Pass]] - Uses similar crossface control principles in passing mechanics
 
-- [[Deep Half Guard]] - Common counter opponent attempts - must defend against this entry
+- [[Positions/Half Guard/Deep Half Guard]] - Common counter opponent attempts - must defend against this entry
 
-- [[Double Under Pass]] - Double under variation applying stacking pressure with both arms under legs
+- [[Transitions/Double Under Pass]] - Double under variation applying stacking pressure with both arms under legs
 
-- [[Headquarters Pass]] - Intermediate passing position that feeds into pressure pass completion
+- [[Transitions/Headquarters Pass]] - Intermediate passing position that feeds into pressure pass completion
 
 
 </section>

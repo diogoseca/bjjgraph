@@ -26,8 +26,8 @@ This submission appears frequently in both gi and no-gi competition at all level
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint (hyperextension)
-**Starting Position**: [[Side Control]]
-**From Position**: [[Side Control]] (Top)
+**Starting Position**: [[Positions/Side Control]]
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -80,8 +80,8 @@ This submission appears frequently in both gi and no-gi competition at all level
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -239,14 +239,14 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 ## From Which Positions?
 
-- [[Side Control]]
-- [[Mount]]
-- [[High Mount]]
-- [[North-South]]
-- [[Knee on Belly]]
-- [[Modified Mount]]
-- [[S Mount]]
-- [[Technical Mount]]
+- [[Positions/Side Control]]
+- [[Positions/Mount]]
+- [[Positions/Mount/High Mount]]
+- [[Positions/North-South]]
+- [[Positions/Knee on Belly]]
+- [[Positions/Mount/Modified Mount]]
+- [[Positions/Mount/S Mount]]
+- [[Positions/Mount/Technical Mount]]
 
 
 </section>
@@ -255,17 +255,17 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 ## Related Submissions
 
-- [[Armbar from Mount]]
-- [[Armbar from Side Control]]
-- [[Armbar from Guard]]
-- [[Belly Down Armbar]]
-- [[Kimura]]
-- [[Americana from Side Control]]
-- [[Americana from Mount]]
-- [[Triangle Choke]]
-- [[Omoplata]]
-- [[Americana]]
-- [[Arm Triangle]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Armbar from Side Control]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Belly Down Armbar]]
+- [[Transitions/Kimura]]
+- [[Submissions/Americana from Side Control]]
+- [[Submissions/Americana from Mount]]
+- [[Transitions/Triangle Choke]]
+- [[Transitions/Omoplata]]
+- [[Transitions/Americana]]
+- [[Transitions/Arm Triangle]]
 
 
 </section>
@@ -274,18 +274,18 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 ## Additional Related Content
 
-- [[Armbar from Mount]] - Similar finishing mechanics from different starting position
-- [[Armbar from Side Control]] - Direct variation from same position family
-- [[Kimura]] - Alternative arm attack that can chain with far side armbar
-- [[Americana from Side Control]] - Near-arm attack that complements far-arm targeting
-- [[Side Control]] - Primary starting position for far side armbar
-- [[Mount]] - Alternative starting position for far side armbar
-- [[North-South]] - Transitional position that creates far side armbar opportunities
-- [[Triangle Choke]] - Alternative submission from similar control positions
-- [[Armbar Control]] - Control position for securing armbar finish
-- [[Belly Down Armbar]] - Variation finish when opponent defends standard armbar
-- [[Knee on Belly]] - Transitional position enabling far side armbar entries
-- [[High Mount]] - Elevated position providing superior armbar access
+- [[Submissions/Armbar from Mount]] - Similar finishing mechanics from different starting position
+- [[Submissions/Armbar from Side Control]] - Direct variation from same position family
+- [[Transitions/Kimura]] - Alternative arm attack that can chain with far side armbar
+- [[Submissions/Americana from Side Control]] - Near-arm attack that complements far-arm targeting
+- [[Positions/Side Control]] - Primary starting position for far side armbar
+- [[Positions/Mount]] - Alternative starting position for far side armbar
+- [[Positions/North-South]] - Transitional position that creates far side armbar opportunities
+- [[Transitions/Triangle Choke]] - Alternative submission from similar control positions
+- [[Positions/Armbar Control]] - Control position for securing armbar finish
+- [[Submissions/Belly Down Armbar]] - Variation finish when opponent defends standard armbar
+- [[Positions/Knee on Belly]] - Transitional position enabling far side armbar entries
+- [[Positions/Mount/High Mount]] - Elevated position providing superior armbar access
 
 
 </section>

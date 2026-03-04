@@ -21,7 +21,7 @@ Understanding proper opening mechanics prevents common injuries, maintains posit
 
 At the competitive level, guard opening efficiency separates effective passers from those who stall in closed guard. The sequence demands patience and methodical progression: establish posture, win the grip battle, create distance through standing or combat base, apply opening pressure, and immediately transition to passing. Rushing any step invites counters, while executing each phase with precision creates a cascading chain that forces the guard open and flows directly into high-percentage passing positions.
 
-**From Position**: [[Closed Guard]] (Top)
+**From Position**: [[Positions/Closed Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ At the competitive level, guard opening efficiency separates effective passers f
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Closed Guard]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -203,29 +203,29 @@ Guard Opening Sequence serves as the critical gateway from closed guard top to a
 ## Related Techniques
 
 
-- [[Closed Guard]] - Starting position for guard opening sequence
+- [[Positions/Closed Guard]] - Starting position for guard opening sequence
 
-- [[Open Guard]] - Resulting position after successful guard opening
+- [[Positions/Open Guard]] - Resulting position after successful guard opening
 
-- [[Combat Base]] - Common base position used during guard opening
+- [[Positions/Combat Base]] - Common base position used during guard opening
 
-- [[Toreando Pass]] - Common follow-up pass after opening the guard
+- [[Transitions/Toreando Pass]] - Common follow-up pass after opening the guard
 
-- [[Knee Slice Pass]] - Alternative follow-up pass from open guard position
+- [[Transitions/Knee Slice Pass]] - Alternative follow-up pass from open guard position
 
-- [[Leg Drag Pass]] - Advanced follow-up pass after guard opening
+- [[Transitions/Leg Drag Pass]] - Advanced follow-up pass after guard opening
 
-- [[Long Step Pass]] - Alternative passing option from open guard
+- [[Transitions/Long Step Pass]] - Alternative passing option from open guard
 
-- [[Grip Fighting]] - Essential concept integrated throughout opening sequence
+- [[Principles/Grip Fighting]] - Essential concept integrated throughout opening sequence
 
-- [[Elevator Sweep]] - Common counter sweep opponent uses during standing break
+- [[Transitions/Elevator Sweep]] - Common counter sweep opponent uses during standing break
 
-- [[Triangle from Closed Guard]] - Submission threat opponent may use if posture breaks
+- [[Submissions/Triangle from Closed Guard]] - Submission threat opponent may use if posture breaks
 
-- [[Hip Bump Sweep]] - Counter sweep opponent threatens during posture recovery
+- [[Transitions/Hip Bump Sweep]] - Counter sweep opponent threatens during posture recovery
 
-- [[Posture Recovery]] - Prerequisite technique for maintaining opening position
+- [[Transitions/Posture Recovery]] - Prerequisite technique for maintaining opening position
 
 
 </section>

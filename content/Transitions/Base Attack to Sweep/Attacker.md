@@ -178,7 +178,7 @@ This technique operates on the principle that the Aoki Lock top player cannot si
 
 The base attack is particularly effective because it addresses both survival and advancement simultaneously. Rather than simply escaping the shoulder lock, you create a dilemma where the opponent must choose between maintaining the submission or protecting their position. Advanced practitioners chain this with arm extraction attempts, using the threat of one to create openings for the other. This technique requires precise timing, hip mobility, and the ability to read when opponents are committed to finishing rather than maintaining position.
 
-**From Position**: [[Aoki Lock]] (Bottom)
+**From Position**: [[Positions/Aoki Lock]] (Bottom)
 
 </section>
 
@@ -230,9 +230,9 @@ The base attack is particularly effective because it addresses both survival and
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 65% |
-| Failure | [[Aoki Lock]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Mount]] | 65% |
+| Failure | [[Positions/Aoki Lock]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ The base attack is particularly effective because it addresses both survival and
 
 ## Opponent Counters
 
-- **Opponent widens base before committing to pressure, making posted leg unreachable** (Effectiveness: High) - Your Response: Switch to arm extraction escape when base is too wide, or create angle through hip escape to reach posted leg → Leads to [[Aoki Lock]]
-- **Opponent releases shoulder pressure and transitions to back control when base is threatened** (Effectiveness: High) - Your Response: Accept the position change and immediately address back control defense rather than continuing sweep → Leads to [[Back Control]]
-- **Opponent posts free hand on mat to create secondary base when leg is attacked** (Effectiveness: Medium) - Your Response: Continue sweep attempt as hand post provides inferior base, or transition to attacking posted hand instead → Leads to [[Aoki Lock]]
-- **Opponent drives weight forward explosively to finish before sweep completes** (Effectiveness: Medium) - Your Response: Tap immediately if shoulder pressure reaches dangerous threshold - no sweep is worth injury → Leads to [[Aoki Lock]]
+- **Opponent widens base before committing to pressure, making posted leg unreachable** (Effectiveness: High) - Your Response: Switch to arm extraction escape when base is too wide, or create angle through hip escape to reach posted leg → Leads to [[Positions/Aoki Lock]]
+- **Opponent releases shoulder pressure and transitions to back control when base is threatened** (Effectiveness: High) - Your Response: Accept the position change and immediately address back control defense rather than continuing sweep → Leads to [[Positions/Back Control]]
+- **Opponent posts free hand on mat to create secondary base when leg is attacked** (Effectiveness: Medium) - Your Response: Continue sweep attempt as hand post provides inferior base, or transition to attacking posted hand instead → Leads to [[Positions/Aoki Lock]]
+- **Opponent drives weight forward explosively to finish before sweep completes** (Effectiveness: Medium) - Your Response: Tap immediately if shoulder pressure reaches dangerous threshold - no sweep is worth injury → Leads to [[Positions/Aoki Lock]]
 
 
 </section>

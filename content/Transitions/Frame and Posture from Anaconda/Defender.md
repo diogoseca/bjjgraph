@@ -154,7 +154,7 @@ description: "Counter the Frame and Posture escape from Anaconda Control. Mainta
 
 As the anaconda control top player, defending against the Frame and Posture escape requires maintaining the chest-to-shoulder compression that the framing technique seeks to disrupt. Your primary challenge is keeping your body weight driving through the opponent's trapped shoulder while they attempt to wedge structural frames between your bodies. Understanding that frames derive their power from skeletal alignment rather than muscular effort helps you identify the correct counter-strategy: collapse frame angles through pressure adjustments and diagonal drives, change your angle to bypass established frames, and transition to alternative attacks when frames cannot be defeated through pressure alone. The frame escape is methodical rather than explosive, giving you time to read and counter each phase if you maintain positional awareness.
 
-**Opponent's Starting Position**: [[Anaconda Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Anaconda Control]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the anaconda control top player, defending against the Frame and Posture esca
 ### 1. Drive chest deeper and increase compression at a diagonal angle to collapse the frame before it becomes fully structural
 
 - **When to use**: Immediately upon feeling the bottom player's forearm make deliberate contact with your shoulder or hip in a framing position
-- **Targets**: [[Anaconda Control]]
+- **Targets**: [[Positions/Anaconda Control]]
 - **If successful**: Frame is defeated before creating meaningful space, maintaining full anaconda control and choking compression
 - **Risk**: Over-committing to forward diagonal pressure may compromise your base if the bottom player abandons the frame and switches to a different escape method
 
 ### 2. Switch to darce configuration by threading the choking arm deeper across the neck while frame-created space exists
 
 - **When to use**: When the frame has created meaningful separation and anaconda compression cannot be restored through pressure adjustments alone
-- **Targets**: [[Darce Control]]
+- **Targets**: [[Positions/Darce Control]]
 - **If successful**: Establishes darce choke control from a new angle that bypasses the opponent's established frame direction and catches them mid-escape
 - **Risk**: The grip transition moment creates a brief window where the opponent may extract their head entirely and escape to front headlock or guard
 
 ### 3. Release anaconda grip and immediately flatten opponent to establish side control before guard recovery
 
 - **When to use**: When posture recovery has progressed significantly and the anaconda grip no longer generates meaningful choking pressure through the frame
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Maintains dominant top position and scoring advantage even though the anaconda submission opportunity is lost
 - **Risk**: If timed too late, the opponent inserts a knee shield or recovers full guard instead of being consolidated into side control
 
 ### 4. Walk hips laterally to change the pressure angle and bypass the direction of the established frame entirely
 
 - **When to use**: When the opponent has a strong structural frame in one direction that resists direct forward pressure despite your compression attempts
-- **Targets**: [[Anaconda Control]]
+- **Targets**: [[Positions/Anaconda Control]]
 - **If successful**: New angle renders the existing frame ineffective because frames only resist force from one direction, restoring full chest-on-shoulder compression from a fresh vector
 - **Risk**: Hip movement momentarily reduces compression, potentially allowing the opponent to accelerate posture recovery during the angle change
 
@@ -225,15 +225,15 @@ As the anaconda control top player, defending against the Frame and Posture esca
 
 ## Best-Case Outcomes for Defender
 
-### → [[Anaconda Control]]
+### → [[Positions/Anaconda Control]]
 
 React to the initial frame placement by immediately increasing chest pressure diagonally through the trapped shoulder and snapping the opponent's posture back down before the frame achieves structural alignment. Walk your hips laterally to change the pressure angle if the frame takes root, preventing any sustained space creation that would enable posture recovery.
 
-### → [[Darce Control]]
+### → [[Positions/Darce Control]]
 
 When the frame has created enough space that anaconda compression is compromised beyond recovery, release the far-side hand and thread your choking arm deeper across the opponent's neck. The frame they established was positioned to counter the anaconda angle—the darce attacks from a different diagonal vector that their current frame position does not address.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When posture recovery has progressed past the point where the anaconda choke is viable, release the grip entirely and use your body weight to flatten the opponent by driving your shoulder across their face to establish crossface side control. Consolidate hip-to-hip contact before they can insert a knee shield or complete guard recovery.
 

@@ -178,7 +178,7 @@ The technical foundation relies on timing the leg hook insertion precisely as th
 
 Strategically, this technique represents the positional advancement pathway within the buggy choke attack system. When opponents recognize the immediate choking threat and prioritize escaping to guard over remaining static, the Hook Leg and Take Back punishes this defensive choice with an even more dominant position. Understanding this transition elevates the buggy choke from a single-path attack to a branching system where the opponent's defensive selection determines which dominant outcome you achieve.
 
-**From Position**: [[Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategically, this technique represents the positional advancement pathway with
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Buggy Choke]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Buggy Choke]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, this technique represents the positional advancement pathway with
 
 ## Opponent Counters
 
-- **Opponent immediately reclines backward to pin your back to mat and limit hook insertion angles** (Effectiveness: High) - Your Response: Anticipate backward pressure and swim your head to opposite shoulder side, using momentum to rotate toward crucifix or maintain top pressure through sprawl → Leads to [[Buggy Choke]]
-- **Opponent hand-fights aggressively on your harness grip to strip control before hooks can be inserted** (Effectiveness: Medium) - Your Response: Tighten harness by pulling elbows inward and use body weight to drive forward, making grip stripping ineffective against structural pressure → Leads to [[Buggy Choke]]
-- **Opponent turns into you quickly rather than sitting away, attempting to face you and recover guard** (Effectiveness: Medium) - Your Response: Follow the turn with your chest, transitioning to gift wrap arm control if they turn, or switch to darce configuration if neck angle presents → Leads to [[Half Guard]]
-- **Opponent extends far leg to post and prevent complete transition, maintaining distance** (Effectiveness: Low) - Your Response: Continue with near-side hook only and use that anchor to progressively work for second hook, or transition to body triangle on the controlled side → Leads to [[Back Control]]
+- **Opponent immediately reclines backward to pin your back to mat and limit hook insertion angles** (Effectiveness: High) - Your Response: Anticipate backward pressure and swim your head to opposite shoulder side, using momentum to rotate toward crucifix or maintain top pressure through sprawl → Leads to [[Positions/Buggy Choke]]
+- **Opponent hand-fights aggressively on your harness grip to strip control before hooks can be inserted** (Effectiveness: Medium) - Your Response: Tighten harness by pulling elbows inward and use body weight to drive forward, making grip stripping ineffective against structural pressure → Leads to [[Positions/Buggy Choke]]
+- **Opponent turns into you quickly rather than sitting away, attempting to face you and recover guard** (Effectiveness: Medium) - Your Response: Follow the turn with your chest, transitioning to gift wrap arm control if they turn, or switch to darce configuration if neck angle presents → Leads to [[Positions/Half Guard]]
+- **Opponent extends far leg to post and prevent complete transition, maintaining distance** (Effectiveness: Low) - Your Response: Continue with near-side hook only and use that anchor to progressively work for second hook, or transition to body triangle on the controlled side → Leads to [[Positions/Back Control]]
 
 
 </section>

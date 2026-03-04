@@ -21,7 +21,7 @@ The fundamental challenge of this recovery lies in the dual-point control system
 
 This transition is particularly important because diamond guard represents a position of significant energy asymmetry favoring the bottom player. The guard player maintains the diamond with relatively low muscular effort through structural alignment, while the top player expends considerable energy fighting two converging pulls. Every second spent in broken posture deepens fatigue and increases submission vulnerability. The posture recovery must be executed with technical precision rather than raw strength, using head positioning, elbow alignment, and hip drive as primary tools rather than attempting to muscle through the frame.
 
-**From Position**: [[Diamond Guard]] (Top)
+**From Position**: [[Positions/Closed Guard/Diamond Guard]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ This transition is particularly important because diamond guard represents a pos
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Failure | [[Diamond Guard]] | 35% |
-| Counter | [[Armbar Control]] | 20% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Failure | [[Positions/Closed Guard/Diamond Guard]] | 35% |
+| Counter | [[Positions/Armbar Control]] | 20% |
 
 
 </section>
@@ -197,27 +197,27 @@ Posture Recovery from Diamond Guard sits at the intersection of guard passing fu
 ## Related Techniques
 
 
-- [[Diamond Guard]] - Starting position — specialized closed guard variation with overhook and head control
+- [[Positions/Closed Guard/Diamond Guard]] - Starting position — specialized closed guard variation with overhook and head control
 
-- [[Closed Guard]] - Target position after successful posture recovery neutralizes diamond controls
+- [[Positions/Closed Guard]] - Target position after successful posture recovery neutralizes diamond controls
 
-- [[Armbar Control]] - Counter outcome — opponent catches armbar during failed recovery attempt
+- [[Positions/Armbar Control]] - Counter outcome — opponent catches armbar during failed recovery attempt
 
-- [[Overhook Guard]] - Related guard sharing overhook control mechanics that require similar recovery approach
+- [[Positions/Overhook Guard]] - Related guard sharing overhook control mechanics that require similar recovery approach
 
-- [[Guard Pass from Diamond Guard]] - Follow-up transition after posture is recovered and guard can be opened
+- [[Transitions/Guard Pass from Diamond Guard]] - Follow-up transition after posture is recovered and guard can be opened
 
-- [[Overhook Strip from Diamond Guard]] - Complementary technique addressing the overhook control point specifically
+- [[Transitions/Overhook Strip from Diamond Guard]] - Complementary technique addressing the overhook control point specifically
 
-- [[Guard Opening Sequence]] - Next phase after posture recovery enables systematic guard break progression
+- [[Transitions/Guard Opening Sequence]] - Next phase after posture recovery enables systematic guard break progression
 
-- [[Rubber Guard]] - Related high-control guard requiring similar posture recovery principles
+- [[Positions/Rubber Guard]] - Related high-control guard requiring similar posture recovery principles
 
-- [[Mission Control]] - Related rubber guard position with comparable head control requiring posture recovery
+- [[Positions/Rubber Guard/Mission Control]] - Related rubber guard position with comparable head control requiring posture recovery
 
-- [[Triangle Control]] - Submission threat if posture recovery is attempted carelessly exposing the neck
+- [[Positions/Triangle Control]] - Submission threat if posture recovery is attempted carelessly exposing the neck
 
-- [[Kimura Trap]] - Submission threat from the overhook control if recovery exposes the trapped arm
+- [[Positions/Kimura Trap]] - Submission threat from the overhook control if recovery exposes the trapped arm
 
 
 </section>

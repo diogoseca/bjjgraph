@@ -154,7 +154,7 @@ description: "Defend the Knee on Belly to Mount transition. Recognition cues, fr
 
 Defending the KOB to Mount transition requires recognizing the top player's intent before the step-over begins and executing defensive countermeasures during the narrow window of vulnerability created by the weight transfer. The defender's primary tools are frame creation, hip escape timing, and knee shield insertion. Success depends on acting early—once the top player completes the step-over and settles their weight, the position deteriorates from a difficult but escapable Knee on Belly to the significantly more oppressive mount. Understanding this transition's mechanics from the defender's perspective transforms a reactive survival scenario into a proactive defensive opportunity where the momentary instability of the step-over becomes your best chance to recover guard.
 
-**Opponent's Starting Position**: [[Knee on Belly]] (Top)
+**Opponent's Starting Position**: [[Positions/Knee on Belly]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the KOB to Mount transition requires recognizing the top player's inte
 ### 1. Frame on hip and execute aggressive hip escape to create distance for guard recovery
 
 - **When to use**: When you detect the transition early through grip changes or base foot movement, before the step-over has begun
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Create enough distance to insert knee shield and recover to half guard, denying the mount and regaining a defensive guard position
 - **Risk**: If the hip escape is late or insufficient, the top player rides the movement and establishes mount with your hips already displaced
 
 ### 2. Time an explosive bridge at the peak of the step-over to disrupt balance and abort the transition
 
 - **When to use**: When the top player's leg is mid-swing and their weight is committed to the transition, creating maximum instability in their base
-- **Targets**: [[Knee on Belly]]
+- **Targets**: [[Positions/Knee on Belly]]
 - **If successful**: Force the top player to abort the mount entry and re-establish KOB, resetting the positional exchange and buying time for escape
 - **Risk**: Mistimed bridge wastes energy and may actually assist the top player's weight transfer if executed too early or too late
 
 ### 3. Insert knee shield between bodies as the driving knee pressure decreases during the step-over
 
 - **When to use**: During the brief moment when the top player's weight shifts from the driving knee to the swinging leg, creating a gap in downward pressure
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Establish knee shield half guard, preventing mount consolidation and creating a defensive guard with offensive sweep potential
 - **Risk**: If the knee insertion is too slow, the top player clears it with their swinging leg and establishes mount over the partially inserted shield
 
 ### 4. Push the driving knee off your torso before the transition begins by framing and shrimping preemptively
 
 - **When to use**: When you recognize early preparation cues and the top player has not yet fully committed their grips to the transition
-- **Targets**: [[Knee on Belly]]
+- **Targets**: [[Positions/Knee on Belly]]
 - **If successful**: Dislodge KOB entirely and recover to open guard or force the top player to re-establish the position from side control
 - **Risk**: Extended arms pushing the knee become vulnerable to far-side armbar or wristlock if the top player capitalizes on the exposure
 
@@ -225,7 +225,7 @@ Defending the KOB to Mount transition requires recognizing the top player's inte
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your knee shield insertion during the step-over when driving knee pressure momentarily decreases. Thread your inside knee across the top player's hip line before they can clear it with the swinging leg. Half guard recovery denies the 4-point mount and gives you a guard position with legitimate sweep and back take threats.
 

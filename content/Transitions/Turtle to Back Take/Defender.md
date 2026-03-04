@@ -156,7 +156,7 @@ Defending the back take from turtle bottom is one of the most critical defensive
 
 The defender's priority hierarchy is clear: first prevent seatbelt grip establishment, then deny hook insertion through tight elbows and hip positioning, and finally execute an escape to guard recovery or standing position. Every second spent in passive turtle while the opponent builds control layers reduces your escape probability significantly. The most successful turtle defenders treat the position as a momentary transition point, spending minimal time there before exploding into a recovery sequence. Understanding the attacker's progression from chest pressure to seatbelt to hooks allows you to identify the optimal moment to launch each defensive action.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The defender's priority hierarchy is clear: first prevent seatbelt grip establis
 ### 1. Sit through to guard recovery by turning toward the attacker's underhook side and threading your near leg through to establish guard
 
 - **When to use**: When the attacker has seatbelt grip but has not yet inserted hooks, and their weight is committed forward on your back allowing hip rotation
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You recover to closed guard or half guard, neutralizing the back take threat and returning to a neutral or advantageous guard position
 - **Risk**: If the sit-through is too slow, the attacker follows your rotation and ends up in mount or maintains back control with hooks already partially inserted
 
 ### 2. Explosive standup by posting both hands, driving hips up and backward, and standing to break the attacker's chest connection and control grips
 
 - **When to use**: When the attacker's weight is relatively light or high on your back, and they have not yet secured deep hooks or a locked seatbelt grip
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You reach standing position where the attacker must transition to standing rear clinch, giving you significantly more escape options and mobility
 - **Risk**: If the attacker has deep seatbelt control, they hang their weight and drag you back down, potentially securing hooks during the failed standup attempt
 
 ### 3. Granby roll by inverting toward the attacker's choking arm side, using shoulder roll mechanics to spin underneath and face them in guard
 
 - **When to use**: When the attacker's weight is committed forward and high on your back, creating space underneath for the inversion, and they do not yet have hooks set
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You recover guard position by rolling through and facing the attacker, completely neutralizing the back take attempt
 - **Risk**: If timing is poor or the attacker reads the roll, they can follow your rotation and end up in an even more dominant position with hooks partially inserted
 
 ### 4. Hand fighting to strip seatbelt by using two-on-one grip control on the choking arm, peeling it away from your chest before hooks are inserted
 
 - **When to use**: When the attacker has established seatbelt grip but has not yet progressed to hook insertion, buying time for a subsequent escape
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You strip the seatbelt grip and create a window to execute a sit-through, standup, or granby roll before the attacker can re-establish upper body control
 - **Risk**: Prolonged hand fighting without committing to an escape allows the attacker time to work around your grip defense and insert hooks while you focus on hands
 
@@ -228,11 +228,11 @@ The defender's priority hierarchy is clear: first prevent seatbelt grip establis
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Execute a sit-through or granby roll to recover guard, which reverses the positional dynamic by placing you in guard where you can attack while the opponent must now work to pass. Time the escape when the attacker is transitioning between control phases and their weight is momentarily uncommitted.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Perform an explosive technical standup to reach standing position, breaking the attacker's chest connection and forcing them to transition to standing rear clinch where your escape options multiply. This is most effective when the attacker has light or high positioning and has not yet secured hooks or a deep seatbelt grip.
 

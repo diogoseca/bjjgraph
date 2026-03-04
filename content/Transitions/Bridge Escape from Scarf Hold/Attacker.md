@@ -180,7 +180,7 @@ description: "Execute the bridge escape from scarf hold in BJJ. Step-by-step gui
 
 The bridge escape from scarf hold is executed by the bottom player who must coordinate multiple control points before committing to an explosive rotational bridge. The attacker's challenge is overcoming the perpendicular weight distribution of the scarf hold, which eliminates standard lateral shrimping as an escape option. Instead, the bottom player must systematically compromise the top player's base by trapping their head-wrapping arm, hooking their near leg, and then generating explosive hip extension at a 45-degree angle to roll the top player over their exposed shoulder line. Success requires patience in establishing control points followed by total commitment to the bridge, as half-measures simply waste energy and alert the opponent.
 
-**From Position**: [[Scarf Hold Position]] (Bottom)
+**From Position**: [[Positions/Side Control/Scarf Hold Position]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The bridge escape from scarf hold is executed by the bottom player who must coor
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Scarf Hold Position]] | 35% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Side Control/Scarf Hold Position]] | 35% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ The bridge escape from scarf hold is executed by the bottom player who must coor
 
 ## Opponent Counters
 
-- **Opponent widens base by posting far arm wide and extending back leg to resist rotational force** (Effectiveness: High) - Your Response: If the full roll is blocked by their wide base, immediately convert the bridge into a hip escape by shrimping away during the space created by the upward bridge motion. Insert your knee for half guard recovery rather than forcing the roll against solid posting. → Leads to [[Scarf Hold Position]]
-- **Opponent steps over to mount as you lift your hips during the bridge, using your upward momentum to facilitate the transition** (Effectiveness: High) - Your Response: If you feel them stepping over, immediately abandon the bridge and clamp your elbows tight to your sides while bringing your knees up to block the mount transition. Redirect to elbow-knee escape frames to prevent mount consolidation. → Leads to [[Mount]]
-- **Opponent drops weight heavily and tightens head control to smother the bridge before it develops** (Effectiveness: Medium) - Your Response: When opponent drives weight down preemptively, use the pressure to load a deeper bridge by walking feet even closer. Wait for them to relax or shift weight to attack, then execute the bridge when their pressure momentarily decreases during the transition. → Leads to [[Scarf Hold Position]]
-- **Opponent circles their trapped arm free when you attempt to control it, maintaining posting ability** (Effectiveness: Medium) - Your Response: If they free their arm, immediately transition to the frame bridge variant where you bridge for space and hip escape to half guard rather than committing to the full roll. Alternatively, regrip their arm at a different control point such as elbow crease or tricep. → Leads to [[Scarf Hold Position]]
+- **Opponent widens base by posting far arm wide and extending back leg to resist rotational force** (Effectiveness: High) - Your Response: If the full roll is blocked by their wide base, immediately convert the bridge into a hip escape by shrimping away during the space created by the upward bridge motion. Insert your knee for half guard recovery rather than forcing the roll against solid posting. → Leads to [[Positions/Side Control/Scarf Hold Position]]
+- **Opponent steps over to mount as you lift your hips during the bridge, using your upward momentum to facilitate the transition** (Effectiveness: High) - Your Response: If you feel them stepping over, immediately abandon the bridge and clamp your elbows tight to your sides while bringing your knees up to block the mount transition. Redirect to elbow-knee escape frames to prevent mount consolidation. → Leads to [[Positions/Mount]]
+- **Opponent drops weight heavily and tightens head control to smother the bridge before it develops** (Effectiveness: Medium) - Your Response: When opponent drives weight down preemptively, use the pressure to load a deeper bridge by walking feet even closer. Wait for them to relax or shift weight to attack, then execute the bridge when their pressure momentarily decreases during the transition. → Leads to [[Positions/Side Control/Scarf Hold Position]]
+- **Opponent circles their trapped arm free when you attempt to control it, maintaining posting ability** (Effectiveness: Medium) - Your Response: If they free their arm, immediately transition to the frame bridge variant where you bridge for space and hip escape to half guard rather than committing to the full roll. Alternatively, regrip their arm at a different control point such as elbow crease or tricep. → Leads to [[Positions/Side Control/Scarf Hold Position]]
 
 
 </section>

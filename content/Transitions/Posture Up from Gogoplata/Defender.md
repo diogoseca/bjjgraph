@@ -154,7 +154,7 @@ description: "Defend against posture recovery attempts from Gogoplata Control. M
 
 As the defender in the Posture Up from Gogoplata scenario, you are the bottom player working to maintain your gogoplata control against the top player's posture recovery attempts. Your primary objective is preventing head extraction by keeping your shin optimally positioned across the throat while the foot behind their head remains securely anchored. When the opponent begins systematic posture recovery through hip driving and hand fighting, you must respond with hip elevation adjustments, active foot repositioning, and transitional awareness to either maintain the submission threat or flow seamlessly to alternative attacks. Understanding common posture recovery patterns allows you to pre-empt escape attempts and maintain offensive pressure throughout the exchange, turning their escape energy into opportunities for tighter control or positional transitions.
 
-**Opponent's Starting Position**: [[Gogoplata Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender in the Posture Up from Gogoplata scenario, you are the bottom pl
 ### 1. Re-elevate hips and pull foot deeper behind opponent's head to re-lock the submission
 
 - **When to use**: When opponent begins loosening the foot position or you feel slack developing in the closed-loop control system
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Gogoplata control is restored with tighter configuration than before, opponent must restart escape sequence from the beginning
 - **Risk**: If timed too late, opponent's backward momentum may overcome your hip elevation, breaking the position entirely
 
 ### 2. Transition to triangle choke by switching leg configuration as the shin displaces from the throat
 
 - **When to use**: When the opponent successfully displaces the shin from direct throat contact and the gogoplata submission threat is neutralized
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Catch opponent in triangle control, maintaining offensive position and submission threat from a new configuration
 - **Risk**: Incomplete triangle transition allows opponent to posture through and escape to open guard top
 
 ### 3. Use opponent's backward posture drive momentum to execute a sweep, elevating hips to redirect their weight toward mount
 
 - **When to use**: When opponent commits fully to backward hip drive with maximum force, creating momentum you can redirect
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Achieve mount position on opponent, converting their escape energy into a positional reversal
 - **Risk**: Releasing gogoplata for sweep without securing it means losing submission position entirely if sweep fails
 
 ### 4. Pull opponent's head back down with hand control on the back of their neck before posture recovery completes
 
 - **When to use**: When opponent begins straightening their spine but has not yet generated significant backward momentum
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Break opponent's posture recovery attempt early, re-establishing full gogoplata control with opponent's head trapped
 - **Risk**: Engaging hands on their neck temporarily loosens your foot control behind their head, creating a brief vulnerability window
 
@@ -225,11 +225,11 @@ As the defender in the Posture Up from Gogoplata scenario, you are the bottom pl
 
 ## Best-Case Outcomes for Defender
 
-### → [[Gogoplata Control]]
+### → [[Positions/Gogoplata Control]]
 
 Re-elevate hips immediately when you sense the opponent beginning posture recovery. Pull your foot deeper behind their head with both hands and increase shin pressure by driving your hips forward and upward. Address their escape at the earliest recognition cue before momentum develops, making it progressively harder for them to initiate a second attempt.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When gogoplata maintenance becomes untenable because the opponent has created significant separation, use their backward momentum against them. Elevate your hips explosively as they drive backward, redirect their weight over their base using your legs as levers, and follow the sweep to establish mount. Alternatively, transition to triangle as the shin displaces, catching them in an alternative submission that forces them into worse positioning.
 

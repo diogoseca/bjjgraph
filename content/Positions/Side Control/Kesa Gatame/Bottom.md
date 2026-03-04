@@ -210,23 +210,23 @@ From a strategic perspective, the bottom player in Kesa Gatame must internalize 
 
 ## Available Escapes
 
-### [[Bridge and Roll]] (12% of attempts)
+### [[Transitions/Bridge and Roll]] (12% of attempts)
 
-### [[Elbow Escape to Guard]] (13% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (13% of attempts)
 
-### [[Hip Escape to Guard]] (9% of attempts)
+### [[Transitions/Hip Escape to Guard]] (9% of attempts)
 
-### [[Back Take from Kesa Gatame]] (10% of attempts)
+### [[Transitions/Back Take from Kesa Gatame]] (10% of attempts)
 
-### [[Bridge and Turn to Turtle]] (28% of attempts)
+### [[Transitions/Bridge and Turn to Turtle]] (28% of attempts)
 
-### [[Ghost Escape]] (12% of attempts)
+### [[Transitions/Ghost Escape]] (12% of attempts)
 
-### [[Frame and Shrimp to Guard]] (10% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (10% of attempts)
 
-### [[Bridge Escape from Kesa Gatame]] (3% of attempts)
+### [[Transitions/Bridge Escape from Kesa Gatame]] (3% of attempts)
 
-### [[Frame to Guard from Kesa Gatame]] (3% of attempts)
+### [[Transitions/Frame to Guard from Kesa Gatame]] (3% of attempts)
 
 
 
@@ -237,26 +237,26 @@ From a strategic perspective, the bottom player in Kesa Gatame must internalize 
 ## Decision Making from This Position
 
 **If opponent maintains tight head control and heavy chest pressure without attacking submissions:**
-- Execute **[[Frame and Shrimp to Guard]]** → [[Half Guard]] (Probability: 40%)
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Bridge and Roll]]** → [[Closed Guard]] (Probability: 30%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 30%)
 
 
 **If opponent shifts weight forward toward your head or attempts to transition to mount:**
-- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Ghost Escape]]** → [[Turtle]] (Probability: 45%)
-- Execute **[[Back Take from Kesa Gatame]]** → [[Back Control]] (Probability: 35%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Ghost Escape]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Transitions/Back Take from Kesa Gatame]]** → [[Positions/Back Control]] (Probability: 35%)
 
 
 **If opponent releases head control to attack far-side arm for Americana or other submissions:**
-- Execute **[[Hip Escape to Guard]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Frame to Guard from Kesa Gatame]]** → [[Open Guard]] (Probability: 50%)
-- Execute **[[Bridge Escape from Kesa Gatame]]** → [[Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Frame to Guard from Kesa Gatame]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Bridge Escape from Kesa Gatame]]** → [[Positions/Half Guard]] (Probability: 45%)
 
 
 **If opponent's base becomes narrow or they post their far arm for stability:**
-- Execute **[[Bridge and Roll]]** → [[Closed Guard]] (Probability: 50%)
-- Execute **[[Bridge and Turn to Turtle]]** → [[Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Bridge and Turn to Turtle]]** → [[Positions/Turtle]] (Probability: 55%)
 
 
 
@@ -395,16 +395,16 @@ Bottom player cycles through multiple escape attempts in sequence: attempt elbow
 
 ## Related Positions and Techniques
 
-- **[[Side Control]]** - Similar defensive position with different escape mechanics
-- **[[Kuzure Kesa-Gatame]]** - Variation with modified grip and weight distribution
-- **[[Reverse Kesa-Gatame]]** - Opposite-side variation of scarf hold
-- **[[North-South]]** - Common transition target for top player
-- **[[Mount]]** - Common transition target for top player
-- **[[Turtle]]** - Primary escape target position
-- **[[Half Guard]]** - Primary guard recovery target
-- **[[Bridge and Roll]]** - Primary escape technique from this position
-- **[[Elbow Escape to Guard]]** - Fundamental escape movement pattern
-- **[[Ghost Escape]]** - High-percentage escape exploiting back exposure
+- **[[Positions/Side Control]]** - Similar defensive position with different escape mechanics
+- **[[Positions/Side Control/Kuzure Kesa-Gatame]]** - Variation with modified grip and weight distribution
+- **[[Positions/Side Control/Reverse Kesa-Gatame]]** - Opposite-side variation of scarf hold
+- **[[Positions/North-South]]** - Common transition target for top player
+- **[[Positions/Mount]]** - Common transition target for top player
+- **[[Positions/Turtle]]** - Primary escape target position
+- **[[Positions/Half Guard]]** - Primary guard recovery target
+- **[[Transitions/Bridge and Roll]]** - Primary escape technique from this position
+- **[[Transitions/Elbow Escape to Guard]]** - Fundamental escape movement pattern
+- **[[Transitions/Ghost Escape]]** - High-percentage escape exploiting back exposure
 
 
 </section>

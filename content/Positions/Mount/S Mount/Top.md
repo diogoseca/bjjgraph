@@ -212,25 +212,25 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 
 ## Available Attacks
 
-### [[Mount to Armbar]] (34% of attempts)
+### [[Transitions/Mount to Armbar]] (34% of attempts)
 
-### [[Triangle from Mount]] (15% of attempts)
+### [[Transitions/Triangle from Mount]] (15% of attempts)
 
-### [[Americana]] (7% of attempts)
+### [[Transitions/Americana]] (7% of attempts)
 
-### [[Kimura]] (7% of attempts)
+### [[Transitions/Kimura]] (7% of attempts)
 
-### [[Back Take]] (11% of attempts)
+### [[Transitions/Back Take]] (11% of attempts)
 
-### [[Mounted Crucifix Entry]] (7% of attempts)
+### [[Transitions/Mounted Crucifix Entry]] (7% of attempts)
 
-### [[Gift Wrap to Back]] (12% of attempts)
+### [[Transitions/Gift Wrap to Back]] (12% of attempts)
 
-### [[S Mount Armbar Setup]] (3% of attempts)
+### [[Transitions/S Mount Armbar Setup]] (3% of attempts)
 
-### [[S Mount to Mounted Triangle]] (2% of attempts)
+### [[Transitions/S Mount to Mounted Triangle]] (2% of attempts)
 
-### [[Armbar from S Mount]] (2% of attempts)
+### [[Submissions/Armbar from S Mount]] (2% of attempts)
 
 
 
@@ -241,30 +241,30 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 ## Decision Making from This Position
 
 **If opponent's arm is isolated and extended with proper control established:**
-- Execute **[[Complete armbar immediately]]** → [[Armbar Control]] (Probability: 85%)
-- Execute **[[Adjust hip angle for perfect leverage]]** → [[Armbar Control]] (Probability: 80%)
+- Execute **[[Complete armbar immediately]]** → [[Positions/Armbar Control]] (Probability: 85%)
+- Execute **[[Adjust hip angle for perfect leverage]]** → [[Positions/Armbar Control]] (Probability: 80%)
 
 
 **If opponent successfully bends their arm and grips their collar for defense:**
-- Execute **[[Break grip with wrist control]]** → [[Armbar Control]] (Probability: 60%)
-- Execute **[[Switch to triangle attack]]** → [[Mounted Triangle]] (Probability: 55%)
-- Execute **[[Return to mount and reset]]** → [[Mount]] (Probability: 70%)
+- Execute **[[Break grip with wrist control]]** → [[Positions/Armbar Control]] (Probability: 60%)
+- Execute **[[Switch to triangle attack]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 55%)
+- Execute **[[Return to mount and reset]]** → [[Positions/Mount]] (Probability: 70%)
 
 
 **If opponent turns away from S Mount to protect arm:**
-- Execute **[[Take the back immediately]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Establish gift wrap control]]** → [[Gift Wrap]] (Probability: 65%)
+- Execute **[[Take the back immediately]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Establish gift wrap control]]** → [[Positions/Gift Wrap]] (Probability: 65%)
 
 
 **If opponent brings free arm across body to defend:**
-- Execute **[[Switch to triangle setup]]** → [[Mounted Triangle]] (Probability: 70%)
-- Execute **[[Attack second arm with americana]]** → [[Kimura Trap]] (Probability: 60%)
-- Execute **[[Transition to mounted crucifix]]** → [[Mounted Crucifix]] (Probability: 50%)
+- Execute **[[Switch to triangle setup]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 70%)
+- Execute **[[Attack second arm with americana]]** → [[Positions/Kimura Trap]] (Probability: 60%)
+- Execute **[[Transition to mounted crucifix]]** → [[Positions/Mount/Mounted Crucifix]] (Probability: 50%)
 
 
 **If opponent begins effective hip escape creating significant space:**
-- Execute **[[Abandon S Mount and secure mount]]** → [[Mount]] (Probability: 85%)
-- Execute **[[Complete armbar quickly before escape]]** → [[Armbar Control]] (Probability: 50%)
+- Execute **[[Abandon S Mount and secure mount]]** → [[Positions/Mount]] (Probability: 85%)
+- Execute **[[Complete armbar quickly before escape]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 
@@ -410,15 +410,15 @@ Start in S Mount top, partner starts in S Mount bottom. Full resistance sparring
 
 ## Related Positions and Techniques
 
-- **[[Mount]]** - Primary entry position - S Mount is transitional attacking position from mount
-- **[[Armbar Control]]** - Primary submission destination - S Mount provides optimal setup for armbar
-- **[[High Mount]]** - Alternative attacking position - can flow between high mount and S Mount
-- **[[Mounted Triangle]]** - Alternative submission - common transition when armbar is defended
-- **[[Back Control]]** - Alternative advancement - take back when opponent turns away from S Mount
-- **[[Mount to Armbar]]** - Primary technique - the transition that S Mount is designed to facilitate
-- **[[Triangle from Mount]]** - Alternative submission - common chain attack when armbar is defended
-- **[[Mounted Crucifix]]** - Alternative control - similar arm isolation with different configuration
-- **[[Gift Wrap]]** - Control transition - can lead to S Mount or back take
+- **[[Positions/Mount]]** - Primary entry position - S Mount is transitional attacking position from mount
+- **[[Positions/Armbar Control]]** - Primary submission destination - S Mount provides optimal setup for armbar
+- **[[Positions/Mount/High Mount]]** - Alternative attacking position - can flow between high mount and S Mount
+- **[[Positions/Mount/Mounted Triangle]]** - Alternative submission - common transition when armbar is defended
+- **[[Positions/Back Control]]** - Alternative advancement - take back when opponent turns away from S Mount
+- **[[Transitions/Mount to Armbar]]** - Primary technique - the transition that S Mount is designed to facilitate
+- **[[Transitions/Triangle from Mount]]** - Alternative submission - common chain attack when armbar is defended
+- **[[Positions/Mount/Mounted Crucifix]]** - Alternative control - similar arm isolation with different configuration
+- **[[Positions/Gift Wrap]]** - Control transition - can lead to S Mount or back take
 
 
 </section>

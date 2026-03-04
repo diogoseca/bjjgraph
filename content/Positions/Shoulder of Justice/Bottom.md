@@ -208,23 +208,23 @@ From the bottom perspective, your primary objective is to relieve the shoulder p
 
 ## Available Escapes
 
-### [[Shrimp Escape]] (36% of attempts)
+### [[Transitions/Shrimp Escape]] (36% of attempts)
 
-### [[Elbow Escape to Guard]] (18% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (18% of attempts)
 
-### [[Frame and Shrimp to Guard]] (15% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (15% of attempts)
 
-### [[Bridge and Roll]] (10% of attempts)
+### [[Transitions/Bridge and Roll]] (10% of attempts)
 
-### [[Technical Stand-up]] (9% of attempts)
+### [[Transitions/Technical Stand-up]] (9% of attempts)
 
-### [[Hip Escape to Guard]] (7% of attempts)
+### [[Transitions/Hip Escape to Guard]] (7% of attempts)
 
-### [[Escape Shoulder of Justice]] (3% of attempts)
+### [[Transitions/Escape Shoulder of Justice]] (3% of attempts)
 
-### [[Frame from Shoulder of Justice]] (1% of attempts)
+### [[Transitions/Frame from Shoulder of Justice]] (1% of attempts)
 
-### [[Frame Escape from Shoulder of Justice]] (1% of attempts)
+### [[Transitions/Frame Escape from Shoulder of Justice]] (1% of attempts)
 
 
 
@@ -235,18 +235,18 @@ From the bottom perspective, your primary objective is to relieve the shoulder p
 ## Decision Making from This Position
 
 **If you can create micro-frame with bottom forearm without extending arm fully:**
-- Execute **[[Shrimp Escape]]** → [[Half Guard]] (Probability: 35%)
-- Execute **[[Frame and Shrimp to Guard]]** → [[Closed Guard]] (Probability: 28%)
+- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Closed Guard]] (Probability: 28%)
 
 
 **If opponent shifts weight toward your head to increase pressure intensity:**
-- Execute **[[Bridge and Roll]]** → [[Side Control]] (Probability: 22%)
-- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 18%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Side Control]] (Probability: 22%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 18%)
 
 
 **If opponent begins stepping over for mount transition creating space:**
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 42%)
-- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 32%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 42%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 32%)
 
 
 
@@ -378,15 +378,15 @@ Partner increases shoulder pressure incrementally. You must avoid all reactive m
 
 ## Related Positions and Techniques
 
-- **[[Shoulder of Justice]]** - Parent position - this is bottom perspective of parent position
-- **[[Side Control]]** - Parent category - Shoulder of Justice Bottom is specialized defensive variation
-- **[[Half Guard]]** - Primary escape target for guard recovery attempts
-- **[[Closed Guard]]** - Secondary escape target via full guard recovery
-- **[[Kimura Trap]]** - Primary threat when near arm is extended for relief
-- **[[North-South]]** - Position advancement threat when turning into pressure
-- **[[Mount]]** - Position advancement threat when shrimping creates space
-- **[[Shrimp Escape]]** - Primary escape technique from this position
-- **[[Elbow Escape to Guard]]** - Secondary escape technique for guard recovery
+- **[[Positions/Shoulder of Justice]]** - Parent position - this is bottom perspective of parent position
+- **[[Positions/Side Control]]** - Parent category - Shoulder of Justice Bottom is specialized defensive variation
+- **[[Positions/Half Guard]]** - Primary escape target for guard recovery attempts
+- **[[Positions/Closed Guard]]** - Secondary escape target via full guard recovery
+- **[[Positions/Kimura Trap]]** - Primary threat when near arm is extended for relief
+- **[[Positions/North-South]]** - Position advancement threat when turning into pressure
+- **[[Positions/Mount]]** - Position advancement threat when shrimping creates space
+- **[[Transitions/Shrimp Escape]]** - Primary escape technique from this position
+- **[[Transitions/Elbow Escape to Guard]]** - Secondary escape technique for guard recovery
 
 
 </section>

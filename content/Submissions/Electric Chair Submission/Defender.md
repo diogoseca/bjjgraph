@@ -160,7 +160,7 @@ The most critical defensive principle is preventing the attacker from completing
 
 When defense fails to prevent the submission entry, the defender must recognize the difference between manageable pressure and the breaking point threshold. Tapping early and safely is always preferable to sustaining knee or hip injury. The compression nature of the Electric Chair means damage accumulates progressively across multiple structures, and the submission can cause injury before the defender fully registers the severity of the pressure.
 
-**Opponent's Starting Position**: [[Lockdown]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 
 
 </section>
@@ -200,28 +200,28 @@ When defense fails to prevent the submission entry, the defender must recognize 
 ### 1. Post far hand wide on mat and drive weight backward to prevent inversion
 
 - **When to use**: As soon as you recognize opponent securing underhook and beginning to rotate - this is the highest-percentage defense when applied early
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Attacker cannot complete inversion and remains in standard lockdown position where you can work leg extraction
 - **Risk**: If opponent controls your posting arm, you lose your primary base and inversion prevention mechanism
 
 ### 2. Strip the underhook by driving shoulder pressure and swimming your arm over theirs
 
 - **When to use**: Before opponent begins inversion - removing underhook eliminates their upper body control and primary finishing mechanism
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Without underhook, attacker cannot maintain connection during inversion and loses ability to control your posture
 - **Risk**: Fighting for underhook creates space that opponent may use to accelerate inversion if you fail to strip it
 
 ### 3. Pull trapped leg back toward centerline while driving hips forward and flattening opponent
 
 - **When to use**: When opponent has begun inversion but has not yet achieved full hip extension - compress their space before finishing pressure develops
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Reduces extension angle and removes the space needed for compression; can lead to smash pass opportunity
 - **Risk**: If lockdown is too tight, pulling back can increase pressure on your own knee; must combine with forward pressure
 
 ### 4. Turn into opponent and drive crossface pressure to flatten their rotation
 
 - **When to use**: When opponent is mid-inversion and you still have upper body mobility - turning into them disrupts the rotational torque component
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Neutralizes the rotation that amplifies submission pressure; may allow you to scramble to a more neutral position
 - **Risk**: If opponent maintains tight lockdown during your turn, they may transition to back take as you expose your back
 
@@ -245,11 +245,11 @@ When defense fails to prevent the submission entry, the defender must recognize 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lockdown]]
+### → [[Positions/Half Guard/Lockdown]]
 
 Prevent inversion by posting far hand, maintaining posture, and systematically working to extract trapped leg from lockdown configuration
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When attacker overcommits to inversion, turn into them aggressively and use the scramble to reset to a more neutral half guard position where their Electric Chair setup is neutralized
 

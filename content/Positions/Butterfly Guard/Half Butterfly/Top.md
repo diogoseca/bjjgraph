@@ -208,23 +208,23 @@ The top player must establish upper body control first through crossface or unde
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (35% of attempts)
+### [[Transitions/Knee Slice Pass]] (35% of attempts)
 
-### [[Smash Pass]] (18% of attempts)
+### [[Transitions/Smash Pass]] (18% of attempts)
 
-### [[Underhook Pass]] (10% of attempts)
+### [[Transitions/Underhook Pass]] (10% of attempts)
 
-### [[Body Lock Pass]] (8% of attempts)
+### [[Transitions/Body Lock Pass]] (8% of attempts)
 
-### [[Half Guard to Flattened Half Guard]] (10% of attempts)
+### [[Transitions/Half Guard to Flattened Half Guard]] (10% of attempts)
 
-### [[Half Guard Pass]] (5% of attempts)
+### [[Transitions/Half Guard Pass]] (5% of attempts)
 
-### [[Leg Weave Pass]] (10% of attempts)
+### [[Transitions/Leg Weave Pass]] (10% of attempts)
 
-### [[Pass Half Butterfly]] (2% of attempts)
+### [[Transitions/Pass Half Butterfly]] (2% of attempts)
 
-### [[Smash Half Butterfly]] (2% of attempts)
+### [[Transitions/Smash Half Butterfly]] (2% of attempts)
 
 
 
@@ -235,23 +235,23 @@ The top player must establish upper body control first through crossface or unde
 ## Decision Making from This Position
 
 **If bottom player extends butterfly hook for sweep attempt:**
-- Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **Else if bottom player attempts to recover full butterfly guard:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **Else if bottom player creates underhook and attempts to come up:**
-- Execute **[[Underhook Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Leg Drag Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Underhook Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **Else if bottom player turns to turtle to escape:**
-- Execute **[[Front Headlock to Guillotine]]** → [[Front Headlock]] (Probability: 50%)
-- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Front Headlock to Guillotine]]** → [[Positions/Front Headlock]] (Probability: 50%)
+- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 
@@ -385,14 +385,14 @@ Top player maintains half butterfly top while bottom player randomly chooses bet
 
 ## Related Positions and Techniques
 
-- **[[Half Butterfly]]** - Complementary position - opposite perspective
-- **[[Butterfly Guard]]** - Parent position - starting point before partial pass
-- **[[Half Guard]]** - Similar position - half guard variant from top
-- **[[Knee Shield Half Guard]]** - Related variation - common transition point
-- **[[Knee Slice Pass]]** - Primary technique - most common passing option
-- **[[Smash Pass]]** - Primary technique - high-pressure passing option
-- **[[Underhook Pass]]** - Counter technique - used when bottom player gets underhook
-- **[[Deep Half Guard]]** - Common transition - where bottom player escapes
+- **[[Positions/Butterfly Guard/Half Butterfly]]** - Complementary position - opposite perspective
+- **[[Positions/Butterfly Guard]]** - Parent position - starting point before partial pass
+- **[[Positions/Half Guard]]** - Similar position - half guard variant from top
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Related variation - common transition point
+- **[[Transitions/Knee Slice Pass]]** - Primary technique - most common passing option
+- **[[Transitions/Smash Pass]]** - Primary technique - high-pressure passing option
+- **[[Transitions/Underhook Pass]]** - Counter technique - used when bottom player gets underhook
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common transition - where bottom player escapes
 
 
 </section>

@@ -154,7 +154,7 @@ description: "How to defend against the Transition to K-Guard from Half Guard To
 
 Defending the Transition to K-Guard requires the top player to recognize the reconfiguration attempt early and prevent the bottom player from completing the inverted hook switch. As the defender in half guard top, your primary objective is to deny the hip space and frame distance the bottom player needs to rotate their inside hook into the inverted K-Guard configuration. Once both the inverted hook and butterfly hook are actively engaged with tension, you are defending against a fully operational K-Guard sweep system rather than preventing a transition. Early recognition through tactile cues is critical because the hook switch happens in a narrow window, and the difference between a successful prevention and a scramble defense is measured in fractions of a second. The defender must maintain forward pressure, crossface control, and weight commitment to deny the space needed for the hook rotation while being prepared to exploit the momentary vulnerability when the bottom player releases their standard half guard hook.
 
-**Opponent's Starting Position**: [[Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Transition to K-Guard requires the top player to recognize the rec
 ### 1. Drive crossface and flatten bottom player's spine before hook rotation completes
 
 - **When to use**: At the earliest recognition of the shrimp and frame increase that precedes the hook switch, before the inside hook has been released
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Bottom player is pinned flat on their back with insufficient hip angle to complete the hook inversion, forced to abandon K-Guard entry and return to standard half guard defense
 - **Risk**: If timed too late after hooks are already reconfigured, the crossface pressure feeds into K-Guard's forward-pressure counter system
 
 ### 2. Extract trapped leg during the momentary hook release by sprawling backward and pulling leg free
 
 - **When to use**: The instant you feel the inside hook disengage from your trapped leg, before the inverted hook can be established across your thigh
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Your leg is completely freed from the entanglement, allowing immediate advancement to side control or knee on belly as the bottom player has lost their primary guard structure
 - **Risk**: If the bottom player anticipates the extraction and immediately hooks your retreating leg with a butterfly hook, you may end up in butterfly guard or single leg X-Guard
 
 ### 3. Underhook bottom player's inside arm to remove their frame during the transition
 
 - **When to use**: When you feel the bottom player increase their inside arm frame pressure, which signals the hook switch is imminent
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Without their protective frame, the bottom player cannot maintain the distance needed for the hook rotation and is vulnerable to chest-to-chest pressure that prevents the reconfiguration
 - **Risk**: Reaching for the underhook momentarily reduces your crossface pressure, potentially giving them the space window they need if your timing is off
 
 ### 4. Backstep pass by stepping your trapped leg over their hook attempt and circling to the back side
 
 - **When to use**: When the bottom player has partially completed the K-Guard configuration but hooks are not yet loaded with tension
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Your backstep removes the trapped leg from the hook system entirely and positions you behind the bottom player's defensive structure for a clean pass to side control
 - **Risk**: If the butterfly hook catches your stepping leg during the backstep, you may end up in a scramble or leg entanglement
 
@@ -225,11 +225,11 @@ Defending the Transition to K-Guard requires the top player to recognize the rec
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Shut down the entry early by driving crossface pressure and flattening the bottom player's spine before they complete the hook switch. Maintain heavy forward pressure to deny the hip angle needed for hook rotation. Return to standard half guard top with passing initiative.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Exploit the momentary vulnerability when the bottom player releases their standard inside hook by immediately extracting your trapped leg through a sprawl or backstep. The brief window of reduced entanglement during the hook switch is the best opportunity to advance position. Time your extraction to the instant you feel the inside hook disengage.
 

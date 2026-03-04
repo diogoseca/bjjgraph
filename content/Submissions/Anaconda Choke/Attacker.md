@@ -184,7 +184,7 @@ The Anaconda Choke is a front headlock blood choke that targets the carotid arte
 
 The submission's effectiveness comes from the combined pressure of the choking arm against one carotid artery while the opponent's own shoulder is driven into their opposite carotid. This dual-sided pressure creates a rapid loss of consciousness if not defended immediately. The Anaconda is particularly effective in no-gi grappling where the absence of collar grips forces opponents to defend with posture, creating the head-down position ideal for this attack. The critical finishing mechanic is the roll to the side followed by hip drive and elbow squeeze - without the roll, top-position finishing attempts lack the compression needed to close the choke. The Anaconda chains seamlessly with the Darce choke, making the two techniques a devastatingly effective paired system from front headlock control.
 
-**From Position**: [[Anaconda Control]] (Top)
+**From Position**: [[Positions/Anaconda Control]] (Top)
 
 
 </section>
@@ -241,8 +241,8 @@ The submission's effectiveness comes from the combined pressure of the choking a
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Anaconda Control]] | 30% |
-| Counter | [[Front Headlock]] | 15% |
+| Failure | [[Positions/Anaconda Control]] | 30% |
+| Counter | [[Positions/Front Headlock]] | 15% |
 
 
 </section>
@@ -251,11 +251,11 @@ The submission's effectiveness comes from the combined pressure of the choking a
 
 ## Opponent Defenses
 
-- **Hand fighting to prevent figure-four completion** (Effectiveness: High) - Your Response: Use your body weight to pin their defending hand. Alternatively, complete a partial grip and use that pressure to force their hand away, then upgrade to full figure-four. Control their wrist with your legs if possible. → Leads to [[Anaconda Control]]
-- **Tucking chin to protect neck and carotid arteries** (Effectiveness: Medium) - Your Response: The chin tuck is less effective on Anaconda than rear naked choke since pressure comes from the side. Drive your forearm deeper and ensure their trapped shoulder is tight to their neck. Hip pressure will often overcome chin defense. → Leads to [[Anaconda Control]]
-- **Pushing your head to create space and escape the choke** (Effectiveness: Medium) - Your Response: Maintain tight connection between your head and your grip. If they push your head, use that moment to roll to your side more aggressively, using their push to help you rotate. Your grip is what matters, not your head position. → Leads to [[Anaconda Control]]
+- **Hand fighting to prevent figure-four completion** (Effectiveness: High) - Your Response: Use your body weight to pin their defending hand. Alternatively, complete a partial grip and use that pressure to force their hand away, then upgrade to full figure-four. Control their wrist with your legs if possible. → Leads to [[Positions/Anaconda Control]]
+- **Tucking chin to protect neck and carotid arteries** (Effectiveness: Medium) - Your Response: The chin tuck is less effective on Anaconda than rear naked choke since pressure comes from the side. Drive your forearm deeper and ensure their trapped shoulder is tight to their neck. Hip pressure will often overcome chin defense. → Leads to [[Positions/Anaconda Control]]
+- **Pushing your head to create space and escape the choke** (Effectiveness: Medium) - Your Response: Maintain tight connection between your head and your grip. If they push your head, use that moment to roll to your side more aggressively, using their push to help you rotate. Your grip is what matters, not your head position. → Leads to [[Positions/Anaconda Control]]
 - **Rolling toward you to relieve pressure and escape** (Effectiveness: Low) - Your Response: If they roll toward you, they're actually helping you achieve the finishing position. Maintain your grip and allow the roll, then immediately bring your knees to chest and apply hip pressure. This defense usually accelerates the finish. → Leads to [[game-over]]
-- **Straightening trapped arm to create space in the choke** (Effectiveness: High) - Your Response: This is one of the most effective defenses. Immediately adjust by either transitioning to Darce choke (if their arm straightens completely), or use your legs to hook their straightening arm and pull it back into trapped position. Prevention is best - trap their arm securely before completing figure-four. → Leads to [[Front Headlock]]
+- **Straightening trapped arm to create space in the choke** (Effectiveness: High) - Your Response: This is one of the most effective defenses. Immediately adjust by either transitioning to Darce choke (if their arm straightens completely), or use your legs to hook their straightening arm and pull it back into trapped position. Prevention is best - trap their arm securely before completing figure-four. → Leads to [[Positions/Front Headlock]]
 
 
 </section>

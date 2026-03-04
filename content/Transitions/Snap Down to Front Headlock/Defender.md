@@ -156,7 +156,7 @@ Defending the snap down to front headlock requires early recognition, strong pos
 
 The key defensive principle is that the snap down becomes exponentially harder to defend once the attacker has achieved the initial postural break. Therefore, the most effective defense is prevention through proper head position, active hand fighting, and awareness of when you are being loaded for the snap. When prevention fails and the snap lands, the defender must immediately activate escape protocols focused on recovering posture, circling away from the attacker's control side, or converting the scramble into a neutral position before submissions become available.
 
-**Opponent's Starting Position**: [[Clinch]] (Top)
+**Opponent's Starting Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The key defensive principle is that the snap down becomes exponentially harder t
 ### 1. Posture recovery and grip strip - immediately straighten posture while stripping the hand from behind your head using two-on-one grip break
 
 - **When to use**: Early in the sequence when you first feel the opponent establishing head control, before they have secured both grip points and before any downward force is applied
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Returns to neutral clinch position with you having grip advantage since opponent's hand has been stripped and they must re-establish control
 - **Risk**: If too slow, opponent may already have enough control to execute snap during your grip-breaking attempt, pulling you down mid-strip
 
 ### 2. Level change and shoot - drop your level and initiate a single leg or double leg takedown as opponent commits weight to the snap
 
 - **When to use**: When you feel the loading phase and recognize the snap is imminent, using their forward weight commitment as your takedown entry timing
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Converts the defensive situation into an offensive takedown, potentially reaching side control or at minimum disrupting their snap attempt entirely
 - **Risk**: If mistimed, you may shoot directly into their snap, accelerating your descent and ending in a worse front headlock position than if you had simply defended
 
 ### 3. Circle and pummel - step laterally away from the attacker's primary pulling direction while aggressively pummeling for inside position
 
 - **When to use**: When the snap is being executed or has partially succeeded but you still have some base and posture remaining
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Neutralizes the snap by removing the direct line of force and re-establishes neutral clinch position with improved angle on the attacker
 - **Risk**: If you circle into the attacker's power angle rather than away from it, you may accelerate the snap and end up in a worse position
 
 ### 4. Post and stand - if snapped down, immediately post your hands on the mat, secure chin tuck, fight the choking arm at the wrist, and work to stand back up
 
 - **When to use**: After the snap has succeeded and you find yourself bent over with opponent establishing front headlock control
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Recovers standing position and returns to clinch engagement, denying front headlock establishment
 - **Risk**: Standing up with opponent's arm around your neck can tighten guillotine if you extend your neck or fail to control the choking arm
 
@@ -228,11 +228,11 @@ The key defensive principle is that the snap down becomes exponentially harder t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Strip opponent's head grip early using two-on-one grip break and immediately re-establish your own collar tie with inside position. Alternatively, after being partially snapped, fight the choking arm at the wrist, maintain chin tuck, and use explosive hip drive to stand back to neutral clinch while circling away from their power side.
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Use the attacker's forward commitment during the snap as a window for counter-wrestling. As they drive forward and pull down, change levels and shoot a double or single leg takedown, converting their offensive momentum into your takedown opportunity. Their forward weight makes it difficult to sprawl effectively.
 

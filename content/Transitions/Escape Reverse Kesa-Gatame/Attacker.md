@@ -186,7 +186,7 @@ description: "Execute the hip escape from Reverse Kesa-Gatame. Step-by-step guid
 
 Executing the hip escape from Reverse Kesa-Gatame requires disciplined sequencing through frame establishment, incremental shrimping, and precise knee insertion to recover guard. Unlike the explosive bridge escape from this same position, the hip escape works through systematic space creation that erodes the top player's control over multiple movements rather than a single explosive effort. The technique is particularly effective when the opponent maintains low, heavy pressure that neutralizes bridging attempts, making it the primary escape tool for the most common and technically sound Reverse Kesa-Gatame configurations. Success depends on patience, proper frame placement to prevent re-consolidation, and the discipline to chain multiple small shrimps rather than attempting one large movement.
 
-**From Position**: [[Reverse Kesa-Gatame]] (Bottom)
+**From Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Bottom)
 
 </section>
 
@@ -239,10 +239,10 @@ Executing the hip escape from Reverse Kesa-Gatame requires disciplined sequencin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Closed Guard]] | 10% |
-| Failure | [[Reverse Kesa-Gatame]] | 35% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Closed Guard]] | 10% |
+| Failure | [[Positions/Side Control/Reverse Kesa-Gatame]] | 35% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ Executing the hip escape from Reverse Kesa-Gatame requires disciplined sequencin
 
 ## Opponent Counters
 
-- **Opponent drives chest weight down and follows the hip escape to re-flatten you against the mat** (Effectiveness: High) - Your Response: Maintain a rigid frame throughout the shrimp and immediately replant for the next hip escape. If the frame collapses, switch to a bridge attempt to disrupt their weight before resuming shrimping. The key is persistent, repeated shrimps rather than one large movement. → Leads to [[Reverse Kesa-Gatame]]
-- **Opponent steps over to mount as you create space with the hip escape, exploiting the gap between your bodies** (Effectiveness: High) - Your Response: Keep your near knee high and ready to block the leg-over transition throughout the escape. If you feel them lifting their leg, immediately insert your knee shield before committing to more hip escape movement. Prioritize blocking the mount transition over creating space. → Leads to [[Mount]]
-- **Opponent attacks the free arm when it is used as a frame, threatening Americana or Kimura on the framing arm** (Effectiveness: Medium) - Your Response: Use intermittent frames rather than a static post—frame, shrimp, retract, repeat. Keep the elbow of the framing arm tight and rotate the frame position to prevent isolation. If the arm is threatened, abandon the frame momentarily and defend the submission before resuming the escape. → Leads to [[Reverse Kesa-Gatame]]
-- **Opponent switches to north-south or adjusts angle to chase your hip escape movement** (Effectiveness: Medium) - Your Response: If the opponent begins rotating to follow your hips, accelerate the escape and insert the knee immediately rather than creating more space. Their transition creates a window where their weight shifts between positions—exploit this moment of instability for rapid knee insertion. → Leads to [[Reverse Kesa-Gatame]]
+- **Opponent drives chest weight down and follows the hip escape to re-flatten you against the mat** (Effectiveness: High) - Your Response: Maintain a rigid frame throughout the shrimp and immediately replant for the next hip escape. If the frame collapses, switch to a bridge attempt to disrupt their weight before resuming shrimping. The key is persistent, repeated shrimps rather than one large movement. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
+- **Opponent steps over to mount as you create space with the hip escape, exploiting the gap between your bodies** (Effectiveness: High) - Your Response: Keep your near knee high and ready to block the leg-over transition throughout the escape. If you feel them lifting their leg, immediately insert your knee shield before committing to more hip escape movement. Prioritize blocking the mount transition over creating space. → Leads to [[Positions/Mount]]
+- **Opponent attacks the free arm when it is used as a frame, threatening Americana or Kimura on the framing arm** (Effectiveness: Medium) - Your Response: Use intermittent frames rather than a static post—frame, shrimp, retract, repeat. Keep the elbow of the framing arm tight and rotate the frame position to prevent isolation. If the arm is threatened, abandon the frame momentarily and defend the submission before resuming the escape. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
+- **Opponent switches to north-south or adjusts angle to chase your hip escape movement** (Effectiveness: Medium) - Your Response: If the opponent begins rotating to follow your hips, accelerate the escape and insert the knee immediately rather than creating more space. Their transition creates a window where their weight shifts between positions—exploit this moment of instability for rapid knee insertion. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
 
 
 </section>

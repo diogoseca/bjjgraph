@@ -21,7 +21,7 @@ The defense varies significantly depending on whether the armbar is being applie
 
 Successful armbar defense demands an understanding of the submission's mechanics from the attacker's perspective. Knowing that the armbar requires perpendicular hip alignment, controlled wrist grip, leg control over the head and torso, and hip elevation for the finish allows the defender to systematically address each requirement. Removing any single element compromises the submission, creating escape windows that grow larger as additional control points are disrupted.
 
-**From Position**: [[Armbar Control]] (Bottom)
+**From Position**: [[Positions/Armbar Control]] (Bottom)
 **Success Rate**: 52%
 
 </section>
@@ -32,9 +32,9 @@ Successful armbar defense demands an understanding of the submission's mechanics
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Armbar Control]] | 30% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Armbar Control]] | 30% |
 | Counter | [[game-over]] | 10% |
 
 
@@ -197,29 +197,29 @@ Armbar defense is integrated throughout the entire BJJ positional hierarchy, as 
 ## Related Techniques
 
 
-- [[Triangle Escape]] - Alternative defense when opponent switches from armbar to triangle
+- [[Transitions/Triangle Escape]] - Alternative defense when opponent switches from armbar to triangle
 
-- [[Elbow Escape to Guard]] - Foundational escape movement that supports armbar defense mechanics
+- [[Transitions/Elbow Escape to Guard]] - Foundational escape movement that supports armbar defense mechanics
 
-- [[Armbar from Mount]] - Understanding offensive technique improves defensive recognition
+- [[Submissions/Armbar from Mount]] - Understanding offensive technique improves defensive recognition
 
-- [[Armbar from Guard]] - Studying guard armbar mechanics enhances defensive options
+- [[Submissions/Armbar from Guard]] - Studying guard armbar mechanics enhances defensive options
 
-- [[Bridge and Roll]] - Mount escape that can be combined with armbar defense
+- [[Transitions/Bridge and Roll]] - Mount escape that can be combined with armbar defense
 
-- [[Hip Escape to Guard]] - Movement pattern used in mount armbar defense variations
+- [[Transitions/Hip Escape to Guard]] - Movement pattern used in mount armbar defense variations
 
-- [[Closed Guard]] - Common recovery position after successful armbar defense
+- [[Positions/Closed Guard]] - Common recovery position after successful armbar defense
 
-- [[Half Guard]] - Alternative recovery position after armbar escape
+- [[Positions/Half Guard]] - Alternative recovery position after armbar escape
 
-- [[Armbar Control]] - Position being escaped from - understand attacker mechanics
+- [[Positions/Armbar Control]] - Position being escaped from - understand attacker mechanics
 
-- [[Triangle Control]] - Common transition threat during armbar defense
+- [[Positions/Triangle Control]] - Common transition threat during armbar defense
 
-- [[Omoplata Control]] - Alternative attack opponent may transition to during defense
+- [[Positions/Omoplata Control]] - Alternative attack opponent may transition to during defense
 
-- [[Turtle]] - Possible recovery position after rolling escape variations
+- [[Positions/Turtle]] - Possible recovery position after rolling escape variations
 
 
 </section>

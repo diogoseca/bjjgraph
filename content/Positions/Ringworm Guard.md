@@ -91,19 +91,19 @@ The guard creates mechanical advantages through the lapel wrap, restricting the 
 ### Available Transitions
 
 
-- **[[Ringworm Sweep to Back Control]]** (15% of attempts)
+- **[[Transitions/Ringworm Sweep to Back Control]]** (15% of attempts)
 
-- **[[Triangle Setup]]** (13% of attempts)
+- **[[Transitions/Triangle Setup]]** (13% of attempts)
 
-- **[[Omoplata to Sweep]]** (13% of attempts)
+- **[[Transitions/Omoplata to Sweep]]** (13% of attempts)
 
-- **[[Lapel Sweep to Back]]** (16% of attempts)
+- **[[Transitions/Lapel Sweep to Back]]** (16% of attempts)
 
-- **[[Berimbolo Entry]]** (13% of attempts)
+- **[[Transitions/Berimbolo Entry]]** (13% of attempts)
 
-- **[[Ringworm Guard to Worm Guard]]** (23% of attempts)
+- **[[Transitions/Ringworm Guard to Worm Guard]]** (23% of attempts)
 
-- **[[Ringworm to Spider Guard]]** (7% of attempts)
+- **[[Transitions/Ringworm to Spider Guard]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -162,17 +162,17 @@ The guard creates mechanical advantages through the lapel wrap, restricting the 
 ### Available Transitions
 
 
-- **[[Lapel Grip Break and Posture Recovery]]** (17% of attempts)
+- **[[Transitions/Lapel Grip Break and Posture Recovery]]** (17% of attempts)
 
-- **[[Leg Extraction from Lapel Wrap]]** (18% of attempts)
+- **[[Transitions/Leg Extraction from Lapel Wrap]]** (18% of attempts)
 
-- **[[Stack Pass with Lapel Control Negation]]** (15% of attempts)
+- **[[Transitions/Stack Pass with Lapel Control Negation]]** (15% of attempts)
 
-- **[[Standing Guard Pass with Distance Creation]]** (14% of attempts)
+- **[[Transitions/Standing Guard Pass with Distance Creation]]** (14% of attempts)
 
-- **[[Smash Pass Counter]]** (17% of attempts)
+- **[[Transitions/Smash Pass Counter]]** (17% of attempts)
 
-- **[[Standing Reset to Open Guard]]** (19% of attempts)
+- **[[Transitions/Standing Reset to Open Guard]]** (19% of attempts)
 
 
 ### Common Mistakes
@@ -211,15 +211,15 @@ The guard creates mechanical advantages through the lapel wrap, restricting the 
 ## Related Positions
 
 
-- **[[Worm Guard]]** - Parent position in the lapel guard family - shares similar lapel manipulation principles
+- **[[Positions/Worm Guard]]** - Parent position in the lapel guard family - shares similar lapel manipulation principles
 
-- **[[Squid Guard]]** - Sister position variation - another Keenan Cornelius lapel guard with related concepts
+- **[[Positions/Squid Guard]]** - Sister position variation - another Keenan Cornelius lapel guard with related concepts
 
-- **[[Lapel Guard]]** - General category - Ringworm is a specific variation of lapel-based guard systems
+- **[[Positions/Lapel Guard]]** - General category - Ringworm is a specific variation of lapel-based guard systems
 
-- **[[Spider Guard]]** - Alternative open guard option - shares distance management principles without lapel dependency
+- **[[Positions/Spider Guard]]** - Alternative open guard option - shares distance management principles without lapel dependency
 
-- **[[De La Riva Guard]]** - Shares angular attack concepts and leg hooking mechanics
+- **[[Positions/De La Riva Guard]]** - Shares angular attack concepts and leg hooking mechanics
 
 
 </section>

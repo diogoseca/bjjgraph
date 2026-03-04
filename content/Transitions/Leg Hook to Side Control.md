@@ -21,7 +21,7 @@ The primary mechanical challenge lies in clearing the leg entanglement without c
 
 Strategically, this transition should be initiated only when the bottom player's defensive frames have been thoroughly compromised and their hip mobility is restricted through far hip control. Attempting the pass against active defense and strong frames typically results in the bottom player retaining position or, worse, using the momentary weight shift during extraction to initiate a sweep reversal. The optimal window opens when the bottom player flattens, their frames collapse, or they commit to a single defensive direction that you can anticipate and exploit. Timing the pass completion with the bottom player's defensive collapse maximizes success rate while minimizing exposure to counter attacks.
 
-**From Position**: [[Leg Hook]] (Top)
+**From Position**: [[Positions/Leg Hook]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition should be initiated only when the bottom player's
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Leg Hook]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Leg Hook]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Leg Hook to Side Control transition serves as the terminal pass completion w
 ## Related Techniques
 
 
-- [[Leg Hook]] - Source position from which this pass completion initiates
+- [[Positions/Leg Hook]] - Source position from which this pass completion initiates
 
-- [[Side Control]] - Target dominant position achieved on successful pass completion
+- [[Positions/Side Control]] - Target dominant position achieved on successful pass completion
 
-- [[Half Guard]] - Position family containing the counter outcome when bottom player recovers guard
+- [[Positions/Half Guard]] - Position family containing the counter outcome when bottom player recovers guard
 
-- [[Leg Hook to Half Guard]] - Alternative transition from same position that consolidates rather than completes the pass
+- [[Transitions/Leg Hook to Half Guard]] - Alternative transition from same position that consolidates rather than completes the pass
 
-- [[Counter Leg Hook]] - Bottom player's counter-technique that directly opposes this pass completion
+- [[Transitions/Counter Leg Hook]] - Bottom player's counter-technique that directly opposes this pass completion
 
-- [[Escape Leg Hook]] - Bottom player's escape pathway that must be neutralized before attempting this pass
+- [[Transitions/Escape Leg Hook]] - Bottom player's escape pathway that must be neutralized before attempting this pass
 
-- [[Headquarters Position]] - Related passing control position with similar leg clearance mechanics
+- [[Positions/Headquarters Position]] - Related passing control position with similar leg clearance mechanics
 
-- [[Knee on Belly]] - Follow-up advancement position accessible from the achieved side control
+- [[Positions/Knee on Belly]] - Follow-up advancement position accessible from the achieved side control
 
-- [[Deep Half Guard]] - Defensive counter-position bottom player may attempt during the extraction phase
+- [[Positions/Half Guard/Deep Half Guard]] - Defensive counter-position bottom player may attempt during the extraction phase
 
-- [[Flattened Half Guard]] - Intermediate control state often preceding successful pass completion from leg hook
+- [[Positions/Half Guard/Flattened Half Guard]] - Intermediate control state often preceding successful pass completion from leg hook
 
 
 </section>

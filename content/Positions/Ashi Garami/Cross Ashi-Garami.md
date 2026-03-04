@@ -95,31 +95,31 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 ### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** (7% of attempts)
+- **[[Transitions/Ashi Garami Escape]]** (7% of attempts)
 
-- **[[Inside Ashi Entry]]** (7% of attempts)
+- **[[Transitions/Inside Ashi Entry]]** (7% of attempts)
 
-- **[[X-Guard to Ashi Garami]]** (4% of attempts)
+- **[[Transitions/X-Guard to Ashi Garami]]** (4% of attempts)
 
-- **[[Heel Hook Defense Escape]]** (48% of attempts)
+- **[[Transitions/Heel Hook Defense Escape]]** (48% of attempts)
 
-- **[[Outside Ashi Entry]]** (7% of attempts)
+- **[[Transitions/Outside Ashi Entry]]** (7% of attempts)
 
-- **[[Standing Escape]]** (2% of attempts)
+- **[[Transitions/Standing Escape]]** (2% of attempts)
 
-- **[[Counter-entangle to 50-50 Guard]]** (5% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard]]** (5% of attempts)
 
-- **[[Backside 50-50 Entry from Ashi]]** (7% of attempts)
+- **[[Transitions/Backside 50-50 Entry from Ashi]]** (7% of attempts)
 
-- **[[Counter heel hook]]** (5% of attempts)
+- **[[Transitions/Counter heel hook]]** (5% of attempts)
 
-- **[[Leg Extraction]]** (7% of attempts)
+- **[[Transitions/Leg Extraction]]** (7% of attempts)
 
-- **[[Counter Entangle from Cross Ashi]]** (0% of attempts)
+- **[[Transitions/Counter Entangle from Cross Ashi]]** (0% of attempts)
 
-- **[[Leg Extraction from Cross Ashi]]** (0% of attempts)
+- **[[Transitions/Leg Extraction from Cross Ashi]]** (0% of attempts)
 
-- **[[Sweep from Cross Ashi-Garami]]** (1% of attempts)
+- **[[Transitions/Sweep from Cross Ashi-Garami]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -180,27 +180,27 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 ### Available Transitions
 
 
-- **[[Outside Heel Hook]]** (39% of attempts)
+- **[[Transitions/Outside Heel Hook]]** (39% of attempts)
 
-- **[[Straight Ankle Lock Entry]]** (3% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry]]** (3% of attempts)
 
-- **[[Toe Hold]]** (8% of attempts)
+- **[[Transitions/Toe Hold]]** (8% of attempts)
 
-- **[[Saddle Entry from Top]]** (18% of attempts)
+- **[[Transitions/Saddle Entry from Top]]** (18% of attempts)
 
-- **[[Inside Ashi Entry]]** (8% of attempts)
+- **[[Transitions/Inside Ashi Entry]]** (8% of attempts)
 
-- **[[Kneebar entry]]** (8% of attempts)
+- **[[Transitions/Kneebar entry]]** (8% of attempts)
 
-- **[[Backside 50-50 Entry from Ashi]]** (3% of attempts)
+- **[[Transitions/Backside 50-50 Entry from Ashi]]** (3% of attempts)
 
-- **[[Heel Hook]]** (8% of attempts)
+- **[[Transitions/Heel Hook]]** (8% of attempts)
 
-- **[[Cross Ashi Transition]]** (3% of attempts)
+- **[[Transitions/Cross Ashi Transition]]** (3% of attempts)
 
-- **[[Cross Ashi to 50-50]]** (1% of attempts)
+- **[[Transitions/Cross Ashi to 50-50]]** (1% of attempts)
 
-- **[[Outside Heel Hook from Cross Ashi]]** (1% of attempts)
+- **[[Transitions/Outside Heel Hook from Cross Ashi]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -239,25 +239,25 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 ## Related Positions
 
 
-- **[[Ashi Garami]]** - Parent position - standard parallel leg configuration without cross
+- **[[Positions/Ashi Garami]]** - Parent position - standard parallel leg configuration without cross
 
-- **[[Inside Ashi-Garami]]** - Common transition from cross ashi when bottom player turns in
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Common transition from cross ashi when bottom player turns in
 
-- **[[Outside Ashi-Garami]]** - Alternative nomenclature for cross ashi in some leg lock systems
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Alternative nomenclature for cross ashi in some leg lock systems
 
-- **[[Saddle]]** - Primary advancement position from cross ashi top control
+- **[[Positions/Ashi Garami/Saddle]]** - Primary advancement position from cross ashi top control
 
-- **[[Honey Hole]]** - Alternative name for saddle position - common transition target
+- **[[Positions/Ashi Garami/Honey Hole]]** - Alternative name for saddle position - common transition target
 
-- **[[50-50 Guard]]** - Symmetric leg entanglement with different control mechanics
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Symmetric leg entanglement with different control mechanics
 
-- **[[Single Leg X-Guard]]** - Common entry position for establishing cross ashi control
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Common entry position for establishing cross ashi control
 
-- **[[X-Guard]]** - Escape target for bottom player seeking to recover guard
+- **[[Positions/X-Guard]]** - Escape target for bottom player seeking to recover guard
 
-- **[[Leg Entanglement]]** - Fundamental concept underlying cross ashi mechanics
+- **[[Positions/Leg Entanglement]]** - Fundamental concept underlying cross ashi mechanics
 
-- **[[Backside 50-50]]** - Related leg entanglement with different hip orientation
+- **[[Positions/Ashi Garami/Backside 50-50]]** - Related leg entanglement with different hip orientation
 
 
 </section>

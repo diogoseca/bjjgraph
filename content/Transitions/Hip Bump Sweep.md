@@ -21,7 +21,7 @@ The beauty of the Hip Bump Sweep lies in its versatility and chain attack potent
 
 The Hip Bump Sweep is also an excellent technique for developing timing, hip mobility, and the ability to off-balance opponents. It teaches practitioners to feel weight distribution and exploit moments of vulnerability. While beginners often struggle with the explosive hip movement and timing required, intermediate and advanced practitioners can execute this sweep with remarkable consistency, especially when integrated into a comprehensive guard attack system.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ The Hip Bump Sweep is also an excellent technique for developing timing, hip mob
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Mount]] | 60% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -192,27 +192,27 @@ The Hip Bump Sweep is part of the fundamental closed guard attack system and ser
 ## Related Techniques
 
 
-- [[Kimura from Guard]] - Primary chain attack - used when opponent posts to defend Hip Bump
+- [[Submissions/Kimura from Guard]] - Primary chain attack - used when opponent posts to defend Hip Bump
 
-- [[Guillotine Choke]] - Secondary chain attack - used when opponent pulls arm back to defend Kimura
+- [[Transitions/Guillotine Choke]] - Secondary chain attack - used when opponent pulls arm back to defend Kimura
 
-- [[Scissor Sweep]] - Alternative sweep from closed guard with different mechanics and timing
+- [[Transitions/Scissor Sweep]] - Alternative sweep from closed guard with different mechanics and timing
 
-- [[Pendulum Sweep]] - Alternative sweep - works when opponent's weight is distributed differently
+- [[Transitions/Pendulum Sweep]] - Alternative sweep - works when opponent's weight is distributed differently
 
-- [[Triangle from Closed Guard]] - Alternative attack from broken posture sharing similar setup conditions
+- [[Submissions/Triangle from Closed Guard]] - Alternative attack from broken posture sharing similar setup conditions
 
-- [[Omoplata from Guard]] - Alternative attack - can be chained when Hip Bump is defended
+- [[Submissions/Omoplata from Guard]] - Alternative attack - can be chained when Hip Bump is defended
 
-- [[Armbar from Guard]] - Alternative attack - works from similar posture-broken position
+- [[Submissions/Armbar from Guard]] - Alternative attack - works from similar posture-broken position
 
-- [[Flower Sweep]] - Related sweep sharing mechanical principles with the Hip Bump
+- [[Transitions/Flower Sweep]] - Related sweep sharing mechanical principles with the Hip Bump
 
-- [[Elevator Sweep]] - Related sweep exploiting similar timing windows from closed guard
+- [[Transitions/Elevator Sweep]] - Related sweep exploiting similar timing windows from closed guard
 
-- [[Closed Guard]] - Starting position - the guard from which this sweep is executed
+- [[Positions/Closed Guard]] - Starting position - the guard from which this sweep is executed
 
-- [[Mount]] - Target position achieved on successful sweep completion
+- [[Positions/Mount]] - Target position achieved on successful sweep completion
 
 
 </section>

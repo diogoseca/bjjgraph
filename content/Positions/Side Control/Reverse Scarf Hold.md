@@ -95,23 +95,23 @@ Both perspectives require specialized drilling and positional understanding, as 
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (31% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (31% of attempts)
 
-- **[[Bridge and Roll]]** (12% of attempts)
+- **[[Transitions/Bridge and Roll]]** (12% of attempts)
 
-- **[[Hip Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (13% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (13% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (13% of attempts)
 
-- **[[Technical Stand-up]]** (10% of attempts)
+- **[[Transitions/Technical Stand-up]]** (10% of attempts)
 
-- **[[Shrimp Escape]]** (14% of attempts)
+- **[[Transitions/Shrimp Escape]]** (14% of attempts)
 
-- **[[Escape Reverse Scarf Hold]]** (4% of attempts)
+- **[[Transitions/Escape Reverse Scarf Hold]]** (4% of attempts)
 
-- **[[Frame from Reverse Scarf Hold]]** (2% of attempts)
+- **[[Transitions/Frame from Reverse Scarf Hold]]** (2% of attempts)
 
-- **[[Bridge Escape from Reverse Scarf Hold]]** (1% of attempts)
+- **[[Transitions/Bridge Escape from Reverse Scarf Hold]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -170,25 +170,25 @@ Both perspectives require specialized drilling and positional understanding, as 
 ### Available Transitions
 
 
-- **[[Side Control to North-South]]** (22% of attempts)
+- **[[Transitions/Side Control to North-South]]** (22% of attempts)
 
-- **[[Side Control to Mount]]** (13% of attempts)
+- **[[Transitions/Side Control to Mount]]** (13% of attempts)
 
-- **[[Americana]]** (11% of attempts)
+- **[[Transitions/Americana]]** (11% of attempts)
 
-- **[[Kimura]]** (12% of attempts)
+- **[[Transitions/Kimura]]** (12% of attempts)
 
-- **[[Back Step]]** (10% of attempts)
+- **[[Transitions/Back Step]]** (10% of attempts)
 
-- **[[Knee Slice Pass]]** (15% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (15% of attempts)
 
-- **[[Arm Triangle]]** (9% of attempts)
+- **[[Transitions/Arm Triangle]]** (9% of attempts)
 
-- **[[Reverse Scarf to North-South]]** (4% of attempts)
+- **[[Transitions/Reverse Scarf to North-South]]** (4% of attempts)
 
-- **[[Reverse Scarf to Side Control]]** (2% of attempts)
+- **[[Transitions/Reverse Scarf to Side Control]]** (2% of attempts)
 
-- **[[North-South Choke from Reverse Scarf]]** (2% of attempts)
+- **[[Submissions/North-South Choke from Reverse Scarf]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -227,27 +227,27 @@ Both perspectives require specialized drilling and positional understanding, as 
 ## Related Positions
 
 
-- **[[Kesa Gatame]]** - Traditional forward-facing scarf hold with opposite orientation
+- **[[Positions/Side Control/Kesa Gatame]]** - Traditional forward-facing scarf hold with opposite orientation
 
-- **[[Scarf Hold Position]]** - Standard scarf hold from which reverse variation derives
+- **[[Positions/Side Control/Scarf Hold Position]]** - Standard scarf hold from which reverse variation derives
 
-- **[[Modified Scarf Hold]]** - Alternative scarf hold configuration with different arm control
+- **[[Positions/Side Control/Modified Scarf Hold]]** - Alternative scarf hold configuration with different arm control
 
-- **[[Kuzure Kesa-Gatame]]** - Broken scarf hold variation with modified mechanics
+- **[[Positions/Side Control/Kuzure Kesa-Gatame]]** - Broken scarf hold variation with modified mechanics
 
-- **[[North-South]]** - Common transition target from reverse scarf hold
+- **[[Positions/North-South]]** - Common transition target from reverse scarf hold
 
-- **[[Side Control Consolidation]]** - Entry position for reverse scarf hold transitions
+- **[[Positions/Side Control/Side Control Consolidation]]** - Entry position for reverse scarf hold transitions
 
-- **[[Mount]]** - Advancement position when opponent bridges forward
+- **[[Positions/Mount]]** - Advancement position when opponent bridges forward
 
-- **[[Back Control]]** - Available when opponent turns away during escape attempts
+- **[[Positions/Back Control]]** - Available when opponent turns away during escape attempts
 
-- **[[Kimura Trap]]** - Primary submission control position from reverse scarf hold
+- **[[Positions/Kimura Trap]]** - Primary submission control position from reverse scarf hold
 
-- **[[Half Guard]]** - Common escape destination for bottom player
+- **[[Positions/Half Guard]]** - Common escape destination for bottom player
 
-- **[[Turtle]]** - Potential escape route when turning away from pressure
+- **[[Positions/Turtle]]** - Potential escape route when turning away from pressure
 
 
 </section>

@@ -206,21 +206,21 @@ Toe Hold Control Top is an advanced leg entanglement position where the top prac
 
 ## Available Attacks
 
-### [[Toe Hold]] (14% of attempts)
+### [[Transitions/Toe Hold]] (14% of attempts)
 
-### [[Outside Ashi Entry]] (24% of attempts)
+### [[Transitions/Outside Ashi Entry]] (24% of attempts)
 
-### [[Inside Ashi Entry]] (14% of attempts)
+### [[Transitions/Inside Ashi Entry]] (14% of attempts)
 
-### [[Saddle Entry from Top]] (13% of attempts)
+### [[Transitions/Saddle Entry from Top]] (13% of attempts)
 
-### [[Ankle Lock Finish]] (14% of attempts)
+### [[Transitions/Ankle Lock Finish]] (14% of attempts)
 
-### [[Kneebar Finish]] (12% of attempts)
+### [[Transitions/Kneebar Finish]] (12% of attempts)
 
-### [[Toe Hold to Ashi Garami]] (6% of attempts)
+### [[Transitions/Toe Hold to Ashi Garami]] (6% of attempts)
 
-### [[Toe Hold to Straight Ankle Lock]] (3% of attempts)
+### [[Transitions/Toe Hold to Straight Ankle Lock]] (3% of attempts)
 
 
 
@@ -231,23 +231,23 @@ Toe Hold Control Top is an advanced leg entanglement position where the top prac
 ## Decision Making from This Position
 
 **If opponent maintains flat posture and cannot sit up:**
-- Execute **[[Toe Hold]]** → [[Game Over]] (Probability: 75%)
-- Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Transitions/Toe Hold]]** → [[Positions/Game Over]] (Probability: 75%)
+- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
 
 
 **If opponent sits up and begins to extract their leg:**
-- Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 70%)
-- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 60%)
+- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
+- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 60%)
 
 
 **If opponent extends leg and pushes away with straight leg:**
-- Execute **[[Kneebar Finish]]** → [[Kneebar Control]] (Probability: 65%)
-- Execute **[[Ankle Lock Finish]]** → [[Ashi Garami]] (Probability: 60%)
+- Execute **[[Transitions/Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 65%)
+- Execute **[[Transitions/Ankle Lock Finish]]** → [[Positions/Ashi Garami]] (Probability: 60%)
 
 
 **If opponent rotates knee outward and attempts to clear entanglement:**
-- Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 70%)
-- Execute **[[Toe Hold]]** → [[Game Over]] (Probability: 55%)
+- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 70%)
+- Execute **[[Transitions/Toe Hold]]** → [[Positions/Game Over]] (Probability: 55%)
 
 
 
@@ -382,13 +382,13 @@ Partner in bottom position performs specific escape attempts including hip escap
 ## Related Positions and Techniques
 
 - **[[Toe Hold Control Bottom]]** - Sibling variant representing defensive perspective of same position
-- **[[Toe Hold]]** - Primary submission finish from this position
-- **[[Outside Ashi-Garami]]** - Common transition target when opponent rotates knee outward
-- **[[Inside Ashi-Garami]]** - Alternative ashi position accessed through knee line rotation
-- **[[Saddle]]** - Advanced transition when opponent sits up or attempts leg extraction
-- **[[Kneebar Control]]** - Transition target when opponent straightens leg during defense
-- **[[Leg Entanglement]]** - Fundamental concept governing all ashi-based positions and controls
-- **[[Ashi Garami]]** - Parent positional category governing entry and control mechanics
+- **[[Transitions/Toe Hold]]** - Primary submission finish from this position
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Common transition target when opponent rotates knee outward
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Alternative ashi position accessed through knee line rotation
+- **[[Positions/Ashi Garami/Saddle]]** - Advanced transition when opponent sits up or attempts leg extraction
+- **[[Positions/Kneebar Control]]** - Transition target when opponent straightens leg during defense
+- **[[Positions/Leg Entanglement]]** - Fundamental concept governing all ashi-based positions and controls
+- **[[Positions/Ashi Garami]]** - Parent positional category governing entry and control mechanics
 
 
 </section>

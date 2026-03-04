@@ -210,25 +210,25 @@ The top player must navigate multiple decision points throughout the passing seq
 
 ## Available Attacks
 
-### [[RDLR Pass]] (20% of attempts)
+### [[Transitions/RDLR Pass]] (20% of attempts)
 
-### [[Leg Drag Pass]] (13% of attempts)
+### [[Transitions/Leg Drag Pass]] (13% of attempts)
 
-### [[Knee Slice Pass]] (7% of attempts)
+### [[Transitions/Knee Slice Pass]] (7% of attempts)
 
-### [[Smash Pass]] (7% of attempts)
+### [[Transitions/Smash Pass]] (7% of attempts)
 
-### [[Toreando Pass]] (6% of attempts)
+### [[Transitions/Toreando Pass]] (6% of attempts)
 
-### [[Long Step Pass]] (9% of attempts)
+### [[Transitions/Long Step Pass]] (9% of attempts)
 
-### [[Body Lock Pass]] (8% of attempts)
+### [[Transitions/Body Lock Pass]] (8% of attempts)
 
-### [[Headquarters Pass]] (14% of attempts)
+### [[Transitions/Headquarters Pass]] (14% of attempts)
 
-### [[Back Step Pass]] (13% of attempts)
+### [[Transitions/Back Step Pass]] (13% of attempts)
 
-### [[RDLR Backstep Counter]] (3% of attempts)
+### [[Transitions/RDLR Backstep Counter]] (3% of attempts)
 
 
 
@@ -239,28 +239,28 @@ The top player must navigate multiple decision points throughout the passing seq
 ## Decision Making from This Position
 
 **If bottom player maintains tight reverse De La Riva hook with strong ankle grip and active far leg framing that prevents immediate pressure:**
-- Execute **[[Back Step]]** → [[Headquarters Position]] (Probability: 70%)
-- Execute **[[RDLR Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Back Step]]** → [[Positions/Headquarters Position]] (Probability: 70%)
+- Execute **[[Transitions/RDLR Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If bottom player loses ankle grip but maintains reverse De La Riva hook structure with hip elevation:**
-- Execute **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Probability: 75%)
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 75%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If bottom player attempts inversion or berimbolo entry by rotating shoulders toward the mat:**
-- Execute **[[Back Step]]** → [[Headquarters Position]] (Probability: 80%)
-- Execute **[[Bodylock Pass]]** → [[Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Back Step]]** → [[Positions/Headquarters Position]] (Probability: 80%)
+- Execute **[[Bodylock Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 **If bottom player flattens out or loses far leg posting on hip or bicep:**
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If bottom player transitions to other guard variations like X-Guard or Single Leg X during guard retention:**
-- Execute **[[X Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/X Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 
@@ -406,16 +406,16 @@ Bottom player can transition freely between reverse De La Riva, X-Guard, Single 
 
 ## Related Positions and Techniques
 
-- **[[Reverse De La Riva Guard]]** - Hub position - this is the top perspective of the RDLR guard system
-- **[[De La Riva Guard]]** - Related guard position - similar passing challenges with different hook orientation
-- **[[Headquarters Position]]** - Transition target - intermediate control position during passing sequence
-- **[[Leg Drag Control]]** - Transition target - primary passing destination from RDLR top
-- **[[Single Leg X-Guard]]** - Related position - common guard transition from reverse De La Riva that requires recognition
-- **[[X-Guard]]** - Related position - similar guard passing challenge with hook systems
-- **[[RDLR Pass]]** - Primary technique - specialized passing sequence for this position
-- **[[Back Step]]** - Primary technique - essential counter to inversion attempts and berimbolo entries
-- **[[Berimbolo Entry]]** - Defensive threat - bottom player's primary back-take system to defend against
-- **[[Side Control]]** - Target position - primary destination after successful guard pass
+- **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Hub position - this is the top perspective of the RDLR guard system
+- **[[Positions/De La Riva Guard]]** - Related guard position - similar passing challenges with different hook orientation
+- **[[Positions/Headquarters Position]]** - Transition target - intermediate control position during passing sequence
+- **[[Positions/Leg Drag Control]]** - Transition target - primary passing destination from RDLR top
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Related position - common guard transition from reverse De La Riva that requires recognition
+- **[[Positions/X-Guard]]** - Related position - similar guard passing challenge with hook systems
+- **[[Transitions/RDLR Pass]]** - Primary technique - specialized passing sequence for this position
+- **[[Transitions/Back Step]]** - Primary technique - essential counter to inversion attempts and berimbolo entries
+- **[[Transitions/Berimbolo Entry]]** - Defensive threat - bottom player's primary back-take system to defend against
+- **[[Positions/Side Control]]** - Target position - primary destination after successful guard pass
 
 
 </section>

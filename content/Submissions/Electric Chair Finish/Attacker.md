@@ -188,7 +188,7 @@ description: "Execute the Electric Chair Finish from lockdown half guard. Step-b
 
 Executing the Electric Chair Finish requires precise coordination of three control systems: the lockdown leg configuration, deep underhook control, and ankle capture. The attacker operates from bottom half guard, using the lockdown to immobilize the opponent's trapped leg while progressively creating the splitting angle that generates submission pressure. Success depends on establishing each control point in the correct sequence before committing to the finish, as premature splitting attempts without complete control allow easy defense. The finish itself demands patient, progressive pressure application rather than explosive force, making it one of the more methodical submissions in the lockdown system. Advanced attackers integrate the finish threat with sweep setups to create offensive dilemmas that prevent the defender from committing fully to either defense.
 
-**From Position**: [[Electric Chair]] (Bottom)
+**From Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
 
 
 </section>
@@ -244,8 +244,8 @@ Executing the Electric Chair Finish requires precise coordination of three contr
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Electric Chair]] | 30% |
-| Counter | [[Half Guard]] | 25% |
+| Failure | [[Positions/Half Guard/Electric Chair]] | 30% |
+| Counter | [[Positions/Half Guard]] | 25% |
 
 
 </section>
@@ -254,10 +254,10 @@ Executing the Electric Chair Finish requires precise coordination of three contr
 
 ## Opponent Defenses
 
-- **Opponent squeezes knees together tightly to resist the splitting pressure** (Effectiveness: Medium) - Your Response: Redirect the angle of the split by adjusting your hip position further perpendicular. Pulsate pressure by briefly reducing and rapidly re-engaging the split to find gaps in their knee squeeze defense. → Leads to [[Electric Chair]]
-- **Opponent posts far hand and bridges toward you to collapse the splitting angle** (Effectiveness: High) - Your Response: Increase underhook depth and pull them back into position. If they create significant movement, immediately transition to Old School sweep using their bridging momentum against them. → Leads to [[Half Guard]]
-- **Opponent grabs your lockdown foot to pry apart the figure-four configuration** (Effectiveness: High) - Your Response: Re-tighten the lockdown by squeezing knees together and extending hips forcefully. If they succeed in breaking the lockdown, immediately transition to Truck entry or Deep Half Guard before they can fully disengage. → Leads to [[Half Guard]]
-- **Opponent turns and rolls into you to neutralize the perpendicular splitting angle** (Effectiveness: Medium) - Your Response: Use their rolling motion to transition to back control or Truck position. Their turn exposes the back and creates crab ride hook opportunities that lead to additional submission threats. → Leads to [[Electric Chair]]
+- **Opponent squeezes knees together tightly to resist the splitting pressure** (Effectiveness: Medium) - Your Response: Redirect the angle of the split by adjusting your hip position further perpendicular. Pulsate pressure by briefly reducing and rapidly re-engaging the split to find gaps in their knee squeeze defense. → Leads to [[Positions/Half Guard/Electric Chair]]
+- **Opponent posts far hand and bridges toward you to collapse the splitting angle** (Effectiveness: High) - Your Response: Increase underhook depth and pull them back into position. If they create significant movement, immediately transition to Old School sweep using their bridging momentum against them. → Leads to [[Positions/Half Guard]]
+- **Opponent grabs your lockdown foot to pry apart the figure-four configuration** (Effectiveness: High) - Your Response: Re-tighten the lockdown by squeezing knees together and extending hips forcefully. If they succeed in breaking the lockdown, immediately transition to Truck entry or Deep Half Guard before they can fully disengage. → Leads to [[Positions/Half Guard]]
+- **Opponent turns and rolls into you to neutralize the perpendicular splitting angle** (Effectiveness: Medium) - Your Response: Use their rolling motion to transition to back control or Truck position. Their turn exposes the back and creates crab ride hook opportunities that lead to additional submission threats. → Leads to [[Positions/Half Guard/Electric Chair]]
 
 
 </section>

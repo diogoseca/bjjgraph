@@ -146,7 +146,7 @@ description: "How to prevent and defend the Transition to Shoulder of Justice fr
 
 Defending the Transition to Shoulder of Justice requires recognizing the attack before it fully materializes and disrupting the attacker's chest walk-up and shoulder angle adjustment before concentrated jaw pressure is established. Once the Shoulder of Justice is locked in, escape becomes significantly more difficult than escaping standard side control because the focused pressure creates a dilemma system where every reactive movement opens offensive pathways for the top player. Your defensive priority is therefore prevention first: maintaining active frames that block the shoulder insertion, timing shrimp escapes during the transitional window when the attacker's hips are momentarily lighter, and denying the conditions that allow the transition to begin. If prevention fails and the position is established, your strategy shifts to patience, controlled breathing, and systematic pressure relief using micro-frames rather than desperate reactive movements that feed into the attacker's offensive chains.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -185,28 +185,28 @@ Defending the Transition to Shoulder of Justice requires recognizing the attack 
 ### 1. Frame against opponent's shoulder with near-side forearm before shoulder reaches jaw
 
 - **When to use**: As soon as you feel the chest walk-up beginning and before the shoulder angle locks into your jaw
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Blocks the shoulder insertion and forces opponent to remain in standard side control or attempt to collapse your frame
 - **Risk**: If your frame is collapsed, your arm may be isolated for a kimura attack
 
 ### 2. Time an explosive shrimp during the attacker's forward chest walk-up when their hips are lightest
 
 - **When to use**: During the transitional window when opponent is shifting weight forward and hip connection is momentarily reduced
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough space to insert a knee for half guard recovery, denying the Shoulder of Justice establishment entirely
 - **Risk**: If mistimed, you waste energy and the opponent re-consolidates with even heavier hip pressure
 
 ### 3. Turn slightly away and use a ghost escape to reach turtle before pressure is fully established
 
 - **When to use**: Early in the transition when pressure is increasing but not yet fully locked at the jaw line
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Escape to turtle position before the Shoulder of Justice dilemma system activates
 - **Risk**: Turning away once pressure is established opens back-take and north-south transitions for the opponent
 
 ### 4. Bridge into the pressure to disrupt attacker's base during the angle rotation
 
 - **When to use**: When opponent is rotating their shoulder angle and their base may be momentarily narrow or unstable
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Disrupts the transition and forces opponent to re-establish base, resetting to standard side control
 - **Risk**: If the bridge fails, you return to the mat with less energy and the opponent can immediately re-drive pressure
 
@@ -218,11 +218,11 @@ Defending the Transition to Shoulder of Justice requires recognizing the attack 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a shrimp escape during the attacker's chest walk-up when their hip connection lightens, and insert your near-side knee between their legs to establish half guard. This is the highest-percentage defensive outcome because the transition creates a brief window of reduced hip pressure.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Maintain active frames against the opponent's shoulder before it reaches your jaw, preventing the transition from completing. If you successfully block the shoulder insertion, the opponent remains in standard side control where your escape options are broader and pressure is less concentrated.
 

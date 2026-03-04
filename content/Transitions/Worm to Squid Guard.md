@@ -21,7 +21,7 @@ The mechanical challenge centers on maintaining continuous control during the br
 
 This transition is strategically valuable when your worm guard attacks have stalled against a patient, well-based opponent. Rather than forcing increasingly predictable sweeps, the shift to squid guard changes the entire offensive geometry. The opponent must abandon their worm guard defense and adapt to squid guard's threading hook and angular off-balancing mechanics, often creating the openings that worm guard alone could not generate.
 
-**From Position**: [[Worm Guard]] (Bottom)
+**From Position**: [[Positions/Worm Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition is strategically valuable when your worm guard attacks have stal
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Squid Guard]] | 55% |
-| Failure | [[Worm Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Squid Guard]] | 55% |
+| Failure | [[Positions/Worm Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Worm to Squid Guard transition occupies a central position within the modern
 ## Related Techniques
 
 
-- [[Worm Guard]] - Source position where this transition begins
+- [[Positions/Worm Guard]] - Source position where this transition begins
 
-- [[Squid Guard]] - Target position achieved on successful transition
+- [[Positions/Squid Guard]] - Target position achieved on successful transition
 
-- [[Lapel Guard]] - Parent guard category encompassing both worm and squid guards
+- [[Positions/Lapel Guard]] - Parent guard category encompassing both worm and squid guards
 
-- [[Ringworm Guard]] - Related lapel guard accessible from squid guard after this transition
+- [[Positions/Ringworm Guard]] - Related lapel guard accessible from squid guard after this transition
 
-- [[De La Riva Guard]] - Shares hook mechanics with squid guard and serves as a fallback option
+- [[Positions/De La Riva Guard]] - Shares hook mechanics with squid guard and serves as a fallback option
 
-- [[Lasso Guard]] - Alternative lapel-based guard if transition fails and control degrades
+- [[Positions/Lasso Guard]] - Alternative lapel-based guard if transition fails and control degrades
 
-- [[Open Guard]] - Fallback position if opponent counters and strips lapel control
+- [[Positions/Open Guard]] - Fallback position if opponent counters and strips lapel control
 
-- [[Worm Guard Sweep]] - Alternative attack from source position if transition is not viable
+- [[Transitions/Worm Guard Sweep]] - Alternative attack from source position if transition is not viable
 
-- [[Squid Guard Sweep]] - Primary follow-up attack available after successful transition
+- [[Transitions/Squid Guard Sweep]] - Primary follow-up attack available after successful transition
 
-- [[Squid to Ringworm Guard]] - Continuation transition extending the lapel guard chain
+- [[Transitions/Squid to Ringworm Guard]] - Continuation transition extending the lapel guard chain
 
-- [[Collar Drag from Worm Guard]] - Alternative worm guard attack that can set up transition opportunities
+- [[Transitions/Collar Drag from Worm Guard]] - Alternative worm guard attack that can set up transition opportunities
 
-- [[Spider Guard]] - Fallback guard if lapel control is lost during transition
+- [[Positions/Spider Guard]] - Fallback guard if lapel control is lost during transition
 
 
 </section>

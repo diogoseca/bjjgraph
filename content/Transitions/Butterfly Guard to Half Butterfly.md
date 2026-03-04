@@ -21,7 +21,7 @@ From a strategic standpoint, this transition is the single most important first 
 
 The timing of this transition is critical. The optimal window opens when the bottom player commits their upper body grips to one side, momentarily reducing their ability to defend hook retention on the opposite side. Elite passers also create this window through grip fighting sequences that force the bottom player to choose between maintaining grip control and defending their hooks. The transition rewards patience and systematic pressure over explosive movement, though speed of execution matters once the window appears.
 
-**From Position**: [[Butterfly Guard]] (Top)
+**From Position**: [[Positions/Butterfly Guard]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -32,10 +32,10 @@ The timing of this transition is critical. The optimal window opens when the bot
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Butterfly]] | 65% |
-| Failure | [[Butterfly Guard]] | 20% |
-| Failure | [[Half Guard]] | 10% |
-| Counter | [[Mount]] | 5% |
+| Success | [[Positions/Butterfly Guard/Half Butterfly]] | 65% |
+| Failure | [[Positions/Butterfly Guard]] | 20% |
+| Failure | [[Positions/Half Guard]] | 10% |
+| Counter | [[Positions/Mount]] | 5% |
 
 
 </section>
@@ -194,25 +194,25 @@ Transition to Half Butterfly sits at the critical juncture between butterfly gua
 ## Related Techniques
 
 
-- [[Butterfly Guard]] - Starting position where both hooks are established
+- [[Positions/Butterfly Guard]] - Starting position where both hooks are established
 
-- [[Half Butterfly]] - Target position after successfully clearing one hook
+- [[Positions/Butterfly Guard/Half Butterfly]] - Target position after successfully clearing one hook
 
-- [[Butterfly Pass]] - Alternative passing approach that bypasses hook clearing
+- [[Transitions/Butterfly Pass]] - Alternative passing approach that bypasses hook clearing
 
-- [[Butterfly Smash]] - Complementary technique using pressure to neutralize hooks
+- [[Transitions/Butterfly Smash]] - Complementary technique using pressure to neutralize hooks
 
-- [[Knee Slice Pass]] - Primary follow-up pass from half butterfly top
+- [[Transitions/Knee Slice Pass]] - Primary follow-up pass from half butterfly top
 
-- [[Body Lock Pass]] - Alternative passing system that can integrate hook clearing
+- [[Transitions/Body Lock Pass]] - Alternative passing system that can integrate hook clearing
 
-- [[Half Guard]] - Related position if both hooks are cleared but leg remains trapped
+- [[Positions/Half Guard]] - Related position if both hooks are cleared but leg remains trapped
 
-- [[Long Step Pass]] - Alternative passing method from half butterfly top
+- [[Transitions/Long Step Pass]] - Alternative passing method from half butterfly top
 
-- [[Back Step Pass]] - Follow-up option after achieving half butterfly top
+- [[Transitions/Back Step Pass]] - Follow-up option after achieving half butterfly top
 
-- [[Deep Half Guard]] - Counter position bottom player may transition to during clearing
+- [[Positions/Half Guard/Deep Half Guard]] - Counter position bottom player may transition to during clearing
 
 
 </section>

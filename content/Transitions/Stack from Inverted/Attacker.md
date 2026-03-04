@@ -180,7 +180,7 @@ description: "Learn to execute the stack pass from inverted guard. Step-by-step 
 
 As the top player executing the Stack from Inverted, your objective is to collapse the opponent's inverted guard structure by driving their hips over their head and eliminating their rotational mobility. This technique converts the opponent's upside-down position into a compressed, controllable state where their defensive options are severely limited. The stack relies on forward pressure, hip control, and committed weight distribution to fold the inverted player and transition to a dominant passing position. Timing the stack correctly is essential: you must initiate before the opponent establishes full inversion with offensive grips, but after they have committed enough to inversion that they cannot simply recover to a standard guard. The stack is your most direct tool for shutting down inversion-based offense.
 
-**From Position**: [[Inverted Guard]] (Top)
+**From Position**: [[Positions/Inverted Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the top player executing the Stack from Inverted, your objective is to collap
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Inverted Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Inverted Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the top player executing the Stack from Inverted, your objective is to collap
 
 ## Opponent Counters
 
-- **Opponent frames on hips with both feet to create distance and prevent the stack from engaging** (Effectiveness: High) - Your Response: Strip the foot frames by controlling their ankles and pushing their feet to one side, then immediately re-close distance with forward pressure before they can re-establish frames or transition to another guard → Leads to [[Inverted Guard]]
-- **Opponent executes granby roll away from the stacking direction to escape compression and recover guard** (Effectiveness: Medium) - Your Response: Follow the roll by circling in the same direction while maintaining hip control grips, immediately transitioning to a passing sequence on the new angle before they can re-establish inverted guard → Leads to [[Inverted Guard]]
-- **Opponent hooks your lead leg with their foot during the stack to initiate a sweep or leg entanglement entry** (Effectiveness: High) - Your Response: Immediately disengage the hooked leg by stepping back and resetting your base, then re-engage with improved leg positioning that keeps your feet outside their hip line and away from hook entries → Leads to [[Half Guard]]
-- **Opponent uses belt or collar grip to redirect stacking momentum into berimbolo rotation underneath you** (Effectiveness: Medium) - Your Response: Break the redirecting grip before committing to the stack by stripping with your free hand, or post your hand on the mat to prevent being rolled if they initiate the berimbolo sequence → Leads to [[Half Guard]]
+- **Opponent frames on hips with both feet to create distance and prevent the stack from engaging** (Effectiveness: High) - Your Response: Strip the foot frames by controlling their ankles and pushing their feet to one side, then immediately re-close distance with forward pressure before they can re-establish frames or transition to another guard → Leads to [[Positions/Inverted Guard]]
+- **Opponent executes granby roll away from the stacking direction to escape compression and recover guard** (Effectiveness: Medium) - Your Response: Follow the roll by circling in the same direction while maintaining hip control grips, immediately transitioning to a passing sequence on the new angle before they can re-establish inverted guard → Leads to [[Positions/Inverted Guard]]
+- **Opponent hooks your lead leg with their foot during the stack to initiate a sweep or leg entanglement entry** (Effectiveness: High) - Your Response: Immediately disengage the hooked leg by stepping back and resetting your base, then re-engage with improved leg positioning that keeps your feet outside their hip line and away from hook entries → Leads to [[Positions/Half Guard]]
+- **Opponent uses belt or collar grip to redirect stacking momentum into berimbolo rotation underneath you** (Effectiveness: Medium) - Your Response: Break the redirecting grip before committing to the stack by stripping with your free hand, or post your hand on the mat to prevent being rolled if they initiate the berimbolo sequence → Leads to [[Positions/Half Guard]]
 
 
 </section>

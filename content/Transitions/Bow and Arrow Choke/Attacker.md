@@ -178,7 +178,7 @@ This choke works by applying pressure to the carotid arteries through the gi col
 
 Strategically, the Bow and Arrow Choke represents the primary collar attack from back control in gi grappling. It chains naturally with other back attacks—opponents defending the Bow and Arrow often expose their arms for armbar attacks or create space that allows transition to rear naked choke attempts. Understanding this submission's mechanics and entries is essential for any serious gi competitor, as it accounts for a significant percentage of submission victories at the highest levels of competition.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -230,8 +230,8 @@ Strategically, the Bow and Arrow Choke represents the primary collar attack from
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -240,9 +240,9 @@ Strategically, the Bow and Arrow Choke represents the primary collar attack from
 
 ## Opponent Counters
 
-- **Two-on-one grip fighting to prevent collar grip establishment or strip existing grip before choke is locked** (Effectiveness: High) - Your Response: Establish collar grip quickly and deeply before they can react; once grip is set, tuck elbow tight to body and begin transition immediately → Leads to [[Back Control]]
-- **Turning toward the choking side and sitting up to relieve pressure while attempting to face the attacker** (Effectiveness: Medium) - Your Response: Use your bottom leg as a frame against their hip to prevent rotation; if they begin turning, switch to armbar on the far arm that becomes exposed → Leads to [[Half Guard]]
-- **Grabbing and controlling the leg-gripping hand to prevent the archer extension that completes the choke** (Effectiveness: Medium) - Your Response: If they grip your pants-gripping hand, release and re-grip higher on their thigh or transition to a clock choke or collar drag variation → Leads to [[Back Control]]
+- **Two-on-one grip fighting to prevent collar grip establishment or strip existing grip before choke is locked** (Effectiveness: High) - Your Response: Establish collar grip quickly and deeply before they can react; once grip is set, tuck elbow tight to body and begin transition immediately → Leads to [[Positions/Back Control]]
+- **Turning toward the choking side and sitting up to relieve pressure while attempting to face the attacker** (Effectiveness: Medium) - Your Response: Use your bottom leg as a frame against their hip to prevent rotation; if they begin turning, switch to armbar on the far arm that becomes exposed → Leads to [[Positions/Half Guard]]
+- **Grabbing and controlling the leg-gripping hand to prevent the archer extension that completes the choke** (Effectiveness: Medium) - Your Response: If they grip your pants-gripping hand, release and re-grip higher on their thigh or transition to a clock choke or collar drag variation → Leads to [[Positions/Back Control]]
 - **Tucking chin and creating defensive posture to prevent collar from getting deep enough for blood choke** (Effectiveness: Low) - Your Response: A properly deep grip already behind the jaw makes chin tuck ineffective; apply steady pressure and the choke will work regardless of chin position → Leads to [[game-over]]
 
 

@@ -180,7 +180,7 @@ description: "Learn to recover guard from Inside Ashi-Garami as the bottom playe
 
 As the bottom player in a failing Inside Ashi-Garami, your primary challenge is transitioning from a leg entanglement where both your legs are committed to controlling the opponent's leg into a guard position where your legs create barriers between you and the opponent's torso. This requires a fundamentally different leg orientation—from wrapping around a single leg to creating distance across the opponent's hips and midsection. The recovery window is created by the opponent's defensive movement as they extract their leg, and your success depends on timing the guard recomposition to coincide with their extraction rather than fighting to maintain a failing entanglement. You must release your leg controls, reposition your hips to face the opponent, and establish guard frames before they can capitalize on the disengagement to advance to top position.
 
-**From Position**: [[Inside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player in a failing Inside Ashi-Garami, your primary challenge is 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 40% |
-| Failure | [[Inside Ashi-Garami]] | 35% |
-| Counter | [[Ashi Garami]] | 25% |
+| Success | [[Positions/Open Guard]] | 40% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 35% |
+| Counter | [[Positions/Ashi Garami]] | 25% |
 
 
 </section>
@@ -243,9 +243,9 @@ As the bottom player in a failing Inside Ashi-Garami, your primary challenge is 
 
 ## Opponent Counters
 
-- **Opponent stands up immediately during the leg disengagement, creating vertical distance that prevents close-range guard recomposition** (Effectiveness: High) - Your Response: Follow their standing motion with feet on hips and immediately transition to a standing open guard variation—De La Riva or single leg X-guard hook to maintain leg connection while managing the increased distance → Leads to [[Inside Ashi-Garami]]
-- **Opponent counter-entangles during your leg release by stepping over your disengaging leg and securing their own ashi garami position** (Effectiveness: High) - Your Response: If counter-entangled, immediately address the new entanglement by clearing your heel from danger and working your own leg extraction rather than continuing the guard recovery sequence → Leads to [[Ashi Garami]]
-- **Opponent drives forward with heavy top pressure during the hip rotation phase, flattening you before guard recomposition completes** (Effectiveness: Medium) - Your Response: Use your foot-on-hip barrier to absorb the forward drive and convert the pressure into a push-off that accelerates your hip rotation, then immediately establish shin frame to prevent second pressure wave → Leads to [[Inside Ashi-Garami]]
+- **Opponent stands up immediately during the leg disengagement, creating vertical distance that prevents close-range guard recomposition** (Effectiveness: High) - Your Response: Follow their standing motion with feet on hips and immediately transition to a standing open guard variation—De La Riva or single leg X-guard hook to maintain leg connection while managing the increased distance → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent counter-entangles during your leg release by stepping over your disengaging leg and securing their own ashi garami position** (Effectiveness: High) - Your Response: If counter-entangled, immediately address the new entanglement by clearing your heel from danger and working your own leg extraction rather than continuing the guard recovery sequence → Leads to [[Positions/Ashi Garami]]
+- **Opponent drives forward with heavy top pressure during the hip rotation phase, flattening you before guard recomposition completes** (Effectiveness: Medium) - Your Response: Use your foot-on-hip barrier to absorb the forward drive and convert the pressure into a push-off that accelerates your hip rotation, then immediately establish shin frame to prevent second pressure wave → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 </section>

@@ -209,29 +209,29 @@ Success from Standing Back Control Top requires understanding several key mechan
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (28% of attempts)
+### [[Transitions/Rear Naked Choke]] (28% of attempts)
 
-### [[Takedown to Grounded Back Control]] (18% of attempts)
+### [[Transitions/Takedown to Grounded Back Control]] (18% of attempts)
 
-### [[Body Triangle Lock]] (7% of attempts)
+### [[Transitions/Body Triangle Lock]] (7% of attempts)
 
-### [[Armbar from Back Transition]] (9% of attempts)
+### [[Transitions/Armbar from Back Transition]] (9% of attempts)
 
-### [[Crucifix Transition]] (7% of attempts)
+### [[Transitions/Crucifix Transition]] (7% of attempts)
 
-### [[Truck Position Entry]] (5% of attempts)
+### [[Transitions/Truck Position Entry]] (5% of attempts)
 
-### [[Snap Down to Front Headlock]] (4% of attempts)
+### [[Transitions/Snap Down to Front Headlock]] (4% of attempts)
 
-### [[Follow to Back Control]] (9% of attempts)
+### [[Transitions/Follow to Back Control]] (9% of attempts)
 
-### [[Mat Return to Back Mount]] (7% of attempts)
+### [[Transitions/Mat Return to Back Mount]] (7% of attempts)
 
-### [[Back Control to Seat Belt Control Back]] (2% of attempts)
+### [[Transitions/Back Control to Seat Belt Control Back]] (2% of attempts)
 
-### [[Bow and Arrow Setup from Standing Back]] (2% of attempts)
+### [[Transitions/Bow and Arrow Setup from Standing Back]] (2% of attempts)
 
-### [[Standing RNC]] (2% of attempts)
+### [[Submissions/Standing RNC]] (2% of attempts)
 
 
 
@@ -242,31 +242,31 @@ Success from Standing Back Control Top requires understanding several key mechan
 ## Decision Making from This Position
 
 **If opponent's posture is broken forward and neck is exposed:**
-- Execute **[[Rear Naked Choke attack]]** → [[Game Over]] (Probability: 55%)
-- Execute **[[Maintain control and break down to ground]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Rear Naked Choke attack]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Maintain control and break down to ground]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent maintains strong upright posture and wide base:**
-- Execute **[[Take opponent down to grounded back control]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Establish body triangle to compromise base]]** → [[Body Triangle]] (Probability: 50%)
-- Execute **[[Use hooks to break their base then attack]]** → [[Standing Back Control]] (Probability: 55%)
+- Execute **[[Take opponent down to grounded back control]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Establish body triangle to compromise base]]** → [[Positions/Back Control/Body Triangle]] (Probability: 50%)
+- Execute **[[Use hooks to break their base then attack]]** → [[Positions/Back Control/Standing Back Control]] (Probability: 55%)
 
 
 **If opponent is fighting your harness grip aggressively:**
-- Execute **[[Transition to crucifix capturing arm]]** → [[Crucifix]] (Probability: 40%)
-- Execute **[[Immediately take down before losing control]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Transition to crucifix capturing arm]]** → [[Positions/Crucifix]] (Probability: 40%)
+- Execute **[[Immediately take down before losing control]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent attempts to turn into you:**
-- Execute **[[Follow the turn to front headlock]]** → [[Front Headlock]] (Probability: 50%)
-- Execute **[[Force them down to side control]]** → [[Side Control]] (Probability: 45%)
-- Execute **[[Maintain back and reset control]]** → [[Standing Back Control]] (Probability: 40%)
+- Execute **[[Follow the turn to front headlock]]** → [[Positions/Front Headlock]] (Probability: 50%)
+- Execute **[[Force them down to side control]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Maintain back and reset control]]** → [[Positions/Back Control/Standing Back Control]] (Probability: 40%)
 
 
 **If opponent drops to their knees defensively:**
-- Execute **[[Follow to grounded back control]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Transition to truck position]]** → [[Truck]] (Probability: 45%)
-- Execute **[[Attack choke during transition]]** → [[Game Over]] (Probability: 50%)
+- Execute **[[Follow to grounded back control]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transition to truck position]]** → [[Positions/Twister Control/Truck]] (Probability: 45%)
+- Execute **[[Attack choke during transition]]** → [[Positions/Game Over]] (Probability: 50%)
 
 
 
@@ -400,14 +400,14 @@ Start with compliant partner, establish standing back control. Every 30 seconds 
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Grounded version - primary transition target to consolidate control with more stability
-- **[[Rear Naked Choke]]** - Primary submission finish from this position, can be attempted standing or after takedown
-- **[[Seat Belt Control Back]]** - Specific grip configuration that defines harness control essential for maintaining this position
-- **[[Body Triangle]]** - Advanced leg control option to compromise opponent's base and secure position
-- **[[Crucifix]]** - Alternative control position when opponent fights grips aggressively
-- **[[Truck]]** - Transition option when opponent drops to knees defensively
-- **[[Mount]]** - Alternative dominant position if you take opponent down forward instead of to back control
-- **[[Front Headlock]]** - Transition option if opponent successfully turns to face you
+- **[[Positions/Back Control]]** - Grounded version - primary transition target to consolidate control with more stability
+- **[[Transitions/Rear Naked Choke]]** - Primary submission finish from this position, can be attempted standing or after takedown
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Specific grip configuration that defines harness control essential for maintaining this position
+- **[[Positions/Back Control/Body Triangle]]** - Advanced leg control option to compromise opponent's base and secure position
+- **[[Positions/Crucifix]]** - Alternative control position when opponent fights grips aggressively
+- **[[Positions/Twister Control/Truck]]** - Transition option when opponent drops to knees defensively
+- **[[Positions/Mount]]** - Alternative dominant position if you take opponent down forward instead of to back control
+- **[[Positions/Front Headlock]]** - Transition option if opponent successfully turns to face you
 
 
 </section>

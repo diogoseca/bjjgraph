@@ -156,7 +156,7 @@ Defending against the Dogfight Position transition means you are the top player 
 
 The defensive strategy centers on denying the three pillars the bottom player needs: the frame that creates separation, the hip angle that enables the elbow post, and the underhook that controls the scramble. By aggressively addressing each pillar as it develops, you force the bottom player to remain in the disadvantageous leg weave position where your passing tools are most effective. If the bottom player does manage to begin rising, your response shifts to controlling the scramble through whizzer pressure, crossface driving, and threatening back takes or guard passes during their transition.
 
-**Opponent's Starting Position**: [[Leg Weave]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Weave]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ The defensive strategy centers on denying the three pillars the bottom player ne
 ### 1. Drive crossface and drop chest pressure immediately when you feel the frame or hip escape beginning
 
 - **When to use**: Early phase—when you recognize the frame establishment and hip escape angle before they post their elbow
-- **Targets**: [[Leg Weave]]
+- **Targets**: [[Positions/Leg Weave]]
 - **If successful**: Bottom player is flattened back down and you maintain full leg weave passing position with opportunity to advance the pass
 - **Risk**: If you overcommit weight forward to crossface, bottom player may redirect to deep half guard entry using your momentum
 
 ### 2. Secure deep whizzer on their underhook arm and use it to drive their shoulder to the mat while circling toward their back
 
 - **When to use**: Mid-phase—when they have posted their elbow and are fighting for the underhook but have not yet established full kneeling base
-- **Targets**: [[Leg Weave]]
+- **Targets**: [[Positions/Leg Weave]]
 - **If successful**: Their underhook is neutralized and you can drive them flat using the whizzer as a lever, returning to dominant leg weave position
 - **Risk**: If your whizzer is too shallow they can circle into you and complete the rise, or limp arm free and achieve the underhook
 
 ### 3. Step over their hook leg as they commit to rising, transitioning to side control or back control
 
 - **When to use**: Late phase—when they have committed fully to the rise and their hook becomes loose as they transition to kneeling
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You complete the guard pass entirely, achieving side control or potentially back control as they turn during the failed transition
 - **Risk**: If their hook is still active and they maintain chest connection, stepping over exposes you to being swept or rolled underneath
 
 ### 4. Sprawl hard and drive hips forward to kill their upward momentum while threatening front headlock or darce
 
 - **When to use**: When they have partially risen but not yet established stable kneeling base—their head is exposed and posture is compromised
-- **Targets**: [[Leg Weave]]
+- **Targets**: [[Positions/Leg Weave]]
 - **If successful**: Their rise is stopped and they are driven back to the mat, potentially in worse position with head exposed to choke threats
 - **Risk**: Aggressive sprawl forward can be redirected into deep half guard if they duck under your driving momentum
 
@@ -225,11 +225,11 @@ The defensive strategy centers on denying the three pillars the bottom player ne
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Weave]]
+### → [[Positions/Leg Weave]]
 
 Shut down the dogfight entry early by driving crossface pressure into their frame attempt, collapsing their elbow post before structural support is established, and maintaining heavy low hips that deny the hip escape angle. Fight the underhook by swimming your arm back to crossface position every time they attempt to swim inside.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Capitalize on their failed rise attempt by stepping over the hook as it loosens during their transition to kneeling. When they commit to coming up and their hook becomes less active, clear the leg and drive through to complete the pass to side control. Alternatively, use the whizzer to circle behind them and flatten them into side control as they turn during the scramble.
 

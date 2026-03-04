@@ -21,7 +21,7 @@ Strategically, the ten finger variation functions as a secondary option within t
 
 The finishing mechanics rely on structural compression rather than muscular strength. Once the fingers are fully interlaced, the practitioner drives pressure through back arch and hip drive while pulling the locked grip toward the sternum. This creates a closing mechanism that is energy-efficient and difficult for the defender to outlast. The technique is equally applicable in gi and no-gi contexts, though it sees more frequent use in no-gi where the absence of collar grips makes front headlock systems a primary attacking pathway.
 
-**From Position**: [[Guillotine Control]] (Top)
+**From Position**: [[Positions/Guillotine Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -33,8 +33,8 @@ The finishing mechanics rely on structural compression rather than muscular stre
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Guillotine Control]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Guillotine Control]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -189,21 +189,21 @@ The Ten Finger Guillotine Variation occupies a specialized niche within the fron
 ## Related Techniques
 
 
-- [[Guillotine Control]] - Source position - the control position from which this variation is executed
+- [[Positions/Guillotine Control]] - Source position - the control position from which this variation is executed
 
-- [[High Elbow Guillotine Variation]] - Alternative variation - different grip angle attacking behind the chin defense
+- [[Transitions/High Elbow Guillotine Variation]] - Alternative variation - different grip angle attacking behind the chin defense
 
-- [[Arm in Guillotine Variation]] - Related variation - alternative grip when opponent's arm is trapped inside
+- [[Transitions/Arm in Guillotine Variation]] - Related variation - alternative grip when opponent's arm is trapped inside
 
-- [[Chin Strap Guillotine]] - Alternative submission - different finishing grip targeting chin and jaw line
+- [[Submissions/Chin Strap Guillotine]] - Alternative submission - different finishing grip targeting chin and jaw line
 
-- [[Front Headlock]] - Parent control category - broader head control system this variation belongs to
+- [[Positions/Front Headlock]] - Parent control category - broader head control system this variation belongs to
 
-- [[Guillotine Escape via Posture]] - Primary counter - the main defensive escape this variation must overcome
+- [[Transitions/Guillotine Escape via Posture]] - Primary counter - the main defensive escape this variation must overcome
 
-- [[Closed Guard]] - Counter outcome position - where opponent may escape to during grip transition
+- [[Positions/Closed Guard]] - Counter outcome position - where opponent may escape to during grip transition
 
-- [[Anaconda Control]] - Chain alternative - transition target when opponent turns into guillotine defense
+- [[Positions/Anaconda Control]] - Chain alternative - transition target when opponent turns into guillotine defense
 
 
 </section>

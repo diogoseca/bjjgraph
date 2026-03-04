@@ -154,7 +154,7 @@ description: "Prevent arm recovery escapes from crucifix in BJJ. Maintain domina
 
 As the crucifix top player, your role when the opponent attempts arm recovery is to maintain the integrity of your bilateral control system while capitalizing on their escape efforts to advance position or secure submissions. Understanding the mechanics of how the bottom player creates extraction angles—primarily through hip escape and arm rotation—allows you to preemptively shut down escape attempts by following their movements and tightening at critical moments. The arm recovery attempt actually creates offensive opportunities for you, because the bottom player must divert their free arm from neck defense to leg framing, temporarily exposing the neck. Recognizing this window and responding with either choke attacks or positional advancement to mounted crucifix transforms the opponent's escape attempt into your finishing opportunity.
 
-**Opponent's Starting Position**: [[Crucifix]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Crucifix]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the crucifix top player, your role when the opponent attempts arm recovery is
 ### 1. Squeeze leg triangle tighter and adjust angle to close the extraction path created by opponent's hip escape
 
 - **When to use**: Immediately when you feel the bottom player beginning to hip escape or sense any slack developing in the arm trap
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Bottom player remains trapped with depleted energy from failed escape attempt and reduced confidence for subsequent attempts
 - **Risk**: Sustained maximum squeeze fatigues your legs over time, potentially making later extraction easier if the opponent is patient
 
 ### 2. Transition to mounted crucifix by swinging your free leg over into mount position while maintaining arm traps
 
 - **When to use**: When the bottom player commits to a deep hip escape creating the angular space you need to step over into mount position
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: Advances to an even more dominant position combining mount pressure with arm isolation, dramatically reducing escape probability
 - **Risk**: The transition creates momentary looseness in the leg trap that may allow arm extraction if your timing is wrong
 
 ### 3. Attack the neck with rear naked choke when the free arm shifts from neck defense to frame against your leg
 
 - **When to use**: The instant you see or feel the bottom player's free hand leave their neck area to push against your controlling leg
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Forces bottom player to abandon the escape attempt and return to urgent neck defense, resetting their progress and depleting their energy
 - **Risk**: If the choke is too shallow or not committed enough, you may lose focus on maintaining leg trap integrity while attacking
 
 ### 4. Follow hip escape with your own hip adjustment to maintain perpendicular alignment and eliminate extraction angle
 
 - **When to use**: Immediately upon sensing any hip escape movement from the bottom player regardless of magnitude
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Nullifies the angle change that enables arm extraction, completely resetting the bottom player's escape progress to zero
 - **Risk**: Minimal risk—this is the most fundamental and safest maintenance response available
 
@@ -225,11 +225,11 @@ As the crucifix top player, your role when the opponent attempts arm recovery is
 
 ## Best-Case Outcomes for Defender
 
-### → [[Crucifix]]
+### → [[Positions/Crucifix]]
 
 Maintain leg triangle integrity by following hip escape movements with your own adjustments and threatening chokes when the free arm leaves neck defense. Use moderate sustained squeeze rather than maximum effort to conserve energy while denying extraction angles.
 
-### → [[Mounted Crucifix]]
+### → [[Positions/Mount/Mounted Crucifix]]
 
 Capitalize on the opponent's committed hip escape by using the angle they create to step your leg over into mount position. Time the transition when they are fully extended in their hip escape and cannot quickly reverse direction to prevent the mount establishment.
 

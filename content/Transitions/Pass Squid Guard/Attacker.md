@@ -186,7 +186,7 @@ description: "Complete guide to passing Squid Guard as the top player. Systemati
 
 As the passer facing Squid Guard, your primary challenge is the lapel entanglement that restricts your lower body movement and provides the guard player with constant off-balancing leverage. Standard open guard passing mechanics will fail until this entanglement is addressed. Your approach must be systematic: establish unbreakable posture first, then methodically strip the lapel control, and only then execute your preferred passing direction. Rushing any phase of this sequence invites the guard player's strongest counters, particularly inversion-based back takes that punish forward commitment without lapel clearance. The passer who maintains composure and follows the correct sequence converts what appears to be a complex problem into a series of manageable technical steps.
 
-**From Position**: [[Squid Guard]] (Top)
+**From Position**: [[Positions/Squid Guard]] (Top)
 
 </section>
 
@@ -240,10 +240,10 @@ As the passer facing Squid Guard, your primary challenge is the lapel entangleme
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Squid Guard]] | 25% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Side Control]] | 45% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Squid Guard]] | 25% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -252,10 +252,10 @@ As the passer facing Squid Guard, your primary challenge is the lapel entangleme
 
 ## Opponent Counters
 
-- **Guard player inverts during lapel strip and threatens back take** (Effectiveness: High) - Your Response: Immediately sprawl hips back and drive shoulder pressure into their inverted body. Abandon the strip temporarily and focus entirely on preventing the rotation. Once their inversion is stuffed, resume the lapel clearing sequence from the stabilized position. → Leads to [[Back Control]]
-- **Guard player regrips the lapel deeper as you attempt to strip it** (Effectiveness: Medium) - Your Response: Maintain control of their free hand more aggressively. If they use their legs to re-feed the lapel, pin their hips with your weight to limit their mobility. Consider switching to a backstep approach to create slack rather than fighting the grip directly. → Leads to [[Squid Guard]]
-- **Guard player transitions to De La Riva or standard open guard during lapel clearing** (Effectiveness: Medium) - Your Response: Recognize the guard transition immediately and switch to the appropriate passing strategy for the new guard. If they abandon the lapel, capitalize by advancing your pass since they have voluntarily given up their strongest control mechanism. → Leads to [[Squid Guard]]
-- **Guard player uses threading hook to elevate and attempt sweep during pass entry** (Effectiveness: Medium) - Your Response: Lower your base immediately and sprawl the elevated leg backward. Use your hands to push their hooking leg down while keeping your hips heavy. Ensure the lapel is fully cleared before re-engaging the pass, as any remaining lapel tension amplifies the sweep threat. → Leads to [[Squid Guard]]
+- **Guard player inverts during lapel strip and threatens back take** (Effectiveness: High) - Your Response: Immediately sprawl hips back and drive shoulder pressure into their inverted body. Abandon the strip temporarily and focus entirely on preventing the rotation. Once their inversion is stuffed, resume the lapel clearing sequence from the stabilized position. → Leads to [[Positions/Back Control]]
+- **Guard player regrips the lapel deeper as you attempt to strip it** (Effectiveness: Medium) - Your Response: Maintain control of their free hand more aggressively. If they use their legs to re-feed the lapel, pin their hips with your weight to limit their mobility. Consider switching to a backstep approach to create slack rather than fighting the grip directly. → Leads to [[Positions/Squid Guard]]
+- **Guard player transitions to De La Riva or standard open guard during lapel clearing** (Effectiveness: Medium) - Your Response: Recognize the guard transition immediately and switch to the appropriate passing strategy for the new guard. If they abandon the lapel, capitalize by advancing your pass since they have voluntarily given up their strongest control mechanism. → Leads to [[Positions/Squid Guard]]
+- **Guard player uses threading hook to elevate and attempt sweep during pass entry** (Effectiveness: Medium) - Your Response: Lower your base immediately and sprawl the elevated leg backward. Use your hands to push their hooking leg down while keeping your hips heavy. Ensure the lapel is fully cleared before re-engaging the pass, as any remaining lapel tension amplifies the sweep threat. → Leads to [[Positions/Squid Guard]]
 
 
 </section>

@@ -154,7 +154,7 @@ description: "Defend the Americana shoulder lock from Modified Mount. Learn earl
 
 Defending the Americana from Modified Mount requires immediate recognition of the wrist-pinning attempt and rapid defensive response before the figure-four grip is established. Once the attacker locks the figure-four, escape options diminish significantly, making early intervention critical. The defender must balance protecting the near-side arm from isolation while simultaneously seeking positional escape through bridging or hip movement. The Modified Mount's posted leg creates both a vulnerability to exploit through directional bridging and a stability challenge that makes explosive escapes less effective than systematic defensive sequences. Understanding the submission's progression from wrist pin to figure-four to finish allows the defender to identify the optimal moment for each defensive response.
 
-**Opponent's Starting Position**: [[Modified Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/Modified Mount]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the Americana from Modified Mount requires immediate recognition of th
 ### 1. Keep elbows tight and turn wrist inward to prevent the initial wrist pin
 
 - **When to use**: As soon as you feel the attacker grip your wrist before they drive it to the mat
-- **Targets**: [[Modified Mount]]
+- **Targets**: [[Positions/Mount/Modified Mount]]
 - **If successful**: Attacker cannot establish the wrist pin and must reset or transition to a different submission attempt
 - **Risk**: If you over-commit to the wrist defense, you may neglect hip escape opportunities
 
 ### 2. Bridge explosively away from the posted leg side during the threading phase
 
 - **When to use**: During the moment the attacker is threading their arm under your tricep when their base is most compromised
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Reverse the attacker during their most vulnerable moment and recover to half guard top position
 - **Risk**: Mistiming the bridge wastes energy and the posted leg can absorb a poorly directed bridge
 
 ### 3. Clasp hands in Gable grip and turn body toward attacker
 
 - **When to use**: After the figure-four is established but before the finishing rotation begins
-- **Targets**: [[Modified Mount]]
+- **Targets**: [[Positions/Mount/Modified Mount]]
 - **If successful**: Stall the submission and prevent the finishing rotation, forcing the attacker to abandon or transition to a different attack
 - **Risk**: Sustained Gable grip defense drains energy and the attacker may use grip breaks or submission switches
 
 ### 4. Hip escape toward posted leg while framing on attacker's hip with free hand
 
 - **When to use**: When the attacker is focused on establishing the Americana and has reduced their focus on position maintenance
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Capture the posted leg to recover half guard, converting the submission defense into a positional escape
 - **Risk**: The frame on the hip may not be sufficient if the attacker maintains strong across-body knee pressure
 
@@ -224,11 +224,11 @@ Defending the Americana from Modified Mount requires immediate recognition of th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a bridge away from the posted leg side during the threading phase when the attacker's arms are occupied, or hip escape toward the posted leg to capture it between your legs while the attacker is focused on the arm attack
 
-### → [[Modified Mount]]
+### → [[Positions/Mount/Modified Mount]]
 
 Prevent the figure-four from being established by keeping elbows tight, defending the wrist pin early, and clasping hands together if the grip is partially established to force the attacker to abandon the submission
 

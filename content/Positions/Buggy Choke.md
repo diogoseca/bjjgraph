@@ -93,21 +93,21 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 ### Available Transitions
 
 
-- **[[Sit to Half Guard]]** (25% of attempts)
+- **[[Transitions/Sit to Half Guard]]** (25% of attempts)
 
-- **[[Granby Roll to Guard]]** (5% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (5% of attempts)
 
-- **[[Technical Stand-up]]** (6% of attempts)
+- **[[Transitions/Technical Stand-up]]** (6% of attempts)
 
-- **[[Turn In and Face]]** (14% of attempts)
+- **[[Transitions/Turn In and Face]]** (14% of attempts)
 
-- **[[Turtle to Guard]]** (12% of attempts)
+- **[[Transitions/Turtle to Guard]]** (12% of attempts)
 
-- **[[Back Door Escape]]** (13% of attempts)
+- **[[Transitions/Back Door Escape]]** (13% of attempts)
 
-- **[[Roll to Deep Half Guard]]** (7% of attempts)
+- **[[Transitions/Roll to Deep Half Guard]]** (7% of attempts)
 
-- **[[Turtle to Back Control]]** (18% of attempts)
+- **[[Transitions/Turtle to Back Control]]** (18% of attempts)
 
 
 ### Common Mistakes
@@ -164,31 +164,31 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 ### Available Transitions
 
 
-- **[[Finish Buggy Choke]]** (41% of attempts)
+- **[[Transitions/Finish Buggy Choke]]** (41% of attempts)
 
-- **[[Hook Leg and Take Back]]** (17% of attempts)
+- **[[Transitions/Hook Leg and Take Back]]** (17% of attempts)
 
-- **[[Roll to Truck]]** (7% of attempts)
+- **[[Transitions/Roll to Truck]]** (7% of attempts)
 
-- **[[Switch to Darce Configuration]]** (4% of attempts)
+- **[[Transitions/Switch to Darce Configuration]]** (4% of attempts)
 
-- **[[Switch to Anaconda Configuration]]** (2% of attempts)
+- **[[Transitions/Switch to Anaconda Configuration]]** (2% of attempts)
 
-- **[[Buggy Choke to Front Headlock]]** (5% of attempts)
+- **[[Transitions/Buggy Choke to Front Headlock]]** (5% of attempts)
 
-- **[[Turtle Flatten to Side Control]]** (7% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control]]** (7% of attempts)
 
-- **[[Guillotine from Turtle]]** (2% of attempts)
+- **[[Transitions/Guillotine from Turtle]]** (2% of attempts)
 
-- **[[Crucifix from Turtle]]** (10% of attempts)
+- **[[Transitions/Crucifix from Turtle]]** (10% of attempts)
 
-- **[[Buggy Choke to North-South]]** (1% of attempts)
+- **[[Transitions/Buggy Choke to North-South]]** (1% of attempts)
 
-- **[[Buggy Choke to Side Control]]** (1% of attempts)
+- **[[Transitions/Buggy Choke to Side Control]]** (1% of attempts)
 
-- **[[Grip Strip from Buggy Choke]]** (1% of attempts)
+- **[[Transitions/Grip Strip from Buggy Choke]]** (1% of attempts)
 
-- **[[Buggy Choke Finish]]** (2% of attempts)
+- **[[Submissions/Buggy Choke Finish]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -231,25 +231,25 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 ## Related Positions
 
 
-- **[[Turtle]]** - Primary starting position where buggy choke attacks initiate from turtle top control
+- **[[Positions/Turtle]]** - Primary starting position where buggy choke attacks initiate from turtle top control
 
-- **[[Back Control]]** - Common transition destination when opponent sits to guard defending the choke
+- **[[Positions/Back Control]]** - Common transition destination when opponent sits to guard defending the choke
 
-- **[[Crucifix]]** - Alternative attack when opponent extends far arm to defend choking pressure
+- **[[Positions/Crucifix]]** - Alternative attack when opponent extends far arm to defend choking pressure
 
-- **[[Truck]]** - Transition target when opponent attempts granby roll escapes from buggy choke control
+- **[[Positions/Twister Control/Truck]]** - Transition target when opponent attempts granby roll escapes from buggy choke control
 
-- **[[Darce Control]]** - Switch option available when opponent turns into the buggy choke attack angle
+- **[[Positions/Darce Control]]** - Switch option available when opponent turns into the buggy choke attack angle
 
-- **[[Anaconda Control]]** - Related front headlock submission from similar turtle control configurations
+- **[[Positions/Anaconda Control]]** - Related front headlock submission from similar turtle control configurations
 
-- **[[Front Headlock]]** - Related turtle attack position with overlapping control and submission objectives
+- **[[Positions/Front Headlock]]** - Related turtle attack position with overlapping control and submission objectives
 
-- **[[Side Control]]** - Fallback position when grips are stripped or significant defensive space is created
+- **[[Positions/Side Control]]** - Fallback position when grips are stripped or significant defensive space is created
 
-- **[[Guillotine Control]]** - Alternative turtle submission when buggy choke angle is not available
+- **[[Positions/Guillotine Control]]** - Alternative turtle submission when buggy choke angle is not available
 
-- **[[North-South]]** - Related top control position with similar pressure and submission principles
+- **[[Positions/North-South]]** - Related top control position with similar pressure and submission principles
 
 
 </section>

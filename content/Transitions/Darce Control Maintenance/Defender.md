@@ -146,7 +146,7 @@ description: "Learn to defend against Darce Control maintenance in BJJ. Systemat
 
 Defending against Darce Control Maintenance requires immediate recognition that the opponent is settling into a sustained control phase rather than rushing to finish. This distinction matters because the defender's strategy shifts from surviving a sudden choke attempt to systematically dismantling a deliberate positional hold. The maintenance defender must address both the submission threat and the positional control simultaneously, prioritizing trapped arm extraction while preventing the opponent from improving their grip depth or finishing angle. Every second in darce control works against the defender as sustained pressure fatigues neck muscles and degrades defensive frames, making early action essential for successful escape.
 
-**Opponent's Starting Position**: [[Darce Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Darce Control]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending against Darce Control Maintenance requires immediate recognition that 
 ### 1. Execute systematic arm extraction by gripping your trapped wrist with your free hand and pulling toward your centerline while turning into the opponent
 
 - **When to use**: As soon as you recognize the darce grip is established but before the opponent has fully locked the figure-four and settled their weight. The earlier you begin extraction, the higher your success rate.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Eliminates the arm-in choke structure entirely, reducing the position to a standard front headlock which has significantly lower submission threat and more established escape sequences
 - **Risk**: If extraction fails, the pulling motion can temporarily create space that the opponent exploits to drive their grip deeper, making the choke tighter than before the attempt
 
 ### 2. Turn into the opponent and execute a granby roll or sit-through to recover half guard or closed guard
 
 - **When to use**: When the opponent's hip position allows space underneath for you to rotate, particularly when they are positioned high on your body or have their weight committed forward over your head
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Completely escapes the darce control position and recovers to a guard position where you can begin playing offense or at minimum reset to a neutral engagement
 - **Risk**: If the roll is incomplete, you may end up flattened on your back with the darce grip still intact, which is the worst possible defensive position with minimal remaining escape options
 
 ### 3. Post free hand on opponent's hip and explosively stand up while keeping chin tucked and trapped shoulder rotating outward
 
 - **When to use**: When opponent has a relatively shallow grip and has not fully settled their weight. Most effective in the first five seconds after the grip is established before the opponent locks their body position.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Standing posture breaks the opponent's base and shoulder pressure angle, often forcing them to abandon the darce grip to prevent being lifted or to reestablish their position
 - **Risk**: If the standing attempt stalls halfway, the opponent can use your upward momentum against you by redirecting it into a snapdown that flattens you with an even deeper grip
 
 ### 4. Walk hips away from opponent while creating frames to prevent them from following, then circle toward their legs to escape the grip angle
 
 - **When to use**: When direct arm extraction and standing have failed and you need to change the angle of engagement to find an escape path. Works best against opponents who commit their weight too far forward.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Changes the grip angle enough that the darce loses its choking effectiveness, allowing you to recover guard or scramble to a neutral position
 - **Risk**: Walking hips away can allow opponent to follow and maintain control if they have good hip mobility, potentially extending the time spent in the dangerous position
 
@@ -217,11 +217,11 @@ Defending against Darce Control Maintenance requires immediate recognition that 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Extract your trapped arm by gripping your own wrist with your free hand and pulling it toward your centerline while simultaneously turning your body into the opponent to reduce the grip angle. Once the arm is free, the darce choke mechanics fail completely and you are in a standard front headlock defense scenario with established escape sequences available.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Execute a granby roll or sit-through when the opponent shifts their weight forward or adjusts their hip position. Time the movement to when their base is compromised during a transition. Drive your hips through the space under their body and immediately establish half guard hooks to prevent them from re-establishing the darce grip or advancing to side control.
 

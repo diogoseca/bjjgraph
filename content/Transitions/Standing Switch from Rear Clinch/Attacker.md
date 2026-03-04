@@ -186,7 +186,7 @@ description: "Execute the Standing Switch from Rear Clinch to escape standing ba
 
 As the attacker executing the Standing Switch, your objective is to convert a disadvantageous rear clinch position into a dominant one through precise timing and explosive hip rotation. The switch requires you to sense the exact moment when the opponent's weight shifts or their grip loosens, then execute a coordinated sequence of hip pivot, arm clear, and rotation that reverses the control dynamic. Success depends on reading the opponent's weight distribution through tactile feedback and committing fully to the rotation once initiated. The switch must be decisive—half-hearted attempts give the opponent time to re-establish control and often result in a worse position than before the attempt.
 
-**From Position**: [[Standing Rear Clinch]] (Bottom)
+**From Position**: [[Positions/Standing Rear Clinch]] (Bottom)
 
 </section>
 
@@ -239,10 +239,10 @@ As the attacker executing the Standing Switch, your objective is to convert a di
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Rear Clinch]] | 25% |
-| Success | [[Clinch]] | 20% |
-| Failure | [[Standing Rear Clinch]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Standing Rear Clinch]] | 25% |
+| Success | [[Positions/Clinch]] | 20% |
+| Failure | [[Positions/Standing Rear Clinch]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the attacker executing the Standing Switch, your objective is to convert a di
 
 ## Opponent Counters
 
-- **Opponent re-squares their hips and re-establishes bodylock before rotation completes** (Effectiveness: High) - Your Response: If you feel the opponent clamping down during your rotation, immediately abandon the switch and transition to a different escape like hand fighting or pummeling rather than forcing a blocked pivot. → Leads to [[Standing Rear Clinch]]
-- **Opponent drops weight and executes mat return during your switch initiation** (Effectiveness: High) - Your Response: If the opponent times a mat return against your switch, prioritize turning into them and fighting for underhooks on the way down to prevent ground back control establishment. Use your rotational momentum to stay angled toward them. → Leads to [[Back Control]]
-- **Opponent widens stance and drives forward pressure to prevent hip rotation** (Effectiveness: Medium) - Your Response: Against heavy forward pressure, redirect their momentum by pulling them forward past your center line while you pivot underneath. The more they commit forward, the more you can channel that energy into your rotation arc. → Leads to [[Standing Rear Clinch]]
-- **Opponent lifts your hips slightly to remove your feet from the mat during pivot attempt** (Effectiveness: Medium) - Your Response: If lifted, immediately drop your weight by extending your legs downward and widening your base. Once feet reconnect with the mat, use the opponent's overcommitment to the lift as an opening for a Granby roll switch variant that uses their elevated position against them. → Leads to [[Standing Rear Clinch]]
+- **Opponent re-squares their hips and re-establishes bodylock before rotation completes** (Effectiveness: High) - Your Response: If you feel the opponent clamping down during your rotation, immediately abandon the switch and transition to a different escape like hand fighting or pummeling rather than forcing a blocked pivot. → Leads to [[Positions/Standing Rear Clinch]]
+- **Opponent drops weight and executes mat return during your switch initiation** (Effectiveness: High) - Your Response: If the opponent times a mat return against your switch, prioritize turning into them and fighting for underhooks on the way down to prevent ground back control establishment. Use your rotational momentum to stay angled toward them. → Leads to [[Positions/Back Control]]
+- **Opponent widens stance and drives forward pressure to prevent hip rotation** (Effectiveness: Medium) - Your Response: Against heavy forward pressure, redirect their momentum by pulling them forward past your center line while you pivot underneath. The more they commit forward, the more you can channel that energy into your rotation arc. → Leads to [[Positions/Standing Rear Clinch]]
+- **Opponent lifts your hips slightly to remove your feet from the mat during pivot attempt** (Effectiveness: Medium) - Your Response: If lifted, immediately drop your weight by extending your legs downward and widening your base. Once feet reconnect with the mat, use the opponent's overcommitment to the lift as an opening for a Granby roll switch variant that uses their elevated position against them. → Leads to [[Positions/Standing Rear Clinch]]
 
 
 </section>

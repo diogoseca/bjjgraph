@@ -158,7 +158,7 @@ The defensive hierarchy follows three phases: prevention (deny positional advanc
 
 Your primary defensive tools are the boot (straightening your leg to hide the heel), hip rotation (turning to face the attacker to neutralize the rotational angle), grip fighting (preventing the attacker from securing the heel), and counter-entanglement (attacking the opponent's exposed leg to create a mutual threat that forces them to address their own defense). Each tool has a specific timing window and carries distinct risks if it fails.
 
-**Opponent's Starting Position**: [[Ashi Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Your primary defensive tools are the boot (straightening your leg to hide the he
 ### 1. Boot defense—straighten your leg forcefully to hide the heel and prevent grip access
 
 - **When to use**: Before the attacker secures a deep heel grip, while they are still attempting to expose and wrap your heel
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Attacker loses heel access and must either reposition or transition to alternative attack like straight ankle lock
 - **Risk**: If knee-line control is strong, booting is impossible and the attempt wastes energy. If partially successful, may expose ankle to straight ankle lock
 
 ### 2. Hip rotation toward attacker—turn your body to face opponent, neutralizing the perpendicular breaking angle
 
 - **When to use**: When attacker has grip but has not yet applied full rotational force—rotate before the finish is locked in
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Facing the attacker removes the rotational angle needed for the heel hook, allowing you to work grip strips and positional escapes
 - **Risk**: If attacker has strong hip shelf control, rotation is blocked. Partial rotation under load can still allow knee damage
 
 ### 3. Aggressive grip fighting—two-on-one strip of attacker's heel grip before they achieve depth
 
 - **When to use**: Immediately when you feel the attacker's hand reaching for or beginning to wrap your heel
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Attacker loses heel control and must re-establish grip, buying time for positional escape or counter-attack
 - **Risk**: If attacker has deep grip locked to their chest, strip attempts may be futile and waste defensive energy
 
 ### 4. Counter-entangle and attack opponent's exposed heel to create mutual threat
 
 - **When to use**: When you have access to opponent's heel during the exchange, particularly in 50-50 or when attacker neglects their own heel defense
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Creates bilateral threat forcing attacker to address their own defense, potentially abandoning their attack or entering 50-50 exchange
 - **Risk**: If your position is inferior, counter-attacking while being attacked can result in you being finished first
 
@@ -229,11 +229,11 @@ Your primary defensive tools are the boot (straightening your leg to hide the he
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ashi Garami]]
+### → [[Positions/Ashi Garami]]
 
 Successfully strip the attacker's heel grip through two-on-one grip fighting, then immediately boot your leg straight and begin leg extraction. Use hip rotation to face the attacker and deny re-grip attempts while systematically clearing their leg entanglement hooks.
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 When the attacker overcommits to the heel hook and neglects their own heel defense, counter-entangle their leg to establish 50-50 configuration. From 50-50, the positional advantage resets and you can compete for inside control and counter-attack opportunities.
 

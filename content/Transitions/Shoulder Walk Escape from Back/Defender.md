@@ -146,7 +146,7 @@ description: "Counter the shoulder walk escape from back control in BJJ. Learn t
 
 As the defender maintaining back control against a shoulder walk escape attempt, your primary objective is to prevent the cumulative downward displacement that makes your hooks progressively shallower. The shoulder walk is a patient, grinding escape that works through micro-movements rather than explosive bursts, which means your counter-strategy must also be systematic and persistent rather than relying on a single defensive reaction. You must recognize the escape pattern early through the distinctive alternating shoulder drive rhythm and immediately begin counter-measures before significant displacement accumulates. Your defensive arsenal includes following the opponent's movement with your hips, tightening your hooks, transitioning to body triangle when hooks become endangered, and exploiting the escape movement to create submission opportunities. The key principle is that every inch of displacement the opponent gains through shoulder walking represents a proportional decrease in your positional control, so early recognition and intervention yield dramatically better results than late responses.
 
-**Opponent's Starting Position**: [[Back Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ As the defender maintaining back control against a shoulder walk escape attempt,
 ### 1. Follow with hips by scooting downward to match the opponent's shoulder walk displacement and maintain hook depth
 
 - **When to use**: Immediately upon recognizing the alternating shoulder drive pattern, before significant displacement has accumulated and while hooks are still deep enough to control effectively
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Negates the shoulder walk progress entirely and maintains full back control with deep hooks and upper body connection
 - **Risk**: If you focus too much on following the movement, you may loosen your seatbelt grip or chest-to-back connection, creating openings for alternative escape paths
 
 ### 2. Lock body triangle to prevent further downward displacement when hooks begin feeling shallow
 
 - **When to use**: When you feel your hooks becoming progressively shallower despite following the movement, indicating the shoulder walk is winning the displacement battle and hook control will eventually fail
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: Eliminates the possibility of further shoulder walk escape by creating a locked connection that moves as a unit with the opponent's body, requiring a completely different escape methodology
 - **Risk**: Body triangle has its own escape vulnerabilities and changes the positional dynamic. Opponent may already be familiar with body triangle escapes and could exploit the transition.
 
 ### 3. Attack the neck aggressively during the shoulder walk to force the opponent to abandon the escape and re-prioritize defense
 
 - **When to use**: When you notice the opponent's hand fighting attention is divided between neck defense and seatbelt control, creating a momentary reduction in neck protection quality during the multi-tasking escape
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Forces the opponent to pause or abandon the shoulder walk entirely to re-establish full neck defense, resetting the escape progress to zero while maintaining your dominant position
 - **Risk**: Aggressive neck attacks may loosen your hook control or seatbelt grip as you commit arms to the choke, potentially accelerating the very escape you are trying to prevent
 
 ### 4. Drive chest pressure forward and flatten the opponent against the mat to reduce their shoulder blade contact and driving leverage
 
 - **When to use**: At the beginning of the escape attempt before significant displacement has occurred, using forward pressure to pin the opponent's shoulders flat and eliminate the angles needed for effective shoulder drives
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Removes the opponent's ability to generate shoulder walk movement by pinning their upper back flat, forcing them to abandon the escape and attempt alternative methods
 - **Risk**: Heavy forward pressure may create a small gap between your hips and theirs that the opponent can exploit for hip escape sequences if your hooks are not deeply set
 
@@ -216,11 +216,11 @@ As the defender maintaining back control against a shoulder walk escape attempt,
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Follow the opponent's downward movement with your hips immediately upon recognizing the shoulder walk pattern, maintaining deep hooks and tight seatbelt throughout. Match their displacement inch for inch to prevent any cumulative positional gain while keeping chest-to-back pressure constant.
 
-### → [[Body Triangle]]
+### → [[Positions/Back Control/Body Triangle]]
 
 When hooks begin feeling shallow despite your counter-adjustments, proactively transition to body triangle by threading your top leg through and locking the triangle configuration before the opponent can clear hooks entirely. This converts the hook-based control problem into a body triangle control that is immune to shoulder walk escape.
 

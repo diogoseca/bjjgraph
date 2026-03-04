@@ -21,7 +21,7 @@ The arm drag represents a fundamental principle in grappling: using the opponent
 
 From the butterfly guard specifically, the arm drag pairs naturally with the hook elevation system. The butterfly hooks provide the platform to momentarily unweight the opponent as you pull their arm across, making the rotational movement behind them far more efficient. This synergy between upper body drag mechanics and lower body elevation is what makes the butterfly guard one of the highest-percentage launching points for the arm drag to back take.
 
-**From Position**: [[Butterfly Guard]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ From the butterfly guard specifically, the arm drag pairs naturally with the hoo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 58% |
-| Failure | [[Butterfly Guard]] | 30% |
-| Counter | [[Butterfly Guard]] | 12% |
+| Success | [[Positions/Back Control]] | 58% |
+| Failure | [[Positions/Butterfly Guard]] | 30% |
+| Counter | [[Positions/Butterfly Guard]] | 12% |
 
 
 </section>
@@ -199,25 +199,25 @@ The arm drag to back is a fundamental transitional technique that bridges multip
 ## Related Techniques
 
 
-- [[Arm Drag]] - Base technique - fundamental movement pattern this builds upon
+- [[Transitions/Arm Drag]] - Base technique - fundamental movement pattern this builds upon
 
-- [[Arm Drag Sweep]] - Alternative finish - sweep option when back take is defended
+- [[Transitions/Arm Drag Sweep]] - Alternative finish - sweep option when back take is defended
 
-- [[Collar Drag]] - Variation - gi-specific alternative using collar grips
+- [[Transitions/Collar Drag]] - Variation - gi-specific alternative using collar grips
 
-- [[Front Headlock to Back]] - Alternative back access - another path from similar positions
+- [[Transitions/Front Headlock to Back]] - Alternative back access - another path from similar positions
 
-- [[Rear Naked Choke]] - Primary submission - main finish from resulting back control
+- [[Transitions/Rear Naked Choke]] - Primary submission - main finish from resulting back control
 
-- [[Butterfly Sweep]] - Alternative attack - option from same starting position
+- [[Transitions/Butterfly Sweep]] - Alternative attack - option from same starting position
 
-- [[Back Take]] - Category - general back taking principles
+- [[Transitions/Back Take]] - Category - general back taking principles
 
-- [[Chair Sit to Back]] - Related technique - alternative back take from similar angle
+- [[Transitions/Chair Sit to Back]] - Related technique - alternative back take from similar angle
 
-- [[Butterfly Guard to X-Guard]] - Chain transition - alternative when opponent defends drag by standing
+- [[Transitions/Butterfly Guard to X-Guard]] - Chain transition - alternative when opponent defends drag by standing
 
-- [[Back Control Maintenance]] - Follow-up - consolidation after successful back take
+- [[Transitions/Back Control Maintenance]] - Follow-up - consolidation after successful back take
 
 
 </section>

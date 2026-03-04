@@ -17,7 +17,7 @@ description: "Master the Half Guard to Back Take in BJJ. Complete guide to under
 
 Half Guard to Back Take represents an advanced positional transition that transforms a defensive half guard position into the highly dominant back control. This transition is fundamental to modern half guard systems and represents one of the highest-percentage paths to dominance from bottom position. The technique relies on establishing an underhook, creating a perpendicular angle to the opponent, and systematically climbing to their back while they attempt to maintain top pressure. This transition is particularly effective because it exploits the opponent's forward pressure against them, using their own weight commitment to facilitate the back take. Mastery of this transition is essential for any serious half guard player and represents a key component of offensive half guard systems developed by experts like Bernardo Faria and Craig Jones.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 **Success Rate**: 78%
 
 </section>
@@ -28,9 +28,9 @@ Half Guard to Back Take represents an advanced positional transition that transf
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 75% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 75% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -194,27 +194,27 @@ Half Guard to Back Take is a fundamental transition in the offensive half guard 
 ## Related Techniques
 
 
-- [[Half Guard]] - Starting position - foundational position where technique initiates
+- [[Positions/Half Guard]] - Starting position - foundational position where technique initiates
 
-- [[Back Control]] - Ending position - dominant control achieved through successful execution
+- [[Positions/Back Control]] - Ending position - dominant control achieved through successful execution
 
-- [[Seat Belt Control Back]] - Follow-up control - primary grip configuration after achieving back
+- [[Positions/Back Control/Seat Belt Control Back]] - Follow-up control - primary grip configuration after achieving back
 
-- [[Underhook Sweep from Half]] - Alternative attack - complementary technique using same underhook control
+- [[Transitions/Underhook Sweep from Half]] - Alternative attack - complementary technique using same underhook control
 
-- [[Old School Sweep]] - Combination technique - can transition between this and back take based on opponent's defense
+- [[Transitions/Old School Sweep]] - Combination technique - can transition between this and back take based on opponent's defense
 
-- [[Deep Half Guard]] - Alternative entry - different half guard variation that can lead to same back take
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative entry - different half guard variation that can lead to same back take
 
-- [[Kimura to Back Take]] - Related technique - alternative grip configuration for same positional outcome
+- [[Transitions/Kimura to Back Take]] - Related technique - alternative grip configuration for same positional outcome
 
-- [[Dogfight Position]] - Transitional position - often occurs during back take attempt when opponent defends
+- [[Positions/Dogfight Position]] - Transitional position - often occurs during back take attempt when opponent defends
 
-- [[Rear Naked Choke]] - Primary submission - most common finishing technique after successful back take
+- [[Transitions/Rear Naked Choke]] - Primary submission - most common finishing technique after successful back take
 
-- [[Lockdown]] - Related variation - lockdown half guard provides alternative entry to back take through electric chair threat
+- [[Positions/Half Guard/Lockdown]] - Related variation - lockdown half guard provides alternative entry to back take through electric chair threat
 
-- [[Body Triangle]] - Follow-up control - alternative leg configuration after securing back control
+- [[Positions/Back Control/Body Triangle]] - Follow-up control - alternative leg configuration after securing back control
 
 
 </section>

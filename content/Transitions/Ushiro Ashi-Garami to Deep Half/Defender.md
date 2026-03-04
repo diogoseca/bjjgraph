@@ -158,7 +158,7 @@ Your defensive strategy centers on maintaining inside leg control depth and prev
 
 The key defensive principle is recognizing that the deep half entry happens during your grip adjustment phases. When you shift your hands from control grips to submission grips, you create the window the bottom player exploits. Maintaining continuous leg pressure and avoiding extended grip transitions eliminates the timing opportunities they need. If you sense the directional change beginning, you must react within one to two seconds - either deepen your control to punish the attempt or disengage and re-establish top position before they consolidate deep half guard.
 
-**Opponent's Starting Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ The key defensive principle is recognizing that the deep half entry happens duri
 ### 1. Deepen inside leg control to saddle configuration when you feel the bottom player pushing your inside knee away, driving your inside leg deeper on their thigh to establish honey hole control
 
 - **When to use**: When you detect the bottom player's hands on your inside knee and their hip direction changing from lateral to downward, indicating the early phase of the deep half threading attempt
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: You transition from ushiro ashi-garami to honey hole or saddle, significantly increasing submission probability and converting their escape attempt into a worse position for them
 - **Risk**: Committing to the saddle transition requires releasing some outside leg control, which could allow the bottom player to complete a Granby roll to turtle if your inside leg entry is too slow
 
 ### 2. Sprawl hips backward and post hands wide to deny the threading path underneath your center of gravity, removing the space the bottom player needs to slide their head and shoulders beneath your hips
 
 - **When to use**: When the bottom player has already pushed your inside knee away but has not yet established their underhook on your far leg, blocking the threading motion before it gains momentum
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: You maintain the ushiro ashi-garami position with the bottom player unable to advance their escape, forcing them to choose between returning to standard escape attempts or remaining in the compromised entanglement
 - **Risk**: Sprawling shifts your weight onto your hands and reduces leg pressure, potentially loosening your entanglement enough for the bottom player to extract their leg or transition to single leg X-guard
 
 ### 3. Attack the heel hook aggressively during the threading phase when the bottom player's mental focus shifts to underhook establishment and their dorsiflexion may momentarily relax
 
 - **When to use**: When the bottom player commits to the threading motion and their attention divides between positional movement and heel protection, creating a submission window during the transition
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: You catch the heel hook finish during the transition, capitalizing on the momentary defensive lapse that occurs when the bottom player prioritizes positional escape over submission defense
 - **Risk**: Reaching for the heel grip requires releasing some positional control, which the bottom player can exploit to accelerate their threading motion and consolidate deep half guard if you miss the heel
 
 ### 4. Disengage the leg entanglement entirely and scramble to establish top position before the bottom player can consolidate deep half guard hooks
 
 - **When to use**: When the bottom player has already threaded their head and shoulders past your hip line and deep half consolidation is imminent, making continued entanglement counterproductive
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: You release the entanglement and establish top half guard or side control before deep half hooks are set, converting from a deteriorating leg lock position to a stable passing position
 - **Risk**: Disengaging concedes the leg entanglement position entirely, and if the bottom player consolidates deep half before you establish top control, you face a strong sweeping position with no submission threats
 
@@ -228,11 +228,11 @@ The key defensive principle is recognizing that the deep half entry happens duri
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ushiro Ashi-Garami]]
+### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Maintain deep inside leg control by driving your knee toward the bottom player's centerline whenever they attempt to push it away. Sprawl your hips back to deny threading space while keeping continuous leg pressure. The bottom player remains trapped in the compromised entanglement and must try alternative escapes.
 
-### → [[Honey Hole]]
+### → [[Positions/Ashi Garami/Honey Hole]]
 
 When the bottom player pushes your inside knee away to create threading space, use their directional change as an opportunity to drive your inside leg deeper on their thigh, transitioning from ushiro ashi-garami into saddle or honey hole. Their threading attempt opens the pathway for your inside leg to advance past their knee line into the higher-control entanglement.
 

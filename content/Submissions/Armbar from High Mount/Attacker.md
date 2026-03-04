@@ -182,7 +182,7 @@ description: "Execute the Armbar from High Mount in BJJ. Step-by-step mechanics 
 
 Attacking the Armbar from High Mount is a systematic process that begins well before the submission itself. The attacker must first establish dominant high mount control with knees near the armpits, then isolate one of the defender's arms through grip fighting, positional pressure, or by capitalizing on defensive reactions. The high mount platform provides a significant mechanical advantage because the defender's primary escape tool—the bridge—is already neutralized by the elevated knee positioning. This means the attacker can focus entirely on arm isolation and submission mechanics without simultaneously defending against explosive escapes. The finishing sequence requires controlled rotation from mount to a perpendicular position while maintaining constant pressure on the isolated arm, culminating in progressive hip elevation against the elbow joint to achieve the tap.
 
-**From Position**: [[High Mount]] (Top)
+**From Position**: [[Positions/Mount/High Mount]] (Top)
 
 
 </section>
@@ -236,9 +236,9 @@ Attacking the Armbar from High Mount is a systematic process that begins well be
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[High Mount]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Mount/High Mount]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -247,11 +247,11 @@ Attacking the Armbar from High Mount is a systematic process that begins well be
 
 ## Opponent Defenses
 
-- **Defender clasps hands together to prevent arm extension** (Effectiveness: High) - Your Response: Use the RNC-style grip break by pulling their wrist toward you while driving your hips into the grip connection. Alternatively, attack the americana on the bent arm or switch to a mounted triangle by threading your leg under the chin. → Leads to [[High Mount]]
-- **Defender bridges explosively during the leg swing transition** (Effectiveness: Medium) - Your Response: Post your free hand wide for base stability and drive your weight forward. If the bridge is strong enough to displace you, abandon the armbar and re-settle into high mount. The bridge window is brief—if you survive the initial explosion, continue the attack. → Leads to [[High Mount]]
-- **Defender turns into the attacker and stacks during the sit-back phase** (Effectiveness: Medium) - Your Response: Angle your body away from them to maintain distance and use your legs to control their posture. If they fully stack, switch to a triangle or release and re-establish top position rather than fighting from a compromised angle. → Leads to [[Closed Guard]]
-- **Defender pulls the trapped arm back to their body during transition** (Effectiveness: High) - Your Response: Maintain wrist control throughout the entire transition—never release the grip even momentarily. If the arm escapes, immediately return to high mount and re-establish control before attempting again. Do not chase the arm while off-balance. → Leads to [[High Mount]]
-- **Defender hip escapes and inserts knee during the attacker's rotation** (Effectiveness: Medium) - Your Response: Drive your near knee back down against their body to close the space. If they insert a knee shield, transition to half guard top and work to re-pass rather than forcing the armbar from a compromised position. → Leads to [[Half Guard]]
+- **Defender clasps hands together to prevent arm extension** (Effectiveness: High) - Your Response: Use the RNC-style grip break by pulling their wrist toward you while driving your hips into the grip connection. Alternatively, attack the americana on the bent arm or switch to a mounted triangle by threading your leg under the chin. → Leads to [[Positions/Mount/High Mount]]
+- **Defender bridges explosively during the leg swing transition** (Effectiveness: Medium) - Your Response: Post your free hand wide for base stability and drive your weight forward. If the bridge is strong enough to displace you, abandon the armbar and re-settle into high mount. The bridge window is brief—if you survive the initial explosion, continue the attack. → Leads to [[Positions/Mount/High Mount]]
+- **Defender turns into the attacker and stacks during the sit-back phase** (Effectiveness: Medium) - Your Response: Angle your body away from them to maintain distance and use your legs to control their posture. If they fully stack, switch to a triangle or release and re-establish top position rather than fighting from a compromised angle. → Leads to [[Positions/Closed Guard]]
+- **Defender pulls the trapped arm back to their body during transition** (Effectiveness: High) - Your Response: Maintain wrist control throughout the entire transition—never release the grip even momentarily. If the arm escapes, immediately return to high mount and re-establish control before attempting again. Do not chase the arm while off-balance. → Leads to [[Positions/Mount/High Mount]]
+- **Defender hip escapes and inserts knee during the attacker's rotation** (Effectiveness: Medium) - Your Response: Drive your near knee back down against their body to close the space. If they insert a knee shield, transition to half guard top and work to re-pass rather than forcing the armbar from a compromised position. → Leads to [[Positions/Half Guard]]
 
 
 </section>

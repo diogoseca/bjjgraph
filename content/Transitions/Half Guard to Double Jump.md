@@ -21,7 +21,7 @@ This transition represents a paradigm shift in half guard passing strategy. Rath
 
 The technique demands precise timing and committed execution. The transition window is brief, typically lasting only one to two seconds as the opponent rotates from half guard bottom toward turtle. Hesitation or partial commitment results in the opponent completing their turtle defense with hips protected, forcing the top player into conventional and less efficient turtle attack sequences. Successful execution requires reading the opponent's rotational intent early and matching their movement with explosive hook insertion while maintaining upper body connection throughout.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ The technique demands precise timing and committed execution. The transition win
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Double Jump]] | 55% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Butterfly Guard]] | 20% |
+| Success | [[Positions/Double Jump]] | 55% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Butterfly Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Transition to Double Jump occupies a critical junction in the half guard pas
 ## Related Techniques
 
 
-- [[Half Guard]] - Starting position - transition initiates from half guard top control
+- [[Positions/Half Guard]] - Starting position - transition initiates from half guard top control
 
-- [[Double Jump]] - Target position - bilateral leg hook control achieved on success
+- [[Positions/Double Jump]] - Target position - bilateral leg hook control achieved on success
 
-- [[Turtle]] - Opponent's intended destination that this transition intercepts
+- [[Positions/Turtle]] - Opponent's intended destination that this transition intercepts
 
-- [[Back Control]] - Ultimate target - Double Jump serves as gateway to back control
+- [[Positions/Back Control]] - Ultimate target - Double Jump serves as gateway to back control
 
-- [[Crab Ride]] - Alternative control position using similar leg hook mechanics from Double Jump
+- [[Positions/Crab Ride]] - Alternative control position using similar leg hook mechanics from Double Jump
 
-- [[Truck]] - Advanced leg entanglement accessible from successful Double Jump establishment
+- [[Positions/Twister Control/Truck]] - Advanced leg entanglement accessible from successful Double Jump establishment
 
-- [[Back Step Pass]] - Related passing technique that can flow into Double Jump entry
+- [[Transitions/Back Step Pass]] - Related passing technique that can flow into Double Jump entry
 
-- [[Knee Slice Pass]] - Alternative passing option when Double Jump entry is not available
+- [[Transitions/Knee Slice Pass]] - Alternative passing option when Double Jump entry is not available
 
-- [[Butterfly Guard]] - Counter position opponent may achieve if Double Jump entry fails
+- [[Positions/Butterfly Guard]] - Counter position opponent may achieve if Double Jump entry fails
 
-- [[Crossface Pass]] - Complementary technique providing upper body control needed for transition
+- [[Transitions/Crossface Pass]] - Complementary technique providing upper body control needed for transition
 
 
 </section>

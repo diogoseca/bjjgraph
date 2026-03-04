@@ -26,8 +26,8 @@ The position demands systematic control before any finishing attempt: hip contro
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Knee joint, ankle joint, and surrounding ligaments
-**Starting Position**: [[Outside Ashi-Garami]]
-**From Position**: [[Outside Ashi-Garami]] (Bottom)
+**Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -88,8 +88,8 @@ The position demands systematic control before any finishing attempt: hip contro
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Outside Ashi-Garami]] | 25% |
-| Counter | [[Standing Position]] | 15% |
+| Failure | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 25% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -238,13 +238,13 @@ The position demands systematic control before any finishing attempt: hip contro
 
 ## From Which Positions?
 
-- [[Outside Ashi-Garami]]
-- [[Cross Ashi-Garami]]
-- [[50-50 Guard]]
-- [[Backside 50-50]]
-- [[Ashi Garami]]
-- [[Saddle]]
-- [[Honey Hole]]
+- [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- [[Positions/Ashi Garami/50-50 Guard]]
+- [[Positions/Ashi Garami/Backside 50-50]]
+- [[Positions/Ashi Garami]]
+- [[Positions/Ashi Garami/Saddle]]
+- [[Positions/Ashi Garami/Honey Hole]]
 
 
 </section>
@@ -253,16 +253,16 @@ The position demands systematic control before any finishing attempt: hip contro
 
 ## Related Submissions
 
-- [[Inside Heel Hook]]
-- [[Heel Hook from Saddle]]
-- [[Kneebar]]
-- [[Toe Hold]]
-- [[Straight Ankle Lock]]
-- [[Calf Slicer]]
-- [[Estima Lock Finish]]
-- [[Outside Heel Hook from Backside 50-50]]
-- [[Outside Heel Hook from Cross Ashi]]
-- [[Inside Heel Hook from Honey Hole]]
+- [[Submissions/Inside Heel Hook]]
+- [[Transitions/Heel Hook from Saddle]]
+- [[Transitions/Kneebar]]
+- [[Transitions/Toe Hold]]
+- [[Submissions/Straight Ankle Lock]]
+- [[Transitions/Calf Slicer]]
+- [[Submissions/Estima Lock Finish]]
+- [[Submissions/Outside Heel Hook from Backside 50-50]]
+- [[Transitions/Outside Heel Hook from Cross Ashi]]
+- [[Transitions/Inside Heel Hook from Honey Hole]]
 
 
 </section>
@@ -271,16 +271,16 @@ The position demands systematic control before any finishing attempt: hip contro
 
 ## Additional Related Content
 
-- [[Outside Ashi-Garami]] - Primary attacking position for this submission
-- [[Inside Heel Hook]] - Mirror submission from inside positioning
-- [[Saddle]] - Alternative attacking position with similar mechanics
-- [[Cross Ashi-Garami]] - Entry position providing outside control
-- [[Kneebar Control]] - Alternative leg attack control position from same entanglements
-- [[50-50 Guard]] - Common entry position requiring transition to outside control
-- [[Leg Entanglement]] - Conceptual principle underlying all leg lock positions
-- [[Backside 50-50]] - Transition position with natural outside control
-- [[Ashi Garami]] - Parent leg entanglement category
-- [[Straight Ankle Lock Control]] - Lower-risk alternative control position from similar entanglements
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Primary attacking position for this submission
+- [[Submissions/Inside Heel Hook]] - Mirror submission from inside positioning
+- [[Positions/Ashi Garami/Saddle]] - Alternative attacking position with similar mechanics
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Entry position providing outside control
+- [[Positions/Kneebar Control]] - Alternative leg attack control position from same entanglements
+- [[Positions/Ashi Garami/50-50 Guard]] - Common entry position requiring transition to outside control
+- [[Positions/Leg Entanglement]] - Conceptual principle underlying all leg lock positions
+- [[Positions/Ashi Garami/Backside 50-50]] - Transition position with natural outside control
+- [[Positions/Ashi Garami]] - Parent leg entanglement category
+- [[Positions/Straight Ankle Lock Control]] - Lower-risk alternative control position from similar entanglements
 
 
 </section>

@@ -21,7 +21,7 @@ The rolling guard pull works by combining forward momentum with a controlled bac
 
 Mastery of the rolling guard pull requires excellent body awareness, timing, and the ability to read opponent reactions. When executed properly, it creates immediate offensive opportunities and bypasses traditional guard passing attempts. The technique is commonly seen in sport jiu-jitsu and has become a staple among modern guard players who emphasize dynamic entries and constant movement. The rotational mechanics developed here transfer directly to berimbolo entries, inversions, and other advanced guard techniques.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Mastery of the rolling guard pull requires excellent body awareness, timing, and
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Success | [[De La Riva Guard]] | 15% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Standing Position]] | 15% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Success | [[Positions/De La Riva Guard]] | 15% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -202,29 +202,29 @@ The rolling guard pull connects directly to competition strategy where pulling g
 ## Related Techniques
 
 
-- [[Closed Guard]] - Primary ending position when opponent is square and within range
+- [[Positions/Closed Guard]] - Primary ending position when opponent is square and within range
 
-- [[De La Riva Guard]] - Alternative ending position when opponent maintains staggered stance
+- [[Positions/De La Riva Guard]] - Alternative ending position when opponent maintains staggered stance
 
-- [[Guard Pull]] - General category of guard pulling techniques this belongs to
+- [[Transitions/Guard Pull]] - General category of guard pulling techniques this belongs to
 
-- [[Sitting Guard Pull]] - Alternative static guard pull method for comparison and chaining
+- [[Transitions/Sitting Guard Pull]] - Alternative static guard pull method for comparison and chaining
 
-- [[Berimbolo Entry]] - Advanced progression using similar rolling mechanics for back takes
+- [[Transitions/Berimbolo Entry]] - Advanced progression using similar rolling mechanics for back takes
 
-- [[Granby Roll to Guard]] - Alternative rolling technique with similar rotational body mechanics
+- [[Transitions/Granby Roll to Guard]] - Alternative rolling technique with similar rotational body mechanics
 
-- [[Butterfly Guard]] - Alternative guard position accessible from rolling entry
+- [[Positions/Butterfly Guard]] - Alternative guard position accessible from rolling entry
 
-- [[Inverted Guard]] - Advanced variation ending position when rolling continues past standard guard
+- [[Positions/Inverted Guard]] - Advanced variation ending position when rolling continues past standard guard
 
-- [[Standing Position]] - Starting position from which the rolling guard pull is initiated
+- [[Positions/Standing Position]] - Starting position from which the rolling guard pull is initiated
 
-- [[Technical Stand-up]] - Recovery option if rolling guard pull is countered or fails
+- [[Transitions/Technical Stand-up]] - Recovery option if rolling guard pull is countered or fails
 
-- [[Jumping Guard]] - Alternative dynamic guard entry with different risk profile
+- [[Transitions/Jumping Guard]] - Alternative dynamic guard entry with different risk profile
 
-- [[Reverse X-Guard]] - Accessible guard position when opponent's weight shifts during roll
+- [[Positions/X-Guard/Reverse X-Guard]] - Accessible guard position when opponent's weight shifts during roll
 
 
 </section>

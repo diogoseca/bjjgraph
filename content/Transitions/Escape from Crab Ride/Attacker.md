@@ -186,7 +186,7 @@ description: "Learn to execute the Escape from Crab Ride in BJJ. Step-by-step gu
 
 Executing the Escape from Crab Ride requires a systematic approach that addresses the three layers of control the top player maintains: the hook under your hip, the upper body grips, and the chest-to-back pressure. As the escaper, your primary objective is to strip the hook and recover guard before the opponent can insert a second hook and consolidate full back control. The escape demands coordinated movement between your upper and lower body, combining frame creation and grip fighting with explosive hip displacement. Understanding the mechanical vulnerabilities of crab ride, particularly its reliance on a single hook and perpendicular alignment, allows you to exploit specific windows where the control structure is weakest. Successful execution typically results in half guard recovery, though well-timed attempts can yield more favorable positions including butterfly guard or even scramble opportunities.
 
-**From Position**: [[Crab Ride]] (Bottom)
+**From Position**: [[Positions/Crab Ride]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Escape from Crab Ride requires a systematic approach that addresse
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Crab Ride]] | 35% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Crab Ride]] | 35% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Escape from Crab Ride requires a systematic approach that addresse
 
 ## Opponent Counters
 
-- **Opponent deepens hook and increases chest pressure to prevent hip separation** (Effectiveness: High) - Your Response: Switch to Granby roll escape using the opponent's forward pressure as momentum for the inversion, or change direction and attempt a sit-out toward the hooked side → Leads to [[Crab Ride]]
-- **Opponent follows hip movement and inserts second hook during escape attempt** (Effectiveness: High) - Your Response: Immediately transition to back control escape protocol with chin defense and two-on-one grip fighting, treating it as a new positional problem rather than continuing the crab ride escape → Leads to [[Back Control]]
-- **Opponent releases hook voluntarily and transitions to crossface sprawl to re-flatten** (Effectiveness: Medium) - Your Response: Capitalize on the momentary absence of the hook by immediately recovering guard before they can re-establish any hook control, using the freed hip to create maximum distance → Leads to [[Crab Ride]]
-- **Opponent transitions to crucifix by trapping your near arm during escape movement** (Effectiveness: Medium) - Your Response: Keep elbows tight throughout the escape and avoid reaching back with your near arm, which creates the opening for crucifix entry. If arm is trapped, immediately work arm recovery before continuing escape → Leads to [[Crab Ride]]
+- **Opponent deepens hook and increases chest pressure to prevent hip separation** (Effectiveness: High) - Your Response: Switch to Granby roll escape using the opponent's forward pressure as momentum for the inversion, or change direction and attempt a sit-out toward the hooked side → Leads to [[Positions/Crab Ride]]
+- **Opponent follows hip movement and inserts second hook during escape attempt** (Effectiveness: High) - Your Response: Immediately transition to back control escape protocol with chin defense and two-on-one grip fighting, treating it as a new positional problem rather than continuing the crab ride escape → Leads to [[Positions/Back Control]]
+- **Opponent releases hook voluntarily and transitions to crossface sprawl to re-flatten** (Effectiveness: Medium) - Your Response: Capitalize on the momentary absence of the hook by immediately recovering guard before they can re-establish any hook control, using the freed hip to create maximum distance → Leads to [[Positions/Crab Ride]]
+- **Opponent transitions to crucifix by trapping your near arm during escape movement** (Effectiveness: Medium) - Your Response: Keep elbows tight throughout the escape and avoid reaching back with your near arm, which creates the opening for crucifix entry. If arm is trapped, immediately work arm recovery before continuing escape → Leads to [[Positions/Crab Ride]]
 
 
 </section>

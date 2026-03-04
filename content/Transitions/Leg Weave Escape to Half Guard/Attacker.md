@@ -180,7 +180,7 @@ description: "Master the leg weave escape from bottom position. Step-by-step def
 
 As the bottom player caught in the leg weave, your primary objective is to prevent the pass completion and recover a functional guard position. The escape requires establishing frames that prevent the top player from flattening you while creating sufficient space through hip escapes to reinsert your knee between your bodies. This is not a power-based escape but rather a timing and structure-dependent movement that exploits the moments when the passer shifts weight to advance their position. Success depends on maintaining active defensive frames throughout the sequence and committing fully to the hip escape when the timing window presents itself. The technique rewards patience and precision over explosive effort, making it accessible across body types and athletic profiles.
 
-**From Position**: [[Leg Weave]] (Bottom)
+**From Position**: [[Positions/Leg Weave]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player caught in the leg weave, your primary objective is to preve
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Leg Weave]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Leg Weave]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the bottom player caught in the leg weave, your primary objective is to preve
 
 ## Opponent Counters
 
-- **Top player drives crossface harder to prevent hip escape, flattening bottom player's shoulder to the mat** (Effectiveness: High) - Your Response: Use the bridge momentum to create a micro-window for the hip escape before the crossface fully settles. If caught flat, redirect escape angle toward deep half entry rather than fighting the crossface directly → Leads to [[Leg Weave]]
-- **Top player drives knee deeper through the weave when feeling hip escape, increasing leg threading to maintain position** (Effectiveness: Medium) - Your Response: Use the far-side hook to control their advancing leg and time the knee insertion for the moment their weight shifts forward with the drive. Their forward commitment creates space behind their knee for your guard recovery → Leads to [[Leg Weave]]
-- **Top player strips frames and transitions immediately to knee slice or smash pass during escape attempt** (Effectiveness: High) - Your Response: If frames are stripped, abandon the standard escape and immediately re-establish distance through a secondary frame or transition to deep half entry. Do not continue the escape sequence without frame support → Leads to [[Side Control]]
-- **Top player backsteps to attack the back when bottom player creates angle during hip escape** (Effectiveness: Medium) - Your Response: Keep shoulders within 45 degrees of the mat during hip escape and maintain awareness of back exposure. If you feel them circling toward your back, flatten immediately and reset frames rather than continuing the escape → Leads to [[Side Control]]
+- **Top player drives crossface harder to prevent hip escape, flattening bottom player's shoulder to the mat** (Effectiveness: High) - Your Response: Use the bridge momentum to create a micro-window for the hip escape before the crossface fully settles. If caught flat, redirect escape angle toward deep half entry rather than fighting the crossface directly → Leads to [[Positions/Leg Weave]]
+- **Top player drives knee deeper through the weave when feeling hip escape, increasing leg threading to maintain position** (Effectiveness: Medium) - Your Response: Use the far-side hook to control their advancing leg and time the knee insertion for the moment their weight shifts forward with the drive. Their forward commitment creates space behind their knee for your guard recovery → Leads to [[Positions/Leg Weave]]
+- **Top player strips frames and transitions immediately to knee slice or smash pass during escape attempt** (Effectiveness: High) - Your Response: If frames are stripped, abandon the standard escape and immediately re-establish distance through a secondary frame or transition to deep half entry. Do not continue the escape sequence without frame support → Leads to [[Positions/Side Control]]
+- **Top player backsteps to attack the back when bottom player creates angle during hip escape** (Effectiveness: Medium) - Your Response: Keep shoulders within 45 degrees of the mat during hip escape and maintain awareness of back exposure. If you feel them circling toward your back, flatten immediately and reset frames rather than continuing the escape → Leads to [[Positions/Side Control]]
 
 
 </section>

@@ -154,7 +154,7 @@ description: "How to prevent Turtle to Guard recovery in BJJ. Recognition cues, 
 
 As the top player against the Turtle to Guard recovery, your objective is to prevent the bottom player from rotating to face you and establishing any guard position. You are the defender against their escape attempt, working to maintain your attacking position on their turtle or advance to back control. Your success depends on reading the bottom player's weight shifts and pre-rotation movements, maintaining heavy chest-to-back pressure that kills their hip mobility, and establishing grips and hooks that follow or block their rotation attempts. The position requires constant awareness of the bottom player's hip angle, hand positioning, and energy level. When you feel them load for a rotation, you must immediately counter by driving weight in the direction of their movement or by inserting hooks that convert their escape attempt into your back control entry. Understanding the mechanics of their escape allows you to time your counters precisely and turn their defensive movements into your offensive opportunities.
 
-**Opponent's Starting Position**: [[Turtle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ As the top player against the Turtle to Guard recovery, your objective is to pre
 ### 1. Drive chest weight forward and sprawl hips back to flatten bottom player and kill rotation
 
 - **When to use**: When you feel the initial lateral hip shift that precedes rotation, before they have created significant space
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Bottom player is flattened with your weight on top, rotation is mechanically impossible, and you can work to establish hooks or transition to side control
 - **Risk**: If you over-commit forward, bottom player may use your momentum for a granby roll or sit-through escape
 
 ### 2. Insert near-side hook immediately while tightening seat belt grip to follow rotation into back control
 
 - **When to use**: When bottom player commits to rotation and you cannot prevent the turn, use their movement to advance to back control
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You convert their escape attempt into your back control entry with at least one hook already inserted from following their rotation
 - **Risk**: If bottom player has strong frames ready, they may establish guard before you can secure the second hook
 
 ### 3. Circle to front headlock position by walking toward their head and establishing chin control
 
 - **When to use**: When bottom player lifts their head or creates space underneath during rotation attempt, exposing their neck
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You transition to front headlock control with access to guillotine, anaconda, and darce choke entries
 - **Risk**: Bottom player may complete their rotation during your transition, ending up in guard before you secure front headlock
 
 ### 4. Match their lateral hip movement by shifting your weight to the same side, blocking the space they are trying to create
 
 - **When to use**: Early in their escape sequence when you detect the initial hip shift but before they have committed to full rotation
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You deny the space creation entirely, forcing them to reset and try again while you work to establish grips and hooks
 - **Risk**: If they feint one direction and rotate the other, your weight commitment makes it harder to follow the true escape direction
 
@@ -226,11 +226,11 @@ As the top player against the Turtle to Guard recovery, your objective is to pre
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Follow the bottom player's rotation by maintaining chest-to-back connection and inserting hooks as they turn. Their rotation actually helps you insert hooks if you stay connected. Use their momentum to establish seat belt grip and thread your legs inside their thighs as they move, converting their escape attempt into your dominant position.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Prevent the rotation entirely by maintaining heavy forward pressure with your chest on their upper back, matching their lateral hip shifts with your own weight adjustments, and establishing grips that pin their shoulders and hips. Keep their base collapsed by driving your weight through their spine and preventing them from loading their outside leg for the rotation drive.
 

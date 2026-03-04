@@ -182,7 +182,7 @@ Executing the Butterfly Hook Sweep requires coordinating three mechanical elemen
 
 The fundamental execution principle is that timing beats strength. A well-timed sweep executed at the moment your opponent shifts weight forward requires minimal effort and produces maximum displacement. Conversely, forcing the sweep against a seated-back opponent burns energy and telegraphs intent. Developing sensitivity to your opponent's weight distribution through your hooks is the single most important skill for consistent sweep success.
 
-**From Position**: [[Butterfly Hook Control]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ The fundamental execution principle is that timing beats strength. A well-timed 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Butterfly Hook Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Butterfly Guard/Butterfly Hook Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ The fundamental execution principle is that timing beats strength. A well-timed 
 
 ## Opponent Counters
 
-- **Posting the near hand wide to create a tripod base against the sweep direction** (Effectiveness: High) - Your Response: Switch sweep direction immediately to the far side where they cannot post, or attack the extended posting arm with a kimura grip since it is now isolated from their body → Leads to [[Butterfly Hook Control]]
-- **Standing up explosively to remove hooks and disengage from butterfly guard entirely** (Effectiveness: High) - Your Response: Maintain hook connection and follow their hips as they rise, transitioning to X-Guard or Single Leg X-Guard by extending underneath their base before they fully disengage → Leads to [[Butterfly Hook Control]]
-- **Driving crossface pressure and shoulder weight to flatten your upright posture backward** (Effectiveness: Medium) - Your Response: Frame against the crossface with your near forearm while maintaining hook tension, then either re-establish posture through grip adjustment or transition to deep half guard underneath their forward pressure → Leads to [[Half Guard]]
-- **Backstep and knee slice pass initiated during your elevation attempt to bypass the hooking leg** (Effectiveness: Medium) - Your Response: Immediately retract the hooking leg and establish knee shield before the pass completes, fighting for an underhook on the near side to prevent being flattened and begin half guard recovery → Leads to [[Half Guard]]
+- **Posting the near hand wide to create a tripod base against the sweep direction** (Effectiveness: High) - Your Response: Switch sweep direction immediately to the far side where they cannot post, or attack the extended posting arm with a kimura grip since it is now isolated from their body → Leads to [[Positions/Butterfly Guard/Butterfly Hook Control]]
+- **Standing up explosively to remove hooks and disengage from butterfly guard entirely** (Effectiveness: High) - Your Response: Maintain hook connection and follow their hips as they rise, transitioning to X-Guard or Single Leg X-Guard by extending underneath their base before they fully disengage → Leads to [[Positions/Butterfly Guard/Butterfly Hook Control]]
+- **Driving crossface pressure and shoulder weight to flatten your upright posture backward** (Effectiveness: Medium) - Your Response: Frame against the crossface with your near forearm while maintaining hook tension, then either re-establish posture through grip adjustment or transition to deep half guard underneath their forward pressure → Leads to [[Positions/Half Guard]]
+- **Backstep and knee slice pass initiated during your elevation attempt to bypass the hooking leg** (Effectiveness: Medium) - Your Response: Immediately retract the hooking leg and establish knee shield before the pass completes, fighting for an underhook on the near side to prevent being flattened and begin half guard recovery → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -93,21 +93,21 @@ The strategic significance of the rear triangle lies in its ability to create su
 ### Available Transitions
 
 
-- **[[Arm Extraction]]** (25% of attempts)
+- **[[Transitions/Arm Extraction]]** (25% of attempts)
 
-- **[[Triangle Escape]]** (14% of attempts)
+- **[[Transitions/Triangle Escape]]** (14% of attempts)
 
-- **[[Rolling Escape to Guard]]** (12% of attempts)
+- **[[Transitions/Rolling Escape to Guard]]** (12% of attempts)
 
-- **[[Stack Defense]]** (13% of attempts)
+- **[[Transitions/Stack Defense]]** (13% of attempts)
 
-- **[[Posture Recovery]]** (12% of attempts)
+- **[[Transitions/Posture Recovery]]** (12% of attempts)
 
-- **[[Hand Fighting from Back]]** (15% of attempts)
+- **[[Transitions/Hand Fighting from Back]]** (15% of attempts)
 
-- **[[Grip Fight Escape from Rear Triangle]]** (6% of attempts)
+- **[[Transitions/Grip Fight Escape from Rear Triangle]]** (6% of attempts)
 
-- **[[Posture Defense from Rear Triangle]]** (3% of attempts)
+- **[[Transitions/Posture Defense from Rear Triangle]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -172,23 +172,23 @@ The strategic significance of the rear triangle lies in its ability to create su
 ### Available Transitions
 
 
-- **[[Rear Triangle Choke Finish]]** (22% of attempts)
+- **[[Transitions/Rear Triangle Choke Finish]]** (22% of attempts)
 
-- **[[Armbar from Back Transition]]** (14% of attempts)
+- **[[Transitions/Armbar from Back Transition]]** (14% of attempts)
 
-- **[[Rear Naked Choke]]** (16% of attempts)
+- **[[Transitions/Rear Naked Choke]]** (16% of attempts)
 
-- **[[Aoki Lock to Crucifix]]** (13% of attempts)
+- **[[Transitions/Aoki Lock to Crucifix]]** (13% of attempts)
 
-- **[[Bow and Arrow Choke]]** (12% of attempts)
+- **[[Transitions/Bow and Arrow Choke]]** (12% of attempts)
 
-- **[[Kimura from Back]]** (12% of attempts)
+- **[[Transitions/Kimura from Back]]** (12% of attempts)
 
-- **[[Rear Triangle to Armbar]]** (6% of attempts)
+- **[[Transitions/Rear Triangle to Armbar]]** (6% of attempts)
 
-- **[[Back Control to Crucifix]]** (3% of attempts)
+- **[[Transitions/Back Control to Crucifix]]** (3% of attempts)
 
-- **[[Rear Triangle Choke]]** (2% of attempts)
+- **[[Submissions/Rear Triangle Choke]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -227,25 +227,25 @@ The strategic significance of the rear triangle lies in its ability to create su
 ## Related Positions
 
 
-- **[[Back Control]]** - Parent position from which rear triangle is typically entered
+- **[[Positions/Back Control]]** - Parent position from which rear triangle is typically entered
 
-- **[[Body Triangle]]** - Alternative leg configuration for back control with different mechanics
+- **[[Positions/Back Control/Body Triangle]]** - Alternative leg configuration for back control with different mechanics
 
-- **[[Triangle Control]]** - Similar triangle mechanics applied from different angle and entry
+- **[[Positions/Triangle Control]]** - Similar triangle mechanics applied from different angle and entry
 
-- **[[Mounted Triangle]]** - Triangle variation from mount using similar leg configuration
+- **[[Positions/Mount/Mounted Triangle]]** - Triangle variation from mount using similar leg configuration
 
-- **[[Crucifix]]** - Common transition target when opponent defends triangle by turning in
+- **[[Positions/Crucifix]]** - Common transition target when opponent defends triangle by turning in
 
-- **[[Seat Belt Control Back]]** - Traditional back control that precedes rear triangle entry
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Traditional back control that precedes rear triangle entry
 
-- **[[Gift Wrap]]** - Alternative arm trap control from back that can transition to rear triangle
+- **[[Positions/Gift Wrap]]** - Alternative arm trap control from back that can transition to rear triangle
 
-- **[[Armbar Control]]** - Submission control position when transitioning from rear triangle
+- **[[Positions/Armbar Control]]** - Submission control position when transitioning from rear triangle
 
-- **[[Omoplata Control]]** - Alternative shoulder attack from rear triangle configuration
+- **[[Positions/Omoplata Control]]** - Alternative shoulder attack from rear triangle configuration
 
-- **[[Turtle]]** - Common escape target position for defender attempting to recover
+- **[[Positions/Turtle]]** - Common escape target position for defender attempting to recover
 
 
 </section>

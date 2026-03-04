@@ -231,8 +231,8 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -241,11 +241,11 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 
 ## Opponent Defenses
 
-- **Pulling the arm back aggressively before figure-four is locked** (Effectiveness: High) - Your Response: Maintain constant grip on their wrist and use your legs to prevent their posture recovery. If they pull hard, transition to triangle or omoplata instead of forcing the monoplata. → Leads to [[Closed Guard]]
-- **Rolling forward to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Use your free leg to block their far hip and prevent the roll. If they commit fully to the roll, follow them over and maintain the lock, or transition to a mounted position with arm control. → Leads to [[Closed Guard]]
-- **Stacking your hips by driving forward** (Effectiveness: Medium) - Your Response: Use both hands to push their hips away and create space. If stacked, transition back to closed guard or sweep using the trapped arm as a lever rather than forcing the submission. → Leads to [[Closed Guard]]
-- **Hand fighting to grab their own gi or your gi to create defensive grip** (Effectiveness: High) - Your Response: Break any grips immediately using your hands. Consider switching to a different submission if they successfully establish a strong defensive grip. Preventative control of the wrist from step 1 is crucial to avoid this defense. → Leads to [[Closed Guard]]
-- **Explosive posture recovery to standing with arm extraction** (Effectiveness: Low) - Your Response: Tighten your figure-four and use your body angle to maintain the bent arm position. If they begin standing, their weight shift actually loads your sweep mechanics - use the trapped arm as a lever to off-balance them into a guard recovery or back take. → Leads to [[Side Control]]
+- **Pulling the arm back aggressively before figure-four is locked** (Effectiveness: High) - Your Response: Maintain constant grip on their wrist and use your legs to prevent their posture recovery. If they pull hard, transition to triangle or omoplata instead of forcing the monoplata. → Leads to [[Positions/Closed Guard]]
+- **Rolling forward to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Use your free leg to block their far hip and prevent the roll. If they commit fully to the roll, follow them over and maintain the lock, or transition to a mounted position with arm control. → Leads to [[Positions/Closed Guard]]
+- **Stacking your hips by driving forward** (Effectiveness: Medium) - Your Response: Use both hands to push their hips away and create space. If stacked, transition back to closed guard or sweep using the trapped arm as a lever rather than forcing the submission. → Leads to [[Positions/Closed Guard]]
+- **Hand fighting to grab their own gi or your gi to create defensive grip** (Effectiveness: High) - Your Response: Break any grips immediately using your hands. Consider switching to a different submission if they successfully establish a strong defensive grip. Preventative control of the wrist from step 1 is crucial to avoid this defense. → Leads to [[Positions/Closed Guard]]
+- **Explosive posture recovery to standing with arm extraction** (Effectiveness: Low) - Your Response: Tighten your figure-four and use your body angle to maintain the bent arm position. If they begin standing, their weight shift actually loads your sweep mechanics - use the trapped arm as a lever to off-balance them into a guard recovery or back take. → Leads to [[Positions/Side Control]]
 
 
 </section>

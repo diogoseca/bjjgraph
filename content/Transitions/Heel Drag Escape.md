@@ -21,7 +21,7 @@ The strategic value of the heel drag lies in its low energy cost and high reliab
 
 From a positional chess perspective, the heel drag escape is a critical component of the mount defense hierarchy. It serves as an excellent complement to the elbow escape and upa, creating a three-pronged defensive system where each escape covers the weaknesses of the others. Successfully recovering half guard through the heel drag immediately opens a rich offensive landscape including underhook battles, deep half entries, and back take sequences that transform a purely defensive situation into an active positional exchange.
 
-**From Position**: [[Mount]] (Bottom)
+**From Position**: [[Positions/Mount]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ From a positional chess perspective, the heel drag escape is a critical componen
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Mount]] | 30% |
-| Counter | [[Technical Mount]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Mount]] | 30% |
+| Counter | [[Positions/Mount/Technical Mount]] | 15% |
 
 
 </section>
@@ -191,21 +191,21 @@ The Heel Drag Escape occupies a foundational role in the mount escape hierarchy,
 ## Related Techniques
 
 
-- [[Mount]] - Source position where the heel drag escape begins from bottom mount
+- [[Positions/Mount]] - Source position where the heel drag escape begins from bottom mount
 
-- [[Half Guard]] - Primary target position recovered through successful heel drag escape
+- [[Positions/Half Guard]] - Primary target position recovered through successful heel drag escape
 
-- [[Elbow Escape from Mount]] - Complementary mount escape that chains with heel drag in the escape hierarchy
+- [[Transitions/Elbow Escape from Mount]] - Complementary mount escape that chains with heel drag in the escape hierarchy
 
-- [[Knee Shield Half Guard]] - Defensive half guard variation for establishing control after successful heel drag recovery
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive half guard variation for establishing control after successful heel drag recovery
 
-- [[Deep Half Guard]] - Advanced recovery option accessible from half guard after heel drag escape
+- [[Positions/Half Guard/Deep Half Guard]] - Advanced recovery option accessible from half guard after heel drag escape
 
-- [[High Mount]] - Threatened advancement position if heel drag escape timing is delayed
+- [[Positions/Mount/High Mount]] - Threatened advancement position if heel drag escape timing is delayed
 
-- [[Deep Half Entry from Half Guard]] - Follow-up transition chain available after recovering half guard through heel drag
+- [[Transitions/Deep Half Entry from Half Guard]] - Follow-up transition chain available after recovering half guard through heel drag
 
-- [[Back Door Escape from Half Guard]] - Alternative escape continuation if recovered half guard proves insufficient
+- [[Transitions/Back Door Escape from Half Guard]] - Alternative escape continuation if recovered half guard proves insufficient
 
 
 </section>

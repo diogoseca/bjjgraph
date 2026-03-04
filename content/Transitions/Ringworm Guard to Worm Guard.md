@@ -21,7 +21,7 @@ The transition involves maintaining lapel tension while rethreading the lapel ar
 
 Strategically, this transition represents a progression within the lapel guard hierarchy. Ringworm Guard offers strong control but Worm Guard provides superior sweep mechanics and submission entries. Understanding when and how to transition between these positions is essential for anyone developing a complete lapel-based guard game. The transition can be executed proactively to upgrade position or reactively when Ringworm control begins to slip.
 
-**From Position**: [[Ringworm Guard]] (Bottom)
+**From Position**: [[Positions/Ringworm Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition represents a progression within the lapel guard h
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Worm Guard]] | 65% |
-| Failure | [[Ringworm Guard]] | 25% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Worm Guard]] | 65% |
+| Failure | [[Positions/Ringworm Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -185,25 +185,25 @@ The Ringworm Guard to Worm Guard transition is a critical link within the lapel 
 ## Related Techniques
 
 
-- [[Ringworm Guard]] - Starting position for this transition
+- [[Positions/Ringworm Guard]] - Starting position for this transition
 
-- [[Worm Guard]] - Target position after successful transition
+- [[Positions/Worm Guard]] - Target position after successful transition
 
-- [[Lapel Guard]] - Parent guard category containing both positions
+- [[Positions/Lapel Guard]] - Parent guard category containing both positions
 
-- [[Squid Guard]] - Alternative lapel guard transition when Worm Guard threading is blocked
+- [[Positions/Squid Guard]] - Alternative lapel guard transition when Worm Guard threading is blocked
 
-- [[Lapel Elevator Sweep]] - High-percentage follow-up sweep from established Worm Guard
+- [[Transitions/Lapel Elevator Sweep]] - High-percentage follow-up sweep from established Worm Guard
 
-- [[Omoplata Sweep]] - Common offensive chain from Worm Guard after transition
+- [[Transitions/Omoplata Sweep]] - Common offensive chain from Worm Guard after transition
 
-- [[Back Take]] - High-percentage follow-up from Worm Guard sweeps
+- [[Transitions/Back Take]] - High-percentage follow-up from Worm Guard sweeps
 
-- [[Spider Guard]] - Alternative guard if lapel control is lost during transition
+- [[Positions/Spider Guard]] - Alternative guard if lapel control is lost during transition
 
-- [[De La Riva Guard]] - Fallback position sharing leg hooking principles
+- [[Positions/De La Riva Guard]] - Fallback position sharing leg hooking principles
 
-- [[Lasso Guard]] - Alternative gi-based guard if lapel configuration fails
+- [[Positions/Lasso Guard]] - Alternative gi-based guard if lapel configuration fails
 
 
 </section>

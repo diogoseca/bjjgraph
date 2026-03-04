@@ -158,7 +158,7 @@ The defender's challenge is that the Turn In and Face exploits a genuine geometr
 
 Advanced buggy choke players treat the Turn In and Face attempt as a transition trigger rather than a problem to resist. When you feel the bottom player initiating the turn, you have a brief window to choose between reinforcing the choke angle, following them into back control, or switching to a head-and-arm attack. This reactive decision-making transforms what appears to be a defensive scenario into an offensive branching point where every escape attempt opens a new attack pathway.
 
-**Opponent's Starting Position**: [[Buggy Choke]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Buggy Choke]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ Advanced buggy choke players treat the Turn In and Face attempt as a transition 
 ### 1. Drive heavy chest pressure downward and sprawl hips back onto the bottom player's near hip to flatten them before the rotation completes, reinforcing the perpendicular choking angle
 
 - **When to use**: Immediately upon recognizing the near-knee drive or far-hand post that signals the Turn In and Face initiation, before rotational momentum builds
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: Bottom player is flattened back to mat with hips pinned, unable to generate rotational momentum. Choking angle is preserved and you can continue finishing the buggy choke or transition to alternative attacks
 - **Risk**: If pressure is applied too late or too high on the back, the bottom player may use your forward commitment to accelerate their rotation and complete the turn
 
 ### 2. Release the buggy choke grips as the rotation begins and immediately follow the turning motion by inserting hooks and establishing seat belt control for back take
 
 - **When to use**: When the rotation has progressed past the point where flattening pressure can stop it, but before the bottom player has fully squared their hips to face you
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You convert the escape attempt into a back take with hooks and seat belt, achieving a superior position worth 4 points in competition with immediate rear naked choke access
 - **Risk**: If the bottom player completes the rotation too quickly, you may end up in a front-facing scramble without established grips or hooks, losing both the choke and the back take opportunity
 
 ### 3. As the bottom player's head comes around during the rotation, convert the threading arm grip into a front headlock or guillotine configuration by shifting your choking hand to a chin strap or around-the-neck position
 
 - **When to use**: When the rotation is mid-sequence and you can feel the choking angle collapsing, but the bottom player's head is transitioning through an exposed position during the turn
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: You convert the failed buggy choke into a front headlock or guillotine control position, maintaining offensive pressure and submission threat despite the escape attempt
 - **Risk**: If the bottom player establishes an underhook or inside frames before you secure the new grip, you lose head control and they complete the guard recovery
 
 ### 4. Deepen the threading arm grip aggressively and tighten the choking angle by pulling the far collar while driving your head into their far shoulder, punishing the rotation attempt
 
 - **When to use**: At the very first sign of rotation when the bottom player has committed to turning but has not yet generated significant momentum
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: The deepened grip makes the choke tighten as they rotate, forcing them to abandon the turn and deal with increased choking pressure from a partially compromised position
 - **Risk**: If the bottom player has already secured wrist control on your threading arm, deepening becomes impossible and you waste the reaction window that could have been used for a back take
 
@@ -227,11 +227,11 @@ Advanced buggy choke players treat the Turn In and Face attempt as a transition 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Buggy Choke]]
+### → [[Positions/Buggy Choke]]
 
 Prevent the rotation entirely by driving heavy perpendicular pressure onto the bottom player's near hip and back, flattening them before rotational momentum builds. Deepen the threading arm grip simultaneously so that any partial rotation tightens rather than loosens the choke. Maintain head pressure on their far shoulder to block the rotational pathway.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the rotation has progressed past the stoppable point, immediately release buggy choke grips and follow the turning motion with your hips. Insert your near hook first as their hip clears during the rotation, then establish seat belt grip with the arm that was threading. The bottom player's own rotational momentum carries you into back control if you follow rather than resist their movement.
 

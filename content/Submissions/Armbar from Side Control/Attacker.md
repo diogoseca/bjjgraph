@@ -176,7 +176,7 @@ description: "How to execute the Armbar from Side Control in BJJ. Attacking pers
 
 The Armbar from Side Control represents a high-percentage submission from one of the most dominant positions in grappling. The attacking sequence begins with establishing heavy side control, isolating the near arm through grip fighting and chest pressure, then transitioning your leg over the opponent's head to create the finishing position. The critical attacking concept is that the armbar from side control is a positional submission—your success depends on the quality of your side control more than the speed of your transition. Rushing the step-over without proper arm isolation and weight distribution is the primary reason this technique fails at all levels. The fulcrum is created by your hip bones pressing against the back of the opponent's elbow while your hands control the wrist and your legs prevent body rotation. Hip elevation generates the finishing force, not arm strength.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -232,8 +232,8 @@ The Armbar from Side Control represents a high-percentage submission from one of
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -242,11 +242,11 @@ The Armbar from Side Control represents a high-percentage submission from one of
 
 ## Opponent Defenses
 
-- **Grabbing their own belt or gi to keep arm bent** (Effectiveness: Medium) - Your Response: Use chest pressure and weight to break the grip before proceeding. Isolate the arm by driving your chest down and pulling the arm away from their body. Alternatively, transition to Kimura if the grip is too strong. → Leads to [[Side Control]]
-- **Turning into you to regain guard** (Effectiveness: High) - Your Response: Maintain heavy crossface pressure and control of the far hip throughout the setup. If they begin turning, abandon the armbar and secure side control or mount instead. Prevention is key—establish strong positional control first. → Leads to [[Closed Guard]]
-- **Bridging explosively as you step over** (Effectiveness: High) - Your Response: Keep your weight low and distribute it across their chest during the transition. If they bridge, ride the bridge by posting your free leg and maintaining chest pressure. Wait for them to lower back down before continuing the submission. → Leads to [[Side Control]]
-- **Pulling arm out as you transition** (Effectiveness: Medium) - Your Response: Maintain constant grip on the wrist throughout the entire transition. If the arm starts escaping, use your legs to trap it against your body. Control both the wrist and the elbow area if possible. Move your hips closer to their shoulder to reduce the space for arm extraction. → Leads to [[Side Control]]
-- **Rolling through to stack position** (Effectiveness: Low) - Your Response: Keep your legs active and controlling. If they attempt to roll, use your leg across their face to prevent rotation. Extend the arm slightly to limit their mobility. Your bottom leg should hook their far side to prevent the roll from completing. → Leads to [[Closed Guard]]
+- **Grabbing their own belt or gi to keep arm bent** (Effectiveness: Medium) - Your Response: Use chest pressure and weight to break the grip before proceeding. Isolate the arm by driving your chest down and pulling the arm away from their body. Alternatively, transition to Kimura if the grip is too strong. → Leads to [[Positions/Side Control]]
+- **Turning into you to regain guard** (Effectiveness: High) - Your Response: Maintain heavy crossface pressure and control of the far hip throughout the setup. If they begin turning, abandon the armbar and secure side control or mount instead. Prevention is key—establish strong positional control first. → Leads to [[Positions/Closed Guard]]
+- **Bridging explosively as you step over** (Effectiveness: High) - Your Response: Keep your weight low and distribute it across their chest during the transition. If they bridge, ride the bridge by posting your free leg and maintaining chest pressure. Wait for them to lower back down before continuing the submission. → Leads to [[Positions/Side Control]]
+- **Pulling arm out as you transition** (Effectiveness: Medium) - Your Response: Maintain constant grip on the wrist throughout the entire transition. If the arm starts escaping, use your legs to trap it against your body. Control both the wrist and the elbow area if possible. Move your hips closer to their shoulder to reduce the space for arm extraction. → Leads to [[Positions/Side Control]]
+- **Rolling through to stack position** (Effectiveness: Low) - Your Response: Keep your legs active and controlling. If they attempt to roll, use your leg across their face to prevent rotation. Extend the arm slightly to limit their mobility. Your bottom leg should hook their far side to prevent the roll from completing. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

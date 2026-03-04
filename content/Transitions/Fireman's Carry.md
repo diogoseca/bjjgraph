@@ -17,7 +17,7 @@ description: "Master the Fireman's Carry takedown in BJJ. Complete guide coverin
 
 The Fireman's Carry is a classical wrestling takedown that has found valuable application in Brazilian Jiu-Jitsu, particularly in no-gi and MMA contexts. This technique involves using a combination of off-balancing, level change, and explosive lifting to elevate your opponent onto your shoulders before driving them to the mat. The Fireman's Carry is particularly effective against opponents who maintain an upright posture in the clinch, as it exploits their high center of gravity and creates a sudden positional reversal. Unlike many BJJ takedowns that rely on pulling or tripping, the Fireman's Carry demonstrates the principle of lifting and redirecting an opponent's weight, making it an excellent complement to guard pulling and other ground-focused entries. The technique requires precise timing, proper body mechanics, and the ability to coordinate multiple movements simultaneously - the level change, arm control, penetration step, and lifting motion must all flow together seamlessly. When executed correctly, the Fireman's Carry not only achieves the takedown but also places you in an advantageous top position, often side control or modified mount, allowing for immediate passing or submission attempts. This makes it a high-percentage technique for competitors who want to establish top control early in a match.
 
-**From Position**: [[Clinch]] (Top)
+**From Position**: [[Positions/Clinch]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -28,9 +28,9 @@ The Fireman's Carry is a classical wrestling takedown that has found valuable ap
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Failure | [[Clinch]] | 20% |
-| Counter | [[Clinch]] | 10% |
+| Success | [[Positions/Side Control]] | 70% |
+| Failure | [[Positions/Clinch]] | 20% |
+| Counter | [[Positions/Clinch]] | 10% |
 
 
 </section>
@@ -195,29 +195,29 @@ The Fireman's Carry occupies a unique position in the BJJ technical ecosystem as
 ## Related Techniques
 
 
-- [[Double Leg Entry]] - Complementary technique - can chain together when one is defended
+- [[Transitions/Double Leg Entry]] - Complementary technique - can chain together when one is defended
 
-- [[Snap Down to Front Headlock]] - Setup technique that creates reactions exploitable with Fireman's Carry
+- [[Transitions/Snap Down to Front Headlock]] - Setup technique that creates reactions exploitable with Fireman's Carry
 
-- [[Front Headlock]] - Control position that can transition to Fireman's Carry variation
+- [[Positions/Front Headlock]] - Control position that can transition to Fireman's Carry variation
 
-- [[Side Control]] - Primary landing position after successful execution
+- [[Positions/Side Control]] - Primary landing position after successful execution
 
-- [[Mount]] - Alternative landing position with modified descent angle
+- [[Positions/Mount]] - Alternative landing position with modified descent angle
 
-- [[High Crotch]] - Can transition to Fireman's Carry when initial shot is defended
+- [[Transitions/High Crotch]] - Can transition to Fireman's Carry when initial shot is defended
 
-- [[Body Lock Pass]] - Similar lifting mechanics applied to different context
+- [[Transitions/Body Lock Pass]] - Similar lifting mechanics applied to different context
 
-- [[Arm Drag to Back]] - Alternative response to same clinch situations
+- [[Transitions/Arm Drag to Back]] - Alternative response to same clinch situations
 
-- [[Clinch]] - Starting position for technique execution
+- [[Positions/Clinch]] - Starting position for technique execution
 
-- [[Back Control]] - Potential transition target when opponent turns during descent
+- [[Positions/Back Control]] - Potential transition target when opponent turns during descent
 
-- [[Guard Pull]] - Alternative transition from clinch when Fireman's Carry is not viable
+- [[Transitions/Guard Pull]] - Alternative transition from clinch when Fireman's Carry is not viable
 
-- [[Duck Under]] - Chain wrestling option when Fireman's Carry is defended with whizzer
+- [[Transitions/Duck Under]] - Chain wrestling option when Fireman's Carry is defended with whizzer
 
 
 </section>

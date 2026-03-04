@@ -180,7 +180,7 @@ description: "Learn to execute the Omoplata from Lasso Guard as the attacking bo
 
 As the attacker executing the Omoplata from Lasso, your primary advantage is that the lasso configuration has already done much of the arm isolation work required for omoplata entries. Your shin is across the opponent's tricep and your sleeve grip controls their wrist, meaning you need only rotate your hips and swing your leg over their shoulder to establish the omoplata. The key challenge lies in creating enough rotational space to clear your leg over the shoulder while maintaining continuous sleeve control. Timing this transition during the opponent's forward weight commitment or posture break dramatically increases success rates, as their own momentum assists your hip rotation. Understanding when to abandon the lasso for the omoplata versus when to maintain lasso control and attack with sweeps is the critical decision-making skill that separates competent attackers from those who telegraph the entry.
 
-**From Position**: [[Lasso Guard]] (Bottom)
+**From Position**: [[Positions/Lasso Guard]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ As the attacker executing the Omoplata from Lasso, your primary advantage is tha
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Omoplata Control]] | 55% |
-| Failure | [[Lasso Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Omoplata Control]] | 55% |
+| Failure | [[Positions/Lasso Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the Omoplata from Lasso, your primary advantage is tha
 
 ## Opponent Counters
 
-- **Opponent postures up explosively and retracts trapped arm before rotation completes** (Effectiveness: High) - Your Response: If you feel the arm slipping during rotation, immediately switch to a triangle entry by throwing your non-lasso leg over their head while maintaining sleeve control, or return to lasso guard and reset with a tighter entry next attempt → Leads to [[Lasso Guard]]
-- **Opponent steps over the rotating leg during the swing phase to prevent the omoplata from establishing** (Effectiveness: High) - Your Response: If they step over, immediately hook their stepping leg with your non-lasso leg and convert to a sweep by driving them laterally, or transition to De La Riva guard using the hooking leg as a DLR hook → Leads to [[Open Guard]]
-- **Opponent stacks forward and drives weight onto you during the hip rotation to prevent completion** (Effectiveness: Medium) - Your Response: Use the stacking momentum against them by completing the rotation underneath their pressure and establishing omoplata control, or redirect their forward drive into a pendulum sweep motion by angling your hips → Leads to [[Lasso Guard]]
-- **Opponent rolls forward through the omoplata attempt immediately upon feeling the leg clear their shoulder** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining your leg across their back and establish top position by using your belt grip to control the roll speed. Convert to mounted omoplata control or transition directly to back control by inserting hooks as they complete the roll → Leads to [[Omoplata Control]]
+- **Opponent postures up explosively and retracts trapped arm before rotation completes** (Effectiveness: High) - Your Response: If you feel the arm slipping during rotation, immediately switch to a triangle entry by throwing your non-lasso leg over their head while maintaining sleeve control, or return to lasso guard and reset with a tighter entry next attempt → Leads to [[Positions/Lasso Guard]]
+- **Opponent steps over the rotating leg during the swing phase to prevent the omoplata from establishing** (Effectiveness: High) - Your Response: If they step over, immediately hook their stepping leg with your non-lasso leg and convert to a sweep by driving them laterally, or transition to De La Riva guard using the hooking leg as a DLR hook → Leads to [[Positions/Open Guard]]
+- **Opponent stacks forward and drives weight onto you during the hip rotation to prevent completion** (Effectiveness: Medium) - Your Response: Use the stacking momentum against them by completing the rotation underneath their pressure and establishing omoplata control, or redirect their forward drive into a pendulum sweep motion by angling your hips → Leads to [[Positions/Lasso Guard]]
+- **Opponent rolls forward through the omoplata attempt immediately upon feeling the leg clear their shoulder** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining your leg across their back and establish top position by using your belt grip to control the roll speed. Convert to mounted omoplata control or transition directly to back control by inserting hooks as they complete the roll → Leads to [[Positions/Omoplata Control]]
 
 
 </section>

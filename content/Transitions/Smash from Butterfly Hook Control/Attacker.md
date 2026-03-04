@@ -180,7 +180,7 @@ description: "Master the Butterfly Smash attack in BJJ. Step-by-step guide to co
 
 The Butterfly Smash from the attacker's perspective is a pressure-based guard neutralization technique that converts an active butterfly guard into a more manageable half guard passing position. As the attacker, your primary objective is to drive your weight through one of the opponent's hooks while maintaining upper body control, effectively halving their guard's offensive capability. Success requires coordinating upper body pressure with directional knee drive, ensuring the opponent cannot create the elevation angles needed for butterfly sweeps. The technique rewards patience and systematic weight transfer over explosive movement, making it accessible to practitioners regardless of athletic attributes. Mastery of the butterfly smash transforms the challenging butterfly guard passing problem into a series of manageable half guard exchanges.
 
-**From Position**: [[Butterfly Hook Control]] (Top)
+**From Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The Butterfly Smash from the attacker's perspective is a pressure-based guard ne
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Butterfly Hook Control]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Butterfly Guard/Butterfly Hook Control]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Butterfly Smash from the attacker's perspective is a pressure-based guard ne
 
 ## Opponent Counters
 
-- **Opponent elevates hooks explosively and sweeps during weight transfer, using the committed weight against you** (Effectiveness: High) - Your Response: Maintain wide base on the non-smashing side and keep weight behind your knees during the initial transfer. If you feel significant elevation beginning, immediately abort the smash by sprawling hips back and resetting your base before re-attempting. → Leads to [[Mount]]
-- **Opponent frames against crossface and hip escapes laterally to recover distance and re-insert hooks** (Effectiveness: Medium) - Your Response: Maintain heavy head pressure and crossface throughout the entire smash sequence. Control their far hip with your free hand to block the hip escape angle. If they begin creating distance, drive forward to close the gap before they can fully re-establish hooks. → Leads to [[Butterfly Hook Control]]
-- **Opponent gets shoulder underneath your hips during hook collapse and transitions to deep half guard** (Effectiveness: Medium) - Your Response: Keep your weight forward through chest and shoulders rather than sitting back onto your heels. If you feel them beginning to get underneath, immediately post your hands and sprawl hips away from their body. Controlling their far hip prevents the initial hip escape motion needed for the deep half entry. → Leads to [[Butterfly Hook Control]]
-- **Opponent executes arm drag on your posting arm during the weight shift, taking the back** (Effectiveness: High) - Your Response: Keep elbows tight to your ribs throughout the smash. Never extend arms away from your torso while transferring weight. If the drag initiates, immediately circle away from the drag direction while dropping your weight to prevent them from clearing your hip line. → Leads to [[Mount]]
+- **Opponent elevates hooks explosively and sweeps during weight transfer, using the committed weight against you** (Effectiveness: High) - Your Response: Maintain wide base on the non-smashing side and keep weight behind your knees during the initial transfer. If you feel significant elevation beginning, immediately abort the smash by sprawling hips back and resetting your base before re-attempting. → Leads to [[Positions/Mount]]
+- **Opponent frames against crossface and hip escapes laterally to recover distance and re-insert hooks** (Effectiveness: Medium) - Your Response: Maintain heavy head pressure and crossface throughout the entire smash sequence. Control their far hip with your free hand to block the hip escape angle. If they begin creating distance, drive forward to close the gap before they can fully re-establish hooks. → Leads to [[Positions/Butterfly Guard/Butterfly Hook Control]]
+- **Opponent gets shoulder underneath your hips during hook collapse and transitions to deep half guard** (Effectiveness: Medium) - Your Response: Keep your weight forward through chest and shoulders rather than sitting back onto your heels. If you feel them beginning to get underneath, immediately post your hands and sprawl hips away from their body. Controlling their far hip prevents the initial hip escape motion needed for the deep half entry. → Leads to [[Positions/Butterfly Guard/Butterfly Hook Control]]
+- **Opponent executes arm drag on your posting arm during the weight shift, taking the back** (Effectiveness: High) - Your Response: Keep elbows tight to your ribs throughout the smash. Never extend arms away from your torso while transferring weight. If the drag initiates, immediately circle away from the drag direction while dropping your weight to prevent them from clearing your hip line. → Leads to [[Positions/Mount]]
 
 
 </section>

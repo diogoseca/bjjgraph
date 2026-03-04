@@ -180,7 +180,7 @@ description: "Master the Williams Guard Sweep execution in BJJ. Step-by-step gui
 
 Executing the Williams Guard Sweep requires precise coordination between shoulder lock control and butterfly hook mechanics. The sweep operates within the Williams Guard threat system where the shoulder lock creates a submission threat that forces the opponent into defensive reactions, each of which opens a specific sweeping opportunity. The attacker must maintain constant shoulder lock pressure throughout the sweep sequence, using it both as a control mechanism preventing the opponent from posting and as a driving force that shifts their weight toward the compromised base side. The butterfly hook provides the elevation, the shoulder lock removes posting ability, and the hip angle determines sweep direction—all three elements must work in concert for successful execution. Advanced practitioners learn to read which defensive reaction the opponent chooses and adjust the sweep timing accordingly, making the technique increasingly reliable against experienced grapplers who understand the shoulder lock threat.
 
-**From Position**: [[Williams Guard]] (Bottom)
+**From Position**: [[Positions/Williams Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Williams Guard Sweep requires precise coordination between shoulde
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 50% |
-| Failure | [[Williams Guard]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Mount]] | 50% |
+| Failure | [[Positions/Williams Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Williams Guard Sweep requires precise coordination between shoulde
 
 ## Opponent Counters
 
-- **Opponent posts free hand on the mat to create a wide base preventing the sweep** (Effectiveness: High) - Your Response: Switch to triangle attack by releasing one side of shoulder lock and swinging your leg over the posted arm, or transition to omoplata by rotating hips into the posting arm → Leads to [[Williams Guard]]
-- **Opponent drops weight and sprawls their hips back to remove hook elevation leverage** (Effectiveness: High) - Your Response: Use the forward pressure to transition to omoplata rotation since their sprawl creates the hip angle needed, or switch to scissor leg variation that works against sprawled opponents → Leads to [[Williams Guard]]
-- **Opponent strips shoulder lock grip by circling their arm out during the sweep attempt** (Effectiveness: Medium) - Your Response: Immediately transition to butterfly sweep without shoulder lock control, or switch to arm drag as they extract and take the back → Leads to [[Half Guard]]
-- **Opponent steps over the butterfly hook by bringing their leg across before elevation** (Effectiveness: Medium) - Your Response: Re-insert hook from the new angle or transition to single leg X-guard using the leg that crossed over as the new anchor point for a different sweep → Leads to [[Williams Guard]]
+- **Opponent posts free hand on the mat to create a wide base preventing the sweep** (Effectiveness: High) - Your Response: Switch to triangle attack by releasing one side of shoulder lock and swinging your leg over the posted arm, or transition to omoplata by rotating hips into the posting arm → Leads to [[Positions/Williams Guard]]
+- **Opponent drops weight and sprawls their hips back to remove hook elevation leverage** (Effectiveness: High) - Your Response: Use the forward pressure to transition to omoplata rotation since their sprawl creates the hip angle needed, or switch to scissor leg variation that works against sprawled opponents → Leads to [[Positions/Williams Guard]]
+- **Opponent strips shoulder lock grip by circling their arm out during the sweep attempt** (Effectiveness: Medium) - Your Response: Immediately transition to butterfly sweep without shoulder lock control, or switch to arm drag as they extract and take the back → Leads to [[Positions/Half Guard]]
+- **Opponent steps over the butterfly hook by bringing their leg across before elevation** (Effectiveness: Medium) - Your Response: Re-insert hook from the new angle or transition to single leg X-guard using the leg that crossed over as the new anchor point for a different sweep → Leads to [[Positions/Williams Guard]]
 
 
 </section>

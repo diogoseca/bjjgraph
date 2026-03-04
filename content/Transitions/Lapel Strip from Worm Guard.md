@@ -21,7 +21,7 @@ The technique is fundamentally a grip fighting sequence rather than a single exp
 
 Understanding the lapel strip within the broader worm guard passing context is critical. While backstep passes and long step passes attempt to work around the lapel, the strip eliminates it entirely, giving clean open guard passing opportunities. However, committing both hands to the grip fighting sequence creates momentary sweep vulnerability that the bottom player will exploit if given the chance. This risk-reward calculation should factor into your decision of whether to strip the lapel or pass around it.
 
-**From Position**: [[Worm Guard]] (Top)
+**From Position**: [[Positions/Worm Guard]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Understanding the lapel strip within the broader worm guard passing context is c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 45% |
-| Failure | [[Worm Guard]] | 35% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Open Guard]] | 45% |
+| Failure | [[Positions/Worm Guard]] | 35% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Lapel Strip from Worm Guard serves as the direct counter to worm guard's pri
 ## Related Techniques
 
 
-- [[Worm Guard]] - Source position where this technique is executed from top
+- [[Positions/Worm Guard]] - Source position where this technique is executed from top
 
-- [[Open Guard]] - Target position reached after successful lapel strip
+- [[Positions/Open Guard]] - Target position reached after successful lapel strip
 
-- [[Lapel Guard]] - Parent guard category encompassing worm guard
+- [[Positions/Lapel Guard]] - Parent guard category encompassing worm guard
 
-- [[Backstep from Worm Guard]] - Alternative worm guard counter that passes around the lapel
+- [[Transitions/Backstep from Worm Guard]] - Alternative worm guard counter that passes around the lapel
 
-- [[Collar Drag from Worm Guard]] - Related technique from worm guard bottom perspective
+- [[Transitions/Collar Drag from Worm Guard]] - Related technique from worm guard bottom perspective
 
-- [[De La Riva Guard]] - Guard the bottom player may transition to after failed worm guard
+- [[Positions/De La Riva Guard]] - Guard the bottom player may transition to after failed worm guard
 
-- [[Lasso Guard]] - Alternative guard the bottom player may establish during strip
+- [[Positions/Lasso Guard]] - Alternative guard the bottom player may establish during strip
 
-- [[Headquarters Position]] - Common follow-up position after stripping the lapel
+- [[Positions/Headquarters Position]] - Common follow-up position after stripping the lapel
 
-- [[Leg Drag Pass]] - High-percentage passing technique available after successful strip
+- [[Transitions/Leg Drag Pass]] - High-percentage passing technique available after successful strip
 
-- [[Toreando Pass]] - Primary passing option once lapel control is neutralized
+- [[Transitions/Toreando Pass]] - Primary passing option once lapel control is neutralized
 
 
 </section>

@@ -21,7 +21,7 @@ This technique represents an evolution of half guard sweeping concepts within th
 
 Strategic deployment of this sweep creates a genuine dilemma for the top player: driving forward to establish pressure opens the sweep, while sitting back to avoid the sweep creates space for the bottom player to recover to more favorable guard positions or transition to deep half guard attacks. The compound nature of the off-balancing makes this sweep particularly effective against heavier opponents who rely on pressure passing, as their own weight becomes the primary force driving the sweep to completion.
 
-**From Position**: [[Z-Lock Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Strategic deployment of this sweep creates a genuine dilemma for the top player:
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Z-Lock Half Guard]] | 35% |
-| Counter | [[Flattened Half Guard]] | 25% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Half Guard/Z-Lock Half Guard]] | 35% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 25% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Sweep from Z-Lock Half Guard occupies a critical niche in the half guard bot
 ## Related Techniques
 
 
-- [[Z-Lock Half Guard]] - Starting position providing the dual-leg configuration essential for this sweep
+- [[Positions/Half Guard/Z-Lock Half Guard]] - Starting position providing the dual-leg configuration essential for this sweep
 
-- [[Side Control]] - Primary target position achieved upon successful sweep completion
+- [[Positions/Side Control]] - Primary target position achieved upon successful sweep completion
 
-- [[Lockdown]] - Parent position system providing the lockdown leg mechanics used in this sweep
+- [[Positions/Half Guard/Lockdown]] - Parent position system providing the lockdown leg mechanics used in this sweep
 
-- [[Half Guard]] - Parent position category within which Z-Lock operates as a specialized variation
+- [[Positions/Half Guard]] - Parent position category within which Z-Lock operates as a specialized variation
 
-- [[Old School Sweep]] - Related lockdown sweep attacking in a different plane that chains with Z-Lock sweep
+- [[Transitions/Old School Sweep]] - Related lockdown sweep attacking in a different plane that chains with Z-Lock sweep
 
-- [[Butterfly Hook Sweep]] - Related sweeping mechanic sharing the butterfly elevation principle
+- [[Transitions/Butterfly Hook Sweep]] - Related sweeping mechanic sharing the butterfly elevation principle
 
-- [[Deep Half Guard]] - Alternative transition when opponent sits back to defend the sweep
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition when opponent sits back to defend the sweep
 
-- [[Dogfight Position]] - Intermediate position reached during come-up sweep variation
+- [[Positions/Dogfight Position]] - Intermediate position reached during come-up sweep variation
 
-- [[Flattened Half Guard]] - Worst-case outcome when sweep attempt is countered with heavy pressure
+- [[Positions/Half Guard/Flattened Half Guard]] - Worst-case outcome when sweep attempt is countered with heavy pressure
 
-- [[Electric Chair]] - Alternative submission attack available from the same Z-Lock configuration
+- [[Positions/Half Guard/Electric Chair]] - Alternative submission attack available from the same Z-Lock configuration
 
-- [[Half Butterfly Sweep]] - Related sweep concept using butterfly hook from half guard context
+- [[Transitions/Half Butterfly Sweep]] - Related sweep concept using butterfly hook from half guard context
 
 
 </section>

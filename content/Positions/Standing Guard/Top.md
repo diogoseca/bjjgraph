@@ -208,25 +208,25 @@ The position is particularly valuable in competition settings where maintaining 
 
 ## Available Attacks
 
-### [[Toreando Pass]] (22% of attempts)
+### [[Transitions/Toreando Pass]] (22% of attempts)
 
-### [[Leg Drag Pass]] (11% of attempts)
+### [[Transitions/Leg Drag Pass]] (11% of attempts)
 
-### [[Knee Slice Pass]] (11% of attempts)
+### [[Transitions/Knee Slice Pass]] (11% of attempts)
 
-### [[Double Under Pass]] (10% of attempts)
+### [[Transitions/Double Under Pass]] (10% of attempts)
 
-### [[X Pass]] (11% of attempts)
+### [[Transitions/X Pass]] (11% of attempts)
 
-### [[Long Step Pass]] (12% of attempts)
+### [[Transitions/Long Step Pass]] (12% of attempts)
 
-### [[Stack Pass]] (9% of attempts)
+### [[Transitions/Stack Pass]] (9% of attempts)
 
-### [[Back Step]] (8% of attempts)
+### [[Transitions/Back Step]] (8% of attempts)
 
-### [[Guard Pass from Standing Guard]] (4% of attempts)
+### [[Transitions/Guard Pass from Standing Guard]] (4% of attempts)
 
-### [[Takedown from Standing Guard]] (2% of attempts)
+### [[Transitions/Takedown from Standing Guard]] (2% of attempts)
 
 
 
@@ -237,28 +237,28 @@ The position is particularly valuable in competition settings where maintaining 
 ## Decision Making from This Position
 
 **If opponent establishes strong collar and sleeve grips with active foot placement:**
-- Execute **[[Grip Break]]** → [[Standing Guard]] (Probability: 70%)
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Grip Break]]** → [[Positions/Standing Guard]] (Probability: 70%)
+- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent extends legs for distance with limited grip control:**
-- Execute **[[Leg Drag Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[X Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/X Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent creates frames and uses butterfly hooks for elevation:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Double Under Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Double Under Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent establishes De La Riva hook on lead leg:**
-- Execute **[[Back Step]]** → [[Back Control]] (Probability: 45%)
-- Execute **[[RDLR Pass]]** → [[Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Back Step]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/RDLR Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If opponent inverts or attempts rolling attacks:**
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Front Headlock Series]]** → [[Front Headlock]] (Probability: 45%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Front Headlock Series]]** → [[Positions/Front Headlock]] (Probability: 45%)
 
 
 
@@ -404,18 +404,18 @@ Bottom player establishes specific guard type (De La Riva, Spider, Lasso, etc.) 
 
 ## Related Positions and Techniques
 
-- **[[Standing Position]]** - Base standing posture before establishing offensive structure
-- **[[Open Guard]]** - Guard configuration faced from this position
-- **[[Toreando Pass]]** - Primary transition technique from this position
-- **[[Leg Drag Pass]]** - Common transition technique
-- **[[Side Control]]** - Common target position after successful pass
-- **[[De La Riva Guard]]** - Common guard type faced from this position
-- **[[Spider Guard]]** - Common guard type faced from this position
-- **[[Knee Slice Pass]]** - High-percentage passing technique from this position
-- **[[Headquarters Position]]** - Transitional position during passing sequences
-- **[[Butterfly Guard]]** - Common guard configuration encountered
-- **[[Lasso Guard]]** - Gi-specific guard requiring specialized passing
-- **[[Long Step Pass]]** - Speed-based passing option from standing
+- **[[Positions/Standing Position]]** - Base standing posture before establishing offensive structure
+- **[[Positions/Open Guard]]** - Guard configuration faced from this position
+- **[[Transitions/Toreando Pass]]** - Primary transition technique from this position
+- **[[Transitions/Leg Drag Pass]]** - Common transition technique
+- **[[Positions/Side Control]]** - Common target position after successful pass
+- **[[Positions/De La Riva Guard]]** - Common guard type faced from this position
+- **[[Positions/Spider Guard]]** - Common guard type faced from this position
+- **[[Transitions/Knee Slice Pass]]** - High-percentage passing technique from this position
+- **[[Positions/Headquarters Position]]** - Transitional position during passing sequences
+- **[[Positions/Butterfly Guard]]** - Common guard configuration encountered
+- **[[Positions/Lasso Guard]]** - Gi-specific guard requiring specialized passing
+- **[[Transitions/Long Step Pass]]** - Speed-based passing option from standing
 
 
 </section>

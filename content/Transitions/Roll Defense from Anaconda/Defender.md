@@ -132,7 +132,7 @@ description: "Learn to counter the Roll Defense from Anaconda as the attacker wi
 
 As the person holding the anaconda grip and attempting the roll-through finish, you will frequently encounter the roll defense from experienced opponents. Understanding how the defense works allows you to counter it effectively or adjust your finishing strategy when the defense is deployed. The roll defense relies on posting, base widening, and directional hip resistance to deny your rotation. Your counter-strategies focus on eliminating the post before rolling, using explosive commitment to overwhelm the base, or transitioning to alternative finishes when the roll is successfully defended. Recognizing the defense early allows you to maintain control and continue your offensive pressure rather than losing position.
 
-**Opponent's Starting Position**: [[Anaconda Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Anaconda Control]] (Bottom)
 
 </section>
 
@@ -170,21 +170,21 @@ As the person holding the anaconda grip and attempting the roll-through finish, 
 ### 1. Control the posting wrist before initiating the roll by trapping it with your free hand or pinning it against their body
 
 - **When to use**: Before committing to the roll when you can feel or see the opponent's free hand positioning for a post
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: The roll completes unimpeded because the opponent's primary defense is eliminated, and you land in side control with the anaconda fully locked for the finish
 - **Risk**: Releasing pressure to control the wrist may give the opponent a moment to address the choke or improve their hip position
 
 ### 2. Commit to an explosive, fast roll using powerful leg drive and upper body rotation to overwhelm the posting defense through sheer momentum
 
 - **When to use**: When the opponent has already established a post but their base is not yet fully widened and sprawled
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: The force of the roll breaks through the post and you complete the finishing sequence in side control
 - **Risk**: If the post holds against the explosive attempt, you may end up in a worse position with your momentum spent and the opponent's defense reinforced
 
 ### 3. Abort the roll and transition to a stationary squeeze finish or advance to dead orchard control
 
 - **When to use**: When you recognize the defense is well-established with wide base, strong post, and opposite hip drive making the roll unlikely to succeed
-- **Targets**: [[Anaconda Control]]
+- **Targets**: [[Positions/Anaconda Control]]
 - **If successful**: You maintain anaconda control without risking position loss from a failed roll, preserving the submission threat while seeking alternative finishing angles
 - **Risk**: The stationary finish is generally lower percentage than the roll-through, and the opponent may use the pause to improve their grip defense
 
@@ -196,11 +196,11 @@ As the person holding the anaconda grip and attempting the roll-through finish, 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Complete the roll-through by either eliminating the post beforehand through wrist control, or using explosive commitment to overwhelm the base defense. Land in side control with the anaconda grip maintained for the finishing squeeze.
 
-### → [[Anaconda Control]]
+### → [[Positions/Anaconda Control]]
 
 When the roll is successfully defended, maintain the anaconda grip and chest pressure to preserve control. Reset your positioning and look for a second roll attempt, transition to dead orchard control, or apply a stationary squeeze finish.
 

@@ -180,7 +180,7 @@ description: "Complete guide to executing the hip rotation escape from Electric 
 
 As the attacker executing the hip rotation escape, you are the Electric Chair bottom player whose lockdown attack has stalled or is being effectively defended. Your objective is to transition from the deteriorating electric chair position to turtle, where you can immediately begin guard recovery or standup sequences. The key challenge is managing the moment of vulnerability when you release the lockdown control but have not yet established the defensive turtle shell. Success depends on committing fully to the rotation, maintaining the underhook as your pivot anchor, and arriving in proper defensive turtle posture before the top player can capitalize on the transition. This is fundamentally a damage-control technique that converts a losing position into a recoverable one.
 
-**From Position**: [[Electric Chair]] (Bottom)
+**From Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the hip rotation escape, you are the Electric Chair bo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 45% |
-| Failure | [[Half Guard]] | 35% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Turtle]] | 45% |
+| Failure | [[Positions/Half Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the hip rotation escape, you are the Electric Chair bo
 
 ## Opponent Counters
 
-- **Top player drives heavy forward pressure to flatten bottom player during lockdown release** (Effectiveness: High) - Your Response: Accelerate the hip rotation and use the forward pressure momentum to help power your rotation. If completely flattened before rotation starts, abandon the escape and re-engage lockdown if possible. → Leads to [[Half Guard]]
-- **Top player backsteps during the transition to establish passing position** (Effectiveness: Medium) - Your Response: Complete the rotation to turtle as quickly as possible and immediately address the passing threat with frames and hip movement. The backstep is dangerous but takes time to execute, and a fast rotation can beat it. → Leads to [[Side Control]]
-- **Top player maintains deep crossface to block the rotation direction** (Effectiveness: High) - Your Response: If crossface blocks the primary rotation direction, consider the granby roll variation which goes over the opposite shoulder, or re-engage the lockdown and attack from a different angle before attempting escape again. → Leads to [[Half Guard]]
-- **Top player grabs far hip or belt to prevent hip rotation and hold bottom player flat** (Effectiveness: Medium) - Your Response: Use your posting hand to strip the hip grip before rotating, or redirect the rotation into a sit-out variation that moves laterally rather than rotationally to defeat the grip angle. → Leads to [[Half Guard]]
+- **Top player drives heavy forward pressure to flatten bottom player during lockdown release** (Effectiveness: High) - Your Response: Accelerate the hip rotation and use the forward pressure momentum to help power your rotation. If completely flattened before rotation starts, abandon the escape and re-engage lockdown if possible. → Leads to [[Positions/Half Guard]]
+- **Top player backsteps during the transition to establish passing position** (Effectiveness: Medium) - Your Response: Complete the rotation to turtle as quickly as possible and immediately address the passing threat with frames and hip movement. The backstep is dangerous but takes time to execute, and a fast rotation can beat it. → Leads to [[Positions/Side Control]]
+- **Top player maintains deep crossface to block the rotation direction** (Effectiveness: High) - Your Response: If crossface blocks the primary rotation direction, consider the granby roll variation which goes over the opposite shoulder, or re-engage the lockdown and attack from a different angle before attempting escape again. → Leads to [[Positions/Half Guard]]
+- **Top player grabs far hip or belt to prevent hip rotation and hold bottom player flat** (Effectiveness: Medium) - Your Response: Use your posting hand to strip the hip grip before rotating, or redirect the rotation into a sit-out variation that moves laterally rather than rotationally to defeat the grip angle. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -182,7 +182,7 @@ As the attacker executing the Crackhead Control to Carni transition, you are con
 
 Success depends on reading your opponent's pressure patterns from crackhead control bottom. The constant hip movement and grip fighting that define good crackhead defense serve dual purpose: they prevent the top player from consolidating control and simultaneously create the unpredictability needed to disguise the transition entry. When the top player loads forward to break your defensive structure, that forward commitment is precisely when their legs become vulnerable to entanglement. Advanced practitioners develop the sensitivity to feel this weight shift through their lower back and react within the narrow timing window before the top player can retract.
 
-**From Position**: [[Crackhead Control]] (Bottom)
+**From Position**: [[Positions/Crackhead Control]] (Bottom)
 
 </section>
 
@@ -236,9 +236,9 @@ Success depends on reading your opponent's pressure patterns from crackhead cont
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Carni]] | 55% |
-| Failure | [[Crackhead Control]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Rubber Guard/Carni]] | 55% |
+| Failure | [[Positions/Crackhead Control]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -247,10 +247,10 @@ Success depends on reading your opponent's pressure patterns from crackhead cont
 
 ## Opponent Counters
 
-- **Top player immediately steps over with free leg to pass guard during transition attempt** (Effectiveness: High) - Your Response: Maintain active inside leg hook over hip to block step-over. If they begin stepping, immediately transition to half guard or butterfly guard recovery rather than forcing carni entry → Leads to [[Crackhead Control]]
-- **Top player sprawls back and retracts hips when feeling the inversion begin** (Effectiveness: Medium) - Your Response: Their hip retraction creates space for technical standup or granby roll to guard. The sprawl defense trades their crackhead control for your guard recovery opportunity → Leads to [[Crackhead Control]]
-- **Top player drives forward aggressively with chest pressure to flatten you during transition** (Effectiveness: Medium) - Your Response: Use their forward drive momentum to assist your inversion. Their chest pressure actually facilitates the roll-under motion when timed correctly, converting their aggression into your transition energy → Leads to [[Carni]]
-- **Top player immediately extracts leg and secures back control upon recognizing the entanglement attempt** (Effectiveness: High) - Your Response: If they clear the entanglement and advance to back control, immediately transition to standard back defense protocol with chin tuck and hand fighting. Prevention is key: commit fully and quickly to minimize the extraction window → Leads to [[Back Control]]
+- **Top player immediately steps over with free leg to pass guard during transition attempt** (Effectiveness: High) - Your Response: Maintain active inside leg hook over hip to block step-over. If they begin stepping, immediately transition to half guard or butterfly guard recovery rather than forcing carni entry → Leads to [[Positions/Crackhead Control]]
+- **Top player sprawls back and retracts hips when feeling the inversion begin** (Effectiveness: Medium) - Your Response: Their hip retraction creates space for technical standup or granby roll to guard. The sprawl defense trades their crackhead control for your guard recovery opportunity → Leads to [[Positions/Crackhead Control]]
+- **Top player drives forward aggressively with chest pressure to flatten you during transition** (Effectiveness: Medium) - Your Response: Use their forward drive momentum to assist your inversion. Their chest pressure actually facilitates the roll-under motion when timed correctly, converting their aggression into your transition energy → Leads to [[Positions/Rubber Guard/Carni]]
+- **Top player immediately extracts leg and secures back control upon recognizing the entanglement attempt** (Effectiveness: High) - Your Response: If they clear the entanglement and advance to back control, immediately transition to standard back defense protocol with chin tuck and hand fighting. Prevention is key: commit fully and quickly to minimize the extraction window → Leads to [[Positions/Back Control]]
 
 
 </section>

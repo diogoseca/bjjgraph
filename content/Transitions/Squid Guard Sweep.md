@@ -21,7 +21,7 @@ The sweep's effectiveness depends on precise coordination between the lapel pull
 
 Within the Squid Guard offensive framework, the sweep creates a foundational dilemma that amplifies all other attacks. When the opponent widens their base to resist the sweep, they expose themselves to inversions, back takes, and berimbolo entries. When they tighten their base and lower their center of gravity to prevent these attacks, the sweep itself becomes available. This complementary relationship between sweeps and back takes makes the Squid Guard Sweep most effective when integrated into the complete attacking system rather than used in isolation.
 
-**From Position**: [[Squid Guard]] (Bottom)
+**From Position**: [[Positions/Squid Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Within the Squid Guard offensive framework, the sweep creates a foundational dil
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Squid Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Squid Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Squid Guard Sweep occupies a central position within the lapel guard ecosyst
 ## Related Techniques
 
 
-- [[De La Riva Guard]] - Parent guard system sharing hook mechanics and sweep concepts
+- [[Positions/De La Riva Guard]] - Parent guard system sharing hook mechanics and sweep concepts
 
-- [[Mount]] - Primary target position on successful sweep completion
+- [[Positions/Mount]] - Primary target position on successful sweep completion
 
-- [[Lasso Guard]] - Related lapel-based guard with complementary sweep options
+- [[Positions/Lasso Guard]] - Related lapel-based guard with complementary sweep options
 
-- [[Worm Guard]] - Similar advanced lapel guard system with related sweeping strategies
+- [[Positions/Worm Guard]] - Similar advanced lapel guard system with related sweeping strategies
 
-- [[Half Guard]] - Counter outcome position when sweep is defended and guard partially passed
+- [[Positions/Half Guard]] - Counter outcome position when sweep is defended and guard partially passed
 
-- [[Lapel Guard]] - Broader lapel guard family sharing grip manipulation concepts
+- [[Positions/Lapel Guard]] - Broader lapel guard family sharing grip manipulation concepts
 
-- [[Back Control]] - Alternative high-value target accessible from Squid Guard system creating sweep-or-back-take dilemma
+- [[Positions/Back Control]] - Alternative high-value target accessible from Squid Guard system creating sweep-or-back-take dilemma
 
-- [[Butterfly Guard]] - Related open guard sharing elevation-based sweep mechanics
+- [[Positions/Butterfly Guard]] - Related open guard sharing elevation-based sweep mechanics
 
-- [[Open Guard]] - General guard family that Squid Guard specializes from
+- [[Positions/Open Guard]] - General guard family that Squid Guard specializes from
 
-- [[X-Guard]] - Alternative sweep destination from similar guard configurations via leg entanglement
+- [[Positions/X-Guard]] - Alternative sweep destination from similar guard configurations via leg entanglement
 
 
 </section>

@@ -17,7 +17,7 @@ description: "Master the fundamental transition from side control to mount in BJ
 
 The transition to mount from side control represents one of the most fundamental and high-percentage positional advancements in Brazilian Jiu-Jitsu. This transition is the natural progression when an opponent's defensive frames are compromised or when they turn into you attempting to recover guard. The movement capitalizes on controlling the near side of the opponent's body while stepping over to establish the dominant mount position. Understanding this transition is critical for developing a systematic top game, as mount offers superior control and submission opportunities compared to side control. The technique relies on precise weight distribution, maintaining connection throughout the movement, and timing the transition when defensive frames collapse or opponent movement creates openings. This is a bread-and-butter technique that every practitioner from white belt to black belt uses regularly in training and competition. The transition can be executed with various grips and entry methods, but the fundamental mechanics remain consistent: control the near side, step the leg over, and establish mount with proper weight distribution.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 68%
 
 </section>
@@ -28,9 +28,9 @@ The transition to mount from side control represents one of the most fundamental
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 75% |
-| Failure | [[Side Control]] | 15% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount]] | 75% |
+| Failure | [[Positions/Side Control]] | 15% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -192,35 +192,35 @@ The transition to mount from side control represents a critical component of the
 ## Related Techniques
 
 
-- [[Side Control]] - Starting position - must be established before transition
+- [[Positions/Side Control]] - Starting position - must be established before transition
 
-- [[Mount]] - Ending position - destination of the transition
+- [[Positions/Mount]] - Ending position - destination of the transition
 
-- [[Consolidate Mount]] - Follow-up - maintaining the achieved position
+- [[Transitions/Consolidate Mount]] - Follow-up - maintaining the achieved position
 
-- [[Knee on Belly]] - Alternative positional advancement from side control
+- [[Positions/Knee on Belly]] - Alternative positional advancement from side control
 
-- [[Gift Wrap]] - Control method that facilitates the transition
+- [[Positions/Gift Wrap]] - Control method that facilitates the transition
 
-- [[Americana from Mount]] - Follow-up submission after achieving mount
+- [[Submissions/Americana from Mount]] - Follow-up submission after achieving mount
 
-- [[Armbar from Mount]] - Follow-up submission commonly attacked from mount
+- [[Submissions/Armbar from Mount]] - Follow-up submission commonly attacked from mount
 
-- [[High Mount]] - Advanced mount variation accessible after basic mount establishment
+- [[Positions/Mount/High Mount]] - Advanced mount variation accessible after basic mount establishment
 
-- [[S Mount]] - Modified mount variation achievable during the transition
+- [[Positions/Mount/S Mount]] - Modified mount variation achievable during the transition
 
-- [[Bridge and Roll]] - Common counter opponent uses to prevent mount
+- [[Transitions/Bridge and Roll]] - Common counter opponent uses to prevent mount
 
-- [[North-South]] - Alternative transitional position if mount is blocked
+- [[Positions/North-South]] - Alternative transitional position if mount is blocked
 
-- [[Half Guard]] - Position opponent often recovers if second leg delayed
+- [[Positions/Half Guard]] - Position opponent often recovers if second leg delayed
 
-- [[Technical Mount]] - Alternative mount variation with different leg positioning
+- [[Positions/Mount/Technical Mount]] - Alternative mount variation with different leg positioning
 
-- [[Knee Slice from Half]] - Recovery pass if opponent catches half guard
+- [[Transitions/Knee Slice from Half]] - Recovery pass if opponent catches half guard
 
-- [[Back Take from Top]] - Alternative when opponent turns away during transition
+- [[Transitions/Back Take from Top]] - Alternative when opponent turns away during transition
 
 
 </section>

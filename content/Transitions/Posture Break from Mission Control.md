@@ -21,7 +21,7 @@ Unlike the more gradual Posture Recovery approach, the Posture Break employs a c
 
 The success of this technique depends heavily on preparation and awareness. The top player must resist the urge to simply pull away from Mission Control, as raw pulling creates the exact momentum the bottom player needs to advance to New York, Zombie, or submission entries. Instead, the posture break works by addressing control points systematically in rapid succession—stripping grips, posting on the hip, driving the head up and back, and using the free arm to peel the high guard leg away from the shoulder. Executed with proper timing, this returns the position to standard closed guard where the top player can resume normal guard passing operations.
 
-**From Position**: [[Mission Control]] (Top)
+**From Position**: [[Positions/Rubber Guard/Mission Control]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ The success of this technique depends heavily on preparation and awareness. The 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Failure | [[Mission Control]] | 35% |
-| Counter | [[New York]] | 20% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Failure | [[Positions/Rubber Guard/Mission Control]] | 35% |
+| Counter | [[Positions/Rubber Guard/New York]] | 20% |
 
 
 </section>
@@ -197,23 +197,23 @@ The Posture Break from Mission Control occupies a critical defensive niche withi
 ## Related Techniques
 
 
-- [[Mission Control]] - Starting position - the rubber guard control being escaped
+- [[Positions/Rubber Guard/Mission Control]] - Starting position - the rubber guard control being escaped
 
-- [[Closed Guard]] - Target destination - successful posture break returns to neutral closed guard
+- [[Positions/Closed Guard]] - Target destination - successful posture break returns to neutral closed guard
 
-- [[New York]] - Counter destination - bottom player may advance here during failed break attempt
+- [[Positions/Rubber Guard/New York]] - Counter destination - bottom player may advance here during failed break attempt
 
-- [[Posture Recovery from Mission Control]] - Alternative escape - more gradual approach to escaping Mission Control
+- [[Transitions/Posture Recovery from Mission Control]] - Alternative escape - more gradual approach to escaping Mission Control
 
-- [[Stack Pass from Mission Control]] - Alternative escape - uses forward stacking pressure rather than backward posture recovery
+- [[Transitions/Stack Pass from Mission Control]] - Alternative escape - uses forward stacking pressure rather than backward posture recovery
 
-- [[Rubber Guard]] - Parent system - Mission Control is the foundational rubber guard control position
+- [[Positions/Rubber Guard]] - Parent system - Mission Control is the foundational rubber guard control position
 
-- [[Chill Dog]] - Related rubber guard position - bottom player may fall back here if Mission Control is compromised
+- [[Positions/Rubber Guard/Chill Dog]] - Related rubber guard position - bottom player may fall back here if Mission Control is compromised
 
-- [[Meathook]] - Related rubber guard entry - often used to establish Mission Control initially
+- [[Positions/Rubber Guard/Meathook]] - Related rubber guard entry - often used to establish Mission Control initially
 
-- [[Posture Recovery]] - Related technique - general posture recovery mechanics applicable to this escape
+- [[Transitions/Posture Recovery]] - Related technique - general posture recovery mechanics applicable to this escape
 
 
 </section>

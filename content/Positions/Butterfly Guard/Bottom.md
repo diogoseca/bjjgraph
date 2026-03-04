@@ -211,35 +211,35 @@ The learning curve for butterfly guard involves developing several interconnecte
 
 ## Available Escapes
 
-### [[Butterfly Sweep]] (40% of attempts)
+### [[Transitions/Butterfly Sweep]] (40% of attempts)
 
-### [[Elevator Sweep]] (7% of attempts)
+### [[Transitions/Elevator Sweep]] (7% of attempts)
 
-### [[Arm Drag to Back]] (11% of attempts)
+### [[Transitions/Arm Drag to Back]] (11% of attempts)
 
-### [[Butterfly Guard to X-Guard]] (7% of attempts)
+### [[Transitions/Butterfly Guard to X-Guard]] (7% of attempts)
 
-### [[Guillotine Choke]] (5% of attempts)
+### [[Transitions/Guillotine Choke]] (5% of attempts)
 
-### [[Sumi Gaeshi]] (6% of attempts)
+### [[Transitions/Sumi Gaeshi]] (6% of attempts)
 
-### [[Single Leg X Entry]] (6% of attempts)
+### [[Transitions/Single Leg X Entry]] (6% of attempts)
 
-### [[Butterfly Guard to Butterfly Hook Control]] (2% of attempts)
+### [[Transitions/Butterfly Guard to Butterfly Hook Control]] (2% of attempts)
 
-### [[Deep Half Entry]] (4% of attempts)
+### [[Transitions/Deep Half Entry]] (4% of attempts)
 
-### [[Underhook Sweep]] (3% of attempts)
+### [[Transitions/Underhook Sweep]] (3% of attempts)
 
-### [[Kimura]] (3% of attempts)
+### [[Transitions/Kimura]] (3% of attempts)
 
-### [[Snap Down to Front Headlock]] (1% of attempts)
+### [[Transitions/Snap Down to Front Headlock]] (1% of attempts)
 
-### [[Omoplata]] (1% of attempts)
+### [[Transitions/Omoplata]] (1% of attempts)
 
-### [[Hook Sweep]] (2% of attempts)
+### [[Transitions/Hook Sweep]] (2% of attempts)
 
-### [[Guillotine from Butterfly Guard]] (2% of attempts)
+### [[Submissions/Guillotine from Butterfly Guard]] (2% of attempts)
 
 
 
@@ -250,28 +250,28 @@ The learning curve for butterfly guard involves developing several interconnecte
 ## Decision Making from This Position
 
 **If opponent maintains low combat base with hands posted forward defensively:**
-- Execute **[[Butterfly Sweep]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Elevator Sweep]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Transitions/Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Elevator Sweep]]** → [[Positions/Mount]] (Probability: 60%)
 
 
 **If opponent extends arms or creates distance defensively to avoid sweep:**
-- Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 58%)
-- Execute **[[Butterfly Guard to X-Guard]]** → [[X-Guard]] (Probability: 52%)
+- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 58%)
+- Execute **[[Transitions/Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 52%)
 
 
 **If opponent stands up or begins withdrawing from hooks to establish standing pass:**
-- Execute **[[Butterfly Guard to X-Guard]]** → [[Single Leg X-Guard]] (Probability: 55%)
-- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 50%)
+- Execute **[[Transitions/Butterfly Guard to X-Guard]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 50%)
 
 
 **If opponent drives heavy pressure forward attempting to flatten you to mat:**
-- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 48%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 48%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 45%)
 
 
 **If opponent clears one hook or establishes half guard configuration:**
-- Execute **[[Half Guard Recovery]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 46%)
+- Execute **[[Transitions/Half Guard Recovery]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 46%)
 
 
 
@@ -385,11 +385,11 @@ Practice smooth transitions from butterfly guard to various X-Guard positions as
 
 ## Related Positions and Techniques
 
-- **[[X-Guard]]** - Common transition target from butterfly when opponent stands or defends sweeps effectively
-- **[[Single Leg X-Guard]]** - Alternative transition when opponent withdraws one leg or stands asymmetrically during passing
-- **[[Deep Half Guard]]** - Defensive transition when opponent applies heavy pressure to flatten butterfly configuration
-- **[[Half Guard]]** - Common position to transition from when one hook is cleared during passing sequences
-- **[[Closed Guard]]** - Alternative guard to establish when butterfly is pressured and hooks cleared completely
+- **[[Positions/X-Guard]]** - Common transition target from butterfly when opponent stands or defends sweeps effectively
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Alternative transition when opponent withdraws one leg or stands asymmetrically during passing
+- **[[Positions/Half Guard/Deep Half Guard]]** - Defensive transition when opponent applies heavy pressure to flatten butterfly configuration
+- **[[Positions/Half Guard]]** - Common position to transition from when one hook is cleared during passing sequences
+- **[[Positions/Closed Guard]]** - Alternative guard to establish when butterfly is pressured and hooks cleared completely
 
 
 </section>

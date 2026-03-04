@@ -21,7 +21,7 @@ The 100% Sweep is particularly effective against opponents who posture aggressiv
 
 This sweep is essential for advanced practitioners developing a sophisticated closed guard game and understanding the mechanics of limb isolation sweeps. In competition, it scores 2 sweep points and typically lands directly in mount for an additional 4 points, making it one of the highest-scoring single sequences available from closed guard.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ This sweep is essential for advanced practitioners developing a sophisticated cl
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 50% |
-| Failure | [[Closed Guard]] | 35% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Mount]] | 50% |
+| Failure | [[Positions/Closed Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -205,29 +205,29 @@ The 100% Sweep is a crucial component of an advanced closed guard attack system,
 ## Related Techniques
 
 
-- [[Omoplata Sweep]] - Alternative attack from similar arm trap position in closed guard
+- [[Transitions/Omoplata Sweep]] - Alternative attack from similar arm trap position in closed guard
 
-- [[Muscle Sweep]] - Follow-up option if 100% Sweep is defended but arm control maintained
+- [[Transitions/Muscle Sweep]] - Follow-up option if 100% Sweep is defended but arm control maintained
 
-- [[Hip Bump Sweep]] - Complementary sweep that can be combined in sequences
+- [[Transitions/Hip Bump Sweep]] - Complementary sweep that can be combined in sequences
 
-- [[Scissor Sweep]] - Alternative sweep from closed guard that creates attack combinations
+- [[Transitions/Scissor Sweep]] - Alternative sweep from closed guard that creates attack combinations
 
-- [[Pendulum Sweep]] - Related closed guard sweep using different angle creation mechanics
+- [[Transitions/Pendulum Sweep]] - Related closed guard sweep using different angle creation mechanics
 
-- [[Closed Guard to Triangle]] - Chain submission when opponent defends sweep by recovering posture
+- [[Transitions/Closed Guard to Triangle]] - Chain submission when opponent defends sweep by recovering posture
 
-- [[Armbar from Guard]] - Alternative attack when arm is isolated but sweep is defended
+- [[Submissions/Armbar from Guard]] - Alternative attack when arm is isolated but sweep is defended
 
-- [[Closed Guard]] - Starting position for this technique
+- [[Positions/Closed Guard]] - Starting position for this technique
 
-- [[Mount]] - Primary ending position when sweep is successful
+- [[Positions/Mount]] - Primary ending position when sweep is successful
 
-- [[Side Control]] - Alternative ending position if opponent turns away during sweep
+- [[Positions/Side Control]] - Alternative ending position if opponent turns away during sweep
 
-- [[Kimura from Guard]] - Chain attack when opponent posts hand to defend sweep
+- [[Submissions/Kimura from Guard]] - Chain attack when opponent posts hand to defend sweep
 
-- [[Guillotine Choke]] - Chain attack when opponent pulls arm back defensively
+- [[Transitions/Guillotine Choke]] - Chain attack when opponent pulls arm back defensively
 
 
 </section>

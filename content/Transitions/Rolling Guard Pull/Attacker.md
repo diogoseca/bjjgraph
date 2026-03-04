@@ -182,7 +182,7 @@ As the attacker executing the Rolling Guard Pull, your objective is to use rotat
 
 The rolling guard pull demands commitment and precise timing. Half-measures result in awkward scrambles that favor the standing opponent. When you initiate the roll, you must have a clear target guard position based on the opponent's stance and weight distribution. Your grips serve as the anchor that connects you to the opponent throughout the rotation, and your legs must engage immediately upon roll completion to prevent any passing opportunity. The entire sequence from grip establishment to guard retention should take under two seconds.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -236,10 +236,10 @@ The rolling guard pull demands commitment and precise timing. Half-measures resu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Success | [[De La Riva Guard]] | 15% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Standing Position]] | 15% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Success | [[Positions/De La Riva Guard]] | 15% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ The rolling guard pull demands commitment and precise timing. Half-measures resu
 
 ## Opponent Counters
 
-- **Opponent steps back and disengages as you initiate the roll** (Effectiveness: High) - Your Response: Maintain strong grip control throughout the movement and pull them forward as you roll. If they successfully disengage, immediately technical stand up or transition to seated guard and pursue with shin-to-shin or De La Riva entries from seated position. → Leads to [[Standing Position]]
-- **Opponent sprawls and applies heavy chest pressure during the roll** (Effectiveness: Medium) - Your Response: Use the opponent's forward pressure to complete your roll faster. Their weight actually assists the rotation. Come up with a deep De La Riva hook or transition to seated guard where their forward momentum works against their base. If they overcommit forward, immediately attack with a sweep. → Leads to [[Closed Guard]]
-- **Opponent releases grips and begins immediate guard pass as you complete the roll** (Effectiveness: High) - Your Response: Focus on leg positioning and frames immediately upon completing the roll. Establish feet on hips to create distance and prevent the pass. Be prepared to invert or reguard if they achieve initial passing position. Prioritize guard retention over attacking for the first cycle. → Leads to [[Standing Position]]
-- **Opponent circles laterally to avoid being caught in guard** (Effectiveness: Medium) - Your Response: Adjust your rolling angle to follow their movement direction. Use your grip as a tether that limits their lateral escape distance. If they achieve the angle, complete the roll and immediately face them with active feet and grips rather than chasing from a compromised position. → Leads to [[Standing Position]]
+- **Opponent steps back and disengages as you initiate the roll** (Effectiveness: High) - Your Response: Maintain strong grip control throughout the movement and pull them forward as you roll. If they successfully disengage, immediately technical stand up or transition to seated guard and pursue with shin-to-shin or De La Riva entries from seated position. → Leads to [[Positions/Standing Position]]
+- **Opponent sprawls and applies heavy chest pressure during the roll** (Effectiveness: Medium) - Your Response: Use the opponent's forward pressure to complete your roll faster. Their weight actually assists the rotation. Come up with a deep De La Riva hook or transition to seated guard where their forward momentum works against their base. If they overcommit forward, immediately attack with a sweep. → Leads to [[Positions/Closed Guard]]
+- **Opponent releases grips and begins immediate guard pass as you complete the roll** (Effectiveness: High) - Your Response: Focus on leg positioning and frames immediately upon completing the roll. Establish feet on hips to create distance and prevent the pass. Be prepared to invert or reguard if they achieve initial passing position. Prioritize guard retention over attacking for the first cycle. → Leads to [[Positions/Standing Position]]
+- **Opponent circles laterally to avoid being caught in guard** (Effectiveness: Medium) - Your Response: Adjust your rolling angle to follow their movement direction. Use your grip as a tether that limits their lateral escape distance. If they achieve the angle, complete the roll and immediately face them with active feet and grips rather than chasing from a compromised position. → Leads to [[Positions/Standing Position]]
 
 
 </section>

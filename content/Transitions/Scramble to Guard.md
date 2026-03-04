@@ -21,7 +21,7 @@ The technique operates on the principle that scrambles favor the person who init
 
 From a strategic perspective, this technique should be attempted before Twister Control is fully locked in or during the opponent's submission attempts when their focus shifts from control to finishing. The window for this escape narrows significantly once deep rotation is established, making timing recognition essential. Success requires maintaining composure despite the discomfort of the twisted position while waiting for or creating the optimal moment to explode into the scramble sequence.
 
-**From Position**: [[Twister Control]] (Bottom)
+**From Position**: [[Positions/Twister Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ From a strategic perspective, this technique should be attempted before Twister 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Success | [[Half Guard]] | 20% |
-| Failure | [[Twister Control]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Success | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/Twister Control]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -192,25 +192,25 @@ Scramble to Guard fits within the broader defensive framework for back exposure 
 ## Related Techniques
 
 
-- [[Twister Control]] - Starting position - the dangerous control you are escaping from
+- [[Positions/Twister Control]] - Starting position - the dangerous control you are escaping from
 
-- [[Closed Guard]] - Primary success outcome - optimal guard recovery position
+- [[Positions/Closed Guard]] - Primary success outcome - optimal guard recovery position
 
-- [[Half Guard]] - Alternative success outcome - acceptable guard recovery position
+- [[Positions/Half Guard]] - Alternative success outcome - acceptable guard recovery position
 
-- [[Turtle]] - Intermediate position - sometimes necessary before full guard recovery
+- [[Positions/Turtle]] - Intermediate position - sometimes necessary before full guard recovery
 
-- [[Back Control]] - Counter outcome - opponent may transition here during escape
+- [[Positions/Back Control]] - Counter outcome - opponent may transition here during escape
 
-- [[Roll Through Escape]] - Alternative escape - different method from same starting position
+- [[Transitions/Roll Through Escape]] - Alternative escape - different method from same starting position
 
-- [[Bridge and Turn to Turtle]] - Alternative escape - accepts turtle as intermediate step
+- [[Transitions/Bridge and Turn to Turtle]] - Alternative escape - accepts turtle as intermediate step
 
-- [[Guard Recovery]] - Related concept - general principles that apply in final phase
+- [[Principles/Guard Recovery]] - Related concept - general principles that apply in final phase
 
-- [[Hip Escape to Guard]] - Component technique - used in final phase of guard recovery
+- [[Transitions/Hip Escape to Guard]] - Component technique - used in final phase of guard recovery
 
-- [[Guillotine Choke]] - Counter threat - must be defended during scramble
+- [[Transitions/Guillotine Choke]] - Counter threat - must be defended during scramble
 
 
 </section>

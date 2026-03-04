@@ -178,7 +178,7 @@ The technique is particularly valuable in self-defense scenarios, scrambles, and
 
 Mastery of the technical stand-up provides a reliable escape option from compromised bottom positions and forms the foundation for advanced guard retention systems. At the highest levels, practitioners chain this movement with single leg entries, creating a seamless defensive-to-offensive pipeline that punishes opponents who attempt to follow the stand-up.
 
-**From Position**: [[Seated Guard]] (Bottom)
+**From Position**: [[Positions/Seated Guard]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ Mastery of the technical stand-up provides a reliable escape option from comprom
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 75% |
-| Failure | [[Seated Guard]] | 15% |
-| Counter | [[Headquarters Position]] | 10% |
+| Success | [[Positions/Standing Position]] | 75% |
+| Failure | [[Positions/Seated Guard]] | 15% |
+| Counter | [[Positions/Headquarters Position]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ Mastery of the technical stand-up provides a reliable escape option from comprom
 
 ## Opponent Counters
 
-- **Opponent rushes forward during hip elevation to drive you backward** (Effectiveness: Medium) - Your Response: Immediately extend lead leg into opponent's hips or chest, using it as a barrier while accelerating the trail leg swing. If necessary, transition to seated guard retention or return to Butterfly Guard rather than being driven to your back. → Leads to [[Seated Guard]]
-- **Opponent grabs your posting arm to collapse your base** (Effectiveness: High) - Your Response: If posting arm is compromised, immediately switch to alternative escape by pulling that arm free while turning toward opponent and establishing a different guard position. Can transition to Turtle or use other hand to post while circling away. → Leads to [[Seated Guard]]
-- **Opponent secures grip on your lead leg during stand-up** (Effectiveness: Medium) - Your Response: If lead leg is controlled, use it as a post while quickly hopping the trail leg further back to create distance. Can also transition to Single Leg X-Guard or other leg entanglement if opponent commits to the leg attack. → Leads to [[Headquarters Position]]
-- **Opponent times their pressure to catch you mid-transition before hip elevation** (Effectiveness: High) - Your Response: Abandon the technical stand-up and immediately transition to defensive guard position. Use the momentum to enter Closed Guard, Half Guard, or Butterfly Guard depending on opponent's position and grips. → Leads to [[Headquarters Position]]
+- **Opponent rushes forward during hip elevation to drive you backward** (Effectiveness: Medium) - Your Response: Immediately extend lead leg into opponent's hips or chest, using it as a barrier while accelerating the trail leg swing. If necessary, transition to seated guard retention or return to Butterfly Guard rather than being driven to your back. → Leads to [[Positions/Seated Guard]]
+- **Opponent grabs your posting arm to collapse your base** (Effectiveness: High) - Your Response: If posting arm is compromised, immediately switch to alternative escape by pulling that arm free while turning toward opponent and establishing a different guard position. Can transition to Turtle or use other hand to post while circling away. → Leads to [[Positions/Seated Guard]]
+- **Opponent secures grip on your lead leg during stand-up** (Effectiveness: Medium) - Your Response: If lead leg is controlled, use it as a post while quickly hopping the trail leg further back to create distance. Can also transition to Single Leg X-Guard or other leg entanglement if opponent commits to the leg attack. → Leads to [[Positions/Headquarters Position]]
+- **Opponent times their pressure to catch you mid-transition before hip elevation** (Effectiveness: High) - Your Response: Abandon the technical stand-up and immediately transition to defensive guard position. Use the momentum to enter Closed Guard, Half Guard, or Butterfly Guard depending on opponent's position and grips. → Leads to [[Positions/Headquarters Position]]
 
 
 </section>

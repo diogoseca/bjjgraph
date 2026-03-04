@@ -146,7 +146,7 @@ description: "Defend against Knee Shield recovery from Quarter Guard top. Learn 
 
 As the defender in this context, you are the top player in quarter guard attempting to complete the guard pass while your opponent works to insert a knee shield and recover to Knee Shield Half Guard. Your objective is to prevent the recovery by maintaining pressure, controlling the insertion leg, and completing your pass before the shield can be established. The critical understanding is that prevention is far easier than dealing with an established knee shield—once the knee crosses the centerline, your passing difficulty increases dramatically. Every second you spend in quarter guard without completing the pass gives the bottom player another opportunity to recover.
 
-**Opponent's Starting Position**: [[Quarter Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Quarter Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender in this context, you are the top player in quarter guard attempt
 ### 1. Drive heavy crossface pressure to flatten bottom player and prevent hip escape
 
 - **When to use**: As the first response when you feel any hip movement or frame establishment from the bottom player
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Bottom player is flattened on their back, eliminating hip mobility and the angle needed for knee insertion, allowing you to complete the pass
 - **Risk**: Over-committing weight forward to the crossface can expose you to deep half guard entry if the bottom player scoops underneath
 
 ### 2. Pin the near-side knee with your hand or shin pressure against the mat
 
 - **When to use**: When you see the bottom player's knee beginning to lift off the mat toward your centerline
-- **Targets**: [[Quarter Guard]]
+- **Targets**: [[Positions/Quarter Guard]]
 - **If successful**: The knee cannot travel across your body, keeping the bottom player stuck in quarter guard where you can methodically complete the pass
 - **Risk**: Using your hand to pin the knee removes it from crossface or hip control, potentially allowing the bottom player to create frames or establish an underhook with the freed space
 
 ### 3. Accelerate pass completion by immediately driving your hip across their centerline
 
 - **When to use**: The moment you recognize any recovery attempt—race to complete the pass before the shield establishes
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You complete the pass to side control before the knee shield can be inserted, bypassing the defensive structure entirely
 - **Risk**: Rushing the pass without proper control can leave you off-balance and vulnerable to sweeps if the bottom player redirects your momentum
 
 ### 4. Backstep to change the angle and bypass the knee shield insertion path
 
 - **When to use**: When the bottom player has partially inserted the knee and you cannot drive through it directly
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Your angle change renders their knee shield insertion useless as you pass from a completely different direction
 - **Risk**: The backstep creates a brief moment of reduced pressure where the bottom player could recover full guard or transition to a different guard variation
 
@@ -217,11 +217,11 @@ As the defender in this context, you are the top player in quarter guard attempt
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Complete your guard pass before the knee shield can be established by maintaining constant forward pressure, controlling the crossface, and driving your passing knee across their centerline faster than they can insert their shield knee. Prioritize immediate pass completion within five seconds of entering quarter guard.
 
-### → [[Quarter Guard]]
+### → [[Positions/Quarter Guard]]
 
 If you cannot immediately complete the pass, prevent the knee shield insertion by pinning their near-side knee and maintaining crossface pressure. This keeps them in the compromised quarter guard where you maintain the advantage and can attempt the pass again with a different approach.
 

@@ -190,7 +190,7 @@ The sweep works on the principle of removing one of the opponent's base points w
 
 Success with this sweep depends heavily on timing, grip control, and the ability to read the opponent's weight distribution. Advanced practitioners can chain this sweep with other attacks, using the opponent's defensive reactions to create offensive opportunities. The foot grab sweep is an essential component of a complete open guard game and serves as both a primary attacking option and a counter to standing guard passes.
 
-**From Position**: [[Seated Guard]] (Bottom)
+**From Position**: [[Positions/Seated Guard]] (Bottom)
 
 </section>
 
@@ -245,9 +245,9 @@ Success with this sweep depends heavily on timing, grip control, and the ability
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Failure | [[Seated Guard]] | 20% |
-| Counter | [[Seated Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 70% |
+| Failure | [[Positions/Seated Guard]] | 20% |
+| Counter | [[Positions/Seated Guard]] | 10% |
 
 
 </section>
@@ -256,10 +256,10 @@ Success with this sweep depends heavily on timing, grip control, and the ability
 
 ## Opponent Counters
 
-- **Opponent pulls their foot back before you can secure the grip** (Effectiveness: High) - Your Response: Transition to alternative sweep or guard retention. Use the motion of reaching for the foot to set up collar drag, arm drag, or switch to different guard position like de la riva or x-guard. → Leads to [[Seated Guard]]
-- **Opponent posts their free hand to prevent being swept** (Effectiveness: Medium) - Your Response: Attack the posting arm with a kimura grip or armbar. Alternatively, continue the sweeping motion more aggressively to overcome the post, or switch directions to sweep to the opposite side. → Leads to [[Seated Guard]]
-- **Opponent sprawls back and creates distance** (Effectiveness: Medium) - Your Response: Maintain foot control and follow their movement. Transition to single leg x-guard or ashi garami position. Use their backward motion to enter leg entanglement positions. → Leads to [[Seated Guard]]
-- **Opponent steps over to pass before sweep completes** (Effectiveness: Low) - Your Response: Use their stepping motion to reverse the sweep direction or transition to deep half guard. Their movement creates opportunity for back takes or alternative sweeps. → Leads to [[Seated Guard]]
+- **Opponent pulls their foot back before you can secure the grip** (Effectiveness: High) - Your Response: Transition to alternative sweep or guard retention. Use the motion of reaching for the foot to set up collar drag, arm drag, or switch to different guard position like de la riva or x-guard. → Leads to [[Positions/Seated Guard]]
+- **Opponent posts their free hand to prevent being swept** (Effectiveness: Medium) - Your Response: Attack the posting arm with a kimura grip or armbar. Alternatively, continue the sweeping motion more aggressively to overcome the post, or switch directions to sweep to the opposite side. → Leads to [[Positions/Seated Guard]]
+- **Opponent sprawls back and creates distance** (Effectiveness: Medium) - Your Response: Maintain foot control and follow their movement. Transition to single leg x-guard or ashi garami position. Use their backward motion to enter leg entanglement positions. → Leads to [[Positions/Seated Guard]]
+- **Opponent steps over to pass before sweep completes** (Effectiveness: Low) - Your Response: Use their stepping motion to reverse the sweep direction or transition to deep half guard. Their movement creates opportunity for back takes or alternative sweeps. → Leads to [[Positions/Seated Guard]]
 
 
 </section>

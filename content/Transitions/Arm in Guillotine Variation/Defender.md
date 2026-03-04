@@ -154,7 +154,7 @@ description: "How to defend and escape the arm-in guillotine from bottom positio
 
 Defending the arm-in guillotine from bottom position requires immediate recognition that your arm is trapped and conventional guillotine defenses may not apply. The trapped arm eliminates your ability to hand fight effectively on that side or turn into the attacker for standard escape angles, so defensive strategy shifts toward creating space through hip movement, posture recovery, and specifically working to extract the trapped arm before the attacker can fully set the finishing mechanics. Time pressure is critical because the arm-in configuration tightens rapidly—the bilateral compression from the attacker's forearm on one side and your own trapped shoulder on the other can produce unconsciousness within seconds of full application. Early recognition and committed defensive action are essential; waiting to assess whether the choke is tight enough to finish usually means it already is.
 
-**Opponent's Starting Position**: [[Guillotine Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Guillotine Control]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the arm-in guillotine from bottom position requires immediate recognit
 ### 1. Extract the trapped arm by circling hips toward the choking-arm side, rotating the shoulder to create an extraction angle, and pulling the arm free while maintaining chin protection
 
 - **When to use**: During the early setup phase before the attacker has fully secured their grip connection and established finishing body position. Most effective when the grip is not yet locked tight.
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: Trapped arm comes free, converting the position to a standard guillotine with more escape options available. From there, execute standard guillotine defense or attempt full head extraction.
 - **Risk**: If you turn too aggressively toward the choking arm during extraction, you may expose your back. Extraction also temporarily reduces your structural base, leaving you vulnerable to the attacker advancing position.
 
 ### 2. Posture up explosively while driving your trapped-arm shoulder into the attacker's chest, using your free arm to post on the mat and your legs to generate upward driving force
 
 - **When to use**: When the attacker has not yet pulled guard and is attempting to finish from standing or sprawled position. Works best when you still have a solid base with your feet underneath you.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Breaking the grip connection neutralizes the immediate choke threat. The attacker may fall back to guard as their grip fails, leaving you in their closed guard where you can begin systematic guard opening.
 - **Risk**: If the attacker jumps to guard during your posture attempt, the momentum change can tighten the choke during the transition. Only attempt when you have solid base and the grip is not fully locked.
 
 ### 3. Apply Von Flue counter-choke by driving your free shoulder into the attacker's neck while stacking your weight forward and walking hips to the choking-arm side
 
 - **When to use**: When the attacker has pulled closed guard with the arm-in guillotine and you are in their guard with the choke applied but not yet producing unconsciousness. Requires being in their closed guard.
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: The Von Flue pressure forces the attacker to release the guillotine to defend their own neck, returning you to top position in their open guard where you can disengage and recover.
 - **Risk**: If the attacker has the choke locked deep before you can generate sufficient Von Flue pressure, you may lose consciousness before the counter takes effect. Requires accurate assessment of choke depth.
 
 ### 4. Stack and drive forward aggressively while walking to the choking-arm side to break the attacker's body alignment and create guard passing angles
 
 - **When to use**: When the attacker has pulled guard and is attempting to finish from bottom with hip extension. Most effective when you can get your weight above their hips and fold their body.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Stacking pressure breaks the attacker's hip extension needed for finishing mechanics, forces them to open guard to reposition, and creates passing opportunities as the choke loosens from the compressed angle.
 - **Risk**: If you stack without proper head position and chin protection, the attacker can readjust the choke angle while you carry their weight, potentially making the choke tighter during the stacking motion.
 
@@ -224,11 +224,11 @@ Defending the arm-in guillotine from bottom position requires immediate recognit
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Survive the initial finishing attempt through chin tuck and posture recovery, then either break the grip through explosive posture or apply stacking pressure that forces the attacker to release and revert to closed guard where the immediate choke threat is neutralized.
 
-### → [[Guillotine Control]]
+### → [[Positions/Guillotine Control]]
 
 Extract the trapped arm through circling and angle changes, converting the arm-in configuration to a standard guillotine that is more defensible, then continue working to extract the head or apply Von Flue counter-pressure to force the release entirely.
 

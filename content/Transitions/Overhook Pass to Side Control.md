@@ -21,7 +21,7 @@ The strategic value of this pass lies in its reliability as a direct conversion 
 
 This technique integrates naturally with the broader overhook control system as a positional fallback when attacks like Kimura entries, Darce chokes, or back takes are defended. Practitioners who develop this passing option alongside their submission chain create additional dilemmas for opponents, who must simultaneously defend submissions and prevent the pass. The technique is particularly effective against opponents who focus their defensive efforts on preventing head-and-arm submissions, leaving their lower body vulnerable to the passing mechanics.
 
-**From Position**: [[Overhook Control]] (Top)
+**From Position**: [[Positions/Overhook Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This technique integrates naturally with the broader overhook control system as 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Overhook Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Overhook Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,21 +191,21 @@ The Overhook Pass to Side Control serves as the positional advancement pathway w
 ## Related Techniques
 
 
-- [[Side Control]] - Target position achieved upon successful completion of the pass, providing stable dominant control
+- [[Positions/Side Control]] - Target position achieved upon successful completion of the pass, providing stable dominant control
 
-- [[Overhook Control]] - Starting position from which this pass is initiated, providing the whizzer grip foundation
+- [[Positions/Overhook Control]] - Starting position from which this pass is initiated, providing the whizzer grip foundation
 
-- [[Half Guard]] - Counter outcome position if opponent successfully reverses during the passing attempt
+- [[Positions/Half Guard]] - Counter outcome position if opponent successfully reverses during the passing attempt
 
-- [[Kimura Trap]] - Alternative submission attack from overhook control that creates passing opportunities when defended
+- [[Positions/Kimura Trap]] - Alternative submission attack from overhook control that creates passing opportunities when defended
 
-- [[Darce Control]] - Front headlock submission accessible from overhook when opponent drives forward instead of defending pass
+- [[Positions/Darce Control]] - Front headlock submission accessible from overhook when opponent drives forward instead of defending pass
 
-- [[Front Headlock]] - Related upper body control position often combined with overhook for complete head-and-arm dominance
+- [[Positions/Front Headlock]] - Related upper body control position often combined with overhook for complete head-and-arm dominance
 
-- [[Back Control]] - Alternative positional advancement from overhook control via arm drag or crab ride entries
+- [[Positions/Back Control]] - Alternative positional advancement from overhook control via arm drag or crab ride entries
 
-- [[Headquarters Position]] - Related passing platform that shares similar hip positioning and pressure distribution principles
+- [[Positions/Headquarters Position]] - Related passing platform that shares similar hip positioning and pressure distribution principles
 
 
 </section>

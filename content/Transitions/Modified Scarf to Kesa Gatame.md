@@ -21,7 +21,7 @@ Strategically, this transition is valuable when the bottom player has adapted to
 
 The transition carries moderate risk because the hip rotation creates a brief window where the bottom player can recover guard or insert a knee shield. The key to minimizing this vulnerability is maintaining constant head and arm control throughout the rotation, never releasing one anchor before securing the next. Practitioners who master this transition add a critical layer to their top game, creating a flowing system between modified scarf hold, kesa gatame, north-south, and mount that prevents opponents from establishing stable defensive frameworks.
 
-**From Position**: [[Modified Scarf Hold]] (Top)
+**From Position**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ The transition carries moderate risk because the hip rotation creates a brief wi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kesa Gatame]] | 60% |
-| Failure | [[Modified Scarf Hold]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control/Kesa Gatame]] | 60% |
+| Failure | [[Positions/Side Control/Modified Scarf Hold]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,29 +195,29 @@ This transition sits at the heart of the side control family's internal flow sys
 ## Related Techniques
 
 
-- [[Modified Scarf Hold]] - Starting position for this transition
+- [[Positions/Side Control/Modified Scarf Hold]] - Starting position for this transition
 
-- [[Kesa Gatame]] - Target position achieved on successful completion
+- [[Positions/Side Control/Kesa Gatame]] - Target position achieved on successful completion
 
-- [[Half Guard]] - Counter outcome if bottom player recovers during transition
+- [[Positions/Half Guard]] - Counter outcome if bottom player recovers during transition
 
-- [[Kesa Gatame to Modified Scarf Hold]] - Reverse transition completing the positional cycle
+- [[Transitions/Kesa Gatame to Modified Scarf Hold]] - Reverse transition completing the positional cycle
 
-- [[Side Control to North-South]] - Alternative transition from the same positional family
+- [[Transitions/Side Control to North-South]] - Alternative transition from the same positional family
 
-- [[Side Control to Mount]] - Advancement option from the same starting territory
+- [[Transitions/Side Control to Mount]] - Advancement option from the same starting territory
 
-- [[Americana]] - Submission available from both source and target positions
+- [[Transitions/Americana]] - Submission available from both source and target positions
 
-- [[Kimura]] - Submission that can bait the transition or follow from kesa gatame
+- [[Transitions/Kimura]] - Submission that can bait the transition or follow from kesa gatame
 
-- [[Escape Modified Scarf Hold]] - Defensive technique this transition can preempt
+- [[Transitions/Escape Modified Scarf Hold]] - Defensive technique this transition can preempt
 
-- [[Bridge Escape from Kesa Gatame]] - Primary escape the bottom player attempts after transition completes
+- [[Transitions/Bridge Escape from Kesa Gatame]] - Primary escape the bottom player attempts after transition completes
 
-- [[Back Take from Kesa Gatame]] - Counter threat the attacker must be aware of in the target position
+- [[Transitions/Back Take from Kesa Gatame]] - Counter threat the attacker must be aware of in the target position
 
-- [[North-South]] - Alternative destination if kesa gatame transition stalls
+- [[Positions/North-South]] - Alternative destination if kesa gatame transition stalls
 
 
 </section>

@@ -17,7 +17,7 @@ description: "Learn Closed Guard to Omoplata in BJJ. Step-by-step shoulder lock 
 
 The transition to omoplata is a fundamental shoulder lock entry that exploits the opponent's defensive posture and arm positioning from guard. This technique combines elements of sweeping mechanics with submission attacks, creating a powerful dual threat that forces opponents into defensive dilemmas. The omoplata transition is particularly effective when opponents defend against triangle or armbar attempts, as their arm positioning naturally sets up the shoulder lock entry. The beauty of this transition lies in its versatility - it can be executed from closed guard, spider guard, rubber guard, and various open guard configurations, making it an essential component of any guard player's arsenal. The technique relies on controlling the opponent's arm at the shoulder and using leg positioning to create rotational pressure on the shoulder joint while simultaneously off-balancing them for potential sweeps.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 52%
 
 </section>
@@ -28,9 +28,9 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Omoplata Control]] | 60% |
-| Failure | [[Closed Guard]] | 30% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Omoplata Control]] | 60% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -192,29 +192,29 @@ The omoplata transition is a cornerstone technique in modern guard systems, inte
 ## Related Techniques
 
 
-- [[Omoplata Control]] - Direct result - ending position of this transition
+- [[Positions/Omoplata Control]] - Direct result - ending position of this transition
 
-- [[Triangle Control]] - Alternative attack - defenses create reciprocal entries
+- [[Positions/Triangle Control]] - Alternative attack - defenses create reciprocal entries
 
-- [[Closed Guard]] - Primary starting position
+- [[Positions/Closed Guard]] - Primary starting position
 
-- [[Spider Guard]] - High-percentage starting position for this entry
+- [[Positions/Spider Guard]] - High-percentage starting position for this entry
 
-- [[Rubber Guard]] - Alternative starting position - Mission Control variation
+- [[Positions/Rubber Guard]] - Alternative starting position - Mission Control variation
 
-- [[Closed Guard to Triangle]] - Complementary attack - creates offensive dilemma
+- [[Transitions/Closed Guard to Triangle]] - Complementary attack - creates offensive dilemma
 
-- [[Omoplata Sweep]] - Follow-up when submission is defended
+- [[Transitions/Omoplata Sweep]] - Follow-up when submission is defended
 
-- [[Omoplata to Back]] - Follow-up when opponent rolls forward to escape
+- [[Transitions/Omoplata to Back]] - Follow-up when opponent rolls forward to escape
 
-- [[Armbar from Guard]] - Alternative submission - similar arm isolation mechanics
+- [[Submissions/Armbar from Guard]] - Alternative submission - similar arm isolation mechanics
 
-- [[Back Control]] - Common follow-up position when opponent escapes forward
+- [[Positions/Back Control]] - Common follow-up position when opponent escapes forward
 
-- [[Hip Bump Sweep]] - Alternative attack from same starting position
+- [[Transitions/Hip Bump Sweep]] - Alternative attack from same starting position
 
-- [[Kimura from Guard]] - Alternative shoulder attack from guard
+- [[Submissions/Kimura from Guard]] - Alternative shoulder attack from guard
 
 
 </section>

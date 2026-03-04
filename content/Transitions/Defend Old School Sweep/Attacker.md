@@ -188,7 +188,7 @@ As the top player defending the Old School Sweep, your primary objective is neut
 
 Success depends on understanding that the Old School Sweep generates power through a circular motion driven by the underhook pulling your upper body while the lockdown immobilizes your base. Your defensive structure must address both components simultaneously: the whizzer neutralizes the underhook's pulling power while the wide base and sprawl remove the lockdown's sweeping leverage. The crossface serves as the connecting element that prevents the bottom player from maintaining the head control needed to coordinate both attacks.
 
-**From Position**: [[Old School]] (Top)
+**From Position**: [[Positions/Half Guard/Old School]] (Top)
 
 </section>
 
@@ -242,9 +242,9 @@ Success depends on understanding that the Old School Sweep generates power throu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -253,10 +253,10 @@ Success depends on understanding that the Old School Sweep generates power throu
 
 ## Opponent Counters
 
-- **Bottom player switches to Electric Chair by diving under and attacking the trapped leg** (Effectiveness: Medium) - Your Response: Immediately drive your whizzer arm deeper and increase crossface pressure to prevent the bottom player from turning under you. Post your free leg even wider and drive hips forward to flatten their rotation angle. If they commit to the Electric Chair entry, circle your hips away from the attacking direction. → Leads to [[Mount]]
-- **Bottom player pumps lockdown aggressively to break your base and regenerate sweep momentum** (Effectiveness: Medium) - Your Response: Feel for the rhythm of lockdown pumping and time your sprawl to counter each extension. When you feel the bottom player beginning to extend, immediately sprawl hips slightly back while maintaining chest connection. Between pumps, work to loosen the lockdown through ankle manipulation and hip pressure. → Leads to [[Mount]]
-- **Bottom player releases underhook and dives underneath for deep half guard entry** (Effectiveness: High) - Your Response: The moment you feel the underhook withdraw, immediately lower your hips and drive weight forward to prevent them from getting underneath you. If they do get under, transition to deep half top defense by establishing a whizzer on their far arm and driving crossface. Do not chase them down as this feeds their sweep angle. → Leads to [[Back Control]]
-- **Bottom player comes up to dogfight position by driving off the underhook when your crossface slips** (Effectiveness: Medium) - Your Response: If they are already rising, do not fight to flatten them back down. Instead, use your whizzer to circle toward their back as they come up, converting their momentum into a back take opportunity. If caught early, re-establish crossface pressure and sprawl to prevent them from completing the rise to dogfight. → Leads to [[Back Control]]
+- **Bottom player switches to Electric Chair by diving under and attacking the trapped leg** (Effectiveness: Medium) - Your Response: Immediately drive your whizzer arm deeper and increase crossface pressure to prevent the bottom player from turning under you. Post your free leg even wider and drive hips forward to flatten their rotation angle. If they commit to the Electric Chair entry, circle your hips away from the attacking direction. → Leads to [[Positions/Mount]]
+- **Bottom player pumps lockdown aggressively to break your base and regenerate sweep momentum** (Effectiveness: Medium) - Your Response: Feel for the rhythm of lockdown pumping and time your sprawl to counter each extension. When you feel the bottom player beginning to extend, immediately sprawl hips slightly back while maintaining chest connection. Between pumps, work to loosen the lockdown through ankle manipulation and hip pressure. → Leads to [[Positions/Mount]]
+- **Bottom player releases underhook and dives underneath for deep half guard entry** (Effectiveness: High) - Your Response: The moment you feel the underhook withdraw, immediately lower your hips and drive weight forward to prevent them from getting underneath you. If they do get under, transition to deep half top defense by establishing a whizzer on their far arm and driving crossface. Do not chase them down as this feeds their sweep angle. → Leads to [[Positions/Back Control]]
+- **Bottom player comes up to dogfight position by driving off the underhook when your crossface slips** (Effectiveness: Medium) - Your Response: If they are already rising, do not fight to flatten them back down. Instead, use your whizzer to circle toward their back as they come up, converting their momentum into a back take opportunity. If caught early, re-establish crossface pressure and sprawl to prevent them from completing the rise to dogfight. → Leads to [[Positions/Back Control]]
 
 
 </section>

@@ -178,7 +178,7 @@ The strategic value of squid guard lies in its ability to shut down pressure pas
 
 From a systems perspective, squid guard serves as both an offensive platform and a defensive refuge. When worm guard configurations are being cleared, transitioning to squid guard maintains lapel control while changing the control point. The arm wrap also opens unique submission pathways including omoplata entries and triangle setups that exploit the opponent's compromised posture. Mastery of squid guard entry dramatically expands your lapel guard game by adding a complementary configuration that addresses worm guard's weaknesses.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ From a systems perspective, squid guard serves as both an offensive platform and
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Squid Guard]] | 58% |
-| Failure | [[Lapel Guard]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Squid Guard]] | 58% |
+| Failure | [[Positions/Lapel Guard]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -240,11 +240,11 @@ From a systems perspective, squid guard serves as both an offensive platform and
 
 ## Opponent Counters
 
-- **Opponent retracts arm before wrap completes and creates distance to reset** (Effectiveness: High) - Your Response: Maintain collar grip and immediately transition to spider or lasso guard using the same lapel fabric, preventing complete disengagement → Leads to [[Lapel Guard]]
-- **Opponent circles arm to strip lapel wrap before configuration sets** (Effectiveness: Medium) - Your Response: Follow their circular motion with your hips, maintaining tension on the lapel while transitioning to worm guard around their lead leg → Leads to [[Lapel Guard]]
-- **Opponent backsteps to change angle and avoid arm wrap completion** (Effectiveness: Medium) - Your Response: Sit up aggressively and pursue back take as their backstep opens the path behind them, using lapel grip to maintain connection → Leads to [[Lapel Guard]]
-- **Opponent posts opposite arm and attempts to pressure through despite wrap** (Effectiveness: Low) - Your Response: Use their committed posture to load omoplata entry on the wrapped arm, as their pressure prevents escape once rotation begins → Leads to [[Squid Guard]]
-- **Opponent drives knee through your legs attempting knee cut pass while you feed lapel** (Effectiveness: Medium) - Your Response: Abandon the arm wrap and use inside leg to block the knee cut, establishing knee shield half guard as a fallback defensive position → Leads to [[Half Guard]]
+- **Opponent retracts arm before wrap completes and creates distance to reset** (Effectiveness: High) - Your Response: Maintain collar grip and immediately transition to spider or lasso guard using the same lapel fabric, preventing complete disengagement → Leads to [[Positions/Lapel Guard]]
+- **Opponent circles arm to strip lapel wrap before configuration sets** (Effectiveness: Medium) - Your Response: Follow their circular motion with your hips, maintaining tension on the lapel while transitioning to worm guard around their lead leg → Leads to [[Positions/Lapel Guard]]
+- **Opponent backsteps to change angle and avoid arm wrap completion** (Effectiveness: Medium) - Your Response: Sit up aggressively and pursue back take as their backstep opens the path behind them, using lapel grip to maintain connection → Leads to [[Positions/Lapel Guard]]
+- **Opponent posts opposite arm and attempts to pressure through despite wrap** (Effectiveness: Low) - Your Response: Use their committed posture to load omoplata entry on the wrapped arm, as their pressure prevents escape once rotation begins → Leads to [[Positions/Squid Guard]]
+- **Opponent drives knee through your legs attempting knee cut pass while you feed lapel** (Effectiveness: Medium) - Your Response: Abandon the arm wrap and use inside leg to block the knee cut, establishing knee shield half guard as a fallback defensive position → Leads to [[Positions/Half Guard]]
 
 
 </section>

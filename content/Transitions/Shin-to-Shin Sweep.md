@@ -21,7 +21,7 @@ Strategically, the Shin-to-Shin Sweep serves as the first layer of attack from s
 
 The sweep's mechanical foundation relies on three simultaneous forces: the shin drives upward and forward through the opponent's base, the pulling grips break their posture and commitment to the sweep direction, and hip extension generates the power needed to complete the elevation. Timing is critical — the optimal window occurs when the opponent commits weight forward to pressure or clear the shin connection, momentarily loading the very lever you intend to use against them.
 
-**From Position**: [[Shin-to-Shin Guard]] (Bottom)
+**From Position**: [[Positions/Shin-to-Shin Guard]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ The sweep's mechanical foundation relies on three simultaneous forces: the shin 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 50% |
-| Failure | [[Shin-to-Shin Guard]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Mount]] | 50% |
+| Failure | [[Positions/Shin-to-Shin Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Shin-to-Shin Sweep occupies a critical first-line attack role within the shi
 ## Related Techniques
 
 
-- [[Shin-to-Shin Guard]] - Source position from which this sweep is executed using the perpendicular shin connection
+- [[Positions/Shin-to-Shin Guard]] - Source position from which this sweep is executed using the perpendicular shin connection
 
-- [[Mount]] - Primary target position achieved on successful sweep completion
+- [[Positions/Mount]] - Primary target position achieved on successful sweep completion
 
-- [[Single Leg X-Guard]] - Alternative transition when opponent defends the direct sweep by widening base
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative transition when opponent defends the direct sweep by widening base
 
-- [[X-Guard]] - Secondary transition target when opponent posts weight forward defending sweep
+- [[Positions/X-Guard]] - Secondary transition target when opponent posts weight forward defending sweep
 
-- [[Butterfly Sweep]] - Related sweep sharing similar elevation and off-balancing mechanics
+- [[Transitions/Butterfly Sweep]] - Related sweep sharing similar elevation and off-balancing mechanics
 
-- [[Open Guard]] - Fallback position if sweep is countered and shin connection is cleared
+- [[Positions/Open Guard]] - Fallback position if sweep is countered and shin connection is cleared
 
-- [[Shin to Shin Pull]] - Prerequisite guard pull establishing the shin-to-shin connection for sweep attempts
+- [[Transitions/Shin to Shin Pull]] - Prerequisite guard pull establishing the shin-to-shin connection for sweep attempts
 
-- [[Single Leg X Entry]] - Chain attack when sweep attempt creates underhook opportunity
+- [[Transitions/Single Leg X Entry]] - Chain attack when sweep attempt creates underhook opportunity
 
-- [[De La Riva Guard]] - Complementary open guard sharing distance management and sweeping concepts
+- [[Positions/De La Riva Guard]] - Complementary open guard sharing distance management and sweeping concepts
 
-- [[Outside Ashi-Garami]] - Leg entanglement entry available when opponent steps over during sweep defense
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Leg entanglement entry available when opponent steps over during sweep defense
 
-- [[Pass Shin-to-Shin Guard]] - Opponent's primary counter-strategy that this sweep punishes
+- [[Transitions/Pass Shin-to-Shin Guard]] - Opponent's primary counter-strategy that this sweep punishes
 
 
 </section>

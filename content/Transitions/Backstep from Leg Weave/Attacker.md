@@ -180,7 +180,7 @@ description: "Master executing the backstep from leg weave. Step-by-step passing
 
 Executing the Backstep from Leg Weave requires precise coordination between upper body control maintenance and hip rotation mechanics. The attacker must shift from forward-driving pressure to a rotational passing angle while keeping the weaved leg connected as a pivot point. The critical challenge is maintaining enough upper body connection to prevent the bottom player from following the rotation or diving to deep half guard, while generating sufficient rotational momentum to clear the remaining guard hooks. Success depends on reading the bottom player's defensive orientation and choosing the backstep when their frames are committed against forward pressure, creating a timing window where the angular change bypasses their defensive structure entirely.
 
-**From Position**: [[Leg Weave]] (Top)
+**From Position**: [[Positions/Leg Weave]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ Executing the Backstep from Leg Weave requires precise coordination between uppe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Leg Weave]] | 30% |
-| Counter | [[Deep Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Leg Weave]] | 30% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ Executing the Backstep from Leg Weave requires precise coordination between uppe
 
 ## Opponent Counters
 
-- **Bottom player hooks the stepping leg during rotation, preventing the arc from clearing** (Effectiveness: High) - Your Response: If the hook catches early, abort the backstep and return to forward leg weave pressure. If it catches late, use a secondary hip pop to strip the hook while maintaining upper body control. Do not fight the hook with just your leg - use your whole body rotation to generate the clearing force. → Leads to [[Leg Weave]]
-- **Bottom player dives under to deep half guard during the weight transfer phase** (Effectiveness: High) - Your Response: The deep half entry exploits the moment your weight lifts off their hips. Counter by keeping chest pressure heavy throughout the rotation and using your crossface grip to prevent them from turning under you. If they achieve deep half, immediately sprawl hips back and begin deep half passing sequences rather than continuing the backstep. → Leads to [[Deep Half Guard]]
-- **Bottom player frames against your hip and shrimps away during the rotation, creating enough space to re-guard** (Effectiveness: Medium) - Your Response: This counter exploits the brief window when your hips are elevated during rotation. Minimize this window by keeping your rotation low and fast. If they create space, immediately switch to a direct leg drag or knee slice rather than completing the backstep, using their shrimp direction against them. → Leads to [[Leg Weave]]
-- **Bottom player turns into you aggressively during the backstep, attempting to come to knees or turtle** (Effectiveness: Medium) - Your Response: Their turn actually assists your pass if you maintain connection. Follow their rotation with your chest, converting the backstep into a direct back take opportunity. Keep your arms controlling their upper body and transition from the pass to back control rather than fighting to complete side control. → Leads to [[Side Control]]
+- **Bottom player hooks the stepping leg during rotation, preventing the arc from clearing** (Effectiveness: High) - Your Response: If the hook catches early, abort the backstep and return to forward leg weave pressure. If it catches late, use a secondary hip pop to strip the hook while maintaining upper body control. Do not fight the hook with just your leg - use your whole body rotation to generate the clearing force. → Leads to [[Positions/Leg Weave]]
+- **Bottom player dives under to deep half guard during the weight transfer phase** (Effectiveness: High) - Your Response: The deep half entry exploits the moment your weight lifts off their hips. Counter by keeping chest pressure heavy throughout the rotation and using your crossface grip to prevent them from turning under you. If they achieve deep half, immediately sprawl hips back and begin deep half passing sequences rather than continuing the backstep. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Bottom player frames against your hip and shrimps away during the rotation, creating enough space to re-guard** (Effectiveness: Medium) - Your Response: This counter exploits the brief window when your hips are elevated during rotation. Minimize this window by keeping your rotation low and fast. If they create space, immediately switch to a direct leg drag or knee slice rather than completing the backstep, using their shrimp direction against them. → Leads to [[Positions/Leg Weave]]
+- **Bottom player turns into you aggressively during the backstep, attempting to come to knees or turtle** (Effectiveness: Medium) - Your Response: Their turn actually assists your pass if you maintain connection. Follow their rotation with your chest, converting the backstep into a direct back take opportunity. Keep your arms controlling their upper body and transition from the pass to back control rather than fighting to complete side control. → Leads to [[Positions/Side Control]]
 
 
 </section>

@@ -178,7 +178,7 @@ This technique represents the convergence of positional dominance and limb isola
 
 From a strategic perspective, the Armbar on Free Arm creates a powerful dilemma for the defender. If they protect their neck with the free arm, they make it available for armbar attack. If they use the arm to frame or create escape angles, they expose their neck to choke threats. This forcing function makes the Gift Wrap to Armbar combination one of the most reliable submission chains from back control positions.
 
-**From Position**: [[Gift Wrap]] (Top)
+**From Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ From a strategic perspective, the Armbar on Free Arm creates a powerful dilemma 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 58% |
-| Failure | [[Gift Wrap]] | 30% |
-| Counter | [[Back Control]] | 12% |
+| Success | [[Positions/Armbar Control]] | 58% |
+| Failure | [[Positions/Gift Wrap]] | 30% |
+| Counter | [[Positions/Back Control]] | 12% |
 
 
 </section>
@@ -242,10 +242,10 @@ From a strategic perspective, the Armbar on Free Arm creates a powerful dilemma 
 
 ## Opponent Counters
 
-- **Hitchhiker escape - opponent rotates toward trapped arm and spins out** (Effectiveness: High) - Your Response: Maintain strong knee pinch and follow their rotation by transitioning to belly-down armbar or back retake position → Leads to [[Gift Wrap]]
-- **Arm extraction and stacking - opponent pulls arm free while driving forward** (Effectiveness: Medium) - Your Response: If arm escapes, immediately return to Gift Wrap choking threats or transition to crucifix position → Leads to [[Gift Wrap]]
-- **Grip break and guard recovery - opponent strips wrist control and works hips away** (Effectiveness: Medium) - Your Response: Maintain Gift Wrap control on opposite arm and follow to technical mount or reset back control → Leads to [[Gift Wrap]]
-- **Full back escape during transition - opponent exploits the rotation to clear hooks and face attacker** (Effectiveness: High) - Your Response: Prioritize maintaining at least one hook during hip pivot and abort armbar to reset back control if hooks are compromised → Leads to [[Back Control]]
+- **Hitchhiker escape - opponent rotates toward trapped arm and spins out** (Effectiveness: High) - Your Response: Maintain strong knee pinch and follow their rotation by transitioning to belly-down armbar or back retake position → Leads to [[Positions/Gift Wrap]]
+- **Arm extraction and stacking - opponent pulls arm free while driving forward** (Effectiveness: Medium) - Your Response: If arm escapes, immediately return to Gift Wrap choking threats or transition to crucifix position → Leads to [[Positions/Gift Wrap]]
+- **Grip break and guard recovery - opponent strips wrist control and works hips away** (Effectiveness: Medium) - Your Response: Maintain Gift Wrap control on opposite arm and follow to technical mount or reset back control → Leads to [[Positions/Gift Wrap]]
+- **Full back escape during transition - opponent exploits the rotation to clear hooks and face attacker** (Effectiveness: High) - Your Response: Prioritize maintaining at least one hook during hip pivot and abort armbar to reset back control if hooks are compromised → Leads to [[Positions/Back Control]]
 
 
 </section>

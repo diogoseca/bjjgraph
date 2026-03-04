@@ -22,8 +22,8 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint, rotator cuff, and associated ligaments
-**Starting Position**: [[Turtle]]
-**From Position**: [[Turtle]] (Top)
+**Starting Position**: [[Positions/Turtle]]
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 62%
 
 </section>
@@ -81,8 +81,8 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -237,14 +237,14 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 ## From Which Positions?
 
-- [[Turtle]]
-- [[Front Headlock]]
-- [[Side Control]]
-- [[North-South]]
-- [[Crucifix]]
-- [[Scramble Position]]
-- [[Half Guard]]
-- [[Headquarters Position]]
+- [[Positions/Turtle]]
+- [[Positions/Front Headlock]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
+- [[Positions/Crucifix]]
+- [[Positions/Scramble Position]]
+- [[Positions/Half Guard]]
+- [[Positions/Headquarters Position]]
 
 
 </section>
@@ -253,15 +253,15 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 ## Related Submissions
 
-- [[Kimura]]
-- [[Kimura from Side Control]]
-- [[Kimura from Guard]]
-- [[Americana]]
-- [[Guillotine Choke]]
-- [[Darce Choke]]
-- [[Anaconda Choke]]
-- [[Rear Naked Choke]]
-- [[Armbar from Back]]
+- [[Transitions/Kimura]]
+- [[Submissions/Kimura from Side Control]]
+- [[Submissions/Kimura from Guard]]
+- [[Transitions/Americana]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Anaconda Choke]]
+- [[Transitions/Rear Naked Choke]]
+- [[Submissions/Armbar from Back]]
 
 
 </section>
@@ -270,17 +270,17 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 ## Additional Related Content
 
-- [[Turtle]] - Primary starting position for this submission
-- [[Crucifix]] - Alternative control position with similar arm isolation mechanics
-- [[Front Headlock]] - Related control position offering Kimura opportunities
-- [[Kimura Trap]] - Systematic approach to using Kimura grip for control and submissions from multiple positions including turtle
-- [[North-South]] - Related top control position with Kimura attack options
-- [[Gift Wrap]] - Alternative arm control from turtle that can transition to Kimura or back attacks
-- [[Crab Ride]] - Related top turtle control position with similar arm isolation opportunities
-- [[Harness]] - Back control position often accessed using Kimura grip from turtle as entry
-- [[Back Control]] - Natural transition target when opponent defends Kimura strongly
-- [[Side Control]] - Position achieved after successful rolling Kimura variation
-- [[Mount]] - Alternative positional destination using Kimura grip to transition
+- [[Positions/Turtle]] - Primary starting position for this submission
+- [[Positions/Crucifix]] - Alternative control position with similar arm isolation mechanics
+- [[Positions/Front Headlock]] - Related control position offering Kimura opportunities
+- [[Positions/Kimura Trap]] - Systematic approach to using Kimura grip for control and submissions from multiple positions including turtle
+- [[Positions/North-South]] - Related top control position with Kimura attack options
+- [[Positions/Gift Wrap]] - Alternative arm control from turtle that can transition to Kimura or back attacks
+- [[Positions/Crab Ride]] - Related top turtle control position with similar arm isolation opportunities
+- [[Positions/Harness]] - Back control position often accessed using Kimura grip from turtle as entry
+- [[Positions/Back Control]] - Natural transition target when opponent defends Kimura strongly
+- [[Positions/Side Control]] - Position achieved after successful rolling Kimura variation
+- [[Positions/Mount]] - Alternative positional destination using Kimura grip to transition
 
 
 </section>

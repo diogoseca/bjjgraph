@@ -21,7 +21,7 @@ From a strategic standpoint, the crucifix from turtle punishes opponents who rel
 
 The transition demands precise sequencing: arm control must precede the leg thread, chest pressure must remain constant throughout, and the final perpendicular angle must be established before any submission attempts. Rushing any phase collapses the attack chain and allows recovery. When executed correctly, the resulting crucifix position offers rear naked chokes, armbars, and wrist locks while being extraordinarily difficult to escape.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ The transition demands precise sequencing: arm control must precede the leg thre
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Crucifix]] | 55% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Turtle]] | 10% |
-| Failure | [[Back Control]] | 10% |
+| Success | [[Positions/Crucifix]] | 55% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
+| Failure | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -196,29 +196,29 @@ The crucifix from turtle sits at the intersection of back attack systems and tur
 ## Related Techniques
 
 
-- [[Turtle]] - Starting position for this technique
+- [[Positions/Turtle]] - Starting position for this technique
 
-- [[Crucifix]] - Target position and control objective
+- [[Positions/Crucifix]] - Target position and control objective
 
-- [[Back Control to Crucifix]] - Alternative crucifix entry from back control
+- [[Transitions/Back Control to Crucifix]] - Alternative crucifix entry from back control
 
-- [[Turtle to Back Take]] - Complementary technique creating dilemma from turtle top
+- [[Transitions/Turtle to Back Take]] - Complementary technique creating dilemma from turtle top
 
-- [[Armbar from Crucifix]] - Primary submission follow-up from crucifix
+- [[Transitions/Armbar from Crucifix]] - Primary submission follow-up from crucifix
 
-- [[Choke from Crucifix]] - High-percentage submission from crucifix
+- [[Transitions/Choke from Crucifix]] - High-percentage submission from crucifix
 
-- [[Crab Ride to Back]] - Related turtle top back attack
+- [[Transitions/Crab Ride to Back]] - Related turtle top back attack
 
-- [[Rolling Back Take]] - Alternative dynamic back attack from turtle
+- [[Transitions/Rolling Back Take]] - Alternative dynamic back attack from turtle
 
-- [[Seat Belt Control Back]] - Related back control position used in setup
+- [[Positions/Back Control/Seat Belt Control Back]] - Related back control position used in setup
 
-- [[Gift Wrap]] - Similar arm control concept from different position
+- [[Positions/Gift Wrap]] - Similar arm control concept from different position
 
-- [[Crucifix Transition]] - Related crucifix entry pathway
+- [[Transitions/Crucifix Transition]] - Related crucifix entry pathway
 
-- [[Mounted Crucifix]] - Related crucifix variation with mount pressure
+- [[Positions/Mount/Mounted Crucifix]] - Related crucifix variation with mount pressure
 
 
 </section>

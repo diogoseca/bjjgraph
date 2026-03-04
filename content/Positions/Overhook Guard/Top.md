@@ -209,21 +209,21 @@ This position is particularly effective in both gi and no-gi grappling, though t
 
 ## Available Attacks
 
-### [[Smash Pass]] (24% of attempts)
+### [[Transitions/Smash Pass]] (24% of attempts)
 
-### [[Knee Slice Pass]] (15% of attempts)
+### [[Transitions/Knee Slice Pass]] (15% of attempts)
 
-### [[Over-Under Pass]] (14% of attempts)
+### [[Transitions/Over-Under Pass]] (14% of attempts)
 
-### [[Kimura from Guard]] (14% of attempts)
+### [[Submissions/Kimura from Guard]] (14% of attempts)
 
-### [[Arm Drag to Back]] (12% of attempts)
+### [[Transitions/Arm Drag to Back]] (12% of attempts)
 
-### [[Side Control to Mount]] (12% of attempts)
+### [[Transitions/Side Control to Mount]] (12% of attempts)
 
-### [[Break Overhook Guard]] (6% of attempts)
+### [[Transitions/Break Overhook Guard]] (6% of attempts)
 
-### [[Pass Overhook Guard]] (3% of attempts)
+### [[Transitions/Pass Overhook Guard]] (3% of attempts)
 
 
 
@@ -234,23 +234,23 @@ This position is particularly effective in both gi and no-gi grappling, though t
 ## Decision Making from This Position
 
 **If opponent maintains flat posture and defends with free arm frames:**
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent turns to side attempting to strip overhook:**
-- Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Kimura from Guard]]** → [[Kimura Trap]] (Probability: 50%)
+- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Submissions/Kimura from Guard]]** → [[Positions/Kimura Trap]] (Probability: 50%)
 
 
 **If opponent attempts to create distance or recover full guard:**
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 58%)
-- Execute **[[Over-Under Pass]]** → [[Side Control]] (Probability: 52%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 58%)
+- Execute **[[Transitions/Over-Under Pass]]** → [[Positions/Side Control]] (Probability: 52%)
 
 
 **If opponent locks half guard with legs:**
-- Execute **[[Over-Under Pass]]** → [[Side Control]] (Probability: 48%)
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Over-Under Pass]]** → [[Positions/Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 
@@ -389,14 +389,14 @@ Positional sparring starting from overhook guard top. Top player wins by passing
 
 ## Related Positions and Techniques
 
-- **[[Overhook Guard]]** - Hub position - parent position for this top perspective
-- **[[Overhook Control]]** - Related control position with overhook mechanics
-- **[[Side Control]]** - Primary passing target position from overhook control
-- **[[Kimura Trap]]** - Submission control accessible from overhook when opponent defends
-- **[[Back Control]]** - Alternative advancement when opponent turns away from overhook
-- **[[Headquarters Position]]** - Related top control position during passing sequences
-- **[[Half Guard]]** - Common guard recovery position opponent may achieve
-- **[[Closed Guard]]** - Guard position opponent attempts to maintain or recover
+- **[[Positions/Overhook Guard]]** - Hub position - parent position for this top perspective
+- **[[Positions/Overhook Control]]** - Related control position with overhook mechanics
+- **[[Positions/Side Control]]** - Primary passing target position from overhook control
+- **[[Positions/Kimura Trap]]** - Submission control accessible from overhook when opponent defends
+- **[[Positions/Back Control]]** - Alternative advancement when opponent turns away from overhook
+- **[[Positions/Headquarters Position]]** - Related top control position during passing sequences
+- **[[Positions/Half Guard]]** - Common guard recovery position opponent may achieve
+- **[[Positions/Closed Guard]]** - Guard position opponent attempts to maintain or recover
 
 
 </section>

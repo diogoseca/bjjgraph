@@ -21,7 +21,7 @@ The strategic value of this approach lies in its reliability against guard playe
 
 Effective execution demands precise understanding of weight distribution mechanics. Excessive forward commitment invites counter-entries into Single Leg X-Guard or butterfly sweeps, while insufficient pressure allows the guard player to maintain connection and continue threatening offensive transitions. The critical balance lies in progressive loading combined with dominant upper body control that prevents the guard player from converting your forward drive into sweep momentum. When executed correctly, this systematic pressure approach creates a reliable pathway from shin-to-shin to half guard top, integrating naturally into broader passing sequences like knee slice, smash pass, and crossface progressions.
 
-**From Position**: [[Shin-to-Shin Guard]] (Top)
+**From Position**: [[Positions/Shin-to-Shin Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,11 +32,11 @@ Effective execution demands precise understanding of weight distribution mechani
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Success | [[Headquarters Position]] | 10% |
-| Failure | [[Shin-to-Shin Guard]] | 25% |
-| Counter | [[Single Leg X-Guard]] | 12% |
-| Counter | [[Butterfly Guard]] | 8% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Success | [[Positions/Headquarters Position]] | 10% |
+| Failure | [[Positions/Shin-to-Shin Guard]] | 25% |
+| Counter | [[Positions/X-Guard/Single Leg X-Guard]] | 12% |
+| Counter | [[Positions/Butterfly Guard]] | 8% |
 
 
 </section>
@@ -193,21 +193,21 @@ The pressure pass from Shin-to-Shin integrates into the broader guard passing ec
 ## Related Techniques
 
 
-- [[Shin-to-Shin Guard]] - Source position where this transition originates; understanding the guard's mechanics is essential for applying effective pressure
+- [[Positions/Shin-to-Shin Guard]] - Source position where this transition originates; understanding the guard's mechanics is essential for applying effective pressure
 
-- [[Half Guard]] - Primary target position achieved through successful pressure application and shin clearing
+- [[Positions/Half Guard]] - Primary target position achieved through successful pressure application and shin clearing
 
-- [[Headquarters Position]] - Secondary success outcome when pressure clears the shin connection without fully advancing to half guard
+- [[Positions/Headquarters Position]] - Secondary success outcome when pressure clears the shin connection without fully advancing to half guard
 
-- [[Single Leg X-Guard]] - Primary counter-threat that the guard player can establish if forward pressure is applied without proper base control
+- [[Positions/X-Guard/Single Leg X-Guard]] - Primary counter-threat that the guard player can establish if forward pressure is applied without proper base control
 
-- [[Butterfly Guard]] - Counter position the guard player may transition to by inserting butterfly hooks under committed forward pressure
+- [[Positions/Butterfly Guard]] - Counter position the guard player may transition to by inserting butterfly hooks under committed forward pressure
 
-- [[Combat Base]] - Fundamental posture platform from which the combat base pressure variant is executed
+- [[Positions/Combat Base]] - Fundamental posture platform from which the combat base pressure variant is executed
 
-- [[Pass Shin-to-Shin Guard]] - Related movement-based passing approach that complements pressure passing as alternative clearing strategy
+- [[Transitions/Pass Shin-to-Shin Guard]] - Related movement-based passing approach that complements pressure passing as alternative clearing strategy
 
-- [[Open Guard]] - Broader guard category sharing fundamental passing principles applicable to shin-to-shin pressure approaches
+- [[Positions/Open Guard]] - Broader guard category sharing fundamental passing principles applicable to shin-to-shin pressure approaches
 
 
 </section>

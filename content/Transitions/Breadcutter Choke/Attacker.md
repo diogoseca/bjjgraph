@@ -184,7 +184,7 @@ From a strategic perspective, the Breadcutter Choke capitalizes on the unique co
 
 The mechanical efficiency of this choke makes it particularly effective against larger opponents. Rather than relying on arm strength to compress the neck, the Breadcutter uses body positioning and the gi material to create a mechanical stranglehold. Your forearm acts as a blade, your grip on the lapel provides the anchor point, and your body weight drives the cutting pressure. This makes the technique sustainable even against significant size differentials, as structural alignment rather than muscular strength creates the finishing pressure.
 
-**From Position**: [[Kuzure Kesa-Gatame]] (Top)
+**From Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
 
 </section>
 
@@ -238,8 +238,8 @@ The mechanical efficiency of this choke makes it particularly effective against 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Kuzure Kesa-Gatame]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Side Control/Kuzure Kesa-Gatame]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -248,10 +248,10 @@ The mechanical efficiency of this choke makes it particularly effective against 
 
 ## Opponent Counters
 
-- **Turning into the attacker to relieve neck pressure and begin guard recovery** (Effectiveness: High) - Your Response: Maintain head position past their far shoulder and increase hip pressure. If they turn significantly, transition to mount rather than forcing the choke. → Leads to [[Half Guard]]
-- **Using the free hand to grip the choking wrist and prevent forearm from setting** (Effectiveness: Medium) - Your Response: Peel their grip by pulling your elbow toward their head. If grip fight stalls, transition to armbar on the defending arm or switch to paper cutter variation. → Leads to [[Kuzure Kesa-Gatame]]
-- **Bridging explosively to create space and disrupt grip depth** (Effectiveness: Medium) - Your Response: Widen base leg and drop weight lower. Use the bridge momentum to pull lapel deeper across their neck when they land. → Leads to [[Kuzure Kesa-Gatame]]
-- **Tucking chin to block lapel feed across the neck** (Effectiveness: Low) - Your Response: Use your forearm to pry the chin up by pressing against their jaw. Alternatively, switch to a chin-strap style entry where the lapel goes over the chin initially. → Leads to [[Kuzure Kesa-Gatame]]
+- **Turning into the attacker to relieve neck pressure and begin guard recovery** (Effectiveness: High) - Your Response: Maintain head position past their far shoulder and increase hip pressure. If they turn significantly, transition to mount rather than forcing the choke. → Leads to [[Positions/Half Guard]]
+- **Using the free hand to grip the choking wrist and prevent forearm from setting** (Effectiveness: Medium) - Your Response: Peel their grip by pulling your elbow toward their head. If grip fight stalls, transition to armbar on the defending arm or switch to paper cutter variation. → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- **Bridging explosively to create space and disrupt grip depth** (Effectiveness: Medium) - Your Response: Widen base leg and drop weight lower. Use the bridge momentum to pull lapel deeper across their neck when they land. → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- **Tucking chin to block lapel feed across the neck** (Effectiveness: Low) - Your Response: Use your forearm to pry the chin up by pressing against their jaw. Alternatively, switch to a chin-strap style entry where the lapel goes over the chin initially. → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
 
 
 </section>

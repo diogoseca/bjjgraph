@@ -184,7 +184,7 @@ Strategically, this transition capitalizes on moments when the opponent focuses 
 
 The biomechanics of this transition exploit a fundamental weakness in the opponent's defensive structure. When trapped in New York, opponents typically focus their defensive attention on the overhook and the shin across their back. The hand controlling the shin appears to be a critical anchor, so when it releases and immediately attacks the neck, opponents often react too slowly to prevent the collar grip establishment. This misdirection is central to the technique's high success rate at advanced levels.
 
-**From Position**: [[New York]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
 </section>
 
@@ -238,9 +238,9 @@ The biomechanics of this transition exploit a fundamental weakness in the oppone
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Invisible Collar]] | 65% |
-| Failure | [[New York]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Rubber Guard/Invisible Collar]] | 65% |
+| Failure | [[Positions/Rubber Guard/New York]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -249,10 +249,10 @@ The biomechanics of this transition exploit a fundamental weakness in the oppone
 
 ## Opponent Counters
 
-- **Hand fighting to prevent collar grip establishment by blocking the swimming hand** (Effectiveness: High) - Your Response: If they block early, abort to triangle setup as their hand is now inside your guard. If they block late, use your forearm to lever their blocking hand away while completing the grip. → Leads to [[New York]]
-- **Explosive posture recovery attempt as shin grip releases** (Effectiveness: Medium) - Your Response: Tighten overhook immediately and use their upward momentum to elevate your hips and threaten armbar. Their posture attempt opens the arm if you maintain overhook control. → Leads to [[Closed Guard]]
-- **Driving forward aggressively to flatten you before collar establishes** (Effectiveness: Medium) - Your Response: Accept the forward pressure and thread your leg for Chill Dog or gogoplata setup. Their drive actually assists these transitions by bringing their head closer. → Leads to [[New York]]
-- **Stripping the overhook by pulling elbow back toward hip during transition** (Effectiveness: Low) - Your Response: The extraction attempt during your hand swim creates perfect triangle timing. Shoot your leg over their extracting arm's shoulder for immediate triangle control. → Leads to [[Closed Guard]]
+- **Hand fighting to prevent collar grip establishment by blocking the swimming hand** (Effectiveness: High) - Your Response: If they block early, abort to triangle setup as their hand is now inside your guard. If they block late, use your forearm to lever their blocking hand away while completing the grip. → Leads to [[Positions/Rubber Guard/New York]]
+- **Explosive posture recovery attempt as shin grip releases** (Effectiveness: Medium) - Your Response: Tighten overhook immediately and use their upward momentum to elevate your hips and threaten armbar. Their posture attempt opens the arm if you maintain overhook control. → Leads to [[Positions/Closed Guard]]
+- **Driving forward aggressively to flatten you before collar establishes** (Effectiveness: Medium) - Your Response: Accept the forward pressure and thread your leg for Chill Dog or gogoplata setup. Their drive actually assists these transitions by bringing their head closer. → Leads to [[Positions/Rubber Guard/New York]]
+- **Stripping the overhook by pulling elbow back toward hip during transition** (Effectiveness: Low) - Your Response: The extraction attempt during your hand swim creates perfect triangle timing. Shoot your leg over their extracting arm's shoulder for immediate triangle control. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

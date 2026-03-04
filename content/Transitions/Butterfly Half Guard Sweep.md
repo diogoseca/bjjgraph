@@ -21,7 +21,7 @@ Strategically, this sweep functions as both a primary attack and a setup tool wi
 
 The technical execution demands precise coordination between the butterfly hook drive, underhook pull, and hip angle adjustment. The sweep succeeds through timing and leverage rather than strength, making it accessible to practitioners of all sizes when executed with proper mechanics. The half guard trap serves as the critical differentiator from a standard butterfly sweep, providing additional control that prevents the common counter of simply stepping the free leg back to recover base.
 
-**From Position**: [[Butterfly Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Butterfly Half Guard]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ The technical execution demands precise coordination between the butterfly hook 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Butterfly Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Half Guard/Butterfly Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Butterfly Half Guard Sweep occupies a central role within the butterfly half
 ## Related Techniques
 
 
-- [[Butterfly Half Guard]] - Starting position from which this sweep is executed
+- [[Positions/Half Guard/Butterfly Half Guard]] - Starting position from which this sweep is executed
 
-- [[Side Control]] - Target position achieved on successful sweep completion
+- [[Positions/Side Control]] - Target position achieved on successful sweep completion
 
-- [[Half Guard]] - Degraded position if butterfly hook is lost during failed sweep attempt
+- [[Positions/Half Guard]] - Degraded position if butterfly hook is lost during failed sweep attempt
 
-- [[Butterfly Guard]] - Parent guard system sharing core butterfly hook elevation mechanics
+- [[Positions/Butterfly Guard]] - Parent guard system sharing core butterfly hook elevation mechanics
 
-- [[100% Sweep]] - Complementary sweep from the same position creating dual-threat attack chain
+- [[Transitions/100% Sweep]] - Complementary sweep from the same position creating dual-threat attack chain
 
-- [[Basic Butterfly Sweep]] - Related sweep technique sharing core elevation and underhook mechanics
+- [[Transitions/Basic Butterfly Sweep]] - Related sweep technique sharing core elevation and underhook mechanics
 
-- [[Deep Half Guard]] - Transition option when sweep is stuffed and opponent applies heavy forward pressure
+- [[Positions/Half Guard/Deep Half Guard]] - Transition option when sweep is stuffed and opponent applies heavy forward pressure
 
-- [[Dogfight Position]] - Transitional position that can occur during incomplete sweep execution
+- [[Positions/Dogfight Position]] - Transitional position that can occur during incomplete sweep execution
 
-- [[Mount]] - Alternative top position achievable if sweep carries momentum past side control
+- [[Positions/Mount]] - Alternative top position achievable if sweep carries momentum past side control
 
-- [[Lockdown]] - Defensive fallback position if being flattened during sweep setup phase
+- [[Positions/Half Guard/Lockdown]] - Defensive fallback position if being flattened during sweep setup phase
 
 
 </section>

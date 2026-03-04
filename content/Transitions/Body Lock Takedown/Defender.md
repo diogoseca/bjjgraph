@@ -148,7 +148,7 @@ description: "Comprehensive defensive guide against the Body Lock Takedown. Reco
 
 Defending the Body Lock Takedown requires recognizing the attacker's setup cues early and responding with immediate base adjustments before the driving force is fully committed. The defender must understand that once the attacker has established a locked body lock grip and begins driving forward with hip pressure, the window for prevention narrows rapidly. Effective defense begins with preventing the grip lock entirely through hand fighting, progresses to sprawl-based takedown defense when the grip is established, and includes controlled guard pull as a last resort when the takedown is imminent. The defender's primary objectives are maintaining upright posture, widening their base to resist the drive, and either breaking the attacker's grip connection or neutralizing their forward force through base adjustments and weight distribution. Advanced defenders develop the ability to counter-attack during the takedown attempt, using the attacker's forward commitment against them for reversals that yield top position.
 
-**Opponent's Starting Position**: [[Body Lock]] (Top)
+**Opponent's Starting Position**: [[Positions/Body Lock]] (Top)
 
 </section>
 
@@ -186,21 +186,21 @@ Defending the Body Lock Takedown requires recognizing the attacker's setup cues 
 ### 1. Explosive sprawl with hip drop and base widening
 
 - **When to use**: Immediately upon feeling the attacker's level change and forward drive initiation, before their momentum builds to full force
-- **Targets**: [[Body Lock]]
+- **Targets**: [[Positions/Body Lock]]
 - **If successful**: Prevents takedown completion, forces attacker back to neutral body lock position where you can work grip breaks and escapes
 - **Risk**: If timed too late, the attacker drives through the sprawl and completes the takedown to side control with additional momentum from your failed defense
 
 ### 2. Hip switch reversal using attacker's forward momentum
 
 - **When to use**: When the attacker has fully committed their weight forward and their base is narrow due to the driving step, creating vulnerability to directional change
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Reverses the takedown by redirecting the attacker's forward momentum, landing them on bottom with you establishing top position in half guard
 - **Risk**: Failed reversal attempt may accelerate the takedown by adding rotational force to the attacker's drive, resulting in faster completion to side control
 
 ### 3. Controlled guard pull with immediate guard closure
 
 - **When to use**: When sprawl defense has failed and the takedown is clearly imminent, as a deliberate tactical choice to control the landing rather than being thrown
-- **Targets**: [[Body Lock]]
+- **Targets**: [[Positions/Body Lock]]
 - **If successful**: Prevents landing in side control by pulling the attacker into your closed guard where you have defensive frames and offensive options from bottom
 - **Risk**: Pulling guard concedes the takedown and gives the attacker top position, though with your guard structure established rather than in side control
 
@@ -212,11 +212,11 @@ Defending the Body Lock Takedown requires recognizing the attacker's setup cues 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a hip switch reversal as the attacker commits their weight forward during the driving phase. Rotate your hips explosively in the opposite direction of their drive, using their extended forward position and narrow base against them. Drive them off-balance and follow to establish top position in half guard by immediately securing crossface and hip control as you complete the reversal.
 
-### → [[Body Lock]]
+### → [[Positions/Body Lock]]
 
 Defend the takedown through aggressive sprawling and base widening the instant you recognize the attack initiation. Drop your hips explosively while widening your stance and posting hands on the attacker's hips to create distance. Once the takedown attempt is neutralized, begin hand fighting to break the body lock grip and work toward escaping to neutral clinch position.
 

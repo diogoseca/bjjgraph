@@ -140,7 +140,7 @@ description: "Guide to maintaining technical mount against bridge escape attempt
 
 When your opponent bridges from technical mount, your primary objective is maintaining position while capitalizing on the space and movement they create to advance your offense. The bridge represents a predictable defensive response that, when properly anticipated, opens opportunities for back takes and accelerated submission finishes rather than genuinely threatening your control. Understanding the timing and directional patterns of bridge attempts allows you to ride the movement and convert your opponent's defensive energy into offensive transitions. The key defensive principle is flowing with the bridge rather than rigidly fighting it—riding the motion preserves your energy and creates better attacking angles than bracing against explosive force. Your posted leg base and hip pressure are your primary tools for absorbing bridge force, but your real advantage lies in recognizing the bridge early and choosing whether to maintain position or advance to an even more dominant control.
 
-**Opponent's Starting Position**: [[Technical Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount/Technical Mount]] (Bottom)
 
 </section>
 
@@ -178,21 +178,21 @@ When your opponent bridges from technical mount, your primary objective is maint
 ### 1. Sprawl hips and widen posted leg base to absorb bridge force
 
 - **When to use**: When you recognize bridge loading cues before the opponent executes—pre-emptive sprawl prevents effective displacement
-- **Targets**: [[Technical Mount]]
+- **Targets**: [[Positions/Mount/Technical Mount]]
 - **If successful**: Bridge attempt fails completely and opponent remains in technical mount with depleted energy from the failed explosive effort
 - **Risk**: Sprawling shifts your weight off the arm control, potentially allowing the opponent to retract the threatened arm to safety
 
 ### 2. Follow the opponent's turning motion and transition to back control
 
 - **When to use**: When the bridge creates enough displacement that maintaining technical mount requires excessive energy—convert to back control instead
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You advance from technical mount to back control with hooks, a strictly superior position with higher submission percentage
 - **Risk**: If you release arm control too early during the transition, the opponent may recover guard before you establish back control
 
 ### 3. Tighten arm control and accelerate the armbar setup using bridge momentum
 
 - **When to use**: When the bridge exposes the arm further by creating extension or loosening the opponent's defensive grip during explosive movement
-- **Targets**: [[Technical Mount]]
+- **Targets**: [[Positions/Mount/Technical Mount]]
 - **If successful**: The opponent's bridge attempt directly assists your armbar finish by extending the arm and creating the space needed for the swing-over
 - **Risk**: Committing to the armbar during a bridge means your hips leave the opponent's body, and if the armbar fails they may escape to guard
 
@@ -204,11 +204,11 @@ When your opponent bridges from technical mount, your primary objective is maint
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the opponent bridges and begins turning, release the armbar threat and immediately follow their rotation. As they expose their back, establish a seat belt grip by threading your arm under their armpit and across their chest. Convert your posted leg into your first hook and follow their motion to secure full back control with both hooks before they can recover guard.
 
-### → [[Technical Mount]]
+### → [[Positions/Mount/Technical Mount]]
 
 Maintain heavy hip pressure close to the opponent's shoulder and keep your posted leg base wide. When you feel the bridge initiate, sprawl slightly and ride the motion without losing arm control. As the bridge dissipates, resettle your weight and retighten any grips that loosened during the movement. The failed bridge depletes the opponent's energy reserves for subsequent escape attempts.
 

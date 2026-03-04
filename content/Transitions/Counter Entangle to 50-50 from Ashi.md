@@ -21,7 +21,7 @@ The transition capitalizes on the mechanical principle that when an opponent suc
 
 From a strategic perspective, the counter entangle to 50-50 is valuable because it maintains offensive pressure while changing the attack angle. Rather than disengaging and re-entering the leg lock system, the practitioner flows directly into 50-50 where they can immediately threaten heel hooks from a different configuration. This chain-based approach—flowing between entanglements rather than resetting—is a hallmark of modern leg lock systems and keeps the opponent under constant submission threat throughout the transition.
 
-**From Position**: [[Inside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic perspective, the counter entangle to 50-50 is valuable because 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 55% |
-| Failure | [[Inside Ashi-Garami]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 55% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -188,25 +188,25 @@ The counter entangle to 50-50 from ashi garami sits at a critical junction in th
 ## Related Techniques
 
 
-- [[Inside Ashi-Garami]] - Starting position from which the counter entangle is initiated
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Starting position from which the counter entangle is initiated
 
-- [[50-50 Guard]] - Target position reached upon successful completion of the counter entangle
+- [[Positions/Ashi Garami/50-50 Guard]] - Target position reached upon successful completion of the counter entangle
 
-- [[Honey Hole]] - Advanced entanglement accessible from 50-50 for continued leg attack progression
+- [[Positions/Ashi Garami/Honey Hole]] - Advanced entanglement accessible from 50-50 for continued leg attack progression
 
-- [[Backside 50-50]] - Alternative advancement from 50-50 offering different heel hook angles
+- [[Positions/Ashi Garami/Backside 50-50]] - Alternative advancement from 50-50 offering different heel hook angles
 
-- [[Outside Ashi-Garami]] - Alternative entanglement transition from ashi when counter entangle is unavailable
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative entanglement transition from ashi when counter entangle is unavailable
 
-- [[Saddle]] - Advanced entanglement in the leg lock hierarchy accessible from multiple positions
+- [[Positions/Ashi Garami/Saddle]] - Advanced entanglement in the leg lock hierarchy accessible from multiple positions
 
-- [[50-50 Entry]] - Related transition for entering 50-50 from different starting positions
+- [[Transitions/50-50 Entry]] - Related transition for entering 50-50 from different starting positions
 
-- [[Backside 50-50 Entry from Ashi]] - Alternative entanglement change from ashi garami to backside configuration
+- [[Transitions/Backside 50-50 Entry from Ashi]] - Alternative entanglement change from ashi garami to backside configuration
 
-- [[Heel Hook]] - Primary submission attack available from the resulting 50-50 position
+- [[Transitions/Heel Hook]] - Primary submission attack available from the resulting 50-50 position
 
-- [[Straight Ankle Lock Entry]] - Alternative attack from ashi garami when counter entangle is not needed
+- [[Transitions/Straight Ankle Lock Entry]] - Alternative attack from ashi garami when counter entangle is not needed
 
 
 </section>

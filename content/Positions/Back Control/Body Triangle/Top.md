@@ -208,23 +208,23 @@ Successful defense from body triangle top requires calm breathing management, sy
 
 ## Available Attacks
 
-### [[Hip Escape to Turtle]] (14% of attempts)
+### [[Transitions/Hip Escape to Turtle]] (14% of attempts)
 
-### [[Frame and Shrimp to Guard]] (9% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (9% of attempts)
 
-### [[Triangle Clear to Side]] (49% of attempts)
+### [[Transitions/Triangle Clear to Side]] (49% of attempts)
 
-### [[Standing up in Base]] (5% of attempts)
+### [[Transitions/Standing up in Base]] (5% of attempts)
 
-### [[Rolling Back Take Reversal]] (2% of attempts)
+### [[Transitions/Rolling Back Take Reversal]] (2% of attempts)
 
-### [[Elbow Escape to Remove Hooks]] (9% of attempts)
+### [[Transitions/Elbow Escape to Remove Hooks]] (9% of attempts)
 
-### [[Back Door Escape]] (9% of attempts)
+### [[Transitions/Back Door Escape]] (9% of attempts)
 
-### [[Body Triangle Squeeze]] (1% of attempts)
+### [[Transitions/Body Triangle Squeeze]] (1% of attempts)
 
-### [[Body Triangle RNC]] (2% of attempts)
+### [[Submissions/Body Triangle RNC]] (2% of attempts)
 
 
 
@@ -235,23 +235,23 @@ Successful defense from body triangle top requires calm breathing management, sy
 ## Decision Making from This Position
 
 **If opponent has tight triangle with maximum pressure and aggressive neck attacks:**
-- Execute **[[Protect neck with chin down and hands]]** → [[Body Triangle]] (Probability: 80%)
-- Execute **[[Focus on breathing management]]** → [[Body Triangle]] (Probability: 75%)
+- Execute **[[Protect neck with chin down and hands]]** → [[Positions/Back Control/Body Triangle]] (Probability: 80%)
+- Execute **[[Focus on breathing management]]** → [[Positions/Back Control/Body Triangle]] (Probability: 75%)
 
 
 **If you create space between your body and opponent's legs:**
-- Execute **[[Attack the figure-four lock]]** → [[Turtle]] (Probability: 45%)
-- Execute **[[Work to turn into opponent]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Attack the figure-four lock]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Work to turn into opponent]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If opponent's triangle lock is loosening or not optimally positioned:**
-- Execute **[[Hip Escape to Turtle]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Granby Roll to Guard]]** → [[Open Guard]] (Probability: 48%)
+- Execute **[[Transitions/Hip Escape to Turtle]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 48%)
 
 
 **If you have cleared triangle completely but opponent maintains upper body control:**
-- Execute **[[Frame and Shrimp to Guard]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Standing up in Base]]** → [[Standing Position]] (Probability: 45%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 45%)
 
 
 
@@ -385,15 +385,15 @@ Partner maintains body triangle while you focus exclusively on optimal defensive
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Parent position opponent is controlling you from
-- **[[Turtle]]** - Common escape target position from body triangle
-- **[[Half Guard]]** - Alternative escape target achieving guard recovery
-- **[[Frame and Shrimp to Guard]]** - Key escape movement pattern for creating space and recovering guard
-- **[[Granby Roll to Guard]]** - Advanced escape technique from body triangle control
-- **[[Hip Escape to Turtle]]** - Primary escape transition from body triangle
-- **[[Standing up in Base]]** - Alternative escape path to standing position
-- **[[Rear Naked Choke]]** - Primary submission threat you must defend during escape
-- **[[Back Door Escape]]** - Systematic back escape sequence applicable after clearing triangle
+- **[[Positions/Back Control]]** - Parent position opponent is controlling you from
+- **[[Positions/Turtle]]** - Common escape target position from body triangle
+- **[[Positions/Half Guard]]** - Alternative escape target achieving guard recovery
+- **[[Transitions/Frame and Shrimp to Guard]]** - Key escape movement pattern for creating space and recovering guard
+- **[[Transitions/Granby Roll to Guard]]** - Advanced escape technique from body triangle control
+- **[[Transitions/Hip Escape to Turtle]]** - Primary escape transition from body triangle
+- **[[Transitions/Standing up in Base]]** - Alternative escape path to standing position
+- **[[Transitions/Rear Naked Choke]]** - Primary submission threat you must defend during escape
+- **[[Transitions/Back Door Escape]]** - Systematic back escape sequence applicable after clearing triangle
 
 
 </section>

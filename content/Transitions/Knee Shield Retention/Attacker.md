@@ -180,7 +180,7 @@ description: "How to execute Knee Shield Retention in BJJ. Attacking perspective
 
 Knee Shield Retention from the attacker (bottom player) perspective is an active management system for maintaining half guard structure against passing attempts. The bottom player uses their top leg as a dynamic barrier to create distance, manage angles, and prevent the opponent from consolidating chest-to-chest pressure. The knee shield creates a structural frame that allows distance control while maintaining offensive and defensive options. This is not a passive hold but a constant process of reading the passer's movements, adjusting shield angles, fighting for grips, and transitioning to offense when the passer commits their weight in predictable patterns.
 
-**From Position**: [[Knee Shield Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ Knee Shield Retention from the attacker (bottom player) perspective is an active
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Knee Shield Half Guard]] | 65% |
-| Failure | [[Flattened Half Guard]] | 20% |
-| Counter | [[Knee Shield Half Guard]] | 15% |
+| Success | [[Positions/Half Guard/Knee Shield Half Guard]] | 65% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 20% |
+| Counter | [[Positions/Half Guard/Knee Shield Half Guard]] | 15% |
 
 
 </section>
@@ -245,11 +245,11 @@ Knee Shield Retention from the attacker (bottom player) perspective is an active
 
 ## Opponent Counters
 
-- **Opponent establishes crossface and drives your shield down** (Effectiveness: High) - Your Response: Immediately shrimp your hips away to create angle while fighting to recover underhook or frame on their shoulder. If crossface is secured, transition to lockdown or deep half to escape the pressure rather than fighting uphill battle. → Leads to [[Flattened Half Guard]]
-- **Opponent secures underhook and drives chest-to-chest pressure** (Effectiveness: High) - Your Response: Use your shield to create immediate space while establishing whizzer control on their underhook arm. Hip escape to create angle and look for back take or transition to deep half guard where their underhook becomes less dangerous. → Leads to [[Flattened Half Guard]]
-- **Opponent steps over knee shield and establishes knee cut position** (Effectiveness: Medium) - Your Response: Immediately convert your shield leg to butterfly hook or Z-guard as they step through. Use your grips to prevent them from completing the pass while you work to recover full guard or enter into scramble position. → Leads to [[Knee Shield Half Guard]]
-- **Opponent collapses shield by driving knee down and smashing** (Effectiveness: Medium) - Your Response: Don't fight the collapse - instead use the momentum to transition to lockdown or quarter guard where you can work from a lower structure. Alternatively, if they commit heavy pressure, use it to initiate Old School sweep. → Leads to [[Flattened Half Guard]]
-- **Opponent circles away from shield to back step** (Effectiveness: Low) - Your Response: Follow their movement with your shield, maintaining the barrier as they move. If they fully commit to the back step, this creates entry to deep half guard or you can use your bottom leg to elevate and sweep. → Leads to [[Knee Shield Half Guard]]
+- **Opponent establishes crossface and drives your shield down** (Effectiveness: High) - Your Response: Immediately shrimp your hips away to create angle while fighting to recover underhook or frame on their shoulder. If crossface is secured, transition to lockdown or deep half to escape the pressure rather than fighting uphill battle. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent secures underhook and drives chest-to-chest pressure** (Effectiveness: High) - Your Response: Use your shield to create immediate space while establishing whizzer control on their underhook arm. Hip escape to create angle and look for back take or transition to deep half guard where their underhook becomes less dangerous. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent steps over knee shield and establishes knee cut position** (Effectiveness: Medium) - Your Response: Immediately convert your shield leg to butterfly hook or Z-guard as they step through. Use your grips to prevent them from completing the pass while you work to recover full guard or enter into scramble position. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
+- **Opponent collapses shield by driving knee down and smashing** (Effectiveness: Medium) - Your Response: Don't fight the collapse - instead use the momentum to transition to lockdown or quarter guard where you can work from a lower structure. Alternatively, if they commit heavy pressure, use it to initiate Old School sweep. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent circles away from shield to back step** (Effectiveness: Low) - Your Response: Follow their movement with your shield, maintaining the barrier as they move. If they fully commit to the back step, this creates entry to deep half guard or you can use your bottom leg to elevate and sweep. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 
 
 </section>

@@ -21,7 +21,7 @@ The technique operates on the principle of directional misdirection. When the bo
 
 Strategically, this technique serves as a secondary option within the leg weave passing system. When primary forward-driving passes meet organized resistance, the backstep provides a directional change that punishes over-commitment to frontal defense. Advanced passers chain the backstep with knee slice, smash pass, and leg drag threats to create multi-directional dilemmas where defending one passing angle necessarily opens vulnerability to another, making the leg weave position progressively more dangerous the longer the bottom player remains trapped.
 
-**From Position**: [[Leg Weave]] (Top)
+**From Position**: [[Positions/Leg Weave]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this technique serves as a secondary option within the leg weave 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Leg Weave]] | 30% |
-| Counter | [[Deep Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Leg Weave]] | 30% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Backstep from Leg Weave integrates into the broader guard passing system as 
 ## Related Techniques
 
 
-- [[Leg Weave]] - Starting position where the backstep is initiated from established leg threading control
+- [[Positions/Leg Weave]] - Starting position where the backstep is initiated from established leg threading control
 
-- [[Side Control]] - Primary target position reached upon successful backstep pass completion
+- [[Positions/Side Control]] - Primary target position reached upon successful backstep pass completion
 
-- [[Deep Half Guard]] - Counter position the bottom player may achieve if they dive under during the backstep rotation
+- [[Positions/Half Guard/Deep Half Guard]] - Counter position the bottom player may achieve if they dive under during the backstep rotation
 
-- [[Half Guard]] - Common recovery position for the bottom player if the backstep partially fails
+- [[Positions/Half Guard]] - Common recovery position for the bottom player if the backstep partially fails
 
-- [[Backstep from De La Riva]] - Related backstep technique sharing similar hip rotation mechanics from a different guard
+- [[Transitions/Backstep from De La Riva]] - Related backstep technique sharing similar hip rotation mechanics from a different guard
 
-- [[Backstep from Deep Half]] - Similar backstep concept applied when opponent enters deep half during passing
+- [[Transitions/Backstep from Deep Half]] - Similar backstep concept applied when opponent enters deep half during passing
 
-- [[Backstep from K-Guard]] - Parallel backstep application demonstrating the universal backstep passing principle
+- [[Transitions/Backstep from K-Guard]] - Parallel backstep application demonstrating the universal backstep passing principle
 
-- [[Backstep from Single Leg X]] - Related angular pass from leg entanglement sharing rotational mechanics
+- [[Transitions/Backstep from Single Leg X]] - Related angular pass from leg entanglement sharing rotational mechanics
 
-- [[Back Step Pass]] - General backstep passing concept that encompasses this specific application
+- [[Transitions/Back Step Pass]] - General backstep passing concept that encompasses this specific application
 
-- [[Headquarters Position]] - Alternative passing platform with related pressure and control concepts
+- [[Positions/Headquarters Position]] - Alternative passing platform with related pressure and control concepts
 
-- [[Leg Drag Control]] - Complementary passing finish accessible when bottom player turns during backstep
+- [[Positions/Leg Drag Control]] - Complementary passing finish accessible when bottom player turns during backstep
 
-- [[Knee Shield Half Guard]] - Defensive position the bottom player attempts to recover during failed backstep
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive position the bottom player attempts to recover during failed backstep
 
 
 </section>

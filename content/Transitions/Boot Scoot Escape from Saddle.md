@@ -21,7 +21,7 @@ The fundamental mechanics involve three coordinated actions: heel protection to 
 
 From a strategic perspective, the boot scoot escape occupies a specific niche within the saddle defense hierarchy. It works best when the opponent has established saddle position but has not yet consolidated optimal hip pressure and finishing grips. The escape becomes significantly more difficult once the opponent has achieved tight perpendicular alignment with heavy hip pressure and secured the heel. Recognizing the correct timing window for this escape versus committing to alternative defense strategies like counter-entangling or inversion is a critical decision point that separates effective defensive players from those who remain trapped.
 
-**From Position**: [[Saddle]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic perspective, the boot scoot escape occupies a specific niche wi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 45% |
-| Failure | [[Saddle]] | 35% |
-| Counter | [[Inside Ashi-Garami]] | 20% |
+| Success | [[Positions/Open Guard]] | 45% |
+| Failure | [[Positions/Ashi Garami/Saddle]] | 35% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 20% |
 
 
 </section>
@@ -198,21 +198,21 @@ The Boot Scoot Escape from Saddle occupies a critical role in the leg lock defen
 ## Related Techniques
 
 
-- [[Saddle]] - Starting position—the dangerous leg entanglement this escape addresses
+- [[Positions/Ashi Garami/Saddle]] - Starting position—the dangerous leg entanglement this escape addresses
 
-- [[Open Guard]] - Target position after successful escape and leg extraction
+- [[Positions/Open Guard]] - Target position after successful escape and leg extraction
 
-- [[Inside Ashi-Garami]] - Counter outcome position when opponent transitions during failed escape
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Counter outcome position when opponent transitions during failed escape
 
-- [[Ashi Garami Escape]] - Related escape technique from ashi garami leg entanglements
+- [[Transitions/Ashi Garami Escape]] - Related escape technique from ashi garami leg entanglements
 
-- [[Honey Hole]] - Alternative terminology for saddle position in 10th Planet system
+- [[Positions/Ashi Garami/Honey Hole]] - Alternative terminology for saddle position in 10th Planet system
 
-- [[50-50 Guard]] - Alternative defensive destination through counter-entangling from saddle
+- [[Positions/Ashi Garami/50-50 Guard]] - Alternative defensive destination through counter-entangling from saddle
 
-- [[Ashi Garami]] - Parent category of leg entanglement positions
+- [[Positions/Ashi Garami]] - Parent category of leg entanglement positions
 
-- [[Heel Hook from Saddle]] - Primary submission threat motivating this escape
+- [[Transitions/Heel Hook from Saddle]] - Primary submission threat motivating this escape
 
 
 </section>

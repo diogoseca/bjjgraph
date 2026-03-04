@@ -180,7 +180,7 @@ Biomechanically, the move requires threading the shin that was across the oppone
 
 From a game theory perspective, Advance to Chill Dog forces the opponent into increasingly desperate defensive decisions. Once the leg begins threading deeper, they must choose between accepting the deeper control or attempting explosive escapes that often expose them to armbar, triangle, or omoplata attacks. This dilemma-based approach exemplifies the 10th Planet philosophy of creating no-win situations through systematic positional advancement.
 
-**From Position**: [[New York]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ From a game theory perspective, Advance to Chill Dog forces the opponent into in
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Chill Dog]] | 55% |
-| Failure | [[New York]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Chill Dog]] | 55% |
+| Failure | [[Positions/Rubber Guard/New York]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ From a game theory perspective, Advance to Chill Dog forces the opponent into in
 
 ## Opponent Counters
 
-- **Explosive posture recovery before leg threads deep** (Effectiveness: High) - Your Response: Maintain constant overhook pressure and time the thread during their forward drive. If they begin posturing, switch to triangle or armbar attack using the space they create. → Leads to [[Closed Guard]]
-- **Pinning the threading leg with their free hand** (Effectiveness: Medium) - Your Response: Use your guiding hand to strip their grip while continuing the thread. Alternatively, attack their gripping arm with an armbar or kimura threat to force them to release. → Leads to [[New York]]
-- **Turning away and extracting head before lock is secured** (Effectiveness: Medium) - Your Response: Follow their turn with your overhook and convert to back control or Carni position. Their turning motion often exposes their back more than their neck. → Leads to [[Closed Guard]]
-- **Driving forward aggressively to flatten the position** (Effectiveness: Low) - Your Response: Their forward pressure actually assists the leg threading. Accept their drive and use the momentum to complete the Chill Dog entry faster. → Leads to [[Chill Dog]]
+- **Explosive posture recovery before leg threads deep** (Effectiveness: High) - Your Response: Maintain constant overhook pressure and time the thread during their forward drive. If they begin posturing, switch to triangle or armbar attack using the space they create. → Leads to [[Positions/Closed Guard]]
+- **Pinning the threading leg with their free hand** (Effectiveness: Medium) - Your Response: Use your guiding hand to strip their grip while continuing the thread. Alternatively, attack their gripping arm with an armbar or kimura threat to force them to release. → Leads to [[Positions/Rubber Guard/New York]]
+- **Turning away and extracting head before lock is secured** (Effectiveness: Medium) - Your Response: Follow their turn with your overhook and convert to back control or Carni position. Their turning motion often exposes their back more than their neck. → Leads to [[Positions/Closed Guard]]
+- **Driving forward aggressively to flatten the position** (Effectiveness: Low) - Your Response: Their forward pressure actually assists the leg threading. Accept their drive and use the momentum to complete the Chill Dog entry faster. → Leads to [[Positions/Rubber Guard/Chill Dog]]
 
 
 </section>

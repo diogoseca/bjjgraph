@@ -160,7 +160,7 @@ The primary defensive strategy centers on preventing the two conditions the Esti
 
 Defensive training should emphasize early recognition and prevention over late-stage escape. The best defense against the Estima Lock is never allowing both control points to be established simultaneously. When caught in a fully locked Estima Lock with coordinated pressure, the honest answer is that escape probability drops significantly - making early intervention and prevention the cornerstone of an effective defensive game plan against this submission.
 
-**Opponent's Starting Position**: [[50-50 Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 
 
 </section>
@@ -200,28 +200,28 @@ Defensive training should emphasize early recognition and prevention over late-s
 ### 1. Straighten trapped leg forcefully to remove knee bend fulcrum
 
 - **When to use**: As soon as you feel the attacker's shin sliding behind your knee, before they establish hand grip on foot. Most effective in the first 1-2 seconds of setup.
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Removes the fulcrum that makes the Estima Lock functional, returning to neutral leg entanglement where you can work standard escapes
 - **Risk**: Straightening the leg exposes you to straight ankle lock if attacker already has foot control, and the straightening motion can be used against you for sweeps
 
 ### 2. Retract foot toward glute and strip hand grips
 
 - **When to use**: When attacker reaches for your foot but has not yet secured a solid two-handed grip. Use two-on-one grip fighting to strip their hand control before they lock in.
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Denies the hand control needed for dorsiflexion pressure, forcing attacker to re-establish grips and giving you time to improve position
 - **Risk**: Pulling foot back with a bent knee can expose your heel if attacker transitions to heel hook, and aggressive retraction may compromise your own leg entanglement control
 
 ### 3. Create hip distance by pushing off attacker's body and standing up
 
 - **When to use**: When attacker has partial grip but has not coordinated leg pressure behind knee. Most effective when combined with posting on free leg to create elevation and distance.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Breaks the close-range mechanics required for the Estima Lock, creates space to extract leg entirely and reset to standing
 - **Risk**: Standing in a leg entanglement can expose you to sweeps if attacker maintains foot control, and creating distance without clearing the leg entanglement first may not fully escape
 
 ### 4. Rotate hip inward to change foot angle and deny dorsiflexion
 
 - **When to use**: When attacker has established both grip and fulcrum but has not yet applied significant pressure. Internal hip rotation changes the angle of your foot relative to their grip.
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Changes the mechanical angle so dorsiflexion pressure is no longer applied cleanly, buying time to work other defenses or strip grips
 - **Risk**: Hip rotation may create openings for toe hold if attacker follows the rotation, and partial rotation without grip breaking merely delays the submission rather than escaping it
 
@@ -244,11 +244,11 @@ Defensive training should emphasize early recognition and prevention over late-s
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ashi Garami]]
+### → [[Positions/Ashi Garami]]
 
 Strip attacker's hand grips early before pressure develops, straighten your leg to remove the fulcrum, and maintain top position in the leg entanglement where you can work passing or your own counter-attacks
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Create hip distance by posting on free leg and driving hips away from attacker. Once distance is established, extract your leg from the entanglement and stand completely free. Disengage and reset rather than re-engaging from a compromised entanglement.
 

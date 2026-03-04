@@ -154,7 +154,7 @@ description: "Learn to defend against the Trap and Roll reversal from top mount.
 
 Defending the Trap and Roll from the top mount position requires awareness of the bottom player's setup cues, disciplined hand positioning to maintain posting ability, and proactive base management that removes trapping opportunities. As the defender (the person on top maintaining mount), your goal is to recognize the trap and roll attempt before the bridge phase begins and neutralize it through hand extraction, base widening, or positional advancement. The most effective defense is prevention: keeping your arms retracted and avoiding extended posts where they can be captured. At the purple and brown belt level, defenders should use the opponent's trap and roll attempts as offensive opportunities, transitioning to high mount or catching submissions on the arms the bottom player extends during their escape setup. Understanding the trap and roll from the defender's perspective transforms mount maintenance from passive weight holding into active threat management.
 
-**Opponent's Starting Position**: [[Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the Trap and Roll from the top mount position requires awareness of th
 ### 1. Retract the targeted arm and swim it free from the two-on-one grip using elbow rotation
 
 - **When to use**: As soon as you feel the bottom player begin to capture your arm with both hands before the grip is locked
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You remain in mount with arm free and the bottom player has wasted energy on a failed trap attempt
 - **Risk**: If you react too slowly, the arm trap locks in and you must rely on posting the opposite hand
 
 ### 2. Post the free hand wide on the mat on the side the bottom player is bridging toward
 
 - **When to use**: When the arm trap is already secured and the bridge begins, post your free hand to create a third base point
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: The bridge is absorbed by your posted hand and you maintain mount with opportunity to re-settle with heavier pressure
 - **Risk**: The posted hand creates weight shift that may open space for the bottom player's elbow escape
 
 ### 3. Advance to high mount by driving knees toward the opponent's armpits during their bridge setup
 
 - **When to use**: When you recognize the bottom player loading for a bridge by walking their feet in, preemptively advance before the bridge executes
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: High mount position eliminates the bottom player's bridge leverage and opens new submission threats
 - **Risk**: Moving to high mount reduces your base stability and may be premature if the bottom player switches to elbow escape
 
 ### 4. Widen base by stepping one foot out to the side and sprawling hips to flatten the bottom player
 
 - **When to use**: When you feel the foot hook on your ankle, immediately step that foot out wide to break the hook and widen your base
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Breaking the foot trap eliminates the core mechanical requirement for the trap and roll, neutralizing the entire escape
 - **Risk**: Stepping wide may create space on the opposite side that the bottom player exploits for hip escape
 
@@ -226,11 +226,11 @@ Defending the Trap and Roll from the top mount position requires awareness of th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Maintain disciplined arm positioning, retract any arm the bottom player attempts to trap, and keep wide base with active feet to prevent foot hooks. Post the free hand immediately if the bridge initiates to absorb the force.
 
-### → [[High Mount]]
+### → [[Positions/Mount/High Mount]]
 
 Recognize the bridge setup (feet walking in, arm grab attempt) and preemptively advance to high mount by driving knees toward armpits. This removes the bottom player's bridge leverage entirely and opens submission opportunities on their now-exposed arms.
 

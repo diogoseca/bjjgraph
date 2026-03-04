@@ -146,7 +146,7 @@ description: "Defend against the Rodeo Ride to Turtle transition in BJJ. Recogni
 
 As the defender caught in turtle while the top player transitions from Rodeo Ride to standard turtle top control, your primary objective is to exploit the vulnerability window created by their grip changes and repositioning. The transition from Rodeo Ride to turtle top requires the attacker to release their asymmetric control and reposition behind you, creating brief but critical moments where their control is weakened. Your best opportunities for escape exist during these grip changes and weight shifts rather than after the attacker has consolidated standard turtle top position with full seatbelt control. Recognizing the transition early through tactile cues allows you to time escape attempts during the moments of maximum vulnerability, converting the attacker's positional adjustment into your escape opportunity.
 
-**Opponent's Starting Position**: [[Rodeo Ride]] (Top)
+**Opponent's Starting Position**: [[Positions/Rodeo Ride]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender caught in turtle while the top player transitions from Rodeo Rid
 ### 1. Explosive sit-back to half guard during grip transition
 
 - **When to use**: When you feel the attacker release one grip to establish a new one, creating a momentary control gap. Time the sit-back to coincide with the grip change when only one hand controls you.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish half guard with the attacker trapped in half guard bottom, completely reversing the positional hierarchy from their dominant turtle control to your offensive guard position
 - **Risk**: If mistimed, the attacker maintains their anchor grip and drives you back to turtle with even heavier pressure, potentially establishing deeper control
 
 ### 2. Maintain tight defensive turtle to prevent successful transition
 
 - **When to use**: When the attacker's anchor grip is too strong to escape but their repositioning creates instability. Keep elbows tight and head protected to deny seatbelt establishment while waiting for a better escape opportunity.
-- **Targets**: [[Rodeo Ride]]
+- **Targets**: [[Positions/Rodeo Ride]]
 - **If successful**: The attacker fails to establish standard turtle top and reverts to Rodeo Ride position, maintaining the status quo and buying time for future escape attempts
 - **Risk**: Passive defense may only delay the inevitable as the attacker can attempt the transition multiple times until successful
 
 ### 3. Explosive stand-up during weight shift phase
 
 - **When to use**: When the attacker lifts hip pressure momentarily while walking their hips from perpendicular to behind. The reduced downward pressure creates a window for driving upward to standing position.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You achieve standing position and can either disengage or establish a dominant clinch position, escaping the turtle entirely
 - **Risk**: If the attacker follows you to standing with their grips intact, you end up in standing back control which can be worse than turtle
 
 ### 4. Granby roll away from attacker during lateral pressure reduction
 
 - **When to use**: When the attacker's lateral Rodeo Ride pressure decreases as they move behind you. The reduced side pressure makes the granby roll higher percentage than when full Rodeo Ride control is applied.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You invert and recover to open guard or half guard, facing the opponent rather than having your back exposed
 - **Risk**: If the attacker follows the roll and maintains their grip, they may accelerate into full back control during your rotation
 
@@ -217,7 +217,7 @@ As the defender caught in turtle while the top player transitions from Rodeo Rid
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive sit-back, granby roll, or hip rotation during the attacker's grip transition phase when their control is reduced to a single anchor point. Thread your legs through to establish half guard during the moment of weakened control, capitalizing on the attacker's divided attention between maintaining position and establishing new grips. The transition window is brief, so commit fully when you sense the grip change beginning.
 

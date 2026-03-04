@@ -21,7 +21,7 @@ From the bottom 50-50 position, you use hip movement and leg control to isolate 
 
 This entry is particularly effective against opponents who focus entirely on heel defense by hiding their heel or rotating their knee inward. Their defensive posture actually facilitates the kneebar entry by presenting their leg in an extended position. The transition also serves as an excellent chain attack when heel hooks are stalled, creating offensive pressure that prevents opponents from establishing comfortable defensive positions.
 
-**From Position**: [[50-50 Guard]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This entry is particularly effective against opponents who focus entirely on hee
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kneebar Control]] | 55% |
-| Failure | [[50-50 Guard]] | 30% |
-| Counter | [[50-50 Guard]] | 15% |
+| Success | [[Positions/Kneebar Control]] | 55% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -185,21 +185,21 @@ The Kneebar entry from 50-50 represents a critical branch in the leg lock decisi
 ## Related Techniques
 
 
-- [[50-50 Guard]] - Starting position for this entry
+- [[Positions/Ashi Garami/50-50 Guard]] - Starting position for this entry
 
-- [[Kneebar Control]] - Target position upon successful entry
+- [[Positions/Kneebar Control]] - Target position upon successful entry
 
-- [[Inside Heel Hook]] - Primary attack that this entry complements
+- [[Submissions/Inside Heel Hook]] - Primary attack that this entry complements
 
-- [[Calf Slicer from 50-50]] - Chain attack when opponent bends knee to defend
+- [[Submissions/Calf Slicer from 50-50]] - Chain attack when opponent bends knee to defend
 
-- [[Back Take from 50-50]] - Alternative transition when submissions are fully defended
+- [[Transitions/Back Take from 50-50]] - Alternative transition when submissions are fully defended
 
-- [[Single Leg X-Guard]] - Escape position if entry fails and space is created
+- [[Positions/X-Guard/Single Leg X-Guard]] - Escape position if entry fails and space is created
 
-- [[Kneebar Finish]] - Follow-up submission from Kneebar Control
+- [[Transitions/Kneebar Finish]] - Follow-up submission from Kneebar Control
 
-- [[Inside Ashi-Garami]] - Related leg entanglement with similar attack options
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement with similar attack options
 
 
 </section>

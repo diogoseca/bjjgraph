@@ -180,7 +180,7 @@ description: "Learn to execute the bridge escape from Reverse Kesa-Gatame. Step-
 
 Executing the bridge escape from Reverse Kesa-Gatame requires precise timing, proper foot placement, and explosive hip extension directed toward the structural weakness of the top player's base. The bottom player must recognize the optimal window—typically when the top player's weight is high or committed forward—and generate enough force to displace their opponent while simultaneously turning to establish a defensible turtle position. Success depends on combining the initial bridge with immediate follow-up action, as the bridge alone rarely creates a complete escape without chaining into guard recovery or technical standup.
 
-**From Position**: [[Reverse Kesa-Gatame]] (Bottom)
+**From Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Bottom)
 
 </section>
 
@@ -231,10 +231,10 @@ Executing the bridge escape from Reverse Kesa-Gatame requires precise timing, pr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 35% |
-| Success | [[Half Guard]] | 10% |
-| Failure | [[Reverse Kesa-Gatame]] | 35% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Turtle]] | 35% |
+| Success | [[Positions/Half Guard]] | 10% |
+| Failure | [[Positions/Side Control/Reverse Kesa-Gatame]] | 35% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the bridge escape from Reverse Kesa-Gatame requires precise timing, pr
 
 ## Opponent Counters
 
-- **Opponent sprawls hips low and drives weight onto ribs to collapse the bridge before it generates displacement** (Effectiveness: High) - Your Response: Abandon the bridge and immediately transition to a shrimp escape, using the slight space created by the attempted bridge to begin extracting the trapped shoulder through hip escape mechanics → Leads to [[Reverse Kesa-Gatame]]
-- **Opponent rides the bridge momentum and steps over to establish mount as your hips are elevated** (Effectiveness: High) - Your Response: If you feel the opponent stepping over during your bridge, immediately flatten your hips back down and insert your near-side knee across their thigh to establish half guard before they can settle mount → Leads to [[Mount]]
-- **Opponent releases arm control to post with their far hand, maintaining base through the bridge** (Effectiveness: Medium) - Your Response: Capitalize on the released arm control by immediately extracting your trapped arm during the bridge, using the freed arm to establish frames for guard recovery even if the bridge itself does not fully displace them → Leads to [[Reverse Kesa-Gatame]]
-- **Opponent drives shoulder pressure into your chest and widens their base preemptively to absorb the bridge force** (Effectiveness: Medium) - Your Response: Use the bridge as a feint to draw their weight forward, then immediately shrimp your hips in the opposite direction for an elbow escape to half guard while their base is committed to resisting the bridge direction → Leads to [[Reverse Kesa-Gatame]]
+- **Opponent sprawls hips low and drives weight onto ribs to collapse the bridge before it generates displacement** (Effectiveness: High) - Your Response: Abandon the bridge and immediately transition to a shrimp escape, using the slight space created by the attempted bridge to begin extracting the trapped shoulder through hip escape mechanics → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
+- **Opponent rides the bridge momentum and steps over to establish mount as your hips are elevated** (Effectiveness: High) - Your Response: If you feel the opponent stepping over during your bridge, immediately flatten your hips back down and insert your near-side knee across their thigh to establish half guard before they can settle mount → Leads to [[Positions/Mount]]
+- **Opponent releases arm control to post with their far hand, maintaining base through the bridge** (Effectiveness: Medium) - Your Response: Capitalize on the released arm control by immediately extracting your trapped arm during the bridge, using the freed arm to establish frames for guard recovery even if the bridge itself does not fully displace them → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
+- **Opponent drives shoulder pressure into your chest and widens their base preemptively to absorb the bridge force** (Effectiveness: Medium) - Your Response: Use the bridge as a feint to draw their weight forward, then immediately shrimp your hips in the opposite direction for an elbow escape to half guard while their base is committed to resisting the bridge direction → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
 
 
 </section>

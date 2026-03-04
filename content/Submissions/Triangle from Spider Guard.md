@@ -22,7 +22,7 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Spider Guard]]
+**Starting Position**: [[Positions/Spider Guard]]
 **Success Rate**: 62%
 
 </section>
@@ -76,8 +76,8 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Spider Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Spider Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -228,14 +228,14 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 ## From Which Positions?
 
-- [[Spider Guard]]
-- [[Open Guard]]
-- [[Collar Sleeve Guard]]
-- [[Lasso Guard]]
-- [[De La Riva Guard]]
-- [[Closed Guard]]
-- [[Double Sleeve Guard]]
-- [[Inverted Guard]]
+- [[Positions/Spider Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/Collar Sleeve Guard]]
+- [[Positions/Lasso Guard]]
+- [[Positions/De La Riva Guard]]
+- [[Positions/Closed Guard]]
+- [[Positions/Double Sleeve Guard]]
+- [[Positions/Inverted Guard]]
 
 
 </section>
@@ -244,16 +244,16 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 ## Related Submissions
 
-- [[Triangle Choke]]
-- [[Omoplata]]
-- [[Armbar from Guard]]
-- [[Inverted Triangle]]
-- [[Baratoplata]]
-- [[Gogoplata]]
-- [[Guillotine Choke]]
-- [[Arm Triangle]]
-- [[Kimura]]
-- [[Cross Collar Choke]]
+- [[Transitions/Triangle Choke]]
+- [[Transitions/Omoplata]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Inverted Triangle]]
+- [[Transitions/Baratoplata]]
+- [[Transitions/Gogoplata]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/Kimura]]
+- [[Transitions/Cross Collar Choke]]
 
 
 </section>
@@ -262,16 +262,16 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 ## Additional Related Content
 
-- [[Spider Guard]] - Primary starting position for this triangle variation
-- [[Triangle Control]] - Control position reached upon successful entry
-- [[Omoplata Control]] - Alternative submission when triangle is defended
-- [[Lasso Guard]] - Similar arm control concepts applicable to triangle entries
-- [[Collar Sleeve Guard]] - Complementary guard with similar triangle setups
-- [[Inverted Guard]] - Advanced inverted triangle variation from spider guard
-- [[Open Guard]] - Parent guard category for spider guard positioning
-- [[De La Riva Guard]] - Complementary guard that combines with spider for attacks
-- [[Armbar Control]] - Transition target when triangle arm is exposed
-- [[Closed Guard]] - Alternative guard for triangle attacks when spider fails
+- [[Positions/Spider Guard]] - Primary starting position for this triangle variation
+- [[Positions/Triangle Control]] - Control position reached upon successful entry
+- [[Positions/Omoplata Control]] - Alternative submission when triangle is defended
+- [[Positions/Lasso Guard]] - Similar arm control concepts applicable to triangle entries
+- [[Positions/Collar Sleeve Guard]] - Complementary guard with similar triangle setups
+- [[Positions/Inverted Guard]] - Advanced inverted triangle variation from spider guard
+- [[Positions/Open Guard]] - Parent guard category for spider guard positioning
+- [[Positions/De La Riva Guard]] - Complementary guard that combines with spider for attacks
+- [[Positions/Armbar Control]] - Transition target when triangle arm is exposed
+- [[Positions/Closed Guard]] - Alternative guard for triangle attacks when spider fails
 
 
 </section>

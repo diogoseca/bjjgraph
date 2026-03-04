@@ -158,7 +158,7 @@ The critical defensive insight is that the transition creates a brief vulnerabil
 
 Defensive success depends on understanding which element of the control system to attack. The overhook is the anchor, the shin grip guides the transition, and the hip rotation drives the elevation. Disrupting any one of these three components during the transition phase can prevent Zombie from being achieved. The most effective defensive approach targets the hip rotation by driving forward pressure at the moment of transition, which collapses the mechanical advantage the attacker needs to elevate their leg.
 
-**Opponent's Starting Position**: [[New York]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Defensive success depends on understanding which element of the control system t
 ### 1. Explosive posture recovery - drive hips forward and lift head aggressively the moment you feel shin pressure decrease
 
 - **When to use**: Immediately upon sensing the first recognition cue (hip rotation or decreased shin pressure) before the leg reaches shoulder level
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: Prevents Zombie from establishing, forces opponent back to New York control or potentially breaks rubber guard entirely if posture is fully recovered
 - **Risk**: If timed too late after Zombie is partially established, the explosive drive brings your head deeper into their control zone and may assist their transition
 
 ### 2. Overhook extraction with arm pull - aggressively retract trapped arm toward your hip while the opponent's attention is divided between overhook and leg repositioning
 
 - **When to use**: When you feel the opponent's overhook grip momentarily soften as they focus on guiding their shin with their other hand
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Extracting the trapped arm eliminates the anchor of the entire rubber guard system, forcing opponent to re-establish from closed guard or scramble
 - **Risk**: Partial extraction that fails to clear the arm can be converted into a triangle setup by the attacker who shoots their transitioning leg over your shoulder
 
 ### 3. Shin grip strip - use free hand to peel opponent's grip off their own shin during the moment they are repositioning
 
 - **When to use**: When the opponent's shin grip visibly loosens or repositions during the leg elevation phase, creating a window where their grip is weakest
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: Without shin control, the attacker cannot guide their leg to shoulder level and the transition stalls, often reverting to standard New York or forcing them to re-grip
 - **Risk**: Committing your free hand to grip stripping temporarily reduces your ability to frame against their upper body pressure
 
 ### 4. Stack and drive forward - commit weight forward to flatten opponent's hips, eliminating the hip rotation space needed for leg elevation
 
 - **When to use**: When you feel the hip rotation beginning but before significant leg elevation has occurred, using your body weight to collapse the mechanical advantage
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: Flat hips prevent hip rotation entirely, stalling the transition and potentially opening opportunities for stacking passes or guard opening
 - **Risk**: Forward weight commitment can be redirected into sweeps or omoplata setups if the attacker reads the drive and angles their hips
 
@@ -229,11 +229,11 @@ Defensive success depends on understanding which element of the control system t
 
 ## Best-Case Outcomes for Defender
 
-### → [[New York]]
+### → [[Positions/Rubber Guard/New York]]
 
 Prevent the transition by disrupting the leg elevation during the repositioning window. Drive forward pressure to collapse hip rotation space, strip the shin grip to remove leg guidance, or time posture recovery to coincide with decreased shin pressure. Successfully keeping the position in New York rather than allowing advancement to Zombie maintains your current defensive options without the position worsening.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Extract the trapped arm from the overhook during the transition window when the attacker's grip attention is divided. Combine arm extraction with aggressive posture recovery to break the entire rubber guard structure. Once the overhook is cleared and posture is recovered, the attacker's legs naturally open from the failed rubber guard position, allowing you to settle into closed guard top where your defensive situation is significantly improved.
 

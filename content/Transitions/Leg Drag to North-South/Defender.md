@@ -152,7 +152,7 @@ Your primary defensive objective is to prevent the top player from completing th
 
 From a systematic perspective, your defense against this transition integrates with your broader leg drag escape system. If you have been defending the mount and side control threats, the north-south transition represents the passer exploiting your lateral defensive focus. Recognizing the directional change early allows you to redirect your frames toward their new angle of attack rather than continuing to defend laterally against a threat that no longer exists.
 
-**Opponent's Starting Position**: [[Leg Drag Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
 
@@ -187,21 +187,21 @@ From a systematic perspective, your defense against this transition integrates w
 ### 1. Turn into the passer and fight for inside position with frames on their chest and far shoulder
 
 - **When to use**: As soon as you feel the circular motion beginning and before they clear your shoulder line
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: You face the passer and re-establish a defensive guard structure, forcing them to restart their passing sequence from leg drag control
 - **Risk**: If you turn too aggressively without frames, the passer may capitalize on your rotation to take the back or accelerate to side control on the other side
 
 ### 2. Hip escape away and insert a knee between your bodies as the passer releases leg control
 
 - **When to use**: During the brief window when the passer lets go of your dragged leg to begin circling—your lower body is momentarily free
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard with a knee shield, completely resetting the passing exchange and forcing them to deal with your guard structure
 - **Risk**: If the hip escape is too slow, the passer continues circling and arrives in north-south with your knee trapped ineffectively between your bodies
 
 ### 3. Frame aggressively at the passer's hips with both hands and bridge to create separation
 
 - **When to use**: When you recognize the transition but are too late to turn in or insert a knee—use this as a last resort before they settle north-south
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: The bridge and frames stall their circular motion and may push them back to a lateral angle where you can re-establish your original defensive frames
 - **Risk**: Extending both arms to the hips leaves your upper body unprotected—if frames fail, you arrive in north-south with arms already compromised
 
@@ -213,11 +213,11 @@ From a systematic perspective, your defense against this transition integrates w
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Drag Control]]
+### → [[Positions/Leg Drag Control]]
 
 Turn into the passer the moment you feel their circular motion begin. Drive your near-side shoulder into them and establish frames on their chest. This forces them back to a lateral angle and resets the leg drag exchange where your original defensive frames are effective. The key is turning early before they clear your shoulder line.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the moment when the passer releases your dragged leg to begin circling. Immediately hip escape and pull your knee to your chest, inserting it between your bodies before their chest pressure arrives at your sternum. Establish a knee shield with your shin across their chest to create distance and reset to a proper half guard defensive structure.
 

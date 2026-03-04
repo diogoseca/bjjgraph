@@ -180,7 +180,7 @@ description: "Execute the Toreando pass from Double Sleeve Guard. Complete attac
 
 As the attacker executing the Toreando from Double Sleeve, your objective is to convert a defensive grip-fighting position into a decisive lateral pass. The fundamental challenge is transitioning your hands from the opponent's sleeve control—where they want your grips—to their pants or ankles, where you dictate the action. This requires precise grip-breaking mechanics followed by immediate redirection of their legs to one side while you circle to the opposite side. The pass rewards commitment, timing, and the ability to chain with secondary passes when the initial toreando is partially defended. Success depends on maintaining posture during grip transitions and executing the lateral movement with enough speed and conviction to clear the opponent's leg structures before they can reguard.
 
-**From Position**: [[Double Sleeve Guard]] (Top)
+**From Position**: [[Positions/Double Sleeve Guard]] (Top)
 
 </section>
 
@@ -231,10 +231,10 @@ As the attacker executing the Toreando from Double Sleeve, your objective is to 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Double Sleeve Guard]] | 25% |
-| Failure | [[Half Guard]] | 10% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Double Sleeve Guard]] | 25% |
+| Failure | [[Positions/Half Guard]] | 10% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Toreando from Double Sleeve, your objective is to 
 
 ## Opponent Counters
 
-- **Opponent regrips sleeves during grip transition before pants control is secured** (Effectiveness: High) - Your Response: Speed up the grip break to pants grip transition by making it one continuous motion. If they regrip, immediately attempt a second break using a different angle or switch to a two-on-one grip break on the stronger grip side. → Leads to [[Double Sleeve Guard]]
-- **Opponent inserts foot on hip as a frame to maintain distance and prevent lateral movement** (Effectiveness: Medium) - Your Response: Swim your elbow inside the posted foot to knock it off your hip, or step back to disengage the foot contact and re-engage with a different angle. Alternatively, switch to a knee slice entry on the side where the foot is posted. → Leads to [[Double Sleeve Guard]]
-- **Opponent closes guard by pulling you forward with remaining sleeve grip during transition** (Effectiveness: High) - Your Response: Maintain upright posture throughout the grip transition. If they begin closing guard, immediately wedge your elbow between their closing legs and posture up to prevent the lock. Keep your hips back and chest up during all grip exchanges. → Leads to [[Closed Guard]]
-- **Opponent inverts or hip escapes to reguard during the lateral swing** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own lateral movement, maintaining leg control throughout. If they invert, continue the toreando arc and drop your weight to pin their hips before they complete the inversion. → Leads to [[Double Sleeve Guard]]
+- **Opponent regrips sleeves during grip transition before pants control is secured** (Effectiveness: High) - Your Response: Speed up the grip break to pants grip transition by making it one continuous motion. If they regrip, immediately attempt a second break using a different angle or switch to a two-on-one grip break on the stronger grip side. → Leads to [[Positions/Double Sleeve Guard]]
+- **Opponent inserts foot on hip as a frame to maintain distance and prevent lateral movement** (Effectiveness: Medium) - Your Response: Swim your elbow inside the posted foot to knock it off your hip, or step back to disengage the foot contact and re-engage with a different angle. Alternatively, switch to a knee slice entry on the side where the foot is posted. → Leads to [[Positions/Double Sleeve Guard]]
+- **Opponent closes guard by pulling you forward with remaining sleeve grip during transition** (Effectiveness: High) - Your Response: Maintain upright posture throughout the grip transition. If they begin closing guard, immediately wedge your elbow between their closing legs and posture up to prevent the lock. Keep your hips back and chest up during all grip exchanges. → Leads to [[Positions/Closed Guard]]
+- **Opponent inverts or hip escapes to reguard during the lateral swing** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own lateral movement, maintaining leg control throughout. If they invert, continue the toreando arc and drop your weight to pin their hips before they complete the inversion. → Leads to [[Positions/Double Sleeve Guard]]
 
 
 </section>

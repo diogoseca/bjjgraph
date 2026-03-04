@@ -180,7 +180,7 @@ description: "How to execute the Whizzer overhook in BJJ. Complete attacking gui
 
 The Whizzer is a fundamental overhook control position that serves as both a powerful defensive mechanism and an offensive transition tool in Brazilian Jiu-Jitsu. Borrowed from wrestling, this technique involves threading your arm over your opponent's arm and controlling their shoulder, creating a mechanical advantage that neutralizes underhook-based attacks while opening pathways to dominant positions. The Whizzer excels in multiple contexts: defending single-leg takedowns, preventing back takes from turtle, controlling scrambles, and setting up your own offensive transitions to back control or reversal positions. Understanding when to establish, maintain, and abandon the Whizzer separates competent grapplers from those who get swept or taken down repeatedly. The position's effectiveness stems from its ability to control your opponent's posture and limit their hip mobility while preserving your own defensive structure and offensive options.
 
-**From Position**: [[Overhook Control]] (Top)
+**From Position**: [[Positions/Overhook Control]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The Whizzer is a fundamental overhook control position that serves as both a pow
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 75% |
-| Failure | [[Overhook Control]] | 15% |
-| Counter | [[Overhook Control]] | 10% |
+| Success | [[Positions/Back Control]] | 75% |
+| Failure | [[Positions/Overhook Control]] | 15% |
+| Counter | [[Positions/Overhook Control]] | 10% |
 
 
 </section>
@@ -245,10 +245,10 @@ The Whizzer is a fundamental overhook control position that serves as both a pow
 
 ## Opponent Counters
 
-- **Opponent switches to opposite underhook, abandoning their trapped arm** (Effectiveness: High) - Your Response: Follow their rotation and establish front headlock position, or transition to the new Whizzer on their switching arm. Don't hold the abandoned Whizzer - flow with their movement. → Leads to [[Overhook Control]]
-- **Opponent drives forward aggressively with their legs, using forward pressure to negate Whizzer control** (Effectiveness: Medium) - Your Response: Use their forward momentum to pull them over you into a rolling back take or sweep. Alternatively, sit to butterfly guard and use the Whizzer to control them in your guard structure. → Leads to [[Back Control]]
-- **Opponent drops their weight and flattens their body, making it difficult to maintain Whizzer leverage** (Effectiveness: Medium) - Your Response: Transition to kimura grip on their trapped arm, or use the Whizzer to roll them to their back. Low posture makes them vulnerable to rolling attacks and leg entanglements. → Leads to [[Overhook Control]]
-- **Opponent grabs your Whizzer arm with their free hand and pulls it away from their body** (Effectiveness: Low) - Your Response: This opens them up significantly - immediately attack their exposed neck with a guillotine or front headlock, or switch to a two-on-one arm control and take the back. → Leads to [[Back Control]]
+- **Opponent switches to opposite underhook, abandoning their trapped arm** (Effectiveness: High) - Your Response: Follow their rotation and establish front headlock position, or transition to the new Whizzer on their switching arm. Don't hold the abandoned Whizzer - flow with their movement. → Leads to [[Positions/Overhook Control]]
+- **Opponent drives forward aggressively with their legs, using forward pressure to negate Whizzer control** (Effectiveness: Medium) - Your Response: Use their forward momentum to pull them over you into a rolling back take or sweep. Alternatively, sit to butterfly guard and use the Whizzer to control them in your guard structure. → Leads to [[Positions/Back Control]]
+- **Opponent drops their weight and flattens their body, making it difficult to maintain Whizzer leverage** (Effectiveness: Medium) - Your Response: Transition to kimura grip on their trapped arm, or use the Whizzer to roll them to their back. Low posture makes them vulnerable to rolling attacks and leg entanglements. → Leads to [[Positions/Overhook Control]]
+- **Opponent grabs your Whizzer arm with their free hand and pulls it away from their body** (Effectiveness: Low) - Your Response: This opens them up significantly - immediately attack their exposed neck with a guillotine or front headlock, or switch to a two-on-one arm control and take the back. → Leads to [[Positions/Back Control]]
 
 
 </section>

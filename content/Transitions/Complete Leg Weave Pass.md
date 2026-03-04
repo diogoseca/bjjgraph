@@ -21,7 +21,7 @@ The pass succeeds or fails based on the passer's ability to manage a fundamental
 
 Within the broader guard passing ecosystem, the Complete Leg Weave Pass functions as the terminal node of multiple passing chains. Whether the passer arrived at the leg weave through a knee slice setup, headquarters sequence, or smash pass entry, the finishing mechanics converge on the same principle: clear the remaining hook while maintaining perpendicular pressure that denies guard recovery. The technique's reliability at high levels makes it a staple of pressure-passing game plans, particularly against opponents with active and persistent half guard retention.
 
-**From Position**: [[Leg Weave]] (Top)
+**From Position**: [[Positions/Leg Weave]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Within the broader guard passing ecosystem, the Complete Leg Weave Pass function
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Leg Weave]] | 25% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Leg Weave]] | 25% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Complete Leg Weave Pass serves as the terminal finishing sequence within the
 ## Related Techniques
 
 
-- [[Leg Weave]] - Source position where this pass begins, providing the control platform for pass completion
+- [[Positions/Leg Weave]] - Source position where this pass begins, providing the control platform for pass completion
 
-- [[Side Control]] - Primary target position achieved upon successful pass completion
+- [[Positions/Side Control]] - Primary target position achieved upon successful pass completion
 
-- [[Backstep from Leg Weave]] - Alternative transition when direct pass completion is blocked by persistent frames
+- [[Transitions/Backstep from Leg Weave]] - Alternative transition when direct pass completion is blocked by persistent frames
 
-- [[Half Guard]] - Common recovery position for defender when pass completion fails
+- [[Positions/Half Guard]] - Common recovery position for defender when pass completion fails
 
-- [[Knee Shield Half Guard]] - Defensive structure the bottom player attempts to re-establish during pass failure
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive structure the bottom player attempts to re-establish during pass failure
 
-- [[Deep Half Guard]] - Counter-entry available to defender during passer's weight transfer phase
+- [[Positions/Half Guard/Deep Half Guard]] - Counter-entry available to defender during passer's weight transfer phase
 
-- [[Headquarters Position]] - Related passing hub that shares pressure distribution and leg threading concepts
+- [[Positions/Headquarters Position]] - Related passing hub that shares pressure distribution and leg threading concepts
 
-- [[Leg Drag Control]] - Alternative passing finish when defender rotates during leg extraction
+- [[Positions/Leg Drag Control]] - Alternative passing finish when defender rotates during leg extraction
 
-- [[Flattened Half Guard]] - Intermediate result when pass partially succeeds but hook is not fully cleared
+- [[Positions/Half Guard/Flattened Half Guard]] - Intermediate result when pass partially succeeds but hook is not fully cleared
 
-- [[Dogfight Position]] - Scramble position that can develop when defender comes up on elbow during pass attempt
+- [[Positions/Dogfight Position]] - Scramble position that can develop when defender comes up on elbow during pass attempt
 
 
 </section>

@@ -21,7 +21,7 @@ The transition itself is subtle rather than explosive. It involves walking your 
 
 Strategically, this transition serves as a force multiplier for your entire top-side game. Once established, the Shoulder of Justice creates a dilemma system where every defensive reaction the bottom player makes opens a specific offensive pathway: pushing with the near arm exposes kimuras, shrimping away allows mount advancement, turning in opens north-south transitions, and bringing the far arm across creates arm triangle opportunities. The transition should be attempted once you have consolidated standard side control and want to escalate offensive pressure without risking positional loss.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 70%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition serves as a force multiplier for your entire top-
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Shoulder of Justice]] | 70% |
-| Failure | [[Side Control]] | 20% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Shoulder of Justice]] | 70% |
+| Failure | [[Positions/Side Control]] | 20% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -195,27 +195,27 @@ The Transition to Shoulder of Justice sits at a critical juncture in the top-sid
 ## Related Techniques
 
 
-- [[Side Control]] - Starting position from which this transition is initiated
+- [[Positions/Side Control]] - Starting position from which this transition is initiated
 
-- [[Shoulder of Justice]] - Target position achieved upon successful transition
+- [[Positions/Shoulder of Justice]] - Target position achieved upon successful transition
 
-- [[Kesa Gatame]] - Alternative side control variation with related pressure concepts
+- [[Positions/Side Control/Kesa Gatame]] - Alternative side control variation with related pressure concepts
 
-- [[Kimura]] - Primary submission available once Shoulder of Justice is established
+- [[Transitions/Kimura]] - Primary submission available once Shoulder of Justice is established
 
-- [[Americana]] - High-percentage submission when opponent extends near arm under pressure
+- [[Transitions/Americana]] - High-percentage submission when opponent extends near arm under pressure
 
-- [[Arm Triangle]] - Submission opportunity when opponent brings far arm across face
+- [[Transitions/Arm Triangle]] - Submission opportunity when opponent brings far arm across face
 
-- [[Side Control to Mount]] - Alternative positional advancement from the same starting position
+- [[Transitions/Side Control to Mount]] - Alternative positional advancement from the same starting position
 
-- [[Knee on Belly]] - Alternative transition if opponent creates too much space during attempt
+- [[Positions/Knee on Belly]] - Alternative transition if opponent creates too much space during attempt
 
-- [[North-South]] - Secondary transition target when opponent turns into pressure
+- [[Positions/North-South]] - Secondary transition target when opponent turns into pressure
 
-- [[Side Control to North-South]] - Related transition sharing the same starting position
+- [[Transitions/Side Control to North-South]] - Related transition sharing the same starting position
 
-- [[Breadcutter Choke]] - Gi-specific submission accessible from nearby pressure angles
+- [[Transitions/Breadcutter Choke]] - Gi-specific submission accessible from nearby pressure angles
 
 
 </section>

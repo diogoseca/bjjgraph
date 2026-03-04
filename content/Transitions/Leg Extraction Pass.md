@@ -21,7 +21,7 @@ The technique centers on systematically breaking the opponent's leg control stru
 
 Strategically, the Leg Extraction Pass occupies a unique position in the BJJ hierarchy because it converts a defensive necessity into an offensive opportunity. Rather than simply escaping back to neutral, a well-executed extraction advances directly into half guard top or even side control, turning the opponent's failed leg attack into a positional disadvantage. This makes it an essential technique for any practitioner competing in modern no-gi grappling where leg entanglements are ubiquitous, as it provides a systematic pathway from danger to dominance without accepting the typical reset to neutral that most leg lock escapes produce.
 
-**From Position**: [[Leg Entanglement]] (Top)
+**From Position**: [[Positions/Leg Entanglement]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, the Leg Extraction Pass occupies a unique position in the BJJ hie
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Success | [[Side Control]] | 10% |
-| Failure | [[Leg Entanglement]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Success | [[Positions/Side Control]] | 10% |
+| Failure | [[Positions/Leg Entanglement]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -199,29 +199,29 @@ The Leg Extraction Pass connects the leg entanglement defense system with the to
 ## Related Techniques
 
 
-- [[Leg Entanglement]] - Starting position — the entanglement configuration the pass escapes from
+- [[Positions/Leg Entanglement]] - Starting position — the entanglement configuration the pass escapes from
 
-- [[Half Guard]] - Primary landing position after successful leg extraction
+- [[Positions/Half Guard]] - Primary landing position after successful leg extraction
 
-- [[Side Control]] - Advanced outcome when extraction is combined with backstep passing
+- [[Positions/Side Control]] - Advanced outcome when extraction is combined with backstep passing
 
-- [[Ashi Garami]] - Specific entanglement variant frequently requiring extraction mechanics
+- [[Positions/Ashi Garami]] - Specific entanglement variant frequently requiring extraction mechanics
 
-- [[Inside Ashi-Garami]] - Dangerous entanglement variant where extraction urgency is highest
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Dangerous entanglement variant where extraction urgency is highest
 
-- [[Saddle]] - Dominant entanglement position requiring immediate extraction before heel hook
+- [[Positions/Ashi Garami/Saddle]] - Dominant entanglement position requiring immediate extraction before heel hook
 
-- [[50-50 Guard]] - Bilateral entanglement where extraction must account for opponent's mirrored control
+- [[Positions/Ashi Garami/50-50 Guard]] - Bilateral entanglement where extraction must account for opponent's mirrored control
 
-- [[Leg Extraction Escape from Entanglement]] - Related escape technique from bottom player perspective in entanglements
+- [[Transitions/Leg Extraction Escape from Entanglement]] - Related escape technique from bottom player perspective in entanglements
 
-- [[Heel Hook Defense Escape]] - Complementary defensive technique addressing the submission threat during extraction
+- [[Transitions/Heel Hook Defense Escape]] - Complementary defensive technique addressing the submission threat during extraction
 
-- [[Knee Slice Pass]] - Follow-up passing technique from the half guard top position after extraction
+- [[Transitions/Knee Slice Pass]] - Follow-up passing technique from the half guard top position after extraction
 
-- [[Backstep Pass from Reverse X-Guard]] - Related passing mechanic using backstep motion to clear leg entanglements
+- [[Transitions/Backstep Pass from Reverse X-Guard]] - Related passing mechanic using backstep motion to clear leg entanglements
 
-- [[Guard Pass from Leg Entanglement]] - Alternative passing pathway that addresses entanglements through different mechanics
+- [[Transitions/Guard Pass from Leg Entanglement]] - Alternative passing pathway that addresses entanglements through different mechanics
 
 
 </section>

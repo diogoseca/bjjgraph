@@ -182,7 +182,7 @@ As the attacker executing this transition, your objective is to methodically dis
 
 The key insight is that you are not simply removing a hook but replacing it with a more favorable leg entanglement. As one butterfly hook is cleared, your leg passes through and becomes trapped in a half guard configuration. This is a deliberate trade: you exchange the dangerous bilateral elevator threat of full butterfly for the asymmetric and more controllable butterfly half guard, where you have superior passing options and the bottom player's sweeping power is significantly reduced.
 
-**From Position**: [[Butterfly Guard]] (Top)
+**From Position**: [[Positions/Butterfly Guard]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The key insight is that you are not simply removing a hook but replacing it with
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Butterfly Half Guard]] | 65% |
-| Failure | [[Butterfly Guard]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard/Butterfly Half Guard]] | 65% |
+| Failure | [[Positions/Butterfly Guard]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ The key insight is that you are not simply removing a hook but replacing it with
 
 ## Opponent Counters
 
-- **Opponent re-inserts butterfly hook before you settle into half guard position** (Effectiveness: High) - Your Response: Immediately re-compress by driving knees together again and restarting the hook clearing sequence. Focus on maintaining tighter chest contact during the transition to eliminate the space needed for re-insertion. Consider switching to the opposite hook if the first target proves difficult to clear. → Leads to [[Butterfly Guard]]
-- **Opponent transitions to X-Guard or single leg X during hook clearing attempt** (Effectiveness: High) - Your Response: As soon as you feel a foot on your hip, immediately retract your step and squat your hips low to remove the elevation platform they need for X-Guard. Re-establish combat base and fight to remove the foot from your hip before re-attempting the hook clear. → Leads to [[Half Guard]]
-- **Opponent uses arm drag to take the back during the weight shift** (Effectiveness: Medium) - Your Response: Maintain strong elbow connection to your body throughout the transition and never extend your arms away from your torso during the clearing sequence. If you feel the arm drag initiating, immediately post your hand on the mat on the drag side and turn your hips toward the opponent to face them rather than giving your back. → Leads to [[Half Guard]]
-- **Opponent elevates with remaining hook during hook clearing to initiate sweep** (Effectiveness: Medium) - Your Response: Post your free hand wide on the mat to create an immediate base point against the elevation. Keep your cleared-side leg posted wide for stability. If the elevation is strong, abort the transition temporarily and reset your base before re-attempting. → Leads to [[Butterfly Guard]]
+- **Opponent re-inserts butterfly hook before you settle into half guard position** (Effectiveness: High) - Your Response: Immediately re-compress by driving knees together again and restarting the hook clearing sequence. Focus on maintaining tighter chest contact during the transition to eliminate the space needed for re-insertion. Consider switching to the opposite hook if the first target proves difficult to clear. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent transitions to X-Guard or single leg X during hook clearing attempt** (Effectiveness: High) - Your Response: As soon as you feel a foot on your hip, immediately retract your step and squat your hips low to remove the elevation platform they need for X-Guard. Re-establish combat base and fight to remove the foot from your hip before re-attempting the hook clear. → Leads to [[Positions/Half Guard]]
+- **Opponent uses arm drag to take the back during the weight shift** (Effectiveness: Medium) - Your Response: Maintain strong elbow connection to your body throughout the transition and never extend your arms away from your torso during the clearing sequence. If you feel the arm drag initiating, immediately post your hand on the mat on the drag side and turn your hips toward the opponent to face them rather than giving your back. → Leads to [[Positions/Half Guard]]
+- **Opponent elevates with remaining hook during hook clearing to initiate sweep** (Effectiveness: Medium) - Your Response: Post your free hand wide on the mat to create an immediate base point against the elevation. Keep your cleared-side leg posted wide for stability. If the elevation is strong, abort the transition temporarily and reset your base before re-attempting. → Leads to [[Positions/Butterfly Guard]]
 
 
 </section>

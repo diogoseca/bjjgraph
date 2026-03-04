@@ -146,7 +146,7 @@ description: "How to defend against Arm Drag to Back in BJJ. Recognition cues, d
 
 Defending the arm drag to back requires understanding the attacker's mechanical sequence and intervening at the earliest possible stage. The arm drag operates on a chain of events: grip establishment, diagonal pull across centerline, hip escape to create angle, and circular rotation to the back. As the defender, your highest-percentage interventions occur early in this chain, specifically at the grip fighting and initial pull phases. Once the attacker has crossed your arm past your centerline and achieved a perpendicular angle, recovery becomes exponentially more difficult. The defender must prioritize arm retraction and posture maintenance over reactive scrambling. Effective defense requires understanding that the arm drag exploits forward weight commitment, so managing your weight distribution and keeping your arms in a protected position are the primary preventive measures. When the drag is initiated despite your prevention efforts, the critical defensive window is the first two seconds: you must either recover your dragged arm, establish a whizzer to block rotation, or immediately turn to face the attacker before they complete the circle to your back.
 
-**Opponent's Starting Position**: [[Butterfly Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the arm drag to back requires understanding the attacker's mechanical 
 ### 1. Immediate arm retraction with elbow pull to hip
 
 - **When to use**: At the moment you feel the initial grip on your wrist and before the diagonal pull crosses your centerline
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: You recover your arm to a protected position and deny the attacker the grip control needed to execute the drag, resetting to neutral butterfly guard engagement
 - **Risk**: If you retract too slowly, the attacker may have already established the angle and your retraction pulls you further off balance in their direction
 
 ### 2. Establish whizzer overhook on the dragged arm and drive weight forward
 
 - **When to use**: When the arm has been dragged past your centerline but the attacker has not yet completed the hip escape to perpendicular angle
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: The whizzer blocks the attacker's rotation around your body by creating a connection point that prevents them from circling to your back, allowing you to square up and re-establish guard position
 - **Risk**: A high whizzer without hip pressure can be countered by a duck under to the opposite side, giving the attacker back access from the other direction
 
 ### 3. Aggressive turn-in with crossface and re-square shoulders
 
 - **When to use**: When the attacker has achieved a perpendicular angle but has not yet secured the seat belt or inserted hooks behind you
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: You face the attacker and can establish a dominant top position since their guard structure is compromised from the failed drag attempt, potentially ending up in their guard or achieving a pass
 - **Risk**: If the attacker maintains head pressure on your ribs during your turn, they can follow your rotation and complete the back take despite your turning effort
 
 ### 4. Sit back and create distance while stripping wrist grip
 
 - **When to use**: When you feel the initial pull and have sufficient space to disengage by moving your hips backward away from the attacker
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: You break the attacker's grip connection and create enough distance that they cannot complete the drag, forcing them to re-engage and re-establish grips from neutral
 - **Risk**: Sitting back concedes ground and may expose you to follow-up attacks such as single leg X entries or front headlock if the attacker follows your retreat
 
@@ -217,11 +217,11 @@ Defending the arm drag to back requires understanding the attacker's mechanical 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 React early to the grip establishment by retracting your arm before the diagonal pull crosses your centerline. Strip the wrist grip using your free hand, pull your elbow tight to your hip, and re-square your shoulders to face the attacker. Re-establish your own grips and postural control to return to neutral butterfly guard engagement.
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 When the attacker commits to the hip escape and rotation, aggressively turn into them with a crossface and drive your weight forward. Their guard structure is compromised because they are mid-rotation with hooks disengaged. Use the momentum of your turn-in combined with forward pressure to collapse their butterfly guard and establish a passing position or top control.
 

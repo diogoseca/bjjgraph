@@ -21,7 +21,7 @@ The escape follows a strict operational sequence: first defending the neck again
 
 Strategic integration of this escape with other back escape methods creates a layered defensive system. When the elbow escape is defended, the opponent's adjustments often create openings for alternative escapes such as the back door escape to turtle or turning to face for guard recovery. Conversely, failed attempts at other escapes can set up the elbow escape by forcing the back controller to make positional adjustments that expose their hooks to elbow framing. This interconnection makes the elbow escape a central component of any comprehensive back defense system rather than an isolated technique.
 
-**From Position**: [[Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategic integration of this escape with other back escape methods creates a la
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The elbow escape from back control integrates into the broader back escape syste
 ## Related Techniques
 
 
-- [[Back Control]] - Source position from which this escape is executed, representing the most dominant position in BJJ
+- [[Positions/Back Control]] - Source position from which this escape is executed, representing the most dominant position in BJJ
 
-- [[Half Guard]] - Primary success target position where the escaper establishes leg entanglement after completing the turn
+- [[Positions/Half Guard]] - Primary success target position where the escaper establishes leg entanglement after completing the turn
 
-- [[Mount]] - Counter outcome position when the back controller follows the escape turn and establishes mount
+- [[Positions/Mount]] - Counter outcome position when the back controller follows the escape turn and establishes mount
 
-- [[Back Door Escape]] - Alternative escape from back control targeting turtle position, often chained with elbow escape attempts
+- [[Transitions/Back Door Escape]] - Alternative escape from back control targeting turtle position, often chained with elbow escape attempts
 
-- [[Body Triangle Escape to Half Guard]] - Related escape technique required when opponent uses body triangle instead of standard hooks
+- [[Transitions/Body Triangle Escape to Half Guard]] - Related escape technique required when opponent uses body triangle instead of standard hooks
 
-- [[Body Triangle Escape to Side Control]] - Alternative body triangle escape pathway that addresses the same positional problem with different outcome
+- [[Transitions/Body Triangle Escape to Side Control]] - Alternative body triangle escape pathway that addresses the same positional problem with different outcome
 
-- [[Turtle]] - Intermediate escape position accessible when elbow escape transitions to back door escape midway through sequence
+- [[Positions/Turtle]] - Intermediate escape position accessible when elbow escape transitions to back door escape midway through sequence
 
-- [[Body Triangle]] - Back control variation requiring modified escape approach before standard elbow escape can proceed
+- [[Positions/Back Control/Body Triangle]] - Back control variation requiring modified escape approach before standard elbow escape can proceed
 
-- [[Seat Belt Control Back]] - Specific grip configuration that the escape directly addresses through the seatbelt stripping phase
+- [[Positions/Back Control/Seat Belt Control Back]] - Specific grip configuration that the escape directly addresses through the seatbelt stripping phase
 
-- [[Back Control Maintenance]] - Opponent's primary retention technique that the elbow escape must overcome through systematic framing
+- [[Transitions/Back Control Maintenance]] - Opponent's primary retention technique that the elbow escape must overcome through systematic framing
 
 
 </section>

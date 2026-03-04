@@ -146,7 +146,7 @@ description: "Counter your opponent's choke defense from crucifix top. Maintain 
 
 As the top player in crucifix attempting to finish a choke, you become the defender of the Crucifix Choke Defense transition—your opponent is actively fighting to neutralize your submission attempt. Your role is to maintain choking pressure against their grip fighting, defeat their defensive structures, and recognize when to switch attacks rather than forcing a defended choke. Understanding how the bottom player defends enables you to anticipate their movements, counter their grip fighting, and exploit the moments when their attention shifts between choke defense and escape. The most successful finishers from crucifix recognize that the bottom player's defensive reactions create predictable patterns that can be systematically exploited through attack switching and angle adjustment.
 
-**Opponent's Starting Position**: [[Crucifix]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Crucifix]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ As the top player in crucifix attempting to finish a choke, you become the defen
 ### 1. Trap the free defensive hand by overhooking or pinning it before re-applying choke pressure from a new angle
 
 - **When to use**: When the bottom player's free hand is positioned statically near their neck rather than actively grip fighting—a momentary pause in their defense creates the window to control the hand
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Bottom player loses their primary defensive tool, making the choke virtually impossible to defend and forcing a tap
 - **Risk**: If the hand trap fails, you may lose choking position temporarily while the bottom player exploits the disruption to advance their escape
 
 ### 2. Switch to arm-in choke variation that threads inside the defending hand, bypassing the standard grip fighting defense
 
 - **When to use**: When the bottom player is effectively stripping your standard rear naked choke grip but has not adjusted their chin defense to account for arm-in variations
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: The arm-in variation closes around the neck from a different angle that the standard defense does not protect, often catching the defender off-guard
 - **Risk**: Arm-in chokes require releasing the standard choking grip momentarily, creating a brief window where the bottom player can advance their escape
 
 ### 3. Transition to mounted crucifix by swinging the outside leg over to mount while maintaining arm traps and neck pressure
 
 - **When to use**: When choke defense is well-established and the bottom player is beginning to integrate hip escape into their defense, threatening to reach turtle
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: Mount pressure combined with arm traps creates an even more dominant position with gravity-assisted choke mechanics and additional submission options
 - **Risk**: The transition temporarily disrupts your weight distribution and leg triangle, creating a window for the bottom player to extract the trapped arm or escape to turtle
 
 ### 4. Abandon choke and attack the extended armbar on the trapped arm or switch to a neck crank variation
 
 - **When to use**: When choke defense is too strong to overcome and continuing choke attempts risks positional deterioration—the bottom player has committed both hands to neck defense leaving the trapped arm vulnerable
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Forces the bottom player to redirect their defense to the arm attack, potentially reopening neck access for the choke on the next cycle
 - **Risk**: Releasing the choking attempt to attack the arm gives the bottom player a brief window to focus entirely on arm extraction and escape
 
@@ -216,11 +216,11 @@ As the top player in crucifix attempting to finish a choke, you become the defen
 
 ## Best-Case Outcomes for Defender
 
-### → [[Crucifix]]
+### → [[Positions/Crucifix]]
 
 Maintain choking pressure while defeating the bottom player's grip fighting through hand trapping, angle changes, or attack switching. The bottom player remains trapped with the choke threat persistent, forcing continued energy expenditure on defense rather than escape.
 
-### → [[Mounted Crucifix]]
+### → [[Positions/Mount/Mounted Crucifix]]
 
 When standard crucifix choke is well-defended, transition to mounted crucifix by swinging the outside leg over to mount position while maintaining arm traps. Time the transition during the bottom player's grip fighting when their attention is focused on your hands rather than your legs.
 

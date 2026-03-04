@@ -21,7 +21,7 @@ Strategically, Triangle from Mount functions as a chain-attack catalyst. When th
 
 At competition level, the mounted triangle is devastating because it combines positional dominance with immediate submission threat. The attacker retains mount points while threatening a blood choke, and failed defense typically leads to armbar or back take opportunities rather than positional loss. The key challenge is managing the transition moment when the leg swings over—this brief window of instability is where most failures occur, making timing and weight distribution the critical variables for success.
 
-**From Position**: [[3-4 Mount]] (Top)
+**From Position**: [[Positions/Mount/3-4 Mount]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ At competition level, the mounted triangle is devastating because it combines po
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mounted Triangle]] | 55% |
-| Failure | [[3-4 Mount]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Mount/Mounted Triangle]] | 55% |
+| Failure | [[Positions/Mount/3-4 Mount]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ Triangle from Mount occupies a central role in the mount attack system, function
 ## Related Techniques
 
 
-- [[3-4 Mount]] - Starting position—the asymmetric mount configuration from which this triangle setup is executed
+- [[Positions/Mount/3-4 Mount]] - Starting position—the asymmetric mount configuration from which this triangle setup is executed
 
-- [[Mounted Triangle]] - Target position—the control position reached on successful execution of this transition
+- [[Positions/Mount/Mounted Triangle]] - Target position—the control position reached on successful execution of this transition
 
-- [[Armbar from Mount]] - Chain attack—primary alternative when opponent defends the triangle by extending an arm
+- [[Submissions/Armbar from Mount]] - Chain attack—primary alternative when opponent defends the triangle by extending an arm
 
-- [[Americana from Mount]] - Setup attack—Americana threats force arm extension that creates the arm-in/arm-out configuration for triangle entry
+- [[Submissions/Americana from Mount]] - Setup attack—Americana threats force arm extension that creates the arm-in/arm-out configuration for triangle entry
 
-- [[Ezekiel from Mount]] - Complementary attack—Ezekiel threat forces defensive arm movement that opens triangle entries
+- [[Submissions/Ezekiel from Mount]] - Complementary attack—Ezekiel threat forces defensive arm movement that opens triangle entries
 
-- [[High Mount Transition]] - Alternative entry—advancing to high mount provides a different triangle entry angle
+- [[Transitions/High Mount Transition]] - Alternative entry—advancing to high mount provides a different triangle entry angle
 
-- [[S-Mount Transition]] - Variant entry—S-Mount provides shortened leg swing distance for triangle setup
+- [[Transitions/S-Mount Transition]] - Variant entry—S-Mount provides shortened leg swing distance for triangle setup
 
-- [[Back Take from Top]] - Chain attack—available when opponent turns away to defend the triangle
+- [[Transitions/Back Take from Top]] - Chain attack—available when opponent turns away to defend the triangle
 
-- [[Triangle Control]] - Related position—shares triangle mechanics but from guard rather than mount
+- [[Positions/Triangle Control]] - Related position—shares triangle mechanics but from guard rather than mount
 
-- [[Closed Guard to Triangle]] - Related transition—guard-based triangle entry with different strategic context and defensive challenges
+- [[Transitions/Closed Guard to Triangle]] - Related transition—guard-based triangle entry with different strategic context and defensive challenges
 
 
 </section>

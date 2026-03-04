@@ -158,7 +158,7 @@ The defender's primary strategic advantage is that the triangle entry from Missi
 
 The defender must operate on multiple defensive timelines simultaneously. The immediate priority is preventing the leg from crossing the face entirely. If the leg crosses, the next priority is preventing the figure-four lock by maintaining head position and shoulder width. If the lock establishes, the final priority is preventing the angle cut by controlling the bottom player's hips and maintaining square alignment. Each defensive phase has specific techniques and timing requirements, and understanding this layered defense is essential for surviving against skilled rubber guard practitioners who chain the triangle with omoplata and armbar threats.
 
-**Opponent's Starting Position**: [[Mission Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ The defender must operate on multiple defensive timelines simultaneously. The im
 ### 1. Drive forward with stacking pressure and tuck chin to the trapped arm side before the leg fully crosses the face, collapsing the space the bottom player needs to complete the triangle entry
 
 - **When to use**: The moment you detect the outside leg lifting off your far shoulder and beginning to travel toward your face, before the figure-four can be established
-- **Targets**: [[Mission Control]]
+- **Targets**: [[Positions/Rubber Guard/Mission Control]]
 - **If successful**: The stacking pressure prevents the leg from crossing, the bottom player is forced to retract the leg and re-establish Mission Control, resetting to the previous control position
 - **Risk**: If the leg is already partially across when you stack, the forward pressure can actually assist the omoplata transition, putting you in a worse submission threat
 
 ### 2. Extract the trapped arm to the outside by rotating the elbow outward and pulling the arm through while the bottom player's attention is split between maintaining head control and transitioning the leg
 
 - **When to use**: During the transition window when the bottom player temporarily reduces head control to facilitate the leg swing, creating a brief moment where arm isolation weakens
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Without the arm trapped inside, the triangle has no choking structure even if the legs lock. You escape to a neutral closed guard position where you can restart your passing progression
 - **Risk**: The arm extraction movement can extend your arm, making it vulnerable to an immediate armbar if the bottom player recognizes the escape and pivots to arm isolation rather than completing the triangle
 
 ### 3. Stand up explosively while keeping posture low and head turned, using height and hip extension to break the bottom player's high guard structure and deny the triangle lock
 
 - **When to use**: When you feel the bottom player's hip elevation momentarily drop or their grip control weaken, indicating a window where the structural integrity of Mission Control is compromised
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Standing breaks the high guard configuration entirely, forcing the bottom player to release the rubber guard and transition to open guard retention. You achieve a standing passing position with initiative
 - **Risk**: If the bottom player maintains deep head control during your standing attempt, they can use your upward momentum to accelerate the triangle entry. Failed standing attempts waste significant energy and can leave you more compromised than before
 
 ### 4. Square your hips and drive the trapped elbow into the bottom player's inner thigh to prevent the perpendicular angle after the figure-four has already locked
 
 - **When to use**: When the triangle has locked but the bottom player has not yet cut the angle, giving you a defensive window to deny the choking geometry before arterial compression begins
-- **Targets**: [[Mission Control]]
+- **Targets**: [[Positions/Rubber Guard/Mission Control]]
 - **If successful**: Denying the angle converts the triangle from a choke into a squeeze with no arterial compression, buying time to work systematic escape sequences from inside the locked but ineffective triangle
 - **Risk**: The bottom player may abandon the triangle choke finish and instead transition to armbar or omoplata, using your angle denial as the setup for their chain attack
 
@@ -228,15 +228,15 @@ The defender must operate on multiple defensive timelines simultaneously. The im
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mission Control]]
+### → [[Positions/Rubber Guard/Mission Control]]
 
 Prevent the leg from crossing by driving forward with immediate stacking pressure the moment the outside leg lifts. Keep chin tucked and head turned to the trapped arm side to deny space for the leg to travel across your face. If the triangle attempt fails, the bottom player must re-establish Mission Control, giving you an opportunity to restart your escape sequence from the control position with knowledge of their attack timing.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Extract the trapped arm during the transition window when the bottom player reduces head control to facilitate the leg swing. Rotate the elbow outward and pull through forcefully while the bottom player's grip is split between head control and leg transition. With the arm freed, the shoulder isolation that defines Mission Control is broken, and you can begin systematic posture recovery to return to a standard closed guard top position where passing becomes viable.
 
-### → [[Headquarters Position]]
+### → [[Positions/Headquarters Position]]
 
 Time a standing break during a moment of reduced hip elevation or grip fatigue from the bottom player. Drive both feet underneath you and extend hips while keeping head low and turned. The standing motion must be committed and explosive to break through the high guard before the bottom player can adjust. Once standing, immediately step one leg back into headquarters position and begin establishing passing grips before they can re-guard or pull you back into rubber guard.
 

@@ -146,7 +146,7 @@ description: "How to maintain your guillotine choke against defensive escape att
 
 As the guillotine attacker facing a knowledgeable defender, your challenge is to prevent their systematic dismantling of your choke mechanics. The defender will attempt to frame against your wrist to neutralize the fulcrum, create hip distance to remove your body leverage, and circle toward your choking arm side to break the submission's structural alignment. Your role is to recognize each stage of their defense and apply the appropriate counter before they can complete the escape sequence. The most critical windows are the first two seconds after establishing the guillotine (before they insert a defensive frame) and the moment they attempt to circle (when you can switch grip configurations or pull guard to re-establish leverage). Understanding defensive mechanics from the attacker's perspective allows you to stay one step ahead, tightening your choke in response to their escape attempts rather than losing control. The best guillotine attackers treat the opponent's defense as a roadmap, using each defensive movement to predict the next and preemptively shut it down.
 
-**Opponent's Starting Position**: [[Front Headlock]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ As the guillotine attacker facing a knowledgeable defender, your challenge is to
 ### 1. Pull closed guard immediately when you feel their hip distance increasing, locking your feet behind their back to restore hip-to-hip connection and re-establish the body fulcrum
 
 - **When to use**: As soon as you feel the defender stepping back or sprawling to create hip distance - this must be timed before they achieve full separation
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: Closed guard restores your hip leverage, making the choke significantly tighter and forcing them to address guard opening before they can continue the escape
 - **Risk**: If you pull guard too late after they have posture, you may end up on bottom with a loose guillotine that they can easily defend and pass
 
 ### 2. Switch to high-elbow guillotine configuration by rotating your choking elbow upward toward the ceiling, changing the fulcrum from wrist to elbow crease
 
 - **When to use**: When the defender successfully pushes your wrist down and reduces standard guillotine pressure - the grip switch exploits a new angle they have not yet addressed
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: High-elbow configuration creates a tighter choke with a different mechanical structure, forcing the defender to restart their defense sequence against a more dangerous variation
 - **Risk**: The grip transition momentarily loosens pressure, potentially giving them the window to complete their escape if your switch is slow
 
 ### 3. Trap their defending arm inside the choke by transitioning to arm-in guillotine, removing their primary defensive frame from the equation
 
 - **When to use**: When the defender inserts their near-side hand between your forearm and their neck - use their frame insertion to trap the arm inside the choke
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Arm-in guillotine removes their primary frame and changes the defensive requirements entirely, often catching them off guard as they must switch to a completely different escape direction
 - **Risk**: Arm-in guillotines require posture break to finish; if they maintain rigid spine posture, the arm-in variation may be less effective than your original grip
 
 ### 4. Follow their circling motion by stepping with them and re-centering the choke angle, preventing the structural breakdown they are seeking
 
 - **When to use**: When the defender begins circling toward your choking arm side with their shoulder driving forward toward your hip
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Maintaining alignment neutralizes the benefit of their circular movement, keeping choking pressure consistent and forcing them to find an alternative escape strategy
 - **Risk**: Following aggressively can compromise your own base, potentially allowing them to off-balance you if they suddenly change direction
 
@@ -218,11 +218,11 @@ As the guillotine attacker facing a knowledgeable defender, your challenge is to
 
 ## Best-Case Outcomes for Defender
 
-### → [[Guillotine Control]]
+### → [[Positions/Guillotine Control]]
 
 Pull guard immediately when feeling hip distance creation to restore body leverage, or switch to high-elbow grip when standard choke pressure is reduced. Maintaining the guillotine from closed guard with hip elevation provides the highest percentage finishing position, forcing the defender to address both your guard and the choke simultaneously.
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 If the defender begins to neutralize choking pressure but has not completed head extraction, maintain front headlock control and re-establish the guillotine grip from a better angle. Use the moment between their pressure relief and escape attempt to switch grip variations. Even a failed guillotine attempt from front headlock leaves you with continued submission threats including anaconda and darce options.
 

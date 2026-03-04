@@ -24,8 +24,8 @@ The submission is particularly dangerous because the pain can be delayed, meanin
 **Category**: Compression
 **Type**: Leg Compression
 **Target Area**: Calf muscle and Achilles tendon
-**Starting Position**: [[50-50 Guard]]
-**From Position**: [[50-50 Guard]] (Top)
+**Starting Position**: [[Positions/Ashi Garami/50-50 Guard]]
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -80,9 +80,9 @@ The submission is particularly dangerous because the pain can be delayed, meanin
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[Half Guard]] | 15% |
-| Counter | [[Open Guard]] | 10% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -238,13 +238,13 @@ The submission is particularly dangerous because the pain can be delayed, meanin
 
 ## From Which Positions?
 
-- [[50-50 Guard]]
-- [[Truck]]
-- [[Deep Half Guard]]
-- [[Honey Hole]]
-- [[Inside Ashi-Garami]]
-- [[Lockdown]]
-- [[Leg Entanglement]]
+- [[Positions/Ashi Garami/50-50 Guard]]
+- [[Positions/Twister Control/Truck]]
+- [[Positions/Half Guard/Deep Half Guard]]
+- [[Positions/Ashi Garami/Honey Hole]]
+- [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- [[Positions/Half Guard/Lockdown]]
+- [[Positions/Leg Entanglement]]
 
 
 </section>
@@ -253,18 +253,18 @@ The submission is particularly dangerous because the pain can be delayed, meanin
 
 ## Related Submissions
 
-- [[Calf Slicer from 50-50]]
-- [[Calf Slicer from Truck]]
-- [[Heel Hook]]
-- [[Inside Heel Hook]]
-- [[Kneebar]]
-- [[Kneebar from 50-50]]
-- [[Toe Hold]]
-- [[Twister]]
-- [[Banana Split]]
-- [[Bicep Slicer]]
-- [[Achilles Lock]]
-- [[Straight Ankle Lock]]
+- [[Submissions/Calf Slicer from 50-50]]
+- [[Submissions/Calf Slicer from Truck]]
+- [[Transitions/Heel Hook]]
+- [[Submissions/Inside Heel Hook]]
+- [[Transitions/Kneebar]]
+- [[Submissions/Kneebar from 50-50]]
+- [[Transitions/Toe Hold]]
+- [[Submissions/Twister]]
+- [[Submissions/Banana Split]]
+- [[Submissions/Bicep Slicer]]
+- [[Submissions/Achilles Lock]]
+- [[Submissions/Straight Ankle Lock]]
 
 
 </section>
@@ -273,17 +273,17 @@ The submission is particularly dangerous because the pain can be delayed, meanin
 
 ## Additional Related Content
 
-- [[50-50 Guard]] - Primary attacking position for lower body Calf Slicer entries
-- [[Truck]] - Highest percentage attacking position for Calf Slicer finish
-- [[Honey Hole]] - Alternative leg entanglement position with Calf Slicer options
-- [[Heel Hook]] - Primary alternative submission in leg entanglement sequences
-- [[Kneebar]] - Joint lock alternative when Calf Slicer position is available
-- [[Twister]] - Primary submission from Truck when opponent defends Calf Slicer
-- [[Banana Split]] - Similar compression-based submission targeting different muscle groups
-- [[Leg Entanglement]] - Fundamental principle underlying all Calf Slicer positions
-- [[Inside Ashi-Garami]] - Leg entanglement position allowing transitions to Calf Slicer
-- [[Back Control]] - Position accessible from Truck when Calf Slicer is defended
-- [[Deep Half Guard]] - Guard position offering opportunistic Calf Slicer entries
+- [[Positions/Ashi Garami/50-50 Guard]] - Primary attacking position for lower body Calf Slicer entries
+- [[Positions/Twister Control/Truck]] - Highest percentage attacking position for Calf Slicer finish
+- [[Positions/Ashi Garami/Honey Hole]] - Alternative leg entanglement position with Calf Slicer options
+- [[Transitions/Heel Hook]] - Primary alternative submission in leg entanglement sequences
+- [[Transitions/Kneebar]] - Joint lock alternative when Calf Slicer position is available
+- [[Submissions/Twister]] - Primary submission from Truck when opponent defends Calf Slicer
+- [[Submissions/Banana Split]] - Similar compression-based submission targeting different muscle groups
+- [[Positions/Leg Entanglement]] - Fundamental principle underlying all Calf Slicer positions
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Leg entanglement position allowing transitions to Calf Slicer
+- [[Positions/Back Control]] - Position accessible from Truck when Calf Slicer is defended
+- [[Positions/Half Guard/Deep Half Guard]] - Guard position offering opportunistic Calf Slicer entries
 
 
 </section>

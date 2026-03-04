@@ -205,49 +205,49 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 ## Available Attacks
 
-### [[Side Control to Mount]] (21% of attempts)
+### [[Transitions/Side Control to Mount]] (21% of attempts)
 
-### [[Americana]] (11% of attempts)
+### [[Transitions/Americana]] (11% of attempts)
 
-### [[Kimura]] (10% of attempts)
+### [[Transitions/Kimura]] (10% of attempts)
 
-### [[Knee on Belly]] (10% of attempts)
+### [[Positions/Knee on Belly]] (10% of attempts)
 
-### [[Side Control to North-South]] (7% of attempts)
+### [[Transitions/Side Control to North-South]] (7% of attempts)
 
-### [[Arm Triangle]] (7% of attempts)
+### [[Transitions/Arm Triangle]] (7% of attempts)
 
-### [[Armbar Finish]] (3% of attempts)
+### [[Transitions/Armbar Finish]] (3% of attempts)
 
-### [[Side Control to Kesa Gatame]] (3% of attempts)
+### [[Transitions/Side Control to Kesa Gatame]] (3% of attempts)
 
-### [[Side Control to Side Control Consolidation]] (2% of attempts)
+### [[Transitions/Side Control to Side Control Consolidation]] (2% of attempts)
 
-### [[Side Control to Shoulder of Justice]] (2% of attempts)
+### [[Transitions/Side Control to Shoulder of Justice]] (2% of attempts)
 
-### [[North-South Choke]] (2% of attempts)
+### [[Transitions/North-South Choke]] (2% of attempts)
 
-### [[Breadcutter Choke]] (2% of attempts)
+### [[Transitions/Breadcutter Choke]] (2% of attempts)
 
-### [[Side Control to Scarf Hold Position]] (2% of attempts)
+### [[Transitions/Side Control to Scarf Hold Position]] (2% of attempts)
 
-### [[Americana from Side Control]] (2% of attempts)
+### [[Submissions/Americana from Side Control]] (2% of attempts)
 
-### [[Arm Crush]] (2% of attempts)
+### [[Submissions/Arm Crush]] (2% of attempts)
 
-### [[Armbar from Side Control]] (2% of attempts)
+### [[Submissions/Armbar from Side Control]] (2% of attempts)
 
-### [[Far Side Armbar]] (2% of attempts)
+### [[Submissions/Far Side Armbar]] (2% of attempts)
 
-### [[Kimura from Side Control]] (2% of attempts)
+### [[Submissions/Kimura from Side Control]] (2% of attempts)
 
-### [[Kneebar from Top]] (2% of attempts)
+### [[Submissions/Kneebar from Top]] (2% of attempts)
 
-### [[Marce Choke]] (2% of attempts)
+### [[Submissions/Marce Choke]] (2% of attempts)
 
-### [[Mir Lock]] (2% of attempts)
+### [[Submissions/Mir Lock]] (2% of attempts)
 
-### [[Triangle Choke Side]] (2% of attempts)
+### [[Submissions/Triangle Choke Side]] (2% of attempts)
 
 
 
@@ -258,28 +258,28 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 ## Decision Making from This Position
 
 **If opponent's near arm is extended or pushing against your neck or head:**
-- Execute **[[Americana]]** → [[Game Over]] (Probability: 50%)
-- Execute **[[Kimura]]** → [[Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Americana]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Game Over]] (Probability: 45%)
 
 
 **If opponent creates space by bridging or frames with both arms:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Knee on Belly]]** → [[Knee on Belly]] (Probability: 55%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Positions/Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 55%)
 
 
 **If opponent turns into you attempting to recover guard:**
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 70%)
-- Execute **[[Darce Choke]]** → [[Game Over]] (Probability: 35%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
+- Execute **[[Transitions/Darce Choke]]** → [[Positions/Game Over]] (Probability: 35%)
 
 
 **If opponent's far arm crosses their own neck while defending:**
-- Execute **[[Arm Triangle]]** → [[Game Over]] (Probability: 55%)
-- Execute **[[Breadcutter Choke]]** → [[Game Over]] (Probability: 40%)
+- Execute **[[Transitions/Arm Triangle]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Transitions/Breadcutter Choke]]** → [[Positions/Game Over]] (Probability: 40%)
 
 
 **If opponent attempts to insert knee for half guard recovery:**
-- Execute **[[Knee on Belly]]** → [[Knee on Belly]] (Probability: 65%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Positions/Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 
@@ -381,18 +381,18 @@ Partner attempts specific escape such as elbow escape, bridge and roll, or turni
 
 ## Related Positions and Techniques
 
-- **[[Mount]]** - Primary advancement target from side control offering higher point value
-- **[[North-South]]** - Alternative dominant position via transition when opponent turns into you
-- **[[Knee on Belly]]** - Transitional control position for point scoring and mobility
-- **[[Kesa Gatame]]** - Variation of side control with different control mechanics and head emphasis
-- **[[Scarf Hold Position]]** - Related holding position with head control emphasis
-- **[[Half Guard]]** - Common escape target for bottom player attempting guard recovery
-- **[[Back Control]]** - Advanced position when opponent turns incorrectly during escape
-- **[[Americana]]** - Primary shoulder lock submission transition from this position
-- **[[Kimura]]** - High-percentage shoulder lock transition with back take potential
-- **[[Arm Triangle]]** - Head and arm choke available when opponent defends arms incorrectly
-- **[[Darce Choke]]** - Effective choke when opponent turns into you from bottom
-- **[[North-South Choke]]** - Powerful submission from north-south transition
+- **[[Positions/Mount]]** - Primary advancement target from side control offering higher point value
+- **[[Positions/North-South]]** - Alternative dominant position via transition when opponent turns into you
+- **[[Positions/Knee on Belly]]** - Transitional control position for point scoring and mobility
+- **[[Positions/Side Control/Kesa Gatame]]** - Variation of side control with different control mechanics and head emphasis
+- **[[Positions/Side Control/Scarf Hold Position]]** - Related holding position with head control emphasis
+- **[[Positions/Half Guard]]** - Common escape target for bottom player attempting guard recovery
+- **[[Positions/Back Control]]** - Advanced position when opponent turns incorrectly during escape
+- **[[Transitions/Americana]]** - Primary shoulder lock submission transition from this position
+- **[[Transitions/Kimura]]** - High-percentage shoulder lock transition with back take potential
+- **[[Transitions/Arm Triangle]]** - Head and arm choke available when opponent defends arms incorrectly
+- **[[Transitions/Darce Choke]]** - Effective choke when opponent turns into you from bottom
+- **[[Transitions/North-South Choke]]** - Powerful submission from north-south transition
 
 
 </section>

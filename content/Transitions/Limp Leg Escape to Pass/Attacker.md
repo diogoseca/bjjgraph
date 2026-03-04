@@ -178,7 +178,7 @@ This escape exemplifies the counter-intuitive nature of high-level grappling def
 
 The technique integrates seamlessly with standard half guard passing strategies. Once the leg is extracted through the limp leg mechanics, the top player can immediately transition to knee slice, smash pass, or other high-percentage passing sequences. Understanding this escape is essential for any practitioner facing lockdown-based half guards, as it provides the primary pathway out of an otherwise dangerous position.
 
-**From Position**: [[Electric Chair]] (Top)
+**From Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ The technique integrates seamlessly with standard half guard passing strategies.
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 65% |
-| Failure | [[Electric Chair]] | 25% |
-| Counter | [[Deep Half Guard]] | 10% |
+| Success | [[Positions/Half Guard]] | 65% |
+| Failure | [[Positions/Half Guard/Electric Chair]] | 25% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ The technique integrates seamlessly with standard half guard passing strategies.
 
 ## Opponent Counters
 
-- **Opponent increases lockdown tension and hip extension when they feel you relax** (Effectiveness: High) - Your Response: Increase forward chest pressure and drive opponent's hips flat to the mat with your free leg, preventing them from achieving the angle needed for submission → Leads to [[Electric Chair]]
-- **Opponent transitions to Deep Half Guard when lockdown is compromised** (Effectiveness: Medium) - Your Response: Recognize the transition early by feeling their hips drop underneath you. Immediately sprawl hips and establish head control to prevent deep half entry → Leads to [[Deep Half Guard]]
-- **Opponent releases lockdown to hit Old School sweep using your forward pressure** (Effectiveness: Medium) - Your Response: Establish whizzer control immediately when you feel them release and attempt to roll. Use the whizzer to sprawl and drive them flat → Leads to [[Electric Chair]]
-- **Opponent attacks back take as you focus on leg extraction** (Effectiveness: Low) - Your Response: Maintain crossface throughout the escape sequence. If they begin turning into you, immediately re-establish underhook control and sprawl → Leads to [[Electric Chair]]
+- **Opponent increases lockdown tension and hip extension when they feel you relax** (Effectiveness: High) - Your Response: Increase forward chest pressure and drive opponent's hips flat to the mat with your free leg, preventing them from achieving the angle needed for submission → Leads to [[Positions/Half Guard/Electric Chair]]
+- **Opponent transitions to Deep Half Guard when lockdown is compromised** (Effectiveness: Medium) - Your Response: Recognize the transition early by feeling their hips drop underneath you. Immediately sprawl hips and establish head control to prevent deep half entry → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Opponent releases lockdown to hit Old School sweep using your forward pressure** (Effectiveness: Medium) - Your Response: Establish whizzer control immediately when you feel them release and attempt to roll. Use the whizzer to sprawl and drive them flat → Leads to [[Positions/Half Guard/Electric Chair]]
+- **Opponent attacks back take as you focus on leg extraction** (Effectiveness: Low) - Your Response: Maintain crossface throughout the escape sequence. If they begin turning into you, immediately re-establish underhook control and sprawl → Leads to [[Positions/Half Guard/Electric Chair]]
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Complete attacker guide for the Ezekiel choke from closed guard to
 
 The Ezekiel choke from closed guard top represents a calculated gambit where you sacrifice your primary defensive asset—upright posture—to attack with one of the most deceptive submissions available from inside the guard. Unlike conventional guard top strategy that prioritizes systematic guard opening, this technique weaponizes your proximity to the opponent's neck. The sleeve grip mechanism creates a powerful forearm-fist scissoring action that compresses the carotid arteries bilaterally, producing rapid submission when properly applied. Success depends entirely on concealment and commitment: the opponent must not recognize the threat until the choke is fully locked, and once initiated, you must drive through to the finish or immediately recover posture to avoid catastrophic counters including sweeps, triangles, and armbars that exploit your compromised position.
 
-**From Position**: [[Closed Guard]] (Top)
+**From Position**: [[Positions/Closed Guard]] (Top)
 
 </section>
 
@@ -233,8 +233,8 @@ The Ezekiel choke from closed guard top represents a calculated gambit where you
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 30% |
-| Failure | [[Closed Guard]] | 45% |
-| Counter | [[Mount]] | 25% |
+| Failure | [[Positions/Closed Guard]] | 45% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -243,11 +243,11 @@ The Ezekiel choke from closed guard top represents a calculated gambit where you
 
 ## Opponent Counters
 
-- **Opponent tucks chin tightly and creates frames with forearms against your chest and biceps to prevent forearm from reaching the throat** (Effectiveness: High) - Your Response: Adjust the forearm angle to target the jaw line or switch to the reverse Ezekiel palm-up variation that enters from a different angle. If chin defense is strong, use the positional disruption to initiate a guard opening sequence instead. → Leads to [[Closed Guard]]
-- **Opponent opens their guard and hip escapes laterally to create distance from the choking pressure** (Effectiveness: High) - Your Response: Immediately capitalize on the opened guard by transitioning to a guard pass rather than chasing the Ezekiel. The opened guard is actually a favorable outcome that enables passing sequences you could not attempt with guard closed. → Leads to [[Closed Guard]]
-- **Opponent bridges explosively and executes a hip bump sweep when your weight commits forward and both arms are occupied with the choke** (Effectiveness: High) - Your Response: Post one hand wide to base against the sweep if you sense the bridge early enough. If the sweep succeeds, immediately work mount escape fundamentals. The key prevention is timing your Ezekiel when the opponent's hips are flat, not loaded for a bridge. → Leads to [[Mount]]
-- **Opponent attacks a triangle choke by controlling your arm behind their head and shooting their hips up to lock legs around your neck and arm** (Effectiveness: Medium) - Your Response: Pull your arm behind their head free before they can lock the triangle. If caught in triangle position, immediately posture up and begin standard triangle defense. Prevention requires keeping your head-control arm tight against their neck rather than loosely draped. → Leads to [[Mount]]
-- **Opponent grabs your sleeve-gripping wrist with both hands and strips the grip, preventing the choking mechanism from engaging** (Effectiveness: Medium) - Your Response: If the grip is stripped early, immediately recover posture before the opponent capitalizes on your forward weight commitment. Consider re-entering the sleeve grip from a different angle or switching to a different attack such as a cross collar choke if collar grips are available. → Leads to [[Closed Guard]]
+- **Opponent tucks chin tightly and creates frames with forearms against your chest and biceps to prevent forearm from reaching the throat** (Effectiveness: High) - Your Response: Adjust the forearm angle to target the jaw line or switch to the reverse Ezekiel palm-up variation that enters from a different angle. If chin defense is strong, use the positional disruption to initiate a guard opening sequence instead. → Leads to [[Positions/Closed Guard]]
+- **Opponent opens their guard and hip escapes laterally to create distance from the choking pressure** (Effectiveness: High) - Your Response: Immediately capitalize on the opened guard by transitioning to a guard pass rather than chasing the Ezekiel. The opened guard is actually a favorable outcome that enables passing sequences you could not attempt with guard closed. → Leads to [[Positions/Closed Guard]]
+- **Opponent bridges explosively and executes a hip bump sweep when your weight commits forward and both arms are occupied with the choke** (Effectiveness: High) - Your Response: Post one hand wide to base against the sweep if you sense the bridge early enough. If the sweep succeeds, immediately work mount escape fundamentals. The key prevention is timing your Ezekiel when the opponent's hips are flat, not loaded for a bridge. → Leads to [[Positions/Mount]]
+- **Opponent attacks a triangle choke by controlling your arm behind their head and shooting their hips up to lock legs around your neck and arm** (Effectiveness: Medium) - Your Response: Pull your arm behind their head free before they can lock the triangle. If caught in triangle position, immediately posture up and begin standard triangle defense. Prevention requires keeping your head-control arm tight against their neck rather than loosely draped. → Leads to [[Positions/Mount]]
+- **Opponent grabs your sleeve-gripping wrist with both hands and strips the grip, preventing the choking mechanism from engaging** (Effectiveness: Medium) - Your Response: If the grip is stripped early, immediately recover posture before the opponent capitalizes on your forward weight commitment. Consider re-entering the sleeve grip from a different angle or switching to a different attack such as a cross collar choke if collar grips are available. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

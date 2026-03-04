@@ -95,23 +95,23 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 ### Available Transitions
 
 
-- **[[Guillotine Choke]]** (32% of attempts)
+- **[[Transitions/Guillotine Choke]]** (32% of attempts)
 
-- **[[Hindulotine to Darce Choke]]** (8% of attempts)
+- **[[Transitions/Hindulotine to Darce Choke]]** (8% of attempts)
 
-- **[[Hindulotine to Anaconda Choke]]** (6% of attempts)
+- **[[Transitions/Hindulotine to Anaconda Choke]]** (6% of attempts)
 
-- **[[Back Take from Bottom]]** (13% of attempts)
+- **[[Transitions/Back Take from Bottom]]** (13% of attempts)
 
-- **[[High Elbow Guillotine Variation]]** (8% of attempts)
+- **[[Transitions/High Elbow Guillotine Variation]]** (8% of attempts)
 
-- **[[Butterfly Sweep with Guillotine]]** (20% of attempts)
+- **[[Transitions/Butterfly Sweep with Guillotine]]** (20% of attempts)
 
-- **[[Guard Recovery from Hindulotine]]** (8% of attempts)
+- **[[Transitions/Guard Recovery from Hindulotine]]** (8% of attempts)
 
-- **[[Arm Triangle Transition]]** (3% of attempts)
+- **[[Transitions/Arm Triangle Transition]]** (3% of attempts)
 
-- **[[Sweep to Mount]]** (2% of attempts)
+- **[[Transitions/Sweep to Mount]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -168,23 +168,23 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 ### Available Transitions
 
 
-- **[[Guillotine Choke]]** (31% of attempts)
+- **[[Transitions/Guillotine Choke]]** (31% of attempts)
 
-- **[[Hindulotine to Darce Choke]]** (10% of attempts)
+- **[[Transitions/Hindulotine to Darce Choke]]** (10% of attempts)
 
-- **[[Hindulotine to Anaconda Choke]]** (8% of attempts)
+- **[[Transitions/Hindulotine to Anaconda Choke]]** (8% of attempts)
 
-- **[[Back Take from Top]]** (13% of attempts)
+- **[[Transitions/Back Take from Top]]** (13% of attempts)
 
-- **[[Front Headlock to Back]]** (10% of attempts)
+- **[[Transitions/Front Headlock to Back]]** (10% of attempts)
 
-- **[[Arm Triangle from Top]]** (9% of attempts)
+- **[[Transitions/Arm Triangle from Top]]** (9% of attempts)
 
-- **[[Snap Down to Front Headlock]]** (13% of attempts)
+- **[[Transitions/Snap Down to Front Headlock]]** (13% of attempts)
 
-- **[[Hindulotine Choke Finish]]** (4% of attempts)
+- **[[Transitions/Hindulotine Choke Finish]]** (4% of attempts)
 
-- **[[Finish from Hindulotine]]** (2% of attempts)
+- **[[Transitions/Finish from Hindulotine]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -219,21 +219,21 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 ## Related Positions
 
 
-- **[[Guillotine Control]]** - Parent position with standard guillotine mechanics
+- **[[Positions/Guillotine Control]]** - Parent position with standard guillotine mechanics
 
-- **[[Front Headlock]]** - Primary entry position for Hindulotine setup
+- **[[Positions/Front Headlock]]** - Primary entry position for Hindulotine setup
 
-- **[[Darce Control]]** - Alternative finish when opponent creates near-side space
+- **[[Positions/Darce Control]]** - Alternative finish when opponent creates near-side space
 
-- **[[Anaconda Control]]** - Alternative finish when opponent creates defensive frames
+- **[[Positions/Anaconda Control]]** - Alternative finish when opponent creates defensive frames
 
-- **[[Back Control]]** - Common transition when opponent turns to escape neck pressure
+- **[[Positions/Back Control]]** - Common transition when opponent turns to escape neck pressure
 
-- **[[Closed Guard]]** - Can transition to Hindulotine from guard break attempts
+- **[[Positions/Closed Guard]]** - Can transition to Hindulotine from guard break attempts
 
-- **[[Turtle]]** - Entry position when attacking flattened opponent
+- **[[Positions/Turtle]]** - Entry position when attacking flattened opponent
 
-- **[[Standing Position]]** - Starting position for takedown defense entries
+- **[[Positions/Standing Position]]** - Starting position for takedown defense entries
 
 
 </section>

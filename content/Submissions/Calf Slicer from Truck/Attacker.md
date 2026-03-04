@@ -182,7 +182,7 @@ description: "How to execute Calf Slicer from Truck in BJJ. Attacking perspectiv
 
 The Calf Slicer from Truck is a high-level compression submission that targets the calf muscle and knee joint simultaneously. Popularized by the 10th Planet system, this technique capitalizes on the unique control offered by the Truck position - where you control your opponent's back while they're turned away, with their legs trapped. The submission works by wedging your shin bone across the back of your opponent's calf while pulling their heel toward their hamstring, creating intense pressure on both the gastrocnemius muscle and the knee ligaments. Unlike traditional joint locks that rely purely on skeletal manipulation, the calf slicer combines muscular compression with joint stress, making it particularly effective against opponents with flexible joints but less conditioned legs. The Truck position provides exceptional control for this finish because your opponent is already compromised - their hips are twisted, their base is broken, and your body weight pins them face-down. This submission requires precise technical execution and carries significant injury risk if applied carelessly, making it essential to master the positional control before attempting the finish. The calf slicer represents the convergence of 10th Planet's innovative approach to leg attacks and traditional compression submissions, offering a powerful finishing option from one of modern no-gi grappling's most dominant positions.
 
-**From Position**: [[Truck]] (Top)
+**From Position**: [[Positions/Twister Control/Truck]] (Top)
 
 
 </section>
@@ -239,8 +239,8 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Truck]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Twister Control/Truck]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -249,10 +249,10 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 
 ## Opponent Defenses
 
-- **Straightening the trapped leg forcefully** (Effectiveness: High) - Your Response: Don't fight the straightening - instead, transition immediately to Twister control by rotating your hips higher on their back and controlling their head, or switch to Banana Split by adjusting your leg configuration to spread their legs apart. → Leads to [[Truck]]
-- **Rolling toward you to relieve hip twist** (Effectiveness: Medium) - Your Response: Use their roll momentum to transition to back control. As they turn toward you, establish your hooks and seat belt grip, abandoning the calf slicer for the higher-percentage back position. Alternatively, if they roll aggressively, you can switch to an inverted triangle or omoplata. → Leads to [[Half Guard]]
+- **Straightening the trapped leg forcefully** (Effectiveness: High) - Your Response: Don't fight the straightening - instead, transition immediately to Twister control by rotating your hips higher on their back and controlling their head, or switch to Banana Split by adjusting your leg configuration to spread their legs apart. → Leads to [[Positions/Twister Control/Truck]]
+- **Rolling toward you to relieve hip twist** (Effectiveness: Medium) - Your Response: Use their roll momentum to transition to back control. As they turn toward you, establish your hooks and seat belt grip, abandoning the calf slicer for the higher-percentage back position. Alternatively, if they roll aggressively, you can switch to an inverted triangle or omoplata. → Leads to [[Positions/Half Guard]]
 - **Tucking their heel tight to their hamstring defensively** (Effectiveness: Low) - Your Response: This actually helps your submission. If they tuck their own heel, they're doing part of your work. Simply maintain your shin wedge and add hip pressure - their defensive tuck often accelerates the tap as it increases compression. → Leads to [[game-over]]
-- **Posting hand and creating space under hips** (Effectiveness: Medium) - Your Response: Increase your upper body weight distribution immediately. Drop your chest lower on their back, or transition your upper body control to a crossface or harness grip. Remove their ability to create space by flattening them completely before continuing the submission attempt. → Leads to [[Truck]]
+- **Posting hand and creating space under hips** (Effectiveness: Medium) - Your Response: Increase your upper body weight distribution immediately. Drop your chest lower on their back, or transition your upper body control to a crossface or harness grip. Remove their ability to create space by flattening them completely before continuing the submission attempt. → Leads to [[Positions/Twister Control/Truck]]
 - **Flexing calf muscle and resisting compression** (Effectiveness: Low) - Your Response: Maintain steady pressure without increasing intensity. Flexing the calf muscle actually increases fatigue and makes the muscle more susceptible to compression. Wait 3-5 seconds for muscle fatigue, then progressively increase pressure. Do not spike the submission in response to muscular resistance. → Leads to [[game-over]]
 
 

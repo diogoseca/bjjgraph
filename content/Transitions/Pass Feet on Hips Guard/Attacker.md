@@ -186,7 +186,7 @@ description: "Complete attacking guide to passing feet on hips guard in BJJ. Gri
 
 The attacker in this transition is the top player working to dismantle the guard player's feet-on-hips frames and advance to a dominant passing position. Your primary objective is establishing knee-level pants grips that neutralize the pushing power of the opponent's legs, then systematically breaking one frame at a time to create asymmetry in their defensive structure. The pass demands patience, methodical grip fighting, and precise timing rather than explosive athleticism. Rushing into the pass without controlling the knees is the most common tactical error, as the guard player retains full extension capability to push you away or set up sweeps. Success requires reading the guard player's adjustments and attacking during their transitional moments when frame integrity is momentarily compromised.
 
-**From Position**: [[Feet on Hips Guard]] (Top)
+**From Position**: [[Positions/Feet on Hips Guard]] (Top)
 
 </section>
 
@@ -239,10 +239,10 @@ The attacker in this transition is the top player working to dismantle the guard
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Half Guard]] | 25% |
-| Failure | [[Feet on Hips Guard]] | 20% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Failure | [[Positions/Feet on Hips Guard]] | 20% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -251,11 +251,11 @@ The attacker in this transition is the top player working to dismantle the guard
 
 ## Opponent Counters
 
-- **Guard player pulls you into closed guard by retracting legs and locking ankles behind your back** (Effectiveness: High) - Your Response: Maintain upright posture and resist the pull by posting on your hands. Keep your hips back and do not allow them to break your posture down. If caught, immediately begin closed guard opening sequence before they establish grips. → Leads to [[Closed Guard]]
-- **Guard player inserts half guard hook as you drive through the pass, trapping your lead leg between their knees** (Effectiveness: High) - Your Response: Accept the half guard position and immediately establish crossface and underhook to begin half guard passing. Avoid pulling your leg back as this often creates more space for the guard player to recover full guard. → Leads to [[Half Guard]]
-- **Guard player fights grips aggressively and re-establishes both feet on hips before you can break frames** (Effectiveness: Medium) - Your Response: Reset your grips patiently and re-engage the frame-breaking sequence. Vary your grip placement or switch to a different passing style such as long step or body lock to change the tactical picture. → Leads to [[Feet on Hips Guard]]
-- **Guard player transitions to De La Riva by threading one leg underneath your lead knee during the frame break** (Effectiveness: Medium) - Your Response: Immediately backstep your lead leg away from the hooking leg and circle to clear the De La Riva hook. Drive forward pressure through your grips to keep their hips flat and reduce their rotational ability. If hook is established, switch to De La Riva passing methodology. → Leads to [[Feet on Hips Guard]]
-- **Guard player executes a scissor or tripod sweep as you commit weight forward during frame compression** (Effectiveness: Medium) - Your Response: Widen your base immediately and post your hands when you feel your balance compromised. Keep your hips low and drive lateral pressure rather than purely forward pressure to reduce sweep leverage. If swept, immediately work to recover top position. → Leads to [[Feet on Hips Guard]]
+- **Guard player pulls you into closed guard by retracting legs and locking ankles behind your back** (Effectiveness: High) - Your Response: Maintain upright posture and resist the pull by posting on your hands. Keep your hips back and do not allow them to break your posture down. If caught, immediately begin closed guard opening sequence before they establish grips. → Leads to [[Positions/Closed Guard]]
+- **Guard player inserts half guard hook as you drive through the pass, trapping your lead leg between their knees** (Effectiveness: High) - Your Response: Accept the half guard position and immediately establish crossface and underhook to begin half guard passing. Avoid pulling your leg back as this often creates more space for the guard player to recover full guard. → Leads to [[Positions/Half Guard]]
+- **Guard player fights grips aggressively and re-establishes both feet on hips before you can break frames** (Effectiveness: Medium) - Your Response: Reset your grips patiently and re-engage the frame-breaking sequence. Vary your grip placement or switch to a different passing style such as long step or body lock to change the tactical picture. → Leads to [[Positions/Feet on Hips Guard]]
+- **Guard player transitions to De La Riva by threading one leg underneath your lead knee during the frame break** (Effectiveness: Medium) - Your Response: Immediately backstep your lead leg away from the hooking leg and circle to clear the De La Riva hook. Drive forward pressure through your grips to keep their hips flat and reduce their rotational ability. If hook is established, switch to De La Riva passing methodology. → Leads to [[Positions/Feet on Hips Guard]]
+- **Guard player executes a scissor or tripod sweep as you commit weight forward during frame compression** (Effectiveness: Medium) - Your Response: Widen your base immediately and post your hands when you feel your balance compromised. Keep your hips low and drive lateral pressure rather than purely forward pressure to reduce sweep leverage. If swept, immediately work to recover top position. → Leads to [[Positions/Feet on Hips Guard]]
 
 
 </section>

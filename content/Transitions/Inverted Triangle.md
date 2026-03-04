@@ -21,7 +21,7 @@ Strategically, the inverted triangle serves as a critical tool in the triangle a
 
 The biomechanics of the inverted triangle differ significantly from the standard variation. The choking pressure comes from the opposite angle, with your legs positioned to compress the carotid arteries from behind rather than in front. This requires adjusting your hip angle, leg positioning, and grip placement to accommodate the reversed geometry. The inverted triangle also opens up different transition options, including back takes and armbar variations that aren't available from the standard triangle position.
 
-**From Position**: [[Triangle Control]] (Bottom)
+**From Position**: [[Positions/Triangle Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -33,8 +33,8 @@ The biomechanics of the inverted triangle differ significantly from the standard
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Triangle Control]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Triangle Control]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -193,27 +193,27 @@ The inverted triangle integrates into the comprehensive triangle attack system a
 ## Related Techniques
 
 
-- [[Triangle Control]] - Starting position from which the inverted triangle is initiated
+- [[Positions/Triangle Control]] - Starting position from which the inverted triangle is initiated
 
-- [[Triangle Choke Front]] - Primary alternative submission from same control position
+- [[Submissions/Triangle Choke Front]] - Primary alternative submission from same control position
 
-- [[Triangle to Armbar]] - Alternative attack when opponent defends by posturing up
+- [[Transitions/Triangle to Armbar]] - Alternative attack when opponent defends by posturing up
 
-- [[Triangle to Omoplata]] - Alternative attack when opponent defends by stacking
+- [[Transitions/Triangle to Omoplata]] - Alternative attack when opponent defends by stacking
 
-- [[Triangle to Back]] - Transition option when inversion fails or arm is extracted
+- [[Transitions/Triangle to Back]] - Transition option when inversion fails or arm is extracted
 
-- [[Back Take from Bottom]] - Natural follow-up via partial inversion to back take variant
+- [[Transitions/Back Take from Bottom]] - Natural follow-up via partial inversion to back take variant
 
-- [[Mounted Triangle]] - Related triangle variation applied from mount position
+- [[Positions/Mount/Mounted Triangle]] - Related triangle variation applied from mount position
 
-- [[Rear Triangle]] - Related reverse-angle triangle applied from back control
+- [[Positions/Triangle Control/Rear Triangle]] - Related reverse-angle triangle applied from back control
 
-- [[Closed Guard]] - Common entry point leading to triangle control setup
+- [[Positions/Closed Guard]] - Common entry point leading to triangle control setup
 
-- [[Armbar Control]] - Transition target from triangle when posture defense is used
+- [[Positions/Armbar Control]] - Transition target from triangle when posture defense is used
 
-- [[Inverted Triangle]] - Submission entry for this technique in the submissions catalog
+- [[Transitions/Inverted Triangle]] - Submission entry for this technique in the submissions catalog
 
 
 </section>

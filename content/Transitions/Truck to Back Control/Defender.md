@@ -154,7 +154,7 @@ description: "Defend against the Truck to Back Control transition in BJJ. Learn 
 
 As the defender facing the Truck to Back Control transition, you are in one of the most critical defensive moments of the truck position exchange. The opponent is attempting to upgrade from the already dangerous truck position to back control, which scores 4 points and provides access to rear naked choke and the full back attack arsenal. The brief window during their leg switch represents your best opportunity to escape or counter, as the attacker must temporarily release leg entanglement before establishing hooks. Your primary objectives are recognizing the transition early through shifts in pressure and alignment, then acting decisively during the vulnerability window when the opponent has neither truck entanglement nor back control hooks fully established. Success requires maintaining composure and executing practiced defensive responses during a narrow timing window, rather than panicking into energy-wasting movements.
 
-**Opponent's Starting Position**: [[Truck]] (Top)
+**Opponent's Starting Position**: [[Positions/Twister Control/Truck]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender facing the Truck to Back Control transition, you are in one of t
 ### 1. Frame against opponent's chest with both hands and bridge to prevent alignment shift from perpendicular to parallel
 
 - **When to use**: Early in the transition when you feel the opponent beginning to slide from perpendicular toward your back, before any hooks are attempted
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: Forces the opponent back into perpendicular truck position, preventing the back take and resetting to truck where you can continue working standard truck escapes
 - **Risk**: If frames fail, you may have committed both hands away from neck defense, leaving you vulnerable to an accelerated back take with immediate choke threat
 
 ### 2. Execute a hip escape away from the opponent during the leg entanglement release to create distance before hooks can be inserted
 
 - **When to use**: When you feel boot pressure release and the opponent's legs begin disengaging from truck entanglement, creating the brief control gap
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough separation to recover half guard or establish defensive frames that prevent hook insertion, escaping to a significantly less dangerous position
 - **Risk**: If the opponent maintains seatbelt and follows your hip escape, they may insert hooks during your movement and consolidate back control while you are extended
 
 ### 3. Strip the first hook immediately upon insertion by straightening your leg and pushing the opponent's foot out with your hands before the second hook is threaded
 
 - **When to use**: When you feel the opponent thread their first hook inside your thigh but they have not yet inserted the second hook
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: Prevents the opponent from establishing full back control, forcing them to either reattempt the transition or return to truck position where you can continue escape sequences
 - **Risk**: Using your hands to strip hooks temporarily removes them from neck defense, creating a window for the opponent to attack the rear naked choke
 
 ### 4. Execute a granby roll during the transition phase to create a scramble and potentially recover guard
 
 - **When to use**: When the opponent's leg control is in transition and neither truck entanglement nor hooks are fully established, providing maximum space for the roll
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates a dynamic scramble that can result in guard recovery, half guard, or neutral standing position depending on execution timing
 - **Risk**: If the opponent follows the roll with intact seatbelt control, they may accelerate the back take by inserting hooks during your rotation when your legs are most exposed
 
@@ -225,11 +225,11 @@ As the defender facing the Truck to Back Control transition, you are in one of t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the vulnerability window during the leg switch by executing a well-timed hip escape or granby roll before hooks are established. The key is acting during the brief moment when the opponent has released truck entanglement but has not yet secured back control hooks, creating enough distance to insert your knee and recover half guard.
 
-### → [[Truck]]
+### → [[Positions/Twister Control/Truck]]
 
 Prevent the transition entirely by framing against the opponent's chest during the alignment shift and using hip movement to resist the perpendicular-to-parallel slide. Strip any attempted hooks immediately upon insertion before the opponent can consolidate. While remaining in truck bottom is not ideal, it prevents the upgrade to back control and preserves your existing truck escape options.
 

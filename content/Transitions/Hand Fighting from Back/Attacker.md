@@ -190,7 +190,7 @@ The two-on-one methodology forms the core of this system. By committing both han
 
 Advanced hand fighting integrates seamlessly with hip escape timing to create combined escape sequences. Rather than treating hand control and body movement as separate phases, elite practitioners learn to strip grips and move hips simultaneously, using the opponent's reactions to one element as windows for the other. This integration converts hand fighting from pure survival into an active escape system that pressures the back controller into defensive choices.
 
-**From Position**: [[Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
 
@@ -244,9 +244,9 @@ Advanced hand fighting integrates seamlessly with hip escape timing to create co
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 40% |
-| Success | [[Half Guard]] | 25% |
-| Failure | [[Back Control]] | 25% |
+| Success | [[Positions/Turtle]] | 40% |
+| Success | [[Positions/Half Guard]] | 25% |
+| Failure | [[Positions/Back Control]] | 25% |
 | Counter | [[game-over]] | 10% |
 
 
@@ -257,8 +257,8 @@ Advanced hand fighting integrates seamlessly with hip escape timing to create co
 ## Opponent Counters
 
 - **Opponent switches to opposite arm choke when you focus on one side** (Effectiveness: High) - Your Response: Keep chin tucked centrally and maintain awareness of both arms. If opponent switches, immediately redirect both hands to new choking arm using same two-on-one methodology. → Leads to [[game-over]]
-- **Opponent establishes body triangle and uses squeezing pressure to break your grip strength** (Effectiveness: High) - Your Response: Address body triangle escape first if pressure prevents effective hand fighting. Use leg positioning to relieve squeeze pressure before continuing hand fight. → Leads to [[Back Control]]
-- **Opponent uses free arm to strip your grip off their choking arm** (Effectiveness: Medium) - Your Response: When opponent commits control arm to grip fighting, they reduce their upper body control. Use this window for hip escape since their harness is compromised. → Leads to [[Back Control]]
+- **Opponent establishes body triangle and uses squeezing pressure to break your grip strength** (Effectiveness: High) - Your Response: Address body triangle escape first if pressure prevents effective hand fighting. Use leg positioning to relieve squeeze pressure before continuing hand fight. → Leads to [[Positions/Back Control]]
+- **Opponent uses free arm to strip your grip off their choking arm** (Effectiveness: Medium) - Your Response: When opponent commits control arm to grip fighting, they reduce their upper body control. Use this window for hip escape since their harness is compromised. → Leads to [[Positions/Back Control]]
 - **Opponent abandons choke and attacks armbar from back** (Effectiveness: Medium) - Your Response: Keep elbows tight to body. If opponent releases neck to attack arm, this creates space for you to begin turning into them or executing hip escape. → Leads to [[game-over]]
 
 

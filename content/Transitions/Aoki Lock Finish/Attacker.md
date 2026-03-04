@@ -178,7 +178,7 @@ From the attacker's perspective, the Aoki Lock Finish serves as the terminal opt
 
 The finishing mechanics involve driving your hips forward and down into the opponent's shoulder while keeping their arm extended and isolated between your legs. Unlike traditional shoulder locks that rely primarily on arm manipulation, the Aoki Lock uses your entire lower body as a unified control mechanism, making it extremely difficult to escape once properly secured.
 
-**From Position**: [[Aoki Lock]] (Top)
+**From Position**: [[Positions/Aoki Lock]] (Top)
 
 </section>
 
@@ -231,8 +231,8 @@ The finishing mechanics involve driving your hips forward and down into the oppo
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Aoki Lock]] | 25% |
-| Counter | [[Open Guard]] | 10% |
+| Failure | [[Positions/Aoki Lock]] | 25% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ The finishing mechanics involve driving your hips forward and down into the oppo
 
 ## Opponent Counters
 
-- **Roll through escape where opponent rolls toward trapped arm to relieve pressure and extract arm** (Effectiveness: Medium) - Your Response: Follow their roll momentum and transition to back control rather than fighting to maintain the lock. Your leg positioning provides natural transition to rear mount or body triangle. → Leads to [[Aoki Lock]]
-- **Arm extraction by bending elbow and pulling arm back toward body during pressure buildup** (Effectiveness: Medium) - Your Response: Re-tighten leg triangle immediately by driving top leg down and bottom leg up. Increase hip drive to prevent further extraction. If arm comes free, transition to back control using existing leg positioning. → Leads to [[Aoki Lock]]
-- **Base attack where opponent uses free hand to destabilize your posted leg** (Effectiveness: Low) - Your Response: Keep posted leg close to opponent's body and distribute weight through hips into their shoulder. If base is compromised, follow the movement direction and transition to back control or truck position. → Leads to [[Aoki Lock]]
-- **Hip escape to create distance and change pressure angle on shoulder, potentially recovering open guard** (Effectiveness: Medium) - Your Response: Maintain hand control on opponent's hips to prevent escape movement. If they create space, follow with your hips to maintain pressure angle. Consider transitioning to crucifix if they expose far arm during escape attempt. → Leads to [[Open Guard]]
+- **Roll through escape where opponent rolls toward trapped arm to relieve pressure and extract arm** (Effectiveness: Medium) - Your Response: Follow their roll momentum and transition to back control rather than fighting to maintain the lock. Your leg positioning provides natural transition to rear mount or body triangle. → Leads to [[Positions/Aoki Lock]]
+- **Arm extraction by bending elbow and pulling arm back toward body during pressure buildup** (Effectiveness: Medium) - Your Response: Re-tighten leg triangle immediately by driving top leg down and bottom leg up. Increase hip drive to prevent further extraction. If arm comes free, transition to back control using existing leg positioning. → Leads to [[Positions/Aoki Lock]]
+- **Base attack where opponent uses free hand to destabilize your posted leg** (Effectiveness: Low) - Your Response: Keep posted leg close to opponent's body and distribute weight through hips into their shoulder. If base is compromised, follow the movement direction and transition to back control or truck position. → Leads to [[Positions/Aoki Lock]]
+- **Hip escape to create distance and change pressure angle on shoulder, potentially recovering open guard** (Effectiveness: Medium) - Your Response: Maintain hand control on opponent's hips to prevent escape movement. If they create space, follow with your hips to maintain pressure angle. Consider transitioning to crucifix if they expose far arm during escape attempt. → Leads to [[Positions/Open Guard]]
 
 
 </section>

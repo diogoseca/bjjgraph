@@ -184,7 +184,7 @@ This technique exploits the turtle position's structural vulnerability to latera
 
 The Turtle to Truck Entry is a gateway to the entire Twister submission system. Once the initial hook is threaded and the leg triangle begins to form, the opponent's defensive options narrow dramatically. The entry creates an immediate fork: the opponent must choose between defending the leg entanglement (exposing their back) or defending their back (allowing the Truck to consolidate). This dilemma-based attacking framework makes the entry exceptionally valuable for practitioners who want to develop a systematic turtle attacking game beyond conventional back takes.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -238,9 +238,9 @@ The Turtle to Truck Entry is a gateway to the entire Twister submission system. 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Truck]] | 65% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Twister Control/Truck]] | 65% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -249,11 +249,11 @@ The Turtle to Truck Entry is a gateway to the entire Twister submission system. 
 
 ## Opponent Counters
 
-- **Opponent sits back explosively before the leg thread is completed, crushing your reaching arm and preventing hook insertion** (Effectiveness: High) - Your Response: Abandon the Truck entry immediately and use the momentum of their sit-back to transition to seatbelt back control. Your chest pressure on their ribs gives you a head start on the harness grip as they move backward. Alternatively, switch to Crab Ride position if they only partially sit back. → Leads to [[Turtle]]
-- **Opponent pulls their far leg away and straightens it before you can lock the triangle, removing the target limb entirely** (Effectiveness: High) - Your Response: Maintain your threading leg position and hunt for the leg again using your far arm. If they extend their leg completely, switch your attack to a traditional back take since extending one leg compromises their turtle base. The failed entry has already disrupted their defensive structure. → Leads to [[Turtle]]
-- **Opponent performs an explosive forward roll or granby roll as they feel the leg thread beginning** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining your threading leg contact. Their rotation often helps complete the Truck entry from the opposite angle as your leg stays hooked during the roll. If you lose the hook during the roll, transition to back control by following their momentum and establishing seatbelt grip. → Leads to [[Truck]]
-- **Opponent drives their near elbow into your reaching arm to block access to the far leg** (Effectiveness: Medium) - Your Response: Use your cross-face to push their head away, which opens the elbow gap. Alternatively, switch your reaching angle by going over their back instead of under to access the far leg from above. If the block persists, transition to front headlock attacks since their elbow commitment limits their defensive options against chokes. → Leads to [[Turtle]]
-- **Opponent stands up to both feet in a wrestler's stance before you can establish the hook** (Effectiveness: Medium) - Your Response: Maintain grip on their far leg and use it as a trip anchor while driving forward to return them to turtle. If they fully stand, transition to a body lock or single leg position. The standing posture is less stable than turtle for resisting your weight, so driving forward is often effective at collapsing them back down. → Leads to [[Half Guard]]
+- **Opponent sits back explosively before the leg thread is completed, crushing your reaching arm and preventing hook insertion** (Effectiveness: High) - Your Response: Abandon the Truck entry immediately and use the momentum of their sit-back to transition to seatbelt back control. Your chest pressure on their ribs gives you a head start on the harness grip as they move backward. Alternatively, switch to Crab Ride position if they only partially sit back. → Leads to [[Positions/Turtle]]
+- **Opponent pulls their far leg away and straightens it before you can lock the triangle, removing the target limb entirely** (Effectiveness: High) - Your Response: Maintain your threading leg position and hunt for the leg again using your far arm. If they extend their leg completely, switch your attack to a traditional back take since extending one leg compromises their turtle base. The failed entry has already disrupted their defensive structure. → Leads to [[Positions/Turtle]]
+- **Opponent performs an explosive forward roll or granby roll as they feel the leg thread beginning** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining your threading leg contact. Their rotation often helps complete the Truck entry from the opposite angle as your leg stays hooked during the roll. If you lose the hook during the roll, transition to back control by following their momentum and establishing seatbelt grip. → Leads to [[Positions/Twister Control/Truck]]
+- **Opponent drives their near elbow into your reaching arm to block access to the far leg** (Effectiveness: Medium) - Your Response: Use your cross-face to push their head away, which opens the elbow gap. Alternatively, switch your reaching angle by going over their back instead of under to access the far leg from above. If the block persists, transition to front headlock attacks since their elbow commitment limits their defensive options against chokes. → Leads to [[Positions/Turtle]]
+- **Opponent stands up to both feet in a wrestler's stance before you can establish the hook** (Effectiveness: Medium) - Your Response: Maintain grip on their far leg and use it as a trip anchor while driving forward to return them to turtle. If they fully stand, transition to a body lock or single leg position. The standing posture is less stable than turtle for resisting your weight, so driving forward is often effective at collapsing them back down. → Leads to [[Positions/Half Guard]]
 
 
 </section>

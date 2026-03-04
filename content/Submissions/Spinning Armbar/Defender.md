@@ -160,7 +160,7 @@ The defender's primary advantage is that the spinning armbar requires significan
 
 Defensive strategy follows a time-based hierarchy: prevent the initial arm isolation (earliest and most effective), disrupt the rotation by maintaining posture or following the spin (mid-stage defense), and finally stack or extract the arm after the attacker lands (late-stage emergency defense). Each successive stage is harder to execute and carries greater risk, reinforcing that early recognition is the most valuable defensive skill against this technique.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 
 </section>
@@ -200,28 +200,28 @@ Defensive strategy follows a time-based hierarchy: prevent the initial arm isola
 ### 1. Posture up and retract your arm by driving your elbow back toward your hip while maintaining strong upright posture
 
 - **When to use**: At the earliest stage when you feel opponent isolating your arm and beginning to break your posture, before any rotation has started
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Opponent's spinning armbar setup is completely neutralized and you return to the guard passing position with postural control
 - **Risk**: Low risk if executed early; if opponent has already broken your posture significantly, arm retraction alone may be insufficient
 
 ### 2. Follow the rotation by stepping around with the spin, keeping your arm bent and driving your weight forward into the attacker
 
 - **When to use**: When the opponent has initiated the spin and you cannot retract your arm in time, typically during the first 180 degrees of rotation
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You end up on top in a neutral or advantageous position as the attacker's spin fails to create the finishing angle
 - **Risk**: Medium risk - if you follow too slowly, the attacker may complete the spin; if you over-rotate, you may lose base
 
 ### 3. Stack the attacker by driving your weight forward and over them as they land from the spin, compressing their hips to the mat
 
 - **When to use**: After the attacker has completed their rotation and landed on their back but before they can elevate their hips for extension pressure
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You neutralize the armbar by removing the hip elevation needed for the finish and can begin working to extract your arm
 - **Risk**: Higher risk as this is late-stage defense; the attacker may already have sufficient position to finish before you can stack effectively
 
 ### 4. Turn into the attacker and establish top pressure by driving your trapped arm's shoulder into their chest while stepping over their body
 
 - **When to use**: When the attacker has landed but their legs are not yet fully locked around your shoulder and head, creating a brief window to recover position
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You reverse the position entirely, ending up in a top position while the attacker is on their back without the submission
 - **Risk**: High risk if timing is wrong - turning into a secured armbar accelerates the submission rather than escaping it
 
@@ -245,11 +245,11 @@ Defensive strategy follows a time-based hierarchy: prevent the initial arm isola
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Retract your arm early during the setup phase by maintaining strong posture and keeping your elbow connected to your hip, completely shutting down the spinning armbar before it develops
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Follow the attacker's rotation and drive forward aggressively, using their commitment to the spin against them to achieve a positional reversal into top mount or side control
 

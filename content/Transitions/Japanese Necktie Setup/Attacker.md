@@ -174,7 +174,7 @@ description: "How to execute Japanese Necktie Setup in BJJ. Attacking perspectiv
 
 The Japanese Necktie Setup is a sophisticated transition from Front Headlock control that capitalizes on the opponent's defensive turtle position. This technique creates a powerful blood choke by threading the arm under the opponent's neck while establishing a specific body configuration that amplifies pressure. Unlike traditional front chokes that rely purely on arm strength, the Japanese Necktie uses body positioning and weight distribution to generate overwhelming force. The setup phase is critical—proper arm threading, head positioning, and hip placement determine whether the submission becomes viable. When executed correctly, this transition catches opponents off-guard because it appears to be a standard front headlock attack until the choking mechanism suddenly materializes. The technique gained prominence in modern no-gi competition due to its effectiveness against defensive turtling and its ability to finish from seemingly neutral scramble positions.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -228,9 +228,9 @@ The Japanese Necktie Setup is a sophisticated transition from Front Headlock con
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 55% |
-| Failure | [[Front Headlock]] | 30% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Darce Control]] | 55% |
+| Failure | [[Positions/Front Headlock]] | 30% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -239,11 +239,11 @@ The Japanese Necktie Setup is a sophisticated transition from Front Headlock con
 
 ## Opponent Counters
 
-- **Opponent posts hand on mat to block roll** (Effectiveness: High) - Your Response: Switch to alternative attack like Darce or Anaconda, or use their posted arm as leverage to force the roll by lifting it off the mat as you initiate movement → Leads to [[Front Headlock]]
-- **Opponent turns into you during arm thread** (Effectiveness: Medium) - Your Response: Abandon Japanese Necktie and transition to standard guillotine or arm-in guillotine as they turn, capitalizing on their head and neck remaining exposed → Leads to [[Front Headlock]]
-- **Opponent grabs your choking arm with free hand** (Effectiveness: High) - Your Response: Immediately switch to two-on-one control of their defending arm, strip their grip, then re-establish arm thread, or transition to Darce position by adjusting arm placement → Leads to [[Front Headlock]]
-- **Opponent sprawls backward to create distance** (Effectiveness: Medium) - Your Response: Follow their movement by maintaining tight connection, use their backward energy to accelerate your roll, or switch to anaconda choke if arm positioning allows → Leads to [[Turtle]]
-- **Opponent tucks chin and defends neck** (Effectiveness: Low) - Your Response: Use chin as fulcrum point for leverage, continue with technique focusing on shoulder pressure and body positioning rather than forcing through chin defense → Leads to [[Darce Control]]
+- **Opponent posts hand on mat to block roll** (Effectiveness: High) - Your Response: Switch to alternative attack like Darce or Anaconda, or use their posted arm as leverage to force the roll by lifting it off the mat as you initiate movement → Leads to [[Positions/Front Headlock]]
+- **Opponent turns into you during arm thread** (Effectiveness: Medium) - Your Response: Abandon Japanese Necktie and transition to standard guillotine or arm-in guillotine as they turn, capitalizing on their head and neck remaining exposed → Leads to [[Positions/Front Headlock]]
+- **Opponent grabs your choking arm with free hand** (Effectiveness: High) - Your Response: Immediately switch to two-on-one control of their defending arm, strip their grip, then re-establish arm thread, or transition to Darce position by adjusting arm placement → Leads to [[Positions/Front Headlock]]
+- **Opponent sprawls backward to create distance** (Effectiveness: Medium) - Your Response: Follow their movement by maintaining tight connection, use their backward energy to accelerate your roll, or switch to anaconda choke if arm positioning allows → Leads to [[Positions/Turtle]]
+- **Opponent tucks chin and defends neck** (Effectiveness: Low) - Your Response: Use chin as fulcrum point for leverage, continue with technique focusing on shoulder pressure and body positioning rather than forcing through chin defense → Leads to [[Positions/Darce Control]]
 
 
 </section>

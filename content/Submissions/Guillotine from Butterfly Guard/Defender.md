@@ -156,7 +156,7 @@ description: "Learn to recognize, defend, and escape the guillotine choke from b
 
 Defending the guillotine from butterfly guard requires immediate recognition of the threat and decisive action before the grip is fully locked. The defender's primary advantage is that the butterfly guard position inherently provides passing opportunities that can neutralize the choke if executed before the attacker establishes the full finishing system of grip, angle, and hook elevation. The most critical defensive principle is posture maintenance: keeping your head above your opponent's chest level prevents them from establishing the deep neck grip required for a finishing guillotine. When caught in the guillotine grip, your defensive strategy shifts to preventing the opponent from creating the closed-system compression needed for the finish while working to pass to the non-choking side where pressure is relieved and dominant position can be established.
 
-**Opponent's Starting Position**: [[Butterfly Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the guillotine from butterfly guard requires immediate recognition of 
 ### 1. Immediate posture recovery by posting hands on opponent's hips and driving chest upward
 
 - **When to use**: Early defense before the grip is fully locked, when you still have enough space to generate upward posturing force
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Breaks the choking system and returns to neutral butterfly guard position where passing can resume
 - **Risk**: If grip is already deep, posturing may tighten the choke further before you can break free
 
 ### 2. Pass to choking-arm side toward side control using shoulder drive and hip clearing
 
 - **When to use**: When grip is locked and posture recovery is not possible, passing to side control relieves pressure and opens Von Flue counter
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Establishes side control on the choking side where opponent's guillotine grip becomes a liability rather than a weapon
 - **Risk**: Must clear the butterfly hooks during the pass, and the choke intensifies briefly during the transition
 
 ### 3. Stack and drive forward while hand-fighting to strip the choking grip
 
 - **When to use**: When opponent has a moderate grip but you still have base and can generate forward driving pressure to pin their shoulders
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Pins opponent flat and compresses their guard structure, reducing their ability to generate finishing angle and hip extension
 - **Risk**: Driving forward feeds the choke initially and may allow opponent to close guard with the guillotine still locked
 
 ### 4. Hand-fight and strip grip before lock is completed by peeling fingers and creating chin-to-chest space
 
 - **When to use**: Earliest possible defense when you recognize the arm beginning to wrap, before hands connect in finishing configuration
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Prevents the guillotine from being established and returns to neutral position with initiative
 - **Risk**: Requires fast recognition and two-hand commitment to grip stripping, temporarily abandoning base defense
 
@@ -239,11 +239,11 @@ Defending the guillotine from butterfly guard requires immediate recognition of 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Pass to the choking-arm side during active guillotine defense, clearing the butterfly hooks and establishing side control. The opponent's maintained guillotine grip becomes a liability, exposing them to the Von Flue choke counter while you consolidate top position.
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 Successfully strip the guillotine grip through posture recovery or hand fighting, resetting to the neutral butterfly guard top position where you can resume your passing strategy without the neck threat.
 

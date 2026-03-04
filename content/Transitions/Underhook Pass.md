@@ -21,7 +21,7 @@ The underhook provides both offensive control and defensive protection, preventi
 
 The Underhook Pass integrates naturally with other pressure passing sequences, creating a branching decision tree where the opponent's defensive reactions determine whether you complete the pass directly, transition to a knee cut, or follow their movement to a back take. This adaptability makes it a cornerstone technique for any practitioner developing a systematic half guard passing game.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ The Underhook Pass integrates naturally with other pressure passing sequences, c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
-| Counter | [[Dogfight Position]] | 10% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
+| Counter | [[Positions/Dogfight Position]] | 10% |
 
 
 </section>
@@ -197,29 +197,29 @@ The underhook pass is a cornerstone technique in the pressure passing system and
 ## Related Techniques
 
 
-- [[Knee Cut Pass]] - Alternative pass when knee shield prevents underhook pass
+- [[Transitions/Knee Cut Pass]] - Alternative pass when knee shield prevents underhook pass
 
-- [[Knee Slice Pass]] - Combination option from underhook position
+- [[Transitions/Knee Slice Pass]] - Combination option from underhook position
 
-- [[Long Step Pass]] - Alternative pass utilizing similar pressure principles
+- [[Transitions/Long Step Pass]] - Alternative pass utilizing similar pressure principles
 
-- [[Smash Pass]] - Related pressure passing technique from half guard
+- [[Transitions/Smash Pass]] - Related pressure passing technique from half guard
 
-- [[Over-Under Pass]] - Alternative pass when double underhooks are available
+- [[Transitions/Over-Under Pass]] - Alternative pass when double underhooks are available
 
-- [[Body Lock Pass]] - Follow-up option when underhook is secured
+- [[Transitions/Body Lock Pass]] - Follow-up option when underhook is secured
 
-- [[Kimura from Half Guard]] - Submission threat when opponent defends with frames
+- [[Transitions/Kimura from Half Guard]] - Submission threat when opponent defends with frames
 
-- [[Darce Choke]] - Submission option when opponent turns into underhook
+- [[Transitions/Darce Choke]] - Submission option when opponent turns into underhook
 
-- [[Arm Triangle]] - Submission finish from crossface pressure position
+- [[Transitions/Arm Triangle]] - Submission finish from crossface pressure position
 
-- [[Half Guard Pass]] - Parent category of passing techniques
+- [[Transitions/Half Guard Pass]] - Parent category of passing techniques
 
-- [[Dogfight Position]] - Scramble position arising from contested underhook battles
+- [[Positions/Dogfight Position]] - Scramble position arising from contested underhook battles
 
-- [[Headquarters Position]] - Common starting position before securing underhook
+- [[Positions/Headquarters Position]] - Common starting position before securing underhook
 
 
 </section>

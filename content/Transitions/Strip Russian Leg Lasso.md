@@ -21,7 +21,7 @@ The stripping process involves a coordinated sequence of grip breaks and positio
 
 Mastery of this technique is essential for any practitioner regularly facing modern competition guard systems. The Russian Leg Lasso represents an evolution of standard lasso guard that many competitors have adopted specifically because it resists conventional passing approaches. A systematic strip converts this complex defensive puzzle into a manageable open guard situation where the full passing repertoire becomes available, making it a critical gateway skill for top players at the purple belt level and above.
 
-**From Position**: [[Russian Leg Lasso]] (Top)
+**From Position**: [[Positions/Lasso Guard/Russian Leg Lasso]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Mastery of this technique is essential for any practitioner regularly facing mod
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Russian Leg Lasso]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Lasso Guard/Russian Leg Lasso]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ Strip Russian Leg Lasso occupies a critical role in the guard passing hierarchy 
 ## Related Techniques
 
 
-- [[Russian Leg Lasso]] - Source position - the guard being stripped by this technique
+- [[Positions/Lasso Guard/Russian Leg Lasso]] - Source position - the guard being stripped by this technique
 
-- [[Open Guard]] - Target position reached after successful lasso strip
+- [[Positions/Open Guard]] - Target position reached after successful lasso strip
 
-- [[Lasso Guard]] - Parent guard category sharing similar strip mechanics
+- [[Positions/Lasso Guard]] - Parent guard category sharing similar strip mechanics
 
-- [[Pass Russian Leg Lasso]] - Alternative approach that passes through the guard rather than stripping it first
+- [[Transitions/Pass Russian Leg Lasso]] - Alternative approach that passes through the guard rather than stripping it first
 
-- [[Lasso Guard Stack Pass]] - Related passing technique that can follow a partial strip
+- [[Transitions/Lasso Guard Stack Pass]] - Related passing technique that can follow a partial strip
 
-- [[Lasso Guard Backstep Pass]] - Alternative passing approach from the same starting position
+- [[Transitions/Lasso Guard Backstep Pass]] - Alternative passing approach from the same starting position
 
-- [[Spider Guard]] - Related gi-based guard requiring similar grip-stripping fundamentals
+- [[Positions/Spider Guard]] - Related gi-based guard requiring similar grip-stripping fundamentals
 
-- [[Collar Sleeve Guard]] - Guard sharing grip configurations that inform strip mechanics
+- [[Positions/Collar Sleeve Guard]] - Guard sharing grip configurations that inform strip mechanics
 
-- [[Russian Lasso Sweep]] - Primary sweep threat the top player faces during strip attempts
+- [[Transitions/Russian Lasso Sweep]] - Primary sweep threat the top player faces during strip attempts
 
-- [[Russian Lasso to De La Riva]] - Common bottom player transition when lasso strip is partially successful
+- [[Transitions/Russian Lasso to De La Riva]] - Common bottom player transition when lasso strip is partially successful
 
 
 </section>

@@ -26,8 +26,8 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (rotator cuff)
-**Starting Position**: [[Mount]]
-**From Position**: [[Mount]] (Top)
+**Starting Position**: [[Positions/Mount]]
+**From Position**: [[Positions/Mount]] (Top)
 **Success Rate**: 68%
 
 </section>
@@ -82,8 +82,8 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -237,14 +237,14 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 
 ## From Which Positions?
 
-- [[Mount]]
-- [[High Mount]]
-- [[Modified Mount]]
-- [[S Mount]]
-- [[Technical Mount]]
-- [[Side Control]]
-- [[North-South]]
-- [[Knee on Belly]]
+- [[Positions/Mount]]
+- [[Positions/Mount/High Mount]]
+- [[Positions/Mount/Modified Mount]]
+- [[Positions/Mount/S Mount]]
+- [[Positions/Mount/Technical Mount]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
+- [[Positions/Knee on Belly]]
 
 
 </section>
@@ -253,17 +253,17 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 
 ## Related Submissions
 
-- [[Armbar from Mount]]
-- [[Ezekiel from Mount]]
-- [[Americana]]
-- [[Kimura]]
-- [[Americana from Side Control]]
-- [[Armbar from Side Control]]
-- [[Arm Triangle]]
-- [[Triangle from Mount]]
-- [[Cross Collar Choke]]
-- [[Armbar from Guard]]
-- [[Americana]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Ezekiel from Mount]]
+- [[Transitions/Americana]]
+- [[Transitions/Kimura]]
+- [[Submissions/Americana from Side Control]]
+- [[Submissions/Armbar from Side Control]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/Triangle from Mount]]
+- [[Transitions/Cross Collar Choke]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Americana]]
 
 
 </section>
@@ -272,18 +272,18 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 
 ## Additional Related Content
 
-- [[Mount]] - Primary starting position for this submission
-- [[High Mount]] - Advanced positional variation that increases americana effectiveness
-- [[S Mount]] - Alternative mount position providing greater leverage for americana
-- [[Armbar from Mount]] - Primary follow-up attack when opponent defends americana by straightening arm
-- [[Americana from Side Control]] - Related technique from different position using same submission mechanics
-- [[Kimura]] - Complementary shoulder lock attacking opposite rotation direction
-- [[Ezekiel from Mount]] - Alternative mount submission when arms are not available
-- [[Triangle from Mount]] - Choke option from mount that works in submission chain with americana
-- [[Gift Wrap]] - Control position that can be used to set up americana
-- [[Mounted Crucifix]] - Advanced control position where americana can also be applied
-- [[Technical Mount]] - Mount variation providing alternative angle for americana setup
-- [[Modified Mount]] - Mount variation with posted leg providing base stability during americana
+- [[Positions/Mount]] - Primary starting position for this submission
+- [[Positions/Mount/High Mount]] - Advanced positional variation that increases americana effectiveness
+- [[Positions/Mount/S Mount]] - Alternative mount position providing greater leverage for americana
+- [[Submissions/Armbar from Mount]] - Primary follow-up attack when opponent defends americana by straightening arm
+- [[Submissions/Americana from Side Control]] - Related technique from different position using same submission mechanics
+- [[Transitions/Kimura]] - Complementary shoulder lock attacking opposite rotation direction
+- [[Submissions/Ezekiel from Mount]] - Alternative mount submission when arms are not available
+- [[Transitions/Triangle from Mount]] - Choke option from mount that works in submission chain with americana
+- [[Positions/Gift Wrap]] - Control position that can be used to set up americana
+- [[Positions/Mount/Mounted Crucifix]] - Advanced control position where americana can also be applied
+- [[Positions/Mount/Technical Mount]] - Mount variation providing alternative angle for americana setup
+- [[Positions/Mount/Modified Mount]] - Mount variation with posted leg providing base stability during americana
 
 
 </section>

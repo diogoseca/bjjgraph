@@ -180,7 +180,7 @@ description: "Complete guide to passing the Overhook Guard from the top position
 
 As the attacker passing the Overhook Guard, your primary objective is to neutralize the bottom player's arm control and advance to side control. The overhook is one of the most disruptive grips a guard player can establish because it eliminates your posting ability on one side, breaks your posture, and creates direct pathways to sweeps and back takes. Your approach must be methodical: first address the grip, then establish dominant pressure, and finally complete the pass. Rushing any phase invites counters that can reverse your position entirely. The most successful passers treat the overhook as a problem to be solved before the pass, not during it.
 
-**From Position**: [[Overhook Guard]] (Top)
+**From Position**: [[Positions/Overhook Guard]] (Top)
 
 </section>
 
@@ -233,10 +233,10 @@ As the attacker passing the Overhook Guard, your primary objective is to neutral
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Overhook Guard]] | 25% |
-| Failure | [[Closed Guard]] | 15% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Overhook Guard]] | 25% |
+| Failure | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -245,10 +245,10 @@ As the attacker passing the Overhook Guard, your primary objective is to neutral
 
 ## Opponent Counters
 
-- **Bottom player tightens overhook and pulls elbow to ribs to prevent grip strip** (Effectiveness: High) - Your Response: Switch from stripping the grip to using shoulder pressure pass variation. Drive weight through the overhooked arm to flatten the opponent, using their own grip to keep them connected to you as you advance your hips. → Leads to [[Overhook Guard]]
-- **Bottom player hip bumps during weight shift to sweep to mount** (Effectiveness: Medium) - Your Response: Widen your base immediately when you feel the hip elevation. Post your free hand on the mat on the opposite side and drive your hips back down. If the sweep is deep, abandon the pass temporarily and re-establish base before restarting. → Leads to [[Mount]]
-- **Bottom player locks ankles and recovers closed guard during pass attempt** (Effectiveness: High) - Your Response: Keep your hips forward and heavy throughout the pass to prevent ankle closure. If they do recover closed guard, immediately posture up and restart the guard opening sequence. The overhook should be weaker in closed guard without the angle. → Leads to [[Closed Guard]]
-- **Bottom player angles hips and threatens triangle as arm is freed** (Effectiveness: Medium) - Your Response: Keep your posture tall and your freed arm tucked tight to your body with elbow inside. Drive your shoulder into their chest to flatten any angle they create. If the triangle threat is real, posture immediately and stack before they can lock it. → Leads to [[Overhook Guard]]
+- **Bottom player tightens overhook and pulls elbow to ribs to prevent grip strip** (Effectiveness: High) - Your Response: Switch from stripping the grip to using shoulder pressure pass variation. Drive weight through the overhooked arm to flatten the opponent, using their own grip to keep them connected to you as you advance your hips. → Leads to [[Positions/Overhook Guard]]
+- **Bottom player hip bumps during weight shift to sweep to mount** (Effectiveness: Medium) - Your Response: Widen your base immediately when you feel the hip elevation. Post your free hand on the mat on the opposite side and drive your hips back down. If the sweep is deep, abandon the pass temporarily and re-establish base before restarting. → Leads to [[Positions/Mount]]
+- **Bottom player locks ankles and recovers closed guard during pass attempt** (Effectiveness: High) - Your Response: Keep your hips forward and heavy throughout the pass to prevent ankle closure. If they do recover closed guard, immediately posture up and restart the guard opening sequence. The overhook should be weaker in closed guard without the angle. → Leads to [[Positions/Closed Guard]]
+- **Bottom player angles hips and threatens triangle as arm is freed** (Effectiveness: Medium) - Your Response: Keep your posture tall and your freed arm tucked tight to your body with elbow inside. Drive your shoulder into their chest to flatten any angle they create. If the triangle threat is real, posture immediately and stack before they can lock it. → Leads to [[Positions/Overhook Guard]]
 
 
 </section>

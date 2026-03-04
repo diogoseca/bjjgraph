@@ -182,7 +182,7 @@ The Mat Return to Back Mount from the attacker's perspective is about converting
 
 The critical decision point is choosing the correct takedown direction. Your chest connection to their back gives you proprioceptive feedback about where their weight sits. Attack the direction where their base is weakest, typically toward the choking arm side where your attacking arm lands in optimal finishing position. The entire descent must feel like a controlled fall rather than a violent throw, maintaining the structural integrity of your harness grip throughout so you arrive on the ground with all control points intact and ready to attack.
 
-**From Position**: [[Standing Back Control]] (Top)
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The critical decision point is choosing the correct takedown direction. Your che
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Standing Back Control]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Back Control/Standing Back Control]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -245,10 +245,10 @@ The critical decision point is choosing the correct takedown direction. Your che
 
 ## Opponent Counters
 
-- **Opponent posts their foot wide and sprawls their hips back to prevent base break** (Effectiveness: High) - Your Response: Switch takedown direction to attack the opposite side where their base is now compromised, or lift the posted leg to remove their anchor point → Leads to [[Standing Back Control]]
-- **Opponent drops to turtle preemptively before you can control the descent** (Effectiveness: Medium) - Your Response: Follow them to the mat maintaining your harness, transition to grounded back control by inserting hooks as they turtle, or attack the turtle directly with chokes → Leads to [[Turtle]]
-- **Opponent peels your grip and turns to face you during the descent** (Effectiveness: Medium) - Your Response: If harness breaks, transition to front headlock or guillotine position, using their turning momentum to establish the alternative dominant position → Leads to [[Standing Back Control]]
-- **Opponent sits to guard aggressively, pulling you into their guard as you descend** (Effectiveness: Low) - Your Response: Maintain back exposure by keeping your chest connected and preventing their hip turn, establish hooks before they can complete guard recovery → Leads to [[Back Control]]
+- **Opponent posts their foot wide and sprawls their hips back to prevent base break** (Effectiveness: High) - Your Response: Switch takedown direction to attack the opposite side where their base is now compromised, or lift the posted leg to remove their anchor point → Leads to [[Positions/Back Control/Standing Back Control]]
+- **Opponent drops to turtle preemptively before you can control the descent** (Effectiveness: Medium) - Your Response: Follow them to the mat maintaining your harness, transition to grounded back control by inserting hooks as they turtle, or attack the turtle directly with chokes → Leads to [[Positions/Turtle]]
+- **Opponent peels your grip and turns to face you during the descent** (Effectiveness: Medium) - Your Response: If harness breaks, transition to front headlock or guillotine position, using their turning momentum to establish the alternative dominant position → Leads to [[Positions/Back Control/Standing Back Control]]
+- **Opponent sits to guard aggressively, pulling you into their guard as you descend** (Effectiveness: Low) - Your Response: Maintain back exposure by keeping your chest connected and preventing their hip turn, establish hooks before they can complete guard recovery → Leads to [[Positions/Back Control]]
 
 
 </section>

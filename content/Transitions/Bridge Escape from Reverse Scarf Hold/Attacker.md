@@ -186,7 +186,7 @@ description: "Execute the Bridge Escape from Reverse Scarf Hold with proper timi
 
 The Bridge Escape from Reverse Scarf Hold is executed by the bottom player trapped under reverse scarf hold control. This escape exploits the top player's reverse orientation, which creates specific base vulnerabilities not present in standard scarf hold configurations. The attacker must time their bridge to coincide with moments of compromised base—when the top player reaches for submissions, adjusts position, or shifts weight—then immediately follow with hip insertion to recover guard. The technique demands patience in setup, explosive power in execution, and immediate follow-through to prevent the top player from resettling their crushing chest compression.
 
-**From Position**: [[Reverse Scarf Hold]] (Bottom)
+**From Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ The Bridge Escape from Reverse Scarf Hold is executed by the bottom player trapp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Reverse Scarf Hold]] | 35% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Side Control/Reverse Scarf Hold]] | 35% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -250,10 +250,10 @@ The Bridge Escape from Reverse Scarf Hold is executed by the bottom player trapp
 
 ## Opponent Counters
 
-- **Top player widens base and drops hips to absorb the bridge force** (Effectiveness: High) - Your Response: Use the failed bridge as a feint to set up a hip escape in the opposite direction while the opponent commits weight low, or immediately chain a second bridge targeting the newly widened base angle → Leads to [[Reverse Scarf Hold]]
-- **Top player rides the bridge momentum and steps over to mount** (Effectiveness: High) - Your Response: If you feel them stepping over during your bridge, immediately abandon the guard recovery and focus on blocking the leg from clearing your body by clamping your elbow to your hip on the mount side → Leads to [[Mount]]
-- **Top player resettles weight before knee insertion completes** (Effectiveness: Medium) - Your Response: Maintain whatever space you created with frames and immediately attempt a hip escape to complete the guard recovery from the partially improved position rather than trying another bridge → Leads to [[Reverse Scarf Hold]]
-- **Top player attacks the near-side arm with kimura during bridge setup** (Effectiveness: Medium) - Your Response: Abandon the bridge attempt and immediately address the kimura by turning your body toward the trapped arm, straightening the arm, and pulling the elbow back to your hip before resuming escape attempts → Leads to [[Reverse Scarf Hold]]
+- **Top player widens base and drops hips to absorb the bridge force** (Effectiveness: High) - Your Response: Use the failed bridge as a feint to set up a hip escape in the opposite direction while the opponent commits weight low, or immediately chain a second bridge targeting the newly widened base angle → Leads to [[Positions/Side Control/Reverse Scarf Hold]]
+- **Top player rides the bridge momentum and steps over to mount** (Effectiveness: High) - Your Response: If you feel them stepping over during your bridge, immediately abandon the guard recovery and focus on blocking the leg from clearing your body by clamping your elbow to your hip on the mount side → Leads to [[Positions/Mount]]
+- **Top player resettles weight before knee insertion completes** (Effectiveness: Medium) - Your Response: Maintain whatever space you created with frames and immediately attempt a hip escape to complete the guard recovery from the partially improved position rather than trying another bridge → Leads to [[Positions/Side Control/Reverse Scarf Hold]]
+- **Top player attacks the near-side arm with kimura during bridge setup** (Effectiveness: Medium) - Your Response: Abandon the bridge attempt and immediately address the kimura by turning your body toward the trapped arm, straightening the arm, and pulling the elbow back to your hip before resuming escape attempts → Leads to [[Positions/Side Control/Reverse Scarf Hold]]
 
 
 </section>

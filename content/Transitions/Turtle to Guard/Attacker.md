@@ -174,7 +174,7 @@ description: "How to execute Turtle to Guard recovery in BJJ. Complete attacking
 
 The Turtle to Guard recovery is executed by the bottom player who is attempting to escape the vulnerable turtle position and re-establish an offensive guard. This transition requires precise timing of the explosive hip rotation, disciplined grip fighting to prevent opponent from establishing back control, and immediate guard structure upon completing the rotation. The technique is fundamentally about converting a defensive liability into an offensive platform. Success hinges on reading opponent's weight distribution, creating lateral space through hip shifting, and committing fully to the rotation with pre-loaded guard frames that activate the instant you face the opponent. The recovery must be treated as a single continuous chain from grip strip through rotation through guard establishment, not as separate sequential movements.
 
-**From Position**: [[Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
@@ -227,10 +227,10 @@ The Turtle to Guard recovery is executed by the bottom player who is attempting 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -239,11 +239,11 @@ The Turtle to Guard recovery is executed by the bottom player who is attempting 
 
 ## Opponent Counters
 
-- **Opponent rides weight forward and heavy, preventing hip escape and rotation** (Effectiveness: High) - Your Response: Switch to alternative escape such as granby roll using their forward momentum against them, or attempt technical standup if their hooks are not secured. Forward roll is also available if space permits on the far side. → Leads to [[Turtle]]
-- **Opponent secures seat belt grip with both hooks in, establishing near-complete back control** (Effectiveness: High) - Your Response: Immediately address the choking hand with two-on-one grip break. Trap opponent's bottom hook by clamping their ankle, extract your hip, and roll over the trapped leg side to face opponent in half guard. This converts their hook into your half guard entanglement. → Leads to [[Back Control]]
-- **Opponent sprawls heavily, flattening you toward the mat and killing your base** (Effectiveness: Medium) - Your Response: Use shrimping motion to create angle from the flattened position, then establish elbow-knee frame on the compressed side. Use this frame to create space for hip escape and eventual guard recovery. Granby roll away from the pressure direction is the primary alternative. → Leads to [[Turtle]]
-- **Opponent blocks rotation by posting their hand on mat near your hip, jamming your turn** (Effectiveness: Medium) - Your Response: Change direction of rotation immediately, going to the opposite side where the posted hand cannot follow. Alternatively, use their posted hand as a pivot point to roll over it. Can also transition to technical standup since the posted hand creates space underneath. → Leads to [[Turtle]]
-- **Opponent immediately attempts to pass as you establish guard, driving forward aggressively** (Effectiveness: Low) - Your Response: Use frames aggressively to create distance, extend legs to prevent pressure, and immediately threaten submissions or sweeps. The momentum from your rotation often gives you offensive opportunities against hasty passing attempts that lack proper grip establishment. → Leads to [[Closed Guard]]
+- **Opponent rides weight forward and heavy, preventing hip escape and rotation** (Effectiveness: High) - Your Response: Switch to alternative escape such as granby roll using their forward momentum against them, or attempt technical standup if their hooks are not secured. Forward roll is also available if space permits on the far side. → Leads to [[Positions/Turtle]]
+- **Opponent secures seat belt grip with both hooks in, establishing near-complete back control** (Effectiveness: High) - Your Response: Immediately address the choking hand with two-on-one grip break. Trap opponent's bottom hook by clamping their ankle, extract your hip, and roll over the trapped leg side to face opponent in half guard. This converts their hook into your half guard entanglement. → Leads to [[Positions/Back Control]]
+- **Opponent sprawls heavily, flattening you toward the mat and killing your base** (Effectiveness: Medium) - Your Response: Use shrimping motion to create angle from the flattened position, then establish elbow-knee frame on the compressed side. Use this frame to create space for hip escape and eventual guard recovery. Granby roll away from the pressure direction is the primary alternative. → Leads to [[Positions/Turtle]]
+- **Opponent blocks rotation by posting their hand on mat near your hip, jamming your turn** (Effectiveness: Medium) - Your Response: Change direction of rotation immediately, going to the opposite side where the posted hand cannot follow. Alternatively, use their posted hand as a pivot point to roll over it. Can also transition to technical standup since the posted hand creates space underneath. → Leads to [[Positions/Turtle]]
+- **Opponent immediately attempts to pass as you establish guard, driving forward aggressively** (Effectiveness: Low) - Your Response: Use frames aggressively to create distance, extend legs to prevent pressure, and immediately threaten submissions or sweeps. The momentum from your rotation often gives you offensive opportunities against hasty passing attempts that lack proper grip establishment. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

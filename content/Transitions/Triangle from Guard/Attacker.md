@@ -184,7 +184,7 @@ The technique exploits a critical timing window when the opponent attempts to re
 
 Strategically, the Triangle from Guard serves as the cornerstone threat that makes the entire Mission Control system functional. Without a credible triangle threat, the top person can focus entirely on posture recovery without consequence. The threat of the triangle forces the opponent into defensive arm positioning that opens omoplata entries, and attempts to defend the omoplata reopen the triangle. This creates the dilemma-based offense that defines effective rubber guard play. Advanced practitioners chain the triangle threat with New York transitions, omoplata sweeps, and gogoplata entries, using the triangle as the hub of a submission web that forces opponents into increasingly compromised defensive positions.
 
-**From Position**: [[Mission Control]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
 
 </section>
 
@@ -238,10 +238,10 @@ Strategically, the Triangle from Guard serves as the cornerstone threat that mak
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Control]] | 55% |
-| Failure | [[Mission Control]] | 25% |
-| Failure | [[Closed Guard]] | 10% |
-| Counter | [[Headquarters Position]] | 10% |
+| Success | [[Positions/Triangle Control]] | 55% |
+| Failure | [[Positions/Rubber Guard/Mission Control]] | 25% |
+| Failure | [[Positions/Closed Guard]] | 10% |
+| Counter | [[Positions/Headquarters Position]] | 10% |
 
 
 </section>
@@ -250,11 +250,11 @@ Strategically, the Triangle from Guard serves as the cornerstone threat that mak
 
 ## Opponent Counters
 
-- **Opponent postures explosively with stacking pressure before the leg fully crosses, driving weight forward to collapse the triangle angle and prevent the lock from closing** (Effectiveness: High) - Your Response: If the leg is partially across, accept the stack and transition to omoplata by uncrossing the legs and rotating underneath. If the leg hasn't crossed yet, pull head down aggressively and re-establish Mission Control for another attempt → Leads to [[Mission Control]]
-- **Opponent tucks the chin and turns the head toward the trapped arm side to create space inside the triangle and reduce choking pressure on the carotid arteries** (Effectiveness: Medium) - Your Response: Pull the head back to center using both hands on the back of the skull. Adjust the angle by pivoting hips further perpendicular. If they continue turning, transition to armbar on the trapped arm which becomes exposed when they turn → Leads to [[Triangle Control]]
-- **Opponent grabs their own hands in a Gable grip or clasps hands together to prevent the trapped arm from being pulled across the centerline, maintaining a frame inside the triangle** (Effectiveness: Medium) - Your Response: Attack the grip directly by prying hands apart with a two-on-one wrist break. Alternatively, switch to a cutting angle that generates choking pressure even with the arm in place, or transition to a mounted triangle by sweeping from the triangle position → Leads to [[Triangle Control]]
-- **Opponent stands up while trapped in the triangle attempt, using their height and posture to create distance and reduce choking effectiveness** (Effectiveness: Medium) - Your Response: Maintain the triangle lock and hang your weight to prevent them from achieving full posture. If they stand fully, use their standing position to convert to a flying triangle finish or sweep them backward by pushing on the posted knee while pulling their head forward → Leads to [[Triangle Control]]
-- **Opponent extracts the trapped arm to the outside before the triangle is locked, eliminating the arm isolation that creates the choking structure** (Effectiveness: High) - Your Response: If the arm escapes before the lock, immediately transition to armbar on the now-extended arm or re-enter Mission Control using the remaining leg control. Do not attempt to force a triangle without proper arm isolation as it will not generate choking pressure → Leads to [[Closed Guard]]
+- **Opponent postures explosively with stacking pressure before the leg fully crosses, driving weight forward to collapse the triangle angle and prevent the lock from closing** (Effectiveness: High) - Your Response: If the leg is partially across, accept the stack and transition to omoplata by uncrossing the legs and rotating underneath. If the leg hasn't crossed yet, pull head down aggressively and re-establish Mission Control for another attempt → Leads to [[Positions/Rubber Guard/Mission Control]]
+- **Opponent tucks the chin and turns the head toward the trapped arm side to create space inside the triangle and reduce choking pressure on the carotid arteries** (Effectiveness: Medium) - Your Response: Pull the head back to center using both hands on the back of the skull. Adjust the angle by pivoting hips further perpendicular. If they continue turning, transition to armbar on the trapped arm which becomes exposed when they turn → Leads to [[Positions/Triangle Control]]
+- **Opponent grabs their own hands in a Gable grip or clasps hands together to prevent the trapped arm from being pulled across the centerline, maintaining a frame inside the triangle** (Effectiveness: Medium) - Your Response: Attack the grip directly by prying hands apart with a two-on-one wrist break. Alternatively, switch to a cutting angle that generates choking pressure even with the arm in place, or transition to a mounted triangle by sweeping from the triangle position → Leads to [[Positions/Triangle Control]]
+- **Opponent stands up while trapped in the triangle attempt, using their height and posture to create distance and reduce choking effectiveness** (Effectiveness: Medium) - Your Response: Maintain the triangle lock and hang your weight to prevent them from achieving full posture. If they stand fully, use their standing position to convert to a flying triangle finish or sweep them backward by pushing on the posted knee while pulling their head forward → Leads to [[Positions/Triangle Control]]
+- **Opponent extracts the trapped arm to the outside before the triangle is locked, eliminating the arm isolation that creates the choking structure** (Effectiveness: High) - Your Response: If the arm escapes before the lock, immediately transition to armbar on the now-extended arm or re-enter Mission Control using the remaining leg control. Do not attempt to force a triangle without proper arm isolation as it will not generate choking pressure → Leads to [[Positions/Closed Guard]]
 
 
 </section>

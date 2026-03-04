@@ -180,7 +180,7 @@ description: "Complete guide to executing the belly down armbar transition. Step
 
 The belly down armbar transition from the attacker's perspective requires decisive recognition and immediate commitment. When the opponent begins rolling to escape the standard armbar, you must follow their rotation while maintaining absolute grip integrity on the isolated arm. The transition window is narrow, typically one to two seconds, during which you must reposition your entire body from supine to prone while keeping the arm trapped between your thighs. Success depends on anticipating the roll rather than reacting to it, maintaining continuous hip-to-shoulder pressure throughout, and establishing the belly-down finish position before the opponent can create defensive frames or extract their arm.
 
-**From Position**: [[Armbar Control]] (Top)
+**From Position**: [[Positions/Armbar Control]] (Top)
 
 </section>
 
@@ -233,8 +233,8 @@ The belly down armbar transition from the attacker's perspective requires decisi
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Armbar Control]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Armbar Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ The belly down armbar transition from the attacker's perspective requires decisi
 
 ## Opponent Counters
 
-- **Opponent clasps hands together during the roll to prevent arm isolation** (Effectiveness: High) - Your Response: Immediately wedge your knee between their clasped hands and use a ratcheting motion to separate them. Alternatively, switch to a wrist lock threat by twisting the trapped hand, which forces them to release the clasp to protect their wrist. → Leads to [[Armbar Control]]
-- **Opponent posts free hand and hip escapes to create distance during transition** (Effectiveness: Medium) - Your Response: Follow their hip escape by scooting your hips to track their shoulder. If they create significant distance, transition to a scramble position and use your grip on their arm to pull them back or convert to a top ride position. → Leads to [[Half Guard]]
-- **Opponent bridges explosively during the transition moment to unseat your base** (Effectiveness: Medium) - Your Response: Absorb the bridge by posting your free hand on the mat and keeping your weight low. The bridge actually assists your transition if you maintain grip, as the opponent's upward momentum can be redirected into your belly-down position. → Leads to [[Armbar Control]]
-- **Opponent tucks elbow tight to their body and turns fully into you to recover guard** (Effectiveness: High) - Your Response: If the elbow tucks before you establish belly-down control, switch targets immediately. Transition to a kimura grip on the bent arm, or abandon the armbar and secure top position in half guard or side control rather than chasing a deteriorating submission. → Leads to [[Half Guard]]
+- **Opponent clasps hands together during the roll to prevent arm isolation** (Effectiveness: High) - Your Response: Immediately wedge your knee between their clasped hands and use a ratcheting motion to separate them. Alternatively, switch to a wrist lock threat by twisting the trapped hand, which forces them to release the clasp to protect their wrist. → Leads to [[Positions/Armbar Control]]
+- **Opponent posts free hand and hip escapes to create distance during transition** (Effectiveness: Medium) - Your Response: Follow their hip escape by scooting your hips to track their shoulder. If they create significant distance, transition to a scramble position and use your grip on their arm to pull them back or convert to a top ride position. → Leads to [[Positions/Half Guard]]
+- **Opponent bridges explosively during the transition moment to unseat your base** (Effectiveness: Medium) - Your Response: Absorb the bridge by posting your free hand on the mat and keeping your weight low. The bridge actually assists your transition if you maintain grip, as the opponent's upward momentum can be redirected into your belly-down position. → Leads to [[Positions/Armbar Control]]
+- **Opponent tucks elbow tight to their body and turns fully into you to recover guard** (Effectiveness: High) - Your Response: If the elbow tucks before you establish belly-down control, switch targets immediately. Transition to a kimura grip on the bent arm, or abandon the armbar and secure top position in half guard or side control rather than chasing a deteriorating submission. → Leads to [[Positions/Half Guard]]
 
 
 </section>

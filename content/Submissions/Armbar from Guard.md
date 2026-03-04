@@ -22,7 +22,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint
-**Starting Position**: [[Closed Guard]]
+**Starting Position**: [[Positions/Closed Guard]]
 **Success Rate**: 62%
 
 </section>
@@ -77,8 +77,8 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -230,16 +230,16 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 ## From Which Positions?
 
-- [[Closed Guard]]
-- [[Open Guard]]
-- [[Spider Guard]]
-- [[De La Riva Guard]]
-- [[Collar Sleeve Guard]]
-- [[Butterfly Guard]]
-- [[Half Guard]]
-- [[Rubber Guard]]
-- [[Triangle Control]]
-- [[Omoplata Control]]
+- [[Positions/Closed Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/Spider Guard]]
+- [[Positions/De La Riva Guard]]
+- [[Positions/Collar Sleeve Guard]]
+- [[Positions/Butterfly Guard]]
+- [[Positions/Half Guard]]
+- [[Positions/Rubber Guard]]
+- [[Positions/Triangle Control]]
+- [[Positions/Omoplata Control]]
 
 
 </section>
@@ -248,16 +248,16 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 ## Related Submissions
 
-- [[Triangle Choke]]
-- [[Omoplata]]
-- [[Kimura]]
-- [[Flying Armbar]]
-- [[Armbar from Guard]]
-- [[Armbar from Mount]]
-- [[Armbar from Back]]
-- [[Belly Down Armbar]]
-- [[Gogoplata]]
-- [[Guillotine Choke]]
+- [[Transitions/Triangle Choke]]
+- [[Transitions/Omoplata]]
+- [[Transitions/Kimura]]
+- [[Submissions/Flying Armbar]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Armbar from Back]]
+- [[Submissions/Belly Down Armbar]]
+- [[Transitions/Gogoplata]]
+- [[Transitions/Guillotine Choke]]
 
 
 </section>
@@ -266,16 +266,16 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 ## Additional Related Content
 
-- [[Closed Guard]] - Primary starting position for this armbar variation
-- [[Triangle Choke]] - Common combination—triangle threats set up armbar opportunities
-- [[Omoplata]] - Part of the same submission chain system from guard
-- [[Armbar Control]] - Control position where finishing mechanics are applied
-- [[Hip Bump Sweep]] - Complementary attack that creates armbar opportunities when defended
-- [[Armbar from Mount]] - Related armbar variation from different starting position
-- [[Open Guard]] - Alternative starting position for armbar entries
-- [[Spider Guard]] - Guard variation offering armbar opportunities through sleeve control
-- [[Kimura]] - Complementary shoulder attack from similar guard positions
-- [[Armbar from Back]] - Related technique showing armbar versatility from different positions
+- [[Positions/Closed Guard]] - Primary starting position for this armbar variation
+- [[Transitions/Triangle Choke]] - Common combination—triangle threats set up armbar opportunities
+- [[Transitions/Omoplata]] - Part of the same submission chain system from guard
+- [[Positions/Armbar Control]] - Control position where finishing mechanics are applied
+- [[Transitions/Hip Bump Sweep]] - Complementary attack that creates armbar opportunities when defended
+- [[Submissions/Armbar from Mount]] - Related armbar variation from different starting position
+- [[Positions/Open Guard]] - Alternative starting position for armbar entries
+- [[Positions/Spider Guard]] - Guard variation offering armbar opportunities through sleeve control
+- [[Transitions/Kimura]] - Complementary shoulder attack from similar guard positions
+- [[Submissions/Armbar from Back]] - Related technique showing armbar versatility from different positions
 
 
 </section>

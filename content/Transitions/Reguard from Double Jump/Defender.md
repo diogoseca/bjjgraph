@@ -146,7 +146,7 @@ description: "Complete guide to preventing the reguard from Double Jump top in B
 
 As the defender against the reguard from Double Jump, your objective is to maintain your advantageous top position and prevent the bottom player from recovering their closed guard. You occupy the Double Jump top position with established control, and the bottom player is attempting to extract their legs and close their guard around your waist. Your defensive strategy combines continuous forward pressure to limit the space needed for hip escape, hip control to prevent the angular movement required for guard closure, and recognition of the transition window where you can advance to side control. The bottom player's reguard attempt actually creates opportunities for you to advance position, as their focus shifts from offense to defense and their legs pass through a vulnerable reconfiguration phase.
 
-**Opponent's Starting Position**: [[Double Jump]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Double Jump]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the reguard from Double Jump, your objective is to maint
 ### 1. Drive heavy forward pressure through chest and hips to flatten the bottom player and collapse their frames
 
 - **When to use**: As soon as you feel frames being established or hip escape movement initiating - before the reguard develops
-- **Targets**: [[Double Jump]]
+- **Targets**: [[Positions/Double Jump]]
 - **If successful**: Bottom player remains trapped in Double Jump bottom with frames collapsed and insufficient space for guard closure
 - **Risk**: If bottom player times the pressure correctly, they can redirect your forward drive to assist their guard closure
 
 ### 2. Widen base and control opponent's legs to prevent them from wrapping around your waist
 
 - **When to use**: When the bottom player has begun leg extraction but has not yet completed the sweeping arc around your body
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Bottom player achieves only partial guard recovery to half guard rather than the intended closed guard
 - **Risk**: Wide base reduces your forward pressure and may open opportunities for deep half or butterfly guard entries
 
 ### 3. Initiate guard pass during the vulnerable leg reconfiguration window
 
 - **When to use**: When the bottom player's legs are in transit between Double Jump and guard closure - the optimal passing window
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You advance to side control by passing through the reorganizing legs during the brief vulnerability window
 - **Risk**: If the pass fails during the scramble, the bottom player may complete guard closure or establish an alternative guard
 
 ### 4. Backstep and circle to avoid guard closure while maintaining top control
 
 - **When to use**: When the bottom player has nearly completed guard closure and direct forward pressure would result in being caught in closed guard
-- **Targets**: [[Double Jump]]
+- **Targets**: [[Positions/Double Jump]]
 - **If successful**: You avoid closed guard and force the bottom player to restart from Double Jump or open guard
 - **Risk**: Creates space that the bottom player could use for alternative guard recovery, sweep setup, or deep half entry
 
@@ -217,11 +217,11 @@ As the defender against the reguard from Double Jump, your objective is to maint
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Time your guard passing attempt during the vulnerable leg extraction phase when the bottom player's legs are reconfiguring. Drive your hips through the opening between their extracting legs and consolidate side control with crossface and underhook before guard closure completes.
 
-### → [[Double Jump]]
+### → [[Positions/Double Jump]]
 
 Maintain relentless forward pressure and hip control to collapse the bottom player's defensive frames before they can create enough space for the reguard. Stay heavy with chest pressure and deny the hip escape angle by keeping your hips low and driving through their center.
 

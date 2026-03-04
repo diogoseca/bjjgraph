@@ -184,7 +184,7 @@ The mechanical foundation of this transition involves releasing the deep overhoo
 
 This transition serves multiple strategic purposes within the rubber guard framework. It provides an escape route when Crackhead Control becomes untenable due to back exposure threats, offers a way to reset when submission attempts stall, and creates opportunities to attack from a different angle when the opponent has adapted to your Crackhead Control offense. Advanced practitioners flow between these positions fluidly, using the transition itself as a setup for submissions when opponents anticipate a simple positional change.
 
-**From Position**: [[Crackhead Control]] (Bottom)
+**From Position**: [[Positions/Crackhead Control]] (Bottom)
 
 </section>
 
@@ -237,9 +237,9 @@ This transition serves multiple strategic purposes within the rubber guard frame
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mission Control]] | 65% |
-| Failure | [[Crackhead Control]] | 20% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Mission Control]] | 65% |
+| Failure | [[Positions/Crackhead Control]] | 20% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ This transition serves multiple strategic purposes within the rubber guard frame
 
 ## Opponent Counters
 
-- **Opponent drives forward explosively during overhook release attempting to stack** (Effectiveness: High) - Your Response: Abort transition to Mission Control and accept the forward pressure for Carni or gogoplata setup instead. Their forward drive actually assists these submissions. → Leads to [[Crackhead Control]]
-- **Opponent times arm extraction during the brief window when overhook releases** (Effectiveness: Medium) - Your Response: Immediately follow the extracting arm into omoplata rather than fighting to reestablish control. Their extraction motion sets up the rotation perfectly. → Leads to [[Closed Guard]]
-- **Opponent postures up explosively before leg can reposition to Mission Control height** (Effectiveness: Medium) - Your Response: Use their upward posture momentum to enter triangle setup. Their posting upward creates ideal angle for leg to swing across face rather than shoulder. → Leads to [[Closed Guard]]
-- **Opponent establishes double underhooks during transition vulnerability** (Effectiveness: High) - Your Response: Abandon Mission Control attempt entirely. Close guard immediately or initiate technical standup. Double underhooks signal critical danger that overrides positional preferences. → Leads to [[Closed Guard]]
+- **Opponent drives forward explosively during overhook release attempting to stack** (Effectiveness: High) - Your Response: Abort transition to Mission Control and accept the forward pressure for Carni or gogoplata setup instead. Their forward drive actually assists these submissions. → Leads to [[Positions/Crackhead Control]]
+- **Opponent times arm extraction during the brief window when overhook releases** (Effectiveness: Medium) - Your Response: Immediately follow the extracting arm into omoplata rather than fighting to reestablish control. Their extraction motion sets up the rotation perfectly. → Leads to [[Positions/Closed Guard]]
+- **Opponent postures up explosively before leg can reposition to Mission Control height** (Effectiveness: Medium) - Your Response: Use their upward posture momentum to enter triangle setup. Their posting upward creates ideal angle for leg to swing across face rather than shoulder. → Leads to [[Positions/Closed Guard]]
+- **Opponent establishes double underhooks during transition vulnerability** (Effectiveness: High) - Your Response: Abandon Mission Control attempt entirely. Close guard immediately or initiate technical standup. Double underhooks signal critical danger that overrides positional preferences. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

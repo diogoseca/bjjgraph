@@ -21,7 +21,7 @@ The strategic value of this transition lies in its simplicity and directional ef
 
 From a competitive standpoint, the leg drag to mount sequence scores points immediately upon achieving the mount position (typically 4 points) while simultaneously opening a wide array of submission opportunities. Advanced practitioners use this transition as part of a systematic approach where the threat of the mount forces defensive reactions that expose the back, creating the dilemma-based passing system that characterizes elite-level guard passing.
 
-**From Position**: [[Leg Drag Control]] (Top)
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ From a competitive standpoint, the leg drag to mount sequence scores points imme
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 65% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount]] | 65% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Leg Drag to Mount transition occupies a critical junction in the guard passi
 ## Related Techniques
 
 
-- [[Leg Drag Control]] - Starting position for this transition
+- [[Positions/Leg Drag Control]] - Starting position for this transition
 
-- [[Mount]] - Target position upon successful completion
+- [[Positions/Mount]] - Target position upon successful completion
 
-- [[Leg Drag to Back Take]] - Alternative transition when opponent turns away
+- [[Transitions/Leg Drag to Back Take]] - Alternative transition when opponent turns away
 
-- [[Leg Drag Pass to Side Control]] - Alternative consolidation option
+- [[Transitions/Leg Drag Pass to Side Control]] - Alternative consolidation option
 
-- [[Knee on Belly]] - Intermediate position or alternative when mount is blocked
+- [[Positions/Knee on Belly]] - Intermediate position or alternative when mount is blocked
 
-- [[Technical Mount]] - Variant target position when opponent is partially turned
+- [[Positions/Mount/Technical Mount]] - Variant target position when opponent is partially turned
 
-- [[Armbar from Mount]] - Primary submission follow-up from achieved mount
+- [[Submissions/Armbar from Mount]] - Primary submission follow-up from achieved mount
 
-- [[Americana]] - High-percentage submission chain from mount position
+- [[Transitions/Americana]] - High-percentage submission chain from mount position
 
-- [[Half Guard]] - Common counter position if opponent recovers leg
+- [[Positions/Half Guard]] - Common counter position if opponent recovers leg
 
-- [[Leg Drag Pass]] - Entry technique to establish leg drag control
+- [[Transitions/Leg Drag Pass]] - Entry technique to establish leg drag control
 
 
 </section>

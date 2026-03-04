@@ -194,28 +194,28 @@ Defending the triangle from spider guard requires understanding both the spider 
 ### 1. Posture recovery and grip strip before triangle locks
 
 - **When to use**: Immediately when you recognize the hip pivot and arm isolation—before opponent's leg crosses your neck. This is the highest-percentage defense window.
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: Returns you to spider guard top position with posture intact, forcing opponent to restart their attack sequence from scratch
 - **Risk**: If you fail to strip grips quickly enough, opponent completes the triangle lock and you must shift to escape-phase defenses
 
 ### 2. Stack pass through the triangle by driving forward with shoulder pressure
 
 - **When to use**: When triangle is partially locked but opponent has not yet secured proper angle or arm control. Drive your weight forward immediately to prevent them from pivoting their hips perpendicular.
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You pass directly through the triangle to side control as opponent's guard structure collapses under the stack pressure
 - **Risk**: If opponent has good angle already, stacking drives your neck deeper into the choke. Only effective before angle is established.
 
 ### 3. Arm extraction with posture and base—straighten trapped arm and drive it toward their hip
 
 - **When to use**: When triangle is fully locked but opponent has not yet pulled your arm across their body. Immediately straighten your trapped arm and post it on their hip to create a frame that prevents them from completing the arm-across finish.
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: Extracting the trapped arm eliminates the 'one arm in, one arm out' configuration needed for the choke, allowing you to work toward opening the triangle
 - **Risk**: Opponent may transition to armbar on your straightened arm if you extend it carelessly without maintaining posture
 
 ### 4. Walk hips back to square alignment then stand to break triangle open
 
 - **When to use**: When fully locked in the triangle with opponent maintaining angle. Walk your knees and hips back to realign your body square with theirs, eliminating the perpendicular angle that creates choking pressure.
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: Removing the angle drastically reduces choking effectiveness and creates opportunity to work arm extraction and posture to eventually break the triangle open
 - **Risk**: Opponent will actively re-angle by hip escaping. You must be persistent and combine alignment correction with posture and arm defense.
 
@@ -238,11 +238,11 @@ Defending the triangle from spider guard requires understanding both the spider 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Spider Guard]]
+### → [[Positions/Spider Guard]]
 
 Maintain posture throughout, strip grips early to prevent arm isolation, or successfully extract trapped arm and break the triangle open to return to top position in spider guard
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Stack through the triangle before angle is established by driving shoulder pressure forward, flattening opponent's hips, and passing directly through the opening triangle to establish side control
 

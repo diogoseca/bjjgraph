@@ -180,7 +180,7 @@ description: "Execute the Pressure Pass from Leg Knot as the top player. Step-by
 
 As the attacker executing the Pressure Pass from Leg Knot, your objective is to transition from a contested leg entanglement into a dominant passing position through methodical pressure application and systematic leg extraction. This requires abandoning the leg lock exchange in favor of upper body dominance, establishing crushing forward pressure that flattens your opponent and eliminates their ability to re-entangle or attack your legs. The pass succeeds through patience and sequential progression: control the upper body first, isolate and extract the trapped leg second, complete the pass third. Rushing any phase exposes you to sweeps, re-entanglement, or submission counters that punish premature commitment.
 
-**From Position**: [[Leg Knot]] (Top)
+**From Position**: [[Positions/Leg Knot]] (Top)
 
 </section>
 
@@ -232,10 +232,10 @@ As the attacker executing the Pressure Pass from Leg Knot, your objective is to 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Success | [[Side Control]] | 10% |
-| Failure | [[Leg Knot]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Success | [[Positions/Side Control]] | 10% |
+| Failure | [[Positions/Leg Knot]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the Pressure Pass from Leg Knot, your objective is to 
 
 ## Opponent Counters
 
-- **Opponent re-entangles legs during extraction by hooking your ankle or knee with their free leg** (Effectiveness: High) - Your Response: Maintain constant forward chest pressure during extraction so the opponent cannot generate the hip movement needed to re-hook. If they begin re-entangling, immediately drive your knee past their hook point and accelerate the knee slide rather than retreating. → Leads to [[Leg Knot]]
-- **Opponent frames with both hands on your shoulders or biceps to create distance and prevent upper body control** (Effectiveness: Medium) - Your Response: Swim through the frames by circling your arms inside their elbows and re-establishing the crossface. Use your bodyweight to collapse their frames rather than trying to strip grips with hand fighting. Heavy forward pressure makes it unsustainable for them to hold extended arm frames. → Leads to [[Leg Knot]]
-- **Opponent initiates an aggressive heel hook or toe hold attack during the weight transfer phase** (Effectiveness: High) - Your Response: If you feel a submission grip on your foot, pause the extraction and address the threat immediately. Turn your knee inward to protect the heel, strip the grip with your free hand, then resume the pass. Never continue extracting while a live submission grip exists on your leg. → Leads to [[Leg Knot]]
-- **Opponent bridges and hip escapes during the consolidation phase to create a sweep opportunity** (Effectiveness: Medium) - Your Response: Post your freed leg wide for base when you feel the bridge coming. Keep your crossface tight and drive your hips back into the opponent rather than rising up, which would give them the space to complete the sweep. Maintain a low center of gravity throughout the consolidation. → Leads to [[Half Guard]]
+- **Opponent re-entangles legs during extraction by hooking your ankle or knee with their free leg** (Effectiveness: High) - Your Response: Maintain constant forward chest pressure during extraction so the opponent cannot generate the hip movement needed to re-hook. If they begin re-entangling, immediately drive your knee past their hook point and accelerate the knee slide rather than retreating. → Leads to [[Positions/Leg Knot]]
+- **Opponent frames with both hands on your shoulders or biceps to create distance and prevent upper body control** (Effectiveness: Medium) - Your Response: Swim through the frames by circling your arms inside their elbows and re-establishing the crossface. Use your bodyweight to collapse their frames rather than trying to strip grips with hand fighting. Heavy forward pressure makes it unsustainable for them to hold extended arm frames. → Leads to [[Positions/Leg Knot]]
+- **Opponent initiates an aggressive heel hook or toe hold attack during the weight transfer phase** (Effectiveness: High) - Your Response: If you feel a submission grip on your foot, pause the extraction and address the threat immediately. Turn your knee inward to protect the heel, strip the grip with your free hand, then resume the pass. Never continue extracting while a live submission grip exists on your leg. → Leads to [[Positions/Leg Knot]]
+- **Opponent bridges and hip escapes during the consolidation phase to create a sweep opportunity** (Effectiveness: Medium) - Your Response: Post your freed leg wide for base when you feel the bridge coming. Keep your crossface tight and drive your hips back into the opponent rather than rising up, which would give them the space to complete the sweep. Maintain a low center of gravity throughout the consolidation. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -158,7 +158,7 @@ The critical defensive window occurs during the setup phase, not during the swee
 
 When prevention fails and the sweep is in motion, your defensive options narrow to posting the free hand, stepping over the bottom leg to nullify the push, or driving your weight forward into the sweep to collapse the lever system. Each emergency defense carries risks - posting exposes the arm to kimura attacks, stepping over can lead to half guard entanglement, and driving forward can accelerate the sweep if mistimed. Understanding which emergency response matches each stage of the sweep is essential for reliable defense.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ When prevention fails and the sweep is in motion, your defensive options narrow 
 ### 1. Post free hand on the mat at a 45-degree angle behind you on the sweep side while widening your base and driving hips low
 
 - **When to use**: When the scissor motion has begun and you feel yourself being tipped laterally - this is your primary emergency defense
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You stabilize your base and remain in top position inside their now-open guard, allowing you to recover posture and resume passing
 - **Risk**: The posted arm becomes vulnerable to kimura attack if the bottom player releases their collar grip and captures your wrist
 
 ### 2. Step over the bottom leg (the shin across your abdomen) by driving your knee past their leg and re-establishing base on the other side
 
 - **When to use**: When you recognize the shin placement across your abdomen early before the full scissor motion develops, and you have enough posture to move your hips
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You neutralize the sweep entirely by removing the pushing leg from the equation and can immediately initiate a guard pass from the new angle
 - **Risk**: If mistimed, stepping over can result in your leg being caught in half guard or the opponent converting to a different sweep using your movement
 
 ### 3. Strip the sleeve grip by yanking your controlled arm free, then immediately post that hand and drive your weight forward to collapse the sweep angle
 
 - **When to use**: During the setup phase when you detect the grip sequence being established but before the guard is opened and legs are repositioned
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Without sleeve control, the bottom player cannot prevent you from posting, making the sweep mechanically impossible to complete
 - **Risk**: Aggressive grip stripping while your posture is broken can create scramble opportunities for the bottom player to transition to other attacks
 
 ### 4. Drive your weight forward and sprawl your hips into the bottom player, flattening their angle and collapsing the space needed for the scissor motion
 
 - **When to use**: When you have strong posture and feel the opponent beginning to create the perpendicular angle but before their legs are fully positioned
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You crush the sweep setup by denying the space and angle required, and can use the forward pressure to begin your own guard opening sequence
 - **Risk**: Driving forward with broken posture plays directly into the sweep - this defense only works when you have structural integrity in your spine and base
 
@@ -227,11 +227,11 @@ When prevention fails and the sweep is in motion, your defensive options narrow 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Maintain strong posture and wide base throughout. Strip grips proactively to deny the setup. Post your free hand immediately when you feel lateral pressure. Once the sweep attempt fails, recover your grips and resume your guard passing strategy from inside their now-open guard.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Step over the bottom leg when you recognize the shin placement early, landing on the opposite side with your base re-established. Alternatively, use the opponent's failed sweep attempt to initiate a guard pass by immediately pinning their legs and advancing to a dominant angle while they are recovering from the failed technique.
 

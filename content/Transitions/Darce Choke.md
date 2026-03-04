@@ -21,7 +21,7 @@ This technique represents the finishing sequence after Darce Control has been es
 
 The Darce Choke is particularly effective because it attacks from a position where the opponent has limited defensive options. Once the grip is locked and the body position is correct, escape becomes extremely difficult. The technique sees frequent application in both gi and no-gi competition, with no-gi being especially favorable due to reduced friction and the prevalence of front headlock situations.
 
-**From Position**: [[Darce Control]] (Top)
+**From Position**: [[Positions/Darce Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -33,8 +33,8 @@ The Darce Choke is particularly effective because it attacks from a position whe
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Darce Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Darce Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -187,25 +187,25 @@ The Darce Choke represents the finishing sequence from Darce Control, which is i
 ## Related Techniques
 
 
-- [[Darce Control]] - Starting position - control must be established before finish
+- [[Positions/Darce Control]] - Starting position - control must be established before finish
 
-- [[Anaconda Choke]] - Sister technique - same family with opposite arm threading direction
+- [[Transitions/Anaconda Choke]] - Sister technique - same family with opposite arm threading direction
 
-- [[Front Headlock]] - Primary entry position - most common path to Darce Control
+- [[Positions/Front Headlock]] - Primary entry position - most common path to Darce Control
 
-- [[Arm Triangle]] - Related submission sharing arm-in choke mechanics and finishing principles
+- [[Transitions/Arm Triangle]] - Related submission sharing arm-in choke mechanics and finishing principles
 
-- [[Turtle]] - Common preceding position where darce opportunities frequently arise
+- [[Positions/Turtle]] - Common preceding position where darce opportunities frequently arise
 
-- [[Mount]] - Alternative transition target when choke finish is defended
+- [[Positions/Mount]] - Alternative transition target when choke finish is defended
 
-- [[Back Control]] - Chain attack available when opponent turns to escape the choke
+- [[Positions/Back Control]] - Chain attack available when opponent turns to escape the choke
 
-- [[North-South]] - Transition option when perpendicular finishing angle is unavailable
+- [[Positions/North-South]] - Transition option when perpendicular finishing angle is unavailable
 
-- [[Guillotine Control]] - Related front headlock submission control with alternative choke threat
+- [[Positions/Guillotine Control]] - Related front headlock submission control with alternative choke threat
 
-- [[Brabo Choke]] - Alternate name for the same technique with gi-specific grip variations
+- [[Submissions/Brabo Choke]] - Alternate name for the same technique with gi-specific grip variations
 
 
 </section>

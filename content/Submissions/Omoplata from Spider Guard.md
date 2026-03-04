@@ -26,8 +26,8 @@ Strategically, the omoplata from spider guard creates a powerful dilemma: oppone
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder
-**Starting Position**: [[Spider Guard]]
-**From Position**: [[Spider Guard]] (Bottom)
+**Starting Position**: [[Positions/Spider Guard]]
+**From Position**: [[Positions/Spider Guard]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -79,9 +79,9 @@ Strategically, the omoplata from spider guard creates a powerful dilemma: oppone
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Omoplata Control]] | 25% |
-| Failure | [[Spider Guard]] | 20% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Omoplata Control]] | 25% |
+| Failure | [[Positions/Spider Guard]] | 20% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -212,12 +212,12 @@ Strategically, the omoplata from spider guard creates a powerful dilemma: oppone
 
 ## From Which Positions?
 
-- [[Spider Guard]]
-- [[Open Guard]]
-- [[Lasso Guard]]
-- [[Collar Sleeve Guard]]
-- [[Closed Guard]]
-- [[Rubber Guard]]
+- [[Positions/Spider Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/Lasso Guard]]
+- [[Positions/Collar Sleeve Guard]]
+- [[Positions/Closed Guard]]
+- [[Positions/Rubber Guard]]
 
 
 </section>
@@ -226,12 +226,12 @@ Strategically, the omoplata from spider guard creates a powerful dilemma: oppone
 
 ## Related Submissions
 
-- [[Armbar from Guard]]
-- [[Baratoplata]]
-- [[Gogoplata Finish]]
-- [[Mounted Triangle Finish]]
-- [[Americana]]
-- [[Belly Down Armbar]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Baratoplata]]
+- [[Submissions/Gogoplata Finish]]
+- [[Submissions/Mounted Triangle Finish]]
+- [[Transitions/Americana]]
+- [[Submissions/Belly Down Armbar]]
 
 
 </section>
@@ -240,14 +240,14 @@ Strategically, the omoplata from spider guard creates a powerful dilemma: oppone
 
 ## Additional Related Content
 
-- [[Spider Guard]] - Primary starting position providing sleeve control and foot-on-bicep framework for omoplata entry
-- [[Omoplata Control]] - Control position established when omoplata is secured but finish is not yet achieved
-- [[Lasso Guard]] - Alternative open guard starting position with similar leg-over-shoulder mechanics
-- [[Open Guard]] - Parent guard category from which spider guard and omoplata entries originate
-- [[Collar Sleeve Guard]] - Related guard with sleeve control that allows omoplata entries with collar grip assistance
-- [[Triangle Control]] - Complementary submission from spider guard that chains with omoplata when opponent defends triangle
-- [[Closed Guard]] - Alternative position offering omoplata entries and fallback when spider guard is compromised
-- [[Side Control]] - Position opponent may achieve if they successfully counter the omoplata with a forward roll
+- [[Positions/Spider Guard]] - Primary starting position providing sleeve control and foot-on-bicep framework for omoplata entry
+- [[Positions/Omoplata Control]] - Control position established when omoplata is secured but finish is not yet achieved
+- [[Positions/Lasso Guard]] - Alternative open guard starting position with similar leg-over-shoulder mechanics
+- [[Positions/Open Guard]] - Parent guard category from which spider guard and omoplata entries originate
+- [[Positions/Collar Sleeve Guard]] - Related guard with sleeve control that allows omoplata entries with collar grip assistance
+- [[Positions/Triangle Control]] - Complementary submission from spider guard that chains with omoplata when opponent defends triangle
+- [[Positions/Closed Guard]] - Alternative position offering omoplata entries and fallback when spider guard is compromised
+- [[Positions/Side Control]] - Position opponent may achieve if they successfully counter the omoplata with a forward roll
 
 
 </section>

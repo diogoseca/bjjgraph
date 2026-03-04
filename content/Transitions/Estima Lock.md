@@ -21,7 +21,7 @@ The technique functions as a direct submission from the Estima Lock control posi
 
 Strategically, the Estima Lock serves as a high-percentage finishing option within leg entanglement systems. It integrates seamlessly with toe holds, straight ankle locks, and transitions to ashi garami positions, creating a comprehensive lower-body submission threat. The technique is particularly effective in no-gi grappling where opponents cannot use collar grips to defend, though it remains viable in gi competition when properly executed. Understanding both the offensive application and defensive vulnerabilities of this submission is essential for modern grapplers competing in rulesets that permit foot attacks.
 
-**From Position**: [[Estima Lock]] (Top)
+**From Position**: [[Positions/Estima Lock]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -33,8 +33,8 @@ Strategically, the Estima Lock serves as a high-percentage finishing option with
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Estima Lock]] | 27% |
-| Counter | [[50-50 Guard]] | 15% |
+| Failure | [[Positions/Estima Lock]] | 27% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Estima Lock serves as a direct submission finish within the broader leg enta
 ## Related Techniques
 
 
-- [[Estima Lock]] - Starting control position from which this finish is executed
+- [[Positions/Estima Lock]] - Starting control position from which this finish is executed
 
-- [[Toe Hold]] - Chain attack when opponent turns foot away from Estima Lock angle
+- [[Transitions/Toe Hold]] - Chain attack when opponent turns foot away from Estima Lock angle
 
-- [[Straight Ankle Lock Control]] - Alternative footlock control position with similar leg isolation configuration
+- [[Positions/Straight Ankle Lock Control]] - Alternative footlock control position with similar leg isolation configuration
 
-- [[Ashi Garami]] - Transition target when opponent creates space defending the finish
+- [[Positions/Ashi Garami]] - Transition target when opponent creates space defending the finish
 
-- [[Saddle]] - Advanced transition through backstep when frames are established
+- [[Positions/Ashi Garami/Saddle]] - Advanced transition through backstep when frames are established
 
-- [[50-50 Guard]] - Common entry position for establishing Estima Lock control
+- [[Positions/Ashi Garami/50-50 Guard]] - Common entry position for establishing Estima Lock control
 
-- [[Outside Ashi-Garami]] - Related leg entanglement with overlapping control mechanics
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related leg entanglement with overlapping control mechanics
 
-- [[Estima Lock to Ashi Garami]] - Transition when primary submission is successfully defended
+- [[Transitions/Estima Lock to Ashi Garami]] - Transition when primary submission is successfully defended
 
-- [[Estima Lock to Saddle]] - Transition through backstep mechanics when opponent sits up
+- [[Transitions/Estima Lock to Saddle]] - Transition through backstep mechanics when opponent sits up
 
-- [[Ankle Lock Finish]] - Related footlock finish with similar positional requirements
+- [[Transitions/Ankle Lock Finish]] - Related footlock finish with similar positional requirements
 
 
 </section>

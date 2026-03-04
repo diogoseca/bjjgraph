@@ -238,8 +238,8 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -248,12 +248,12 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 ## Opponent Defenses
 
-- **Pushing attacker's head away to create space between head and chest** (Effectiveness: Medium) - Your Response: Increase crown of head pressure into sternum and ensure your non-choking shoulder maintains contact with their neck. If they create significant space, transition to standing finish or adjust to arm-in variation. → Leads to [[Front Headlock]]
-- **Turning into the choke to face attacker and eliminate shoulder pressure** (Effectiveness: High) - Your Response: This is the most effective defense. Counter by immediately increasing non-choking shoulder pressure and pulling choking elbow further back and up. If turn is successful, be prepared to transition to darce or anaconda, or to abandon and establish different control. → Leads to [[Front Headlock]]
-- **Bridging or arching back to create space in the hip connection** (Effectiveness: Medium) - Your Response: Follow their bridge by extending your body and maintaining guard closure or hip pressure. Your weight should move with them. Increase choking pressure during the bridge as their neck is often more exposed during this defensive movement. → Leads to [[Front Headlock]]
+- **Pushing attacker's head away to create space between head and chest** (Effectiveness: Medium) - Your Response: Increase crown of head pressure into sternum and ensure your non-choking shoulder maintains contact with their neck. If they create significant space, transition to standing finish or adjust to arm-in variation. → Leads to [[Positions/Front Headlock]]
+- **Turning into the choke to face attacker and eliminate shoulder pressure** (Effectiveness: High) - Your Response: This is the most effective defense. Counter by immediately increasing non-choking shoulder pressure and pulling choking elbow further back and up. If turn is successful, be prepared to transition to darce or anaconda, or to abandon and establish different control. → Leads to [[Positions/Front Headlock]]
+- **Bridging or arching back to create space in the hip connection** (Effectiveness: Medium) - Your Response: Follow their bridge by extending your body and maintaining guard closure or hip pressure. Your weight should move with them. Increase choking pressure during the bridge as their neck is often more exposed during this defensive movement. → Leads to [[Positions/Front Headlock]]
 - **Grabbing attacker's choking wrist and attempting to pull it away from neck** (Effectiveness: Low) - Your Response: Maintain strong grip connection and use your entire arm structure rather than just grip strength. Their pulling on your wrist often helps elevate your elbow higher, actually improving your position. Keep shoulder pressure constant. → Leads to [[game-over]]
-- **Tucking chin deep to protect the neck before choke is fully set** (Effectiveness: High) - Your Response: This prevents the choke if done early. You must break their chin-tuck connection before attempting the finish. Use your choking-side grip to lift their head or transition to different submission like darce or front headlock controls. Never force the choke over the chin as this risks jaw injury. → Leads to [[Front Headlock]]
-- **Creating frames on hips or thighs to push away and stand up** (Effectiveness: Medium) - Your Response: Elevate your hips or stand with them while maintaining upper body control. The high elbow guillotine can finish standing as effectively as from guard. Follow their movement upward rather than trying to pull them back down. → Leads to [[Closed Guard]]
+- **Tucking chin deep to protect the neck before choke is fully set** (Effectiveness: High) - Your Response: This prevents the choke if done early. You must break their chin-tuck connection before attempting the finish. Use your choking-side grip to lift their head or transition to different submission like darce or front headlock controls. Never force the choke over the chin as this risks jaw injury. → Leads to [[Positions/Front Headlock]]
+- **Creating frames on hips or thighs to push away and stand up** (Effectiveness: Medium) - Your Response: Elevate your hips or stand with them while maintaining upper body control. The high elbow guillotine can finish standing as effectively as from guard. Follow their movement upward rather than trying to pull them back down. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

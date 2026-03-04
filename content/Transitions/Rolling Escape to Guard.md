@@ -21,7 +21,7 @@ Strategically, this escape should be initiated when you recognize the Aoki Lock 
 
 The Rolling Escape represents the primary high-percentage escape from Aoki Lock, particularly effective when the opponent commits heavily to the shoulder pressure. Success depends on coordinating the roll direction, maintaining internal shoulder rotation throughout, and immediately establishing guard frames upon completing the escape. This technique appears regularly in no-gi competition where shoulder locks from leg entanglements are common finishing positions.
 
-**From Position**: [[Aoki Lock]] (Bottom)
+**From Position**: [[Positions/Aoki Lock]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The Rolling Escape represents the primary high-percentage escape from Aoki Lock,
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Aoki Lock]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Aoki Lock]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Rolling Escape to Guard is the primary high-percentage escape from Aoki Lock
 ## Related Techniques
 
 
-- [[Aoki Lock]] - Starting position and submission being escaped
+- [[Positions/Aoki Lock]] - Starting position and submission being escaped
 
-- [[Open Guard]] - Primary recovery position after successful escape
+- [[Positions/Open Guard]] - Primary recovery position after successful escape
 
-- [[Arm Extraction to Turtle]] - Alternative escape technique from same starting position
+- [[Transitions/Arm Extraction to Turtle]] - Alternative escape technique from same starting position
 
-- [[Granby Roll to Guard]] - Related rolling escape mechanics used in other positions
+- [[Transitions/Granby Roll to Guard]] - Related rolling escape mechanics used in other positions
 
-- [[Hip Escape to Guard]] - Alternative guard recovery method if roll is partially successful
+- [[Transitions/Hip Escape to Guard]] - Alternative guard recovery method if roll is partially successful
 
-- [[Back Control]] - Position opponent may achieve if escape fails or roll is followed
+- [[Positions/Back Control]] - Position opponent may achieve if escape fails or roll is followed
 
-- [[Turtle]] - Alternative recovery position if full guard is not achievable
+- [[Positions/Turtle]] - Alternative recovery position if full guard is not achievable
 
-- [[Omoplata Control]] - Related shoulder lock position with similar escape principles
+- [[Positions/Omoplata Control]] - Related shoulder lock position with similar escape principles
 
-- [[Aoki Lock Finish]] - Submission transition this escape aims to prevent
+- [[Transitions/Aoki Lock Finish]] - Submission transition this escape aims to prevent
 
-- [[Aoki Lock to Back Control]] - Transition opponent may use if they follow the roll momentum
+- [[Transitions/Aoki Lock to Back Control]] - Transition opponent may use if they follow the roll momentum
 
 
 </section>

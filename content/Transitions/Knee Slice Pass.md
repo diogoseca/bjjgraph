@@ -21,7 +21,7 @@ The pass works across all levels of competition and remains a staple in modern B
 
 Understanding the knee slice is essential for developing a complete passing game, as it serves as a gateway to numerous other passing sequences and submissions. When the bottom player defends the slice in one direction, they invariably expose themselves to complementary attacks from the opposite angle, creating a passing system rather than an isolated technique. The knee slice chains naturally with the long step pass, leg drag, backstep pass, and various submission entries, making it the central hub of most high-level passing systems.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 68%
 
 </section>
@@ -32,9 +32,9 @@ Understanding the knee slice is essential for developing a complete passing game
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 68% |
-| Failure | [[Half Guard]] | 20% |
-| Counter | [[Half Guard]] | 12% |
+| Success | [[Positions/Side Control]] | 68% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>
@@ -200,35 +200,35 @@ The knee slice pass is a cornerstone technique in any complete guard passing sys
 ## Related Techniques
 
 
-- [[Half Guard]] - Common starting position for the pass
+- [[Positions/Half Guard]] - Common starting position for the pass
 
-- [[Side Control]] - Primary ending position after successful pass
+- [[Positions/Side Control]] - Primary ending position after successful pass
 
-- [[Knee Shield Half Guard]] - Common defensive structure the passer must overcome
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Common defensive structure the passer must overcome
 
-- [[Long Step Pass]] - Complementary pass when knee slice is blocked by knee shield
+- [[Transitions/Long Step Pass]] - Complementary pass when knee slice is blocked by knee shield
 
-- [[Leg Drag Pass]] - Complementary pass in cohesive passing system
+- [[Transitions/Leg Drag Pass]] - Complementary pass in cohesive passing system
 
-- [[Crossface Pass]] - Alternative pressure pass from half guard top
+- [[Transitions/Crossface Pass]] - Alternative pressure pass from half guard top
 
-- [[Kimura]] - Submission opportunity when opponent reaches to defend the pass
+- [[Transitions/Kimura]] - Submission opportunity when opponent reaches to defend the pass
 
-- [[Darce Choke]] - Submission opportunity when opponent turns into the passer
+- [[Transitions/Darce Choke]] - Submission opportunity when opponent turns into the passer
 
-- [[Arm Triangle]] - Follow-up submission from consolidated side control
+- [[Transitions/Arm Triangle]] - Follow-up submission from consolidated side control
 
-- [[Pressure Pass]] - Related pressure-based passing methodology
+- [[Transitions/Pressure Pass]] - Related pressure-based passing methodology
 
-- [[Headquarters Position]] - Intermediate staging position during pass execution
+- [[Positions/Headquarters Position]] - Intermediate staging position during pass execution
 
-- [[Z-Guard]] - Defensive guard structure the knee slice effectively counters
+- [[Positions/Z-Guard]] - Defensive guard structure the knee slice effectively counters
 
-- [[Deep Half Guard]] - Common guard recovery attempt defender uses to counter the slice
+- [[Positions/Half Guard/Deep Half Guard]] - Common guard recovery attempt defender uses to counter the slice
 
-- [[Back Step Pass]] - Alternative pass direction when knee slice is stuffed
+- [[Transitions/Back Step Pass]] - Alternative pass direction when knee slice is stuffed
 
-- [[Knee Cut Pass]] - Alternative angle variation of the slicing motion
+- [[Transitions/Knee Cut Pass]] - Alternative angle variation of the slicing motion
 
 
 </section>

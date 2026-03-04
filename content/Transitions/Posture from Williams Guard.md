@@ -21,7 +21,7 @@ Unlike standard closed guard posture recovery where the primary obstacles are gr
 
 Success depends on recognizing that the shoulder lock and guard structure are mechanically interdependent—disrupting one element weakens the other. By systematically degrading the figure-four grip through controlled circular elbow movement and weight redistribution, the top player creates cascading failures in the bottom player's guard architecture. The posture recovery becomes possible once shoulder lock pressure is sufficiently reduced, allowing the practitioner to drive hips back and chest up into a structurally sound position from which proven guard passing methodologies apply.
 
-**From Position**: [[Williams Guard]] (Top)
+**From Position**: [[Positions/Williams Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Success depends on recognizing that the shoulder lock and guard structure are me
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Williams Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Williams Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,21 +191,21 @@ Posture from Williams Guard serves as the critical escape pathway connecting the
 ## Related Techniques
 
 
-- [[Closed Guard]] - Target position after successful posture recovery
+- [[Positions/Closed Guard]] - Target position after successful posture recovery
 
-- [[Half Guard]] - Counter outcome when opponent sweeps during posture attempt
+- [[Positions/Half Guard]] - Counter outcome when opponent sweeps during posture attempt
 
-- [[Posture Recovery]] - Related general posture recovery technique sharing mechanical principles
+- [[Transitions/Posture Recovery]] - Related general posture recovery technique sharing mechanical principles
 
-- [[Arm Extraction]] - Key defensive technique used during shoulder lock neutralization phase
+- [[Transitions/Arm Extraction]] - Key defensive technique used during shoulder lock neutralization phase
 
-- [[Combat Base]] - Defensive posture relevant to re-establishing base after arm extraction
+- [[Positions/Combat Base]] - Defensive posture relevant to re-establishing base after arm extraction
 
-- [[Open Guard]] - Alternative guard position that may result during transitional moments
+- [[Positions/Open Guard]] - Alternative guard position that may result during transitional moments
 
-- [[Rubber Guard]] - Similar arm control guard requiring analogous posture recovery approach
+- [[Positions/Rubber Guard]] - Similar arm control guard requiring analogous posture recovery approach
 
-- [[Overhook Guard]] - Related arm isolation concept with comparable escape mechanics
+- [[Positions/Overhook Guard]] - Related arm isolation concept with comparable escape mechanics
 
 
 </section>

@@ -178,7 +178,7 @@ The reversal mechanics rely on exploiting the transitional nature of Leg Knot po
 
 Strategic timing is paramount for this technique. The optimal window occurs when the opponent commits weight forward for a submission attempt or during their transition between leg lock setups. Attempting the reversal while the opponent maintains neutral balance significantly reduces success probability. Advanced practitioners recognize micro-transitions in the opponent's weight distribution and capitalize on these brief windows to execute the reversal with maximum efficiency.
 
-**From Position**: [[Leg Knot]] (Bottom)
+**From Position**: [[Positions/Leg Knot]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ Strategic timing is paramount for this technique. The optimal window occurs when
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Outside Ashi-Garami]] | 65% |
-| Failure | [[Leg Knot]] | 25% |
-| Counter | [[Saddle]] | 10% |
+| Success | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 65% |
+| Failure | [[Positions/Leg Knot]] | 25% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ Strategic timing is paramount for this technique. The optimal window occurs when
 
 ## Opponent Counters
 
-- **Opponent widens base and posts hands to prevent rotation** (Effectiveness: High) - Your Response: Threaten the heel hook from current position to force reaction, or switch to 50-50 entry instead of Outside Ashi → Leads to [[Leg Knot]]
-- **Opponent drives forward and stacks during reversal attempt** (Effectiveness: Medium) - Your Response: Use their forward momentum to accelerate your hip switch, allowing their drive to complete your rotation rather than fighting it → Leads to [[Outside Ashi-Garami]]
-- **Opponent disengages completely and creates distance** (Effectiveness: Medium) - Your Response: Follow immediately with Single Leg X entry or technical standup; do not allow them to reset to neutral standing → Leads to [[Leg Knot]]
-- **Opponent counter-rotates and attempts to maintain entanglement control** (Effectiveness: Low) - Your Response: Your grip on their far leg prevents effective counter-rotation; continue reversal with increased hip drive → Leads to [[Saddle]]
+- **Opponent widens base and posts hands to prevent rotation** (Effectiveness: High) - Your Response: Threaten the heel hook from current position to force reaction, or switch to 50-50 entry instead of Outside Ashi → Leads to [[Positions/Leg Knot]]
+- **Opponent drives forward and stacks during reversal attempt** (Effectiveness: Medium) - Your Response: Use their forward momentum to accelerate your hip switch, allowing their drive to complete your rotation rather than fighting it → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Opponent disengages completely and creates distance** (Effectiveness: Medium) - Your Response: Follow immediately with Single Leg X entry or technical standup; do not allow them to reset to neutral standing → Leads to [[Positions/Leg Knot]]
+- **Opponent counter-rotates and attempts to maintain entanglement control** (Effectiveness: Low) - Your Response: Your grip on their far leg prevents effective counter-rotation; continue reversal with increased hip drive → Leads to [[Positions/Ashi Garami/Saddle]]
 
 
 </section>

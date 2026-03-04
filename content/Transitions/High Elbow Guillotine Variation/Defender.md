@@ -158,7 +158,7 @@ The defensive window is narrow but well-defined. Before the elbow elevates, you 
 
 The most reliable defensive framework prioritizes posture first, grip disruption second, and positional escape third. If you cannot regain posture, you must immediately attack the grip by fighting the choking hand and preventing the wrist blade from settling under your chin. If the grip is established, your remaining option is to create a positional change that neutralizes the angle, such as driving your shoulder into the attacker's neck for a Von Flue counter or circling your body to collapse the scissoring angle.
 
-**Opponent's Starting Position**: [[Hindulotine]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ The most reliable defensive framework prioritizes posture first, grip disruption
 ### 1. Posture recovery with stacking pressure - drive your head upward and forward, walking your knees toward the attacker's hips to stack your weight onto their chest
 
 - **When to use**: Early in the transition before the attacker has fully elevated their elbow and established hip angle. Most effective when you still have posting ability with at least one hand.
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: Forces the attacker back to standard Hindulotine control without the high elbow finish, resetting to a defensible position where you can work other escapes
 - **Risk**: If the attacker has already locked the high elbow angle, driving forward can accelerate the choke by adding your own weight to the compression. Only stack when the elbow is not yet fully elevated.
 
 ### 2. Chin tuck and hand fight - aggressively tuck chin toward the choking arm side while using both hands to strip the attacker's grip and prevent the wrist blade from settling under your jaw
 
 - **When to use**: When posture recovery is not possible because the attacker has your head controlled, but the grip is not yet fully locked at maximum depth under your chin.
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: Denies the precise wrist blade positioning needed for the high elbow finish, forcing the attacker to fight for grip depth rather than finishing. Creates time to work other defenses.
 - **Risk**: Hand fighting can expose your arms to overhook control or arm-in guillotine variations. Keep elbows tight to your body while fighting the grip.
 
 ### 3. Von Flue counter - drive your near-side shoulder into the attacker's neck while passing their guard to the side, using your shoulder pressure to create a counter choke
 
 - **When to use**: When the attacker flattens out during the high elbow attempt and you can achieve a passing angle with your shoulder driving into their carotid while they maintain the guillotine grip.
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Creates a counter submission threat that forces the attacker to release the guillotine grip. You end in side control top position with the attacker on their back.
 - **Risk**: Requires passing the guard while being choked, which is a narrow timing window. If you cannot clear the legs quickly, the high elbow finish will put you to sleep before the Von Flue takes effect.
 
 ### 4. Circle away from choking arm - rotate your body away from the side of the attacker's choking elbow to collapse the scissoring angle and relieve carotid pressure
 
 - **When to use**: When the high elbow is locked and stacking is no longer viable. Use as a last resort to buy time and change the angle of pressure on your neck.
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: Collapses the diagonal angle needed for the scissoring finish, converting the choke back to a lower-percentage standard guillotine position that you can defend more easily
 - **Risk**: Circling away exposes your back. An aware attacker will release the guillotine and take back control, transitioning to an even more dominant position.
 
@@ -229,11 +229,11 @@ The most reliable defensive framework prioritizes posture first, grip disruption
 
 ## Best-Case Outcomes for Defender
 
-### → [[Hindulotine]]
+### → [[Positions/Hindulotine]]
 
 Recover posture by stacking forward and driving your head upward before the attacker completes elbow elevation. Alternatively, fight the grip through aggressive hand fighting and chin tuck to deny wrist blade placement under your jaw. Once the high elbow configuration is disrupted, the attacker returns to standard Hindulotine control where additional escape options exist.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Execute the Von Flue counter by passing the attacker's guard to the choking arm side while driving your shoulder into their neck. This requires precise timing when the attacker flattens their hips to attempt the finish. Clear their legs quickly and settle into side control, maintaining shoulder pressure until they release the grip.
 

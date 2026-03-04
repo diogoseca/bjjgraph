@@ -186,7 +186,7 @@ description: "Learn to execute the Double Jump to Mount transition. Step-by-step
 
 The Double Jump to Mount transition from the attacker's perspective involves converting bilateral hook-based turtle control into the dominant mount position through systematic hook extraction and step-over mechanics. This technique is most effective when the bottom player has committed to a flat belly-down defense that compromises their ability to resist the step-over but also makes back-taking more difficult. The attacker must maintain continuous upper body pressure throughout the transition to prevent the defender from exploiting the momentary vulnerability created during hook extraction. Success depends on reading the opponent's defensive posture accurately, timing the extraction sequence when their base is most compromised, and executing the weight transfer with precision that denies any recovery window. The technique rewards patience in setup and decisiveness in execution, as hesitation during the step-over creates the defensive gaps that allow counter-movements.
 
-**From Position**: [[Double Jump]] (Top)
+**From Position**: [[Positions/Double Jump]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ The Double Jump to Mount transition from the attacker's perspective involves con
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Double Jump]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Double Jump]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ The Double Jump to Mount transition from the attacker's perspective involves con
 
 ## Opponent Counters
 
-- **Opponent turns to side and recovers half guard during hook extraction phase** (Effectiveness: High) - Your Response: Maintain crossface pressure and immediately switch to half guard top passing sequence rather than forcing the mount transition against an active guard recovery → Leads to [[Half Guard]]
-- **Opponent posts on hands and recovers active turtle position when hooks are removed** (Effectiveness: Medium) - Your Response: Re-establish hooks to return to Double Jump position or transition to crab ride or harness back take by following the opponent's upward movement → Leads to [[Double Jump]]
-- **Opponent bridges explosively during step-over to create reversal or scramble opportunity** (Effectiveness: Medium) - Your Response: Post hands immediately and drive hips low to absorb the bridge energy, then re-settle mount with wider base and grapevined legs to prevent subsequent escape attempts → Leads to [[Double Jump]]
-- **Opponent hip escapes and inserts knee shield as mount is being established during the settling phase** (Effectiveness: High) - Your Response: Immediately address the knee insertion by collapsing it with shoulder pressure or transitioning to knee slice pass to complete advancement to side control instead of mount → Leads to [[Half Guard]]
+- **Opponent turns to side and recovers half guard during hook extraction phase** (Effectiveness: High) - Your Response: Maintain crossface pressure and immediately switch to half guard top passing sequence rather than forcing the mount transition against an active guard recovery → Leads to [[Positions/Half Guard]]
+- **Opponent posts on hands and recovers active turtle position when hooks are removed** (Effectiveness: Medium) - Your Response: Re-establish hooks to return to Double Jump position or transition to crab ride or harness back take by following the opponent's upward movement → Leads to [[Positions/Double Jump]]
+- **Opponent bridges explosively during step-over to create reversal or scramble opportunity** (Effectiveness: Medium) - Your Response: Post hands immediately and drive hips low to absorb the bridge energy, then re-settle mount with wider base and grapevined legs to prevent subsequent escape attempts → Leads to [[Positions/Double Jump]]
+- **Opponent hip escapes and inserts knee shield as mount is being established during the settling phase** (Effectiveness: High) - Your Response: Immediately address the knee insertion by collapsing it with shoulder pressure or transitioning to knee slice pass to complete advancement to side control instead of mount → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -205,21 +205,21 @@ Worm Guard Top represents the passing position against one of modern BJJ's most 
 
 ## Available Attacks
 
-### [[Leg Drag Pass]] (24% of attempts)
+### [[Transitions/Leg Drag Pass]] (24% of attempts)
 
-### [[Toreando Pass]] (15% of attempts)
+### [[Transitions/Toreando Pass]] (15% of attempts)
 
-### [[Smash Pass]] (13% of attempts)
+### [[Transitions/Smash Pass]] (13% of attempts)
 
-### [[Knee Slice Pass]] (14% of attempts)
+### [[Transitions/Knee Slice Pass]] (14% of attempts)
 
-### [[Long Step Pass]] (13% of attempts)
+### [[Transitions/Long Step Pass]] (13% of attempts)
 
-### [[Stack Pass]] (12% of attempts)
+### [[Transitions/Stack Pass]] (12% of attempts)
 
-### [[Backstep from Worm Guard]] (6% of attempts)
+### [[Transitions/Backstep from Worm Guard]] (6% of attempts)
 
-### [[Lapel Strip from Worm Guard]] (3% of attempts)
+### [[Transitions/Lapel Strip from Worm Guard]] (3% of attempts)
 
 
 
@@ -230,23 +230,23 @@ Worm Guard Top represents the passing position against one of modern BJJ's most 
 ## Decision Making from This Position
 
 **If bottom player has tight lapel wrap with active leg frames maintaining distance:**
-- Execute **[[Grip Break]]** → [[Open Guard]] (Probability: 40%)
-- Execute **[[Long Step Pass]]** → [[Headquarters Position]] (Probability: 35%)
+- Execute **[[Transitions/Grip Break]]** → [[Positions/Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Headquarters Position]] (Probability: 35%)
 
 
 **If lapel tension is broken or bottom player's legs are extended without tight frames:**
-- Execute **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Probability: 55%)
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 55%)
+- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If bottom player inverts or attempts back exposure:**
-- Execute **[[Sprawl]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Sprawl]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If bottom player commits to triangle or omoplata attack:**
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 48%)
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 42%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 42%)
 
 
 
@@ -380,15 +380,15 @@ Bottom player in worm guard attempts to off-balance top player using lapel mecha
 
 ## Related Positions and Techniques
 
-- **[[Worm Guard]]** - Hub position for both perspectives
-- **[[Lapel Guard]]** - Parent category guard position
-- **[[Squid Guard]]** - Similar lapel-based guard passing scenario
-- **[[Lasso Guard]]** - Related complex guard with similar passing principles
-- **[[De La Riva Guard]]** - Foundation guard that worm guard builds upon
-- **[[Leg Drag Pass]]** - Primary passing technique from this position
-- **[[Toreando Pass]]** - Key passing option when lapel control is neutralized
-- **[[Knee Slice Pass]]** - Effective pass once inside position is established
-- **[[Side Control]]** - Primary destination after successful pass
+- **[[Positions/Worm Guard]]** - Hub position for both perspectives
+- **[[Positions/Lapel Guard]]** - Parent category guard position
+- **[[Positions/Squid Guard]]** - Similar lapel-based guard passing scenario
+- **[[Positions/Lasso Guard]]** - Related complex guard with similar passing principles
+- **[[Positions/De La Riva Guard]]** - Foundation guard that worm guard builds upon
+- **[[Transitions/Leg Drag Pass]]** - Primary passing technique from this position
+- **[[Transitions/Toreando Pass]]** - Key passing option when lapel control is neutralized
+- **[[Transitions/Knee Slice Pass]]** - Effective pass once inside position is established
+- **[[Positions/Side Control]]** - Primary destination after successful pass
 
 
 </section>

@@ -180,7 +180,7 @@ description: "How to execute Rolling Kimura Escape in BJJ. Complete guide to tim
 
 The Rolling Kimura Escape from the attacker (escaper) perspective requires mastery of forward rolling mechanics under the specific constraint of having one arm trapped in a figure-four shoulder lock. The escape works by rotating your entire body in the direction of the lock's force, temporarily relieving shoulder pressure and disrupting your opponent's control alignment. This is not a technique you force through strength but rather one you execute through precise timing and full commitment to the rolling motion. The key biomechanical insight is that your opponent's Kimura finishing mechanics require them to drive your wrist toward your spine along a specific angle. By rolling forward over your trapped shoulder, you change the geometric relationship between your shoulder, their grip, and the direction of force, creating a momentary window where the lock's pressure dissipates enough for you to reposition into guard. Success requires reading the exact moment when your opponent commits their weight forward for the finish, because this forward commitment is precisely what prevents them from following your roll.
 
-**From Position**: [[Kimura Trap]] (Bottom)
+**From Position**: [[Positions/Kimura Trap]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ The Rolling Kimura Escape from the attacker (escaper) perspective requires maste
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Kimura Trap]] | 25% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Kimura Trap]] | 25% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -245,10 +245,10 @@ The Rolling Kimura Escape from the attacker (escaper) perspective requires maste
 
 ## Opponent Counters
 
-- **Opponent follows the roll and maintains Kimura grip throughout rotation** (Effectiveness: High) - Your Response: If opponent successfully follows your roll while maintaining the grip, immediately transition to alternative escape methods. Use your legs to push their hips away while working to straighten your trapped arm toward their hip line. Do not attempt a second roll as this dramatically increases shoulder injury risk. Transition to conventional grip-fighting defense from the new angle. → Leads to [[Kimura Trap]]
-- **Opponent widens base and blocks full rotation before roll completes** (Effectiveness: High) - Your Response: If you cannot complete the full roll due to opponent's base adjustment, immediately transition to explosive hip escape laterally to create distance. Use your free arm to frame against their head or shoulder. The partial roll may have changed your angle enough to make hip escape viable where it was not before. → Leads to [[Kimura Trap]]
-- **Opponent releases Kimura grip during roll and transitions to back control** (Effectiveness: Medium) - Your Response: While the Kimura threat is eliminated, remain vigilant as opponent may take your back during the roll transition. Prioritize getting your back off the mat and establishing guard recovery. Use your legs actively and get your hips to the mat facing them. If they achieve back control, immediately begin standard back escape protocols. → Leads to [[Back Control]]
-- **Opponent increases finishing pressure explosively before roll initiates** (Effectiveness: High) - Your Response: If you feel the submission tightening sharply before you can initiate the roll, tap immediately. Never sacrifice shoulder integrity attempting to complete an escape against sudden pressure escalation. This counter reinforces that the rolling escape requires the opponent to be applying steady forward pressure, not explosive finishing bursts. → Leads to [[Kimura Trap]]
+- **Opponent follows the roll and maintains Kimura grip throughout rotation** (Effectiveness: High) - Your Response: If opponent successfully follows your roll while maintaining the grip, immediately transition to alternative escape methods. Use your legs to push their hips away while working to straighten your trapped arm toward their hip line. Do not attempt a second roll as this dramatically increases shoulder injury risk. Transition to conventional grip-fighting defense from the new angle. → Leads to [[Positions/Kimura Trap]]
+- **Opponent widens base and blocks full rotation before roll completes** (Effectiveness: High) - Your Response: If you cannot complete the full roll due to opponent's base adjustment, immediately transition to explosive hip escape laterally to create distance. Use your free arm to frame against their head or shoulder. The partial roll may have changed your angle enough to make hip escape viable where it was not before. → Leads to [[Positions/Kimura Trap]]
+- **Opponent releases Kimura grip during roll and transitions to back control** (Effectiveness: Medium) - Your Response: While the Kimura threat is eliminated, remain vigilant as opponent may take your back during the roll transition. Prioritize getting your back off the mat and establishing guard recovery. Use your legs actively and get your hips to the mat facing them. If they achieve back control, immediately begin standard back escape protocols. → Leads to [[Positions/Back Control]]
+- **Opponent increases finishing pressure explosively before roll initiates** (Effectiveness: High) - Your Response: If you feel the submission tightening sharply before you can initiate the roll, tap immediately. Never sacrifice shoulder integrity attempting to complete an escape against sudden pressure escalation. This counter reinforces that the rolling escape requires the opponent to be applying steady forward pressure, not explosive finishing bursts. → Leads to [[Positions/Kimura Trap]]
 
 
 </section>

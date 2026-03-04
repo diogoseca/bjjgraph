@@ -180,7 +180,7 @@ description: "Learn to execute the Sweep from Meathook in BJJ. Step-by-step guid
 
 Executing the Sweep from Meathook requires the bottom player to convert their existing arm isolation and postural control into directional sweeping force. The attacker's advantage lies in the mechanical reality that the opponent's trapped arm cannot post to prevent the sweep, effectively removing half their base. Success depends on precise hip elevation timing, correct force direction toward the trapped arm side, and maintaining Meathook control throughout the entire transition to mount. The sweep is most effective as part of a layered attack system where submission threats force defensive reactions that create the weight distribution patterns optimal for sweeping. Practitioners who treat the sweep as an isolated technique rather than part of the Meathook attack ecosystem significantly reduce their success rate.
 
-**From Position**: [[Meathook]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ Executing the Sweep from Meathook requires the bottom player to convert their ex
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 45% |
-| Failure | [[Meathook]] | 35% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Mount]] | 45% |
+| Failure | [[Positions/Rubber Guard/Meathook]] | 35% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ Executing the Sweep from Meathook requires the bottom player to convert their ex
 
 ## Opponent Counters
 
-- **Opponent posts wide with free arm to create a tripod base structure that resists directional sweep force** (Effectiveness: High) - Your Response: Abandon the sweep and immediately transition to gogoplata or triangle attack, as the wide arm post opens their neck and creates submission angles that are unavailable when they keep their arm tucked → Leads to [[Meathook]]
-- **Opponent generates explosive upward posture recovery to break the shin hook before the sweep initiates** (Effectiveness: Medium) - Your Response: If posture breaks before you can load the sweep, immediately transition to closed guard retention by locking your legs or reguard to open guard. Chase the triangle angle as their upward drive often creates the head-below-shoulder alignment needed for triangle entry → Leads to [[Open Guard]]
-- **Opponent drives weight forward and stacks to prevent the hip elevation needed for the sweep** (Effectiveness: Medium) - Your Response: Convert their forward pressure directly into a gogoplata setup. Their driving motion feeds their neck into the shin hook's choking angle. The harder they drive forward to prevent the sweep, the deeper they enter the choke → Leads to [[Meathook]]
-- **Opponent hip switches and drives knee through the guard to break the Meathook configuration entirely** (Effectiveness: Low) - Your Response: Follow their hip switch with your own hip adjustment to maintain the hook. If the hook breaks, immediately transition to omoplata or triangle as their rotational escape movement creates new submission angles → Leads to [[Open Guard]]
+- **Opponent posts wide with free arm to create a tripod base structure that resists directional sweep force** (Effectiveness: High) - Your Response: Abandon the sweep and immediately transition to gogoplata or triangle attack, as the wide arm post opens their neck and creates submission angles that are unavailable when they keep their arm tucked → Leads to [[Positions/Rubber Guard/Meathook]]
+- **Opponent generates explosive upward posture recovery to break the shin hook before the sweep initiates** (Effectiveness: Medium) - Your Response: If posture breaks before you can load the sweep, immediately transition to closed guard retention by locking your legs or reguard to open guard. Chase the triangle angle as their upward drive often creates the head-below-shoulder alignment needed for triangle entry → Leads to [[Positions/Open Guard]]
+- **Opponent drives weight forward and stacks to prevent the hip elevation needed for the sweep** (Effectiveness: Medium) - Your Response: Convert their forward pressure directly into a gogoplata setup. Their driving motion feeds their neck into the shin hook's choking angle. The harder they drive forward to prevent the sweep, the deeper they enter the choke → Leads to [[Positions/Rubber Guard/Meathook]]
+- **Opponent hip switches and drives knee through the guard to break the Meathook configuration entirely** (Effectiveness: Low) - Your Response: Follow their hip switch with your own hip adjustment to maintain the hook. If the hook breaks, immediately transition to omoplata or triangle as their rotational escape movement creates new submission angles → Leads to [[Positions/Open Guard]]
 
 
 </section>

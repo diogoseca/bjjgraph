@@ -21,7 +21,7 @@ This transition exploits a fundamental defensive dilemma: defending the Aoki Loc
 
 Strategically, the Kimura Switch serves as a pressure relief valve that prevents stalemates in the Aoki Lock position. Rather than forcing a defended submission, you flow to an equally dangerous attack that catches opponents during their defensive adjustment. The technique requires precise timing, rapid grip acquisition, and understanding of how the two shoulder lock systems complement each other within the broader positional hierarchy.
 
-**From Position**: [[Aoki Lock]] (Top)
+**From Position**: [[Positions/Aoki Lock]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Kimura Switch serves as a pressure relief valve that prevents
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kimura Trap]] | 65% |
-| Failure | [[Aoki Lock]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Kimura Trap]] | 65% |
+| Failure | [[Positions/Aoki Lock]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Kimura Switch functions as a pressure release valve within the Aoki Lock att
 ## Related Techniques
 
 
-- [[Aoki Lock]] - Starting position - leg entangled shoulder control
+- [[Positions/Aoki Lock]] - Starting position - leg entangled shoulder control
 
-- [[Kimura Trap]] - Target position - figure-four grip control system
+- [[Positions/Kimura Trap]] - Target position - figure-four grip control system
 
-- [[Back Take from Top]] - Alternative transition when Kimura is defended
+- [[Transitions/Back Take from Top]] - Alternative transition when Kimura is defended
 
-- [[Crucifix]] - Alternative target from Aoki Lock when far arm exposed
+- [[Positions/Crucifix]] - Alternative target from Aoki Lock when far arm exposed
 
-- [[Gift Wrap]] - Alternative control when near arm exposed instead of far
+- [[Positions/Gift Wrap]] - Alternative control when near arm exposed instead of far
 
-- [[Kimura Sweep]] - Related technique - Kimura from bottom position
+- [[Transitions/Kimura Sweep]] - Related technique - Kimura from bottom position
 
-- [[Truck]] - Alternative transition from Aoki Lock top
+- [[Positions/Twister Control/Truck]] - Alternative transition from Aoki Lock top
 
-- [[Omoplata Control]] - Related position - similar shoulder mechanics
+- [[Positions/Omoplata Control]] - Related position - similar shoulder mechanics
 
-- [[Aoki Lock to Back Control]] - Primary alternative when Kimura Switch is unavailable
+- [[Transitions/Aoki Lock to Back Control]] - Primary alternative when Kimura Switch is unavailable
 
-- [[Aoki Lock to Crucifix]] - Alternative transition targeting far arm exposure
+- [[Transitions/Aoki Lock to Crucifix]] - Alternative transition targeting far arm exposure
 
 
 </section>

@@ -158,7 +158,7 @@ The defender's advantage lies in mobility and posture. While the bottom player m
 
 When the entry is partially established, the defender must act decisively rather than passively accept the position. Backstopping to extract the trapped leg, sprawling to flatten the attacker's hips, or circling away from the inside hook are all viable responses, but they must be executed with commitment. Half-measures allow the bottom player to adjust and complete the entry. Understanding which defensive response matches each phase of the entry is the key to consistent success against this increasingly common modern guard technique.
 
-**Opponent's Starting Position**: [[Seated Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Seated Guard]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ When the entry is partially established, the defender must act decisively rather
 ### 1. Backstep and extract the targeted leg before inside hook is established
 
 - **When to use**: Immediately when you feel opponent grip your ankle and before their inside leg hooks behind your knee — this is the highest-percentage window
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: You reset to standing over their seated guard with no leg entanglement, maintaining your passing initiative
 - **Risk**: If too slow, opponent follows your backstep with hip scooting and completes the hook anyway, potentially catching you mid-step with compromised base
 
 ### 2. Sprawl forward and drive chest pressure down onto opponent's outside leg frame to flatten their hips
 
 - **When to use**: When opponent has already inserted the inside hook but has not yet elevated their hips or established the outside foot on your hip
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: You flatten opponent's guard structure, collapse their frame, and can begin passing sequences from a smash or pressure position
 - **Risk**: If opponent is quick, they redirect your forward pressure into a transition to X-Guard or Deep Half Guard using your momentum against you
 
 ### 3. Circle away from the inside hook direction while stripping the ankle grip with your free hand
 
 - **When to use**: When opponent has partial grips and is building toward the entry but hasn't fully committed — circling disrupts their angle and coordination
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: You break their grip sequence and create an angle where their hooks cannot reach effectively, forcing them to reset from scratch
 - **Risk**: If you circle without stripping grips, opponent can follow your rotation and may transition to attacking your other leg or taking your back
 
 ### 4. Drop your base low and pin opponent's inside leg to the mat with knee pressure before they can insert the hook
 
 - **When to use**: When you recognize the entry early and are close enough to drop weight directly onto their threading leg
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: You neutralize the hook threat entirely and establish a passing position with pressure, potentially moving directly to knee slice or headquarters
 - **Risk**: Dropping base too early without controlling their grips allows them to pull you into butterfly guard or close their guard around you
 
@@ -228,11 +228,11 @@ When the entry is partially established, the defender must act decisively rather
 
 ## Best-Case Outcomes for Defender
 
-### → [[Seated Guard]]
+### → [[Positions/Seated Guard]]
 
 Extract your leg early by backstopping or circling away before the inside hook is established, stripping the ankle grip simultaneously. This resets the exchange to neutral seated guard where you retain standing advantage and passing initiative.
 
-### → [[Seated Guard]]
+### → [[Positions/Seated Guard]]
 
 Sprawl forward with committed chest pressure to flatten opponent's hips and collapse their frame structure. Drive your weight through their outside leg frame while controlling their upper body with collar ties. This converts their failed entry attempt into a top pressure passing position where you can immediately begin guard passing sequences.
 

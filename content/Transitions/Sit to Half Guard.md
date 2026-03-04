@@ -21,7 +21,7 @@ This escape operates on the principle that Half Guard, while still a bottom posi
 
 Strategically, this technique is most valuable when grip prevention has failed and the opponent has begun establishing deep collar access. Rather than continuing a losing grip fight from turtle, the proactive sit creates immediate positional change that forces the top player to abandon their choking mechanics and address the new guard configuration. The timing window is critical—execute too early and you create unnecessary back exposure, too late and the choke is already locked.
 
-**From Position**: [[Buggy Choke]] (Bottom)
+**From Position**: [[Positions/Buggy Choke]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this technique is most valuable when grip prevention has failed a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Buggy Choke]] | 25% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Buggy Choke]] | 25% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -193,23 +193,23 @@ The Sit to Half Guard escape connects the turtle defensive shell to the Half Gua
 ## Related Techniques
 
 
-- [[Buggy Choke]] - Starting position - the attack you are escaping from
+- [[Positions/Buggy Choke]] - Starting position - the attack you are escaping from
 
-- [[Half Guard]] - Target position - successful escape destination
+- [[Positions/Half Guard]] - Target position - successful escape destination
 
-- [[Back Control]] - Counter position - where opponent transitions if escape fails
+- [[Positions/Back Control]] - Counter position - where opponent transitions if escape fails
 
-- [[Granby Roll to Guard]] - Alternative escape - complementary turtle escape option
+- [[Transitions/Granby Roll to Guard]] - Alternative escape - complementary turtle escape option
 
-- [[Deep Half Guard]] - Follow-up position - advanced continuation from successful sit
+- [[Positions/Half Guard/Deep Half Guard]] - Follow-up position - advanced continuation from successful sit
 
-- [[Lockdown]] - Variant - alternative Half Guard configuration upon arrival
+- [[Positions/Half Guard/Lockdown]] - Variant - alternative Half Guard configuration upon arrival
 
-- [[Turtle]] - Origin context - neutral turtle position before buggy choke attack
+- [[Positions/Turtle]] - Origin context - neutral turtle position before buggy choke attack
 
-- [[Knee Shield Half Guard]] - Follow-up position - primary defensive structure after successful sit
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Follow-up position - primary defensive structure after successful sit
 
-- [[Back Door Escape]] - Alternative escape - complementary back control escape if counter succeeds
+- [[Transitions/Back Door Escape]] - Alternative escape - complementary back control escape if counter succeeds
 
 
 </section>

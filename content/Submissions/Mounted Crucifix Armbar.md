@@ -26,8 +26,8 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Shoulder and elbow joint
-**Starting Position**: [[Mounted Crucifix]]
-**From Position**: [[Mounted Crucifix]] (Top)
+**Starting Position**: [[Positions/Mount/Mounted Crucifix]]
+**From Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -77,8 +77,8 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Mounted Crucifix]] | 30% |
-| Counter | [[Mount]] | 20% |
+| Failure | [[Positions/Mount/Mounted Crucifix]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -205,9 +205,9 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 
 ## From Which Positions?
 
-- [[Mounted Crucifix]]
-- [[Mount]]
-- [[Crucifix]]
+- [[Positions/Mount/Mounted Crucifix]]
+- [[Positions/Mount]]
+- [[Positions/Crucifix]]
 
 
 </section>
@@ -216,14 +216,14 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 
 ## Related Submissions
 
-- [[Armbar from Crucifix]]
-- [[Choke from Crucifix]]
-- [[Armbar from Mount]]
-- [[Armbar from High Mount]]
-- [[Armbar from S Mount]]
-- [[Armbar from Technical Mount]]
-- [[Gift Wrap Armbar]]
-- [[Americana from Mount]]
+- [[Transitions/Armbar from Crucifix]]
+- [[Transitions/Choke from Crucifix]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Armbar from High Mount]]
+- [[Submissions/Armbar from S Mount]]
+- [[Submissions/Armbar from Technical Mount]]
+- [[Submissions/Gift Wrap Armbar]]
+- [[Submissions/Americana from Mount]]
 
 
 </section>
@@ -232,13 +232,13 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 
 ## Additional Related Content
 
-- [[Mounted Crucifix]] - Starting control position providing the arm isolation that enables this armbar
-- [[Crucifix]] - Parent control position sharing arm-trapping mechanics and submission pathways
-- [[Mount]] - Foundation position from which mounted crucifix develops through arm isolation
-- [[Armbar Control]] - Control position reached during armbar extension phase
-- [[High Mount]] - Common entry path to mounted crucifix through progressive arm isolation
-- [[Back Control]] - Alternative transition target when armbar attempt disrupts crucifix control
-- [[Gift Wrap]] - Related arm control position with complementary trapping mechanics
+- [[Positions/Mount/Mounted Crucifix]] - Starting control position providing the arm isolation that enables this armbar
+- [[Positions/Crucifix]] - Parent control position sharing arm-trapping mechanics and submission pathways
+- [[Positions/Mount]] - Foundation position from which mounted crucifix develops through arm isolation
+- [[Positions/Armbar Control]] - Control position reached during armbar extension phase
+- [[Positions/Mount/High Mount]] - Common entry path to mounted crucifix through progressive arm isolation
+- [[Positions/Back Control]] - Alternative transition target when armbar attempt disrupts crucifix control
+- [[Positions/Gift Wrap]] - Related arm control position with complementary trapping mechanics
 
 
 </section>

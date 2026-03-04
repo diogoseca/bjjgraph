@@ -21,7 +21,7 @@ Strategically, the Old School Sweep creates a fundamental dilemma for the top pl
 
 The sweep's integration into the broader half guard system provides chain attack opportunities that multiply its effectiveness. Failed sweep attempts can flow directly into Electric Chair entries, deep half transitions, or back take attempts, ensuring that the bottom player maintains offensive pressure regardless of the top player's defensive choices. This systematic connectivity is what elevates the Old School Sweep from an isolated technique to a cornerstone of modern half guard offense.
 
-**From Position**: [[Old School]] (Bottom)
+**From Position**: [[Positions/Half Guard/Old School]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ The sweep's integration into the broader half guard system provides chain attack
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 35% |
-| Success | [[Side Control]] | 20% |
-| Failure | [[Old School]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 35% |
+| Success | [[Positions/Side Control]] | 20% |
+| Failure | [[Positions/Half Guard/Old School]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -194,25 +194,25 @@ The Old School Sweep from Bottom occupies a central role in the 10th Planet half
 ## Related Techniques
 
 
-- [[Old School]] - Starting position - this sweep executes from Old School bottom
+- [[Positions/Half Guard/Old School]] - Starting position - this sweep executes from Old School bottom
 
-- [[Half Guard]] - Parent position category containing the Old School variant
+- [[Positions/Half Guard]] - Parent position category containing the Old School variant
 
-- [[Lockdown]] - Prerequisite control mechanism that creates the sweeping base
+- [[Positions/Half Guard/Lockdown]] - Prerequisite control mechanism that creates the sweeping base
 
-- [[Mount]] - Primary target position when sweep lands with full rotation
+- [[Positions/Mount]] - Primary target position when sweep lands with full rotation
 
-- [[Side Control]] - Secondary target position when sweep lands with partial rotation
+- [[Positions/Side Control]] - Secondary target position when sweep lands with partial rotation
 
-- [[Electric Chair]] - Chain attack when opponent defends sweep by posting backward
+- [[Positions/Half Guard/Electric Chair]] - Chain attack when opponent defends sweep by posting backward
 
-- [[Deep Half Guard]] - Alternative transition when sweep is shut down and opponent drives forward
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition when sweep is shut down and opponent drives forward
 
-- [[Dogfight Position]] - Transitional position when bottom player comes up but cannot complete full sweep
+- [[Positions/Dogfight Position]] - Transitional position when bottom player comes up but cannot complete full sweep
 
-- [[Back Control]] - Alternative target when opponent turtles during sweep attempt
+- [[Positions/Back Control]] - Alternative target when opponent turtles during sweep attempt
 
-- [[Defend Old School Sweep]] - Counter-technique from top player perspective
+- [[Transitions/Defend Old School Sweep]] - Counter-technique from top player perspective
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Defend the Butterfly Guard Pull in BJJ. Recognize pull initiation 
 
 As the defender facing a Butterfly Guard Pull, your primary objective is to prevent your opponent from successfully establishing butterfly guard with active hooks and offensive grips. The guard pull represents a deliberate tactical decision by your opponent to bring the fight to the ground on their terms, and your defensive response must deny them the advantageous position they seek. Early recognition of pull initiation cues — grip tightening, weight shifting backward, a foot stepping between yours — allows you to either stuff the pull entirely by sprawling and maintaining standing position, or immediately begin passing before their guard structure is fully established. The critical defensive window is the transition phase itself, because a fully established butterfly guard with upright posture and deep hooks is significantly harder to deal with than a half-completed pull where hooks are shallow and posture is compromised.
 
-**Opponent's Starting Position**: [[Standing Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender facing a Butterfly Guard Pull, your primary objective is to prev
 ### 1. Sprawl and drive hips forward to stuff the pull before hooks can insert under your thighs
 
 - **When to use**: Early in pull initiation, before the opponent's hips reach the mat and before hooks engage your inner thighs
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent fails to complete the pull and must scramble back to standing or accept a disadvantaged ground position without guard structure
 - **Risk**: If timed late and hooks are already inserting, your forward drive feeds directly into their elevator sweep mechanics
 
 ### 2. Strip grips and create lateral distance to disengage completely from the pull
 
 - **When to use**: At any point during the pull when you feel their controlling grips tightening on your collar or sleeves
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent sits to the mat without controlling grips, giving you dominant standing position over an uncontrolled guard with immediate passing initiative
 - **Risk**: Re-engagement may allow opponent to establish a different guard variation, and grip fighting from standing may resume
 
 ### 3. Drive forward immediately with knee between their legs to begin pressure passing before butterfly guard establishes
 
 - **When to use**: After the opponent has committed to sitting but before hooks are fully seated and posture is upright
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You enter a passing sequence against an incomplete guard structure, converting their butterfly attempt into a generic open guard or half guard you can pass
 - **Risk**: Forward drive against established hooks powers their sweep — this defense requires accurate timing during the narrow transition window
 
 ### 4. Drive knees together and apply top pressure to deny hook insertion while the opponent sits
 
 - **When to use**: When you feel the opponent's feet beginning to slide toward your inner thighs during the descent
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Hooks are denied entirely, leaving the opponent in a weak seated guard position without the elevation capability that makes butterfly dangerous
 - **Risk**: Narrowing your base by squeezing knees together can compromise your balance if the opponent redirects to a different sweep angle
 
@@ -217,11 +217,11 @@ As the defender facing a Butterfly Guard Pull, your primary objective is to prev
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Sprawl immediately when you feel grip tension increase and weight shift backward. Drive your hips forward and down while posting your hands on their shoulders to prevent them from completing the sit. Break their grips and disengage to return to standing where you maintain a neutral or advantageous position with the initiative.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Time your forward drive to arrive at the opponent's body before their hooks fully insert under your thighs. Drive your near knee between their legs and apply heavy top pressure immediately, converting their attempted butterfly guard into a generic open guard position where you have passing initiative and they lack the specific hook structure needed for high-percentage sweeps.
 

@@ -21,7 +21,7 @@ The mechanical challenge of this pass lies in disengaging from entangled legs wi
 
 Successfully completing this pass requires integrating leg lock defense knowledge with traditional guard passing mechanics. You must understand which leg positions create submission danger during extraction, how to position your hips to deny the bottom player's sweeping angles, and when to accelerate through the pass versus when to pause and reset your base. The technique serves as a bridge between the modern leg lock game and classical top position grappling, making it essential for practitioners who want to maintain a complete game rather than being forced into every leg entanglement exchange.
 
-**From Position**: [[Leg Entanglement]] (Top)
+**From Position**: [[Positions/Leg Entanglement]] (Top)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Successfully completing this pass requires integrating leg lock defense knowledg
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Leg Entanglement]] | 40% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Leg Entanglement]] | 40% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -189,27 +189,27 @@ The Guard Pass from Leg Entanglement bridges the modern leg lock positional syst
 ## Related Techniques
 
 
-- [[Leg Entanglement]] - Source position from which this guard pass is initiated
+- [[Positions/Leg Entanglement]] - Source position from which this guard pass is initiated
 
-- [[Side Control]] - Primary target position achieved upon successful extraction and pass completion
+- [[Positions/Side Control]] - Primary target position achieved upon successful extraction and pass completion
 
-- [[Half Guard]] - Counter outcome position where the passer may end up if swept during extraction
+- [[Positions/Half Guard]] - Counter outcome position where the passer may end up if swept during extraction
 
-- [[Ashi Garami]] - Foundational entanglement variant requiring specific extraction mechanics
+- [[Positions/Ashi Garami]] - Foundational entanglement variant requiring specific extraction mechanics
 
-- [[Inside Ashi-Garami]] - Dominant entanglement variant that makes passing significantly more difficult and urgent
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Dominant entanglement variant that makes passing significantly more difficult and urgent
 
-- [[Saddle]] - Most dangerous entanglement configuration that demands immediate extraction rather than engagement
+- [[Positions/Ashi Garami/Saddle]] - Most dangerous entanglement configuration that demands immediate extraction rather than engagement
 
-- [[50-50 Guard]] - Neutral entanglement where passing may be preferable to accepting bilateral leg exchange
+- [[Positions/Ashi Garami/50-50 Guard]] - Neutral entanglement where passing may be preferable to accepting bilateral leg exchange
 
-- [[Headquarters Position]] - Intermediate passing position sometimes reached during extraction before completing to side control
+- [[Positions/Headquarters Position]] - Intermediate passing position sometimes reached during extraction before completing to side control
 
-- [[Counter Sweep from Leg Entanglement]] - Complementary transition the bottom player may attempt during your pass, requiring awareness
+- [[Transitions/Counter Sweep from Leg Entanglement]] - Complementary transition the bottom player may attempt during your pass, requiring awareness
 
-- [[Ashi Entry from Leg Entanglement]] - Alternative transition from the same position focused on advancing leg attacks rather than passing
+- [[Transitions/Ashi Entry from Leg Entanglement]] - Alternative transition from the same position focused on advancing leg attacks rather than passing
 
-- [[Back Take from Ashi]] - Alternative offensive transition available when the bottom player turns away during extraction
+- [[Transitions/Back Take from Ashi]] - Alternative offensive transition available when the bottom player turns away during extraction
 
 
 </section>

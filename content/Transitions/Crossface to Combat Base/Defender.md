@@ -158,7 +158,7 @@ The defensive hierarchy prioritizes winning the underhook battle first, as the u
 
 The most favorable defensive outcome is maintaining half guard with improved positioning, particularly recovering your underhook or establishing knee shield. If the transition is already in motion, your best opportunity is to follow their hip movement and recover full guard or create a scramble situation. Understanding the mechanical sequence of this transition allows you to identify the exact moments of vulnerability where defensive intervention is most effective.
 
-**Opponent's Starting Position**: [[Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ The most favorable defensive outcome is maintaining half guard with improved pos
 ### 1. Establish deep underhook on trapped-leg side and drive into opponent to prevent flattening
 
 - **When to use**: Early in the sequence before crossface is fully established and before you are flattened to your back
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover offensive half guard positioning with underhook control, enabling sweeps and back takes
 - **Risk**: If opponent secures crossface first, your underhook attempt exposes your arm to kimura or darce attacks
 
 ### 2. Insert knee shield by bringing your inside knee across opponent's hip line before they consolidate crossface pressure
 
 - **When to use**: When you feel opponent beginning to drive crossface but before full upper body control is established
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Knee shield creates distance that prevents effective crossface and gives you frames to work with for guard recovery or re-engagement
 - **Risk**: Opponent may smash the knee shield flat and use it as leverage for a smash pass if your timing is late
 
 ### 3. Hip escape and follow opponent's movement during leg extraction to recover full guard or create scramble
 
 - **When to use**: During the extraction phase when opponent's weight shifts and momentary space opens as their leg clears your entanglement
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover closed guard or establish open guard hooks before they can consolidate combat base
 - **Risk**: If crossface pressure is too heavy, your hip escape may be insufficient and you lose half guard entirely without recovering guard
 
 ### 4. Establish lockdown figure-four on opponent's trapped leg to prevent extraction entirely
 
 - **When to use**: When you recognize the transition is imminent but cannot win the underhook battle or insert knee shield
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Lockdown stops all extraction attempts and gives you platform for whip-up sweep or electric chair entry
 - **Risk**: Opponent may address lockdown through hip walking or foot swimming and transition to an alternative pass
 
@@ -229,11 +229,11 @@ The most favorable defensive outcome is maintaining half guard with improved pos
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Win the underhook battle early and use it to come up to dogfight position or execute an underhook sweep, reversing the position entirely. This requires proactive engagement before the crossface is established and maintaining your side angle throughout.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If you cannot reverse position, focus on maintaining half guard with improved positioning by recovering underhook, inserting knee shield, or establishing lockdown. Follow opponent's hip movement during extraction attempts to prevent them from clearing your leg entanglement and force them to reset.
 

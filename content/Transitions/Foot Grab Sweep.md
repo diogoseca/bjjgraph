@@ -21,7 +21,7 @@ The sweep works on the principle of removing one of the opponent's base points w
 
 Success with this sweep depends heavily on timing, grip control, and the ability to read the opponent's weight distribution. Advanced practitioners can chain this sweep with other attacks, using the opponent's defensive reactions to create offensive opportunities. The foot grab sweep is an essential component of a complete open guard game and serves as both a primary attacking option and a counter to standing guard passes.
 
-**From Position**: [[Seated Guard]] (Bottom)
+**From Position**: [[Positions/Seated Guard]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ Success with this sweep depends heavily on timing, grip control, and the ability
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Failure | [[Seated Guard]] | 20% |
-| Counter | [[Seated Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 70% |
+| Failure | [[Positions/Seated Guard]] | 20% |
+| Counter | [[Positions/Seated Guard]] | 10% |
 
 
 </section>
@@ -198,29 +198,29 @@ The foot grab sweep is a fundamental component of open guard systems and serves 
 ## Related Techniques
 
 
-- [[Butterfly Sweep]] - Alternative sweep from similar positions with different mechanics
+- [[Transitions/Butterfly Sweep]] - Alternative sweep from similar positions with different mechanics
 
-- [[Ankle Pick Sweep]] - Similar foot control concept with different execution
+- [[Transitions/Ankle Pick Sweep]] - Similar foot control concept with different execution
 
-- [[Single Leg X Entry]] - Common transition when foot grab is defended by stepping back
+- [[Transitions/Single Leg X Entry]] - Common transition when foot grab is defended by stepping back
 
-- [[Hook Sweep]] - Alternative open guard sweep with similar timing windows
+- [[Transitions/Hook Sweep]] - Alternative open guard sweep with similar timing windows
 
-- [[De La Riva Sweep]] - Can transition between these sweeps based on opponent's base
+- [[Transitions/De La Riva Sweep]] - Can transition between these sweeps based on opponent's base
 
-- [[Tripod Sweep]] - Another open guard sweep that works well in combination
+- [[Transitions/Tripod Sweep]] - Another open guard sweep that works well in combination
 
-- [[Butterfly Guard]] - Starting position for butterfly variation of this sweep
+- [[Positions/Butterfly Guard]] - Starting position for butterfly variation of this sweep
 
-- [[Open Guard]] - Parent guard category from which this technique operates
+- [[Positions/Open Guard]] - Parent guard category from which this technique operates
 
-- [[De La Riva Guard]] - Alternative starting position for DLR variation of this sweep
+- [[Positions/De La Riva Guard]] - Alternative starting position for DLR variation of this sweep
 
-- [[Lumberjack Sweep]] - Related standing-opponent sweep that creates similar dilemmas
+- [[Transitions/Lumberjack Sweep]] - Related standing-opponent sweep that creates similar dilemmas
 
-- [[Ankle Pick]] - Complementary takedown option from same gripping position
+- [[Transitions/Ankle Pick]] - Complementary takedown option from same gripping position
 
-- [[Leg Drag Pass]] - Common opponent response that this sweep can counter
+- [[Transitions/Leg Drag Pass]] - Common opponent response that this sweep can counter
 
 
 </section>

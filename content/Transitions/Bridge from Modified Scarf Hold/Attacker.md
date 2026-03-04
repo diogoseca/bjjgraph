@@ -186,7 +186,7 @@ description: "Execute the bridge escape from Modified Scarf Hold bottom. Complet
 
 As the attacker executing the Bridge from Modified Scarf Hold, you are the bottom player trapped under chest-to-chest pressure who must generate explosive upward and rotational force to reverse the position. Your primary weapon is the posterior chain: glutes, hamstrings, and spinal erectors working in coordinated explosive extension. Success depends on three critical factors: proper foot positioning to maximize mechanical advantage, precise timing to catch the top player during a weight shift, and directional commitment to bridge toward their weakest posting angle. The bridge is not a desperation move but a calculated explosive technique that converts stored potential energy into a decisive positional reversal.
 
-**From Position**: [[Modified Scarf Hold]] (Bottom)
+**From Position**: [[Positions/Side Control/Modified Scarf Hold]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ As the attacker executing the Bridge from Modified Scarf Hold, you are the botto
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 30% |
-| Failure | [[Modified Scarf Hold]] | 45% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Closed Guard]] | 30% |
+| Failure | [[Positions/Side Control/Modified Scarf Hold]] | 45% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -251,9 +251,9 @@ As the attacker executing the Bridge from Modified Scarf Hold, you are the botto
 
 ## Opponent Counters
 
-- **Opponent sprawls and drives chest weight downward at first sign of bridge** (Effectiveness: High) - Your Response: If the sprawl catches your bridge early, abort and immediately reset frames rather than fighting through increased pressure. Use the post-sprawl moment when opponent relaxes to attempt a secondary escape such as hip escape to guard recovery. → Leads to [[Modified Scarf Hold]]
-- **Opponent steps over to mount as bridge creates space between bodies** (Effectiveness: Medium) - Your Response: The moment you feel their knee walking over your hip, abandon the bridge and immediately switch to mount prevention by inserting your near knee across their path. If mount is established, transition to mount escape protocol rather than fighting back to Modified Scarf Hold. → Leads to [[Mount]]
-- **Opponent posts arm wide on the mat to block roll direction and anchor their base** (Effectiveness: High) - Your Response: Switch bridge direction immediately toward the opposite side where they now lack the posting arm. Their committed post on one side creates vulnerability on the other. Advanced technique: fake the bridge one direction to draw the post, then explosively bridge the opposite way. → Leads to [[Modified Scarf Hold]]
+- **Opponent sprawls and drives chest weight downward at first sign of bridge** (Effectiveness: High) - Your Response: If the sprawl catches your bridge early, abort and immediately reset frames rather than fighting through increased pressure. Use the post-sprawl moment when opponent relaxes to attempt a secondary escape such as hip escape to guard recovery. → Leads to [[Positions/Side Control/Modified Scarf Hold]]
+- **Opponent steps over to mount as bridge creates space between bodies** (Effectiveness: Medium) - Your Response: The moment you feel their knee walking over your hip, abandon the bridge and immediately switch to mount prevention by inserting your near knee across their path. If mount is established, transition to mount escape protocol rather than fighting back to Modified Scarf Hold. → Leads to [[Positions/Mount]]
+- **Opponent posts arm wide on the mat to block roll direction and anchor their base** (Effectiveness: High) - Your Response: Switch bridge direction immediately toward the opposite side where they now lack the posting arm. Their committed post on one side creates vulnerability on the other. Advanced technique: fake the bridge one direction to draw the post, then explosively bridge the opposite way. → Leads to [[Positions/Side Control/Modified Scarf Hold]]
 
 
 </section>

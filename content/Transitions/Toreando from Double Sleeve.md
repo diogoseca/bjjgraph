@@ -19,7 +19,7 @@ The Toreando from Double Sleeve is a lateral guard pass executed from the top po
 
 Strategically, the Toreando from Double Sleeve occupies a critical role in the passing hierarchy because it directly attacks the double sleeve guard's primary weakness: the reliance on upper body grips with relatively exposed lower body control. When the bottom player invests both hands in sleeve control, their legs must work independently to maintain distance and prevent passing. By transitioning your grips from the sleeves (where the bottom player wants them) to the pants or ankles (where you control the action), you fundamentally shift the positional dynamic. The pass works best when executed with commitment and speed after a deliberate grip-breaking sequence, and chains naturally with knee slice, leg drag, and X-pass options when the initial toreando is defended.
 
-**From Position**: [[Double Sleeve Guard]] (Top)
+**From Position**: [[Positions/Double Sleeve Guard]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -30,10 +30,10 @@ Strategically, the Toreando from Double Sleeve occupies a critical role in the p
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Double Sleeve Guard]] | 25% |
-| Failure | [[Half Guard]] | 10% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Double Sleeve Guard]] | 25% |
+| Failure | [[Positions/Half Guard]] | 10% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -190,27 +190,27 @@ The Toreando from Double Sleeve connects the double sleeve guard passing game to
 ## Related Techniques
 
 
-- [[Double Sleeve Guard]] - Source position where this technique begins
+- [[Positions/Double Sleeve Guard]] - Source position where this technique begins
 
-- [[Side Control]] - Primary destination after successful pass completion
+- [[Positions/Side Control]] - Primary destination after successful pass completion
 
-- [[Half Guard]] - Partial pass destination when legs are not fully cleared
+- [[Positions/Half Guard]] - Partial pass destination when legs are not fully cleared
 
-- [[Closed Guard]] - Counter destination when opponent closes guard during pass attempt
+- [[Positions/Closed Guard]] - Counter destination when opponent closes guard during pass attempt
 
-- [[Toreando Pass from De La Riva]] - Similar toreando mechanics applied from different guard position
+- [[Transitions/Toreando Pass from De La Riva]] - Similar toreando mechanics applied from different guard position
 
-- [[Toreando Pass from Seated Guard]] - Toreando variation against seated guard configuration
+- [[Transitions/Toreando Pass from Seated Guard]] - Toreando variation against seated guard configuration
 
-- [[Pass Double Sleeve Guard]] - General passing approach from same starting position
+- [[Transitions/Pass Double Sleeve Guard]] - General passing approach from same starting position
 
-- [[Spider Guard]] - Related guard that opponent may transition to during grip fight
+- [[Positions/Spider Guard]] - Related guard that opponent may transition to during grip fight
 
-- [[Lasso Guard]] - Guard opponent may establish if grip transition is slow
+- [[Positions/Lasso Guard]] - Guard opponent may establish if grip transition is slow
 
-- [[Headquarters Position]] - Intermediate control position if full pass stalls
+- [[Positions/Headquarters Position]] - Intermediate control position if full pass stalls
 
-- [[Combat Base]] - Alternative posture for initiating the pass
+- [[Positions/Combat Base]] - Alternative posture for initiating the pass
 
 
 </section>

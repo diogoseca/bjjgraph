@@ -156,7 +156,7 @@ Defending against the turtle flatten requires understanding the attacker's mecha
 
 The most critical defensive window occurs between the attacker establishing their grip configuration and initiating the drive. Once the lateral drive begins with full commitment, defending becomes significantly harder because the structural mechanics favor the attacker. Effective defense therefore emphasizes early recognition of setup cues — the hip grip, the knee wedge positioning, the shift in chest pressure angle — and immediate preemptive action before the drive phase begins. If you miss the early window and are already being driven flat, the defensive priority shifts to inserting a knee or hip to recover half guard rather than attempting to re-turtle, since re-turtling against an attacker who has already broken your base is far lower percentage than accepting the partial pass and recovering guard from half guard bottom.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ The most critical defensive window occurs between the attacker establishing thei
 ### 1. Granby roll away from the flatten direction as the attacker initiates the lateral drive, using their committed momentum to create space for inversion and guard recovery
 
 - **When to use**: When you feel the attacker's weight shift laterally and their chest drives into your near shoulder at an angle — must execute before you are driven flat
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You invert underneath the attacker's pressure and recover to closed guard or half guard, completely negating the flatten and resetting the positional exchange
 - **Risk**: If the attacker reads the granby and follows your rotation while maintaining harness control, they can end up in back control with hooks — worse than the original turtle position
 
 ### 2. Sit-through to the opposite side of the flatten direction, threading your near leg through and turning to face the attacker to recover guard
 
 - **When to use**: When the attacker commits their weight laterally for the flatten and their base becomes compromised on the opposite side — their directional commitment creates a gap behind them
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You thread through to half guard or butterfly guard facing the attacker, converting the turtle exchange into a standard guard battle where you have frames and defensive structure
 - **Risk**: If the sit-through is too slow, the attacker can follow and establish front headlock control, leading to guillotine or anaconda choke threats
 
 ### 3. Explosive standup by posting your far hand and driving your near knee up to a standing base, breaking the attacker's hip and upper body grips through elevation
 
 - **When to use**: Early in the flatten setup before the attacker has fully committed their weight — works best when you detect the grip change to the hip but the drive has not yet started
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You return to standing position and disengage from the turtle exchange entirely, resetting to a neutral standing or clinch position
 - **Risk**: If the attacker maintains upper body control during your standup, they can snap you back down or transition to a standing back control position with body lock
 
 ### 4. Widen your base and drop your hips low while fighting the attacker's hip grip with your near hand, denying the anchor point needed for the lateral flatten
 
 - **When to use**: When you recognize the hip grip being established but the drive has not yet begun — a preemptive structural adjustment that removes the flatten's mechanical advantage
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: The attacker cannot generate effective lateral drive without the hip anchor, forcing them to reset their grip configuration and giving you time to re-establish defensive position or initiate your own escape
 - **Risk**: A wide, low base sacrifices mobility and makes you vulnerable to a modified flatten targeting your shoulder line rather than your hip line
 
@@ -226,11 +226,11 @@ The most critical defensive window occurs between the attacker establishing thei
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Deny the flatten by fighting the attacker's hip grip early, maintaining constant motion to prevent them from settling their drive angle, and executing a standup or re-turtling when they abandon the flatten attempt. The attacker returns to standard turtle top without having advanced position, and you retain your defensive structure with escape options intact.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If the flatten succeeds partially and you are driven onto your side or belly, immediately insert your near knee between your body and the attacker's hip before they can consolidate side control. Use your far hand to frame against their shoulder while threading your near leg into a half guard entanglement on their passing leg. Recovering half guard from a partial flatten is far higher percentage than attempting to re-turtle, and half guard bottom provides established offensive and defensive frameworks.
 

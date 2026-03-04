@@ -186,7 +186,7 @@ description: "Learn to execute the Bridge from Reverse Mount escape in BJJ. Step
 
 As the attacker executing the Bridge from Reverse Mount, your objective is to generate enough explosive upward and rotational force to displace the top player's weight and create space to turn face-down into turtle. The reverse mount creates a unique bridging scenario because the opponent faces your feet rather than your head, meaning their base and weight distribution differ fundamentally from standard mount. Your bridge must account for this backward orientation by targeting angles where their structural support is weakest. The technique demands commitment—half-hearted bridges allow the opponent to ride and resettle, often in a worse position for you. Success depends on precise timing, angle creation before the bridge, and immediate follow-through to turtle once space is created. Every second spent planning in reverse mount is a second the top player uses to consolidate or advance to back control.
 
-**From Position**: [[Reverse Mount]] (Bottom)
+**From Position**: [[Positions/Reverse Mount]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ As the attacker executing the Bridge from Reverse Mount, your objective is to ge
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 45% |
-| Failure | [[Reverse Mount]] | 30% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Turtle]] | 45% |
+| Failure | [[Positions/Reverse Mount]] | 30% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the attacker executing the Bridge from Reverse Mount, your objective is to ge
 
 ## Opponent Counters
 
-- **Opponent rides the bridge by sinking weight and widening knees to maintain base** (Effectiveness: High) - Your Response: If the first bridge fails, immediately attempt a second bridge in the opposite direction to exploit their overcorrection, or switch to a hip escape while they are focused on maintaining heavy pressure → Leads to [[Reverse Mount]]
-- **Opponent inserts hooks during the bridge transition to establish back control** (Effectiveness: High) - Your Response: Prioritize completing the turn to turtle quickly and immediately strip the first hook before the second can be inserted. Keep elbows tight to prevent the bottom hook from threading through your thigh → Leads to [[Back Control]]
-- **Opponent sprawls hips back and flattens you during bridge attempt** (Effectiveness: Medium) - Your Response: Use the sprawl momentum against them by timing a hip escape in the opposite direction as their weight shifts backward, or attempt a sit-through if they create too much distance from your hips → Leads to [[Reverse Mount]]
-- **Opponent posts hands wide on mat and drops chest onto your back during turn** (Effectiveness: Medium) - Your Response: If they flatten onto your back during the turn, you are transitioning toward turtle regardless—maintain the turn and focus on establishing your four-point base underneath their pressure, then execute turtle escapes → Leads to [[Reverse Mount]]
+- **Opponent rides the bridge by sinking weight and widening knees to maintain base** (Effectiveness: High) - Your Response: If the first bridge fails, immediately attempt a second bridge in the opposite direction to exploit their overcorrection, or switch to a hip escape while they are focused on maintaining heavy pressure → Leads to [[Positions/Reverse Mount]]
+- **Opponent inserts hooks during the bridge transition to establish back control** (Effectiveness: High) - Your Response: Prioritize completing the turn to turtle quickly and immediately strip the first hook before the second can be inserted. Keep elbows tight to prevent the bottom hook from threading through your thigh → Leads to [[Positions/Back Control]]
+- **Opponent sprawls hips back and flattens you during bridge attempt** (Effectiveness: Medium) - Your Response: Use the sprawl momentum against them by timing a hip escape in the opposite direction as their weight shifts backward, or attempt a sit-through if they create too much distance from your hips → Leads to [[Positions/Reverse Mount]]
+- **Opponent posts hands wide on mat and drops chest onto your back during turn** (Effectiveness: Medium) - Your Response: If they flatten onto your back during the turn, you are transitioning toward turtle regardless—maintain the turn and focus on establishing your four-point base underneath their pressure, then execute turtle escapes → Leads to [[Positions/Reverse Mount]]
 
 
 </section>

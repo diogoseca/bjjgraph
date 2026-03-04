@@ -180,7 +180,7 @@ description: "Complete guide to fighting from Saddle bottom to Inside Ashi-Garam
 
 Executing the fight to Inside Ashi-Garami from Saddle bottom requires systematic dismantling of the opponent's dominant leg entanglement configuration. As the attacker in this transition, you are the person trapped in the Saddle, the most dangerous leg lock position in modern grappling. Your objective is not to escape entirely but to methodically degrade the opponent's control from Saddle to Inside Ashi-Garami, where their finishing mechanics are substantially weakened and additional escape pathways become available. This transition demands patience, precise grip fighting, and disciplined sequential execution rather than explosive movements that risk heel exposure.
 
-**From Position**: [[Saddle]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ Executing the fight to Inside Ashi-Garami from Saddle bottom requires systematic
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 55% |
-| Failure | [[Saddle]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 55% |
+| Failure | [[Positions/Ashi Garami/Saddle]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ Executing the fight to Inside Ashi-Garami from Saddle bottom requires systematic
 
 ## Opponent Counters
 
-- **Opponent re-tightens figure-four during leg pummel by driving outside leg hook deeper behind your knee** (Effectiveness: High) - Your Response: Stop the pummel immediately and return to grip fighting phase. Address the re-established figure-four by breaking their foot connection with two-on-one grip fighting before reattempting the leg pummel. → Leads to [[Saddle]]
-- **Opponent attacks heel hook during transition movement when pummeling momentarily exposes the heel** (Effectiveness: High) - Your Response: Abandon the pummel immediately and return to heel protection using both hands to strip their heel grip. Reset the entire escape sequence from the beginning with improved heel security before resuming. → Leads to [[Saddle]]
-- **Opponent switches to straight ankle lock threat when you successfully hide the heel during pummeling** (Effectiveness: Medium) - Your Response: Pull toes back to defend the ankle lock while continuing hip clearing movements. Ankle lock defense is less position-dependent than heel hook defense, so you can often maintain escape progress while managing this threat simultaneously. → Leads to [[Saddle]]
-- **Opponent disengages from leg entanglement entirely to transition to top guard passing position** (Effectiveness: Low) - Your Response: Immediately recover guard by establishing feet on hips and grips on their wrists or sleeves as they disengage from the leg game. This outcome is favorable despite losing the leg entanglement offense. → Leads to [[Open Guard]]
+- **Opponent re-tightens figure-four during leg pummel by driving outside leg hook deeper behind your knee** (Effectiveness: High) - Your Response: Stop the pummel immediately and return to grip fighting phase. Address the re-established figure-four by breaking their foot connection with two-on-one grip fighting before reattempting the leg pummel. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent attacks heel hook during transition movement when pummeling momentarily exposes the heel** (Effectiveness: High) - Your Response: Abandon the pummel immediately and return to heel protection using both hands to strip their heel grip. Reset the entire escape sequence from the beginning with improved heel security before resuming. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent switches to straight ankle lock threat when you successfully hide the heel during pummeling** (Effectiveness: Medium) - Your Response: Pull toes back to defend the ankle lock while continuing hip clearing movements. Ankle lock defense is less position-dependent than heel hook defense, so you can often maintain escape progress while managing this threat simultaneously. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent disengages from leg entanglement entirely to transition to top guard passing position** (Effectiveness: Low) - Your Response: Immediately recover guard by establishing feet on hips and grips on their wrists or sleeves as they disengage from the leg game. This outcome is favorable despite losing the leg entanglement offense. → Leads to [[Positions/Open Guard]]
 
 
 </section>

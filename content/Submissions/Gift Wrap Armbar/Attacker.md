@@ -182,7 +182,7 @@ description: "Master attacking the Gift Wrap Armbar in BJJ. Learn arm isolation 
 
 The Gift Wrap Armbar from the attacker's perspective demands precise coordination between maintaining the gift wrap arm trap and executing the armbar finish on the isolated free arm. The key to success lies in transitioning your body position to create the armbar angle while never releasing the gift wrap control, ensuring the opponent cannot recover defensive capability during the submission attempt. The gift wrap eliminates the opponent's ability to use their trapped arm for hitchhiker escapes, hand clasping, or framing against the armbar, which dramatically reduces available defenses. This technique rewards patient positional control followed by decisive commitment to the finish once the arm is properly isolated and your legs are positioned to prevent escape. Understanding the interplay between choke threats and armbar setups from gift wrap creates an offensive system where defending one attack exposes vulnerability to the other.
 
-**From Position**: [[Gift Wrap]] (Top)
+**From Position**: [[Positions/Gift Wrap]] (Top)
 
 
 </section>
@@ -236,8 +236,8 @@ The Gift Wrap Armbar from the attacker's perspective demands precise coordinatio
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Gift Wrap]] | 30% |
-| Counter | [[Closed Guard]] | 20% |
+| Failure | [[Positions/Gift Wrap]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -246,10 +246,10 @@ The Gift Wrap Armbar from the attacker's perspective demands precise coordinatio
 
 ## Opponent Defenses
 
-- **Opponent clasps hands together or grabs own gi to prevent arm isolation** (Effectiveness: High) - Your Response: Peel the grip using a wrist-to-wrist break or transition to a kimura grip to separate the hands. Alternatively, maintain position and threaten the choke until they release the clasp to defend the neck, then immediately re-attack the armbar. → Leads to [[Gift Wrap]]
-- **Opponent stacks forward and drives weight onto you during the armbar transition** (Effectiveness: Medium) - Your Response: Angle your body away from the stack to maintain distance and keep the arm extended. Use the leg across the face to push their head and prevent further forward pressure. If the stack is deep, transition to a belly-down armbar by swinging your top leg over and rotating face-down. → Leads to [[Gift Wrap]]
-- **Opponent performs hitchhiker escape by rotating toward the trapped arm and spinning out** (Effectiveness: Medium) - Your Response: Follow the rotation by switching your hips and maintaining leg pressure on the head. The gift wrap trap on the opposite arm significantly limits their ability to complete the hitchhiker compared to a standard armbar because they cannot post or frame with the trapped arm. Keep squeezing knees and adjust angle to match their rotation. → Leads to [[Closed Guard]]
-- **Opponent explosively bridges and rolls toward the armbar side to escape** (Effectiveness: Low) - Your Response: Ride the bridge by maintaining tight leg clamp and following the rotation. The gift wrap prevents them from using the trapped arm to complete a full reversal. If they do roll, transition to a mounted armbar or belly-down armbar position to maintain the submission threat through the scramble. → Leads to [[Closed Guard]]
+- **Opponent clasps hands together or grabs own gi to prevent arm isolation** (Effectiveness: High) - Your Response: Peel the grip using a wrist-to-wrist break or transition to a kimura grip to separate the hands. Alternatively, maintain position and threaten the choke until they release the clasp to defend the neck, then immediately re-attack the armbar. → Leads to [[Positions/Gift Wrap]]
+- **Opponent stacks forward and drives weight onto you during the armbar transition** (Effectiveness: Medium) - Your Response: Angle your body away from the stack to maintain distance and keep the arm extended. Use the leg across the face to push their head and prevent further forward pressure. If the stack is deep, transition to a belly-down armbar by swinging your top leg over and rotating face-down. → Leads to [[Positions/Gift Wrap]]
+- **Opponent performs hitchhiker escape by rotating toward the trapped arm and spinning out** (Effectiveness: Medium) - Your Response: Follow the rotation by switching your hips and maintaining leg pressure on the head. The gift wrap trap on the opposite arm significantly limits their ability to complete the hitchhiker compared to a standard armbar because they cannot post or frame with the trapped arm. Keep squeezing knees and adjust angle to match their rotation. → Leads to [[Positions/Closed Guard]]
+- **Opponent explosively bridges and rolls toward the armbar side to escape** (Effectiveness: Low) - Your Response: Ride the bridge by maintaining tight leg clamp and following the rotation. The gift wrap prevents them from using the trapped arm to complete a full reversal. If they do roll, transition to a mounted armbar or belly-down armbar position to maintain the submission threat through the scramble. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

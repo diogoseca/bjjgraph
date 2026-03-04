@@ -158,7 +158,7 @@ The critical defensive window exists before the gift wrap grip is fully secured.
 
 Defensive strategy centers on three priorities: preventing your arm from crossing your centerline, maintaining the ability to face your attacker, and creating enough space through hip movement to recover guard if positional escape becomes necessary. The defender must resist the instinct to turn away and instead address the arm control directly while preserving structural integrity.
 
-**Opponent's Starting Position**: [[S Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/S Mount]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Defensive strategy centers on three priorities: preventing your arm from crossin
 ### 1. Keep elbow tight and retract arm before it crosses centerline by gripping your own collar or clasping hands together
 
 - **When to use**: As soon as you feel the attacker attempting to feed your arm across your body, before the gift wrap grip connects
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: Attacker cannot establish gift wrap and must either maintain S Mount or switch to armbar attack, keeping you in S Mount bottom rather than back control bottom
 - **Risk**: Keeping the elbow extremely tight creates the ideal arm configuration for an armbar—you trade gift wrap defense for armbar vulnerability
 
 ### 2. Turn explosively toward the attacker before the gift wrap is secured, driving your shoulder into their chest to face them
 
 - **When to use**: During the brief window after arm feed begins but before the attacker's far hand connects under your neck
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: You face the attacker and prevent the back take, returning to standard S Mount bottom where you still have defensive options against arm attacks
 - **Risk**: If timed late and the gift wrap is already connected, turning into them may tighten the grip rather than breaking it
 
 ### 3. Bridge and hip escape toward attacker's legs during the rotation phase to recover half guard
 
 - **When to use**: When the gift wrap is already established and the attacker begins rotating around your head toward your back
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough space during the rotation to insert your legs and recover half guard, preventing full back control establishment
 - **Risk**: The bridge creates momentary space that the attacker may use to accelerate their rotation and complete the back take faster
 
 ### 4. Block the attacker's rotation by posting your far arm against the mat and driving your shoulder into their path
 
 - **When to use**: When the attacker begins walking around your head after securing the gift wrap
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: You prevent the attacker from clearing your shoulder and completing the rotation, stalling the back take and potentially forcing a reset
 - **Risk**: Your posted arm becomes extended and vulnerable to kimura attack or arm trap for crucifix transition
 
@@ -228,11 +228,11 @@ Defensive strategy centers on three priorities: preventing your arm from crossin
 
 ## Best-Case Outcomes for Defender
 
-### → [[S Mount]]
+### → [[Positions/Mount/S Mount]]
 
 Prevent the arm from crossing your centerline by keeping elbows tight and gripping your collar, or turn explosively toward the attacker before the gift wrap connects. Staying in S Mount bottom is a favorable outcome because it preserves your standard defensive options against arm attacks.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 During the rotation phase when the attacker's hips momentarily lift off your body, bridge explosively and hip escape toward their legs to insert your knee and recover half guard. Time the escape with their movement rather than trying to create space against settled weight.
 

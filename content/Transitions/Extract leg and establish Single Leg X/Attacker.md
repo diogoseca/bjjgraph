@@ -178,7 +178,7 @@ The strategic value of this transition lies in its ability to reverse the positi
 
 Success in this transition requires precise timing, understanding of when opponent's leg control is weakest, and the mechanical skill to smoothly transition from extraction directly into Single Leg X-Guard configuration without allowing space for opponent's recovery. The technique exemplifies modern leg lock defense philosophy where escape and counter-attack are integrated into a single fluid movement rather than separate sequential actions.
 
-**From Position**: [[Leg Knot]] (Bottom)
+**From Position**: [[Positions/Leg Knot]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ Success in this transition requires precise timing, understanding of when oppone
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 58% |
-| Failure | [[Leg Knot]] | 30% |
-| Counter | [[Saddle]] | 12% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 58% |
+| Failure | [[Positions/Leg Knot]] | 30% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 12% |
 
 
 </section>
@@ -240,9 +240,9 @@ Success in this transition requires precise timing, understanding of when oppone
 
 ## Opponent Counters
 
-- **Opponent sprawls heavy and drives forward to prevent hip rotation and extraction angles** (Effectiveness: High) - Your Response: Use the forward pressure to initiate a Granby roll escape instead, or redirect to 50-50 entry if they over-commit forward → Leads to [[Leg Knot]]
-- **Opponent immediately re-attacks with leg entanglement as your leg clears, targeting fresh angles to consolidate into Saddle** (Effectiveness: Medium) - Your Response: Accelerate Single Leg X-Guard establishment and immediately threaten sweep before they can set up new entanglement. Keep constant pulling pressure on their leg to prevent consolidation → Leads to [[Saddle]]
-- **Opponent pulls leg back and disengages to avoid Single Leg X-Guard, looking to reset in passing position** (Effectiveness: Medium) - Your Response: Follow their retreating leg and transition to standard X-Guard or Butterfly Guard to maintain offensive guard position rather than letting them reset to neutral → Leads to [[Leg Knot]]
+- **Opponent sprawls heavy and drives forward to prevent hip rotation and extraction angles** (Effectiveness: High) - Your Response: Use the forward pressure to initiate a Granby roll escape instead, or redirect to 50-50 entry if they over-commit forward → Leads to [[Positions/Leg Knot]]
+- **Opponent immediately re-attacks with leg entanglement as your leg clears, targeting fresh angles to consolidate into Saddle** (Effectiveness: Medium) - Your Response: Accelerate Single Leg X-Guard establishment and immediately threaten sweep before they can set up new entanglement. Keep constant pulling pressure on their leg to prevent consolidation → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent pulls leg back and disengages to avoid Single Leg X-Guard, looking to reset in passing position** (Effectiveness: Medium) - Your Response: Follow their retreating leg and transition to standard X-Guard or Butterfly Guard to maintain offensive guard position rather than letting them reset to neutral → Leads to [[Positions/Leg Knot]]
 
 
 </section>

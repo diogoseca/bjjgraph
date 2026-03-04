@@ -21,7 +21,7 @@ This defense occupies a critical role in the leg lock defense hierarchy because 
 
 Successful application of this defense typically results in the defender extracting their leg and establishing half guard top position over the now-prone attacker. However, the defense carries inherent risk—if the attacker anticipates the straightening attempt and times a sharp re-break of the leg angle, the resulting snap can accelerate into a finish before the defender can react. This makes timing and commitment level crucial decisions that separate effective kneebar defense from dangerous gambles.
 
-**From Position**: [[Kneebar Control]] (Bottom)
+**From Position**: [[Positions/Kneebar Control]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,8 +32,8 @@ Successful application of this defense typically results in the defender extract
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Failure | [[Kneebar Control]] | 40% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Failure | [[Positions/Kneebar Control]] | 40% |
 | Counter | [[game-over]] | 15% |
 
 
@@ -187,23 +187,23 @@ The straighten leg kneebar defense integrates directly into the broader leg lock
 ## Related Techniques
 
 
-- [[Kneebar Control]] - Source position where this defense is initiated against kneebar attacks
+- [[Positions/Kneebar Control]] - Source position where this defense is initiated against kneebar attacks
 
-- [[Half Guard]] - Primary escape destination after successful leg extraction and positional advancement
+- [[Positions/Half Guard]] - Primary escape destination after successful leg extraction and positional advancement
 
-- [[Reversal from Kneebar Control]] - Alternative kneebar escape that reverses position instead of extracting
+- [[Transitions/Reversal from Kneebar Control]] - Alternative kneebar escape that reverses position instead of extracting
 
-- [[Kneebar Control Maintenance]] - Opposing technique used by kneebar attacker to prevent this defense
+- [[Transitions/Kneebar Control Maintenance]] - Opposing technique used by kneebar attacker to prevent this defense
 
-- [[Heel Hook Defense Escape]] - Related leg lock defense addressing rotational attacks rather than extension attacks
+- [[Transitions/Heel Hook Defense Escape]] - Related leg lock defense addressing rotational attacks rather than extension attacks
 
-- [[Ankle Lock Escape to Standing]] - Similar defensive pattern against straight ankle lock with comparable escape mechanics
+- [[Transitions/Ankle Lock Escape to Standing]] - Similar defensive pattern against straight ankle lock with comparable escape mechanics
 
-- [[Boot Defense from Toe Hold]] - Complementary leg lock defense using foot positioning to neutralize rotational attacks
+- [[Transitions/Boot Defense from Toe Hold]] - Complementary leg lock defense using foot positioning to neutralize rotational attacks
 
-- [[Ashi Garami]] - Parent leg entanglement system from which kneebar control positions originate
+- [[Positions/Ashi Garami]] - Parent leg entanglement system from which kneebar control positions originate
 
-- [[Straight Ankle Lock Control]] - Alternative leg attack the kneebar attacker may transition to during defense
+- [[Positions/Straight Ankle Lock Control]] - Alternative leg attack the kneebar attacker may transition to during defense
 
 
 </section>

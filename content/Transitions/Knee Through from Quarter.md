@@ -21,7 +21,7 @@ Unlike more complex passing sequences requiring significant body repositioning, 
 
 The technique's strategic value extends beyond immediate mount achievement. By threatening the knee through, the top player forces the bottom player into desperate defensive reactions that may expose alternative passing pathways or submission entries. The bottom player must commit resources to blocking the knee drive, potentially weakening defenses against darce chokes, kimura traps, or crossface pass variations that exploit the same positional structure. The knee through thus functions as both a primary passing completion and a pressure tool that degrades the entire defensive framework.
 
-**From Position**: [[Quarter Guard]] (Top)
+**From Position**: [[Positions/Quarter Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique's strategic value extends beyond immediate mount achievement. By t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Quarter Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Quarter Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Knee Through from Quarter Guard occupies a critical position in the guard pa
 ## Related Techniques
 
 
-- [[Quarter Guard]] - Starting position from which the knee through is initiated as the final passing action
+- [[Positions/Quarter Guard]] - Starting position from which the knee through is initiated as the final passing action
 
-- [[Mount]] - Primary target position achieved upon successful completion of the knee drive
+- [[Positions/Mount]] - Primary target position achieved upon successful completion of the knee drive
 
-- [[Half Guard]] - Position the bottom player may recover to if the knee through is countered or poorly timed
+- [[Positions/Half Guard]] - Position the bottom player may recover to if the knee through is countered or poorly timed
 
-- [[Complete Pass from Quarter]] - Complementary passing transition from quarter guard targeting side control rather than mount
+- [[Transitions/Complete Pass from Quarter]] - Complementary passing transition from quarter guard targeting side control rather than mount
 
-- [[Knee Shield from Quarter Guard]] - Primary defensive counter from the bottom player attempting to prevent the knee through
+- [[Transitions/Knee Shield from Quarter Guard]] - Primary defensive counter from the bottom player attempting to prevent the knee through
 
-- [[Consolidation to Mount]] - Related mount entry transition from side control using similar pressure mechanics
+- [[Transitions/Consolidation to Mount]] - Related mount entry transition from side control using similar pressure mechanics
 
-- [[Headquarters Position]] - Earlier passing position in the hierarchy that often leads to quarter guard establishment
+- [[Positions/Headquarters Position]] - Earlier passing position in the hierarchy that often leads to quarter guard establishment
 
-- [[Side Control]] - Alternative target position if the knee through is abandoned for a lateral pass completion
+- [[Positions/Side Control]] - Alternative target position if the knee through is abandoned for a lateral pass completion
 
-- [[Deep Half Guard]] - Defensive recovery position the bottom player may seek when the knee through commits weight forward
+- [[Positions/Half Guard/Deep Half Guard]] - Defensive recovery position the bottom player may seek when the knee through commits weight forward
 
-- [[Knee Shield Half Guard]] - Defensive structure the bottom player attempts to re-establish to prevent the knee from clearing
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive structure the bottom player attempts to re-establish to prevent the knee from clearing
 
 
 </section>

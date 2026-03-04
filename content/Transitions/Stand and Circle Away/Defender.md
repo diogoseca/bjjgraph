@@ -156,7 +156,7 @@ As the front headlock controller (defender against the Stand and Circle Away), y
 
 The defensive framework against the Stand and Circle Away operates on a timeline. In the early phase, before the opponent's feet are under their hips, a heavy sprawl and downward chest pressure stops the escape before it begins. In the mid-phase, as they drive upward, your best options shift to tightening choke grips or switching to a guillotine to punish the neck exposure that standing creates. In the late phase, once they achieve standing position and begin circling, your priority shifts to either maintaining head control by matching their lateral movement or releasing the headlock to take the back before they create full separation. Understanding which phase you are in determines which counter has the highest probability of success.
 
-**Opponent's Starting Position**: [[Front Headlock]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The defensive framework against the Stand and Circle Away operates on a timeline
 ### 1. Heavy sprawl with re-snap: drive your hips back and down while snapping the opponent's head toward the mat with your chest weight and choking arm, collapsing their base before they achieve vertical posture
 
 - **When to use**: Early phase — when you feel the opponent walking their feet forward and building a crouched base, before they have generated any significant upward drive
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Opponent's posture is re-collapsed to the mat, resetting them to front headlock bottom with their base disrupted and energy wasted on the failed standup attempt
 - **Risk**: If you sprawl too aggressively and overcommit your weight forward, the opponent can use your forward momentum to shoot a single leg or execute a forward roll to recover guard
 
 ### 2. Transition to guillotine: as the opponent drives upward, deepen your choking arm under their chin and lock a guillotine grip, using their own upward pressure to tighten the choke
 
 - **When to use**: Mid-phase — when the opponent has begun their upward drive and their neck is extending slightly despite their chin tuck, especially if they fail to control your choking arm before standing
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You establish a locked guillotine that either finishes as a standing guillotine or forces the opponent to abort the standup and pull guard to defend the choke
 - **Risk**: If the opponent maintains strong chin tuck and choking arm control, the guillotine will not lock properly and you waste your grip transition window, potentially loosening your overall head control
 
 ### 3. Release headlock and take the back: as the opponent circles laterally and their hip angle opens, release head control and immediately secure a rear body lock or seat belt grip, transitioning to back control
 
 - **When to use**: Late phase — when the opponent has achieved standing position and begun circling, and your front headlock grip is progressively weakening with each lateral step they take
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You convert a deteriorating front headlock into dominant back control with hooks or body triangle, a significant positional upgrade worth 4 points
 - **Risk**: If the opponent recognizes the back take attempt early and turns to face you before you secure the seat belt, you end up in a neutral standing position with no control advantage
 
 ### 4. Match the circle and maintain head control: step with the opponent as they circle laterally, using footwork to preserve your grip geometry and prevent the angle deterioration that weakens your choking arm
 
 - **When to use**: Late phase — when the opponent is circling but your grip is still functional and you want to maintain the front headlock rather than transition to back take
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: The opponent's circling fails to create separation, and you can re-snap their head down or transition to a submission from the maintained front headlock
 - **Risk**: If you focus solely on matching their circle, you may miss the window for a back take and the opponent eventually strips your grip through an abrupt direction change
 
@@ -227,11 +227,11 @@ The defensive framework against the Stand and Circle Away operates on a timeline
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Shut down the escape early with a heavy sprawl and re-snap before the opponent builds a crouched base. Drive your chest weight into their upper back while pulling their head downward with your choking arm. The earlier you react to the standup cue, the less energy required to re-collapse their posture. Consolidate your grip after the re-snap to prevent a second attempt.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Allow the opponent to achieve partial standing position while monitoring their hip angle. As they circle and expose their back, release the weakening head control and immediately secure a seat belt grip with one arm over their shoulder and one under the armpit. Step behind them and insert hooks before they can turn to face you. The back take is most available when the opponent circles aggressively without squaring up, creating the angle you need to get behind their center line.
 

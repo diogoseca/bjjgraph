@@ -188,7 +188,7 @@ description: "Master the attacking mechanics of the Gogoplata Finish including s
 
 Executing the Gogoplata Finish requires mastering the precise coordination of shin placement, hip elevation, and pulling mechanics that transform the control position into a fight-ending submission. The attacker operates from bottom position, using their shin as a rigid lever across the opponent's trachea while their hands serve as the primary force multiplier by pulling the opponent's head down into the compression point. Success depends on maintaining optimal perpendicular shin alignment, continuous hip elevation to preserve the choking angle, and progressive deepening of the foot behind the head to prevent any gap formation. The finish is not a sudden explosive movement but rather a systematic tightening sequence where each adjustment incrementally increases pressure until the opponent has no viable escape route and must submit. Understanding that the shin bone's hardness against soft throat tissue creates an inherent mechanical advantage allows the attacker to apply controlled, progressive force rather than relying on explosive strength.
 
-**From Position**: [[Gogoplata Control]] (Bottom)
+**From Position**: [[Positions/Gogoplata Control]] (Bottom)
 
 
 </section>
@@ -243,9 +243,9 @@ Executing the Gogoplata Finish requires mastering the precise coordination of sh
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Gogoplata Control]] | 25% |
-| Counter | [[Closed Guard]] | 20% |
-| Counter | [[Open Guard]] | 10% |
+| Failure | [[Positions/Gogoplata Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 20% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -254,10 +254,10 @@ Executing the Gogoplata Finish requires mastering the precise coordination of sh
 
 ## Opponent Defenses
 
-- **Opponent tucks chin and turns head laterally to reduce direct tracheal compression** (Effectiveness: Medium) - Your Response: Adjust hip angle to follow the chin turn and re-establish perpendicular shin contact with the trachea. Use your hands to redirect their head back to center alignment. → Leads to [[Gogoplata Control]]
-- **Opponent stacks forward with explosive pressure to collapse hip elevation and change shin angle** (Effectiveness: High) - Your Response: Accept the forward pressure and use their momentum to transition to omoplata by releasing the gogoplata configuration and redirecting the leg over their shoulder. Alternatively, follow the roll to back control. → Leads to [[Closed Guard]]
-- **Opponent hand-fights aggressively to remove foot from behind head before choke locks in** (Effectiveness: High) - Your Response: Use overhook on their fighting arm to neutralize hand-fighting while maintaining foot position with remaining hand. If foot is partially removed, immediately transition to triangle by switching leg configuration. → Leads to [[Gogoplata Control]]
-- **Opponent explosively postures up to break shin contact and create distance** (Effectiveness: Medium) - Your Response: If foot is still behind head, their posture attempt actually tightens the choke. If foot slips out, immediately follow up with triangle or armbar from the broken posture position. → Leads to [[Open Guard]]
+- **Opponent tucks chin and turns head laterally to reduce direct tracheal compression** (Effectiveness: Medium) - Your Response: Adjust hip angle to follow the chin turn and re-establish perpendicular shin contact with the trachea. Use your hands to redirect their head back to center alignment. → Leads to [[Positions/Gogoplata Control]]
+- **Opponent stacks forward with explosive pressure to collapse hip elevation and change shin angle** (Effectiveness: High) - Your Response: Accept the forward pressure and use their momentum to transition to omoplata by releasing the gogoplata configuration and redirecting the leg over their shoulder. Alternatively, follow the roll to back control. → Leads to [[Positions/Closed Guard]]
+- **Opponent hand-fights aggressively to remove foot from behind head before choke locks in** (Effectiveness: High) - Your Response: Use overhook on their fighting arm to neutralize hand-fighting while maintaining foot position with remaining hand. If foot is partially removed, immediately transition to triangle by switching leg configuration. → Leads to [[Positions/Gogoplata Control]]
+- **Opponent explosively postures up to break shin contact and create distance** (Effectiveness: Medium) - Your Response: If foot is still behind head, their posture attempt actually tightens the choke. If foot slips out, immediately follow up with triangle or armbar from the broken posture position. → Leads to [[Positions/Open Guard]]
 
 
 </section>

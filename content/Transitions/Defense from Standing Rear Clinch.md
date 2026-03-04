@@ -21,7 +21,7 @@ The fundamental strategic principle underlying all standing rear clinch defenses
 
 From a competitive perspective, standing rear clinch defense bridges wrestling and jiu-jitsu fundamentals. The grip breaking and hip switching mechanics draw from wrestling's stand-up escape methodology, while the throw and reversal options integrate judo and BJJ takedown principles. Mastery of this transition is particularly important in no-gi grappling and MMA where standing back exposure is common, but remains relevant in gi competition where collar grips compound the opponent's control options. The ability to escape a standing rear clinch reliably prevents opponents from converting wrestling-based attacks into dominant ground control, keeping the fight in positions where you can compete on your terms.
 
-**From Position**: [[Standing Rear Clinch]] (Bottom)
+**From Position**: [[Positions/Standing Rear Clinch]] (Bottom)
 **Success Rate**: 35%
 
 </section>
@@ -32,9 +32,9 @@ From a competitive perspective, standing rear clinch defense bridges wrestling a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 35% |
-| Failure | [[Standing Rear Clinch]] | 40% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Side Control]] | 35% |
+| Failure | [[Positions/Standing Rear Clinch]] | 40% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -198,29 +198,29 @@ Defense from Standing Rear Clinch serves as the critical defensive gateway preve
 ## Related Techniques
 
 
-- [[Standing Rear Clinch]] - Source position from which this escape is executed
+- [[Positions/Standing Rear Clinch]] - Source position from which this escape is executed
 
-- [[Back Control]] - Counter outcome position when opponent successfully takes fight to ground with back control
+- [[Positions/Back Control]] - Counter outcome position when opponent successfully takes fight to ground with back control
 
-- [[Side Control]] - Success outcome position achieved via throw or reversal completion
+- [[Positions/Side Control]] - Success outcome position achieved via throw or reversal completion
 
-- [[Clinch]] - Related standing position reached when escape creates face-to-face engagement
+- [[Positions/Clinch]] - Related standing position reached when escape creates face-to-face engagement
 
-- [[Counter Throw from Standing Rear Clinch]] - Complementary transition using throwing mechanics to counter the clinch
+- [[Transitions/Counter Throw from Standing Rear Clinch]] - Complementary transition using throwing mechanics to counter the clinch
 
-- [[Body Lock Takedown from Clinch]] - Opponent's primary offensive transition that this defense aims to prevent
+- [[Transitions/Body Lock Takedown from Clinch]] - Opponent's primary offensive transition that this defense aims to prevent
 
-- [[Standing Back Control]] - Related control variation the opponent may transition to during failed escape
+- [[Positions/Back Control/Standing Back Control]] - Related control variation the opponent may transition to during failed escape
 
-- [[Turtle]] - Intermediate position that may result from incomplete escape attempts
+- [[Positions/Turtle]] - Intermediate position that may result from incomplete escape attempts
 
-- [[Back Take]] - Opponent's strategic objective that this defense disrupts
+- [[Transitions/Back Take]] - Opponent's strategic objective that this defense disrupts
 
-- [[Body Lock]] - Common grip configuration used by opponent that must be addressed during escape
+- [[Positions/Body Lock]] - Common grip configuration used by opponent that must be addressed during escape
 
-- [[Break Clinch]] - Related standing escape technique with shared grip-fighting principles
+- [[Transitions/Break Clinch]] - Related standing escape technique with shared grip-fighting principles
 
-- [[Standing RNC from Rear Clinch]] - Primary submission threat motivating urgency of the escape
+- [[Submissions/Standing RNC from Rear Clinch]] - Primary submission threat motivating urgency of the escape
 
 
 </section>

@@ -21,7 +21,7 @@ The fundamental concept involves using your elbows as wedges against your oppone
 
 This escape is particularly effective against the invisible collar because it doesn't require you to remove your hands from neck defense to fight hooks. The elbow mechanics allow you to address both threats simultaneously—protecting your neck while dismantling their lower body control. Successful execution requires patience, proper sequencing, and the discipline to complete each phase fully before moving to the next. Rushing any step typically results in the opponent simply re-establishing the cleared hook.
 
-**From Position**: [[Invisible Collar]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
 **Success Rate**: 48%
 
 </section>
@@ -32,9 +32,9 @@ This escape is particularly effective against the invisible collar because it do
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Invisible Collar]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Rubber Guard/Invisible Collar]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Elbow Escape to Remove Hooks is a critical defensive transition in the back 
 ## Related Techniques
 
 
-- [[Invisible Collar]] - Starting position for this escape
+- [[Positions/Rubber Guard/Invisible Collar]] - Starting position for this escape
 
-- [[Back Control]] - Counter position if escape fails and opponent retakes deeper control
+- [[Positions/Back Control]] - Counter position if escape fails and opponent retakes deeper control
 
-- [[Open Guard]] - Target position after successful escape and guard recovery
+- [[Positions/Open Guard]] - Target position after successful escape and guard recovery
 
-- [[Half Guard]] - Alternative recovery position if full open guard cannot be established
+- [[Positions/Half Guard]] - Alternative recovery position if full open guard cannot be established
 
-- [[Turtle]] - Transitional position during some escape variations
+- [[Positions/Turtle]] - Transitional position during some escape variations
 
-- [[Granby Roll to Guard]] - Alternative escape method when elbow escape is being countered
+- [[Transitions/Granby Roll to Guard]] - Alternative escape method when elbow escape is being countered
 
-- [[Back Door Escape]] - Parent escape system containing multiple back escape options
+- [[Transitions/Back Door Escape]] - Parent escape system containing multiple back escape options
 
-- [[Rear Naked Choke]] - Primary submission threat that must be defended during escape
+- [[Transitions/Rear Naked Choke]] - Primary submission threat that must be defended during escape
 
-- [[Hand Fighting from Back]] - Prerequisite defensive transition establishing neck safety before hook removal
+- [[Transitions/Hand Fighting from Back]] - Prerequisite defensive transition establishing neck safety before hook removal
 
-- [[Hip Escape to Turtle]] - Alternative escape pathway when full guard recovery is blocked
+- [[Transitions/Hip Escape to Turtle]] - Alternative escape pathway when full guard recovery is blocked
 
 
 </section>

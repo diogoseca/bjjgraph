@@ -154,7 +154,7 @@ description: "Prevent the aggressive Dead Orchard escape as the top player in BJ
 
 As the practitioner maintaining Dead Orchard Control against an opponent attempting the aggressive escape to open guard, your primary task is recognizing the transition from incremental escape attempts to committed explosive movement and responding with the appropriate counter before momentum builds. The aggressive escape is more dangerous to your control than the standard frame-and-shrimp because it generates significantly more distance in a shorter time window, but it also carries greater risk for the bottom player, creating counter-opportunities that do not exist against the patient escape. Your responses include sprawling to stuff rolling attempts, following multi-shrimp chains with hip adjustments, and strategically releasing the dead orchard to secure side control when maintaining the grip is no longer viable. The key tactical insight is that a controlled release into side control pass is preferable to losing the position entirely by fighting for a grip that has been structurally compromised.
 
-**Opponent's Starting Position**: [[Dead Orchard Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Dead Orchard Control]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the practitioner maintaining Dead Orchard Control against an opponent attempt
 ### 1. Sprawl and drive chest pressure forward to pin bottom player's shoulders flat and prevent granby roll loading
 
 - **When to use**: When you feel the bottom player shifting weight to their upper back and drawing knees toward chest, indicating granby roll preparation
-- **Targets**: [[Dead Orchard Control]]
+- **Targets**: [[Positions/Dead Orchard Control]]
 - **If successful**: Bottom player's rolling attempt is stuffed, they are flattened, and your dead orchard grip may tighten from the sprawl pressure
 - **Risk**: Over-committing the sprawl can elevate your hips, creating space that the bottom player redirects into a multi-shrimp chain escape
 
 ### 2. Match the multi-shrimp chain by walking your hips in the same direction, maintaining compression angle throughout the chain
 
 - **When to use**: When the bottom player begins rapid consecutive hip escapes rather than single shrimps, attempting to build cumulative distance
-- **Targets**: [[Dead Orchard Control]]
+- **Targets**: [[Positions/Dead Orchard Control]]
 - **If successful**: Each individual shrimp is neutralized by your matching hip movement, the bottom player fatigues from failed explosive attempts, and the position remains locked
 - **Risk**: Failing to match the speed of the chain allows cumulative distance to build and the grip to loosen progressively
 
 ### 3. Release dead orchard grip and immediately establish crossface and hip control for side control pass
 
 - **When to use**: When the aggressive escape has compromised your grip depth beyond recovery and continuing to fight for the choke would result in full guard recovery
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You transition from a compromised dead orchard to dominant side control, maintaining top position and offensive advantage
 - **Risk**: If the bottom player reads the release early, they may establish guard frames before you secure side control
 
 ### 4. Accelerate anaconda finishing rotation as the bottom player commits to escape movement
 
 - **When to use**: When the bottom player's escape creates rotational momentum that you can redirect into the anaconda finishing angle
-- **Targets**: [[Dead Orchard Control]]
+- **Targets**: [[Positions/Dead Orchard Control]]
 - **If successful**: The bottom player's own escape energy drives them into the anaconda finish, converting their aggressive escape into a submission
 - **Risk**: If the bottom player recognizes the finishing rotation and matches it, the grip may break entirely during the accelerated movement
 
@@ -225,11 +225,11 @@ As the practitioner maintaining Dead Orchard Control against an opponent attempt
 
 ## Best-Case Outcomes for Defender
 
-### → [[Dead Orchard Control]]
+### → [[Positions/Dead Orchard Control]]
 
 Sprawl to stuff rolling attempts and match multi-shrimp chains with hip adjustments to maintain compression angle. The aggressive escape burns the bottom player's energy rapidly, so surviving their committed attempt often leaves them exhausted and more vulnerable to the incremental squeeze.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the aggressive escape compromises your grip beyond recovery, make the strategic decision to release the dead orchard and immediately establish crossface and hip control. Time the release to catch the bottom player mid-movement when their body is extended and their legs are not yet in position to establish guard frames.
 

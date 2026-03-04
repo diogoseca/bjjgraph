@@ -21,7 +21,7 @@ The technique requires precise timing and an understanding of when the top playe
 
 Strategically, the Back Take from Kesa Gatame serves as the highest-reward escape option from bottom Kesa Gatame. While simpler escapes like bridging to turtle or shrimping to guard recover a neutral or slightly favorable position, successfully taking the back leapfrogs multiple positional stages, jumping directly from a disadvantaged position worth zero points to the most dominant position worth four points. This risk-reward profile makes it worth pursuing when the opportunity presents itself, though it should be integrated into a broader escape chain with bridge-and-roll and guard recovery options rather than attempted in isolation.
 
-**From Position**: [[Kesa Gatame]] (Bottom)
+**From Position**: [[Positions/Side Control/Kesa Gatame]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Back Take from Kesa Gatame serves as the highest-reward escap
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 45% |
-| Failure | [[Kesa Gatame]] | 35% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Back Control]] | 45% |
+| Failure | [[Positions/Side Control/Kesa Gatame]] | 35% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Back Take from Kesa Gatame occupies a critical role in the bottom player's e
 ## Related Techniques
 
 
-- [[Kesa Gatame]] - Source position where this transition begins from bottom
+- [[Positions/Side Control/Kesa Gatame]] - Source position where this transition begins from bottom
 
-- [[Back Control]] - Target position achieved upon successful back take execution
+- [[Positions/Back Control]] - Target position achieved upon successful back take execution
 
-- [[Ghost Escape]] - Alternative Kesa Gatame escape exploiting similar back exposure vulnerability
+- [[Transitions/Ghost Escape]] - Alternative Kesa Gatame escape exploiting similar back exposure vulnerability
 
-- [[Bridge and Turn to Turtle]] - Complementary escape from Kesa Gatame that can transition into back take opportunities
+- [[Transitions/Bridge and Turn to Turtle]] - Complementary escape from Kesa Gatame that can transition into back take opportunities
 
-- [[Side Control]] - Parent position category containing the Kesa Gatame variation
+- [[Positions/Side Control]] - Parent position category containing the Kesa Gatame variation
 
-- [[Seat Belt Control Back]] - Specific back control variation commonly established after completing this transition
+- [[Positions/Back Control/Seat Belt Control Back]] - Specific back control variation commonly established after completing this transition
 
-- [[Reverse Kesa-Gatame]] - Related Kesa variation the top player may transition to when defending the back take
+- [[Positions/Side Control/Reverse Kesa-Gatame]] - Related Kesa variation the top player may transition to when defending the back take
 
-- [[Mount]] - Counter position opponent may achieve if back take attempt fails and they step over
+- [[Positions/Mount]] - Counter position opponent may achieve if back take attempt fails and they step over
 
-- [[Back Take]] - Generic back take transition sharing similar mechanical principles
+- [[Transitions/Back Take]] - Generic back take transition sharing similar mechanical principles
 
-- [[Rear Naked Choke]] - Primary follow-up submission after achieving back control from this transition
+- [[Transitions/Rear Naked Choke]] - Primary follow-up submission after achieving back control from this transition
 
 
 </section>

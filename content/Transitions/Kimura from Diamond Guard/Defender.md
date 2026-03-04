@@ -154,7 +154,7 @@ description: "Defend against the Kimura from Diamond Guard in BJJ. Recognition c
 
 Defending the Kimura from Diamond Guard requires recognizing the transition window when the bottom player releases head control to reach for your wrist, and acting decisively before the figure-four grip is fully locked. This brief moment between head control release and Kimura grip establishment represents both your greatest vulnerability and your best escape opportunity. Once the figure-four is locked, the combined sweeping and submission threat becomes extremely difficult to counter from inside the diamond frame. Effective defense prioritizes immediate arm extraction during the transition window, followed by posture recovery and base establishment if the grip does lock. The defender must understand that the Kimura from diamond guard is primarily a sweep setup, so defending the arm rotation is less important than maintaining base and preventing the hip bump from completing.
 
-**Opponent's Starting Position**: [[Diamond Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard/Diamond Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Kimura from Diamond Guard requires recognizing the transition wind
 ### 1. Immediate arm retraction during head control release window
 
 - **When to use**: The instant you feel head control release from behind your neck — before the wrist grip is established
-- **Targets**: [[Diamond Guard]]
+- **Targets**: [[Positions/Closed Guard/Diamond Guard]]
 - **If successful**: Your arm escapes the overhook control, neutralizing the Kimura threat and forcing the bottom player to re-establish diamond guard or fall back to basic closed guard
 - **Risk**: If you fail to extract the arm in time, the wrist grip locks and you are now in a worse position with a partially established Kimura against you
 
 ### 2. Drive hips forward and recover posture explosively
 
 - **When to use**: During the head control release window when the diamond frame is temporarily weakened by the loss of one control point
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You break the diamond frame by recovering posture above the bottom player's control range, reducing them to standard closed guard without the enhanced offensive capability
 - **Risk**: If the bottom player secures the wrist during your posture attempt, your forward drive can actually assist their hip bump sweep
 
 ### 3. Grab own belt, lapel, or opposite wrist to block arm rotation
 
 - **When to use**: When the Kimura figure-four is locked but the sweep has not yet been initiated — you have seconds to establish the defensive grip
-- **Targets**: [[Diamond Guard]]
+- **Targets**: [[Positions/Closed Guard/Diamond Guard]]
 - **If successful**: Your defensive grip prevents the arm from being rotated behind your back, stalling the Kimura threat and forcing the attacker to either break your grip or abandon the Kimura for another attack
 - **Risk**: Your grip-fighting hand is committed to defense and cannot post against the sweep, making you vulnerable to the hip bump if you do not also widen your base
 
 ### 4. Widen base and post free hand to resist sweep
 
 - **When to use**: When the bottom player has locked the Kimura grip and begins loading their hips for the sweep — your arm is controlled but you can still defend positionally
-- **Targets**: [[Diamond Guard]]
+- **Targets**: [[Positions/Closed Guard/Diamond Guard]]
 - **If successful**: Your wide base and posted hand prevent the hip bump sweep from completing, forcing the attacker to either attempt a low-percentage finish from bottom or release the grip
 - **Risk**: If you post too far to one side, the attacker can redirect the sweep angle or use your posted position to create a different attack such as an omoplata
 
@@ -225,11 +225,11 @@ Defending the Kimura from Diamond Guard requires recognizing the transition wind
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Exploit the head control release window by driving your hips forward and recovering upright posture before the Kimura grip locks. Swim your trapped arm free by circling your elbow outward and pulling it to your body while your posture breaks the weakened diamond frame. This escape reduces the position from the dangerous diamond guard to standard closed guard where the offensive threat level is significantly lower.
 
-### → [[Diamond Guard]]
+### → [[Positions/Closed Guard/Diamond Guard]]
 
 Prevent the Kimura grip from fully locking by immediately tucking your elbow tight to your ribs and retracting your arm toward your body when you feel the wrist grip being established. Even if you cannot fully extract the arm, denying figure-four depth stalls the attack and forces the bottom player back to the diamond guard position without the Kimura threat, allowing you to work standard diamond guard escapes.
 

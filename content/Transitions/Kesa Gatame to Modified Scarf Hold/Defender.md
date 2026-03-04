@@ -154,7 +154,7 @@ description: "How to defend and counter the transition from Kesa Gatame to Modif
 
 As the defender against this transition, you face a critical decision window. The moment the top player begins walking their hips forward from Kesa Gatame, you have a brief opportunity to either exploit the back exposure that Kesa Gatame provides or prevent the consolidation of the far more oppressive Modified Scarf Hold. Once the top player's chest settles onto your sternum with full weight, escape difficulty increases significantly. Your defensive awareness must focus on detecting the early signs of this transition and acting decisively before the top player completes the positional upgrade. The transition creates temporary instability in the top player's base that does not exist in either the starting or ending position. Recognizing and exploiting this window is your best defensive strategy.
 
-**Opponent's Starting Position**: [[Kesa Gatame]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ As the defender against this transition, you face a critical decision window. Th
 ### 1. Bridge and turn into opponent during hip walk phase
 
 - **When to use**: When you detect the initial hip walk forward and the top player's base is temporarily compromised between positions
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You either recover half guard by inserting your knee during the scramble or achieve a full reversal if the bridge catches them mid-transition
 - **Risk**: If too late, you end up flattened under Modified Scarf Hold with wasted energy
 
 ### 2. Extract near arm when armpit squeeze loosens during weight transfer
 
 - **When to use**: When you feel the armpit pressure on your trapped arm decrease as the top player shifts their weight from hips to chest
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: With your near arm free, you can create frames to recover half guard or full guard before Modified Scarf Hold consolidates
 - **Risk**: If extraction fails, your arm is re-trapped in a worse position under the heavier chest pressure of Modified Scarf Hold
 
 ### 3. Attack the back by turning into opponent before chest settles
 
 - **When to use**: When the top player's back is still exposed during the early phase of the transition before they drop chest weight
-- **Targets**: [[Kesa Gatame]]
+- **Targets**: [[Positions/Side Control/Kesa Gatame]]
 - **If successful**: You reach turtle position and threaten a back take, forcing the top player to abandon the transition and re-establish control
 - **Risk**: If the turn is too slow, the top player drops their chest on you mid-turn, creating even more oppressive pressure
 
 ### 4. Hip escape away during the head wrap release moment
 
 - **When to use**: When the top player releases their Kesa Gatame head wrap to transition to cross-face, creating a brief moment without head control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough space during the grip transition to insert a knee shield or recover half guard
 - **Risk**: If the cross-face is established quickly, your hip escape stalls and you are now under Modified Scarf Hold with less energy
 
@@ -224,11 +224,11 @@ As the defender against this transition, you face a critical decision window. Th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your bridge or arm extraction to the exact moment the top player's weight shifts between positions. Insert your knee across their hip during the brief instability window to recover half guard before Modified Scarf Hold consolidates.
 
-### → [[Kesa Gatame]]
+### → [[Positions/Side Control/Kesa Gatame]]
 
 Force the top player to abort the transition by bridging explosively during the hip walk phase or by turning into them to threaten the back take. A successful counter forces them to resettle into Kesa Gatame, giving you another opportunity to escape.
 

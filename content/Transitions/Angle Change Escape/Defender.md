@@ -156,7 +156,7 @@ As the gogoplata holder (bottom player), defending against the Angle Change Esca
 
 Successful defense demands constant monitoring of your opponent's hip and shoulder alignment relative to your shin. Any lateral drift signals the beginning of an angle change attempt. Your responses center on three strategies: following their angle change with hip rotation to maintain perpendicular alignment, transitioning to alternative submissions that capitalize on the space their movement creates, or tightening the closed-loop system by pulling your foot deeper behind their head before they can generate meaningful lateral displacement. The defender who reads the angle change early and responds within the first two seconds of movement will maintain submission pressure in most cases.
 
-**Opponent's Starting Position**: [[Gogoplata Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Successful defense demands constant monitoring of your opponent's hip and should
 ### 1. Follow the angle change with hip rotation - elevate hips and rotate your pelvis in the same direction as their lateral movement to maintain perpendicular shin alignment across their throat
 
 - **When to use**: Immediately upon recognizing lateral body movement before they generate significant angular displacement from your shin
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Perpendicular shin alignment is maintained and opponent remains under choking pressure, often in a worse position than before their escape attempt
 - **Risk**: If you over-rotate following their movement, you may lose base and they can reverse direction to the opposite side where you are now off-balance
 
 ### 2. Transition to triangle by releasing the gogoplata foot and immediately reconfiguring legs into triangle position as their angle change creates the arm isolation opportunity
 
 - **When to use**: When opponent's lateral movement has compromised your shin angle beyond recovery but their near-side arm has drifted away from their torso during the escape
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You secure a triangle choke that capitalizes on the arm exposure created by their angle change movement, maintaining submission threat from a different angle
 - **Risk**: If their arm stays tight to their body during the transition, you lose both the gogoplata and fail to establish the triangle, ending up in open guard
 
 ### 3. Deepen foot position behind head by pulling your own foot with both hands while driving shin pressure forward, tightening the closed-loop system before their lateral movement can generate enough angle change
 
 - **When to use**: Early in their escape attempt when you recognize the hip control hand placement but before they have initiated significant lateral body movement
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Deeper foot position behind head eliminates the shallow foot configuration that enables lateral head extraction, effectively shutting down the angle change pathway
 - **Risk**: Using both hands on your foot temporarily releases any head or arm control, potentially allowing them to accelerate their escape if your foot pull is unsuccessful
 
 ### 4. Attack the near-side arm with omoplata transition by releasing shin and using their lateral rotation momentum to swing into omoplata shoulder control on their exposed far-side arm
 
 - **When to use**: When opponent has committed fully to lateral movement with shoulders turned, exposing their far shoulder and creating the rotation angle needed for omoplata entry
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You transition from a degrading gogoplata into a high-percentage omoplata position that uses their own escape momentum against them
 - **Risk**: If they keep shoulders square during the angle change rather than rotating, omoplata entry angle is insufficient and you may end up in open guard without submission threat
 
@@ -226,11 +226,11 @@ Successful defense demands constant monitoring of your opponent's hip and should
 
 ## Best-Case Outcomes for Defender
 
-### → [[Gogoplata Control]]
+### → [[Positions/Gogoplata Control]]
 
 Follow their angle change with immediate hip rotation and elevation to maintain perpendicular shin alignment, or deepen foot position behind head before lateral movement generates meaningful displacement. The key is early recognition and response within the first two seconds of their escape initiation.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the gogoplata position is compromised beyond recovery, immediately transition to triangle, omoplata, or armbar rather than fighting to maintain a degraded shin angle. Use the space and arm exposure their escape creates as entry points for alternative submissions. If no submission materializes, recover closed guard to maintain offensive platform.
 

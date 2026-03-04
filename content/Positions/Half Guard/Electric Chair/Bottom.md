@@ -211,17 +211,17 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 
 ## Available Escapes
 
-### [[Old School Sweep]] (72% of attempts)
+### [[Transitions/Old School Sweep]] (72% of attempts)
 
-### [[Deep Half Entry]] (14% of attempts)
+### [[Transitions/Deep Half Entry]] (14% of attempts)
 
-### [[Hip Rotation Escape from Electric Chair]] (7% of attempts)
+### [[Transitions/Hip Rotation Escape from Electric Chair]] (7% of attempts)
 
-### [[Straighten Leg Defense from Electric Chair]] (3% of attempts)
+### [[Transitions/Straighten Leg Defense from Electric Chair]] (3% of attempts)
 
-### [[Sweep from Electric Chair]] (2% of attempts)
+### [[Transitions/Sweep from Electric Chair]] (2% of attempts)
 
-### [[Electric Chair Finish]] (2% of attempts)
+### [[Submissions/Electric Chair Finish]] (2% of attempts)
 
 
 
@@ -232,23 +232,23 @@ Electric Chair Bottom represents a systematic approach to bottom half guard wher
 ## Decision Making from This Position
 
 **If opponent maintains heavy forward pressure and low posture defending the electric chair:**
-- Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 70%)
-- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 60%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 60%)
 
 
 **Else if opponent postures up and attempts to extract their trapped leg:**
-- Execute **[[Electric Chair Transition]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Electric Chair Transition]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
 
 
 **Else if opponent posts their far arm to defend underhook:**
-- Execute **[[Dogfight Position]]** → [[Dogfight Position]] (Probability: 50%)
-- Execute **[[Lockdown Recovery]]** → [[Lockdown]] (Probability: 45%)
+- Execute **[[Positions/Dogfight Position]]** → [[Positions/Dogfight Position]] (Probability: 50%)
+- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 45%)
 
 
 **Else if opponent attempts to windshield wiper their leg free:**
-- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 65%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 65%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
 
 
 
@@ -382,15 +382,15 @@ Start in electric chair bottom position with all grips established. Bottom pract
 
 ## Related Positions and Techniques
 
-- **[[Lockdown]]** - Parent position - electric chair is advanced attacking variation
-- **[[Electric Chair]]** - Hub position for this perspective
-- **[[Truck]]** - Common transition target when opponent defends electric chair
-- **[[Deep Half Guard]]** - Alternative transition when electric chair is defended
-- **[[Old School]]** - Primary sweeping technique from this position
-- **[[Electric Chair Submission]]** - Primary submission threat from this position
-- **[[Banana Split]]** - Alternative name for electric chair submission finish
-- **[[Half Guard]]** - Base guard system
-- **[[Dogfight Position]]** - Transition option when underhook is strong
+- **[[Positions/Half Guard/Lockdown]]** - Parent position - electric chair is advanced attacking variation
+- **[[Positions/Half Guard/Electric Chair]]** - Hub position for this perspective
+- **[[Positions/Twister Control/Truck]]** - Common transition target when opponent defends electric chair
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative transition when electric chair is defended
+- **[[Positions/Half Guard/Old School]]** - Primary sweeping technique from this position
+- **[[Submissions/Electric Chair Submission]]** - Primary submission threat from this position
+- **[[Submissions/Banana Split]]** - Alternative name for electric chair submission finish
+- **[[Positions/Half Guard]]** - Base guard system
+- **[[Positions/Dogfight Position]]** - Transition option when underhook is strong
 
 
 </section>

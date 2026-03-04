@@ -146,7 +146,7 @@ description: "Master defending the backstep from leg weave. Recognition cues, de
 
 Defending the Backstep from Leg Weave requires early recognition of the rotational weight shift and immediate redirection of defensive frames from frontal to lateral orientation. The backstep exploits frontal defensive commitment, so the defender must avoid over-committing frames against forward pressure and maintain awareness of angular passing threats. The critical defensive window occurs during the top player's weight transfer onto the pivot leg, when their pressure momentarily lightens and their balance is in transition. Effective defense combines hook placement to catch the stepping leg, hip movement to follow the rotation, and deep half guard entries that exploit the space created when the passer's hips elevate during the pivot. Understanding the attacker's mechanical requirements allows the defender to identify and exploit the inherent vulnerabilities in the rotational passing sequence.
 
-**Opponent's Starting Position**: [[Leg Weave]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Weave]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Backstep from Leg Weave requires early recognition of the rotation
 ### 1. Hook the stepping leg with your far-side foot as it swings behind you
 
 - **When to use**: As soon as you feel the free leg lifting and beginning its arc. The hook must be inserted early in the arc before the leg clears past your body.
-- **Targets**: [[Leg Weave]]
+- **Targets**: [[Positions/Leg Weave]]
 - **If successful**: The backstep stalls mid-rotation, the passer is caught in a half-turned position and must reset to leg weave or abandon the pass attempt
 - **Risk**: If you miss the hook or it is stripped, you have delayed your other defensive responses and the pass may complete with less resistance
 
 ### 2. Dive to deep half guard by turning under the passer during the weight transfer phase
 
 - **When to use**: When you feel the passer's weight shift onto the pivot leg and their chest pressure lightens. This window is brief but exploitable if recognized early.
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: You achieve deep half guard position with sweep potential, completely reversing the passing dynamic from defensive to offensive
 - **Risk**: If the passer maintains heavy chest pressure through the rotation, the deep half entry may be smothered, leaving you flattened and worse off
 
 ### 3. Redirect frames laterally to match the backstep direction, tracking the passer's rotation with your forearms
 
 - **When to use**: When you recognize the hip rotation beginning but the stepping leg has not yet started its arc. Redirecting frames before the rotation gains momentum is essential.
-- **Targets**: [[Leg Weave]]
+- **Targets**: [[Positions/Leg Weave]]
 - **If successful**: Your frames now block the lateral passing angle, forcing the passer to either abort the backstep or fight through your redirected defensive structure
 - **Risk**: If the backstep was a feint and the passer returns to forward driving, your laterally oriented frames may be poorly positioned against renewed forward pressure
 
 ### 4. Follow the rotation by hip-escaping in the same direction as the backstep, maintaining guard connection
 
 - **When to use**: When the backstep is already in progress and hooking the leg is no longer possible. Following the rotation prevents the passer from circling around a static target.
-- **Targets**: [[Leg Weave]]
+- **Targets**: [[Positions/Leg Weave]]
 - **If successful**: You maintain guard connection by moving with the passer rather than being passed around, potentially recovering knee shield or full half guard
 - **Risk**: If you over-rotate while following, you may expose your back and convert a guard pass defense into a back take situation
 
@@ -217,11 +217,11 @@ Defending the Backstep from Leg Weave requires early recognition of the rotation
 
 ## Best-Case Outcomes for Defender
 
-### → [[Deep Half Guard]]
+### → [[Positions/Half Guard/Deep Half Guard]]
 
 Recognize the weight transfer onto the pivot leg and immediately turn under the passer, threading your body beneath their center of gravity. The backstep's hip elevation creates the space needed for deep half entry. Secure the passer's far leg with both arms and establish deep half hooks before they can sprawl back.
 
-### → [[Leg Weave]]
+### → [[Positions/Leg Weave]]
 
 Catch the stepping leg early with your far-side hook, stalling the rotation mid-arc. Alternatively, redirect your defensive frames laterally to match the new passing angle, blocking the backstep before it clears your legs. Either approach returns the position to leg weave where you retain your existing guard hooks and defensive structures.
 

@@ -21,7 +21,7 @@ Strategically, this transition functions as the primary alternative when the Aok
 
 This technique is particularly effective in no-gi competition where the absence of collar grips makes the Aoki Lock harder to finish but the slippery surface facilitates smooth transitions to the back. It represents the core principle of positional advancement over submission hunting: when your opponent gives you their back to escape a joint lock, taking the superior position often yields better finishing opportunities than the original attack.
 
-**From Position**: [[Aoki Lock]] (Top)
+**From Position**: [[Positions/Aoki Lock]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This technique is particularly effective in no-gi competition where the absence 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Aoki Lock]] | 30% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Aoki Lock]] | 30% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Aoki Lock to Back Control transition is a critical decision point in the Aok
 ## Related Techniques
 
 
-- [[Aoki Lock]] - Starting position for this transition
+- [[Positions/Aoki Lock]] - Starting position for this transition
 
-- [[Back Control]] - Target position achieved on success
+- [[Positions/Back Control]] - Target position achieved on success
 
-- [[Aoki Lock Finish]] - Alternative outcome from same starting position
+- [[Transitions/Aoki Lock Finish]] - Alternative outcome from same starting position
 
-- [[Aoki Lock to Crucifix]] - Alternative transition from Aoki Lock when far arm is exposed
+- [[Transitions/Aoki Lock to Crucifix]] - Alternative transition from Aoki Lock when far arm is exposed
 
-- [[Turtle]] - Common intermediate position during transition and counter outcome
+- [[Positions/Turtle]] - Common intermediate position during transition and counter outcome
 
-- [[Back Take from Bottom]] - Related back take technique from different starting position
+- [[Transitions/Back Take from Bottom]] - Related back take technique from different starting position
 
-- [[Rear Naked Choke]] - Primary submission follow-up after achieving back control
+- [[Transitions/Rear Naked Choke]] - Primary submission follow-up after achieving back control
 
-- [[Bow and Arrow Choke]] - High-percentage gi submission available from back control
+- [[Transitions/Bow and Arrow Choke]] - High-percentage gi submission available from back control
 
-- [[Armbar from Back]] - Alternative submission from back control
+- [[Submissions/Armbar from Back]] - Alternative submission from back control
 
-- [[Omoplata Control]] - Related shoulder lock system with similar transition concepts
+- [[Positions/Omoplata Control]] - Related shoulder lock system with similar transition concepts
 
 
 </section>

@@ -154,7 +154,7 @@ description: "Defend the S Mount to Mounted Triangle transition. Recognition cue
 
 Defending the S Mount to Mounted Triangle transition requires recognizing the setup before the leg threads under your chin and executing precise defensive actions during the narrow window between the armbar defense and triangle entry. The defender faces a fundamental dilemma: the bent-arm posture that protects against the armbar is exactly the positioning that enables the triangle. Understanding this dilemma is the first step toward resolving it. The critical defensive window occurs during the attacker's hip adjustment and leg threading phase, when their weight shifts and their leg configuration changes. This moment of transition creates brief instability that the defender can exploit through well-timed bridging, arm extraction, or framing. Passive defense in this position leads inevitably to the mounted triangle lock, so the defender must be proactive in disrupting the transition mechanics rather than waiting to defend the established position.
 
-**Opponent's Starting Position**: [[S Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/S Mount]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the S Mount to Mounted Triangle transition requires recognizing the se
 ### 1. Frame against attacker's hip with free arm to block leg threading path
 
 - **When to use**: As soon as you recognize the hip adjustment that precedes the leg thread. Your forearm against their near hip creates a structural barrier that prevents the leg from sliding under your chin.
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: The triangle entry is blocked and you remain in S Mount where you can continue armbar defense while looking for escape opportunities
 - **Risk**: If the attacker controls your framing arm, they can pin it and proceed with the triangle entry with both arms now compromised
 
 ### 2. Explosive bridge during the attacker's hip adjustment phase
 
 - **When to use**: The moment you feel the attacker's weight shift forward as they begin the hip adjustment. Their leg transition creates a window where their base is compromised between S Mount and triangle configurations.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The bridge disrupts their base during the transition, potentially sweeping them or creating enough space to recover half guard or full guard
 - **Risk**: Poorly timed bridge while the attacker's base is still solid wastes energy and may extend your trapped arm into armbar position
 
 ### 3. Extract trapped arm by pulling elbow tight to body during the transition
 
 - **When to use**: During the leg threading motion when the attacker's grip on your wrist may be loosened as they focus on the leg movement. Pull your elbow aggressively toward your hip while turning your wrist to break their grip.
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: With the arm extracted, the triangle cannot be completed and you eliminate both the triangle and armbar threats simultaneously, forcing the attacker to re-establish control
 - **Risk**: If the arm extraction fails and you straighten your arm during the attempt, you may give the attacker the arm extension they need for the armbar
 
 ### 4. Tuck chin and turn head toward trapped arm side while shrimping away
 
 - **When to use**: When the leg is already partially threaded and you cannot prevent the entry. Aggressive chin tuck reduces the space available for the choking angle while shrimping creates distance that loosens the triangle structure.
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: The triangle cannot achieve a tight lock with your chin tucked, buying time to work frames and potentially extract the arm or escape the position
 - **Risk**: If you focus only on the chin tuck without also addressing the arm position, the attacker can switch to the armbar on your still-trapped arm
 
@@ -225,11 +225,11 @@ Defending the S Mount to Mounted Triangle transition requires recognizing the se
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive bridge during the attacker's hip adjustment phase when their base is compromised between S Mount and triangle configurations. Bridge at a 45-degree angle toward their posting leg to attack their weakest base point. Follow through with hip escape to recover half guard as they are displaced.
 
-### → [[S Mount]]
+### → [[Positions/Mount/S Mount]]
 
 Frame against the attacker's hip with your free arm to physically block the leg from threading under your chin, while simultaneously extracting your trapped arm by pulling your elbow tight to your body. This prevents the triangle entry and returns to S Mount where armbar defense continues, but you have disrupted their attack chain.
 

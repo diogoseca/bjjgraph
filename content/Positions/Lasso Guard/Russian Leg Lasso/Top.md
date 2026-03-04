@@ -206,23 +206,23 @@ Russian Leg Lasso Top is the passing position against one of the most complex la
 
 ## Available Attacks
 
-### [[Lasso Guard Pass]] (24% of attempts)
+### [[Transitions/Lasso Guard Pass]] (24% of attempts)
 
-### [[Knee Slice Pass]] (12% of attempts)
+### [[Transitions/Knee Slice Pass]] (12% of attempts)
 
-### [[Toreando Pass]] (12% of attempts)
+### [[Transitions/Toreando Pass]] (12% of attempts)
 
-### [[Long Step Pass]] (12% of attempts)
+### [[Transitions/Long Step Pass]] (12% of attempts)
 
-### [[Leg Drag Pass]] (12% of attempts)
+### [[Transitions/Leg Drag Pass]] (12% of attempts)
 
-### [[Pressure Pass]] (10% of attempts)
+### [[Transitions/Pressure Pass]] (10% of attempts)
 
-### [[Back Step Pass]] (10% of attempts)
+### [[Transitions/Back Step Pass]] (10% of attempts)
 
-### [[Pass Russian Leg Lasso]] (5% of attempts)
+### [[Transitions/Pass Russian Leg Lasso]] (5% of attempts)
 
-### [[Strip Russian Leg Lasso]] (3% of attempts)
+### [[Transitions/Strip Russian Leg Lasso]] (3% of attempts)
 
 
 
@@ -233,23 +233,23 @@ Russian Leg Lasso Top is the passing position against one of the most complex la
 ## Decision Making from This Position
 
 **If opponent has strong collar and sleeve grips enhancing lasso control:**
-- Execute **[[Grip Break]]** → [[Open Guard]] (Probability: 60%)
-- Execute **[[Posture Recovery]]** → [[Standing Guard]] (Probability: 40%)
+- Execute **[[Transitions/Grip Break]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Standing Guard]] (Probability: 40%)
 
 
 **If opponent's lasso is high and tight creating immediate sweep threat:**
-- Execute **[[Sprawl Defense]]** → [[Headquarters Position]] (Probability: 55%)
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Sprawl Defense]]** → [[Positions/Headquarters Position]] (Probability: 55%)
+- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent's non-lasso leg is uncontrolled and mobile:**
-- Execute **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Probability: 55%)
-- Execute **[[Knee Slice Pass]]** → [[Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Half Guard]] (Probability: 45%)
 
 
 **If lasso grip is broken or compromised:**
-- Execute **[[Pressure Pass]]** → [[Half Guard]] (Probability: 60%)
-- Execute **[[Lasso Guard Pass]]** → [[Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Lasso Guard Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 
@@ -383,15 +383,15 @@ From standing position, partner establishes Russian Leg Lasso. Top player practi
 
 ## Related Positions and Techniques
 
-- **[[Russian Leg Lasso]]** - Parent hub position encompassing both perspectives
-- **[[Lasso Guard]]** - Parent position category - standard lasso guard passing principles apply
-- **[[Spider Guard]]** - Related gi-based open guard requiring similar grip fighting and passing strategies
-- **[[De La Riva Guard]]** - Often combined with Russian Leg Lasso requiring integrated passing approach
-- **[[Collar Sleeve Guard]]** - Shares grip configurations and can transition into Russian Leg Lasso
-- **[[Lasso Guard Pass]]** - Primary transition technique for passing this position
-- **[[Toreando Pass]]** - Alternative passing strategy working around lasso controls
-- **[[Knee Slice Pass]]** - High-percentage passing option when lasso grip is compromised
-- **[[Open Guard]]** - Parent category for understanding guard passing principles
+- **[[Positions/Lasso Guard/Russian Leg Lasso]]** - Parent hub position encompassing both perspectives
+- **[[Positions/Lasso Guard]]** - Parent position category - standard lasso guard passing principles apply
+- **[[Positions/Spider Guard]]** - Related gi-based open guard requiring similar grip fighting and passing strategies
+- **[[Positions/De La Riva Guard]]** - Often combined with Russian Leg Lasso requiring integrated passing approach
+- **[[Positions/Collar Sleeve Guard]]** - Shares grip configurations and can transition into Russian Leg Lasso
+- **[[Transitions/Lasso Guard Pass]]** - Primary transition technique for passing this position
+- **[[Transitions/Toreando Pass]]** - Alternative passing strategy working around lasso controls
+- **[[Transitions/Knee Slice Pass]]** - High-percentage passing option when lasso grip is compromised
+- **[[Positions/Open Guard]]** - Parent category for understanding guard passing principles
 
 
 </section>

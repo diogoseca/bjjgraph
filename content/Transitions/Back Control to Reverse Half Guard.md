@@ -21,7 +21,7 @@ Strategically, this transition represents a critical decision point in the back 
 
 This technique is essential for any practitioner who regularly attacks from back control, as even elite grapplers face escape attempts that compromise hook placement. Understanding the backstep to reverse half guard transforms a defensive scramble into an offensive transition, ensuring the back attacker retains positional dominance regardless of whether the original back control is maintained. The transition integrates directly into leg drag passing systems and secondary back take opportunities from reverse half guard top.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This technique is essential for any practitioner who regularly attacks from back
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Reverse Half Guard]] | 55% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Half Guard/Reverse Half Guard]] | 55% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -191,27 +191,27 @@ This transition sits at the intersection of back control retention and half guar
 ## Related Techniques
 
 
-- [[Back Control]] - Starting position from which this transition initiates when hooks are being cleared
+- [[Positions/Back Control]] - Starting position from which this transition initiates when hooks are being cleared
 
-- [[Reverse Half Guard]] - Target position achieved upon successful completion of the backstep transition
+- [[Positions/Half Guard/Reverse Half Guard]] - Target position achieved upon successful completion of the backstep transition
 
-- [[Half Guard]] - Position the defender may recover to if the transition is countered successfully
+- [[Positions/Half Guard]] - Position the defender may recover to if the transition is countered successfully
 
-- [[Crab Ride]] - Intermediate position that can be used during the backstep conversion
+- [[Positions/Crab Ride]] - Intermediate position that can be used during the backstep conversion
 
-- [[Leg Drag Pass]] - Primary follow-up passing technique from reverse half guard top
+- [[Transitions/Leg Drag Pass]] - Primary follow-up passing technique from reverse half guard top
 
-- [[Back Control Maintenance]] - Alternative to this transition when hooks can still be retained
+- [[Transitions/Back Control Maintenance]] - Alternative to this transition when hooks can still be retained
 
-- [[Back Door Escape]] - Common escape the defender uses that creates the conditions for this transition
+- [[Transitions/Back Door Escape]] - Common escape the defender uses that creates the conditions for this transition
 
-- [[Knee Slice from Half]] - Follow-up passing option from reverse half guard top position
+- [[Transitions/Knee Slice from Half]] - Follow-up passing option from reverse half guard top position
 
-- [[Side Control]] - Common end position after completing the pass from reverse half guard
+- [[Positions/Side Control]] - Common end position after completing the pass from reverse half guard
 
-- [[Turtle]] - Alternative position the defender may achieve if the transition timing is poor
+- [[Positions/Turtle]] - Alternative position the defender may achieve if the transition timing is poor
 
-- [[Body Triangle]] - Back control variation that delays the need for this transition through superior leg control
+- [[Positions/Back Control/Body Triangle]] - Back control variation that delays the need for this transition through superior leg control
 
 
 </section>

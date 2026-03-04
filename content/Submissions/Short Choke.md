@@ -26,8 +26,8 @@ Advanced practitioners use the Short Choke as both a primary finish and a setup 
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries
-**Starting Position**: [[Side Control]]
-**From Position**: [[Side Control]] (Top)
+**Starting Position**: [[Positions/Side Control]]
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -79,8 +79,8 @@ Advanced practitioners use the Short Choke as both a primary finish and a setup 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Side Control]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -229,14 +229,14 @@ Advanced practitioners use the Short Choke as both a primary finish and a setup 
 
 ## From Which Positions?
 
-- [[Side Control]]
-- [[North-South]]
-- [[Kesa Gatame]]
-- [[Scarf Hold Position]]
-- [[Modified Scarf Hold]]
-- [[Mount]]
-- [[High Mount]]
-- [[Technical Mount]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Side Control/Scarf Hold Position]]
+- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Mount]]
+- [[Positions/Mount/High Mount]]
+- [[Positions/Mount/Technical Mount]]
 
 
 </section>
@@ -245,21 +245,21 @@ Advanced practitioners use the Short Choke as both a primary finish and a setup 
 
 ## Related Submissions
 
-- [[Ezekiel Choke]]
-- [[Ezekiel from Mount]]
-- [[North-South Choke]]
-- [[Paper Cutter Choke]]
-- [[Breadcutter Choke]]
-- [[Baseball Bat Choke]]
-- [[Cross Collar Choke]]
-- [[Loop Choke]]
-- [[Bow and Arrow Choke]]
-- [[Brabo Choke]]
-- [[Darce Choke]]
-- [[Anaconda Choke]]
-- [[Arm Triangle]]
-- [[Americana from Side Control]]
-- [[Kimura from Side Control]]
+- [[Submissions/Ezekiel Choke]]
+- [[Submissions/Ezekiel from Mount]]
+- [[Transitions/North-South Choke]]
+- [[Transitions/Paper Cutter Choke]]
+- [[Transitions/Breadcutter Choke]]
+- [[Transitions/Baseball Bat Choke]]
+- [[Transitions/Cross Collar Choke]]
+- [[Submissions/Loop Choke]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Submissions/Brabo Choke]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Anaconda Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Americana from Side Control]]
+- [[Submissions/Kimura from Side Control]]
 
 
 </section>
@@ -268,17 +268,17 @@ Advanced practitioners use the Short Choke as both a primary finish and a setup 
 
 ## Additional Related Content
 
-- [[Side Control]] - Primary attacking position for Short Choke setup
-- [[North-South]] - Alternative top position for Short Choke variation with perpendicular alignment
-- [[Kesa Gatame]] - Traditional scarf hold position offering Short Choke opportunities
-- [[Americana from Side Control]] - Common submission used to set up Short Choke when opponent defends
-- [[Mount]] - Alternative position for mounted Short Choke variation
-- [[Ezekiel Choke]] - Similar sleeve-based choke with different mechanics from top positions
-- [[Paper Cutter Choke]] - Closely related technique using opponent's collar instead of own lapel
-- [[Back Control]] - Position to transition to when opponent turns away from Short Choke pressure
-- [[Kimura from Side Control]] - Complementary submission that opens Short Choke opportunities when defended
-- [[Breadcutter Choke]] - Related lapel choke with similar cross-collar pressure mechanics
-- [[High Mount]] - Superior mounted position for Short Choke variation with better arm isolation
+- [[Positions/Side Control]] - Primary attacking position for Short Choke setup
+- [[Positions/North-South]] - Alternative top position for Short Choke variation with perpendicular alignment
+- [[Positions/Side Control/Kesa Gatame]] - Traditional scarf hold position offering Short Choke opportunities
+- [[Submissions/Americana from Side Control]] - Common submission used to set up Short Choke when opponent defends
+- [[Positions/Mount]] - Alternative position for mounted Short Choke variation
+- [[Submissions/Ezekiel Choke]] - Similar sleeve-based choke with different mechanics from top positions
+- [[Transitions/Paper Cutter Choke]] - Closely related technique using opponent's collar instead of own lapel
+- [[Positions/Back Control]] - Position to transition to when opponent turns away from Short Choke pressure
+- [[Submissions/Kimura from Side Control]] - Complementary submission that opens Short Choke opportunities when defended
+- [[Transitions/Breadcutter Choke]] - Related lapel choke with similar cross-collar pressure mechanics
+- [[Positions/Mount/High Mount]] - Superior mounted position for Short Choke variation with better arm isolation
 
 
 </section>

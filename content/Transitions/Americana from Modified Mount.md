@@ -21,7 +21,7 @@ This submission targets the shoulder joint through external rotation, using a fi
 
 Strategically, the Americana from Modified Mount creates a submission dilemma that integrates with the broader mount attacking system. When the defender straightens their arm to resist the wrist pin, they expose themselves to armbar transitions through S Mount. When they keep their arm tight to prevent the Americana, they limit their escape options and allow the attacker to maintain dominant control while searching for alternative entries. This threat multiplication makes the Americana a cornerstone of the Modified Mount submission game.
 
-**From Position**: [[Modified Mount]] (Top)
+**From Position**: [[Positions/Mount/Modified Mount]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -33,8 +33,8 @@ Strategically, the Americana from Modified Mount creates a submission dilemma th
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Modified Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Mount/Modified Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Americana from Modified Mount integrates into the broader mount submission s
 ## Related Techniques
 
 
-- [[Modified Mount]] - Source position providing the asymmetric stability platform for this submission
+- [[Positions/Mount/Modified Mount]] - Source position providing the asymmetric stability platform for this submission
 
-- [[Half Guard]] - Counter outcome position when opponent successfully reverses during the submission attempt
+- [[Positions/Half Guard]] - Counter outcome position when opponent successfully reverses during the submission attempt
 
-- [[Americana from Mount]] - Related Americana variation from standard mount with similar mechanics but different base dynamics
+- [[Submissions/Americana from Mount]] - Related Americana variation from standard mount with similar mechanics but different base dynamics
 
-- [[Americana from Technical Mount]] - Related Americana variation from technical mount position
+- [[Submissions/Americana from Technical Mount]] - Related Americana variation from technical mount position
 
-- [[Armbar from High Mount]] - Alternative submission accessible when opponent straightens arm to defend Americana
+- [[Submissions/Armbar from High Mount]] - Alternative submission accessible when opponent straightens arm to defend Americana
 
-- [[Mount]] - Parent position providing foundational mount control principles
+- [[Positions/Mount]] - Parent position providing foundational mount control principles
 
-- [[S Mount]] - Mount variation accessible as chain attack when Americana defense exposes the arm
+- [[Positions/Mount/S Mount]] - Mount variation accessible as chain attack when Americana defense exposes the arm
 
-- [[Kimura from Shoulder of Justice]] - Related shoulder lock using opposite rotational direction on the same joint
+- [[Submissions/Kimura from Shoulder of Justice]] - Related shoulder lock using opposite rotational direction on the same joint
 
-- [[High Mount]] - Advancement option when Americana setup is difficult or opponent defends effectively
+- [[Positions/Mount/High Mount]] - Advancement option when Americana setup is difficult or opponent defends effectively
 
-- [[Americana from Kesa Gatame]] - Related Americana variation from side control pinning position with different leverage angles
+- [[Submissions/Americana from Kesa Gatame]] - Related Americana variation from side control pinning position with different leverage angles
 
 
 </section>

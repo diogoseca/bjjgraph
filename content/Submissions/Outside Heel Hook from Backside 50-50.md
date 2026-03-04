@@ -26,8 +26,8 @@ This submission demands absolute respect for its injury potential. Rotational fo
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Knee and ankle joint
-**Starting Position**: [[Backside 50-50]]
-**From Position**: [[Backside 50-50]] (Top)
+**Starting Position**: [[Positions/Ashi Garami/Backside 50-50]]
+**From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -82,9 +82,9 @@ This submission demands absolute respect for its injury potential. Rotational fo
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Backside 50-50]] | 30% |
-| Counter | [[50-50 Guard]] | 15% |
-| Counter | [[Open Guard]] | 10% |
+| Failure | [[Positions/Ashi Garami/Backside 50-50]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -232,9 +232,9 @@ This submission demands absolute respect for its injury potential. Rotational fo
 
 ## From Which Positions?
 
-- [[Backside 50-50]]
-- [[50-50 Guard]]
-- [[Outside Ashi-Garami]]
+- [[Positions/Ashi Garami/Backside 50-50]]
+- [[Positions/Ashi Garami/50-50 Guard]]
+- [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 
 </section>
@@ -243,14 +243,14 @@ This submission demands absolute respect for its injury potential. Rotational fo
 
 ## Related Submissions
 
-- [[Inside Heel Hook]]
-- [[Inside Heel Hook from Honey Hole]]
-- [[Heel Hook from Saddle]]
-- [[Heel Hook from Ushiro Ashi]]
-- [[Inside Sankaku Heel Hook Finish]]
-- [[Calf Slicer from 50-50]]
-- [[Aoki Lock Finish]]
-- [[Ankle Lock from X-Guard]]
+- [[Submissions/Inside Heel Hook]]
+- [[Transitions/Inside Heel Hook from Honey Hole]]
+- [[Transitions/Heel Hook from Saddle]]
+- [[Submissions/Heel Hook from Ushiro Ashi]]
+- [[Submissions/Inside Sankaku Heel Hook Finish]]
+- [[Submissions/Calf Slicer from 50-50]]
+- [[Transitions/Aoki Lock Finish]]
+- [[Submissions/Ankle Lock from X-Guard]]
 
 
 </section>
@@ -259,14 +259,14 @@ This submission demands absolute respect for its injury potential. Rotational fo
 
 ## Additional Related Content
 
-- [[Backside 50-50]] - Primary starting position providing the positional platform for this submission
-- [[50-50 Guard]] - Standard face-to-face variant that can be converted to backside angle for this attack
-- [[Outside Ashi-Garami]] - Related leg entanglement position with similar outside heel hook mechanics
-- [[Inside Heel Hook]] - Complementary heel hook targeting opposite rotational direction from similar positions
-- [[Saddle]] - Alternative dominant leg entanglement reachable from backside 50-50 when heel is defended
-- [[Honey Hole]] - Advanced leg entanglement sharing similar finishing mechanics and transitions
-- [[Inside Ashi-Garami]] - Related ashi garami variation accessible through leg entanglement transitions
-- [[Back Control]] - Alternative positional advancement from backside 50-50 when leg attacks are defended
+- [[Positions/Ashi Garami/Backside 50-50]] - Primary starting position providing the positional platform for this submission
+- [[Positions/Ashi Garami/50-50 Guard]] - Standard face-to-face variant that can be converted to backside angle for this attack
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related leg entanglement position with similar outside heel hook mechanics
+- [[Submissions/Inside Heel Hook]] - Complementary heel hook targeting opposite rotational direction from similar positions
+- [[Positions/Ashi Garami/Saddle]] - Alternative dominant leg entanglement reachable from backside 50-50 when heel is defended
+- [[Positions/Ashi Garami/Honey Hole]] - Advanced leg entanglement sharing similar finishing mechanics and transitions
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related ashi garami variation accessible through leg entanglement transitions
+- [[Positions/Back Control]] - Alternative positional advancement from backside 50-50 when leg attacks are defended
 
 
 </section>

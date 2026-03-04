@@ -180,7 +180,7 @@ description: "Execute the Rubber Guard posture escape from top position. Step-by
 
 As the attacker executing this escape, you are the top player trapped in your opponent's Rubber Guard with broken posture and one arm isolated. Your objective is to systematically dismantle the Rubber Guard control configuration by creating frames with your free hand, disrupting the leg positioning that maintains the arm trap, extracting your trapped arm through circular motion rather than linear pulling, and recovering full upright posture to re-engage from open guard top. The escape requires patience and technical precision because explosive movements trigger the submission chains the Rubber Guard system is designed to exploit. Every defensive action must address the opponent's control hierarchy in the correct sequence: first neutralize the leg control, then free the arm, then recover posture.
 
-**From Position**: [[Rubber Guard]] (Top)
+**From Position**: [[Positions/Rubber Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing this escape, you are the top player trapped in your op
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Rubber Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Rubber Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing this escape, you are the top player trapped in your op
 
 ## Opponent Counters
 
-- **Opponent tightens leg grip and re-pulls posture down during arm extraction attempt** (Effectiveness: High) - Your Response: Pause the arm extraction and reinforce the free hand frame on their knee. Push the controlling leg down more aggressively before reattempting the circular arm extraction. Do not fight the pull directly as this exhausts energy rapidly. → Leads to [[Rubber Guard]]
-- **Opponent transitions to triangle setup by releasing arm trap and shooting legs up** (Effectiveness: High) - Your Response: Immediately posture up explosively the moment the arm is freed and tuck the chin to prevent the triangle lock from closing. Drive the freed arm across their body to the opposite side to prevent proper triangle angle alignment. → Leads to [[Rubber Guard]]
-- **Opponent uses hip bump or bridge timing to sweep during posture recovery** (Effectiveness: Medium) - Your Response: Widen your base by spreading your knees and posting the free hand when you feel the sweep attempt initiating. Lower your center of gravity rather than continuing upward posture recovery during the sweep attempt. → Leads to [[Half Guard]]
-- **Opponent transitions to omoplata by rotating hips and attacking the trapped shoulder** (Effectiveness: Medium) - Your Response: Keep the trapped elbow tight to your body and drive forward pressure into the opponent to prevent the hip rotation needed for omoplata completion. If rotation begins, posture up immediately and roll forward to clear the leg. → Leads to [[Rubber Guard]]
+- **Opponent tightens leg grip and re-pulls posture down during arm extraction attempt** (Effectiveness: High) - Your Response: Pause the arm extraction and reinforce the free hand frame on their knee. Push the controlling leg down more aggressively before reattempting the circular arm extraction. Do not fight the pull directly as this exhausts energy rapidly. → Leads to [[Positions/Rubber Guard]]
+- **Opponent transitions to triangle setup by releasing arm trap and shooting legs up** (Effectiveness: High) - Your Response: Immediately posture up explosively the moment the arm is freed and tuck the chin to prevent the triangle lock from closing. Drive the freed arm across their body to the opposite side to prevent proper triangle angle alignment. → Leads to [[Positions/Rubber Guard]]
+- **Opponent uses hip bump or bridge timing to sweep during posture recovery** (Effectiveness: Medium) - Your Response: Widen your base by spreading your knees and posting the free hand when you feel the sweep attempt initiating. Lower your center of gravity rather than continuing upward posture recovery during the sweep attempt. → Leads to [[Positions/Half Guard]]
+- **Opponent transitions to omoplata by rotating hips and attacking the trapped shoulder** (Effectiveness: Medium) - Your Response: Keep the trapped elbow tight to your body and drive forward pressure into the opponent to prevent the hip rotation needed for omoplata completion. If rotation begins, posture up immediately and roll forward to clear the leg. → Leads to [[Positions/Rubber Guard]]
 
 
 </section>

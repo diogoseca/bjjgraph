@@ -201,17 +201,17 @@ The Rubber Guard from the top perspective represents one of the most challenging
 
 ## Available Attacks
 
-### [[Posture Recovery]] (30% of attempts)
+### [[Transitions/Posture Recovery]] (30% of attempts)
 
-### [[Rubber Guard Clear to Pass]] (23% of attempts)
+### [[Transitions/Rubber Guard Clear to Pass]] (23% of attempts)
 
-### [[Arm Extraction]] (19% of attempts)
+### [[Transitions/Arm Extraction]] (19% of attempts)
 
-### [[Stack Pass]] (14% of attempts)
+### [[Transitions/Stack Pass]] (14% of attempts)
 
-### [[Pressure Pass]] (9% of attempts)
+### [[Transitions/Pressure Pass]] (9% of attempts)
 
-### [[Rubber Guard Top Posture Escape]] (5% of attempts)
+### [[Transitions/Rubber Guard Top Posture Escape]] (5% of attempts)
 
 
 
@@ -222,23 +222,23 @@ The Rubber Guard from the top perspective represents one of the most challenging
 ## Decision Making from This Position
 
 **If trapped in established Rubber Guard with posture severely compromised:**
-- Execute **[[Posture Recovery]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Arm Extraction]]** → [[Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Open Guard]] (Probability: 40%)
 
 
 **If bottom player attempts to advance to New York or Invisible Collar:**
-- Execute **[[Rubber Guard Clear to Pass]]** → [[Combat Base]] (Probability: 50%)
-- Execute **[[Arm Extraction]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Rubber Guard Clear to Pass]]** → [[Positions/Combat Base]] (Probability: 50%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If bottom player overextends for submission creating space:**
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 48%)
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If able to extract trapped arm and create distance successfully:**
-- Execute **[[Posture Recovery]]** → [[Combat Base]] (Probability: 60%)
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Combat Base]] (Probability: 60%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 
@@ -340,12 +340,12 @@ Start in closed guard with good posture. Partner attempts to break posture and e
 
 ## Related Positions and Techniques
 
-- **[[Closed Guard]]** - Target position after recovering from Rubber Guard control and reestablishing posture
-- **[[Combat Base]]** - Defensive position providing stability for guard opening after escaping Rubber Guard
-- **[[Side Control]]** - Objective position achieved through successful guard passing after Rubber Guard escape
-- **[[Triangle Control]]** - Primary submission threat when defending Rubber Guard requiring specific defensive protocols
-- **[[Omoplata Control]]** - Secondary submission threat particularly from New York position requiring awareness and counters
-- **[[Mission Control]]** - Primary Rubber Guard position that must be understood to defend effectively from top
+- **[[Positions/Closed Guard]]** - Target position after recovering from Rubber Guard control and reestablishing posture
+- **[[Positions/Combat Base]]** - Defensive position providing stability for guard opening after escaping Rubber Guard
+- **[[Positions/Side Control]]** - Objective position achieved through successful guard passing after Rubber Guard escape
+- **[[Positions/Triangle Control]]** - Primary submission threat when defending Rubber Guard requiring specific defensive protocols
+- **[[Positions/Omoplata Control]]** - Secondary submission threat particularly from New York position requiring awareness and counters
+- **[[Positions/Rubber Guard/Mission Control]]** - Primary Rubber Guard position that must be understood to defend effectively from top
 
 
 </section>

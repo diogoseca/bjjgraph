@@ -212,27 +212,27 @@ Successful inverted lasso guard bottom requires understanding that inversion is 
 
 ## Available Escapes
 
-### [[Berimbolo Entry]] (37% of attempts)
+### [[Transitions/Berimbolo Entry]] (37% of attempts)
 
-### [[Kiss of the Dragon]] (11% of attempts)
+### [[Transitions/Kiss of the Dragon]] (11% of attempts)
 
-### [[Triangle Setup]] (6% of attempts)
+### [[Transitions/Triangle Setup]] (6% of attempts)
 
-### [[Omoplata Sweep]] (8% of attempts)
+### [[Transitions/Omoplata Sweep]] (8% of attempts)
 
-### [[Sickle Sweep]] (4% of attempts)
+### [[Transitions/Sickle Sweep]] (4% of attempts)
 
-### [[Single Leg X Entry]] (8% of attempts)
+### [[Transitions/Single Leg X Entry]] (8% of attempts)
 
-### [[De La Riva Sweep]] (6% of attempts)
+### [[Transitions/De La Riva Sweep]] (6% of attempts)
 
-### [[Balloon Sweep]] (12% of attempts)
+### [[Transitions/Balloon Sweep]] (12% of attempts)
 
-### [[Tomoe Nage]] (5% of attempts)
+### [[Transitions/Tomoe Nage]] (5% of attempts)
 
-### [[Inverted Lasso Sweep]] (2% of attempts)
+### [[Transitions/Inverted Lasso Sweep]] (2% of attempts)
 
-### [[Inverted Lasso to Lasso Guard]] (1% of attempts)
+### [[Transitions/Inverted Lasso to Lasso Guard]] (1% of attempts)
 
 
 
@@ -243,23 +243,23 @@ Successful inverted lasso guard bottom requires understanding that inversion is 
 ## Decision Making from This Position
 
 **If opponent maintains upright posture with weight back, resisting the inversion:**
-- Execute **[[Hip Bump Sweep V2]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Hip Bump Sweep V2]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
 
 
 **If opponent posts hand near hip or drives forward to prevent sweep:**
-- Execute **[[Berimbolo Entry]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Kiss of the Dragon]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Kiss of the Dragon]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent attempts to extract lassoed arm by pulling back:**
-- Execute **[[Omoplata Sweep]]** → [[Omoplata Control]] (Probability: 65%)
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 65%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
 
 
 **If opponent stands up or creates significant distance:**
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 60%)
-- Execute **[[De La Riva Sweep]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 60%)
+- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 
@@ -398,15 +398,15 @@ Bottom player alternates between upright lasso guard and inverted lasso continuo
 
 ## Related Positions and Techniques
 
-- **[[Lasso Guard]]** - Parent position - traditional lasso guard is the foundation for inverted variation
-- **[[Spider Guard]]** - Entry position - commonly transition from spider to inverted lasso
-- **[[Inverted Guard]]** - Related position - shares inverted body mechanics and flexibility requirements
-- **[[Berimbolo Entry]]** - Primary technique - inverted lasso creates ideal berimbolo angles
-- **[[De La Riva Guard]]** - Complementary guard - similar hip positioning and sweep mechanics
-- **[[X-Guard]]** - Transition destination - many sweeps end in X-guard position
-- **[[Back Control]]** - Offensive target - berimbolo and kiss of the dragon lead to back
-- **[[Triangle Control]]** - Submission option - inverted position enables triangle entries
-- **[[Omoplata Control]]** - Shoulder lock entry - natural submission from inverted lasso
+- **[[Positions/Lasso Guard]]** - Parent position - traditional lasso guard is the foundation for inverted variation
+- **[[Positions/Spider Guard]]** - Entry position - commonly transition from spider to inverted lasso
+- **[[Positions/Inverted Guard]]** - Related position - shares inverted body mechanics and flexibility requirements
+- **[[Transitions/Berimbolo Entry]]** - Primary technique - inverted lasso creates ideal berimbolo angles
+- **[[Positions/De La Riva Guard]]** - Complementary guard - similar hip positioning and sweep mechanics
+- **[[Positions/X-Guard]]** - Transition destination - many sweeps end in X-guard position
+- **[[Positions/Back Control]]** - Offensive target - berimbolo and kiss of the dragon lead to back
+- **[[Positions/Triangle Control]]** - Submission option - inverted position enables triangle entries
+- **[[Positions/Omoplata Control]]** - Shoulder lock entry - natural submission from inverted lasso
 
 
 </section>

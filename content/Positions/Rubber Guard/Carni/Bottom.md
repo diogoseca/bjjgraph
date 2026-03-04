@@ -213,23 +213,23 @@ The technical requirements for effective Carni play from bottom include precise 
 
 ## Available Escapes
 
-### [[Heel Hook]] (12% of attempts)
+### [[Transitions/Heel Hook]] (12% of attempts)
 
-### [[Saddle Entry from Top]] (17% of attempts)
+### [[Transitions/Saddle Entry from Top]] (17% of attempts)
 
-### [[Rolling Back Take]] (11% of attempts)
+### [[Transitions/Rolling Back Take]] (11% of attempts)
 
-### [[Roll to Truck]] (12% of attempts)
+### [[Transitions/Roll to Truck]] (12% of attempts)
 
-### [[Calf Slicer]] (11% of attempts)
+### [[Transitions/Calf Slicer]] (11% of attempts)
 
-### [[Outside Ashi Entry]] (12% of attempts)
+### [[Transitions/Outside Ashi Entry]] (12% of attempts)
 
-### [[Kneebar Finish]] (11% of attempts)
+### [[Transitions/Kneebar Finish]] (11% of attempts)
 
-### [[Side Control to North-South]] (9% of attempts)
+### [[Transitions/Side Control to North-South]] (9% of attempts)
 
-### [[Carni to Gogoplata Setup]] (5% of attempts)
+### [[Transitions/Carni to Gogoplata Setup]] (5% of attempts)
 
 
 
@@ -240,28 +240,28 @@ The technical requirements for effective Carni play from bottom include precise 
 ## Decision Making from This Position
 
 **If opponent pulls knee toward chest and creates defensive ball to protect heel:**
-- Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 70%)
-- Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
+- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
 
 
 **If opponent attempts to roll away or spin to extract trapped leg:**
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Roll to Truck]]** → [[Truck]] (Probability: 60%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 60%)
 
 
 **If opponent turns belly down to defend heel exposure:**
-- Execute **[[Roll to Truck]]** → [[Truck]] (Probability: 75%)
-- Execute **[[Calf Slicer]]** → [[Truck]] (Probability: 55%)
+- Execute **[[Transitions/Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 75%)
+- Execute **[[Transitions/Calf Slicer]]** → [[Positions/Twister Control/Truck]] (Probability: 55%)
 
 
 **If opponent extends leg and attempts to create distance:**
-- Execute **[[Heel Hook]]** → [[Heel Hook]] (Probability: 70%)
-- Execute **[[Kneebar Finish]]** → [[Kneebar Control]] (Probability: 60%)
+- Execute **[[Transitions/Heel Hook]]** → [[Transitions/Heel Hook]] (Probability: 70%)
+- Execute **[[Transitions/Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 60%)
 
 
 **If opponent establishes upper body pressure and attempts to stack:**
-- Execute **[[Granby Roll to Guard]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 45%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 45%)
 
 
 
@@ -407,18 +407,18 @@ Start from Carni position with clear rules: if heel is defended, transition to s
 
 ## Related Positions and Techniques
 
-- **[[Ashi Garami]]** - Entry position - standard leg entanglement from which Carni is often accessed
-- **[[Single Leg X-Guard]]** - Entry position - common starting point for Carni entries with inside leg positioning
-- **[[Saddle]]** - Primary advancement target - most common transition when opponent defends heel
-- **[[Truck]]** - Back exposure transition - accessed when opponent turns belly down
-- **[[Back Control]]** - Alternative finish position - taken when opponent rolls to defend leg attack
-- **[[Outside Ashi-Garami]]** - Related entanglement - alternative leg position with different attack angles
-- **[[Reverse De La Riva Guard]]** - Entry position - common guard to initiate Carni entries
-- **[[Inside Ashi-Garami]]** - Related control position - shares similar leg entanglement principles
-- **[[Heel Hook]]** - Primary submission - most common finish from Carni position
-- **[[Calf Slicer from Truck]]** - Secondary submission - accessed via truck transition from Carni
-- **[[Kneebar]]** - Alternative submission - opportunistic finish when opponent extends leg
-- **[[Honey Hole]]** - Related finishing position - alternative leg entanglement for submissions
+- **[[Positions/Ashi Garami]]** - Entry position - standard leg entanglement from which Carni is often accessed
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Entry position - common starting point for Carni entries with inside leg positioning
+- **[[Positions/Ashi Garami/Saddle]]** - Primary advancement target - most common transition when opponent defends heel
+- **[[Positions/Twister Control/Truck]]** - Back exposure transition - accessed when opponent turns belly down
+- **[[Positions/Back Control]]** - Alternative finish position - taken when opponent rolls to defend leg attack
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Related entanglement - alternative leg position with different attack angles
+- **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Entry position - common guard to initiate Carni entries
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Related control position - shares similar leg entanglement principles
+- **[[Transitions/Heel Hook]]** - Primary submission - most common finish from Carni position
+- **[[Submissions/Calf Slicer from Truck]]** - Secondary submission - accessed via truck transition from Carni
+- **[[Transitions/Kneebar]]** - Alternative submission - opportunistic finish when opponent extends leg
+- **[[Positions/Ashi Garami/Honey Hole]]** - Related finishing position - alternative leg entanglement for submissions
 
 
 </section>

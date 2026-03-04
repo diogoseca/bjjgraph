@@ -158,7 +158,7 @@ The most dangerous aspect of this transition from the defender's perspective is 
 
 Successful defense relies on three pillars: early recognition of the transition attempt, aggressive exploitation of the control gap when the outside leg releases, and disciplined leg retraction mechanics that protect your heel throughout the escape. Advanced defenders also develop the ability to convert defensive movement into counter-entanglement opportunities, turning the attacker's transitional vulnerability into your own leg attack entries.
 
-**Opponent's Starting Position**: [[Inside Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Successful defense relies on three pillars: early recognition of the transition 
 ### 1. Retract trapped leg aggressively during the outside leg release window by driving your knee toward your chest and pulling your heel tight to your hip
 
 - **When to use**: The moment you feel the attacker's outside leg hook release from behind your knee, before they can thread it across to the crossed position
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You extract your leg from the entanglement entirely and recover to open guard where you can re-establish defensive positioning
 - **Risk**: If you fail to fully extract, the attacker may recapture in a tighter configuration or immediately threaten heel hook during your attempted escape
 
 ### 2. Sit up explosively and establish frames on attacker's shoulders and inside leg while they are focused on leg reconfiguration
 
 - **When to use**: When the attacker begins retracting their outside leg and their focus shifts to leg positioning rather than controlling your upper body posture
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You prevent the transition from completing and force the attacker back to Inside Ashi where your defensive positioning is stronger and escape options are more numerous
 - **Risk**: If attacker maintains strong heel grip, sitting up can expose your heel further and accelerate the submission threat
 
 ### 3. Turn into the entanglement and enter your own leg attack by threading your free leg around the attacker's exposed inside leg
 
 - **When to use**: When attacker commits to the transition and their inside leg becomes accessible as they focus on completing the outside leg cross
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You establish your own Inside Ashi-Garami on the attacker's leg, creating a mutual entanglement exchange where you have offensive options
 - **Risk**: Turning into the entanglement can accelerate heel hook exposure if your timing is poor or the attacker abandons the transition to finish immediately
 
 ### 4. Strip the attacker's heel grip with aggressive two-on-one hand fighting while simultaneously pushing their inside leg off your hip with your free leg
 
 - **When to use**: Early in the transition before the attacker can secure the crossed configuration, when their grip may be adjusting during the positional change
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Without heel control, the attacker cannot threaten submissions and the leg transition becomes purely positional, giving you time to extract your leg
 - **Risk**: Committing both hands to grip fighting leaves you vulnerable if the attacker has already secured a deep grip that you cannot break
 
@@ -229,11 +229,11 @@ Successful defense relies on three pillars: early recognition of the transition 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Extract your trapped leg during the outside leg release window by retracting forcefully while framing on attacker's hip with your free leg. Strip their heel grip with two-on-one hand fighting if possible. The key window is the 1-2 seconds when the attacker's outside leg is between positions and total leg control is at its weakest.
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Prevent the transition from completing by sitting up aggressively and establishing upper body frames the moment the outside leg begins moving. Push the attacker's inside leg off your hip while keeping your knee bent to deny heel exposure. This forces the exchange back to Inside Ashi where your defensive options are more developed.
 

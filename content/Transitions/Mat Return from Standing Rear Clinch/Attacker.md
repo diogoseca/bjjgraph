@@ -182,7 +182,7 @@ As the attacker executing the mat return, your objective is to transition your o
 
 The key tactical advantage of the mat return over other takedown options from standing rear clinch is control preservation. Unlike throws or trips that create momentary separation, the mat return maintains continuous chest-to-back contact and grip integrity throughout the descent. This means you arrive on the ground already in dominant position rather than needing to re-establish control after landing. Your primary challenge is breaking the opponent's base sufficiently to initiate the descent while maintaining the grip structure that keeps you attached to their back throughout the entire movement.
 
-**From Position**: [[Standing Rear Clinch]] (Top)
+**From Position**: [[Positions/Standing Rear Clinch]] (Top)
 
 </section>
 
@@ -235,11 +235,11 @@ The key tactical advantage of the mat return over other takedown options from st
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Success | [[Turtle]] | 10% |
-| Failure | [[Standing Rear Clinch]] | 20% |
-| Counter | [[Scramble Position]] | 10% |
-| Counter | [[Clinch]] | 5% |
+| Success | [[Positions/Back Control]] | 55% |
+| Success | [[Positions/Turtle]] | 10% |
+| Failure | [[Positions/Standing Rear Clinch]] | 20% |
+| Counter | [[Positions/Scramble Position]] | 10% |
+| Counter | [[Positions/Clinch]] | 5% |
 
 
 </section>
@@ -248,10 +248,10 @@ The key tactical advantage of the mat return over other takedown options from st
 
 ## Opponent Counters
 
-- **Opponent widens base and sprawls hips forward to resist being pulled down** (Effectiveness: High) - Your Response: Switch to a trip-assisted mat return by hooking the inside of their near leg while maintaining bodylock, removing the base point they are relying on. Alternatively, increase forward pressure to collapse their widened stance before re-attempting the sit-through. → Leads to [[Standing Rear Clinch]]
-- **Opponent executes aggressive two-on-one grip fighting to strip your bodylock during descent** (Effectiveness: Medium) - Your Response: Pulse your grip tighter and accelerate the descent speed to complete the takedown before the grip fully breaks. If the grip does break, immediately transition to a single-arm drag or re-establish the clinch before separation occurs. → Leads to [[Scramble Position]]
-- **Opponent turns into you during the descent to face you and establish clinch** (Effectiveness: Medium) - Your Response: Follow the turn by circling in the same direction and use their rotational momentum to snap them down to a front headlock. Alternatively, if you maintain partial back control, convert to a guillotine or front headlock position rather than fighting to keep the back. → Leads to [[Clinch]]
-- **Opponent posts hand on mat during descent and hip escapes to prevent hook insertion** (Effectiveness: Medium) - Your Response: Drive forward pressure through your chest to flatten them past their posting arm, collapsing their frame. If they achieve turtle, immediately transition to standard turtle attacking by securing a seatbelt and working to re-insert hooks from the top position. → Leads to [[Turtle]]
+- **Opponent widens base and sprawls hips forward to resist being pulled down** (Effectiveness: High) - Your Response: Switch to a trip-assisted mat return by hooking the inside of their near leg while maintaining bodylock, removing the base point they are relying on. Alternatively, increase forward pressure to collapse their widened stance before re-attempting the sit-through. → Leads to [[Positions/Standing Rear Clinch]]
+- **Opponent executes aggressive two-on-one grip fighting to strip your bodylock during descent** (Effectiveness: Medium) - Your Response: Pulse your grip tighter and accelerate the descent speed to complete the takedown before the grip fully breaks. If the grip does break, immediately transition to a single-arm drag or re-establish the clinch before separation occurs. → Leads to [[Positions/Scramble Position]]
+- **Opponent turns into you during the descent to face you and establish clinch** (Effectiveness: Medium) - Your Response: Follow the turn by circling in the same direction and use their rotational momentum to snap them down to a front headlock. Alternatively, if you maintain partial back control, convert to a guillotine or front headlock position rather than fighting to keep the back. → Leads to [[Positions/Clinch]]
+- **Opponent posts hand on mat during descent and hip escapes to prevent hook insertion** (Effectiveness: Medium) - Your Response: Drive forward pressure through your chest to flatten them past their posting arm, collapsing their frame. If they achieve turtle, immediately transition to standard turtle attacking by securing a seatbelt and working to re-insert hooks from the top position. → Leads to [[Positions/Turtle]]
 
 
 </section>

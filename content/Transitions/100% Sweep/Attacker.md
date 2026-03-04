@@ -186,7 +186,7 @@ description: "How to execute the 100% Sweep in BJJ. Attacking perspective with s
 
 The 100% Sweep is an advanced closed guard technique that reverses position from bottom to top by isolating the opponent's arm and using precise hip movement. This sweep exemplifies the principle of limb isolation to create sweeping leverage, demonstrating how technical control can overcome strength. The technique starts from closed guard bottom with the practitioner trapping one of the opponent's arms across their body while simultaneously breaking their posture and creating an optimal angle through hip movement. The 100% Sweep is particularly effective against opponents who posture aggressively or attempt to break the guard, making it a high-percentage competition technique. Success requires excellent timing, proper arm control, and dynamic hip mobility to roll the opponent over their trapped arm and shoulder. This sweep is essential for advanced practitioners developing a sophisticated closed guard game and understanding the mechanics of limb isolation sweeps.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -243,9 +243,9 @@ The 100% Sweep is an advanced closed guard technique that reverses position from
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 50% |
-| Failure | [[Closed Guard]] | 35% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Mount]] | 50% |
+| Failure | [[Positions/Closed Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -254,10 +254,10 @@ The 100% Sweep is an advanced closed guard technique that reverses position from
 
 ## Opponent Counters
 
-- **Posture Recovery - opponent regains upright posture before arm trap is secured** (Effectiveness: High) - Your Response: If they recover posture early, maintain arm trap and chain to another closed guard attack like triangle or omoplata. You can also wait for them to lean forward again before re-attempting the sweep, or use their upright posture to attack with hip bump sweep. → Leads to [[Closed Guard]]
-- **Arm Freeing - opponent pulls trapped arm free from control with strong grip break** (Effectiveness: Medium) - Your Response: If they free their arm, immediately transition to two-on-one control on their remaining arm or switch to a different guard attack like Hip Bump Sweep or Scissor Sweep. Use their arm freeing motion as an opportunity to set up a different sweep or submission. → Leads to [[Closed Guard]]
-- **Base Widening - opponent lowers center of gravity and widens base to resist roll** (Effectiveness: Medium) - Your Response: If they widen their base, adjust your hip angle more aggressively to create additional leverage or use their lowered posture to transition to kimura or guillotine attacks. Their defensive base widening often opens submission opportunities on the posting arm. → Leads to [[Closed Guard]]
-- **Counter Pass - opponent uses your open guard during sweep attempt to initiate a passing sequence** (Effectiveness: Low) - Your Response: If they attempt a counter pass, immediately re-close your guard or transition to open guard retention with feet on hips. If you've committed too deeply, frame against their shoulder and hip escape to re-establish guard before they consolidate top position. → Leads to [[Side Control]]
+- **Posture Recovery - opponent regains upright posture before arm trap is secured** (Effectiveness: High) - Your Response: If they recover posture early, maintain arm trap and chain to another closed guard attack like triangle or omoplata. You can also wait for them to lean forward again before re-attempting the sweep, or use their upright posture to attack with hip bump sweep. → Leads to [[Positions/Closed Guard]]
+- **Arm Freeing - opponent pulls trapped arm free from control with strong grip break** (Effectiveness: Medium) - Your Response: If they free their arm, immediately transition to two-on-one control on their remaining arm or switch to a different guard attack like Hip Bump Sweep or Scissor Sweep. Use their arm freeing motion as an opportunity to set up a different sweep or submission. → Leads to [[Positions/Closed Guard]]
+- **Base Widening - opponent lowers center of gravity and widens base to resist roll** (Effectiveness: Medium) - Your Response: If they widen their base, adjust your hip angle more aggressively to create additional leverage or use their lowered posture to transition to kimura or guillotine attacks. Their defensive base widening often opens submission opportunities on the posting arm. → Leads to [[Positions/Closed Guard]]
+- **Counter Pass - opponent uses your open guard during sweep attempt to initiate a passing sequence** (Effectiveness: Low) - Your Response: If they attempt a counter pass, immediately re-close your guard or transition to open guard retention with feet on hips. If you've committed too deeply, frame against their shoulder and hip escape to re-establish guard before they consolidate top position. → Leads to [[Positions/Side Control]]
 
 
 </section>

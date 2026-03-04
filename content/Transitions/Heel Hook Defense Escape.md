@@ -21,7 +21,7 @@ The escape relies fundamentally on rotational mechanics rather than linear pulli
 
 Strategically, this escape ranks among the highest-priority defensive skills for any practitioner training in leg lock systems. The asymmetric danger of Honey Hole means that defensive competence must match or exceed offensive understanding, as a single failed defense can result in catastrophic knee injury. Training this escape requires progressive resistance drilling with absolute commitment to tapping when escape fails, building realistic timing and recognition while preserving long-term training capability.
 
-**From Position**: [[Honey Hole]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Honey Hole]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape ranks among the highest-priority defensive skills for
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 40% |
-| Failure | [[Honey Hole]] | 35% |
-| Counter | [[Kneebar Control]] | 25% |
+| Success | [[Positions/Open Guard]] | 40% |
+| Failure | [[Positions/Ashi Garami/Honey Hole]] | 35% |
+| Counter | [[Positions/Kneebar Control]] | 25% |
 
 
 </section>
@@ -195,27 +195,27 @@ The Heel Hook Defense Escape is a critical component of the leg lock defense sys
 ## Related Techniques
 
 
-- [[Honey Hole]] - Starting position — the dangerous leg entanglement being escaped
+- [[Positions/Ashi Garami/Honey Hole]] - Starting position — the dangerous leg entanglement being escaped
 
-- [[Open Guard]] - Primary target position upon successful escape and guard recovery
+- [[Positions/Open Guard]] - Primary target position upon successful escape and guard recovery
 
-- [[Inside Heel Hook from Honey Hole]] - The specific submission threat that necessitates this escape
+- [[Transitions/Inside Heel Hook from Honey Hole]] - The specific submission threat that necessitates this escape
 
-- [[Inside Heel Hook]] - The submission class being defended against during the escape
+- [[Submissions/Inside Heel Hook]] - The submission class being defended against during the escape
 
-- [[Ashi Garami Escape]] - Related escape technique from a less dangerous leg entanglement position
+- [[Transitions/Ashi Garami Escape]] - Related escape technique from a less dangerous leg entanglement position
 
-- [[Boot Scoot Escape from Saddle]] - Closely related escape using similar rotational mechanics from the Saddle position
+- [[Transitions/Boot Scoot Escape from Saddle]] - Closely related escape using similar rotational mechanics from the Saddle position
 
-- [[Forward Roll from Saddle]] - Alternative escape method using inversion mechanics from similar entanglement
+- [[Transitions/Forward Roll from Saddle]] - Alternative escape method using inversion mechanics from similar entanglement
 
-- [[Kneebar Control]] - Counter outcome position when opponent switches attack during escape attempt
+- [[Positions/Kneebar Control]] - Counter outcome position when opponent switches attack during escape attempt
 
-- [[50-50 Guard]] - Alternative escape destination via counter-entanglement during rotation
+- [[Positions/Ashi Garami/50-50 Guard]] - Alternative escape destination via counter-entanglement during rotation
 
-- [[Saddle]] - Closely related position with similar entanglement geometry and escape principles
+- [[Positions/Ashi Garami/Saddle]] - Closely related position with similar entanglement geometry and escape principles
 
-- [[Inside Ashi-Garami]] - Foundational leg entanglement in the same positional family as Honey Hole
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Foundational leg entanglement in the same positional family as Honey Hole
 
 
 </section>

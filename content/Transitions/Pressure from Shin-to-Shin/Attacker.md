@@ -180,7 +180,7 @@ description: "Execute the pressure pass from Shin-to-Shin Guard with systematic 
 
 From the attacker's perspective, the pressure pass from Shin-to-Shin Guard requires methodical weight application that balances aggression with base maintenance. The top player must establish upper body control first, then progressively load weight through the shin connection at a downward angle to collapse the perpendicular structure. Success depends on reading the guard player's reactions in real time—recognizing when they attempt to convert your pressure into sweep entries and adjusting weight distribution accordingly. The technique rewards patience and controlled escalation over explosive force, as rushed pressure creates the exact forward momentum that skilled guard players exploit for Single Leg X and butterfly entries.
 
-**From Position**: [[Shin-to-Shin Guard]] (Top)
+**From Position**: [[Positions/Shin-to-Shin Guard]] (Top)
 
 </section>
 
@@ -232,11 +232,11 @@ From the attacker's perspective, the pressure pass from Shin-to-Shin Guard requi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Success | [[Headquarters Position]] | 10% |
-| Failure | [[Shin-to-Shin Guard]] | 25% |
-| Counter | [[Single Leg X-Guard]] | 12% |
-| Counter | [[Butterfly Guard]] | 8% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Success | [[Positions/Headquarters Position]] | 10% |
+| Failure | [[Positions/Shin-to-Shin Guard]] | 25% |
+| Counter | [[Positions/X-Guard/Single Leg X-Guard]] | 12% |
+| Counter | [[Positions/Butterfly Guard]] | 8% |
 
 
 </section>
@@ -245,10 +245,10 @@ From the attacker's perspective, the pressure pass from Shin-to-Shin Guard requi
 
 ## Opponent Counters
 
-- **Opponent elevates hips and threads leg underneath for Single Leg X-Guard entry during forward pressure application** (Effectiveness: High) - Your Response: Immediately widen base and drop hips when you feel upward hip elevation. Backstep the pressured leg away from the threading attempt and re-establish distance before reapplying pressure with improved angle. Control their far hip to prevent the elevation that enables this entry. → Leads to [[Single Leg X-Guard]]
-- **Opponent inserts butterfly hook under your committed weight as you drop level, converting forward drive into upward elevation for sweep** (Effectiveness: Medium) - Your Response: Recognize the hook insertion attempt by feeling their heel contact your inner thigh. Shift weight laterally away from the hook side while maintaining upper body control. If the hook is already established, underhook their leg and sprawl your hips back to flatten the hook before it generates sweeping force. → Leads to [[Butterfly Guard]]
-- **Opponent frames on your shoulders or biceps and hip escapes to re-angle and recover full shin-to-shin structure** (Effectiveness: Medium) - Your Response: Swim through or collapse their frames using shoulder pressure before they complete the hip escape. Follow their hip movement with your pressure angle, maintaining the downward drive through the shin connection rather than allowing them to create the distance needed to re-establish perpendicular angle. → Leads to [[Shin-to-Shin Guard]]
-- **Opponent pulls sleeve grip hard to create off-balancing moment during weight transfer phase** (Effectiveness: Low) - Your Response: Maintain grip fighting discipline—strip the sleeve grip before committing weight, or post your hand if pulled unexpectedly. The pull only works if your weight is already committed forward in an uncontrolled manner. Controlled, progressive pressure is inherently resistant to pull-based counters. → Leads to [[Shin-to-Shin Guard]]
+- **Opponent elevates hips and threads leg underneath for Single Leg X-Guard entry during forward pressure application** (Effectiveness: High) - Your Response: Immediately widen base and drop hips when you feel upward hip elevation. Backstep the pressured leg away from the threading attempt and re-establish distance before reapplying pressure with improved angle. Control their far hip to prevent the elevation that enables this entry. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Opponent inserts butterfly hook under your committed weight as you drop level, converting forward drive into upward elevation for sweep** (Effectiveness: Medium) - Your Response: Recognize the hook insertion attempt by feeling their heel contact your inner thigh. Shift weight laterally away from the hook side while maintaining upper body control. If the hook is already established, underhook their leg and sprawl your hips back to flatten the hook before it generates sweeping force. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent frames on your shoulders or biceps and hip escapes to re-angle and recover full shin-to-shin structure** (Effectiveness: Medium) - Your Response: Swim through or collapse their frames using shoulder pressure before they complete the hip escape. Follow their hip movement with your pressure angle, maintaining the downward drive through the shin connection rather than allowing them to create the distance needed to re-establish perpendicular angle. → Leads to [[Positions/Shin-to-Shin Guard]]
+- **Opponent pulls sleeve grip hard to create off-balancing moment during weight transfer phase** (Effectiveness: Low) - Your Response: Maintain grip fighting discipline—strip the sleeve grip before committing weight, or post your hand if pulled unexpectedly. The pull only works if your weight is already committed forward in an uncontrolled manner. Controlled, progressive pressure is inherently resistant to pull-based counters. → Leads to [[Positions/Shin-to-Shin Guard]]
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Complete guide to executing the guard pass from New York Control. 
 
 Executing the guard pass from New York Control requires abandoning standard passing instincts in favor of a methodical extraction sequence. The top player faces a compound control problem where an overhook traps one arm while a leg draped over the shoulder prevents posture recovery. The solution lies in prioritizing arm extraction before addressing the leg control, using lateral movement and angle creation rather than forward pressure. Each phase of the pass builds on the previous one, creating a sequential escape that transforms a trapped defensive position into a dominant passing opportunity. Understanding precisely why standard passing mechanics fail against this position is as important as learning the specific escape sequence, because instinctive responses consistently feed the bottom player's submission chains.
 
-**From Position**: [[New York Control]] (Top)
+**From Position**: [[Positions/Rubber Guard/New York Control]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the guard pass from New York Control requires abandoning standard pass
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 48% |
-| Failure | [[New York Control]] | 34% |
-| Counter | [[Closed Guard]] | 18% |
+| Success | [[Positions/Side Control]] | 48% |
+| Failure | [[Positions/Rubber Guard/New York Control]] | 34% |
+| Counter | [[Positions/Closed Guard]] | 18% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the guard pass from New York Control requires abandoning standard pass
 
 ## Opponent Counters
 
-- **Bottom player re-engages overhook by deepening grip during extraction attempt** (Effectiveness: Medium) - Your Response: Return to angular extraction by stepping knee further outward. If they re-engage deeply, reset to defensive base and restart extraction rather than fighting the grip directly. Sustained angular pressure will eventually compromise the overhook regardless of re-engagement. → Leads to [[New York Control]]
-- **Bottom player shoots triangle by swinging leg across neck during arm extraction** (Effectiveness: High) - Your Response: Keep elbows pinned to ribs throughout extraction. If leg begins crossing behind your neck, immediately posture up and stack their hips to prevent the triangle from locking. Tuck chin aggressively and drive your shoulder into their thigh to create defensive pressure. → Leads to [[Closed Guard]]
-- **Bottom player transitions to Mission Control or Invisible Collar when overhook is compromised** (Effectiveness: Medium) - Your Response: Follow their leg positioning and maintain forward pressure during their transition. The grip change temporarily weakens their overall control structure, creating a window to accelerate your pass. Use the momentum of their transition to establish passing angles before the new guard configuration settles. → Leads to [[New York Control]]
-- **Bottom player attempts gogoplata by shooting shin across throat** (Effectiveness: High) - Your Response: Tuck chin firmly to chest and drive head toward the mat on the side away from the incoming shin. If possible, stand explosively to break the angle required for the shin-across-throat position. The gogoplata requires specific distance and angle that standing eliminates entirely. → Leads to [[Closed Guard]]
+- **Bottom player re-engages overhook by deepening grip during extraction attempt** (Effectiveness: Medium) - Your Response: Return to angular extraction by stepping knee further outward. If they re-engage deeply, reset to defensive base and restart extraction rather than fighting the grip directly. Sustained angular pressure will eventually compromise the overhook regardless of re-engagement. → Leads to [[Positions/Rubber Guard/New York Control]]
+- **Bottom player shoots triangle by swinging leg across neck during arm extraction** (Effectiveness: High) - Your Response: Keep elbows pinned to ribs throughout extraction. If leg begins crossing behind your neck, immediately posture up and stack their hips to prevent the triangle from locking. Tuck chin aggressively and drive your shoulder into their thigh to create defensive pressure. → Leads to [[Positions/Closed Guard]]
+- **Bottom player transitions to Mission Control or Invisible Collar when overhook is compromised** (Effectiveness: Medium) - Your Response: Follow their leg positioning and maintain forward pressure during their transition. The grip change temporarily weakens their overall control structure, creating a window to accelerate your pass. Use the momentum of their transition to establish passing angles before the new guard configuration settles. → Leads to [[Positions/Rubber Guard/New York Control]]
+- **Bottom player attempts gogoplata by shooting shin across throat** (Effectiveness: High) - Your Response: Tuck chin firmly to chest and drive head toward the mat on the side away from the incoming shin. If possible, stand explosively to break the angle required for the shin-across-throat position. The gogoplata requires specific distance and angle that standing eliminates entirely. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

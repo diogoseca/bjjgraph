@@ -21,7 +21,7 @@ The fundamental principle behind this sweep is using the opponent's own momentum
 
 This technique occupies an important strategic niche in the guard retention hierarchy. While defensive escapes like knee shield recovery or deep half entries return the bottom player to a neutral or slightly disadvantaged position, the sweep from leg weave converts a bad defensive situation directly into a dominant top position worth points. This risk-reward profile makes it essential for competitors and aggressive guard players who prefer counter-attacking to passive defense. The sweep also creates a powerful deterrent effect: when the top player knows the bottom player can reverse from leg weave, they must approach the pass with more caution, which slows their passing game and creates additional defensive windows.
 
-**From Position**: [[Leg Weave]] (Bottom)
+**From Position**: [[Positions/Leg Weave]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ This technique occupies an important strategic niche in the guard retention hier
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Leg Weave]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Leg Weave]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Sweep from Leg Weave fits within the broader half guard defensive system as 
 ## Related Techniques
 
 
-- [[Leg Weave]] - Source position where this sweep is initiated from bottom
+- [[Positions/Leg Weave]] - Source position where this sweep is initiated from bottom
 
-- [[Side Control]] - Target position achieved upon successful sweep completion
+- [[Positions/Side Control]] - Target position achieved upon successful sweep completion
 
-- [[Half Guard]] - Parent position family where leg weave commonly develops
+- [[Positions/Half Guard]] - Parent position family where leg weave commonly develops
 
-- [[Deep Half Guard]] - Alternative counter-attack when sweep is not available
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative counter-attack when sweep is not available
 
-- [[Dogfight Position]] - Intermediate position used in the come-up sweep variant
+- [[Positions/Dogfight Position]] - Intermediate position used in the come-up sweep variant
 
-- [[Knee Shield Half Guard]] - Alternative defensive recovery when sweep setup fails
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative defensive recovery when sweep setup fails
 
-- [[Leg Weave Escape to Half Guard]] - Complementary escape technique creating sweep-or-escape dilemma
+- [[Transitions/Leg Weave Escape to Half Guard]] - Complementary escape technique creating sweep-or-escape dilemma
 
-- [[Complete Leg Weave Pass]] - Opponent's objective that the sweep prevents
+- [[Transitions/Complete Leg Weave Pass]] - Opponent's objective that the sweep prevents
 
-- [[Backstep from Leg Weave]] - Top player counter-technique that threatens during sweep attempts
+- [[Transitions/Backstep from Leg Weave]] - Top player counter-technique that threatens during sweep attempts
 
-- [[Lockdown]] - Alternative bottom control strategy that can precede sweep setups
+- [[Positions/Half Guard/Lockdown]] - Alternative bottom control strategy that can precede sweep setups
 
 
 </section>

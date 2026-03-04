@@ -190,7 +190,7 @@ The technique is particularly effective in BJJ because it requires minimal stren
 
 In the BJJ context, Deashi Harai serves as both a scoring takedown and a strategic tool for controlling the pace of engagement. It works exceptionally well against opponents who use aggressive forward pressure or attempt to establish collar-and-sleeve grips, as these actions naturally create the weight transfer necessary for the sweep to succeed. The technique also chains effectively with other foot sweeps and throws, creating a comprehensive standup system that keeps opponents defensive and hesitant.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -245,9 +245,9 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Failure | [[Standing Position]] | 20% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Side Control]] | 70% |
+| Failure | [[Positions/Standing Position]] | 20% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -256,11 +256,11 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 
 ## Opponent Counters
 
-- **Opponent pulls their lead leg back as you attempt sweep** (Effectiveness: High) - Your Response: Immediately transition to alternative foot sweep (Kosoto Gari or Kouchi Gari) on their now-weighted rear leg, or follow their backward movement with forward pressure to break their balance backward → Leads to [[Standing Position]]
-- **Opponent sprawls and drops weight down as they feel sweep** (Effectiveness: Medium) - Your Response: Abandon the sweep and immediately transition to front headlock position, using their lowered posture to secure guillotine control or snap them down to turtle position → Leads to [[Standing Position]]
-- **Opponent steps through with opposite leg to recover base** (Effectiveness: Medium) - Your Response: Maintain grip control and either execute a second sweep on the recovery leg (Deashi Harai on opposite side) or use their forward momentum to pull them into closed guard → Leads to [[Standing Position]]
-- **Opponent breaks your sleeve grip before sweep execution** (Effectiveness: High) - Your Response: Do not attempt the sweep without proper grip control—instead, immediately re-establish grips or switch to collar drag or arm drag to take the back → Leads to [[Standing Position]]
-- **Opponent counters with their own throw as you commit to the sweep** (Effectiveness: Low) - Your Response: If you maintain proper posture and don't overcommit, counter-throws are difficult—if sensed early, release grips and establish defensive posture or pull guard to reset → Leads to [[Standing Position]]
+- **Opponent pulls their lead leg back as you attempt sweep** (Effectiveness: High) - Your Response: Immediately transition to alternative foot sweep (Kosoto Gari or Kouchi Gari) on their now-weighted rear leg, or follow their backward movement with forward pressure to break their balance backward → Leads to [[Positions/Standing Position]]
+- **Opponent sprawls and drops weight down as they feel sweep** (Effectiveness: Medium) - Your Response: Abandon the sweep and immediately transition to front headlock position, using their lowered posture to secure guillotine control or snap them down to turtle position → Leads to [[Positions/Standing Position]]
+- **Opponent steps through with opposite leg to recover base** (Effectiveness: Medium) - Your Response: Maintain grip control and either execute a second sweep on the recovery leg (Deashi Harai on opposite side) or use their forward momentum to pull them into closed guard → Leads to [[Positions/Standing Position]]
+- **Opponent breaks your sleeve grip before sweep execution** (Effectiveness: High) - Your Response: Do not attempt the sweep without proper grip control—instead, immediately re-establish grips or switch to collar drag or arm drag to take the back → Leads to [[Positions/Standing Position]]
+- **Opponent counters with their own throw as you commit to the sweep** (Effectiveness: Low) - Your Response: If you maintain proper posture and don't overcommit, counter-throws are difficult—if sensed early, release grips and establish defensive posture or pull guard to reset → Leads to [[Positions/Standing Position]]
 
 
 </section>

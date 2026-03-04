@@ -146,7 +146,7 @@ description: "Defend against the Bodylock Pass from Seated Guard with recognitio
 
 As the defender facing the Bodylock Pass from Seated Guard, your primary objective is to prevent the attacker from establishing the body lock around your torso. Once the lock is secured with chest-to-chest connection, escape becomes significantly more difficult as the attacker's tight connection neutralizes your leg-based defenses entirely. Early recognition of the pass attempt through the attacker's level change and forward drive is critical for deploying effective countermeasures including forearm frames, hip escapes, and guard transitions that deny the lock or create sweeping opportunities when the attacker overcommits their weight forward.
 
-**Opponent's Starting Position**: [[Seated Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Seated Guard]] (Top)
 
 </section>
 
@@ -183,28 +183,28 @@ As the defender facing the Bodylock Pass from Seated Guard, your primary objecti
 ### 1. Establish forearm frame across attacker's neck and shoulder before they close distance
 
 - **When to use**: As soon as you recognize the level change and forward drive beginning, before the attacker reaches clinch range
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: Attacker cannot establish the body lock and is forced back to their passing stance to reset
 - **Risk**: If the frame is structurally weak or placed too late, the attacker powers through and establishes the lock with your arm trapped inside
 
 ### 2. Insert butterfly hooks and elevate as attacker commits forward with the level change
 
 - **When to use**: When the attacker has committed weight forward during the level change but before the lock is fully clasped behind your back
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Attacker's forward momentum is redirected upward and over, resulting in a sweep to top position in half guard
 - **Risk**: Mistimed hooks without proper elevation angle allow attacker to smash past with the bodylock and flatten you
 
 ### 3. Execute technical standup before attacker closes to clinch range
 
 - **When to use**: When the attacker begins their approach but before they have initiated the explosive level change
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: Position resets to standing where the bodylock pass from seated is no longer applicable
 - **Risk**: A slow or poorly timed standup can be met with a snap-down to front headlock or an accelerated bodylock takedown
 
 ### 4. Underhook and pummel inside the clinch to deny the body lock from closing
 
 - **When to use**: During the clinch exchange as the attacker wraps their arms around your torso but before they clasp hands
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: Attacker cannot complete the lock and you establish inside position with offensive underhook control
 - **Risk**: If the attacker has dominant overhooks and head position, they may still complete the lock despite your underhook
 
@@ -216,11 +216,11 @@ As the defender facing the Bodylock Pass from Seated Guard, your primary objecti
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a butterfly hook insertion as the attacker commits forward with their level change. Use their forward momentum to elevate and sweep them over, ending in top half guard position where you can advance to a full pass or consolidate dominant control.
 
-### → [[Seated Guard]]
+### → [[Positions/Seated Guard]]
 
 Maintain strong frames and proactive distance management to prevent the body lock from being established. Push the attacker back to their passing stance using forearm frames on their shoulders combined with feet on their hips, resetting to the original seated guard exchange where you retain your defensive structure.
 

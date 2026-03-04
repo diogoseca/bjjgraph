@@ -180,7 +180,7 @@ description: "How to execute Mount to Armbar in BJJ. Attacking perspective with 
 
 The Mount to Armbar transition is one of the most fundamental and high-percentage submission setups in Brazilian Jiu-Jitsu. From the dominant Mount position, this technique capitalizes on the opponent's natural defensive reactions by converting their arm-framing attempts into submission opportunities. The transition requires precise weight distribution, controlled movement sequencing, and the ability to maintain dominant positioning throughout the execution. This technique exemplifies the principle of position before submission, as maintaining mount control throughout the transition is critical to success. The Mount to Armbar serves as a gateway technique that opens pathways to other submissions including the triangle choke, Americana, and back takes, making it an essential component of any complete mount attack system. Mastering the pivot mechanics, arm isolation timing, and leg slide across the face are the three technical pillars that separate successful execution from failed attempts that result in position loss.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The Mount to Armbar transition is one of the most fundamental and high-percentag
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 55% |
-| Failure | [[Mount]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Armbar Control]] | 55% |
+| Failure | [[Positions/Mount]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ The Mount to Armbar transition is one of the most fundamental and high-percentag
 
 ## Opponent Counters
 
-- **Opponent pulls elbow back and withdraws arm as you begin the pivot** (Effectiveness: High) - Your Response: Switch to triangle choke by bringing your leg over their shoulder, or transition to gift wrap control and attack the opposite arm or take the back. Do not chase a fully retracted arm. → Leads to [[Mount]]
-- **Opponent turns into you during the leg slide attempting hitchhiker escape** (Effectiveness: Medium) - Your Response: Maintain arm control and use their turning momentum to take the back with a harness grip, or tighten the leg across their face and continue to armbar control. If they complete the turn, transition to triangle or back control. → Leads to [[Closed Guard]]
-- **Opponent stacks forward and drives into you during the transition** (Effectiveness: Medium) - Your Response: Use the stack pressure to help you complete the rotation into armbar control, or abandon the armbar early by posting on your elbow and recovering mount position. The stack is less effective if your hips stay tight to their shoulder. → Leads to [[Mount]]
-- **Opponent clasps hands or grabs their own gi to defend arm extension** (Effectiveness: Low) - Your Response: Maintain the armbar control position patiently and use hip pressure to incrementally break the grip. Alternatively, attack the opposite arm with Americana or transition to triangle by adjusting your leg position over their head. → Leads to [[Armbar Control]]
+- **Opponent pulls elbow back and withdraws arm as you begin the pivot** (Effectiveness: High) - Your Response: Switch to triangle choke by bringing your leg over their shoulder, or transition to gift wrap control and attack the opposite arm or take the back. Do not chase a fully retracted arm. → Leads to [[Positions/Mount]]
+- **Opponent turns into you during the leg slide attempting hitchhiker escape** (Effectiveness: Medium) - Your Response: Maintain arm control and use their turning momentum to take the back with a harness grip, or tighten the leg across their face and continue to armbar control. If they complete the turn, transition to triangle or back control. → Leads to [[Positions/Closed Guard]]
+- **Opponent stacks forward and drives into you during the transition** (Effectiveness: Medium) - Your Response: Use the stack pressure to help you complete the rotation into armbar control, or abandon the armbar early by posting on your elbow and recovering mount position. The stack is less effective if your hips stay tight to their shoulder. → Leads to [[Positions/Mount]]
+- **Opponent clasps hands or grabs their own gi to defend arm extension** (Effectiveness: Low) - Your Response: Maintain the armbar control position patiently and use hip pressure to incrementally break the grip. Alternatively, attack the opposite arm with Americana or transition to triangle by adjusting your leg position over their head. → Leads to [[Positions/Armbar Control]]
 
 
 </section>

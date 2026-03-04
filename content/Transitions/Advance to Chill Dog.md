@@ -23,7 +23,7 @@ Biomechanically, the move requires threading the shin that was across the oppone
 
 From a game theory perspective, Advance to Chill Dog forces the opponent into increasingly desperate defensive decisions. Once the leg begins threading deeper, they must choose between accepting the deeper control or attempting explosive escapes that often expose them to armbar, triangle, or omoplata attacks. This dilemma-based approach exemplifies the 10th Planet philosophy of creating no-win situations through systematic positional advancement.
 
-**From Position**: [[New York]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -34,9 +34,9 @@ From a game theory perspective, Advance to Chill Dog forces the opponent into in
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Chill Dog]] | 55% |
-| Failure | [[New York]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Chill Dog]] | 55% |
+| Failure | [[Positions/Rubber Guard/New York]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -195,29 +195,29 @@ Advance to Chill Dog occupies a critical junction in the 10th Planet Rubber Guar
 ## Related Techniques
 
 
-- [[New York]] - Starting position - must be consolidated before advancing
+- [[Positions/Rubber Guard/New York]] - Starting position - must be consolidated before advancing
 
-- [[Chill Dog]] - Target position achieved upon successful leg threading
+- [[Positions/Rubber Guard/Chill Dog]] - Target position achieved upon successful leg threading
 
-- [[Gogoplata]] - Primary follow-up submission from Chill Dog
+- [[Transitions/Gogoplata]] - Primary follow-up submission from Chill Dog
 
-- [[Mission Control]] - Prerequisite position in Rubber Guard progression
+- [[Positions/Rubber Guard/Mission Control]] - Prerequisite position in Rubber Guard progression
 
-- [[Invisible Collar]] - Alternative attack pathway from New York
+- [[Positions/Rubber Guard/Invisible Collar]] - Alternative attack pathway from New York
 
-- [[Zombie]] - Alternative attack pathway from New York
+- [[Positions/Rubber Guard/Zombie]] - Alternative attack pathway from New York
 
-- [[Carni]] - Alternative attack pathway from New York
+- [[Positions/Rubber Guard/Carni]] - Alternative attack pathway from New York
 
-- [[Triangle Control]] - Chain attack when Chill Dog is defended
+- [[Positions/Triangle Control]] - Chain attack when Chill Dog is defended
 
-- [[Omoplata Control]] - Chain attack when Chill Dog is defended
+- [[Positions/Omoplata Control]] - Chain attack when Chill Dog is defended
 
-- [[Rubber Guard]] - Parent system encompassing the full progression
+- [[Positions/Rubber Guard]] - Parent system encompassing the full progression
 
-- [[Crackhead Control]] - Intermediate position variant for limited flexibility
+- [[Positions/Crackhead Control]] - Intermediate position variant for limited flexibility
 
-- [[Closed Guard]] - Fallback position if Rubber Guard system fails
+- [[Positions/Closed Guard]] - Fallback position if Rubber Guard system fails
 
 
 </section>

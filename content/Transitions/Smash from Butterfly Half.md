@@ -21,7 +21,7 @@ The strategic importance of this pass lies in its reliability against modern hyb
 
 Execution requires precise sequencing: establish dominant upper body control first, then drive weight onto the butterfly hook to pin it, and finally extract the trapped half guard leg to complete the pass. Rushing any phase exposes the top player to sweeps and guard recoveries. The smash is most effective when combined with other passing approaches in a chain, as failed smash attempts can transition directly into knee slice, backstep, or body lock passing sequences, maintaining offensive initiative throughout the exchange.
 
-**From Position**: [[Butterfly Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Butterfly Half Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Execution requires precise sequencing: establish dominant upper body control fir
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Butterfly Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Butterfly Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Smash from Butterfly Half occupies a central role in the pressure passing sy
 ## Related Techniques
 
 
-- [[Butterfly Half Guard]] - Source position where this transition originates
+- [[Positions/Half Guard/Butterfly Half Guard]] - Source position where this transition originates
 
-- [[Side Control]] - Primary target position reached upon successful pass completion
+- [[Positions/Side Control]] - Primary target position reached upon successful pass completion
 
-- [[Half Guard]] - Counter outcome position when bottom player recovers standard half guard
+- [[Positions/Half Guard]] - Counter outcome position when bottom player recovers standard half guard
 
-- [[Knee Slice from Butterfly Half]] - Alternative passing technique from the same starting position that chains with failed smash attempts
+- [[Transitions/Knee Slice from Butterfly Half]] - Alternative passing technique from the same starting position that chains with failed smash attempts
 
-- [[Flattened Half Guard]] - Intermediate position that may result from successful flattening during the smash sequence
+- [[Positions/Half Guard/Flattened Half Guard]] - Intermediate position that may result from successful flattening during the smash sequence
 
-- [[Deep Half Guard]] - Common escape route for the bottom player when smash pressure is partially applied
+- [[Positions/Half Guard/Deep Half Guard]] - Common escape route for the bottom player when smash pressure is partially applied
 
-- [[Butterfly Half Guard Sweep]] - Primary counter-technique the bottom player threatens during the smash attempt
+- [[Transitions/Butterfly Half Guard Sweep]] - Primary counter-technique the bottom player threatens during the smash attempt
 
-- [[Reguard from Butterfly Half Guard]] - Defensive recovery technique the bottom player uses to retain butterfly hook position
+- [[Transitions/Reguard from Butterfly Half Guard]] - Defensive recovery technique the bottom player uses to retain butterfly hook position
 
-- [[Half Butterfly to Dogfight]] - Alternative outcome when bottom player fights up with underhook during smash
+- [[Transitions/Half Butterfly to Dogfight]] - Alternative outcome when bottom player fights up with underhook during smash
 
-- [[Headquarters Position]] - Related passing platform that may be reached if the half guard leg is extracted without completing full pass
+- [[Positions/Headquarters Position]] - Related passing platform that may be reached if the half guard leg is extracted without completing full pass
 
 
 </section>

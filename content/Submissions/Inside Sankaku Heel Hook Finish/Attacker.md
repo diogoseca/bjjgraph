@@ -182,7 +182,7 @@ description: "Master the attacking mechanics of the Inside Sankaku heel hook fin
 
 Attacking with the Inside Sankaku heel hook requires methodical progression through control phases before committing to the finish. The attacker must first verify that all three control pillars are established: hip-to-hip connection preventing escape distance, knee line dominance preventing defensive rotation, and proper heel exposure toward the centerline. Only after confirming positional dominance should the attacker transition from control grips to finishing grips. The finishing sequence itself demands precise hand placement, with the blade of the wrist positioned against the Achilles tendon and the secondary hand reinforcing through a figure-four or wrist-grab configuration. The rotational breaking mechanics work by creating a wedge between the heel and the knee's natural plane of motion, applying torsional force to the MCL, ACL, and meniscus simultaneously. Understanding this biomechanical reality is essential both for effective application and for maintaining the safety discipline required when training this devastatingly effective submission.
 
-**From Position**: [[Inside Sankaku]] (Top)
+**From Position**: [[Positions/Inside Sankaku]] (Top)
 
 
 </section>
@@ -238,8 +238,8 @@ Attacking with the Inside Sankaku heel hook requires methodical progression thro
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Inside Sankaku]] | 30% |
-| Counter | [[50-50 Guard]] | 20% |
+| Failure | [[Positions/Inside Sankaku]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 20% |
 
 
 </section>
@@ -248,11 +248,11 @@ Attacking with the Inside Sankaku heel hook requires methodical progression thro
 
 ## Opponent Defenses
 
-- **Opponent hides heel by pressing it against their own hip and rotating knee inward** (Effectiveness: High) - Your Response: Transition to toe hold attack on the exposed foot, or apply steady hip pressure to fatigue the defensive posture, then re-expose the heel when their leg tires → Leads to [[Inside Sankaku]]
-- **Opponent performs explosive rolling escape to clear the knee line and extract their leg** (Effectiveness: Medium) - Your Response: Follow the roll by maintaining hip connection and adjusting your leg triangle. If they commit fully, transition to Saddle for tighter control or follow to back control → Leads to [[50-50 Guard]]
-- **Opponent strips your heel grip using two-on-one grip fighting on your primary hand** (Effectiveness: Medium) - Your Response: Maintain positional control with your legs while re-establishing the grip. Use your secondary hand to control their wrist while your primary hand re-secures the heel → Leads to [[Inside Sankaku]]
-- **Opponent counter-entangles by threading their free leg into 50-50 position** (Effectiveness: High) - Your Response: Recognize the counter-entanglement early and maintain inside position advantage. If 50-50 is established, you still have superior angle for heel hook - adjust to attack from the new configuration → Leads to [[50-50 Guard]]
-- **Opponent boot-scoots away creating distance to escape hip connection** (Effectiveness: Medium) - Your Response: Follow their movement by driving your hips forward, using your legs to pull their trapped knee toward you. Briefly release finishing grip to re-close distance before re-attacking → Leads to [[Inside Sankaku]]
+- **Opponent hides heel by pressing it against their own hip and rotating knee inward** (Effectiveness: High) - Your Response: Transition to toe hold attack on the exposed foot, or apply steady hip pressure to fatigue the defensive posture, then re-expose the heel when their leg tires → Leads to [[Positions/Inside Sankaku]]
+- **Opponent performs explosive rolling escape to clear the knee line and extract their leg** (Effectiveness: Medium) - Your Response: Follow the roll by maintaining hip connection and adjusting your leg triangle. If they commit fully, transition to Saddle for tighter control or follow to back control → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent strips your heel grip using two-on-one grip fighting on your primary hand** (Effectiveness: Medium) - Your Response: Maintain positional control with your legs while re-establishing the grip. Use your secondary hand to control their wrist while your primary hand re-secures the heel → Leads to [[Positions/Inside Sankaku]]
+- **Opponent counter-entangles by threading their free leg into 50-50 position** (Effectiveness: High) - Your Response: Recognize the counter-entanglement early and maintain inside position advantage. If 50-50 is established, you still have superior angle for heel hook - adjust to attack from the new configuration → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent boot-scoots away creating distance to escape hip connection** (Effectiveness: Medium) - Your Response: Follow their movement by driving your hips forward, using your legs to pull their trapped knee toward you. Briefly release finishing grip to re-close distance before re-attacking → Leads to [[Positions/Inside Sankaku]]
 
 
 </section>

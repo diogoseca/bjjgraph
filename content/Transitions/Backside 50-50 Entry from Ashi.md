@@ -21,7 +21,7 @@ The technique addresses a common challenge in ashi garami systems: opponents who
 
 In competition settings, this transition has become increasingly important as leg lock defense has improved across all skill levels. Practitioners who can fluidly transition between ashi variations, including the backside 50-50, create layered offensive pressure that forces defenders to address multiple threats simultaneously. The entry rewards precise timing and controlled rotation over explosive movement, making it accessible to practitioners of all body types who invest in understanding the underlying mechanics.
 
-**From Position**: [[Inside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ In competition settings, this transition has become increasingly important as le
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Backside 50-50]] | 55% |
-| Failure | [[Inside Ashi-Garami]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Backside 50-50]] | 55% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Backside 50-50 Entry from Ashi connects the foundational Inside Ashi-Garami 
 ## Related Techniques
 
 
-- [[Inside Ashi-Garami]] - Source position providing the starting leg entanglement and control foundation
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Source position providing the starting leg entanglement and control foundation
 
-- [[Backside 50-50]] - Target position achieved upon successful completion of the transition
+- [[Positions/Ashi Garami/Backside 50-50]] - Target position achieved upon successful completion of the transition
 
-- [[50-50 Guard]] - Related entanglement sharing mirrored leg configuration but with face-to-face orientation
+- [[Positions/Ashi Garami/50-50 Guard]] - Related entanglement sharing mirrored leg configuration but with face-to-face orientation
 
-- [[Saddle]] - Alternative positional advancement from inside ashi with different control characteristics
+- [[Positions/Ashi Garami/Saddle]] - Alternative positional advancement from inside ashi with different control characteristics
 
-- [[Honey Hole]] - Alternative advanced entanglement accessible from inside ashi through different mechanics
+- [[Positions/Ashi Garami/Honey Hole]] - Alternative advanced entanglement accessible from inside ashi through different mechanics
 
-- [[Outside Ashi-Garami]] - Alternative ashi variation that may develop if rotation is incomplete
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative ashi variation that may develop if rotation is incomplete
 
-- [[Back Take from Ashi]] - Related transition sharing the concept of getting behind opponent from leg entanglement
+- [[Transitions/Back Take from Ashi]] - Related transition sharing the concept of getting behind opponent from leg entanglement
 
-- [[Heel Hook]] - Primary submission available from the target backside 50-50 position
+- [[Transitions/Heel Hook]] - Primary submission available from the target backside 50-50 position
 
-- [[Outside Heel Hook]] - Alternative heel attack available from backside 50-50 top
+- [[Transitions/Outside Heel Hook]] - Alternative heel attack available from backside 50-50 top
 
-- [[Ashi Garami]] - Parent position family encompassing all ashi variations including this transition's origin
+- [[Positions/Ashi Garami]] - Parent position family encompassing all ashi variations including this transition's origin
 
-- [[50-50 Entry]] - Related transition to standard 50-50 from similar starting positions
+- [[Transitions/50-50 Entry]] - Related transition to standard 50-50 from similar starting positions
 
 
 </section>

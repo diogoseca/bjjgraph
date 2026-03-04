@@ -174,7 +174,7 @@ description: "How to complete submission finishes in BJJ. Universal mechanics fo
 
 As the attacker executing the Transition to Game Over, your objective is to convert an established submission control position into a forced tap through precise mechanical application. This requires a systematic approach that prioritizes control consolidation before committing to the finish, identifies and blocks the opponent's primary escape route, and applies progressive pressure that maintains your positional advantage throughout the finishing sequence. The universal principles covered here apply whether you are finishing a rear naked choke from back control, an armbar from mount, or a heel hook from ashi garami. The key insight is that finishing is not a single moment of explosive force but a controlled process where you systematically remove defensive options while steadily increasing pressure until the tap becomes inevitable.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -227,8 +227,8 @@ As the attacker executing the Transition to Game Over, your objective is to conv
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -237,10 +237,10 @@ As the attacker executing the Transition to Game Over, your objective is to conv
 
 ## Opponent Counters
 
-- **Opponent grips their own wrist or clasps hands together to prevent joint extension or choke completion** (Effectiveness: High) - Your Response: Use both hands in sequence to peel the bottom grip while maintaining hip and leg control, or transition to a secondary submission that attacks the defending arm itself such as switching from armbar to triangle or from RNC to armbar → Leads to [[Back Control]]
-- **Opponent turns into the submission to relieve the pressure angle and reduce mechanical advantage** (Effectiveness: Medium) - Your Response: Follow the rotation with your hips to re-establish the correct finishing angle, or use the rotational momentum to transition to a complementary submission available from the new angle such as switching choke sides or converting to a different joint lock → Leads to [[Back Control]]
-- **Opponent explosively bridges, bucks, or hip escapes to create space and escape the control position entirely** (Effectiveness: Medium) - Your Response: Maintain tight body connection and ride the movement using hooks and secondary grips to absorb the explosion. If control breaks, immediately transition to the next best available position rather than chasing the lost submission → Leads to [[Half Guard]]
-- **Opponent tucks chin aggressively to block choke access or straightens arm to prevent lock** (Effectiveness: Medium) - Your Response: For chin tucks, work the hand under the chin using a palm-up wedge or attack the jaw line while maintaining squeeze pressure. For straightened arms, use your legs to create the breaking angle rather than fighting the arm directly with upper body strength → Leads to [[Back Control]]
+- **Opponent grips their own wrist or clasps hands together to prevent joint extension or choke completion** (Effectiveness: High) - Your Response: Use both hands in sequence to peel the bottom grip while maintaining hip and leg control, or transition to a secondary submission that attacks the defending arm itself such as switching from armbar to triangle or from RNC to armbar → Leads to [[Positions/Back Control]]
+- **Opponent turns into the submission to relieve the pressure angle and reduce mechanical advantage** (Effectiveness: Medium) - Your Response: Follow the rotation with your hips to re-establish the correct finishing angle, or use the rotational momentum to transition to a complementary submission available from the new angle such as switching choke sides or converting to a different joint lock → Leads to [[Positions/Back Control]]
+- **Opponent explosively bridges, bucks, or hip escapes to create space and escape the control position entirely** (Effectiveness: Medium) - Your Response: Maintain tight body connection and ride the movement using hooks and secondary grips to absorb the explosion. If control breaks, immediately transition to the next best available position rather than chasing the lost submission → Leads to [[Positions/Half Guard]]
+- **Opponent tucks chin aggressively to block choke access or straightens arm to prevent lock** (Effectiveness: Medium) - Your Response: For chin tucks, work the hand under the chin using a palm-up wedge or attack the jaw line while maintaining squeeze pressure. For straightened arms, use your legs to create the breaking angle rather than fighting the arm directly with upper body strength → Leads to [[Positions/Back Control]]
 
 
 </section>

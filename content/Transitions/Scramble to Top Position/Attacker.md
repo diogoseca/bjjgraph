@@ -182,7 +182,7 @@ As the attacker executing Scramble to Top Position, your objective is to convert
 
 The attacker's advantage in this transition comes from intentionality. While scrambles appear chaotic, the practitioner who enters with a clear primary objective and contingency plan consistently outperforms the practitioner who simply reacts. Your primary pathway should be underhook to top drive, with snap-down to front headlock and technical stand-up as immediate alternatives based on the opponent's reactions. Committing to one pathway within the first two seconds prevents the energy waste of indecisive scrambling.
 
-**From Position**: [[Scramble Position]] (Top)
+**From Position**: [[Positions/Scramble Position]] (Top)
 
 </section>
 
@@ -233,11 +233,11 @@ The attacker's advantage in this transition comes from intentionality. While scr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 45% |
-| Success | [[Side Control]] | 10% |
-| Failure | [[Scramble Position]] | 25% |
-| Counter | [[Half Guard]] | 12% |
-| Counter | [[Closed Guard]] | 8% |
+| Success | [[Positions/Standing Position]] | 45% |
+| Success | [[Positions/Side Control]] | 10% |
+| Failure | [[Positions/Scramble Position]] | 25% |
+| Counter | [[Positions/Half Guard]] | 12% |
+| Counter | [[Positions/Closed Guard]] | 8% |
 
 
 </section>
@@ -246,10 +246,10 @@ The attacker's advantage in this transition comes from intentionality. While scr
 
 ## Opponent Counters
 
-- **Opponent establishes a deep whizzer over your underhook, neutralizing your directional control** (Effectiveness: High) - Your Response: Use a limp arm technique to strip the whizzer by pulling your underhooking arm back through the gap, then immediately re-attack the underhook from a different angle. Alternatively, duck under the whizzer by lowering your level and circling behind them for a back take → Leads to [[Scramble Position]]
-- **Opponent pulls guard by sitting down and inserting butterfly hooks or closing their legs around your waist** (Effectiveness: High) - Your Response: Maintain heavy forward pressure and keep your hips low to prevent them from establishing a stable guard. If they lock closed guard, immediately begin your guard opening sequence. If they insert butterfly hooks, flatten your weight and drive crossface to prevent elevation → Leads to [[Closed Guard]]
-- **Opponent shoots for a single or double leg as you drive forward, using your momentum against you** (Effectiveness: Medium) - Your Response: Sprawl immediately by throwing your hips back and dropping your weight on their shoulders. Use the sprawl to transition to a front headlock position where you maintain top control with guillotine and darce threats → Leads to [[Scramble Position]]
-- **Opponent frames against your chest and hip escapes to create distance for guard recovery** (Effectiveness: Medium) - Your Response: Collapse their frames by driving your shoulder into the frame while cutting the angle with a knee slide motion. Do not allow them to create distance; stay tight and pursue aggressively, treating the hip escape as a passing opportunity → Leads to [[Half Guard]]
+- **Opponent establishes a deep whizzer over your underhook, neutralizing your directional control** (Effectiveness: High) - Your Response: Use a limp arm technique to strip the whizzer by pulling your underhooking arm back through the gap, then immediately re-attack the underhook from a different angle. Alternatively, duck under the whizzer by lowering your level and circling behind them for a back take → Leads to [[Positions/Scramble Position]]
+- **Opponent pulls guard by sitting down and inserting butterfly hooks or closing their legs around your waist** (Effectiveness: High) - Your Response: Maintain heavy forward pressure and keep your hips low to prevent them from establishing a stable guard. If they lock closed guard, immediately begin your guard opening sequence. If they insert butterfly hooks, flatten your weight and drive crossface to prevent elevation → Leads to [[Positions/Closed Guard]]
+- **Opponent shoots for a single or double leg as you drive forward, using your momentum against you** (Effectiveness: Medium) - Your Response: Sprawl immediately by throwing your hips back and dropping your weight on their shoulders. Use the sprawl to transition to a front headlock position where you maintain top control with guillotine and darce threats → Leads to [[Positions/Scramble Position]]
+- **Opponent frames against your chest and hip escapes to create distance for guard recovery** (Effectiveness: Medium) - Your Response: Collapse their frames by driving your shoulder into the frame while cutting the angle with a knee slide motion. Do not allow them to create distance; stay tight and pursue aggressively, treating the hip escape as a passing opportunity → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Learn to defend against sweeps from headquarters as the top player
 
 As the top player in headquarters, defending against sweep attempts is essential to maintaining your guard passing position and continuing systematic passing sequences. The bottom player's sweep threats primarily exploit directional weight commitment and transitional moments during passing attempts. Effective defense combines proactive base management, early recognition of sweep setups, and decisive counter-responses that either neutralize the sweep or capitalize on the bottom player's overcommitment to advance your position further. Understanding sweep mechanics from the defender's perspective transforms what could be a reactive scramble into a proactive counter-attacking opportunity where the bottom player's aggression becomes your passing advantage.
 
-**Opponent's Starting Position**: [[Headquarters Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Headquarters Position]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the top player in headquarters, defending against sweep attempts is essential
 ### 1. Widen base and drop weight low to neutralize sweep angle
 
 - **When to use**: When you feel the bottom player establishing hooks or creating sweep angle through hip escape
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Sweep attempt is neutralized and you maintain headquarters control with opportunity to reset passing sequence
 - **Risk**: Wide base reduces passing pressure and may create space for guard recovery if maintained too long without resuming offense
 
 ### 2. Strip the underhook and drive crossface pressure to flatten the bottom player
 
 - **When to use**: When the bottom player secures or is fighting for an underhook on the near side before the sweep is loaded
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Bottom player's primary sweep grip is removed and they are flattened, making further sweep attempts very difficult to execute
 - **Risk**: If the underhook is already deep, attempting to strip it may open space for the sweep to complete during the exchange
 
 ### 3. Drive forward aggressively to pass through the sweep attempt directly into mount
 
 - **When to use**: When the sweep attempt is initiated but not yet loaded—early in the sweep setup phase before full commitment
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Your forward drive converts the sweep attempt into a passing opportunity, potentially reaching mount or consolidating side control
 - **Risk**: If timed poorly, your forward momentum can be redirected by the bottom player's hooks, actually accelerating the sweep completion
 
 ### 4. Backstep away from the hook and re-establish headquarters from a new angle
 
 - **When to use**: When the butterfly hook is deeply established and the sweep is close to completion with full loading
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: The backstep removes your leg from the hook's range and allows you to re-establish headquarters control from a safer angle
 - **Risk**: Backstepping may create space for guard recovery or allow transition to leg entanglement positions if not executed quickly
 
@@ -217,11 +217,11 @@ As the top player in headquarters, defending against sweep attempts is essential
 
 ## Best-Case Outcomes for Defender
 
-### → [[Headquarters Position]]
+### → [[Positions/Headquarters Position]]
 
 Recognize sweep setups early and deny the underhook or hook insertion before the sweep can be loaded. Widen base proactively and maintain centered weight distribution to make sweep completion mechanically impossible while preserving headquarters control.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Use the bottom player's sweep commitment against them by driving forward through a partially loaded sweep attempt. When they commit weight to the sweep direction, their hips open and their guard structure weakens, creating a direct passing lane to mount through their compromised defense.
 

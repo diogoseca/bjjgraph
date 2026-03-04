@@ -93,27 +93,27 @@ From this position, you maintain upper body control with your arms while your le
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (42% of attempts)
+- **[[Transitions/Rear Naked Choke]]** (42% of attempts)
 
-- **[[Armbar from Back Transition]]** (7% of attempts)
+- **[[Transitions/Armbar from Back Transition]]** (7% of attempts)
 
-- **[[Bow and Arrow Choke]]** (11% of attempts)
+- **[[Transitions/Bow and Arrow Choke]]** (11% of attempts)
 
-- **[[Short Choke]]** (8% of attempts)
+- **[[Transitions/Short Choke]]** (8% of attempts)
 
-- **[[Back Control to Crucifix]]** (6% of attempts)
+- **[[Transitions/Back Control to Crucifix]]** (6% of attempts)
 
-- **[[Back Control Maintenance]]** (13% of attempts)
+- **[[Transitions/Back Control Maintenance]]** (13% of attempts)
 
-- **[[Kimura from Back]]** (4% of attempts)
+- **[[Transitions/Kimura from Back]]** (4% of attempts)
 
-- **[[Roll to Truck]]** (3% of attempts)
+- **[[Transitions/Roll to Truck]]** (3% of attempts)
 
-- **[[Cross Collar Choke]]** (4% of attempts)
+- **[[Transitions/Cross Collar Choke]]** (4% of attempts)
 
-- **[[Body Triangle Escape to Half Guard]]** (1% of attempts)
+- **[[Transitions/Body Triangle Escape to Half Guard]]** (1% of attempts)
 
-- **[[Body Triangle Escape to Side Control]]** (1% of attempts)
+- **[[Transitions/Body Triangle Escape to Side Control]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -174,23 +174,23 @@ From this position, you maintain upper body control with your arms while your le
 ### Available Transitions
 
 
-- **[[Hip Escape to Turtle]]** (14% of attempts)
+- **[[Transitions/Hip Escape to Turtle]]** (14% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (9% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (9% of attempts)
 
-- **[[Triangle Clear to Side]]** (49% of attempts)
+- **[[Transitions/Triangle Clear to Side]]** (49% of attempts)
 
-- **[[Standing up in Base]]** (5% of attempts)
+- **[[Transitions/Standing up in Base]]** (5% of attempts)
 
-- **[[Rolling Back Take Reversal]]** (2% of attempts)
+- **[[Transitions/Rolling Back Take Reversal]]** (2% of attempts)
 
-- **[[Elbow Escape to Remove Hooks]]** (9% of attempts)
+- **[[Transitions/Elbow Escape to Remove Hooks]]** (9% of attempts)
 
-- **[[Back Door Escape]]** (9% of attempts)
+- **[[Transitions/Back Door Escape]]** (9% of attempts)
 
-- **[[Body Triangle Squeeze]]** (1% of attempts)
+- **[[Transitions/Body Triangle Squeeze]]** (1% of attempts)
 
-- **[[Body Triangle RNC]]** (2% of attempts)
+- **[[Submissions/Body Triangle RNC]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -229,21 +229,21 @@ From this position, you maintain upper body control with your arms while your le
 ## Related Positions
 
 
-- **[[Back Control]]** - Parent position - standard back control with hooks before triangle lock
+- **[[Positions/Back Control]]** - Parent position - standard back control with hooks before triangle lock
 
-- **[[Rear Triangle]]** - Alternative triangle configuration from back control
+- **[[Positions/Triangle Control/Rear Triangle]]** - Alternative triangle configuration from back control
 
-- **[[Crucifix]]** - Transition target when opponent reaches back to clear triangle
+- **[[Positions/Crucifix]]** - Transition target when opponent reaches back to clear triangle
 
-- **[[Truck]]** - Advanced transition option from body triangle control
+- **[[Positions/Twister Control/Truck]]** - Advanced transition option from body triangle control
 
-- **[[Mount]]** - Alternative dominant position if triangle must be released
+- **[[Positions/Mount]]** - Alternative dominant position if triangle must be released
 
-- **[[Gift Wrap]]** - Upper body control variation that pairs well with triangle
+- **[[Positions/Gift Wrap]]** - Upper body control variation that pairs well with triangle
 
-- **[[Turtle]]** - Common escape destination for the defender trapped in body triangle
+- **[[Positions/Turtle]]** - Common escape destination for the defender trapped in body triangle
 
-- **[[Half Guard]]** - Alternative escape destination through guard recovery sequences
+- **[[Positions/Half Guard]]** - Alternative escape destination through guard recovery sequences
 
 
 </section>

@@ -176,7 +176,7 @@ description: "How to execute Rolling Armbar in BJJ. Attacking perspective with s
 
 The Rolling Armbar represents one of the most dynamic and technically sophisticated submissions in Brazilian Jiu-Jitsu, combining rotational movement with precise joint control to attack the elbow. Unlike static armbars from established positions, the rolling variation capitalizes on momentum and timing, making it particularly effective during transitions and scrambles. This technique requires excellent body coordination, spatial awareness, and the ability to maintain arm control while rotating through space. The rolling armbar is most commonly executed from guard positions when the opponent attempts to posture or stack, though advanced practitioners can hit it from standing, during takedown attempts, or even as a counter to passing attempts. The technique's effectiveness lies in its ability to surprise opponents who are focused on other objectives, making it a high-percentage finish for those who master the rolling mechanics. The continuous rotation creates tremendous leverage on the elbow joint while limiting the opponent's defensive options, as they must defend the submission while managing their own balance during the roll.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 
 </section>
@@ -232,8 +232,8 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -242,11 +242,11 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 ## Opponent Defenses
 
-- **Opponent grabs their own gi or belt to prevent arm isolation** (Effectiveness: High) - Your Response: Use your legs to break their grip by pushing their defensive hand away with your shin or knee. Alternatively, attack the defensive arm instead if they commit too heavily to the grip. Can also transition to triangle or omoplata if they remain defensive. → Leads to [[Closed Guard]]
-- **Opponent stacks you during the roll to pressure your neck and prevent rotation** (Effectiveness: Medium) - Your Response: Anticipate the stack by rolling faster and more explosively. If already stacked, use your free leg to push off their hip or shoulder to complete the rotation. Can also abort the roll and transition to triangle choke from the stacked position. → Leads to [[Closed Guard]]
-- **Opponent keeps their elbow tight to their body and postures backward** (Effectiveness: High) - Your Response: Don't force the roll against a strong defensive posture. Instead, use the momentum of their backward pull to sweep them forward or transition to other attacks. Wait for them to re-engage before attempting the roll again. → Leads to [[Closed Guard]]
+- **Opponent grabs their own gi or belt to prevent arm isolation** (Effectiveness: High) - Your Response: Use your legs to break their grip by pushing their defensive hand away with your shin or knee. Alternatively, attack the defensive arm instead if they commit too heavily to the grip. Can also transition to triangle or omoplata if they remain defensive. → Leads to [[Positions/Closed Guard]]
+- **Opponent stacks you during the roll to pressure your neck and prevent rotation** (Effectiveness: Medium) - Your Response: Anticipate the stack by rolling faster and more explosively. If already stacked, use your free leg to push off their hip or shoulder to complete the rotation. Can also abort the roll and transition to triangle choke from the stacked position. → Leads to [[Positions/Closed Guard]]
+- **Opponent keeps their elbow tight to their body and postures backward** (Effectiveness: High) - Your Response: Don't force the roll against a strong defensive posture. Instead, use the momentum of their backward pull to sweep them forward or transition to other attacks. Wait for them to re-engage before attempting the roll again. → Leads to [[Positions/Closed Guard]]
 - **Opponent hitchhikes (rotates thumb away) to relieve elbow pressure during the finish** (Effectiveness: Medium) - Your Response: Immediately after completing the roll, forcefully rotate their arm back to thumb-up position using both hands. Pinch your knees tighter together and pull their wrist down past your chest to prevent the rotation. If they persist, transition to belly-down armbar. → Leads to [[game-over]]
-- **Opponent drives forward and passes to side control during failed roll attempt** (Effectiveness: Low) - Your Response: If they sprawl early, you likely haven't secured proper arm control. Maintain grip and follow their movement, using their backward momentum to help complete the roll. Can also transition to belly-down armbar as they sprawl. → Leads to [[Side Control]]
+- **Opponent drives forward and passes to side control during failed roll attempt** (Effectiveness: Low) - Your Response: If they sprawl early, you likely haven't secured proper arm control. Maintain grip and follow their movement, using their backward momentum to help complete the roll. Can also transition to belly-down armbar as they sprawl. → Leads to [[Positions/Side Control]]
 
 
 </section>

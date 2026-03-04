@@ -26,8 +26,8 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Neck
-**Starting Position**: [[High Mount]]
-**From Position**: [[High Mount]] (Top)
+**Starting Position**: [[Positions/Mount/High Mount]]
+**From Position**: [[Positions/Mount/High Mount]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -79,8 +79,8 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[High Mount]] | 30% |
-| Counter | [[Mount]] | 20% |
+| Failure | [[Positions/Mount/High Mount]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -226,9 +226,9 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 
 ## From Which Positions?
 
-- [[High Mount]]
-- [[Mount]]
-- [[S Mount]]
+- [[Positions/Mount/High Mount]]
+- [[Positions/Mount]]
+- [[Positions/Mount/S Mount]]
 
 
 </section>
@@ -237,13 +237,13 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 
 ## Related Submissions
 
-- [[Armbar from High Mount]]
-- [[Armbar from Mount]]
-- [[Americana from Mount]]
-- [[Cross Collar Choke]]
-- [[Arm Triangle]]
-- [[Armbar from S Mount]]
-- [[Americana from Technical Mount]]
+- [[Submissions/Armbar from High Mount]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Americana from Mount]]
+- [[Transitions/Cross Collar Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Armbar from S Mount]]
+- [[Submissions/Americana from Technical Mount]]
 
 
 </section>
@@ -252,13 +252,13 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 
 ## Additional Related Content
 
-- [[High Mount]] - Primary starting position providing elevated platform for collar grip access
-- [[Mount]] - Parent position from which high mount is established before choke entry
-- [[S Mount]] - Alternative attacking platform offering similar collar access with different body mechanics
-- [[Armbar from High Mount]] - Primary chain submission when opponent extends arms to defend collar grips
-- [[Americana from Mount]] - Alternative submission targeting opponents who tuck elbows tight against collar grips
-- [[Closed Guard]] - Common counter position when defender successfully disrupts mount during choke attempt
-- [[Cross Collar Choke]] - General cross collar choke technique applicable from multiple positions
+- [[Positions/Mount/High Mount]] - Primary starting position providing elevated platform for collar grip access
+- [[Positions/Mount]] - Parent position from which high mount is established before choke entry
+- [[Positions/Mount/S Mount]] - Alternative attacking platform offering similar collar access with different body mechanics
+- [[Submissions/Armbar from High Mount]] - Primary chain submission when opponent extends arms to defend collar grips
+- [[Submissions/Americana from Mount]] - Alternative submission targeting opponents who tuck elbows tight against collar grips
+- [[Positions/Closed Guard]] - Common counter position when defender successfully disrupts mount during choke attempt
+- [[Transitions/Cross Collar Choke]] - General cross collar choke technique applicable from multiple positions
 
 
 </section>

@@ -207,27 +207,27 @@ From top position, the primary goal is to neutralize the knee shield's effective
 
 ## Available Attacks
 
-### [[Knee Slice from Half]] (37% of attempts)
+### [[Transitions/Knee Slice from Half]] (37% of attempts)
 
-### [[Smash Pass]] (15% of attempts)
+### [[Transitions/Smash Pass]] (15% of attempts)
 
-### [[Long Step Pass]] (7% of attempts)
+### [[Transitions/Long Step Pass]] (7% of attempts)
 
-### [[Underhook Pass]] (6% of attempts)
+### [[Transitions/Underhook Pass]] (6% of attempts)
 
-### [[Crossface Pass]] (12% of attempts)
+### [[Transitions/Crossface Pass]] (12% of attempts)
 
-### [[Leg Weave Pass]] (5% of attempts)
+### [[Transitions/Leg Weave Pass]] (5% of attempts)
 
-### [[Back Step Pass]] (7% of attempts)
+### [[Transitions/Back Step Pass]] (7% of attempts)
 
-### [[Body Lock Pass]] (7% of attempts)
+### [[Transitions/Body Lock Pass]] (7% of attempts)
 
-### [[Knee Slice from Knee Shield]] (2% of attempts)
+### [[Transitions/Knee Slice from Knee Shield]] (2% of attempts)
 
-### [[Smash from Knee Shield]] (1% of attempts)
+### [[Transitions/Smash from Knee Shield]] (1% of attempts)
 
-### [[Smash Pass from Knee Shield]] (1% of attempts)
+### [[Transitions/Smash Pass from Knee Shield]] (1% of attempts)
 
 
 
@@ -238,23 +238,23 @@ From top position, the primary goal is to neutralize the knee shield's effective
 ## Decision Making from This Position
 
 **If opponent has strong knee shield with upper body control and underhook threat:**
-- Execute **[[Crossface Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent extends knee shield too far creating space underneath:**
-- Execute **[[Knee Slice from Half]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent attempts to establish deep underhook:**
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Underhook Pass]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Underhook Pass]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent's knee shield collapses or loses structural integrity:**
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 60%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 60%)
 
 
 
@@ -388,16 +388,16 @@ Start in knee shield half guard top position with specific goal constraints. Top
 
 ## Related Positions and Techniques
 
-- **[[Knee Shield Half Guard]]** - Hub position—this is the top perspective
-- **[[Half Guard]]** - Parent position—broader category
-- **[[Side Control]]** - Primary transition target from successful passing
-- **[[Knee Slice from Half]]** - Primary offensive transition technique
-- **[[Smash Pass]]** - Key passing technique for collapsing knee shield
-- **[[Deep Half Guard]]** - Common defensive transition from bottom player
-- **[[Lockdown]]** - Alternative defensive structure from half guard
-- **[[Long Step Pass]]** - Alternative passing approach bypassing knee shield
-- **[[Headquarters Position]]** - Related top control position with similar passing dynamics
-- **[[Mount]]** - Advanced transition target from underhook pass variations
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Hub position—this is the top perspective
+- **[[Positions/Half Guard]]** - Parent position—broader category
+- **[[Positions/Side Control]]** - Primary transition target from successful passing
+- **[[Transitions/Knee Slice from Half]]** - Primary offensive transition technique
+- **[[Transitions/Smash Pass]]** - Key passing technique for collapsing knee shield
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common defensive transition from bottom player
+- **[[Positions/Half Guard/Lockdown]]** - Alternative defensive structure from half guard
+- **[[Transitions/Long Step Pass]]** - Alternative passing approach bypassing knee shield
+- **[[Positions/Headquarters Position]]** - Related top control position with similar passing dynamics
+- **[[Positions/Mount]]** - Advanced transition target from underhook pass variations
 
 
 </section>

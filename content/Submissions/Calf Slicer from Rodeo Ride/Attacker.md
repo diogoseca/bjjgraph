@@ -182,7 +182,7 @@ description: "Learn to finish the Calf Slicer from Rodeo Ride. Step-by-step exec
 
 Executing the Calf Slicer from Rodeo Ride requires precise leg threading from the dynamic turtle attack position. The attacker leverages their rodeo ride control to thread their shin behind the opponent's knee joint, creating a fulcrum for devastating compression against the calf muscle. This submission adds a powerful leg attack dimension to the rodeo ride attack system, forcing defenders to address threats to both their back and their legs simultaneously. The key to finishing lies in maintaining upper body connection throughout the leg attack sequence, preventing the opponent from creating the space needed to straighten their leg or roll free. The most reliable entries come when the opponent's defensive reactions to back take or choke threats inadvertently bend their knee and expose the calf slicer opportunity.
 
-**From Position**: [[Rodeo Ride]] (Top)
+**From Position**: [[Positions/Rodeo Ride]] (Top)
 
 
 </section>
@@ -236,9 +236,9 @@ Executing the Calf Slicer from Rodeo Ride requires precise leg threading from th
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Rodeo Ride]] | 25% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Rodeo Ride]] | 25% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -247,10 +247,10 @@ Executing the Calf Slicer from Rodeo Ride requires precise leg threading from th
 
 ## Opponent Defenses
 
-- **Opponent straightens their trapped leg before the figure-four is locked, denying the compression angle** (Effectiveness: High) - Your Response: If the leg straightens before you lock the figure-four, abandon the calf slicer immediately and return to rodeo ride control. Use the straightened leg as an opportunity to insert a hook for back control instead, since the straight leg creates space between their hips and the mat. → Leads to [[Rodeo Ride]]
-- **Opponent rolls toward you aggressively to relieve compression and disrupt your base** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining your figure-four lock and chest connection. The roll may actually improve your finishing angle if you stay connected. If you lose the lock during the roll, immediately re-establish rodeo ride or turtle top control before they can recover guard. → Leads to [[Turtle]]
-- **Opponent grabs your attacking foot or ankle and attempts to pry it from behind their knee** (Effectiveness: Medium) - Your Response: Deepen the figure-four lock and increase hip pressure to make the grip fight difficult. If they commit both hands to fighting your leg, their upper body is completely undefended—immediately transition to a choke attack or back take since their hands are occupied below. → Leads to [[Rodeo Ride]]
-- **Opponent sits through explosively to recover half guard, using the moment of transition to escape** (Effectiveness: Medium) - Your Response: If you feel the sit-through beginning, you have a split-second choice: either commit fully to the calf slicer by locking the figure-four tighter and following their movement, or release the leg and consolidate top half guard control. The worst outcome is getting stuck halfway between both options. → Leads to [[Half Guard]]
+- **Opponent straightens their trapped leg before the figure-four is locked, denying the compression angle** (Effectiveness: High) - Your Response: If the leg straightens before you lock the figure-four, abandon the calf slicer immediately and return to rodeo ride control. Use the straightened leg as an opportunity to insert a hook for back control instead, since the straight leg creates space between their hips and the mat. → Leads to [[Positions/Rodeo Ride]]
+- **Opponent rolls toward you aggressively to relieve compression and disrupt your base** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining your figure-four lock and chest connection. The roll may actually improve your finishing angle if you stay connected. If you lose the lock during the roll, immediately re-establish rodeo ride or turtle top control before they can recover guard. → Leads to [[Positions/Turtle]]
+- **Opponent grabs your attacking foot or ankle and attempts to pry it from behind their knee** (Effectiveness: Medium) - Your Response: Deepen the figure-four lock and increase hip pressure to make the grip fight difficult. If they commit both hands to fighting your leg, their upper body is completely undefended—immediately transition to a choke attack or back take since their hands are occupied below. → Leads to [[Positions/Rodeo Ride]]
+- **Opponent sits through explosively to recover half guard, using the moment of transition to escape** (Effectiveness: Medium) - Your Response: If you feel the sit-through beginning, you have a split-second choice: either commit fully to the calf slicer by locking the figure-four tighter and following their movement, or release the leg and consolidate top half guard control. The worst outcome is getting stuck halfway between both options. → Leads to [[Positions/Half Guard]]
 
 
 </section>

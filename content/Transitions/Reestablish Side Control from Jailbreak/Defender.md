@@ -146,7 +146,7 @@ description: "Defend against Side Control reestablishment from Jailbreak. Comple
 
 As the bottom player attempting the jailbreak escape, your opponent's attempt to reestablish side control represents the critical counter you must overcome. The top player will drive crossface pressure, neutralize your underhook, and walk their hips to perpendicular alignment to restore side control. Your defense focuses on maintaining the underhook connection, generating sufficient rotational momentum before they can shut it down, and having contingency plans when the primary escape is disrupted. Understanding the top player's recovery sequence allows you to time your explosive commitment for the moments when their counter is weakest and to switch to alternative escapes when the jailbreak window closes.
 
-**Opponent's Starting Position**: [[Jailbreak]] (Top)
+**Opponent's Starting Position**: [[Positions/Jailbreak]] (Top)
 
 </section>
 
@@ -183,28 +183,28 @@ As the bottom player attempting the jailbreak escape, your opponent's attempt to
 ### 1. Accelerate the jailbreak roll with explosive hip generation and free leg push before the top player completes their counter
 
 - **When to use**: Early in the counter attempt before crossface is fully established and rotational momentum is still available
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: Complete the escape to turtle, back take opportunity, or guard recovery, nullifying the reestablishment attempt entirely
 - **Risk**: If the roll fails mid-motion, you end up flattened in a worse position with depleted energy for subsequent escape attempts
 
 ### 2. Abandon jailbreak and recover traditional half guard frames with knee shield reestablishment
 
 - **When to use**: When the top player has successfully pinned your head with crossface and the inversion path is mechanically blocked
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Return to standard half guard bottom with frames established, allowing traditional escape sequences and guard retention
 - **Risk**: Releasing escape momentum gives the top player time to settle weight and potentially advance to full side control
 
 ### 3. Transition to deep half guard entry by diving underneath the top player instead of rolling through
 
 - **When to use**: When the top player drives forward pressure heavily but their far leg remains accessible for deep half guard entry
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: Achieve deep half guard position with strong sweep threats and back take opportunities from underneath
 - **Risk**: Failed deep half entry results in being flattened under heavy pressure with no defensive frames or guard structure
 
 ### 4. Frame with free leg against top player's hips to block hip walk-around while re-establishing escape angle
 
 - **When to use**: During the hip repositioning phase when the top player begins walking toward perpendicular alignment
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Stall the pass completion and create sufficient space to reinsert knee for half guard recovery
 - **Risk**: Leg frames alone cannot hold position indefinitely without underhook support and active hip movement
 
@@ -216,11 +216,11 @@ As the bottom player attempting the jailbreak escape, your opponent's attempt to
 
 ## Best-Case Outcomes for Defender
 
-### → [[Deep Half Guard]]
+### → [[Positions/Half Guard/Deep Half Guard]]
 
 When the top player drives forward pressure to shut down jailbreak, redirect your underhook to dive underneath their body for deep half guard entry. Their forward weight commitment actually assists your transition underneath them. Secure their far leg and establish hip positioning for sweep threats from deep half.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If the jailbreak is completely stalled, immediately switch to recovering traditional half guard frames. Insert knee shield before the top player completes perpendicular alignment. Use remaining underhook connection to help establish defensive frames and prevent the pass from completing to side control.
 

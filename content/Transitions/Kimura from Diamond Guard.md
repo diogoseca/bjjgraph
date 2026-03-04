@@ -21,7 +21,7 @@ This technique functions primarily as a positional control tool and sweep mechan
 
 The Kimura from Diamond Guard occupies a critical junction in the diamond guard attacking system. When opponents defend triangle entries by keeping elbows tight and resist omoplata entries by controlling their posture angle, the Kimura attack specifically punishes these defensive postures by targeting the arm already trapped in the overhook. This creates a complete three-way offensive cycle where every defensive choice within diamond guard opens a different attack pathway, embodying the dilemma-based approach central to effective closed guard play.
 
-**From Position**: [[Diamond Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard/Diamond Guard]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ The Kimura from Diamond Guard occupies a critical junction in the diamond guard 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kimura Trap]] | 45% |
-| Failure | [[Diamond Guard]] | 35% |
-| Counter | [[Closed Guard]] | 20% |
+| Success | [[Positions/Kimura Trap]] | 45% |
+| Failure | [[Positions/Closed Guard/Diamond Guard]] | 35% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Kimura from Diamond Guard integrates into the broader diamond guard offensiv
 ## Related Techniques
 
 
-- [[Diamond Guard]] - Source position — the diamond frame's overhook provides the foundation for the Kimura grip transition
+- [[Positions/Closed Guard/Diamond Guard]] - Source position — the diamond frame's overhook provides the foundation for the Kimura grip transition
 
-- [[Kimura Trap]] - Primary success destination — achieving Kimura Trap Top opens systematic finishing and positional chains
+- [[Positions/Kimura Trap]] - Primary success destination — achieving Kimura Trap Top opens systematic finishing and positional chains
 
-- [[Closed Guard]] - Fallback position when diamond controls are broken during Kimura attempt
+- [[Positions/Closed Guard]] - Fallback position when diamond controls are broken during Kimura attempt
 
-- [[Hip Bump Sweep]] - Shares identical hip mechanics — the sweeping motion for the Kimura from diamond uses the same hip drive pattern
+- [[Transitions/Hip Bump Sweep]] - Shares identical hip mechanics — the sweeping motion for the Kimura from diamond uses the same hip drive pattern
 
-- [[Kimura from Half Guard]] - Related Kimura entry from a different guard position using similar figure-four grip mechanics
+- [[Transitions/Kimura from Half Guard]] - Related Kimura entry from a different guard position using similar figure-four grip mechanics
 
-- [[Triangle Setup]] - Alternative attack from diamond guard that creates the dilemma system with the Kimura
+- [[Transitions/Triangle Setup]] - Alternative attack from diamond guard that creates the dilemma system with the Kimura
 
-- [[Closed Guard to Omoplata]] - Third option in the diamond guard attack triangle complementing Kimura and triangle threats
+- [[Transitions/Closed Guard to Omoplata]] - Third option in the diamond guard attack triangle complementing Kimura and triangle threats
 
-- [[Overhook Guard]] - Shares the overhook control mechanism that serves as foundation for the Kimura grip
+- [[Positions/Overhook Guard]] - Shares the overhook control mechanism that serves as foundation for the Kimura grip
 
-- [[Omoplata Control]] - Alternative shoulder attack destination if Kimura grip transition converts to omoplata rotation
+- [[Positions/Omoplata Control]] - Alternative shoulder attack destination if Kimura grip transition converts to omoplata rotation
 
-- [[Mount]] - Alternative top position reachable via hip bump when Kimura grip is not fully secured during sweep
+- [[Positions/Mount]] - Alternative top position reachable via hip bump when Kimura grip is not fully secured during sweep
 
 
 </section>

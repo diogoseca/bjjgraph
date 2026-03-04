@@ -180,7 +180,7 @@ description: "Complete guide to executing the reversal from triangle escape in B
 
 As the attacker executing the Reversal from Triangle Escape, your objective is to convert your defensive triangle escape sequence into an offensive guard pass that lands you directly in side control. This requires recognizing the precise moment when the triangle structure weakens during your stacking escape, then redirecting your energy from extraction into a lateral passing movement. The technique demands confidence to commit to the pass rather than simply disengaging, understanding that the partially broken triangle creates a unique window where the opponent's guard recovery is compromised by the position of their own legs. Mastery of this reversal transforms triangle defense from a pure survivability exercise into an offensive weapon that punishes opponents for committing to triangles without perfect control.
 
-**From Position**: [[Triangle Escape Position]] (Bottom)
+**From Position**: [[Positions/Triangle Escape Position]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Reversal from Triangle Escape, your objective is t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 38% |
-| Failure | [[Triangle Escape Position]] | 37% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Side Control]] | 38% |
+| Failure | [[Positions/Triangle Escape Position]] | 37% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Reversal from Triangle Escape, your objective is t
 
 ## Opponent Counters
 
-- **Opponent re-locks triangle tighter and pulls head back down during lateral stepping** (Effectiveness: High) - Your Response: Reset stacking pressure by driving forward more aggressively before reattempting the circular movement. The triangle was not sufficiently compromised. Rebuild the stack until neck pressure decreases before initiating the lateral pass again. → Leads to [[Triangle Escape Position]]
-- **Opponent transitions to armbar on the trapped arm during the extraction phase** (Effectiveness: Medium) - Your Response: Keep the elbow pinned tight to your ribs and drive forward into the armbar rotation rather than pulling away. Your forward pressure prevents full arm extension while your continued lateral movement carries you past the submission threat. → Leads to [[Mount]]
-- **Opponent hip scoots and recovers guard before the lateral pass completes** (Effectiveness: Medium) - Your Response: Maintain constant downward pressure on their far hip with your free hand and accelerate the lateral movement. Never release hip control during the transition. If they begin scooting, increase your passing speed rather than resetting. → Leads to [[Triangle Escape Position]]
-- **Opponent uses momentum to sweep during your forward weight commitment** (Effectiveness: Low) - Your Response: Widen your base by spreading your knees further apart during the stack phase. Keep your center of gravity low and avoid over-committing your weight past the tipping point. If you feel the sweep initiating, post your free hand momentarily to regain balance. → Leads to [[Mount]]
+- **Opponent re-locks triangle tighter and pulls head back down during lateral stepping** (Effectiveness: High) - Your Response: Reset stacking pressure by driving forward more aggressively before reattempting the circular movement. The triangle was not sufficiently compromised. Rebuild the stack until neck pressure decreases before initiating the lateral pass again. → Leads to [[Positions/Triangle Escape Position]]
+- **Opponent transitions to armbar on the trapped arm during the extraction phase** (Effectiveness: Medium) - Your Response: Keep the elbow pinned tight to your ribs and drive forward into the armbar rotation rather than pulling away. Your forward pressure prevents full arm extension while your continued lateral movement carries you past the submission threat. → Leads to [[Positions/Mount]]
+- **Opponent hip scoots and recovers guard before the lateral pass completes** (Effectiveness: Medium) - Your Response: Maintain constant downward pressure on their far hip with your free hand and accelerate the lateral movement. Never release hip control during the transition. If they begin scooting, increase your passing speed rather than resetting. → Leads to [[Positions/Triangle Escape Position]]
+- **Opponent uses momentum to sweep during your forward weight commitment** (Effectiveness: Low) - Your Response: Widen your base by spreading your knees further apart during the stack phase. Keep your center of gravity low and avoid over-committing your weight past the tipping point. If you feel the sweep initiating, post your free hand momentarily to regain balance. → Leads to [[Positions/Mount]]
 
 
 </section>

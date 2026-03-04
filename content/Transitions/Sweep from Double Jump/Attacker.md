@@ -180,7 +180,7 @@ description: "Master executing the Sweep from Double Jump in BJJ. Step-by-step g
 
 Executing the Sweep from Double Jump requires precise coordination of hip extension, leg elevation, and upper body control from an already-established Double Jump bottom position. The attacker has successfully inserted both legs underneath the opponent's hips and must now convert this structural advantage into a complete positional reversal. The key mechanical insight is that the sweep does not rely on raw strength but on eliminating the opponent's posting capability while simultaneously displacing their center of gravity beyond their base of support. Timing the hip bridge to coincide with the opponent's forward weight commitment amplifies the sweeping force exponentially, making the technique feel effortless when properly executed against a pressure-committed opponent.
 
-**From Position**: [[Double Jump]] (Bottom)
+**From Position**: [[Positions/Double Jump]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Sweep from Double Jump requires precise coordination of hip extens
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 43% |
-| Failure | [[Double Jump]] | 37% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Mount]] | 43% |
+| Failure | [[Positions/Double Jump]] | 37% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Sweep from Double Jump requires precise coordination of hip extens
 
 ## Opponent Counters
 
-- **Opponent posts far hand on the mat to create a tripod base preventing lateral displacement** (Effectiveness: High) - Your Response: Switch to the roll-through variation, using their posted arm as a fixed point to roll underneath and come up on the opposite side, or redirect the sweep angle to attack the posted arm side instead. → Leads to [[Double Jump]]
-- **Opponent sprawls hips back and widens base to reduce elevation effectiveness** (Effectiveness: Medium) - Your Response: Transition to deep half guard hooks and pursue the old school sweep or waiter sweep, using the sprawl motion to deepen your position underneath their hips rather than fighting the sprawl directly. → Leads to [[Double Jump]]
-- **Opponent drives heavy crossface pressure and attempts to flatten you while extracting legs** (Effectiveness: High) - Your Response: Use the crossface pressure as evidence of their forward weight commitment and time a secondary sweep attempt at the peak of their drive, or transition to lockdown if legs are being extracted to maintain control. → Leads to [[Side Control]]
-- **Opponent stands up rapidly to disengage from Double Jump position entirely** (Effectiveness: Medium) - Your Response: Convert to X-Guard or single leg X-Guard as they stand, using the elevation change to reconfigure your leg hooks into standing guard attack positions rather than pursuing the ground sweep. → Leads to [[Double Jump]]
+- **Opponent posts far hand on the mat to create a tripod base preventing lateral displacement** (Effectiveness: High) - Your Response: Switch to the roll-through variation, using their posted arm as a fixed point to roll underneath and come up on the opposite side, or redirect the sweep angle to attack the posted arm side instead. → Leads to [[Positions/Double Jump]]
+- **Opponent sprawls hips back and widens base to reduce elevation effectiveness** (Effectiveness: Medium) - Your Response: Transition to deep half guard hooks and pursue the old school sweep or waiter sweep, using the sprawl motion to deepen your position underneath their hips rather than fighting the sprawl directly. → Leads to [[Positions/Double Jump]]
+- **Opponent drives heavy crossface pressure and attempts to flatten you while extracting legs** (Effectiveness: High) - Your Response: Use the crossface pressure as evidence of their forward weight commitment and time a secondary sweep attempt at the peak of their drive, or transition to lockdown if legs are being extracted to maintain control. → Leads to [[Positions/Side Control]]
+- **Opponent stands up rapidly to disengage from Double Jump position entirely** (Effectiveness: Medium) - Your Response: Convert to X-Guard or single leg X-Guard as they stand, using the elevation change to reconfigure your leg hooks into standing guard attack positions rather than pursuing the ground sweep. → Leads to [[Positions/Double Jump]]
 
 
 </section>

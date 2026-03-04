@@ -89,23 +89,23 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 ### Available Transitions
 
 
-- **[[Hip Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Granby Roll to Guard]]** (13% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (13% of attempts)
 
-- **[[Technical Stand-up]]** (5% of attempts)
+- **[[Transitions/Technical Stand-up]]** (5% of attempts)
 
-- **[[Counter Leg Attack]]** (9% of attempts)
+- **[[Transitions/Counter Leg Attack]]** (9% of attempts)
 
-- **[[Frame and Extract to Half Guard]]** (26% of attempts)
+- **[[Transitions/Frame and Extract to Half Guard]]** (26% of attempts)
 
-- **[[Counter-entangle to 50-50 Guard]]** (17% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard]]** (17% of attempts)
 
-- **[[Angle Change Escape]]** (6% of attempts)
+- **[[Transitions/Angle Change Escape]]** (6% of attempts)
 
-- **[[Ashi Garami Escape]]** (7% of attempts)
+- **[[Transitions/Ashi Garami Escape]]** (7% of attempts)
 
-- **[[Sweep from Inside Sankaku]]** (3% of attempts)
+- **[[Transitions/Sweep from Inside Sankaku]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -166,29 +166,29 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 ### Available Transitions
 
 
-- **[[Heel Hook]]** (40% of attempts)
+- **[[Transitions/Heel Hook]]** (40% of attempts)
 
-- **[[Toe Hold]]** (10% of attempts)
+- **[[Transitions/Toe Hold]]** (10% of attempts)
 
-- **[[Outside Ashi Entry]]** (8% of attempts)
+- **[[Transitions/Outside Ashi Entry]]** (8% of attempts)
 
-- **[[Saddle Entry from Top]]** (8% of attempts)
+- **[[Transitions/Saddle Entry from Top]]** (8% of attempts)
 
-- **[[50-50 Entry]]** (3% of attempts)
+- **[[Transitions/50-50 Entry]]** (3% of attempts)
 
-- **[[Kneebar Finish]]** (8% of attempts)
+- **[[Transitions/Kneebar Finish]]** (8% of attempts)
 
-- **[[Calf Slicer]]** (3% of attempts)
+- **[[Transitions/Calf Slicer]]** (3% of attempts)
 
-- **[[Rolling Back Take]]** (10% of attempts)
+- **[[Transitions/Rolling Back Take]]** (10% of attempts)
 
-- **[[Inside Ashi-Garami to Honey Hole]]** (6% of attempts)
+- **[[Transitions/Inside Ashi-Garami to Honey Hole]]** (6% of attempts)
 
-- **[[Inside Sankaku Heel Hook]]** (1% of attempts)
+- **[[Transitions/Inside Sankaku Heel Hook]]** (1% of attempts)
 
-- **[[Inside Sankaku to Saddle]]** (1% of attempts)
+- **[[Transitions/Inside Sankaku to Saddle]]** (1% of attempts)
 
-- **[[Inside Sankaku Heel Hook Finish]]** (2% of attempts)
+- **[[Submissions/Inside Sankaku Heel Hook Finish]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -231,21 +231,21 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 ## Related Positions
 
 
-- **[[Outside Ashi-Garami]]** - Primary entry position with similar leg entanglement theory but different heel exposure angle
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Primary entry position with similar leg entanglement theory but different heel exposure angle
 
-- **[[Saddle]]** - Alternative leg entanglement with both legs trapped, higher control but different submission mechanics
+- **[[Positions/Ashi Garami/Saddle]]** - Alternative leg entanglement with both legs trapped, higher control but different submission mechanics
 
-- **[[50-50 Guard]]** - Symmetrical leg entanglement that can transition to Inside Sankaku when one player establishes superior positioning
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Symmetrical leg entanglement that can transition to Inside Sankaku when one player establishes superior positioning
 
-- **[[Single Leg X-Guard]]** - Common entry position that facilitates transition into Inside Sankaku
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Common entry position that facilitates transition into Inside Sankaku
 
-- **[[Cross Ashi-Garami]]** - Related entanglement with similar leg configuration but opposite heel exposure
+- **[[Positions/Ashi Garami/Cross Ashi-Garami]]** - Related entanglement with similar leg configuration but opposite heel exposure
 
-- **[[Kneebar Control]]** - Alternative submission option when heel hook defenses are strong
+- **[[Positions/Kneebar Control]]** - Alternative submission option when heel hook defenses are strong
 
-- **[[Back Control]]** - Alternative advancement when opponent sacrifices back to defend leg attack
+- **[[Positions/Back Control]]** - Alternative advancement when opponent sacrifices back to defend leg attack
 
-- **[[Deep Half Guard]]** - Guard position that can transition to leg entanglements including Inside Sankaku
+- **[[Positions/Half Guard/Deep Half Guard]]** - Guard position that can transition to leg entanglements including Inside Sankaku
 
 
 </section>

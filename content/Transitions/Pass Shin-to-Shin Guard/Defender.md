@@ -154,7 +154,7 @@ description: "Complete defensive guide against Shin-to-Shin Guard passing attemp
 
 Defending against shin-to-shin guard passes requires understanding the passer's sequential attack pattern and disrupting it at the earliest possible stage. The guard player's primary advantage is that the shin connection creates constant off-balancing pressure that the passer must address before safely advancing. Effective defense means recognizing when the passer begins their clearing sequence and either reinforcing the connection, transitioning to a more favorable guard position, or exploiting the passer's compromised base during clearing to initiate sweeps and entries. The defender who waits passively for the pass to develop has already lost—proactive recognition and early response are essential for guard retention against skilled passers.
 
-**Opponent's Starting Position**: [[Shin-to-Shin Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Shin-to-Shin Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against shin-to-shin guard passes requires understanding the passer's 
 ### 1. Transition to Single Leg X-Guard by shooting hips under the passer and establishing hooks during their clearing sequence
 
 - **When to use**: When the passer lifts their leg or creates space during clearing, exposing the leg for hook entry—their clearing movement creates the space you need
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: You establish Single Leg X-Guard with strong sweep options and leg entanglement pathways that put the passer on full defense
 - **Risk**: If the passer recognizes the entry early, they can sprawl and accelerate their pass, potentially clearing your guard entirely before hooks establish
 
 ### 2. Recompose guard by scooting hips back, reestablishing frames, and resetting to open guard distance with active foot placement
 
 - **When to use**: When the passer breaks the shin connection but has not yet advanced to a committed passing position and still has distance to close
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You reset to open guard with defensive frames and can reestablish shin-to-shin, transition to De La Riva, or select another guard based on positioning
 - **Risk**: Repeated recomposition without offensive threats allows the passer to build momentum and eventually force the pass through accumulated pressure
 
 ### 3. Insert knee shield to catch half guard as the passer advances through your guard structure during the final passing phase
 
 - **When to use**: When the passer has cleared the shin and is driving forward into a passing position, as a last-resort guard retention option to prevent complete pass
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish half guard with knee shield, preventing the complete pass to side control and creating a defensible platform with sweep options
 - **Risk**: Late knee insertion may be too slow against an aggressive passer, allowing full pass to side control before half guard can be established
 
 ### 4. Elevate and sweep using butterfly mechanics when the passer commits excessive forward weight during their clearing-to-passing transition
 
 - **When to use**: When the passer drives forward aggressively during clearing, overcommitting their weight past your centerline and compromising their base
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You sweep the passer using their forward momentum, potentially achieving top position or at minimum resetting to neutral standing engagement
 - **Risk**: If the passer maintains base during the elevation attempt, the space created may accelerate their passing sequence
 
@@ -225,11 +225,11 @@ Defending against shin-to-shin guard passes requires understanding the passer's 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Single Leg X-Guard]]
+### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 Time your hip movement to coincide with the passer's clearing attempt. As they lift or shift their trapped leg, shoot your hips underneath and establish the inside hook while controlling their ankle. The clearing movement creates the space needed for entry—use their own clearing momentum against them by redirecting the angle into your hook placement.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Maintain active frames and hip mobility throughout the passer's clearing sequence. When the shin connection breaks, immediately scoot hips back to create distance and reestablish defensive frames with feet on hips or shins. Use sleeve or collar grips to prevent the passer from following your hip movement, then recompose to shin-to-shin or transition to De La Riva or butterfly based on their positioning.
 

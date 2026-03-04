@@ -21,7 +21,7 @@ The technique operates on the principle that the arm trap relies on specific ang
 
 Strategically, Gift Wrap Arm Recovery represents the critical first step in any escape sequence from this position. Without recovering the arm, all other escape attempts become significantly more difficult. The technique must be executed while maintaining neck defense with the free hand, as opponents often attack the rear naked choke when they sense the arm recovery attempt. Timing the recovery when the opponent shifts weight for a submission attempt creates the optimal window for success.
 
-**From Position**: [[Gift Wrap]] (Bottom)
+**From Position**: [[Positions/Gift Wrap]] (Bottom)
 **Success Rate**: 48%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, Gift Wrap Arm Recovery represents the critical first step in any 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 48% |
-| Failure | [[Gift Wrap]] | 37% |
-| Counter | [[Crucifix]] | 15% |
+| Success | [[Positions/Back Control]] | 48% |
+| Failure | [[Positions/Gift Wrap]] | 37% |
+| Counter | [[Positions/Crucifix]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ Gift Wrap Arm Recovery is the critical first step in escaping from one of the mo
 ## Related Techniques
 
 
-- [[Gift Wrap]] - Starting position - the arm trap you are escaping from
+- [[Positions/Gift Wrap]] - Starting position - the arm trap you are escaping from
 
-- [[Back Control]] - Target position - successful recovery returns you to standard back control defense
+- [[Positions/Back Control]] - Target position - successful recovery returns you to standard back control defense
 
-- [[Back Door Escape]] - Follow-up system - escapes available after arm recovery
+- [[Transitions/Back Door Escape]] - Follow-up system - escapes available after arm recovery
 
-- [[Crucifix]] - Counter threat - opponent may transition here if recovery creates opening
+- [[Positions/Crucifix]] - Counter threat - opponent may transition here if recovery creates opening
 
-- [[Hip Escape to Guard]] - Follow-up technique - primary escape after arm recovery
+- [[Transitions/Hip Escape to Guard]] - Follow-up technique - primary escape after arm recovery
 
-- [[Turtle]] - Alternative escape - roll-through variant leads here
+- [[Positions/Turtle]] - Alternative escape - roll-through variant leads here
 
-- [[Rear Naked Choke]] - Submission threat - must defend throughout recovery
+- [[Transitions/Rear Naked Choke]] - Submission threat - must defend throughout recovery
 
-- [[Elbow Escape to Guard]] - Related technique - uses similar hip escape mechanics
+- [[Transitions/Elbow Escape to Guard]] - Related technique - uses similar hip escape mechanics
 
-- [[Hand Fighting from Back]] - Complementary skill - grip fighting principles apply to arm recovery
+- [[Transitions/Hand Fighting from Back]] - Complementary skill - grip fighting principles apply to arm recovery
 
-- [[Gift Wrap Control]] - Opponent's technique - understanding the control helps you escape it
+- [[Transitions/Gift Wrap Control]] - Opponent's technique - understanding the control helps you escape it
 
 
 </section>

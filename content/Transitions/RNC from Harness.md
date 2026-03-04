@@ -21,7 +21,7 @@ The mechanical sequence requires the attacker to slide the over-shoulder arm acr
 
 Strategically, the RNC from Harness works at its highest percentage when integrated into a broader back attack system that includes armbar threats, bow and arrow choke setups, gift wrap transitions, and body triangle adjustments. When the defender must defend multiple submission pathways simultaneously, their ability to prevent any single one diminishes substantially. The RNC serves as the primary apex threat that organizes the entire back attack hierarchy—every other technique from back control either directly sets up the RNC or benefits from the defensive reactions the RNC threat generates.
 
-**From Position**: [[Harness]] (Top)
+**From Position**: [[Positions/Harness]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -33,8 +33,8 @@ Strategically, the RNC from Harness works at its highest percentage when integra
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Harness]] | 35% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Harness]] | 35% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -191,29 +191,29 @@ The RNC from Harness sits at the apex of the back attack hierarchy and is the pr
 ## Related Techniques
 
 
-- [[Harness]] - Source position providing seatbelt grip foundation for the RNC transition
+- [[Positions/Harness]] - Source position providing seatbelt grip foundation for the RNC transition
 
-- [[Back Control]] - Parent position category with hooks fully established
+- [[Positions/Back Control]] - Parent position category with hooks fully established
 
-- [[Body Triangle]] - Alternative leg control that enhances RNC finishing stability
+- [[Positions/Back Control/Body Triangle]] - Alternative leg control that enhances RNC finishing stability
 
-- [[Seat Belt Control Back]] - Alternative classification for the same harness grip configuration
+- [[Positions/Back Control/Seat Belt Control Back]] - Alternative classification for the same harness grip configuration
 
-- [[RNC from Seat Belt]] - Related submission variant from the same control position
+- [[Submissions/RNC from Seat Belt]] - Related submission variant from the same control position
 
-- [[Body Triangle RNC]] - RNC variation with body triangle providing superior lower body control
+- [[Submissions/Body Triangle RNC]] - RNC variation with body triangle providing superior lower body control
 
-- [[Bow and Arrow from Seat Belt]] - Alternative choke from harness when RNC defense is strong
+- [[Submissions/Bow and Arrow from Seat Belt]] - Alternative choke from harness when RNC defense is strong
 
-- [[Gift Wrap from Back]] - Transition when defender's arm defense creates gift wrap opportunity
+- [[Transitions/Gift Wrap from Back]] - Transition when defender's arm defense creates gift wrap opportunity
 
-- [[Armbar from Back Transition]] - Complementary attack that opens when defender protects neck with both hands
+- [[Transitions/Armbar from Back Transition]] - Complementary attack that opens when defender protects neck with both hands
 
-- [[Half Guard]] - Counter escape destination when defender successfully reverses during transition
+- [[Positions/Half Guard]] - Counter escape destination when defender successfully reverses during transition
 
-- [[Rear Triangle]] - Alternative choking attack accessible from back control
+- [[Positions/Triangle Control/Rear Triangle]] - Alternative choking attack accessible from back control
 
-- [[Back Control to Crucifix]] - Positional advancement when defender exposes arm during choke defense
+- [[Transitions/Back Control to Crucifix]] - Positional advancement when defender exposes arm during choke defense
 
 
 </section>

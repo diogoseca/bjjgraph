@@ -158,7 +158,7 @@ The critical window for successful defense occurs during the grip establishment 
 
 The body triangle adds a layer of complexity because it limits your hip mobility and breathing capacity, both of which you need for effective escape. Successful defenders learn to manage the breathing restriction through controlled chest breathing while systematically addressing the collar grip. The position rewards defenders who stay composed under pressure and chain multiple defensive actions together rather than relying on a single explosive escape attempt.
 
-**Opponent's Starting Position**: [[Body Triangle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ The body triangle adds a layer of complexity because it limits your hip mobility
 ### 1. Two-on-one grip strip on the collar hand - use both hands to peel the attacker's fingers out of your collar by attacking the thumb and peeling the grip toward your chest away from the back of your neck
 
 - **When to use**: Immediately when you feel fingers entering your collar, before the grip is fully established and the forearm blade is positioned across your neck
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: Returns you to body triangle position without active choke threat, forcing attacker to re-establish collar access while you reset your defensive posture
 - **Risk**: Both hands occupied with grip stripping leaves your neck momentarily vulnerable if attacker switches to RNC or if the strip fails and they maintain grip depth
 
 ### 2. Turn into the choking arm by rotating your shoulders and hips toward the side of the attacking forearm, reducing the cross-neck pressure angle while creating space to work your chin under the forearm
 
 - **When to use**: When the collar grip is already established and forearm pressure is building across your neck but the choke is not yet fully cinched
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Reduces choke effectiveness significantly by changing the pressure angle, and the turning motion can loosen the body triangle enough to transition to standard back control escape sequences
 - **Risk**: Turning can expose your back further if the attacker follows the rotation effectively, and may open angle for bow and arrow choke transition
 
 ### 3. Frame on the choking arm's elbow with both hands to prevent the downward elbow drive that creates the finishing pressure, wedging your hands between their forearm and your neck to create a barrier
 
 - **When to use**: When the choke is being actively applied and you need to prevent the finish while buying time for a positional escape
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: Stalls the choke finish and creates a defensive standoff where attacker must adjust their mechanics, giving you time to work on turning or grip stripping
 - **Risk**: Sustained framing against the elbow drive is energy-intensive and temporary - attacker can adjust angle or use non-choking hand to clear your frames
 
 ### 4. Bridge explosively toward the choking arm side while simultaneously stripping the collar grip, using the hip thrust to create momentary space and disrupt the attacker's chest-to-back connection
 
 - **When to use**: As a last-resort defense when the choke is nearly locked and incremental defenses have failed, requiring an explosive escape attempt
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Disrupts the choke mechanics through positional displacement, potentially breaking the body triangle lock and creating enough space to begin full back escape sequence
 - **Risk**: High energy expenditure under already restricted breathing, and if the bridge fails the attacker will have even tighter control from your wasted effort
 
@@ -229,11 +229,11 @@ The body triangle adds a layer of complexity because it limits your hip mobility
 
 ## Best-Case Outcomes for Defender
 
-### → [[Body Triangle]]
+### → [[Positions/Back Control/Body Triangle]]
 
 Strip the collar grip using two-on-one hand fighting before the choke is established. Peel the attacker's thumb out of the collar and push their hand away from your neck. Immediately re-establish chin tuck and defensive hand position to prevent re-entry. This returns you to body triangle defense without active choke threat, which is the most common and achievable defensive success.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Turn into the choking arm and bridge simultaneously to disrupt both the choke angle and the body triangle lock. As you rotate, the triangle may loosen enough to clear one leg, transitioning from body triangle to standard hooks. From back control with hooks, you have more established escape sequences available including hip escape to turtle and elbow escape to remove hooks.
 

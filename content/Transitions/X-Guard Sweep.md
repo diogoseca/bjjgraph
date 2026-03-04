@@ -21,7 +21,7 @@ The X-Guard Sweep serves as a cornerstone technique within the broader X-Guard a
 
 Strategically, the X-Guard Sweep creates a powerful dilemma for the standing opponent. If they maintain an upright posture, the elevation sweep is available. If they lower their base to defend, transitions to Single Leg X or leg entanglements open up. If they attempt to step back, the sweeper can follow with inversions or deep half entries. This branching threat tree makes X-Guard one of the most tactically rich sweeping positions in modern grappling.
 
-**From Position**: [[X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the X-Guard Sweep creates a powerful dilemma for the standing opp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 65% |
-| Failure | [[X-Guard]] | 25% |
-| Counter | [[X-Guard]] | 10% |
+| Success | [[Positions/Mount]] | 65% |
+| Failure | [[Positions/X-Guard]] | 25% |
+| Counter | [[Positions/X-Guard]] | 10% |
 
 
 </section>
@@ -194,35 +194,35 @@ The X-Guard Sweep serves as the primary offensive weapon within the X-Guard atta
 ## Related Techniques
 
 
-- [[X-Guard]] - Starting position from which this sweep is executed
+- [[Positions/X-Guard]] - Starting position from which this sweep is executed
 
-- [[Single Leg X-Guard]] - Alternative guard position reached when hooks become shallow during sweep attempt
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative guard position reached when hooks become shallow during sweep attempt
 
-- [[Mount]] - Primary ending position after successful sweep completion
+- [[Positions/Mount]] - Primary ending position after successful sweep completion
 
-- [[Side Control]] - Alternative ending position when opponent falls laterally
+- [[Positions/Side Control]] - Alternative ending position when opponent falls laterally
 
-- [[Back Control]] - Advanced ending position when opponent turns away during sweep
+- [[Positions/Back Control]] - Advanced ending position when opponent turns away during sweep
 
-- [[Butterfly Guard to X-Guard]] - Common entry transition establishing X-Guard before sweep
+- [[Transitions/Butterfly Guard to X-Guard]] - Common entry transition establishing X-Guard before sweep
 
-- [[De La Riva to X-Guard Transition]] - Alternative entry path from De La Riva hook
+- [[Transitions/De La Riva to X-Guard Transition]] - Alternative entry path from De La Riva hook
 
-- [[Single Leg X Entry]] - Related entry technique sharing similar leg control mechanics
+- [[Transitions/Single Leg X Entry]] - Related entry technique sharing similar leg control mechanics
 
-- [[Armbar from Guard]] - Submission chain option when opponent posts hand to defend sweep
+- [[Submissions/Armbar from Guard]] - Submission chain option when opponent posts hand to defend sweep
 
-- [[Kneebar from Guard]] - Leg attack option accessible from X-Guard configuration
+- [[Submissions/Kneebar from Guard]] - Leg attack option accessible from X-Guard configuration
 
-- [[Elevator Sweep]] - Similar butterfly-based sweep sharing elevation principles
+- [[Transitions/Elevator Sweep]] - Similar butterfly-based sweep sharing elevation principles
 
-- [[Hook Sweep]] - Related sweep sharing directional off-balancing concepts
+- [[Transitions/Hook Sweep]] - Related sweep sharing directional off-balancing concepts
 
-- [[Butterfly Sweep]] - Foundational sweep technique from which X-Guard mechanics derive
+- [[Transitions/Butterfly Sweep]] - Foundational sweep technique from which X-Guard mechanics derive
 
-- [[Reverse X-Guard]] - Mirror variation accessible when opponent circles away from sweep
+- [[Positions/X-Guard/Reverse X-Guard]] - Mirror variation accessible when opponent circles away from sweep
 
-- [[Deep Half Guard]] - Fallback position when forward pressure collapses X-Guard structure
+- [[Positions/Half Guard/Deep Half Guard]] - Fallback position when forward pressure collapses X-Guard structure
 
 
 </section>

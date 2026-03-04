@@ -184,7 +184,7 @@ The shin shield works by using your inside leg to create a barrier across the op
 
 Mastering shin shield recovery is critical for developing a robust half guard game. It serves as the foundation for numerous sweeps, back takes, and submissions while simultaneously providing a reliable defensive structure. The technique requires precise hip positioning, proper angle creation, and understanding of weight distribution to maximize effectiveness against various passing attempts.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -238,9 +238,9 @@ Mastering shin shield recovery is critical for developing a robust half guard ga
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Knee Shield Half Guard]] | 75% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Side Control]] | 10% |
+| Success | [[Positions/Half Guard/Knee Shield Half Guard]] | 75% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -249,11 +249,11 @@ Mastering shin shield recovery is critical for developing a robust half guard ga
 
 ## Opponent Counters
 
-- **Opponent smashes shin shield down by driving shoulder over knee** (Effectiveness: High) - Your Response: Immediately switch to deep half guard entry or reverse half guard by inverting under their pressure. Alternatively, use the downward pressure to facilitate an Old School Sweep by sitting up and capturing their far arm. → Leads to [[Side Control]]
-- **Opponent backsteps to free trapped leg and initiate leg drag** (Effectiveness: High) - Your Response: Follow their backstep by extending your shield leg to maintain connection, transitioning to reverse de la riva guard or single leg X-guard. Use your outside leg to hook their leg as they step back. → Leads to [[Side Control]]
-- **Opponent drives crossface while controlling your inside arm** (Effectiveness: Medium) - Your Response: Use your shield leg to create distance while shrimping your hips away from the crossface. Fight to recover inside underhook or switch to deep half entry where crossface is less effective. → Leads to [[Half Guard]]
-- **Opponent grips your shield ankle and attempts to move it aside** (Effectiveness: Medium) - Your Response: Maintain active pressure through your shin while using your hands to break their grip. Simultaneously shrimp to create new angle that makes their grip less effective. Consider transitioning to butterfly guard if they elevate your shield leg. → Leads to [[Half Guard]]
-- **Opponent settles back into combat base to wait out your recovery** (Effectiveness: Low) - Your Response: Use the space they've given you to fully recover knee shield position and begin offensive attacks. Their retreat indicates your defensive structure is working effectively. → Leads to [[Knee Shield Half Guard]]
+- **Opponent smashes shin shield down by driving shoulder over knee** (Effectiveness: High) - Your Response: Immediately switch to deep half guard entry or reverse half guard by inverting under their pressure. Alternatively, use the downward pressure to facilitate an Old School Sweep by sitting up and capturing their far arm. → Leads to [[Positions/Side Control]]
+- **Opponent backsteps to free trapped leg and initiate leg drag** (Effectiveness: High) - Your Response: Follow their backstep by extending your shield leg to maintain connection, transitioning to reverse de la riva guard or single leg X-guard. Use your outside leg to hook their leg as they step back. → Leads to [[Positions/Side Control]]
+- **Opponent drives crossface while controlling your inside arm** (Effectiveness: Medium) - Your Response: Use your shield leg to create distance while shrimping your hips away from the crossface. Fight to recover inside underhook or switch to deep half entry where crossface is less effective. → Leads to [[Positions/Half Guard]]
+- **Opponent grips your shield ankle and attempts to move it aside** (Effectiveness: Medium) - Your Response: Maintain active pressure through your shin while using your hands to break their grip. Simultaneously shrimp to create new angle that makes their grip less effective. Consider transitioning to butterfly guard if they elevate your shield leg. → Leads to [[Positions/Half Guard]]
+- **Opponent settles back into combat base to wait out your recovery** (Effectiveness: Low) - Your Response: Use the space they've given you to fully recover knee shield position and begin offensive attacks. Their retreat indicates your defensive structure is working effectively. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 
 
 </section>

@@ -178,7 +178,7 @@ From a mechanical standpoint, this transition involves extracting one leg from t
 
 Strategically, this transition excels when opponents defend mounted crucifix chokes effectively by tucking their chin but leave their trapped arm extended. The S Mount opens armbar entries from a different angle while maintaining the control benefits of arm isolation. Advanced practitioners chain this transition with submission attempts, using the threat of one attack to facilitate the positional change.
 
-**From Position**: [[Mounted Crucifix]] (Top)
+**From Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategically, this transition excels when opponents defend mounted crucifix cho
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[S Mount]] | 65% |
-| Failure | [[Mounted Crucifix]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount/S Mount]] | 65% |
+| Failure | [[Positions/Mount/Mounted Crucifix]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, this transition excels when opponents defend mounted crucifix cho
 
 ## Opponent Counters
 
-- **Explosive bridge during leg extraction phase to create space and extract trapped arm** (Effectiveness: High) - Your Response: Anticipate the bridge by keeping weight forward throughout. If bridge occurs, post with your hand and ride the movement rather than fighting it, then re-establish crucifix control → Leads to [[Mounted Crucifix]]
-- **Arm extraction attempt when crucifix pressure releases during transition** (Effectiveness: Medium) - Your Response: Maintain constant pressure with controlling leg throughout transition. If arm begins escaping, abandon S Mount attempt and return to secure crucifix position → Leads to [[Mounted Crucifix]]
-- **Hip escape toward the extracting leg side to create distance and recover half guard** (Effectiveness: Medium) - Your Response: Follow their hip movement with your body, keeping chest pressure on their torso. Complete leg threading quickly to establish S Mount before they can fully escape → Leads to [[Half Guard]]
-- **Turning into you and attempting to come to knees** (Effectiveness: Low) - Your Response: Their turn exposes their back - transition to back control instead of completing S Mount, maintaining arm control throughout → Leads to [[Mounted Crucifix]]
+- **Explosive bridge during leg extraction phase to create space and extract trapped arm** (Effectiveness: High) - Your Response: Anticipate the bridge by keeping weight forward throughout. If bridge occurs, post with your hand and ride the movement rather than fighting it, then re-establish crucifix control → Leads to [[Positions/Mount/Mounted Crucifix]]
+- **Arm extraction attempt when crucifix pressure releases during transition** (Effectiveness: Medium) - Your Response: Maintain constant pressure with controlling leg throughout transition. If arm begins escaping, abandon S Mount attempt and return to secure crucifix position → Leads to [[Positions/Mount/Mounted Crucifix]]
+- **Hip escape toward the extracting leg side to create distance and recover half guard** (Effectiveness: Medium) - Your Response: Follow their hip movement with your body, keeping chest pressure on their torso. Complete leg threading quickly to establish S Mount before they can fully escape → Leads to [[Positions/Half Guard]]
+- **Turning into you and attempting to come to knees** (Effectiveness: Low) - Your Response: Their turn exposes their back - transition to back control instead of completing S Mount, maintaining arm control throughout → Leads to [[Positions/Mount/Mounted Crucifix]]
 
 
 </section>

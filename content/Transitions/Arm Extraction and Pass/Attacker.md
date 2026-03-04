@@ -178,7 +178,7 @@ The mechanical foundation relies on isolating the opponent's arm through shoulde
 
 Strategically, this technique represents a critical bridge between the dynamic turtle attack system and the stable control offered by side control. While Crackhead Control provides excellent back take and submission opportunities, some opponents become highly defensive, denying hooks and protecting their neck. The Arm Extraction and Pass offers an alternative advancement path that trades submission opportunities for positional points and the extensive attack options available from side control. Advanced practitioners use this as part of a threat matrix: the opponent must defend back takes, truck entries, and chokes from Crackhead Control, but defensive postures that protect against these attacks often make the Arm Extraction and Pass easier to execute.
 
-**From Position**: [[Crackhead Control]] (Top)
+**From Position**: [[Positions/Crackhead Control]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategically, this technique represents a critical bridge between the dynamic t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Crackhead Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Crackhead Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, this technique represents a critical bridge between the dynamic t
 
 ## Opponent Counters
 
-- **Opponent posts extracted arm and frames against your hip** (Effectiveness: High) - Your Response: Immediately attack the posted arm with kimura grip before completing the pass, or switch to north-south transition to avoid the frame → Leads to [[Crackhead Control]]
-- **Opponent times a granby roll as you shift your hips for extraction** (Effectiveness: Medium) - Your Response: Follow their roll maintaining chest contact and transition to back control as they expose their back during the roll → Leads to [[Half Guard]]
-- **Opponent explosively sits through to guard during the transition** (Effectiveness: Medium) - Your Response: Maintain inside leg hook until the final moment of the pass to prevent the sit-through, or accept half guard and pass from there → Leads to [[Half Guard]]
-- **Opponent turtles tighter and blocks arm extraction with their other arm** (Effectiveness: Low) - Your Response: Attack the protecting arm with a kimura or switch to the other side to extract the opposite arm instead → Leads to [[Crackhead Control]]
+- **Opponent posts extracted arm and frames against your hip** (Effectiveness: High) - Your Response: Immediately attack the posted arm with kimura grip before completing the pass, or switch to north-south transition to avoid the frame → Leads to [[Positions/Crackhead Control]]
+- **Opponent times a granby roll as you shift your hips for extraction** (Effectiveness: Medium) - Your Response: Follow their roll maintaining chest contact and transition to back control as they expose their back during the roll → Leads to [[Positions/Half Guard]]
+- **Opponent explosively sits through to guard during the transition** (Effectiveness: Medium) - Your Response: Maintain inside leg hook until the final moment of the pass to prevent the sit-through, or accept half guard and pass from there → Leads to [[Positions/Half Guard]]
+- **Opponent turtles tighter and blocks arm extraction with their other arm** (Effectiveness: Low) - Your Response: Attack the protecting arm with a kimura or switch to the other side to extract the opposite arm instead → Leads to [[Positions/Crackhead Control]]
 
 
 </section>

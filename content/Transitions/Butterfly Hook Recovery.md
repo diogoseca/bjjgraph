@@ -21,7 +21,7 @@ The strategic importance of this technique cannot be overstated for bottom playe
 
 Timing is the critical factor that separates successful butterfly hook recoveries from failed attempts that result in immediate pass completion. The window for insertion exists when the passer's weight shifts forward, backward, or laterally - any moment when their pressure is not driving directly into your hips. Advanced practitioners develop the sensitivity to feel these micro-adjustments and insert hooks almost reflexively, while beginners must consciously look for larger, more obvious opportunities.
 
-**From Position**: [[Double Unders]] (Bottom)
+**From Position**: [[Positions/Double Unders]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Timing is the critical factor that separates successful butterfly hook recoverie
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Butterfly Guard]] | 65% |
-| Failure | [[Double Unders]] | 25% |
-| Counter | [[Side Control]] | 10% |
+| Success | [[Positions/Butterfly Guard]] | 65% |
+| Failure | [[Positions/Double Unders]] | 25% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -189,23 +189,23 @@ Butterfly Hook Recovery occupies a critical junction in the guard retention syst
 ## Related Techniques
 
 
-- [[Double Unders]] - Starting position - the crisis state this technique escapes from
+- [[Positions/Double Unders]] - Starting position - the crisis state this technique escapes from
 
-- [[Butterfly Guard]] - Target position - where successful recovery leads
+- [[Positions/Butterfly Guard]] - Target position - where successful recovery leads
 
-- [[Butterfly Sweep]] - Follow-up attack from recovered butterfly guard
+- [[Transitions/Butterfly Sweep]] - Follow-up attack from recovered butterfly guard
 
-- [[Hip Escape to Guard]] - Core movement used to create space for hook insertion
+- [[Transitions/Hip Escape to Guard]] - Core movement used to create space for hook insertion
 
-- [[Deep Half Entry]] - Alternative escape when hook recovery is not possible
+- [[Transitions/Deep Half Entry]] - Alternative escape when hook recovery is not possible
 
-- [[Granby Roll to Guard]] - Alternative escape option using opponent's forward momentum
+- [[Transitions/Granby Roll to Guard]] - Alternative escape option using opponent's forward momentum
 
-- [[De La Riva Guard]] - Transition option when opponent backsteps around inserted hook
+- [[Positions/De La Riva Guard]] - Transition option when opponent backsteps around inserted hook
 
-- [[Arm Drag]] - Follow-up attack available from recovered butterfly position
+- [[Transitions/Arm Drag]] - Follow-up attack available from recovered butterfly position
 
-- [[Knee Shield Half Guard]] - Alternative guard recovery target if full butterfly not achievable
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative guard recovery target if full butterfly not achievable
 
 
 </section>

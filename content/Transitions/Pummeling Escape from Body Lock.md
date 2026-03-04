@@ -21,7 +21,7 @@ Unlike pure grip-breaking escapes that target the hands directly, the pummeling 
 
 Success depends heavily on timing and hip coordination with arm movement. The optimal window opens when the opponent adjusts their grip, shifts weight for an attack, or transitions between throwing attempts. Chaining multiple pummel entries together before the opponent can re-establish control is essential, as single isolated attempts are easily countered by experienced grapplers who simply re-lock and tighten their connection.
 
-**From Position**: [[Body Lock]] (Bottom)
+**From Position**: [[Positions/Body Lock]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Success depends heavily on timing and hip coordination with arm movement. The op
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Clinch]] | 45% |
-| Failure | [[Body Lock]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Clinch]] | 45% |
+| Failure | [[Positions/Body Lock]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -193,25 +193,25 @@ The pummeling escape from body lock sits at the intersection of wrestling underh
 ## Related Techniques
 
 
-- [[Body Lock]] - Source position from which this escape is executed
+- [[Positions/Body Lock]] - Source position from which this escape is executed
 
-- [[Clinch]] - Primary target position after successful pummeling escape
+- [[Positions/Clinch]] - Primary target position after successful pummeling escape
 
-- [[Back Control]] - Dangerous counter position if escape is poorly timed
+- [[Positions/Back Control]] - Dangerous counter position if escape is poorly timed
 
-- [[Escape Body Lock]] - Related general body lock escape technique using grip breaks
+- [[Transitions/Escape Body Lock]] - Related general body lock escape technique using grip breaks
 
-- [[Standing Position]] - Neutral standing state achievable after clinch disengagement
+- [[Positions/Standing Position]] - Neutral standing state achievable after clinch disengagement
 
-- [[Body Lock to Standing]] - Complementary transition for regaining neutral standing
+- [[Transitions/Body Lock to Standing]] - Complementary transition for regaining neutral standing
 
-- [[Break Clinch]] - Follow-up technique to create full separation after reaching clinch
+- [[Transitions/Break Clinch]] - Follow-up technique to create full separation after reaching clinch
 
-- [[Defense from Standing Rear Clinch]] - Related standing defensive technique against rear body control
+- [[Transitions/Defense from Standing Rear Clinch]] - Related standing defensive technique against rear body control
 
-- [[Double Unders]] - Related grip configuration that pummeling techniques are effective against
+- [[Positions/Double Unders]] - Related grip configuration that pummeling techniques are effective against
 
-- [[Harness]] - Ground-based equivalent of body lock control using similar grip mechanics
+- [[Positions/Harness]] - Ground-based equivalent of body lock control using similar grip mechanics
 
 
 </section>

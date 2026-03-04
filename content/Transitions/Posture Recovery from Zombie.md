@@ -21,7 +21,7 @@ The recovery process requires a methodical approach combining crossface pressure
 
 Success in this transition directly enables the top player to begin passing sequences toward side control, while failure leaves them vulnerable to sweeps, submissions, and continued positional stagnation. The technique exemplifies the importance of systematic positional recovery in BJJ, where rushing the process exposes the top player to the bottom player's strongest counterattacks including the Old School Sweep and Electric Chair submission.
 
-**From Position**: [[Zombie]] (Top)
+**From Position**: [[Positions/Rubber Guard/Zombie]] (Top)
 **Success Rate**: 48%
 
 </section>
@@ -32,9 +32,9 @@ Success in this transition directly enables the top player to begin passing sequ
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 48% |
-| Failure | [[Zombie]] | 32% |
-| Counter | [[Closed Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 48% |
+| Failure | [[Positions/Rubber Guard/Zombie]] | 32% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -193,27 +193,27 @@ Posture Recovery from Zombie occupies a pivotal role in the half guard passing h
 ## Related Techniques
 
 
-- [[Zombie]] - Source position where posture has been broken by bottom player's lockdown system
+- [[Positions/Rubber Guard/Zombie]] - Source position where posture has been broken by bottom player's lockdown system
 
-- [[Lockdown]] - Core defensive mechanic that must be overcome during posture recovery
+- [[Positions/Half Guard/Lockdown]] - Core defensive mechanic that must be overcome during posture recovery
 
-- [[Side Control]] - Primary target position after successful posture recovery enables passing
+- [[Positions/Side Control]] - Primary target position after successful posture recovery enables passing
 
-- [[Closed Guard]] - Counter outcome when bottom player re-establishes full guard during recovery attempt
+- [[Positions/Closed Guard]] - Counter outcome when bottom player re-establishes full guard during recovery attempt
 
-- [[Half Guard]] - Parent position family containing the Zombie as a specialized variant
+- [[Positions/Half Guard]] - Parent position family containing the Zombie as a specialized variant
 
-- [[Deep Half Guard]] - Alternative position bottom player may transition to during recovery attempts
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative position bottom player may transition to during recovery attempts
 
-- [[Combat Base]] - Related posture concept for maintaining structural integrity from top position
+- [[Positions/Combat Base]] - Related posture concept for maintaining structural integrity from top position
 
-- [[Mission Control]] - Related 10th Planet control position sharing lockdown-based mechanics
+- [[Positions/Rubber Guard/Mission Control]] - Related 10th Planet control position sharing lockdown-based mechanics
 
-- [[Rubber Guard]] - Connected 10th Planet system where similar posture recovery principles apply
+- [[Positions/Rubber Guard]] - Connected 10th Planet system where similar posture recovery principles apply
 
-- [[Electric Chair]] - Primary submission threat if posture recovery is executed poorly
+- [[Positions/Half Guard/Electric Chair]] - Primary submission threat if posture recovery is executed poorly
 
-- [[Back Control]] - Worst-case outcome if recovery fails and opponent achieves back exposure
+- [[Positions/Back Control]] - Worst-case outcome if recovery fails and opponent achieves back exposure
 
 
 </section>

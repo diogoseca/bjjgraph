@@ -21,7 +21,7 @@ The strategic foundation rests on recognizing that the ankle lock attacker has t
 
 Execution demands a disciplined two-phase approach. Phase one is pure defense: establish boot position by plantarflexing the foot and hiding the toes, then initiate two-on-one grip fighting to strip the heel control. Phase two transitions immediately to offense: drive forward pressure to stack the attacker's hips, strip remaining grips, step over their legs, and consolidate side control. The tempo between phases is decisive. Lingering in defense allows the attacker to recompose or transition to inside ashi-garami, while rushing the pass without completing boot defense invites the submission finish.
 
-**From Position**: [[Straight Ankle Lock Control]] (Top)
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Execution demands a disciplined two-phase approach. Phase one is pure defense: e
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Straight Ankle Lock Control]] | 30% |
-| Counter | [[Inside Ashi-Garami]] | 15% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Straight Ankle Lock Control]] | 30% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
 | Counter | [[game-over]] | 15% |
 
 
@@ -192,25 +192,25 @@ The counter from ankle lock occupies a vital position within the leg lock defens
 ## Related Techniques
 
 
-- [[Straight Ankle Lock Control]] - Starting position where the counter is initiated from the defensive Top role
+- [[Positions/Straight Ankle Lock Control]] - Starting position where the counter is initiated from the defensive Top role
 
-- [[Side Control]] - Primary target position achieved upon successful counter and guard pass
+- [[Positions/Side Control]] - Primary target position achieved upon successful counter and guard pass
 
-- [[Ankle Lock Escape to Standing]] - Alternative escape from the same starting position prioritizing standing over passing
+- [[Transitions/Ankle Lock Escape to Standing]] - Alternative escape from the same starting position prioritizing standing over passing
 
-- [[Ashi Garami Escape]] - Related leg entanglement escape technique sharing defensive principles
+- [[Transitions/Ashi Garami Escape]] - Related leg entanglement escape technique sharing defensive principles
 
-- [[Inside Ashi-Garami]] - Dangerous counter position the attacker may transition to during forward drive
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Dangerous counter position the attacker may transition to during forward drive
 
-- [[Boot Defense from Toe Hold]] - Related defensive concept using foot positioning mechanics against leg attacks
+- [[Transitions/Boot Defense from Toe Hold]] - Related defensive concept using foot positioning mechanics against leg attacks
 
-- [[Achilles Lock]] - The submission being defended against and neutralized by this counter
+- [[Submissions/Achilles Lock]] - The submission being defended against and neutralized by this counter
 
-- [[50-50 Guard]] - Alternative defensive destination via counter-entanglement from ankle lock control
+- [[Positions/Ashi Garami/50-50 Guard]] - Alternative defensive destination via counter-entanglement from ankle lock control
 
-- [[Open Guard]] - Intermediate recovery position during partial escape sequences
+- [[Positions/Open Guard]] - Intermediate recovery position during partial escape sequences
 
-- [[Standing Position]] - Alternative escape destination when standing counter variant is used
+- [[Positions/Standing Position]] - Alternative escape destination when standing counter variant is used
 
 
 </section>

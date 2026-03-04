@@ -164,7 +164,7 @@ Defending the Side Control to North-South transition requires recognizing the mo
 
 The critical defensive window is narrow. Once your opponent begins walking their feet around your head, you have approximately 2-3 seconds to disrupt the movement before they consolidate North-South control. Your defensive options range from creating frames that block the rotation, hip escaping to recover guard during the transition gap, to following their movement and turning into turtle position. Each option carries different risks and rewards depending on how far the transition has progressed when you initiate your defense.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -202,28 +202,28 @@ The critical defensive window is narrow. Once your opponent begins walking their
 ### 1. Frame against opponent's hip and chest to block rotation, then hip escape toward their legs to recover guard
 
 - **When to use**: Early in the transition when opponent has just begun walking feet around your head and has not yet passed the halfway point
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You create enough space to insert a knee and recover half guard or closed guard, returning to a defensible position
 - **Risk**: If your frames are collapsed, you end up in North-South with arms extended, making escape more difficult
 
 ### 2. Underhook opponent's far leg as they walk around to anchor their rotation and prevent completion
 
 - **When to use**: When opponent's legs come within reach during the mid-point of the transition and their far leg is accessible
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: The underhook prevents the rotation from completing, forcing opponent to either return to Side Control or abandon the transition entirely
 - **Risk**: If opponent recognizes the underhook and adjusts, they may transition to mount instead using your grip as leverage
 
 ### 3. Turn toward opponent and follow their rotation to reach turtle position before they establish North-South
 
 - **When to use**: When the transition is past the halfway point and preventing completion is no longer possible with frames alone
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You reach turtle position where you have more escape options than from under North-South, including standing up and front headlock defense
 - **Risk**: Opponent may take your back during the turn or establish a front headlock if your timing is late
 
 ### 4. Bridge explosively as opponent shifts weight during the rotation to disrupt their balance and create reversal opportunity
 
 - **When to use**: When opponent lifts their hips slightly during the walking motion, creating a momentary balance vulnerability
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: The bridge disrupts their rotational path and may create enough space for you to reguard or even reverse the position
 - **Risk**: If the bridge fails, you have expended significant energy and opponent may accelerate into North-South using your bridge momentum
 
@@ -235,11 +235,11 @@ The critical defensive window is narrow. Once your opponent begins walking their
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Frame early against opponent's chest and hip to block rotation, then immediately hip escape toward their legs during the pressure gap. Insert your knee between bodies to recover half guard or full guard before they can reset their Side Control position.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 If you cannot recover guard, force the opponent back to Side Control by underhooking their far leg or creating strong frames that prevent the rotation from completing. Remaining in Side Control is preferable to allowing North-South because Side Control offers better escape pathways and more frame options.
 

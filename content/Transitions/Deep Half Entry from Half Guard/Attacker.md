@@ -186,7 +186,7 @@ description: "Execute the Deep Half Entry from Half Guard with systematic mechan
 
 As the attacker executing the Deep Half Entry, your objective is to transition from standard half guard bottom into deep half guard by sliding your upper body underneath your opponent's center of gravity. This transition requires precise timing, proper underhook mechanics, and coordinated hip movement to thread your head and shoulder beneath the opponent's hips. The entry converts a position where you may be losing the upper body control battle into one where you hold significant mechanical advantage for sweeps and back takes. Success depends on reading your opponent's weight distribution and exploiting moments when they commit pressure forward, using their own energy against them as you redirect underneath their base.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the attacker executing the Deep Half Entry, your objective is to transition f
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Deep Half Guard]] | 55% |
-| Failure | [[Half Guard]] | 30% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Half Guard/Deep Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the attacker executing the Deep Half Entry, your objective is to transition f
 
 ## Opponent Counters
 
-- **Crossface and sprawl to flatten bottom player before entry completes** (Effectiveness: High) - Your Response: Accelerate the entry timing and use the free hand to swim underneath the crossface arm. If caught mid-entry, transition to lockdown to reset and attempt again with better timing. → Leads to [[Flattened Half Guard]]
-- **Whizzer on underhook arm to prevent diving underneath** (Effectiveness: Medium) - Your Response: Use the whizzer pressure to your advantage by redirecting it into the entry. As they overhook, duck your head deeper and use their whizzer pressure to slide underneath. The whizzer actually assists the entry if you angle correctly. → Leads to [[Half Guard]]
-- **Hip switch and backstep to extract trapped leg and change angle** (Effectiveness: High) - Your Response: Follow the opponent's movement with your legs and maintain the half guard hook. If they successfully switch hips, transition to single leg X-guard or re-guard rather than forcing the deep half entry against their changed angle. → Leads to [[Flattened Half Guard]]
-- **Post free leg wide and lower hips to eliminate entry space** (Effectiveness: Medium) - Your Response: Attack the posted leg with your free hand to destabilize their wide base. Alternatively, use the lockdown on their trapped leg to pull them forward and recreate the space needed for the entry angle. → Leads to [[Half Guard]]
+- **Crossface and sprawl to flatten bottom player before entry completes** (Effectiveness: High) - Your Response: Accelerate the entry timing and use the free hand to swim underneath the crossface arm. If caught mid-entry, transition to lockdown to reset and attempt again with better timing. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Whizzer on underhook arm to prevent diving underneath** (Effectiveness: Medium) - Your Response: Use the whizzer pressure to your advantage by redirecting it into the entry. As they overhook, duck your head deeper and use their whizzer pressure to slide underneath. The whizzer actually assists the entry if you angle correctly. → Leads to [[Positions/Half Guard]]
+- **Hip switch and backstep to extract trapped leg and change angle** (Effectiveness: High) - Your Response: Follow the opponent's movement with your legs and maintain the half guard hook. If they successfully switch hips, transition to single leg X-guard or re-guard rather than forcing the deep half entry against their changed angle. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Post free leg wide and lower hips to eliminate entry space** (Effectiveness: Medium) - Your Response: Attack the posted leg with your free hand to destabilize their wide base. Alternatively, use the lockdown on their trapped leg to pull them forward and recreate the space needed for the entry angle. → Leads to [[Positions/Half Guard]]
 
 
 </section>

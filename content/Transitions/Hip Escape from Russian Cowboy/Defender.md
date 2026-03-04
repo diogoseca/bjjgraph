@@ -138,7 +138,7 @@ description: "Complete guide to preventing the hip escape from Russian Cowboy to
 
 Defending against the hip escape from Russian Cowboy top requires proactive control maintenance and the ability to read the bottom player's escape preparation. The top player must recognize the warning signs of an impending hip escape, specifically frame establishment, ankle grip attempts, and hip angle changes, and address each preparatory step before the bottom player can commit to the escape movement. Effective defense combines constant chest-to-back pressure, active hook management, and strategic submission threats that force the bottom player to choose between escape preparation and survival defense. The most effective Russian Cowboy top players prevent escape attempts from materializing rather than relying on reactions to escape movements already in progress.
 
-**Opponent's Starting Position**: [[Russian Cowboy]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Russian Cowboy]] (Bottom)
 
 </section>
 
@@ -176,28 +176,28 @@ Defending against the hip escape from Russian Cowboy top requires proactive cont
 ### 1. Drive chest weight forward and collapse frame by angling into bottom player's hip frame
 
 - **When to use**: When you detect frame establishment against your hip before the hip escape movement begins
-- **Targets**: [[Russian Cowboy]]
+- **Targets**: [[Positions/Russian Cowboy]]
 - **If successful**: Eliminates the space necessary for hip escape and forces bottom player to restart their escape preparation from survival position
 - **Risk**: If timed late, your forward drive may not overcome the frame and you waste energy pushing against an established structure
 
 ### 2. Thread second hook to advance to truck position as bottom player creates space during escape
 
 - **When to use**: When bottom player commits to hip escape movement and creates space between their legs during the shrimp
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: Converts bottom player's escape attempt into positional advancement to truck, a more dominant control position with additional submission opportunities
 - **Risk**: If bottom player closes knees quickly, your second hook attempt fails and you may lose hook depth on the original leg
 
 ### 3. Attack the neck with rear naked choke setup to force bottom player back to hand fighting defense
 
 - **When to use**: When bottom player removes hands from neck defense to establish frames or grip the hooking ankle
-- **Targets**: [[Russian Cowboy]]
+- **Targets**: [[Positions/Russian Cowboy]]
 - **If successful**: Forces bottom player to abandon escape preparation and return to survival hand fighting, resetting their escape timeline
 - **Risk**: If the choke attempt is not tight enough, bottom player may continue escape attempt while partially defending the choke
 
 ### 4. Follow hip escape with your own hip movement to maintain relative position and chest contact
 
 - **When to use**: When bottom player executes the hip escape and you need to maintain position rather than advance
-- **Targets**: [[Russian Cowboy]]
+- **Targets**: [[Positions/Russian Cowboy]]
 - **If successful**: Negates the distance created by the hip escape by matching their lateral movement, maintaining chest contact and hook engagement
 - **Risk**: Requires good anticipation and hip mobility; if you react late, bottom player gains enough distance to extract the hook
 
@@ -209,11 +209,11 @@ Defending against the hip escape from Russian Cowboy top requires proactive cont
 
 ## Best-Case Outcomes for Defender
 
-### → [[Russian Cowboy]]
+### → [[Positions/Russian Cowboy]]
 
 Maintain constant chest pressure, immediately collapse any frames before they become established, and threaten submissions when hands leave neck defense. The key is preventing escape attempts from reaching execution phase rather than countering them during movement.
 
-### → [[Truck]]
+### → [[Positions/Twister Control/Truck]]
 
 When the bottom player commits to the hip escape and creates space, use that space to thread your free leg as a second hook into truck position. Time the insertion during the peak of their hip escape when their knees are most separated. This converts their escape attempt into your positional advancement.
 

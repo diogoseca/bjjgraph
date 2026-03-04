@@ -146,7 +146,7 @@ description: "Master the defender perspective against Kimura Defense Arm Extract
 
 As the defender against the Kimura Defense Arm Extraction, you are the Kimura grip holder working to maintain your figure-four configuration while the opponent attempts to free their trapped arm. Your defensive strategy centers on keeping elbows tight to your body, maintaining grip depth near the opponent's elbow, and using hip movement combined with secondary controls to prevent the straightening and mat-driving mechanics that break the grip. When the opponent commits to extraction, this creates predictable movement patterns you can exploit for sweeps, back takes, and submission transitions. A sustained extraction attempt actually opens offensive opportunities because the opponent's focus on their arm creates vulnerabilities in their base, pressure, and positional awareness that an active Kimura Trap player can exploit systematically.
 
-**Opponent's Starting Position**: [[Kimura Trap]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ As the defender against the Kimura Defense Arm Extraction, you are the Kimura gr
 ### 1. Deepen grip and lock elbows tight to body while curling torso forward
 
 - **When to use**: Immediately when you feel the opponent beginning to straighten the trapped arm or drive it toward the mat
-- **Targets**: [[Kimura Trap]]
+- **Targets**: [[Positions/Kimura Trap]]
 - **If successful**: Maintains Kimura grip and full offensive position, allowing continued sweep, back take, and submission threats from the Kimura Trap system
 - **Risk**: If opponent has already achieved significant arm extension, attempting to re-deepen the grip may allow them to flatten you with forward pressure
 
 ### 2. Initiate Old School Sweep timed to the extraction attempt
 
 - **When to use**: When the opponent lifts hips or shifts weight forward during extraction, creating the base vulnerability needed for sweep mechanics
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Sweep the opponent and achieve top position while potentially maintaining the Kimura grip for continued offensive pressure from top
 - **Risk**: Failed sweep attempt may accelerate the extraction as your hip movement and bridge temporarily loosens the grip structure
 
 ### 3. Transition to back take as opponent drives arm forward and creates space underneath
 
 - **When to use**: When the opponent commits heavily to forward arm drive with chest pressure, creating enough space for you to turn underneath them
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Take the back and establish back control, transforming their extraction attempt into a significantly worse positional outcome
 - **Risk**: Incomplete back take attempt may result in a scramble where the Kimura grip is lost without achieving positional gain
 
 ### 4. Establish lockdown to create compound control before grip breaks
 
 - **When to use**: Early in the extraction attempt, before the opponent has fully committed to arm straightening or hip withdrawal
-- **Targets**: [[Kimura Trap]]
+- **Targets**: [[Positions/Kimura Trap]]
 - **If successful**: Compound Kimura plus lockdown control makes extraction nearly impossible and opens electric chair and additional sweep threats
 - **Risk**: Momentary loosening of grip focus during lockdown establishment may provide a brief extraction window
 
@@ -218,11 +218,11 @@ As the defender against the Kimura Defense Arm Extraction, you are the Kimura gr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Kimura Trap]]
+### → [[Positions/Kimura Trap]]
 
 Prevent extraction by maintaining deep grip with elbows tight, adding lockdown for secondary control, and using hip movement to constantly adjust the grip angle. Attack the opponent's forward pressure by threatening sweeps whenever their weight shifts forward during extraction attempts.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Use the extraction attempt as a trigger for sweeping. When the opponent commits weight forward for the arm drive or lifts their hips during extraction mechanics, time the Old School Sweep or rolling Kimura to capitalize on their compromised base and divided attention.
 

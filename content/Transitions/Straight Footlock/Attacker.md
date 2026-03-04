@@ -184,7 +184,7 @@ Strategically, committing to the Straight Footlock finish carries inherent risk.
 
 The technique is legal at all belt levels under IBJJF rules and represents the foundational leg lock finish that every practitioner must master. Its relatively lower injury risk compared to heel hooks makes it the appropriate introduction to finishing mechanics in leg entanglement systems, though the Achilles tendon remains vulnerable to serious damage from explosive or improperly applied pressure. Advanced practitioners chain the finishing threat with positional transitions, using the defender's reactions to the extension attempt as information that dictates the next attack in the sequence.
 
-**From Position**: [[Straight Ankle Lock Control]] (Bottom)
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Bottom)
 
 </section>
 
@@ -239,8 +239,8 @@ The technique is legal at all belt levels under IBJJF rules and represents the f
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Straight Ankle Lock Control]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Failure | [[Positions/Straight Ankle Lock Control]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -249,10 +249,10 @@ The technique is legal at all belt levels under IBJJF rules and represents the f
 
 ## Opponent Counters
 
-- **External hip rotation escape where defender turns their hip outward to relieve dorsiflexion pressure and change the angle of force application, allowing their leg to begin slipping free from the entanglement** (Effectiveness: High) - Your Response: Pinch knees together more aggressively to block rotation. If rotation begins before you can prevent it, follow the rotation and transition to Outside Ashi-Garami rather than fighting the movement. Alternatively, switch to belly-down finish which eliminates their rotation ability entirely → Leads to [[Open Guard]]
-- **Sit-up and forward drive where defender explosively sits up and pushes into the attacker, collapsing the extension angle and preventing hip extension from generating submission pressure** (Effectiveness: High) - Your Response: Post your outside leg firmly on the mat to brace against forward pressure. If they collapse your position, transition to belly-down ankle lock which uses their forward momentum against them, or disengage to Single Leg X-Guard to rebuild the attack angle from a sweep-threatening position → Leads to [[Straight Ankle Lock Control]]
-- **Boot defense where defender curls their toes and rotates their knee inward to create a structural barrier that prevents the forearm from maintaining position behind the Achilles tendon** (Effectiveness: Medium) - Your Response: Use your free hand to grip the toes and forcibly dorsiflex the foot to break the defensive structure. If the boot is established before you can counter, redirect to kneebar attack by shifting control above the knee joint, as the boot defense exposes the knee to attack → Leads to [[Straight Ankle Lock Control]]
-- **Grip stripping where defender uses both hands to peel the attacker's heel cup grip, breaking the compression pocket that traps the ankle and creating space to extract the foot** (Effectiveness: Medium) - Your Response: Deepen your grip by switching to figure-four configuration which is structurally harder to strip. Pull the heel deeper into your armpit before they establish two-on-one grip breaking. If the grip is partially broken, immediately re-grip or transition to kneebar before control degrades further → Leads to [[Open Guard]]
+- **External hip rotation escape where defender turns their hip outward to relieve dorsiflexion pressure and change the angle of force application, allowing their leg to begin slipping free from the entanglement** (Effectiveness: High) - Your Response: Pinch knees together more aggressively to block rotation. If rotation begins before you can prevent it, follow the rotation and transition to Outside Ashi-Garami rather than fighting the movement. Alternatively, switch to belly-down finish which eliminates their rotation ability entirely → Leads to [[Positions/Open Guard]]
+- **Sit-up and forward drive where defender explosively sits up and pushes into the attacker, collapsing the extension angle and preventing hip extension from generating submission pressure** (Effectiveness: High) - Your Response: Post your outside leg firmly on the mat to brace against forward pressure. If they collapse your position, transition to belly-down ankle lock which uses their forward momentum against them, or disengage to Single Leg X-Guard to rebuild the attack angle from a sweep-threatening position → Leads to [[Positions/Straight Ankle Lock Control]]
+- **Boot defense where defender curls their toes and rotates their knee inward to create a structural barrier that prevents the forearm from maintaining position behind the Achilles tendon** (Effectiveness: Medium) - Your Response: Use your free hand to grip the toes and forcibly dorsiflex the foot to break the defensive structure. If the boot is established before you can counter, redirect to kneebar attack by shifting control above the knee joint, as the boot defense exposes the knee to attack → Leads to [[Positions/Straight Ankle Lock Control]]
+- **Grip stripping where defender uses both hands to peel the attacker's heel cup grip, breaking the compression pocket that traps the ankle and creating space to extract the foot** (Effectiveness: Medium) - Your Response: Deepen your grip by switching to figure-four configuration which is structurally harder to strip. Pull the heel deeper into your armpit before they establish two-on-one grip breaking. If the grip is partially broken, immediately re-grip or transition to kneebar before control degrades further → Leads to [[Positions/Open Guard]]
 
 
 </section>

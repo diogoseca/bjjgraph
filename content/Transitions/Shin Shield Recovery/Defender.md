@@ -158,7 +158,7 @@ Recognizing the early stages of shin shield recovery is essential because the te
 
 The most effective approach combines relentless forward pressure with strategic grip fighting that denies the bottom player the upper body connections they need to support their shin shield. Without an underhook or collar grip to anchor their frame, even a well-placed shin shield becomes structurally vulnerable. By controlling the upper body battle while simultaneously addressing the shin insertion, you create a systematic approach to defeating this common guard recovery technique and completing your half guard pass.
 
-**Opponent's Starting Position**: [[Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The most effective approach combines relentless forward pressure with strategic 
 ### 1. Drive shoulder pressure forward and drop hips to collapse the developing shin shield before it establishes full structure
 
 - **When to use**: Immediately when you feel the inside knee beginning to rise between your bodies, before the shin reaches horizontal position across your chest
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent's knee is driven back down, they remain flattened in compromised half guard, and you can continue your passing sequence toward side control
 - **Risk**: If opponent has already established underhook, driving forward may expose you to sweep attempts or back take entries
 
 ### 2. Grip opponent's shield leg ankle or pants and redirect the shin downward or laterally while maintaining crossface control
 
 - **When to use**: When you feel the shin beginning to establish across your torso but have not yet lost chest-to-chest connection completely
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Shield leg is redirected away from effective framing position, opponent remains in compromised half guard without structural barrier, and you maintain passing initiative
 - **Risk**: Using a hand to control the ankle temporarily sacrifices one grip, potentially allowing opponent to establish underhook on the now-uncontrolled side
 
 ### 3. Accelerate knee slice or backstep pass to complete the pass before the shin shield fully stabilizes and the bottom player establishes supporting grips
 
 - **When to use**: When you recognize shin shield insertion has already begun but the bottom player has not yet secured upper body grips or established full hip angle
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Pass completes before shin shield becomes functional, bypassing the guard recovery entirely and establishing dominant side control
 - **Risk**: Rushing the pass without proper control may expose you to sweep if opponent has already established underhook or proper angle
 
 ### 4. Strip opponent's underhook or collar grip to remove the anchor supporting their shin shield, then apply heavy shoulder pressure to collapse the now-unsupported frame
 
 - **When to use**: When shin shield is partially established but opponent is still fighting for upper body grips to complete the defensive structure
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Without upper body anchor, the shin shield loses structural integrity and can be collapsed with forward pressure, returning opponent to compromised position
 - **Risk**: Grip fighting takes time and attention, potentially allowing opponent to use that time to fully establish shield angle and secondary grips
 
@@ -227,11 +227,11 @@ The most effective approach combines relentless forward pressure with strategic 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Complete your half guard pass by driving forward pressure through the developing shin shield before it stabilizes, controlling the shield ankle to redirect it, or accelerating your knee slice to bypass the recovery entirely. The key is acting during the insertion window before the shin establishes horizontal structure with active outward pressure.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Strip the supporting underhook or collar grip that anchors the shin shield, then use heavy crossface and shoulder pressure to collapse the unsupported frame back down. Control the shield leg ankle to prevent re-insertion while maintaining your passing position. This keeps the opponent in compromised half guard where your passing options remain open.
 

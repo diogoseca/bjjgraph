@@ -148,7 +148,7 @@ description: "Prevent guard recovery from Jailbreak as the top player in BJJ. Gu
 
 As the top player after defending a Jailbreak attempt, you are in a strong position to consolidate side control or advance your position before the bottom player can recompose their guard. The failed Jailbreak has left your opponent in a compromised position—potentially partially inverted, twisted, or displaced from any functional guard configuration. Your objective is to capitalize on their disorientation by driving heavy pressure into their frames, establishing underhooks and crossface control, and consolidating a dominant position before they can systematically reinsert their legs and establish open guard. The critical window is the first three to five seconds after the Jailbreak fails, when the bottom player is most disoriented and their body is least aligned for effective guard recovery mechanics.
 
-**Opponent's Starting Position**: [[Jailbreak]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Jailbreak]] (Bottom)
 
 </section>
 
@@ -185,21 +185,21 @@ As the top player after defending a Jailbreak attempt, you are in a strong posit
 ### 1. Drive heavy crossface and chest pressure into the bottom player while their body is still misaligned from the failed Jailbreak, flattening them before frames can be established
 
 - **When to use**: Immediately after the Jailbreak attempt fails, within the first two seconds while the bottom player is still partially inverted or twisted
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Bottom player is flattened with shoulders pinned, enabling full side control consolidation with crossface and hip control
 - **Risk**: If bottom player turns into the pressure and establishes an inside frame, they may create enough space for hip escape
 
 ### 2. Establish an underhook on the bottom player's near arm and drive into side control consolidation, controlling shoulder and hip simultaneously
 
 - **When to use**: When the bottom player has turned to face you but has not yet inserted a knee shield or established defensive frames
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Underhook control prevents framing and enables direct advancement to side control with shoulder and hip pinned
 - **Risk**: Bottom player may pummel for their own underhook or use the contact to pull into half guard
 
 ### 3. Pin the bottom player's near hip and follow their hip escape direction, staying tight to their body to deny the space needed for leg reinsertion
 
 - **When to use**: When the bottom player begins hip escaping to create angle for guard recovery after establishing initial frames
-- **Targets**: [[Jailbreak]]
+- **Targets**: [[Positions/Jailbreak]]
 - **If successful**: Bottom player's hip escape is neutralized and they remain in the compromised position without recovering guard
 - **Risk**: Focusing on hip control may leave upper body frames unaddressed, allowing the bottom player to redirect to a different recovery angle
 
@@ -211,7 +211,7 @@ As the top player after defending a Jailbreak attempt, you are in a strong posit
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Drive crossface pressure and establish underhook control within the first three seconds after the Jailbreak fails, capitalizing on the bottom player's disorientation and compromised body alignment to consolidate side control before they can reinsert legs and compose guard
 

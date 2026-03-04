@@ -178,7 +178,7 @@ Strategically, this transition exploits the opponent's compromised defensive pos
 
 The Bow and Arrow Choke Setup requires precise sequencing: maintaining Gift Wrap control while securing collar depth, then transitioning hips to the perpendicular angle while managing the opponent's ability to turn or create defensive frames. The trapped arm paradoxically becomes a liability for the defender as they cannot use it to push away or block the hip transition. Successful execution positions the attacker for one of the highest-percentage gi finishes available from back control variants.
 
-**From Position**: [[Gift Wrap]] (Top)
+**From Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ The Bow and Arrow Choke Setup requires precise sequencing: maintaining Gift Wrap
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Gift Wrap]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Gift Wrap]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ The Bow and Arrow Choke Setup requires precise sequencing: maintaining Gift Wrap
 
 ## Opponent Counters
 
-- **Opponent fights to extract trapped arm during collar grip establishment** (Effectiveness: High) - Your Response: Maintain Gift Wrap pressure until collar grip is fully secured. If they begin recovering the arm, accelerate your collar grip depth and immediately start hip transition. The collar grip becomes your primary control replacing the arm trap. → Leads to [[Gift Wrap]]
-- **Opponent turns toward you aggressively during hip rotation** (Effectiveness: Medium) - Your Response: Use their turning momentum to accelerate your perpendicular angle. Tighten collar grip and use your hooks to follow their rotation. Their turn often assists rather than hinders the bow and arrow position establishment. → Leads to [[Back Control]]
-- **Opponent strips or prevents collar grip establishment with free hand** (Effectiveness: Medium) - Your Response: Maintain Gift Wrap control and wait for better opportunity. Attack the rear naked choke to occupy their free hand, then return to collar grip when they defend the RNC. The Gift Wrap gives you time to cycle between attack threats. → Leads to [[Gift Wrap]]
-- **Opponent rolls away from you toward belly-down position** (Effectiveness: Low) - Your Response: Follow the roll while maintaining collar grip. The belly-down position actually improves your bow and arrow angle. Establish your perpendicular position as they roll and immediately secure the leg control to prevent further escape. → Leads to [[Turtle]]
+- **Opponent fights to extract trapped arm during collar grip establishment** (Effectiveness: High) - Your Response: Maintain Gift Wrap pressure until collar grip is fully secured. If they begin recovering the arm, accelerate your collar grip depth and immediately start hip transition. The collar grip becomes your primary control replacing the arm trap. → Leads to [[Positions/Gift Wrap]]
+- **Opponent turns toward you aggressively during hip rotation** (Effectiveness: Medium) - Your Response: Use their turning momentum to accelerate your perpendicular angle. Tighten collar grip and use your hooks to follow their rotation. Their turn often assists rather than hinders the bow and arrow position establishment. → Leads to [[Positions/Back Control]]
+- **Opponent strips or prevents collar grip establishment with free hand** (Effectiveness: Medium) - Your Response: Maintain Gift Wrap control and wait for better opportunity. Attack the rear naked choke to occupy their free hand, then return to collar grip when they defend the RNC. The Gift Wrap gives you time to cycle between attack threats. → Leads to [[Positions/Gift Wrap]]
+- **Opponent rolls away from you toward belly-down position** (Effectiveness: Low) - Your Response: Follow the roll while maintaining collar grip. The belly-down position actually improves your bow and arrow angle. Establish your perpendicular position as they roll and immediately secure the leg control to prevent further escape. → Leads to [[Positions/Turtle]]
 
 
 </section>

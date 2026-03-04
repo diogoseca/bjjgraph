@@ -180,7 +180,7 @@ description: "Complete attacking guide for the Russian Lasso Sweep. Master grip 
 
 The Russian Lasso Sweep from the attacker's perspective demands precise coordination of the lasso fulcrum, collar grip pull, and hip elevation to generate the rotational force that topples the opponent. The sweeper must first establish the three-point control system—deep lasso, far-side collar grip, and sleeve control—then systematically break the opponent's posture through grip fighting before exploiting the momentary weight displacement. The sweep's effectiveness relies on the fulcrum principle: the lasso leg creates the pivot point while the collar grip directs the force vector and the non-lasso leg provides the secondary push that completes the rotation. Success requires loading the sweep before committing—rushing the rotation without proper posture disruption results in the opponent simply basing out and settling their weight.
 
-**From Position**: [[Russian Leg Lasso]] (Bottom)
+**From Position**: [[Positions/Lasso Guard/Russian Leg Lasso]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The Russian Lasso Sweep from the attacker's perspective demands precise coordina
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Russian Leg Lasso]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Lasso Guard/Russian Leg Lasso]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Russian Lasso Sweep from the attacker's perspective demands precise coordina
 
 ## Opponent Counters
 
-- **Opponent posts free hand on the mat to block the rotational sweep** (Effectiveness: High) - Your Response: Immediately transition to omoplata entry on the posting arm—the extended post creates the perfect angle for the omoplata. Alternatively, use the post as a lever point to switch to an overhead sweep in the opposite direction. → Leads to [[Russian Leg Lasso]]
-- **Opponent sprawls hips back and drops weight to resist forward pull** (Effectiveness: Medium) - Your Response: Their backward weight shift opens the overhead sweep direction since their center of gravity is already behind their base. Switch to an overhead Russian Lasso Sweep or use their retreat to enter triangle setup by releasing the collar and shooting the lasso leg across their neck. → Leads to [[Russian Leg Lasso]]
-- **Opponent strips the sleeve grip and begins extracting arm from the lasso** (Effectiveness: High) - Your Response: As the arm extraction creates space, immediately transition to triangle setup by shooting the lasso leg across their neck, or switch to De La Riva Guard using the non-lasso leg before losing all control points. Never allow a full extraction without immediately threatening another attack. → Leads to [[Open Guard]]
-- **Opponent circles laterally away from the sweep direction to change the angle** (Effectiveness: Medium) - Your Response: Follow their movement with hip adjustment to maintain the lasso angle, then use their circling momentum to enter a back take by continuing the rotation underneath them. The lateral movement often exposes the back when they commit to moving around the lasso. → Leads to [[Russian Leg Lasso]]
+- **Opponent posts free hand on the mat to block the rotational sweep** (Effectiveness: High) - Your Response: Immediately transition to omoplata entry on the posting arm—the extended post creates the perfect angle for the omoplata. Alternatively, use the post as a lever point to switch to an overhead sweep in the opposite direction. → Leads to [[Positions/Lasso Guard/Russian Leg Lasso]]
+- **Opponent sprawls hips back and drops weight to resist forward pull** (Effectiveness: Medium) - Your Response: Their backward weight shift opens the overhead sweep direction since their center of gravity is already behind their base. Switch to an overhead Russian Lasso Sweep or use their retreat to enter triangle setup by releasing the collar and shooting the lasso leg across their neck. → Leads to [[Positions/Lasso Guard/Russian Leg Lasso]]
+- **Opponent strips the sleeve grip and begins extracting arm from the lasso** (Effectiveness: High) - Your Response: As the arm extraction creates space, immediately transition to triangle setup by shooting the lasso leg across their neck, or switch to De La Riva Guard using the non-lasso leg before losing all control points. Never allow a full extraction without immediately threatening another attack. → Leads to [[Positions/Open Guard]]
+- **Opponent circles laterally away from the sweep direction to change the angle** (Effectiveness: Medium) - Your Response: Follow their movement with hip adjustment to maintain the lasso angle, then use their circling momentum to enter a back take by continuing the rotation underneath them. The lateral movement often exposes the back when they commit to moving around the lasso. → Leads to [[Positions/Lasso Guard/Russian Leg Lasso]]
 
 
 </section>

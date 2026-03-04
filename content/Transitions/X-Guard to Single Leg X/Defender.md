@@ -146,7 +146,7 @@ description: "Comprehensive guide to defending and countering the X-Guard to Sin
 
 As the defender facing an X-Guard to Single Leg X transition, your primary objective is to either prevent the reconfiguration entirely by maintaining pressure and denying the transition window, or exploit the momentary vulnerability that occurs when your opponent releases their X-Guard hooks to establish the SLX wrap. The transition requires the bottom player to briefly loosen their leg controls, creating a window of reduced entanglement where you can extract your trapped leg, drive forward to pass, or backstep to escape the guard entirely. Understanding the specific mechanical sequence of the transition allows you to time your counter-actions precisely to the moments of greatest vulnerability. Recognizing the early warning signs of an impending transition—grip adjustments, hip angle changes, subtle loosening of the inside hook—gives you the proactive advantage of countering before the transition completes rather than reacting to an already-established SLX position.
 
-**Opponent's Starting Position**: [[X-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/X-Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender facing an X-Guard to Single Leg X transition, your primary objec
 ### 1. Drive forward pressure and flatten opponent during transition gap
 
 - **When to use**: When you feel the inside hook loosening or the outside leg withdrawing from your hip, immediately drive your weight forward and down
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Your forward pressure collapses the guard structure during the vulnerable reconfiguration, forcing opponent to abandon the transition and potentially allowing you to pass to open guard top or side control
 - **Risk**: If timed incorrectly, forward drive into established SLX gives the opponent sweep leverage to dump you forward
 
 ### 2. Extract trapped leg by angling knee outward during hook transition
 
 - **When to use**: When the opponent releases their inside knee hook to begin the ankle wrap, angle your knee laterally outward and step your foot free before the wrap completes
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You completely disengage from the leg entanglement and establish open guard top position with freedom to initiate passing sequences
 - **Risk**: Pulling too aggressively can compromise your base if the opponent maintains ankle grip and redirects your momentum into a sweep
 
 ### 3. Backstep around the transitioning legs to avoid SLX establishment
 
 - **When to use**: When you recognize the outside leg withdrawing from your hip, step your free leg behind and around before the opponent can reposition their foot onto your hip in the SLX configuration
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You circle past the guard structure entirely, establishing a passing angle or reaching side control through the backstep
 - **Risk**: Incomplete backstep may leave you in a worse leg entanglement if the opponent follows your hip rotation with their hooks
 
 ### 4. Push opponent's inside knee down to prevent ankle wrap completion
 
 - **When to use**: When you feel the opponent's inside foot starting to thread around your ankle, use your hand to push their knee or shin downward and inward, blocking the wrap
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: You deny the transition and force the opponent to remain in X-Guard, maintaining the current positional dynamic rather than allowing them to upgrade to SLX
 - **Risk**: Using your hand to address the hook temporarily reduces your posting ability, which the opponent may exploit for a sweep from X-Guard
 
@@ -217,11 +217,11 @@ As the defender facing an X-Guard to Single Leg X transition, your primary objec
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Time your leg extraction or forward pressure drive precisely during the reconfiguration gap when the opponent releases their X-Guard hooks but has not yet completed the SLX ankle wrap. The window is brief—typically less than one second—so preemptive recognition of the transition cues is essential. Driving forward the moment you feel the inside hook loosen is the highest-percentage counter, as it exploits the structural weakness before the new control system is established.
 
-### → [[X-Guard]]
+### → [[Positions/X-Guard]]
 
 Deny the transition entirely by maintaining constant forward pressure and low base that prevents the opponent from creating the space needed for reconfiguration. Keep your trapped knee driving toward the opponent to make it mechanically difficult for them to slide their inside hook from behind your knee down to an ankle wrap. This preserves the status quo of X-Guard, which while still a guard position, is preferable to allowing the opponent to reach SLX with its expanded attack options.
 

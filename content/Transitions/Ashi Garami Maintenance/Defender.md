@@ -154,7 +154,7 @@ description: "Master defending against Ashi Garami maintenance with systematic e
 
 Defending against Ashi Garami maintenance requires recognizing the quality of your opponent's control and identifying which connection points to target for extraction. The defender must resist the urge to explosively rip free, instead employing systematic mechanical clearing that addresses each hook and grip individually while maintaining heel protection throughout. Understanding the attacker's maintenance priorities enables the defender to create dilemmas where addressing one extraction vector opens another, eventually overwhelming the attacker's ability to re-establish all connections simultaneously. Patience and methodical technique execution outperform desperate explosive efforts in nearly every scenario, as controlled extraction preserves joint safety and prevents the positional deterioration that comes from panic responses.
 
-**Opponent's Starting Position**: [[Ashi Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending against Ashi Garami maintenance requires recognizing the quality of yo
 ### 1. Establish standing base and systematically clear leg hooks while maintaining heel protection through straight leg alignment
 
 - **When to use**: When opponent's upper body grips are weakest and you have sufficient space to post one foot and drive upward to create elevation advantage
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You free your trapped leg and return to a standing or kneeling position with the opponent in open guard below you
 - **Risk**: Standing creates elevation that can expose the heel if opponent maintains ankle grip during the stand-up attempt
 
 ### 2. Pummel inside knee past opponent's blocking wedge to establish inside space control and begin systematic hook clearing sequence
 
 - **When to use**: When opponent's inside leg hook pressure momentarily relaxes during grip transitions or positional adjustments
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You gain inside space advantage enabling mechanical clearing of outside hook and complete extraction from entanglement
 - **Risk**: Failed pummeling can expose your knee angle, potentially worsening position if opponent re-establishes wedge with improved control
 
 ### 3. Thread free leg into opponent's leg configuration to establish your own reciprocal Ashi Garami entanglement
 
 - **When to use**: When opponent over-commits to offensive advancement and leaves their own legs exposed to counter-entanglement during transition
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: You establish mutual leg entanglement where you can compete for inside space and potentially reverse positional advantage
 - **Risk**: Entering counter-entanglement commits you to a leg lock exchange where opponent may have superior positioning and finishing knowledge
 
 ### 4. Backstep trapped leg and rotate hips to change angle dramatically, breaking the pinching pressure of opponent's leg configuration
 
 - **When to use**: When opponent loses upper body grips and you have momentary freedom to execute a significant angle change before reconnection
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The angle change breaks pinching pressure and allows extraction of the leg from the weakened entanglement configuration
 - **Risk**: Brief back exposure during rotation could allow opponent to transition to back control if they release legs and follow the turn
 
@@ -224,11 +224,11 @@ Defending against Ashi Garami maintenance requires recognizing the quality of yo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Execute systematic leg clearing sequence starting with base recovery to standing, then inside space pummeling, followed by outside hook clearing while maintaining heel protection throughout the entire extraction process
 
-### → [[Ashi Garami]]
+### → [[Positions/Ashi Garami]]
 
 Enter counter-entanglement when opponent over-commits to advancement by threading your free leg into their leg configuration, then compete for inside space control to reverse the positional advantage in the exchange
 

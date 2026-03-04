@@ -180,7 +180,7 @@ description: "Execute the mounted triangle to S mount transition with systematic
 
 As the attacker executing this transition, you are making a strategic decision to abandon the mounted triangle squeeze in favor of the mechanically superior armbar position of S mount. Your mounted triangle has already achieved the critical prerequisite of arm isolation, and now you are converting that positional advantage into a different submission angle. The key insight is that this transition preserves your offensive momentum rather than allowing the exchange to stall in a defended triangle. Your success depends entirely on maintaining unbroken arm control throughout the leg repositioning phase, as any gap in wrist control allows the defender to extract the trapped arm and begin their escape sequence.
 
-**From Position**: [[Mounted Triangle]] (Top)
+**From Position**: [[Positions/Mount/Mounted Triangle]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ As the attacker executing this transition, you are making a strategic decision t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[S Mount]] | 55% |
-| Failure | [[Mounted Triangle]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/S Mount]] | 55% |
+| Failure | [[Positions/Mount/Mounted Triangle]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing this transition, you are making a strategic decision t
 
 ## Opponent Counters
 
-- **Opponent bridges explosively when the triangle lock is released during step 3** (Effectiveness: High) - Your Response: Absorb the bridge by posting your head-side foot wide and driving your weight down through the hip-to-shoulder connection. If the bridge is too powerful, immediately abandon the transition and remount to high mount or standard mount to maintain top position. → Leads to [[Half Guard]]
-- **Opponent yanks the trapped arm free during the leg repositioning window** (Effectiveness: Medium) - Your Response: If you maintained proper wrist control, this should not succeed. If the arm begins slipping, immediately clamp your knees together to trap it and either complete the S mount quickly or re-establish the mounted triangle lock to reset the sequence. → Leads to [[Mounted Triangle]]
-- **Opponent hip escapes toward your legs during the transition creating distance** (Effectiveness: Medium) - Your Response: Follow their hip movement by scooting your hips to maintain the shoulder connection. If significant space opens, drive your weight forward to recollapse the distance. Their hip escape direction actually helps your transition since it moves their body underneath your repositioning legs. → Leads to [[Half Guard]]
-- **Opponent frames against your hip with their free arm to prevent S mount settling** (Effectiveness: Low) - Your Response: Use your chest and upper body weight to drive through the frame. The perpendicular angle of S mount makes single-arm frames structurally weak against your combined body weight. Alternatively, control the framing arm with your free hand to eliminate the frame entirely. → Leads to [[Mounted Triangle]]
+- **Opponent bridges explosively when the triangle lock is released during step 3** (Effectiveness: High) - Your Response: Absorb the bridge by posting your head-side foot wide and driving your weight down through the hip-to-shoulder connection. If the bridge is too powerful, immediately abandon the transition and remount to high mount or standard mount to maintain top position. → Leads to [[Positions/Half Guard]]
+- **Opponent yanks the trapped arm free during the leg repositioning window** (Effectiveness: Medium) - Your Response: If you maintained proper wrist control, this should not succeed. If the arm begins slipping, immediately clamp your knees together to trap it and either complete the S mount quickly or re-establish the mounted triangle lock to reset the sequence. → Leads to [[Positions/Mount/Mounted Triangle]]
+- **Opponent hip escapes toward your legs during the transition creating distance** (Effectiveness: Medium) - Your Response: Follow their hip movement by scooting your hips to maintain the shoulder connection. If significant space opens, drive your weight forward to recollapse the distance. Their hip escape direction actually helps your transition since it moves their body underneath your repositioning legs. → Leads to [[Positions/Half Guard]]
+- **Opponent frames against your hip with their free arm to prevent S mount settling** (Effectiveness: Low) - Your Response: Use your chest and upper body weight to drive through the frame. The perpendicular angle of S mount makes single-arm frames structurally weak against your combined body weight. Alternatively, control the framing arm with your free hand to eliminate the frame entirely. → Leads to [[Positions/Mount/Mounted Triangle]]
 
 
 </section>

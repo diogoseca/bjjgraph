@@ -154,7 +154,7 @@ description: "How to defend against Fireman's Carry in BJJ. Recognition cues, de
 
 Defending the Fireman's Carry requires understanding the technique's sequential mechanics so you can disrupt it at the earliest possible stage. The Fireman's Carry follows a predictable chain - grip establishment, level change, penetration step, carry position, lift, rotation, and landing - and your defensive effectiveness decreases dramatically the further the attacker progresses through this sequence. The most effective defenses occur during the initial level change and penetration phases, where a well-timed sprawl or hip drop can completely shut down the technique before the attacker establishes the carry position. Once the attacker has you across their shoulders, your defensive options narrow significantly and the technique becomes much harder to stop. Developing sensitivity to the early recognition cues - the sudden level drop, the arm pull across the body, the head driving toward your far hip - allows you to react before the attacker commits to the lift. The defender must maintain constant awareness of their own posture, weight distribution, and arm positioning in the clinch, as these factors determine vulnerability to the Fireman's Carry. A low, defensive stance with bent knees and hips back makes the carry nearly impossible, while an upright posture with weight forward creates the ideal conditions for the attacker. Understanding these dynamics transforms your clinch game from reactive to proactive, allowing you to dictate terms rather than simply responding to the attacker's initiative.
 
-**Opponent's Starting Position**: [[Clinch]] (Top)
+**Opponent's Starting Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Fireman's Carry requires understanding the technique's sequential 
 ### 1. Sprawl and drive hips back immediately upon recognizing the level change, dropping your weight onto the attacker's shoulders and back while pushing their head down
 
 - **When to use**: As soon as you feel the initial level change and penetration step beginning, before the attacker can establish the carry position across their shoulders
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: You flatten the attacker out, nullify their penetration, and return to a neutral clinch or establish front headlock control from above
 - **Risk**: If you sprawl too late after the carry is established, your sprawling motion can actually help the attacker complete the rotation and throw
 
 ### 2. Lower your hips and widen your base by dropping your center of gravity and stepping your feet apart, making yourself too heavy and wide to lift
 
 - **When to use**: When you recognize the setup but the attacker has already begun penetrating and a sprawl may be too late to execute cleanly
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: The attacker cannot generate sufficient lifting power against your lowered base, the technique stalls, and you return to neutral clinch
 - **Risk**: If your base widening is insufficient, the attacker may still complete the lift by driving harder with their legs
 
 ### 3. Establish a strong whizzer (overhook) on the attacker's lifting arm and drive your hip into them while circling toward the whizzer side
 
 - **When to use**: When the attacker has already secured arm control and begun penetrating, but has not yet completed the carry position
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: The whizzer prevents them from pulling your arm across their body and the hip pressure disrupts their angle, forcing them to abandon the technique
 - **Risk**: If the whizzer is loose, the attacker can power through it and complete the carry despite your defense
 
 ### 4. Hip switch and circle behind the attacker as they commit to the level change, taking their back as they drop underneath you
 
 - **When to use**: When the attacker commits deeply to the penetration and their head drops below your hip level, exposing their back
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: You end up behind the attacker with back control or at minimum a dominant clinch angle, completely reversing the positional dynamic
 - **Risk**: Mistiming the hip switch can leave you off-balance and more vulnerable to the lift if the attacker adjusts
 
@@ -225,11 +225,11 @@ Defending the Fireman's Carry requires understanding the technique's sequential 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Sprawl immediately on the level change to flatten the attacker, then recover to standing clinch with dominant grips. The sprawl must be explosive and committed, driving your hips back and down while pushing the attacker's head toward the mat. Once the attempt is stopped, re-establish collar tie or underhook control before they can reset for another attempt.
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Counter the Fireman's Carry by hip switching behind the attacker as they commit to the penetration step. As their head drops and they expose their back, circle to the side their head is driving toward and establish a seatbelt or body lock from behind. This counter requires precise timing - too early and the attacker adjusts, too late and you are already being lifted.
 

@@ -180,7 +180,7 @@ description: "Learn to execute the elbow escape from flattened half guard. Syste
 
 Executing the elbow escape from flattened half guard demands patience, precision, and the discipline to commit to incremental gains rather than explosive attempts. As the bottom player, you are operating under significant physical and psychological pressure with restricted breathing, limited visibility from the crossface, and severely compromised mobility. Your success depends on understanding the specific sequence of elbow placement, hip escape, and frame consolidation that progressively rebuilds the space your opponent has collapsed. The technique rewards practitioners who can remain calm under duress and execute methodical movement patterns while their opponent applies sustained forward pressure. Each repetition of the wedge-escape-consolidate cycle compounds your positional gains until functional half guard is restored.
 
-**From Position**: [[Flattened Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the elbow escape from flattened half guard demands patience, precision
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Flattened Half Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the elbow escape from flattened half guard demands patience, precision
 
 ## Opponent Counters
 
-- **Opponent drives hips forward immediately to collapse the space created by the elbow wedge before it can be consolidated** (Effectiveness: High) - Your Response: Time your hip escape to coincide with their forward drive, using their committed momentum to amplify the space creation as they overextend their weight distribution → Leads to [[Flattened Half Guard]]
-- **Opponent abandons crossface to whizzer the underhook arm, preventing structural recovery through overhook control** (Effectiveness: Medium) - Your Response: Use the momentary loss of crossface pressure to execute a larger hip escape and rapidly insert the knee shield before they re-establish head control with the new grip → Leads to [[Half Guard]]
-- **Opponent initiates knee slice pass during your hip escape movement, using your lateral motion to advance their passing angle** (Effectiveness: High) - Your Response: Immediately redirect your escape into a deep half entry by diving under their advancing knee, converting their passing energy into your positional recovery underneath them → Leads to [[Side Control]]
-- **Opponent drops weight heavily and uses crossface to turn your head, compressing your space gains back to zero through superior pressure angles** (Effectiveness: Medium) - Your Response: Maintain your elbow wedge as a structural pillar and wait for the next weight shift rather than fighting the pressure directly, then re-initiate the hip escape during their adjustment → Leads to [[Flattened Half Guard]]
+- **Opponent drives hips forward immediately to collapse the space created by the elbow wedge before it can be consolidated** (Effectiveness: High) - Your Response: Time your hip escape to coincide with their forward drive, using their committed momentum to amplify the space creation as they overextend their weight distribution → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent abandons crossface to whizzer the underhook arm, preventing structural recovery through overhook control** (Effectiveness: Medium) - Your Response: Use the momentary loss of crossface pressure to execute a larger hip escape and rapidly insert the knee shield before they re-establish head control with the new grip → Leads to [[Positions/Half Guard]]
+- **Opponent initiates knee slice pass during your hip escape movement, using your lateral motion to advance their passing angle** (Effectiveness: High) - Your Response: Immediately redirect your escape into a deep half entry by diving under their advancing knee, converting their passing energy into your positional recovery underneath them → Leads to [[Positions/Side Control]]
+- **Opponent drops weight heavily and uses crossface to turn your head, compressing your space gains back to zero through superior pressure angles** (Effectiveness: Medium) - Your Response: Maintain your elbow wedge as a structural pillar and wait for the next weight shift rather than fighting the pressure directly, then re-initiate the hip escape during their adjustment → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 
 
 </section>

@@ -21,7 +21,7 @@ The backstep works by changing the vector of your passing approach entirely. Rat
 
 Strategically, this pass is most effective when opponent has committed heavily to the worm guard configuration but hasn't yet loaded offensive attacks. The timing window opens when they're focused on maintaining the wrap rather than attacking. The backstep creates a race condition: you're attempting to navigate around their guard faster than they can adjust the lapel configuration to follow your movement. Understanding this dynamic is essential for both execution timing and recognizing when opponents are setting traps by appearing committed to static worm guard while actually waiting to take your back.
 
-**From Position**: [[Lapel Guard]] (Top)
+**From Position**: [[Positions/Lapel Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, this pass is most effective when opponent has committed heavily t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 50% |
-| Success | [[Side Control]] | 15% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Turtle]] | 50% |
+| Success | [[Positions/Side Control]] | 15% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -192,25 +192,25 @@ The backstep around worm guard occupies a critical role in modern gi passing str
 ## Related Techniques
 
 
-- [[Lapel Guard]] - Starting position where technique is applied
+- [[Positions/Lapel Guard]] - Starting position where technique is applied
 
-- [[Turtle]] - Primary destination after successful backstep completion
+- [[Positions/Turtle]] - Primary destination after successful backstep completion
 
-- [[Side Control]] - Alternative destination when opponent stays flat
+- [[Positions/Side Control]] - Alternative destination when opponent stays flat
 
-- [[Back Control]] - Position opponent attempts to reach if they counter with sit-up
+- [[Positions/Back Control]] - Position opponent attempts to reach if they counter with sit-up
 
-- [[Front Headlock]] - Alternative control when backstep is countered by opponent sitting up
+- [[Positions/Front Headlock]] - Alternative control when backstep is countered by opponent sitting up
 
-- [[Leg Drag Control]] - Follow-up position from backstep to leg drag variant
+- [[Positions/Leg Drag Control]] - Follow-up position from backstep to leg drag variant
 
-- [[De La Riva Guard]] - Related guard that opponent may transition to if backstep partially fails
+- [[Positions/De La Riva Guard]] - Related guard that opponent may transition to if backstep partially fails
 
-- [[Back Step Pass]] - Related passing technique using similar rotational mechanics
+- [[Transitions/Back Step Pass]] - Related passing technique using similar rotational mechanics
 
-- [[Bullfighter Pass]] - Complementary pass that may combine with backstep movement
+- [[Transitions/Bullfighter Pass]] - Complementary pass that may combine with backstep movement
 
-- [[Long Step Pass]] - Related passing concept sharing distance-creation principles
+- [[Transitions/Long Step Pass]] - Related passing concept sharing distance-creation principles
 
 
 </section>

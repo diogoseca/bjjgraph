@@ -21,7 +21,7 @@ The escape sequence prioritizes turning toward the side where the triangle leg c
 
 Strategically, this escape demands exceptional timing and patience. Attempting to clear the triangle while the opponent is actively attacking your neck creates double jeopardy—defending the choke and attacking the lock simultaneously depletes energy rapidly under breathing restriction. Experienced practitioners wait for moments when the opponent adjusts grips or transitions between submission attempts, using these brief windows to execute the critical clearing mechanics. The breathing restriction imposed by the body triangle creates genuine urgency, making mental composure and systematic execution even more important than in standard back escape scenarios.
 
-**From Position**: [[Body Triangle]] (Bottom)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 **Success Rate**: 30%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape demands exceptional timing and patience. Attempting t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 30% |
-| Failure | [[Body Triangle]] | 45% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 30% |
+| Failure | [[Positions/Back Control/Body Triangle]] | 45% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -193,21 +193,21 @@ The Body Triangle Escape to Half Guard occupies a specialized node within the ba
 ## Related Techniques
 
 
-- [[Body Triangle]] - Starting position – the dominant body triangle back control you are escaping from
+- [[Positions/Back Control/Body Triangle]] - Starting position – the dominant body triangle back control you are escaping from
 
-- [[Half Guard]] - Target escape destination providing immediate offensive options after clearing the triangle
+- [[Positions/Half Guard]] - Target escape destination providing immediate offensive options after clearing the triangle
 
-- [[Back Control]] - Parent position category – body triangle is a variation of standard back control
+- [[Positions/Back Control]] - Parent position category – body triangle is a variation of standard back control
 
-- [[Back Door Escape]] - Related escape system from back control that addresses hook-based control rather than triangle
+- [[Transitions/Back Door Escape]] - Related escape system from back control that addresses hook-based control rather than triangle
 
-- [[Hip Escape to Turtle]] - Alternative escape path from body triangle when half guard recovery is blocked
+- [[Transitions/Hip Escape to Turtle]] - Alternative escape path from body triangle when half guard recovery is blocked
 
-- [[Turtle]] - Alternative intermediate escape destination with fewer offensive options than half guard
+- [[Positions/Turtle]] - Alternative intermediate escape destination with fewer offensive options than half guard
 
-- [[Seat Belt Control Back]] - Common upper body control configuration maintained by opponent during body triangle
+- [[Positions/Back Control/Seat Belt Control Back]] - Common upper body control configuration maintained by opponent during body triangle
 
-- [[Rear Naked Choke]] - Primary submission threat you must defend throughout the escape sequence
+- [[Transitions/Rear Naked Choke]] - Primary submission threat you must defend throughout the escape sequence
 
 
 </section>

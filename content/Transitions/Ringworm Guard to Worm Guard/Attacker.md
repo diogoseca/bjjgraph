@@ -176,7 +176,7 @@ The Ringworm Guard to Worm Guard transition is executed by the bottom player to 
 
 The attacker must coordinate hip movement with lapel manipulation while maintaining continuous control throughout the transition. The key challenge is the brief vulnerable window during the rethreading where lapel tension is momentarily reduced. Skilled execution minimizes this window through practiced hand transitions and simultaneous hip escaping that creates threading space. The transition is most effective when timed to the opponent's upward weight shifts or backward movement, converting their defensive reactions into the space needed for the deeper lapel weave.
 
-**From Position**: [[Ringworm Guard]] (Bottom)
+**From Position**: [[Positions/Ringworm Guard]] (Bottom)
 
 </section>
 
@@ -227,9 +227,9 @@ The attacker must coordinate hip movement with lapel manipulation while maintain
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Worm Guard]] | 65% |
-| Failure | [[Ringworm Guard]] | 25% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Worm Guard]] | 65% |
+| Failure | [[Positions/Ringworm Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -238,10 +238,10 @@ The attacker must coordinate hip movement with lapel manipulation while maintain
 
 ## Opponent Counters
 
-- **Opponent strips lapel during the rethreading moment when control is briefly loosened** (Effectiveness: High) - Your Response: Minimize the transition window by practicing rapid rethreading, and maintain strong secondary grip on sleeve to prevent their hands from reaching the lapel → Leads to [[Open Guard]]
-- **Opponent drives forward with pressure when they feel the lapel configuration changing** (Effectiveness: Medium) - Your Response: Use your free leg to frame against their hip and create distance, converting their forward pressure into sweep momentum using the partial lapel control → Leads to [[Ringworm Guard]]
-- **Opponent circles away from the trapped leg to escape before Worm Guard is fully established** (Effectiveness: Medium) - Your Response: Follow their movement with hip rotation and use the circling motion to accelerate your transition, threading the lapel in the direction they're moving → Leads to [[Ringworm Guard]]
-- **Opponent stands up rapidly to create distance and prevent the deep threading** (Effectiveness: Low) - Your Response: Standing actually facilitates the transition by creating space under their leg; use their elevation to thread deeper and establish stronger Worm Guard → Leads to [[Worm Guard]]
+- **Opponent strips lapel during the rethreading moment when control is briefly loosened** (Effectiveness: High) - Your Response: Minimize the transition window by practicing rapid rethreading, and maintain strong secondary grip on sleeve to prevent their hands from reaching the lapel → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward with pressure when they feel the lapel configuration changing** (Effectiveness: Medium) - Your Response: Use your free leg to frame against their hip and create distance, converting their forward pressure into sweep momentum using the partial lapel control → Leads to [[Positions/Ringworm Guard]]
+- **Opponent circles away from the trapped leg to escape before Worm Guard is fully established** (Effectiveness: Medium) - Your Response: Follow their movement with hip rotation and use the circling motion to accelerate your transition, threading the lapel in the direction they're moving → Leads to [[Positions/Ringworm Guard]]
+- **Opponent stands up rapidly to create distance and prevent the deep threading** (Effectiveness: Low) - Your Response: Standing actually facilitates the transition by creating space under their leg; use their elevation to thread deeper and establish stronger Worm Guard → Leads to [[Positions/Worm Guard]]
 
 
 </section>

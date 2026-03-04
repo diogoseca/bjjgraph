@@ -148,7 +148,7 @@ As the defender in high mount, your goal is to maintain the elevated knee positi
 
 Effective bridge defense combines proactive pressure maintenance with reactive base adjustments. Rather than rigidly fighting every bridge, the skilled top player learns to absorb bridge force through structural positioning and flow with displacement into even more dominant variations like S Mount or Technical Mount. This converts the bottom player's escape attempt into a positional advancement, creating a psychological deterrent against future bridge attempts.
 
-**Opponent's Starting Position**: [[High Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount/High Mount]] (Bottom)
 
 </section>
 
@@ -186,28 +186,28 @@ Effective bridge defense combines proactive pressure maintenance with reactive b
 ### 1. Post hands wide and drive hips downward into a tripod base position
 
 - **When to use**: When feeling initial upward hip pressure indicating a bridge attempt is beginning
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Bridge force is fully absorbed through tripod stability and high mount is maintained with increased control pressure
 - **Risk**: Hands posting near opponent's head creates momentary opportunity for them to trap a posting arm
 
 ### 2. Transition to S Mount by sliding one knee across torso during bridge displacement
 
 - **When to use**: When bridge generates enough force to partially displace your knees and you feel position beginning to slide
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: Position advances to S Mount which is more dominant than high mount with immediate armbar threat
 - **Risk**: Mistimed transition during bridge chaos could allow opponent to recover half guard or create a scramble
 
 ### 3. Insert grapevine hooks inside opponent's legs to eliminate bridging leverage
 
 - **When to use**: When opponent repeatedly attempts bridges and you need to eliminate their hip extension capability entirely
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Opponent's bridging power is mechanically eliminated by removing leg leverage through grapevine control
 - **Risk**: Grapevine may lower your overall position toward standard mount with reduced submission proximity
 
 ### 4. Capitalize on bridge commitment by securing collar grip or arm isolation for submission
 
 - **When to use**: When opponent commits fully to bridge with arms tucked tight, creating momentary exposure of neck or arms
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Bridge attempt becomes the setup for your submission attack as their movement creates openings
 - **Risk**: Failed submission attempt during bridge may compound into greater positional displacement
 
@@ -219,11 +219,11 @@ Effective bridge defense combines proactive pressure maintenance with reactive b
 
 ## Best-Case Outcomes for Defender
 
-### → [[High Mount]]
+### → [[Positions/Mount/High Mount]]
 
 Absorb bridge force by posting hands wide near opponent's head, driving hips downward into their sternum, and keeping knees wedged tight against armpits. Maintain forward weight distribution throughout the bridge and re-settle pressure immediately after bridge subsides.
 
-### → [[S Mount]]
+### → [[Positions/Mount/S Mount]]
 
 Capitalize on bridge displacement by transitioning one knee across opponent's torso into S Mount position as their bridge creates the space for the crossing movement. Convert their escape attempt into a positional advancement that threatens immediate armbar.
 

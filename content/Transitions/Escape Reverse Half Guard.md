@@ -21,7 +21,7 @@ The escape mechanics center on breaking the top player's positional control thro
 
 Understanding this escape is essential for any practitioner who encounters reverse half guard through scrambles, failed sweep attempts, or opponent backstep entries. The ability to recover standard half guard from this compromised position prevents the cascading positional deterioration that leads to passes and back takes, making it a fundamental survival skill within the half guard system.
 
-**From Position**: [[Reverse Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Reverse Half Guard]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,10 +32,10 @@ Understanding this escape is essential for any practitioner who encounters rever
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Reverse Half Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Half Guard/Reverse Half Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -192,29 +192,29 @@ Escape Reverse Half Guard connects the reverse half guard system to the standard
 ## Related Techniques
 
 
-- [[Reverse Half Guard]] - Source position from which this escape is executed
+- [[Positions/Half Guard/Reverse Half Guard]] - Source position from which this escape is executed
 
-- [[Half Guard]] - Primary target position after successful escape
+- [[Positions/Half Guard]] - Primary target position after successful escape
 
-- [[Back Control]] - Counter risk position if opponent takes back during rotation
+- [[Positions/Back Control]] - Counter risk position if opponent takes back during rotation
 
-- [[Side Control]] - Counter risk position if opponent extracts leg and passes during escape
+- [[Positions/Side Control]] - Counter risk position if opponent extracts leg and passes during escape
 
-- [[Deep Half Guard]] - Alternative escape destination using deep half entry variation
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative escape destination using deep half entry variation
 
-- [[Knee Shield Half Guard]] - Preferred half guard variation to establish after completing escape
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Preferred half guard variation to establish after completing escape
 
-- [[Backstep from Reverse Half]] - Top player technique that creates the reverse half guard requiring this escape
+- [[Transitions/Backstep from Reverse Half]] - Top player technique that creates the reverse half guard requiring this escape
 
-- [[Back Door Escape from Half Guard]] - Related escape concept using alternative exit routes from half guard positions
+- [[Transitions/Back Door Escape from Half Guard]] - Related escape concept using alternative exit routes from half guard positions
 
-- [[Dogfight Position]] - Potential intermediate position during scramble-based escape attempts
+- [[Positions/Dogfight Position]] - Potential intermediate position during scramble-based escape attempts
 
-- [[Turtle]] - Alternative escape destination when rotation is blocked and turtle recovery is preferred
+- [[Positions/Turtle]] - Alternative escape destination when rotation is blocked and turtle recovery is preferred
 
-- [[Deep Half Entry from Half Guard]] - Related transition for converting escape momentum into deep half guard offense
+- [[Transitions/Deep Half Entry from Half Guard]] - Related transition for converting escape momentum into deep half guard offense
 
-- [[Lockdown]] - Alternative leg control variation that may assist in maintaining control during rotation
+- [[Positions/Half Guard/Lockdown]] - Alternative leg control variation that may assist in maintaining control during rotation
 
 
 </section>

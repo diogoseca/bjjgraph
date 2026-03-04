@@ -23,7 +23,7 @@ Strategically, the Rolling Kneebar excels when opponents attempt to back step aw
 
 This submission requires significant timing and body coordination, as the roll must be executed smoothly while maintaining leg control throughout. Rushing the roll or losing hip connection mid-technique typically results in the opponent extracting their leg and passing. Mastery requires understanding the precise moment when your hip elevation, leg grip, and opponent's positioning align to create the ideal rolling window.
 
-**From Position**: [[Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -34,9 +34,9 @@ This submission requires significant timing and body coordination, as the roll m
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kneebar Control]] | 55% |
-| Failure | [[Grasshopper Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Kneebar Control]] | 55% |
+| Failure | [[Positions/Grasshopper Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Rolling Kneebar is a primary submission weapon within the grasshopper guard 
 ## Related Techniques
 
 
-- [[Grasshopper Guard]] - Starting position for the rolling kneebar entry
+- [[Positions/Grasshopper Guard]] - Starting position for the rolling kneebar entry
 
-- [[Kneebar Control]] - Destination position on successful roll completion
+- [[Positions/Kneebar Control]] - Destination position on successful roll completion
 
-- [[Kneebar]] - Parent submission category for knee hyperextension attacks
+- [[Transitions/Kneebar]] - Parent submission category for knee hyperextension attacks
 
-- [[Calf Slicer]] - Chain attack when opponent bends knee defensively
+- [[Transitions/Calf Slicer]] - Chain attack when opponent bends knee defensively
 
-- [[Inside Heel Hook]] - Alternative attack when roll is stopped by sprawl
+- [[Submissions/Inside Heel Hook]] - Alternative attack when roll is stopped by sprawl
 
-- [[50-50 Guard]] - Recovery position when leg entanglement converts to mutual control
+- [[Positions/Ashi Garami/50-50 Guard]] - Recovery position when leg entanglement converts to mutual control
 
-- [[Outside Ashi-Garami]] - Transitional entanglement when converting to heel hook
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Transitional entanglement when converting to heel hook
 
-- [[X-Guard]] - Alternative attack against forward-driving opponents
+- [[Positions/X-Guard]] - Alternative attack against forward-driving opponents
 
-- [[Single Leg X-Guard]] - Related guard sharing leg attack methodology
+- [[Positions/X-Guard/Single Leg X-Guard]] - Related guard sharing leg attack methodology
 
-- [[Side Control]] - Counter outcome when opponent disrupts roll and passes
+- [[Positions/Side Control]] - Counter outcome when opponent disrupts roll and passes
 
 
 </section>

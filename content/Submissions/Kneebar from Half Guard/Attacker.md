@@ -176,7 +176,7 @@ description: "How to execute Kneebar from Half Guard in BJJ. Attacking perspecti
 
 The Kneebar from Half Guard represents a powerful offensive submission option that capitalizes on the leg entanglement inherent to the half guard position. This technique targets the knee joint through hyperextension, creating mechanical stress on the posterior cruciate ligament, patellar tendon, and surrounding connective tissue. From bottom half guard, the practitioner transitions from controlling the opponent's upper body to attacking their trapped leg, using the half guard structure to prevent escape while isolating the limb. The position offers unique strategic advantages: the opponent's weight is often committed forward, their leg is already partially controlled by your lockdown or hooks, and defensive hand fighting is complicated by the need to maintain base. This creates a high-percentage finishing opportunity when proper mechanics are applied. The technique requires precise technical execution—controlling the opponent's hip to prevent rotation, achieving proper leg extension across the knee joint, and maintaining connection throughout the finish. Modern leg lock systems have elevated this submission from a surprise attack to a fundamental component of bottom half guard offense, particularly in no-gi grappling where the absence of gi grips makes leg attacks more viable.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 
 
 </section>
@@ -230,8 +230,8 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -240,11 +240,11 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 ## Opponent Defenses
 
-- **Opponent rotates their knee inward (heel toward you) to relieve pressure** (Effectiveness: High) - Your Response: Immediately use your hands to grab their foot and rotate it back outward (toes away from you). You can also transition to a toe hold by catching their foot as they rotate. Maintain tight leg control to prevent full rotation. → Leads to [[Half Guard]]
-- **Opponent sits back and pulls their leg toward their chest** (Effectiveness: Medium) - Your Response: Follow their movement by crunching forward and maintaining chest-to-thigh connection. Don't allow space to open. Use your leg hooks to prevent them from fully retracting the leg. If they successfully create space, you may need to transition to a different leg entanglement like 50-50 or Ashi Garami. → Leads to [[Half Guard]]
+- **Opponent rotates their knee inward (heel toward you) to relieve pressure** (Effectiveness: High) - Your Response: Immediately use your hands to grab their foot and rotate it back outward (toes away from you). You can also transition to a toe hold by catching their foot as they rotate. Maintain tight leg control to prevent full rotation. → Leads to [[Positions/Half Guard]]
+- **Opponent sits back and pulls their leg toward their chest** (Effectiveness: Medium) - Your Response: Follow their movement by crunching forward and maintaining chest-to-thigh connection. Don't allow space to open. Use your leg hooks to prevent them from fully retracting the leg. If they successfully create space, you may need to transition to a different leg entanglement like 50-50 or Ashi Garami. → Leads to [[Positions/Half Guard]]
 - **Opponent rolls forward over their trapped leg to escape** (Effectiveness: Medium) - Your Response: Anticipate this by maintaining strong top leg control over their hip/back. If they begin to roll, you can either finish the kneebar during their roll (they're adding force to the submission) or transition to the truck position as they rotate, maintaining leg control throughout. → Leads to [[game-over]]
 - **Opponent stands up on their free leg to relieve pressure** (Effectiveness: Low) - Your Response: Standing actually helps you finish—their own body weight adds force to the submission. Maintain your position and continue the finish. Use your top leg to kick their base leg if needed to return them to the mat. → Leads to [[game-over]]
-- **Opponent grabs their own leg/shin to create frame and postures up to pass** (Effectiveness: Medium) - Your Response: This creates a temporary defense but doesn't address the fundamental mechanics. Continue applying hip pressure while working to break their grip using your hands. If they successfully posture and begin to pass, they may advance to side control. Focus on pulling their foot/ankle toward you to break the frame before they can extract. → Leads to [[Side Control]]
+- **Opponent grabs their own leg/shin to create frame and postures up to pass** (Effectiveness: Medium) - Your Response: This creates a temporary defense but doesn't address the fundamental mechanics. Continue applying hip pressure while working to break their grip using your hands. If they successfully posture and begin to pass, they may advance to side control. Focus on pulling their foot/ankle toward you to break the frame before they can extract. → Leads to [[Positions/Side Control]]
 
 
 </section>

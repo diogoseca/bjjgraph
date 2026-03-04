@@ -180,7 +180,7 @@ description: "Learn to execute the Stack from Williams Guard as the attacker. Ma
 
 The Stack from Williams Guard is executed by the top player who has their arm trapped in the Williams Guard bottom player's shoulder lock configuration. As the attacker, your objective is to use forward pressure and controlled stacking mechanics to fold the bottom player's guard structure, neutralize the shoulder lock threat, and advance to half guard top or side control. The stack exploits the fundamental weakness of Williams Guard: the bottom player needs hip mobility and space to maintain effective shoulder lock leverage, and systematic stacking pressure eliminates both. Success requires patience, methodical weight advancement, and recognition of the precise moment when the guard structure collapses enough to extract your trapped arm and complete the pass.
 
-**From Position**: [[Williams Guard]] (Top)
+**From Position**: [[Positions/Williams Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The Stack from Williams Guard is executed by the top player who has their arm tr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Williams Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Williams Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Stack from Williams Guard is executed by the top player who has their arm tr
 
 ## Opponent Counters
 
-- **Hip escape to create lateral angle that prevents stacking fold** (Effectiveness: High) - Your Response: Follow the hip movement with your shoulder pressure and use your free hand to push their far hip back toward center. If significant angle is created, transition to knee slice pass on the exposed side rather than fighting to re-center the stack. → Leads to [[Williams Guard]]
-- **Release shoulder lock grip early and recover to guard frames** (Effectiveness: Medium) - Your Response: Capitalize immediately on the grip release by extracting your arm and driving forward into a pressure pass before they can establish new defensive frames. Their momentary grip transition is your window to advance past their guard entirely. → Leads to [[Williams Guard]]
-- **Redirect stacking momentum into omoplata rotation by swinging leg over shoulder** (Effectiveness: High) - Your Response: Maintain base by keeping hips low and feet wide during forward pressure. If you feel the omoplata rotation initiating, immediately posture up and backstep away from the rotating leg rather than continuing forward into the transition. → Leads to [[Half Guard]]
-- **Bridge and roll counter sweep using overcommitted forward weight** (Effectiveness: Medium) - Your Response: Maintain constant three-point base throughout the stack and never commit weight entirely forward without a posted leg ready to catch a roll attempt. Use incremental pressure advancement rather than explosive forward drives that create rollable momentum. → Leads to [[Half Guard]]
+- **Hip escape to create lateral angle that prevents stacking fold** (Effectiveness: High) - Your Response: Follow the hip movement with your shoulder pressure and use your free hand to push their far hip back toward center. If significant angle is created, transition to knee slice pass on the exposed side rather than fighting to re-center the stack. → Leads to [[Positions/Williams Guard]]
+- **Release shoulder lock grip early and recover to guard frames** (Effectiveness: Medium) - Your Response: Capitalize immediately on the grip release by extracting your arm and driving forward into a pressure pass before they can establish new defensive frames. Their momentary grip transition is your window to advance past their guard entirely. → Leads to [[Positions/Williams Guard]]
+- **Redirect stacking momentum into omoplata rotation by swinging leg over shoulder** (Effectiveness: High) - Your Response: Maintain base by keeping hips low and feet wide during forward pressure. If you feel the omoplata rotation initiating, immediately posture up and backstep away from the rotating leg rather than continuing forward into the transition. → Leads to [[Positions/Half Guard]]
+- **Bridge and roll counter sweep using overcommitted forward weight** (Effectiveness: Medium) - Your Response: Maintain constant three-point base throughout the stack and never commit weight entirely forward without a posted leg ready to catch a roll attempt. Use incremental pressure advancement rather than explosive forward drives that create rollable momentum. → Leads to [[Positions/Half Guard]]
 
 
 </section>

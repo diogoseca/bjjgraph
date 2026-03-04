@@ -21,7 +21,7 @@ Strategically, this transition exploits a fundamental principle of guard play: t
 
 The mechanical sequence requires precise grip management throughout. The bottom player must maintain at least one strong controlling grip, typically the collar grip, while extracting the lasso leg and establishing the DLR hook. Releasing all control points simultaneously creates a window where the opponent can freely advance, making grip sequencing the most critical technical element. Advanced practitioners learn to use the extraction motion itself as a sweep threat, turning what appears to be a purely transitional movement into an offensive weapon that forces the passer to defend during the guard switch.
 
-**From Position**: [[Russian Leg Lasso]] (Bottom)
+**From Position**: [[Positions/Lasso Guard/Russian Leg Lasso]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The mechanical sequence requires precise grip management throughout. The bottom 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[De La Riva Guard]] | 55% |
-| Failure | [[Russian Leg Lasso]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/De La Riva Guard]] | 55% |
+| Failure | [[Positions/Lasso Guard/Russian Leg Lasso]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Russian Lasso to De La Riva transition sits at the intersection of two major
 ## Related Techniques
 
 
-- [[Russian Leg Lasso]] - Source position from which this transition originates
+- [[Positions/Lasso Guard/Russian Leg Lasso]] - Source position from which this transition originates
 
-- [[De La Riva Guard]] - Target position reached on successful completion of the transition
+- [[Positions/De La Riva Guard]] - Target position reached on successful completion of the transition
 
-- [[Open Guard]] - Fallback position reached when the transition is countered or disrupted
+- [[Positions/Open Guard]] - Fallback position reached when the transition is countered or disrupted
 
-- [[Lasso Guard]] - Parent guard family sharing mechanical principles with Russian Leg Lasso
+- [[Positions/Lasso Guard]] - Parent guard family sharing mechanical principles with Russian Leg Lasso
 
-- [[Collar Sleeve Guard]] - Related guard system with compatible grip configurations that can facilitate this transition
+- [[Positions/Collar Sleeve Guard]] - Related guard system with compatible grip configurations that can facilitate this transition
 
-- [[Russian Lasso Sweep]] - Alternative offensive option from the starting position when the transition is not viable
+- [[Transitions/Russian Lasso Sweep]] - Alternative offensive option from the starting position when the transition is not viable
 
-- [[Collar Sleeve to De La Riva]] - Similar guard-to-guard transition sharing DLR entry principles and grip management strategies
+- [[Transitions/Collar Sleeve to De La Riva]] - Similar guard-to-guard transition sharing DLR entry principles and grip management strategies
 
-- [[Lapel to De La Riva]] - Related guard transition from another gi-based guard to DLR with similar hook establishment mechanics
+- [[Transitions/Lapel to De La Riva]] - Related guard transition from another gi-based guard to DLR with similar hook establishment mechanics
 
-- [[Backstep from De La Riva]] - Common opponent counter-pass after DLR is established, requiring awareness post-transition
+- [[Transitions/Backstep from De La Riva]] - Common opponent counter-pass after DLR is established, requiring awareness post-transition
 
-- [[Berimbolo Entry]] - Primary follow-up attack chain available from De La Riva after successful transition
+- [[Transitions/Berimbolo Entry]] - Primary follow-up attack chain available from De La Riva after successful transition
 
 
 </section>

@@ -156,7 +156,7 @@ description: "Learn to recognize, defend, and escape the Gogoplata Finish. Compl
 
 Defending the Gogoplata Finish presents one of the most challenging defensive scenarios in advanced grappling because the submission attacks the trachea through direct skeletal compression rather than relying on fabric or limb-based choking mechanics that offer more conventional defense options. The defender, positioned on top within Gogoplata Control, faces a shin locked across their throat with the attacker's foot secured behind their head, creating a closed-loop system that progressively tightens as the attacker elevates their hips and pulls the head downward. Successful defense requires early recognition of the finishing attempt, calm systematic action rather than panicked explosive movement, and understanding of the specific mechanical weaknesses that create escape opportunities. The primary defensive strategy centers on preventing the attacker from completing the progressive tightening sequence by addressing the foot-behind-head configuration, managing hip elevation, and creating angles that reduce perpendicular shin compression. Defenders must recognize that pulling straight backward is mechanically impossible once the foot is secured, and that explosive forward stacking, lateral head turns, and systematic hand-fighting of the foot position represent the highest-percentage escape paths.
 
-**Opponent's Starting Position**: [[Gogoplata Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Bottom)
 
 
 </section>
@@ -196,28 +196,28 @@ Defending the Gogoplata Finish presents one of the most challenging defensive sc
 ### 1. Hand-fight the foot position aggressively, using both hands to pry attacker's foot from behind your head
 
 - **When to use**: When the foot position is still relatively shallow and you have both hands free to fight the configuration
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Removing the foot breaks the closed-loop system, allowing you to extract your head and return to closed guard top
 - **Risk**: Committing both hands to foot removal leaves you vulnerable to armbar if attacker transitions quickly
 
 ### 2. Stack forward explosively to collapse attacker's hip elevation and flatten their back to the mat
 
 - **When to use**: When the choke is beginning to tighten but has not yet reached maximum compression, and you still have base and leg drive available
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Collapsing hip elevation changes shin angle from perpendicular to parallel, eliminating choking pressure and creating opportunity for systematic escape
 - **Risk**: Forward stacking can trigger omoplata transition if attacker releases gogoplata and redirects your shoulder
 
 ### 3. Turn head laterally toward the choking shin while tucking chin to reduce direct tracheal compression
 
 - **When to use**: As an immediate survival response when compression is increasing and you need to buy time for a systematic escape
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Reduces direct tracheal pressure enough to breathe while you work on removing the foot or changing the position
 - **Risk**: Turning toward the shin may expose your shoulder for omoplata if you over-rotate
 
 ### 4. Emergency roll to turtle position to explosively break the shin-across-throat configuration
 
 - **When to use**: When the choke is deeply locked, systematic escape is unavailable, and you must break the position immediately to avoid tapping
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The rolling motion breaks the perpendicular shin alignment and foot-behind-head position simultaneously
 - **Risk**: Rolling exposes your back and may give attacker back control with hooks if they follow the roll
 
@@ -240,11 +240,11 @@ Defending the Gogoplata Finish presents one of the most challenging defensive sc
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Successfully remove the foot from behind your head through persistent hand-fighting, then posture up to break remaining shin contact and re-establish posture in the attacker's closed guard
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Execute emergency roll or aggressive stacking that fully breaks the gogoplata configuration, creating enough separation to disengage entirely from the rubber guard system
 

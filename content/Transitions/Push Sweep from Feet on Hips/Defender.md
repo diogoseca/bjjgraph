@@ -146,7 +146,7 @@ description: "Defend against the push sweep from feet on hips guard in BJJ. Reco
 
 Defending the push sweep from feet on hips guard requires the top player to manage weight distribution and base width while maintaining forward pressure for guard passing. The primary defensive principle is avoiding forward weight commitment that enables the sweep while keeping at least one hand available to post as a safety mechanism. Successful defense often creates passing opportunities, as the bottom player's failed sweep attempt temporarily compromises their guard structure through extended legs and displaced grips. The defender must recognize pre-sweep indicators—particularly the sharp pulling action on grips and sudden hip elevation—and respond with immediate base adjustment rather than reactive posting after balance is already compromised.
 
-**Opponent's Starting Position**: [[Feet on Hips Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Feet on Hips Guard]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ Defending the push sweep from feet on hips guard requires the top player to mana
 ### 1. Widen base and drop hips backward to absorb the push force
 
 - **When to use**: When you feel the initial pull on your grips that precedes the leg extension
-- **Targets**: [[Feet on Hips Guard]]
+- **Targets**: [[Positions/Feet on Hips Guard]]
 - **If successful**: Sweep attempt fails completely, you maintain top position with the opponent's guard structure temporarily weakened from the failed attempt
 - **Risk**: Wide base creates vulnerability to sickle sweep or tripod sweep which target lateral balance
 
 ### 2. Grab both ankles during the leg extension phase to strip feet off hips
 
 - **When to use**: When opponent begins extending legs and you can reach their ankles before full extension
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Strip opponent's feet off your hips and advance to open guard top with dominant ankle control for immediate passing
 - **Risk**: If grip attempt fails or is too late, you absorb the full push at close range without base adjustment
 
 ### 3. Step laterally to avoid the push direction vector
 
 - **When to use**: When push pressure is directional rather than perfectly centered on both hips
-- **Targets**: [[Feet on Hips Guard]]
+- **Targets**: [[Positions/Feet on Hips Guard]]
 - **If successful**: Avoid the sweep entirely by moving perpendicular to the push, maintaining passing position with improved angle
 - **Risk**: Lateral movement can expose you to sickle sweep or tripod sweep targeting the side you are stepping toward
 
 ### 4. Post one hand behind you to prevent backward fall
 
 - **When to use**: As a last resort when already losing balance backward and other defenses are too late
-- **Targets**: [[Feet on Hips Guard]]
+- **Targets**: [[Positions/Feet on Hips Guard]]
 - **If successful**: Prevent the sweep completion, stabilize your base, and recover forward posture to resume passing
 - **Risk**: Posting hand is no longer available for grips or passing control, and opponent may redirect push to the posting side
 
@@ -216,11 +216,11 @@ Defending the push sweep from feet on hips guard requires the top player to mana
 
 ## Best-Case Outcomes for Defender
 
-### → [[Feet on Hips Guard]]
+### → [[Positions/Feet on Hips Guard]]
 
 Prevent the sweep by immediately widening your base and dropping your hips backward when you feel the initial grip pull. Maintain low center of gravity throughout and avoid committing weight forward. The failed sweep attempt temporarily weakens the opponent's guard structure, creating a brief window for advancing your pass.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Time your ankle grab to coincide with the opponent's leg extension, stripping both feet off your hips before they can generate full pushing force. Use the ankle control to immediately pin their legs to one side and advance to a toreando or leg drag passing position. The opponent's momentum from the failed sweep carries their legs in a direction you can exploit.
 

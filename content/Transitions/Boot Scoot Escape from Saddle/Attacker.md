@@ -186,7 +186,7 @@ description: "Complete guide to executing the Boot Scoot Escape from Saddle. Ste
 
 From the attacker's perspective—you are the trapped player executing the escape—the Boot Scoot Escape from Saddle demands disciplined execution under extreme pressure. Your primary objective is creating enough linear distance to degrade the structural integrity of the saddle entanglement without exposing your heel to finishing mechanics during the process. This requires coordinating heel protection, free leg framing, and rhythmic hip movement while resisting the psychological urge to explosively fight the position. The escape follows a clear mechanical sequence: protect first, frame second, scoot third, extract fourth. Rushing any step or skipping the sequence typically results in either remaining trapped or accelerating the opponent's submission mechanics by creating the rotational force they need to finish.
 
-**From Position**: [[Saddle]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ From the attacker's perspective—you are the trapped player executing the escap
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 45% |
-| Failure | [[Saddle]] | 35% |
-| Counter | [[Inside Ashi-Garami]] | 20% |
+| Success | [[Positions/Open Guard]] | 45% |
+| Failure | [[Positions/Ashi Garami/Saddle]] | 35% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ From the attacker's perspective—you are the trapped player executing the escap
 
 ## Opponent Counters
 
-- **Opponent follows your hip retreat by driving their hips forward to maintain entanglement pressure** (Effectiveness: High) - Your Response: Increase scooting rhythm and switch to angular boot scoot, moving diagonally rather than straight back to create angles the opponent cannot easily follow → Leads to [[Saddle]]
-- **Opponent strips your free leg frame off their hip to eliminate your pushing mechanism** (Effectiveness: High) - Your Response: Immediately re-establish the frame on the opposite hip or transition to framing on their shoulder with your free leg; if frame cannot be maintained, switch to counter-entangling defense → Leads to [[Saddle]]
-- **Opponent secures a heel grip during the brief transitional moment between scoots when you are resetting your frame** (Effectiveness: High) - Your Response: Return both hands immediately to heel protection and strip the grip before resuming the escape; do not continue scooting with an exposed heel → Leads to [[Saddle]]
-- **Opponent transitions leg configuration to inside ashi garami as the saddle loosens** (Effectiveness: Medium) - Your Response: Keep your knee pointed inward toward your centerline to prevent re-threading; continue the boot scoot as inside ashi offers less control than full saddle → Leads to [[Inside Ashi-Garami]]
+- **Opponent follows your hip retreat by driving their hips forward to maintain entanglement pressure** (Effectiveness: High) - Your Response: Increase scooting rhythm and switch to angular boot scoot, moving diagonally rather than straight back to create angles the opponent cannot easily follow → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent strips your free leg frame off their hip to eliminate your pushing mechanism** (Effectiveness: High) - Your Response: Immediately re-establish the frame on the opposite hip or transition to framing on their shoulder with your free leg; if frame cannot be maintained, switch to counter-entangling defense → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent secures a heel grip during the brief transitional moment between scoots when you are resetting your frame** (Effectiveness: High) - Your Response: Return both hands immediately to heel protection and strip the grip before resuming the escape; do not continue scooting with an exposed heel → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent transitions leg configuration to inside ashi garami as the saddle loosens** (Effectiveness: Medium) - Your Response: Keep your knee pointed inward toward your centerline to prevent re-threading; continue the boot scoot as inside ashi offers less control than full saddle → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 </section>

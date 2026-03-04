@@ -180,7 +180,7 @@ description: "Execute the Re-pull Half Guard from Dogfight to safely retreat fro
 
 As the bottom player executing the re-pull, your objective is a controlled descent from the elevated dogfight position back to a structured half guard with intact frames and distance management. This is not a passive collapse—it is an active technical withdrawal that requires precise timing, frame insertion, and hip positioning to land in an organized guard rather than a flattened defensive nightmare. The distinction between a successful re-pull and getting smashed flat lies entirely in the quality of your frames during the transition and your ability to establish defensive structure before the top player can follow you down with pressure. Mastering this retreat transforms your entire dogfight game by removing the fear of failed exchanges and allowing you to take calculated offensive risks knowing you have a reliable exit strategy.
 
-**From Position**: [[Dogfight Position]] (Bottom)
+**From Position**: [[Positions/Dogfight Position]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player executing the re-pull, your objective is a controlled desce
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Flattened Half Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the bottom player executing the re-pull, your objective is a controlled desce
 
 ## Opponent Counters
 
-- **Opponent drives forward as you attempt to sit back, following your descent with heavy chest pressure** (Effectiveness: High) - Your Response: Use the knee shield frame to redirect their forward energy past your centerline rather than absorbing it. If they overcommit, consider redirecting into a deep half entry by ducking under their driving pressure. → Leads to [[Flattened Half Guard]]
-- **Opponent strips your knee shield by swimming their arm inside and driving your knee to the mat** (Effectiveness: Medium) - Your Response: Immediately hip escape to re-insert the knee shield before they consolidate. If the shield is fully cleared, transition to lockdown or butterfly half hook to maintain some form of guard structure. → Leads to [[Flattened Half Guard]]
-- **Opponent circles their trapped leg free during the transition when your entanglement loosens** (Effectiveness: High) - Your Response: Squeeze your knees together to maintain the leg trap throughout the descent. If the leg begins to escape, immediately recover to closed guard or butterfly guard rather than fighting for a compromised half guard. → Leads to [[Side Control]]
-- **Opponent uses your downward movement to establish crossface and flatten you before you can angle your body** (Effectiveness: Medium) - Your Response: Lead with the knee shield insertion before dropping level. If crossface arrives first, use your inside hand to frame against the opponent's neck and create enough space to turn to your side. → Leads to [[Flattened Half Guard]]
+- **Opponent drives forward as you attempt to sit back, following your descent with heavy chest pressure** (Effectiveness: High) - Your Response: Use the knee shield frame to redirect their forward energy past your centerline rather than absorbing it. If they overcommit, consider redirecting into a deep half entry by ducking under their driving pressure. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent strips your knee shield by swimming their arm inside and driving your knee to the mat** (Effectiveness: Medium) - Your Response: Immediately hip escape to re-insert the knee shield before they consolidate. If the shield is fully cleared, transition to lockdown or butterfly half hook to maintain some form of guard structure. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent circles their trapped leg free during the transition when your entanglement loosens** (Effectiveness: High) - Your Response: Squeeze your knees together to maintain the leg trap throughout the descent. If the leg begins to escape, immediately recover to closed guard or butterfly guard rather than fighting for a compromised half guard. → Leads to [[Positions/Side Control]]
+- **Opponent uses your downward movement to establish crossface and flatten you before you can angle your body** (Effectiveness: Medium) - Your Response: Lead with the knee shield insertion before dropping level. If crossface arrives first, use your inside hand to frame against the opponent's neck and create enough space to turn to your side. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 
 
 </section>

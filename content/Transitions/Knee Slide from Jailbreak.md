@@ -21,7 +21,7 @@ Timing is the decisive factor in this technique. The window for the knee slide e
 
 Strategically, this pass fits within the broader Jailbreak passing system as a targeted option when the bottom player's leg extension creates a clear knee slide corridor. It pairs effectively with smash passes and leg weave options from the same position, as the bottom player's defense against the knee slide opens pathways for these alternative passes. The technique is particularly effective when combined with strong crossface control that turns the bottom player's head away, preventing them from facing into the passer and re-establishing defensive frames. Advanced practitioners use the knee slide threat to force defensive reactions that expose higher-percentage passing opportunities.
 
-**From Position**: [[Jailbreak]] (Top)
+**From Position**: [[Positions/Jailbreak]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this pass fits within the broader Jailbreak passing system as a t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Knee Slide from Jailbreak occupies a specific niche within the half guard pa
 ## Related Techniques
 
 
-- [[Jailbreak]] - Source position from which this pass is initiated when bottom player extends legs
+- [[Positions/Jailbreak]] - Source position from which this pass is initiated when bottom player extends legs
 
-- [[Half Guard]] - Parent position system containing the Jailbreak variation as an escape option
+- [[Positions/Half Guard]] - Parent position system containing the Jailbreak variation as an escape option
 
-- [[Side Control]] - Primary target position achieved on successful pass completion
+- [[Positions/Side Control]] - Primary target position achieved on successful pass completion
 
-- [[Headquarters Position]] - Related passing position with similar leg navigation and pressure mechanics
+- [[Positions/Headquarters Position]] - Related passing position with similar leg navigation and pressure mechanics
 
-- [[Deep Half Guard]] - Counter position the bottom player may enter to prevent the knee slide
+- [[Positions/Half Guard/Deep Half Guard]] - Counter position the bottom player may enter to prevent the knee slide
 
-- [[Knee Shield Half Guard]] - Defensive structure bottom player may establish if they retract legs in time
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive structure bottom player may establish if they retract legs in time
 
-- [[Flattened Half Guard]] - Related intermediate state when top player pins bottom player before completing slide
+- [[Positions/Half Guard/Flattened Half Guard]] - Related intermediate state when top player pins bottom player before completing slide
 
-- [[Lockdown]] - Leg entanglement counter the bottom player may attempt to trap the sliding knee
+- [[Positions/Half Guard/Lockdown]] - Leg entanglement counter the bottom player may attempt to trap the sliding knee
 
-- [[Dogfight Position]] - Scramble position arising if bottom player achieves underhook during pass attempt
+- [[Positions/Dogfight Position]] - Scramble position arising if bottom player achieves underhook during pass attempt
 
-- [[Combat Base]] - Alternative passing stance the top player may adopt if knee slide is heavily defended
+- [[Positions/Combat Base]] - Alternative passing stance the top player may adopt if knee slide is heavily defended
 
-- [[Back Control]] - Secondary target when underhook knee slide variant exposes opponent's back
+- [[Positions/Back Control]] - Secondary target when underhook knee slide variant exposes opponent's back
 
 
 </section>

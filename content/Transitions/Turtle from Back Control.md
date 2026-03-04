@@ -21,7 +21,7 @@ The escape requires a systematic approach that prioritizes neck defense before a
 
 Understanding when to initiate this escape versus other back escape options is a key tactical decision. Turtle escape is most viable when the opponent has loosened their hook control or when their seatbelt grip has been partially neutralized through hand fighting. Attempting this escape against a fully locked body triangle or deep seatbelt with chin strap control significantly reduces success probability and may expose the bottom player to worse outcomes.
 
-**From Position**: [[Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Understanding when to initiate this escape versus other back escape options is a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 50% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Turtle]] | 50% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -191,27 +191,27 @@ Turtle from Back Control fits within the broader back escape hierarchy as the mo
 ## Related Techniques
 
 
-- [[Back Control]] - Source position from which this escape is initiated
+- [[Positions/Back Control]] - Source position from which this escape is initiated
 
-- [[Turtle]] - Target position reached on successful escape
+- [[Positions/Turtle]] - Target position reached on successful escape
 
-- [[Mount]] - Counter outcome position if opponent capitalizes on escape attempt
+- [[Positions/Mount]] - Counter outcome position if opponent capitalizes on escape attempt
 
-- [[Hand Fight to Turtle from Back]] - Complementary hand fighting transition that often precedes this escape
+- [[Transitions/Hand Fight to Turtle from Back]] - Complementary hand fighting transition that often precedes this escape
 
-- [[Hip Escape from Back Control]] - Alternative back escape using hip movement to recover guard directly
+- [[Transitions/Hip Escape from Back Control]] - Alternative back escape using hip movement to recover guard directly
 
-- [[Shoulder Walk Escape from Back]] - Alternative escape method using shoulder walking to create angle
+- [[Transitions/Shoulder Walk Escape from Back]] - Alternative escape method using shoulder walking to create angle
 
-- [[Turn into Opponent from Back]] - Alternative escape direction turning to face opponent rather than turtling
+- [[Transitions/Turn into Opponent from Back]] - Alternative escape direction turning to face opponent rather than turtling
 
-- [[Elbow Escape from Back]] - Related escape using elbow frames to create space for guard recovery
+- [[Transitions/Elbow Escape from Back]] - Related escape using elbow frames to create space for guard recovery
 
-- [[Back Door Escape]] - Comprehensive back escape system that includes turtle as an intermediate target
+- [[Transitions/Back Door Escape]] - Comprehensive back escape system that includes turtle as an intermediate target
 
-- [[Sit Out from Turtle]] - Common follow-up transition from turtle to continue improving position
+- [[Transitions/Sit Out from Turtle]] - Common follow-up transition from turtle to continue improving position
 
-- [[Body Triangle]] - Back control variation that significantly changes escape strategy and reduces success rate
+- [[Positions/Back Control/Body Triangle]] - Back control variation that significantly changes escape strategy and reduces success rate
 
 
 </section>

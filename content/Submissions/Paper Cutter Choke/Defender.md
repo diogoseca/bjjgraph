@@ -156,7 +156,7 @@ description: "How to defend against Paper Cutter Choke in BJJ. Recognition, esca
 
 Defending the Paper Cutter Choke requires early recognition and immediate action, because once the attacker secures a deep collar grip and establishes the correct body angle, escape becomes extremely difficult. The defender is already in a disadvantageous position—trapped under side control—and must simultaneously address the positional disadvantage and the submission threat. The fundamental defensive strategy centers on preventing the collar grip from being established or, if established, preventing the attacker from creating the 45-degree angle needed for the scissoring finish. Understanding the mechanics of the choke reveals that defense has distinct phases: pre-grip prevention where framing and collar protection are paramount, grip-fighting phase where stripping or neutralizing the collar hand is the priority, and late-stage emergency defense where turning into the attacker and creating space become survival imperatives. Effective defenders develop sensitivity to the attacker's weight shifts and hand movements that telegraph the paper cutter setup, allowing them to begin defensive actions before the choke is fully configured.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the Paper Cutter Choke requires early recognition and immediate action
 ### 1. Two-on-one grip strip on the choking wrist: grab their choking hand with both of your hands, peel their fingers from the collar, and push the hand toward their hip while shrimping away to create distance
 
 - **When to use**: As soon as you feel fingers entering your far collar—this is the highest-percentage defense but only works before the grip is fully set and the angle is established
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Attacker loses their collar grip and must re-establish side control before attempting again, resetting the attack sequence
 - **Risk**: Both hands committed to grip fighting leaves your neck momentarily exposed to arm triangle if attacker abandons the paper cutter and transitions
 
 ### 2. Strong near-arm frame against attacker's neck and shoulder: drive your forearm into their throat and shoulder junction to create space and prevent them from driving their shoulder forward to create the choking angle
 
 - **When to use**: When the attacker begins shifting their hips to create the 45-degree angle but has not yet driven the shoulder forward for the finish—use the frame to stall their angle creation
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Prevents the attacker from establishing the choking angle, buying time to work grip strips or hip escape sequences back to guard
 - **Risk**: Extended arm can be captured for americana or kimura if you overcommit the frame without maintaining elbow discipline
 
 ### 3. Turn into attacker and establish underhook: bridge toward the attacker while threading your near arm for an underhook, then shrimp your hips to recover half guard or close distance to neutralize the choke angle
 
 - **When to use**: When the collar grip is already deep and you cannot strip it—turning into the attacker eliminates the cutting angle needed for the scissoring action and can lead to guard recovery
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Closes the distance needed for the scissoring action, neutralizes the choke, and creates pathway to half guard recovery
 - **Risk**: If the turn is incomplete, you may end up in a worse position with the collar grip still intact and the attacker transitioning to mount
 
 ### 4. Explosive bridge and hip escape to recover guard: time a powerful bridge to disrupt the attacker's base, then immediately shrimp your hips away and insert a knee shield or recover closed guard
 
 - **When to use**: When the attacker lifts their chest momentarily during the collar grip setup or when they shift weight to adjust their angle—exploit the brief window where their base is compromised
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Full guard recovery nullifies both the positional disadvantage and the submission threat simultaneously
 - **Risk**: Failed bridge wastes significant energy and may allow attacker to advance position or tighten the choke during your recovery
 
@@ -239,11 +239,11 @@ Defending the Paper Cutter Choke requires early recognition and immediate action
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Strip the collar grip early with two-on-one grip fighting before the attacker can set the angle, then immediately frame and work standard side control escape sequences to recover guard or create scramble
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Turn into the attacker to neutralize the choking angle, establish an underhook, and shrimp your hips to insert a knee shield and recover half guard position where you have guard retention options
 

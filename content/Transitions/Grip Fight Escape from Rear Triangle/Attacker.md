@@ -180,7 +180,7 @@ description: "Execute the grip fight escape from rear triangle bottom. Step-by-s
 
 As the person executing the grip fight escape, you are caught in rear triangle bottom and must systematically dismantle the opponent's triangle lock using your free hand. This is a methodical, grip-by-grip approach that targets the structural weak points of the figure-four configuration. Your primary objective is breaking the ankle-knee connection that holds the triangle together, then extracting your trapped arm and escaping to turtle. Success requires patience, precise grip targeting, and the discipline to work incrementally rather than explosively when the triangle is locked tight. The grip fight approach conserves energy compared to explosive escapes and gives you a reliable protocol even under significant choking pressure.
 
-**From Position**: [[Rear Triangle]] (Bottom)
+**From Position**: [[Positions/Triangle Control/Rear Triangle]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ As the person executing the grip fight escape, you are caught in rear triangle b
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 35% |
-| Failure | [[Rear Triangle]] | 40% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Turtle]] | 35% |
+| Failure | [[Positions/Triangle Control/Rear Triangle]] | 40% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the person executing the grip fight escape, you are caught in rear triangle b
 
 ## Opponent Counters
 
-- **Opponent squeezes triangle tighter and angles hips to accelerate the choke** (Effectiveness: High) - Your Response: Immediately reinforce chin tuck and shoulder shrug to buy time. Switch from sustained pulling to quick burst grip breaks timed with the opponent's breathing cycle. If choke becomes critical, abandon grip fight and attempt explosive posture recovery instead. → Leads to [[Rear Triangle]]
-- **Opponent strips your grip on their ankle and controls your free hand wrist** (Effectiveness: High) - Your Response: Use wrist circles and grip breaks to free your controlled hand. If opponent commits both hands to controlling your free arm, their triangle relies entirely on leg pressure, which may create looseness you can exploit with shoulder rotation and hip movement alone. → Leads to [[Rear Triangle]]
-- **Opponent transitions to armbar by extending hips and pulling on your trapped arm** (Effectiveness: Medium) - Your Response: Immediately clasp both hands together to prevent arm extension. Turn your body toward the trapped arm side and bring your elbow tight to your body. The armbar transition creates looseness in the triangle, so if you successfully defend the armbar, use that space to extract your arm and escape. → Leads to [[Back Control]]
-- **Opponent releases triangle and transitions to standard back control with hooks** (Effectiveness: Medium) - Your Response: While losing the triangle is your goal, the opponent transitioning to back control with hooks still leaves you in a compromised position. Immediately begin standard back escape protocols: fight the seatbelt grip, work to remove hooks, and escape to turtle or guard recovery. → Leads to [[Back Control]]
+- **Opponent squeezes triangle tighter and angles hips to accelerate the choke** (Effectiveness: High) - Your Response: Immediately reinforce chin tuck and shoulder shrug to buy time. Switch from sustained pulling to quick burst grip breaks timed with the opponent's breathing cycle. If choke becomes critical, abandon grip fight and attempt explosive posture recovery instead. → Leads to [[Positions/Triangle Control/Rear Triangle]]
+- **Opponent strips your grip on their ankle and controls your free hand wrist** (Effectiveness: High) - Your Response: Use wrist circles and grip breaks to free your controlled hand. If opponent commits both hands to controlling your free arm, their triangle relies entirely on leg pressure, which may create looseness you can exploit with shoulder rotation and hip movement alone. → Leads to [[Positions/Triangle Control/Rear Triangle]]
+- **Opponent transitions to armbar by extending hips and pulling on your trapped arm** (Effectiveness: Medium) - Your Response: Immediately clasp both hands together to prevent arm extension. Turn your body toward the trapped arm side and bring your elbow tight to your body. The armbar transition creates looseness in the triangle, so if you successfully defend the armbar, use that space to extract your arm and escape. → Leads to [[Positions/Back Control]]
+- **Opponent releases triangle and transitions to standard back control with hooks** (Effectiveness: Medium) - Your Response: While losing the triangle is your goal, the opponent transitioning to back control with hooks still leaves you in a compromised position. Immediately begin standard back escape protocols: fight the seatbelt grip, work to remove hooks, and escape to turtle or guard recovery. → Leads to [[Positions/Back Control]]
 
 
 </section>

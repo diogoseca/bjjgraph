@@ -182,7 +182,7 @@ description: "How to execute Twister in BJJ. Attacking perspective with setup, e
 
 The Twister attack requires methodical establishment of opposing force vectors through the opponent's spine. The attacker must first secure complete lower body control via the Truck position before addressing the upper body. The submission's power comes from the corkscrew torque created by pushing the opponent's hips one direction with extended legs while pulling the head and shoulders the opposite direction. This is not a strength-based finish but a position-based one, where correct perpendicular alignment and progressive pressure create irresistible rotational force on the spinal column. The attacker must understand that the Twister is the terminal technique in a chain that begins with half guard lockdown entries, progresses through the Truck, and culminates in the spinal rotation. Each preceding step must be mastered before attempting the finish, as the submission is only as strong as the control that precedes it.
 
-**From Position**: [[Twister Control]] (Top)
+**From Position**: [[Positions/Twister Control]] (Top)
 
 
 </section>
@@ -239,8 +239,8 @@ The Twister attack requires methodical establishment of opposing force vectors t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 52% |
-| Failure | [[Twister Control]] | 28% |
-| Counter | [[Turtle]] | 20% |
+| Failure | [[Positions/Twister Control]] | 28% |
+| Counter | [[Positions/Turtle]] | 20% |
 
 
 </section>
@@ -249,11 +249,11 @@ The Twister attack requires methodical establishment of opposing force vectors t
 
 ## Opponent Defenses
 
-- **Turn into you to prevent perpendicular alignment** (Effectiveness: High) - Your Response: Maintain lockdown pressure and use your free hand to post on their hip, preventing the turn. Re-establish perpendicular position before attempting the finish. → Leads to [[Twister Control]]
-- **Straighten the trapped leg to escape lockdown** (Effectiveness: High) - Your Response: Switch to a body triangle if they begin escaping the lockdown. Maintain lower body control at all costs as it is essential for the submission. → Leads to [[Twister Control]]
-- **Tuck chin and hide neck to prevent head control** (Effectiveness: Medium) - Your Response: Control the far shoulder instead of the head, or use a chin cup grip. Focus on shoulder control and create the twisting motion through the shoulder girdle rather than the neck. → Leads to [[Twister Control]]
-- **Roll backwards over their shoulder to escape rotation** (Effectiveness: Medium) - Your Response: Use your weight to prevent the backwards roll. Post with your free hand and maintain perpendicular pressure. If they commit to the roll, follow through and transition to back control. → Leads to [[Turtle]]
-- **Grab your limbs to create frames and stall rotation** (Effectiveness: Low) - Your Response: Strip their grips by pulling their arm behind their back more aggressively. In no-gi, maintain wrist control to prevent them from grabbing you. → Leads to [[Twister Control]]
+- **Turn into you to prevent perpendicular alignment** (Effectiveness: High) - Your Response: Maintain lockdown pressure and use your free hand to post on their hip, preventing the turn. Re-establish perpendicular position before attempting the finish. → Leads to [[Positions/Twister Control]]
+- **Straighten the trapped leg to escape lockdown** (Effectiveness: High) - Your Response: Switch to a body triangle if they begin escaping the lockdown. Maintain lower body control at all costs as it is essential for the submission. → Leads to [[Positions/Twister Control]]
+- **Tuck chin and hide neck to prevent head control** (Effectiveness: Medium) - Your Response: Control the far shoulder instead of the head, or use a chin cup grip. Focus on shoulder control and create the twisting motion through the shoulder girdle rather than the neck. → Leads to [[Positions/Twister Control]]
+- **Roll backwards over their shoulder to escape rotation** (Effectiveness: Medium) - Your Response: Use your weight to prevent the backwards roll. Post with your free hand and maintain perpendicular pressure. If they commit to the roll, follow through and transition to back control. → Leads to [[Positions/Turtle]]
+- **Grab your limbs to create frames and stall rotation** (Effectiveness: Low) - Your Response: Strip their grips by pulling their arm behind their back more aggressively. In no-gi, maintain wrist control to prevent them from grabbing you. → Leads to [[Positions/Twister Control]]
 
 
 </section>

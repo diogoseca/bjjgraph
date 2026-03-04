@@ -212,41 +212,41 @@ Rather than a passive defensive position, Half Guard Bottom in modern jiu-jitsu 
 
 ## Available Escapes
 
-### [[Underhook Sweep from Half]] (18% of attempts)
+### [[Transitions/Underhook Sweep from Half]] (18% of attempts)
 
-### [[Half Guard to Back Take]] (12% of attempts)
+### [[Transitions/Half Guard to Back Take]] (12% of attempts)
 
-### [[Deep Half Entry]] (10% of attempts)
+### [[Transitions/Deep Half Entry]] (10% of attempts)
 
-### [[Old School Sweep]] (8% of attempts)
+### [[Transitions/Old School Sweep]] (8% of attempts)
 
-### [[Knee Shield Retention]] (8% of attempts)
+### [[Transitions/Knee Shield Retention]] (8% of attempts)
 
-### [[Lockdown Recovery]] (5% of attempts)
+### [[Transitions/Lockdown Recovery]] (5% of attempts)
 
-### [[Kimura Sweep]] (5% of attempts)
+### [[Transitions/Kimura Sweep]] (5% of attempts)
 
-### [[Deep Half Entry from Half Guard]] (5% of attempts)
+### [[Transitions/Deep Half Entry from Half Guard]] (5% of attempts)
 
-### [[Knee Torque Sweep]] (5% of attempts)
+### [[Transitions/Knee Torque Sweep]] (5% of attempts)
 
-### [[Half Guard to X-Guard]] (4% of attempts)
+### [[Transitions/Half Guard to X-Guard]] (4% of attempts)
 
-### [[Dogfight Position]] (4% of attempts)
+### [[Positions/Dogfight Position]] (4% of attempts)
 
-### [[Half Guard Recovery]] (3% of attempts)
+### [[Transitions/Half Guard Recovery]] (3% of attempts)
 
-### [[Electric Chair Transition]] (3% of attempts)
+### [[Transitions/Electric Chair Transition]] (3% of attempts)
 
-### [[Half Guard to K-Guard]] (2% of attempts)
+### [[Transitions/Half Guard to K-Guard]] (2% of attempts)
 
-### [[Back Door Escape from Half Guard]] (2% of attempts)
+### [[Transitions/Back Door Escape from Half Guard]] (2% of attempts)
 
-### [[Half Guard to Old School]] (2% of attempts)
+### [[Transitions/Half Guard to Old School]] (2% of attempts)
 
-### [[Buggy Choke]] (2% of attempts)
+### [[Positions/Buggy Choke]] (2% of attempts)
 
-### [[Kneebar from Half Guard]] (2% of attempts)
+### [[Submissions/Kneebar from Half Guard]] (2% of attempts)
 
 
 
@@ -257,29 +257,29 @@ Rather than a passive defensive position, Half Guard Bottom in modern jiu-jitsu 
 ## Decision Making from This Position
 
 **If opponent has underhook and crossface attempting to flatten you with heavy shoulder pressure:**
-- Execute **[[Frame and Shrimp]]** → [[Knee Shield Half Guard]] (Probability: 60%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 55%)
+- Execute **[[Frame and Shrimp]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
 
 
 **If you have secured the underhook on the trapped leg side with angle established:**
-- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Half Guard to Back Take]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent attempts to stand or posture up creating distance from your frames:**
-- Execute **[[Kimura Sweep]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Lockdown Recovery]]** → [[Lockdown]] (Probability: 65%)
+- Execute **[[Transitions/Kimura Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 65%)
 
 
 **If opponent drives forward with heavy chest-to-chest pressure committing weight:**
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 70%)
-- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 45%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 70%)
+- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 45%)
 
 
 **If opponent attempts knee slice pass by driving knee across your thigh line:**
-- Execute **[[Knee Shield Retention]]** → [[Knee Shield Half Guard]] (Probability: 70%)
-- Execute **[[Half Guard Recovery]]** → [[Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Knee Shield Retention]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 70%)
+- Execute **[[Transitions/Half Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 55%)
 
 
 
@@ -381,15 +381,15 @@ Start in standard half guard bottom and cycle through all variations on command 
 
 ## Related Positions and Techniques
 
-- **[[Deep Half Guard]]** - Advanced variation offering superior sweeping mechanics from underneath opponent
-- **[[Knee Shield Half Guard]]** - Defensive variation with distance management emphasis using shin frame
-- **[[Lockdown]]** - Leg entanglement variation using double leg figure-four for posture and sweep control
-- **[[Side Control]]** - Common pass destination if half guard retention fails against top pressure
-- **[[Closed Guard]]** - Guard recovery target from half guard through hip escape and leg insertion
-- **[[Underhook Sweep from Half]]** - Primary offensive sweep technique from half guard bottom with underhook
-- **[[Old School Sweep]]** - High-percentage sweep to mount from half guard using underhook and posting
-- **[[Back Control]]** - Advanced position accessible through back take sequences from underhook control
-- **[[Dogfight Position]]** - Scramble position arising when both players achieve underhooks simultaneously
+- **[[Positions/Half Guard/Deep Half Guard]]** - Advanced variation offering superior sweeping mechanics from underneath opponent
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Defensive variation with distance management emphasis using shin frame
+- **[[Positions/Half Guard/Lockdown]]** - Leg entanglement variation using double leg figure-four for posture and sweep control
+- **[[Positions/Side Control]]** - Common pass destination if half guard retention fails against top pressure
+- **[[Positions/Closed Guard]]** - Guard recovery target from half guard through hip escape and leg insertion
+- **[[Transitions/Underhook Sweep from Half]]** - Primary offensive sweep technique from half guard bottom with underhook
+- **[[Transitions/Old School Sweep]]** - High-percentage sweep to mount from half guard using underhook and posting
+- **[[Positions/Back Control]]** - Advanced position accessible through back take sequences from underhook control
+- **[[Positions/Dogfight Position]]** - Scramble position arising when both players achieve underhooks simultaneously
 
 
 </section>

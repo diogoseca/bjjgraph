@@ -21,7 +21,7 @@ The strategic calculus of choosing the stack pass over simpler Carni escapes inv
 
 Execution depends on three mechanical pillars: first, protecting the heel throughout the forward drive to prevent submission during the pass; second, generating sufficient chest-to-hip pressure to collapse the bottom player's leg configuration and neutralize their entanglement structure; and third, walking around to the passing side with controlled lateral movement while maintaining constant stacking weight. The technique requires upper body strength, forward driving mechanics, and the tactical awareness to recognize when the bottom player's grip and hook positions create an exploitable window for the aggressive pass attempt.
 
-**From Position**: [[Carni]] (Top)
+**From Position**: [[Positions/Rubber Guard/Carni]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ Execution depends on three mechanical pillars: first, protecting the heel throug
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 35% |
-| Success | [[Half Guard]] | 10% |
-| Failure | [[Carni]] | 35% |
-| Counter | [[Saddle]] | 20% |
+| Success | [[Positions/Side Control]] | 35% |
+| Success | [[Positions/Half Guard]] | 10% |
+| Failure | [[Positions/Rubber Guard/Carni]] | 35% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 20% |
 
 
 </section>
@@ -192,23 +192,23 @@ The Stack Pass from Carni occupies a unique position in the BJJ positional hiera
 ## Related Techniques
 
 
-- [[Carni]] - Starting position - the leg entanglement from which stack pass is initiated
+- [[Positions/Rubber Guard/Carni]] - Starting position - the leg entanglement from which stack pass is initiated
 
-- [[Side Control]] - Primary target position achieved when the stack pass succeeds completely
+- [[Positions/Side Control]] - Primary target position achieved when the stack pass succeeds completely
 
-- [[Half Guard]] - Partial success outcome when stacking collapses the entanglement but legs are not fully cleared
+- [[Positions/Half Guard]] - Partial success outcome when stacking collapses the entanglement but legs are not fully cleared
 
-- [[Saddle]] - Counter risk - position bottom player may advance to during the forward pressure
+- [[Positions/Ashi Garami/Saddle]] - Counter risk - position bottom player may advance to during the forward pressure
 
-- [[Posture Recovery from Carni]] - Alternative technique - less aggressive escape using similar forward pressure mechanics
+- [[Transitions/Posture Recovery from Carni]] - Alternative technique - less aggressive escape using similar forward pressure mechanics
 
-- [[Combat Base]] - Alternative escape destination from Carni with different risk profile
+- [[Positions/Combat Base]] - Alternative escape destination from Carni with different risk profile
 
-- [[Ashi Garami]] - Parent entanglement family from which Carni derives its control structure
+- [[Positions/Ashi Garami]] - Parent entanglement family from which Carni derives its control structure
 
-- [[Honey Hole]] - Related leg entanglement - similar stacking escape principles apply from top
+- [[Positions/Ashi Garami/Honey Hole]] - Related leg entanglement - similar stacking escape principles apply from top
 
-- [[Knee on Belly]] - Follow-up position accessible after completing the stack pass to side control
+- [[Positions/Knee on Belly]] - Follow-up position accessible after completing the stack pass to side control
 
 
 </section>

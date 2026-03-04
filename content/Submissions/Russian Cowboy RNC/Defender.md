@@ -144,7 +144,7 @@ Defending the Russian Cowboy RNC requires addressing the immediate choking threa
 
 The defensive hierarchy is absolute: protect the neck first, manage the seatbelt second, address the hook third. Reversing this order almost always results in being choked during the escape attempt. However, you can use the single-hook vulnerability as a strategic counter by recognizing that when the attacker commits to the choking arm insertion, their hook pressure often decreases slightly, creating windows for positional escape. The goal is to survive the immediate choke threat long enough to capitalize on these transitional moments and recover to a more defensible position.
 
-**Opponent's Starting Position**: [[Russian Cowboy]] (Top)
+**Opponent's Starting Position**: [[Positions/Russian Cowboy]] (Top)
 
 
 </section>
@@ -183,21 +183,21 @@ The defensive hierarchy is absolute: protect the neck first, manage the seatbelt
 ### 1. Two-on-one wrist control on the choking arm combined with chin tuck
 
 - **When to use**: Immediately upon recognizing the choking arm advancing toward your chin - this is your primary defense
-- **Targets**: [[Russian Cowboy]]
+- **Targets**: [[Positions/Russian Cowboy]]
 - **If successful**: Prevents the choke from being established, forcing the attacker to reset their hand-fighting sequence
 - **Risk**: Leaves the hook unaddressed, allowing the attacker to deepen positional control while hand fighting continues
 
 ### 2. Strip the hook by pushing the attacker's foot away while maintaining chin protection with one hand
 
 - **When to use**: When the attacker loosens hook pressure to focus on advancing the choking arm past your chin defense
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Removes the rotational control that pins you on your side, enabling hip escape to half guard recovery
 - **Risk**: Sacrificing one hand from neck defense to address the hook creates a window for the choking arm to slip under the chin
 
 ### 3. Explosive hip escape toward the hook side combined with shoulder roll to create separation
 
 - **When to use**: When you feel the attacker shift weight to connect the choking grip behind your head, momentarily reducing their base stability
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough separation to turn and face the attacker, recovering to half guard or closed guard
 - **Risk**: If timed poorly, the explosive movement can accelerate the choke application as your neck extends during the escape
 
@@ -219,11 +219,11 @@ The defensive hierarchy is absolute: protect the neck first, manage the seatbelt
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Strip the hook when the attacker commits to the choking arm, immediately shrimp hips away and establish knee shield to prevent re-establishment of back control
 
-### → [[Russian Cowboy]]
+### → [[Positions/Russian Cowboy]]
 
 Successfully defend the choke through sustained hand fighting, forcing the attacker to abandon the submission attempt and return to positional control
 

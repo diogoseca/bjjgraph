@@ -21,7 +21,7 @@ Strategically, the Dogfight Sweep is the anchor technique of the Dogfight attack
 
 The sweep scales effectively across skill levels. Beginners can succeed with raw forward pressure and grip strength. Advanced practitioners refine the timing to execute during weight transitions, reading when the opponent shifts their base and attacking the precise moment their far leg becomes load-bearing. The mechanical simplicity combined with strategic depth makes this sweep essential for any competitive half guard practitioner.
 
-**From Position**: [[Dogfight Position]] (Bottom)
+**From Position**: [[Positions/Dogfight Position]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The sweep scales effectively across skill levels. Beginners can succeed with raw
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Dogfight Position]] | 30% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Dogfight Position]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Dogfight Sweep is the central technique of the Dogfight Position attacking s
 ## Related Techniques
 
 
-- [[Dogfight Position]] - Source position from which this sweep is executed; the bottom player must establish the Dogfight configuration before attempting the sweep
+- [[Positions/Dogfight Position]] - Source position from which this sweep is executed; the bottom player must establish the Dogfight configuration before attempting the sweep
 
-- [[Half Guard]] - Parent guard system; the Dogfight Position arises from successful half guard recovery and underhook establishment
+- [[Positions/Half Guard]] - Parent guard system; the Dogfight Position arises from successful half guard recovery and underhook establishment
 
-- [[Side Control]] - Primary target position achieved upon successful sweep completion
+- [[Positions/Side Control]] - Primary target position achieved upon successful sweep completion
 
-- [[Flattened Half Guard]] - Counter outcome position when opponent successfully defends with whizzer and crossface pressure to flatten the sweeper
+- [[Positions/Half Guard/Flattened Half Guard]] - Counter outcome position when opponent successfully defends with whizzer and crossface pressure to flatten the sweeper
 
-- [[Back Control]] - Alternative attack target when opponent defends sweep by retracting far leg, exposing their back
+- [[Positions/Back Control]] - Alternative attack target when opponent defends sweep by retracting far leg, exposing their back
 
-- [[Deep Half Guard]] - Alternative transition when opponent applies heavy forward pressure that prevents the sweep drive
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition when opponent applies heavy forward pressure that prevents the sweep drive
 
-- [[Forward Drive Sweep from Dogfight]] - Complementary sweep from same position that chains with Dogfight Sweep when opponent defends the far leg grip
+- [[Transitions/Forward Drive Sweep from Dogfight]] - Complementary sweep from same position that chains with Dogfight Sweep when opponent defends the far leg grip
 
-- [[Underhook Sweep from Dogfight]] - Alternative sweep variation using underhook leverage without far leg control
+- [[Transitions/Underhook Sweep from Dogfight]] - Alternative sweep variation using underhook leverage without far leg control
 
-- [[Back Take]] - Primary chain attack when opponent over-defends the sweep by pulling hips away
+- [[Transitions/Back Take]] - Primary chain attack when opponent over-defends the sweep by pulling hips away
 
-- [[Crossface from Dogfight]] - Defender's primary counter technique using crossface pressure to shut down the sweep drive
+- [[Transitions/Crossface from Dogfight]] - Defender's primary counter technique using crossface pressure to shut down the sweep drive
 
 
 </section>

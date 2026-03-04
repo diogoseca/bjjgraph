@@ -180,7 +180,7 @@ description: "Complete guide to executing the Old School Sweep from half guard l
 
 The Old School Sweep is the signature offensive technique from the Old School half guard position. As the attacker, you control the sweep through three coordinated control points: the lockdown immobilizes the opponent's trapped leg and removes their base, the deep underhook creates the rotational leverage needed to turn them, and head control prevents posting and posture recovery. The sweep demands precise timing—executing during the opponent's forward weight shift when their base is most compromised. Mastering the mechanics of circular rotation, tight chest-to-chest connection, and coordinated hip drive transforms this sweep from a brute-force technique into a high-percentage reversal that consistently lands you in mount. The key insight is that the sweep works not by overpowering the opponent but by systematically removing their structural supports until rotation becomes inevitable.
 
-**From Position**: [[Old School]] (Bottom)
+**From Position**: [[Positions/Half Guard/Old School]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ The Old School Sweep is the signature offensive technique from the Old School ha
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 46% |
-| Failure | [[Old School]] | 32% |
-| Counter | [[Side Control]] | 22% |
+| Success | [[Positions/Mount]] | 46% |
+| Failure | [[Positions/Half Guard/Old School]] | 32% |
+| Counter | [[Positions/Side Control]] | 22% |
 
 
 </section>
@@ -244,10 +244,10 @@ The Old School Sweep is the signature offensive technique from the Old School ha
 
 ## Opponent Counters
 
-- **Opponent establishes deep whizzer and sprawls hips back to block rotation** (Effectiveness: High) - Your Response: Switch to Electric Chair entry by diving under opponent's hips and attacking the trapped leg separation, or transition to deep half guard by shooting your head under their hips on the underhook side → Leads to [[Old School]]
-- **Opponent drives heavy crossface pressure to flatten you onto your back** (Effectiveness: Medium) - Your Response: Pump the lockdown aggressively to create space and prevent flattening, then re-angle to your side. If crossface is too strong, transition to deep half guard entry rather than fighting a losing battle for the angle → Leads to [[Old School]]
-- **Opponent posts free hand on the mat and bases wide to resist rotation** (Effectiveness: Medium) - Your Response: Pull head control tighter to remove the posting arm, or switch to attacking the posting arm with a kimura grip. The posting hand creates a single point of balance that can be exploited by changing sweep direction slightly → Leads to [[Old School]]
-- **Opponent drives forward aggressively to smash through lockdown and pass to side control** (Effectiveness: High) - Your Response: Use opponent's forward drive as sweep momentum—their aggressive forward pressure is actually feeding into your sweep if your controls are set. Alternatively, transition to deep half guard if their passing pressure overwhelms your lockdown tension → Leads to [[Side Control]]
+- **Opponent establishes deep whizzer and sprawls hips back to block rotation** (Effectiveness: High) - Your Response: Switch to Electric Chair entry by diving under opponent's hips and attacking the trapped leg separation, or transition to deep half guard by shooting your head under their hips on the underhook side → Leads to [[Positions/Half Guard/Old School]]
+- **Opponent drives heavy crossface pressure to flatten you onto your back** (Effectiveness: Medium) - Your Response: Pump the lockdown aggressively to create space and prevent flattening, then re-angle to your side. If crossface is too strong, transition to deep half guard entry rather than fighting a losing battle for the angle → Leads to [[Positions/Half Guard/Old School]]
+- **Opponent posts free hand on the mat and bases wide to resist rotation** (Effectiveness: Medium) - Your Response: Pull head control tighter to remove the posting arm, or switch to attacking the posting arm with a kimura grip. The posting hand creates a single point of balance that can be exploited by changing sweep direction slightly → Leads to [[Positions/Half Guard/Old School]]
+- **Opponent drives forward aggressively to smash through lockdown and pass to side control** (Effectiveness: High) - Your Response: Use opponent's forward drive as sweep momentum—their aggressive forward pressure is actually feeding into your sweep if your controls are set. Alternatively, transition to deep half guard if their passing pressure overwhelms your lockdown tension → Leads to [[Positions/Side Control]]
 
 
 </section>

@@ -95,19 +95,19 @@ The biomechanical principle underlying the Jailbreak from bottom involves conver
 ### Available Transitions
 
 
-- **[[Jailbreak to Turtle]]** (22% of attempts)
+- **[[Transitions/Jailbreak to Turtle]]** (22% of attempts)
 
-- **[[Jailbreak to Back Take]]** (14% of attempts)
+- **[[Transitions/Jailbreak to Back Take]]** (14% of attempts)
 
-- **[[Jailbreak to Deep Half Entry]]** (15% of attempts)
+- **[[Transitions/Jailbreak to Deep Half Entry]]** (15% of attempts)
 
-- **[[Guard Recovery from Jailbreak]]** (15% of attempts)
+- **[[Transitions/Guard Recovery from Jailbreak]]** (15% of attempts)
 
-- **[[Old School Sweep]]** (12% of attempts)
+- **[[Transitions/Old School Sweep]]** (12% of attempts)
 
-- **[[Lockdown Recovery]]** (12% of attempts)
+- **[[Transitions/Lockdown Recovery]]** (12% of attempts)
 
-- **[[Electric Chair Transition]]** (10% of attempts)
+- **[[Transitions/Electric Chair Transition]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -168,23 +168,23 @@ The biomechanical principle underlying the Jailbreak from bottom involves conver
 ### Available Transitions
 
 
-- **[[Leg Weave Pass]]** (12% of attempts)
+- **[[Transitions/Leg Weave Pass]]** (12% of attempts)
 
-- **[[Smash Pass]]** (33% of attempts)
+- **[[Transitions/Smash Pass]]** (33% of attempts)
 
-- **[[Knee Slice from Half]]** (17% of attempts)
+- **[[Transitions/Knee Slice from Half]]** (17% of attempts)
 
-- **[[Underhook Pass]]** (17% of attempts)
+- **[[Transitions/Underhook Pass]]** (17% of attempts)
 
-- **[[Darce Setup]]** (9% of attempts)
+- **[[Transitions/Darce Setup]]** (9% of attempts)
 
-- **[[Front Headlock to Back]]** (7% of attempts)
+- **[[Transitions/Front Headlock to Back]]** (7% of attempts)
 
-- **[[Knee Slide from Jailbreak]]** (3% of attempts)
+- **[[Transitions/Knee Slide from Jailbreak]]** (3% of attempts)
 
-- **[[North-South Recovery from Jailbreak]]** (1% of attempts)
+- **[[Transitions/North-South Recovery from Jailbreak]]** (1% of attempts)
 
-- **[[Reestablish Side Control from Jailbreak]]** (1% of attempts)
+- **[[Transitions/Reestablish Side Control from Jailbreak]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -227,23 +227,23 @@ The biomechanical principle underlying the Jailbreak from bottom involves conver
 ## Related Positions
 
 
-- **[[Half Guard]]** - Parent position from which jailbreak bottom escape originates
+- **[[Positions/Half Guard]]** - Parent position from which jailbreak bottom escape originates
 
-- **[[Lockdown]]** - Alternative half guard control structure often preceding jailbreak attempts
+- **[[Positions/Half Guard/Lockdown]]** - Alternative half guard control structure often preceding jailbreak attempts
 
-- **[[Deep Half Guard]]** - Common transition target from both jailbreak perspectives
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common transition target from both jailbreak perspectives
 
-- **[[Turtle]]** - Primary escape destination from jailbreak bottom position
+- **[[Positions/Turtle]]** - Primary escape destination from jailbreak bottom position
 
-- **[[Dogfight Position]]** - Related transitional state in half guard battle
+- **[[Positions/Dogfight Position]]** - Related transitional state in half guard battle
 
-- **[[Headquarters Position]]** - Related passing position with similar control mechanics
+- **[[Positions/Headquarters Position]]** - Related passing position with similar control mechanics
 
-- **[[Old School]]** - Related sweep using similar underhook mechanics from half guard
+- **[[Positions/Half Guard/Old School]]** - Related sweep using similar underhook mechanics from half guard
 
-- **[[Electric Chair]]** - 10th Planet submission often chained with jailbreak escape sequences
+- **[[Positions/Half Guard/Electric Chair]]** - 10th Planet submission often chained with jailbreak escape sequences
 
-- **[[Back Control]]** - Advanced transition target when jailbreak bottom is executed with opponent following
+- **[[Positions/Back Control]]** - Advanced transition target when jailbreak bottom is executed with opponent following
 
 
 </section>

@@ -186,7 +186,7 @@ description: "Complete guide to passing Piranha Guard as the top player. Grip-br
 
 Passing Piranha Guard from the top position requires a systematic approach that differs fundamentally from standard guard passing. The lapel threading creates a mechanical control system that punishes direct forward pressure and rewards the bottom player's patience. As the passer, you must resist the urge to rush through the guard and instead commit to a disciplined grip-fighting sequence that strips the lapel configuration hierarchically before committing to any passing lane. The key insight is that the pass is won or lost during the grip-fighting phase—once the lapel is cleared, the actual passing mechanics are straightforward lateral passes that most practitioners already possess. Your primary challenge is surviving the sweep and submission threats during the grip-clearing phase while maintaining enough base stability to execute the pass when the window opens.
 
-**From Position**: [[Piranha Guard]] (Top)
+**From Position**: [[Positions/Piranha Guard]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ Passing Piranha Guard from the top position requires a systematic approach that 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Piranha Guard]] | 35% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Piranha Guard]] | 35% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,11 +250,11 @@ Passing Piranha Guard from the top position requires a systematic approach that 
 
 ## Opponent Counters
 
-- **Bottom player re-feeds lapel through legs during strip attempt** (Effectiveness: High) - Your Response: Pin their legs flat with your anchor grip before stripping the lapel, and immediately pull the cleared lapel high above their leg line so re-threading requires them to lift their legs significantly → Leads to [[Piranha Guard]]
-- **Bottom player initiates berimbolo as you step laterally to create passing angle** (Effectiveness: High) - Your Response: Backstep away from the inversion direction while driving your hips down and controlling their inverting hip with your free hand to pin them flat and prevent the rotation underneath you → Leads to [[Half Guard]]
-- **Bottom player uses lapel tension to execute pendulum sweep as you commit forward** (Effectiveness: Medium) - Your Response: Never commit weight forward while lapel is intact; if you feel the pull, widen base immediately and step laterally rather than resisting the pulling direction directly → Leads to [[Half Guard]]
-- **Bottom player transitions to De La Riva or Collar Sleeve guard when lapel is partially cleared** (Effectiveness: Medium) - Your Response: Accelerate your passing commitment when you see the guard transition beginning, as the moment between guards is the weakest point in their defensive structure and the best passing window → Leads to [[Piranha Guard]]
-- **Bottom player frames and creates distance to re-establish lapel configuration from scratch** (Effectiveness: Low) - Your Response: Follow their hip movement with constant forward pressure once the lapel is cleared, maintaining pants control to prevent them from creating the distance needed to re-thread the collar → Leads to [[Piranha Guard]]
+- **Bottom player re-feeds lapel through legs during strip attempt** (Effectiveness: High) - Your Response: Pin their legs flat with your anchor grip before stripping the lapel, and immediately pull the cleared lapel high above their leg line so re-threading requires them to lift their legs significantly → Leads to [[Positions/Piranha Guard]]
+- **Bottom player initiates berimbolo as you step laterally to create passing angle** (Effectiveness: High) - Your Response: Backstep away from the inversion direction while driving your hips down and controlling their inverting hip with your free hand to pin them flat and prevent the rotation underneath you → Leads to [[Positions/Half Guard]]
+- **Bottom player uses lapel tension to execute pendulum sweep as you commit forward** (Effectiveness: Medium) - Your Response: Never commit weight forward while lapel is intact; if you feel the pull, widen base immediately and step laterally rather than resisting the pulling direction directly → Leads to [[Positions/Half Guard]]
+- **Bottom player transitions to De La Riva or Collar Sleeve guard when lapel is partially cleared** (Effectiveness: Medium) - Your Response: Accelerate your passing commitment when you see the guard transition beginning, as the moment between guards is the weakest point in their defensive structure and the best passing window → Leads to [[Positions/Piranha Guard]]
+- **Bottom player frames and creates distance to re-establish lapel configuration from scratch** (Effectiveness: Low) - Your Response: Follow their hip movement with constant forward pressure once the lapel is cleared, maintaining pants control to prevent them from creating the distance needed to re-thread the collar → Leads to [[Positions/Piranha Guard]]
 
 
 </section>

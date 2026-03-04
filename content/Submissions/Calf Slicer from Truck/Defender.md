@@ -156,7 +156,7 @@ description: "How to defend against Calf Slicer from Truck in BJJ. Recognition, 
 
 Defending the calf slicer from truck requires addressing two simultaneous problems: the positional disadvantage of being in the truck (hips twisted, back exposed, base broken) and the immediate compression threat to your calf and knee. The defender must recognize the submission threat early - ideally before the attacker's shin is fully wedged behind the calf - because once the compression angle is established with heel control, escape options diminish rapidly. The primary defensive strategy centers on preventing the attacker from folding your heel to your hamstring by straightening your trapped leg, but this must be executed with awareness that leg straightening opens you to the Twister and Banana Split. Successful defense therefore requires a systematic approach: protect the leg from full compression first, then address the truck position itself by working to clear the boot pressure and restore hip alignment. The defender who panics and focuses solely on one threat will find themselves caught by the complementary attack in the truck system's dilemma framework. Early recognition and calm, sequential problem-solving are the hallmarks of effective calf slicer defense from this position.
 
-**Opponent's Starting Position**: [[Truck]] (Top)
+**Opponent's Starting Position**: [[Positions/Twister Control/Truck]] (Top)
 
 
 </section>
@@ -194,21 +194,21 @@ Defending the calf slicer from truck requires addressing two simultaneous proble
 ### 1. Forceful leg straightening to break the compression angle
 
 - **When to use**: As soon as you feel the shin wedge being positioned or the heel being pulled toward your hamstring - the earlier the better
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: Relieves all compression on the calf and knee, forces attacker to either maintain truck without the submission or transition to alternative attacks like Twister
 - **Risk**: Straightening the leg opens you to Twister attack because the leg obstacle between the attacker and your head is removed; must immediately protect neck and far arm after straightening
 
 ### 2. Roll toward the attacker to break hip twist and truck structure
 
 - **When to use**: When you still have enough mobility to turn - before the compression is fully locked in and while you have one arm free to post and create the rolling momentum
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Destroys the truck position entirely by eliminating the hip twist that creates the asymmetry needed for the slicer; can lead to guard recovery or scramble
 - **Risk**: If attacker reads the roll, they can transition to back control with hooks during your rotation; timing must be decisive and committed
 
 ### 3. Clear the boot (attacker's foot on your hip) to destabilize truck control
 
 - **When to use**: When you have at least one hand free and the compression is not yet at tap-level intensity - this is a preventive defense that removes the positional foundation rather than fighting the submission directly
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Removes the torque engine of the truck position; without boot pressure, attacker loses the ability to maintain hip twist and prevent your escape movements
 - **Risk**: Reaching for the boot with your hand temporarily reduces your ability to defend upper body attacks and may expose your neck if attacker transitions to choke
 
@@ -238,11 +238,11 @@ Defending the calf slicer from truck requires addressing two simultaneous proble
 
 ## Best-Case Outcomes for Defender
 
-### → [[Truck]]
+### → [[Positions/Twister Control/Truck]]
 
 Straighten the trapped leg early before full compression is established, preventing the submission while remaining in truck bottom - then work standard truck escapes to improve position
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Successfully roll toward attacker or clear boot pressure to break the truck structure, then use the resulting scramble to recover half guard with your hips squared and knee shield established
 

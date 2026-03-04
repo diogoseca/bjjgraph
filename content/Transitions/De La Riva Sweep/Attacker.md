@@ -178,7 +178,7 @@ The De La Riva Sweep works by creating a powerful lever system using the De La R
 
 This technique represents a cornerstone of modern sport jiu-jitsu, particularly in IBJJF competition formats where the De La Riva guard is extensively used. Mastering the De La Riva Sweep requires understanding timing, grip fighting, hip movement, and the ability to chain multiple attacks together. The sweep becomes increasingly effective as practitioners develop sensitivity to weight distribution and learn to capitalize on their opponent's forward pressure or attempts to pass the guard.
 
-**From Position**: [[De La Riva Guard]] (Bottom)
+**From Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ This technique represents a cornerstone of modern sport jiu-jitsu, particularly 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Failure | [[De La Riva Guard]] | 20% |
-| Counter | [[De La Riva Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 70% |
+| Failure | [[Positions/De La Riva Guard]] | 20% |
+| Counter | [[Positions/De La Riva Guard]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ This technique represents a cornerstone of modern sport jiu-jitsu, particularly 
 
 ## Opponent Counters
 
-- **Opponent steps back with hooked leg to relieve pressure** (Effectiveness: High) - Your Response: Follow their movement by extending your body forward, transition to X-Guard or Single Leg X-Guard, or switch to alternative De La Riva attacks like the Kiss of the Dragon back take → Leads to [[De La Riva Guard]]
-- **Opponent posts with free hand to block the sweep** (Effectiveness: Medium) - Your Response: Attack the posted arm with a triangle setup, switch to opposite side sweep, or transition to omoplata when they post → Leads to [[De La Riva Guard]]
-- **Opponent jumps over the De La Riva hook to pass** (Effectiveness: Medium) - Your Response: Retract hook and transition to Reverse De La Riva Guard, or use their momentum to invert and take the back → Leads to [[De La Riva Guard]]
-- **Opponent maintains heavy base and drives forward pressure** (Effectiveness: Low) - Your Response: Use their forward pressure to transition to Deep Half Guard position, or switch to overhead sweep variations when they commit weight forward → Leads to [[De La Riva Guard]]
+- **Opponent steps back with hooked leg to relieve pressure** (Effectiveness: High) - Your Response: Follow their movement by extending your body forward, transition to X-Guard or Single Leg X-Guard, or switch to alternative De La Riva attacks like the Kiss of the Dragon back take → Leads to [[Positions/De La Riva Guard]]
+- **Opponent posts with free hand to block the sweep** (Effectiveness: Medium) - Your Response: Attack the posted arm with a triangle setup, switch to opposite side sweep, or transition to omoplata when they post → Leads to [[Positions/De La Riva Guard]]
+- **Opponent jumps over the De La Riva hook to pass** (Effectiveness: Medium) - Your Response: Retract hook and transition to Reverse De La Riva Guard, or use their momentum to invert and take the back → Leads to [[Positions/De La Riva Guard]]
+- **Opponent maintains heavy base and drives forward pressure** (Effectiveness: Low) - Your Response: Use their forward pressure to transition to Deep Half Guard position, or switch to overhead sweep variations when they commit weight forward → Leads to [[Positions/De La Riva Guard]]
 
 
 </section>

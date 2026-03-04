@@ -186,7 +186,7 @@ description: "Execute the bridge escape from mounted crucifix in BJJ. Step-by-st
 
 Executing the bridge escape from mounted crucifix demands precise coordination between explosive hip movement, directional commitment, and arm extraction timing. As the bottom player, your arms are trapped by the opponent's legs, eliminating standard defensive frames and forcing complete reliance on hip-based mechanics to create escape opportunities. The technique requires loading your bridge by planting both feet flat, then exploding toward the trapped arm side to maximally disrupt the leg-based arm control. The brief moment of disruption must be exploited immediately for arm extraction, as the top player will quickly re-establish tighter control if the window is wasted. Every element of the escape — bridge direction, extraction timing, frame establishment, and guard recovery — must flow as one continuous sequence rather than discrete steps.
 
-**From Position**: [[Mounted Crucifix]] (Bottom)
+**From Position**: [[Positions/Mount/Mounted Crucifix]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the bridge escape from mounted crucifix demands precise coordination b
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 30% |
-| Failure | [[Mounted Crucifix]] | 45% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 30% |
+| Failure | [[Positions/Mount/Mounted Crucifix]] | 45% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the bridge escape from mounted crucifix demands precise coordination b
 
 ## Opponent Counters
 
-- **Opponent widens base and drops hips when feeling bridge initiation through the mat** (Effectiveness: High) - Your Response: Feint the bridge to draw the base-widening reaction, then immediately execute a full bridge when the opponent starts to re-narrow their base to attack. Alternatively, use the incremental bridge series to gradually erode their widened base position. → Leads to [[Mounted Crucifix]]
-- **Opponent attacks armbar or choke during bridge attempt when arms momentarily become exposed** (Effectiveness: High) - Your Response: Maintain chin-to-chest protection throughout and immediately retract any exposed arm close to the body if a submission threat is detected. If the choke is deep, address the submission defense before reattempting the bridge escape. → Leads to [[Mounted Crucifix]]
-- **Opponent transitions to standard mount by voluntarily releasing leg control and re-settling weight during the disruption** (Effectiveness: Medium) - Your Response: Accept the transition to mount bottom as a significant positional improvement — your arms are free and all standard mount escapes become available. Immediately begin elbow escape or upa sequences before the opponent re-establishes heavy control. → Leads to [[Mount]]
-- **Opponent drives chest pressure forward and flattens during bridge to ride through the upward movement** (Effectiveness: Medium) - Your Response: Use the opponent's forward weight commitment to create space underneath on the opposite side and attempt arm extraction through the gap created by their lean. Their forward drive often loosens the leg control on the side away from their weight shift. → Leads to [[Mounted Crucifix]]
+- **Opponent widens base and drops hips when feeling bridge initiation through the mat** (Effectiveness: High) - Your Response: Feint the bridge to draw the base-widening reaction, then immediately execute a full bridge when the opponent starts to re-narrow their base to attack. Alternatively, use the incremental bridge series to gradually erode their widened base position. → Leads to [[Positions/Mount/Mounted Crucifix]]
+- **Opponent attacks armbar or choke during bridge attempt when arms momentarily become exposed** (Effectiveness: High) - Your Response: Maintain chin-to-chest protection throughout and immediately retract any exposed arm close to the body if a submission threat is detected. If the choke is deep, address the submission defense before reattempting the bridge escape. → Leads to [[Positions/Mount/Mounted Crucifix]]
+- **Opponent transitions to standard mount by voluntarily releasing leg control and re-settling weight during the disruption** (Effectiveness: Medium) - Your Response: Accept the transition to mount bottom as a significant positional improvement — your arms are free and all standard mount escapes become available. Immediately begin elbow escape or upa sequences before the opponent re-establishes heavy control. → Leads to [[Positions/Mount]]
+- **Opponent drives chest pressure forward and flattens during bridge to ride through the upward movement** (Effectiveness: Medium) - Your Response: Use the opponent's forward weight commitment to create space underneath on the opposite side and attempt arm extraction through the gap created by their lean. Their forward drive often loosens the leg control on the side away from their weight shift. → Leads to [[Positions/Mount/Mounted Crucifix]]
 
 
 </section>

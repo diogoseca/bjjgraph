@@ -156,7 +156,7 @@ As the Aoki Lock top player, defending against the Rolling Escape requires antic
 
 The key defensive insight is that you do not need to completely prevent the roll - you need to ensure that if the roll happens, you follow it into a dominant position. Many high-level grapplers allow the roll to begin and then ride it to back control, converting the opponent's escape attempt into a worse position for them. This requires sensitivity to the opponent's hip movement, strong chest-to-back pressure during the roll, and immediate hook insertion when the roll creates space. The defender who understands this principle turns the opponent's best escape into a transition opportunity.
 
-**Opponent's Starting Position**: [[Aoki Lock]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Aoki Lock]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The key defensive insight is that you do not need to completely prevent the roll
 ### 1. Tighten leg entanglement and increase hip pressure to prevent roll initiation
 
 - **When to use**: When you detect early setup cues before the roll begins - opponent posting free hand or shifting hips forward
-- **Targets**: [[Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock]]
 - **If successful**: Opponent remains trapped in Aoki Lock and you can continue working toward the submission finish
 - **Risk**: Over-committing to tightening may create a static position that opponent can exploit with a different escape
 
 ### 2. Follow the roll with chest-to-back connection and transition to back control with hooks
 
 - **When to use**: When the roll has already begun and you cannot prevent it - ride their momentum and insert hooks as they complete the roll
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You achieve back control with hooks, converting their escape attempt into a worse position for them
 - **Risk**: If you lose chest connection during the roll, opponent may complete to guard and you lose all control
 
 ### 3. Widen base and control opponent's hips with both hands to block hip elevation
 
 - **When to use**: When opponent begins attacking your posted leg or shifting their hips - preemptive base stabilization
-- **Targets**: [[Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock]]
 - **If successful**: Opponent cannot generate the hip drive needed for the roll and remains trapped in Aoki Lock position
 - **Risk**: Using both hands on hips means you cannot simultaneously apply maximum shoulder pressure
 
 ### 4. Accelerate the submission finish before roll completes
 
 - **When to use**: When opponent initiates the roll but has not yet extracted their arm - the roll can momentarily increase shoulder exposure
-- **Targets**: [[Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock]]
 - **If successful**: Opponent taps during the roll attempt as the movement briefly increases submission pressure
 - **Risk**: Forcing the finish during movement risks applying dangerous uncontrolled pressure that could injure your training partner
 
@@ -227,11 +227,11 @@ The key defensive insight is that you do not need to completely prevent the roll
 
 ## Best-Case Outcomes for Defender
 
-### → [[Aoki Lock]]
+### → [[Positions/Aoki Lock]]
 
 Prevent the roll entirely by maintaining tight leg entanglement, controlling opponent's hips with your hands, and keeping your posted leg base wide. Recognize early setup cues and increase pressure or adjust position before they can generate roll momentum.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the roll cannot be prevented, ride it by maintaining chest-to-back connection throughout. As opponent completes the roll, insert your hooks before they can establish guard frames. Your existing upper body control from Aoki Lock converts directly into seatbelt or harness grip for back control.
 

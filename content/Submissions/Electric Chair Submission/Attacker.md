@@ -186,7 +186,7 @@ The submission derives its effectiveness from the lockdown control system, where
 
 Historically developed and refined within the 10th Planet system, the Electric Chair has proven effective in both gi and no-gi competition contexts. The technique emphasizes pressure over speed, rewarding practitioners who develop strong lockdown mechanics and understand the progressive nature of compression submissions. When executed properly with controlled application speed, it serves as both a legitimate finishing threat and a powerful sweeping mechanism that forces opponents into defensive reactions.
 
-**From Position**: [[Lockdown]] (Bottom)
+**From Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 
 
 </section>
@@ -244,8 +244,8 @@ Historically developed and refined within the 10th Planet system, the Electric C
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Lockdown]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -254,10 +254,10 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 ## Opponent Defenses
 
-- **Posting far hand on mat to prevent inversion** (Effectiveness: High) - Your Response: Control opponent's posting arm with your free hand, redirecting it away from mat or switching to alternative lockdown attacks like Old School sweep → Leads to [[Lockdown]]
-- **Pulling trapped leg back toward centerline to reduce extension** (Effectiveness: Medium) - Your Response: Increase lockdown squeeze and focus on rotational pressure rather than pure extension; use their backward pull to facilitate sweep completion → Leads to [[Lockdown]]
-- **Driving weight backward and maintaining upright posture** (Effectiveness: High) - Your Response: Use underhook to prevent posture recovery; if unsuccessful, transition to alternative lockdown sequences or attempt whip-up to break posture → Leads to [[Lockdown]]
-- **Attempting to unlock lockdown by attacking your feet** (Effectiveness: Medium) - Your Response: Maintain tight lockdown positioning and accelerate submission attempt before opponent can unlock; alternatively, transition to different lockdown attack → Leads to [[Half Guard]]
+- **Posting far hand on mat to prevent inversion** (Effectiveness: High) - Your Response: Control opponent's posting arm with your free hand, redirecting it away from mat or switching to alternative lockdown attacks like Old School sweep → Leads to [[Positions/Half Guard/Lockdown]]
+- **Pulling trapped leg back toward centerline to reduce extension** (Effectiveness: Medium) - Your Response: Increase lockdown squeeze and focus on rotational pressure rather than pure extension; use their backward pull to facilitate sweep completion → Leads to [[Positions/Half Guard/Lockdown]]
+- **Driving weight backward and maintaining upright posture** (Effectiveness: High) - Your Response: Use underhook to prevent posture recovery; if unsuccessful, transition to alternative lockdown sequences or attempt whip-up to break posture → Leads to [[Positions/Half Guard/Lockdown]]
+- **Attempting to unlock lockdown by attacking your feet** (Effectiveness: Medium) - Your Response: Maintain tight lockdown positioning and accelerate submission attempt before opponent can unlock; alternatively, transition to different lockdown attack → Leads to [[Positions/Half Guard]]
 - **Sprawling hips backward to create distance** (Effectiveness: Low) - Your Response: Follow opponent's movement with your inversion and increase hip extension as they create distance, often amplifying submission pressure → Leads to [[game-over]]
 
 

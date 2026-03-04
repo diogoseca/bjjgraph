@@ -180,7 +180,7 @@ description: "Execute the Americana shoulder lock from Modified Mount. Learn wri
 
 The Americana from Modified Mount leverages the unique stability of the posted leg to execute a shoulder lock with minimal risk of position loss. The across-body knee pins the defender's torso while the figure-four grip mechanism generates progressive external rotation force against the shoulder joint. This position allows full commitment to the submission because the posted leg acts as a structural brace against bridge attempts, meaning the attacker can focus entirely on grip establishment and finishing mechanics without splitting attention between control and attack. The asymmetric weight distribution naturally funnels pressure toward the pinning side, enhancing both control and submission power simultaneously.
 
-**From Position**: [[Modified Mount]] (Top)
+**From Position**: [[Positions/Mount/Modified Mount]] (Top)
 
 </section>
 
@@ -233,8 +233,8 @@ The Americana from Modified Mount leverages the unique stability of the posted l
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Modified Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Mount/Modified Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Americana from Modified Mount leverages the unique stability of the posted l
 
 ## Opponent Counters
 
-- **Opponent clasps hands together in Gable grip to prevent wrist isolation and figure-four establishment** (Effectiveness: High) - Your Response: Wedge your forearm between their hands to pry the grip apart, or threaten a head-and-arm choke by driving your shoulder into their face to force a grip release for neck defense → Leads to [[Modified Mount]]
-- **Opponent bridges explosively toward the posted leg side during the threading phase** (Effectiveness: Medium) - Your Response: Drive your posted foot firmly into the mat and widen your base to absorb the bridge momentum while maintaining the wrist pin with chest pressure throughout the movement → Leads to [[Half Guard]]
-- **Opponent straightens arm explosively to break free of the figure-four configuration** (Effectiveness: Medium) - Your Response: Immediately transition to armbar by swinging the posted leg over their head while maintaining wrist control, capitalizing on the exact arm extension they used to defend the Americana → Leads to [[Modified Mount]]
-- **Opponent hip escapes while framing on hip with free hand to create guard recovery space** (Effectiveness: Medium) - Your Response: Drive hip forward into the frame to collapse it using posted leg pressure, then use the across-body knee to pin the framing arm before returning to the Americana setup → Leads to [[Half Guard]]
+- **Opponent clasps hands together in Gable grip to prevent wrist isolation and figure-four establishment** (Effectiveness: High) - Your Response: Wedge your forearm between their hands to pry the grip apart, or threaten a head-and-arm choke by driving your shoulder into their face to force a grip release for neck defense → Leads to [[Positions/Mount/Modified Mount]]
+- **Opponent bridges explosively toward the posted leg side during the threading phase** (Effectiveness: Medium) - Your Response: Drive your posted foot firmly into the mat and widen your base to absorb the bridge momentum while maintaining the wrist pin with chest pressure throughout the movement → Leads to [[Positions/Half Guard]]
+- **Opponent straightens arm explosively to break free of the figure-four configuration** (Effectiveness: Medium) - Your Response: Immediately transition to armbar by swinging the posted leg over their head while maintaining wrist control, capitalizing on the exact arm extension they used to defend the Americana → Leads to [[Positions/Mount/Modified Mount]]
+- **Opponent hip escapes while framing on hip with free hand to create guard recovery space** (Effectiveness: Medium) - Your Response: Drive hip forward into the frame to collapse it using posted leg pressure, then use the across-body knee to pin the framing arm before returning to the Americana setup → Leads to [[Positions/Half Guard]]
 
 
 </section>

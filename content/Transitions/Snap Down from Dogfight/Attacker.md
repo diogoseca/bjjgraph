@@ -180,7 +180,7 @@ description: "Execute the snap down from dogfight to establish front headlock co
 
 As the attacker executing the snap down from dogfight, your objective is to convert the neutral kneeling underhook battle into dominant front headlock control by collapsing your opponent's posture through a sharp downward pull on their head and neck. This technique requires precise timing, explosive hip movement, and immediate consolidation of control once the opponent's posture breaks. The snap down is most effective when your opponent is aggressively driving forward with their underhook, as their forward commitment creates the momentum you redirect downward. Success depends on your ability to release the whizzer or convert your grip to head control at the exact moment your opponent commits their weight forward, then immediately sprawling your hips back to prevent them from recovering their base. Once front headlock is established, you gain access to the entire front headlock submission system including guillotines, anacondas, darces, and back takes.
 
-**From Position**: [[Dogfight Position]] (Top)
+**From Position**: [[Positions/Dogfight Position]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the snap down from dogfight, your objective is to conv
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 45% |
-| Failure | [[Dogfight Position]] | 35% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Front Headlock]] | 45% |
+| Failure | [[Positions/Dogfight Position]] | 35% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the snap down from dogfight, your objective is to conv
 
 ## Opponent Counters
 
-- **Opponent posts both hands on mat and stiffens arms to resist downward pull, maintaining base through strong skeletal structure** (Effectiveness: Medium) - Your Response: Circle to the side while maintaining head control to break their posting angle, or transition to a front headlock go-behind by stepping around their posted arms to take back control → Leads to [[Dogfight Position]]
-- **Opponent drives forward explosively with underhook during snap attempt, using forward momentum to take you backward and off-balance** (Effectiveness: High) - Your Response: If their forward drive is too powerful to redirect, disengage the snap attempt immediately and re-establish your base in dogfight rather than fighting a losing battle. Reset and wait for the next forward commitment window → Leads to [[Half Guard]]
-- **Opponent ducks their head and tucks chin to chest, denying collar tie access and making the snap grip shallow and ineffective** (Effectiveness: Medium) - Your Response: Switch to crossface pressure by driving your forearm across their jaw to force their head up and expose the neck, or abandon the snap and use the crossface to re-flatten them back to half guard → Leads to [[Dogfight Position]]
-- **Opponent releases underhook and immediately circles away from the snapping direction, creating distance before the snap can fully collapse their posture** (Effectiveness: Medium) - Your Response: Follow their circular movement and continue applying downward pressure as they circle. Their release of the underhook actually improves your position since they lose their primary offensive tool. Pursue the front headlock as they move or transition to back take if they turn too far → Leads to [[Dogfight Position]]
+- **Opponent posts both hands on mat and stiffens arms to resist downward pull, maintaining base through strong skeletal structure** (Effectiveness: Medium) - Your Response: Circle to the side while maintaining head control to break their posting angle, or transition to a front headlock go-behind by stepping around their posted arms to take back control → Leads to [[Positions/Dogfight Position]]
+- **Opponent drives forward explosively with underhook during snap attempt, using forward momentum to take you backward and off-balance** (Effectiveness: High) - Your Response: If their forward drive is too powerful to redirect, disengage the snap attempt immediately and re-establish your base in dogfight rather than fighting a losing battle. Reset and wait for the next forward commitment window → Leads to [[Positions/Half Guard]]
+- **Opponent ducks their head and tucks chin to chest, denying collar tie access and making the snap grip shallow and ineffective** (Effectiveness: Medium) - Your Response: Switch to crossface pressure by driving your forearm across their jaw to force their head up and expose the neck, or abandon the snap and use the crossface to re-flatten them back to half guard → Leads to [[Positions/Dogfight Position]]
+- **Opponent releases underhook and immediately circles away from the snapping direction, creating distance before the snap can fully collapse their posture** (Effectiveness: Medium) - Your Response: Follow their circular movement and continue applying downward pressure as they circle. Their release of the underhook actually improves your position since they lose their primary offensive tool. Pursue the front headlock as they move or transition to back take if they turn too far → Leads to [[Positions/Dogfight Position]]
 
 
 </section>

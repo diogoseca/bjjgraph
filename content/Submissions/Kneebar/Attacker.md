@@ -176,7 +176,7 @@ description: "How to execute the Kneebar in BJJ. Attacking perspective covering 
 
 The kneebar attack centers on isolating your opponent's leg and creating hyperextension pressure across the knee joint using your hips as the fulcrum. The submission is mechanically straightforward compared to heel hooks - you control the ankle tight to your chest while driving your hips into the back of their knee - but the details of positioning, angle, and control sequence determine whether the technique finishes or fails. The kneebar functions best within a systematic leg attack framework where it complements heel hook threats: when opponents hide their heel to defend rotational attacks, they expose the knee to linear hyperextension. This dilemma-based approach makes the kneebar exponentially more dangerous than when used in isolation. Mastering the kneebar requires understanding that the finish itself is simple, but the control preceding it demands precise positioning of your hips relative to their knee, elimination of their free leg as a defensive tool, and maintenance of the ankle-to-chest connection that prevents them from bending the knee to safety.
 
-**From Position**: [[Kneebar Control]] (Top)
+**From Position**: [[Positions/Kneebar Control]] (Top)
 
 
 </section>
@@ -232,9 +232,9 @@ The kneebar attack centers on isolating your opponent's leg and creating hyperex
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Kneebar Control]] | 30% |
-| Counter | [[Ashi Garami]] | 15% |
-| Counter | [[Open Guard]] | 10% |
+| Failure | [[Positions/Kneebar Control]] | 30% |
+| Counter | [[Positions/Ashi Garami]] | 15% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -243,11 +243,11 @@ The kneebar attack centers on isolating your opponent's leg and creating hyperex
 
 ## Opponent Defenses
 
-- **Pulling knee inward (flexing knee joint)** (Effectiveness: High) - Your Response: Maintain tight ankle-to-chest connection to prevent knee flexion. If they succeed in flexing, you must re-extend their leg by scooting hips closer and pulling harder on ankle before attempting finish. Consider transitioning to heel hook if they rotate leg inward. → Leads to [[Kneebar Control]]
-- **Rolling toward their trapped leg (rolling through)** (Effectiveness: Medium) - Your Response: Anticipate the roll by maintaining heavy hip pressure and following their rotation. Stay connected to their leg throughout the roll. Many times their roll actually helps you establish a more dominant finishing position. Keep your outside leg posted to prevent them from completing a full rotation. → Leads to [[Ashi Garami]]
-- **Creating frame with free leg on your hip or face** (Effectiveness: High) - Your Response: This is why clearing the free leg is critical. If they establish this frame before you finish, you must address it before continuing. Use your outside leg to trap theirs, or transition your position to remove the frame. Never ignore a strong hip frame as it prevents proper hip extension. → Leads to [[Kneebar Control]]
-- **Grabbing your gi or body to prevent hip separation** (Effectiveness: Medium) - Your Response: In gi, opponents may grab your lapel or belt to prevent you from creating the proper angle. Break these grips by explosive hip movement or hand fighting before they are fully established. The key is maintaining your angle despite their grip - sometimes you can finish even with them holding your gi if your positioning is superior. → Leads to [[Kneebar Control]]
-- **Attempting to stack by driving forward** (Effectiveness: Low) - Your Response: Use your leg entanglement to prevent forward pressure. Your inside leg hook behind their knee should block their ability to drive into you. If they do stack, you have likely lost proper hip alignment - transition to a different attack or sweep rather than forcing a compromised kneebar. → Leads to [[Open Guard]]
+- **Pulling knee inward (flexing knee joint)** (Effectiveness: High) - Your Response: Maintain tight ankle-to-chest connection to prevent knee flexion. If they succeed in flexing, you must re-extend their leg by scooting hips closer and pulling harder on ankle before attempting finish. Consider transitioning to heel hook if they rotate leg inward. → Leads to [[Positions/Kneebar Control]]
+- **Rolling toward their trapped leg (rolling through)** (Effectiveness: Medium) - Your Response: Anticipate the roll by maintaining heavy hip pressure and following their rotation. Stay connected to their leg throughout the roll. Many times their roll actually helps you establish a more dominant finishing position. Keep your outside leg posted to prevent them from completing a full rotation. → Leads to [[Positions/Ashi Garami]]
+- **Creating frame with free leg on your hip or face** (Effectiveness: High) - Your Response: This is why clearing the free leg is critical. If they establish this frame before you finish, you must address it before continuing. Use your outside leg to trap theirs, or transition your position to remove the frame. Never ignore a strong hip frame as it prevents proper hip extension. → Leads to [[Positions/Kneebar Control]]
+- **Grabbing your gi or body to prevent hip separation** (Effectiveness: Medium) - Your Response: In gi, opponents may grab your lapel or belt to prevent you from creating the proper angle. Break these grips by explosive hip movement or hand fighting before they are fully established. The key is maintaining your angle despite their grip - sometimes you can finish even with them holding your gi if your positioning is superior. → Leads to [[Positions/Kneebar Control]]
+- **Attempting to stack by driving forward** (Effectiveness: Low) - Your Response: Use your leg entanglement to prevent forward pressure. Your inside leg hook behind their knee should block their ability to drive into you. If they do stack, you have likely lost proper hip alignment - transition to a different attack or sweep rather than forcing a compromised kneebar. → Leads to [[Positions/Open Guard]]
 
 
 </section>

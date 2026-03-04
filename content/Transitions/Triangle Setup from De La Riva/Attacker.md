@@ -180,7 +180,7 @@ description: "Learn to execute the Triangle Setup from De La Riva Guard. Step-by
 
 The Triangle Setup from De La Riva requires precise coordination between your DLR hook, sleeve grip, and hip movement to transition from guard control into a locked triangle. As the attacker, you must create the conditions for arm isolation by manipulating the opponent's posture through your DLR framework, then execute a rapid leg transition to close the triangle before they can withdraw. The key challenge is managing the moment when you release the DLR hook to shoot your legs, as this brief vulnerability window must be minimized through proper timing and grip retention on the trapped arm. Success depends on recognizing the correct trigger moment when the opponent's posture breaks forward and committing fully to the leg transition without hesitation.
 
-**From Position**: [[De La Riva Guard]] (Bottom)
+**From Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The Triangle Setup from De La Riva requires precise coordination between your DL
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Control]] | 45% |
-| Failure | [[De La Riva Guard]] | 35% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Triangle Control]] | 45% |
+| Failure | [[Positions/De La Riva Guard]] | 35% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Triangle Setup from De La Riva requires precise coordination between your DL
 
 ## Opponent Counters
 
-- **Opponent postures up explosively and drives forward to stack before triangle locks** (Effectiveness: High) - Your Response: If the triangle is not yet locked, transition to omoplata by rotating your hips and capturing their arm. If partially locked, use the stacking momentum to roll through to a mounted triangle position. → Leads to [[De La Riva Guard]]
-- **Opponent yanks their far arm free during the transition window between DLR release and triangle lock** (Effectiveness: Medium) - Your Response: Immediately close your legs into closed guard to prevent a pass, then re-establish DLR or transition to another guard attack. If one arm is still inside as the triangle closes, switch to an armbar on that arm. → Leads to [[De La Riva Guard]]
-- **Opponent circles their body away from the triangle side, creating distance to prevent the shooting leg from reaching** (Effectiveness: Medium) - Your Response: Follow their movement with your hips while maintaining the sleeve grip. Use the momentum shift to enter a sweep attempt or transition to Single Leg X-Guard by threading under their retreating leg. → Leads to [[Open Guard]]
-- **Opponent drives their near knee forward through the guard during the DLR hook release to initiate a pass** (Effectiveness: Low) - Your Response: Use the shooting leg as a frame against their advancing knee while pulling up on the sleeve grip. If the pass develops, transition to knee shield half guard and work to re-establish guard from there. → Leads to [[Open Guard]]
+- **Opponent postures up explosively and drives forward to stack before triangle locks** (Effectiveness: High) - Your Response: If the triangle is not yet locked, transition to omoplata by rotating your hips and capturing their arm. If partially locked, use the stacking momentum to roll through to a mounted triangle position. → Leads to [[Positions/De La Riva Guard]]
+- **Opponent yanks their far arm free during the transition window between DLR release and triangle lock** (Effectiveness: Medium) - Your Response: Immediately close your legs into closed guard to prevent a pass, then re-establish DLR or transition to another guard attack. If one arm is still inside as the triangle closes, switch to an armbar on that arm. → Leads to [[Positions/De La Riva Guard]]
+- **Opponent circles their body away from the triangle side, creating distance to prevent the shooting leg from reaching** (Effectiveness: Medium) - Your Response: Follow their movement with your hips while maintaining the sleeve grip. Use the momentum shift to enter a sweep attempt or transition to Single Leg X-Guard by threading under their retreating leg. → Leads to [[Positions/Open Guard]]
+- **Opponent drives their near knee forward through the guard during the DLR hook release to initiate a pass** (Effectiveness: Low) - Your Response: Use the shooting leg as a frame against their advancing knee while pulling up on the sleeve grip. If the pass develops, transition to knee shield half guard and work to re-establish guard from there. → Leads to [[Positions/Open Guard]]
 
 
 </section>

@@ -21,7 +21,7 @@ The transition requires precise timing and mechanical understanding of how to cr
 
 Strategically, this transition is essential because it transforms a position where you face constant back attack threats into one where you control distance and have access to sweeps, submissions, and positional improvements. The key insight is that posture recovery precedes guard recovery - attempting to close guard without first establishing proper spinal alignment and hip positioning leads to failed attempts and often accelerates back exposure.
 
-**From Position**: [[Crackhead Control]] (Bottom)
+**From Position**: [[Positions/Crackhead Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition is essential because it transforms a position whe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Crackhead Control]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Crackhead Control]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ Posture Recovery to Closed Guard is a critical escape in the turtle defense syst
 ## Related Techniques
 
 
-- [[Crackhead Control]] - Starting position - the defensive turtle variant this technique escapes from
+- [[Positions/Crackhead Control]] - Starting position - the defensive turtle variant this technique escapes from
 
-- [[Closed Guard]] - Target position - where you end up upon successful execution
+- [[Positions/Closed Guard]] - Target position - where you end up upon successful execution
 
-- [[Turtle to Guard]] - Related technique - alternative guard recovery paths from turtle
+- [[Transitions/Turtle to Guard]] - Related technique - alternative guard recovery paths from turtle
 
-- [[Granby Roll to Guard]] - Alternative escape - different guard recovery method using inversion from turtle
+- [[Transitions/Granby Roll to Guard]] - Alternative escape - different guard recovery method using inversion from turtle
 
-- [[Half Guard]] - Alternative target - when full guard recovery isn't possible due to weight distribution
+- [[Positions/Half Guard]] - Alternative target - when full guard recovery isn't possible due to weight distribution
 
-- [[Hip Escape to Guard]] - Component technique - fundamental movement pattern used in this transition
+- [[Transitions/Hip Escape to Guard]] - Component technique - fundamental movement pattern used in this transition
 
-- [[Back Control]] - Risk position - where opponent ends up if counter is successful
+- [[Positions/Back Control]] - Risk position - where opponent ends up if counter is successful
 
-- [[Butterfly Guard]] - Alternative target - option when opponent creates distance during recovery
+- [[Positions/Butterfly Guard]] - Alternative target - option when opponent creates distance during recovery
 
-- [[Technical Stand-up]] - Alternative escape - standing option instead of guard recovery
+- [[Transitions/Technical Stand-up]] - Alternative escape - standing option instead of guard recovery
 
-- [[Standing up in Base]] - Alternative escape - used when opponent disengages creating standing opportunity
+- [[Transitions/Standing up in Base]] - Alternative escape - used when opponent disengages creating standing opportunity
 
 
 </section>

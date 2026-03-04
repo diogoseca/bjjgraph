@@ -156,7 +156,7 @@ Defending the Kneebar Finish from Carni requires rapid recognition and decisive 
 
 The most common defensive error is extending your leg in the first place. Understanding that leg extension from Carni invites the kneebar allows you to avoid the trigger entirely by maintaining a slight knee bend while working your extraction. If the attacker has already transitioned to the kneebar, your defensive priority shifts to removing the hyperextension angle by bending your knee forcefully, rotating your body to misalign their fulcrum, or creating enough chaos through rolling and movement that they cannot maintain the precise positioning needed to finish. Every second of delay in your defensive response makes the submission exponentially harder to escape.
 
-**Opponent's Starting Position**: [[Carni]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Carni]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ The most common defensive error is extending your leg in the first place. Unders
 ### 1. Forceful knee bend with hamstring curl to remove hyperextension angle
 
 - **When to use**: Immediately upon recognizing grip transition to ankle control, before attacker establishes tight hip position
-- **Targets**: [[Carni]]
+- **Targets**: [[Positions/Rubber Guard/Carni]]
 - **If successful**: Removes kneebar threat entirely and returns to standard Carni entanglement where you defend heel hook instead
 - **Risk**: If you bend late after hips are already positioned, you may not generate enough force to overcome their knee pinch and hip extension
 
 ### 2. Roll toward attacker while tucking knee to chest to misalign fulcrum
 
 - **When to use**: When attacker has established hip position but has not yet secured maximum ankle control
-- **Targets**: [[Carni]]
+- **Targets**: [[Positions/Rubber Guard/Carni]]
 - **If successful**: Disrupts their hip alignment and may allow you to recover to standard Carni defensive position or scramble free
 - **Risk**: Attacker follows the roll and transitions to belly-down kneebar which can be even tighter than the original position
 
 ### 3. Push attacker's hips away with free leg while extracting trapped leg
 
 - **When to use**: When attacker's knees are not yet fully pinched and there is space to wedge your free foot against their hip
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough separation to extract your leg entirely from the entanglement and recover to half guard
 - **Risk**: Extending your free leg toward them may expose it to secondary leg entanglement or give them additional control points
 
 ### 4. Sit up aggressively and grab attacker's legs to dismantle entanglement from top
 
 - **When to use**: When attacker is on their back and you have sufficient core strength and angle to sit upright despite leg control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Allows you to stack weight forward, break their leg configuration, and pass to a safer position
 - **Risk**: If you sit up too slowly, attacker extends hips to finish before you can establish upper body control
 
@@ -225,11 +225,11 @@ The most common defensive error is extending your leg in the first place. Unders
 
 ## Best-Case Outcomes for Defender
 
-### → [[Carni]]
+### → [[Positions/Rubber Guard/Carni]]
 
 Bend your knee forcefully the instant you recognize the grip transition to ankle control. Use maximum hamstring contraction to close the hyperextension angle before the attacker can establish tight hip positioning. Once your knee is bent, the kneebar is neutralized and you return to defending the standard Carni heel hook threat.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Use your free leg to push against the attacker's hips while simultaneously extracting your trapped leg from their entanglement. As you create separation, immediately recover to half guard by inserting your knee shield and establishing frames. This requires timing the push with a hip escape to create enough distance for full extraction.
 

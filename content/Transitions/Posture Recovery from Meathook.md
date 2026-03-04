@@ -21,7 +21,7 @@ The technique centers on rotational arm extraction mechanics combined with strat
 
 Success leads to guard opening and Side Control passing opportunities, while failure keeps the top player trapped in Meathook's deteriorating submission web. The primary counter risk involves the bottom player taking the back during recovery attempts when the top player creates space without adequate hip control. Proper timing, rotational mechanics, and immediate posture consolidation after extraction are essential to avoid this counter. This transition integrates with the broader Rubber Guard defense system and connects to similar posture recovery sequences from other 10th Planet control positions like Carni and Mission Control.
 
-**From Position**: [[Meathook]] (Top)
+**From Position**: [[Positions/Rubber Guard/Meathook]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Success leads to guard opening and Side Control passing opportunities, while fai
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Failure | [[Meathook]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Side Control]] | 45% |
+| Failure | [[Positions/Rubber Guard/Meathook]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -191,23 +191,23 @@ Posture Recovery from Meathook occupies a critical node in the Rubber Guard defe
 ## Related Techniques
 
 
-- [[Meathook]] - Starting position where top player is trapped with broken posture and isolated arm
+- [[Positions/Rubber Guard/Meathook]] - Starting position where top player is trapped with broken posture and isolated arm
 
-- [[Side Control]] - Primary success target after posture recovery enables guard pass completion
+- [[Positions/Side Control]] - Primary success target after posture recovery enables guard pass completion
 
-- [[Back Control]] - Counter outcome risk when bottom player takes the back during recovery attempts
+- [[Positions/Back Control]] - Counter outcome risk when bottom player takes the back during recovery attempts
 
-- [[Mission Control]] - Related Rubber Guard control position that often precedes Meathook in the attack chain
+- [[Positions/Rubber Guard/Mission Control]] - Related Rubber Guard control position that often precedes Meathook in the attack chain
 
-- [[Closed Guard]] - Intermediate position after arm extraction where posture recovery continues before passing
+- [[Positions/Closed Guard]] - Intermediate position after arm extraction where posture recovery continues before passing
 
-- [[Posture Recovery from Carni]] - Similar posture recovery technique from another Rubber Guard control position
+- [[Transitions/Posture Recovery from Carni]] - Similar posture recovery technique from another Rubber Guard control position
 
-- [[Posture Recovery from Diamond Guard]] - Related posture recovery concept sharing mechanical principles of grip stripping and base creation
+- [[Transitions/Posture Recovery from Diamond Guard]] - Related posture recovery concept sharing mechanical principles of grip stripping and base creation
 
-- [[Gogoplata Control]] - Primary submission threat that makes posture recovery urgent from Meathook
+- [[Positions/Gogoplata Control]] - Primary submission threat that makes posture recovery urgent from Meathook
 
-- [[Rubber Guard]] - Parent guard system containing Meathook and related control positions
+- [[Positions/Rubber Guard]] - Parent guard system containing Meathook and related control positions
 
 
 </section>

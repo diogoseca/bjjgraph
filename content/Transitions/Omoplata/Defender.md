@@ -158,7 +158,7 @@ The most reliable defensive strategy centers on posture management and the forwa
 
 Successful omoplata defense requires understanding the attacker's mechanical requirements. The submission only works when the attacker achieves perpendicular hip alignment, tight leg pressure across the back, and hip control that prevents rolling. Denying any one of these elements significantly reduces the submission threat. The defender should focus on keeping their posture tall, their trapped elbow close to their body, and their base wide enough to resist being broken down while working systematically toward arm extraction or positional escape.
 
-**Opponent's Starting Position**: [[Omoplata Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Omoplata Control]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful omoplata defense requires understanding the attacker's mechanical req
 ### 1. Forward roll through the omoplata before hip control is established
 
 - **When to use**: Early in the submission attempt before the attacker secures their grip on your hip or belt and before they sit up fully
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You escape the shoulder lock entirely and may end up in top position or at minimum reset to a neutral scramble
 - **Risk**: If the attacker follows your roll with good upper body connection, they may transition to mount or back control
 
 ### 2. Posture up strongly by driving hips forward and straightening your spine to relieve shoulder pressure
 
 - **When to use**: When the attacker has not yet broken your posture completely and you still have the base to drive upward against their leg pressure
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: You create space to begin extracting your trapped arm or transition to a stacking defense that neutralizes the shoulder rotation
 - **Risk**: The attacker may use your upward momentum to execute the omoplata sweep, flipping you over their body
 
 ### 3. Stack and walk forward to compress the attacker's position and relieve rotational torque
 
 - **When to use**: When forward roll is not available but you have enough base to drive your weight forward over the attacker
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: You compress the attacker's legs and reduce the angle available for shoulder rotation, creating space to extract your arm
 - **Risk**: Skilled attackers convert your forward pressure into increased rotational torque by angling their hips away
 
 ### 4. Extract trapped arm by pulling elbow back toward your hip while circling your hand free
 
 - **When to use**: When the attacker's leg pressure is loose or during transitions when their shin momentarily lifts off your back
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: You free your arm completely and can recover guard or disengage to a neutral position
 - **Risk**: Partial extraction exposes your arm to triangle or armbar attacks if the attacker reads the movement
 
@@ -228,11 +228,11 @@ Successful omoplata defense requires understanding the attacker's mechanical req
 
 ## Best-Case Outcomes for Defender
 
-### → [[Omoplata Control]]
+### → [[Positions/Omoplata Control]]
 
 Posture up early before the attacker establishes hip control and perpendicular angle. Drive your hips forward, straighten your spine, and work to extract your trapped arm by pulling your elbow toward your hip. Maintain a wide base with your free hand to prevent being swept during posture recovery.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Execute the forward roll escape before the attacker secures hip control. Tuck your chin, drive forward over your trapped shoulder, and roll through the omoplata. If the attacker fails to follow the roll, you end up in a scramble position. Even if they follow, your momentum can create enough separation to recover guard or establish a neutral position.
 

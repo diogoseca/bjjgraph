@@ -180,7 +180,7 @@ description: "How to execute Spider Guard Pass in BJJ. Attacking perspective wit
 
 The Spider Guard Pass requires the top player to systematically dismantle one of gi jiu-jitsu's strongest distance management guards. The core challenge is that spider guard creates a favorable strength asymmetry for the bottom player—their legs push against your arms, meaning you cannot simply muscle through the position. Instead, the passer must use full-body mechanics, posture, and precise timing to strip grips one at a time, immediately controlling each freed limb before the opponent can re-establish. The pass succeeds through a three-phase approach: grip destruction, knee control with forward pressure, and explosive consolidation to side control. Each phase must flow into the next without hesitation, as any pause allows the guard player to reset their defensive structure.
 
-**From Position**: [[Spider Guard]] (Top)
+**From Position**: [[Positions/Spider Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The Spider Guard Pass requires the top player to systematically dismantle one of
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 58% |
-| Failure | [[Spider Guard]] | 30% |
-| Counter | [[Spider Guard]] | 12% |
+| Success | [[Positions/Side Control]] | 58% |
+| Failure | [[Positions/Spider Guard]] | 30% |
+| Counter | [[Positions/Spider Guard]] | 12% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Spider Guard Pass requires the top player to systematically dismantle one of
 
 ## Opponent Counters
 
-- **Opponent switches to De La Riva hook during grip break** (Effectiveness: High) - Your Response: Immediately address the DLR hook by circling your trapped leg away from it while stripping remaining grips. Alternatively, backstep to face the opponent and enter a leg drag or over-under passing sequence. Do not continue the spider pass once DLR is established. → Leads to [[Spider Guard]]
-- **Opponent transitions to triangle attack when you lean forward** (Effectiveness: Medium) - Your Response: Keep posture upright during initial grip stripping. If triangle threat appears, immediately posture up and create space before continuing pass. Hand position controlling knees prevents the hip elevation needed for triangle entry. → Leads to [[Spider Guard]]
-- **Opponent uses remaining grip to sweep as you pass** (Effectiveness: Medium) - Your Response: Ensure both grips are fully broken before committing to pass. If one grip remains and they load the sweep, post your free hand wide on the mat on the sweep side and drive your weight low to prevent being turned over. Complete the grip break before re-attempting. → Leads to [[Spider Guard]]
-- **Opponent recovers guard with shrimp and re-guard** (Effectiveness: Low) - Your Response: Maintain constant hip-to-hip pressure during the passing phase. Use crossface to prevent the head turn needed for effective shrimping. Follow their hip movement and keep your chest driving into theirs to deny the space needed for guard recovery. → Leads to [[Spider Guard]]
+- **Opponent switches to De La Riva hook during grip break** (Effectiveness: High) - Your Response: Immediately address the DLR hook by circling your trapped leg away from it while stripping remaining grips. Alternatively, backstep to face the opponent and enter a leg drag or over-under passing sequence. Do not continue the spider pass once DLR is established. → Leads to [[Positions/Spider Guard]]
+- **Opponent transitions to triangle attack when you lean forward** (Effectiveness: Medium) - Your Response: Keep posture upright during initial grip stripping. If triangle threat appears, immediately posture up and create space before continuing pass. Hand position controlling knees prevents the hip elevation needed for triangle entry. → Leads to [[Positions/Spider Guard]]
+- **Opponent uses remaining grip to sweep as you pass** (Effectiveness: Medium) - Your Response: Ensure both grips are fully broken before committing to pass. If one grip remains and they load the sweep, post your free hand wide on the mat on the sweep side and drive your weight low to prevent being turned over. Complete the grip break before re-attempting. → Leads to [[Positions/Spider Guard]]
+- **Opponent recovers guard with shrimp and re-guard** (Effectiveness: Low) - Your Response: Maintain constant hip-to-hip pressure during the passing phase. Use crossface to prevent the head turn needed for effective shrimping. Follow their hip movement and keep your chest driving into theirs to deny the space needed for guard recovery. → Leads to [[Positions/Spider Guard]]
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Learn to execute the heel strip escape from Ashi Garami. Two-on-on
 
 As the person executing the heel strip, your primary objective is to systematically remove the opponent's controlling grip from your heel, neutralizing the immediate submission threat before extracting your leg and recovering to open guard. This requires precise hand fighting—identifying which of the attacker's hands controls your heel, establishing a two-on-one grip on their wrist, and peeling it past your ankle line. The technique demands controlled urgency: fast enough to prevent the opponent from finishing the heel hook, but measured enough to avoid the jerky movements that paradoxically expose your heel further. Success depends on understanding that the heel strip is not a standalone action but the first phase of a complete escape sequence that ends only when you have established a functional open guard with defensive frames.
 
-**From Position**: [[Ashi Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the person executing the heel strip, your primary objective is to systematica
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Failure | [[Ashi Garami]] | 30% |
-| Counter | [[Saddle]] | 20% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Failure | [[Positions/Ashi Garami]] | 30% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the person executing the heel strip, your primary objective is to systematica
 
 ## Opponent Counters
 
-- **Opponent switches grips during the strip attempt, releasing the targeted hand and re-gripping from a different angle** (Effectiveness: Medium) - Your Response: Maintain two-on-one pressure and follow the grip transition—don't release your control to re-identify the new grip position, instead feel for the new wrist and redirect your strip → Leads to [[Ashi Garami]]
-- **Opponent advances to Saddle or Cross Ashi during the strip attempt, using your hand commitment as a positional advancement window** (Effectiveness: High) - Your Response: Abandon the strip and immediately address positional defense—boot the leg and create distance before re-attempting strip from the worse position, prioritizing survival over escape → Leads to [[Saddle]]
-- **Opponent re-grips immediately after strip completes, catching the heel before extraction finishes** (Effectiveness: Medium) - Your Response: Connect the strip directly to leg extraction without pausing—the re-grip only works if you hesitate between strip and escape, so chain the movements as one continuous sequence → Leads to [[Ashi Garami]]
-- **Opponent transitions to toe hold or ankle lock when heel strip begins, switching submission target** (Effectiveness: Low) - Your Response: Recognize the submission switch and address the new threat—straighten leg for ankle lock defense or rotate with the toe hold, then restart defensive sequence against the new attack → Leads to [[Ashi Garami]]
+- **Opponent switches grips during the strip attempt, releasing the targeted hand and re-gripping from a different angle** (Effectiveness: Medium) - Your Response: Maintain two-on-one pressure and follow the grip transition—don't release your control to re-identify the new grip position, instead feel for the new wrist and redirect your strip → Leads to [[Positions/Ashi Garami]]
+- **Opponent advances to Saddle or Cross Ashi during the strip attempt, using your hand commitment as a positional advancement window** (Effectiveness: High) - Your Response: Abandon the strip and immediately address positional defense—boot the leg and create distance before re-attempting strip from the worse position, prioritizing survival over escape → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent re-grips immediately after strip completes, catching the heel before extraction finishes** (Effectiveness: Medium) - Your Response: Connect the strip directly to leg extraction without pausing—the re-grip only works if you hesitate between strip and escape, so chain the movements as one continuous sequence → Leads to [[Positions/Ashi Garami]]
+- **Opponent transitions to toe hold or ankle lock when heel strip begins, switching submission target** (Effectiveness: Low) - Your Response: Recognize the submission switch and address the new threat—straighten leg for ankle lock defense or rotate with the toe hold, then restart defensive sequence against the new attack → Leads to [[Positions/Ashi Garami]]
 
 
 </section>

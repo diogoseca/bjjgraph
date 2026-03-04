@@ -17,7 +17,7 @@ description: "Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from F
 
 The Peruvian Necktie Setup is an advanced submission transition that exploits opponent's defensive turtle position or failed takedown attempts. This technique combines elements of front headlock control with creative body positioning to establish a powerful choking mechanism. The setup requires precise timing and exceptional understanding of weight distribution, as the practitioner must maintain control while transitioning their body underneath the opponent. Unlike traditional front headlock attacks, the Peruvian Necktie utilizes the opponent's own shoulder as a fulcrum point, creating a unique choking mechanism that attacks both the carotid arteries and applies pressure to the neck. The technique gained prominence in modern no-gi competition and represents the evolution of front headlock finishing sequences. Success with this setup demands strong grip control, flexibility to maneuver underneath the opponent, and the ability to recognize the precise moment when defensive posture creates the necessary opening for entry.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 **Success Rate**: 42%
 
 </section>
@@ -29,8 +29,8 @@ The Peruvian Necktie Setup is an advanced submission transition that exploits op
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Front Headlock]] | 35% |
-| Counter | [[Turtle]] | 15% |
+| Failure | [[Positions/Front Headlock]] | 35% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -190,27 +190,27 @@ The Peruvian Necktie Setup represents an advanced branch of the front headlock s
 ## Related Techniques
 
 
-- [[Front Headlock]] - Starting position - primary control position for entry
+- [[Positions/Front Headlock]] - Starting position - primary control position for entry
 
-- [[Anaconda Setup]] - Alternative setup - complementary technique from same starting position
+- [[Transitions/Anaconda Setup]] - Alternative setup - complementary technique from same starting position
 
-- [[Darce Setup]] - Alternative setup - creates submission dilemma when chained together
+- [[Transitions/Darce Setup]] - Alternative setup - creates submission dilemma when chained together
 
-- [[Peruvian Necktie]] - Submission finish - the submission completed after this setup
+- [[Submissions/Peruvian Necktie]] - Submission finish - the submission completed after this setup
 
-- [[Japanese Necktie Setup]] - Variation - related necktie-style setup with different entry angle
+- [[Transitions/Japanese Necktie Setup]] - Variation - related necktie-style setup with different entry angle
 
-- [[Anaconda Choke]] - Complementary submission - creates threat sequence from front headlock
+- [[Transitions/Anaconda Choke]] - Complementary submission - creates threat sequence from front headlock
 
-- [[Darce Choke]] - Complementary submission - alternative front headlock finish
+- [[Transitions/Darce Choke]] - Complementary submission - alternative front headlock finish
 
-- [[Guillotine Setup]] - Alternative setup - backup option if Peruvian Necktie entry fails
+- [[Transitions/Guillotine Setup]] - Alternative setup - backup option if Peruvian Necktie entry fails
 
-- [[Front Headlock to Back]] - Alternative transition - positional advancement option from same control
+- [[Transitions/Front Headlock to Back]] - Alternative transition - positional advancement option from same control
 
-- [[Guillotine Choke]] - Related submission - shares similar control principles and timing windows
+- [[Transitions/Guillotine Choke]] - Related submission - shares similar control principles and timing windows
 
-- [[Turtle]] - Opponent position - defensive posture being exploited for entry
+- [[Positions/Turtle]] - Opponent position - defensive posture being exploited for entry
 
 
 </section>

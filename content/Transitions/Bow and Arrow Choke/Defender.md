@@ -158,7 +158,7 @@ The defensive hierarchy follows three phases: prevention, disruption, and escape
 
 The most dangerous moment is when you feel the attacker's over-the-shoulder hand release the seatbelt and move toward your collar. This signals the bow and arrow entry. Your hands must immediately engage the attacking wrist before it reaches collar depth. If the grip establishes, your next priority shifts to preventing the leg grip and the hip-fall transition. Understanding this sequence and drilling the appropriate responses at each phase transforms what feels like an inevitable submission into a defensible position with legitimate escape pathways.
 
-**Opponent's Starting Position**: [[Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ The most dangerous moment is when you feel the attacker's over-the-shoulder hand
 ### 1. Two-on-one grip fight to strip or prevent collar grip establishment by controlling attacker's wrist with both hands before fingers enter the collar
 
 - **When to use**: Immediately when you feel the attacker's over-the-shoulder hand release from seatbelt and move toward your collar—this is the highest-percentage defensive window
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Attacker returns to standard back control without submission threat and must re-establish seatbelt before trying again
 - **Risk**: Focusing both hands on one wrist temporarily exposes your neck to rear naked choke if attacker switches attacks
 
 ### 2. Turn toward the choking side while sitting up and driving your back into the attacker to compress the space needed for the extension finish
 
 - **When to use**: When the collar grip is established but the attacker has not yet completed the hip-fall transition to their side—you must turn before extension begins
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You face the attacker and can work to recover guard, potentially reaching half guard or closed guard as the back control is neutralized
 - **Risk**: If you turn too late after the extension has started, you accelerate the choke by adding rotational force to the collar pressure
 
 ### 3. Control your far knee by pulling it tight to your chest and gripping your own pants or shin to deny the attacker's leg grip
 
 - **When to use**: When the collar grip is set and you feel the attacker's free hand reaching toward your far leg—preventing this grip eliminates the extension leverage
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Without the leg grip the attacker cannot generate bow-and-arrow extension and must either abandon the choke or attempt a lower-percentage short choke variation
 - **Risk**: Using one hand on your own leg leaves only one hand to fight the collar grip, reducing your ability to strip the choke
 
 ### 4. Hip escape toward the choking side while stripping the leg grip with your near hand, then rotate to face the attacker and recover guard
 
 - **When to use**: When the attacker has both grips established and is beginning the extension—this is a last-resort escape requiring precise timing during the transition
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You break the mechanical chain by removing the leg control, rotate to face the attacker, and recover to half guard with the collar grip neutralized by your facing position
 - **Risk**: High risk of the choke finishing during the escape attempt if timing is off or the collar grip is already deep enough to complete the blood choke
 
@@ -229,11 +229,11 @@ The most dangerous moment is when you feel the attacker's over-the-shoulder hand
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Strip the collar grip through two-on-one hand fighting before the attacker can transition to the finishing position. Control the attacking wrist, peel fingers from the collar, and return both hands to defensive posture. The attacker retains back control but loses the immediate submission threat, resetting to a more defensible position where you can work standard back escapes.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Turn toward the attacker during the transition phase before full extension is achieved. Drive your hips into the attacker while sitting up, breaking the chest-to-back alignment. As you rotate to face them, work to recover half guard by trapping their near leg between yours. The collar grip becomes ineffective once you are facing the attacker because the choking angle is eliminated.
 

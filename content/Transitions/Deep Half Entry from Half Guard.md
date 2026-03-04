@@ -21,7 +21,7 @@ The entry is most effective when the top player commits weight forward during pa
 
 This transition serves as a critical link between the half guard system and the deep half guard offensive system, giving the bottom player access to waiter sweeps, Homer Simpson sweeps, old school sweeps, and rolling back takes that make deep half one of the most feared bottom positions in modern competition.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition serves as a critical link between the half guard system and the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Deep Half Guard]] | 55% |
-| Failure | [[Half Guard]] | 30% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Half Guard/Deep Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Deep Half Entry from Half Guard functions as the primary gateway between the
 ## Related Techniques
 
 
-- [[Half Guard]] - Starting position from which this entry is executed
+- [[Positions/Half Guard]] - Starting position from which this entry is executed
 
-- [[Deep Half Guard]] - Target position reached upon successful entry
+- [[Positions/Half Guard/Deep Half Guard]] - Target position reached upon successful entry
 
-- [[Flattened Half Guard]] - Compromised position resulting from countered entry attempt
+- [[Positions/Half Guard/Flattened Half Guard]] - Compromised position resulting from countered entry attempt
 
-- [[Lockdown]] - Leg control variation that facilitates entry through posture breaking
+- [[Positions/Half Guard/Lockdown]] - Leg control variation that facilitates entry through posture breaking
 
-- [[Knee Shield Half Guard]] - Alternative half guard variation that can transition into deep half entry
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative half guard variation that can transition into deep half entry
 
-- [[Backstep from Deep Half]] - Top player's primary counter-pass after deep half is established
+- [[Transitions/Backstep from Deep Half]] - Top player's primary counter-pass after deep half is established
 
-- [[Back Door Escape from Half Guard]] - Alternative escape option from half guard bottom when deep half is unavailable
+- [[Transitions/Back Door Escape from Half Guard]] - Alternative escape option from half guard bottom when deep half is unavailable
 
-- [[X-Guard]] - Alternative leverage-based guard accessible from similar underhook mechanics
+- [[Positions/X-Guard]] - Alternative leverage-based guard accessible from similar underhook mechanics
 
-- [[Single Leg X-Guard]] - Transition target when deep half entry is partially defended
+- [[Positions/X-Guard/Single Leg X-Guard]] - Transition target when deep half entry is partially defended
 
-- [[Butterfly Half Guard]] - Hybrid guard variation offering alternative entry angles to deep half
+- [[Positions/Half Guard/Butterfly Half Guard]] - Hybrid guard variation offering alternative entry angles to deep half
 
 
 </section>

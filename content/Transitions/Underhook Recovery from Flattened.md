@@ -21,7 +21,7 @@ The recovery process demands precise timing and sequential execution rather than
 
 From a strategic perspective, the underhook recovery sits at the intersection of defensive survival and offensive initiation within the half guard positional hierarchy. Once the underhook is secured with adequate depth reaching the opponent's shoulder blade, the bottom player gains immediate access to the full half guard attacking system. Sweeps to mount via the old school or standard underhook sweep, back takes through the dogfight, and guard recovery to knee shield all become available. The technique also creates a critical decision point for the top player, who must choose between fighting the underhook with a whizzer, abandoning the crossface to address the threat, or attempting to complete the pass before the bottom player consolidates the recovered position. Each of these responses opens different counter-opportunities for the bottom player, making the underhook recovery the catalyst for dynamic positional exchanges from what was previously a static survival situation.
 
-**From Position**: [[Flattened Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic perspective, the underhook recovery sits at the intersection of
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Flattened Half Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -195,27 +195,27 @@ The Underhook Recovery from Flattened Half Guard occupies a pivotal position in 
 ## Related Techniques
 
 
-- [[Flattened Half Guard]] - Source position where the technique is initiated from the bottom
+- [[Positions/Half Guard/Flattened Half Guard]] - Source position where the technique is initiated from the bottom
 
-- [[Half Guard]] - Target position achieved on successful underhook recovery
+- [[Positions/Half Guard]] - Target position achieved on successful underhook recovery
 
-- [[Side Control]] - Position opponent advances to if they counter the recovery attempt and complete the pass
+- [[Positions/Side Control]] - Position opponent advances to if they counter the recovery attempt and complete the pass
 
-- [[Deep Half Entry from Flattened]] - Alternative escape technique from the same starting position when underhook path is blocked
+- [[Transitions/Deep Half Entry from Flattened]] - Alternative escape technique from the same starting position when underhook path is blocked
 
-- [[Elbow Escape from Flattened Half]] - Complementary escape that creates space used as a precursor to underhook insertion
+- [[Transitions/Elbow Escape from Flattened Half]] - Complementary escape that creates space used as a precursor to underhook insertion
 
-- [[Recover Knee Shield from Flattened Half]] - Related recovery technique that targets knee shield re-establishment rather than underhook
+- [[Transitions/Recover Knee Shield from Flattened Half]] - Related recovery technique that targets knee shield re-establishment rather than underhook
 
-- [[Knee Shield Half Guard]] - Common consolidation position after recovering underhook and turning to side
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Common consolidation position after recovering underhook and turning to side
 
-- [[Dogfight Position]] - Offensive position accessible by coming up on the recovered underhook
+- [[Positions/Dogfight Position]] - Offensive position accessible by coming up on the recovered underhook
 
-- [[Lockdown]] - Leg control system that assists underhook recovery by controlling top player's posture
+- [[Positions/Half Guard/Lockdown]] - Leg control system that assists underhook recovery by controlling top player's posture
 
-- [[Old School Sweep]] - High-percentage sweep immediately available once underhook is secured from half guard
+- [[Transitions/Old School Sweep]] - High-percentage sweep immediately available once underhook is secured from half guard
 
-- [[Complete Pass from Flattened Half]] - Opponent's primary threat during the recovery attempt that must be defended against
+- [[Transitions/Complete Pass from Flattened Half]] - Opponent's primary threat during the recovery attempt that must be defended against
 
 
 </section>

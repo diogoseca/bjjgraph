@@ -158,7 +158,7 @@ The fundamental defensive challenge lies in controlling a limb that has been del
 
 Advanced defenders treat extraction attempts as offensive opportunities rather than purely defensive scenarios. Each extraction attempt requires the bottom player to commit to specific hip movement patterns, temporarily reducing their heel protection and creating windows for submission advancement or positional improvement to Saddle.
 
-**Opponent's Starting Position**: [[Leg Knot]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Knot]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Advanced defenders treat extraction attempts as offensive opportunities rather t
 ### 1. Follow the hip escape by moving your body with theirs while maintaining leg entanglement pressure
 
 - **When to use**: As soon as you feel the opponent begin lateral hip movement away from the entanglement
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: Opponent's hip escape creates no usable distance and the extraction fails, returning to Leg Knot position with their energy depleted
 - **Risk**: If you follow too aggressively, opponent may redirect into a Single Leg X-Guard entry using your forward momentum against you
 
 ### 2. Tighten grip and advance to Saddle by crossing the knee line during the relaxation phase
 
 - **When to use**: When you recognize the opponent has relaxed their leg but before the hip escape begins, use the temporary vulnerability to advance control
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Transition from Leg Knot to dominant Saddle position with full submission access, converting their escape attempt into a worse position for them
 - **Risk**: If timing is off and they've already begun hip escape, you may overcommit and lose the entanglement entirely
 
 ### 3. Strip the free leg frame by clearing their foot off your hip before they can generate pushing force
 
 - **When to use**: When opponent plants their free foot on your hip but has not yet committed to the hip escape push
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: Opponent loses the primary space-creation mechanism, making extraction impossible without re-establishing the frame
 - **Risk**: Momentarily removes one of your hands from leg control to address the frame, creating brief grip vulnerability
 
 ### 4. Drive forward with stacking pressure to pin opponent's hips and eliminate escape angles
 
 - **When to use**: When opponent begins the extraction sequence but has not yet created significant distance through hip escape
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: Opponent's hips are pinned to the mat, eliminating the lateral movement needed for extraction and allowing you to re-consolidate control
 - **Risk**: Heavy forward commitment can be redirected if opponent uses your momentum for a back-door escape behind your hips
 
@@ -228,11 +228,11 @@ Advanced defenders treat extraction attempts as offensive opportunities rather t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Knot]]
+### → [[Positions/Leg Knot]]
 
 Maintain entanglement by following hip escape movement, stripping free leg frames, and applying constant pressure that denies the distance needed for extraction. Keep structural body positioning tight regardless of whether the trapped leg is tense or limp.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 Capitalize on the opponent's relaxation phase by immediately advancing to Saddle configuration. When they relax the trapped leg, their defensive knee line weakens—cross your leg over their thigh to establish Saddle before they can hip escape. The extraction attempt itself opens the pathway to a more dominant entanglement.
 

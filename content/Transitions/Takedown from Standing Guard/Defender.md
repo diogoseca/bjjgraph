@@ -154,7 +154,7 @@ description: "Defend the Takedown from Standing Guard in BJJ. Sprawl mechanics, 
 
 Defending the Takedown from Standing Guard requires anticipating the opponent's level change, recognizing pre-shot indicators in their grip transitions and posture shifts, and executing appropriate defensive responses before the takedown reaches completion. The defender must balance multiple threats simultaneously—the takedown itself, potential grip transitions during defensive exchanges, and the risk of ending in a worse position through poor sprawl mechanics or panicked guard pulls. Effective defense begins with proactive grip fighting that eliminates takedown entries by controlling distance and the opponent's ability to change levels, continues with reactive sprawling or counter-techniques when the entry initiates, and concludes with position recovery or counter-offense that punishes failed takedown attempts and creates opportunities to dictate the engagement on your terms.
 
-**Opponent's Starting Position**: [[Standing Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Takedown from Standing Guard requires anticipating the opponent's 
 ### 1. Sprawl defense—drop hips explosively to the mat while extending legs backward and driving shoulder pressure into opponent's upper back and head
 
 - **When to use**: When you detect the opponent's level change and penetration step before they make solid chest-to-body contact with your legs
-- **Targets**: [[Standing Guard]]
+- **Targets**: [[Positions/Standing Guard]]
 - **If successful**: Takedown is completely negated, opponent is flattened underneath your hip and shoulder pressure, allowing reset to standing or advancement to front headlock control
 - **Risk**: If the sprawl is late and opponent has already secured deep leg contact, your hip drop may be insufficient to prevent them from driving through to completion
 
 ### 2. Guillotine counter—wrap the opponent's head and neck as they drop their head during the level change, securing a chin strap or arm-in grip
 
 - **When to use**: When the opponent's head position ends up on the outside of your body or exposed during a sloppy level change without proper inside head placement
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent is trapped in a guillotine choke, you establish dominant control on top and can finish the submission or transition to mount
 - **Risk**: If the guillotine grip is shallow, the opponent may complete the takedown and pass your guard while your arms are committed to the choke attempt
 
 ### 3. Timed guard pull—sit to guard before the takedown completes by establishing collar and sleeve grips and pulling the opponent into your preferred guard structure
 
 - **When to use**: When you recognize the takedown initiation but cannot sprawl in time, and you have controlling grips that allow you to dictate the transition to ground fighting
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish your guard on your own terms with pre-set grips rather than being taken down chaotically into a scramble position with no grip control
 - **Risk**: Poor guard pull timing without established grips gives the opponent easy passing angles and immediate top pressure
 
 ### 4. Wizzer and hip rotation—establish a deep overhook on the opponent's attacking arm and rotate your hips away from their driving direction to kill their angle
 
 - **When to use**: When the opponent makes contact but has not yet completed the finish, particularly effective against single leg attempts where one arm is accessible
-- **Targets**: [[Standing Guard]]
+- **Targets**: [[Positions/Standing Guard]]
 - **If successful**: Takedown is stalled, you can work back to full standing position or advance to a front headlock by driving the opponent's head down with shoulder pressure
 - **Risk**: If the overhook is weak or the opponent has deep leg control, they may power through the wizzer and complete the takedown despite your hip rotation
 
@@ -225,11 +225,11 @@ Defending the Takedown from Standing Guard requires anticipating the opponent's 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Guard]]
+### → [[Positions/Standing Guard]]
 
 Defend the takedown with a decisive sprawl, driving your hips explosively to the mat and controlling the opponent's head and shoulders with crossface pressure to prevent them from recovering their shot. Use your hip weight to flatten them, then push off their shoulders to return to standing or advance to front headlock control position.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Counter the takedown during the opponent's level change by securing a guillotine grip when their head is exposed, or use their forward momentum against them with a well-timed underhook counter-turn that reverses their position. The key is converting their committed forward energy into rotational force that puts them on the bottom while you establish top half guard control.
 

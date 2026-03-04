@@ -154,7 +154,7 @@ description: "How to defend against Chair Sit to Back in BJJ. Recognition cues, 
 
 Defending the chair sit to back take requires early recognition and immediate action before the attacker can establish their seatbelt grip. Once the attacker threads their blocking leg across your thigh and sits into the chair position, your defensive options become progressively more limited. The key defensive window exists between the moment you feel the leg threading across your thigh and the moment the seatbelt grip connects. During this window, explosive movement in the correct direction can prevent the back take entirely. Your defensive priorities are preventing the seatbelt grip from being established, disrupting the attacker's base through directional movement, and either returning to a strong turtle or creating a scramble that resets the position. Understanding which defensive reactions lead to favorable outcomes versus which reactions the attacker is prepared to exploit is critical for making effective choices under pressure.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the chair sit to back take requires early recognition and immediate ac
 ### 1. Sit through toward the blocking leg side before seatbelt is established
 
 - **When to use**: Immediately upon feeling the blocking leg thread across your thigh, before the attacker releases hip control for seatbelt grip
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You reverse your hip position relative to the attacker, potentially entering a scramble or recovering to a neutral turtle position where you can re-establish defense
 - **Risk**: If the attacker maintains upper body control, the sit-through leads directly into truck position where they have twister and calf slicer threats
 
 ### 2. Drive forward explosively to flatten and escape the blocking leg
 
 - **When to use**: When the attacker begins sitting but has not yet fully established the chair position or connected seatbelt grip
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You drive out of the blocking leg range and return to standard turtle position, forcing the attacker to re-establish control from scratch
 - **Risk**: If the attacker has seatbelt grip, the forward drive actually helps them climb onto your back as you extend
 
 ### 3. Strip the blocking leg by grabbing the foot and lifting it over your thigh
 
 - **When to use**: When you cannot generate enough explosive movement to sit through or drive forward, and the blocking leg is not deeply set
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Removing the blocking leg eliminates the attacker's primary control mechanism and forces them to reset their attack or find alternative control
 - **Risk**: Using both hands on the leg leaves your upper body and neck temporarily undefended, allowing the attacker to establish seatbelt grip unopposed
 
 ### 4. Granby roll away from the attacker's chest contact side
 
 - **When to use**: When the attacker commits their weight forward and high during the chair sit setup, creating space underneath for inversion
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: The inversion breaks the attacker's chest contact and blocking leg position, allowing you to recover to guard or reset to neutral turtle
 - **Risk**: If timing is off, you expose your back further and the attacker can follow the roll to establish deeper back control
 
@@ -224,11 +224,11 @@ Defending the chair sit to back take requires early recognition and immediate ac
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Drive forward explosively before the seatbelt grip is established, using the momentary gap during the attacker's grip transition from hip control to seatbelt. Your forward momentum combined with tight elbow-to-knee structure can strip the blocking leg and return you to standard turtle where you can begin guard recovery or standup sequences.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Execute a well-timed sit-through toward the blocking leg side, rotating your hips away from the attacker's chest contact. Even if this leads to a scramble, you have disrupted the systematic chair sit progression and forced the attacker to adapt. From the resulting scramble, work to face the attacker and recover guard or establish distance for a standup.
 

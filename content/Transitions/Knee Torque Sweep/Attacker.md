@@ -180,7 +180,7 @@ description: "Complete guide to executing the Knee Torque Sweep from half guard 
 
 The Knee Torque Sweep from half guard bottom uses rotational force applied to the opponent's trapped knee to compromise their base and create a sweeping opportunity to mount. As the attacker, your primary task is establishing proper leg positioning to generate torque while simultaneously controlling the opponent's upper body to prevent them from posting or basing out. The technique exploits the fact that the human knee joint has minimal resistance to medial rotational force under load, meaning even moderate torque can collapse the top player's base structure on the trapped side. Success depends on coordinating the knee torque with a well-timed underhook drive and hip bridge, creating compound forces that overwhelm the opponent's ability to maintain equilibrium. The technique rewards precise mechanical execution and timing over explosive strength, making it a reliable weapon against larger or stronger opponents who rely on pressure passing from half guard top.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The Knee Torque Sweep from half guard bottom uses rotational force applied to th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Half Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Half Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Knee Torque Sweep from half guard bottom uses rotational force applied to th
 
 ## Opponent Counters
 
-- **Opponent posts their free hand wide on the mat to create a structural brace against the sweep direction** (Effectiveness: High) - Your Response: Transition immediately to attack the posted arm with a kimura grip, using the exposed posting arm as a new offensive target while maintaining half guard control for subsequent sweep attempts → Leads to [[Half Guard]]
-- **Opponent drives heavy crossface pressure to flatten your side angle and eliminate torque leverage** (Effectiveness: Medium) - Your Response: Frame on their crossface arm and hip escape to reestablish side angle, or transition to deep half guard where their committed forward pressure actually assists your entry underneath them → Leads to [[Half Guard]]
-- **Opponent extracts their trapped leg by sprawling hips back and swimming the knee free before full torque is applied** (Effectiveness: High) - Your Response: Immediately recover guard by inserting a knee shield or hip escaping to reestablish distance before they can consolidate a passing position past your legs → Leads to [[Side Control]]
-- **Opponent shifts weight entirely to the free leg and lifts the trapped knee to reduce torque effectiveness** (Effectiveness: Medium) - Your Response: Use the space created by their weight shift to come up to dogfight position using the underhook, or switch to a different sweep angle that exploits their unbalanced single-leg base → Leads to [[Half Guard]]
+- **Opponent posts their free hand wide on the mat to create a structural brace against the sweep direction** (Effectiveness: High) - Your Response: Transition immediately to attack the posted arm with a kimura grip, using the exposed posting arm as a new offensive target while maintaining half guard control for subsequent sweep attempts → Leads to [[Positions/Half Guard]]
+- **Opponent drives heavy crossface pressure to flatten your side angle and eliminate torque leverage** (Effectiveness: Medium) - Your Response: Frame on their crossface arm and hip escape to reestablish side angle, or transition to deep half guard where their committed forward pressure actually assists your entry underneath them → Leads to [[Positions/Half Guard]]
+- **Opponent extracts their trapped leg by sprawling hips back and swimming the knee free before full torque is applied** (Effectiveness: High) - Your Response: Immediately recover guard by inserting a knee shield or hip escaping to reestablish distance before they can consolidate a passing position past your legs → Leads to [[Positions/Side Control]]
+- **Opponent shifts weight entirely to the free leg and lifts the trapped knee to reduce torque effectiveness** (Effectiveness: Medium) - Your Response: Use the space created by their weight shift to come up to dogfight position using the underhook, or switch to a different sweep angle that exploits their unbalanced single-leg base → Leads to [[Positions/Half Guard]]
 
 
 </section>

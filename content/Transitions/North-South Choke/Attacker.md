@@ -178,7 +178,7 @@ Strategically, the North-South Choke serves as a powerful complement to Kimura a
 
 The key mechanical principle involves threading your choking arm deep under the opponent's neck while your chest drops onto their face, sealing the choke on both sides simultaneously. Unlike collar chokes that can stall or allow breathing, a properly applied North-South Choke produces unconsciousness within seconds due to bilateral carotid compression. This makes it one of the most efficient blood chokes in grappling when executed correctly.
 
-**From Position**: [[North-South]] (Top)
+**From Position**: [[Positions/North-South]] (Top)
 
 </section>
 
@@ -231,8 +231,8 @@ The key mechanical principle involves threading your choking arm deep under the 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[North-South]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/North-South]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ The key mechanical principle involves threading your choking arm deep under the 
 
 ## Opponent Counters
 
-- **Opponent bridges and creates space before arm is threaded deep enough** (Effectiveness: High) - Your Response: Sprawl hips immediately and re-establish chest pressure before reattempting the choke. Do not chase the arm thread during a bridge. → Leads to [[North-South]]
-- **Opponent frames against your hip and shrimps to recover half guard** (Effectiveness: Medium) - Your Response: Pin their framing arm with your hip weight and transition to Kimura attack on that arm, or follow their hip escape to maintain chest pressure → Leads to [[Half Guard]]
-- **Opponent turns into you to prevent chest seal on far-side carotid** (Effectiveness: Medium) - Your Response: Maintain heavy chest pressure and switch to front headlock control or guillotine setup as they expose their neck by turning → Leads to [[North-South]]
-- **Opponent tucks chin tightly and blocks arm from threading under neck** (Effectiveness: Low) - Your Response: Attack Americana or Kimura to force their arms to move and open their defensive posture, then return to choke when neck opens → Leads to [[North-South]]
+- **Opponent bridges and creates space before arm is threaded deep enough** (Effectiveness: High) - Your Response: Sprawl hips immediately and re-establish chest pressure before reattempting the choke. Do not chase the arm thread during a bridge. → Leads to [[Positions/North-South]]
+- **Opponent frames against your hip and shrimps to recover half guard** (Effectiveness: Medium) - Your Response: Pin their framing arm with your hip weight and transition to Kimura attack on that arm, or follow their hip escape to maintain chest pressure → Leads to [[Positions/Half Guard]]
+- **Opponent turns into you to prevent chest seal on far-side carotid** (Effectiveness: Medium) - Your Response: Maintain heavy chest pressure and switch to front headlock control or guillotine setup as they expose their neck by turning → Leads to [[Positions/North-South]]
+- **Opponent tucks chin tightly and blocks arm from threading under neck** (Effectiveness: Low) - Your Response: Attack Americana or Kimura to force their arms to move and open their defensive posture, then return to choke when neck opens → Leads to [[Positions/North-South]]
 
 
 </section>

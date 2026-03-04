@@ -158,7 +158,7 @@ The defender in this scenario is typically in the Backside 50-50 position with t
 
 The psychological dimension of heel hook defense cannot be understated. Panic leads to spastic movement that often worsens your position and accelerates the submission. Calm, technical defense based on recognizing exactly which stage of the attack you are facing allows you to select the correct defensive tool. When defense fails and the breaking angle is set, tapping immediately is not weakness - it is the intelligent choice that preserves your ability to train and compete.
 
-**Opponent's Starting Position**: [[Backside 50-50]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Backside 50-50]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ The psychological dimension of heel hook defense cannot be understated. Panic le
 ### 1. Boot defense - straighten your attacked leg and point your toes, tucking your heel behind opponent's controlling leg to deny grip access
 
 - **When to use**: Immediately when you sense opponent reaching for your heel, before the figure-four grip is established
-- **Targets**: [[Backside 50-50]]
+- **Targets**: [[Positions/Ashi Garami/Backside 50-50]]
 - **If successful**: Opponent cannot acquire heel grip and must abandon the Outside Heel Hook attempt or transition to alternative attacks, returning you to neutral entanglement
 - **Risk**: If opponent reshapes to attack the Inside Heel Hook on the newly exposed medial side, or drops to a straight ankle lock targeting your extended ankle
 
 ### 2. Spin escape - rotate your entire body in the same direction as the heel hook rotation to match and neutralize the rotational pressure on your knee
 
 - **When to use**: When opponent has established the grip but has not yet fully set the breaking angle - the window closes once hip extension begins
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Rotational pressure on the knee is neutralized and you transition to standard 50-50 or disengage the entanglement entirely for guard recovery
 - **Risk**: Opponent follows your spin and maintains the heel hook, or your spin exposes your back for a back take transition
 
 ### 3. Two-on-one grip strip - use both hands to attack their cupping hand specifically, peeling their fingers from under your heel to break the figure-four structure
 
 - **When to use**: When opponent has grip but elbows are not yet fully clamped to their body - a brief window exists where the grip can be broken
-- **Targets**: [[Backside 50-50]]
+- **Targets**: [[Positions/Ashi Garami/Backside 50-50]]
 - **If successful**: Figure-four grip collapses and opponent must re-establish from scratch, giving you time to implement boot defense or disengage
 - **Risk**: While both hands fight the grip, you have no frames to prevent being flattened and opponent may quickly re-grip if you fail to fully strip
 
 ### 4. Counter leg attack - reach for opponent's heel and initiate your own heel hook while they are committed to finishing yours
 
 - **When to use**: When opponent has committed both hands to your heel, leaving their own leg defense compromised in the exchange
-- **Targets**: [[Backside 50-50]]
+- **Targets**: [[Positions/Ashi Garami/Backside 50-50]]
 - **If successful**: Creates a mutual threat scenario that may force opponent to release your heel to defend their own, resetting to neutral entanglement
 - **Risk**: If opponent's attack is further developed than yours, you may lose the exchange and suffer the submission before your counter takes effect
 
@@ -229,11 +229,11 @@ The psychological dimension of heel hook defense cannot be understated. Panic le
 
 ## Best-Case Outcomes for Defender
 
-### → [[Backside 50-50]]
+### → [[Positions/Ashi Garami/Backside 50-50]]
 
 Successfully strip the heel grip through two-on-one hand fighting or deny heel access entirely through boot defense before opponent consolidates the figure-four. Once grip is broken, immediately establish defensive leg positioning to prevent re-acquisition.
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Execute a well-timed spin escape in the direction of the heel hook rotation, matching the rotational force to neutralize knee pressure. Continue spinning until you face the opponent, transitioning the entanglement from Backside 50-50 to standard 50-50 where the positional asymmetry is eliminated.
 

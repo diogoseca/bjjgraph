@@ -21,7 +21,7 @@ The transition exploits a specific window that occurs when the top player focuse
 
 Strategically, this transition serves as an escalation within the lasso guard system. Once both legs are threaded, the bottom player gains access to powerful rotational sweeps that use both legs as coordinated levers, creating torque that is exceptionally difficult to resist. The top player faces a compounding problem: addressing one lasso loosens the other, and retreating from one side drives them into the opposite leg's control. This bilateral dilemma is what makes the Russian Leg Lasso a devastating control position for competition-oriented guard players who can execute the threading sequence consistently.
 
-**From Position**: [[Lasso Guard]] (Bottom)
+**From Position**: [[Positions/Lasso Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition serves as an escalation within the lasso guard sy
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Russian Leg Lasso]] | 65% |
-| Failure | [[Lasso Guard]] | 25% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Lasso Guard/Russian Leg Lasso]] | 65% |
+| Failure | [[Positions/Lasso Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -189,21 +189,21 @@ The transition to Russian Leg Lasso occupies a critical escalation point within 
 ## Related Techniques
 
 
-- [[Lasso Guard]] - Starting position - standard single-leg lasso guard provides the foundation control from which the Russian variation is built
+- [[Positions/Lasso Guard]] - Starting position - standard single-leg lasso guard provides the foundation control from which the Russian variation is built
 
-- [[Russian Leg Lasso]] - Target position - the double-leg lasso configuration reached upon successful completion of this transition
+- [[Positions/Lasso Guard/Russian Leg Lasso]] - Target position - the double-leg lasso configuration reached upon successful completion of this transition
 
-- [[Spider Guard]] - Alternative entry point - spider guard with both feet on biceps can convert directly to Russian Leg Lasso through simultaneous threading
+- [[Positions/Spider Guard]] - Alternative entry point - spider guard with both feet on biceps can convert directly to Russian Leg Lasso through simultaneous threading
 
-- [[Inverted Lasso Guard]] - Alternative upgrade path - both transitions escalate standard lasso guard but in different directions: bilateral control versus rotational dynamics
+- [[Positions/Lasso Guard/Inverted Lasso Guard]] - Alternative upgrade path - both transitions escalate standard lasso guard but in different directions: bilateral control versus rotational dynamics
 
-- [[Collar Sleeve Guard]] - Complementary grip system - collar-sleeve configurations provide the secondary grips needed to break posture before threading the second leg
+- [[Positions/Collar Sleeve Guard]] - Complementary grip system - collar-sleeve configurations provide the secondary grips needed to break posture before threading the second leg
 
-- [[Lasso Guard Pass]] - Opponent's primary counter - understanding pass mechanics informs when the top player's free arm becomes vulnerable for threading
+- [[Transitions/Lasso Guard Pass]] - Opponent's primary counter - understanding pass mechanics informs when the top player's free arm becomes vulnerable for threading
 
-- [[De La Riva Guard]] - Alternative guard system - if the Russian Leg Lasso transition fails, De La Riva provides a fallback option when the opponent creates distance
+- [[Positions/De La Riva Guard]] - Alternative guard system - if the Russian Leg Lasso transition fails, De La Riva provides a fallback option when the opponent creates distance
 
-- [[Lasso Guard to Inverted Lasso Guard]] - Sister transition - shares the same starting position and presents an alternative escalation path from standard lasso guard
+- [[Transitions/Lasso Guard to Inverted Lasso Guard]] - Sister transition - shares the same starting position and presents an alternative escalation path from standard lasso guard
 
 
 </section>

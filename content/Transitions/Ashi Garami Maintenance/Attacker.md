@@ -180,7 +180,7 @@ description: "Master attacking Ashi Garami maintenance with systematic connectio
 
 Maintaining Ashi Garami from the attacking perspective requires constant vigilance over multiple connection points while simultaneously managing offensive advancement opportunities. The attacker must treat maintenance not as a passive holding pattern but as an active system of micro-adjustments that follow the defender's movement, re-establish cleared hooks, and transition between grip configurations. Success demands understanding which connection points are most threatened at any moment and prioritizing their preservation over secondary concerns. The most effective maintainers create a suffocating sensation for the defender through patient, relentless reconnection that exhausts defensive energy reserves and opens windows for hierarchical advancement toward finishing positions.
 
-**From Position**: [[Ashi Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ Maintaining Ashi Garami from the attacking perspective requires constant vigilan
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Ashi Garami]] | 55% |
-| Failure | [[Open Guard]] | 30% |
-| Counter | [[Ashi Garami]] | 15% |
+| Success | [[Positions/Ashi Garami]] | 55% |
+| Failure | [[Positions/Open Guard]] | 30% |
+| Counter | [[Positions/Ashi Garami]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ Maintaining Ashi Garami from the attacking perspective requires constant vigilan
 
 ## Opponent Counters
 
-- **Explosive standing base recovery to create elevation advantage and extract trapped leg through upward force** (Effectiveness: High) - Your Response: Follow their hip upward by scooting and tightening ankle grip. Consider transitioning to Single Leg X-Guard to capitalize on their standing position rather than fighting the elevation change directly. → Leads to [[Open Guard]]
-- **Systematic inside knee pummeling to establish inside space control and begin mechanical clearing of hooks** (Effectiveness: Medium) - Your Response: Drive your inside knee back toward their centerline while simultaneously pulling their trapped leg tighter with upper body grips to deny the pummeling angle and re-establish the blocking wedge. → Leads to [[Open Guard]]
-- **Establishing reciprocal leg entanglement on your leg to create bilateral threat and reverse positional advantage** (Effectiveness: Medium) - Your Response: Recognize the bilateral threat immediately and prioritize inside space control on both legs. Compete for superior positioning within the mutual entanglement rather than ignoring their counter-attack. → Leads to [[Ashi Garami]]
-- **Forcefully extending trapped leg while stomping heel toward mat to strip inside hook and break pinching clamp** (Effectiveness: Low) - Your Response: Maintain pinching pressure with both legs and follow the extension by scooting hips forward. Use their extension momentum to transition toward straight ankle lock control as their leg straightens. → Leads to [[Open Guard]]
+- **Explosive standing base recovery to create elevation advantage and extract trapped leg through upward force** (Effectiveness: High) - Your Response: Follow their hip upward by scooting and tightening ankle grip. Consider transitioning to Single Leg X-Guard to capitalize on their standing position rather than fighting the elevation change directly. → Leads to [[Positions/Open Guard]]
+- **Systematic inside knee pummeling to establish inside space control and begin mechanical clearing of hooks** (Effectiveness: Medium) - Your Response: Drive your inside knee back toward their centerline while simultaneously pulling their trapped leg tighter with upper body grips to deny the pummeling angle and re-establish the blocking wedge. → Leads to [[Positions/Open Guard]]
+- **Establishing reciprocal leg entanglement on your leg to create bilateral threat and reverse positional advantage** (Effectiveness: Medium) - Your Response: Recognize the bilateral threat immediately and prioritize inside space control on both legs. Compete for superior positioning within the mutual entanglement rather than ignoring their counter-attack. → Leads to [[Positions/Ashi Garami]]
+- **Forcefully extending trapped leg while stomping heel toward mat to strip inside hook and break pinching clamp** (Effectiveness: Low) - Your Response: Maintain pinching pressure with both legs and follow the extension by scooting hips forward. Use their extension momentum to transition toward straight ankle lock control as their leg straightens. → Leads to [[Positions/Open Guard]]
 
 
 </section>

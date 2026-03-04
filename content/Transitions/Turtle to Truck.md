@@ -17,7 +17,7 @@ description: "Master the Turtle to Truck transition in BJJ. Step-by-step executi
 
 The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jitsu system and modern no-gi grappling. When an opponent assumes the turtle position, the Truck offers a devastating alternative to traditional back takes, providing access to the Twister submission, various calf slicers, and back control options. The Truck position involves controlling the opponent's leg while maintaining a specific body configuration that creates the signature "truck" shape - hence the name. This transition is particularly effective because it exploits the turtle position's inherent vulnerability to leg attacks while the opponent focuses on defending their neck and preventing traditional back takes. The Truck serves as a gateway position within the larger Twister system, allowing the attacker to create multiple submission threats simultaneously. What makes this transition especially valuable is its ability to bypass traditional back defense protocols, as most practitioners are conditioned to defend against seat belt control rather than leg-based attacks from turtle. The success of this transition relies on timing, understanding weight distribution, and the ability to coordinate upper and lower body control simultaneously.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -28,9 +28,9 @@ The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jit
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Truck]] | 70% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Twister Control/Truck]] | 70% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -194,29 +194,29 @@ The Truck transition is a critical component of modern no-gi grappling and the 1
 ## Related Techniques
 
 
-- [[Truck]] - End position - the target position you're transitioning to
+- [[Positions/Twister Control/Truck]] - End position - the target position you're transitioning to
 
-- [[Turtle]] - Starting position - where the transition begins
+- [[Positions/Turtle]] - Starting position - where the transition begins
 
-- [[Twister Control]] - Follow-up position - natural progression from Truck for submission
+- [[Positions/Twister Control]] - Follow-up position - natural progression from Truck for submission
 
-- [[Truck Entry]] - Alternative transition - same destination with different entry mechanics
+- [[Transitions/Truck Entry]] - Alternative transition - same destination with different entry mechanics
 
-- [[Crab Ride to Back]] - Related back attack - alternative approach from turtle position
+- [[Transitions/Crab Ride to Back]] - Related back attack - alternative approach from turtle position
 
-- [[Calf Slicer from Truck]] - Follow-up submission - leg attack option from the Truck position
+- [[Submissions/Calf Slicer from Truck]] - Follow-up submission - leg attack option from the Truck position
 
-- [[Turtle to Back Control]] - Alternative transition - traditional back attack when Truck is defended
+- [[Transitions/Turtle to Back Control]] - Alternative transition - traditional back attack when Truck is defended
 
-- [[Lockdown Recovery]] - Technical similarity - uses similar leg triangle mechanics
+- [[Transitions/Lockdown Recovery]] - Technical similarity - uses similar leg triangle mechanics
 
-- [[Old School Sweep]] - Related technique - uses similar leg control concepts from different position
+- [[Transitions/Old School Sweep]] - Related technique - uses similar leg control concepts from different position
 
-- [[Banana Split]] - Related submission - similar leg spreading mechanics from Truck
+- [[Submissions/Banana Split]] - Related submission - similar leg spreading mechanics from Truck
 
-- [[Electric Chair Transition]] - Related 10th Planet technique sharing leg entanglement principles
+- [[Transitions/Electric Chair Transition]] - Related 10th Planet technique sharing leg entanglement principles
 
-- [[Crucifix from Turtle]] - Alternative turtle top attack when Truck entry is unavailable
+- [[Transitions/Crucifix from Turtle]] - Alternative turtle top attack when Truck entry is unavailable
 
 
 </section>

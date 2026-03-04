@@ -21,7 +21,7 @@ The sweep operates on a push-pull principle that exploits the top player's weigh
 
 Strategic integration of this sweep within the knee shield game creates a critical dilemma for the top player. If they pressure forward aggressively to collapse the shield, they become vulnerable to the sweep. If they sit back to maintain base, they cannot advance their pass. This offensive-defensive dynamic makes the sweep threat essential for maintaining the overall effectiveness of knee shield half guard, forcing the top player into a reactive decision loop that benefits the bottom player regardless of outcome.
 
-**From Position**: [[Knee Shield Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Strategic integration of this sweep within the knee shield game creates a critic
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 45% |
-| Failure | [[Knee Shield Half Guard]] | 35% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Mount]] | 45% |
+| Failure | [[Positions/Half Guard/Knee Shield Half Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Sweep from Knee Shield serves as the primary offensive threat within the kne
 ## Related Techniques
 
 
-- [[Knee Shield Half Guard]] - Starting position—sweep is executed from knee shield bottom
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Starting position—sweep is executed from knee shield bottom
 
-- [[Mount]] - Primary success outcome when sweep completes with full follow-through
+- [[Positions/Mount]] - Primary success outcome when sweep completes with full follow-through
 
-- [[Side Control]] - Counter outcome—opponent may pass to side control during failed sweep attempt
+- [[Positions/Side Control]] - Counter outcome—opponent may pass to side control during failed sweep attempt
 
-- [[Half Guard]] - Parent guard system containing the knee shield variation
+- [[Positions/Half Guard]] - Parent guard system containing the knee shield variation
 
-- [[Dogfight Position]] - Common scramble position when sweep stalls and both players come to knees
+- [[Positions/Dogfight Position]] - Common scramble position when sweep stalls and both players come to knees
 
-- [[Deep Half Guard]] - Alternative transition when sweep attempt stalls and bottom player dives under
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition when sweep attempt stalls and bottom player dives under
 
-- [[Flattened Half Guard]] - Degraded position risked if knee shield collapses during failed sweep attempt
+- [[Positions/Half Guard/Flattened Half Guard]] - Degraded position risked if knee shield collapses during failed sweep attempt
 
-- [[Old School Sweep]] - Complementary sweep from similar half guard position using different mechanics
+- [[Transitions/Old School Sweep]] - Complementary sweep from similar half guard position using different mechanics
 
-- [[Knee Slice from Knee Shield]] - Primary passing threat that the sweep helps discourage
+- [[Transitions/Knee Slice from Knee Shield]] - Primary passing threat that the sweep helps discourage
 
-- [[Smash from Knee Shield]] - Opponent's pressure counter that can punish poorly timed sweep attempts
+- [[Transitions/Smash from Knee Shield]] - Opponent's pressure counter that can punish poorly timed sweep attempts
 
 
 </section>

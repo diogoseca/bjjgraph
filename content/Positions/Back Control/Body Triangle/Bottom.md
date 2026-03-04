@@ -208,27 +208,27 @@ From this bottom position, you maintain constant chest-to-back pressure while yo
 
 ## Available Escapes
 
-### [[Rear Naked Choke]] (42% of attempts)
+### [[Transitions/Rear Naked Choke]] (42% of attempts)
 
-### [[Armbar from Back Transition]] (7% of attempts)
+### [[Transitions/Armbar from Back Transition]] (7% of attempts)
 
-### [[Bow and Arrow Choke]] (11% of attempts)
+### [[Transitions/Bow and Arrow Choke]] (11% of attempts)
 
-### [[Short Choke]] (8% of attempts)
+### [[Transitions/Short Choke]] (8% of attempts)
 
-### [[Back Control to Crucifix]] (6% of attempts)
+### [[Transitions/Back Control to Crucifix]] (6% of attempts)
 
-### [[Back Control Maintenance]] (13% of attempts)
+### [[Transitions/Back Control Maintenance]] (13% of attempts)
 
-### [[Kimura from Back]] (4% of attempts)
+### [[Transitions/Kimura from Back]] (4% of attempts)
 
-### [[Roll to Truck]] (3% of attempts)
+### [[Transitions/Roll to Truck]] (3% of attempts)
 
-### [[Cross Collar Choke]] (4% of attempts)
+### [[Transitions/Cross Collar Choke]] (4% of attempts)
 
-### [[Body Triangle Escape to Half Guard]] (1% of attempts)
+### [[Transitions/Body Triangle Escape to Half Guard]] (1% of attempts)
 
-### [[Body Triangle Escape to Side Control]] (1% of attempts)
+### [[Transitions/Body Triangle Escape to Side Control]] (1% of attempts)
 
 
 
@@ -239,23 +239,23 @@ From this bottom position, you maintain constant chest-to-back pressure while yo
 ## Decision Making from This Position
 
 **If opponent is defensive with hands protecting neck and not attempting to clear triangle:**
-- Execute **[[Increase squeeze pressure gradually]]** → [[Body Triangle]] (Probability: 70%)
-- Execute **[[Work for collar grips systematically]]** → [[Game Over]] (Probability: 60%)
+- Execute **[[Increase squeeze pressure gradually]]** → [[Positions/Back Control/Body Triangle]] (Probability: 70%)
+- Execute **[[Work for collar grips systematically]]** → [[Positions/Game Over]] (Probability: 60%)
 
 
 **If opponent reaches back to attack triangle lock or grab your legs:**
-- Execute **[[Armbar from Back Transition]]** → [[Armbar Control]] (Probability: 65%)
-- Execute **[[Back Control to Crucifix]]** → [[Crucifix]] (Probability: 55%)
+- Execute **[[Transitions/Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 65%)
+- Execute **[[Transitions/Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 55%)
 
 
 **If opponent attempts to turn into you to escape:**
-- Execute **[[Bow and Arrow Choke]]** → [[Game Over]] (Probability: 70%)
-- Execute **[[Roll to Truck]]** → [[Truck]] (Probability: 50%)
+- Execute **[[Transitions/Bow and Arrow Choke]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Transitions/Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
 
 
 **If opponent turtles or rolls forward trying to clear position:**
-- Execute **[[Maintain triangle and take mount]]** → [[Mount]] (Probability: 55%)
-- Execute **[[Release and reset back control]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Maintain triangle and take mount]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Release and reset back control]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 
@@ -389,14 +389,14 @@ In body triangle position, practice applying different levels of squeeze pressur
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Parent position - standard back control without triangle lock
-- **[[Rear Naked Choke]]** - Primary submission transition from this position
-- **[[Armbar from Back Transition]]** - High-percentage submission when opponent defends neck
-- **[[Bow and Arrow Choke]]** - Gi-specific submission utilizing triangle control
-- **[[Crucifix]]** - Transition target when opponent reaches back
-- **[[Truck]]** - Advanced transition option from body triangle
-- **[[Body Triangle Lock]]** - Transition to establish this position from standard hooks
-- **[[Kimura from Back]]** - Alternative submission when opponent defends collar and neck
+- **[[Positions/Back Control]]** - Parent position - standard back control without triangle lock
+- **[[Transitions/Rear Naked Choke]]** - Primary submission transition from this position
+- **[[Transitions/Armbar from Back Transition]]** - High-percentage submission when opponent defends neck
+- **[[Transitions/Bow and Arrow Choke]]** - Gi-specific submission utilizing triangle control
+- **[[Positions/Crucifix]]** - Transition target when opponent reaches back
+- **[[Positions/Twister Control/Truck]]** - Advanced transition option from body triangle
+- **[[Transitions/Body Triangle Lock]]** - Transition to establish this position from standard hooks
+- **[[Transitions/Kimura from Back]]** - Alternative submission when opponent defends collar and neck
 
 
 </section>

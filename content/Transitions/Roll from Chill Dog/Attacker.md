@@ -180,7 +180,7 @@ description: "Learn to execute the Roll from Chill Dog escape. Step-by-step guid
 
 The attacker in this context is the bottom player executing the forward roll escape from the Chill Dog defensive turtle. Your objective is to convert your compact defensive posture into rotational momentum, rolling forward and diagonally to create distance from the top player and recover to open guard. Success depends entirely on timing and commitment - you must identify the precise moment when the opponent's weight shifts or grips loosen, then execute the roll explosively without hesitation. The compact shape of Chill Dog is your greatest asset here, as the rounded back provides natural curvature for smooth rolling mechanics. The transition from defensive ball to attacking guard must happen in one continuous motion - any pause between landing and establishing guard frames allows the opponent to close the distance and nullify your escape.
 
-**From Position**: [[Chill Dog]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Chill Dog]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ The attacker in this context is the bottom player executing the forward roll esc
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Failure | [[Chill Dog]] | 30% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Failure | [[Positions/Rubber Guard/Chill Dog]] | 30% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ The attacker in this context is the bottom player executing the forward roll esc
 
 ## Opponent Counters
 
-- **Sprawl and flatten during roll initiation to pin bottom player to mat** (Effectiveness: High) - Your Response: If caught before the roll builds momentum, immediately redirect to a Granby roll to the side rather than continuing forward. The opponent's forward sprawl creates lateral space you can exploit with the directional change. → Leads to [[Chill Dog]]
-- **Follow the roll with chest-to-back contact and secure back control hooks upon landing** (Effectiveness: Medium) - Your Response: As you feel the opponent matching your roll and staying connected, immediately extend your legs toward their hips upon landing to create separation before they can set hooks. Post hands and scoot hips away explosively to establish distance for guard frames. → Leads to [[Back Control]]
-- **Cross-face and drive weight sideways to prevent the shoulder tuck needed for rotation** (Effectiveness: High) - Your Response: If the cross-face is applied before you initiate, abort the roll attempt and return to defensive Chill Dog posture. Wait for the opponent to release the cross-face or switch to a different escape like the technical stand-up or sit-through. → Leads to [[Chill Dog]]
-- **Redirect to front headlock by circling toward the head during the forward motion** (Effectiveness: Medium) - Your Response: If you feel the opponent circling toward your head as you begin the roll, change direction and sit through to butterfly guard instead. Their forward commitment to the headlock position opens space behind them that a sit-through can exploit. → Leads to [[Chill Dog]]
+- **Sprawl and flatten during roll initiation to pin bottom player to mat** (Effectiveness: High) - Your Response: If caught before the roll builds momentum, immediately redirect to a Granby roll to the side rather than continuing forward. The opponent's forward sprawl creates lateral space you can exploit with the directional change. → Leads to [[Positions/Rubber Guard/Chill Dog]]
+- **Follow the roll with chest-to-back contact and secure back control hooks upon landing** (Effectiveness: Medium) - Your Response: As you feel the opponent matching your roll and staying connected, immediately extend your legs toward their hips upon landing to create separation before they can set hooks. Post hands and scoot hips away explosively to establish distance for guard frames. → Leads to [[Positions/Back Control]]
+- **Cross-face and drive weight sideways to prevent the shoulder tuck needed for rotation** (Effectiveness: High) - Your Response: If the cross-face is applied before you initiate, abort the roll attempt and return to defensive Chill Dog posture. Wait for the opponent to release the cross-face or switch to a different escape like the technical stand-up or sit-through. → Leads to [[Positions/Rubber Guard/Chill Dog]]
+- **Redirect to front headlock by circling toward the head during the forward motion** (Effectiveness: Medium) - Your Response: If you feel the opponent circling toward your head as you begin the roll, change direction and sit through to butterfly guard instead. Their forward commitment to the headlock position opens space behind them that a sit-through can exploit. → Leads to [[Positions/Rubber Guard/Chill Dog]]
 
 
 </section>

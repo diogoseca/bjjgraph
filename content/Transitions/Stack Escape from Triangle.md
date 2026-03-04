@@ -21,7 +21,7 @@ Strategically, the stack escape serves as both a primary escape method and a for
 
 The biomechanics of the stack work by changing the force vector of the triangle from horizontal compression to vertical loading. As the opponent's body folds, their legs transition from squeezing laterally across the neck to pressing vertically, which dramatically reduces arterial compression efficiency. The top player then uses this window of reduced choking pressure to systematically clear the triangle lock and transition to a passing position, most commonly landing in half guard top where the escape momentum can be converted into a guard pass.
 
-**From Position**: [[Triangle Control]] (Top)
+**From Position**: [[Positions/Triangle Control]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ The biomechanics of the stack work by changing the force vector of the triangle 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Triangle Control]] | 30% |
-| Counter | [[Omoplata Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Triangle Control]] | 30% |
+| Counter | [[Positions/Omoplata Control]] | 20% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Stack Escape from Triangle occupies a critical role in the defensive guard e
 ## Related Techniques
 
 
-- [[Triangle Control]] - Source position from which the stack escape is initiated by the caught top player
+- [[Positions/Triangle Control]] - Source position from which the stack escape is initiated by the caught top player
 
-- [[Half Guard]] - Primary target position after successful stack escape and triangle clearance
+- [[Positions/Half Guard]] - Primary target position after successful stack escape and triangle clearance
 
-- [[Omoplata Control]] - Counter position opponent may transition to when stack compromises triangle angle
+- [[Positions/Omoplata Control]] - Counter position opponent may transition to when stack compromises triangle angle
 
-- [[Complete Triangle Escape from Top]] - Alternative triangle escape using lateral head extraction rather than stacking mechanics
+- [[Transitions/Complete Triangle Escape from Top]] - Alternative triangle escape using lateral head extraction rather than stacking mechanics
 
-- [[Complete Triangle Escape]] - Related escape technique addressing triangle defense from a different mechanical approach
+- [[Transitions/Complete Triangle Escape]] - Related escape technique addressing triangle defense from a different mechanical approach
 
-- [[Posture Up from Triangle]] - Prerequisite technique for establishing the posture needed to initiate the stack sequence
+- [[Transitions/Posture Up from Triangle]] - Prerequisite technique for establishing the posture needed to initiate the stack sequence
 
-- [[Posture in Triangle]] - Related defensive concept for managing posture inside triangle control before escaping
+- [[Transitions/Posture in Triangle]] - Related defensive concept for managing posture inside triangle control before escaping
 
-- [[Triangle Choke]] - The primary submission threat being escaped through the stacking mechanism
+- [[Transitions/Triangle Choke]] - The primary submission threat being escaped through the stacking mechanism
 
-- [[Closed Guard]] - Alternative escape destination if triangle is cleared without completing a full pass
+- [[Positions/Closed Guard]] - Alternative escape destination if triangle is cleared without completing a full pass
 
-- [[Cartwheel Escape from Omoplata]] - Follow-up escape technique if opponent successfully counters stack with omoplata transition
+- [[Transitions/Cartwheel Escape from Omoplata]] - Follow-up escape technique if opponent successfully counters stack with omoplata transition
 
 
 </section>

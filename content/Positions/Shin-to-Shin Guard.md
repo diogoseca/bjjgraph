@@ -89,29 +89,29 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 ### Available Transitions
 
 
-- **[[Single Leg X Entry]]** (24% of attempts)
+- **[[Transitions/Single Leg X Entry]]** (24% of attempts)
 
-- **[[X-Guard Sweep]]** (8% of attempts)
+- **[[Transitions/X-Guard Sweep]]** (8% of attempts)
 
-- **[[Butterfly Sweep]]** (9% of attempts)
+- **[[Transitions/Butterfly Sweep]]** (9% of attempts)
 
-- **[[Outside Ashi Entry]]** (8% of attempts)
+- **[[Transitions/Outside Ashi Entry]]** (8% of attempts)
 
-- **[[De La Riva Sweep]]** (8% of attempts)
+- **[[Transitions/De La Riva Sweep]]** (8% of attempts)
 
-- **[[Technical Stand Up to Single Leg]]** (8% of attempts)
+- **[[Transitions/Technical Stand Up to Single Leg]]** (8% of attempts)
 
-- **[[Omoplata Sweep]]** (6% of attempts)
+- **[[Transitions/Omoplata Sweep]]** (6% of attempts)
 
-- **[[Shin to Shin Pull]]** (8% of attempts)
+- **[[Transitions/Shin to Shin Pull]]** (8% of attempts)
 
-- **[[Hook Sweep]]** (8% of attempts)
+- **[[Transitions/Hook Sweep]]** (8% of attempts)
 
-- **[[Tripod Sweep]]** (8% of attempts)
+- **[[Transitions/Tripod Sweep]]** (8% of attempts)
 
-- **[[Shin-to-Shin Sweep]]** (3% of attempts)
+- **[[Transitions/Shin-to-Shin Sweep]]** (3% of attempts)
 
-- **[[Shin-to-Shin to Single Leg X]]** (2% of attempts)
+- **[[Transitions/Shin-to-Shin to Single Leg X]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -176,25 +176,25 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (11% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (11% of attempts)
 
-- **[[Long Step Pass]]** (22% of attempts)
+- **[[Transitions/Long Step Pass]]** (22% of attempts)
 
-- **[[Leg Drag Pass]]** (10% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (10% of attempts)
 
-- **[[Stack Pass]]** (9% of attempts)
+- **[[Transitions/Stack Pass]]** (9% of attempts)
 
-- **[[Pressure Pass]]** (11% of attempts)
+- **[[Transitions/Pressure Pass]]** (11% of attempts)
 
-- **[[X Pass]]** (10% of attempts)
+- **[[Transitions/X Pass]]** (10% of attempts)
 
-- **[[Knee Through]]** (10% of attempts)
+- **[[Transitions/Knee Through]]** (10% of attempts)
 
-- **[[Smash Pass]]** (11% of attempts)
+- **[[Transitions/Smash Pass]]** (11% of attempts)
 
-- **[[Pass Shin-to-Shin Guard]]** (4% of attempts)
+- **[[Transitions/Pass Shin-to-Shin Guard]]** (4% of attempts)
 
-- **[[Pressure from Shin-to-Shin]]** (2% of attempts)
+- **[[Transitions/Pressure from Shin-to-Shin]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -237,21 +237,21 @@ Shin-to-Shin Guard represents a sophisticated intersection between traditional o
 ## Related Positions
 
 
-- **[[Single Leg X-Guard]]** - Primary transition target when opponent attempts to clear shin connection or step forward
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Primary transition target when opponent attempts to clear shin connection or step forward
 
-- **[[X-Guard]]** - Natural evolution when opponent posts weight on the shin-to-shin leg, allowing full X-guard entry
+- **[[Positions/X-Guard]]** - Natural evolution when opponent posts weight on the shin-to-shin leg, allowing full X-guard entry
 
-- **[[De La Riva Guard]]** - Complementary open guard sharing distance management and sweeping principles
+- **[[Positions/De La Riva Guard]]** - Complementary open guard sharing distance management and sweeping principles
 
-- **[[Butterfly Guard]]** - Close-range alternative when opponent drops weight and pressure forward
+- **[[Positions/Butterfly Guard]]** - Close-range alternative when opponent drops weight and pressure forward
 
-- **[[Outside Ashi-Garami]]** - Leg entanglement entry when opponent attempts to step over connection
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Leg entanglement entry when opponent attempts to step over connection
 
-- **[[Seated Guard]]** - Foundational seated position from which shin-to-shin is typically established
+- **[[Positions/Seated Guard]]** - Foundational seated position from which shin-to-shin is typically established
 
-- **[[K-Guard]]** - Related position utilizing similar shin control mechanics with different angle
+- **[[Positions/K-Guard]]** - Related position utilizing similar shin control mechanics with different angle
 
-- **[[Open Guard]]** - Broader category of distance-based guards sharing core principles
+- **[[Positions/Open Guard]]** - Broader category of distance-based guards sharing core principles
 
 
 </section>

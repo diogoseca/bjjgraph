@@ -21,7 +21,7 @@ Strategically, the crossface represents the top player's most direct answer to t
 
 The technique is particularly effective because it rewards proper angle, timing, and weight distribution rather than raw strength. Advanced practitioners time the crossface to coincide with the opponent's forward drive, redirecting their momentum downward. The crossface can be applied with varying intensity—from a controlling pressure that gradually erodes posture to an aggressive flattening tool that forces immediate positional regression. This adaptability makes it effective across body types and competitive contexts, forming a cornerstone of half guard top strategy.
 
-**From Position**: [[Dogfight Position]] (Top)
+**From Position**: [[Positions/Dogfight Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique is particularly effective because it rewards proper angle, timing,
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Dogfight Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Dogfight Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Crossface from Dogfight serves as the primary top player response when the b
 ## Related Techniques
 
 
-- [[Dogfight Position]] - Starting position where this technique is initiated from the top player perspective
+- [[Positions/Dogfight Position]] - Starting position where this technique is initiated from the top player perspective
 
-- [[Side Control]] - Primary success outcome after flattening and completing the pass
+- [[Positions/Side Control]] - Primary success outcome after flattening and completing the pass
 
-- [[Half Guard]] - Parent position system and counter outcome if opponent reverses
+- [[Positions/Half Guard]] - Parent position system and counter outcome if opponent reverses
 
-- [[Flattened Half Guard]] - Intermediate position during the flattening process before completing the full pass
+- [[Positions/Half Guard/Flattened Half Guard]] - Intermediate position during the flattening process before completing the full pass
 
-- [[Back Control]] - Risk position if crossface fails and opponent circles behind for back take
+- [[Positions/Back Control]] - Risk position if crossface fails and opponent circles behind for back take
 
-- [[Knee Shield Half Guard]] - Guard recovery target the defender may establish during failed crossface attempts
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Guard recovery target the defender may establish during failed crossface attempts
 
-- [[Smash Pass]] - Related pressure-based passing technique using similar weight distribution principles
+- [[Transitions/Smash Pass]] - Related pressure-based passing technique using similar weight distribution principles
 
-- [[Knee Slice Pass]] - Complementary passing technique that chains well after partial crossface flattening
+- [[Transitions/Knee Slice Pass]] - Complementary passing technique that chains well after partial crossface flattening
 
-- [[Americana]] - High-percentage submission available from resulting side control position
+- [[Transitions/Americana]] - High-percentage submission available from resulting side control position
 
-- [[Arm Triangle]] - Submission that develops naturally from sustained crossface pressure patterns
+- [[Transitions/Arm Triangle]] - Submission that develops naturally from sustained crossface pressure patterns
 
 
 </section>

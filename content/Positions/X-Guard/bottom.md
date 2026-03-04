@@ -206,25 +206,25 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 ## Available Escapes
 
-### [[X-Guard Sweep]] (36% of attempts)
+### [[Transitions/X-Guard Sweep]] (36% of attempts)
 
-### [[Single Leg X Entry]] (16% of attempts)
+### [[Transitions/Single Leg X Entry]] (16% of attempts)
 
-### [[X-Guard to Ashi Garami]] (13% of attempts)
+### [[Transitions/X-Guard to Ashi Garami]] (13% of attempts)
 
-### [[Technical Stand Up to Single Leg]] (7% of attempts)
+### [[Transitions/Technical Stand Up to Single Leg]] (7% of attempts)
 
-### [[Deep Half Entry]] (6% of attempts)
+### [[Transitions/Deep Half Entry]] (6% of attempts)
 
-### [[Butterfly Guard to X-Guard]] (6% of attempts)
+### [[Transitions/Butterfly Guard to X-Guard]] (6% of attempts)
 
-### [[Tomahawk Sweep]] (11% of attempts)
+### [[Transitions/Tomahawk Sweep]] (11% of attempts)
 
-### [[X-Guard Technical Stand Up]] (2% of attempts)
+### [[Transitions/X-Guard Technical Stand Up]] (2% of attempts)
 
-### [[X-Guard to Single Leg X]] (1% of attempts)
+### [[Transitions/X-Guard to Single Leg X]] (1% of attempts)
 
-### [[Ankle Lock from X-Guard]] (2% of attempts)
+### [[Submissions/Ankle Lock from X-Guard]] (2% of attempts)
 
 
 
@@ -235,23 +235,23 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 ## Decision Making from This Position
 
 **If opponent maintains strong upright posture with both feet planted and good base:**
-- Execute **[[X-Guard Sweep]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Technical Stand Up to Single Leg]]** → [[Clinch]] (Probability: 55%)
+- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Technical Stand Up to Single Leg]]** → [[Positions/Clinch]] (Probability: 55%)
 
 
 **If opponent attempts to backstep or circle away from the X-Guard configuration:**
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 70%)
-- Execute **[[X-Guard to Ashi Garami]]** → [[Ashi Garami]] (Probability: 60%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 70%)
+- Execute **[[Transitions/X-Guard to Ashi Garami]]** → [[Positions/Ashi Garami]] (Probability: 60%)
 
 
 **If opponent sits back to break X-Guard or attempts to smash forward with knee pressure:**
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 65%)
-- Execute **[[Butterfly Guard to X-Guard]]** → [[Butterfly Guard]] (Probability: 60%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Butterfly Guard to X-Guard]]** → [[Positions/Butterfly Guard]] (Probability: 60%)
 
 
 **If opponent attempts to step over the outside leg while trapped leg remains controlled:**
-- Execute **[[X-Guard to Ashi Garami]]** → [[Ashi Garami]] (Probability: 75%)
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 65%)
+- Execute **[[Transitions/X-Guard to Ashi Garami]]** → [[Positions/Ashi Garami]] (Probability: 75%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
 
 
 
@@ -353,15 +353,15 @@ Practice flowing from X-Guard to Single Leg X to Ashi Garami and back based on p
 
 ## Related Positions and Techniques
 
-- **[[Single Leg X-Guard]]** - Primary variation entered naturally when opponent begins to extract their trapped leg
-- **[[Reverse X-Guard]]** - Alternative variation entered when opponent's weight shifts to the opposite side
-- **[[Butterfly Guard]]** - Primary entry position commonly used to set up X-Guard entries from seated guard
-- **[[De La Riva Guard]]** - Related open guard sharing similar leg hooking mechanics and entry pathways
-- **[[Deep Half Guard]]** - Transition target and common fallback when forward pressure collapses X-Guard structure
-- **[[Ashi Garami]]** - Leg entanglement destination for heel hook and kneebar attacks from X-Guard transitions
-- **[[X-Guard Sweep]]** - Primary offensive technique and main sweeping option from this position
-- **[[Leg Entanglement]]** - Related positional concept covering leg control mechanics used in guard systems
-- **[[Single Leg X Entry]]** - Key transition technique for flowing from X-Guard to Single Leg X position
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Primary variation entered naturally when opponent begins to extract their trapped leg
+- **[[Positions/X-Guard/Reverse X-Guard]]** - Alternative variation entered when opponent's weight shifts to the opposite side
+- **[[Positions/Butterfly Guard]]** - Primary entry position commonly used to set up X-Guard entries from seated guard
+- **[[Positions/De La Riva Guard]]** - Related open guard sharing similar leg hooking mechanics and entry pathways
+- **[[Positions/Half Guard/Deep Half Guard]]** - Transition target and common fallback when forward pressure collapses X-Guard structure
+- **[[Positions/Ashi Garami]]** - Leg entanglement destination for heel hook and kneebar attacks from X-Guard transitions
+- **[[Transitions/X-Guard Sweep]]** - Primary offensive technique and main sweeping option from this position
+- **[[Positions/Leg Entanglement]]** - Related positional concept covering leg control mechanics used in guard systems
+- **[[Transitions/Single Leg X Entry]]** - Key transition technique for flowing from X-Guard to Single Leg X position
 
 
 </section>

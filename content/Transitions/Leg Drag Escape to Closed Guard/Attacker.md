@@ -180,7 +180,7 @@ Strategically, recovering closed guard from leg drag serves multiple purposes be
 
 The timing window for this escape is narrow but predictable. The optimal moment occurs when your opponent adjusts their grip to transition from leg drag to side control, or when they shift weight to address the back take. These transitional moments create brief lapses in pressure where frame establishment and hip movement become viable. Attempting the escape against fully settled control rarely succeeds and wastes valuable energy.
 
-**From Position**: [[Leg Drag Control]] (Bottom)
+**From Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
 
@@ -232,10 +232,10 @@ The timing window for this escape is narrow but predictable. The optimal moment 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Success | [[Open Guard]] | 10% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Side Control]] | 10% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -244,10 +244,10 @@ The timing window for this escape is narrow but predictable. The optimal moment 
 
 ## Opponent Counters
 
-- **Opponent drives shoulder pressure through your frame as you attempt hip escape** (Effectiveness: High) - Your Response: Lower your elbow and use skeletal structure rather than muscle; time your hip escape to their weight adjustment rather than fighting static pressure → Leads to [[Leg Drag Control]]
-- **Opponent transitions to back take as you begin leg extraction** (Effectiveness: High) - Your Response: Abandon closed guard recovery and fight for the underhook; turn toward them rather than continuing to turn away; accept half guard if necessary → Leads to [[Side Control]]
-- **Opponent re-secures leg control during your extraction attempt** (Effectiveness: Medium) - Your Response: Reset frames and wait for next opportunity rather than forcing extraction; maintain defensive posture and look for different escape pathway → Leads to [[Leg Drag Control]]
-- **Opponent sprawls weight down to flatten your hip escape** (Effectiveness: Medium) - Your Response: Use the sprawl momentum to technical standup or transition to turtle; their forward commitment opens space behind them → Leads to [[Leg Drag Control]]
+- **Opponent drives shoulder pressure through your frame as you attempt hip escape** (Effectiveness: High) - Your Response: Lower your elbow and use skeletal structure rather than muscle; time your hip escape to their weight adjustment rather than fighting static pressure → Leads to [[Positions/Leg Drag Control]]
+- **Opponent transitions to back take as you begin leg extraction** (Effectiveness: High) - Your Response: Abandon closed guard recovery and fight for the underhook; turn toward them rather than continuing to turn away; accept half guard if necessary → Leads to [[Positions/Side Control]]
+- **Opponent re-secures leg control during your extraction attempt** (Effectiveness: Medium) - Your Response: Reset frames and wait for next opportunity rather than forcing extraction; maintain defensive posture and look for different escape pathway → Leads to [[Positions/Leg Drag Control]]
+- **Opponent sprawls weight down to flatten your hip escape** (Effectiveness: Medium) - Your Response: Use the sprawl momentum to technical standup or transition to turtle; their forward commitment opens space behind them → Leads to [[Positions/Leg Drag Control]]
 
 
 </section>

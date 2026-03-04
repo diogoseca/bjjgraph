@@ -93,19 +93,19 @@ Understanding double unders from both perspectives is essential for developing c
 ### Available Transitions
 
 
-- **[[Deep Half Entry]]** (43% of attempts)
+- **[[Transitions/Deep Half Entry]]** (43% of attempts)
 
-- **[[Granby Roll to Guard]]** (15% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (15% of attempts)
 
-- **[[Butterfly Hook Recovery]]** (12% of attempts)
+- **[[Transitions/Butterfly Hook Recovery]]** (12% of attempts)
 
-- **[[Hip Escape to Guard]]** (12% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (12% of attempts)
 
-- **[[Roll to Turtle]]** (10% of attempts)
+- **[[Transitions/Roll to Turtle]]** (10% of attempts)
 
-- **[[Guard Recovery from Double Unders]]** (5% of attempts)
+- **[[Transitions/Guard Recovery from Double Unders]]** (5% of attempts)
 
-- **[[Sweep from Double Unders]]** (3% of attempts)
+- **[[Transitions/Sweep from Double Unders]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -170,25 +170,25 @@ Understanding double unders from both perspectives is essential for developing c
 ### Available Transitions
 
 
-- **[[Double Under Pass]]** (33% of attempts)
+- **[[Transitions/Double Under Pass]]** (33% of attempts)
 
-- **[[Stack Pass]]** (14% of attempts)
+- **[[Transitions/Stack Pass]]** (14% of attempts)
 
-- **[[Leg Weave Pass]]** (10% of attempts)
+- **[[Transitions/Leg Weave Pass]]** (10% of attempts)
 
-- **[[Back Take]]** (8% of attempts)
+- **[[Transitions/Back Take]]** (8% of attempts)
 
-- **[[Over-Under Pass]]** (6% of attempts)
+- **[[Transitions/Over-Under Pass]]** (6% of attempts)
 
-- **[[Body Lock Pass]]** (10% of attempts)
+- **[[Transitions/Body Lock Pass]]** (10% of attempts)
 
-- **[[Knee Slice Pass]]** (8% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (8% of attempts)
 
-- **[[Smash Pass]]** (6% of attempts)
+- **[[Transitions/Smash Pass]]** (6% of attempts)
 
-- **[[Stack Pass from Double Unders]]** (3% of attempts)
+- **[[Transitions/Stack Pass from Double Unders]]** (3% of attempts)
 
-- **[[Toss Pass from Double Unders]]** (2% of attempts)
+- **[[Transitions/Toss Pass from Double Unders]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -227,25 +227,25 @@ Understanding double unders from both perspectives is essential for developing c
 ## Related Positions
 
 
-- **[[Half Guard]]** - Common preceding position where double underhooks are established during passing sequences
+- **[[Positions/Half Guard]]** - Common preceding position where double underhooks are established during passing sequences
 
-- **[[Butterfly Guard]]** - Vulnerable guard position that double unders effectively neutralizes from top perspective
+- **[[Positions/Butterfly Guard]]** - Vulnerable guard position that double unders effectively neutralizes from top perspective
 
-- **[[Deep Half Guard]]** - Primary escape target for bottom player using opponent's forward pressure as entry momentum
+- **[[Positions/Half Guard/Deep Half Guard]]** - Primary escape target for bottom player using opponent's forward pressure as entry momentum
 
-- **[[Headquarters Position]]** - Related passing position with similar pressure mechanics but different arm configuration
+- **[[Positions/Headquarters Position]]** - Related passing position with similar pressure mechanics but different arm configuration
 
-- **[[Side Control]]** - Most common resolution position when top player successfully completes pass
+- **[[Positions/Side Control]]** - Most common resolution position when top player successfully completes pass
 
-- **[[Turtle]]** - Alternative escape position bottom player may accept via granby roll when flattening is imminent
+- **[[Positions/Turtle]]** - Alternative escape position bottom player may accept via granby roll when flattening is imminent
 
-- **[[Leg Weave]]** - Related pressure passing position often reached when opponent defends or turns from double unders
+- **[[Positions/Leg Weave]]** - Related pressure passing position often reached when opponent defends or turns from double unders
 
-- **[[Combat Base]]** - Top player's base structure must be maintained while establishing and advancing double unders control
+- **[[Positions/Combat Base]]** - Top player's base structure must be maintained while establishing and advancing double unders control
 
-- **[[Open Guard]]** - Starting guard position that double unders effectively attacks and neutralizes
+- **[[Positions/Open Guard]]** - Starting guard position that double unders effectively attacks and neutralizes
 
-- **[[Knee on Belly]]** - Alternative transitional position top player can achieve when opponent creates space during pass
+- **[[Positions/Knee on Belly]]** - Alternative transitional position top player can achieve when opponent creates space during pass
 
 
 </section>

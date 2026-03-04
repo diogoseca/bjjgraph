@@ -186,7 +186,7 @@ description: "Master attacking the Consolidation to Knee on Belly transition. Co
 
 Executing the Consolidation to Knee on Belly transition requires precise coordination between grip transfers, hip elevation, and knee placement. The attacker must time the transition to coincide with reduced defensive activity, using the momentum from consolidated pressure to replace chest weight with knee pressure in a single fluid motion. Success depends on maintaining at least one strong control point throughout the transition while preventing the bottom player from exploiting the brief window of reduced pressure. The transition rewards practitioners who invest in consolidation quality before attempting advancement, as rushing from an unconsolidated position dramatically increases failure rates and counter opportunities.
 
-**From Position**: [[Side Control Consolidation]] (Top)
+**From Position**: [[Positions/Side Control/Side Control Consolidation]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Consolidation to Knee on Belly transition requires precise coordin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Knee on Belly]] | 55% |
-| Failure | [[Side Control Consolidation]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Knee on Belly]] | 55% |
+| Failure | [[Positions/Side Control/Side Control Consolidation]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Consolidation to Knee on Belly transition requires precise coordin
 
 ## Opponent Counters
 
-- **Opponent frames on knee with both hands and pushes to displace it from their torso** (Effectiveness: High) - Your Response: Attack the extended arms immediately with armbar setup or kimura grip. Their straightened arms during the push create the exact arm isolation needed for submission entries. Alternatively, collapse the frames by driving the knee deeper while controlling one wrist. → Leads to [[Side Control Consolidation]]
-- **Opponent turns to the side and shrimps hips away during or immediately after knee placement** (Effectiveness: Medium) - Your Response: Follow their hip movement by adjusting knee position and maintaining collar grip as an anchor. If they create significant distance, transition to mount by stepping over their turning body. Use their rotation momentum to advance rather than fighting against it. → Leads to [[Half Guard]]
-- **Opponent bridges explosively during the transition moment before the knee is fully planted** (Effectiveness: High) - Your Response: Maintain the collar grip as your primary anchor and ride the bridge rather than fighting it. As the opponent descends from the bridge apex, immediately replant the knee with full pressure. If the bridge is too powerful, abandon the knee insertion entirely and re-consolidate side control with heavy chest pressure. → Leads to [[Half Guard]]
-- **Opponent inserts near-side elbow frame between your bodies during the brief chest lift** (Effectiveness: Medium) - Your Response: Drive the knee through or over the frame using concentrated downward pressure, or use the framing arm as a target for kimura or americana attacks. If the frame is too strong, settle back to side control and re-collapse the frame before attempting the transition again. → Leads to [[Side Control Consolidation]]
+- **Opponent frames on knee with both hands and pushes to displace it from their torso** (Effectiveness: High) - Your Response: Attack the extended arms immediately with armbar setup or kimura grip. Their straightened arms during the push create the exact arm isolation needed for submission entries. Alternatively, collapse the frames by driving the knee deeper while controlling one wrist. → Leads to [[Positions/Side Control/Side Control Consolidation]]
+- **Opponent turns to the side and shrimps hips away during or immediately after knee placement** (Effectiveness: Medium) - Your Response: Follow their hip movement by adjusting knee position and maintaining collar grip as an anchor. If they create significant distance, transition to mount by stepping over their turning body. Use their rotation momentum to advance rather than fighting against it. → Leads to [[Positions/Half Guard]]
+- **Opponent bridges explosively during the transition moment before the knee is fully planted** (Effectiveness: High) - Your Response: Maintain the collar grip as your primary anchor and ride the bridge rather than fighting it. As the opponent descends from the bridge apex, immediately replant the knee with full pressure. If the bridge is too powerful, abandon the knee insertion entirely and re-consolidate side control with heavy chest pressure. → Leads to [[Positions/Half Guard]]
+- **Opponent inserts near-side elbow frame between your bodies during the brief chest lift** (Effectiveness: Medium) - Your Response: Drive the knee through or over the frame using concentrated downward pressure, or use the framing arm as a target for kimura or americana attacks. If the frame is too strong, settle back to side control and re-collapse the frame before attempting the transition again. → Leads to [[Positions/Side Control/Side Control Consolidation]]
 
 
 </section>

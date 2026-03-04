@@ -206,23 +206,23 @@ Facing Modified Mount from the bottom requires understanding how the asymmetric 
 
 ## Available Escapes
 
-### [[Hip Escape to Guard]] (22% of attempts)
+### [[Transitions/Hip Escape to Guard]] (22% of attempts)
 
-### [[Elbow Escape to Guard]] (15% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (15% of attempts)
 
-### [[Frame and Shrimp to Guard]] (13% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (13% of attempts)
 
-### [[Bridge and Roll]] (9% of attempts)
+### [[Transitions/Bridge and Roll]] (9% of attempts)
 
-### [[Upa Escape]] (9% of attempts)
+### [[Transitions/Upa Escape]] (9% of attempts)
 
-### [[Deep Half Entry]] (9% of attempts)
+### [[Transitions/Deep Half Entry]] (9% of attempts)
 
-### [[Lockdown Recovery]] (9% of attempts)
+### [[Transitions/Lockdown Recovery]] (9% of attempts)
 
-### [[Arm Extraction to Turtle]] (9% of attempts)
+### [[Transitions/Arm Extraction to Turtle]] (9% of attempts)
 
-### [[Bridge Escape from Modified Mount]] (5% of attempts)
+### [[Transitions/Bridge Escape from Modified Mount]] (5% of attempts)
 
 
 
@@ -233,23 +233,23 @@ Facing Modified Mount from the bottom requires understanding how the asymmetric 
 ## Decision Making from This Position
 
 **If opponent posts right leg out while left knee crosses body:**
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 65%)
-- Execute **[[Elbow Escape to Guard]]** → [[Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
 **If opponent reaches for armbar grip on near-side arm:**
-- Execute **[[Bridge and Roll]]** → [[Mount]] (Probability: 45%)
-- Execute **[[Armbar Defense]]** → [[Modified Mount]] (Probability: 60%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Mount]] (Probability: 45%)
+- Execute **[[Transitions/Armbar Defense]]** → [[Positions/Mount/Modified Mount]] (Probability: 60%)
 
 
 **If opponent transitions toward S-mount or technical mount:**
-- Execute **[[Arm Extraction to Turtle]]** → [[Turtle]] (Probability: 55%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 40%)
 
 
 **If opponent maintains static position without advancing:**
-- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 60%)
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 70%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 70%)
 
 
 
@@ -383,12 +383,12 @@ Partner transitions from standard mount to Modified Mount repeatedly. Bottom pra
 
 ## Related Positions and Techniques
 
-- **[[Mount]]** - Parent position - understanding standard mount defense informs Modified Mount escape
-- **[[Armbar Defense]]** - Critical skill for defending primary submission threat from Modified Mount
-- **[[Hip Escape to Guard]]** - Fundamental escape technique for exploiting posted leg vulnerability
-- **[[Half Guard]]** - Primary escape target when capturing posted leg
-- **[[Deep Half Guard]]** - Alternative escape target when attacking posted leg
-- **[[Closed Guard]]** - Escape target when creating significant space
+- **[[Positions/Mount]]** - Parent position - understanding standard mount defense informs Modified Mount escape
+- **[[Transitions/Armbar Defense]]** - Critical skill for defending primary submission threat from Modified Mount
+- **[[Transitions/Hip Escape to Guard]]** - Fundamental escape technique for exploiting posted leg vulnerability
+- **[[Positions/Half Guard]]** - Primary escape target when capturing posted leg
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative escape target when attacking posted leg
+- **[[Positions/Closed Guard]]** - Escape target when creating significant space
 
 
 </section>

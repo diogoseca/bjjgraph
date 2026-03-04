@@ -176,7 +176,7 @@ description: "How to execute Peruvian Necktie in BJJ. Attacking perspective with
 
 The Peruvian Necktie is a sophisticated blood choke that attacks the carotid arteries from a front headlock position, typically initiated when the opponent is in turtle or combat base. Unlike traditional guillotine variations, this submission utilizes a unique body positioning where the attacker threads their leg through the opponent's neck and arm configuration, creating a fulcrum that amplifies choking pressure. The technique derives its effectiveness from the combination of arm pressure across the neck and the leverage created by the attacker's bodyweight and leg position. This submission is particularly effective in scrambles and transitional situations where the opponent attempts to build back to their base from turtle. The Peruvian Necktie represents an advanced understanding of front headlock mechanics and requires precise timing and positioning. When executed correctly, it creates an inescapable choking mechanism that forces a rapid tap due to the simultaneous compression of both carotid arteries. The submission has gained prominence in modern no-gi grappling and MMA due to its effectiveness in dynamic situations and its relatively low energy cost compared to maintaining traditional control positions.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 
 
 </section>
@@ -232,8 +232,8 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Turtle]] | 15% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -242,11 +242,11 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 ## Opponent Defenses
 
-- **Opponent attempts to posture up and create space before leg thread** (Effectiveness: High) - Your Response: Maintain heavy shoulder pressure and use your free hand to post on their far shoulder or hip to prevent them from rising. Sprawl your hips back slightly to add weight while keeping the front headlock tight. → Leads to [[Front Headlock]]
-- **Opponent pulls their trapped arm free before you lock the triangle** (Effectiveness: High) - Your Response: If they free the arm, immediately transition to standard guillotine, darce, or anaconda choke variations. You can also use the momentum of their arm pull to transition to their back or sweep them to mount. → Leads to [[Front Headlock]]
-- **Opponent turns into you during the leg threading phase** (Effectiveness: Medium) - Your Response: If they turn in, continue your rotation in the same direction and transition to a mounted triangle or front headlock from guard. The turning motion can actually help you establish the mounted position with the choke partially locked. → Leads to [[Turtle]]
+- **Opponent attempts to posture up and create space before leg thread** (Effectiveness: High) - Your Response: Maintain heavy shoulder pressure and use your free hand to post on their far shoulder or hip to prevent them from rising. Sprawl your hips back slightly to add weight while keeping the front headlock tight. → Leads to [[Positions/Front Headlock]]
+- **Opponent pulls their trapped arm free before you lock the triangle** (Effectiveness: High) - Your Response: If they free the arm, immediately transition to standard guillotine, darce, or anaconda choke variations. You can also use the momentum of their arm pull to transition to their back or sweep them to mount. → Leads to [[Positions/Front Headlock]]
+- **Opponent turns into you during the leg threading phase** (Effectiveness: Medium) - Your Response: If they turn in, continue your rotation in the same direction and transition to a mounted triangle or front headlock from guard. The turning motion can actually help you establish the mounted position with the choke partially locked. → Leads to [[Positions/Turtle]]
 - **Opponent grabs their own trapped arm to prevent the choke tightening** (Effectiveness: Medium) - Your Response: Use your free hand to break their defensive grip by peeling fingers or attacking their wrist. Increase hip rotation and triangle squeeze to overcome the arm defense. Their defensive grip typically breaks under sustained pressure and proper body mechanics. → Leads to [[game-over]]
-- **Opponent tries to roll through or cartwheel over to escape the position** (Effectiveness: Low) - Your Response: Maintain your triangle lock and follow their roll, keeping constant pressure throughout the movement. Often the rolling motion actually tightens the choke. Be prepared to adjust your body position to end up in mount or side control with the choke still locked if they complete the roll. → Leads to [[Turtle]]
+- **Opponent tries to roll through or cartwheel over to escape the position** (Effectiveness: Low) - Your Response: Maintain your triangle lock and follow their roll, keeping constant pressure throughout the movement. Often the rolling motion actually tightens the choke. Be prepared to adjust your body position to end up in mount or side control with the choke still locked if they complete the roll. → Leads to [[Positions/Turtle]]
 
 
 </section>

@@ -178,7 +178,7 @@ The strategic importance of this escape lies in understanding that conventional 
 
 This technique is particularly valuable because gogoplata attacks have become increasingly prevalent in modern competition, especially among flexible guard players utilizing rubber guard systems. Developing reliable shin removal mechanics provides essential defensive coverage against these specialized attacks while also opening pathways to dominant passing positions. The pass completion to side control transforms a defensive emergency into an offensive opportunity, making this a high-value skill for competitive practitioners.
 
-**From Position**: [[Gogoplata Control]] (Top)
+**From Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
 
@@ -228,9 +228,9 @@ This technique is particularly valuable because gogoplata attacks have become in
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Gogoplata Control]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Gogoplata Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -239,9 +239,9 @@ This technique is particularly valuable because gogoplata attacks have become in
 
 ## Opponent Counters
 
-- **Opponent pulls foot deeper behind head when you attempt to control it, tightening the submission** (Effectiveness: High) - Your Response: Maintain hip pressure and wait for opportunity; if they focus on deepening the foot they often drop hip elevation which creates your extraction window → Leads to [[Gogoplata Control]]
-- **Opponent transitions to triangle as you extract your head by switching leg configuration** (Effectiveness: Medium) - Your Response: Keep your extracted shoulder high and immediately posture when head clears; do not allow them to lock the triangle by keeping your arm inside their legs → Leads to [[Closed Guard]]
-- **Opponent releases gogoplata and recovers to closed guard when they feel escape imminent** (Effectiveness: Low) - Your Response: This is acceptable as closed guard is far safer than gogoplata; maintain posture and work standard guard passing sequences → Leads to [[Closed Guard]]
+- **Opponent pulls foot deeper behind head when you attempt to control it, tightening the submission** (Effectiveness: High) - Your Response: Maintain hip pressure and wait for opportunity; if they focus on deepening the foot they often drop hip elevation which creates your extraction window → Leads to [[Positions/Gogoplata Control]]
+- **Opponent transitions to triangle as you extract your head by switching leg configuration** (Effectiveness: Medium) - Your Response: Keep your extracted shoulder high and immediately posture when head clears; do not allow them to lock the triangle by keeping your arm inside their legs → Leads to [[Positions/Closed Guard]]
+- **Opponent releases gogoplata and recovers to closed guard when they feel escape imminent** (Effectiveness: Low) - Your Response: This is acceptable as closed guard is far safer than gogoplata; maintain posture and work standard guard passing sequences → Leads to [[Positions/Closed Guard]]
 
 
 </section>

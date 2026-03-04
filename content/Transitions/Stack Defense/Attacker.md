@@ -180,7 +180,7 @@ description: "How to execute Stack Defense in BJJ. Attacking perspective with se
 
 As the guard player executing stack defense, your objective is to prevent the top player from completing their stack pass by neutralizing their forward driving pressure and recovering your guard structure. This requires a systematic approach combining frame management, hip escape mechanics, and active leg engagement. The critical insight is that you must act early, before the stack becomes fully consolidated, because defensive options diminish exponentially as your spine compresses and hip mobility decreases. Your frames create the initial space, your hip escapes generate the angle, and your leg re-engagement secures the recovered guard position. Mastery of this defensive sequence transforms a dangerous passing situation into an opportunity for offensive transitions.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -234,11 +234,11 @@ As the guard player executing stack defense, your objective is to prevent the to
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Success | [[Open Guard]] | 15% |
-| Failure | [[Half Guard]] | 15% |
-| Failure | [[Side Control]] | 15% |
-| Counter | [[Mount]] | 5% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Success | [[Positions/Open Guard]] | 15% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 15% |
+| Counter | [[Positions/Mount]] | 5% |
 
 
 </section>
@@ -247,10 +247,10 @@ As the guard player executing stack defense, your objective is to prevent the to
 
 ## Opponent Counters
 
-- **Opponent switches to knee cut pass when you create angle** (Effectiveness: High) - Your Response: Anticipate the direction change and immediately establish knee shield or butterfly hook on the side they are cutting to. Use your frames to redirect their momentum laterally and recover full guard structure or initiate a sweep from the new angle. → Leads to [[Half Guard]]
-- **Opponent maintains forward pressure despite frames, crushing through with weight** (Effectiveness: Medium) - Your Response: Combine frames with explosive bridging motion to create momentary space, then immediately shrimp hard to the side while using frames to maintain the gap created. Multiple smaller escapes are often more effective than one large movement against heavy pressure. → Leads to [[Side Control]]
-- **Opponent grabs your pants or ankles to prevent hip escape** (Effectiveness: High) - Your Response: If legs are controlled, focus on upper body frames and use granby roll or shoulder roll to invert and create a completely different angle, making their grips ineffective and forcing them to abandon the stack pass entirely. → Leads to [[Side Control]]
-- **Opponent switches to leg drag when you hip escape to create angle** (Effectiveness: Medium) - Your Response: As soon as you feel them redirecting to a leg drag, post your bottom hand on the mat and turn to your knees to come up to combat base, or immediately establish reverse De La Riva hook on their far leg to prevent consolidation of the leg drag position. → Leads to [[Half Guard]]
+- **Opponent switches to knee cut pass when you create angle** (Effectiveness: High) - Your Response: Anticipate the direction change and immediately establish knee shield or butterfly hook on the side they are cutting to. Use your frames to redirect their momentum laterally and recover full guard structure or initiate a sweep from the new angle. → Leads to [[Positions/Half Guard]]
+- **Opponent maintains forward pressure despite frames, crushing through with weight** (Effectiveness: Medium) - Your Response: Combine frames with explosive bridging motion to create momentary space, then immediately shrimp hard to the side while using frames to maintain the gap created. Multiple smaller escapes are often more effective than one large movement against heavy pressure. → Leads to [[Positions/Side Control]]
+- **Opponent grabs your pants or ankles to prevent hip escape** (Effectiveness: High) - Your Response: If legs are controlled, focus on upper body frames and use granby roll or shoulder roll to invert and create a completely different angle, making their grips ineffective and forcing them to abandon the stack pass entirely. → Leads to [[Positions/Side Control]]
+- **Opponent switches to leg drag when you hip escape to create angle** (Effectiveness: Medium) - Your Response: As soon as you feel them redirecting to a leg drag, post your bottom hand on the mat and turn to your knees to come up to combat base, or immediately establish reverse De La Riva hook on their far leg to prevent consolidation of the leg drag position. → Leads to [[Positions/Half Guard]]
 
 
 </section>

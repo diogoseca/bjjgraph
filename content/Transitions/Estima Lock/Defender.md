@@ -164,7 +164,7 @@ Defending the Estima Lock requires immediate recognition of the inverted footloc
 
 The defender's primary challenge is that the Estima Lock attacks from an angle the ankle cannot naturally resist. The inverted position means standard ankle lock defenses—pointing the toes, flexing the foot, or simply pulling the leg back—are largely ineffective. Instead, successful defense depends on three sequential priorities: first, counter-rotate the ankle to reduce immediate joint strain; second, establish frames on the attacker's hips or torso to disrupt the fulcrum mechanics; third, use the free leg actively to push, hook, or create angles that enable leg extraction or position reversal. Time is critical because the submission can reach mechanical completion rapidly once all attacker elements are aligned.
 
-**Opponent's Starting Position**: [[Estima Lock]] (Top)
+**Opponent's Starting Position**: [[Positions/Estima Lock]] (Top)
 
 </section>
 
@@ -201,21 +201,21 @@ The defender's primary challenge is that the Estima Lock attacks from an angle t
 ### 1. Counter-rotate ankle and establish hip frames to disrupt the fulcrum
 
 - **When to use**: Immediately upon feeling the inverted grip consolidate and before the attacker begins applying finishing pressure—this is the highest-percentage defense window
-- **Targets**: [[Estima Lock]]
+- **Targets**: [[Positions/Estima Lock]]
 - **If successful**: Neutralizes the rotational mechanics and forces the attacker to re-establish the submission angle, returning you to the control position without immediate finish threat
 - **Risk**: If counter-rotation is incomplete, the attacker may adjust grip angle and finish from the new position before you can fully escape
 
 ### 2. Push attacker's hips away with free leg while stripping grip with hands
 
 - **When to use**: When the attacker has established hip pressure but has not yet fully consolidated the rotational finish—the free leg push disrupts their fulcrum
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Creates enough space to extract the trapped leg and recover to 50-50 guard or open guard where you can re-engage from neutral positioning
 - **Risk**: If the push is insufficient and you commit both hands to grip fighting, you lose framing ability and the attacker can flatten you for the finish
 
 ### 3. Sit up aggressively and attack opponent's base while addressing the grip
 
 - **When to use**: When the attacker's hip pressure is not yet fully consolidated and you can use core strength to rise to a seated position before the finish is applied
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Disrupts the attacker's body angle and pressure mechanics, potentially creating scramble opportunities or enabling you to enter 50-50 guard where the threat is neutralized
 - **Risk**: Sitting up without addressing the grip can increase rotational pressure momentarily as your leg angle changes—combine with counter-rotation
 
@@ -234,11 +234,11 @@ The defender's primary challenge is that the Estima Lock attacks from an angle t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Estima Lock]]
+### → [[Positions/Estima Lock]]
 
 Counter-rotate the ankle immediately to neutralize rotational pressure, then establish frames on the attacker's hips to disrupt their fulcrum. Strip the figure-four grip using two-on-one hand fighting while maintaining counter-rotation. This returns you to the control position where the immediate finish threat is eliminated and you can begin systematic leg extraction.
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Use the free leg to push the attacker's hips away while simultaneously stripping their ankle grip. As space opens, retract the trapped leg and re-engage your legs in 50-50 configuration where the submission threat is neutralized and both players return to a symmetrical entanglement with equal offensive and defensive opportunities.
 

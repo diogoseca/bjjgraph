@@ -180,7 +180,7 @@ description: "Complete attacker guide for the Knee Slice from Z-Guard. Learn shi
 
 The Knee Slice from Z-Guard Attacker perspective focuses on systematically dismantling the elevated knee shield structure before executing a penetrating knee slice to achieve side control. Success requires disciplined sequencing—rushing the slice without proper shield collapse is the single most common failure point at every level. The attacker must establish upper body dominance through crossface or collar control, progressively collapse the knee shield using directed hip pressure, and only then initiate the slicing motion at the correct angle to cut through the half guard entanglement. The technique rewards patience and methodical execution over explosive athleticism, making it accessible to practitioners of all body types when the mechanics are properly understood.
 
-**From Position**: [[Z-Guard]] (Top)
+**From Position**: [[Positions/Z-Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The Knee Slice from Z-Guard Attacker perspective focuses on systematically disma
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Half Guard]] | 30% |
-| Counter | [[Deep Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 20% |
 
 
 </section>
@@ -243,11 +243,11 @@ The Knee Slice from Z-Guard Attacker perspective focuses on systematically disma
 
 ## Opponent Counters
 
-- **Bottom player re-inserts knee shield before slice initiates** (Effectiveness: High) - Your Response: Reset the shield collapse sequence with tighter grip control. Address the far arm more aggressively to prevent them from generating the framing power needed for re-insertion. Consider switching to a smash pass variation that pins the shield leg flat. → Leads to [[Half Guard]]
-- **Bottom player dives underneath for deep half guard entry during the slice** (Effectiveness: Medium) - Your Response: Immediately sprawl hips back and drive shoulder pressure into their far shoulder to stop the dive. If they complete the deep half entry, transition to deep half guard passing. Prevention is better than reaction—keep hips heavy throughout the slice to deny space for the dive. → Leads to [[Deep Half Guard]]
-- **Bottom player frames on the shoulder and hip escapes to create distance** (Effectiveness: Medium) - Your Response: Follow their hip escape by circling your hips in the same direction, maintaining pressure. Strip the shoulder frame by swimming your arm inside their frame and re-establishing crossface. Use their hip escape momentum to accelerate your knee slice angle. → Leads to [[Half Guard]]
-- **Bottom player secures underhook and drives to dogfight position** (Effectiveness: Medium) - Your Response: Apply immediate whizzer control to neutralize the underhook before they can come up to dogfight. Drive your hip pressure down to flatten them back to the mat. If they achieve the dogfight, use the whizzer to control their posture and look for front headlock or darce entries. → Leads to [[Half Guard]]
-- **Bottom player turns away and begins back exposure recovery** (Effectiveness: Low) - Your Response: Recognize this as acceleration opportunity for the knee slice—their turning motion actually helps clear the path for your slicing knee. Maintain crossface and drive through the pass aggressively, completing to side control before they can fully turn to turtle. → Leads to [[Side Control]]
+- **Bottom player re-inserts knee shield before slice initiates** (Effectiveness: High) - Your Response: Reset the shield collapse sequence with tighter grip control. Address the far arm more aggressively to prevent them from generating the framing power needed for re-insertion. Consider switching to a smash pass variation that pins the shield leg flat. → Leads to [[Positions/Half Guard]]
+- **Bottom player dives underneath for deep half guard entry during the slice** (Effectiveness: Medium) - Your Response: Immediately sprawl hips back and drive shoulder pressure into their far shoulder to stop the dive. If they complete the deep half entry, transition to deep half guard passing. Prevention is better than reaction—keep hips heavy throughout the slice to deny space for the dive. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Bottom player frames on the shoulder and hip escapes to create distance** (Effectiveness: Medium) - Your Response: Follow their hip escape by circling your hips in the same direction, maintaining pressure. Strip the shoulder frame by swimming your arm inside their frame and re-establishing crossface. Use their hip escape momentum to accelerate your knee slice angle. → Leads to [[Positions/Half Guard]]
+- **Bottom player secures underhook and drives to dogfight position** (Effectiveness: Medium) - Your Response: Apply immediate whizzer control to neutralize the underhook before they can come up to dogfight. Drive your hip pressure down to flatten them back to the mat. If they achieve the dogfight, use the whizzer to control their posture and look for front headlock or darce entries. → Leads to [[Positions/Half Guard]]
+- **Bottom player turns away and begins back exposure recovery** (Effectiveness: Low) - Your Response: Recognize this as acceleration opportunity for the knee slice—their turning motion actually helps clear the path for your slicing knee. Maintain crossface and drive through the pass aggressively, completing to side control before they can fully turn to turtle. → Leads to [[Positions/Side Control]]
 
 
 </section>

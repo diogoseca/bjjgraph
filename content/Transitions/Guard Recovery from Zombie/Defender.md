@@ -148,7 +148,7 @@ description: "Prevent guard recovery from the Zombie position as the top player 
 
 As the top player against the Zombie position, the moment the bottom player releases their lockdown represents your highest-percentage opportunity to advance past their guard. The Zombie's lockdown entanglement and high guard configuration are the bottom player's primary control mechanisms, and when they voluntarily release these controls to transition to closed guard, a brief window of vulnerability opens. Your objective is to capitalize on this transition by either preventing the closed guard closure through explosive posture and distance creation, or by driving forward through the gap to advance to a passing position before the bottom player can establish standard guard. Understanding the bottom player's recovery sequence - lockdown release, hip escape, leg repositioning, guard closure - allows you to identify and exploit the exact moment when their defensive structure is weakest.
 
-**Opponent's Starting Position**: [[Zombie]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Zombie]] (Bottom)
 
 </section>
 
@@ -184,21 +184,21 @@ As the top player against the Zombie position, the moment the bottom player rele
 ### 1. Posture up explosively the moment the lockdown releases, creating vertical distance that prevents guard closure and forcing the bottom player into open guard
 
 - **When to use**: When you feel the lockdown legs uncross and the entanglement releases, before the bottom player's legs can transition to hip-level guard position
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Bottom player ends up in open guard without established grips, giving you significant passing initiative and freedom to choose your passing strategy
 - **Risk**: If the bottom player maintains a strong overhook during your posture attempt, they can use it as an anchor to pull you back into closing range
 
 ### 2. Drive forward with heavy chest pressure during the lockdown release, collapsing the bottom player's frames and advancing past their legs before guard closure
 
 - **When to use**: When the bottom player releases the lockdown but has not yet completed the hip escape needed for guard closure
-- **Targets**: [[Zombie]]
+- **Targets**: [[Positions/Rubber Guard/Zombie]]
 - **If successful**: You flatten the bottom player and advance past their legs to establish side control or at minimum prevent guard recovery
 - **Risk**: If the bottom player maintains strong frames, your forward drive may stall and they complete the guard closure while you are in a compromised posture
 
 ### 3. Strip the overhook grip with a two-on-one grip break before or during the lockdown release, eliminating the upper body anchor that enables the transition
 
 - **When to use**: When you identify the bottom player preparing for guard recovery by tightening their overhook prior to lockdown release
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Without the overhook bridge, the bottom player cannot maintain connection during leg repositioning and must settle for disconnected open guard
 - **Risk**: Focusing on the grip strip may distract from capitalizing on the lockdown release timing if the bottom player releases lockdown while you are working the grip break
 
@@ -210,7 +210,7 @@ As the top player against the Zombie position, the moment the bottom player rele
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Posture up explosively during the lockdown release transition and strip the overhook grip to create distance that forces the bottom player into open guard rather than achieving closed guard closure - open guard without established grips gives you significant passing initiative
 

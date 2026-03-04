@@ -99,33 +99,33 @@ The position demands active hip movement and constant angle adjustment to remain
 ### Available Transitions
 
 
-- **[[Triangle Setup]]** (31% of attempts)
+- **[[Transitions/Triangle Setup]]** (31% of attempts)
 
-- **[[Pendulum Sweep]]** (11% of attempts)
+- **[[Transitions/Pendulum Sweep]]** (11% of attempts)
 
-- **[[Scissor Sweep]]** (9% of attempts)
+- **[[Transitions/Scissor Sweep]]** (9% of attempts)
 
-- **[[Hip Bump Sweep]]** (8% of attempts)
+- **[[Transitions/Hip Bump Sweep]]** (8% of attempts)
 
-- **[[Flower Sweep]]** (7% of attempts)
+- **[[Transitions/Flower Sweep]]** (7% of attempts)
 
-- **[[Omoplata Sweep]]** (7% of attempts)
+- **[[Transitions/Omoplata Sweep]]** (7% of attempts)
 
-- **[[Collar Drag]]** (6% of attempts)
+- **[[Transitions/Collar Drag]]** (6% of attempts)
 
-- **[[Arm Drag to Back]]** (5% of attempts)
+- **[[Transitions/Arm Drag to Back]]** (5% of attempts)
 
-- **[[Lapel to Spider Guard]]** (4% of attempts)
+- **[[Transitions/Lapel to Spider Guard]]** (4% of attempts)
 
-- **[[Lapel to Lasso Guard]]** (4% of attempts)
+- **[[Transitions/Lapel to Lasso Guard]]** (4% of attempts)
 
-- **[[Collar Sleeve to De La Riva]]** (3% of attempts)
+- **[[Transitions/Collar Sleeve to De La Riva]]** (3% of attempts)
 
-- **[[Standing up in Base]]** (3% of attempts)
+- **[[Transitions/Standing up in Base]]** (3% of attempts)
 
-- **[[Collar Sleeve Sweep]]** (1% of attempts)
+- **[[Transitions/Collar Sleeve Sweep]]** (1% of attempts)
 
-- **[[Collar Sleeve to Spider Guard]]** (1% of attempts)
+- **[[Transitions/Collar Sleeve to Spider Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -186,29 +186,29 @@ The position demands active hip movement and constant angle adjustment to remain
 ### Available Transitions
 
 
-- **[[Headquarters Pass]]** (30% of attempts)
+- **[[Transitions/Headquarters Pass]]** (30% of attempts)
 
-- **[[Grip Break]]** (12% of attempts)
+- **[[Transitions/Grip Break]]** (12% of attempts)
 
-- **[[Knee Cut Pass]]** (10% of attempts)
+- **[[Transitions/Knee Cut Pass]]** (10% of attempts)
 
-- **[[Toreando Pass]]** (8% of attempts)
+- **[[Transitions/Toreando Pass]]** (8% of attempts)
 
-- **[[Stack Pass]]** (8% of attempts)
+- **[[Transitions/Stack Pass]]** (8% of attempts)
 
-- **[[Leg Drag Pass]]** (8% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (8% of attempts)
 
-- **[[X Pass]]** (8% of attempts)
+- **[[Transitions/X Pass]]** (8% of attempts)
 
-- **[[Pressure Pass]]** (7% of attempts)
+- **[[Transitions/Pressure Pass]]** (7% of attempts)
 
-- **[[Long Step Pass]]** (4% of attempts)
+- **[[Transitions/Long Step Pass]]** (4% of attempts)
 
-- **[[Double Under Pass]]** (3% of attempts)
+- **[[Transitions/Double Under Pass]]** (3% of attempts)
 
-- **[[Bull Pass from Collar Sleeve]]** (1% of attempts)
+- **[[Transitions/Bull Pass from Collar Sleeve]]** (1% of attempts)
 
-- **[[Pass Collar Sleeve Guard]]** (1% of attempts)
+- **[[Transitions/Pass Collar Sleeve Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -247,21 +247,21 @@ The position demands active hip movement and constant angle adjustment to remain
 ## Related Positions
 
 
-- **[[Closed Guard]]** - Common entry point - open to collar sleeve when opponent stands
+- **[[Positions/Closed Guard]]** - Common entry point - open to collar sleeve when opponent stands
 
-- **[[Spider Guard]]** - Natural progression - add second sleeve grip for spider variation
+- **[[Positions/Spider Guard]]** - Natural progression - add second sleeve grip for spider variation
 
-- **[[Lasso Guard]]** - Advanced variation - thread sleeve arm for lasso control
+- **[[Positions/Lasso Guard]]** - Advanced variation - thread sleeve arm for lasso control
 
-- **[[Triangle Control]]** - Primary submission path from collar sleeve attacks
+- **[[Positions/Triangle Control]]** - Primary submission path from collar sleeve attacks
 
-- **[[Omoplata Control]]** - Alternative submission when opponent defends triangle
+- **[[Positions/Omoplata Control]]** - Alternative submission when opponent defends triangle
 
-- **[[Open Guard]]** - Parent category - collar sleeve is specific open guard variation
+- **[[Positions/Open Guard]]** - Parent category - collar sleeve is specific open guard variation
 
-- **[[De La Riva Guard]]** - Complementary guard - often combined when opponent passes to side
+- **[[Positions/De La Riva Guard]]** - Complementary guard - often combined when opponent passes to side
 
-- **[[Mount]]** - Target position for successful sweep completion
+- **[[Positions/Mount]]** - Target position for successful sweep completion
 
 
 </section>

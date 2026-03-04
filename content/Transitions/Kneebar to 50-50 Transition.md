@@ -21,7 +21,7 @@ This transition capitalizes on a fundamental principle of leg lock systems: when
 
 The critical tactical consideration is managing the transition window between releasing kneebar finishing grips and establishing 50-50 control. During this brief period, the attacker's control is at its weakest, creating the primary escape opportunity for the defender. Skilled execution minimizes this window through deliberate sequencing: the legs begin threading into 50-50 before the arms fully release kneebar grips, maintaining continuous control throughout the positional change. Success depends on reading the opponent's defensive commitment and timing the transition to catch them during their strongest kneebar defense, when they are least prepared for the positional shift.
 
-**From Position**: [[Kneebar Control]] (Top)
+**From Position**: [[Positions/Kneebar Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The critical tactical consideration is managing the transition window between re
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 55% |
-| Failure | [[Kneebar Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 55% |
+| Failure | [[Positions/Kneebar Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ The kneebar to 50-50 transition occupies a critical juncture in the modern leg a
 ## Related Techniques
 
 
-- [[Kneebar Control]] - Source position from which this transition initiates when kneebar finish is defended
+- [[Positions/Kneebar Control]] - Source position from which this transition initiates when kneebar finish is defended
 
-- [[50-50 Guard]] - Target position providing symmetrical leg entanglement with multiple submission opportunities
+- [[Positions/Ashi Garami/50-50 Guard]] - Target position providing symmetrical leg entanglement with multiple submission opportunities
 
-- [[Half Guard]] - Counter outcome position when defender successfully escapes during transition
+- [[Positions/Half Guard]] - Counter outcome position when defender successfully escapes during transition
 
-- [[Heel Hook]] - Primary submission available from 50-50 top after successful transition
+- [[Transitions/Heel Hook]] - Primary submission available from 50-50 top after successful transition
 
-- [[Back Take from 50-50]] - Follow-up positional advancement from established 50-50 when submissions are defended
+- [[Transitions/Back Take from 50-50]] - Follow-up positional advancement from established 50-50 when submissions are defended
 
-- [[Inside Ashi-Garami]] - Related leg entanglement accessible through 50-50 transitions for different attack angles
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement accessible through 50-50 transitions for different attack angles
 
-- [[Saddle]] - Advanced leg entanglement reachable through 50-50 offering superior heel hook control
+- [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement reachable through 50-50 offering superior heel hook control
 
-- [[Backside 50-50]] - Strategic 50-50 variation accessible after establishing standard 50-50 position
+- [[Positions/Ashi Garami/Backside 50-50]] - Strategic 50-50 variation accessible after establishing standard 50-50 position
 
-- [[Kneebar Control Maintenance]] - Alternative to transitioning when maintaining kneebar control remains productive
+- [[Transitions/Kneebar Control Maintenance]] - Alternative to transitioning when maintaining kneebar control remains productive
 
-- [[50-50 Pass]] - Exit strategy from 50-50 to advance past leg entanglement to top position
+- [[Transitions/50-50 Pass]] - Exit strategy from 50-50 to advance past leg entanglement to top position
 
 
 </section>

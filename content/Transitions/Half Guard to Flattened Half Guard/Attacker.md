@@ -180,7 +180,7 @@ description: "Master the half guard flattening technique to neutralize bottom pl
 
 As the top player in half guard, your ability to systematically flatten your opponent determines the success of your entire passing game. This transition requires winning three interconnected battles: the crossface, the underhook, and the knee shield. When executed correctly, you transform an active, dangerous half guard into a controlled pressure platform where your opponent's options narrow to survival rather than offense. The technique rewards methodical pressure escalation over explosive force, as each incremental gain in control compounds to create the chest-to-chest connection that defines the flattened position. Your goal is not merely to hold your opponent flat but to create the conditions where high-percentage passes become available against compromised defensive structures.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the top player in half guard, your ability to systematically flatten your opp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Flattened Half Guard]] | 65% |
-| Failure | [[Half Guard]] | 20% |
-| Counter | [[Knee Shield Half Guard]] | 15% |
+| Success | [[Positions/Half Guard/Flattened Half Guard]] | 65% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Counter | [[Positions/Half Guard/Knee Shield Half Guard]] | 15% |
 
 
 </section>
@@ -243,11 +243,11 @@ As the top player in half guard, your ability to systematically flatten your opp
 
 ## Opponent Counters
 
-- **Bottom player establishes strong knee shield before crossface is secured** (Effectiveness: High) - Your Response: Switch to smash pass mechanics by driving into the knee shield with your hips while establishing crossface over the top of their shin, or disengage to combat base and re-engage with a different angle → Leads to [[Knee Shield Half Guard]]
-- **Bottom player wins the underhook and begins turning to their side for a sweep or back take** (Effectiveness: High) - Your Response: Immediately apply whizzer control on the underhook arm and drive your crossface harder to prevent their hip turn. If they complete the underhook, switch to Kimura grip on their exposed arm or transition to Darce Choke threat as they turn in → Leads to [[Half Guard]]
-- **Bottom player dives underneath for deep half guard entry as you advance hips** (Effectiveness: Medium) - Your Response: Sprawl your hips back immediately and drive crossface pressure down to pin their head. If they achieve deep half, focus on hip pressure and wizzer to prevent the sweep rather than continuing the flattening sequence → Leads to [[Half Guard]]
-- **Bottom player applies lockdown on the trapped leg to prevent hip advancement** (Effectiveness: Medium) - Your Response: Post your free leg wide for base and work to straighten the locked leg by driving your knee to the mat. Maintain crossface pressure while systematically breaking the lockdown configuration before resuming the flattening progression → Leads to [[Half Guard]]
-- **Bottom player frames on hip and executes explosive hip escape to re-establish distance** (Effectiveness: Medium) - Your Response: Follow their hip escape with your pressure, using their movement as a trigger to advance your knee across for an immediate knee slice pass attempt rather than resettling into the flattening sequence → Leads to [[Knee Shield Half Guard]]
+- **Bottom player establishes strong knee shield before crossface is secured** (Effectiveness: High) - Your Response: Switch to smash pass mechanics by driving into the knee shield with your hips while establishing crossface over the top of their shin, or disengage to combat base and re-engage with a different angle → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
+- **Bottom player wins the underhook and begins turning to their side for a sweep or back take** (Effectiveness: High) - Your Response: Immediately apply whizzer control on the underhook arm and drive your crossface harder to prevent their hip turn. If they complete the underhook, switch to Kimura grip on their exposed arm or transition to Darce Choke threat as they turn in → Leads to [[Positions/Half Guard]]
+- **Bottom player dives underneath for deep half guard entry as you advance hips** (Effectiveness: Medium) - Your Response: Sprawl your hips back immediately and drive crossface pressure down to pin their head. If they achieve deep half, focus on hip pressure and wizzer to prevent the sweep rather than continuing the flattening sequence → Leads to [[Positions/Half Guard]]
+- **Bottom player applies lockdown on the trapped leg to prevent hip advancement** (Effectiveness: Medium) - Your Response: Post your free leg wide for base and work to straighten the locked leg by driving your knee to the mat. Maintain crossface pressure while systematically breaking the lockdown configuration before resuming the flattening progression → Leads to [[Positions/Half Guard]]
+- **Bottom player frames on hip and executes explosive hip escape to re-establish distance** (Effectiveness: Medium) - Your Response: Follow their hip escape with your pressure, using their movement as a trigger to advance your knee across for an immediate knee slice pass attempt rather than resettling into the flattening sequence → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 
 
 </section>

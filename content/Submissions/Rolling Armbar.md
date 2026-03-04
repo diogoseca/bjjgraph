@@ -22,8 +22,8 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint
-**Starting Position**: [[Closed Guard]]
-**From Position**: [[Closed Guard]] (Bottom)
+**Starting Position**: [[Positions/Closed Guard]]
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -78,8 +78,8 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -227,16 +227,16 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 ## From Which Positions?
 
-- [[Closed Guard]]
-- [[Open Guard]]
-- [[Spider Guard]]
-- [[De La Riva Guard]]
-- [[Turtle]]
-- [[Butterfly Guard]]
-- [[Half Guard]]
-- [[Standing Position]]
-- [[Triangle Control]]
-- [[Omoplata Control]]
+- [[Positions/Closed Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/Spider Guard]]
+- [[Positions/De La Riva Guard]]
+- [[Positions/Turtle]]
+- [[Positions/Butterfly Guard]]
+- [[Positions/Half Guard]]
+- [[Positions/Standing Position]]
+- [[Positions/Triangle Control]]
+- [[Positions/Omoplata Control]]
 
 
 </section>
@@ -245,18 +245,18 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 ## Related Submissions
 
-- [[Armbar from Guard]]
-- [[Armbar from Mount]]
-- [[Triangle Choke Front]]
-- [[Omoplata from Guard]]
-- [[Spinning Armbar]]
-- [[Flying Armbar]]
-- [[Triangle from Closed Guard]]
-- [[Kimura from Guard]]
-- [[Belly Down Armbar]]
-- [[Far Side Armbar]]
-- [[Armbar from Crucifix]]
-- [[Triangle from De La Riva]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Triangle Choke Front]]
+- [[Submissions/Omoplata from Guard]]
+- [[Submissions/Spinning Armbar]]
+- [[Submissions/Flying Armbar]]
+- [[Submissions/Triangle from Closed Guard]]
+- [[Submissions/Kimura from Guard]]
+- [[Submissions/Belly Down Armbar]]
+- [[Submissions/Far Side Armbar]]
+- [[Transitions/Armbar from Crucifix]]
+- [[Submissions/Triangle from De La Riva]]
 
 
 </section>
@@ -265,18 +265,18 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 ## Additional Related Content
 
-- [[Armbar Control]] - Finishing position - where the rolling armbar ends and standard armbar mechanics apply
-- [[Triangle Control]] - Common combination - if triangle is defended, rolling armbar becomes available from the same position
-- [[Omoplata Control]] - Related rolling attack - uses similar rotational mechanics and creates armbar opportunities if opponent defends
-- [[Closed Guard]] - Primary starting position for rolling armbar setups with optimal arm isolation
-- [[Spider Guard]] - Alternative setup position using sleeve control to facilitate arm isolation for the roll
-- [[Turtle]] - Transition target - rolling armbar can be executed when opponent turtles defensively
-- [[Crucifix]] - Alternative arm control position - can transition to rolling armbar when opponent attempts to escape crucifix
-- [[Kimura Trap]] - Related arm attack - creates rolling armbar opportunities when opponent defends by straightening their arm
-- [[Open Guard]] - Recovery position if technique fails - rolling motion can return you to guard if submission doesn't materialize
-- [[De La Riva Guard]] - Setup position for standing opponents where arm isolation can initiate rolling entry
-- [[Butterfly Guard]] - Alternative guard setup that provides underhook control useful for arm isolation before roll
-- [[Half Guard]] - Positional option for setting up rolling armbar when opponent attempts to pass
+- [[Positions/Armbar Control]] - Finishing position - where the rolling armbar ends and standard armbar mechanics apply
+- [[Positions/Triangle Control]] - Common combination - if triangle is defended, rolling armbar becomes available from the same position
+- [[Positions/Omoplata Control]] - Related rolling attack - uses similar rotational mechanics and creates armbar opportunities if opponent defends
+- [[Positions/Closed Guard]] - Primary starting position for rolling armbar setups with optimal arm isolation
+- [[Positions/Spider Guard]] - Alternative setup position using sleeve control to facilitate arm isolation for the roll
+- [[Positions/Turtle]] - Transition target - rolling armbar can be executed when opponent turtles defensively
+- [[Positions/Crucifix]] - Alternative arm control position - can transition to rolling armbar when opponent attempts to escape crucifix
+- [[Positions/Kimura Trap]] - Related arm attack - creates rolling armbar opportunities when opponent defends by straightening their arm
+- [[Positions/Open Guard]] - Recovery position if technique fails - rolling motion can return you to guard if submission doesn't materialize
+- [[Positions/De La Riva Guard]] - Setup position for standing opponents where arm isolation can initiate rolling entry
+- [[Positions/Butterfly Guard]] - Alternative guard setup that provides underhook control useful for arm isolation before roll
+- [[Positions/Half Guard]] - Positional option for setting up rolling armbar when opponent attempts to pass
 
 
 </section>

@@ -174,7 +174,7 @@ description: "How to execute Pull guard in BJJ. Attacking perspective with setup
 
 Pulling guard is a strategic defensive maneuver that transitions from standing to a guard position, prioritizing ground control over takedown exchanges. This technique allows practitioners to bypass the standing phase and immediately establish their preferred guard system, particularly valuable when facing opponents with superior wrestling or judo backgrounds. The guard pull represents a fundamental shift in engagement strategy, transforming a potentially disadvantageous standing exchange into a controlled ground scenario where technical guard players can implement their systematic attacks. Proper execution requires precise timing, grip control, and body mechanics to ensure safe descent while maintaining offensive positioning. The technique has become increasingly sophisticated in modern competition, with variations designed to establish specific guard types like De La Riva, Spider Guard, or Butterfly Guard directly from the standing position.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ Pulling guard is a strategic defensive maneuver that transitions from standing t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 70% |
-| Failure | [[Standing Position]] | 20% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Closed Guard]] | 70% |
+| Failure | [[Positions/Standing Position]] | 20% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -238,10 +238,10 @@ Pulling guard is a strategic defensive maneuver that transitions from standing t
 
 ## Opponent Counters
 
-- **Opponent backs away or disengages as you sit** (Effectiveness: High) - Your Response: Maintain grip tension and follow them with your guard, using grips to prevent complete separation. Scoot your hips forward aggressively and re-establish connections with legs or feet on their hips to prevent them from establishing distance. → Leads to [[Standing Position]]
-- **Opponent sprawls forward with heavy chest pressure** (Effectiveness: Medium) - Your Response: Use the pressure to establish underhooks or create angles for off-balancing sweeps. Convert the forward pressure into sweep opportunities rather than fighting it directly. Rotate hips to side and look for butterfly hooks or deep half guard entries. → Leads to [[Closed Guard]]
-- **Opponent immediately begins passing sequence** (Effectiveness: High) - Your Response: Establish strong guard retention frames, create distance with pushing frames on hips and shoulders, and circle your hips away from the passing pressure. Use grip fighting to break their grips and re-establish your preferred guard configuration. → Leads to [[Standing Position]]
-- **Opponent grabs your pants or belt during descent** (Effectiveness: Medium) - Your Response: Accelerate your descent and immediately establish closed guard or tight hooks to prevent them from using the grips for stacking or pressure passing. Break their grips with hand fighting while securing your guard position. → Leads to [[Closed Guard]]
+- **Opponent backs away or disengages as you sit** (Effectiveness: High) - Your Response: Maintain grip tension and follow them with your guard, using grips to prevent complete separation. Scoot your hips forward aggressively and re-establish connections with legs or feet on their hips to prevent them from establishing distance. → Leads to [[Positions/Standing Position]]
+- **Opponent sprawls forward with heavy chest pressure** (Effectiveness: Medium) - Your Response: Use the pressure to establish underhooks or create angles for off-balancing sweeps. Convert the forward pressure into sweep opportunities rather than fighting it directly. Rotate hips to side and look for butterfly hooks or deep half guard entries. → Leads to [[Positions/Closed Guard]]
+- **Opponent immediately begins passing sequence** (Effectiveness: High) - Your Response: Establish strong guard retention frames, create distance with pushing frames on hips and shoulders, and circle your hips away from the passing pressure. Use grip fighting to break their grips and re-establish your preferred guard configuration. → Leads to [[Positions/Standing Position]]
+- **Opponent grabs your pants or belt during descent** (Effectiveness: Medium) - Your Response: Accelerate your descent and immediately establish closed guard or tight hooks to prevent them from using the grips for stacking or pressure passing. Break their grips with hand fighting while securing your guard position. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

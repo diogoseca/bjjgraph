@@ -154,7 +154,7 @@ description: "Master defensive responses to the Cross Ashi to 50-50 transition. 
 
 As the defender against the Cross Ashi to 50-50 transition, your primary objective is to recognize the transition attempt early and exploit the brief vulnerability window created when the attacker uncrosses their outside leg. The transition from cross ashi to 50-50 necessarily reduces the attacker's control for one to three seconds as they reposition their legs from the crossed configuration to the mirror entanglement. This window represents your best opportunity to either extract your trapped leg entirely or disrupt the transition to prevent the attacker from establishing a new offensive angle. Understanding the mechanical requirements of this transition allows you to identify the earliest possible moment to counter and choose the most effective defensive response based on the attacker's grip status and leg positioning.
 
-**Opponent's Starting Position**: [[Cross Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the Cross Ashi to 50-50 transition, your primary objecti
 ### 1. Retract knee and pull trapped leg toward your body during the uncrossing window
 
 - **When to use**: The moment you feel the outside cross pressure release from your shin, indicating the attacker has begun uncrossing. This is a time-sensitive response that must begin within one second of feeling the pressure change.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your leg extracts from the entanglement entirely, and you can establish half guard top or open guard as the attacker loses all lower body control
 - **Risk**: If the attacker maintains strong heel grip, your retraction attempt may stall with your leg partially extracted, leaving you in a worse intermediate position with less control structure
 
 ### 2. Sit up explosively and establish frames on the attacker's hips to create separation
 
 - **When to use**: When you feel the attacker's hip pressure lighten during the repositioning phase, indicating their weight is shifting rather than driving downward. The sit-up is most effective when combined with hand fighting to strip the heel grip.
-- **Targets**: [[Cross Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Cross Ashi-Garami]]
 - **If successful**: Your frames prevent the attacker from completing the 50-50 threading and force them to re-establish cross ashi control or abandon the entanglement
 - **Risk**: If the attacker uses your sit-up momentum to accelerate the transition by pulling your heel toward their chest, you may end up in a worse position with elevated posture but completed 50-50 below
 
 ### 3. Strip attacker's heel grip using two-on-one hand fighting during the transitional moment
 
 - **When to use**: When the attacker is focused on leg repositioning and their grip maintenance is reduced because they need to use one hand for posting or balance during the hip adjustment phase.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Without heel control, the attacker cannot maintain the entanglement through the transition, and your leg extraction becomes straightforward regardless of their leg positioning
 - **Risk**: Committing both hands to grip fighting removes your ability to frame against the attacker's advancing body, potentially allowing them to drive forward and complete the transition through pressure
 
 ### 4. Bridge and hip escape in the direction opposite to the attacker's repositioning
 
 - **When to use**: When the attacker commits to the lateral hip scoot and their balance is compromised by the movement. Time the bridge to coincide with their weight shift for maximum displacement effect.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The bridge disrupts the attacker's balance during an already unstable transitional moment, potentially creating enough separation for complete leg extraction and guard recovery
 - **Risk**: A mistimed bridge when the attacker has already completed the 50-50 threading may simply elevate your hips without creating escape, wasting energy and exposing you to immediate submission threats
 
@@ -225,7 +225,7 @@ As the defender against the Cross Ashi to 50-50 transition, your primary objecti
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Extract your trapped leg during the uncrossing window by retracting your knee forcefully while simultaneously stripping the attacker's heel grip with two-on-one hand fighting. The moment you feel the outside cross release, drive your knee toward your opposite hip while your hands attack the attacker's thumb-side grip. Complete the extraction by establishing knee shield half guard or full guard recovery before the attacker can re-engage the entanglement.
 

@@ -21,7 +21,7 @@ Strategically, this transition capitalizes on moments when the opponent focuses 
 
 The biomechanics of this transition exploit a fundamental weakness in the opponent's defensive structure. When trapped in New York, opponents typically focus their defensive attention on the overhook and the shin across their back. The hand controlling the shin appears to be a critical anchor, so when it releases and immediately attacks the neck, opponents often react too slowly to prevent the collar grip establishment. This misdirection is central to the technique's high success rate at advanced levels.
 
-**From Position**: [[New York]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The biomechanics of this transition exploit a fundamental weakness in the oppone
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Invisible Collar]] | 65% |
-| Failure | [[New York]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Rubber Guard/Invisible Collar]] | 65% |
+| Failure | [[Positions/Rubber Guard/New York]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -191,27 +191,27 @@ The New York to Invisible Collar transition occupies a central position in 10th 
 ## Related Techniques
 
 
-- [[New York]] - Starting position - foundational rubber guard control
+- [[Positions/Rubber Guard/New York]] - Starting position - foundational rubber guard control
 
-- [[Invisible Collar]] - Target position - advanced attacking control
+- [[Positions/Rubber Guard/Invisible Collar]] - Target position - advanced attacking control
 
-- [[Mission Control]] - Entry position to New York - upstream in progression
+- [[Positions/Rubber Guard/Mission Control]] - Entry position to New York - upstream in progression
 
-- [[Zombie]] - Alternative progression from New York - parallel pathway
+- [[Positions/Rubber Guard/Zombie]] - Alternative progression from New York - parallel pathway
 
-- [[Chill Dog]] - Follow-up position - reached from Invisible Collar
+- [[Positions/Rubber Guard/Chill Dog]] - Follow-up position - reached from Invisible Collar
 
-- [[Gogoplata]] - Primary submission threat from Invisible Collar
+- [[Transitions/Gogoplata]] - Primary submission threat from Invisible Collar
 
-- [[Closed Guard to Triangle]] - Alternative attack chain when Invisible Collar is defended
+- [[Transitions/Closed Guard to Triangle]] - Alternative attack chain when Invisible Collar is defended
 
-- [[Armbar from Guard]] - Backup submission if overhook is compromised
+- [[Submissions/Armbar from Guard]] - Backup submission if overhook is compromised
 
-- [[Rubber Guard]] - Parent system encompassing this transition
+- [[Positions/Rubber Guard]] - Parent system encompassing this transition
 
-- [[Closed Guard]] - Fallback position if rubber guard fails
+- [[Positions/Closed Guard]] - Fallback position if rubber guard fails
 
-- [[Crackhead Control]] - Upstream rubber guard position before Mission Control
+- [[Positions/Crackhead Control]] - Upstream rubber guard position before Mission Control
 
 
 </section>

@@ -21,7 +21,7 @@ The technique's effectiveness stems from the geometric advantage of the inverted
 
 Strategically, the Inverted Lasso Sweep serves as the anchor technique in a broader inverted lasso attack system. When opponents defend the overhead sweep by keeping weight back, berimbolo and kiss of the dragon entries open naturally. When they defend berimbolo by staying square and driving forward, the sweep angle reopens. This creates a binary dilemma that makes the inverted lasso position offensively viable despite its high energy cost, rewarding practitioners who develop sensitivity to weight shifts and the ability to chain between sweep and back take entries seamlessly.
 
-**From Position**: [[Inverted Lasso Guard]] (Bottom)
+**From Position**: [[Positions/Lasso Guard/Inverted Lasso Guard]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Inverted Lasso Sweep serves as the anchor technique in a broa
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 50% |
-| Failure | [[Inverted Lasso Guard]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Mount]] | 50% |
+| Failure | [[Positions/Lasso Guard/Inverted Lasso Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Inverted Lasso Sweep integrates into the broader lasso guard system as the p
 ## Related Techniques
 
 
-- [[Inverted Lasso Guard]] - Source position from which this sweep is executed
+- [[Positions/Lasso Guard/Inverted Lasso Guard]] - Source position from which this sweep is executed
 
-- [[Lasso Guard]] - Parent guard system providing foundational lasso mechanics
+- [[Positions/Lasso Guard]] - Parent guard system providing foundational lasso mechanics
 
-- [[Mount]] - Primary destination after successful sweep completion
+- [[Positions/Mount]] - Primary destination after successful sweep completion
 
-- [[De La Riva Guard]] - Adjacent guard system with complementary sweep mechanics and entries
+- [[Positions/De La Riva Guard]] - Adjacent guard system with complementary sweep mechanics and entries
 
-- [[Berimbolo Entry]] - Complementary technique from same position creating binary dilemma
+- [[Transitions/Berimbolo Entry]] - Complementary technique from same position creating binary dilemma
 
-- [[Back Control]] - Alternative offensive target via berimbolo chain from same setup
+- [[Positions/Back Control]] - Alternative offensive target via berimbolo chain from same setup
 
-- [[Balloon Sweep]] - Related overhead sweep sharing similar force generation mechanics
+- [[Transitions/Balloon Sweep]] - Related overhead sweep sharing similar force generation mechanics
 
-- [[Inverted Guard]] - Related body positioning sharing inversion mechanics and flexibility demands
+- [[Positions/Inverted Guard]] - Related body positioning sharing inversion mechanics and flexibility demands
 
-- [[Open Guard]] - Fallback position when inverted lasso structure is broken during sweep attempt
+- [[Positions/Open Guard]] - Fallback position when inverted lasso structure is broken during sweep attempt
 
-- [[Collar Sleeve Guard]] - Common entry pathway providing grips that transition into lasso guard systems
+- [[Positions/Collar Sleeve Guard]] - Common entry pathway providing grips that transition into lasso guard systems
 
 
 </section>

@@ -21,7 +21,7 @@ The strategic value of this transition extends beyond the immediate finish. When
 
 The belly-down position offers distinct mechanical advantages for the attacker. Gravity assists the extension force as the attacker drives hips toward the mat while pulling the arm upward. The opponent cannot use their legs for defensive leverage when prone, and their ability to create angles or stack is severely compromised. However, the transition itself is the vulnerable moment where technical errors most commonly occur, making precise timing, continuous grip pressure, and efficient leg repositioning essential skills for reliable execution.
 
-**From Position**: [[Armbar Control]] (Top)
+**From Position**: [[Positions/Armbar Control]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -33,8 +33,8 @@ The belly-down position offers distinct mechanical advantages for the attacker. 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Armbar Control]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Armbar Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The belly down armbar transition is a critical link in the armbar chain attack s
 ## Related Techniques
 
 
-- [[Armbar Control]] - Source position from which this transition is initiated
+- [[Positions/Armbar Control]] - Source position from which this transition is initiated
 
-- [[Armbar Finish]] - Alternative finish from armbar control when opponent stays supine
+- [[Transitions/Armbar Finish]] - Alternative finish from armbar control when opponent stays supine
 
-- [[Belly Down Armbar]] - The submission itself that this transition seeks to achieve
+- [[Submissions/Belly Down Armbar]] - The submission itself that this transition seeks to achieve
 
-- [[Belly Down Armbar Finish]] - Specific finishing mechanics from the belly-down position
+- [[Submissions/Belly Down Armbar Finish]] - Specific finishing mechanics from the belly-down position
 
-- [[Back Take from Armbar]] - Alternative transition when opponent rolls and arm extraction occurs
+- [[Transitions/Back Take from Armbar]] - Alternative transition when opponent rolls and arm extraction occurs
 
-- [[Mount]] - Common position that leads to armbar control preceding this transition
+- [[Positions/Mount]] - Common position that leads to armbar control preceding this transition
 
-- [[Half Guard]] - Possible escape destination for defender who successfully counters
+- [[Positions/Half Guard]] - Possible escape destination for defender who successfully counters
 
-- [[Closed Guard]] - Common armbar entry position in the chain leading to this transition
+- [[Positions/Closed Guard]] - Common armbar entry position in the chain leading to this transition
 
-- [[Kimura Trap]] - Alternative arm isolation control if belly-down finish is unavailable
+- [[Positions/Kimura Trap]] - Alternative arm isolation control if belly-down finish is unavailable
 
-- [[Armbar from High Mount]] - Entry technique that commonly creates the armbar control starting point
+- [[Submissions/Armbar from High Mount]] - Entry technique that commonly creates the armbar control starting point
 
 
 </section>

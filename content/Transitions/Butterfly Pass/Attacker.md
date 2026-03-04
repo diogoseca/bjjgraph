@@ -180,7 +180,7 @@ description: "How to execute Butterfly Pass in BJJ. Attacking perspective with s
 
 The Butterfly Pass is a fundamental guard passing technique designed to neutralize and overcome the butterfly guard's sweeping threats. This pass relies on superior base, weight distribution, and methodical pressure application to eliminate your opponent's hooks while advancing to a dominant position. The technique represents the essential answer to butterfly guard retention, combining defensive posture with offensive advancement. Understanding this pass is critical because butterfly guard is one of the most dynamic and threatening guard positions in modern BJJ. The passer must simultaneously defend against powerful sweeps while creating angles to pass. Success depends on recognizing when butterfly hooks are vulnerable, maintaining proper base through strategic weight shifting, and exploiting the opponent's reactions to secure dominant control. This pass serves as the foundation for all butterfly guard passing strategies.
 
-**From Position**: [[Butterfly Guard]] (Top)
+**From Position**: [[Positions/Butterfly Guard]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The Butterfly Pass is a fundamental guard passing technique designed to neutrali
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 58% |
-| Failure | [[Butterfly Guard]] | 27% |
-| Counter | [[Butterfly Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 58% |
+| Failure | [[Positions/Butterfly Guard]] | 27% |
+| Counter | [[Positions/Butterfly Guard]] | 15% |
 
 
 </section>
@@ -245,11 +245,11 @@ The Butterfly Pass is a fundamental guard passing technique designed to neutrali
 
 ## Opponent Counters
 
-- **Opponent sits up explosively to maintain butterfly hooks and attempt sweep** (Effectiveness: High) - Your Response: Immediately drive your chest down harder, using collar grip or head control to break their posture back down. Lower your hips further to remove sweep angles and maintain wide base. → Leads to [[Butterfly Guard]]
-- **Opponent transitions to deep half guard as you clear hooks** (Effectiveness: High) - Your Response: Prevent the deep half entry by keeping your near leg heavy and driving crossface pressure. If they begin the transition, immediately switch to deep half guard passing strategies, focusing on hip isolation. → Leads to [[Butterfly Guard]]
-- **Opponent attempts arm drag to take your back during pass** (Effectiveness: Medium) - Your Response: Keep your elbows extremely tight to your body and maintain forward pressure. If arm drag begins, circle away from the drag direction while maintaining base and establishing defensive grips. → Leads to [[Butterfly Guard]]
-- **Opponent recovers closed guard or half guard during transition** (Effectiveness: Medium) - Your Response: Recognize guard recovery attempts early and increase hip pressure on that side. Use your grips to prevent leg insertion and drive your knee across centerline more aggressively while maintaining chest pressure. → Leads to [[Butterfly Guard]]
-- **Opponent uses butterfly hooks to create distance and stand up** (Effectiveness: Low) - Your Response: Maintain constant forward pressure and heavy grips on upper body. If they begin standing, either follow them up to maintain pressure or establish strong grip controls to prevent their escape. → Leads to [[Butterfly Guard]]
+- **Opponent sits up explosively to maintain butterfly hooks and attempt sweep** (Effectiveness: High) - Your Response: Immediately drive your chest down harder, using collar grip or head control to break their posture back down. Lower your hips further to remove sweep angles and maintain wide base. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent transitions to deep half guard as you clear hooks** (Effectiveness: High) - Your Response: Prevent the deep half entry by keeping your near leg heavy and driving crossface pressure. If they begin the transition, immediately switch to deep half guard passing strategies, focusing on hip isolation. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent attempts arm drag to take your back during pass** (Effectiveness: Medium) - Your Response: Keep your elbows extremely tight to your body and maintain forward pressure. If arm drag begins, circle away from the drag direction while maintaining base and establishing defensive grips. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent recovers closed guard or half guard during transition** (Effectiveness: Medium) - Your Response: Recognize guard recovery attempts early and increase hip pressure on that side. Use your grips to prevent leg insertion and drive your knee across centerline more aggressively while maintaining chest pressure. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent uses butterfly hooks to create distance and stand up** (Effectiveness: Low) - Your Response: Maintain constant forward pressure and heavy grips on upper body. If they begin standing, either follow them up to maintain pressure or establish strong grip controls to prevent their escape. → Leads to [[Positions/Butterfly Guard]]
 
 
 </section>

@@ -154,7 +154,7 @@ description: "Learn to defend the Triangle from Armbar transition in BJJ. Recogn
 
 As the defender facing a Triangle from Armbar transition, you are caught in a dilemma where your armbar defense is being weaponized against you to set up a triangle choke. Your primary recognition window is the moment the attacker begins reconfiguring their legs—this brief transition period represents your best escape opportunity because the attacker's control is temporarily reduced. Understanding that armbar defense postures such as clasped hands, stacking, and arm bending create triangle vulnerability is essential for prevention. Your defensive priority must shift from protecting the elbow to protecting the neck and preventing the triangle lock from being established. Acting decisively during the transition window rather than waiting until after the triangle is fully locked dramatically improves your escape probability and preserves your positional options.
 
-**Opponent's Starting Position**: [[Armbar Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Armbar Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender facing a Triangle from Armbar transition, you are caught in a di
 ### 1. Explosive posture recovery during the transition window before the triangle locks
 
 - **When to use**: The instant you feel the attacker's legs open from armbar position or their leg begins lifting. This is highest-priority defense because it addresses the transition before it completes.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You break free from both the armbar and the triangle attempt, typically recovering to half guard or open guard top position with initiative
 - **Risk**: If the attacker's grip on your arm holds, your posture recovery may actually drive your head deeper into a partially locked triangle, worsening your position
 
 ### 2. Extract the trapped arm during the grip transition when the attacker switches from two-hand armbar grip to single-hand control
 
 - **When to use**: When you feel the attacker's grip on your arm weaken or shift from two hands to one as they prepare for the leg swing. The grip change is a brief window of reduced control.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Without your arm trapped inside, the triangle loses its amplifying mechanism and becomes much easier to defend or escape entirely
 - **Risk**: If the arm extraction is only partial, the attacker may catch the arm back inside the triangle with even tighter control than before
 
 ### 3. Block the leg swing with your free hand by catching the attacker's shin or ankle before it clears your head
 
 - **When to use**: When you detect the far leg beginning to lift and arc toward your head. Your free hand must intercept the leg before it passes behind your neck.
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: The triangle entry is prevented entirely, and the attacker must either return to armbar or attempt a different transition while you work your armbar escape
 - **Risk**: Using your free hand to block the leg removes it from defensive framing, potentially allowing the attacker to adjust their armbar for the finish while your defense is occupied
 
 ### 4. Drive forward into a heavy stack, collapsing the space the attacker needs to configure the triangle
 
 - **When to use**: When you feel the triangle beginning to lock but the attacker has not yet adjusted the angle. Immediate forward pressure can prevent the finishing geometry from being established.
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: The stack prevents the attacker from achieving the perpendicular angle needed for effective choking, buying time to work a systematic triangle escape
 - **Risk**: If the attacker has already established the angle, stacking drives your head deeper into the choke and may accelerate the finish rather than prevent it
 
@@ -225,7 +225,7 @@ As the defender facing a Triangle from Armbar transition, you are caught in a di
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the transition window when the attacker's legs are between armbar and triangle configuration. Execute an explosive posture recovery combined with arm extraction during the grip transition. Drive forward and to the side, clearing your head past the attacker's legs before the triangle can lock. The brief period of reduced leg control is your primary escape opportunity—commit fully to posture recovery the instant you recognize the transition initiating.
 

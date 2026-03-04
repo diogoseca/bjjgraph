@@ -21,7 +21,7 @@ The transition demands precise coordination of grip fighting, weight transfer, a
 
 This positional improvement serves as the gateway to systematic guard passing. Once headquarters is established, the top player can methodically select passing routes based on the bottom player's defensive reactions, returning to headquarters between attempts rather than overcommitting to single directions. Understanding the Combat Base to Headquarters transition is essential for developing a pressure-based, systematic passing game that controls the opponent's options through measured positional advancement.
 
-**From Position**: [[Combat Base]] (Top)
+**From Position**: [[Positions/Combat Base]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This positional improvement serves as the gateway to systematic guard passing. O
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Headquarters Position]] | 55% |
-| Failure | [[Combat Base]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Headquarters Position]] | 55% |
+| Failure | [[Positions/Combat Base]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Combat Base to Headquarters transition occupies a central role in the guard 
 ## Related Techniques
 
 
-- [[Combat Base]] - Starting position from which this transition originates
+- [[Positions/Combat Base]] - Starting position from which this transition originates
 
-- [[Headquarters Position]] - Target position established upon successful completion of this transition
+- [[Positions/Headquarters Position]] - Target position established upon successful completion of this transition
 
-- [[Half Guard]] - Counter outcome position when bottom player captures the advancing leg during transition
+- [[Positions/Half Guard]] - Counter outcome position when bottom player captures the advancing leg during transition
 
-- [[Knee Shield Half Guard]] - Primary defensive structure that blocks this transition when established early
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Primary defensive structure that blocks this transition when established early
 
-- [[De La Riva Guard]] - Guard retention response that prevents leg isolation required for headquarters entry
+- [[Positions/De La Riva Guard]] - Guard retention response that prevents leg isolation required for headquarters entry
 
-- [[Butterfly Guard]] - Counter position where butterfly hooks create sweep threats during the advancement
+- [[Positions/Butterfly Guard]] - Counter position where butterfly hooks create sweep threats during the advancement
 
-- [[Knee Cut from Headquarters]] - Primary follow-up transition once headquarters is established
+- [[Transitions/Knee Cut from Headquarters]] - Primary follow-up transition once headquarters is established
 
-- [[Toreando Pass]] - Alternative passing option from combat base that bypasses headquarters entry
+- [[Transitions/Toreando Pass]] - Alternative passing option from combat base that bypasses headquarters entry
 
-- [[Leg Drag Pass]] - Alternative passing direction from combat base using leg manipulation
+- [[Transitions/Leg Drag Pass]] - Alternative passing direction from combat base using leg manipulation
 
-- [[Back Step Pass]] - Follow-up passing option from headquarters against deep half guard entries
+- [[Transitions/Back Step Pass]] - Follow-up passing option from headquarters against deep half guard entries
 
-- [[Body Lock Pass]] - Alternative passing system accessible from the headquarters platform
+- [[Transitions/Body Lock Pass]] - Alternative passing system accessible from the headquarters platform
 
 
 </section>

@@ -186,7 +186,7 @@ description: "Execute the Roll from Dead Orchard escape in BJJ. Step-by-step gui
 
 The Roll from Dead Orchard Attacker is the bottom player trapped in dead orchard control who executes a forward roll to escape the anaconda-style choke. When the top player's grip is deep and shoulder pressure is crushing, and frame-based escapes have been denied, this roll uses the opponent's committed forward pressure as the escape mechanism. The attacker must time the roll precisely during the moment the top player drives forward for the finish, redirecting that energy into rotational momentum that breaks the choke alignment. This technique requires courage to commit to a movement that temporarily exposes the back, combined with precise directional awareness to emerge in turtle rather than giving up back control. The roll represents the last line of defense before the choke becomes inescapable, making proper execution under extreme pressure an essential skill for advanced practitioners who find themselves caught in this position.
 
-**From Position**: [[Dead Orchard Control]] (Bottom)
+**From Position**: [[Positions/Dead Orchard Control]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ The Roll from Dead Orchard Attacker is the bottom player trapped in dead orchard
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 40% |
-| Failure | [[Dead Orchard Control]] | 35% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Turtle]] | 40% |
+| Failure | [[Positions/Dead Orchard Control]] | 35% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -250,10 +250,10 @@ The Roll from Dead Orchard Attacker is the bottom player trapped in dead orchard
 
 ## Opponent Counters
 
-- **Opponent follows the roll maintaining chest-to-back contact and inserts hooks during rotation** (Effectiveness: High) - Your Response: Accelerate through the roll faster than they can follow, and immediately begin hand-fighting their harness grips upon landing in turtle rather than allowing hooks to settle → Leads to [[Back Control]]
-- **Opponent sprawls hips back and drives shoulder weight down to prevent rotation from initiating** (Effectiveness: High) - Your Response: If the roll is completely blocked, abandon the attempt and return to frame-based defense at the neck, waiting for the next forward pressure commitment before reattempting → Leads to [[Dead Orchard Control]]
-- **Opponent releases anaconda grip during the roll and transitions to harness or seatbelt control** (Effectiveness: Medium) - Your Response: The grip release is actually a partial success since the choke threat is eliminated. Focus on preventing hook insertion by keeping elbows tight and immediately initiating turtle escape sequences → Leads to [[Back Control]]
-- **Opponent re-secures deeper anaconda grip after the roll stalls partway through** (Effectiveness: Medium) - Your Response: If the roll stalls, do not remain in the compromised mid-roll position. Either complete the roll with a second explosive hip drive or retreat fully to the starting position and reset your framing defense → Leads to [[Dead Orchard Control]]
+- **Opponent follows the roll maintaining chest-to-back contact and inserts hooks during rotation** (Effectiveness: High) - Your Response: Accelerate through the roll faster than they can follow, and immediately begin hand-fighting their harness grips upon landing in turtle rather than allowing hooks to settle → Leads to [[Positions/Back Control]]
+- **Opponent sprawls hips back and drives shoulder weight down to prevent rotation from initiating** (Effectiveness: High) - Your Response: If the roll is completely blocked, abandon the attempt and return to frame-based defense at the neck, waiting for the next forward pressure commitment before reattempting → Leads to [[Positions/Dead Orchard Control]]
+- **Opponent releases anaconda grip during the roll and transitions to harness or seatbelt control** (Effectiveness: Medium) - Your Response: The grip release is actually a partial success since the choke threat is eliminated. Focus on preventing hook insertion by keeping elbows tight and immediately initiating turtle escape sequences → Leads to [[Positions/Back Control]]
+- **Opponent re-secures deeper anaconda grip after the roll stalls partway through** (Effectiveness: Medium) - Your Response: If the roll stalls, do not remain in the compromised mid-roll position. Either complete the roll with a second explosive hip drive or retreat fully to the starting position and reset your framing defense → Leads to [[Positions/Dead Orchard Control]]
 
 
 </section>

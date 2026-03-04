@@ -210,25 +210,25 @@ Developed primarily within the 10th Planet Jiu-Jitsu system and refined by lockd
 
 ## Available Escapes
 
-### [[Old School Sweep]] (30% of attempts)
+### [[Transitions/Old School Sweep]] (30% of attempts)
 
-### [[Electric Chair Transition]] (14% of attempts)
+### [[Transitions/Electric Chair Transition]] (14% of attempts)
 
-### [[Butterfly Sweep]] (11% of attempts)
+### [[Transitions/Butterfly Sweep]] (11% of attempts)
 
-### [[Deep Half Entry]] (13% of attempts)
+### [[Transitions/Deep Half Entry]] (13% of attempts)
 
-### [[Lockdown Recovery]] (8% of attempts)
+### [[Transitions/Lockdown Recovery]] (8% of attempts)
 
-### [[Underhook Sweep from Half]] (8% of attempts)
+### [[Transitions/Underhook Sweep from Half]] (8% of attempts)
 
-### [[Kimura Sweep]] (8% of attempts)
+### [[Transitions/Kimura Sweep]] (8% of attempts)
 
-### [[Knee Shield Retention]] (5% of attempts)
+### [[Transitions/Knee Shield Retention]] (5% of attempts)
 
-### [[Escape Z-Lock Half Guard]] (2% of attempts)
+### [[Transitions/Escape Z-Lock Half Guard]] (2% of attempts)
 
-### [[Sweep from Z-Lock Half Guard]] (1% of attempts)
+### [[Transitions/Sweep from Z-Lock Half Guard]] (1% of attempts)
 
 
 
@@ -239,23 +239,23 @@ Developed primarily within the 10th Planet Jiu-Jitsu system and refined by lockd
 ## Decision Making from This Position
 
 **If opponent bases out wide with their free leg to counter butterfly hook attacks:**
-- Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 55%)
-- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 45%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 45%)
 
 
 **If opponent drives forward with pressure attempting to flatten bottom player:**
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 60%)
-- Execute **[[Lockdown Recovery]]** → [[Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If opponent remains centered and defensive with good posture:**
-- Execute **[[Butterfly Sweep]]** → [[Mount]] (Probability: 50%)
-- Execute **[[Underhook Sweep from Half]]** → [[Mount]] (Probability: 45%)
+- Execute **[[Transitions/Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 **If opponent attempts to clear lockdown by straightening their trapped leg:**
-- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 65%)
-- Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 65%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 
@@ -389,14 +389,14 @@ Positional sparring starting from Z-Lock Half Guard Bottom. Bottom player can on
 
 ## Related Positions and Techniques
 
-- **[[Lockdown]]** - Parent position - Z-Lock is advanced variation adding butterfly hook element
-- **[[Deep Half Guard]]** - Common transition target when opponent applies forward pressure
-- **[[Electric Chair]]** - Primary submission threat from Z-Lock configuration
-- **[[Butterfly Half Guard]]** - Similar concept using butterfly hook in half guard context
-- **[[Half Guard]]** - Parent category - Z-Lock is specialized variation
-- **[[Dogfight Position]]** - Transition position when coming up from Z-Lock
-- **[[Old School Sweep]]** - Primary sweep transition from Z-Lock bottom
-- **[[Flattened Half Guard]]** - Worst-case position when Z-Lock retention fails under pressure
+- **[[Positions/Half Guard/Lockdown]]** - Parent position - Z-Lock is advanced variation adding butterfly hook element
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common transition target when opponent applies forward pressure
+- **[[Positions/Half Guard/Electric Chair]]** - Primary submission threat from Z-Lock configuration
+- **[[Positions/Half Guard/Butterfly Half Guard]]** - Similar concept using butterfly hook in half guard context
+- **[[Positions/Half Guard]]** - Parent category - Z-Lock is specialized variation
+- **[[Positions/Dogfight Position]]** - Transition position when coming up from Z-Lock
+- **[[Transitions/Old School Sweep]]** - Primary sweep transition from Z-Lock bottom
+- **[[Positions/Half Guard/Flattened Half Guard]]** - Worst-case position when Z-Lock retention fails under pressure
 
 
 </section>

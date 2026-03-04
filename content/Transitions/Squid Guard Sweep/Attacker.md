@@ -186,7 +186,7 @@ description: "Execute the Squid Guard Sweep with precision. Step-by-step guide c
 
 The Squid Guard Sweep attacker operates from bottom position with established lapel control and a threading leg hook, using these two primary control points to generate a compound off-balancing force that collapses the top player's base. The attacker's strategy revolves around creating tension between the lapel pull and hook extension to load the opponent's weight into a direction where they cannot post or recover. Success requires reading the opponent's weight distribution, selecting the appropriate sweep timing, and committing fully to the rotation once the window opens. The attacker must also maintain awareness of chain attack options — when the sweep is defended, the same grip configuration opens pathways to back takes, inversions, and alternative sweep angles that keep the opponent constantly defending.
 
-**From Position**: [[Squid Guard]] (Bottom)
+**From Position**: [[Positions/Squid Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ The Squid Guard Sweep attacker operates from bottom position with established la
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Squid Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Squid Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ The Squid Guard Sweep attacker operates from bottom position with established la
 
 ## Opponent Counters
 
-- **Opponent widens base and drops hips low to resist lateral off-balancing** (Effectiveness: Medium) - Your Response: Switch to an inversion-based back take since their wide base exposes the back. The defensive posture that resists the sweep creates the exact opening needed for berimbolo or Kiss of the Dragon entries. → Leads to [[Squid Guard]]
-- **Opponent strips the lapel grip before the sweep can develop** (Effectiveness: High) - Your Response: Immediately transition to standard De La Riva Guard using the existing hook while attempting to re-feed the lapel. If re-feeding is not possible, threaten triangle or omoplata from the De La Riva configuration to force the opponent to give space for lapel recovery. → Leads to [[Half Guard]]
-- **Opponent backsteps to extract the threading leg and disengage from Squid Guard entirely** (Effectiveness: Medium) - Your Response: Follow their backstep with hip rotation to maintain the hook connection. If the hook clears, immediately transition to Reverse De La Riva or Lasso Guard to maintain some form of guard retention rather than conceding open guard. → Leads to [[Squid Guard]]
-- **Opponent posts free hand and drops weight directly into the sweep to stall the rotation** (Effectiveness: High) - Your Response: Target the posting arm with a sleeve grip or wrist control. If you can strip the post, the sweep completes. If not, use their forward weight commitment to initiate an inversion underneath them for a back take rather than continuing to fight the stalled sweep. → Leads to [[Half Guard]]
+- **Opponent widens base and drops hips low to resist lateral off-balancing** (Effectiveness: Medium) - Your Response: Switch to an inversion-based back take since their wide base exposes the back. The defensive posture that resists the sweep creates the exact opening needed for berimbolo or Kiss of the Dragon entries. → Leads to [[Positions/Squid Guard]]
+- **Opponent strips the lapel grip before the sweep can develop** (Effectiveness: High) - Your Response: Immediately transition to standard De La Riva Guard using the existing hook while attempting to re-feed the lapel. If re-feeding is not possible, threaten triangle or omoplata from the De La Riva configuration to force the opponent to give space for lapel recovery. → Leads to [[Positions/Half Guard]]
+- **Opponent backsteps to extract the threading leg and disengage from Squid Guard entirely** (Effectiveness: Medium) - Your Response: Follow their backstep with hip rotation to maintain the hook connection. If the hook clears, immediately transition to Reverse De La Riva or Lasso Guard to maintain some form of guard retention rather than conceding open guard. → Leads to [[Positions/Squid Guard]]
+- **Opponent posts free hand and drops weight directly into the sweep to stall the rotation** (Effectiveness: High) - Your Response: Target the posting arm with a sleeve grip or wrist control. If you can strip the post, the sweep completes. If not, use their forward weight commitment to initiate an inversion underneath them for a back take rather than continuing to fight the stalled sweep. → Leads to [[Positions/Half Guard]]
 
 
 </section>

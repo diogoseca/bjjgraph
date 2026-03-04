@@ -146,7 +146,7 @@ description: "Complete guide to preventing posture recovery from Williams Guard.
 
 Defending against posture recovery from Williams Guard means maintaining the integrated control system where shoulder lock pressure and guard structure reinforce each other. As the Williams Guard bottom player, your opponent's posture attempt represents a critical moment where their defensive movement can be converted into offensive opportunity. Every weight shift they make to escape creates temporary base instability exploitable for sweeps, while their arm extraction attempts open transition pathways to omoplata, triangle, and back take positions. Your primary defensive objective is maintaining the shoulder lock connection that prevents postural advancement, but your secondary objective—equally important—is recognizing and capitalizing on the offensive windows that escape attempts create. The most skilled Williams Guard players welcome posture attempts because each one provides a predictable set of reactions that feed directly into their attacking chains.
 
-**Opponent's Starting Position**: [[Williams Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Williams Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending against posture recovery from Williams Guard means maintaining the int
 ### 1. Tighten shoulder lock and increase leg frame pressure
 
 - **When to use**: When you detect the earliest signs of circular arm extraction—small elbow rotation movements or subtle weight redistribution
-- **Targets**: [[Williams Guard]]
+- **Targets**: [[Positions/Williams Guard]]
 - **If successful**: Opponent's extraction attempt stalls and they must reset their escape sequence, buying you time to establish deeper control or transition to an attacking chain
 - **Risk**: Over-tightening the shoulder lock may prompt an explosive escape reaction that creates unpredictable scramble dynamics
 
 ### 2. Execute hip bump sweep during opponent's backward weight shift
 
 - **When to use**: When you feel the opponent's weight moving backward during the posture recovery phase—this is when their base is most compromised and forward resistance is minimal
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent is swept to bottom position, typically landing in half guard bottom where you achieve top control with significant positional advantage
 - **Risk**: Mistiming the hip bump against a well-based opponent who has not committed to the backward shift wastes energy and may open your guard
 
 ### 3. Transition to omoplata as space opens during arm extraction
 
 - **When to use**: When the opponent creates space during their extraction attempt, particularly when they begin shifting weight backward and their shoulder becomes accessible for leg positioning
-- **Targets**: [[Williams Guard]]
+- **Targets**: [[Positions/Williams Guard]]
 - **If successful**: You bypass the posture recovery entirely by transitioning to a higher-threat submission position that resets the exchange in your favor
 - **Risk**: Failed omoplata transition may accelerate the opponent's posture recovery if your legs lose their guard structure during the rotation attempt
 
 ### 4. Pull opponent back down using leg squeeze and collar or head control
 
 - **When to use**: When the opponent achieves partial posture recovery but has not yet fully neutralized the shoulder lock—their upright position is unstable and vulnerable to being pulled back into broken posture
-- **Targets**: [[Williams Guard]]
+- **Targets**: [[Positions/Williams Guard]]
 - **If successful**: Opponent's posture recovery is reversed and they return to broken posture within Williams Guard where you can re-establish full control and resume your attacking sequence
 - **Risk**: If the opponent has already extracted their arm significantly, pulling them down may result in closed guard rather than Williams Guard re-establishment
 
@@ -217,11 +217,11 @@ Defending against posture recovery from Williams Guard means maintaining the int
 
 ## Best-Case Outcomes for Defender
 
-### → [[Williams Guard]]
+### → [[Positions/Williams Guard]]
 
 Maintain constant shoulder lock tension through active grip management and prevent the opponent's circular arm extraction from progressing. Use leg frames to block their backward hip drive and apply counter-pressure whenever they attempt weight redistribution. Tighten your shoulder lock incrementally during each failed extraction attempt to build cumulative control.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a hip bump sweep to coincide with the opponent's backward weight shift during the posture recovery phase. Their commitment to moving weight posteriorly creates a forward sweep opportunity with minimal resistance. Bridge into their retreating base, directing the sweep laterally to land in half guard top where you maintain significant positional advantage.
 

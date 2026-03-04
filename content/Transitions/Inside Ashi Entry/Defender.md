@@ -154,7 +154,7 @@ description: "How to defend against Inside Ashi Entry in BJJ. Recognition cues, 
 
 Defending the Inside Ashi Entry requires early recognition and immediate action before your opponent can consolidate leg control. The entry is most vulnerable during the threading phase when their inside leg has not yet crossed your hip, making this the critical window for prevention. Once the entanglement is established with both legs controlling yours and a heel grip secured, escape becomes exponentially more difficult and dangerous due to heel hook threats. Your defensive strategy should prioritize denying the inside leg position entirely through hip management and distance control, with secondary options focused on extracting your heel and clearing your leg before submissions can be applied. Understanding the attacker's sequence allows you to disrupt each phase systematically rather than panicking once caught.
 
-**Opponent's Starting Position**: [[Open Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Inside Ashi Entry requires early recognition and immediate action 
 ### 1. Sprawl and drive hips forward immediately when you feel the initial ankle or knee grip, pushing your weight over their guard before they can thread the inside leg
 
 - **When to use**: Earliest possible defense - use the moment you feel two-on-one grip on your leg and before their inside leg begins threading between yours
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You flatten opponent under your pressure, breaking their guard structure and returning to standard open guard top passing position
 - **Risk**: If you sprawl too late and their inside leg is already partially threaded, your forward momentum may help them complete the entry by loading weight onto their wedge
 
 ### 2. Step back explosively with the attacked leg while stripping their grip, pulling your knee out of their control and re-establishing distance
 
 - **When to use**: Use when their inside leg is beginning to thread but has not yet crossed fully across your hip, and you still have freedom to move your attacked leg backward
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You extract your leg from the developing entanglement and reset to standing open guard position with distance restored
 - **Risk**: If opponent maintains ankle grip during your retreat, they may follow your backward movement and use your momentum to pull themselves into single leg X-guard
 
 ### 3. Counter-entangle by immediately attacking their free leg with your own inside hook, establishing a mirror position to neutralize their offensive advantage
 
 - **When to use**: Use when their inside leg has already crossed your hip and extraction is difficult, but their outside leg hook is not yet fully secured
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You establish a neutral 50-50 or mirror entanglement that eliminates their positional advantage and creates a mutual leg lock exchange
 - **Risk**: Engaging in counter-entanglement means accepting a leg lock battle where the more skilled leg locker has advantage, and you may end up in a worse entanglement if your counter is incomplete
 
 ### 4. Rotate your hip forcefully toward the attacker while posting your free leg wide, turning your trapped knee away from heel hook exposure and creating extraction angle
 
 - **When to use**: Use when inside ashi is partially established but attacker has not yet secured heel grip, and you still have hip mobility
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Your hip rotation clears the inside leg wedge and allows you to extract your trapped leg, returning to open guard engagement
 - **Risk**: If attacker follows your rotation and transitions to outside ashi or saddle, you may end up in a worse entanglement than the original inside ashi
 
@@ -225,11 +225,11 @@ Defending the Inside Ashi Entry requires early recognition and immediate action 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Extract your trapped leg by addressing grips early and either sprawling to prevent the entry or stepping back explosively before the inside leg wedge is established. Strip their ankle/knee grips using two-on-one hand control, then immediately re-establish distance with frames on their hips. The key is acting within the first 2-3 seconds of their entry attempt before consolidation.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Counter-entangle their free leg when inside ashi is partially established, creating a mirror position that neutralizes their advantage. From the resulting neutral entanglement, disengage by backing out and standing up. Alternatively, if you successfully sprawl early and flatten them, use the forward pressure to begin a guard pass sequence, converting their failed entry into your passing opportunity.
 

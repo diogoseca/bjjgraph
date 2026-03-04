@@ -146,7 +146,7 @@ description: "Complete defensive guide for the Backstep Pass from Reverse X-Guar
 
 Defending the Backstep Pass from Reverse X-Guard requires early recognition of the top player's rotational intent and immediate follow-through to maintain guard structure or capitalize on back exposure during the rotation. The defender's primary advantage is that the backstep inherently turns the passer's back partially toward them, creating back-taking opportunities if the defender can follow the rotation with hip movement and inversion. Effective defense combines maintaining active hook pressure to delay the rotation, following the passer's movement with coordinated hip rotation, and transitioning to alternative guards or back takes when the pass cannot be fully prevented. The defender must distinguish between moments to fight for hook retention and moments to flow with the movement toward a better position.
 
-**Opponent's Starting Position**: [[Reverse X-Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/X-Guard/Reverse X-Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Backstep Pass from Reverse X-Guard requires early recognition of t
 ### 1. Follow the backstep with inversion to take the back
 
 - **When to use**: When you recognize the backstep early and the opponent has committed to the rotation—their turning back creates a direct path to back control
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You establish back control with hooks as the passer's rotation exposes their back during the backstep arc
 - **Risk**: If your inversion is too slow, the passer completes the backstep and you end up flat with no hooks and no guard
 
 ### 2. Increase hook pressure and resist rotation by bending knees and pulling hooks tight
 
 - **When to use**: Early in the backstep attempt when the opponent has not yet committed fully to the rotation—strong hooks can stall or abort the backstep
-- **Targets**: [[Reverse X-Guard]]
+- **Targets**: [[Positions/X-Guard/Reverse X-Guard]]
 - **If successful**: Opponent's backstep stalls and they remain in your Reverse X-Guard, often with compromised posture from the failed attempt
 - **Risk**: If the opponent's rotation is already committed, excessive hook stiffness can create knee torque on your own legs
 
 ### 3. Transition to Single Leg X-Guard by rethreading hooks during the rotation
 
 - **When to use**: When your primary hooks are being cleared but you can quickly reclassify leg control into a Single Leg X configuration as the passer rotates
-- **Targets**: [[Reverse X-Guard]]
+- **Targets**: [[Positions/X-Guard/Reverse X-Guard]]
 - **If successful**: You retain leg entanglement control in a new guard configuration, maintaining your offensive position despite the passing attempt
 - **Risk**: Rethreading hooks during the backstep rotation requires excellent timing—too slow and the passer clears all hooks
 
 ### 4. Use sleeve grip to off-balance passer during rotation and initiate sweep
 
 - **When to use**: When you have strong sleeve or wrist control and the opponent's weight transfers to their posting leg—pulling the grip disrupts their balance mid-backstep
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Passer loses balance during rotation and you recover to at least half guard with favorable grips
 - **Risk**: If the grip fails or breaks, you lose your best connection point and the passer completes the backstep freely
 
@@ -217,11 +217,11 @@ Defending the Backstep Pass from Reverse X-Guard requires early recognition of t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Follow the backstep rotation with an inversion, maintaining hook connection as long as possible, then transition hooks from guard control to back hooks as the passer's back turns toward you. Secure seatbelt control immediately upon establishing back position.
 
-### → [[Reverse X-Guard]]
+### → [[Positions/X-Guard/Reverse X-Guard]]
 
 Increase hook pressure and resist the rotation early by bending knees and pulling the passer's trapped leg tight. Combine with sleeve or collar grip control to anchor their upper body and prevent the rotation from gaining momentum. Use the failed backstep to off-balance the passer for a sweep.
 

@@ -216,25 +216,25 @@ Ultimately, the best defense against mounted crucifix bottom is prevention. Unde
 
 ## Available Escapes
 
-### [[Arm Extraction]] (32% of attempts)
+### [[Transitions/Arm Extraction]] (32% of attempts)
 
-### [[Bridge and Roll]] (12% of attempts)
+### [[Transitions/Bridge and Roll]] (12% of attempts)
 
-### [[Elbow Escape to Guard]] (14% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (14% of attempts)
 
-### [[Upa Escape]] (9% of attempts)
+### [[Transitions/Upa Escape]] (9% of attempts)
 
-### [[Hip Escape to Guard]] (12% of attempts)
+### [[Transitions/Hip Escape to Guard]] (12% of attempts)
 
-### [[Explosive Bridge to Turtle]] (10% of attempts)
+### [[Transitions/Explosive Bridge to Turtle]] (10% of attempts)
 
-### [[Arm Drag Sweep]] (3% of attempts)
+### [[Transitions/Arm Drag Sweep]] (3% of attempts)
 
-### [[Rolling Escape to Guard]] (6% of attempts)
+### [[Transitions/Rolling Escape to Guard]] (6% of attempts)
 
-### [[Hip Escape from Mounted Crucifix]] (1% of attempts)
+### [[Transitions/Hip Escape from Mounted Crucifix]] (1% of attempts)
 
-### [[Bridge Escape from Mounted Crucifix]] (1% of attempts)
+### [[Transitions/Bridge Escape from Mounted Crucifix]] (1% of attempts)
 
 
 
@@ -245,27 +245,27 @@ Ultimately, the best defense against mounted crucifix bottom is prevention. Unde
 ## Decision Making from This Position
 
 **If opponent attacks neck with choke while arms are trapped:**
-- Execute **[[Chin Protection and Shoulder Defense]]** → [[Mounted Crucifix]] (Probability: 70%)
-- Execute **[[Explosive Bridge to Turtle]]** → [[Turtle]] (Probability: 25%)
-- Execute **[[Tap Out]]** → [[Game Over]] (Probability: 5%)
+- Execute **[[Chin Protection and Shoulder Defense]]** → [[Positions/Mount/Mounted Crucifix]] (Probability: 70%)
+- Execute **[[Transitions/Explosive Bridge to Turtle]]** → [[Positions/Turtle]] (Probability: 25%)
+- Execute **[[Tap Out]]** → [[Positions/Game Over]] (Probability: 5%)
 
 
 **If opponent isolates free arm for submission attempt:**
-- Execute **[[Arm Extraction]]** → [[Mount]] (Probability: 45%)
-- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 35%)
-- Execute **[[Frame Creation]]** → [[Mount]] (Probability: 20%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Mount]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
+- Execute **[[Principles/Frame Creation]]** → [[Positions/Mount]] (Probability: 20%)
 
 
 **If opponent shifts weight to transition to back control:**
-- Execute **[[Bridge and Roll]]** → [[Closed Guard]] (Probability: 35%)
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 40%)
-- Execute **[[Shrimp Escape]]** → [[Back Control]] (Probability: 25%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Back Control]] (Probability: 25%)
 
 
 **If opponent loosens leg control temporarily:**
-- Execute **[[Arm Extraction]]** → [[Mount]] (Probability: 55%)
-- Execute **[[Explosive Bridge to Turtle]]** → [[Turtle]] (Probability: 30%)
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 15%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Explosive Bridge to Turtle]]** → [[Positions/Turtle]] (Probability: 30%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 15%)
 
 
 
@@ -399,14 +399,14 @@ Start with partner giving 50% resistance in mounted crucifix. Execute full escap
 
 ## Related Positions and Techniques
 
-- **[[Mount]]** - Parent position - escaping to standard mount is first step in recovery sequence
-- **[[Crucifix]]** - Related control - shares arm-trapping mechanics that must be understood for escape
-- **[[Back Control]]** - Common transition - opponent often advances here from mounted crucifix
-- **[[Open Guard]]** - Recovery target - successful hip escapes may lead to open guard positions
-- **[[Half Guard]]** - Recovery target - successful hip escapes often lead to half guard
-- **[[Turtle]]** - Transitional escape - explosive bridge may lead to turtle position
-- **[[Closed Guard]]** - Ultimate recovery goal - safe position to establish after escape
-- **[[Side Control]]** - Transitional position - may accept temporarily during escape sequence
+- **[[Positions/Mount]]** - Parent position - escaping to standard mount is first step in recovery sequence
+- **[[Positions/Crucifix]]** - Related control - shares arm-trapping mechanics that must be understood for escape
+- **[[Positions/Back Control]]** - Common transition - opponent often advances here from mounted crucifix
+- **[[Positions/Open Guard]]** - Recovery target - successful hip escapes may lead to open guard positions
+- **[[Positions/Half Guard]]** - Recovery target - successful hip escapes often lead to half guard
+- **[[Positions/Turtle]]** - Transitional escape - explosive bridge may lead to turtle position
+- **[[Positions/Closed Guard]]** - Ultimate recovery goal - safe position to establish after escape
+- **[[Positions/Side Control]]** - Transitional position - may accept temporarily during escape sequence
 
 
 </section>

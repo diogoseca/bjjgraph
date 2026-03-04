@@ -154,7 +154,7 @@ description: "How to defend against North-South Escape in BJJ. Recognition cues,
 
 As the top player in north-south, your opponent's escape attempts represent a direct threat to your dominant control position. The defender's role in the North-South Escape context means you are the top player working to maintain your pin and prevent guard recovery. Understanding the bottom player's escape mechanics allows you to anticipate their movement, shut down space creation before it develops, and capitalize on their escape attempts by transitioning to even more dominant positions or submission attacks. Effective defense requires constant pressure adjustment, proactive arm control to deny framing, and the ability to flow between north-south, side control, and mount based on your opponent's reactions. The best defense against escape attempts is not static weight - it is dynamic pressure that adapts to every micro-movement your opponent makes, forcing them to restart their escape sequence repeatedly until fatigue compromises their technique.
 
-**Opponent's Starting Position**: [[North-South]] (Bottom)
+**Opponent's Starting Position**: [[Positions/North-South]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the top player in north-south, your opponent's escape attempts represent a di
 ### 1. Sprawl hips back and widen base to kill the bridge
 
 - **When to use**: When you feel the bottom player loading their bridge by planting feet and driving hips upward against your chest
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: Bottom player's bridge fails to generate space, they exhaust energy and must reset their escape sequence from scratch
 - **Risk**: Sprawling too far back shifts your weight off their chest, potentially creating space for them to turn to their side
 
 ### 2. Transition to side control by hip-switching as they turn
 
 - **When to use**: When the bottom player successfully turns to their side and begins inserting a knee shield, making north-south control unsustainable
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You convert their partial escape into a new dominant control position, maintaining top pressure and resetting their escape progress
 - **Risk**: If you time the transition poorly, the bottom player may complete their guard recovery during the positional change
 
 ### 3. Step over to mount as they create lateral space
 
 - **When to use**: When the bottom player's bridge and turn creates a gap between your bodies but their knee shield has not yet been established
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You advance to an even more dominant position, converting their escape energy expenditure into a worse situation for them
 - **Risk**: If their knee insertion is faster than your step-over, you may get caught in half guard instead of achieving full mount
 
 ### 4. Attack kimura on the near arm as they create frames
 
 - **When to use**: When the bottom player extends their arm to create frames against your hips or chest, exposing the near-side arm for grip isolation
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: The submission threat forces them to abandon their escape to defend the kimura, resetting their escape sequence and draining their energy
 - **Risk**: Committing to the kimura grip shifts your weight to one side, potentially creating the exact weight imbalance the bottom player needs to bridge and escape
 
@@ -225,15 +225,15 @@ As the top player in north-south, your opponent's escape attempts represent a di
 
 ## Best-Case Outcomes for Defender
 
-### → [[North-South]]
+### → [[Positions/North-South]]
 
 Maintain heavy forward pressure with chest over opponent's sternum, control both arms to deny framing, and widen base immediately when you feel bridging attempts. Reset your weight distribution after each failed escape to prevent cumulative space creation.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the bottom player successfully turns to their side, immediately hip-switch and transition to side control rather than fighting to re-establish north-south. Secure crossface and underhook control as you transition to prevent guard recovery during the positional change.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Time your step-over to mount during the brief window after their bridge creates space but before they can insert a knee shield. Drive your knee across their hip line as they turn, using their own lateral movement to facilitate your mount transition.
 

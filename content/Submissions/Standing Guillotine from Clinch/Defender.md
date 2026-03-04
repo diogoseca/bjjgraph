@@ -158,7 +158,7 @@ Defending the standing guillotine from clinch requires immediate recognition and
 
 The defensive hierarchy follows three priorities in strict order: first, protect the airway and create breathing room by tucking the chin and fighting the choking grip; second, address the positional threat by either posturing up to break the choke or driving forward to change the dynamics; and third, counter-attack to establish your own dominant position. Many practitioners invert these priorities by immediately trying to escape or counter without first securing their breathing, which leads to panicked movement and faster submission. The key insight for effective defense is that surviving the first three seconds of a well-set guillotine creates exponential improvement in escape probability as the attacker's grip begins to fatigue in the demanding standing position.
 
-**Opponent's Starting Position**: [[Clinch]] ()
+**Opponent's Starting Position**: [[Positions/Clinch]] ()
 
 
 </section>
@@ -197,28 +197,28 @@ The defensive hierarchy follows three priorities in strict order: first, protect
 ### 1. Immediate posture recovery: Plant both hands on opponent's hips, straighten spine, and drive head upward to break the chest-to-crown seal
 
 - **When to use**: Early in the attack before the grip is fully locked and before the attacker has established chest pressure. Most effective in the first one to two seconds of the attempt.
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Returns both practitioners to neutral clinch position with the guillotine threat neutralized
 - **Risk**: If the grip is already deep and locked, posturing up can actually tighten the choke by extending your neck into the forearm
 
 ### 2. Two-on-one grip strip: Use both hands to peel the attacker's choking wrist away from under your chin, pulling the forearm toward your chest to create space
 
 - **When to use**: When the attacker has the grip locked but has not yet established full chest pressure or hip fulcrum positioning. Effective when you can access the choking wrist.
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Breaks the choke entirely, returning to neutral clinch with opportunity to re-engage on your terms
 - **Risk**: Committing both hands to grip stripping leaves you unable to frame against the attacker's body, allowing them to adjust and re-establish the grip
 
 ### 3. Forward drive to side control: Drop your level, drive your shoulder into the attacker's hip, and bulldoze them backward while stepping past their hip to achieve side control
 
 - **When to use**: When the guillotine grip is deep and locked, posture recovery has failed, and you need to change the dynamics before the choke finishes. Commit fully to the forward drive.
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You pass to side control where the guillotine becomes extremely difficult to maintain, and the attacker risks a Von Flue choke counter
 - **Risk**: The forward drive temporarily tightens the choke as you move into it. If you stall mid-drive without completing the pass, you end up in a worse position with more choking pressure.
 
 ### 4. Circle to arm-in side and extract head: Turn your body toward the same side as the attacker's choking arm while tucking chin, creating angle that loosens the grip
 
 - **When to use**: When the choke is partially set but the attacker has not achieved the high-elbow position. Circling to the arm-in side creates slack on the choking forearm.
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Creates enough angle to extract your head from the choke and return to neutral clinch
 - **Risk**: If the attacker reads the circle and adjusts their angle, they can switch to an arm-in variation that traps your near arm inside the choke
 
@@ -241,11 +241,11 @@ The defensive hierarchy follows three priorities in strict order: first, protect
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Drive forward through the guillotine attempt, stepping past the attacker's hip to establish side control. From here the guillotine is nearly impossible to maintain and you can apply a Von Flue choke as a powerful counter-submission.
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Strip the choking grip early using posture recovery and two-on-one hand fighting before the attacker establishes full chest pressure and hip positioning. Return to neutral clinch where you can re-engage with grip fighting advantage.
 

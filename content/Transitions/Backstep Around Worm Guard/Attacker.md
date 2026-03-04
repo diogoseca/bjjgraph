@@ -178,7 +178,7 @@ The backstep works by changing the vector of your passing approach entirely. Rat
 
 Strategically, this pass is most effective when opponent has committed heavily to the worm guard configuration but hasn't yet loaded offensive attacks. The timing window opens when they're focused on maintaining the wrap rather than attacking. The backstep creates a race condition: you're attempting to navigate around their guard faster than they can adjust the lapel configuration to follow your movement. Understanding this dynamic is essential for both execution timing and recognizing when opponents are setting traps by appearing committed to static worm guard while actually waiting to take your back.
 
-**From Position**: [[Lapel Guard]] (Top)
+**From Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
 
@@ -230,10 +230,10 @@ Strategically, this pass is most effective when opponent has committed heavily t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 50% |
-| Success | [[Side Control]] | 15% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Turtle]] | 50% |
+| Success | [[Positions/Side Control]] | 15% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -242,9 +242,9 @@ Strategically, this pass is most effective when opponent has committed heavily t
 
 ## Opponent Counters
 
-- **Sit-up to back take: Opponent releases lapel and sits up aggressively, following your rotation to take your back** (Effectiveness: High) - Your Response: Maintain extremely heavy shoulder pressure throughout the backstep. If they begin sitting up, sprawl your hips and switch to front headlock rather than completing the pass. → Leads to [[Back Control]]
-- **Reconfiguration to squid guard: Opponent redirects the lapel around your posting arm as you begin rotating** (Effectiveness: Medium) - Your Response: Keep your posting arm elbow tight to your body during the backstep. If they capture it, abandon the backstep and address the new configuration before continuing. → Leads to [[Lapel Guard]]
-- **Leg pummeling to re-guard: Opponent uses the moment of transition to insert butterfly hooks or recover closed guard** (Effectiveness: Medium) - Your Response: Maintain knee-to-mat contact on opponent's hip throughout the backstep. Don't allow space for their legs to pummel inside your position. → Leads to [[Lapel Guard]]
+- **Sit-up to back take: Opponent releases lapel and sits up aggressively, following your rotation to take your back** (Effectiveness: High) - Your Response: Maintain extremely heavy shoulder pressure throughout the backstep. If they begin sitting up, sprawl your hips and switch to front headlock rather than completing the pass. → Leads to [[Positions/Back Control]]
+- **Reconfiguration to squid guard: Opponent redirects the lapel around your posting arm as you begin rotating** (Effectiveness: Medium) - Your Response: Keep your posting arm elbow tight to your body during the backstep. If they capture it, abandon the backstep and address the new configuration before continuing. → Leads to [[Positions/Lapel Guard]]
+- **Leg pummeling to re-guard: Opponent uses the moment of transition to insert butterfly hooks or recover closed guard** (Effectiveness: Medium) - Your Response: Maintain knee-to-mat contact on opponent's hip throughout the backstep. Don't allow space for their legs to pummel inside your position. → Leads to [[Positions/Lapel Guard]]
 
 
 </section>

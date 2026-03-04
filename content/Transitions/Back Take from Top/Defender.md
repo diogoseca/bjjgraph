@@ -152,7 +152,7 @@ The defender's primary advantage is that the attacker must release their guillot
 
 Defensive success depends on controlling the pace of your own turn. Rather than explosively rotating and giving the attacker momentum to follow, use measured hip escapes combined with immediate elbow and shoulder frames that block seat belt establishment. Your elbows must stay tight throughout, and the moment you feel the guillotine pressure release, your priority shifts from neck defense to preventing upper body control and hook insertion.
 
-**Opponent's Starting Position**: [[Hindulotine]] (Top)
+**Opponent's Starting Position**: [[Positions/Hindulotine]] (Top)
 
 </section>
 
@@ -189,21 +189,21 @@ Defensive success depends on controlling the pace of your own turn. Rather than 
 ### 1. Complete the turn explosively and re-face opponent before hooks are inserted, using frames on their biceps and hips to create distance and recover to guard or combat base
 
 - **When to use**: Early in the transition when attacker has released guillotine but has not yet secured seat belt or inserted any hooks
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: You face the opponent and recover to a neutral guard position or combat base, negating both the choke and the back take attempt
 - **Risk**: If you turn too slowly, the attacker follows and establishes seat belt during the rotation, putting you in a worse position with back partially exposed
 
 ### 2. Tighten into a compact defensive turtle by dropping elbows to knees, tucking chin, and keeping hips low to deny both hooks and seat belt access
 
 - **When to use**: When the attacker has established partial upper body control and you cannot safely complete the turn to face them
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You achieve a tight turtle position that is significantly harder for the attacker to convert to full back control, giving you time to work turtle escapes
 - **Risk**: Staying in turtle too long allows the attacker to methodically break down your defensive structure through systematic grip fighting and pressure
 
 ### 3. Post your near arm and drive your hips backward into the attacker while sprawling your legs away, preventing them from getting underneath you for hooks
 
 - **When to use**: When you feel the attacker's legs beginning to thread alongside your hips during the transition
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: Your sprawl denies hook insertion and your arm post prevents being pulled to your side, allowing you to reset to a more defensible position or stand up
 - **Risk**: The posted arm can be targeted for arm drag or gift wrap, and committing to the sprawl may leave your neck briefly vulnerable if the attacker re-attacks the guillotine
 
@@ -215,11 +215,11 @@ Defensive success depends on controlling the pace of your own turn. Rather than 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Hindulotine]]
+### → [[Positions/Hindulotine]]
 
 Exploit the grip transition window by turning fully through before seat belt is secured, using frames on attacker's arms and hips to create enough distance to re-face them and recover guard or stand to combat base
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 When full escape is not possible, achieve a tight defensive turtle by collapsing elbows to knees, keeping hips low, and tucking chin immediately upon feeling the guillotine release, denying the attacker easy access to hooks and seat belt
 

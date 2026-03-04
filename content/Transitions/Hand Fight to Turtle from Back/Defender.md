@@ -138,7 +138,7 @@ description: "Learn to counter hand fighting escapes when you have back control.
 
 As the practitioner maintaining back control, your objective is to prevent the opponent from successfully stripping your controlling grips and rotating to turtle. This requires understanding the escape sequence your opponent will follow and proactively countering each phase before momentum builds. The most effective defense combines persistent grip re-establishment with strategic positional transitions when control is compromised. Recognizing the early cues of this escape, particularly the deliberate two-on-one hand fighting and controlled hip shifting, allows you to address it proactively. When prevention fails, the ability to follow the opponent's rotation into mount rather than losing position entirely transforms a defensive failure into a positional transition that maintains your dominance.
 
-**Opponent's Starting Position**: [[Back Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
 
@@ -176,28 +176,28 @@ As the practitioner maintaining back control, your objective is to prevent the o
 ### 1. Immediately re-establish harness grip using persistent re-gripping and grip variation switching
 
 - **When to use**: When opponent strips your seatbelt but has not yet begun rotating their hips or creating significant angle
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Resets opponent's escape progress completely and forces them to restart the grip stripping sequence from the beginning
 - **Risk**: Opponent may strip the re-established grip faster each time as they learn your grip pattern and your forearms fatigue
 
 ### 2. Follow opponent's rotation and drive hips over the top to transition to mount position
 
 - **When to use**: When opponent has stripped upper body control and committed to turning toward turtle with sufficient rotation that back control retention is impractical
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Achieves mount position which scores 4 points and provides strong submission opportunities while denying the turtle escape entirely
 - **Risk**: Mistiming the mount transition may allow opponent to complete the turtle escape and begin guard recovery sequence
 
 ### 3. Deepen hooks and immediately attack rear naked choke to force opponent back to neck defense priority
 
 - **When to use**: Early in the escape when opponent begins hand fighting but has not yet stripped your grip and their focus is transitioning from defense to escape
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Forces opponent to abandon escape attempt entirely and return to desperate neck defense, resetting the positional dynamic
 - **Risk**: Overcommitting to the choke attempt while opponent has partial grip control may loosen your hooks and accelerate their escape
 
 ### 4. Switch to body triangle to eliminate hip mobility needed for the rotation sequence
 
 - **When to use**: When opponent successfully strips harness grip but you still maintain strong leg position, particularly if they begin creating hip angle
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Removes the opponent's ability to hip escape and rotate to turtle by locking their hips in place with the body triangle squeeze
 - **Risk**: Transitioning from hooks to body triangle creates a brief window where leg control is compromised and opponent may accelerate their escape
 
@@ -209,11 +209,11 @@ As the practitioner maintaining back control, your objective is to prevent the o
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Persistently re-establish harness grip each time the opponent strips it, switching between seatbelt variations and grip configurations to exhaust their grip fighting. Maintain deep hook pressure with active downward force to prevent hip escape. Use submission threats to interrupt their systematic stripping rhythm.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the opponent commits to the rotation and strips your upper body control, follow their turning body by driving your hips over the top of their rotating torso. As they turn to their knees, hook your legs over their hips and settle into mount before they can establish turtle defensive posture. This requires recognizing the commitment point and acting decisively.
 

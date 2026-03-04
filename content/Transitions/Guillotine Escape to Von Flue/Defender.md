@@ -146,7 +146,7 @@ description: "Defend against the Von Flue choke counter to your guillotine. Reco
 
 As the defender in the Guillotine Escape to Von Flue scenario, you are the practitioner who initiated the guillotine attack from bottom guard and must now prevent your own grip from being weaponized against you. The critical defensive challenge is recognizing when your opponent begins passing toward your choking arm side—this is the moment your guillotine transitions from offensive weapon to defensive liability. Your primary defensive tools are guard retention to prevent the pass entirely, early grip release to abandon the guillotine before the Von Flue becomes possible, and grip adjustment to switch to higher-percentage guillotine variations that maintain the submission threat even during partial guard passing. Understanding the Von Flue counter fundamentally changes how you should approach guillotine attacks from bottom position—the guillotine is only safe while your guard integrity prevents the pass.
 
-**Opponent's Starting Position**: [[Guillotine Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Guillotine Control]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender in the Guillotine Escape to Von Flue scenario, you are the pract
 ### 1. Release guillotine grip immediately and frame for guard recovery using both arms
 
 - **When to use**: As soon as opponent begins clearing your guard legs while passing to the choking arm side and you cannot prevent the pass
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You recover to open guard in a neutral position, avoiding the Von Flue entirely and retaining defensive guard structure for continued play
 - **Risk**: If you release too late, opponent may already have established side control with shoulder pressure and you lose both the guillotine and guard position
 
 ### 2. Close guard tightly around opponent's waist and increase guillotine pressure to finish before pass completes
 
 - **When to use**: When you detect the pass attempt early and still have your legs wrapped around the opponent's waist with full guard closure
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: You maintain guillotine control in closed guard and continue attacking the submission with full leverage and control
 - **Risk**: If the guillotine does not finish and the opponent forces your guard open, you may end up in Von Flue position with less reaction time
 
 ### 3. Switch to high elbow guillotine and angle your body to prevent the lateral passing sequence
 
 - **When to use**: When opponent begins posturing and you can feel them initiating the lateral pass but your guard still has partial integrity
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: High elbow guillotine maintains a stronger choking angle that is significantly harder for the passer to survive during the transition
 - **Risk**: The grip adjustment creates a brief window during which the opponent can accelerate the pass and bypass your guard entirely
 
 ### 4. Hip escape away from the pass direction and re-establish guard hooks before opponent clears legs
 
 - **When to use**: When opponent has begun passing but has not yet fully cleared your legs from the passing path
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You create distance and recover to open guard or half guard with your control reestablished and the guillotine threat neutralized safely
 - **Risk**: Hip escaping may compromise your guillotine grip position and the opponent can follow your movement to complete the pass
 
@@ -217,11 +217,11 @@ As the defender in the Guillotine Escape to Von Flue scenario, you are the pract
 
 ## Best-Case Outcomes for Defender
 
-### → [[Guillotine Control]]
+### → [[Positions/Guillotine Control]]
 
 Prevent the guard pass entirely by closing your guard tightly, maintaining active hip positioning, and either finishing the guillotine choke or transitioning to a higher-percentage variation like the high elbow guillotine before the opponent can establish side control.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Release the guillotine grip early when you recognize the Von Flue setup developing, immediately frame with both arms against the opponent's shoulders and hips to create distance, and use hip escape movement to re-establish open guard before the opponent can consolidate side control.
 

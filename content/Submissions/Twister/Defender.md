@@ -156,7 +156,7 @@ description: "How to defend against Twister in BJJ. Recognition, escape paths, a
 
 Defending the Twister requires early recognition and immediate action, because once the spinal rotation is fully established, escape options become extremely limited and the risk of injury escalates rapidly. The defender's primary objective is preventing the attacker from achieving the opposing force vectors that create the corkscrew torque on the spine. This means addressing two control points simultaneously: the lower body lockdown that anchors the hips and the upper body grip that controls the head and shoulders. The most critical defensive window occurs during the transition from Truck to Twister finish, before the attacker has isolated the far arm and established the chin cup grip. Once the full rotation begins, the defender must prioritize personal safety and tap early rather than risk catastrophic spinal injury by fighting a locked-in submission.
 
-**Opponent's Starting Position**: [[Twister Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Twister Control]] (Top)
 
 
 </section>
@@ -196,28 +196,28 @@ Defending the Twister requires early recognition and immediate action, because o
 ### 1. Turn into the attacker before perpendicular alignment is established
 
 - **When to use**: Early in the setup when attacker is transitioning from Truck to Twister grips and has not yet isolated the far arm
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You face the attacker and can recover to turtle or half guard, eliminating the spinal rotation threat entirely
 - **Risk**: If the attacker maintains strong lockdown, turning into them may expose your neck to guillotine or front headlock attacks
 
 ### 2. Fight the far arm control by keeping elbows tight and hands near your chin
 
 - **When to use**: When the attacker begins reaching for your far arm but has not yet trapped it behind your back
-- **Targets**: [[Twister Control]]
+- **Targets**: [[Positions/Twister Control]]
 - **If successful**: Without far arm isolation, the attacker cannot generate the opposing vectors needed to complete the Twister and must reset or transition to another attack
 - **Risk**: Defending the arm can leave your legs vulnerable to calf slicer or banana split if you stop addressing the lower body control
 
 ### 3. Extract trapped leg by straightening and rotating the knee outward
 
 - **When to use**: When the attacker's lockdown on your near leg has any looseness, especially when they shift focus to upper body grips
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Freeing the trapped leg removes the lower body anchor, collapsing the entire Twister control system and allowing you to recover position
 - **Risk**: Aggressive leg extraction while calf slicer pressure is applied can cause knee injury - assess lower body submission threats first
 
 ### 4. Granby roll toward the attacker when rotation begins
 
 - **When to use**: When the attacker has partial control but has not fully locked the chin cup grip, and there is space to roll
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: The rolling motion can break the attacker's control structure and allow you to recover to turtle or scramble position
 - **Risk**: A poorly timed granby roll can actually accelerate the spinal rotation if the attacker follows and maintains leg control
 
@@ -241,11 +241,11 @@ Defending the Twister requires early recognition and immediate action, because o
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Turn into the attacker early in the setup before perpendicular alignment is established, or extract the trapped leg to collapse the control system and recover defensive turtle position
 
-### → [[Twister Control]]
+### → [[Positions/Twister Control]]
 
 Successfully defend far arm isolation and prevent chin cup grip establishment, forcing the attacker to maintain control position without being able to finish the submission
 

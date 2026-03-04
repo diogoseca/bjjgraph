@@ -21,7 +21,7 @@ From top turtle, the attacker faces a time-sensitive challenge: the turtled play
 
 Mastery of turtle attacks requires reading the defender's weight distribution and grip commitments in real time, then selecting the highest-percentage attack chain based on those defensive reactions. The position rewards patience in grip establishment but demands explosive commitment once the attack angle is identified. Advanced practitioners develop fluid transitions between back take, front headlock, and crucifix entries, creating a web of attacks that overwhelms the defender's ability to address all threats simultaneously.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Mastery of turtle attacks requires reading the defender's weight distribution an
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -199,35 +199,35 @@ Turtle Transition sits at a critical junction in the BJJ positional hierarchy, c
 ## Related Techniques
 
 
-- [[Turtle]] - Primary starting position for this transition
+- [[Positions/Turtle]] - Primary starting position for this transition
 
-- [[Back Control]] - Primary target position upon successful back take
+- [[Positions/Back Control]] - Primary target position upon successful back take
 
-- [[Front Headlock]] - Alternative attacking position when back take is defended
+- [[Positions/Front Headlock]] - Alternative attacking position when back take is defended
 
-- [[Turtle to Back Take]] - Specific back take transition technique from turtle top
+- [[Transitions/Turtle to Back Take]] - Specific back take transition technique from turtle top
 
-- [[Turtle to Back Control]] - Back control establishment sequence from turtle
+- [[Transitions/Turtle to Back Control]] - Back control establishment sequence from turtle
 
-- [[Crucifix from Turtle]] - Advanced attacking transition trapping defender's arm
+- [[Transitions/Crucifix from Turtle]] - Advanced attacking transition trapping defender's arm
 
-- [[Anaconda from Turtle]] - Submission entry via front headlock from turtle top
+- [[Transitions/Anaconda from Turtle]] - Submission entry via front headlock from turtle top
 
-- [[Darce from Turtle]] - Alternative front headlock submission from turtle top
+- [[Transitions/Darce from Turtle]] - Alternative front headlock submission from turtle top
 
-- [[Guillotine from Turtle]] - Submission when defender lifts head from turtle
+- [[Transitions/Guillotine from Turtle]] - Submission when defender lifts head from turtle
 
-- [[Seat Belt Control Back]] - Primary grip establishment for back take sequence
+- [[Positions/Back Control/Seat Belt Control Back]] - Primary grip establishment for back take sequence
 
-- [[Crucifix]] - Advanced control position accessible from turtle attack
+- [[Positions/Crucifix]] - Advanced control position accessible from turtle attack
 
-- [[Truck]] - Leg entanglement position from turtle via hook threading
+- [[Positions/Twister Control/Truck]] - Leg entanglement position from turtle via hook threading
 
-- [[Granby Roll to Guard]] - Primary escape technique defender uses from bottom turtle
+- [[Transitions/Granby Roll to Guard]] - Primary escape technique defender uses from bottom turtle
 
-- [[Butterfly Guard]] - Common position defender recovers to via sit-through escape
+- [[Positions/Butterfly Guard]] - Common position defender recovers to via sit-through escape
 
-- [[Half Guard]] - Alternative guard recovery destination for defender
+- [[Positions/Half Guard]] - Alternative guard recovery destination for defender
 
 
 </section>

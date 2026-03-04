@@ -154,7 +154,7 @@ description: "Defend the Rodeo Ride to Back Control transition. Learn recognitio
 
 Defending the Rodeo Ride to Back Control transition requires recognizing the critical moments when the attacker begins shifting from lateral turtle pressure to parallel back alignment. The defender's primary objective is preventing hook insertion, as established hooks represent the point of no return in the turtle-to-back-control progression. Defense operates on multiple levels: maintaining a tight turtle base that limits hook insertion angles, active hand fighting to strip grips and prevent seat belt establishment, and explosive movement timed to the attacker's weight shifts during the transition phase. Understanding the attacker's sequential process—near-arm control, angle change, first hook, seat belt, second hook—allows the defender to disrupt specific steps before the transition reaches completion. The most effective defensive window occurs between the first and second hook insertion, when the attacker is most vulnerable to sit-back escapes and granby rolls due to asymmetric weight distribution.
 
-**Opponent's Starting Position**: [[Rodeo Ride]] (Top)
+**Opponent's Starting Position**: [[Positions/Rodeo Ride]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Rodeo Ride to Back Control transition requires recognizing the cri
 ### 1. Explosively sit back and thread legs to establish guard during attacker's weight shift for hook insertion
 
 - **When to use**: When attacker lifts hip pressure to begin inserting first hook, creating a momentary gap in downward control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Forces attacker into Half Guard top where you can establish defensive guard position and begin working sweeps
 - **Risk**: If mistimed, attacker follows your sit-back and achieves deeper back control with hooks already partially inserted
 
 ### 2. Strip near-arm grip using explosive arm pull, then immediately retighten turtle structure with elbows tucked
 
 - **When to use**: Early in the transition sequence before hooks are attempted, when attacker has only near-arm control established
-- **Targets**: [[Rodeo Ride]]
+- **Targets**: [[Positions/Rodeo Ride]]
 - **If successful**: Resets the attacker's progression and forces them to re-establish near-arm control before attempting hooks again
 - **Risk**: Brief arm exposure during strip may open path to crucifix or arm attack if attacker capitalizes
 
 ### 3. Execute granby roll toward the free side when attacker shifts weight to insert second hook, inverting to face them
 
 - **When to use**: After first hook is in but before second hook is secured—the attacker is most unbalanced during this asymmetric phase
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Inversion faces you toward attacker and allows guard recovery to half guard or open guard position
 - **Risk**: Failed granby with one hook in can accelerate back control establishment if attacker follows the rolling motion
 
 ### 4. Post on both hands and drive upward to standing while fighting the seat belt grip with hand fighting
 
 - **When to use**: When attacker has not yet secured seat belt grip and only has partial near-arm control without upper body dominance
-- **Targets**: [[Rodeo Ride]]
+- **Targets**: [[Positions/Rodeo Ride]]
 - **If successful**: Standing neutralizes turtle-based attacks and creates opportunity to hand fight, disengage, or establish defensive clinch position
 - **Risk**: If attacker has seat belt secured, standing transitions directly to standing back control with potential for hooks
 
@@ -225,7 +225,7 @@ Defending the Rodeo Ride to Back Control transition requires recognizing the cri
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your sit-back or granby roll to coincide with the attacker's weight shift during hook insertion. The moment they lift hip pressure to insert a hook, explosively sit back while threading your legs between theirs. Their forward commitment prevents easy retraction to re-establish Rodeo Ride, and your leg insertion creates the half guard entanglement that neutralizes their back take. Commit fully to the sit-back direction rather than hesitating, which allows the attacker to adjust mid-transition.
 

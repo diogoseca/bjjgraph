@@ -158,7 +158,7 @@ The critical defensive window is narrow. Once the top player's lead foot clears 
 
 From a systems perspective, your defense against the step over should integrate with your overall grasshopper guard offense. The threat of catching the stepping leg into ashi garami forces the top player to be cautious with the step over, which in turn gives you more time to work your preferred leg attacks and sweeps. When you can make the step over costly for the top player, they are forced into the slower back step and leg drag options, which play more into your preferred engagement range.
 
-**Opponent's Starting Position**: [[Grasshopper Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Top)
 
 </section>
 
@@ -197,28 +197,28 @@ From a systems perspective, your defense against the step over should integrate 
 ### 1. Thread legs around the stepping leg to enter inside ashi garami before it clears your hips. As the top player lifts their lead leg, shoot your near-side leg between their legs and hook behind the knee of the stepping leg while your far-side leg closes the triangle around their thigh.
 
 - **When to use**: Early in the step-over attempt, when you detect the top player's weight shift and leg lift but before their foot has cleared your hip line. Requires your hips to still be elevated with active leg mobility.
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: You secure inside ashi garami on the stepping leg with your legs triangled around their thigh, giving you immediate heel hook and kneebar threats while the top player must now defend the leg attack rather than continuing the pass.
 - **Risk**: If the top player reads your entanglement attempt and retracts the leg quickly, you may end up with your legs extended and separated, making it easier for them to complete the step over on the second attempt or transition to a leg drag pass.
 
 ### 2. Re-invert and elevate hips explosively to knock the top player off balance during the stepping phase. Drive your hips upward using your shoulders as a base while hooking whatever remains of their near leg, converting their forward momentum into an elevation that disrupts their balance.
 
 - **When to use**: When the top player has begun stepping but has not yet dropped their weight onto your torso. Their base is most vulnerable during the single-leg phase of the step over. Requires sufficient core energy to generate the hip elevation.
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: The top player loses balance and must post their hands to recover, aborting the step-over attempt and resetting to neutral grasshopper guard engagement where you can re-establish your leg configuration.
 - **Risk**: If your hip elevation is insufficient or mistimed, the top player drives through the elevation attempt and lands in mount with even more forward momentum than a standard step over, making consolidation easier for them.
 
 ### 3. Insert knee shield or half guard hook as the stepping leg crosses your body. Rather than trying to prevent the step over entirely, accept partial passage and immediately wedge your top knee across their hip or hook their trailing leg to establish half guard before they can consolidate mount.
 
 - **When to use**: When the step over is already in progress and you cannot prevent the lead leg from clearing your hips. This is a damage-control defense that converts a full mount into a half guard recovery, which is significantly easier to work from.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to half guard with a knee shield or deep hook, preventing full mount consolidation and giving you a functional guard position with sweeping and back-taking opportunities.
 - **Risk**: If you are too slow with the knee insertion, the top player clears both legs and settles full mount. An incomplete half guard hook can also be easily stripped if the top player recognizes it and drives their knee through before you can establish proper leg control.
 
 ### 4. Frame on the top player's hips with both hands and shrimp away to re-establish distance and open guard structure. As they begin stepping, extend your arms into their hip crease to stall their forward drive while hip escaping laterally to pull your legs free and reset to seated or butterfly guard.
 
 - **When to use**: When your legs have been cleared or controlled and leg entanglement is no longer available. This is a reset defense that abandons grasshopper guard entirely in favor of re-establishing a more sustainable guard position at distance.
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: You create enough distance to pull your legs free from the passer's control and re-establish an open guard position, resetting the passing engagement to neutral where you can choose to re-enter grasshopper or play a different guard.
 - **Risk**: The top player may follow your shrimp with forward pressure, collapsing your arm frames and landing in mount or side control despite your attempt to create distance. Hip frames against a committed forward drive require significant arm strength to maintain.
 
@@ -230,15 +230,15 @@ From a systems perspective, your defense against the step over should integrate 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Grasshopper Guard]]
+### → [[Positions/Grasshopper Guard]]
 
 Prevent the step over entirely by maintaining bilateral leg engagement and elevating hips to deny the passer a stable base. When you detect the step-over initiation, re-invert and elevate to knock them off balance, forcing them to post hands and reset. Alternatively, use hip frames and shrimp to create distance and re-establish your guard configuration before the pass completes.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If the step over progresses past the point of full prevention, immediately insert your top knee across the passer's hip or hook their trailing leg with your inside leg as it crosses your body. The key is timing the knee insertion during the transition between the lead leg landing and the trailing leg clearing - this brief window allows you to establish half guard before mount is consolidated.
 
-### → [[Ashi Garami]]
+### → [[Positions/Ashi Garami]]
 
 Read the step-over initiation early and thread your legs around the stepping leg before it clears your hip line. As the top player lifts their lead leg, your inverted position gives you a mechanical advantage to shoot your legs into inside ashi garami. Close the triangle around their thigh immediately and begin attacking with heel hook or kneebar threats. This is the highest-reward defensive outcome because it converts their pass attempt into your submission attack.
 

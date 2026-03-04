@@ -154,7 +154,7 @@ description: "How to defend against Baseball Bat Choke in BJJ. Recognition cues,
 
 Defending the Baseball Bat Choke requires understanding the technique's three-phase structure and recognizing that your best defensive opportunities diminish rapidly as each phase completes. The three phases are grip acquisition, spin execution, and finish. Your defensive priority shifts at each phase: during grip acquisition, prevent the second collar grip; during the spin, block rotation and create space; during the finish, strip grips and escape before arterial compression locks in. The most critical defensive principle is that this choke is set up by your own defensive reactions to Knee on Belly pressure — when you push against the knee with extended arms, you expose your collar. Understanding this cause-and-effect relationship transforms your Knee on Belly escape strategy from reactive pushing to disciplined lateral movement that addresses the pressure without creating the choke entry.
 
-**Opponent's Starting Position**: [[Knee on Belly]] (Top)
+**Opponent's Starting Position**: [[Positions/Knee on Belly]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Baseball Bat Choke requires understanding the technique's three-ph
 ### 1. Strip the first collar grip before the second grip is secured by two-on-one grip fighting on the collar hand
 
 - **When to use**: As soon as you feel the opponent's first hand sink deep behind your neck into your collar — this is your highest-percentage defensive window
-- **Targets**: [[Knee on Belly]]
+- **Targets**: [[Positions/Knee on Belly]]
 - **If successful**: Opponent loses their primary choke grip and must re-establish it, resetting the attack sequence while you maintain defensive position under Knee on Belly
 - **Risk**: Extending your arms to strip the grip may expose your other collar to the second grip if the strip fails — commit fully to the strip or keep elbows tight
 
 ### 2. Turn head and shoulders toward the attacker and frame on their hip with your near elbow to block the spin rotation
 
 - **When to use**: When both collar grips have been secured but the spin has not yet started — you must act in the narrow window between grip completion and rotation
-- **Targets**: [[Knee on Belly]]
+- **Targets**: [[Positions/Knee on Belly]]
 - **If successful**: Blocks the spinning motion that generates choking leverage, forcing the attacker to either abandon the choke attempt or transition to a less effective finishing angle
 - **Risk**: Turning toward the attacker while under Knee on Belly may allow them to transition to mount if you cannot maintain frame structure on their hip
 
 ### 3. Bridge and hip escape laterally during the spin to create space and recover half guard with knee insertion
 
 - **When to use**: When the spin has begun but is not yet past your head — explosive lateral movement during mid-spin is your last viable escape window
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard by inserting your knee across their body during the space created by your hip escape, breaking the choking angle and establishing a guard position
 - **Risk**: If timing is late and the spin completes before you create sufficient space, you end up flat with the choke locked in and reduced escape options
 
 ### 4. Two-hand grip strip on the collar while bridging away after spin completes but before finish tightens
 
 - **When to use**: Emergency defense when the spin has completed — use both hands to peel one grip from the collar while bridging to create space before full arterial compression
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Breaking even one grip neutralizes the choke mechanism, creating opportunity to shrimp and recover half guard or open guard
 - **Risk**: Very low success rate once the attacker has sprawled and begun wrist rotation — this is a desperation defense that works only against imperfect grip depth
 
@@ -225,11 +225,11 @@ Defending the Baseball Bat Choke requires understanding the technique's three-ph
 
 ## Best-Case Outcomes for Defender
 
-### → [[Knee on Belly]]
+### → [[Positions/Knee on Belly]]
 
 Strip the collar grips early through two-on-one grip fighting before the attacker can secure both hands behind your neck. Alternatively, block the spin by turning your shoulders toward the attacker and framing on their hip, forcing them to abandon the choke and return to standard Knee on Belly control.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Execute an explosive bridge and lateral hip escape during the spin phase, inserting your knee across the attacker's body before they complete the 180-degree rotation. The spin creates a brief moment where the attacker's weight shifts overhead, and your lateral movement underneath can create enough space to recover half guard with your knee shield established.
 

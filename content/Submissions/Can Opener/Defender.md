@@ -156,7 +156,7 @@ description: "How to defend against Can Opener in BJJ. Recognition, escape paths
 
 Defending the Can Opener is among the most safety-critical defensive skills in Brazilian Jiu-Jitsu, because unlike most submissions where you can progressively gauge danger and fight for position, the Can Opener targets the cervical spine with compression forces that can cause catastrophic injury with minimal warning. The defender's primary objective is prevention - maintaining grip discipline and posture control from closed guard bottom that denies the attacker the hand positioning required to initiate the technique. When prevention fails, the defender must prioritize immediate pressure relief over positional preservation, because no guard position is worth risking cervical spine damage. The defensive framework progresses through three phases: prevention through proactive grip fighting, early-stage disruption when hands reach behind the head, and emergency escape when compression begins. At every phase, the defender should be prepared to open their guard voluntarily and sacrifice position rather than absorb neck pressure. Understanding these defensive layers transforms a dangerous vulnerability into a manageable situation where the defender maintains control over their safety.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Top)
 
 
 </section>
@@ -196,28 +196,28 @@ Defending the Can Opener is among the most safety-critical defensive skills in B
 ### 1. Maintain strong collar and sleeve grips to deny hand access behind head
 
 - **When to use**: Proactively at all times when playing closed guard bottom - this is the default defensive posture that prevents the Can Opener from ever being initiated
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Attacker cannot establish the hand position required to generate neck compression, and you maintain full offensive guard with grip advantage
 - **Risk**: Minimal risk - this is standard closed guard control that simultaneously enables your own offensive game
 
 ### 2. Break attacker's posture down to your chest with collar grips and heel pressure into lower back
 
 - **When to use**: When you detect the opponent beginning to swim hands toward the back of your head or when their posture begins rising to create compression space
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Eliminates the upright posture and space the attacker needs to generate leverage, collapsing their structural frame and neutralizing the technique entirely
 - **Risk**: Low risk - posture breaking is standard offensive closed guard play that also opens your own attack sequences
 
 ### 3. Open guard voluntarily, frame against hips, and transition to open guard or butterfly guard
 
 - **When to use**: When neck compression has begun building and you cannot break the hand clasp or posture - prioritize safety over position
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Immediately relieves all cervical pressure by removing the mechanical trap that your own closed guard creates, allowing you to establish safe distance
 - **Risk**: You sacrifice closed guard position, but this is always the correct trade when cervical spine safety is at stake - you can recover guard or work from open guard
 
 ### 4. Hand fight to strip finger interlace and break the grip structure behind your head
 
 - **When to use**: When opponent has hands behind your head but has not yet built significant compression pressure - act in the early setup window
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Destroys the structural foundation of the technique, forcing the attacker to restart their setup and giving you time to re-establish dominant grips
 - **Risk**: Moderate - reaching up to fight grips temporarily compromises your own guard structure and may open passing opportunities if unsuccessful
 
@@ -240,11 +240,11 @@ Defending the Can Opener is among the most safety-critical defensive skills in B
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Prevent the setup entirely through proactive grip fighting and posture breaking, or disrupt the technique in early stages by stripping the hand clasp and pulling attacker's posture down to your chest
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Open guard voluntarily before pressure becomes dangerous, frame against hips to create distance, and transition to butterfly guard or feet-on-hips open guard where you maintain defensive control and offensive options
 

@@ -93,21 +93,21 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 ### Available Transitions
 
 
-- **[[Hip Escape to Guard]]** (39% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (39% of attempts)
 
-- **[[Granby Roll to Guard]]** (21% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (21% of attempts)
 
-- **[[Turtle to Standing]]** (13% of attempts)
+- **[[Transitions/Turtle to Standing]]** (13% of attempts)
 
-- **[[Peterson Roll]]** (8% of attempts)
+- **[[Transitions/Peterson Roll]]** (8% of attempts)
 
-- **[[Sit Through Escape]]** (10% of attempts)
+- **[[Transitions/Sit Through Escape]]** (10% of attempts)
 
-- **[[Rolling Back Take]]** (3% of attempts)
+- **[[Transitions/Rolling Back Take]]** (3% of attempts)
 
-- **[[Crab Ride Escape to Guard]]** (4% of attempts)
+- **[[Transitions/Crab Ride Escape to Guard]]** (4% of attempts)
 
-- **[[Escape from Crab Ride]]** (2% of attempts)
+- **[[Transitions/Escape from Crab Ride]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -168,25 +168,25 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 ### Available Transitions
 
 
-- **[[Crab Ride to Back]]** (40% of attempts)
+- **[[Transitions/Crab Ride to Back]]** (40% of attempts)
 
-- **[[Darce from Turtle]]** (7% of attempts)
+- **[[Transitions/Darce from Turtle]]** (7% of attempts)
 
-- **[[Anaconda from Turtle]]** (6% of attempts)
+- **[[Transitions/Anaconda from Turtle]]** (6% of attempts)
 
-- **[[Guillotine from Turtle]]** (3% of attempts)
+- **[[Transitions/Guillotine from Turtle]]** (3% of attempts)
 
-- **[[Truck Entry]]** (12% of attempts)
+- **[[Transitions/Truck Entry]]** (12% of attempts)
 
-- **[[Crucifix from Turtle]]** (11% of attempts)
+- **[[Transitions/Crucifix from Turtle]]** (11% of attempts)
 
-- **[[Back Control to Cross Body Ride]]** (7% of attempts)
+- **[[Transitions/Back Control to Cross Body Ride]]** (7% of attempts)
 
-- **[[Turtle to Rodeo Ride]]** (8% of attempts)
+- **[[Transitions/Turtle to Rodeo Ride]]** (8% of attempts)
 
-- **[[Rolling Back Take]]** (4% of attempts)
+- **[[Transitions/Rolling Back Take]]** (4% of attempts)
 
-- **[[Kimura from Crab Ride]]** (2% of attempts)
+- **[[Transitions/Kimura from Crab Ride]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -225,23 +225,23 @@ From the defensive perspective, Crab Ride Bottom is a high-pressure situation th
 ## Related Positions
 
 
-- **[[Back Control]]** - Primary advancement target from Crab Ride Top
+- **[[Positions/Back Control]]** - Primary advancement target from Crab Ride Top
 
-- **[[Turtle]]** - Parent position where Crab Ride is established
+- **[[Positions/Turtle]]** - Parent position where Crab Ride is established
 
-- **[[Crucifix]]** - Alternative attacking position when opponent extends arms
+- **[[Positions/Crucifix]]** - Alternative attacking position when opponent extends arms
 
-- **[[Truck]]** - Related twister system position with similar control mechanics
+- **[[Positions/Twister Control/Truck]]** - Related twister system position with similar control mechanics
 
-- **[[Cross Body Ride]]** - Similar perpendicular turtle attack position
+- **[[Positions/Cross Body Ride]]** - Similar perpendicular turtle attack position
 
-- **[[Rodeo Ride]]** - Alternative turtle control variation
+- **[[Positions/Rodeo Ride]]** - Alternative turtle control variation
 
-- **[[Harness]]** - Related back attack structure with hook control
+- **[[Positions/Harness]]** - Related back attack structure with hook control
 
-- **[[Gift Wrap]]** - Related control position for back attacks
+- **[[Positions/Gift Wrap]]** - Related control position for back attacks
 
-- **[[Front Headlock]]** - Alternative turtle attack position
+- **[[Positions/Front Headlock]]** - Alternative turtle attack position
 
 
 </section>

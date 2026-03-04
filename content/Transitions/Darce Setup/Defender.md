@@ -150,7 +150,7 @@ Defending the Darce Setup requires immediate recognition and decisive action bec
 
 Successful Darce Setup defense operates on a timeline: early-phase defense focuses on denying the arm trap and preventing threading depth, while late-phase defense shifts to space creation and positional recovery once the grip is partially established. Understanding where you are on this timeline determines which defensive tools are appropriate. Early defense is proactive — keeping elbows tight, fighting the crossface, maintaining posture. Late defense is reactive — extracting the trapped arm, rolling to create angles, or standing explosively before the choke tightens. The most dangerous mistake defenders make is passively accepting the front headlock and waiting to see what happens. Against skilled attackers, that waiting period is when the Darce gets locked.
 
-**Opponent's Starting Position**: [[Front Headlock]] (Top)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -187,21 +187,21 @@ Successful Darce Setup defense operates on a timeline: early-phase defense focus
 ### 1. Early arm extraction — pump your trapped elbow outward and swim your arm free before threading begins
 
 - **When to use**: As soon as you feel chest pressure pinning your far arm before the opponent begins threading their choking arm
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Returns to standard front headlock position where opponent must restart setup giving you time to work other escapes
 - **Risk**: If extraction attempt fails and you extend your arm it may create more space for the opponent to thread deeper
 
 ### 2. Circle toward choking arm side and sit through to recover guard
 
 - **When to use**: When the opponent has begun threading but has not yet locked the figure-four grip
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Recovers guard position and eliminates the Darce threat entirely by changing the positional dynamic
 - **Risk**: If you turn too slowly the opponent can follow your rotation and lock the grip during the transition establishing Darce Control
 
 ### 3. Explosive stand-up while controlling the opponent's choking arm at the wrist
 
 - **When to use**: When the opponent's weight shifts forward or their base narrows during the threading attempt
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Standing eliminates most of the opponent's leverage for the Darce and returns the exchange to neutral
 - **Risk**: If the stand-up is incomplete the opponent can use your upward movement to sink the choke deeper with gravity assistance
 
@@ -213,11 +213,11 @@ Successful Darce Setup defense operates on a timeline: early-phase defense focus
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Extract your trapped arm early before threading begins by pumping your elbow outward and swimming it free then immediately work to recover posture and fight the front headlock using standard turtle defense or stand-up sequences
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Circle toward the choking arm side and sit through to recover guard or execute an explosive stand-up during the opponent's threading attempt when their weight shifts forward and their base is momentarily compromised
 

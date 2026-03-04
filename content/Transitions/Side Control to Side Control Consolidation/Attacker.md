@@ -180,7 +180,7 @@ description: "Complete guide to consolidating side control in BJJ. Learn systema
 
 As the attacker executing the Transition to Side Control Consolidation, your objective is to convert a loosely-held side control into an airtight, pressure-dominant position that eliminates your opponent's escape options. This requires a systematic approach: you must identify and collapse their remaining defensive frames, settle your weight through your chest and hips rather than your hands, establish a deep crossface that controls their head position, and secure their far-side arm or hip to remove bridging power. The process demands patience and awareness. Rushing to attack submissions from an unconsolidated position is the most common error at all levels. Each small adjustment you make during consolidation compounds the pressure on the bottom player, progressively degrading their defensive capacity. Think of consolidation as building a house. The crossface is the foundation, chest pressure is the walls, and hip control is the roof. Skip any step and the structure collapses. Master this process and every guard pass becomes a dominant position that your opponent cannot escape.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Transition to Side Control Consolidation, your obj
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control Consolidation]] | 70% |
-| Failure | [[Side Control]] | 20% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control/Side Control Consolidation]] | 70% |
+| Failure | [[Positions/Side Control]] | 20% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Transition to Side Control Consolidation, your obj
 
 ## Opponent Counters
 
-- **Opponent establishes strong forearm frame against your shoulder before you settle weight** (Effectiveness: High) - Your Response: Do not hand-fight the frame. Walk your hips toward their head to change the pressure angle, making their frame structurally weaker. Alternatively, swim your arm over their framing arm and pin it to the mat using your body weight. If the frame is too strong, transition to knee on belly where the frame becomes irrelevant. → Leads to [[Side Control]]
-- **Opponent shrimps aggressively and inserts near-side knee before hip control is established** (Effectiveness: High) - Your Response: Immediately backstep your near leg to clear their knee and re-establish hip contact. If their knee is already deep, accept half guard top position and work a knee slice or pressure pass to re-achieve side control. Prevention is key: prioritize hip-to-hip contact early in the consolidation sequence. → Leads to [[Half Guard]]
-- **Opponent bridges explosively while crossface is being established** (Effectiveness: Medium) - Your Response: Widen your knees immediately to lower your center of gravity and absorb the bridge. Let your weight ride the bridge rather than fighting it. As they descend from the bridge apex, immediately tighten all connections before they can chain into a hip escape. Their energy expenditure on the failed bridge weakens subsequent escape attempts. → Leads to [[Side Control]]
-- **Opponent turns into you and attempts to establish an underhook** (Effectiveness: Medium) - Your Response: Drive your crossface deeper as they turn, using their own turning momentum to advance your head control. If they establish the underhook, transition immediately to a whizzer and consider advancing to north-south or switching to a front headlock position. Their turn also exposes their back, creating potential back take opportunities. → Leads to [[Side Control]]
+- **Opponent establishes strong forearm frame against your shoulder before you settle weight** (Effectiveness: High) - Your Response: Do not hand-fight the frame. Walk your hips toward their head to change the pressure angle, making their frame structurally weaker. Alternatively, swim your arm over their framing arm and pin it to the mat using your body weight. If the frame is too strong, transition to knee on belly where the frame becomes irrelevant. → Leads to [[Positions/Side Control]]
+- **Opponent shrimps aggressively and inserts near-side knee before hip control is established** (Effectiveness: High) - Your Response: Immediately backstep your near leg to clear their knee and re-establish hip contact. If their knee is already deep, accept half guard top position and work a knee slice or pressure pass to re-achieve side control. Prevention is key: prioritize hip-to-hip contact early in the consolidation sequence. → Leads to [[Positions/Half Guard]]
+- **Opponent bridges explosively while crossface is being established** (Effectiveness: Medium) - Your Response: Widen your knees immediately to lower your center of gravity and absorb the bridge. Let your weight ride the bridge rather than fighting it. As they descend from the bridge apex, immediately tighten all connections before they can chain into a hip escape. Their energy expenditure on the failed bridge weakens subsequent escape attempts. → Leads to [[Positions/Side Control]]
+- **Opponent turns into you and attempts to establish an underhook** (Effectiveness: Medium) - Your Response: Drive your crossface deeper as they turn, using their own turning momentum to advance your head control. If they establish the underhook, transition immediately to a whizzer and consider advancing to north-south or switching to a front headlock position. Their turn also exposes their back, creating potential back take opportunities. → Leads to [[Positions/Side Control]]
 
 
 </section>

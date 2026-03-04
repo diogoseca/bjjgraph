@@ -93,27 +93,27 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 ### Available Transitions
 
 
-- **[[Waiter Sweep]]** (14% of attempts)
+- **[[Transitions/Waiter Sweep]]** (14% of attempts)
 
-- **[[Old School Sweep]]** (41% of attempts)
+- **[[Transitions/Old School Sweep]]** (41% of attempts)
 
-- **[[Rolling Back Take]]** (11% of attempts)
+- **[[Transitions/Rolling Back Take]]** (11% of attempts)
 
-- **[[Electric Chair Submission]]** (6% of attempts)
+- **[[Submissions/Electric Chair Submission]]** (6% of attempts)
 
-- **[[Underhook Sweep from Half]]** (9% of attempts)
+- **[[Transitions/Underhook Sweep from Half]]** (9% of attempts)
 
-- **[[X-Guard Sweep]]** (10% of attempts)
+- **[[Transitions/X-Guard Sweep]]** (10% of attempts)
 
-- **[[Single Leg X Entry]]** (6% of attempts)
+- **[[Transitions/Single Leg X Entry]]** (6% of attempts)
 
-- **[[Deep Half Sweep]]** (2% of attempts)
+- **[[Transitions/Deep Half Sweep]]** (2% of attempts)
 
-- **[[Deep Half to X-Guard]]** (0% of attempts)
+- **[[Transitions/Deep Half to X-Guard]]** (0% of attempts)
 
-- **[[Electric Chair Entry from Deep Half]]** (0% of attempts)
+- **[[Transitions/Electric Chair Entry from Deep Half]]** (0% of attempts)
 
-- **[[Homer Simpson Sweep]]** (1% of attempts)
+- **[[Transitions/Homer Simpson Sweep]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -170,25 +170,25 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 ### Available Transitions
 
 
-- **[[Crossface Pass]]** (33% of attempts)
+- **[[Transitions/Crossface Pass]]** (33% of attempts)
 
-- **[[Knee Slice Pass]]** (9% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (9% of attempts)
 
-- **[[Smash Pass]]** (15% of attempts)
+- **[[Transitions/Smash Pass]]** (15% of attempts)
 
-- **[[Half Guard Pass]]** (12% of attempts)
+- **[[Transitions/Half Guard Pass]]** (12% of attempts)
 
-- **[[Underhook Pass]]** (9% of attempts)
+- **[[Transitions/Underhook Pass]]** (9% of attempts)
 
-- **[[Kimura from Half Guard]]** (8% of attempts)
+- **[[Transitions/Kimura from Half Guard]]** (8% of attempts)
 
-- **[[Back Step Pass]]** (9% of attempts)
+- **[[Transitions/Back Step Pass]]** (9% of attempts)
 
-- **[[Backstep from Deep Half]]** (3% of attempts)
+- **[[Transitions/Backstep from Deep Half]]** (3% of attempts)
 
-- **[[Whizzer from Deep Half]]** (1% of attempts)
+- **[[Transitions/Whizzer from Deep Half]]** (1% of attempts)
 
-- **[[Knee Slice from Deep Half]]** (1% of attempts)
+- **[[Transitions/Knee Slice from Deep Half]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -223,25 +223,25 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 ## Related Positions
 
 
-- **[[Half Guard]]** - Parent position from which deep half develops
+- **[[Positions/Half Guard]]** - Parent position from which deep half develops
 
-- **[[Lockdown]]** - Common entry point and complementary control system
+- **[[Positions/Half Guard/Lockdown]]** - Common entry point and complementary control system
 
-- **[[X-Guard]]** - Alternative guard with similar leverage-based sweep mechanics
+- **[[Positions/X-Guard]]** - Alternative guard with similar leverage-based sweep mechanics
 
-- **[[Single Leg X-Guard]]** - Transition target when opponent defends deep half
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Transition target when opponent defends deep half
 
-- **[[Back Control]]** - Primary offensive target from deep half bottom via rolling back take
+- **[[Positions/Back Control]]** - Primary offensive target from deep half bottom via rolling back take
 
-- **[[Electric Chair]]** - Direct submission option from deep half with lockdown integration
+- **[[Positions/Half Guard/Electric Chair]]** - Direct submission option from deep half with lockdown integration
 
-- **[[Butterfly Guard]]** - Alternative guard emphasizing different underhook mechanics
+- **[[Positions/Butterfly Guard]]** - Alternative guard emphasizing different underhook mechanics
 
-- **[[Side Control]]** - Common passing destination from deep half top
+- **[[Positions/Side Control]]** - Common passing destination from deep half top
 
-- **[[Mount]]** - High-value sweep target from waiter and Homer Simpson sweeps
+- **[[Positions/Mount]]** - High-value sweep target from waiter and Homer Simpson sweeps
 
-- **[[Turtle]]** - Recovery position when deep half is countered
+- **[[Positions/Turtle]]** - Recovery position when deep half is countered
 
 
 </section>

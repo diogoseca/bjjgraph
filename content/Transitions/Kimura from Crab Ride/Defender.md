@@ -146,7 +146,7 @@ description: "Learn to defend the Kimura from Crab Ride in BJJ. Recognition cues
 
 Defending the Kimura from Crab Ride requires immediate recognition and decisive action before the figure-four grip is consolidated. The defender's primary advantage is that the attacker must release some positional control to pursue the arm attack, creating brief but exploitable windows for escape. The critical defensive phase occurs between the moment the attacker releases their upper body grip to reach for the wrist and the moment they complete the figure-four threading. During this window, the defender must either retract the arm forcefully, turn into the attacker to disrupt the angle, or create enough explosive movement to break the grip sequence entirely. Once the figure-four is locked and the attacker begins transitioning to Kimura Trap, defensive options decrease dramatically and the situation becomes a survival problem rather than a prevention problem.
 
-**Opponent's Starting Position**: [[Crab Ride]] (Top)
+**Opponent's Starting Position**: [[Positions/Crab Ride]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Kimura from Crab Ride requires immediate recognition and decisive 
 ### 1. Immediately retract the far arm tight to the body, driving the elbow into your ribcage
 
 - **When to use**: As soon as you feel the initial wrist grip before the figure-four is threaded
-- **Targets**: [[Crab Ride]]
+- **Targets**: [[Positions/Crab Ride]]
 - **If successful**: Denies the kimura entry completely and forces the attacker back to standard crab ride attacks without the arm
 - **Risk**: Momentary loss of the posting arm may allow the attacker to flatten you or advance to back control
 
 ### 2. Turn shoulders aggressively toward the attacker and sit through to establish half guard
 
 - **When to use**: When the attacker releases upper body control to reach for the arm, creating a momentary gap in ride control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Escape the crab ride entirely and recover to half guard bottom, a far more defensible position
 - **Risk**: If the turn is incomplete or too slow, the attacker may take the back during the rotation
 
 ### 3. Clasp both hands together with interlocked fingers to prevent figure-four isolation
 
 - **When to use**: After the wrist grip is established but before the figure-four threading is complete
-- **Targets**: [[Crab Ride]]
+- **Targets**: [[Positions/Crab Ride]]
 - **If successful**: Prevents the kimura grip from being consolidated, buying 3-5 seconds for a follow-up escape
 - **Risk**: Attacker may use your clasped, immobilized arms to advance to back control or systematically break the grip
 
 ### 4. Drive forward explosively and post the far arm straight to create distance and base
 
 - **When to use**: When the attacker begins the peeling motion but has not secured the figure-four yet
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates separation and forward momentum that may allow a scramble to guard recovery or standing base
 - **Risk**: A fully extended posted arm is more vulnerable to kimura if the drive stalls before creating separation
 
@@ -217,11 +217,11 @@ Defending the Kimura from Crab Ride requires immediate recognition and decisive 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a sit-through or aggressive shoulder turn during the attacker's grip transition window. When they release upper body control to pursue the wrist, exploit the momentary looseness in their ride to turn into them and establish half guard. The turn must be explosive and committed to succeed before they recover control.
 
-### → [[Crab Ride]]
+### → [[Positions/Crab Ride]]
 
 Retract the arm immediately upon sensing wrist contact and maintain compact turtle posture with elbows tight. While still a defensive position, preventing the kimura preserves your full range of turtle escape options and forces the attacker to restart their attack sequence from scratch.
 

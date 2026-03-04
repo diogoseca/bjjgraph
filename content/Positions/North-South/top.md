@@ -209,25 +209,25 @@ The position serves as a critical checkpoint during guard passing sequences and 
 
 ## Available Attacks
 
-### [[North-South Choke]] (14% of attempts)
+### [[Transitions/North-South Choke]] (14% of attempts)
 
-### [[Side Control to Mount]] (12% of attempts)
+### [[Transitions/Side Control to Mount]] (12% of attempts)
 
-### [[North-South to Kimura]] (14% of attempts)
+### [[Transitions/North-South to Kimura]] (14% of attempts)
 
-### [[Armbar from North-South]] (12% of attempts)
+### [[Transitions/Armbar from North-South]] (12% of attempts)
 
-### [[Side Control to North-South]] (8% of attempts)
+### [[Transitions/Side Control to North-South]] (8% of attempts)
 
-### [[Americana]] (10% of attempts)
+### [[Transitions/Americana]] (10% of attempts)
 
-### [[Knee on Belly]] (8% of attempts)
+### [[Positions/Knee on Belly]] (8% of attempts)
 
-### [[Arm Triangle Setup]] (8% of attempts)
+### [[Transitions/Arm Triangle Setup]] (8% of attempts)
 
-### [[Reverse Mount Transition]] (7% of attempts)
+### [[Transitions/Reverse Mount Transition]] (7% of attempts)
 
-### [[Back Take from Top]] (7% of attempts)
+### [[Transitions/Back Take from Top]] (7% of attempts)
 
 
 
@@ -239,22 +239,22 @@ The position serves as a critical checkpoint during guard passing sequences and 
 
 **If opponent maintains flat back with arms controlled:**
 - Execute **[[North-South choke setup]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Maintain pressure and control]]** → [[North-South]] (Probability: 70%)
+- Execute **[[Maintain pressure and control]]** → [[Positions/North-South]] (Probability: 70%)
 
 
 **If opponent creates frames and begins hip escape:**
-- Execute **[[Transition to mount]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Switch to side control]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transition to mount]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Switch to side control]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent exposes near arm during escape attempt:**
-- Execute **[[Kimura grip and control]]** → [[Kimura Trap]] (Probability: 60%)
+- Execute **[[Kimura grip and control]]** → [[Positions/Kimura Trap]] (Probability: 60%)
 - Execute **[[Americana lock]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent turns to turtle:**
-- Execute **[[Take the back]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Return to side control]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Take the back]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Return to side control]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent extends both arms for frames:**
@@ -398,14 +398,14 @@ Maintain maximum chest pressure in North-South while partner attempts only frame
 
 ## Related Positions and Techniques
 
-- **[[Side Control]]** - Common entry position and alternative control option
-- **[[Mount]]** - Primary transition target for positional advancement
-- **[[Knee on Belly]]** - Alternative pressure position with different control dynamics
-- **[[North-South Choke]]** - Primary submission from this position
-- **[[North-South to Kimura]]** - High-percentage submission transition
-- **[[Side Control to Mount]]** - Primary advancement technique from North-South
-- **[[Back Control]]** - Available when opponent turns to turtle
-- **[[Kimura Trap]]** - Control position for finishing arm attacks
+- **[[Positions/Side Control]]** - Common entry position and alternative control option
+- **[[Positions/Mount]]** - Primary transition target for positional advancement
+- **[[Positions/Knee on Belly]]** - Alternative pressure position with different control dynamics
+- **[[Transitions/North-South Choke]]** - Primary submission from this position
+- **[[Transitions/North-South to Kimura]]** - High-percentage submission transition
+- **[[Transitions/Side Control to Mount]]** - Primary advancement technique from North-South
+- **[[Positions/Back Control]]** - Available when opponent turns to turtle
+- **[[Positions/Kimura Trap]]** - Control position for finishing arm attacks
 
 
 </section>

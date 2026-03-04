@@ -178,7 +178,7 @@ The fundamental challenge lies in the mechanical reality that the overhook creat
 
 Timing proves critical to successful execution. The optimal window for escape occurs when the bottom player adjusts their grip, transitions between positions, or commits to a submission setup that temporarily reduces their overhook pressure. Attempting the escape against a fully consolidated New York Control position with maximum overhook depth yields significantly lower success rates. Advanced practitioners develop sensitivity to these transitional moments, executing the extraction during the brief mechanical windows rather than fighting against established control.
 
-**From Position**: [[New York Control]] (Top)
+**From Position**: [[Positions/Rubber Guard/New York Control]] (Top)
 
 </section>
 
@@ -230,10 +230,10 @@ Timing proves critical to successful execution. The optimal window for escape oc
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Success | [[Open Guard]] | 15% |
-| Failure | [[New York Control]] | 25% |
-| Counter | [[Triangle Control]] | 10% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Success | [[Positions/Open Guard]] | 15% |
+| Failure | [[Positions/Rubber Guard/New York Control]] | 25% |
+| Counter | [[Positions/Triangle Control]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ Timing proves critical to successful execution. The optimal window for escape oc
 
 ## Opponent Counters
 
-- **Deepening overhook grip and pulling arm across centerline when escape is sensed** (Effectiveness: High) - Your Response: Abort extraction attempt and reset defensive base - forcing against deep grip invites submission → Leads to [[New York Control]]
-- **Transitioning to triangle setup by shooting leg around neck during extraction attempt** (Effectiveness: High) - Your Response: Keep chin tucked and elbow tight throughout - if triangle begins, abort and stack immediately → Leads to [[Triangle Control]]
-- **Using free hand to control your posture and prevent shoulder rotation** (Effectiveness: Medium) - Your Response: Hand fight to remove their control before attempting extraction - their free hand occupied reduces submission threats → Leads to [[New York Control]]
-- **Increasing leg pressure across back to destabilize base during extraction** (Effectiveness: Medium) - Your Response: Widen base further and maintain low hips - address leg pressure after arm is free → Leads to [[New York Control]]
+- **Deepening overhook grip and pulling arm across centerline when escape is sensed** (Effectiveness: High) - Your Response: Abort extraction attempt and reset defensive base - forcing against deep grip invites submission → Leads to [[Positions/Rubber Guard/New York Control]]
+- **Transitioning to triangle setup by shooting leg around neck during extraction attempt** (Effectiveness: High) - Your Response: Keep chin tucked and elbow tight throughout - if triangle begins, abort and stack immediately → Leads to [[Positions/Triangle Control]]
+- **Using free hand to control your posture and prevent shoulder rotation** (Effectiveness: Medium) - Your Response: Hand fight to remove their control before attempting extraction - their free hand occupied reduces submission threats → Leads to [[Positions/Rubber Guard/New York Control]]
+- **Increasing leg pressure across back to destabilize base during extraction** (Effectiveness: Medium) - Your Response: Widen base further and maintain low hips - address leg pressure after arm is free → Leads to [[Positions/Rubber Guard/New York Control]]
 
 
 </section>

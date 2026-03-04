@@ -160,7 +160,7 @@ description: "How to defend and counter the Bridge and Roll escape from mount in
 
 Defending the Bridge and Roll from the top mount position requires understanding the precise mechanics your opponent needs to execute the escape and systematically denying those conditions. As the mounted player (defender against the escape), your primary tools are base management, posting discipline, and weight distribution adjustments that prevent your opponent from completing the trapping and bridging sequence. The bridge and roll is the most common mount escape at every belt level, so developing reliable counters is essential for maintaining one of BJJ's most dominant positions. Effective defense begins before the escape attempt—by maintaining proper mount structure with appropriate knee width, hip pressure, and hand positioning, you make the initial trapping sequence significantly more difficult. When the escape attempt begins, your ability to recognize the early cues and respond with the correct counter determines whether you maintain mount, advance to a more dominant variation, or get reversed. Advanced defenders learn to bait the bridge and roll attempt, using the opponent's committed escape effort as an opportunity to advance position or attack submissions that open during the reversal attempt.
 
-**Opponent's Starting Position**: [[Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount]] (Bottom)
 
 </section>
 
@@ -199,35 +199,35 @@ Defending the Bridge and Roll from the top mount position requires understanding
 ### 1. Post free arm on mat at 45-degree angle toward bridge direction to create tripod base
 
 - **When to use**: Immediately when you feel the explosive bridge beginning and your arm is not trapped—the single most important counter
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Bridge is absorbed by your posted arm, opponent wastes energy and remains mounted with you in improved position
 - **Risk**: If you post too late or too far from your body, the momentum may carry you over despite the post
 
 ### 2. Withdraw threatened arm by pulling elbow tight to hip and circling wrist free before trap is secured
 
 - **When to use**: When you feel opponent gripping your wrist or sleeve but before they have fully secured the arm against their chest
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Arm trap fails completely, eliminating the escape setup and forcing opponent to re-establish the trap from scratch
 - **Risk**: Pulling arm away may create space that allows opponent to insert frames or begin elbow escape instead
 
 ### 3. Insert grapevine hooks by threading legs inside opponent's legs and hooking ankles outward
 
 - **When to use**: When opponent repeatedly attempts bridge and roll and you need to eliminate their hip extension capability entirely
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Opponent cannot generate meaningful bridging power with legs grapevined, neutralizing the escape completely
 - **Risk**: Grapevine narrows your base and can make you vulnerable to elbow escape if opponent shrimps effectively
 
 ### 4. Advance to high mount by sliding knees toward opponent's armpits when they begin the trapping sequence
 
 - **When to use**: When you recognize the early setup cues—feet positioning and arm reach—before the bridge is committed
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: High mount eliminates the bridge and roll as a viable option and creates immediate submission threats from more dominant position
 - **Risk**: Transitioning to high mount temporarily narrows your base during the movement, creating a brief vulnerability window
 
 ### 5. Drive hips forward and drop chest pressure onto opponent when bridge begins, smothering the elevation
 
 - **When to use**: When the bridge is beginning but you cannot post—driving weight forward reduces the space needed for the roll
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Heavy forward pressure prevents opponent from generating sufficient elevation to roll you, and your weight pins them flat
 - **Risk**: Excessive forward weight commitment can be exploited if opponent switches to elbow escape as you drive forward
 
@@ -239,11 +239,11 @@ Defending the Bridge and Roll from the top mount position requires understanding
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Maintain mount by posting free arm, withdrawing trapped arm, or using grapevine hooks to neutralize bridging power. Successful defense preserves your dominant position and forces opponent to expend energy on failed escape.
 
-### → [[High Mount]]
+### → [[Positions/Mount/High Mount]]
 
 When you recognize the early bridge and roll setup, advance to high mount by sliding knees toward armpits. This not only defends the escape but improves your position, creating more immediate submission threats while eliminating the bridge and roll entirely.
 

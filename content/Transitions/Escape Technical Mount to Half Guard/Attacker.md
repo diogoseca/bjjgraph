@@ -186,7 +186,7 @@ description: "Complete guide to escaping Technical Mount to Half Guard in BJJ. L
 
 From the bottom of Technical Mount, the escaping player faces one of BJJ's most urgent defensive scenarios. The stepped leg creates immediate armbar and triangle threats that demand a coordinated response combining arm protection, explosive hip movement, and precise leg insertion. The escape requires reading the top player's weight distribution and timing the hip escape to coincide with forward weight shifts during submission attempts. Success depends on maintaining disciplined arm protection throughout the entire sequence while generating enough hip movement to create space for the knee insertion that establishes half guard. This is not a technique that can be muscled through—it requires precise timing, proper mechanics, and the composure to execute under significant pressure.
 
-**From Position**: [[Technical Mount]] (Bottom)
+**From Position**: [[Positions/Mount/Technical Mount]] (Bottom)
 
 </section>
 
@@ -239,10 +239,10 @@ From the bottom of Technical Mount, the escaping player faces one of BJJ's most 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Technical Mount]] | 38% |
-| Counter | [[Back Control]] | 13% |
-| Counter | [[Armbar Control]] | 9% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Mount/Technical Mount]] | 38% |
+| Counter | [[Positions/Back Control]] | 13% |
+| Counter | [[Positions/Armbar Control]] | 9% |
 
 
 </section>
@@ -251,10 +251,10 @@ From the bottom of Technical Mount, the escaping player faces one of BJJ's most 
 
 ## Opponent Counters
 
-- **Top player drives heavy crossface pressure and hip control to prevent any space creation for hip escape** (Effectiveness: High) - Your Response: Use micro-bridges to test their weight commitment, wait for their offensive transition rather than forcing the escape, and maintain frame discipline until a genuine window opens → Leads to [[Technical Mount]]
-- **Top player immediately accelerates armbar attack when feeling hip escape initiation, using your movement to complete the submission** (Effectiveness: High) - Your Response: Maintain absolute arm protection throughout—if you feel the armbar accelerating, abort the escape and defend the submission with clasped hands and stacking defense before reattempting → Leads to [[Armbar Control]]
-- **Top player transitions to back control when bottom player turns to their side during hip escape, following the rotation** (Effectiveness: Medium) - Your Response: Keep your back as close to the mat as possible during the shrimp rather than turning fully to your side, and immediately establish half guard hooks before the top player can insert their own hooks → Leads to [[Back Control]]
-- **Top player resets position by driving hips back down and re-establishing technical mount after initial escape attempt** (Effectiveness: Medium) - Your Response: Chain multiple hip escape attempts in sequence rather than relying on a single explosive movement—each attempt creates slightly more space that accumulates toward successful knee insertion → Leads to [[Technical Mount]]
+- **Top player drives heavy crossface pressure and hip control to prevent any space creation for hip escape** (Effectiveness: High) - Your Response: Use micro-bridges to test their weight commitment, wait for their offensive transition rather than forcing the escape, and maintain frame discipline until a genuine window opens → Leads to [[Positions/Mount/Technical Mount]]
+- **Top player immediately accelerates armbar attack when feeling hip escape initiation, using your movement to complete the submission** (Effectiveness: High) - Your Response: Maintain absolute arm protection throughout—if you feel the armbar accelerating, abort the escape and defend the submission with clasped hands and stacking defense before reattempting → Leads to [[Positions/Armbar Control]]
+- **Top player transitions to back control when bottom player turns to their side during hip escape, following the rotation** (Effectiveness: Medium) - Your Response: Keep your back as close to the mat as possible during the shrimp rather than turning fully to your side, and immediately establish half guard hooks before the top player can insert their own hooks → Leads to [[Positions/Back Control]]
+- **Top player resets position by driving hips back down and re-establishing technical mount after initial escape attempt** (Effectiveness: Medium) - Your Response: Chain multiple hip escape attempts in sequence rather than relying on a single explosive movement—each attempt creates slightly more space that accumulates toward successful knee insertion → Leads to [[Positions/Mount/Technical Mount]]
 
 
 </section>

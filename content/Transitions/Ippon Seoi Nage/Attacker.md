@@ -176,7 +176,7 @@ As the attacker executing Ippon Seoi Nage, your objective is to break your oppon
 
 The throw works best when integrated into a broader standing game plan. Using foot sweeps like Kouchi Gari or Ouchi Gari to push your opponent's weight forward creates the ideal kuzushi for the Seoi Nage entry. Similarly, threatening guard pulls forces opponents to posture up and resist being pulled down, which places their weight exactly where you need it for the throw. The most successful competition applications chain multiple standing threats so the Seoi Nage becomes one option in a sequence rather than an isolated technique.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ The throw works best when integrated into a broader standing game plan. Using fo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Standing Position]] | 20% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Standing Position]] | 20% |
 
 
 </section>
@@ -240,10 +240,10 @@ The throw works best when integrated into a broader standing game plan. Using fo
 
 ## Opponent Counters
 
-- **Opponent widens base and posts a hand on your hip to block entry** (Effectiveness: High) - Your Response: Abandon the Seoi Nage and immediately chain to a different throw such as Kouchi Gari or Tai Otoshi that capitalizes on their widened stance. Alternatively, use established grips to pull guard if the standing exchange is stalling. → Leads to [[Standing Position]]
-- **Opponent sprawls backward and pulls their hips away from your loading attempt** (Effectiveness: High) - Your Response: Follow their backward momentum by transitioning to an Ankle Pick or dropping to a Single Leg attack on the near leg. Their backward retreat exposes their lead leg. Alternatively, use their reaction to pull guard with already-established grips. → Leads to [[Standing Position]]
-- **Opponent grabs your belt or pants to anchor your hips and prevent the lift** (Effectiveness: Medium) - Your Response: Transition to an Uchi Mata or Harai Goshi variation that uses hip-to-hip contact rather than back loading, making their belt grip less effective. Their static posture while gripping creates vulnerability to combination attacks. → Leads to [[Standing Position]]
-- **Opponent circles behind you during entry, taking your back in the standing position** (Effectiveness: High) - Your Response: Immediately drop your hips low, turn into the opponent, and fight for an underhook on the far side to prevent them from establishing back control. If they secure harness grips, sit to guard immediately rather than allowing standing back exposure. → Leads to [[Standing Position]]
+- **Opponent widens base and posts a hand on your hip to block entry** (Effectiveness: High) - Your Response: Abandon the Seoi Nage and immediately chain to a different throw such as Kouchi Gari or Tai Otoshi that capitalizes on their widened stance. Alternatively, use established grips to pull guard if the standing exchange is stalling. → Leads to [[Positions/Standing Position]]
+- **Opponent sprawls backward and pulls their hips away from your loading attempt** (Effectiveness: High) - Your Response: Follow their backward momentum by transitioning to an Ankle Pick or dropping to a Single Leg attack on the near leg. Their backward retreat exposes their lead leg. Alternatively, use their reaction to pull guard with already-established grips. → Leads to [[Positions/Standing Position]]
+- **Opponent grabs your belt or pants to anchor your hips and prevent the lift** (Effectiveness: Medium) - Your Response: Transition to an Uchi Mata or Harai Goshi variation that uses hip-to-hip contact rather than back loading, making their belt grip less effective. Their static posture while gripping creates vulnerability to combination attacks. → Leads to [[Positions/Standing Position]]
+- **Opponent circles behind you during entry, taking your back in the standing position** (Effectiveness: High) - Your Response: Immediately drop your hips low, turn into the opponent, and fight for an underhook on the far side to prevent them from establishing back control. If they secure harness grips, sit to guard immediately rather than allowing standing back exposure. → Leads to [[Positions/Standing Position]]
 
 
 </section>

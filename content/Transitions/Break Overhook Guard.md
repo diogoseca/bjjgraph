@@ -21,7 +21,7 @@ The technique requires a systematic approach rather than brute force. The top pl
 
 Successful execution returns the top player to neutral closed guard top position, where the full spectrum of guard opening and passing options becomes available. This makes Break Overhook Guard a gateway technique that unlocks the top player's entire passing progression from what would otherwise be a highly disadvantaged grip configuration. The technique appears frequently in competition at all levels, as overhook guard is a staple of modern guard play and the ability to systematically neutralize it separates effective guard passers from those who stall against active guard players.
 
-**From Position**: [[Overhook Guard]] (Top)
+**From Position**: [[Positions/Overhook Guard]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Successful execution returns the top player to neutral closed guard top position
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Failure | [[Overhook Guard]] | 30% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Failure | [[Positions/Overhook Guard]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ Break Overhook Guard occupies a critical defensive role in the guard top player'
 ## Related Techniques
 
 
-- [[Overhook Guard]] - Starting position where the bottom player has established overhook control
+- [[Positions/Overhook Guard]] - Starting position where the bottom player has established overhook control
 
-- [[Closed Guard]] - Target position after successfully stripping the overhook
+- [[Positions/Closed Guard]] - Target position after successfully stripping the overhook
 
-- [[Overhook Control]] - Related control concept using similar overhook grip mechanics
+- [[Positions/Overhook Control]] - Related control concept using similar overhook grip mechanics
 
-- [[Guard Opening Sequence]] - Follow-up technique after returning to neutral closed guard
+- [[Transitions/Guard Opening Sequence]] - Follow-up technique after returning to neutral closed guard
 
-- [[Posture Recovery]] - Complementary technique often used in conjunction with the break
+- [[Transitions/Posture Recovery]] - Complementary technique often used in conjunction with the break
 
-- [[Hip Bump Sweep]] - Common counter-sweep threat bottom player uses during break attempts
+- [[Transitions/Hip Bump Sweep]] - Common counter-sweep threat bottom player uses during break attempts
 
-- [[Smash Pass]] - High-percentage passing option available after successful overhook strip
+- [[Transitions/Smash Pass]] - High-percentage passing option available after successful overhook strip
 
-- [[Kimura Trap]] - Position bottom player may transition to if overhook converts to kimura grip
+- [[Positions/Kimura Trap]] - Position bottom player may transition to if overhook converts to kimura grip
 
-- [[Standing up in Base]] - Alternative strategy for dealing with overhook by standing to create distance
+- [[Transitions/Standing up in Base]] - Alternative strategy for dealing with overhook by standing to create distance
 
-- [[Overhook Sweep]] - Primary sweep threat bottom player uses when top player attempts to break
+- [[Transitions/Overhook Sweep]] - Primary sweep threat bottom player uses when top player attempts to break
 
 
 </section>

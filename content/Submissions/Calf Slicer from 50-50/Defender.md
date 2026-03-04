@@ -156,7 +156,7 @@ description: "How to defend against Calf Slicer from 50-50 in BJJ. Recognition, 
 
 Defending the calf slicer from 50-50 guard requires early recognition and immediate preventive action, because once the compression is fully locked, escape options diminish rapidly. The defender's primary challenge is that the 50-50 entanglement already positions the attacker's shin near the calf, meaning the transition from neutral position to active submission threat can happen with minimal telegraphing. Your defensive strategy centers on three priorities in order: prevent the shin from settling across your calf muscle, deny the attacker control of your foot and ankle, and maintain the ability to flex your knee to reduce the extension leverage that powers the compression. The symmetrical nature of 50-50 also provides a significant advantage to alert defenders: you have mirror access to the attacker's legs, which creates counter-submission opportunities that force them to abandon their attack. Understanding when to defend passively versus when to counter-attack aggressively is the critical decision that separates successful defense from simply delaying the inevitable tap.
 
-**Opponent's Starting Position**: [[50-50 Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the calf slicer from 50-50 guard requires early recognition and immedi
 ### 1. Tuck heel and deeply flex knee to deny compression lever
 
 - **When to use**: As soon as you recognize the attacker adjusting their shin across your calf. This is the highest-priority early defense that should be your immediate reaction to any calf slicer setup.
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Eliminates the extension leverage required for the submission, forcing the attacker to either abandon the calf slicer or transition to a different attack such as heel hook
 - **Risk**: Tucking the heel exposes it to heel hook attacks; you must simultaneously control the attacker's hands to prevent them from switching to heel hook
 
 ### 2. Sit up aggressively and push attacker's shoulders backward to collapse their structure
 
 - **When to use**: When you feel the attacker beginning hip extension and compression is building. Most effective before their grip on your foot is fully secured.
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Breaks the attacker's posture and hip extension angle, removing the mechanical advantage needed for compression. Often results in returning to neutral 50-50 position.
 - **Risk**: Requires significant core strength and may fail against larger opponents; if the attacker has already secured your foot, sitting up alone may not be sufficient
 
 ### 3. Attack the attacker's exposed leg with counter heel hook or toe hold
 
 - **When to use**: When the attacker has committed both hands to controlling your foot and has abandoned upper body control, leaving their own heel exposed to counter-attack.
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Forces the attacker to release their calf slicer grips to defend their own leg, creating a scramble opportunity or transition to your own offensive leg entanglement
 - **Risk**: Creates a submission race where both practitioners are attacking simultaneously; calf slicers finish slower than heel hooks, giving you the speed advantage in most cases
 
 ### 4. Strip foot grip with both hands and extract leg from entanglement
 
 - **When to use**: When the attacker's grip on your foot is not fully locked and you can isolate one of their hands for a two-on-one grip break.
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Completely neutralizes the submission by removing the opposing force vector needed for compression; returns to neutral 50-50 or allows leg extraction to standing
 - **Risk**: Requires releasing any upper body control you have on the attacker, potentially allowing them to re-grip or transition to a different submission
 
@@ -239,11 +239,11 @@ Defending the calf slicer from 50-50 guard requires early recognition and immedi
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Successfully strip the attacker's foot grip and sit up to equalize position, returning to neutral 50-50 guard where you can re-engage with your own offensive strategy
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Counter-attack with heel hook or toe hold on the attacker's exposed leg during their calf slicer attempt, forcing them to release and creating a scramble that you transition into your own offensive leg entanglement
 

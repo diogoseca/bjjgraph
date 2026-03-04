@@ -174,7 +174,7 @@ description: "Learn to execute the Rodeo Ride to Turtle transition as the attack
 
 As the attacker executing the Rodeo Ride to Turtle transition, your objective is to convert dynamic asymmetric control into a stable platform for systematic back attacks without creating escape opportunities during the positional adjustment. The Rodeo Ride's perpendicular angle and mobility-based pressure serve well for explosive attacks, but when those attacks are defended or the position becomes unstable, transitioning to standard turtle top preserves your dominant position and opens the conventional seatbelt-to-hooks pathway. The key challenge is maintaining continuous control through at least one anchor grip while repositioning your body from the side angle to directly behind the opponent, establishing chest-to-back alignment that supports the full turtle attack tree including back takes, front headlock submissions, and crucifix entries.
 
-**From Position**: [[Rodeo Ride]] (Top)
+**From Position**: [[Positions/Rodeo Ride]] (Top)
 
 </section>
 
@@ -226,9 +226,9 @@ As the attacker executing the Rodeo Ride to Turtle transition, your objective is
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Rodeo Ride]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Rodeo Ride]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -237,10 +237,10 @@ As the attacker executing the Rodeo Ride to Turtle transition, your objective is
 
 ## Opponent Counters
 
-- **Opponent explosively sits back to guard during grip transition** (Effectiveness: High) - Your Response: Anticipate the sit-back by keeping hip pressure heavy and forward throughout the transition. If they begin sitting, follow their hips down while maintaining your anchor grip and drive your weight forward to flatten them back to turtle. Your chest connection should be tight enough that their sit-back pulls you with them rather than creating separation. → Leads to [[Half Guard]]
-- **Opponent performs granby roll during repositioning phase** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining your anchor grip, using their rotational momentum to accelerate your own repositioning behind them. The granby roll actually assists your transition if you stay connected. Drive your chest into their back as they complete the roll and immediately establish seatbelt control on the far side. Do not release your grip or disengage during the roll. → Leads to [[Half Guard]]
-- **Opponent stands up explosively when lateral pressure decreases during repositioning** (Effectiveness: High) - Your Response: Prevent standing by keeping your hips loaded on their lower back throughout the transition. If they begin to rise, immediately snap them back down using your anchor grip on the collar or shoulder while driving your hip weight forward into their lower back. If they achieve a partial stand, transition immediately to standing back clinch rather than trying to pull them back to turtle. → Leads to [[Half Guard]]
-- **Opponent turns into you to face and establish frames** (Effectiveness: Medium) - Your Response: Block their rotation by maintaining your anchor grip and driving your shoulder pressure into the side they are turning toward. Use your posted knee to block their hip rotation on that side. If they partially succeed in turning, capitalize by transitioning to front headlock control rather than fighting to restore turtle, converting their defensive movement into an offensive opportunity for you. → Leads to [[Rodeo Ride]]
+- **Opponent explosively sits back to guard during grip transition** (Effectiveness: High) - Your Response: Anticipate the sit-back by keeping hip pressure heavy and forward throughout the transition. If they begin sitting, follow their hips down while maintaining your anchor grip and drive your weight forward to flatten them back to turtle. Your chest connection should be tight enough that their sit-back pulls you with them rather than creating separation. → Leads to [[Positions/Half Guard]]
+- **Opponent performs granby roll during repositioning phase** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining your anchor grip, using their rotational momentum to accelerate your own repositioning behind them. The granby roll actually assists your transition if you stay connected. Drive your chest into their back as they complete the roll and immediately establish seatbelt control on the far side. Do not release your grip or disengage during the roll. → Leads to [[Positions/Half Guard]]
+- **Opponent stands up explosively when lateral pressure decreases during repositioning** (Effectiveness: High) - Your Response: Prevent standing by keeping your hips loaded on their lower back throughout the transition. If they begin to rise, immediately snap them back down using your anchor grip on the collar or shoulder while driving your hip weight forward into their lower back. If they achieve a partial stand, transition immediately to standing back clinch rather than trying to pull them back to turtle. → Leads to [[Positions/Half Guard]]
+- **Opponent turns into you to face and establish frames** (Effectiveness: Medium) - Your Response: Block their rotation by maintaining your anchor grip and driving your shoulder pressure into the side they are turning toward. Use your posted knee to block their hip rotation on that side. If they partially succeed in turning, capitalize by transitioning to front headlock control rather than fighting to restore turtle, converting their defensive movement into an offensive opportunity for you. → Leads to [[Positions/Rodeo Ride]]
 
 
 </section>

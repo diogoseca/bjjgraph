@@ -156,7 +156,7 @@ description: "How to defend against Armbar from Crucifix in BJJ. Recognition, es
 
 Defending the armbar from crucifix is one of the most technically demanding defensive scenarios in Brazilian Jiu-Jitsu, as the crucifix position systematically removes your primary defensive tools before the armbar is even initiated. With one arm trapped by your opponent's legs and the other being isolated for the submission, your defensive window is narrow and closes rapidly as your opponent progresses through their attack sequence. The fundamental defensive strategy centers on prevention and early intervention - recognizing the armbar setup before it reaches the point of no return and taking action during the transition phases when your opponent's control is momentarily compromised. Unlike defending armbars from mount or guard where both arms are available, the crucifix armbar defense requires you to work with severely limited resources. Your free arm, hip movement, and timing become your primary weapons. Understanding the hierarchy of defensive priorities is critical: first prevent full arm isolation, then work to extract the trapped arm, and only then attempt positional escape. Attempting to skip steps in this sequence almost always results in a faster submission. Competition-proven defensive methodology emphasizes staying calm under extreme pressure, maintaining defensive grips as long as possible, and exploiting the brief windows that occur when your opponent transitions between crucifix control and armbar positioning.
 
-**Opponent's Starting Position**: [[Crucifix]] (Top)
+**Opponent's Starting Position**: [[Positions/Crucifix]] (Top)
 
 
 </section>
@@ -196,28 +196,28 @@ Defending the armbar from crucifix is one of the most technically demanding defe
 ### 1. Establish and maintain a defensive grip by grabbing your own opposite wrist, lapel, or belt with the hand being attacked, keeping your elbow bent and arm tight to your body
 
 - **When to use**: As soon as you recognize the armbar setup beginning - before your opponent fully isolates and extends your arm. This is your first line of defense and must be established immediately upon recognizing the attack
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Prevents arm extension and forces your opponent to spend time and energy breaking your defensive grip, buying time for further escape attempts or positional adjustments
 - **Risk**: If your opponent breaks the grip, your arm may be rapidly extended. The grip also commits your free arm to defense rather than creating space for escape
 
 ### 2. Time an explosive hip escape toward the side of the trapped arm during the moment your opponent threads their leg across your face, using the brief gap in control to extract your trapped arm
 
 - **When to use**: When your opponent lifts or repositions their top leg to thread it across your face/shoulder - this is the moment their leg control over your trapped arm is weakest and creates a brief window for arm extraction
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Frees the trapped arm and disrupts the crucifix position, reverting to standard back control where you have both arms available for defense and escape
 - **Risk**: Mistiming the hip escape can accelerate the armbar by helping your opponent position their leg. If unsuccessful, you may be in a worse position with your arm more extended
 
 ### 3. Rotate your attacked arm's thumb downward toward the mat (hitchhiker escape) while simultaneously turning your body toward the arm being attacked to relieve elbow pressure
 
 - **When to use**: When the armbar is nearly locked and your arm is being extended past the point where grip defense is viable - this is your last-resort escape before the submission is complete
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Converts the elbow attack into a shoulder rotation that relieves hyperextension pressure, potentially creating enough space to retract the arm or force your opponent to readjust their grip
 - **Risk**: The hitchhiker rotation transfers stress to the shoulder joint, which can result in shoulder injury if your opponent continues applying force. Only use when the elbow is in immediate danger
 
 ### 4. Bridge explosively while turning your body toward the trapped arm side, using the momentum to disrupt your opponent's hip positioning and create space for arm extraction
 
 - **When to use**: When your opponent has committed to the armbar but has not yet fully secured the finishing position - particularly effective when their weight is shifted toward the armbar side, making them vulnerable to being rolled
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Disrupts the armbar positioning and may reverse the crucifix entirely, returning to a scramble or back control situation where defensive options improve significantly
 - **Risk**: Failed bridges waste significant energy and can result in your opponent tightening their leg control. If your opponent anticipates the bridge, they may use your momentum to accelerate the armbar finish
 
@@ -240,11 +240,11 @@ Defending the armbar from crucifix is one of the most technically demanding defe
 
 ## Best-Case Outcomes for Defender
 
-### → [[Crucifix]]
+### → [[Positions/Crucifix]]
 
 Maintain defensive grip preventing arm extension until your opponent abandons the armbar attempt and returns to crucifix control - this resets the attack sequence and buys time for further escape attempts from the crucifix position itself
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Extract the trapped arm during the leg repositioning window using a well-timed hip escape, reverting from crucifix to standard back control where both arms are available for defense, creating significantly better escape prospects
 

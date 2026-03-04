@@ -154,7 +154,7 @@ description: "How to defend against 50-50 Pass in BJJ. Recognition cues, defensi
 
 Defending the 50-50 Pass requires maintaining the leg entanglement while preventing the passer from establishing upper body control and extracting their legs. As the defender, your goal is to keep the 50-50 structure intact, which preserves your attacking opportunities including heel hooks, toe holds, and kneebars. The pass attempt actually creates vulnerabilities in the passer's defense that you can exploit - as they focus on extraction, their heel protection often lapses and their base becomes compromised. Effective defense combines active hip engagement to follow the passer's movement, persistent grip fighting to maintain entanglement, and the ability to recognize when the passer's extraction attempt has created a counter-attack window. The defender who understands both the passing mechanics and the available counters can transform a defensive situation into an offensive opportunity.
 
-**Opponent's Starting Position**: [[50-50 Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the 50-50 Pass requires maintaining the leg entanglement while prevent
 ### 1. Sit up and break passer's shoulder pressure by posting on your far hand and driving your near shoulder into their chest
 
 - **When to use**: Early in the pass sequence when passer is establishing upper body control but has not yet begun leg extraction
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Position equalizes or reverses - you recover the ability to attack submissions and may gain top position through the sit-up
 - **Risk**: If passer has strong crossface established, sitting up exposes your neck to choke threats and may waste energy
 
 ### 2. Follow passer's hip movement with your own hips, maintaining tight entanglement by squeezing your legs and scooting your hips toward theirs
 
 - **When to use**: When passer creates space at the hip connection and begins bottom leg extraction
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Entanglement is maintained and passer cannot free their bottom leg, forcing them to reset the pass attempt
 - **Risk**: Following their movement requires energy and may open you to crossface pressure if you over-commit to hip chasing
 
 ### 3. Attack inside heel hook grip on passer's trapped foot as they shift focus to extraction mechanics
 
 - **When to use**: When passer's attention shifts to upper body control and leg extraction, temporarily reducing their heel defense
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Passer must abandon the pass entirely and address the heel hook threat, resetting the position in your favor with active submission attack
 - **Risk**: If passer has already freed their bottom leg, reaching for the heel may compromise your guard retention structure
 
 ### 4. Thread your leg back between passer's legs to re-entangle when they free their bottom leg but before they step over
 
 - **When to use**: In the transition moment after passer extracts bottom leg but before they complete the step-over with top leg
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Full 50-50 entanglement is re-established and passer's extraction effort is nullified, forcing them to restart
 - **Risk**: Requires precise timing - if too late, your leg insertion attempt gives the passer a leg to drag past and accelerates their pass
 
@@ -225,11 +225,11 @@ Defending the 50-50 Pass requires maintaining the leg entanglement while prevent
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Sit up aggressively when passer's shoulder pressure weakens during extraction attempt. Use underhook on their near arm and drive forward with your chest to reverse the top-bottom dynamic. Establish your own crossface and hip pressure to claim the top position.
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Threaten inside heel hook by securing two-handed control on passer's heel during their extraction attempt. This forces them to abandon the pass and return to defensive positioning, maintaining the entanglement with you holding an active submission threat.
 

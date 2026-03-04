@@ -238,8 +238,8 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -248,11 +248,11 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 ## Opponent Defenses
 
-- **Grabbing own belt or gi pants to prevent rotation** (Effectiveness: High) - Your Response: Do not fight the grip war. Instead, use the Kimura control to transition: roll them over for back take, switch to armbar by stepping over the head, or use it to advance position to mount. The belt grab prevents the finish but creates other opportunities. → Leads to [[Side Control]]
-- **Straightening the arm completely to remove bend at elbow** (Effectiveness: High) - Your Response: This defense defeats the Kimura mechanically. Prevent it by keeping their elbow pinned close to your body or the mat. If they succeed in straightening, transition to different attacks like wrist locks, or re-establish elbow bend by using your body weight to fold their arm. → Leads to [[Side Control]]
-- **Rolling forward into the lock to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Anticipate the roll and follow them through, maintaining the grip and control. Their roll often gives you their back - maintain the Kimura grip and establish back control with seat belt. Alternatively, use their momentum to sweep them if you're on bottom. → Leads to [[Closed Guard]]
-- **Posturing up and lifting you to relieve pressure (from guard)** (Effectiveness: Medium) - Your Response: Use your legs to break their posture back down. If they succeed in standing, the Kimura becomes a stand-up wrestling position - you can use it to stand with them or sweep them. Never let go of the grip as it provides control even while standing. → Leads to [[Closed Guard]]
-- **Turning toward you to change the angle and relieve pressure** (Effectiveness: Low) - Your Response: This defensive turn often worsens their position. Maintain the grip and use their turn to take their back or advance to mount. The Kimura grip remains powerful through their rotation. Follow their movement and establish new control as they expose their back. → Leads to [[Side Control]]
+- **Grabbing own belt or gi pants to prevent rotation** (Effectiveness: High) - Your Response: Do not fight the grip war. Instead, use the Kimura control to transition: roll them over for back take, switch to armbar by stepping over the head, or use it to advance position to mount. The belt grab prevents the finish but creates other opportunities. → Leads to [[Positions/Side Control]]
+- **Straightening the arm completely to remove bend at elbow** (Effectiveness: High) - Your Response: This defense defeats the Kimura mechanically. Prevent it by keeping their elbow pinned close to your body or the mat. If they succeed in straightening, transition to different attacks like wrist locks, or re-establish elbow bend by using your body weight to fold their arm. → Leads to [[Positions/Side Control]]
+- **Rolling forward into the lock to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Anticipate the roll and follow them through, maintaining the grip and control. Their roll often gives you their back - maintain the Kimura grip and establish back control with seat belt. Alternatively, use their momentum to sweep them if you're on bottom. → Leads to [[Positions/Closed Guard]]
+- **Posturing up and lifting you to relieve pressure (from guard)** (Effectiveness: Medium) - Your Response: Use your legs to break their posture back down. If they succeed in standing, the Kimura becomes a stand-up wrestling position - you can use it to stand with them or sweep them. Never let go of the grip as it provides control even while standing. → Leads to [[Positions/Closed Guard]]
+- **Turning toward you to change the angle and relieve pressure** (Effectiveness: Low) - Your Response: This defensive turn often worsens their position. Maintain the grip and use their turn to take their back or advance to mount. The Kimura grip remains powerful through their rotation. Follow their movement and establish new control as they expose their back. → Leads to [[Positions/Side Control]]
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Learn to execute Kiss of the Dragon from Reverse De La Riva Guard.
 
 The Kiss of the Dragon from RDLR is executed by the bottom guard player who initiates a deep inversion underneath the opponent, threading through the space between their legs to emerge on the back side. As the attacker, your objective is to convert the rotational control of the RDLR hook into a complete back take by maintaining continuous leg contact throughout the inversion, controlling the opponent's ability to disengage, and establishing hooks and upper body control upon emerging behind them. Success depends on precise timing of the entry when the opponent creates space, committed and decisive rotation through the threading phase, and immediate consolidation of back control hooks upon emerging from the inversion.
 
-**From Position**: [[Reverse De La Riva Guard]] (Bottom)
+**From Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The Kiss of the Dragon from RDLR is executed by the bottom guard player who init
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Reverse De La Riva Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/De La Riva Guard/Reverse De La Riva Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Kiss of the Dragon from RDLR is executed by the bottom guard player who init
 
 ## Opponent Counters
 
-- **Opponent sprawls hips back and drives weight down during inversion attempt** (Effectiveness: High) - Your Response: If you feel the sprawl before committing, abort and return to RDLR to threaten waiter sweep or berimbolo. If already mid-inversion, use their downward pressure to accelerate your rotation and pull harder on the ankle grip to slide through faster. → Leads to [[Reverse De La Riva Guard]]
-- **Opponent backsteps their far leg away from the hook to remove the pivot point** (Effectiveness: High) - Your Response: Follow the backstepping leg by adjusting your hook depth and transitioning to crab ride or single leg X-guard entry rather than forcing the full Kiss of the Dragon rotation against a retreating target. → Leads to [[Reverse De La Riva Guard]]
-- **Opponent drives forward with crossface pressure to flatten you before inversion begins** (Effectiveness: Medium) - Your Response: Use their forward momentum to load the waiter sweep instead, converting their defensive pressure into a different offensive opportunity. Their forward drive feeds directly into RDLR sweep mechanics. → Leads to [[Side Control]]
-- **Opponent grabs your belt or pants to stall the rotation mid-inversion** (Effectiveness: Medium) - Your Response: Continue pulling on their ankle while using your free hand to strip their grip. If stalled mid-rotation, transition to turtle position and work to complete the back take from there rather than remaining inverted. → Leads to [[Reverse De La Riva Guard]]
+- **Opponent sprawls hips back and drives weight down during inversion attempt** (Effectiveness: High) - Your Response: If you feel the sprawl before committing, abort and return to RDLR to threaten waiter sweep or berimbolo. If already mid-inversion, use their downward pressure to accelerate your rotation and pull harder on the ankle grip to slide through faster. → Leads to [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
+- **Opponent backsteps their far leg away from the hook to remove the pivot point** (Effectiveness: High) - Your Response: Follow the backstepping leg by adjusting your hook depth and transitioning to crab ride or single leg X-guard entry rather than forcing the full Kiss of the Dragon rotation against a retreating target. → Leads to [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
+- **Opponent drives forward with crossface pressure to flatten you before inversion begins** (Effectiveness: Medium) - Your Response: Use their forward momentum to load the waiter sweep instead, converting their defensive pressure into a different offensive opportunity. Their forward drive feeds directly into RDLR sweep mechanics. → Leads to [[Positions/Side Control]]
+- **Opponent grabs your belt or pants to stall the rotation mid-inversion** (Effectiveness: Medium) - Your Response: Continue pulling on their ankle while using your free hand to strip their grip. If stalled mid-rotation, transition to turtle position and work to complete the back take from there rather than remaining inverted. → Leads to [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 
 
 </section>

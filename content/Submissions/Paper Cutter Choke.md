@@ -22,8 +22,8 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries (bilateral compression)
-**Starting Position**: [[Side Control]]
-**From Position**: [[Side Control]] (Top)
+**Starting Position**: [[Positions/Side Control]]
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 62%
 
 </section>
@@ -78,8 +78,8 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -228,13 +228,13 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 ## From Which Positions?
 
-- [[Side Control]]
-- [[North-South]]
-- [[Turtle]]
-- [[Kesa Gatame]]
-- [[Modified Scarf Hold]]
-- [[Knee on Belly]]
-- [[Gift Wrap]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
+- [[Positions/Turtle]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Knee on Belly]]
+- [[Positions/Gift Wrap]]
 
 
 </section>
@@ -243,16 +243,16 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 ## Related Submissions
 
-- [[Cross Collar Choke]]
-- [[Arm Triangle]]
-- [[Darce Choke]]
-- [[Anaconda Choke]]
-- [[Ezekiel Choke]]
-- [[Clock Choke]]
-- [[Breadcutter Choke]]
-- [[Baseball Bat Choke]]
-- [[Bow and Arrow Choke]]
-- [[North-South Choke]]
+- [[Transitions/Cross Collar Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Anaconda Choke]]
+- [[Submissions/Ezekiel Choke]]
+- [[Transitions/Clock Choke]]
+- [[Transitions/Breadcutter Choke]]
+- [[Transitions/Baseball Bat Choke]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Transitions/North-South Choke]]
 
 
 </section>
@@ -261,16 +261,16 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 ## Additional Related Content
 
-- [[Side Control]] - Primary starting position for paper cutter choke setup
-- [[North-South]] - Alternative starting position for paper cutter variation
-- [[Gift Wrap]] - Control position that facilitates easier paper cutter setup
-- [[Kesa Gatame]] - Traditional scarf hold position where paper cutter can be applied
-- [[Cross Collar Choke]] - Related collar choke that uses similar grip mechanics
-- [[Arm Triangle]] - Common backup submission when paper cutter is defended
-- [[Kimura from Side Control]] - Complementary attack creating defensive dilemmas with paper cutter
-- [[Baseball Bat Choke]] - Alternative collar-based choke from similar positioning
-- [[Breadcutter Choke]] - Related technique using similar collar grip mechanics
-- [[Clock Choke]] - Variation accessible when opponent defends standard paper cutter
+- [[Positions/Side Control]] - Primary starting position for paper cutter choke setup
+- [[Positions/North-South]] - Alternative starting position for paper cutter variation
+- [[Positions/Gift Wrap]] - Control position that facilitates easier paper cutter setup
+- [[Positions/Side Control/Kesa Gatame]] - Traditional scarf hold position where paper cutter can be applied
+- [[Transitions/Cross Collar Choke]] - Related collar choke that uses similar grip mechanics
+- [[Transitions/Arm Triangle]] - Common backup submission when paper cutter is defended
+- [[Submissions/Kimura from Side Control]] - Complementary attack creating defensive dilemmas with paper cutter
+- [[Transitions/Baseball Bat Choke]] - Alternative collar-based choke from similar positioning
+- [[Transitions/Breadcutter Choke]] - Related technique using similar collar grip mechanics
+- [[Transitions/Clock Choke]] - Variation accessible when opponent defends standard paper cutter
 
 
 </section>

@@ -237,8 +237,8 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[North-South]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/North-South]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -247,9 +247,9 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 ## Opponent Defenses
 
-- **Opponent pulls elbow tight to body and hides arm** (Effectiveness: High) - Your Response: Before they can fully retract the arm, use your chest pressure and head position to bait them into re-extending the arm to create space. Alternatively, transition to far-side armbar or switch to alternative attacks like the north-south choke to force them to react. → Leads to [[North-South]]
-- **Opponent rolls toward the submission (into you) to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Follow their roll by moving your hips in the same direction while maintaining the figure-four grip. As they roll toward you, they often expose their back—be prepared to transition to back control by releasing the Kimura and establishing seat belt control. → Leads to [[Half Guard]]
-- **Opponent bridges explosively to disrupt your base** (Effectiveness: Medium) - Your Response: Maintain wide knee base and heavy chest pressure to absorb the bridge. If they create significant disruption, temporarily release rotational pressure (not the grip) and reestablish positional control before continuing the submission. Prioritize position maintenance over submission completion. → Leads to [[North-South]]
+- **Opponent pulls elbow tight to body and hides arm** (Effectiveness: High) - Your Response: Before they can fully retract the arm, use your chest pressure and head position to bait them into re-extending the arm to create space. Alternatively, transition to far-side armbar or switch to alternative attacks like the north-south choke to force them to react. → Leads to [[Positions/North-South]]
+- **Opponent rolls toward the submission (into you) to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Follow their roll by moving your hips in the same direction while maintaining the figure-four grip. As they roll toward you, they often expose their back—be prepared to transition to back control by releasing the Kimura and establishing seat belt control. → Leads to [[Positions/Half Guard]]
+- **Opponent bridges explosively to disrupt your base** (Effectiveness: Medium) - Your Response: Maintain wide knee base and heavy chest pressure to absorb the bridge. If they create significant disruption, temporarily release rotational pressure (not the grip) and reestablish positional control before continuing the submission. Prioritize position maintenance over submission completion. → Leads to [[Positions/North-South]]
 - **Opponent grabs their own belt or gi pants with trapped hand (grip fighting)** (Effectiveness: Low) - Your Response: This defensive grip actually immobilizes their arm in a vulnerable position. Maintain your figure-four and continue applying rotational pressure—their own defensive grip prevents them from following the rotation, increasing joint stress. They will typically release the grip quickly once pressure increases. → Leads to [[game-over]]
 
 

@@ -148,7 +148,7 @@ As the defender against Posture Recovery, you are the bottom guard player workin
 
 Your primary tools are grip retention, leg pressure, and attack timing. Deep collar grips combined with active heel pressure pulling the opponent's lower back create the strongest posture-breaking force. When the opponent begins their recovery attempt, this is actually a moment of vulnerability where their attention shifts to posture mechanics, creating windows for submission entries. The key is recognizing recovery attempts early through tactile cues and responding with either grip reinforcement to prevent recovery or offensive transitions that exploit the recovery movement. Skilled guard players view posture recovery attempts not as threats to defend against but as opportunities to attack.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Top)
 
 </section>
 
@@ -186,28 +186,28 @@ Your primary tools are grip retention, leg pressure, and attack timing. Deep col
 ### 1. Reinforce collar grip and increase heel drive into lower back to resist recovery force
 
 - **When to use**: When you feel the opponent beginning to spread their knees and shift weight backward in early recovery setup
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Opponent's recovery attempt fails and they remain in broken posture, maintaining your offensive position with guard closed
 - **Risk**: If opponent has already generated significant backward momentum, over-committing to pulling may compromise your own position or burn grip endurance
 
 ### 2. Transition to armbar by pivoting hips and controlling the near arm as opponent extends during frame establishment
 
 - **When to use**: When opponent pushes hands to your hips or biceps with arms extended, creating arm isolation opportunity during recovery framing
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You sweep and achieve dominant position through the armbar attempt, even if the submission itself is not completed, or finish the armbar
 - **Risk**: If armbar attempt fails and opponent postures through it, they achieve full posture recovery with momentum advantage
 
 ### 3. Shoot triangle by controlling one arm and elevating hips as opponent drives backward, trapping head and arm
 
 - **When to use**: When opponent's recovery movement creates an asymmetric arm position with one arm inside and one outside your guard frame
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Triangle locks in and opponent must address the submission threat, abandoning posture recovery entirely and entering your submission control
 - **Risk**: If triangle is not locked cleanly, opponent can stack and use the triangle attempt to assist their posture recovery
 
 ### 4. Execute hip bump sweep by sitting up explosively as opponent shifts weight backward during recovery
 
 - **When to use**: When opponent drives hips back and their weight shifts posteriorly, creating forward-direction sweep vulnerability during the recovery transition
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You sweep the opponent to mount position, completely reversing the positional hierarchy and negating their recovery attempt
 - **Risk**: If hip bump is read early, opponent may use your forward momentum against you and achieve faster posture recovery
 
@@ -219,11 +219,11 @@ Your primary tools are grip retention, leg pressure, and attack timing. Deep col
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Maintain layered grip control with at least two control points (collar plus sleeve, or collar plus head control) so that breaking one grip does not free them. Actively pull with heels into their lower back while using arms to keep their head and shoulders below their hip line. Re-grip immediately whenever a grip is broken rather than allowing any recovery momentum to build.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Use the opponent's recovery attempt as an offensive trigger. When they extend arms to frame, attack the armbar or triangle. When they shift weight backward, execute a hip bump sweep. The recovery movement creates predictable body mechanics that you can exploit with pre-planned counters. Time your attacks to the moment of maximum commitment to the recovery drive.
 

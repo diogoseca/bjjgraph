@@ -180,7 +180,7 @@ description: "Master the attacker perspective for Strip Russian Leg Lasso. Compl
 
 As the attacker executing Strip Russian Leg Lasso, your objective is to systematically dismantle the opponent's Russian Leg Lasso guard configuration through a precise sequence of grip breaks, positional adjustments, and arm extraction. The technique demands patience and methodical execution rather than explosive force, as the integrated nature of the Russian Leg Lasso means that each control point reinforces the others. Success requires understanding the biomechanical dependencies between the lasso leg, sleeve grip, and collar grip, then attacking these connections in the correct order to create a cascading failure of the entire guard structure. The process typically begins with neutralizing the reinforcing grips before addressing the lasso itself, converting a complex multi-layered problem into manageable individual challenges.
 
-**From Position**: [[Russian Leg Lasso]] (Top)
+**From Position**: [[Positions/Lasso Guard/Russian Leg Lasso]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing Strip Russian Leg Lasso, your objective is to systemat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Russian Leg Lasso]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Lasso Guard/Russian Leg Lasso]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing Strip Russian Leg Lasso, your objective is to systemat
 
 ## Opponent Counters
 
-- **Opponent immediately re-grips collar and sleeve during strip sequence** (Effectiveness: High) - Your Response: Maintain two-on-one control on the grip you just broke and do not release until you have progressed to the next step. If they re-grip collar, address it again before continuing. Speed up the sequence to reduce re-gripping windows. → Leads to [[Russian Leg Lasso]]
-- **Opponent initiates sweep during grip break by pulling with lasso and driving hips** (Effectiveness: Medium) - Your Response: Immediately widen base and sprawl hips back. Abandon the current grip break and focus entirely on base recovery. Once stable, restart the stripping sequence from the beginning. → Leads to [[Open Guard]]
-- **Opponent transitions to alternative guard as lasso weakens** (Effectiveness: Medium) - Your Response: Control their legs immediately when you feel the lasso loosening to prevent guard transitions. Pin both knees together or grip pants to limit their ability to reconfigure. Use the transitional moment to launch a passing attempt while they lack established guard structure. → Leads to [[Russian Leg Lasso]]
-- **Opponent tightens lasso by elevating hips and driving foot deeper past shoulder** (Effectiveness: High) - Your Response: Step back further to create more slack before attempting extraction. Push their lasso knee toward their chest to reduce the angle. Consider switching to the angle-based strip variant where you circle to the non-lasso side rather than fighting the tightened lasso directly. → Leads to [[Russian Leg Lasso]]
+- **Opponent immediately re-grips collar and sleeve during strip sequence** (Effectiveness: High) - Your Response: Maintain two-on-one control on the grip you just broke and do not release until you have progressed to the next step. If they re-grip collar, address it again before continuing. Speed up the sequence to reduce re-gripping windows. → Leads to [[Positions/Lasso Guard/Russian Leg Lasso]]
+- **Opponent initiates sweep during grip break by pulling with lasso and driving hips** (Effectiveness: Medium) - Your Response: Immediately widen base and sprawl hips back. Abandon the current grip break and focus entirely on base recovery. Once stable, restart the stripping sequence from the beginning. → Leads to [[Positions/Open Guard]]
+- **Opponent transitions to alternative guard as lasso weakens** (Effectiveness: Medium) - Your Response: Control their legs immediately when you feel the lasso loosening to prevent guard transitions. Pin both knees together or grip pants to limit their ability to reconfigure. Use the transitional moment to launch a passing attempt while they lack established guard structure. → Leads to [[Positions/Lasso Guard/Russian Leg Lasso]]
+- **Opponent tightens lasso by elevating hips and driving foot deeper past shoulder** (Effectiveness: High) - Your Response: Step back further to create more slack before attempting extraction. Push their lasso knee toward their chest to reduce the angle. Consider switching to the angle-based strip variant where you circle to the non-lasso side rather than fighting the tightened lasso directly. → Leads to [[Positions/Lasso Guard/Russian Leg Lasso]]
 
 
 </section>

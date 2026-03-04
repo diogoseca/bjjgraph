@@ -180,7 +180,7 @@ description: "How to execute the Transition to Z-Guard from Knee Shield Half Gua
 
 As the attacker executing the Transition to Z-Guard, your objective is to upgrade from a standard knee shield position to the higher, more powerful Z-Guard frame. This transition transforms your half guard from a primarily defensive retention tool into an aggressive launching pad for sweeps, back takes, and submission entries. The key mechanical action is elevating your knee shield from the opponent's hip or mid-torso up to their shoulder or collarbone, which requires coordinated hip movement, grip management, and precise timing. Success depends on reading the opponent's weight distribution and choosing the correct moment to elevate, typically when they are adjusting grips, shifting between passing strategies, or momentarily light on their pressure.
 
-**From Position**: [[Knee Shield Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Transition to Z-Guard, your objective is to upgrad
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Z-Guard]] | 65% |
-| Failure | [[Knee Shield Half Guard]] | 20% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Z-Guard]] | 65% |
+| Failure | [[Positions/Half Guard/Knee Shield Half Guard]] | 20% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Transition to Z-Guard, your objective is to upgrad
 
 ## Opponent Counters
 
-- **Opponent drives heavy crossface pressure during elevation attempt** (Effectiveness: High) - Your Response: Abort the elevation and re-establish standard knee shield frames. Address the crossface by framing on their bicep or establishing collar tie before reattempting. If crossface is too deep, transition to deep half entry instead. → Leads to [[Flattened Half Guard]]
-- **Opponent grabs your knee shield leg at the knee or ankle to prevent upward travel** (Effectiveness: Medium) - Your Response: Use your far hand to strip their grip on your leg while maintaining underhook control. Alternatively, use the grip strip as a momentary distraction to swim for a deeper underhook, then reattempt elevation once the grip is broken. → Leads to [[Knee Shield Half Guard]]
-- **Opponent immediately smash passes by driving weight forward as knee shield leaves mid-torso position** (Effectiveness: High) - Your Response: If the smash collapses your frame during transition, abandon the Z-Guard entry and use the opponent's forward momentum to dive into deep half guard. The key is recognizing early that the elevation is being stuffed and redirecting rather than fighting a losing battle. → Leads to [[Flattened Half Guard]]
-- **Opponent backsteps around the knee shield as it elevates** (Effectiveness: Low) - Your Response: This is actually favorable. As they circle, follow their movement with your underhook and begin establishing back control. The elevated knee shield position makes back takes easier when opponents circle, so their backstep attempt can be converted into your offensive opportunity. → Leads to [[Knee Shield Half Guard]]
+- **Opponent drives heavy crossface pressure during elevation attempt** (Effectiveness: High) - Your Response: Abort the elevation and re-establish standard knee shield frames. Address the crossface by framing on their bicep or establishing collar tie before reattempting. If crossface is too deep, transition to deep half entry instead. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent grabs your knee shield leg at the knee or ankle to prevent upward travel** (Effectiveness: Medium) - Your Response: Use your far hand to strip their grip on your leg while maintaining underhook control. Alternatively, use the grip strip as a momentary distraction to swim for a deeper underhook, then reattempt elevation once the grip is broken. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
+- **Opponent immediately smash passes by driving weight forward as knee shield leaves mid-torso position** (Effectiveness: High) - Your Response: If the smash collapses your frame during transition, abandon the Z-Guard entry and use the opponent's forward momentum to dive into deep half guard. The key is recognizing early that the elevation is being stuffed and redirecting rather than fighting a losing battle. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent backsteps around the knee shield as it elevates** (Effectiveness: Low) - Your Response: This is actually favorable. As they circle, follow their movement with your underhook and begin establishing back control. The elevated knee shield position makes back takes easier when opponents circle, so their backstep attempt can be converted into your offensive opportunity. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 
 
 </section>

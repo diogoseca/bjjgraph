@@ -176,7 +176,7 @@ Defending the knee slice pass requires the bottom player to recognize the attack
 
 The most critical defensive window occurs before the passer's knee crosses the thigh line. Once the knee has cleared past the midpoint and the crossface is established, the probability of successful defense drops dramatically. This means the defender must be proactive rather than reactive, reading the setup grips and body positioning that telegraph the incoming slice. Skilled defenders use the passer's forward commitment against them by timing underhook entries, deep half transitions, and sweep attempts to coincide with the moments when the passer's base is most compromised during the driving phase of the pass.
 
-**Opponent's Starting Position**: [[Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -215,49 +215,49 @@ The most critical defensive window occurs before the passer's knee crosses the t
 ### 1. Establish knee shield frame by inserting your shin across the passer's chest and hip before the slice begins
 
 - **When to use**: Immediately when you recognize the passer establishing collar grip and far hip control in preparation for the slice
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Passer cannot initiate the slice and must deal with your knee shield first, resetting to neutral half guard and buying time for offensive entries
 - **Risk**: If the passer smashes through the knee shield with shoulder pressure, you may end up flat on your back without frames
 
 ### 2. Fight for underhook on the trapped-leg side by swimming your arm under passer's armpit and driving to your side
 
 - **When to use**: When the passer has not yet established a deep crossface and there is space between your bodies to insert the underhook
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You gain the dominant grip position enabling sweeps, back takes, and prevents the passer from completing the crossface needed for the slice
 - **Risk**: Overcommitting to the underhook can expose you to a kimura if the passer catches your reaching arm, or a darce choke if you over-rotate
 
 ### 3. Transition to deep half guard by ducking under the passer's hips as they drive forward
 
 - **When to use**: When the passer commits significant forward pressure and their hips are loaded over your centerline during the mid-phase of the slice
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You enter deep half guard underneath the passer with superior sweeping angles, completely negating the knee slice trajectory
 - **Risk**: Mistiming the entry can leave you flat on your back with the passer in a strong crossface position, worse than where you started
 
 ### 4. Hip escape and knee recovery to reguard by shrimping away and inserting your knee between your bodies
 
 - **When to use**: When the passer's knee has begun the slice but has not yet cleared past your thigh midline and some space remains
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover full half guard or insert a knee shield, resetting the passing attempt and forcing the passer to re-establish their setup
 - **Risk**: If the passer maintains far hip control, your shrimp creates no effective distance and you exhaust energy without improving position
 
 ### 5. Turn to turtle and immediately stand or re-guard when the slice is nearly complete
 
 - **When to use**: As a last resort when the knee has cleared your thigh line and the pass is nearly complete but consolidation has not occurred
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You avoid conceding side control and reach turtle where you can initiate stand-up or guard recovery sequences
 - **Risk**: The passer may follow you to turtle and secure back control, putting you in a worse position than side control bottom
 
 ### 6. Underhook the slicing leg and initiate a sweep by driving into the passer's committed weight
 
 - **When to use**: When the passer overcommits forward pressure during the driving phase and their base is compromised on one side
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You sweep the passer, ending up in top position and completely reversing the positional exchange
 - **Risk**: The passer can sprawl and drive their hips back, stripping your underhook and accelerating their pass completion
 
 ### 7. Frame against the crossface arm and pummel your head free to face the passer
 
 - **When to use**: Early in the sequence when the passer is establishing crossface but has not yet loaded their full weight into the pressure
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You deny the crossface which is the primary upper body control mechanism, making the slice significantly harder to complete
 - **Risk**: If your frame is weak, the passer simply drives through it and establishes an even deeper crossface than before
 
@@ -269,11 +269,11 @@ The most critical defensive window occurs before the passer's knee crosses the t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Establish a knee shield frame before the slice begins, then fight for the underhook to regain offensive half guard position. Use the knee shield to create distance, deny the crossface, and transition to an active half guard with sweep and back take options available.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an underhook sweep or deep half sweep to coincide with the passer's forward weight commitment during the driving phase of the slice. As they load forward to complete the pass, use their momentum against them by redirecting their weight over your hips and completing the reversal to top position.
 

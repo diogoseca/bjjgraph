@@ -213,31 +213,31 @@ From a biomechanical perspective, High Mount achieves dominance by positioning t
 
 ## Available Attacks
 
-### [[Mount to Armbar]] (21% of attempts)
+### [[Transitions/Mount to Armbar]] (21% of attempts)
 
-### [[Cross Collar Choke]] (12% of attempts)
+### [[Transitions/Cross Collar Choke]] (12% of attempts)
 
-### [[Americana]] (9% of attempts)
+### [[Transitions/Americana]] (9% of attempts)
 
-### [[Triangle from Mount]] (9% of attempts)
+### [[Transitions/Triangle from Mount]] (9% of attempts)
 
-### [[Kimura]] (9% of attempts)
+### [[Transitions/Kimura]] (9% of attempts)
 
-### [[Arm Triangle]] (7% of attempts)
+### [[Transitions/Arm Triangle]] (7% of attempts)
 
-### [[Gift Wrap Transition]] (7% of attempts)
+### [[Transitions/Gift Wrap Transition]] (7% of attempts)
 
-### [[Mounted Triangle]] (6% of attempts)
+### [[Positions/Mount/Mounted Triangle]] (6% of attempts)
 
-### [[S-Mount Transition]] (7% of attempts)
+### [[Transitions/S-Mount Transition]] (7% of attempts)
 
-### [[Mounted Crucifix Entry]] (6% of attempts)
+### [[Transitions/Mounted Crucifix Entry]] (6% of attempts)
 
-### [[High Mount to S Mount]] (3% of attempts)
+### [[Transitions/High Mount to S Mount]] (3% of attempts)
 
-### [[Armbar from High Mount]] (2% of attempts)
+### [[Submissions/Armbar from High Mount]] (2% of attempts)
 
-### [[Cross Collar Choke from High Mount]] (2% of attempts)
+### [[Submissions/Cross Collar Choke from High Mount]] (2% of attempts)
 
 
 
@@ -248,28 +248,28 @@ From a biomechanical perspective, High Mount achieves dominance by positioning t
 ## Decision Making from This Position
 
 **If opponent keeps arms extended for frames or defensive postures with straight arms:**
-- Execute **[[Mount to Armbar]]** → [[Armbar Control]] (Probability: 75%)
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 60%)
+- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 75%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
 
 
 **If opponent tucks elbows tight to body and protects neck defensively with bent arms:**
-- Execute **[[Cross Collar Choke]]** → [[Game Over]] (Probability: 65%)
-- Execute **[[Americana]]** → [[Game Over]] (Probability: 55%)
+- Execute **[[Transitions/Cross Collar Choke]]** → [[Positions/Game Over]] (Probability: 65%)
+- Execute **[[Transitions/Americana]]** → [[Positions/Game Over]] (Probability: 55%)
 
 
 **If opponent attempts to bridge or turn to side for escape with explosive movement:**
-- Execute **[[S-Mount Transition]]** → [[S Mount]] (Probability: 80%)
-- Execute **[[High Mount Transition]]** → [[Technical Mount]] (Probability: 75%)
+- Execute **[[Transitions/S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 80%)
+- Execute **[[Transitions/High Mount Transition]]** → [[Positions/Mount/Technical Mount]] (Probability: 75%)
 
 
 **If opponent creates frames and attempts to push on hips with both hands:**
-- Execute **[[Mount to Armbar]]** → [[Armbar Control]] (Probability: 70%)
-- Execute **[[Triangle from Mount]]** → [[Triangle Control]] (Probability: 60%)
+- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 70%)
+- Execute **[[Transitions/Triangle from Mount]]** → [[Positions/Triangle Control]] (Probability: 60%)
 
 
 **If opponent exposes neck while defending arms or attempting to protect upper body:**
-- Execute **[[Cross Collar Choke]]** → [[Game Over]] (Probability: 70%)
-- Execute **[[Mounted Triangle]]** → [[Mounted Triangle]] (Probability: 65%)
+- Execute **[[Transitions/Cross Collar Choke]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Positions/Mount/Mounted Triangle]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 65%)
 
 
 
@@ -415,17 +415,17 @@ Hold high mount position for extended periods while partner attempts to survive 
 
 ## Related Positions and Techniques
 
-- **[[Mount]]** - Parent position - standard mount from which high mount is established through progressive knee walking
-- **[[S Mount]]** - Natural progression - common advancement when opponent attempts to push on hips or create distance
-- **[[Technical Mount]]** - Alternative advancement - transition target when opponent turns to side for elbow escape
-- **[[Armbar Control]]** - Primary submission target - most common finish from high mount with highest success rate
-- **[[Gift Wrap]]** - Control variation - arm control position leading to back take or submission opportunities
-- **[[Triangle Control]]** - Submission option - available when opponent extends arms for defensive frames on hips
-- **[[Modified Mount]]** - Related variation - alternative mount position with different control mechanics and weight distribution
-- **[[North-South]]** - Transition option - available when opponent bridges and creates perpendicular angle
-- **[[Mount to Armbar]]** - Primary technique - transition connecting high mount to armbar finish sequence
-- **[[Kimura Trap]]** - Submission control - shoulder lock option when opponent defends with bent arms tucked tight
-- **[[Mounted Crucifix]]** - Advanced control - arm isolation variation for submission attacks when opponent defends passively
+- **[[Positions/Mount]]** - Parent position - standard mount from which high mount is established through progressive knee walking
+- **[[Positions/Mount/S Mount]]** - Natural progression - common advancement when opponent attempts to push on hips or create distance
+- **[[Positions/Mount/Technical Mount]]** - Alternative advancement - transition target when opponent turns to side for elbow escape
+- **[[Positions/Armbar Control]]** - Primary submission target - most common finish from high mount with highest success rate
+- **[[Positions/Gift Wrap]]** - Control variation - arm control position leading to back take or submission opportunities
+- **[[Positions/Triangle Control]]** - Submission option - available when opponent extends arms for defensive frames on hips
+- **[[Positions/Mount/Modified Mount]]** - Related variation - alternative mount position with different control mechanics and weight distribution
+- **[[Positions/North-South]]** - Transition option - available when opponent bridges and creates perpendicular angle
+- **[[Transitions/Mount to Armbar]]** - Primary technique - transition connecting high mount to armbar finish sequence
+- **[[Positions/Kimura Trap]]** - Submission control - shoulder lock option when opponent defends with bent arms tucked tight
+- **[[Positions/Mount/Mounted Crucifix]]** - Advanced control - arm isolation variation for submission attacks when opponent defends passively
 
 
 </section>

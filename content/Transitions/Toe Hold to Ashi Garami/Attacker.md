@@ -186,7 +186,7 @@ description: "Execute the Toe Hold to Ashi Garami transition. Step-by-step guide
 
 The attacker in the Toe Hold to Ashi Garami transition faces the challenge of releasing a partially defended toe hold while maintaining sufficient leg control to prevent escape and establish a new attacking platform. This requires precise coordination between grip release, leg repositioning, and immediate control re-establishment in the inside ashi-garami configuration. The attacker must read the opponent's defensive patterns to identify the optimal transition moment, using defensive reactions as triggers rather than fighting against established defenses. Success creates a dramatic expansion of offensive options, transforming a stalling single-attack scenario into a dynamic multi-threat position.
 
-**From Position**: [[Toe Hold Control]] (Top)
+**From Position**: [[Positions/Toe Hold Control]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ The attacker in the Toe Hold to Ashi Garami transition faces the challenge of re
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 55% |
-| Failure | [[Toe Hold Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 55% |
+| Failure | [[Positions/Toe Hold Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ The attacker in the Toe Hold to Ashi Garami transition faces the challenge of re
 
 ## Opponent Counters
 
-- **Explosive leg extraction during grip release window** (Effectiveness: High) - Your Response: Maintain maximum leg clamping pressure throughout the transition and minimize the grip change duration through repetitive drilling. If extraction begins, abort the transition and re-establish toe hold grip before opponent fully clears their leg. → Leads to [[Half Guard]]
-- **Sit-up and frame establishment during grip change** (Effectiveness: Medium) - Your Response: Drive forward pressure with your chest into opponent's lower leg as you complete the inside leg placement. Use the momentum of their sit-up to advance deeper into ashi garami by scooting your hips closer and establishing tighter leg control. → Leads to [[Toe Hold Control]]
-- **Free leg push on hip to create distance during repositioning** (Effectiveness: Medium) - Your Response: Control opponent's free leg with your near-side hand or use hip positioning to pin their pushing leg before completing the transition. If they successfully create distance, immediately pursue by crawling forward to close the gap rather than reaching with arms only. → Leads to [[Toe Hold Control]]
-- **Defensive roll away during vulnerability window to disengage entirely** (Effectiveness: High) - Your Response: Follow the roll by maintaining chest-to-leg connection and pursuing with hip movement. If they roll toward you, use their momentum to advance to saddle position. If they roll away, maintain heel grip and scoot to maintain leg entanglement connection. → Leads to [[Half Guard]]
+- **Explosive leg extraction during grip release window** (Effectiveness: High) - Your Response: Maintain maximum leg clamping pressure throughout the transition and minimize the grip change duration through repetitive drilling. If extraction begins, abort the transition and re-establish toe hold grip before opponent fully clears their leg. → Leads to [[Positions/Half Guard]]
+- **Sit-up and frame establishment during grip change** (Effectiveness: Medium) - Your Response: Drive forward pressure with your chest into opponent's lower leg as you complete the inside leg placement. Use the momentum of their sit-up to advance deeper into ashi garami by scooting your hips closer and establishing tighter leg control. → Leads to [[Positions/Toe Hold Control]]
+- **Free leg push on hip to create distance during repositioning** (Effectiveness: Medium) - Your Response: Control opponent's free leg with your near-side hand or use hip positioning to pin their pushing leg before completing the transition. If they successfully create distance, immediately pursue by crawling forward to close the gap rather than reaching with arms only. → Leads to [[Positions/Toe Hold Control]]
+- **Defensive roll away during vulnerability window to disengage entirely** (Effectiveness: High) - Your Response: Follow the roll by maintaining chest-to-leg connection and pursuing with hip movement. If they roll toward you, use their momentum to advance to saddle position. If they roll away, maintain heel grip and scoot to maintain leg entanglement connection. → Leads to [[Positions/Half Guard]]
 
 
 </section>

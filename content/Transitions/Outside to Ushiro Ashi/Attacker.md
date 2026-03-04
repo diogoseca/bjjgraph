@@ -180,7 +180,7 @@ description: "Learn to execute the Outside to Ushiro Ashi-Garami transition. Mas
 
 The Outside to Ushiro Ashi transition from the attacker's perspective centers on maintaining continuous leg entanglement as the opponent inverts to escape. Rather than fighting the rotation and risking complete loss of control, the attacker follows the movement while preserving the figure-four leg configuration. This requires precise hip coordination, grip management, and an understanding of how the reversed angle creates new submission opportunities. Success depends on recognizing the moment the opponent commits to inversion and immediately initiating the follow sequence rather than waiting until they have built significant rotational momentum that becomes difficult to match.
 
-**From Position**: [[Outside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The Outside to Ushiro Ashi transition from the attacker's perspective centers on
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Ushiro Ashi-Garami]] | 55% |
-| Failure | [[Outside Ashi-Garami]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 55% |
+| Failure | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Outside to Ushiro Ashi transition from the attacker's perspective centers on
 
 ## Opponent Counters
 
-- **Opponent accelerates inversion to reach turtle before attacker can consolidate Ushiro configuration** (Effectiveness: High) - Your Response: Increase follow speed immediately when detecting acceleration, prioritize inside leg hook retention, and if they reach turtle consider transitioning to back take rather than forcing degraded Ushiro position → Leads to [[Half Guard]]
-- **Opponent frames on attacker's hips during rotation to create separation and prevent hip-to-thigh connection** (Effectiveness: Medium) - Your Response: Collapse their frames by driving hips forward into their thigh while maintaining figure-four squeeze, close distance before they establish strong posting position that prevents your follow → Leads to [[Outside Ashi-Garami]]
-- **Opponent uses hands to strip inside leg hook during transitional moment when leg configuration is adjusting** (Effectiveness: High) - Your Response: Pre-emptively tighten inside leg hook before rotation accelerates, reinforce with hand on your own shin if necessary, and maintain constant pull with inside heel toward your hip to resist stripping attempts → Leads to [[Half Guard]]
-- **Opponent counter-entangles attacker's legs during the transitional moment when outside leg is repositioning** (Effectiveness: Medium) - Your Response: Maintain tight triangle and avoid exposing your own legs during transition, keep knees pinched together and heels tucked, complete Ushiro consolidation before addressing their counter-entanglement attempt → Leads to [[Outside Ashi-Garami]]
+- **Opponent accelerates inversion to reach turtle before attacker can consolidate Ushiro configuration** (Effectiveness: High) - Your Response: Increase follow speed immediately when detecting acceleration, prioritize inside leg hook retention, and if they reach turtle consider transitioning to back take rather than forcing degraded Ushiro position → Leads to [[Positions/Half Guard]]
+- **Opponent frames on attacker's hips during rotation to create separation and prevent hip-to-thigh connection** (Effectiveness: Medium) - Your Response: Collapse their frames by driving hips forward into their thigh while maintaining figure-four squeeze, close distance before they establish strong posting position that prevents your follow → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Opponent uses hands to strip inside leg hook during transitional moment when leg configuration is adjusting** (Effectiveness: High) - Your Response: Pre-emptively tighten inside leg hook before rotation accelerates, reinforce with hand on your own shin if necessary, and maintain constant pull with inside heel toward your hip to resist stripping attempts → Leads to [[Positions/Half Guard]]
+- **Opponent counter-entangles attacker's legs during the transitional moment when outside leg is repositioning** (Effectiveness: Medium) - Your Response: Maintain tight triangle and avoid exposing your own legs during transition, keep knees pinched together and heels tucked, complete Ushiro consolidation before addressing their counter-entanglement attempt → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 
 </section>

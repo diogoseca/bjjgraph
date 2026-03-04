@@ -186,7 +186,7 @@ description: "Master attacking with the Bow and Arrow Setup from Standing Back C
 
 The Bow and Arrow Setup from Standing Back Control represents an advanced gi-specific attacking sequence where the primary objective is converting volatile standing back control into a stable grounded position with the collar grip already established for a high-percentage finish. The attacker must coordinate three simultaneous actions: releasing one arm from the seat belt to obtain a collar grip, maintaining chest-to-back connection and control with the remaining arm and hooks, and executing a controlled sit-down that brings the opponent to the ground without losing positional dominance. The technique rewards patience and precise timing over explosive movement, as the critical phase—the collar grip transition—requires deliberate hand placement under pressure. Practitioners who master this setup develop the ability to bypass the most difficult phase of the bow and arrow attack by obtaining the grip in a context where it is mechanically easier, then transitioning to a finishing environment where stability and leverage favor the attacker.
 
-**From Position**: [[Standing Back Control]] (Top)
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ The Bow and Arrow Setup from Standing Back Control represents an advanced gi-spe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Standing Back Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Back Control/Standing Back Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ The Bow and Arrow Setup from Standing Back Control represents an advanced gi-spe
 
 ## Opponent Counters
 
-- **Opponent strips collar grip with two-on-one hand control before it is secured deep** (Effectiveness: High) - Your Response: Immediately return to seat belt control and threaten the rear naked choke again before reattempting the collar grip. Alternatively, if the opponent's grip stripping pulls them off balance, capitalize by converting directly to a rear naked choke attempt or taking them down without the collar grip. → Leads to [[Standing Back Control]]
-- **Opponent drops weight and widens base to resist the sit-down takedown** (Effectiveness: Medium) - Your Response: Use the collar grip to break their posture forward rather than pulling backward. When their head drops, their base weakens regardless of stance width. Alternatively, transition to a trip or foot sweep using your hooks while maintaining the collar grip to off-balance them laterally. → Leads to [[Standing Back Control]]
-- **Opponent turns into attacker during the descent, fighting to face and recover guard** (Effectiveness: Medium) - Your Response: Maintain the collar grip and follow their rotation—if they turn enough to face you, the collar grip converts into a cross-collar choke threat from front headlock. If they only partially turn, use the collar grip to pull them back to back exposure as you complete the takedown. → Leads to [[Half Guard]]
-- **Opponent tucks chin and hunches shoulders to prevent collar grip from reaching depth** (Effectiveness: Medium) - Your Response: Use your underhook arm to pry the collar open from below while simultaneously applying the collar grip from above. The two-direction force on the gi material creates enough slack to insert fingers. Alternatively, target the near-side collar instead of the far-side for a same-side grip that requires less depth. → Leads to [[Standing Back Control]]
+- **Opponent strips collar grip with two-on-one hand control before it is secured deep** (Effectiveness: High) - Your Response: Immediately return to seat belt control and threaten the rear naked choke again before reattempting the collar grip. Alternatively, if the opponent's grip stripping pulls them off balance, capitalize by converting directly to a rear naked choke attempt or taking them down without the collar grip. → Leads to [[Positions/Back Control/Standing Back Control]]
+- **Opponent drops weight and widens base to resist the sit-down takedown** (Effectiveness: Medium) - Your Response: Use the collar grip to break their posture forward rather than pulling backward. When their head drops, their base weakens regardless of stance width. Alternatively, transition to a trip or foot sweep using your hooks while maintaining the collar grip to off-balance them laterally. → Leads to [[Positions/Back Control/Standing Back Control]]
+- **Opponent turns into attacker during the descent, fighting to face and recover guard** (Effectiveness: Medium) - Your Response: Maintain the collar grip and follow their rotation—if they turn enough to face you, the collar grip converts into a cross-collar choke threat from front headlock. If they only partially turn, use the collar grip to pull them back to back exposure as you complete the takedown. → Leads to [[Positions/Half Guard]]
+- **Opponent tucks chin and hunches shoulders to prevent collar grip from reaching depth** (Effectiveness: Medium) - Your Response: Use your underhook arm to pry the collar open from below while simultaneously applying the collar grip from above. The two-direction force on the gi material creates enough slack to insert fingers. Alternatively, target the near-side collar instead of the far-side for a same-side grip that requires less depth. → Leads to [[Positions/Back Control/Standing Back Control]]
 
 
 </section>

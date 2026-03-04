@@ -176,7 +176,7 @@ description: "How to execute North-South Choke in BJJ. Attacking perspective wit
 
 The North-South Choke is a powerful compression-based blood choke applied from the North-South position, targeting the opponent's carotid arteries through combined pressure from the attacker's bicep, shoulder, and body weight. Unlike traditional arm chokes that rely on limb positioning, this submission leverages the unique geometry of North-South control to create an inescapable vise around the neck. The technique's effectiveness stems from its ability to disguise the choking mechanism—the opponent often doesn't realize they're being choked until the submission is nearly complete, as the pressure builds gradually through positional consolidation rather than obvious arm placement. This makes it particularly effective in both gi and no-gi contexts, though gi variations offer additional gripping options for enhanced control. The North-South Choke represents a fundamental example of using superior position and body mechanics to create submissions without relying on complex limb entanglements, making it accessible to practitioners at all levels while remaining dangerously effective at the highest levels of competition.
 
-**From Position**: [[North-South]] (Top)
+**From Position**: [[Positions/North-South]] (Top)
 
 
 </section>
@@ -232,8 +232,8 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[North-South]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/North-South]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -242,11 +242,11 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 
 ## Opponent Defenses
 
-- **Bridge explosively to create space and disrupt attacker's base** (Effectiveness: Medium) - Your Response: Keep your weight forward and hips low; widen your base with your knees; use your free hand to post and maintain balance; continue driving shoulder pressure downward through the bridge attempt. If they succeed in bridging, follow their movement and reestablish position rather than fighting against their momentum. → Leads to [[North-South]]
-- **Frame against attacker's hips or torso with near arm to create distance** (Effectiveness: High) - Your Response: This is why controlling the near arm in setup is critical. If they establish a frame, use your free hand to strip the frame by controlling their wrist and pulling it across their body. Alternatively, shift your weight further toward their head to collapse the frame's effectiveness. Once the frame is broken, immediately secure the choke before they can re-establish it. → Leads to [[Half Guard]]
-- **Turn into attacker to escape toward their legs and recover guard** (Effectiveness: Medium) - Your Response: Feel for the turning motion early. When they start to turn, sprawl your legs back and walk your body in the direction they're turning, maintaining chest-to-chest contact. Use your underhook on their near arm to prevent the full rotation. If already committed to the choke, finish quickly as their turning motion often tightens the choke inadvertently. → Leads to [[Half Guard]]
-- **Grab attacker's belt or gi pants to prevent forward pressure** (Effectiveness: Low) - Your Response: This grip doesn't prevent the choke mechanism. Maintain your shoulder and bicep pressure; their pulling on your belt actually helps by pulling your body closer. Simply ensure your grip on your own gi or body is secure, and continue applying progressive pressure. Their defensive grip will weaken as the choke tightens. → Leads to [[North-South]]
-- **Tuck chin defensively to protect neck space** (Effectiveness: Low) - Your Response: The North-South choke doesn't require getting under the chin—it works via lateral compression around the neck. The chin tuck may slow the initial setup but doesn't prevent the blood choke. Continue positioning your bicep and shoulder on either side of the neck; the compression bypasses the chin defense. Apply steady pressure and the choke will work regardless of chin position. → Leads to [[North-South]]
+- **Bridge explosively to create space and disrupt attacker's base** (Effectiveness: Medium) - Your Response: Keep your weight forward and hips low; widen your base with your knees; use your free hand to post and maintain balance; continue driving shoulder pressure downward through the bridge attempt. If they succeed in bridging, follow their movement and reestablish position rather than fighting against their momentum. → Leads to [[Positions/North-South]]
+- **Frame against attacker's hips or torso with near arm to create distance** (Effectiveness: High) - Your Response: This is why controlling the near arm in setup is critical. If they establish a frame, use your free hand to strip the frame by controlling their wrist and pulling it across their body. Alternatively, shift your weight further toward their head to collapse the frame's effectiveness. Once the frame is broken, immediately secure the choke before they can re-establish it. → Leads to [[Positions/Half Guard]]
+- **Turn into attacker to escape toward their legs and recover guard** (Effectiveness: Medium) - Your Response: Feel for the turning motion early. When they start to turn, sprawl your legs back and walk your body in the direction they're turning, maintaining chest-to-chest contact. Use your underhook on their near arm to prevent the full rotation. If already committed to the choke, finish quickly as their turning motion often tightens the choke inadvertently. → Leads to [[Positions/Half Guard]]
+- **Grab attacker's belt or gi pants to prevent forward pressure** (Effectiveness: Low) - Your Response: This grip doesn't prevent the choke mechanism. Maintain your shoulder and bicep pressure; their pulling on your belt actually helps by pulling your body closer. Simply ensure your grip on your own gi or body is secure, and continue applying progressive pressure. Their defensive grip will weaken as the choke tightens. → Leads to [[Positions/North-South]]
+- **Tuck chin defensively to protect neck space** (Effectiveness: Low) - Your Response: The North-South choke doesn't require getting under the chin—it works via lateral compression around the neck. The chin tuck may slow the initial setup but doesn't prevent the blood choke. Continue positioning your bicep and shoulder on either side of the neck; the compression bypasses the chin defense. Apply steady pressure and the choke will work regardless of chin position. → Leads to [[Positions/North-South]]
 
 
 </section>

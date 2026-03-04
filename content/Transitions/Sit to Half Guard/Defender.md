@@ -158,7 +158,7 @@ The defender's advantage lies in the fact that the sitting motion necessarily ex
 
 Successful defense requires reading the bottom player's body language and immediately selecting the appropriate counter: heavy perpendicular sprawl pressure to prevent the hip drop, following the sit to secure back hooks, or maintaining collar depth while transitioning to a new control position. The key principle is maintaining connection throughout—the bottom player succeeds when they create enough space to insert a knee shield and establish guard retention. Your job is to eliminate that space window through pressure, grip retention, and immediate positional adjustment.
 
-**Opponent's Starting Position**: [[Buggy Choke]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Buggy Choke]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Successful defense requires reading the bottom player's body language and immedi
 ### 1. Heavy sprawl with perpendicular chest pressure to pin opponent's hips and prevent the sitting motion from initiating
 
 - **When to use**: When you recognize the posting hand placement or early hip shift but the sit has not yet begun—this is preemptive prevention
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: Opponent remains in turtle with your buggy choke grips intact and their escape attempt neutralized, allowing you to re-apply choking pressure
 - **Risk**: If sprawl is too aggressive, your weight shifts forward and opponent may redirect to granby roll escape behind you
 
 ### 2. Follow the sit immediately and insert hooks for back control before knee shield can be established
 
 - **When to use**: When the sitting motion has already begun and prevention is no longer possible—capitalize on the exposed back during transition
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You establish back control with hooks and seatbelt, converting from buggy choke attack to the most dominant position in BJJ
 - **Risk**: If you are too slow with hook insertion, opponent completes the sit and establishes Half Guard before you can secure back control
 
 ### 3. Maintain deep collar grip while transitioning chest pressure to crossface, driving opponent flat before they can insert knee shield
 
 - **When to use**: When opponent has completed the sit but has not yet established knee shield or leg entanglement—the post-sit window before guard consolidation
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: You flatten opponent and pass directly to side control or re-establish top control, bypassing their guard recovery attempt entirely
 - **Risk**: If you lose collar grip during transition, opponent may complete guard recovery to Half Guard with frames established
 
 ### 4. Switch to front headlock or darce configuration as opponent turns their head and shoulders toward you during the sit
 
 - **When to use**: When opponent turns aggressively into you and their head drops below your chest level during the sitting rotation
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: You transition from buggy choke to front headlock or darce control, maintaining offensive advantage with a different submission threat
 - **Risk**: If opponent completes the rotation quickly, you may lose neck control and they recover to Half Guard
 
@@ -229,11 +229,11 @@ Successful defense requires reading the bottom player's body language and immedi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Buggy Choke]]
+### → [[Positions/Buggy Choke]]
 
 Prevent the sit entirely through heavy perpendicular sprawl pressure when you recognize the posting hand or hip shift. Drive your chest down and hips heavy to pin opponent's hips to the mat, eliminating the mobility they need for the sitting motion. Alternatively, if the sit is partially completed, use immediate crossface pressure and hip drive to flatten opponent before they can establish knee shield or leg entanglement.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the sit is already in motion and cannot be prevented, immediately follow opponent's hip movement and insert your hooks before they can turn and face you. The sitting motion necessarily exposes the back—use this window by maintaining your seatbelt grip while transitioning your legs from buggy choke top to back control hooks. Drive your top hook in first, then bottom hook, and pull opponent back into your chest-to-back connection.
 

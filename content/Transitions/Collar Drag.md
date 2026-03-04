@@ -21,7 +21,7 @@ The beauty of this technique lies in its versatility—it works equally well in 
 
 Strategically, the Collar Drag occupies a central role in standing exchanges because it punishes both passivity and aggression. Against a passive opponent, the drag exploits their static base. Against an aggressive opponent driving forward, their own momentum amplifies the rotational force. This dual-use quality makes it one of the highest-percentage standing techniques across all levels of competition, from local tournaments to world championships.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Collar Drag occupies a central role in standing exchanges bec
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Standing Position]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Collar Drag functions as a critical bridge technique between standing engage
 ## Related Techniques
 
 
-- [[Arm Drag]] - Similar technique - parallel standing control method using arm instead of collar
+- [[Transitions/Arm Drag]] - Similar technique - parallel standing control method using arm instead of collar
 
-- [[Arm Drag to Back]] - Related sequence - same back take finish from different drag entry
+- [[Transitions/Arm Drag to Back]] - Related sequence - same back take finish from different drag entry
 
-- [[Snap Down to Front Headlock]] - Alternative attack - counter when opponent defends collar drag by circling away
+- [[Transitions/Snap Down to Front Headlock]] - Alternative attack - counter when opponent defends collar drag by circling away
 
-- [[Single Leg Entry]] - Follow-up option - transition when back take not available after drag
+- [[Transitions/Single Leg Entry]] - Follow-up option - transition when back take not available after drag
 
-- [[Back Take]] - Follow-up sequence - finishing position after successful drag
+- [[Transitions/Back Take]] - Follow-up sequence - finishing position after successful drag
 
-- [[Front Headlock to Back]] - Connected sequence - alternative back take from front headlock if collar drag transitions there
+- [[Transitions/Front Headlock to Back]] - Connected sequence - alternative back take from front headlock if collar drag transitions there
 
-- [[Guard Pull]] - Alternative finish - when opponent defends standing back take
+- [[Transitions/Guard Pull]] - Alternative finish - when opponent defends standing back take
 
-- [[Clinch]] - Starting context - position where collar drag grips are often established
+- [[Positions/Clinch]] - Starting context - position where collar drag grips are often established
 
-- [[Standing Position]] - Starting position - neutral standing where technique initiates
+- [[Positions/Standing Position]] - Starting position - neutral standing where technique initiates
 
-- [[Back Control]] - Primary finish - target position after successful execution
+- [[Positions/Back Control]] - Primary finish - target position after successful execution
 
 
 </section>

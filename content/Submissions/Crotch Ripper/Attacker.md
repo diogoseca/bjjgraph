@@ -176,7 +176,7 @@ description: "How to execute Crotch Ripper in BJJ. Attacking perspective with se
 
 The Crotch Ripper is a compression-based submission executed from the lockdown position in half guard. This technique applies intense pressure to the opponent's groin, hip flexors, and inner thigh muscles through a combination of lockdown control and strategic knee positioning. Unlike traditional joint locks that target specific joints, the Crotch Ripper creates painful muscular compression that forces the opponent to tap due to strain rather than joint damage. The submission is particularly effective in no-gi grappling where the lockdown can be secured without gi grips interfering with leg positioning. The Crotch Ripper transforms a traditionally defensive half guard position into a legitimate finishing threat, and when combined with the Electric Chair sweep, creates a powerful dilemma system where each defense opens a different attack.
 
-**From Position**: [[Lockdown]] (Bottom)
+**From Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 
 
 </section>
@@ -232,8 +232,8 @@ The Crotch Ripper is a compression-based submission executed from the lockdown p
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Lockdown]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -242,11 +242,11 @@ The Crotch Ripper is a compression-based submission executed from the lockdown p
 
 ## Opponent Defenses
 
-- **Opponent drives weight forward to flatten you and remove angle** (Effectiveness: High) - Your Response: Use your lockdown to off-balance them backward while strengthening your underhook. If they flatten you completely, transition to Electric Chair sweep or release and re-establish angle before attempting submission again. → Leads to [[Lockdown]]
-- **Opponent sprawls their hips back to create distance from knee pressure** (Effectiveness: Medium) - Your Response: Follow their hips with your knee by extending your attacking leg further. Use lockdown to prevent full hip escape. If they create too much distance, switch to Old School sweep or other lockdown attacks. → Leads to [[Lockdown]]
-- **Opponent grabs your attacking leg to control the knee position** (Effectiveness: Medium) - Your Response: Use this grip against them by switching to Electric Chair position - their grip on your leg actually helps you load them onto your hip for the sweep. Alternatively, fight the grip by circling your knee while maintaining underhook control. → Leads to [[Lockdown]]
-- **Opponent attempts to break lockdown by stepping over or ankle lock counter** (Effectiveness: Low) - Your Response: Tighten lockdown immediately and use underhook to prevent them from generating the angle needed to attack your lockdown. If they successfully attack lockdown, release submission and defend lockdown break first, then reset position. → Leads to [[Half Guard]]
-- **Opponent turns away from underhook to remove angle** (Effectiveness: Medium) - Your Response: Follow their turn while maintaining lockdown. If they give you their back, release submission and transition to back take. If they turn but don't expose back, use their movement to enter Electric Chair sweep position. → Leads to [[Half Guard]]
+- **Opponent drives weight forward to flatten you and remove angle** (Effectiveness: High) - Your Response: Use your lockdown to off-balance them backward while strengthening your underhook. If they flatten you completely, transition to Electric Chair sweep or release and re-establish angle before attempting submission again. → Leads to [[Positions/Half Guard/Lockdown]]
+- **Opponent sprawls their hips back to create distance from knee pressure** (Effectiveness: Medium) - Your Response: Follow their hips with your knee by extending your attacking leg further. Use lockdown to prevent full hip escape. If they create too much distance, switch to Old School sweep or other lockdown attacks. → Leads to [[Positions/Half Guard/Lockdown]]
+- **Opponent grabs your attacking leg to control the knee position** (Effectiveness: Medium) - Your Response: Use this grip against them by switching to Electric Chair position - their grip on your leg actually helps you load them onto your hip for the sweep. Alternatively, fight the grip by circling your knee while maintaining underhook control. → Leads to [[Positions/Half Guard/Lockdown]]
+- **Opponent attempts to break lockdown by stepping over or ankle lock counter** (Effectiveness: Low) - Your Response: Tighten lockdown immediately and use underhook to prevent them from generating the angle needed to attack your lockdown. If they successfully attack lockdown, release submission and defend lockdown break first, then reset position. → Leads to [[Positions/Half Guard]]
+- **Opponent turns away from underhook to remove angle** (Effectiveness: Medium) - Your Response: Follow their turn while maintaining lockdown. If they give you their back, release submission and transition to back take. If they turn but don't expose back, use their movement to enter Electric Chair sweep position. → Leads to [[Positions/Half Guard]]
 
 
 </section>

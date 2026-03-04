@@ -21,7 +21,7 @@ This sweep is particularly effective against opponents who are standing or have 
 
 The Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard systems and chains naturally with other attacks including back takes, leg entanglements, and submission attempts. Understanding this sweep provides essential insight into how the De La Riva hook functions as an offensive weapon rather than just a defensive control mechanism.
 
-**From Position**: [[De La Riva Guard]] (Bottom)
+**From Position**: [[Positions/De La Riva Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ The Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard sy
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 50% |
-| Success | [[Side Control]] | 15% |
-| Failure | [[De La Riva Guard]] | 25% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Mount]] | 50% |
+| Success | [[Positions/Side Control]] | 15% |
+| Failure | [[Positions/De La Riva Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -197,25 +197,25 @@ This sweep integrates seamlessly into a broader guard retention and advancement 
 ## Related Techniques
 
 
-- [[De La Riva Sweep]] - Parent category - family of sweeps from same position
+- [[Transitions/De La Riva Sweep]] - Parent category - family of sweeps from same position
 
-- [[De La Riva to X-Guard Transition]] - Follow-up - natural transition when sweep is defended by widening base
+- [[Transitions/De La Riva to X-Guard Transition]] - Follow-up - natural transition when sweep is defended by widening base
 
-- [[Berimbolo Entry]] - Advanced variation - uses similar hook and inversion principles from DLR
+- [[Transitions/Berimbolo Entry]] - Advanced variation - uses similar hook and inversion principles from DLR
 
-- [[Reverse De La Riva Recovery]] - Defensive connection - re-establishing guard after failed attempt
+- [[Transitions/Reverse De La Riva Recovery]] - Defensive connection - re-establishing guard after failed attempt
 
-- [[Old School Sweep]] - Alternative - different De La Riva sweep with hook over shoulder
+- [[Transitions/Old School Sweep]] - Alternative - different De La Riva sweep with hook over shoulder
 
-- [[Ankle Pick Sweep]] - Variation - uses ankle grip instead of collar grip for no-gi
+- [[Transitions/Ankle Pick Sweep]] - Variation - uses ankle grip instead of collar grip for no-gi
 
-- [[Balloon Sweep]] - Complementary De La Riva sweep option when opponent posts high
+- [[Transitions/Balloon Sweep]] - Complementary De La Riva sweep option when opponent posts high
 
-- [[Kiss of the Dragon]] - Alternative - inversion-based back take when opponent pressures forward
+- [[Transitions/Kiss of the Dragon]] - Alternative - inversion-based back take when opponent pressures forward
 
-- [[Back Take from Bottom]] - Follow-up option when opponent posts hand to defend the sweep
+- [[Transitions/Back Take from Bottom]] - Follow-up option when opponent posts hand to defend the sweep
 
-- [[Single Leg X Entry]] - Transition option when opponent steps back to widen base against sickle
+- [[Transitions/Single Leg X Entry]] - Transition option when opponent steps back to widen base against sickle
 
 
 </section>

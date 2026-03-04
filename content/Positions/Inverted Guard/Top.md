@@ -205,29 +205,29 @@ From the top perspective, facing an opponent in Inverted Guard requires strategi
 
 ## Available Attacks
 
-### [[Smash Pass]] (8% of attempts)
+### [[Transitions/Smash Pass]] (8% of attempts)
 
-### [[Stack Pass]] (6% of attempts)
+### [[Transitions/Stack Pass]] (6% of attempts)
 
-### [[Pressure Pass]] (7% of attempts)
+### [[Transitions/Pressure Pass]] (7% of attempts)
 
-### [[Leg Weave Pass]] (4% of attempts)
+### [[Transitions/Leg Weave Pass]] (4% of attempts)
 
-### [[Knee Slice Pass]] (6% of attempts)
+### [[Transitions/Knee Slice Pass]] (6% of attempts)
 
-### [[Headquarters Pass]] (8% of attempts)
+### [[Transitions/Headquarters Pass]] (8% of attempts)
 
-### [[Toreando Pass]] (11% of attempts)
+### [[Transitions/Toreando Pass]] (11% of attempts)
 
-### [[Back Step Pass]] (29% of attempts)
+### [[Transitions/Back Step Pass]] (29% of attempts)
 
-### [[Leg Drag Pass]] (10% of attempts)
+### [[Transitions/Leg Drag Pass]] (10% of attempts)
 
-### [[Stack Pass from Inversion]] (8% of attempts)
+### [[Transitions/Stack Pass from Inversion]] (8% of attempts)
 
-### [[Stack from Inverted]] (2% of attempts)
+### [[Transitions/Stack from Inverted]] (2% of attempts)
 
-### [[Toreando from Inverted]] (1% of attempts)
+### [[Transitions/Toreando from Inverted]] (1% of attempts)
 
 
 
@@ -238,28 +238,28 @@ From the top perspective, facing an opponent in Inverted Guard requires strategi
 ## Decision Making from This Position
 
 **If opponent inverts with hips elevated and begins rotating for berimbolo entry:**
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **Else if opponent maintains inverted position with legs extended upward creating static target:**
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **Else if opponent attempts to enter single leg X or X-guard from inverted position:**
-- Execute **[[Headquarters Pass]]** → [[Headquarters Position]] (Probability: 70%)
-- Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Headquarters Pass]]** → [[Positions/Headquarters Position]] (Probability: 70%)
+- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **Else if opponent's hips flatten or rotation slows indicating loss of mobility:**
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **Else if opponent attempts to recover guard through granby roll or technical standup:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 58%)
-- Execute **[[Headquarters Pass]]** → [[Headquarters Position]] (Probability: 62%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 58%)
+- Execute **[[Transitions/Headquarters Pass]]** → [[Positions/Headquarters Position]] (Probability: 62%)
 
 
 
@@ -405,15 +405,15 @@ Partner actively attempts single leg X, X-guard, and ashi garami entries from in
 
 ## Related Positions and Techniques
 
-- **[[Side Control]]** - Primary target position after successful passing from inverted guard top
-- **[[Headquarters Position]]** - Effective control position against inverted guard and leg entanglement attempts
-- **[[Stack Pass]]** - Primary passing technique against inverted guard with high success rate
-- **[[Smash Pass]]** - Effective pressure passing technique when opponent maintains static inverted position
-- **[[Pressure Pass]]** - Strategic passing approach using weight and timing against inverted guard
-- **[[Leg Weave Pass]]** - Technical passing approach to neutralize hook controls from inverted guard
-- **[[Knee Slice Pass]]** - Effective passing technique during transitional moments from inverted guard
-- **[[Mount]]** - Advanced target position after consolidating passing success
-- **[[Knee on Belly]]** - Transitional control position during passing sequences
+- **[[Positions/Side Control]]** - Primary target position after successful passing from inverted guard top
+- **[[Positions/Headquarters Position]]** - Effective control position against inverted guard and leg entanglement attempts
+- **[[Transitions/Stack Pass]]** - Primary passing technique against inverted guard with high success rate
+- **[[Transitions/Smash Pass]]** - Effective pressure passing technique when opponent maintains static inverted position
+- **[[Transitions/Pressure Pass]]** - Strategic passing approach using weight and timing against inverted guard
+- **[[Transitions/Leg Weave Pass]]** - Technical passing approach to neutralize hook controls from inverted guard
+- **[[Transitions/Knee Slice Pass]]** - Effective passing technique during transitional moments from inverted guard
+- **[[Positions/Mount]]** - Advanced target position after consolidating passing success
+- **[[Positions/Knee on Belly]]** - Transitional control position during passing sequences
 
 
 </section>

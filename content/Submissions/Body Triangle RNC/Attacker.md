@@ -188,7 +188,7 @@ description: "Master attacking with the Body Triangle RNC. Step-by-step guide to
 
 Attacking with the Body Triangle RNC combines the highest-retention back control configuration with the most effective blood choke in grappling. Your body triangle eliminates the defender's primary escape mechanisms while creating breathing restriction that serves as both an independent pressure tool and a distraction that opens the neck for the choking arm. The key to finishing is patience: the body triangle does the preparatory work of breaking down defenses while you systematically hunt the choking angle. Your approach should be methodical. Establish body triangle security, break defensive grips through systematic hand fighting timed with compression pulses, create the choking angle, and only commit to the finish when the arm is properly positioned. Rushing leads to positional errors that allow escape from what should be the most dominant finishing position in grappling.
 
-**From Position**: [[Body Triangle]] (Top)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
 
 
 </section>
@@ -243,9 +243,9 @@ Attacking with the Body Triangle RNC combines the highest-retention back control
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Body Triangle]] | 25% |
-| Failure | [[Back Control]] | 12% |
-| Counter | [[Half Guard]] | 8% |
+| Failure | [[Positions/Back Control/Body Triangle]] | 25% |
+| Failure | [[Positions/Back Control]] | 12% |
+| Counter | [[Positions/Half Guard]] | 8% |
 
 
 </section>
@@ -254,11 +254,11 @@ Attacking with the Body Triangle RNC combines the highest-retention back control
 
 ## Opponent Defenses
 
-- **Opponent maintains extremely tight chin tuck preventing forearm from sliding under jaw** (Effectiveness: High) - Your Response: Use body triangle compression pulses to force involuntary gasping that lifts the chin, or switch to short choke across the jaw to force chin elevation before transitioning back to full RNC → Leads to [[Body Triangle]]
-- **Opponent commits both hands to two-on-one grip control on your choking arm wrist** (Effectiveness: High) - Your Response: Use your free control arm to peel their bottom grip finger by finger while increasing body triangle squeeze to limit their grip endurance, or switch the attacking arm to create a new angle → Leads to [[Body Triangle]]
-- **Opponent hip escapes and begins turning into you to face guard during choke setup** (Effectiveness: Medium) - Your Response: Follow their turn with body triangle adjustment, increase squeeze to discourage rotation, and use the turning motion to transition to mounted crucifix or capitalize on the neck exposure created during the turn → Leads to [[Half Guard]]
-- **Opponent attacks your body triangle foot position trying to clear the figure-four lock** (Effectiveness: Medium) - Your Response: Their hands leaving neck defense to attack your legs exposes the throat completely - immediately advance the choking arm under the chin while they are distracted with the triangle escape attempt → Leads to [[Back Control]]
-- **Opponent explosive bridges combined with grip stripping to create momentary space** (Effectiveness: Low) - Your Response: Drop weight lower and follow the bridge movement maintaining chest contact, then re-tighten position when bridge collapses as the explosive effort depletes their energy rapidly under breathing restriction → Leads to [[Body Triangle]]
+- **Opponent maintains extremely tight chin tuck preventing forearm from sliding under jaw** (Effectiveness: High) - Your Response: Use body triangle compression pulses to force involuntary gasping that lifts the chin, or switch to short choke across the jaw to force chin elevation before transitioning back to full RNC → Leads to [[Positions/Back Control/Body Triangle]]
+- **Opponent commits both hands to two-on-one grip control on your choking arm wrist** (Effectiveness: High) - Your Response: Use your free control arm to peel their bottom grip finger by finger while increasing body triangle squeeze to limit their grip endurance, or switch the attacking arm to create a new angle → Leads to [[Positions/Back Control/Body Triangle]]
+- **Opponent hip escapes and begins turning into you to face guard during choke setup** (Effectiveness: Medium) - Your Response: Follow their turn with body triangle adjustment, increase squeeze to discourage rotation, and use the turning motion to transition to mounted crucifix or capitalize on the neck exposure created during the turn → Leads to [[Positions/Half Guard]]
+- **Opponent attacks your body triangle foot position trying to clear the figure-four lock** (Effectiveness: Medium) - Your Response: Their hands leaving neck defense to attack your legs exposes the throat completely - immediately advance the choking arm under the chin while they are distracted with the triangle escape attempt → Leads to [[Positions/Back Control]]
+- **Opponent explosive bridges combined with grip stripping to create momentary space** (Effectiveness: Low) - Your Response: Drop weight lower and follow the bridge movement maintaining chest contact, then re-tighten position when bridge collapses as the explosive effort depletes their energy rapidly under breathing restriction → Leads to [[Positions/Back Control/Body Triangle]]
 
 
 </section>

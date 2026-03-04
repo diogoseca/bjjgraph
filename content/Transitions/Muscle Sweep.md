@@ -17,7 +17,7 @@ description: "Master the Muscle Sweep from Closed Guard to Mount. Learn setup, g
 
 The Muscle Sweep is a fundamental attacking technique from Closed Guard that exploits the opponent's forward pressure and broken posture. Unlike more technical sweeps that rely on precise leverage points, the Muscle Sweep uses a combination of hip movement, upper body control, and explosive power to drive the opponent backward and sweep them to Mount position. This sweep is particularly effective when the opponent is defending other attacks and their weight is distributed forward, or when they attempt to posture up from a broken-down position. The technique requires good timing and the ability to coordinate upper body pulling with lower body hip elevation. While often considered a 'strength-based' technique by its name, proper execution relies more on timing the opponent's weight distribution and creating the correct angle of attack. The Muscle Sweep serves as an excellent foundational sweep for beginners while remaining effective at advanced levels when combined with other guard attacks.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -28,9 +28,9 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 70% |
-| Failure | [[Closed Guard]] | 20% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Mount]] | 70% |
+| Failure | [[Positions/Closed Guard]] | 20% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -184,25 +184,25 @@ The Muscle Sweep serves as a fundamental component of the Closed Guard Bottom at
 ## Related Techniques
 
 
-- [[Hip Bump Sweep]] - Alternative sweep from same position - often chained when muscle sweep is defended
+- [[Transitions/Hip Bump Sweep]] - Alternative sweep from same position - often chained when muscle sweep is defended
 
-- [[Scissor Sweep]] - Complementary fundamental closed guard sweep using different mechanics
+- [[Transitions/Scissor Sweep]] - Complementary fundamental closed guard sweep using different mechanics
 
-- [[Pendulum Sweep]] - Opposite-direction sweep that works well in combination as counter to muscle sweep defense
+- [[Transitions/Pendulum Sweep]] - Opposite-direction sweep that works well in combination as counter to muscle sweep defense
 
-- [[Flower Sweep]] - Related fundamental sweep that uses similar angle creation principles
+- [[Transitions/Flower Sweep]] - Related fundamental sweep that uses similar angle creation principles
 
-- [[Kimura from Guard]] - Follow-up submission when opponent posts to defend sweep
+- [[Submissions/Kimura from Guard]] - Follow-up submission when opponent posts to defend sweep
 
-- [[Closed Guard to Triangle]] - Alternative attack from broken posture setup position
+- [[Transitions/Closed Guard to Triangle]] - Alternative attack from broken posture setup position
 
-- [[Armbar from Guard]] - Chain attack when opponent's arm is extended during sweep defense
+- [[Submissions/Armbar from Guard]] - Chain attack when opponent's arm is extended during sweep defense
 
-- [[Butterfly Sweep]] - Similar explosive sweeping mechanics from different guard position
+- [[Transitions/Butterfly Sweep]] - Similar explosive sweeping mechanics from different guard position
 
-- [[Closed Guard]] - Starting position from which the Muscle Sweep is initiated
+- [[Positions/Closed Guard]] - Starting position from which the Muscle Sweep is initiated
 
-- [[Mount]] - Target position achieved on successful sweep completion
+- [[Positions/Mount]] - Target position achieved on successful sweep completion
 
 
 </section>

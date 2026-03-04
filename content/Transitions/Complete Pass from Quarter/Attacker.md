@@ -180,7 +180,7 @@ description: "Master completing the guard pass from quarter guard top position. 
 
 Completing the pass from quarter guard is the top player's highest-priority action from this transitional position. You have already invested significant energy winning the underhook battle, establishing crossface control, and advancing your hips past the opponent's centerline. The complete pass converts that investment into three IBJJF points and access to the side control submission platform. The technique demands coordinated upper body pressure maintenance during leg extraction—the moment you reduce crossface weight to free your leg, the bottom player will attempt to recover frames, insert a knee shield, or initiate sweeps. Your success depends on making the extraction invisible under sustained pressure rather than treating it as a separate phase that telegraphs your intention.
 
-**From Position**: [[Quarter Guard]] (Top)
+**From Position**: [[Positions/Quarter Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Completing the pass from quarter guard is the top player's highest-priority acti
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Quarter Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Quarter Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Completing the pass from quarter guard is the top player's highest-priority acti
 
 ## Opponent Counters
 
-- **Bottom player recovers knee shield by inserting knee between bodies during extraction** (Effectiveness: High) - Your Response: Maintain heavy forward pressure that closes the space needed for knee insertion. If shield is partially recovered, immediately drive it down with your shin or switch to smash pass angle rather than fighting the recovered shield directly. → Leads to [[Quarter Guard]]
-- **Bottom player hip escapes to recover full half guard during momentary pressure reduction** (Effectiveness: High) - Your Response: Prevent hip escape by maintaining hip-to-hip contact throughout extraction. If they begin escaping, follow their hips with your own rather than continuing the extraction—re-establish quarter guard control before reattempting the pass. → Leads to [[Half Guard]]
-- **Bottom player uses underhook to initiate sweep during weight transition of extraction** (Effectiveness: Medium) - Your Response: Apply whizzer immediately to neutralize the underhook, driving your weight through the overhook to flatten them back down. If the sweep is already in motion, post your free hand and re-establish base before continuing the pass. Never allow the underhook to develop into a full sweep—counter it within one second. → Leads to [[Half Guard]]
-- **Bottom player enters deep half guard by getting underneath passing weight during forward commitment** (Effectiveness: Medium) - Your Response: If you feel them going underneath, immediately sprawl your hips back and drop heavy weight on their upper body to prevent them from completing the deep half entry. Reposition your base wider to lower your center of gravity and deny the space they need to get fully underneath your hips. → Leads to [[Half Guard]]
+- **Bottom player recovers knee shield by inserting knee between bodies during extraction** (Effectiveness: High) - Your Response: Maintain heavy forward pressure that closes the space needed for knee insertion. If shield is partially recovered, immediately drive it down with your shin or switch to smash pass angle rather than fighting the recovered shield directly. → Leads to [[Positions/Quarter Guard]]
+- **Bottom player hip escapes to recover full half guard during momentary pressure reduction** (Effectiveness: High) - Your Response: Prevent hip escape by maintaining hip-to-hip contact throughout extraction. If they begin escaping, follow their hips with your own rather than continuing the extraction—re-establish quarter guard control before reattempting the pass. → Leads to [[Positions/Half Guard]]
+- **Bottom player uses underhook to initiate sweep during weight transition of extraction** (Effectiveness: Medium) - Your Response: Apply whizzer immediately to neutralize the underhook, driving your weight through the overhook to flatten them back down. If the sweep is already in motion, post your free hand and re-establish base before continuing the pass. Never allow the underhook to develop into a full sweep—counter it within one second. → Leads to [[Positions/Half Guard]]
+- **Bottom player enters deep half guard by getting underneath passing weight during forward commitment** (Effectiveness: Medium) - Your Response: If you feel them going underneath, immediately sprawl your hips back and drop heavy weight on their upper body to prevent them from completing the deep half entry. Reposition your base wider to lower your center of gravity and deny the space they need to get fully underneath your hips. → Leads to [[Positions/Half Guard]]
 
 
 </section>

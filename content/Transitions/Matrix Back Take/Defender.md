@@ -158,7 +158,7 @@ Defensive success hinges on maintaining a tight turtle structure where elbows st
 
 The matrix defense also integrates with your broader turtle escape system. If the attacker commits heavily to the matrix entry and you successfully disrupt it, their weight distribution often opens opportunities for guard recovery, technical standup, or even position reversal. Understanding this defensive-to-offensive transition is essential for making your turtle position genuinely dangerous for the top player to attack.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ The matrix defense also integrates with your broader turtle escape system. If th
 ### 1. Sit back heavily onto your heels and clamp elbows tight to knees to close the entry gap
 
 - **When to use**: As soon as you feel the attacker beginning to circle toward your far side or threading their arm under your armpit, before the leg has been inserted
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Denies the space needed for leg insertion, forcing the attacker to abandon the matrix entry and return to standard turtle top or try a different approach
 - **Risk**: If you sit back too aggressively without maintaining upper body defensive posture, the attacker may switch to a snap-down or front headlock attack
 
 ### 2. Turn aggressively into the attacker by rotating your torso toward their body before the hip slide completes
 
 - **When to use**: When you feel the attacker's arm is already threaded and their leg has stepped through, but the hip slide has not yet begun or is in its early phase
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Facing the attacker eliminates the back take angle entirely, forcing a scramble or allowing you to recover guard or establish front-facing defensive position
 - **Risk**: If the attacker maintains their arm anchor during your turn, they may transition to front headlock, darce, or anaconda control
 
 ### 3. Explosive granby roll away from the entry direction when you feel the hip slide beginning
 
 - **When to use**: As a last-resort defense when the attacker's hips are already beginning to slide underneath you and sitting back or turning in is no longer viable
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: The rolling momentum separates you from the attacker's connections and can lead to guard recovery, scramble position, or at minimum a reset of the back take attempt
 - **Risk**: If the attacker follows the roll and maintains their connections, they may end up in truck position or complete the back take from a different angle
 
 ### 4. Strip the far-hip grip with both hands while maintaining tight turtle structure
 
 - **When to use**: Early in the sequence when you recognize the attacker establishing or maintaining the controlling grip on your far-side hip before the slide begins
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Without the hip grip, the attacker cannot control your rotation and the matrix slide becomes much less effective, often forcing them to re-establish grips and giving you time to adjust
 - **Risk**: Using both hands to fight the hip grip temporarily compromises your ability to defend against other attacks like front headlock entries
 
@@ -229,11 +229,11 @@ The matrix defense also integrates with your broader turtle escape system. If th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Sit back onto your heels and clamp elbows tight to knees at the first sign of the attacker circling to create angle. This denies the entry space entirely and forces the attacker to abandon the matrix attempt, returning you to the standard turtle defensive situation where you retain all your normal escape options.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Execute an explosive granby roll away from the entry direction when you feel the hip slide beginning. While this does not fully escape turtle, it separates you from the attacker's connections and resets the exchange, giving you a fresh defensive position. From the scramble that results, you can often recover guard or return to your feet.
 

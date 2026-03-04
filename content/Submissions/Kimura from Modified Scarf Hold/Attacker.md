@@ -188,7 +188,7 @@ description: "Master attacking the Kimura from Modified Scarf Hold. Step-by-step
 
 Executing the Kimura from Modified Scarf Hold requires methodical progression from established pin control through arm isolation to submission finish. The attacker must first consolidate chest pressure and near-arm control before transitioning to the figure-four grip. The key mechanical advantage lies in using your entire body—hips, chest, and arms working as a unified system—to overcome the defender's single-arm resistance. Proper weight distribution throughout the attack ensures that submission attempts do not compromise positional control, allowing you to return to the pin if the finish is not immediately available. The submission chain from this position is devastating: kimura threats force arm straightening that opens americanas, while americana defense creates deeper kimura entries, producing a self-reinforcing attack cycle.
 
-**From Position**: [[Modified Scarf Hold]] (Top)
+**From Position**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
 
 
 </section>
@@ -243,8 +243,8 @@ Executing the Kimura from Modified Scarf Hold requires methodical progression fr
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Modified Scarf Hold]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Side Control/Modified Scarf Hold]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -253,10 +253,10 @@ Executing the Kimura from Modified Scarf Hold requires methodical progression fr
 
 ## Opponent Defenses
 
-- **Clasping both hands together to anchor the near arm and prevent figure-four isolation** (Effectiveness: High) - Your Response: Wedge your knee between their clasped hands to break the grip, or immediately switch to an americana angle by redirecting the arm toward the mat—their clasped hands actually assist the americana finish → Leads to [[Modified Scarf Hold]]
-- **Straightening the arm to prevent figure-four rotation behind the back** (Effectiveness: Medium) - Your Response: Transition immediately to americana as the straightened arm is the ideal starting position for that submission—the opponent is solving your problem for you → Leads to [[Modified Scarf Hold]]
-- **Rolling toward the attacker to relieve rotational pressure on the shoulder** (Effectiveness: Medium) - Your Response: Follow the roll maintaining the figure-four grip, transition to mounted kimura position or use the kimura grip to establish back control as they expose their back → Leads to [[Half Guard]]
-- **Explosive bridge during grip transition to create space and retract the arm** (Effectiveness: Low) - Your Response: Drive chest pressure down during the bridge and ride it out while maintaining figure-four grip tension—the bridge rarely generates enough force to break an established grip → Leads to [[Modified Scarf Hold]]
+- **Clasping both hands together to anchor the near arm and prevent figure-four isolation** (Effectiveness: High) - Your Response: Wedge your knee between their clasped hands to break the grip, or immediately switch to an americana angle by redirecting the arm toward the mat—their clasped hands actually assist the americana finish → Leads to [[Positions/Side Control/Modified Scarf Hold]]
+- **Straightening the arm to prevent figure-four rotation behind the back** (Effectiveness: Medium) - Your Response: Transition immediately to americana as the straightened arm is the ideal starting position for that submission—the opponent is solving your problem for you → Leads to [[Positions/Side Control/Modified Scarf Hold]]
+- **Rolling toward the attacker to relieve rotational pressure on the shoulder** (Effectiveness: Medium) - Your Response: Follow the roll maintaining the figure-four grip, transition to mounted kimura position or use the kimura grip to establish back control as they expose their back → Leads to [[Positions/Half Guard]]
+- **Explosive bridge during grip transition to create space and retract the arm** (Effectiveness: Low) - Your Response: Drive chest pressure down during the bridge and ride it out while maintaining figure-four grip tension—the bridge rarely generates enough force to break an established grip → Leads to [[Positions/Side Control/Modified Scarf Hold]]
 
 
 </section>

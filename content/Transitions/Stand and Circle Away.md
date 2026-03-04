@@ -21,7 +21,7 @@ Strategically, the Stand and Circle Away occupies a unique niche among front hea
 
 The mechanical foundation relies on posting, driving upward through the legs while maintaining chin protection, and then immediately circling away from the opponent's choking arm side. The circling component is critical because simply standing straight up into the front headlock plays directly into guillotine mechanics. By combining vertical drive with lateral movement, you create a vector that is perpendicular to the opponent's control axis, making their grip progressively weaker with each step around.
 
-**From Position**: [[Front Headlock]] (Bottom)
+**From Position**: [[Positions/Front Headlock]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The mechanical foundation relies on posting, driving upward through the legs whi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Stand and Circle Away is a critical component of the front headlock bottom d
 ## Related Techniques
 
 
-- [[Front Headlock]] - Starting position — this escape begins from Front Headlock/Bottom
+- [[Positions/Front Headlock]] - Starting position — this escape begins from Front Headlock/Bottom
 
-- [[Standing Position]] - Target position — successful escape returns you to neutral standing
+- [[Positions/Standing Position]] - Target position — successful escape returns you to neutral standing
 
-- [[Technical Stand-up]] - Alternative escape — similar standing goal with different mechanical approach
+- [[Transitions/Technical Stand-up]] - Alternative escape — similar standing goal with different mechanical approach
 
-- [[Granby Roll to Guard]] - Alternative escape — ground-based option when standing fails or grip is too deep
+- [[Transitions/Granby Roll to Guard]] - Alternative escape — ground-based option when standing fails or grip is too deep
 
-- [[Arm Drag Escape]] - Alternative escape — uses arm drag mechanics to clear front headlock control
+- [[Transitions/Arm Drag Escape]] - Alternative escape — uses arm drag mechanics to clear front headlock control
 
-- [[Back Control]] - Risk position — opponent may take back if circling exposes your back
+- [[Positions/Back Control]] - Risk position — opponent may take back if circling exposes your back
 
-- [[Guillotine Choke]] - Primary submission threat — standing into front headlock can feed guillotine mechanics
+- [[Transitions/Guillotine Choke]] - Primary submission threat — standing into front headlock can feed guillotine mechanics
 
-- [[Guillotine Control]] - Danger position — failed escape may result in opponent establishing guillotine control
+- [[Positions/Guillotine Control]] - Danger position — failed escape may result in opponent establishing guillotine control
 
-- [[Single Leg Entry]] - Chain technique — failed standup can redirect into single leg on opponent's posted leg
+- [[Transitions/Single Leg Entry]] - Chain technique — failed standup can redirect into single leg on opponent's posted leg
 
-- [[Clinch]] - Follow-up position — after escaping to standing, may engage in clinch battle
+- [[Positions/Clinch]] - Follow-up position — after escaping to standing, may engage in clinch battle
 
-- [[Snap Down to Front Headlock]] - Counter threat — opponent may re-snap head down to prevent standing escape
+- [[Transitions/Snap Down to Front Headlock]] - Counter threat — opponent may re-snap head down to prevent standing escape
 
 
 </section>

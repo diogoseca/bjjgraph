@@ -158,7 +158,7 @@ Defensive success requires understanding the attacker's sequence and disrupting 
 
 Strategically, your defensive priorities follow a strict hierarchy: protect the neck first, maintain hand fighting control second, work to disrupt the attacker's positional base third, and pursue escape opportunities fourth. Violating this hierarchy—for example, fighting hooks before defending the neck—consistently results in submission. Effective defenders combine stubborn grip fighting with calculated escape timing, recognizing that the attacker's commitment to the choke sequence creates momentary positional vulnerabilities you can exploit for escape to turtle, half guard, or standing positions.
 
-**Opponent's Starting Position**: [[Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Strategically, your defensive priorities follow a strict hierarchy: protect the 
 ### 1. Establish and maintain two-on-one grip control on the choking arm, gripping the wrist with one hand and the forearm or tricep with the other, pulling the arm down toward your chest while tucking your chin
 
 - **When to use**: Immediately when you recognize the attacker is transitioning from harness control to active choke setup—this is your first and highest-priority defense
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: The choke sequence stalls completely and the attacker must restart the grip-stripping process, keeping you in back control without immediate submission threat
 - **Risk**: If the attacker strips your two-on-one using their free hand, you may be momentarily defenseless during the re-grip attempt
 
 ### 2. Hip escape toward the underhook side while maintaining chin tuck and hand fighting, sliding your hips away to create an angle that disrupts the attacker's chest-to-back connection
 
 - **When to use**: When the attacker commits both hands to the choke setup and momentarily loosens their hook pressure or body triangle control during the insertion attempt
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You create enough angle to turn into the attacker and recover to turtle position, escaping the immediate choke threat and resetting to a more defensible position
 - **Risk**: If the attacker follows your hip movement while maintaining the choking arm position, you may end up in a worse angle with the neck more exposed
 
 ### 3. Bridge explosively toward the choking side and rotate your body to face the attacker, driving your near shoulder into their chest while clearing the bottom hook
 
 - **When to use**: When the attacker's arm is partially inserted but not yet locked in figure-four—this is your last high-percentage window before the choke is secured
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You turn to face the attacker and recover to turtle or half guard, with the partially inserted choking arm now in a much weaker position that can be stripped during the transition
 - **Risk**: If the bridge lacks sufficient explosiveness, the attacker follows your rotation and maintains back control with the choking arm now deeper than before
 
 ### 4. Strip the attacker's non-choking hand from behind your head before they complete the figure-four lock, grabbing their wrist and pulling it forward over your shoulder
 
 - **When to use**: When the choking arm is already beneath your chin but the attacker has not yet placed their hand behind your head to complete the figure-four grip
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Without the figure-four lock, the choke lacks the mechanical structure to finish effectively, buying significant time for continued defense and escape attempts
 - **Risk**: Focusing on the non-choking hand may cause you to release control of the choking arm, allowing the attacker to deepen their position
 
@@ -229,11 +229,11 @@ Strategically, your defensive priorities follow a strict hierarchy: protect the 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Maintain relentless two-on-one grip fighting on the choking arm, preventing the attacker from ever inserting it beneath your chin. Combined with chin tuck and shoulder elevation, this stalls the setup indefinitely and forces the attacker to either abandon the RNC attempt or continue burning energy in grip fights. The attacker remains in back control but without submission threat, giving you time to work systematic escape sequences.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Time your hip escape for the moment the attacker commits both hands to the choke insertion, momentarily reducing their hook or body control pressure. Execute an explosive hip escape toward the underhook side while maintaining your grip on the choking arm, creating enough angle to turn your body and recover to turtle position. From turtle, you have significantly better escape options including granby rolls, sit-outs, and stand-up sequences.
 

@@ -231,8 +231,8 @@ The Spine Lock is an advanced spinal compression submission that targets the opp
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Truck]] | 25% |
-| Counter | [[Turtle]] | 15% |
+| Failure | [[Positions/Twister Control/Truck]] | 25% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -241,11 +241,11 @@ The Spine Lock is an advanced spinal compression submission that targets the opp
 
 ## Opponent Defenses
 
-- **Attempting to rotate body out of alignment** (Effectiveness: Medium) - Your Response: Maintain strong leg control on near leg and use free hand to control far hip, preventing rotation. Adjust your hip angle to follow their movement and maintain compression line. → Leads to [[Truck]]
+- **Attempting to rotate body out of alignment** (Effectiveness: Medium) - Your Response: Maintain strong leg control on near leg and use free hand to control far hip, preventing rotation. Adjust your hip angle to follow their movement and maintain compression line. → Leads to [[Positions/Twister Control/Truck]]
 - **Bridging or arching back into the pressure** (Effectiveness: Low) - Your Response: This typically increases their discomfort. Maintain steady pressure and wait for tap. Be aware this may indicate they don't understand the danger and consider releasing to educate. → Leads to [[game-over]]
-- **Attempting to straighten captured leg** (Effectiveness: Medium) - Your Response: Tighten your leg control and adjust Truck position. If they free their leg, transition immediately to alternative control or submission rather than losing position entirely. → Leads to [[Truck]]
+- **Attempting to straighten captured leg** (Effectiveness: Medium) - Your Response: Tighten your leg control and adjust Truck position. If they free their leg, transition immediately to alternative control or submission rather than losing position entirely. → Leads to [[Positions/Twister Control/Truck]]
 - **Driving shoulders to mat and tucking chin** (Effectiveness: Low) - Your Response: This defensive posture actually facilitates the spine lock by creating more curvature. Maintain hip pressure and ensure you're positioned correctly over lumbar spine. → Leads to [[game-over]]
-- **Explosive escape attempt or scrambling** (Effectiveness: High) - Your Response: If opponent begins explosive movement, immediately reduce pressure to prevent injury during uncontrolled motion. Reassess position and either re-establish control or transition to safer submission. → Leads to [[Turtle]]
+- **Explosive escape attempt or scrambling** (Effectiveness: High) - Your Response: If opponent begins explosive movement, immediately reduce pressure to prevent injury during uncontrolled motion. Reassess position and either re-establish control or transition to safer submission. → Leads to [[Positions/Turtle]]
 
 
 </section>

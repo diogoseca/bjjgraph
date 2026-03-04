@@ -178,7 +178,7 @@ This transition's effectiveness lies in its ability to capitalize on the opponen
 
 The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling and MMA, where collar controls are unavailable. It serves as both a submission threat and a gateway to other attacks within the front headlock system, including the darce choke, anaconda choke, and various back takes. Mastering this transition requires understanding proper head positioning, grip mechanics, and the ability to maintain control throughout the adjustment phase while preventing the opponent from establishing defensive frames or creating distance.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Guillotine Control]] | 65% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Front Headlock]] | 10% |
+| Success | [[Positions/Guillotine Control]] | 65% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Front Headlock]] | 10% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling a
 
 ## Opponent Counters
 
-- **Opponent tucks chin and creates a defensive frame with their hands between their neck and your arm** (Effectiveness: High) - Your Response: If they establish a strong chin tuck before your grip, transition to a darce or anaconda choke instead, or use the front headlock to take the back. Don't force a shallow guillotine as it wastes energy and allows them to escape. You can also use short chops with your forearm to create openings to deepen your grip. → Leads to [[Front Headlock]]
-- **Opponent postures up strongly and creates distance by pushing on your hips or extending their spine** (Effectiveness: High) - Your Response: If they successfully posture before you secure the grip, maintain the front headlock and wait for another opportunity. Follow their movement by circling your hips and maintaining head control. You can also transition to a snap down or use the front headlock to set up a darce or anaconda choke as they attempt to escape. → Leads to [[Front Headlock]]
-- **Opponent turns into you and secures an underhook, beginning to pass to half guard or side control** (Effectiveness: Medium) - Your Response: If they start to turn in, you must decide quickly whether to abandon the guillotine and transition to a darce choke, or commit fully by jumping to closed guard and pulling them into you before they can complete the turn. The darce is often the higher percentage option when they turn in early. Alternatively, use their turning momentum to roll them over for a guillotine from top position. → Leads to [[Front Headlock]]
-- **Opponent grabs their own leg or gi pants to prevent you from closing your guard, maintaining a strong base** (Effectiveness: Medium) - Your Response: Use your legs to break their grip by creating an angle and kicking their arm away, or transition to a standing guillotine position where their base doesn't matter as much. You can also use short hops to off-balance them and force them to release their grip. If they maintain the grip, consider transitioning to an arm-in guillotine or high-elbow guillotine variation that doesn't require closed guard to be effective. → Leads to [[Front Headlock]]
+- **Opponent tucks chin and creates a defensive frame with their hands between their neck and your arm** (Effectiveness: High) - Your Response: If they establish a strong chin tuck before your grip, transition to a darce or anaconda choke instead, or use the front headlock to take the back. Don't force a shallow guillotine as it wastes energy and allows them to escape. You can also use short chops with your forearm to create openings to deepen your grip. → Leads to [[Positions/Front Headlock]]
+- **Opponent postures up strongly and creates distance by pushing on your hips or extending their spine** (Effectiveness: High) - Your Response: If they successfully posture before you secure the grip, maintain the front headlock and wait for another opportunity. Follow their movement by circling your hips and maintaining head control. You can also transition to a snap down or use the front headlock to set up a darce or anaconda choke as they attempt to escape. → Leads to [[Positions/Front Headlock]]
+- **Opponent turns into you and secures an underhook, beginning to pass to half guard or side control** (Effectiveness: Medium) - Your Response: If they start to turn in, you must decide quickly whether to abandon the guillotine and transition to a darce choke, or commit fully by jumping to closed guard and pulling them into you before they can complete the turn. The darce is often the higher percentage option when they turn in early. Alternatively, use their turning momentum to roll them over for a guillotine from top position. → Leads to [[Positions/Front Headlock]]
+- **Opponent grabs their own leg or gi pants to prevent you from closing your guard, maintaining a strong base** (Effectiveness: Medium) - Your Response: Use your legs to break their grip by creating an angle and kicking their arm away, or transition to a standing guillotine position where their base doesn't matter as much. You can also use short hops to off-balance them and force them to release their grip. If they maintain the grip, consider transitioning to an arm-in guillotine or high-elbow guillotine variation that doesn't require closed guard to be effective. → Leads to [[Positions/Front Headlock]]
 
 
 </section>

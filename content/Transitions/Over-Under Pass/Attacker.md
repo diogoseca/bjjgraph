@@ -180,7 +180,7 @@ description: "How to execute the Over-Under Pass in BJJ. Attacking perspective w
 
 The Over-Under Pass is a fundamental pressure-based guard passing technique that combines superior positioning with powerful control mechanics to bypass the opponent's guard. This technique is characterized by controlling one leg over the opponent's body while threading the other arm under their opposite leg, creating a stacking effect that neutralizes their defensive capabilities. The Over-Under Pass is particularly effective against half guard, butterfly guard, and open guard variations, making it a cornerstone technique in modern Brazilian Jiu-Jitsu. What makes this pass especially valuable is its combination of pressure control and positional dominance - by stacking the opponent's weight onto their shoulders, you eliminate their hip mobility and ability to re-guard while methodically advancing to side control. The technique requires excellent weight distribution, patience under pressure, and the ability to maintain chest-to-chest connection throughout the passing sequence. Unlike speed-based passes that rely on quick movements, the Over-Under Pass exemplifies the principle of using superior position and leverage to overcome an opponent's defensive structure through systematic pressure application.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The Over-Under Pass is a fundamental pressure-based guard passing technique that
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 75% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 75% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -245,11 +245,11 @@ The Over-Under Pass is a fundamental pressure-based guard passing technique that
 
 ## Opponent Counters
 
-- **Opponent frames against your face or neck to create distance and prevent stacking** (Effectiveness: High) - Your Response: Keep your head tight to their body on the over-hook side, making it difficult to frame against your neck. If they do establish a frame, drive through it with shoulder pressure while maintaining your under-hook depth. Alternatively, switch to a different pass direction or establish crossface control. → Leads to [[Half Guard]]
-- **Opponent recovers butterfly hooks or half guard with their free leg during hip circulation** (Effectiveness: High) - Your Response: Maintain constant chest pressure and keep your hips low throughout the circling motion. If they begin to recover guard, stop circling and re-establish your stacking pressure. Use your over-hook arm to actively control and suppress their free leg. Consider switching to knee slice or pressure pass variations. → Leads to [[Half Guard]]
-- **Opponent turns away or goes to turtle position to escape the stacking pressure** (Effectiveness: Medium) - Your Response: Follow their rotation and maintain your under-hook and over-hook grips. If they turn to turtle, you have excellent back-take opportunities or can transition to crucifix control. This is often a favorable outcome as turtle offers more attacking options than continuing the guard pass. → Leads to [[Side Control]]
-- **Opponent hip escapes toward the under-hook side, creating space to recover guard** (Effectiveness: Medium) - Your Response: Your under-hook arm controlling their far hip should prevent this escape. If they begin escaping, immediately drive your shoulder pressure harder and walk your feet further forward to increase the stack. Ensure your under-hook is deep enough - your hand should reach their far hip. → Leads to [[Half Guard]]
-- **Opponent executes a well-timed sweep by bridging into the stacking pressure and inverting** (Effectiveness: Low) - Your Response: Keep your base wide and weight distributed low. If they bridge, ride the bridge while maintaining your grips, then re-establish pressure as they come down. Your chest-to-chest connection should prevent them from sitting up if maintained properly. Drive forward pressure constantly. → Leads to [[Half Guard]]
+- **Opponent frames against your face or neck to create distance and prevent stacking** (Effectiveness: High) - Your Response: Keep your head tight to their body on the over-hook side, making it difficult to frame against your neck. If they do establish a frame, drive through it with shoulder pressure while maintaining your under-hook depth. Alternatively, switch to a different pass direction or establish crossface control. → Leads to [[Positions/Half Guard]]
+- **Opponent recovers butterfly hooks or half guard with their free leg during hip circulation** (Effectiveness: High) - Your Response: Maintain constant chest pressure and keep your hips low throughout the circling motion. If they begin to recover guard, stop circling and re-establish your stacking pressure. Use your over-hook arm to actively control and suppress their free leg. Consider switching to knee slice or pressure pass variations. → Leads to [[Positions/Half Guard]]
+- **Opponent turns away or goes to turtle position to escape the stacking pressure** (Effectiveness: Medium) - Your Response: Follow their rotation and maintain your under-hook and over-hook grips. If they turn to turtle, you have excellent back-take opportunities or can transition to crucifix control. This is often a favorable outcome as turtle offers more attacking options than continuing the guard pass. → Leads to [[Positions/Side Control]]
+- **Opponent hip escapes toward the under-hook side, creating space to recover guard** (Effectiveness: Medium) - Your Response: Your under-hook arm controlling their far hip should prevent this escape. If they begin escaping, immediately drive your shoulder pressure harder and walk your feet further forward to increase the stack. Ensure your under-hook is deep enough - your hand should reach their far hip. → Leads to [[Positions/Half Guard]]
+- **Opponent executes a well-timed sweep by bridging into the stacking pressure and inverting** (Effectiveness: Low) - Your Response: Keep your base wide and weight distributed low. If they bridge, ride the bridge while maintaining your grips, then re-establish pressure as they come down. Your chest-to-chest connection should prevent them from sitting up if maintained properly. Drive forward pressure constantly. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -154,7 +154,7 @@ description: "Defend against the belly down armbar transition. Recognition cues,
 
 Defending the belly down armbar transition requires recognizing the attacker's intention to follow your roll and exploiting the brief window of reduced control during their repositioning. The transition from standard armbar to belly-down creates a moment where the attacker must release leg control across your face and shift their weight from supine to prone. This is your primary defensive window. Understanding the mechanics of this transition transforms a seemingly hopeless situation into a defensible position, provided you act during the transition rather than after the attacker has established full belly-down control. Once the attacker is settled in the belly-down position with knees pinched and hips driving, your defensive options narrow dramatically.
 
-**Opponent's Starting Position**: [[Armbar Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Armbar Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the belly down armbar transition requires recognizing the attacker's i
 ### 1. Clasp hands together and bend the trapped arm to maximum flexion during the roll
 
 - **When to use**: Immediately when you feel the attacker following your roll rather than losing position. Execute during the transition before they settle.
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: The bent arm prevents the belly-down finish and forces the attacker to deal with your clasp before they can extend, buying time for further escape
 - **Risk**: If the attacker has strong wrist control, you may not be able to clasp, and the attempt telegraphs that you have recognized the danger
 
 ### 2. Post free hand and hip escape laterally to create distance during the transition
 
 - **When to use**: During the moment when the attacker is mid-transition and their leg control is temporarily relaxed as they reposition
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You extract your arm from the loose control and recover to half guard, completely escaping the submission threat
 - **Risk**: If timing is off, the post arm may be trapped as well, creating a worse two-arm control situation
 
 ### 3. Turn aggressively into the attacker instead of continuing belly-down, driving your shoulder into their hips
 
 - **When to use**: At the very start of the transition when you first feel the attacker committing to follow your roll direction
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: Reverses the transition and returns both practitioners to the standard supine armbar position where you have more established defensive options
 - **Risk**: Requires precise timing and may expose your arm to greater extension if the attacker is already well-positioned
 
 ### 4. Tuck chin, shrimp toward your trapped arm, and work to bring knee inside the attacker's guard
 
 - **When to use**: Once belly-down is established but before the attacker has settled their full weight and pinched knees
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your knee insertion creates a frame that allows you to recover half guard and extract the trapped arm as the attacker's control opens
 - **Risk**: Shrimping in the wrong direction can actually improve the attacker's angle and tighten the submission
 
@@ -225,11 +225,11 @@ Defending the belly down armbar transition requires recognizing the attacker's i
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the transition window by posting your free hand, hip escaping laterally, and extracting your arm while the attacker's leg control is temporarily loosened during their supine-to-prone repositioning. Insert your knee as a frame and recover to half guard.
 
-### → [[Armbar Control]]
+### → [[Positions/Armbar Control]]
 
 Clasp your hands together immediately and bend your trapped arm to maximum flexion during the roll. Turn into the attacker rather than continuing belly-down, forcing a return to the standard armbar position where more defensive options and escape routes are available.
 

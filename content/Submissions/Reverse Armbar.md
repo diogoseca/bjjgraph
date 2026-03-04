@@ -22,7 +22,7 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint (hyperextension with reverse rotation)
-**Starting Position**: [[Mount]]
+**Starting Position**: [[Positions/Mount]]
 **Success Rate**: 58%
 
 </section>
@@ -75,8 +75,8 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -225,15 +225,15 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 
 ## From Which Positions?
 
-- [[Mount]]
-- [[High Mount]]
-- [[S Mount]]
-- [[Closed Guard]]
-- [[Open Guard]]
-- [[Spider Guard]]
-- [[Modified Mount]]
-- [[Armbar Control]]
-- [[Scramble Position]]
+- [[Positions/Mount]]
+- [[Positions/Mount/High Mount]]
+- [[Positions/Mount/S Mount]]
+- [[Positions/Closed Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/Spider Guard]]
+- [[Positions/Mount/Modified Mount]]
+- [[Positions/Armbar Control]]
+- [[Positions/Scramble Position]]
 
 
 </section>
@@ -242,19 +242,19 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 
 ## Related Submissions
 
-- [[Armbar from Mount]]
-- [[Far Side Armbar]]
-- [[Armbar from Guard]]
-- [[Triangle Choke]]
-- [[Omoplata]]
-- [[Kimura]]
-- [[Spinning Armbar]]
-- [[Flying Armbar]]
-- [[Rolling Armbar]]
-- [[Belly Down Armbar]]
-- [[Inverted Triangle]]
-- [[Armbar from Side Control]]
-- [[Armbar from Back]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Far Side Armbar]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Triangle Choke]]
+- [[Transitions/Omoplata]]
+- [[Transitions/Kimura]]
+- [[Submissions/Spinning Armbar]]
+- [[Submissions/Flying Armbar]]
+- [[Submissions/Rolling Armbar]]
+- [[Submissions/Belly Down Armbar]]
+- [[Transitions/Inverted Triangle]]
+- [[Submissions/Armbar from Side Control]]
+- [[Submissions/Armbar from Back]]
 
 
 </section>
@@ -263,15 +263,15 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 
 ## Additional Related Content
 
-- [[Armbar from Mount]] - Primary transition path, reverse armbar often flows from failed standard mount armbar
-- [[Triangle Choke]] - Alternative submission chain, can reverse to armbar from triangle control
-- [[Armbar from Guard]] - Understanding finishing mechanics shows when reverse variation beats standard defenses
-- [[S Mount]] - High-percentage setup position, opponent's escape attempts create reverse armbar opportunities
-- [[Spinning Armbar]] - Related dynamic armbar variation sharing rotational mechanics and scramble entries
-- [[Omoplata]] - Strategic alternative, reverse armbar exemplifies attacking from unexpected angles
-- [[Armbar Control]] - Positional foundation, reverse variation requires mastery of standard control first
-- [[Scramble Position]] - Common entry context, scrambles create arm isolation for reverse mechanics
-- [[Belly Down Armbar]] - Related finishing mechanics, hip positioning and extension principles apply to both
+- [[Submissions/Armbar from Mount]] - Primary transition path, reverse armbar often flows from failed standard mount armbar
+- [[Transitions/Triangle Choke]] - Alternative submission chain, can reverse to armbar from triangle control
+- [[Submissions/Armbar from Guard]] - Understanding finishing mechanics shows when reverse variation beats standard defenses
+- [[Positions/Mount/S Mount]] - High-percentage setup position, opponent's escape attempts create reverse armbar opportunities
+- [[Submissions/Spinning Armbar]] - Related dynamic armbar variation sharing rotational mechanics and scramble entries
+- [[Transitions/Omoplata]] - Strategic alternative, reverse armbar exemplifies attacking from unexpected angles
+- [[Positions/Armbar Control]] - Positional foundation, reverse variation requires mastery of standard control first
+- [[Positions/Scramble Position]] - Common entry context, scrambles create arm isolation for reverse mechanics
+- [[Submissions/Belly Down Armbar]] - Related finishing mechanics, hip positioning and extension principles apply to both
 
 
 </section>

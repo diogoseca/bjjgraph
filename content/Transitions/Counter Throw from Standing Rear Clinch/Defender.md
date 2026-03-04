@@ -148,7 +148,7 @@ As the defender against the counter throw, you are the top player in the standin
 
 Effective defense requires recognizing that the bottom player's counter throw becomes most dangerous when you have loaded your weight too far forward or when your grips are locked in a configuration that prevents you from posting. Maintaining a slight offset hip angle rather than driving directly behind the opponent eliminates the leverage needed for most hip throw variants. Keeping one hand available to post rather than double-locking all grips preserves your ability to arrest any rotational throw attempt. The defensive methodology is proactive positioning rather than reactive scrambling.
 
-**Opponent's Starting Position**: [[Standing Rear Clinch]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Standing Rear Clinch]] (Bottom)
 
 </section>
 
@@ -186,28 +186,28 @@ Effective defense requires recognizing that the bottom player's counter throw be
 ### 1. Sit your hips back and sprawl weight downward when you feel the level change
 
 - **When to use**: Immediately upon recognizing the bottom player dropping their level, before any rotation begins
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: Removes the forward pressure that powers the throw, returning to standard rear clinch control with your weight sitting back on your own hips
 - **Risk**: If the sit-back is too aggressive, you may create enough space for the bottom player to execute a standing switch escape instead
 
 ### 2. Post your free hand on the mat or the opponent's hip during throw rotation to arrest momentum
 
 - **When to use**: When throw rotation has already begun but has not progressed past the tipping point where your base is irreversibly compromised
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: Stops the rotational momentum of the throw and allows you to recover chest-to-back position while the opponent has wasted energy on the failed attempt
 - **Risk**: Posting requires releasing one grip, which may give the bottom player a grip-fighting escape opportunity if the throw is a fake
 
 ### 3. Follow the throw to the ground while maintaining hooks and harness to convert to ground back control
 
 - **When to use**: When the throw has progressed past the point of prevention and you cannot stop the takedown from completing
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: While you are taken down, you maintain back control throughout the fall and immediately establish ground-based back control with hooks and seatbelt, turning the opponent's reversal into a positional exchange that still favors you
 - **Risk**: Impact from the throw may momentarily loosen your grips, giving the opponent a window to scramble to mount if you lose chest-to-back connection during landing
 
 ### 4. Circle in the direction of the opponent's rotation to stay behind them and neutralize the throw angle
 
 - **When to use**: When you feel the opponent beginning hip rotation for a modified hip throw and there is still time to match their movement
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: Maintains your back angle while the opponent wastes energy on a throw that never develops, and may create an opening for your own takedown as they are now out of position
 - **Risk**: If the rotation is a feint and the actual escape is in the opposite direction, circling commits you to the wrong angle momentarily
 
@@ -219,11 +219,11 @@ Effective defense requires recognizing that the bottom player's counter throw be
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Rear Clinch]]
+### → [[Positions/Standing Rear Clinch]]
 
 Recognize the throw initiation early through level change and grip shift cues, then immediately sit your hips back and widen your base to remove the forward pressure the throw requires. Maintain your grip configuration and re-establish heavy forward pressure once the throw attempt is abandoned.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 If the throw cannot be prevented, maintain chest-to-back connection and hook/seatbelt control throughout the fall. Accept the takedown but follow the opponent to the ground in back control position. Your priority during the fall is keeping your hooks in and your chest glued to their back, not preventing the throw itself.
 

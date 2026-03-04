@@ -95,27 +95,27 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 ### Available Transitions
 
 
-- **[[Granby Roll to Guard]]** (42% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (42% of attempts)
 
-- **[[Hip Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Leg Extraction to Guard]]** (14% of attempts)
+- **[[Transitions/Leg Extraction to Guard]]** (14% of attempts)
 
-- **[[Rolling Back Take Reversal]]** (8% of attempts)
+- **[[Transitions/Rolling Back Take Reversal]]** (8% of attempts)
 
-- **[[Forward Roll]]** (10% of attempts)
+- **[[Transitions/Forward Roll]]** (10% of attempts)
 
-- **[[Back Door Escape]]** (6% of attempts)
+- **[[Transitions/Back Door Escape]]** (6% of attempts)
 
-- **[[Defensive Roll]]** (4% of attempts)
+- **[[Transitions/Defensive Roll]]** (4% of attempts)
 
-- **[[Hip Escape from Truck]]** (1% of attempts)
+- **[[Transitions/Hip Escape from Truck]]** (1% of attempts)
 
-- **[[Leg Extraction from Truck]]** (0% of attempts)
+- **[[Transitions/Leg Extraction from Truck]]** (0% of attempts)
 
-- **[[Roll to Guard from Truck]]** (0% of attempts)
+- **[[Transitions/Roll to Guard from Truck]]** (0% of attempts)
 
-- **[[Escape from Truck]]** (1% of attempts)
+- **[[Transitions/Escape from Truck]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -176,31 +176,31 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 ### Available Transitions
 
 
-- **[[Twister Entry]]** (14% of attempts)
+- **[[Transitions/Twister Entry]]** (14% of attempts)
 
-- **[[Calf Slicer]]** (12% of attempts)
+- **[[Transitions/Calf Slicer]]** (12% of attempts)
 
-- **[[Roll to Truck]]** (5% of attempts)
+- **[[Transitions/Roll to Truck]]** (5% of attempts)
 
-- **[[Rolling Back Take]]** (22% of attempts)
+- **[[Transitions/Rolling Back Take]]** (22% of attempts)
 
-- **[[Bow and Arrow Choke]]** (8% of attempts)
+- **[[Transitions/Bow and Arrow Choke]]** (8% of attempts)
 
-- **[[Crab Ride to Back]]** (8% of attempts)
+- **[[Transitions/Crab Ride to Back]]** (8% of attempts)
 
-- **[[Crucifix from Turtle]]** (7% of attempts)
+- **[[Transitions/Crucifix from Turtle]]** (7% of attempts)
 
-- **[[Back Take from Top]]** (12% of attempts)
+- **[[Transitions/Back Take from Top]]** (12% of attempts)
 
-- **[[Truck Maintenance]]** (3% of attempts)
+- **[[Transitions/Truck Maintenance]]** (3% of attempts)
 
-- **[[Truck to Back Control]]** (2% of attempts)
+- **[[Transitions/Truck to Back Control]]** (2% of attempts)
 
-- **[[Truck to Twister Side Control]]** (3% of attempts)
+- **[[Transitions/Truck to Twister Side Control]]** (3% of attempts)
 
-- **[[Banana Split]]** (2% of attempts)
+- **[[Submissions/Banana Split]]** (2% of attempts)
 
-- **[[Calf Slicer from Truck]]** (2% of attempts)
+- **[[Submissions/Calf Slicer from Truck]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -239,27 +239,27 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 ## Related Positions
 
 
-- **[[Turtle]]** - Primary entry position for truck attacks
+- **[[Positions/Turtle]]** - Primary entry position for truck attacks
 
-- **[[Back Control]]** - Alternative advancement and fallback position
+- **[[Positions/Back Control]]** - Alternative advancement and fallback position
 
-- **[[Crab Ride]]** - Related back attack position with similar mechanics
+- **[[Positions/Crab Ride]]** - Related back attack position with similar mechanics
 
-- **[[Twister Control]]** - Specialized submission position from truck
+- **[[Positions/Twister Control]]** - Specialized submission position from truck
 
-- **[[Crucifix]]** - Alternative control position with arm isolation
+- **[[Positions/Crucifix]]** - Alternative control position with arm isolation
 
-- **[[Half Guard]]** - Common entry point and escape destination
+- **[[Positions/Half Guard]]** - Common entry point and escape destination
 
-- **[[Deep Half Guard]]** - Escape route from truck bottom via forward roll
+- **[[Positions/Half Guard/Deep Half Guard]]** - Escape route from truck bottom via forward roll
 
-- **[[Lockdown]]** - 10th Planet position connecting to truck entries
+- **[[Positions/Half Guard/Lockdown]]** - 10th Planet position connecting to truck entries
 
-- **[[Electric Chair]]** - Related leg entanglement position in 10th Planet system
+- **[[Positions/Half Guard/Electric Chair]]** - Related leg entanglement position in 10th Planet system
 
-- **[[Dogfight Position]]** - Scramble position related to truck escapes
+- **[[Positions/Dogfight Position]]** - Scramble position related to truck escapes
 
-- **[[Scramble Position]]** - Transition state during truck entries and escapes
+- **[[Positions/Scramble Position]]** - Transition state during truck entries and escapes
 
 
 </section>

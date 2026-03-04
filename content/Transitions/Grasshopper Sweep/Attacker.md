@@ -184,7 +184,7 @@ The sweep capitalizes on the opponent's forward commitment or narrow base, using
 
 Strategically, this sweep functions as a high-reward option within the Grasshopper Guard system. When opponents recognize the leg entanglement threats from grasshopper and begin backing away or widening their base defensively, they often create the exact conditions needed for this sweep. The technique requires precise timing and substantial core strength to execute, but when landed correctly, it bypasses the half guard and side control positions entirely, placing you directly in mount with significant momentum advantage.
 
-**From Position**: [[Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
 
@@ -237,9 +237,9 @@ Strategically, this sweep functions as a high-reward option within the Grasshopp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Grasshopper Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Grasshopper Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ Strategically, this sweep functions as a high-reward option within the Grasshopp
 
 ## Opponent Counters
 
-- **Wide base with hips back to prevent elevation** (Effectiveness: High) - Your Response: Transition to leg entanglement attacks or Single Leg X when opponent refuses to engage forward → Leads to [[Grasshopper Guard]]
-- **Back step to escape leg hooks before sweep initiates** (Effectiveness: High) - Your Response: Follow with re-inversion and pursuit, or transition to Reverse De La Riva as they circle → Leads to [[Grasshopper Guard]]
-- **Forward sprawl to flatten the inverted guard and pass** (Effectiveness: Medium) - Your Response: Use their forward pressure against them by timing the hip drive to coincide with their weight commitment, or transition to rolling ankle lock entry → Leads to [[Side Control]]
-- **Grip fighting to strip ankle controls before elevation** (Effectiveness: Medium) - Your Response: Switch to no-grip variant relying on deep hooks, or attack with inside ashi entry while they focus on hands rather than leg positioning → Leads to [[Grasshopper Guard]]
+- **Wide base with hips back to prevent elevation** (Effectiveness: High) - Your Response: Transition to leg entanglement attacks or Single Leg X when opponent refuses to engage forward → Leads to [[Positions/Grasshopper Guard]]
+- **Back step to escape leg hooks before sweep initiates** (Effectiveness: High) - Your Response: Follow with re-inversion and pursuit, or transition to Reverse De La Riva as they circle → Leads to [[Positions/Grasshopper Guard]]
+- **Forward sprawl to flatten the inverted guard and pass** (Effectiveness: Medium) - Your Response: Use their forward pressure against them by timing the hip drive to coincide with their weight commitment, or transition to rolling ankle lock entry → Leads to [[Positions/Side Control]]
+- **Grip fighting to strip ankle controls before elevation** (Effectiveness: Medium) - Your Response: Switch to no-grip variant relying on deep hooks, or attack with inside ashi entry while they focus on hands rather than leg positioning → Leads to [[Positions/Grasshopper Guard]]
 
 
 </section>

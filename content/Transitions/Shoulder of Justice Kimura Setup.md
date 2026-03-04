@@ -21,7 +21,7 @@ The brilliance of this setup lies in its inevitability within the pressure syste
 
 This transition represents a Type C positional control tool within the BJJ state machine. Rather than finishing the Kimura immediately, the goal is to establish the Kimura Trap control position, which opens an entire subsystem of attacks including the Kimura finish, back takes, positional advancements to mount, and rolling Kimura sequences. The setup rewards patience and pressure maintenance over explosive movement, making it particularly effective for practitioners who favor methodical, grinding top games.
 
-**From Position**: [[Shoulder of Justice]] (Top)
+**From Position**: [[Positions/Shoulder of Justice]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition represents a Type C positional control tool within the BJJ state
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kimura Trap]] | 55% |
-| Failure | [[Shoulder of Justice]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Kimura Trap]] | 55% |
+| Failure | [[Positions/Shoulder of Justice]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,27 +195,27 @@ The Shoulder of Justice Kimura Setup serves as the primary bridge between the Sh
 ## Related Techniques
 
 
-- [[Shoulder of Justice]] - Starting position - intense jaw pressure creates the defensive reactions that expose the near arm
+- [[Positions/Shoulder of Justice]] - Starting position - intense jaw pressure creates the defensive reactions that expose the near arm
 
-- [[Kimura Trap]] - Primary target position - successful setup establishes figure-four Kimura control
+- [[Positions/Kimura Trap]] - Primary target position - successful setup establishes figure-four Kimura control
 
-- [[Kimura from Shoulder of Justice]] - Direct submission alternative - finishing the Kimura immediately rather than establishing Trap control
+- [[Submissions/Kimura from Shoulder of Justice]] - Direct submission alternative - finishing the Kimura immediately rather than establishing Trap control
 
-- [[Side Control]] - Parent position family - Shoulder of Justice is a specialized side control variation
+- [[Positions/Side Control]] - Parent position family - Shoulder of Justice is a specialized side control variation
 
-- [[Half Guard]] - Counter outcome position - opponent may recover half guard during failed setup attempt
+- [[Positions/Half Guard]] - Counter outcome position - opponent may recover half guard during failed setup attempt
 
-- [[Escape Shoulder of Justice]] - Opponent's primary escape pathway that competes with the Kimura setup timing
+- [[Transitions/Escape Shoulder of Justice]] - Opponent's primary escape pathway that competes with the Kimura setup timing
 
-- [[Frame from Shoulder of Justice]] - Defensive response that can both enable and prevent the Kimura setup
+- [[Transitions/Frame from Shoulder of Justice]] - Defensive response that can both enable and prevent the Kimura setup
 
-- [[Shoulder of Justice to Mount]] - Alternative advancement from same starting position when Kimura is not available
+- [[Transitions/Shoulder of Justice to Mount]] - Alternative advancement from same starting position when Kimura is not available
 
-- [[Kimura]] - Core submission technique underlying the grip mechanics of this setup
+- [[Transitions/Kimura]] - Core submission technique underlying the grip mechanics of this setup
 
-- [[Americana]] - Alternative shoulder lock available from similar arm exposure situations
+- [[Transitions/Americana]] - Alternative shoulder lock available from similar arm exposure situations
 
-- [[North-South]] - Alternative transition when opponent turns away from shoulder pressure rather than framing
+- [[Positions/North-South]] - Alternative transition when opponent turns away from shoulder pressure rather than framing
 
 
 </section>

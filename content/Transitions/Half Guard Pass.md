@@ -21,7 +21,7 @@ The effectiveness of the half guard pass lies in understanding the bottom player
 
 Successful half guard passing requires a combination of technical precision, pressure application, and strategic decision-making. The passer must recognize which variation of half guard they're facing (traditional half guard, lockdown, knee shield, deep half, etc.) and adapt their passing strategy accordingly. This technique forms the foundation for more advanced passing systems and represents a critical skill progression from beginner to advanced levels, with success rates improving dramatically as practitioners develop better pressure, timing, and recognition of defensive reactions.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 70%
 
 </section>
@@ -32,9 +32,9 @@ Successful half guard passing requires a combination of technical precision, pre
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 75% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 75% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -197,29 +197,29 @@ The half guard pass is a foundational technique within the broader BJJ positiona
 ## Related Techniques
 
 
-- [[Half Guard]] - Starting position - understanding bottom perspective improves your passing
+- [[Positions/Half Guard]] - Starting position - understanding bottom perspective improves your passing
 
-- [[Side Control]] - Standard ending position after successful half guard pass
+- [[Positions/Side Control]] - Standard ending position after successful half guard pass
 
-- [[Deep Half Guard]] - Major defensive counter to prevent - requires specific awareness and stuffing techniques
+- [[Positions/Half Guard/Deep Half Guard]] - Major defensive counter to prevent - requires specific awareness and stuffing techniques
 
-- [[Lockdown]] - Specific half guard variation requiring adapted passing strategy
+- [[Positions/Half Guard/Lockdown]] - Specific half guard variation requiring adapted passing strategy
 
-- [[Knee Shield Half Guard]] - Common defensive frame requiring clearing technique during pass
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Common defensive frame requiring clearing technique during pass
 
-- [[Knee Slice Pass]] - Common follow-up passing technique when establishing headquarters position from half guard
+- [[Transitions/Knee Slice Pass]] - Common follow-up passing technique when establishing headquarters position from half guard
 
-- [[Long Step Pass]] - Angle-based passing option when direct pressure passing is defended
+- [[Transitions/Long Step Pass]] - Angle-based passing option when direct pressure passing is defended
 
-- [[Crossface Pass]] - Pressure-based passing variation utilizing crossface control to flatten and extract
+- [[Transitions/Crossface Pass]] - Pressure-based passing variation utilizing crossface control to flatten and extract
 
-- [[Kimura from Half Guard]] - Submission option available during passing when opponent extends arm defensively
+- [[Transitions/Kimura from Half Guard]] - Submission option available during passing when opponent extends arm defensively
 
-- [[Darce Choke]] - Opportunistic submission when opponent attempts underhook and turns to their side
+- [[Transitions/Darce Choke]] - Opportunistic submission when opponent attempts underhook and turns to their side
 
-- [[Headquarters Position]] - Transitional position when stepping over half guard legs to access multiple passing angles
+- [[Positions/Headquarters Position]] - Transitional position when stepping over half guard legs to access multiple passing angles
 
-- [[Back Step Pass]] - Alternative passing direction when forward pressure is effectively defended
+- [[Transitions/Back Step Pass]] - Alternative passing direction when forward pressure is effectively defended
 
 
 </section>

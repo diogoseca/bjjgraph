@@ -146,7 +146,7 @@ description: "Complete guide to defending the Knee Slide from Combat Base. Early
 
 Defending the Knee Slide from Combat Base requires early recognition of the pass initiation and immediate deployment of preventive frames and hip movement. The defender's primary challenge is stopping the knee from crossing the thigh line, as once the cutting knee passes through, recovery becomes exponentially more difficult. Effective defense combines proactive frame placement against the passer's shoulder and hip, timely insertion of knee shield or butterfly hook to block the cutting knee, and continuous hip escape movement that denies the crossface control essential to completing the pass. The defensive hierarchy prioritizes prevention over recovery—stopping the knee slide before it begins is far more energy-efficient than attempting to escape once the knee has already cut across. Defenders who develop sensitivity to the passer's weight shifts and grip changes can shut down the knee slide consistently by deploying the correct counter at the earliest possible moment.
 
-**Opponent's Starting Position**: [[Combat Base]] (Top)
+**Opponent's Starting Position**: [[Positions/Combat Base]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Knee Slide from Combat Base requires early recognition of the pass
 ### 1. Insert knee shield by placing your inside shin across the passer's hip before the cutting knee crosses your thigh line
 
 - **When to use**: At the earliest recognition of knee slide initiation, before the passer establishes full crossface pressure and begins the cutting motion
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Passer's knee slide is blocked by the knee shield frame, forcing them to deal with the shield before continuing the pass
 - **Risk**: If timed too late, the passer may flatten the shield with shoulder pressure and complete the knee slide through the weakened frame
 
 ### 2. Frame against the passer's crossface shoulder with your near-side forearm and hip escape away from the cutting direction
 
 - **When to use**: When the passer is establishing the crossface but has not yet initiated the knee cut, creating a window to deny the upper body control
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Crossface is denied and the passer cannot control your head, allowing you to recover open guard and force them to restart the pass
 - **Risk**: Extended arms during framing can be isolated for kimura or americana if the passer redirects to a submission rather than continuing the pass
 
 ### 3. Pummel for the near-side underhook while turning onto your side to face the passer, creating an angle that blocks the cutting knee path
 
 - **When to use**: When you are on your side with the passer attempting to flatten you with crossface, and the knee cut has not yet completed across your thigh
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Underhook establishes offensive half guard position with sweep and back take threats that force the passer to abandon the knee slide
 - **Risk**: If the passer applies a whizzer or kimura grip on the underhook arm, you may lose the arm position and be flattened
 
 ### 4. Clamp both legs tightly around the cutting leg and establish half guard retention with immediate knee shield reinsertion
 
 - **When to use**: Emergency defense when the knee has already begun crossing the thigh line and prevention has failed—last chance to retain guard
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Cutting leg is caught in half guard entanglement, preventing full pass completion and allowing systematic defense from half guard bottom
 - **Risk**: If the clamp is too loose, the passer extracts the trailing leg and completes the pass to side control
 
@@ -217,11 +217,11 @@ Defending the Knee Slide from Combat Base requires early recognition of the pass
 
 ## Best-Case Outcomes for Defender
 
-### → [[Combat Base]]
+### → [[Positions/Combat Base]]
 
 Use early frames against the passer's crossface shoulder combined with aggressive hip escape to deny the knee slide entirely. Strip their far-side grip and push their lead arm past your head to break the crossface, forcing them back to neutral combat base where they must restart the pass.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Insert a knee shield or clamp your legs around the cutting knee before it completes the path across your thigh. Immediately fight for the near-side underhook and establish frames to prevent being flattened. From half guard, you retain guard position with active offensive options including sweeps and back takes.
 

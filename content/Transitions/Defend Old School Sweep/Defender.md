@@ -156,7 +156,7 @@ As the bottom player whose Old School Sweep is being defended, your challenge is
 
 The key insight for the defender is that the top player's defense is reactive and position-specific. When they commit to the whizzer and sprawl to defend the Old School Sweep, they create openings for Electric Chair transitions, deep half guard entries, and dogfight scrambles. Your offensive power comes not from a single sweep but from the chain of attacks that flow from the initial sweep threat. The opponent cannot defend everything simultaneously, and recognizing which defensive commitment creates which opening is the foundation of offensive half guard play from the lockdown system.
 
-**Opponent's Starting Position**: [[Old School]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Old School]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ The key insight for the defender is that the top player's defense is reactive an
 ### 1. Switch to Electric Chair by diving under the top player's hips and attacking the trapped leg separation
 
 - **When to use**: When the top player commits to a deep whizzer and sprawl that creates space underneath their hips, or when their base is wide enough that their legs become vulnerable to splitting
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Bottom player achieves Electric Chair control position with potential sweep to mount or submission through groin/hip stretch
 - **Risk**: If the Electric Chair entry fails, the top player may consolidate crossface and advance to a passing position while you are out of alignment
 
 ### 2. Release underhook and dive underneath for deep half guard entry, getting your head under their hips
 
 - **When to use**: When the crossface pressure has turned your head away and maintaining head control becomes unsustainable, or when the top player drives their weight forward creating space to get underneath
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Bottom player achieves deep half guard with superior sweeping angles from underneath the opponent's center of gravity
 - **Risk**: If the deep half entry is scouted, the top player may sprawl heavily and establish a crushing top position with your head trapped underneath
 
 ### 3. Come up to dogfight position by driving off the underhook when the crossface momentarily weakens
 
 - **When to use**: When the top player adjusts their crossface or shifts weight during a defensive transition, creating a window to rise onto the underhook
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Bottom player achieves dogfight position with underhook advantage, creating back take opportunities and additional sweep angles
 - **Risk**: Top player uses whizzer to circle behind for their own back take, or sprawls and applies guillotine pressure during the rise
 
 ### 4. Re-pump lockdown aggressively to break the top player's base and re-initiate the original sweep with renewed momentum
 
 - **When to use**: When the top player's base has narrowed or their weight has shifted forward during defensive adjustments, creating a moment of compromised stability
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Bottom player breaks the top player's base and completes the Old School Sweep rotation to mount or back control
 - **Risk**: If the pumping fails to break the base, you expend significant energy without position change and the top player may use the extension to work the lockdown free
 
@@ -225,11 +225,11 @@ The key insight for the defender is that the top player's defense is reactive an
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Time the sweep re-attempt during the top player's base adjustments or weight shifts. When they move their posted leg to reposition or transition between defensive structures, the momentary base compromise creates a window for the sweep. Alternatively, chain from the sweep threat to Electric Chair and use the split to sweep to mount.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the top player sprawls heavily to defend the sweep, use the created space underneath their hips to enter deep half guard and work back take angles. Alternatively, when the crossface slips during a transition, explosively come up to dogfight on the underhook and circle to their back as they try to re-establish the whizzer.
 

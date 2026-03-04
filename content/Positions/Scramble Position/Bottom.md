@@ -200,15 +200,15 @@ The Scramble Position refers to a highly dynamic transitional state in BJJ where
 
 ## Available Escapes
 
-### [[Technical Stand-up]] (25% of attempts)
+### [[Transitions/Technical Stand-up]] (25% of attempts)
 
-### [[Granby Roll to Guard]] (22% of attempts)
+### [[Transitions/Granby Roll to Guard]] (22% of attempts)
 
-### [[Win Scramble to Top]] (20% of attempts)
+### [[Transitions/Win Scramble to Top]] (20% of attempts)
 
-### [[Deep Half Entry]] (18% of attempts)
+### [[Transitions/Deep Half Entry]] (18% of attempts)
 
-### [[Stabilize to Guard from Scramble]] (15% of attempts)
+### [[Transitions/Stabilize to Guard from Scramble]] (15% of attempts)
 
 
 
@@ -219,29 +219,29 @@ The Scramble Position refers to a highly dynamic transitional state in BJJ where
 ## Decision Making from This Position
 
 **If opponent exposes their back during scramble (turning away or turtling):**
-- Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Turtle to Truck]]** → [[Twister Control]] (Probability: 45%)
+- Execute **[[Transitions/Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control]] (Probability: 45%)
 
 
 **If opponent drops head forward or shoots takedown unsuccessfully:**
-- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 60%)
-- Execute **[[Guillotine Setup]]** → [[Guillotine Control]] (Probability: 55%)
-- Execute **[[Darce Setup]]** → [[Darce Control]] (Probability: 50%)
+- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 60%)
+- Execute **[[Transitions/Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 55%)
+- Execute **[[Transitions/Darce Setup]]** → [[Positions/Darce Control]] (Probability: 50%)
 
 
 **If opponent attempts to establish top position with poor base:**
-- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 50%)
 
 
 **If opponent commits to leg entanglement during scramble:**
-- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 60%)
-- Execute **[[Stabilize to Guard from Scramble]]** → [[Ashi Garami]] (Probability: 50%)
+- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 60%)
+- Execute **[[Transitions/Stabilize to Guard from Scramble]]** → [[Positions/Ashi Garami]] (Probability: 50%)
 
 
 **If scramble extends beyond 5-7 seconds without clear advantage:**
-- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 55%)
-- Execute **[[Stabilize to Guard from Scramble]]** → [[Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 55%)
+- Execute **[[Transitions/Stabilize to Guard from Scramble]]** → [[Positions/Open Guard]] (Probability: 50%)
 
 
 
@@ -375,16 +375,16 @@ Live scrambling with one arm behind back to develop reliance on positioning, wei
 
 ## Related Positions and Techniques
 
-- **[[Front Headlock]]** - Common destination from scrambles when opponent drops head or shoots unsuccessfully
-- **[[Back Control]]** - Primary high-percentage target position from scramble situations
-- **[[Turtle]]** - Transitional position often occurring during scrambles as defensive refuge
-- **[[Standing Position]]** - Reset option when scramble becomes energy-inefficient or strategically unfavorable
-- **[[Deep Half Guard]]** - Guard variation accessible during scrambles when opponent commits to top pressure
-- **[[Single Leg X-Guard]]** - Leg entanglement option when scramble involves lower body control battles
-- **[[Closed Guard]]** - Defensive guard option accessible via granby roll during scrambles
-- **[[Open Guard]]** - Common recovery position when scramble favors defensive posturing
-- **[[Ashi Garami]]** - Leg entanglement system accessible when opponent's legs become available during chaos
-- **[[Guillotine Control]]** - Submission control position reached when opponent exposes neck during scramble
+- **[[Positions/Front Headlock]]** - Common destination from scrambles when opponent drops head or shoots unsuccessfully
+- **[[Positions/Back Control]]** - Primary high-percentage target position from scramble situations
+- **[[Positions/Turtle]]** - Transitional position often occurring during scrambles as defensive refuge
+- **[[Positions/Standing Position]]** - Reset option when scramble becomes energy-inefficient or strategically unfavorable
+- **[[Positions/Half Guard/Deep Half Guard]]** - Guard variation accessible during scrambles when opponent commits to top pressure
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Leg entanglement option when scramble involves lower body control battles
+- **[[Positions/Closed Guard]]** - Defensive guard option accessible via granby roll during scrambles
+- **[[Positions/Open Guard]]** - Common recovery position when scramble favors defensive posturing
+- **[[Positions/Ashi Garami]]** - Leg entanglement system accessible when opponent's legs become available during chaos
+- **[[Positions/Guillotine Control]]** - Submission control position reached when opponent exposes neck during scramble
 
 
 </section>

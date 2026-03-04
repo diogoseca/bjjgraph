@@ -146,7 +146,7 @@ description: "How to defend against Guard Pull in BJJ. Recognition cues, defensi
 
 Defending the guard pull requires reading your opponent's grip intentions, recognizing the moment they commit to sitting, and executing an immediate response that either denies guard establishment entirely or allows you to begin passing before they can consolidate position. The defender's primary advantage is that the guard puller must commit their body weight downward, creating a brief window where they cannot change direction or recover to standing. Capitalizing on this window through distance management, grip stripping, or immediate passing pressure is the core defensive strategy. Experienced defenders understand that the guard pull is most dangerous when the puller lands in their preferred guard with strong grips intact, so the defensive priority is disrupting either the grip connection or the landing position to force the puller into a reactive rather than offensive guard configuration.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the guard pull requires reading your opponent's grip intentions, recog
 ### 1. Strip grips and create distance by breaking collar and sleeve connections while stepping back explosively
 
 - **When to use**: When you recognize pre-pull grip establishment before the opponent has committed to sitting, ideally during the grip tightening phase
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent falls to seated position with no grips and no guard established, forcing them to either stand back up or play open guard from disadvantaged position
 - **Risk**: If you strip too late, you may lose forward pressure and allow them to re-grip during your backward step
 
 ### 2. Drive forward aggressively with chest pressure while controlling their hips to prevent guard closure and initiate immediate passing
 
 - **When to use**: When the opponent has already begun sitting and you cannot prevent the pull, capitalize on the transition moment before guard is consolidated
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You establish passing pressure before they can close guard or set hooks, entering directly into a guard passing sequence from top position
 - **Risk**: Driving forward into a skilled guard puller who maintains grips may feed you directly into their guard game and submission threats
 
 ### 3. Circle laterally while maintaining base to deny the angle the puller needs, forcing them to land with hips square rather than angled
 
 - **When to use**: When the opponent pulls to a specific side-based guard like De La Riva and you recognize the directional pull during the transition
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent lands in a compromised guard position without their intended angle, reducing their offensive options and giving you initiative for passing
 - **Risk**: Lateral movement during their pull may create angles they can exploit if your footwork is imprecise
 
 ### 4. Snap opponent's head down and redirect their sitting motion into a sprawl or front headlock position
 
 - **When to use**: When you have collar tie or head control and feel the opponent begin to drop their weight for the pull
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent's guard pull is completely denied as their head is driven downward, potentially transitioning to front headlock or forcing them to turtle
 - **Risk**: Requires strong collar tie already established; attempting this without head control may compromise your own posture
 
@@ -217,11 +217,11 @@ Defending the guard pull requires reading your opponent's grip intentions, recog
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Strip the pulling grips before the opponent fully commits to sitting by using two-on-one grip breaks on their collar grip, then immediately step back to create distance. The opponent falls to seated position with no connection, and you maintain standing posture with initiative to either re-engage on the feet or begin a standing guard pass from dominant position.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 When the pull succeeds but you immediately pressure forward to deny guard closure, establish grips on their legs and begin passing before they consolidate. Control their knee line by pushing their knees to one side while circling your hips, denying the closed guard lock or hook insertion. This converts their guard pull into an immediate passing exchange where you have top position and initiative.
 

@@ -184,7 +184,7 @@ The biomechanical foundation of this escape relies on timing the roll precisely 
 
 Strategically, Roll to Guard represents a high-risk, high-reward escape option that should be employed when more conservative escape methods have stalled or when the opponent presents a timing window. Unlike methodical escapes that chip away at control incrementally, this technique aims to completely reverse the positional hierarchy in a single explosive movement. It pairs particularly well with grip fighting that baits the opponent into adjusting their seat belt configuration.
 
-**From Position**: [[Harness]] (Bottom)
+**From Position**: [[Positions/Harness]] (Bottom)
 
 </section>
 
@@ -238,10 +238,10 @@ Strategically, Roll to Guard represents a high-risk, high-reward escape option t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Success | [[Open Guard]] | 15% |
-| Failure | [[Harness]] | 20% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Success | [[Positions/Open Guard]] | 15% |
+| Failure | [[Positions/Harness]] | 20% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ Strategically, Roll to Guard represents a high-risk, high-reward escape option t
 
 ## Opponent Counters
 
-- **Opponent flattens you before roll by driving hips forward and spreading weight wide to eliminate rolling space** (Effectiveness: High) - Your Response: Abort the roll attempt and return to systematic grip fighting escape. Wait for next timing opportunity when their weight shifts or they attack. → Leads to [[Harness]]
-- **Opponent follows the roll and maintains back control by driving their hips into yours throughout the rotation** (Effectiveness: High) - Your Response: If they follow successfully, immediately work to clear hooks before they re-establish full control. Use the momentum to continue fighting rather than settling into worse position. → Leads to [[Back Control]]
-- **Opponent releases harness and transitions to front headlock as you roll forward** (Effectiveness: Medium) - Your Response: Continue the roll through to guard rather than stopping in turtle. If caught in front headlock, immediately fight for underhook and work to recover posture or sit through to guard. → Leads to [[Harness]]
-- **Opponent crosses feet during roll attempting ankle lock** (Effectiveness: Low) - Your Response: Continue rolling and attack the crossed feet with straight ankle lock or toe hold. Their positional sacrifice for the submission attempt gives you offensive opportunity. → Leads to [[Closed Guard]]
+- **Opponent flattens you before roll by driving hips forward and spreading weight wide to eliminate rolling space** (Effectiveness: High) - Your Response: Abort the roll attempt and return to systematic grip fighting escape. Wait for next timing opportunity when their weight shifts or they attack. → Leads to [[Positions/Harness]]
+- **Opponent follows the roll and maintains back control by driving their hips into yours throughout the rotation** (Effectiveness: High) - Your Response: If they follow successfully, immediately work to clear hooks before they re-establish full control. Use the momentum to continue fighting rather than settling into worse position. → Leads to [[Positions/Back Control]]
+- **Opponent releases harness and transitions to front headlock as you roll forward** (Effectiveness: Medium) - Your Response: Continue the roll through to guard rather than stopping in turtle. If caught in front headlock, immediately fight for underhook and work to recover posture or sit through to guard. → Leads to [[Positions/Harness]]
+- **Opponent crosses feet during roll attempting ankle lock** (Effectiveness: Low) - Your Response: Continue rolling and attack the crossed feet with straight ankle lock or toe hold. Their positional sacrifice for the submission attempt gives you offensive opportunity. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

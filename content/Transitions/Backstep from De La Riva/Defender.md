@@ -148,7 +148,7 @@ description: "Complete guide to defending the backstep from your De La Riva Guar
 
 As the defender in the backstep from De La Riva scenario, you are the DLR guard player whose hook and grip system is being challenged by a rotational passing attempt. Your primary objective is to maintain your guard structure and ideally capitalize on the passer's rotational exposure to improve your position. The backstep creates a specific vulnerability window where the passer's back is momentarily accessible, but exploiting this window requires anticipation and preparation rather than reaction after the fact. Your defensive strategy operates on three tiers: first, prevent the backstep from succeeding by maintaining hook tension and grip anchors; second, if the hook is clearing, transition immediately to Reverse De La Riva to maintain guard; third, if the rotation creates sufficient exposure, invert or chase with your hips to take the back. Understanding which tier to engage depends on reading the passer's commitment level and your current grip configuration.
 
-**Opponent's Starting Position**: [[De La Riva Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Top)
 
 </section>
 
@@ -185,21 +185,21 @@ As the defender in the backstep from De La Riva scenario, you are the DLR guard 
 ### 1. Maintain DLR hook tension and chase with hip rotation to follow the passer's backstep and re-establish the hook angle
 
 - **When to use**: When you have a strong ankle grip anchor and the passer's backstep is telegraphed with enough time to adjust your hip angle to track the rotation
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: The backstep fails entirely. You retain your established DLR guard with hook and grips intact, and the passer must disengage and attempt a different passing approach
 - **Risk**: If you overcommit to chasing the rotation with your hips and the passer changes direction, you may be out of position for the subsequent passing attempt
 
 ### 2. Transition to Reverse De La Riva by inserting your opposite leg as a hook when you feel the DLR hook beginning to clear
 
 - **When to use**: When the DLR hook is partially clearing and you cannot maintain the original hook angle, but the passer has not yet consolidated position. This is the most common defensive transition.
-- **Targets**: [[Reverse De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 - **If successful**: You maintain guard by transitioning to RDLR, which presents a new set of defensive structures and offensive threats that the passer must address before passing
 - **Risk**: RDLR may be a less familiar guard position for some practitioners, and a strong passer may immediately chain into an RDLR pass before you can establish full control
 
 ### 3. Invert underneath the passer during the rotation and come up behind them to take the back
 
 - **When to use**: When the passer commits fully to the backstep rotation without maintaining hip pressure, creating a clear window of back exposure. Requires strong inversion mechanics and timing.
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You capitalize on the backstep's inherent vulnerability to achieve back control, the most dominant position in BJJ, completely reversing the positional hierarchy
 - **Risk**: If your inversion is too slow or the passer maintains hip connection during rotation, you may end up underneath them in a compromised position with your back exposed and guard completely passed
 
@@ -211,15 +211,15 @@ As the defender in the backstep from De La Riva scenario, you are the DLR guard 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Time your inversion or hip chase to coincide with the moment of maximum back exposure during the passer's rotation. Secure a seatbelt grip as they rotate and come up behind them before they can square back toward you. This requires anticipating the backstep rather than reacting after it completes.
 
-### → [[De La Riva Guard]]
+### → [[Positions/De La Riva Guard]]
 
 Maintain a death grip on their ankle to serve as an anchor, keep constant hook tension by pulling your knee toward your chest, and actively chase the passer's rotation with your hips so the hook angle adjusts to match their new position rather than being cleared by it.
 
-### → [[Reverse De La Riva Guard]]
+### → [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 
 As soon as you feel the DLR hook beginning to disengage, immediately insert your opposite leg as a Reverse DLR hook behind their stepping leg. Do not wait until the hook fully clears. The RDLR insertion should happen during the transition, not after. Establish collar or sleeve grips to complete the RDLR guard structure.
 

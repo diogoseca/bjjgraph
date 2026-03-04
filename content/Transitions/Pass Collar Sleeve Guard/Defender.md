@@ -154,7 +154,7 @@ description: "Defend against collar sleeve guard passes in BJJ. Learn grip reten
 
 From the guard player's perspective, defending against a direct collar sleeve guard pass requires maintaining active grip fighting, recognizing passing patterns early, and having multiple contingency responses when grips are broken. The primary defensive strategy centers on re-establishing broken grips before the passer can capitalize on the momentary structural advantage. When re-gripping is not possible, the defender must transition smoothly to alternative guard positions or execute counter-attacks during the narrow timing windows created by the passer's forward commitment. Understanding the passer's sequential approach allows you to identify the most effective intervention point in their passing chain.
 
-**Opponent's Starting Position**: [[Collar Sleeve Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Collar Sleeve Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ From the guard player's perspective, defending against a direct collar sleeve gu
 ### 1. Re-grip collar immediately through any available window during the passer's grip-breaking sequence
 
 - **When to use**: The moment the passer shifts their two-on-one control from your collar wrist to address the sleeve grip, creating a brief window where your collar hand is free
-- **Targets**: [[Collar Sleeve Guard]]
+- **Targets**: [[Positions/Collar Sleeve Guard]]
 - **If successful**: Fully re-established guard structure forces the passer to restart their grip-breaking sequence from scratch
 - **Risk**: Passer may anticipate the re-grip and use your reaching motion to initiate a different pass or arm drag
 
 ### 2. Execute pendulum sweep when the passer commits weight forward during the drive-through phase
 
 - **When to use**: When the passer begins driving forward after breaking grips, loading their weight onto their toes and chest before crossface is established
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Sweep the passer and come up to mount for full positional reversal and points
 - **Risk**: If the sweep is telegraphed, the passer bases out and completes the pass with your hips already loaded for the sweep
 
 ### 3. Close guard around the passer's waist as they drive forward through the centerline
 
 - **When to use**: When both grips are broken and the passer begins their forward drive but has not yet cleared your hip line
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Lock closed guard and reset the engagement in a strong guard position with new submission and sweep opportunities
 - **Risk**: Passer may posture up immediately and begin a closed guard pass, but you have regained a defensible position
 
 ### 4. Hip escape and insert knee shield as the passer attempts to clear your legs
 
 - **When to use**: When the passer has broken grips and begun driving forward but has not yet established crossface control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover half guard with knee shield, preventing the complete pass and establishing a defensive guard position
 - **Risk**: Passer may use the momentum to flatten your knee shield and complete the pass through half guard
 
@@ -225,15 +225,15 @@ From the guard player's perspective, defending against a direct collar sleeve gu
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Execute a pendulum sweep, flower sweep, or collar drag during the passer's forward drive phase when their weight is committed and their hands are occupied with grip control rather than base
 
-### → [[Collar Sleeve Guard]]
+### → [[Positions/Collar Sleeve Guard]]
 
 Maintain relentless grip fighting and re-establish both collar and sleeve grips every time the passer breaks them, never allowing them to complete the full grip elimination sequence
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When grips are being stripped, immediately wrap your legs around the passer's waist as they close distance, converting their forward pressure into an entry to closed guard
 

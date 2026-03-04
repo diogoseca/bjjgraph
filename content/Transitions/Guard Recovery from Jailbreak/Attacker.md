@@ -180,7 +180,7 @@ description: "Learn to recover open guard from a failed Jailbreak position in BJ
 
 As the bottom player in a failed Jailbreak position, you are in a compromised state where the explosive roll or inversion did not achieve the desired turtle or back take outcome. Your body may be partially inverted, twisted, or displaced from a standard guard position, and the top player is likely driving forward to consolidate side control or flatten you out. Guard recovery from this position requires rapid spatial awareness—identifying which direction your hips face relative to the opponent—followed by systematic framing to create distance, hip escaping to realign your body, and reinserting your legs between you and the passer to establish a functional open guard. The Jailbreak's explosive nature means you may have residual momentum that can be redirected into recovery movement, but you must act decisively within the first few seconds before the top player settles their weight and locks down a control position.
 
-**From Position**: [[Jailbreak]] (Bottom)
+**From Position**: [[Positions/Jailbreak]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player in a failed Jailbreak position, you are in a compromised st
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 45% |
-| Failure | [[Jailbreak]] | 30% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Open Guard]] | 45% |
+| Failure | [[Positions/Jailbreak]] | 30% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -243,9 +243,9 @@ As the bottom player in a failed Jailbreak position, you are in a compromised st
 
 ## Opponent Counters
 
-- **Opponent drives heavy crossface and shoulder pressure immediately after the failed Jailbreak, flattening the bottom player before frames can be established** (Effectiveness: High) - Your Response: Turn into the crossface pressure rather than away from it, shooting your inside arm under their chin to create a frame. Use the turning motion to load a hip escape in the opposite direction, creating space on your far side for knee insertion. → Leads to [[Side Control]]
-- **Opponent secures an underhook during the scramble and drives into a side control consolidation, controlling the near hip and shoulder simultaneously** (Effectiveness: High) - Your Response: Fight the underhook immediately with a whizzer or pummel back to establish your own underhook. If the underhook is deep, abandon the open guard recovery and work for half guard by trapping their near leg with both of yours as a minimum defensive position. → Leads to [[Side Control]]
-- **Opponent backs away from the scramble and stands up, creating distance before you can establish guard grips or leg contact** (Effectiveness: Medium) - Your Response: Immediately sit up into seated guard or establish feet-on-hips from supine position. If the opponent stands before you can make leg contact, use the space to complete your body realignment and face them squarely from an open guard position with distance management. → Leads to [[Jailbreak]]
+- **Opponent drives heavy crossface and shoulder pressure immediately after the failed Jailbreak, flattening the bottom player before frames can be established** (Effectiveness: High) - Your Response: Turn into the crossface pressure rather than away from it, shooting your inside arm under their chin to create a frame. Use the turning motion to load a hip escape in the opposite direction, creating space on your far side for knee insertion. → Leads to [[Positions/Side Control]]
+- **Opponent secures an underhook during the scramble and drives into a side control consolidation, controlling the near hip and shoulder simultaneously** (Effectiveness: High) - Your Response: Fight the underhook immediately with a whizzer or pummel back to establish your own underhook. If the underhook is deep, abandon the open guard recovery and work for half guard by trapping their near leg with both of yours as a minimum defensive position. → Leads to [[Positions/Side Control]]
+- **Opponent backs away from the scramble and stands up, creating distance before you can establish guard grips or leg contact** (Effectiveness: Medium) - Your Response: Immediately sit up into seated guard or establish feet-on-hips from supine position. If the opponent stands before you can make leg contact, use the space to complete your body realignment and face them squarely from an open guard position with distance management. → Leads to [[Positions/Jailbreak]]
 
 
 </section>

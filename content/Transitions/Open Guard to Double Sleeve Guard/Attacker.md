@@ -180,7 +180,7 @@ description: "How to execute the Transition to Double Sleeve Guard in BJJ. Step-
 
 As the attacker executing this transition, your objective is to convert a neutral open guard position into a dominant double sleeve guard by systematically acquiring bilateral sleeve grips while maintaining defensive integrity through active foot placement. The transition requires patience and grip-fighting intelligence rather than explosive movement. You must read the opponent's arm positioning to identify grip windows, use your feet to create the distance and angles that expose their sleeves, and sequence your grip acquisition so that each step reinforces your defensive structure rather than compromising it. The reward is substantial: once both sleeve grips are secured with proper foot positioning, you control the tempo of the exchange and can launch sweeps, submissions, and guard transitions from a position of significant mechanical advantage.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing this transition, your objective is to convert a neutra
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Double Sleeve Guard]] | 65% |
-| Failure | [[Open Guard]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Double Sleeve Guard]] | 65% |
+| Failure | [[Positions/Open Guard]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing this transition, your objective is to convert a neutra
 
 ## Opponent Counters
 
-- **Opponent strips sleeve grip using wrist rotation and hip movement before second grip is acquired** (Effectiveness: High) - Your Response: Immediately re-grip the same sleeve or transition to collar grip with the free hand to maintain at least one control point. Use your feet to push opponent away and reset distance before reattempting the sleeve acquisition from a stable position. → Leads to [[Open Guard]]
-- **Opponent drives forward with heavy pressure during grip-fighting phase to collapse distance** (Effectiveness: Medium) - Your Response: Extend your legs fully to maintain distance while pulling the gripped sleeve upward and across to redirect their forward momentum. If distance collapses completely, transition to closed guard rather than fighting for sleeve grips from a compromised range. → Leads to [[Half Guard]]
-- **Opponent pulls both arms back sharply and postures up to remove arms from gripping range** (Effectiveness: Medium) - Your Response: Follow their backward movement by sitting up and pursuing the grips, using the momentum to come to a seated position. Alternatively, push on their hips with both feet during the backward pull to extend them and create a sweep opportunity from the overcommitted posture. → Leads to [[Open Guard]]
-- **Opponent immediately initiates toreando pass upon losing one sleeve to a grip** (Effectiveness: Medium) - Your Response: Use your established sleeve grip to pull them off-balance in the opposite direction of their passing movement while hip escaping to face them. The sleeve grip prevents them from controlling your legs effectively during the toreando, giving you time to recover guard angle. → Leads to [[Half Guard]]
+- **Opponent strips sleeve grip using wrist rotation and hip movement before second grip is acquired** (Effectiveness: High) - Your Response: Immediately re-grip the same sleeve or transition to collar grip with the free hand to maintain at least one control point. Use your feet to push opponent away and reset distance before reattempting the sleeve acquisition from a stable position. → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward with heavy pressure during grip-fighting phase to collapse distance** (Effectiveness: Medium) - Your Response: Extend your legs fully to maintain distance while pulling the gripped sleeve upward and across to redirect their forward momentum. If distance collapses completely, transition to closed guard rather than fighting for sleeve grips from a compromised range. → Leads to [[Positions/Half Guard]]
+- **Opponent pulls both arms back sharply and postures up to remove arms from gripping range** (Effectiveness: Medium) - Your Response: Follow their backward movement by sitting up and pursuing the grips, using the momentum to come to a seated position. Alternatively, push on their hips with both feet during the backward pull to extend them and create a sweep opportunity from the overcommitted posture. → Leads to [[Positions/Open Guard]]
+- **Opponent immediately initiates toreando pass upon losing one sleeve to a grip** (Effectiveness: Medium) - Your Response: Use your established sleeve grip to pull them off-balance in the opposite direction of their passing movement while hip escaping to face them. The sleeve grip prevents them from controlling your legs effectively during the toreando, giving you time to recover guard angle. → Leads to [[Positions/Half Guard]]
 
 
 </section>

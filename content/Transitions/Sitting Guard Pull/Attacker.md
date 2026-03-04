@@ -174,7 +174,7 @@ description: "How to execute Sitting Guard Pull in BJJ. Attacking perspective wi
 
 The Sitting Guard Pull from the attacker's perspective is about controlling the transition from standing to your preferred guard system. The technique requires disciplined sequencing: grips must precede the sit, the descent must be controlled rather than a fall, and guard structure must be established immediately upon landing. The attacker dictates the terms of engagement by choosing when to sit, which guard to establish, and how to use grips to prevent the opponent from capitalizing on the transition. Advanced practitioners use the sitting guard pull not as a passive retreat to bottom position but as an aggressive entry into sweep and submission chains, pulling directly into offensive sequences rather than settling into a neutral seated guard.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The Sitting Guard Pull from the attacker's perspective is about controlling the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Seated Guard]] | 75% |
-| Failure | [[Standing Position]] | 15% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Seated Guard]] | 75% |
+| Failure | [[Positions/Standing Position]] | 15% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -238,10 +238,10 @@ The Sitting Guard Pull from the attacker's perspective is about controlling the 
 
 ## Opponent Counters
 
-- **Opponent immediately backs away to break grips and disengage** (Effectiveness: Medium) - Your Response: Maintain grip tension during your sit and use active foot placement on their hips or aggressive hook insertion to prevent complete disengagement. If they break grips, immediately stand back up using technical standup rather than remaining seated without connection. → Leads to [[Standing Position]]
-- **Opponent steps back and circles to initiate standing pass or force guard opening** (Effectiveness: Medium) - Your Response: Use your grips to pull opponent back into engagement range while pivoting on your hips to track their movement. Maintain feet on their hips or knees to control distance. If they create too much distance, consider standing back up to reset. → Leads to [[Standing Position]]
-- **Opponent immediately drives forward with heavy chest pressure for smash pass** (Effectiveness: High) - Your Response: Create strong frames with both feet on their hips or knees the instant you sit to establish minimum distance. Use your grips to break their posture and disrupt forward pressure. If they successfully close distance, transition immediately to butterfly guard hooks or hip escape to half guard retention. → Leads to [[Standing Position]]
-- **Opponent grabs your ankles or pants and initiates a toreando-style pass as you sit** (Effectiveness: Medium) - Your Response: Retract your legs quickly and replace feet on hips rather than allowing them to control both ankles. Use your upper body grips to pull them off-balance or break their posture. If they secure both legs, invert or granby roll to recover guard angle before they complete the pass. → Leads to [[Standing Position]]
+- **Opponent immediately backs away to break grips and disengage** (Effectiveness: Medium) - Your Response: Maintain grip tension during your sit and use active foot placement on their hips or aggressive hook insertion to prevent complete disengagement. If they break grips, immediately stand back up using technical standup rather than remaining seated without connection. → Leads to [[Positions/Standing Position]]
+- **Opponent steps back and circles to initiate standing pass or force guard opening** (Effectiveness: Medium) - Your Response: Use your grips to pull opponent back into engagement range while pivoting on your hips to track their movement. Maintain feet on their hips or knees to control distance. If they create too much distance, consider standing back up to reset. → Leads to [[Positions/Standing Position]]
+- **Opponent immediately drives forward with heavy chest pressure for smash pass** (Effectiveness: High) - Your Response: Create strong frames with both feet on their hips or knees the instant you sit to establish minimum distance. Use your grips to break their posture and disrupt forward pressure. If they successfully close distance, transition immediately to butterfly guard hooks or hip escape to half guard retention. → Leads to [[Positions/Standing Position]]
+- **Opponent grabs your ankles or pants and initiates a toreando-style pass as you sit** (Effectiveness: Medium) - Your Response: Retract your legs quickly and replace feet on hips rather than allowing them to control both ankles. Use your upper body grips to pull them off-balance or break their posture. If they secure both legs, invert or granby roll to recover guard angle before they complete the pass. → Leads to [[Positions/Standing Position]]
 
 
 </section>

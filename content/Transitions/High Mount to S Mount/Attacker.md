@@ -180,7 +180,7 @@ description: "Execute the High Mount to S Mount transition to isolate the arm an
 
 From the attacker's perspective, the High Mount to S Mount transition is the decisive moment where positional control converts into submission inevitability. The attacker must coordinate three simultaneous actions: maintaining weight on the opponent's upper chest, isolating and controlling the target arm, and swinging the leg over the opponent's head to establish the perpendicular S Mount angle. The transition window is narrow — typically 1-2 seconds — and requires commitment. Once the leg begins moving over the head, the attacker is momentarily less stable, making proper arm control and weight distribution critical to prevent the bottom player from exploiting the transitional gap. Success depends on reading the opponent's defensive posture and attacking when their arm is most vulnerable.
 
-**From Position**: [[High Mount]] (Top)
+**From Position**: [[Positions/Mount/High Mount]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ From the attacker's perspective, the High Mount to S Mount transition is the dec
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[S Mount]] | 55% |
-| Failure | [[High Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/S Mount]] | 55% |
+| Failure | [[Positions/Mount/High Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,11 +243,11 @@ From the attacker's perspective, the High Mount to S Mount transition is the dec
 
 ## Opponent Counters
 
-- **Opponent bridges explosively during leg swing to disrupt balance** (Effectiveness: High) - Your Response: Post your free hand wide toward the mat and drive your hips down into their chest. If the bridge is strong enough to lift you, abort the S Mount entry and settle back into high mount with both knees down. Re-establish control before attempting again. → Leads to [[High Mount]]
-- **Opponent pulls trapped arm back to their body and grips their own collar** (Effectiveness: High) - Your Response: If the arm retracts before you complete the leg swing, do not force the S Mount entry. Return to high mount and work to re-isolate the arm through collar threats or wrist pinning. Alternatively, switch to attacking the opposite arm if it becomes exposed during the defensive reaction. → Leads to [[High Mount]]
-- **Opponent hip escapes toward the leg-over side creating space to insert knee** (Effectiveness: Medium) - Your Response: Follow the hip escape by scooting your hips with their movement to maintain the hip-to-shoulder connection. If they create enough space to insert a knee, abandon S Mount and immediately secure side control or re-establish mount before they recover full half guard. → Leads to [[Half Guard]]
-- **Opponent frames on your hip with free hand to prevent leg swing completion** (Effectiveness: Medium) - Your Response: Swim your hand under their framing elbow to strip the frame, or use the frame itself as a submission opportunity — their extended arm is now exposed for armbar or americana attack. Convert the failed S Mount entry into a direct submission attempt from high mount. → Leads to [[High Mount]]
-- **Opponent turns to their side away from the S Mount entry to protect the arm** (Effectiveness: Low) - Your Response: Capitalize on the turn by transitioning to technical mount instead of S Mount. Their turning motion exposes the back, so establish hooks and threaten back take. The failed S Mount attempt converts into an equally dominant positional advancement. → Leads to [[S Mount]]
+- **Opponent bridges explosively during leg swing to disrupt balance** (Effectiveness: High) - Your Response: Post your free hand wide toward the mat and drive your hips down into their chest. If the bridge is strong enough to lift you, abort the S Mount entry and settle back into high mount with both knees down. Re-establish control before attempting again. → Leads to [[Positions/Mount/High Mount]]
+- **Opponent pulls trapped arm back to their body and grips their own collar** (Effectiveness: High) - Your Response: If the arm retracts before you complete the leg swing, do not force the S Mount entry. Return to high mount and work to re-isolate the arm through collar threats or wrist pinning. Alternatively, switch to attacking the opposite arm if it becomes exposed during the defensive reaction. → Leads to [[Positions/Mount/High Mount]]
+- **Opponent hip escapes toward the leg-over side creating space to insert knee** (Effectiveness: Medium) - Your Response: Follow the hip escape by scooting your hips with their movement to maintain the hip-to-shoulder connection. If they create enough space to insert a knee, abandon S Mount and immediately secure side control or re-establish mount before they recover full half guard. → Leads to [[Positions/Half Guard]]
+- **Opponent frames on your hip with free hand to prevent leg swing completion** (Effectiveness: Medium) - Your Response: Swim your hand under their framing elbow to strip the frame, or use the frame itself as a submission opportunity — their extended arm is now exposed for armbar or americana attack. Convert the failed S Mount entry into a direct submission attempt from high mount. → Leads to [[Positions/Mount/High Mount]]
+- **Opponent turns to their side away from the S Mount entry to protect the arm** (Effectiveness: Low) - Your Response: Capitalize on the turn by transitioning to technical mount instead of S Mount. Their turning motion exposes the back, so establish hooks and threaten back take. The failed S Mount attempt converts into an equally dominant positional advancement. → Leads to [[Positions/Mount/S Mount]]
 
 
 </section>

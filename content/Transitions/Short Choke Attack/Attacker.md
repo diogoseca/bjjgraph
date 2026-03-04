@@ -178,7 +178,7 @@ The mechanics of the Short Choke differ from traditional rear naked chokes in th
 
 Strategically, the Short Choke represents the most direct submission threat from Gift Wrap and should be viewed as the primary attack from this position. When the opponent defends the Short Choke by tucking their chin or using their free hand, this creates openings for secondary attacks including armbar on the free arm, transition to crucifix, or advancement to mounted positions. Understanding this attack tree transforms the Gift Wrap into a systematic submission hunting position rather than a static control.
 
-**From Position**: [[Gift Wrap]] (Top)
+**From Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
 
@@ -231,8 +231,8 @@ Strategically, the Short Choke represents the most direct submission threat from
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Gift Wrap]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Failure | [[Positions/Gift Wrap]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ Strategically, the Short Choke represents the most direct submission threat from
 
 ## Opponent Counters
 
-- **Chin tuck with shoulder shrug to prevent arm threading under chin** (Effectiveness: High) - Your Response: Use angle changes and forehead pressure to create access; alternatively, switch to armbar attack on the free arm while they focus on chin defense → Leads to [[Gift Wrap]]
-- **Free hand grip fighting to prevent figure-four connection** (Effectiveness: Medium) - Your Response: Maintain pressure and wait for their grip to fatigue; their free arm defending the choke opens pathways to armbar or transition to crucifix → Leads to [[Gift Wrap]]
-- **Explosive bridge and roll attempt to escape back position entirely** (Effectiveness: Medium) - Your Response: Absorb the bridge with forward hip pressure; if they roll, follow and maintain back control or transition to mounted Gift Wrap → Leads to [[Back Control]]
-- **Turning toward attacker to face them and reduce choke angle** (Effectiveness: Low) - Your Response: Follow rotation and transition to mounted Gift Wrap or technical mount while maintaining arm trap; this actually improves your position → Leads to [[Gift Wrap]]
+- **Chin tuck with shoulder shrug to prevent arm threading under chin** (Effectiveness: High) - Your Response: Use angle changes and forehead pressure to create access; alternatively, switch to armbar attack on the free arm while they focus on chin defense → Leads to [[Positions/Gift Wrap]]
+- **Free hand grip fighting to prevent figure-four connection** (Effectiveness: Medium) - Your Response: Maintain pressure and wait for their grip to fatigue; their free arm defending the choke opens pathways to armbar or transition to crucifix → Leads to [[Positions/Gift Wrap]]
+- **Explosive bridge and roll attempt to escape back position entirely** (Effectiveness: Medium) - Your Response: Absorb the bridge with forward hip pressure; if they roll, follow and maintain back control or transition to mounted Gift Wrap → Leads to [[Positions/Back Control]]
+- **Turning toward attacker to face them and reduce choke angle** (Effectiveness: Low) - Your Response: Follow rotation and transition to mounted Gift Wrap or technical mount while maintaining arm trap; this actually improves your position → Leads to [[Positions/Gift Wrap]]
 
 
 </section>

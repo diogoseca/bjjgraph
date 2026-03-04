@@ -158,7 +158,7 @@ The defender's primary tools are hand fighting on the choking arm, near-arm prot
 
 Strategically, the defender should recognize that the attacker must accomplish multiple steps in sequence—thread the arm, trap the near arm, lock the grip, and execute the roll. Disrupting any single link in this chain prevents the finish. The best defenders develop sensitivity to the attacker's weight shifts and arm movements, allowing them to identify which phase the attacker is entering and apply the appropriate counter before the next phase begins.
 
-**Opponent's Starting Position**: [[Front Headlock]] (Top)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Strategically, the defender should recognize that the attacker must accomplish m
 ### 1. Clamp near arm tight to body and fight choking arm wrist with free hand to prevent deep threading
 
 - **When to use**: Early phase - as soon as you feel the attacker release their standard headlock grip and begin threading across your neck. This is the highest-percentage window for defense.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Attacker cannot complete the anaconda setup and must either reset in front headlock or switch to alternative attacks, returning you to standard front headlock defense
 - **Risk**: If you focus too much on upper body defense, the attacker may switch to a back take or change to a guillotine, which requires different defensive positioning
 
 ### 2. Explosive stand-up driving through opponent's pressure, using their threading motion against them while they are transitionally unstable
 
 - **When to use**: When you feel the attacker's weight shift during the threading or grip-seeking phase. Their momentary instability as they reconfigure their arms creates a window for posture recovery.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Standing neutralizes the rolling threat entirely and forces the attacker to either release or transition to standing front headlock, which has fewer finishing options
 - **Risk**: If the grip is already partially locked, standing can actually tighten the choke. Only attempt when you feel the attacker is still in the threading phase, not after the figure-four is secured.
 
 ### 3. Circle aggressively away from the choking arm side while maintaining chin tuck, widening the choking loop and creating escape angle
 
 - **When to use**: When the attacker has begun threading but the figure-four grip is not yet locked. Your movement in the opposite direction of the roll makes the loop too large to finish.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Creates sufficient angle that the attacker loses the choking configuration and must abandon the anaconda attempt, typically reverting to front headlock or losing control entirely
 - **Risk**: Circling away from the choke can expose your back if the attacker reads the movement and switches to a back take. Keep your elbows tight and chin tucked while circling.
 
 ### 4. Roll through in the same direction as the attacker's intended roll, using the momentum to scramble free or reverse position
 
 - **When to use**: Last-resort option when the grip is already locked and the roll has begun. Rather than resisting the roll, accelerate through it to land in a scramble position where the grip loosens.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: The accelerated roll disrupts the attacker's planned finishing position and can create a scramble where you extract your head and arm from the loosened grip
 - **Risk**: If the attacker maintains tight grip through the roll, you may end up in a worse finishing position. This is a desperation option when other defenses have failed.
 
@@ -229,11 +229,11 @@ Strategically, the defender should recognize that the attacker must accomplish m
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Deny the arm trap by keeping near arm clamped tight to body, fight the choking arm wrist to prevent deep threading, then use explosive stand-up or lateral circling to break the attacker's grip configuration and force them back to standard front headlock position where their submission threat is neutralized.
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 If the grip is partially locked, use aggressive roll-through in the attacker's intended direction to disrupt their finishing position. During the chaotic landing, fight the grip and work to extract your trapped arm and head. Even recovering to front headlock bottom is preferable to being caught in locked anaconda control, as you retain more defensive options from standard front headlock.
 

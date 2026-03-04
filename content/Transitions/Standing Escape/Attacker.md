@@ -184,7 +184,7 @@ This escape requires a two-phase approach: first neutralizing the immediate coll
 
 Strategically, the Standing Escape is most effective when combined with other escape threats from Invisible Collar bottom. If the attacker is focused on defending your hip escape or rolling escape attempts, the sudden posture change to standing catches them out of position. The escape integrates into a layered defensive system where each escape attempt creates openings for others, making the defender unpredictable and forcing the attacker to address multiple threats simultaneously.
 
-**From Position**: [[Invisible Collar]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
 
 </section>
 
@@ -237,9 +237,9 @@ Strategically, the Standing Escape is most effective when combined with other es
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 65% |
-| Failure | [[Invisible Collar]] | 25% |
-| Counter | [[Invisible Collar]] | 10% |
+| Success | [[Positions/Open Guard]] | 65% |
+| Failure | [[Positions/Rubber Guard/Invisible Collar]] | 25% |
+| Counter | [[Positions/Rubber Guard/Invisible Collar]] | 10% |
 
 
 </section>
@@ -248,10 +248,10 @@ Strategically, the Standing Escape is most effective when combined with other es
 
 ## Opponent Counters
 
-- **Attacker deepens collar grip and applies immediate choking pressure when they feel you initiating the stand-up, attempting to finish before you can complete the escape** (Effectiveness: High) - Your Response: Abort the standing attempt if collar grip depth increases significantly. Return to two-on-one wrist fighting and chin tuck defense. Only reattempt when grip is sufficiently shallow. Attempting to stand through a deep collar grip is the fastest path to being choked. → Leads to [[Invisible Collar]]
-- **Attacker locks body triangle or tightens hooks aggressively when they feel you shifting weight to stand, preventing the hip escape to base position** (Effectiveness: Medium) - Your Response: If body triangle locks before you stand, address the triangle first by angling your trapped leg and working to unlock the figure-four. Switch to hip escape or rolling escape attempts that work better against body triangle than standing. Return to standing escape after breaking the triangle lock. → Leads to [[Invisible Collar]]
-- **Attacker transitions to rear naked choke by releasing collar grip and shooting arm under chin as you focus on collar defense during stand-up** (Effectiveness: Medium) - Your Response: The moment you feel collar pressure release, immediately tuck chin and trap their transitioning arm under your armpit. The grip switch creates a brief window where neither choke is set—exploit this by accelerating your standing sequence during the transition gap. → Leads to [[Invisible Collar]]
-- **Attacker mat returns you by driving their hips forward and hooking your far leg as you attempt to stand, collapsing you back to the mat in a controlled manner** (Effectiveness: High) - Your Response: Widen your base as you stand and keep your hips lower than the attacker's center of gravity. If they drive forward for the mat return, use their forward momentum to execute a forward roll that creates separation. Immediately transition to turtle and work for guard recovery from there. → Leads to [[Invisible Collar]]
+- **Attacker deepens collar grip and applies immediate choking pressure when they feel you initiating the stand-up, attempting to finish before you can complete the escape** (Effectiveness: High) - Your Response: Abort the standing attempt if collar grip depth increases significantly. Return to two-on-one wrist fighting and chin tuck defense. Only reattempt when grip is sufficiently shallow. Attempting to stand through a deep collar grip is the fastest path to being choked. → Leads to [[Positions/Rubber Guard/Invisible Collar]]
+- **Attacker locks body triangle or tightens hooks aggressively when they feel you shifting weight to stand, preventing the hip escape to base position** (Effectiveness: Medium) - Your Response: If body triangle locks before you stand, address the triangle first by angling your trapped leg and working to unlock the figure-four. Switch to hip escape or rolling escape attempts that work better against body triangle than standing. Return to standing escape after breaking the triangle lock. → Leads to [[Positions/Rubber Guard/Invisible Collar]]
+- **Attacker transitions to rear naked choke by releasing collar grip and shooting arm under chin as you focus on collar defense during stand-up** (Effectiveness: Medium) - Your Response: The moment you feel collar pressure release, immediately tuck chin and trap their transitioning arm under your armpit. The grip switch creates a brief window where neither choke is set—exploit this by accelerating your standing sequence during the transition gap. → Leads to [[Positions/Rubber Guard/Invisible Collar]]
+- **Attacker mat returns you by driving their hips forward and hooking your far leg as you attempt to stand, collapsing you back to the mat in a controlled manner** (Effectiveness: High) - Your Response: Widen your base as you stand and keep your hips lower than the attacker's center of gravity. If they drive forward for the mat return, use their forward momentum to execute a forward roll that creates separation. Immediately transition to turtle and work for guard recovery from there. → Leads to [[Positions/Rubber Guard/Invisible Collar]]
 
 
 </section>

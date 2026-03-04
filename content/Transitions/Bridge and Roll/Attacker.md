@@ -180,7 +180,7 @@ description: "How to execute the Bridge and Roll escape from mount in BJJ. Compl
 
 The Bridge and Roll is executed by the bottom player trapped under mount, using explosive hip power combined with precise limb trapping to reverse the position entirely. As the attacker (the person executing the escape), your objective is to eliminate the mounted opponent's base on one side by simultaneously trapping their arm and same-side leg, then driving a powerful angled bridge that forces them to roll over their compromised shoulder. The technique rewards precise setup over raw athleticism—proper trapping mechanics and bridging angle matter far more than explosive strength. The escape creates a complete position reversal, typically landing you inside the opponent's closed guard as the top player, transforming a -4 point deficit into a neutral position. Understanding when to attempt the bridge and roll versus the elbow escape, and how to chain between them when one is defended, forms the core of systematic mount defense at every level of competition.
 
-**From Position**: [[Mount]] (Bottom)
+**From Position**: [[Positions/Mount]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ The Bridge and Roll is executed by the bottom player trapped under mount, using 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Mount]] | 30% |
-| Counter | [[High Mount]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Mount]] | 30% |
+| Counter | [[Positions/Mount/High Mount]] | 15% |
 
 
 </section>
@@ -245,11 +245,11 @@ The Bridge and Roll is executed by the bottom player trapped under mount, using 
 
 ## Opponent Counters
 
-- **Opponent establishes high mount and grapevines legs before escape attempt** (Effectiveness: High) - Your Response: Use hip escape to create space and walk hips back to regular mount position before attempting bridge and roll. Cannot execute effective bridge with legs grapevined. → Leads to [[High Mount]]
-- **Opponent posts with free arm to prevent roll** (Effectiveness: High) - Your Response: Immediately switch to opposite side bridge and roll, or transition to elbow escape using the space created by their post. Their committed post on one side creates vulnerability on the opposite side. → Leads to [[Mount]]
-- **Opponent widens base and keeps hips low to resist bridge** (Effectiveness: Medium) - Your Response: Use frames to push their hips backward first, forcing them to shift weight forward before bridging. Can also fake bridge to one side to get them to commit base, then attack opposite side. → Leads to [[Mount]]
-- **Opponent releases trapped arm and uses it to post mid-bridge** (Effectiveness: Medium) - Your Response: If arm releases early, immediately abandon roll and transition to elbow escape or shrimp. If bridge is already committed, follow through with increased explosiveness as they now have less control. → Leads to [[Mount]]
-- **Opponent anticipates escape and attacks submission during setup** (Effectiveness: High) - Your Response: Prioritize defensive framing and submission defense first. Only attempt escape when immediate submission threats are neutralized. Cannot escape while defending active submission. → Leads to [[High Mount]]
+- **Opponent establishes high mount and grapevines legs before escape attempt** (Effectiveness: High) - Your Response: Use hip escape to create space and walk hips back to regular mount position before attempting bridge and roll. Cannot execute effective bridge with legs grapevined. → Leads to [[Positions/Mount/High Mount]]
+- **Opponent posts with free arm to prevent roll** (Effectiveness: High) - Your Response: Immediately switch to opposite side bridge and roll, or transition to elbow escape using the space created by their post. Their committed post on one side creates vulnerability on the opposite side. → Leads to [[Positions/Mount]]
+- **Opponent widens base and keeps hips low to resist bridge** (Effectiveness: Medium) - Your Response: Use frames to push their hips backward first, forcing them to shift weight forward before bridging. Can also fake bridge to one side to get them to commit base, then attack opposite side. → Leads to [[Positions/Mount]]
+- **Opponent releases trapped arm and uses it to post mid-bridge** (Effectiveness: Medium) - Your Response: If arm releases early, immediately abandon roll and transition to elbow escape or shrimp. If bridge is already committed, follow through with increased explosiveness as they now have less control. → Leads to [[Positions/Mount]]
+- **Opponent anticipates escape and attacks submission during setup** (Effectiveness: High) - Your Response: Prioritize defensive framing and submission defense first. Only attempt escape when immediate submission threats are neutralized. Cannot escape while defending active submission. → Leads to [[Positions/Mount/High Mount]]
 
 
 </section>

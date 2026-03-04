@@ -154,7 +154,7 @@ description: "Defend the Overhook Pass to Side Control in BJJ. Recognition cues,
 
 Defending the Overhook Pass to Side Control requires early recognition and proactive response before the passer can complete the flattening and hip-walking phases that make the pass increasingly difficult to stop. The defender's primary challenge is operating with one arm trapped and elevated by the overhook, which removes a significant portion of their defensive toolkit. Success depends on using the free arm effectively for framing, maintaining hip mobility to create angles, and recognizing the narrow windows where the passer's base is compromised enough to attempt sweeps or guard recovery. The earlier the defense begins in the passing sequence, the higher the success rate - once the passer has achieved the flattening and begun walking their hips, defensive options decrease dramatically with each incremental step they complete.
 
-**Opponent's Starting Position**: [[Overhook Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Overhook Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Overhook Pass to Side Control requires early recognition and proac
 ### 1. Frame against passer's hip with free arm and hip escape to create angle for guard recovery
 
 - **When to use**: As soon as you feel the forward pressure increase indicating the pass is being initiated, before the flattening phase is complete
-- **Targets**: [[Overhook Control]]
+- **Targets**: [[Positions/Overhook Control]]
 - **If successful**: You create enough angle and distance to recover your guard structure, forcing the passer to reset to overhook control without having advanced position
 - **Risk**: If the frame is stripped or your hip escape is blocked, you have expended energy without improving position and the passer continues the passing sequence
 
 ### 2. Insert knee shield between your bodies to block the passing path and create distance
 
 - **When to use**: During the early phase when the passer begins walking hips but before they have cleared your legs completely
-- **Targets**: [[Overhook Control]]
+- **Targets**: [[Positions/Overhook Control]]
 - **If successful**: The knee shield creates a structural barrier that prevents the passer from completing the arc, forcing them to address the shield before continuing
 - **Risk**: If the passer smashes the knee shield flat with hip pressure, you may end up flattened with fewer defensive options than before the attempt
 
 ### 3. Establish underhook on non-overhook side and sit up to dogfight position
 
 - **When to use**: When the passer commits their weight forward during the flattening attempt, creating a momentary opportunity to come up underneath them
-- **Targets**: [[Overhook Control]]
+- **Targets**: [[Positions/Overhook Control]]
 - **If successful**: You neutralize the passing attempt and establish an offensive underhook position that threatens sweeps and back takes from the dogfight
 - **Risk**: If the passer drives you back down with shoulder pressure, you may lose the underhook and end up flatter than your starting position
 
 ### 4. Time a bridge and hip bump reversal during the hip-walking phase when the passer's base is narrowest
 
 - **When to use**: When the passer is mid-arc with feet close together and weight committed forward, creating the smallest base and maximum vulnerability to directional force
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You reverse the position entirely, ending up in top position with the opponent in half guard or worse, converting their passing attempt into your sweep
 - **Risk**: If mistimed, the bridge expends significant energy and may actually assist the passer by creating the space they need to complete the leg clearance
 
@@ -225,11 +225,11 @@ Defending the Overhook Pass to Side Control requires early recognition and proac
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a reversal when the passer is in the hip-walking phase with narrow base. Bridge explosively into the overhook side while hooking their far leg with your inside leg. The passer's committed forward weight and narrow stance during the arc make them vulnerable to directional sweeps. Use their momentum against them to complete the reversal to half guard top.
 
-### → [[Overhook Control]]
+### → [[Positions/Overhook Control]]
 
 Prevent the pass from completing by maintaining active frames, resisting the flattening phase through constant hip escaping, and inserting knee shields that block the passing arc. Force the passer to reset to overhook control without advancing position. Focus on early recognition and immediate defensive reaction before the pass develops momentum.
 

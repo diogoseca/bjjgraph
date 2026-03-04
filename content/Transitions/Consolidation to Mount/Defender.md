@@ -154,7 +154,7 @@ description: "Master defending the Consolidation to Mount transition. Learn reco
 
 Defending the Consolidation to Mount transition requires recognizing the brief but critical moment when the top player shifts weight from perpendicular side control to the straddling mount position. This transitional window represents both the highest danger and the best defensive opportunity: if the defender misses it, they face the most oppressive control position in BJJ, but the attacker's control is momentarily weakened during the weight transfer. The defender must develop sensitivity to the subtle weight shifts, hip movements, and grip adjustments that signal the impending mount attempt, then execute practiced defensive responses that exploit the inherent vulnerability of positional advancement. Success requires proactive frame creation and knee insertion before the mount establishes rather than reactive escape attempts after the position is locked.
 
-**Opponent's Starting Position**: [[Side Control Consolidation]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Side Control Consolidation]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Consolidation to Mount transition requires recognizing the brief b
 ### 1. Insert near-side knee between bodies to establish half guard during the knee slide
 
 - **When to use**: The instant you feel the opponent's near knee begin to slide across your hip line or their hips elevate for the transition
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover to half guard bottom with your knee blocking mount completion, creating offensive sweep and back take opportunities from a dramatically improved position
 - **Risk**: If the knee insertion is too late and the opponent's knee has already cleared your hip, the insertion attempt may create a scramble that accelerates mount establishment
 
 ### 2. Far-side elbow frame against opponent's hip to block the knee slide path
 
 - **When to use**: Before the transition begins, when you detect hip walking or weight shift patterns indicating mount preparation
-- **Targets**: [[Side Control Consolidation]]
+- **Targets**: [[Positions/Side Control/Side Control Consolidation]]
 - **If successful**: The frame physically blocks the knee slide path, preventing the transition and forcing the opponent to either collapse the frame first or abandon the attempt
 - **Risk**: If the frame is weak or poorly positioned, the opponent drives through it with their knee and pins your framing arm under their shin in mount
 
 ### 3. Bridge and hip escape during the weight transfer moment to create space for guard recovery
 
 - **When to use**: During the exact moment when the opponent's chest lifts to execute the slide or swing, when their control is at its weakest point
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Create enough distance through the bridge-shrimp combination to insert your knee shield and recover to half guard before the mount completes
 - **Risk**: A poorly timed bridge that fires too early is absorbed by the opponent's settled weight, and a bridge too late meets the full force of the mounted position
 
 ### 4. Turn toward opponent and pummel for underhook during the transition chaos
 
 - **When to use**: When the opponent's crossface loosens during the weight transfer phase and you detect an opening to change the angle of engagement
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Establish an underhook that prevents the opponent from completing the mount and creates an immediate offensive pathway for sweeps from half guard
 - **Risk**: Turning into the opponent during a partially completed mount may give them technical mount with hooks already in position
 
@@ -225,11 +225,11 @@ Defending the Consolidation to Mount transition requires recognizing the brief b
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Insert your near-side knee between your bodies at the exact moment the opponent's knee begins sliding across your hip. The insertion must occur before their knee clears your far hip bone. Bridge toward them to create the angle, then drive your knee upward into the gap between your bodies. Immediately establish a knee shield with your shin across their torso to prevent re-passing. This exploits the transition's inherent vulnerability: the brief moment when the opponent's lower body is in motion and their base is shifting.
 
-### → [[Side Control Consolidation]]
+### → [[Positions/Side Control/Side Control Consolidation]]
 
 Establish a strong far-side elbow frame against the opponent's hip before they initiate the transition. This frame physically blocks the knee slide path. Combined with maintaining hip mobility and avoiding being completely flattened, this prevents the opponent from creating the angle needed for the mount transition. While remaining in side control bottom is not ideal, it represents a significant defensive success compared to being mounted and preserves your ongoing escape strategy.
 

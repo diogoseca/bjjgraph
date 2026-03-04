@@ -21,7 +21,7 @@ The technique requires understanding how the reversed orientation changes both s
 
 Strategically, this escape represents the completion phase of a defensive inversion sequence. Practitioners who stall halfway through inversion find themselves in the worst possible configuration—inverted yet fully entangled. The escape must be executed with commitment and proper sequencing: protect the heel first, control the opponent's inside knee second, clear the outside leg third, and extract the trapped leg last. Understanding when to accept transitional positions like turtle or deep half guard rather than forcing complete extraction against deep control is equally important for defensive success across all skill levels.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, this escape represents the completion phase of a defensive invers
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Success | [[Turtle]] | 10% |
-| Failure | [[Ushiro Ashi-Garami]] | 25% |
-| Counter | [[Saddle]] | 10% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Success | [[Positions/Turtle]] | 10% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 25% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 10% |
 
 
 </section>
@@ -190,27 +190,27 @@ The Ushiro Ashi-Garami Escape is a critical component of the complete leg lock d
 ## Related Techniques
 
 
-- [[Ushiro Ashi-Garami]] - Starting position for this escape technique
+- [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Starting position for this escape technique
 
-- [[Open Guard]] - Primary target position upon successful leg extraction
+- [[Positions/Open Guard]] - Primary target position upon successful leg extraction
 
-- [[Ashi Garami Escape]] - Parent escape system sharing core defensive principles
+- [[Transitions/Ashi Garami Escape]] - Parent escape system sharing core defensive principles
 
-- [[Inversion to Turtle]] - Alternative escape path from same starting position
+- [[Transitions/Inversion to Turtle]] - Alternative escape path from same starting position
 
-- [[Granby Roll to Guard]] - Variant escape using rolling momentum for deep control situations
+- [[Transitions/Granby Roll to Guard]] - Variant escape using rolling momentum for deep control situations
 
-- [[Counter Ashi Entry]] - Counter-attack option when opponent exposes their leg during escape
+- [[Transitions/Counter Ashi Entry]] - Counter-attack option when opponent exposes their leg during escape
 
-- [[Leg Extraction to Guard]] - Related technique for clearing entanglements to guard recovery
+- [[Transitions/Leg Extraction to Guard]] - Related technique for clearing entanglements to guard recovery
 
-- [[Single Leg X Recovery]] - Alternative recovery position during partial leg clearing
+- [[Transitions/Single Leg X Recovery]] - Alternative recovery position during partial leg clearing
 
-- [[Reverse Heel Hook Counter]] - Defensive counter-attack from the reversed entanglement configuration
+- [[Transitions/Reverse Heel Hook Counter]] - Defensive counter-attack from the reversed entanglement configuration
 
-- [[Inside Heel Hook]] - Primary submission threat that this escape defends against
+- [[Submissions/Inside Heel Hook]] - Primary submission threat that this escape defends against
 
-- [[Saddle]] - Position opponent may transition to if inside knee control is lost
+- [[Positions/Ashi Garami/Saddle]] - Position opponent may transition to if inside knee control is lost
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Defend against the Strip Lapel from Piranha as the bottom player. 
 
 As the bottom player defending against the Strip Lapel from Piranha, your goal is to maintain the lapel threading that powers your entire Piranha Guard system. The strip attempt represents the most direct threat to your guard's effectiveness, and successful defense requires active grip management, tactical sweep threats, and the awareness to transition to alternative guards when the lapel configuration becomes unsalvageable. Your defensive toolkit combines reflexive re-gripping to maintain the threading, strategic use of knee pressure to trap the lapel material against extraction, and the creation of sweep dilemmas that punish your opponent for committing both hands to the stripping process rather than defending their base.
 
-**Opponent's Starting Position**: [[Piranha Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Piranha Guard]] (Top)
 
 </section>
 
@@ -183,28 +183,28 @@ As the bottom player defending against the Strip Lapel from Piranha, your goal i
 ### 1. Immediately re-grip the stripped lapel with your opposite hand and reinforce the threading depth
 
 - **When to use**: As soon as you feel your primary grip being peeled or weakened by the opponent's two-on-one grip break
-- **Targets**: [[Piranha Guard]]
+- **Targets**: [[Positions/Piranha Guard]]
 - **If successful**: Maintains the Piranha Guard configuration and forces the opponent to restart their entire strip attempt from the beginning
 - **Risk**: Momentary two-hand commitment to the lapel may leave you vulnerable if the opponent suddenly abandons the strip for a passing attempt
 
 ### 2. Execute a sweep exploiting the opponent's compromised base during their grip-fighting commitment
 
 - **When to use**: When the opponent commits both hands to stripping and their base narrows, weight shifts, or they release hip control
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Reverses position completely and achieves top position, potentially scoring sweep points in competition
 - **Risk**: If the sweep fails, the opponent may capitalize on your offensive commitment to complete the lapel strip during your recovery
 
 ### 3. Squeeze knees together tightly and pull the lapel deeper through your legs while adjusting hip angle
 
 - **When to use**: When you detect the opponent beginning to pull the lapel material back through your leg configuration during the extraction phase
-- **Targets**: [[Piranha Guard]]
+- **Targets**: [[Positions/Piranha Guard]]
 - **If successful**: Deepens the lapel threading and dramatically increases extraction friction, making the strip mechanically much harder to complete
 - **Risk**: Excessive knee squeezing may temporarily limit your own hip mobility and reduce your sweep options during the exchange
 
 ### 4. Transition to Worm Guard or alternative lapel guard configuration before the strip is fully completed
 
 - **When to use**: When the strip is nearly complete and maintaining Piranha Guard is no longer viable with the remaining lapel material
-- **Targets**: [[Piranha Guard]]
+- **Targets**: [[Positions/Piranha Guard]]
 - **If successful**: Establishes a new lapel-based guard that maintains similar control advantages with a different threading configuration
 - **Risk**: The transition window is brief and the opponent may complete the strip before you fully establish the new guard system
 
@@ -216,11 +216,11 @@ As the bottom player defending against the Strip Lapel from Piranha, your goal i
 
 ## Best-Case Outcomes for Defender
 
-### → [[Piranha Guard]]
+### → [[Positions/Piranha Guard]]
 
 Re-grip and reinforce the lapel threading immediately when any grip is broken, squeezing knees together to trap material and maintaining constant tension on the lapel to prevent full extraction
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Capitalize on the opponent's base compromise during their two-handed grip-fighting commitment by executing a sweep using the remaining lapel control combined with strategic hook placement and hip movement
 

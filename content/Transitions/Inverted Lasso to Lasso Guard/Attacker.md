@@ -180,7 +180,7 @@ description: "Master executing the inverted lasso to lasso guard recovery. Learn
 
 As the attacker (bottom player), your objective is to return from the inverted lasso position to standard upright lasso guard while maintaining continuous control over the opponent's trapped arm. This transition requires precise coordination between your hip rotation, grip pressure, and leg positioning to prevent any slack in the lasso hook that would allow arm extraction. The key insight is that this is not merely a retreat from inversion but an offensive reset that creates new sweep angles and submission entries unavailable from the inverted position. Executed properly, the transition itself generates off-balancing force that can be channeled directly into a sweep attempt, making the recovery and the attack a single fluid motion.
 
-**From Position**: [[Inverted Lasso Guard]] (Bottom)
+**From Position**: [[Positions/Lasso Guard/Inverted Lasso Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker (bottom player), your objective is to return from the inverted l
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Lasso Guard]] | 55% |
-| Failure | [[Inverted Lasso Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Lasso Guard]] | 55% |
+| Failure | [[Positions/Lasso Guard/Inverted Lasso Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker (bottom player), your objective is to return from the inverted l
 
 ## Opponent Counters
 
-- **Opponent pulls arm back aggressively during the hip rotation phase to extract from the lasso** (Effectiveness: High) - Your Response: Anticipate the extraction attempt by increasing lasso hook curl and sleeve pull simultaneously. If extraction begins, immediately switch to an omoplata or triangle entry that uses their arm retraction momentum against them. → Leads to [[Open Guard]]
-- **Opponent drives forward pressure during the transition to stack and pin the bottom player** (Effectiveness: Medium) - Your Response: Use the foot posted on their hip to maintain distance and prevent the stack. If pressure overwhelms the frame, convert the forward drive into a pendulum sweep by using their momentum to roll them overhead. → Leads to [[Inverted Lasso Guard]]
-- **Opponent circles laterally to pass around the recovering guard during the unstable transition phase** (Effectiveness: Medium) - Your Response: Follow their lateral movement with hip rotation, keeping your lasso leg between you and them. Use the sleeve grip to prevent them from creating the angle needed to complete the pass. If they gain an angle, transition to de la riva hook on their lead leg. → Leads to [[Open Guard]]
-- **Opponent strips the sleeve grip during the rotation when hand positioning is weakest** (Effectiveness: High) - Your Response: Maintain a palm-up grip that is mechanically strongest against stripping. If the grip breaks, immediately re-grip before completing the rotation since the lasso hook alone provides temporary control for 1-2 seconds while you recover the sleeve connection. → Leads to [[Open Guard]]
+- **Opponent pulls arm back aggressively during the hip rotation phase to extract from the lasso** (Effectiveness: High) - Your Response: Anticipate the extraction attempt by increasing lasso hook curl and sleeve pull simultaneously. If extraction begins, immediately switch to an omoplata or triangle entry that uses their arm retraction momentum against them. → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward pressure during the transition to stack and pin the bottom player** (Effectiveness: Medium) - Your Response: Use the foot posted on their hip to maintain distance and prevent the stack. If pressure overwhelms the frame, convert the forward drive into a pendulum sweep by using their momentum to roll them overhead. → Leads to [[Positions/Lasso Guard/Inverted Lasso Guard]]
+- **Opponent circles laterally to pass around the recovering guard during the unstable transition phase** (Effectiveness: Medium) - Your Response: Follow their lateral movement with hip rotation, keeping your lasso leg between you and them. Use the sleeve grip to prevent them from creating the angle needed to complete the pass. If they gain an angle, transition to de la riva hook on their lead leg. → Leads to [[Positions/Open Guard]]
+- **Opponent strips the sleeve grip during the rotation when hand positioning is weakest** (Effectiveness: High) - Your Response: Maintain a palm-up grip that is mechanically strongest against stripping. If the grip breaks, immediately re-grip before completing the rotation since the lasso hook alone provides temporary control for 1-2 seconds while you recover the sleeve connection. → Leads to [[Positions/Open Guard]]
 
 
 </section>

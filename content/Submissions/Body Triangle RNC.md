@@ -26,8 +26,8 @@ The strategic brilliance of this technique lies in its self-reinforcing nature. 
 **Category**: Combination
 **Type**: Rear Naked Choke with Body Compression
 **Target Area**: Neck and Torso
-**Starting Position**: [[Body Triangle]]
-**From Position**: [[Body Triangle]] (Top)
+**Starting Position**: [[Positions/Back Control/Body Triangle]]
+**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -78,9 +78,9 @@ The strategic brilliance of this technique lies in its self-reinforcing nature. 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Body Triangle]] | 25% |
-| Failure | [[Back Control]] | 12% |
-| Counter | [[Half Guard]] | 8% |
+| Failure | [[Positions/Back Control/Body Triangle]] | 25% |
+| Failure | [[Positions/Back Control]] | 12% |
+| Counter | [[Positions/Half Guard]] | 8% |
 
 
 </section>
@@ -230,9 +230,9 @@ The strategic brilliance of this technique lies in its self-reinforcing nature. 
 
 ## From Which Positions?
 
-- [[Body Triangle]]
-- [[Back Control]]
-- [[Seat Belt Control Back]]
+- [[Positions/Back Control/Body Triangle]]
+- [[Positions/Back Control]]
+- [[Positions/Back Control/Seat Belt Control Back]]
 
 
 </section>
@@ -241,12 +241,12 @@ The strategic brilliance of this technique lies in its self-reinforcing nature. 
 
 ## Related Submissions
 
-- [[RNC from Seat Belt]]
-- [[Bow and Arrow from Seat Belt]]
-- [[Rear Triangle Choke]]
-- [[Gift Wrap RNC]]
-- [[Standing RNC]]
-- [[Russian Cowboy RNC]]
+- [[Submissions/RNC from Seat Belt]]
+- [[Submissions/Bow and Arrow from Seat Belt]]
+- [[Submissions/Rear Triangle Choke]]
+- [[Submissions/Gift Wrap RNC]]
+- [[Submissions/Standing RNC]]
+- [[Submissions/Russian Cowboy RNC]]
 
 
 </section>
@@ -255,13 +255,13 @@ The strategic brilliance of this technique lies in its self-reinforcing nature. 
 
 ## Additional Related Content
 
-- [[Body Triangle]] - Primary positional platform providing the leg control and torso compression for this submission
-- [[Back Control]] - Parent positional hierarchy from which body triangle derives and fundamental back attack framework
-- [[Seat Belt Control Back]] - Optimal upper body grip configuration for setting up and maintaining the RNC from back control
-- [[Rear Triangle]] - Alternative back control leg configuration that also enables choking attacks with different mechanics
-- [[Crucifix]] - Transition target when defender overcommits both arms to choke defense, exposing arm isolation opportunity
-- [[Half Guard]] - Common escape destination for defender who successfully counters the submission attempt
-- [[Gift Wrap]] - Complementary arm control technique that eliminates defensive hand fighting when paired with body triangle RNC
+- [[Positions/Back Control/Body Triangle]] - Primary positional platform providing the leg control and torso compression for this submission
+- [[Positions/Back Control]] - Parent positional hierarchy from which body triangle derives and fundamental back attack framework
+- [[Positions/Back Control/Seat Belt Control Back]] - Optimal upper body grip configuration for setting up and maintaining the RNC from back control
+- [[Positions/Triangle Control/Rear Triangle]] - Alternative back control leg configuration that also enables choking attacks with different mechanics
+- [[Positions/Crucifix]] - Transition target when defender overcommits both arms to choke defense, exposing arm isolation opportunity
+- [[Positions/Half Guard]] - Common escape destination for defender who successfully counters the submission attempt
+- [[Positions/Gift Wrap]] - Complementary arm control technique that eliminates defensive hand fighting when paired with body triangle RNC
 
 
 </section>

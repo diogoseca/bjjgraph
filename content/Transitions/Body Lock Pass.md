@@ -21,7 +21,7 @@ The pass works by creating a connection that removes the bottom player's ability
 
 This pass is especially valuable against opponents with strong half guard retention, as the body lock neutralizes many common defensive reactions including knee shield, lockdown, and underhook battles. It forms a cornerstone of systematic pressure passing approaches and chains seamlessly with knee slice, leg drag, and back take options when the primary path is defended.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 68%
 
 </section>
@@ -32,9 +32,9 @@ This pass is especially valuable against opponents with strong half guard retent
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 68% |
-| Failure | [[Half Guard]] | 17% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 68% |
+| Failure | [[Positions/Half Guard]] | 17% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The body lock pass is a cornerstone technique in modern pressure passing systems
 ## Related Techniques
 
 
-- [[Half Guard]] - Starting position for this technique
+- [[Positions/Half Guard]] - Starting position for this technique
 
-- [[Side Control]] - Primary target position upon successful completion
+- [[Positions/Side Control]] - Primary target position upon successful completion
 
-- [[Knee Shield Half Guard]] - Common defensive variation that must be addressed before establishing body lock
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Common defensive variation that must be addressed before establishing body lock
 
-- [[Lockdown]] - Primary defensive counter that traps the passer's leg
+- [[Positions/Half Guard/Lockdown]] - Primary defensive counter that traps the passer's leg
 
-- [[Knee Slice Pass]] - Complementary passing technique to chain with when body lock is defended
+- [[Transitions/Knee Slice Pass]] - Complementary passing technique to chain with when body lock is defended
 
-- [[Leg Drag Pass]] - Follow-up technique when opponent maintains strong knee shield
+- [[Transitions/Leg Drag Pass]] - Follow-up technique when opponent maintains strong knee shield
 
-- [[Double Under Pass]] - Related passing technique using similar body lock control concepts
+- [[Transitions/Double Under Pass]] - Related passing technique using similar body lock control concepts
 
-- [[Back Take from Top]] - Transition option when opponent turns away to defend the pass
+- [[Transitions/Back Take from Top]] - Transition option when opponent turns away to defend the pass
 
-- [[Flattened Half Guard]] - Intermediate state created by successful pressure application
+- [[Positions/Half Guard/Flattened Half Guard]] - Intermediate state created by successful pressure application
 
-- [[Body Lock]] - Control position that defines the grip configuration for this pass
+- [[Positions/Body Lock]] - Control position that defines the grip configuration for this pass
 
 
 </section>

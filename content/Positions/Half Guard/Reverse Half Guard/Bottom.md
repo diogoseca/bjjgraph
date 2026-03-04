@@ -209,25 +209,25 @@ This position is more common in advanced BJJ and no-gi grappling where mobility 
 
 ## Available Escapes
 
-### [[Old School Sweep]] (9% of attempts)
+### [[Transitions/Old School Sweep]] (9% of attempts)
 
-### [[Half Guard to Back Take]] (41% of attempts)
+### [[Transitions/Half Guard to Back Take]] (41% of attempts)
 
-### [[Underhook Sweep from Half]] (7% of attempts)
+### [[Transitions/Underhook Sweep from Half]] (7% of attempts)
 
-### [[Deep Half Entry]] (9% of attempts)
+### [[Transitions/Deep Half Entry]] (9% of attempts)
 
-### [[Half Guard Recovery]] (13% of attempts)
+### [[Transitions/Half Guard Recovery]] (13% of attempts)
 
-### [[Kimura Sweep]] (9% of attempts)
+### [[Transitions/Kimura Sweep]] (9% of attempts)
 
-### [[Guard Recovery from Reverse Half Guard]] (7% of attempts)
+### [[Transitions/Guard Recovery from Reverse Half Guard]] (7% of attempts)
 
-### [[Escape Reverse Half Guard]] (3% of attempts)
+### [[Transitions/Escape Reverse Half Guard]] (3% of attempts)
 
-### [[Invert from Reverse Half Guard]] (1% of attempts)
+### [[Transitions/Invert from Reverse Half Guard]] (1% of attempts)
 
-### [[Sweep from Reverse Half Guard]] (1% of attempts)
+### [[Transitions/Sweep from Reverse Half Guard]] (1% of attempts)
 
 
 
@@ -238,23 +238,23 @@ This position is more common in advanced BJJ and no-gi grappling where mobility 
 ## Decision Making from This Position
 
 **If opponent drives forward with heavy chest pressure attempting to flatten and control:**
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 50%)
 
 
 **If opponent posts hand on mat to establish base and prevent rotation:**
-- Execute **[[Old School Sweep]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent attempts to extract trapped leg or backs away to create distance:**
-- Execute **[[Butterfly Hook Recovery]]** → [[Half Guard]] (Probability: 65%)
-- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 40%)
+- Execute **[[Transitions/Butterfly Hook Recovery]]** → [[Positions/Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 40%)
 
 
 **If opponent reaches for back control with hooks or seat belt grip:**
-- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 50%)
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 
@@ -388,15 +388,15 @@ Start in reverse half with partner attempting to pass. Practice recovering to st
 
 ## Related Positions and Techniques
 
-- **[[Half Guard]]** - Base position before inversion
-- **[[Dogfight Position]]** - Common transition target from reverse half
-- **[[Back Control]]** - Primary offensive target via rolling back take
-- **[[Deep Half Guard]]** - Alternative guard retention option
-- **[[Truck]]** - Advanced transition for back attack system
-- **[[Old School]]** - Sweep setup position from reverse half
-- **[[Combat Base]]** - Opponent's typical defensive posture
-- **[[Lockdown]]** - Related half guard variation with inverted elements
-- **[[Scramble Position]]** - Transitional state where reverse half commonly occurs
+- **[[Positions/Half Guard]]** - Base position before inversion
+- **[[Positions/Dogfight Position]]** - Common transition target from reverse half
+- **[[Positions/Back Control]]** - Primary offensive target via rolling back take
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative guard retention option
+- **[[Positions/Twister Control/Truck]]** - Advanced transition for back attack system
+- **[[Positions/Half Guard/Old School]]** - Sweep setup position from reverse half
+- **[[Positions/Combat Base]]** - Opponent's typical defensive posture
+- **[[Positions/Half Guard/Lockdown]]** - Related half guard variation with inverted elements
+- **[[Positions/Scramble Position]]** - Transitional state where reverse half commonly occurs
 
 
 </section>

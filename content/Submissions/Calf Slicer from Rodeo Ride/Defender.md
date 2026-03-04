@@ -148,7 +148,7 @@ description: "Defend the Calf Slicer from Rodeo Ride in BJJ. Recognition cues, e
 
 Defending the Calf Slicer from Rodeo Ride requires immediate recognition of the leg threading attempt and rapid response to prevent the compression lock from being established. The defender's primary goal is to straighten the targeted leg before the attacker can secure the figure-four configuration, denying the mechanical advantage needed to finish the submission. When prevention fails, the defender must manage the compression by rolling toward the attacker to reduce pressure while working to extract the trapped leg. Understanding the progression from rodeo ride to calf slicer entry is critical—the earlier the defense begins in the attack sequence, the higher the probability of successful escape. The defense integrates with broader turtle defense principles: constant movement, grip fighting, and awareness of the attacker's weight distribution all contribute to preventing the calf slicer entry from developing.
 
-**Opponent's Starting Position**: [[Rodeo Ride]] (Top)
+**Opponent's Starting Position**: [[Positions/Rodeo Ride]] (Top)
 
 
 </section>
@@ -187,28 +187,28 @@ Defending the Calf Slicer from Rodeo Ride requires immediate recognition of the 
 ### 1. Immediately straighten the targeted leg by driving the foot backward and extending the knee
 
 - **When to use**: As soon as you feel the attacker's shin beginning to thread behind your knee, before the figure-four is locked
-- **Targets**: [[Rodeo Ride]]
+- **Targets**: [[Positions/Rodeo Ride]]
 - **If successful**: The attacker cannot establish the compression lock and must return to rodeo ride control without the submission threat
 - **Risk**: Straightening the leg may create space between your hips and the mat, potentially allowing the attacker to insert hooks for back control
 
 ### 2. Roll aggressively toward the attacker to collapse the compression angle and create a scramble
 
 - **When to use**: When the shin is already threaded and figure-four is being established—too late to straighten the leg
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: The roll disrupts the attacker's base and compression angle, creating opportunity to extract the trapped leg during the scramble
 - **Risk**: If the roll is poorly timed, the attacker can follow and the figure-four may tighten during rotation
 
 ### 3. Sit through explosively toward the opposite side to recover half guard
 
 - **When to use**: When the attacker commits their legs to the calf slicer, reducing their upper body control and base stability
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Escape to half guard where you can recover a guard position and neutralize the leg attack entirely
 - **Risk**: The sit-through requires explosive movement and if the attacker maintains upper body control, you may end up in a worse position
 
 ### 4. Use the free leg to push off the attacker's hip and create space to extract the trapped leg
 
 - **When to use**: When the figure-four is partially established but the foot control is not yet secured
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Creating space allows you to straighten the trapped leg or extract it from the figure-four before the finish can be applied
 - **Risk**: Committing the free leg to pushing may reduce your base stability and ability to roll or scramble
 
@@ -232,11 +232,11 @@ Defending the Calf Slicer from Rodeo Ride requires immediate recognition of the 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Execute an explosive sit-through to the side opposite the calf slicer entry while the attacker's base is compromised. Thread your legs between you and the attacker to establish half guard, which completely neutralizes the leg attack and recovers a defensive guard position.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Roll toward the attacker to disrupt the figure-four and compression angle, then use the scramble to extract the trapped leg and return to basic turtle defense. While still a defensive position, basic turtle is significantly better than being locked in a calf slicer.
 

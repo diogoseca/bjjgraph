@@ -146,7 +146,7 @@ description: "Defend against the Lapel Strip from Worm Guard. Guide to maintaini
 
 The Lapel Strip from Worm Guard Defender represents the worm guard bottom player's perspective when the top player attempts to systematically remove the lapel wrap that defines the position. Defending against the strip is fundamental to maintaining worm guard viability, as losing the lapel connection collapses the entire guard structure into a standard open guard with reduced offensive options. The defender must balance between actively reinforcing the lapel tension, threatening sweeps to punish the stripping attempt, and recognizing when to transition to alternative guards if the strip partially succeeds. Understanding the strip mechanics from the defender's perspective reveals critical timing windows where the top player is most vulnerable to sweeps and counter-attacks during their grip fighting commitment.
 
-**Opponent's Starting Position**: [[Worm Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Worm Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ The Lapel Strip from Worm Guard Defender represents the worm guard bottom player
 ### 1. Reinforce lapel grip with second hand and increase tension to resist the strip
 
 - **When to use**: Immediately when you recognize the top player is targeting your lapel grip with a two-on-one break
-- **Targets**: [[Worm Guard]]
+- **Targets**: [[Positions/Worm Guard]]
 - **If successful**: Top player's strip attempt fails and they remain stuck in your worm guard with compromised base from the grip fighting effort
 - **Risk**: Committing second hand to lapel reinforcement temporarily reduces your ability to threaten sweeps and attacks
 
 ### 2. Execute a sweep while both of the top player's hands are committed to grip fighting the lapel
 
 - **When to use**: When the top player commits both hands to the lapel strip and their base narrows or weight shifts forward creating an opening
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You sweep the top player and establish top position, converting their passing preparation into your scoring opportunity
 - **Risk**: If the sweep fails while your grip is weakened from the struggle, the top player may complete the strip during your recovery
 
 ### 3. Immediately re-feed the lapel after a partial strip before the top player secures the freed material
 
 - **When to use**: The moment the top player breaks your grip but before they have pulled the lapel completely free from under their leg or secured it
-- **Targets**: [[Worm Guard]]
+- **Targets**: [[Positions/Worm Guard]]
 - **If successful**: You re-establish full worm guard control, forcing the top player to restart the entire stripping sequence from the beginning
 - **Risk**: The top player anticipates the re-feed and controls the lapel material, preventing re-establishment permanently
 
 ### 4. Transition to lasso guard or spider guard using remaining grips before complete lapel loss
 
 - **When to use**: When you recognize the lapel control is significantly compromised and re-feeding is unlikely to succeed in time
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You maintain a viable guard position with active leg and grip control despite losing the worm guard configuration
 - **Risk**: The transition window is narrow and the top player may initiate a fast pass during the guard change
 
@@ -217,11 +217,11 @@ The Lapel Strip from Worm Guard Defender represents the worm guard bottom player
 
 ## Best-Case Outcomes for Defender
 
-### → [[Worm Guard]]
+### → [[Positions/Worm Guard]]
 
 Maintain constant tension on the lapel wrap and reinforce with your second hand when the strip is detected. Use your free leg to push the top player's hips back, making it harder for them to reach your grip. Monitor the lapel path and immediately tighten any slack that develops. Force the top player to abandon the strip by making sweep threats too dangerous to ignore.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Time your sweep attempt for the exact moment both of the top player's hands are committed to grip fighting the lapel. Their base is at its weakest when fully occupied with the strip. Use hip movement and the remaining lapel tension as a lever to off-balance them in the direction their compromised base cannot recover. The sweep is most effective when they lean forward to reach the grip.
 

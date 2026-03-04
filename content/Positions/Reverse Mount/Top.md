@@ -209,21 +209,21 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 ## Available Attacks
 
-### [[Side Control to Mount]] (43% of attempts)
+### [[Transitions/Side Control to Mount]] (43% of attempts)
 
-### [[Back Take]] (26% of attempts)
+### [[Transitions/Back Take]] (26% of attempts)
 
-### [[Mount to Armbar]] (12% of attempts)
+### [[Transitions/Mount to Armbar]] (12% of attempts)
 
-### [[Turtle to Truck]] (7% of attempts)
+### [[Transitions/Turtle to Truck]] (7% of attempts)
 
-### [[Side Control to North-South]] (7% of attempts)
+### [[Transitions/Side Control to North-South]] (7% of attempts)
 
-### [[Reverse Mount to Mount]] (3% of attempts)
+### [[Transitions/Reverse Mount to Mount]] (3% of attempts)
 
-### [[Reverse Mount to Side Control]] (1% of attempts)
+### [[Transitions/Reverse Mount to Side Control]] (1% of attempts)
 
-### [[Armbar from Reverse Mount]] (1% of attempts)
+### [[Transitions/Armbar from Reverse Mount]] (1% of attempts)
 
 
 
@@ -234,23 +234,23 @@ The position's main strategic value is as a stepping stone rather than a destina
 ## Decision Making from This Position
 
 **If opponent is relatively flat and not actively defending, assess back control opportunity:**
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 70%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
 
 
 **If opponent begins to bridge or create upward pressure through hips:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 75%)
-- Execute **[[Side Control to Mount]]** → [[S Mount]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 75%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount/S Mount]] (Probability: 60%)
 
 
 **If opponent turns to either side attempting hip escape:**
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 50%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
 
 
 **If opponent extends arm in defensive reaction or attempts to push:**
-- Execute **[[Mount to Armbar]]** → [[Armbar Control]] (Probability: 55%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 65%)
+- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
 
 
 
@@ -384,14 +384,14 @@ Start from various scramble positions (failed back take, turtle transitions, mou
 
 ## Related Positions and Techniques
 
-- **[[Mount]]** - Primary progression - standard mount is superior position and natural transition from reverse mount
-- **[[Back Control]]** - Superior progression - reverse mount provides excellent back take opportunities via hook insertion
-- **[[S Mount]]** - Advanced variation - high mount position accessible from reverse mount for armbar setups
-- **[[Technical Mount]]** - Related controlling position - similar point value with different control mechanics
-- **[[Truck]]** - Transition target - reverse mount can flow to truck for twister attacks
-- **[[North-South]]** - Alternative transition - reverse mount can transition to north-south when opponent creates certain angles
-- **[[Armbar Control]]** - Submission option - reverse mount provides armbar opportunities when opponent extends arms
-- **[[Crucifix]]** - Related control position - similar backward orientation with arm control focus
+- **[[Positions/Mount]]** - Primary progression - standard mount is superior position and natural transition from reverse mount
+- **[[Positions/Back Control]]** - Superior progression - reverse mount provides excellent back take opportunities via hook insertion
+- **[[Positions/Mount/S Mount]]** - Advanced variation - high mount position accessible from reverse mount for armbar setups
+- **[[Positions/Mount/Technical Mount]]** - Related controlling position - similar point value with different control mechanics
+- **[[Positions/Twister Control/Truck]]** - Transition target - reverse mount can flow to truck for twister attacks
+- **[[Positions/North-South]]** - Alternative transition - reverse mount can transition to north-south when opponent creates certain angles
+- **[[Positions/Armbar Control]]** - Submission option - reverse mount provides armbar opportunities when opponent extends arms
+- **[[Positions/Crucifix]]** - Related control position - similar backward orientation with arm control focus
 
 
 </section>

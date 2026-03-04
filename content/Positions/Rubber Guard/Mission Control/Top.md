@@ -214,23 +214,23 @@ Energy management from Mission Control top is critical for successful escape. Wh
 
 ## Available Attacks
 
-### [[Posture Recovery]] (15% of attempts)
+### [[Transitions/Posture Recovery]] (15% of attempts)
 
-### [[Arm Extraction and Pass]] (13% of attempts)
+### [[Transitions/Arm Extraction and Pass]] (13% of attempts)
 
-### [[Stack Defense]] (13% of attempts)
+### [[Transitions/Stack Defense]] (13% of attempts)
 
-### [[Standing up in Base]] (30% of attempts)
+### [[Transitions/Standing up in Base]] (30% of attempts)
 
-### [[Arm Extraction]] (12% of attempts)
+### [[Transitions/Arm Extraction]] (12% of attempts)
 
-### [[Guard Opening Sequence]] (10% of attempts)
+### [[Transitions/Guard Opening Sequence]] (10% of attempts)
 
-### [[Posture Break from Mission Control]] (4% of attempts)
+### [[Transitions/Posture Break from Mission Control]] (4% of attempts)
 
-### [[Stack Pass from Mission Control]] (2% of attempts)
+### [[Transitions/Stack Pass from Mission Control]] (2% of attempts)
 
-### [[Posture Recovery from Mission Control]] (1% of attempts)
+### [[Transitions/Posture Recovery from Mission Control]] (1% of attempts)
 
 
 
@@ -241,23 +241,23 @@ Energy management from Mission Control top is critical for successful escape. Wh
 ## Decision Making from This Position
 
 **Bottom practitioner has full Mission Control with shoulder isolated, posture broken, and high guard locked:**
-- Execute **[[Posture Recovery]]** → [[Closed Guard]] (Probability: 35%)
-- Execute **[[Stack Defense]]** → [[Headquarters Position]] (Probability: 32%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Stack Defense]]** → [[Positions/Headquarters Position]] (Probability: 32%)
 
 
 **Bottom practitioner is threatening triangle choke by starting to bring leg across face:**
-- Execute **[[Stack Defense]]** → [[Headquarters Position]] (Probability: 45%)
-- Execute **[[Arm Extraction]]** → [[Open Guard]] (Probability: 28%)
+- Execute **[[Transitions/Stack Defense]]** → [[Positions/Headquarters Position]] (Probability: 45%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Open Guard]] (Probability: 28%)
 
 
 **Bottom practitioner's hip elevation begins to drop or grip control relaxes:**
-- Execute **[[Posture Recovery]]** → [[Closed Guard]] (Probability: 50%)
-- Execute **[[Standing up in Base]]** → [[Standing Guard]] (Probability: 48%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Guard]] (Probability: 48%)
 
 
 **Trapped arm is successfully extracted and shoulder isolation is eliminated:**
-- Execute **[[Arm Extraction and Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Guard Opening Sequence]]** → [[Combat Base]] (Probability: 42%)
+- Execute **[[Transitions/Arm Extraction and Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Guard Opening Sequence]]** → [[Positions/Combat Base]] (Probability: 42%)
 
 
 
@@ -403,15 +403,15 @@ Partner establishes Mission Control. Top person practices standing to break cont
 
 ## Related Positions and Techniques
 
-- **[[Rubber Guard]]** - Parent system - understanding rubber guard helps defend Mission Control
-- **[[Closed Guard]]** - Escape destination - recovering to neutral closed guard is primary defensive goal
-- **[[Triangle Control]]** - Primary threat - must defend triangle throughout entire escape sequence
-- **[[Omoplata Control]]** - Secondary threat - becomes primary when arm extraction is attempted
-- **[[Headquarters Position]]** - Counter position - stacking pressure can lead to this passing position
-- **[[Open Guard]]** - Alternative escape destination - arm extraction often leads here
-- **[[Side Control]]** - Passing destination - successful escape often leads directly to passing opportunity
-- **[[New York]]** - Advanced threat - bottom practitioner may transition to this when initial Mission Control is defended
-- **[[Combat Base]]** - Escape destination - stable position for initiating guard passing after escape
+- **[[Positions/Rubber Guard]]** - Parent system - understanding rubber guard helps defend Mission Control
+- **[[Positions/Closed Guard]]** - Escape destination - recovering to neutral closed guard is primary defensive goal
+- **[[Positions/Triangle Control]]** - Primary threat - must defend triangle throughout entire escape sequence
+- **[[Positions/Omoplata Control]]** - Secondary threat - becomes primary when arm extraction is attempted
+- **[[Positions/Headquarters Position]]** - Counter position - stacking pressure can lead to this passing position
+- **[[Positions/Open Guard]]** - Alternative escape destination - arm extraction often leads here
+- **[[Positions/Side Control]]** - Passing destination - successful escape often leads directly to passing opportunity
+- **[[Positions/Rubber Guard/New York]]** - Advanced threat - bottom practitioner may transition to this when initial Mission Control is defended
+- **[[Positions/Combat Base]]** - Escape destination - stable position for initiating guard passing after escape
 
 
 </section>

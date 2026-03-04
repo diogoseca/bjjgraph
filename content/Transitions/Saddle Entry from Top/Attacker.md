@@ -184,7 +184,7 @@ This entry serves as a cornerstone of modern leg lock methodology and has revolu
 
 The technique requires precise timing, spatial awareness, and the ability to recognize leg entanglement opportunities during passing sequences. Success depends on controlling the opponent's near leg while stepping over to secure the saddle configuration. When executed correctly, this entry creates a dominant position with minimal escape options for the opponent.
 
-**From Position**: [[Headquarters Position]] (Top)
+**From Position**: [[Positions/Headquarters Position]] (Top)
 
 </section>
 
@@ -238,9 +238,9 @@ The technique requires precise timing, spatial awareness, and the ability to rec
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Saddle]] | 55% |
-| Failure | [[Headquarters Position]] | 30% |
-| Counter | [[Headquarters Position]] | 15% |
+| Success | [[Positions/Ashi Garami/Saddle]] | 55% |
+| Failure | [[Positions/Headquarters Position]] | 30% |
+| Counter | [[Positions/Headquarters Position]] | 15% |
 
 
 </section>
@@ -249,11 +249,11 @@ The technique requires precise timing, spatial awareness, and the ability to rec
 
 ## Opponent Counters
 
-- **Opponent retracts near leg immediately upon contact** (Effectiveness: High) - Your Response: Follow their leg retraction and switch to alternative passing position or pursue different leg entanglement entries such as Outside Ashi or 50-50. Can also use their retraction to advance to better passing position. → Leads to [[Headquarters Position]]
-- **Opponent brings far leg over to clear knee line and prevent entanglement** (Effectiveness: High) - Your Response: Capture the incoming far leg with your outside arm and transition to alternative ashi garami entry. Alternatively, use the moment they lift their far leg to advance into side control if they overcommit to the defense. → Leads to [[Headquarters Position]]
-- **Opponent sits up aggressively during step-over to attack upper body** (Effectiveness: Medium) - Your Response: Maintain connection to their controlled leg and use their forward momentum to facilitate the entry. Can also abandon saddle entry temporarily to address upper body control, then return to leg entanglement from improved position. → Leads to [[Headquarters Position]]
-- **Opponent straightens controlled leg explosively to prevent step-over** (Effectiveness: Medium) - Your Response: Use the leg extension to transition to straight ankle lock or outside ashi garami position. Their attempt to straighten actually exposes their leg to different attack angles. → Leads to [[Headquarters Position]]
-- **Opponent inverts or rolls through to escape entanglement** (Effectiveness: Low) - Your Response: Follow their rotation while maintaining leg control, often ending in advantageous back attack position or top saddle. Their inversion can be used against them if you maintain connection throughout. → Leads to [[Saddle]]
+- **Opponent retracts near leg immediately upon contact** (Effectiveness: High) - Your Response: Follow their leg retraction and switch to alternative passing position or pursue different leg entanglement entries such as Outside Ashi or 50-50. Can also use their retraction to advance to better passing position. → Leads to [[Positions/Headquarters Position]]
+- **Opponent brings far leg over to clear knee line and prevent entanglement** (Effectiveness: High) - Your Response: Capture the incoming far leg with your outside arm and transition to alternative ashi garami entry. Alternatively, use the moment they lift their far leg to advance into side control if they overcommit to the defense. → Leads to [[Positions/Headquarters Position]]
+- **Opponent sits up aggressively during step-over to attack upper body** (Effectiveness: Medium) - Your Response: Maintain connection to their controlled leg and use their forward momentum to facilitate the entry. Can also abandon saddle entry temporarily to address upper body control, then return to leg entanglement from improved position. → Leads to [[Positions/Headquarters Position]]
+- **Opponent straightens controlled leg explosively to prevent step-over** (Effectiveness: Medium) - Your Response: Use the leg extension to transition to straight ankle lock or outside ashi garami position. Their attempt to straighten actually exposes their leg to different attack angles. → Leads to [[Positions/Headquarters Position]]
+- **Opponent inverts or rolls through to escape entanglement** (Effectiveness: Low) - Your Response: Follow their rotation while maintaining leg control, often ending in advantageous back attack position or top saddle. Their inversion can be used against them if you maintain connection throughout. → Leads to [[Positions/Ashi Garami/Saddle]]
 
 
 </section>

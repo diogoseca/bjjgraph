@@ -186,7 +186,7 @@ description: "Execute the hip escape from cross body ride in BJJ. Step-by-step g
 
 The attacker perspective for the Hip Escape from Cross Body Ride covers the execution of this escape from the bottom player's viewpoint. The bottom player must establish defensive frames, time the explosive shrimping motion, and complete the recovery to an improved position. Success depends on reading the top player's pressure patterns and exploiting weight transitions to generate lateral space. The technique requires combining structural framing with explosive hip mechanics while maintaining neck protection throughout the entire escape sequence. Mastery involves developing the ability to chain multiple escape attempts fluidly, preventing the top player from ever re-settling into heavy control.
 
-**From Position**: [[Cross Body Ride]] (Bottom)
+**From Position**: [[Positions/Cross Body Ride]] (Bottom)
 
 </section>
 
@@ -240,10 +240,10 @@ The attacker perspective for the Hip Escape from Cross Body Ride covers the exec
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 40% |
-| Success | [[Half Guard]] | 10% |
-| Failure | [[Cross Body Ride]] | 30% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Turtle]] | 40% |
+| Success | [[Positions/Half Guard]] | 10% |
+| Failure | [[Positions/Cross Body Ride]] | 30% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -252,10 +252,10 @@ The attacker perspective for the Hip Escape from Cross Body Ride covers the exec
 
 ## Opponent Counters
 
-- **Top player drives weight forward immediately to re-flatten and re-establish ride** (Effectiveness: High) - Your Response: If you feel the weight re-settling before you complete the escape, immediately redirect to a sit-out or granby roll. The forward pressure commitment opens rotational escape pathways that lateral shrimping cannot access. → Leads to [[Cross Body Ride]]
-- **Top player follows hip movement laterally to maintain perpendicular angle** (Effectiveness: Medium) - Your Response: Chain a second hip escape in the same direction before they can fully re-settle, or sharply change direction to exploit their lateral momentum. An opponent moving laterally cannot simultaneously drive weight downward. → Leads to [[Cross Body Ride]]
-- **Top player abandons ride to secure seatbelt and insert hooks for back control** (Effectiveness: High) - Your Response: Immediately switch to hand fighting, targeting the choking hand first. If hooks begin entering, prioritize stripping the near-side hook while keeping your hips mobile. Transition to back escape protocols rather than continuing the hip escape. → Leads to [[Back Control]]
-- **Top player strips your framing arm and pins it to eliminate the escape lever** (Effectiveness: Medium) - Your Response: Switch to the opposite arm for framing or use your elbow as a bone-on-bone wedge against their hip which is much harder to strip. If both arms are compromised, redirect to an explosive sit-through or granby roll. → Leads to [[Cross Body Ride]]
+- **Top player drives weight forward immediately to re-flatten and re-establish ride** (Effectiveness: High) - Your Response: If you feel the weight re-settling before you complete the escape, immediately redirect to a sit-out or granby roll. The forward pressure commitment opens rotational escape pathways that lateral shrimping cannot access. → Leads to [[Positions/Cross Body Ride]]
+- **Top player follows hip movement laterally to maintain perpendicular angle** (Effectiveness: Medium) - Your Response: Chain a second hip escape in the same direction before they can fully re-settle, or sharply change direction to exploit their lateral momentum. An opponent moving laterally cannot simultaneously drive weight downward. → Leads to [[Positions/Cross Body Ride]]
+- **Top player abandons ride to secure seatbelt and insert hooks for back control** (Effectiveness: High) - Your Response: Immediately switch to hand fighting, targeting the choking hand first. If hooks begin entering, prioritize stripping the near-side hook while keeping your hips mobile. Transition to back escape protocols rather than continuing the hip escape. → Leads to [[Positions/Back Control]]
+- **Top player strips your framing arm and pins it to eliminate the escape lever** (Effectiveness: Medium) - Your Response: Switch to the opposite arm for framing or use your elbow as a bone-on-bone wedge against their hip which is much harder to strip. If both arms are compromised, redirect to an explosive sit-through or granby roll. → Leads to [[Positions/Cross Body Ride]]
 
 
 </section>

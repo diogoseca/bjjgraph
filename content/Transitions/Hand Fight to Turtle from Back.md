@@ -21,7 +21,7 @@ The technique operates on the principle that turtle, while still requiring activ
 
 This transition integrates tightly with the broader back escape system, serving as a middle-ground option between the back door escape aimed at guard recovery and the shoulder walk escape targeting standing. The hand fight to turtle approach is particularly effective when the opponent has strong leg control through deep hooks or body triangle, making full guard recovery impractical, but their upper body control can be systematically stripped through persistent grip fighting. The counter risk involves the opponent following the rotation to take mount, making it critical to time the turn correctly and establish proper turtle defense immediately upon arriving.
 
-**From Position**: [[Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition integrates tightly with the broader back escape system, serving 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ Hand Fight to Turtle from Back occupies a central role in the defensive hierarch
 ## Related Techniques
 
 
-- [[Back Control]] - Starting position where this escape sequence begins
+- [[Positions/Back Control]] - Starting position where this escape sequence begins
 
-- [[Turtle]] - Target position achieved after successful hand fighting and rotation
+- [[Positions/Turtle]] - Target position achieved after successful hand fighting and rotation
 
-- [[Seat Belt Control Back]] - Common back control configuration requiring specific grip stripping approach
+- [[Positions/Back Control/Seat Belt Control Back]] - Common back control configuration requiring specific grip stripping approach
 
-- [[Body Triangle]] - Back control variation that modifies the escape methodology
+- [[Positions/Back Control/Body Triangle]] - Back control variation that modifies the escape methodology
 
-- [[Mount]] - Risk position if opponent follows rotation and counters the escape
+- [[Positions/Mount]] - Risk position if opponent follows rotation and counters the escape
 
-- [[Back Door Escape]] - Alternative back escape targeting guard recovery rather than turtle
+- [[Transitions/Back Door Escape]] - Alternative back escape targeting guard recovery rather than turtle
 
-- [[Elbow Escape from Back]] - Complementary escape technique that can chain with hand fighting
+- [[Transitions/Elbow Escape from Back]] - Complementary escape technique that can chain with hand fighting
 
-- [[Escape Seat Belt Control]] - Related grip stripping technique specifically addressing seatbelt configuration
+- [[Transitions/Escape Seat Belt Control]] - Related grip stripping technique specifically addressing seatbelt configuration
 
-- [[Body Triangle Escape to Half Guard]] - Alternative escape route when body triangle prevents turtle rotation
+- [[Transitions/Body Triangle Escape to Half Guard]] - Alternative escape route when body triangle prevents turtle rotation
 
-- [[Back Control Maintenance]] - Opponent's retention technique that this escape must overcome
+- [[Transitions/Back Control Maintenance]] - Opponent's retention technique that this escape must overcome
 
 
 </section>

@@ -21,7 +21,7 @@ The strategic value of this escape lies in its reliability as a guard recovery t
 
 This technique is particularly effective when the front headlock holder has committed their weight forward or is transitioning between attacks, creating momentary gaps in their pressure. The practitioner must develop sensitivity to these timing windows through drilling and live training, as attempting the hip escape against a settled, heavy opponent significantly reduces success probability. Chain this escape with sit-throughs and granby rolls to create a comprehensive front headlock escape system that prevents the opponent from shutting down any single escape path.
 
-**From Position**: [[Front Headlock]] (Bottom)
+**From Position**: [[Positions/Front Headlock]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ This technique is particularly effective when the front headlock holder has comm
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Failure | [[Front Headlock]] | 30% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Failure | [[Positions/Front Headlock]] | 30% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -197,25 +197,25 @@ The hip escape from front headlock occupies a critical defensive role in the fro
 ## Related Techniques
 
 
-- [[Front Headlock]] - Starting position - this escape addresses the front headlock bottom predicament
+- [[Positions/Front Headlock]] - Starting position - this escape addresses the front headlock bottom predicament
 
-- [[Closed Guard]] - Primary target position after successful hip escape and guard recovery
+- [[Positions/Closed Guard]] - Primary target position after successful hip escape and guard recovery
 
-- [[Side Control]] - Risk position if opponent counters the hip escape by advancing
+- [[Positions/Side Control]] - Risk position if opponent counters the hip escape by advancing
 
-- [[Guillotine Escape via Posture]] - Alternative escape when opponent commits to guillotine from front headlock
+- [[Transitions/Guillotine Escape via Posture]] - Alternative escape when opponent commits to guillotine from front headlock
 
-- [[Frame and Posture from Anaconda]] - Related defensive framing concept against front headlock choke threats
+- [[Transitions/Frame and Posture from Anaconda]] - Related defensive framing concept against front headlock choke threats
 
-- [[Hip Escape from Cross Body Ride]] - Similar hip escape mechanics applied from a different control position
+- [[Transitions/Hip Escape from Cross Body Ride]] - Similar hip escape mechanics applied from a different control position
 
-- [[Turtle]] - Common position preceding front headlock situations where this escape becomes relevant
+- [[Positions/Turtle]] - Common position preceding front headlock situations where this escape becomes relevant
 
-- [[Back Control]] - Dangerous position to avoid if hip escape is executed poorly or too late
+- [[Positions/Back Control]] - Dangerous position to avoid if hip escape is executed poorly or too late
 
-- [[Elbow Escape from Mount]] - Shares fundamental shrimping mechanics used in this hip escape technique
+- [[Transitions/Elbow Escape from Mount]] - Shares fundamental shrimping mechanics used in this hip escape technique
 
-- [[Arm Drag Escape]] - Alternative escape method from front headlock using arm drag principles
+- [[Transitions/Arm Drag Escape]] - Alternative escape method from front headlock using arm drag principles
 
 
 </section>

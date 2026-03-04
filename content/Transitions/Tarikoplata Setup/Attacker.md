@@ -190,7 +190,7 @@ Strategically, the Tarikoplata Setup occupies a unique position in the Meathook 
 
 The technique requires precise sequencing: the shin must clear the shoulder line, the hip pivot must create omoplata angle, and the wrist grip must be established before releasing any Meathook control. Rushing any phase collapses the attack. For purple and brown belt practitioners, the Tarikoplata represents the deeper submission layer of Rubber Guard—where basic position chains evolve into compound locks that attack multiple joint structures simultaneously.
 
-**From Position**: [[Meathook]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
 
 </section>
 
@@ -244,9 +244,9 @@ The technique requires precise sequencing: the shin must clear the shoulder line
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Omoplata Control]] | 55% |
-| Failure | [[Meathook]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Omoplata Control]] | 55% |
+| Failure | [[Positions/Rubber Guard/Meathook]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -255,10 +255,10 @@ The technique requires precise sequencing: the shin must clear the shoulder line
 
 ## Opponent Counters
 
-- **Explosive posture recovery before wrist grip is established, pulling head up and straightening spine** (Effectiveness: High) - Your Response: If they posture before wrist control, immediately transition to Triangle Setup—their upward movement creates the angle for leg across neck. The omoplata leg position is already halfway to triangle configuration. → Leads to [[Meathook]]
-- **Rolling forward through the omoplata position to relieve shoulder pressure** (Effectiveness: Low) - Your Response: The wrist control specifically prevents this escape. Maintain wrist rotation while following their roll with your hips. Their roll momentum under wrist control typically forces immediate tap from accelerated shoulder torque. → Leads to [[Omoplata Control]]
-- **Straightening the trapped arm to prevent omoplata angle from locking** (Effectiveness: Medium) - Your Response: A straightened arm opens the Armbar from Guard directly. Use your leg position over their shoulder as initial control and transition to standard armbar mechanics. Their defense to the Tarikoplata becomes the entry for the armbar. → Leads to [[Meathook]]
-- **Stacking forward with bodyweight to collapse the attack angle and compress bottom player** (Effectiveness: Medium) - Your Response: Forward stacking drives them into Gogoplata range. Release the Tarikoplata attempt and reposition your shin across their throat. Their defensive pressure accelerates the choke setup—the Meathook system punishes every direction of movement. → Leads to [[Closed Guard]]
+- **Explosive posture recovery before wrist grip is established, pulling head up and straightening spine** (Effectiveness: High) - Your Response: If they posture before wrist control, immediately transition to Triangle Setup—their upward movement creates the angle for leg across neck. The omoplata leg position is already halfway to triangle configuration. → Leads to [[Positions/Rubber Guard/Meathook]]
+- **Rolling forward through the omoplata position to relieve shoulder pressure** (Effectiveness: Low) - Your Response: The wrist control specifically prevents this escape. Maintain wrist rotation while following their roll with your hips. Their roll momentum under wrist control typically forces immediate tap from accelerated shoulder torque. → Leads to [[Positions/Omoplata Control]]
+- **Straightening the trapped arm to prevent omoplata angle from locking** (Effectiveness: Medium) - Your Response: A straightened arm opens the Armbar from Guard directly. Use your leg position over their shoulder as initial control and transition to standard armbar mechanics. Their defense to the Tarikoplata becomes the entry for the armbar. → Leads to [[Positions/Rubber Guard/Meathook]]
+- **Stacking forward with bodyweight to collapse the attack angle and compress bottom player** (Effectiveness: Medium) - Your Response: Forward stacking drives them into Gogoplata range. Release the Tarikoplata attempt and reposition your shin across their throat. Their defensive pressure accelerates the choke setup—the Meathook system punishes every direction of movement. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

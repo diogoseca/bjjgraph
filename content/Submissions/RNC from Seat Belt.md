@@ -26,8 +26,8 @@ Competition data across all rulesets consistently identifies the RNC from back c
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Neck - Carotid Arteries
-**Starting Position**: [[Seat Belt Control Back]]
-**From Position**: [[Seat Belt Control Back]] (Top)
+**Starting Position**: [[Positions/Back Control/Seat Belt Control Back]]
+**From Position**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -76,8 +76,8 @@ Competition data across all rulesets consistently identifies the RNC from back c
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Seat Belt Control Back]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Failure | [[Positions/Back Control/Seat Belt Control Back]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -225,9 +225,9 @@ Competition data across all rulesets consistently identifies the RNC from back c
 
 ## From Which Positions?
 
-- [[Seat Belt Control Back]]
-- [[Back Control]]
-- [[Body Triangle]]
+- [[Positions/Back Control/Seat Belt Control Back]]
+- [[Positions/Back Control]]
+- [[Positions/Back Control/Body Triangle]]
 
 
 </section>
@@ -236,11 +236,11 @@ Competition data across all rulesets consistently identifies the RNC from back c
 
 ## Related Submissions
 
-- [[Bow and Arrow from Seat Belt]]
-- [[Body Triangle RNC]]
-- [[Armbar from Back]]
-- [[Armbar from Back with Legs]]
-- [[Choke from Crucifix]]
+- [[Submissions/Bow and Arrow from Seat Belt]]
+- [[Submissions/Body Triangle RNC]]
+- [[Submissions/Armbar from Back]]
+- [[Submissions/Armbar from Back with Legs]]
+- [[Transitions/Choke from Crucifix]]
 
 
 </section>
@@ -249,13 +249,13 @@ Competition data across all rulesets consistently identifies the RNC from back c
 
 ## Additional Related Content
 
-- [[Seat Belt Control Back]] - Primary starting position providing the grip configuration that enables smooth transition to RNC attack
-- [[Back Control]] - Parent positional framework from which all back submissions including the RNC are launched
-- [[Body Triangle]] - Alternative lower body control that enhances RNC finishing rates by eliminating hip escape defense
-- [[Bow and Arrow from Seat Belt]] - Alternative choke from the same position that creates offensive cycling when RNC is defended
-- [[Armbar from Back]] - Primary alternative submission when opponent over-commits both hands to neck defense against RNC
-- [[Crucifix]] - Transition target when opponent exposes arms during RNC defense, enabling undefended choke attacks
-- [[Turtle]] - Common position defender may escape to if back control is compromised during RNC attempt
+- [[Positions/Back Control/Seat Belt Control Back]] - Primary starting position providing the grip configuration that enables smooth transition to RNC attack
+- [[Positions/Back Control]] - Parent positional framework from which all back submissions including the RNC are launched
+- [[Positions/Back Control/Body Triangle]] - Alternative lower body control that enhances RNC finishing rates by eliminating hip escape defense
+- [[Submissions/Bow and Arrow from Seat Belt]] - Alternative choke from the same position that creates offensive cycling when RNC is defended
+- [[Submissions/Armbar from Back]] - Primary alternative submission when opponent over-commits both hands to neck defense against RNC
+- [[Positions/Crucifix]] - Transition target when opponent exposes arms during RNC defense, enabling undefended choke attacks
+- [[Positions/Turtle]] - Common position defender may escape to if back control is compromised during RNC attempt
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Complete guide to preventing posture recovery from Carni bottom. M
 
 As the bottom player in Carni, preventing your opponent's posture recovery is essential for maintaining your offensive position and threat of submission. When the top player attempts to drive forward and stack through your guard, you must recognize the attempt early and implement counter-measures that either maintain your existing Carni control or advance you to a more dominant position like the saddle. The key defensive principle is that the top player's forward pressure, while dangerous to your Carni position, also creates opportunities for saddle transitions and back takes if redirected properly. Understanding how to use the opponent's own momentum against them transforms their escape attempt into your positional advancement opportunity.
 
-**Opponent's Starting Position**: [[Carni]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Carni]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the bottom player in Carni, preventing your opponent's posture recovery is es
 ### 1. Thread inside leg deeper to establish saddle entry hook as opponent drives forward
 
 - **When to use**: When opponent commits to forward pressure and creates space between their knees by driving forward
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Transition to saddle position with deeper control and immediate heel hook threat from superior angle
 - **Risk**: If hook fails to set, opponent may complete stack and extract leg more easily
 
 ### 2. Invert under the stacking pressure and re-establish Carni from opposite angle
 
 - **When to use**: When opponent's forward pressure is moderate and there is space to rotate underneath
-- **Targets**: [[Carni]]
+- **Targets**: [[Positions/Rubber Guard/Carni]]
 - **If successful**: Reset Carni control from fresh angle with maintained leg entanglement and renewed offensive options
 - **Risk**: Failed inversion under heavy pressure can result in being stacked and passed directly
 
 ### 3. Close guard around opponent's waist as entanglement loosens to retain control
 
 - **When to use**: When stacking pressure is too strong to maintain Carni and entanglement is collapsing
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Retain opponent in closed guard with sweep and submission opportunities, preventing complete escape
 - **Risk**: Gives up leg entanglement and all immediate leg lock threats
 
 ### 4. Tighten heel grip and apply immediate finishing pressure before stack completes
 
 - **When to use**: When opponent initiates forward pressure but heel grip is still deep and secure
-- **Targets**: [[Carni]]
+- **Targets**: [[Positions/Rubber Guard/Carni]]
 - **If successful**: Force opponent to abandon stacking attempt due to immediate submission danger and reset to defensive position
 - **Risk**: Aggressive heel hook application during dynamic movement increases injury risk for both parties
 
@@ -217,11 +217,11 @@ As the bottom player in Carni, preventing your opponent's posture recovery is es
 
 ## Best-Case Outcomes for Defender
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 Use the opponent's forward driving pressure to thread your inside leg deeper through their guard, establishing the saddle hook as their forward momentum carries them past the Carni position into the deeper entanglement
 
-### → [[Carni]]
+### → [[Positions/Rubber Guard/Carni]]
 
 Invert underneath the stacking pressure before it builds full momentum, using the rotation to re-establish Carni control from a fresh angle while maintaining the critical inside leg hook and heel grip
 

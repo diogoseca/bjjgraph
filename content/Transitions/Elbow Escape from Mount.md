@@ -21,7 +21,7 @@ The escape operates on a simple mechanical principle: create a wedge of space be
 
 This technique is strategically essential because mount is the highest-scoring and most submission-rich position in BJJ. Every practitioner will spend time under mount, and having a reliable, energy-efficient escape prevents the position from becoming a terminal state. The elbow escape chains naturally into half guard recovery, where the bottom player has significantly more offensive options including sweeps, back takes, and guard transitions. At advanced levels, the escape combines with the upa to create escape dilemmas for the top player, where defending one escape opens vulnerability to the other.
 
-**From Position**: [[Mount]] (Bottom)
+**From Position**: [[Positions/Mount]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This technique is strategically essential because mount is the highest-scoring a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Mount]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Mount]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Elbow Escape from Mount is the primary escape mechanism from the most domina
 ## Related Techniques
 
 
-- [[Mount]] - Starting position where escape is executed from bottom mount
+- [[Positions/Mount]] - Starting position where escape is executed from bottom mount
 
-- [[Half Guard]] - Primary recovery position after successful elbow escape knee insertion
+- [[Positions/Half Guard]] - Primary recovery position after successful elbow escape knee insertion
 
-- [[Back Control]] - Risk position if bottom player overcommits to turning during escape attempt
+- [[Positions/Back Control]] - Risk position if bottom player overcommits to turning during escape attempt
 
-- [[Elbow Escape to Guard]] - Closely related escape technique sharing fundamental hip escape mechanics
+- [[Transitions/Elbow Escape to Guard]] - Closely related escape technique sharing fundamental hip escape mechanics
 
-- [[Hip Escape to Guard]] - Related transition using the same shrimping movement pattern for guard recovery
+- [[Transitions/Hip Escape to Guard]] - Related transition using the same shrimping movement pattern for guard recovery
 
-- [[Upa Escape]] - Complementary mount escape that creates a two-threat dilemma when combined with elbow escape
+- [[Transitions/Upa Escape]] - Complementary mount escape that creates a two-threat dilemma when combined with elbow escape
 
-- [[High Mount]] - Advanced mount variation that significantly limits elbow escape effectiveness
+- [[Positions/Mount/High Mount]] - Advanced mount variation that significantly limits elbow escape effectiveness
 
-- [[Closed Guard]] - Extended recovery target when chaining multiple hip escapes from mount
+- [[Positions/Closed Guard]] - Extended recovery target when chaining multiple hip escapes from mount
 
-- [[Knee Shield Half Guard]] - Optimal half guard variation to establish immediately after successful escape
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Optimal half guard variation to establish immediately after successful escape
 
-- [[Bridge Escape from 3-4 Mount]] - Related escape technique from a mount variation sharing defensive principles
+- [[Transitions/Bridge Escape from 3-4 Mount]] - Related escape technique from a mount variation sharing defensive principles
 
-- [[Elbow Escape from 3-4 Mount]] - Same escape pattern adapted for the 3-4 mount variation
+- [[Transitions/Elbow Escape from 3-4 Mount]] - Same escape pattern adapted for the 3-4 mount variation
 
 
 </section>

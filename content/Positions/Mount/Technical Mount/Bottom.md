@@ -206,21 +206,21 @@ From the bottom perspective, Technical Mount represents one of the most precario
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (45% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (45% of attempts)
 
-### [[Hip Escape to Guard]] (17% of attempts)
+### [[Transitions/Hip Escape to Guard]] (17% of attempts)
 
-### [[Upa Escape]] (15% of attempts)
+### [[Transitions/Upa Escape]] (15% of attempts)
 
-### [[Shrimp Escape]] (15% of attempts)
+### [[Transitions/Shrimp Escape]] (15% of attempts)
 
-### [[Bridge and Roll]] (6% of attempts)
+### [[Transitions/Bridge and Roll]] (6% of attempts)
 
-### [[Back Turn from Technical Mount]] (1% of attempts)
+### [[Transitions/Back Turn from Technical Mount]] (1% of attempts)
 
-### [[Bridge from Technical Mount]] (0% of attempts)
+### [[Transitions/Bridge from Technical Mount]] (0% of attempts)
 
-### [[Escape Technical Mount to Half Guard]] (1% of attempts)
+### [[Transitions/Escape Technical Mount to Half Guard]] (1% of attempts)
 
 
 
@@ -231,23 +231,23 @@ From the bottom perspective, Technical Mount represents one of the most precario
 ## Decision Making from This Position
 
 **If opponent is stepping leg over to isolate arm for armbar and arm control is being established:**
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 40%)
-- Execute **[[Shrimp Escape]]** → [[Turtle]] (Probability: 35%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Turtle]] (Probability: 35%)
 
 
 **If opponent maintains heavy chest pressure but hasn't secured armbar grip yet:**
-- Execute **[[Upa Escape]]** → [[Closed Guard]] (Probability: 30%)
-- Execute **[[Bridge and Roll]]** → [[Mount]] (Probability: 25%)
+- Execute **[[Transitions/Upa Escape]]** → [[Positions/Closed Guard]] (Probability: 30%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Mount]] (Probability: 25%)
 
 
 **If opponent is transitioning weight to set up triangle or switch to full mount:**
-- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 45%)
-- Execute **[[Guard Recovery]]** → [[Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Principles/Guard Recovery]]** → [[Positions/Half Guard]] (Probability: 35%)
 
 
 **If opponent's base is compromised during transition with weight shifting off posted leg:**
-- Execute **[[Bridge and Roll]]** → [[Mount]] (Probability: 40%)
-- Execute **[[Standing up in Base]]** → [[Clinch]] (Probability: 25%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Mount]] (Probability: 40%)
+- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Clinch]] (Probability: 25%)
 
 
 
@@ -369,13 +369,13 @@ Start with partner giving 50% resistance in technical mount, allowing you to wor
 
 ## Related Positions and Techniques
 
-- **[[Mount]]** - Parent position - Technical Mount is a specialized variation of standard mount bottom
-- **[[Armbar Control]]** - Primary threat position - Most common transition if defense fails
-- **[[Half Guard]]** - Primary escape target - Most achievable defensive recovery position
-- **[[S Mount]]** - Similar position - Another mount variation with stepped leg creating submission threats
-- **[[Elbow Escape to Guard]]** - Primary escape technique - Core movement pattern for recovering guard from mount
-- **[[Frame and Shrimp to Guard]]** - Essential escape concept - Fundamental defensive movement from pins
-- **[[Upa Escape]]** - Complementary escape - Bridge and roll reversal when base is compromised
+- **[[Positions/Mount]]** - Parent position - Technical Mount is a specialized variation of standard mount bottom
+- **[[Positions/Armbar Control]]** - Primary threat position - Most common transition if defense fails
+- **[[Positions/Half Guard]]** - Primary escape target - Most achievable defensive recovery position
+- **[[Positions/Mount/S Mount]]** - Similar position - Another mount variation with stepped leg creating submission threats
+- **[[Transitions/Elbow Escape to Guard]]** - Primary escape technique - Core movement pattern for recovering guard from mount
+- **[[Transitions/Frame and Shrimp to Guard]]** - Essential escape concept - Fundamental defensive movement from pins
+- **[[Transitions/Upa Escape]]** - Complementary escape - Bridge and roll reversal when base is compromised
 
 
 </section>

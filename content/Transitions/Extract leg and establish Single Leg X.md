@@ -21,7 +21,7 @@ The strategic value of this transition lies in its ability to reverse the positi
 
 Success in this transition requires precise timing, understanding of when opponent's leg control is weakest, and the mechanical skill to smoothly transition from extraction directly into Single Leg X-Guard configuration without allowing space for opponent's recovery. The technique exemplifies modern leg lock defense philosophy where escape and counter-attack are integrated into a single fluid movement rather than separate sequential actions.
 
-**From Position**: [[Leg Knot]] (Bottom)
+**From Position**: [[Positions/Leg Knot]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Success in this transition requires precise timing, understanding of when oppone
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 58% |
-| Failure | [[Leg Knot]] | 30% |
-| Counter | [[Saddle]] | 12% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 58% |
+| Failure | [[Positions/Leg Knot]] | 30% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 12% |
 
 
 </section>
@@ -187,27 +187,27 @@ Extract leg and establish Single Leg X serves as a critical bridge between defen
 ## Related Techniques
 
 
-- [[Leg Knot]] - Starting position for this transition
+- [[Positions/Leg Knot]] - Starting position for this transition
 
-- [[Single Leg X-Guard]] - Target position upon successful execution
+- [[Positions/X-Guard/Single Leg X-Guard]] - Target position upon successful execution
 
-- [[Ashi Garami Escape]] - Related leg entanglement escape technique
+- [[Transitions/Ashi Garami Escape]] - Related leg entanglement escape technique
 
-- [[50-50 Entry]] - Alternative escape pathway from Leg Knot
+- [[Transitions/50-50 Entry]] - Alternative escape pathway from Leg Knot
 
-- [[Single Leg X Entry]] - Related Single Leg X establishment technique
+- [[Transitions/Single Leg X Entry]] - Related Single Leg X establishment technique
 
-- [[Single Leg X Sweep]] - Primary follow-up after establishing position
+- [[Transitions/Single Leg X Sweep]] - Primary follow-up after establishing position
 
-- [[Saddle]] - Position opponent may achieve if extraction fails
+- [[Positions/Ashi Garami/Saddle]] - Position opponent may achieve if extraction fails
 
-- [[Inside Ashi-Garami]] - Related leg entanglement position
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement position
 
-- [[Granby Roll to Guard]] - Alternative extraction method using inversion
+- [[Transitions/Granby Roll to Guard]] - Alternative extraction method using inversion
 
-- [[X-Guard]] - Alternative guard if Single Leg X entry is blocked
+- [[Positions/X-Guard]] - Alternative guard if Single Leg X entry is blocked
 
-- [[Counter-entangle to 50-50 Guard]] - Alternative defensive transition from same starting position
+- [[Transitions/Counter-entangle to 50-50 Guard]] - Alternative defensive transition from same starting position
 
 
 </section>

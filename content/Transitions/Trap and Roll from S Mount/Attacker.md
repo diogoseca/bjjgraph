@@ -186,7 +186,7 @@ description: "Execute the Trap and Roll escape from S Mount bottom. Master bridg
 
 Executing the Trap and Roll from S Mount requires the bottom player to transform a desperate defensive situation into an explosive escape opportunity. The technique demands precise coordination between arm trapping, leg hooking, and bridging mechanics, all while protecting the isolated arm from armbar submission. The perpendicular positioning of the top player in S Mount creates a unique challenge compared to standard mount escapes, as the bridging direction must account for the asymmetric weight distribution and the opponent's attacking angle. Success depends on timing the bridge to coincide with the opponent's positional adjustment or grip change, committing fully to the rolling motion, and immediately establishing guard upon displacing the top player. Half-measures or tentative bridges expose the trapped arm and waste critical energy reserves.
 
-**From Position**: [[S Mount]] (Bottom)
+**From Position**: [[Positions/Mount/S Mount]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Trap and Roll from S Mount requires the bottom player to transform
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 30% |
-| Failure | [[S Mount]] | 45% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 30% |
+| Failure | [[Positions/Mount/S Mount]] | 45% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Trap and Roll from S Mount requires the bottom player to transform
 
 ## Opponent Counters
 
-- **Opponent posts free hand on mat to absorb the bridge and maintain base** (Effectiveness: High) - Your Response: If the opponent posts, immediately convert from trap and roll to hip escape — use the vertical space created by the bridge to shrimp your hips out toward half guard rather than continuing the failed roll → Leads to [[S Mount]]
-- **Opponent releases arm control and bases out wide with both hands planted** (Effectiveness: High) - Your Response: Use the momentary release of arm control to immediately pull your trapped arm back to your body, re-secure collar grip, and transition to frame-based hip escape while they are in a wide base with less offensive control → Leads to [[S Mount]]
-- **Opponent drives hips forward and down during bridge to flatten you back to the mat** (Effectiveness: Medium) - Your Response: Absorb the downward pressure and time a secondary bridge when they relax the drive, or switch to incremental hip escape using frames established during the initial attempt → Leads to [[Mount]]
-- **Opponent transitions to armbar finish by extending the trapped arm during bridging motion** (Effectiveness: High) - Your Response: Maintain absolute grip on your collar throughout — never release the bent arm position even during the bridge. If arm security becomes compromised, immediately abandon the sweep attempt and return to pure arm defense → Leads to [[S Mount]]
+- **Opponent posts free hand on mat to absorb the bridge and maintain base** (Effectiveness: High) - Your Response: If the opponent posts, immediately convert from trap and roll to hip escape — use the vertical space created by the bridge to shrimp your hips out toward half guard rather than continuing the failed roll → Leads to [[Positions/Mount/S Mount]]
+- **Opponent releases arm control and bases out wide with both hands planted** (Effectiveness: High) - Your Response: Use the momentary release of arm control to immediately pull your trapped arm back to your body, re-secure collar grip, and transition to frame-based hip escape while they are in a wide base with less offensive control → Leads to [[Positions/Mount/S Mount]]
+- **Opponent drives hips forward and down during bridge to flatten you back to the mat** (Effectiveness: Medium) - Your Response: Absorb the downward pressure and time a secondary bridge when they relax the drive, or switch to incremental hip escape using frames established during the initial attempt → Leads to [[Positions/Mount]]
+- **Opponent transitions to armbar finish by extending the trapped arm during bridging motion** (Effectiveness: High) - Your Response: Maintain absolute grip on your collar throughout — never release the bent arm position even during the bridge. If arm security becomes compromised, immediately abandon the sweep attempt and return to pure arm defense → Leads to [[Positions/Mount/S Mount]]
 
 
 </section>

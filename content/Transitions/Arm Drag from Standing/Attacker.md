@@ -180,7 +180,7 @@ description: "Learn to execute the standing arm drag in BJJ. Step-by-step mechan
 
 The attacker's objective in the standing arm drag is to redirect the opponent's arm across their own centerline while simultaneously clearing past their shoulder line to establish chest-to-back contact. This requires a coordinated sequence of grip acquisition, explosive pulling force in a specific direction, and lateral stepping movement that together bypass the opponent's frontal defenses. The technique succeeds when the attacker achieves chest-to-back contact before the opponent can rotate to re-face them. The entire motion should take less than two seconds from grip establishment to rear clinch consolidation, emphasizing speed and timing over raw strength.
 
-**From Position**: [[Standing Position]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ The attacker's objective in the standing arm drag is to redirect the opponent's 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Rear Clinch]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Standing Rear Clinch]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ The attacker's objective in the standing arm drag is to redirect the opponent's 
 
 ## Opponent Counters
 
-- **Opponent circles away from drag direction to re-face you before you establish chest contact** (Effectiveness: High) - Your Response: Anticipate the circle and accelerate your step-behind. If they complete the turn, convert immediately to a collar tie or underhook rather than chasing the back. Use their rotational momentum to snap them down or enter a single leg. → Leads to [[Standing Position]]
-- **Opponent posts their free arm as a frame against your hip or shoulder to create distance and prevent step-behind** (Effectiveness: High) - Your Response: Swim your near arm under their posting frame to establish an underhook, removing the post. Alternatively, redirect the drag angle more sharply across their body to collapse their posting arm by pulling it past your hip rather than alongside it. → Leads to [[Standing Position]]
-- **Opponent sits to guard as you commit to stepping behind, pulling you into their open guard** (Effectiveness: Medium) - Your Response: If they sit before you establish chest contact, immediately advance your hips forward and begin a passing sequence rather than trying to re-establish the back take. Drive your chest into them as they descend to prevent guard consolidation. Use bodylock passing mechanics. → Leads to [[Open Guard]]
-- **Opponent pummels their dragged arm back through to re-establish frontal facing and grip parity** (Effectiveness: Medium) - Your Response: If the pummel begins before you step behind, release the drag and immediately re-engage with a different attack such as a snap down, collar tie, or level change for a single leg. The pummel creates a momentary opening as their arm is occupied in the recovery motion. → Leads to [[Standing Position]]
+- **Opponent circles away from drag direction to re-face you before you establish chest contact** (Effectiveness: High) - Your Response: Anticipate the circle and accelerate your step-behind. If they complete the turn, convert immediately to a collar tie or underhook rather than chasing the back. Use their rotational momentum to snap them down or enter a single leg. → Leads to [[Positions/Standing Position]]
+- **Opponent posts their free arm as a frame against your hip or shoulder to create distance and prevent step-behind** (Effectiveness: High) - Your Response: Swim your near arm under their posting frame to establish an underhook, removing the post. Alternatively, redirect the drag angle more sharply across their body to collapse their posting arm by pulling it past your hip rather than alongside it. → Leads to [[Positions/Standing Position]]
+- **Opponent sits to guard as you commit to stepping behind, pulling you into their open guard** (Effectiveness: Medium) - Your Response: If they sit before you establish chest contact, immediately advance your hips forward and begin a passing sequence rather than trying to re-establish the back take. Drive your chest into them as they descend to prevent guard consolidation. Use bodylock passing mechanics. → Leads to [[Positions/Open Guard]]
+- **Opponent pummels their dragged arm back through to re-establish frontal facing and grip parity** (Effectiveness: Medium) - Your Response: If the pummel begins before you step behind, release the drag and immediately re-engage with a different attack such as a snap down, collar tie, or level change for a single leg. The pummel creates a momentary opening as their arm is occupied in the recovery motion. → Leads to [[Positions/Standing Position]]
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Complete attacker guide to the Smash Pass from Knee Shield. Learn 
 
 As the attacker executing the Smash Pass from Knee Shield, your objective is to systematically collapse the bottom player's knee shield barrier using shoulder pressure, grip control, and hip switching rather than explosive speed. The technique rewards patience and methodical pressure application. You must first establish controlling grips—crossface on the far side and control of the knee shield leg—before initiating the collapse. The pass succeeds when you drive the shield knee across the opponent's body to the far side, pin it with your hip pressure, and advance past the legs into side control. Throughout the sequence, maintaining heavy shoulder pressure prevents the bottom player from re-establishing the shield or creating offensive threats. The smash pass is a grinding, weight-based technique that becomes more effective the more you commit your body weight into the opponent.
 
-**From Position**: [[Knee Shield Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Smash Pass from Knee Shield, your objective is to 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 48% |
-| Failure | [[Knee Shield Half Guard]] | 32% |
-| Counter | [[Knee Shield Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 48% |
+| Failure | [[Positions/Half Guard/Knee Shield Half Guard]] | 32% |
+| Counter | [[Positions/Half Guard/Knee Shield Half Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Smash Pass from Knee Shield, your objective is to 
 
 ## Opponent Counters
 
-- **Bottom player frames on shoulder and hip escapes to re-establish knee shield distance** (Effectiveness: High) - Your Response: Follow their hip escape with your own forward pressure, maintain crossface throughout, and re-angle to continue the collapse sequence. Do not allow any separation between your shoulder and their chest. → Leads to [[Knee Shield Half Guard]]
-- **Bottom player threads underhook and comes up to dogfight or sweep position** (Effectiveness: High) - Your Response: Immediately whizzer the underhook arm and drive your weight down and forward. If the underhook is too deep, switch to a front headlock or crossface cradle to prevent them from completing the elevation to dogfight. → Leads to [[Knee Shield Half Guard]]
-- **Bottom player dives underneath for deep half guard entry during the collapse** (Effectiveness: Medium) - Your Response: Sprawl your hips back and establish a whizzer on the deep half arm. Prevent them from getting underneath your center of gravity by keeping your hips low and heavy. If they establish deep half, transition to deep half passing rather than trying to re-initiate the smash. → Leads to [[Knee Shield Half Guard]]
-- **Bottom player extends knee shield aggressively outward to prevent collapse** (Effectiveness: Medium) - Your Response: Use the extension against them by switching to a backstep pass over the extended leg, or release the ankle grip momentarily to redirect the shield from a different angle. An over-extended shield is actually weaker than a compact one. → Leads to [[Knee Shield Half Guard]]
+- **Bottom player frames on shoulder and hip escapes to re-establish knee shield distance** (Effectiveness: High) - Your Response: Follow their hip escape with your own forward pressure, maintain crossface throughout, and re-angle to continue the collapse sequence. Do not allow any separation between your shoulder and their chest. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
+- **Bottom player threads underhook and comes up to dogfight or sweep position** (Effectiveness: High) - Your Response: Immediately whizzer the underhook arm and drive your weight down and forward. If the underhook is too deep, switch to a front headlock or crossface cradle to prevent them from completing the elevation to dogfight. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
+- **Bottom player dives underneath for deep half guard entry during the collapse** (Effectiveness: Medium) - Your Response: Sprawl your hips back and establish a whizzer on the deep half arm. Prevent them from getting underneath your center of gravity by keeping your hips low and heavy. If they establish deep half, transition to deep half passing rather than trying to re-initiate the smash. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
+- **Bottom player extends knee shield aggressively outward to prevent collapse** (Effectiveness: Medium) - Your Response: Use the extension against them by switching to a backstep pass over the extended leg, or release the ankle grip momentarily to redirect the shield from a different angle. An over-extended shield is actually weaker than a compact one. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 
 
 </section>

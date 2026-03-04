@@ -180,7 +180,7 @@ description: "Complete guide to passing Z-Guard as the top player. Systematic kn
 
 As the attacker passing Z-Guard, your primary objective is the systematic dismantling of the bottom player's knee shield defensive structure to complete the pass to side control. This requires winning multiple simultaneous battles—the underhook war, the crossface establishment, and the progressive collapse of the knee shield frame—while maintaining sufficient base to prevent sweeps. The pass rewards patient, methodical pressure application over explosive movement, as the elevated knee shield is specifically designed to redirect and neutralize forward force. Success comes from reading the bottom player's reactions and chaining techniques accordingly, using their defensive adjustments to create passing opportunities rather than fighting through their strongest defensive positions.
 
-**From Position**: [[Z-Lock Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker passing Z-Guard, your primary objective is the systematic disman
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Failure | [[Z-Lock Half Guard]] | 35% |
-| Counter | [[Deep Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 45% |
+| Failure | [[Positions/Half Guard/Z-Lock Half Guard]] | 35% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker passing Z-Guard, your primary objective is the systematic disman
 
 ## Opponent Counters
 
-- **Bottom player secures deep underhook and threatens old school sweep** (Effectiveness: High) - Your Response: Immediately whizzer their underhook arm and drive your weight into their shoulder. Use the whizzer to flatten them back to the mat and re-establish crossface control. If they have committed to the sweep, backstep to the other side and look for back exposure. → Leads to [[Z-Lock Half Guard]]
-- **Bottom player dives underneath for deep half guard entry** (Effectiveness: Medium) - Your Response: Sprawl your hips back immediately to prevent them from getting underneath you. Drive shoulder pressure into their far shoulder and re-establish hip control. If they have already entered deep half, transition to deep half passing strategies rather than forcing the Z-Guard pass. → Leads to [[Deep Half Guard]]
-- **Bottom player frames forcefully and re-extends knee shield after partial collapse** (Effectiveness: Medium) - Your Response: Do not fight the re-extension with pure strength. Maintain your grips and immediately re-apply angular pressure from a different angle. Use the bottom player's extension energy to change angles—if they push you away, circle to a new angle rather than driving straight back in. → Leads to [[Z-Lock Half Guard]]
-- **Bottom player hip escapes aggressively and threatens to recover full guard** (Effectiveness: Low) - Your Response: Follow their hip movement with your own hip pressure, maintaining connection throughout. Use your near-side knee to block their hip movement and prevent full guard recovery. If significant distance is created, reset to combat base and re-engage the passing sequence. → Leads to [[Z-Lock Half Guard]]
+- **Bottom player secures deep underhook and threatens old school sweep** (Effectiveness: High) - Your Response: Immediately whizzer their underhook arm and drive your weight into their shoulder. Use the whizzer to flatten them back to the mat and re-establish crossface control. If they have committed to the sweep, backstep to the other side and look for back exposure. → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
+- **Bottom player dives underneath for deep half guard entry** (Effectiveness: Medium) - Your Response: Sprawl your hips back immediately to prevent them from getting underneath you. Drive shoulder pressure into their far shoulder and re-establish hip control. If they have already entered deep half, transition to deep half passing strategies rather than forcing the Z-Guard pass. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Bottom player frames forcefully and re-extends knee shield after partial collapse** (Effectiveness: Medium) - Your Response: Do not fight the re-extension with pure strength. Maintain your grips and immediately re-apply angular pressure from a different angle. Use the bottom player's extension energy to change angles—if they push you away, circle to a new angle rather than driving straight back in. → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
+- **Bottom player hip escapes aggressively and threatens to recover full guard** (Effectiveness: Low) - Your Response: Follow their hip movement with your own hip pressure, maintaining connection throughout. Use your near-side knee to block their hip movement and prevent full guard recovery. If significant distance is created, reset to combat base and re-engage the passing sequence. → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
 
 
 </section>

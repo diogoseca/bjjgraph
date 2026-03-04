@@ -21,7 +21,7 @@ The mechanical foundation of this recovery relies on creating sufficient space t
 
 Strategic context places this technique as the primary defensive answer to advancing guard passes from quarter guard. When executed properly, it not only prevents pass completion but resets the engagement to Knee Shield Half Guard—a position offering sweeps, submissions, and further guard transitions. The recovery must be attempted within the first three to five seconds of entering quarter guard, as positional deterioration accelerates rapidly under competent top pressure. Delaying the attempt even marginally allows the top player to settle weight and eliminate the space needed for successful knee insertion.
 
-**From Position**: [[Quarter Guard]] (Bottom)
+**From Position**: [[Positions/Quarter Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategic context places this technique as the primary defensive answer to advan
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Knee Shield Half Guard]] | 55% |
-| Failure | [[Quarter Guard]] | 25% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Half Guard/Knee Shield Half Guard]] | 55% |
+| Failure | [[Positions/Quarter Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ Knee Shield from Quarter Guard occupies a critical defensive node in the BJJ pos
 ## Related Techniques
 
 
-- [[Quarter Guard]] - Source position from which this recovery technique is initiated
+- [[Positions/Quarter Guard]] - Source position from which this recovery technique is initiated
 
-- [[Knee Shield Half Guard]] - Primary target position upon successful knee shield insertion
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Primary target position upon successful knee shield insertion
 
-- [[Half Guard]] - Parent position family containing both quarter guard and knee shield variations
+- [[Positions/Half Guard]] - Parent position family containing both quarter guard and knee shield variations
 
-- [[Deep Half Guard]] - Alternative recovery option when opponent commits weight forward during knee shield attempt
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative recovery option when opponent commits weight forward during knee shield attempt
 
-- [[Side Control]] - Counter outcome position when opponent completes pass during failed recovery
+- [[Positions/Side Control]] - Counter outcome position when opponent completes pass during failed recovery
 
-- [[Flattened Half Guard]] - Adjacent compromised position with similar recovery urgency requirements
+- [[Positions/Half Guard/Flattened Half Guard]] - Adjacent compromised position with similar recovery urgency requirements
 
-- [[Lockdown]] - Alternative leg control recovery option from quarter guard using figure-four configuration
+- [[Positions/Half Guard/Lockdown]] - Alternative leg control recovery option from quarter guard using figure-four configuration
 
-- [[Dogfight Position]] - Related transitional position accessible if underhook is secured during recovery
+- [[Positions/Dogfight Position]] - Related transitional position accessible if underhook is secured during recovery
 
-- [[Headquarters Position]] - Top player passing position that frequently precedes quarter guard establishment
+- [[Positions/Headquarters Position]] - Top player passing position that frequently precedes quarter guard establishment
 
-- [[Combat Base]] - Top player postural base that may create space exploitable for knee shield insertion
+- [[Positions/Combat Base]] - Top player postural base that may create space exploitable for knee shield insertion
 
 
 </section>

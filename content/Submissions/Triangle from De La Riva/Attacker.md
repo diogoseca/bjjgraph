@@ -176,7 +176,7 @@ description: "How to execute Triangle from De La Riva in BJJ. Attacking perspect
 
 The Triangle from De La Riva is a sophisticated blood choke that capitalizes on the unique angular control provided by the De La Riva guard position. This submission represents a fundamental offensive option from one of modern BJJ's most dynamic open guard systems. The De La Riva hook on the opponent's leg creates natural off-balancing opportunities while the opposite leg controls posture and distance, establishing perfect conditions for transitioning to the triangle position. The technical challenge lies in transitioning from the linear De La Riva guard structure to the circular enclosure required for an effective triangle choke. Success depends on precise timing, grip manipulation, and understanding how to use the De La Riva hook as a pivot point rather than abandoning it prematurely. When executed correctly, this technique combines the sweeping threat inherent in De La Riva with a finishing submission, creating a true dilemma for the opponent.
 
-**From Position**: [[De La Riva Guard]] (Bottom)
+**From Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 
 </section>
@@ -231,8 +231,8 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[De La Riva Guard]] | 25% |
-| Counter | [[Open Guard]] | 15% |
+| Failure | [[Positions/De La Riva Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 ## Opponent Defenses
 
-- **Standing up to prevent triangle lock** (Effectiveness: High) - Your Response: Maintain De La Riva hook longer to prevent standing, or transition to omoplata/sweep if they commit fully to standing posture → Leads to [[De La Riva Guard]]
+- **Standing up to prevent triangle lock** (Effectiveness: High) - Your Response: Maintain De La Riva hook longer to prevent standing, or transition to omoplata/sweep if they commit fully to standing posture → Leads to [[Positions/De La Riva Guard]]
 - **Stacking pressure to compress your guard** (Effectiveness: Medium) - Your Response: Shrimp hips away from stack direction, maintain angle perpendicular to their body, and use grips behind head to prevent them from driving chest into your knees → Leads to [[game-over]]
-- **Hiding arm inside to prevent triangle lock** (Effectiveness: High) - Your Response: Attack omoplata or triangle variation, or use leg over shoulder position to transition to back take if arm remains defended → Leads to [[De La Riva Guard]]
-- **Posturing up with strong base** (Effectiveness: Medium) - Your Response: Use both hands behind head to break posture, kick De La Riva hook to off-balance them forward, or transition to sweep if they commit too much weight back → Leads to [[Open Guard]]
+- **Hiding arm inside to prevent triangle lock** (Effectiveness: High) - Your Response: Attack omoplata or triangle variation, or use leg over shoulder position to transition to back take if arm remains defended → Leads to [[Positions/De La Riva Guard]]
+- **Posturing up with strong base** (Effectiveness: Medium) - Your Response: Use both hands behind head to break posture, kick De La Riva hook to off-balance them forward, or transition to sweep if they commit too much weight back → Leads to [[Positions/Open Guard]]
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Learn to prevent hook insertion from seat belt back control. Defen
 
 As the defender against Seat Belt to Full Back Control, your objective is preventing the attacker from converting their seat belt grip into the complete, mechanically dominant back control position by blocking hook insertion. The attacker's seat belt grip alone, while dangerous, lacks the hip control that makes back control truly inescapable. Your window of opportunity exists during the hook insertion phase when the attacker must temporarily adjust their leg positioning, momentarily compromising their base and creating exploitable gaps in their control structure. Understanding that hook insertion is the critical transition point—not the seat belt grip itself—allows you to focus your defensive energy on the highest-value defensive actions. Your primary tools are knee clamping to physically block hook entry, timed hip escapes to exploit the insertion vulnerability window, and grip fighting to force the attacker into solving upper body problems that prevent them from focusing on hook threading.
 
-**Opponent's Starting Position**: [[Seat Belt Control Back]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against Seat Belt to Full Back Control, your objective is preven
 ### 1. Knee clamp defense—press both knees tightly together while tucking feet toward your glutes to create an impenetrable barrier against hook insertion
 
 - **When to use**: As your default passive defense maintained at all times during seat belt control. Intensify the clamp whenever you feel the attacker's leg moving toward your hip crease or attempting to thread between your thighs.
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Attacker remains in seat belt control without hooks, maintaining their grip advantage but lacking the hip control needed for complete back control. You maintain a better defensive position with more escape options available.
 - **Risk**: Sustained knee clamping is energy-intensive for your adductors and the attacker can use choke threats to force your hands away from supplementary leg defense.
 
 ### 2. Timed hip escape during hook insertion attempt—when the attacker commits to threading a hook, explosively hip escape toward the insertion side to create space and begin turning to face them
 
 - **When to use**: Execute the moment you feel the attacker's base shift as they commit to hook insertion. The attacker's stability is lowest during active hook threading, making this the optimal escape timing window.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough separation to begin turning your hips, recovering to half guard or turtle position before the attacker can re-establish control. The attacker loses their positional advantage.
 - **Risk**: Mistiming the escape—moving too early or too late—allows the attacker to insert the hook during your movement and potentially achieve deeper control than they would have from a static insertion.
 
 ### 3. Grip fight the seat belt to prevent the attacker from maintaining stable upper body control during insertion attempts
 
 - **When to use**: When you have successfully blocked hook insertion through knee clamping and the attacker pauses to regroup. Use this window to attack the seat belt grip with two-on-one grip breaks, forcing the attacker to address upper body control problems before reattempting hooks.
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Weakening or breaking the seat belt grip forces the attacker to re-secure their hands before attempting hook insertion, buying time and creating cumulative defensive advantages as their grip fatigues.
 - **Risk**: Committing both hands to grip fighting leaves your neck momentarily undefended, and the attacker may abandon the hook attempt to immediately attack the rear naked choke.
 
 ### 4. Explosive bridge and turn when the attacker inserts only one hook—use the single-hook moment as an escape trigger rather than waiting for both hooks
 
 - **When to use**: Immediately after the attacker successfully inserts their first hook but before they can insert the second. One hook provides significantly less hip control than two, making this a viable escape window.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You exploit the transitional moment to turn into the attacker, recovering to half guard by trapping the inserted hook between your legs as you rotate. The single hook becomes your half guard entanglement.
 - **Risk**: If the bridge is insufficient to create turning space, the attacker uses the momentum to insert the second hook faster, completing full back control during your failed escape attempt.
 
@@ -217,7 +217,7 @@ As the defender against Seat Belt to Full Back Control, your objective is preven
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the hook insertion window by timing an explosive hip escape to the insertion side the moment the attacker commits to threading their first hook. Their base is temporarily compromised as they shift leg position, and your hip movement creates enough separation to begin turning your hips toward them. As you turn, trap the insertion leg between your legs to establish half guard, converting their offensive transition into a defensive position reset for them.
 

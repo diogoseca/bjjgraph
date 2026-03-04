@@ -164,7 +164,7 @@ The defensive hierarchy begins with maintaining connection through the trapped l
 
 At the advanced level, half guard defense becomes a series of interconnected offensive threats rather than a static retention game. Every defensive action should simultaneously threaten a sweep or back take, forcing the passer to choose between advancing their pass and defending your offense. The most effective half guard players make the top player feel like they are solving an endless series of problems rather than progressing through a linear passing sequence.
 
-**Opponent's Starting Position**: [[Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -202,35 +202,35 @@ At the advanced level, half guard defense becomes a series of interconnected off
 ### 1. Establish underhook and come up to your side to threaten sweep or back take
 
 - **When to use**: As early as possible before the passer establishes crossface - ideally during the initial positional battle when both players are competing for upper body control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You gain dominant upper body positioning that enables old school sweep, dogfight position, or back take sequence, potentially reversing the position entirely
 - **Risk**: If the passer counters with a strong whizzer and drives you back flat, you lose the underhook battle and they advance their crossface control
 
 ### 2. Insert knee shield frame between your bodies and manage distance to prevent chest-to-chest pressure
 
 - **When to use**: When the passer is driving forward with heavy chest pressure and you cannot secure the underhook - the knee shield creates immediate distance and buys time to recompose
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough distance to prevent the passer from using pressure to extract their leg, and you can recompose your grips and offensive structure from behind the shield
 - **Risk**: Passer may step over the knee shield into headquarters position or smash the shield down with their hand to re-establish pressure passing
 
 ### 3. Transition to deep half guard by getting your head underneath the passer's hips
 
 - **When to use**: When the passer has established strong crossface and upper body control and you cannot win the underhook battle from standard half guard - deep half changes the angle completely
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You achieve a superior sweeping position underneath the passer's center of gravity with access to Homer Simpson sweep, waiter sweep, and various reversal options
 - **Risk**: If the transition is scouted, the passer can sprawl back and establish front headlock control or hop over to the other side, leaving you in a worse position
 
 ### 4. Establish lockdown on the trapped leg to control passer's posture and prevent leg extraction
 
 - **When to use**: When the passer begins actively working to extract their trapped leg and you need to stall their progress while setting up your offensive sequence
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The lockdown prevents leg extraction entirely and gives you control over the passer's posture, enabling electric chair sweeps and whip-up sequences
 - **Risk**: Strong passers can break the lockdown by controlling your top foot or transitioning to headquarters position, and holding lockdown passively without attacking allows them to methodically address it
 
 ### 5. Hip escape and recompose to full closed guard or butterfly guard
 
 - **When to use**: When the passer momentarily lifts their hips during leg extraction or transitions - this brief window allows you to withdraw your trapped leg and reinsert both legs into a full guard position
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to a full guard position (closed guard, butterfly guard, or open guard) which resets the passing exchange entirely and gives you a fresh defensive structure
 - **Risk**: If your timing is off and the passer maintains chest pressure during your hip escape, they may complete the pass during your recovery attempt
 
@@ -242,11 +242,11 @@ At the advanced level, half guard defense becomes a series of interconnected off
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Maintain the leg entanglement by keeping your legs active and your hips mobile. When the passer attempts to extract, follow their hip movement with yours, re-tighten your leg grip, and reinsert frames or knee shield to reset the positional exchange. The goal is to deny the pass completion and return to an active half guard where you have offensive options.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Execute a sweep from half guard bottom using the underhook as your primary weapon. The old school sweep, dogfight to single leg, or deep half sweep sequences all reverse the position and put you on top. Time your sweep attempt for moments when the passer overcommits to their crossface or leg extraction, shifting their weight forward and making them vulnerable to being rolled.
 

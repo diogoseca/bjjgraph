@@ -21,7 +21,7 @@ This sweep functions as the bread-and-butter attack from deep half guard, distin
 
 The Deep Half Sweep is most effective when the opponent commits their weight forward or attempts to apply crossface pressure, as this weight commitment provides the loading needed for the elevation phase. Understanding the timing window between when the opponent's weight shifts forward and when they can post to recover base is essential for consistent execution at the competitive level.
 
-**From Position**: [[Deep Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ The Deep Half Sweep is most effective when the opponent commits their weight for
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Deep Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Half Guard/Deep Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Deep Half Sweep occupies a central role in the deep half guard system as the
 ## Related Techniques
 
 
-- [[Deep Half Guard]] - Source position from which this sweep is executed
+- [[Positions/Half Guard/Deep Half Guard]] - Source position from which this sweep is executed
 
-- [[Side Control]] - Primary target position after successful sweep completion
+- [[Positions/Side Control]] - Primary target position after successful sweep completion
 
-- [[Half Guard]] - Fallback position when counter occurs and deep half is lost
+- [[Positions/Half Guard]] - Fallback position when counter occurs and deep half is lost
 
-- [[Back Control]] - Alternative target via rolling back take when sweep is defended
+- [[Positions/Back Control]] - Alternative target via rolling back take when sweep is defended
 
-- [[X-Guard]] - Transition option when opponent pulls leg back to defend sweep
+- [[Positions/X-Guard]] - Transition option when opponent pulls leg back to defend sweep
 
-- [[Single Leg X-Guard]] - Alternative guard entry when deep half sweep path is blocked
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative guard entry when deep half sweep path is blocked
 
-- [[Lockdown]] - Complementary control system that can set up deep half entries
+- [[Positions/Half Guard/Lockdown]] - Complementary control system that can set up deep half entries
 
-- [[Backstep from Deep Half]] - Common defensive counter by top player against sweep attempts
+- [[Transitions/Backstep from Deep Half]] - Common defensive counter by top player against sweep attempts
 
-- [[Deep Half Entry from Half Guard]] - Primary entry pathway to reach deep half sweep position
+- [[Transitions/Deep Half Entry from Half Guard]] - Primary entry pathway to reach deep half sweep position
 
-- [[Electric Chair]] - Alternative submission option from similar deep half positioning
+- [[Positions/Half Guard/Electric Chair]] - Alternative submission option from similar deep half positioning
 
 
 </section>

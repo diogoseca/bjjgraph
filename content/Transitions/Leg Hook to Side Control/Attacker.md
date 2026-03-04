@@ -180,7 +180,7 @@ description: "Complete attacking guide for the Leg Hook to Side Control pass. Le
 
 As the top player executing this pass completion, your objective is to clear the bottom player's remaining leg entanglement and establish full side control in a single decisive sequence. The leg hook has already given you significant mechanical advantage—you have upper body control, forward pressure, and partial leg dominance. This transition converts that advantage into a completed pass. The critical challenge is extracting the hooked leg without creating space for guard recovery. Your upper body pressure must intensify during extraction to compensate for the momentary reduction in lower body control. Every successful execution follows the same principle: the legs follow the upper body, never the other way around. Establish crushing upper body dominance first, then the leg clearance becomes a mechanical formality rather than a contested battle.
 
-**From Position**: [[Leg Hook]] (Top)
+**From Position**: [[Positions/Leg Hook]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the top player executing this pass completion, your objective is to clear the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Leg Hook]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Leg Hook]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the top player executing this pass completion, your objective is to clear the
 
 ## Opponent Counters
 
-- **Bottom player tightens leg clamp and fights to retain the hook entanglement during extraction** (Effectiveness: High) - Your Response: Switch extraction method—if windshield wiper is blocked, try hip switch to change the angle of extraction. If all direct methods fail, consider backstep to the opposite side. Increasing upper body pressure often loosens the leg clamp as the bottom player's attention is split between holding your leg and surviving the pressure. → Leads to [[Leg Hook]]
-- **Bottom player hip escapes during the extraction to recover knee shield or half guard** (Effectiveness: High) - Your Response: Maintain far hip grip throughout the extraction to prevent this counter. If hip escape begins, follow their hips with your own while keeping crossface locked. Drive your weight laterally in the direction of their escape to cut off the space they are creating. If they recover knee shield, address it with smash pass mechanics before reattempting. → Leads to [[Leg Hook]]
-- **Bottom player dives for deep half guard entry during the weight transfer** (Effectiveness: Medium) - Your Response: Sprawl immediately and drive your hips back while maintaining crossface pressure. The deep half entry requires them to get underneath your center of gravity—keeping your hips low and forward prevents this. If they begin the entry, backstep away from the deep half direction and circle to re-establish top control from a different angle. → Leads to [[Half Guard]]
-- **Bottom player bridges explosively during the extraction to create sweep momentum** (Effectiveness: Medium) - Your Response: Widen your posted foot base and absorb the bridge by distributing weight rather than resisting rigidly. The bridge creates momentary elevation but cannot sustain if your base is wide. Once the bridge collapses, immediately resume the extraction with increased pressure. Time your extraction to begin as the bridge energy dissipates. → Leads to [[Half Guard]]
+- **Bottom player tightens leg clamp and fights to retain the hook entanglement during extraction** (Effectiveness: High) - Your Response: Switch extraction method—if windshield wiper is blocked, try hip switch to change the angle of extraction. If all direct methods fail, consider backstep to the opposite side. Increasing upper body pressure often loosens the leg clamp as the bottom player's attention is split between holding your leg and surviving the pressure. → Leads to [[Positions/Leg Hook]]
+- **Bottom player hip escapes during the extraction to recover knee shield or half guard** (Effectiveness: High) - Your Response: Maintain far hip grip throughout the extraction to prevent this counter. If hip escape begins, follow their hips with your own while keeping crossface locked. Drive your weight laterally in the direction of their escape to cut off the space they are creating. If they recover knee shield, address it with smash pass mechanics before reattempting. → Leads to [[Positions/Leg Hook]]
+- **Bottom player dives for deep half guard entry during the weight transfer** (Effectiveness: Medium) - Your Response: Sprawl immediately and drive your hips back while maintaining crossface pressure. The deep half entry requires them to get underneath your center of gravity—keeping your hips low and forward prevents this. If they begin the entry, backstep away from the deep half direction and circle to re-establish top control from a different angle. → Leads to [[Positions/Half Guard]]
+- **Bottom player bridges explosively during the extraction to create sweep momentum** (Effectiveness: Medium) - Your Response: Widen your posted foot base and absorb the bridge by distributing weight rather than resisting rigidly. The bridge creates momentary elevation but cannot sustain if your base is wide. Once the bridge collapses, immediately resume the extraction with increased pressure. Time your extraction to begin as the bridge energy dissipates. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -21,7 +21,7 @@ The technique requires patience and methodical execution rather than explosive f
 
 Strategically, the smash from knee shield occupies a critical role in the guard passing hierarchy. It serves as the primary answer to one of the most common defensive structures encountered in half guard, and its successful execution opens pathways to knee slice passes, crossface passes, and direct side control advancement. The technique chains naturally with other pressure passes, creating a systematic approach to dismantling the knee shield defense that rewards methodical pressure over athletic explosiveness.
 
-**From Position**: [[Knee Shield Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the smash from knee shield occupies a critical role in the guard 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Knee Shield Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Knee Shield Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Smash from Knee Shield serves as a critical bridge technique in the guard pa
 ## Related Techniques
 
 
-- [[Knee Shield Half Guard]] - Starting position—this technique is executed from knee shield top
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Starting position—this technique is executed from knee shield top
 
-- [[Half Guard]] - Target position on successful execution—shield collapsed, standard half guard reached
+- [[Positions/Half Guard]] - Target position on successful execution—shield collapsed, standard half guard reached
 
-- [[Flattened Half Guard]] - Common result when smash fully flattens opponent beyond standard half guard
+- [[Positions/Half Guard/Flattened Half Guard]] - Common result when smash fully flattens opponent beyond standard half guard
 
-- [[Smash Pass]] - Related pressure passing technique often chained after shield collapse
+- [[Transitions/Smash Pass]] - Related pressure passing technique often chained after shield collapse
 
-- [[Knee Slice from Knee Shield]] - Alternative pass from same starting position using different mechanics
+- [[Transitions/Knee Slice from Knee Shield]] - Alternative pass from same starting position using different mechanics
 
-- [[Crossface Pass]] - Complementary technique that shares crossface control principles
+- [[Transitions/Crossface Pass]] - Complementary technique that shares crossface control principles
 
-- [[Deep Half Guard]] - Common defensive transition by bottom player to escape the smash
+- [[Positions/Half Guard/Deep Half Guard]] - Common defensive transition by bottom player to escape the smash
 
-- [[Side Control]] - Ultimate positional goal after completing the passing chain
+- [[Positions/Side Control]] - Ultimate positional goal after completing the passing chain
 
-- [[Back Step Pass]] - Alternative direction change when forward smash is consistently defended
+- [[Transitions/Back Step Pass]] - Alternative direction change when forward smash is consistently defended
 
-- [[Body Lock Pass]] - Alternative passing system that can be initiated from collapsed shield position
+- [[Transitions/Body Lock Pass]] - Alternative passing system that can be initiated from collapsed shield position
 
 
 </section>

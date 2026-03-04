@@ -184,7 +184,7 @@ The effectiveness of the double leg finish lies in its directness and mechanical
 
 Mastery of the double leg finish is essential for any grappler's takedown game, as the entry without a solid finish leaves the practitioner vulnerable to guillotine chokes, sprawls, and scrambles. The finish must be practiced with emphasis on maintaining connection throughout the motion, controlling the opponent's landing, and immediately transitioning to dominant position without allowing guard establishment or re-guarding opportunities.
 
-**From Position**: [[Clinch]] (Top)
+**From Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
@@ -238,9 +238,9 @@ Mastery of the double leg finish is essential for any grappler's takedown game, 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 75% |
-| Failure | [[Clinch]] | 15% |
-| Counter | [[Clinch]] | 10% |
+| Success | [[Positions/Side Control]] | 75% |
+| Failure | [[Positions/Clinch]] | 15% |
+| Counter | [[Positions/Clinch]] | 10% |
 
 
 </section>
@@ -249,11 +249,11 @@ Mastery of the double leg finish is essential for any grappler's takedown game, 
 
 ## Opponent Counters
 
-- **Guillotine choke attempt during the drive phase** (Effectiveness: High) - Your Response: Keep your head positioned on the side away from their choking arm, maintain posture with chin tucked, and accelerate the finish to land them on their back before they can secure the choke. If the guillotine is locked, circle toward the choking arm side while maintaining your drive to reduce leverage. → Leads to [[Clinch]]
-- **Sprawl defense with hips pulled backward** (Effectiveness: High) - Your Response: If encountered during finish, run your feet forward explosively (running the pipe) to stay underneath their hips while maintaining your grip. Alternatively, switch to a single leg finish or ankle pick transition if the sprawl compromises your double leg structure. → Leads to [[Clinch]]
-- **Opponent posts hands on mat to prevent being taken down** (Effectiveness: Medium) - Your Response: Continue driving forward while lifting their legs higher to break their posted base. Alternatively, use their posted arm position to transition to a sweep single leg or adjust angle to dump them to the side away from their posting hand. → Leads to [[Clinch]]
-- **Wizard/whizzer overhook controlling your head** (Effectiveness: Medium) - Your Response: Address the whizzer by keeping your head tight to their body on the non-whizzer side, drive the angle away from the whizzer control, and accelerate the finish before they can establish full defensive structure. Consider transitioning to a power single or outside trip if the whizzer is too strong. → Leads to [[Clinch]]
-- **Opponent immediately establishes closed guard upon landing** (Effectiveness: Low) - Your Response: Prevent guard closure by stepping your legs wide as they land, maintaining your grip on their legs longer to control their hips, and immediately establishing heavy pressure to prevent ankle crossing. If guard does close, immediately begin guard opening sequence while maintaining dominant posture. → Leads to [[Clinch]]
+- **Guillotine choke attempt during the drive phase** (Effectiveness: High) - Your Response: Keep your head positioned on the side away from their choking arm, maintain posture with chin tucked, and accelerate the finish to land them on their back before they can secure the choke. If the guillotine is locked, circle toward the choking arm side while maintaining your drive to reduce leverage. → Leads to [[Positions/Clinch]]
+- **Sprawl defense with hips pulled backward** (Effectiveness: High) - Your Response: If encountered during finish, run your feet forward explosively (running the pipe) to stay underneath their hips while maintaining your grip. Alternatively, switch to a single leg finish or ankle pick transition if the sprawl compromises your double leg structure. → Leads to [[Positions/Clinch]]
+- **Opponent posts hands on mat to prevent being taken down** (Effectiveness: Medium) - Your Response: Continue driving forward while lifting their legs higher to break their posted base. Alternatively, use their posted arm position to transition to a sweep single leg or adjust angle to dump them to the side away from their posting hand. → Leads to [[Positions/Clinch]]
+- **Wizard/whizzer overhook controlling your head** (Effectiveness: Medium) - Your Response: Address the whizzer by keeping your head tight to their body on the non-whizzer side, drive the angle away from the whizzer control, and accelerate the finish before they can establish full defensive structure. Consider transitioning to a power single or outside trip if the whizzer is too strong. → Leads to [[Positions/Clinch]]
+- **Opponent immediately establishes closed guard upon landing** (Effectiveness: Low) - Your Response: Prevent guard closure by stepping your legs wide as they land, maintaining your grip on their legs longer to control their hips, and immediately establishing heavy pressure to prevent ankle crossing. If guard does close, immediately begin guard opening sequence while maintaining dominant posture. → Leads to [[Positions/Clinch]]
 
 
 </section>

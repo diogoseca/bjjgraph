@@ -21,7 +21,7 @@ This technique prioritizes safety and position reset over direct passing. Rather
 
 From a systematic perspective, the Sprawl and Disengage represents intelligent risk management. When facing a skilled grasshopper guard player, attempting to pass through their legs often results in rolling kneebars, ankle locks, or 50-50 entanglements. By disengaging cleanly, you deny them the leg contact they need while maintaining top position and the ability to re-engage on your terms. The technique is particularly valuable in competition where conceding points for a sweep is far worse than resetting to neutral standing.
 
-**From Position**: [[Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Grasshopper Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ From a systematic perspective, the Sprawl and Disengage represents intelligent r
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 65% |
-| Failure | [[Grasshopper Guard]] | 25% |
-| Counter | [[Single Leg X-Guard]] | 10% |
+| Success | [[Positions/Standing Position]] | 65% |
+| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Counter | [[Positions/X-Guard/Single Leg X-Guard]] | 10% |
 
 
 </section>
@@ -187,23 +187,23 @@ The Sprawl and Disengage functions as a critical safety valve within the inverte
 ## Related Techniques
 
 
-- [[Grasshopper Guard]] - Starting position - opponent's guard you are countering
+- [[Positions/Grasshopper Guard]] - Starting position - opponent's guard you are countering
 
-- [[Back Step Pass]] - Alternative technique - used when partial entanglement exists
+- [[Transitions/Back Step Pass]] - Alternative technique - used when partial entanglement exists
 
-- [[Leg Drag Pass]] - Follow-up option - can chain from sprawl when maintaining contact
+- [[Transitions/Leg Drag Pass]] - Follow-up option - can chain from sprawl when maintaining contact
 
-- [[Toreando Pass]] - Follow-up option - common re-engagement after resetting to standing
+- [[Transitions/Toreando Pass]] - Follow-up option - common re-engagement after resetting to standing
 
-- [[Front Headlock]] - Alternative outcome - catch if opponent follows aggressively
+- [[Positions/Front Headlock]] - Alternative outcome - catch if opponent follows aggressively
 
-- [[Combat Base]] - Alternative starting position - sprawl can execute from kneeling
+- [[Positions/Combat Base]] - Alternative starting position - sprawl can execute from kneeling
 
-- [[Standing Position]] - Primary destination - where you reset after successful disengage
+- [[Positions/Standing Position]] - Primary destination - where you reset after successful disengage
 
-- [[Single Leg X-Guard]] - Counter risk - where opponent may end up if they catch your leg
+- [[Positions/X-Guard/Single Leg X-Guard]] - Counter risk - where opponent may end up if they catch your leg
 
-- [[Inverted Guard]] - Related system - sprawl applies to all inverted guard variants
+- [[Positions/Inverted Guard]] - Related system - sprawl applies to all inverted guard variants
 
 
 </section>

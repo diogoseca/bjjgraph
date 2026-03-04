@@ -21,7 +21,7 @@ Effective stack defense requires recognizing the pass early, establishing strong
 
 This technique is critical for guard players at all levels, as the stack pass represents a high-percentage attack that can lead to side control, mount, or submission opportunities if not properly defended. Advanced practitioners chain stack defense directly into offensive transitions, using the opponent's failed pass as an opportunity to sweep, submit, or transition to more dynamic guard positions. The defensive-to-offensive flow that characterizes high-level guard play begins with mastering this fundamental defensive sequence.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,11 +32,11 @@ This technique is critical for guard players at all levels, as the stack pass re
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Success | [[Open Guard]] | 15% |
-| Failure | [[Half Guard]] | 15% |
-| Failure | [[Side Control]] | 15% |
-| Counter | [[Mount]] | 5% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Success | [[Positions/Open Guard]] | 15% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 15% |
+| Counter | [[Positions/Mount]] | 5% |
 
 
 </section>
@@ -198,31 +198,31 @@ Stack defense integrates into the broader guard retention system as one of sever
 ## Related Techniques
 
 
-- [[Guard Recovery]] - Core principle applied throughout stack defense
+- [[Principles/Guard Recovery]] - Core principle applied throughout stack defense
 
-- [[Frame Creation]] - Essential technique for creating defensive space against stacking pressure
+- [[Principles/Frame Creation]] - Essential technique for creating defensive space against stacking pressure
 
-- [[Shrimping]] - Primary hip escape method used in angle creation during defense
+- [[Principles/Shrimping]] - Primary hip escape method used in angle creation during defense
 
-- [[Double Under Pass]] - Specific stack pass variation this defense counters
+- [[Transitions/Double Under Pass]] - Specific stack pass variation this defense counters
 
-- [[Granby Roll to Guard]] - Alternative defensive movement when traditional hip escape is blocked
+- [[Transitions/Granby Roll to Guard]] - Alternative defensive movement when traditional hip escape is blocked
 
-- [[Closed Guard]] - Primary position to recover after successful stack defense
+- [[Positions/Closed Guard]] - Primary position to recover after successful stack defense
 
-- [[Butterfly Guard]] - Alternative guard to establish after creating space from stack defense
+- [[Positions/Butterfly Guard]] - Alternative guard to establish after creating space from stack defense
 
-- [[Hip Bump Sweep]] - Offensive follow-up available after defending the stack
+- [[Transitions/Hip Bump Sweep]] - Offensive follow-up available after defending the stack
 
-- [[Defensive Framing]] - Core principle governing frame placement against pressure passes
+- [[Principles/Defensive Framing]] - Core principle governing frame placement against pressure passes
 
-- [[Bridge and Shrimp]] - Combined movement pattern for creating explosive space under stack pressure
+- [[Principles/Bridge and Shrimp]] - Combined movement pattern for creating explosive space under stack pressure
 
-- [[Over-Under Pass]] - Stack pass variation that this defense addresses
+- [[Transitions/Over-Under Pass]] - Stack pass variation that this defense addresses
 
-- [[Half Guard]] - Recovery position when full guard cannot be re-established
+- [[Positions/Half Guard]] - Recovery position when full guard cannot be re-established
 
-- [[Open Guard]] - Alternative guard recovery when closed guard re-lock is not possible
+- [[Positions/Open Guard]] - Alternative guard recovery when closed guard re-lock is not possible
 
 
 </section>

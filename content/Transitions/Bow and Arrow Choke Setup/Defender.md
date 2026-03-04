@@ -158,7 +158,7 @@ The critical defensive insight is that the attacker must temporarily compromise 
 
 Defenders must also recognize that the Bow and Arrow Setup exists within a broader back attack chain. Defending the collar grip too aggressively with the free hand may expose the neck to rear naked choke. Conversely, prioritizing neck defense may allow uncontested collar grip establishment. Intelligent defense requires balancing these threats, using body positioning and hip movement to address the systemic vulnerability rather than focusing exclusively on hand fighting against a single attack vector.
 
-**Opponent's Starting Position**: [[Gift Wrap]] (Top)
+**Opponent's Starting Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
 
@@ -197,28 +197,28 @@ Defenders must also recognize that the Bow and Arrow Setup exists within a broad
 ### 1. Two-on-one collar grip strip with free hand and recovering trapped hand
 
 - **When to use**: Immediately when you feel the attacker's fingers entering your collar, before the grip achieves full depth near the back of your neck
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Attacker returns to standard Gift Wrap position without collar grip, resetting their attack sequence and buying defensive time
 - **Risk**: Committing the free hand to grip stripping removes neck defense against the rear naked choke, creating vulnerability if the attacker abandons collar and attacks the neck
 
 ### 2. Aggressive hip escape and rotation toward attacker during grip transfer phase
 
 - **When to use**: When you feel the Gift Wrap pressure decrease as the attacker shifts control emphasis to the collar grip, indicating the grip transfer window
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Creates enough rotation and distance to escape to turtle position, breaking the back control configuration and forcing the attacker to re-establish control
 - **Risk**: If the attacker maintains sufficient hook control, the rotation may be absorbed and you end up with both Gift Wrap recovered and collar grip partially established in a worse position
 
 ### 3. Shoulder shrug and chin tuck defense to deny collar depth
 
 - **When to use**: As a preventive measure throughout the entire sequence, elevating the choking-side shoulder and driving chin toward chest to compress available collar space
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Attacker cannot achieve sufficient collar depth for a finishing grip, forcing them to abandon the Bow and Arrow path and return to alternative attacks from Gift Wrap
 - **Risk**: Purely defensive posture that delays but does not escape the position, and extended time in Gift Wrap allows the attacker to find alternative attack sequences
 
 ### 4. Trapped arm recovery explosion during collar grip establishment
 
 - **When to use**: When you detect the attacker has released some Gift Wrap tension to reach for the collar with their other hand, creating a recovery window for the trapped arm
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Recovery of the trapped arm restores full two-handed defensive capability, dramatically reducing success probability of any subsequent collar grip or choke attempt
 - **Risk**: Failed recovery attempt may cause the attacker to tighten both the Gift Wrap and accelerate the collar grip establishment before you can defend either
 
@@ -230,11 +230,11 @@ Defenders must also recognize that the Bow and Arrow Setup exists within a broad
 
 ## Best-Case Outcomes for Defender
 
-### → [[Gift Wrap]]
+### → [[Positions/Gift Wrap]]
 
 Strip the collar grip before it achieves full depth by using your free hand to peel fingers from the collar material, or recover the trapped arm during the grip transfer window when the attacker's Gift Wrap pressure decreases. Both actions reset the attacker to standard Gift Wrap without the collar grip advantage, buying time and defensive options.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Exploit the grip transfer moment by executing an aggressive hip escape and rotation when the attacker loosens Gift Wrap control to establish the collar grip. Drive your hips away from the attacker while simultaneously turning belly-down. Even though turtle is a disadvantaged position, it breaks the back control configuration and eliminates the immediate bow and arrow threat.
 

@@ -146,7 +146,7 @@ description: "Complete guide to defending against the Escape Z-Lock Half Guard. 
 
 As the defender against this escape, you are the top player in Z-Lock Half Guard who has been applying effective pressure and passing strategy. Your goal is to recognize when the bottom player attempts to abandon their Z-Lock configuration and either maintain them in the deteriorating position or capitalize on the transition vulnerability to advance to a superior position like Flattened Half Guard or Side Control. The escape creates a brief window where the bottom player's legs are reconfiguring and their guard structure is weakened—this is your opportunity to advance. However, overcommitting to capitalize can also backfire if the bottom player is using the escape as a feint to set up other attacks.
 
-**Opponent's Starting Position**: [[Z-Lock Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against this escape, you are the top player in Z-Lock Half Guard
 ### 1. Drive crossface and increase shoulder pressure immediately upon feeling butterfly hook tension decrease
 
 - **When to use**: As soon as you feel the first leg control loosening, before the escape progresses to the hip escape phase
-- **Targets**: [[Z-Lock Half Guard]]
+- **Targets**: [[Positions/Half Guard/Z-Lock Half Guard]]
 - **If successful**: Bottom player is pinned flat under increased pressure and cannot complete the leg reconfiguration, remaining stuck in compromised Z-Lock
 - **Risk**: If bottom player has already established strong frames, your pressure increase may be absorbed without preventing the escape
 
 ### 2. Initiate knee slice pass through the opening created when butterfly hook releases
 
 - **When to use**: Immediately after the butterfly hook disengages and before the bottom player can establish knee shield or close standard half guard
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Your slicing knee advances past their hip line and you achieve dominant passing position through the transition gap
 - **Risk**: If the bottom player anticipated this and established a knee shield quickly, you may end up in a worse passing position against their knee shield half guard
 
 ### 3. Control bottom player's inside knee to prevent standard half guard leg repositioning
 
 - **When to use**: During the lockdown release phase when the bottom player is attempting to close their legs into standard half guard entanglement
-- **Targets**: [[Z-Lock Half Guard]]
+- **Targets**: [[Positions/Half Guard/Z-Lock Half Guard]]
 - **If successful**: Bottom player cannot close standard half guard and is forced to either revert to compromised Z-Lock or accept open guard position
 - **Risk**: Using your hand to control the knee temporarily reduces your upper body pressure, which may allow the bottom player to establish underhook
 
 ### 4. Sprawl hips back and drive weight downward to flatten bottom player during hip escape attempt
 
 - **When to use**: When the bottom player attempts the hip escape motion during the transition, driving your weight into their chest and hips to pin them flat
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Bottom player is flattened on their back without functional guard configuration, creating immediate passing opportunities
 - **Risk**: Sprawling too aggressively may allow the bottom player to duck under for deep half guard entry
 
@@ -217,11 +217,11 @@ As the defender against this escape, you are the top player in Z-Lock Half Guard
 
 ## Best-Case Outcomes for Defender
 
-### → [[Z-Lock Half Guard]]
+### → [[Positions/Half Guard/Z-Lock Half Guard]]
 
 Recognize the escape attempt early through decreasing butterfly hook tension and immediately increase crossface and shoulder pressure before the reconfiguration progresses. Control their inside arm to prevent frame establishment. The bottom player is forced to abandon the escape attempt and remains in the deteriorating Z-Lock where your passing pressure continues.
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Allow the escape to progress to the point where leg controls are partially released, then aggressively drive forward with crossface and hip pressure to flatten the bottom player before they can establish standard half guard architecture. Time your advance to the window between lockdown release and standard guard closure—this is when the bottom player is most vulnerable.
 

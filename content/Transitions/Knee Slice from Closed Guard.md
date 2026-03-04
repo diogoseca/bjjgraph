@@ -21,7 +21,7 @@ Strategically, the knee slice from closed guard eliminates the dangerous interme
 
 The technique demands precise coordination between guard breaking mechanics and knee slice entry. The top player must balance posture maintenance and upper body control during the guard opening phase with the aggressive forward drive and diagonal pressure required for the knee slice. Success depends on crossface timing, hip-to-thigh pressure, and far hip control that prevents the bottom player from recovering guard or executing counter-sweeps during the narrow transitional window between guard break and pass completion.
 
-**From Position**: [[Closed Guard]] (Top)
+**From Position**: [[Positions/Closed Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique demands precise coordination between guard breaking mechanics and 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Closed Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The knee slice from closed guard occupies a critical position in the guard passi
 ## Related Techniques
 
 
-- [[Closed Guard]] - Source position where this transition begins with the top player trapped inside closed guard
+- [[Positions/Closed Guard]] - Source position where this transition begins with the top player trapped inside closed guard
 
-- [[Half Guard]] - Primary target position achieved through successful knee slice execution
+- [[Positions/Half Guard]] - Primary target position achieved through successful knee slice execution
 
-- [[Knee Shield Half Guard]] - Common defensive structure the bottom player establishes to block the knee slice path
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Common defensive structure the bottom player establishes to block the knee slice path
 
-- [[Combat Base]] - Posture position often used to establish base before initiating the guard break sequence
+- [[Positions/Combat Base]] - Posture position often used to establish base before initiating the guard break sequence
 
-- [[Headquarters Position]] - Alternative passing position if the knee slice stalls and the passer needs to reset angle
+- [[Positions/Headquarters Position]] - Alternative passing position if the knee slice stalls and the passer needs to reset angle
 
-- [[Side Control]] - Advancement target from half guard top after completing the knee slice transition
+- [[Positions/Side Control]] - Advancement target from half guard top after completing the knee slice transition
 
-- [[Open Guard]] - Position the bottom player may recover to if guard opens without immediate passing pressure
+- [[Positions/Open Guard]] - Position the bottom player may recover to if guard opens without immediate passing pressure
 
-- [[Butterfly Guard]] - Alternative guard the bottom player may establish if knee slice is delayed after guard break
+- [[Positions/Butterfly Guard]] - Alternative guard the bottom player may establish if knee slice is delayed after guard break
 
-- [[De La Riva Guard]] - Recovery guard the bottom player may attempt during the transition if they can hook the lead leg
+- [[Positions/De La Riva Guard]] - Recovery guard the bottom player may attempt during the transition if they can hook the lead leg
 
-- [[Knee Cut from Headquarters]] - Related knee slice technique initiated from headquarters position rather than directly from closed guard
+- [[Transitions/Knee Cut from Headquarters]] - Related knee slice technique initiated from headquarters position rather than directly from closed guard
 
 
 </section>

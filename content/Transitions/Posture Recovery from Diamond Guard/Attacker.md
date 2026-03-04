@@ -186,7 +186,7 @@ description: "Master posture recovery from diamond guard as the top player. Step
 
 As the top player trapped in diamond guard, your immediate priority is breaking the dual-point control system before the bottom player launches submission chains. The diamond frame uses converging force vectors from the overhook and head control that are mutually reinforcing — addressing them requires a deliberate sequence rather than brute force. Your free hand is your primary tool for dismantling the frame one control point at a time, while hip drive and head positioning provide the structural recovery force. Success depends on patience, correct sequencing, and explosive commitment when the frame weakens. Rushing any step or attempting to power through the diamond typically results in deeper entanglement or submission exposure.
 
-**From Position**: [[Diamond Guard]] (Top)
+**From Position**: [[Positions/Closed Guard/Diamond Guard]] (Top)
 
 </section>
 
@@ -240,9 +240,9 @@ As the top player trapped in diamond guard, your immediate priority is breaking 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Failure | [[Diamond Guard]] | 35% |
-| Counter | [[Armbar Control]] | 20% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Failure | [[Positions/Closed Guard/Diamond Guard]] | 35% |
+| Counter | [[Positions/Armbar Control]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the top player trapped in diamond guard, your immediate priority is breaking 
 
 ## Opponent Counters
 
-- **Opponent tightens closed guard legs and increases heel pull during hip drive to prevent distance creation** (Effectiveness: High) - Your Response: If hip drive is stalled by tight legs, switch to standing posture recovery variant. Post one foot and use leg drive to generate vertical force that the closed guard squeeze cannot match horizontally. → Leads to [[Diamond Guard]]
-- **Opponent releases head control preemptively and shoots for triangle when you begin circling your head** (Effectiveness: Medium) - Your Response: When you feel head control release, immediately tuck your chin and drive your freed head to the opposite side of the triangle threat. Post your free hand inside their thigh to prevent the leg from closing across your neck. Continue posture recovery with both hands now available. → Leads to [[Armbar Control]]
-- **Opponent deepens overhook and switches to kimura grip when you address head control first** (Effectiveness: Medium) - Your Response: If the overhook converts to kimura grip, immediately straighten the trapped arm and drive it toward the mat to prevent the rotation. Use your free hand to control their wrist on the kimura grip while driving hips backward to create distance. The straight arm position neutralizes the kimura angle. → Leads to [[Diamond Guard]]
-- **Opponent angles hips and begins omoplata rotation when you attempt arm extraction from overhook** (Effectiveness: Medium) - Your Response: If you feel hip rotation toward omoplata, immediately drive your weight forward over the opponent and post your free hand past their hip. Stack their hips to flatten the rotation angle. Pull your trapped arm toward your centerline rather than away from their body. → Leads to [[Armbar Control]]
+- **Opponent tightens closed guard legs and increases heel pull during hip drive to prevent distance creation** (Effectiveness: High) - Your Response: If hip drive is stalled by tight legs, switch to standing posture recovery variant. Post one foot and use leg drive to generate vertical force that the closed guard squeeze cannot match horizontally. → Leads to [[Positions/Closed Guard/Diamond Guard]]
+- **Opponent releases head control preemptively and shoots for triangle when you begin circling your head** (Effectiveness: Medium) - Your Response: When you feel head control release, immediately tuck your chin and drive your freed head to the opposite side of the triangle threat. Post your free hand inside their thigh to prevent the leg from closing across your neck. Continue posture recovery with both hands now available. → Leads to [[Positions/Armbar Control]]
+- **Opponent deepens overhook and switches to kimura grip when you address head control first** (Effectiveness: Medium) - Your Response: If the overhook converts to kimura grip, immediately straighten the trapped arm and drive it toward the mat to prevent the rotation. Use your free hand to control their wrist on the kimura grip while driving hips backward to create distance. The straight arm position neutralizes the kimura angle. → Leads to [[Positions/Closed Guard/Diamond Guard]]
+- **Opponent angles hips and begins omoplata rotation when you attempt arm extraction from overhook** (Effectiveness: Medium) - Your Response: If you feel hip rotation toward omoplata, immediately drive your weight forward over the opponent and post your free hand past their hip. Stack their hips to flatten the rotation angle. Pull your trapped arm toward your centerline rather than away from their body. → Leads to [[Positions/Armbar Control]]
 
 
 </section>

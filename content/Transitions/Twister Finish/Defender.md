@@ -158,7 +158,7 @@ The primary defensive strategy centers on preventing the figure-four leg lock fr
 
 Critically, the Twister is a submission where tapping early is not optional but mandatory for safety. Unlike joint locks where the defender may feel gradual pressure building in a single joint, spinal compression distributes across multiple vertebrae and can reach injury threshold with little warning. Defenders must develop the discipline to tap at the first sensation of thoracic tightness or rotational pressure rather than attempting to fight through the submission. Training the defensive recognition and response sequence is essential for any practitioner whose training partners use the 10th Planet system or Twister-based attacks.
 
-**Opponent's Starting Position**: [[Russian Cowboy]] (Top)
+**Opponent's Starting Position**: [[Positions/Russian Cowboy]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Critically, the Twister is a submission where tapping early is not optional but 
 ### 1. Grip your own leg at the knee or ankle to physically block the attacker's free leg from crossing your body and completing the figure-four lock
 
 - **When to use**: Immediately when you feel the attacker's free leg lift off the mat or begin to swing across your hip line during the Russian Cowboy to figure-four transition
-- **Targets**: [[Russian Cowboy]]
+- **Targets**: [[Positions/Russian Cowboy]]
 - **If successful**: The figure-four cannot be completed and the attacker remains in Russian Cowboy with a single hook, forced to either hand fight your grip or abandon the Twister attempt for alternative attacks
 - **Risk**: If the attacker breaks your grip with two-on-one control, you have lost time and the figure-four may complete while your arms are occupied with the grip fight rather than framing
 
 ### 2. Turn aggressively into the attacker by bridging toward them and rotating your hips to face them, driving your near shoulder into their chest while the figure-four is not yet locked
 
 - **When to use**: During the transition window when the attacker is threading their free leg and has temporarily reduced base and upper body control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You face the attacker and recover to half guard or closed guard, completely eliminating the Twister threat and forcing them to disengage the hook or work from guard
 - **Risk**: If the attacker maintains seatbelt control during your turn, they may convert your rotation into a tighter back control position or use your momentum to complete the figure-four
 
 ### 3. Straighten your body explosively while pushing the attacker's hooking leg away with both hands, extending your hips to break the pinching pressure of the figure-four
 
 - **When to use**: After the figure-four has been established but before the attacker secures head and shoulder control for the rotational finish
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The figure-four loosens or breaks entirely, allowing you to extract your trapped leg and recover to half guard or scramble to turtle position
 - **Risk**: If extension fails to break the figure-four, you have straightened your leg into a position vulnerable to calf slicer attack and expended significant energy without improving position
 
 ### 4. Tuck both arms tight to your body and deny the attacker's top arm access to your far wrist or shoulder, preventing the cross-body pull needed for spinal rotation
 
 - **When to use**: When the figure-four is locked and the attacker releases the seatbelt to establish head and shoulder control for the finish
-- **Targets**: [[Russian Cowboy]]
+- **Targets**: [[Positions/Russian Cowboy]]
 - **If successful**: The attacker cannot create the opposed rotational force needed for the Twister without controlling your far shoulder, stalling the submission and forcing them to hand fight or transition to alternative attacks
 - **Risk**: Arm tucking alone does not address the hip anchor and the attacker can maintain the figure-four indefinitely while working to pry your arms open
 
@@ -229,11 +229,11 @@ Critically, the Twister is a submission where tapping early is not optional but 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Russian Cowboy]]
+### → [[Positions/Russian Cowboy]]
 
 Prevent the figure-four from completing by gripping your own leg early, maintaining the position in standard Russian Cowboy where back escape options remain available and the Twister is not yet threatening. Deny the arm controls needed for spinal rotation even if the figure-four locks by tucking arms tight.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Turn aggressively into the attacker during the transition window when their base is compromised from threading the free leg. Drive your near shoulder into their chest and rotate your hips to face them, extracting your trapped leg and recovering to half guard where you can establish frames and begin standard half guard bottom offense.
 

@@ -158,7 +158,7 @@ Your primary objective is to deny the space needed for the shrimp by maintaining
 
 From a strategic standpoint, the best defense against Frame and Shrimp to Guard is not waiting for it to happen but rather transitioning out of leg drag control before the escape window opens. Leg drag is inherently transitional, and your goal should be consolidation to side control, mount, or back take within 3-5 seconds. If you find yourself repeatedly defending against shrimp escapes, you are staying in leg drag too long.
 
-**Opponent's Starting Position**: [[Leg Drag Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ From a strategic standpoint, the best defense against Frame and Shrimp to Guard 
 ### 1. Collapse the shoulder frame by driving your weight forward and circling your trapped shoulder past their forearm while increasing crossface pressure
 
 - **When to use**: When you feel their near-side forearm establishing against your shoulder before they have completed the full frame structure
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: Their primary frame collapses and they cannot generate the push needed for an effective shrimp, keeping you in dominant leg drag control
 - **Risk**: If you overcommit forward, they may use your momentum to execute a different escape such as turning into you for an underhook
 
 ### 2. Follow the shrimp by immediately driving your hips forward and re-establishing chest contact as they attempt to create space, pulling their trapped leg tighter across their body
 
 - **When to use**: When you feel the explosive hip escape beginning but their frames are not strong enough to prevent you from following
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: You close the space they created and re-establish leg drag control, forcing them to restart their escape sequence with less energy
 - **Risk**: If their frames are strong, driving forward may create a stalemate that drains your energy without advancing position
 
 ### 3. Abandon the leg drag and immediately transition to side control consolidation by releasing their leg, driving your crossface, and establishing hip-to-hip contact in standard side control
 
 - **When to use**: When the bottom player's shrimp creates enough space that maintaining leg drag is becoming a losing battle, but they have not yet recovered guard
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You exchange leg drag control for the more consolidated side control position, which is worth 3 points and removes the guard recovery threat
 - **Risk**: If you release the leg too slowly, they complete the guard recovery to open guard before you can consolidate side control
 
 ### 4. Redirect to back take by circling behind them as they shrimp, using their lateral movement to expose their back rather than fighting to maintain frontal control
 
 - **When to use**: When they shrimp but turn their shoulders during the escape, exposing their back in the process
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: Their escape attempt becomes your entry to back control, turning their movement into a positional disaster for them
 - **Risk**: If they keep their shoulders flat and do not expose their back, your circular movement may create space for their guard recovery
 
@@ -229,11 +229,11 @@ From a strategic standpoint, the best defense against Frame and Shrimp to Guard 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Drag Control]]
+### → [[Positions/Leg Drag Control]]
 
 Collapse their frames before the shrimp by driving your shoulder past their forearm and increasing hip pressure. Pull their trapped leg tighter across their body while following any hip movement. The key is addressing frames early—once the explosive shrimp fires with strong frames, recovery is difficult.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When their shrimp creates space but they have not yet extracted their leg, release the leg drag grip and immediately drive into standard side control. Establish crossface and hip-to-hip contact before they can insert a knee shield or recover guard. This exchanges one dominant position for another while denying the escape.
 

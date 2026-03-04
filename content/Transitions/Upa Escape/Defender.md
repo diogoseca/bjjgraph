@@ -154,7 +154,7 @@ description: "How to defend against the Upa Escape from mount in BJJ. Recognitio
 
 Defending the Upa Escape from the mounted position requires the top player to maintain awareness of the bottom player's trap setups while continuing offensive pressure. The upa is the most fundamental mount escape and will be attempted constantly at all skill levels, making proficiency in its defense a non-negotiable skill for anyone who wants to hold mount effectively. The core defensive principle is base management — maintaining at least three points of contact with the mat at all times, with your weight distributed so that no single arm-and-leg trap can eliminate your ability to post. The defender must balance two competing priorities: staying safe against the upa by maintaining wide base and rearward posture, versus pressing forward to threaten submissions and maintain offensive pressure. Sitting too far back makes the mount passive and opens elbow escape opportunities. Leaning too far forward creates the exact weight shift the upa exploits. The solution is active, dynamic base maintenance where you constantly adjust your posting positions based on the bottom player's trap attempts, using their escape efforts as triggers for submission entries and positional advancement rather than merely absorbing their movement.
 
-**Opponent's Starting Position**: [[Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the Upa Escape from the mounted position requires the top player to ma
 ### 1. Post free hand wide on the mat at 45 degrees on the escape side to create a tripod that arrests the rolling momentum
 
 - **When to use**: When you feel the bridge beginning but still have one hand free — this is the most fundamental upa defense and should be reflexive
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Opponent's bridge force is absorbed by your posted hand, they return to flat on their back having expended energy, and you maintain mount with improved base awareness
 - **Risk**: If you post too late or too close to your body, the rotational force of the bridge may carry you past the posting point, resulting in the reversal completing
 
 ### 2. Withdraw the trapped arm by circling your elbow down and away from their grip before they can secure the trap, then immediately swim your arm inside to establish underhook control
 
 - **When to use**: When you feel them cupping behind your tricep in the early phase of the arm trap setup before the bridge initiates — this preempts the escape entirely
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Escape is neutralized before it begins, opponent wastes energy on failed setup, and you can use the arm recovery to establish dominant grips for submissions
 - **Risk**: Withdrawing the arm creates momentary space that a skilled opponent may exploit for elbow escape or hip escape if you do not immediately re-establish pressure
 
 ### 3. Swim your trapped-side leg free by extending it behind you and stepping wide, removing the foot trap and re-establishing base on that side
 
 - **When to use**: When opponent has hooked your foot but has not yet initiated the explosive bridge — clearing the foot trap eliminates their ability to complete the upa
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Without the foot trap, opponent cannot prevent you from stepping wide to establish base, making the upa mechanically impossible regardless of bridge power
 - **Risk**: Stepping the leg wide temporarily opens space on that side that could allow opponent to insert a knee for half guard recovery
 
 ### 4. Switch hips and begin taking the back as opponent commits to the bridge and roll, threading your far hook in as they rotate
 
 - **When to use**: When the upa bridge has already begun and you are being rolled — instead of fighting the reversal, flow with it and convert to back control
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You convert a defensive situation into the most dominant position in BJJ by inserting hooks and establishing seatbelt control as they roll, ending up on their back
 - **Risk**: Requires precise timing — if you switch hips too early, they may feel it and abort the upa; if too late, you complete the reversal and end up in their guard
 
@@ -224,11 +224,11 @@ Defending the Upa Escape from the mounted position requires the top player to ma
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Maintain at least three base points at all times by posting your free hand wide at 45 degrees whenever you feel the bridge initiate. Proactively strip their arm trap by circling your elbow down before they can secure the grip. Clear foot traps by extending your leg and stepping wide. Keep your weight through your hips rather than forward on your hands to deny them the forward weight shift they need.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the upa bridge is committed and you cannot post in time to prevent the roll, flow with the rotational momentum and switch your hips by stepping your far leg over their body. Thread your far hook in as they rotate, then establish seatbelt grip with your arm reaching under their armpit and over their shoulder. Complete the back take before they can settle into top position after the roll, converting their escape attempt into a worse position for them.
 

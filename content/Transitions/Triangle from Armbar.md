@@ -21,7 +21,7 @@ The mechanics of this transition center on leg reconfiguration while maintaining
 
 Strategically, the Triangle from Armbar serves as a cornerstone of the armbar-triangle-omoplata submission chain. Its existence forces the armbar defender into a perpetual dilemma: the defensive postures that prevent the armbar finish directly expose the triangle entry. Advanced practitioners use this transition not merely as a backup plan when the armbar fails, but as a deliberate forcing mechanism—attacking the armbar specifically to provoke the defensive reaction that opens the triangle. This creates a layered offensive system where each attack reinforces the others, making the combined threat far greater than any single submission alone.
 
-**From Position**: [[Armbar Control]] (Top)
+**From Position**: [[Positions/Armbar Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Triangle from Armbar serves as a cornerstone of the armbar-tr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Control]] | 55% |
-| Failure | [[Armbar Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Triangle Control]] | 55% |
+| Failure | [[Positions/Armbar Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,27 +195,27 @@ The Triangle from Armbar sits at the heart of the classic armbar-triangle-omopla
 ## Related Techniques
 
 
-- [[Armbar Control]] - Source position from which this transition is initiated when opponent defends the armbar
+- [[Positions/Armbar Control]] - Source position from which this transition is initiated when opponent defends the armbar
 
-- [[Triangle Control]] - Target position reached on successful transition, establishing triangle choke control
+- [[Positions/Triangle Control]] - Target position reached on successful transition, establishing triangle choke control
 
-- [[Half Guard]] - Counter outcome position when opponent escapes during the transition window
+- [[Positions/Half Guard]] - Counter outcome position when opponent escapes during the transition window
 
-- [[Triangle Setup]] - Related transition achieving similar triangle entry from different starting positions
+- [[Transitions/Triangle Setup]] - Related transition achieving similar triangle entry from different starting positions
 
-- [[Triangle to Armbar]] - Reverse chain link completing the bidirectional armbar-triangle submission cycle
+- [[Transitions/Triangle to Armbar]] - Reverse chain link completing the bidirectional armbar-triangle submission cycle
 
-- [[Armbar Finish]] - Primary alternative when armbar remains viable without needing triangle transition
+- [[Transitions/Armbar Finish]] - Primary alternative when armbar remains viable without needing triangle transition
 
-- [[Back Take from Armbar]] - Alternative transition option from armbar control when triangle is unavailable
+- [[Transitions/Back Take from Armbar]] - Alternative transition option from armbar control when triangle is unavailable
 
-- [[Hitchhiker Escape from Armbar]] - Key defensive technique the opponent may attempt during this transition
+- [[Transitions/Hitchhiker Escape from Armbar]] - Key defensive technique the opponent may attempt during this transition
 
-- [[Belly Down Armbar Transition]] - Alternative armbar chain option when opponent rolls during transition attempt
+- [[Transitions/Belly Down Armbar Transition]] - Alternative armbar chain option when opponent rolls during transition attempt
 
-- [[Omoplata Control]] - Third link in the armbar-triangle-omoplata chain accessible from triangle control
+- [[Positions/Omoplata Control]] - Third link in the armbar-triangle-omoplata chain accessible from triangle control
 
-- [[Mounted Triangle]] - Variant outcome when armbar was entered from mount and transition preserves top position
+- [[Positions/Mount/Mounted Triangle]] - Variant outcome when armbar was entered from mount and transition preserves top position
 
 
 </section>

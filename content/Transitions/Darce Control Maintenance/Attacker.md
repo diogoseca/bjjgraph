@@ -180,7 +180,7 @@ description: "Master the attacker's approach to maintaining Darce Control in BJJ
 
 As the attacker maintaining Darce Control, your primary objective is preserving the arm-in choke configuration while systematically tightening your position toward either a submission finish or positional advancement. The maintenance phase demands a balance between active grip management and energy conservation, as forcing the choke prematurely burns energy while passive holding allows the opponent to organize an escape. Effective maintenance uses body weight and structural alignment rather than muscular squeezing, creating sustainable pressure that degrades the opponent's defenses over time. Every micro-adjustment should either deepen your grip, improve your angle, or remove one of the opponent's defensive options.
 
-**From Position**: [[Darce Control]] (Top)
+**From Position**: [[Positions/Darce Control]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker maintaining Darce Control, your primary objective is preserving 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 55% |
-| Failure | [[Front Headlock]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Darce Control]] | 55% |
+| Failure | [[Positions/Front Headlock]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker maintaining Darce Control, your primary objective is preserving 
 
 ## Opponent Counters
 
-- **Opponent attempts arm extraction by pulling trapped arm free using their free hand** (Effectiveness: High) - Your Response: Immediately drive your elbow deeper past their spine and increase shoulder pressure into the side of their head. Pinch your elbows tighter together to close the gap they are trying to create. If they get the arm partially free, switch to a tighter grip configuration. → Leads to [[Front Headlock]]
-- **Opponent rolls toward the choking arm side to relieve pressure and recover guard** (Effectiveness: Medium) - Your Response: Follow the roll by walking your hips in the same direction while maintaining chest contact. As they roll, look to transition to mount by stepping your leg over their body, or take the back if they fully commit to turning away from you. → Leads to [[Half Guard]]
-- **Opponent posts free hand on the mat and drives forward to create space under your shoulder** (Effectiveness: Low) - Your Response: Sprawl your hips back harder to drop more weight through your shoulder. Their posting arm creates minimal space if your chest-to-back connection is maintained. Use the posting attempt to walk your grip deeper while their attention is on their free hand. → Leads to [[Darce Control]]
-- **Opponent hand fights the grip lock by prying at your figure-four with their free hand** (Effectiveness: Medium) - Your Response: Switch from figure-four to gable grip or vice versa, making their grip-fighting targets move. Increase shoulder pressure to limit their ability to reach your hands. If they persistently attack the grip, transition to a tighter chin-strap variation or switch to anaconda configuration. → Leads to [[Front Headlock]]
+- **Opponent attempts arm extraction by pulling trapped arm free using their free hand** (Effectiveness: High) - Your Response: Immediately drive your elbow deeper past their spine and increase shoulder pressure into the side of their head. Pinch your elbows tighter together to close the gap they are trying to create. If they get the arm partially free, switch to a tighter grip configuration. → Leads to [[Positions/Front Headlock]]
+- **Opponent rolls toward the choking arm side to relieve pressure and recover guard** (Effectiveness: Medium) - Your Response: Follow the roll by walking your hips in the same direction while maintaining chest contact. As they roll, look to transition to mount by stepping your leg over their body, or take the back if they fully commit to turning away from you. → Leads to [[Positions/Half Guard]]
+- **Opponent posts free hand on the mat and drives forward to create space under your shoulder** (Effectiveness: Low) - Your Response: Sprawl your hips back harder to drop more weight through your shoulder. Their posting arm creates minimal space if your chest-to-back connection is maintained. Use the posting attempt to walk your grip deeper while their attention is on their free hand. → Leads to [[Positions/Darce Control]]
+- **Opponent hand fights the grip lock by prying at your figure-four with their free hand** (Effectiveness: Medium) - Your Response: Switch from figure-four to gable grip or vice versa, making their grip-fighting targets move. Increase shoulder pressure to limit their ability to reach your hands. If they persistently attack the grip, transition to a tighter chin-strap variation or switch to anaconda configuration. → Leads to [[Positions/Front Headlock]]
 
 
 </section>

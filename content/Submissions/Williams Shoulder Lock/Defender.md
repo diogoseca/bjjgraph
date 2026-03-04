@@ -156,7 +156,7 @@ description: "How to defend against Williams Shoulder Lock in BJJ. Recognition, 
 
 Defending the Williams Shoulder Lock requires early recognition and systematic response to an increasingly dangerous shoulder submission. The defender is typically caught in the opponent's Williams Guard with one arm trapped in an overhook configuration, facing escalating rotational pressure on the glenohumeral joint. The primary defensive challenge is that the attacker controls multiple points simultaneously: the overhook isolates your arm, their wrist grip prevents extraction, their hip angle creates the rotational fulcrum, and their legs prevent posturing. Successful defense demands addressing these control points in the correct order of priority. The absolute first priority is protecting your shoulder joint from damage by preventing external rotation and maintaining elbow alignment close to your body. Only after securing joint safety should you work on arm extraction and positional escape. Understanding the attacker's progression from overhook control to rotational finish gives you a timeline of defensive windows, each of which closes as the submission deepens. Early defense when the overhook is first established offers the highest success percentage, while late-stage defense once hip angle and rotation are engaged requires immediate tap awareness to prevent serious injury.
 
-**Opponent's Starting Position**: [[Williams Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Williams Guard]] (Bottom)
 
 
 </section>
@@ -195,21 +195,21 @@ Defending the Williams Shoulder Lock requires early recognition and systematic r
 ### 1. Early arm extraction using circular motion before overhook deepens
 
 - **When to use**: Immediately when you feel the overhook being established, before opponent secures wrist control or adjusts hip angle
-- **Targets**: [[Williams Guard]]
+- **Targets**: [[Positions/Williams Guard]]
 - **If successful**: Return to Williams Guard top position with arm free, enabling standard guard passing sequence
 - **Risk**: If extraction attempt is too aggressive or linear, opponent transitions to triangle or omoplata as your arm creates space
 
 ### 2. Posture recovery by driving hips forward and stacking opponent while protecting shoulder alignment
 
 - **When to use**: When opponent has overhook but has not yet established optimal hip angle for the rotational finish
-- **Targets**: [[Williams Guard]]
+- **Targets**: [[Positions/Williams Guard]]
 - **If successful**: Neutralize the submission angle and create opportunity for arm extraction or guard pass
 - **Risk**: If you drive forward without controlling opponent's legs, they may use your momentum for omoplata rotation or back take
 
 ### 3. Roll toward the trapped arm to relieve rotational pressure and scramble to neutral position
 
 - **When to use**: As a last-resort escape when shoulder rotation has begun and extraction is no longer available, but before full engagement
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Relieve shoulder pressure and potentially escape to scramble position or opponent's closed guard
 - **Risk**: Opponent may follow the roll and end up in mount or back control while maintaining arm control
 
@@ -239,11 +239,11 @@ Defending the Williams Shoulder Lock requires early recognition and systematic r
 
 ## Best-Case Outcomes for Defender
 
-### → [[Williams Guard]]
+### → [[Positions/Williams Guard]]
 
 Extract trapped arm using circular motion while maintaining posture and base, then immediately establish passing grips before opponent can re-engage overhook control
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Roll toward trapped arm side when rotation begins, using momentum to escape the submission angle and ending in opponent's closed guard where you can reset to a standard guard passing position
 

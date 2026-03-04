@@ -156,7 +156,7 @@ Defending the Inverted Triangle requires understanding that this attack exploits
 
 The defensive hierarchy mirrors standard triangle defense principles but with critical adjustments for the reversed angle. First priority is preventing the rotation from completing by recovering posture and creating distance during the transition. Second priority is extracting your trapped arm before the new configuration locks in. Third priority, if caught in the completed inverted triangle, is addressing the choking angle by squaring your hips and working systematic escape sequences. The inverted angle creates unique challenges because many practitioners have never drilled specific defenses against it, making recognition and early intervention even more important than technical escape ability.
 
-**Opponent's Starting Position**: [[Triangle Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Triangle Control]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The defensive hierarchy mirrors standard triangle defense principles but with cr
 ### 1. Posture recovery during rotation—straighten your spine and drive your head upward the moment you feel the opponent's hips begin to swing, using both hands to push against their hips or legs
 
 - **When to use**: Early in the rotation before the opponent has completed the 180-degree hip swing and before they establish new head control from the inverted position
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Opponent's rotation stalls with incomplete inversion, returning you to standard triangle defense position where you can continue systematic escape
 - **Risk**: If posture recovery fails, you have committed your hands to pushing rather than defending, potentially allowing a tighter inverted lock
 
 ### 2. Arm extraction—use the momentary loosening of the triangle lock during rotation to pull your trapped arm free by tucking your elbow and driving it toward your own hip
 
 - **When to use**: During the mid-rotation phase when the attacker's legs must adjust and the triangle configuration is at its loosest point before relocking
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: With your arm free, the triangle cannot function as a choke, and you can begin passing or recovering to a neutral position
 - **Risk**: If extraction fails and the attacker relocks, you may have created additional space that allows a tighter inverted configuration
 
 ### 3. Forward drive and stack—drive your weight forward aggressively to flatten the attacker onto their shoulders, compressing their rotation arc and making it mechanically difficult to complete the inversion
 
 - **When to use**: As soon as you feel the hip rotation begin, before the opponent has swung past the halfway point of the 180-degree rotation
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Attacker is flattened under your weight with incomplete inversion, forced to abandon the inverted triangle and potentially exposing them to a pass
 - **Risk**: Driving forward against an opponent who has already completed rotation may actually help them lock the inverted triangle tighter from the compressed angle
 
 ### 4. Spin with the rotation—instead of fighting the opponent's rotation, spin your own body in the same direction to nullify the angle change and prevent them from achieving the reverse choking position
 
 - **When to use**: When the rotation is already past the point of no return and posture recovery is no longer viable, typically past the 90-degree mark
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: By matching their rotation you prevent the perpendicular angle needed for the choke, potentially ending up in a scramble where you can disengage entirely
 - **Risk**: Spinning creates dynamic movement that could result in the attacker achieving back control if you over-rotate or lose base
 
@@ -227,11 +227,11 @@ The defensive hierarchy mirrors standard triangle defense principles but with cr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Triangle Control]]
+### → [[Positions/Triangle Control]]
 
 Recover posture during the rotation phase before the opponent completes the inversion, or stack them to flatten the rotation and stall the attack, returning to the standard triangle defense position where systematic escape sequences apply
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Extract your trapped arm during the momentary loosening of the triangle lock mid-rotation, then use the freed arm to post, create distance, and work toward passing or disengaging to a neutral scramble position
 

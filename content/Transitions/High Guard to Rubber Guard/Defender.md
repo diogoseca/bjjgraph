@@ -154,7 +154,7 @@ description: "Learn to defend the High Guard to Rubber Guard transition from top
 
 As the top player caught in your opponent's closed guard, recognizing the High Guard to Rubber Guard transition early is essential for preventing one of the most controlling bottom positions in modern grappling. Once Rubber Guard is established, your escape options narrow significantly and submission threats multiply through triangles, omoplatas, and gogoplatas. Your defensive priority is preventing the posture collapse and high guard climb that precede the leg threading action. Early intervention during the posture break or guard climb phases offers the highest probability of successfully defending this transition. Every phase you allow the bottom player to complete makes escape exponentially more difficult.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the top player caught in your opponent's closed guard, recognizing the High G
 ### 1. Drive hips back while straightening spine and pressing hands into opponent's hips to create a structural posture frame
 
 - **When to use**: As soon as you feel the opponent beginning to break your posture and before the guard has climbed above your waist level
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Returns you to standard closed guard top with maintained posture, completely denying the rubber guard transition
 - **Risk**: If opponent has strong grip control, failed posture recovery wastes energy and may result in deeper posture break
 
 ### 2. Keep elbows tight to body, circle arm out of overhook attempts, and use free hand to push opponent's controlling knee down
 
 - **When to use**: When opponent attempts to thread their arm for an overhook on your near-side arm during the guard climb phase
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Prevents the anchor point needed for rubber guard entry, keeping the engagement in standard closed guard
 - **Risk**: Focusing on arm defense may allow opponent to adjust grips and attempt alternative guard attacks
 
 ### 3. Post one foot on the mat and drive explosively to standing position while maintaining hands on opponent's hips for balance
 
 - **When to use**: When you feel the guard climbing high on your back and cannot recover posture from kneeling position
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Creates distance making rubber guard entry mechanically impossible and may break the guard entirely for passing
 - **Risk**: Standing creates opportunity for opponent to attempt overhead sweeps if their grips are well established
 
 ### 4. Drive shoulder pressure forward into opponent while keeping base wide to flatten them and prevent hip angle creation
 
 - **When to use**: When opponent has partially climbed guard but has not yet threaded the leg over your shoulder
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Prevents hip angling and leg threading by eliminating the space needed for angular displacement
 - **Risk**: Forward pressure may be redirected into omoplata or sweep if opponent has already established controlling grips
 
@@ -225,11 +225,11 @@ As the top player caught in your opponent's closed guard, recognizing the High G
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Stand up explosively when you feel the guard climbing high, breaking the ankle lock and creating distance that completely denies rubber guard entry while establishing an advantageous open guard passing position.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Apply immediate posture recovery with hands on opponent's hips and drive hips backward, collapsing the guard climb and returning to standard closed guard engagement where your escape options are more numerous.
 

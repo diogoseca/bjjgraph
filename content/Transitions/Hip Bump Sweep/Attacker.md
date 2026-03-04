@@ -178,7 +178,7 @@ The beauty of the Hip Bump Sweep lies in its versatility and chain attack potent
 
 The Hip Bump Sweep is also an excellent technique for developing timing, hip mobility, and the ability to off-balance opponents. It teaches practitioners to feel weight distribution and exploit moments of vulnerability. While beginners often struggle with the explosive hip movement and timing required, intermediate and advanced practitioners can execute this sweep with remarkable consistency, especially when integrated into a comprehensive guard attack system.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ The Hip Bump Sweep is also an excellent technique for developing timing, hip mob
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Mount]] | 60% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -242,11 +242,11 @@ The Hip Bump Sweep is also an excellent technique for developing timing, hip mob
 
 ## Opponent Counters
 
-- **Opponent posts their free hand on the mat to prevent being swept** (Effectiveness: High) - Your Response: Immediately transition to Kimura attack on the posted arm. The posting motion places their arm in perfect Kimura position with their hand on the mat and elbow exposed. This is the most common and highest-percentage chain attack from a defended Hip Bump. → Leads to [[Closed Guard]]
-- **Opponent pulls their controlled arm back forcefully to break your grip** (Effectiveness: Medium) - Your Response: Follow their arm back and transition to Guillotine choke or High Elbow Guillotine. As they pull back, their head comes forward into perfect guillotine position. Wrap your arm around their neck and lock up the choke before they can re-establish posture. → Leads to [[Closed Guard]]
-- **Opponent establishes extremely strong posture before you can execute the sweep** (Effectiveness: High) - Your Response: Abandon the Hip Bump temporarily and work to break their posture again using collar grips, overhooks, or by threatening other attacks like Triangle or Armbar. Strong posture makes the Hip Bump significantly less effective - re-break posture before reattempting. → Leads to [[Closed Guard]]
-- **Opponent sprawls their hips back as you begin the hip bump motion** (Effectiveness: Medium) - Your Response: If they sprawl early, you can often still complete the sweep with more emphasis on pulling their head down and driving through at a steeper angle. Alternatively, transition to a Sit-Up Sweep variation or use the forward momentum to set up a Guillotine. → Leads to [[Closed Guard]]
-- **Opponent drives forward aggressively to flatten you back down during the bump** (Effectiveness: Low) - Your Response: Their forward drive actually loads weight onto you, which you can redirect laterally with the 45-degree angle bump. Use their forward momentum against them by timing the bump as they commit their weight forward. This often makes the sweep easier rather than harder. → Leads to [[Closed Guard]]
+- **Opponent posts their free hand on the mat to prevent being swept** (Effectiveness: High) - Your Response: Immediately transition to Kimura attack on the posted arm. The posting motion places their arm in perfect Kimura position with their hand on the mat and elbow exposed. This is the most common and highest-percentage chain attack from a defended Hip Bump. → Leads to [[Positions/Closed Guard]]
+- **Opponent pulls their controlled arm back forcefully to break your grip** (Effectiveness: Medium) - Your Response: Follow their arm back and transition to Guillotine choke or High Elbow Guillotine. As they pull back, their head comes forward into perfect guillotine position. Wrap your arm around their neck and lock up the choke before they can re-establish posture. → Leads to [[Positions/Closed Guard]]
+- **Opponent establishes extremely strong posture before you can execute the sweep** (Effectiveness: High) - Your Response: Abandon the Hip Bump temporarily and work to break their posture again using collar grips, overhooks, or by threatening other attacks like Triangle or Armbar. Strong posture makes the Hip Bump significantly less effective - re-break posture before reattempting. → Leads to [[Positions/Closed Guard]]
+- **Opponent sprawls their hips back as you begin the hip bump motion** (Effectiveness: Medium) - Your Response: If they sprawl early, you can often still complete the sweep with more emphasis on pulling their head down and driving through at a steeper angle. Alternatively, transition to a Sit-Up Sweep variation or use the forward momentum to set up a Guillotine. → Leads to [[Positions/Closed Guard]]
+- **Opponent drives forward aggressively to flatten you back down during the bump** (Effectiveness: Low) - Your Response: Their forward drive actually loads weight onto you, which you can redirect laterally with the 45-degree angle bump. Use their forward momentum against them by timing the bump as they commit their weight forward. This often makes the sweep easier rather than harder. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

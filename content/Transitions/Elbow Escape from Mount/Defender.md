@@ -154,7 +154,7 @@ description: "Defend against the Elbow Escape from Mount by maintaining pressure
 
 Defending against the Elbow Escape from Mount means maintaining your dominant mount position while your opponent attempts to create space through hip escapes and frame creation. As the top player, your goal is to follow the bottom player's hip movement, prevent effective frame establishment, and convert their escape attempts into submission or positional advancement opportunities. Effective defense requires reading the bottom player's escape direction early through tactile sensitivity, maintaining heavy hip pressure that limits their shrimping range, and having immediate technical responses prepared for each phase of the escape sequence. The defender must balance keeping weight heavy enough to prevent escape while retaining enough mobility to follow the bottom player's movement and capitalize on the openings their escape attempts create.
 
-**Opponent's Starting Position**: [[Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against the Elbow Escape from Mount means maintaining your dominant mo
 ### 1. Follow hips and re-center weight immediately when you feel lateral movement
 
 - **When to use**: The moment you feel opponent's hips begin to shift laterally during any escape attempt
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Opponent remains under mount with energy depleted from the failed escape attempt and must restart their sequence
 - **Risk**: If you overchase their hips to one side, you may create space on the opposite side for a direction-switch escape
 
 ### 2. Advance to high mount by sliding knees toward armpits when opponent commits to framing on your hip
 
 - **When to use**: When opponent places frame on your hip and begins turning to their side, creating an opening above their arms
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Position advances to high mount where elbow escape becomes drastically more difficult and submission access increases significantly
 - **Risk**: Moving to high mount reduces your base stability and increases vulnerability to explosive bridge reversals
 
 ### 3. Isolate and attack the framing arm with Americana or wrist-pin control
 
 - **When to use**: When opponent extends their arm to create a frame, creating isolation opportunity on the exposed limb
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Submission opportunity created while simultaneously removing the frame that enables the escape
 - **Risk**: Overcommitting to the arm attack may allow opponent to complete the hip escape while your attention is on the limb
 
 ### 4. Insert far hook and transition to back control when opponent overcommits to turning
 
 - **When to use**: When opponent turns excessively to their side during the hip escape, exposing their back without maintaining elbow-knee connection
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Achieve back control which is a more dominant and higher-finishing position than mount
 - **Risk**: If the opponent is baiting the turn and maintains strong frames, they may recover guard during your transition attempt
 
@@ -225,11 +225,11 @@ Defending against the Elbow Escape from Mount means maintaining your dominant mo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Follow opponent's hip movement immediately by sliding knees to re-center, maintain heavy chest-to-chest pressure, and strip or neutralize their frame before they can chain a second hip escape
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When opponent overcommits to turning during their escape, immediately insert your far hook behind their bottom hip and secure seat belt grip to transition to back control before they can face you
 

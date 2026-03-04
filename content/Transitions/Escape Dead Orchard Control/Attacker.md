@@ -180,7 +180,7 @@ description: "Execute the Dead Orchard Control escape in BJJ. Step-by-step guide
 
 As the practitioner trapped in Dead Orchard Control, your task is to systematically dismantle the opponent's grip mechanics and positional pressure through frame-based defense and angular hip escapes. This is not a position where explosive movement succeeds - the deep anaconda configuration punishes panic with tighter compression and accelerated fatigue. Your approach must be methodical: establish frames first, create angles second, extract your trapped arm or recover guard third. Every movement should serve a specific purpose in the escape sequence, and energy conservation is paramount since the position is inherently draining for the bottom player. The escape demands that you read your opponent's weight shifts and grip adjustments to identify windows where your movements face reduced resistance, then execute technically precise escapes during those windows.
 
-**From Position**: [[Dead Orchard Control]] (Bottom)
+**From Position**: [[Positions/Dead Orchard Control]] (Bottom)
 
 </section>
 
@@ -233,11 +233,11 @@ As the practitioner trapped in Dead Orchard Control, your task is to systematica
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 30% |
-| Success | [[Half Guard]] | 10% |
-| Failure | [[Dead Orchard Control]] | 35% |
-| Counter | [[Back Control]] | 15% |
-| Counter | [[Game Over]] | 10% |
+| Success | [[Positions/Front Headlock]] | 30% |
+| Success | [[Positions/Half Guard]] | 10% |
+| Failure | [[Positions/Dead Orchard Control]] | 35% |
+| Counter | [[Positions/Back Control]] | 15% |
+| Counter | [[Positions/Game Over]] | 10% |
 
 
 </section>
@@ -246,11 +246,11 @@ As the practitioner trapped in Dead Orchard Control, your task is to systematica
 
 ## Opponent Counters
 
-- **Opponent re-tightens grip and increases shoulder pressure during hip escape attempt** (Effectiveness: High) - Your Response: Maintain frame at elbow and pause hip movement until pressure settles, then resume with smaller incremental shrimps timed to opponent's breathing cycles → Leads to [[Dead Orchard Control]]
-- **Opponent walks hips toward your head to accelerate anaconda finishing angle** (Effectiveness: High) - Your Response: Match their hip rotation by walking your hips in the same direction, or execute a forward roll in the direction of their rotation to invert and potentially recover guard → Leads to [[Game Over]]
-- **Opponent releases dead orchard to take back control when you create hip angle** (Effectiveness: Medium) - Your Response: As soon as you feel the grip release, immediately turn into the opponent rather than away to prevent hook insertion, working to recover guard before they establish back control → Leads to [[Back Control]]
-- **Opponent switches from anaconda to darce grip when you extract the trapped arm** (Effectiveness: Medium) - Your Response: Recognize the grip switch by the change in arm threading direction and immediately circle toward the newly threatened side while re-establishing neck frames → Leads to [[Dead Orchard Control]]
-- **Opponent flattens you completely to mat by driving weight forward and sprawling** (Effectiveness: High) - Your Response: Work to get at least one knee back under your hips before resuming escape sequence - use forearm frame to prevent total chest-to-mat contact and create minimum space for hip recovery → Leads to [[Dead Orchard Control]]
+- **Opponent re-tightens grip and increases shoulder pressure during hip escape attempt** (Effectiveness: High) - Your Response: Maintain frame at elbow and pause hip movement until pressure settles, then resume with smaller incremental shrimps timed to opponent's breathing cycles → Leads to [[Positions/Dead Orchard Control]]
+- **Opponent walks hips toward your head to accelerate anaconda finishing angle** (Effectiveness: High) - Your Response: Match their hip rotation by walking your hips in the same direction, or execute a forward roll in the direction of their rotation to invert and potentially recover guard → Leads to [[Positions/Game Over]]
+- **Opponent releases dead orchard to take back control when you create hip angle** (Effectiveness: Medium) - Your Response: As soon as you feel the grip release, immediately turn into the opponent rather than away to prevent hook insertion, working to recover guard before they establish back control → Leads to [[Positions/Back Control]]
+- **Opponent switches from anaconda to darce grip when you extract the trapped arm** (Effectiveness: Medium) - Your Response: Recognize the grip switch by the change in arm threading direction and immediately circle toward the newly threatened side while re-establishing neck frames → Leads to [[Positions/Dead Orchard Control]]
+- **Opponent flattens you completely to mat by driving weight forward and sprawling** (Effectiveness: High) - Your Response: Work to get at least one knee back under your hips before resuming escape sequence - use forearm frame to prevent total chest-to-mat contact and create minimum space for hip recovery → Leads to [[Positions/Dead Orchard Control]]
 
 
 </section>

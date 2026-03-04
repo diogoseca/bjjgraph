@@ -21,7 +21,7 @@ What makes the Outside Ashi Entry distinctive is its versatility - it can be exe
 
 This technique has become increasingly prevalent in modern competition due to its effectiveness in both gi and no-gi environments. The systematic approach to entering outside ashi creates a clear pathway to leg lock submissions while maintaining defensive integrity throughout the transition. Understanding this entry is essential for any practitioner looking to develop a comprehensive leg lock game, as it serves as a gateway to multiple finishing positions and creates dilemmas that force opponents into defensive reactions.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This technique has become increasingly prevalent in modern competition due to it
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Outside Ashi-Garami]] | 65% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 65% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -201,25 +201,25 @@ The outside ashi entry serves as a crucial gateway technique in modern leg entan
 ## Related Techniques
 
 
-- [[Inside Ashi Entry]] - Alternative entry method targeting same leg from different angle
+- [[Transitions/Inside Ashi Entry]] - Alternative entry method targeting same leg from different angle
 
-- [[Single Leg X Entry]] - Related entry often used as follow-up if outside ashi is defended
+- [[Transitions/Single Leg X Entry]] - Related entry often used as follow-up if outside ashi is defended
 
-- [[Reverse X-Guard]] - Transition pathway that can lead to outside ashi position
+- [[Positions/X-Guard/Reverse X-Guard]] - Transition pathway that can lead to outside ashi position
 
-- [[Saddle]] - Advanced follow-up position from established outside ashi
+- [[Positions/Ashi Garami/Saddle]] - Advanced follow-up position from established outside ashi
 
-- [[50-50 Entry from Standing]] - Alternative standing entry to leg entanglement system
+- [[Transitions/50-50 Entry from Standing]] - Alternative standing entry to leg entanglement system
 
-- [[Straight Ankle Lock]] - Primary submission available from outside ashi position
+- [[Submissions/Straight Ankle Lock]] - Primary submission available from outside ashi position
 
-- [[Outside Heel Hook]] - Advanced submission option from outside ashi where legal
+- [[Transitions/Outside Heel Hook]] - Advanced submission option from outside ashi where legal
 
-- [[Single Leg Entry]] - Traditional technique that can transition to outside ashi if defended
+- [[Transitions/Single Leg Entry]] - Traditional technique that can transition to outside ashi if defended
 
-- [[Outside Ashi-Garami]] - Target position achieved upon successful entry
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Target position achieved upon successful entry
 
-- [[Counter Ashi Entry]] - Opponent's counter-entanglement response to leg entry attempts
+- [[Transitions/Counter Ashi Entry]] - Opponent's counter-entanglement response to leg entry attempts
 
 
 </section>

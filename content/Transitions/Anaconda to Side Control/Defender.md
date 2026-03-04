@@ -154,7 +154,7 @@ description: "Master defensive strategies against the Anaconda to Side Control g
 
 As the defender against the Anaconda to Side Control transition, you are already in the disadvantageous Anaconda Control bottom position and must now prevent the attacker from compounding their advantage by rolling you into side control. The gator roll is a committed motion that requires specific timing and positioning to counter effectively. Your primary objective is to prevent the roll from occurring by maintaining a strong base and posting ability, and your secondary objective is to use the attacker's rolling commitment against them to scramble to a superior position. Understanding the attacker's setup sequence — hip walk, base break, step-over, roll — allows you to identify the optimal moment for defensive intervention. The earlier you disrupt the sequence, the higher your success rate. If the roll is already in motion, your strategy shifts to using the rotational chaos to fight for top position during the landing phase rather than trying to stop the roll mid-rotation.
 
-**Opponent's Starting Position**: [[Anaconda Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Anaconda Control]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ As the defender against the Anaconda to Side Control transition, you are already
 ### 1. Post far hand firmly on the mat and base out to block the roll
 
 - **When to use**: As soon as you recognize the attacker walking their hips to create rolling angle, before they initiate the step-over
-- **Targets**: [[Anaconda Control]]
+- **Targets**: [[Positions/Anaconda Control]]
 - **If successful**: The roll is blocked and the attacker remains in anaconda control position. Their failed attempt may loosen the grip, creating opportunities for grip escape.
 - **Risk**: If the attacker strips your posting hand, the roll becomes very difficult to prevent from this position
 
 ### 2. Sprawl legs back and drive hips away from the attacker's rolling trajectory
 
 - **When to use**: When the attacker begins the step-over motion but has not yet committed to the full roll
-- **Targets**: [[Anaconda Control]]
+- **Targets**: [[Positions/Anaconda Control]]
 - **If successful**: Your sprawl removes the base they need to complete the roll and may create enough space to begin working the anaconda grip escape sequence
 - **Risk**: Sprawling too aggressively may flatten you and give the attacker a direct path to snap-down side control without needing the roll
 
 ### 3. Time the roll and scramble for top position during the rotation
 
 - **When to use**: When the attacker has fully committed to the roll and it cannot be stopped — use their momentum against them
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You end up on top in half guard or a scramble position, completely reversing the positional hierarchy
 - **Risk**: Mistiming the scramble can result in a tighter anaconda choke as the roll completes with you in a worse position
 
 ### 4. Attack the anaconda grip with your free hand during the rolling motion to strip the grip mid-transition
 
 - **When to use**: During the rotation itself when centrifugal forces are naturally working to separate the attacker's grip
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The grip breaks during the roll, and the attacker lands without control, allowing you to scramble and potentially achieve top position
 - **Risk**: Focusing on grip stripping may prevent you from posting or basing, making the positional outcome worse even if the grip partially breaks
 
@@ -224,11 +224,11 @@ As the defender against the Anaconda to Side Control transition, you are already
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time the attacker's rolling commitment and use their forward momentum against them. As they step over and begin the rotation, drive your hips into them and post your free hand to scramble for top position during the chaotic landing phase. Fight for inside position with your knees during the scramble to establish half guard top control.
 
-### → [[Anaconda Control]]
+### → [[Positions/Anaconda Control]]
 
 Prevent the roll entirely by maintaining a strong far-hand post and heavy hip base that denies the attacker the angle and momentum needed for the gator roll. Their failed roll attempt will often fatigue their grip and shift their weight, creating windows for subsequent anaconda grip escape sequences.
 

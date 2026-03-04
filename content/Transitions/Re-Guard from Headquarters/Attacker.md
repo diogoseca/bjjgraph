@@ -178,7 +178,7 @@ The essence of re-guarding from Headquarters lies in creating distance and frame
 
 Successful re-guarding from this position is fundamental to maintaining a strong defensive game. The ability to recover guard when a pass is nearly complete separates intermediate practitioners from advanced competitors. This technique builds upon fundamental concepts of guard retention, framing mechanics, and hip escape principles while requiring precise timing and spatial awareness to execute against resisting opponents.
 
-**From Position**: [[Headquarters Position]] (Bottom)
+**From Position**: [[Positions/Headquarters Position]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ Successful re-guarding from this position is fundamental to maintaining a strong
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Headquarters Position]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Headquarters Position]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -242,11 +242,11 @@ Successful re-guarding from this position is fundamental to maintaining a strong
 
 ## Opponent Counters
 
-- **Opponent drives forward pressure during hip escape attempt** (Effectiveness: High) - Your Response: Switch to a second shrimp in the opposite direction or transition to a granby roll to create different angles. If forward pressure is overwhelming, accept half guard recovery instead of full guard and work from that position. → Leads to [[Headquarters Position]]
-- **Opponent controls your near-side leg to prevent knee recovery** (Effectiveness: High) - Your Response: Immediately switch to recovering the far-side leg first, or use a pumping motion with your leg to break their grip. You can also chain hip escapes to create different angles where leg recovery becomes possible. → Leads to [[Headquarters Position]]
-- **Opponent collapses your frames by driving their weight through them** (Effectiveness: Medium) - Your Response: Don't fight strength with strength. Instead, use the direction of their pressure to facilitate a larger hip escape or to rotate to turtle position. Redirect their force rather than opposing it directly. → Leads to [[Side Control]]
-- **Opponent uses crossface and underhook to prevent hip mobility** (Effectiveness: High) - Your Response: Fight the crossface first by framing on their face or neck, then address the underhook. If both are secured, you may need to accept a worse position temporarily and work back from side control using side control escape fundamentals. → Leads to [[Side Control]]
-- **Opponent steps over your legs to establish mount during recovery attempt** (Effectiveness: Medium) - Your Response: As they commit to stepping over, this often creates space underneath. Use this moment to either recover to deep half guard or to execute a hip escape to create distance and start the recovery sequence again. → Leads to [[Headquarters Position]]
+- **Opponent drives forward pressure during hip escape attempt** (Effectiveness: High) - Your Response: Switch to a second shrimp in the opposite direction or transition to a granby roll to create different angles. If forward pressure is overwhelming, accept half guard recovery instead of full guard and work from that position. → Leads to [[Positions/Headquarters Position]]
+- **Opponent controls your near-side leg to prevent knee recovery** (Effectiveness: High) - Your Response: Immediately switch to recovering the far-side leg first, or use a pumping motion with your leg to break their grip. You can also chain hip escapes to create different angles where leg recovery becomes possible. → Leads to [[Positions/Headquarters Position]]
+- **Opponent collapses your frames by driving their weight through them** (Effectiveness: Medium) - Your Response: Don't fight strength with strength. Instead, use the direction of their pressure to facilitate a larger hip escape or to rotate to turtle position. Redirect their force rather than opposing it directly. → Leads to [[Positions/Side Control]]
+- **Opponent uses crossface and underhook to prevent hip mobility** (Effectiveness: High) - Your Response: Fight the crossface first by framing on their face or neck, then address the underhook. If both are secured, you may need to accept a worse position temporarily and work back from side control using side control escape fundamentals. → Leads to [[Positions/Side Control]]
+- **Opponent steps over your legs to establish mount during recovery attempt** (Effectiveness: Medium) - Your Response: As they commit to stepping over, this often creates space underneath. Use this moment to either recover to deep half guard or to execute a hip escape to create distance and start the recovery sequence again. → Leads to [[Positions/Headquarters Position]]
 
 
 </section>

@@ -154,7 +154,7 @@ description: "How to defend against Deep Half Entry in BJJ. Recognition cues, de
 
 Defending the Deep Half Entry requires the top player to recognize the attempt early and shut it down before the bottom player completes the rotation underneath. As the defender in half guard top, your primary objective is to prevent the bottom player from securing the deep underhook on your near leg and rotating their head below your hip line. Once both of those controls are established, defending becomes significantly harder and you are fighting from a disadvantaged position. Early recognition through tactile and visual cues is essential because the entry happens in a narrow time window. The defender must maintain forward pressure and crossface control to deny the space needed for the entry, while being prepared to sprawl, limp leg, or apply shoulder pressure to shut down any rotation attempt. Understanding the entry mechanics from the attacker's perspective is critical for effective defense, as each defensive action targets a specific phase of the entry sequence.
 
-**Opponent's Starting Position**: [[Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Deep Half Entry requires the top player to recognize the attempt e
 ### 1. Sprawl trapped leg backward and apply shoulder pressure to flatten opponent
 
 - **When to use**: At the earliest sign of the underhook attempt, before opponent has secured deep grip on your near leg and before they begin rotation
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Bottom player loses underhook contact and is flattened under your shoulder pressure, returning to standard half guard bottom where you maintain top control
 - **Risk**: If timed too late after underhook is deep, the sprawl creates space that can accelerate the entry rather than prevent it
 
 ### 2. Establish strong crossface and drive shoulder into opponent's jaw to prevent head from dropping below hip line
 
 - **When to use**: When opponent has begun creating space but has not yet completed the rotation or established head position below your hips
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent cannot complete the rotation because their head is being driven away from your hips, forcing them back to flat half guard bottom
 - **Risk**: Over-committing weight forward for the crossface can be used by opponent to accelerate their entry if they already have the underhook secured
 
 ### 3. Limp leg extraction by pulling your near leg backward while widening base with free leg
 
 - **When to use**: When opponent has begun rotation and has a shallow underhook but has not yet fully committed to the deep half position
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your near leg is freed from the underhook control, allowing you to immediately advance to side control or reset to a stronger half guard passing position
 - **Risk**: If underhook is already deep and tight, the limp leg attempt fails and you lose your base momentarily, potentially accelerating the entry
 
 ### 4. Whizzer overhook on opponent's underhooking arm to control their shoulder and prevent rotation
 
 - **When to use**: When opponent has secured the underhook but has not yet completed the full rotation underneath your hips
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The whizzer pins opponent's shoulder to the mat and prevents the rotation needed to complete the deep half entry, forcing them back to standard half guard
 - **Risk**: If opponent continues rotation despite the whizzer, you may end up in an awkward position with your arm trapped as they establish deep half
 
@@ -225,11 +225,11 @@ Defending the Deep Half Entry requires the top player to recognize the attempt e
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Shut down the entry early by establishing crossface and shoulder pressure before the underhook is secured, or sprawl your trapped leg back to deny the anchor point. The goal is to return to standard half guard top where you maintain passing initiative.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Execute a successful limp leg extraction when opponent has only a shallow underhook, pulling your near leg completely free while maintaining base with your free leg. This can lead directly to a passing opportunity as your opponent is momentarily off-balance from the failed entry attempt.
 

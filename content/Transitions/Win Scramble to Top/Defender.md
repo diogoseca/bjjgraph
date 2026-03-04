@@ -154,7 +154,7 @@ description: "Complete guide to defending scramble win attempts in BJJ. Learn re
 
 As the defender against an opponent attempting to win a scramble to top position, your primary objective is either maintaining the scramble state to deny them dominant control or establishing your own guard structure to manage the engagement on your terms. Recognizing the signals that your opponent is committing to a top position attempt allows you to deploy targeted defensive responses including sprawling, re-establishing guard frames, or exploiting their forward commitment to create your own offensive opportunities. The defender who reads scramble patterns and reacts within the first half-second of their opponent's commitment will consistently deny top position and force the scramble to continue or resolve in their favor.
 
-**Opponent's Starting Position**: [[Scramble Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Scramble Position]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against an opponent attempting to win a scramble to top position
 ### 1. Sprawl and drive hips down heavily to flatten opponent's base and deny upward progression
 
 - **When to use**: As soon as you feel opponent loading their hips for the upward drive, before they generate momentum
-- **Targets**: [[Scramble Position]]
+- **Targets**: [[Positions/Scramble Position]]
 - **If successful**: Opponent is flattened and must restart their scramble attempt from a disadvantaged position, buying you time to establish your own offense
 - **Risk**: If timed late, opponent drives through the sprawl and achieves top position with your hips trailing behind
 
 ### 2. Insert knee and shin frames between your bodies and pull to open guard position as opponent arrives on top
 
 - **When to use**: When opponent has already committed to the drive and sprawling is no longer viable, use their arrival to establish guard structure
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Opponent achieves top position but inside your guard rather than in dominant side control, giving you sweeping and submission options
 - **Risk**: If frames are not established quickly enough, opponent passes directly to side control bypassing your guard entirely
 
 ### 3. Whizzer aggressively over opponent's underhook and use rotational force to deny their inside position
 
 - **When to use**: The instant you feel opponent pummeling for the underhook, before they establish deep inside position
-- **Targets**: [[Scramble Position]]
+- **Targets**: [[Positions/Scramble Position]]
 - **If successful**: Opponent's primary steering mechanism is neutralized, forcing them to either re-pummel or abandon the top position attempt
 - **Risk**: Over-committing to the whizzer can expose your back if opponent limp-arms and circles behind you
 
 ### 4. Snap opponent's head down with collar tie as they drive forward, converting their momentum into a front headlock opportunity for yourself
 
 - **When to use**: When opponent drives forward with their head exposed at or below your shoulder level without protecting their neck
-- **Targets**: [[Scramble Position]]
+- **Targets**: [[Positions/Scramble Position]]
 - **If successful**: You reverse the scramble dynamic entirely, establishing front headlock control and threatening guillotine or darce submissions
 - **Risk**: If opponent's underhook is deep, the snap-down may fail and you lose positional initiative
 
@@ -225,11 +225,11 @@ As the defender against an opponent attempting to win a scramble to top position
 
 ## Best-Case Outcomes for Defender
 
-### → [[Scramble Position]]
+### → [[Positions/Scramble Position]]
 
 Deny your opponent's underhook through aggressive whizzering and pummeling, sprawl forcefully when they attempt to drive forward, and maintain constant hip pressure to prevent them from loading for upward drives. Keep the scramble in neutral state where their bottom position disadvantage persists.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 When you cannot prevent the opponent from achieving a degree of top position, immediately insert knee shields and shin frames between your bodies as they arrive. Grip their sleeves or collar to prevent them from settling crossface pressure. Transition to a specific guard system such as butterfly or knee shield to maintain offensive options rather than accepting flat side control bottom.
 

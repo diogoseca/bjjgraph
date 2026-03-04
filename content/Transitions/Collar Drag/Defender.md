@@ -148,7 +148,7 @@ Defending the Collar Drag requires understanding that the technique's power come
 
 Successful collar drag defense operates on three timelines: prevention (denying grips before the drag begins), interruption (shutting down the drag during execution by squaring up and anchoring), and recovery (re-establishing neutral position if the drag partially succeeds and the attacker gains an angle). Each timeline requires different tools and reactions. At the highest levels, defenders who understand collar drag mechanics can actually bait the attempt and counter with their own attacks, turning the attacker's commitment against them.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -185,28 +185,28 @@ Successful collar drag defense operates on three timelines: prevention (denying 
 ### 1. Strip the collar grip immediately using a two-on-one peel or circular grip break before the drag can be initiated
 
 - **When to use**: As soon as you recognize the deep collar grip being established, before opponent secures arm control—this is the highest-percentage window
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Return to neutral standing grip fighting with opponent having lost their primary control point, often with you now having grip advantage
 - **Risk**: If grip strip fails or is too slow, opponent may use your momentary two-hands-on-one-grip focus to complete the drag with their still-controlled arm
 
 ### 2. Pull collar-side elbow tight to ribcage and square hips directly to attacker while widening base, creating structural resistance to rotation
 
 - **When to use**: When you feel the initial pull across your centerline—the drag has started but attacker has not yet stepped past your hip line
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Neutralize the rotational force and return to neutral squared stance, often creating opportunity to counter-attack as opponent's grips are now loaded but ineffective
 - **Risk**: Attacker may switch to arm drag, snap down, or single leg entry if they recognize your defensive posture early enough to redirect
 
 ### 3. Circle footwork in the same direction as the drag while reaching to control attacker's far hip or underhook, staying squared and denying the angle
 
 - **When to use**: When attacker has initiated the lateral step and is circling toward your back—you must move your feet to match their movement
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Maintain facing position and deny back exposure, potentially establishing your own underhook or hip control for counter-offense
 - **Risk**: Attacker may change direction mid-drag to the opposite side if you over-commit to circling one direction
 
 ### 4. Counter-attack by shooting a single leg or double leg on the attacker's lead leg as they commit to stepping offline, using their forward weight shift against them
 
 - **When to use**: When attacker fully commits to the drag and their weight shifts forward onto their lead foot during the lateral step—this is a narrow but high-reward window
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Reverse the exchange entirely by scoring a takedown on the attacker during their moment of commitment and forward weight distribution
 - **Risk**: If your shot timing is off, attacker completes the drag while you are level-changed and ends up on your back in a very disadvantageous position
 
@@ -218,11 +218,11 @@ Successful collar drag defense operates on three timelines: prevention (denying 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Strip the collar grip early through active grip fighting, then re-establish your own grip sequence from the neutral reset. Alternatively, anchor your elbow and square your hips to neutralize the drag, then use your grip advantage to initiate your own attack while opponent's grips are disrupted.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Time a counter-takedown (single leg or double leg) during the attacker's commitment to the drag. As they step laterally and shift weight forward, their lead leg becomes vulnerable and their sprawl defense is compromised by their own momentum. This requires precise timing but converts their offensive commitment into your scoring opportunity.
 

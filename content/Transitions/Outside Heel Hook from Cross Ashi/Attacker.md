@@ -180,7 +180,7 @@ description: "Learn to execute the Outside Heel Hook from Cross Ashi-Garami. Ste
 
 The Outside Heel Hook from Cross Ashi-Garami represents the primary submission threat from one of the most dominant leg entanglement positions in modern grappling. As the attacker, you have the mechanical advantage of the crossed leg configuration controlling your opponent's hip rotation while isolating their lower leg for the finishing sequence. Your objective is to systematically expose the heel, secure a deep grip behind the Achilles tendon, lock a figure-four configuration, and apply controlled external rotation to attack the lateral knee structures. Success requires integrating leg control maintenance with grip establishment, balancing the urgency of finishing before the opponent escapes with the precision required for safe, effective technique execution. The cross ashi platform gives you multiple finishing options if the heel hook is initially defended, including transitions to toe holds, kneebars, and positional advancement to saddle.
 
-**From Position**: [[Cross Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Top)
 
 </section>
 
@@ -233,8 +233,8 @@ The Outside Heel Hook from Cross Ashi-Garami represents the primary submission t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Cross Ashi-Garami]] | 35% |
-| Counter | [[50-50 Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami/Cross Ashi-Garami]] | 35% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -243,11 +243,11 @@ The Outside Heel Hook from Cross Ashi-Garami represents the primary submission t
 
 ## Opponent Counters
 
-- **Opponent hides the heel by sharply flexing their knee and rotating the knee inward toward the attacker** (Effectiveness: High) - Your Response: Use foot manipulation to re-expose the heel by gripping toes and extending the ankle, or transition to toe hold or kneebar which capitalize on the bent-knee defensive posture → Leads to [[Cross Ashi-Garami]]
-- **Aggressive hand fighting to strip the heel grip before the figure-four configuration locks** (Effectiveness: High) - Your Response: Tighten the grip and increase forward hip pressure and leg squeeze to overload the opponent's defensive capacity, or release and immediately re-grip from a different angle → Leads to [[Cross Ashi-Garami]]
-- **Counter-rotation by rolling toward the heel hook direction to relieve rotational pressure on the knee** (Effectiveness: Medium) - Your Response: Follow the rotation with your entire body and maintain grip throughout, increase forward hip drive to prevent the opponent from completing the counter-rotation sequence → Leads to [[Cross Ashi-Garami]]
-- **Boot scoot escape using the free leg to push off the attacker's body and create distance from the entanglement** (Effectiveness: Medium) - Your Response: Drive hips forward to close any distance created and tighten the inside hook to prevent separation between bodies → Leads to [[Cross Ashi-Garami]]
-- **Counter-entanglement by threading the free leg inside to establish their own leg attack position** (Effectiveness: Medium) - Your Response: Maintain cross position integrity by squeezing the outside leg cross tighter and prioritize finishing the heel hook before the counter-entanglement is complete → Leads to [[50-50 Guard]]
+- **Opponent hides the heel by sharply flexing their knee and rotating the knee inward toward the attacker** (Effectiveness: High) - Your Response: Use foot manipulation to re-expose the heel by gripping toes and extending the ankle, or transition to toe hold or kneebar which capitalize on the bent-knee defensive posture → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- **Aggressive hand fighting to strip the heel grip before the figure-four configuration locks** (Effectiveness: High) - Your Response: Tighten the grip and increase forward hip pressure and leg squeeze to overload the opponent's defensive capacity, or release and immediately re-grip from a different angle → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- **Counter-rotation by rolling toward the heel hook direction to relieve rotational pressure on the knee** (Effectiveness: Medium) - Your Response: Follow the rotation with your entire body and maintain grip throughout, increase forward hip drive to prevent the opponent from completing the counter-rotation sequence → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- **Boot scoot escape using the free leg to push off the attacker's body and create distance from the entanglement** (Effectiveness: Medium) - Your Response: Drive hips forward to close any distance created and tighten the inside hook to prevent separation between bodies → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- **Counter-entanglement by threading the free leg inside to establish their own leg attack position** (Effectiveness: Medium) - Your Response: Maintain cross position integrity by squeezing the outside leg cross tighter and prioritize finishing the heel hook before the counter-entanglement is complete → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 
 
 </section>

@@ -164,7 +164,7 @@ Defending Knee on Belly requires immediate, disciplined action against one of th
 
 The defender's primary objective is to remove the knee from the torso through controlled lateral hip movement while maintaining defensive frames that prevent submissions. Every defensive action carries risk: pushing the knee exposes armbars, turning away exposes the back, bridging creates mount opportunities. The skilled defender must choose which risk to accept while minimizing exposure through tight elbows, protected neck, and systematic escape sequences that chain together when initial attempts are blocked. Speed of response is critical because every second under the pressure compounds the physical and psychological disadvantage.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -201,28 +201,28 @@ The defender's primary objective is to remove the knee from the torso through co
 ### 1. Frame on the opponent's knee with your near elbow while shrimping your hips away to create space for knee shield insertion or guard recovery
 
 - **When to use**: Immediately upon feeling the knee drive into your torso, before the opponent settles their full weight and establishes controlling grips
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to Half Guard or Knee Shield Half Guard with frames established, neutralizing the pressure and score threat
 - **Risk**: If the shrimp is insufficient, you remain under pressure with the opponent potentially transitioning to mount as you create space
 
 ### 2. Bridge toward the opponent's posting foot to destabilize their base, then immediately turn to your side and recover guard during their rebalancing
 
 - **When to use**: When the opponent commits their weight forward through the knee and their posting foot is close enough that a bridge can compromise their base
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: The opponent loses balance and you recover to a guard position or escape to a neutral scramble, potentially reversing to top position
 - **Risk**: Failed bridge wastes energy and the opponent may transition to mount during your recovery if you don't immediately follow with hip escape
 
 ### 3. Use near hand to cup the opponent's knee while far hand blocks their hip, then execute a coordinated hip escape away from the pressure to create re-guard distance
 
 - **When to use**: When the opponent has settled their weight but has not yet secured dominant grips on your collar or controlled your far arm
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough space to insert a knee between your bodies, recovering to Half Guard or Open Guard with frames preventing re-establishment
 - **Risk**: If you extend the cupping hand too far, it becomes vulnerable to armbar; maintain elbow connection to your body throughout
 
 ### 4. Turn away from the opponent to a turtle position when lateral escape is blocked, immediately working to face them and recover guard
 
 - **When to use**: As a last resort when hip escapes are blocked and the opponent is threatening submissions - turtle provides immediate pressure relief
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You escape the direct pressure and create opportunity to stand up or recover guard from turtle, resetting the positional exchange
 - **Risk**: Turning away exposes your back to back takes and collar choke threats; must be followed immediately by facing the opponent
 
@@ -234,11 +234,11 @@ The defender's primary objective is to remove the knee from the torso through co
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Frame on the knee with your near elbow while shrimping your hips away from the pressure. As space opens, insert your near knee between your bodies to establish Knee Shield Half Guard. Maintain the frame throughout to prevent the opponent from re-establishing Knee on Belly. The key is lateral hip movement combined with knee insertion rather than pushing vertically against the knee.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Time a strong bridge toward the opponent's posting foot when they shift weight for a grip change or submission attempt. As their base is disrupted, immediately follow with a hip escape and turn into them to recover guard or complete a reversal. This requires recognizing the moment their weight distribution is most vulnerable, typically during transitions between attacks.
 

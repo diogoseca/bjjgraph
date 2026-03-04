@@ -156,7 +156,7 @@ Defending the high crotch requires reading pre-shot cues, reacting with proper s
 
 The key defensive principle is that earlier recognition leads to easier defense. If you read the shot before the attacker's lead foot lands between your feet, a simple sprawl ends the exchange. If you react after they have locked their grip and established shoulder position, you are fighting from a significant disadvantage and must chain multiple defensive techniques together to avoid being taken down into bottom side control.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The key defensive principle is that earlier recognition leads to easier defense.
 ### 1. Sprawl by driving hips down and back while posting hands on opponent's head and shoulders
 
 - **When to use**: Immediately upon recognizing the level change, before the attacker's lead foot passes between your feet. This is the highest-percentage defense when applied with proper timing.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent's shot is stuffed and you end up in a dominant position with their face on the mat. You can transition to front headlock control or disengage back to standing with a significant positional advantage.
 - **Risk**: If your sprawl is late and they already have deep penetration, sprawling can put you in a worse position by flattening you over their back rather than stopping their forward drive.
 
 ### 2. Secure a guillotine grip around their neck as they shoot, using their forward momentum against them
 
 - **When to use**: When the attacker's head is positioned inside or in front of your body rather than on the outside. This is most effective against sloppy shots where the attacker fails to maintain proper outside head position.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You lock in a guillotine choke that either forces the tap or forces the attacker to abandon the takedown entirely. Even if the guillotine does not finish, it stops the takedown and gives you a dominant grip position.
 - **Risk**: If the attacker has proper outside head position, the guillotine attempt will fail and you waste time that could have been used for sprawling. They may also complete the takedown and pass to side control while you hold a useless grip.
 
 ### 3. Establish a deep whizzer overhook on the attacker's near arm and circle away from their head side
 
 - **When to use**: When the attacker has already secured a grip on your leg and penetration is too deep for a sprawl alone. The whizzer combined with hip movement limits their finishing options and creates opportunities for you to disengage or counter.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: The whizzer kills the attacker's forward drive and prevents them from running the pipe or lifting. Combined with circling away, you can strip their grip and return to neutral standing position, or transition to a front headlock.
 - **Risk**: A strong attacker can use your whizzer against you by ducking under it for a fireman's carry or continuing to drive in the direction of the whizzer. Over-reliance on the whizzer without hip movement makes you vulnerable to being driven straight backward.
 
 ### 4. Pull guard by sitting to closed guard or butterfly guard rather than allowing the takedown to land in side control
 
 - **When to use**: When the attacker has deep penetration, locked grip, and strong forward drive that makes sprawl and whizzer defenses insufficient. Pulling guard is damage control to avoid conceding the worst outcome.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You end up in a guard position where you have defensive options and potential sweeps, rather than being taken down into bottom side control where the attacker scores points and has dominant position.
 - **Risk**: You concede the standing exchange and end up on bottom, though in a more defensible position than side control bottom. The opponent may still pass your guard quickly if you do not establish grips during the transition.
 
@@ -227,11 +227,11 @@ The key defensive principle is that earlier recognition leads to easier defense.
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Sprawl early and explosively by driving hips down and back the moment you recognize the level change. Post hands on the attacker's head and shoulders to kill their forward momentum. Once the shot is stuffed, circle toward their head to establish front headlock control or disengage by pushing their head down and stepping away. The sprawl must be timed before deep penetration occurs - react to the level change, not to the grip being established.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 When the attacker has inside head position during their shot, wrap a guillotine grip around their neck by overhooking the head with your near arm and clasping your hands. Squeeze while driving your hips into them and pulling their head down. Even if you do not finish the submission, the guillotine threat forces them to abandon the takedown. Alternatively, if the takedown is inevitable, pull guard by sitting back and wrapping your legs into closed guard rather than allowing them to land in side control.
 

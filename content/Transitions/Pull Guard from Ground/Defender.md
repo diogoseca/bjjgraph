@@ -154,7 +154,7 @@ description: "Learn to defend and counter ground guard pulls in BJJ. Recognition
 
 As the defender against Pull Guard from Ground, you are the top player whose opponent is attempting to pull you into their closed guard from a seated or grounded position. Your primary objective is to prevent guard closure by maintaining distance, denying grips, and using sprawling or framing mechanics to keep your hips away from their wrapping legs. Successful defense keeps you in a standing or passing position rather than being trapped inside closed guard where your opponent has significant offensive advantages. Reading the early indicators of the pull attempt and reacting before full commitment is critical, as defending becomes exponentially harder once the opponent has established deep grips and begun the hip bridge motion. Your secondary objective when prevention fails is to ensure you end up in open guard top rather than closed guard, maintaining your passing options.
 
-**Opponent's Starting Position**: [[Standing Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Standing Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against Pull Guard from Ground, you are the top player whose opp
 ### 1. Sprawl hips back and drive weight downward
 
 - **When to use**: Immediately upon feeling forward pulling force on collar or sleeves, before opponent's legs begin the wrapping motion
-- **Targets**: [[Standing Guard]]
+- **Targets**: [[Positions/Standing Guard]]
 - **If successful**: Opponent's pull fails as your hips move beyond their leg reach, returning to neutral standing guard engagement
 - **Risk**: If sprawl is too aggressive, you may overcommit weight forward and be pulled into a collar drag or arm drag if opponent redirects
 
 ### 2. Post straight-arm frame on opponent's hips to create distance barrier
 
 - **When to use**: When opponent has grips but has not yet initiated the hip bridge, use frames to prevent distance closure before the explosive pull
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Opponent cannot close guard around your waist and ends up in open guard where you have passing opportunities
 - **Risk**: Extended arms are vulnerable to two-on-one grip breaks and arm drag attacks if you commit too much weight through the frames
 
 ### 3. Circle laterally and change angle to prevent guard closure
 
 - **When to use**: When opponent begins the pull and you feel their legs approaching your hips, lateral movement changes the geometry and prevents successful wrap
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You bypass their guard closure attempt and establish an angle for passing while they are still on their back
 - **Risk**: Lateral movement may expose your back momentarily if opponent maintains collar grip and converts to a collar drag in the direction of your circle
 
 ### 4. Strip grips aggressively with two-on-one breaks before pull initiation
 
 - **When to use**: As soon as opponent establishes collar or sleeve grip, before they secure the secondary connection needed for the pull
-- **Targets**: [[Standing Guard]]
+- **Targets**: [[Positions/Standing Guard]]
 - **If successful**: Without grips, opponent cannot generate the pulling force needed for guard closure, maintaining neutral standing engagement
 - **Risk**: Grip fighting creates moments where your hands are occupied and you may be vulnerable to level changes or alternative guard entries
 
@@ -225,11 +225,11 @@ As the defender against Pull Guard from Ground, you are the top player whose opp
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Guard]]
+### → [[Positions/Standing Guard]]
 
 Deny grips through proactive hand fighting and maintain hip distance through sprawling mechanics. React within the first half-second of any pull attempt by driving hips back and breaking collar grip. Keep weight distributed wide and low to resist forward pulling forces.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 If opponent successfully wraps legs but cannot lock ankles, immediately posture up with both hands on their hips and drive your hips back to prevent guard closure. Peel their legs apart by controlling one knee and pushing it toward the mat while your hips create distance. Establish passing grips before they can re-attempt guard closure.
 

@@ -21,7 +21,7 @@ By establishing proper base during the standup phase, you create the structural 
 
 The chain from standup to single leg is effective because it exploits a timing window where the top player must adjust from controlling a grounded opponent to engaging a standing one. This brief moment of recalibration creates the opening for a penetration step. If the single leg is defended, the sequence branches into multiple secondary attacks including ankle picks, guard pulls, or leg entanglement entries, ensuring the bottom player maintains offensive initiative throughout the exchange.
 
-**From Position**: [[Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 **Success Rate**: 52%
 
 </section>
@@ -32,10 +32,10 @@ The chain from standup to single leg is effective because it exploits a timing w
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 45% |
-| Success | [[Clinch]] | 15% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Front Headlock]] | 15% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 45% |
+| Success | [[Positions/Clinch]] | 15% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Front Headlock]] | 15% |
 
 
 </section>
@@ -199,29 +199,29 @@ The Technical Stand Up to Single Leg serves as a critical bridge between defensi
 ## Related Techniques
 
 
-- [[Turtle]] - Common starting position for this sequence
+- [[Positions/Turtle]] - Common starting position for this sequence
 
-- [[Single Leg X-Guard]] - Alternative finish if takedown converts to leg entanglement
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative finish if takedown converts to leg entanglement
 
-- [[Ankle Pick]] - Chain attack when opponent defends single leg
+- [[Transitions/Ankle Pick]] - Chain attack when opponent defends single leg
 
-- [[Standing Position]] - Position established after successful standup phase
+- [[Positions/Standing Position]] - Position established after successful standup phase
 
-- [[Outside Ashi-Garami]] - Alternative finish converting failed takedown to leg entanglement
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative finish converting failed takedown to leg entanglement
 
-- [[Guard Pull]] - Backup option if takedown attacks are shut down
+- [[Transitions/Guard Pull]] - Backup option if takedown attacks are shut down
 
-- [[Front Headlock]] - Counter position opponent may achieve if head position is compromised
+- [[Positions/Front Headlock]] - Counter position opponent may achieve if head position is compromised
 
-- [[Clinch]] - Intermediate position reached during successful standup engagement
+- [[Positions/Clinch]] - Intermediate position reached during successful standup engagement
 
-- [[Back Control]] - Risk position if standup is poorly timed and opponent takes back
+- [[Positions/Back Control]] - Risk position if standup is poorly timed and opponent takes back
 
-- [[Half Guard]] - Fallback guard recovery if sequence is partially defended
+- [[Positions/Half Guard]] - Fallback guard recovery if sequence is partially defended
 
-- [[Butterfly Guard]] - Alternative guard to pull if standing exchange is unfavorable
+- [[Positions/Butterfly Guard]] - Alternative guard to pull if standing exchange is unfavorable
 
-- [[Double Leg Entry]] - Alternative takedown if opponent defends single leg with square stance
+- [[Transitions/Double Leg Entry]] - Alternative takedown if opponent defends single leg with square stance
 
 
 </section>

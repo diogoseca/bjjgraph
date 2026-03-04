@@ -146,7 +146,7 @@ description: "Master defending the Lasso Sweep in BJJ. Learn recognition cues, b
 
 Defending the Lasso Sweep demands early recognition and immediate base adjustment before the sweep mechanics are fully loaded. As the defender, you are at a structural disadvantage because your trapped arm cannot post on the lasso side, making you inherently vulnerable to sweeps in that direction. Your primary defensive tools are maintaining a wide base with your legs, protecting your free hand's posting ability, and denying the secondary grip that powers the sweep. Successful defense requires addressing the sweep threat proactively rather than reacting after the sweep is already in motion, because once the hip rotation begins with proper grips established, recovery is extremely difficult.
 
-**Opponent's Starting Position**: [[Lasso Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Lasso Guard]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ Defending the Lasso Sweep demands early recognition and immediate base adjustmen
 ### 1. Post free hand on the mat immediately when feeling off-balance toward the lasso side
 
 - **When to use**: When the opponent begins extending the lasso leg and pulling with the secondary grip, creating rotational pressure
-- **Targets**: [[Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard]]
 - **If successful**: Prevents the sweep by creating an anchor point the sweeper cannot overcome with grip pulling alone, maintaining your top position
 - **Risk**: If the sweeper redirects to attack the posted arm, you may be vulnerable to triangle or armbar entries targeting the exposed limb
 
 ### 2. Step over the lasso leg to neutralize the perpendicular sweep angle entirely
 
 - **When to use**: When the sweep is being loaded but has not yet reached the tipping point of no return
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Removes the lasso mechanic entirely, breaking the position down to open guard where you can re-establish passing grips
 - **Risk**: Stepping over can expose you to omoplata if the opponent redirects the lasso leg around your stepping leg during the transition
 
 ### 3. Strip the secondary collar or pants grip with your free hand before the sweep loads
 
 - **When to use**: As soon as the opponent establishes the pulling grip that powers the sweep, before they can load the hip rotation
-- **Targets**: [[Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard]]
 - **If successful**: Removes the pulling force that directs the sweep, leaving only the lasso which alone cannot complete the reversal
 - **Risk**: Taking your hand off posting position to strip grips temporarily reduces your base stability during the grip fight
 
 ### 4. Sit back and disengage weight to remove forward momentum from the sweep loading
 
 - **When to use**: When you feel your posture breaking forward under the combined lasso and grip pressure pulling you into the sweep
-- **Targets**: [[Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard]]
 - **If successful**: Eliminates the forward weight shift the sweeper needs to complete the technique, stalling their attack
 - **Risk**: Creates distance that may allow the bottom player to transition to other attacks like triangle entry or X-guard
 
@@ -216,11 +216,11 @@ Defending the Lasso Sweep demands early recognition and immediate base adjustmen
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Step over the lasso leg during the sweep attempt to completely neutralize the lasso mechanic. Once the leg thread is removed, the sweeper loses their primary control tool and you can establish passing grips from a neutral open guard top position.
 
-### → [[Lasso Guard]]
+### → [[Positions/Lasso Guard]]
 
 Maintain wide base and immediately post the free hand when feeling the sweep load. Strip the secondary collar or pants grip to remove the directional pulling force. Without this grip, the lasso alone cannot generate sufficient force to complete the sweep.
 

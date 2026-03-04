@@ -176,7 +176,7 @@ description: "How to execute Cross Collar Choke in BJJ. Attacking perspective wi
 
 The Cross Collar Choke represents one of the most fundamental and effective gi submissions in Brazilian Jiu-Jitsu, targeting the carotid arteries through precise collar grip manipulation. This technique leverages the opponent's own gi against them, creating a constriction that cuts blood flow to the brain when executed properly. The cross grip configuration—where your right hand grips their left collar and vice versa—generates tremendous mechanical advantage through the twisting action of your forearms. This submission is particularly valuable because it can be applied from multiple positions, most commonly from closed guard bottom, mount top, and side control. The technique's effectiveness stems from its ability to disguise the setup within normal grip fighting exchanges, making it difficult for opponents to recognize the threat until the choke is already deep. When executed with proper depth and angle, the Cross Collar Choke creates an inescapable situation that forces immediate submission, often within 3-5 seconds of full application. Its versatility across skill levels and positions makes it an essential component of any gi practitioner's submission arsenal.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 
 </section>
@@ -230,8 +230,8 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Open Guard]] | 17% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 17% |
 
 
 </section>
@@ -240,11 +240,11 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 
 ## Opponent Defenses
 
-- **Frames on biceps to prevent second grip** (Effectiveness: High) - Your Response: Use your first grip to pull their head further down and off-angle, creating space to swim your second hand underneath their defensive frames. Alternatively, switch to a different attack like an armbar to force them to change their defense, then return to the collar grip. → Leads to [[Closed Guard]]
-- **Tucks chin to chest to block collar access** (Effectiveness: Medium) - Your Response: Use your first grip to lift and turn their head slightly, creating angles that expose the collar. You can also attack with other submissions like armbars or triangles to force them to abandon the chin tuck defense, then return to the collar attack. → Leads to [[Closed Guard]]
-- **Grabs your sleeves or wrists to prevent grip depth** (Effectiveness: Medium) - Your Response: Use constant grip fighting and fake attacks to other positions to occupy their hands. When they release even briefly to defend another threat, immediately work your collar grips deeper. Patience is key—wait for the moment they're distracted by another attack. → Leads to [[Closed Guard]]
-- **Postures up aggressively to create distance and break guard** (Effectiveness: High) - Your Response: If in closed guard, break them down immediately using leg squeeze combined with pulling motion on your established grip. If they successfully create distance, maintain your grips and transition to open guard with collar control, threatening sweeps until you can re-close distance. → Leads to [[Open Guard]]
-- **Attempts to strip grips by pulling on your sleeves** (Effectiveness: Low) - Your Response: Tighten your grip and use your body weight or positional control to maintain grip security. Often their attempt to strip grips actually helps you work your hands deeper into the collar. Counter their pulling motion by pulling in the opposite direction, deepening your grips. → Leads to [[Closed Guard]]
+- **Frames on biceps to prevent second grip** (Effectiveness: High) - Your Response: Use your first grip to pull their head further down and off-angle, creating space to swim your second hand underneath their defensive frames. Alternatively, switch to a different attack like an armbar to force them to change their defense, then return to the collar grip. → Leads to [[Positions/Closed Guard]]
+- **Tucks chin to chest to block collar access** (Effectiveness: Medium) - Your Response: Use your first grip to lift and turn their head slightly, creating angles that expose the collar. You can also attack with other submissions like armbars or triangles to force them to abandon the chin tuck defense, then return to the collar attack. → Leads to [[Positions/Closed Guard]]
+- **Grabs your sleeves or wrists to prevent grip depth** (Effectiveness: Medium) - Your Response: Use constant grip fighting and fake attacks to other positions to occupy their hands. When they release even briefly to defend another threat, immediately work your collar grips deeper. Patience is key—wait for the moment they're distracted by another attack. → Leads to [[Positions/Closed Guard]]
+- **Postures up aggressively to create distance and break guard** (Effectiveness: High) - Your Response: If in closed guard, break them down immediately using leg squeeze combined with pulling motion on your established grip. If they successfully create distance, maintain your grips and transition to open guard with collar control, threatening sweeps until you can re-close distance. → Leads to [[Positions/Open Guard]]
+- **Attempts to strip grips by pulling on your sleeves** (Effectiveness: Low) - Your Response: Tighten your grip and use your body weight or positional control to maintain grip security. Often their attempt to strip grips actually helps you work your hands deeper into the collar. Counter their pulling motion by pulling in the opposite direction, deepening your grips. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

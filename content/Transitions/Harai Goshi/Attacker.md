@@ -174,7 +174,7 @@ description: "How to execute Harai Goshi in BJJ. Attacking perspective with setu
 
 Harai Goshi, the sweeping hip throw, is one of judo's most elegant and effective techniques that has found significant application in Brazilian Jiu-Jitsu's standing game. This throw combines precise footwork, hip placement, and leg sweeping action to generate tremendous off-balancing force while maintaining control throughout the opponent's descent. Unlike pure forward throws, Harai Goshi creates a unique rotational motion that allows the thrower to follow smoothly into dominant ground positions. The technique's effectiveness in BJJ competition stems from its versatility in both gi and no-gi contexts, its ability to score significant points, and its natural transition into side control or mount. When executed properly, Harai Goshi demonstrates the fundamental principle that technical precision and timing can overcome significant strength advantages, making it particularly valuable for smaller practitioners against larger opponents.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -228,9 +228,9 @@ Harai Goshi, the sweeping hip throw, is one of judo's most elegant and effective
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Failure | [[Standing Position]] | 20% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Side Control]] | 70% |
+| Failure | [[Positions/Standing Position]] | 20% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -239,10 +239,10 @@ Harai Goshi, the sweeping hip throw, is one of judo's most elegant and effective
 
 ## Opponent Counters
 
-- **Opponent sprawls backward and widens base when sensing throw entry** (Effectiveness: High) - Your Response: If they sprawl early, immediately switch to alternative takedown such as Kouchi Gari or drop under for Single Leg. If committed to Harai Goshi, deepen your hip penetration and increase pulling force on upper body to prevent their retreat. → Leads to [[Standing Position]]
-- **Opponent posts leg backward (counter to leg sweep) or steps over** (Effectiveness: Medium) - Your Response: Transition to Uchi Mata by driving your sweeping leg between their legs instead of outside. Alternatively, switch to Osoto Gari by attacking their posted leg with reaping action. → Leads to [[Standing Position]]
-- **Opponent grips your belt or pants to prevent hip rotation** (Effectiveness: Medium) - Your Response: Accelerate your rotation before they can establish strong grip control. Use your collar grip to break their posture more severely, forcing them to prioritize balance over grip fighting. In no-gi, tighten your overhook to prevent their defensive frame. → Leads to [[Standing Position]]
-- **Opponent counters with their own throw (Tani Otoshi or Ura Nage)** (Effectiveness: High) - Your Response: Maintain low hip position and strong forward pull to prevent them from getting under your center of gravity. If you feel their counter developing, abandon the throw and establish guard pulling or defensive posture to avoid being thrown yourself. → Leads to [[Standing Position]]
+- **Opponent sprawls backward and widens base when sensing throw entry** (Effectiveness: High) - Your Response: If they sprawl early, immediately switch to alternative takedown such as Kouchi Gari or drop under for Single Leg. If committed to Harai Goshi, deepen your hip penetration and increase pulling force on upper body to prevent their retreat. → Leads to [[Positions/Standing Position]]
+- **Opponent posts leg backward (counter to leg sweep) or steps over** (Effectiveness: Medium) - Your Response: Transition to Uchi Mata by driving your sweeping leg between their legs instead of outside. Alternatively, switch to Osoto Gari by attacking their posted leg with reaping action. → Leads to [[Positions/Standing Position]]
+- **Opponent grips your belt or pants to prevent hip rotation** (Effectiveness: Medium) - Your Response: Accelerate your rotation before they can establish strong grip control. Use your collar grip to break their posture more severely, forcing them to prioritize balance over grip fighting. In no-gi, tighten your overhook to prevent their defensive frame. → Leads to [[Positions/Standing Position]]
+- **Opponent counters with their own throw (Tani Otoshi or Ura Nage)** (Effectiveness: High) - Your Response: Maintain low hip position and strong forward pull to prevent them from getting under your center of gravity. If you feel their counter developing, abandon the throw and establish guard pulling or defensive posture to avoid being thrown yourself. → Leads to [[Positions/Standing Position]]
 
 
 </section>

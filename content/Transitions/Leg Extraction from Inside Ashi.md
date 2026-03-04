@@ -21,7 +21,7 @@ The technique requires precise sequencing: you must first address the heel contr
 
 Strategically, leg extraction occupies a critical role in the defensive leg lock hierarchy. While more advanced defenders may counter-entangle or roll to superior positions, extraction to open guard represents the safest and most reliable escape path for most practitioners. It trades positional advantage for safety, returning both players to a neutral guard engagement rather than remaining in the high-risk leg lock exchange. Understanding when to extract versus when to counter-entangle is a hallmark of mature leg lock defense.
 
-**From Position**: [[Inside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, leg extraction occupies a critical role in the defensive leg lock
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Failure | [[Inside Ashi-Garami]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -195,29 +195,29 @@ Leg Extraction from Inside Ashi-Garami is the primary defensive escape within th
 ## Related Techniques
 
 
-- [[Inside Ashi-Garami]] - Source position from which this extraction escape is performed
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Source position from which this extraction escape is performed
 
-- [[Open Guard]] - Primary target position after successful leg extraction
+- [[Positions/Open Guard]] - Primary target position after successful leg extraction
 
-- [[Ashi Garami]] - Parent position family governing leg entanglement mechanics
+- [[Positions/Ashi Garami]] - Parent position family governing leg entanglement mechanics
 
-- [[Heel Hook Defense Escape]] - Complementary defensive technique addressing heel hook submissions specifically
+- [[Transitions/Heel Hook Defense Escape]] - Complementary defensive technique addressing heel hook submissions specifically
 
-- [[Leg Entanglement]] - Conceptual framework governing all leg lock positions and escapes
+- [[Positions/Leg Entanglement]] - Conceptual framework governing all leg lock positions and escapes
 
-- [[Saddle]] - Advanced entanglement that opponent may transition to if extraction is slow
+- [[Positions/Ashi Garami/Saddle]] - Advanced entanglement that opponent may transition to if extraction is slow
 
-- [[Honey Hole]] - Dangerous advancement position opponent threatens during failed extraction
+- [[Positions/Ashi Garami/Honey Hole]] - Dangerous advancement position opponent threatens during failed extraction
 
-- [[Outside Ashi-Garami]] - Alternative entanglement opponent may switch to during extraction attempt
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative entanglement opponent may switch to during extraction attempt
 
-- [[50-50 Guard]] - Possible counter-entanglement position accessible during extraction scramble
+- [[Positions/Ashi Garami/50-50 Guard]] - Possible counter-entanglement position accessible during extraction scramble
 
-- [[Standing Up from Inside Ashi]] - Alternative escape method using standing posture rather than guard recovery
+- [[Transitions/Standing Up from Inside Ashi]] - Alternative escape method using standing posture rather than guard recovery
 
-- [[Counter Entangle to 50-50 from Ashi]] - Offensive alternative to extraction that creates counter-entanglement
+- [[Transitions/Counter Entangle to 50-50 from Ashi]] - Offensive alternative to extraction that creates counter-entanglement
 
-- [[Inversion Escape from Leg Entanglement]] - Alternative escape method using inversion to clear entanglement
+- [[Transitions/Inversion Escape from Leg Entanglement]] - Alternative escape method using inversion to clear entanglement
 
 
 </section>

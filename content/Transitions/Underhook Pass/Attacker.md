@@ -180,7 +180,7 @@ description: "How to execute Underhook Pass in BJJ. Attacking perspective with s
 
 The Underhook Pass is a fundamental pressure passing technique used to advance from half guard top position to side control. This pass exploits the powerful control provided by securing an underhook on the bottom player's far side, combined with strategic weight distribution and hip pressure to flatten the opponent and clear the leg entanglement. The technique is built on the principle of controlling the opponent's shoulder and hip simultaneously, creating a cross-body pressure system that limits their defensive frames and movement options. The underhook provides both offensive control and defensive protection, preventing the bottom player from establishing their own underhook or recovering full guard. This pass is particularly effective against players who rely on knee shield or traditional half guard retention, as it addresses their primary defensive structures through systematic breakdown and methodical advancement.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -234,10 +234,10 @@ The Underhook Pass is a fundamental pressure passing technique used to advance f
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
-| Counter | [[Dogfight Position]] | 10% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
+| Counter | [[Positions/Dogfight Position]] | 10% |
 
 
 </section>
@@ -246,12 +246,12 @@ The Underhook Pass is a fundamental pressure passing technique used to advance f
 
 ## Opponent Counters
 
-- **Bottom player establishes their own underhook, creating an underhook battle and preventing pass progression** (Effectiveness: High) - Your Response: Immediately switch to whizzer control on their underhook arm, driving your weight into their shoulder while using your free hand to strip their grip or transition to alternative passes like the knee slice → Leads to [[Half Guard]]
-- **Strong knee shield frame preventing chest-to-chest pressure and flattening** (Effectiveness: High) - Your Response: Address the knee shield by controlling the knee with your free hand, driving it to the mat while maintaining underhook pressure. Alternatively, transition to knee cut pass or smash pass variations → Leads to [[Half Guard]]
-- **Bottom player turns away going to turtle to escape pressure and leg clear** (Effectiveness: Medium) - Your Response: Follow their rotation, maintaining the underhook and transitioning to back attack or using the momentum to complete the pass to opposite side control → Leads to [[Side Control]]
-- **Electric chair or lockdown control on trapped leg, preventing extraction** (Effectiveness: Medium) - Your Response: Focus on breaking the lockdown first by driving your trapped ankle to the mat and extracting your foot. Maintain upper body control throughout to prevent sweeps → Leads to [[Half Guard]]
-- **Bottom player bridges explosively and hip escapes to recover closed guard** (Effectiveness: Low) - Your Response: Ride the bridge by staying heavy and connected, allowing your body to move with theirs while maintaining underhook and crossface. Block far knee with your free hand to prevent guard closure → Leads to [[Closed Guard]]
-- **Bottom player frames on bicep and hip escapes into dogfight position** (Effectiveness: Medium) - Your Response: If they achieve the underhook and come to knees, immediately circle toward their back using your underhook depth advantage to prevent them from fully establishing the dogfight → Leads to [[Dogfight Position]]
+- **Bottom player establishes their own underhook, creating an underhook battle and preventing pass progression** (Effectiveness: High) - Your Response: Immediately switch to whizzer control on their underhook arm, driving your weight into their shoulder while using your free hand to strip their grip or transition to alternative passes like the knee slice → Leads to [[Positions/Half Guard]]
+- **Strong knee shield frame preventing chest-to-chest pressure and flattening** (Effectiveness: High) - Your Response: Address the knee shield by controlling the knee with your free hand, driving it to the mat while maintaining underhook pressure. Alternatively, transition to knee cut pass or smash pass variations → Leads to [[Positions/Half Guard]]
+- **Bottom player turns away going to turtle to escape pressure and leg clear** (Effectiveness: Medium) - Your Response: Follow their rotation, maintaining the underhook and transitioning to back attack or using the momentum to complete the pass to opposite side control → Leads to [[Positions/Side Control]]
+- **Electric chair or lockdown control on trapped leg, preventing extraction** (Effectiveness: Medium) - Your Response: Focus on breaking the lockdown first by driving your trapped ankle to the mat and extracting your foot. Maintain upper body control throughout to prevent sweeps → Leads to [[Positions/Half Guard]]
+- **Bottom player bridges explosively and hip escapes to recover closed guard** (Effectiveness: Low) - Your Response: Ride the bridge by staying heavy and connected, allowing your body to move with theirs while maintaining underhook and crossface. Block far knee with your free hand to prevent guard closure → Leads to [[Positions/Closed Guard]]
+- **Bottom player frames on bicep and hip escapes into dogfight position** (Effectiveness: Medium) - Your Response: If they achieve the underhook and come to knees, immediately circle toward their back using your underhook depth advantage to prevent them from fully establishing the dogfight → Leads to [[Positions/Dogfight Position]]
 
 
 </section>

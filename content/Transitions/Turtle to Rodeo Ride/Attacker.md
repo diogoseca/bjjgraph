@@ -180,7 +180,7 @@ description: "How to execute the Transition to Rodeo Ride from turtle top in BJJ
 
 Executing the Transition to Rodeo Ride requires converting your standard turtle top control into an asymmetric riding position through deliberate angle change, grip establishment, and hip loading. The attacker must shift from a position of even bilateral pressure to one where the hips are loaded onto the opponent's torso from a perpendicular angle, one leg is posted for base, and the near arm is controlled to prevent defensive posting. The transition happens in a narrow timing window—after you have initial turtle control but before the opponent begins an escape sequence. Success depends on reading the opponent's defensive posture, selecting the appropriate grip configuration (gi vs no-gi), and committing to the angle change with enough speed to prevent the opponent from adjusting their defensive structure. The entire entry should flow as one continuous movement rather than a series of discrete steps, with each phase setting up the next.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Transition to Rodeo Ride requires converting your standard turtle 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Rodeo Ride]] | 60% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Rodeo Ride]] | 60% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Transition to Rodeo Ride requires converting your standard turtle 
 
 ## Opponent Counters
 
-- **Opponent explosively sits back to guard before angle change completes** (Effectiveness: High) - Your Response: If you feel the sit-back beginning, immediately abandon the angle change and follow their hips down, re-establishing standard turtle control or transitioning to a front headlock if they turn toward you. Prevention is key—ensure near-arm control is solid before committing to the angle change. → Leads to [[Half Guard]]
-- **Opponent performs granby roll as you begin walking hips perpendicular** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining your far-side anchor grip. The granby creates momentum you can redirect—as they invert, use your collar or shoulder control to guide them into back exposure rather than guard recovery. Stay heavy with your chest and do not release the far-side grip. → Leads to [[Turtle]]
-- **Opponent posts with near arm and creates a strong defensive frame before you secure control** (Effectiveness: High) - Your Response: Switch to a two-on-one grip break on their posting arm, or abandon the near-arm entry and transition to a front headlock spiral entry instead. The posted arm is actually vulnerable to kimura attacks if you can control the wrist and rotate the shoulder. → Leads to [[Turtle]]
-- **Opponent turtles extremely tight with elbows glued to knees, denying arm access** (Effectiveness: Medium) - Your Response: Rather than fighting for the near arm, establish the far-side collar grip first and begin walking your hips perpendicular using collar pressure alone. The tight turtle actually helps your transition because the opponent cannot post or create frames. Use the collar to threaten a clock choke, which forces them to open their defensive shell. → Leads to [[Rodeo Ride]]
+- **Opponent explosively sits back to guard before angle change completes** (Effectiveness: High) - Your Response: If you feel the sit-back beginning, immediately abandon the angle change and follow their hips down, re-establishing standard turtle control or transitioning to a front headlock if they turn toward you. Prevention is key—ensure near-arm control is solid before committing to the angle change. → Leads to [[Positions/Half Guard]]
+- **Opponent performs granby roll as you begin walking hips perpendicular** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining your far-side anchor grip. The granby creates momentum you can redirect—as they invert, use your collar or shoulder control to guide them into back exposure rather than guard recovery. Stay heavy with your chest and do not release the far-side grip. → Leads to [[Positions/Turtle]]
+- **Opponent posts with near arm and creates a strong defensive frame before you secure control** (Effectiveness: High) - Your Response: Switch to a two-on-one grip break on their posting arm, or abandon the near-arm entry and transition to a front headlock spiral entry instead. The posted arm is actually vulnerable to kimura attacks if you can control the wrist and rotate the shoulder. → Leads to [[Positions/Turtle]]
+- **Opponent turtles extremely tight with elbows glued to knees, denying arm access** (Effectiveness: Medium) - Your Response: Rather than fighting for the near arm, establish the far-side collar grip first and begin walking your hips perpendicular using collar pressure alone. The tight turtle actually helps your transition because the opponent cannot post or create frames. Use the collar to threaten a clock choke, which forces them to open their defensive shell. → Leads to [[Positions/Rodeo Ride]]
 
 
 </section>

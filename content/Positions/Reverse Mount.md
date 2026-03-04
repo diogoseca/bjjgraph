@@ -97,19 +97,19 @@ The position's moderate risk level reflects its transitional nature - dominant e
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (28% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (28% of attempts)
 
-- **[[Bridge and Roll]]** (22% of attempts)
+- **[[Transitions/Bridge and Roll]]** (22% of attempts)
 
-- **[[Hip Escape to Guard]]** (17% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (17% of attempts)
 
-- **[[Sit Through to Guard]]** (12% of attempts)
+- **[[Transitions/Sit Through to Guard]]** (12% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (12% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (12% of attempts)
 
-- **[[Bridge from Reverse Mount]]** (6% of attempts)
+- **[[Transitions/Bridge from Reverse Mount]]** (6% of attempts)
 
-- **[[Escape Reverse Mount]]** (3% of attempts)
+- **[[Transitions/Escape Reverse Mount]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -170,21 +170,21 @@ The position's moderate risk level reflects its transitional nature - dominant e
 ### Available Transitions
 
 
-- **[[Side Control to Mount]]** (43% of attempts)
+- **[[Transitions/Side Control to Mount]]** (43% of attempts)
 
-- **[[Back Take]]** (26% of attempts)
+- **[[Transitions/Back Take]]** (26% of attempts)
 
-- **[[Mount to Armbar]]** (12% of attempts)
+- **[[Transitions/Mount to Armbar]]** (12% of attempts)
 
-- **[[Turtle to Truck]]** (7% of attempts)
+- **[[Transitions/Turtle to Truck]]** (7% of attempts)
 
-- **[[Side Control to North-South]]** (7% of attempts)
+- **[[Transitions/Side Control to North-South]]** (7% of attempts)
 
-- **[[Reverse Mount to Mount]]** (3% of attempts)
+- **[[Transitions/Reverse Mount to Mount]]** (3% of attempts)
 
-- **[[Reverse Mount to Side Control]]** (1% of attempts)
+- **[[Transitions/Reverse Mount to Side Control]]** (1% of attempts)
 
-- **[[Armbar from Reverse Mount]]** (1% of attempts)
+- **[[Transitions/Armbar from Reverse Mount]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -223,23 +223,23 @@ The position's moderate risk level reflects its transitional nature - dominant e
 ## Related Positions
 
 
-- **[[Mount]]** - Primary progression - standard mount is superior position and natural transition from reverse mount top
+- **[[Positions/Mount]]** - Primary progression - standard mount is superior position and natural transition from reverse mount top
 
-- **[[Back Control]]** - Superior progression - reverse mount provides excellent back take opportunities via hook insertion
+- **[[Positions/Back Control]]** - Superior progression - reverse mount provides excellent back take opportunities via hook insertion
 
-- **[[Turtle]]** - Common escape target from reverse mount bottom and entry position to reverse mount top
+- **[[Positions/Turtle]]** - Common escape target from reverse mount bottom and entry position to reverse mount top
 
-- **[[S Mount]]** - Advanced variation - high mount position accessible from reverse mount for armbar setups
+- **[[Positions/Mount/S Mount]]** - Advanced variation - high mount position accessible from reverse mount for armbar setups
 
-- **[[Technical Mount]]** - Related controlling position - similar point value with different control mechanics
+- **[[Positions/Mount/Technical Mount]]** - Related controlling position - similar point value with different control mechanics
 
-- **[[Half Guard]]** - Escape target for bottom player and passing opportunity for top player
+- **[[Positions/Half Guard]]** - Escape target for bottom player and passing opportunity for top player
 
-- **[[North-South]]** - Alternative transition when opponent creates certain angles during escape attempts
+- **[[Positions/North-South]]** - Alternative transition when opponent creates certain angles during escape attempts
 
-- **[[Truck]]** - Advanced transition target - reverse mount can flow to truck for twister attacks
+- **[[Positions/Twister Control/Truck]]** - Advanced transition target - reverse mount can flow to truck for twister attacks
 
-- **[[Side Control]]** - Common transition point during scrambles leading to reverse mount
+- **[[Positions/Side Control]]** - Common transition point during scrambles leading to reverse mount
 
 
 </section>

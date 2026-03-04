@@ -186,7 +186,7 @@ description: "Master the attacking mechanics of the Leg Weave Pass Completion. S
 
 The Leg Weave Pass Completion from the attacker's perspective demands seamless integration of upper body control, hip drive, and weight distribution throughout a dynamic transition. The passer must maintain unbroken pressure while shifting from the weave control angle to perpendicular side control alignment, which requires coordinating crossface pressure with hip movement and leg extraction in a single fluid sequence. The critical window for completion is narrow because the bottom player's defensive resources concentrate at this exact moment. Success depends on the passer's ability to read the bottom player's defensive choices and adapt the completion path accordingly, choosing between direct drive-through, knee slide, hip switch, or backstep based on the resistance encountered. The most common failure point is creating momentary space during the hip transition, which must be eliminated through disciplined chest-to-chest connection throughout the passing sequence.
 
-**From Position**: [[Leg Weave]] (Top)
+**From Position**: [[Positions/Leg Weave]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ The Leg Weave Pass Completion from the attacker's perspective demands seamless i
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Leg Weave]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Leg Weave]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ The Leg Weave Pass Completion from the attacker's perspective demands seamless i
 
 ## Opponent Counters
 
-- **Bottom player frames against crossface and shrimps to create distance for knee shield recovery** (Effectiveness: High) - Your Response: Anticipate the frame by driving your shoulder lower into their chest and increasing forward hip pressure. If they begin shrimping, follow their hips immediately and accelerate the completion rather than trying to reset. Speed through the gap before the knee shield can be fully inserted. → Leads to [[Leg Weave]]
-- **Bottom player dives underneath for deep half guard entry during the weight transition** (Effectiveness: Medium) - Your Response: As soon as you feel them threading underneath, sprawl your hips back and widen your base. Post your far hand on the mat and drive your weight down onto their upper body to flatten them. If they get partial entry, backstep immediately rather than fighting the deep half position. → Leads to [[Half Guard]]
-- **Bottom player times an explosive bridge during the hip transition moment** (Effectiveness: Medium) - Your Response: Lower your center of gravity immediately by dropping your hips and widening your base. Post your free hand on the mat for stability and ride the bridge by moving with it rather than resisting. Once the bridge subsides, continue the completion before they can chain another defensive movement. → Leads to [[Leg Weave]]
-- **Bottom player secures an underhook during the transition and drives to dogfight position** (Effectiveness: High) - Your Response: If the underhook is shallow, use a whizzer to neutralize it and drive them back flat before resuming the completion. If the underhook is deep and they are already coming up, transition to a crossface or front headlock position to maintain top control rather than fighting the underhook from a compromised angle. → Leads to [[Half Guard]]
+- **Bottom player frames against crossface and shrimps to create distance for knee shield recovery** (Effectiveness: High) - Your Response: Anticipate the frame by driving your shoulder lower into their chest and increasing forward hip pressure. If they begin shrimping, follow their hips immediately and accelerate the completion rather than trying to reset. Speed through the gap before the knee shield can be fully inserted. → Leads to [[Positions/Leg Weave]]
+- **Bottom player dives underneath for deep half guard entry during the weight transition** (Effectiveness: Medium) - Your Response: As soon as you feel them threading underneath, sprawl your hips back and widen your base. Post your far hand on the mat and drive your weight down onto their upper body to flatten them. If they get partial entry, backstep immediately rather than fighting the deep half position. → Leads to [[Positions/Half Guard]]
+- **Bottom player times an explosive bridge during the hip transition moment** (Effectiveness: Medium) - Your Response: Lower your center of gravity immediately by dropping your hips and widening your base. Post your free hand on the mat for stability and ride the bridge by moving with it rather than resisting. Once the bridge subsides, continue the completion before they can chain another defensive movement. → Leads to [[Positions/Leg Weave]]
+- **Bottom player secures an underhook during the transition and drives to dogfight position** (Effectiveness: High) - Your Response: If the underhook is shallow, use a whizzer to neutralize it and drive them back flat before resuming the completion. If the underhook is deep and they are already coming up, transition to a crossface or front headlock position to maintain top control rather than fighting the underhook from a compromised angle. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Defend against the Posture Up from Triangle in BJJ. Maintain trian
 
 As the triangle holder, your primary defensive objective against the posture-up attempt is maintaining broken posture and preventing your opponent from recovering spinal alignment. The posture-up represents the most fundamental escape your opponent will attempt, making your response to it a critical skill for finishing triangles consistently. Your defensive system relies on three interconnected mechanisms: active head control that resists the upward drive, hip extension that maintains choking pressure, and angle preservation that ensures optimal compression geometry even as the opponent fights for posture. Understanding that the opponent's posture-up is hip-driven rather than neck-driven informs your response—you must address their hip movement and connected grip rather than simply pulling their head down. The most effective defense combines constant downward pull on the head with sustained hip extension and rapid angle adjustment to make posture recovery progressively more difficult and energy-expensive for the escaping player.
 
-**Opponent's Starting Position**: [[Triangle Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Triangle Control]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the triangle holder, your primary defensive objective against the posture-up 
 ### 1. Pull head down aggressively while extending hips and squeezing knees to maximize choking pressure
 
 - **When to use**: Immediately when you feel opponent establishing connected grip or beginning any upward drive
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Opponent's posture-up is defeated, maintaining full triangle control with submission threat intact
 - **Risk**: If grip on head is broken by strong hip drive, opponent may achieve partial posture quickly
 
 ### 2. Hip-walk to maintain 30-45 degree angle as opponent attempts to square their shoulders to your hips
 
 - **When to use**: When opponent begins squaring their shoulders during posture attempt, reducing choke effectiveness
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Maintains optimal choking geometry despite opponent's efforts to neutralize the angle
 - **Risk**: Hip movement may create momentary looseness in triangle lock during angle adjustment
 
 ### 3. Transition to armbar by isolating the trapped arm when posture-up creates space that loosens the triangle
 
 - **When to use**: When opponent gains partial posture and the triangle choke becomes less effective but the arm remains trapped
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Creates new armbar submission threat from their escape attempt, forcing them to address a different danger
 - **Risk**: If armbar transition fails, opponent may complete posture recovery during the positional change
 
 ### 4. Time a hip bump sweep using opponent's elevated center of gravity during their upward drive
 
 - **When to use**: When opponent's weight shifts upward and laterally during posture attempt, compromising their base
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Sweeps opponent using their own upward momentum, reversing the position entirely
 - **Risk**: If sweep fails, the triangle may be loosened and opponent achieves full posture recovery
 
@@ -217,11 +217,11 @@ As the triangle holder, your primary defensive objective against the posture-up 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Triangle Control]]
+### → [[Positions/Triangle Control]]
 
 Prevent posture recovery by maintaining constant head pull, hip extension, and angle preservation working simultaneously. Attack the opponent's connected grip by breaking it with your hands or using your legs to restrict their arm movement. The combination of head control, sustained leg pressure, and angle management creates compounding resistance that makes each successive posture attempt more exhausting for the opponent.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a hip bump or scissor sweep when the opponent's weight shifts upward during their posture attempt. Their elevated center of gravity during the posture-up makes them vulnerable to lateral displacement. Use your triangle leg configuration to redirect their momentum sideways while their balance is compromised by the upward drive.
 

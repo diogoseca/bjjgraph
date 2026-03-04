@@ -152,7 +152,7 @@ The critical defensive window is narrow. Once the attacker captures your far arm
 
 From a strategic perspective, your awareness of the crucifix threat should shape your entire defensive approach from leg drag bottom. Rather than committing blindly to the turn-in, you must read the attacker's positioning and choose between turning in with protected arms, turning away to concede back exposure, or staying flat and working leg extraction. Each choice carries risk, but an informed choice based on the attacker's weight distribution and grip position is far better than a reflexive turn-in that walks directly into the arm trap.
 
-**Opponent's Starting Position**: [[Leg Drag Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
 
@@ -188,21 +188,21 @@ From a strategic perspective, your awareness of the crucifix threat should shape
 ### 1. Retract arms and turn away to concede back exposure instead of completing the turn-in
 
 - **When to use**: When you feel the attacker following your rotation and reaching for your far arm during early stages of the turn-in before arm capture is secured
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: You avoid the crucifix entirely and force the attacker to pursue back take from leg drag, which you can defend with standard back defense and may recover to leg drag bottom or turtle
 - **Risk**: Conceding back exposure means the attacker may secure back control with hooks, trading one bad position for another though crucifix is significantly worse
 
 ### 2. Explosively shrimp hips away and insert knee shield before the attacker can step over for the arm trap
 
 - **When to use**: When the attacker has begun the arm capture but has not yet stepped their leg over your body, creating a brief window where distance creation can prevent consolidation
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to half guard with knee shield, completely negating the crucifix entry and returning to a defensible guard position with sweep opportunities
 - **Risk**: If the shrimp is too slow, the attacker catches your arm during the movement and you end up in a worse position with your back further exposed
 
 ### 3. Stay flat on back with elbows pinched tight and work to free the dragged leg rather than turning in at all
 
 - **When to use**: When you recognize the attacker is baiting the turn-in by positioning to follow your rotation, indicating they want you to turn into the crucifix setup
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: You deny the crucifix entry entirely by refusing to provide the turn-in that creates the opportunity, forcing the attacker to pursue side control or mount instead which are more escapable
 - **Risk**: Staying flat allows the attacker to consolidate to side control or mount, but both are preferable to crucifix and offer higher-percentage escape options
 
@@ -214,11 +214,11 @@ From a strategic perspective, your awareness of the crucifix threat should shape
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Drag Control]]
+### → [[Positions/Leg Drag Control]]
 
 Deny the crucifix by keeping elbows tight during turn-in or refusing to turn in entirely. If the attacker commits to the crucifix setup but you retract your arm before capture, they lose their original leg drag pressure and must re-establish control, giving you a window to reset your defensive frames.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a strong hip escape as the attacker releases leg drag control to pursue the crucifix. The moment they release your dragged leg to step over for the arm trap, explosively shrimp and insert your knee to recover half guard. Their commitment to the crucifix entry creates the opening for your leg to escape the drag.
 

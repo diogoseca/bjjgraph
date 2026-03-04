@@ -21,7 +21,7 @@ This transition exploits the fundamental defensive dilemma created by S Mount: t
 
 The mounted triangle position offers distinct advantages over forcing a contested armbar from S Mount. The triangle configuration creates choking pressure through leg compression while simultaneously threatening the trapped arm with armbar mechanics. This dual threat forces the defender into increasingly narrow defensive options, often resulting in submission or positional advancement to back control when the opponent turns away from the choking pressure. At the highest levels, this transition is a cornerstone of the mount-to-submission chain, appearing in the games of elite competitors who use S Mount as a systematic launching platform for multiple finishing sequences.
 
-**From Position**: [[S Mount]] (Top)
+**From Position**: [[Positions/Mount/S Mount]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The mounted triangle position offers distinct advantages over forcing a conteste
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mounted Triangle]] | 55% |
-| Failure | [[S Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/Mounted Triangle]] | 55% |
+| Failure | [[Positions/Mount/S Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The S Mount to Mounted Triangle transition occupies a critical position in the m
 ## Related Techniques
 
 
-- [[S Mount]] - Starting position - S Mount provides the arm isolation and leg-over-head configuration that enables the triangle entry
+- [[Positions/Mount/S Mount]] - Starting position - S Mount provides the arm isolation and leg-over-head configuration that enables the triangle entry
 
-- [[Mounted Triangle]] - Target position - the mounted triangle control position where triangle choke and armbar threats converge
+- [[Positions/Mount/Mounted Triangle]] - Target position - the mounted triangle control position where triangle choke and armbar threats converge
 
-- [[S Mount Armbar Setup]] - Primary alternative attack - armbar and triangle form the core S Mount submission dilemma
+- [[Transitions/S Mount Armbar Setup]] - Primary alternative attack - armbar and triangle form the core S Mount submission dilemma
 
-- [[Mounted Triangle Squeeze]] - Follow-up technique - finishing the triangle choke from the mounted triangle position achieved by this transition
+- [[Transitions/Mounted Triangle Squeeze]] - Follow-up technique - finishing the triangle choke from the mounted triangle position achieved by this transition
 
-- [[Mounted Triangle Finish]] - Terminal submission - the mounted triangle choke finish that this transition sets up
+- [[Submissions/Mounted Triangle Finish]] - Terminal submission - the mounted triangle choke finish that this transition sets up
 
-- [[Armbar from S Mount]] - Chain partner submission - opponent defending this armbar creates the opening for the triangle transition
+- [[Submissions/Armbar from S Mount]] - Chain partner submission - opponent defending this armbar creates the opening for the triangle transition
 
-- [[High Mount]] - Entry position - high mount flows to S Mount which flows to mounted triangle in the submission progression
+- [[Positions/Mount/High Mount]] - Entry position - high mount flows to S Mount which flows to mounted triangle in the submission progression
 
-- [[Mount]] - Base position - the standard mount from which the entire S Mount to triangle chain originates
+- [[Positions/Mount]] - Base position - the standard mount from which the entire S Mount to triangle chain originates
 
-- [[Back Control]] - Alternative advancement - available when opponent turns away during the triangle threading attempt
+- [[Positions/Back Control]] - Alternative advancement - available when opponent turns away during the triangle threading attempt
 
-- [[Gift Wrap]] - Setup control - gift wrap arm control facilitates the triangle entry by neutralizing defensive framing
+- [[Positions/Gift Wrap]] - Setup control - gift wrap arm control facilitates the triangle entry by neutralizing defensive framing
 
-- [[High Mount to S Mount]] - Preceding transition - the entry sequence that establishes the S Mount position from which this technique launches
+- [[Transitions/High Mount to S Mount]] - Preceding transition - the entry sequence that establishes the S Mount position from which this technique launches
 
-- [[Mounted Triangle to S Mount]] - Reverse transition - returning to S Mount when the mounted triangle is not finishing
+- [[Transitions/Mounted Triangle to S Mount]] - Reverse transition - returning to S Mount when the mounted triangle is not finishing
 
 
 </section>

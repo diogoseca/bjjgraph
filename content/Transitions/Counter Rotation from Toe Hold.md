@@ -21,7 +21,7 @@ The biomechanical foundation of this technique relies on eliminating the rotatio
 
 This transition occupies a specialized niche in the leg lock defense hierarchy. While techniques like the Boot Defense and Angle Change Escape address the toe hold through grip breaking and positional adjustment respectively, the Counter Rotation represents a more dynamic response that completely changes the positional landscape. It is particularly valuable when grip-fighting defenses have been exhausted or when the opponent's toe hold control is too deep for static defensive measures. The technique requires precise timing, as rotating too early wastes the defensive opportunity while rotating too late risks injury from an already-locked submission.
 
-**From Position**: [[Toe Hold Control]] (Bottom)
+**From Position**: [[Positions/Toe Hold Control]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ This transition occupies a specialized niche in the leg lock defense hierarchy. 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 45% |
-| Failure | [[Toe Hold Control]] | 35% |
-| Counter | [[Saddle]] | 20% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 45% |
+| Failure | [[Positions/Toe Hold Control]] | 35% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 20% |
 
 
 </section>
@@ -193,25 +193,25 @@ Counter Rotation from Toe Hold sits within the broader leg lock defense framewor
 ## Related Techniques
 
 
-- [[Toe Hold Control]] - Source position from which this counter rotation is initiated
+- [[Positions/Toe Hold Control]] - Source position from which this counter rotation is initiated
 
-- [[50-50 Guard]] - Primary target position achieved through successful counter rotation
+- [[Positions/Ashi Garami/50-50 Guard]] - Primary target position achieved through successful counter rotation
 
-- [[Boot Defense from Toe Hold]] - Alternative defensive transition addressing toe hold through foot positioning rather than body rotation
+- [[Transitions/Boot Defense from Toe Hold]] - Alternative defensive transition addressing toe hold through foot positioning rather than body rotation
 
-- [[Angle Change Escape]] - Complementary escape technique using angular repositioning rather than rotational movement
+- [[Transitions/Angle Change Escape]] - Complementary escape technique using angular repositioning rather than rotational movement
 
-- [[Ashi Garami Escape]] - Broader escape category encompassing multiple methods of exiting leg entanglements
+- [[Transitions/Ashi Garami Escape]] - Broader escape category encompassing multiple methods of exiting leg entanglements
 
-- [[Counter Entangle to 50-50 from Ashi]] - Related counter-entanglement concept sharing the same target position through different entry mechanics
+- [[Transitions/Counter Entangle to 50-50 from Ashi]] - Related counter-entanglement concept sharing the same target position through different entry mechanics
 
-- [[Saddle]] - Risk position if opponent follows the rotation and deepens the leg entanglement
+- [[Positions/Ashi Garami/Saddle]] - Risk position if opponent follows the rotation and deepens the leg entanglement
 
-- [[Leg Entanglement]] - Parent positional concept governing all ashi-based configurations and defensive protocols
+- [[Positions/Leg Entanglement]] - Parent positional concept governing all ashi-based configurations and defensive protocols
 
-- [[Inside Ashi-Garami]] - Alternative entanglement accessible through partial counter rotation when opponent's heel is exposed
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative entanglement accessible through partial counter rotation when opponent's heel is exposed
 
-- [[Ashi Garami]] - Foundational leg control category from which toe hold attacks originate
+- [[Positions/Ashi Garami]] - Foundational leg control category from which toe hold attacks originate
 
 
 </section>

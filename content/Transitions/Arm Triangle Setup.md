@@ -21,7 +21,7 @@ Strategically, this transition converts a dominant but static pinning position i
 
 The technique rewards patience and systematic grip progression. Rushing the arm thread before properly trapping the opponent's arm results in the bottom player framing out and recovering guard. Advanced practitioners use the arm triangle threat as part of a broader submission chain from North-South, combining it with kimura, North-South choke, and armbar attacks to create a web of threats where defending one opens another.
 
-**From Position**: [[North-South]] (Top)
+**From Position**: [[Positions/North-South]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The technique rewards patience and systematic grip progression. Rushing the arm 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[North-South]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/North-South]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,27 +189,27 @@ The Arm Triangle Setup serves as a critical link in the North-South submission c
 ## Related Techniques
 
 
-- [[North-South]] - Starting position providing the chest pressure platform for the arm isolation
+- [[Positions/North-South]] - Starting position providing the chest pressure platform for the arm isolation
 
-- [[Side Control]] - Transitional destination where the arm triangle finish is mechanically strongest
+- [[Positions/Side Control]] - Transitional destination where the arm triangle finish is mechanically strongest
 
-- [[Arm Triangle]] - Primary submission finish available once the head-and-arm configuration is locked
+- [[Transitions/Arm Triangle]] - Primary submission finish available once the head-and-arm configuration is locked
 
-- [[Arm Triangle Transition]] - Alternative arm triangle entry path from different positions
+- [[Transitions/Arm Triangle Transition]] - Alternative arm triangle entry path from different positions
 
-- [[Arm Triangle from Top]] - Related setup initiated from side control rather than North-South
+- [[Transitions/Arm Triangle from Top]] - Related setup initiated from side control rather than North-South
 
-- [[North-South to Kimura]] - Complementary attack creating a three-way submission chain from North-South
+- [[Transitions/North-South to Kimura]] - Complementary attack creating a three-way submission chain from North-South
 
-- [[North-South Choke]] - Alternative choke attack from the same starting position completing the dilemma triangle
+- [[Transitions/North-South Choke]] - Alternative choke attack from the same starting position completing the dilemma triangle
 
-- [[Armbar from North-South]] - Alternative submission from same position when arms are extended
+- [[Transitions/Armbar from North-South]] - Alternative submission from same position when arms are extended
 
-- [[Gift Wrap]] - Alternative arm control method that feeds into the arm triangle configuration
+- [[Positions/Gift Wrap]] - Alternative arm control method that feeds into the arm triangle configuration
 
-- [[Darce Control]] - Related head-and-arm control position with similar compression mechanics
+- [[Positions/Darce Control]] - Related head-and-arm control position with similar compression mechanics
 
-- [[Guillotine Control]] - Alternative neck control position accessible from similar setups
+- [[Positions/Guillotine Control]] - Alternative neck control position accessible from similar setups
 
 
 </section>

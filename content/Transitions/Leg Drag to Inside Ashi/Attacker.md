@@ -178,7 +178,7 @@ This transition exemplifies the modern approach to grappling where positional pa
 
 Strategically, this option expands your threat matrix significantly. Opponents who successfully defend traditional leg drag follow-ups (back take, mount, side control) by staying heavy on their hips suddenly face a different category of danger. The psychological pressure of knowing that strong positional defense opens leg attack vulnerabilities creates hesitation and uncertainty, making all your attacks more effective.
 
-**From Position**: [[Leg Drag Control]] (Top)
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
 
@@ -228,9 +228,9 @@ Strategically, this option expands your threat matrix significantly. Opponents w
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 65% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 65% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -239,10 +239,10 @@ Strategically, this option expands your threat matrix significantly. Opponents w
 
 ## Opponent Counters
 
-- **Opponent immediately straightens trapped leg and kicks through before you establish control** (Effectiveness: High) - Your Response: Control the knee line earlier in the transition; if they straighten, switch to outside ashi or pursue the ankle lock on the extended leg → Leads to [[Leg Drag Control]]
-- **Opponent turns into you and attempts to pass your guard as you sit back** (Effectiveness: Medium) - Your Response: Use the seated position to establish butterfly hooks and elevate, or transition to single leg X if they drive forward → Leads to [[Half Guard]]
-- **Opponent sits up and fights your leg control with their hands** (Effectiveness: Medium) - Your Response: Maintain your triangle or figure-four on their leg; their hand fighting creates openings for sweeps or allows you to secure the heel grip → Leads to [[Leg Drag Control]]
-- **Opponent backsteps over your body to escape the entanglement** (Effectiveness: Low) - Your Response: Follow their rotation and pursue the back take as they turn away, or transition to cross ashi as their leg rotates → Leads to [[Half Guard]]
+- **Opponent immediately straightens trapped leg and kicks through before you establish control** (Effectiveness: High) - Your Response: Control the knee line earlier in the transition; if they straighten, switch to outside ashi or pursue the ankle lock on the extended leg → Leads to [[Positions/Leg Drag Control]]
+- **Opponent turns into you and attempts to pass your guard as you sit back** (Effectiveness: Medium) - Your Response: Use the seated position to establish butterfly hooks and elevate, or transition to single leg X if they drive forward → Leads to [[Positions/Half Guard]]
+- **Opponent sits up and fights your leg control with their hands** (Effectiveness: Medium) - Your Response: Maintain your triangle or figure-four on their leg; their hand fighting creates openings for sweeps or allows you to secure the heel grip → Leads to [[Positions/Leg Drag Control]]
+- **Opponent backsteps over your body to escape the entanglement** (Effectiveness: Low) - Your Response: Follow their rotation and pursue the back take as they turn away, or transition to cross ashi as their leg rotates → Leads to [[Positions/Half Guard]]
 
 
 </section>

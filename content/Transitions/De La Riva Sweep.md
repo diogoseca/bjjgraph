@@ -21,7 +21,7 @@ The De La Riva Sweep works by creating a powerful lever system using the De La R
 
 This technique represents a cornerstone of modern sport jiu-jitsu, particularly in IBJJF competition formats where the De La Riva guard is extensively used. Mastering the De La Riva Sweep requires understanding timing, grip fighting, hip movement, and the ability to chain multiple attacks together. The sweep becomes increasingly effective as practitioners develop sensitivity to weight distribution and learn to capitalize on their opponent's forward pressure or attempts to pass the guard.
 
-**From Position**: [[De La Riva Guard]] (Bottom)
+**From Position**: [[Positions/De La Riva Guard]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ This technique represents a cornerstone of modern sport jiu-jitsu, particularly 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Failure | [[De La Riva Guard]] | 20% |
-| Counter | [[De La Riva Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 70% |
+| Failure | [[Positions/De La Riva Guard]] | 20% |
+| Counter | [[Positions/De La Riva Guard]] | 10% |
 
 
 </section>
@@ -192,29 +192,29 @@ The De La Riva Sweep is a foundational technique within the broader De La Riva G
 ## Related Techniques
 
 
-- [[De La Riva Guard]] - Starting position - foundational guard from which this sweep is executed
+- [[Positions/De La Riva Guard]] - Starting position - foundational guard from which this sweep is executed
 
-- [[De La Riva to X-Guard Transition]] - Follow-up transition - alternative when sweep is defended by opponent stepping back
+- [[Transitions/De La Riva to X-Guard Transition]] - Follow-up transition - alternative when sweep is defended by opponent stepping back
 
-- [[Berimbolo Entry]] - Alternative attack - complementary technique from De La Riva Guard exploiting forward pressure
+- [[Transitions/Berimbolo Entry]] - Alternative attack - complementary technique from De La Riva Guard exploiting forward pressure
 
-- [[Kiss of the Dragon]] - Counter transition - back take option when opponent defends sweep by retreating
+- [[Transitions/Kiss of the Dragon]] - Counter transition - back take option when opponent defends sweep by retreating
 
-- [[Waiter Sweep]] - Variation - overhead sweep using similar De La Riva hook structure against upright opponents
+- [[Transitions/Waiter Sweep]] - Variation - overhead sweep using similar De La Riva hook structure against upright opponents
 
-- [[Single Leg X-Guard]] - Related position - common transition target when opponent steps back from DLR hook
+- [[Positions/X-Guard/Single Leg X-Guard]] - Related position - common transition target when opponent steps back from DLR hook
 
-- [[X-Guard]] - Related position - connected guard system with similar off-balancing mechanics
+- [[Positions/X-Guard]] - Related position - connected guard system with similar off-balancing mechanics
 
-- [[Omoplata from Guard]] - Alternative submission - attack available when opponent posts arm to defend sweep
+- [[Submissions/Omoplata from Guard]] - Alternative submission - attack available when opponent posts arm to defend sweep
 
-- [[Triangle from De La Riva]] - Submission option - complementary attack from same guard when opponent postures
+- [[Submissions/Triangle from De La Riva]] - Submission option - complementary attack from same guard when opponent postures
 
-- [[Side Control]] - Resulting position - primary ending position after successful sweep completion
+- [[Positions/Side Control]] - Resulting position - primary ending position after successful sweep completion
 
-- [[Back Control]] - Resulting position - possible outcome when combined with Kiss of the Dragon back take
+- [[Positions/Back Control]] - Resulting position - possible outcome when combined with Kiss of the Dragon back take
 
-- [[Reverse De La Riva Guard]] - Related guard - complementary position accessible when opponent jumps over DLR hook
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Related guard - complementary position accessible when opponent jumps over DLR hook
 
 
 </section>

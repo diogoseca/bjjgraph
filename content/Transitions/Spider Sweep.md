@@ -21,7 +21,7 @@ This sweep is highly effective because even a failed execution leaves the attack
 
 Strategically, the Spider Sweep creates a powerful dilemma when combined with triangle and omoplata threats from the same grip configuration. When the opponent defends the sweep by posting or widening their base, they create openings for submission entries. When they defend submissions by keeping elbows tight and weight centered, they become vulnerable to the sweep. This complementary relationship between sweep and submission threats is what makes the Spider Sweep the anchor technique of the entire Spider Guard offensive system.
 
-**From Position**: [[Spider Guard]] (Bottom)
+**From Position**: [[Positions/Spider Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Spider Sweep creates a powerful dilemma when combined with tr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Spider Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Spider Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -195,27 +195,27 @@ The Spider Sweep integrates into the Spider Guard system as the primary sweep th
 ## Related Techniques
 
 
-- [[Spider Guard]] - Source position providing the control framework and grips for this sweep
+- [[Positions/Spider Guard]] - Source position providing the control framework and grips for this sweep
 
-- [[Mount]] - Primary target position reached on successful sweep execution
+- [[Positions/Mount]] - Primary target position reached on successful sweep execution
 
-- [[Open Guard]] - Position reached on counter when spider guard control is broken during sweep attempt
+- [[Positions/Open Guard]] - Position reached on counter when spider guard control is broken during sweep attempt
 
-- [[Lasso Guard]] - Complementary guard variation used in the lasso-assisted sweep variant
+- [[Positions/Lasso Guard]] - Complementary guard variation used in the lasso-assisted sweep variant
 
-- [[De La Riva Guard]] - Related open guard system with complementary sweep mechanics and transition options
+- [[Positions/De La Riva Guard]] - Related open guard system with complementary sweep mechanics and transition options
 
-- [[Collar Sleeve Guard]] - Similar grip-based guard with related sweep setups using sleeve and collar control
+- [[Positions/Collar Sleeve Guard]] - Similar grip-based guard with related sweep setups using sleeve and collar control
 
-- [[Balloon Sweep]] - Related overhead sweep variant from spider guard using forward momentum
+- [[Transitions/Balloon Sweep]] - Related overhead sweep variant from spider guard using forward momentum
 
-- [[Lasso Sweep]] - Complementary sweep from lasso guard that chains with spider sweep threats
+- [[Transitions/Lasso Sweep]] - Complementary sweep from lasso guard that chains with spider sweep threats
 
-- [[Omoplata from Spider Guard]] - Complementary submission creating sweep-or-submit dilemma from same grips
+- [[Submissions/Omoplata from Spider Guard]] - Complementary submission creating sweep-or-submit dilemma from same grips
 
-- [[Triangle from Spider Guard Bottom]] - Complementary submission attack that chains with spider sweep when opponent defends
+- [[Submissions/Triangle from Spider Guard Bottom]] - Complementary submission attack that chains with spider sweep when opponent defends
 
-- [[Scissor Sweep from Open Guard]] - Related sweep using similar scissoring mechanics from different guard configuration
+- [[Transitions/Scissor Sweep from Open Guard]] - Related sweep using similar scissoring mechanics from different guard configuration
 
 
 </section>

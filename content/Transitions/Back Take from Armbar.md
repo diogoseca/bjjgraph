@@ -21,7 +21,7 @@ The technique operates on a powerful mechanical principle: the very action an op
 
 This transition is particularly effective at the purple belt level and above, where opponents develop reliable armbar defenses that make finishing from standard armbar control increasingly difficult. By integrating the back take into the armbar attack system, the practitioner creates a dilemma where defending the armbar exposes the back, and defending the back take requires extending the arm. This offensive fork forces the opponent into increasingly compromised defensive positions regardless of their chosen response, embodying the concept of cascading positional threats that define high-level grappling.
 
-**From Position**: [[Armbar Control]] (Top)
+**From Position**: [[Positions/Armbar Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition is particularly effective at the purple belt level and above, wh
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Armbar Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Armbar Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -187,25 +187,25 @@ The Back Take from Armbar occupies a critical junction in the submission chain h
 ## Related Techniques
 
 
-- [[Armbar Control]] - Source position where this transition originates from top armbar control
+- [[Positions/Armbar Control]] - Source position where this transition originates from top armbar control
 
-- [[Back Control]] - Target position achieved on successful back take execution
+- [[Positions/Back Control]] - Target position achieved on successful back take execution
 
-- [[Half Guard]] - Counter outcome position when opponent escapes during the transition window
+- [[Positions/Half Guard]] - Counter outcome position when opponent escapes during the transition window
 
-- [[Armbar Finish]] - Alternative high-percentage finish from armbar control when opponent stops defending
+- [[Transitions/Armbar Finish]] - Alternative high-percentage finish from armbar control when opponent stops defending
 
-- [[Back Take]] - Related back take concept applied from various other positions
+- [[Transitions/Back Take]] - Related back take concept applied from various other positions
 
-- [[Triangle Setup]] - Alternative chain attack from armbar when opponent defends by stacking rather than turning
+- [[Transitions/Triangle Setup]] - Alternative chain attack from armbar when opponent defends by stacking rather than turning
 
-- [[Belly Down Armbar Transition]] - Related armbar continuation option when opponent rolls away from the attack
+- [[Transitions/Belly Down Armbar Transition]] - Related armbar continuation option when opponent rolls away from the attack
 
-- [[Back Control Maintenance]] - Follow-up technique for maintaining back control after successful transition
+- [[Transitions/Back Control Maintenance]] - Follow-up technique for maintaining back control after successful transition
 
-- [[Armbar Defense]] - Common defensive response that creates the turning motion enabling this back take
+- [[Transitions/Armbar Defense]] - Common defensive response that creates the turning motion enabling this back take
 
-- [[Seat Belt Control Back]] - Specific grip configuration used to secure back control after completing transition
+- [[Positions/Back Control/Seat Belt Control Back]] - Specific grip configuration used to secure back control after completing transition
 
 
 </section>

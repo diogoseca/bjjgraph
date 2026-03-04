@@ -194,28 +194,28 @@ Defending the Monoplata from Guard requires early recognition and immediate acti
 ### 1. Retract your arm and recover posture before figure-four is established
 
 - **When to use**: At the earliest stage when you feel your arm being isolated past the attacker's hip line, before any leg threading begins
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover to standard closed guard top position with your arm safe and posture intact
 - **Risk**: Low risk if acted upon immediately; delay increases risk of the attacker securing the figure-four lock
 
 ### 2. Stack forward and drive your weight onto the attacker while pulling your elbow tight to your ribs
 
 - **When to use**: When the attacker has begun threading their leg but has not yet locked the figure-four configuration
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: The stacking pressure collapses their guard structure, preventing the angle needed for the monoplata and allowing you to extract your arm
 - **Risk**: Medium risk - if the figure-four is already partially locked, stacking can accelerate the shoulder pressure
 
 ### 3. Circle toward the trapped arm side and drive your knee through to initiate a guard pass
 
 - **When to use**: When you still have base and mobility but your arm is partially controlled; best used before the figure-four is locked
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You pass the guard while extracting your arm, transitioning to side control and escaping the submission entirely
 - **Risk**: Medium-high risk - committing to the pass with a partially trapped arm can deepen the submission if the pass fails
 
 ### 4. Roll forward over your trapped shoulder to relieve pressure and scramble
 
 - **When to use**: As a last resort when the figure-four is locked but the attacker's free leg has not yet secured your far hip
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You escape the submission angle and can scramble to top position or at minimum reset to open guard top
 - **Risk**: High risk - the roll can increase shoulder torque if the attacker follows and maintains the figure-four through the roll
 
@@ -238,11 +238,11 @@ Defending the Monoplata from Guard requires early recognition and immediate acti
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Retract your arm immediately when you feel the overhook deepening and your arm being pulled past the hip line. Drive your posture upward while pulling your elbow tight to your ribs. Re-establish hand placement on the attacker's hips to control distance and return to standard closed guard top position.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the attacker commits to the leg threading motion, they temporarily weaken their guard closure. Seize this window by driving forward with a knee slice or stack pass. The act of threading the leg creates space for you to advance your hips past their guard. Extract your arm during the transition and consolidate side control.
 

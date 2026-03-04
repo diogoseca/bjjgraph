@@ -21,7 +21,7 @@ Strategically, the Granby Roll represents an aggressive defensive philosophy whe
 
 The technical demands of the Granby Roll require significant hip mobility, proprioceptive awareness, and precise timing. Executing the roll too early allows the opponent to follow and maintain control; executing too late means the position has already consolidated beyond the escape window. Mastery of this technique provides a reliable emergency exit from dangerous turtle scenarios while building the movement vocabulary necessary for advanced guard retention and recovery systems.
 
-**From Position**: [[Buggy Choke]] (Bottom)
+**From Position**: [[Positions/Buggy Choke]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Success | [[Open Guard]] | 15% |
-| Failure | [[Buggy Choke]] | 20% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Success | [[Positions/Open Guard]] | 15% |
+| Failure | [[Positions/Buggy Choke]] | 20% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -192,25 +192,25 @@ The Granby Roll to Guard functions as an emergency escape within the turtle defe
 ## Related Techniques
 
 
-- [[Buggy Choke]] - Starting position this technique escapes from
+- [[Positions/Buggy Choke]] - Starting position this technique escapes from
 
-- [[Closed Guard]] - Primary guard position established upon successful completion
+- [[Positions/Closed Guard]] - Primary guard position established upon successful completion
 
-- [[Open Guard]] - Alternative guard position if closed guard cannot be established
+- [[Positions/Open Guard]] - Alternative guard position if closed guard cannot be established
 
-- [[Deep Half Guard]] - Variation destination when catching opponent's leg during roll
+- [[Positions/Half Guard/Deep Half Guard]] - Variation destination when catching opponent's leg during roll
 
-- [[Butterfly Guard]] - Alternative guard established from half granby variation
+- [[Positions/Butterfly Guard]] - Alternative guard established from half granby variation
 
-- [[Back Control]] - Counter position opponent may achieve if roll fails
+- [[Positions/Back Control]] - Counter position opponent may achieve if roll fails
 
-- [[Turtle]] - Related defensive position with similar escape considerations
+- [[Positions/Turtle]] - Related defensive position with similar escape considerations
 
-- [[Granby to Closed Guard]] - Related technique using same movement pattern from different starting positions
+- [[Transitions/Granby to Closed Guard]] - Related technique using same movement pattern from different starting positions
 
-- [[Sit to Half Guard]] - Alternative escape when granby is blocked
+- [[Transitions/Sit to Half Guard]] - Alternative escape when granby is blocked
 
-- [[Inversion to Turtle]] - Related inversion movement used in guard recovery sequences
+- [[Transitions/Inversion to Turtle]] - Related inversion movement used in guard recovery sequences
 
 
 </section>

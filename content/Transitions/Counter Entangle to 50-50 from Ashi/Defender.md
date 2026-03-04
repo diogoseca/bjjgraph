@@ -154,7 +154,7 @@ description: "Learn to defend and prevent the counter entangle to 50-50 from ash
 
 As the defender against the counter entangle, you are the person whose leg is controlled in Inside Ashi-Garami when your opponent attempts to thread into 50-50 Guard. Your primary objectives are recognizing the threading attempt early, preventing the leg from clearing your thigh, and either maintaining the current positional dynamic or creating complete separation to disengage from the leg entanglement entirely. Successful defense requires understanding the mechanical requirements of the thread—specifically that it needs rotational space and heel control to succeed—and denying these conditions through active leg straightening, grip stripping, and hip positioning.
 
-**Opponent's Starting Position**: [[Inside Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the counter entangle, you are the person whose leg is co
 ### 1. Straighten trapped leg explosively to prevent entanglement triangle from closing
 
 - **When to use**: Immediately upon recognizing the threading motion beginning—before opponent's leg clears your thigh
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Opponent's threading leg cannot complete the over-thigh pass and they remain in standard ashi garami without the 50-50 transition
 - **Risk**: If timed too late, leg straightening creates kneebar vulnerability as opponent already has partial entanglement around your extended leg
 
 ### 2. Strip opponent's heel grip with two-on-one hand fighting during the rotational transition
 
 - **When to use**: When opponent begins hip rotation and their grip loosens slightly due to body repositioning during the thread
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Without heel anchor, opponent cannot control your leg during the thread, allowing full extraction and escape to open guard top position
 - **Risk**: Grip stripping requires committing both hands to their grip, temporarily preventing you from framing against the threading leg
 
 ### 3. Hip escape away from threading direction while driving near knee into opponent's hip to create distance
 
 - **When to use**: When opponent has committed to the rotational movement but their leg has not yet fully cleared your thigh
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Creates sufficient distance that opponent's threading leg cannot reach over your thigh, breaking the transition entirely
 - **Risk**: Hip escape may create space that opponent uses to adjust angle and complete the thread from a wider position
 
 ### 4. If 50-50 is established, immediately fight for inside position with aggressive inside leg placement
 
 - **When to use**: After opponent has completed the thread and 50-50 is forming—defense shifts from prevention to inside position battle
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Establishing inside position in the new 50-50 neutralizes opponent's offensive advantage and creates your own counter-attack opportunities
 - **Risk**: Fighting for inside position while opponent is already attacking may expose your heel to immediate submission attempt
 
@@ -225,11 +225,11 @@ As the defender against the counter entangle, you are the person whose leg is co
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip opponent's heel grip during the threading rotation using two-on-one hand fighting, then immediately straighten your leg and hip escape to extract completely from the entanglement. Create distance and establish top position in opponent's open guard.
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Prevent the threading leg from clearing your thigh by pressing your near thigh down and squeezing your legs together. Straighten your trapped leg to make the entanglement triangle impossible to close. This forces the opponent to remain in standard ashi garami where you continue your existing defensive sequence.
 

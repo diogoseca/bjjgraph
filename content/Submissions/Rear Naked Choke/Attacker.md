@@ -176,7 +176,7 @@ description: "How to execute Rear Naked Choke in BJJ. Attacking perspective with
 
 The Rear Naked Choke (RNC) is widely considered the highest-percentage submission in Brazilian Jiu-Jitsu and mixed martial arts. This blood choke targets the carotid arteries on both sides of the neck, cutting off blood flow to the brain and causing unconsciousness in 6-10 seconds if not released. Unlike air chokes that can take 30+ seconds and cause panic, the RNC is efficient and relatively safe when applied correctly with proper training protocols. The position's effectiveness stems from the back control position itself - the opponent cannot see you, cannot effectively defend with their arms, and must deal with your body weight and control while their breathing and circulation are compromised. The RNC is the most common submission finish in high-level competition, with statistics showing it accounts for approximately 25-30% of all submission victories in professional MMA and 15-20% in gi BJJ competition. The technique's universality across gi and no-gi contexts, combined with its mechanical simplicity and high success rate even against larger opponents, makes it an essential technique for all practitioners regardless of style or body type.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 
 
 </section>
@@ -231,7 +231,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 78% |
-| Failure | [[Back Control]] | 22% |
+| Failure | [[Positions/Back Control]] | 22% |
 
 
 </section>
@@ -240,11 +240,11 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 ## Opponent Defenses
 
-- **Tucking chin and defending neck with hands** (Effectiveness: High) - Your Response: Don't force through chin. Instead, use your choking arm's hand to pull their defensive hand away, create a collar grip to pull them into you, or wait for them to tire from defending and attack when they adjust position. Alternatively, switch to short choke with hand behind head. → Leads to [[Back Control]]
-- **Turning into you to escape back control** (Effectiveness: Medium) - Your Response: Maintain seat belt control tightly. As they turn, follow their movement and maintain back pressure. If they succeed in turning, immediately transition to armbar from guard or triangle setup. Use your hooks to prevent the turn by pulling them back into you. → Leads to [[Back Control]]
-- **Grabbing your choking arm with both hands and pulling down** (Effectiveness: Medium) - Your Response: This defense exposes their neck more. As they pull your arm down and away, use this opportunity to get your elbow even deeper past their chin. Once your back hand secures the bicep grip, their pulling creates the choke structure for you. Simply finish by expanding chest. → Leads to [[Back Control]]
-- **Bridging and rolling to escape back control entirely** (Effectiveness: Low) - Your Response: Anticipate the bridge by staying heavy on your hooks and keeping chest tight to their back. If they attempt to roll, roll with them while maintaining all controls. The roll often makes the choke tighter. Your hooks and body triangle should prevent effective bridging entirely. → Leads to [[Back Control]]
-- **Attacking your hands and fingers to break grips** (Effectiveness: Low) - Your Response: Keep your choking arm deep and structural, not relying on grip strength. If they grab your fingers, simply transition your back hand from bicep grip to palm on back of head for short choke variation. The structural frame of your arms matters more than any specific grip. → Leads to [[Back Control]]
+- **Tucking chin and defending neck with hands** (Effectiveness: High) - Your Response: Don't force through chin. Instead, use your choking arm's hand to pull their defensive hand away, create a collar grip to pull them into you, or wait for them to tire from defending and attack when they adjust position. Alternatively, switch to short choke with hand behind head. → Leads to [[Positions/Back Control]]
+- **Turning into you to escape back control** (Effectiveness: Medium) - Your Response: Maintain seat belt control tightly. As they turn, follow their movement and maintain back pressure. If they succeed in turning, immediately transition to armbar from guard or triangle setup. Use your hooks to prevent the turn by pulling them back into you. → Leads to [[Positions/Back Control]]
+- **Grabbing your choking arm with both hands and pulling down** (Effectiveness: Medium) - Your Response: This defense exposes their neck more. As they pull your arm down and away, use this opportunity to get your elbow even deeper past their chin. Once your back hand secures the bicep grip, their pulling creates the choke structure for you. Simply finish by expanding chest. → Leads to [[Positions/Back Control]]
+- **Bridging and rolling to escape back control entirely** (Effectiveness: Low) - Your Response: Anticipate the bridge by staying heavy on your hooks and keeping chest tight to their back. If they attempt to roll, roll with them while maintaining all controls. The roll often makes the choke tighter. Your hooks and body triangle should prevent effective bridging entirely. → Leads to [[Positions/Back Control]]
+- **Attacking your hands and fingers to break grips** (Effectiveness: Low) - Your Response: Keep your choking arm deep and structural, not relying on grip strength. If they grab your fingers, simply transition your back hand from bicep grip to palm on back of head for short choke variation. The structural frame of your arms matters more than any specific grip. → Leads to [[Positions/Back Control]]
 
 
 </section>

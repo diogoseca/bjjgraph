@@ -152,7 +152,7 @@ Successful defense hinges on early recognition and immediate response. The momen
 
 The highest-percentage counter is the sit-up back take, which capitalizes on the passer's rotational momentum. However, this requires releasing your worm guard grip—a significant commitment. If the sit-up fails, you've lost your guard configuration entirely. Understanding when the passer's shoulder pressure is light enough to allow the sit-up versus when you should instead focus on re-configuring the lapel to follow their movement is the critical skill that separates effective worm guard defense from reactive scrambling.
 
-**Opponent's Starting Position**: [[Lapel Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
 
@@ -190,21 +190,21 @@ The highest-percentage counter is the sit-up back take, which capitalizes on the
 ### 1. Sit-up back take: Release worm guard grip, sit up explosively, and follow passer's rotation to secure their back with seatbelt control
 
 - **When to use**: When passer's shoulder pressure is light or they begin the backstep without pinning you flat first
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You achieve back control with seatbelt grip, converting their passing attempt into your dominant position
 - **Risk**: If the sit-up is stuffed by heavy shoulder pressure, you lose your worm guard configuration and end up in open guard with no lapel control
 
 ### 2. Lapel reconfiguration: Redirect the lapel wrap to follow passer's new angle, re-establishing worm guard or transitioning to squid guard on their posting arm
 
 - **When to use**: When passer maintains heavy shoulder pressure making sit-up impossible, but hasn't fully cleared the lapel barrier yet
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: You re-establish lapel guard control at the new angle, neutralizing the backstep and forcing them to restart their passing approach
 - **Risk**: If reconfiguration is too slow, passer clears the lapel entirely and achieves turtle or side control
 
 ### 3. Leg pummeling to butterfly guard: Insert butterfly hooks as the passer clears the lapel, using the transitional moment to establish new guard structure
 
 - **When to use**: When the backstep has partially succeeded and the lapel configuration is compromised, but the passer hasn't consolidated position yet
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: You recover to butterfly guard or re-establish open guard, preventing the pass from completing despite losing lapel control
 - **Risk**: Passer drops hips heavy on your thighs and smashes through the butterfly hooks to complete the pass to side control
 
@@ -216,11 +216,11 @@ The highest-percentage counter is the sit-up back take, which capitalizes on the
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Release worm guard grip the moment you feel the passer's weight shift backward. Sit up explosively with your near arm reaching across their body for seatbelt control while your far arm posts behind you for base. Follow their rotation and insert hooks as they complete the backstep. Their commitment to the rotation makes it difficult to stop your back take once you're sitting up.
 
-### → [[Lapel Guard]]
+### → [[Positions/Lapel Guard]]
 
 Maintain your primary lapel grip while using your free hand to control the passer's far sleeve. As they begin the backstep, hip escape in the same direction as their rotation to maintain the lapel configuration angle. Thread the lapel deeper if possible, or redirect it around their posting arm to transition to squid guard. The goal is making the lapel configuration track their movement so they never fully clear the barrier.
 

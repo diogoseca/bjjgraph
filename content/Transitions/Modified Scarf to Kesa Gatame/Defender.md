@@ -146,7 +146,7 @@ description: "Defend against the Modified Scarf Hold to Kesa Gatame transition. 
 
 Defending the Modified Scarf to Kesa Gatame transition requires recognizing the subtle weight shifts and arm movements that telegraph the positional change and exploiting the brief vulnerability window that hip rotation creates. The defender's primary advantage is that the transition necessarily creates a moment of reduced pressure as the attacker moves from chest-to-chest position to perpendicular scarf hold. This transitional gap is the defender's best opportunity to insert a knee, create frames, or initiate an escape. The key defensive principle is that preventing the transition completion is far easier than escaping a fully consolidated kesa gatame. Defenders who can recognize the setup - particularly the arm threading around the head and the preliminary weight shifts - have the opportunity to counter before the transition even begins, either recovering guard or creating enough disruption to force the attacker back to modified scarf hold. Understanding the attacker's control priorities (head wrap, arm trap, hip rotation) allows the defender to target the most critical link in the chain and break it at the optimal moment.
 
-**Opponent's Starting Position**: [[Modified Scarf Hold]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Modified Scarf to Kesa Gatame transition requires recognizing the 
 ### 1. Insert far knee between bodies during hip rotation
 
 - **When to use**: During the attacker's hip rotation phase when chest pressure is momentarily reduced and space appears between your bodies
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard with knee shield, completely preventing kesa gatame establishment and returning to a guard position with legitimate offensive options
 - **Risk**: If the knee insertion is too late, the attacker can flatten it and consolidate kesa gatame with your knee trapped in an awkward position
 
 ### 2. Frame against shoulder and hip escape during rotation gap
 
 - **When to use**: When you feel the chest pressure lighten during the attacker's transition movement, use your free arm to frame and create distance
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough space to recover guard position or at minimum disrupt the kesa gatame consolidation forcing them back to modified scarf hold
 - **Risk**: If the attacker has already secured the head wrap, your frame may not generate enough space and you expend energy without meaningful positional improvement
 
 ### 3. Block head wrap by tucking chin and framing against threading arm
 
 - **When to use**: At the earliest recognition cue when you feel the attacker beginning to thread their arm around your neck before the rotation starts
-- **Targets**: [[Modified Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Modified Scarf Hold]]
 - **If successful**: You prevent the transition from initiating, forcing the attacker to abandon the kesa gatame attempt and return to modified scarf hold attacks where your current defensive structure remains intact
 - **Risk**: Fighting the arm thread can expose your neck to other attacks if you overextend, and may open your near arm to deeper trapping
 
 ### 4. Bridge explosively during the weight transfer phase
 
 - **When to use**: During the precise moment when the attacker's weight transitions from chest pressure to seated position, before they settle into kesa gatame base
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The bridge disrupts the attacker's balance during their most unstable moment, potentially creating enough space to recover guard or turn to turtle position
 - **Risk**: Poorly timed bridge (too early or too late) wastes significant energy and may expose your back if the attacker rides the bridge and transitions to mount instead
 
@@ -217,7 +217,7 @@ Defending the Modified Scarf to Kesa Gatame transition requires recognizing the 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Insert your far knee between your bodies during the attacker's hip rotation phase when chest pressure is momentarily reduced. Drive the knee shield in firmly and immediately establish defensive frames with your free arm. This knee insertion is most effective when timed to the exact moment the attacker lifts their hips to rotate, as they cannot simultaneously apply downward pressure and rotate their body.
 

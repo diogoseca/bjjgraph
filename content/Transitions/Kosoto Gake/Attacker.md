@@ -174,7 +174,7 @@ description: "How to execute Kosoto Gake in BJJ. Attacking perspective with setu
 
 Kosoto Gake is a fundamental standing technique where you reap your opponent's weighted rear leg from the outside while pulling their upper body backward, driving them directly to the mat and into your side control. The technique excels as a low-risk, high-reward entry to groundwork because it requires minimal explosive athleticism compared to hip throws or sacrifice throws. The key mechanical insight is that Kosoto Gake functions as a force couple: your upper body grips generate backward rotational momentum while your reaping leg eliminates the structural support beneath their center of gravity. When these two forces coordinate properly, even a physically weaker practitioner can complete the throw against a larger opponent. The technique is particularly effective against opponents who adopt defensive stances with rearward weight distribution, making it an excellent counter to backward movement and a reliable chain option when other takedown attempts are defended.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ Kosoto Gake is a fundamental standing technique where you reap your opponent's w
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Clinch]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Clinch]] | 10% |
 
 
 </section>
@@ -238,10 +238,10 @@ Kosoto Gake is a fundamental standing technique where you reap your opponent's w
 
 ## Opponent Counters
 
-- **Opponent steps back with their rear leg to avoid having weight on it** (Effectiveness: High) - Your Response: Follow their backward movement and switch to Kosoto Gari (attacking their front leg instead) or chain to Osoto Gari if they overcommit to backward motion → Leads to [[Standing Position]]
-- **Opponent sprawls and drops their hips backward when they feel the reap** (Effectiveness: Medium) - Your Response: Maintain upper body control and transition to Front Headlock position, using their sprawl momentum to secure the dominant position on the ground → Leads to [[Standing Position]]
-- **Opponent turns in and attacks with their own throw or guillotine attempt** (Effectiveness: Medium) - Your Response: Immediately release the attempted throw, establish strong posture, and defend the submission or counter-throw by creating distance with your hips and circling away → Leads to [[Clinch]]
-- **Opponent hops on their supporting leg to maintain balance and avoid the reap** (Effectiveness: Low) - Your Response: Increase upper body pulling pressure dramatically while they hop to catch them mid-balance, or switch to attacking the hopping leg with an ankle pick or single leg entry → Leads to [[Standing Position]]
+- **Opponent steps back with their rear leg to avoid having weight on it** (Effectiveness: High) - Your Response: Follow their backward movement and switch to Kosoto Gari (attacking their front leg instead) or chain to Osoto Gari if they overcommit to backward motion → Leads to [[Positions/Standing Position]]
+- **Opponent sprawls and drops their hips backward when they feel the reap** (Effectiveness: Medium) - Your Response: Maintain upper body control and transition to Front Headlock position, using their sprawl momentum to secure the dominant position on the ground → Leads to [[Positions/Standing Position]]
+- **Opponent turns in and attacks with their own throw or guillotine attempt** (Effectiveness: Medium) - Your Response: Immediately release the attempted throw, establish strong posture, and defend the submission or counter-throw by creating distance with your hips and circling away → Leads to [[Positions/Clinch]]
+- **Opponent hops on their supporting leg to maintain balance and avoid the reap** (Effectiveness: Low) - Your Response: Increase upper body pulling pressure dramatically while they hop to catch them mid-balance, or switch to attacking the hopping leg with an ankle pick or single leg entry → Leads to [[Positions/Standing Position]]
 
 
 </section>

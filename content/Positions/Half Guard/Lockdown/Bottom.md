@@ -206,31 +206,31 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 
 ## Available Escapes
 
-### [[Whip-up Sweep]] (26% of attempts)
+### [[Transitions/Whip-up Sweep]] (26% of attempts)
 
-### [[Old School Sweep]] (9% of attempts)
+### [[Transitions/Old School Sweep]] (9% of attempts)
 
-### [[Electric Chair Transition]] (11% of attempts)
+### [[Transitions/Electric Chair Transition]] (11% of attempts)
 
-### [[Underhook Sweep from Half]] (7% of attempts)
+### [[Transitions/Underhook Sweep from Half]] (7% of attempts)
 
-### [[Rolling Back Take]] (7% of attempts)
+### [[Transitions/Rolling Back Take]] (7% of attempts)
 
-### [[Roll to Truck]] (8% of attempts)
+### [[Transitions/Roll to Truck]] (8% of attempts)
 
-### [[Deep Half Entry]] (9% of attempts)
+### [[Transitions/Deep Half Entry]] (9% of attempts)
 
-### [[Kimura]] (4% of attempts)
+### [[Transitions/Kimura]] (4% of attempts)
 
-### [[Lockdown Recovery]] (4% of attempts)
+### [[Transitions/Lockdown Recovery]] (4% of attempts)
 
-### [[Lockdown to Vaporizer]] (3% of attempts)
+### [[Transitions/Lockdown to Vaporizer]] (3% of attempts)
 
-### [[Half Guard to Old School]] (6% of attempts)
+### [[Transitions/Half Guard to Old School]] (6% of attempts)
 
-### [[Back Take from Lockdown Defense]] (4% of attempts)
+### [[Transitions/Back Take from Lockdown Defense]] (4% of attempts)
 
-### [[Crotch Ripper]] (2% of attempts)
+### [[Submissions/Crotch Ripper]] (2% of attempts)
 
 
 
@@ -241,23 +241,23 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 ## Decision Making from This Position
 
 **If opponent maintains high posture with weight back, trying to extract trapped leg:**
-- Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 70%)
-- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 60%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 60%)
 
 
 **If opponent drives forward with heavy crossface pressure and low posture:**
-- Execute **[[Whip-up Sweep]]** → [[Dogfight Position]] (Probability: 65%)
-- Execute **[[Roll to Truck]]** → [[Truck]] (Probability: 55%)
+- Execute **[[Transitions/Whip-up Sweep]]** → [[Positions/Dogfight Position]] (Probability: 65%)
+- Execute **[[Transitions/Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 55%)
 
 
 **If opponent establishes underhook and attempts knee slice pass:**
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 60%)
-- Execute **[[Lockdown Recovery]]** → [[Lockdown]] (Probability: 50%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 50%)
 
 
 **If opponent maintains neutral posture in half guard without committing:**
-- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 55%)
+- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
 
 
 
@@ -398,14 +398,14 @@ Bottom player starts in lockdown with underhook, top player attempts to pass. Bo
 
 ## Related Positions and Techniques
 
-- **[[Electric Chair]]** - Primary submission position from lockdown
-- **[[Dogfight Position]]** - Common transition target via whip-up sweep
-- **[[Half Guard]]** - Parent position and alternative half guard approach
-- **[[Deep Half Guard]]** - Related half guard variation and transition option
-- **[[Truck]]** - Advanced transition target from lockdown
-- **[[Knee Shield Half Guard]]** - Alternative half guard defensive structure
-- **[[Whip-up Sweep]]** - Primary sweep technique from lockdown bottom
-- **[[Old School Sweep]]** - Complementary sweep creating dilemma with whip-up
+- **[[Positions/Half Guard/Electric Chair]]** - Primary submission position from lockdown
+- **[[Positions/Dogfight Position]]** - Common transition target via whip-up sweep
+- **[[Positions/Half Guard]]** - Parent position and alternative half guard approach
+- **[[Positions/Half Guard/Deep Half Guard]]** - Related half guard variation and transition option
+- **[[Positions/Twister Control/Truck]]** - Advanced transition target from lockdown
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Alternative half guard defensive structure
+- **[[Transitions/Whip-up Sweep]]** - Primary sweep technique from lockdown bottom
+- **[[Transitions/Old School Sweep]]** - Complementary sweep creating dilemma with whip-up
 
 
 </section>

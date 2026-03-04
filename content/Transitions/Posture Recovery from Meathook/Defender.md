@@ -146,7 +146,7 @@ description: "Master defending against Posture Recovery from Meathook as the bot
 
 As the defender resisting Posture Recovery from Meathook, you are the bottom player maintaining Rubber Guard's Meathook control while your opponent attempts to extract their trapped arm and recover posture. Your position begins with significant advantage—their arm is isolated under your shin hook, their posture is broken by your collar or head grip, and multiple submission pathways are available. Your objective is to either maintain the Meathook control long enough to advance to a finishing position, or capitalize on their recovery attempts by transitioning to submissions or taking the back. The defender must read the top player's escape timing and intentions, tightening control during extraction windows and flowing to attacks when escape movements create new openings. Every defensive response the top player makes should be channeled into your attack chain rather than simply resisted.
 
-**Opponent's Starting Position**: [[Meathook]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Meathook]] (Top)
 
 </section>
 
@@ -183,28 +183,28 @@ As the defender resisting Posture Recovery from Meathook, you are the bottom pla
 ### 1. Tighten shin hook and pull shoulder forward as extraction attempt begins
 
 - **When to use**: When you recognize pre-loading through arm rotation or base widening, immediately increase hook pressure and pull their shoulder deeper into the trap
-- **Targets**: [[Meathook]]
+- **Targets**: [[Positions/Rubber Guard/Meathook]]
 - **If successful**: Extraction attempt fails and opponent remains trapped with depleted energy, creating better submission opportunities
 - **Risk**: Over-tightening while neglecting head grip may allow partial posture recovery even with hook maintained
 
 ### 2. Pivot hips to take the back as opponent creates space during recovery
 
 - **When to use**: When the top player successfully extracts their arm and begins driving posture upward, creating space between your bodies that exposes their back
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Establish hooks and seatbelt control from behind, converting their escape attempt into a worse position for them
 - **Risk**: Failed back take attempt may result in losing Meathook control entirely and conceding guard pass
 
 ### 3. Transition to triangle setup as the arm comes free by throwing leg over their neck
 
 - **When to use**: When the trapped arm begins extracting and the top player's head remains low, the space between arm and head creates the triangle window
-- **Targets**: [[Meathook]]
+- **Targets**: [[Positions/Rubber Guard/Meathook]]
 - **If successful**: Triangle control established, converting their extraction success into a different submission trap
 - **Risk**: If top player recovers posture quickly, the triangle attempt fails and you may end up in open guard
 
 ### 4. Shift to Gogoplata angle by repositioning shin toward throat during their upward drive
 
 - **When to use**: When the top player drives posture upward after extraction, their throat becomes accessible as the head lifts away from chest protection
-- **Targets**: [[Meathook]]
+- **Targets**: [[Positions/Rubber Guard/Meathook]]
 - **If successful**: Gogoplata control locks in using their own upward momentum against them, creating a direct finishing threat
 - **Risk**: Repositioning shin from arm to throat creates a brief window where control is reduced, allowing fast opponents to complete posture recovery
 
@@ -216,11 +216,11 @@ As the defender resisting Posture Recovery from Meathook, you are the bottom pla
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the top player creates space during posture recovery, follow their hip movement with your own hip pivot, threading your hooks behind their thighs as they drive upward. The space they need for posture recovery is the same space that allows you to establish back control. Time your hip rotation to their upward drive moment.
 
-### → [[Meathook]]
+### → [[Positions/Rubber Guard/Meathook]]
 
 Maintain coordinated shin hook and head grip pressure throughout extraction attempts. Read their base widening as a telegraph and pre-tighten the hook. During their explosive extraction attempt, absorb the force by pulling your knee toward your chest, deepening the hook angle. If they fail, their energy expenditure gives you a larger window for submission advancement.
 

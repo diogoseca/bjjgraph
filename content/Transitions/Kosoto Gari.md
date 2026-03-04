@@ -17,7 +17,7 @@ description: "Master Kosoto Gari (Minor Outer Reap) in BJJ. Step-by-step executi
 
 Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has become essential in modern BJJ's standing game. Unlike explosive forward throws, Kosoto Gari capitalizes on subtle weight distribution, timing, and off-balancing to sweep the opponent's weight-bearing leg from beneath them. The technique combines a pulling motion with upper body control while simultaneously reaping the opponent's heel backward and upward. This creates a powerful rotation that deposits the opponent on their back, allowing immediate transition to dominant positions like side control or knee on belly. The beauty of Kosoto Gari lies in its mechanical efficiency - it requires minimal strength when executed with proper timing, making it accessible to practitioners of all sizes. The technique is particularly effective against opponents who resist forward throws by posting their weight backward, as this natural defensive reaction places them perfectly into Kosoto Gari's zone of vulnerability. In competition, Kosoto Gari scores as a throw and frequently results in immediate positional dominance, making it a high-percentage technique for gi and no-gi contexts alike.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -28,9 +28,9 @@ Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -192,29 +192,29 @@ Kosoto Gari serves as a critical bridge between standing engagement and ground-b
 ## Related Techniques
 
 
-- [[Osoto Gari]] - Complementary major outer reap - targets same leg with different angle
+- [[Transitions/Osoto Gari]] - Complementary major outer reap - targets same leg with different angle
 
-- [[Kouchi Gari]] - Primary chain combination - attacks opposite leg when Kosoto Gari is defended
+- [[Transitions/Kouchi Gari]] - Primary chain combination - attacks opposite leg when Kosoto Gari is defended
 
-- [[Deashi Harai]] - Follow-up technique when opponent steps back to defend
+- [[Transitions/Deashi Harai]] - Follow-up technique when opponent steps back to defend
 
-- [[Tai Otoshi]] - Forward throw alternative when opponent drives into you
+- [[Transitions/Tai Otoshi]] - Forward throw alternative when opponent drives into you
 
-- [[Uchi Mata]] - Counter to opponent's forward pressure response
+- [[Transitions/Uchi Mata]] - Counter to opponent's forward pressure response
 
-- [[Side Control]] - Primary finishing position after successful throw
+- [[Positions/Side Control]] - Primary finishing position after successful throw
 
-- [[Knee on Belly]] - Alternative finishing position for lighter practitioners
+- [[Positions/Knee on Belly]] - Alternative finishing position for lighter practitioners
 
-- [[Single Leg Entry]] - Wrestling-based alternative when foot sweeps are defended
+- [[Transitions/Single Leg Entry]] - Wrestling-based alternative when foot sweeps are defended
 
-- [[De La Riva Guard]] - Guard pull option if standing attacks are ineffective
+- [[Positions/De La Riva Guard]] - Guard pull option if standing attacks are ineffective
 
-- [[Sprawl]] - Defensive technique to prevent opponent's takedown attempts
+- [[Transitions/Sprawl]] - Defensive technique to prevent opponent's takedown attempts
 
-- [[Clinch]] - Grip-fighting position for establishing initial control
+- [[Positions/Clinch]] - Grip-fighting position for establishing initial control
 
-- [[Overhook Control]] - Alternative control system for no-gi variation
+- [[Positions/Overhook Control]] - Alternative control system for no-gi variation
 
 
 </section>

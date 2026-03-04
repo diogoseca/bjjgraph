@@ -22,7 +22,7 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Closed Guard]]
+**Starting Position**: [[Positions/Closed Guard]]
 **Success Rate**: 48%
 
 </section>
@@ -77,8 +77,8 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -227,16 +227,16 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 
 ## From Which Positions?
 
-- [[Closed Guard]]
-- [[Open Guard]]
-- [[Spider Guard]]
-- [[Rubber Guard]]
-- [[Mission Control]]
-- [[Omoplata Control]]
-- [[Triangle Control]]
-- [[De La Riva Guard]]
-- [[Lasso Guard]]
-- [[Collar Sleeve Guard]]
+- [[Positions/Closed Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/Spider Guard]]
+- [[Positions/Rubber Guard]]
+- [[Positions/Rubber Guard/Mission Control]]
+- [[Positions/Omoplata Control]]
+- [[Positions/Triangle Control]]
+- [[Positions/De La Riva Guard]]
+- [[Positions/Lasso Guard]]
+- [[Positions/Collar Sleeve Guard]]
 
 
 </section>
@@ -245,13 +245,13 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 
 ## Related Submissions
 
-- [[Omoplata]]
-- [[Baratoplata]]
-- [[Triangle Choke]]
-- [[Armbar from Guard]]
-- [[Gogoplata]]
-- [[Kimura]]
-- [[Inverted Triangle]]
+- [[Transitions/Omoplata]]
+- [[Transitions/Baratoplata]]
+- [[Transitions/Triangle Choke]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Gogoplata]]
+- [[Transitions/Kimura]]
+- [[Transitions/Inverted Triangle]]
 
 
 </section>
@@ -260,16 +260,16 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 
 ## Additional Related Content
 
-- [[Omoplata Control]] - Primary transition position - monoplata often comes from failed omoplata
-- [[Triangle Control]] - Alternative submission when opponent posts arm during triangle setup
-- [[Mission Control]] - Rubber guard position that creates excellent monoplata opportunities
-- [[Omoplata Sweep]] - Complementary technique using similar initial control
-- [[Omoplata to Back]] - Alternative transition when monoplata is defended
-- [[Triangle Setup]] - Creates arm isolation that can lead to monoplata
-- [[Spider Guard]] - Starting position with excellent arm control for monoplata entries
-- [[Closed Guard]] - Primary starting position for monoplata attacks
-- [[Rubber Guard]] - Guard system with multiple monoplata entry options
-- [[Gogoplata Control]] - Related advanced guard submission with similar control requirements
+- [[Positions/Omoplata Control]] - Primary transition position - monoplata often comes from failed omoplata
+- [[Positions/Triangle Control]] - Alternative submission when opponent posts arm during triangle setup
+- [[Positions/Rubber Guard/Mission Control]] - Rubber guard position that creates excellent monoplata opportunities
+- [[Transitions/Omoplata Sweep]] - Complementary technique using similar initial control
+- [[Transitions/Omoplata to Back]] - Alternative transition when monoplata is defended
+- [[Transitions/Triangle Setup]] - Creates arm isolation that can lead to monoplata
+- [[Positions/Spider Guard]] - Starting position with excellent arm control for monoplata entries
+- [[Positions/Closed Guard]] - Primary starting position for monoplata attacks
+- [[Positions/Rubber Guard]] - Guard system with multiple monoplata entry options
+- [[Positions/Gogoplata Control]] - Related advanced guard submission with similar control requirements
 
 
 </section>

@@ -178,7 +178,7 @@ The technique exploits the transitional nature of leg drag control. While the pa
 
 Strategically, this counter represents the middle path between complete guard recovery and accepting an inferior position. Rather than fighting for closed guard (often impossible from leg drag bottom) or conceding to turtle (giving up initiative), recovering half guard maintains your offensive potential while immediately neutralizing the back take threat. From half guard, you have sweeps, back takes, and leg lock entries available—making this counter a crucial bridge technique in any comprehensive guard retention system.
 
-**From Position**: [[Leg Drag Control]] (Bottom)
+**From Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategically, this counter represents the middle path between complete guard re
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Leg Drag Control]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Leg Drag Control]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, this counter represents the middle path between complete guard re
 
 ## Opponent Counters
 
-- **Opponent sprawls weight back and re-secures leg drag grip before you can lock half guard** (Effectiveness: High) - Your Response: If they sprawl early, abort the half guard attempt and reset frames. Wait for the next weight shift. Do not force the technique against a sprawled opponent. → Leads to [[Leg Drag Control]]
-- **Opponent switches to knee slice pass as you attempt to insert your leg** (Effectiveness: Medium) - Your Response: Accept the transition and immediately establish knee shield half guard. Your leg insertion motion sets up the shield naturally. Fight the crossface and build your frames. → Leads to [[Half Guard]]
-- **Opponent drives forward and flattens you to prevent hip escape** (Effectiveness: Medium) - Your Response: Use bridge and frame combination to create momentary space. Time your hip escape to the moment after the bridge when they are adjusting to your movement. → Leads to [[Leg Drag Control]]
-- **Opponent releases leg drag and immediately transitions to side control consolidation** (Effectiveness: Low) - Your Response: Their side control transition requires releasing your leg. Insert knee shield or recover half guard immediately during their transition. The space created by their movement is your opportunity. → Leads to [[Side Control]]
+- **Opponent sprawls weight back and re-secures leg drag grip before you can lock half guard** (Effectiveness: High) - Your Response: If they sprawl early, abort the half guard attempt and reset frames. Wait for the next weight shift. Do not force the technique against a sprawled opponent. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent switches to knee slice pass as you attempt to insert your leg** (Effectiveness: Medium) - Your Response: Accept the transition and immediately establish knee shield half guard. Your leg insertion motion sets up the shield naturally. Fight the crossface and build your frames. → Leads to [[Positions/Half Guard]]
+- **Opponent drives forward and flattens you to prevent hip escape** (Effectiveness: Medium) - Your Response: Use bridge and frame combination to create momentary space. Time your hip escape to the moment after the bridge when they are adjusting to your movement. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent releases leg drag and immediately transitions to side control consolidation** (Effectiveness: Low) - Your Response: Their side control transition requires releasing your leg. Insert knee shield or recover half guard immediately during their transition. The space created by their movement is your opportunity. → Leads to [[Positions/Side Control]]
 
 
 </section>

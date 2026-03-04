@@ -154,7 +154,7 @@ description: "Complete guide to defending the Honey Hole to Saddle transition. L
 
 Defending the Honey Hole to Saddle transition requires recognizing the narrow window of vulnerability that opens when the attacker begins reconfiguring their control. While the defender is already in a dangerous position trapped in the Honey Hole, the attacker's transition attempt creates a brief moment where hip pressure decreases and leg control loosens as they adjust. This window represents the defender's best opportunity to either escape entirely or prevent the positional upgrade that would make submissions significantly harder to defend. The key defensive insight is that preventing the Saddle optimization keeps you in the relatively less dangerous Honey Hole where escape success rates are meaningfully higher than from the fully locked Saddle configuration. Defenders must balance the urgency of exploiting this window against the risk of accelerating their own submission by moving explosively at the wrong moment.
 
-**Opponent's Starting Position**: [[Honey Hole]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Honey Hole]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Honey Hole to Saddle transition requires recognizing the narrow wi
 ### 1. Explosive hip rotation toward attacker during momentary pressure reduction to disrupt perpendicular alignment
 
 - **When to use**: When you feel the attacker's hip pressure decrease during the initial reconfiguration phase, before they re-establish heavy contact
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: Attacker is forced to abandon the transition and re-establish Honey Hole control, preventing the positional upgrade
 - **Risk**: If mistimed, the rotation may help the attacker achieve perpendicular alignment faster or tighten their inside leg triangle
 
 ### 2. Frame on attacker's hip with free leg to prevent their outside leg from re-establishing deep shin contact across your hip
 
 - **When to use**: When the attacker lifts or adjusts their outside leg during reconfiguration, creating space for your free leg to insert a frame
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: Attacker cannot complete the outside leg adjustment needed for Saddle, forcing them to remain in Honey Hole or address your frame first
 - **Risk**: Committing your free leg to framing reduces your mobility for rotation-based escapes if the attacker strips the frame
 
 ### 3. Counter-entangle toward 50-50 by threading your free leg during the reconfiguration window when both of attacker's legs are loosened
 
 - **When to use**: When you detect both the inside triangle and outside leg loosening simultaneously during aggressive reconfiguration attempts
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You neutralize the inside position advantage and may fully escape to guard or achieve symmetrical entanglement
 - **Risk**: Failed counter-entangle attempt while partially extracting your leg can result in a worse position if the attacker capitalizes on your movement
 
 ### 4. Grip fight to prevent attacker from establishing structural control grips after leg adjustment, denying them the final Saddle verification step
 
 - **When to use**: When the attacker has completed leg adjustments but is reaching to establish new grips for Saddle control
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: Attacker has adjusted legs but cannot establish the grip hierarchy needed for Saddle submission dilemma, creating an unstable position
 - **Risk**: Extending arms for grip fighting may expose them to kimura or wristlock threats from the attacker's grip-hunting hands
 
@@ -225,11 +225,11 @@ Defending the Honey Hole to Saddle transition requires recognizing the narrow wi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the maximum loosening moment during reconfiguration by combining explosive hip rotation with free leg posting to extract your trapped leg. Time the escape to the instant when the attacker adjusts both legs sequentially, threading your leg free during the gap between inside triangle tightening and outside leg replanting.
 
-### → [[Honey Hole]]
+### → [[Positions/Ashi Garami/Honey Hole]]
 
 Prevent the Saddle optimization by maintaining constant defensive pressure through framing, grip fighting, and micro-rotations that force the attacker to continuously restart their reconfiguration rather than completing it. Keep the attacker in the less optimized Honey Hole where your defensive and escape options remain more viable.
 

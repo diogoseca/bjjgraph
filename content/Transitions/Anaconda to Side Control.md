@@ -21,7 +21,7 @@ Strategically, this transition serves a dual purpose within the anaconda system.
 
 The critical challenge lies in maintaining grip integrity throughout the rotation while preventing the opponent from basing out, posting a hand, or scrambling during the momentum shift. The roll demands full commitment — hesitation allows the defender to establish defensive frames and potentially reverse the position entirely. Understanding the biomechanics of the roll, proper hip positioning before initiation, and the decision point between maintaining the anaconda grip or transitioning to standard side control grips upon arrival is what separates effective execution from positional loss.
 
-**From Position**: [[Anaconda Control]] (Top)
+**From Position**: [[Positions/Anaconda Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The critical challenge lies in maintaining grip integrity throughout the rotatio
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Anaconda Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Anaconda Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Anaconda to Side Control transition occupies a pivotal role within the front
 ## Related Techniques
 
 
-- [[Anaconda Control]] - Source position where the anaconda grip is established before initiating the transition
+- [[Positions/Anaconda Control]] - Source position where the anaconda grip is established before initiating the transition
 
-- [[Side Control]] - Target position achieved after successful gator roll or walk-around completion
+- [[Positions/Side Control]] - Target position achieved after successful gator roll or walk-around completion
 
-- [[Half Guard]] - Counter outcome position where attacker may end up if the roll is stuffed and defender scrambles
+- [[Positions/Half Guard]] - Counter outcome position where attacker may end up if the roll is stuffed and defender scrambles
 
-- [[Anaconda Choke]] - Primary submission alternative from anaconda control when finishing is available instead of transitioning
+- [[Transitions/Anaconda Choke]] - Primary submission alternative from anaconda control when finishing is available instead of transitioning
 
-- [[Front Headlock]] - Precursor position from which anaconda control is commonly established before this transition
+- [[Positions/Front Headlock]] - Precursor position from which anaconda control is commonly established before this transition
 
-- [[Darce Control]] - Sister arm-in position with similar rolling mechanics and positional advancement options
+- [[Positions/Darce Control]] - Sister arm-in position with similar rolling mechanics and positional advancement options
 
-- [[Anaconda Setup]] - Entry transition that creates the anaconda control starting point for this technique
+- [[Transitions/Anaconda Setup]] - Entry transition that creates the anaconda control starting point for this technique
 
-- [[Back Take from Anaconda]] - Alternative advancement path when opponent turns away from anaconda pressure instead of basing out
+- [[Transitions/Back Take from Anaconda]] - Alternative advancement path when opponent turns away from anaconda pressure instead of basing out
 
-- [[Anaconda Control to Dead Orchard Control]] - Alternative transition pathway for advancing anaconda control to a more dominant finishing position
+- [[Transitions/Anaconda Control to Dead Orchard Control]] - Alternative transition pathway for advancing anaconda control to a more dominant finishing position
 
-- [[Anaconda Grip Break to Front Headlock]] - Defender's primary escape transition that the attacker must prevent during the rolling sequence
+- [[Transitions/Anaconda Grip Break to Front Headlock]] - Defender's primary escape transition that the attacker must prevent during the rolling sequence
 
 
 </section>

@@ -184,7 +184,7 @@ The fundamental insight is that the leg drag motion naturally creates the angle 
 
 Strategically, this technique excels against opponents who rely heavily on lapel guard systems. Rather than engaging in extended grip battles that favor the bottom player's energy efficiency, you convert directly to a passing position. The leg drag position achieved offers immediate submission threats including leg attacks and back exposure, making this a high-value transition that changes the entire complexion of the exchange.
 
-**From Position**: [[Lapel Guard]] (Top)
+**From Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
 
@@ -236,9 +236,9 @@ Strategically, this technique excels against opponents who rely heavily on lapel
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Leg Drag Control]] | 65% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Leg Drag Control]] | 65% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -247,10 +247,10 @@ Strategically, this technique excels against opponents who rely heavily on lapel
 
 ## Opponent Counters
 
-- **Opponent frames on your shoulder and hip escapes before you can complete the drag** (Effectiveness: High) - Your Response: Maintain heavy shoulder pressure and switch to knee slice if they create too much space during the hip escape attempt → Leads to [[Lapel Guard]]
-- **Opponent re-grips the lapel mid-motion and pulls you back into guard** (Effectiveness: Medium) - Your Response: Strip the new grip immediately using your controlled hand, or continue the drag with enough force to break their grip angle → Leads to [[Lapel Guard]]
-- **Opponent inverts and recovers to shin-on-shin or single leg X** (Effectiveness: Medium) - Your Response: Recognize early inversion and backstep away from the entanglement, resetting to standing position if necessary → Leads to [[Half Guard]]
-- **Opponent pushes your head and creates distance to recover full guard** (Effectiveness: Low) - Your Response: Keep your head tight to their body and use your grip on their pants to prevent distance creation → Leads to [[Lapel Guard]]
+- **Opponent frames on your shoulder and hip escapes before you can complete the drag** (Effectiveness: High) - Your Response: Maintain heavy shoulder pressure and switch to knee slice if they create too much space during the hip escape attempt → Leads to [[Positions/Lapel Guard]]
+- **Opponent re-grips the lapel mid-motion and pulls you back into guard** (Effectiveness: Medium) - Your Response: Strip the new grip immediately using your controlled hand, or continue the drag with enough force to break their grip angle → Leads to [[Positions/Lapel Guard]]
+- **Opponent inverts and recovers to shin-on-shin or single leg X** (Effectiveness: Medium) - Your Response: Recognize early inversion and backstep away from the entanglement, resetting to standing position if necessary → Leads to [[Positions/Half Guard]]
+- **Opponent pushes your head and creates distance to recover full guard** (Effectiveness: Low) - Your Response: Keep your head tight to their body and use your grip on their pants to prevent distance creation → Leads to [[Positions/Lapel Guard]]
 
 
 </section>

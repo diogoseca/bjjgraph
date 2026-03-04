@@ -210,25 +210,25 @@ Advanced practitioners understand that crackhead control is not a static positio
 
 ## Available Attacks
 
-### [[Turtle to Truck]] (12% of attempts)
+### [[Transitions/Turtle to Truck]] (12% of attempts)
 
-### [[Crucifix from Turtle]] (10% of attempts)
+### [[Transitions/Crucifix from Turtle]] (10% of attempts)
 
-### [[Crab Ride to Back]] (10% of attempts)
+### [[Transitions/Crab Ride to Back]] (10% of attempts)
 
-### [[Anaconda from Turtle]] (8% of attempts)
+### [[Transitions/Anaconda from Turtle]] (8% of attempts)
 
-### [[Darce from Turtle]] (8% of attempts)
+### [[Transitions/Darce from Turtle]] (8% of attempts)
 
-### [[Rolling Back Take]] (10% of attempts)
+### [[Transitions/Rolling Back Take]] (10% of attempts)
 
-### [[Guillotine from Turtle]] (6% of attempts)
+### [[Transitions/Guillotine from Turtle]] (6% of attempts)
 
-### [[Back Take]] (22% of attempts)
+### [[Transitions/Back Take]] (22% of attempts)
 
-### [[Arm Extraction and Pass]] (8% of attempts)
+### [[Transitions/Arm Extraction and Pass]] (8% of attempts)
 
-### [[Double Underhook Pass]] (6% of attempts)
+### [[Transitions/Double Underhook Pass]] (6% of attempts)
 
 
 
@@ -239,23 +239,23 @@ Advanced practitioners understand that crackhead control is not a static positio
 ## Decision Making from This Position
 
 **If opponent remains static in defensive turtle with strong base:**
-- Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Crab Ride to Back]]** → [[Crab Ride]] (Probability: 55%)
+- Execute **[[Transitions/Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 55%)
 
 
 **If opponent attempts to sit through to guard or turn into you:**
-- Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Darce from Turtle]]** → [[Darce Control]] (Probability: 50%)
+- Execute **[[Transitions/Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Darce from Turtle]]** → [[Positions/Darce Control]] (Probability: 50%)
 
 
 **If opponent rolls forward or attempts granby escape:**
-- Execute **[[Turtle to Truck]]** → [[Twister Control]] (Probability: 70%)
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control]] (Probability: 70%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent extends arm to post or push away:**
-- Execute **[[Crucifix from Turtle]]** → [[Crucifix]] (Probability: 60%)
-- Execute **[[Anaconda from Turtle]]** → [[Anaconda Control]] (Probability: 45%)
+- Execute **[[Transitions/Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 60%)
+- Execute **[[Transitions/Anaconda from Turtle]]** → [[Positions/Anaconda Control]] (Probability: 45%)
 
 
 
@@ -389,15 +389,15 @@ Partner in bottom turtle attempts specific escapes in sequence (sit through, gra
 
 ## Related Positions and Techniques
 
-- **[[Turtle]]** - Parent position - crackhead control is a specific variant of turtle top control
-- **[[Back Control]]** - Primary advancement target - most common progression from crackhead
-- **[[Twister Control]]** - Alternative advancement - accessible when opponent rolls forward via truck entry
-- **[[Crab Ride]]** - Similar control mechanics - alternative chair sit control position
-- **[[Crucifix]]** - Submission position - accessible when opponent extends arms
-- **[[Turtle to Back Take]]** - Primary technique - most direct path from position
-- **[[Darce Control]]** - Submission control - available when opponent turns in
-- **[[Anaconda Control]]** - Submission control - available from front headlock transitions
-- **[[Turtle to Truck]]** - Key transition for leg attack and twister system entries
+- **[[Positions/Turtle]]** - Parent position - crackhead control is a specific variant of turtle top control
+- **[[Positions/Back Control]]** - Primary advancement target - most common progression from crackhead
+- **[[Positions/Twister Control]]** - Alternative advancement - accessible when opponent rolls forward via truck entry
+- **[[Positions/Crab Ride]]** - Similar control mechanics - alternative chair sit control position
+- **[[Positions/Crucifix]]** - Submission position - accessible when opponent extends arms
+- **[[Transitions/Turtle to Back Take]]** - Primary technique - most direct path from position
+- **[[Positions/Darce Control]]** - Submission control - available when opponent turns in
+- **[[Positions/Anaconda Control]]** - Submission control - available from front headlock transitions
+- **[[Transitions/Turtle to Truck]]** - Key transition for leg attack and twister system entries
 
 
 </section>

@@ -208,33 +208,33 @@ Effective top play requires understanding how to distribute weight to minimize s
 
 ## Available Attacks
 
-### [[Butterfly Pass]] (10% of attempts)
+### [[Transitions/Butterfly Pass]] (10% of attempts)
 
-### [[Butterfly Smash]] (34% of attempts)
+### [[Transitions/Butterfly Smash]] (34% of attempts)
 
-### [[Knee Slice Pass]] (10% of attempts)
+### [[Transitions/Knee Slice Pass]] (10% of attempts)
 
-### [[Standing up in Base]] (12% of attempts)
+### [[Transitions/Standing up in Base]] (12% of attempts)
 
-### [[Pressure Pass]] (8% of attempts)
+### [[Transitions/Pressure Pass]] (8% of attempts)
 
-### [[Double Under Pass]] (4% of attempts)
+### [[Transitions/Double Under Pass]] (4% of attempts)
 
-### [[Leg Weave Pass]] (4% of attempts)
+### [[Transitions/Leg Weave Pass]] (4% of attempts)
 
-### [[Toreando Pass]] (2% of attempts)
+### [[Transitions/Toreando Pass]] (2% of attempts)
 
-### [[Back Step Pass]] (4% of attempts)
+### [[Transitions/Back Step Pass]] (4% of attempts)
 
-### [[Body Lock Pass]] (4% of attempts)
+### [[Transitions/Body Lock Pass]] (4% of attempts)
 
-### [[Leg Drag Pass]] (4% of attempts)
+### [[Transitions/Leg Drag Pass]] (4% of attempts)
 
-### [[Over-Under Pass]] (2% of attempts)
+### [[Transitions/Over-Under Pass]] (2% of attempts)
 
-### [[Pass Butterfly Hook Control]] (1% of attempts)
+### [[Transitions/Pass Butterfly Hook Control]] (1% of attempts)
 
-### [[Smash from Butterfly Hook Control]] (1% of attempts)
+### [[Transitions/Smash from Butterfly Hook Control]] (1% of attempts)
 
 
 
@@ -245,23 +245,23 @@ Effective top play requires understanding how to distribute weight to minimize s
 ## Decision Making from This Position
 
 **If opponent maintains strong upright posture with deep hooks and good grips:**
-- Execute **[[Standing up in Base]]** → [[Standing Guard]] (Probability: 60%)
-- Execute **[[Butterfly Smash]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Guard]] (Probability: 60%)
+- Execute **[[Transitions/Butterfly Smash]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 **If opponent commits to sweep in one direction with weight shift:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Butterfly Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Butterfly Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent's posture breaks backward or hooks become shallow:**
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Double Under Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Double Under Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent attempts arm drag or reaches for back control:**
-- Execute **[[Butterfly Smash]]** → [[Half Guard]] (Probability: 60%)
-- Execute **[[Standing up in Base]]** → [[Standing Guard]] (Probability: 55%)
+- Execute **[[Transitions/Butterfly Smash]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Guard]] (Probability: 55%)
 
 
 
@@ -395,16 +395,16 @@ Start with opponent in butterfly guard with hooks established. Work to pass usin
 
 ## Related Positions and Techniques
 
-- **[[Butterfly Guard]]** - Opponent's position - understanding guard mechanics aids passing
-- **[[Combat Base]]** - Foundational posture for engaging butterfly hooks
-- **[[Side Control]]** - Goal position after successful passing
-- **[[Half Guard]]** - Common transition when smashing butterfly hooks
-- **[[Headquarters Position]]** - Intermediate passing position from butterfly
-- **[[Butterfly Pass]]** - Primary passing technique
-- **[[Butterfly Smash]]** - Hook neutralization technique
-- **[[Knee Slice Pass]]** - Counter-sweep passing option
-- **[[Double Under Pass]]** - Pressure-based passing option
-- **[[Leg Weave Pass]]** - Control-based passing methodology
+- **[[Positions/Butterfly Guard]]** - Opponent's position - understanding guard mechanics aids passing
+- **[[Positions/Combat Base]]** - Foundational posture for engaging butterfly hooks
+- **[[Positions/Side Control]]** - Goal position after successful passing
+- **[[Positions/Half Guard]]** - Common transition when smashing butterfly hooks
+- **[[Positions/Headquarters Position]]** - Intermediate passing position from butterfly
+- **[[Transitions/Butterfly Pass]]** - Primary passing technique
+- **[[Transitions/Butterfly Smash]]** - Hook neutralization technique
+- **[[Transitions/Knee Slice Pass]]** - Counter-sweep passing option
+- **[[Transitions/Double Under Pass]]** - Pressure-based passing option
+- **[[Transitions/Leg Weave Pass]]** - Control-based passing methodology
 
 
 </section>

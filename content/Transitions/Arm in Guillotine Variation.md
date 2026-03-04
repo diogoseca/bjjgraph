@@ -21,7 +21,7 @@ Strategically, the arm-in guillotine represents an opportunistic variation that 
 
 From a system perspective, the arm-in guillotine connects directly to the broader guillotine and front headlock framework. It serves as an alternative finish when the standard guillotine encounters specific defensive reactions, and it integrates with chin strap variations, high elbow mechanics, and anaconda transitions. The technique rewards patient attackers who maintain control and read defensive patterns rather than forcing a single finishing path.
 
-**From Position**: [[Guillotine Control]] (Top)
+**From Position**: [[Positions/Guillotine Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -33,8 +33,8 @@ From a system perspective, the arm-in guillotine connects directly to the broade
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Guillotine Control]] | 25% |
-| Counter | [[Closed Guard]] | 20% |
+| Failure | [[Positions/Guillotine Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -191,23 +191,23 @@ The arm-in guillotine variation integrates into the guillotine control system as
 ## Related Techniques
 
 
-- [[Guillotine Control]] - Source position from which this arm-in variation is attempted
+- [[Positions/Guillotine Control]] - Source position from which this arm-in variation is attempted
 
-- [[Arm in Guillotine]] - The submission result of successful execution of this transition
+- [[Submissions/Arm in Guillotine]] - The submission result of successful execution of this transition
 
-- [[Front Headlock]] - Parent control position providing initial head and neck control before guillotine grip
+- [[Positions/Front Headlock]] - Parent control position providing initial head and neck control before guillotine grip
 
-- [[Chin Strap Guillotine]] - Alternative guillotine grip variation accessible from same control position
+- [[Submissions/Chin Strap Guillotine]] - Alternative guillotine grip variation accessible from same control position
 
-- [[Anaconda Choke]] - Alternative head-and-arm attack when opponent turns during arm-in guillotine defense
+- [[Transitions/Anaconda Choke]] - Alternative head-and-arm attack when opponent turns during arm-in guillotine defense
 
-- [[Darce Control]] - Related head-and-arm control position for alternative attacks when guillotine is compromised
+- [[Positions/Darce Control]] - Related head-and-arm control position for alternative attacks when guillotine is compromised
 
-- [[Closed Guard]] - Common escape destination for defender who successfully counters the arm-in guillotine
+- [[Positions/Closed Guard]] - Common escape destination for defender who successfully counters the arm-in guillotine
 
-- [[Anaconda Control]] - Transition target when opponent's rotation during defense exposes anaconda configuration
+- [[Positions/Anaconda Control]] - Transition target when opponent's rotation during defense exposes anaconda configuration
 
-- [[Mount]] - Positional advancement target when using arm-in guillotine threat for position improvement
+- [[Positions/Mount]] - Positional advancement target when using arm-in guillotine threat for position improvement
 
 
 </section>

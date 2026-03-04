@@ -140,7 +140,7 @@ description: "How to defend against Muscle Sweep in BJJ. Recognition cues, defen
 
 Defending the Muscle Sweep requires the top player inside closed guard to recognize the sweep setup early and address its prerequisites before the explosive phase begins. The Muscle Sweep relies on broken posture, sleeve control, and a 45-degree hip angle from the bottom player, so your defensive strategy targets these three pillars. The most critical defensive window occurs during the setup phase when the bottom player is shifting their hips and establishing grips. Once the explosive hip drive initiates with proper angle and control, defensive options narrow significantly. Effective defense combines proactive posture maintenance, systematic grip fighting to deny the sleeve control that prevents posting, and base adjustments that widen your support structure against the diagonal sweeping vector. Understanding the sweep's mechanics allows you to feel the weight shift and angle creation before the explosive phase, giving you time to counter rather than react.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -175,21 +175,21 @@ Defending the Muscle Sweep requires the top player inside closed guard to recogn
 ### 1. Recover posture by driving hips back and chest up, then strip the collar grip using two-on-one grip break before the sweep can be loaded
 
 - **When to use**: Early in the setup when you feel your posture being broken and the opponent establishing their collar grip - this is the highest percentage window
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You remain in closed guard top with restored posture and the opponent must restart their entire sweep setup from scratch
 - **Risk**: If you fail to break the grip and commit both hands to grip fighting, you momentarily lose base and may be swept during the grip break attempt
 
 ### 2. Post your free hand firmly on the mat on the side the opponent is sweeping toward, creating a tripod base that blocks the rolling direction
 
 - **When to use**: When the explosive phase has already begun and you feel your weight being driven sideways - this is your emergency last-resort defense
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You stop the sweep momentum and can work to re-center your base and recover posture from the posted position
 - **Risk**: Your posted arm becomes exposed to Kimura and armbar attacks since the opponent already has upper body control and your arm is extended
 
 ### 3. Drive forward aggressively and stack the opponent's hips while widening your knees to neutralize their angle and reverse the pressure dynamic
 
 - **When to use**: When you recognize the hip angle being created but before the explosive phase - your forward pressure eliminates the space they need for the sweep
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You flatten the opponent's angle, compress their guard, and may create guard opening opportunities from the stacking pressure
 - **Risk**: If timed poorly and the opponent has already loaded the sweep, your forward drive adds momentum to their sweep and accelerates the rollover
 
@@ -201,11 +201,11 @@ Defending the Muscle Sweep requires the top player inside closed guard to recogn
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Strip the opponent's collar grip early using two-on-one grip breaks, recover strong upright posture with head over hips, and widen your base to prevent the angle creation. Denying posture and grips forces the bottom player to abandon the sweep attempt entirely.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Drive forward aggressively when you feel the hip angle being created, stacking the opponent's hips and flattening their angle. Use the forward pressure to begin guard opening sequences while the opponent is compressed and unable to maintain their attacking position.
 

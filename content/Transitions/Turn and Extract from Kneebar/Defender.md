@@ -146,7 +146,7 @@ description: "Counter the turn and extract escape from kneebar control. Learn to
 
 When your opponent attempts to turn and extract from your kneebar control, your objective is to maintain the hyperextension angle and prevent their hip rotation from collapsing your finishing position. As the kneebar attacker defending against this escape, you must recognize the early signs of the escape attempt and respond with increased hip drive, grip tightening, or strategic transitions to saddle position. Understanding how to counter the turn and extract is critical for maintaining offensive pressure in leg lock exchanges and converting defensive reactions into better attacking positions rather than losing control entirely.
 
-**Opponent's Starting Position**: [[Kneebar Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Kneebar Control]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ When your opponent attempts to turn and extract from your kneebar control, your 
 ### 1. Tighten grip and drive hips forward aggressively to maintain extension angle
 
 - **When to use**: Immediately upon feeling the initial hip rotation or weight shift signaling the escape attempt
-- **Targets**: [[Kneebar Control]]
+- **Targets**: [[Positions/Kneebar Control]]
 - **If successful**: Escape is stopped and kneebar control is maintained or deepened, potentially allowing a finish
 - **Risk**: Over-committing hips forward can compromise your own base if the opponent redirects
 
 ### 2. Thread legs to transition to saddle position during the rotation
 
 - **When to use**: When opponent commits fully to the rotation and creates space between their legs for your legs to thread through
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Achieve saddle control with superior heel hook access, converting their escape into a worse position for them
 - **Risk**: Failed threading attempt may lose all leg control if you release the kneebar grip prematurely
 
 ### 3. Switch grip to target the heel as rotation exposes the foot
 
 - **When to use**: When opponent's foot flares outward during rotation, exposing the heel for a potential heel hook grip
-- **Targets**: [[Kneebar Control]]
+- **Targets**: [[Positions/Kneebar Control]]
 - **If successful**: Transition to heel hook threat stops the escape and creates a more dangerous submission angle
 - **Risk**: Releasing the kneebar grip to switch attacks may allow the extraction to complete
 
 ### 4. Follow the rotation and re-establish kneebar from the new angle
 
 - **When to use**: When rotation partially succeeds but extraction is incomplete and you can maintain some grip contact
-- **Targets**: [[Kneebar Control]]
+- **Targets**: [[Positions/Kneebar Control]]
 - **If successful**: Re-capture the leg in kneebar control from the adjusted angle without losing position
 - **Risk**: Delayed response or slow follow allows the opponent to complete extraction to turtle
 
@@ -217,11 +217,11 @@ When your opponent attempts to turn and extract from your kneebar control, your 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Kneebar Control]]
+### → [[Positions/Kneebar Control]]
 
 Maintain tight grip with elbows squeezed together and drive hips forward aggressively at the first sign of rotation, keeping the extension angle intact and the leg trapped before the opponent can generate enough turning momentum
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 Use the opponent's rotation momentum to thread your legs into saddle configuration as space opens during their turn, converting their escape attempt into a superior attacking position with heel hook access
 

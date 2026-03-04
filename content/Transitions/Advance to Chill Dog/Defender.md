@@ -166,7 +166,7 @@ The fundamental defensive strategy centers on early recognition and preemptive d
 
 Timing is the defender's greatest asset. The transition requires the bottom player to momentarily release their shin grip to guide their foot, creating a brief window where their control system has one fewer anchor point. Recognizing this release and immediately working to extract your trapped arm or recover posture during that window represents your highest-percentage defensive opportunity. Understanding the attacker's mechanics allows you to predict exactly when these windows appear and exploit them systematically.
 
-**Opponent's Starting Position**: [[New York]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
 </section>
 
@@ -205,28 +205,28 @@ Timing is the defender's greatest asset. The transition requires the bottom play
 ### 1. Explosive posture recovery by driving hips back and chest up while stripping overhook
 
 - **When to use**: Immediately upon recognizing the hip rotation that signals Chill Dog advancement - must act within one to two seconds
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Break free of the entire Rubber Guard system and return opponent to closed guard where you can work standard guard opening
 - **Risk**: If the overhook is too deep, explosive movement may expose your arm to triangle or armbar during the escape attempt
 
 ### 2. Pin the threading leg with your free hand, pressing it down against their torso to block the shin from reaching your neck
 
 - **When to use**: When you feel the shin beginning to slide higher on your back but before it crosses past your shoulder line to your neck
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: Stall the advancement and return to standard New York top defensive position where you can work systematic escape
 - **Risk**: Using your free hand to pin the leg reduces your base stability and may open you to sweeps if the bottom player adjusts hip angle
 
 ### 3. Turn head and shoulders away from the threading direction while circling your trapped elbow downward for extraction
 
 - **When to use**: When the bottom player releases their shin grip to guide their foot - this momentary control gap is the optimal window
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Extract your arm from the overhook and create enough distance to disengage from the Rubber Guard entirely
 - **Risk**: Turning away can expose your back if the bottom player follows the turn and converts to back control or Carni position
 
 ### 4. Stack the bottom player by driving your weight forward and up, compressing their hips toward their shoulders
 
 - **When to use**: When Chill Dog is partially established but not yet locked - stacking removes the hip elevation needed for the position to function
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: Flatten the bottom player's hips to the mat, neutralizing the leg control and reducing the position to a manageable guard recovery situation
 - **Risk**: Forward stacking pressure can paradoxically assist a well-timed thread if the bottom player uses your drive to complete the leg movement
 
@@ -238,11 +238,11 @@ Timing is the defender's greatest asset. The transition requires the bottom play
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Achieve full posture recovery by driving hips back while stripping the overhook grip, forcing the bottom player's legs to disengage from Rubber Guard and re-close into standard closed guard. Time the posture recovery to coincide with the bottom player's shin grip release, exploiting the momentary reduction in control points.
 
-### → [[New York]]
+### → [[Positions/Rubber Guard/New York]]
 
 Pin the threading leg before it crosses the neck line and stall the advancement, returning to standard New York top position. Use your free hand to press their shin back to its original position across your upper back while maintaining your base. From here, resume your systematic New York top escape sequence.
 

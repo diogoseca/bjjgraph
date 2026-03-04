@@ -180,7 +180,7 @@ description: "How to execute Arm Triangle from Turtle in BJJ. Attacking perspect
 
 The Arm Triangle from Turtle is a powerful submission attack that exploits the defensive turtle position by isolating one of the opponent's arms and converting to a blood choke. This transition combines elements of front headlock control with precise shoulder positioning to create a devastating finishing sequence. The technique is particularly effective against opponents who rely heavily on the turtle as a defensive refuge, as it punishes the common error of keeping the elbows too wide or allowing the head to drift away from the body. Unlike traditional arm triangles from side control or mount, this variation requires the attacker to generate the necessary compression while transitioning from a top turtle position, making timing and weight distribution critical factors. The arm triangle from turtle has become increasingly popular in modern no-gi competition, where the absence of gi grips makes traditional collar chokes less accessible. Mastery of this technique provides a high-percentage finishing option from one of the most common defensive positions in Brazilian Jiu-Jitsu.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -235,9 +235,9 @@ The Arm Triangle from Turtle is a powerful submission attack that exploits the d
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Front Headlock]] | 25% |
-| Failure | [[Half Guard]] | 10% |
-| Counter | [[Closed Guard]] | 10% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Failure | [[Positions/Half Guard]] | 10% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -246,11 +246,11 @@ The Arm Triangle from Turtle is a powerful submission attack that exploits the d
 
 ## Opponent Counters
 
-- **Opponent tucks near elbow tight to body to prevent arm isolation** (Effectiveness: High) - Your Response: Switch to opposite side attack, transition to back take, or use turtle attacks like darce and anaconda to fatigue their defense before re-attempting arm isolation → Leads to [[Front Headlock]]
-- **Opponent turns into you aggressively before shoulder penetration** (Effectiveness: Medium) - Your Response: Use their rotation momentum to transition to guillotine control or anaconda position, or allow partial turn and secure front headlock from different angle → Leads to [[Closed Guard]]
-- **Opponent posts with free arm to prevent perpendicular transition** (Effectiveness: Medium) - Your Response: Attack the posting arm with kimura grip or use their committed base to sweep them to their side while maintaining arm triangle structure → Leads to [[Half Guard]]
-- **Opponent creates space by bridging or explosive movement during finishing phase** (Effectiveness: Low) - Your Response: Maintain tight connection throughout transition, use your legs to base and prevent their movement from creating separation, adjust grip immediately if space appears → Leads to [[Front Headlock]]
-- **Opponent defends with hand fighting to prevent figure-four completion** (Effectiveness: Medium) - Your Response: Use modified grip variations such as gable grip or S-grip, or temporarily transition to other front headlock attacks before re-establishing arm triangle when defense weakens → Leads to [[Front Headlock]]
+- **Opponent tucks near elbow tight to body to prevent arm isolation** (Effectiveness: High) - Your Response: Switch to opposite side attack, transition to back take, or use turtle attacks like darce and anaconda to fatigue their defense before re-attempting arm isolation → Leads to [[Positions/Front Headlock]]
+- **Opponent turns into you aggressively before shoulder penetration** (Effectiveness: Medium) - Your Response: Use their rotation momentum to transition to guillotine control or anaconda position, or allow partial turn and secure front headlock from different angle → Leads to [[Positions/Closed Guard]]
+- **Opponent posts with free arm to prevent perpendicular transition** (Effectiveness: Medium) - Your Response: Attack the posting arm with kimura grip or use their committed base to sweep them to their side while maintaining arm triangle structure → Leads to [[Positions/Half Guard]]
+- **Opponent creates space by bridging or explosive movement during finishing phase** (Effectiveness: Low) - Your Response: Maintain tight connection throughout transition, use your legs to base and prevent their movement from creating separation, adjust grip immediately if space appears → Leads to [[Positions/Front Headlock]]
+- **Opponent defends with hand fighting to prevent figure-four completion** (Effectiveness: Medium) - Your Response: Use modified grip variations such as gable grip or S-grip, or temporarily transition to other front headlock attacks before re-establishing arm triangle when defense weakens → Leads to [[Positions/Front Headlock]]
 
 
 </section>

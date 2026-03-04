@@ -160,7 +160,7 @@ The primary defensive strategy centers on preventing arm isolation in the first 
 
 The most critical defensive principle is urgency during the transition combined with composure once caught. If you miss the early window, panicking and thrashing only accelerates the finish. Instead, address the submission systematically: protect the elbow by bending the arm and clasping hands, prevent hip extension by turning toward the attacker, and work to extract the arm by creating angles. Understanding which defensive layer applies to each stage of the submission attempt is what separates effective defenders from those who rely purely on strength and athleticism.
 
-**Opponent's Starting Position**: [[Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 
 </section>
@@ -200,28 +200,28 @@ The most critical defensive principle is urgency during the transition combined 
 ### 1. Turn into the attacker and stack their hips before leg configuration is complete
 
 - **When to use**: During the transition phase when the attacker's top leg is swinging over your face but has not yet settled into position. This is the highest-percentage defense when timed correctly.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You end up in their closed guard or can recover to a neutral position, completely nullifying the armbar attempt
 - **Risk**: If you turn too late after the leg is already across your face, you may actually worsen your position by giving them a better finishing angle
 
 ### 2. Clasp hands together in a defensive grip and keep the elbow bent to resist extension
 
 - **When to use**: When the arm is already isolated and the leg configuration is being established, but the attacker has not yet achieved full extension. This buys time for a secondary escape.
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You stall the submission long enough for the attacker to abandon the attempt and return to standard back control, or you create an opening to extract your arm
 - **Risk**: This is a delaying tactic only - a skilled attacker will eventually break the grip through hip pressure, prying, or transitioning to an alternative submission
 
 ### 3. Roll forward over your trapped shoulder to relieve arm extension pressure
 
 - **When to use**: When the armbar is nearly locked and turning into the attacker is no longer viable. The forward roll disrupts their hip alignment and may create space to extract the arm.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You escape the armbar entirely and may end up in a scramble or top position if you follow through on the roll
 - **Risk**: A prepared attacker will follow the roll and finish from the top, potentially ending in an even tighter armbar position
 
 ### 4. Push the attacker's top leg off your face with your free hand while keeping elbow bent
 
 - **When to use**: When the leg is not yet fully settled across your face and you have a free hand available. Clearing the leg removes the primary control mechanism.
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Without the leg across your face, the armbar control collapses and you can turn to re-establish defensive frames in back control
 - **Risk**: Reaching for the leg with your free hand may expose it to a crucifix or secondary armbar if the attacker is prepared
 
@@ -245,11 +245,11 @@ The most critical defensive principle is urgency during the transition combined 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Successfully defend the arm isolation by maintaining tight elbows and strong hand fighting, forcing the attacker to abandon the submission attempt and return to standard back control position where you can continue working escape sequences
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Turn into the attacker during the transition phase, stacking their hips and driving forward to end up in their closed guard, converting a submission defense into a positional improvement from back control to guard
 

@@ -180,7 +180,7 @@ description: "How to execute Truck Entry in BJJ. Attacking perspective with setu
 
 The Truck Entry from an attacking perspective requires systematic control establishment before committing to the leg hook and roll. As the attacker, you must maintain constant chest pressure on the turtled opponent while creating space under their hips to thread your leg. The sequence demands coordination between your upper body connection (seatbelt or arm control) and lower body mechanics (leg hook threading and roll initiation). Success depends on reading the opponent's defensive reactions in real time and adjusting your entry angle, hook depth, and roll timing accordingly. The position rewards patience over explosiveness: establishing each control point methodically before advancing to the next phase prevents the scrambles that result from rushing the entry. Once the hook is deep and upper body control is locked, the roll to Truck becomes a high-percentage completion that opens the entire Twister system attack chain.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The Truck Entry from an attacking perspective requires systematic control establ
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Truck]] | 58% |
-| Failure | [[Turtle]] | 30% |
-| Counter | [[Turtle]] | 12% |
+| Success | [[Positions/Twister Control/Truck]] | 58% |
+| Failure | [[Positions/Turtle]] | 30% |
+| Counter | [[Positions/Turtle]] | 12% |
 
 
 </section>
@@ -245,11 +245,11 @@ The Truck Entry from an attacking perspective requires systematic control establ
 
 ## Opponent Counters
 
-- **Opponent sits back toward guard before leg hook is established** (Effectiveness: High) - Your Response: Follow their movement and transition to leg drag position or standing guard pass. Alternatively, use their backward motion to switch to a front headlock attack. → Leads to [[Turtle]]
-- **Opponent rolls forward over their shoulder as you enter** (Effectiveness: Medium) - Your Response: Maintain your leg hook and follow the roll, allowing it to complete while keeping connection. This often delivers them directly into Truck position if you stay attached through the rotation. → Leads to [[Truck]]
-- **Opponent flattens their hips to mat preventing leg threading** (Effectiveness: Medium) - Your Response: Switch to alternative turtle attacks such as Crucifix entry, or use your positioning to force them onto their side by applying shoulder pressure and pulling their far arm. → Leads to [[Turtle]]
-- **Opponent uses their free leg to push your head and create separation** (Effectiveness: Low) - Your Response: Keep your head tight to their back and use your free hand to control or trap their defensive leg. Maintain chest pressure to negate their pushing power. → Leads to [[Turtle]]
-- **Opponent attempts to granby roll away from your hook** (Effectiveness: Medium) - Your Response: Follow the granby motion while keeping your leg hook engaged. Use their momentum to complete the roll into Truck, or transition to back control if they expose their back during the granby. → Leads to [[Turtle]]
+- **Opponent sits back toward guard before leg hook is established** (Effectiveness: High) - Your Response: Follow their movement and transition to leg drag position or standing guard pass. Alternatively, use their backward motion to switch to a front headlock attack. → Leads to [[Positions/Turtle]]
+- **Opponent rolls forward over their shoulder as you enter** (Effectiveness: Medium) - Your Response: Maintain your leg hook and follow the roll, allowing it to complete while keeping connection. This often delivers them directly into Truck position if you stay attached through the rotation. → Leads to [[Positions/Twister Control/Truck]]
+- **Opponent flattens their hips to mat preventing leg threading** (Effectiveness: Medium) - Your Response: Switch to alternative turtle attacks such as Crucifix entry, or use your positioning to force them onto their side by applying shoulder pressure and pulling their far arm. → Leads to [[Positions/Turtle]]
+- **Opponent uses their free leg to push your head and create separation** (Effectiveness: Low) - Your Response: Keep your head tight to their back and use your free hand to control or trap their defensive leg. Maintain chest pressure to negate their pushing power. → Leads to [[Positions/Turtle]]
+- **Opponent attempts to granby roll away from your hook** (Effectiveness: Medium) - Your Response: Follow the granby motion while keeping your leg hook engaged. Use their momentum to complete the roll into Truck, or transition to back control if they expose their back during the granby. → Leads to [[Positions/Turtle]]
 
 
 </section>

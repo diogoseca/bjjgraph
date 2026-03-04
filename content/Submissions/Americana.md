@@ -26,7 +26,7 @@ From a strategic perspective, the Americana exemplifies positional control befor
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (specifically glenohumeral joint and rotator cuff)
-**Starting Position**: [[Mount]]
+**Starting Position**: [[Positions/Mount]]
 **Success Rate**: 68%
 
 </section>
@@ -83,8 +83,8 @@ From a strategic perspective, the Americana exemplifies positional control befor
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -256,16 +256,16 @@ From a strategic perspective, the Americana exemplifies positional control befor
 
 ## From Which Positions?
 
-- [[Mount]]
-- [[Side Control]]
-- [[Knee on Belly]]
-- [[North-South]]
-- [[Kesa Gatame]]
-- [[Kuzure Kesa-Gatame]]
-- [[Modified Scarf Hold]]
-- [[High Mount]]
-- [[S Mount]]
-- [[Modified Mount]]
+- [[Positions/Mount]]
+- [[Positions/Side Control]]
+- [[Positions/Knee on Belly]]
+- [[Positions/North-South]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Mount/High Mount]]
+- [[Positions/Mount/S Mount]]
+- [[Positions/Mount/Modified Mount]]
 
 
 </section>
@@ -274,16 +274,16 @@ From a strategic perspective, the Americana exemplifies positional control befor
 
 ## Related Submissions
 
-- [[Kimura]]
-- [[Kimura from Mount]]
-- [[Kimura from Side Control]]
-- [[Kimura from North-South]]
-- [[Armbar from Mount]]
-- [[Armbar from Side Control]]
-- [[Americana from Mount]]
-- [[Americana from Side Control]]
-- [[Arm Triangle]]
-- [[Ezekiel from Mount]]
+- [[Transitions/Kimura]]
+- [[Submissions/Kimura from Mount]]
+- [[Submissions/Kimura from Side Control]]
+- [[Submissions/Kimura from North-South]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Armbar from Side Control]]
+- [[Submissions/Americana from Mount]]
+- [[Submissions/Americana from Side Control]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Ezekiel from Mount]]
 
 
 </section>
@@ -292,18 +292,18 @@ From a strategic perspective, the Americana exemplifies positional control befor
 
 ## Additional Related Content
 
-- [[Mount]] - Primary attacking position - provides excellent base and control for Americana execution with chest pressure and weight distribution advantages
-- [[Side Control]] - Alternative attacking position - allows Americana on near arm with hip pressure replacing chest pressure for elbow pin
-- [[North-South]] - Transitional position - enables Americana on far arm when opponent turns to defend side control, provides excellent control for shoulder lock mechanics
-- [[Knee on Belly]] - Entry position - opponent's defensive arm extensions create immediate Americana opportunities during transition to side control
-- [[Kimura]] - Sister submission - attacks same joint (shoulder) with reverse rotation; practitioners often flow between Americana and Kimura based on opponent's defensive hand positioning
-- [[Armbar from Mount]] - Alternative attack from same position - when opponent defends Americana by straightening arm, immediate transition to armbar becomes available
-- [[Kimura from Mount]] - Combination attack - if opponent turns their hand away from head to defend Americana, reverse grip and enter Kimura mechanics
-- [[Kimura from Side Control]] - Positional combination - both attacks available from side control; switching between them based on opponent's arm positioning creates submission dilemmas
-- [[Gift Wrap]] - Control position for entry - gift wrap isolates the arm and creates perfect Americana setup from mount or back control variations
-- [[S Mount]] - Advanced position - provides superior angle for Americana when opponent begins to defend by turning or bridging from standard mount
-- [[Arm Triangle]] - Complementary choke from same positions - when opponent defends Americana by pulling arm across their body, arm triangle opportunity opens
-- [[Omoplata]] - Related shoulder attack - different mechanism but targets same joint complex, often chained together in shoulder lock systems
+- [[Positions/Mount]] - Primary attacking position - provides excellent base and control for Americana execution with chest pressure and weight distribution advantages
+- [[Positions/Side Control]] - Alternative attacking position - allows Americana on near arm with hip pressure replacing chest pressure for elbow pin
+- [[Positions/North-South]] - Transitional position - enables Americana on far arm when opponent turns to defend side control, provides excellent control for shoulder lock mechanics
+- [[Positions/Knee on Belly]] - Entry position - opponent's defensive arm extensions create immediate Americana opportunities during transition to side control
+- [[Transitions/Kimura]] - Sister submission - attacks same joint (shoulder) with reverse rotation; practitioners often flow between Americana and Kimura based on opponent's defensive hand positioning
+- [[Submissions/Armbar from Mount]] - Alternative attack from same position - when opponent defends Americana by straightening arm, immediate transition to armbar becomes available
+- [[Submissions/Kimura from Mount]] - Combination attack - if opponent turns their hand away from head to defend Americana, reverse grip and enter Kimura mechanics
+- [[Submissions/Kimura from Side Control]] - Positional combination - both attacks available from side control; switching between them based on opponent's arm positioning creates submission dilemmas
+- [[Positions/Gift Wrap]] - Control position for entry - gift wrap isolates the arm and creates perfect Americana setup from mount or back control variations
+- [[Positions/Mount/S Mount]] - Advanced position - provides superior angle for Americana when opponent begins to defend by turning or bridging from standard mount
+- [[Transitions/Arm Triangle]] - Complementary choke from same positions - when opponent defends Americana by pulling arm across their body, arm triangle opportunity opens
+- [[Transitions/Omoplata]] - Related shoulder attack - different mechanism but targets same joint complex, often chained together in shoulder lock systems
 
 
 </section>

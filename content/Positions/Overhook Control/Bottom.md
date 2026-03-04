@@ -212,25 +212,25 @@ Modern guard players have integrated overhook control into systematic approaches
 
 ## Available Escapes
 
-### [[Arm Drag to Back]] (11% of attempts)
+### [[Transitions/Arm Drag to Back]] (11% of attempts)
 
-### [[Overhook Sweep]] (22% of attempts)
+### [[Transitions/Overhook Sweep]] (22% of attempts)
 
-### [[Butterfly Sweep]] (11% of attempts)
+### [[Transitions/Butterfly Sweep]] (11% of attempts)
 
-### [[Triangle Setup]] (10% of attempts)
+### [[Transitions/Triangle Setup]] (10% of attempts)
 
-### [[Closed Guard to Omoplata]] (9% of attempts)
+### [[Transitions/Closed Guard to Omoplata]] (9% of attempts)
 
-### [[Guillotine Setup]] (10% of attempts)
+### [[Transitions/Guillotine Setup]] (10% of attempts)
 
-### [[Elevator Sweep]] (11% of attempts)
+### [[Transitions/Elevator Sweep]] (11% of attempts)
 
-### [[Old School Sweep]] (10% of attempts)
+### [[Transitions/Old School Sweep]] (10% of attempts)
 
-### [[Overhook Control Sweep]] (4% of attempts)
+### [[Transitions/Overhook Control Sweep]] (4% of attempts)
 
-### [[Overhook to Half Guard]] (2% of attempts)
+### [[Transitions/Overhook to Half Guard]] (2% of attempts)
 
 
 
@@ -241,23 +241,23 @@ Modern guard players have integrated overhook control into systematic approaches
 ## Decision Making from This Position
 
 **If opponent postures back attempting to pull their arm free:**
-- Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 66%)
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 62%)
+- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 66%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 62%)
 
 
 **If opponent drives forward with pressure into overhook side:**
-- Execute **[[Overhook Sweep]]** → [[Mount]] (Probability: 70%)
-- Execute **[[Butterfly Sweep]]** → [[Mount]] (Probability: 68%)
+- Execute **[[Transitions/Overhook Sweep]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 68%)
 
 
 **If opponent drops their head forward attempting to pass:**
-- Execute **[[Guillotine Setup]]** → [[Guillotine Control]] (Probability: 64%)
-- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 58%)
+- Execute **[[Transitions/Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 64%)
+- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 58%)
 
 
 **If opponent attempts to circle away from overhook side:**
-- Execute **[[Elevator Sweep]]** → [[Mount]] (Probability: 67%)
-- Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 66%)
+- Execute **[[Transitions/Elevator Sweep]]** → [[Positions/Mount]] (Probability: 67%)
+- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 66%)
 
 
 
@@ -386,14 +386,14 @@ Both partners start in half guard with one attempting underhook, other attemptin
 
 ## Related Positions and Techniques
 
-- **[[Butterfly Guard]]** - Primary guard position where bottom overhook is used for sweep setups and back takes
-- **[[Half Guard]]** - Guard position featuring constant overhook vs underhook control battles
-- **[[Closed Guard]]** - Guard variation where overhook controls opponent's posture and prevents passing
-- **[[Back Control]]** - Common advancement target accessed via arm drag from bottom overhook
-- **[[Triangle Control]]** - Submission control accessed when opponent postures against overhook
-- **[[Omoplata Control]]** - Alternative submission control from bottom overhook when opponent drives forward
-- **[[Guillotine Control]]** - Front headlock submission available when opponent drops head into overhook
-- **[[Overhook Guard]]** - Dedicated guard system built around the overhook grip as primary control
+- **[[Positions/Butterfly Guard]]** - Primary guard position where bottom overhook is used for sweep setups and back takes
+- **[[Positions/Half Guard]]** - Guard position featuring constant overhook vs underhook control battles
+- **[[Positions/Closed Guard]]** - Guard variation where overhook controls opponent's posture and prevents passing
+- **[[Positions/Back Control]]** - Common advancement target accessed via arm drag from bottom overhook
+- **[[Positions/Triangle Control]]** - Submission control accessed when opponent postures against overhook
+- **[[Positions/Omoplata Control]]** - Alternative submission control from bottom overhook when opponent drives forward
+- **[[Positions/Guillotine Control]]** - Front headlock submission available when opponent drops head into overhook
+- **[[Positions/Overhook Guard]]** - Dedicated guard system built around the overhook grip as primary control
 
 
 </section>

@@ -26,8 +26,8 @@ The technique integrates wrestling clinch control with BJJ submission mechanics,
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Neck
-**Starting Position**: [[Standing Back Control]]
-**From Position**: [[Standing Back Control]] (Top)
+**Starting Position**: [[Positions/Back Control/Standing Back Control]]
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -76,9 +76,9 @@ The technique integrates wrestling clinch control with BJJ submission mechanics,
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Standing Back Control]] | 25% |
-| Counter | [[Standing Position]] | 15% |
-| Counter | [[Clinch]] | 10% |
+| Failure | [[Positions/Back Control/Standing Back Control]] | 25% |
+| Counter | [[Positions/Standing Position]] | 15% |
+| Counter | [[Positions/Clinch]] | 10% |
 
 
 </section>
@@ -207,8 +207,8 @@ The technique integrates wrestling clinch control with BJJ submission mechanics,
 
 ## From Which Positions?
 
-- [[Standing Back Control]]
-- [[Standing Rear Clinch]]
+- [[Positions/Back Control/Standing Back Control]]
+- [[Positions/Standing Rear Clinch]]
 
 
 </section>
@@ -217,12 +217,12 @@ The technique integrates wrestling clinch control with BJJ submission mechanics,
 
 ## Related Submissions
 
-- [[RNC from Seat Belt]]
-- [[Standing Guillotine from Clinch]]
-- [[Bow and Arrow from Seat Belt]]
-- [[Body Triangle RNC]]
-- [[Rear Triangle Choke]]
-- [[Russian Cowboy RNC]]
+- [[Submissions/RNC from Seat Belt]]
+- [[Submissions/Standing Guillotine from Clinch]]
+- [[Submissions/Bow and Arrow from Seat Belt]]
+- [[Submissions/Body Triangle RNC]]
+- [[Submissions/Rear Triangle Choke]]
+- [[Submissions/Russian Cowboy RNC]]
 
 
 </section>
@@ -231,13 +231,13 @@ The technique integrates wrestling clinch control with BJJ submission mechanics,
 
 ## Additional Related Content
 
-- [[Standing Back Control]] - Primary starting position from which the Standing RNC is executed
-- [[Standing Rear Clinch]] - Common entry position that precedes establishing back control for the RNC
-- [[Back Control]] - Ground-based equivalent position where the standard RNC is applied
-- [[RNC from Seat Belt]] - Ground-based RNC variation sharing identical choking mechanics
-- [[Seat Belt Control Back]] - Primary grip configuration used to control opponent before threading the choke
-- [[Standing Position]] - Neutral standing state that results from successful defensive escape
-- [[Clinch]] - Position reached when defender turns into attacker during escape attempt
+- [[Positions/Back Control/Standing Back Control]] - Primary starting position from which the Standing RNC is executed
+- [[Positions/Standing Rear Clinch]] - Common entry position that precedes establishing back control for the RNC
+- [[Positions/Back Control]] - Ground-based equivalent position where the standard RNC is applied
+- [[Submissions/RNC from Seat Belt]] - Ground-based RNC variation sharing identical choking mechanics
+- [[Positions/Back Control/Seat Belt Control Back]] - Primary grip configuration used to control opponent before threading the choke
+- [[Positions/Standing Position]] - Neutral standing state that results from successful defensive escape
+- [[Positions/Clinch]] - Position reached when defender turns into attacker during escape attempt
 
 
 </section>

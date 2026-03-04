@@ -186,7 +186,7 @@ description: "Complete guide to executing the Backstep from Single Leg X-Guard. 
 
 The attacker in the Backstep from Single Leg X is the top player trapped in the bottom player's SLX guard who initiates a rotational pass to achieve side control. Success requires understanding the precise sequence of weight transfer, hook management, and hip rotation that allows the trapped leg to clear the bottom player's entanglement. The technique demands full commitment once initiated because half-measures leave the passer vulnerable to sweeps during the rotation. The attacker must combine grip management, rotational mechanics, and immediate consolidation into a single fluid passing sequence that transitions from defensive leg entanglement management to dominant top control.
 
-**From Position**: [[Single Leg X-Guard]] (Top)
+**From Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Top)
 
 </section>
 
@@ -240,9 +240,9 @@ The attacker in the Backstep from Single Leg X is the top player trapped in the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Single Leg X-Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/X-Guard/Single Leg X-Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ The attacker in the Backstep from Single Leg X is the top player trapped in the 
 
 ## Opponent Counters
 
-- **Bottom player follows the rotation with active hooks, maintaining SLX configuration by chasing the hip with their top hook** (Effectiveness: High) - Your Response: Accelerate the rotation and pin their chasing leg to the mat with your hand before completing the backstep. If they successfully follow, reset to standing base and re-address the hip hook before attempting again. → Leads to [[Single Leg X-Guard]]
-- **Bottom player transitions to ashi garami entry by threading their legs into leg entanglement during the rotation window** (Effectiveness: Medium) - Your Response: Recognize the leg entry attempt and immediately straighten your leg and backstep aggressively past the entanglement angle. If caught, address the ashi position rather than continuing the pass attempt. → Leads to [[Half Guard]]
-- **Bottom player frames with arms against your hips and shoulders during rotation to create space for guard recovery** (Effectiveness: Medium) - Your Response: Drive through the frames with chest pressure as you complete the rotation. Use the momentum of the backstep to collapse their arm frames before they can fully extend. Prioritize crossface establishment to neutralize frame power. → Leads to [[Single Leg X-Guard]]
-- **Bottom player bridges explosively during the mid-rotation moment when your base is transitioning between legs** (Effectiveness: Low) - Your Response: Maintain low center of gravity throughout the rotation and keep at least one hand posted. If the bridge disrupts your balance, post your hand on the mat on the far side and complete the rotation using the posting hand as additional support. → Leads to [[Half Guard]]
+- **Bottom player follows the rotation with active hooks, maintaining SLX configuration by chasing the hip with their top hook** (Effectiveness: High) - Your Response: Accelerate the rotation and pin their chasing leg to the mat with your hand before completing the backstep. If they successfully follow, reset to standing base and re-address the hip hook before attempting again. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Bottom player transitions to ashi garami entry by threading their legs into leg entanglement during the rotation window** (Effectiveness: Medium) - Your Response: Recognize the leg entry attempt and immediately straighten your leg and backstep aggressively past the entanglement angle. If caught, address the ashi position rather than continuing the pass attempt. → Leads to [[Positions/Half Guard]]
+- **Bottom player frames with arms against your hips and shoulders during rotation to create space for guard recovery** (Effectiveness: Medium) - Your Response: Drive through the frames with chest pressure as you complete the rotation. Use the momentum of the backstep to collapse their arm frames before they can fully extend. Prioritize crossface establishment to neutralize frame power. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Bottom player bridges explosively during the mid-rotation moment when your base is transitioning between legs** (Effectiveness: Low) - Your Response: Maintain low center of gravity throughout the rotation and keep at least one hand posted. If the bridge disrupts your balance, post your hand on the mat on the far side and complete the rotation using the posting hand as additional support. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Learn to defend the K-Guard pass from the bottom player perspectiv
 
 Defending against the K-Guard pass from the bottom player's perspective requires maintaining active hook tension, fighting for grips, and recognizing the optimal moments to transition from retention to counter-attacks. As the K-Guard player, your hooks and frames form an integrated defensive system that must work in coordination - the inverted hook pulls the opponent's trapped leg across centerline while the butterfly hook creates constant elevation threat. When the passer begins systematically breaking down this structure, the defender must recognize the progression and either reinforce retention mechanics or exploit the passer's commitment to launch sweeps, back takes, or transitions to alternative guard positions. The best defense against a K-Guard pass is proactive engagement that uses the passer's own energy and pressure against them rather than passively holding position and absorbing their systematic pressure sequence.
 
-**Opponent's Starting Position**: [[K-Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/K-Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending against the K-Guard pass from the bottom player's perspective requires
 ### 1. Reload butterfly hook elevation and drive passer's weight upward to break their pressure base
 
 - **When to use**: When the passer commits forward pressure and you still have an active butterfly hook loaded at hip level
-- **Targets**: [[K-Guard]]
+- **Targets**: [[Positions/K-Guard]]
 - **If successful**: Passer is elevated and must reset their base, fully restoring K-Guard position with active hooks and frames
 - **Risk**: If the butterfly hook is already partially neutralized, the elevation attempt fails and wastes energy that could be used for guard transitions
 
 ### 2. Swim inside arm for deep underhook and initiate back take sequence behind the passer
 
 - **When to use**: When the passer shifts weight laterally to address the butterfly hook, momentarily weakening their crossface and creating space on the near side
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You establish back control with hooks or seatbelt grip, achieving the highest-value counter position available from K-Guard
 - **Risk**: If the passer recognizes the underhook attempt early, they whizzer and drive you flat, accelerating their pass and removing your remaining hook retention
 
 ### 3. Hip escape to recover angle and reestablish full hook tension against the passer's pressure
 
 - **When to use**: When the passer's crossface weakens during grip transitions, creating momentary space for hip movement and angle adjustment
-- **Targets**: [[K-Guard]]
+- **Targets**: [[Positions/K-Guard]]
 - **If successful**: Full K-Guard structure is restored with active hooks and frames, forcing the passer to restart their systematic pressure sequence from the beginning
 - **Risk**: If the passer follows your hip escape while maintaining pressure and connection, you may end up with weakened hooks at a worse angle
 
 ### 4. Insert knee shield to transition to half guard retention when K-Guard hooks are compromised
 
 - **When to use**: When both K-Guard hooks have been significantly compromised and maintaining the inverted hook configuration is no longer viable
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish knee shield half guard, maintaining a viable defensive guard position with active retention even though K-Guard offensive advantages are lost
 - **Risk**: The passer may continue through the knee shield with a knee slice pass, completing the pass to side control
 
@@ -217,11 +217,11 @@ Defending against the K-Guard pass from the bottom player's perspective requires
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the passer shifts weight laterally or commits to addressing the butterfly hook, swim your inside arm for a deep underhook. Use the underhook combined with remaining hook tension to spin behind them. The key trigger is when their crossface pressure momentarily weakens during grip transitions - this window allows you to establish the underhook before they can re-establish head control. Follow with seatbelt grip and hook insertion to complete the back take.
 
-### → [[K-Guard]]
+### → [[Positions/K-Guard]]
 
 Maintain aggressive grip fighting and active hook tension throughout the passer's attempts. When they strip your grips, immediately re-grip on new control points. When they drive forward, use their pressure to load your butterfly hook for elevation threat. Continuous proactive adjustment prevents the passer from completing any phase of their systematic pressure sequence, forcing repeated resets that exhaust their passing energy.
 

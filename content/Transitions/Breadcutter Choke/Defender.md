@@ -158,7 +158,7 @@ From the bottom of Kuzure Kesa-Gatame, your primary defensive strategy centers o
 
 The most dangerous moment occurs when you become so focused on arm defense that you neglect your collar. Experienced attackers bait americana and kimura threats specifically to draw your attention away from the neck. Maintaining split awareness between arm defense and collar protection, while systematically working your escape from the bottom pin, represents the core defensive challenge. When the choke does begin to set, your response must be immediate and decisive—half-measures against a blood choke only delay unconsciousness, they do not prevent it.
 
-**Opponent's Starting Position**: [[Kuzure Kesa-Gatame]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The most dangerous moment occurs when you become so focused on arm defense that 
 ### 1. Turn into the attacker by driving your near shoulder toward the mat and rotating your torso to face them, collapsing the space needed for the forearm blade
 
 - **When to use**: As soon as you recognize the lapel feed attempt, before the choking grip is established
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You collapse the choking angle, deny the forearm blade positioning, and create an opportunity to recover half guard or escape to turtle
 - **Risk**: If the attacker reads the turn early, they may transition to mount using your own rotation to advance position
 
 ### 2. Grip the attacker's choking sleeve or wrist with your free hand and pull it away from your neck, preventing the forearm blade from setting
 
 - **When to use**: When the attacker has begun positioning the forearm but has not yet applied full cutting pressure
-- **Targets**: [[Kuzure Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Kuzure Kesa-Gatame]]
 - **If successful**: You stall the choke and force a grip fight, keeping the position at Kuzure Kesa-Gatame where you can work standard escapes
 - **Risk**: Extended wrist grip fighting exposes your arm to armbar if the attacker redirects to attack the defending limb
 
 ### 3. Bridge explosively at a perpendicular angle targeting the attacker's posting leg while simultaneously hip escaping away to disrupt their base and create distance
 
 - **When to use**: When the attacker commits both hands to the choke setup, temporarily reducing their base stability
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You disrupt the attacker's base, break their hip pressure, and create enough space to recover half guard or insert a knee shield
 - **Risk**: If the bridge is misdirected or the attacker has a wide base, you expend energy without creating meaningful positional change
 
 ### 4. Tuck chin firmly to your chest and use your free hand to secure your own collar, blocking the lapel from being fed across your throat
 
 - **When to use**: As a preventive measure when you sense the attacker reaching for lapel material before the feed begins
-- **Targets**: [[Kuzure Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Kuzure Kesa-Gatame]]
 - **If successful**: You deny the initial lapel feed entirely, keeping the fight at Kuzure Kesa-Gatame where you can prioritize positional escape
 - **Risk**: Committing your free hand to collar defense reduces your ability to frame, bridge effectively, or work standard escapes from the pin
 
@@ -228,11 +228,11 @@ The most dangerous moment occurs when you become so focused on arm defense that 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Kuzure Kesa-Gatame]]
+### → [[Positions/Side Control/Kuzure Kesa-Gatame]]
 
 Fight the choking grip through wrist control and collar defense to stall the choke, then redirect your efforts to standard Kuzure Kesa-Gatame escapes. Use the attacker's preoccupation with the failed choke to time your hip escape or bridge and roll when their base is compromised.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Turn into the attacker to collapse the choking angle while simultaneously working a hip escape. As you turn and shrimp, insert your near knee between your bodies to establish a knee shield or half guard position. The turning motion denies the choke while the hip escape creates the distance needed for guard recovery.
 

@@ -207,21 +207,21 @@ While extremely dangerous, Darce Control Bottom is not an inescapable position. 
 
 ## Available Escapes
 
-### [[Arm Extraction]] (27% of attempts)
+### [[Transitions/Arm Extraction]] (27% of attempts)
 
-### [[Granby Roll to Guard]] (14% of attempts)
+### [[Transitions/Granby Roll to Guard]] (14% of attempts)
 
-### [[Back Door Escape]] (11% of attempts)
+### [[Transitions/Back Door Escape]] (11% of attempts)
 
-### [[Counter Roll to Top]] (7% of attempts)
+### [[Transitions/Counter Roll to Top]] (7% of attempts)
 
-### [[Step Over Escape]] (14% of attempts)
+### [[Transitions/Step Over Escape]] (14% of attempts)
 
-### [[Hip Escape to Guard]] (14% of attempts)
+### [[Transitions/Hip Escape to Guard]] (14% of attempts)
 
-### [[Rolling to Guard]] (9% of attempts)
+### [[Transitions/Rolling to Guard]] (9% of attempts)
 
-### [[Frame Escape from Darce]] (4% of attempts)
+### [[Transitions/Frame Escape from Darce]] (4% of attempts)
 
 
 
@@ -232,23 +232,23 @@ While extremely dangerous, Darce Control Bottom is not an inescapable position. 
 ## Decision Making from This Position
 
 **If opponent has shallow grip and choke is not yet tight:**
-- Execute **[[Arm Extraction]]** → [[Turtle]] (Probability: 55%)
-- Execute **[[Granby Roll to Guard]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If opponent is driving forward to flatten you and tighten choke:**
-- Execute **[[Rolling to Guard]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Back Door Escape]]** → [[Turtle]] (Probability: 40%)
+- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Back Door Escape]]** → [[Positions/Turtle]] (Probability: 40%)
 
 
 **If choke is locked deep and opponent has strong positional control:**
-- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 40%)
-- Execute **[[Counter Roll to Top]]** → [[Side Control]] (Probability: 30%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Counter Roll to Top]]** → [[Positions/Side Control]] (Probability: 30%)
 
 
 **If opponent switches to anaconda configuration or loosens Darce grip:**
-- Execute **[[Arm Extraction]]** → [[Turtle]] (Probability: 60%)
-- Execute **[[Rolling to Guard]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Turtle]] (Probability: 60%)
+- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 
@@ -370,14 +370,14 @@ Partner holds Darce Control position with moderate resistance. Practice each esc
 
 ## Related Positions and Techniques
 
-- **[[Darce Control]]** - Hub position covering both perspectives
-- **[[Darce Choke]]** - Primary submission threat from this position
-- **[[Turtle]]** - Common entry position and primary escape target
-- **[[Front Headlock]]** - Related defensive position with similar escape mechanics
-- **[[Anaconda Control]]** - Similar choke defense position with overlapping escape strategies
-- **[[Guillotine Control]]** - Related front headlock submission defense position
-- **[[Half Guard]]** - Frequent recovery position after successful escape
-- **[[Closed Guard]]** - Recovery position after granby roll escape
+- **[[Positions/Darce Control]]** - Hub position covering both perspectives
+- **[[Transitions/Darce Choke]]** - Primary submission threat from this position
+- **[[Positions/Turtle]]** - Common entry position and primary escape target
+- **[[Positions/Front Headlock]]** - Related defensive position with similar escape mechanics
+- **[[Positions/Anaconda Control]]** - Similar choke defense position with overlapping escape strategies
+- **[[Positions/Guillotine Control]]** - Related front headlock submission defense position
+- **[[Positions/Half Guard]]** - Frequent recovery position after successful escape
+- **[[Positions/Closed Guard]]** - Recovery position after granby roll escape
 
 
 </section>

@@ -21,7 +21,7 @@ The technique is most effective when the opponent's triangle is positioned on th
 
 Strategically, this escape pairs with neck defense as a dual-priority system. You must protect your neck from rear naked choke and collar attacks throughout the clearing process while simultaneously working the leg configuration. Successful execution lands you in side-facing position where you can establish frames, recover guard, or work to a more neutral engagement. The technique is a high-value skill for anyone competing against back-attack specialists who favor the body triangle over traditional hooks.
 
-**From Position**: [[Body Triangle]] (Top)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape pairs with neck defense as a dual-priority system. Yo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Body Triangle]] | 30% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Back Control/Body Triangle]] | 30% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ Triangle Clear to Side is the primary lateral escape from body triangle back con
 ## Related Techniques
 
 
-- [[Body Triangle]] - Starting position - the body triangle back control you are escaping from
+- [[Positions/Back Control/Body Triangle]] - Starting position - the body triangle back control you are escaping from
 
-- [[Side Control]] - Primary success outcome - position achieved after clearing the triangle
+- [[Positions/Side Control]] - Primary success outcome - position achieved after clearing the triangle
 
-- [[Back Control]] - Parent position family - body triangle is a variation of back control
+- [[Positions/Back Control]] - Parent position family - body triangle is a variation of back control
 
-- [[Hip Escape to Turtle]] - Alternative escape - parallel option from body triangle leading to turtle
+- [[Transitions/Hip Escape to Turtle]] - Alternative escape - parallel option from body triangle leading to turtle
 
-- [[Back Door Escape]] - Related system - broader back escape framework this technique belongs to
+- [[Transitions/Back Door Escape]] - Related system - broader back escape framework this technique belongs to
 
-- [[Rear Naked Choke]] - Primary threat - submission you must defend during the clearing process
+- [[Transitions/Rear Naked Choke]] - Primary threat - submission you must defend during the clearing process
 
-- [[Half Guard Recovery]] - Follow-up - alternative guard recovery if side control is not achieved
+- [[Transitions/Half Guard Recovery]] - Follow-up - alternative guard recovery if side control is not achieved
 
-- [[Side Control Escape]] - Related escape - shares lateral movement principles from a different starting position
+- [[Transitions/Side Control Escape]] - Related escape - shares lateral movement principles from a different starting position
 
-- [[Body Triangle Lock]] - Opposing transition - the technique used to establish the position you are escaping
+- [[Transitions/Body Triangle Lock]] - Opposing transition - the technique used to establish the position you are escaping
 
-- [[Frame and Shrimp to Guard]] - Related technique - framing principles applied after clearing the triangle
+- [[Transitions/Frame and Shrimp to Guard]] - Related technique - framing principles applied after clearing the triangle
 
 
 </section>

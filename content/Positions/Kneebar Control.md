@@ -99,33 +99,33 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 ### Available Transitions
 
 
-- **[[Kneebar Finish]]** (41% of attempts)
+- **[[Transitions/Kneebar Finish]]** (41% of attempts)
 
-- **[[Heel Hook]]** (11% of attempts)
+- **[[Transitions/Heel Hook]]** (11% of attempts)
 
-- **[[Inside Ashi Entry]]** (7% of attempts)
+- **[[Transitions/Inside Ashi Entry]]** (7% of attempts)
 
-- **[[Ankle Lock Finish]]** (7% of attempts)
+- **[[Transitions/Ankle Lock Finish]]** (7% of attempts)
 
-- **[[Toe Hold]]** (6% of attempts)
+- **[[Transitions/Toe Hold]]** (6% of attempts)
 
-- **[[Backside 50-50 Entry from Ashi]]** (6% of attempts)
+- **[[Transitions/Backside 50-50 Entry from Ashi]]** (6% of attempts)
 
-- **[[Outside Ashi Entry]]** (5% of attempts)
+- **[[Transitions/Outside Ashi Entry]]** (5% of attempts)
 
-- **[[50-50 Entry from Standing]]** (4% of attempts)
+- **[[Transitions/50-50 Entry from Standing]]** (4% of attempts)
 
-- **[[Single Leg X Entry]]** (4% of attempts)
+- **[[Transitions/Single Leg X Entry]]** (4% of attempts)
 
-- **[[Ashi Garami Escape]]** (4% of attempts)
+- **[[Transitions/Ashi Garami Escape]]** (4% of attempts)
 
-- **[[X-Guard Sweep]]** (2% of attempts)
+- **[[Transitions/X-Guard Sweep]]** (2% of attempts)
 
-- **[[Straighten Leg Kneebar Defense]]** (1% of attempts)
+- **[[Transitions/Straighten Leg Kneebar Defense]]** (1% of attempts)
 
-- **[[Turn and Extract from Kneebar]]** (1% of attempts)
+- **[[Transitions/Turn and Extract from Kneebar]]** (1% of attempts)
 
-- **[[Reversal from Kneebar Control]]** (1% of attempts)
+- **[[Transitions/Reversal from Kneebar Control]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -190,21 +190,21 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 ### Available Transitions
 
 
-- **[[Kneebar]]** (25% of attempts)
+- **[[Transitions/Kneebar]]** (25% of attempts)
 
-- **[[Kneebar Finish]]** (25% of attempts)
+- **[[Transitions/Kneebar Finish]]** (25% of attempts)
 
-- **[[Kneebar Control Maintenance]]** (12% of attempts)
+- **[[Transitions/Kneebar Control Maintenance]]** (12% of attempts)
 
-- **[[Ankle Lock Finish]]** (10% of attempts)
+- **[[Transitions/Ankle Lock Finish]]** (10% of attempts)
 
-- **[[Toe Hold]]** (10% of attempts)
+- **[[Transitions/Toe Hold]]** (10% of attempts)
 
-- **[[Knee on Belly]]** (10% of attempts)
+- **[[Positions/Knee on Belly]]** (10% of attempts)
 
-- **[[Kneebar to 50-50 Transition]]** (4% of attempts)
+- **[[Transitions/Kneebar to 50-50 Transition]]** (4% of attempts)
 
-- **[[Kneebar to Ashi Garami]]** (4% of attempts)
+- **[[Transitions/Kneebar to Ashi Garami]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -247,25 +247,25 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 ## Related Positions
 
 
-- **[[Saddle]]** - Advanced leg entanglement offering heel hook access from similar control structures
+- **[[Positions/Ashi Garami/Saddle]]** - Advanced leg entanglement offering heel hook access from similar control structures
 
-- **[[Inside Ashi-Garami]]** - Primary bottom position entry for kneebar attacks with inside leg control
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Primary bottom position entry for kneebar attacks with inside leg control
 
-- **[[Outside Ashi-Garami]]** - Outside leg control variant offering different kneebar angles and transitions
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Outside leg control variant offering different kneebar angles and transitions
 
-- **[[50-50 Guard]]** - Symmetrical leg entanglement allowing kneebar exchanges and positional battles
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Symmetrical leg entanglement allowing kneebar exchanges and positional battles
 
-- **[[Single Leg X-Guard]]** - Leg elevation position enabling top kneebar entries and sweeps
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Leg elevation position enabling top kneebar entries and sweeps
 
-- **[[Straight Ankle Lock Control]]** - Alternative leg submission targeting ankle joint instead of knee
+- **[[Positions/Straight Ankle Lock Control]]** - Alternative leg submission targeting ankle joint instead of knee
 
-- **[[Toe Hold Control]]** - Rotational leg attack accessible from similar control positions
+- **[[Positions/Toe Hold Control]]** - Rotational leg attack accessible from similar control positions
 
-- **[[Half Guard]]** - Common position where top kneebar entries become available
+- **[[Positions/Half Guard]]** - Common position where top kneebar entries become available
 
-- **[[Turtle]]** - Defensive position where kneebar entries often occur during scrambles
+- **[[Positions/Turtle]]** - Defensive position where kneebar entries often occur during scrambles
 
-- **[[Headquarters Position]]** - Guard passing position offering kneebar attack opportunities
+- **[[Positions/Headquarters Position]]** - Guard passing position offering kneebar attack opportunities
 
 
 </section>

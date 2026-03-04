@@ -17,7 +17,7 @@ description: "Master Tai Otoshi (body drop) in BJJ and Judo. Complete execution 
 
 Tai Otoshi, meaning 'body drop' in Japanese, is a fundamental judo throw that has been seamlessly integrated into modern Brazilian Jiu-Jitsu as a high-percentage standing technique. This throw exemplifies the principle of maximum efficiency with minimum effort, using timing, off-balancing, and mechanical advantage to project an opponent to the mat. Unlike many judo throws that rely heavily on hip positioning, Tai Otoshi uses the practitioner's leg as a blocking point while pulling the opponent forward and downward in a circular motion. The technique is particularly effective in no-gi grappling due to its reliance on body mechanics rather than gi grips, though traditional sleeve and lapel controls make it even more powerful in the gi. When executed correctly, Tai Otoshi allows a smaller practitioner to throw a significantly larger opponent by exploiting their forward momentum and breaking their base at precisely the right moment. The throw creates immediate scoring opportunities in competition and transitions naturally into dominant positions such as side control, knee on belly, or back control, making it a complete technique that bridges the standing and ground phases of combat.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -28,9 +28,9 @@ Tai Otoshi, meaning 'body drop' in Japanese, is a fundamental judo throw that ha
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Failure | [[Standing Position]] | 20% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Side Control]] | 70% |
+| Failure | [[Positions/Standing Position]] | 20% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -188,29 +188,29 @@ Tai Otoshi serves as a crucial bridge technique in BJJ that connects the standin
 ## Related Techniques
 
 
-- [[Ippon Seoi Nage]] - Related shoulder throw sharing similar kuzushi and rotation mechanics with different blocking point
+- [[Transitions/Ippon Seoi Nage]] - Related shoulder throw sharing similar kuzushi and rotation mechanics with different blocking point
 
-- [[Osoto Gari]] - Common combination when opponent defends by pulling back against forward kuzushi
+- [[Transitions/Osoto Gari]] - Common combination when opponent defends by pulling back against forward kuzushi
 
-- [[Kouchi Gari]] - Chain technique capitalizing on opponent's backward defensive movement
+- [[Transitions/Kouchi Gari]] - Chain technique capitalizing on opponent's backward defensive movement
 
-- [[Morote Seoi Nage]] - Alternative shoulder throw using different grip configuration for similar forward throwing angle
+- [[Transitions/Morote Seoi Nage]] - Alternative shoulder throw using different grip configuration for similar forward throwing angle
 
-- [[Harai Goshi]] - Hip throw sharing similar rotation but using sweeping leg action instead of blocking
+- [[Transitions/Harai Goshi]] - Hip throw sharing similar rotation but using sweeping leg action instead of blocking
 
-- [[Side Control]] - Primary finishing position after successful throw landing
+- [[Positions/Side Control]] - Primary finishing position after successful throw landing
 
-- [[Knee on Belly]] - Alternative dominant position to transition into after throw
+- [[Positions/Knee on Belly]] - Alternative dominant position to transition into after throw
 
-- [[Clinch]] - Starting position for establishing throw grips and collar tie control
+- [[Positions/Clinch]] - Starting position for establishing throw grips and collar tie control
 
-- [[Standing Position]] - Initial engagement phase before throw execution
+- [[Positions/Standing Position]] - Initial engagement phase before throw execution
 
-- [[Deashi Harai]] - Forward foot sweep that creates similar kuzushi direction and chains naturally
+- [[Transitions/Deashi Harai]] - Forward foot sweep that creates similar kuzushi direction and chains naturally
 
-- [[Ouchi Gari]] - Inner reap that pairs with Tai Otoshi in combination attacks exploiting weight shifts
+- [[Transitions/Ouchi Gari]] - Inner reap that pairs with Tai Otoshi in combination attacks exploiting weight shifts
 
-- [[Snap Down to Front Headlock]] - Setup technique that breaks opponent's posture creating throw entry opportunities
+- [[Transitions/Snap Down to Front Headlock]] - Setup technique that breaks opponent's posture creating throw entry opportunities
 
 
 </section>

@@ -178,7 +178,7 @@ This transition capitalizes on the leg drag's inherent mechanics: when you contr
 
 The strategic value lies in maintaining offensive pressure throughout the transition. Many practitioners lose submissions attempting to consolidate full mount from leg drag, giving opponents time to recover guard. Technical mount eliminates this gap—you arrive with arm triangles, mounted triangles, and armbars immediately available. The position also prevents common mount escapes like the upa because the opponent cannot generate leverage from their side.
 
-**From Position**: [[Leg Drag Control]] (Top)
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
 
@@ -230,9 +230,9 @@ The strategic value lies in maintaining offensive pressure throughout the transi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Technical Mount]] | 65% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount/Technical Mount]] | 65% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ The strategic value lies in maintaining offensive pressure throughout the transi
 
 ## Opponent Counters
 
-- **Opponent turns away aggressively to turtle as you transition** (Effectiveness: Medium) - Your Response: Follow immediately to back control—their turn exposes the back. Thread your bottom hook as they rotate and establish seatbelt grip before they can settle in turtle. → Leads to [[Technical Mount]]
-- **Opponent frames on your hip and creates space before knee insertion** (Effectiveness: High) - Your Response: Do not force the mount. Return to tight leg drag control, clear their frame with your crossface arm, then reattempt the transition once pressure is reestablished. → Leads to [[Leg Drag Control]]
-- **Opponent bridges and rolls toward you as you release leg drag** (Effectiveness: Medium) - Your Response: Post wide with your front leg and drive your crossface down. If they continue rolling, flow with the momentum and transition to knee on belly on the opposite side. → Leads to [[Leg Drag Control]]
-- **Opponent inserts knee shield as you transition to mount** (Effectiveness: High) - Your Response: Accept half guard position temporarily. Use your leg drag mechanics to smash the knee shield flat, then work standard half guard passing to mount. → Leads to [[Half Guard]]
+- **Opponent turns away aggressively to turtle as you transition** (Effectiveness: Medium) - Your Response: Follow immediately to back control—their turn exposes the back. Thread your bottom hook as they rotate and establish seatbelt grip before they can settle in turtle. → Leads to [[Positions/Mount/Technical Mount]]
+- **Opponent frames on your hip and creates space before knee insertion** (Effectiveness: High) - Your Response: Do not force the mount. Return to tight leg drag control, clear their frame with your crossface arm, then reattempt the transition once pressure is reestablished. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent bridges and rolls toward you as you release leg drag** (Effectiveness: Medium) - Your Response: Post wide with your front leg and drive your crossface down. If they continue rolling, flow with the momentum and transition to knee on belly on the opposite side. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent inserts knee shield as you transition to mount** (Effectiveness: High) - Your Response: Accept half guard position temporarily. Use your leg drag mechanics to smash the knee shield flat, then work standard half guard passing to mount. → Leads to [[Positions/Half Guard]]
 
 
 </section>

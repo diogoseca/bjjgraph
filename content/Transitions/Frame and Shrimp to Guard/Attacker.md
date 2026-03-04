@@ -178,7 +178,7 @@ The technique operates on the principle that even when your leg is trapped acros
 
 From a strategic perspective, Frame and Shrimp to Guard serves as your first line of defense when caught in leg drag control before the position is fully consolidated. It should be attempted early and explosively, as hesitation allows the passer to settle their weight and eliminate the space needed for the escape. When executed properly, this technique resets the passing exchange to neutral, forcing your opponent to restart their passing sequence while you re-establish your preferred guard configuration.
 
-**From Position**: [[Leg Drag Control]] (Bottom)
+**From Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ From a strategic perspective, Frame and Shrimp to Guard serves as your first lin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Leg Drag Control]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Leg Drag Control]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ From a strategic perspective, Frame and Shrimp to Guard serves as your first lin
 
 ## Opponent Counters
 
-- **Opponent drives forward and collapses frames before shrimp** (Effectiveness: High) - Your Response: If frames collapse, immediately turn into opponent and fight for underhook rather than continuing escape attempt. Accept half guard or transition to different escape sequence. → Leads to [[Leg Drag Control]]
-- **Opponent follows hip movement and maintains leg control** (Effectiveness: Medium) - Your Response: Continue shrimping in same direction while re-framing, creating a chain of hip escapes. Each shrimp builds separation. Alternatively, switch direction suddenly to catch opponent off-balance. → Leads to [[Leg Drag Control]]
-- **Opponent releases leg control to advance to side control** (Effectiveness: Medium) - Your Response: This is actually a success—immediately insert knee shield or hip escape to guard before they consolidate side control. The leg drag threat is removed. → Leads to [[Side Control]]
-- **Opponent backsteps to leg entanglement when you create space** (Effectiveness: Low) - Your Response: If opponent drops for legs, immediately recover inside position with knee inside their hip and work standard leg entanglement defenses. Your guard recovery becomes secondary to leg defense. → Leads to [[Open Guard]]
+- **Opponent drives forward and collapses frames before shrimp** (Effectiveness: High) - Your Response: If frames collapse, immediately turn into opponent and fight for underhook rather than continuing escape attempt. Accept half guard or transition to different escape sequence. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent follows hip movement and maintains leg control** (Effectiveness: Medium) - Your Response: Continue shrimping in same direction while re-framing, creating a chain of hip escapes. Each shrimp builds separation. Alternatively, switch direction suddenly to catch opponent off-balance. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent releases leg control to advance to side control** (Effectiveness: Medium) - Your Response: This is actually a success—immediately insert knee shield or hip escape to guard before they consolidate side control. The leg drag threat is removed. → Leads to [[Positions/Side Control]]
+- **Opponent backsteps to leg entanglement when you create space** (Effectiveness: Low) - Your Response: If opponent drops for legs, immediately recover inside position with knee inside their hip and work standard leg entanglement defenses. Your guard recovery becomes secondary to leg defense. → Leads to [[Positions/Open Guard]]
 
 
 </section>

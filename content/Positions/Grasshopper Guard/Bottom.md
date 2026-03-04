@@ -214,33 +214,33 @@ The position requires significant flexibility and conditioning. Your ability to 
 
 ## Available Escapes
 
-### [[Kneebar from Grasshopper]] (9% of attempts)
+### [[Transitions/Kneebar from Grasshopper]] (9% of attempts)
 
-### [[Straight Ankle Lock Entry]] (7% of attempts)
+### [[Transitions/Straight Ankle Lock Entry]] (7% of attempts)
 
-### [[Single Leg X Transition]] (8% of attempts)
+### [[Transitions/Single Leg X Transition]] (8% of attempts)
 
-### [[Inside Ashi Entry]] (9% of attempts)
+### [[Transitions/Inside Ashi Entry]] (9% of attempts)
 
-### [[Rolling Kneebar]] (5% of attempts)
+### [[Transitions/Rolling Kneebar]] (5% of attempts)
 
-### [[Grasshopper Sweep]] (7% of attempts)
+### [[Transitions/Grasshopper Sweep]] (7% of attempts)
 
-### [[Granby to Closed Guard]] (13% of attempts)
+### [[Transitions/Granby to Closed Guard]] (13% of attempts)
 
-### [[50-50 Entry]] (4% of attempts)
+### [[Transitions/50-50 Entry]] (4% of attempts)
 
-### [[Reverse De La Riva Recovery]] (6% of attempts)
+### [[Transitions/Reverse De La Riva Recovery]] (6% of attempts)
 
-### [[Technical Standup from Inversion]] (5% of attempts)
+### [[Transitions/Technical Standup from Inversion]] (5% of attempts)
 
-### [[X-Guard Elevation Sweep]] (10% of attempts)
+### [[Transitions/X-Guard Elevation Sweep]] (10% of attempts)
 
-### [[Heel Hook]] (3% of attempts)
+### [[Transitions/Heel Hook]] (3% of attempts)
 
-### [[Outside Ashi Entry]] (9% of attempts)
+### [[Transitions/Outside Ashi Entry]] (9% of attempts)
 
-### [[Berimbolo Entry]] (5% of attempts)
+### [[Transitions/Berimbolo Entry]] (5% of attempts)
 
 
 
@@ -251,23 +251,23 @@ The position requires significant flexibility and conditioning. Your ability to 
 ## Decision Making from This Position
 
 **Opponent stands tall with wide base, attempting to disengage:**
-- Execute **[[Technical Standup from Inversion]]** → [[Standing Position]] (Probability: 65%)
-- Execute **[[Follow with Rolling Ankle Lock]]** → [[Straight Ankle Lock Control]] (Probability: 50%)
+- Execute **[[Transitions/Technical Standup from Inversion]]** → [[Positions/Standing Position]] (Probability: 65%)
+- Execute **[[Follow with Rolling Ankle Lock]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 50%)
 
 
 **Opponent pressures forward aggressively with narrow base:**
-- Execute **[[X-Guard Elevation Sweep]]** → [[Mount]] (Probability: 70%)
-- Execute **[[Single Leg X Transition]]** → [[Single Leg X-Guard]] (Probability: 65%)
+- Execute **[[Transitions/X-Guard Elevation Sweep]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Single Leg X Transition]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
 
 
 **Opponent commits one leg between yours, attempting knee cut:**
-- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 70%)
-- Execute **[[Kneebar Attack]]** → [[Kneebar Control]] (Probability: 60%)
+- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 70%)
+- Execute **[[Kneebar Attack]]** → [[Positions/Kneebar Control]] (Probability: 60%)
 
 
 **Opponent attempts back step to avoid entanglement:**
-- Execute **[[Re-invert and Follow]]** → [[Outside Ashi-Garami]] (Probability: 55%)
-- Execute **[[Reverse De La Riva Recovery]]** → [[Reverse De La Riva Guard]] (Probability: 60%)
+- Execute **[[Re-invert and Follow]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Reverse De La Riva Recovery]]** → [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Probability: 60%)
 
 
 
@@ -401,14 +401,14 @@ Partner initiates various pass attempts from standing. Your job is to recognize 
 
 ## Related Positions and Techniques
 
-- **[[Inside Ashi-Garami]]** - Primary leg entanglement destination from grasshopper inversion
-- **[[Single Leg X-Guard]]** - Transitional position when coming up from grasshopper elevation
-- **[[X-Guard]]** - Sweep platform when opponent's base narrows from standing
-- **[[Inverted Guard]]** - Parent category - grasshopper is specific application
-- **[[Kneebar Control]]** - High-percentage submission entry from inverted leg access
-- **[[Straight Ankle Lock Control]]** - Alternative leg attack when kneebar is defended
-- **[[Closed Guard]]** - Safe recovery position after Granby roll from stack pass
-- **[[Reverse De La Riva Guard]]** - Alternative guard when opponent circles to back side
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Primary leg entanglement destination from grasshopper inversion
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Transitional position when coming up from grasshopper elevation
+- **[[Positions/X-Guard]]** - Sweep platform when opponent's base narrows from standing
+- **[[Positions/Inverted Guard]]** - Parent category - grasshopper is specific application
+- **[[Positions/Kneebar Control]]** - High-percentage submission entry from inverted leg access
+- **[[Positions/Straight Ankle Lock Control]]** - Alternative leg attack when kneebar is defended
+- **[[Positions/Closed Guard]]** - Safe recovery position after Granby roll from stack pass
+- **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Alternative guard when opponent circles to back side
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Complete defensive guide against the Triangle from Clamp Guard. Re
 
 Defending the Triangle from Clamp Guard requires understanding that your arm is already isolated in a compromised position, and the triangle entry requires only one leg to shoot over the shoulder rather than the typical two-step isolation and entry from other guard positions. This means the transition is faster than most triangle setups, and early recognition is critical. The primary defensive strategy is prevention — maintaining posture and controlling the space between your neck and shoulder so the leg cannot cross. Every arm extraction attempt from the clamp must account for the triangle threat, meaning you should never circle your arm outward without first establishing posture and closing the neck-shoulder gap. If prevention fails and the leg crosses the shoulder, the defense shifts to preventing the lock, fighting the angle, and executing systematic escape sequences before the triangle tightens to a finishing position. Composure is essential — panic movement in a partially locked triangle typically accelerates the submission rather than enabling escape.
 
-**Opponent's Starting Position**: [[Clamp Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Clamp Guard]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ Defending the Triangle from Clamp Guard requires understanding that your arm is 
 ### 1. Posture up immediately and tuck chin to close the neck-shoulder gap before the leg can cross
 
 - **When to use**: At the first recognition cue — when you feel the clamping leg beginning to shift or the guard player's hips starting to rotate underneath you
-- **Targets**: [[Clamp Guard]]
+- **Targets**: [[Positions/Clamp Guard]]
 - **If successful**: The leg cannot cross the shoulder, the triangle entry is denied, and you remain in clamp guard where you can resume arm extraction attempts
 - **Risk**: If posture recovery is too slow, the leg may already be past the shoulder and you will be fighting a partially locked triangle from a partially postured position
 
 ### 2. Drive forward aggressively into the guard player's hips while posting your free hand on the mat to flatten them
 
 - **When to use**: When the guard player has already begun the leg shoot and posture recovery alone is insufficient to prevent the crossing
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The forward drive disrupts the clamp entirely, potentially breaking the position and resetting to open guard where you have more defensive options
 - **Risk**: If the guard player is prepared, the forward drive can be redirected into a sweep using your forward momentum against your compromised one-arm base
 
 ### 3. Grab the shooting leg with your free hand and push it down before it can cross your neck
 
 - **When to use**: When you detect the leg shoot in progress — the clamping leg is actively moving toward your shoulder and there is a brief window to intercept it
-- **Targets**: [[Clamp Guard]]
+- **Targets**: [[Positions/Clamp Guard]]
 - **If successful**: The triangle entry is blocked mechanically and the guard player must retract the leg and return to clamp retention, buying you time for arm extraction
 - **Risk**: Committing your free hand to the leg means you lose your posting base, making you vulnerable to sweeps if the guard player redirects to a sweep attempt
 
 ### 4. Retract the trapped arm straight back while maintaining posture instead of circling it outward
 
 - **When to use**: When you need to extract from the clamp but want to avoid opening the triangle window that circular extraction creates
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The arm is extracted from the clamp without creating the neck-shoulder gap needed for the triangle, and you can proceed to pass from open guard
 - **Risk**: Straight-back extraction exposes the arm to an armbar from clamp guard if the guard player reads the direction and extends their hips into the pulling arm
 
@@ -216,11 +216,11 @@ Defending the Triangle from Clamp Guard requires understanding that your arm is 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Successfully drive forward or extract the arm completely to break the clamp configuration, denying the triangle and resetting the engagement to open guard where you have a full defensive toolkit and both arms available
 
-### → [[Clamp Guard]]
+### → [[Positions/Clamp Guard]]
 
 Prevent the triangle entry through early posture recovery and chin tuck, keeping the leg from crossing the shoulder and maintaining the current clamp guard position where you can continue systematic arm extraction
 

@@ -184,9 +184,9 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 
 ## Available Attacks
 
-### [[Arm Extraction from Clamp Guard]] (55% of attempts)
+### [[Transitions/Arm Extraction from Clamp Guard]] (55% of attempts)
 
-### [[Stack Pass from Clamp Guard]] (45% of attempts)
+### [[Transitions/Stack Pass from Clamp Guard]] (45% of attempts)
 
 
 
@@ -197,23 +197,23 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 ## Decision Making from This Position
 
 **If opponent attempts to pull their trapped arm straight back to escape the clamp:**
-- Execute **[[Armbar from Clamp Guard]]** → [[Armbar Control]] (Probability: 60%)
-- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 40%)
+- Execute **[[Transitions/Armbar from Clamp Guard]]** → [[Positions/Armbar Control]] (Probability: 60%)
+- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 40%)
 
 
 **If opponent circles their arm outward trying to slip past the shin-on-bicep pressure:**
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 55%)
-- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
 
 
 **If opponent drives forward into the clamp to close distance and nullify submission angles:**
-- Execute **[[Scissor Sweep]]** → [[Mount]] (Probability: 55%)
-- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 45%)
+- Execute **[[Transitions/Scissor Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 **If opponent posts their free arm on the mat while attempting to extract the trapped arm:**
-- Execute **[[Scissor Sweep]]** → [[Mount]] (Probability: 55%)
-- Execute **[[Armbar from Clamp Guard]]** → [[Armbar Control]] (Probability: 45%)
+- Execute **[[Transitions/Scissor Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Armbar from Clamp Guard]]** → [[Positions/Armbar Control]] (Probability: 45%)
 
 
 
@@ -347,15 +347,15 @@ Focus specifically on sweep opportunities from clamp guard. When partner commits
 
 ## Related Positions and Techniques
 
-- **[[Spider Guard]]** - Related open guard using shin-on-bicep control in different configuration
-- **[[Lasso Guard]]** - Alternative arm entanglement concept from open guard
-- **[[Armbar Control]]** - Primary submission destination from clamp guard armbar entries
-- **[[Triangle Control]]** - High-percentage submission accessible from clamp angle adjustments
-- **[[Omoplata Control]]** - Tertiary submission destination when opponent circles arm outward
-- **[[Open Guard]]** - Parent guard family — clamp guard is an open guard variation
-- **[[Collar Sleeve Guard]]** - Related open guard system that can transition into clamp guard
-- **[[Closed Guard]]** - Alternative guard if opponent closes distance past clamp range
-- **[[Side Control]]** - Position reached if top player successfully extracts and passes
+- **[[Positions/Spider Guard]]** - Related open guard using shin-on-bicep control in different configuration
+- **[[Positions/Lasso Guard]]** - Alternative arm entanglement concept from open guard
+- **[[Positions/Armbar Control]]** - Primary submission destination from clamp guard armbar entries
+- **[[Positions/Triangle Control]]** - High-percentage submission accessible from clamp angle adjustments
+- **[[Positions/Omoplata Control]]** - Tertiary submission destination when opponent circles arm outward
+- **[[Positions/Open Guard]]** - Parent guard family — clamp guard is an open guard variation
+- **[[Positions/Collar Sleeve Guard]]** - Related open guard system that can transition into clamp guard
+- **[[Positions/Closed Guard]]** - Alternative guard if opponent closes distance past clamp range
+- **[[Positions/Side Control]]** - Position reached if top player successfully extracts and passes
 
 
 </section>

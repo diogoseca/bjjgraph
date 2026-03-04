@@ -89,23 +89,23 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 ### Available Transitions
 
 
-- **[[Position reversal sweep to top]]** (22% of attempts)
+- **[[Transitions/Position reversal sweep to top]]** (22% of attempts)
 
-- **[[Counter heel hook]]** (12% of attempts)
+- **[[Transitions/Counter heel hook]]** (12% of attempts)
 
-- **[[50-50 Guard to Single Leg X-Guard]]** (22% of attempts)
+- **[[Transitions/50-50 Guard to Single Leg X-Guard]]** (22% of attempts)
 
-- **[[Extract legs and stand up]]** (23% of attempts)
+- **[[Transitions/Extract legs and stand up]]** (23% of attempts)
 
-- **[[Straight Ankle Lock Entry]]** (4% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry]]** (4% of attempts)
 
-- **[[Kneebar entry]]** (5% of attempts)
+- **[[Transitions/Kneebar entry]]** (5% of attempts)
 
-- **[[Toe Hold]]** (5% of attempts)
+- **[[Transitions/Toe Hold]]** (5% of attempts)
 
-- **[[Counter-entangle to 50-50 Guard]]** (5% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard]]** (5% of attempts)
 
-- **[[Toe Hold from 50-50]]** (2% of attempts)
+- **[[Submissions/Toe Hold from 50-50]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -160,33 +160,33 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 ### Available Transitions
 
 
-- **[[Heel Hook]]** (31% of attempts)
+- **[[Transitions/Heel Hook]]** (31% of attempts)
 
-- **[[Kneebar entry]]** (7% of attempts)
+- **[[Transitions/Kneebar entry]]** (7% of attempts)
 
-- **[[Straight Ankle Lock Entry]]** (2% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry]]** (2% of attempts)
 
-- **[[Calf Slicer]]** (2% of attempts)
+- **[[Transitions/Calf Slicer]]** (2% of attempts)
 
-- **[[Back Take from 50-50]]** (12% of attempts)
+- **[[Transitions/Back Take from 50-50]]** (12% of attempts)
 
-- **[[50-50 Guard to Outside Ashi]]** (6% of attempts)
+- **[[Transitions/50-50 Guard to Outside Ashi]]** (6% of attempts)
 
-- **[[50-50 Guard to Inside Ashi]]** (7% of attempts)
+- **[[Transitions/50-50 Guard to Inside Ashi]]** (7% of attempts)
 
-- **[[Outside Heel Hook]]** (4% of attempts)
+- **[[Transitions/Outside Heel Hook]]** (4% of attempts)
 
-- **[[50-50 Pass]]** (8% of attempts)
+- **[[Transitions/50-50 Pass]]** (8% of attempts)
 
-- **[[Toe Hold]]** (3% of attempts)
+- **[[Transitions/Toe Hold]]** (3% of attempts)
 
-- **[[Saddle Entry from Top]]** (9% of attempts)
+- **[[Transitions/Saddle Entry from Top]]** (9% of attempts)
 
-- **[[50-50 Guard to Backside 50-50]]** (5% of attempts)
+- **[[Transitions/50-50 Guard to Backside 50-50]]** (5% of attempts)
 
-- **[[Calf Slicer from 50-50]]** (2% of attempts)
+- **[[Submissions/Calf Slicer from 50-50]]** (2% of attempts)
 
-- **[[Kneebar from 50-50]]** (2% of attempts)
+- **[[Submissions/Kneebar from 50-50]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -221,21 +221,21 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 ## Related Positions
 
 
-- **[[Honey Hole]]** - Primary advancement target from 50-50 offering superior control and submission opportunities
+- **[[Positions/Ashi Garami/Honey Hole]]** - Primary advancement target from 50-50 offering superior control and submission opportunities
 
-- **[[Backside 50-50]]** - Strategic variation when standard 50-50 is stalemated
+- **[[Positions/Ashi Garami/Backside 50-50]]** - Strategic variation when standard 50-50 is stalemated
 
-- **[[Inside Ashi-Garami]]** - Related leg entanglement with similar mechanics and submission chains
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Related leg entanglement with similar mechanics and submission chains
 
-- **[[Outside Ashi-Garami]]** - Alternative leg entanglement for different angles and heel exposure
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Alternative leg entanglement for different angles and heel exposure
 
-- **[[X-Guard]]** - Sweeping alternative when leg attacks aren't available
+- **[[Positions/X-Guard]]** - Sweeping alternative when leg attacks aren't available
 
-- **[[Single Leg X-Guard]]** - Transition option for sweeping or off-balancing
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Transition option for sweeping or off-balancing
 
-- **[[Leg Entanglement]]** - Fundamental concept governing 50-50 mechanics
+- **[[Positions/Leg Entanglement]]** - Fundamental concept governing 50-50 mechanics
 
-- **[[Open Guard]]** - Parent category containing 50-50 as specialized guard variation
+- **[[Positions/Open Guard]]** - Parent category containing 50-50 as specialized guard variation
 
 
 </section>

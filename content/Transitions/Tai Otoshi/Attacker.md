@@ -180,7 +180,7 @@ description: "How to execute Tai Otoshi in BJJ. Attacking perspective with setup
 
 Tai Otoshi, meaning 'body drop' in Japanese, is a fundamental judo throw that has been seamlessly integrated into modern Brazilian Jiu-Jitsu as a high-percentage standing technique. This throw exemplifies the principle of maximum efficiency with minimum effort, using timing, off-balancing, and mechanical advantage to project an opponent to the mat. Unlike many judo throws that rely heavily on hip positioning, Tai Otoshi uses the practitioner's leg as a blocking point while pulling the opponent forward and downward in a circular motion. The technique is particularly effective in no-gi grappling due to its reliance on body mechanics rather than gi grips, though traditional sleeve and lapel controls make it even more powerful in the gi. When executed correctly, Tai Otoshi allows a smaller practitioner to throw a significantly larger opponent by exploiting their forward momentum and breaking their base at precisely the right moment. The throw creates immediate scoring opportunities in competition and transitions naturally into dominant positions such as side control, knee on belly, or back control, making it a complete technique that bridges the standing and ground phases of combat.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ Tai Otoshi, meaning 'body drop' in Japanese, is a fundamental judo throw that ha
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Failure | [[Standing Position]] | 20% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Side Control]] | 70% |
+| Failure | [[Positions/Standing Position]] | 20% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -245,11 +245,11 @@ Tai Otoshi, meaning 'body drop' in Japanese, is a fundamental judo throw that ha
 
 ## Opponent Counters
 
-- **Opponent pulls back and circles away when feeling the forward pull, maintaining upright base** (Effectiveness: High) - Your Response: Switch to opposite direction attack such as Kouchi Gari or Osoto Gari using their backward momentum, or chain into different forward throw like Seoi Nage if they reset their weight forward → Leads to [[Standing Position]]
-- **Opponent sprawls heavily and drops their hips backward when you step in, preventing the blocking leg from being effective** (Effectiveness: Medium) - Your Response: Immediately transition to single leg takedown by dropping to your right knee and securing the near leg they've weighted, or convert to front headlock position if they oversprawl → Leads to [[Standing Position]]
-- **Opponent hops forward over your blocking leg, maintaining their base and potentially reversing position** (Effectiveness: Medium) - Your Response: If they clear your leg, immediately sit to guard and establish collar tie and wrist control, or use their forward momentum to pull guard with hooks established → Leads to [[Standing Position]]
-- **Opponent breaks your grips before you can establish proper kuzushi, preventing control needed for throw** (Effectiveness: High) - Your Response: Re-establish grips immediately using opposite hand configuration, or switch to underhook/overhook battle and work different takedown system like body lock throws → Leads to [[Standing Position]]
-- **Opponent stiff-arms and maintains distance, preventing you from getting close enough for the throw entry** (Effectiveness: Medium) - Your Response: Use ankle picks or foot sweeps to close distance, or fake shot to double leg to get them to drop their hands and create closer range engagement → Leads to [[Standing Position]]
+- **Opponent pulls back and circles away when feeling the forward pull, maintaining upright base** (Effectiveness: High) - Your Response: Switch to opposite direction attack such as Kouchi Gari or Osoto Gari using their backward momentum, or chain into different forward throw like Seoi Nage if they reset their weight forward → Leads to [[Positions/Standing Position]]
+- **Opponent sprawls heavily and drops their hips backward when you step in, preventing the blocking leg from being effective** (Effectiveness: Medium) - Your Response: Immediately transition to single leg takedown by dropping to your right knee and securing the near leg they've weighted, or convert to front headlock position if they oversprawl → Leads to [[Positions/Standing Position]]
+- **Opponent hops forward over your blocking leg, maintaining their base and potentially reversing position** (Effectiveness: Medium) - Your Response: If they clear your leg, immediately sit to guard and establish collar tie and wrist control, or use their forward momentum to pull guard with hooks established → Leads to [[Positions/Standing Position]]
+- **Opponent breaks your grips before you can establish proper kuzushi, preventing control needed for throw** (Effectiveness: High) - Your Response: Re-establish grips immediately using opposite hand configuration, or switch to underhook/overhook battle and work different takedown system like body lock throws → Leads to [[Positions/Standing Position]]
+- **Opponent stiff-arms and maintains distance, preventing you from getting close enough for the throw entry** (Effectiveness: Medium) - Your Response: Use ankle picks or foot sweeps to close distance, or fake shot to double leg to get them to drop their hands and create closer range engagement → Leads to [[Positions/Standing Position]]
 
 
 </section>

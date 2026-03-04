@@ -154,7 +154,7 @@ description: "How to prevent the Hitchhiker Escape from your armbar in BJJ. Reco
 
 Defending against the Hitchhiker Escape means you are the person holding the armbar and your opponent is attempting to rotate out using the thumb-out hitchhiker motion. Your goal is to maintain finishing position and prevent the rotational escape that would allow your opponent to recover guard or turtle. The Hitchhiker Escape exploits gaps in shoulder control and relies on your inability to track the rotation, so your defense centers on anticipating the thumb rotation, securing control above the elbow, and adjusting your hip pressure and leg position to follow the escaping movement. Understanding this escape from the defender's perspective is essential because the hitchhiker is one of the most common high-level armbar defenses. If you cannot shut down the rotation, technically proficient opponents will escape your armbar consistently. The key defensive principle is maintaining multi-point control - wrist plus shoulder - rather than relying solely on wrist isolation, which the rotation is specifically designed to defeat.
 
-**Opponent's Starting Position**: [[Armbar Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Armbar Control]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against the Hitchhiker Escape means you are the person holding the arm
 ### 1. Secure shoulder control by gripping above the elbow with your near hand while maintaining wrist control with the far hand, then extend hips explosively
 
 - **When to use**: As soon as you recognize the thumb rotation beginning - this is the highest-percentage counter and must be executed before the rotation gains momentum
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: Opponent's rotation is blocked because you control both the wrist and the shoulder, eliminating the angle change that makes the escape work. You can then finish the armbar with full extension.
 - **Risk**: If your shoulder grip is shallow or your timing is late, opponent may complete the rotation and you lose the armbar entirely
 
 ### 2. Follow the rotation by turning your body in the same direction as opponent's escape, maintaining your hip-to-shoulder connection and transitioning to belly-down armbar
 
 - **When to use**: When the rotation has already begun and you cannot prevent it - rather than fighting the rotation, follow it and adjust your finishing angle to a belly-down position
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: You maintain the armbar from a belly-down position, which can actually be a stronger finishing angle. The opponent's escape attempt transitions you into a more dominant armbar variant.
 - **Risk**: If you lose wrist control during the transition, opponent completes the escape to turtle or half guard
 
 ### 3. Release the armbar and transition to triangle by swinging your leg over opponent's head as they rotate, using their turning motion to facilitate the triangle lock
 
 - **When to use**: When the rotation is well-established and the armbar finish is compromised - opponent's turning motion actually exposes their neck for triangle entry
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: You catch opponent in a triangle choke as they rotate, converting their escape attempt into a worse position for them
 - **Risk**: If triangle entry is mistimed, opponent completes the escape to half guard or turtle with no submission threat remaining
 
 ### 4. Drive the leg across opponent's face downward while pinching knees together and extending hips to finish before the rotation can develop
 
 - **When to use**: At the earliest recognition of the hitchhiker motion - this preemptive finish attempts to complete the armbar before the escape mechanics can take effect
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: The armbar finishes before the escape develops, forcing a tap or creating enough pressure that the rotation cannot overcome the extension
 - **Risk**: If opponent has already rotated significantly, the finishing pressure may be insufficient and you exhaust energy on a failed attempt
 
@@ -225,11 +225,11 @@ Defending against the Hitchhiker Escape means you are the person holding the arm
 
 ## Best-Case Outcomes for Defender
 
-### → [[Armbar Control]]
+### → [[Positions/Armbar Control]]
 
 Prevent the rotation by establishing dual control on wrist and shoulder before the escape develops. Pin opponent's elbow to your chest, squeeze knees tight, and extend hips decisively. The key is responding to the very first sign of thumb rotation rather than waiting for the full escape to develop.
 
-### → [[Triangle Control]]
+### → [[Positions/Triangle Control]]
 
 If the hitchhiker rotation is well-established and the armbar is compromised, capitalize on opponent's turning motion by swinging your far leg over their head to establish triangle control. Their rotation actually makes the triangle entry easier because their head and arm are separated by their own turning movement.
 

@@ -180,7 +180,7 @@ description: "Master the attacking mechanics of the Ten Finger Guillotine Variat
 
 The Ten Finger Guillotine Variation from the attacker's perspective requires precise grip mechanics, positional stability, and timing. The attacker must manage the inherent risk of releasing an established grip to reconfigure into the interlaced ten-finger position, balancing the potential for a higher-percentage finish against the vulnerability created during transition. Successful execution demands that the attacker maintain constant hip pressure and head control throughout the grip change, using body weight and sprawl to compensate for the momentary loss of hand control. The ten finger grip, once locked, provides exceptional squeezing power and durability—the interlaced structure strengthens under load and resists hand-fighting attempts, making it a powerful finishing tool when properly applied from top guillotine control.
 
-**From Position**: [[Guillotine Control]] (Top)
+**From Position**: [[Positions/Guillotine Control]] (Top)
 
 </section>
 
@@ -232,8 +232,8 @@ The Ten Finger Guillotine Variation from the attacker's perspective requires pre
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Guillotine Control]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Guillotine Control]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ The Ten Finger Guillotine Variation from the attacker's perspective requires pre
 
 ## Opponent Counters
 
-- **Opponent postures up explosively during the grip transition window** (Effectiveness: High) - Your Response: Abort the grip change and re-establish your previous grip immediately. If they create significant posture, follow their movement and drive them back down with hip pressure before reattempting. Speed of grip transition is critical to closing this window. → Leads to [[Closed Guard]]
-- **Opponent hand fights vigorously to prevent finger interlace or separate locked fingers** (Effectiveness: Medium) - Your Response: Complete the interlace as rapidly as possible and tighten against your chest before they can separate your hands. If they successfully prevent the lock, return to your original grip configuration rather than fighting for a compromised interlace. → Leads to [[Guillotine Control]]
-- **Opponent tucks chin deeply to block trachea access and reduce choking surface area** (Effectiveness: Medium) - Your Response: The ten finger grip can still apply significant compression even against a chin tuck because the cage structure wraps around the entire neck circumference. Drive your forearm blade behind the chin crease and increase back arch to compress the carotid arteries rather than the trachea. → Leads to [[Guillotine Control]]
-- **Opponent turns shoulder into you and drives forward to relieve angle of choking pressure** (Effectiveness: Low) - Your Response: Follow their rotation with hip adjustment and use their forward drive against them by pulling the ten finger grip tighter as they compress into you. Their turn may also expose them to anaconda or darce transitions if the guillotine grip is compromised. → Leads to [[Guillotine Control]]
+- **Opponent postures up explosively during the grip transition window** (Effectiveness: High) - Your Response: Abort the grip change and re-establish your previous grip immediately. If they create significant posture, follow their movement and drive them back down with hip pressure before reattempting. Speed of grip transition is critical to closing this window. → Leads to [[Positions/Closed Guard]]
+- **Opponent hand fights vigorously to prevent finger interlace or separate locked fingers** (Effectiveness: Medium) - Your Response: Complete the interlace as rapidly as possible and tighten against your chest before they can separate your hands. If they successfully prevent the lock, return to your original grip configuration rather than fighting for a compromised interlace. → Leads to [[Positions/Guillotine Control]]
+- **Opponent tucks chin deeply to block trachea access and reduce choking surface area** (Effectiveness: Medium) - Your Response: The ten finger grip can still apply significant compression even against a chin tuck because the cage structure wraps around the entire neck circumference. Drive your forearm blade behind the chin crease and increase back arch to compress the carotid arteries rather than the trachea. → Leads to [[Positions/Guillotine Control]]
+- **Opponent turns shoulder into you and drives forward to relieve angle of choking pressure** (Effectiveness: Low) - Your Response: Follow their rotation with hip adjustment and use their forward drive against them by pulling the ten finger grip tighter as they compress into you. Their turn may also expose them to anaconda or darce transitions if the guillotine grip is compromised. → Leads to [[Positions/Guillotine Control]]
 
 
 </section>

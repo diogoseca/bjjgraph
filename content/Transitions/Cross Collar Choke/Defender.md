@@ -164,7 +164,7 @@ The critical defensive window exists during the transition between the first and
 
 From a positional standpoint, successful defense against the Cross Collar Choke often involves accepting the lesser evil of returning to high mount without the choke threat rather than attempting a full positional escape during the choke defense. Stripping one grip and resetting the attacker's sequence buys time and forces them to restart, while bridge-based escapes during grip transitions can recover closed guard entirely. Understanding that the choke defense and positional escape are separate objectives that should be prioritized sequentially—first neutralize the choke, then work the escape—prevents the common error of attempting both simultaneously and failing at both.
 
-**Opponent's Starting Position**: [[High Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/High Mount]] (Top)
 
 </section>
 
@@ -202,35 +202,35 @@ From a positional standpoint, successful defense against the Cross Collar Choke 
 ### 1. Two-on-one grip strip on the first choking hand before the second grip is established
 
 - **When to use**: Immediately upon recognizing the first collar grip insertion—before the attacker clears your hands or pins your arm for the second grip
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Resets the attacker's grip sequence, forcing them to restart the choke setup from scratch while you maintain defensive posture
 - **Risk**: Both your hands committed to one arm leaves the other arm free—if the attacker abandons the choke and transitions to armbar on your extended arm, you may be caught in a worse position
 
 ### 2. Explosive bridge toward the side of the first gripping arm during the transition to second grip
 
 - **When to use**: When the attacker shifts weight forward and releases head control to insert the second collar grip, creating a momentary base vulnerability
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Bridge disrupts mount entirely, allowing hip escape to recover closed guard or half guard and fully neutralize the choke threat
 - **Risk**: If the bridge is weak or poorly timed, the attacker rides it out and now has positional advantage with one grip already deep, accelerating the choke completion
 
 ### 3. Chin-to-chest posture with hands protecting the collar line to deny grip depth
 
 - **When to use**: Preventatively from the moment high mount is established, before any choke attempt begins—this is a continuous defensive posture rather than a reactive escape
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Denies the attacker deep collar access, forcing shallow grips that lack finishing power and buying time for positional escape attempts
 - **Risk**: Purely defensive posture without escape attempts allows the attacker to methodically work around your chin tuck using cross-face or collar manipulation
 
 ### 4. Frame on the attacker's hips and shrimp away during their grip-fighting sequence to create distance
 
 - **When to use**: When the attacker's hands are both occupied with collar grips or grip fighting, momentarily reducing their ability to control your hip movement
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Creates enough distance to recover guard by inserting a knee or recovering to half guard, completely removing the choke threat
 - **Risk**: Extending arms to frame on hips exposes them to armbar attacks if the attacker recognizes the opportunity and abandons the choke
 
 ### 5. Trap the attacker's first gripping arm against your chest and immediately bridge to roll
 
 - **When to use**: When you can clamp the attacker's wrist or forearm against your chest before they establish elbow control on your head, trapping their arm in a committed position
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: The trapped arm prevents the attacker from posting to defend the bridge, significantly increasing reversal probability and recovering guard
 - **Risk**: If the clamp is loose, the attacker extracts their arm during the bridge and re-establishes the choke with improved positioning
 
@@ -242,11 +242,11 @@ From a positional standpoint, successful defense against the Cross Collar Choke 
 
 ## Best-Case Outcomes for Defender
 
-### → [[High Mount]]
+### → [[Positions/Mount/High Mount]]
 
 Strip the first collar grip using two-on-one grip fighting before the second grip is established, then immediately return to defensive posture with chin tucked and elbows tight. This resets the attacker's sequence without risking positional change, allowing you to defend from the same position without the active choke threat.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time an explosive bridge during the attacker's transition between first and second grip, when their weight shifts forward and their posting hand is occupied with collar insertion. Bridge toward the side of the first gripping arm, trap their foot with your heel, and follow through with a full hip escape to recover closed guard. This is the highest-value defensive outcome as it both neutralizes the choke and improves your positional standing.
 

@@ -180,7 +180,7 @@ description: "Execute the Matrix to Side Control transition as the top player. T
 
 The Matrix to Side Control transition from the attacker's perspective involves capitalizing on a successfully defended Matrix back take attempt to advance from a neutral top position to dominant side control. The attacker has already accomplished the defensive task of blocking the bottom player's rotation—now the challenge shifts to converting that defensive success into offensive positional advancement before the opponent can reset. This requires a systematic approach: first neutralize remaining grips, then drive the opponent flat using crossface and chest pressure, control the hips to prevent guard recovery, and finally settle into stable side control. The transition demands the ability to shift seamlessly from the wide, reactive base used in Matrix defense to the tight, pressure-focused positioning required for side control establishment.
 
-**From Position**: [[Matrix]] (Top)
+**From Position**: [[Positions/Matrix]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The Matrix to Side Control transition from the attacker's perspective involves c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Matrix]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Matrix]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Matrix to Side Control transition from the attacker's perspective involves c
 
 ## Opponent Counters
 
-- **Opponent re-initiates Matrix rotation before crossface is established** (Effectiveness: High) - Your Response: Immediately return to wide defensive base, re-block the rotation, and restart the consolidation sequence once the secondary attempt is fully neutralized → Leads to [[Matrix]]
-- **Opponent inserts knee shield to prevent side control consolidation** (Effectiveness: Medium) - Your Response: Use smash pass mechanics to collapse the knee shield before it is fully established, or switch to a knee slice passing angle that bypasses the shield → Leads to [[Matrix]]
-- **Opponent frames with both arms and shrimps to create distance for guard recovery** (Effectiveness: Medium) - Your Response: Increase chest pressure and close the distance before the frames are fully extended, targeting the far hip with your near hand to prevent the shrimp from creating enough space for knee insertion → Leads to [[Matrix]]
-- **Opponent uses scramble momentum from blocked rotation to execute a reversal sweep** (Effectiveness: Low) - Your Response: Post your far hand immediately when you feel the sweep attempt loading, widen your base to absorb the momentum, and drive back into the opponent to re-establish top pressure → Leads to [[Half Guard]]
+- **Opponent re-initiates Matrix rotation before crossface is established** (Effectiveness: High) - Your Response: Immediately return to wide defensive base, re-block the rotation, and restart the consolidation sequence once the secondary attempt is fully neutralized → Leads to [[Positions/Matrix]]
+- **Opponent inserts knee shield to prevent side control consolidation** (Effectiveness: Medium) - Your Response: Use smash pass mechanics to collapse the knee shield before it is fully established, or switch to a knee slice passing angle that bypasses the shield → Leads to [[Positions/Matrix]]
+- **Opponent frames with both arms and shrimps to create distance for guard recovery** (Effectiveness: Medium) - Your Response: Increase chest pressure and close the distance before the frames are fully extended, targeting the far hip with your near hand to prevent the shrimp from creating enough space for knee insertion → Leads to [[Positions/Matrix]]
+- **Opponent uses scramble momentum from blocked rotation to execute a reversal sweep** (Effectiveness: Low) - Your Response: Post your far hand immediately when you feel the sweep attempt loading, widen your base to absorb the momentum, and drive back into the opponent to re-establish top pressure → Leads to [[Positions/Half Guard]]
 
 
 </section>

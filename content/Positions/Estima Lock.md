@@ -93,21 +93,21 @@ From the top attacking perspective, the position offers significant control adva
 ### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** (23% of attempts)
+- **[[Transitions/Ashi Garami Escape]]** (23% of attempts)
 
-- **[[Leg Extraction]]** (38% of attempts)
+- **[[Transitions/Leg Extraction]]** (38% of attempts)
 
-- **[[Counter Sweep]]** (3% of attempts)
+- **[[Transitions/Counter Sweep]]** (3% of attempts)
 
-- **[[Angle Change Escape]]** (13% of attempts)
+- **[[Transitions/Angle Change Escape]]** (13% of attempts)
 
-- **[[Standing Escape]]** (13% of attempts)
+- **[[Transitions/Standing Escape]]** (13% of attempts)
 
-- **[[50-50 Entry]]** (8% of attempts)
+- **[[Transitions/50-50 Entry]]** (8% of attempts)
 
-- **[[Estima Lock Counter Roll]]** (1% of attempts)
+- **[[Transitions/Estima Lock Counter Roll]]** (1% of attempts)
 
-- **[[Counter from Estima Lock]]** (1% of attempts)
+- **[[Transitions/Counter from Estima Lock]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -168,21 +168,21 @@ From the top attacking perspective, the position offers significant control adva
 ### Available Transitions
 
 
-- **[[Estima Lock]]** (35% of attempts)
+- **[[Positions/Estima Lock]]** (35% of attempts)
 
-- **[[Toe Hold]]** (18% of attempts)
+- **[[Transitions/Toe Hold]]** (18% of attempts)
 
-- **[[Estima Lock to Saddle]]** (13% of attempts)
+- **[[Transitions/Estima Lock to Saddle]]** (13% of attempts)
 
-- **[[Kneebar]]** (8% of attempts)
+- **[[Transitions/Kneebar]]** (8% of attempts)
 
-- **[[Estima Lock to Ashi Garami]]** (18% of attempts)
+- **[[Transitions/Estima Lock to Ashi Garami]]** (18% of attempts)
 
-- **[[Kneebar from Estima Lock]]** (4% of attempts)
+- **[[Transitions/Kneebar from Estima Lock]]** (4% of attempts)
 
-- **[[Toe Hold from Estima Lock]]** (2% of attempts)
+- **[[Transitions/Toe Hold from Estima Lock]]** (2% of attempts)
 
-- **[[Estima Lock Finish]]** (2% of attempts)
+- **[[Submissions/Estima Lock Finish]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -221,25 +221,25 @@ From the top attacking perspective, the position offers significant control adva
 ## Related Positions
 
 
-- **[[Ashi Garami]]** - Parent leg entanglement category with similar control principles and transition pathways
+- **[[Positions/Ashi Garami]]** - Parent leg entanglement category with similar control principles and transition pathways
 
-- **[[50-50 Guard]]** - Common entry position where Estima Lock opportunities frequently develop during exchanges
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Common entry position where Estima Lock opportunities frequently develop during exchanges
 
-- **[[Single Leg X-Guard]]** - Related guard position offering direct transitions to Estima Lock control
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Related guard position offering direct transitions to Estima Lock control
 
-- **[[Outside Ashi-Garami]]** - Similar leg entanglement position with overlapping control mechanics and submission chains
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Similar leg entanglement position with overlapping control mechanics and submission chains
 
-- **[[Inside Ashi-Garami]]** - Alternative ashi configuration offering heel hook transitions from Estima Lock position
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Alternative ashi configuration offering heel hook transitions from Estima Lock position
 
-- **[[Saddle]]** - Advanced leg entanglement target position accessible through Estima Lock transitions
+- **[[Positions/Ashi Garami/Saddle]]** - Advanced leg entanglement target position accessible through Estima Lock transitions
 
-- **[[Kneebar Control]]** - Related leg attack position with natural transitions from Estima Lock grip changes
+- **[[Positions/Kneebar Control]]** - Related leg attack position with natural transitions from Estima Lock grip changes
 
-- **[[Leg Entanglement]]** - Broader positional category encompassing this specific entanglement variant
+- **[[Positions/Leg Entanglement]]** - Broader positional category encompassing this specific entanglement variant
 
-- **[[Open Guard]]** - Recovery target position when successfully escaping Estima Lock entanglement
+- **[[Positions/Open Guard]]** - Recovery target position when successfully escaping Estima Lock entanglement
 
-- **[[Turtle]]** - Transitional position that can lead to leg entanglement scenarios including Estima Lock setups
+- **[[Positions/Turtle]]** - Transitional position that can lead to leg entanglement scenarios including Estima Lock setups
 
 
 </section>

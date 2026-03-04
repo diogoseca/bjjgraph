@@ -21,7 +21,7 @@ Kouchi Gari works exceptionally well as part of combination attacks, often setti
 
 From a biomechanical perspective, the technique succeeds because the upper body controls generate approximately 70% of the throwing force through push-pull kuzushi, while the reaping leg simply removes the final support from an already compromised base. Practitioners who understand this principle achieve dramatically higher success rates than those who focus primarily on the leg action.
 
-**From Position**: [[Clinch]] (Top)
+**From Position**: [[Positions/Clinch]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ From a biomechanical perspective, the technique succeeds because the upper body 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Clinch]] | 25% |
-| Counter | [[Clinch]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Clinch]] | 25% |
+| Counter | [[Positions/Clinch]] | 10% |
 
 
 </section>
@@ -187,25 +187,25 @@ Kouchi Gari serves as a critical bridge between standing and ground positions in
 ## Related Techniques
 
 
-- [[Osoto Gari]] - Primary follow-up technique when Kouchi Gari is defended by stepping back
+- [[Transitions/Osoto Gari]] - Primary follow-up technique when Kouchi Gari is defended by stepping back
 
-- [[Ouchi Gari]] - Related inner reaping technique targeting the thigh for a larger, more powerful variation
+- [[Transitions/Ouchi Gari]] - Related inner reaping technique targeting the thigh for a larger, more powerful variation
 
-- [[Kosoto Gari]] - Small outer reap mirror technique attacking the outside leg
+- [[Transitions/Kosoto Gari]] - Small outer reap mirror technique attacking the outside leg
 
-- [[Deashi Harai]] - Chain technique when opponent hops or steps laterally to defend Kouchi Gari
+- [[Transitions/Deashi Harai]] - Chain technique when opponent hops or steps laterally to defend Kouchi Gari
 
-- [[Uchi Mata]] - Alternative attack when opponent widens stance to neutralize inside reap
+- [[Transitions/Uchi Mata]] - Alternative attack when opponent widens stance to neutralize inside reap
 
-- [[Front Headlock]] - Transition position if opponent sprawls forward on Kouchi Gari attempt
+- [[Positions/Front Headlock]] - Transition position if opponent sprawls forward on Kouchi Gari attempt
 
-- [[Side Control]] - Primary finishing position after successful execution
+- [[Positions/Side Control]] - Primary finishing position after successful execution
 
-- [[Clinch]] - Starting position where grips and off-balancing opportunities are created
+- [[Positions/Clinch]] - Starting position where grips and off-balancing opportunities are created
 
-- [[Knee on Belly]] - Alternative finishing position for immediate pressure after the takedown
+- [[Positions/Knee on Belly]] - Alternative finishing position for immediate pressure after the takedown
 
-- [[Snap Down to Front Headlock]] - Alternative when opponent resists backward off-balancing by posturing up
+- [[Transitions/Snap Down to Front Headlock]] - Alternative when opponent resists backward off-balancing by posturing up
 
 
 </section>

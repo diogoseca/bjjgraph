@@ -148,7 +148,7 @@ description: "Learn to defend and escape the Gift Wrap RNC in BJJ. Recognition c
 
 Defending the Gift Wrap RNC is one of the most challenging defensive tasks in Brazilian Jiu-Jitsu because your primary defensive tool - two-handed grip fighting - has been cut in half. With one arm trapped across your body by the Gift Wrap, you must protect your neck, fight the choking arm, and work toward escape using only your free hand and hip movement. The key insight for defense is that you cannot win by passively defending the choke alone. You must simultaneously defend the immediate choke threat while actively working to recover the trapped arm, because defending with one hand is a losing proposition over time. Every second the Gift Wrap remains intact, the attacker's finishing probability increases.
 
-**Opponent's Starting Position**: [[Gift Wrap]] (Top)
+**Opponent's Starting Position**: [[Positions/Gift Wrap]] (Top)
 
 
 </section>
@@ -188,28 +188,28 @@ Defending the Gift Wrap RNC is one of the most challenging defensive tasks in Br
 ### 1. Single-hand grip fight on the choking wrist to prevent the forearm from getting beneath the chin
 
 - **When to use**: As soon as you feel the attacker's choking arm begin moving toward your neck - this is your primary defensive response
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Prevents the choke from being set and buys time to work on arm recovery from the gift wrap
 - **Risk**: Using your only free hand for wrist control leaves you unable to create frames for positional escape simultaneously
 
 ### 2. Aggressive chin tuck with shoulder shrug to block forearm entry beneath the jawline
 
 - **When to use**: When the choking arm is approaching your chin line and you need a secondary barrier beyond hand fighting
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Creates a structural barrier that the attacker must work around, delaying the choke and creating time for hip movement
 - **Risk**: Chin tuck alone is insufficient against skilled attackers who use angle changes and head pressure to bypass it
 
 ### 3. Hip escape and shoulder rotation to recover the trapped arm from the Gift Wrap
 
 - **When to use**: When the attacker is between submission attempts or adjusting their position, creating a brief window where control loosens
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Recovers the trapped arm, restoring two-handed defense and converting the position to standard back control which is significantly more survivable
 - **Risk**: The rotation required for arm recovery may momentarily reduce your neck defense, creating a choke window
 
 ### 4. Explosive bridge timed with hip escape to create distance and disrupt the attacker's control structure
 
 - **When to use**: When the attacker commits to the choke and loosens their hook pressure or body position during the finishing attempt
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Creates enough space to begin turning toward the attacker or strip a hook, leading to improved defensive position
 - **Risk**: Failed bridge attempts waste energy rapidly and may open the neck during the bridge's upward phase
 
@@ -231,7 +231,7 @@ Defending the Gift Wrap RNC is one of the most challenging defensive tasks in Br
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Strip the Gift Wrap arm trap through hip movement and shoulder rotation during a window when the attacker transitions between control and attack. Recovering the trapped arm converts the position to standard back control where two-handed defense is available, dramatically improving survival probability.
 

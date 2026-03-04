@@ -21,7 +21,7 @@ The technique works by exploiting the brief window when the top player establish
 
 Strategically, this transition is invaluable against dedicated lockdown players who build their entire bottom game around the 10th Planet half guard system. Instead of fighting the lockdown on its own terms, the Z-Lock transition sidesteps the problem entirely, converting the position into a pressure passing platform with high advancement probability. The technique requires patience and proper sequencing - rushing the knee across without first suppressing upper body attacks leads to sweep vulnerabilities during the transition window.
 
-**From Position**: [[Lockdown]] (Top)
+**From Position**: [[Positions/Half Guard/Lockdown]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition is invaluable against dedicated lockdown players 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Z-Lock Half Guard]] | 60% |
-| Failure | [[Lockdown]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard/Z-Lock Half Guard]] | 60% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,27 +195,27 @@ The Transition to Z-Lock Half Guard serves as a critical link between the vulner
 ## Related Techniques
 
 
-- [[Lockdown]] - Starting position - the trapped lockdown configuration this transition escapes
+- [[Positions/Half Guard/Lockdown]] - Starting position - the trapped lockdown configuration this transition escapes
 
-- [[Z-Lock Half Guard]] - Target position - the dominant control established upon successful transition
+- [[Positions/Half Guard/Z-Lock Half Guard]] - Target position - the dominant control established upon successful transition
 
-- [[Half Guard]] - Parent position category containing both lockdown and Z-Lock variations
+- [[Positions/Half Guard]] - Parent position category containing both lockdown and Z-Lock variations
 
-- [[Knee Shield Half Guard]] - Alternative half guard top structure the opponent may attempt during transition
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative half guard top structure the opponent may attempt during transition
 
-- [[Half Guard Pass]] - Follow-up technique chain available after Z-Lock establishment
+- [[Transitions/Half Guard Pass]] - Follow-up technique chain available after Z-Lock establishment
 
-- [[Knee Slice from Half]] - Primary passing option available from successful Z-Lock position
+- [[Transitions/Knee Slice from Half]] - Primary passing option available from successful Z-Lock position
 
-- [[Smash Pass]] - High-pressure passing option from Z-Lock Half Guard top
+- [[Transitions/Smash Pass]] - High-pressure passing option from Z-Lock Half Guard top
 
-- [[Lockdown Break and Pass]] - Alternative approach to escaping lockdown via direct leg extraction
+- [[Transitions/Lockdown Break and Pass]] - Alternative approach to escaping lockdown via direct leg extraction
 
-- [[Deep Half Guard]] - Position opponent may transition to if Z-Lock entry is mistimed
+- [[Positions/Half Guard/Deep Half Guard]] - Position opponent may transition to if Z-Lock entry is mistimed
 
-- [[Electric Chair]] - Submission threat from lockdown that this transition preempts
+- [[Positions/Half Guard/Electric Chair]] - Submission threat from lockdown that this transition preempts
 
-- [[Crossface Pass]] - Complementary passing technique using the same upper body pressure principles
+- [[Transitions/Crossface Pass]] - Complementary passing technique using the same upper body pressure principles
 
 
 </section>

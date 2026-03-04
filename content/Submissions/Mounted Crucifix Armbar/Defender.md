@@ -156,7 +156,7 @@ description: "Defend the Mounted Crucifix Armbar in BJJ. Recognition cues, hand 
 
 Defending the Mounted Crucifix Armbar presents unique challenges because your normal armbar defense—clasping hands, turning into the attacker, and creating frames—is severely compromised by the arm-trapping crucifix control. Your defensive priorities must shift to preventing full arm extension through elbow positioning and whatever hand clasp defense remains available, while simultaneously looking for opportunities to disrupt the attacker's hip pivot and bridge to escape the crucifix during the armbar transition. Early recognition of the armbar setup is critical because the finishing window from mounted crucifix is significantly shorter than from standard mount, and your ability to tap may be compromised by the arm traps. The moment you recognize the wrist grip and hip shift, you must act decisively—waiting until the arm is extended leaves you with no viable defensive options.
 
-**Opponent's Starting Position**: [[Mounted Crucifix]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
 
 
 </section>
@@ -194,28 +194,28 @@ Defending the Mounted Crucifix Armbar presents unique challenges because your no
 ### 1. Bend elbow and clasp hands to prevent arm extension
 
 - **When to use**: The moment you feel wrist control being established, before the attacker begins the hip pivot
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: Prevents the armbar finish and forces the attacker to address your grip before continuing, buying time and potentially causing them to abandon the armbar
 - **Risk**: Hand clasp from crucifix is weaker than normal because your arms are partially trapped—the attacker may be able to break the grip with sustained pressure
 
 ### 2. Bridge explosively toward the attacker during hip pivot transition
 
 - **When to use**: When the attacker shifts weight laterally for the hip pivot, creating momentary imbalance in their mount base
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Disrupts the armbar sequence and may break the crucifix leg control, returning to standard mount where you have more defensive options
 - **Risk**: If mistimed, the bridge may actually accelerate the arm extension by creating space the attacker uses to complete the pivot
 
 ### 3. Turn toward the attacker and tuck elbow tight against your body
 
 - **When to use**: When the attacker has wrist control but has not yet completed the hip pivot to perpendicular angle
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Closes the armbar angle and may disrupt the crucifix control enough to free your arm, returning to standard mount
 - **Risk**: Turning exposes your back and may enable the attacker to transition to back control if the crucifix is abandoned
 
 ### 4. Strip wrist grip by rotating forearm and pulling sharply
 
 - **When to use**: Immediately when wrist grip is first established, before the attacker settles the grip securely
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: Removes the wrist control necessary for the armbar, forcing the attacker to re-establish grip before continuing the submission attempt
 - **Risk**: The stripping motion may extend your arm further if unsuccessful, actually accelerating the armbar setup
 
@@ -238,7 +238,7 @@ Defending the Mounted Crucifix Armbar presents unique challenges because your no
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Time an explosive bridge precisely during the attacker's hip pivot transition when their weight shifts laterally and crucifix control is most vulnerable, disrupting the armbar sequence and breaking the arm trap to return to standard mount
 

@@ -212,23 +212,23 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 
 ## Available Escapes
 
-### [[Technical Stand-up]] (19% of attempts)
+### [[Transitions/Technical Stand-up]] (19% of attempts)
 
-### [[Granby Roll to Guard]] (11% of attempts)
+### [[Transitions/Granby Roll to Guard]] (11% of attempts)
 
-### [[Turtle to Guard]] (13% of attempts)
+### [[Transitions/Turtle to Guard]] (13% of attempts)
 
-### [[Stand and Circle Away]] (15% of attempts)
+### [[Transitions/Stand and Circle Away]] (15% of attempts)
 
-### [[Roll Through to Reversal]] (13% of attempts)
+### [[Transitions/Roll Through to Reversal]] (13% of attempts)
 
-### [[Arm Drag Escape]] (9% of attempts)
+### [[Transitions/Arm Drag Escape]] (9% of attempts)
 
-### [[Guillotine Defense]] (9% of attempts)
+### [[Transitions/Guillotine Defense]] (9% of attempts)
 
-### [[Sit Through to Guard]] (7% of attempts)
+### [[Transitions/Sit Through to Guard]] (7% of attempts)
 
-### [[Hip Escape from Front Headlock]] (4% of attempts)
+### [[Transitions/Hip Escape from Front Headlock]] (4% of attempts)
 
 
 
@@ -239,23 +239,23 @@ Successful front headlock bottom defense requires remaining calm under pressure.
 ## Decision Making from This Position
 
 **If opponent has guillotine grip with hands locked and is pulling up on neck:**
-- Execute **[[Guillotine Defense - Chin Tuck and Arm Control]]** → [[Front Headlock]] (Probability: 60%)
-- Execute **[[Forward Roll Escape]]** → [[Turtle]] (Probability: 30%)
+- Execute **[[Guillotine Defense - Chin Tuck and Arm Control]]** → [[Positions/Front Headlock]] (Probability: 60%)
+- Execute **[[Forward Roll Escape]]** → [[Positions/Turtle]] (Probability: 30%)
 
 
 **If opponent has arm-in control (one of your arms trapped with their grip) indicating anaconda or darce setup:**
-- Execute **[[Circle Away from Trapped Arm Side]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Roll Through to Guard]]** → [[Closed Guard]] (Probability: 35%)
+- Execute **[[Circle Away from Trapped Arm Side]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Roll Through to Guard]]** → [[Positions/Closed Guard]] (Probability: 35%)
 
 
 **If opponent's weight is high and forward, attempting to flatten you to mat:**
-- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 55%)
-- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 55%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
 
 
 **If opponent extends their hips back in sprawl position while maintaining head control:**
-- Execute **[[Circle to Side and Recover Guard]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Drive Forward and Stand]]** → [[Standing Position]] (Probability: 35%)
+- Execute **[[Circle to Side and Recover Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Drive Forward and Stand]]** → [[Positions/Standing Position]] (Probability: 35%)
 
 
 
@@ -389,13 +389,13 @@ Partner establishes front headlock and announces which submission they'll attemp
 
 ## Related Positions and Techniques
 
-- **[[Turtle]]** - Primary entry position - front headlock typically attacks turtle, requires similar defensive principles
-- **[[Guillotine Defense]]** - Specific submission defense transition essential for surviving front headlock position
-- **[[Technical Stand-up]]** - Primary escape method - standing removes most submission threats from front headlock
-- **[[Granby Roll to Guard]]** - Alternative escape method - rolling through front headlock to recover guard
-- **[[Half Guard]]** - Common recovery position after successful escape from front headlock
-- **[[Closed Guard]]** - Ideal recovery position if escape creates opportunity for full guard
-- **[[Back Control]]** - Position to prevent - front headlock often transitions to back if defense fails
+- **[[Positions/Turtle]]** - Primary entry position - front headlock typically attacks turtle, requires similar defensive principles
+- **[[Transitions/Guillotine Defense]]** - Specific submission defense transition essential for surviving front headlock position
+- **[[Transitions/Technical Stand-up]]** - Primary escape method - standing removes most submission threats from front headlock
+- **[[Transitions/Granby Roll to Guard]]** - Alternative escape method - rolling through front headlock to recover guard
+- **[[Positions/Half Guard]]** - Common recovery position after successful escape from front headlock
+- **[[Positions/Closed Guard]]** - Ideal recovery position if escape creates opportunity for full guard
+- **[[Positions/Back Control]]** - Position to prevent - front headlock often transitions to back if defense fails
 
 
 </section>

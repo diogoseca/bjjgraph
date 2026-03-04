@@ -21,7 +21,7 @@ Strategically, the standing arm drag occupies a unique position in the grappling
 
 The arm drag also functions as a gateway technique that integrates into broader standing strategies. It pairs naturally with collar ties, Russian ties, and single leg entries, creating chains of attacks where defending one threat opens vulnerability to another. Advanced practitioners use the arm drag threat to set up other attacks, making it as valuable as a feint as it is as a direct technique.
 
-**From Position**: [[Standing Position]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The arm drag also functions as a gateway technique that integrates into broader 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Rear Clinch]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Standing Rear Clinch]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The arm drag from standing integrates into the BJJ system as a primary standing-
 ## Related Techniques
 
 
-- [[Standing Position]] - Source position where the arm drag is initiated from neutral standing engagement
+- [[Positions/Standing Position]] - Source position where the arm drag is initiated from neutral standing engagement
 
-- [[Standing Rear Clinch]] - Primary destination position on successful arm drag execution
+- [[Positions/Standing Rear Clinch]] - Primary destination position on successful arm drag execution
 
-- [[Open Guard]] - Counter destination when opponent pulls guard during the drag attempt
+- [[Positions/Open Guard]] - Counter destination when opponent pulls guard during the drag attempt
 
-- [[Arm Drag]] - General arm drag concept applicable across multiple positions
+- [[Transitions/Arm Drag]] - General arm drag concept applicable across multiple positions
 
-- [[Arm Drag to Back]] - Related back-taking technique using arm drag mechanics from various positions
+- [[Transitions/Arm Drag to Back]] - Related back-taking technique using arm drag mechanics from various positions
 
-- [[Arm Drag from Clinch]] - Related arm drag variant executed from clinch engagement range
+- [[Transitions/Arm Drag from Clinch]] - Related arm drag variant executed from clinch engagement range
 
-- [[Back Control]] - Ultimate positional goal after securing standing rear clinch from the drag
+- [[Positions/Back Control]] - Ultimate positional goal after securing standing rear clinch from the drag
 
-- [[Clinch]] - Related standing control position that creates arm drag opportunities
+- [[Positions/Clinch]] - Related standing control position that creates arm drag opportunities
 
-- [[Single Leg Entry]] - Complementary standing attack that chains with arm drag threats
+- [[Transitions/Single Leg Entry]] - Complementary standing attack that chains with arm drag threats
 
-- [[Ankle Pick]] - Chain attack option when arm drag is defended and opponent retracts
+- [[Transitions/Ankle Pick]] - Chain attack option when arm drag is defended and opponent retracts
 
-- [[Body Lock Takedown]] - Alternative takedown from similar standing range and grip configuration
+- [[Transitions/Body Lock Takedown]] - Alternative takedown from similar standing range and grip configuration
 
-- [[Snap Down to Front Headlock]] - Chain attack from collar tie setup that complements arm drag threat
+- [[Transitions/Snap Down to Front Headlock]] - Chain attack from collar tie setup that complements arm drag threat
 
 
 </section>

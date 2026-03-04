@@ -158,7 +158,7 @@ Defending the Rolling Armbar requires early recognition and immediate reaction b
 
 The defender must understand that the rolling armbar attack typically emerges from guard positions or scrambles when the attacker senses forward commitment or a momentary lapse in elbow discipline. Recognizing the grip pattern and initial angle creation gives you the critical seconds needed to either deny the setup entirely, interrupt the rolling motion mid-technique, or escape the finishing position before extension is applied. Each phase of the attack presents different defensive priorities: during setup, focus on grip denial and posture; during the roll, focus on following the rotation and preventing arm isolation; during the finish, focus on hitchhiker escape mechanics and stacking counter-pressure.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 
 </section>
@@ -195,28 +195,28 @@ The defender must understand that the rolling armbar attack typically emerges fr
 ### 1. Strip the two-on-one grip immediately by circling your elbow out and retracting your arm to your hip
 
 - **When to use**: During the initial setup phase when opponent first secures the two-on-one grip but before the angle is fully created
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Returns to neutral guard position with no submission threat, allowing you to resume passing or maintain position
 - **Risk**: Low risk if executed early; if opponent has deep control, attempting to rip the arm free can compromise your posture
 
 ### 2. Drive forward and stack the attacker as they begin the rolling motion, pinning their shoulders to the mat with your weight
 
 - **When to use**: During the rolling phase when the attacker has initiated rotation but has not completed the full roll
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Kills the rolling momentum and returns the attacker to their back, often with compromised guard allowing you to begin passing
 - **Risk**: Medium risk - if you drive forward without controlling the leg over your shoulder, you may feed deeper into the armbar
 
 ### 3. Turn into the attacker and follow the roll direction, keeping your elbow bent and arm close to your body throughout
 
 - **When to use**: When the roll is already in motion and stacking is no longer viable due to the attacker's rotational momentum
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You end up in top position as the roll completes, potentially achieving side control or at minimum a scramble position
 - **Risk**: Medium risk - requires precise timing and if you turn too late, you end up in the finishing position with arm partially extended
 
 ### 4. Hitchhiker escape by rotating your thumb away from your body and turning belly-down while stepping over the attacker's head
 
 - **When to use**: When the roll is complete and the attacker has established the finishing position but has not yet fully extended your arm
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Relieves elbow pressure and allows you to extract your arm, recovering to top position or neutral scramble
 - **Risk**: High risk if arm is already near full extension - the rotation must happen before the breaking point is reached or serious injury results
 
@@ -239,11 +239,11 @@ The defender must understand that the rolling armbar attack typically emerges fr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Deny the arm isolation early by stripping the two-on-one grip and retracting your elbow to your hip, or stack the attacker during the rolling motion to kill their momentum and return to neutral guard engagement
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Follow the attacker's rotation by turning with the roll direction while keeping your arm bent and tight, using the completed rotation to end up in top position with the attacker on their back
 

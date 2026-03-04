@@ -154,7 +154,7 @@ description: "Defend against the Mount to Technical Mount transition in BJJ. Lea
 
 Defending the Mount to Technical Mount transition requires recognizing the attacker's intention before the position is fully established. Once technical mount is consolidated, defensive options narrow dramatically due to the asymmetric control and immediate submission threats. The defender's primary strategy is prevention—using frames, hip movement, and timing to disrupt the transition during the brief window when the attacker shifts their weight and posts the leg. If prevention fails, the defender must immediately prioritize arm protection and initiate escape sequences before the attacker consolidates control and begins submission attacks. Understanding the mechanics of the transition from the attacker's perspective is essential for recognizing the setup cues and timing defensive responses effectively.
 
-**Opponent's Starting Position**: [[Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the Mount to Technical Mount transition requires recognizing the attac
 ### 1. Frame on hip and hip escape during leg post
 
 - **When to use**: During the attacker's weight shift before the hook is inserted, when you feel one knee lifting and pressure shifting to one side
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard by inserting your knee between your bodies during the transition window, preventing technical mount establishment
 - **Risk**: If the attacker reads your hip escape and follows with immediate pressure, you may end up flattened in half guard bottom rather than active half guard
 
 ### 2. Block the hook insertion by clamping knees together
 
 - **When to use**: When the attacker's far leg has posted but the near-side hook has not yet been inserted under your body
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: The attacker cannot complete technical mount and must return to standard mount or attempt the transition again from scratch
 - **Risk**: Focusing only on blocking the hook may leave your arms exposed if the attacker adjusts to attack the arm directly from the partially posted position
 
 ### 3. Bridge toward the posted leg during transition
 
 - **When to use**: Immediately when you feel the attacker's far leg posting out, before the position consolidates and their base stabilizes
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: The bridge disrupts the attacker's base on the posted leg side, forcing them to abandon the transition and re-settle in standard mount
 - **Risk**: If poorly timed, the bridge may actually accelerate the transition by creating more space for hook insertion underneath your body
 
 ### 4. Explosive hip escape to turtle
 
 - **When to use**: When technical mount is partially established but the attacker has not yet secured arm control for submissions
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You escape to turtle position and can work to recover guard or stand up, avoiding the submission threats of technical mount entirely
 - **Risk**: Turning to turtle from technical mount exposes your back to control and may result in the attacker taking full back control with hooks
 
@@ -226,7 +226,7 @@ Defending the Mount to Technical Mount transition requires recognizing the attac
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a hip escape during the attacker's weight shift, inserting your knee between your bodies as they post the far leg. The brief instability during the leg posting creates the best window for guard recovery. Frame on the attacker's hip with your near-side forearm to create space while shrimping your hips away from them.
 

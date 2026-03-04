@@ -21,7 +21,7 @@ The finish requires precise control of three mechanical elements: the arm weave 
 
 Strategically, the Baratoplata serves as the terminal attack in a chain that typically begins from Mission Control or Meathook positions. When opponents successfully defend Gogoplata and Triangle attempts, their defensive arm positioning often creates the ideal setup for the Baratoplata. This makes the technique a natural counter to intelligent guard defense, punishing the very movements that escape other rubber guard attacks. The technique rewards patience and positional understanding over explosiveness, making it accessible to practitioners who prioritize control-based finishing.
 
-**From Position**: [[Omoplata Control]] (Top)
+**From Position**: [[Positions/Omoplata Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -33,8 +33,8 @@ Strategically, the Baratoplata serves as the terminal attack in a chain that typ
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Omoplata Control]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Omoplata Control]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Baratoplata represents the terminal attack in the 10th Planet rubber guard s
 ## Related Techniques
 
 
-- [[Omoplata Control]] - Starting control position for finish
+- [[Positions/Omoplata Control]] - Starting control position for finish
 
-- [[Baratoplata Setup]] - Setup transition that establishes control
+- [[Transitions/Baratoplata Setup]] - Setup transition that establishes control
 
-- [[Meathook]] - Rubber guard position initiating attack chain
+- [[Positions/Rubber Guard/Meathook]] - Rubber guard position initiating attack chain
 
-- [[Mission Control]] - Initial rubber guard control enabling path to finish
+- [[Positions/Rubber Guard/Mission Control]] - Initial rubber guard control enabling path to finish
 
-- [[Gogoplata]] - Alternative rubber guard submission from same positions
+- [[Transitions/Gogoplata]] - Alternative rubber guard submission from same positions
 
-- [[Triangle from Closed Guard]] - Alternative attack when opponent defends Baratoplata angle
+- [[Submissions/Triangle from Closed Guard]] - Alternative attack when opponent defends Baratoplata angle
 
-- [[Armbar from Guard]] - Transition option when opponent straightens arm
+- [[Submissions/Armbar from Guard]] - Transition option when opponent straightens arm
 
-- [[Back Control]] - Position accessible when opponent rolls forward during defense
+- [[Positions/Back Control]] - Position accessible when opponent rolls forward during defense
 
-- [[Omoplata]] - Related shoulder submission sharing control mechanics
+- [[Transitions/Omoplata]] - Related shoulder submission sharing control mechanics
 
-- [[Closed Guard]] - Foundation position from which rubber guard develops
+- [[Positions/Closed Guard]] - Foundation position from which rubber guard develops
 
-- [[Baratoplata]] - Related submission entry in submissions catalog
+- [[Transitions/Baratoplata]] - Related submission entry in submissions catalog
 
 
 </section>

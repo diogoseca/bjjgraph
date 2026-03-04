@@ -21,7 +21,7 @@ Strategically, the Triangle from Back is a high-level chain attack that punishes
 
 The Triangle from Back serves as a critical branch in the back attack decision tree. When opponents develop strong rear naked choke defense, this option forces them to choose between defending the choke and exposing the triangle entry, creating the kind of offensive dilemma that elite back attackers rely on to finish matches.
 
-**From Position**: [[Harness]] (Top)
+**From Position**: [[Positions/Harness]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The Triangle from Back serves as a critical branch in the back attack decision t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Rear Triangle]] | 55% |
-| Failure | [[Harness]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Triangle Control/Rear Triangle]] | 55% |
+| Failure | [[Positions/Harness]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Triangle from Back occupies a critical branch point in the back attack decis
 ## Related Techniques
 
 
-- [[Harness]] - Starting position - seat belt back control from which the triangle is initiated
+- [[Positions/Harness]] - Starting position - seat belt back control from which the triangle is initiated
 
-- [[Rear Triangle]] - Target position - the control position established upon successful execution
+- [[Positions/Triangle Control/Rear Triangle]] - Target position - the control position established upon successful execution
 
-- [[Rear Naked Choke]] - Primary chain partner - choke threat that forces the defensive reaction opening the triangle
+- [[Transitions/Rear Naked Choke]] - Primary chain partner - choke threat that forces the defensive reaction opening the triangle
 
-- [[Back Control]] - Parent positional category from which harness and triangle attacks operate
+- [[Positions/Back Control]] - Parent positional category from which harness and triangle attacks operate
 
-- [[Armbar from Back]] - Alternative submission path when triangle entry is blocked
+- [[Submissions/Armbar from Back]] - Alternative submission path when triangle entry is blocked
 
-- [[Triangle Choke Back]] - Related technique - alternative triangle entry from body triangle control
+- [[Submissions/Triangle Choke Back]] - Related technique - alternative triangle entry from body triangle control
 
-- [[Body Triangle]] - Related control - alternative leg configuration that can transition to triangle
+- [[Positions/Back Control/Body Triangle]] - Related control - alternative leg configuration that can transition to triangle
 
-- [[Crucifix]] - Alternative advancement when opponent defends both choke and triangle
+- [[Positions/Crucifix]] - Alternative advancement when opponent defends both choke and triangle
 
-- [[Gift Wrap]] - Alternative control path from back when arm control is established
+- [[Positions/Gift Wrap]] - Alternative control path from back when arm control is established
 
-- [[Half Guard]] - Counter outcome position - where defender may end up after successful escape during transition
+- [[Positions/Half Guard]] - Counter outcome position - where defender may end up after successful escape during transition
 
 
 </section>

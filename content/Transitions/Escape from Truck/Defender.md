@@ -156,7 +156,7 @@ As the defender resisting the Escape from Truck, you are the truck top player wo
 
 Your defensive strategy centers on maintaining the integrity of your control layers and punishing escape attempts with submission threats or positional advancement. When the bottom player begins fighting your boot, increase pressure and attack. When they begin extracting their leg, threaten the calf slicer. When they attempt the granby roll, follow the rotation and transition to back control. Every escape attempt creates vulnerability that you can exploit if you recognize the movement early and respond with the appropriate counter.
 
-**Opponent's Starting Position**: [[Truck]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Twister Control/Truck]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ Your defensive strategy centers on maintaining the integrity of your control lay
 ### 1. Increase boot pressure and flatten bottom player with chest weight
 
 - **When to use**: When you recognize the bottom player beginning to fight your boot or elevating their hips for escape preparation
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: Bottom player is driven flat, boot pressure is re-consolidated, and their escape attempt is shut down before it develops
 - **Risk**: Over-committing chest pressure forward can create space for granby roll if boot pressure slips during weight shift
 
 ### 2. Transition to back control by inserting hooks during escape movement
 
 - **When to use**: When the bottom player has begun their escape roll or hip escape and maintaining truck control is becoming compromised
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You maintain dominant back position with hooks and seatbelt, scoring 4 points and retaining submission threats
 - **Risk**: If hooks are not secured quickly during transition, the bottom player may complete their escape to guard or top position
 
 ### 3. Attack calf slicer on the trapped leg when bottom player begins leg extraction
 
 - **When to use**: When the bottom player begins circling their ankle or extending their trapped leg to create extraction space
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: Bottom player must abandon leg extraction to defend the submission, resetting the escape sequence and burning their energy
 - **Risk**: Committing to the calf slicer shifts your weight and may loosen upper body control, creating an escape window
 
 ### 4. Follow the granby roll rotation and maintain back exposure for back control entry
 
 - **When to use**: When the bottom player commits to the granby roll and begins rotating through the escape
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You flow with their rotation, insert hooks during the roll, and establish back control as they complete the movement
 - **Risk**: If you fail to maintain chest-to-back connection during the roll, the bottom player may scramble free to guard or top position
 
@@ -226,11 +226,11 @@ Your defensive strategy centers on maintaining the integrity of your control lay
 
 ## Best-Case Outcomes for Defender
 
-### → [[Truck]]
+### → [[Positions/Twister Control/Truck]]
 
 Maintain boot pressure and leg entanglement by recognizing escape attempts early and increasing control before the escape develops momentum. Counter hand fighting on the boot by driving boot deeper and adding chest pressure to flatten the bottom player.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When truck maintenance becomes untenable due to successful boot clearing or leg extraction, immediately transition to back control by inserting hooks and establishing seatbelt grip during the escape movement. Follow the bottom player's granby roll rotation to maintain back exposure and convert to standard back control.
 

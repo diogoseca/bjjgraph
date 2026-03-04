@@ -186,7 +186,7 @@ description: "Learn to execute the Rolling Escape from Anaconda as the trapped p
 
 As the practitioner caught in anaconda control, the rolling escape represents your primary explosive option when the choke is partially established but not yet finished. This technique leverages momentum and body displacement rather than direct grip fighting to create the space needed to escape. Your objective is to time an explosive roll toward your trapped arm side during a window when the opponent's weight is transitioning, creating slack in the choking loop that allows arm extraction and recovery to turtle position. Success requires reading the opponent's pressure patterns, committing fully to the roll without hesitation, and immediately establishing a defensive structure after the roll completes. The rolling escape is most effective when initial grip fighting has softened the opponent's control, creating the conditions for the explosive escape to succeed.
 
-**From Position**: [[Anaconda Control]] (Bottom)
+**From Position**: [[Positions/Anaconda Control]] (Bottom)
 
 </section>
 
@@ -241,9 +241,9 @@ As the practitioner caught in anaconda control, the rolling escape represents yo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 50% |
-| Failure | [[Anaconda Control]] | 30% |
-| Counter | [[Dead Orchard Control]] | 20% |
+| Success | [[Positions/Turtle]] | 50% |
+| Failure | [[Positions/Anaconda Control]] | 30% |
+| Counter | [[Positions/Dead Orchard Control]] | 20% |
 
 
 </section>
@@ -252,10 +252,10 @@ As the practitioner caught in anaconda control, the rolling escape represents yo
 
 ## Opponent Counters
 
-- **Opponent follows the roll maintaining tight grip and chest pressure throughout the rotation** (Effectiveness: High) - Your Response: Roll faster with more explosive commitment, or immediately chain a directional change upon landing to disrupt their following momentum before they can re-settle → Leads to [[Anaconda Control]]
-- **Opponent steps over your head during the roll attempt to transition into dead orchard finishing position** (Effectiveness: High) - Your Response: Post your free hand on their hip or thigh to block the step-over before it completes, or redirect your roll underneath their leg to deny the finishing angle → Leads to [[Dead Orchard Control]]
-- **Opponent drives heavy chest pressure to flatten you and prevent roll initiation entirely** (Effectiveness: Medium) - Your Response: Use their forward pressure to load your escape by pushing off the mat in the opposite direction, converting their downward drive into rotational energy for the roll → Leads to [[Anaconda Control]]
-- **Opponent releases anaconda grip during the roll and transitions to back control or harness** (Effectiveness: Medium) - Your Response: Immediately transition from roll escape to turtle defense by establishing tight elbows-to-knees structure and begin hand fighting to prevent hook insertion → Leads to [[Turtle]]
+- **Opponent follows the roll maintaining tight grip and chest pressure throughout the rotation** (Effectiveness: High) - Your Response: Roll faster with more explosive commitment, or immediately chain a directional change upon landing to disrupt their following momentum before they can re-settle → Leads to [[Positions/Anaconda Control]]
+- **Opponent steps over your head during the roll attempt to transition into dead orchard finishing position** (Effectiveness: High) - Your Response: Post your free hand on their hip or thigh to block the step-over before it completes, or redirect your roll underneath their leg to deny the finishing angle → Leads to [[Positions/Dead Orchard Control]]
+- **Opponent drives heavy chest pressure to flatten you and prevent roll initiation entirely** (Effectiveness: Medium) - Your Response: Use their forward pressure to load your escape by pushing off the mat in the opposite direction, converting their downward drive into rotational energy for the roll → Leads to [[Positions/Anaconda Control]]
+- **Opponent releases anaconda grip during the roll and transitions to back control or harness** (Effectiveness: Medium) - Your Response: Immediately transition from roll escape to turtle defense by establishing tight elbows-to-knees structure and begin hand fighting to prevent hook insertion → Leads to [[Positions/Turtle]]
 
 
 </section>

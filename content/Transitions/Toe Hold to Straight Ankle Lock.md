@@ -21,7 +21,7 @@ The tactical reasoning behind this transition centers on the defender's boot def
 
 The primary risk in this transition lies in the momentary grip release required to switch configurations. During the reconfiguration window, the defender gains a brief opportunity to extract their leg, establish defensive frames, or counter-entangle. Successful execution requires maintaining leg control throughout the grip change, ensuring the defender's leg remains trapped even as the hands release and reconfigure. This demands coordination between upper and lower body control that distinguishes deliberate chain attacking from panicked grip switching.
 
-**From Position**: [[Toe Hold Control]] (Top)
+**From Position**: [[Positions/Toe Hold Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The primary risk in this transition lies in the momentary grip release required 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Straight Ankle Lock Control]] | 55% |
-| Failure | [[Toe Hold Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Straight Ankle Lock Control]] | 55% |
+| Failure | [[Positions/Toe Hold Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,27 +193,27 @@ This transition occupies a critical role in the leg lock chain attack system, co
 ## Related Techniques
 
 
-- [[Toe Hold Control]] - Starting position providing the established control from which grip reconfiguration begins
+- [[Positions/Toe Hold Control]] - Starting position providing the established control from which grip reconfiguration begins
 
-- [[Straight Ankle Lock Control]] - Target position achieved through successful grip switch to Achilles compression configuration
+- [[Positions/Straight Ankle Lock Control]] - Target position achieved through successful grip switch to Achilles compression configuration
 
-- [[Half Guard]] - Counter outcome position when defender successfully extracts leg during grip transition
+- [[Positions/Half Guard]] - Counter outcome position when defender successfully extracts leg during grip transition
 
-- [[Ashi Garami]] - Parent entanglement category governing leg control mechanics throughout the transition
+- [[Positions/Ashi Garami]] - Parent entanglement category governing leg control mechanics throughout the transition
 
-- [[Outside Ashi-Garami]] - Alternative ashi configuration accessible if defender rotates during grip change
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative ashi configuration accessible if defender rotates during grip change
 
-- [[Kneebar Control]] - Alternative attack target when defender straightens leg during grip reconfiguration
+- [[Positions/Kneebar Control]] - Alternative attack target when defender straightens leg during grip reconfiguration
 
-- [[Ankle Lock Finish]] - Follow-up submission finish from the target straight ankle lock control position
+- [[Transitions/Ankle Lock Finish]] - Follow-up submission finish from the target straight ankle lock control position
 
-- [[Toe Hold to Ashi Garami]] - Alternative transition from same starting position toward different leg entanglement
+- [[Transitions/Toe Hold to Ashi Garami]] - Alternative transition from same starting position toward different leg entanglement
 
-- [[Boot Defense from Toe Hold]] - Primary defensive technique that creates the conditions motivating this grip switch
+- [[Transitions/Boot Defense from Toe Hold]] - Primary defensive technique that creates the conditions motivating this grip switch
 
-- [[Ankle Lock Escape to Standing]] - Defender's escape pathway from the target straight ankle lock control position
+- [[Transitions/Ankle Lock Escape to Standing]] - Defender's escape pathway from the target straight ankle lock control position
 
-- [[50-50 Guard]] - Symmetrical entanglement that may result from defender's counter-entanglement during transition
+- [[Positions/Ashi Garami/50-50 Guard]] - Symmetrical entanglement that may result from defender's counter-entanglement during transition
 
 
 </section>

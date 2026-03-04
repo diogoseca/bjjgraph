@@ -93,39 +93,39 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 ### Available Transitions
 
 
-- **[[Butterfly Sweep]]** (42% of attempts)
+- **[[Transitions/Butterfly Sweep]]** (42% of attempts)
 
-- **[[Arm Drag to Back]]** (9% of attempts)
+- **[[Transitions/Arm Drag to Back]]** (9% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** (6% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard]]** (6% of attempts)
 
-- **[[Hook Sweep]]** (5% of attempts)
+- **[[Transitions/Hook Sweep]]** (5% of attempts)
 
-- **[[Elevator Sweep]]** (5% of attempts)
+- **[[Transitions/Elevator Sweep]]** (5% of attempts)
 
-- **[[Guillotine Setup]]** (5% of attempts)
+- **[[Transitions/Guillotine Setup]]** (5% of attempts)
 
-- **[[Deep Half Entry]]** (6% of attempts)
+- **[[Transitions/Deep Half Entry]]** (6% of attempts)
 
-- **[[Single Leg X Entry]]** (5% of attempts)
+- **[[Transitions/Single Leg X Entry]]** (5% of attempts)
 
-- **[[Butterfly Sweep with Guillotine]]** (2% of attempts)
+- **[[Transitions/Butterfly Sweep with Guillotine]]** (2% of attempts)
 
-- **[[Butterfly Hook Recovery]]** (3% of attempts)
+- **[[Transitions/Butterfly Hook Recovery]]** (3% of attempts)
 
-- **[[Kimura Sweep]]** (4% of attempts)
+- **[[Transitions/Kimura Sweep]]** (4% of attempts)
 
-- **[[Collar Drag]]** (1% of attempts)
+- **[[Transitions/Collar Drag]]** (1% of attempts)
 
-- **[[John Wayne Sweep]]** (1% of attempts)
+- **[[Transitions/John Wayne Sweep]]** (1% of attempts)
 
-- **[[Sumi Gaeshi]]** (3% of attempts)
+- **[[Transitions/Sumi Gaeshi]]** (3% of attempts)
 
-- **[[Arm Drag Sweep]]** (2% of attempts)
+- **[[Transitions/Arm Drag Sweep]]** (2% of attempts)
 
-- **[[Butterfly Hook Sweep]]** (0% of attempts)
+- **[[Transitions/Butterfly Hook Sweep]]** (0% of attempts)
 
-- **[[Reguard to Butterfly Guard]]** (1% of attempts)
+- **[[Transitions/Reguard to Butterfly Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -184,33 +184,33 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 ### Available Transitions
 
 
-- **[[Butterfly Pass]]** (10% of attempts)
+- **[[Transitions/Butterfly Pass]]** (10% of attempts)
 
-- **[[Butterfly Smash]]** (34% of attempts)
+- **[[Transitions/Butterfly Smash]]** (34% of attempts)
 
-- **[[Knee Slice Pass]]** (10% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (10% of attempts)
 
-- **[[Standing up in Base]]** (12% of attempts)
+- **[[Transitions/Standing up in Base]]** (12% of attempts)
 
-- **[[Pressure Pass]]** (8% of attempts)
+- **[[Transitions/Pressure Pass]]** (8% of attempts)
 
-- **[[Double Under Pass]]** (4% of attempts)
+- **[[Transitions/Double Under Pass]]** (4% of attempts)
 
-- **[[Leg Weave Pass]]** (4% of attempts)
+- **[[Transitions/Leg Weave Pass]]** (4% of attempts)
 
-- **[[Toreando Pass]]** (2% of attempts)
+- **[[Transitions/Toreando Pass]]** (2% of attempts)
 
-- **[[Back Step Pass]]** (4% of attempts)
+- **[[Transitions/Back Step Pass]]** (4% of attempts)
 
-- **[[Body Lock Pass]]** (4% of attempts)
+- **[[Transitions/Body Lock Pass]]** (4% of attempts)
 
-- **[[Leg Drag Pass]]** (4% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (4% of attempts)
 
-- **[[Over-Under Pass]]** (2% of attempts)
+- **[[Transitions/Over-Under Pass]]** (2% of attempts)
 
-- **[[Pass Butterfly Hook Control]]** (1% of attempts)
+- **[[Transitions/Pass Butterfly Hook Control]]** (1% of attempts)
 
-- **[[Smash from Butterfly Hook Control]]** (1% of attempts)
+- **[[Transitions/Smash from Butterfly Hook Control]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -249,25 +249,25 @@ The position serves as a crucial gateway in modern BJJ, connecting standing posi
 ## Related Positions
 
 
-- **[[Butterfly Guard]]** - Parent position encompassing all butterfly hook variations and applications
+- **[[Positions/Butterfly Guard]]** - Parent position encompassing all butterfly hook variations and applications
 
-- **[[Half Butterfly]]** - Hybrid position combining butterfly hook with half guard control
+- **[[Positions/Butterfly Guard/Half Butterfly]]** - Hybrid position combining butterfly hook with half guard control
 
-- **[[X-Guard]]** - Natural transition target when opponent stands to escape butterfly hooks
+- **[[Positions/X-Guard]]** - Natural transition target when opponent stands to escape butterfly hooks
 
-- **[[Deep Half Guard]]** - Alternative guard option when opponent drives forward to smash hooks
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative guard option when opponent drives forward to smash hooks
 
-- **[[Single Leg X-Guard]]** - Related guard system accessible through butterfly hook transitions
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Related guard system accessible through butterfly hook transitions
 
-- **[[Seated Guard]]** - Similar upright guard posture with different control mechanisms
+- **[[Positions/Seated Guard]]** - Similar upright guard posture with different control mechanisms
 
-- **[[Back Control]]** - High-percentage target position via arm drag from butterfly hooks
+- **[[Positions/Back Control]]** - High-percentage target position via arm drag from butterfly hooks
 
-- **[[Mount]]** - Common result of successful butterfly sweeps
+- **[[Positions/Mount]]** - Common result of successful butterfly sweeps
 
-- **[[Side Control]]** - Alternative sweep target and opponent's passing objective
+- **[[Positions/Side Control]]** - Alternative sweep target and opponent's passing objective
 
-- **[[Combat Base]]** - Standard opponent position when engaging with butterfly hooks
+- **[[Positions/Combat Base]]** - Standard opponent position when engaging with butterfly hooks
 
 
 </section>

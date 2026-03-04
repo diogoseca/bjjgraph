@@ -146,7 +146,7 @@ description: "Comprehensive guide to preventing and countering leg pummeling esc
 
 As the defender against leg pummeling from saddle, you are the practitioner who has established the dominant saddle position and must prevent the opponent from downgrading your control to inside ashi-garami through leg replacement. Your primary objective is to maintain the figure-four or triangle configuration that defines saddle dominance while exploiting the opponent's pummeling movements as opportunities for submission or positional advancement. The defender's role requires constant vigilance for the subtle hip movements and leg insertions that signal pummeling attempts, combined with the tactical discipline to choose between re-locking control, attacking during the transition, or strategically disengaging when the position becomes compromised. Understanding the pummeling mechanics from the defender's perspective enables preemptive adjustments that deny the escape before it gains momentum.
 
-**Opponent's Starting Position**: [[Saddle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against leg pummeling from saddle, you are the practitioner who 
 ### 1. Increase hip pressure and re-lock controlling configuration immediately upon recognizing pummeling attempt
 
 - **When to use**: At the earliest sign of pummeling—when you feel the opponent's free leg moving toward your hooks or their hips shifting to create space
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Opponent remains fully trapped in saddle with their escape attempt neutralized, and the energy expenditure of the failed pummel may create submission opportunities
 - **Risk**: If you commit too much weight forward to re-lock, the opponent may use your momentum for a different escape such as forward roll
 
 ### 2. Attack the heel hook immediately during the transitional instability of the pummeling attempt
 
 - **When to use**: When the opponent has committed their free leg and hands to the pummel, temporarily abandoning heel protection during the insertion attempt
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Opponent must abort the pummel to defend the submission, resetting to a defensive posture in saddle where you maintain control and initiative
 - **Risk**: If the submission attempt fails and you release positional control during the attack, the opponent may complete the pummel while you are recovering from the submission attempt
 
 ### 3. Strategically disengage from the compromised entanglement and transition to a passing position
 
 - **When to use**: When the opponent's pummel has progressed past the point of recovery and your saddle control is irretrievably compromised
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You escape the entanglement entirely and achieve top position in open guard, converting from a deteriorating leg lock position to a passing opportunity
 - **Risk**: If you disengage without securing a passing grip, the opponent may recover guard and you lose your leg attack position entirely
 
 ### 4. Backstep to re-establish saddle from a different angle when the original configuration is partially compromised
 
 - **When to use**: When the opponent has inserted their knee but has not yet fully broken your triangle lock—the partial pummel creates a window for angular adjustment
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: You re-establish saddle control from a new angle that clears the opponent's inserted leg and returns to full figure-four dominance
 - **Risk**: The backstep creates momentary instability that a technically aware opponent can exploit to complete the pummel or transition to a different escape
 
@@ -217,11 +217,11 @@ As the defender against leg pummeling from saddle, you are the practitioner who 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 Maintain heavy hip pressure and immediately re-lock your figure-four or triangle configuration at the first sign of pummeling. Drive your inside controlling leg deeper across the opponent's hip and squeeze your legs together to eliminate the gap needed for insertion. Address their framing hands by stripping grips or pinning their arms before they can wedge your legs apart.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 When saddle control is irretrievably compromised, proactively disengage by extracting your legs while simultaneously establishing upper body controls for guard passing. Push off the opponent's hips as you clear your legs, immediately establish grips on their legs or collar, and transition to a headquarters or combat base position. This is a tactical retreat that preserves top position rather than fighting for a lost entanglement.
 

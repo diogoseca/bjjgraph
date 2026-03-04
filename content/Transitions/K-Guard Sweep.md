@@ -21,7 +21,7 @@ Strategically, the K-Guard Sweep functions as the primary threat that makes the 
 
 The execution demands precise coordination between upper and lower body mechanics. The sweeping motion begins with a loading phase where both hooks create maximum tension, followed by an explosive off-balance combining lateral pull with vertical lift, and concluding with a follow-through where the bottom player comes up to top position. Understanding the complete mechanical chain reaction from hook loading through position consolidation is essential for consistent success against resisting opponents at the purple belt level and above.
 
-**From Position**: [[K-Guard]] (Bottom)
+**From Position**: [[Positions/K-Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The execution demands precise coordination between upper and lower body mechanic
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[K-Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/K-Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The K-Guard Sweep sits at the center of the K-Guard attacking system, serving as
 ## Related Techniques
 
 
-- [[K-Guard]] - Source position from which this sweep is executed
+- [[Positions/K-Guard]] - Source position from which this sweep is executed
 
-- [[Side Control]] - Primary target position achieved on successful sweep completion
+- [[Positions/Side Control]] - Primary target position achieved on successful sweep completion
 
-- [[Open Guard]] - Fallback position when K-Guard structure is disrupted during counter
+- [[Positions/Open Guard]] - Fallback position when K-Guard structure is disrupted during counter
 
-- [[Deep Half Guard]] - Alternative transition target when opponent drives heavy forward pressure against sweep attempt
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition target when opponent drives heavy forward pressure against sweep attempt
 
-- [[Single Leg X-Guard]] - Secondary attack entry when opponent widens base to defend the sweep
+- [[Positions/X-Guard/Single Leg X-Guard]] - Secondary attack entry when opponent widens base to defend the sweep
 
-- [[X-Guard]] - Related sweep position sharing similar hook elevation mechanics
+- [[Positions/X-Guard]] - Related sweep position sharing similar hook elevation mechanics
 
-- [[Back Control]] - High-value follow-up when opponent posts hand to defend the sweep topple
+- [[Positions/Back Control]] - High-value follow-up when opponent posts hand to defend the sweep topple
 
-- [[Butterfly Guard]] - Shares butterfly hook mechanics used in the elevation phase of the sweep
+- [[Positions/Butterfly Guard]] - Shares butterfly hook mechanics used in the elevation phase of the sweep
 
-- [[Backstep from K-Guard]] - Primary defensive counter from top player that neutralizes the sweep threat
+- [[Transitions/Backstep from K-Guard]] - Primary defensive counter from top player that neutralizes the sweep threat
 
-- [[Half Guard]] - Parent guard family sharing trapped leg control concepts
+- [[Positions/Half Guard]] - Parent guard family sharing trapped leg control concepts
 
 
 </section>

@@ -156,7 +156,7 @@ Defending the Ankle Pick Sweep requires understanding the mechanics your opponen
 
 The most critical defensive window is the moment between your opponent establishing their upper body grip and reaching for your ankle. Once both grips are secured and the diagonal pulling motion begins, defensive options narrow significantly. Proactive defenders focus on grip fighting to strip the initial collar or wrist control, maintaining a wide athletic base that keeps ankles out of easy reach, and controlling distance through active footwork that prevents the seated player from establishing their preferred angle. When the sweep is already in motion, immediate weight shifting, hand posting, and base recovery become the primary survival tools.
 
-**Opponent's Starting Position**: [[Seated Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Seated Guard]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The most critical defensive window is the moment between your opponent establish
 ### 1. Strip the upper body grip and circle away to reset distance
 
 - **When to use**: Early in the setup when opponent first establishes collar or wrist grip but has not yet reached for the ankle
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: You reset to neutral standing position with grip advantage, forcing opponent to restart their attack sequence from scratch
 - **Risk**: If you focus too much on grip stripping, opponent may use your momentary distraction to shoot directly for the ankle with both hands
 
 ### 2. Sprawl backward and pull your attacked ankle away while driving your hips down
 
 - **When to use**: When opponent has already gripped your ankle but has not yet completed the diagonal pull on your upper body
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: You extract your ankle from their grip and create distance, returning to standing position with passing initiative intact
 - **Risk**: If opponent maintains ankle grip during your sprawl, they may follow your backward motion and convert to a single leg X-guard entry
 
 ### 3. Post your free hand to the mat and circle toward the sweep direction to recover base
 
 - **When to use**: When the sweep is already in motion and you are losing balance - this is a last-resort defense
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: You prevent the full sweep by establishing a temporary tripod base, allowing you to reset your feet and recover standing position
 - **Risk**: The posted hand is vulnerable to kimura attacks or arm drags, and your momentary three-point stance compromises your passing position
 
 ### 4. Drive forward aggressively into the seated player to smother the sweep and establish top pressure
 
 - **When to use**: When you recognize the ankle pick setup early and choose to close distance rather than create distance
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You collapse the distance needed for the sweep and establish a smash passing position or chest-to-chest control
 - **Risk**: If your timing is off, your forward momentum can be redirected by the seated player into a butterfly sweep or other close-range sweep
 
@@ -227,11 +227,11 @@ The most critical defensive window is the moment between your opponent establish
 
 ## Best-Case Outcomes for Defender
 
-### → [[Seated Guard]]
+### → [[Positions/Seated Guard]]
 
 Strip the upper body grip early by two-on-one breaking the collar or wrist control, then immediately circle away to reset distance. Alternatively, sprawl aggressively when the ankle is grabbed, pulling your heel free while driving hips low to the mat, then recover standing posture with active footwork before opponent can re-engage.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the sweep is partially successful and you are falling, immediately hook one of the opponent's legs between yours as you go down to retain half guard rather than conceding full top position. Turn onto your side, establish knee shield, and begin working standard half guard bottom defensive sequences to recover position.
 

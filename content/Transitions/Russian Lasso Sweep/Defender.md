@@ -154,7 +154,7 @@ description: "Complete defensive guide against the Russian Lasso Sweep. Learn re
 
 Defending the Russian Lasso Sweep requires early recognition of the setup conditions and systematic prevention of the mechanical advantages that make the sweep possible. The defender—the top player caught in the Russian Leg Lasso—must maintain upright posture with hips back, aggressively fight to prevent or break the collar grip that provides directional control, and position their base wide enough to resist the rotational forces the sweep generates. Understanding the fulcrum principle behind the sweep allows intelligent defenders to position themselves where the lasso's mechanical advantage is neutralized rather than trying to muscle through the sweep once it is loaded. Prevention is far more energy-efficient than recovery—once the sweeper has broken your posture and loaded all three control points, the sweep becomes extremely difficult to stop through strength alone.
 
-**Opponent's Starting Position**: [[Russian Leg Lasso]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Lasso Guard/Russian Leg Lasso]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Russian Lasso Sweep requires early recognition of the setup condit
 ### 1. Post free hand on the mat on the sweep side to create a structural block against the rotation
 
 - **When to use**: The moment you feel the rotational pull initiating and your base beginning to shift—post immediately rather than trying to recover posture
-- **Targets**: [[Russian Leg Lasso]]
+- **Targets**: [[Positions/Lasso Guard/Russian Leg Lasso]]
 - **If successful**: Sweep rotation is physically blocked, allowing you to resettle your base and return to passing position with the lasso still in place
 - **Risk**: Extended posting arm may be attacked with omoplata or armbar if you post too far from your body or keep the arm extended
 
 ### 2. Sprawl hips back and drive weight downward to counter the forward pull and eliminate lasso leverage
 
 - **When to use**: When you feel the collar grip pulling your posture forward before the sweep is fully loaded—this is a preventive measure rather than a reaction
-- **Targets**: [[Russian Leg Lasso]]
+- **Targets**: [[Positions/Lasso Guard/Russian Leg Lasso]]
 - **If successful**: Your posture is maintained and the lasso fulcrum is neutralized by removing the forward weight that powers it
 - **Risk**: If you sprawl too aggressively, the opponent may redirect to an overhead sweep that exploits your backward weight commitment
 
 ### 3. Strip the collar grip using a two-on-one grip break to remove the directional control powering the sweep
 
 - **When to use**: During the grip fighting phase before the sweep is fully loaded—prioritize this when you feel the opponent beginning to pull posture down
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Without the collar grip, the sweep loses directional control and force generation, and the Russian Leg Lasso is degraded toward basic open guard
 - **Risk**: Momentary loss of base during the grip break may open a window for the sweep or alternative attacks
 
 ### 4. Circle laterally away from the sweep direction to change the angle and neutralize rotational mechanics
 
 - **When to use**: When you recognize the sweep angle and have time to adjust before the sweeper commits to the rotation
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Lateral movement makes the lasso configuration mechanically disadvantaged and may strip the lasso entirely
 - **Risk**: Circling may expose your back or create angles for alternative sweep directions or back take entries
 
@@ -225,11 +225,11 @@ Defending the Russian Lasso Sweep requires early recognition of the setup condit
 
 ## Best-Case Outcomes for Defender
 
-### → [[Russian Leg Lasso]]
+### → [[Positions/Lasso Guard/Russian Leg Lasso]]
 
 Maintain upright posture with hips back, aggressively strip or prevent the collar grip, and keep a wide stable base that absorbs rotational forces. Post immediately when rotation begins rather than fighting the sweep force directly.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip the collar grip and extract arm from the lasso during the defensive sequence by creating angles that make the lasso untenable. Circle away from the lasso side to degrade the opponent's guard to basic open guard without the mechanical advantages of the Russian Leg Lasso configuration.
 

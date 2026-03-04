@@ -154,7 +154,7 @@ description: "Learn to defend the backstep to reverse half guard from back contr
 
 As the defender, you are in the process of escaping back control when your opponent converts the deteriorating back position into reverse half guard top via a backstep. This transition catches you mid-escape, potentially leaving you in a worse passing situation than if you had remained patient in back control defense. Understanding the recognition cues for this transition allows you to either prevent it entirely by completing your escape faster, or immediately address the reverse half guard position before your opponent can consolidate and begin passing. The critical window for defense is the moment between the backstep initiation and the opponent settling their weight in reverse half guard, during which your defensive options are most effective.
 
-**Opponent's Starting Position**: [[Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender, you are in the process of escaping back control when your oppon
 ### 1. Accelerate rotation to face opponent before backstep completes
 
 - **When to use**: As soon as you recognize the backstep initiation, before the opponent's leg threads between yours
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You end up in standard half guard where you have established defensive frames and sweep options rather than the compromised reverse half guard position
 - **Risk**: If you rotate too aggressively, you may expose your back again, allowing the opponent to abandon the backstep and re-take back control
 
 ### 2. Knee shield insertion to block the backstep leg
 
 - **When to use**: When you feel the opponent's leg beginning to thread between yours during the backstep
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The knee shield prevents deep leg entanglement and creates the frame needed to recover standard half guard or open guard
 - **Risk**: If the opponent's leg is already past your knee line, the shield cannot be inserted and you may end up in a compromised position with limited mobility
 
 ### 3. Hip escape away to create separation before weight settles
 
 - **When to use**: During the transitional moment when the opponent is mid-backstep and their weight is shifting between positions
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough distance to recover full guard or at minimum establish standard half guard with proper frames
 - **Risk**: If your timing is late and the opponent has already settled their weight, the shrimp is ineffective and wastes energy without improving position
 
 ### 4. Catch opponent's backstep leg in deep half guard
 
 - **When to use**: When the opponent's backstep leg threads between yours and you can trap it underneath your body
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You convert their backstep attempt into deep half guard bottom, a position with strong sweep options and favorable mechanics
 - **Risk**: Requires precise timing and body positioning; if the opponent reads the deep half entry, they can adjust their backstep to avoid the trap
 
@@ -225,7 +225,7 @@ As the defender, you are in the process of escaping back control when your oppon
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Complete your shoulder rotation to face the opponent before the backstep leg threads between your legs. Use frames against their shoulder and hip to maintain facing position. Insert knee shield immediately upon facing them to establish standard half guard defensive structure with sweep and re-guard options.
 

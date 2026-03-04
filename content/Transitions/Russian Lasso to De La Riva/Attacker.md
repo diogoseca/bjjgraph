@@ -180,7 +180,7 @@ description: "Learn to execute the Russian Lasso to De La Riva transition. Detai
 
 Executing the Russian Lasso to De La Riva transition requires precise coordination of grip management, leg extraction, and hip repositioning. The attacker must maintain at least one controlling grip throughout the transition to prevent the opponent from advancing during the vulnerable leg repositioning phase. Success depends on reading the correct timing window, typically when the opponent commits to a specific lasso defense that leaves their lead leg exposed for the De La Riva hook. The transition is most effective when initiated proactively as part of a guard flow system rather than as a desperate reaction to losing the lasso position. Skilled practitioners disguise the transition within their normal guard movement patterns, making it difficult for the top player to anticipate and counter the guard switch before the DLR hook is fully established.
 
-**From Position**: [[Russian Leg Lasso]] (Bottom)
+**From Position**: [[Positions/Lasso Guard/Russian Leg Lasso]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Russian Lasso to De La Riva transition requires precise coordinati
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[De La Riva Guard]] | 55% |
-| Failure | [[Russian Leg Lasso]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/De La Riva Guard]] | 55% |
+| Failure | [[Positions/Lasso Guard/Russian Leg Lasso]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Russian Lasso to De La Riva transition requires precise coordinati
 
 ## Opponent Counters
 
-- **Opponent backsteps during the lasso leg extraction to create distance and prevent DLR hook establishment** (Effectiveness: High) - Your Response: Anticipate the backstep by maintaining strong collar grip pull throughout. If they create distance, use the collar grip to follow their movement and thread your hook as they settle into their new stance. Alternatively, transition to feet-on-hips guard to manage the increased distance before reattempting the DLR entry. → Leads to [[Open Guard]]
-- **Opponent strips the collar grip during the transition phase when both hands are occupied with leg repositioning** (Effectiveness: High) - Your Response: Sequence your grip transitions so that the collar grip is never undefended during the switch. If the collar grip is stripped, immediately abort the DLR entry and recover to Russian Leg Lasso or establish a new controlling grip before reattempting. Never proceed with the transition without upper body control. → Leads to [[Open Guard]]
-- **Opponent drives forward with heavy pressure during the extraction to flatten the guard player and prevent hip rotation** (Effectiveness: Medium) - Your Response: Use the forward pressure against them by converting to an overhead or elevator sweep using the momentum of their drive. If the lasso is still partially engaged, the forward pressure can actually create a stronger sweeping position. Frame with the non-lasso leg on their hip to prevent being completely flattened. → Leads to [[Russian Leg Lasso]]
-- **Opponent circles away from the hooking leg while stripping the ankle grip to prevent DLR consolidation** (Effectiveness: Medium) - Your Response: Follow their circular movement with your hips and extend your DLR hook leg to maintain contact. If they circle far enough, switch to the opposite leg DLR hook or transition to Reverse De La Riva Guard on the near leg. Use the collar grip to prevent them from fully disengaging. → Leads to [[Open Guard]]
+- **Opponent backsteps during the lasso leg extraction to create distance and prevent DLR hook establishment** (Effectiveness: High) - Your Response: Anticipate the backstep by maintaining strong collar grip pull throughout. If they create distance, use the collar grip to follow their movement and thread your hook as they settle into their new stance. Alternatively, transition to feet-on-hips guard to manage the increased distance before reattempting the DLR entry. → Leads to [[Positions/Open Guard]]
+- **Opponent strips the collar grip during the transition phase when both hands are occupied with leg repositioning** (Effectiveness: High) - Your Response: Sequence your grip transitions so that the collar grip is never undefended during the switch. If the collar grip is stripped, immediately abort the DLR entry and recover to Russian Leg Lasso or establish a new controlling grip before reattempting. Never proceed with the transition without upper body control. → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward with heavy pressure during the extraction to flatten the guard player and prevent hip rotation** (Effectiveness: Medium) - Your Response: Use the forward pressure against them by converting to an overhead or elevator sweep using the momentum of their drive. If the lasso is still partially engaged, the forward pressure can actually create a stronger sweeping position. Frame with the non-lasso leg on their hip to prevent being completely flattened. → Leads to [[Positions/Lasso Guard/Russian Leg Lasso]]
+- **Opponent circles away from the hooking leg while stripping the ankle grip to prevent DLR consolidation** (Effectiveness: Medium) - Your Response: Follow their circular movement with your hips and extend your DLR hook leg to maintain contact. If they circle far enough, switch to the opposite leg DLR hook or transition to Reverse De La Riva Guard on the near leg. Use the collar grip to prevent them from fully disengaging. → Leads to [[Positions/Open Guard]]
 
 
 </section>

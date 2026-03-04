@@ -180,7 +180,7 @@ description: "Learn to execute the counter sweep from leg entanglement. Step-by-
 
 As the attacker executing the counter sweep, your objective is to exploit your opponent's compromised base during their leg submission attempt and convert the entanglement into a sweeping fulcrum. The key insight is that effective leg lock attacks require the attacker to commit their weight and upper body in specific directions—backward for heel hooks, laterally for kneebars—and each of these weight commitments creates a corresponding vulnerability that can be swept through. Your success depends on reading your opponent's weight distribution, timing the sweep to coincide with their maximum commitment to the leg attack, and maintaining enough structural integrity through frames and grips to generate the force necessary to off-balance them. The sweep is most available when your opponent releases upper body control to secure a finishing grip on your foot or ankle.
 
-**From Position**: [[Leg Entanglement]] (Bottom)
+**From Position**: [[Positions/Leg Entanglement]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ As the attacker executing the counter sweep, your objective is to exploit your o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 35% |
-| Failure | [[Leg Entanglement]] | 40% |
-| Counter | [[Saddle]] | 25% |
+| Success | [[Positions/Side Control]] | 35% |
+| Failure | [[Positions/Leg Entanglement]] | 40% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 25% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the counter sweep, your objective is to exploit your o
 
 ## Opponent Counters
 
-- **Opponent posts their free hand to block the sweep and re-establish base** (Effectiveness: High) - Your Response: Immediately switch to attacking the posting arm with a kimura grip or two-on-one control, converting the sweep attempt into an upper body attack that removes their post before re-attempting the sweep → Leads to [[Leg Entanglement]]
-- **Opponent pulls guard by releasing the entanglement and wrapping closed guard during the sweep** (Effectiveness: Medium) - Your Response: Continue driving forward through the guard pull attempt, using the momentum of the sweep to establish a passing position rather than accepting closed guard, or immediately initiate a guard pass sequence → Leads to [[Leg Entanglement]]
-- **Opponent deepens the entanglement by stepping over to saddle position during your sweep initiation** (Effectiveness: High) - Your Response: Recognize the saddle entry attempt immediately and abort the sweep, prioritizing boot defense and heel protection before attempting another escape or sweep, as saddle represents significantly worse positional danger → Leads to [[Saddle]]
-- **Opponent abandons the leg attack and scrambles to re-establish top position or reset to standing** (Effectiveness: Medium) - Your Response: Maintain forward pressure and use the scramble to establish top position yourself, converting the abandoned entanglement into a wrestling exchange where you pursue the takedown or top position aggressively → Leads to [[Leg Entanglement]]
+- **Opponent posts their free hand to block the sweep and re-establish base** (Effectiveness: High) - Your Response: Immediately switch to attacking the posting arm with a kimura grip or two-on-one control, converting the sweep attempt into an upper body attack that removes their post before re-attempting the sweep → Leads to [[Positions/Leg Entanglement]]
+- **Opponent pulls guard by releasing the entanglement and wrapping closed guard during the sweep** (Effectiveness: Medium) - Your Response: Continue driving forward through the guard pull attempt, using the momentum of the sweep to establish a passing position rather than accepting closed guard, or immediately initiate a guard pass sequence → Leads to [[Positions/Leg Entanglement]]
+- **Opponent deepens the entanglement by stepping over to saddle position during your sweep initiation** (Effectiveness: High) - Your Response: Recognize the saddle entry attempt immediately and abort the sweep, prioritizing boot defense and heel protection before attempting another escape or sweep, as saddle represents significantly worse positional danger → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent abandons the leg attack and scrambles to re-establish top position or reset to standing** (Effectiveness: Medium) - Your Response: Maintain forward pressure and use the scramble to establish top position yourself, converting the abandoned entanglement into a wrestling exchange where you pursue the takedown or top position aggressively → Leads to [[Positions/Leg Entanglement]]
 
 
 </section>

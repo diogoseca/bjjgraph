@@ -22,7 +22,7 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Closed Guard]]
+**Starting Position**: [[Positions/Closed Guard]]
 **Success Rate**: 60%
 
 </section>
@@ -78,8 +78,8 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -232,16 +232,16 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 ## From Which Positions?
 
-- [[Closed Guard]]
-- [[Turtle]]
-- [[Rubber Guard]]
-- [[Mission Control]]
-- [[New York]]
-- [[Open Guard]]
-- [[Spider Guard]]
-- [[Armbar Control]]
-- [[Half Guard]]
-- [[Inverted Guard]]
+- [[Positions/Closed Guard]]
+- [[Positions/Turtle]]
+- [[Positions/Rubber Guard]]
+- [[Positions/Rubber Guard/Mission Control]]
+- [[Positions/Rubber Guard/New York]]
+- [[Positions/Open Guard]]
+- [[Positions/Spider Guard]]
+- [[Positions/Armbar Control]]
+- [[Positions/Half Guard]]
+- [[Positions/Inverted Guard]]
 
 
 </section>
@@ -250,15 +250,15 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 ## Related Submissions
 
-- [[Triangle Choke]]
-- [[Armbar from Guard]]
-- [[Omoplata]]
-- [[Gogoplata]]
-- [[Baratoplata]]
-- [[Rear Naked Choke]]
-- [[Armbar from Mount]]
-- [[Triangle Choke Front]]
-- [[Triangle Choke Side]]
+- [[Transitions/Triangle Choke]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Omoplata]]
+- [[Transitions/Gogoplata]]
+- [[Transitions/Baratoplata]]
+- [[Transitions/Rear Naked Choke]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Triangle Choke Front]]
+- [[Submissions/Triangle Choke Side]]
 
 
 </section>
@@ -267,15 +267,15 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 ## Additional Related Content
 
-- [[Triangle Choke]] - Parent submission - standard triangle choking mechanics that the inverted version modifies
-- [[Closed Guard]] - Primary starting position for establishing the inverted triangle entry
-- [[Armbar from Guard]] - Common chain - inverted triangle often follows failed armbar attempts
-- [[Kimura]] - Alternative submission - arm control can lead to kimura or inverted triangle
-- [[Inverted Guard]] - Related position - inverted guard mechanics facilitate the body inversion required
-- [[Crucifix]] - Related control position - similar arm trapping and body inversion principles
-- [[Omoplata]] - Alternative submission from similar arm control positions
-- [[Gogoplata]] - Advanced submission sharing inverted leg positioning principles
-- [[Rubber Guard]] - Guard system providing multiple inverted triangle entry opportunities
+- [[Transitions/Triangle Choke]] - Parent submission - standard triangle choking mechanics that the inverted version modifies
+- [[Positions/Closed Guard]] - Primary starting position for establishing the inverted triangle entry
+- [[Submissions/Armbar from Guard]] - Common chain - inverted triangle often follows failed armbar attempts
+- [[Transitions/Kimura]] - Alternative submission - arm control can lead to kimura or inverted triangle
+- [[Positions/Inverted Guard]] - Related position - inverted guard mechanics facilitate the body inversion required
+- [[Positions/Crucifix]] - Related control position - similar arm trapping and body inversion principles
+- [[Transitions/Omoplata]] - Alternative submission from similar arm control positions
+- [[Transitions/Gogoplata]] - Advanced submission sharing inverted leg positioning principles
+- [[Positions/Rubber Guard]] - Guard system providing multiple inverted triangle entry opportunities
 
 
 </section>

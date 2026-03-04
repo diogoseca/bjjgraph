@@ -180,7 +180,7 @@ description: "How to execute Pressure Pass in BJJ. Attacking perspective with se
 
 The Pressure Pass is a fundamental guard passing technique that relies on controlled, heavy pressure to pin the opponent's hips and progressively advance past their legs. Unlike speed-based passes that seek to quickly bypass the guard, pressure passing emphasizes control, weight distribution, and methodical advancement. This approach is particularly effective against flexible opponents or those with strong retention, as it limits their mobility and forces them to carry your weight while you systematically break down their defensive structure. The Pressure Pass can be initiated from various guard positions including closed guard, half guard, and open guard variations. The key principle is establishing chest-to-chest or chest-to-hip pressure while controlling the opponent's hips and preventing them from creating space or recovering their guard. This pass is highly effective in gi and no-gi contexts and forms the foundation of many modern guard passing systems. The technique requires patience, proper weight distribution, and the ability to maintain pressure while advancing position incrementally.
 
-**From Position**: [[Combat Base]] (Top)
+**From Position**: [[Positions/Combat Base]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The Pressure Pass is a fundamental guard passing technique that relies on contro
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 75% |
-| Failure | [[Combat Base]] | 15% |
-| Counter | [[Combat Base]] | 10% |
+| Success | [[Positions/Side Control]] | 75% |
+| Failure | [[Positions/Combat Base]] | 15% |
+| Counter | [[Positions/Combat Base]] | 10% |
 
 
 </section>
@@ -245,10 +245,10 @@ The Pressure Pass is a fundamental guard passing technique that relies on contro
 
 ## Opponent Counters
 
-- **Opponent frames on your hips and creates distance with strong legs** (Effectiveness: High) - Your Response: Lower your hips beneath their frames, drive your chest forward over their frames, and use your grips to collapse their knee shield or butterfly hooks. Consider switching to knee slice if they overcommit to pushing. → Leads to [[Combat Base]]
-- **Opponent turns into you and establishes deep half guard** (Effectiveness: Medium) - Your Response: Prevent the turn by establishing strong crossface control early. If they succeed in turning, immediately work to clear the underhook and establish a whizzer control while driving them flat to the mat. → Leads to [[Combat Base]]
-- **Opponent uses overhook to pull you down and off-balance you forward** (Effectiveness: Medium) - Your Response: Keep your base wide and hips low to prevent being pulled forward. If they establish overhook, immediately counter with strong crossface pressure and drive your weight toward their hips rather than allowing yourself to be pulled to their chest. → Leads to [[Combat Base]]
-- **Opponent retains half guard with lockdown or strong hooks** (Effectiveness: Medium) - Your Response: Maintain heavy chest pressure to prevent them from coming to their side. Focus on clearing their upper body control first (underhook/overhook) before addressing the leg entanglement. Use knee slice mechanics to gradually extract your trapped leg. → Leads to [[Combat Base]]
+- **Opponent frames on your hips and creates distance with strong legs** (Effectiveness: High) - Your Response: Lower your hips beneath their frames, drive your chest forward over their frames, and use your grips to collapse their knee shield or butterfly hooks. Consider switching to knee slice if they overcommit to pushing. → Leads to [[Positions/Combat Base]]
+- **Opponent turns into you and establishes deep half guard** (Effectiveness: Medium) - Your Response: Prevent the turn by establishing strong crossface control early. If they succeed in turning, immediately work to clear the underhook and establish a whizzer control while driving them flat to the mat. → Leads to [[Positions/Combat Base]]
+- **Opponent uses overhook to pull you down and off-balance you forward** (Effectiveness: Medium) - Your Response: Keep your base wide and hips low to prevent being pulled forward. If they establish overhook, immediately counter with strong crossface pressure and drive your weight toward their hips rather than allowing yourself to be pulled to their chest. → Leads to [[Positions/Combat Base]]
+- **Opponent retains half guard with lockdown or strong hooks** (Effectiveness: Medium) - Your Response: Maintain heavy chest pressure to prevent them from coming to their side. Focus on clearing their upper body control first (underhook/overhook) before addressing the leg entanglement. Use knee slice mechanics to gradually extract your trapped leg. → Leads to [[Positions/Combat Base]]
 
 
 </section>

@@ -158,7 +158,7 @@ The defensive priority hierarchy is: first address the guillotine grip by workin
 
 Successful defense often means accepting a less-than-ideal position rather than remaining in the dilemma. Retreating to closed guard top with the opponent maintaining a weakened guillotine grip is far preferable to being swept to mount with a locked choke. Similarly, giving up the engagement entirely by standing and disengaging resets the exchange even though it sacrifices positional pressure. The key principle is that escaping the dilemma takes priority over maintaining any particular position.
 
-**Opponent's Starting Position**: [[Hindulotine]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful defense often means accepting a less-than-ideal position rather than 
 ### 1. Posture recovery with chin tuck and hand fighting to strip guillotine grip
 
 - **When to use**: Early in the sequence before opponent has fully loaded butterfly hooks and committed your weight forward
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: You neutralize the choke threat and can begin working to pass or disengage from the Hindulotine position entirely
 - **Risk**: If you posture too aggressively without controlling hooks, opponent may use your upward momentum to off-balance and still complete the sweep
 
 ### 2. Hip retreat and sprawl to remove butterfly hook leverage while keeping head position neutral
 
 - **When to use**: When you feel butterfly hooks loading with your weight and the sweep is imminent
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: Removes the mechanical leverage needed for the sweep by taking your weight off the hooks, forcing opponent to maintain only the choke from a weakened angle
 - **Risk**: Sprawling pulls your head further into the guillotine grip if you do not simultaneously address the choke, potentially accelerating the submission finish
 
 ### 3. Stand up explosively to disengage from both sweep and choke simultaneously
 
 - **When to use**: When you cannot strip the guillotine grip and hooks are engaged, as a last resort to reset the exchange entirely
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You break free of the butterfly hook leverage and can work to strip the guillotine from standing, where their finishing mechanics are significantly weaker
 - **Risk**: If you stand without clearing the grip, opponent may follow to standing guillotine or snap you back down into a worse position with hooks re-engaged
 
 ### 4. Turn into opponent and drive shoulder across their centerline to kill the sweep angle
 
 - **When to use**: When opponent has committed to the 45-degree sweep angle and you need to counter the directional force
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: Kills the sweep trajectory by positioning your weight against the sweep direction, allowing you to work the Von Flue counter or strip the grip from top pressure
 - **Risk**: Turning incorrectly may expose your back or feed directly into the sweep if your angle does not effectively counter their trajectory
 
@@ -228,11 +228,11 @@ Successful defense often means accepting a less-than-ideal position rather than 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Hindulotine]]
+### → [[Positions/Hindulotine]]
 
 Strip the guillotine grip through systematic hand fighting: wedge your inside hand between your chin and their wrist, peel their grip open using both hands while maintaining posture, then re-establish top pressure with head free
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Stand up to break the butterfly hook leverage, then work to strip the guillotine from standing where their finishing mechanics are weakest. Accept ending in their closed guard as a favorable reset compared to being swept to mount with a locked choke
 

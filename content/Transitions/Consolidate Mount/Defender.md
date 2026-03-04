@@ -154,7 +154,7 @@ description: "How to defend against Consolidate Mount in BJJ. Recognition cues, 
 
 Defending against mount consolidation is one of the most urgent defensive tasks in Brazilian Jiu-Jitsu. The window to escape narrows dramatically once the top player settles their weight, inserts grapevines, and begins walking knees toward the armpits. Every second of delay allows the attacker to eliminate defensive options and advance toward high mount, where submission danger escalates exponentially. Understanding the consolidation sequence from the defender's perspective means recognizing which phase the attacker is in and selecting the correct defensive response before the next phase locks you down further. The defender's primary objective is to prevent the attacker from completing consolidation by disrupting the sequence early through frames, hip escapes, and timed explosions that create enough space to recover guard or at minimum retain low mount where escape probabilities remain viable.
 
-**Opponent's Starting Position**: [[Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -190,28 +190,28 @@ Defending against mount consolidation is one of the most urgent defensive tasks 
 ### 1. Explosive bridge and hip escape before grapevines are inserted
 
 - **When to use**: Immediately when mount is achieved, during the first 3-5 seconds before the attacker settles weight and hooks legs
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover half guard by inserting knee shield during the space created by the bridge
 - **Risk**: If the bridge fails, you expend energy and the attacker settles heavier, making subsequent escapes harder
 
 ### 2. Frame on hips with both forearms and shrimp to create angle for knee insertion
 
 - **When to use**: After the attacker has settled weight but before they have eliminated your frames by swimming inside
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Insert knee between bodies to establish half guard, preventing further mount consolidation
 - **Risk**: Extended arms during framing can be isolated for Americana or trapped against the mat
 
 ### 3. Trap arm and foot on same side for upa reversal during weight shift
 
 - **When to use**: When the attacker shifts weight to one side while walking knees up or attempting to eliminate a frame
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Full reversal to top position inside opponent's guard through explosive bridge in direction of trapped limbs
 - **Risk**: Incomplete trap allows attacker to post free hand and punish the failed reversal with increased pressure
 
 ### 4. Fight grapevine hooks by straightening legs and pushing attacker's feet outward with heel pressure
 
 - **When to use**: As soon as you feel the attacker threading their feet inside your thighs to establish grapevines
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Prevents grapevine insertion, preserving bridging power and keeping escape options available from low mount
 - **Risk**: Focus on lower body defense may allow attacker to advance upper body control and establish cross-face
 
@@ -223,11 +223,11 @@ Defending against mount consolidation is one of the most urgent defensive tasks 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Execute a properly set up upa reversal by trapping the attacker's arm and same-side foot, then explosively bridging toward the trapped side during a weight shift. This requires precise timing when the attacker reaches for grips or begins walking knees up.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Use frames on the hips combined with a strong hip escape to create enough space to insert a knee between bodies. Chain multiple small shrimps together, preserving each increment of space with frame adjustments before the next hip escape. Even recovering half guard is a significant improvement over mounted.
 

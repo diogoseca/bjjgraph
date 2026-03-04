@@ -180,7 +180,7 @@ description: "Execute the Double Sleeve to De La Riva Guard transition. Step-by-
 
 As the attacker executing this transition, your objective is to convert your bilateral sleeve control into the De La Riva hook-and-cross-grip configuration without losing positional control during the conversion. The critical challenge is that you must release one sleeve grip to establish the ankle or pants grip on the opponent's lead leg, creating a brief window where your control is diminished. The key to success is timing this grip conversion to coincide with the opponent's weight commitment to their lead leg, which simultaneously makes the DLR hook easier to insert and makes them less able to exploit your momentary grip change. Think of this as a gear shift rather than a position change: you are converting one type of control energy into another without ever passing through neutral.
 
-**From Position**: [[Double Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing this transition, your objective is to convert your bil
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[De La Riva Guard]] | 55% |
-| Failure | [[Double Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/De La Riva Guard]] | 55% |
+| Failure | [[Positions/Double Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,11 +243,11 @@ As the attacker executing this transition, your objective is to convert your bil
 
 ## Opponent Counters
 
-- **Opponent retracts their lead leg before the DLR hook is established** (Effectiveness: High) - Your Response: If they retract quickly, maintain both sleeve grips and wait for them to step forward again. Their retraction often creates a momentary backward weight shift that can be exploited with a push sweep or tripod sweep. Stay patient and maintain your double sleeve framework until the next stepping opportunity presents itself. → Leads to [[Double Sleeve Guard]]
-- **Opponent strips the near-side sleeve grip during the conversion window** (Effectiveness: Medium) - Your Response: If you have already inserted the DLR hook, immediately grab their ankle or pants with your freed hand to complete the transition. If the hook is not yet established, use the remaining sleeve grip and your feet to maintain open guard distance while re-establishing grips. The key is not panicking during partial grip loss. → Leads to [[Double Sleeve Guard]]
-- **Opponent drives forward with heavy pressure during the transition** (Effectiveness: Medium) - Your Response: Their forward drive actually assists DLR establishment because it commits their weight to the lead leg. Accept the pressure, complete the hook insertion, and use their forward momentum to load them for a berimbolo entry or basic DLR sweep. Forward pressure during transition is one of the most exploitable reactions. → Leads to [[De La Riva Guard]]
-- **Opponent circles away from the hooking side to prevent DLR establishment** (Effectiveness: High) - Your Response: Follow their circling with your hips and consider switching to the opposite side DLR or transitioning to Reverse De La Riva if they circle past your centerline. Use both sleeve grips to arrest their circular motion and pull them back toward your hooking path. If they commit fully to the circle, a lasso entry on the near side may be available. → Leads to [[Double Sleeve Guard]]
-- **Opponent grabs your pants or ankles to pin your legs during transition** (Effectiveness: Medium) - Your Response: Use your sleeve grips to pull their upper body forward, which forces them to release your legs to post. Alternatively, kick your hooking leg free by extending forcefully against their grip. If they pin both legs, hip escape to create the angle needed to free at least one leg for the hook attempt. → Leads to [[Open Guard]]
+- **Opponent retracts their lead leg before the DLR hook is established** (Effectiveness: High) - Your Response: If they retract quickly, maintain both sleeve grips and wait for them to step forward again. Their retraction often creates a momentary backward weight shift that can be exploited with a push sweep or tripod sweep. Stay patient and maintain your double sleeve framework until the next stepping opportunity presents itself. → Leads to [[Positions/Double Sleeve Guard]]
+- **Opponent strips the near-side sleeve grip during the conversion window** (Effectiveness: Medium) - Your Response: If you have already inserted the DLR hook, immediately grab their ankle or pants with your freed hand to complete the transition. If the hook is not yet established, use the remaining sleeve grip and your feet to maintain open guard distance while re-establishing grips. The key is not panicking during partial grip loss. → Leads to [[Positions/Double Sleeve Guard]]
+- **Opponent drives forward with heavy pressure during the transition** (Effectiveness: Medium) - Your Response: Their forward drive actually assists DLR establishment because it commits their weight to the lead leg. Accept the pressure, complete the hook insertion, and use their forward momentum to load them for a berimbolo entry or basic DLR sweep. Forward pressure during transition is one of the most exploitable reactions. → Leads to [[Positions/De La Riva Guard]]
+- **Opponent circles away from the hooking side to prevent DLR establishment** (Effectiveness: High) - Your Response: Follow their circling with your hips and consider switching to the opposite side DLR or transitioning to Reverse De La Riva if they circle past your centerline. Use both sleeve grips to arrest their circular motion and pull them back toward your hooking path. If they commit fully to the circle, a lasso entry on the near side may be available. → Leads to [[Positions/Double Sleeve Guard]]
+- **Opponent grabs your pants or ankles to pin your legs during transition** (Effectiveness: Medium) - Your Response: Use your sleeve grips to pull their upper body forward, which forces them to release your legs to post. Alternatively, kick your hooking leg free by extending forcefully against their grip. If they pin both legs, hip escape to create the angle needed to free at least one leg for the hook attempt. → Leads to [[Positions/Open Guard]]
 
 
 </section>

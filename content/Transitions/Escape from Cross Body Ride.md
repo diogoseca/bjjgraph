@@ -21,7 +21,7 @@ The escape operates on the principle that the cross body rider's perpendicular o
 
 Strategically, this escape represents a high-reward response to a deteriorating position. Rather than accepting the gradual breakdown that cross body ride imposes, executing a well-timed escape converts defensive liability into offensive opportunity. The technique rewards practitioners who maintain composure under pressure, read weight distribution patterns, and commit decisively to escape sequences rather than making tentative, energy-wasting attempts that telegraph their intentions to the rider.
 
-**From Position**: [[Cross Body Ride]] (Bottom)
+**From Position**: [[Positions/Cross Body Ride]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape represents a high-reward response to a deteriorating 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Cross Body Ride]] | 35% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Cross Body Ride]] | 35% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -191,21 +191,21 @@ The Escape from Cross Body Ride serves as the primary defensive response within 
 ## Related Techniques
 
 
-- [[Cross Body Ride]] - Starting position from which this escape is executed
+- [[Positions/Cross Body Ride]] - Starting position from which this escape is executed
 
-- [[Side Control]] - Primary success outcome position after completing the reversal
+- [[Positions/Side Control]] - Primary success outcome position after completing the reversal
 
-- [[Back Control]] - Counter outcome position when the rider advances during the escape attempt
+- [[Positions/Back Control]] - Counter outcome position when the rider advances during the escape attempt
 
-- [[Turtle]] - Parent defensive position and common entry into cross body ride scenarios
+- [[Positions/Turtle]] - Parent defensive position and common entry into cross body ride scenarios
 
-- [[Half Guard]] - Alternative escape destination when full reversal to side control is not achievable
+- [[Positions/Half Guard]] - Alternative escape destination when full reversal to side control is not achievable
 
-- [[Crab Ride]] - Related controlling position with similar escape mechanics required
+- [[Positions/Crab Ride]] - Related controlling position with similar escape mechanics required
 
-- [[Escape from Crab Ride]] - Related escape technique sharing similar frame-and-hip-escape principles
+- [[Transitions/Escape from Crab Ride]] - Related escape technique sharing similar frame-and-hip-escape principles
 
-- [[Back Door Escape]] - Complementary escape methodology for back control situations that may follow failed attempts
+- [[Transitions/Back Door Escape]] - Complementary escape methodology for back control situations that may follow failed attempts
 
 
 </section>

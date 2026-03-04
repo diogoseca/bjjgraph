@@ -21,7 +21,7 @@ The technique is particularly effective because the opponent's defensive posture
 
 At the highest levels, this transition functions as part of a three-way attacking system from triangle control: the choke itself, the armbar when the opponent postures, and the omoplata when they drive forward. Mastering the timing and mechanics of this chain transforms triangle control from a single submission threat into a comprehensive offensive platform that forces continuous defensive decision-making from the opponent.
 
-**From Position**: [[Triangle Control]] (Bottom)
+**From Position**: [[Positions/Triangle Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ At the highest levels, this transition functions as part of a three-way attackin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Omoplata Control]] | 55% |
-| Failure | [[Triangle Control]] | 25% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Omoplata Control]] | 55% |
+| Failure | [[Positions/Triangle Control]] | 25% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -195,27 +195,27 @@ The triangle to omoplata transition is a cornerstone of modern guard attack syst
 ## Related Techniques
 
 
-- [[Triangle Control]] - Starting position for this transition
+- [[Positions/Triangle Control]] - Starting position for this transition
 
-- [[Omoplata Control]] - Target control position upon successful execution
+- [[Positions/Omoplata Control]] - Target control position upon successful execution
 
-- [[Triangle from Closed Guard]] - Primary submission setup leading to this transition
+- [[Submissions/Triangle from Closed Guard]] - Primary submission setup leading to this transition
 
-- [[Omoplata from Guard]] - Alternative direct entry to omoplata without triangle
+- [[Submissions/Omoplata from Guard]] - Alternative direct entry to omoplata without triangle
 
-- [[Triangle to Armbar]] - Alternative transition from same starting position
+- [[Transitions/Triangle to Armbar]] - Alternative transition from same starting position
 
-- [[Triangle to Back]] - Alternative transition creating different attacking chain
+- [[Transitions/Triangle to Back]] - Alternative transition creating different attacking chain
 
-- [[Omoplata Sweep]] - Follow-up option when omoplata submission is defended
+- [[Transitions/Omoplata Sweep]] - Follow-up option when omoplata submission is defended
 
-- [[Omoplata to Back]] - Follow-up transition extending the attacking sequence
+- [[Transitions/Omoplata to Back]] - Follow-up transition extending the attacking sequence
 
-- [[Closed Guard]] - Common guard position where this chain initiates
+- [[Positions/Closed Guard]] - Common guard position where this chain initiates
 
-- [[Spider Guard]] - Alternative guard position for triangle entry
+- [[Positions/Spider Guard]] - Alternative guard position for triangle entry
 
-- [[Triangle Choke Front]] - Primary submission threat that forces the defensive reaction
+- [[Submissions/Triangle Choke Front]] - Primary submission threat that forces the defensive reaction
 
 
 </section>

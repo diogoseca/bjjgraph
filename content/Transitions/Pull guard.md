@@ -17,7 +17,7 @@ description: "Master the guard pull in BJJ. Complete guide to executing from sta
 
 Pulling guard is a strategic defensive maneuver that transitions from standing to a guard position, prioritizing ground control over takedown exchanges. This technique allows practitioners to bypass the standing phase and immediately establish their preferred guard system, particularly valuable when facing opponents with superior wrestling or judo backgrounds. The guard pull represents a fundamental shift in engagement strategy, transforming a potentially disadvantageous standing exchange into a controlled ground scenario where technical guard players can implement their systematic attacks. Proper execution requires precise timing, grip control, and body mechanics to ensure safe descent while maintaining offensive positioning. The technique has become increasingly sophisticated in modern competition, with variations designed to establish specific guard types like De La Riva, Spider Guard, or Butterfly Guard directly from the standing position.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -28,9 +28,9 @@ Pulling guard is a strategic defensive maneuver that transitions from standing t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 70% |
-| Failure | [[Standing Position]] | 20% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Closed Guard]] | 70% |
+| Failure | [[Positions/Standing Position]] | 20% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -191,29 +191,29 @@ Guard pulling serves as a critical tactical transition that allows practitioners
 ## Related Techniques
 
 
-- [[Closed Guard]] - Primary ending position for basic guard pull
+- [[Positions/Closed Guard]] - Primary ending position for basic guard pull
 
-- [[Open Guard]] - Alternative ending position for distance-based guard pulls
+- [[Positions/Open Guard]] - Alternative ending position for distance-based guard pulls
 
-- [[Spider Guard]] - Specific guard variation established from grip-dependent pull
+- [[Positions/Spider Guard]] - Specific guard variation established from grip-dependent pull
 
-- [[De La Riva Guard]] - Advanced guard entry using hook-based pull variation
+- [[Positions/De La Riva Guard]] - Advanced guard entry using hook-based pull variation
 
-- [[Collar Sleeve Guard]] - Guard type commonly established through collar-and-sleeve pull grip configuration
+- [[Positions/Collar Sleeve Guard]] - Guard type commonly established through collar-and-sleeve pull grip configuration
 
-- [[Jumping Guard]] - Related technique with higher risk but more aggressive entry
+- [[Transitions/Jumping Guard]] - Related technique with higher risk but more aggressive entry
 
-- [[Standing Position]] - Starting position for all guard pull variations
+- [[Positions/Standing Position]] - Starting position for all guard pull variations
 
-- [[Butterfly Guard]] - Common guard type established from sitting pull variation
+- [[Positions/Butterfly Guard]] - Common guard type established from sitting pull variation
 
-- [[Hip Bump Sweep]] - Common offensive follow-up from closed guard pull
+- [[Transitions/Hip Bump Sweep]] - Common offensive follow-up from closed guard pull
 
-- [[Pendulum Sweep]] - Alternative offensive sequence from closed guard pull
+- [[Transitions/Pendulum Sweep]] - Alternative offensive sequence from closed guard pull
 
-- [[Triangle from Closed Guard]] - Submission attack initiated immediately after guard pull
+- [[Submissions/Triangle from Closed Guard]] - Submission attack initiated immediately after guard pull
 
-- [[Lasso Guard]] - Advanced guard variation with specific pull entry requirements
+- [[Positions/Lasso Guard]] - Advanced guard variation with specific pull entry requirements
 
 
 </section>

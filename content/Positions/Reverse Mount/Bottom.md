@@ -208,19 +208,19 @@ Understanding the escape hierarchy and maintaining composure under pressure are 
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (28% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (28% of attempts)
 
-### [[Bridge and Roll]] (22% of attempts)
+### [[Transitions/Bridge and Roll]] (22% of attempts)
 
-### [[Hip Escape to Guard]] (17% of attempts)
+### [[Transitions/Hip Escape to Guard]] (17% of attempts)
 
-### [[Sit Through to Guard]] (12% of attempts)
+### [[Transitions/Sit Through to Guard]] (12% of attempts)
 
-### [[Frame and Shrimp to Guard]] (12% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (12% of attempts)
 
-### [[Bridge from Reverse Mount]] (6% of attempts)
+### [[Transitions/Bridge from Reverse Mount]] (6% of attempts)
 
-### [[Escape Reverse Mount]] (3% of attempts)
+### [[Transitions/Escape Reverse Mount]] (3% of attempts)
 
 
 
@@ -231,23 +231,23 @@ Understanding the escape hierarchy and maintaining composure under pressure are 
 ## Decision Making from This Position
 
 **If opponent is establishing seat belt control or attempting rear naked choke:**
-- Execute **[[Hand Fighting from Back]]** → [[Turtle]] (Probability: 40%)
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 30%)
+- Execute **[[Transitions/Hand Fighting from Back]]** → [[Positions/Turtle]] (Probability: 40%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 30%)
 
 
 **If opponent has not yet established hooks or full control:**
-- Execute **[[Bridge and Roll]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 35%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
 
 
 **If opponent is high on back with weight shifted forward:**
-- Execute **[[Sit Through to Guard]]** → [[Turtle]] (Probability: 30%)
-- Execute **[[Frame and Shrimp to Guard]]** → [[Deep Half Guard]] (Probability: 25%)
+- Execute **[[Transitions/Sit Through to Guard]]** → [[Positions/Turtle]] (Probability: 30%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 25%)
 
 
 **If opponent attempts to transition to traditional mount by spinning:**
-- Execute **[[Sit Through to Guard]]** → [[Half Guard]] (Probability: 35%)
-- Execute **[[Frame and Shrimp to Guard]]** → [[Closed Guard]] (Probability: 25%)
+- Execute **[[Transitions/Sit Through to Guard]]** → [[Positions/Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Closed Guard]] (Probability: 25%)
 
 
 
@@ -381,14 +381,14 @@ Partner sits in reverse mount with progressively increasing weight and control. 
 
 ## Related Positions and Techniques
 
-- **[[Reverse Mount]]** - Sibling variant - opposite perspective of same position
-- **[[Mount]]** - Related defensive position with similar escape priorities
-- **[[Back Control]]** - Common progression if escape fails and opponent establishes hooks
-- **[[Turtle]]** - Primary escape target from reverse mount
-- **[[Half Guard]]** - Secondary escape target providing better defensive structure
-- **[[Bridge and Roll]]** - Key escape transition technique
-- **[[Elbow Escape to Guard]]** - Alternative escape technique to create space and recover guard
-- **[[Frame and Shrimp to Guard]]** - Foundational escape movement pattern for re-guarding
+- **[[Positions/Reverse Mount]]** - Sibling variant - opposite perspective of same position
+- **[[Positions/Mount]]** - Related defensive position with similar escape priorities
+- **[[Positions/Back Control]]** - Common progression if escape fails and opponent establishes hooks
+- **[[Positions/Turtle]]** - Primary escape target from reverse mount
+- **[[Positions/Half Guard]]** - Secondary escape target providing better defensive structure
+- **[[Transitions/Bridge and Roll]]** - Key escape transition technique
+- **[[Transitions/Elbow Escape to Guard]]** - Alternative escape technique to create space and recover guard
+- **[[Transitions/Frame and Shrimp to Guard]]** - Foundational escape movement pattern for re-guarding
 
 
 </section>

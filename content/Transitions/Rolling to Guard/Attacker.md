@@ -180,7 +180,7 @@ description: "How to execute Rolling to Guard in BJJ. Complete guide covering se
 
 As the attacker executing Rolling to Guard, your objective is to convert the defensive turtle position into an offensive guard position through controlled rotational movement. The technique begins with frame creation to generate space, transitions through a shoulder-driven roll with hips arcing overhead, and concludes with immediate guard establishment. Your success depends on reading the top player's weight distribution to select the optimal moment for the roll, maintaining spatial awareness throughout the rotation to emerge facing your opponent, and transitioning seamlessly from rolling motion into active guard control. This is not a desperation move but a calculated positional reset that, when executed with proper timing and mechanics, leaves you in a stronger position than before the roll while disrupting your opponent's control sequence entirely.
 
-**From Position**: [[Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
@@ -234,10 +234,10 @@ As the attacker executing Rolling to Guard, your objective is to convert the def
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Success | [[Open Guard]] | 20% |
-| Failure | [[Turtle]] | 15% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Success | [[Positions/Open Guard]] | 20% |
+| Failure | [[Positions/Turtle]] | 15% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -246,10 +246,10 @@ As the attacker executing Rolling to Guard, your objective is to convert the def
 
 ## Opponent Counters
 
-- **Opponent follows the roll and maintains chest-to-back pressure throughout rotation** (Effectiveness: High) - Your Response: Change rolling direction mid-rotation or abort into defensive turtle with tight elbows and immediate re-attempt in opposite direction. If they follow completely, their forward commitment opens sit-through or deep half entry opportunities. → Leads to [[Turtle]]
-- **Opponent grabs your legs or pants during the roll to prevent guard establishment** (Effectiveness: Medium) - Your Response: Kick legs away explosively using a piston motion, or use the grip as an anchor to pull yourself through the roll faster. If they control both legs, immediately frame on their shoulders and work hip escape mechanics to re-insert legs. → Leads to [[Open Guard]]
-- **Opponent circles to your back during the roll and secures seatbelt or harness control** (Effectiveness: Medium) - Your Response: Immediately begin hand fighting to strip the choking hand while turning your hips toward them. If they get one hook, address it before the second by kicking the hooked leg back. Prioritize facing them over completing the guard recovery. → Leads to [[Back Control]]
-- **Opponent drives hips into your lower back and sprawls to flatten you, preventing hip elevation** (Effectiveness: High) - Your Response: Abandon the roll attempt and transition to hip escape or sit-through escape instead. Their committed sprawl weight forward opens space underneath for deep half entry or creates the angle needed for a technical standup if you can get to your posting hand. → Leads to [[Turtle]]
+- **Opponent follows the roll and maintains chest-to-back pressure throughout rotation** (Effectiveness: High) - Your Response: Change rolling direction mid-rotation or abort into defensive turtle with tight elbows and immediate re-attempt in opposite direction. If they follow completely, their forward commitment opens sit-through or deep half entry opportunities. → Leads to [[Positions/Turtle]]
+- **Opponent grabs your legs or pants during the roll to prevent guard establishment** (Effectiveness: Medium) - Your Response: Kick legs away explosively using a piston motion, or use the grip as an anchor to pull yourself through the roll faster. If they control both legs, immediately frame on their shoulders and work hip escape mechanics to re-insert legs. → Leads to [[Positions/Open Guard]]
+- **Opponent circles to your back during the roll and secures seatbelt or harness control** (Effectiveness: Medium) - Your Response: Immediately begin hand fighting to strip the choking hand while turning your hips toward them. If they get one hook, address it before the second by kicking the hooked leg back. Prioritize facing them over completing the guard recovery. → Leads to [[Positions/Back Control]]
+- **Opponent drives hips into your lower back and sprawls to flatten you, preventing hip elevation** (Effectiveness: High) - Your Response: Abandon the roll attempt and transition to hip escape or sit-through escape instead. Their committed sprawl weight forward opens space underneath for deep half entry or creates the angle needed for a technical standup if you can get to your posting hand. → Leads to [[Positions/Turtle]]
 
 
 </section>

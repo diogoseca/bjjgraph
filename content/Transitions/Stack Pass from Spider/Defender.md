@@ -154,7 +154,7 @@ description: "Learn to defend the Stack Pass from Spider Guard. Comprehensive gu
 
 Defending the stack pass from spider guard requires awareness of your own vulnerability during submission entries. As the defender playing spider guard bottom, you must recognize that every time you release foot pressure from the biceps to initiate a triangle, omoplata, or sweep, you create a window for the stack pass. Your defensive strategy begins before the stack is even attempted—by maintaining partial foot contact during attacks, keeping at least one frame active, and ensuring your hip position allows for recovery. When the stack is initiated, your defensive options range from immediate guard recovery through hip escaping and re-establishing hooks, to active counter-attacks that use the passer's forward momentum against them. The critical principle is never allowing the passer to fully compress your hips over your shoulders, because once the full stack is established with leg control, recovery becomes extremely difficult. Early recognition and immediate defensive response are far more effective than attempting to escape a fully established stack.
 
-**Opponent's Starting Position**: [[Spider Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Spider Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the stack pass from spider guard requires awareness of your own vulner
 ### 1. Frame against the passer's shoulders with both hands and hip escape laterally to re-establish distance and recover spider guard hooks
 
 - **When to use**: Early in the stack attempt, before the passer has established full compression and while you still have space to create frames
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: Re-establish spider guard with feet on biceps and sleeve grips, returning to neutral guard position
 - **Risk**: If frames collapse, you lose your last defensive barrier and the passer achieves full stack with no remaining defensive structure
 
 ### 2. Shoot legs through for triangle entry, using the passer's forward drive to accelerate the triangle closure around their head and arm
 
 - **When to use**: When the passer drives forward with their head on one side, leaving the other side open for leg placement over their shoulder
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Catch the passer in a triangle position and use the leverage to sweep them to bottom, reversing the position
 - **Risk**: If the triangle is incomplete, the passer uses the partial leg position to accelerate their stack pass and may pass even faster
 
 ### 3. Invert underneath the passer and recover guard by threading your legs back through to re-establish foot-on-hip or foot-on-bicep hooks
 
 - **When to use**: When the passer's forward pressure is too strong to frame against but they have not yet secured leg control, leaving space underneath for inversion
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: Recover guard position underneath the passer through inversion, re-establishing defensive hooks and grip control
 - **Risk**: Inversion exposes your back if the passer redirects to a back take, and failed inversions leave you in a worse position with no frames
 
 ### 4. Use the passer's forward momentum to sweep by redirecting their drive laterally with a retained sleeve grip while bridging to one side
 
 - **When to use**: When the passer commits their weight fully forward for the stack and you have at least one sleeve grip retained from spider guard
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Sweep the passer using their own forward momentum, ending in a top position with the passer on bottom
 - **Risk**: If the sweep fails, you lose your grip and the passer completes the stack with no remaining defensive options
 
@@ -225,11 +225,11 @@ Defending the stack pass from spider guard requires awareness of your own vulner
 
 ## Best-Case Outcomes for Defender
 
-### → [[Spider Guard]]
+### → [[Positions/Spider Guard]]
 
 Frame against the passer's shoulders early in the stack attempt and hip escape laterally to create distance. Re-establish one foot on bicep first, then fight for the second hook and sleeve grip. The key is reacting immediately when you feel the initial forward pressure rather than waiting for the full stack to develop.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the passer commits fully to the stack with heavy forward pressure, redirect their momentum laterally using a retained sleeve grip combined with a hip bridge to one side. The passer's overcommitment to forward drive makes them vulnerable to being rolled to their side or back. Time the sweep to coincide with their most aggressive forward step for maximum effect.
 

@@ -210,31 +210,31 @@ From a technical perspective, the buggy choke teaches important principles about
 
 ## Available Attacks
 
-### [[Finish Buggy Choke]] (41% of attempts)
+### [[Transitions/Finish Buggy Choke]] (41% of attempts)
 
-### [[Hook Leg and Take Back]] (17% of attempts)
+### [[Transitions/Hook Leg and Take Back]] (17% of attempts)
 
-### [[Roll to Truck]] (7% of attempts)
+### [[Transitions/Roll to Truck]] (7% of attempts)
 
-### [[Switch to Darce Configuration]] (4% of attempts)
+### [[Transitions/Switch to Darce Configuration]] (4% of attempts)
 
-### [[Switch to Anaconda Configuration]] (2% of attempts)
+### [[Transitions/Switch to Anaconda Configuration]] (2% of attempts)
 
-### [[Buggy Choke to Front Headlock]] (5% of attempts)
+### [[Transitions/Buggy Choke to Front Headlock]] (5% of attempts)
 
-### [[Turtle Flatten to Side Control]] (7% of attempts)
+### [[Transitions/Turtle Flatten to Side Control]] (7% of attempts)
 
-### [[Guillotine from Turtle]] (2% of attempts)
+### [[Transitions/Guillotine from Turtle]] (2% of attempts)
 
-### [[Crucifix from Turtle]] (10% of attempts)
+### [[Transitions/Crucifix from Turtle]] (10% of attempts)
 
-### [[Buggy Choke to North-South]] (1% of attempts)
+### [[Transitions/Buggy Choke to North-South]] (1% of attempts)
 
-### [[Buggy Choke to Side Control]] (1% of attempts)
+### [[Transitions/Buggy Choke to Side Control]] (1% of attempts)
 
-### [[Grip Strip from Buggy Choke]] (1% of attempts)
+### [[Transitions/Grip Strip from Buggy Choke]] (1% of attempts)
 
-### [[Buggy Choke Finish]] (2% of attempts)
+### [[Submissions/Buggy Choke Finish]] (2% of attempts)
 
 
 
@@ -250,25 +250,25 @@ From a technical perspective, the buggy choke teaches important principles about
 
 
 **If opponent attempts to sit to guard or roll to side:**
-- Execute **[[Hook near leg and transition to back control]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Roll with opponent to truck position]]** → [[Truck]] (Probability: 40%)
+- Execute **[[Hook near leg and transition to back control]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Roll with opponent to truck position]]** → [[Positions/Twister Control/Truck]] (Probability: 40%)
 
 
 **If opponent turns into the choke to defend neck:**
-- Execute **[[Switch to darce configuration]]** → [[Darce Control]] (Probability: 50%)
-- Execute **[[Switch to anaconda configuration]]** → [[Anaconda Control]] (Probability: 35%)
-- Execute **[[Transition to front headlock control]]** → [[Front Headlock]] (Probability: 15%)
+- Execute **[[Switch to darce configuration]]** → [[Positions/Darce Control]] (Probability: 50%)
+- Execute **[[Switch to anaconda configuration]]** → [[Positions/Anaconda Control]] (Probability: 35%)
+- Execute **[[Transition to front headlock control]]** → [[Positions/Front Headlock]] (Probability: 15%)
 
 
 **If opponent extends far arm to base and prevent choke:**
-- Execute **[[Attack extended arm for crucifix]]** → [[Crucifix]] (Probability: 65%)
+- Execute **[[Attack extended arm for crucifix]]** → [[Positions/Crucifix]] (Probability: 65%)
 - Execute **[[Maintain pressure and re-attack choke]]** → [[Buggy Choke Top]] (Probability: 35%)
 
 
 **If opponent successfully strips grips or creates significant space:**
-- Execute **[[Transition to side control]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Reset to standard turtle top control]]** → [[Turtle]] (Probability: 30%)
-- Execute **[[Attack with alternative submissions]]** → [[Guillotine Control]] (Probability: 20%)
+- Execute **[[Transition to side control]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Reset to standard turtle top control]]** → [[Positions/Turtle]] (Probability: 30%)
+- Execute **[[Attack with alternative submissions]]** → [[Positions/Guillotine Control]] (Probability: 20%)
 
 
 
@@ -407,16 +407,16 @@ Begin from turtle top without grips. Partner provides graduated resistance: Roun
 
 ## Related Positions and Techniques
 
-- **[[Turtle]]** - Primary starting position for buggy choke attack entries
-- **[[Buggy Choke]]** - Primary submission finish from this control position
-- **[[Back Control]]** - High-percentage transition when opponent sits to guard defending choke
-- **[[Crucifix]]** - Alternative attack when opponent extends far arm defensively
-- **[[Truck]]** - Transition target when opponent granby rolls to escape pressure
-- **[[Darce Control]]** - Switch option when opponent turns into buggy choke attack
-- **[[Anaconda Control]]** - Alternative front headlock finish from similar control
-- **[[Side Control]]** - Fallback position when grips are stripped but opponent remains flattened
-- **[[Front Headlock]]** - Related turtle attack with similar control and submission principles
-- **[[Guillotine Control]]** - Alternative turtle submission when buggy choke angle unavailable
+- **[[Positions/Turtle]]** - Primary starting position for buggy choke attack entries
+- **[[Positions/Buggy Choke]]** - Primary submission finish from this control position
+- **[[Positions/Back Control]]** - High-percentage transition when opponent sits to guard defending choke
+- **[[Positions/Crucifix]]** - Alternative attack when opponent extends far arm defensively
+- **[[Positions/Twister Control/Truck]]** - Transition target when opponent granby rolls to escape pressure
+- **[[Positions/Darce Control]]** - Switch option when opponent turns into buggy choke attack
+- **[[Positions/Anaconda Control]]** - Alternative front headlock finish from similar control
+- **[[Positions/Side Control]]** - Fallback position when grips are stripped but opponent remains flattened
+- **[[Positions/Front Headlock]]** - Related turtle attack with similar control and submission principles
+- **[[Positions/Guillotine Control]]** - Alternative turtle submission when buggy choke angle unavailable
 
 
 </section>

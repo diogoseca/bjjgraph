@@ -21,7 +21,7 @@ This transition exploits a fundamental positional reality: when opponents focus 
 
 From a systematic perspective, the leg drag to north-south fills an essential gap in the leg drag passing system. Without this option, determined defenders can effectively stall the leg drag position by maintaining strong shoulder frames and preventing the standard consolidation pathways. Adding north-south as a tertiary option creates a complete dilemma system: defend the back take, defend the mount, or defend north-south—but defending all three simultaneously becomes mechanically impossible. This transition is particularly effective against opponents who have strong frames but less mobile hips, as it punishes static defensive structures.
 
-**From Position**: [[Leg Drag Control]] (Top)
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ From a systematic perspective, the leg drag to north-south fills an essential ga
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[North-South]] | 65% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/North-South]] | 65% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -183,25 +183,25 @@ The leg drag to north-south transition serves as the third leg of a complete leg
 ## Related Techniques
 
 
-- [[Leg Drag Control]] - Starting position
+- [[Positions/Leg Drag Control]] - Starting position
 
-- [[North-South]] - Target position
+- [[Positions/North-South]] - Target position
 
-- [[Leg Drag to Mount]] - Alternative consolidation from same position
+- [[Transitions/Leg Drag to Mount]] - Alternative consolidation from same position
 
-- [[Leg Drag Pass to Side Control]] - Alternative consolidation from same position
+- [[Transitions/Leg Drag Pass to Side Control]] - Alternative consolidation from same position
 
-- [[Leg Drag to Back Take]] - Alternative when opponent turns away
+- [[Transitions/Leg Drag to Back Take]] - Alternative when opponent turns away
 
-- [[North-South to Kimura]] - Primary submission follow-up from target position
+- [[Transitions/North-South to Kimura]] - Primary submission follow-up from target position
 
-- [[Arm Triangle from Front Headlock]] - Submission option during transition
+- [[Transitions/Arm Triangle from Front Headlock]] - Submission option during transition
 
-- [[Leg Drag to Knee on Belly]] - Alternative pressure option from leg drag
+- [[Transitions/Leg Drag to Knee on Belly]] - Alternative pressure option from leg drag
 
-- [[North-South Choke]] - High-percentage choke available upon consolidation
+- [[Transitions/North-South Choke]] - High-percentage choke available upon consolidation
 
-- [[North-South Escape]] - Defender's primary escape technique from target position
+- [[Transitions/North-South Escape]] - Defender's primary escape technique from target position
 
 
 </section>

@@ -97,23 +97,23 @@ In competition contexts, High Mount represents the culmination of successful pas
 ### Available Transitions
 
 
-- **[[Upa Escape]]** (12% of attempts)
+- **[[Transitions/Upa Escape]]** (12% of attempts)
 
-- **[[Elbow Escape to Guard]]** (32% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (32% of attempts)
 
-- **[[Bridge and Roll]]** (9% of attempts)
+- **[[Transitions/Bridge and Roll]]** (9% of attempts)
 
-- **[[Shrimp Escape]]** (12% of attempts)
+- **[[Transitions/Shrimp Escape]]** (12% of attempts)
 
-- **[[Hip Escape to Guard]]** (15% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (15% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (13% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (13% of attempts)
 
-- **[[Bridge to Mount from High Mount]]** (4% of attempts)
+- **[[Transitions/Bridge to Mount from High Mount]]** (4% of attempts)
 
-- **[[Frame Escape from High Mount]]** (2% of attempts)
+- **[[Transitions/Frame Escape from High Mount]]** (2% of attempts)
 
-- **[[Trap and Roll from High Mount]]** (1% of attempts)
+- **[[Transitions/Trap and Roll from High Mount]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -178,31 +178,31 @@ In competition contexts, High Mount represents the culmination of successful pas
 ### Available Transitions
 
 
-- **[[Mount to Armbar]]** (21% of attempts)
+- **[[Transitions/Mount to Armbar]]** (21% of attempts)
 
-- **[[Cross Collar Choke]]** (12% of attempts)
+- **[[Transitions/Cross Collar Choke]]** (12% of attempts)
 
-- **[[Americana]]** (9% of attempts)
+- **[[Transitions/Americana]]** (9% of attempts)
 
-- **[[Triangle from Mount]]** (9% of attempts)
+- **[[Transitions/Triangle from Mount]]** (9% of attempts)
 
-- **[[Kimura]]** (9% of attempts)
+- **[[Transitions/Kimura]]** (9% of attempts)
 
-- **[[Arm Triangle]]** (7% of attempts)
+- **[[Transitions/Arm Triangle]]** (7% of attempts)
 
-- **[[Gift Wrap Transition]]** (7% of attempts)
+- **[[Transitions/Gift Wrap Transition]]** (7% of attempts)
 
-- **[[Mounted Triangle]]** (6% of attempts)
+- **[[Positions/Mount/Mounted Triangle]]** (6% of attempts)
 
-- **[[S-Mount Transition]]** (7% of attempts)
+- **[[Transitions/S-Mount Transition]]** (7% of attempts)
 
-- **[[Mounted Crucifix Entry]]** (6% of attempts)
+- **[[Transitions/Mounted Crucifix Entry]]** (6% of attempts)
 
-- **[[High Mount to S Mount]]** (3% of attempts)
+- **[[Transitions/High Mount to S Mount]]** (3% of attempts)
 
-- **[[Armbar from High Mount]]** (2% of attempts)
+- **[[Submissions/Armbar from High Mount]]** (2% of attempts)
 
-- **[[Cross Collar Choke from High Mount]]** (2% of attempts)
+- **[[Submissions/Cross Collar Choke from High Mount]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -245,25 +245,25 @@ In competition contexts, High Mount represents the culmination of successful pas
 ## Related Positions
 
 
-- **[[Mount]]** - Parent position from which High Mount is established through progressive knee walking
+- **[[Positions/Mount]]** - Parent position from which High Mount is established through progressive knee walking
 
-- **[[S Mount]]** - Natural advancement when opponent attempts to push on hips or create distance with frames
+- **[[Positions/Mount/S Mount]]** - Natural advancement when opponent attempts to push on hips or create distance with frames
 
-- **[[Technical Mount]]** - Alternative progression when opponent turns to side attempting elbow-based escapes
+- **[[Positions/Mount/Technical Mount]]** - Alternative progression when opponent turns to side attempting elbow-based escapes
 
-- **[[Modified Mount]]** - Related mount variation with different weight distribution and control mechanics
+- **[[Positions/Mount/Modified Mount]]** - Related mount variation with different weight distribution and control mechanics
 
-- **[[Armbar Control]]** - Primary submission target with highest success rate from High Mount position
+- **[[Positions/Armbar Control]]** - Primary submission target with highest success rate from High Mount position
 
-- **[[Triangle Control]]** - Submission option available when opponent extends arms for defensive frames
+- **[[Positions/Triangle Control]]** - Submission option available when opponent extends arms for defensive frames
 
-- **[[Gift Wrap]]** - Arm control position leading to back take or submission opportunities
+- **[[Positions/Gift Wrap]]** - Arm control position leading to back take or submission opportunities
 
-- **[[North-South]]** - Transition option when opponent creates significant bridge and attempts rotation
+- **[[Positions/North-South]]** - Transition option when opponent creates significant bridge and attempts rotation
 
-- **[[Kimura Trap]]** - Shoulder lock control position accessible when opponent defends with bent arms
+- **[[Positions/Kimura Trap]]** - Shoulder lock control position accessible when opponent defends with bent arms
 
-- **[[Mounted Crucifix]]** - Advanced control variation isolating both arms for submission attacks
+- **[[Positions/Mount/Mounted Crucifix]]** - Advanced control variation isolating both arms for submission attacks
 
 
 </section>

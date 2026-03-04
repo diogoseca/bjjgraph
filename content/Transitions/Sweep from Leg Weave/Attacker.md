@@ -180,7 +180,7 @@ description: "Learn to execute the Sweep from Leg Weave as the bottom player. St
 
 As the bottom player caught in the leg weave, you are in a high-pressure defensive position where the passer has threaded their leg through your guard and is driving to complete the pass. The sweep converts this disadvantage into a direct reversal by exploiting the mechanical constraints that the leg weave creates for the passer. The key insight is that the passer's threaded leg, which gives them control, simultaneously limits their ability to post and recover base when you generate rotational force through an underhook and bridge combination. Success requires precise timing, the discipline to secure your grips before committing, and the explosive coordination to execute the reversal in one committed movement. This is not a technique you can attempt half-heartedly; partial commitment results in wasted energy and potential acceleration of the pass.
 
-**From Position**: [[Leg Weave]] (Bottom)
+**From Position**: [[Positions/Leg Weave]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player caught in the leg weave, you are in a high-pressure defensi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Leg Weave]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Leg Weave]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the bottom player caught in the leg weave, you are in a high-pressure defensi
 
 ## Opponent Counters
 
-- **Passer sprawls hips back and drops weight to kill the bridge momentum before the sweep develops** (Effectiveness: High) - Your Response: When the passer sprawls back, they create space in front of their hips. Abandon the sweep and immediately transition to deep half guard entry by diving your head underneath their base, using their backward retreat as the opening for the entry. → Leads to [[Leg Weave]]
-- **Passer posts their free hand wide on the mat to stop the roll before it completes** (Effectiveness: Medium) - Your Response: If you failed to control their posting arm, use the partial momentum to come up to dogfight position rather than completing the roll. From dogfight, finish the sweep with a forward drive or single leg-style takedown. → Leads to [[Leg Weave]]
-- **Passer strips the underhook by driving their shoulder into your chest and swimming their arm free** (Effectiveness: High) - Your Response: Without the underhook, the sweep is not viable. Immediately transition to defensive frames and work for knee shield recovery or a secondary underhook attempt. Do not attempt the sweep without the primary lever established. → Leads to [[Leg Weave]]
-- **Passer crossfaces hard and drives forward pressure to flatten you before you can establish the sweep angle** (Effectiveness: High) - Your Response: Use the aggressive forward drive against them by redirecting into a deep half entry. Their committed forward weight becomes momentum for your dive underneath. If deep half is not available, focus on framing to prevent flattening and reset the underhook fight. → Leads to [[Side Control]]
+- **Passer sprawls hips back and drops weight to kill the bridge momentum before the sweep develops** (Effectiveness: High) - Your Response: When the passer sprawls back, they create space in front of their hips. Abandon the sweep and immediately transition to deep half guard entry by diving your head underneath their base, using their backward retreat as the opening for the entry. → Leads to [[Positions/Leg Weave]]
+- **Passer posts their free hand wide on the mat to stop the roll before it completes** (Effectiveness: Medium) - Your Response: If you failed to control their posting arm, use the partial momentum to come up to dogfight position rather than completing the roll. From dogfight, finish the sweep with a forward drive or single leg-style takedown. → Leads to [[Positions/Leg Weave]]
+- **Passer strips the underhook by driving their shoulder into your chest and swimming their arm free** (Effectiveness: High) - Your Response: Without the underhook, the sweep is not viable. Immediately transition to defensive frames and work for knee shield recovery or a secondary underhook attempt. Do not attempt the sweep without the primary lever established. → Leads to [[Positions/Leg Weave]]
+- **Passer crossfaces hard and drives forward pressure to flatten you before you can establish the sweep angle** (Effectiveness: High) - Your Response: Use the aggressive forward drive against them by redirecting into a deep half entry. Their committed forward weight becomes momentum for your dive underneath. If deep half is not available, focus on framing to prevent flattening and reset the underhook fight. → Leads to [[Positions/Side Control]]
 
 
 </section>

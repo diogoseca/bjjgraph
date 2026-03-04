@@ -182,7 +182,7 @@ description: "Learn to finish the Rear Naked Choke from Rodeo Ride. Step-by-step
 
 Executing the Rear Naked Choke from Rodeo Ride requires integrating positional control with finishing mechanics in a dynamic, transitional context. Unlike the standard RNC from established back control where hooks and seat belt provide a stable platform, this variation demands that you maintain the asymmetric Rodeo Ride control while threading the choking arm and completing the strangle. The key challenge is timing your choke entry to coincide with moments when your positional control is strongest—typically after you have compromised the opponent's base through pressure cycling and secured near-arm control. Success depends on your ability to maintain chest-to-back pressure throughout the entire finishing sequence, using hip weight and leg positioning to prevent escape rather than relying on hooks you do not have. Advanced practitioners treat the choke entry as part of a broader attacking sequence where the threat of back takes, calf slicers, and crucifix entries forces the opponent into defensive dilemmas that expose the neck.
 
-**From Position**: [[Rodeo Ride]] (Top)
+**From Position**: [[Positions/Rodeo Ride]] (Top)
 
 
 </section>
@@ -237,9 +237,9 @@ Executing the Rear Naked Choke from Rodeo Ride requires integrating positional c
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Rodeo Ride]] | 20% |
-| Failure | [[Back Control]] | 15% |
-| Counter | [[Turtle]] | 15% |
+| Failure | [[Positions/Rodeo Ride]] | 20% |
+| Failure | [[Positions/Back Control]] | 15% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ Executing the Rear Naked Choke from Rodeo Ride requires integrating positional c
 
 ## Opponent Defenses
 
-- **Opponent tucks chin aggressively and uses both hands to protect neck, preventing arm threading** (Effectiveness: High) - Your Response: Use your choking hand knuckles to work over the chin line, applying pressure to the jaw to create entry. Alternatively, switch to a short choke grip over the chin or transition to attacking the near arm for a crucifix entry that removes their defensive hands. → Leads to [[Rodeo Ride]]
-- **Opponent explosively posts and stands to feet, using the lack of hooks to create separation** (Effectiveness: Medium) - Your Response: Follow the stand-up by maintaining chest connection and harness control. Transition to standing back control and either complete the choke standing or execute a mat return to grounded back control where you can establish hooks before reattempting. → Leads to [[Turtle]]
-- **Opponent strips the choking arm with a two-on-one grip, peeling it away from the neck** (Effectiveness: High) - Your Response: Immediately re-establish seat belt control with the freed arm on the over-shoulder side. Use the momentary two-on-one commitment of their hands to attack with the other arm or transition to a calf slicer or back take while their hands are occupied fighting your arm rather than defending position. → Leads to [[Rodeo Ride]]
-- **Opponent rolls laterally to create a scramble and break the chest connection** (Effectiveness: Medium) - Your Response: Follow the roll by maintaining your chest glued to their back and adjusting your leg position to stay on top throughout the rotation. If you maintain connection, the roll often improves your position by transitioning toward full back control. If separation occurs, immediately re-engage to prevent guard recovery. → Leads to [[Turtle]]
+- **Opponent tucks chin aggressively and uses both hands to protect neck, preventing arm threading** (Effectiveness: High) - Your Response: Use your choking hand knuckles to work over the chin line, applying pressure to the jaw to create entry. Alternatively, switch to a short choke grip over the chin or transition to attacking the near arm for a crucifix entry that removes their defensive hands. → Leads to [[Positions/Rodeo Ride]]
+- **Opponent explosively posts and stands to feet, using the lack of hooks to create separation** (Effectiveness: Medium) - Your Response: Follow the stand-up by maintaining chest connection and harness control. Transition to standing back control and either complete the choke standing or execute a mat return to grounded back control where you can establish hooks before reattempting. → Leads to [[Positions/Turtle]]
+- **Opponent strips the choking arm with a two-on-one grip, peeling it away from the neck** (Effectiveness: High) - Your Response: Immediately re-establish seat belt control with the freed arm on the over-shoulder side. Use the momentary two-on-one commitment of their hands to attack with the other arm or transition to a calf slicer or back take while their hands are occupied fighting your arm rather than defending position. → Leads to [[Positions/Rodeo Ride]]
+- **Opponent rolls laterally to create a scramble and break the chest connection** (Effectiveness: Medium) - Your Response: Follow the roll by maintaining your chest glued to their back and adjusting your leg position to stay on top throughout the rotation. If you maintain connection, the roll often improves your position by transitioning toward full back control. If separation occurs, immediately re-engage to prevent guard recovery. → Leads to [[Positions/Turtle]]
 
 
 </section>

@@ -99,27 +99,27 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 ### Available Transitions
 
 
-- **[[Worm Guard Entry]]** (16% of attempts)
+- **[[Transitions/Worm Guard Entry]]** (16% of attempts)
 
-- **[[Squid Guard Entry]]** (12% of attempts)
+- **[[Transitions/Squid Guard Entry]]** (12% of attempts)
 
-- **[[Ringworm Guard Entry]]** (5% of attempts)
+- **[[Transitions/Ringworm Guard Entry]]** (5% of attempts)
 
-- **[[Lapel Sweep to Back]]** (22% of attempts)
+- **[[Transitions/Lapel Sweep to Back]]** (22% of attempts)
 
-- **[[Lapel Omoplata Entry]]** (8% of attempts)
+- **[[Transitions/Lapel Omoplata Entry]]** (8% of attempts)
 
-- **[[Lapel Triangle Setup]]** (6% of attempts)
+- **[[Transitions/Lapel Triangle Setup]]** (6% of attempts)
 
-- **[[Lapel to Lasso Guard]]** (7% of attempts)
+- **[[Transitions/Lapel to Lasso Guard]]** (7% of attempts)
 
-- **[[Lapel to Spider Guard]]** (7% of attempts)
+- **[[Transitions/Lapel to Spider Guard]]** (7% of attempts)
 
-- **[[Lapel to De La Riva]]** (7% of attempts)
+- **[[Transitions/Lapel to De La Riva]]** (7% of attempts)
 
-- **[[Lapel Elevator Sweep]]** (8% of attempts)
+- **[[Transitions/Lapel Elevator Sweep]]** (8% of attempts)
 
-- **[[Lapel Guard to Piranha Guard]]** (2% of attempts)
+- **[[Transitions/Lapel Guard to Piranha Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -180,23 +180,23 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 ### Available Transitions
 
 
-- **[[Lapel Clear to Toreando Pass]]** (12% of attempts)
+- **[[Transitions/Lapel Clear to Toreando Pass]]** (12% of attempts)
 
-- **[[Backstep Around Worm Guard]]** (16% of attempts)
+- **[[Transitions/Backstep Around Worm Guard]]** (16% of attempts)
 
-- **[[Pressure Pass Through Squid]]** (11% of attempts)
+- **[[Transitions/Pressure Pass Through Squid]]** (11% of attempts)
 
-- **[[Knee Slice Despite Lapel]]** (12% of attempts)
+- **[[Transitions/Knee Slice Despite Lapel]]** (12% of attempts)
 
-- **[[Long Step Around Ringworm]]** (11% of attempts)
+- **[[Transitions/Long Step Around Ringworm]]** (11% of attempts)
 
-- **[[Stack Pass Over Lapel Barrier]]** (9% of attempts)
+- **[[Transitions/Stack Pass Over Lapel Barrier]]** (9% of attempts)
 
-- **[[Distance Creation to Reset]]** (8% of attempts)
+- **[[Transitions/Distance Creation to Reset]]** (8% of attempts)
 
-- **[[Leg Drag While Clearing Lapel]]** (11% of attempts)
+- **[[Transitions/Leg Drag While Clearing Lapel]]** (11% of attempts)
 
-- **[[Leg Extraction from Lapel Wrap]]** (10% of attempts)
+- **[[Transitions/Leg Extraction from Lapel Wrap]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -235,25 +235,25 @@ The energy dynamics of lapel guard favor the bottom player in extended exchanges
 ## Related Positions
 
 
-- **[[Worm Guard]]** - Primary lapel guard variation using lapel wrapped around opponent's leg
+- **[[Positions/Worm Guard]]** - Primary lapel guard variation using lapel wrapped around opponent's leg
 
-- **[[Squid Guard]]** - Lapel guard variation with lapel wrapped around opponent's arm
+- **[[Positions/Squid Guard]]** - Lapel guard variation with lapel wrapped around opponent's arm
 
-- **[[Ringworm Guard]]** - Advanced lapel configuration combining worm and squid elements
+- **[[Positions/Ringworm Guard]]** - Advanced lapel configuration combining worm and squid elements
 
-- **[[Collar Sleeve Guard]]** - Traditional guard that transitions naturally into lapel configurations
+- **[[Positions/Collar Sleeve Guard]]** - Traditional guard that transitions naturally into lapel configurations
 
-- **[[Spider Guard]]** - Complementary guard that shares grip strategies and can combine with lapel grips
+- **[[Positions/Spider Guard]]** - Complementary guard that shares grip strategies and can combine with lapel grips
 
-- **[[Lasso Guard]]** - Traditional guard with similar control principles using leg entanglement
+- **[[Positions/Lasso Guard]]** - Traditional guard with similar control principles using leg entanglement
 
-- **[[De La Riva Guard]]** - Often used as entry position before establishing lapel configurations
+- **[[Positions/De La Riva Guard]]** - Often used as entry position before establishing lapel configurations
 
-- **[[Seated Guard]]** - Common position for initiating lapel extractions and configurations
+- **[[Positions/Seated Guard]]** - Common position for initiating lapel extractions and configurations
 
-- **[[Closed Guard]]** - Can transition to lapel guards when opponent begins to open guard
+- **[[Positions/Closed Guard]]** - Can transition to lapel guards when opponent begins to open guard
 
-- **[[Half Guard]]** - Backup position when lapel guard is partially passed
+- **[[Positions/Half Guard]]** - Backup position when lapel guard is partially passed
 
 
 </section>

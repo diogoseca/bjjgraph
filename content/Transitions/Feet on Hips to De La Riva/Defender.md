@@ -146,7 +146,7 @@ description: "Defend against the feet on hips to De La Riva guard transition. Re
 
 As the top player facing an opponent in feet on hips guard, your primary concern is preventing them from upgrading to a more dangerous guard system like De La Riva. The DLR transition represents a significant threat escalation because it converts a manageable distance-management position into an angular, hook-based guard with sweeps, back takes, and leg entanglement pathways. Recognizing the transition attempt early and executing an immediate counter is far more effective than trying to dismantle an already-established DLR guard. Your defensive strategy centers on denying the hooking opportunity through stance management, grip fighting, and proactive forward pressure that keeps the guard player reactive rather than initiating.
 
-**Opponent's Starting Position**: [[Feet on Hips Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Feet on Hips Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the top player facing an opponent in feet on hips guard, your primary concern
 ### 1. Strip ankle or pants grip on lead leg and circle away from the hooking attempt
 
 - **When to use**: As soon as you feel one foot leave your hip and see the bottom player reaching for your ankle or pants on the lead leg side
-- **Targets**: [[Feet on Hips Guard]]
+- **Targets**: [[Positions/Feet on Hips Guard]]
 - **If successful**: Bottom player fails to establish DLR and must replace their foot on your hip, resetting to the original guard position without having gained any offensive advantage
 - **Risk**: Circling creates a slight angle that could expose you to the other side if you over-commit to the defensive direction
 
 ### 2. Drive forward with heavy pressure to flatten the bottom player's hips before the hook threads
 
 - **When to use**: When you detect the bottom player removing their foot and beginning to angle their hips for the hook, but before the leg has circled behind your knee
-- **Targets**: [[Feet on Hips Guard]]
+- **Targets**: [[Positions/Feet on Hips Guard]]
 - **If successful**: Forward pressure prevents the hip rotation needed for hook threading and may create a guard passing opportunity as the bottom player scrambles to recover their frames
 - **Risk**: If the bottom player reads your forward pressure early, they can redirect it into a sweep using their remaining foot and upper body grips
 
 ### 3. Backstep your lead leg and initiate a pass as the bottom player commits to the hook
 
 - **When to use**: When the hook has begun threading but is not yet secured with an ankle grip, creating a narrow window where the partially committed bottom player is most vulnerable
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You extract your leg from the partial hook and achieve a dominant passing angle, capitalizing on the bottom player's guard being in transition with compromised structure
 - **Risk**: If you backstep too late after the ankle grip is secured, you may drag the bottom player with you and inadvertently deepen their DLR hook position
 
 ### 4. Grab the hooking ankle and pin it to the mat before the hook fully wraps behind your knee
 
 - **When to use**: When you see the bottom player's leg circling toward the outside of your lead knee and you have a free hand available to intercept
-- **Targets**: [[Feet on Hips Guard]]
+- **Targets**: [[Positions/Feet on Hips Guard]]
 - **If successful**: You control the hooking foot and can push it back to your hip or to the mat, preventing the DLR establishment entirely and maintaining your passing position
 - **Risk**: Using your hand to control the ankle means releasing your own passing grip, potentially allowing the bottom player to establish different upper body control for alternative guard transitions
 
@@ -217,11 +217,11 @@ As the top player facing an opponent in feet on hips guard, your primary concern
 
 ## Best-Case Outcomes for Defender
 
-### → [[Feet on Hips Guard]]
+### → [[Positions/Feet on Hips Guard]]
 
 Deny the hook by maintaining a squared stance, controlling the bottom player's ankles, and immediately stripping any hooking attempt. React to the first sign of transition by closing distance or circling to prevent the hook from threading behind your knee.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Capitalize on the transition attempt by backstepping your lead leg and immediately initiating a pass while the bottom player's guard structure is compromised. The moment between feet-on-hips and DLR establishment is the bottom player's most vulnerable window, and a well-timed pass can break through their guard entirely.
 

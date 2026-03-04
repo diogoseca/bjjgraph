@@ -184,7 +184,7 @@ This entry capitalizes on the opponent's standing posture above your inverted gu
 
 Strategically, the Straight Ankle Lock Entry serves as the primary submission-oriented exit from grasshopper guard when sweep opportunities stall. It pairs naturally with kneebar attacks from the same position, forcing the opponent to defend both the knee and ankle simultaneously. Against opponents who stand tall and wide to neutralize your sweeping game, the ankle lock entry punishes their conservative posture by attacking the most exposed target - the lead foot planted closest to your inverted body.
 
-**From Position**: [[Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
 
@@ -238,10 +238,10 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Straight Ankle Lock Control]] | 55% |
-| Success | [[Outside Ashi-Garami]] | 10% |
-| Failure | [[Grasshopper Guard]] | 20% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Straight Ankle Lock Control]] | 55% |
+| Success | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 10% |
+| Failure | [[Positions/Grasshopper Guard]] | 20% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 
 ## Opponent Counters
 
-- **Opponent immediately back steps and circles away before you can capture the ankle, using distance to deny your entry** (Effectiveness: High) - Your Response: Anticipate the back step and follow with a re-inversion roll in the same direction. As they circle, your rolling momentum carries your legs into Outside Ashi-Garami on their retreating leg, converting the failed ankle lock attempt into a different leg entanglement → Leads to [[Outside Ashi-Garami]]
-- **Opponent drives forward with a stack pass, folding your inverted body and collapsing your hip elevation before you complete the entry** (Effectiveness: High) - Your Response: Use the forward pressure for a Granby roll to recover closed guard or seated guard. If the stack develops slowly, convert to an X-Guard entry by hooking both feet into their hips and using their forward drive as sweep momentum → Leads to [[Grasshopper Guard]]
-- **Opponent strips your ankle grip by pushing your hands off and pulling their foot free while your legs are still establishing the figure-four** (Effectiveness: Medium) - Your Response: If the grip is broken before the figure-four is locked, immediately transition to a kneebar attack on the same leg. The opponent's hand-fighting to strip your grip commits their upper body forward, exposing their knee for a rolling kneebar entry → Leads to [[Grasshopper Guard]]
-- **Opponent sits down or drops to their knees to nullify the standing ankle attack angle and begins working to pass your guard from a kneeling position** (Effectiveness: Medium) - Your Response: Their level change opens direct paths to Inside Ashi-Garami. As they kneel, thread your legs deeper and transition to a seated leg entanglement where your grasshopper mechanics convert into standard Ashi Garami entries with superior hip control → Leads to [[Straight Ankle Lock Control]]
+- **Opponent immediately back steps and circles away before you can capture the ankle, using distance to deny your entry** (Effectiveness: High) - Your Response: Anticipate the back step and follow with a re-inversion roll in the same direction. As they circle, your rolling momentum carries your legs into Outside Ashi-Garami on their retreating leg, converting the failed ankle lock attempt into a different leg entanglement → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Opponent drives forward with a stack pass, folding your inverted body and collapsing your hip elevation before you complete the entry** (Effectiveness: High) - Your Response: Use the forward pressure for a Granby roll to recover closed guard or seated guard. If the stack develops slowly, convert to an X-Guard entry by hooking both feet into their hips and using their forward drive as sweep momentum → Leads to [[Positions/Grasshopper Guard]]
+- **Opponent strips your ankle grip by pushing your hands off and pulling their foot free while your legs are still establishing the figure-four** (Effectiveness: Medium) - Your Response: If the grip is broken before the figure-four is locked, immediately transition to a kneebar attack on the same leg. The opponent's hand-fighting to strip your grip commits their upper body forward, exposing their knee for a rolling kneebar entry → Leads to [[Positions/Grasshopper Guard]]
+- **Opponent sits down or drops to their knees to nullify the standing ankle attack angle and begins working to pass your guard from a kneeling position** (Effectiveness: Medium) - Your Response: Their level change opens direct paths to Inside Ashi-Garami. As they kneel, thread your legs deeper and transition to a seated leg entanglement where your grasshopper mechanics convert into standard Ashi Garami entries with superior hip control → Leads to [[Positions/Straight Ankle Lock Control]]
 
 
 </section>

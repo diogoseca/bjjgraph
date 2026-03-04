@@ -154,7 +154,7 @@ description: "Learn to defend against the Overhook to Half Guard transition as t
 
 As the top player defending against the Overhook to Half Guard transition, your primary objective is preventing the bottom player from converting their diminishing overhook control into a more sustainable half guard position. The transition represents a critical moment where the bottom player is vulnerable because they must temporarily compromise their existing control structure to establish new hooks and frames. Recognizing the initiation cues and responding within the 2-3 second transition window is essential for capitalizing on this vulnerability. Your defensive strategy combines maintaining forward pressure to deny the hip escape space, controlling the bottom player's knee line to prevent leg insertion, and being prepared to advance position through passing when the bottom player's guard structure is weakened during the conversion attempt.
 
-**Opponent's Starting Position**: [[Overhook Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Overhook Control]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ As the top player defending against the Overhook to Half Guard transition, your 
 ### 1. Drive heavy forward pressure through the transition attempt to collapse the hip escape space
 
 - **When to use**: Immediately when you detect the initial hip shift, before the inside leg begins moving toward the insertion path
-- **Targets**: [[Overhook Control]]
+- **Targets**: [[Positions/Overhook Control]]
 - **If successful**: Bottom player's hip escape is denied, they remain flat in overhook control with diminishing grip effectiveness, giving you continued passing opportunities
 - **Risk**: If you overcommit forward and the bottom player redirects your momentum, they may use it to accelerate their half guard entry or convert to a butterfly sweep
 
 ### 2. Backstep and circle to the overhook side to advance past the guard during the transition window
 
 - **When to use**: When you recognize the transition attempt has begun and the bottom player has committed to the hip escape, creating a brief window where their guard structure is between positions
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You advance past the compromised guard to establish side control, converting their transition attempt into a successful guard pass
 - **Risk**: If the bottom player recognizes your backstep early and abandons the transition, they may retain overhook control or establish a different guard recovery
 
 ### 3. Control the inside knee by pressing it to the mat with your hand to block the threading path
 
 - **When to use**: When you feel the bottom player's inside knee beginning to angle inward toward the gap between your legs
-- **Targets**: [[Overhook Control]]
+- **Targets**: [[Positions/Overhook Control]]
 - **If successful**: The leg insertion is mechanically blocked, the bottom player cannot establish half guard hooks, and they must either reattempt from a different angle or abandon the transition
 - **Risk**: Redirecting one hand to knee control may reduce your upper body base, potentially creating space for the bottom player to complete a different guard transition
 
 ### 4. Capture the threading leg and pin it with your knee while driving your hips toward side control
 
 - **When to use**: When the inside leg has partially threaded but the half guard hooks are not yet secured, catching the leg in transit before it can lock behind your knee
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You trap their leg in a compromised position and advance directly through to side control, converting the failed half guard attempt into a guard pass
 - **Risk**: If the bottom player's leg is deeper than you estimated, pinning it may accidentally help them establish the half guard entanglement
 
@@ -224,11 +224,11 @@ As the top player defending against the Overhook to Half Guard transition, your 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Drive forward through the transition window with heavy chest pressure before half guard hooks are established, converting the bottom player's guard transition attempt into a guard pass to side control. The 2-3 second window where their guard structure is between positions is your best opportunity to advance.
 
-### → [[Overhook Control]]
+### → [[Positions/Overhook Control]]
 
 Prevent the transition entirely by maintaining constant hip pressure and controlling the bottom player's knee line, forcing them to remain in diminishing overhook position where their grip continues to degrade and your passing options improve with each passing second.
 

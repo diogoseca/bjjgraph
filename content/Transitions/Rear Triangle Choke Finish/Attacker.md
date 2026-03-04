@@ -180,7 +180,7 @@ description: "Master the attacking mechanics of the Rear Triangle Choke Finish. 
 
 The Rear Triangle Choke Finish from the attacker's perspective is a systematic squeeze sequence that converts the positional dominance of the rear triangle into a submission. The attacker must optimize three mechanical elements simultaneously: hip angle toward the trapped arm, knee compression to eliminate space, and posture control to prevent defensive frames. The finish rewards patience and precision over raw strength—the attacker who understands the biomechanics of bilateral carotid compression will achieve taps with minimal energy expenditure while maintaining positional security throughout the attempt. When the choke is defended, the attacker cycles seamlessly to armbar attacks on the trapped arm or releases the triangle for a rear naked choke, creating the multi-threat pressure that overwhelms experienced defenders.
 
-**From Position**: [[Rear Triangle]] (Top)
+**From Position**: [[Positions/Triangle Control/Rear Triangle]] (Top)
 
 </section>
 
@@ -233,8 +233,8 @@ The Rear Triangle Choke Finish from the attacker's perspective is a systematic s
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Rear Triangle]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Failure | [[Positions/Triangle Control/Rear Triangle]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Rear Triangle Choke Finish from the attacker's perspective is a systematic s
 
 ## Opponent Counters
 
-- **Opponent grips the choking leg with both hands to prevent tightening and create space** (Effectiveness: High) - Your Response: Strip one grip by peeling fingers or redirecting the wrist with your free hand. If the two-hand grip persists, increase hip angle and consider transitioning to armbar on the trapped arm since both their hands are occupied with your leg. → Leads to [[Rear Triangle]]
-- **Opponent attempts arm extraction by pulling the trapped arm free from the triangle** (Effectiveness: Medium) - Your Response: Tighten the triangle lock immediately by squeezing knees together and angle hips further toward the trapped arm to pin it against their neck. Use your hands to fight the extraction by controlling their wrist or elbow. → Leads to [[Back Control]]
-- **Opponent bridges explosively to create space between your chest and their back** (Effectiveness: Medium) - Your Response: Follow with your hips to close the gap before they can rotate or extend. Re-establish chest-to-back contact and use the bridging momentum to extend your own hips for the finish. If significant space is created, re-tighten the triangle before resuming the squeeze. → Leads to [[Rear Triangle]]
-- **Opponent tucks chin aggressively and turns face toward non-choking side to protect carotid arteries** (Effectiveness: Low) - Your Response: Increase angle toward the trapped arm side to attack the carotid from behind the jaw line where chin position provides minimal protection. Use your free hand to pull their head forward and down, compounding the choking pressure despite the chin tuck. → Leads to [[Rear Triangle]]
+- **Opponent grips the choking leg with both hands to prevent tightening and create space** (Effectiveness: High) - Your Response: Strip one grip by peeling fingers or redirecting the wrist with your free hand. If the two-hand grip persists, increase hip angle and consider transitioning to armbar on the trapped arm since both their hands are occupied with your leg. → Leads to [[Positions/Triangle Control/Rear Triangle]]
+- **Opponent attempts arm extraction by pulling the trapped arm free from the triangle** (Effectiveness: Medium) - Your Response: Tighten the triangle lock immediately by squeezing knees together and angle hips further toward the trapped arm to pin it against their neck. Use your hands to fight the extraction by controlling their wrist or elbow. → Leads to [[Positions/Back Control]]
+- **Opponent bridges explosively to create space between your chest and their back** (Effectiveness: Medium) - Your Response: Follow with your hips to close the gap before they can rotate or extend. Re-establish chest-to-back contact and use the bridging momentum to extend your own hips for the finish. If significant space is created, re-tighten the triangle before resuming the squeeze. → Leads to [[Positions/Triangle Control/Rear Triangle]]
+- **Opponent tucks chin aggressively and turns face toward non-choking side to protect carotid arteries** (Effectiveness: Low) - Your Response: Increase angle toward the trapped arm side to attack the carotid from behind the jaw line where chin position provides minimal protection. Use your free hand to pull their head forward and down, compounding the choking pressure despite the chin tuck. → Leads to [[Positions/Triangle Control/Rear Triangle]]
 
 
 </section>

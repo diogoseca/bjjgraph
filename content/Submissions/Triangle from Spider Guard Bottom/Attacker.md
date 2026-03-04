@@ -182,7 +182,7 @@ description: "Learn to execute the Triangle Choke from Spider Guard Bottom. Step
 
 Executing the Triangle from Spider Guard Bottom requires mastering the transition from distance management to submission finishing. The attacker sequences three distinct phases: establishing dominant spider guard control with double sleeve grips and feet on biceps, isolating one arm across the centerline through coordinated push-pull mechanics, and completing the triangle lock with proper angle cutting and head control. Each phase builds on the previous one, and rushing any phase compromises the entire sequence. The key advantage of this entry is that spider guard provides superior arm isolation compared to most other triangle setups, because both of the opponent's arms are independently controlled through sleeve grips and foot pressure. This makes it a reliable competition weapon for gi practitioners who develop the timing to exploit grip-fighting reactions as triangle entry opportunities.
 
-**From Position**: [[Spider Guard]] (Bottom)
+**From Position**: [[Positions/Spider Guard]] (Bottom)
 
 
 </section>
@@ -236,9 +236,9 @@ Executing the Triangle from Spider Guard Bottom requires mastering the transitio
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Spider Guard]] | 30% |
-| Failure | [[Open Guard]] | 15% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Spider Guard]] | 30% |
+| Failure | [[Positions/Open Guard]] | 15% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -247,10 +247,10 @@ Executing the Triangle from Spider Guard Bottom requires mastering the transitio
 
 ## Opponent Defenses
 
-- **Opponent postures up forcefully before triangle is locked, using frame strength to create distance** (Effectiveness: High) - Your Response: Immediately pull the head down with both hands and extend your hips upward. If they generate significant upward force, overhook the trapped arm to create an anchor point. A properly cut angle makes posturing exponentially harder, so prioritize angle adjustment. → Leads to [[Spider Guard]]
-- **Opponent stacks through the triangle by driving weight forward, folding you onto your shoulders to relieve choking pressure** (Effectiveness: Medium) - Your Response: Frame against their hips with your hands to prevent full stacking. If stacked, transition to an omoplata by releasing the triangle lock and swinging your hips around the trapped arm. The stacking motion actually assists the omoplata entry by bringing their shoulder forward into the submission. → Leads to [[Half Guard]]
-- **Opponent strips the cross-grip and extracts the trapped arm before the triangle locks, returning to neutral spider guard engagement** (Effectiveness: High) - Your Response: If the arm begins extracting, immediately regrip and attempt to re-isolate. If extraction is too far advanced, retract your legs and re-establish spider guard control for another attempt. Use the failed triangle as a setup for an omoplata or armbar transition rather than forcing a compromised triangle. → Leads to [[Open Guard]]
-- **Opponent turns into the triangle toward the trapped arm side to relieve choking pressure and begin escape sequence** (Effectiveness: Low) - Your Response: Follow their turning motion with your hips to maintain the perpendicular angle. Their rotation actually assists your angle cut if you stay connected. Tighten the squeeze and increase downward head pressure to capitalize on the reduced space their turn creates between your thigh and their neck. → Leads to [[Spider Guard]]
+- **Opponent postures up forcefully before triangle is locked, using frame strength to create distance** (Effectiveness: High) - Your Response: Immediately pull the head down with both hands and extend your hips upward. If they generate significant upward force, overhook the trapped arm to create an anchor point. A properly cut angle makes posturing exponentially harder, so prioritize angle adjustment. → Leads to [[Positions/Spider Guard]]
+- **Opponent stacks through the triangle by driving weight forward, folding you onto your shoulders to relieve choking pressure** (Effectiveness: Medium) - Your Response: Frame against their hips with your hands to prevent full stacking. If stacked, transition to an omoplata by releasing the triangle lock and swinging your hips around the trapped arm. The stacking motion actually assists the omoplata entry by bringing their shoulder forward into the submission. → Leads to [[Positions/Half Guard]]
+- **Opponent strips the cross-grip and extracts the trapped arm before the triangle locks, returning to neutral spider guard engagement** (Effectiveness: High) - Your Response: If the arm begins extracting, immediately regrip and attempt to re-isolate. If extraction is too far advanced, retract your legs and re-establish spider guard control for another attempt. Use the failed triangle as a setup for an omoplata or armbar transition rather than forcing a compromised triangle. → Leads to [[Positions/Open Guard]]
+- **Opponent turns into the triangle toward the trapped arm side to relieve choking pressure and begin escape sequence** (Effectiveness: Low) - Your Response: Follow their turning motion with your hips to maintain the perpendicular angle. Their rotation actually assists your angle cut if you stay connected. Tighten the squeeze and increase downward head pressure to capitalize on the reduced space their turn creates between your thigh and their neck. → Leads to [[Positions/Spider Guard]]
 
 
 </section>

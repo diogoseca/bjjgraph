@@ -154,7 +154,7 @@ description: "Defend against the Stack from Williams Guard in BJJ. Learn recogni
 
 As the Williams Guard bottom player facing a stack pass attempt, your primary objective is to maintain shoulder lock control while preventing the top player from folding your hips over your head. The stack is one of the most direct threats to Williams Guard, using forward driving pressure to compress your guard structure and neutralize your shoulder lock mechanics. Effective defense requires early recognition of the stacking intent, immediate hip escape to create angles that prevent the fold, and strategic use of leg frames to manage the incoming pressure. Understanding when to maintain your grip versus when to transition to alternative attacks is critical, as the stack creates specific windows where omoplata transitions, guard recoveries, and counter sweeps become available based on the top player's weight distribution.
 
-**Opponent's Starting Position**: [[Williams Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Williams Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the Williams Guard bottom player facing a stack pass attempt, your primary ob
 ### 1. Hip escape to far side creating lateral angle that prevents the stacking fold
 
 - **When to use**: At the earliest sign of forward pressure before hips are elevated significantly from the mat
-- **Targets**: [[Williams Guard]]
+- **Targets**: [[Positions/Williams Guard]]
 - **If successful**: Maintain Williams Guard with improved angle for sweeps and continued shoulder lock pressure
 - **Risk**: If too slow, hip escape is blocked by free hand hip control and stack continues with increased pressure
 
 ### 2. Release shoulder lock grip and immediately establish knee shield or butterfly hook frames
 
 - **When to use**: When stacking pressure has progressed past the point where maintaining the shoulder lock grip provides functional control
-- **Targets**: [[Williams Guard]]
+- **Targets**: [[Positions/Williams Guard]]
 - **If successful**: Recover to half guard or open guard with defensive frames that prevent pass completion
 - **Risk**: Late release may not provide enough time to establish defensive frames before the pass is completed
 
 ### 3. Redirect stacking momentum into omoplata rotation by swinging leg over top player's shoulder
 
 - **When to use**: When hips are already elevated from the stack and forward momentum can be channeled into rotational movement
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Achieve omoplata control or complete sweep to top position, scoring reversal points
 - **Risk**: Incomplete rotation leaves you in a worse stacking position with arm exposed and guard compromised
 
 ### 4. Bridge explosively while redirecting top player's overcommitted momentum over your shoulder for counter sweep
 
 - **When to use**: When top player drives forward aggressively without maintaining adequate base, creating rollable momentum
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Reverse position completely, ending in half guard top or side control with sweep points scored
 - **Risk**: Failed bridge against a well-based opponent wastes energy and can result in losing shoulder lock grip without achieving reversal
 
@@ -225,11 +225,11 @@ As the Williams Guard bottom player facing a stack pass attempt, your primary ob
 
 ## Best-Case Outcomes for Defender
 
-### → [[Williams Guard]]
+### → [[Positions/Williams Guard]]
 
 Recognize the stack attempt early and immediately hip escape laterally to create an angle that prevents the top player from folding your hips. Maintain shoulder lock pressure while using leg frames to block forward advancement. The stack requires linear forward pressure, so lateral hip movement defeats the mechanic entirely and preserves your guard control.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a bridge and roll or omoplata transition when the top player's forward momentum creates a window of base vulnerability. Use their committed weight distribution against them by redirecting their forward drive over your shoulder or into a rotational sweep. The more aggressively they commit to the stack, the larger the counter sweep window becomes.
 

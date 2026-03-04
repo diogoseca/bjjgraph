@@ -154,7 +154,7 @@ description: "Learn to defend the Reverse Mount to Side Control transition. Reco
 
 When the opponent begins rotating from reverse mount toward side control, the defender faces a brief but critical window of opportunity. The rotation temporarily compromises the top player's base and creates gaps in pressure that can be exploited through well-timed bridges, frame insertion, or hip escape movements. The defender must recognize the rotation early through tactile pressure changes and respond immediately, because the window closes rapidly once the top player establishes crossface and settles perpendicular alignment. Successful defense either prevents the transition entirely by forcing the attacker to remain in the less stable reverse mount, or capitalizes on the rotation momentum to achieve a reversal into half guard top position. The defender's worst outcome is allowing a clean conversion to settled side control, which is significantly harder to escape than reverse mount.
 
-**Opponent's Starting Position**: [[Reverse Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Reverse Mount]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ When the opponent begins rotating from reverse mount toward side control, the de
 ### 1. Explosive bridge timed with mid-rotation when opponent's base is compromised
 
 - **When to use**: As soon as you feel the opponent's hips begin to rotate and their weight distribution becomes asymmetric during the transition
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The bridge disrupts the rotation and creates an opportunity to reverse position, potentially sweeping the top player into half guard bottom as their compromised base cannot absorb the upward force
 - **Risk**: If mistimed or too weak, the bridge is absorbed and the opponent completes the rotation with your bridge energy exhausted
 
 ### 2. Insert near-side knee between bodies during the rotation gap
 
 - **When to use**: When you feel the opponent's hip pressure momentarily lighten during mid-rotation, creating a gap between your hip and their body
-- **Targets**: [[Reverse Mount]]
+- **Targets**: [[Positions/Reverse Mount]]
 - **If successful**: Knee insertion prevents the rotation from completing and forces the opponent to either deal with your half guard recovery or abandon the transition and reset in reverse mount
 - **Risk**: If the opponent maintains strong hip blocking, the knee insertion fails and you waste energy that could have been used for other defensive options
 
 ### 3. Frame against rotating shoulder to prevent crossface establishment
 
 - **When to use**: As the opponent approaches perpendicular alignment and begins driving their shoulder toward your face for crossface control
-- **Targets**: [[Reverse Mount]]
+- **Targets**: [[Positions/Reverse Mount]]
 - **If successful**: The frame prevents crossface establishment, blocking the primary control mechanism that consolidates side control, and forces the opponent to either fight through the frame or abandon the transition
 - **Risk**: Extended arms during framing may expose you to kimura or americana attacks if the opponent recognizes the submission opportunity
 
 ### 4. Hip escape away from rotation direction during the transition
 
 - **When to use**: During the early phase of rotation when the opponent's weight begins shifting but crossface has not yet been established
-- **Targets**: [[Reverse Mount]]
+- **Targets**: [[Positions/Reverse Mount]]
 - **If successful**: Creates enough space to prevent the opponent from establishing perpendicular alignment, potentially allowing you to turn and face them or recover a guard position before they can consolidate
 - **Risk**: Requires significant hip mobility under pressure and may be ineffective if the opponent maintains heavy chest contact throughout the rotation
 
@@ -225,11 +225,11 @@ When the opponent begins rotating from reverse mount toward side control, the de
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive bridge during the mid-rotation phase when the top player's base is maximally compromised. The bridge exploits their transitional instability to create a reversal opportunity, catching their leg as they rotate to establish half guard with you on top. This requires precise timing and committed explosiveness.
 
-### → [[Reverse Mount]]
+### → [[Positions/Reverse Mount]]
 
 Insert frames and near-side knee early in the rotation attempt, forcing the top player to abandon the transition and reset in reverse mount. While still a disadvantageous position for you, reverse mount is significantly less stable than side control and provides better escape opportunities due to the top player's compromised visual awareness and reduced control sustainability.
 

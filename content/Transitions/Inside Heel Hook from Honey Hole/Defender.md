@@ -160,7 +160,7 @@ description: "Survive and escape the inside heel hook from Honey Hole in BJJ. Re
 
 Defending the inside heel hook from Honey Hole is a survival scenario, not a competitive position. The defender's leg is trapped in the opponent's inside leg triangle with the heel exposed for immediate heel hook attack. The timeline from grip establishment to potential knee damage is measured in seconds, making instant recognition and committed reaction essential. The defender's hierarchy of priorities is: prevent the heel grip from being established, strip the grip if it lands, escape via counter-entanglement or explosive hip movement, and tap immediately if breaking pressure begins. Half-committed escape attempts waste the narrow defensive window and accelerate the attacker's control. Every defensive action must be explosive, directional, and fully committed. The most important defensive skill is not a specific technique but rather the discipline to tap early when escape has failed—training longevity depends on recognizing when the submission is locked and accepting the tap rather than risking catastrophic knee injury.
 
-**Opponent's Starting Position**: [[Honey Hole]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Honey Hole]] (Top)
 
 </section>
 
@@ -199,28 +199,28 @@ Defending the inside heel hook from Honey Hole is a survival scenario, not a com
 ### 1. Explosive counter-entanglement rotation to 50-50 guard
 
 - **When to use**: Before the attacker secures the heel grip, when you feel the triangle but still have rotational freedom in your hips
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Converts the asymmetric Honey Hole disadvantage into symmetric 50-50 position where both players have equal leg lock access, neutralizing the attacker's positional dominance
 - **Risk**: If rotation is incomplete, you end up in a worse entanglement with the attacker maintaining inside position and your energy depleted from the failed attempt
 
 ### 2. Hide heel by curling toes and shielding foot with both hands
 
 - **When to use**: When escape attempts have failed but the attacker has not yet secured the heel grip—buys time for secondary escape attempts
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: Prevents the inside heel hook specifically, forcing the attacker to transition to alternative submissions (kneebar, toe hold) which may create new escape windows during the transition
 - **Risk**: Only delays the submission rather than solving the positional problem—attacker can chain to kneebar when heel is hidden, and prolonged time in Honey Hole bottom increases overall submission probability
 
 ### 3. Two-hand grip strip on the attacker's heel-cupping hand
 
 - **When to use**: When the attacker has secured the heel grip but has not yet initiated breaking pressure—the narrow window between grip and finish
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: Breaks the primary submission grip, forcing the attacker to re-establish the heel cup and creating a brief window for escape or defensive repositioning
 - **Risk**: Both hands committed to grip fighting leaves your body unable to generate escape movement—if the strip fails, you have no hands free to post or frame during the finish
 
 ### 4. Boot scoot retreat creating distance while fighting grips
 
 - **When to use**: When the attacker's triangle has slight slack and their hip pressure is not fully pinning you flat—requires some hip mobility within the entanglement
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: Creates enough distance to weaken the entanglement and potentially extract the trapped leg if the triangle loosens during the retreat
 - **Risk**: Boot scooting while the triangle is tight accomplishes nothing and drains energy—effective only when positional control has gaps
 
@@ -239,11 +239,11 @@ Defending the inside heel hook from Honey Hole is a survival scenario, not a com
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Execute explosive counter-entanglement rotation before the attacker secures the heel grip. Drive your free foot into their hip while rotating your trapped leg's knee toward their centerline, threading your legs into the symmetric 50-50 configuration. Commit fully to the rotation in the first one to two seconds of recognizing the Honey Hole—the window closes rapidly as the attacker settles control.
 
-### → [[Honey Hole]]
+### → [[Positions/Ashi Garami/Honey Hole]]
 
 Successfully defend the specific heel hook attempt through heel hiding, grip stripping, or boot scoot retreat without escaping the positional entanglement. While this leaves you still in Honey Hole bottom, each failed submission attempt by the attacker creates small transitional windows. Use these moments to attempt counter-entanglement or escape while the attacker is resetting their grip and position.
 

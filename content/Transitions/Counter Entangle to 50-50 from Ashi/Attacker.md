@@ -180,7 +180,7 @@ description: "Learn to execute the counter entangle to 50-50 from ashi garami. S
 
 As the attacker executing the counter entangle, your objective is to transition from Inside Ashi-Garami to 50-50 Guard by threading your free leg around the opponent's near leg to create a symmetrical entanglement. This technique is most effective when your opponent has successfully defended standard ashi garami attacks—particularly by rotating their knee inward or retracting their heel—and the 50-50 configuration offers superior attacking angles. The threading motion must be executed while maintaining heel control to prevent the opponent from using the transition as an escape opportunity. Timing the thread to coincide with the opponent's defensive movement is critical, as their defensive rotation often creates the exact space needed for your leg to pass over their thigh.
 
-**From Position**: [[Inside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the counter entangle, your objective is to transition 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 55% |
-| Failure | [[Inside Ashi-Garami]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 55% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the counter entangle, your objective is to transition 
 
 ## Opponent Counters
 
-- **Opponent straightens trapped leg explosively during threading to prevent entanglement completion** (Effectiveness: High) - Your Response: Abandon the thread and immediately attack the straightened leg with a kneebar or straight ankle lock—leg extension from ashi creates ideal mechanics for these submissions → Leads to [[Inside Ashi-Garami]]
-- **Opponent posts on free hand and hip escapes away during leg threading to create extraction distance** (Effectiveness: Medium) - Your Response: Follow their hip escape by scooting your body with them while accelerating the thread—their movement often creates more space for your leg to clear their thigh if you pursue aggressively → Leads to [[Open Guard]]
-- **Opponent strips heel grip with both hands during the transition when your control is temporarily loosened** (Effectiveness: High) - Your Response: If heel grip is broken during threading, immediately clamp your legs to trap their leg structurally and re-establish heel control before they can fully extract—use your inside leg as a backup hook → Leads to [[Open Guard]]
-- **Opponent drives forward and stacks you during the rotational movement to prevent completion** (Effectiveness: Medium) - Your Response: Use their forward momentum to complete the thread faster by pulling your threading leg through while simultaneously scooting your hips back to create space for the entangle → Leads to [[Inside Ashi-Garami]]
+- **Opponent straightens trapped leg explosively during threading to prevent entanglement completion** (Effectiveness: High) - Your Response: Abandon the thread and immediately attack the straightened leg with a kneebar or straight ankle lock—leg extension from ashi creates ideal mechanics for these submissions → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent posts on free hand and hip escapes away during leg threading to create extraction distance** (Effectiveness: Medium) - Your Response: Follow their hip escape by scooting your body with them while accelerating the thread—their movement often creates more space for your leg to clear their thigh if you pursue aggressively → Leads to [[Positions/Open Guard]]
+- **Opponent strips heel grip with both hands during the transition when your control is temporarily loosened** (Effectiveness: High) - Your Response: If heel grip is broken during threading, immediately clamp your legs to trap their leg structurally and re-establish heel control before they can fully extract—use your inside leg as a backup hook → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward and stacks you during the rotational movement to prevent completion** (Effectiveness: Medium) - Your Response: Use their forward momentum to complete the thread faster by pulling your threading leg through while simultaneously scooting your hips back to create space for the entangle → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 </section>

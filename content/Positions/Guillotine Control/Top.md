@@ -208,25 +208,25 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 
 ## Available Attacks
 
-### [[Guillotine Choke]] (44% of attempts)
+### [[Transitions/Guillotine Choke]] (44% of attempts)
 
-### [[High Elbow Guillotine Variation]] (16% of attempts)
+### [[Transitions/High Elbow Guillotine Variation]] (16% of attempts)
 
-### [[Front Headlock to Anaconda]] (7% of attempts)
+### [[Transitions/Front Headlock to Anaconda]] (7% of attempts)
 
-### [[Front Headlock to Darce]] (7% of attempts)
+### [[Transitions/Front Headlock to Darce]] (7% of attempts)
 
-### [[Side Control to Mount]] (7% of attempts)
+### [[Transitions/Side Control to Mount]] (7% of attempts)
 
-### [[Side Control to North-South]] (5% of attempts)
+### [[Transitions/Side Control to North-South]] (5% of attempts)
 
-### [[Pass to Side Control]] (10% of attempts)
+### [[Transitions/Pass to Side Control]] (10% of attempts)
 
-### [[Arm in Guillotine Variation]] (2% of attempts)
+### [[Transitions/Arm in Guillotine Variation]] (2% of attempts)
 
-### [[Guillotine Counter]] (1% of attempts)
+### [[Transitions/Guillotine Counter]] (1% of attempts)
 
-### [[Ten Finger Guillotine Variation]] (1% of attempts)
+### [[Transitions/Ten Finger Guillotine Variation]] (1% of attempts)
 
 
 
@@ -237,28 +237,28 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 ## Decision Making from This Position
 
 **If opponent's posture is broken forward and chin is exposed:**
-- Execute **[[Guillotine Choke]]** → [[Game Over]] (Probability: 75%)
-- Execute **[[High Elbow Guillotine Variation]]** → [[Game Over]] (Probability: 70%)
+- Execute **[[Transitions/Guillotine Choke]]** → [[Positions/Game Over]] (Probability: 75%)
+- Execute **[[Transitions/High Elbow Guillotine Variation]]** → [[Positions/Game Over]] (Probability: 70%)
 
 
 **If opponent tucks chin and defends neck but neglects position:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 78%)
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 72%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 78%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 72%)
 
 
 **If opponent turns into you to defend:**
-- Execute **[[Front Headlock to Anaconda]]** → [[Anaconda Control]] (Probability: 65%)
-- Execute **[[Front Headlock to Darce]]** → [[Darce Control]] (Probability: 63%)
+- Execute **[[Transitions/Front Headlock to Anaconda]]** → [[Positions/Anaconda Control]] (Probability: 65%)
+- Execute **[[Transitions/Front Headlock to Darce]]** → [[Positions/Darce Control]] (Probability: 63%)
 
 
 **If opponent has arm trapped inside the guillotine:**
-- Execute **[[Guillotine Choke]]** → [[Game Over]] (Probability: 72%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 68%)
+- Execute **[[Transitions/Guillotine Choke]]** → [[Positions/Game Over]] (Probability: 72%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 68%)
 
 
 **If opponent creates distance with legs but not hand fighting:**
-- Execute **[[Pass to Side Control]]** → [[Side Control]] (Probability: 75%)
-- Execute **[[High Elbow Guillotine Variation]]** → [[Game Over]] (Probability: 65%)
+- Execute **[[Transitions/Pass to Side Control]]** → [[Positions/Side Control]] (Probability: 75%)
+- Execute **[[Transitions/High Elbow Guillotine Variation]]** → [[Positions/Game Over]] (Probability: 65%)
 
 
 
@@ -404,15 +404,15 @@ Start in guillotine control with partner attempting to close guard, you must mai
 
 ## Related Positions and Techniques
 
-- **[[Front Headlock]]** - Similar position - precursor position before securing guillotine grip
-- **[[Anaconda Control]]** - Transition target - common alternative when guillotine is defended
-- **[[Darce Control]]** - Transition target - alternative choke when opponent turns into guillotine
-- **[[Mount]]** - Transition target - position advancement using guillotine threat
-- **[[North-South]]** - Transition target - alternative advancement path
-- **[[Guillotine Choke]]** - Primary submission - main finishing technique from this position
-- **[[Chin Strap Guillotine]]** - Submission variation - alternative finishing mechanics with chin control
-- **[[Arm in Guillotine]]** - Submission variation - opportunistic variation when arm is trapped
-- **[[Side Control]]** - Positional advancement - common transition when choke is defended
+- **[[Positions/Front Headlock]]** - Similar position - precursor position before securing guillotine grip
+- **[[Positions/Anaconda Control]]** - Transition target - common alternative when guillotine is defended
+- **[[Positions/Darce Control]]** - Transition target - alternative choke when opponent turns into guillotine
+- **[[Positions/Mount]]** - Transition target - position advancement using guillotine threat
+- **[[Positions/North-South]]** - Transition target - alternative advancement path
+- **[[Transitions/Guillotine Choke]]** - Primary submission - main finishing technique from this position
+- **[[Submissions/Chin Strap Guillotine]]** - Submission variation - alternative finishing mechanics with chin control
+- **[[Submissions/Arm in Guillotine]]** - Submission variation - opportunistic variation when arm is trapped
+- **[[Positions/Side Control]]** - Positional advancement - common transition when choke is defended
 
 
 </section>

@@ -21,7 +21,7 @@ The clinch break demands precise timing and mechanical efficiency. Simply pushin
 
 Strategic integration of the clinch break into your overall standing game requires recognizing when disengagement is preferable to counter-wrestling. Against opponents with superior clinch work, wrestling pedigrees, or significant size advantages, breaking the clinch to reset at distance can be a higher-percentage strategy than engaging in a prolonged grip battle you are likely to lose. The best clinch breakers treat separation as an active technique with specific mechanics rather than a reactive retreat, maintaining offensive threat throughout the disengagement process.
 
-**From Position**: [[Clinch]] (Bottom)
+**From Position**: [[Positions/Clinch]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategic integration of the clinch break into your overall standing game requir
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Clinch]] | 30% |
-| Counter | [[Front Headlock]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Clinch]] | 30% |
+| Counter | [[Positions/Front Headlock]] | 15% |
 
 
 </section>
@@ -200,27 +200,27 @@ The clinch break occupies a critical role in standing grappling strategy as the 
 ## Related Techniques
 
 
-- [[Clinch]] - Source position from which the clinch break is initiated
+- [[Positions/Clinch]] - Source position from which the clinch break is initiated
 
-- [[Standing Position]] - Primary target position after successful clinch break
+- [[Positions/Standing Position]] - Primary target position after successful clinch break
 
-- [[Front Headlock]] - Counter position opponent may establish via snap-down during break attempt
+- [[Positions/Front Headlock]] - Counter position opponent may establish via snap-down during break attempt
 
-- [[Body Lock]] - Tight clinch variation that requires specific grip breaking before break attempt
+- [[Positions/Body Lock]] - Tight clinch variation that requires specific grip breaking before break attempt
 
-- [[Open Guard]] - Alternative destination if opponent pulls guard during separation
+- [[Positions/Open Guard]] - Alternative destination if opponent pulls guard during separation
 
-- [[Arm Drag from Clinch]] - Offensive alternative to breaking clinch when arm drag opportunity presents
+- [[Transitions/Arm Drag from Clinch]] - Offensive alternative to breaking clinch when arm drag opportunity presents
 
-- [[Guard Pull]] - Alternative transition when clinch break is not viable
+- [[Transitions/Guard Pull]] - Alternative transition when clinch break is not viable
 
-- [[Body Lock Takedown from Clinch]] - Primary threat that motivates breaking the clinch before opponent establishes body lock
+- [[Transitions/Body Lock Takedown from Clinch]] - Primary threat that motivates breaking the clinch before opponent establishes body lock
 
-- [[Double Leg Entry]] - Takedown threat during clinch that the break can preempt
+- [[Transitions/Double Leg Entry]] - Takedown threat during clinch that the break can preempt
 
-- [[Snap Down to Front Headlock]] - Primary counter-risk during separation phase of clinch break
+- [[Transitions/Snap Down to Front Headlock]] - Primary counter-risk during separation phase of clinch break
 
-- [[Arm Drag from Clinch Bottom]] - Complementary offensive option from the same starting position
+- [[Transitions/Arm Drag from Clinch Bottom]] - Complementary offensive option from the same starting position
 
 
 </section>

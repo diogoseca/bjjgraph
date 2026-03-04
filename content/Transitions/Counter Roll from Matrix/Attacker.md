@@ -180,7 +180,7 @@ description: "Learn to execute the Counter Roll from Matrix. Step-by-step guide 
 
 The Counter Roll from Matrix attacker executes a mid-rotation redirect when their Matrix back take has been defended. Rather than fighting a losing battle for back control against a prepared opponent, the attacker uses remaining rotational momentum to capture the opponent's near leg and establish half guard bottom. This requires reading the defense in real-time, making a split-second decision to change trajectory, and executing the leg capture with precision while maintaining continuous motion. The technique transforms a defensive failure into an immediate offensive platform, preserving initiative and preventing positional catastrophe that would result from stalling in an inverted position.
 
-**From Position**: [[Matrix]] (Bottom)
+**From Position**: [[Positions/Matrix]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The Counter Roll from Matrix attacker executes a mid-rotation redirect when thei
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Failure | [[Turtle]] | 30% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Failure | [[Positions/Turtle]] | 30% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Counter Roll from Matrix attacker executes a mid-rotation redirect when thei
 
 ## Opponent Counters
 
-- **Sprawl and drive weight down to flatten the rolling redirect attempt before leg capture completes** (Effectiveness: High) - Your Response: Accelerate the leg capture and immediately pull opponent's leg into entanglement before full sprawl pressure takes effect, using the last of your rolling momentum to close the entanglement → Leads to [[Turtle]]
-- **Hip switch past the capturing legs and establish crossface to pass directly to side control** (Effectiveness: High) - Your Response: Frame against the crossface attempt with outside arm while fighting to maintain any leg entanglement, then hip escape to re-engage half guard structure before the pass consolidates → Leads to [[Side Control]]
-- **Backstep to clear legs entirely and avoid the half guard entanglement zone** (Effectiveness: Medium) - Your Response: Follow the backstep with immediate hip escape to re-engage legs, or transition to butterfly guard hooks to maintain connection and prevent complete separation → Leads to [[Side Control]]
-- **Follow the rotation maintaining constant top pressure throughout the redirect to smother the movement** (Effectiveness: Medium) - Your Response: Use the opponent's forward pressure against them by pulling their leg into the half guard entanglement with their own forward momentum as they follow your roll → Leads to [[Turtle]]
+- **Sprawl and drive weight down to flatten the rolling redirect attempt before leg capture completes** (Effectiveness: High) - Your Response: Accelerate the leg capture and immediately pull opponent's leg into entanglement before full sprawl pressure takes effect, using the last of your rolling momentum to close the entanglement → Leads to [[Positions/Turtle]]
+- **Hip switch past the capturing legs and establish crossface to pass directly to side control** (Effectiveness: High) - Your Response: Frame against the crossface attempt with outside arm while fighting to maintain any leg entanglement, then hip escape to re-engage half guard structure before the pass consolidates → Leads to [[Positions/Side Control]]
+- **Backstep to clear legs entirely and avoid the half guard entanglement zone** (Effectiveness: Medium) - Your Response: Follow the backstep with immediate hip escape to re-engage legs, or transition to butterfly guard hooks to maintain connection and prevent complete separation → Leads to [[Positions/Side Control]]
+- **Follow the rotation maintaining constant top pressure throughout the redirect to smother the movement** (Effectiveness: Medium) - Your Response: Use the opponent's forward pressure against them by pulling their leg into the half guard entanglement with their own forward momentum as they follow your roll → Leads to [[Positions/Turtle]]
 
 
 </section>

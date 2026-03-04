@@ -17,7 +17,7 @@ description: "Learn Double Leg Setup in BJJ. Step-by-step execution from Standin
 
 The Double Leg Setup is a fundamental wrestling entry adapted for Brazilian Jiu-Jitsu that creates the optimal conditions for executing a double leg takedown. This preparatory sequence focuses on controlling distance, manipulating opponent reactions, and establishing proper positioning before committing to the explosive penetration step. The setup phase is arguably more important than the finish itself, as it determines whether you'll achieve a clean takedown or expose yourself to sprawl defense and guillotine attacks. Effective setup work involves a combination of grip fighting, level changes, angle creation, and timing that forces your opponent into defensive postures while creating offensive opportunities. The modern approach to double leg setups emphasizes tactical entries over purely athletic explosiveness, making it accessible to practitioners of all physical abilities. Understanding the setup mechanics allows you to chain together multiple takedown attempts, use feints to create openings, and seamlessly transition between standing and ground techniques when opportunities arise.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -28,9 +28,9 @@ The Double Leg Setup is a fundamental wrestling entry adapted for Brazilian Jiu-
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Clinch]] | 70% |
-| Failure | [[Standing Position]] | 20% |
-| Counter | [[Front Headlock]] | 10% |
+| Success | [[Positions/Clinch]] | 70% |
+| Failure | [[Positions/Standing Position]] | 20% |
+| Counter | [[Positions/Front Headlock]] | 10% |
 
 
 </section>
@@ -196,29 +196,29 @@ The Double Leg Setup serves as a critical bridge technique in the standing phase
 ## Related Techniques
 
 
-- [[Double Leg Finish]] - Finishing sequence after setup and entry phases
+- [[Transitions/Double Leg Finish]] - Finishing sequence after setup and entry phases
 
-- [[Single Leg Entry]] - Alternative attack from similar setup position
+- [[Transitions/Single Leg Entry]] - Alternative attack from similar setup position
 
-- [[Body Lock Pass]] - Alternative clinch-based entry that uses different grip configurations
+- [[Transitions/Body Lock Pass]] - Alternative clinch-based entry that uses different grip configurations
 
-- [[Sprawl]] - Primary defensive counter that setup must overcome
+- [[Transitions/Sprawl]] - Primary defensive counter that setup must overcome
 
-- [[Snap Down to Front Headlock]] - Complementary setup that creates different reactions for takedown chains
+- [[Transitions/Snap Down to Front Headlock]] - Complementary setup that creates different reactions for takedown chains
 
-- [[Front Headlock]] - Position that often results from failed or defended setup attempts
+- [[Positions/Front Headlock]] - Position that often results from failed or defended setup attempts
 
-- [[Guard Pull]] - Strategic alternative when takedown setups are being consistently defended
+- [[Transitions/Guard Pull]] - Strategic alternative when takedown setups are being consistently defended
 
-- [[Standing Position]] - Starting position where setup mechanics are initiated
+- [[Positions/Standing Position]] - Starting position where setup mechanics are initiated
 
-- [[Arm Drag to Back]] - Alternative standing attack using similar grip fighting principles
+- [[Transitions/Arm Drag to Back]] - Alternative standing attack using similar grip fighting principles
 
-- [[Ankle Pick]] - Lower-risk takedown option that chains well with double leg setups
+- [[Transitions/Ankle Pick]] - Lower-risk takedown option that chains well with double leg setups
 
-- [[Guillotine Control]] - Dangerous counter position if head positioning fails during entry
+- [[Positions/Guillotine Control]] - Dangerous counter position if head positioning fails during entry
 
-- [[Clinch]] - Target position after successful setup - optimal range for entry execution
+- [[Positions/Clinch]] - Target position after successful setup - optimal range for entry execution
 
 
 </section>

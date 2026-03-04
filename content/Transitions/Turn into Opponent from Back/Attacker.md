@@ -180,7 +180,7 @@ description: "Learn to execute the turn into opponent escape from back control i
 
 Executing the turn into opponent escape from back control requires systematic dismantling of your opponent's control points before committing to the rotation. As the person trapped in back control, your immediate priorities are neck defense and hand fighting, followed by progressive hook removal and space creation. The turn itself exploits a narrow window where your opponent's grip transitions or hook adjustments create momentary openings for rotation. Success depends on disciplined sequencing rather than explosive movement: secure neck defense, establish two-on-one grip control, create hip angle, clear hooks, then execute the controlled turn toward your opponent's underhook side. The escape converts maximum defensive disadvantage into a neutral guard position where you can begin offensive operations. Rushing any stage of this sequence, particularly attempting the turn before clearing hooks or defending the neck, consistently results in either submission or failed escape with wasted energy.
 
-**From Position**: [[Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the turn into opponent escape from back control requires systematic di
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the turn into opponent escape from back control requires systematic di
 
 ## Opponent Counters
 
-- **Opponent re-establishes hooks by driving feet back inside thighs during rotation attempt** (Effectiveness: High) - Your Response: Pause the rotation and return to hook clearing phase; use hip bridge to create space against the re-inserted hook before reattempting, or switch to back door escape direction → Leads to [[Back Control]]
-- **Opponent follows the turn and swings leg over to transition to mount as you rotate** (Effectiveness: Medium) - Your Response: Accelerate guard closure by immediately clamping knees together and wrapping legs before opponent's leg clears your body; use elbow frame on their hip to block the mount transition → Leads to [[Mount]]
-- **Opponent tightens seatbelt grip and drives chest forward to eliminate rotation space** (Effectiveness: High) - Your Response: Continue hand fighting to strip the seatbelt rather than forcing the turn; create hip angle through persistent scooting, or switch to back door escape when they overcommit chest pressure forward → Leads to [[Back Control]]
-- **Opponent releases hooks and rapidly transitions to side control or north-south during scramble** (Effectiveness: Low) - Your Response: Use the space created by hook release to accelerate your turn and immediately establish frames; even partial guard recovery is better than allowing free passage to side control → Leads to [[Mount]]
+- **Opponent re-establishes hooks by driving feet back inside thighs during rotation attempt** (Effectiveness: High) - Your Response: Pause the rotation and return to hook clearing phase; use hip bridge to create space against the re-inserted hook before reattempting, or switch to back door escape direction → Leads to [[Positions/Back Control]]
+- **Opponent follows the turn and swings leg over to transition to mount as you rotate** (Effectiveness: Medium) - Your Response: Accelerate guard closure by immediately clamping knees together and wrapping legs before opponent's leg clears your body; use elbow frame on their hip to block the mount transition → Leads to [[Positions/Mount]]
+- **Opponent tightens seatbelt grip and drives chest forward to eliminate rotation space** (Effectiveness: High) - Your Response: Continue hand fighting to strip the seatbelt rather than forcing the turn; create hip angle through persistent scooting, or switch to back door escape when they overcommit chest pressure forward → Leads to [[Positions/Back Control]]
+- **Opponent releases hooks and rapidly transitions to side control or north-south during scramble** (Effectiveness: Low) - Your Response: Use the space created by hook release to accelerate your turn and immediately establish frames; even partial guard recovery is better than allowing free passage to side control → Leads to [[Positions/Mount]]
 
 
 </section>

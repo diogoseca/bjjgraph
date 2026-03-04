@@ -180,7 +180,7 @@ description: "Master executing the Half Butterfly Sweep. Step-by-step guide cove
 
 As the attacker executing the Half Butterfly Sweep, your objective is to use the butterfly hook's upward elevation combined with half guard leg anchoring to topple your opponent diagonally and land in side control. Success requires precise coordination between your underhook pull, butterfly hook drive, and hip extension, all fired as a single unified movement rather than sequential steps. The critical insight is that the sweep must be loaded before it is launched: pulling the opponent's weight forward onto your butterfly hook before initiating the elevation creates the mechanical conditions where even a moderate drive topples them. Attempting to lift an opponent whose weight is distributed evenly or sprawled back requires far more force and is easily defended. Reading weight distribution and timing the sweep to coincide with the opponent's forward commitment is the difference between a high-percentage technique and a wasted effort.
 
-**From Position**: [[Half Butterfly]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Half Butterfly Sweep, your objective is to use the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Half Butterfly]] | 30% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Butterfly Guard/Half Butterfly]] | 30% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Half Butterfly Sweep, your objective is to use the
 
 ## Opponent Counters
 
-- **Opponent sprawls hips back and drives heavy crossface to flatten the bottom player and kill the butterfly hook** (Effectiveness: High) - Your Response: Transition to deep half guard by diving underneath their hips, using their forward crossface pressure to facilitate the entry. Alternatively, switch to lockdown if the half guard trap allows the whip-up motion to create new offensive angles. → Leads to [[Half Butterfly]]
-- **Opponent posts far hand wide on the mat to create an emergency base against the sweep direction** (Effectiveness: Medium) - Your Response: The hand post commits their weight to one side and removes one arm from defense. Immediately switch attack direction by releasing the butterfly hook and transitioning to an old school sweep or back take, exploiting the weakened opposite side. → Leads to [[Half Butterfly]]
-- **Opponent whizzers the underhook arm aggressively and drives shoulder pressure to strip upper body control** (Effectiveness: High) - Your Response: Use the whizzer pressure to duck underneath for a deep half guard entry, converting their defensive energy into your transition. Alternatively, regrip with a collar tie to maintain an offensive connection and reset the sweep sequence. → Leads to [[Half Butterfly]]
-- **Opponent backsteps around the half guard and drives knee through to initiate a pass during the sweep setup** (Effectiveness: Medium) - Your Response: If the backstep is early, recover to knee shield half guard by inserting the shin frame. If the backstep catches you mid-sweep, use the butterfly hook to elevate and redirect into a single leg X-guard entry. → Leads to [[Side Control]]
+- **Opponent sprawls hips back and drives heavy crossface to flatten the bottom player and kill the butterfly hook** (Effectiveness: High) - Your Response: Transition to deep half guard by diving underneath their hips, using their forward crossface pressure to facilitate the entry. Alternatively, switch to lockdown if the half guard trap allows the whip-up motion to create new offensive angles. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
+- **Opponent posts far hand wide on the mat to create an emergency base against the sweep direction** (Effectiveness: Medium) - Your Response: The hand post commits their weight to one side and removes one arm from defense. Immediately switch attack direction by releasing the butterfly hook and transitioning to an old school sweep or back take, exploiting the weakened opposite side. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
+- **Opponent whizzers the underhook arm aggressively and drives shoulder pressure to strip upper body control** (Effectiveness: High) - Your Response: Use the whizzer pressure to duck underneath for a deep half guard entry, converting their defensive energy into your transition. Alternatively, regrip with a collar tie to maintain an offensive connection and reset the sweep sequence. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
+- **Opponent backsteps around the half guard and drives knee through to initiate a pass during the sweep setup** (Effectiveness: Medium) - Your Response: If the backstep is early, recover to knee shield half guard by inserting the shin frame. If the backstep catches you mid-sweep, use the butterfly hook to elevate and redirect into a single leg X-guard entry. → Leads to [[Positions/Side Control]]
 
 
 </section>

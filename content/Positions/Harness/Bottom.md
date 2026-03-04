@@ -209,23 +209,23 @@ The strategic priority from Harness Bottom Position is threefold: first, prevent
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (21% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (21% of attempts)
 
-### [[Hip Escape to Turtle]] (17% of attempts)
+### [[Transitions/Hip Escape to Turtle]] (17% of attempts)
 
-### [[Technical Stand Up to Single Leg]] (8% of attempts)
+### [[Transitions/Technical Stand Up to Single Leg]] (8% of attempts)
 
-### [[Roll to Guard]] (12% of attempts)
+### [[Transitions/Roll to Guard]] (12% of attempts)
 
-### [[Granby Roll to Guard]] (11% of attempts)
+### [[Transitions/Granby Roll to Guard]] (11% of attempts)
 
-### [[Hip Escape to Guard]] (11% of attempts)
+### [[Transitions/Hip Escape to Guard]] (11% of attempts)
 
-### [[Shrimp Escape]] (9% of attempts)
+### [[Transitions/Shrimp Escape]] (9% of attempts)
 
-### [[Hand Fighting from Back]] (7% of attempts)
+### [[Transitions/Hand Fighting from Back]] (7% of attempts)
 
-### [[Harness Escape to Half Guard]] (4% of attempts)
+### [[Transitions/Harness Escape to Half Guard]] (4% of attempts)
 
 
 
@@ -236,27 +236,27 @@ The strategic priority from Harness Bottom Position is threefold: first, prevent
 ## Decision Making from This Position
 
 **If opponent has tight harness grip but no hooks established yet:**
-- Execute **[[Control choking arm with both hands]]** → [[Harness]] (Probability: 90%)
-- Execute **[[Hip Escape to Turtle]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Technical Stand Up to Single Leg]]** → [[Clinch]] (Probability: 45%)
+- Execute **[[Control choking arm with both hands]]** → [[Positions/Harness]] (Probability: 90%)
+- Execute **[[Transitions/Hip Escape to Turtle]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Technical Stand Up to Single Leg]]** → [[Positions/Clinch]] (Probability: 45%)
 
 
 **If opponent attempts rear naked choke by bringing arm across neck:**
-- Execute **[[Two-on-one grip fight on choking arm]]** → [[Harness]] (Probability: 85%)
-- Execute **[[Chin down and turn into choking arm]]** → [[Half Guard]] (Probability: 60%)
-- Execute **[[Elbow Escape to Guard]]** → [[Turtle]] (Probability: 40%)
+- Execute **[[Two-on-one grip fight on choking arm]]** → [[Positions/Harness]] (Probability: 85%)
+- Execute **[[Chin down and turn into choking arm]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Turtle]] (Probability: 40%)
 
 
 **If opponent establishes one or both hooks while maintaining harness:**
-- Execute **[[Elbow Escape to Remove Hooks]]** → [[Harness]] (Probability: 55%)
-- Execute **[[Granby Roll to Guard]]** → [[Open Guard]] (Probability: 35%)
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape to Remove Hooks]]** → [[Positions/Harness]] (Probability: 55%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
 
 
 **If opponent's chest pressure reduces or weight shifts to one side:**
-- Execute **[[Technical Stand Up to Single Leg]]** → [[Clinch]] (Probability: 60%)
-- Execute **[[Roll to Guard]]** → [[Closed Guard]] (Probability: 50%)
-- Execute **[[Elbow Escape to Guard]]** → [[Turtle]] (Probability: 65%)
+- Execute **[[Transitions/Technical Stand Up to Single Leg]]** → [[Positions/Clinch]] (Probability: 60%)
+- Execute **[[Transitions/Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Turtle]] (Probability: 65%)
 
 
 
@@ -390,16 +390,16 @@ Start from harness bottom with no hooks. Work through complete escape sequence: 
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Advanced control position with hooks - worse position if harness bottom defense fails
-- **[[Seat Belt Control Back]]** - Alternative name for same position configuration
-- **[[Turtle]]** - Common escape target position - defensive position with better escape options
-- **[[Half Guard]]** - Escape target position after successful defense and angle creation
-- **[[Body Triangle]]** - Worse position if opponent establishes body triangle from harness
-- **[[Rear Naked Choke]]** - Primary submission threat from this position
-- **[[Open Guard]]** - Possible escape destination after granby roll or forward roll
-- **[[Closed Guard]]** - Escape destination if successful turn to face opponent
-- **[[Clinch]]** - Escape destination via technical standup
-- **[[Armbar Control]]** - Secondary submission threat if defending choke exposes arm
+- **[[Positions/Back Control]]** - Advanced control position with hooks - worse position if harness bottom defense fails
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Alternative name for same position configuration
+- **[[Positions/Turtle]]** - Common escape target position - defensive position with better escape options
+- **[[Positions/Half Guard]]** - Escape target position after successful defense and angle creation
+- **[[Positions/Back Control/Body Triangle]]** - Worse position if opponent establishes body triangle from harness
+- **[[Transitions/Rear Naked Choke]]** - Primary submission threat from this position
+- **[[Positions/Open Guard]]** - Possible escape destination after granby roll or forward roll
+- **[[Positions/Closed Guard]]** - Escape destination if successful turn to face opponent
+- **[[Positions/Clinch]]** - Escape destination via technical standup
+- **[[Positions/Armbar Control]]** - Secondary submission threat if defending choke exposes arm
 
 
 </section>

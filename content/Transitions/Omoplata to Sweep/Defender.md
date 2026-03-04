@@ -154,7 +154,7 @@ description: "How to defend against Omoplata to Sweep in BJJ. Recognition cues, 
 
 Defending the Omoplata to Sweep requires understanding that the sweep exploits your defensive reactions to the omoplata shoulder lock itself. Every escape attempt from the omoplata creates specific vulnerabilities that the attacker can convert into sweeping momentum. The defender's challenge is to address the shoulder lock threat without committing weight forward or compromising base in ways that feed the sweep. Effective defense begins before the sweep is initiated, during the omoplata control phase, where posture management and base preservation determine whether the attacker can generate sufficient rotational force. The defender must balance three competing priorities: protecting the trapped shoulder from submission, maintaining a wide and stable base to resist the sweep, and working to extract the trapped arm to escape the position entirely. Understanding the attacker's decision tree allows you to choose defensive responses that deny the sweep while creating your own escape pathways back to neutral or advantageous positions.
 
-**Opponent's Starting Position**: [[Omoplata Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Omoplata Control]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the Omoplata to Sweep requires understanding that the sweep exploits y
 ### 1. Post free hand wide and drive hips backward to flatten attacker
 
 - **When to use**: Immediately when you feel the attacker attempting to control your free arm or elevate their hips for the sweep
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: You maintain base and the attacker remains in omoplata control without sweep momentum, forcing them to re-establish their attack
 - **Risk**: If the attacker transitions to attacking your posted arm with a kimura, your extended post becomes a submission target
 
 ### 2. Step over the attacker's head with your far leg to reverse the position
 
 - **When to use**: When the attacker commits heavily to the sweep and shifts their weight forward, creating space for you to step through
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: You reverse the position entirely, ending up in a dominant position with the attacker's legs still entangled but with you on top controlling the engagement
 - **Risk**: If your timing is off, stepping over can accelerate the sweep and you end up mounted with your arm still trapped
 
 ### 3. Extract trapped arm by circling elbow inward and pulling back while maintaining base
 
 - **When to use**: When the attacker focuses on sweep mechanics and momentarily loosens leg pressure on the trapped shoulder during hip elevation
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: You free the trapped arm and can immediately work to pass the attacker's guard or disengage to standing
 - **Risk**: Pulling the arm aggressively can create the forward momentum the attacker needs to complete the sweep if base is lost during extraction
 
 ### 4. Sit back to your hip and roll toward the attacker's legs to stack them
 
 - **When to use**: When the attacker begins the sweep motion and you still have sufficient base to redirect your weight backward rather than forward
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: You flatten the attacker's hips to the mat and neutralize their leg leverage, creating an opportunity to stack pass or extract your arm under pressure
 - **Risk**: If the attacker adjusts their angle before you complete the stack, the omoplata submission pressure increases significantly on the trapped shoulder
 
@@ -226,11 +226,11 @@ Defending the Omoplata to Sweep requires understanding that the sweep exploits y
 
 ## Best-Case Outcomes for Defender
 
-### → [[Omoplata Control]]
+### → [[Positions/Omoplata Control]]
 
 Maintain wide base with free hand posted far from centerline while driving weight backward toward attacker's hips. Deny their hip elevation by keeping your center of gravity low and resist free arm control. Work incrementally to extract the trapped arm during moments when attacker adjusts their leg position. Once arm is free, immediately posture and work to pass guard.
 
-### → [[Omoplata Control]]
+### → [[Positions/Omoplata Control]]
 
 When the sweep is already in motion and cannot be stopped, use the momentum to step over the attacker's head with your far leg as you are being rolled. This converts the sweep into a position reversal where you end up on top. Alternatively, sit back aggressively and stack the attacker before the sweep builds full rotational momentum, flattening their hips and neutralizing their leg leverage.
 

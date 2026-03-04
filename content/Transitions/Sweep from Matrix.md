@@ -21,7 +21,7 @@ The technique is most effective when the top player maintains a narrow or static
 
 Strategically, the Sweep from Matrix creates a powerful dual-threat system when combined with the Matrix back take. The top player must defend both the rolling back take and the leverage-based sweep simultaneously, as defending one often creates vulnerability to the other. When the opponent widens base to prevent the back take, they become susceptible to the sweep, and when they narrow base to resist the sweep, the rolling back take becomes available. This complementary attack pairing makes the Matrix bottom position far more dangerous than either technique alone, forcing the top player into defensive dilemmas where no single base adjustment neutralizes all threats.
 
-**From Position**: [[Matrix]] (Bottom)
+**From Position**: [[Positions/Matrix]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Sweep from Matrix creates a powerful dual-threat system when 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 45% |
-| Failure | [[Matrix]] | 35% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Back Control]] | 45% |
+| Failure | [[Positions/Matrix]] | 35% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Sweep from Matrix integrates into the broader back-take and bottom game syst
 ## Related Techniques
 
 
-- [[Matrix]] - Source position from which this sweep is executed, providing the rotational mechanics and body positioning
+- [[Positions/Matrix]] - Source position from which this sweep is executed, providing the rotational mechanics and body positioning
 
-- [[Back Control]] - Primary target position achieved through successful sweep completion
+- [[Positions/Back Control]] - Primary target position achieved through successful sweep completion
 
-- [[Side Control]] - Position opponent achieves if sweep attempt is countered with forward drive
+- [[Positions/Side Control]] - Position opponent achieves if sweep attempt is countered with forward drive
 
-- [[Counter Roll from Matrix]] - Alternative transition using similar rotational mechanics from the same starting position
+- [[Transitions/Counter Roll from Matrix]] - Alternative transition using similar rotational mechanics from the same starting position
 
-- [[Matrix to Back Control]] - Direct back take transition sharing the same starting position and target destination
+- [[Transitions/Matrix to Back Control]] - Direct back take transition sharing the same starting position and target destination
 
-- [[Escape Matrix Position]] - Defensive transition from same position used as fallback when sweep is not available
+- [[Transitions/Escape Matrix Position]] - Defensive transition from same position used as fallback when sweep is not available
 
-- [[Crab Ride]] - Alternative back-attacking position with overlapping timing windows and similar mechanics
+- [[Positions/Crab Ride]] - Alternative back-attacking position with overlapping timing windows and similar mechanics
 
-- [[Deep Half Sweep]] - Related sweep technique sharing rotational and inversion-based off-balancing mechanics
+- [[Transitions/Deep Half Sweep]] - Related sweep technique sharing rotational and inversion-based off-balancing mechanics
 
-- [[Back Take from Bottom]] - Alternative back take approach from bottom positions that complements this sweep
+- [[Transitions/Back Take from Bottom]] - Alternative back take approach from bottom positions that complements this sweep
 
-- [[Butterfly Hook Sweep]] - Fundamental sweep sharing similar hip elevation and off-balancing principles
+- [[Transitions/Butterfly Hook Sweep]] - Fundamental sweep sharing similar hip elevation and off-balancing principles
 
-- [[Turtle]] - Common entry position to Matrix where many sweep setups originate
+- [[Positions/Turtle]] - Common entry position to Matrix where many sweep setups originate
 
 
 </section>

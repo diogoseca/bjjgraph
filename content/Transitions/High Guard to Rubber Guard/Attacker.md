@@ -186,7 +186,7 @@ description: "Master the High Guard to Rubber Guard transition as the bottom pla
 
 As the bottom player executing the High Guard to Rubber Guard transition, your objective is to convert standard closed guard control into the more dominant Rubber Guard configuration. This requires systematic posture breaking, climbing your guard high on the opponent's back, and threading your leg across their shoulder to establish Mission Control. Success depends on precise timing, adequate flexibility, and maintaining continuous control throughout each phase of the transition to prevent the opponent from recovering posture or opening your guard. The transition creates a decision tree where every defensive reaction from the top player opens a different offensive pathway within the Rubber Guard system.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the bottom player executing the High Guard to Rubber Guard transition, your o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Rubber Guard]] | 55% |
-| Failure | [[Closed Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Rubber Guard]] | 55% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the bottom player executing the High Guard to Rubber Guard transition, your o
 
 ## Opponent Counters
 
-- **Aggressive posture recovery by driving hips back and straightening spine before guard climb completes** (Effectiveness: High) - Your Response: Re-engage posture breaking with stronger heel drive into lower back and collar pull before re-attempting the climb. If posture recovery is too strong, chain to hip bump sweep or scissor sweep instead. → Leads to [[Closed Guard]]
-- **Stripping overhook and pushing hips through to open guard during ankle unlock phase** (Effectiveness: Medium) - Your Response: Transition immediately to triangle setup as their arm extraction creates the one-arm-in one-arm-out configuration. The arm movement needed to strip the overhook exposes them to the triangle entry. → Leads to [[Open Guard]]
-- **Standing up explosively to create distance and make high guard position mechanically impossible** (Effectiveness: High) - Your Response: If caught early, follow with sweeps from high guard such as overhead sweep or transition to conventional closed guard attacks. If they achieve full standing, accept open guard bottom and re-engage with feet on hips. → Leads to [[Open Guard]]
-- **Stacking pressure by driving forward and folding the bottom player to prevent hip angling and leg threading** (Effectiveness: Medium) - Your Response: Use the forward momentum to angle your hips as their weight shifts forward, converting their pressure into leverage for the leg thread. If stacking is too heavy, switch to omoplata entry by rotating under their pressure. → Leads to [[Closed Guard]]
+- **Aggressive posture recovery by driving hips back and straightening spine before guard climb completes** (Effectiveness: High) - Your Response: Re-engage posture breaking with stronger heel drive into lower back and collar pull before re-attempting the climb. If posture recovery is too strong, chain to hip bump sweep or scissor sweep instead. → Leads to [[Positions/Closed Guard]]
+- **Stripping overhook and pushing hips through to open guard during ankle unlock phase** (Effectiveness: Medium) - Your Response: Transition immediately to triangle setup as their arm extraction creates the one-arm-in one-arm-out configuration. The arm movement needed to strip the overhook exposes them to the triangle entry. → Leads to [[Positions/Open Guard]]
+- **Standing up explosively to create distance and make high guard position mechanically impossible** (Effectiveness: High) - Your Response: If caught early, follow with sweeps from high guard such as overhead sweep or transition to conventional closed guard attacks. If they achieve full standing, accept open guard bottom and re-engage with feet on hips. → Leads to [[Positions/Open Guard]]
+- **Stacking pressure by driving forward and folding the bottom player to prevent hip angling and leg threading** (Effectiveness: Medium) - Your Response: Use the forward momentum to angle your hips as their weight shifts forward, converting their pressure into leverage for the leg thread. If stacking is too heavy, switch to omoplata entry by rotating under their pressure. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

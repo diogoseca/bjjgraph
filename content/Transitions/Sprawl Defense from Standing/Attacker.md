@@ -180,7 +180,7 @@ description: "Master the sprawl defense execution in BJJ. Complete guide to stop
 
 As the attacker executing the sprawl, your role is to convert your opponent's takedown attempt into a dominant offensive position. The sprawl is not merely a defensive reaction but the opening move in a systematic attack chain. Your immediate goal is to stuff the shot by driving your hips backward and downward, killing the opponent's forward momentum with your bodyweight. The moment the shot dies, you transition seamlessly into front headlock control where guillotines, anacondas, darces, and back takes become available. Elite sprawl execution means your opponent's most aggressive offensive action becomes the trigger for your highest-percentage submissions. The technical precision of your hip drop, the speed of your weight transfer, and the accuracy of your follow-up head control determine whether you merely survive the shot or capitalize on it.
 
-**From Position**: [[Standing Position]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the sprawl, your role is to convert your opponent's ta
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Front Headlock]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the sprawl, your role is to convert your opponent's ta
 
 ## Opponent Counters
 
-- **Opponent powers through the sprawl by driving legs hard and maintaining forward momentum to complete the takedown** (Effectiveness: High) - Your Response: If they maintain significant forward drive, increase downward pressure through your chest while snapping their head down harder. Consider transitioning to a guillotine grip as their neck extends forward during the drive. If they achieve penetration past your hips, switch to whizzer control on their near arm. → Leads to [[Open Guard]]
-- **Opponent changes angle mid-shot and re-shoots from the side to circumvent the sprawl** (Effectiveness: Medium) - Your Response: Follow their angle change by pivoting your hips to face their new direction. Maintain hand contact on their head to prevent clean angle creation. If they successfully change angle, re-sprawl in the new direction and look for the front headlock from the adjusted position. → Leads to [[Standing Position]]
-- **Opponent sits to guard mid-shot to avoid the front headlock and establish a known defensive position** (Effectiveness: Medium) - Your Response: Follow them to the mat immediately and begin guard passing before they can establish grips and hooks. Do not allow them to settle into their guard by driving forward pressure and controlling their legs. Your sprawl momentum should carry you directly into a top passing position. → Leads to [[Open Guard]]
-- **Opponent uses arm drag from underneath to create angle and escape the sprawl pressure laterally** (Effectiveness: Low) - Your Response: Maintain chest-to-back connection and follow their lateral movement. Keep heavy pressure on their upper back and control their head to prevent them from creating enough space for the arm drag to work. If they do create angle, circle with them and re-establish front headlock from the new position. → Leads to [[Standing Position]]
+- **Opponent powers through the sprawl by driving legs hard and maintaining forward momentum to complete the takedown** (Effectiveness: High) - Your Response: If they maintain significant forward drive, increase downward pressure through your chest while snapping their head down harder. Consider transitioning to a guillotine grip as their neck extends forward during the drive. If they achieve penetration past your hips, switch to whizzer control on their near arm. → Leads to [[Positions/Open Guard]]
+- **Opponent changes angle mid-shot and re-shoots from the side to circumvent the sprawl** (Effectiveness: Medium) - Your Response: Follow their angle change by pivoting your hips to face their new direction. Maintain hand contact on their head to prevent clean angle creation. If they successfully change angle, re-sprawl in the new direction and look for the front headlock from the adjusted position. → Leads to [[Positions/Standing Position]]
+- **Opponent sits to guard mid-shot to avoid the front headlock and establish a known defensive position** (Effectiveness: Medium) - Your Response: Follow them to the mat immediately and begin guard passing before they can establish grips and hooks. Do not allow them to settle into their guard by driving forward pressure and controlling their legs. Your sprawl momentum should carry you directly into a top passing position. → Leads to [[Positions/Open Guard]]
+- **Opponent uses arm drag from underneath to create angle and escape the sprawl pressure laterally** (Effectiveness: Low) - Your Response: Maintain chest-to-back connection and follow their lateral movement. Keep heavy pressure on their upper back and control their head to prevent them from creating enough space for the arm drag to work. If they do create angle, circle with them and re-establish front headlock from the new position. → Leads to [[Positions/Standing Position]]
 
 
 </section>

@@ -21,7 +21,7 @@ The fundamental mechanics of this sweep rely on the same perpendicular alignment
 
 This technique demands precise timing, composure under pressure, and thorough understanding of the opponent's weight distribution patterns. It is not a desperation move—rushed attempts without proper setup will fail and potentially accelerate submission finishes. The sweep works best as part of a broader saddle defense strategy where grip fighting and frame creation set up the sweeping opportunity. At purple belt and above, the ability to threaten sweeps from leg entanglements transforms the defensive dynamic, forcing the attacker to allocate attention to base maintenance rather than committing fully to submissions.
 
-**From Position**: [[Saddle]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 **Success Rate**: 35%
 
 </section>
@@ -32,9 +32,9 @@ This technique demands precise timing, composure under pressure, and thorough un
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 35% |
-| Failure | [[Saddle]] | 40% |
-| Counter | [[Saddle]] | 25% |
+| Success | [[Positions/Side Control]] | 35% |
+| Failure | [[Positions/Ashi Garami/Saddle]] | 40% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 25% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Sweep from Saddle occupies a critical niche in the defensive hierarchy of le
 ## Related Techniques
 
 
-- [[Saddle]] - Source position where this sweep is initiated from bottom
+- [[Positions/Ashi Garami/Saddle]] - Source position where this sweep is initiated from bottom
 
-- [[Side Control]] - Target position upon successful sweep completion
+- [[Positions/Side Control]] - Target position upon successful sweep completion
 
-- [[Forward Roll from Saddle]] - Related sweep variant using forward rolling mechanics from same position
+- [[Transitions/Forward Roll from Saddle]] - Related sweep variant using forward rolling mechanics from same position
 
-- [[Boot Scoot Escape from Saddle]] - Alternative defensive escape option from saddle bottom
+- [[Transitions/Boot Scoot Escape from Saddle]] - Alternative defensive escape option from saddle bottom
 
-- [[Fight to Inside Ashi from Saddle]] - Alternative defensive transition reducing entanglement danger
+- [[Transitions/Fight to Inside Ashi from Saddle]] - Alternative defensive transition reducing entanglement danger
 
-- [[Leg Pummeling from Saddle]] - Related leg entanglement technique used in defensive sequences
+- [[Transitions/Leg Pummeling from Saddle]] - Related leg entanglement technique used in defensive sequences
 
-- [[Sweep from Honey Hole]] - Equivalent sweep from the same position under alternative naming convention
+- [[Transitions/Sweep from Honey Hole]] - Equivalent sweep from the same position under alternative naming convention
 
-- [[Counter Sweep from Leg Entanglement]] - Related sweeping concept from broader leg entanglement category
+- [[Transitions/Counter Sweep from Leg Entanglement]] - Related sweeping concept from broader leg entanglement category
 
-- [[Inside Ashi-Garami]] - Fallback position if sweep only partially succeeds
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Fallback position if sweep only partially succeeds
 
-- [[Saddle Fallback to Inside Ashi]] - Alternative escape pathway from saddle to less dangerous entanglement
+- [[Transitions/Saddle Fallback to Inside Ashi]] - Alternative escape pathway from saddle to less dangerous entanglement
 
-- [[Ashi Garami]] - Parent entanglement category providing systematic framework
+- [[Positions/Ashi Garami]] - Parent entanglement category providing systematic framework
 
 
 </section>

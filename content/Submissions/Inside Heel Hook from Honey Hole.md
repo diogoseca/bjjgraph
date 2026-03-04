@@ -26,8 +26,8 @@ This submission demands absolute safety awareness. The rotational force attacks 
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Knee and ankle joint
-**Starting Position**: [[Honey Hole]]
-**From Position**: [[Honey Hole]] (Top)
+**Starting Position**: [[Positions/Ashi Garami/Honey Hole]]
+**From Position**: [[Positions/Ashi Garami/Honey Hole]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -81,8 +81,8 @@ This submission demands absolute safety awareness. The rotational force attacks 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Honey Hole]] | 30% |
-| Counter | [[50-50 Guard]] | 20% |
+| Failure | [[Positions/Ashi Garami/Honey Hole]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 20% |
 
 
 </section>
@@ -228,9 +228,9 @@ This submission demands absolute safety awareness. The rotational force attacks 
 
 ## From Which Positions?
 
-- [[Honey Hole]]
-- [[Saddle]]
-- [[Inside Sankaku]]
+- [[Positions/Ashi Garami/Honey Hole]]
+- [[Positions/Ashi Garami/Saddle]]
+- [[Positions/Inside Sankaku]]
 
 
 </section>
@@ -239,13 +239,13 @@ This submission demands absolute safety awareness. The rotational force attacks 
 
 ## Related Submissions
 
-- [[Heel Hook from Saddle]]
-- [[Inside Heel Hook]]
-- [[Outside Heel Hook]]
-- [[Heel Hook from Ushiro Ashi]]
-- [[Inside Sankaku Heel Hook Finish]]
-- [[Aoki Lock Finish]]
-- [[Estima Lock Finish]]
+- [[Transitions/Heel Hook from Saddle]]
+- [[Submissions/Inside Heel Hook]]
+- [[Transitions/Outside Heel Hook]]
+- [[Submissions/Heel Hook from Ushiro Ashi]]
+- [[Submissions/Inside Sankaku Heel Hook Finish]]
+- [[Transitions/Aoki Lock Finish]]
+- [[Submissions/Estima Lock Finish]]
 
 
 </section>
@@ -254,14 +254,14 @@ This submission demands absolute safety awareness. The rotational force attacks 
 
 ## Additional Related Content
 
-- [[Honey Hole]] - Primary starting position providing inside leg triangle control for this submission
-- [[Saddle]] - Alternative starting position with identical entanglement mechanics and heel exposure
-- [[Inside Sankaku]] - Alternative terminology for the starting position in different BJJ lineages
-- [[Inside Ashi-Garami]] - Foundational leg entanglement that precedes full Honey Hole establishment
-- [[50-50 Guard]] - Common escape target for defender through counter-entanglement rotation
-- [[Kneebar Control]] - Alternative submission control position when heel is defended or hidden
-- [[Back Control]] - Transition target when opponent turns away to escape the leg entanglement
-- [[Leg Entanglement]] - Conceptual framework governing all leg lock positions and systematic progression
+- [[Positions/Ashi Garami/Honey Hole]] - Primary starting position providing inside leg triangle control for this submission
+- [[Positions/Ashi Garami/Saddle]] - Alternative starting position with identical entanglement mechanics and heel exposure
+- [[Positions/Inside Sankaku]] - Alternative terminology for the starting position in different BJJ lineages
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Foundational leg entanglement that precedes full Honey Hole establishment
+- [[Positions/Ashi Garami/50-50 Guard]] - Common escape target for defender through counter-entanglement rotation
+- [[Positions/Kneebar Control]] - Alternative submission control position when heel is defended or hidden
+- [[Positions/Back Control]] - Transition target when opponent turns away to escape the leg entanglement
+- [[Positions/Leg Entanglement]] - Conceptual framework governing all leg lock positions and systematic progression
 
 
 </section>

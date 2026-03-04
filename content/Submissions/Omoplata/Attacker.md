@@ -176,7 +176,7 @@ description: "How to execute Omoplata in BJJ. Attacking perspective with setup, 
 
 The Omoplata attack begins from guard positions where you isolate the opponent's arm using your legs, swing one leg over their shoulder, and progressively rotate their shoulder joint through controlled chest-forward pressure. The technique is unique in that it functions as both a high-percentage submission and a positional control system. Even when the finish is defended, the omoplata position naturally creates sweep opportunities, back take transitions, and entries to complementary attacks like triangles and armbars. Mastering the omoplata as an attacker requires understanding the five critical control elements: perpendicular angle, far-side grip, seated posture, knee pinch, and progressive forward pressure. These elements must be established sequentially, and the absence of any single element allows specific escapes. The finishing mechanics rely on body weight and chest-forward leverage rather than arm strength, making this technique effective regardless of size differential when executed with proper positioning.
 
-**From Position**: [[Omoplata Control]] (Top)
+**From Position**: [[Positions/Omoplata Control]] (Top)
 
 
 </section>
@@ -232,8 +232,8 @@ The Omoplata attack begins from guard positions where you isolate the opponent's
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Omoplata Control]] | 40% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Omoplata Control]] | 40% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -242,11 +242,11 @@ The Omoplata attack begins from guard positions where you isolate the opponent's
 
 ## Opponent Defenses
 
-- **Posture up and pull arm back** (Effectiveness: High) - Your Response: Maintain strong collar or far-side grip to prevent posture recovery. Use your legs to pull them forward while adjusting your angle. If they succeed in posturing, transition to triangle or armbar. → Leads to [[Omoplata Control]]
-- **Roll forward over trapped shoulder** (Effectiveness: High) - Your Response: Adjust your angle to be more perpendicular to their body. Control their far hip to prevent rotation. If they commit to the roll, release and take the back or sweep to top position. → Leads to [[Omoplata Control]]
-- **Stack and pressure into you** (Effectiveness: Medium) - Your Response: Maintain hip mobility and don't let them flatten you. Use your bottom leg to create a frame and technical standup. Transition to sweep by using their forward pressure against them. → Leads to [[Omoplata Control]]
-- **Turn palm up and hitchhiker escape** (Effectiveness: Medium) - Your Response: Immediately adjust your grip to control their wrist in the new position. Circle your top leg over their head to switch to triangle or armbar. The key is recognizing the escape early and transitioning. → Leads to [[Closed Guard]]
-- **Sit back and create distance** (Effectiveness: Low) - Your Response: Follow their movement by sitting up and maintaining leg pressure. Use the momentum to sweep them or take their back. Their attempt to create distance often opens multiple transition opportunities. → Leads to [[Omoplata Control]]
+- **Posture up and pull arm back** (Effectiveness: High) - Your Response: Maintain strong collar or far-side grip to prevent posture recovery. Use your legs to pull them forward while adjusting your angle. If they succeed in posturing, transition to triangle or armbar. → Leads to [[Positions/Omoplata Control]]
+- **Roll forward over trapped shoulder** (Effectiveness: High) - Your Response: Adjust your angle to be more perpendicular to their body. Control their far hip to prevent rotation. If they commit to the roll, release and take the back or sweep to top position. → Leads to [[Positions/Omoplata Control]]
+- **Stack and pressure into you** (Effectiveness: Medium) - Your Response: Maintain hip mobility and don't let them flatten you. Use your bottom leg to create a frame and technical standup. Transition to sweep by using their forward pressure against them. → Leads to [[Positions/Omoplata Control]]
+- **Turn palm up and hitchhiker escape** (Effectiveness: Medium) - Your Response: Immediately adjust your grip to control their wrist in the new position. Circle your top leg over their head to switch to triangle or armbar. The key is recognizing the escape early and transitioning. → Leads to [[Positions/Closed Guard]]
+- **Sit back and create distance** (Effectiveness: Low) - Your Response: Follow their movement by sitting up and maintaining leg pressure. Use the momentum to sweep them or take their back. Their attempt to create distance often opens multiple transition opportunities. → Leads to [[Positions/Omoplata Control]]
 
 
 </section>

@@ -154,7 +154,7 @@ description: "Counter the leg weave escape from top position. Maintain passing p
 
 As the top player maintaining the leg weave, your goal is to prevent the bottom player from recovering half guard while advancing your own passing position. Recognizing the early signs of escape attempts allows you to shut them down before they develop momentum. The defender must maintain constant forward pressure and upper body control while being prepared to transition between passing options when the bottom player begins their escape sequence. Understanding the escape mechanics allows you to counter each phase systematically: preventing frames from establishing, following hip escapes with your own weight, and collapsing knee shield insertion attempts before they solidify into a functional guard structure.
 
-**Opponent's Starting Position**: [[Leg Weave]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Weave]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the top player maintaining the leg weave, your goal is to prevent the bottom 
 ### 1. Drive crossface pressure harder and lower your hips to smother the bottom player's frame attempts before they are established
 
 - **When to use**: When you feel the bottom player's forearm beginning to wedge against your neck or shoulder at the earliest stage of the escape
-- **Targets**: [[Leg Weave]]
+- **Targets**: [[Positions/Leg Weave]]
 - **If successful**: Bottom player remains flattened with their frame neutralized, maintaining your passing position
 - **Risk**: Over-committing your weight forward can create deep half guard entry opportunities for the bottom player
 
 ### 2. Follow the hip escape by shifting your weight laterally and immediately driving your weaved knee deeper to close the space they created
 
 - **When to use**: When the bottom player has begun hip escaping and is creating angle, before they can insert the knee shield
-- **Targets**: [[Leg Weave]]
+- **Targets**: [[Positions/Leg Weave]]
 - **If successful**: Space created by hip escape is reclaimed and bottom player is returned to flattened leg weave position
 - **Risk**: Lateral weight shift may create a momentary balance point that an experienced bottom player can exploit for a sweep
 
 ### 3. Transition immediately to knee slice pass when bottom player creates space, converting their escape movement into your passing opportunity
 
 - **When to use**: When the bottom player has created significant space and knee shield insertion is imminent or partially established
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Bottom player's escape space is used against them as you complete the pass through the opening they created
 - **Risk**: If the knee slice is defended, the bottom player may have recovered enough guard structure to reset to a stronger defensive position
 
 ### 4. Backstep around the escape attempt to attack the back when bottom player over-rotates during hip escape
 
 - **When to use**: When the bottom player turns more than 45 degrees during their escape and exposes their back
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Bottom player's escape rotation is converted into back exposure, leading to back control or a dominant passing angle
 - **Risk**: If the backstep is scouted, the bottom player can use your circular movement to establish deep half guard or complete their escape
 
@@ -225,11 +225,11 @@ As the top player maintaining the leg weave, your goal is to prevent the bottom 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Weave]]
+### → [[Positions/Leg Weave]]
 
 Maintain constant crossface pressure and follow any hip escape movement with your own weight. Address frame attempts immediately by lowering your shoulder and driving through their forearm. Keep the weaved leg deep and your hips low to prevent space creation.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the bottom player creates space during their escape attempt, immediately transition to a knee slice or smash pass through the opening. Their escape movement creates passing lanes that did not exist when they were static. Exploit these windows decisively rather than trying to re-establish the leg weave.
 

@@ -180,7 +180,7 @@ description: "Complete guide to executing the Combat Base to Headquarters transi
 
 Executing the Combat Base to Headquarters transition requires the top player to advance from a mobile but general-purpose stance into a specific leg-controlling platform. The attacker's primary objective is isolating one of the opponent's legs and pinning it to the mat with sustained knee pressure, transforming the open guard exchange into a controlled passing scenario. This advancement must be performed with deliberate timing—capitalizing on grip breaks, defensive gaps, or momentary stillness from the bottom player—rather than forcing through active resistance. The quality of the initial leg control and base establishment directly determines how many passing options become available from the resulting headquarters position, making technical precision during this transition more valuable than speed or power.
 
-**From Position**: [[Combat Base]] (Top)
+**From Position**: [[Positions/Combat Base]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Combat Base to Headquarters transition requires the top player to 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Headquarters Position]] | 55% |
-| Failure | [[Combat Base]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Headquarters Position]] | 55% |
+| Failure | [[Positions/Combat Base]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Combat Base to Headquarters transition requires the top player to 
 
 ## Opponent Counters
 
-- **Opponent inserts knee shield before leg can be pinned, blocking knee advancement with shin across your torso** (Effectiveness: High) - Your Response: Collapse the knee shield by angling your hips to compress their knee toward the mat while maintaining pants grip, or switch to a smash pass trajectory that uses their knee shield as a passing lane → Leads to [[Combat Base]]
-- **Opponent hooks butterfly under your thigh and elevates during the weight transfer, disrupting your base** (Effectiveness: High) - Your Response: Post your free hand immediately on the mat for emergency base, drive the hooked leg's knee down to strip the butterfly hook, and reset to combat base before reattempting with better hook clearance → Leads to [[Half Guard]]
-- **Opponent establishes De La Riva hook on your advancing leg, pulling your foot off the mat and disrupting the entry** (Effectiveness: Medium) - Your Response: Circle the hooked foot inward while pushing opponent's hooking foot off your hip with your free hand, or switch which leg you advance by changing your combat base stance → Leads to [[Combat Base]]
-- **Opponent frames on your hips with both feet and extends legs to push you away, creating distance that prevents the knee drive** (Effectiveness: Medium) - Your Response: Grip both pants at the knees and perform a toreando-style leg redirection to one side, converting the distance-creating defense into a passing angle, or strip one foot at a time before re-engaging → Leads to [[Combat Base]]
+- **Opponent inserts knee shield before leg can be pinned, blocking knee advancement with shin across your torso** (Effectiveness: High) - Your Response: Collapse the knee shield by angling your hips to compress their knee toward the mat while maintaining pants grip, or switch to a smash pass trajectory that uses their knee shield as a passing lane → Leads to [[Positions/Combat Base]]
+- **Opponent hooks butterfly under your thigh and elevates during the weight transfer, disrupting your base** (Effectiveness: High) - Your Response: Post your free hand immediately on the mat for emergency base, drive the hooked leg's knee down to strip the butterfly hook, and reset to combat base before reattempting with better hook clearance → Leads to [[Positions/Half Guard]]
+- **Opponent establishes De La Riva hook on your advancing leg, pulling your foot off the mat and disrupting the entry** (Effectiveness: Medium) - Your Response: Circle the hooked foot inward while pushing opponent's hooking foot off your hip with your free hand, or switch which leg you advance by changing your combat base stance → Leads to [[Positions/Combat Base]]
+- **Opponent frames on your hips with both feet and extends legs to push you away, creating distance that prevents the knee drive** (Effectiveness: Medium) - Your Response: Grip both pants at the knees and perform a toreando-style leg redirection to one side, converting the distance-creating defense into a passing angle, or strip one foot at a time before re-engaging → Leads to [[Positions/Combat Base]]
 
 
 </section>

@@ -21,7 +21,7 @@ The critical challenge in this transition lies in the grip conversion itself. Re
 
 Strategically, this transition is most effective when the opponent begins defending collar sleeve attacks by posturing aggressively or when they attempt to circle around your frames. Spider guard provides superior distance management through bilateral leg extension and creates more versatile sweep angles compared to the single-sided control of collar sleeve. Advanced practitioners use this transition as part of a broader guard-switching system, flowing between collar sleeve, spider, lasso, and De La Riva based on the opponent's reactions and passing attempts.
 
-**From Position**: [[Collar Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Collar Sleeve Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition is most effective when the opponent begins defend
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Spider Guard]] | 55% |
-| Failure | [[Collar Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Spider Guard]] | 55% |
+| Failure | [[Positions/Collar Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The collar sleeve to spider guard transition occupies a central role in the open
 ## Related Techniques
 
 
-- [[Collar Sleeve Guard]] - Source position where transition begins with cross-collar and sleeve grips
+- [[Positions/Collar Sleeve Guard]] - Source position where transition begins with cross-collar and sleeve grips
 
-- [[Spider Guard]] - Target position with double sleeve grips and feet on biceps
+- [[Positions/Spider Guard]] - Target position with double sleeve grips and feet on biceps
 
-- [[Open Guard]] - Fallback position if guard structure collapses during transition
+- [[Positions/Open Guard]] - Fallback position if guard structure collapses during transition
 
-- [[Lasso Guard]] - Alternative target when threading leg during spider entry
+- [[Positions/Lasso Guard]] - Alternative target when threading leg during spider entry
 
-- [[De La Riva Guard]] - Complementary guard reachable from collar sleeve as alternative evolution
+- [[Positions/De La Riva Guard]] - Complementary guard reachable from collar sleeve as alternative evolution
 
-- [[Collar Sleeve to De La Riva]] - Parallel transition option from same starting position
+- [[Transitions/Collar Sleeve to De La Riva]] - Parallel transition option from same starting position
 
-- [[Collar Sleeve Sweep]] - Alternative attack from starting position instead of guard transition
+- [[Transitions/Collar Sleeve Sweep]] - Alternative attack from starting position instead of guard transition
 
-- [[Triangle Setup]] - Submission entry available from both collar sleeve and spider guard
+- [[Transitions/Triangle Setup]] - Submission entry available from both collar sleeve and spider guard
 
-- [[Double Sleeve Guard]] - Intermediate grip configuration during collar-to-spider conversion
+- [[Positions/Double Sleeve Guard]] - Intermediate grip configuration during collar-to-spider conversion
 
-- [[Spider to Lasso Guard]] - Follow-up transition once spider guard is established
+- [[Transitions/Spider to Lasso Guard]] - Follow-up transition once spider guard is established
 
 
 </section>

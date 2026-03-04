@@ -186,7 +186,7 @@ description: "Execute the hip escape from front headlock to recover guard in BJJ
 
 The attacker perspective for the hip escape from front headlock focuses on the person trapped underneath who is executing the escape. Your objective is to use lateral hip movement combined with frames and hand fighting to create enough space to clear your head from the opponent's control and recover to closed guard. This requires precise coordination between your framing hand on the opponent's hip, your fighting hand on their choking arm, and your hip escape movement. The technique demands patience to identify the correct timing window and explosive commitment once the escape is initiated. You must maintain chin protection throughout and close your guard immediately upon clearing the headlock to prevent the opponent from re-engaging or advancing to side control.
 
-**From Position**: [[Front Headlock]] (Bottom)
+**From Position**: [[Positions/Front Headlock]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ The attacker perspective for the hip escape from front headlock focuses on the p
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Failure | [[Front Headlock]] | 30% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Failure | [[Positions/Front Headlock]] | 30% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ The attacker perspective for the hip escape from front headlock focuses on the p
 
 ## Opponent Counters
 
-- **Opponent sprawls heavy and re-cements chest pressure to kill hip escape movement** (Effectiveness: High) - Your Response: Wait for the next timing window rather than forcing the escape. Use the bridge-and-shrimp combination to create micro-movements that gradually improve your angle, or switch to a sit-through escape which works better against heavy sprawl pressure. → Leads to [[Front Headlock]]
-- **Opponent transitions to guillotine grip as the hip escape creates space around the neck** (Effectiveness: Medium) - Your Response: Accelerate the hip escape and drive your body toward their far hip, making the guillotine angle impossible. Keep your choking arm hand fighting active and push their wrist away from your chin. If they fully lock the guillotine, switch to dedicated guillotine defense. → Leads to [[Front Headlock]]
-- **Opponent circles to side control as you turn your hips, capitalizing on the space your escape created** (Effectiveness: High) - Your Response: Immediately insert your inside knee as a frame before they can consolidate side control. If they beat your knee, transition to standard side control escape frames rather than continuing the guard recovery. Prevention is key: close guard faster to eliminate the window for this counter. → Leads to [[Side Control]]
-- **Opponent follows hip escape by stepping over to maintain head control from a new angle** (Effectiveness: Medium) - Your Response: Perform a second hip escape in the same direction to create additional distance. Keep your frame hand active on their hip throughout. If they continue to follow, the repeated hip escapes create a scramble opportunity where you can recover turtle or guard. → Leads to [[Front Headlock]]
+- **Opponent sprawls heavy and re-cements chest pressure to kill hip escape movement** (Effectiveness: High) - Your Response: Wait for the next timing window rather than forcing the escape. Use the bridge-and-shrimp combination to create micro-movements that gradually improve your angle, or switch to a sit-through escape which works better against heavy sprawl pressure. → Leads to [[Positions/Front Headlock]]
+- **Opponent transitions to guillotine grip as the hip escape creates space around the neck** (Effectiveness: Medium) - Your Response: Accelerate the hip escape and drive your body toward their far hip, making the guillotine angle impossible. Keep your choking arm hand fighting active and push their wrist away from your chin. If they fully lock the guillotine, switch to dedicated guillotine defense. → Leads to [[Positions/Front Headlock]]
+- **Opponent circles to side control as you turn your hips, capitalizing on the space your escape created** (Effectiveness: High) - Your Response: Immediately insert your inside knee as a frame before they can consolidate side control. If they beat your knee, transition to standard side control escape frames rather than continuing the guard recovery. Prevention is key: close guard faster to eliminate the window for this counter. → Leads to [[Positions/Side Control]]
+- **Opponent follows hip escape by stepping over to maintain head control from a new angle** (Effectiveness: Medium) - Your Response: Perform a second hip escape in the same direction to create additional distance. Keep your frame hand active on their hip throughout. If they continue to follow, the repeated hip escapes create a scramble opportunity where you can recover turtle or guard. → Leads to [[Positions/Front Headlock]]
 
 
 </section>

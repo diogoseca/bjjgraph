@@ -180,7 +180,7 @@ description: "Master the attacker perspective for Standing Back Control Entry in
 
 From the attacker perspective, Standing Back Control Entry requires precise coordination of hooks, harness grip, and hip movement to follow your opponent's standing attempt without losing any control points. The key challenge lies in adapting from a stable horizontal control platform to an inherently unstable vertical one while your opponent gains mechanical advantages from having their feet planted. Successful execution demands anticipation of the stand-up, immediate hip engagement to match their upward drive, and constant adjustment of hook depth and seatbelt tension throughout the transition. The reward is maintaining your dominant position and opening new attack pathways including mat returns, standing choke sequences, and body lock takedowns that are unavailable from grounded back control.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ From the attacker perspective, Standing Back Control Entry requires precise coor
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Back Control]] | 55% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control/Standing Back Control]] | 55% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ From the attacker perspective, Standing Back Control Entry requires precise coor
 
 ## Opponent Counters
 
-- **Opponent strips hooks during vertical transition by straightening legs and pushing feet outward with hands** (Effectiveness: High) - Your Response: Immediately transition to body lock around waist if hooks are stripped, then retake hooks once standing or execute mat return before losing all lower body control → Leads to [[Half Guard]]
-- **Opponent breaks seatbelt grip by stripping the underhook arm during stand-up when torso angle shifts** (Effectiveness: Medium) - Your Response: Reattach seatbelt immediately by swimming the underhook arm back through or transition to body lock grip while maintaining chest connection and hook control → Leads to [[Back Control]]
-- **Opponent drops hips explosively back to seated position to prevent standing transition** (Effectiveness: Low) - Your Response: Follow their hips back down maintaining all controls and return to standard grounded back control, then be prepared for their next escape attempt with tighter hooks → Leads to [[Back Control]]
-- **Opponent turns shoulders toward attacker during mid-transition to face them and break back exposure** (Effectiveness: Medium) - Your Response: Follow the rotation by circling with opponent while tightening seatbelt. If rotation progresses significantly, transition to front headlock or body lock control rather than fighting a losing back position → Leads to [[Half Guard]]
+- **Opponent strips hooks during vertical transition by straightening legs and pushing feet outward with hands** (Effectiveness: High) - Your Response: Immediately transition to body lock around waist if hooks are stripped, then retake hooks once standing or execute mat return before losing all lower body control → Leads to [[Positions/Half Guard]]
+- **Opponent breaks seatbelt grip by stripping the underhook arm during stand-up when torso angle shifts** (Effectiveness: Medium) - Your Response: Reattach seatbelt immediately by swimming the underhook arm back through or transition to body lock grip while maintaining chest connection and hook control → Leads to [[Positions/Back Control]]
+- **Opponent drops hips explosively back to seated position to prevent standing transition** (Effectiveness: Low) - Your Response: Follow their hips back down maintaining all controls and return to standard grounded back control, then be prepared for their next escape attempt with tighter hooks → Leads to [[Positions/Back Control]]
+- **Opponent turns shoulders toward attacker during mid-transition to face them and break back exposure** (Effectiveness: Medium) - Your Response: Follow the rotation by circling with opponent while tightening seatbelt. If rotation progresses significantly, transition to front headlock or body lock control rather than fighting a losing back position → Leads to [[Positions/Half Guard]]
 
 
 </section>

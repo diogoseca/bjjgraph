@@ -166,7 +166,7 @@ The critical defensive window occurs during the opponent's weight transfer from 
 
 Defense against this transition relies on three pillars: maintaining active arm positioning that prevents easy isolation, timing explosive defensive movements to coincide with the opponent's weight shift, and using hip mobility to create angles that disrupt the spinning motion. Passive defense from North-South bottom virtually guarantees the opponent will complete the transition, so the defender must stay proactive with continuous frame creation and escape attempts even before the transition is initiated.
 
-**Opponent's Starting Position**: [[North-South]] (Top)
+**Opponent's Starting Position**: [[Positions/North-South]] (Top)
 
 </section>
 
@@ -203,28 +203,28 @@ Defense against this transition relies on three pillars: maintaining active arm 
 ### 1. Bridge and hip escape during the weight transfer: As the opponent shifts from chest pressure toward your hips, bridge explosively and shrimp your hips away to create distance and prevent them from settling into the mounted position
 
 - **When to use**: Immediately when you feel chest pressure decrease and weight shifting toward your waist, before the spin is completed
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard by inserting a knee during the scramble created by your bridge, resetting to a more defensible position with established frames
 - **Risk**: If poorly timed, the bridge may be absorbed and the opponent completes the spin with momentum, landing in reverse mount with your hips already displaced
 
 ### 2. Forearm frame against hips: Establish strong forearm frames against the opponent's hips as they slide toward your waist, creating a structural barrier that prevents them from completing the seated mount position
 
 - **When to use**: When you recognize the opponent beginning to shift weight from North-South toward your hips but before they have committed to the full spin
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: The opponent cannot complete the transition and must either return to North-South or attempt to strip your frames, buying you time and creating further escape opportunities
 - **Risk**: Extending arms for frames exposes them to potential wrist control or kimura grip if the opponent abandons the spin and attacks your extended arm
 
 ### 3. Knee insertion to half guard: As the opponent spins, drive your near knee upward between your bodies to catch their leg and establish half guard before they can fully seat in reverse mount
 
 - **When to use**: During the middle of the opponent's spinning motion when there is momentary space between your torso and their rotating body
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You catch their leg in half guard, converting a potential reverse mount into a far more defensible half guard bottom position with sweep and recovery options
 - **Risk**: If the knee insertion is too late, the opponent may land in reverse mount with your knee partially elevated, which can be cleared and may expose you to immediate armbar attacks
 
 ### 4. Turn and turtle: Roll to your stomach and establish turtle position during the transition window, denying the opponent a flat surface to mount
 
 - **When to use**: When the bridge and frame options have failed and the opponent is about to complete the spin, as a last resort to deny the reverse mount
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: You avoid reverse mount and establish turtle, which offers different escape pathways including granby rolls and sit-out escapes
 - **Risk**: Turning to turtle from North-South can expose your back to immediate back control attempts, and the opponent may secure hooks rather than completing the reverse mount
 
@@ -236,11 +236,11 @@ Defense against this transition relies on three pillars: maintaining active arm 
 
 ## Best-Case Outcomes for Defender
 
-### → [[North-South]]
+### → [[Positions/North-South]]
 
 Establish strong forearm frames against the opponent's hips as they initiate the transition, preventing them from completing the spin. Combined with active hip escape and continuous frame pressure, force the opponent to abandon the transition and return to North-South where you can continue your standard escape sequence.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a bridge and hip escape to coincide with the opponent's weight shift during the spin. During the momentary space created, drive your knee between your bodies to catch their leg and establish half guard. From half guard bottom, you have established sweeping, back take, and guard recovery options that are far more developed than defending reverse mount.
 

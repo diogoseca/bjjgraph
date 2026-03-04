@@ -154,7 +154,7 @@ description: "How to defend against Shrimp Escape in BJJ. Recognition cues, defe
 
 As the top player in side control, your opponent's shrimp escape is the single most common threat you will face. Recognizing and neutralizing this escape is essential for maintaining your hard-earned dominant position. The shrimp escape relies on creating angular space through hip movement combined with defensive frames—your job is to deny both of these elements through superior pressure distribution, grip control, and anticipatory positioning. Effective defense requires understanding the shrimp's mechanical requirements: your opponent needs to bridge, turn their hips, push with their far leg, and insert their knee. Each of these phases presents a window where the correct defensive response shuts down the escape entirely. The highest-level top players don't simply react to shrimp attempts—they create conditions that make the escape structurally impossible by controlling head position, eliminating hip space, and maintaining crossface pressure that prevents the initial turning motion. Your defensive strategy should balance between static pressure that pins your opponent and dynamic responses that follow their movement while maintaining chest-to-chest connection.
 
-**Opponent's Starting Position**: [[Side Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the top player in side control, your opponent's shrimp escape is the single m
 ### 1. Drive heavy crossface pressure and walk hips to follow their shrimp direction, maintaining chest-to-chest connection throughout their movement
 
 - **When to use**: As soon as you feel opponent begin to turn onto their hip or sense their frames activating, before they generate significant hip movement
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent's shrimp is nullified as you follow their movement, maintaining side control with no space created between your bodies
 - **Risk**: If you overcommit to following and they reverse direction, you may create space on the opposite side allowing a ghost escape or angle change
 
 ### 2. Block knee insertion by driving your near-side hip down into the space between your bodies, pinning their thigh before their knee can cross the centerline
 
 - **When to use**: When opponent has already created some space with a successful shrimp but has not yet inserted their knee shield or recovered guard legs
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You deny guard recovery despite their space creation, allowing you to re-settle weight and close the gap they generated
 - **Risk**: Focusing on hip blocking may allow opponent to establish strong upper body frames or transition to turtle while your attention is on their legs
 
 ### 3. Transition to mount by stepping your knee over as opponent bridges, converting their escape attempt into your positional advancement
 
 - **When to use**: When opponent commits to a large bridge that lifts their hips high enough to create space underneath—use their bridge momentum to slide your knee across their waist
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You advance from side control to mount, converting their escape attempt into a worse position for them and gaining additional points in competition
 - **Risk**: If the mount transition is not clean, opponent may catch you in half guard during the transition, ending up in a better position than side control bottom
 
 ### 4. Switch to north-south position by sliding your body toward their head as they shrimp away, using their lateral movement to transition rather than fighting it
 
 - **When to use**: When opponent successfully creates significant lateral space with their shrimp and you cannot maintain side control chest pressure on their torso
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You maintain dominant control from north-south rather than losing position entirely, and can work back to side control or attack from north-south
 - **Risk**: North-south transition requires releasing hip control momentarily, which could allow opponent to complete guard recovery if the transition is not smooth
 
@@ -225,11 +225,11 @@ As the top player in side control, your opponent's shrimp escape is the single m
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Follow opponent's hip movement by walking your knees in the direction they shrimp while maintaining heavy crossface. When they pause between shrimp repetitions, immediately re-settle your weight and close any space created. Control their near-side elbow to prevent frame re-establishment. The goal is to make each shrimp attempt progressively less effective as you tighten your control after each failed attempt.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Time your mount transition with opponent's bridge phase. As they lift their hips to initiate the shrimp, slide your near knee across their waist while driving your crossface shoulder downward. Your body should move perpendicular to their intended shrimp direction, converting their bridge energy into your advancement. Keep your far leg posted wide for base as you complete the knee slide to mount.
 

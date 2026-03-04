@@ -21,7 +21,7 @@ Strategically, this transition is the gateway to the entire 10th Planet offensiv
 
 The transition demands precise timing and coordination between lower and upper body mechanics. The lockdown extension must synchronize with the underhook pull and hip elevation to generate maximum off-balancing force. Attempting the whip-up without proper underhook depth or with loose lockdown pressure results in the top player simply weathering the motion and maintaining their base. Mastery of this transition fundamentally transforms lockdown from a retention tool into an offensive launching pad.
 
-**From Position**: [[Lockdown]] (Bottom)
+**From Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The transition demands precise timing and coordination between lower and upper b
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Vaporizer]] | 55% |
-| Failure | [[Lockdown]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Vaporizer]] | 55% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Transition to Vaporizer occupies a central node in the 10th Planet half guar
 ## Related Techniques
 
 
-- [[Lockdown]] - Source position providing the foundational leg entanglement for this transition
+- [[Positions/Half Guard/Lockdown]] - Source position providing the foundational leg entanglement for this transition
 
-- [[Vaporizer]] - Target position achieved upon successful completion of the transition
+- [[Positions/Vaporizer]] - Target position achieved upon successful completion of the transition
 
-- [[Electric Chair Transition]] - Alternative lockdown attack that shares setup mechanics with Vaporizer entry
+- [[Transitions/Electric Chair Transition]] - Alternative lockdown attack that shares setup mechanics with Vaporizer entry
 
-- [[Old School Sweep]] - Primary sweep available once Vaporizer is established, creating attack chain
+- [[Transitions/Old School Sweep]] - Primary sweep available once Vaporizer is established, creating attack chain
 
-- [[Half Guard]] - Parent guard family from which lockdown and Vaporizer are derived
+- [[Positions/Half Guard]] - Parent guard family from which lockdown and Vaporizer are derived
 
-- [[Whip-up Sweep]] - Closely related sweep technique using the same hip mechanics as Vaporizer entry
+- [[Transitions/Whip-up Sweep]] - Closely related sweep technique using the same hip mechanics as Vaporizer entry
 
-- [[Deep Half Guard]] - Alternative half guard path if Vaporizer entry is denied and lockdown cleared
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative half guard path if Vaporizer entry is denied and lockdown cleared
 
-- [[Dogfight Position]] - Common scramble position reached if whip-up succeeds but full Vaporizer control is not established
+- [[Positions/Dogfight Position]] - Common scramble position reached if whip-up succeeds but full Vaporizer control is not established
 
-- [[Back Control]] - Ultimate positional goal accessible through Vaporizer attack chains
+- [[Positions/Back Control]] - Ultimate positional goal accessible through Vaporizer attack chains
 
-- [[Truck]] - Advanced transition target from Vaporizer leading to Twister and calf slicer attacks
+- [[Positions/Twister Control/Truck]] - Advanced transition target from Vaporizer leading to Twister and calf slicer attacks
 
 
 </section>

@@ -140,7 +140,7 @@ description: "Counter the frame to guard escape from Kesa Gatame top. Guide cove
 
 As the top player maintaining Kesa Gatame when your opponent attempts the frame to guard escape, your objective is to neutralize their frames before they create sufficient space for hip escape and knee insertion. This defensive scenario requires understanding the mechanics of frame creation, recognizing early escape attempts through specific physical cues, and applying appropriate counter-pressure to maintain your dominant position or transition to an even better one. The critical principle is that frames must be defeated before they achieve skeletal alignment. Once the bottom player establishes bone-on-bone structural alignment, their frames become exponentially harder to collapse regardless of your weight advantage. Early recognition and immediate response to framing attempts is the primary factor determining whether you maintain position or face guard recovery.
 
-**Opponent's Starting Position**: [[Kesa Gatame]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control/Kesa Gatame]] (Bottom)
 
 </section>
 
@@ -178,21 +178,21 @@ As the top player maintaining Kesa Gatame when your opponent attempts the frame 
 ### 1. Drive chest forward to collapse frames before they establish structural alignment
 
 - **When to use**: Immediately when you feel the opponent's forearm beginning to press against your face or neck, before bone-on-bone alignment is achieved
-- **Targets**: [[Kesa Gatame]]
+- **Targets**: [[Positions/Side Control/Kesa Gatame]]
 - **If successful**: Opponent's frames collapse under your increased pressure, you re-establish heavy chest contact and maintain dominant Kesa Gatame control
 - **Risk**: If you over-commit forward weight, opponent may redirect to bridge-and-roll escape using your momentum against you
 
 ### 2. Transition to mount by stepping over as opponent creates hip space with their escape attempt
 
 - **When to use**: When the opponent has successfully created space with hip escape and you cannot collapse their established frames
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You advance to mount position, which is higher point value than Kesa Gatame and completely eliminates their frame escape pathway
 - **Risk**: If the transition is too slow, opponent inserts knee shield and recovers half guard before you complete the step-over
 
 ### 3. Pin opponent's far arm against their body to deny them their primary framing tool
 
 - **When to use**: Preventatively before the opponent begins their escape sequence, or immediately when you detect early arm movement toward your face
-- **Targets**: [[Kesa Gatame]]
+- **Targets**: [[Positions/Side Control/Kesa Gatame]]
 - **If successful**: Opponent cannot establish their primary frame, severely limiting escape options and forcing them to attempt less effective alternatives
 - **Risk**: Requires adjusting one of your primary control points to control their far arm, which may open other escape pathways briefly
 
@@ -204,11 +204,11 @@ As the top player maintaining Kesa Gatame when your opponent attempts the frame 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Kesa Gatame]]
+### → [[Positions/Side Control/Kesa Gatame]]
 
 Drive chest pressure through their frame attempts before they establish skeletal alignment, re-pin their near arm, and maintain tight head control to prevent any sustained space creation. React to the first sign of framing rather than waiting for full establishment.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When their hip escape creates space that cannot be closed through forward pressure, immediately step over to mount position using their escape movement as the catalyst for your advancement. Time the step-over before their knee shield can insert between your bodies.
 

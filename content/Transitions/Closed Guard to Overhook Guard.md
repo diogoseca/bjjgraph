@@ -21,7 +21,7 @@ The transition requires precise timing and coordination between upper body grip 
 
 Strategically, this transition is most effective against opponents who drive forward with pressure, reach inside the guard to establish grips, or commit an arm while attempting guard breaks. The overhook captures and redirects their committed energy, converting their offensive action into a vulnerability. Once established, the overhook guard creates a systematic attacking framework where every defensive reaction from the top player opens a different offensive pathway for the bottom player.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 65%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition is most effective against opponents who drive for
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Overhook Guard]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Overhook Guard]] | 60% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -187,25 +187,25 @@ The transition to overhook guard occupies a critical junction in the closed guar
 ## Related Techniques
 
 
-- [[Closed Guard]] - Starting position from which this transition initiates
+- [[Positions/Closed Guard]] - Starting position from which this transition initiates
 
-- [[Overhook Guard]] - Target position achieved upon successful transition
+- [[Positions/Overhook Guard]] - Target position achieved upon successful transition
 
-- [[Overhook Sweep]] - Primary sweep attack available after establishing overhook guard
+- [[Transitions/Overhook Sweep]] - Primary sweep attack available after establishing overhook guard
 
-- [[Overhook Control]] - Related control concept using similar arm positioning mechanics
+- [[Positions/Overhook Control]] - Related control concept using similar arm positioning mechanics
 
-- [[Hip Bump Sweep]] - Complementary sweep that chains with overhook establishment attempts
+- [[Transitions/Hip Bump Sweep]] - Complementary sweep that chains with overhook establishment attempts
 
-- [[Triangle Setup]] - Submission pathway opened when opponent defends overhook by pulling arm free
+- [[Transitions/Triangle Setup]] - Submission pathway opened when opponent defends overhook by pulling arm free
 
-- [[Kimura Trap]] - Natural progression when overhook grip is converted to figure-four control
+- [[Positions/Kimura Trap]] - Natural progression when overhook grip is converted to figure-four control
 
-- [[Arm Drag to Back]] - Alternative offensive option from similar grip-fighting position in closed guard
+- [[Transitions/Arm Drag to Back]] - Alternative offensive option from similar grip-fighting position in closed guard
 
-- [[Omoplata Control]] - Submission position accessible from overhook when opponent posts on trapped arm
+- [[Positions/Omoplata Control]] - Submission position accessible from overhook when opponent posts on trapped arm
 
-- [[Grip Break]] - Opponent's primary defensive response to prevent overhook establishment
+- [[Transitions/Grip Break]] - Opponent's primary defensive response to prevent overhook establishment
 
 
 </section>

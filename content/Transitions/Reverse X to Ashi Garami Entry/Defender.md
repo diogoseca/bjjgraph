@@ -156,7 +156,7 @@ Defending against the Reverse X to Ashi Garami Entry requires the top player to 
 
 The defensive strategy follows a hierarchy: first, prevent the entry entirely by maintaining forward pressure and denying the attacker space for hip elevation; second, if the transition begins, backstep or drive forward to disrupt the secondary leg transfer; third, if Ashi Garami is partially established, immediately address knee line by straightening the trapped leg and fighting the cross-body clamp before the attacker consolidates control. Early intervention is exponentially more effective than late-stage defense.
 
-**Opponent's Starting Position**: [[Reverse X-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The defensive strategy follows a hierarchy: first, prevent the entry entirely by
 ### 1. Backstep and extract the controlled leg by stepping your trapped leg backward and away from the attacker's hooks while maintaining upper body posture
 
 - **When to use**: When you recognize the secondary leg beginning to transfer but before the cross-body clamp is established
-- **Targets**: [[Reverse X-Guard]]
+- **Targets**: [[Positions/X-Guard/Reverse X-Guard]]
 - **If successful**: You free your leg from the entanglement and can re-establish a passing position or reset to neutral standing
 - **Risk**: If you backstep too late, the attacker follows with an inversion to take your back or threads deeper into Honey Hole
 
 ### 2. Drive forward with heavy hip pressure to smash through the incomplete Ashi structure, flattening the attacker and collapsing their hooks
 
 - **When to use**: When the attacker elevates their hips to begin the transition but has not yet completed the secondary leg transfer
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You collapse the attacker's guard structure and pass to Half Guard top or Side Control, establishing a dominant position
 - **Risk**: If the attacker maintains their primary hook, they can redirect your forward momentum into a Deep Half Guard entry
 
 ### 3. Post your free hand on the mat and forcefully pull your trapped leg back while the attacker's secondary leg is mid-transfer
 
 - **When to use**: When you have a free hand to post and the attacker's grip on your wrist has been broken or was never established
-- **Targets**: [[Reverse X-Guard]]
+- **Targets**: [[Positions/X-Guard/Reverse X-Guard]]
 - **If successful**: You extract your leg before the Ashi structure completes and can disengage to standing or re-engage with a passing sequence
 - **Risk**: If the attacker maintains sleeve control, your posting attempt fails and you lose balance, potentially feeding into their sweep
 
 ### 4. Straighten your trapped leg forcefully and turn your knee outward to deny the knee pinch and prevent heel exposure
 
 - **When to use**: When the Ashi Garami structure is partially established but the attacker has not yet secured knee line control
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: You prevent submission threats by denying heel exposure, buying time to work a systematic extraction from the entanglement
 - **Risk**: The attacker may adapt to the straight leg by entering Outside Ashi Garami variant where straight leg positioning actually assists their control
 
@@ -227,11 +227,11 @@ The defensive strategy follows a hierarchy: first, prevent the entry entirely by
 
 ## Best-Case Outcomes for Defender
 
-### → [[Reverse X-Guard]]
+### → [[Positions/X-Guard/Reverse X-Guard]]
 
 Time your backstep or leg extraction during the window when the attacker releases their secondary hook to begin the transfer. Their control is weakest during this transition phase, so aggressive leg extraction combined with base maintenance breaks the entanglement before Ashi forms.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Drive forward with heavy hip pressure as the attacker begins elevating for the transition. Your forward drive collapses their guard structure and your leg ends up in their half guard rather than their Ashi Garami. From here you occupy a dominant passing position.
 

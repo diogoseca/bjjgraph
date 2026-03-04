@@ -156,7 +156,7 @@ As the defender against Arm Extraction to Turtle, you are the Aoki Lock top play
 
 Successful defense requires anticipating the three-phase escape sequence: base attack, hip angle creation, and arm extraction. By recognizing the early signs of each phase, you can shut down escape attempts before they develop momentum. When prevention fails, your secondary objective is transitioning to back control as they turtle, converting a lost submission into a dominant control position. Understanding the escaper's mechanics allows you to exploit their movement patterns rather than simply resisting them.
 
-**Opponent's Starting Position**: [[Aoki Lock]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Aoki Lock]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful defense requires anticipating the three-phase escape sequence: base a
 ### 1. Tighten leg entanglement and increase hip pressure to shut down extraction window
 
 - **When to use**: When you feel opponent beginning hip movement or their arm starting to slide within the entanglement
-- **Targets**: [[Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock]]
 - **If successful**: Opponent is forced to abort extraction attempt and return to survival position, maintaining your submission threat
 - **Risk**: Over-committing to tightening may compromise your base if opponent chains to a different escape direction
 
 ### 2. Transition to back control by following opponent's turtling motion and establishing hooks
 
 - **When to use**: When opponent's arm is clearing your leg entanglement and they are committing to turtle position
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Convert lost submission position into dominant 4-point back control with immediate choking and arm attack threats
 - **Risk**: Opponent may complete turtle with strong defensive posture before you establish hooks, resulting in neutral turtle engagement
 
 ### 3. Control opponent's free hand to eliminate base attacks and maintain positional stability
 
 - **When to use**: Early in the exchange when opponent reaches for your posted leg but before they destabilize your base
-- **Targets**: [[Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock]]
 - **If successful**: Remove opponent's primary escape tool, allowing you to maintain both leg tightness and base stability simultaneously
 - **Risk**: Using your hand to control theirs may reduce your hip pressure or posted leg stability temporarily
 
 ### 4. Re-angle your pressure by following opponent's hip escape direction to maintain optimal shoulder torque
 
 - **When to use**: When opponent creates hip angle that loosens your leg entanglement but has not yet begun arm extraction
-- **Targets**: [[Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock]]
 - **If successful**: Nullify their hip escape by maintaining pressure vector alignment with their shoulder rotation axis
 - **Risk**: Repositioning creates brief loosening of entanglement that opponent may exploit for extraction
 
@@ -228,11 +228,11 @@ Successful defense requires anticipating the three-phase escape sequence: base a
 
 ## Best-Case Outcomes for Defender
 
-### → [[Aoki Lock]]
+### → [[Positions/Aoki Lock]]
 
 Maintain leg entanglement tightness by actively squeezing thighs and sustaining hip pressure. When opponent attacks your posted leg, reposition it quickly without losing leg control. Follow their hip movement with your own adjustments to keep pressure angle optimal. Control their free hand when possible to eliminate base attacks entirely.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When arm extraction becomes inevitable, immediately transition from Aoki Lock to back control. As their arm clears your legs and they begin turtling, follow their movement by sliding your chest onto their back and inserting hooks. Establish seatbelt control before they can complete defensive turtle posture. This converts a lost submission into a dominant 4-point position.
 

@@ -156,7 +156,7 @@ description: "Complete defensive guide against the Americana from Reverse Kesa-G
 
 Defending the Americana from Reverse Kesa-Gatame requires immediate recognition of the attack pattern and proactive arm protection before the figure-four grip is established. The reverse scarf hold orientation makes traditional Americana defenses less effective because the attacker's chest weight naturally pins your shoulder to the mat, eliminating the common defense of simply lifting your elbow. The critical defensive window occurs during the grip transition phase, specifically when the attacker releases their armpit clamp to reach for your wrist. Once the figure-four is fully locked with your elbow pinned, defensive options narrow dramatically. Successful defense therefore focuses on three priorities in order: preventing wrist isolation through grip fighting, maintaining a bent-arm frame that denies the 90-degree lock angle, and timing escape attempts during the attacker's grip transitions when their positional control is momentarily compromised.
 
-**Opponent's Starting Position**: [[Reverse Kesa-Gatame]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Top)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the Americana from Reverse Kesa-Gatame requires immediate recognition 
 ### 1. Grip fight to prevent wrist isolation by grabbing your own opposite wrist or lapel with your near hand
 
 - **When to use**: As soon as you feel the attacker reaching for your wrist - this is the highest-percentage defensive window
-- **Targets**: [[Reverse Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Reverse Kesa-Gatame]]
 - **If successful**: Submission attempt is stalled, forcing attacker to abandon and maintain position or attempt grip break
 - **Risk**: Low risk - you remain in the pin but prevent the submission from advancing
 
 ### 2. Straighten your arm fully to deny the 90-degree angle required for the Americana finish
 
 - **When to use**: If attacker has wrist control but has not yet locked the figure-four underneath your elbow
-- **Targets**: [[Reverse Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Reverse Kesa-Gatame]]
 - **If successful**: Prevents the Americana angle but be aware this exposes you to a Kimura grip transition
 - **Risk**: Medium risk - feeds directly into Kimura attack, only use as temporary measure while creating escape opportunity
 
 ### 3. Bridge toward attacker and extract arm during the figure-four threading phase
 
 - **When to use**: During the moment the attacker threads their outside arm under your elbow - their base is weakest during this transition
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Arm is freed and hip movement creates space to insert knee and recover half guard
 - **Risk**: Medium risk - failed bridge attempt expends significant energy and may result in deeper positional control
 
 ### 4. Turn into attacker by rotating your body toward them as they set up the figure-four
 
 - **When to use**: When the attacker shifts weight to work the grip and their chest pressure lightens on your shoulder
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Changes the angle enough to prevent the lock from working and creates scramble opportunity for guard recovery
 - **Risk**: Medium risk - turning into the attacker can expose your back if you commit without following through
 
@@ -239,7 +239,7 @@ Defending the Americana from Reverse Kesa-Gatame requires immediate recognition 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time arm extraction with an explosive bridge during the figure-four grip transition. The attacker's base is weakest when they are threading their arm under your elbow - bridge hard, pull your arm free, and immediately insert your knee to establish half guard before they can re-settle.
 

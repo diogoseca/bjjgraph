@@ -160,7 +160,7 @@ The symmetrical nature of 50-50 provides a critical defensive advantage that oth
 
 Successful defense depends on early recognition and proactive response. Once the attacker has established all five control points (foot in armpit, hip across knee, leg entanglement locked, upper body control, and hip extension initiated), escape becomes extremely difficult and the safest response is tapping immediately. Your window for effective defense exists before the attacker completes their setup, making recognition cues and early intervention the foundation of your survival strategy.
 
-**Opponent's Starting Position**: [[50-50 Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 
 </section>
@@ -198,28 +198,28 @@ Successful defense depends on early recognition and proactive response. Once the
 ### 1. Retract foot and deny armpit control by pulling your foot back toward your hip and rotating your knee inward
 
 - **When to use**: Immediately when you feel opponent reaching for your foot—this is the earliest and highest-percentage defense before they establish any control
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Opponent cannot establish the primary anchor point for the kneebar, forcing them to reset or transition to a different attack
 - **Risk**: If you focus only on foot retraction without monitoring their other hand, they may transition to heel hook while you're pulling away
 
 ### 2. Sit up aggressively and face opponent, establishing upper body grips or cross-face control
 
 - **When to use**: When opponent has captured your foot but has not yet established full hip alignment across your knee—sitting up changes the angle and neutralizes the lever system
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You neutralize the kneebar angle entirely, return to neutral 50-50 engagement, and can work to pass or establish your own leg attack
 - **Risk**: Sitting up requires releasing defensive frames momentarily, and if opponent has strong upper body control grip on your hip, you may not be able to complete the sit-up
 
 ### 3. Counter-attack opponent's exposed leg with your own kneebar or heel hook threat
 
 - **When to use**: When opponent has committed to their kneebar attack and their own leg becomes accessible—the 50-50 symmetry means both legs are vulnerable simultaneously
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Opponent must abandon their attack to defend their own leg, or a mutual submission exchange occurs where the faster or better-positioned practitioner wins
 - **Risk**: Counter-attacking while being attacked creates a race condition—if your technique is slower, you may be submitted before your counter takes effect
 
 ### 4. Bridge and roll to invert the position, using hip elevation to disrupt opponent's hip alignment
 
 - **When to use**: When opponent has foot control but has not locked their leg entanglement tightly—the bridge disrupts their hip position and can create space for leg extraction
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You displace opponent's hip from your knee joint line, potentially ending up in top position with the kneebar threat neutralized
 - **Risk**: If opponent maintains foot control through the bridge, you may end up in a worse position with their hip realigned across your knee from a new angle
 
@@ -242,11 +242,11 @@ Successful defense depends on early recognition and proactive response. Once the
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Successfully retract your foot from opponent's armpit control and sit up to face them, reestablishing neutral 50-50 engagement where neither player has a submission advantage
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Counter-attack opponent's exposed leg during their kneebar attempt, forcing them to release your leg and defend against your leg entanglement, reversing the attacking dynamic
 

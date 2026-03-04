@@ -21,7 +21,7 @@ The strategic importance of this escape is significant. Modified Scarf Hold bott
 
 Timing is the critical variable separating successful bridge escapes from wasted energy. The bridge works best when the top player shifts weight, whether reaching for a submission, adjusting grips, or transitioning between positions. Bridging against a fully settled opponent with optimal weight distribution rarely succeeds and accelerates fatigue. Advanced practitioners develop the patience to wait for the correct timing window while maintaining defensive posture, then commit fully to the bridge with directional intent toward the opponent's weak posting side.
 
-**From Position**: [[Modified Scarf Hold]] (Bottom)
+**From Position**: [[Positions/Side Control/Modified Scarf Hold]] (Bottom)
 **Success Rate**: 30%
 
 </section>
@@ -32,9 +32,9 @@ Timing is the critical variable separating successful bridge escapes from wasted
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 30% |
-| Failure | [[Modified Scarf Hold]] | 45% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Closed Guard]] | 30% |
+| Failure | [[Positions/Side Control/Modified Scarf Hold]] | 45% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Bridge from Modified Scarf Hold is a critical component of the bottom escape
 ## Related Techniques
 
 
-- [[Modified Scarf Hold]] - Starting position where this escape is executed from bottom
+- [[Positions/Side Control/Modified Scarf Hold]] - Starting position where this escape is executed from bottom
 
-- [[Closed Guard]] - Primary success outcome after full bridge reversal
+- [[Positions/Closed Guard]] - Primary success outcome after full bridge reversal
 
-- [[Mount]] - Counter outcome if opponent advances during failed bridge
+- [[Positions/Mount]] - Counter outcome if opponent advances during failed bridge
 
-- [[Bridge Escape from Kesa Gatame]] - Similar bridge escape from related scarf hold variant
+- [[Transitions/Bridge Escape from Kesa Gatame]] - Similar bridge escape from related scarf hold variant
 
-- [[Bridge Escape from Scarf Hold]] - Bridge escape from traditional scarf hold position
+- [[Transitions/Bridge Escape from Scarf Hold]] - Bridge escape from traditional scarf hold position
 
-- [[Kesa Gatame]] - Related scarf hold position with similar escape mechanics
+- [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position with similar escape mechanics
 
-- [[Scarf Hold Position]] - Traditional scarf hold variant requiring comparable escape tools
+- [[Positions/Side Control/Scarf Hold Position]] - Traditional scarf hold variant requiring comparable escape tools
 
-- [[Side Control]] - Parent position family sharing escape principles
+- [[Positions/Side Control]] - Parent position family sharing escape principles
 
-- [[Reverse Scarf Hold]] - Related scarf hold variant in the same position family
+- [[Positions/Side Control/Reverse Scarf Hold]] - Related scarf hold variant in the same position family
 
-- [[Bridge Escape from 3-4 Mount]] - Bridge escape concept applied to mount position
+- [[Transitions/Bridge Escape from 3-4 Mount]] - Bridge escape concept applied to mount position
 
 
 </section>

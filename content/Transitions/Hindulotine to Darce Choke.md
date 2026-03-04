@@ -21,7 +21,7 @@ From the bottom Hindulotine position, the attacker recognizes the defensive fram
 
 Strategically, this transition exemplifies the modern submission hunting approach where attackers flow between related chokes based on defensive reactions. The Hindulotine and Darce share similar positional requirements and head control mechanics, making the transition natural once the pattern recognition develops. Advanced practitioners often set up this transition deliberately by applying guillotine pressure that they know will generate the defensive frame they need for the Darce entry.
 
-**From Position**: [[Hindulotine]] (Bottom)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition exemplifies the modern submission hunting approac
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 60% |
-| Failure | [[Hindulotine]] | 28% |
-| Counter | [[Closed Guard]] | 12% |
+| Success | [[Positions/Darce Control]] | 60% |
+| Failure | [[Positions/Hindulotine]] | 28% |
+| Counter | [[Positions/Closed Guard]] | 12% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Hindulotine to Darce Choke transition exemplifies the modern submission chai
 ## Related Techniques
 
 
-- [[Hindulotine]] - Starting position
+- [[Positions/Hindulotine]] - Starting position
 
-- [[Darce Control]] - Target position on successful transition
+- [[Positions/Darce Control]] - Target position on successful transition
 
-- [[Darce Choke]] - Primary finish from achieved position
+- [[Transitions/Darce Choke]] - Primary finish from achieved position
 
-- [[Guillotine Choke]] - Alternative finish if opponent removes frame
+- [[Transitions/Guillotine Choke]] - Alternative finish if opponent removes frame
 
-- [[Hindulotine to Anaconda Choke]] - Alternative transition if opponent turns away
+- [[Transitions/Hindulotine to Anaconda Choke]] - Alternative transition if opponent turns away
 
-- [[Anaconda Control]] - Alternative control position from same entries
+- [[Positions/Anaconda Control]] - Alternative control position from same entries
 
-- [[Back Take from Bottom]] - Follow-up if opponent fully commits to escape
+- [[Transitions/Back Take from Bottom]] - Follow-up if opponent fully commits to escape
 
-- [[Front Headlock]] - Parent position system
+- [[Positions/Front Headlock]] - Parent position system
 
-- [[Guillotine Control]] - Related head control position
+- [[Positions/Guillotine Control]] - Related head control position
 
-- [[Butterfly Sweep with Guillotine]] - Sweep option during transition
+- [[Transitions/Butterfly Sweep with Guillotine]] - Sweep option during transition
 
 
 </section>

@@ -158,7 +158,7 @@ The most critical defensive window occurs during the angle creation and hook ins
 
 Advanced defenders recognize that the Flower Sweep rarely comes in isolation. It is typically part of a chain involving Hip Bump Sweeps, triangles, and armbars. Defending the sweep while exposing yourself to submissions is worse than being swept. The optimal defensive approach neutralizes the sweep mechanics while keeping your arms safe and your posture recoverable, forcing the bottom player to reset rather than chain into higher-percentage attacks.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Advanced defenders recognize that the Flower Sweep rarely comes in isolation. It
 ### 1. Post your free hand on the mat on the sweeping side while driving your opposite hip down
 
 - **When to use**: When the sweep is already in motion and you feel yourself being lifted and rotated - this is the emergency last-resort defense
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You stop the sweep and remain in closed guard top, though your posted arm may be vulnerable to armbar or triangle attacks
 - **Risk**: Your posted arm becomes isolated and exposed to armbar, triangle, or omoplata attacks. The opponent may switch to attacking the posted arm rather than continuing the sweep.
 
 ### 2. Drive your hips forward and widen your base while stripping the sleeve grip with your free hand
 
 - **When to use**: During the early setup phase when you recognize the grip combination and angle creation before the hook is fully inserted
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You neutralize the sweep at its foundation by removing the grip that prevents posting, and your forward hip pressure re-centers your weight over the opponent
 - **Risk**: If you drive forward too aggressively without stripping the grip, you may feed into a triangle or armbar setup. Must strip the sleeve grip before committing weight forward.
 
 ### 3. Stand up in base to break the guard open, removing yourself from the sweeping plane entirely
 
 - **When to use**: When you feel the opponent creating persistent angles and grips that make ground-based defense increasingly difficult
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Standing removes the mechanical advantage the bottom player needs for the sweep and opens guard passing opportunities from standing
 - **Risk**: If you stand without controlling the opponent's hips or breaking their guard first, they can follow you up for ankle picks or transition to standing sweep variations. Must establish grips on their legs during the stand.
 
 ### 4. Backstep your trapped-side leg behind you while driving your chest forward into the opponent
 
 - **When to use**: When the hook is being inserted but the sweep hasn't yet generated rotational momentum - you feel the hook but haven't been lifted
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: The backstep removes your leg from the hook's leverage point and your forward pressure flattens the opponent, killing their hip angle and sweep momentum
 - **Risk**: Backstepping can create space if not combined with forward pressure, potentially allowing the opponent to re-angle or transition to a different attack
 
@@ -228,11 +228,11 @@ Advanced defenders recognize that the Flower Sweep rarely comes in isolation. It
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Strip the sleeve grip early during setup, drive hips forward to flatten opponent's angle, and re-establish posture with hands on hips. This resets the position to neutral closed guard top where you can resume working toward guard opening.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the opponent persistently creates sweep angles, stand up in base while controlling their hips with both hands. Break the guard by pushing one knee down and stepping back, then immediately begin guard passing sequences from standing. This converts their offensive pressure into an opportunity for you to improve position.
 

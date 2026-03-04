@@ -21,7 +21,7 @@ The finishing sequence begins once the attacker has established secure Hinduloti
 
 Success depends on the attacker's ability to make continuous micro-adjustments to hip angle, weight distribution, and grip height while maintaining consistent choking pressure. The opponent's primary defensive window occurs during the transition from control to active finishing, when the attacker must shift from positional maintenance to submission completion. Understanding this timing and maintaining pressure throughout the transition separates reliable finishes from positions that stall in control without completing the choke.
 
-**From Position**: [[Hindulotine]] (Top)
+**From Position**: [[Positions/Hindulotine]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -33,8 +33,8 @@ Success depends on the attacker's ability to make continuous micro-adjustments t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Hindulotine]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Hindulotine]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Finish from Hindulotine serves as the terminal submission pathway within the
 ## Related Techniques
 
 
-- [[Hindulotine]] - Source control position from which this finish is executed
+- [[Positions/Hindulotine]] - Source control position from which this finish is executed
 
-- [[Front Headlock]] - Primary entry position that leads to Hindulotine control before finishing
+- [[Positions/Front Headlock]] - Primary entry position that leads to Hindulotine control before finishing
 
-- [[Guillotine Control]] - Parent position family sharing grip mechanics and neck control principles
+- [[Positions/Guillotine Control]] - Parent position family sharing grip mechanics and neck control principles
 
-- [[Darce Control]] - Alternative submission path when Hindulotine finish is defended with near-side frames
+- [[Positions/Darce Control]] - Alternative submission path when Hindulotine finish is defended with near-side frames
 
-- [[Anaconda Control]] - Alternative choke transition when opponent creates space during finish defense
+- [[Positions/Anaconda Control]] - Alternative choke transition when opponent creates space during finish defense
 
-- [[Half Guard]] - Counter outcome destination when opponent escapes the finishing attempt
+- [[Positions/Half Guard]] - Counter outcome destination when opponent escapes the finishing attempt
 
-- [[Back Control]] - Alternative transition when opponent turns away during finish attempt
+- [[Positions/Back Control]] - Alternative transition when opponent turns away during finish attempt
 
-- [[Guillotine Choke]] - Related finishing technique sharing guillotine grip foundation
+- [[Transitions/Guillotine Choke]] - Related finishing technique sharing guillotine grip foundation
 
-- [[Arm in Guillotine]] - Related submission variation with arm trapped in choking configuration
+- [[Submissions/Arm in Guillotine]] - Related submission variation with arm trapped in choking configuration
 
-- [[Chin Strap Guillotine]] - Alternative grip variation applicable to Hindulotine finishing mechanics
+- [[Submissions/Chin Strap Guillotine]] - Alternative grip variation applicable to Hindulotine finishing mechanics
 
 
 </section>

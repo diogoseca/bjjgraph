@@ -186,7 +186,7 @@ description: "Master the forward roll escape execution from saddle position. Ste
 
 Executing the forward roll from saddle requires the trapped practitioner to convert a desperate defensive position into a dynamic escape through precise timing and committed rotational movement. The attacker in this context is the person performing the escape—the one trapped in saddle bottom who initiates the forward roll to extract their leg. Success depends on identifying the narrow timing window when the saddle player's hip pressure shifts, loading the roll correctly over the trapped-side shoulder, and immediately transitioning to turtle defense upon completing the extraction. This is not a technique of strength but of mechanical understanding—the rolling arc must spiral the leg against the opponent's figure-four configuration to break the entanglement open.
 
-**From Position**: [[Saddle]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ Executing the forward roll from saddle requires the trapped practitioner to conv
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 50% |
-| Failure | [[Saddle]] | 30% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Turtle]] | 50% |
+| Failure | [[Positions/Ashi Garami/Saddle]] | 30% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ Executing the forward roll from saddle requires the trapped practitioner to conv
 
 ## Opponent Counters
 
-- **Opponent tightens hip pressure and blocks the posting hand to prevent roll initiation** (Effectiveness: High) - Your Response: Abort the roll attempt and return to incremental escapes such as boot scoot or systematic grip fighting. Do not force the roll against heavy hip pressure—this wastes energy and can tighten the entanglement further. → Leads to [[Saddle]]
-- **Opponent follows the roll and immediately establishes seatbelt control for back take** (Effectiveness: High) - Your Response: Establish tight turtle immediately and begin aggressive hand fighting on the choking arm. Chain directly into guard recovery—sit-through or granby roll—before hooks can be inserted. Speed of transition from roll to recovery is critical. → Leads to [[Back Control]]
-- **Opponent grabs the heel during the roll to maintain leg control through the rotation** (Effectiveness: Medium) - Your Response: Accelerate the roll speed and point toes aggressively to reduce foot cross-section. Use free hand to strip the heel grip during the rotation. If they maintain heel control through the full roll, you may end up in a modified ashi garami rather than clean turtle. → Leads to [[Saddle]]
-- **Opponent releases the entanglement preemptively and scrambles to top position** (Effectiveness: Medium) - Your Response: Convert the rolling momentum into a scramble rather than settling into turtle. Use the forward motion to come up to a single leg or transition directly to guard recovery, as the opponent has voluntarily abandoned the leg attack. → Leads to [[Back Control]]
+- **Opponent tightens hip pressure and blocks the posting hand to prevent roll initiation** (Effectiveness: High) - Your Response: Abort the roll attempt and return to incremental escapes such as boot scoot or systematic grip fighting. Do not force the roll against heavy hip pressure—this wastes energy and can tighten the entanglement further. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent follows the roll and immediately establishes seatbelt control for back take** (Effectiveness: High) - Your Response: Establish tight turtle immediately and begin aggressive hand fighting on the choking arm. Chain directly into guard recovery—sit-through or granby roll—before hooks can be inserted. Speed of transition from roll to recovery is critical. → Leads to [[Positions/Back Control]]
+- **Opponent grabs the heel during the roll to maintain leg control through the rotation** (Effectiveness: Medium) - Your Response: Accelerate the roll speed and point toes aggressively to reduce foot cross-section. Use free hand to strip the heel grip during the rotation. If they maintain heel control through the full roll, you may end up in a modified ashi garami rather than clean turtle. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent releases the entanglement preemptively and scrambles to top position** (Effectiveness: Medium) - Your Response: Convert the rolling momentum into a scramble rather than settling into turtle. Use the forward motion to come up to a single leg or transition directly to guard recovery, as the opponent has voluntarily abandoned the leg attack. → Leads to [[Positions/Back Control]]
 
 
 </section>

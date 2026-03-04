@@ -207,21 +207,21 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 ## Available Escapes
 
-### [[Pull Guard from Standing]] (20% of attempts)
+### [[Transitions/Pull Guard from Standing]] (20% of attempts)
 
-### [[Standing Guard Pull]] (18% of attempts)
+### [[Transitions/Standing Guard Pull]] (18% of attempts)
 
-### [[Butterfly Guard Pull]] (15% of attempts)
+### [[Transitions/Butterfly Guard Pull]] (15% of attempts)
 
-### [[Sprawl Defense from Standing]] (15% of attempts)
+### [[Transitions/Sprawl Defense from Standing]] (15% of attempts)
 
-### [[Arm Drag from Standing]] (10% of attempts)
+### [[Transitions/Arm Drag from Standing]] (10% of attempts)
 
-### [[Level Change Takedown]] (8% of attempts)
+### [[Transitions/Level Change Takedown]] (8% of attempts)
 
-### [[Takedown from Bottom]] (7% of attempts)
+### [[Transitions/Takedown from Bottom]] (7% of attempts)
 
-### [[Snap Down from Standing]] (7% of attempts)
+### [[Transitions/Snap Down from Standing]] (7% of attempts)
 
 
 
@@ -232,33 +232,33 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 ## Decision Making from This Position
 
 **If opponent establishes strong collar tie and is driving forward with pressure:**
-- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 55%)
-- Execute **[[Guard Pull]]** → [[Closed Guard]] (Probability: 50%)
-- Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 55%)
+- Execute **[[Transitions/Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 **If opponent is standing upright with minimal grip engagement and maintaining distance:**
-- Execute **[[Single Leg Entry]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Double Leg Entry]]** → [[Side Control]] (Probability: 45%)
-- Execute **[[Ankle Pick]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Single Leg Entry]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Double Leg Entry]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Ankle Pick]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If opponent is shooting for legs or lowering level aggressively:**
-- Execute **[[Sprawl]]** → [[Front Headlock]] (Probability: 65%)
-- Execute **[[Guard Pull]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Guillotine Choke]]** → [[Guillotine Control]] (Probability: 40%)
+- Execute **[[Transitions/Sprawl]]** → [[Positions/Front Headlock]] (Probability: 65%)
+- Execute **[[Transitions/Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Guillotine Choke]]** → [[Positions/Guillotine Control]] (Probability: 40%)
 
 
 **If opponent secures dominant sleeve and collar grips with strong judo posture:**
-- Execute **[[Grip Break]]** → [[Standing Position]] (Probability: 50%)
-- Execute **[[Sitting Guard Pull]]** → [[Seated Guard]] (Probability: 60%)
-- Execute **[[Rolling Guard Pull]]** → [[De La Riva Guard]] (Probability: 45%)
+- Execute **[[Transitions/Grip Break]]** → [[Positions/Standing Position]] (Probability: 50%)
+- Execute **[[Transitions/Sitting Guard Pull]]** → [[Positions/Seated Guard]] (Probability: 60%)
+- Execute **[[Transitions/Rolling Guard Pull]]** → [[Positions/De La Riva Guard]] (Probability: 45%)
 
 
 **If opponent is circling and avoiding engagement with constant movement:**
-- Execute **[[Ankle Pick]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 40%)
-- Execute **[[Guard Pull]]** → [[Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Ankle Pick]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 40%)
+- Execute **[[Transitions/Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
 
@@ -404,17 +404,17 @@ Practice multiple guard pull variations from standing engagement, focusing on gr
 
 ## Related Positions and Techniques
 
-- **[[Clinch]]** - Natural progression from standing with established grips and collar tie control
-- **[[Front Headlock]]** - Common transition target from snapdowns and failed shot defense
-- **[[Closed Guard]]** - Primary guard pull destination from standing engagement
-- **[[Combat Base]]** - Standing variation of defensive base concepts shared with ground positions
-- **[[Guard Pull]]** - Key offensive transition from standing to ground game
-- **[[Double Leg Entry]]** - Primary takedown technique from this position
-- **[[Single Leg Entry]]** - High-percentage takedown option from standing
-- **[[Sprawl]]** - Essential defensive response to leg attacks
-- **[[De La Riva Guard]]** - Rolling guard pull destination with leg entanglement options
-- **[[Back Control]]** - High-value target from standing arm drags and back takes
-- **[[Snap Down to Front Headlock]]** - Primary snapdown transition to establish front headlock control
+- **[[Positions/Clinch]]** - Natural progression from standing with established grips and collar tie control
+- **[[Positions/Front Headlock]]** - Common transition target from snapdowns and failed shot defense
+- **[[Positions/Closed Guard]]** - Primary guard pull destination from standing engagement
+- **[[Positions/Combat Base]]** - Standing variation of defensive base concepts shared with ground positions
+- **[[Transitions/Guard Pull]]** - Key offensive transition from standing to ground game
+- **[[Transitions/Double Leg Entry]]** - Primary takedown technique from this position
+- **[[Transitions/Single Leg Entry]]** - High-percentage takedown option from standing
+- **[[Transitions/Sprawl]]** - Essential defensive response to leg attacks
+- **[[Positions/De La Riva Guard]]** - Rolling guard pull destination with leg entanglement options
+- **[[Positions/Back Control]]** - High-value target from standing arm drags and back takes
+- **[[Transitions/Snap Down to Front Headlock]]** - Primary snapdown transition to establish front headlock control
 
 
 </section>

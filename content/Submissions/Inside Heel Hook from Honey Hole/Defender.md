@@ -156,7 +156,7 @@ description: "Defend the Inside Heel Hook from Honey Hole in BJJ. Recognition cu
 
 Defending the Inside Heel Hook from Honey Hole is one of the most critical survival skills in modern no-gi Brazilian Jiu-Jitsu. The defender faces overwhelming mechanical disadvantage with their leg trapped in the opponent's inside leg triangle and their heel exposed to rotational attack targeting the knee's ligamentous structures. The defensive hierarchy is absolute: protect the heel first by hiding it against your own hip, fight grips to prevent the finishing configuration, create hip mobility through framing and pushing, and extract the leg only when space permits. Most critically, the defender must recognize when the submission is locked and tap immediately—the inside heel hook attacks structures with virtually no proprioceptive warning, meaning ligament damage occurs before pain is perceived. Every escape attempt must be weighed against the risk of catastrophic, career-ending knee injury. Survival and intelligent defense always take priority over ego.
 
-**Opponent's Starting Position**: [[Honey Hole]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Honey Hole]] (Top)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the Inside Heel Hook from Honey Hole is one of the most critical survi
 ### 1. Two-on-one grip strip targeting opponent's thumb and wrist before figure-four is established
 
 - **When to use**: As soon as you feel opponent reaching for your heel—grip fighting is most effective before the reinforced Kimura grip locks in
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: Opponent must re-clear your grips and re-establish heel control, buying time for positional escape attempts
 - **Risk**: Occupies both hands defensively, limiting your ability to frame or create distance simultaneously
 
 ### 2. Explosive counter-entangle rotation toward opponent's legs to enter 50-50 Guard
 
 - **When to use**: When opponent loosens their leg triangle momentarily while adjusting grip or clearing your frames—the transition window is 1-2 seconds maximum
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Neutralizes opponent's dominant inside position by establishing symmetrical entanglement where neither player has clear advantage
 - **Risk**: Failed rotation can expose your heel further and tighten the entanglement—must be fully committed and explosive
 
 ### 3. Hide heel against own hip by rotating knee inward and flexing foot while gripping your own ankle
 
 - **When to use**: Immediately upon recognizing Honey Hole entanglement—this is your first and most critical defensive action before any escape attempt
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: Prevents opponent from establishing optimal heel hook angle, forcing them to either switch to secondary attacks or spend energy breaking your heel protection
 - **Risk**: Hiding heel is a defensive stall, not an escape—opponent can counter by transitioning to toe hold or kneebar targeting the exposed foot
 
 ### 4. Free leg frame on opponent's hip combined with explosive hip escape backward
 
 - **When to use**: When opponent's hip pressure loosens during grip transitions or when they shift weight forward to reach for the heel
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: Creates distance that may loosen the triangle enough for leg extraction or at minimum resets opponent's finishing sequence
 - **Risk**: If free leg frame is cleared or hooked, you lose your primary escape mechanism and mobility tool
 
@@ -239,11 +239,11 @@ Defending the Inside Heel Hook from Honey Hole is one of the most critical survi
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Counter-entangle by explosively rotating toward opponent's legs during their grip transition window, establishing symmetrical 50-50 position that eliminates their dominant inside control advantage
 
-### → [[Honey Hole]]
+### → [[Positions/Ashi Garami/Honey Hole]]
 
 Strip opponent's heel grip using aggressive two-on-one grip fighting combined with heel hiding, forcing them to restart the entire finishing sequence from positional control
 

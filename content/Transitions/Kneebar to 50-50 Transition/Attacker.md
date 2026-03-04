@@ -186,7 +186,7 @@ description: "Master the attacker perspective for the kneebar to 50-50 transitio
 
 From the attacker's perspective, the kneebar to 50-50 transition is a calculated positional upgrade that converts a defended submission position into a versatile attacking platform. The attacker must read their opponent's kneebar defense, recognize when the finish probability has dropped below a productive threshold, and smoothly redirect into 50-50 where fresh attack chains become available. The transition requires maintaining continuous leg control throughout the positional shift while threading into a new entanglement configuration. Timing is paramount: initiating too early abandons a viable kneebar, while waiting too long allows the defender to build frames and begin their own escape sequence. The attacker who masters this transition transforms every kneebar defense into a pathway toward heel hooks, calf slicers, and back takes.
 
-**From Position**: [[Kneebar Control]] (Top)
+**From Position**: [[Positions/Kneebar Control]] (Top)
 
 </section>
 
@@ -240,9 +240,9 @@ From the attacker's perspective, the kneebar to 50-50 transition is a calculated
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 55% |
-| Failure | [[Kneebar Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 55% |
+| Failure | [[Positions/Kneebar Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ From the attacker's perspective, the kneebar to 50-50 transition is a calculated
 
 ## Opponent Counters
 
-- **Opponent straightens and extracts leg during the grip transition moment** (Effectiveness: High) - Your Response: Maintain at least one grip on their leg and follow their hip movement. If extraction is partial, convert to straight ankle lock on the exposed ankle or chase with 50-50 entry from a different angle before they fully disengage. → Leads to [[Half Guard]]
-- **Opponent posts hand on attacker's hip to block leg threading** (Effectiveness: Medium) - Your Response: Strip their posting hand with your near arm while continuing leg threading with the opposite side. Alternatively, abandon the 50-50 attempt and return to kneebar finishing pressure while their hand is occupied posting rather than defending the knee. → Leads to [[Kneebar Control]]
-- **Opponent bridges explosively and hip escapes during weight transition** (Effectiveness: High) - Your Response: Follow their bridge with your hips and maintain leg contact. If they create significant distance, immediately consolidate any available top position rather than chasing the 50-50 entry. Prioritize not ending in an inferior position. → Leads to [[Half Guard]]
-- **Opponent immediately fights for inside position as 50-50 is established** (Effectiveness: Medium) - Your Response: Prioritize winning the inside position battle using your initial momentum advantage from the transition. Press your inside shin deeper into their leg structure and drive hips forward before they can establish parity. Whoever wins inside control first controls the submission hierarchy. → Leads to [[50-50 Guard]]
+- **Opponent straightens and extracts leg during the grip transition moment** (Effectiveness: High) - Your Response: Maintain at least one grip on their leg and follow their hip movement. If extraction is partial, convert to straight ankle lock on the exposed ankle or chase with 50-50 entry from a different angle before they fully disengage. → Leads to [[Positions/Half Guard]]
+- **Opponent posts hand on attacker's hip to block leg threading** (Effectiveness: Medium) - Your Response: Strip their posting hand with your near arm while continuing leg threading with the opposite side. Alternatively, abandon the 50-50 attempt and return to kneebar finishing pressure while their hand is occupied posting rather than defending the knee. → Leads to [[Positions/Kneebar Control]]
+- **Opponent bridges explosively and hip escapes during weight transition** (Effectiveness: High) - Your Response: Follow their bridge with your hips and maintain leg contact. If they create significant distance, immediately consolidate any available top position rather than chasing the 50-50 entry. Prioritize not ending in an inferior position. → Leads to [[Positions/Half Guard]]
+- **Opponent immediately fights for inside position as 50-50 is established** (Effectiveness: Medium) - Your Response: Prioritize winning the inside position battle using your initial momentum advantage from the transition. Press your inside shin deeper into their leg structure and drive hips forward before they can establish parity. Whoever wins inside control first controls the submission hierarchy. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 
 
 </section>

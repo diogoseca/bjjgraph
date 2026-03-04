@@ -21,7 +21,7 @@ The success of this escape hinges on the fundamental principle that every attack
 
 This escape is particularly important because it transforms an extremely dangerous position into one with legitimate offensive options. Half guard bottom, while not dominant, provides sweeping opportunities, back takes, and further guard recovery pathways that are entirely unavailable from technical mount bottom. The ability to consistently execute this escape under pressure is a hallmark of competent defensive BJJ at purple belt and above, and distinguishes practitioners who can survive bad positions from those who can systematically recover from them.
 
-**From Position**: [[Technical Mount]] (Bottom)
+**From Position**: [[Positions/Mount/Technical Mount]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,10 +32,10 @@ This escape is particularly important because it transforms an extremely dangero
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Technical Mount]] | 38% |
-| Counter | [[Back Control]] | 13% |
-| Counter | [[Armbar Control]] | 9% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Mount/Technical Mount]] | 38% |
+| Counter | [[Positions/Back Control]] | 13% |
+| Counter | [[Positions/Armbar Control]] | 9% |
 
 
 </section>
@@ -194,25 +194,25 @@ This escape serves as the primary defensive recovery pathway from one of BJJ's m
 ## Related Techniques
 
 
-- [[Technical Mount]] - Starting position - the dominant mount variation from which this escape is initiated
+- [[Positions/Mount/Technical Mount]] - Starting position - the dominant mount variation from which this escape is initiated
 
-- [[Half Guard]] - Target position - the guard recovered after successful escape execution
+- [[Positions/Half Guard]] - Target position - the guard recovered after successful escape execution
 
-- [[Bridge from Technical Mount]] - Complementary escape - uses bridge mechanics that can be combined with or precede this hip escape
+- [[Transitions/Bridge from Technical Mount]] - Complementary escape - uses bridge mechanics that can be combined with or precede this hip escape
 
-- [[Back Turn from Technical Mount]] - Alternative escape - turning into the top player rather than hip escaping away
+- [[Transitions/Back Turn from Technical Mount]] - Alternative escape - turning into the top player rather than hip escaping away
 
-- [[Mount]] - Parent position - standard mount from which technical mount is derived
+- [[Positions/Mount]] - Parent position - standard mount from which technical mount is derived
 
-- [[Back Control]] - Counter position - where the escaper ends up if the top player capitalizes on the turn
+- [[Positions/Back Control]] - Counter position - where the escaper ends up if the top player capitalizes on the turn
 
-- [[Armbar Control]] - Counter position - submission threat if arm protection fails during escape
+- [[Positions/Armbar Control]] - Counter position - submission threat if arm protection fails during escape
 
-- [[Knee Shield Half Guard]] - Recovery variation - half guard sub-position commonly established during this escape
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Recovery variation - half guard sub-position commonly established during this escape
 
-- [[Armbar from Technical Mount]] - Primary submission threat - the attack this escape must defend against during execution
+- [[Submissions/Armbar from Technical Mount]] - Primary submission threat - the attack this escape must defend against during execution
 
-- [[S Mount]] - Related mount variation - shares stepped leg configuration with similar escape mechanics
+- [[Positions/Mount/S Mount]] - Related mount variation - shares stepped leg configuration with similar escape mechanics
 
 
 </section>

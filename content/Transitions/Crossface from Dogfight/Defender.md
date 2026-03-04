@@ -146,7 +146,7 @@ description: "Learn to defend and counter the Crossface from Dogfight in BJJ. Re
 
 As the defender against the Crossface from Dogfight, your primary objective is to maintain your upright kneeling posture and underhook depth against the top player's shoulder pressure. The crossface is the most direct threat to your offensive position in the dogfight, and failing to defend it results in being flattened to the mat with severely diminished sweeping and back-taking capability. Effective defense requires early recognition of the crossface setup, proactive posture maintenance through chin positioning and frame integrity, and the ability to convert defensive moments into offensive opportunities. The best defense against the crossface is not purely reactive—it involves maintaining constant forward pressure with your underhook and threatening sweeps that force the top player to respect your offense rather than committing fully to the crossface.
 
-**Opponent's Starting Position**: [[Dogfight Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Dogfight Position]] (Top)
 
 </section>
 
@@ -183,28 +183,28 @@ As the defender against the Crossface from Dogfight, your primary objective is t
 ### 1. Deepen underhook and drive forward explosively before crossface connects
 
 - **When to use**: At the earliest recognition that opponent is setting up the crossface, before shoulder contact is made with your jaw
-- **Targets**: [[Dogfight Position]]
+- **Targets**: [[Positions/Dogfight Position]]
 - **If successful**: You preempt the crossface by establishing dominant forward pressure, maintaining dogfight with offensive initiative
 - **Risk**: If your timing is late, your forward momentum is redirected downward by the crossface, accelerating the flattening
 
 ### 2. Duck under the crossface and circle behind for back take
 
 - **When to use**: When the opponent commits heavily to the crossface drive, dropping their level and creating space behind them
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You bypass the crossface entirely and establish back control, converting their offense into your dominant position
 - **Risk**: If the duck-under is scouted, the opponent can sprawl and drive you flat, completing the pass
 
 ### 3. Frame against crossfacing shoulder with free hand and hip escape to knee shield
 
 - **When to use**: When the crossface has partially landed but you still have frame integrity and hip mobility
-- **Targets**: [[Dogfight Position]]
+- **Targets**: [[Positions/Dogfight Position]]
 - **If successful**: You create enough distance to re-establish knee shield half guard, resetting the engagement from a safer position
 - **Risk**: Extending your arm to frame may expose it to kimura attacks if the opponent releases the crossface to capture your wrist
 
 ### 4. Drop level and enter deep half guard underneath the crossface pressure
 
 - **When to use**: When the crossface is landing effectively and maintaining upright posture is no longer viable
-- **Targets**: [[Dogfight Position]]
+- **Targets**: [[Positions/Dogfight Position]]
 - **If successful**: You transition to deep half guard where the crossface loses effectiveness and you regain sweep opportunities from underneath
 - **Risk**: The transition to deep half requires precise timing—if executed too late, you end up flattened rather than in deep half position
 
@@ -216,11 +216,11 @@ As the defender against the Crossface from Dogfight, your primary objective is t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a duck-under or reversal during the crossface attempt, using the opponent's committed weight and forward pressure against them to circle behind or execute a sweep that puts them on bottom
 
-### → [[Dogfight Position]]
+### → [[Positions/Dogfight Position]]
 
 Preemptively deepen your underhook and drive forward before the crossface connects, maintaining your upright posture and offensive initiative in the dogfight. Alternatively, frame and recover to knee shield to reset the engagement.
 

@@ -184,7 +184,7 @@ From the Hindulotine bottom position, the practitioner establishes butterfly hoo
 
 The strategic brilliance of this combination lies in its offensive layering. The opponent faces a no-win scenario: defending the sweep by posting wide opens the guillotine finish, while driving forward to escape the choke enables the sweep. This dilemma-based approach represents modern submission grappling at its highest level, where every defensive action opens a new offensive opportunity.
 
-**From Position**: [[Hindulotine]] (Bottom)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -238,9 +238,9 @@ The strategic brilliance of this combination lies in its offensive layering. The
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 58% |
-| Failure | [[Hindulotine]] | 27% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Mount]] | 58% |
+| Failure | [[Positions/Hindulotine]] | 27% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -249,10 +249,10 @@ The strategic brilliance of this combination lies in its offensive layering. The
 
 ## Opponent Counters
 
-- **Posting wide with hands to prevent forward momentum and sweep trajectory** (Effectiveness: High) - Your Response: When opponent posts wide, their posture breaks and weight distribution shifts. Immediately tighten guillotine grip and angle hips further to finish the choke rather than sweep, as their posting creates the space needed for the finish. → Leads to [[Hindulotine]]
-- **Driving hips back and sprawling to remove butterfly hook leverage** (Effectiveness: Medium) - Your Response: Follow their hip retreat with your hooks by extending your legs and pulling their head down. If they create too much distance, transition to closed guard while maintaining guillotine and reset the sweep threat from a stable position. → Leads to [[Hindulotine]]
-- **Turning head toward your body to relieve choking pressure during sweep** (Effectiveness: Medium) - Your Response: Their turn exposes their back. Complete the sweep but transition to back take rather than mount as they land, using the guillotine grip to help establish seat belt control for superior positional control. → Leads to [[Mount]]
-- **Standing up to break guillotine grip and disengage completely** (Effectiveness: Low) - Your Response: Follow to standing guillotine position, maintaining hooks as long as possible. If they achieve full standing, either finish standing guillotine or transition to snap down and front headlock reset to re-enter the attack cycle. → Leads to [[Closed Guard]]
+- **Posting wide with hands to prevent forward momentum and sweep trajectory** (Effectiveness: High) - Your Response: When opponent posts wide, their posture breaks and weight distribution shifts. Immediately tighten guillotine grip and angle hips further to finish the choke rather than sweep, as their posting creates the space needed for the finish. → Leads to [[Positions/Hindulotine]]
+- **Driving hips back and sprawling to remove butterfly hook leverage** (Effectiveness: Medium) - Your Response: Follow their hip retreat with your hooks by extending your legs and pulling their head down. If they create too much distance, transition to closed guard while maintaining guillotine and reset the sweep threat from a stable position. → Leads to [[Positions/Hindulotine]]
+- **Turning head toward your body to relieve choking pressure during sweep** (Effectiveness: Medium) - Your Response: Their turn exposes their back. Complete the sweep but transition to back take rather than mount as they land, using the guillotine grip to help establish seat belt control for superior positional control. → Leads to [[Positions/Mount]]
+- **Standing up to break guillotine grip and disengage completely** (Effectiveness: Low) - Your Response: Follow to standing guillotine position, maintaining hooks as long as possible. If they achieve full standing, either finish standing guillotine or transition to snap down and front headlock reset to re-enter the attack cycle. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

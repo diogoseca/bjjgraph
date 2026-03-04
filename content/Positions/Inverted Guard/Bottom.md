@@ -205,31 +205,31 @@ From the bottom perspective, Inverted Guard represents a highly mobile defensive
 
 ## Available Escapes
 
-### [[Berimbolo Entry]] (24% of attempts)
+### [[Transitions/Berimbolo Entry]] (24% of attempts)
 
-### [[Rolling Back Take]] (10% of attempts)
+### [[Transitions/Rolling Back Take]] (10% of attempts)
 
-### [[Kiss of the Dragon]] (7% of attempts)
+### [[Transitions/Kiss of the Dragon]] (7% of attempts)
 
-### [[Single Leg X Entry]] (9% of attempts)
+### [[Transitions/Single Leg X Entry]] (9% of attempts)
 
-### [[X-Guard Sweep]] (7% of attempts)
+### [[Transitions/X-Guard Sweep]] (7% of attempts)
 
-### [[Granby Roll to Guard]] (9% of attempts)
+### [[Transitions/Granby Roll to Guard]] (9% of attempts)
 
-### [[Omoplata]] (4% of attempts)
+### [[Transitions/Omoplata]] (4% of attempts)
 
-### [[Roll to Truck]] (5% of attempts)
+### [[Transitions/Roll to Truck]] (5% of attempts)
 
-### [[Reverse X-Guard Entry]] (4% of attempts)
+### [[Transitions/Reverse X-Guard Entry]] (4% of attempts)
 
-### [[Technical Stand-up]] (6% of attempts)
+### [[Transitions/Technical Stand-up]] (6% of attempts)
 
-### [[Bolo Sweep]] (7% of attempts)
+### [[Transitions/Bolo Sweep]] (7% of attempts)
 
-### [[Reverse De La Riva Recovery]] (6% of attempts)
+### [[Transitions/Reverse De La Riva Recovery]] (6% of attempts)
 
-### [[Sweep from Inverted Guard]] (2% of attempts)
+### [[Transitions/Sweep from Inverted Guard]] (2% of attempts)
 
 
 
@@ -240,28 +240,28 @@ From the bottom perspective, Inverted Guard represents a highly mobile defensive
 ## Decision Making from This Position
 
 **If opponent attempts smash pass with forward pressure and weight driving into shoulders:**
-- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 60%)
-- Execute **[[Berimbolo Entry]]** → [[Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Transitions/Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 50%)
 
 
 **Else if opponent commits weight forward to control position with close distance:**
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Kiss of the Dragon]]** → [[Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Kiss of the Dragon]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 **Else if opponent maintains distance and steps back to disengage:**
-- Execute **[[Technical Stand-up]]** → [[Standing Guard]] (Probability: 65%)
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Guard]] (Probability: 65%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
 
 
 **Else if opponent establishes strong base with legs wide and low posture:**
-- Execute **[[X-Guard Sweep]]** → [[X-Guard]] (Probability: 50%)
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 60%)
+- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 50%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 60%)
 
 
 **Else if opponent begins stack pass with hips elevated and pressure angled downward:**
-- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 65%)
-- Execute **[[Reverse X-Guard Entry]]** → [[Reverse X-Guard]] (Probability: 45%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 65%)
+- Execute **[[Transitions/Reverse X-Guard Entry]]** → [[Positions/X-Guard/Reverse X-Guard]] (Probability: 45%)
 
 
 
@@ -407,17 +407,17 @@ Focus specifically on berimbolo entries and rolling back takes from inverted gua
 
 ## Related Positions and Techniques
 
-- **[[De La Riva Guard]]** - Common entry position for inverted guard transitions and primary connection point
-- **[[Reverse De La Riva Guard]]** - Frequently connects to inverted guard entries with similar grip structures
-- **[[Single Leg X-Guard]]** - Primary transition target from inverted position with sweep and leg entanglement options
-- **[[X-Guard]]** - Related guard position with similar sweep mechanics and base disruption strategies
-- **[[Berimbolo Entry]]** - Primary offensive transition utilizing inversion for back attack sequences
-- **[[Rolling Back Take]]** - Key transition to back control from inverted position using rotational mechanics
-- **[[Granby Roll to Guard]]** - Essential movement pattern for exiting inverted guard safely and recovering guard
-- **[[Kiss of the Dragon]]** - Advanced back take variation from inverted guard with high finishing potential
-- **[[Truck]]** - Related inverted position with back attack and submission opportunities
-- **[[Spider Guard]]** - Entry position that can transition to inverted guard for defensive retention
-- **[[Lasso Guard]]** - Connected guard position with inversion pathways and similar control strategies
+- **[[Positions/De La Riva Guard]]** - Common entry position for inverted guard transitions and primary connection point
+- **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Frequently connects to inverted guard entries with similar grip structures
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Primary transition target from inverted position with sweep and leg entanglement options
+- **[[Positions/X-Guard]]** - Related guard position with similar sweep mechanics and base disruption strategies
+- **[[Transitions/Berimbolo Entry]]** - Primary offensive transition utilizing inversion for back attack sequences
+- **[[Transitions/Rolling Back Take]]** - Key transition to back control from inverted position using rotational mechanics
+- **[[Transitions/Granby Roll to Guard]]** - Essential movement pattern for exiting inverted guard safely and recovering guard
+- **[[Transitions/Kiss of the Dragon]]** - Advanced back take variation from inverted guard with high finishing potential
+- **[[Positions/Twister Control/Truck]]** - Related inverted position with back attack and submission opportunities
+- **[[Positions/Spider Guard]]** - Entry position that can transition to inverted guard for defensive retention
+- **[[Positions/Lasso Guard]]** - Connected guard position with inversion pathways and similar control strategies
 
 
 </section>

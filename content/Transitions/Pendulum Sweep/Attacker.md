@@ -174,7 +174,7 @@ description: "How to execute Pendulum Sweep in BJJ. Attacking perspective with s
 
 The Pendulum Sweep is a fundamental and highly effective attack from closed guard that exploits the opponent's defensive posture when they post their hand to the mat. Named for the pendulum-like leg motion that generates sweeping momentum, this technique is one of the first sweeps taught to beginners due to its mechanical efficiency and high success rate. The sweep works by creating a powerful lever system using your legs while controlling the opponent's upper body, making it extremely difficult to defend once properly initiated. Unlike many sweeps that require breaking the opponent's posture forward, the Pendulum Sweep actually works best when the opponent maintains upright posture or even leans back, making it an ideal complement to other closed guard attacks. The technique's effectiveness comes from the combination of hip movement, proper gripping, and the pendulum motion of the outside leg, which creates overwhelming rotational force that dumps the opponent directly into mount position. Mastering this sweep provides practitioners with a reliable path from defensive bottom position to dominant top position.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -227,9 +227,9 @@ The Pendulum Sweep is a fundamental and highly effective attack from closed guar
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 75% |
-| Failure | [[Closed Guard]] | 15% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Mount]] | 75% |
+| Failure | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -238,10 +238,10 @@ The Pendulum Sweep is a fundamental and highly effective attack from closed guar
 
 ## Opponent Counters
 
-- **Opponent bases out wide with their far leg to prevent rotation** (Effectiveness: Medium) - Your Response: Switch to Triangle Choke by bringing your pendulum leg over the posted arm and locking the triangle, or transition to Omoplata on the trapped arm → Leads to [[Closed Guard]]
-- **Opponent pulls their sleeve grip free and posts on the mat** (Effectiveness: High) - Your Response: Immediately switch to attacking the posted arm with Kimura or transition to different sweep using the new opening → Leads to [[Closed Guard]]
-- **Opponent drives forward and attempts to stack you before pendulum motion** (Effectiveness: Medium) - Your Response: Abandon pendulum and transition to Hip Bump Sweep or Flower Sweep which work better against forward pressure → Leads to [[Closed Guard]]
-- **Opponent stands up completely to escape the sweep mechanics** (Effectiveness: Low) - Your Response: Maintain sleeve grip and transition to standing guard attacks or use momentum to execute technical stand-up → Leads to [[Closed Guard]]
+- **Opponent bases out wide with their far leg to prevent rotation** (Effectiveness: Medium) - Your Response: Switch to Triangle Choke by bringing your pendulum leg over the posted arm and locking the triangle, or transition to Omoplata on the trapped arm → Leads to [[Positions/Closed Guard]]
+- **Opponent pulls their sleeve grip free and posts on the mat** (Effectiveness: High) - Your Response: Immediately switch to attacking the posted arm with Kimura or transition to different sweep using the new opening → Leads to [[Positions/Closed Guard]]
+- **Opponent drives forward and attempts to stack you before pendulum motion** (Effectiveness: Medium) - Your Response: Abandon pendulum and transition to Hip Bump Sweep or Flower Sweep which work better against forward pressure → Leads to [[Positions/Closed Guard]]
+- **Opponent stands up completely to escape the sweep mechanics** (Effectiveness: Low) - Your Response: Maintain sleeve grip and transition to standing guard attacks or use momentum to execute technical stand-up → Leads to [[Positions/Closed Guard]]
 
 
 </section>

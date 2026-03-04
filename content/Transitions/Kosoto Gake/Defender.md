@@ -154,7 +154,7 @@ description: "How to defend against Kosoto Gake in BJJ. Recognition cues, defens
 
 Defending Kosoto Gake requires early recognition and immediate action because the throw's simplicity means it executes quickly once committed. The defender's primary objective is to deny the two essential conditions for the throw: rearward weight loading on the target leg and close upper body control by the attacker. Because Kosoto Gake relies on a force couple between the upper body pull and leg reap, disrupting either component neutralizes the entire technique. The most effective defensive window is during the setup phase before the attacker positions their reaping leg. Once the reap begins, defensive options narrow significantly but recovery is still possible through proper base adjustment and counter-pressure. Understanding Kosoto Gake defense is essential for any practitioner who engages in standup exchanges, as it is one of the most commonly attempted throws in BJJ competition due to its accessibility and reliability.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending Kosoto Gake requires early recognition and immediate action because th
 ### 1. Step your rear leg backward and away from the reap, shifting weight to your front leg
 
 - **When to use**: When you feel the attacker positioning their leg behind yours but before the reap is fully committed
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Attacker's reap contacts empty space, you return to neutral standing with grip fighting advantage as they recover balance
 - **Risk**: Attacker chains to Kosoto Gari or Osoto Gari targeting the leg you stepped onto
 
 ### 2. Drive hips forward aggressively and circle toward the attacker's reaping leg side to kill the angle
 
 - **When to use**: When you feel the backward pull on your upper body beginning and recognize the throw setup in its early phase
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Your forward pressure neutralizes the backward pull and eliminates the angle needed for the reap, returning to neutral clinch engagement
 - **Risk**: If attacker reads your forward drive, they may redirect into a different throw using your forward momentum against you
 
 ### 3. Strip the attacker's collar grip with a two-on-one grip break while posting your free hand on their hip to create distance
 
 - **When to use**: Early in the setup phase when attacker is establishing the grip configuration but has not yet committed to the throw
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Without the collar grip, the attacker cannot generate the backward pulling force needed for the throw, resetting to neutral grip fighting
 - **Risk**: If grip break is slow, attacker may complete the throw during your grip fighting attempt
 
 ### 4. Turn into the attacker and attack with your own underhook or guillotine threat to counter their forward commitment
 
 - **When to use**: When the attacker has committed to the throw but you have maintained enough posture to counter-attack
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Your counter-rotation disrupts the throw mechanics and establishes your own offensive position in the clinch or secures a submission grip
 - **Risk**: If your counter-attack timing is late, you may still be thrown while turning, landing in a worse position
 
@@ -225,11 +225,11 @@ Defending Kosoto Gake requires early recognition and immediate action because th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Deny the throw by stepping your rear leg away from the reap, stripping the collar grip with a two-on-one break, or driving your hips forward to neutralize the backward pull. Return to neutral standing and re-engage grip fighting from an advantageous position since the attacker has expended energy on a failed attempt.
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Turn into the attacker during their throw attempt to establish your own clinch grips. Use an underhook or collar tie on the side they are attacking to redirect their momentum. Even if you end up in a slightly disadvantageous clinch position, you have prevented the takedown to side control which is a far worse outcome.
 

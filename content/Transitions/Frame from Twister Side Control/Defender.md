@@ -140,7 +140,7 @@ description: "Counter the frame escape from twister side control with pressure m
 
 The defender in this context is the top player maintaining twister side control while the bottom player attempts a frame-based escape. Your primary objective is to prevent the establishment of structural frames that create separation, and to maintain the leg entanglement and shoulder pressure that define the position's control. Early recognition of framing attempts is essential because partially built frames are far easier to collapse than fully established ones. The defender must balance between maintaining positional control and recognizing submission opportunities that arise when the bottom player exposes their arms or changes their body angle during escape attempts. This balance between control maintenance and offensive exploitation defines high-level twister side control retention against systematic frame escapes.
 
-**Opponent's Starting Position**: [[Twister Side Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Twister Control/Twister Side Control]] (Bottom)
 
 </section>
 
@@ -178,21 +178,21 @@ The defender in this context is the top player maintaining twister side control 
 ### 1. Collapse frames with increased shoulder pressure by driving chest weight into the frame before it becomes structurally sound
 
 - **When to use**: Immediately upon detecting the earliest signs of frame creation, before the bottom player establishes both frames and begins hip escape
-- **Targets**: [[Twister Side Control]]
+- **Targets**: [[Positions/Twister Control/Twister Side Control]]
 - **If successful**: Bottom player's frames collapse and you return to full twister side control with renewed submission pressure
 - **Risk**: Over-committing weight forward to collapse frames can create a momentary balance disruption the bottom player exploits for a bridge escape
 
 ### 2. Re-entangle legs into truck position by driving hook deeper when the bottom player begins extracting their legs from the entanglement
 
 - **When to use**: When the bottom player has created upper body separation and begins the leg extraction phase of their escape sequence
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: Achieve full truck position with renewed access to twister, calf slicer, and back take submission chains
 - **Risk**: If the timing is late, the leg extraction may complete before you can re-entangle, allowing the half guard recovery
 
 ### 3. Attack the extended framing arm with a kimura grip or wristlock when the bottom player's elbow straightens beyond safe range
 
 - **When to use**: When the bottom player pushes with straight arms rather than building structural bent-elbow frames, exposing their arm to isolation
-- **Targets**: [[Twister Side Control]]
+- **Targets**: [[Positions/Twister Control/Twister Side Control]]
 - **If successful**: Bottom player is forced to withdraw their frame to defend the arm attack, and you re-establish full positional control
 - **Risk**: Focusing on the arm attack requires temporarily releasing some positional control, which may create space for hip escape if the submission is not secured quickly
 
@@ -204,11 +204,11 @@ The defender in this context is the top player maintaining twister side control 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Truck]]
+### → [[Positions/Twister Control/Truck]]
 
 When the bottom player begins extracting their legs during the escape sequence, immediately re-entangle by driving your hook deeper and transitioning to full truck control, capitalizing on the momentary gap in their upper body frame structure as they shift focus to the lower body
 
-### → [[Twister Side Control]]
+### → [[Positions/Twister Control/Twister Side Control]]
 
 Drive heavy shoulder pressure into the frames before they become structurally sound, using chest-to-chest weight transfer to collapse the frame structure and return to full twister side control with renewed submission pressure and tighter leg entanglement
 

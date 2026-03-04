@@ -180,7 +180,7 @@ description: "Complete guide to executing the Inversion from Headquarters as the
 
 As the bottom player caught in headquarters, executing the inversion requires precise timing, proper shoulder roll mechanics, and the ability to thread your legs into De La Riva Guard during the rotation. The technique transforms a defensive guard retention situation into an offensive guard recovery by changing the plane of engagement entirely. Rather than fighting the passer's pressure with frames and hip escapes, you redirect underneath their base through an angular movement that exploits the geometric limitations of their headquarters structure. Success depends on reading the passer's weight shifts, creating initial space with frames, and committing to the inversion during transitional moments when the passer's pressure is momentarily reduced.
 
-**From Position**: [[Headquarters Position]] (Bottom)
+**From Position**: [[Positions/Headquarters Position]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player caught in headquarters, executing the inversion requires pr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[De La Riva Guard]] | 50% |
-| Failure | [[Headquarters Position]] | 30% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/De La Riva Guard]] | 50% |
+| Failure | [[Positions/Headquarters Position]] | 30% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the bottom player caught in headquarters, executing the inversion requires pr
 
 ## Opponent Counters
 
-- **Passer drives heavy crossface to flatten and block the shoulder roll path** (Effectiveness: High) - Your Response: Abandon the inversion and use the crossface pressure to hip escape in the opposite direction, recovering to knee shield half guard instead. Forcing an inversion against crossface is the most common cause of getting flattened and passed. → Leads to [[Headquarters Position]]
-- **Passer sprawls hips back and increases downward pressure on the trapped leg** (Effectiveness: High) - Your Response: Wait for a better timing window rather than forcing the inversion. Use frames to maintain position and look for the passer to re-initiate a passing sequence that creates the weight shift needed for your inversion. Consider alternative guard recovery through hip escape sequences. → Leads to [[Headquarters Position]]
-- **Passer backsteps during the inversion to circle toward your exposed back** (Effectiveness: Medium) - Your Response: Redirect the inversion toward Single Leg X-Guard or Reverse De La Riva by adjusting your hook placement to account for the passer's changed angle. The backstep changes the geometry but also removes their forward pressure, giving you time to establish an alternative guard configuration. → Leads to [[Side Control]]
-- **Passer follows the inversion with a leg drag, controlling the hooking leg before DLR is established** (Effectiveness: Medium) - Your Response: Fight the leg drag by immediately framing on the passer's hip and pummel your hooking leg back to the inside before they consolidate the drag position. If the drag is already established, transition to a seated guard recovery rather than trying to force DLR from the compromised angle. → Leads to [[Side Control]]
+- **Passer drives heavy crossface to flatten and block the shoulder roll path** (Effectiveness: High) - Your Response: Abandon the inversion and use the crossface pressure to hip escape in the opposite direction, recovering to knee shield half guard instead. Forcing an inversion against crossface is the most common cause of getting flattened and passed. → Leads to [[Positions/Headquarters Position]]
+- **Passer sprawls hips back and increases downward pressure on the trapped leg** (Effectiveness: High) - Your Response: Wait for a better timing window rather than forcing the inversion. Use frames to maintain position and look for the passer to re-initiate a passing sequence that creates the weight shift needed for your inversion. Consider alternative guard recovery through hip escape sequences. → Leads to [[Positions/Headquarters Position]]
+- **Passer backsteps during the inversion to circle toward your exposed back** (Effectiveness: Medium) - Your Response: Redirect the inversion toward Single Leg X-Guard or Reverse De La Riva by adjusting your hook placement to account for the passer's changed angle. The backstep changes the geometry but also removes their forward pressure, giving you time to establish an alternative guard configuration. → Leads to [[Positions/Side Control]]
+- **Passer follows the inversion with a leg drag, controlling the hooking leg before DLR is established** (Effectiveness: Medium) - Your Response: Fight the leg drag by immediately framing on the passer's hip and pummel your hooking leg back to the inside before they consolidate the drag position. If the drag is already established, transition to a seated guard recovery rather than trying to force DLR from the compromised angle. → Leads to [[Positions/Side Control]]
 
 
 </section>

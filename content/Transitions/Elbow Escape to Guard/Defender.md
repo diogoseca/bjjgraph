@@ -156,7 +156,7 @@ As the buggy choke top player, defending against the Elbow Escape to Guard means
 
 The escape relies on a specific sequence—chin tuck, elbow wedge insertion, hip escape, knee insertion—and each phase offers a distinct window for you to counter. Early recognition allows you to tighten grips and increase pressure before the wedge establishes. If the wedge does get in, you can strip it by driving your forearm deeper or follow the hip escape to take the back. The key defensive principle is that you should never allow the bottom player to complete two consecutive phases of the escape without applying a counter. Passive maintenance of the buggy choke position invites escape; active pressure management and transition readiness keep you in control.
 
-**Opponent's Starting Position**: [[Buggy Choke]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Buggy Choke]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ The escape relies on a specific sequence—chin tuck, elbow wedge insertion, hip
 ### 1. Drive choking forearm deeper and increase chest pressure immediately when you feel elbow movement toward neck
 
 - **When to use**: Early phase—as soon as you detect the chin tuck or elbow movement, before the wedge is established
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: Elbow wedge cannot be inserted, choke pressure increases, and you maintain full buggy choke control with the bottom player unable to create structural relief
 - **Risk**: If you overcommit chest pressure forward, bottom player may use the momentum to execute a granby roll escape
 
 ### 2. Follow the hip escape by walking your hips and chest with the bottom player to deny space creation
 
 - **When to use**: Mid phase—after elbow wedge is partially established but before significant space has been created by the hip escape
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: Space is denied despite the hip escape attempt, allowing you to re-consolidate pressure and continue the choke attack or transition to a dominant position
 - **Risk**: If you follow too aggressively, bottom player may use your forward momentum to insert their knee and complete guard recovery
 
 ### 3. Abandon choke grips and transition to back control by hooking the near leg as bottom player hip escapes
 
 - **When to use**: Late phase—when the elbow wedge is fully established and significant space has been created, making choke completion unlikely
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You convert a failing choke attempt into back control, maintaining a dominant position with hook access created by their hip escape movement
 - **Risk**: If the bottom player recognizes the transition early, they may immediately turn in and recover guard before you can establish hooks
 
 ### 4. Strip the elbow wedge by driving your forearm deeper under the armpit and rotating your wrist to bypass the obstruction
 
 - **When to use**: When elbow wedge is established but bottom player has not yet begun the hip escape phase
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: The choking arm regains depth past the elbow barrier, restoring full choking pressure and nullifying the escape attempt
 - **Risk**: The grip adjustment creates a momentary loosening that a fast opponent may exploit to accelerate their hip escape
 
@@ -226,11 +226,11 @@ The escape relies on a specific sequence—chin tuck, elbow wedge insertion, hip
 
 ## Best-Case Outcomes for Defender
 
-### → [[Buggy Choke]]
+### → [[Positions/Buggy Choke]]
 
 Shut down the escape in its early phase by increasing chest pressure and forearm depth before the elbow wedge can establish. Maintain heavy hips on their near hip and drive your head tight against their far shoulder to prevent any rotational movement. If you detect chin tuck, immediately apply finishing pressure to force the tap before they can begin the escape sequence.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the escape has progressed too far for the choke to finish, release grips and use the bottom player's hip escape movement against them by circling to side control. Their hip escape creates separation that you can exploit by dropping your hips past their guard insertion attempt and consolidating perpendicular control. This is a controlled positional downgrade from choke to pin, but maintains dominant top position.
 

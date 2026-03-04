@@ -204,23 +204,23 @@ Williams Guard Top represents the challenging defensive and passing position fac
 
 ## Available Attacks
 
-### [[Arm Extraction]] (14% of attempts)
+### [[Transitions/Arm Extraction]] (14% of attempts)
 
-### [[Stack Pass]] (12% of attempts)
+### [[Transitions/Stack Pass]] (12% of attempts)
 
-### [[Pressure Pass]] (11% of attempts)
+### [[Transitions/Pressure Pass]] (11% of attempts)
 
-### [[Knee Cut Pass]] (13% of attempts)
+### [[Transitions/Knee Cut Pass]] (13% of attempts)
 
-### [[Posture Recovery]] (30% of attempts)
+### [[Transitions/Posture Recovery]] (30% of attempts)
 
-### [[Knee Slice Pass]] (12% of attempts)
+### [[Transitions/Knee Slice Pass]] (12% of attempts)
 
-### [[Posture from Williams Guard]] (5% of attempts)
+### [[Transitions/Posture from Williams Guard]] (5% of attempts)
 
-### [[Stack from Williams Guard]] (2% of attempts)
+### [[Transitions/Stack from Williams Guard]] (2% of attempts)
 
-### [[Guard Pass from Williams Guard]] (1% of attempts)
+### [[Transitions/Guard Pass from Williams Guard]] (1% of attempts)
 
 
 
@@ -231,23 +231,23 @@ Williams Guard Top represents the challenging defensive and passing position fac
 ## Decision Making from This Position
 
 **If opponent applies increasing shoulder lock pressure for submission finish:**
-- Execute **[[Arm Extraction]]** → [[Combat Base]] (Probability: 60%)
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Combat Base]] (Probability: 60%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **Else if opponent begins transitioning to omoplata position:**
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Posture Recovery]]** → [[Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 55%)
 
 
 **Else if opponent sets up triangle by opening guard wider:**
-- Execute **[[Knee Cut Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **Else if opponent maintains static shoulder lock control without progression:**
-- Execute **[[Arm Extraction]]** → [[Combat Base]] (Probability: 75%)
-- Execute **[[Posture Recovery]]** → [[Open Guard]] (Probability: 65%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Combat Base]] (Probability: 75%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 65%)
 
 
 
@@ -386,16 +386,16 @@ Start in Williams Guard Top with arm controlled. Partner works for submissions a
 
 ## Related Positions and Techniques
 
-- **[[Williams Guard]]** - Parent position hub
-- **[[Combat Base]]** - Target position after arm extraction
-- **[[Open Guard]]** - General guard category
-- **[[Side Control]]** - Primary passing target from this position
-- **[[Omoplata Control]]** - Common defensive threat to defend against
-- **[[Triangle Control]]** - Common defensive threat to defend against
-- **[[Williams Shoulder Lock]]** - Primary submission threat to defend
-- **[[Arm Extraction]]** - Key defensive technique
-- **[[Stack Pass]]** - Primary counter-passing technique
-- **[[Pressure Pass]]** - Alternative counter-passing technique
+- **[[Positions/Williams Guard]]** - Parent position hub
+- **[[Positions/Combat Base]]** - Target position after arm extraction
+- **[[Positions/Open Guard]]** - General guard category
+- **[[Positions/Side Control]]** - Primary passing target from this position
+- **[[Positions/Omoplata Control]]** - Common defensive threat to defend against
+- **[[Positions/Triangle Control]]** - Common defensive threat to defend against
+- **[[Transitions/Williams Shoulder Lock]]** - Primary submission threat to defend
+- **[[Transitions/Arm Extraction]]** - Key defensive technique
+- **[[Transitions/Stack Pass]]** - Primary counter-passing technique
+- **[[Transitions/Pressure Pass]]** - Alternative counter-passing technique
 
 
 </section>

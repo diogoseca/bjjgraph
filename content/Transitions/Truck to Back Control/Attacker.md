@@ -186,7 +186,7 @@ description: "Execute the Truck to Back Control transition with precise hook ins
 
 As the attacker executing the Truck to Back Control transition, your objective is to systematically convert the perpendicular truck entanglement into traditional back control with both hooks established and seatbelt secured. This transition requires precise timing and coordination between releasing your leg entanglement and threading your hooks, with constant upper body pressure maintained throughout to prevent escape. The key insight is treating this as a progressive exchange rather than an abrupt position change: maintain chest-to-back connection as you slide from perpendicular to parallel alignment, using the momentum of your weight shift to facilitate hook insertion while keeping the opponent pinned on their side. The transition is most reliable when the opponent is focused on defending truck-specific submissions, creating a natural window where their attention is directed away from preventing the back take.
 
-**From Position**: [[Truck]] (Top)
+**From Position**: [[Positions/Twister Control/Truck]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ As the attacker executing the Truck to Back Control transition, your objective i
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Truck]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Twister Control/Truck]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the attacker executing the Truck to Back Control transition, your objective i
 
 ## Opponent Counters
 
-- **Opponent frames against chest and turns to face you during alignment shift** (Effectiveness: High) - Your Response: Increase chest pressure and drive your weight forward to prevent the turn. If they begin to rotate, immediately abandon the transition and re-establish truck position with boot pressure, then reattempt when they refocus on truck defenses. → Leads to [[Truck]]
-- **Opponent strips the first hook before the second hook is inserted by straightening their leg and pushing your foot away** (Effectiveness: Medium) - Your Response: Re-thread the stripped hook immediately using a circular motion while maintaining seatbelt control. If hook reinsertion fails, return to partial truck entanglement and use the leg fighting to set up a calf slicer threat that reopens the back take opportunity. → Leads to [[Truck]]
-- **Opponent executes a granby roll during the leg transition phase to create a scramble** (Effectiveness: High) - Your Response: Follow the roll with your upper body control intact, using the rolling momentum to accelerate your hook insertion as their legs naturally separate during rotation. If you lose seatbelt during the roll, transition to crab ride or re-engage turtle top control. → Leads to [[Half Guard]]
-- **Opponent hip escapes to create distance and begins recovering half guard during the vulnerability window** (Effectiveness: Medium) - Your Response: Drive forward aggressively with chest pressure to close the space before they can establish half guard frames. If they get a knee through, attempt to backstep and re-enter truck or settle into half guard top and work a knee slice pass. → Leads to [[Half Guard]]
+- **Opponent frames against chest and turns to face you during alignment shift** (Effectiveness: High) - Your Response: Increase chest pressure and drive your weight forward to prevent the turn. If they begin to rotate, immediately abandon the transition and re-establish truck position with boot pressure, then reattempt when they refocus on truck defenses. → Leads to [[Positions/Twister Control/Truck]]
+- **Opponent strips the first hook before the second hook is inserted by straightening their leg and pushing your foot away** (Effectiveness: Medium) - Your Response: Re-thread the stripped hook immediately using a circular motion while maintaining seatbelt control. If hook reinsertion fails, return to partial truck entanglement and use the leg fighting to set up a calf slicer threat that reopens the back take opportunity. → Leads to [[Positions/Twister Control/Truck]]
+- **Opponent executes a granby roll during the leg transition phase to create a scramble** (Effectiveness: High) - Your Response: Follow the roll with your upper body control intact, using the rolling momentum to accelerate your hook insertion as their legs naturally separate during rotation. If you lose seatbelt during the roll, transition to crab ride or re-engage turtle top control. → Leads to [[Positions/Half Guard]]
+- **Opponent hip escapes to create distance and begins recovering half guard during the vulnerability window** (Effectiveness: Medium) - Your Response: Drive forward aggressively with chest pressure to close the space before they can establish half guard frames. If they get a knee through, attempt to backstep and re-enter truck or settle into half guard top and work a knee slice pass. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -182,7 +182,7 @@ The Triangle Setup is a fundamental attacking sequence from closed guard that es
 
 The triangle setup demonstrates the principle of using the opponent's defensive structure against them — their posting arm becomes the trapped limb, and their attempt to maintain base provides the opening for angle creation. This technique serves as a gateway to multiple attacking options including the triangle choke itself, omoplata transitions, armbar variations, and back take opportunities. Mastering the setup phase dramatically increases submission success rates across all skill levels and forms the foundation of a dangerous guard game.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -237,9 +237,9 @@ The triangle setup demonstrates the principle of using the opponent's defensive 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Control]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Triangle Control]] | 60% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -248,11 +248,11 @@ The triangle setup demonstrates the principle of using the opponent's defensive 
 
 ## Opponent Counters
 
-- **Opponent maintains strong upright posture preventing initial setup** (Effectiveness: High) - Your Response: Transition to alternative attacks like hip bump sweep or kimura to create posture-breaking opportunities, or use collar drag to off-balance and break posture from different angle → Leads to [[Closed Guard]]
-- **Opponent keeps elbows tight to body preventing arm isolation** (Effectiveness: High) - Your Response: Attack opposite side to force defensive reaction, use overhook controls to break elbow connection, or transition to attacks that don't require arm isolation like scissor sweeps or back takes → Leads to [[Closed Guard]]
-- **Opponent postures hard as you create angle, regaining base and beginning guard pass** (Effectiveness: Medium) - Your Response: Immediately transition to omoplata or overhead sweep using the momentum from their posture recovery, or switch to opposite side triangle setup → Leads to [[Closed Guard]]
-- **Opponent circles away from triangle side preventing leg throw** (Effectiveness: Medium) - Your Response: Follow their movement by adjusting angle further, use their circling momentum to elevate them with butterfly hooks, or switch to back take as they turn away → Leads to [[Closed Guard]]
-- **Opponent stacks weight forward during leg throw to crush setup and initiate pass** (Effectiveness: Low) - Your Response: Use their forward pressure to execute pendulum sweep to mount, or accept the stack position and transition to overhead sweep variations while maintaining leg control → Leads to [[Closed Guard]]
+- **Opponent maintains strong upright posture preventing initial setup** (Effectiveness: High) - Your Response: Transition to alternative attacks like hip bump sweep or kimura to create posture-breaking opportunities, or use collar drag to off-balance and break posture from different angle → Leads to [[Positions/Closed Guard]]
+- **Opponent keeps elbows tight to body preventing arm isolation** (Effectiveness: High) - Your Response: Attack opposite side to force defensive reaction, use overhook controls to break elbow connection, or transition to attacks that don't require arm isolation like scissor sweeps or back takes → Leads to [[Positions/Closed Guard]]
+- **Opponent postures hard as you create angle, regaining base and beginning guard pass** (Effectiveness: Medium) - Your Response: Immediately transition to omoplata or overhead sweep using the momentum from their posture recovery, or switch to opposite side triangle setup → Leads to [[Positions/Closed Guard]]
+- **Opponent circles away from triangle side preventing leg throw** (Effectiveness: Medium) - Your Response: Follow their movement by adjusting angle further, use their circling momentum to elevate them with butterfly hooks, or switch to back take as they turn away → Leads to [[Positions/Closed Guard]]
+- **Opponent stacks weight forward during leg throw to crush setup and initiate pass** (Effectiveness: Low) - Your Response: Use their forward pressure to execute pendulum sweep to mount, or accept the stack position and transition to overhead sweep variations while maintaining leg control → Leads to [[Positions/Closed Guard]]
 
 
 </section>

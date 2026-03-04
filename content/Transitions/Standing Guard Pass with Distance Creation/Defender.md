@@ -158,7 +158,7 @@ The critical defensive principle is that the standing extraction follows a predi
 
 The defender must also manage the secondary control problem. The lapel wrap alone is insufficient against a standing opponent with good posture. The bottom player needs at least one additional control point - a sleeve grip, collar grip, or leg hook - to convert the lapel connection into an effective attack platform. Losing all secondary controls while the top player stands reduces the position to a single-grip retention problem that favors the passer. Maintaining or re-establishing these secondary contacts throughout the extraction sequence is what separates successful guard retention from being passed.
 
-**Opponent's Starting Position**: [[Ringworm Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ The defender must also manage the secondary control problem. The lapel wrap alon
 ### 1. Load and execute a sweep during the stand-up phase by pulling the lapel tight, angling your hips toward the wrapped leg, and using a combination of lapel tension and leg hooks to off-balance the top player as their base narrows during elevation
 
 - **When to use**: The moment the top player begins driving upward from combat base and their weight shifts to the free leg, creating a narrow base vulnerable to lateral forces
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: Top player is swept back to the mat, you re-establish full Ringworm Guard configuration with tightened lapel wrap and improved secondary grips from the scramble
 - **Risk**: If the top player reads the sweep attempt and re-settles their base, you may have pulled the lapel into a position that actually assists their extraction by creating slack in the wrong direction
 
 ### 2. Invert underneath the top player using the lapel connection as a pivot point to spin into a berimbolo or crab ride back take entry, attacking their back as they focus on the lapel extraction
 
 - **When to use**: When the top player commits both hands to the lapel and releases all upper body control, creating the angle and freedom of movement needed for the inversion
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You transition to back control or crab ride position, completely bypassing the passing threat and establishing one of the highest-value positions in the game
 - **Risk**: If the top player sprawls and flattens you during the inversion, you end up flattened on your stomach with a loosened lapel wrap and no guard, making the pass significantly easier for them
 
 ### 3. Release the lapel voluntarily and immediately reguard with collar-sleeve, De La Riva, or spider guard grips before the top player can establish passing grips on your legs
 
 - **When to use**: When you feel the lapel extraction is nearly complete and continued resistance will only waste energy without preventing the strip, making a proactive guard transition more effective than a reactive one
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You establish a functional open guard with established grips before the top player can exploit the grip-less window, maintaining guard retention in a more neutral but defensible position
 - **Risk**: If you release too early, you voluntarily give up Ringworm Guard's superior control for a weaker guard when you might have been able to retain the lapel. If you release too late, the top player already has passing grips established
 
 ### 4. Establish a deep collar grip or belt grip on the top player's back with your free hand while maintaining lapel tension, creating a two-point control system that makes the standing extraction significantly more difficult
 
 - **When to use**: Early in the sequence when the top player first establishes combat base and before they stand, as the collar or belt grip is much harder to establish once they are fully upright
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: The secondary grip forces the top player to address two control points instead of one, slowing or stalling the extraction and creating additional sweep and back take opportunities
 - **Risk**: Reaching for the collar or belt may compromise your leg frames momentarily, allowing the top player to drive forward and smash pass before you can re-establish distance
 
@@ -229,15 +229,15 @@ The defender must also manage the secondary control problem. The lapel wrap alon
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ringworm Guard]]
+### → [[Positions/Ringworm Guard]]
 
 Attack during the stand-up transition with loaded sweeps that exploit the narrowing base. Pull the lapel tighter and angle your hips while using leg hooks to off-balance the passer before they achieve full standing posture. Alternatively, establish secondary grips that stall the extraction sequence and force the passer to reset to combat base, returning to the original Ringworm Guard position.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 When the lapel extraction becomes inevitable, proactively release the wrap and immediately transition to an established open guard system. The key is speed of grip transition - as you release the lapel, your hands must already be moving to collar, sleeve, or pant grips while your feet insert into De La Riva, spider, or collar-sleeve positions. This controlled transition preserves guard retention rather than conceding an uncontrolled open space.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the top player commits both hands to the lapel extraction and releases upper body controls, use the lapel connection as a pivot to invert underneath them. Thread your inside leg between their legs while rotating your hips, using the momentum to spin to their back. The lapel wrap actually assists this rotation by providing a fixed connection point that you can pull on to accelerate the inversion. Secure seatbelt control immediately upon reaching the back.
 

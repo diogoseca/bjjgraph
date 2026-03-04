@@ -21,7 +21,7 @@ The mechanical foundation of this entry depends on getting your hips underneath 
 
 Strategically, this transition is highest percentage when the top player commits their weight forward into crossface pressure or when they attempt to stand up in half guard. Both scenarios create space underneath for the bottom player to slide into position. The transition also functions as an effective counter to knee slice passing attempts, where the bottom player redirects the slicing knee into an X-Guard entry rather than defending the pass directly. Integration with the broader half guard system means this entry layers naturally with deep half, lockdown, and underhook sweep threats, creating multi-layered offensive dilemmas that prevent the top player from focusing on a single defensive strategy.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition is highest percentage when the top player commits
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[X-Guard]] | 55% |
-| Failure | [[Half Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/X-Guard]] | 55% |
+| Failure | [[Positions/Half Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Half Guard to X-Guard transition occupies a critical junction in the bottom 
 ## Related Techniques
 
 
-- [[Half Guard]] - Source position where the transition begins from bottom half guard
+- [[Positions/Half Guard]] - Source position where the transition begins from bottom half guard
 
-- [[X-Guard]] - Target position achieved on successful entry with full X-hook configuration
+- [[Positions/X-Guard]] - Target position achieved on successful entry with full X-hook configuration
 
-- [[Single Leg X-Guard]] - Natural follow-up position when opponent partially extracts leg from X-Guard
+- [[Positions/X-Guard/Single Leg X-Guard]] - Natural follow-up position when opponent partially extracts leg from X-Guard
 
-- [[Half Butterfly]] - Intermediate position used during transition with butterfly hook in half guard structure
+- [[Positions/Butterfly Guard/Half Butterfly]] - Intermediate position used during transition with butterfly hook in half guard structure
 
-- [[Deep Half Guard]] - Alternative entry angle providing access to X-Guard through underneath positioning
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative entry angle providing access to X-Guard through underneath positioning
 
-- [[Butterfly Guard]] - Related guard system sharing butterfly hook mechanics used in the X-Guard entry
+- [[Positions/Butterfly Guard]] - Related guard system sharing butterfly hook mechanics used in the X-Guard entry
 
-- [[Knee Shield Half Guard]] - Starting half guard variation that provides framing distance for initiating the transition
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Starting half guard variation that provides framing distance for initiating the transition
 
-- [[Open Guard]] - Counter outcome position when top player successfully disengages the half guard trap
+- [[Positions/Open Guard]] - Counter outcome position when top player successfully disengages the half guard trap
 
-- [[Deep Half Entry from Half Guard]] - Related transition using similar hip escape mechanics to get underneath opponent
+- [[Transitions/Deep Half Entry from Half Guard]] - Related transition using similar hip escape mechanics to get underneath opponent
 
-- [[Half Butterfly Sweep]] - Complementary sweep technique from the intermediate butterfly half guard position
+- [[Transitions/Half Butterfly Sweep]] - Complementary sweep technique from the intermediate butterfly half guard position
 
-- [[Dogfight Position]] - Alternative outcome when underhook battle leads to mutual standing rather than X-Guard entry
+- [[Positions/Dogfight Position]] - Alternative outcome when underhook battle leads to mutual standing rather than X-Guard entry
 
-- [[Ashi Garami]] - Leg entanglement system accessible through X-Guard when opponent defends sweeps
+- [[Positions/Ashi Garami]] - Leg entanglement system accessible through X-Guard when opponent defends sweeps
 
 
 </section>

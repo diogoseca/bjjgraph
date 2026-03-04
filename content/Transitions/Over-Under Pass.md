@@ -17,7 +17,7 @@ description: "Master the Over-Under Pass in BJJ. Pressure-based guard pass from 
 
 The Over-Under Pass is a fundamental pressure-based guard passing technique that combines superior positioning with powerful control mechanics to bypass the opponent's guard. This technique is characterized by controlling one leg over the opponent's body while threading the other arm under their opposite leg, creating a stacking effect that neutralizes their defensive capabilities. The Over-Under Pass is particularly effective against half guard, butterfly guard, and open guard variations, making it a cornerstone technique in modern Brazilian Jiu-Jitsu. What makes this pass especially valuable is its combination of pressure control and positional dominance - by stacking the opponent's weight onto their shoulders, you eliminate their hip mobility and ability to re-guard while methodically advancing to side control. The technique requires excellent weight distribution, patience under pressure, and the ability to maintain chest-to-chest connection throughout the passing sequence. Unlike speed-based passes that rely on quick movements, the Over-Under Pass exemplifies the principle of using superior position and leverage to overcome an opponent's defensive structure through systematic pressure application.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 72%
 
 </section>
@@ -28,9 +28,9 @@ The Over-Under Pass is a fundamental pressure-based guard passing technique that
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 75% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 75% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -195,29 +195,29 @@ The Over-Under Pass is a cornerstone technique in the pressure passing system an
 ## Related Techniques
 
 
-- [[Half Guard]] - Starting position where the over-under pass is initiated from top
+- [[Positions/Half Guard]] - Starting position where the over-under pass is initiated from top
 
-- [[Side Control]] - Primary destination position after successful pass completion
+- [[Positions/Side Control]] - Primary destination position after successful pass completion
 
-- [[Double Under Pass]] - Complementary pass using two under-hooks instead of one over and one under
+- [[Transitions/Double Under Pass]] - Complementary pass using two under-hooks instead of one over and one under
 
-- [[Knee Slice Pass]] - Chain combination when opponent defends the over-under hip circulation
+- [[Transitions/Knee Slice Pass]] - Chain combination when opponent defends the over-under hip circulation
 
-- [[Pressure Pass]] - Related pressure-based passing concept with similar weight distribution principles
+- [[Transitions/Pressure Pass]] - Related pressure-based passing concept with similar weight distribution principles
 
-- [[Leg Weave Pass]] - Advanced progression using similar hip control and lateral circulation concepts
+- [[Transitions/Leg Weave Pass]] - Advanced progression using similar hip control and lateral circulation concepts
 
-- [[Headquarters Position]] - Transitional position that can serve as entry or exit for over-under passing
+- [[Positions/Headquarters Position]] - Transitional position that can serve as entry or exit for over-under passing
 
-- [[Kimura from Half Guard]] - Submission threat available during the over-under pass setup phase
+- [[Transitions/Kimura from Half Guard]] - Submission threat available during the over-under pass setup phase
 
-- [[Darce Choke]] - Submission opportunity when opponent turns away during the pass
+- [[Transitions/Darce Choke]] - Submission opportunity when opponent turns away during the pass
 
-- [[Back Control]] - Alternative finish when opponent turns away from stacking pressure
+- [[Positions/Back Control]] - Alternative finish when opponent turns away from stacking pressure
 
-- [[Turtle]] - Common defensive response to pass pressure that opens back-take attacks
+- [[Positions/Turtle]] - Common defensive response to pass pressure that opens back-take attacks
 
-- [[Body Lock Pass]] - Alternative pressure pass using body lock grips with similar forward pressure concepts
+- [[Transitions/Body Lock Pass]] - Alternative pressure pass using body lock grips with similar forward pressure concepts
 
 
 </section>

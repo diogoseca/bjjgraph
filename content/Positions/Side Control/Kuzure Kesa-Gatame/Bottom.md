@@ -208,19 +208,19 @@ The position also demands exceptional conditioning and mental resilience. The co
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (22% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (22% of attempts)
 
-### [[Arm Recovery to Guard]] (16% of attempts)
+### [[Transitions/Arm Recovery to Guard]] (16% of attempts)
 
-### [[Bridge and Roll]] (13% of attempts)
+### [[Transitions/Bridge and Roll]] (13% of attempts)
 
-### [[Granby Roll to Guard]] (17% of attempts)
+### [[Transitions/Granby Roll to Guard]] (17% of attempts)
 
-### [[Technical Stand-up]] (11% of attempts)
+### [[Transitions/Technical Stand-up]] (11% of attempts)
 
-### [[Re-Guard from Headquarters]] (15% of attempts)
+### [[Transitions/Re-Guard from Headquarters]] (15% of attempts)
 
-### [[Frame Escape from Kuzure Kesa]] (6% of attempts)
+### [[Transitions/Frame Escape from Kuzure Kesa]] (6% of attempts)
 
 
 
@@ -231,18 +231,18 @@ The position also demands exceptional conditioning and mental resilience. The co
 ## Decision Making from This Position
 
 **If opponent maintains constant hip pressure and low chest position preventing arm recovery:**
-- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 45%)
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 35%)
 
 
 **Else if opponent shifts weight forward to attack trapped arm for submission:**
-- Execute **[[Bridge and Roll]]** → [[Side Control]] (Probability: 40%)
-- Execute **[[Arm Recovery to Guard]]** → [[Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Arm Recovery to Guard]]** → [[Positions/Closed Guard]] (Probability: 35%)
 
 
 **Else if opponent's base leg extends too far creating space on far side:**
-- Execute **[[Re-Guard from Headquarters]]** → [[Open Guard]] (Probability: 50%)
-- Execute **[[Technical Stand-up]]** → [[Clinch]] (Probability: 30%)
+- Execute **[[Transitions/Re-Guard from Headquarters]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 30%)
 
 
 
@@ -376,12 +376,12 @@ Start with partner at 50% resistance, increase by 10% each successful escape unt
 
 ## Related Positions and Techniques
 
-- **[[Side Control]]** - Parent position family with shared escape principles
-- **[[Elbow Escape to Guard]]** - Primary escape technique from this position
-- **[[Granby Roll to Guard]]** - Advanced escape option when standard escapes are denied
-- **[[Bridge and Roll]]** - Reversal technique targeting opponent's base vulnerabilities
-- **[[Half Guard]]** - Common transitional position during escape sequences
-- **[[Turtle]]** - Alternative escape destination when guard recovery is blocked
+- **[[Positions/Side Control]]** - Parent position family with shared escape principles
+- **[[Transitions/Elbow Escape to Guard]]** - Primary escape technique from this position
+- **[[Transitions/Granby Roll to Guard]]** - Advanced escape option when standard escapes are denied
+- **[[Transitions/Bridge and Roll]]** - Reversal technique targeting opponent's base vulnerabilities
+- **[[Positions/Half Guard]]** - Common transitional position during escape sequences
+- **[[Positions/Turtle]]** - Alternative escape destination when guard recovery is blocked
 
 
 </section>

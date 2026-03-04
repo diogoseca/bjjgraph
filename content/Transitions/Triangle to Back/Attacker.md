@@ -180,7 +180,7 @@ description: "How to execute Triangle to Back in BJJ. Attacking perspective with
 
 The Triangle to Back transition represents an advanced positional flow that capitalizes on opponent defensive reactions within triangle control. When an opponent attempts to defend the triangle choke by posturing, stacking, or turning away, the attacker can redirect their control toward back exposure rather than forcing a low-percentage finish. This transition exemplifies the principle of following your opponent's energy rather than opposing it directly, converting a defended submission attempt into superior positional control. The technique is particularly valuable in competition scenarios where opponents are well-versed in triangle defense but may not anticipate the immediate shift to back attacks. By maintaining connection through the legs and upper body grips while rotating around the opponent's defensive posture, the practitioner creates a seamless pathway to the most dominant position in Brazilian Jiu-Jitsu.
 
-**From Position**: [[Triangle Control]] (Bottom)
+**From Position**: [[Positions/Triangle Control]] (Bottom)
 
 </section>
 
@@ -235,9 +235,9 @@ The Triangle to Back transition represents an advanced positional flow that capi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Triangle Control]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Triangle Control]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -246,11 +246,11 @@ The Triangle to Back transition represents an advanced positional flow that capi
 
 ## Opponent Counters
 
-- **Opponent turns back into guard before first hook is established** (Effectiveness: High) - Your Response: If they turn back before you have the first hook, immediately re-lock the triangle and resume choking pressure. Their turn-in often resets the triangle at a tighter angle. Alternatively, if their arm is extended during the turn, switch to armbar from triangle. → Leads to [[Triangle Control]]
-- **Opponent sits to hip and frames to prevent roll to back mount** (Effectiveness: Medium) - Your Response: Use your top leg as a barrier across their hip to prevent them from sitting through. Drive your weight forward over their shoulder to flatten them. If they establish a strong frame, transition to technical mount first, then pursue back control from the mount position. → Leads to [[Triangle Control]]
-- **Opponent posts free hand to block rotation and maintain base** (Effectiveness: Medium) - Your Response: Kick their posted arm out from under them using your transitioning leg, collapsing their base. If the post is too strong to sweep, accept technical mount position with one hook and work to back control from there. The posted arm also opens kimura grip opportunities. → Leads to [[Back Control]]
-- **Opponent clamps elbows to ribs preventing hook insertion after triangle release** (Effectiveness: Low) - Your Response: Establish body triangle on one side while working to clear arm position on the other. Attack submissions from the partial back position such as short choke or collar choke to force them to open their elbows and create space for your hooks to enter. → Leads to [[Back Control]]
-- **Opponent explosively stands up and attempts to slam or shake off during transition** (Effectiveness: Medium) - Your Response: If they stand during the transition, maintain your overhook and leg configuration. Let gravity assist you in pulling them back down or accept the standing back control position. Never release all connection points simultaneously. If you have one hook, use it to trip them back to the mat. → Leads to [[Open Guard]]
+- **Opponent turns back into guard before first hook is established** (Effectiveness: High) - Your Response: If they turn back before you have the first hook, immediately re-lock the triangle and resume choking pressure. Their turn-in often resets the triangle at a tighter angle. Alternatively, if their arm is extended during the turn, switch to armbar from triangle. → Leads to [[Positions/Triangle Control]]
+- **Opponent sits to hip and frames to prevent roll to back mount** (Effectiveness: Medium) - Your Response: Use your top leg as a barrier across their hip to prevent them from sitting through. Drive your weight forward over their shoulder to flatten them. If they establish a strong frame, transition to technical mount first, then pursue back control from the mount position. → Leads to [[Positions/Triangle Control]]
+- **Opponent posts free hand to block rotation and maintain base** (Effectiveness: Medium) - Your Response: Kick their posted arm out from under them using your transitioning leg, collapsing their base. If the post is too strong to sweep, accept technical mount position with one hook and work to back control from there. The posted arm also opens kimura grip opportunities. → Leads to [[Positions/Back Control]]
+- **Opponent clamps elbows to ribs preventing hook insertion after triangle release** (Effectiveness: Low) - Your Response: Establish body triangle on one side while working to clear arm position on the other. Attack submissions from the partial back position such as short choke or collar choke to force them to open their elbows and create space for your hooks to enter. → Leads to [[Positions/Back Control]]
+- **Opponent explosively stands up and attempts to slam or shake off during transition** (Effectiveness: Medium) - Your Response: If they stand during the transition, maintain your overhook and leg configuration. Let gravity assist you in pulling them back down or accept the standing back control position. Never release all connection points simultaneously. If you have one hook, use it to trip them back to the mat. → Leads to [[Positions/Open Guard]]
 
 
 </section>

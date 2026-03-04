@@ -21,7 +21,7 @@ What makes the knee cut particularly powerful is its versatility across all leve
 
 The knee cut pass represents a perfect marriage of pressure passing and movement-based passing. Unlike purely smash passes that rely on static pressure, or purely speed passes that rely on rapid movement, the knee cut combines both elements. The passer must maintain constant forward pressure while simultaneously cutting their knee through the opponent's leg line, creating a dynamic pass that adapts to defensive reactions. This dual nature makes it both highly effective and highly technical, requiring practitioners to develop sensitivity to weight distribution and timing.
 
-**From Position**: [[Open Guard]] (Top)
+**From Position**: [[Positions/Open Guard]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -32,10 +32,10 @@ The knee cut pass represents a perfect marriage of pressure passing and movement
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Half Guard]] | 15% |
-| Failure | [[Open Guard]] | 10% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Open Guard]] | 10% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -199,31 +199,31 @@ The knee cut pass is a fundamental component of modern BJJ guard passing systems
 ## Related Techniques
 
 
-- [[Half Guard]] - Common defensive recovery if far leg is not cleared properly during the pass
+- [[Positions/Half Guard]] - Common defensive recovery if far leg is not cleared properly during the pass
 
-- [[Side Control]] - Primary ending position upon successful completion of the knee cut
+- [[Positions/Side Control]] - Primary ending position upon successful completion of the knee cut
 
-- [[Headquarters Position]] - Intermediate position often established before initiating knee cut execution
+- [[Positions/Headquarters Position]] - Intermediate position often established before initiating knee cut execution
 
-- [[Leg Drag Pass]] - Alternative pass when knee cut is blocked, uses similar grips and chains directly
+- [[Transitions/Leg Drag Pass]] - Alternative pass when knee cut is blocked, uses similar grips and chains directly
 
-- [[Long Step Pass]] - Transitional option when opponent frames heavily during knee cut attempt
+- [[Transitions/Long Step Pass]] - Transitional option when opponent frames heavily during knee cut attempt
 
-- [[Knee Shield Half Guard]] - Common defensive structure used by bottom player to block knee cut
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Common defensive structure used by bottom player to block knee cut
 
-- [[Over-Under Pass]] - Follow-up pass when opponent defends knee cut with strong hip frames
+- [[Transitions/Over-Under Pass]] - Follow-up pass when opponent defends knee cut with strong hip frames
 
-- [[Toreando Pass]] - Complementary lateral pass that chains well with knee cut feints
+- [[Transitions/Toreando Pass]] - Complementary lateral pass that chains well with knee cut feints
 
-- [[Underhook Pass]] - Variation using underhook control instead of collar grip for no-gi
+- [[Transitions/Underhook Pass]] - Variation using underhook control instead of collar grip for no-gi
 
-- [[Turtle]] - Common escape attempt by opponent during knee cut execution
+- [[Positions/Turtle]] - Common escape attempt by opponent during knee cut execution
 
-- [[Combat Base]] - Starting stance for initiating knee cut pass
+- [[Positions/Combat Base]] - Starting stance for initiating knee cut pass
 
-- [[Smash Pass]] - Alternative pressure pass with similar weight distribution principles
+- [[Transitions/Smash Pass]] - Alternative pressure pass with similar weight distribution principles
 
-- [[Knee Slice from Half]] - Related technique when opponent recovers half guard during knee cut
+- [[Transitions/Knee Slice from Half]] - Related technique when opponent recovers half guard during knee cut
 
 
 </section>

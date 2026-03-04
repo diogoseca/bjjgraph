@@ -21,7 +21,7 @@ The technical challenge lies in maintaining continuous pressure throughout the r
 
 Strategically, this transition serves as a key link in the top-game control chain, connecting judo-derived pinning positions to the broader BJJ positional hierarchy. It allows practitioners to capitalize on the initial control advantage of reverse scarf hold while moving to a position offering more diverse offensive options including americana, kimura, arm triangle, and positional advancement sequences. The ability to execute this transition smoothly distinguishes competent top players from those who become stuck in transitional pins.
 
-**From Position**: [[Reverse Scarf Hold]] (Top)
+**From Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition serves as a key link in the top-game control chai
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 60% |
-| Failure | [[Reverse Scarf Hold]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 60% |
+| Failure | [[Positions/Side Control/Reverse Scarf Hold]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ This transition connects the judo-derived reverse scarf hold system to the broad
 ## Related Techniques
 
 
-- [[Reverse Scarf Hold]] - Source position from which this transition initiates
+- [[Positions/Side Control/Reverse Scarf Hold]] - Source position from which this transition initiates
 
-- [[Side Control]] - Target position providing superior control platform and diverse submissions
+- [[Positions/Side Control]] - Target position providing superior control platform and diverse submissions
 
-- [[Reverse Scarf to North-South]] - Alternative transition from the same starting position toward head control
+- [[Transitions/Reverse Scarf to North-South]] - Alternative transition from the same starting position toward head control
 
-- [[North-South]] - Alternative advancement target from reverse scarf hold
+- [[Positions/North-South]] - Alternative advancement target from reverse scarf hold
 
-- [[Kesa Gatame]] - Related scarf hold variant with similar rotational transition mechanics
+- [[Positions/Side Control/Kesa Gatame]] - Related scarf hold variant with similar rotational transition mechanics
 
-- [[Half Guard]] - Counter outcome position when bottom player recovers guard during transition
+- [[Positions/Half Guard]] - Counter outcome position when bottom player recovers guard during transition
 
-- [[Knee on Belly]] - Advancement option available after completing transition to side control
+- [[Positions/Knee on Belly]] - Advancement option available after completing transition to side control
 
-- [[Escape Reverse Scarf Hold]] - Opponent's defensive transition that creates urgency for this positional adjustment
+- [[Transitions/Escape Reverse Scarf Hold]] - Opponent's defensive transition that creates urgency for this positional adjustment
 
-- [[Americana]] - Submission available from both reverse scarf hold and the target side control
+- [[Transitions/Americana]] - Submission available from both reverse scarf hold and the target side control
 
-- [[Mount]] - Natural advancement from side control after completing this transition
+- [[Positions/Mount]] - Natural advancement from side control after completing this transition
 
 
 </section>

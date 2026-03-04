@@ -182,7 +182,7 @@ As the attacker executing the Transition to Double Jump, your objective is to co
 
 Success depends on maintaining constant pressure throughout the transition phase. Many practitioners make the mistake of releasing pressure when the opponent begins to turtle, creating distance that allows defensive consolidation. Instead, you must follow their rotation with your chest glued to their back, using the momentum of their movement to facilitate your hook insertion. The upper body connection through crossface, overhook, or seatbelt grip provides the anchor that allows your legs to work independently for hook establishment.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ Success depends on maintaining constant pressure throughout the transition phase
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Double Jump]] | 55% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Butterfly Guard]] | 20% |
+| Success | [[Positions/Double Jump]] | 55% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Butterfly Guard]] | 20% |
 
 
 </section>
@@ -245,10 +245,10 @@ Success depends on maintaining constant pressure throughout the transition phase
 
 ## Opponent Counters
 
-- **Opponent immediately sits to butterfly guard instead of completing turtle** (Effectiveness: High) - Your Response: If you feel the opponent sitting back rather than continuing the turtle rotation, abandon the hook insertion and redirect to passing the newly created butterfly guard using over-under or body lock passing mechanics. Alternatively, if one hook is already in, use it to establish crab ride control. → Leads to [[Butterfly Guard]]
-- **Opponent sprawls legs back and flattens to belly-down position to prevent hook insertion** (Effectiveness: Medium) - Your Response: When the opponent sprawls, their back is fully exposed. Transition to traditional back control by sliding your chest over their back and establishing seatbelt grip, then work hooks in one at a time from a more dominant position. The sprawl actually helps your back-take by eliminating their base. → Leads to [[Half Guard]]
-- **Opponent posts strong arm and drives back into you, reversing direction to re-establish half guard or closed guard** (Effectiveness: High) - Your Response: Maintain your crossface pressure and use your free hand to block their posting arm. If they successfully drive back, accept the return to half guard top and reset your passing sequence. Do not chase the Double Jump against an opponent who has reversed their momentum. → Leads to [[Half Guard]]
-- **Opponent performs a Granby roll during transition to escape underneath and recover guard** (Effectiveness: Medium) - Your Response: If you recognize the Granby attempt early, disengage your hooks and redirect to a front headlock or sprawl to maintain top position. If the roll is already in motion, follow their movement and look to re-engage from the new angle rather than fighting against the rotational momentum. → Leads to [[Butterfly Guard]]
+- **Opponent immediately sits to butterfly guard instead of completing turtle** (Effectiveness: High) - Your Response: If you feel the opponent sitting back rather than continuing the turtle rotation, abandon the hook insertion and redirect to passing the newly created butterfly guard using over-under or body lock passing mechanics. Alternatively, if one hook is already in, use it to establish crab ride control. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent sprawls legs back and flattens to belly-down position to prevent hook insertion** (Effectiveness: Medium) - Your Response: When the opponent sprawls, their back is fully exposed. Transition to traditional back control by sliding your chest over their back and establishing seatbelt grip, then work hooks in one at a time from a more dominant position. The sprawl actually helps your back-take by eliminating their base. → Leads to [[Positions/Half Guard]]
+- **Opponent posts strong arm and drives back into you, reversing direction to re-establish half guard or closed guard** (Effectiveness: High) - Your Response: Maintain your crossface pressure and use your free hand to block their posting arm. If they successfully drive back, accept the return to half guard top and reset your passing sequence. Do not chase the Double Jump against an opponent who has reversed their momentum. → Leads to [[Positions/Half Guard]]
+- **Opponent performs a Granby roll during transition to escape underneath and recover guard** (Effectiveness: Medium) - Your Response: If you recognize the Granby attempt early, disengage your hooks and redirect to a front headlock or sprawl to maintain top position. If the roll is already in motion, follow their movement and look to re-engage from the new angle rather than fighting against the rotational momentum. → Leads to [[Positions/Butterfly Guard]]
 
 
 </section>

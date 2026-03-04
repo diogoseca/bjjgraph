@@ -206,21 +206,21 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 
 ## Available Escapes
 
-### [[Shrimp Escape]] (33% of attempts)
+### [[Transitions/Shrimp Escape]] (33% of attempts)
 
-### [[Rolling to Guard]] (18% of attempts)
+### [[Transitions/Rolling to Guard]] (18% of attempts)
 
-### [[Granby Roll to Guard]] (11% of attempts)
+### [[Transitions/Granby Roll to Guard]] (11% of attempts)
 
-### [[Arm Extraction]] (19% of attempts)
+### [[Transitions/Arm Extraction]] (19% of attempts)
 
-### [[Hip Escape to Guard]] (11% of attempts)
+### [[Transitions/Hip Escape to Guard]] (11% of attempts)
 
-### [[Escape Dead Orchard Control]] (5% of attempts)
+### [[Transitions/Escape Dead Orchard Control]] (5% of attempts)
 
-### [[Roll from Dead Orchard]] (2% of attempts)
+### [[Transitions/Roll from Dead Orchard]] (2% of attempts)
 
-### [[Escape from Dead Orchard]] (1% of attempts)
+### [[Transitions/Escape from Dead Orchard]] (1% of attempts)
 
 
 
@@ -231,27 +231,27 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 ## Decision Making from This Position
 
 **If opponent is actively working to lock anaconda or darce choke with arm trapped deep:**
-- Execute **[[Arm Extraction]]** → [[Front Headlock]] (Probability: 40%)
-- Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 35%)
-- Execute **[[Shrimp Escape]]** → [[Turtle]] (Probability: 25%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Front Headlock]] (Probability: 40%)
+- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Turtle]] (Probability: 25%)
 
 
 **If opponent is transitioning to mount or back control rather than immediate submission:**
-- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 45%)
-- Execute **[[Granby Roll to Guard]]** → [[Half Guard]] (Probability: 30%)
-- Execute **[[Sit Through to Guard]]** → [[Closed Guard]] (Probability: 25%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Half Guard]] (Probability: 30%)
+- Execute **[[Transitions/Sit Through to Guard]]** → [[Positions/Closed Guard]] (Probability: 25%)
 
 
 **If opponent's grip is loose or pressure is temporarily reduced:**
-- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 40%)
-- Execute **[[Standing Escape]]** → [[Clinch]] (Probability: 35%)
-- Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 25%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/Standing Escape]]** → [[Positions/Clinch]] (Probability: 35%)
+- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 25%)
 
 
 **If opponent walks hips toward your head for anaconda finishing angle:**
-- Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 45%)
-- Execute **[[Arm Extraction]]** → [[Front Headlock]] (Probability: 30%)
-- Execute **[[Granby Roll to Guard]]** → [[Open Guard]] (Probability: 25%)
+- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Front Headlock]] (Probability: 30%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 25%)
 
 
 
@@ -390,16 +390,16 @@ Start in established dead orchard control bottom position. Bottom player works t
 
 ## Related Positions and Techniques
 
-- **[[Anaconda Control]]** - Common transition - dead orchard often becomes full anaconda control
-- **[[Darce Control]]** - Similar defensive challenges - same escape principles apply
-- **[[Front Headlock]]** - Parent position - dead orchard is specialized variation
-- **[[Turtle]]** - Typical entry position - prevention starts in turtle defense
-- **[[Guillotine Control]]** - Alternative submission threat from same control framework
-- **[[Closed Guard]]** - Primary escape target - most achievable defensive goal
-- **[[Anaconda Choke]]** - Primary submission threat requiring specific defense
-- **[[Darce Choke]]** - Secondary submission threat with different mechanics
-- **[[Shrimp Escape]]** - Essential escape technique from compressed positions
-- **[[Half Guard]]** - Secondary escape target accessible via granby roll
+- **[[Positions/Anaconda Control]]** - Common transition - dead orchard often becomes full anaconda control
+- **[[Positions/Darce Control]]** - Similar defensive challenges - same escape principles apply
+- **[[Positions/Front Headlock]]** - Parent position - dead orchard is specialized variation
+- **[[Positions/Turtle]]** - Typical entry position - prevention starts in turtle defense
+- **[[Positions/Guillotine Control]]** - Alternative submission threat from same control framework
+- **[[Positions/Closed Guard]]** - Primary escape target - most achievable defensive goal
+- **[[Transitions/Anaconda Choke]]** - Primary submission threat requiring specific defense
+- **[[Transitions/Darce Choke]]** - Secondary submission threat with different mechanics
+- **[[Transitions/Shrimp Escape]]** - Essential escape technique from compressed positions
+- **[[Positions/Half Guard]]** - Secondary escape target accessible via granby roll
 
 
 </section>

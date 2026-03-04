@@ -21,7 +21,7 @@ The smash operates on a straightforward mechanical principle: butterfly hooks ge
 
 Strategic integration of the butterfly smash into a broader passing system creates a powerful dilemma for the guard player. If they sit up aggressively to threaten sweeps, they expose themselves to crossface and smash pressure. If they lie back to maintain distance, their hooks lose offensive power and become easier to collapse. This tension makes the butterfly smash an essential tool for any top player facing butterfly-based guards, serving as the primary mechanism for converting a dynamic open guard into a more controllable half guard passing situation.
 
-**From Position**: [[Butterfly Hook Control]] (Top)
+**From Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategic integration of the butterfly smash into a broader passing system creat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Butterfly Hook Control]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Butterfly Guard/Butterfly Hook Control]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Butterfly Smash serves as a critical bridge between open guard engagement an
 ## Related Techniques
 
 
-- [[Butterfly Hook Control]] - Source position where this technique is initiated from the top
+- [[Positions/Butterfly Guard/Butterfly Hook Control]] - Source position where this technique is initiated from the top
 
-- [[Half Guard]] - Primary target position after successful smash through one hook
+- [[Positions/Half Guard]] - Primary target position after successful smash through one hook
 
-- [[Pass Butterfly Hook Control]] - Alternative passing technique from the same starting position
+- [[Transitions/Pass Butterfly Hook Control]] - Alternative passing technique from the same starting position
 
-- [[Butterfly Guard]] - Parent guard system that butterfly hook control derives from
+- [[Positions/Butterfly Guard]] - Parent guard system that butterfly hook control derives from
 
-- [[Smash from Butterfly Half]] - Similar smash technique applied from butterfly half guard variation
+- [[Transitions/Smash from Butterfly Half]] - Similar smash technique applied from butterfly half guard variation
 
-- [[Deep Half Guard]] - Common defensive transition by opponent during partial smash
+- [[Positions/Half Guard/Deep Half Guard]] - Common defensive transition by opponent during partial smash
 
-- [[Knee Shield Half Guard]] - Defensive recovery position opponent may establish after hook collapse
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive recovery position opponent may establish after hook collapse
 
-- [[Headquarters Position]] - Alternative intermediate passing position from butterfly engagement
+- [[Positions/Headquarters Position]] - Alternative intermediate passing position from butterfly engagement
 
-- [[Combat Base]] - Standard starting posture for engaging butterfly hooks before smash
+- [[Positions/Combat Base]] - Standard starting posture for engaging butterfly hooks before smash
 
-- [[Smash Half Butterfly]] - Related smash technique targeting butterfly half guard configuration
+- [[Transitions/Smash Half Butterfly]] - Related smash technique targeting butterfly half guard configuration
 
 
 </section>

@@ -22,8 +22,8 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[De La Riva Guard]]
-**From Position**: [[De La Riva Guard]] (Bottom)
+**Starting Position**: [[Positions/De La Riva Guard]]
+**From Position**: [[Positions/De La Riva Guard]] (Bottom)
 **Success Rate**: 52%
 
 </section>
@@ -73,8 +73,8 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[De La Riva Guard]] | 25% |
-| Counter | [[Open Guard]] | 15% |
+| Failure | [[Positions/De La Riva Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -222,12 +222,12 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 ## From Which Positions?
 
-- [[De La Riva Guard]]
-- [[Reverse De La Riva Guard]]
-- [[Open Guard]]
-- [[Spider Guard]]
-- [[Lasso Guard]]
-- [[Collar Sleeve Guard]]
+- [[Positions/De La Riva Guard]]
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/Spider Guard]]
+- [[Positions/Lasso Guard]]
+- [[Positions/Collar Sleeve Guard]]
 
 
 </section>
@@ -236,15 +236,15 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 ## Related Submissions
 
-- [[Triangle Choke]]
-- [[Triangle from Closed Guard]]
-- [[Triangle from Spider Guard]]
-- [[Omoplata]]
-- [[Omoplata from Guard]]
-- [[Armbar from Guard]]
-- [[Inverted Triangle]]
-- [[Baratoplata]]
-- [[Gogoplata]]
+- [[Transitions/Triangle Choke]]
+- [[Submissions/Triangle from Closed Guard]]
+- [[Transitions/Triangle from Spider Guard]]
+- [[Transitions/Omoplata]]
+- [[Submissions/Omoplata from Guard]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Inverted Triangle]]
+- [[Transitions/Baratoplata]]
+- [[Transitions/Gogoplata]]
 
 
 </section>
@@ -253,14 +253,14 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 ## Additional Related Content
 
-- [[De La Riva Sweep]] - Primary sweeping option from same guard position when triangle is defended
-- [[Berimbolo Entry]] - Back take option from De La Riva when opponent defends triangle by turning away
-- [[Omoplata Sweep]] - Direct transition when opponent hides arm to defend triangle
-- [[De La Riva Guard]] - Starting position and guard system from which this submission is executed
-- [[Triangle Choke]] - Parent submission technique that this position-specific variation is derived from
-- [[Closed Guard to Triangle]] - Related triangle entry from different guard position sharing core finishing mechanics
-- [[Back Control]] - Position achieved when opponent turns away from triangle pressure
-- [[Open Guard]] - Parent guard family from which De La Riva guard is a specialized variation
+- [[Transitions/De La Riva Sweep]] - Primary sweeping option from same guard position when triangle is defended
+- [[Transitions/Berimbolo Entry]] - Back take option from De La Riva when opponent defends triangle by turning away
+- [[Transitions/Omoplata Sweep]] - Direct transition when opponent hides arm to defend triangle
+- [[Positions/De La Riva Guard]] - Starting position and guard system from which this submission is executed
+- [[Transitions/Triangle Choke]] - Parent submission technique that this position-specific variation is derived from
+- [[Transitions/Closed Guard to Triangle]] - Related triangle entry from different guard position sharing core finishing mechanics
+- [[Positions/Back Control]] - Position achieved when opponent turns away from triangle pressure
+- [[Positions/Open Guard]] - Parent guard family from which De La Riva guard is a specialized variation
 
 
 </section>

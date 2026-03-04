@@ -21,7 +21,7 @@ Strategically, this escape occupies a specialized niche as a secondary option be
 
 The primary risk of the roll escape is back exposure. A poorly timed or mechanically unsound roll can allow the rider to follow the momentum and insert hooks, converting a bad position into a worse one. For this reason, the technique demands full commitment, precise directional choice, and immediate guard insertion upon completing the rotation. Half-hearted roll attempts that stall midway leave the escaper in a worse position than where they started, making the binary nature of this escape—full success or significant deterioration—its defining characteristic.
 
-**From Position**: [[Cross Body Ride]] (Bottom)
+**From Position**: [[Positions/Cross Body Ride]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ The primary risk of the roll escape is back exposure. A poorly timed or mechanic
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Cross Body Ride]] | 35% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Cross Body Ride]] | 35% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Roll Escape from Cross Body Ride occupies a specialized niche within the tur
 ## Related Techniques
 
 
-- [[Cross Body Ride]] - Starting position from which this escape is initiated
+- [[Positions/Cross Body Ride]] - Starting position from which this escape is initiated
 
-- [[Half Guard]] - Primary success outcome—recovering half guard bottom after completing the roll
+- [[Positions/Half Guard]] - Primary success outcome—recovering half guard bottom after completing the roll
 
-- [[Back Control]] - Counter outcome when the rider follows the roll and inserts hooks
+- [[Positions/Back Control]] - Counter outcome when the rider follows the roll and inserts hooks
 
-- [[Turtle]] - Parent defensive position that precedes cross body ride establishment
+- [[Positions/Turtle]] - Parent defensive position that precedes cross body ride establishment
 
-- [[Hip Escape from Cross Body Ride]] - Primary alternative escape using lateral displacement rather than rolling
+- [[Transitions/Hip Escape from Cross Body Ride]] - Primary alternative escape using lateral displacement rather than rolling
 
-- [[Escape from Cross Body Ride]] - Related escape family targeting side control reversal from cross body ride
+- [[Transitions/Escape from Cross Body Ride]] - Related escape family targeting side control reversal from cross body ride
 
-- [[Crab Ride]] - Adjacent controlling position the rider may transition to when ride is compromised
+- [[Positions/Crab Ride]] - Adjacent controlling position the rider may transition to when ride is compromised
 
-- [[Peterson Roll]] - Related rolling escape technique from similar turtle-bottom scenarios
+- [[Transitions/Peterson Roll]] - Related rolling escape technique from similar turtle-bottom scenarios
 
-- [[Closed Guard]] - Alternative guard recovery target if the roll creates sufficient distance
+- [[Positions/Closed Guard]] - Alternative guard recovery target if the roll creates sufficient distance
 
-- [[Butterfly Guard]] - Alternative guard recovery using butterfly hooks after completing the roll
+- [[Positions/Butterfly Guard]] - Alternative guard recovery using butterfly hooks after completing the roll
 
 
 </section>

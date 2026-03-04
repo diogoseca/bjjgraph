@@ -180,7 +180,7 @@ description: "How to execute Counter Sweep in BJJ. Attacking perspective with se
 
 Counter sweeping from the attacker's perspective means you are the top player neutralizing the bottom player's sweep attempt and converting it into a guard pass or positional advancement. The attacker reads the sweep initiation through grip changes, hip angles, and hook placement, then applies the correct base adjustment and counter-pressure to shut down the sweep mechanics. The highest-level application goes beyond mere defense: by following the sweep direction with controlled movement, you use the bottom player's committed weight distribution against them, creating passing lanes that would not exist if they were in a neutral guard configuration. Mastery requires cataloguing the counter-pressure vectors for every major sweep family (elevation sweeps, lateral sweeps, rotational sweeps) and developing the reflexive base adjustments that keep you in dominant passing position even under dynamic attack.
 
-**From Position**: [[Open Guard]] (Top)
+**From Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 
@@ -235,9 +235,9 @@ Counter sweeping from the attacker's perspective means you are the top player ne
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Open Guard]] | 30% |
-| Counter | [[Scramble Position]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Open Guard]] | 30% |
+| Counter | [[Positions/Scramble Position]] | 15% |
 
 
 </section>
@@ -246,10 +246,10 @@ Counter sweeping from the attacker's perspective means you are the top player ne
 
 ## Opponent Counters
 
-- **Opponent chains to secondary sweep when first attempt is defended** (Effectiveness: High) - Your Response: Anticipate the chain by maintaining mobile base and not overcommitting to defending first sweep. Stay centered and ready to defend in opposite direction. → Leads to [[Open Guard]]
-- **Opponent transitions to submission attempt when sweep is stuffed** (Effectiveness: Medium) - Your Response: Maintain proper posture and arm positioning even while defending sweep. Keep elbows tight and do not post hands in dangerous positions near their hips or legs. → Leads to [[Scramble Position]]
-- **Opponent uses your counter-pressure to facilitate guard retention or reguard** (Effectiveness: Medium) - Your Response: Apply pressure strategically rather than blindly driving forward. Control their hips and legs to prevent guard recovery even as you shut down sweep. → Leads to [[Open Guard]]
-- **Opponent baits counter-sweep to create scramble situation favoring their athleticism** (Effectiveness: Low) - Your Response: Recognize when opponent is inviting scramble and choose to control position methodically instead of engaging in chaotic exchanges. → Leads to [[Scramble Position]]
+- **Opponent chains to secondary sweep when first attempt is defended** (Effectiveness: High) - Your Response: Anticipate the chain by maintaining mobile base and not overcommitting to defending first sweep. Stay centered and ready to defend in opposite direction. → Leads to [[Positions/Open Guard]]
+- **Opponent transitions to submission attempt when sweep is stuffed** (Effectiveness: Medium) - Your Response: Maintain proper posture and arm positioning even while defending sweep. Keep elbows tight and do not post hands in dangerous positions near their hips or legs. → Leads to [[Positions/Scramble Position]]
+- **Opponent uses your counter-pressure to facilitate guard retention or reguard** (Effectiveness: Medium) - Your Response: Apply pressure strategically rather than blindly driving forward. Control their hips and legs to prevent guard recovery even as you shut down sweep. → Leads to [[Positions/Open Guard]]
+- **Opponent baits counter-sweep to create scramble situation favoring their athleticism** (Effectiveness: Low) - Your Response: Recognize when opponent is inviting scramble and choose to control position methodically instead of engaging in chaotic exchanges. → Leads to [[Positions/Scramble Position]]
 
 
 </section>

@@ -186,7 +186,7 @@ description: "Complete guide to executing the Standing Escape from X-Guard as th
 
 As the top player caught in X-Guard, your objective is to systematically dismantle the three-point control system — inside hook, outside frame, and ankle grip — and return to neutral standing. The escape requires patience and methodical progression rather than explosive movement. Rushing the extraction exposes you to the powerful elevation sweeps that X-Guard generates. Your mechanical advantage lies in gravity and the ability to generate downward pressure that counteracts the bottom player's upward elevation. By lowering your center of gravity, stripping hand grips, and addressing the outside leg frame before the deep inside hook, you collapse the guard structure in the correct sequence. The key principle is that you must remove the distance-maintaining outside leg first, then close the gap to smother the elevation power of the inside hook before extracting your trapped leg.
 
-**From Position**: [[X-Guard]] (Top)
+**From Position**: [[Positions/X-Guard]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ As the top player caught in X-Guard, your objective is to systematically dismant
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[X-Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/X-Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,11 +250,11 @@ As the top player caught in X-Guard, your objective is to systematically dismant
 
 ## Opponent Counters
 
-- **Bottom player elevates hips explosively to sweep before hooks can be stripped** (Effectiveness: High) - Your Response: Immediately lower your center of gravity by bending both knees and driving hips toward the mat. Post your free hand on the mat behind you if necessary. The lower you get, the less elevation leverage they generate. If the sweep is already in motion, sit back deliberately into the sit-down extraction variant rather than fighting the momentum standing. → Leads to [[Half Guard]]
-- **Bottom player transitions to Single Leg X when inside hook becomes shallow during extraction** (Effectiveness: High) - Your Response: Recognize the transition immediately by feeling the hook slide from behind your knee to your hip crease. Address Single Leg X before it consolidates by pumping your trapped leg forward to break the bottom player's hip connection, then execute the Standing Escape from SLX sequence. → Leads to [[X-Guard]]
-- **Bottom player re-grips the ankle after you strip it, maintaining extraction prevention** (Effectiveness: Medium) - Your Response: Rather than repeatedly stripping the same grip, change tactics by collapsing the outside leg frame first. Once you smother their elevation, the ankle grip becomes less relevant because they cannot generate sweep power even with the grip maintained. Strip the ankle grip last after their structure is already compromised. → Leads to [[X-Guard]]
-- **Bottom player scissors their legs to tighten the X-configuration and deepen hooks** (Effectiveness: Medium) - Your Response: Drive your hips down and forward to flatten their scissoring angle. The tighter they squeeze, the less hip mobility they retain for sweeps. Use the compression to your advantage by addressing the outside leg first while their legs are committed to the squeeze rather than sweeping. → Leads to [[X-Guard]]
-- **Bottom player uses sleeve or collar grips to pull your upper body forward and off-balance during extraction** (Effectiveness: Medium) - Your Response: Fight grips aggressively with your free hand before committing to leg extraction. Strip the controlling sleeve or collar grip first, then proceed with the escape sequence. If both grips and hooks are strong, prioritize upper body grip breaks because they control your posture and balance more than the leg hooks alone. → Leads to [[Half Guard]]
+- **Bottom player elevates hips explosively to sweep before hooks can be stripped** (Effectiveness: High) - Your Response: Immediately lower your center of gravity by bending both knees and driving hips toward the mat. Post your free hand on the mat behind you if necessary. The lower you get, the less elevation leverage they generate. If the sweep is already in motion, sit back deliberately into the sit-down extraction variant rather than fighting the momentum standing. → Leads to [[Positions/Half Guard]]
+- **Bottom player transitions to Single Leg X when inside hook becomes shallow during extraction** (Effectiveness: High) - Your Response: Recognize the transition immediately by feeling the hook slide from behind your knee to your hip crease. Address Single Leg X before it consolidates by pumping your trapped leg forward to break the bottom player's hip connection, then execute the Standing Escape from SLX sequence. → Leads to [[Positions/X-Guard]]
+- **Bottom player re-grips the ankle after you strip it, maintaining extraction prevention** (Effectiveness: Medium) - Your Response: Rather than repeatedly stripping the same grip, change tactics by collapsing the outside leg frame first. Once you smother their elevation, the ankle grip becomes less relevant because they cannot generate sweep power even with the grip maintained. Strip the ankle grip last after their structure is already compromised. → Leads to [[Positions/X-Guard]]
+- **Bottom player scissors their legs to tighten the X-configuration and deepen hooks** (Effectiveness: Medium) - Your Response: Drive your hips down and forward to flatten their scissoring angle. The tighter they squeeze, the less hip mobility they retain for sweeps. Use the compression to your advantage by addressing the outside leg first while their legs are committed to the squeeze rather than sweeping. → Leads to [[Positions/X-Guard]]
+- **Bottom player uses sleeve or collar grips to pull your upper body forward and off-balance during extraction** (Effectiveness: Medium) - Your Response: Fight grips aggressively with your free hand before committing to leg extraction. Strip the controlling sleeve or collar grip first, then proceed with the escape sequence. If both grips and hooks are strong, prioritize upper body grip breaks because they control your posture and balance more than the leg hooks alone. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -178,7 +178,7 @@ From a strategic standpoint, the mounted crucifix entry represents the natural e
 
 The technical requirements for this entry demand precise timing and weight distribution. You must maintain sufficient mount pressure to prevent bridging escapes while creating the space needed to thread your leg over the opponent's second arm. This balance between control and mobility distinguishes successful crucifix entries from failed attempts that result in positional loss. The transition requires reading opponent reactions and capitalizing on their defensive movements rather than forcing the position against strong resistance.
 
-**From Position**: [[S Mount]] (Top)
+**From Position**: [[Positions/Mount/S Mount]] (Top)
 
 </section>
 
@@ -230,9 +230,9 @@ The technical requirements for this entry demand precise timing and weight distr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mounted Crucifix]] | 55% |
-| Failure | [[S Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/Mounted Crucifix]] | 55% |
+| Failure | [[Positions/Mount/S Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ The technical requirements for this entry demand precise timing and weight distr
 
 ## Opponent Counters
 
-- **Opponent keeps far arm tight to body and refuses to expose it for trapping** (Effectiveness: High) - Your Response: Return to standard S Mount armbar attacks on the already-isolated arm, or feint submission attempts to bait the defensive arm across → Leads to [[S Mount]]
-- **Explosive bridge during weight shift creating space and disrupting balance** (Effectiveness: Medium) - Your Response: Post immediately with your free hand, ride the bridge by moving with the direction of their hips, and reset S Mount control before reattempting → Leads to [[S Mount]]
-- **Hip escape toward your legs before crucifix is established** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own hips, maintain shoulder pressure, and either complete the transition or settle back into standard mount → Leads to [[Half Guard]]
-- **Opponent stiff-arms your hips to prevent weight shift** (Effectiveness: Low) - Your Response: Attack the extended arm with armbar or kimura, as the stiff arm creates the exact arm exposure you need for the crucifix entry → Leads to [[Mounted Crucifix]]
+- **Opponent keeps far arm tight to body and refuses to expose it for trapping** (Effectiveness: High) - Your Response: Return to standard S Mount armbar attacks on the already-isolated arm, or feint submission attempts to bait the defensive arm across → Leads to [[Positions/Mount/S Mount]]
+- **Explosive bridge during weight shift creating space and disrupting balance** (Effectiveness: Medium) - Your Response: Post immediately with your free hand, ride the bridge by moving with the direction of their hips, and reset S Mount control before reattempting → Leads to [[Positions/Mount/S Mount]]
+- **Hip escape toward your legs before crucifix is established** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own hips, maintain shoulder pressure, and either complete the transition or settle back into standard mount → Leads to [[Positions/Half Guard]]
+- **Opponent stiff-arms your hips to prevent weight shift** (Effectiveness: Low) - Your Response: Attack the extended arm with armbar or kimura, as the stiff arm creates the exact arm exposure you need for the crucifix entry → Leads to [[Positions/Mount/Mounted Crucifix]]
 
 
 </section>

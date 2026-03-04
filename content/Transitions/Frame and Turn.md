@@ -21,7 +21,7 @@ The fundamental challenge when escaping Twister Control is that your spine is ro
 
 Strategically, Frame and Turn works best when executed early in the Twister Control sequence, before the opponent has fully established their leg control and maximized spinal rotation. The technique creates a systematic pathway out of an otherwise extremely dangerous position, buying time to prevent submission while working toward positional recovery. Success requires patience, composure under significant discomfort, and precise understanding of when to frame, when to turn, and when to commit to the escape movement.
 
-**From Position**: [[Twister Control]] (Bottom)
+**From Position**: [[Positions/Twister Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, Frame and Turn works best when executed early in the Twister Cont
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 45% |
-| Success | [[Half Guard]] | 20% |
-| Failure | [[Twister Control]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Turtle]] | 45% |
+| Success | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/Twister Control]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -190,25 +190,25 @@ Frame and Turn serves as the primary escape pathway from Twister Control Bottom,
 ## Related Techniques
 
 
-- [[Twister Control]] - Starting position - the control position this technique escapes from
+- [[Positions/Twister Control]] - Starting position - the control position this technique escapes from
 
-- [[Turtle]] - Primary recovery position - where successful Frame and Turn typically lands
+- [[Positions/Turtle]] - Primary recovery position - where successful Frame and Turn typically lands
 
-- [[Half Guard]] - Alternative recovery position - achieved with complete rotation
+- [[Positions/Half Guard]] - Alternative recovery position - achieved with complete rotation
 
-- [[Back Control]] - Potential counter position - acceptable trade since it lacks spinal rotation
+- [[Positions/Back Control]] - Potential counter position - acceptable trade since it lacks spinal rotation
 
-- [[Granby Roll to Guard]] - Alternative escape - higher risk inverting variation
+- [[Transitions/Granby Roll to Guard]] - Alternative escape - higher risk inverting variation
 
-- [[Back Door Escape]] - Follow-up technique - used if opponent transitions to back control
+- [[Transitions/Back Door Escape]] - Follow-up technique - used if opponent transitions to back control
 
-- [[Truck]] - Related position - precedes Twister Control in attack sequence
+- [[Positions/Twister Control/Truck]] - Related position - precedes Twister Control in attack sequence
 
-- [[Lockdown]] - Related position - can lead to Twister Control entries
+- [[Positions/Half Guard/Lockdown]] - Related position - can lead to Twister Control entries
 
-- [[Bridge and Turn to Turtle]] - Related escape - similar turning mechanic from different bottom positions
+- [[Transitions/Bridge and Turn to Turtle]] - Related escape - similar turning mechanic from different bottom positions
 
-- [[Defensive Roll]] - Alternative escape option from Twister Control Bottom
+- [[Transitions/Defensive Roll]] - Alternative escape option from Twister Control Bottom
 
 
 </section>

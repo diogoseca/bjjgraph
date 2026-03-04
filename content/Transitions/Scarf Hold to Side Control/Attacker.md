@@ -174,7 +174,7 @@ description: "Master the attacker's approach to transitioning from Scarf Hold to
 
 As the attacker executing Scarf Hold to Side Control, your primary objective is rotating from the perpendicular kesa gatame angle into standard side control while maintaining continuous pressure that denies escape opportunities. The transition demands precise sequencing of grip changes: releasing the head wrap and arm trap in coordination with establishing crossface and hip control. The critical principle is never having both old and new control points disengaged simultaneously. Every release must be immediately replaced by a new control mechanism, creating seamless pressure throughout the rotation. Mastering this transition transforms your top game from a static pinning system into a dynamic control platform that adapts to defensive reactions.
 
-**From Position**: [[Scarf Hold Position]] (Top)
+**From Position**: [[Positions/Side Control/Scarf Hold Position]] (Top)
 
 </section>
 
@@ -224,9 +224,9 @@ As the attacker executing Scarf Hold to Side Control, your primary objective is 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Scarf Hold Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Side Control/Scarf Hold Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -235,10 +235,10 @@ As the attacker executing Scarf Hold to Side Control, your primary objective is 
 
 ## Opponent Counters
 
-- **Bottom player bridges explosively during grip change window to create scramble** (Effectiveness: High) - Your Response: If you feel the bridge coming, abandon the transition and re-consolidate scarf hold. Drive hips heavy and widen base to ride out the bridge before re-attempting the transition once they settle. → Leads to [[Scarf Hold Position]]
-- **Bottom player inserts knee shield or frames during hip rotation to recover half guard** (Effectiveness: High) - Your Response: Drive your near knee across their thigh line before they complete the knee insertion. If the knee gets in, immediately apply pressure passing mechanics rather than trying to return to scarf hold. → Leads to [[Half Guard]]
-- **Bottom player turns into you during crossface transition to recover guard** (Effectiveness: Medium) - Your Response: Use the turning momentum to accelerate your own rotation into side control. Their turn actually helps complete the transition if you drive your crossface deeper and follow their movement with chest pressure. → Leads to [[Scarf Hold Position]]
-- **Bottom player grabs your far arm to prevent crossface establishment** (Effectiveness: Medium) - Your Response: Switch to the underhook-first variant by diving your near arm under their far shoulder while maintaining head pressure. Complete the transition using body positioning rather than crossface as primary control. → Leads to [[Side Control]]
+- **Bottom player bridges explosively during grip change window to create scramble** (Effectiveness: High) - Your Response: If you feel the bridge coming, abandon the transition and re-consolidate scarf hold. Drive hips heavy and widen base to ride out the bridge before re-attempting the transition once they settle. → Leads to [[Positions/Side Control/Scarf Hold Position]]
+- **Bottom player inserts knee shield or frames during hip rotation to recover half guard** (Effectiveness: High) - Your Response: Drive your near knee across their thigh line before they complete the knee insertion. If the knee gets in, immediately apply pressure passing mechanics rather than trying to return to scarf hold. → Leads to [[Positions/Half Guard]]
+- **Bottom player turns into you during crossface transition to recover guard** (Effectiveness: Medium) - Your Response: Use the turning momentum to accelerate your own rotation into side control. Their turn actually helps complete the transition if you drive your crossface deeper and follow their movement with chest pressure. → Leads to [[Positions/Side Control/Scarf Hold Position]]
+- **Bottom player grabs your far arm to prevent crossface establishment** (Effectiveness: Medium) - Your Response: Switch to the underhook-first variant by diving your near arm under their far shoulder while maintaining head pressure. Complete the transition using body positioning rather than crossface as primary control. → Leads to [[Positions/Side Control]]
 
 
 </section>

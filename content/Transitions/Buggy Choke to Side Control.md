@@ -21,7 +21,7 @@ Strategically, this transition capitalizes on the opponent's defensive focus on 
 
 The transition also serves as a psychological tool—opponents who know you will advance to side control when they successfully defend the choke face a dilemma where both accepting the choke and defending it lead to disadvantageous outcomes. This dilemma creation is fundamental to high-level attacking systems and makes the buggy choke position significantly more threatening than if the choke were the only available attack.
 
-**From Position**: [[Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The transition also serves as a psychological tool—opponents who know you will
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Buggy Choke to Side Control transition functions as a critical failsafe in t
 ## Related Techniques
 
 
-- [[Buggy Choke]] - Starting position and primary submission threat
+- [[Positions/Buggy Choke]] - Starting position and primary submission threat
 
-- [[Side Control]] - Target position after successful transition
+- [[Positions/Side Control]] - Target position after successful transition
 
-- [[Turtle]] - Fallback position if transition fails to complete
+- [[Positions/Turtle]] - Fallback position if transition fails to complete
 
-- [[Back Take from Top]] - Alternative transition when opponent sits to guard during grip change
+- [[Transitions/Back Take from Top]] - Alternative transition when opponent sits to guard during grip change
 
-- [[Kesa Gatame]] - Alternative control position using similar grip transition
+- [[Positions/Side Control/Kesa Gatame]] - Alternative control position using similar grip transition
 
-- [[North-South]] - Extended transition option continuing past side control angle
+- [[Positions/North-South]] - Extended transition option continuing past side control angle
 
-- [[Half Guard]] - Common counter-position if opponent recovers leg during transition
+- [[Positions/Half Guard]] - Common counter-position if opponent recovers leg during transition
 
-- [[Arm Triangle from Top]] - Follow-up submission from side control after transition
+- [[Transitions/Arm Triangle from Top]] - Follow-up submission from side control after transition
 
-- [[Americana from Side Control]] - Follow-up submission available from resulting side control
+- [[Submissions/Americana from Side Control]] - Follow-up submission available from resulting side control
 
-- [[Knee on Belly]] - Positional advancement available after securing side control
+- [[Positions/Knee on Belly]] - Positional advancement available after securing side control
 
 
 </section>

@@ -21,7 +21,7 @@ The effectiveness of this sweep stems from the unique control properties of the 
 
 Strategically, this sweep serves as the primary offensive threat from leg hook bottom, creating a dilemma for the top player: committing weight forward to maintain passing pressure exposes them to the sweep, while sitting back to defend the sweep abandons their passing initiative entirely. This binary choice architecture makes the sweep particularly potent when chained with deep half entries, back takes, and guard recovery options that punish each defensive response differently.
 
-**From Position**: [[Leg Hook]] (Bottom)
+**From Position**: [[Positions/Leg Hook]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this sweep serves as the primary offensive threat from leg hook b
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 40% |
-| Failure | [[Leg Hook]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Mount]] | 40% |
+| Failure | [[Positions/Leg Hook]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Sweep from Leg Hook occupies a critical role in the half guard offensive sys
 ## Related Techniques
 
 
-- [[Leg Hook]] - Starting position from which this sweep is executed
+- [[Positions/Leg Hook]] - Starting position from which this sweep is executed
 
-- [[Mount]] - Primary target position upon successful sweep completion
+- [[Positions/Mount]] - Primary target position upon successful sweep completion
 
-- [[Side Control]] - Position reached by opponent if they counter the sweep into a guard pass
+- [[Positions/Side Control]] - Position reached by opponent if they counter the sweep into a guard pass
 
-- [[Half Guard]] - Parent position family containing the leg hook variation
+- [[Positions/Half Guard]] - Parent position family containing the leg hook variation
 
-- [[Deep Half Guard]] - Alternative transition when opponent defends sweep by sitting weight back
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition when opponent defends sweep by sitting weight back
 
-- [[Dogfight Position]] - Intermediate position reached if sweep stalls at halfway point
+- [[Positions/Dogfight Position]] - Intermediate position reached if sweep stalls at halfway point
 
-- [[Counter Leg Hook]] - Opposing transition from top player attempting to neutralize the hook
+- [[Transitions/Counter Leg Hook]] - Opposing transition from top player attempting to neutralize the hook
 
-- [[Dogfight Sweep]] - Complementary sweep available from nearby dogfight position
+- [[Transitions/Dogfight Sweep]] - Complementary sweep available from nearby dogfight position
 
-- [[Deep Half Entry from Half Guard]] - Chain option when sweep attempt is stuffed and opponent drives forward
+- [[Transitions/Deep Half Entry from Half Guard]] - Chain option when sweep attempt is stuffed and opponent drives forward
 
-- [[Half Butterfly Sweep]] - Related sweep technique using similar lower body elevation mechanics
+- [[Transitions/Half Butterfly Sweep]] - Related sweep technique using similar lower body elevation mechanics
 
 
 </section>

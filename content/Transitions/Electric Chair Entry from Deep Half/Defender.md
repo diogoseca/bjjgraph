@@ -146,7 +146,7 @@ description: "Defend and counter the Electric Chair entry from Deep Half Guard. 
 
 As the defender in deep half guard top when your opponent attempts the Electric Chair entry, your primary objective is to prevent the lockdown from being established on your near leg while maintaining enough base to avoid the standard deep half sweeps. You are already in a challenging position from deep half top, and the Electric Chair entry represents a significant escalation of threat that must be addressed early. The moment you feel your opponent threading their leg over yours, you are in a critical window where immediate action determines whether you retain position or get caught in the Electric Chair configuration. Prevention is far more effective than escaping a fully established Electric Chair, so developing early recognition and rapid response is essential for survival in this position.
 
-**Opponent's Starting Position**: [[Deep Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender in deep half guard top when your opponent attempts the Electric 
 ### 1. Retract near leg immediately when you feel the lockdown threading beginning
 
 - **When to use**: As soon as you detect the opponent's outside leg moving over your shin before the figure-four triangle is completed
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The lockdown fails to establish, the opponent loses their threading position, and you can work to extract your leg from deep half and pass to half guard or side control
 - **Risk**: If you retract too aggressively, the opponent may use your backward momentum for a Waiter Sweep or transition to X-Guard by hooking your retreating leg
 
 ### 2. Drive crossface pressure forward and flatten the opponent before they can create the perpendicular angle
 
 - **When to use**: When you detect the opponent beginning hip extension after the lockdown is partially or fully established
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: The opponent is flattened and cannot generate the hip extension or perpendicular angle required for the Electric Chair, neutralizing the threat and returning to standard deep half top defense
 - **Risk**: Heavy forward commitment can be exploited for Waiter Sweeps if the opponent is expecting this response and redirects your weight
 
 ### 3. Break the lockdown triangle by addressing the foot configuration with your free hand
 
 - **When to use**: When the lockdown is already fully established but the opponent has not yet achieved full hip extension or ankle control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The lockdown configuration is dismantled, removing the leg control that powers the Electric Chair, allowing you to extract your leg and transition to a standard passing position
 - **Risk**: Using your hand to address the lockdown temporarily removes upper body control, potentially allowing the opponent to deepen their underhook or adjust their angle
 
 ### 4. Limp leg and drive knee toward opponent's hip to reduce lockdown effectiveness
 
 - **When to use**: When the lockdown is established and you cannot immediately break the foot triangle
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: The relaxed leg reduces the mechanical advantage of the lockdown extension, preventing effective splitting pressure and buying time to work on breaking the triangle
 - **Risk**: Minimal risk but only delays the attack rather than fully neutralizing it - must be combined with other defensive actions
 
@@ -217,7 +217,7 @@ As the defender in deep half guard top when your opponent attempts the Electric 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Extract your near leg from the lockdown attempt before it is completed by driving your knee toward the opponent's hip and retracting aggressively. Once free, immediately pass your leg over the opponent's body to establish standard half guard top where their deep half positioning is neutralized. Use crossface pressure to prevent them from re-entering deep half.
 

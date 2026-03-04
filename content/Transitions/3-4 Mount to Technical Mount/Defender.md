@@ -154,7 +154,7 @@ description: "Defend against the 3-4 Mount to Technical Mount transition in BJJ.
 
 From the defender's perspective, the 3-4 Mount to Technical Mount transition represents a critical moment where the situation is about to get dramatically worse. While 3-4 Mount is already a disadvantageous position, Technical Mount adds immediate armbar and back take threats that make escape exponentially more difficult. Recognizing the transition cues early and intervening before arm isolation is complete offers the best defensive window. Once the attacker secures wrist-and-elbow control and begins leg repositioning, defensive options narrow to survival and damage limitation rather than prevention. The defender's strategic priority is denying arm isolation above all else—without a controlled arm, the attacker has no reason to commit to Technical Mount and the position lacks its primary threat.
 
-**Opponent's Starting Position**: [[3-4 Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/3-4 Mount]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ From the defender's perspective, the 3-4 Mount to Technical Mount transition rep
 ### 1. Bridge and hip escape during weight shift
 
 - **When to use**: The moment you feel the attacker's weight shift forward and laterally as they begin sliding their posted knee upward—this is when their base is most compromised
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard, dramatically reducing the submission threat and creating offensive sweep opportunities from a far more manageable defensive position
 - **Risk**: If mistimed, the bridge can extend your arm further and accelerate the attacker's transition to Technical Mount with deeper arm control
 
 ### 2. Clamp elbows tight and deny arm isolation
 
 - **When to use**: Immediately when you feel the attacker's hands shifting to target a specific arm with two-on-one control—this is the earliest and most effective intervention point
-- **Targets**: [[3-4 Mount]]
+- **Targets**: [[Positions/Mount/3-4 Mount]]
 - **If successful**: The attacker cannot justify committing to Technical Mount without arm control and remains in 3-4 Mount, preserving your current defensive position without worsening
 - **Risk**: Elbows tight limits your own framing and escape options, potentially allowing the attacker to maintain heavy pressure and search for alternative openings
 
 ### 3. Frame against advancing knee with forearm
 
 - **When to use**: When the posted knee begins its upward slide toward your head—use your near-side forearm as a wedge against the knee to physically block its advancement
-- **Targets**: [[3-4 Mount]]
+- **Targets**: [[Positions/Mount/3-4 Mount]]
 - **If successful**: The attacker's leg repositioning is blocked, forcing them to abandon the Technical Mount attempt and reset in 3-4 Mount or try a different advancement
 - **Risk**: Extending the arm to frame against the knee can expose it to isolation if the attacker redirects their grip to capture the framing arm instead
 
 ### 4. Turn into attacker and establish underhook during transition
 
 - **When to use**: During the brief moment when the attacker's weight shifts forward for leg repositioning, turn toward them and fight for an underhook on the side they are advancing from
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The underhook prevents Technical Mount completion and creates a path to recover half guard with an offensive underhook already established for sweeping
 - **Risk**: Turning into the attacker during mount can expose your back if the timing is wrong, potentially giving up back control instead of recovering half guard
 
@@ -224,11 +224,11 @@ From the defender's perspective, the 3-4 Mount to Technical Mount transition rep
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your bridge and hip escape to coincide with the attacker's weight shift during leg repositioning. As they lift or slide their posted knee toward your head, immediately bridge toward the mounted side and shrimp your hips away, inserting your knee between your bodies to recover half guard before they complete the transition.
 
-### → [[3-4 Mount]]
+### → [[Positions/Mount/3-4 Mount]]
 
 Block the transition by keeping elbows clamped tight to your ribs to deny arm isolation, and use your near-side forearm as a wedge against the advancing knee. Without arm control and with the knee blocked, the attacker cannot complete the Technical Mount entry and must remain in 3-4 Mount, preserving your current position.
 

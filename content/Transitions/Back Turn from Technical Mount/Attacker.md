@@ -180,7 +180,7 @@ description: "Complete guide to executing the back turn from technical mount bot
 
 As the bottom player in technical mount, you execute the back turn when the armbar threat becomes unavoidable through conventional escapes. This transition requires treating position sacrifice as a tactical weapon—accepting back control exposure to eliminate the immediate submission danger. Your success depends entirely on the quality of your rotation mechanics, arm protection discipline, and the speed with which you transition from back turn completion to back control defense protocols. The turn itself is merely phase one of a multi-step defensive sequence that must be pre-planned before initiation. Executing without a follow-up plan simply trades one submission for another.
 
-**From Position**: [[Technical Mount]] (Bottom)
+**From Position**: [[Positions/Mount/Technical Mount]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player in technical mount, you execute the back turn when the armb
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 45% |
-| Failure | [[Technical Mount]] | 30% |
-| Counter | [[Armbar Control]] | 25% |
+| Success | [[Positions/Back Control]] | 45% |
+| Failure | [[Positions/Mount/Technical Mount]] | 30% |
+| Counter | [[Positions/Armbar Control]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the bottom player in technical mount, you execute the back turn when the armb
 
 ## Opponent Counters
 
-- **Opponent follows rotation and immediately inserts hooks for full back control** (Effectiveness: High) - Your Response: Accept the back control position and immediately engage back escape protocols—chin tuck, hand fighting, systematic hook removal sequence → Leads to [[Back Control]]
-- **Opponent maintains wrist control during rotation and finishes armbar as you turn** (Effectiveness: Medium) - Your Response: If arm is caught mid-turn, immediately stack by driving into opponent and attempting to pull arm free using rotation momentum before they can fully extend → Leads to [[Armbar Control]]
-- **Opponent drives weight forward and pins shoulders flat, preventing any rotation from developing** (Effectiveness: Medium) - Your Response: If rotation is blocked, switch to hip escape in the opposite direction to create space, or attempt to re-establish frames for a different escape route → Leads to [[Technical Mount]]
-- **Opponent releases armbar setup and establishes seatbelt control during the turn transition** (Effectiveness: High) - Your Response: If seatbelt is established during turn, prioritize chin defense and immediately begin two-on-one grip fighting on the choking arm before hooks are fully set → Leads to [[Back Control]]
+- **Opponent follows rotation and immediately inserts hooks for full back control** (Effectiveness: High) - Your Response: Accept the back control position and immediately engage back escape protocols—chin tuck, hand fighting, systematic hook removal sequence → Leads to [[Positions/Back Control]]
+- **Opponent maintains wrist control during rotation and finishes armbar as you turn** (Effectiveness: Medium) - Your Response: If arm is caught mid-turn, immediately stack by driving into opponent and attempting to pull arm free using rotation momentum before they can fully extend → Leads to [[Positions/Armbar Control]]
+- **Opponent drives weight forward and pins shoulders flat, preventing any rotation from developing** (Effectiveness: Medium) - Your Response: If rotation is blocked, switch to hip escape in the opposite direction to create space, or attempt to re-establish frames for a different escape route → Leads to [[Positions/Mount/Technical Mount]]
+- **Opponent releases armbar setup and establishes seatbelt control during the turn transition** (Effectiveness: High) - Your Response: If seatbelt is established during turn, prioritize chin defense and immediately begin two-on-one grip fighting on the choking arm before hooks are fully set → Leads to [[Positions/Back Control]]
 
 
 </section>

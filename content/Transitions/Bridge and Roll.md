@@ -21,7 +21,7 @@ The Bridge and Roll is typically the first mount escape taught to beginners due 
 
 The technique demonstrates fundamental BJJ principles including the use of frames, hip movement, angle creation, and explosive power generation from inferior positions. Its relationship with the elbow escape creates a binary escape system where defending one escape opens the other, making the combination far more effective than either technique in isolation. At advanced levels, the bridge and roll becomes less about raw power and more about reading micro-adjustments in the opponent's weight distribution and exploiting momentary base compromises with precise timing.
 
-**From Position**: [[Mount]] (Bottom)
+**From Position**: [[Positions/Mount]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique demonstrates fundamental BJJ principles including the use of frame
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Mount]] | 30% |
-| Counter | [[High Mount]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Mount]] | 30% |
+| Counter | [[Positions/Mount/High Mount]] | 15% |
 
 
 </section>
@@ -198,29 +198,29 @@ The Bridge and Roll escape is the foundational technique in the mount escape hie
 ## Related Techniques
 
 
-- [[Elbow Escape to Guard]] - Primary complementary escape that chains with bridge and roll when one is defended
+- [[Transitions/Elbow Escape to Guard]] - Primary complementary escape that chains with bridge and roll when one is defended
 
-- [[Mount]] - Starting position for this escape
+- [[Positions/Mount]] - Starting position for this escape
 
-- [[Mount Control]] - Transition opponent uses to maintain mount against escape attempts
+- [[Transitions/Mount Control]] - Transition opponent uses to maintain mount against escape attempts
 
-- [[High Mount]] - Advanced mount variation that must be addressed before bridge and roll becomes viable
+- [[Positions/Mount/High Mount]] - Advanced mount variation that must be addressed before bridge and roll becomes viable
 
-- [[Closed Guard]] - Typical ending position after successful escape with escaper landing as top player
+- [[Positions/Closed Guard]] - Typical ending position after successful escape with escaper landing as top player
 
-- [[Americana from Mount]] - Common submission threat that creates arm trapping opportunity when defended
+- [[Submissions/Americana from Mount]] - Common submission threat that creates arm trapping opportunity when defended
 
-- [[Armbar from Mount]] - Submission threat when escape timing is poor or arms are extended
+- [[Submissions/Armbar from Mount]] - Submission threat when escape timing is poor or arms are extended
 
-- [[Frame and Shrimp to Guard]] - Preparatory movement for creating space before escape attempt
+- [[Transitions/Frame and Shrimp to Guard]] - Preparatory movement for creating space before escape attempt
 
-- [[Hip Escape to Guard]] - Alternative escape method using shrimping mechanics instead of bridging
+- [[Transitions/Hip Escape to Guard]] - Alternative escape method using shrimping mechanics instead of bridging
 
-- [[Bridge and Turn to Turtle]] - Related bridging escape that transitions to turtle instead of rolling over opponent
+- [[Transitions/Bridge and Turn to Turtle]] - Related bridging escape that transitions to turtle instead of rolling over opponent
 
-- [[Scissor Sweep]] - Possible immediate follow-up sweep from landed guard position after successful escape
+- [[Transitions/Scissor Sweep]] - Possible immediate follow-up sweep from landed guard position after successful escape
 
-- [[Technical Stand-up]] - Follow-up option if guard cannot be established after completing the roll
+- [[Transitions/Technical Stand-up]] - Follow-up option if guard cannot be established after completing the roll
 
 
 </section>

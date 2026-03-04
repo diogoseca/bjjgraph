@@ -90,35 +90,35 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 ### Available Transitions
 
 
-- **[[Butterfly Sweep]]** (40% of attempts)
+- **[[Transitions/Butterfly Sweep]]** (40% of attempts)
 
-- **[[Elevator Sweep]]** (7% of attempts)
+- **[[Transitions/Elevator Sweep]]** (7% of attempts)
 
-- **[[Arm Drag to Back]]** (11% of attempts)
+- **[[Transitions/Arm Drag to Back]]** (11% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** (7% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard]]** (7% of attempts)
 
-- **[[Guillotine Choke]]** (5% of attempts)
+- **[[Transitions/Guillotine Choke]]** (5% of attempts)
 
-- **[[Sumi Gaeshi]]** (6% of attempts)
+- **[[Transitions/Sumi Gaeshi]]** (6% of attempts)
 
-- **[[Single Leg X Entry]]** (6% of attempts)
+- **[[Transitions/Single Leg X Entry]]** (6% of attempts)
 
-- **[[Butterfly Guard to Butterfly Hook Control]]** (2% of attempts)
+- **[[Transitions/Butterfly Guard to Butterfly Hook Control]]** (2% of attempts)
 
-- **[[Deep Half Entry]]** (4% of attempts)
+- **[[Transitions/Deep Half Entry]]** (4% of attempts)
 
-- **[[Underhook Sweep]]** (3% of attempts)
+- **[[Transitions/Underhook Sweep]]** (3% of attempts)
 
-- **[[Kimura]]** (3% of attempts)
+- **[[Transitions/Kimura]]** (3% of attempts)
 
-- **[[Snap Down to Front Headlock]]** (1% of attempts)
+- **[[Transitions/Snap Down to Front Headlock]]** (1% of attempts)
 
-- **[[Omoplata]]** (1% of attempts)
+- **[[Transitions/Omoplata]]** (1% of attempts)
 
-- **[[Hook Sweep]]** (2% of attempts)
+- **[[Transitions/Hook Sweep]]** (2% of attempts)
 
-- **[[Guillotine from Butterfly Guard]]** (2% of attempts)
+- **[[Submissions/Guillotine from Butterfly Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -183,31 +183,31 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (11% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (11% of attempts)
 
-- **[[Double Under Pass]]** (2% of attempts)
+- **[[Transitions/Double Under Pass]]** (2% of attempts)
 
-- **[[Butterfly Pass]]** (10% of attempts)
+- **[[Transitions/Butterfly Pass]]** (10% of attempts)
 
-- **[[Long Step Pass]]** (2% of attempts)
+- **[[Transitions/Long Step Pass]]** (2% of attempts)
 
-- **[[Over-Under Pass]]** (2% of attempts)
+- **[[Transitions/Over-Under Pass]]** (2% of attempts)
 
-- **[[Toreando Pass]]** (1% of attempts)
+- **[[Transitions/Toreando Pass]]** (1% of attempts)
 
-- **[[Butterfly Smash]]** (47% of attempts)
+- **[[Transitions/Butterfly Smash]]** (47% of attempts)
 
-- **[[Body Lock Pass]]** (9% of attempts)
+- **[[Transitions/Body Lock Pass]]** (9% of attempts)
 
-- **[[Leg Drag Pass]]** (7% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (7% of attempts)
 
-- **[[Standing up in Base]]** (3% of attempts)
+- **[[Transitions/Standing up in Base]]** (3% of attempts)
 
-- **[[X Pass]]** (5% of attempts)
+- **[[Transitions/X Pass]]** (5% of attempts)
 
-- **[[Butterfly Guard to Butterfly Half Guard]]** (0% of attempts)
+- **[[Transitions/Butterfly Guard to Butterfly Half Guard]]** (0% of attempts)
 
-- **[[Butterfly Guard to Half Butterfly]]** (1% of attempts)
+- **[[Transitions/Butterfly Guard to Half Butterfly]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -250,15 +250,15 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 ## Related Positions
 
 
-- **[[X-Guard]]** - Common progression when opponent stands or attempts to create distance from hooks
+- **[[Positions/X-Guard]]** - Common progression when opponent stands or attempts to create distance from hooks
 
-- **[[Single Leg X-Guard]]** - Natural transition when one hook is cleared or opponent stands asymmetrically
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Natural transition when one hook is cleared or opponent stands asymmetrically
 
-- **[[Deep Half Guard]]** - Defensive transition when opponent applies heavy forward pressure to flatten guard
+- **[[Positions/Half Guard/Deep Half Guard]]** - Defensive transition when opponent applies heavy forward pressure to flatten guard
 
-- **[[Half Guard]]** - Fallback position when one hook is cleared during opponent passing attempts
+- **[[Positions/Half Guard]]** - Fallback position when one hook is cleared during opponent passing attempts
 
-- **[[Seated Guard]]** - Related open guard variation sharing similar seated posture mechanics
+- **[[Positions/Seated Guard]]** - Related open guard variation sharing similar seated posture mechanics
 
 
 </section>

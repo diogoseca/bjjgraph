@@ -148,7 +148,7 @@ Defending the Baratoplata Setup requires early recognition and decisive action b
 
 The defensive approach centers on two strategies depending on timing: prevention (stopping the thread before it completes) and escape (extracting the arm after partial setup). Prevention is far more reliable, involving arm straightening, posture recovery, or explosive rotation before the figure-four locks in. Escape from a completed Baratoplata requires addressing the rotational angle through counter-rotation and stacking, which is energy-intensive and lower percentage. Defenders must understand that the Baratoplata punishes the most natural Meathook escape—backward arm extraction—so conventional escape instincts actually feed the attack. The correct response is counterintuitive: address the threading arm directly rather than pulling the trapped arm away.
 
-**Opponent's Starting Position**: [[Meathook]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ The defensive approach centers on two strategies depending on timing: prevention
 ### 1. Straighten trapped arm explosively and immediately drive posture upward before figure-four can be established
 
 - **When to use**: As soon as you feel the attacker creating threading space or their arm beginning to slide under your elbow—this must happen before the figure-four grip connects
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Attacker cannot establish figure-four configuration and you recover to Closed Guard with posture restored, though arm may still be partially controlled
 - **Risk**: Straightened arm is vulnerable to standard Armbar from Guard if attacker transitions quickly—immediately bend arm again after disrupting the thread
 
 ### 2. Drive forward into a stacking position, collapsing the distance between your chest and the attacker's torso to eliminate threading space
 
 - **When to use**: When you feel the hip angle adjustment that precedes the thread—driving forward before the arm is inserted collapses the gap needed for the technique
-- **Targets**: [[Meathook]]
+- **Targets**: [[Positions/Rubber Guard/Meathook]]
 - **If successful**: Attacker's threading space is eliminated and they remain in standard Meathook without Baratoplata progression, though you are still in Meathook and must continue defending
 - **Risk**: Forward pressure drives you deeper into Gogoplata range if the attacker reads your stack and transitions their shin to your throat
 
 ### 3. Rotate your shoulder away from the attacker's figure-four by turning your torso toward the trapped arm side while pulling elbow tight to ribs
 
 - **When to use**: When the figure-four is partially established but the attacker has not yet completed hip rotation for the finishing angle—this is a last-resort escape from partial setup
-- **Targets**: [[Meathook]]
+- **Targets**: [[Positions/Rubber Guard/Meathook]]
 - **If successful**: Counter-rotation neutralizes the internal rotation angle, reducing the figure-four to a control grip without submission pressure, allowing you to work standard Meathook escapes
 - **Risk**: If rotation is insufficient, the attacker can follow your movement and complete the submission with your own rotational momentum
 
 ### 4. Trap the attacker's threading arm against your body by clamping your elbow tight and turning your wrist to pin their forearm before it clears your elbow
 
 - **When to use**: During the active threading moment when the attacker's forearm is passing under your elbow—requires precise timing and fast reaction
-- **Targets**: [[Meathook]]
+- **Targets**: [[Positions/Rubber Guard/Meathook]]
 - **If successful**: Attacker's arm is trapped in an awkward position unable to complete the figure-four, and they must withdraw and reset their attack from Meathook
 - **Risk**: If clamping is too slow, the attacker completes the thread and your clamping effort positions your arm deeper into the figure-four configuration
 
@@ -217,11 +217,11 @@ The defensive approach centers on two strategies depending on timing: prevention
 
 ## Best-Case Outcomes for Defender
 
-### → [[Meathook]]
+### → [[Positions/Rubber Guard/Meathook]]
 
 Drive forward into a stacking position to collapse threading space, or counter-rotate your shoulder to neutralize the figure-four angle. Both methods return you to standard Meathook where the Baratoplata is no longer progressing, though you still need to escape Meathook itself through standard arm extraction and posture recovery sequences.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Straighten the trapped arm explosively while simultaneously driving your posture upward. This two-part defense breaks the Meathook shin hook control and prevents figure-four establishment. As posture recovers and the shin hook loosens, extract your arm fully and work to re-establish neutral Closed Guard positioning where the attacker loses their advanced Rubber Guard control.
 

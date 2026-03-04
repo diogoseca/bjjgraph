@@ -176,7 +176,7 @@ description: "How to execute Buggy Choke in BJJ. Attacking perspective with setu
 
 The Buggy Choke is a devastating compression choke originating from half guard bottom positions, particularly effective when the opponent attempts to flatten you out or consolidate side control. This submission creates a unique angle of attack by combining upper body pressure with leg positioning to trap the opponent's head and arm, cutting off blood flow to the carotid arteries. The technique gained prominence in modern BJJ as a highly effective counter-attack from defensive positions, allowing smaller practitioners to finish larger opponents through precise mechanics rather than brute strength. What makes the Buggy Choke particularly dangerous is its deceptive setup—opponents often don't recognize the threat until the choke is deeply locked, making escape extremely difficult. The submission can be finished from various half guard configurations and transitions seamlessly into other attacks when defended properly.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 
 
 </section>
@@ -231,8 +231,8 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Half Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Half Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -241,11 +241,11 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 
 ## Opponent Defenses
 
-- **Posture up and create space by driving forward** (Effectiveness: High) - Your Response: Maintain your angle by turning harder into them and using your legs to break their posture down. If they successfully create space, transition to sweep attempts or deep half guard recovery. → Leads to [[Half Guard]]
-- **Free the trapped arm by swimming or pulling it back** (Effectiveness: High) - Your Response: Immediately tighten your grip on their wrist and use your head position to block their arm extraction. If the arm escapes, switch to alternative half guard attacks like the electric chair or old school sweep. → Leads to [[Half Guard]]
-- **Turn into the choke to relieve pressure** (Effectiveness: Medium) - Your Response: Use their turning motion to transition to back control or maintain the choke while adjusting your angle. Your leg position should prevent them from completing the turn. → Leads to [[Half Guard]]
+- **Posture up and create space by driving forward** (Effectiveness: High) - Your Response: Maintain your angle by turning harder into them and using your legs to break their posture down. If they successfully create space, transition to sweep attempts or deep half guard recovery. → Leads to [[Positions/Half Guard]]
+- **Free the trapped arm by swimming or pulling it back** (Effectiveness: High) - Your Response: Immediately tighten your grip on their wrist and use your head position to block their arm extraction. If the arm escapes, switch to alternative half guard attacks like the electric chair or old school sweep. → Leads to [[Positions/Half Guard]]
+- **Turn into the choke to relieve pressure** (Effectiveness: Medium) - Your Response: Use their turning motion to transition to back control or maintain the choke while adjusting your angle. Your leg position should prevent them from completing the turn. → Leads to [[Positions/Half Guard]]
 - **Tuck chin and protect neck with free hand** (Effectiveness: Medium) - Your Response: Maintain pressure and wait for their arm to fatigue from the defensive position. Often you can still get carotid compression despite the chin tuck if your angle is correct. Be patient and maintain position control. → Leads to [[game-over]]
-- **Complete the guard pass to escape the choke angle entirely** (Effectiveness: High) - Your Response: Tighten your half guard hooks and use your free leg to prevent the pass. If they begin completing the pass, you must either finish the choke immediately or abandon it to retain guard. Do not hold a losing grip while they consolidate side control. → Leads to [[Side Control]]
+- **Complete the guard pass to escape the choke angle entirely** (Effectiveness: High) - Your Response: Tighten your half guard hooks and use your free leg to prevent the pass. If they begin completing the pass, you must either finish the choke immediately or abandon it to retain guard. Do not hold a losing grip while they consolidate side control. → Leads to [[Positions/Side Control]]
 
 
 </section>

@@ -188,7 +188,7 @@ description: "Execute the Outside Heel Hook from Backside 50-50 with systematic 
 
 Executing the Outside Heel Hook from Backside 50-50 requires systematic control establishment before committing to the finish. The attacking sequence begins with consolidating chest-to-back pressure to neutralize defensive hip mobility, then progresses through heel isolation, grip reinforcement, elbow positioning inside the thigh, and finally controlled lateral rotation combined with hip extension. The backside angle provides a significant mechanical advantage over standard 50-50 heel hook attempts because your body weight pins the opponent's hips, preventing the rotational escapes that commonly defuse heel hooks from symmetric positions. Success depends on patient grip establishment and reading the opponent's defensive reactions to choose between finishing the heel hook, transitioning to alternative leg attacks, or advancing to back control. The dual-threat nature of backside 50-50—legs and back—creates a defensive dilemma that makes the outside heel hook particularly effective when the opponent prioritizes back defense over heel protection.
 
-**From Position**: [[Backside 50-50]] (Top)
+**From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 
 
 </section>
@@ -243,9 +243,9 @@ Executing the Outside Heel Hook from Backside 50-50 requires systematic control 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Backside 50-50]] | 30% |
-| Counter | [[50-50 Guard]] | 15% |
-| Counter | [[Open Guard]] | 10% |
+| Failure | [[Positions/Ashi Garami/Backside 50-50]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -254,10 +254,10 @@ Executing the Outside Heel Hook from Backside 50-50 requires systematic control 
 
 ## Opponent Defenses
 
-- **Opponent hides heel by rotating knee inward and pulling toes toward shin, denying grip access to the heel** (Effectiveness: High) - Your Response: Increase leg squeeze pressure to force heel exposure, or transition to kneebar threat which forces leg straightening and re-exposes the heel. If heel remains hidden after 3-5 seconds, abandon heel hook and transition to back take or toe hold. → Leads to [[Backside 50-50]]
-- **Opponent strips heel grip using aggressive two-on-one hand fighting before rotation is applied** (Effectiveness: High) - Your Response: Re-establish chest pressure immediately to pin their hips, then re-attempt heel grip from a different angle. Alternatively, use their hand commitment to grip fighting as an opening to walk hips toward back control since their hands are occupied. → Leads to [[Backside 50-50]]
-- **Opponent rotates entire body to face you, converting backside 50-50 to standard face-to-face 50-50** (Effectiveness: Medium) - Your Response: If rotation is partial, drive chest pressure forward to prevent completion. If rotation succeeds, immediately secure inside position control in the standard 50-50 and attack the inside heel hook from the new angle. Their rotation often exposes the heel during the transition. → Leads to [[50-50 Guard]]
-- **Opponent bridges explosively and extracts leg from entanglement when you lighten chest pressure to reach for heel** (Effectiveness: Medium) - Your Response: Maintain maximum chest pressure throughout the grip establishment phase. If they create space, immediately re-drive pressure to re-establish the pin before re-attempting the heel hunt. Alternatively, follow their movement and transition to a passing position. → Leads to [[Open Guard]]
+- **Opponent hides heel by rotating knee inward and pulling toes toward shin, denying grip access to the heel** (Effectiveness: High) - Your Response: Increase leg squeeze pressure to force heel exposure, or transition to kneebar threat which forces leg straightening and re-exposes the heel. If heel remains hidden after 3-5 seconds, abandon heel hook and transition to back take or toe hold. → Leads to [[Positions/Ashi Garami/Backside 50-50]]
+- **Opponent strips heel grip using aggressive two-on-one hand fighting before rotation is applied** (Effectiveness: High) - Your Response: Re-establish chest pressure immediately to pin their hips, then re-attempt heel grip from a different angle. Alternatively, use their hand commitment to grip fighting as an opening to walk hips toward back control since their hands are occupied. → Leads to [[Positions/Ashi Garami/Backside 50-50]]
+- **Opponent rotates entire body to face you, converting backside 50-50 to standard face-to-face 50-50** (Effectiveness: Medium) - Your Response: If rotation is partial, drive chest pressure forward to prevent completion. If rotation succeeds, immediately secure inside position control in the standard 50-50 and attack the inside heel hook from the new angle. Their rotation often exposes the heel during the transition. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent bridges explosively and extracts leg from entanglement when you lighten chest pressure to reach for heel** (Effectiveness: Medium) - Your Response: Maintain maximum chest pressure throughout the grip establishment phase. If they create space, immediately re-drive pressure to re-establish the pin before re-attempting the heel hunt. Alternatively, follow their movement and transition to a passing position. → Leads to [[Positions/Open Guard]]
 
 
 </section>

@@ -21,7 +21,7 @@ Strategically, this transition is most effective against opponents who use the c
 
 In competition, this entry has become increasingly relevant as practitioners develop layered back attack systems that branch between traditional rear naked choke sequences and modern Twister system attacks. The ability to transition from standing back control directly into Truck bypasses the turtle position entirely, denying the opponent the defensive frames and options that turtle provides. Advanced practitioners use this as part of a decision tree from standing back control: if the opponent maintains strong posture and defends the choke, threaten the takedown; when they drop to avoid the takedown, enter the Truck instead of following to standard back control.
 
-**From Position**: [[Standing Back Control]] (Top)
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ In competition, this entry has become increasingly relevant as practitioners dev
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Truck]] | 65% |
-| Failure | [[Standing Back Control]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Twister Control/Truck]] | 65% |
+| Failure | [[Positions/Back Control/Standing Back Control]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -193,29 +193,29 @@ Truck Position Entry from standing back control serves as a critical branching p
 ## Related Techniques
 
 
-- [[Standing Back Control]] - Starting position
+- [[Positions/Back Control/Standing Back Control]] - Starting position
 
-- [[Truck]] - Target position on successful entry
+- [[Positions/Twister Control/Truck]] - Target position on successful entry
 
-- [[Twister Control]] - Parent position system containing Truck
+- [[Positions/Twister Control]] - Parent position system containing Truck
 
-- [[Calf Slicer from Truck]] - Primary submission follow-up from Truck
+- [[Submissions/Calf Slicer from Truck]] - Primary submission follow-up from Truck
 
-- [[Banana Split]] - Alternative submission from Truck position
+- [[Submissions/Banana Split]] - Alternative submission from Truck position
 
-- [[Back Take from Top]] - Alternative transition from standing back control
+- [[Transitions/Back Take from Top]] - Alternative transition from standing back control
 
-- [[Rear Naked Choke]] - Alternative standing back control attack
+- [[Transitions/Rear Naked Choke]] - Alternative standing back control attack
 
-- [[Crucifix Transition]] - Alternative control option from standing back control
+- [[Transitions/Crucifix Transition]] - Alternative control option from standing back control
 
-- [[Mat Return to Back Mount]] - Alternative takedown from standing back control
+- [[Transitions/Mat Return to Back Mount]] - Alternative takedown from standing back control
 
-- [[Body Triangle Lock]] - Setup tool to compromise base before Truck entry
+- [[Transitions/Body Triangle Lock]] - Setup tool to compromise base before Truck entry
 
-- [[Roll to Truck]] - Related Truck entry variant
+- [[Transitions/Roll to Truck]] - Related Truck entry variant
 
-- [[Electric Chair Submission]] - Related Twister system submission
+- [[Submissions/Electric Chair Submission]] - Related Twister system submission
 
 
 </section>

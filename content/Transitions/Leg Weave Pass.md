@@ -21,7 +21,7 @@ The technique is characterized by inserting your inside leg (the leg on the same
 
 The leg weave pass represents a systematic approach to passing that prioritizes control and pressure over speed, making it an essential technique for practitioners who favor a methodical, pressure-based passing game. The pass chains naturally with knee slice and smash pass options, creating a multi-threat system from half guard top that forces the bottom player into increasingly compromised defensive positions.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ The leg weave pass represents a systematic approach to passing that prioritizes 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 60% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 60% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,29 +193,29 @@ The leg weave pass represents a crucial component of modern pressure passing sys
 ## Related Techniques
 
 
-- [[Half Guard Pass]] - Parent technique category - leg weave is a specific approach to passing half guard
+- [[Transitions/Half Guard Pass]] - Parent technique category - leg weave is a specific approach to passing half guard
 
-- [[Knee Slice Pass]] - Alternative passing option that chains with leg weave when opponent defends
+- [[Transitions/Knee Slice Pass]] - Alternative passing option that chains with leg weave when opponent defends
 
-- [[Smash Pass]] - Related pressure passing technique with similar weight distribution principles
+- [[Transitions/Smash Pass]] - Related pressure passing technique with similar weight distribution principles
 
-- [[Underhook Pass]] - Alternative approach when underhook is available instead of crossface
+- [[Transitions/Underhook Pass]] - Alternative approach when underhook is available instead of crossface
 
-- [[Lockdown]] - Position that the leg weave effectively counters and neutralizes
+- [[Positions/Half Guard/Lockdown]] - Position that the leg weave effectively counters and neutralizes
 
-- [[Knee Shield Half Guard]] - Common defensive position requiring the knee shield variation of leg weave
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Common defensive position requiring the knee shield variation of leg weave
 
-- [[Deep Half Guard]] - Position opponent may threaten if leg weave pressure is insufficient
+- [[Positions/Half Guard/Deep Half Guard]] - Position opponent may threaten if leg weave pressure is insufficient
 
-- [[Side Control]] - Ending position and goal of the leg weave pass sequence
+- [[Positions/Side Control]] - Ending position and goal of the leg weave pass sequence
 
-- [[Kimura from Half Guard]] - Submission opportunity arising from heavy pressure positions during the weave
+- [[Transitions/Kimura from Half Guard]] - Submission opportunity arising from heavy pressure positions during the weave
 
-- [[Darce Choke]] - Submission threat that develops if opponent turns into you during the pass
+- [[Transitions/Darce Choke]] - Submission threat that develops if opponent turns into you during the pass
 
-- [[Crossface Pass]] - Related passing technique using similar crossface pressure mechanics
+- [[Transitions/Crossface Pass]] - Related passing technique using similar crossface pressure mechanics
 
-- [[Leg Weave]] - Intermediate control position achieved during the passing sequence
+- [[Positions/Leg Weave]] - Intermediate control position achieved during the passing sequence
 
 
 </section>

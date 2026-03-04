@@ -156,7 +156,7 @@ Defending the triangle to back transition requires recognizing the moment your o
 
 The defensive strategy centers on preventing the opponent from completing all three phases of the transition: the grip change to your far shoulder, the leg swing over your hip, and the hook insertion. Disrupting any single phase forces the opponent to either abort the back take and return to triangle, or scramble through a weakened transition where you can create escape opportunities. The most effective defensive timing is during the opponent's grip change phase, when they must release head control to establish the far shoulder grip, creating a brief window where their upper body control is compromised.
 
-**Opponent's Starting Position**: [[Triangle Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Triangle Control]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The defensive strategy centers on preventing the opponent from completing all th
 ### 1. Turn back into opponent and re-square your shoulders to face them
 
 - **When to use**: Immediately upon feeling the opponent's hips begin to rotate perpendicular or when they release head control to reach for your far shoulder
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: You return to standard triangle defense position where you can work established triangle escape sequences rather than defending back control
 - **Risk**: If opponent maintains strong leg control during your turn, you may tighten the triangle and increase choking pressure
 
 ### 2. Post free hand firmly on the mat and drive weight forward to prevent rotation
 
 - **When to use**: When opponent begins swinging their leg over your hip but has not yet established the first hook
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Your posted hand creates a structural barrier that prevents the opponent from completing the rotation, forcing them to either return to triangle or release control
 - **Risk**: Extended posting arm may be vulnerable to kimura grip or armbar if opponent adjusts their attack angle
 
 ### 3. Explosively stand and stack opponent while they are mid-transition with compromised control
 
 - **When to use**: During the brief window when opponent has released the triangle lock but has not yet established both hooks and seat belt
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Standing disrupts the entire transition sequence and can shake the opponent off your back or force them to pull guard, resetting to a neutral standing versus guard position
 - **Risk**: If opponent has already secured one hook and overhook, standing gives them standing back control which can be equally dangerous
 
 ### 4. Clamp elbows to ribs and turtle defensively to prevent hook insertion
 
 - **When to use**: When opponent has reached your back but has not yet inserted hooks past your arm barrier
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Denying hooks forces opponent to work from a weak back position without lower body control, giving you time to execute turtle escapes or sit out
 - **Risk**: Opponent may establish body triangle on one side or attack chokes without hooks, maintaining partial back control
 
@@ -227,11 +227,11 @@ The defensive strategy centers on preventing the opponent from completing all th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Triangle Control]]
+### → [[Positions/Triangle Control]]
 
 Turn back into opponent the moment you feel their hips rotating perpendicular to your spine. Drive your shoulder into their chest and re-square your body to face them, forcing them to either re-engage the triangle or lose position entirely. The key is speed of recognition and immediate directional change before the first hook is established.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Exploit the transition window by standing explosively when the opponent releases the triangle lock but before hooks are established. Use the brief moment of reduced control to posture fully upright and either disengage their legs or force them to pull guard. This requires timing the stand to the exact moment of triangle release.
 

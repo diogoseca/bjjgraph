@@ -21,7 +21,7 @@ The technique operates on the principle that the overhook, while strong, has a s
 
 Strategically, overhook extraction should not be attempted in isolation. The sequence must address base and posture concerns simultaneously. Attempting extraction without stable base invites sweeps; attempting it without addressing posture allows the bottom player to transition to other attacks like triangles or omoplatas. When executed correctly within the proper sequence, overhook extraction serves as the gateway from defensive survival in New York to offensive guard passing opportunities.
 
-**From Position**: [[New York]] (Top)
+**From Position**: [[Positions/Rubber Guard/New York]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, overhook extraction should not be attempted in isolation. The seq
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 65% |
-| Failure | [[New York]] | 25% |
-| Counter | [[Triangle Control]] | 10% |
+| Success | [[Positions/Closed Guard]] | 65% |
+| Failure | [[Positions/Rubber Guard/New York]] | 25% |
+| Counter | [[Positions/Triangle Control]] | 10% |
 
 
 </section>
@@ -191,23 +191,23 @@ Overhook Extraction is the central technique in the New York Top escape sequence
 ## Related Techniques
 
 
-- [[New York]] - Starting position - the control you are escaping from
+- [[Positions/Rubber Guard/New York]] - Starting position - the control you are escaping from
 
-- [[Closed Guard]] - Target position after successful extraction
+- [[Positions/Closed Guard]] - Target position after successful extraction
 
-- [[Posture Recovery]] - Complementary technique - often combined with extraction
+- [[Transitions/Posture Recovery]] - Complementary technique - often combined with extraction
 
-- [[Stack Defense]] - Alternative approach when extraction is blocked
+- [[Transitions/Stack Defense]] - Alternative approach when extraction is blocked
 
-- [[Pressure Pass]] - Follow-up technique after successful extraction
+- [[Transitions/Pressure Pass]] - Follow-up technique after successful extraction
 
-- [[Triangle Control]] - Counter threat - what opponent attempts during extraction
+- [[Positions/Triangle Control]] - Counter threat - what opponent attempts during extraction
 
-- [[Leg Drag Pass]] - High-percentage passing option after arm is freed
+- [[Transitions/Leg Drag Pass]] - High-percentage passing option after arm is freed
 
-- [[Mission Control]] - Related rubber guard position that precedes New York in the system
+- [[Positions/Rubber Guard/Mission Control]] - Related rubber guard position that precedes New York in the system
 
-- [[Invisible Collar]] - Advanced rubber guard position opponent may transition to during extraction
+- [[Positions/Rubber Guard/Invisible Collar]] - Advanced rubber guard position opponent may transition to during extraction
 
 
 </section>

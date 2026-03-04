@@ -184,7 +184,7 @@ The technique requires precise timing rather than raw strength. The optimal mome
 
 Strategically, this escape serves as a reset mechanism when other North-South escapes fail or are unavailable. Unlike the bridge-and-turn escape to turtle, which requires committing to a turning direction, this technique keeps you on your back in a guard position where your legs become your primary defensive weapons. This makes it particularly valuable for guard players who prefer to work from closed guard or half guard rather than scrambling through turtle positions.
 
-**From Position**: [[North-South]] (Bottom)
+**From Position**: [[Positions/North-South]] (Bottom)
 
 </section>
 
@@ -236,10 +236,10 @@ Strategically, this escape serves as a reset mechanism when other North-South es
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Success | [[Half Guard]] | 20% |
-| Failure | [[North-South]] | 25% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Success | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/North-South]] | 25% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -248,10 +248,10 @@ Strategically, this escape serves as a reset mechanism when other North-South es
 
 ## Opponent Counters
 
-- **Opponent widens base and sprawls hips away during bridge** (Effectiveness: High) - Your Response: If their hips move away, immediately hip escape toward their legs and insert butterfly hooks instead of trying for closed guard → Leads to [[Closed Guard]]
-- **Opponent anticipates bridge and drives forward with heavy crossface** (Effectiveness: High) - Your Response: Convert to bridge-and-turn escape toward turtle since their forward drive creates momentum you can redirect → Leads to [[North-South]]
-- **Opponent transitions to mount as you bridge, using your elevation to slide knees past** (Effectiveness: Medium) - Your Response: Accept half guard by trapping one leg rather than fighting for closed guard - this prevents full mount consolidation → Leads to [[Mount]]
-- **Opponent drops weight and flattens chest heavily immediately after bridge peaks** (Effectiveness: Medium) - Your Response: Use the bridge rebound to shrimp your hips laterally and chain into a hip escape to guard recovery instead of re-bridging → Leads to [[North-South]]
+- **Opponent widens base and sprawls hips away during bridge** (Effectiveness: High) - Your Response: If their hips move away, immediately hip escape toward their legs and insert butterfly hooks instead of trying for closed guard → Leads to [[Positions/Closed Guard]]
+- **Opponent anticipates bridge and drives forward with heavy crossface** (Effectiveness: High) - Your Response: Convert to bridge-and-turn escape toward turtle since their forward drive creates momentum you can redirect → Leads to [[Positions/North-South]]
+- **Opponent transitions to mount as you bridge, using your elevation to slide knees past** (Effectiveness: Medium) - Your Response: Accept half guard by trapping one leg rather than fighting for closed guard - this prevents full mount consolidation → Leads to [[Positions/Mount]]
+- **Opponent drops weight and flattens chest heavily immediately after bridge peaks** (Effectiveness: Medium) - Your Response: Use the bridge rebound to shrimp your hips laterally and chain into a hip escape to guard recovery instead of re-bridging → Leads to [[Positions/North-South]]
 
 
 </section>

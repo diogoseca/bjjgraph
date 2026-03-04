@@ -21,7 +21,7 @@ The transition is fundamentally about managing a controlled exchange: releasing 
 
 This transition functions as a strategic safety valve within the truck attack system. When truck submissions are well-defended, the position begins to destabilize, or the opponent's leg defense eliminates calf slicer and banana split threats, transitioning to back control preserves positional dominance and opens entirely new submission pathways. Advanced practitioners chain truck submission attempts with back control transitions, using the threat of one to facilitate the other and creating layered dilemmas that opponents cannot simultaneously address. The ability to fluidly alternate between truck attacks and back control conversion defines high-level truck position play.
 
-**From Position**: [[Truck]] (Top)
+**From Position**: [[Positions/Twister Control/Truck]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition functions as a strategic safety valve within the truck attack sy
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Truck]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Twister Control/Truck]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,29 +193,29 @@ The Truck to Back Control transition bridges the 10th Planet leg entanglement sy
 ## Related Techniques
 
 
-- [[Back Control]] - Target position achieved through successful transition providing 4-point dominant control
+- [[Positions/Back Control]] - Target position achieved through successful transition providing 4-point dominant control
 
-- [[Truck]] - Source position from which this transition initiates using existing back exposure and leg entanglement
+- [[Positions/Twister Control/Truck]] - Source position from which this transition initiates using existing back exposure and leg entanglement
 
-- [[Seat Belt Control Back]] - Upper body control configuration maintained throughout the transition and consolidated upon completion
+- [[Positions/Back Control/Seat Belt Control Back]] - Upper body control configuration maintained throughout the transition and consolidated upon completion
 
-- [[Body Triangle]] - Alternative back control leg configuration available after completing the transition
+- [[Positions/Back Control/Body Triangle]] - Alternative back control leg configuration available after completing the transition
 
-- [[Crab Ride]] - Related back attack position serving as potential intermediate step during transition
+- [[Positions/Crab Ride]] - Related back attack position serving as potential intermediate step during transition
 
-- [[Half Guard]] - Counter outcome position where opponent escapes during transition vulnerability window
+- [[Positions/Half Guard]] - Counter outcome position where opponent escapes during transition vulnerability window
 
-- [[Turtle]] - Alternative entry position for back control and common truck entry point
+- [[Positions/Turtle]] - Alternative entry position for back control and common truck entry point
 
-- [[Truck Maintenance]] - Position retention technique used when transition conditions are not yet favorable
+- [[Transitions/Truck Maintenance]] - Position retention technique used when transition conditions are not yet favorable
 
-- [[Escape from Truck]] - Opponent's primary defensive response that the transition must account for
+- [[Transitions/Escape from Truck]] - Opponent's primary defensive response that the transition must account for
 
-- [[Calf Slicer from Truck]] - Alternative truck submission that creates the dilemma enabling this back take transition
+- [[Submissions/Calf Slicer from Truck]] - Alternative truck submission that creates the dilemma enabling this back take transition
 
-- [[Twister Control]] - Alternative truck attack pathway that threatens spine when opponent defends back take
+- [[Positions/Twister Control]] - Alternative truck attack pathway that threatens spine when opponent defends back take
 
-- [[Harness]] - Upper body control mechanism critical to maintaining connection during leg transition phase
+- [[Positions/Harness]] - Upper body control mechanism critical to maintaining connection during leg transition phase
 
 
 </section>

@@ -22,8 +22,8 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (rotation and elevation)
-**Starting Position**: [[Side Control]]
-**From Position**: [[Side Control]] (Top)
+**Starting Position**: [[Positions/Side Control]]
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 62%
 
 </section>
@@ -76,8 +76,8 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -228,14 +228,14 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 ## From Which Positions?
 
-- [[Side Control]]
-- [[Kesa Gatame]]
-- [[North-South]]
-- [[Knee on Belly]]
-- [[Scarf Hold Position]]
-- [[Modified Scarf Hold]]
-- [[Side Control Consolidation]]
-- [[Turtle]]
+- [[Positions/Side Control]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/North-South]]
+- [[Positions/Knee on Belly]]
+- [[Positions/Side Control/Scarf Hold Position]]
+- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Side Control/Side Control Consolidation]]
+- [[Positions/Turtle]]
 
 
 </section>
@@ -244,20 +244,20 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 ## Related Submissions
 
-- [[Kimura]]
-- [[Kimura from Guard]]
-- [[Kimura from Half Guard]]
-- [[Kimura from Mount]]
-- [[Kimura from North-South]]
-- [[Kimura from Turtle]]
-- [[Americana from Side Control]]
-- [[Americana]]
-- [[Reverse Kimura]]
-- [[Armbar from Side Control]]
-- [[Far Side Armbar]]
-- [[Armbar from Mount]]
-- [[Arm Triangle]]
-- [[North-South Choke]]
+- [[Transitions/Kimura]]
+- [[Submissions/Kimura from Guard]]
+- [[Transitions/Kimura from Half Guard]]
+- [[Submissions/Kimura from Mount]]
+- [[Submissions/Kimura from North-South]]
+- [[Submissions/Kimura from Turtle]]
+- [[Submissions/Americana from Side Control]]
+- [[Transitions/Americana]]
+- [[Submissions/Reverse Kimura]]
+- [[Submissions/Armbar from Side Control]]
+- [[Submissions/Far Side Armbar]]
+- [[Submissions/Armbar from Mount]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/North-South Choke]]
 
 
 </section>
@@ -266,18 +266,18 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 ## Additional Related Content
 
-- [[Kimura Trap]] - Control system based on maintaining Kimura grip for positional dominance
-- [[Kimura to Back Take]] - Transition when opponent defends by turning into the submission
-- [[Rolling Kimura]] - Variation that follows opponent's defensive turn with forward roll
-- [[North-South to Kimura]] - Common transition path when switching between top positions
-- [[Side Control to Mount]] - Alternative positional advancement when Kimura is strongly defended
-- [[Gift Wrap]] - Back control position that can be entered via Kimura grip control
-- [[Americana from Side Control]] - Alternative shoulder lock when opponent defends Kimura by gripping gi
-- [[Crucifix]] - Alternative control position accessible via Kimura grip when opponent turns
-- [[Side Control]] - Primary starting position for this submission
-- [[Back Control]] - Position accessible when opponent defends by turning away
-- [[Armbar from Side Control]] - Alternative submission when opponent straightens arm to escape
-- [[Americana]] - Related shoulder lock attacking the same joint from opposite direction
+- [[Positions/Kimura Trap]] - Control system based on maintaining Kimura grip for positional dominance
+- [[Transitions/Kimura to Back Take]] - Transition when opponent defends by turning into the submission
+- [[Transitions/Rolling Kimura]] - Variation that follows opponent's defensive turn with forward roll
+- [[Transitions/North-South to Kimura]] - Common transition path when switching between top positions
+- [[Transitions/Side Control to Mount]] - Alternative positional advancement when Kimura is strongly defended
+- [[Positions/Gift Wrap]] - Back control position that can be entered via Kimura grip control
+- [[Submissions/Americana from Side Control]] - Alternative shoulder lock when opponent defends Kimura by gripping gi
+- [[Positions/Crucifix]] - Alternative control position accessible via Kimura grip when opponent turns
+- [[Positions/Side Control]] - Primary starting position for this submission
+- [[Positions/Back Control]] - Position accessible when opponent defends by turning away
+- [[Submissions/Armbar from Side Control]] - Alternative submission when opponent straightens arm to escape
+- [[Transitions/Americana]] - Related shoulder lock attacking the same joint from opposite direction
 
 
 </section>

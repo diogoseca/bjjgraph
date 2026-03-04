@@ -158,7 +158,7 @@ The defensive framework centers on disrupting the transition at its earliest sta
 
 Successful defense requires understanding the biomechanics of the Darce. The choke relies on your arm being trapped against your own neck to create the compression necessary for blood flow restriction. By keeping your elbows pinched, controlling the choking arm at the wrist, and moving strategically toward or away from the attack angle, you can systematically dismantle the setup. Even when caught deep, defensive techniques like the granby roll, forward drive, or arm extraction provide viable escape routes back to front headlock bottom, turtle, or guard recovery.
 
-**Opponent's Starting Position**: [[Front Headlock]] (Top)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -197,28 +197,28 @@ Successful defense requires understanding the biomechanics of the Darce. The cho
 ### 1. Drive forward and grab opponent's leg to prevent circling
 
 - **When to use**: As soon as you feel the underhook being inserted and before the figure-four grip is locked, when you still have mobility and base
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Jams the opponent's circling path, prevents them from reaching the perpendicular angle needed to finish, and may allow you to return to standard front headlock bottom where you can work other escapes
 - **Risk**: If the opponent sprawls effectively against your forward drive, they may use your momentum to accelerate the Darce lock or switch to a guillotine
 
 ### 2. Granby roll away from the choking arm side before hip control is established
 
 - **When to use**: When you feel the figure-four beginning to lock but the opponent has not yet controlled your near hip, giving you a window to roll before they establish the finishing position
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: The rolling motion disrupts the figure-four angle and can pull your trapped arm free during the momentum change, returning you to turtle or front headlock bottom position for further defense
 - **Risk**: If the opponent follows your roll while maintaining the grip, they may tighten the Darce during the roll or transition to back control as you expose your back
 
 ### 3. Extract trapped arm by gripping your own wrist and pulling it free while turning into opponent
 
 - **When to use**: When the figure-four is locked but the opponent has not yet completed the circle to perpendicular position, and you still have space to rotate your shoulder
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Removes the arm-in configuration that makes the Darce effective, converting the position back to a standard front headlock where you have better defensive options
 - **Risk**: The extraction attempt may momentarily expose your neck if you create space, allowing the opponent to switch to a guillotine or deepen the choke
 
 ### 4. Shoot a single leg or drive into opponent explosively to reverse position
 
 - **When to use**: In the early stages when the underhook is just being established and you still have your base, especially effective if the opponent's hips are high
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Reverses the positional dynamic, potentially putting the opponent on their back with you in top position or at minimum breaking their control structure
 - **Risk**: If the shot is poorly timed, the opponent can use your forward momentum to accelerate the Darce entry and lock the choke tighter as you drive into them
 
@@ -230,11 +230,11 @@ Successful defense requires understanding the biomechanics of the Darce. The cho
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Prevent the Darce configuration from being completed by keeping elbows tight, hand fighting the choking arm, and driving forward to jam the circling path. If the figure-four never locks, you remain in standard front headlock bottom with better escape options. Execute a granby roll or arm extraction to reset the position before the opponent can reattempt.
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 If caught deep in the Darce attempt, explosively shoot a single leg or drive forward into the opponent to disrupt their base and reverse the positional dynamic. Even a partial reversal that forces them to abandon the Darce to defend the takedown returns you to a more manageable front headlock bottom position where standard escapes apply.
 

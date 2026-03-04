@@ -146,7 +146,7 @@ description: "Guide to defending against Inside Ashi degradation from Saddle top
 
 As the defender against the fight to Inside Ashi, you are the Saddle top player whose dominant leg entanglement is being systematically degraded. Your opponent is attempting to reduce your control from the Saddle, where heel hook finishing mechanics are optimal, to Inside Ashi-Garami, where your submission options are significantly weaker and their escape pathways multiply. Defending this transition requires maintaining the structural elements that make the Saddle dominant: perpendicular body alignment, constant hip pressure into the trapped leg, tight figure-four leg configuration, and inside position between the opponent's legs. Your awareness of the incremental escape progression allows you to address each degradation attempt at its earliest stage before it gains momentum.
 
-**Opponent's Starting Position**: [[Saddle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ As the defender against the fight to Inside Ashi, you are the Saddle top player 
 ### 1. Re-tighten figure-four and drive hips deeper into trapped leg
 
 - **When to use**: When you feel any looseness developing in your leg configuration or the opponent begins leg pummeling movements
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Opponent remains trapped in Saddle with your control fully re-established and their escape progress reset
 - **Risk**: Over-committing to re-tightening can momentarily create space on the opposite side if the opponent anticipates your adjustment
 
 ### 2. Attack heel hook during escape attempt when pummeling exposes the heel
 
 - **When to use**: When the opponent's leg pummeling movement momentarily exposes their heel during the transition between positions
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Opponent must abandon the escape to defend the immediate submission threat, resetting to full defensive posture in Saddle
 - **Risk**: If the attack fails, you may have loosened your own positional control while reaching for the heel, accelerating their degradation
 
 ### 3. Switch to straight ankle lock threat when heel is hidden
 
 - **When to use**: When the opponent has successfully hidden their heel through knee rotation but has not completed the leg pummel
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Forces opponent to address ankle defense, which often re-exposes the heel or halts their escape progress entirely
 - **Risk**: Ankle lock position may provide less structural control than Saddle, potentially accelerating the degradation you are trying to prevent
 
 ### 4. Disengage from leg entanglement and transition to top guard passing
 
 - **When to use**: When the entanglement has degraded significantly and re-establishing Saddle control is no longer realistic
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You transition to a top passing position before they can establish counter-offensive leg entanglements from Inside Ashi
 - **Risk**: Abandoning the leg game entirely when re-entry to Saddle may still have been possible with better adjustments
 
@@ -218,7 +218,7 @@ As the defender against the fight to Inside Ashi, you are the Saddle top player 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 Maintain constant hip pressure and re-engage the figure-four leg configuration at the first sign of looseness during opponent's escape attempts. Attack the submission when their pummeling movement exposes the heel to force them back to purely defensive posture. Address their free leg framing early to prevent the hip movement that drives the degradation sequence.
 

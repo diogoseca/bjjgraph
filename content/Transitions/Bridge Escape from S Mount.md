@@ -21,7 +21,7 @@ This escape relies on precise timing rather than raw power. The bottom player mu
 
 Strategic context places the bridge escape as one of three primary escape pathways from S Mount, alongside the trap-and-roll and frame-and-shrimp methods. While lower percentage than some alternatives due to S Mount's inherent stability, the bridge escape provides a high-reward option when timed during the opponent's weight shift toward the armbar finish. The technique carries significant counter-risk, as a poorly timed bridge can accelerate arm exposure and facilitate the very submission the bottom player is trying to avoid. Disciplined arm protection and explosive hip mechanics determine whether this escape creates a guard recovery opportunity or accelerates the opponent's armbar completion.
 
-**From Position**: [[S Mount]] (Bottom)
+**From Position**: [[Positions/Mount/S Mount]] (Bottom)
 **Success Rate**: 30%
 
 </section>
@@ -32,9 +32,9 @@ Strategic context places the bridge escape as one of three primary escape pathwa
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 30% |
-| Failure | [[S Mount]] | 40% |
-| Counter | [[Armbar Control]] | 30% |
+| Success | [[Positions/Closed Guard]] | 30% |
+| Failure | [[Positions/Mount/S Mount]] | 40% |
+| Counter | [[Positions/Armbar Control]] | 30% |
 
 
 </section>
@@ -195,25 +195,25 @@ The bridge escape from S Mount integrates directly into the broader mount escape
 ## Related Techniques
 
 
-- [[S Mount]] - Starting position - understanding S Mount mechanics is essential for timing the bridge escape
+- [[Positions/Mount/S Mount]] - Starting position - understanding S Mount mechanics is essential for timing the bridge escape
 
-- [[Closed Guard]] - Primary success target - bridge escape aims to recover closed guard position
+- [[Positions/Closed Guard]] - Primary success target - bridge escape aims to recover closed guard position
 
-- [[Armbar Control]] - Counter risk - failed bridge can expose arm and lead to armbar control
+- [[Positions/Armbar Control]] - Counter risk - failed bridge can expose arm and lead to armbar control
 
-- [[Trap and Roll from S Mount]] - Alternative escape - complementary technique that chains with bridge escape attempts
+- [[Transitions/Trap and Roll from S Mount]] - Alternative escape - complementary technique that chains with bridge escape attempts
 
-- [[Bridge Escape from 3-4 Mount]] - Similar technique - bridge mechanics applied from standard mount variant
+- [[Transitions/Bridge Escape from 3-4 Mount]] - Similar technique - bridge mechanics applied from standard mount variant
 
-- [[Bridge Escape from Modified Mount]] - Similar technique - bridge escape applied from modified mount configuration
+- [[Transitions/Bridge Escape from Modified Mount]] - Similar technique - bridge escape applied from modified mount configuration
 
-- [[Armbar from S Mount]] - Primary submission threat - the attack this escape is designed to prevent
+- [[Submissions/Armbar from S Mount]] - Primary submission threat - the attack this escape is designed to prevent
 
-- [[Mount]] - Parent position - S Mount is a variant of mount requiring specialized escape mechanics
+- [[Positions/Mount]] - Parent position - S Mount is a variant of mount requiring specialized escape mechanics
 
-- [[Half Guard]] - Alternative recovery position - sometimes bridge escape leads to half guard rather than closed guard
+- [[Positions/Half Guard]] - Alternative recovery position - sometimes bridge escape leads to half guard rather than closed guard
 
-- [[Back Control]] - Risk position - turning during bridge can expose the back if opponent transitions
+- [[Positions/Back Control]] - Risk position - turning during bridge can expose the back if opponent transitions
 
 
 </section>

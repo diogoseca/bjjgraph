@@ -21,7 +21,7 @@ The consolidation process follows a specific mechanical sequence: first eliminat
 
 This transition is arguably the most important micro-skill in top-game BJJ. Without proper consolidation, even a clean guard pass yields only temporary positional advantage. The bottom player retains frames, breathing capacity, and hip mobility that enable escape within seconds. Conversely, a fully consolidated side control position has an 80% retention rate and opens systematic pathways to mount, submissions, and back takes. The patience to consolidate before attacking is what separates positionally dominant grapplers from those who constantly lose hard-won positions.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 70%
 
 </section>
@@ -32,9 +32,9 @@ This transition is arguably the most important micro-skill in top-game BJJ. With
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control Consolidation]] | 70% |
-| Failure | [[Side Control]] | 20% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control/Side Control Consolidation]] | 70% |
+| Failure | [[Positions/Side Control]] | 20% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -195,27 +195,27 @@ Transition to Side Control Consolidation sits at a critical junction in the posi
 ## Related Techniques
 
 
-- [[Side Control]] - Starting position from which consolidation is initiated
+- [[Positions/Side Control]] - Starting position from which consolidation is initiated
 
-- [[Side Control Consolidation]] - Target position achieved upon successful consolidation
+- [[Positions/Side Control/Side Control Consolidation]] - Target position achieved upon successful consolidation
 
-- [[Half Guard]] - Position opponent may recover to if consolidation fails
+- [[Positions/Half Guard]] - Position opponent may recover to if consolidation fails
 
-- [[Mount]] - Primary advancement target after successful consolidation
+- [[Positions/Mount]] - Primary advancement target after successful consolidation
 
-- [[Knee on Belly]] - Alternative advancement from consolidated side control
+- [[Positions/Knee on Belly]] - Alternative advancement from consolidated side control
 
-- [[North-South]] - Alternative control position accessible after consolidation
+- [[Positions/North-South]] - Alternative control position accessible after consolidation
 
-- [[Kesa Gatame]] - Alternative side control variation with different consolidation mechanics
+- [[Positions/Side Control/Kesa Gatame]] - Alternative side control variation with different consolidation mechanics
 
-- [[Americana]] - Submission available once far arm is isolated during consolidation
+- [[Transitions/Americana]] - Submission available once far arm is isolated during consolidation
 
-- [[Kimura]] - Submission opportunity when opponent exposes arm defending consolidation
+- [[Transitions/Kimura]] - Submission opportunity when opponent exposes arm defending consolidation
 
-- [[Arm Triangle]] - Choke available when opponent brings arm across face during consolidation
+- [[Transitions/Arm Triangle]] - Choke available when opponent brings arm across face during consolidation
 
-- [[Consolidate Mount]] - Analogous consolidation process for mount position
+- [[Transitions/Consolidate Mount]] - Analogous consolidation process for mount position
 
 
 </section>

@@ -188,7 +188,7 @@ description: "Complete attacking guide for finishing the Americana shoulder lock
 
 Executing the Americana from Kesa Gatame requires precise sequencing of grip transitions while maintaining positional pressure. The top player must convert the existing arm trap into a figure-four control without surrendering the chest pressure that prevents escape. Success depends on pinning the opponent's wrist before releasing head control, then efficiently threading the figure-four grip while keeping hips heavy and base stable. The finishing motion is a controlled paint of the opponent's hand toward the mat, using the body's rotational mechanics rather than arm strength to generate the breaking force at the shoulder joint. The critical tactical insight is that the transition from head control to arm control creates a brief vulnerability window—managing this window through chest pressure and speed determines whether the submission succeeds or the opponent escapes.
 
-**From Position**: [[Kesa Gatame]] (Top)
+**From Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
 
 
 </section>
@@ -243,8 +243,8 @@ Executing the Americana from Kesa Gatame requires precise sequencing of grip tra
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Kesa Gatame]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Side Control/Kesa Gatame]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -253,10 +253,10 @@ Executing the Americana from Kesa Gatame requires precise sequencing of grip tra
 
 ## Opponent Defenses
 
-- **Opponent straightens trapped arm before figure-four is secured, creating a long lever that prevents the lock** (Effectiveness: High) - Your Response: Transition immediately to armbar or straight armlock on the extended arm rather than fighting to re-bend it. The extended arm is more vulnerable to armbar than to Americana. → Leads to [[Kesa Gatame]]
-- **Opponent bridges explosively during the head control release to disrupt base and create escape space** (Effectiveness: Medium) - Your Response: Absorb the bridge by widening your base leg and driving chest weight down. Maintain wrist control throughout the bridge—their explosive effort will exhaust them while your grip remains intact. Resume the figure-four thread once they settle. → Leads to [[Half Guard]]
-- **Opponent grips own lapel, belt, or pants with trapped hand to anchor the wrist and prevent repositioning** (Effectiveness: High) - Your Response: In gi, use a two-on-one grip break by peeling their fingers off the lapel or strip the grip by sliding their hand off the material. In no-gi, this counter is less available. If the grip cannot be broken, transition to Kimura by rotating the attack direction. → Leads to [[Kesa Gatame]]
-- **Opponent turns into you during the grip transition, attempting to recover guard or reach turtle** (Effectiveness: Medium) - Your Response: Use their turning motion against them by transitioning to mount as they rotate toward you, or maintain the wrist control and follow them to re-establish Kesa Gatame from the new angle. Their turn often improves Americana positioning if you maintain the figure-four. → Leads to [[Half Guard]]
+- **Opponent straightens trapped arm before figure-four is secured, creating a long lever that prevents the lock** (Effectiveness: High) - Your Response: Transition immediately to armbar or straight armlock on the extended arm rather than fighting to re-bend it. The extended arm is more vulnerable to armbar than to Americana. → Leads to [[Positions/Side Control/Kesa Gatame]]
+- **Opponent bridges explosively during the head control release to disrupt base and create escape space** (Effectiveness: Medium) - Your Response: Absorb the bridge by widening your base leg and driving chest weight down. Maintain wrist control throughout the bridge—their explosive effort will exhaust them while your grip remains intact. Resume the figure-four thread once they settle. → Leads to [[Positions/Half Guard]]
+- **Opponent grips own lapel, belt, or pants with trapped hand to anchor the wrist and prevent repositioning** (Effectiveness: High) - Your Response: In gi, use a two-on-one grip break by peeling their fingers off the lapel or strip the grip by sliding their hand off the material. In no-gi, this counter is less available. If the grip cannot be broken, transition to Kimura by rotating the attack direction. → Leads to [[Positions/Side Control/Kesa Gatame]]
+- **Opponent turns into you during the grip transition, attempting to recover guard or reach turtle** (Effectiveness: Medium) - Your Response: Use their turning motion against them by transitioning to mount as they rotate toward you, or maintain the wrist control and follow them to re-establish Kesa Gatame from the new angle. Their turn often improves Americana positioning if you maintain the figure-four. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -21,7 +21,7 @@ The technique becomes necessary when opponents successfully clear the primary ho
 
 Mastering RDLR recovery creates a safety net that allows more aggressive guard play. When you know you can recover the position even when partially compromised, you can take calculated risks with sweeps and submissions without fear of immediate guard passage. This recovery sequence integrates seamlessly with other guard retention concepts, making it a fundamental component of any complete bottom game.
 
-**From Position**: [[Reverse De La Riva Guard]] (Bottom)
+**From Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Mastering RDLR recovery creates a safety net that allows more aggressive guard p
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Reverse De La Riva Guard]] | 55% |
-| Failure | [[Open Guard]] | 25% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/De La Riva Guard/Reverse De La Riva Guard]] | 55% |
+| Failure | [[Positions/Open Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -200,29 +200,29 @@ Within competition strategy, reliable RDLR recovery reduces the psychological pr
 ## Related Techniques
 
 
-- [[De La Riva Guard]] - Related guard system with similar recovery principles and hook mechanics
+- [[Positions/De La Riva Guard]] - Related guard system with similar recovery principles and hook mechanics
 
-- [[Kiss of the Dragon]] - Offensive option that can be chained from successful recovery momentum
+- [[Transitions/Kiss of the Dragon]] - Offensive option that can be chained from successful recovery momentum
 
-- [[Technical Stand-up]] - Alternative recovery strategy when bottom guard recovery is compromised
+- [[Transitions/Technical Stand-up]] - Alternative recovery strategy when bottom guard recovery is compromised
 
-- [[Guard Recovery]] - Broader guard retention concept that includes RDLR-specific recovery
+- [[Principles/Guard Recovery]] - Broader guard retention concept that includes RDLR-specific recovery
 
-- [[Butterfly Guard]] - Alternative guard position to transition to when RDLR hook is fully cleared
+- [[Positions/Butterfly Guard]] - Alternative guard position to transition to when RDLR hook is fully cleared
 
-- [[De La Riva to X-Guard Transition]] - Follow-up offensive transition from recovered RDLR position
+- [[Transitions/De La Riva to X-Guard Transition]] - Follow-up offensive transition from recovered RDLR position
 
-- [[Single Leg X-Guard]] - Related guard within leg entanglement family accessible during recovery
+- [[Positions/X-Guard/Single Leg X-Guard]] - Related guard within leg entanglement family accessible during recovery
 
-- [[Berimbolo Entry]] - Advanced offensive option available after re-establishing RDLR structure
+- [[Transitions/Berimbolo Entry]] - Advanced offensive option available after re-establishing RDLR structure
 
-- [[RDLR Pass]] - Opponent's primary passing strategy that triggers recovery sequences
+- [[Transitions/RDLR Pass]] - Opponent's primary passing strategy that triggers recovery sequences
 
-- [[Hip Escape to Guard]] - Core movement pattern essential for RDLR recovery execution
+- [[Transitions/Hip Escape to Guard]] - Core movement pattern essential for RDLR recovery execution
 
-- [[Granby Roll to Guard]] - Alternative recovery movement for situations with heavy top pressure
+- [[Transitions/Granby Roll to Guard]] - Alternative recovery movement for situations with heavy top pressure
 
-- [[Knee Shield Retention]] - Related guard retention concept sharing framing and hip escape principles
+- [[Transitions/Knee Shield Retention]] - Related guard retention concept sharing framing and hip escape principles
 
 
 </section>

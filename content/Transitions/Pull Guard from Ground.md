@@ -21,7 +21,7 @@ Strategically, pulling guard from the ground serves as both a defensive recovery
 
 The key mechanical challenge lies in generating sufficient hip elevation and connection from a lower starting position. Unlike standing guard pulls where gravity assists the sitting motion, ground-based pulls require explosive hip bridging, strong grip engagement, and precise timing to close the distance gap and lock the guard before the opponent can establish passing grips or create angles that prevent guard closure. Mastering the timing window between grip establishment and hip engagement separates successful ground pulls from failed attempts that leave you in open guard with an opponent already initiating passing sequences.
 
-**From Position**: [[Standing Guard]] (Bottom)
+**From Position**: [[Positions/Standing Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The key mechanical challenge lies in generating sufficient hip elevation and con
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Standing Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Standing Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ Pull Guard from Ground integrates into the broader guard pulling system as a gro
 ## Related Techniques
 
 
-- [[Closed Guard]] - Primary target position when guard pull succeeds
+- [[Positions/Closed Guard]] - Primary target position when guard pull succeeds
 
-- [[Open Guard]] - Counter outcome position when pull partially fails and opponent establishes top
+- [[Positions/Open Guard]] - Counter outcome position when pull partially fails and opponent establishes top
 
-- [[Standing Guard]] - Starting position from which this guard pull is initiated
+- [[Positions/Standing Guard]] - Starting position from which this guard pull is initiated
 
-- [[Pull Guard from Standing]] - Related standing guard pull variant with different mechanics
+- [[Transitions/Pull Guard from Standing]] - Related standing guard pull variant with different mechanics
 
-- [[Standing Guard Pull]] - Complementary guard pull technique from standing engagement
+- [[Transitions/Standing Guard Pull]] - Complementary guard pull technique from standing engagement
 
-- [[Guard Pull from Clinch]] - Alternative guard pull entry from closer range clinch position
+- [[Transitions/Guard Pull from Clinch]] - Alternative guard pull entry from closer range clinch position
 
-- [[Butterfly Guard Pull]] - Related technique pulling to butterfly guard rather than closed guard
+- [[Transitions/Butterfly Guard Pull]] - Related technique pulling to butterfly guard rather than closed guard
 
-- [[Butterfly Guard]] - Alternative guard target accessible through variant pull entries
+- [[Positions/Butterfly Guard]] - Alternative guard target accessible through variant pull entries
 
-- [[De La Riva Guard]] - Advanced guard system accessible from failed closed guard pull recovery
+- [[Positions/De La Riva Guard]] - Advanced guard system accessible from failed closed guard pull recovery
 
-- [[Half Guard]] - Common recovery position when guard pull is partially stuffed
+- [[Positions/Half Guard]] - Common recovery position when guard pull is partially stuffed
 
 
 </section>

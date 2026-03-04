@@ -211,51 +211,51 @@ The attacking methodology from back control follows a layered approach. First, e
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (49% of attempts)
+### [[Transitions/Rear Naked Choke]] (49% of attempts)
 
-### [[Back Control Maintenance]] (15% of attempts)
+### [[Transitions/Back Control Maintenance]] (15% of attempts)
 
-### [[Bow and Arrow Choke]] (6% of attempts)
+### [[Transitions/Bow and Arrow Choke]] (6% of attempts)
 
-### [[Gift Wrap from Back]] (4% of attempts)
+### [[Transitions/Gift Wrap from Back]] (4% of attempts)
 
-### [[Armbar from Back Transition]] (3% of attempts)
+### [[Transitions/Armbar from Back Transition]] (3% of attempts)
 
-### [[Body Triangle Lock]] (2% of attempts)
+### [[Transitions/Body Triangle Lock]] (2% of attempts)
 
-### [[Back Control to Crucifix]] (2% of attempts)
+### [[Transitions/Back Control to Crucifix]] (2% of attempts)
 
-### [[Short Choke Attack]] (1% of attempts)
+### [[Transitions/Short Choke Attack]] (1% of attempts)
 
-### [[Armbar on Free Arm]] (1% of attempts)
+### [[Transitions/Armbar on Free Arm]] (1% of attempts)
 
-### [[Rear Naked Choke Setup]] (1% of attempts)
+### [[Transitions/Rear Naked Choke Setup]] (1% of attempts)
 
-### [[Kimura from Back]] (1% of attempts)
+### [[Transitions/Kimura from Back]] (1% of attempts)
 
-### [[Triangle from Back]] (1% of attempts)
+### [[Transitions/Triangle from Back]] (1% of attempts)
 
-### [[Standing Back Control Entry]] (1% of attempts)
+### [[Transitions/Standing Back Control Entry]] (1% of attempts)
 
-### [[Mat Return to Back Mount]] (1% of attempts)
+### [[Transitions/Mat Return to Back Mount]] (1% of attempts)
 
-### [[Back Control to Seat Belt Control Back]] (1% of attempts)
+### [[Transitions/Back Control to Seat Belt Control Back]] (1% of attempts)
 
-### [[Gift Wrap Control]] (1% of attempts)
+### [[Transitions/Gift Wrap Control]] (1% of attempts)
 
-### [[Back Control to Cross Body Ride]] (1% of attempts)
+### [[Transitions/Back Control to Cross Body Ride]] (1% of attempts)
 
-### [[Back Control to Reverse Half Guard]] (1% of attempts)
+### [[Transitions/Back Control to Reverse Half Guard]] (1% of attempts)
 
-### [[Restore Back Control]] (1% of attempts)
+### [[Transitions/Restore Back Control]] (1% of attempts)
 
-### [[Transition to Game Over]] (1% of attempts)
+### [[Transitions/Transition to Game Over]] (1% of attempts)
 
-### [[Armbar from Back]] (2% of attempts)
+### [[Submissions/Armbar from Back]] (2% of attempts)
 
-### [[Armbar from Back with Legs]] (2% of attempts)
+### [[Submissions/Armbar from Back with Legs]] (2% of attempts)
 
-### [[Triangle Choke Back]] (2% of attempts)
+### [[Submissions/Triangle Choke Back]] (2% of attempts)
 
 
 
@@ -266,28 +266,28 @@ The attacking methodology from back control follows a layered approach. First, e
 ## Decision Making from This Position
 
 **If opponent defends neck with both hands and maintains chin tucked with good hand fighting:**
-- Execute **[[Transition to crucifix to trap arms]]** → [[Crucifix]] (Probability: 60%)
-- Execute **[[Attack armbar from back using legs]]** → [[Armbar Control]] (Probability: 50%)
+- Execute **[[Transition to crucifix to trap arms]]** → [[Positions/Crucifix]] (Probability: 60%)
+- Execute **[[Attack armbar from back using legs]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 **If opponent attempts to remove hooks by attacking your feet with their hands:**
-- Execute **[[Switch to body triangle for superior leg control]]** → [[Body Triangle]] (Probability: 70%)
-- Execute **[[Capitalize on exposed neck during hook defense]]** → [[Game Over]] (Probability: 55%)
+- Execute **[[Switch to body triangle for superior leg control]]** → [[Positions/Back Control/Body Triangle]] (Probability: 70%)
+- Execute **[[Capitalize on exposed neck during hook defense]]** → [[Positions/Game Over]] (Probability: 55%)
 
 
 **If opponent turns into you creating positional change opportunity:**
-- Execute **[[Follow turn to gift wrap position]]** → [[Gift Wrap]] (Probability: 75%)
-- Execute **[[Maintain back control and attack choke during turn]]** → [[Game Over]] (Probability: 60%)
+- Execute **[[Follow turn to gift wrap position]]** → [[Positions/Gift Wrap]] (Probability: 75%)
+- Execute **[[Maintain back control and attack choke during turn]]** → [[Positions/Game Over]] (Probability: 60%)
 
 
 **If opponent drives forward and tucks chin to mat defensively:**
-- Execute **[[Bow and arrow choke using collar access]]** → [[Game Over]] (Probability: 55%)
-- Execute **[[Transition to truck position via leg threading]]** → [[Twister Control]] (Probability: 50%)
+- Execute **[[Bow and arrow choke using collar access]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Transition to truck position via leg threading]]** → [[Positions/Twister Control]] (Probability: 50%)
 
 
 **If opponent successfully strips one hook and begins turning to turtle:**
-- Execute **[[Re-establish hook and tighten seatbelt control]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Follow to turtle and re-take back]]** → [[Turtle]] (Probability: 60%)
+- Execute **[[Re-establish hook and tighten seatbelt control]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Follow to turtle and re-take back]]** → [[Positions/Turtle]] (Probability: 60%)
 
 
 
@@ -389,16 +389,16 @@ Partner works specific escape sequences while you practice countering escapes an
 
 ## Related Positions and Techniques
 
-- **[[Seat Belt Control Back]]** - Specific grip configuration for upper body control from back position
-- **[[Body Triangle]]** - Position variation using body triangle instead of hooks for leg control
-- **[[Harness]]** - Upper body control mechanism fundamental to back control maintenance
-- **[[Gift Wrap]]** - Arm trap position used for submission entries from back control
-- **[[Crucifix]]** - Advanced variation where both opponent's arms are controlled for undefended attacks
-- **[[Turtle]]** - Common entry position for establishing back control via hook insertion
-- **[[Mount]]** - Alternative dominant position and common transition when back control is lost
-- **[[Rear Naked Choke]]** - Primary submission attack from back control with highest finishing rate
-- **[[Bow and Arrow Choke]]** - High-percentage gi choke from back control using collar and leg leverage
-- **[[Armbar from Back]]** - Arm attack transition when opponent over-commits to neck defense
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Specific grip configuration for upper body control from back position
+- **[[Positions/Back Control/Body Triangle]]** - Position variation using body triangle instead of hooks for leg control
+- **[[Positions/Harness]]** - Upper body control mechanism fundamental to back control maintenance
+- **[[Positions/Gift Wrap]]** - Arm trap position used for submission entries from back control
+- **[[Positions/Crucifix]]** - Advanced variation where both opponent's arms are controlled for undefended attacks
+- **[[Positions/Turtle]]** - Common entry position for establishing back control via hook insertion
+- **[[Positions/Mount]]** - Alternative dominant position and common transition when back control is lost
+- **[[Transitions/Rear Naked Choke]]** - Primary submission attack from back control with highest finishing rate
+- **[[Transitions/Bow and Arrow Choke]]** - High-percentage gi choke from back control using collar and leg leverage
+- **[[Submissions/Armbar from Back]]** - Arm attack transition when opponent over-commits to neck defense
 
 
 </section>

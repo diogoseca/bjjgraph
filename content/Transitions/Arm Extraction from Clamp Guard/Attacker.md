@@ -186,7 +186,7 @@ description: "Learn to extract your trapped arm from clamp guard in BJJ. Step-by
 
 As the top player caught in clamp guard, your immediate priority is freeing your trapped arm before the bottom player can deepen control and launch submissions. The extraction demands precise rotational mechanics rather than raw pulling force, because every linear escape direction feeds directly into the guard player's pre-loaded armbar, triangle, or omoplata entries. You must systematically address each layer of control — wrist grip, shin-on-bicep pressure, and hip angle — before committing to the extraction motion. Understanding that the clamp guard deteriorates for you with every passing second creates appropriate urgency: extract early while the clamp is shallow, or face increasingly dangerous submission threats as the guard player consolidates position and loads attacks.
 
-**From Position**: [[Clamp Guard]] (Top)
+**From Position**: [[Positions/Clamp Guard]] (Top)
 
 </section>
 
@@ -240,9 +240,9 @@ As the top player caught in clamp guard, your immediate priority is freeing your
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Failure | [[Clamp Guard]] | 30% |
-| Counter | [[Armbar Control]] | 20% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Failure | [[Positions/Clamp Guard]] | 30% |
+| Counter | [[Positions/Armbar Control]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the top player caught in clamp guard, your immediate priority is freeing your
 
 ## Opponent Counters
 
-- **Opponent tightens clamp and re-angles hips to follow your movement before extraction completes** (Effectiveness: High) - Your Response: Reset and re-strip their wrist grip before re-attempting. Increase knee wedge pressure and address their hip angle by pushing their far hip with your free hand before the next extraction attempt. → Leads to [[Clamp Guard]]
-- **Opponent attacks armbar by extending hips against your shoulder as your arm straightens during extraction** (Effectiveness: High) - Your Response: Immediately bend your elbow and rotate thumb upward for armbar defense. Do not continue extraction if your arm begins to straighten — retract toward your body and re-establish posture before attempting a different extraction angle. → Leads to [[Armbar Control]]
-- **Opponent shoots their leg over your shoulder to enter triangle when you create lateral angle during extraction** (Effectiveness: Medium) - Your Response: Keep your posture tall and drive your trapped-side shoulder forward into their thigh to prevent the leg from clearing over your head. If the triangle is partially locked, posture immediately and begin standard triangle defense protocols. → Leads to [[Clamp Guard]]
-- **Opponent uses sweep attempt exploiting your compromised base during the weight shift phase of extraction** (Effectiveness: Medium) - Your Response: Maintain wide base with your free leg posted far to the side. Keep your center of gravity low and distribute weight evenly rather than fully committing to the extraction direction. If partially swept, post with your free hand and recover base before continuing. → Leads to [[Clamp Guard]]
+- **Opponent tightens clamp and re-angles hips to follow your movement before extraction completes** (Effectiveness: High) - Your Response: Reset and re-strip their wrist grip before re-attempting. Increase knee wedge pressure and address their hip angle by pushing their far hip with your free hand before the next extraction attempt. → Leads to [[Positions/Clamp Guard]]
+- **Opponent attacks armbar by extending hips against your shoulder as your arm straightens during extraction** (Effectiveness: High) - Your Response: Immediately bend your elbow and rotate thumb upward for armbar defense. Do not continue extraction if your arm begins to straighten — retract toward your body and re-establish posture before attempting a different extraction angle. → Leads to [[Positions/Armbar Control]]
+- **Opponent shoots their leg over your shoulder to enter triangle when you create lateral angle during extraction** (Effectiveness: Medium) - Your Response: Keep your posture tall and drive your trapped-side shoulder forward into their thigh to prevent the leg from clearing over your head. If the triangle is partially locked, posture immediately and begin standard triangle defense protocols. → Leads to [[Positions/Clamp Guard]]
+- **Opponent uses sweep attempt exploiting your compromised base during the weight shift phase of extraction** (Effectiveness: Medium) - Your Response: Maintain wide base with your free leg posted far to the side. Keep your center of gravity low and distribute weight evenly rather than fully committing to the extraction direction. If partially swept, post with your free hand and recover base before continuing. → Leads to [[Positions/Clamp Guard]]
 
 
 </section>

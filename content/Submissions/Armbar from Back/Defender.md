@@ -156,7 +156,7 @@ description: "How to defend against Armbar from Back in BJJ. Recognition, escape
 
 Defending the armbar from back control is one of the most challenging defensive scenarios in Brazilian Jiu-Jitsu because you are already in the worst positional disadvantage when the attack begins. The opponent has established back control and is now transitioning to isolate your arm for a joint lock, meaning you must simultaneously address the positional threat and the submission threat. Your defensive priorities shift through distinct phases: first, prevent arm isolation by maintaining tight defensive posture with elbows connected to your body and hands protecting your neck; second, if the arm is partially isolated, fight to keep the elbow bent and prevent full extension; third, if the leg swings over your head, address the finishing position by turning into your opponent and creating space to extract the arm before hips extend. Understanding these phases and recognizing when each defense applies is the difference between successful escape and a tap. The defender who recognizes the armbar transition early enough can often prevent the attack entirely by maintaining disciplined hand position and denying the initial arm isolation, forcing the attacker to abandon the armbar and return to choke attempts.
 
-**Opponent's Starting Position**: [[Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 
 </section>
@@ -196,28 +196,28 @@ Defending the armbar from back control is one of the most challenging defensive 
 ### 1. Clasp hands together in a tight ball and keep elbows pinned to ribs to prevent arm isolation
 
 - **When to use**: As soon as you feel the attacker attempting to separate your arms or grip your wrist for isolation, before the leg transition begins
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Attacker cannot isolate the arm and must abandon the armbar attempt, returning to back control where you resume standard back escape protocols
 - **Risk**: Hands clasped in front exposes neck to choke if attacker switches back to rear naked choke attack
 
 ### 2. Turn into the attacker and drive toward them as their leg swings over, stacking their hips
 
 - **When to use**: During the critical leg transition window when the attacker removes one hook and swings leg over your head, temporarily compromising their back control stability
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You end up in the attacker's closed guard or half guard, completely escaping the armbar threat and recovering to a neutral grappling position
 - **Risk**: If timed poorly, you may end up in a worse armbar position with the attacker's legs already locked. Requires explosive commitment.
 
 ### 3. Bend the isolated arm forcefully and pull elbow tight to your chest while turning toward the trapped arm side
 
 - **When to use**: When the arm has been partially isolated and the attacker is working to establish the finishing position but has not yet achieved full extension
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You prevent the finish and force the attacker to either fight for the extension or abandon the armbar. Creating the bend buys time for a positional escape.
 - **Risk**: Attacker may transition to rear triangle choke using the leg-over position if you successfully defend the arm extension
 
 ### 4. Bridge explosively and roll toward the trapped arm to invert the position
 
 - **When to use**: When the attacker has committed to the armbar finish with both legs over and hips beginning to extend, as a last-resort emergency escape
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You roll over the attacker and end up in their guard or scramble to top position, completely escaping the armbar
 - **Risk**: High risk if arm is already near full extension - the rolling motion can accelerate the hyperextension. Only viable when you still have significant bend in the elbow.
 
@@ -241,11 +241,11 @@ Defending the armbar from back control is one of the most challenging defensive 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Prevent the arm isolation entirely by maintaining tight defensive posture with elbows pinned and hands clasped, forcing attacker to abandon the armbar and return to standard back control where you resume normal escape protocols
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time a forward drive and turn during the leg transition window to stack the attacker, collapsing their armbar structure and recovering to a neutral guard position where both players restart
 

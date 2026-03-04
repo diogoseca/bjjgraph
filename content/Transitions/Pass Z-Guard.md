@@ -21,7 +21,7 @@ The pass centers on three interconnected battles that must be won in sequence: c
 
 This transition is essential for any serious competitor because Z-Guard has become the default retention position for skilled half guard players across all belt levels and rulesets. The ability to efficiently break down the knee shield and complete the pass to side control separates competent grapplers from elite passers. The pass rewards patience and technical precision over athleticism, making it a technique that improves with experience and understanding of weight distribution principles.
 
-**From Position**: [[Z-Lock Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ This transition is essential for any serious competitor because Z-Guard has beco
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Failure | [[Z-Lock Half Guard]] | 35% |
-| Counter | [[Deep Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 45% |
+| Failure | [[Positions/Half Guard/Z-Lock Half Guard]] | 35% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ Pass Z-Guard occupies a central role in the half guard passing hierarchy. It con
 ## Related Techniques
 
 
-- [[Z-Lock Half Guard]] - Source position where the pass begins
+- [[Positions/Half Guard/Z-Lock Half Guard]] - Source position where the pass begins
 
-- [[Side Control]] - Primary target position after successful pass completion
+- [[Positions/Side Control]] - Primary target position after successful pass completion
 
-- [[Deep Half Guard]] - Counter position the bottom player transitions to when knee shield collapses
+- [[Positions/Half Guard/Deep Half Guard]] - Counter position the bottom player transitions to when knee shield collapses
 
-- [[Knee Slice from Z-Guard]] - Related passing technique that chains with this transition
+- [[Transitions/Knee Slice from Z-Guard]] - Related passing technique that chains with this transition
 
-- [[Knee Shield Half Guard]] - Related guard position with lower knee placement
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Related guard position with lower knee placement
 
-- [[Half Guard]] - Parent guard category encompassing Z-Guard variations
+- [[Positions/Half Guard]] - Parent guard category encompassing Z-Guard variations
 
-- [[Headquarters Position]] - Related passing position with similar pressure concepts
+- [[Positions/Headquarters Position]] - Related passing position with similar pressure concepts
 
-- [[Lockdown]] - Alternative bottom retention the guard player may transition to
+- [[Positions/Half Guard/Lockdown]] - Alternative bottom retention the guard player may transition to
 
-- [[Dogfight Position]] - Scramble position that can arise during contested pass attempts
+- [[Positions/Dogfight Position]] - Scramble position that can arise during contested pass attempts
 
-- [[Back Step Pass]] - Alternative passing technique when guard player turns to defend
+- [[Transitions/Back Step Pass]] - Alternative passing technique when guard player turns to defend
 
 
 </section>

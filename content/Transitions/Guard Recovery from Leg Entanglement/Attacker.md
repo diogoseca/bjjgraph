@@ -180,7 +180,7 @@ description: "Complete guide to executing guard recovery from leg entanglement. 
 
 Executing guard recovery from leg entanglement requires a systematic approach to dismantling your opponent's control structure while managing active submission threats. The recovering player must address three critical elements in strict sequence: first neutralize the immediate heel hook or ankle lock threat by protecting the heel, then break the opponent's leg control structure through grip stripping and hip movement, and finally extract the trapped leg to establish a guard position. Rushing any phase exposes you to submissions or deeper entanglements. The process demands patience, precise timing, and understanding of which defensive mechanics to prioritize based on the specific entanglement configuration being faced. Skilled practitioners develop automatic responses to each entanglement variant, allowing them to begin recovery immediately upon recognizing the positional threat.
 
-**From Position**: [[Leg Entanglement]] (Bottom)
+**From Position**: [[Positions/Leg Entanglement]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing guard recovery from leg entanglement requires a systematic approach to
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Leg Entanglement]] | 40% |
-| Counter | [[Inside Ashi-Garami]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Leg Entanglement]] | 40% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing guard recovery from leg entanglement requires a systematic approach to
 
 ## Opponent Counters
 
-- **Opponent re-pummels inside leg across hip as you attempt to strip it** (Effectiveness: High) - Your Response: Immediately re-address the inside hook with both hands. If they consistently re-pummel, change strategy to hip escape deeply first to weaken their angle before stripping, or transition to inversion recovery to change the dynamic entirely. → Leads to [[Leg Entanglement]]
-- **Opponent secures heel grip during extraction when foot becomes momentarily exposed** (Effectiveness: High) - Your Response: Stop all extraction movement immediately and return to step one — protect the heel by stripping the grip with both hands before continuing. Never continue extracting while the opponent has heel control, as this creates finishing opportunities for them. → Leads to [[Inside Ashi-Garami]]
-- **Opponent follows hip movement by scooting forward and re-establishes entanglement distance** (Effectiveness: Medium) - Your Response: Use your hip frame more aggressively by pushing off their hip with your free foot to create separation. If they continue following, change direction with a hip escape in the opposite direction or use the momentum to attempt a sweep rather than continuing pure extraction. → Leads to [[Leg Entanglement]]
-- **Opponent transitions to a different entanglement variant during your escape attempt** (Effectiveness: Medium) - Your Response: Pause and reassess the new configuration before continuing extraction. Each entanglement variant has different control elements — blindly continuing the recovery sequence for the wrong variant exposes you to different submission threats. Reset your defensive priorities for the new position. → Leads to [[Inside Ashi-Garami]]
+- **Opponent re-pummels inside leg across hip as you attempt to strip it** (Effectiveness: High) - Your Response: Immediately re-address the inside hook with both hands. If they consistently re-pummel, change strategy to hip escape deeply first to weaken their angle before stripping, or transition to inversion recovery to change the dynamic entirely. → Leads to [[Positions/Leg Entanglement]]
+- **Opponent secures heel grip during extraction when foot becomes momentarily exposed** (Effectiveness: High) - Your Response: Stop all extraction movement immediately and return to step one — protect the heel by stripping the grip with both hands before continuing. Never continue extracting while the opponent has heel control, as this creates finishing opportunities for them. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent follows hip movement by scooting forward and re-establishes entanglement distance** (Effectiveness: Medium) - Your Response: Use your hip frame more aggressively by pushing off their hip with your free foot to create separation. If they continue following, change direction with a hip escape in the opposite direction or use the momentum to attempt a sweep rather than continuing pure extraction. → Leads to [[Positions/Leg Entanglement]]
+- **Opponent transitions to a different entanglement variant during your escape attempt** (Effectiveness: Medium) - Your Response: Pause and reassess the new configuration before continuing extraction. Each entanglement variant has different control elements — blindly continuing the recovery sequence for the wrong variant exposes you to different submission threats. Reset your defensive priorities for the new position. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 </section>

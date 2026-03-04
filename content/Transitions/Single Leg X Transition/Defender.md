@@ -156,7 +156,7 @@ Defending the Single Leg X Transition requires the top player to recognize the e
 
 The most dangerous moment occurs when the bottom player has ankle control and begins threading their outside leg. At this point, your response window is approximately one to two seconds before the X locks in. Your defensive toolkit includes sprawling to remove the leg from range, posting on their hips to create distance, stepping your targeted leg backward to deny the thread, and driving forward with a committed smash pass to collapse their inversion. Each defensive option creates different outcomes and carries different risks, so reading the exact stage of their entry determines which response is optimal.
 
-**Opponent's Starting Position**: [[Grasshopper Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ The most dangerous moment occurs when the bottom player has ankle control and be
 ### 1. Sprawl and drive hips back immediately to remove your leg from threading range
 
 - **When to use**: As soon as you feel ankle control being established and before the outside leg begins threading - this is the highest-percentage defensive window
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: Bottom player loses ankle control and remains in Grasshopper Guard without the entry progressing, allowing you to reset distance or begin a passing sequence
 - **Risk**: If timed late, the sprawl can actually assist their transition by loading your weight onto the trapped leg
 
 ### 2. Post both hands on their hips and straighten your arms to create distance, preventing their hip from connecting to your thigh
 
 - **When to use**: When the threading has begun but the X is not yet locked - you still have space between their hip and your leg
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: Creates enough separation that their legs cannot complete the cross behind your thigh, forcing them to abandon the entry or switch to a different attack
 - **Risk**: Removing your hands from posting position compromises your base and can make you vulnerable to elevation sweeps if they switch to X-Guard
 
 ### 3. Step your targeted leg backward and circle away from the entanglement while stripping the ankle grip
 
 - **When to use**: When you recognize the threading attempt but cannot sprawl effectively due to positioning or balance concerns
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: Removes your leg entirely from their entanglement range and resets the engagement to neutral distance where you can re-initiate your passing game
 - **Risk**: Circling away can expose your back momentarily and allow the bottom player to follow with continuous inversion
 
 ### 4. Drive forward aggressively with a committed smash pass, dropping your knee to the mat and collapsing their inversion with chest pressure
 
 - **When to use**: When their inversion is weakening, their hips are dropping, or you detect fatigue in their core engagement - exploiting the unsustainable nature of Grasshopper Guard
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Collapses their inverted posture entirely and transitions directly into a passing sequence that ends in Side Control
 - **Risk**: If they maintain strong inversion, your forward commitment loads weight onto the trapped leg and can actually complete the Single Leg X entry for them
 
@@ -228,11 +228,11 @@ The most dangerous moment occurs when the bottom player has ankle control and be
 
 ## Best-Case Outcomes for Defender
 
-### → [[Grasshopper Guard]]
+### → [[Positions/Grasshopper Guard]]
 
 Disrupt the entry early by sprawling, stepping back, or posting on hips before the X configuration locks in. Strip the ankle grip whenever possible to remove the anchor enabling the transition. Maintain distance and one free leg behind you as an escape route. Reset to your passing game from standing once the entry is denied.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Exploit the high energy cost of Grasshopper Guard by forcing the bottom player to sustain their inversion. When their hips begin sagging or core engagement weakens, drive forward with a committed smash pass, stacking their inverted body and driving through to establish Side Control. Time this pressure to windows when their guard is collapsing rather than at full strength.
 

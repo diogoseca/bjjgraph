@@ -178,7 +178,7 @@ The technique represents a fundamental bridge between defensive guard recovery a
 
 Strategically, the dogfight is particularly valuable against heavy passers who rely on grinding pressure. By coming up rather than staying flat, you deny their preferred passing mechanics and force them into a scramble they may be less comfortable with. Success requires excellent timing, strong underhook fighting skills, and the ability to chain multiple wrestling-based attacks from the kneeling position.
 
-**From Position**: [[Leg Weave]] (Bottom)
+**From Position**: [[Positions/Leg Weave]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategically, the dogfight is particularly valuable against heavy passers who r
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Dogfight Position]] | 55% |
-| Failure | [[Leg Weave]] | 25% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Dogfight Position]] | 55% |
+| Failure | [[Positions/Leg Weave]] | 25% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, the dogfight is particularly valuable against heavy passers who r
 
 ## Opponent Counters
 
-- **Opponent drives crossface and flattens you back down before you can post elbow** (Effectiveness: High) - Your Response: Anticipate the crossface by keeping your head tight to their shoulder throughout. If they begin driving the crossface, tuck your chin and turn your face away while pumping your hips more explosively to create the posting angle. → Leads to [[Leg Weave]]
-- **Opponent sprawls and drives hips forward to kill your upward momentum** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by diving to deep half guard. As they drive forward, your body is already positioned to slip underneath their base. This converts their counter into your attack. → Leads to [[Leg Weave]]
-- **Opponent steps over your hook as you rise, transitioning to mount or back control** (Effectiveness: High) - Your Response: Maintain your hook actively throughout the rise—do not release it until you have kneeling base established. If they begin stepping over, flatten back down immediately and recover half guard frames rather than continuing up into a worse position. → Leads to [[Side Control]]
-- **Opponent whizzers hard and uses the overhook to drive you back down or threaten darce** (Effectiveness: Medium) - Your Response: Keep your head position tight and posture up against the whizzer pressure. Circle toward their whizzer side rather than away from it, which neutralizes the leverage. Be prepared to limp arm out if they threaten darce. → Leads to [[Leg Weave]]
+- **Opponent drives crossface and flattens you back down before you can post elbow** (Effectiveness: High) - Your Response: Anticipate the crossface by keeping your head tight to their shoulder throughout. If they begin driving the crossface, tuck your chin and turn your face away while pumping your hips more explosively to create the posting angle. → Leads to [[Positions/Leg Weave]]
+- **Opponent sprawls and drives hips forward to kill your upward momentum** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by diving to deep half guard. As they drive forward, your body is already positioned to slip underneath their base. This converts their counter into your attack. → Leads to [[Positions/Leg Weave]]
+- **Opponent steps over your hook as you rise, transitioning to mount or back control** (Effectiveness: High) - Your Response: Maintain your hook actively throughout the rise—do not release it until you have kneeling base established. If they begin stepping over, flatten back down immediately and recover half guard frames rather than continuing up into a worse position. → Leads to [[Positions/Side Control]]
+- **Opponent whizzers hard and uses the overhook to drive you back down or threaten darce** (Effectiveness: Medium) - Your Response: Keep your head position tight and posture up against the whizzer pressure. Circle toward their whizzer side rather than away from it, which neutralizes the leverage. Be prepared to limp arm out if they threaten darce. → Leads to [[Positions/Leg Weave]]
 
 
 </section>

@@ -158,7 +158,7 @@ Defending the gogoplata requires immediate recognition and decisive action, as t
 
 The most effective gogoplata defense operates on a timeline: early recognition when the attacker begins threading their leg provides the highest-percentage escape window, while late-stage defense against a fully locked position requires careful execution to avoid tracheal damage. Understanding the mechanical requirements of the gogoplata - broken posture, shin across throat, head pulled forward - reveals that disrupting any single element can prevent the finish. The defender must prioritize posture recovery above all else, as maintaining any degree of upright positioning makes it physically impossible for the attacker to complete the shin placement and generate sufficient choking pressure.
 
-**Opponent's Starting Position**: [[Gogoplata Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Top)
 
 
 </section>
@@ -198,28 +198,28 @@ The most effective gogoplata defense operates on a timeline: early recognition w
 ### 1. Explosive posture recovery before shin crosses throat
 
 - **When to use**: As soon as you recognize the attacker's leg beginning to thread across your face or neck - this must be executed before the shin settles across the trachea
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Prevents the submission entirely by creating the distance that makes shin-across-throat positioning impossible, returning to a neutral guard battle
 - **Risk**: If the attacker has already secured deep head control, explosive posturing can strain your neck. Also, the upward motion can momentarily feed into triangle setups if timing is poor
 
 ### 2. Turn head and chin toward attacker's knee to reduce tracheal pressure
 
 - **When to use**: When the shin is already partially across your throat and full posture recovery is not immediately possible - this buys time for escape
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Redirects the shin pressure from the vulnerable trachea to the more resilient side of the neck, preventing the air choke while you work to extract yourself from the position
 - **Risk**: Head turning alone does not escape the position and the attacker may follow your chin rotation with grip adjustments. Must be combined with other defensive actions
 
 ### 3. Drive hips backward and stack attacker to collapse their guard structure
 
 - **When to use**: When you have enough base and arm freedom to generate backward pressure, particularly effective in early stages before head control is fully locked
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Collapses the attacker's high guard structure, removes their hip elevation which is essential for maintaining the gogoplata, and potentially allows you to pass to a dominant position
 - **Risk**: If the attacker has deep hooks, driving backward without controlling their legs can result in them following your movement and maintaining the position. Requires coordinated hand fighting and hip movement
 
 ### 4. Strip head control grips with both hands before addressing the shin
 
 - **When to use**: When the attacker has established strong two-hand head control pulling your face into the shin - the grips must be broken before any other escape is viable
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Removes the pulling force that drives your throat into the shin, immediately reducing choking pressure and creating the opportunity to posture up or turn your head
 - **Risk**: Committing both hands to grip fighting temporarily removes your ability to post or create frames, making you vulnerable to sweeps if the attacker transitions
 
@@ -242,11 +242,11 @@ The most effective gogoplata defense operates on a timeline: early recognition w
 
 ## Best-Case Outcomes for Defender
 
-### → [[Gogoplata Control]]
+### → [[Positions/Gogoplata Control]]
 
 Recover posture by fighting head control grips and driving hips backward to create distance, preventing the shin from maintaining tracheal contact. Once posture is partially recovered, strip the choking leg from across your throat and work to neutralize the rubber guard position
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Stack the attacker by driving weight forward while keeping chin tucked to protect the throat. This collapses their hip elevation and guard structure. As their legs unlock and control breaks, establish closed guard top position with strong posture to prevent re-entry into rubber guard
 

@@ -21,7 +21,7 @@ This transition exploits a fundamental principle of pressure passing: when forwa
 
 The North-South Recovery serves as an important safety valve in the top player's passing game, providing a reliable consolidation option when higher-percentage passes are defended. While it carries risk of the bottom player recovering half guard during the angle change, the reward of establishing one of BJJ's most controlling pin positions makes it a valuable tool for methodical passers who prioritize positional security over speed.
 
-**From Position**: [[Jailbreak]] (Top)
+**From Position**: [[Positions/Jailbreak]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The North-South Recovery serves as an important safety valve in the top player's
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[North-South]] | 55% |
-| Failure | [[Jailbreak]] | 25% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/North-South]] | 55% |
+| Failure | [[Positions/Jailbreak]] | 25% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -191,21 +191,21 @@ The North-South Recovery from Jailbreak functions as a critical decision point i
 ## Related Techniques
 
 
-- [[North-South]] - Target position - destination of this recovery transition
+- [[Positions/North-South]] - Target position - destination of this recovery transition
 
-- [[Jailbreak]] - Source position - starting point for this transition
+- [[Positions/Jailbreak]] - Source position - starting point for this transition
 
-- [[Half Guard]] - Counter outcome - bottom player may recover this guard during transition
+- [[Positions/Half Guard]] - Counter outcome - bottom player may recover this guard during transition
 
-- [[Side Control]] - Alternative dominant position accessible from Jailbreak top passing
+- [[Positions/Side Control]] - Alternative dominant position accessible from Jailbreak top passing
 
-- [[Headquarters Position]] - Related passing position with similar control dynamics and passing options
+- [[Positions/Headquarters Position]] - Related passing position with similar control dynamics and passing options
 
-- [[Knee on Belly]] - Alternative control position accessible after establishing North-South
+- [[Positions/Knee on Belly]] - Alternative control position accessible after establishing North-South
 
-- [[Kimura Trap]] - Submission control position accessible from consolidated North-South
+- [[Positions/Kimura Trap]] - Submission control position accessible from consolidated North-South
 
-- [[Flattened Half Guard]] - Related position - Jailbreak often develops from flattened half guard scenarios
+- [[Positions/Half Guard/Flattened Half Guard]] - Related position - Jailbreak often develops from flattened half guard scenarios
 
 
 </section>

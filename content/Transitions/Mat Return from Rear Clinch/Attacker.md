@@ -182,7 +182,7 @@ As the attacker executing the mat return from rear clinch, your objective is to 
 
 The attacking methodology follows a clear sequence: secure dominant grip, establish hip angle to one side, compromise the opponent's base through pressure or leg action, initiate controlled descent while maintaining connection, and insert hooks immediately upon grounding. Each phase builds on the previous one, and skipping steps consistently leads to the opponent escaping or reversing during the transition. Understanding this sequential progression and recognizing when each phase is complete before advancing to the next is what separates reliable mat returns from scrambles that may or may not end in back control.
 
-**From Position**: [[Standing Rear Clinch]] (Top)
+**From Position**: [[Positions/Standing Rear Clinch]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The attacking methodology follows a clear sequence: secure dominant grip, establ
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Standing Rear Clinch]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Standing Rear Clinch]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ The attacking methodology follows a clear sequence: secure dominant grip, establ
 
 ## Opponent Counters
 
-- **Opponent hand fights and peels bodylock grip before descent** (Effectiveness: High) - Your Response: Switch grip configurations quickly. If they strip the bodylock, transition to seatbelt. If they strip one hand, immediately re-clasp or switch to an over-under grip. Use the moment of their grip fighting concentration to initiate the descent while their base is compromised by their arm movement. → Leads to [[Standing Rear Clinch]]
-- **Opponent widens base and drops hips to resist the takedown** (Effectiveness: Medium) - Your Response: Switch to the ankle pick mat return variation by releasing one hand to pick their far ankle while driving them over their widened base. Alternatively, change angle to the opposite side and re-attempt the sitting motion from the new direction, exploiting their commitment to defending the original angle. → Leads to [[Standing Rear Clinch]]
-- **Opponent turns into you during the descent and establishes half guard** (Effectiveness: High) - Your Response: If you sense the turn happening, abandon the mat return and follow their rotation to maintain chest-to-back connection. If they complete the turn, immediately work to re-establish back control from turtle or transition to a passing sequence from the top position rather than accepting half guard bottom. → Leads to [[Half Guard]]
-- **Opponent posts hands on the mat to prevent being taken down** (Effectiveness: Medium) - Your Response: Their hands on the mat means their hands are not defending your grips. Capitalize by tightening your seatbelt and attacking the neck with your choking arm while continuing to drive your weight downward. The posting creates a temporary bridge that collapses under sustained pressure and bodyweight commitment. → Leads to [[Standing Rear Clinch]]
+- **Opponent hand fights and peels bodylock grip before descent** (Effectiveness: High) - Your Response: Switch grip configurations quickly. If they strip the bodylock, transition to seatbelt. If they strip one hand, immediately re-clasp or switch to an over-under grip. Use the moment of their grip fighting concentration to initiate the descent while their base is compromised by their arm movement. → Leads to [[Positions/Standing Rear Clinch]]
+- **Opponent widens base and drops hips to resist the takedown** (Effectiveness: Medium) - Your Response: Switch to the ankle pick mat return variation by releasing one hand to pick their far ankle while driving them over their widened base. Alternatively, change angle to the opposite side and re-attempt the sitting motion from the new direction, exploiting their commitment to defending the original angle. → Leads to [[Positions/Standing Rear Clinch]]
+- **Opponent turns into you during the descent and establishes half guard** (Effectiveness: High) - Your Response: If you sense the turn happening, abandon the mat return and follow their rotation to maintain chest-to-back connection. If they complete the turn, immediately work to re-establish back control from turtle or transition to a passing sequence from the top position rather than accepting half guard bottom. → Leads to [[Positions/Half Guard]]
+- **Opponent posts hands on the mat to prevent being taken down** (Effectiveness: Medium) - Your Response: Their hands on the mat means their hands are not defending your grips. Capitalize by tightening your seatbelt and attacking the neck with your choking arm while continuing to drive your weight downward. The posting creates a temporary bridge that collapses under sustained pressure and bodyweight commitment. → Leads to [[Positions/Standing Rear Clinch]]
 
 
 </section>

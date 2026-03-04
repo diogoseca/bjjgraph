@@ -21,7 +21,7 @@ From Guillotine Control Bottom, the finish requires precise coordination between
 
 Strategically, the Guillotine Choke creates a powerful dilemma for defenders: protecting the neck requires postural adjustments that often open sweep opportunities, while defending the sweep exposes the neck to tighter finishing pressure. This binary trap makes the guillotine particularly effective when integrated into a systematic guard attack framework that chains submissions with positional improvements.
 
-**From Position**: [[Guillotine Control]] (Bottom)
+**From Position**: [[Positions/Guillotine Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -33,8 +33,8 @@ Strategically, the Guillotine Choke creates a powerful dilemma for defenders: pr
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Guillotine Control]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Guillotine Control]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -194,29 +194,29 @@ The Guillotine Choke is the primary finishing technique from Guillotine Control 
 ## Related Techniques
 
 
-- [[Guillotine Control]] - Starting position providing the control platform for the choke finish
+- [[Positions/Guillotine Control]] - Starting position providing the control platform for the choke finish
 
-- [[High Elbow Guillotine]] - Primary variation when chin is tucked against standard finish
+- [[Submissions/High Elbow Guillotine]] - Primary variation when chin is tucked against standard finish
 
-- [[Arm in Guillotine]] - Variation when opponent's arm is trapped inside the choking loop
+- [[Submissions/Arm in Guillotine]] - Variation when opponent's arm is trapped inside the choking loop
 
-- [[Anaconda Choke]] - Transition when opponent turns into the choke to relieve pressure
+- [[Transitions/Anaconda Choke]] - Transition when opponent turns into the choke to relieve pressure
 
-- [[Darce Choke]] - Transition when opponent turns away from choking pressure
+- [[Transitions/Darce Choke]] - Transition when opponent turns away from choking pressure
 
-- [[Hip Bump Sweep]] - Sweep option when opponent drives forward defending the choke
+- [[Transitions/Hip Bump Sweep]] - Sweep option when opponent drives forward defending the choke
 
-- [[Guillotine Setup]] - Entry transition establishing guillotine control from guard
+- [[Transitions/Guillotine Setup]] - Entry transition establishing guillotine control from guard
 
-- [[Front Headlock]] - Parent position category for the guillotine family
+- [[Positions/Front Headlock]] - Parent position category for the guillotine family
 
-- [[Closed Guard to Triangle]] - Alternative submission chain when arm crosses during guillotine defense
+- [[Transitions/Closed Guard to Triangle]] - Alternative submission chain when arm crosses during guillotine defense
 
-- [[Mount]] - Position achieved after hip bump sweep while maintaining guillotine
+- [[Positions/Mount]] - Position achieved after hip bump sweep while maintaining guillotine
 
-- [[Ten Finger Guillotine]] - Grip variation using interlocked fingers for different leverage
+- [[Submissions/Ten Finger Guillotine]] - Grip variation using interlocked fingers for different leverage
 
-- [[Chin Strap Guillotine]] - Alternative finishing mechanics targeting chin control
+- [[Submissions/Chin Strap Guillotine]] - Alternative finishing mechanics targeting chin control
 
 
 </section>

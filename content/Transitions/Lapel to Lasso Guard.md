@@ -21,7 +21,7 @@ Strategically, this transition exploits the opponent's moment of success—when 
 
 The transition also serves as intelligent position management within gi-based guard systems. Both lapel guard and lasso guard share sleeve control as a foundation, making the transition mechanically intuitive once drilled. Advanced practitioners treat these positions as interconnected systems rather than isolated guards, flowing between them based on opponent reactions. Mastering this transition transforms potential guard recovery situations into offensive opportunities, maintaining constant pressure even when your primary guard is threatened.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The transition also serves as intelligent position management within gi-based gu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Lasso Guard]] | 65% |
-| Failure | [[Lapel Guard]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Lasso Guard]] | 65% |
+| Failure | [[Positions/Lapel Guard]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -187,25 +187,25 @@ The Lapel to Lasso Transition represents critical guard retention infrastructure
 ## Related Techniques
 
 
-- [[Lapel Guard]] - Starting position - lapel configurations being cleared triggers this transition
+- [[Positions/Lapel Guard]] - Starting position - lapel configurations being cleared triggers this transition
 
-- [[Lasso Guard]] - Target position - successful transition establishes full lasso control
+- [[Positions/Lasso Guard]] - Target position - successful transition establishes full lasso control
 
-- [[Spider Guard]] - Alternative target - can transition here if lasso threading fails
+- [[Positions/Spider Guard]] - Alternative target - can transition here if lasso threading fails
 
-- [[De La Riva Guard]] - Alternative pathway - use if opponent steps over threading attempt
+- [[Positions/De La Riva Guard]] - Alternative pathway - use if opponent steps over threading attempt
 
-- [[Lapel to Spider Guard]] - Parallel technique - alternative guard retention from lapel
+- [[Transitions/Lapel to Spider Guard]] - Parallel technique - alternative guard retention from lapel
 
-- [[Lasso Guard Pass]] - Opponent's counter-technique - primary passing method against established lasso
+- [[Transitions/Lasso Guard Pass]] - Opponent's counter-technique - primary passing method against established lasso
 
-- [[Closed Guard to Triangle]] - Follow-up submission chain - available when opponent's posture breaks after lasso establishment
+- [[Transitions/Closed Guard to Triangle]] - Follow-up submission chain - available when opponent's posture breaks after lasso establishment
 
-- [[Omoplata Sweep]] - Follow-up attack - effective when opponent drives forward against new lasso control
+- [[Transitions/Omoplata Sweep]] - Follow-up attack - effective when opponent drives forward against new lasso control
 
-- [[Collar Sleeve Guard]] - Related system - shares sleeve control principles with both lapel and lasso
+- [[Positions/Collar Sleeve Guard]] - Related system - shares sleeve control principles with both lapel and lasso
 
-- [[Guard Recovery]] - Strategic concept - this transition exemplifies maintaining control through position changes
+- [[Principles/Guard Recovery]] - Strategic concept - this transition exemplifies maintaining control through position changes
 
 
 </section>

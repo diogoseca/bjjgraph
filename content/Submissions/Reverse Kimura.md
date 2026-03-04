@@ -22,7 +22,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Standing Position]]
+**Starting Position**: [[Positions/Standing Position]]
 **Success Rate**: 52%
 
 </section>
@@ -78,8 +78,8 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Front Headlock]] | 20% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Front Headlock]] | 20% |
 
 
 </section>
@@ -228,13 +228,13 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 ## From Which Positions?
 
-- [[Standing Position]]
-- [[Front Headlock]]
-- [[Turtle]]
-- [[Overhook Control]]
-- [[Crucifix]]
-- [[Side Control]]
-- [[North-South]]
+- [[Positions/Standing Position]]
+- [[Positions/Front Headlock]]
+- [[Positions/Turtle]]
+- [[Positions/Overhook Control]]
+- [[Positions/Crucifix]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
 
 
 </section>
@@ -243,17 +243,17 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 ## Related Submissions
 
-- [[Kimura from Kimura Trap]]
-- [[Americana]]
-- [[Americana from Side Control]]
-- [[Omoplata from Spider Guard]]
-- [[Armbar from Side Control]]
-- [[Kimura from Modified Scarf Hold]]
-- [[Kimura from Shoulder of Justice]]
-- [[Baratoplata]]
-- [[Guillotine from Butterfly Guard]]
-- [[Darce from Leg Drag]]
-- [[Anaconda Choke]]
+- [[Submissions/Kimura from Kimura Trap]]
+- [[Transitions/Americana]]
+- [[Submissions/Americana from Side Control]]
+- [[Submissions/Omoplata from Spider Guard]]
+- [[Submissions/Armbar from Side Control]]
+- [[Submissions/Kimura from Modified Scarf Hold]]
+- [[Submissions/Kimura from Shoulder of Justice]]
+- [[Transitions/Baratoplata]]
+- [[Submissions/Guillotine from Butterfly Guard]]
+- [[Submissions/Darce from Leg Drag]]
+- [[Transitions/Anaconda Choke]]
 
 
 </section>
@@ -262,15 +262,15 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 ## Additional Related Content
 
-- [[Kimura Trap]] - Control position incorporating reverse grip variations and systematic shoulder attacks
-- [[Back Take]] - Primary transition when reverse Kimura is defended by rotation, attacker follows to back control
-- [[Overhook Control]] - Standing setup position for reverse Kimura entry
-- [[Gift Wrap]] - Alternative arm trap leading to similar submission mechanics
-- [[Turtle]] - Common position where reverse Kimura is applied from top control
-- [[Front Headlock]] - Position system where reverse Kimura is commonly applied
-- [[Americana from Side Control]] - Similar shoulder lock targeting internal rotation from different position
-- [[Crucifix]] - Control position offering high-percentage reverse Kimura entries with limited defense
-- [[Kimura]] - Complete system of Kimura-family shoulder lock techniques
+- [[Positions/Kimura Trap]] - Control position incorporating reverse grip variations and systematic shoulder attacks
+- [[Transitions/Back Take]] - Primary transition when reverse Kimura is defended by rotation, attacker follows to back control
+- [[Positions/Overhook Control]] - Standing setup position for reverse Kimura entry
+- [[Positions/Gift Wrap]] - Alternative arm trap leading to similar submission mechanics
+- [[Positions/Turtle]] - Common position where reverse Kimura is applied from top control
+- [[Positions/Front Headlock]] - Position system where reverse Kimura is commonly applied
+- [[Submissions/Americana from Side Control]] - Similar shoulder lock targeting internal rotation from different position
+- [[Positions/Crucifix]] - Control position offering high-percentage reverse Kimura entries with limited defense
+- [[Transitions/Kimura]] - Complete system of Kimura-family shoulder lock techniques
 
 
 </section>

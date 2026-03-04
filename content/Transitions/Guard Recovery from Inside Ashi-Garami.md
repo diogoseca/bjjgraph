@@ -17,7 +17,7 @@ description: "Master guard recovery from Inside Ashi-Garami. Complete guide cove
 
 Guard Recovery from Inside Ashi-Garami is a defensive transition where the bottom player abandons a failing leg entanglement to reestablish open guard. When submission attempts from Inside Ashi-Garami are successfully defended and the opponent begins extracting their heel or stepping over the inside leg, the bottom player must release the entanglement and recover to a functional guard rather than holding a compromised position. This recovery requires disengaging leg controls while simultaneously establishing frames and distance management to prevent the opponent from advancing to a top position or counter-entangling.
 
-**From Position**: [[Inside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -28,9 +28,9 @@ Guard Recovery from Inside Ashi-Garami is a defensive transition where the botto
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 40% |
-| Failure | [[Inside Ashi-Garami]] | 35% |
-| Counter | [[Ashi Garami]] | 25% |
+| Success | [[Positions/Open Guard]] | 40% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 35% |
+| Counter | [[Positions/Ashi Garami]] | 25% |
 
 
 </section>
@@ -182,29 +182,29 @@ Guard Recovery from Inside Ashi-Garami bridges the leg entanglement positional f
 ## Related Techniques
 
 
-- [[Inside Ashi-Garami]] - Source position - the compromised leg entanglement from which guard recovery is initiated
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Source position - the compromised leg entanglement from which guard recovery is initiated
 
-- [[Open Guard]] - Primary recovery target - reestablished guard with distance management and leg activity
+- [[Positions/Open Guard]] - Primary recovery target - reestablished guard with distance management and leg activity
 
-- [[Ashi Garami]] - Counter outcome position where the opponent reverses the leg entanglement to gain top ashi control
+- [[Positions/Ashi Garami]] - Counter outcome position where the opponent reverses the leg entanglement to gain top ashi control
 
-- [[Leg Entanglement]] - Parent positional category encompassing the leg control systems that Inside Ashi-Garami belongs to
+- [[Positions/Leg Entanglement]] - Parent positional category encompassing the leg control systems that Inside Ashi-Garami belongs to
 
-- [[Outside Ashi-Garami]] - Related leg entanglement position the opponent may transition to during counter-entanglement
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related leg entanglement position the opponent may transition to during counter-entanglement
 
-- [[Butterfly Guard]] - Natural recovery guard when legs disengage from ashi at close range with hooks available
+- [[Positions/Butterfly Guard]] - Natural recovery guard when legs disengage from ashi at close range with hooks available
 
-- [[Half Guard]] - Fallback recovery position when only partial leg disengagement occurs during transition
+- [[Positions/Half Guard]] - Fallback recovery position when only partial leg disengagement occurs during transition
 
-- [[De La Riva Guard]] - Alternative open guard recovery option using De La Riva hook when opponent stands during disengagement
+- [[Positions/De La Riva Guard]] - Alternative open guard recovery option using De La Riva hook when opponent stands during disengagement
 
-- [[Leg Extraction from Inside Ashi]] - Opponent's technique for escaping the entanglement that triggers the need for guard recovery
+- [[Transitions/Leg Extraction from Inside Ashi]] - Opponent's technique for escaping the entanglement that triggers the need for guard recovery
 
-- [[Standing Up from Inside Ashi]] - Opponent's standing escape method that changes the recovery dynamics and guard composition options
+- [[Transitions/Standing Up from Inside Ashi]] - Opponent's standing escape method that changes the recovery dynamics and guard composition options
 
-- [[Single Leg X-Guard]] - Related leg control position accessible as alternative recovery target when full open guard recomposition is not achievable
+- [[Positions/X-Guard/Single Leg X-Guard]] - Related leg control position accessible as alternative recovery target when full open guard recomposition is not achievable
 
-- [[Inside Ashi-Garami to Cross Ashi]] - Alternative offensive option to explore before committing to guard recovery
+- [[Transitions/Inside Ashi-Garami to Cross Ashi]] - Alternative offensive option to explore before committing to guard recovery
 
 
 </section>

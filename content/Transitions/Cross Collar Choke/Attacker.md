@@ -178,7 +178,7 @@ Strategically, the Cross Collar Choke serves as a primary finishing option from 
 
 The choke's effectiveness stems from its direct attack on blood flow rather than airway compression. The crossed grips on the collar create a scissoring action that closes both carotid arteries simultaneously, causing rapid loss of consciousness if the opponent fails to defend or tap. This mechanism makes the technique extremely efficient against resisting opponents who cannot simply power through the submission.
 
-**From Position**: [[High Mount]] (Top)
+**From Position**: [[Positions/Mount/High Mount]] (Top)
 
 </section>
 
@@ -230,8 +230,8 @@ The choke's effectiveness stems from its direct attack on blood flow rather than
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[High Mount]] | 30% |
-| Counter | [[Closed Guard]] | 12% |
+| Failure | [[Positions/Mount/High Mount]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 12% |
 
 
 </section>
@@ -240,9 +240,9 @@ The choke's effectiveness stems from its direct attack on blood flow rather than
 
 ## Opponent Counters
 
-- **Two-on-one grip fighting on the first hand** (Effectiveness: High) - Your Response: Maintain elbow pressure against their head to prevent stripping, or switch to armbar attack on their extended defending arm → Leads to [[High Mount]]
-- **Bridge and roll escape attempt during grip establishment** (Effectiveness: Medium) - Your Response: Base out with your free hand, ride the bridge, and continue pursuing grips once they settle. Their bridge commits their hips, preventing effective grip defense → Leads to [[Closed Guard]]
-- **Tucking chin to block collar access** (Effectiveness: Medium) - Your Response: Use cross-face pressure to turn their head, creating space for grip entry, or threaten Ezekiel choke to force chin elevation → Leads to [[High Mount]]
+- **Two-on-one grip fighting on the first hand** (Effectiveness: High) - Your Response: Maintain elbow pressure against their head to prevent stripping, or switch to armbar attack on their extended defending arm → Leads to [[Positions/Mount/High Mount]]
+- **Bridge and roll escape attempt during grip establishment** (Effectiveness: Medium) - Your Response: Base out with your free hand, ride the bridge, and continue pursuing grips once they settle. Their bridge commits their hips, preventing effective grip defense → Leads to [[Positions/Closed Guard]]
+- **Tucking chin to block collar access** (Effectiveness: Medium) - Your Response: Use cross-face pressure to turn their head, creating space for grip entry, or threaten Ezekiel choke to force chin elevation → Leads to [[Positions/Mount/High Mount]]
 - **Framing on biceps to prevent elbow movement** (Effectiveness: Low) - Your Response: Once both grips are established, their frames cannot prevent the scissoring action. Ignore the frames and apply finishing pressure → Leads to [[game-over]]
 
 

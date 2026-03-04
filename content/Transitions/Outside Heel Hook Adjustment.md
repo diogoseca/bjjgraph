@@ -21,7 +21,7 @@ The technique involves transitioning from whatever grip configuration you mainta
 
 Strategically, the Outside Heel Hook Adjustment represents a commitment to finishing the submission rather than transitioning to higher-control positions like saddle or following to back control. This decision should be made when the opponent's heel is accessible, their defensive grips haven't fully established, and your body position allows for the necessary adjustments. The adjustment window is often brief—skilled defenders will use this transition time to improve their hand fighting or accelerate their escape rotation.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -33,8 +33,8 @@ Strategically, the Outside Heel Hook Adjustment represents a commitment to finis
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Ushiro Ashi-Garami]] | 30% |
-| Counter | [[Inside Ashi-Garami]] | 15% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
 
 
 </section>
@@ -187,27 +187,27 @@ The Outside Heel Hook Adjustment sits within the comprehensive ashi-garami attac
 ## Related Techniques
 
 
-- [[Ushiro Ashi-Garami]] - Starting position for this adjustment technique
+- [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Starting position for this adjustment technique
 
-- [[Inside Heel Hook]] - Alternative heel hook attack from reversed configuration
+- [[Submissions/Inside Heel Hook]] - Alternative heel hook attack from reversed configuration
 
-- [[Heel Hook]] - Parent submission category
+- [[Transitions/Heel Hook]] - Parent submission category
 
-- [[Outside Ashi-Garami]] - Standard position that often leads to ushiro through opponent inversion
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Standard position that often leads to ushiro through opponent inversion
 
-- [[Saddle]] - Transition option when direct heel hook finish is blocked
+- [[Positions/Ashi Garami/Saddle]] - Transition option when direct heel hook finish is blocked
 
-- [[Back Take from Ashi]] - Follow-up when opponent commits fully to turtle rotation
+- [[Transitions/Back Take from Ashi]] - Follow-up when opponent commits fully to turtle rotation
 
-- [[Ankle Lock Finish]] - Fallback attack when heel remains inaccessible
+- [[Transitions/Ankle Lock Finish]] - Fallback attack when heel remains inaccessible
 
-- [[Inside Ashi-Garami]] - Related entanglement with different finishing mechanics
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related entanglement with different finishing mechanics
 
-- [[50-50 Guard]] - Related leg entanglement position in the ashi system
+- [[Positions/Ashi Garami/50-50 Guard]] - Related leg entanglement position in the ashi system
 
-- [[Outside Heel Hook]] - Standard outside heel hook transition from non-reversed positions
+- [[Transitions/Outside Heel Hook]] - Standard outside heel hook transition from non-reversed positions
 
-- [[Cross Ashi-Garami]] - Alternative entanglement accessible during failed adjustment
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Alternative entanglement accessible during failed adjustment
 
 
 </section>

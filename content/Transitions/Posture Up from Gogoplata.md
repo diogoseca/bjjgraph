@@ -21,7 +21,7 @@ The escape centers on three sequential objectives: reducing immediate choke pres
 
 Strategically, this technique sits within the broader defensive framework against rubber guard and high guard attacks. Practitioners who develop reliable posture recovery from gogoplata gain confidence when navigating the entire rubber guard chain, knowing that even deep control positions have systematic escape paths. The technique rewards patience and technical precision over explosive strength, as panicked movements typically worsen the choking position and expose alternative submission threats including triangle transitions and omoplata setups. Success requires reading the tightness of the position, selecting the appropriate escape tempo, and maintaining composure under direct airway pressure.
 
-**From Position**: [[Gogoplata Control]] (Top)
+**From Position**: [[Positions/Gogoplata Control]] (Top)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this technique sits within the broader defensive framework agains
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 40% |
-| Failure | [[Gogoplata Control]] | 35% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Open Guard]] | 40% |
+| Failure | [[Positions/Gogoplata Control]] | 35% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Posture Up from Gogoplata integrates into the broader defensive framework ag
 ## Related Techniques
 
 
-- [[Gogoplata Control]] - Source position from which this escape technique is executed
+- [[Positions/Gogoplata Control]] - Source position from which this escape technique is executed
 
-- [[Open Guard]] - Primary target position after successful posture recovery and head extraction
+- [[Positions/Open Guard]] - Primary target position after successful posture recovery and head extraction
 
-- [[Mount]] - Counter outcome position if bottom player sweeps during escape attempt
+- [[Positions/Mount]] - Counter outcome position if bottom player sweeps during escape attempt
 
-- [[Rubber Guard]] - Guard system from which gogoplata control develops through progressive entries
+- [[Positions/Rubber Guard]] - Guard system from which gogoplata control develops through progressive entries
 
-- [[Mission Control]] - Rubber guard control position that precedes gogoplata setup in the attack chain
+- [[Positions/Rubber Guard/Mission Control]] - Rubber guard control position that precedes gogoplata setup in the attack chain
 
-- [[Posture Recovery]] - Related general posture recovery technique sharing fundamental escape mechanics
+- [[Transitions/Posture Recovery]] - Related general posture recovery technique sharing fundamental escape mechanics
 
-- [[Posture Recovery from Mission Control]] - Similar escape from earlier rubber guard stage before gogoplata is established
+- [[Transitions/Posture Recovery from Mission Control]] - Similar escape from earlier rubber guard stage before gogoplata is established
 
-- [[Gogoplata to Armbar]] - Alternative attack bottom player may transition to during escape attempts
+- [[Transitions/Gogoplata to Armbar]] - Alternative attack bottom player may transition to during escape attempts
 
-- [[Closed Guard]] - Position bottom player may recover if gogoplata is partially escaped without full posture
+- [[Positions/Closed Guard]] - Position bottom player may recover if gogoplata is partially escaped without full posture
 
-- [[Back Control]] - Position exposure risk if escape involves forward rolling through the position
+- [[Positions/Back Control]] - Position exposure risk if escape involves forward rolling through the position
 
 
 </section>

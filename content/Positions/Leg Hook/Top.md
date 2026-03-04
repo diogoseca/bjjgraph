@@ -206,21 +206,21 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (29% of attempts)
+### [[Transitions/Knee Slice Pass]] (29% of attempts)
 
-### [[Leg Weave Pass]] (18% of attempts)
+### [[Transitions/Leg Weave Pass]] (18% of attempts)
 
-### [[Smash Pass]] (16% of attempts)
+### [[Transitions/Smash Pass]] (16% of attempts)
 
-### [[Half Guard Pass]] (13% of attempts)
+### [[Transitions/Half Guard Pass]] (13% of attempts)
 
-### [[Pressure Pass]] (10% of attempts)
+### [[Transitions/Pressure Pass]] (10% of attempts)
 
-### [[Back Step Pass]] (8% of attempts)
+### [[Transitions/Back Step Pass]] (8% of attempts)
 
-### [[Leg Hook to Half Guard]] (4% of attempts)
+### [[Transitions/Leg Hook to Half Guard]] (4% of attempts)
 
-### [[Leg Hook to Side Control]] (2% of attempts)
+### [[Transitions/Leg Hook to Side Control]] (2% of attempts)
 
 
 
@@ -231,28 +231,28 @@ Leg Hook Top Position represents a transitional control state where the top prac
 ## Decision Making from This Position
 
 **If bottom player is flat on their back with minimal defensive frames:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 60%)
 
 
 **Else if bottom player is on their side attempting to create frames and distance:**
-- Execute **[[Leg Drag Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **Else if bottom player extends arms to push or frame:**
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 50%)
-- Execute **[[Darce Setup]]** → [[Darce Control]] (Probability: 45%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 50%)
+- Execute **[[Transitions/Darce Setup]]** → [[Positions/Darce Control]] (Probability: 45%)
 
 
 **Else if bottom player attempts to turn away or go to turtle:**
-- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Darce Setup]]** → [[Darce Control]] (Probability: 55%)
+- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Darce Setup]]** → [[Positions/Darce Control]] (Probability: 55%)
 
 
 **Else if bottom player is actively trying to recover full guard:**
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 
@@ -398,16 +398,16 @@ Start in leg hook top position. Practice transitioning to submission threats (ki
 
 ## Related Positions and Techniques
 
-- **[[Half Guard]]** - Parent position - primary position from which leg hook top is typically established
-- **[[Deep Half Guard]]** - Related position - common defensive counter that bottom player may attempt
-- **[[Knee Slice Pass]]** - Primary transition - most common passing technique from this position
-- **[[Leg Drag Pass]]** - Primary transition - alternative high-percentage pass from hook control
-- **[[Side Control]]** - Transition target - most common final position after successful pass
-- **[[Headquarters Position]]** - Related passing position - similar control concepts with different leg configuration
-- **[[Kimura]]** - Submission threat - opportunistic submission from this position
-- **[[Darce Choke]]** - Submission threat - available when bottom player makes defensive errors
-- **[[Smash Pass]]** - Related passing concept - complementary pressure passing strategy
-- **[[Lockdown]]** - Defensive system - understanding opponent's control from bottom
+- **[[Positions/Half Guard]]** - Parent position - primary position from which leg hook top is typically established
+- **[[Positions/Half Guard/Deep Half Guard]]** - Related position - common defensive counter that bottom player may attempt
+- **[[Transitions/Knee Slice Pass]]** - Primary transition - most common passing technique from this position
+- **[[Transitions/Leg Drag Pass]]** - Primary transition - alternative high-percentage pass from hook control
+- **[[Positions/Side Control]]** - Transition target - most common final position after successful pass
+- **[[Positions/Headquarters Position]]** - Related passing position - similar control concepts with different leg configuration
+- **[[Transitions/Kimura]]** - Submission threat - opportunistic submission from this position
+- **[[Transitions/Darce Choke]]** - Submission threat - available when bottom player makes defensive errors
+- **[[Transitions/Smash Pass]]** - Related passing concept - complementary pressure passing strategy
+- **[[Positions/Half Guard/Lockdown]]** - Defensive system - understanding opponent's control from bottom
 
 
 </section>

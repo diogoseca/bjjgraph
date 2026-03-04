@@ -186,7 +186,7 @@ The mechanical principle behind the Ezekiel involves using your own gi sleeve as
 
 Strategically, the Ezekiel serves multiple purposes beyond just finishing the submission. It creates excellent dilemmas when combined with armbar and cross collar choke attacks from mount, forcing opponents to defend multiple threats simultaneously. The setup naturally transitions into other control positions if the opponent attempts to escape, and even failed attempts often result in improved positional control. In gi competition, the Ezekiel represents a fundamental submission that every practitioner must understand both offensively and defensively, as it remains effective at all levels of competition when executed with proper timing and pressure application.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 
 
 </section>
@@ -243,8 +243,8 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Mount]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Mount]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -253,11 +253,11 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 
 ## Opponent Defenses
 
-- **Frame against choking arm with both hands to prevent threading** (Effectiveness: High) - Your Response: Use your body weight to pressure their frames down while threading. Alternatively, switch to cross collar choke or armbar if frames persist, then return to Ezekiel when they adjust. → Leads to [[Mount]]
-- **Bridge explosively to disrupt base and create escape opportunity** (Effectiveness: Medium) - Your Response: Post your head on the mat and maintain tight elbows throughout the bridge. Keep your hips heavy and squeeze the choke tighter during their bridge when they're expending energy. Most bridges will fail if you maintain connection. → Leads to [[Half Guard]]
-- **Turn head away from choking pressure to protect near-side carotid** (Effectiveness: Low) - Your Response: Use your frame arm to control their head and prevent turning. If they successfully turn, this often exposes their back or creates armbar opportunities. Maintain the position and re-establish proper blade angle once they stop moving. → Leads to [[Mount]]
-- **Trap choking arm with both hands and attempt to strip the sleeve grip** (Effectiveness: Medium) - Your Response: Maintain tight elbows and use your body weight to prevent grip breaks. If they commit both hands to grip fighting, this creates excellent armbar opportunities. Keep constant pressure on the choke while they work, as this drains their energy. → Leads to [[Mount]]
-- **Elbow escape to create space and slide knee through mount** (Effectiveness: High) - Your Response: Ride very high in mount before attempting the choke, making elbow escapes nearly impossible. If they begin to escape, abandon the choke temporarily to maintain mount, then re-attack. Never sacrifice position for submission. → Leads to [[Half Guard]]
+- **Frame against choking arm with both hands to prevent threading** (Effectiveness: High) - Your Response: Use your body weight to pressure their frames down while threading. Alternatively, switch to cross collar choke or armbar if frames persist, then return to Ezekiel when they adjust. → Leads to [[Positions/Mount]]
+- **Bridge explosively to disrupt base and create escape opportunity** (Effectiveness: Medium) - Your Response: Post your head on the mat and maintain tight elbows throughout the bridge. Keep your hips heavy and squeeze the choke tighter during their bridge when they're expending energy. Most bridges will fail if you maintain connection. → Leads to [[Positions/Half Guard]]
+- **Turn head away from choking pressure to protect near-side carotid** (Effectiveness: Low) - Your Response: Use your frame arm to control their head and prevent turning. If they successfully turn, this often exposes their back or creates armbar opportunities. Maintain the position and re-establish proper blade angle once they stop moving. → Leads to [[Positions/Mount]]
+- **Trap choking arm with both hands and attempt to strip the sleeve grip** (Effectiveness: Medium) - Your Response: Maintain tight elbows and use your body weight to prevent grip breaks. If they commit both hands to grip fighting, this creates excellent armbar opportunities. Keep constant pressure on the choke while they work, as this drains their energy. → Leads to [[Positions/Mount]]
+- **Elbow escape to create space and slide knee through mount** (Effectiveness: High) - Your Response: Ride very high in mount before attempting the choke, making elbow escapes nearly impossible. If they begin to escape, abandon the choke temporarily to maintain mount, then re-attack. Never sacrifice position for submission. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -21,7 +21,7 @@ The technique operates on the principle that a controlled transition to half gua
 
 Modern no-gi competition has made this reversal essential as body lock control has become a primary offensive weapon at the highest levels. Competitors who cannot escape the body lock consistently find themselves taken down into back control or side control, making grip breaking mechanics and guard recovery timing non-negotiable skills for competitive success.
 
-**From Position**: [[Body Lock]] (Bottom)
+**From Position**: [[Positions/Body Lock]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Modern no-gi competition has made this reversal essential as body lock control h
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Body Lock]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Body Lock]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -189,23 +189,23 @@ The Reversal from Body Lock occupies a crucial defensive node in the BJJ positio
 ## Related Techniques
 
 
-- [[Body Lock]] - Source position from which this reversal is executed
+- [[Positions/Body Lock]] - Source position from which this reversal is executed
 
-- [[Half Guard]] - Primary target position upon successful reversal completion
+- [[Positions/Half Guard]] - Primary target position upon successful reversal completion
 
-- [[Side Control]] - Counter outcome position when opponent converts failed reversal into takedown
+- [[Positions/Side Control]] - Counter outcome position when opponent converts failed reversal into takedown
 
-- [[Escape Body Lock]] - Related standing escape technique from the same starting position
+- [[Transitions/Escape Body Lock]] - Related standing escape technique from the same starting position
 
-- [[Pummeling Escape from Body Lock]] - Alternative escape method using pummeling mechanics rather than grip break
+- [[Transitions/Pummeling Escape from Body Lock]] - Alternative escape method using pummeling mechanics rather than grip break
 
-- [[Clinch]] - Neutral standing position that precedes body lock establishment
+- [[Positions/Clinch]] - Neutral standing position that precedes body lock establishment
 
-- [[Back Control]] - Primary threat position if reversal fails and opponent completes mat return
+- [[Positions/Back Control]] - Primary threat position if reversal fails and opponent completes mat return
 
-- [[Body Lock Takedown]] - Offensive technique this reversal directly defends against
+- [[Transitions/Body Lock Takedown]] - Offensive technique this reversal directly defends against
 
-- [[Pull Guard from Standing]] - Alternative defensive option sharing the controlled descent to guard concept
+- [[Transitions/Pull Guard from Standing]] - Alternative defensive option sharing the controlled descent to guard concept
 
 
 </section>

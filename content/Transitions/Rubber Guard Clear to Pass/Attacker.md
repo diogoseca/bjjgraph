@@ -190,7 +190,7 @@ Success depends on understanding that aggressive pulling of the trapped arm trig
 
 This technique is essential for any practitioner facing opponents with flexible guard systems, particularly in no-gi and MMA contexts where the Rubber Guard system has proven highly effective.
 
-**From Position**: [[Rubber Guard]] (Top)
+**From Position**: [[Positions/Rubber Guard]] (Top)
 
 </section>
 
@@ -244,9 +244,9 @@ This technique is essential for any practitioner facing opponents with flexible 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Rubber Guard]] | 25% |
-| Counter | [[Triangle Control]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Rubber Guard]] | 25% |
+| Counter | [[Positions/Triangle Control]] | 10% |
 
 
 </section>
@@ -255,10 +255,10 @@ This technique is essential for any practitioner facing opponents with flexible 
 
 ## Opponent Counters
 
-- **Opponent transitions to triangle as you extract arm by locking legs around head and arm** (Effectiveness: High) - Your Response: Address leg control first before arm extraction; if triangle starts locking, tuck chin, posture aggressively, and work standard triangle defense by pushing trapped knee → Leads to [[Triangle Control]]
-- **Opponent switches to omoplata when you create distance by rotating hips and extending arm** (Effectiveness: High) - Your Response: Keep extracted arm tight to body with elbow pinned to ribs; if omoplata begins, forward roll to escape or drive into opponent to flatten them and prevent rotation → Leads to [[Rubber Guard]]
-- **Opponent re-establishes Mission Control by grabbing shin and pulling leg back high across back** (Effectiveness: Medium) - Your Response: Maintain constant forward pressure and keep hand fighting their gripping hand; speed is essential - complete posture recovery before they can re-lock the configuration → Leads to [[Rubber Guard]]
-- **Opponent transitions to closed guard and re-breaks posture as you attempt to pass** (Effectiveness: Medium) - Your Response: Maintain strong posture with hands on hips throughout pass; if closed guard re-establishes, work standard closed guard opening before continuing pass → Leads to [[Rubber Guard]]
+- **Opponent transitions to triangle as you extract arm by locking legs around head and arm** (Effectiveness: High) - Your Response: Address leg control first before arm extraction; if triangle starts locking, tuck chin, posture aggressively, and work standard triangle defense by pushing trapped knee → Leads to [[Positions/Triangle Control]]
+- **Opponent switches to omoplata when you create distance by rotating hips and extending arm** (Effectiveness: High) - Your Response: Keep extracted arm tight to body with elbow pinned to ribs; if omoplata begins, forward roll to escape or drive into opponent to flatten them and prevent rotation → Leads to [[Positions/Rubber Guard]]
+- **Opponent re-establishes Mission Control by grabbing shin and pulling leg back high across back** (Effectiveness: Medium) - Your Response: Maintain constant forward pressure and keep hand fighting their gripping hand; speed is essential - complete posture recovery before they can re-lock the configuration → Leads to [[Positions/Rubber Guard]]
+- **Opponent transitions to closed guard and re-breaks posture as you attempt to pass** (Effectiveness: Medium) - Your Response: Maintain strong posture with hands on hips throughout pass; if closed guard re-establishes, work standard closed guard opening before continuing pass → Leads to [[Positions/Rubber Guard]]
 
 
 </section>

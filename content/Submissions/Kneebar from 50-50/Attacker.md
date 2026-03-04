@@ -186,7 +186,7 @@ The kneebar works by creating a fulcrum across the opponent's knee joint using y
 
 This submission represents a critical component of modern leg lock systems and is particularly effective in no-gi grappling where heel hooks may be restricted. The 50-50 kneebar requires precise technical execution, proper hip alignment, and careful attention to safety protocols to prevent serious knee injuries during training.
 
-**From Position**: [[50-50 Guard]] (Top)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 
 </section>
@@ -243,8 +243,8 @@ This submission represents a critical component of modern leg lock systems and i
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[Inside Ashi-Garami]] | 15% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
 
 
 </section>
@@ -253,10 +253,10 @@ This submission represents a critical component of modern leg lock systems and i
 
 ## Opponent Defenses
 
-- **Opponent sits up and faces you, establishing cross-face or grip fighting** (Effectiveness: High) - Your Response: Before they can establish upper body control, use your grip on their belt/pants to pull them back down to the mat. Alternatively, transition to inside heel hook if their rotation creates the angle. Never allow them to square up to you. → Leads to [[50-50 Guard]]
-- **Opponent straightens their trapped leg explosively, trying to clear knee line** (Effectiveness: Medium) - Your Response: Immediately pull their foot deeper into your armpit and redirect your hips to stay across the knee joint. If they succeed in straightening completely, transition to outside ashi or straight ankle lock rather than losing position entirely. → Leads to [[50-50 Guard]]
-- **Opponent attacks your exposed leg with counter kneebar or heel hook** (Effectiveness: High) - Your Response: This is the primary danger of 50-50. If opponent establishes control on your foot, you must simultaneously finish your attack quickly (competition) or release and defend (training). Never ignore counter-attacks to your own leg. Consider preemptively hiding your heel by turning it away. → Leads to [[Inside Ashi-Garami]]
-- **Opponent bridges and rolls, attempting to invert or stack you** (Effectiveness: Medium) - Your Response: Maintain your leg entanglement and follow their movement. If they invert, you may end up in top position with even better finishing mechanics. Keep your foot control throughout the scramble—this is your anchor point. → Leads to [[50-50 Guard]]
+- **Opponent sits up and faces you, establishing cross-face or grip fighting** (Effectiveness: High) - Your Response: Before they can establish upper body control, use your grip on their belt/pants to pull them back down to the mat. Alternatively, transition to inside heel hook if their rotation creates the angle. Never allow them to square up to you. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent straightens their trapped leg explosively, trying to clear knee line** (Effectiveness: Medium) - Your Response: Immediately pull their foot deeper into your armpit and redirect your hips to stay across the knee joint. If they succeed in straightening completely, transition to outside ashi or straight ankle lock rather than losing position entirely. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent attacks your exposed leg with counter kneebar or heel hook** (Effectiveness: High) - Your Response: This is the primary danger of 50-50. If opponent establishes control on your foot, you must simultaneously finish your attack quickly (competition) or release and defend (training). Never ignore counter-attacks to your own leg. Consider preemptively hiding your heel by turning it away. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent bridges and rolls, attempting to invert or stack you** (Effectiveness: Medium) - Your Response: Maintain your leg entanglement and follow their movement. If they invert, you may end up in top position with even better finishing mechanics. Keep your foot control throughout the scramble—this is your anchor point. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 - **Opponent grabs the mat or your gi/body, creating a frame to prevent hip extension** (Effectiveness: Low) - Your Response: Use proper leverage—their grips cannot overcome correct hip extension mechanics. Adjust your angle slightly and continue progressive pressure. Break their grips methodically if necessary by increasing the kneebar pressure slightly (their grips will release to tap). → Leads to [[game-over]]
 
 

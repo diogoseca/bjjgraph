@@ -140,7 +140,7 @@ description: "Learn to defend against the Counter Leg Hook from top position. Ma
 
 As the defender against the Counter Leg Hook, you are the top player working to maintain your leg hook control and complete the half guard pass while the bottom player attempts to strip your hook and escape to turtle or recover guard. Your defensive strategy centers on recognizing the counter attempt early, maintaining pressure and hook engagement, and capitalizing on the bottom player's movement to advance to side control or re-establish dominant control. Understanding the timing and mechanics of the bottom player's counter allows you to preemptively adjust your weight distribution and grip configuration to shut down escape attempts before they develop momentum.
 
-**Opponent's Starting Position**: [[Leg Hook]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Hook]] (Bottom)
 
 </section>
 
@@ -178,21 +178,21 @@ As the defender against the Counter Leg Hook, you are the top player working to 
 ### 1. Increase hook depth and re-establish crossface before the counter develops
 
 - **When to use**: At the earliest recognition cues when the bottom player begins loading their hips or fighting grips aggressively
-- **Targets**: [[Leg Hook]]
+- **Targets**: [[Positions/Leg Hook]]
 - **If successful**: Counter attempt is shut down before it develops, bottom player returns to defensive leg hook bottom
 - **Risk**: Over-committing to hook depth can compromise your base if the bottom player changes to a sweep attempt
 
 ### 2. Follow the hip escape with hip-to-hip connection and complete the pass to side control
 
 - **When to use**: When the bottom player has initiated the hip escape but has not yet completed the turn to turtle
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Pass completes during the bottom player's transition, achieving dominant side control
 - **Risk**: If timing is off, the bottom player may complete the turtle transition and you lose the hook advantage
 
 ### 3. Transition to turtle top control when the bottom player commits to turtling
 
 - **When to use**: When the bottom player has successfully escaped to turtle and you cannot prevent the position change
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You transition from a passing position to a back take position, maintaining offensive initiative from turtle top
 - **Risk**: The bottom player may use the transition moment to execute a sit-out or granby roll escape
 
@@ -204,11 +204,11 @@ As the defender against the Counter Leg Hook, you are the top player working to 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Follow the bottom player's hip escape movement with hip-to-hip pressure, maintaining the crossface throughout. As they attempt to turn, drive your weight through their turning movement and clear the legs to establish side control. The counter attempt often opens more space than a static half guard defense, making the pass completion easier.
 
-### → [[Leg Hook]]
+### → [[Positions/Leg Hook]]
 
 Shut down the counter attempt at the earliest stage by re-establishing crossface control and increasing hook depth when you recognize grip fighting and hip loading. Use heavy chest pressure to prevent the frames needed for the counter. The key is recognizing the counter early and preemptively increasing your control before momentum develops.
 

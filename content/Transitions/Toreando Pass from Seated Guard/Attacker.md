@@ -180,7 +180,7 @@ description: "Master executing the Toreando Pass from Seated Guard. Step-by-step
 
 As the attacker executing the Toreando Pass from Seated Guard, your objective is to control both of your opponent's legs, redirect them laterally to one side, and step around to establish side control on the opposite side. This pass relies on winning the initial grip battle on the legs, generating explosive lateral movement to bypass the seated player's defensive structure, and immediately consolidating side control before the opponent can recover guard. The toreando is most effective when you maintain standing posture and use your mobility advantage over the seated player, whose posted hands limit their ability to follow your lateral movement. Success depends on timing your lateral explosion precisely when you have dominant leg control and your opponent's defensive frames are neutralized.
 
-**From Position**: [[Seated Guard]] (Top)
+**From Position**: [[Positions/Seated Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Toreando Pass from Seated Guard, your objective is
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Seated Guard]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Seated Guard]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Toreando Pass from Seated Guard, your objective is
 
 ## Opponent Counters
 
-- **Opponent sits up and closes guard as you approach** (Effectiveness: High) - Your Response: Maintain standing posture and distance while controlling legs—do not close distance until legs are fully redirected to one side. If they begin to sit up, push their legs away to load their weight back onto posted hands. → Leads to [[Closed Guard]]
-- **Opponent retracts legs and inserts knee shield or butterfly hook** (Effectiveness: Medium) - Your Response: When opponent pulls legs back, immediately switch to knee slice pass through the opening their retraction creates, or re-establish leg grips before they fully set their defensive structure. → Leads to [[Seated Guard]]
-- **Opponent grabs your sleeves or collar to prevent lateral movement** (Effectiveness: High) - Your Response: Break grips before attempting the pass—circle wrists or strip grips using both hands. Never attempt the toreando with opponent controlling your upper body, as they can redirect your momentum and close guard. → Leads to [[Closed Guard]]
-- **Opponent hip escapes and faces you during your lateral movement** (Effectiveness: Medium) - Your Response: If opponent successfully follows your lateral movement, immediately change direction and toreando to the opposite side. Their hip escape momentum going one way makes them vulnerable to a direction change. Chain toreando attempts side to side. → Leads to [[Seated Guard]]
+- **Opponent sits up and closes guard as you approach** (Effectiveness: High) - Your Response: Maintain standing posture and distance while controlling legs—do not close distance until legs are fully redirected to one side. If they begin to sit up, push their legs away to load their weight back onto posted hands. → Leads to [[Positions/Closed Guard]]
+- **Opponent retracts legs and inserts knee shield or butterfly hook** (Effectiveness: Medium) - Your Response: When opponent pulls legs back, immediately switch to knee slice pass through the opening their retraction creates, or re-establish leg grips before they fully set their defensive structure. → Leads to [[Positions/Seated Guard]]
+- **Opponent grabs your sleeves or collar to prevent lateral movement** (Effectiveness: High) - Your Response: Break grips before attempting the pass—circle wrists or strip grips using both hands. Never attempt the toreando with opponent controlling your upper body, as they can redirect your momentum and close guard. → Leads to [[Positions/Closed Guard]]
+- **Opponent hip escapes and faces you during your lateral movement** (Effectiveness: Medium) - Your Response: If opponent successfully follows your lateral movement, immediately change direction and toreando to the opposite side. Their hip escape momentum going one way makes them vulnerable to a direction change. Chain toreando attempts side to side. → Leads to [[Positions/Seated Guard]]
 
 
 </section>

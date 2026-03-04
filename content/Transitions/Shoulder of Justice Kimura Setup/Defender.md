@@ -146,7 +146,7 @@ description: "Defend the Kimura setup from Shoulder of Justice bottom. Learn rec
 
 From the defender's perspective, the Shoulder of Justice Kimura Setup represents one of the most dangerous transitions from an already miserable position. The intense jaw pressure naturally provokes arm extension as a pain response, and this extension is precisely what the attacker exploits. Recognizing the Kimura threat before it materializes is critical—once the figure-four grip is locked, escape becomes exponentially more difficult. The defender must balance between enduring the shoulder pressure without extending their near arm and finding genuine escape opportunities that do not play directly into the attacker's Kimura system. Understanding the attacker's setup triggers allows the defender to keep their arms disciplined while working on positional escapes that address the root problem of being trapped in Shoulder of Justice.
 
-**Opponent's Starting Position**: [[Shoulder of Justice]] (Top)
+**Opponent's Starting Position**: [[Positions/Shoulder of Justice]] (Top)
 
 </section>
 
@@ -185,28 +185,28 @@ From the defender's perspective, the Shoulder of Justice Kimura Setup represents
 ### 1. Clamp elbow to ribs and grab own lapel, belt, or pants with near hand to anchor the arm
 
 - **When to use**: Immediately when you feel the attacker attempting to thread their arm underneath your tricep or when you recognize the pressure escalation bait pattern
-- **Targets**: [[Shoulder of Justice]]
+- **Targets**: [[Positions/Shoulder of Justice]]
 - **If successful**: Attacker cannot establish the Kimura grip and must either continue shoulder pressure or attempt alternative transitions
 - **Risk**: Remaining in Shoulder of Justice with continued jaw pressure, but preventing the more dangerous Kimura Trap position
 
 ### 2. Time a shrimp escape during the moment the attacker shifts focus from pressure to grip threading
 
 - **When to use**: When you feel the attacker's shoulder pressure momentarily decrease as they redirect their near arm toward the Kimura grip attempt
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover half guard by inserting knee shield during the attacker's transition window, escaping both the Shoulder of Justice and the Kimura threat
 - **Risk**: If the shrimp is mistimed, the attacker may catch the near arm during the movement and establish the Kimura grip while you are mid-escape
 
 ### 3. Turn into the attacker and drive your near shoulder to the mat, denying the Kimura angle
 
 - **When to use**: When the attacker has partially threaded their arm but has not yet locked the figure-four grip
-- **Targets**: [[Shoulder of Justice]]
+- **Targets**: [[Positions/Shoulder of Justice]]
 - **If successful**: Prevents the Kimura grip completion and may create a brief scramble opportunity as the attacker readjusts their position
 - **Risk**: Turning in can expose your back to back-take attempts or allow the attacker to transition to north-south control
 
 ### 4. Bridge explosively to disrupt the attacker's base before the figure-four grip is locked
 
 - **When to use**: When you feel the attacker's arm threading underneath but the grip is not yet secured—the bridge must come before the lock
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Disrupts the attacker's balance and positioning, potentially allowing hip escape to half guard or full guard recovery
 - **Risk**: If the bridge fails, the momentary arm extension during the bridge may actually assist the attacker's grip establishment
 
@@ -218,11 +218,11 @@ From the defender's perspective, the Shoulder of Justice Kimura Setup represents
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your shrimp escape for the exact moment the attacker shifts focus from maintaining shoulder pressure to threading their arm for the Kimura grip. This transitional window creates a brief reduction in hip pressure that allows you to shoot your hips away and insert your knee shield. The key is recognizing the attacker's weight shift toward your near arm side as the trigger for your escape.
 
-### → [[Shoulder of Justice]]
+### → [[Positions/Shoulder of Justice]]
 
 Prevent the Kimura grip entirely by keeping your near arm pinned to your ribs throughout the attacker's setup attempts. Anchor your hand to your own belt, lapel, or pants to create a structural defense that does not rely on muscular resistance. This forces the attacker to abandon the Kimura and either maintain shoulder pressure or attempt alternative transitions, buying you time and preserving your defensive structure.
 

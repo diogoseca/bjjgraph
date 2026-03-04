@@ -180,7 +180,7 @@ description: "Complete attacker guide for Break Overhook Guard. Learn systematic
 
 As the attacker executing Break Overhook Guard, you are the top player inside your opponent's guard whose arm has been trapped by an overhook. Your objective is to systematically strip this control and return to neutral closed guard where your full passing game becomes available. The overhook severely limits your offensive options by compromising your posture, eliminating one posting hand, and creating direct pathways for your opponent's sweeps and submissions. Every moment you spend in overhook guard without progressing toward the break gives your opponent more time to set up attacks. The break requires patience and precise mechanics rather than explosive strength, as jerking motions often feed directly into your opponent's counter-attacks.
 
-**From Position**: [[Overhook Guard]] (Top)
+**From Position**: [[Positions/Overhook Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing Break Overhook Guard, you are the top player inside yo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Failure | [[Overhook Guard]] | 30% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Failure | [[Positions/Overhook Guard]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing Break Overhook Guard, you are the top player inside yo
 
 ## Opponent Counters
 
-- **Bottom player tightens overhook by pulling elbow to hip and deepening hand grip behind shoulder blade** (Effectiveness: High) - Your Response: Switch to posture-first pressure break variant, using maximum hip extension to stretch the overhook to its mechanical limit before re-attempting the elbow circle with the arm at full extension → Leads to [[Overhook Guard]]
-- **Bottom player hip escapes to create angle and threatens overhook sweep or hip bump during your break attempt** (Effectiveness: Medium) - Your Response: Immediately widen base and drive shoulder pressure into the overhook side to flatten opponent before they complete the angle. Post with free hand on the mat if necessary to defend the sweep, then resume the break once base is re-established → Leads to [[Mount]]
-- **Bottom player opens guard and shoots overhook-side leg over your shoulder to threaten triangle or omoplata as your arm begins to clear** (Effectiveness: Medium) - Your Response: When you feel the leg rising, immediately tuck your elbow tight to your ribs and drive posture backward, pulling your head away from the triangle. Stack forward if the leg gets across your neck, using the posture you built during the break to power through the triangle attempt → Leads to [[Overhook Guard]]
-- **Bottom player converts overhook to kimura grip by catching your wrist as you circulate the elbow** (Effectiveness: High) - Your Response: If they catch the kimura grip, immediately straighten your trapped arm and drive it to the mat, then circle your elbow the opposite direction to strip the kimura. Keep your elbow close to your body and do not allow them to isolate the arm away from your torso → Leads to [[Overhook Guard]]
+- **Bottom player tightens overhook by pulling elbow to hip and deepening hand grip behind shoulder blade** (Effectiveness: High) - Your Response: Switch to posture-first pressure break variant, using maximum hip extension to stretch the overhook to its mechanical limit before re-attempting the elbow circle with the arm at full extension → Leads to [[Positions/Overhook Guard]]
+- **Bottom player hip escapes to create angle and threatens overhook sweep or hip bump during your break attempt** (Effectiveness: Medium) - Your Response: Immediately widen base and drive shoulder pressure into the overhook side to flatten opponent before they complete the angle. Post with free hand on the mat if necessary to defend the sweep, then resume the break once base is re-established → Leads to [[Positions/Mount]]
+- **Bottom player opens guard and shoots overhook-side leg over your shoulder to threaten triangle or omoplata as your arm begins to clear** (Effectiveness: Medium) - Your Response: When you feel the leg rising, immediately tuck your elbow tight to your ribs and drive posture backward, pulling your head away from the triangle. Stack forward if the leg gets across your neck, using the posture you built during the break to power through the triangle attempt → Leads to [[Positions/Overhook Guard]]
+- **Bottom player converts overhook to kimura grip by catching your wrist as you circulate the elbow** (Effectiveness: High) - Your Response: If they catch the kimura grip, immediately straighten your trapped arm and drive it to the mat, then circle your elbow the opposite direction to strip the kimura. Keep your elbow close to your body and do not allow them to isolate the arm away from your torso → Leads to [[Positions/Overhook Guard]]
 
 
 </section>

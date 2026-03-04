@@ -243,8 +243,8 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -253,10 +253,10 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 ## Opponent Defenses
 
-- **Pulling arm back and stepping away when they feel the grip** (Effectiveness: High) - Your Response: Maintain grip and follow their movement, using their backward motion to help your jumping entry. If they fully retract arm, abandon technique and return to guard. → Leads to [[Closed Guard]]
-- **Sprawling back and lowering hips to avoid the jump** (Effectiveness: High) - Your Response: Do not attempt the flying armbar if opponent sprawls - this is the primary defensive response. Instead, transition to standard guard or sweep attempts. → Leads to [[Closed Guard]]
-- **Stacking you forward during your aerial rotation** (Effectiveness: Medium) - Your Response: If stacked during flight, release the submission attempt and establish guard. Never fight from inferior stacked position with joint lock - injury risk is too high. → Leads to [[Side Control]]
-- **Locking hands together in defensive grip (RNC grip or Gable grip)** (Effectiveness: Medium) - Your Response: Before initiating jump, break any defensive hand configurations. If opponent locks hands during your entry, land in guard position and attack grip break rather than forcing armbar. → Leads to [[Closed Guard]]
+- **Pulling arm back and stepping away when they feel the grip** (Effectiveness: High) - Your Response: Maintain grip and follow their movement, using their backward motion to help your jumping entry. If they fully retract arm, abandon technique and return to guard. → Leads to [[Positions/Closed Guard]]
+- **Sprawling back and lowering hips to avoid the jump** (Effectiveness: High) - Your Response: Do not attempt the flying armbar if opponent sprawls - this is the primary defensive response. Instead, transition to standard guard or sweep attempts. → Leads to [[Positions/Closed Guard]]
+- **Stacking you forward during your aerial rotation** (Effectiveness: Medium) - Your Response: If stacked during flight, release the submission attempt and establish guard. Never fight from inferior stacked position with joint lock - injury risk is too high. → Leads to [[Positions/Side Control]]
+- **Locking hands together in defensive grip (RNC grip or Gable grip)** (Effectiveness: Medium) - Your Response: Before initiating jump, break any defensive hand configurations. If opponent locks hands during your entry, land in guard position and attack grip break rather than forcing armbar. → Leads to [[Positions/Closed Guard]]
 - **Posturing up aggressively to create space** (Effectiveness: Low) - Your Response: This is actually the ideal defensive reaction - strong posture with extended arms creates perfect entry opportunity. Time your jump as they extend upward. → Leads to [[game-over]]
 
 

@@ -188,7 +188,7 @@ description: "Learn to execute the Twister spinal lock from Twister Side Control
 
 Executing the Twister from Twister Side Control requires methodical positional control followed by precise rotational mechanics. The attacker must first consolidate their lateral control position with tight leg entanglement and shoulder pressure before transitioning to the finishing sequence. The key mechanical principle is creating opposing rotational forces: the legs maintain hip control and prevent the lower body from turning, while the arms crank the head and upper body in the opposite direction. This corkscrew effect generates force across the entire spinal column, making the submission extremely effective once properly established. Success depends on patience during setup, maintaining leg control throughout the finish, and understanding when the positional prerequisites are met for a safe, high-percentage finish attempt.
 
-**From Position**: [[Twister Side Control]] (Top)
+**From Position**: [[Positions/Twister Control/Twister Side Control]] (Top)
 
 
 </section>
@@ -244,8 +244,8 @@ Executing the Twister from Twister Side Control requires methodical positional c
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Twister Side Control]] | 35% |
-| Counter | [[Turtle]] | 20% |
+| Failure | [[Positions/Twister Control/Twister Side Control]] | 35% |
+| Counter | [[Positions/Turtle]] | 20% |
 
 
 </section>
@@ -254,10 +254,10 @@ Executing the Twister from Twister Side Control requires methodical positional c
 
 ## Opponent Defenses
 
-- **Opponent tucks chin and clasps hands behind their own head to block rotational grip establishment** (Effectiveness: High) - Your Response: Maintain shoulder pressure and work to pry the hands apart by attacking the far arm first. Use your chest weight to flatten them while systematically stripping their grip one hand at a time. If they commit both hands to head defense, their legs become vulnerable to calf slicer attacks. → Leads to [[Twister Side Control]]
-- **Opponent bridges explosively and attempts to turn into the attacker to relieve spinal pressure** (Effectiveness: Medium) - Your Response: Maintain tight leg entanglement and post your outside leg wide to absorb the bridge. If they create enough space to turn, be ready to transition to darce choke or front headlock as their turning feeds their neck into choking positions. Use their momentum against them. → Leads to [[Twister Side Control]]
-- **Opponent fights the far arm control by keeping elbows extremely tight against their body** (Effectiveness: Medium) - Your Response: Use shoulder pressure to drive their near shoulder flat, then work a forearm wedge to pry the far arm loose. Alternatively, attack the head control directly by threading under their neck while using your body weight to pin the far arm against the mat. Patience is critical here. → Leads to [[Twister Side Control]]
-- **Opponent extracts trapped leg from entanglement during the upper body setup phase** (Effectiveness: High) - Your Response: If leg entanglement is lost, abandon the Twister attempt immediately. The submission has no foundation without the opposing rotational anchor. Transition to back take if they expose their back during extraction, or consolidate traditional side control if they achieve a flat defensive position. → Leads to [[Turtle]]
+- **Opponent tucks chin and clasps hands behind their own head to block rotational grip establishment** (Effectiveness: High) - Your Response: Maintain shoulder pressure and work to pry the hands apart by attacking the far arm first. Use your chest weight to flatten them while systematically stripping their grip one hand at a time. If they commit both hands to head defense, their legs become vulnerable to calf slicer attacks. → Leads to [[Positions/Twister Control/Twister Side Control]]
+- **Opponent bridges explosively and attempts to turn into the attacker to relieve spinal pressure** (Effectiveness: Medium) - Your Response: Maintain tight leg entanglement and post your outside leg wide to absorb the bridge. If they create enough space to turn, be ready to transition to darce choke or front headlock as their turning feeds their neck into choking positions. Use their momentum against them. → Leads to [[Positions/Twister Control/Twister Side Control]]
+- **Opponent fights the far arm control by keeping elbows extremely tight against their body** (Effectiveness: Medium) - Your Response: Use shoulder pressure to drive their near shoulder flat, then work a forearm wedge to pry the far arm loose. Alternatively, attack the head control directly by threading under their neck while using your body weight to pin the far arm against the mat. Patience is critical here. → Leads to [[Positions/Twister Control/Twister Side Control]]
+- **Opponent extracts trapped leg from entanglement during the upper body setup phase** (Effectiveness: High) - Your Response: If leg entanglement is lost, abandon the Twister attempt immediately. The submission has no foundation without the opposing rotational anchor. Transition to back take if they expose their back during extraction, or consolidate traditional side control if they achieve a flat defensive position. → Leads to [[Positions/Turtle]]
 
 
 </section>

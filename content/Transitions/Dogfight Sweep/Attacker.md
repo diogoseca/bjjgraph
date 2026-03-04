@@ -180,7 +180,7 @@ description: "Complete attacking guide for the Dogfight Sweep. Step-by-step exec
 
 The Dogfight Sweep attacker is the bottom half guard player who has successfully elevated to the kneeling Dogfight Position with a deep underhook established. From this position, the attacker uses forward driving pressure combined with far leg control to topple the opponent and achieve side control. The sweep requires precise coordination between the underhook drive and the far leg grab, as executing these simultaneously creates a mechanical lever the opponent cannot resist. Success depends on maintaining constant forward pressure, eliminating the opponent's posting options, and following through completely to consolidate the top position. The attacker must also be prepared to chain to back takes or alternative sweeps when the opponent defends the primary Dogfight Sweep attempt, making the sweep threat a gateway to the entire Dogfight attacking system.
 
-**From Position**: [[Dogfight Position]] (Bottom)
+**From Position**: [[Positions/Dogfight Position]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The Dogfight Sweep attacker is the bottom half guard player who has successfully
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Dogfight Position]] | 30% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Dogfight Position]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Dogfight Sweep attacker is the bottom half guard player who has successfully
 
 ## Opponent Counters
 
-- **Opponent applies heavy whizzer and drives forward to flatten the sweeper back to the mat** (Effectiveness: High) - Your Response: If the whizzer pressure is overwhelming, redirect by ducking under into deep half guard where the whizzer becomes a liability. Alternatively, release the far leg grip momentarily to re-pummel the underhook deeper, then reattempt with improved leverage. → Leads to [[Flattened Half Guard]]
-- **Opponent retracts far leg and pulls hips back to deny the grip** (Effectiveness: Medium) - Your Response: When the opponent pulls their far leg back, their back becomes exposed. Immediately transition to a back take by deepening the underhook, driving your chest into their back, and working to establish seatbelt or harness control as they turn away. → Leads to [[Dogfight Position]]
-- **Opponent crossfaces aggressively and sprawls their hips back to create distance** (Effectiveness: High) - Your Response: Against strong crossface and sprawl, maintain your underhook at all costs and angle your body offline to redirect the crossface pressure past your head. If you cannot maintain the dogfight posture, drop to deep half guard or reset to knee shield half guard to preserve your guard. → Leads to [[Flattened Half Guard]]
-- **Opponent sits through to a hip switch position, changing the angle of engagement** (Effectiveness: Medium) - Your Response: Follow the opponent's hip switch by adjusting your own angle. If they switch to face the other direction, your underhook may transition to a body lock grip. Chase their hips with forward pressure and look for the far leg on the new angle or transition to a forward drive sweep. → Leads to [[Dogfight Position]]
+- **Opponent applies heavy whizzer and drives forward to flatten the sweeper back to the mat** (Effectiveness: High) - Your Response: If the whizzer pressure is overwhelming, redirect by ducking under into deep half guard where the whizzer becomes a liability. Alternatively, release the far leg grip momentarily to re-pummel the underhook deeper, then reattempt with improved leverage. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent retracts far leg and pulls hips back to deny the grip** (Effectiveness: Medium) - Your Response: When the opponent pulls their far leg back, their back becomes exposed. Immediately transition to a back take by deepening the underhook, driving your chest into their back, and working to establish seatbelt or harness control as they turn away. → Leads to [[Positions/Dogfight Position]]
+- **Opponent crossfaces aggressively and sprawls their hips back to create distance** (Effectiveness: High) - Your Response: Against strong crossface and sprawl, maintain your underhook at all costs and angle your body offline to redirect the crossface pressure past your head. If you cannot maintain the dogfight posture, drop to deep half guard or reset to knee shield half guard to preserve your guard. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent sits through to a hip switch position, changing the angle of engagement** (Effectiveness: Medium) - Your Response: Follow the opponent's hip switch by adjusting your own angle. If they switch to face the other direction, your underhook may transition to a body lock grip. Chase their hips with forward pressure and look for the far leg on the new angle or transition to a forward drive sweep. → Leads to [[Positions/Dogfight Position]]
 
 
 </section>

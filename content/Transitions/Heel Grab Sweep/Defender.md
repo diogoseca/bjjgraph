@@ -154,7 +154,7 @@ description: "How to defend against Heel Grab Sweep in BJJ. Recognition cues, de
 
 Defending the Heel Grab Sweep requires the top player to recognize the threat early, neutralize the opponent's heel control, and systematically address the Single Leg X Guard hooks that power the sweep. As the defender, you are standing or semi-standing with one leg trapped in the opponent's Single Leg X configuration, and your primary goal is to prevent them from coordinating the explosive leg extension with the heel pull that generates the sweep. Early recognition is essential because the sweep becomes nearly impossible to stop once both elements fire simultaneously. Your defensive hierarchy prioritizes breaking heel grips first, then addressing your base and posture, and finally working to extract your trapped leg or pass the guard. Understanding that the sweep requires diagonal force generation helps you position your base to take away the sweeping angle. The most effective defensive strategy combines grip fighting on your heel with proactive base adjustments and systematic hook removal rather than simply trying to muscle through or yank your leg free.
 
-**Opponent's Starting Position**: [[Single Leg X-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Heel Grab Sweep requires the top player to recognize the threat ea
 ### 1. Strip heel grips immediately by pushing opponent's hands off your heel using your free hand, peeling their fingers or redirecting their grip to your ankle where they have less rotational control
 
 - **When to use**: As soon as you feel both hands securing your heel bone, before they can coordinate the sweep
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: Opponent loses primary control point and must re-establish grips, giving you time to work on hook removal and passing
 - **Risk**: Reaching for your heel temporarily compromises your upper body base and posting ability
 
 ### 2. Sit your hips down and back quickly to nullify the sweeping mechanics, dropping your center of gravity below the point where their leg extension can generate sufficient elevation
 
 - **When to use**: When you feel the opponent begin the explosive leg extension and realize the sweep is being initiated
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: Sweep is neutralized because your weight is too low for the elevation mechanics to work, and you can begin working to pass from a low base
 - **Risk**: Sitting exposes you to leg entanglement transitions as the opponent may pivot to Ashi Garami or heel hook entries
 
 ### 3. Step your free leg wide and back diagonally opposite the sweeping direction, establishing a wide triangular base that resists the off-balancing forces
 
 - **When to use**: When you recognize the opponent creating a diagonal sweeping angle with their hip shift
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: Wide base absorbs the sweeping forces and prevents you from toppling, allowing you to work on grip stripping and guard passing
 - **Risk**: Over-committing the free leg back may open you to a redirected sweep toward the other direction or a Tripod Sweep
 
 ### 4. Circle your trapped leg to extract it from the X-hook configuration before the sweep can be executed, rotating your knee outward to break the hook connection
 
 - **When to use**: When the opponent's X-hook is not fully deep behind your knee and you detect a gap in their control
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: Full extraction from Single Leg X Guard, allowing you to establish a passing position from standing
 - **Risk**: Failed extraction attempt may tighten the opponent's hooks and accelerate their sweep timing
 
@@ -225,11 +225,11 @@ Defending the Heel Grab Sweep requires the top player to recognize the threat ea
 
 ## Best-Case Outcomes for Defender
 
-### → [[Single Leg X-Guard]]
+### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 Strip the opponent's heel grips early and maintain your base while systematically working to remove their X-hook. Address the bottom hook first through knee alignment and pressure, then clear the top hook and extract your leg to begin passing. This keeps you in top position within the guard while progressively weakening their control.
 
-### → [[Single Leg X-Guard]]
+### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 Successfully extract your trapped leg by circling your knee outward when the opponent's hook connection has a gap, or by systematically clearing both hooks through pressure and angle changes. Once free, immediately establish a passing position such as headquarters or combat base before they can re-entangle your legs.
 

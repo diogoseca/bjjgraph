@@ -174,7 +174,7 @@ description: "How to execute Jailbreak to Turtle in BJJ. Attacking perspective w
 
 The Jailbreak to Turtle escape converts the opponent's forward pressure into rotational momentum, rolling through their committed weight to establish turtle position. This technique requires explosive inversion mechanics anchored by underhook connection throughout the entire rolling sequence. The escape is most effective when the top player drives forward to complete the pass, creating the exact conditions that make the roll mechanically viable. Mastering this transition provides a critical escape valve from compressed half guard and chains into guard recovery, technical standups, and back takes when opponents follow the roll.
 
-**From Position**: [[Jailbreak]] (Bottom)
+**From Position**: [[Positions/Jailbreak]] (Bottom)
 
 </section>
 
@@ -225,9 +225,9 @@ The Jailbreak to Turtle escape converts the opponent's forward pressure into rot
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Jailbreak]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Jailbreak]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -236,9 +236,9 @@ The Jailbreak to Turtle escape converts the opponent's forward pressure into rot
 
 ## Opponent Counters
 
-- **Top player sprawls hips back and bases wide when sensing the roll initiation, preventing forward momentum exploitation** (Effectiveness: High) - Your Response: If opponent bases wide, abandon the jailbreak and switch to deep half entry by diving underneath their hips, or threaten old school sweep to force reaction → Leads to [[Jailbreak]]
-- **Top player follows the roll and immediately attacks turtle with front headlock or back control attempts** (Effectiveness: Medium) - Your Response: Continue rolling momentum into a back take by using your underhook to pull yourself behind them as they chase, or immediately sit through to guard recovery → Leads to [[Turtle]]
-- **Top player strips underhook during the roll attempt and drives to side control** (Effectiveness: High) - Your Response: If underhook is compromised, abort the jailbreak immediately and establish emergency frames to prevent complete pass, then work standard side control escapes → Leads to [[Side Control]]
+- **Top player sprawls hips back and bases wide when sensing the roll initiation, preventing forward momentum exploitation** (Effectiveness: High) - Your Response: If opponent bases wide, abandon the jailbreak and switch to deep half entry by diving underneath their hips, or threaten old school sweep to force reaction → Leads to [[Positions/Jailbreak]]
+- **Top player follows the roll and immediately attacks turtle with front headlock or back control attempts** (Effectiveness: Medium) - Your Response: Continue rolling momentum into a back take by using your underhook to pull yourself behind them as they chase, or immediately sit through to guard recovery → Leads to [[Positions/Turtle]]
+- **Top player strips underhook during the roll attempt and drives to side control** (Effectiveness: High) - Your Response: If underhook is compromised, abort the jailbreak immediately and establish emergency frames to prevent complete pass, then work standard side control escapes → Leads to [[Positions/Side Control]]
 
 
 </section>

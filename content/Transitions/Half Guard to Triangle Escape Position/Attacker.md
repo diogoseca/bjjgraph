@@ -180,7 +180,7 @@ description: "Master the defensive transition into triangle escape position from
 
 As the attacker executing this transition, you are the half guard top player who has been caught in a triangle during a passing attempt and must immediately establish a structured escape position. Your objective shifts from offensive passing to defensive survival and systematic escape. The transition requires suppressing the panic response that accompanies sudden submission danger and instead executing a precise sequence of defensive actions: recognizing the triangle threat, protecting the trapped arm, recovering posture, and establishing the base and structural frames needed for the subsequent escape. Speed of recognition is the single most important factor - every second of delay allows the bottom player to tighten the lock, optimize their angle, and begin the finishing squeeze that dramatically reduces your escape probability.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ As the attacker executing this transition, you are the half guard top player who
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Escape Position]] | 60% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Triangle Control]] | 15% |
+| Success | [[Positions/Triangle Escape Position]] | 60% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Triangle Control]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ As the attacker executing this transition, you are the half guard top player who
 
 ## Opponent Counters
 
-- **Bottom player pulls head down aggressively to re-break posture during recovery attempt** (Effectiveness: High) - Your Response: Drive upward explosively from your legs while simultaneously posting your free hand higher on the mat to create a structural frame. Use short, repeated driving motions rather than one sustained effort to gradually recover posture against their pulling force. → Leads to [[Half Guard]]
-- **Bottom player optimizes angle by scooting hips laterally before escape position is established** (Effectiveness: High) - Your Response: Immediately step in the same direction as their hip movement to match their angle change while pressing down on their hip with your free hand. Maintain forward pressure throughout the adjustment to prevent them from completing the angle optimization. → Leads to [[Triangle Control]]
-- **Bottom player transitions to armbar on the trapped arm during posture recovery** (Effectiveness: Medium) - Your Response: Keep trapped arm elbow pinned to ribs and turn your body toward the trapped arm side. Stack forward pressure even more aggressively while following their hip rotation. The key is preventing arm isolation by maintaining the compact elbow-to-ribs position throughout. → Leads to [[Triangle Control]]
-- **Bottom player locks triangle tighter by squeezing knees together and extending hips** (Effectiveness: Medium) - Your Response: Drive forward aggressively to stack their hips over their shoulders, compressing the triangle structure and limiting their ability to extend. The stacking pressure reduces the effectiveness of the squeeze by changing the angle of force application on your neck. → Leads to [[Half Guard]]
+- **Bottom player pulls head down aggressively to re-break posture during recovery attempt** (Effectiveness: High) - Your Response: Drive upward explosively from your legs while simultaneously posting your free hand higher on the mat to create a structural frame. Use short, repeated driving motions rather than one sustained effort to gradually recover posture against their pulling force. → Leads to [[Positions/Half Guard]]
+- **Bottom player optimizes angle by scooting hips laterally before escape position is established** (Effectiveness: High) - Your Response: Immediately step in the same direction as their hip movement to match their angle change while pressing down on their hip with your free hand. Maintain forward pressure throughout the adjustment to prevent them from completing the angle optimization. → Leads to [[Positions/Triangle Control]]
+- **Bottom player transitions to armbar on the trapped arm during posture recovery** (Effectiveness: Medium) - Your Response: Keep trapped arm elbow pinned to ribs and turn your body toward the trapped arm side. Stack forward pressure even more aggressively while following their hip rotation. The key is preventing arm isolation by maintaining the compact elbow-to-ribs position throughout. → Leads to [[Positions/Triangle Control]]
+- **Bottom player locks triangle tighter by squeezing knees together and extending hips** (Effectiveness: Medium) - Your Response: Drive forward aggressively to stack their hips over their shoulders, compressing the triangle structure and limiting their ability to extend. The stacking pressure reduces the effectiveness of the squeeze by changing the angle of force application on your neck. → Leads to [[Positions/Half Guard]]
 
 
 </section>

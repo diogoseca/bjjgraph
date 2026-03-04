@@ -180,7 +180,7 @@ description: "Master executing the Lasso Sweep from bottom position. Learn grip 
 
 Executing the Lasso Sweep requires understanding the precise mechanical interaction between your lasso leg, your pulling grips, and the opponent's compromised base. As the attacker, your primary advantage is the structural imbalance created by the lasso—the opponent's trapped arm cannot post or generate defensive force on that side. Your objective is to amplify this imbalance through coordinated extension of the lasso leg, a strong secondary pulling grip, and decisive hip rotation that converts the off-balance into a full sweep to mount. Timing is critical: the sweep succeeds when the opponent's weight shifts forward or toward the lasso side, and fails when attempted against a seated, disengaged opponent.
 
-**From Position**: [[Lasso Guard]] (Bottom)
+**From Position**: [[Positions/Lasso Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Lasso Sweep requires understanding the precise mechanical interact
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Lasso Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Lasso Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Lasso Sweep requires understanding the precise mechanical interact
 
 ## Opponent Counters
 
-- **Posting free hand on the mat to create an anchor preventing the sweep rotation** (Effectiveness: High) - Your Response: Redirect the sweep angle to go over the posted arm, or use your non-lasso foot to kick the posting hand away while loading the sweep. If the post is too strong, transition to a triangle setup by pulling the posted arm across your centerline. → Leads to [[Lasso Guard]]
-- **Stepping over the lasso leg to remove the perpendicular sweep angle entirely** (Effectiveness: High) - Your Response: Immediately retract the lasso and reposition before the opponent completes the step-over. If they succeed, transition to open guard retention or recover to spider guard using the sleeve grip you still maintain. → Leads to [[Open Guard]]
-- **Sitting back and disengaging weight to remove forward momentum from the sweep loading** (Effectiveness: Medium) - Your Response: Use the distance created to extend the lasso further and threaten a triangle by pulling the arm across, or transition to a sickle sweep that targets the trailing leg rather than requiring forward weight commitment. → Leads to [[Lasso Guard]]
-- **Grabbing the sweeper's pants or belt to block hip rotation and anchor position** (Effectiveness: Medium) - Your Response: Strip the grip by pushing their hand away with your non-lasso foot, or change the sweep angle to go perpendicular to their grip direction where the pants grip provides no mechanical resistance to the rotation. → Leads to [[Lasso Guard]]
+- **Posting free hand on the mat to create an anchor preventing the sweep rotation** (Effectiveness: High) - Your Response: Redirect the sweep angle to go over the posted arm, or use your non-lasso foot to kick the posting hand away while loading the sweep. If the post is too strong, transition to a triangle setup by pulling the posted arm across your centerline. → Leads to [[Positions/Lasso Guard]]
+- **Stepping over the lasso leg to remove the perpendicular sweep angle entirely** (Effectiveness: High) - Your Response: Immediately retract the lasso and reposition before the opponent completes the step-over. If they succeed, transition to open guard retention or recover to spider guard using the sleeve grip you still maintain. → Leads to [[Positions/Open Guard]]
+- **Sitting back and disengaging weight to remove forward momentum from the sweep loading** (Effectiveness: Medium) - Your Response: Use the distance created to extend the lasso further and threaten a triangle by pulling the arm across, or transition to a sickle sweep that targets the trailing leg rather than requiring forward weight commitment. → Leads to [[Positions/Lasso Guard]]
+- **Grabbing the sweeper's pants or belt to block hip rotation and anchor position** (Effectiveness: Medium) - Your Response: Strip the grip by pushing their hand away with your non-lasso foot, or change the sweep angle to go perpendicular to their grip direction where the pants grip provides no mechanical resistance to the rotation. → Leads to [[Positions/Lasso Guard]]
 
 
 </section>

@@ -211,29 +211,29 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 
 ## Available Attacks
 
-### [[Heel Hook]] (18% of attempts)
+### [[Transitions/Heel Hook]] (18% of attempts)
 
-### [[Outside Heel Hook]] (10% of attempts)
+### [[Transitions/Outside Heel Hook]] (10% of attempts)
 
-### [[Toe Hold]] (10% of attempts)
+### [[Transitions/Toe Hold]] (10% of attempts)
 
-### [[Straight Ankle Lock Entry]] (5% of attempts)
+### [[Transitions/Straight Ankle Lock Entry]] (5% of attempts)
 
-### [[Saddle Entry from Top]] (12% of attempts)
+### [[Transitions/Saddle Entry from Top]] (12% of attempts)
 
-### [[Kneebar]] (7% of attempts)
+### [[Transitions/Kneebar]] (7% of attempts)
 
-### [[50-50 Pass]] (6% of attempts)
+### [[Transitions/50-50 Pass]] (6% of attempts)
 
-### [[Back Take from 50-50]] (16% of attempts)
+### [[Transitions/Back Take from 50-50]] (16% of attempts)
 
-### [[Calf Slicer]] (4% of attempts)
+### [[Transitions/Calf Slicer]] (4% of attempts)
 
-### [[Inside Ashi-Garami to Honey Hole]] (6% of attempts)
+### [[Transitions/Inside Ashi-Garami to Honey Hole]] (6% of attempts)
 
-### [[Counter heel hook]] (4% of attempts)
+### [[Transitions/Counter heel hook]] (4% of attempts)
 
-### [[Outside Heel Hook from Backside 50-50]] (2% of attempts)
+### [[Submissions/Outside Heel Hook from Backside 50-50]] (2% of attempts)
 
 
 
@@ -244,31 +244,31 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 ## Decision Making from This Position
 
 **If opponent is primarily defending their back and creating frames to prevent you from walking up their body:**
-- Execute **[[Heel Hook]]** → [[Game Over]] (Probability: 50%)
-- Execute **[[Outside Heel Hook]]** → [[Game Over]] (Probability: 45%)
-- Execute **[[Toe Hold]]** → [[Game Over]] (Probability: 40%)
+- Execute **[[Transitions/Heel Hook]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Transitions/Outside Heel Hook]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Toe Hold]]** → [[Positions/Game Over]] (Probability: 40%)
 
 
 **If opponent is primarily defending leg attacks with good positioning and control of your legs:**
-- Execute **[[Back Take from 50-50]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 55%)
-- Execute **[[50-50 Pass]]** → [[Leg Drag Control]] (Probability: 50%)
+- Execute **[[Transitions/Back Take from 50-50]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
+- Execute **[[Transitions/50-50 Pass]]** → [[Positions/Leg Drag Control]] (Probability: 50%)
 
 
 **If opponent attempts to sweep by inverting or creating angles with their hips:**
-- Execute **[[Back Take from 50-50]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 55%)
-- Execute **[[Heel Hook]]** → [[Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Back Take from 50-50]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
+- Execute **[[Transitions/Heel Hook]]** → [[Positions/Game Over]] (Probability: 45%)
 
 
 **If opponent exposes their near leg by straightening or extending it during escape attempts:**
-- Execute **[[Kneebar]]** → [[Game Over]] (Probability: 55%)
-- Execute **[[Straight Ankle Lock Entry]]** → [[Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Kneebar]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Transitions/Straight Ankle Lock Entry]]** → [[Positions/Game Over]] (Probability: 60%)
 
 
 **If opponent commits to turtle position to defend both back and legs simultaneously:**
-- Execute **[[Back Take from 50-50]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Calf Slicer]]** → [[Game Over]] (Probability: 50%)
+- Execute **[[Transitions/Back Take from 50-50]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Calf Slicer]]** → [[Positions/Game Over]] (Probability: 50%)
 
 
 
@@ -409,14 +409,14 @@ Starting from backside 50-50 top, practice finishing sequence for heel hook, out
 
 ## Related Positions and Techniques
 
-- **[[50-50 Guard]]** - Standard face-to-face variation with different attack angles
-- **[[Saddle]]** - Common transition target with both legs controlled
-- **[[Back Control]]** - High-percentage advancement option when legs are defended
-- **[[Inside Ashi-Garami]]** - Related leg entanglement with single leg control
-- **[[Honey Hole]]** - Alternative leg entanglement configuration from top
-- **[[Heel Hook]]** - Primary submission finish from this position
-- **[[Outside Heel Hook]]** - Alternative heel attack option from this position
-- **[[Toe Hold]]** - Complementary leg attack when heel is defended
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Standard face-to-face variation with different attack angles
+- **[[Positions/Ashi Garami/Saddle]]** - Common transition target with both legs controlled
+- **[[Positions/Back Control]]** - High-percentage advancement option when legs are defended
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Related leg entanglement with single leg control
+- **[[Positions/Ashi Garami/Honey Hole]]** - Alternative leg entanglement configuration from top
+- **[[Transitions/Heel Hook]]** - Primary submission finish from this position
+- **[[Transitions/Outside Heel Hook]]** - Alternative heel attack option from this position
+- **[[Transitions/Toe Hold]]** - Complementary leg attack when heel is defended
 
 
 </section>

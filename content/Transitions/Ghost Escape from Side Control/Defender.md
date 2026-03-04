@@ -154,7 +154,7 @@ description: "Defend the Ghost Escape to guard from side control top. Recognitio
 
 Defending the Ghost Escape to open guard means preventing the bottom player from threading their knee through during the turning escape and recovering guard directly. As the top player, your primary advantage is that this variant requires more precise mechanics than the standard ghost escape to turtle, meaning there are more points of failure you can exploit. The bottom player needs their near-side frame, a specific weight distribution where your hips are light, and enough space during the turn to drive their knee between the bodies. Your defensive strategy centers on maintaining heavy hip-to-hip contact to deny the rotation space, recognizing the turn initiation within the first fraction of a second, and either preventing the turn entirely or following it so closely that the knee thread is impossible and they default to turtle. The key insight is that denying the knee insertion is as valuable as stopping the turn completely, because forcing them to turtle instead of guard puts them in a position where you can attack their back.
 
-**Opponent's Starting Position**: [[Side Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the Ghost Escape to open guard means preventing the bottom player from
 ### 1. Drive hips low and heavy against opponent's hips to prevent the initial rotation from starting
 
 - **When to use**: Preemptively when you feel the opponent establishing the near-side hip frame that signals ghost escape setup
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent remains pinned with insufficient hip space to initiate the turn, neutralizing the escape before it begins
 - **Risk**: Over-committing hip weight forward may reduce your crossface pressure, opening space for traditional hip escapes toward you
 
 ### 2. Follow the turn by driving your chest onto opponent's back and closing the gap to prevent knee insertion
 
 - **When to use**: When the opponent has committed to the turn and their hips are already rotating away from you
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Opponent reaches turtle instead of guard, giving you back attack opportunities from turtle top position
 - **Risk**: If you follow too aggressively without controlling their hips, they may complete the knee thread before you can close the gap
 
 ### 3. Transition to north-south by circling toward opponent's head when you feel them angling hips away
 
 - **When to use**: Early in the escape attempt when the opponent's hips just begin to angle but before the explosive turn
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Cut off the escape angle entirely by changing the control position, resetting all escape attempts from a new angle
 - **Risk**: The north-south transition creates momentary hip separation that a quick opponent may exploit to accelerate their turn
 
 ### 4. Collapse the near-side hip frame by driving your weight through it and swimming your arm inside to underhook
 
 - **When to use**: When you recognize the frame establishment that precedes the escape, before any turning movement begins
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Eliminate the frame that makes the escape possible, forcing the opponent to re-establish before they can attempt the escape again
 - **Risk**: Swimming for the underhook momentarily reduces chest pressure, which may create space for alternative escape paths
 
@@ -224,11 +224,11 @@ Defending the Ghost Escape to open guard means preventing the bottom player from
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Prevent the turn entirely by maintaining heavy hip-to-hip contact and proactively collapsing the near-side frame when you feel it being established. Drive your hips low and forward the instant you recognize rotational hip movement, flattening the bottom player before the turn develops any momentum.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 When the turn is already committed, follow it aggressively by driving your chest onto the opponent's back and closing the gap between bodies so the knee cannot thread through. Accept the transition to turtle top where you have back attack opportunities, which is significantly better than allowing direct guard recovery.
 

@@ -154,7 +154,7 @@ description: "Complete guide to defending the Triangle from Spider Guard in BJJ.
 
 Defending the Triangle from Spider Guard requires recognizing the setup before the attacker's leg crosses your shoulder. The critical defensive window is the moment the bottom player removes one foot from your bicep—this signals the triangle entry is beginning. Your primary defense is immediate posture recovery combined with grip stripping during the entry phase. Once the triangle is partially locked, your defensive options narrow dramatically, so early recognition and prevention are the highest-percentage defensive strategies. Understanding the push-pull mechanic the attacker uses allows you to deny the arm isolation that makes the triangle possible, keeping your elbows tight and your posture upright to eliminate the entry conditions entirely.
 
-**Opponent's Starting Position**: [[Spider Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Triangle from Spider Guard requires recognizing the setup before t
 ### 1. Posture up immediately and retract the threatened elbow to your hip
 
 - **When to use**: At the first sign of asymmetric pulling on one arm or when you feel one foot leaving your bicep—this must be reflexive, not deliberate
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: The triangle entry is denied entirely and you remain in spider guard top with passing opportunities
 - **Risk**: If you posture too late and the leg is already over your shoulder, posturing can actually help them close the lock by creating tension in their legs
 
 ### 2. Strip the pulling-side sleeve grip using a two-on-one break while stepping backward
 
 - **When to use**: When you feel strong pulling on one sleeve and cannot maintain elbow position against the pull—the grip break must happen before the hip elevation
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: Without the sleeve grip, the attacker cannot control your arm during the entry and must abort or reset their spider guard
 - **Risk**: Two-on-one grip break temporarily frees the opponent's other hand for a collar grip or alternative attack
 
 ### 3. Stack forward and drive weight onto the opponent as the triangle entry begins
 
 - **When to use**: When the opponent has already begun the hip elevation and you cannot prevent the leg from crossing your shoulder—the stack must be immediate and heavy
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Stacking compresses the opponent's triangle structure, prevents the angle adjustment, and can create passing opportunities as their guard structure collapses
 - **Risk**: If you stack without controlling the trapped arm, the opponent can transition to omoplata using your forward pressure
 
 ### 4. Circle away laterally from the triangle side while maintaining base
 
 - **When to use**: When the triangle entry begins but you still have reasonable posture and the lock is not yet closed—lateral movement denies the angle and creates distance
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The attacker's leg slides off your shoulder as you create lateral distance, and their spider guard structure is disrupted by the angle change
 - **Risk**: Circling away while the opponent maintains sleeve grip can expose you to armbar or omoplata entries from the disrupted position
 
@@ -225,11 +225,11 @@ Defending the Triangle from Spider Guard requires recognizing the setup before t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Spider Guard]]
+### → [[Positions/Spider Guard]]
 
 Maintain strong posture and prevent arm isolation by keeping both elbows tight to your ribs throughout the spider guard engagement. When you feel asymmetric pulling on one sleeve, immediately counter-pull that elbow back toward your hip rather than letting it drift across the opponent's centerline. This denies the fundamental prerequisite for the triangle and keeps the position in neutral spider guard where you retain passing options.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip the sleeve grip early and immediately drive forward with stacking pressure as the opponent attempts the hip elevation. If the triangle entry is already committed, stack forward and pin their hips to the mat while working your trapped arm free. This disrupts their spider guard structure entirely and forces them into a generic open guard where you have superior passing opportunities.
 

@@ -21,7 +21,7 @@ The mechanics of this escape exploit a structural weakness in the bottom guillot
 
 Timing is critical. The escape becomes exponentially harder the longer you remain trapped with broken posture. Early recognition and immediate posture recovery before the opponent can fully lock their grip and close their guard dramatically increases success rates. Conversely, a late escape attempt against a fully locked high-elbow guillotine with closed guard may require transitioning to alternative escapes rather than forcing the posture recovery.
 
-**From Position**: [[Guillotine Control]] (Bottom)
+**From Position**: [[Positions/Guillotine Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Timing is critical. The escape becomes exponentially harder the longer you remai
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Guillotine Control]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Guillotine Control]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -195,23 +195,23 @@ The Guillotine Escape via Posture is a cornerstone defensive transition that con
 ## Related Techniques
 
 
-- [[Guillotine Control]] - Source position where this escape is initiated from the top player's perspective while caught in the bottom player's guillotine
+- [[Positions/Guillotine Control]] - Source position where this escape is initiated from the top player's perspective while caught in the bottom player's guillotine
 
-- [[Half Guard]] - Primary success destination after completing the posture escape and settling into a passing position
+- [[Positions/Half Guard]] - Primary success destination after completing the posture escape and settling into a passing position
 
-- [[Mount]] - Counter outcome position where the opponent sweeps you with a hip bump during the escape attempt
+- [[Positions/Mount]] - Counter outcome position where the opponent sweeps you with a hip bump during the escape attempt
 
-- [[Closed Guard]] - Related position that the opponent may transition to by closing guard to prevent the posture escape
+- [[Positions/Closed Guard]] - Related position that the opponent may transition to by closing guard to prevent the posture escape
 
-- [[Front Headlock]] - Related control position in the front headlock family that shares defensive principles with guillotine escape
+- [[Positions/Front Headlock]] - Related control position in the front headlock family that shares defensive principles with guillotine escape
 
-- [[Open Guard]] - Alternative position reached if the guillotine is broken but the opponent retains open guard
+- [[Positions/Open Guard]] - Alternative position reached if the guillotine is broken but the opponent retains open guard
 
-- [[Guillotine Escape to Von Flue]] - Alternative escape technique that converts the opponent's guillotine into a Von Flue choke counter
+- [[Transitions/Guillotine Escape to Von Flue]] - Alternative escape technique that converts the opponent's guillotine into a Von Flue choke counter
 
-- [[Arm in Guillotine Variation]] - Related guillotine variation that the opponent may transition to during your escape, requiring adjusted defense
+- [[Transitions/Arm in Guillotine Variation]] - Related guillotine variation that the opponent may transition to during your escape, requiring adjusted defense
 
-- [[Chin Strap Guillotine]] - Related submission threat that the opponent may use as an alternative grip when standard guillotine is being escaped
+- [[Submissions/Chin Strap Guillotine]] - Related submission threat that the opponent may use as an alternative grip when standard guillotine is being escaped
 
 
 </section>

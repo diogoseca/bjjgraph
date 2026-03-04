@@ -154,7 +154,7 @@ description: "Defend against the Standing Guard Pull in BJJ. Recognition cues, c
 
 As the defender facing a Standing Guard Pull, your primary objective is to prevent your opponent from establishing a functional guard structure. The critical window occurs during the descent—the brief period when the guard puller is transitioning from standing to ground offers your best opportunity to advance position. If you react passively, your opponent lands in their preferred guard and begins attacking immediately. Successful defense requires recognizing the pull's initiation cues within milliseconds, driving forward to deny space for guard establishment, and immediately engaging in guard passing before your opponent can consolidate hooks and grips. The defender who understands pull timing can transform their opponent's guard pull into a passing opportunity, converting what was intended as an offensive transition into an immediate positional disadvantage for the puller.
 
-**Opponent's Starting Position**: [[Standing Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender facing a Standing Guard Pull, your primary objective is to preve
 ### 1. Strip grips before the descent completes using two-on-one grip breaks
 
 - **When to use**: At the earliest recognition stage, when you detect grip tightening and posture dropping but before the opponent has committed to sitting
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: The opponent loses their pulling connection and either aborts the pull to re-engage in grip fighting or falls to the mat without control, giving you an immediate passing opportunity
 - **Risk**: Momentary loss of your own grips and posture while executing the break, creating a brief window where the opponent could re-grip or adjust
 
 ### 2. Drive forward with heavy shoulder and hip pressure during the opponent's descent
 
 - **When to use**: When the opponent has committed to the pull and is mid-descent—too late to abort but before they have landed and established hooks
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your forward pressure crashes through the opponent's developing guard structure, driving past their leg frames and landing in half guard top or side control
 - **Risk**: If the opponent has strong hooks already in, your forward drive can be redirected into a sweep using your own momentum against you
 
 ### 3. Circle laterally to avoid the pull trajectory and deny the pulling angle
 
 - **When to use**: When you detect the pull setup early and can disengage by moving laterally rather than backward, particularly when the opponent has only one grip established
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You escape the pulling axis entirely, forcing the opponent to either abort and re-engage in grip fighting or land in a guard position without any connection to you
 - **Risk**: Lateral movement can expose your back briefly if the opponent redirects the pull into an arm drag or collar drag as you circle
 
 ### 4. Pummel past legs immediately by driving your knee between the opponent's thighs during their descent
 
 - **When to use**: When the opponent has committed to sitting and you can time your forward drive to advance your knee past their hip line before they insert hooks
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish a knee-through position that bypasses the open guard entirely, landing in half guard top or headquarters with immediate passing pressure
 - **Risk**: If your timing is off and the opponent inserts hooks before your knee advances, you may end up loaded on their butterfly hooks in a vulnerable sweeping position
 
@@ -225,11 +225,11 @@ As the defender facing a Standing Guard Pull, your primary objective is to preve
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Strip the opponent's controlling grips before they commit to the descent, forcing them to abort the pull and re-engage in standing grip fighting. Use two-on-one grip breaks on their strongest grip the moment you detect tightening and posture-dropping cues. Alternatively, circle laterally to deny the pulling angle entirely.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Drive forward aggressively during the opponent's descent to crash through their developing guard structure before hooks are established. Time your forward pressure to coincide with their mid-descent window when they have neither standing base nor completed guard. Advance your knee past their hip line to bypass open guard and land in a dominant half guard top or passing position.
 

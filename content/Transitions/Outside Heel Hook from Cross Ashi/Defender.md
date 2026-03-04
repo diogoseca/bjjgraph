@@ -154,7 +154,7 @@ description: "Defend the Outside Heel Hook from Cross Ashi-Garami. Recognition c
 
 Defending the Outside Heel Hook from Cross Ashi-Garami is one of the most critical skills in modern no-gi grappling, as this submission attacks the knee ligaments without the pain warning that accompanies most joint locks. The defender must prioritize early recognition of the attack, aggressive hand fighting to prevent grip establishment, and intelligent hip management to deny the attacker optimal finishing mechanics. The defensive framework centers on a hierarchy of responses: prevent the heel exposure, strip the grip before it locks, counter-entangle to create mutual threat, or tap immediately if the submission is secured. Understanding this hierarchy and executing each level with proper timing is essential for safe participation in leg lock grappling at any competitive level.
 
-**Opponent's Starting Position**: [[Cross Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Outside Heel Hook from Cross Ashi-Garami is one of the most critic
 ### 1. Aggressive hand fighting to strip the heel grip before figure-four locks
 
 - **When to use**: Immediately upon recognizing the opponent reaching for your heel, before any grip is established or while only a single-hand grip exists
-- **Targets**: [[Cross Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Cross Ashi-Garami]]
 - **If successful**: Opponent's heel hook attempt is neutralized and they remain in cross ashi without immediate submission threat, forcing them to restart the attack sequence
 - **Risk**: If hand fighting fails and your hands are poorly positioned afterward, the opponent may lock the figure-four grip faster than if you had not intervened
 
 ### 2. Knee flexion and heel retraction (boot defense) to deny heel exposure
 
 - **When to use**: Continuously while in cross ashi as baseline defense, intensify immediately when heel hook attempt is recognized through the cues above
-- **Targets**: [[Cross Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Cross Ashi-Garami]]
 - **If successful**: Heel remains hidden behind the flexed knee and opponent cannot establish an effective grip behind the Achilles tendon
 - **Risk**: Requires constant hamstring engagement which is energy-intensive over time, and opponent may transition to toe hold or kneebar against the bent knee position
 
 ### 3. Counter-entangle by threading free leg inside opponent's entanglement to establish mutual leg attacks
 
 - **When to use**: When opponent loosens their inside hook or outside cross to focus on grip establishment, creating a window for leg insertion
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Mutual leg entanglement is established where both players have submission threats, neutralizing the attacker's positional advantage
 - **Risk**: If the counter-entanglement attempt fails, you may expose your back or create a worse entanglement position for yourself
 
 ### 4. Hip turn toward the opponent to hide the heel and dismantle the cross ashi structure
 
 - **When to use**: When opponent's inside hook weakens during grip transitions and their leg control is momentarily compromised
-- **Targets**: [[Cross Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Cross Ashi-Garami]]
 - **If successful**: Hip rotation hides the heel and begins dismantling the cross configuration, potentially leading to full escape or guard recovery
 - **Risk**: Turning hips incorrectly or with bad timing can further expose the heel or feed into the rotational finishing mechanics
 
@@ -225,11 +225,11 @@ Defending the Outside Heel Hook from Cross Ashi-Garami is one of the most critic
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Counter-entangle during the opponent's grip transition by threading your free leg inside their entanglement when the inside hook loosens. The mutual entanglement neutralizes their positional advantage and creates a leg lock exchange where your defensive awareness provides an edge.
 
-### → [[Cross Ashi-Garami]]
+### → [[Positions/Ashi Garami/Cross Ashi-Garami]]
 
 Strip the heel grip before the figure-four configuration locks by aggressively attacking the gripping hand at the fingers and wrist. Combine grip stripping with strong knee flexion to retract the heel. Successfully preventing the grip forces the opponent to restart their attack sequence, buying time for further defensive action.
 

@@ -21,7 +21,7 @@ The core mechanic involves converting horizontal hip-pushing control into vertic
 
 Timing is critical in this transition. Moving both feet simultaneously to the biceps creates a momentary gap in your defensive structure that alert opponents can exploit to strip grips or initiate passing sequences. The preferred approach is transitioning one foot at a time, maintaining at least one point of distance control throughout the movement. Reading the opponent's weight distribution and posture to identify the optimal transition window separates competent guard players from elite ones.
 
-**From Position**: [[Double Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Timing is critical in this transition. Moving both feet simultaneously to the bi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Spider Guard]] | 55% |
-| Failure | [[Double Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Spider Guard]] | 55% |
+| Failure | [[Positions/Double Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Double Sleeve to Spider transition is a foundational guard evolution pathway
 ## Related Techniques
 
 
-- [[Spider Guard]] - Target position providing superior distance management and sweep options
+- [[Positions/Spider Guard]] - Target position providing superior distance management and sweep options
 
-- [[Double Sleeve Guard]] - Source position providing the bilateral sleeve grips that foundation this transition
+- [[Positions/Double Sleeve Guard]] - Source position providing the bilateral sleeve grips that foundation this transition
 
-- [[Lasso Guard]] - Alternative transition target when opponent circles during spider entry
+- [[Positions/Lasso Guard]] - Alternative transition target when opponent circles during spider entry
 
-- [[De La Riva Guard]] - Complementary guard accessible from spider guard after successful transition
+- [[Positions/De La Riva Guard]] - Complementary guard accessible from spider guard after successful transition
 
-- [[Collar Sleeve Guard]] - Related guard system with similar grip-based control concepts
+- [[Positions/Collar Sleeve Guard]] - Related guard system with similar grip-based control concepts
 
-- [[Open Guard]] - Parent guard category encompassing both source and target positions
+- [[Positions/Open Guard]] - Parent guard category encompassing both source and target positions
 
-- [[Double Sleeve to Lasso]] - Alternative guard transition from the same starting position
+- [[Transitions/Double Sleeve to Lasso]] - Alternative guard transition from the same starting position
 
-- [[Double Sleeve to De La Riva]] - Alternative guard transition from the same starting position
+- [[Transitions/Double Sleeve to De La Riva]] - Alternative guard transition from the same starting position
 
-- [[Collar Sleeve to Spider Guard]] - Similar transition to spider guard from a different starting grip configuration
+- [[Transitions/Collar Sleeve to Spider Guard]] - Similar transition to spider guard from a different starting grip configuration
 
-- [[Triangle Setup]] - Primary submission entry available after establishing spider guard
+- [[Transitions/Triangle Setup]] - Primary submission entry available after establishing spider guard
 
-- [[Armbar Setup from Double Sleeve]] - Alternative attack path from the source position
+- [[Transitions/Armbar Setup from Double Sleeve]] - Alternative attack path from the source position
 
 
 </section>

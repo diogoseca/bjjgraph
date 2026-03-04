@@ -158,7 +158,7 @@ Your primary defensive tools are hip movement, frame creation, and knee shield i
 
 From a strategic perspective, your best defense against the leg drag to mount actually begins before the mount transition starts. If you can prevent the passer from flattening you during leg drag control, you maintain the option to turn toward turtle (defending the mount path) while the passer must commit to following you for the back take instead. This forces them into a more complex transition rather than the straightforward step-over to mount, buying you time and creating scramble opportunities.
 
-**Opponent's Starting Position**: [[Leg Drag Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ From a strategic perspective, your best defense against the leg drag to mount ac
 ### 1. Insert near-side knee shield during the step-over phase by hip escaping slightly and driving your knee between your body and the passer's torso
 
 - **When to use**: The moment you feel the opponent release leg control or begin lifting their far leg to step over—timing is critical, act on the first cue
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard with knee shield established, completely nullifying the mount attempt and returning to a playable guard position
 - **Risk**: If timed too late, the passer's near knee is already across your belly and your knee shield gets trapped underneath, worsening your position
 
 ### 2. Frame on the passer's shoulder and hip with both arms while hip escaping away to create distance and prevent them from completing the step-over
 
 - **When to use**: When the passer begins driving forward pressure to flatten you before the step-over—frame early to prevent them from establishing the angle needed for the transition
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: You create enough space to prevent the mount transition, forcing the passer to re-establish leg drag control or abandon the attempt entirely
 - **Risk**: Extended arms during framing can be targeted for Americana or kimura if the passer swims through your frame and isolates an arm
 
 ### 3. Turn slightly toward the passer and fight for an underhook on the near side while blocking their crossface with your far hand
 
 - **When to use**: When you feel the passer shift weight forward and begin upper body control adjustments that signal mount transition rather than back take
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: The underhook prevents the passer from completing the crossface needed to flatten you, stalling the transition and potentially creating a scramble back to guard
 - **Risk**: If the passer reads your underhook attempt and switches to a back take path, you may expose your back during the reach
 
 ### 4. Explosive bridge and hip escape combination timed to the exact moment the passer's far leg is mid-air during the step-over
 
 - **When to use**: When the passer commits fully to the step-over and their weight is momentarily unbalanced with one leg off the ground
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The bridge disrupts the passer's balance during the vulnerable mid-step-over moment, and the follow-up hip escape creates space to insert your knee and recover half guard
 - **Risk**: If mistimed, the bridge expends significant energy without creating meaningful space and you end up flat under mount with depleted reserves
 
@@ -228,11 +228,11 @@ From a strategic perspective, your best defense against the leg drag to mount ac
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Drag Control]]
+### → [[Positions/Leg Drag Control]]
 
 Frame aggressively at the passer's shoulder and hip before they can initiate the step-over. Use hip escape to create distance and prevent them from releasing leg control. If successful, you force them to remain in leg drag rather than advancing, and from there you can work standard leg drag escapes to recover guard or stand up.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your knee shield insertion to the exact moment the passer releases leg control or begins the step-over. Hip escape slightly to create the angle needed to slide your near knee between your bodies, then pinch your knees together to lock the half guard position. This is your highest-percentage defensive outcome and returns you to a position with strong offensive options.
 

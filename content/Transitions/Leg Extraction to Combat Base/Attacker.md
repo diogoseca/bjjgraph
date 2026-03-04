@@ -180,7 +180,7 @@ description: "How to execute Leg Extraction to Combat Base in BJJ. Attacking per
 
 Leg Extraction to Combat Base is the essential defensive transition when trapped in an opponent's lockdown half guard. The lockdown configuration severely restricts the top player's mobility by triangling around the trapped leg, making conventional passing impossible until the leg is freed. This technique employs a systematic approach combining upper body pressure, circular hip movement, and strategic angle changes to release the trapped leg from the figure-four configuration. Unlike attempting to simply pull backward against the lockdown—which strengthens the opponent's control—this extraction method works with the mechanics of the position. Once successfully extracted, the practitioner immediately establishes combat base, creating a stable platform for guard passing. The technique represents the critical bridge between being stuck in lockdown and initiating offensive passing sequences, making it an indispensable skill for any practitioner facing 10th Planet or lockdown-based half guard players.
 
-**From Position**: [[Lockdown]] (Top)
+**From Position**: [[Positions/Half Guard/Lockdown]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ Leg Extraction to Combat Base is the essential defensive transition when trapped
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Combat Base]] | 55% |
-| Failure | [[Lockdown]] | 30% |
-| Counter | [[Deep Half Guard]] | 15% |
+| Success | [[Positions/Combat Base]] | 55% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 30% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ Leg Extraction to Combat Base is the essential defensive transition when trapped
 
 ## Opponent Counters
 
-- **Opponent extends lockdown aggressively to load weight for Electric Chair** (Effectiveness: High) - Your Response: Drive forward pressure through chest rather than pulling back, compress their space to reduce extension effectiveness, and wait for them to relax before attempting extraction → Leads to [[Lockdown]]
-- **Opponent executes whip-up motion to come to dogfight position** (Effectiveness: High) - Your Response: Immediately increase shoulder pressure and post free hand far to the threatened side, if they continue rising accept scramble to dogfight and fight for underhook or transition to front headlock → Leads to [[Lockdown]]
-- **Opponent pummels for underhook on trapped-leg side** (Effectiveness: Medium) - Your Response: Swim your arm over theirs to re-establish underhook or use heavy shoulder pressure to drive their arm down, never allow underhook to remain unchallenged → Leads to [[Lockdown]]
-- **Opponent shrimps away and transitions to deep half guard** (Effectiveness: Medium) - Your Response: Immediately backstep to address deep half position before they complete entry, stay mobile and prevent them from getting underneath your hips → Leads to [[Deep Half Guard]]
+- **Opponent extends lockdown aggressively to load weight for Electric Chair** (Effectiveness: High) - Your Response: Drive forward pressure through chest rather than pulling back, compress their space to reduce extension effectiveness, and wait for them to relax before attempting extraction → Leads to [[Positions/Half Guard/Lockdown]]
+- **Opponent executes whip-up motion to come to dogfight position** (Effectiveness: High) - Your Response: Immediately increase shoulder pressure and post free hand far to the threatened side, if they continue rising accept scramble to dogfight and fight for underhook or transition to front headlock → Leads to [[Positions/Half Guard/Lockdown]]
+- **Opponent pummels for underhook on trapped-leg side** (Effectiveness: Medium) - Your Response: Swim your arm over theirs to re-establish underhook or use heavy shoulder pressure to drive their arm down, never allow underhook to remain unchallenged → Leads to [[Positions/Half Guard/Lockdown]]
+- **Opponent shrimps away and transitions to deep half guard** (Effectiveness: Medium) - Your Response: Immediately backstep to address deep half position before they complete entry, stay mobile and prevent them from getting underneath your hips → Leads to [[Positions/Half Guard/Deep Half Guard]]
 
 
 </section>

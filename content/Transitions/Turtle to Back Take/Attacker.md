@@ -176,7 +176,7 @@ The Turtle to Back Take from the attacker's perspective requires a systematic ap
 
 The attacker must read the defender's reactions in real time and adjust between direct hook insertion, chair sit entries, crab ride transitions, and crucifix threats based on what the defender gives. The ability to chain between these options transforms the back take from a single technique into a complete attacking system. Against high-level turtle defense, the attacker who can fluidly transition between these methods will eventually find the opening, while the attacker committed to a single approach will stall against disciplined defenders.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ The attacker must read the defender's reactions in real time and adjust between 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 68% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Turtle]] | 12% |
+| Success | [[Positions/Back Control]] | 68% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Turtle]] | 12% |
 
 
 </section>
@@ -240,11 +240,11 @@ The attacker must read the defender's reactions in real time and adjust between 
 
 ## Opponent Counters
 
-- **Opponent sits through to face you and recover guard** (Effectiveness: High) - Your Response: Maintain heavy chest pressure and control the far hip with your leg. If they begin sitting through, follow their rotation while maintaining seatbelt grip and transition to modified mount or front headlock position. The key is recognizing the hip shift early and driving your weight into their far shoulder to stall the rotation. → Leads to [[Turtle]]
-- **Opponent stands up explosively to escape** (Effectiveness: Medium) - Your Response: Keep your chest connection and seatbelt grip while following them up to standing. Transition to standing rear clinch position, then use your body weight hanging from the seatbelt grip to drag them back down while simultaneously working to insert or maintain your hooks throughout the standing phase. → Leads to [[Turtle]]
-- **Opponent rolls forward to escape hooks** (Effectiveness: Medium) - Your Response: Follow their roll while maintaining upper body control with seatbelt. Allow the roll but keep chest-to-back connection, then reestablish hooks as they complete the rotation. If they expose an arm during the roll, transition to crucifix position for an even more dominant control. → Leads to [[Back Control]]
-- **Opponent defends hooks with strong elbow frames pressed to hips** (Effectiveness: High) - Your Response: Use seatbelt grip to lift their upper body and create space between their elbows and hips for hook insertion. Alternatively, transition to crab ride with one hook in, or threaten the crucifix to force them to move their defensive arms, opening the path for your hooks. → Leads to [[Turtle]]
-- **Opponent hand-fights aggressively to strip seatbelt grip** (Effectiveness: Low) - Your Response: Adjust your seatbelt configuration to a high elbow position or switch to double underhooks. If hooks are already inserted, transition to body triangle which is less dependent on upper body grips. Use their grip-fighting energy against them by threatening submissions that force them to abandon the hand fight. → Leads to [[Back Control]]
+- **Opponent sits through to face you and recover guard** (Effectiveness: High) - Your Response: Maintain heavy chest pressure and control the far hip with your leg. If they begin sitting through, follow their rotation while maintaining seatbelt grip and transition to modified mount or front headlock position. The key is recognizing the hip shift early and driving your weight into their far shoulder to stall the rotation. → Leads to [[Positions/Turtle]]
+- **Opponent stands up explosively to escape** (Effectiveness: Medium) - Your Response: Keep your chest connection and seatbelt grip while following them up to standing. Transition to standing rear clinch position, then use your body weight hanging from the seatbelt grip to drag them back down while simultaneously working to insert or maintain your hooks throughout the standing phase. → Leads to [[Positions/Turtle]]
+- **Opponent rolls forward to escape hooks** (Effectiveness: Medium) - Your Response: Follow their roll while maintaining upper body control with seatbelt. Allow the roll but keep chest-to-back connection, then reestablish hooks as they complete the rotation. If they expose an arm during the roll, transition to crucifix position for an even more dominant control. → Leads to [[Positions/Back Control]]
+- **Opponent defends hooks with strong elbow frames pressed to hips** (Effectiveness: High) - Your Response: Use seatbelt grip to lift their upper body and create space between their elbows and hips for hook insertion. Alternatively, transition to crab ride with one hook in, or threaten the crucifix to force them to move their defensive arms, opening the path for your hooks. → Leads to [[Positions/Turtle]]
+- **Opponent hand-fights aggressively to strip seatbelt grip** (Effectiveness: Low) - Your Response: Adjust your seatbelt configuration to a high elbow position or switch to double underhooks. If hooks are already inserted, transition to body triangle which is less dependent on upper body grips. Use their grip-fighting energy against them by threatening submissions that force them to abandon the hand fight. → Leads to [[Positions/Back Control]]
 
 
 </section>

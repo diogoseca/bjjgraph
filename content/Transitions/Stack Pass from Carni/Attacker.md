@@ -180,7 +180,7 @@ description: "Complete guide to executing the Stack Pass from Carni in BJJ. Aggr
 
 As the top player caught in Carni, the stack pass represents your most aggressive escape option with the highest positional payoff. Rather than simply neutralizing the leg attack and accepting closed guard, you commit to driving through the bottom player's guard structure with the explicit goal of passing directly to side control. The technique demands confident forward pressure that collapses the Carni entanglement while simultaneously protecting your heel and walking around to the passing side. The critical insight is that your opponent's Carni control depends on maintaining specific angular relationships between their hips and your trapped leg. Aggressive stacking pressure disrupts these angles so completely that the entanglement structure fails, allowing you to clear the legs and consolidate side control. This escape is best deployed as a surprise counter when the bottom player expects defensive leg extraction rather than offensive forward engagement.
 
-**From Position**: [[Carni]] (Top)
+**From Position**: [[Positions/Rubber Guard/Carni]] (Top)
 
 </section>
 
@@ -232,10 +232,10 @@ As the top player caught in Carni, the stack pass represents your most aggressiv
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 35% |
-| Success | [[Half Guard]] | 10% |
-| Failure | [[Carni]] | 35% |
-| Counter | [[Saddle]] | 20% |
+| Success | [[Positions/Side Control]] | 35% |
+| Success | [[Positions/Half Guard]] | 10% |
+| Failure | [[Positions/Rubber Guard/Carni]] | 35% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the top player caught in Carni, the stack pass represents your most aggressiv
 
 ## Opponent Counters
 
-- **Bottom player inverts under the stacking pressure and re-establishes Carni from opposite angle** (Effectiveness: High) - Your Response: Accelerate forward drive and pin their hips to the mat with heavy chest pressure to prevent the inversion from completing. If they begin rotating, drive your shoulder into their hip crease to block the rotation axis. → Leads to [[Carni]]
-- **Bottom player threads inside leg deeper during forward pressure to establish saddle entry hook** (Effectiveness: High) - Your Response: Immediately halt forward pressure and retract your hip away from their threading leg. Clear the hook with your free leg before resuming the stacking sequence. If the saddle is already established, abandon the pass and address the new position. → Leads to [[Saddle]]
-- **Bottom player attacks heel hook with maximum urgency as you drive forward to force you to stop and defend** (Effectiveness: Medium) - Your Response: If the heel hook is not deeply locked, accelerate through the stack rather than stopping. The stacking pressure changes the finishing angle and reduces submission efficacy. If the heel hook is deep and threatening, stop immediately and defend the submission rather than forcing the pass. → Leads to [[Carni]]
-- **Bottom player frames against your chest and shoulder to prevent forward pressure from building** (Effectiveness: Medium) - Your Response: Swim through their frames by driving your underhooks deeper and using lateral head pressure to collapse their arm structure. Heavy hip pressure defeats arm frames over time as the bottom player's arms fatigue faster than your hip drive. → Leads to [[Carni]]
+- **Bottom player inverts under the stacking pressure and re-establishes Carni from opposite angle** (Effectiveness: High) - Your Response: Accelerate forward drive and pin their hips to the mat with heavy chest pressure to prevent the inversion from completing. If they begin rotating, drive your shoulder into their hip crease to block the rotation axis. → Leads to [[Positions/Rubber Guard/Carni]]
+- **Bottom player threads inside leg deeper during forward pressure to establish saddle entry hook** (Effectiveness: High) - Your Response: Immediately halt forward pressure and retract your hip away from their threading leg. Clear the hook with your free leg before resuming the stacking sequence. If the saddle is already established, abandon the pass and address the new position. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Bottom player attacks heel hook with maximum urgency as you drive forward to force you to stop and defend** (Effectiveness: Medium) - Your Response: If the heel hook is not deeply locked, accelerate through the stack rather than stopping. The stacking pressure changes the finishing angle and reduces submission efficacy. If the heel hook is deep and threatening, stop immediately and defend the submission rather than forcing the pass. → Leads to [[Positions/Rubber Guard/Carni]]
+- **Bottom player frames against your chest and shoulder to prevent forward pressure from building** (Effectiveness: Medium) - Your Response: Swim through their frames by driving your underhooks deeper and using lateral head pressure to collapse their arm structure. Heavy hip pressure defeats arm frames over time as the bottom player's arms fatigue faster than your hip drive. → Leads to [[Positions/Rubber Guard/Carni]]
 
 
 </section>

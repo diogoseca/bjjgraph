@@ -158,7 +158,7 @@ The key to successful defense lies in understanding the timing windows. The knee
 
 Advanced defenders treat the knee slice attempt as an offensive opportunity rather than a purely defensive crisis. When your opponent commits weight and focus to the passing mechanics, they create openings for sweeps, back takes, and guard transitions that can reverse the positional exchange entirely. The best half guard players actively invite the knee slice attempt because they have practiced the defensive responses so thoroughly that each passing attempt becomes a trigger for their own offensive sequences.
 
-**Opponent's Starting Position**: [[Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -197,28 +197,28 @@ Advanced defenders treat the knee slice attempt as an offensive opportunity rath
 ### 1. Establish and maintain knee shield with forearm frame on opponent's bicep and hip, creating a structural barrier that prevents the passer from closing distance and establishing chest pressure
 
 - **When to use**: Early in the pass attempt before opponent establishes crossface - this is your highest-percentage defense when timed correctly
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent is pushed back to neutral half guard top position with distance reestablished, forced to reset their passing attempt from scratch
 - **Risk**: If opponent collapses your knee shield with heavy pressure, you may end up flattened without frames, in a worse position than before
 
 ### 2. Fight aggressively for the underhook on the trapped-leg side by swimming your arm under their armpit and coming up to your side, then use the underhook to off-balance them and threaten sweeps or back takes
 
 - **When to use**: When opponent has begun establishing upper body control but has not yet locked in both crossface and underhook simultaneously
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You reverse the control dynamic entirely - your underhook enables dog fight position, sweeps to top, or back take entries that put you on offense
 - **Risk**: If you over-commit to the underhook and they establish a strong whizzer or kimura grip, you may be flattened and passed more quickly
 
 ### 3. Dive underneath opponent into deep half guard by getting your head below their hip line and establishing a deep underhook around their far leg, using their committed forward pressure against them
 
 - **When to use**: When opponent has established crossface and begun the knee slice motion - this is your emergency defense when early-stage prevention has failed
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: You transition to deep half guard where you have powerful sweep options (waiter sweep, old school sweep) and the passer's knee slice is completely neutralized
 - **Risk**: If the deep half entry is sloppy, opponent can sprawl and establish side control or trap you in a flattened position underneath them with no offensive options
 
 ### 4. Frame against opponent's hip with your bottom hand while hip escaping away to create space, then reinsert your knee shield or recover to closed guard before they can re-close the distance
 
 - **When to use**: Mid-pass when opponent's knee is starting to slide but has not yet fully cleared your legs - requires precise timing during the transition
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough space to recover guard structure, forcing a complete reset of the passing sequence
 - **Risk**: If your hip escape is too slow or your frames collapse, the opponent simply follows your movement and completes the pass with additional momentum
 
@@ -230,11 +230,11 @@ Advanced defenders treat the knee slice attempt as an offensive opportunity rath
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Deny the crossface early by framing on their bicep, win the underhook battle, and use your knee shield to push them back to neutral position. The strongest defensive sequence is to block the crossface with your forearm, swim for the underhook before they can secure theirs, and maintain constant knee shield pressure that prevents them from establishing the chest connection needed to flatten you.
 
-### → [[Deep Half Guard]]
+### → [[Positions/Half Guard/Deep Half Guard]]
 
 When the passer has established crossface and begun committing forward pressure for the slice, use their momentum by diving underneath their hips. Thread your head below their hip line, wrap your arm deep around their far thigh, and pull yourself fully underneath their center of gravity. Their committed forward pressure actually assists your entry. From deep half, you have powerful sweeping options that punish their earlier aggression.
 

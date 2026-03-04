@@ -180,7 +180,7 @@ This technique exemplifies the principle of submission chains and dilemma creati
 
 The Triangle Choke from Back Control requires precise leg positioning, hip mobility, and understanding of angle creation. Success depends on maintaining back control throughout the transition, controlling one of the opponent's arms inside the triangle, and applying proper finishing mechanics. This submission is particularly valuable in competition and no-gi scenarios where rear naked choke defenses are well-developed, providing an alternative finishing path that catches opponents by surprise.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 
 
 </section>
@@ -236,8 +236,8 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -246,10 +246,10 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 
 ## Opponent Defenses
 
-- **Opponent postures up and extends their neck to prevent triangle lock completion** (Effectiveness: Medium) - Your Response: Maintain control of the trapped arm and use it to pull opponent's head down. Hook your free leg under their far hip or around their waist to prevent posture. If they successfully posture, transition to armbar on trapped arm or return to back control. → Leads to [[Back Control]]
-- **Opponent turns toward you to escape the triangle angle** (Effectiveness: High) - Your Response: Follow their turn by rotating with them, maintaining the triangle lock. Use your free hand to control their far hip or shoulder to prevent full rotation. As they turn, the triangle may tighten naturally. Be prepared to transition to front triangle position if they fully turn. → Leads to [[Closed Guard]]
-- **Opponent pulls their trapped arm free from the triangle** (Effectiveness: High) - Your Response: If arm escapes, immediately transition to standard rear naked choke or switch to attacking the other arm. Alternatively, maintain triangle on the head only and look for neck crank or transition to taking the back fully again. Never force a lost position - flow to the next attack. → Leads to [[Back Control]]
-- **Opponent grabs their own hands together (prayer defense) to prevent arm isolation** (Effectiveness: Medium) - Your Response: Attack the rear naked choke more aggressively to force them to release the grip. Alternatively, work to peel one hand away using your choking arm. You can also transition to the triangle on just the head if you can create enough angle, though this is less effective. → Leads to [[Back Control]]
+- **Opponent postures up and extends their neck to prevent triangle lock completion** (Effectiveness: Medium) - Your Response: Maintain control of the trapped arm and use it to pull opponent's head down. Hook your free leg under their far hip or around their waist to prevent posture. If they successfully posture, transition to armbar on trapped arm or return to back control. → Leads to [[Positions/Back Control]]
+- **Opponent turns toward you to escape the triangle angle** (Effectiveness: High) - Your Response: Follow their turn by rotating with them, maintaining the triangle lock. Use your free hand to control their far hip or shoulder to prevent full rotation. As they turn, the triangle may tighten naturally. Be prepared to transition to front triangle position if they fully turn. → Leads to [[Positions/Closed Guard]]
+- **Opponent pulls their trapped arm free from the triangle** (Effectiveness: High) - Your Response: If arm escapes, immediately transition to standard rear naked choke or switch to attacking the other arm. Alternatively, maintain triangle on the head only and look for neck crank or transition to taking the back fully again. Never force a lost position - flow to the next attack. → Leads to [[Positions/Back Control]]
+- **Opponent grabs their own hands together (prayer defense) to prevent arm isolation** (Effectiveness: Medium) - Your Response: Attack the rear naked choke more aggressively to force them to release the grip. Alternatively, work to peel one hand away using your choking arm. You can also transition to the triangle on just the head if you can create enough angle, though this is less effective. → Leads to [[Positions/Back Control]]
 
 
 </section>

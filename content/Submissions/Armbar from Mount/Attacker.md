@@ -176,7 +176,7 @@ description: "How to execute Armbar from Mount in BJJ. Attacking perspective wit
 
 The Armbar from Mount represents one of the most fundamental and high-percentage finishing techniques in Brazilian Jiu-Jitsu, targeting the elbow joint through hyperextension. From the dominant mount position, this submission leverages superior positional control to isolate an opponent's arm and create mechanical advantage through hip extension. The mount-to-armbar transition is particularly effective because it capitalizes on the defensive frames opponents naturally create when attempting to escape mount, turning their defensive structure into offensive opportunities. This technique exemplifies the core BJJ principle of using an opponent's energy against them - as they push to create space, you redirect that energy to capture and extend their arm. The armbar from mount serves as a gateway submission that opens pathways to multiple other attacks including triangles, Americanas, and back takes, making it essential for developing a complete offensive game from top position.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 
 
 </section>
@@ -231,8 +231,8 @@ The Armbar from Mount represents one of the most fundamental and high-percentage
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ The Armbar from Mount represents one of the most fundamental and high-percentage
 
 ## Opponent Defenses
 
-- **Pulling arm free before leg swing** (Effectiveness: High) - Your Response: Maintain two-on-one wrist control with maximum grip strength. Keep their elbow pinched to your chest and shift your weight onto the trapped arm. If they begin to escape, abandon the armbar and return to mount rather than losing position completely. Alternatively, chain to triangle or Americana attacks. → Leads to [[Mount]]
-- **Stacking and driving forward during transition** (Effectiveness: High) - Your Response: As opponent stacks, maintain wrist control and use their forward momentum to pivot underneath them, often resulting in a sweep to mounted armbar position. Alternatively, release one leg and use the underhook to take the back as they drive forward. Never try to force the armbar against a successful stack. → Leads to [[Mount]]
-- **Tucking elbow and making fist to prevent extension** (Effectiveness: Medium) - Your Response: First ensure knees are squeezed tightly together to control their head. Then use both hands to peel their grip open - one hand controlling the wrist, the other hand prying fingers away from the palm. Alternatively, adjust angle by walking your shoulders toward their head to change the leverage point and break the grip. If defense persists, transition to omoplata or triangle. → Leads to [[Mount]]
-- **Turning into you to release pressure** (Effectiveness: Medium) - Your Response: Squeeze knees together more tightly to prevent head movement. If they manage to turn slightly, slide your bottom leg under their head deeper and consider transitioning to triangle position. Maintain wrist control throughout. You can also walk your hips closer to their shoulder to cut off the turning angle. → Leads to [[Closed Guard]]
+- **Pulling arm free before leg swing** (Effectiveness: High) - Your Response: Maintain two-on-one wrist control with maximum grip strength. Keep their elbow pinched to your chest and shift your weight onto the trapped arm. If they begin to escape, abandon the armbar and return to mount rather than losing position completely. Alternatively, chain to triangle or Americana attacks. → Leads to [[Positions/Mount]]
+- **Stacking and driving forward during transition** (Effectiveness: High) - Your Response: As opponent stacks, maintain wrist control and use their forward momentum to pivot underneath them, often resulting in a sweep to mounted armbar position. Alternatively, release one leg and use the underhook to take the back as they drive forward. Never try to force the armbar against a successful stack. → Leads to [[Positions/Mount]]
+- **Tucking elbow and making fist to prevent extension** (Effectiveness: Medium) - Your Response: First ensure knees are squeezed tightly together to control their head. Then use both hands to peel their grip open - one hand controlling the wrist, the other hand prying fingers away from the palm. Alternatively, adjust angle by walking your shoulders toward their head to change the leverage point and break the grip. If defense persists, transition to omoplata or triangle. → Leads to [[Positions/Mount]]
+- **Turning into you to release pressure** (Effectiveness: Medium) - Your Response: Squeeze knees together more tightly to prevent head movement. If they manage to turn slightly, slide your bottom leg under their head deeper and consider transitioning to triangle position. Maintain wrist control throughout. You can also walk your hips closer to their shoulder to cut off the turning angle. → Leads to [[Positions/Closed Guard]]
 - **Grabbing your gi pants or belt during transition** (Effectiveness: Low) - Your Response: Once in full armbar position with both legs secured, opponent's grip becomes largely irrelevant. Focus on proper hip extension rather than trying to break their defensive grip. The submission force comes from your hips, not from pulling their arm. If needed, adjust your angle slightly to increase pressure despite the grip. → Leads to [[game-over]]
 
 

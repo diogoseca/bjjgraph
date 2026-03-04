@@ -160,7 +160,7 @@ description: "How to defend against Underhook Pass in BJJ. Recognition cues, def
 
 Defending the Underhook Pass from half guard bottom requires understanding the precise sequence of events that lead to being passed and intervening at the earliest possible stage. The pass depends on three sequential achievements by the top player: winning the underhook battle, flattening your posture from side-facing to back-flat, and extracting their trapped leg. Your defensive strategy must target these stages in reverse priority - preventing the underhook is far easier than recovering once flattened. The critical defensive window exists before you are flattened; once both shoulder blades touch the mat with the top player's crossface established, your defensive options narrow dramatically and energy expenditure increases exponentially. Effective defense therefore emphasizes proactive underhook fighting, aggressive frame maintenance, and early intervention rather than reactive escapes from compromised positions.
 
-**Opponent's Starting Position**: [[Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -198,35 +198,35 @@ Defending the Underhook Pass from half guard bottom requires understanding the p
 ### 1. Pummel for your own underhook by swimming your arm inside theirs and reaching deep across their back before they consolidate the grip
 
 - **When to use**: At the earliest stage when you feel their arm beginning to thread under your armpit, before they achieve grip depth
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Neutralizes the pass entirely and gives you offensive initiative for sweeps and back takes from the underhook position
 - **Risk**: If your pummeling attempt is too slow or shallow, the top player can whizzer your arm and use the momentum to flatten you faster
 
 ### 2. Insert knee shield across their hip line by threading your top knee between your bodies, creating a structural frame that prevents chest-to-chest connection
 
 - **When to use**: When you feel the shoulder pressure increasing and cannot win the underhook battle, before being fully flattened
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates distance that nullifies the underhook advantage, forcing the top player to address the knee shield before continuing the pass
 - **Risk**: If knee shield is placed too high, top player can smash it down; if too low, they can step over it and continue the pass
 
 ### 3. Hip escape explosively away from the top player while framing on their bicep and hip to create enough distance to recover closed guard by inserting both legs
 
 - **When to use**: When partially flattened but the top player has not yet secured complete hip control with their free hand
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Recovers full guard position, completely resetting the passing sequence and returning to a neutral offensive position
 - **Risk**: The explosive movement creates temporary space that the top player can exploit to accelerate the pass if the hip escape is incomplete
 
 ### 4. Transition to deep half guard by ducking under the top player's pressure, threading your head and shoulders beneath their hips to invert the leverage dynamic
 
 - **When to use**: When the top player commits heavy forward pressure with their weight loaded onto your chest, creating the opening to slip underneath
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Reverses the dynamic entirely, putting you in an offensive sweeping position where the top player's weight works against them
 - **Risk**: Failed deep half entry can leave you even more flattened with the top player's weight directly on your face and neck
 
 ### 5. Frame on their crossface arm bicep with your near hand while hip escaping to create enough angle to re-establish your own underhook or insert butterfly hook
 
 - **When to use**: When the top player has established the underhook but has not yet fully flattened you, and you still have hip mobility
-- **Targets**: [[Dogfight Position]]
+- **Targets**: [[Positions/Dogfight Position]]
 - **If successful**: Creates scramble situation where you can come to your knees with an underhook, establishing the dogfight position with sweep and back take options
 - **Risk**: If the frame is not strong enough, the top player drives through it and accelerates the flattening, worsening your position
 
@@ -238,15 +238,15 @@ Defending the Underhook Pass from half guard bottom requires understanding the p
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Win the underhook battle by pummeling aggressively before the top player can secure grip depth. Once you have the underhook, immediately come to your side and begin threatening sweeps, which forces the top player to abandon the pass and defend. Maintain constant offensive pressure from the underhook position to prevent them from re-initiating the pass sequence.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time a powerful hip escape to coincide with the moment the top player shifts their weight to extract their trapped leg. Frame on their shoulder and hip simultaneously, creating enough separation to shoot your far leg across their body and lock your ankles behind their back. The key is recognizing the brief window when their attention shifts from controlling your hips to extracting their leg.
 
-### → [[Dogfight Position]]
+### → [[Positions/Dogfight Position]]
 
 When the top player commits to the underhook and drives forward, use their momentum to sit up into them while fighting for your own underhook on the opposite side. Come to your knees while maintaining your leg entanglement on their trapped leg. The dogfight gives you access to single leg finishes, back takes, and sweep sequences that make the failed pass costly for the top player.
 

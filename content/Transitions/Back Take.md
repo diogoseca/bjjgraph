@@ -21,7 +21,7 @@ The technique thrives on the dilemma-based nature of crackhead control - your op
 
 From a strategic standpoint, the back take from crackhead control serves as the primary advancement pathway in the 10th Planet turtle attack system. It connects directly to the highest-scoring and highest-submission-percentage position in grappling, making it an essential technique for competitive practitioners. The transition exemplifies the modern approach to positional grappling where control positions exist primarily as launching platforms for further advancement rather than static holding positions.
 
-**From Position**: [[Crackhead Control]] (Top)
+**From Position**: [[Positions/Crackhead Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Crackhead Control]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Crackhead Control]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -187,23 +187,23 @@ The Back Take from Crackhead Control serves as the primary advancement pathway i
 ## Related Techniques
 
 
-- [[Crackhead Control]] - Starting position
+- [[Positions/Crackhead Control]] - Starting position
 
-- [[Back Control]] - Target position
+- [[Positions/Back Control]] - Target position
 
-- [[Chair Sit to Back]] - Related technique from similar starting position
+- [[Transitions/Chair Sit to Back]] - Related technique from similar starting position
 
-- [[Crab Ride to Back]] - Alternative pathway using intermediate control
+- [[Transitions/Crab Ride to Back]] - Alternative pathway using intermediate control
 
-- [[Back Take from Top]] - Variant for countering granby escape
+- [[Transitions/Back Take from Top]] - Variant for countering granby escape
 
-- [[Rear Naked Choke]] - Primary follow-up submission
+- [[Transitions/Rear Naked Choke]] - Primary follow-up submission
 
-- [[Twister Control]] - Alternative advancement from crackhead control
+- [[Positions/Twister Control]] - Alternative advancement from crackhead control
 
-- [[Crucifix]] - Alternative attack when opponent posts arm
+- [[Positions/Crucifix]] - Alternative attack when opponent posts arm
 
-- [[Turtle]] - Parent position family
+- [[Positions/Turtle]] - Parent position family
 
 
 </section>

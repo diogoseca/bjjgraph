@@ -21,7 +21,7 @@ Strategically, the 50-50 Entry serves as both an offensive pathway to heel hook 
 
 From a systematic perspective, the 50-50 Entry functions as a gateway to the entire leg entanglement system. Once established, you gain access to heel hooks, toe holds, and various sweeping mechanics. The position also creates what practitioners call a "neutral leg lock position" where both players have equivalent attacking opportunities, making it crucial to understand both offensive and defensive applications from the moment of entry.
 
-**From Position**: [[Inverted Guard]] (Bottom)
+**From Position**: [[Positions/Inverted Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ From a systematic perspective, the 50-50 Entry functions as a gateway to the ent
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 65% |
-| Failure | [[Inverted Guard]] | 25% |
-| Counter | [[Side Control]] | 10% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 65% |
+| Failure | [[Positions/Inverted Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -187,25 +187,25 @@ The 50-50 Entry functions as the primary gateway from inverted guard positions i
 ## Related Techniques
 
 
-- [[50-50 Guard]] - Target position - destination of successful entry
+- [[Positions/Ashi Garami/50-50 Guard]] - Target position - destination of successful entry
 
-- [[Inverted Guard]] - Starting position category
+- [[Positions/Inverted Guard]] - Starting position category
 
-- [[Inside Ashi-Garami]] - Alternative leg entanglement from same starting positions
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative leg entanglement from same starting positions
 
-- [[Heel Hook]] - Primary submission from completed 50-50 position
+- [[Transitions/Heel Hook]] - Primary submission from completed 50-50 position
 
-- [[Backside 50-50]] - Follow-up position for additional heel hook angles
+- [[Positions/Ashi Garami/Backside 50-50]] - Follow-up position for additional heel hook angles
 
-- [[Outside Ashi-Garami]] - Transition option when opponent back-steps out of 50-50
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Transition option when opponent back-steps out of 50-50
 
-- [[De La Riva Guard]] - Alternative guard retention if entry fails
+- [[Positions/De La Riva Guard]] - Alternative guard retention if entry fails
 
-- [[Saddle]] - Advanced leg entanglement accessible from 50-50
+- [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement accessible from 50-50
 
-- [[Kiss of the Dragon]] - Aggressive berimbolo-style variant of the 50-50 Entry
+- [[Transitions/Kiss of the Dragon]] - Aggressive berimbolo-style variant of the 50-50 Entry
 
-- [[Grasshopper Guard]] - Inverted guard variant commonly used to initiate 50-50 entries
+- [[Positions/Grasshopper Guard]] - Inverted guard variant commonly used to initiate 50-50 entries
 
 
 </section>

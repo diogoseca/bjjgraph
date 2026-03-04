@@ -186,7 +186,7 @@ description: "Complete guide to executing the Cartwheel Escape from Omoplata in 
 
 As the attacker executing the Cartwheel Escape, your objective is to exploit the timing window before the omoplata holder can fully consolidate control. The escape works by following the direction of shoulder rotation rather than fighting against it, using a forward roll to clear the controlling legs and land in an advantageous top position. Success depends entirely on recognizing the correct moment to commit - too early and the omoplata holder's legs are still tight across your back, too late and their hip control prevents the roll entirely. The ideal window opens when the opponent has threaded their leg over your shoulder but has not yet sat up, secured your belt or hip, or applied full rotational pressure to the shoulder joint. Your free hand serves as the posting base for the roll, and your chin must tuck to protect the cervical spine during the forward rotation. After clearing the legs, immediately establish base and face the opponent to prevent them from following the momentum into a sweep.
 
-**From Position**: [[Omoplata Control]] (Bottom)
+**From Position**: [[Positions/Omoplata Control]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the attacker executing the Cartwheel Escape, your objective is to exploit the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Failure | [[Omoplata Control]] | 30% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Failure | [[Positions/Omoplata Control]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the attacker executing the Cartwheel Escape, your objective is to exploit the
 
 ## Opponent Counters
 
-- **Opponent grabs belt or hip before the roll, anchoring your body and preventing forward momentum** (Effectiveness: High) - Your Response: If the belt grip is established, the cartwheel escape window has closed. Transition to alternative defenses such as posture recovery by driving your hips back and working to extract the arm, or employ the stack defense by driving forward pressure to relieve shoulder rotation. → Leads to [[Omoplata Control]]
-- **Opponent sits up quickly and increases shoulder rotation pressure before you can initiate the roll** (Effectiveness: High) - Your Response: When the opponent sits up, their control becomes significantly stronger. Abandon the cartwheel attempt and focus on preventing the finish by keeping your trapped elbow tight to your body, driving your hips back to create distance, and working toward standing posture to relieve the shoulder pressure. → Leads to [[Omoplata Control]]
-- **Opponent follows the roll momentum with their hips and transitions to a sweep, riding the cartwheel into mount or side control** (Effectiveness: Medium) - Your Response: If you sense the opponent following the roll, immediately post with both hands and establish a wide base as you land. Hip out aggressively to create distance and prevent them from consolidating the mount. If they achieve the sweep, frame immediately and begin your mount escape sequence. → Leads to [[Mount]]
-- **Opponent hooks the far leg with their free leg to prevent the forward rolling momentum from developing** (Effectiveness: Medium) - Your Response: If the leg hook prevents the roll, kick the hooked leg free by extending forcefully while simultaneously driving forward with the upper body. If the hook is too deep to clear, abandon the cartwheel and work to extract the hooked leg first before reassessing escape options. → Leads to [[Omoplata Control]]
+- **Opponent grabs belt or hip before the roll, anchoring your body and preventing forward momentum** (Effectiveness: High) - Your Response: If the belt grip is established, the cartwheel escape window has closed. Transition to alternative defenses such as posture recovery by driving your hips back and working to extract the arm, or employ the stack defense by driving forward pressure to relieve shoulder rotation. → Leads to [[Positions/Omoplata Control]]
+- **Opponent sits up quickly and increases shoulder rotation pressure before you can initiate the roll** (Effectiveness: High) - Your Response: When the opponent sits up, their control becomes significantly stronger. Abandon the cartwheel attempt and focus on preventing the finish by keeping your trapped elbow tight to your body, driving your hips back to create distance, and working toward standing posture to relieve the shoulder pressure. → Leads to [[Positions/Omoplata Control]]
+- **Opponent follows the roll momentum with their hips and transitions to a sweep, riding the cartwheel into mount or side control** (Effectiveness: Medium) - Your Response: If you sense the opponent following the roll, immediately post with both hands and establish a wide base as you land. Hip out aggressively to create distance and prevent them from consolidating the mount. If they achieve the sweep, frame immediately and begin your mount escape sequence. → Leads to [[Positions/Mount]]
+- **Opponent hooks the far leg with their free leg to prevent the forward rolling momentum from developing** (Effectiveness: Medium) - Your Response: If the leg hook prevents the roll, kick the hooked leg free by extending forcefully while simultaneously driving forward with the upper body. If the hook is too deep to clear, abandon the cartwheel and work to extract the hooked leg first before reassessing escape options. → Leads to [[Positions/Omoplata Control]]
 
 
 </section>

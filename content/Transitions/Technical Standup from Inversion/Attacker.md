@@ -184,7 +184,7 @@ The movement requires coordinating a hip-over-shoulder rotation with precise pos
 
 Strategically, this technique serves as the essential exit valve for grasshopper guard. Without a reliable standup pathway, the grasshopper player becomes trapped in a position that drains energy rapidly. Knowing when to abandon the inversion and come up to feet is often what separates effective grasshopper guard players from those who exhaust themselves chasing submissions from disadvantageous angles. The technique is most effective when the opponent retreats to a wide base or when fatigue begins compromising hip elevation, and it preserves offensive initiative by transitioning to a standing open guard rather than conceding position.
 
-**From Position**: [[Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
 
@@ -238,9 +238,9 @@ Strategically, this technique serves as the essential exit valve for grasshopper
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Grasshopper Guard]] | 30% |
-| Counter | [[Headquarters Position]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Grasshopper Guard]] | 30% |
+| Counter | [[Positions/Headquarters Position]] | 15% |
 
 
 </section>
@@ -249,10 +249,10 @@ Strategically, this technique serves as the essential exit valve for grasshopper
 
 ## Opponent Counters
 
-- **Opponent rushes forward with a pressure pass as you initiate the hip rotation, attempting to flatten you before you can complete the standup sequence** (Effectiveness: High) - Your Response: Abort the standup and redirect into a Granby roll to closed guard recovery, using their forward momentum against them by pulling them into your guard structure → Leads to [[Grasshopper Guard]]
-- **Opponent grabs your ankle or foot during the transition phase when your legs are between configurations, preventing you from planting your base** (Effectiveness: Medium) - Your Response: Use the trapped leg as a hook to pull yourself toward them and re-enter leg entanglement, converting their grip into an inside ashi-garami or single leg X entry → Leads to [[Grasshopper Guard]]
-- **Opponent circles to the back side during your rotation, threatening to take the back as your shoulders transition from mat contact to upright** (Effectiveness: Medium) - Your Response: Accelerate the rotation and bring your near elbow tight to your body to deny underhook access, then complete the standup with an immediate hip turn to face them → Leads to [[Open Guard]]
-- **Opponent sprawls heavily on your hips mid-standup, driving you back to the mat before you can fully establish your base** (Effectiveness: High) - Your Response: Accept the sprawl pressure and convert to a sit-through or granby roll underneath them, using their committed weight to create back take or guard recovery opportunities → Leads to [[Headquarters Position]]
+- **Opponent rushes forward with a pressure pass as you initiate the hip rotation, attempting to flatten you before you can complete the standup sequence** (Effectiveness: High) - Your Response: Abort the standup and redirect into a Granby roll to closed guard recovery, using their forward momentum against them by pulling them into your guard structure → Leads to [[Positions/Grasshopper Guard]]
+- **Opponent grabs your ankle or foot during the transition phase when your legs are between configurations, preventing you from planting your base** (Effectiveness: Medium) - Your Response: Use the trapped leg as a hook to pull yourself toward them and re-enter leg entanglement, converting their grip into an inside ashi-garami or single leg X entry → Leads to [[Positions/Grasshopper Guard]]
+- **Opponent circles to the back side during your rotation, threatening to take the back as your shoulders transition from mat contact to upright** (Effectiveness: Medium) - Your Response: Accelerate the rotation and bring your near elbow tight to your body to deny underhook access, then complete the standup with an immediate hip turn to face them → Leads to [[Positions/Open Guard]]
+- **Opponent sprawls heavily on your hips mid-standup, driving you back to the mat before you can fully establish your base** (Effectiveness: High) - Your Response: Accept the sprawl pressure and convert to a sit-through or granby roll underneath them, using their committed weight to create back take or guard recovery opportunities → Leads to [[Positions/Headquarters Position]]
 
 
 </section>

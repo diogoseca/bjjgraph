@@ -160,7 +160,7 @@ description: "Complete defensive guide to retaining feet on hips guard against p
 
 The defender in this transition is the guard player working to maintain feet-on-hips guard structure against a systematic passing attempt. Your primary objective is preventing the top player from establishing dominant pants grips at your knees, which are the foundation of their passing sequence. When grips are established, your focus shifts to fighting those grips, maintaining hip elevation and frame integrity, and transitioning to alternative guard configurations before your frames are broken. The defensive framework follows a clear priority hierarchy: first maintain feet-on-hips frames, second transition to a more controlling guard like De La Riva or spider guard, third insert a half guard hook as a last defensive layer, and finally recover closed guard if all open guard retention fails. Active grip fighting and constant hip mobility are essential—static defense against a methodical passer will eventually fail regardless of frame strength.
 
-**Opponent's Starting Position**: [[Feet on Hips Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Feet on Hips Guard]] (Top)
 
 </section>
 
@@ -198,35 +198,35 @@ The defender in this transition is the guard player working to maintain feet-on-
 ### 1. Fight grips and strip pants control from your knees, then re-establish feet on hips with full extension
 
 - **When to use**: Immediately when the passer first establishes pants grips, before they can apply forward pressure or begin breaking frames
-- **Targets**: [[Feet on Hips Guard]]
+- **Targets**: [[Positions/Feet on Hips Guard]]
 - **If successful**: You reset the passing exchange to neutral with full frame extension and force the passer to re-engage grip fighting
 - **Risk**: If your grip fighting fails, the passer maintains control and begins the frame-breaking sequence with established grips
 
 ### 2. Retract legs and pull the passer forward into closed guard using sleeve or collar grips
 
 - **When to use**: When the passer commits significant forward pressure and their posture breaks down, or when your open guard frames are being systematically dismantled
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You transition to closed guard where the passer must restart their passing approach from a fundamentally different position
 - **Risk**: If the passer maintains posture during your pull, you end up with compressed frames and no closed guard lock, in a worse position than before
 
 ### 3. Insert a half guard hook by trapping the passer's lead leg between your knees as they drive through
 
 - **When to use**: As a last line of defense when both frames have been broken and the passer is driving through to complete the pass
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish half guard which prevents the full pass to side control and provides a foundation for guard recovery or sweep attempts
 - **Risk**: The passer may already have crossface and underhook established, putting you in a disadvantaged flattened half guard position
 
 ### 4. Transition to De La Riva guard by threading your outside leg under the passer's lead knee as they break your frame
 
 - **When to use**: When the passer begins breaking your near-side frame and steps their lead leg forward, exposing the outside of their knee to your hook
-- **Targets**: [[Feet on Hips Guard]]
+- **Targets**: [[Positions/Feet on Hips Guard]]
 - **If successful**: You establish De La Riva guard hooks which provide superior control, sweep threats, and back take opportunities
 - **Risk**: If the passer reads the transition, they can backstep to avoid the hook and accelerate their pass from the asymmetric position you have created
 
 ### 5. Execute a scissor sweep or tripod sweep using the passer's forward pressure against them
 
 - **When to use**: When the passer commits excessive forward pressure during the frame-breaking phase and their weight shifts ahead of their base
-- **Targets**: [[Feet on Hips Guard]]
+- **Targets**: [[Positions/Feet on Hips Guard]]
 - **If successful**: You sweep the passer and achieve top position, completely reversing the positional exchange
 - **Risk**: If the sweep fails, you have likely compromised your frame integrity during the attempt and the passer can accelerate through the weakened guard
 
@@ -238,11 +238,11 @@ The defender in this transition is the guard player working to maintain feet-on-
 
 ## Best-Case Outcomes for Defender
 
-### → [[Feet on Hips Guard]]
+### → [[Positions/Feet on Hips Guard]]
 
 Strip the passer's pants grips through aggressive grip fighting before they can apply forward pressure. Circle your feet to break their grip placement and immediately re-extend your frames to full length. Establish your own sleeve or collar grips to prevent them from easily re-engaging the passing sequence.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the passer drives forward with committed pressure, use their momentum by pulling them further forward with your sleeve or collar grips while simultaneously retracting your feet off their hips and wrapping your legs around their waist. Lock your ankles behind their back before they can posture up. This works best when the passer overcommits to forward pressure during the frame compression phase.
 

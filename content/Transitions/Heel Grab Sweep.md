@@ -21,7 +21,7 @@ The Heel Grab Sweep serves as a primary attacking option from Single Leg X Guard
 
 This sweep is applicable in both gi and no-gi contexts, though the grip variations differ slightly between the two formats. In no-gi, the cupping grip on the heel bone becomes even more critical since there are no fabric handles to supplement control. The technique chains naturally with Tripod Sweeps, Sickle Sweeps, and leg entanglement entries, making it a cornerstone of any systematic Single Leg X Guard game.
 
-**From Position**: [[Single Leg X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 **Success Rate**: 68%
 
 </section>
@@ -32,9 +32,9 @@ This sweep is applicable in both gi and no-gi contexts, though the grip variatio
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 68% |
-| Failure | [[Single Leg X-Guard]] | 20% |
-| Counter | [[Single Leg X-Guard]] | 12% |
+| Success | [[Positions/Side Control]] | 68% |
+| Failure | [[Positions/X-Guard/Single Leg X-Guard]] | 20% |
+| Counter | [[Positions/X-Guard/Single Leg X-Guard]] | 12% |
 
 
 </section>
@@ -199,25 +199,25 @@ The Heel Grab Sweep serves as a cornerstone technique within the Single Leg X Gu
 ## Related Techniques
 
 
-- [[Single Leg X Sweep]] - Alternative sweep from same position with different grip configuration
+- [[Transitions/Single Leg X Sweep]] - Alternative sweep from same position with different grip configuration
 
-- [[Tripod Sweep]] - Combination attack partner that chains when opponent defends heel grab
+- [[Transitions/Tripod Sweep]] - Combination attack partner that chains when opponent defends heel grab
 
-- [[Sickle Sweep]] - Alternative directional sweep from Single Leg X
+- [[Transitions/Sickle Sweep]] - Alternative directional sweep from Single Leg X
 
-- [[Outside Ashi Entry]] - Follow-up transition when opponent sits to counter the sweep
+- [[Transitions/Outside Ashi Entry]] - Follow-up transition when opponent sits to counter the sweep
 
-- [[Kneebar from Guard]] - Alternative submission finish from same position
+- [[Submissions/Kneebar from Guard]] - Alternative submission finish from same position
 
-- [[Butterfly Sweep]] - Similar off-balancing mechanics using leg elevation
+- [[Transitions/Butterfly Sweep]] - Similar off-balancing mechanics using leg elevation
 
-- [[De La Riva Sweep]] - Common entry pathway to Single Leg X Guard
+- [[Transitions/De La Riva Sweep]] - Common entry pathway to Single Leg X Guard
 
-- [[Elevator Sweep]] - Similar leg elevation concept from butterfly guard
+- [[Transitions/Elevator Sweep]] - Similar leg elevation concept from butterfly guard
 
-- [[Straight Ankle Lock]] - Submission threat available from Single Leg X position
+- [[Submissions/Straight Ankle Lock]] - Submission threat available from Single Leg X position
 
-- [[Inside Ashi Entry]] - Leg entanglement transition when sweep is countered
+- [[Transitions/Inside Ashi Entry]] - Leg entanglement transition when sweep is countered
 
 
 </section>

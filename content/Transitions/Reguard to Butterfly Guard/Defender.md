@@ -154,7 +154,7 @@ description: "Master the Reguard to Butterfly Guard defense from the top perspec
 
 As the defender facing the reguard to butterfly guard, you are the top player working to prevent your opponent from recovering a fully functional butterfly guard from their compromised hook control position. Your objective is to maintain and exploit the degraded guard state—continuing your passing sequence while the bottom player's hooks remain shallow and their posture is broken. This requires recognizing reguard attempts early, denying the space needed for hip escape and hook reinsertion, and capitalizing on the bottom player's recovery focus to advance your own position. Every moment the opponent spends attempting to reguard is a moment where their offensive capability is reduced, creating windows for passing that do not exist against a fully established butterfly guard. The defender must balance between maintaining pressure to prevent recovery and advancing position to complete the pass.
 
-**Opponent's Starting Position**: [[Butterfly Hook Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender facing the reguard to butterfly guard, you are the top player wo
 ### 1. Drive crossface pressure and pin hips to prevent hip escape initiation
 
 - **When to use**: Immediately upon recognizing frame establishment or hip escape preparation—the earlier you apply crossface, the more effectively it shuts down the entire reguard sequence
-- **Targets**: [[Butterfly Hook Control]]
+- **Targets**: [[Positions/Butterfly Guard/Butterfly Hook Control]]
 - **If successful**: Opponent cannot create the angle needed for hook reinsertion and remains in compromised position vulnerable to passing
 - **Risk**: If crossface is too shallow, opponent can duck under it and use your forward pressure to recover posture
 
 ### 2. Drive knee through center to split hooks and prevent bilateral hook engagement
 
 - **When to use**: When opponent has one hook partially reinserted and is working to recover the second—driving your knee through prevents the second hook from establishing
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Both hooks are disrupted and opponent falls to basic open guard with minimal control, creating immediate passing opportunities
 - **Risk**: If knee drive is countered with hook elevation, you may be swept forward or lose base
 
 ### 3. Stand up and disengage to reset distance beyond hook range
 
 - **When to use**: When opponent's hooks are already partially recovered and fighting from kneeling position is becoming a stalemate—standing removes the hooks from effective range entirely
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Hooks disengage due to distance and you can re-engage with a standing passing approach against basic open guard
 - **Risk**: Standing creates space that allows opponent to fully recover posture and establish alternative guard systems
 
 ### 4. Secure underhook and drive shoulder into chest to flatten posture
 
 - **When to use**: When opponent begins sitting up after reinserting hooks—the underhook and shoulder drive prevents posture completion which is the second critical element of the reguard
-- **Targets**: [[Butterfly Hook Control]]
+- **Targets**: [[Positions/Butterfly Guard/Butterfly Hook Control]]
 - **If successful**: Opponent has hooks reinserted but cannot achieve the seated posture needed for sweeps, keeping the position in compromised state
 - **Risk**: Opponent may use your underhook commitment to execute an overhook sweep or guillotine attack
 
@@ -225,11 +225,11 @@ As the defender facing the reguard to butterfly guard, you are the top player wo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip all hooks by driving your knees together while advancing past the opponent's hip line, then immediately establish passing grips on their legs to prevent hook reinsertion and begin your passing sequence against a hookless guard
 
-### → [[Butterfly Hook Control]]
+### → [[Positions/Butterfly Guard/Butterfly Hook Control]]
 
 Maintain constant forward pressure through crossface and hip drive to prevent the hip escape and posture recovery that the reguard requires. Keep the opponent in the compromised state where their hooks are too shallow and their posture too broken for offensive butterfly guard play
 

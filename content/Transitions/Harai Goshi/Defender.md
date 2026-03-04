@@ -160,7 +160,7 @@ description: "How to defend against Harai Goshi in BJJ. Recognition cues, defens
 
 Defending Harai Goshi requires understanding the throw's sequential mechanics so you can disrupt the technique at its most vulnerable phases. The throw depends on three elements occurring in rapid succession: kuzushi (balance breaking), hip entry with rotation, and the sweeping leg action. Disrupting any single element significantly reduces or eliminates the throw's effectiveness. The most important defensive principle is early recognition - once your opponent has achieved full hip rotation with their hips below yours and their sweeping leg is in motion, defensive options become extremely limited. Therefore, the emphasis must be on preventing the throw's setup conditions rather than trying to survive the throw once it is launched. This requires active grip fighting to deny the dominant collar and sleeve configuration, maintaining a low athletic stance that keeps your center of gravity below the attacker's entry line, and recognizing the off-balancing patterns that precede the hip entry. When prevention fails and the throw is initiated, your defensive options shift to disrupting the rotation through hip blocking, removing your swept leg from the reaping path, or countering with your own throw that exploits the attacker's committed forward rotation.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -198,35 +198,35 @@ Defending Harai Goshi requires understanding the throw's sequential mechanics so
 ### 1. Drop hips and widen stance while breaking the collar grip with a two-on-one strip
 
 - **When to use**: At the earliest recognition of kuzushi - when you feel the attacker pulling your weight forward and attempting to establish deep collar control, before any hip entry has occurred
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Returns to neutral standing with the attacker's grip broken and their setup disrupted, forcing them to restart their grip fighting sequence
 - **Risk**: If you time the hip drop too late and the attacker has already achieved hip entry, your lowered stance can actually load your weight onto their hip platform
 
 ### 2. Step your threatened leg backward and circle away from the throwing direction while posting your near hand on their hip
 
 - **When to use**: When the attacker has begun hip rotation but has not yet initiated the sweeping action - you feel their back making contact with your torso and their hips turning
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Removes your base from the sweeping path and creates enough angle separation that the throw cannot be completed, returning to neutral standing engagement
 - **Risk**: If you step too far back with one leg, you create a split stance that is vulnerable to Ouchi Gari or the attacker converting to a different throw
 
 ### 3. Drive hips forward into the attacker's back while establishing an over-the-shoulder grip or belt grip to block rotation
 
 - **When to use**: When the attacker has committed to the hip entry and begun rotation - this is a mid-throw defense that works by preventing the full 180-degree rotation needed for the sweep
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Jams the throw by preventing full rotation, forcing the attacker to abandon the attempt and potentially creating an opening for your own throw or takedown
 - **Risk**: If the attacker has sufficient momentum and you drive forward too aggressively, they may convert to a sacrifice throw like Tani Otoshi using your forward pressure against you
 
 ### 4. Counter-throw with Tani Otoshi by sitting back and sweeping the attacker's posted leg as they rotate
 
 - **When to use**: When the attacker has committed fully to the rotation and you recognize their weight is entirely on their posting leg with their sweeping leg elevated - this is an advanced counter that uses their commitment against them
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You throw the attacker using their own momentum, potentially landing in a dominant top position while they end up on their back
 - **Risk**: Mistiming the counter can result in both practitioners falling in an uncontrolled manner, and if the attacker reads your counter they can abandon and re-engage from standing
 
 ### 5. Pull guard by sitting down and wrapping your legs around the attacker's waist as they initiate the hip entry
 
 - **When to use**: As a last resort when the throw is imminent and you cannot stuff or counter it - pulling guard before the throw completes prevents the takedown points and establishes your guard game
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You establish closed guard or butterfly guard, denying the attacker takedown points and transitioning the exchange to your ground game on your terms
 - **Risk**: If you sit too late, you may be thrown before guard is established, conceding full takedown points and landing in a disadvantageous position
 
@@ -238,11 +238,11 @@ Defending Harai Goshi requires understanding the throw's sequential mechanics so
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Deny the throw at its setup phase by breaking the dominant collar grip through two-on-one grip stripping, maintaining low stance to prevent the attacker from getting their hips below yours, and actively circling away from the throwing direction. When the attacker steps in for the hip entry, immediately post your near hand on their hip to prevent rotation while stepping your threatened leg backward. Successful early defense returns the exchange to neutral standing where you retain equal offensive opportunity.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Counter the committed throw with Tani Otoshi or Ura Nage by timing your counter-throw as the attacker's weight fully commits to the rotation. When you feel their hips loaded and their sweeping leg leaving the ground, sit backward while controlling their upper body and sweeping their posted leg. This counter requires advanced timing but turns the attacker's committed momentum against them, potentially scoring your own takedown points.
 

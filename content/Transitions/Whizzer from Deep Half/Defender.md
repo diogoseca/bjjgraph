@@ -154,7 +154,7 @@ description: "Master defending against the Whizzer from Deep Half Guard. Learn t
 
 As the defender against the whizzer from deep half guard, you are the bottom player whose deep underhook is being countered by the top player's overhook. Your primary challenge is that your main offensive weapon, the deep underhook, is being jammed by the whizzer while the top player sprawls to flatten you and extract their leg. Successful defense requires early recognition of the whizzer attempt, decisive action before it fully locks, and the ability to transition to alternative attacks or guard positions when the deep half becomes compromised. The whizzer fundamentally changes the dynamic of deep half guard from offense-dominant to neutral or defensive, so your response must be proactive rather than passive. Holding onto the underhook stubbornly while being flattened is a losing strategy - instead, you must either fight through the whizzer before it consolidates or redirect your attack to exploit the openings the whizzer creates.
 
-**Opponent's Starting Position**: [[Deep Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Deep Half Guard]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ As the defender against the whizzer from deep half guard, you are the bottom pla
 ### 1. Fight through the whizzer by re-pumping your underhook deeper and elevating hips explosively before the sprawl consolidates
 
 - **When to use**: Immediately upon feeling the overhook begin to tighten, before the top player has completed their sprawl and established crossface. This window is narrow, roughly 1-2 seconds after whizzer contact.
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: You retain deep half guard with full sweep leverage, and the top player has wasted energy on a failed whizzer attempt. Their arm position may actually be compromised, opening up better sweep angles.
 - **Risk**: If the re-pump fails against a well-established whizzer, you expend energy fighting against superior leverage and end up flattened with less remaining capacity to execute alternative escapes.
 
 ### 2. Transition to electric chair by establishing lockdown on the trapped leg and driving hips upward to split the top player's base
 
 - **When to use**: When the whizzer is applied but the top player has not yet addressed your leg control. The lockdown must be established before they can straighten their trapped leg. Works best when you still have some hip elevation despite the whizzer.
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: You transition to the electric chair position which threatens a submission and creates sweep opportunities that bypass the whizzer entirely. The top player must release the whizzer to defend the electric chair.
 - **Risk**: If the top player recognizes the lockdown attempt and straightens their leg before you establish it, you lose time and the whizzer continues to consolidate. Failed lockdown attempts leave you flattened.
 
 ### 3. Release the deep underhook voluntarily and transition to X-Guard or Single Leg X by repositioning feet on the top player's hips
 
 - **When to use**: When the whizzer is fully locked and you cannot fight through it or establish lockdown. Rather than being flattened stubbornly, release the compromised grip and redirect to a guard that does not require the underhook.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish a new guard position with fresh offensive options. The top player's whizzer becomes a wasted grip on an arm that is no longer in an underhook position, forcing them to recalibrate their entire passing approach.
 - **Risk**: The transition creates a momentary window where you have no guard established. If the top player reacts quickly to the release, they may pass before you can establish hooks for X-Guard or Single Leg X.
 
 ### 4. Bridge and roll underneath the top player using their committed weight and whizzer as momentum for the reversal
 
 - **When to use**: When the top player overcommits their weight through the whizzer and loses lateral base. This is a lower-percentage counter that works best against opponents who drive too aggressively through the overhook without maintaining wide base with their free leg.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You reverse the position and come up to half guard top or potentially sweep to a more dominant position depending on the scramble outcome.
 - **Risk**: High risk option. If the top player has proper wide base, the bridge fails and you expend significant energy while being driven even flatter. Only attempt when you clearly feel their weight overcommitted.
 
@@ -224,11 +224,11 @@ As the defender against the whizzer from deep half guard, you are the bottom pla
 
 ## Best-Case Outcomes for Defender
 
-### → [[Deep Half Guard]]
+### → [[Positions/Half Guard/Deep Half Guard]]
 
 Fight through the whizzer early by re-pumping your underhook deeper and explosively elevating your hips before the sprawl consolidates. Alternatively, transition to electric chair with lockdown to force the top player to abandon the whizzer. The key is acting within the first 1-2 seconds before the whizzer-sprawl combination fully neutralizes your position.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the whizzer is fully established and deep half is no longer viable, voluntarily release your underhook and transition to X-Guard, Single Leg X, or standard half guard. This preserves your energy and guard integrity rather than fighting a losing battle against a locked whizzer. The bridge and roll can also achieve this outcome against opponents who overcommit weight through the overhook.
 

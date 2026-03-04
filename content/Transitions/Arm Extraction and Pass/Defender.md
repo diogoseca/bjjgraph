@@ -158,7 +158,7 @@ The most effective defensive window occurs before the shoulder pin is fully esta
 
 The defender's ultimate strategic goal is either to prevent the extraction entirely and force the attacker to return to standard Crackhead Control attacks (which you can then defend through your normal turtle defense protocols), or to time a counter that recovers half guard or better during the transition phase when the attacker's weight is shifting between positions. Understanding that the attacker is most vulnerable during the hip transition from chair-sit to side control sprawl gives you a specific timing window to exploit.
 
-**Opponent's Starting Position**: [[Crackhead Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The defender's ultimate strategic goal is either to prevent the extraction entir
 ### 1. Explosive sit-through to guard recovery during the hip shift phase
 
 - **When to use**: When attacker shifts their hips toward your legs to create extraction space, momentarily reducing their inside leg hook pressure
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to half guard with your legs re-engaged, converting the passing attempt into a guard position where you have sweep and submission options
 - **Risk**: If timed poorly and the inside leg hook is still engaged, you expose your back during the rotation and give up a cleaner back take opportunity
 
 ### 2. Granby roll away from the extraction direction as attacker commits weight forward for the shoulder pin
 
 - **When to use**: Early in the sequence when attacker drives their chest weight forward onto your shoulder, before the arm grip is established
-- **Targets**: [[Crackhead Control]]
+- **Targets**: [[Positions/Crackhead Control]]
 - **If successful**: You escape the shoulder pin and either recover to a neutral turtle position where standard Crackhead Control dynamics resume, or create enough chaos to recover guard
 - **Risk**: If attacker follows the roll maintaining chest contact, they may transition directly to back control with hooks as your back is exposed during the rolling motion
 
 ### 3. Retract and clamp trapped arm while simultaneously circling hips away from extraction direction
 
 - **When to use**: When attacker grips your wrist and begins guiding the arm across their body - the earliest moment of the actual extraction attempt
-- **Targets**: [[Crackhead Control]]
+- **Targets**: [[Positions/Crackhead Control]]
 - **If successful**: The extraction fails and attacker must reset to standard Crackhead Control, burning energy and creating opportunities for your standard turtle escapes
 - **Risk**: If attacker has already established the shoulder pin, your arm retraction may lack the structural support to resist the extraction, wasting energy without preventing the pass
 
 ### 4. Insert knee for half guard as attacker's hips transition from chair-sit to side control sprawl
 
 - **When to use**: Late-stage defense when extraction has succeeded but attacker has not yet established full side control with hip block
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You prevent full side control establishment and recover to half guard where you have legitimate offensive options including sweeps and back takes
 - **Risk**: If attacker immediately blocks your far hip upon transitioning, the knee insertion window closes and you end up in full side control
 
@@ -227,11 +227,11 @@ The defender's ultimate strategic goal is either to prevent the extraction entir
 
 ## Best-Case Outcomes for Defender
 
-### → [[Crackhead Control]]
+### → [[Positions/Crackhead Control]]
 
 Prevent the extraction by defending the shoulder pin early through base maintenance and arm retraction, or execute a granby roll that disrupts the attacker's weight placement and forces them to reset to standard Crackhead Control dynamics
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive sit-through during the attacker's hip shift phase when their inside leg hook loosens, or insert your knee between your bodies during the transition from chair-sit to side control sprawl before the attacker establishes far hip control
 

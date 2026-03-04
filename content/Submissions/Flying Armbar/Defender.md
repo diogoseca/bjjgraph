@@ -199,28 +199,28 @@ If the attacker does initiate the jump, your response depends on timing. During 
 ### 1. Retract arm and step back immediately upon feeling two-on-one grip establishment
 
 - **When to use**: As soon as you feel opponent securing strong two-on-one control on your arm before any jumping motion begins. This is the highest-percentage defense because it eliminates the precondition for the technique.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Opponent falls back to guard without establishing any submission position. You maintain standing position and can resume guard passing.
 - **Risk**: Low risk. If you over-retract, opponent may transition to different guard attacks, but this is far preferable to being caught in an aerial submission.
 
 ### 2. Sprawl hips back and drive shoulder pressure forward as opponent initiates the jump
 
 - **When to use**: The moment you feel the opponent's hips elevating and their weight shifting upward for the aerial entry. Your sprawl must be immediate and decisive to prevent their rotation from completing.
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Attacker's jump is stuffed and they land underneath you in a compromised position. You can immediately transition to passing or establish side control from their failed attempt.
 - **Risk**: Medium risk. If your timing is late and they've already committed to the rotation, your sprawl may not fully prevent the armbar but will compromise their position. If you sprawl too early, they may not have committed and can adjust.
 
 ### 3. Stack forward and drive weight onto attacker during their mid-air rotation
 
 - **When to use**: When the attacker has already left the ground and is rotating into armbar position. Drive your hips and chest forward, stacking their body onto their neck and shoulders to prevent them from establishing a flat armbar position.
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Attacker is compressed and cannot extend their hips for the armbar finish. You can work to extract your arm and pass to side control.
 - **Risk**: Medium risk. Requires sufficient balance to drive forward without falling into the submission. If the attacker has already secured proper leg position, stacking alone may not be sufficient and you must combine with arm extraction.
 
 ### 4. Clasp hands together and turn into attacker after landing to prevent arm isolation
 
 - **When to use**: After the attacker has landed and is attempting to isolate your arm for the finish. Immediately lock your hands together in a Gable grip or RNC grip configuration and rotate your body toward the attacker to close the space between you.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Prevents arm extension and creates time to work a proper armbar escape. Turning into the attacker eliminates the perpendicular angle they need for the finish.
 - **Risk**: Medium-high risk. This is a reactive defense that only buys time - you must follow up with an actual escape. If you only grip without turning, the attacker can eventually break your grip with hip pressure.
 
@@ -243,11 +243,11 @@ If the attacker does initiate the jump, your response depends on timing. During 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Prevent the flying armbar by retracting your arm and maintaining strong posture as soon as you recognize the two-on-one grip setup. Step back out of range and allow the attacker to fall back to guard without completing any aerial attack. Resume guard passing from a neutral position.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Successfully sprawl on the attacker's jump or stack them during their aerial rotation. Use their failed flying attempt to immediately advance position while they are compromised on their back. Drive through the stack and pass directly to side control as they struggle to recover guard from the awkward landing position.
 

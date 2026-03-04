@@ -17,7 +17,7 @@ description: "Master Triangle Escape in BJJ. Defensive strategies to escape tria
 
 The Triangle Escape is a critical defensive technique for escaping one of Brazilian Jiu-Jitsu's most dominant submission positions. When caught in a triangle choke, the defender faces a race against time as blood flow to the brain becomes restricted. Understanding the mechanics of the triangle allows practitioners to identify escape windows and execute proper defensive sequences. The escape requires a combination of posture management, pressure redirection, and strategic positioning to break the configuration before the choke becomes fully locked. Early recognition and immediate defensive action dramatically increase escape success rates, making this skill essential for all practitioners. The triangle escape encompasses multiple strategies depending on the stage of the attack, from preventing the initial lock to escaping fully secured positions. Advanced practitioners develop sensitivity to triangle entries and can abort attacks before they materialize, while beginners must focus on fundamental escape mechanics and preventing the worst-case scenario of a fully locked submission.
 
-**From Position**: [[Triangle Control]] (Top)
+**From Position**: [[Positions/Triangle Control]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -28,9 +28,9 @@ The Triangle Escape is a critical defensive technique for escaping one of Brazil
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Triangle Control]] | 30% |
-| Counter | [[Armbar Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Triangle Control]] | 30% |
+| Counter | [[Positions/Armbar Control]] | 15% |
 
 
 </section>
@@ -188,27 +188,27 @@ Triangle Escape is a critical component of guard bottom defensive strategy, repr
 ## Related Techniques
 
 
-- [[Triangle Control]] - Starting position - the attack being defended
+- [[Positions/Triangle Control]] - Starting position - the attack being defended
 
-- [[Guard Recovery]] - Follow-up transition to re-establish guard after escape
+- [[Principles/Guard Recovery]] - Follow-up transition to re-establish guard after escape
 
-- [[Closed Guard]] - Primary position where triangle threats originate and common escape destination
+- [[Positions/Closed Guard]] - Primary position where triangle threats originate and common escape destination
 
-- [[Triangle Choke Front]] - Primary submission finish being escaped from triangle control
+- [[Submissions/Triangle Choke Front]] - Primary submission finish being escaped from triangle control
 
-- [[Hip Escape to Guard]] - Alternative escape using similar hip movement principles
+- [[Transitions/Hip Escape to Guard]] - Alternative escape using similar hip movement principles
 
-- [[Armbar from Guard]] - Common counter-submission when defender escapes triangle poorly
+- [[Submissions/Armbar from Guard]] - Common counter-submission when defender escapes triangle poorly
 
-- [[Omoplata from Guard]] - Alternative attack opponent transitions to when defender circles predictably
+- [[Submissions/Omoplata from Guard]] - Alternative attack opponent transitions to when defender circles predictably
 
-- [[Triangle Clear to Side]] - Alternative escape technique that clears triangle directly to pass
+- [[Transitions/Triangle Clear to Side]] - Alternative escape technique that clears triangle directly to pass
 
-- [[Armbar Defense]] - Related defensive skill needed when triangle transitions to armbar
+- [[Transitions/Armbar Defense]] - Related defensive skill needed when triangle transitions to armbar
 
-- [[Side Control]] - Advantageous position sometimes achieved when escape leads to guard pass
+- [[Positions/Side Control]] - Advantageous position sometimes achieved when escape leads to guard pass
 
-- [[Posture Recovery]] - Critical prerequisite technique for establishing escape foundation
+- [[Transitions/Posture Recovery]] - Critical prerequisite technique for establishing escape foundation
 
 
 </section>

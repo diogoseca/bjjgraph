@@ -21,7 +21,7 @@ Strategically, this transition punishes opponents who prioritize grip fighting o
 
 The transition requires precise timing and commitment. You must recognize when the opponent's arm is sufficiently extended during their defensive movement, then explosively capture it while maintaining your chest-to-back connection. The standing nature of this entry often flows naturally into a mat return where you secure the legs and complete the crucifix position on the ground. Advanced practitioners use this as a reliable chain attack when initial choke attempts are successfully defended.
 
-**From Position**: [[Standing Back Control]] (Top)
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The transition requires precise timing and commitment. You must recognize when t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Crucifix]] | 55% |
-| Failure | [[Standing Back Control]] | 30% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Crucifix]] | 55% |
+| Failure | [[Positions/Back Control/Standing Back Control]] | 30% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Crucifix Transition fits into the standing back control attack system as a p
 ## Related Techniques
 
 
-- [[Standing Back Control]] - Starting position for this transition
+- [[Positions/Back Control/Standing Back Control]] - Starting position for this transition
 
-- [[Crucifix]] - Target position achieved on successful completion
+- [[Positions/Crucifix]] - Target position achieved on successful completion
 
-- [[Rear Naked Choke]] - Primary submission threat that forces defensive grip fighting which creates the opportunity
+- [[Transitions/Rear Naked Choke]] - Primary submission threat that forces defensive grip fighting which creates the opportunity
 
-- [[Choke from Crucifix]] - Follow-up submission from completed crucifix position
+- [[Transitions/Choke from Crucifix]] - Follow-up submission from completed crucifix position
 
-- [[Armbar from Crucifix]] - Alternative submission from completed crucifix position
+- [[Transitions/Armbar from Crucifix]] - Alternative submission from completed crucifix position
 
-- [[Truck]] - Alternative position when opponent drops during entry
+- [[Positions/Twister Control/Truck]] - Alternative position when opponent drops during entry
 
-- [[Back Control]] - Alternative advancement if crucifix entry is defended
+- [[Positions/Back Control]] - Alternative advancement if crucifix entry is defended
 
-- [[Mounted Crucifix]] - Variation achieved if opponent turns during entry
+- [[Positions/Mount/Mounted Crucifix]] - Variation achieved if opponent turns during entry
 
-- [[Turtle]] - Defensive recovery position opponent may reach if they counter successfully
+- [[Positions/Turtle]] - Defensive recovery position opponent may reach if they counter successfully
 
-- [[Crucifix from Turtle]] - Related crucifix entry from grounded turtle rather than standing
+- [[Transitions/Crucifix from Turtle]] - Related crucifix entry from grounded turtle rather than standing
 
 
 </section>

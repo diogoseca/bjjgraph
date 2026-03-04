@@ -21,7 +21,7 @@ The escape works by accepting and accelerating the rotation your opponent has es
 
 Strategically, this escape requires precise timing and commitment. Attempting it too early when controls are fully established results in simply tightening the Twister. Waiting too long allows the opponent to secure finishing grips. The optimal window occurs when the opponent transitions their grips or adjusts their position, momentarily weakening their leg control. Reading these transitions and exploding through the roll creates the highest success probability while minimizing the risk of accelerating into a worse position.
 
-**From Position**: [[Twister Control]] (Bottom)
+**From Position**: [[Positions/Twister Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape requires precise timing and commitment. Attempting it
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 65% |
-| Failure | [[Twister Control]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Open Guard]] | 65% |
+| Failure | [[Positions/Twister Control]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -188,25 +188,25 @@ The Roll Through Escape is a critical survival technique within the 10th Planet 
 ## Related Techniques
 
 
-- [[Twister Control]] - Starting position - this is the position you are escaping from
+- [[Positions/Twister Control]] - Starting position - this is the position you are escaping from
 
-- [[Open Guard]] - Primary escape destination when Roll Through succeeds
+- [[Positions/Open Guard]] - Primary escape destination when Roll Through succeeds
 
-- [[Back Control]] - Position opponent may transition to if counter succeeds
+- [[Positions/Back Control]] - Position opponent may transition to if counter succeeds
 
-- [[Granby Roll to Guard]] - Related escape technique using similar rolling mechanics
+- [[Transitions/Granby Roll to Guard]] - Related escape technique using similar rolling mechanics
 
-- [[Bridge and Turn to Turtle]] - Alternative escape option from Twister Control
+- [[Transitions/Bridge and Turn to Turtle]] - Alternative escape option from Twister Control
 
-- [[Hip Escape to Guard]] - Complementary escape technique for back exposure positions
+- [[Transitions/Hip Escape to Guard]] - Complementary escape technique for back exposure positions
 
-- [[Turtle]] - Intermediate position that may be reached during escape
+- [[Positions/Turtle]] - Intermediate position that may be reached during escape
 
-- [[Guard Recovery]] - Follow-up technique to establish guard after escape
+- [[Principles/Guard Recovery]] - Follow-up technique to establish guard after escape
 
-- [[Defensive Roll]] - Related rolling escape mechanic used from back exposure positions
+- [[Transitions/Defensive Roll]] - Related rolling escape mechanic used from back exposure positions
 
-- [[Leg Extraction]] - Complementary escape addressing the trapped leg component of Twister Control
+- [[Transitions/Leg Extraction]] - Complementary escape addressing the trapped leg component of Twister Control
 
 
 </section>

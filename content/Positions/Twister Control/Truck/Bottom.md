@@ -210,27 +210,27 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 
 ## Available Escapes
 
-### [[Granby Roll to Guard]] (42% of attempts)
+### [[Transitions/Granby Roll to Guard]] (42% of attempts)
 
-### [[Hip Escape to Guard]] (14% of attempts)
+### [[Transitions/Hip Escape to Guard]] (14% of attempts)
 
-### [[Leg Extraction to Guard]] (14% of attempts)
+### [[Transitions/Leg Extraction to Guard]] (14% of attempts)
 
-### [[Rolling Back Take Reversal]] (8% of attempts)
+### [[Transitions/Rolling Back Take Reversal]] (8% of attempts)
 
-### [[Forward Roll]] (10% of attempts)
+### [[Transitions/Forward Roll]] (10% of attempts)
 
-### [[Back Door Escape]] (6% of attempts)
+### [[Transitions/Back Door Escape]] (6% of attempts)
 
-### [[Defensive Roll]] (4% of attempts)
+### [[Transitions/Defensive Roll]] (4% of attempts)
 
-### [[Hip Escape from Truck]] (1% of attempts)
+### [[Transitions/Hip Escape from Truck]] (1% of attempts)
 
-### [[Leg Extraction from Truck]] (0% of attempts)
+### [[Transitions/Leg Extraction from Truck]] (0% of attempts)
 
-### [[Roll to Guard from Truck]] (0% of attempts)
+### [[Transitions/Roll to Guard from Truck]] (0% of attempts)
 
-### [[Escape from Truck]] (1% of attempts)
+### [[Transitions/Escape from Truck]] (1% of attempts)
 
 
 
@@ -241,24 +241,24 @@ The position emerged from wrestling's turk ride and was popularized in BJJ throu
 ## Decision Making from This Position
 
 **If opponent is setting up Twister (controlling far arm and twisting spine):**
-- Execute **[[Hand Fighting from Back]]** → [[Truck]] (Probability: 65%)
-- Execute **[[Granby Roll to Guard]]** → [[Open Guard]] (Probability: 35%)
+- Execute **[[Transitions/Hand Fighting from Back]]** → [[Positions/Twister Control/Truck]] (Probability: 65%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
 
 
 **Else if opponent is attacking trapped leg with calf slicer:**
-- Execute **[[Leg Extraction to Guard]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Forward Roll]]** → [[Deep Half Guard]] (Probability: 25%)
-- Execute **[[Defensive Roll]]** → [[Open Guard]] (Probability: 25%)
+- Execute **[[Transitions/Leg Extraction to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Forward Roll]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 25%)
+- Execute **[[Transitions/Defensive Roll]]** → [[Positions/Open Guard]] (Probability: 25%)
 
 
 **Else if opponent has boot control but loose upper body control:**
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Granby Roll to Guard]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **Else if opponent is transitioning to back control (inserting hooks):**
-- Execute **[[Back Door Escape]]** → [[Turtle]] (Probability: 55%)
-- Execute **[[Rolling Back Take Reversal]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Back Door Escape]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Rolling Back Take Reversal]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 
@@ -392,16 +392,16 @@ Start in truck bottom with partner providing light control (25% resistance). Pra
 
 ## Related Positions and Techniques
 
-- **[[Turtle]]** - Common escape target - safer defensive position
-- **[[Twister Control]]** - Primary submission threat from this position
-- **[[Crab Ride]]** - Related position - similar back exposure with different leg configuration
-- **[[Half Guard]]** - Escape target - recovering guard from leg extraction
-- **[[Calf Slicer from Truck]]** - Secondary submission threat targeting trapped leg
-- **[[Banana Split]]** - Alternative submission attack from truck position
-- **[[Granby Roll to Guard]]** - Primary escape technique from truck bottom
-- **[[Hip Escape to Guard]]** - Fundamental escape movement for creating angles
-- **[[Back Control]]** - Positional threat if opponent transitions from truck
-- **[[Deep Half Guard]]** - Alternative escape destination via forward roll
+- **[[Positions/Turtle]]** - Common escape target - safer defensive position
+- **[[Positions/Twister Control]]** - Primary submission threat from this position
+- **[[Positions/Crab Ride]]** - Related position - similar back exposure with different leg configuration
+- **[[Positions/Half Guard]]** - Escape target - recovering guard from leg extraction
+- **[[Submissions/Calf Slicer from Truck]]** - Secondary submission threat targeting trapped leg
+- **[[Submissions/Banana Split]]** - Alternative submission attack from truck position
+- **[[Transitions/Granby Roll to Guard]]** - Primary escape technique from truck bottom
+- **[[Transitions/Hip Escape to Guard]]** - Fundamental escape movement for creating angles
+- **[[Positions/Back Control]]** - Positional threat if opponent transitions from truck
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative escape destination via forward roll
 
 
 </section>

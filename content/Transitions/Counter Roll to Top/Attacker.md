@@ -184,7 +184,7 @@ This is not a technique of incremental improvement but rather a binary gambit. Y
 
 The mechanical chain requires coordinated action across your entire body: feet driving the bridge, hips generating rotation, grip maintaining connection, and free hand posting to stabilize the landing. Each element must fire in sequence within approximately one second. Training this sequence until it becomes reflexive is essential, as conscious deliberation during execution is too slow to exploit the fleeting timing windows.
 
-**From Position**: [[Gift Wrap]] (Bottom)
+**From Position**: [[Positions/Gift Wrap]] (Bottom)
 
 </section>
 
@@ -237,9 +237,9 @@ The mechanical chain requires coordinated action across your entire body: feet d
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Gift Wrap]] | 55% |
-| Failure | [[Gift Wrap]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Gift Wrap]] | 55% |
+| Failure | [[Positions/Gift Wrap]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ The mechanical chain requires coordinated action across your entire body: feet d
 
 ## Opponent Counters
 
-- **Opponent releases Gift Wrap and posts hand to prevent roll** (Effectiveness: High) - Your Response: If opponent releases arm trap to post, immediately recover the freed arm and address back control through standard escape sequences. You have successfully eliminated the Gift Wrap even if the full reversal fails, which is a significant positional improvement. → Leads to [[Gift Wrap]]
-- **Opponent drops weight flat and sprawls hips to kill bridge momentum** (Effectiveness: High) - Your Response: If bridge is stuffed, switch to hip escape sequence immediately rather than repeatedly attempting the roll. Use the energy opponent spent stopping the roll to create space for guard recovery through shrimping and frames. Do not burn energy on a second roll attempt. → Leads to [[Gift Wrap]]
-- **Opponent transitions to crucifix by trapping second arm during stalled roll** (Effectiveness: Medium) - Your Response: If roll stalls midway, tuck the elbow of the freed arm tight against your ribs to prevent crucifix entry. Be prepared to turtle and address crucifix defense if the roll fails partway through. The key is keeping your elbows glued to your body. → Leads to [[Back Control]]
-- **Opponent accelerates their own roll to maintain back control through the scramble** (Effectiveness: Medium) - Your Response: Continue your rotation with full commitment. If opponent rolls with you, the resulting scramble often produces a neutral position which is vastly preferable to Gift Wrap Bottom. Use the chaos to disengage and re-establish guard. → Leads to [[Gift Wrap]]
+- **Opponent releases Gift Wrap and posts hand to prevent roll** (Effectiveness: High) - Your Response: If opponent releases arm trap to post, immediately recover the freed arm and address back control through standard escape sequences. You have successfully eliminated the Gift Wrap even if the full reversal fails, which is a significant positional improvement. → Leads to [[Positions/Gift Wrap]]
+- **Opponent drops weight flat and sprawls hips to kill bridge momentum** (Effectiveness: High) - Your Response: If bridge is stuffed, switch to hip escape sequence immediately rather than repeatedly attempting the roll. Use the energy opponent spent stopping the roll to create space for guard recovery through shrimping and frames. Do not burn energy on a second roll attempt. → Leads to [[Positions/Gift Wrap]]
+- **Opponent transitions to crucifix by trapping second arm during stalled roll** (Effectiveness: Medium) - Your Response: If roll stalls midway, tuck the elbow of the freed arm tight against your ribs to prevent crucifix entry. Be prepared to turtle and address crucifix defense if the roll fails partway through. The key is keeping your elbows glued to your body. → Leads to [[Positions/Back Control]]
+- **Opponent accelerates their own roll to maintain back control through the scramble** (Effectiveness: Medium) - Your Response: Continue your rotation with full commitment. If opponent rolls with you, the resulting scramble often produces a neutral position which is vastly preferable to Gift Wrap Bottom. Use the chaos to disengage and re-establish guard. → Leads to [[Positions/Gift Wrap]]
 
 
 </section>

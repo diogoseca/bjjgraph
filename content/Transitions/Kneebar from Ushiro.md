@@ -21,7 +21,7 @@ The technique becomes particularly viable when the opponent commits to heel hook
 
 Strategically, the kneebar from ushiro functions as a chain attack within the leg entanglement system, forcing opponents to defend multiple threat vectors simultaneously. Defenders who focus exclusively on heel hook prevention often neglect proper knee alignment, creating windows for kneebar entry. This dilemma-based approach maximizes offensive efficiency from positions that might otherwise become defensive stalemates when facing sophisticated heel hook defense.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the kneebar from ushiro functions as a chain attack within the le
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kneebar Control]] | 55% |
-| Failure | [[Ushiro Ashi-Garami]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Kneebar Control]] | 55% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Kneebar from Ushiro functions as a critical chain attack within the modern l
 ## Related Techniques
 
 
-- [[Ushiro Ashi-Garami]] - Starting position for the transition
+- [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Starting position for the transition
 
-- [[Kneebar Control]] - Target position on successful entry
+- [[Positions/Kneebar Control]] - Target position on successful entry
 
-- [[Inside Heel Hook]] - Primary alternative attack from the same ushiro entanglement
+- [[Submissions/Inside Heel Hook]] - Primary alternative attack from the same ushiro entanglement
 
-- [[Calf Slicer]] - Chain attack when opponent bends knee to defend the kneebar
+- [[Transitions/Calf Slicer]] - Chain attack when opponent bends knee to defend the kneebar
 
-- [[Saddle]] - Transition option during scrambles from ushiro configuration
+- [[Positions/Ashi Garami/Saddle]] - Transition option during scrambles from ushiro configuration
 
-- [[Outside Ashi-Garami]] - Related leg entanglement position with different kneebar angles
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related leg entanglement position with different kneebar angles
 
-- [[Kneebar Finish]] - Finishing mechanics from established kneebar control
+- [[Transitions/Kneebar Finish]] - Finishing mechanics from established kneebar control
 
-- [[Cross Ashi-Garami]] - Alternative entanglement offering kneebar attack opportunities
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Alternative entanglement offering kneebar attack opportunities
 
-- [[Half Guard]] - Position reached if opponent successfully counters the kneebar attempt
+- [[Positions/Half Guard]] - Position reached if opponent successfully counters the kneebar attempt
 
-- [[Inside Ashi-Garami]] - Standard entanglement that transitions through ushiro during inversions
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Standard entanglement that transitions through ushiro during inversions
 
 
 </section>

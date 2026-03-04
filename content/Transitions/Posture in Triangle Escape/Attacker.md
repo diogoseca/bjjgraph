@@ -186,7 +186,7 @@ description: "Execute posture recovery to escape triangle chokes in BJJ. Step-by
 
 As the practitioner caught in the triangle, your primary objective is recovering vertical spinal alignment to relieve arterial compression and create the structural foundation for subsequent escape techniques. The posture recovery phase is the single most important component of triangle defense because it directly addresses the choking mechanism while simultaneously enabling all follow-up escape pathways. Your success depends on generating upward force through hip extension rather than neck muscles, maintaining trapped arm protection against armbar transitions throughout the posture attempt, and controlling the opponent's hip with your free hand to prevent the angle optimization that transforms marginal triangles into fight-ending submissions. The technique requires disciplined sequential execution starting from immediate survival through breathing space preservation, progressing to structural posture through hip-driven extension, and culminating in sufficient positional disruption to clear into half guard top.
 
-**From Position**: [[Triangle Escape Position]] (Bottom)
+**From Position**: [[Positions/Triangle Escape Position]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the practitioner caught in the triangle, your primary objective is recovering
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Triangle Escape Position]] | 30% |
-| Counter | [[Armbar Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Triangle Escape Position]] | 30% |
+| Counter | [[Positions/Armbar Control]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the practitioner caught in the triangle, your primary objective is recovering
 
 ## Opponent Counters
 
-- **Opponent pulls head down aggressively with both hands behind the neck while extending hips to maximize choking pressure** (Effectiveness: High) - Your Response: Maintain chin tuck and focus entirely on hip drive rather than fighting the head pull directly. Walk knees forward to establish base and use incremental posterior chain extension to build posture against their pull. The hip-driven approach generates far more force than their arm pulling can resist when your base is properly established. → Leads to [[Triangle Escape Position]]
-- **Opponent scoots hips laterally to re-establish perpendicular choking angle as you attempt to square your shoulders** (Effectiveness: High) - Your Response: Follow their angle adjustment by walking your knees laterally in the same direction, treating the squaring effort as an ongoing process rather than a one-time correction. Intensify hip control hand pressure to restrict their scooting mobility while continuing upward drive. → Leads to [[Triangle Escape Position]]
-- **Opponent isolates the trapped arm by pulling it across your neck and pivoting hips to transition to armbar** (Effectiveness: Medium) - Your Response: Pin trapped arm elbow firmly to ribs and turn your body toward the trapped arm side. Increase forward stacking pressure to limit their hip mobility for the armbar transition. If they commit to opening the triangle for armbar, follow their rotation by stepping around toward your trapped arm side while driving forward. → Leads to [[Armbar Control]]
-- **Opponent re-locks figure-four tighter by squeezing knees together and adjusting leg position during your posture attempt** (Effectiveness: Medium) - Your Response: Pause the upward drive momentarily and increase forward stacking pressure to compromise their leg structure from a different angle. Once the lock settles, resume incremental posture recovery. Each re-lock requires the opponent to momentarily loosen before retightening, creating brief extraction windows you can exploit. → Leads to [[Triangle Escape Position]]
+- **Opponent pulls head down aggressively with both hands behind the neck while extending hips to maximize choking pressure** (Effectiveness: High) - Your Response: Maintain chin tuck and focus entirely on hip drive rather than fighting the head pull directly. Walk knees forward to establish base and use incremental posterior chain extension to build posture against their pull. The hip-driven approach generates far more force than their arm pulling can resist when your base is properly established. → Leads to [[Positions/Triangle Escape Position]]
+- **Opponent scoots hips laterally to re-establish perpendicular choking angle as you attempt to square your shoulders** (Effectiveness: High) - Your Response: Follow their angle adjustment by walking your knees laterally in the same direction, treating the squaring effort as an ongoing process rather than a one-time correction. Intensify hip control hand pressure to restrict their scooting mobility while continuing upward drive. → Leads to [[Positions/Triangle Escape Position]]
+- **Opponent isolates the trapped arm by pulling it across your neck and pivoting hips to transition to armbar** (Effectiveness: Medium) - Your Response: Pin trapped arm elbow firmly to ribs and turn your body toward the trapped arm side. Increase forward stacking pressure to limit their hip mobility for the armbar transition. If they commit to opening the triangle for armbar, follow their rotation by stepping around toward your trapped arm side while driving forward. → Leads to [[Positions/Armbar Control]]
+- **Opponent re-locks figure-four tighter by squeezing knees together and adjusting leg position during your posture attempt** (Effectiveness: Medium) - Your Response: Pause the upward drive momentarily and increase forward stacking pressure to compromise their leg structure from a different angle. Once the lock settles, resume incremental posture recovery. Each re-lock requires the opponent to momentarily loosen before retightening, creating brief extraction windows you can exploit. → Leads to [[Positions/Triangle Escape Position]]
 
 
 </section>

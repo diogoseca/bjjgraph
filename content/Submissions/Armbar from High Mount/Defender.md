@@ -156,7 +156,7 @@ description: "Defend and escape the Armbar from High Mount in BJJ. Recognition c
 
 Defending the Armbar from High Mount requires a layered approach that begins with prevention and ends with emergency escape. The ideal defense prevents the attacker from ever isolating your arm in the first place—keeping elbows tight, hands protecting your neck, and maintaining defensive frames that prevent the attacker from establishing the two-on-one grip needed to begin the submission sequence. Once arm isolation begins, defense shifts to grip fighting, arm retraction, and exploiting the attacker's weight shifts during their transition from mount to armbar position. The defender must recognize that every phase of the armbar setup creates a momentary positional weakness in the attacker's base, and these windows are the escape opportunities. Understanding which defensive action matches each phase of the attack is the foundation of high-level armbar defense from high mount.
 
-**Opponent's Starting Position**: [[High Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/High Mount]] (Top)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the Armbar from High Mount requires a layered approach that begins wit
 ### 1. Clasp hands and grip-fight to prevent arm extension
 
 - **When to use**: As soon as you feel the attacker isolating your arm with a two-on-one grip before they begin rotation
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Attacker cannot complete the armbar and must either break grips or abandon the attack, returning to high mount
 - **Risk**: If you focus only on gripping, you may neglect hip escape opportunities and remain stuck in high mount
 
 ### 2. Bridge explosively during the attacker's leg swing transition
 
 - **When to use**: The moment the attacker lifts their leg to swing over your head—their base is weakest during this phase
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Bridge displaces the attacker's base, preventing them from completing the armbar and allowing guard recovery
 - **Risk**: Mistimed bridge wastes energy and may extend your arm further into the submission
 
 ### 3. Hip escape toward the attacker's legs during their rotation
 
 - **When to use**: During the attacker's sit-back phase when their weight shifts away from your hips
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough space to insert your knee and recover half guard, nullifying the armbar threat
 - **Risk**: If you escape hips without protecting the arm, you may give up the armbar from a worse angle
 
 ### 4. Turn into the attacker and follow their rotation to prevent extension
 
 - **When to use**: When the attacker has completed the leg swing and is sitting back—turning toward them prevents full arm extension
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Prevents the armbar finish and may allow you to stack the attacker or recover top position
 - **Risk**: Turning exposes your back momentarily and the attacker may transition to back control
 
@@ -240,11 +240,11 @@ Defending the Armbar from High Mount requires a layered approach that begins wit
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time an explosive bridge during the attacker's leg swing transition when their base is compromised, displacing them and recovering guard before they can re-establish mount
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Hip escape during the attacker's sit-back phase, using the weight shift to create space for knee insertion and half guard recovery
 

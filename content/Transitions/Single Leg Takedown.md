@@ -17,7 +17,7 @@ description: "Master the Single Leg Takedown in BJJ. Complete guide covering ent
 
 The Single Leg Takedown is one of the most fundamental and high-percentage takedowns in Brazilian Jiu-Jitsu and grappling arts, borrowed from wrestling. This technique involves attacking one of the opponent's legs while maintaining control of their upper body, creating an imbalance that forces them to the mat. The single leg is particularly effective in no-gi competition and MMA contexts, where traditional judo-style throws may be more difficult to execute. Unlike double leg takedowns that require deeper penetration and expose the practitioner to guillotine chokes, the single leg offers a more upright finishing position with multiple mechanical advantages. The technique's versatility lies in its numerous finishing variations - from the classic run-the-pipe to trips, dumps, and elevation finishes - allowing practitioners to adapt based on opponent reactions and defensive responses. Mastery of the single leg takedown provides a reliable method for taking the fight to the ground while maintaining dominant positioning, making it an essential skill for competitors at all levels who seek to control where and how the match is contested.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -28,9 +28,9 @@ The Single Leg Takedown is one of the most fundamental and high-percentage taked
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Failure | [[Standing Position]] | 20% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 70% |
+| Failure | [[Positions/Standing Position]] | 20% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -195,29 +195,29 @@ The single leg takedown occupies a crucial position within the broader BJJ techn
 ## Related Techniques
 
 
-- [[Single Leg Entry]] - Setup technique - the initial penetration and capture phase of the single leg
+- [[Transitions/Single Leg Entry]] - Setup technique - the initial penetration and capture phase of the single leg
 
-- [[Double Leg Entry]] - Alternative takedown - can switch to when opponent squares hips
+- [[Transitions/Double Leg Entry]] - Alternative takedown - can switch to when opponent squares hips
 
-- [[Ankle Pick]] - Related leg attack - lower-level single leg variation
+- [[Transitions/Ankle Pick]] - Related leg attack - lower-level single leg variation
 
-- [[Sprawl]] - Primary counter - main defensive response opponents will use
+- [[Transitions/Sprawl]] - Primary counter - main defensive response opponents will use
 
-- [[Guillotine Choke]] - Counter submission - common attack opponents attempt during single leg
+- [[Transitions/Guillotine Choke]] - Counter submission - common attack opponents attempt during single leg
 
-- [[Snap Down to Front Headlock]] - Setup technique - creates reactions that open single leg opportunities
+- [[Transitions/Snap Down to Front Headlock]] - Setup technique - creates reactions that open single leg opportunities
 
-- [[Front Headlock]] - Alternative position - where you may end up if single leg is partially defended
+- [[Positions/Front Headlock]] - Alternative position - where you may end up if single leg is partially defended
 
-- [[Single Leg X-Guard]] - Alternative finish - guard position if takedown is defended but leg control maintained
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative finish - guard position if takedown is defended but leg control maintained
 
-- [[Side Control]] - Primary success outcome - dominant position achieved after completing takedown
+- [[Positions/Side Control]] - Primary success outcome - dominant position achieved after completing takedown
 
-- [[Back Control]] - Alternative success outcome - achieved when opponent turns incorrectly during defense
+- [[Positions/Back Control]] - Alternative success outcome - achieved when opponent turns incorrectly during defense
 
-- [[Guard Pull]] - Alternative strategy - opponent may pull guard to avoid single leg
+- [[Transitions/Guard Pull]] - Alternative strategy - opponent may pull guard to avoid single leg
 
-- [[Double Leg Finish]] - Chain technique - conversion option when single leg is defended by squaring hips
+- [[Transitions/Double Leg Finish]] - Chain technique - conversion option when single leg is defended by squaring hips
 
 
 </section>

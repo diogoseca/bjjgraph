@@ -209,25 +209,25 @@ Seated Guard Top works best when you establish dominant grips (collar, sleeves, 
 
 ## Available Attacks
 
-### [[Toreando Pass]] (38% of attempts)
+### [[Transitions/Toreando Pass]] (38% of attempts)
 
-### [[Knee Slice Pass]] (12% of attempts)
+### [[Transitions/Knee Slice Pass]] (12% of attempts)
 
-### [[Long Step Pass]] (11% of attempts)
+### [[Transitions/Long Step Pass]] (11% of attempts)
 
-### [[Leg Drag Pass]] (12% of attempts)
+### [[Transitions/Leg Drag Pass]] (12% of attempts)
 
-### [[Stack Pass]] (11% of attempts)
+### [[Transitions/Stack Pass]] (11% of attempts)
 
-### [[Smash Pass]] (10% of attempts)
+### [[Transitions/Smash Pass]] (10% of attempts)
 
-### [[Bodylock Pass from Seated]] (4% of attempts)
+### [[Transitions/Bodylock Pass from Seated]] (4% of attempts)
 
-### [[Bull Pass from Seated]] (1% of attempts)
+### [[Transitions/Bull Pass from Seated]] (1% of attempts)
 
-### [[Knee Slice from Seated Guard]] (0% of attempts)
+### [[Transitions/Knee Slice from Seated Guard]] (0% of attempts)
 
-### [[Toreando Pass from Seated Guard]] (1% of attempts)
+### [[Transitions/Toreando Pass from Seated Guard]] (1% of attempts)
 
 
 
@@ -238,27 +238,27 @@ Seated Guard Top works best when you establish dominant grips (collar, sleeves, 
 ## Decision Making from This Position
 
 **If opponent has no grips and legs are extended defensively:**
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Leg Drag Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent establishes sleeve or collar grips:**
-- Execute **[[Grip Break]]** → [[Seated Guard Top]] (Probability: 70%)
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Grip Break]]** → [[Seated Guard Top]] (Probability: 70%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent attempts to stand or technical standup:**
-- Execute **[[Snap Down]]** → [[Front Headlock]] (Probability: 60%)
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Bodylock Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Snap Down]]** → [[Positions/Front Headlock]] (Probability: 60%)
+- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Bodylock Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent tries to insert butterfly hooks or enter leg entanglements:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 
@@ -404,14 +404,14 @@ Start with you standing/kneeling and partner in seated guard. Attempt to pass. P
 
 ## Related Positions and Techniques
 
-- **[[Toreando Pass]]** - Primary passing technique against seated guard
-- **[[Knee Slice Pass]]** - Effective pass when opponent tries to insert hooks
-- **[[Long Step Pass]]** - Pressure-based pass effective against seated opponents
-- **[[Leg Drag Pass]]** - Angle-based pass effective against extended legs
-- **[[Front Headlock]]** - Counter position when opponent attempts standup
-- **[[Side Control]]** - Target position after successful pass
-- **[[Headquarters Position]]** - Intermediate control position during passing
-- **[[Combat Base]]** - Kneeling stance option for passing approach
+- **[[Transitions/Toreando Pass]]** - Primary passing technique against seated guard
+- **[[Transitions/Knee Slice Pass]]** - Effective pass when opponent tries to insert hooks
+- **[[Transitions/Long Step Pass]]** - Pressure-based pass effective against seated opponents
+- **[[Transitions/Leg Drag Pass]]** - Angle-based pass effective against extended legs
+- **[[Positions/Front Headlock]]** - Counter position when opponent attempts standup
+- **[[Positions/Side Control]]** - Target position after successful pass
+- **[[Positions/Headquarters Position]]** - Intermediate control position during passing
+- **[[Positions/Combat Base]]** - Kneeling stance option for passing approach
 
 
 </section>

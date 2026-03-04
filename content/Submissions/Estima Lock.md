@@ -26,8 +26,8 @@ The technique requires precise control and understanding of leg entanglement mec
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Foot and ankle joints (dorsiflexion of foot)
-**Starting Position**: [[Ashi Garami]]
-**From Position**: [[50-50 Guard]] (Bottom)
+**Starting Position**: [[Positions/Ashi Garami]]
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -83,8 +83,8 @@ The technique requires precise control and understanding of leg entanglement mec
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Ashi Garami]] | 25% |
-| Counter | [[Standing Position]] | 15% |
+| Failure | [[Positions/Ashi Garami]] | 25% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -240,13 +240,13 @@ The technique requires precise control and understanding of leg entanglement mec
 
 ## From Which Positions?
 
-- [[50-50 Guard]]
-- [[Ashi Garami]]
-- [[Outside Ashi-Garami]]
-- [[Inside Ashi-Garami]]
-- [[Backside 50-50]]
-- [[Cross Ashi-Garami]]
-- [[Saddle]]
+- [[Positions/Ashi Garami/50-50 Guard]]
+- [[Positions/Ashi Garami]]
+- [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- [[Positions/Ashi Garami/Backside 50-50]]
+- [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- [[Positions/Ashi Garami/Saddle]]
 
 
 </section>
@@ -255,16 +255,16 @@ The technique requires precise control and understanding of leg entanglement mec
 
 ## Related Submissions
 
-- [[Toe Hold]]
-- [[Outside Heel Hook]]
-- [[Inside Heel Hook]]
-- [[Straight Ankle Lock]]
-- [[Kneebar]]
-- [[Kneebar from 50-50]]
-- [[Toe Hold from 50-50]]
-- [[Heel Hook]]
-- [[Calf Slicer from 50-50]]
-- [[Achilles Lock]]
+- [[Transitions/Toe Hold]]
+- [[Transitions/Outside Heel Hook]]
+- [[Submissions/Inside Heel Hook]]
+- [[Submissions/Straight Ankle Lock]]
+- [[Transitions/Kneebar]]
+- [[Submissions/Kneebar from 50-50]]
+- [[Submissions/Toe Hold from 50-50]]
+- [[Transitions/Heel Hook]]
+- [[Submissions/Calf Slicer from 50-50]]
+- [[Submissions/Achilles Lock]]
 
 
 </section>
@@ -273,17 +273,17 @@ The technique requires precise control and understanding of leg entanglement mec
 
 ## Additional Related Content
 
-- [[Ashi Garami]] - Primary leg entanglement family containing 50-50 Guard and other positions for Estima Lock
-- [[Toe Hold]] - Common transition when opponent defends Estima Lock by pulling foot free
-- [[Outside Heel Hook]] - Alternative leg attack from similar positions when Estima Lock is defended
-- [[Straight Ankle Lock]] - Transition option when opponent straightens leg to defend Estima Lock
-- [[Kneebar from 50-50]] - Complementary attack in 50-50 system creating offensive dilemmas
-- [[Inside Heel Hook]] - Related leg attack creating dilemmas in modern leg lock systems
-- [[Heel Hook]] - High-percentage leg lock creating submission chains with Estima Lock
-- [[Calf Slicer from 50-50]] - Alternative compression submission from 50-50 position
-- [[Toe Hold from 50-50]] - Direct transition when opponent pulls foot during Estima Lock defense
-- [[50-50 Guard]] - Primary position for Estima Lock application and leg lock system integration
-- [[Saddle]] - Advanced leg entanglement position that can transition to Estima Lock
+- [[Positions/Ashi Garami]] - Primary leg entanglement family containing 50-50 Guard and other positions for Estima Lock
+- [[Transitions/Toe Hold]] - Common transition when opponent defends Estima Lock by pulling foot free
+- [[Transitions/Outside Heel Hook]] - Alternative leg attack from similar positions when Estima Lock is defended
+- [[Submissions/Straight Ankle Lock]] - Transition option when opponent straightens leg to defend Estima Lock
+- [[Submissions/Kneebar from 50-50]] - Complementary attack in 50-50 system creating offensive dilemmas
+- [[Submissions/Inside Heel Hook]] - Related leg attack creating dilemmas in modern leg lock systems
+- [[Transitions/Heel Hook]] - High-percentage leg lock creating submission chains with Estima Lock
+- [[Submissions/Calf Slicer from 50-50]] - Alternative compression submission from 50-50 position
+- [[Submissions/Toe Hold from 50-50]] - Direct transition when opponent pulls foot during Estima Lock defense
+- [[Positions/Ashi Garami/50-50 Guard]] - Primary position for Estima Lock application and leg lock system integration
+- [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement position that can transition to Estima Lock
 
 
 </section>

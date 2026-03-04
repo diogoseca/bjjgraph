@@ -154,7 +154,7 @@ description: "How to defend against the Whizzer overhook in BJJ. Recognition cue
 
 Defending against the Whizzer requires understanding that the overhook controls your shoulder joint and limits your underhook's effectiveness through hip angle and downward pressure. As the defender, your underhook was your primary offensive tool - the Whizzer has neutralized it, and now you must either recover your underhook's function by closing the hip angle, extract your arm entirely and reset, or exploit the commitment of the Whizzer to advance your own position. The critical insight is that the Whizzer player has committed one arm to controlling yours, which means their free arm and their base are the vulnerable points. Successful defense combines posture recovery, hip repositioning to square up with the opponent, and reading whether to fight through the Whizzer or abandon the underhook and redirect your attack. Patience and methodical grip adjustment outperform explosive escape attempts, which typically worsen your position by creating momentum the Whizzer player can redirect into back takes or submissions.
 
-**Opponent's Starting Position**: [[Overhook Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Overhook Control]] (Top)
 
 </section>
 
@@ -190,28 +190,28 @@ Defending against the Whizzer requires understanding that the overhook controls 
 ### 1. Circle toward the Whizzer side and drive hips forward to close the angle, squaring up with opponent to negate overhook leverage
 
 - **When to use**: Early in the Whizzer establishment when the hip angle is not yet fully set and you still have forward driving ability through your legs
-- **Targets**: [[Overhook Control]]
+- **Targets**: [[Positions/Overhook Control]]
 - **If successful**: You neutralize the Whizzer's mechanical advantage by removing the hip angle, restoring your underhook's power and forcing the opponent to re-establish control or abandon the overhook
 - **Risk**: If you circle too aggressively without maintaining base, the opponent can use your momentum to redirect you into a front headlock snap-down or accelerate a back take by stepping behind you
 
 ### 2. Retract your trapped arm by rotating your shoulder inward (limp arm) while simultaneously establishing a new grip or underhook on the opposite side
 
 - **When to use**: When the Whizzer is deeply set and you cannot close the angle - abandon the trapped underhook rather than fighting a losing grip battle
-- **Targets**: [[Overhook Control]]
+- **Targets**: [[Positions/Overhook Control]]
 - **If successful**: You free your arm from the overhook control and can immediately reset to neutral or establish a new underhook before the opponent adjusts their control system
 - **Risk**: The rotation required to limp-arm out can expose your back if the opponent follows your turn, and they may transition to a front headlock or snap-down as your arm retracts
 
 ### 3. Drive forward explosively with your legs while dropping your weight low, using forward pressure to prevent the opponent from maintaining hip angle and transitioning
 
 - **When to use**: When the opponent is light on their base or has overcommitted their weight to the Whizzer and lacks strong leg positioning to resist forward drive
-- **Targets**: [[Overhook Control]]
+- **Targets**: [[Positions/Overhook Control]]
 - **If successful**: You drive through the Whizzer control and flatten the opponent or force them to sit to guard, reversing the positional dynamic and potentially achieving a takedown or top position
 - **Risk**: If the opponent has strong base and reads your forward drive, they can use your momentum to execute a rolling back take or redirect you into a guillotine or front headlock
 
 ### 4. Use your free hand to grab the opponent's far wrist or elbow, establishing a two-on-one on their Whizzer arm to peel it off your shoulder
 
 - **When to use**: When the opponent's free hand is not actively controlling your head and you have bilateral arm access to attack their Whizzer grip directly
-- **Targets**: [[Overhook Control]]
+- **Targets**: [[Positions/Overhook Control]]
 - **If successful**: You strip the Whizzer grip entirely, freeing your underhook and restoring your offensive capability while the opponent must reset their control system
 - **Risk**: Committing both hands to grip stripping temporarily removes your ability to defend against head control or front headlock entries, and a failed strip wastes energy
 
@@ -223,11 +223,11 @@ Defending against the Whizzer requires understanding that the overhook controls 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Overhook Control]]
+### → [[Positions/Overhook Control]]
 
 Circle toward the Whizzer side to close the hip angle while maintaining strong posture and forward drive. Once the angle is closed, your underhook regains its power and the Whizzer loses its mechanical advantage. Alternatively, strip the overhook grip using your free hand and immediately re-establish your underhook before the opponent can recover control.
 
-### → [[Overhook Control]]
+### → [[Positions/Overhook Control]]
 
 If you cannot strip or neutralize the Whizzer, use explosive forward drive to collapse the opponent's base and force them to sit to guard or fall backward. Maintain heavy downward pressure and keep your hips low as you drive through, converting the exchange into a passing or top control situation where the Whizzer becomes ineffective.
 

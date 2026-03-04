@@ -231,8 +231,8 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Front Headlock]] | 20% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Front Headlock]] | 20% |
 
 
 </section>
@@ -241,11 +241,11 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 ## Opponent Defenses
 
-- **Straightening the trapped arm aggressively** (Effectiveness: Medium) - Your Response: Maintain elbow control and use your body weight to prevent full extension. If they succeed in straightening, transition to other attacks like front headlock chokes or re-establish the grip from a different angle. → Leads to [[Standing Position]]
-- **Turning into the lock to relieve shoulder pressure** (Effectiveness: High) - Your Response: Follow their rotation and transition to back take. The reverse Kimura naturally leads to back exposure when opponents rotate to defend. Maintain your grip and use it to control their movement as you establish hooks or body lock. → Leads to [[Front Headlock]]
-- **Grabbing their own gi, belt, or body to create a defensive frame** (Effectiveness: Medium) - Your Response: In no-gi this defense is less effective. In gi, you may need to break the grip by increasing rotational pressure or by using your free hand to strip their defensive grip. Alternatively, use the control to transition to other positions. → Leads to [[Standing Position]]
-- **Dropping weight or sitting to remove your standing leverage** (Effectiveness: Low) - Your Response: Follow them to the ground maintaining your grip and superior position. The reverse Kimura transitions well from standing to ground positions. Establish side control or north-south as you bring them down, keeping the submission threat active. → Leads to [[Standing Position]]
-- **Rolling forward or granby rolling to escape** (Effectiveness: Low) - Your Response: The reverse Kimura grip prevents most rolling escapes if maintained properly. Stay heavy on their upper body and use the grip to control their movement. If they do manage to roll, you often end up in superior position with back access or mounted position. → Leads to [[Front Headlock]]
+- **Straightening the trapped arm aggressively** (Effectiveness: Medium) - Your Response: Maintain elbow control and use your body weight to prevent full extension. If they succeed in straightening, transition to other attacks like front headlock chokes or re-establish the grip from a different angle. → Leads to [[Positions/Standing Position]]
+- **Turning into the lock to relieve shoulder pressure** (Effectiveness: High) - Your Response: Follow their rotation and transition to back take. The reverse Kimura naturally leads to back exposure when opponents rotate to defend. Maintain your grip and use it to control their movement as you establish hooks or body lock. → Leads to [[Positions/Front Headlock]]
+- **Grabbing their own gi, belt, or body to create a defensive frame** (Effectiveness: Medium) - Your Response: In no-gi this defense is less effective. In gi, you may need to break the grip by increasing rotational pressure or by using your free hand to strip their defensive grip. Alternatively, use the control to transition to other positions. → Leads to [[Positions/Standing Position]]
+- **Dropping weight or sitting to remove your standing leverage** (Effectiveness: Low) - Your Response: Follow them to the ground maintaining your grip and superior position. The reverse Kimura transitions well from standing to ground positions. Establish side control or north-south as you bring them down, keeping the submission threat active. → Leads to [[Positions/Standing Position]]
+- **Rolling forward or granby rolling to escape** (Effectiveness: Low) - Your Response: The reverse Kimura grip prevents most rolling escapes if maintained properly. Stay heavy on their upper body and use the grip to control their movement. If they do manage to roll, you often end up in superior position with back access or mounted position. → Leads to [[Positions/Front Headlock]]
 
 
 </section>

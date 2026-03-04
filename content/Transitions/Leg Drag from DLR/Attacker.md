@@ -180,7 +180,7 @@ description: "Execute the leg drag pass from De La Riva Guard. Step-by-step grip
 
 The leg drag from DLR is a high-percentage passing technique that converts the bottom player's guard structure into a passing pathway. As the attacker, you control the opponent's legs through precise gripping, clear the DLR hook through hip rotation rather than brute force, and redirect the leg across their centerline to establish dominant control. The technique's power lies in its integration with other passes—it functions best as part of a toreando-leg drag-knee slice chain that creates multi-directional pressure the guard player cannot predict or defend statically. Mastering the grip sequence, timing the drag to the moment of maximum hook vulnerability, and immediately consolidating with upper body control are the three pillars of consistent execution.
 
-**From Position**: [[De La Riva Guard]] (Top)
+**From Position**: [[Positions/De La Riva Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The leg drag from DLR is a high-percentage passing technique that converts the b
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Leg Drag Control]] | 55% |
-| Failure | [[De La Riva Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Leg Drag Control]] | 55% |
+| Failure | [[Positions/De La Riva Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The leg drag from DLR is a high-percentage passing technique that converts the b
 
 ## Opponent Counters
 
-- **Bottom player re-threads DLR hook before drag completes by pulling knee back and re-inserting foot behind the passer's knee** (Effectiveness: High) - Your Response: Accelerate the drag with explosive hip rotation and immediately establish crossface to prevent re-hooking. If they consistently re-hook, switch to a backstep pass that uses their hook commitment against them. → Leads to [[De La Riva Guard]]
-- **Bottom player hip escapes in the drag direction and inserts a knee shield to block consolidation** (Effectiveness: Medium) - Your Response: Follow their hips with forward pressure and convert to a knee slice pass rather than fighting the shield. The knee shield opens knee slice entries that bypass the obstacle entirely. → Leads to [[De La Riva Guard]]
-- **Bottom player underhooks the passer's near leg and drives forward for a sweep during the weight transition of the drag** (Effectiveness: Medium) - Your Response: Maintain a wide base with your posted leg and keep hips low during the drag. If you feel the underhook, immediately whizzer and drive your weight back to crush the sweep attempt before it generates momentum. → Leads to [[Half Guard]]
-- **Bottom player transitions to Single Leg X-Guard by threading their free leg under the passer's base during the drag** (Effectiveness: Medium) - Your Response: Keep the drag trajectory low and tight to their body to prevent space underneath. If they begin threading, immediately backstep to disengage their hooks before they can elevate for a sweep. → Leads to [[De La Riva Guard]]
+- **Bottom player re-threads DLR hook before drag completes by pulling knee back and re-inserting foot behind the passer's knee** (Effectiveness: High) - Your Response: Accelerate the drag with explosive hip rotation and immediately establish crossface to prevent re-hooking. If they consistently re-hook, switch to a backstep pass that uses their hook commitment against them. → Leads to [[Positions/De La Riva Guard]]
+- **Bottom player hip escapes in the drag direction and inserts a knee shield to block consolidation** (Effectiveness: Medium) - Your Response: Follow their hips with forward pressure and convert to a knee slice pass rather than fighting the shield. The knee shield opens knee slice entries that bypass the obstacle entirely. → Leads to [[Positions/De La Riva Guard]]
+- **Bottom player underhooks the passer's near leg and drives forward for a sweep during the weight transition of the drag** (Effectiveness: Medium) - Your Response: Maintain a wide base with your posted leg and keep hips low during the drag. If you feel the underhook, immediately whizzer and drive your weight back to crush the sweep attempt before it generates momentum. → Leads to [[Positions/Half Guard]]
+- **Bottom player transitions to Single Leg X-Guard by threading their free leg under the passer's base during the drag** (Effectiveness: Medium) - Your Response: Keep the drag trajectory low and tight to their body to prevent space underneath. If they begin threading, immediately backstep to disengage their hooks before they can elevate for a sweep. → Leads to [[Positions/De La Riva Guard]]
 
 
 </section>

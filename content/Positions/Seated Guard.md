@@ -89,23 +89,23 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 ### Available Transitions
 
 
-- **[[Technical Stand-up]]** (12% of attempts)
+- **[[Transitions/Technical Stand-up]]** (12% of attempts)
 
-- **[[Butterfly Sweep]]** (11% of attempts)
+- **[[Transitions/Butterfly Sweep]]** (11% of attempts)
 
-- **[[Scissor Sweep]]** (12% of attempts)
+- **[[Transitions/Scissor Sweep]]** (12% of attempts)
 
-- **[[Single Leg X Entry]]** (11% of attempts)
+- **[[Transitions/Single Leg X Entry]]** (11% of attempts)
 
-- **[[Ankle Pick]]** (10% of attempts)
+- **[[Transitions/Ankle Pick]]** (10% of attempts)
 
-- **[[Tripod Sweep]]** (11% of attempts)
+- **[[Transitions/Tripod Sweep]]** (11% of attempts)
 
-- **[[X-Guard Sweep]]** (11% of attempts)
+- **[[Transitions/X-Guard Sweep]]** (11% of attempts)
 
-- **[[Lumberjack Sweep]]** (11% of attempts)
+- **[[Transitions/Lumberjack Sweep]]** (11% of attempts)
 
-- **[[Foot Grab Sweep]]** (11% of attempts)
+- **[[Transitions/Foot Grab Sweep]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -168,25 +168,25 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 ### Available Transitions
 
 
-- **[[Toreando Pass]]** (38% of attempts)
+- **[[Transitions/Toreando Pass]]** (38% of attempts)
 
-- **[[Knee Slice Pass]]** (12% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (12% of attempts)
 
-- **[[Long Step Pass]]** (11% of attempts)
+- **[[Transitions/Long Step Pass]]** (11% of attempts)
 
-- **[[Leg Drag Pass]]** (12% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (12% of attempts)
 
-- **[[Stack Pass]]** (11% of attempts)
+- **[[Transitions/Stack Pass]]** (11% of attempts)
 
-- **[[Smash Pass]]** (10% of attempts)
+- **[[Transitions/Smash Pass]]** (10% of attempts)
 
-- **[[Bodylock Pass from Seated]]** (4% of attempts)
+- **[[Transitions/Bodylock Pass from Seated]]** (4% of attempts)
 
-- **[[Bull Pass from Seated]]** (1% of attempts)
+- **[[Transitions/Bull Pass from Seated]]** (1% of attempts)
 
-- **[[Knee Slice from Seated Guard]]** (0% of attempts)
+- **[[Transitions/Knee Slice from Seated Guard]]** (0% of attempts)
 
-- **[[Toreando Pass from Seated Guard]]** (1% of attempts)
+- **[[Transitions/Toreando Pass from Seated Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -229,15 +229,15 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 ## Related Positions
 
 
-- **[[Butterfly Guard]]** - Natural progression by inserting hooks when opponent close
+- **[[Positions/Butterfly Guard]]** - Natural progression by inserting hooks when opponent close
 
-- **[[Standing Guard]]** - Natural progression by standing up from seated
+- **[[Positions/Standing Guard]]** - Natural progression by standing up from seated
 
-- **[[Single Leg X-Guard]]** - Common entry from seated guard when opponent steps forward
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Common entry from seated guard when opponent steps forward
 
-- **[[X-Guard]]** - Related guard variation with similar entries
+- **[[Positions/X-Guard]]** - Related guard variation with similar entries
 
-- **[[Open Guard]]** - Parent category position, seated guard is specific type
+- **[[Positions/Open Guard]]** - Parent category position, seated guard is specific type
 
 
 </section>

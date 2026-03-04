@@ -180,7 +180,7 @@ description: "Master executing the Half Butterfly to Dogfight transition. Comple
 
 As the attacker, you are the bottom player in half butterfly guard working to elevate to the dogfight position. Your primary tools are the deep underhook and the butterfly hook, which must work in concert to generate the upward and forward momentum needed to rise to your knees. The transition demands precise timing—rushing without proper grips results in being flattened, while waiting too long allows the top player to consolidate pressure. Success depends on coordinating the butterfly hook elevation with the underhook drive while maintaining half guard leg control throughout the rise. Once you reach dogfight, you have immediate access to sweeps, back takes, and further transitions that make this one of the highest-value positional improvements from bottom half guard.
 
-**From Position**: [[Half Butterfly]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker, you are the bottom player in half butterfly guard working to el
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Dogfight Position]] | 55% |
-| Failure | [[Half Butterfly]] | 30% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Dogfight Position]] | 55% |
+| Failure | [[Positions/Butterfly Guard/Half Butterfly]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -243,9 +243,9 @@ As the attacker, you are the bottom player in half butterfly guard working to el
 
 ## Opponent Counters
 
-- **Top player drives heavy crossface and sprawls hips back to flatten bottom player during elevation attempt** (Effectiveness: High) - Your Response: If you feel the crossface coming, accelerate your elevation and turn harder into the opponent rather than trying to rise straight up. Use the butterfly hook to lift sharply and redirect their sprawl pressure. If already flattened, abandon the dogfight attempt and work back to proper half butterfly frames before retrying. → Leads to [[Flattened Half Guard]]
-- **Top player establishes deep whizzer overhook and uses it to peel the underhook while driving shoulder pressure** (Effectiveness: Medium) - Your Response: When you feel the whizzer locking in, continue driving forward rather than pulling back. A committed forward drive makes the whizzer less effective. If the whizzer is too deep, consider transitioning to deep half guard by ducking under or switching to an electric chair entry that uses the whizzer against the opponent. → Leads to [[Half Butterfly]]
-- **Top player backsteps or shifts weight laterally to avoid the elevation and begin extracting their trapped leg** (Effectiveness: Medium) - Your Response: Follow the backstep by adjusting your angle and maintaining the half guard squeeze. If they create enough space, transition your butterfly hook to a different guard entry point such as single leg X or deep half rather than forcing the dogfight. Use their lateral movement as an opportunity to off-balance them in the direction they are already moving. → Leads to [[Half Butterfly]]
+- **Top player drives heavy crossface and sprawls hips back to flatten bottom player during elevation attempt** (Effectiveness: High) - Your Response: If you feel the crossface coming, accelerate your elevation and turn harder into the opponent rather than trying to rise straight up. Use the butterfly hook to lift sharply and redirect their sprawl pressure. If already flattened, abandon the dogfight attempt and work back to proper half butterfly frames before retrying. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Top player establishes deep whizzer overhook and uses it to peel the underhook while driving shoulder pressure** (Effectiveness: Medium) - Your Response: When you feel the whizzer locking in, continue driving forward rather than pulling back. A committed forward drive makes the whizzer less effective. If the whizzer is too deep, consider transitioning to deep half guard by ducking under or switching to an electric chair entry that uses the whizzer against the opponent. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
+- **Top player backsteps or shifts weight laterally to avoid the elevation and begin extracting their trapped leg** (Effectiveness: Medium) - Your Response: Follow the backstep by adjusting your angle and maintaining the half guard squeeze. If they create enough space, transition your butterfly hook to a different guard entry point such as single leg X or deep half rather than forcing the dogfight. Use their lateral movement as an opportunity to off-balance them in the direction they are already moving. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
 
 
 </section>

@@ -21,7 +21,7 @@ The escape works on the principle of redirecting rotational energy. Rather than 
 
 This technique is considered a secondary escape option from the truck, with granby rolls and hip escapes being more frequently attempted. However, the Roll to Guard offers a direct path to an established guard position rather than the intermediate turtle or scramble, making it particularly valuable for practitioners with strong guard retention and offensive guard games. The technique requires comfort with inverted movement patterns and the ability to maintain defensive awareness during the rolling transition.
 
-**From Position**: [[Truck]] (Bottom)
+**From Position**: [[Positions/Twister Control/Truck]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ This technique is considered a secondary escape option from the truck, with gran
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Open Guard]] | 10% |
-| Failure | [[Truck]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Twister Control/Truck]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -194,27 +194,27 @@ The Roll to Guard from Truck connects the truck escape system to the broader gua
 ## Related Techniques
 
 
-- [[Truck]] - Source position - the dangerous leg entanglement being escaped
+- [[Positions/Twister Control/Truck]] - Source position - the dangerous leg entanglement being escaped
 
-- [[Half Guard]] - Primary success destination - most common guard recovery position
+- [[Positions/Half Guard]] - Primary success destination - most common guard recovery position
 
-- [[Open Guard]] - Secondary success destination - recovered with greater separation
+- [[Positions/Open Guard]] - Secondary success destination - recovered with greater separation
 
-- [[Back Control]] - Counter outcome - opponent follows roll and establishes back control
+- [[Positions/Back Control]] - Counter outcome - opponent follows roll and establishes back control
 
-- [[Escape from Truck]] - Related escape technique from the same starting position
+- [[Transitions/Escape from Truck]] - Related escape technique from the same starting position
 
-- [[Hip Escape from Truck]] - Alternative escape using shrimping motion instead of rolling
+- [[Transitions/Hip Escape from Truck]] - Alternative escape using shrimping motion instead of rolling
 
-- [[Leg Extraction from Truck]] - Complementary technique focusing on freeing the trapped leg
+- [[Transitions/Leg Extraction from Truck]] - Complementary technique focusing on freeing the trapped leg
 
-- [[Deep Half Guard]] - Alternative roll destination threading underneath opponent
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative roll destination threading underneath opponent
 
-- [[Turtle]] - Intermediate position often reached during incomplete escape attempts
+- [[Positions/Turtle]] - Intermediate position often reached during incomplete escape attempts
 
-- [[Crab Ride]] - Related back attack position in the truck system
+- [[Positions/Crab Ride]] - Related back attack position in the truck system
 
-- [[Twister Control]] - Primary submission threat motivating the escape attempt
+- [[Positions/Twister Control]] - Primary submission threat motivating the escape attempt
 
 
 </section>

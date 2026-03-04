@@ -26,8 +26,8 @@ The finishing mechanics require a slow, paint-brush rotation of the opponent's e
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (rotator cuff and glenohumeral complex)
-**Starting Position**: [[Technical Mount]]
-**From Position**: [[Technical Mount]] (Top)
+**Starting Position**: [[Positions/Mount/Technical Mount]]
+**From Position**: [[Positions/Mount/Technical Mount]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -81,9 +81,9 @@ The finishing mechanics require a slow, paint-brush rotation of the opponent's e
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Technical Mount]] | 30% |
-| Failure | [[Mount]] | 15% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Mount/Technical Mount]] | 30% |
+| Failure | [[Positions/Mount]] | 15% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -229,11 +229,11 @@ The finishing mechanics require a slow, paint-brush rotation of the opponent's e
 
 ## From Which Positions?
 
-- [[Technical Mount]]
-- [[Mount]]
-- [[3-4 Mount]]
-- [[S Mount]]
-- [[High Mount]]
+- [[Positions/Mount/Technical Mount]]
+- [[Positions/Mount]]
+- [[Positions/Mount/3-4 Mount]]
+- [[Positions/Mount/S Mount]]
+- [[Positions/Mount/High Mount]]
 
 
 </section>
@@ -242,15 +242,15 @@ The finishing mechanics require a slow, paint-brush rotation of the opponent's e
 
 ## Related Submissions
 
-- [[Americana from Mount]]
-- [[Americana from 3-4 Mount]]
-- [[Americana from Side Control]]
-- [[Americana from Kesa Gatame]]
-- [[Americana from Reverse Kesa]]
-- [[Armbar from Technical Mount]]
-- [[Armbar from Mount]]
-- [[Armbar from High Mount]]
-- [[Armbar from S Mount]]
+- [[Submissions/Americana from Mount]]
+- [[Submissions/Americana from 3-4 Mount]]
+- [[Submissions/Americana from Side Control]]
+- [[Submissions/Americana from Kesa Gatame]]
+- [[Submissions/Americana from Reverse Kesa]]
+- [[Submissions/Armbar from Technical Mount]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Armbar from High Mount]]
+- [[Submissions/Armbar from S Mount]]
 
 
 </section>
@@ -259,13 +259,13 @@ The finishing mechanics require a slow, paint-brush rotation of the opponent's e
 
 ## Additional Related Content
 
-- [[Technical Mount]] - Primary starting position providing asymmetric mount base for this shoulder lock
-- [[Mount]] - Parent position from which technical mount is entered before Americana setup
-- [[Armbar from Technical Mount]] - Primary alternative submission creating binary threat with Americana from same position
-- [[Americana from Mount]] - Same submission applied from parent mount position with different weight distribution
-- [[3-4 Mount]] - Related mount variation sharing asymmetric base properties for Americana attacks
-- [[Back Control]] - Common transition target when opponent turns away to defend the Americana
-- [[S Mount]] - Related mount variation accessible from technical mount for alternative submission angles
+- [[Positions/Mount/Technical Mount]] - Primary starting position providing asymmetric mount base for this shoulder lock
+- [[Positions/Mount]] - Parent position from which technical mount is entered before Americana setup
+- [[Submissions/Armbar from Technical Mount]] - Primary alternative submission creating binary threat with Americana from same position
+- [[Submissions/Americana from Mount]] - Same submission applied from parent mount position with different weight distribution
+- [[Positions/Mount/3-4 Mount]] - Related mount variation sharing asymmetric base properties for Americana attacks
+- [[Positions/Back Control]] - Common transition target when opponent turns away to defend the Americana
+- [[Positions/Mount/S Mount]] - Related mount variation accessible from technical mount for alternative submission angles
 
 
 </section>

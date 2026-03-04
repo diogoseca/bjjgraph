@@ -21,7 +21,7 @@ This counter exemplifies the modern leg lock game's principle that defense and o
 
 The technique is particularly effective against opponents who over-commit to heel hook finishes without maintaining proper leg defense. Advanced practitioners use this counter as a proactive defensive strategy, actually inviting certain heel hook attempts knowing they can intercept with the counter. This creates a psychological advantage where opponents become hesitant to commit fully to their attacks.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,8 +32,8 @@ The technique is particularly effective against opponents who over-commit to hee
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 50% |
-| Failure | [[Ushiro Ashi-Garami]] | 30% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 50% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
 | Counter | [[game-over]] | 20% |
 
 
@@ -193,25 +193,25 @@ The Reverse Heel Hook Counter represents an advanced evolution in leg lock defen
 ## Related Techniques
 
 
-- [[Ushiro Ashi-Garami]] - Starting position where defender is trapped in reversed leg entanglement
+- [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Starting position where defender is trapped in reversed leg entanglement
 
-- [[Inside Ashi-Garami]] - Primary target position achieved on successful counter-entanglement
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary target position achieved on successful counter-entanglement
 
-- [[Inside Heel Hook]] - Primary submission finish after establishing counter position
+- [[Submissions/Inside Heel Hook]] - Primary submission finish after establishing counter position
 
-- [[Counter Ashi Entry]] - Related counter-entanglement technique from leg lock defense
+- [[Transitions/Counter Ashi Entry]] - Related counter-entanglement technique from leg lock defense
 
-- [[50-50 Guard]] - Alternative counter position creating neutral leg lock exchange
+- [[Positions/Ashi Garami/50-50 Guard]] - Alternative counter position creating neutral leg lock exchange
 
-- [[Ashi Garami Escape]] - Alternative defensive option when counter timing is not available
+- [[Transitions/Ashi Garami Escape]] - Alternative defensive option when counter timing is not available
 
-- [[Saddle]] - Position opponent may advance to, making counter inadvisable
+- [[Positions/Ashi Garami/Saddle]] - Position opponent may advance to, making counter inadvisable
 
-- [[Back Take from Ashi]] - Alternative counter option exploiting opponent's commitment
+- [[Transitions/Back Take from Ashi]] - Alternative counter option exploiting opponent's commitment
 
-- [[Kneebar]] - Alternative submission available from counter position on opponent's leg
+- [[Transitions/Kneebar]] - Alternative submission available from counter position on opponent's leg
 
-- [[Granby Roll to Guard]] - Complementary escape option when counter window is missed
+- [[Transitions/Granby Roll to Guard]] - Complementary escape option when counter window is missed
 
 
 </section>

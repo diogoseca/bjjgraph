@@ -148,7 +148,7 @@ description: "How to defend against Peruvian Necktie in BJJ. Recognition, escape
 
 Defending the Peruvian Necktie requires early recognition and immediate action, as this choke becomes nearly inescapable once the triangle lock is secured high on the neck. The defense operates on a timeline: the earlier you recognize and respond to the attack, the higher your probability of escape. Your primary defensive windows occur during the front headlock establishment phase, the arm trapping phase, and the leg threading phase. Once the attacker has locked their triangle and begun hip rotation, defensive options narrow dramatically and tapping becomes the safest response. Understanding the sequential nature of the Peruvian Necktie setup allows you to identify which phase the attacker is in and apply the appropriate counter. The most effective defense combines chin protection, arm extraction, and positional movement to deny the attacker the structural elements they need to complete the choke. Critically, never allow pride to override safety - if the choke is locked and you feel bilateral pressure on your carotid arteries, tap immediately rather than attempting a late escape that risks unconsciousness.
 
-**Opponent's Starting Position**: [[Front Headlock]] (Top)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 
 </section>
@@ -188,21 +188,21 @@ Defending the Peruvian Necktie requires early recognition and immediate action, 
 ### 1. Posture up explosively before the leg is threaded
 
 - **When to use**: During the initial front headlock phase before your arm is trapped - this is your highest-percentage escape window
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You break free of front headlock control entirely and can recover to standing or neutral guard position
 - **Risk**: If you posture but fail to fully escape, you may expose your neck more and give the attacker a deeper grip for guillotine
 
 ### 2. Extract your near arm before the leg thread by pulling it down and across your body
 
 - **When to use**: When you feel your arm being pinned against your neck but before the attacker has threaded their leg through the gap
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Without the trapped arm, the attacker cannot create the structural rigidity needed for the Peruvian Necktie and must transition to a different attack
 - **Risk**: Active arm extraction may create space that the attacker uses to transition to a guillotine or darce choke instead
 
 ### 3. Turn into the attacker and sit through to guard recovery
 
 - **When to use**: During the leg threading phase when the attacker's base is compromised by their movement - turning in disrupts their angle and can lead to scramble
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You recover to half guard or closed guard, neutralizing the front headlock attack entirely
 - **Risk**: If poorly timed, turning into the attacker while the leg is partially threaded can accelerate the choke setup
 
@@ -233,11 +233,11 @@ Defending the Peruvian Necktie requires early recognition and immediate action, 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Posture up explosively during the early setup phase before the arm is trapped, breaking the attacker's front headlock control and returning to a neutral or advantageous position
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Extract the near arm and circle away from the choking side during the arm-trapping phase, denying the attacker the structural element needed for the choke and resetting to a defensible turtle position
 

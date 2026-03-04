@@ -26,8 +26,8 @@ The critical finishing mechanics rely on three elements working in concert: perp
 **Category**: Choke
 **Type**: Triangle Choke
 **Target Area**: Neck
-**Starting Position**: [[Open Guard]]
-**From Position**: [[Open Guard]] (Bottom)
+**Starting Position**: [[Positions/Open Guard]]
+**From Position**: [[Positions/Open Guard]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -76,8 +76,8 @@ The critical finishing mechanics rely on three elements working in concert: perp
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Open Guard]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Failure | [[Positions/Open Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -202,12 +202,12 @@ The critical finishing mechanics rely on three elements working in concert: perp
 
 ## From Which Positions?
 
-- [[Open Guard]]
-- [[Closed Guard]]
-- [[Spider Guard]]
-- [[Collar Sleeve Guard]]
-- [[Lasso Guard]]
-- [[Rubber Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/Closed Guard]]
+- [[Positions/Spider Guard]]
+- [[Positions/Collar Sleeve Guard]]
+- [[Positions/Lasso Guard]]
+- [[Positions/Rubber Guard]]
 
 
 </section>
@@ -216,12 +216,12 @@ The critical finishing mechanics rely on three elements working in concert: perp
 
 ## Related Submissions
 
-- [[Armbar from Guard]]
-- [[Mounted Triangle Finish]]
-- [[Omoplata from Spider Guard]]
-- [[Gogoplata Finish]]
-- [[Rear Triangle Choke]]
-- [[Arm Triangle]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Mounted Triangle Finish]]
+- [[Submissions/Omoplata from Spider Guard]]
+- [[Submissions/Gogoplata Finish]]
+- [[Submissions/Rear Triangle Choke]]
+- [[Transitions/Arm Triangle]]
 
 
 </section>
@@ -230,13 +230,13 @@ The critical finishing mechanics rely on three elements working in concert: perp
 
 ## Additional Related Content
 
-- [[Open Guard]] - Primary starting position providing hip mobility for triangle entries
-- [[Spider Guard]] - Common guard variation with sleeve control that sets up triangle through arm isolation
-- [[Closed Guard]] - Alternative starting position with classic triangle setup sequences
-- [[Collar Sleeve Guard]] - Guard variation where collar-sleeve grip configuration directly feeds triangle entries
-- [[Armbar from Guard]] - Primary chain submission when triangle angle is defended or opponent postures
-- [[Omoplata from Spider Guard]] - Alternative submission when triangle angle is blocked and opponent hides arm
-- [[Mounted Triangle Finish]] - Related triangle variation executed from mount position using same choking mechanics
+- [[Positions/Open Guard]] - Primary starting position providing hip mobility for triangle entries
+- [[Positions/Spider Guard]] - Common guard variation with sleeve control that sets up triangle through arm isolation
+- [[Positions/Closed Guard]] - Alternative starting position with classic triangle setup sequences
+- [[Positions/Collar Sleeve Guard]] - Guard variation where collar-sleeve grip configuration directly feeds triangle entries
+- [[Submissions/Armbar from Guard]] - Primary chain submission when triangle angle is defended or opponent postures
+- [[Submissions/Omoplata from Spider Guard]] - Alternative submission when triangle angle is blocked and opponent hides arm
+- [[Submissions/Mounted Triangle Finish]] - Related triangle variation executed from mount position using same choking mechanics
 
 
 </section>

@@ -158,7 +158,7 @@ The fundamental defensive strategy centers on preventing the attacker from estab
 
 The defender's positional advantages include proximity to the mat for base, the ability to use their own bodyweight by sitting back into the attacker, and access to granby roll mechanics that can redirect the attacker's forward momentum. Successful defense transforms the attacker's committed forward pressure into a liability by using their own momentum against them, either recovering guard through hip insertion or creating enough scramble chaos to reset to a more neutral turtle position.
 
-**Opponent's Starting Position**: [[Crackhead Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The defender's positional advantages include proximity to the mat for base, the 
 ### 1. Sit back into the attacker during the single-to-double underhook transition by dropping your hips toward them and collapsing your turtle base toward their lap
 
 - **When to use**: When you feel the first underhook establish and the attacker shifts weight to thread the second - this is the highest-percentage defensive window before the grip consolidates
-- **Targets**: [[Crackhead Control]]
+- **Targets**: [[Positions/Crackhead Control]]
 - **If successful**: Resets the position to neutral Crackhead Control where the attacker must restart their attack sequence, and may expose back take opportunities if they lose hip position
 - **Risk**: If poorly timed, you may flatten yourself and make the pass easier. Must maintain base through your posting hand to control the sit-back speed.
 
 ### 2. Execute a granby roll toward the side of the first underhook, using the attacker's forward pressure to fuel the rotation and ending facing them in guard position
 
 - **When to use**: When the attacker commits to the forward drive with both underhooks locked - their committed weight makes them unable to change direction and you can redirect their momentum
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover to Half Guard or Closed Guard by using the rotation to insert your legs between you and the attacker, converting a passing situation into a guard position
 - **Risk**: If the attacker follows the roll while maintaining the Gable grip, they may land directly in Side Control. Requires explosive commitment and proper hip rotation timing.
 
 ### 3. Insert near-side knee between yourself and the attacker by collapsing to your hip and threading your knee across their centerline as they attempt to flatten you
 
 - **When to use**: When the flattening drive begins but before your shoulders reach the mat - the transitional moment where space still exists between your hip and the mat
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Establish Half Guard by trapping the attacker's leg with your inserted knee, converting the turtle pass into a Half Guard situation where you have established defensive frames
 - **Risk**: If your knee insertion is too late, the attacker drives through to Side Control. If too early, they may redirect around the knee before committing to the pass.
 
 ### 4. Strip the Gable grip by swimming your near arm free using a circular motion toward the mat, breaking the palm-to-palm connection before the drive phase begins
 
 - **When to use**: Immediately after you feel both hands connect at your chest in the Gable grip but before the attacker initiates the forward drive - there is a brief window where the grip is not yet loaded
-- **Targets**: [[Crackhead Control]]
+- **Targets**: [[Positions/Crackhead Control]]
 - **If successful**: Breaks the pass sequence entirely. Without the connected grip, the attacker cannot generate sufficient leverage to flatten you and must reset to single underhook or abandon the pass attempt
 - **Risk**: Swimming the arm may briefly expose your back if the attacker transitions to a back take instead of re-establishing the grip. Must immediately return elbow to ribs after stripping.
 
@@ -227,11 +227,11 @@ The defender's positional advantages include proximity to the mat for base, the 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Crackhead Control]]
+### → [[Positions/Crackhead Control]]
 
 Disrupt the pass early by sitting back into the attacker during the underhook threading phase or by stripping the Gable grip before the drive. This resets to neutral Crackhead Control where the attacker must restart their sequence. Maintain active hip movement and tight elbows after the reset to prevent immediate re-entry.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If the pass progresses past the grip establishment phase, immediately insert your near-side knee as a frame during the flattening drive. Time the knee insertion for the moment your hip contacts the mat, threading your shin across the attacker's centerline and locking your legs around their near leg. This converts a turtle pass into a Half Guard recovery where you have legitimate offensive options.
 

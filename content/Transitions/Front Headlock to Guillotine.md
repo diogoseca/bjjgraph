@@ -21,7 +21,7 @@ This transition's effectiveness lies in its ability to capitalize on the opponen
 
 The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling and MMA, where collar controls are unavailable. It serves as both a submission threat and a gateway to other attacks within the front headlock system, including the darce choke, anaconda choke, and various back takes. Mastering this transition requires understanding proper head positioning, grip mechanics, and the ability to maintain control throughout the adjustment phase while preventing the opponent from establishing defensive frames or creating distance.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Guillotine Control]] | 65% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Front Headlock]] | 10% |
+| Success | [[Positions/Guillotine Control]] | 65% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Front Headlock]] | 10% |
 
 
 </section>
@@ -203,33 +203,33 @@ From a strategic perspective, this transition exemplifies the principle of submi
 ## Related Techniques
 
 
-- [[Front Headlock]] - Starting Position - the control position from which this transition begins
+- [[Positions/Front Headlock]] - Starting Position - the control position from which this transition begins
 
-- [[Guillotine Control]] - Ending Position - the submission control position achieved by this transition
+- [[Positions/Guillotine Control]] - Ending Position - the submission control position achieved by this transition
 
-- [[Guillotine Choke]] - Direct Submission - the finishing technique available from guillotine control
+- [[Transitions/Guillotine Choke]] - Direct Submission - the finishing technique available from guillotine control
 
-- [[Front Headlock to Darce]] - Alternative Transition - used when opponent defends guillotine by turning in
+- [[Transitions/Front Headlock to Darce]] - Alternative Transition - used when opponent defends guillotine by turning in
 
-- [[Front Headlock to Anaconda]] - Alternative Transition - another submission option from same control position
+- [[Transitions/Front Headlock to Anaconda]] - Alternative Transition - another submission option from same control position
 
-- [[Front Headlock to Back]] - Alternative Transition - used when submission is not available
+- [[Transitions/Front Headlock to Back]] - Alternative Transition - used when submission is not available
 
-- [[Guillotine Setup]] - Related Technique - different entry to same submission control
+- [[Transitions/Guillotine Setup]] - Related Technique - different entry to same submission control
 
-- [[Guillotine from Turtle]] - Setup Variation - another common entry to guillotine from turtle defense
+- [[Transitions/Guillotine from Turtle]] - Setup Variation - another common entry to guillotine from turtle defense
 
-- [[High Elbow Guillotine]] - Submission Variation - different finishing mechanics from guillotine control
+- [[Submissions/High Elbow Guillotine]] - Submission Variation - different finishing mechanics from guillotine control
 
-- [[Arm in Guillotine]] - Submission Variation - adaptation when opponent's arm is trapped
+- [[Submissions/Arm in Guillotine]] - Submission Variation - adaptation when opponent's arm is trapped
 
-- [[Darce Choke]] - Alternative Submission - used when opponent turns into guillotine attempt
+- [[Transitions/Darce Choke]] - Alternative Submission - used when opponent turns into guillotine attempt
 
-- [[Anaconda Choke]] - Alternative Submission - complementary attack from front headlock
+- [[Transitions/Anaconda Choke]] - Alternative Submission - complementary attack from front headlock
 
-- [[Closed Guard]] - Finishing Position - common position for completing the guillotine
+- [[Positions/Closed Guard]] - Finishing Position - common position for completing the guillotine
 
-- [[Turtle]] - Common Setup - opponent position that often leads to front headlock
+- [[Positions/Turtle]] - Common Setup - opponent position that often leads to front headlock
 
 
 </section>

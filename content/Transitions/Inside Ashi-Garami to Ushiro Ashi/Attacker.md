@@ -186,7 +186,7 @@ description: "Learn to execute Inside Ashi-Garami to Ushiro Ashi as the attacker
 
 The attacker in the Inside Ashi-Garami to Ushiro Ashi transition must convert the opponent's defensive rotation into a positional advancement rather than allowing the escape to succeed. This requires the attacker to read the opponent's hip movement, maintain heel control throughout the rotation, and systematically adapt their leg configuration from the standard inside ashi frame to the reversed ushiro entanglement. The transition rewards sensitivity and timing over explosive movement, as the attacker must flow with the opponent's energy rather than fighting against it. Success depends on maintaining tight leg-to-leg connection and adjusting body angle in real-time as the opponent's hips change orientation.
 
-**From Position**: [[Inside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ The attacker in the Inside Ashi-Garami to Ushiro Ashi transition must convert th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Ushiro Ashi-Garami]] | 55% |
-| Failure | [[Inside Ashi-Garami]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 55% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ The attacker in the Inside Ashi-Garami to Ushiro Ashi transition must convert th
 
 ## Opponent Counters
 
-- **Opponent accelerates rotation to complete full escape to turtle before ushiro is established** (Effectiveness: High) - Your Response: Increase your follow speed and prioritize maintaining any leg connection. If they reach turtle, immediately transition to back control rather than attempting to re-establish leg entanglement from behind. → Leads to [[Half Guard]]
-- **Opponent reverses rotation direction mid-turn, returning to face you and re-establishing defensive frames** (Effectiveness: Medium) - Your Response: Allow the reversal and return to standard inside ashi-garami control with your original leg configuration. The reversal actually resets you to your starting position where you can reattempt or change attacks. → Leads to [[Inside Ashi-Garami]]
-- **Opponent uses free leg to post firmly on mat and stands up during the transitional phase** (Effectiveness: High) - Your Response: Transition your inside leg to hook behind their standing leg, converting toward Single Leg X-Guard or pulling them back down. If they achieve full standing base, consider releasing to guard recovery rather than holding a compromised entanglement. → Leads to [[Half Guard]]
-- **Opponent strips heel grip during the rotation by using both hands to peel your fingers while hips are mid-turn** (Effectiveness: Medium) - Your Response: Immediately re-grip using the opposite hand configuration or switch to controlling the ankle rather than the heel. If grip is lost entirely, abandon the heel attack and use leg control to pursue back take or positional scramble. → Leads to [[Inside Ashi-Garami]]
+- **Opponent accelerates rotation to complete full escape to turtle before ushiro is established** (Effectiveness: High) - Your Response: Increase your follow speed and prioritize maintaining any leg connection. If they reach turtle, immediately transition to back control rather than attempting to re-establish leg entanglement from behind. → Leads to [[Positions/Half Guard]]
+- **Opponent reverses rotation direction mid-turn, returning to face you and re-establishing defensive frames** (Effectiveness: Medium) - Your Response: Allow the reversal and return to standard inside ashi-garami control with your original leg configuration. The reversal actually resets you to your starting position where you can reattempt or change attacks. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent uses free leg to post firmly on mat and stands up during the transitional phase** (Effectiveness: High) - Your Response: Transition your inside leg to hook behind their standing leg, converting toward Single Leg X-Guard or pulling them back down. If they achieve full standing base, consider releasing to guard recovery rather than holding a compromised entanglement. → Leads to [[Positions/Half Guard]]
+- **Opponent strips heel grip during the rotation by using both hands to peel your fingers while hips are mid-turn** (Effectiveness: Medium) - Your Response: Immediately re-grip using the opposite hand configuration or switch to controlling the ankle rather than the heel. If grip is lost entirely, abandon the heel attack and use leg control to pursue back take or positional scramble. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 </section>

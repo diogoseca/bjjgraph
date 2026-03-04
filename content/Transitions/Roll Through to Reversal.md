@@ -21,7 +21,7 @@ This reversal exploits a fundamental vulnerability in front headlock control: wh
 
 The roll through represents a calculated risk within the front headlock escape system. While other escapes like technical standups or circling away are generally safer, the roll through offers a higher reward by achieving complete positional reversal rather than merely escaping to neutral. This makes it particularly valuable when you need to shift match momentum, when points matter in competition, or when other escape routes are blocked. Advanced practitioners integrate this technique as part of their reactive defense, reading opponent's weight distribution to determine whether to stand, circle, or roll through.
 
-**From Position**: [[Front Headlock]] (Bottom)
+**From Position**: [[Positions/Front Headlock]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The roll through represents a calculated risk within the front headlock escape s
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 55% |
-| Failure | [[Front Headlock]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Front Headlock]] | 55% |
+| Failure | [[Positions/Front Headlock]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Roll Through to Reversal integrates into the front headlock escape system as
 ## Related Techniques
 
 
-- [[Front Headlock]] - Starting position (bottom) and target position (top) after successful reversal
+- [[Positions/Front Headlock]] - Starting position (bottom) and target position (top) after successful reversal
 
-- [[Granby Roll to Guard]] - Related rolling escape from similar positions using similar rotational mechanics
+- [[Transitions/Granby Roll to Guard]] - Related rolling escape from similar positions using similar rotational mechanics
 
-- [[Guillotine Defense]] - Defensive skill needed during roll execution to protect neck
+- [[Transitions/Guillotine Defense]] - Defensive skill needed during roll execution to protect neck
 
-- [[Guillotine Choke]] - Submission threat during roll and available attack after successful reversal
+- [[Transitions/Guillotine Choke]] - Submission threat during roll and available attack after successful reversal
 
-- [[Anaconda Choke]] - Submission available from front headlock top after successful reversal
+- [[Transitions/Anaconda Choke]] - Submission available from front headlock top after successful reversal
 
-- [[Darce Choke]] - Submission available from front headlock top after successful reversal
+- [[Transitions/Darce Choke]] - Submission available from front headlock top after successful reversal
 
-- [[Back Take]] - Transition option after successful reversal from front headlock top
+- [[Transitions/Back Take]] - Transition option after successful reversal from front headlock top
 
-- [[Turtle]] - Related defensive position with similar escape mechanics
+- [[Positions/Turtle]] - Related defensive position with similar escape mechanics
 
-- [[Arm Drag Escape]] - Alternative front headlock escape that chains with roll through
+- [[Transitions/Arm Drag Escape]] - Alternative front headlock escape that chains with roll through
 
-- [[Front Headlock to Back]] - Opponent's counter option and attack available after your successful reversal
+- [[Transitions/Front Headlock to Back]] - Opponent's counter option and attack available after your successful reversal
 
 
 </section>

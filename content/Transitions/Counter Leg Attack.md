@@ -21,7 +21,7 @@ The technique requires precise timing and understanding of when the opponent's f
 
 Strategically, the Counter Leg Attack should be viewed as a last-resort option when standard escapes have failed or when you possess superior leg lock finishing ability compared to your opponent. The transition to 50-50 Guard equalizes the position, while successful entry to your own Ashi Garami can actually reverse the positional hierarchy. Understanding the timing windows, proper leg threading mechanics, and heel protection throughout the counter-attack sequence is essential for success.
 
-**From Position**: [[Inside Sankaku]] (Bottom)
+**From Position**: [[Positions/Inside Sankaku]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, the Counter Leg Attack should be viewed as a last-resort option w
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 45% |
-| Success | [[Ashi Garami]] | 20% |
-| Failure | [[Inside Sankaku]] | 25% |
-| Counter | [[Saddle]] | 10% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 45% |
+| Success | [[Positions/Ashi Garami]] | 20% |
+| Failure | [[Positions/Inside Sankaku]] | 25% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 10% |
 
 
 </section>
@@ -190,25 +190,25 @@ The Counter Leg Attack represents the final defensive option in the Inside Sanka
 ## Related Techniques
 
 
-- [[Inside Sankaku]] - Starting position - the dangerous entanglement this technique escapes from
+- [[Positions/Inside Sankaku]] - Starting position - the dangerous entanglement this technique escapes from
 
-- [[50-50 Guard]] - Primary success outcome - mutual entanglement that neutralizes positional disadvantage
+- [[Positions/Ashi Garami/50-50 Guard]] - Primary success outcome - mutual entanglement that neutralizes positional disadvantage
 
-- [[Ashi Garami]] - Alternative success outcome - establishing your own leg entanglement if opponent releases
+- [[Positions/Ashi Garami]] - Alternative success outcome - establishing your own leg entanglement if opponent releases
 
-- [[Saddle]] - Potential counter outcome - opponent may trap both legs if counter-attack fails
+- [[Positions/Ashi Garami/Saddle]] - Potential counter outcome - opponent may trap both legs if counter-attack fails
 
-- [[Outside Ashi-Garami]] - Alternative entry position from outside leg variant of counter-attack
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative entry position from outside leg variant of counter-attack
 
-- [[Inside Heel Hook]] - The submission threat being defended against during this transition
+- [[Submissions/Inside Heel Hook]] - The submission threat being defended against during this transition
 
-- [[Granby Roll to Guard]] - Alternative escape technique to attempt before committing to counter-attack
+- [[Transitions/Granby Roll to Guard]] - Alternative escape technique to attempt before committing to counter-attack
 
-- [[Hip Escape to Guard]] - Standard escape that should be attempted before counter-attack option
+- [[Transitions/Hip Escape to Guard]] - Standard escape that should be attempted before counter-attack option
 
-- [[50-50 Entry]] - Related transition that establishes similar mutual entanglement from other positions
+- [[Transitions/50-50 Entry]] - Related transition that establishes similar mutual entanglement from other positions
 
-- [[Toe Hold]] - Potential follow-up submission once 50-50 or Ashi is established from counter
+- [[Transitions/Toe Hold]] - Potential follow-up submission once 50-50 or Ashi is established from counter
 
 
 </section>

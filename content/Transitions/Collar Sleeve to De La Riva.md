@@ -21,7 +21,7 @@ Strategically, this transition addresses a key vulnerability of collar sleeve gu
 
 The transition requires precise timing and coordinated grip switching. The bottom player must insert the DLR hook while simultaneously converting the sleeve grip to an ankle or pants grip on the hooked leg, and either maintaining the collar grip or converting it to a belt or far sleeve grip. Rushing the hook insertion without securing replacement grips creates a window where the top player can backstep or smash through the incomplete guard structure. Executed with proper sequencing, this transition maintains continuous control throughout the switch and arrives in De La Riva guard with immediate attacking options.
 
-**From Position**: [[Collar Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Collar Sleeve Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The transition requires precise timing and coordinated grip switching. The botto
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[De La Riva Guard]] | 55% |
-| Failure | [[Collar Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/De La Riva Guard]] | 55% |
+| Failure | [[Positions/Collar Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The collar sleeve to De La Riva transition is a critical link in the modern open
 ## Related Techniques
 
 
-- [[Collar Sleeve Guard]] - Starting position for this transition providing the initial grip structure
+- [[Positions/Collar Sleeve Guard]] - Starting position for this transition providing the initial grip structure
 
-- [[De La Riva Guard]] - Target position reached upon successful completion of transition
+- [[Positions/De La Riva Guard]] - Target position reached upon successful completion of transition
 
-- [[Open Guard]] - Parent guard category and counter outcome when transition fails
+- [[Positions/Open Guard]] - Parent guard category and counter outcome when transition fails
 
-- [[Collar Sleeve Sweep]] - Alternative attack from starting position when opponent stays kneeling
+- [[Transitions/Collar Sleeve Sweep]] - Alternative attack from starting position when opponent stays kneeling
 
-- [[De La Riva Sweep]] - Primary follow-up attack available upon successful transition to DLR
+- [[Transitions/De La Riva Sweep]] - Primary follow-up attack available upon successful transition to DLR
 
-- [[Berimbolo Entry]] - Advanced follow-up from DLR after successful transition
+- [[Transitions/Berimbolo Entry]] - Advanced follow-up from DLR after successful transition
 
-- [[De La Riva to X-Guard Transition]] - Secondary chain when opponent resists DLR sweeps after transition
+- [[Transitions/De La Riva to X-Guard Transition]] - Secondary chain when opponent resists DLR sweeps after transition
 
-- [[Backstep from De La Riva]] - Primary counter threat the top player uses against established DLR
+- [[Transitions/Backstep from De La Riva]] - Primary counter threat the top player uses against established DLR
 
-- [[Spider Guard]] - Alternative guard transition from collar sleeve using different grip conversion
+- [[Positions/Spider Guard]] - Alternative guard transition from collar sleeve using different grip conversion
 
-- [[Lasso Guard]] - Alternative guard transition from collar sleeve threading the sleeve arm
+- [[Positions/Lasso Guard]] - Alternative guard transition from collar sleeve threading the sleeve arm
 
-- [[Single Leg X-Guard]] - Follow-up transition available from DLR when opponent stands tall
+- [[Positions/X-Guard/Single Leg X-Guard]] - Follow-up transition available from DLR when opponent stands tall
 
 
 </section>

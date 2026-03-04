@@ -21,7 +21,7 @@ Strategically, this transition bridges initial rear control establishment with h
 
 Elite competitors execute this transition in under one second, maintaining constant chest-to-back pressure throughout the grip change to eliminate the defensive window. The technique is particularly dominant in no-gi grappling where the body lock serves as one of the highest-percentage standing control mechanisms. Understanding when to convert from seatbelt to body lock and how to minimize exposure during the transition is essential for dominating the standing rear clinch exchanges that define modern competitive grappling.
 
-**From Position**: [[Standing Rear Clinch]] (Top)
+**From Position**: [[Positions/Standing Rear Clinch]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Elite competitors execute this transition in under one second, maintaining const
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Body Lock]] | 55% |
-| Failure | [[Standing Rear Clinch]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Body Lock]] | 55% |
+| Failure | [[Positions/Standing Rear Clinch]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Rear Clinch to Body Lock serves as the critical grip conversion node in the 
 ## Related Techniques
 
 
-- [[Standing Rear Clinch]] - Source position from which the body lock transition is initiated
+- [[Positions/Standing Rear Clinch]] - Source position from which the body lock transition is initiated
 
-- [[Body Lock]] - Target position achieved upon successful grip conversion
+- [[Positions/Body Lock]] - Target position achieved upon successful grip conversion
 
-- [[Back Control]] - Advanced position accessible through mat return after establishing body lock
+- [[Positions/Back Control]] - Advanced position accessible through mat return after establishing body lock
 
-- [[Mat Return from Standing Rear Clinch]] - Alternative attack from rear clinch that body lock enables more effectively
+- [[Transitions/Mat Return from Standing Rear Clinch]] - Alternative attack from rear clinch that body lock enables more effectively
 
-- [[Body Lock Takedown]] - Primary follow-up technique after successful body lock establishment
+- [[Transitions/Body Lock Takedown]] - Primary follow-up technique after successful body lock establishment
 
-- [[Escape Body Lock]] - Defender's primary escape pathway once body lock is established
+- [[Transitions/Escape Body Lock]] - Defender's primary escape pathway once body lock is established
 
-- [[Pummeling Escape from Body Lock]] - Defender's pummeling-based escape option from the resulting body lock position
+- [[Transitions/Pummeling Escape from Body Lock]] - Defender's pummeling-based escape option from the resulting body lock position
 
-- [[Defense from Standing Rear Clinch]] - Defender's options for preventing the grip transition from being initiated
+- [[Transitions/Defense from Standing Rear Clinch]] - Defender's options for preventing the grip transition from being initiated
 
-- [[Standing Back Control]] - Related standing control position with different grip configuration
+- [[Positions/Back Control/Standing Back Control]] - Related standing control position with different grip configuration
 
-- [[Clinch]] - Position that may result if defender successfully turns to face during transition
+- [[Positions/Clinch]] - Position that may result if defender successfully turns to face during transition
 
-- [[Body Lock to Standing]] - Recovery transition if body lock control is partially lost after conversion
+- [[Transitions/Body Lock to Standing]] - Recovery transition if body lock control is partially lost after conversion
 
 
 </section>

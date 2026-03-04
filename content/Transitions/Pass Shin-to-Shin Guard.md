@@ -21,7 +21,7 @@ Effective passing combines three interconnected elements: upper body grip domina
 
 At the competitive level, this pass becomes a chess match of grip fighting and angle management. The passer who understands the guard player's transition triggers—hip elevation for Single Leg X, forward pull for butterfly sweep, ankle grip adjustment for X-Guard—can intercept these transitions during the clearing sequence and convert defensive reactions into passing opportunities.
 
-**From Position**: [[Shin-to-Shin Guard]] (Top)
+**From Position**: [[Positions/Shin-to-Shin Guard]] (Top)
 **Success Rate**: 40%
 
 </section>
@@ -32,10 +32,10 @@ At the competitive level, this pass becomes a chess match of grip fighting and a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Half Guard]] | 25% |
-| Failure | [[Open Guard]] | 20% |
-| Counter | [[Single Leg X-Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Failure | [[Positions/Open Guard]] | 20% |
+| Counter | [[Positions/X-Guard/Single Leg X-Guard]] | 15% |
 
 
 </section>
@@ -192,25 +192,25 @@ Pass Shin-to-Shin Guard serves as a critical technique within the open guard pas
 ## Related Techniques
 
 
-- [[Side Control]] - Primary target position after successfully completing the pass
+- [[Positions/Side Control]] - Primary target position after successfully completing the pass
 
-- [[Half Guard]] - Common intermediate position when pass is partially successful but guard player catches a leg
+- [[Positions/Half Guard]] - Common intermediate position when pass is partially successful but guard player catches a leg
 
-- [[Single Leg X-Guard]] - Primary counter threat—guard player transitions here when clearing creates space
+- [[Positions/X-Guard/Single Leg X-Guard]] - Primary counter threat—guard player transitions here when clearing creates space
 
-- [[X-Guard]] - Secondary counter threat when guard player elevates during failed clearing attempts
+- [[Positions/X-Guard]] - Secondary counter threat when guard player elevates during failed clearing attempts
 
-- [[Headquarters Position]] - Intermediate passing position achieved after partial shin clearing
+- [[Positions/Headquarters Position]] - Intermediate passing position achieved after partial shin clearing
 
-- [[Combat Base]] - Starting posture for initiating the clearing and passing sequence
+- [[Positions/Combat Base]] - Starting posture for initiating the clearing and passing sequence
 
-- [[Open Guard]] - Broader guard category the guard player may recompose to on failed pass
+- [[Positions/Open Guard]] - Broader guard category the guard player may recompose to on failed pass
 
-- [[De La Riva Guard]] - Related open guard opponent may transition to when shin-to-shin is disrupted
+- [[Positions/De La Riva Guard]] - Related open guard opponent may transition to when shin-to-shin is disrupted
 
-- [[Butterfly Guard]] - Close-range guard the bottom player may convert to when passer drives forward
+- [[Positions/Butterfly Guard]] - Close-range guard the bottom player may convert to when passer drives forward
 
-- [[Back Step Pass]] - Alternative passing approach using backstep mechanics to change engagement angle
+- [[Transitions/Back Step Pass]] - Alternative passing approach using backstep mechanics to change engagement angle
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Learn to recover Knee Shield Half Guard from compromised Quarter G
 
 As the attacker executing this recovery, you are the bottom player in a compromised quarter guard who must urgently reinsert a knee shield to recover a defensively sound position. Your primary challenge is creating sufficient space under pressure to drive your knee across the opponent's torso while they actively work to complete the guard pass. Success depends on coordinating frames, hip escape, and knee insertion into a single fluid sequence executed within a two-to-three second window. The technique transforms you from a defensive crisis back into an offensive platform where sweeps, submissions, and further guard transitions become available.
 
-**From Position**: [[Quarter Guard]] (Bottom)
+**From Position**: [[Positions/Quarter Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing this recovery, you are the bottom player in a compromi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Knee Shield Half Guard]] | 55% |
-| Failure | [[Quarter Guard]] | 25% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Half Guard/Knee Shield Half Guard]] | 55% |
+| Failure | [[Positions/Quarter Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing this recovery, you are the bottom player in a compromi
 
 ## Opponent Counters
 
-- **Heavy crossface pressure to flatten bottom player and prevent hip escape** (Effectiveness: High) - Your Response: Turn your head away from the crossface while driving frames into their chest before attempting the hip escape. If crossface is already locked, switch to deep half guard entry instead of fighting the crossface directly—go underneath their weight rather than against it. → Leads to [[Side Control]]
-- **Pinning the inserting knee with hand or shin pressure against the mat** (Effectiveness: Medium) - Your Response: Use your free hand to strip their grip on your knee while simultaneously hip escaping to change the angle of insertion. If they commit a hand to control your knee, their upper body control weakens—exploit this by driving the underhook deeper or switching to a different recovery path. → Leads to [[Quarter Guard]]
-- **Accelerating hip advancement to close all space before knee can be inserted** (Effectiveness: High) - Your Response: If they drive forward explosively, redirect their momentum by pulling them over you with underhook while inserting a butterfly hook instead of knee shield. Their forward commitment makes them vulnerable to being loaded onto your structure for an elevation sweep. → Leads to [[Side Control]]
-- **Backstep or hip switch to bypass the knee shield insertion angle entirely** (Effectiveness: Medium) - Your Response: Follow their hip switch with your own hip adjustment, turning to face their new angle. If they backstep, your knee insertion angle changes—redirect the knee toward their new position rather than completing the original insertion path. Stay connected with your trapped leg to prevent them from disengaging completely. → Leads to [[Side Control]]
+- **Heavy crossface pressure to flatten bottom player and prevent hip escape** (Effectiveness: High) - Your Response: Turn your head away from the crossface while driving frames into their chest before attempting the hip escape. If crossface is already locked, switch to deep half guard entry instead of fighting the crossface directly—go underneath their weight rather than against it. → Leads to [[Positions/Side Control]]
+- **Pinning the inserting knee with hand or shin pressure against the mat** (Effectiveness: Medium) - Your Response: Use your free hand to strip their grip on your knee while simultaneously hip escaping to change the angle of insertion. If they commit a hand to control your knee, their upper body control weakens—exploit this by driving the underhook deeper or switching to a different recovery path. → Leads to [[Positions/Quarter Guard]]
+- **Accelerating hip advancement to close all space before knee can be inserted** (Effectiveness: High) - Your Response: If they drive forward explosively, redirect their momentum by pulling them over you with underhook while inserting a butterfly hook instead of knee shield. Their forward commitment makes them vulnerable to being loaded onto your structure for an elevation sweep. → Leads to [[Positions/Side Control]]
+- **Backstep or hip switch to bypass the knee shield insertion angle entirely** (Effectiveness: Medium) - Your Response: Follow their hip switch with your own hip adjustment, turning to face their new angle. If they backstep, your knee insertion angle changes—redirect the knee toward their new position rather than completing the original insertion path. Stay connected with your trapped leg to prevent them from disengaging completely. → Leads to [[Positions/Side Control]]
 
 
 </section>

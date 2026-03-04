@@ -156,7 +156,7 @@ As the Darce Control Top player, defending against the Back Door Escape requires
 
 The most critical defensive principle is hip positioning. Your hips must remain low and close to the defender's body, blocking the exit path behind your choking arm. When you feel the defender begin to frame on your hip and rotate toward you rather than away, this signals a back door attempt. Your immediate response is to walk your hips backward to close the gap and drive your weight downward to flatten the defender and eliminate the rotation space they need. Advanced defenders also develop the ability to transition their attack—if the back door escape partially succeeds, converting immediately to back control or north-south rather than fighting to re-establish the now-compromised Darce grip.
 
-**Opponent's Starting Position**: [[Darce Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Darce Control]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ The most critical defensive principle is hip positioning. Your hips must remain 
 ### 1. Walk hips backward and close the gap behind your choking arm by bringing your elbow tighter to your own hip
 
 - **When to use**: As soon as you feel the defender frame on your hip and begin turning their shoulders toward you
-- **Targets**: [[Darce Control]]
+- **Targets**: [[Positions/Darce Control]]
 - **If successful**: Defender remains trapped in Darce control with the back door sealed, forced to return to arm extraction or tap
 - **Risk**: If you overcommit your hips backward, you may create space in front that allows arm extraction instead
 
 ### 2. Drive chest weight downward and flatten the defender to eliminate rotation space and base
 
 - **When to use**: When defender begins the rotation and you cannot close the gap quickly enough with hip movement alone
-- **Targets**: [[Darce Control]]
+- **Targets**: [[Positions/Darce Control]]
 - **If successful**: Defender is flattened with no base to generate rotation, choke tightens from the increased pressure
 - **Risk**: Heavy forward commitment may allow a savvy defender to redirect your weight and use your momentum against you
 
 ### 3. Release Darce grip and transition to north-south control as defender rotates through
 
 - **When to use**: When the back door escape is partially successful and the defender's head has begun clearing your arm
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: You abandon the compromised choke but maintain dominant top control in north-south, preserving positional advantage
 - **Risk**: Mistiming the release gives the defender a clean escape to open guard or turtle without you establishing any control
 
 ### 4. Follow the defender's rotation and immediately transition to back control as their escape direction brings them toward you
 
 - **When to use**: When the back door escape succeeds and the defender exits behind your arm but remains close to your body
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You convert the failed Darce into a back take opportunity, establishing harness control as the defender exits into turtle
 - **Risk**: If the defender completes the rotation with momentum and establishes frames quickly, you lose all control and they recover guard
 
@@ -226,11 +226,11 @@ The most critical defensive principle is hip positioning. Your hips must remain 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Darce Control]]
+### → [[Positions/Darce Control]]
 
 Close the back door gap by walking your hips backward the moment you recognize the hip frame and shoulder rotation. Drive your elbow tight to your own hip to seal the exit path, then increase chest pressure to flatten the defender and re-establish the choking angle. With the back door sealed, the defender has exhausted their secondary escape option and the Darce becomes increasingly dangerous.
 
-### → [[North-South]]
+### → [[Positions/North-South]]
 
 If the defender partially succeeds in threading through the back door, release the compromised Darce grip and immediately sprawl your hips forward over the defender's upper body to establish north-south control. Use your chest on their face and hands controlling their arms to pin them before they can complete their guard recovery. This converts a failed submission attempt into strong top control.
 

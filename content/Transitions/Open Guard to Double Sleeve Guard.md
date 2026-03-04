@@ -21,7 +21,7 @@ The key to this transition lies in grip sequencing and timing. Unlike many guard
 
 Strategically, this transition is most effective against opponents who maintain an upright posture in open guard top, as their extended arms present accessible targets for sleeve gripping. Against pressure passers who keep their arms tight and elbows pinched, the grip acquisition becomes significantly more difficult, making alternative guard entries like butterfly or half guard more appropriate. Understanding when to pursue double sleeve versus other guard options is a hallmark of sophisticated guard play at the purple belt level and above.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 **Success Rate**: 65%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition is most effective against opponents who maintain 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Double Sleeve Guard]] | 65% |
-| Failure | [[Open Guard]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Double Sleeve Guard]] | 65% |
+| Failure | [[Positions/Open Guard]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Transition to Double Sleeve Guard sits at the intersection of open guard ret
 ## Related Techniques
 
 
-- [[Double Sleeve Guard]] - Target position established by this transition
+- [[Positions/Double Sleeve Guard]] - Target position established by this transition
 
-- [[Open Guard]] - Starting position from which this transition initiates
+- [[Positions/Open Guard]] - Starting position from which this transition initiates
 
-- [[Spider Guard]] - Natural follow-up guard when opponent extends arms after sleeve grips are established
+- [[Positions/Spider Guard]] - Natural follow-up guard when opponent extends arms after sleeve grips are established
 
-- [[Lasso Guard]] - Common transition from double sleeve when opponent circles to one side
+- [[Positions/Lasso Guard]] - Common transition from double sleeve when opponent circles to one side
 
-- [[Collar Sleeve Guard]] - Alternative guard entry using one collar grip instead of second sleeve
+- [[Positions/Collar Sleeve Guard]] - Alternative guard entry using one collar grip instead of second sleeve
 
-- [[De La Riva Guard]] - Advanced guard transition available when opponent stands against double sleeve
+- [[Positions/De La Riva Guard]] - Advanced guard transition available when opponent stands against double sleeve
 
-- [[Closed Guard]] - Alternative guard option if opponent closes distance during grip fighting
+- [[Positions/Closed Guard]] - Alternative guard option if opponent closes distance during grip fighting
 
-- [[Grip Break]] - Primary counter technique used by top player to defeat this transition
+- [[Transitions/Grip Break]] - Primary counter technique used by top player to defeat this transition
 
-- [[Scissor Sweep]] - Primary sweep available immediately after establishing double sleeve control
+- [[Transitions/Scissor Sweep]] - Primary sweep available immediately after establishing double sleeve control
 
-- [[Toreando Pass]] - Common passing attack that can counter failed double sleeve establishment
+- [[Transitions/Toreando Pass]] - Common passing attack that can counter failed double sleeve establishment
 
 
 </section>

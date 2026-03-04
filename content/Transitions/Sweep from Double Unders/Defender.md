@@ -154,7 +154,7 @@ description: "Complete guide to defending the Sweep from Double Unders as the to
 
 As the defender against the Sweep from Double Unders, you are the top player who has established double underhooks and is working to complete the guard pass when the bottom player attempts to reverse your position. Your primary objective is to recognize sweep attempts early, maintain or recover your base, and ideally use the opponent's sweep attempt as an opportunity to advance the pass. The key defensive principle is base management: your double underhooks create tremendous forward pressure, but this same commitment makes you vulnerable if you allow your center of gravity to move beyond your base of support. Defending the sweep requires balancing aggressive forward pressure with the ability to widen your base instantly when you feel the bottom player loading a reversal attempt. Understanding the bottom player's grip requirements and timing cues allows you to preemptively deny sweep opportunities while maintaining your dominant passing position.
 
-**Opponent's Starting Position**: [[Double Unders]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Double Unders]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the Sweep from Double Unders, you are the top player who
 ### 1. Widen base by posting one hand on the mat and stepping one foot out laterally
 
 - **When to use**: When you feel the initial loading phase of any sweep variant through lateral or upward force on your body
-- **Targets**: [[Double Unders]]
+- **Targets**: [[Positions/Double Unders]]
 - **If successful**: The sweep attempt fails completely and you maintain double unders control, though you may temporarily release one underhook to post
 - **Risk**: Posting a hand requires releasing one underhook momentarily, which may allow the bottom player to insert a knee shield or butterfly hook for guard recovery
 
 ### 2. Drive through the sweep attempt aggressively to accelerate the guard pass
 
 - **When to use**: When you recognize the bottom player has committed to a sweep direction and their hips have turned, opening a clear passing lane on the exposed side
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You use the bottom player's committed sweep motion against them, completing the pass through the opening they created by turning their hips
 - **Risk**: If your timing is wrong and the sweep has genuine momentum, driving forward adds energy to their sweep and you may be swept more forcefully
 
 ### 3. Drop hips low and sprawl to kill sweep momentum before it develops
 
 - **When to use**: When you detect early grip acquisition on your belt or hips but the sweep has not yet been loaded or initiated
-- **Targets**: [[Double Unders]]
+- **Targets**: [[Positions/Double Unders]]
 - **If successful**: You flatten the bottom player completely and eliminate the hip mobility they need for any sweep variant, maintaining dominant control
 - **Risk**: Sprawling shifts your chest pressure slightly, which may create enough space for the bottom player to establish frames for guard recovery
 
 ### 4. Strip the sweep grips before the bottom player can load the sweep
 
 - **When to use**: Immediately upon sensing the bottom player's hands reaching for your belt, waistband, or behind your hips
-- **Targets**: [[Double Unders]]
+- **Targets**: [[Positions/Double Unders]]
 - **If successful**: Without grips the bottom player cannot direct the sweep, neutralizing the threat entirely while you maintain underhook control
 - **Risk**: Attempting to strip grips may require momentarily releasing underhook pressure, creating a window for guard recovery
 
@@ -225,11 +225,11 @@ As the defender against the Sweep from Double Unders, you are the top player who
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the bottom player commits to a sweep direction and turns their hips, they create a passing lane on the exposed side. Drive through aggressively in the direction they turned, maintaining your underhook on the far side while establishing crossface with your free arm. Their sweep commitment becomes your passing opportunity as their turned hips cannot recover guard structure in time.
 
-### → [[Double Unders]]
+### → [[Positions/Double Unders]]
 
 Recognize the sweep setup early through grip monitoring and immediately widen your base by posting a hand or stepping a foot out laterally. Alternatively, drop your hips low and sprawl to eliminate the bottom player's hip mobility before they can load the sweep. Strip their grips on your belt or hips preemptively whenever possible to deny the control they need for any sweep variant.
 

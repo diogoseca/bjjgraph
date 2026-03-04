@@ -146,7 +146,7 @@ description: "Learn to maintain posture control inside your triangle choke. Reco
 
 As the defender against posture recovery, you are the triangle player working to maintain your opponent's broken posture so your triangle choke remains effective. Your primary objective is preventing the vertical spine alignment that neutralizes your choking mechanism. This requires active engagement with your legs, arms, and hip positioning rather than passive reliance on the triangle lock alone. You must recognize the early signs of posture recovery attempts and apply immediate counter-pressure before structural alignment is established, because once an opponent achieves full posture inside your triangle, your finishing probability drops dramatically and escape becomes likely. The battle for posture control determines whether your triangle leads to a submission or whether your opponent recovers and passes your guard.
 
-**Opponent's Starting Position**: [[Triangle Escape Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Triangle Escape Position]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against posture recovery, you are the triangle player working to
 ### 1. Clasp hands behind opponent's head and pull down with full body engagement while squeezing triangle tighter
 
 - **When to use**: As soon as you feel the opponent beginning to drive their posture upward through their legs
-- **Targets**: [[Triangle Escape Position]]
+- **Targets**: [[Positions/Triangle Escape Position]]
 - **If successful**: Opponent's posture recovery collapses and they return to broken posture inside your triangle with increased submission pressure
 - **Risk**: If opponent's leg drive overpowers your pull, you exhaust your arms while they achieve posture
 
 ### 2. Transition to armbar on the trapped arm by extending hips and pivoting when opponent focuses on posture recovery
 
 - **When to use**: When opponent commits fully to posture recovery and creates space between their trapped arm and their body
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent must abandon posture recovery to defend armbar, either resetting the triangle or being swept during the transition
 - **Risk**: If armbar transition fails, you may lose triangle position entirely and end up in open guard
 
 ### 3. Scoot hips laterally to re-optimize perpendicular angle while opponent drives upward
 
 - **When to use**: When opponent's posture begins rising but their hip control on your side is weak or absent
-- **Targets**: [[Triangle Escape Position]]
+- **Targets**: [[Positions/Triangle Escape Position]]
 - **If successful**: Re-established optimal finishing angle negates opponent's postural gains by restoring maximum choking pressure
 - **Risk**: Hip scooting temporarily loosens the triangle lock, creating a brief extraction window
 
 ### 4. Underhook opponent's free posting arm to remove their base support and set up sweep
 
 - **When to use**: When opponent posts their free hand on the mat instead of controlling your hip during posture attempt
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Removing their posting arm eliminates their base and enables a sweep to top position while maintaining triangle pressure
 - **Risk**: Reaching for the underhook may loosen your pulling pressure on their head
 
@@ -217,11 +217,11 @@ As the defender against posture recovery, you are the triangle player working to
 
 ## Best-Case Outcomes for Defender
 
-### → [[Triangle Escape Position]]
+### → [[Positions/Triangle Escape Position]]
 
 Maintain constant downward pulling pressure on the head, keep hips elevated and angled perpendicular, and actively resist every posture recovery attempt by squeezing legs and pulling with clasped hands. Regrip and tighten the triangle lock during any pause in their escape efforts.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When opponent overcommits to posture recovery with forward drive, transition to armbar or underhook their posting arm to execute a sweep. Use their upward momentum against them by redirecting their force laterally to achieve positional reversal.
 

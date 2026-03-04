@@ -21,7 +21,7 @@ The mechanics of pulling guard from standing require precise coordination betwee
 
 At the competitive level, the guard pull is far more nuanced than simply sitting down. Elite guard pullers use the transition itself as an offensive weapon, threatening sweeps and submissions during the descent phase. The key differentiator between a high-percentage and a failed guard pull lies in maintaining grip tension and body connection throughout the entire transition from standing to guard, ensuring you arrive in a consolidated position with immediate offensive capability rather than a scramble where the opponent holds the initiative.
 
-**From Position**: [[Standing Position]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -32,10 +32,10 @@ At the competitive level, the guard pull is far more nuanced than simply sitting
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Success | [[Open Guard]] | 15% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Success | [[Positions/Open Guard]] | 15% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ The guard pull from standing serves as the primary gateway between the standing 
 ## Related Techniques
 
 
-- [[Standing Position]] - Starting position from which the guard pull is initiated
+- [[Positions/Standing Position]] - Starting position from which the guard pull is initiated
 
-- [[Closed Guard]] - Primary target position after successful guard pull with ankles locked
+- [[Positions/Closed Guard]] - Primary target position after successful guard pull with ankles locked
 
-- [[Open Guard]] - Secondary landing position when closed guard cannot be established during pull
+- [[Positions/Open Guard]] - Secondary landing position when closed guard cannot be established during pull
 
-- [[Half Guard]] - Common position when opponent partially counters the pull with knee drive
+- [[Positions/Half Guard]] - Common position when opponent partially counters the pull with knee drive
 
-- [[Clinch]] - Related standing engagement that often precedes grip establishment for the pull
+- [[Positions/Clinch]] - Related standing engagement that often precedes grip establishment for the pull
 
-- [[Guard Pull from Clinch]] - Related transition executing the same concept from established clinch engagement
+- [[Transitions/Guard Pull from Clinch]] - Related transition executing the same concept from established clinch engagement
 
-- [[Butterfly Guard Pull]] - Alternative guard pull variant landing in butterfly guard instead of closed guard
+- [[Transitions/Butterfly Guard Pull]] - Alternative guard pull variant landing in butterfly guard instead of closed guard
 
-- [[Combat Base]] - Opponent's typical defensive posture response to a successful guard pull
+- [[Positions/Combat Base]] - Opponent's typical defensive posture response to a successful guard pull
 
-- [[De La Riva Guard]] - Alternative guard system accessible from sitting guard pull variations
+- [[Positions/De La Riva Guard]] - Alternative guard system accessible from sitting guard pull variations
 
-- [[Butterfly Guard]] - Alternative guard landing when hooks insert during pull instead of closing guard
+- [[Positions/Butterfly Guard]] - Alternative guard landing when hooks insert during pull instead of closing guard
 
 
 </section>

@@ -184,7 +184,7 @@ The attacking methodology prioritizes continuous motion over isolated steps. Fro
 
 Strategically, the Duck Under attacker benefits from integrating this technique into a broader clinch offensive system. The same collar tie pressure that sets up the duck under also creates openings for snap downs, and the level change that initiates the duck can convert to double leg entries if the opponent sprawls. This multi-threat approach forces opponents into defensive compromises where protecting against one attack exposes vulnerability to another.
 
-**From Position**: [[Clinch]] (Top)
+**From Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
@@ -237,10 +237,10 @@ Strategically, the Duck Under attacker benefits from integrating this technique 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Rear Clinch]] | 55% |
-| Success | [[Back Control]] | 10% |
-| Failure | [[Clinch]] | 20% |
-| Counter | [[Front Headlock]] | 15% |
+| Success | [[Positions/Standing Rear Clinch]] | 55% |
+| Success | [[Positions/Back Control]] | 10% |
+| Failure | [[Positions/Clinch]] | 20% |
+| Counter | [[Positions/Front Headlock]] | 15% |
 
 
 </section>
@@ -249,10 +249,10 @@ Strategically, the Duck Under attacker benefits from integrating this technique 
 
 ## Opponent Counters
 
-- **Opponent sprawls hips back and establishes front headlock as you attempt to duck through** (Effectiveness: High) - Your Response: If you feel their hips retreating, abort the duck and immediately pummel back to neutral clinch. Alternatively, shoot directly to a double leg since their sprawl creates distance perfect for penetration step entry. → Leads to [[Front Headlock]]
-- **Opponent whizzers over your ducking arm and applies downward pressure to stop your circle** (Effectiveness: Medium) - Your Response: Continue driving forward with your shoulder into their hip while maintaining your grip on their far side. The whizzer becomes a liability if you can complete the circle since they've given up their arm position. Use a limp arm to slip the whizzer if pressure is too strong. → Leads to [[Clinch]]
-- **Opponent steps back and pivots to face you, squaring up before you complete the back take** (Effectiveness: Medium) - Your Response: Maintain your grip on their far hip and convert to an arm drag or inside trip. Their pivoting motion creates momentum you can redirect into a different attack. If they successfully square, immediately re-engage grip fighting from the new clinch position. → Leads to [[Clinch]]
-- **Opponent drops level simultaneously and attempts their own underhook or double leg** (Effectiveness: Medium) - Your Response: Since you initiated the level change, you should have the timing advantage. Continue with the duck under using their level drop to assist your threading. If they shoot, sprawl your hips back and convert to front headlock control. → Leads to [[Clinch]]
+- **Opponent sprawls hips back and establishes front headlock as you attempt to duck through** (Effectiveness: High) - Your Response: If you feel their hips retreating, abort the duck and immediately pummel back to neutral clinch. Alternatively, shoot directly to a double leg since their sprawl creates distance perfect for penetration step entry. → Leads to [[Positions/Front Headlock]]
+- **Opponent whizzers over your ducking arm and applies downward pressure to stop your circle** (Effectiveness: Medium) - Your Response: Continue driving forward with your shoulder into their hip while maintaining your grip on their far side. The whizzer becomes a liability if you can complete the circle since they've given up their arm position. Use a limp arm to slip the whizzer if pressure is too strong. → Leads to [[Positions/Clinch]]
+- **Opponent steps back and pivots to face you, squaring up before you complete the back take** (Effectiveness: Medium) - Your Response: Maintain your grip on their far hip and convert to an arm drag or inside trip. Their pivoting motion creates momentum you can redirect into a different attack. If they successfully square, immediately re-engage grip fighting from the new clinch position. → Leads to [[Positions/Clinch]]
+- **Opponent drops level simultaneously and attempts their own underhook or double leg** (Effectiveness: Medium) - Your Response: Since you initiated the level change, you should have the timing advantage. Continue with the duck under using their level drop to assist your threading. If they shoot, sprawl your hips back and convert to front headlock control. → Leads to [[Positions/Clinch]]
 
 
 </section>

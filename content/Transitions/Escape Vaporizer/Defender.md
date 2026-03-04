@@ -146,7 +146,7 @@ description: "Learn to defend against and capitalize on the Escape Vaporizer in 
 
 The Escape Vaporizer Defender is the top player in the Vaporizer who recognizes that the bottom player is attempting to release their lockdown and transition to open guard. While the lockdown release benefits the defender by freeing their trapped leg, the transition creates a tactical opportunity to advance position rather than passively allowing the bottom player to re-establish guard. The defender's primary objective is to capitalize on the brief vulnerability window during the lockdown release—this is the moment when the bottom player's defensive structure is weakest, and aggressive forward pressure or immediate passing attempts have the highest success rate. Understanding the mechanics of the bottom player's escape sequence allows the defender to time their counter-attacks precisely to exploit the transitional gaps between lockdown control and open guard establishment.
 
-**Opponent's Starting Position**: [[Vaporizer]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Vaporizer]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ The Escape Vaporizer Defender is the top player in the Vaporizer who recognizes 
 ### 1. Drive forward immediately with heavy chest-to-chest pressure before foot frames can be established on your hips
 
 - **When to use**: The instant you recognize the lockdown loosening and before the bottom player inserts their foot on your hip
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: You flatten the bottom player and establish pressure half guard top or advance directly to side control through the transitional gap
 - **Risk**: If timed poorly while the lockdown is still partially engaged, the bottom player may use your forward momentum to execute a sweep
 
 ### 2. Grab opponent's ankles or pant legs to prevent foot placement on your hips and control their leg positioning
 
 - **When to use**: When you feel the lockdown releasing but the opponent has already begun inserting foot frames and forward pressure alone will not prevent guard establishment
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: You prevent open guard establishment and force the opponent to either re-lock the position or accept an inferior guard configuration
 - **Risk**: Reaching for ankles can compromise your base if the opponent still maintains a deep underhook with pulling power
 
 ### 3. Immediately initiate knee slice pass through the opening created by the lockdown release using your previously trapped leg
 
 - **When to use**: When the lockdown releases and your weight is already positioned over one of the opponent's legs with a passing angle available
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: You pass directly through the transitional gap before open guard is established, achieving side control or dominant half guard top
 - **Risk**: A committed knee slice can be countered with a quick underhook if the bottom player maintains their upper body connection throughout the transition
 
 ### 4. Sprawl hips back and establish ankle or pant grips to set up toreando pass from standing position
 
 - **When to use**: When the lockdown releases and you want to create a standing passing position rather than engaging in close-range half guard battle
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: You establish a dominant grip configuration for toreando or leg drag passing from a standing position with superior control
 - **Risk**: Creating distance may allow the bottom player to establish full open guard with active feet and upper body grips
 
@@ -217,11 +217,11 @@ The Escape Vaporizer Defender is the top player in the Vaporizer who recognizes 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Capitalize on the lockdown release by driving immediate forward pressure before foot frames are established. Use the previously trapped leg to cut through the transitional gap with a knee slice or drive forward for a pressure pass. Maintain chest-to-chest contact throughout to prevent the bottom player from creating the distance needed for open guard recovery.
 
-### → [[Lockdown]]
+### → [[Positions/Half Guard/Lockdown]]
 
 Prevent the escape by controlling the bottom player's legs as they attempt to release the figure-four. Grab ankles or pant legs to prevent foot placement on your hips. Drive your weight forward to make frame establishment difficult while maintaining your previously trapped leg in close contact to allow lockdown re-establishment.
 

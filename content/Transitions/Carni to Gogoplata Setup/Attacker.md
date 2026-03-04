@@ -186,7 +186,7 @@ description: "Execute the Carni to Gogoplata Setup as the attacker. Step-by-step
 
 Executing the Carni to Gogoplata Setup requires recognizing the precise moment when your opponent's stack defense creates vulnerability to upper body attacks. As the attacker from Carni bottom, you control one of your opponent's legs in a leg entanglement while they drive forward to neutralize your position. This forward pressure is your trigger: the closer their upper body comes to your legs, the shorter the threading distance for your shin to reach their throat. The key lies in maintaining partial Carni control with your bottom leg while your top leg executes the transition, ensuring the opponent cannot simply disengage during the critical window. Your hands must shift from heel and ankle control to head and foot management as the technique progresses through distinct phases. The transition rewards patience and precision over speed, as rushing the shin placement produces poor angle and easily defended control. Advanced practitioners develop the sensitivity to feel the exact moment of maximum forward pressure and execute the leg thread in that precise window, making the technique appear effortless despite its underlying complexity.
 
-**From Position**: [[Carni]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Carni]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Carni to Gogoplata Setup requires recognizing the precise moment w
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Gogoplata Control]] | 40% |
-| Failure | [[Carni]] | 40% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Gogoplata Control]] | 40% |
+| Failure | [[Positions/Rubber Guard/Carni]] | 40% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Carni to Gogoplata Setup requires recognizing the precise moment w
 
 ## Opponent Counters
 
-- **Opponent postures up immediately upon feeling top leg release, creating distance before shin reaches throat** (Effectiveness: High) - Your Response: If posture recovery is too fast, retract the threading leg and re-establish Carni inside hook to maintain entanglement control rather than chasing a failed gogoplata → Leads to [[Carni]]
-- **Opponent grabs the threading leg with both hands to block shin from reaching the throat** (Effectiveness: Medium) - Your Response: Use your free hand to strip their grip on the threading leg while bottom leg maintains entanglement anchor, or redirect to triangle setup using the elevated leg position → Leads to [[Carni]]
-- **Opponent turns head away and drives laterally to escape both the entanglement and the threading attempt** (Effectiveness: Medium) - Your Response: Follow their lateral movement with hip adjustment and consider transitioning to back take if their turning exposes the back, or settle for open guard reset → Leads to [[Open Guard]]
-- **Opponent explosively stacks through the transition attempt, driving past the shin and into a guard pass** (Effectiveness: High) - Your Response: If the stack is too powerful, abandon the gogoplata and immediately frame on their hips with both legs to recover open guard before they complete the pass → Leads to [[Open Guard]]
+- **Opponent postures up immediately upon feeling top leg release, creating distance before shin reaches throat** (Effectiveness: High) - Your Response: If posture recovery is too fast, retract the threading leg and re-establish Carni inside hook to maintain entanglement control rather than chasing a failed gogoplata → Leads to [[Positions/Rubber Guard/Carni]]
+- **Opponent grabs the threading leg with both hands to block shin from reaching the throat** (Effectiveness: Medium) - Your Response: Use your free hand to strip their grip on the threading leg while bottom leg maintains entanglement anchor, or redirect to triangle setup using the elevated leg position → Leads to [[Positions/Rubber Guard/Carni]]
+- **Opponent turns head away and drives laterally to escape both the entanglement and the threading attempt** (Effectiveness: Medium) - Your Response: Follow their lateral movement with hip adjustment and consider transitioning to back take if their turning exposes the back, or settle for open guard reset → Leads to [[Positions/Open Guard]]
+- **Opponent explosively stacks through the transition attempt, driving past the shin and into a guard pass** (Effectiveness: High) - Your Response: If the stack is too powerful, abandon the gogoplata and immediately frame on their hips with both legs to recover open guard before they complete the pass → Leads to [[Positions/Open Guard]]
 
 
 </section>

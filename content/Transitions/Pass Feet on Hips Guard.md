@@ -21,7 +21,7 @@ The key strategic insight is that feet-on-hips frames are strongest when the bot
 
 This pass integrates into the broader guard passing system as the entry point for toreando, leg drag, knee cut, and body lock passing chains. Proficiency in breaking feet-on-hips frames directly translates to success against all open guard variations, as the grip fighting principles and pressure management concepts form the foundation of systematic guard passing methodology. The position rewards patient, methodical passers who invest in grip fighting before committing to any specific passing direction, and punishes those who rush forward without establishing control of the guard player's knees.
 
-**From Position**: [[Feet on Hips Guard]] (Top)
+**From Position**: [[Positions/Feet on Hips Guard]] (Top)
 **Success Rate**: 40%
 
 </section>
@@ -32,10 +32,10 @@ This pass integrates into the broader guard passing system as the entry point fo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Half Guard]] | 25% |
-| Failure | [[Feet on Hips Guard]] | 20% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Failure | [[Positions/Feet on Hips Guard]] | 20% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -197,25 +197,25 @@ Pass Feet on Hips Guard sits at the foundation of the open guard passing system,
 ## Related Techniques
 
 
-- [[Feet on Hips Guard]] - Source position where this pass is initiated from top
+- [[Positions/Feet on Hips Guard]] - Source position where this pass is initiated from top
 
-- [[Side Control]] - Primary target position upon successful pass completion
+- [[Positions/Side Control]] - Primary target position upon successful pass completion
 
-- [[Toreando Pass]] - Closely related lateral passing technique using similar grip control
+- [[Transitions/Toreando Pass]] - Closely related lateral passing technique using similar grip control
 
-- [[Knee Cut from Feet on Hips]] - Alternative pass from same starting position using knee slide mechanics
+- [[Transitions/Knee Cut from Feet on Hips]] - Alternative pass from same starting position using knee slide mechanics
 
-- [[Half Guard]] - Common intermediate position when pass is partially completed
+- [[Positions/Half Guard]] - Common intermediate position when pass is partially completed
 
-- [[De La Riva Guard]] - Guard the opponent may transition to if frames are broken asymmetrically
+- [[Positions/De La Riva Guard]] - Guard the opponent may transition to if frames are broken asymmetrically
 
-- [[Headquarters Position]] - Intermediate control position during frame-breaking sequence
+- [[Positions/Headquarters Position]] - Intermediate control position during frame-breaking sequence
 
-- [[Combat Base]] - Starting posture commonly used when initiating the pass
+- [[Positions/Combat Base]] - Starting posture commonly used when initiating the pass
 
-- [[Closed Guard]] - Counter outcome when guard player pulls passer into closed guard
+- [[Positions/Closed Guard]] - Counter outcome when guard player pulls passer into closed guard
 
-- [[Leg Drag Pass]] - Alternative passing chain accessible when frames are redirected laterally
+- [[Transitions/Leg Drag Pass]] - Alternative passing chain accessible when frames are redirected laterally
 
 
 </section>

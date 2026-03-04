@@ -21,7 +21,7 @@ The transition is particularly valuable against pressure-based top players who c
 
 Strategically, the Transition to K-Guard serves as a critical bridge between defensive half guard play and aggressive sweep-based offense. Rather than fighting to maintain a half guard that may be deteriorating under sustained pressure, the bottom player proactively reconfigures into a position with superior mechanical advantages for off-balancing. The transition requires precise timing, active hip mobility, and the ability to maintain upper body frames throughout the reconfiguration to prevent the top player from capitalizing on the momentary instability during the hook switch. Practitioners who master this entry gain access to the full K-Guard sweep and back-take system, significantly expanding their offensive options from half guard bottom.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Transition to K-Guard serves as a critical bridge between def
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[K-Guard]] | 55% |
-| Failure | [[Half Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/K-Guard]] | 55% |
+| Failure | [[Positions/Half Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Transition to K-Guard occupies a critical position within the half guard bot
 ## Related Techniques
 
 
-- [[Half Guard]] - Starting position for K-Guard entry
+- [[Positions/Half Guard]] - Starting position for K-Guard entry
 
-- [[K-Guard]] - Target position after successful entry
+- [[Positions/K-Guard]] - Target position after successful entry
 
-- [[Deep Half Entry]] - Alternative guard reconfiguration from half guard bottom when K-Guard entry is denied
+- [[Transitions/Deep Half Entry]] - Alternative guard reconfiguration from half guard bottom when K-Guard entry is denied
 
-- [[Butterfly Guard]] - Recovery position if K-Guard hooks collapse but butterfly hook remains
+- [[Positions/Butterfly Guard]] - Recovery position if K-Guard hooks collapse but butterfly hook remains
 
-- [[X-Guard]] - Follow-up sweep position accessible from established K-Guard
+- [[Positions/X-Guard]] - Follow-up sweep position accessible from established K-Guard
 
-- [[Single Leg X-Guard]] - Alternative sweep destination when opponent extracts trapped leg during entry
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative sweep destination when opponent extracts trapped leg during entry
 
-- [[Knee Shield Half Guard]] - Alternative half guard variation and potential starting frame for K-Guard entry
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative half guard variation and potential starting frame for K-Guard entry
 
-- [[Lockdown]] - Alternative half guard retention system offering different entry pathway to K-Guard
+- [[Positions/Half Guard/Lockdown]] - Alternative half guard retention system offering different entry pathway to K-Guard
 
-- [[Half Guard to Back Take]] - Alternative offensive pathway from half guard bottom when K-Guard entry is unavailable
+- [[Transitions/Half Guard to Back Take]] - Alternative offensive pathway from half guard bottom when K-Guard entry is unavailable
 
-- [[Knee Slice Pass]] - Common top player passing attempt that creates the forward pressure ideal for K-Guard entry timing
+- [[Transitions/Knee Slice Pass]] - Common top player passing attempt that creates the forward pressure ideal for K-Guard entry timing
 
 
 </section>

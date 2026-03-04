@@ -21,7 +21,7 @@ Strategically, this transition represents one of the most important guard upgrad
 
 The mechanical key to the transition lies in generating hip elevation through a bridge or hip escape while simultaneously driving the knee shield upward along the opponent's torso from the standard position to the shoulder. This must be accompanied by grip adjustments, typically securing or deepening an underhook on the trapped leg side while establishing a controlling grip on the far side to prevent the top player from collapsing the newly elevated frame. When executed properly, the transition feels seamless and leaves the bottom player in a significantly stronger defensive and offensive position.
 
-**From Position**: [[Knee Shield Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 **Success Rate**: 65%
 
 </section>
@@ -32,9 +32,9 @@ The mechanical key to the transition lies in generating hip elevation through a 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Z-Guard]] | 65% |
-| Failure | [[Knee Shield Half Guard]] | 20% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Z-Guard]] | 65% |
+| Failure | [[Positions/Half Guard/Knee Shield Half Guard]] | 20% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -192,25 +192,25 @@ The Transition to Z-Guard sits at a critical junction in the half guard hierarch
 ## Related Techniques
 
 
-- [[Z-Guard]] - Target position achieved by successful transition
+- [[Positions/Z-Guard]] - Target position achieved by successful transition
 
-- [[Knee Shield Half Guard]] - Starting position from which the transition is initiated
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Starting position from which the transition is initiated
 
-- [[Half Guard]] - Parent position category for both starting and target positions
+- [[Positions/Half Guard]] - Parent position category for both starting and target positions
 
-- [[Flattened Half Guard]] - Degraded position resulting from failed transition under heavy pressure
+- [[Positions/Half Guard/Flattened Half Guard]] - Degraded position resulting from failed transition under heavy pressure
 
-- [[Deep Half Guard]] - Alternative guard available from similar hip positioning
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative guard available from similar hip positioning
 
-- [[Old School Sweep]] - Primary sweep chain available once Z-Guard is established
+- [[Transitions/Old School Sweep]] - Primary sweep chain available once Z-Guard is established
 
-- [[Back Take from Bottom]] - Offensive option opened by Z-Guard's superior framing angle
+- [[Transitions/Back Take from Bottom]] - Offensive option opened by Z-Guard's superior framing angle
 
-- [[Knee Shield Retention]] - Complementary retention technique used to maintain base position before upgrading
+- [[Transitions/Knee Shield Retention]] - Complementary retention technique used to maintain base position before upgrading
 
-- [[Lockdown]] - Alternative half guard control system if Z-Guard transition is denied
+- [[Positions/Half Guard/Lockdown]] - Alternative half guard control system if Z-Guard transition is denied
 
-- [[Dogfight Position]] - Common scramble position reached from Z-Guard sweep attempts
+- [[Positions/Dogfight Position]] - Common scramble position reached from Z-Guard sweep attempts
 
 
 </section>

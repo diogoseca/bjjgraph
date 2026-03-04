@@ -180,7 +180,7 @@ description: "Learn to convert failed sweep attempts into productive scrambles f
 
 As the attacker in the scramble from failed sweep, you are the guard player who initiated a sweep attempt from open guard bottom that was defended or partially stuffed by your opponent. Rather than accepting the failed sweep and resettling into guard, your objective is to immediately redirect your momentum and body position to create a competitive scramble where you can fight for top position. This requires a rapid mental and physical shift from supine guard-playing mechanics to explosive wrestling-based scrambling, using whatever grips, momentum, and positional advantages remain from the original sweep attempt. The attacker holds the initiative because the opponent is still reacting to the sweep defense, creating a brief window where their base and awareness are compromised.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ As the attacker in the scramble from failed sweep, you are the guard player who 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Scramble Position]] | 50% |
-| Failure | [[Open Guard]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Scramble Position]] | 50% |
+| Failure | [[Positions/Open Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -242,10 +242,10 @@ As the attacker in the scramble from failed sweep, you are the guard player who 
 
 ## Opponent Counters
 
-- **Opponent sprawls back and drives heavy crossface pressure to flatten you** (Effectiveness: High) - Your Response: Frame against the crossface with your forearm at their jawline while hip escaping away from the pressure direction. If flattened, immediately reguard to open guard rather than fighting from a compromised scramble position. Alternatively, redirect underneath for a deep half guard entry using their forward pressure against them. → Leads to [[Open Guard]]
-- **Opponent backsteps and initiates knee slice pass through the space created by your scramble attempt** (Effectiveness: Medium) - Your Response: Catch the passing leg in half guard immediately by clamping your knees around their slicing leg. Establish knee shield to prevent complete pass and work to recover full guard or transition to half guard offensive systems. The key is recognizing the backstep early and positioning your bottom knee as a barrier. → Leads to [[Half Guard]]
-- **Opponent disengages completely, stepping back to reset to standing passing position** (Effectiveness: Medium) - Your Response: Immediately establish feet on hips or de la riva hook to maintain connection before they can reset to their preferred passing stance. If they create significant distance, transition to seated guard with active feet and hands rather than lying back in open guard. Preventing the clean disengage is critical. → Leads to [[Open Guard]]
-- **Opponent drives forward with heavy chest pressure and wide base to smother the scramble** (Effectiveness: Medium) - Your Response: Use their forward drive against them by redirecting underneath for a deep half guard entry, threading your near shoulder under their hip line. Their committed forward weight makes them vulnerable to being pulled over your body. Alternatively, if collar grip is retained, attempt a collar drag to pull them past you. → Leads to [[Open Guard]]
+- **Opponent sprawls back and drives heavy crossface pressure to flatten you** (Effectiveness: High) - Your Response: Frame against the crossface with your forearm at their jawline while hip escaping away from the pressure direction. If flattened, immediately reguard to open guard rather than fighting from a compromised scramble position. Alternatively, redirect underneath for a deep half guard entry using their forward pressure against them. → Leads to [[Positions/Open Guard]]
+- **Opponent backsteps and initiates knee slice pass through the space created by your scramble attempt** (Effectiveness: Medium) - Your Response: Catch the passing leg in half guard immediately by clamping your knees around their slicing leg. Establish knee shield to prevent complete pass and work to recover full guard or transition to half guard offensive systems. The key is recognizing the backstep early and positioning your bottom knee as a barrier. → Leads to [[Positions/Half Guard]]
+- **Opponent disengages completely, stepping back to reset to standing passing position** (Effectiveness: Medium) - Your Response: Immediately establish feet on hips or de la riva hook to maintain connection before they can reset to their preferred passing stance. If they create significant distance, transition to seated guard with active feet and hands rather than lying back in open guard. Preventing the clean disengage is critical. → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward with heavy chest pressure and wide base to smother the scramble** (Effectiveness: Medium) - Your Response: Use their forward drive against them by redirecting underneath for a deep half guard entry, threading your near shoulder under their hip line. Their committed forward weight makes them vulnerable to being pulled over your body. Alternatively, if collar grip is retained, attempt a collar drag to pull them past you. → Leads to [[Positions/Open Guard]]
 
 
 </section>

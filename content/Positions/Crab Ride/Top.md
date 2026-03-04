@@ -213,25 +213,25 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 
 ## Available Attacks
 
-### [[Crab Ride to Back]] (40% of attempts)
+### [[Transitions/Crab Ride to Back]] (40% of attempts)
 
-### [[Darce from Turtle]] (7% of attempts)
+### [[Transitions/Darce from Turtle]] (7% of attempts)
 
-### [[Anaconda from Turtle]] (6% of attempts)
+### [[Transitions/Anaconda from Turtle]] (6% of attempts)
 
-### [[Guillotine from Turtle]] (3% of attempts)
+### [[Transitions/Guillotine from Turtle]] (3% of attempts)
 
-### [[Truck Entry]] (12% of attempts)
+### [[Transitions/Truck Entry]] (12% of attempts)
 
-### [[Crucifix from Turtle]] (11% of attempts)
+### [[Transitions/Crucifix from Turtle]] (11% of attempts)
 
-### [[Back Control to Cross Body Ride]] (7% of attempts)
+### [[Transitions/Back Control to Cross Body Ride]] (7% of attempts)
 
-### [[Turtle to Rodeo Ride]] (8% of attempts)
+### [[Transitions/Turtle to Rodeo Ride]] (8% of attempts)
 
-### [[Rolling Back Take]] (4% of attempts)
+### [[Transitions/Rolling Back Take]] (4% of attempts)
 
-### [[Kimura from Crab Ride]] (2% of attempts)
+### [[Transitions/Kimura from Crab Ride]] (2% of attempts)
 
 
 
@@ -242,28 +242,28 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 ## Decision Making from This Position
 
 **If opponent keeps strong turtle posture with head up and elbows tight:**
-- Execute **[[Crab Ride to Back]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Back Control to Crucifix]]** → [[Crucifix]] (Probability: 60%)
+- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 60%)
 
 
 **If opponent drops head down and tucks chin defensively:**
-- Execute **[[Darce from Turtle]]** → [[Darce Control]] (Probability: 65%)
-- Execute **[[Anaconda from Turtle]]** → [[Anaconda Control]] (Probability: 65%)
+- Execute **[[Transitions/Darce from Turtle]]** → [[Positions/Darce Control]] (Probability: 65%)
+- Execute **[[Transitions/Anaconda from Turtle]]** → [[Positions/Anaconda Control]] (Probability: 65%)
 
 
 **If opponent attempts to turn into you or sit through:**
-- Execute **[[Crab Ride to Back]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Guillotine from Turtle]]** → [[Guillotine Control]] (Probability: 55%)
+- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Guillotine from Turtle]]** → [[Positions/Guillotine Control]] (Probability: 55%)
 
 
 **If opponent flattens out completely or rolls to their back:**
-- Execute **[[Turtle Flatten to Side Control]]** → [[Side Control]] (Probability: 80%)
-- Execute **[[Consolidate Mount]]** → [[Mount]] (Probability: 70%)
+- Execute **[[Transitions/Turtle Flatten to Side Control]]** → [[Positions/Side Control]] (Probability: 80%)
+- Execute **[[Transitions/Consolidate Mount]]** → [[Positions/Mount]] (Probability: 70%)
 
 
 **If opponent extends far arm to post or defend neck:**
-- Execute **[[Back Control to Crucifix]]** → [[Crucifix]] (Probability: 70%)
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 55%)
+- Execute **[[Transitions/Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 70%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
 
 
 
@@ -404,15 +404,15 @@ Partner in turtle randomly performs different defensive actions (turning in, sit
 
 ## Related Positions and Techniques
 
-- **[[Crab Ride]]** - Hub page for this position
-- **[[Back Control]]** - Primary advancement target
-- **[[Turtle]]** - Parent position category
-- **[[Crucifix]]** - Common transition target
-- **[[Cross Body Ride]]** - Similar turtle attack position
-- **[[Rodeo Ride]]** - Alternative turtle control variation
-- **[[Darce Control]]** - Direct submission target from this position
-- **[[Anaconda Control]]** - Direct submission target from this position
-- **[[Front Headlock]]** - Alternative turtle attack position
+- **[[Positions/Crab Ride]]** - Hub page for this position
+- **[[Positions/Back Control]]** - Primary advancement target
+- **[[Positions/Turtle]]** - Parent position category
+- **[[Positions/Crucifix]]** - Common transition target
+- **[[Positions/Cross Body Ride]]** - Similar turtle attack position
+- **[[Positions/Rodeo Ride]]** - Alternative turtle control variation
+- **[[Positions/Darce Control]]** - Direct submission target from this position
+- **[[Positions/Anaconda Control]]** - Direct submission target from this position
+- **[[Positions/Front Headlock]]** - Alternative turtle attack position
 
 
 </section>

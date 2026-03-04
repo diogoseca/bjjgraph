@@ -154,7 +154,7 @@ description: "How to defend against Osoto Gari in BJJ. Recognition cues, defensi
 
 Defending Osoto Gari requires understanding the throw's mechanical sequence so you can disrupt it at the earliest possible stage. The technique relies on three simultaneous conditions: upper body control pulling you backward, your weight committed to the target leg, and the reaping leg removing your base. Eliminating any one of these three conditions neutralizes the throw. Effective Osoto Gari defense begins well before the throw is attempted - it starts with grip fighting that denies your opponent the collar and sleeve configuration they need. Once the throw is initiated, your defensive options narrow rapidly, making early recognition and proactive grip denial far more effective than reactive defense. The defender must train sensitivity to the specific weight shifts and distance closures that telegraph Osoto Gari, developing automatic defensive responses that fire before conscious recognition occurs. At the highest levels, skilled defenders convert failed Osoto Gari attempts into offensive opportunities through counter-throws and back takes, turning the attacker's commitment against them.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending Osoto Gari requires understanding the throw's mechanical sequence so y
 ### 1. Retract the targeted leg by stepping it backward and laterally the moment you feel the opponent's step-in and hip alignment, removing the leg from the reaping path before contact
 
 - **When to use**: As soon as you recognize the distance closure and alignment step - this is the earliest and highest-percentage defense available before the reap begins
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You return to neutral standing position with the throw fully neutralized, and opponent has committed weight forward which you can exploit with a snap-down or counter-attack
 - **Risk**: If timed too late, the reap catches your leg mid-retraction and the throw may still succeed partially; also, repeated retreating creates a pattern opponent can exploit with feints
 
 ### 2. Execute a counter-throw by dropping your hips below opponent's center of gravity and rotating underneath them as they commit to the reap - Tani Otoshi or Ura Nage style sacrifice throw
 
 - **When to use**: When the opponent has fully committed to the throw and their weight is driving forward over their supporting leg - use their momentum against them during the peak commitment phase
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You reverse the throw and end up in a dominant position on top of your opponent, potentially in side control or mount depending on the counter-throw executed
 - **Risk**: Mistiming the counter results in both players falling with the attacker maintaining dominant position; failed sacrifice throws leave you on bottom in a scramble
 
 ### 3. Strip the collar grip using a two-on-one grip break before the throw sequence begins, removing the upper body control that enables the entire technique
 
 - **When to use**: As a proactive defense when you recognize your opponent has secured a deep collar grip and is beginning to set up throwing distance - act before they step in
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent loses the primary control needed for Osoto Gari and must re-establish grips, resetting the exchange to neutral and buying you time to establish your own offensive grips
 - **Risk**: During the grip break, you momentarily compromise your own defensive structure, creating a brief window where opponent could switch to a different attack like a snap-down
 
 ### 4. Turn into the throw direction by pivoting your hips and stepping through with your attacked leg, converting the backward force into rotational movement that exposes opponent's back
 
 - **When to use**: When the throw is in mid-execution and leg retraction is too late - this is a last-resort option that converts a defensive situation into an offensive opportunity
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You nullify the throw's backward force by rotating with it, and end up in position to take opponent's back or establish a dominant clinch position behind them
 - **Risk**: If the rotation is incomplete, you end up in a worse position with your back partially exposed; requires good balance and timing to execute under pressure
 
@@ -226,11 +226,11 @@ Defending Osoto Gari requires understanding the throw's mechanical sequence so y
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Deny the throw at the setup phase through grip fighting and leg retraction. Strip the collar grip with a two-on-one break before opponent can close distance, or retract your targeted leg the moment you feel the step-in. Maintain your stance integrity and immediately re-establish your own grips to take the offensive initiative. The most reliable path to this outcome is proactive grip denial that prevents the throw from ever being initiated.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Execute a counter-throw at the moment of opponent's maximum commitment. When you feel their weight fully committed forward and their reaping leg is off the ground, drop your hips below theirs and execute a sacrifice-style counter such as Tani Otoshi or Sumi Gaeshi. The attacker's forward momentum and single-leg base make them vulnerable to being redirected. This requires precise timing and the confidence to commit to your own counter-attack rather than passively defending.
 

@@ -178,7 +178,7 @@ This technique is particularly effective against guard players who rely heavily 
 
 Strategically, this pass represents the aggressive response to Ringworm Guard and works best when the opponent has already committed to the lapel wrap but hasn't yet established secondary controls on your upper body. The timing window is narrow - attempt this too early and the guard isn't established enough to pass, too late and the opponent has too many control points for smash passing to succeed.
 
-**From Position**: [[Ringworm Guard]] (Top)
+**From Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategically, this pass represents the aggressive response to Ringworm Guard an
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Ringworm Guard]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Ringworm Guard]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -240,9 +240,9 @@ Strategically, this pass represents the aggressive response to Ringworm Guard an
 
 ## Opponent Counters
 
-- **Bottom player elevates hips and loads for sweep as you collapse forward** (Effectiveness: High) - Your Response: Widen your base immediately by stepping your free leg out, drop your hips lower, and drive your weight into their chest rather than staying elevated where they can redirect you → Leads to [[Ringworm Guard]]
-- **Bottom player abandons lapel grip and transitions to collar grip for choke attempts** (Effectiveness: Medium) - Your Response: Continue forward pressure and immediately secure head position - if their hand goes to your collar, your head should be past their shoulder making chokes difficult. Proceed with pass without needing to strip lapel → Leads to [[Side Control]]
-- **Bottom player turns toward you and begins back take sequence as you work crossface** (Effectiveness: Medium) - Your Response: Drive crossface harder and sprawl your hips back - if they continue turning, disengage completely and reset to standing rather than chasing the pass into back exposure → Leads to [[Back Control]]
+- **Bottom player elevates hips and loads for sweep as you collapse forward** (Effectiveness: High) - Your Response: Widen your base immediately by stepping your free leg out, drop your hips lower, and drive your weight into their chest rather than staying elevated where they can redirect you → Leads to [[Positions/Ringworm Guard]]
+- **Bottom player abandons lapel grip and transitions to collar grip for choke attempts** (Effectiveness: Medium) - Your Response: Continue forward pressure and immediately secure head position - if their hand goes to your collar, your head should be past their shoulder making chokes difficult. Proceed with pass without needing to strip lapel → Leads to [[Positions/Side Control]]
+- **Bottom player turns toward you and begins back take sequence as you work crossface** (Effectiveness: Medium) - Your Response: Drive crossface harder and sprawl your hips back - if they continue turning, disengage completely and reset to standing rather than chasing the pass into back exposure → Leads to [[Positions/Back Control]]
 
 
 </section>

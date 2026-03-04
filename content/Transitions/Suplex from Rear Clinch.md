@@ -21,7 +21,7 @@ Strategically, the suplex serves as a powerful deterrent against opponents who f
 
 The suplex demands significant attention to safety protocols in training, as the lifting and landing mechanics carry inherent risk of head, neck, and shoulder injuries for both practitioners. Proper mat surface, controlled drilling progression, and clear communication between training partners are essential prerequisites before attempting this technique at any intensity. In competition, certain rulesets restrict or penalize suplexes that land the opponent on their head or neck, making lateral and diagonal throwing angles the preferred mechanics for BJJ-specific application.
 
-**From Position**: [[Standing Rear Clinch]] (Top)
+**From Position**: [[Positions/Standing Rear Clinch]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The suplex demands significant attention to safety protocols in training, as the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Standing Rear Clinch]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Standing Rear Clinch]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Suplex from Rear Clinch integrates into the standing grappling system as the
 ## Related Techniques
 
 
-- [[Standing Rear Clinch]] - Starting position from which the suplex is initiated
+- [[Positions/Standing Rear Clinch]] - Starting position from which the suplex is initiated
 
-- [[Side Control]] - Primary landing position after successful suplex execution
+- [[Positions/Side Control]] - Primary landing position after successful suplex execution
 
-- [[Half Guard]] - Possible counter outcome if suplex execution is incomplete
+- [[Positions/Half Guard]] - Possible counter outcome if suplex execution is incomplete
 
-- [[Mat Return from Standing Rear Clinch]] - Lower-risk alternative takedown from the same starting position
+- [[Transitions/Mat Return from Standing Rear Clinch]] - Lower-risk alternative takedown from the same starting position
 
-- [[Body Lock Takedown]] - Complementary takedown option using body lock grip configuration
+- [[Transitions/Body Lock Takedown]] - Complementary takedown option using body lock grip configuration
 
-- [[Counter Throw from Standing Rear Clinch]] - Opponent's primary counter-throwing option that must be anticipated
+- [[Transitions/Counter Throw from Standing Rear Clinch]] - Opponent's primary counter-throwing option that must be anticipated
 
-- [[Defense from Standing Rear Clinch]] - Defensive frameworks the opponent employs against suplex attempts
+- [[Transitions/Defense from Standing Rear Clinch]] - Defensive frameworks the opponent employs against suplex attempts
 
-- [[Standing Switch from Rear Clinch]] - Opponent's escape technique that can disrupt suplex timing
+- [[Transitions/Standing Switch from Rear Clinch]] - Opponent's escape technique that can disrupt suplex timing
 
-- [[Back Control]] - Alternative advancement path from rear clinch without throwing
+- [[Positions/Back Control]] - Alternative advancement path from rear clinch without throwing
 
-- [[Body Lock]] - Grip configuration commonly used to execute the suplex
+- [[Positions/Body Lock]] - Grip configuration commonly used to execute the suplex
 
-- [[Rear Clinch to Body Lock]] - Grip transition that establishes optimal suplex grip configuration
+- [[Transitions/Rear Clinch to Body Lock]] - Grip transition that establishes optimal suplex grip configuration
 
 
 </section>

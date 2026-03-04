@@ -186,7 +186,7 @@ description: "Learn to execute the Overhook to Half Guard transition from bottom
 
 As the bottom player executing the Overhook to Half Guard transition, your objective is to convert a diminishing or tactically suboptimal overhook control position into an established half guard where you have access to systematic sweeps, back takes, and submission entries. This transition requires precise timing to thread your inside leg into the half guard entanglement while using the existing overhook as a controlling frame that prevents the top player from passing during the brief vulnerability window. The key insight is that you are not retreating from overhook to half guard defensively - you are strategically repositioning to a platform that offers superior offensive sustainability and more diverse attack chains. Successful execution demands smooth hip escape mechanics, controlled grip transitions, and immediate offensive engagement once half guard is established.
 
-**From Position**: [[Overhook Control]] (Bottom)
+**From Position**: [[Positions/Overhook Control]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the bottom player executing the Overhook to Half Guard transition, your objec
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Overhook Control]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Overhook Control]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the bottom player executing the Overhook to Half Guard transition, your objec
 
 ## Opponent Counters
 
-- **Top player drives heavy forward pressure to collapse space and prevent hip escape** (Effectiveness: High) - Your Response: Use the forward pressure to accelerate a butterfly hook intermediate entry - post your inside foot on their hip to create distance, then convert to half guard hooks once their drive creates momentum you can redirect → Leads to [[Overhook Control]]
-- **Top player backsteps and circles to the overhook side to pass guard during the transition window** (Effectiveness: High) - Your Response: Abandon the half guard attempt and immediately use the overhook to pull them back while hip escaping in the opposite direction. If the pass is too far advanced, release the overhook entirely and establish defensive frames to recover guard rather than holding a grip that prevents effective defense → Leads to [[Side Control]]
-- **Top player posts their free leg wide to prevent inside leg from threading between their legs** (Effectiveness: Medium) - Your Response: Target the wider gap created by their posted leg using a more aggressive hip escape angle. Alternatively, use a butterfly hook intermediate step to disrupt their widened base before converting to half guard hooks. Their wide base actually creates more insertion space if you adjust the entry angle → Leads to [[Overhook Control]]
-- **Top player captures your inside knee and pins it to the mat before you can complete the thread** (Effectiveness: Medium) - Your Response: Use your free leg to kick their controlling hand off your knee while maintaining overhook pressure. If they maintain knee control, hip escape further to create a new angle and reattempt the insertion from a different trajectory. Consider switching to a closed guard recovery if the half guard entry is fully blocked → Leads to [[Side Control]]
+- **Top player drives heavy forward pressure to collapse space and prevent hip escape** (Effectiveness: High) - Your Response: Use the forward pressure to accelerate a butterfly hook intermediate entry - post your inside foot on their hip to create distance, then convert to half guard hooks once their drive creates momentum you can redirect → Leads to [[Positions/Overhook Control]]
+- **Top player backsteps and circles to the overhook side to pass guard during the transition window** (Effectiveness: High) - Your Response: Abandon the half guard attempt and immediately use the overhook to pull them back while hip escaping in the opposite direction. If the pass is too far advanced, release the overhook entirely and establish defensive frames to recover guard rather than holding a grip that prevents effective defense → Leads to [[Positions/Side Control]]
+- **Top player posts their free leg wide to prevent inside leg from threading between their legs** (Effectiveness: Medium) - Your Response: Target the wider gap created by their posted leg using a more aggressive hip escape angle. Alternatively, use a butterfly hook intermediate step to disrupt their widened base before converting to half guard hooks. Their wide base actually creates more insertion space if you adjust the entry angle → Leads to [[Positions/Overhook Control]]
+- **Top player captures your inside knee and pins it to the mat before you can complete the thread** (Effectiveness: Medium) - Your Response: Use your free leg to kick their controlling hand off your knee while maintaining overhook pressure. If they maintain knee control, hip escape further to create a new angle and reattempt the insertion from a different trajectory. Consider switching to a closed guard recovery if the half guard entry is fully blocked → Leads to [[Positions/Side Control]]
 
 
 </section>

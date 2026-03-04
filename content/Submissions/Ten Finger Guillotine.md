@@ -22,7 +22,7 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Front Headlock]]
+**Starting Position**: [[Positions/Front Headlock]]
 **Success Rate**: 62%
 
 </section>
@@ -75,8 +75,8 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -229,15 +229,15 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 ## From Which Positions?
 
-- [[Front Headlock]]
-- [[Guillotine Control]]
-- [[Standing Position]]
-- [[Closed Guard]]
-- [[Half Guard]]
-- [[Turtle]]
-- [[Clinch]]
-- [[Open Guard]]
-- [[Butterfly Guard]]
+- [[Positions/Front Headlock]]
+- [[Positions/Guillotine Control]]
+- [[Positions/Standing Position]]
+- [[Positions/Closed Guard]]
+- [[Positions/Half Guard]]
+- [[Positions/Turtle]]
+- [[Positions/Clinch]]
+- [[Positions/Open Guard]]
+- [[Positions/Butterfly Guard]]
 
 
 </section>
@@ -246,15 +246,15 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 ## Related Submissions
 
-- [[Guillotine Choke]]
-- [[High Elbow Guillotine]]
-- [[Arm in Guillotine]]
-- [[Anaconda Choke]]
-- [[Darce Choke]]
-- [[Rear Naked Choke]]
-- [[Chin Strap Guillotine]]
-- [[Arm Triangle]]
-- [[Brabo Choke]]
+- [[Transitions/Guillotine Choke]]
+- [[Submissions/High Elbow Guillotine]]
+- [[Submissions/Arm in Guillotine]]
+- [[Transitions/Anaconda Choke]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Rear Naked Choke]]
+- [[Submissions/Chin Strap Guillotine]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Brabo Choke]]
 
 
 </section>
@@ -263,18 +263,18 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 ## Additional Related Content
 
-- [[Front Headlock]] - Primary control position for entry
-- [[Guillotine Control]] - Related submission control position
-- [[Guillotine Choke]] - Primary guillotine variation
-- [[Anaconda Choke]] - Transition option when opponent turns in
-- [[Darce Choke]] - Transition option when opponent turns away
-- [[Closed Guard]] - Common finishing position after guard pull
-- [[Standing Position]] - Primary entry context from sprawls
-- [[Turtle]] - Common opponent position for setup
-- [[Clinch]] - Standing control position for entry
-- [[Butterfly Guard]] - Alternative finishing position with hip control
-- [[Arm in Guillotine]] - Arm-trapped variation of the technique
-- [[High Elbow Guillotine]] - High angle variation for chin defense
+- [[Positions/Front Headlock]] - Primary control position for entry
+- [[Positions/Guillotine Control]] - Related submission control position
+- [[Transitions/Guillotine Choke]] - Primary guillotine variation
+- [[Transitions/Anaconda Choke]] - Transition option when opponent turns in
+- [[Transitions/Darce Choke]] - Transition option when opponent turns away
+- [[Positions/Closed Guard]] - Common finishing position after guard pull
+- [[Positions/Standing Position]] - Primary entry context from sprawls
+- [[Positions/Turtle]] - Common opponent position for setup
+- [[Positions/Clinch]] - Standing control position for entry
+- [[Positions/Butterfly Guard]] - Alternative finishing position with hip control
+- [[Submissions/Arm in Guillotine]] - Arm-trapped variation of the technique
+- [[Submissions/High Elbow Guillotine]] - High angle variation for chin defense
 
 
 </section>

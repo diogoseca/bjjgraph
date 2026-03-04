@@ -208,31 +208,31 @@ Cross Ashi-Garami Bottom is considered a medium-risk position because while heel
 
 ## Available Escapes
 
-### [[Ashi Garami Escape]] (7% of attempts)
+### [[Transitions/Ashi Garami Escape]] (7% of attempts)
 
-### [[Inside Ashi Entry]] (7% of attempts)
+### [[Transitions/Inside Ashi Entry]] (7% of attempts)
 
-### [[X-Guard to Ashi Garami]] (4% of attempts)
+### [[Transitions/X-Guard to Ashi Garami]] (4% of attempts)
 
-### [[Heel Hook Defense Escape]] (48% of attempts)
+### [[Transitions/Heel Hook Defense Escape]] (48% of attempts)
 
-### [[Outside Ashi Entry]] (7% of attempts)
+### [[Transitions/Outside Ashi Entry]] (7% of attempts)
 
-### [[Standing Escape]] (2% of attempts)
+### [[Transitions/Standing Escape]] (2% of attempts)
 
-### [[Counter-entangle to 50-50 Guard]] (5% of attempts)
+### [[Transitions/Counter-entangle to 50-50 Guard]] (5% of attempts)
 
-### [[Backside 50-50 Entry from Ashi]] (7% of attempts)
+### [[Transitions/Backside 50-50 Entry from Ashi]] (7% of attempts)
 
-### [[Counter heel hook]] (5% of attempts)
+### [[Transitions/Counter heel hook]] (5% of attempts)
 
-### [[Leg Extraction]] (7% of attempts)
+### [[Transitions/Leg Extraction]] (7% of attempts)
 
-### [[Counter Entangle from Cross Ashi]] (0% of attempts)
+### [[Transitions/Counter Entangle from Cross Ashi]] (0% of attempts)
 
-### [[Leg Extraction from Cross Ashi]] (0% of attempts)
+### [[Transitions/Leg Extraction from Cross Ashi]] (0% of attempts)
 
-### [[Sweep from Cross Ashi-Garami]] (1% of attempts)
+### [[Transitions/Sweep from Cross Ashi-Garami]] (1% of attempts)
 
 
 
@@ -243,22 +243,22 @@ Cross Ashi-Garami Bottom is considered a medium-risk position because while heel
 ## Decision Making from This Position
 
 **If opponent secures deep heel hook grip with figure-four configuration locked and begins external rotation:**
-- Execute **[[Tap Out]]** → [[Game Over]] (Probability: 95%)
+- Execute **[[Tap Out]]** → [[Positions/Game Over]] (Probability: 95%)
 
 
 **If opponent has cross ashi control but hands are not yet secured in heel hook grip:**
-- Execute **[[Ashi Garami Escape]]** → [[Open Guard]] (Probability: 50%)
-- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 35%)
+- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 35%)
 
 
 **If opponent loosens leg control to transition to saddle or adjust position:**
-- Execute **[[Leg Extraction]]** → [[Open Guard]] (Probability: 55%)
-- Execute **[[X-Guard to Ashi Garami]]** → [[X-Guard]] (Probability: 40%)
+- Execute **[[Transitions/Leg Extraction]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/X-Guard to Ashi Garami]]** → [[Positions/X-Guard]] (Probability: 40%)
 
 
 **If opponent's inside leg becomes exposed during adjustment or grip change:**
-- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 50%)
-- Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 35%)
+- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
+- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 35%)
 
 
 
@@ -392,16 +392,16 @@ From established cross ashi bottom position, partner deliberately creates openin
 
 ## Related Positions and Techniques
 
-- **[[Inside Ashi-Garami]]** - Common counter-entanglement entry from cross ashi bottom
-- **[[Outside Ashi-Garami]]** - Alternative leg entanglement variation with similar defensive concerns
-- **[[Saddle]]** - Common transition target from cross ashi for top player
-- **[[Ashi Garami Escape]]** - Primary escape technique from this position
-- **[[Inside Ashi Entry]]** - Counter-attack transition to establish own leg control
-- **[[Heel Hook]]** - Primary submission threat from opponent in this position
-- **[[Straight Ankle Lock]]** - Alternative submission threat from cross ashi position
-- **[[X-Guard]]** - Recovery position through X-guard to ashi transition
-- **[[Single Leg X-Guard]]** - Alternative recovery position from saddle defense
-- **[[50-50 Guard]]** - Neutral leg entanglement that may result from escape attempts
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Common counter-entanglement entry from cross ashi bottom
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Alternative leg entanglement variation with similar defensive concerns
+- **[[Positions/Ashi Garami/Saddle]]** - Common transition target from cross ashi for top player
+- **[[Transitions/Ashi Garami Escape]]** - Primary escape technique from this position
+- **[[Transitions/Inside Ashi Entry]]** - Counter-attack transition to establish own leg control
+- **[[Transitions/Heel Hook]]** - Primary submission threat from opponent in this position
+- **[[Submissions/Straight Ankle Lock]]** - Alternative submission threat from cross ashi position
+- **[[Positions/X-Guard]]** - Recovery position through X-guard to ashi transition
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Alternative recovery position from saddle defense
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Neutral leg entanglement that may result from escape attempts
 
 
 </section>

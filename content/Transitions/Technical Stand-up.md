@@ -21,7 +21,7 @@ The technique is particularly valuable in self-defense scenarios, scrambles, and
 
 Mastery of the technical stand-up provides a reliable escape option from compromised bottom positions and forms the foundation for advanced guard retention systems. At the highest levels, practitioners chain this movement with single leg entries, creating a seamless defensive-to-offensive pipeline that punishes opponents who attempt to follow the stand-up.
 
-**From Position**: [[Seated Guard]] (Bottom)
+**From Position**: [[Positions/Seated Guard]] (Bottom)
 **Success Rate**: 85%
 
 </section>
@@ -32,9 +32,9 @@ Mastery of the technical stand-up provides a reliable escape option from comprom
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 75% |
-| Failure | [[Seated Guard]] | 15% |
-| Counter | [[Headquarters Position]] | 10% |
+| Success | [[Positions/Standing Position]] | 75% |
+| Failure | [[Positions/Seated Guard]] | 15% |
+| Counter | [[Positions/Headquarters Position]] | 10% |
 
 
 </section>
@@ -194,27 +194,27 @@ The technical stand-up is a critical connection point in the BJJ positional hier
 ## Related Techniques
 
 
-- [[Guard Recovery]] - Alternative escape maintaining bottom connection
+- [[Principles/Guard Recovery]] - Alternative escape maintaining bottom connection
 
-- [[Granby Roll to Guard]] - Alternative escape using inversion and rotation
+- [[Transitions/Granby Roll to Guard]] - Alternative escape using inversion and rotation
 
-- [[Hip Escape to Guard]] - Related escape principle using hip movement
+- [[Transitions/Hip Escape to Guard]] - Related escape principle using hip movement
 
-- [[Turtle]] - Alternative starting position for standing base variant
+- [[Positions/Turtle]] - Alternative starting position for standing base variant
 
-- [[Guard Pull]] - Opposite movement — standing to guard
+- [[Transitions/Guard Pull]] - Opposite movement — standing to guard
 
-- [[Standing Position]] - Target position and goal of the technique
+- [[Positions/Standing Position]] - Target position and goal of the technique
 
-- [[Headquarters Position]] - Common opponent position requiring technical stand-up
+- [[Positions/Headquarters Position]] - Common opponent position requiring technical stand-up
 
-- [[Open Guard]] - Parent guard category from which technical stand-up can be initiated
+- [[Positions/Open Guard]] - Parent guard category from which technical stand-up can be initiated
 
-- [[Butterfly Guard]] - Alternative guard that can transition to technical stand-up
+- [[Positions/Butterfly Guard]] - Alternative guard that can transition to technical stand-up
 
-- [[Single Leg Entry]] - Offensive chain option when opponent follows the stand-up
+- [[Transitions/Single Leg Entry]] - Offensive chain option when opponent follows the stand-up
 
-- [[Ankle Pick]] - Counter-offensive option available during or after stand-up completion
+- [[Transitions/Ankle Pick]] - Counter-offensive option available during or after stand-up completion
 
 
 </section>

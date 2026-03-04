@@ -158,7 +158,7 @@ Your defensive priority hierarchy is clear: first, prevent the entry by recogniz
 
 The most dangerous moment is when you commit your weight forward onto your lead leg while the grasshopper player is positioned beneath you. This weight commitment is exactly what they are waiting for, as it pins your target leg in place for their threading motion. Maintaining awareness of your weight distribution and the bottom player's hip elevation gives you the information needed to step back or adjust before the entry develops. Experienced defenders treat any grasshopper guard engagement as a leg lock threat first, adjusting their base and stance accordingly before attempting to pass.
 
-**Opponent's Starting Position**: [[Grasshopper Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ The most dangerous moment is when you commit your weight forward onto your lead 
 ### 1. Step back and disengage the targeted leg before the hip rotation completes
 
 - **When to use**: At the earliest recognition of the entry - when you feel the initial leg threading or see the hip rotation beginning, before they have consolidated any control
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: Attacker remains in grasshopper guard without leg control, allowing you to reset stance and re-engage from a safer distance or angle
 - **Risk**: If you step back too slowly, they can follow with a rolling entry and catch you in transition. Stepping back also concedes passing pressure and resets the engagement.
 
 ### 2. Sprawl and drive your hips forward to flatten their inverted position
 
 - **When to use**: When the entry is mid-development and you still have base, but stepping back cleanly is no longer possible because they have partial leg contact
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Their grasshopper guard collapses under your pressure and you advance directly to side control as their inversion fails and they end up flat on their back
 - **Risk**: If their entry is already well-developed, sprawling forward can actually drive your knee deeper into their control. Requires reading the timing correctly.
 
 ### 3. Turn toward the attacker and drive your knee to the mat to kill the hyperextension angle
 
 - **When to use**: When the attacker has established partial control with leg threading but has not yet secured heel grip - this is the mid-phase defensive option
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: Rotating your hip toward them collapses the kneebar angle and makes extension mechanically impossible, forcing them to abandon the attack or transition to a different leg entanglement
 - **Risk**: Turning toward them can expose you to inside ashi garami entries if they read your rotation and adjust their leg threading accordingly
 
 ### 4. Bend your knee forcefully and pull your heel toward your buttock while fighting their grip on your ankle
 
 - **When to use**: When the attacker has consolidated position with knees pinched and is beginning to pursue heel control - this is the late-phase emergency defense
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: A deeply bent knee cannot be hyperextended regardless of their hip pressure, and active heel retraction prevents them from securing the grip needed to straighten your leg for the finish
 - **Risk**: Maintaining a bent knee is extremely energy-intensive against their pulling pressure, and if your knee straightens even momentarily they can lock in the extension before you can re-bend
 
@@ -228,11 +228,11 @@ The most dangerous moment is when you commit your weight forward onto your lead 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Grasshopper Guard]]
+### → [[Positions/Grasshopper Guard]]
 
 Deny the entry early by stepping back when you detect the threading motion, or turn your hip toward the attacker to collapse the kneebar angle. In both cases, maintaining awareness of your weight distribution and reacting before they secure heel control returns you to a neutral engagement where you can re-establish your passing approach.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When you read the entry attempt early enough, drive forward with a sprawl to flatten their inverted position completely. Their commitment to the kneebar entry leaves them vulnerable to being driven flat, and your forward pressure converts directly into a guard pass to side control. This requires timing the sprawl before their hip rotation completes.
 

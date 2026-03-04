@@ -21,7 +21,7 @@ Strategically, the Duck Under serves as a high-percentage back take option that 
 
 The technique integrates seamlessly with other clinch attacks, creating a systematic approach to standing exchanges. Practitioners who threaten the Duck Under force opponents into defensive postures that open opportunities for snap downs, arm drags, and shot takedowns. Conversely, defending against these other attacks often creates the exact arm positioning that makes Duck Unders available. This interconnected relationship between clinch techniques makes the Duck Under essential knowledge for any complete standing game.
 
-**From Position**: [[Clinch]] (Top)
+**From Position**: [[Positions/Clinch]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ The technique integrates seamlessly with other clinch attacks, creating a system
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Rear Clinch]] | 55% |
-| Success | [[Back Control]] | 10% |
-| Failure | [[Clinch]] | 20% |
-| Counter | [[Front Headlock]] | 15% |
+| Success | [[Positions/Standing Rear Clinch]] | 55% |
+| Success | [[Positions/Back Control]] | 10% |
+| Failure | [[Positions/Clinch]] | 20% |
+| Counter | [[Positions/Front Headlock]] | 15% |
 
 
 </section>
@@ -192,25 +192,25 @@ The Duck Under occupies a central position in the standing clinch game, serving 
 ## Related Techniques
 
 
-- [[Clinch]] - Starting position for Duck Under execution
+- [[Positions/Clinch]] - Starting position for Duck Under execution
 
-- [[Standing Rear Clinch]] - Primary successful outcome position
+- [[Positions/Standing Rear Clinch]] - Primary successful outcome position
 
-- [[Back Control]] - Alternative successful outcome when opponent goes to ground
+- [[Positions/Back Control]] - Alternative successful outcome when opponent goes to ground
 
-- [[Front Headlock]] - Common counter position if opponent sprawls
+- [[Positions/Front Headlock]] - Common counter position if opponent sprawls
 
-- [[Arm Drag to Back]] - Complementary technique - threats combine in systematic clinch game
+- [[Transitions/Arm Drag to Back]] - Complementary technique - threats combine in systematic clinch game
 
-- [[Snap Down to Front Headlock]] - Chain attack when opponent defends duck under with tight elbows
+- [[Transitions/Snap Down to Front Headlock]] - Chain attack when opponent defends duck under with tight elbows
 
-- [[Double Leg Entry]] - Conversion option when opponent sprawls or creates distance
+- [[Transitions/Double Leg Entry]] - Conversion option when opponent sprawls or creates distance
 
-- [[Single Leg Takedown]] - Alternative attack from clinch that pairs with duck under threats
+- [[Transitions/Single Leg Takedown]] - Alternative attack from clinch that pairs with duck under threats
 
-- [[Body Lock Pass]] - Follow-up technique from Standing Rear Clinch
+- [[Transitions/Body Lock Pass]] - Follow-up technique from Standing Rear Clinch
 
-- [[Rear Naked Choke Setup]] - Submission threat available from successful back take
+- [[Transitions/Rear Naked Choke Setup]] - Submission threat available from successful back take
 
 
 </section>

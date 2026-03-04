@@ -156,7 +156,7 @@ As the defender against Scramble to Top Position, you are the practitioner who i
 
 The defender's advantage lies in the options available when the scramble is being lost. Rather than accepting a drive to side control, you can pull guard to establish a preferred defensive position, thread underneath for deep half guard, disengage to standing, or redirect the opponent's forward drive into a sweep. The critical skill is recognizing early that the scramble is trending against you and making a proactive positional decision before the opponent consolidates, rather than fighting reactively until you are flattened and pinned.
 
-**Opponent's Starting Position**: [[Scramble Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Scramble Position]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The defender's advantage lies in the options available when the scramble is bein
 ### 1. Establish deep whizzer over opponent's underhook and circle away from their drive to deny angle creation
 
 - **When to use**: Immediately when the opponent secures the underhook but before they lower their hips below yours and begin the committed drive
-- **Targets**: [[Scramble Position]]
+- **Targets**: [[Positions/Scramble Position]]
 - **If successful**: Neutralizes the underhook advantage and returns the scramble to a contested neutral state where you can re-compete for top position
 - **Risk**: If the whizzer is not deep enough, the opponent can limp-arm through and re-establish the underhook from a now-tighter clinch position
 
 ### 2. Pull guard by sitting back and inserting butterfly hooks or closing legs around the opponent's waist
 
 - **When to use**: When you have clearly lost the underhook and base battle and the opponent is driving you backward with committed pressure, typically within 2-3 seconds of losing structural advantage
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Transitions the exchange from a losing scramble into an established guard position where you have a developed offensive game and can begin sweep, submission, or back take sequences
 - **Risk**: Opponent may already have momentum and pressure that allows them to immediately begin passing your guard from a dominant posture
 
 ### 3. Thread underneath the opponent's forward drive for a deep half guard entry
 
 - **When to use**: When the opponent commits heavy forward weight through their chest and hips during the drive, particularly when they are pushing you backward with sustained pressure
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Converts the losing scramble into a functional deep half guard position where their own forward momentum aids your sweep mechanics and undermines their base
 - **Risk**: If the entry is too shallow, the opponent may sprawl and drive a crossface to flatten you in standard half guard bottom rather than deep half
 
 ### 4. Disengage with frames and execute a technical stand-up to reach standing position
 
 - **When to use**: When sufficient distance exists to create frames and there is space to build up to standing before the opponent can close the gap
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Reset the exchange to standing position where you can re-engage on equal terms through takedown or guard pull entries
 - **Risk**: If frames are not strong enough or the opponent follows aggressively, you may be caught in a compromised half-standing position vulnerable to takedowns
 
@@ -227,15 +227,15 @@ The defender's advantage lies in the options available when the scramble is bein
 
 ## Best-Case Outcomes for Defender
 
-### → [[Scramble Position]]
+### → [[Positions/Scramble Position]]
 
 Establish a deep whizzer immediately when the opponent secures the underhook, then circle your hips away from their drive direction while pulling the whizzer upward to elevate their elbow above their shoulder. This weakens their underhook structurally and may allow you to strip it entirely and re-compete for the underhook with positional advantage.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the opponent commits to forward pressure, drop your level and thread your near shoulder underneath their hip line, turning to face their legs. Trap their near leg between yours to establish half guard entanglement. Their forward weight commitment makes it difficult for them to backstep or re-establish standing base, giving you sweep opportunities from deep half guard.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Create distance by pushing frame against their near shoulder with both hands while hip escaping backward. Post your rear hand on the mat, kick your far leg back, and drive up to standing posture. Immediately establish grip connection to prevent the opponent from shooting on your legs during the stand-up.
 

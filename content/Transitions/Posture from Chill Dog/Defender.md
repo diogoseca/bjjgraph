@@ -154,7 +154,7 @@ description: "Defend against posture recovery attempts from Chill Dog bottom. Ma
 
 As the Chill Dog bottom player defending against the posture attempt, your primary concern is recognizing that the top player has shifted from direct back attacks to a positional transition aimed at forcing you out of your defensive shell. This recognition changes your defensive priorities — rather than defending hooks and seatbelt grips, you must now resist being lifted and opened up from your compact frame. The silver lining is that this transition often creates opportunities for back takes if the top player overcommits to the lift, and at worst you recover to closed guard bottom, an offensive position with numerous sweep and submission options. Your defensive strategy should be layered: first resist the posture attempt to maintain Chill Dog, then exploit any lifting momentum for a back take, and finally ensure you establish offensive grips immediately if forced into guard recovery.
 
-**Opponent's Starting Position**: [[Chill Dog]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Chill Dog]] (Top)
 
 </section>
 
@@ -190,28 +190,28 @@ As the Chill Dog bottom player defending against the posture attempt, your prima
 ### 1. Squeeze elbows tighter to knees and compress into tighter ball to deny underhook access
 
 - **When to use**: Immediately upon recognizing underhook attempts — before the top player establishes deep grip control
-- **Targets**: [[Chill Dog]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: Top player's posture attempt fails and they must choose between continued turtle attacks or another posture attempt
 - **Risk**: Extended static defense drains energy and eventually the frame will loosen enough for the top player to establish underhooks
 
 ### 2. Use the lifting momentum to barrel roll underneath the top player and take their back
 
 - **When to use**: When the top player commits to the upward lift with both arms engaged and their base is compromised — the moment you feel your weight leaving the mat
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You reverse the position entirely, ending up with back control on the top player
 - **Risk**: If the roll is poorly timed, you end up flattened on your back with the top player in a dominant position
 
 ### 3. Thread near leg across the top player's thigh to catch half guard during the transition
 
 - **When to use**: When the lift has progressed past the point of re-turtling but before full guard recovery — use the transition phase to establish a more favorable guard position
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to half guard bottom with knee shield or underhook already established, better defensive position than open closed guard
 - **Risk**: If the half guard catch is shallow, the top player may immediately pass to side control
 
 ### 4. Accept the guard recovery and immediately establish dominant grips to break posture
 
 - **When to use**: When the lift has succeeded and re-turtling is no longer possible — focus shifts to making the resulting guard position as offensive as possible
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover to closed guard bottom with posture broken and offensive grips established, immediately threatening sweeps and submissions
 - **Risk**: If you fail to break posture quickly, the top player establishes strong posture and begins their guard opening sequence
 
@@ -223,11 +223,11 @@ As the Chill Dog bottom player defending against the posture attempt, your prima
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the top player commits to the lift with both arms engaged, use their upward momentum to initiate a barrel roll underneath them. Tuck your near shoulder, rotate your hips toward the near side, and use the momentum to end up behind them. This requires precise timing — too early and they abort the lift, too late and you are already being flattened.
 
-### → [[Chill Dog]]
+### → [[Positions/Rubber Guard/Chill Dog]]
 
 Maintain an airtight elbow-to-knee connection and keep your weight forward on your hands. When you feel the top player attempting to thread underhooks, actively squeeze your elbows inward and compress your posture tighter. Use short hip adjustments to deny the underhook angle. The top player will eventually abandon the posture attempt and return to other turtle attacks.
 

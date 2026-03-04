@@ -21,7 +21,7 @@ Strategically, the scissor sweep occupies a critical role in the open guard atta
 
 The technique's effectiveness at competition level depends heavily on timing and grip establishment rather than raw athleticism. The critical window for execution opens when the opponent's weight shifts forward or when they reach with their free hand, momentarily compromising their base. Advanced practitioners disguise the sweep setup within their normal guard retention movements, making the attack invisible until the scissoring action is already in motion. The collar grip that initiates the sweep also serves as the foundation grip for triangle entries, collar drags, and other guard attacks, allowing seamless transitions when the sweep is defended.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique's effectiveness at competition level depends heavily on timing and
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Open Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Open Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Scissor Sweep from Open Guard occupies a foundational role in the BJJ positi
 ## Related Techniques
 
 
-- [[Open Guard]] - Starting position from which the scissor sweep is initiated
+- [[Positions/Open Guard]] - Starting position from which the scissor sweep is initiated
 
-- [[Mount]] - Primary target position achieved on successful sweep execution
+- [[Positions/Mount]] - Primary target position achieved on successful sweep execution
 
-- [[Collar Drag from Open Guard]] - Complementary attack using similar collar grip that chains when scissor sweep is defended
+- [[Transitions/Collar Drag from Open Guard]] - Complementary attack using similar collar grip that chains when scissor sweep is defended
 
-- [[Butterfly Hook Sweep]] - Alternative sweep from open guard using different mechanics against forward pressure
+- [[Transitions/Butterfly Hook Sweep]] - Alternative sweep from open guard using different mechanics against forward pressure
 
-- [[Triangle from Open Guard]] - Submission threat that chains from scissor sweep when opponent posts arm to defend
+- [[Submissions/Triangle from Open Guard]] - Submission threat that chains from scissor sweep when opponent posts arm to defend
 
-- [[Collar Sleeve Sweep]] - Related sweep technique using similar grip configuration from collar sleeve guard
+- [[Transitions/Collar Sleeve Sweep]] - Related sweep technique using similar grip configuration from collar sleeve guard
 
-- [[Half Guard]] - Recovery position commonly reached during partially countered sweep attempts
+- [[Positions/Half Guard]] - Recovery position commonly reached during partially countered sweep attempts
 
-- [[Side Control]] - Position opponent achieves when successfully countering the sweep attempt
+- [[Positions/Side Control]] - Position opponent achieves when successfully countering the sweep attempt
 
-- [[Closed Guard]] - Alternative guard position where scissor sweep mechanics also apply with locked legs
+- [[Positions/Closed Guard]] - Alternative guard position where scissor sweep mechanics also apply with locked legs
 
-- [[De La Riva Guard]] - Open guard variation for transitioning when scissor sweep setup is unavailable
+- [[Positions/De La Riva Guard]] - Open guard variation for transitioning when scissor sweep setup is unavailable
 
 
 </section>

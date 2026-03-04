@@ -231,8 +231,8 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 
 ## Opponent Defenses
 
-- **Rolling toward you during rotation phase** (Effectiveness: High) - Your Response: Widen your base with legs spread, pin their head more aggressively with your leg, and accelerate through the rotation before they can build momentum. If they succeed in rolling, follow through to mount or side control. → Leads to [[Mount]]
-- **Grabbing their own gi/body to create defensive frame** (Effectiveness: Medium) - Your Response: Break the grip immediately by pulling their arm deeper across your chest before rotating. Use your leg pressure on their head to disrupt their grip attempt. Once rotation begins, their ability to grip decreases significantly. → Leads to [[Mount]]
-- **Pulling elbow back to create bend during rotation** (Effectiveness: High) - Your Response: Keep the arm pinned extremely tight to your chest throughout the entire rotation. If they create any bend, pause the rotation and re-extend the arm fully before continuing. Never attempt to finish with a bent arm. → Leads to [[Mount]]
-- **Stacking pressure by driving forward during setup** (Effectiveness: Medium) - Your Response: Use their forward pressure to facilitate your rotation by timing the reversal as they press. Their momentum helps your rotation. Alternatively, abandon the reverse armbar and transition to triangle or omoplata. → Leads to [[Closed Guard]]
+- **Rolling toward you during rotation phase** (Effectiveness: High) - Your Response: Widen your base with legs spread, pin their head more aggressively with your leg, and accelerate through the rotation before they can build momentum. If they succeed in rolling, follow through to mount or side control. → Leads to [[Positions/Mount]]
+- **Grabbing their own gi/body to create defensive frame** (Effectiveness: Medium) - Your Response: Break the grip immediately by pulling their arm deeper across your chest before rotating. Use your leg pressure on their head to disrupt their grip attempt. Once rotation begins, their ability to grip decreases significantly. → Leads to [[Positions/Mount]]
+- **Pulling elbow back to create bend during rotation** (Effectiveness: High) - Your Response: Keep the arm pinned extremely tight to your chest throughout the entire rotation. If they create any bend, pause the rotation and re-extend the arm fully before continuing. Never attempt to finish with a bent arm. → Leads to [[Positions/Mount]]
+- **Stacking pressure by driving forward during setup** (Effectiveness: Medium) - Your Response: Use their forward pressure to facilitate your rotation by timing the reversal as they press. Their momentum helps your rotation. Alternatively, abandon the reverse armbar and transition to triangle or omoplata. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

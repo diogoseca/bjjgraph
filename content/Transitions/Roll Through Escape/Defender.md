@@ -152,7 +152,7 @@ The key to successful defense lies in understanding the mechanical prerequisites
 
 Advanced defenders develop sensitivity to the subtle hip movements and frame adjustments that precede the roll attempt. This allows them to tighten controls or transition attacks before the escape window opens, converting the bottom player's escape attempt into a submission opportunity rather than allowing it to progress into a positional scramble.
 
-**Opponent's Starting Position**: [[Twister Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Twister Control]] (Bottom)
 
 </section>
 
@@ -190,21 +190,21 @@ Advanced defenders develop sensitivity to the subtle hip movements and frame adj
 ### 1. Deepen leg control and increase rotational pressure when sensing slack creation in the trapped leg
 
 - **When to use**: Early in the escape sequence when opponent is still in the preparatory phase, wiggling hips or adjusting position to create slack
-- **Targets**: [[Twister Control]]
+- **Targets**: [[Positions/Twister Control]]
 - **If successful**: Opponent remains locked in Twister Control with deeper entanglement than before, reducing their future escape options and opening submission opportunities
 - **Risk**: If you overcommit to tightening the legs, your upper body control may momentarily weaken, allowing opponent to hand fight or establish frames
 
 ### 2. Follow the roll maintaining chest-to-back connection and re-establish Twister Control or transition to back control on the other side
 
 - **When to use**: When the roll has already been initiated and preventing it is no longer viable, typically once opponent has committed to the rotation with full momentum
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You maintain a dominant position despite the escape attempt, transitioning to back control with hooks or re-establishing Twister Control from the new angle
 - **Risk**: If you cannot match their roll speed, you lose connection entirely and they recover to open guard
 
 ### 3. Transition to guillotine or front headlock control by catching the neck during the rolling motion
 
 - **When to use**: When opponent's chin becomes exposed during the rotation, particularly at the midpoint of the roll when their neck is most vulnerable and their defensive frames are occupied with rotation
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You capture opponent's neck in guillotine control, converting their escape attempt into a submission opportunity from front headlock or guillotine position
 - **Risk**: If the guillotine grip fails to lock, you lose Twister Control entirely and opponent may complete the escape to open guard
 
@@ -216,11 +216,11 @@ Advanced defenders develop sensitivity to the subtle hip movements and frame adj
 
 ## Best-Case Outcomes for Defender
 
-### → [[Twister Control]]
+### → [[Positions/Twister Control]]
 
 Recognize the preparatory hip movements and frame building early, then immediately deepen your leg entanglement and increase rotational pressure before the roll can be initiated. Focus on eliminating all slack in the trapped leg while maintaining heavy upper body pressure to deny the framing space they need.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the roll has already been committed to and you cannot prevent it, follow the rotation maintaining chest connection and arm control. As they complete the roll, immediately insert hooks and establish seatbelt grip before they can create distance for open guard. The transition from following a roll to back control is high-percentage when you maintain upper body connection throughout.
 

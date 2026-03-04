@@ -156,7 +156,7 @@ Defending the De La Riva to X-Guard transition requires the top player to recogn
 
 The fundamental defensive strategy centers on denying the bottom player the conditions they need for the transition: perpendicular hip angle, space for hook insertion, and upper body connection. By maintaining low hips, controlling distance, and disrupting grip sequences, the top player forces the guard player to either abandon the transition attempt or execute it from a compromised position that lacks sweeping power. Proactive grip fighting and base management are far more effective than reactive responses to an already-committed transition.
 
-**Opponent's Starting Position**: [[De La Riva Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The fundamental defensive strategy centers on denying the bottom player the cond
 ### 1. Backstep and strip the DLR hook before transition initiates
 
 - **When to use**: When you recognize the early grip transition from collar/sleeve to underhook, before the bottom player has begun rotating underneath
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: You clear the DLR hook entirely and can begin guard passing sequences from a neutral standing position against a guard player who has lost their primary control structure
 - **Risk**: If timed too late, the backstep can expose your back to the guard player who is already partially inverted underneath you
 
 ### 2. Drop hips low and drive forward pressure to flatten the guard player
 
 - **When to use**: When the bottom player has begun rotating underneath but has not yet inserted the bottom X-Guard hook
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: You collapse the space needed for hook insertion and force the guard player back to standard DLR configuration with compromised hip angle, stalling their transition
 - **Risk**: Driving forward into an already-established bottom hook can give the guard player the leverage they need to complete the transition faster
 
 ### 3. Strip the underhook and control the near-side arm to break upper body connection
 
 - **When to use**: When you feel the bottom player securing an underhook on your near side during the grip transition phase
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Without the underhook anchor, the bottom player cannot prevent you from backing away during hook reconfiguration, forcing them to abandon the transition and re-establish DLR grips
 - **Risk**: Focusing on hand fighting may distract from the hook insertion happening below, allowing them to complete the leg configuration while you fight grips
 
 ### 4. Cross-face and drive shoulder pressure while extracting the hooked leg backward
 
 - **When to use**: When the bottom player has partially configured X-Guard hooks but has not yet achieved full elevation with proper hip positioning underneath you
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: You smash through the incomplete X-Guard structure, flatten their guard, and can advance to passing position or half guard top
 - **Risk**: If their hooks are deeper than you estimated, the forward pressure feeds directly into their elevation mechanics
 
@@ -227,11 +227,11 @@ The fundamental defensive strategy centers on denying the bottom player the cond
 
 ## Best-Case Outcomes for Defender
 
-### → [[De La Riva Guard]]
+### → [[Positions/De La Riva Guard]]
 
 Execute a well-timed backstep to completely clear the DLR hook during the transition window when the bottom player has released tension to begin reconfiguring. Follow immediately with a guard pass attempt before they can re-establish DLR control. The backstep must be decisive and combined with ankle grip strip to prevent re-hooking.
 
-### → [[De La Riva Guard]]
+### → [[Positions/De La Riva Guard]]
 
 Disrupt the transition by stripping the underhook and driving forward pressure to flatten the guard player's hips before they complete hook insertion. This forces them back to standard DLR configuration from a compromised position where you have already begun addressing their hooks. Immediately follow with passing pressure while their guard is disorganized.
 

@@ -180,7 +180,7 @@ description: "Learn to execute the Z-Guard to Half Guard transition as the botto
 
 As the bottom player executing the Z-Guard to Half Guard transition, your primary objective is to withdraw your knee shield while maintaining positional integrity and immediately establishing an offensive half guard position. This requires coordinating the knee shield retraction with underhook acquisition, hip angle preservation, and immediate sweep threatening to prevent the top player from capitalizing on the momentary vulnerability. The transition transforms your game from distance-management defense into close-range underhook offense, opening access to the full half guard sweeping arsenal including old school sweeps, plan B sweeps, and back takes that are unavailable when the knee shield creates separation.
 
-**From Position**: [[Z-Guard]] (Bottom)
+**From Position**: [[Positions/Z-Guard]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ As the bottom player executing the Z-Guard to Half Guard transition, your primar
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Z-Guard]] | 30% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Z-Guard]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ As the bottom player executing the Z-Guard to Half Guard transition, your primar
 
 ## Opponent Counters
 
-- **Opponent drives crossface and heavy shoulder pressure the moment the knee shield begins dropping** (Effectiveness: High) - Your Response: Prevent by securing underhook before dropping shield. If crossface connects, use far-side hand to frame against their bicep and hip escape to re-establish knee shield or dive to deep half guard using their forward pressure. → Leads to [[Flattened Half Guard]]
-- **Opponent applies whizzer control to strip the underhook before the transition completes** (Effectiveness: High) - Your Response: If whizzer is applied, immediately switch to overhook guard or use the whizzer pressure to enter deep half guard by diving underneath. Do not force the underhook against a committed whizzer as this drains energy without progress. → Leads to [[Flattened Half Guard]]
-- **Opponent backsteps or circles away from the underhook during the transition** (Effectiveness: Medium) - Your Response: Follow their hip movement with your underhook and look to take the back as they circle away. If they retreat too far to chase, re-establish knee shield and return to Z-Guard to wait for better timing. → Leads to [[Z-Guard]]
-- **Opponent sprawls hips back and posts hands wide to prevent being pulled into the underhook connection** (Effectiveness: Medium) - Your Response: Use their extended posture and distance to enter deep half guard by diving underneath, or re-insert the knee shield to return to Z-Guard. Their sprawled posture actually facilitates the deep half entry angle. → Leads to [[Z-Guard]]
+- **Opponent drives crossface and heavy shoulder pressure the moment the knee shield begins dropping** (Effectiveness: High) - Your Response: Prevent by securing underhook before dropping shield. If crossface connects, use far-side hand to frame against their bicep and hip escape to re-establish knee shield or dive to deep half guard using their forward pressure. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent applies whizzer control to strip the underhook before the transition completes** (Effectiveness: High) - Your Response: If whizzer is applied, immediately switch to overhook guard or use the whizzer pressure to enter deep half guard by diving underneath. Do not force the underhook against a committed whizzer as this drains energy without progress. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent backsteps or circles away from the underhook during the transition** (Effectiveness: Medium) - Your Response: Follow their hip movement with your underhook and look to take the back as they circle away. If they retreat too far to chase, re-establish knee shield and return to Z-Guard to wait for better timing. → Leads to [[Positions/Z-Guard]]
+- **Opponent sprawls hips back and posts hands wide to prevent being pulled into the underhook connection** (Effectiveness: Medium) - Your Response: Use their extended posture and distance to enter deep half guard by diving underneath, or re-insert the knee shield to return to Z-Guard. Their sprawled posture actually facilitates the deep half entry angle. → Leads to [[Positions/Z-Guard]]
 
 
 </section>

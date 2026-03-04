@@ -178,7 +178,7 @@ Developed and popularized through modern competition grappling, the Single Leg X
 
 The Single Leg X position reached through this entry offers multiple offensive pathways including sweeps to top position, transitions to more complex leg entanglements like Ashi Garami or X-Guard, and direct submission attacks. Understanding this entry is crucial for developing a comprehensive modern guard game and building systematic attacking sequences from the bottom position.
 
-**From Position**: [[Seated Guard]] (Bottom)
+**From Position**: [[Positions/Seated Guard]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ The Single Leg X position reached through this entry offers multiple offensive p
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 60% |
-| Failure | [[Seated Guard]] | 25% |
-| Counter | [[Seated Guard]] | 15% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 60% |
+| Failure | [[Positions/Seated Guard]] | 25% |
+| Counter | [[Positions/Seated Guard]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ The Single Leg X position reached through this entry offers multiple offensive p
 
 ## Opponent Counters
 
-- **Opponent backsteps and pulls captured leg away before you establish inside hook** (Effectiveness: High) - Your Response: Follow their backward movement by scooting forward on your hips, maintaining ankle grip while persistently pursuing the inside hook. Alternatively, switch to De La Riva or Reverse De La Riva guard if they create too much distance. → Leads to [[Seated Guard]]
-- **Opponent sprawls heavily forward, driving chest pressure down onto your outside leg frame** (Effectiveness: Medium) - Your Response: Immediately retract outside leg and transition to X-Guard or Deep Half Guard by swimming your outside leg deeper underneath their hips. Use their forward pressure as momentum to facilitate the positional change. → Leads to [[Seated Guard]]
-- **Opponent circles away from your inside hook, rotating their hips to face away** (Effectiveness: Medium) - Your Response: Follow their rotation by adjusting your angle, walking your hips in the same direction they circle. If they continue rotating, transition to their back or switch to attacking their opposite leg with technical stand-up entry. → Leads to [[Seated Guard]]
-- **Opponent posts their free leg far away creating wide base and drops weight onto your frame** (Effectiveness: Low) - Your Response: This wide base actually makes them vulnerable to immediate off-balancing because their weight is distributed. Execute your sweep earlier in the sequence, or transition to attacking the posted leg with your outside leg, creating Ashi Garami entry opportunity. → Leads to [[Seated Guard]]
+- **Opponent backsteps and pulls captured leg away before you establish inside hook** (Effectiveness: High) - Your Response: Follow their backward movement by scooting forward on your hips, maintaining ankle grip while persistently pursuing the inside hook. Alternatively, switch to De La Riva or Reverse De La Riva guard if they create too much distance. → Leads to [[Positions/Seated Guard]]
+- **Opponent sprawls heavily forward, driving chest pressure down onto your outside leg frame** (Effectiveness: Medium) - Your Response: Immediately retract outside leg and transition to X-Guard or Deep Half Guard by swimming your outside leg deeper underneath their hips. Use their forward pressure as momentum to facilitate the positional change. → Leads to [[Positions/Seated Guard]]
+- **Opponent circles away from your inside hook, rotating their hips to face away** (Effectiveness: Medium) - Your Response: Follow their rotation by adjusting your angle, walking your hips in the same direction they circle. If they continue rotating, transition to their back or switch to attacking their opposite leg with technical stand-up entry. → Leads to [[Positions/Seated Guard]]
+- **Opponent posts their free leg far away creating wide base and drops weight onto your frame** (Effectiveness: Low) - Your Response: This wide base actually makes them vulnerable to immediate off-balancing because their weight is distributed. Execute your sweep earlier in the sequence, or transition to attacking the posted leg with your outside leg, creating Ashi Garami entry opportunity. → Leads to [[Positions/Seated Guard]]
 
 
 </section>

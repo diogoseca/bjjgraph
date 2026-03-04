@@ -21,7 +21,7 @@ The transition hinges on the bottom player's ability to re-route the lapel mater
 
 From a strategic perspective, this transition is most effective when the opponent commits to defending Piranha-specific attacks and creates postural reactions that expose their lead leg. The transition chains naturally with both Piranha Guard's offensive sweeping system and Worm Guard's follow-up attacks, creating a lapel guard ecosystem where the bottom player can flow between configurations based on the top player's defensive responses. Skilled practitioners use the threat of this transition to create additional dilemmas, forcing the top player to defend both immediate Piranha attacks and the guard evolution simultaneously.
 
-**From Position**: [[Piranha Guard]] (Bottom)
+**From Position**: [[Positions/Piranha Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic perspective, this transition is most effective when the opponen
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Worm Guard]] | 55% |
-| Failure | [[Piranha Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Worm Guard]] | 55% |
+| Failure | [[Positions/Piranha Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Piranha to Worm Guard transition sits at the heart of the modern lapel guard
 ## Related Techniques
 
 
-- [[Piranha Guard]] - Source position from which this transition begins, providing the initial lapel threading configuration
+- [[Positions/Piranha Guard]] - Source position from which this transition begins, providing the initial lapel threading configuration
 
-- [[Worm Guard]] - Target position this transition aims to establish, offering superior sweeping mechanics
+- [[Positions/Worm Guard]] - Target position this transition aims to establish, offering superior sweeping mechanics
 
-- [[Open Guard]] - Fallback position if lapel control is completely lost during the transition phase
+- [[Positions/Open Guard]] - Fallback position if lapel control is completely lost during the transition phase
 
-- [[Lapel Guard]] - Parent guard category encompassing both Piranha and Worm guard systems
+- [[Positions/Lapel Guard]] - Parent guard category encompassing both Piranha and Worm guard systems
 
-- [[De La Riva Guard]] - Foundation guard providing the DLR hook used as anchor during the lapel re-routing
+- [[Positions/De La Riva Guard]] - Foundation guard providing the DLR hook used as anchor during the lapel re-routing
 
-- [[Piranha Guard Sweep]] - Alternative offensive option from Piranha Guard when transition is not available
+- [[Transitions/Piranha Guard Sweep]] - Alternative offensive option from Piranha Guard when transition is not available
 
-- [[Worm Guard Sweep]] - Primary sweep option available after successful transition to Worm Guard
+- [[Transitions/Worm Guard Sweep]] - Primary sweep option available after successful transition to Worm Guard
 
-- [[Backstep from Worm Guard]] - Opponent's primary passing counter once Worm Guard is established
+- [[Transitions/Backstep from Worm Guard]] - Opponent's primary passing counter once Worm Guard is established
 
-- [[Lapel Strip from Worm Guard]] - Opponent's grip-fighting counter targeting the established worm wrap
+- [[Transitions/Lapel Strip from Worm Guard]] - Opponent's grip-fighting counter targeting the established worm wrap
 
-- [[Collar Drag from Worm Guard]] - High-percentage follow-up attack available from the established Worm Guard position
+- [[Transitions/Collar Drag from Worm Guard]] - High-percentage follow-up attack available from the established Worm Guard position
 
 
 </section>

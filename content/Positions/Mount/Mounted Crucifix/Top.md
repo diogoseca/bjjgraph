@@ -216,29 +216,29 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 
 ## Available Attacks
 
-### [[Armbar Finish]] (16% of attempts)
+### [[Transitions/Armbar Finish]] (16% of attempts)
 
-### [[Rear Naked Choke]] (10% of attempts)
+### [[Transitions/Rear Naked Choke]] (10% of attempts)
 
-### [[Back Control to Crucifix]] (9% of attempts)
+### [[Transitions/Back Control to Crucifix]] (9% of attempts)
 
-### [[Armbar on Free Arm]] (9% of attempts)
+### [[Transitions/Armbar on Free Arm]] (9% of attempts)
 
-### [[Gift Wrap to Technical Mount]] (10% of attempts)
+### [[Transitions/Gift Wrap to Technical Mount]] (10% of attempts)
 
-### [[Neck Crank]] (5% of attempts)
+### [[Transitions/Neck Crank]] (5% of attempts)
 
-### [[Mount to Armbar]] (9% of attempts)
+### [[Transitions/Mount to Armbar]] (9% of attempts)
 
-### [[Mounted Crucifix to S Mount]] (9% of attempts)
+### [[Transitions/Mounted Crucifix to S Mount]] (9% of attempts)
 
-### [[Gift Wrap Transition]] (8% of attempts)
+### [[Transitions/Gift Wrap Transition]] (8% of attempts)
 
-### [[Back Take from Top]] (10% of attempts)
+### [[Transitions/Back Take from Top]] (10% of attempts)
 
-### [[Seat Belt Control Back]] (3% of attempts)
+### [[Positions/Back Control/Seat Belt Control Back]] (3% of attempts)
 
-### [[Mounted Crucifix Armbar]] (2% of attempts)
+### [[Submissions/Mounted Crucifix Armbar]] (2% of attempts)
 
 
 
@@ -249,28 +249,28 @@ From a teaching perspective, the mounted crucifix demonstrates critical concepts
 ## Decision Making from This Position
 
 **If opponent's neck is exposed and both arms are trapped:**
-- Execute **[[Rear Naked Choke]]** → [[game-over]] (Probability: 75%)
-- Execute **[[Neck Crank]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Transitions/Rear Naked Choke]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Transitions/Neck Crank]]** → [[game-over]] (Probability: 65%)
 
 
 **If opponent extends trapped arm attempting extraction:**
-- Execute **[[Armbar Finish]]** → [[game-over]] (Probability: 80%)
-- Execute **[[Armbar on Free Arm]]** → [[Armbar Control]] (Probability: 75%)
+- Execute **[[Transitions/Armbar Finish]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Transitions/Armbar on Free Arm]]** → [[Positions/Armbar Control]] (Probability: 75%)
 
 
 **If opponent turns away to defend neck:**
-- Execute **[[Back Control to Crucifix]]** → [[Back Control]] (Probability: 85%)
-- Execute **[[Back Take from Top]]** → [[Seat Belt Control Back]] (Probability: 80%)
+- Execute **[[Transitions/Back Control to Crucifix]]** → [[Positions/Back Control]] (Probability: 85%)
+- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control/Seat Belt Control Back]] (Probability: 80%)
 
 
 **If opponent creates bridge creating space:**
-- Execute **[[Gift Wrap to Technical Mount]]** → [[Gift Wrap]] (Probability: 70%)
-- Execute **[[Mounted Crucifix to S Mount]]** → [[High Mount]] (Probability: 65%)
+- Execute **[[Transitions/Gift Wrap to Technical Mount]]** → [[Positions/Gift Wrap]] (Probability: 70%)
+- Execute **[[Transitions/Mounted Crucifix to S Mount]]** → [[Positions/Mount/High Mount]] (Probability: 65%)
 
 
 **If one arm escapes but opponent remains controlled:**
-- Execute **[[Gift Wrap Transition]]** → [[Gift Wrap]] (Probability: 60%)
-- Execute **[[Mount to Armbar]]** → [[Armbar Control]] (Probability: 70%)
+- Execute **[[Transitions/Gift Wrap Transition]]** → [[Positions/Gift Wrap]] (Probability: 60%)
+- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 70%)
 
 
 
@@ -416,17 +416,17 @@ Chain attacks from mounted crucifix creating tactical dilemmas. Attack neck with
 
 ## Related Positions and Techniques
 
-- **[[Crucifix]]** - Parent position - traditional crucifix shares arm-trapping mechanics
-- **[[High Mount]]** - Common entry - high mount positioning facilitates crucifix transitions
-- **[[Modified Mount]]** - Related attack position - shares isolation principles and submission paths
-- **[[3-4 Mount]]** - Natural transition - can flow between positions based on opponent's defense
-- **[[Back Control]]** - Primary advancement - crucifix control enables high-percentage back takes
-- **[[Gift Wrap]]** - Alternative control - similar arm-trapping with different mechanics
-- **[[Armbar Control]]** - Submission position - crucifix creates easy armbar entries
-- **[[Seat Belt Control Back]]** - Transition target - natural progression when taking back from crucifix
-- **[[Mount]]** - Foundation position - mounted crucifix builds upon standard mount control
-- **[[North-South]]** - Alternative control - can transition to for different attack angles
-- **[[Kimura Trap]]** - Related arm control - similar principles of isolating opponent's limbs
+- **[[Positions/Crucifix]]** - Parent position - traditional crucifix shares arm-trapping mechanics
+- **[[Positions/Mount/High Mount]]** - Common entry - high mount positioning facilitates crucifix transitions
+- **[[Positions/Mount/Modified Mount]]** - Related attack position - shares isolation principles and submission paths
+- **[[Positions/Mount/3-4 Mount]]** - Natural transition - can flow between positions based on opponent's defense
+- **[[Positions/Back Control]]** - Primary advancement - crucifix control enables high-percentage back takes
+- **[[Positions/Gift Wrap]]** - Alternative control - similar arm-trapping with different mechanics
+- **[[Positions/Armbar Control]]** - Submission position - crucifix creates easy armbar entries
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Transition target - natural progression when taking back from crucifix
+- **[[Positions/Mount]]** - Foundation position - mounted crucifix builds upon standard mount control
+- **[[Positions/North-South]]** - Alternative control - can transition to for different attack angles
+- **[[Positions/Kimura Trap]]** - Related arm control - similar principles of isolating opponent's limbs
 
 
 </section>

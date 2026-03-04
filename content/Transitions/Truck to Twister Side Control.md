@@ -21,7 +21,7 @@ The mechanical key to this transition is the controlled rotation of your body fr
 
 Strategically, this transition serves as the primary positional advancement from the Truck when direct submissions are unavailable. It preserves the leg control advantage while creating a new set of offensive threats. Advanced practitioners use the threat of this transition itself as a forcing function: opponents who over-defend the twister from Truck open themselves to the lateral shift, while those who defend the lateral shift expose themselves to truck finishes.
 
-**From Position**: [[Truck]] (Top)
+**From Position**: [[Positions/Twister Control/Truck]] (Top)
 **Success Rate**: 70%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition serves as the primary positional advancement from
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Twister Side Control]] | 70% |
-| Failure | [[Truck]] | 20% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Twister Control/Twister Side Control]] | 70% |
+| Failure | [[Positions/Twister Control/Truck]] | 20% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -195,25 +195,25 @@ This transition connects the Truck system to the Twister Side Control system, se
 ## Related Techniques
 
 
-- [[Truck]] - Starting position for this transition
+- [[Positions/Twister Control/Truck]] - Starting position for this transition
 
-- [[Twister Side Control]] - Target position reached on success
+- [[Positions/Twister Control/Twister Side Control]] - Target position reached on success
 
-- [[Twister Control]] - Parent position system containing twister side control
+- [[Positions/Twister Control]] - Parent position system containing twister side control
 
-- [[Back Control]] - Alternative advancement option from Truck
+- [[Positions/Back Control]] - Alternative advancement option from Truck
 
-- [[Twister]] - Primary submission available after reaching twister side control
+- [[Submissions/Twister]] - Primary submission available after reaching twister side control
 
-- [[Calf Slicer]] - Alternative submission from truck if transition is unnecessary
+- [[Transitions/Calf Slicer]] - Alternative submission from truck if transition is unnecessary
 
-- [[Darce Choke]] - High-percentage submission available from twister side control
+- [[Transitions/Darce Choke]] - High-percentage submission available from twister side control
 
-- [[Half Guard]] - Counter outcome position if opponent escapes leg entanglement
+- [[Positions/Half Guard]] - Counter outcome position if opponent escapes leg entanglement
 
-- [[Crab Ride]] - Related back-attack position that can feed into truck then this transition
+- [[Positions/Crab Ride]] - Related back-attack position that can feed into truck then this transition
 
-- [[Lockdown]] - 10th Planet position that feeds into the truck entry system
+- [[Positions/Half Guard/Lockdown]] - 10th Planet position that feeds into the truck entry system
 
 
 </section>

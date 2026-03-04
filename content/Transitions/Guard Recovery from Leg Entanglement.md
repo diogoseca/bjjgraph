@@ -21,7 +21,7 @@ The recovery demands precise sequencing and prioritization. Whether facing insid
 
 Strategic mastery of guard recovery from leg entanglements connects directly to the broader offensive game. Practitioners who develop reliable recovery methods can attack with leg locks knowing they have defensive pathways when positions become compromised, creating a complete game where offensive entries are balanced by extraction capabilities. This bidirectional competence defines the modern leg lock practitioner.
 
-**From Position**: [[Leg Entanglement]] (Bottom)
+**From Position**: [[Positions/Leg Entanglement]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Strategic mastery of guard recovery from leg entanglements connects directly to 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Leg Entanglement]] | 40% |
-| Counter | [[Inside Ashi-Garami]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Leg Entanglement]] | 40% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 20% |
 
 
 </section>
@@ -191,27 +191,27 @@ Guard recovery from leg entanglement serves as the essential bridge between the 
 ## Related Techniques
 
 
-- [[Leg Entanglement]] - Source position from which guard recovery is initiated
+- [[Positions/Leg Entanglement]] - Source position from which guard recovery is initiated
 
-- [[Half Guard]] - Primary recovery target position after successful leg extraction
+- [[Positions/Half Guard]] - Primary recovery target position after successful leg extraction
 
-- [[Inside Ashi-Garami]] - Specific entanglement configuration requiring adapted recovery mechanics
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Specific entanglement configuration requiring adapted recovery mechanics
 
-- [[Outside Ashi-Garami]] - Alternative entanglement requiring different extraction angles
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative entanglement requiring different extraction angles
 
-- [[Ashi Garami]] - Parent entanglement family encompassing positions requiring guard recovery
+- [[Positions/Ashi Garami]] - Parent entanglement family encompassing positions requiring guard recovery
 
-- [[Open Guard]] - Alternative recovery target when half guard insertion is not possible
+- [[Positions/Open Guard]] - Alternative recovery target when half guard insertion is not possible
 
-- [[Heel Hook Defense Escape]] - Complementary defensive technique addressing submission threat before recovery
+- [[Transitions/Heel Hook Defense Escape]] - Complementary defensive technique addressing submission threat before recovery
 
-- [[Leg Extraction Escape from Entanglement]] - Related escape focusing on leg extraction as primary objective
+- [[Transitions/Leg Extraction Escape from Entanglement]] - Related escape focusing on leg extraction as primary objective
 
-- [[Inversion Escape from Leg Entanglement]] - Alternative escape method using inversion mechanics
+- [[Transitions/Inversion Escape from Leg Entanglement]] - Alternative escape method using inversion mechanics
 
-- [[Saddle]] - Dominant entanglement requiring most urgent recovery response
+- [[Positions/Ashi Garami/Saddle]] - Dominant entanglement requiring most urgent recovery response
 
-- [[50-50 Guard]] - Neutral entanglement where recovery competes with counter-attack options
+- [[Positions/Ashi Garami/50-50 Guard]] - Neutral entanglement where recovery competes with counter-attack options
 
 
 </section>

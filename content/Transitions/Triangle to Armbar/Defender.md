@@ -156,7 +156,7 @@ Defending the triangle to armbar transition requires recognizing the shift from 
 
 Successful defense depends on recognizing the transition in its earliest stages, specifically when the opponent begins to overhook your trapped arm and shift their hips. Early recognition gives you time to retract the arm, re-establish posture, or commit to a counter-movement before the opponent completes the pivot. Late recognition forces you into armbar defense from a severely compromised position where escape percentages drop dramatically. The defender must understand that the transition has distinct phases, each with different defensive windows and optimal responses.
 
-**Opponent's Starting Position**: [[Triangle Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Triangle Control]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful defense depends on recognizing the transition in its earliest stages,
 ### 1. Retract the trapped arm and re-establish posture before the pivot completes
 
 - **When to use**: Early in the transition, when you feel the overhook attempt but before the opponent has completed their hip pivot
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Return to triangle defense position with posture intact, forcing opponent to re-attempt the triangle choke or try a different transition
 - **Risk**: If the arm extraction fails, you may provide the opponent with tighter overhook control and accelerate their transition
 
 ### 2. Stack forward aggressively by driving your hips toward the opponent's head while keeping arm bent
 
 - **When to use**: When the opponent has begun pivoting but has not yet completed the perpendicular angle or secured finishing grips
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Compresses the opponent's hips and spine, eliminating the space needed for armbar extension and potentially opening guard pass opportunities
 - **Risk**: Overcommitting to the stack exposes you to omoplata if the opponent redirects your momentum and swings their far leg over your back
 
 ### 3. Turn into the opponent and drive shoulder forward to prevent perpendicular alignment
 
 - **When to use**: When the opponent has secured the overhook and is actively pivoting but has not yet fallen back for the finish
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Prevents the opponent from achieving the 90-degree angle needed for armbar leverage, potentially allowing you to pass into side control or re-establish guard position
 - **Risk**: Turning incorrectly can tighten the remaining triangle leg control and give the opponent a mounted triangle position
 
 ### 4. Clasp hands together in a defensive grip to prevent arm extension
 
 - **When to use**: When the opponent has completed the pivot and is attempting to fall back for the finish, as a last-resort delay tactic
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Buys time to work a systematic escape by preventing immediate hyperextension while you address posture and position
 - **Risk**: This is a temporary defense only; the opponent can break the grip with hip elevation and wrist control, and you remain in danger
 
@@ -228,11 +228,11 @@ Successful defense depends on recognizing the transition in its earliest stages,
 
 ## Best-Case Outcomes for Defender
 
-### → [[Triangle Control]]
+### → [[Positions/Triangle Control]]
 
 Retract the trapped arm early when you feel the overhook attempt, re-establish your defensive posture inside the triangle, and resume systematic triangle escape. Focus on preventing the arm from being isolated again by keeping elbow pinned to your ribs.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the opponent loosens their leg configuration during the pivot, explosively drive forward and stack while extracting your head from between their legs. Use the transition moment when their legs are reorganizing as the window to completely clear the triangle and establish inside closed guard.
 

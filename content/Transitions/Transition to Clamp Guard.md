@@ -21,7 +21,7 @@ The entry relies on precise shin placement and hip angle creation rather than st
 
 This transition is particularly valuable in no-gi grappling where sleeve grips are unavailable. The clamp replaces gi-dependent controls with bone-on-bone mechanics that function identically regardless of attire. The entry is most effective against opponents who lead with their hands when passing — reaching for collar ties, underhooks, or pant grips — because each reaching action exposes the arm to interception. Against disciplined passers who keep their elbows tight, the guard player must create the reaching reaction through feints, grip breaks, or positional threats that force the opponent to extend their arm.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ This transition is particularly valuable in no-gi grappling where sleeve grips a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Clamp Guard]] | 50% |
-| Failure | [[Open Guard]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Clamp Guard]] | 50% |
+| Failure | [[Positions/Open Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Transition to Clamp Guard sits within the broader open guard ecosystem as a 
 ## Related Techniques
 
 
-- [[Clamp Guard]] - Target position — the destination when this transition succeeds
+- [[Positions/Clamp Guard]] - Target position — the destination when this transition succeeds
 
-- [[Open Guard]] - Starting position — the guard from which this transition initiates
+- [[Positions/Open Guard]] - Starting position — the guard from which this transition initiates
 
-- [[Armbar from Clamp Guard]] - Primary follow-up submission from established clamp guard
+- [[Transitions/Armbar from Clamp Guard]] - Primary follow-up submission from established clamp guard
 
-- [[Arm Extraction from Clamp Guard]] - Opponent's primary counter — extracting the trapped arm
+- [[Transitions/Arm Extraction from Clamp Guard]] - Opponent's primary counter — extracting the trapped arm
 
-- [[Spider Guard]] - Related guard using shin-on-bicep in a different configuration
+- [[Positions/Spider Guard]] - Related guard using shin-on-bicep in a different configuration
 
-- [[Collar Sleeve Guard]] - Complementary guard that creates arm-extension opportunities for clamp entry
+- [[Positions/Collar Sleeve Guard]] - Complementary guard that creates arm-extension opportunities for clamp entry
 
-- [[Feet on Hips Guard]] - Guard variation where opponent reaching to strip feet creates clamp timing
+- [[Positions/Feet on Hips Guard]] - Guard variation where opponent reaching to strip feet creates clamp timing
 
-- [[Lasso Guard]] - Alternative arm entanglement from open guard with different control mechanics
+- [[Positions/Lasso Guard]] - Alternative arm entanglement from open guard with different control mechanics
 
-- [[Half Guard]] - Position reached if opponent passes during failed clamp attempt
+- [[Positions/Half Guard]] - Position reached if opponent passes during failed clamp attempt
 
-- [[Stack Pass from Clamp Guard]] - Common passing counter the opponent may attempt against established clamp
+- [[Transitions/Stack Pass from Clamp Guard]] - Common passing counter the opponent may attempt against established clamp
 
 
 </section>

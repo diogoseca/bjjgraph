@@ -184,7 +184,7 @@ Unlike the traditional guillotine where the elbow remains relatively low and pre
 
 The strategic timing for this variation is critical. The high elbow configuration is most effective when your opponent's posture is broken and their defensive frames are neutralized. Attempting the high elbow position against a postured opponent allows them to stack and potentially pass. However, when properly timed against a broken-down opponent, the finish comes rapidly, often within seconds of achieving the correct elbow angle. This makes it an ideal finishing sequence when you've established solid Hindulotine control and your opponent is committed to defending at close range.
 
-**From Position**: [[Hindulotine]] (Bottom)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -238,8 +238,8 @@ The strategic timing for this variation is critical. The high elbow configuratio
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Hindulotine]] | 27% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Hindulotine]] | 27% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ The strategic timing for this variation is critical. The high elbow configuratio
 
 ## Opponent Counters
 
-- **Opponent postures up and stacks before elbow elevation completes** (Effectiveness: High) - Your Response: Abandon the high elbow attempt, use closed guard to pull them back down, and reset to standard Hindulotine control before reattempting → Leads to [[Hindulotine]]
-- **Opponent tucks chin aggressively and fights hands to break grip** (Effectiveness: Medium) - Your Response: Walk your grip higher by making micro-adjustments, using your elevated elbow to pry under their chin rather than pulling straight back → Leads to [[Hindulotine]]
-- **Opponent drives shoulder into your neck attempting Von Flue position** (Effectiveness: Medium) - Your Response: Angle your hips sharply away from the shoulder pressure and use butterfly hooks to prevent them from settling their weight → Leads to [[Side Control]]
-- **Opponent circles away from choking arm to relieve pressure angle** (Effectiveness: Low) - Your Response: Follow their movement with your hips and transition to back take as their rotation exposes the back → Leads to [[Hindulotine]]
+- **Opponent postures up and stacks before elbow elevation completes** (Effectiveness: High) - Your Response: Abandon the high elbow attempt, use closed guard to pull them back down, and reset to standard Hindulotine control before reattempting → Leads to [[Positions/Hindulotine]]
+- **Opponent tucks chin aggressively and fights hands to break grip** (Effectiveness: Medium) - Your Response: Walk your grip higher by making micro-adjustments, using your elevated elbow to pry under their chin rather than pulling straight back → Leads to [[Positions/Hindulotine]]
+- **Opponent drives shoulder into your neck attempting Von Flue position** (Effectiveness: Medium) - Your Response: Angle your hips sharply away from the shoulder pressure and use butterfly hooks to prevent them from settling their weight → Leads to [[Positions/Side Control]]
+- **Opponent circles away from choking arm to relieve pressure angle** (Effectiveness: Low) - Your Response: Follow their movement with your hips and transition to back take as their rotation exposes the back → Leads to [[Positions/Hindulotine]]
 
 
 </section>

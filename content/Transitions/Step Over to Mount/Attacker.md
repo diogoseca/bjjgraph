@@ -184,7 +184,7 @@ This pass works because the grasshopper guard's inverted structure relies on bot
 
 Strategically, the Step Over to Mount functions as a high-reward option within the broader toolkit for dealing with inverted guards. Unlike the back step pass which creates lateral separation, or the leg drag which redirects the bottom player's legs to one side, the step over commits fully forward through the center line to achieve the most dominant positional outcome. This directness is both its strength and its vulnerability - if the bottom player reads the step over and catches the stepping leg, they can transition into leg entanglements. The technique pairs naturally with leg drag and back step passes as part of a three-option passing system against grasshopper guard, where each option covers the defensive response to the others.
 
-**From Position**: [[Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Grasshopper Guard]] (Top)
 
 </section>
 
@@ -238,10 +238,10 @@ Strategically, the Step Over to Mount functions as a high-reward option within t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Grasshopper Guard]] | 25% |
-| Failure | [[Half Guard]] | 10% |
-| Counter | [[Ashi Garami]] | 10% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Failure | [[Positions/Half Guard]] | 10% |
+| Counter | [[Positions/Ashi Garami]] | 10% |
 
 
 </section>
@@ -250,10 +250,10 @@ Strategically, the Step Over to Mount functions as a high-reward option within t
 
 ## Opponent Counters
 
-- **Bottom player catches the stepping leg mid-transition and enters inside ashi garami by threading their legs around the committed leg before it clears their hips** (Effectiveness: High) - Your Response: If caught mid-step, immediately retract the leg and back step away rather than forcing the pass. Reset to standing and re-engage with a different passing option such as leg drag or back step pass. → Leads to [[Ashi Garami]]
-- **Bottom player re-inverts and elevates hips to knock you off balance as you attempt to step over, using the remaining hook to generate upward force** (Effectiveness: Medium) - Your Response: Drive your weight forward and down through the step rather than pausing. Post your hand on the mat on the far side for base. The forward momentum through the step over counters their upward elevation if you commit fully. → Leads to [[Grasshopper Guard]]
-- **Bottom player shrimps away and re-establishes open guard or De La Riva hook as you step across, using frames on your hips to create distance** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own hips, maintaining pressure. If they successfully create distance, immediately transition to knee on belly rather than chasing mount, which gives you a dominant position while they are partially recovered. → Leads to [[Grasshopper Guard]]
-- **Bottom player grabs the ankle of the stepping leg and rolls into a kneebar or calf slicer entry by trapping the leg against their body** (Effectiveness: High) - Your Response: Keep the stepping foot tight against their hip rather than landing wide. If they grab your ankle, sprawl your hips back and strip their grip before re-attempting. Never step over with a loose, extended leg. → Leads to [[Ashi Garami]]
+- **Bottom player catches the stepping leg mid-transition and enters inside ashi garami by threading their legs around the committed leg before it clears their hips** (Effectiveness: High) - Your Response: If caught mid-step, immediately retract the leg and back step away rather than forcing the pass. Reset to standing and re-engage with a different passing option such as leg drag or back step pass. → Leads to [[Positions/Ashi Garami]]
+- **Bottom player re-inverts and elevates hips to knock you off balance as you attempt to step over, using the remaining hook to generate upward force** (Effectiveness: Medium) - Your Response: Drive your weight forward and down through the step rather than pausing. Post your hand on the mat on the far side for base. The forward momentum through the step over counters their upward elevation if you commit fully. → Leads to [[Positions/Grasshopper Guard]]
+- **Bottom player shrimps away and re-establishes open guard or De La Riva hook as you step across, using frames on your hips to create distance** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own hips, maintaining pressure. If they successfully create distance, immediately transition to knee on belly rather than chasing mount, which gives you a dominant position while they are partially recovered. → Leads to [[Positions/Grasshopper Guard]]
+- **Bottom player grabs the ankle of the stepping leg and rolls into a kneebar or calf slicer entry by trapping the leg against their body** (Effectiveness: High) - Your Response: Keep the stepping foot tight against their hip rather than landing wide. If they grab your ankle, sprawl your hips back and strip their grip before re-attempting. Never step over with a loose, extended leg. → Leads to [[Positions/Ashi Garami]]
 
 
 </section>

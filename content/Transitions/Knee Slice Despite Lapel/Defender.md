@@ -156,7 +156,7 @@ Defending the Knee Slice Despite Lapel requires the bottom player to understand 
 
 The critical defensive window occurs between the passer's partial lapel clear and their slice initiation. If you can reconfigure the lapel during this gap, the pass fails. If you cannot reconfigure, your secondary defense shifts to sitting up aggressively to threaten back takes, framing to prevent hip advancement, or inserting a knee shield to force half guard recovery. Understanding which defensive layer applies at each moment—lapel maintenance, reconfiguration, positional defense, or guard recovery—determines whether you retain your guard or concede the pass.
 
-**Opponent's Starting Position**: [[Lapel Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The critical defensive window occurs between the passer's partial lapel clear an
 ### 1. Reconfigure lapel around slicing leg during partial clear
 
 - **When to use**: Immediately when you feel the lapel tension decrease from their clearing attempt, before they initiate the knee slice
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Lapel guard is re-established with potentially stronger configuration around their now-committed leg, resetting the exchange in your favor
 - **Risk**: If you spend too long reconfiguring and they have already committed to the slice, your hands are occupied with fabric rather than framing, accelerating the pass
 
 ### 2. Sit up aggressively to pursue back take when passer commits to slice
 
 - **When to use**: When the passer drives their knee across your thigh and their weight shifts laterally, creating space behind them for you to follow
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: You achieve back control or force the passer to abandon the slice and address the back take threat, resetting the exchange from a dominant angle
 - **Risk**: Strong cross-face pressure can prevent the sit-up entirely, and a failed back take attempt leaves you with compromised posture and no frames
 
 ### 3. Insert knee shield and recover to half guard
 
 - **When to use**: When the slice is already in progress and lapel reconfiguration or sit-up is no longer viable—your last line of defense before the pass completes
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish half guard with knee shield, which is a defensible position from which you can work standard half guard retention and sweeps
 - **Risk**: Passer may use their momentum to smash through a weak knee shield and complete the pass to side control anyway
 
 ### 4. Frame on cross-face shoulder to prevent pressure establishment
 
 - **When to use**: Early in the sequence when passer is attempting to secure the cross-face grip before initiating the slice
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Without cross-face pressure, the passer cannot control your upper body during the slice, making the pass far less likely to succeed
 - **Risk**: Extended framing arms can be targeted for kimura or armbar if the passer switches to arm attacks
 
@@ -227,11 +227,11 @@ The critical defensive window occurs between the passer's partial lapel clear an
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lapel Guard]]
+### → [[Positions/Lapel Guard]]
 
 Reconfigure your lapel grip immediately when you feel the clearing attempt, threading the fabric around a new anchor point on their body. Alternatively, sit up aggressively when they commit to the slice to force them to abandon the pass and address your back take threat. The goal is resetting the exchange with your lapel guard intact or improved.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the slice is already in motion and you cannot reconfigure or sit up, insert your inside knee across their hip line to establish knee shield half guard. Turn onto your side facing them, establish an underhook on the slicing side, and work standard half guard retention. This represents damage control—you conceded the lapel guard but prevented the full pass.
 

@@ -178,7 +178,7 @@ This back take represents one of the most elegant applications of the inversion 
 
 Strategically, the Reverse X to Back Take creates a powerful dilemma for the opponent. If they stay committed to defending sweeps with a strong forward base, they become vulnerable to traditional elevation sweeps. If they attempt to disengage or backstep away from the sweep threat, they expose their back. This lose-lose scenario exemplifies positional BJJ at its highest level, where every defensive choice opens a different offensive pathway.
 
-**From Position**: [[Reverse X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
 
@@ -228,9 +228,9 @@ Strategically, the Reverse X to Back Take creates a powerful dilemma for the opp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 58% |
-| Failure | [[Reverse X-Guard]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 58% |
+| Failure | [[Positions/X-Guard/Reverse X-Guard]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -239,9 +239,9 @@ Strategically, the Reverse X to Back Take creates a powerful dilemma for the opp
 
 ## Opponent Counters
 
-- **Opponent immediately drops hips and sits back during your inversion attempt** (Effectiveness: High) - Your Response: If they sit before you complete the inversion, transition to Single Leg X-Guard or technical stand up rather than forcing the back take → Leads to [[Reverse X-Guard]]
-- **Opponent posts their near hand and turns to face you during the inversion** (Effectiveness: Medium) - Your Response: Maintain sleeve control throughout the technique to prevent posting, or transition to arm drag if they successfully post → Leads to [[Reverse X-Guard]]
-- **Opponent sprawls their hips backward and flattens you during the transition** (Effectiveness: Medium) - Your Response: Use the sprawl momentum to complete the inversion more quickly, as their forward drive can actually assist your rotation if timed correctly → Leads to [[Half Guard]]
+- **Opponent immediately drops hips and sits back during your inversion attempt** (Effectiveness: High) - Your Response: If they sit before you complete the inversion, transition to Single Leg X-Guard or technical stand up rather than forcing the back take → Leads to [[Positions/X-Guard/Reverse X-Guard]]
+- **Opponent posts their near hand and turns to face you during the inversion** (Effectiveness: Medium) - Your Response: Maintain sleeve control throughout the technique to prevent posting, or transition to arm drag if they successfully post → Leads to [[Positions/X-Guard/Reverse X-Guard]]
+- **Opponent sprawls their hips backward and flattens you during the transition** (Effectiveness: Medium) - Your Response: Use the sprawl momentum to complete the inversion more quickly, as their forward drive can actually assist your rotation if timed correctly → Leads to [[Positions/Half Guard]]
 
 
 </section>

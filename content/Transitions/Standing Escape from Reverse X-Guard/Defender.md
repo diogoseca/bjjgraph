@@ -146,7 +146,7 @@ description: "Defend against the Standing Escape from Reverse X-Guard as the bot
 
 When defending against the Standing Escape from Reverse X-Guard, the bottom player must maintain their hook connection and grip control while actively disrupting the top player's attempts to widen their base and extract their legs. The primary goal is to keep the top player locked in the guard position long enough to execute sweeps or transition to leg entanglement attacks. Recognizing the escape attempt early allows the defender to increase hook pressure, adjust grip placement, and time counter-attacks that capitalize on the top player's transitional vulnerability during the extraction sequence. Passive defense will fail—the defender must threaten sweeps and transitions constantly to prevent methodical hook removal.
 
-**Opponent's Starting Position**: [[Reverse X-Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/X-Guard/Reverse X-Guard]] (Top)
 
 </section>
 
@@ -185,28 +185,28 @@ When defending against the Standing Escape from Reverse X-Guard, the bottom play
 ### 1. Increase hip elevation and execute immediate sweep toward the top player's free leg
 
 - **When to use**: When the top player begins widening their base and shifting weight to the free leg, creating directional vulnerability
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Top player is swept off their base and lands in bottom half guard or worse, giving you top position
 - **Risk**: If the sweep fails, the top player may use the momentum change to accelerate through remaining hooks and complete escape
 
 ### 2. Curl heels deeper and adjust hip angle to re-establish slipping hooks before they are fully cleared
 
 - **When to use**: When the primary hook behind the knee begins to slip due to the top player's downward pressure on your foot
-- **Targets**: [[Reverse X-Guard]]
+- **Targets**: [[Positions/X-Guard/Reverse X-Guard]]
 - **If successful**: Full guard position is re-established with strong hook connection, forcing top player to restart escape from the beginning
 - **Risk**: The adjustment creates a brief window where hooks are partially disengaged, allowing faster extraction if timing is wrong
 
 ### 3. Transition to Single Leg X-Guard to maintain leg entanglement when Reverse X is compromised
 
 - **When to use**: When the primary hook is stripped and maintaining full Reverse X-Guard structure is no longer viable
-- **Targets**: [[Reverse X-Guard]]
+- **Targets**: [[Positions/X-Guard/Reverse X-Guard]]
 - **If successful**: Leg control is maintained through a different guard configuration, preventing complete escape and creating new sweep and submission angles
 - **Risk**: The transition creates a brief moment without full control where the top player may complete extraction before Single Leg X is established
 
 ### 4. Grab the top player's ankle with both hands to prevent final leg extraction step
 
 - **When to use**: When the top player has cleared hooks and attempts to step their entangled leg backward to complete escape
-- **Targets**: [[Reverse X-Guard]]
+- **Targets**: [[Positions/X-Guard/Reverse X-Guard]]
 - **If successful**: Top player's leg remains controlled, preventing standing escape completion and allowing you to re-establish hooks
 - **Risk**: Committing both hands to ankle grip sacrifices upper body control, potentially allowing top player to posture freely and strip your grip
 
@@ -218,11 +218,11 @@ When defending against the Standing Escape from Reverse X-Guard, the bottom play
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your sweep to the moment the top player shifts weight to their free leg during extraction. Pull strongly on your controlling grip toward their free leg while extending both hooks for maximum elevation. The single-leg base during extraction is the most vulnerable window and produces the highest-percentage sweep counter.
 
-### → [[Reverse X-Guard]]
+### → [[Positions/X-Guard/Reverse X-Guard]]
 
 Maintain constant hook pressure and grip control to prevent the top player from completing any phase of the escape sequence. Address their grip breaks immediately by re-establishing control, and increase elevation whenever they attempt to widen their base. Active maintenance forces them to abandon the escape and commit to riskier passing approaches where you retain guard advantage.
 

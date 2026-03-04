@@ -211,29 +211,29 @@ Successful execution of Double Jump Bottom requires precise timing, explosive hi
 
 ## Available Escapes
 
-### [[Deep Half Entry]] (48% of attempts)
+### [[Transitions/Deep Half Entry]] (48% of attempts)
 
-### [[Old School Sweep]] (12% of attempts)
+### [[Transitions/Old School Sweep]] (12% of attempts)
 
-### [[Waiter Sweep]] (8% of attempts)
+### [[Transitions/Waiter Sweep]] (8% of attempts)
 
-### [[100% Sweep]] (7% of attempts)
+### [[Transitions/100% Sweep]] (7% of attempts)
 
-### [[Half Guard to Back Take]] (7% of attempts)
+### [[Transitions/Half Guard to Back Take]] (7% of attempts)
 
-### [[Electric Chair Transition]] (4% of attempts)
+### [[Transitions/Electric Chair Transition]] (4% of attempts)
 
-### [[Lockdown Recovery]] (7% of attempts)
+### [[Transitions/Lockdown Recovery]] (7% of attempts)
 
-### [[X-Guard Sweep]] (2% of attempts)
+### [[Transitions/X-Guard Sweep]] (2% of attempts)
 
-### [[Single Leg X Entry]] (4% of attempts)
+### [[Transitions/Single Leg X Entry]] (4% of attempts)
 
-### [[Escape Double Jump]] (0% of attempts)
+### [[Transitions/Escape Double Jump]] (0% of attempts)
 
-### [[Reguard from Double Jump]] (0% of attempts)
+### [[Transitions/Reguard from Double Jump]] (0% of attempts)
 
-### [[Sweep from Double Jump]] (1% of attempts)
+### [[Transitions/Sweep from Double Jump]] (1% of attempts)
 
 
 
@@ -244,28 +244,28 @@ Successful execution of Double Jump Bottom requires precise timing, explosive hi
 ## Decision Making from This Position
 
 **If opponent's weight is heavily committed forward and their base is narrow:**
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 75%)
-- Execute **[[Old School Sweep]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 75%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **Else if opponent sprawls legs back and widens base to defend:**
-- Execute **[[Lockdown Recovery]]** → [[Lockdown]] (Probability: 60%)
-- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 45%)
+- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 60%)
+- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 45%)
 
 
 **Else if opponent stands up to create distance:**
-- Execute **[[X-Guard Sweep]]** → [[X-Guard]] (Probability: 55%)
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 50%)
+- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 50%)
 
 
 **Else if opponent attempts to step over your legs:**
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Half Guard to Back Take]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **Else if opponent applies heavy crossface pressure:**
-- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Waiter Sweep]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Waiter Sweep]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 
@@ -411,16 +411,16 @@ Partner starts with zero resistance, allowing perfect execution of double jump t
 
 ## Related Positions and Techniques
 
-- **[[Deep Half Guard]]** - Primary target position - double jump is the explosive entry method
-- **[[Lockdown]]** - Alternative development - can transition here when opponent defends deep half entry
-- **[[Electric Chair]]** - Direct submission threat from successful double jump entry
-- **[[Old School Sweep]]** - Primary sweeping technique executed from double jump position
-- **[[X-Guard]]** - Alternative position when opponent stands to defend
-- **[[Waiter Sweep]]** - High-percentage sweep option from double jump deep half position
-- **[[Half Guard]]** - Starting position - double jump is advanced recovery technique
-- **[[100% Sweep]]** - Advanced sweep variation from successful double jump entry
-- **[[Half Guard to Back Take]]** - Counter option when opponent attempts to step over legs
-- **[[Single Leg X-Guard]]** - Alternative guard transition when opponent stands to defend
+- **[[Positions/Half Guard/Deep Half Guard]]** - Primary target position - double jump is the explosive entry method
+- **[[Positions/Half Guard/Lockdown]]** - Alternative development - can transition here when opponent defends deep half entry
+- **[[Positions/Half Guard/Electric Chair]]** - Direct submission threat from successful double jump entry
+- **[[Transitions/Old School Sweep]]** - Primary sweeping technique executed from double jump position
+- **[[Positions/X-Guard]]** - Alternative position when opponent stands to defend
+- **[[Transitions/Waiter Sweep]]** - High-percentage sweep option from double jump deep half position
+- **[[Positions/Half Guard]]** - Starting position - double jump is advanced recovery technique
+- **[[Transitions/100% Sweep]]** - Advanced sweep variation from successful double jump entry
+- **[[Transitions/Half Guard to Back Take]]** - Counter option when opponent attempts to step over legs
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Alternative guard transition when opponent stands to defend
 
 
 </section>

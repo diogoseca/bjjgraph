@@ -176,7 +176,7 @@ As the person executing Arm Extraction to Turtle, you are escaping from Aoki Loc
 
 The execution requires a specific sequence: assess safety, destabilize opponent's base, create hip angles to loosen leg control, extract the elbow first while keeping the arm tight to your body, and complete the transition to turtle as one continuous motion. Each phase builds on the previous one, and skipping steps dramatically reduces success probability while increasing injury risk. The critical insight is that this is a timing-based technique, not a strength-based one - you must wait for or create moments of loosened control rather than muscling through tight entanglement.
 
-**From Position**: [[Aoki Lock]] (Bottom)
+**From Position**: [[Positions/Aoki Lock]] (Bottom)
 
 </section>
 
@@ -228,9 +228,9 @@ The execution requires a specific sequence: assess safety, destabilize opponent'
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Aoki Lock]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Aoki Lock]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -239,10 +239,10 @@ The execution requires a specific sequence: assess safety, destabilize opponent'
 
 ## Opponent Counters
 
-- **Opponent tightens leg entanglement and increases hip pressure when extraction begins** (Effectiveness: High) - Your Response: Stop extraction attempt immediately and return to base attacks on their posted leg. Wait for next adjustment window. Forcing through tight entanglement causes shoulder injury. Chain base attacks to force them to loosen eventually. → Leads to [[Aoki Lock]]
-- **Opponent transitions to back control as you extract arm and begin turtling** (Effectiveness: Medium) - Your Response: Accept turtle with back exposure as significant improvement over Aoki Lock. Immediately address back control defense protocols by tucking chin and fighting hand control. This outcome is still favorable compared to shoulder lock submission. → Leads to [[Back Control]]
-- **Opponent switches to kimura grip as arm begins extracting from leg entanglement** (Effectiveness: Medium) - Your Response: Continue extraction motion while keeping elbow tight to body. Opponent's kimura control is weaker during transition than established Aoki Lock. Complete turtle and address kimura defense from better defensive posture where you have more escape options. → Leads to [[Aoki Lock]]
-- **Opponent follows your hip movement and re-angles their pressure to maintain entanglement** (Effectiveness: Medium) - Your Response: Continue creating new angles rather than fighting static position. Chain multiple hip escape movements together in different directions. Opponent cannot maintain optimal pressure while constantly adjusting to your movement. → Leads to [[Aoki Lock]]
+- **Opponent tightens leg entanglement and increases hip pressure when extraction begins** (Effectiveness: High) - Your Response: Stop extraction attempt immediately and return to base attacks on their posted leg. Wait for next adjustment window. Forcing through tight entanglement causes shoulder injury. Chain base attacks to force them to loosen eventually. → Leads to [[Positions/Aoki Lock]]
+- **Opponent transitions to back control as you extract arm and begin turtling** (Effectiveness: Medium) - Your Response: Accept turtle with back exposure as significant improvement over Aoki Lock. Immediately address back control defense protocols by tucking chin and fighting hand control. This outcome is still favorable compared to shoulder lock submission. → Leads to [[Positions/Back Control]]
+- **Opponent switches to kimura grip as arm begins extracting from leg entanglement** (Effectiveness: Medium) - Your Response: Continue extraction motion while keeping elbow tight to body. Opponent's kimura control is weaker during transition than established Aoki Lock. Complete turtle and address kimura defense from better defensive posture where you have more escape options. → Leads to [[Positions/Aoki Lock]]
+- **Opponent follows your hip movement and re-angles their pressure to maintain entanglement** (Effectiveness: Medium) - Your Response: Continue creating new angles rather than fighting static position. Chain multiple hip escape movements together in different directions. Opponent cannot maintain optimal pressure while constantly adjusting to your movement. → Leads to [[Positions/Aoki Lock]]
 
 
 </section>

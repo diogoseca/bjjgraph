@@ -154,7 +154,7 @@ description: "How to defend against Turtle to Truck in BJJ. Recognition cues, de
 
 Defending the Turtle to Truck transition requires early recognition and immediate action before the attacker can lock the leg triangle. Once the Truck is fully established, escape becomes exponentially more difficult and you face multiple dangerous submissions including the Twister, calf slicer, and banana split. The defender's primary strategic objective is to deny the initial leg hook insertion by keeping legs tight and hips low, or failing that, to disrupt the triangle lock before boot pressure can be established. Unlike defending traditional back takes where hand fighting and hip movement are primary tools, Truck defense demands awareness of your lower body positioning and the ability to create explosive movement before the entanglement solidifies. The most common defensive error is focusing exclusively on upper body grips while the attacker threads their leg undetected. Successful defense requires monitoring both planes simultaneously and treating any contact with your far leg as an immediate threat requiring instant response. The window for effective defense narrows rapidly once the attacker secures the far leg grip, making early recognition the single most important defensive skill in this exchange.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the Turtle to Truck transition requires early recognition and immediat
 ### 1. Explosive sit-back to heavy base - drive your hips back toward your heels and flatten your body, squeezing your knees together to deny far leg access
 
 - **When to use**: Early stage when you first feel the attacker shift to perpendicular position or reach for your far leg, before any hook is inserted
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Attacker's reaching arm gets trapped under your weight, denying the far leg grip entirely and forcing them to reset or switch to traditional back attack
 - **Risk**: If timed late, you may sit back into an already-partially-inserted hook, accelerating the Truck entry rather than preventing it
 
 ### 2. Stand up explosively by posting your hands and driving upward, pulling your far leg away from the attacker's reach
 
 - **When to use**: When you feel the attacker commit their weight low to your hips for the leg entry, creating space above for you to stand before the triangle locks
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You achieve standing position where the Truck entry becomes nearly impossible, forcing a scramble or reset to neutral
 - **Risk**: If the attacker maintains the far leg grip while you stand, they can use your upward momentum for a trip or single leg counter
 
 ### 3. Granby roll away from the hooking leg - execute an explosive shoulder roll toward the side opposite the attacker's leg insertion
 
 - **When to use**: When the attacker has partially inserted their hook but has not yet locked the triangle with their second leg
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: The roll strips the partial hook and you end up facing the attacker in open guard or half guard, completely nullifying the Truck attempt
 - **Risk**: If the attacker follows the roll with strong chest connection, they may complete the Truck entry during the rotation
 
 ### 4. Kick your far leg straight and pull it toward your chest to extract it from the developing triangle before the lock solidifies
 
 - **When to use**: When you feel the attacker's leg threading behind your thigh but before they bring the second leg over to complete the figure-four
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Extracted leg denies the triangle lock entirely, leaving the attacker in a compromised side position with no leg control
 - **Risk**: The straightening motion can be used against you if the attacker transitions to a calf slicer attempt during your extension
 
@@ -226,11 +226,11 @@ Defending the Turtle to Truck transition requires early recognition and immediat
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Deny the far leg grip by sitting back heavily onto your heels with knees squeezed together, collapsing the space the attacker needs to reach under your body. If their reaching arm is trapped, use the moment to turn into them and re-establish turtle with you as the defender in a stronger position, forcing the attacker to restart their attack sequence.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Stand up explosively when you feel the attacker drop their weight low for the leg entry, or execute a well-timed granby roll before the triangle locks. Both escapes result in either a standing scramble or guard recovery where the Truck threat is eliminated and you have successfully defended the transition.
 

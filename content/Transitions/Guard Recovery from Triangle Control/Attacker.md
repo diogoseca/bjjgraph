@@ -186,7 +186,7 @@ description: "Learn to recover guard position from triangle control as the trapp
 
 As the top player caught in triangle control, you face one of the most dangerous submission positions in BJJ. Your trapped arm, compromised posture, and the opponent's leg configuration create a progressively tightening choke that demands immediate action. Guard recovery from triangle control is fundamentally different from other guard recovery techniques because you are extracting yourself from an active submission threat rather than simply reinserting legs. The recovery process involves establishing posture to relieve choking pressure, systematically addressing the leg configuration that traps your head and arm, and working to extract your trapped arm while preventing the bottom player from converting to armbar or omoplata. Success depends on managing the urgency of the choke threat while executing patient, methodical escape mechanics rather than explosive, panicked movements that typically tighten the triangle further.
 
-**From Position**: [[Triangle Control]] (Top)
+**From Position**: [[Positions/Triangle Control]] (Top)
 
 </section>
 
@@ -239,10 +239,10 @@ As the top player caught in triangle control, you face one of the most dangerous
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 40% |
-| Failure | [[Triangle Control]] | 35% |
-| Counter | [[Armbar Control]] | 15% |
-| Counter | [[Omoplata Control]] | 10% |
+| Success | [[Positions/Closed Guard]] | 40% |
+| Failure | [[Positions/Triangle Control]] | 35% |
+| Counter | [[Positions/Armbar Control]] | 15% |
+| Counter | [[Positions/Omoplata Control]] | 10% |
 
 
 </section>
@@ -251,9 +251,9 @@ As the top player caught in triangle control, you face one of the most dangerous
 
 ## Opponent Counters
 
-- **Bottom player pulls your head down and re-tightens the triangle angle every time you attempt to establish posture, maintaining constant head control** (Effectiveness: High) - Your Response: Grab the bottom player's wrist that is controlling your head and pin it to your chest while driving your posture up. Use a two-on-one grip on their head-controlling arm if necessary to break the pull before re-establishing your extraction sequence. → Leads to [[Triangle Control]]
-- **Bottom player transitions to armbar by uncrossing their ankles and swinging their leg over your face as you attempt to extract your trapped arm** (Effectiveness: High) - Your Response: The moment you feel the ankles uncross and a leg swinging over your head, immediately stack your weight forward and turn toward the armbar side while pulling your elbow tight to your body. The stack prevents the extension needed for the armbar finish. → Leads to [[Armbar Control]]
-- **Bottom player pivots their hips and threatens omoplata by rotating the triangle angle, trapping your arm in a shoulder lock configuration** (Effectiveness: Medium) - Your Response: Posture up strongly and step your far leg over to the omoplata side, using the leg as a post to prevent the hip rotation that creates the omoplata angle. Pull your trapped arm tight to your body and drive forward to flatten the opponent's rotation. → Leads to [[Omoplata Control]]
+- **Bottom player pulls your head down and re-tightens the triangle angle every time you attempt to establish posture, maintaining constant head control** (Effectiveness: High) - Your Response: Grab the bottom player's wrist that is controlling your head and pin it to your chest while driving your posture up. Use a two-on-one grip on their head-controlling arm if necessary to break the pull before re-establishing your extraction sequence. → Leads to [[Positions/Triangle Control]]
+- **Bottom player transitions to armbar by uncrossing their ankles and swinging their leg over your face as you attempt to extract your trapped arm** (Effectiveness: High) - Your Response: The moment you feel the ankles uncross and a leg swinging over your head, immediately stack your weight forward and turn toward the armbar side while pulling your elbow tight to your body. The stack prevents the extension needed for the armbar finish. → Leads to [[Positions/Armbar Control]]
+- **Bottom player pivots their hips and threatens omoplata by rotating the triangle angle, trapping your arm in a shoulder lock configuration** (Effectiveness: Medium) - Your Response: Posture up strongly and step your far leg over to the omoplata side, using the leg as a post to prevent the hip rotation that creates the omoplata angle. Pull your trapped arm tight to your body and drive forward to flatten the opponent's rotation. → Leads to [[Positions/Omoplata Control]]
 
 
 </section>

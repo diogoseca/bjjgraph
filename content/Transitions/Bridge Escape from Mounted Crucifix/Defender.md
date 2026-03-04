@@ -146,7 +146,7 @@ description: "Defend against the bridge escape from mounted crucifix in BJJ. Lea
 
 Defending the bridge escape from mounted crucifix means maintaining one of the most dominant control positions in Brazilian Jiu-Jitsu against your opponent's most desperate escape attempt. As the top player, you must recognize bridge initiation cues — feet planting, hip loading, directional head turn — and respond with base adjustments that neutralize the explosive force before it disrupts your leg-based arm control. Your structural advantages include gravity, superior positioning, and the ability to transition between maintaining control and attacking submissions. The key is riding the bridge by lowering your center of gravity and spreading your base rather than fighting rigidly against the upward force, then using the opponent's failed attempt as an opportunity to deepen control or attack exposed limbs and neck.
 
-**Opponent's Starting Position**: [[Mounted Crucifix]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount/Mounted Crucifix]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the bridge escape from mounted crucifix means maintaining one of the m
 ### 1. Widen base and drop hips immediately when bridge initiation cues are detected
 
 - **When to use**: As soon as you feel feet planting, hip muscles engaging, or detect the head turn indicating bridge direction — before the explosion occurs
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: Bridge is neutralized without creating any meaningful space, opponent wastes significant energy on failed attempt while your control deepens
 - **Risk**: If timed too late after the bridge initiates, the explosive force may still create momentary space sufficient for partial arm extraction
 
 ### 2. Attack armbar on exposed arm during bridge attempt when extraction movement reveals the limb
 
 - **When to use**: When the opponent's bridge creates arm exposure as they attempt to rotate and slide their arm free from leg entanglement
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: Opponent must abandon escape attempt to defend the submission threat, returning their focus to survival rather than continuing escape
 - **Risk**: Overcommitting to the submission may compromise your mount base if the bridge is powerful enough to shift your weight during the armbar transition
 
 ### 3. Transition smoothly to standard mount control if arm entanglement becomes compromised beyond recovery
 
 - **When to use**: When the opponent has successfully extracted one arm and you cannot re-trap it without risking complete position loss during the struggle
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Maintain dominant mount position with full weight control, preventing guard recovery and retaining all mount-based submission options
 - **Risk**: Lose the significant crucifix control advantage, though standard mount remains a highly dominant position worth 4 points
 
 ### 4. Drive chest pressure forward and attack the neck immediately during the opponent's post-bridge recovery phase
 
 - **When to use**: Immediately after the opponent's bridge attempt collapses and they settle back to the mat, during the brief recovery window when defenses are weakest
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: Deepen overall control and create immediate submission threat during opponent's recovery phase, forcing them into pure survival mode
 - **Risk**: Forward weight shift may be exploited if the opponent chains a second bridge attempt immediately, catching you in transitional balance
 
@@ -217,11 +217,11 @@ Defending the bridge escape from mounted crucifix means maintaining one of the m
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mounted Crucifix]]
+### → [[Positions/Mount/Mounted Crucifix]]
 
 Maintain tight leg entanglement throughout the bridge by spreading base wide, lowering hips immediately, and squeezing knees together on trapped arms. Ride the opponent's hip movement rather than fighting rigidly against it, allowing your weight to naturally resettle as their bridge collapses. Use the post-bridge recovery window to deepen control or initiate submission attacks.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 If arm extraction occurs despite your defensive adjustments, immediately release the compromised leg entanglement and reset to standard mount positioning with hips heavy on the opponent's torso. Drive weight through hips to prevent guard recovery and begin standard mount submission sequences before the opponent can establish defensive frames with their newly freed arms.
 

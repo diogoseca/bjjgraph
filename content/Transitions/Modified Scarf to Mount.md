@@ -21,7 +21,7 @@ Strategic timing drives this transition's success rate. The ideal entry point oc
 
 The transition requires coordinated leg clearance, sustained crossface control, and progressive weight transfer from lateral scarf pressure to bilateral mount hip pressure. Unlike a standard side control step-over, Modified Scarf Hold's angled body positioning adds a rotational component that creates a slightly longer vulnerability window. Maintaining head control and near arm entrapment throughout the movement prevents the bottom player from turning to insert a knee shield during the critical weight transfer phase. Mastery of this transition transforms Modified Scarf Hold from a static pinning position into a launching platform for the most dominant control position in the art.
 
-**From Position**: [[Modified Scarf Hold]] (Top)
+**From Position**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The transition requires coordinated leg clearance, sustained crossface control, 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Modified Scarf Hold]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Side Control/Modified Scarf Hold]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ This transition occupies a critical node in the top-position advancement hierarc
 ## Related Techniques
 
 
-- [[Modified Scarf Hold]] - Source position - transition begins from established Modified Scarf Hold top control
+- [[Positions/Side Control/Modified Scarf Hold]] - Source position - transition begins from established Modified Scarf Hold top control
 
-- [[Mount]] - Target position - successful transition establishes full mount for maximum control and submission access
+- [[Positions/Mount]] - Target position - successful transition establishes full mount for maximum control and submission access
 
-- [[Half Guard]] - Counter outcome destination - bottom player may recover half guard during failed transition attempt
+- [[Positions/Half Guard]] - Counter outcome destination - bottom player may recover half guard during failed transition attempt
 
-- [[Side Control]] - Adjacent control position frequently used before establishing Modified Scarf Hold and as fallback
+- [[Positions/Side Control]] - Adjacent control position frequently used before establishing Modified Scarf Hold and as fallback
 
-- [[Kesa Gatame]] - Alternative scarf hold variation accessible from Modified Scarf Hold as lateral transition option
+- [[Positions/Side Control/Kesa Gatame]] - Alternative scarf hold variation accessible from Modified Scarf Hold as lateral transition option
 
-- [[North-South]] - Alternative advancement destination when opponent turns into you during transition attempt
+- [[Positions/North-South]] - Alternative advancement destination when opponent turns into you during transition attempt
 
-- [[Modified Scarf to Kesa Gatame]] - Alternative transition from same source position that changes control geometry laterally
+- [[Transitions/Modified Scarf to Kesa Gatame]] - Alternative transition from same source position that changes control geometry laterally
 
-- [[Consolidation to Mount]] - Related mount entry from standard side control sharing similar weight transfer principles
+- [[Transitions/Consolidation to Mount]] - Related mount entry from standard side control sharing similar weight transfer principles
 
-- [[KOB to Mount]] - Similar mount advancement transition from Knee on Belly with comparable step-over mechanics
+- [[Transitions/KOB to Mount]] - Similar mount advancement transition from Knee on Belly with comparable step-over mechanics
 
-- [[Elbow Escape from Mount]] - Primary escape the bottom player will attempt once mount is established after this transition
+- [[Transitions/Elbow Escape from Mount]] - Primary escape the bottom player will attempt once mount is established after this transition
 
 
 </section>

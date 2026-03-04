@@ -21,7 +21,7 @@ This transition exploits the defender's compromised hip mobility when one arm is
 
 Strategically, this transition is particularly valuable when rear naked choke attempts have been defended or when the opponent demonstrates excellent hand fighting ability. By advancing to technical mount with the Gift Wrap intact, the attacker gains access to mounted submission chains including the mounted triangle, armbar transitions, and collar attacks in gi competition. The technical mount position also eliminates the footlock danger present in standard back control, making it a safer advancement path against leg attack specialists.
 
-**From Position**: [[Gift Wrap]] (Top)
+**From Position**: [[Positions/Gift Wrap]] (Top)
 **Success Rate**: 62%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition is particularly valuable when rear naked choke at
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Technical Mount]] | 65% |
-| Failure | [[Gift Wrap]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount/Technical Mount]] | 65% |
+| Failure | [[Positions/Gift Wrap]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Gift Wrap to Technical Mount transition represents a key node in the back at
 ## Related Techniques
 
 
-- [[Gift Wrap]] - Starting position - arm trap must be established before transition
+- [[Positions/Gift Wrap]] - Starting position - arm trap must be established before transition
 
-- [[Technical Mount]] - Target position - destination with high knee and arm trap maintained
+- [[Positions/Mount/Technical Mount]] - Target position - destination with high knee and arm trap maintained
 
-- [[Back Control]] - Parent system - Gift Wrap is a back control variation
+- [[Positions/Back Control]] - Parent system - Gift Wrap is a back control variation
 
-- [[Rear Naked Choke]] - Alternative attack that creates rotation trigger for this transition
+- [[Transitions/Rear Naked Choke]] - Alternative attack that creates rotation trigger for this transition
 
-- [[Armbar from Mount]] - Follow-up submission from technical mount with trapped arm
+- [[Submissions/Armbar from Mount]] - Follow-up submission from technical mount with trapped arm
 
-- [[Mounted Triangle]] - High percentage follow-up with one arm already trapped
+- [[Positions/Mount/Mounted Triangle]] - High percentage follow-up with one arm already trapped
 
-- [[Gift Wrap Transition]] - Entry technique to establish starting position
+- [[Transitions/Gift Wrap Transition]] - Entry technique to establish starting position
 
-- [[Crucifix]] - Alternative back advancement path from Gift Wrap
+- [[Positions/Crucifix]] - Alternative back advancement path from Gift Wrap
 
-- [[Body Triangle Lock]] - Variant starting configuration requiring unlock step
+- [[Transitions/Body Triangle Lock]] - Variant starting configuration requiring unlock step
 
-- [[Half Guard]] - Counter outcome when knee clearance fails
+- [[Positions/Half Guard]] - Counter outcome when knee clearance fails
 
-- [[Mount]] - Parent position category of target technical mount
+- [[Positions/Mount]] - Parent position category of target technical mount
 
 
 </section>

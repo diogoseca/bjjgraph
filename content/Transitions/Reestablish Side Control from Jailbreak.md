@@ -21,7 +21,7 @@ The technical execution centers on three sequential priorities: first, immediate
 
 From a strategic standpoint, mastering this recovery prevents the bottom player from relying on jailbreak as a primary escape option, which channels their defense toward more predictable patterns like traditional half guard retention. The psychological impact of consistently shutting down explosive escape attempts forces the bottom player into energy-intensive repeated attempts or abandonment of their preferred escape system entirely.
 
-**From Position**: [[Jailbreak]] (Top)
+**From Position**: [[Positions/Jailbreak]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic standpoint, mastering this recovery prevents the bottom player 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Deep Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 20% |
 
 
 </section>
@@ -189,25 +189,25 @@ Reestablishing Side Control from Jailbreak occupies a crucial defensive role wit
 ## Related Techniques
 
 
-- [[Side Control]] - Target position after successful reestablishment
+- [[Positions/Side Control]] - Target position after successful reestablishment
 
-- [[Jailbreak]] - Source position where the technique initiates
+- [[Positions/Jailbreak]] - Source position where the technique initiates
 
-- [[Half Guard]] - Parent guard position in the half guard hierarchy
+- [[Positions/Half Guard]] - Parent guard position in the half guard hierarchy
 
-- [[North-South Recovery from Jailbreak]] - Alternative transition from the same starting position
+- [[Transitions/North-South Recovery from Jailbreak]] - Alternative transition from the same starting position
 
-- [[Deep Half Guard]] - Counter destination when bottom player dives underneath
+- [[Positions/Half Guard/Deep Half Guard]] - Counter destination when bottom player dives underneath
 
-- [[Side Control Consolidation]] - Follow-up consolidation position after reestablishment
+- [[Positions/Side Control/Side Control Consolidation]] - Follow-up consolidation position after reestablishment
 
-- [[Crossface from Dogfight]] - Related crossface control technique using similar mechanics
+- [[Transitions/Crossface from Dogfight]] - Related crossface control technique using similar mechanics
 
-- [[Complete Pass from Flattened Half]] - Related passing completion technique from half guard
+- [[Transitions/Complete Pass from Flattened Half]] - Related passing completion technique from half guard
 
-- [[Flattened Half Guard]] - Related position in the half guard passing hierarchy
+- [[Positions/Half Guard/Flattened Half Guard]] - Related position in the half guard passing hierarchy
 
-- [[Lockdown]] - Alternative bottom player control that may precede jailbreak attempts
+- [[Positions/Half Guard/Lockdown]] - Alternative bottom player control that may precede jailbreak attempts
 
 
 </section>

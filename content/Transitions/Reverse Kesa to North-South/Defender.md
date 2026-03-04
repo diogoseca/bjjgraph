@@ -146,7 +146,7 @@ description: "Defend and counter the Reverse Kesa to North-South transition. Rec
 
 Defending against the Reverse Kesa to North-South transition requires recognizing the rotation early and exploiting the momentary instability it creates. As the top player rotates from reverse kesa toward north-south, there is a brief window where their weight shifts and their base narrows during the arc. This transitional moment represents your best opportunity to insert frames, begin hip escapes, or recover half guard. The defender must act during the rotation itself rather than waiting until north-south is established. Once the top player settles into consolidated north-south control with full chest pressure and underhook grips, escape becomes significantly more difficult than intercepting the transition mid-movement. Understanding the specific mechanical vulnerabilities of the rotation allows the bottom player to time defensive actions precisely when the top player's control is weakest.
 
-**Opponent's Starting Position**: [[Reverse Kesa-Gatame]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Top)
 
 </section>
 
@@ -183,28 +183,28 @@ Defending against the Reverse Kesa to North-South transition requires recognizin
 ### 1. Hip escape and insert near knee during the arm control transition to recover half guard
 
 - **When to use**: When you feel the top player's far-arm control loosen during the grip exchange phase of the rotation, typically in the second half of the arc
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard with a knee shield, forcing the top player to abandon north-south and deal with a guard passing situation instead of a dominant pin
 - **Risk**: If timed too early, the top player can re-clamp your arm and continue the rotation with added control. If timed too late, your knee meets established north-south pressure
 
 ### 2. Explosive bridge toward the direction opposite the rotation to disrupt the top player's balance and stall the transition
 
 - **When to use**: During the initial phase of the rotation when the top player's weight first begins to shift and their base has not yet adjusted to the new direction
-- **Targets**: [[Reverse Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Reverse Kesa-Gatame]]
 - **If successful**: The top player is forced to abandon the transition attempt and re-consolidate reverse kesa control, resetting your escape opportunities from the original position
 - **Risk**: If the bridge is weak or mistimed, the top player can use your upward momentum to accelerate their rotation toward north-south
 
 ### 3. Frame with forearms against the top player's chest during the pressure gap at the rotation midpoint
 
 - **When to use**: When you feel the characteristic lightening of chest pressure that occurs as the top player passes through the midpoint of the rotation
-- **Targets**: [[Reverse Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Reverse Kesa-Gatame]]
 - **If successful**: Established frames prevent the top player from completing the rotation and settling into north-south, forcing them to either retreat to reverse kesa or fight against your frames
 - **Risk**: If frames are not structurally sound, the top player can collapse them by driving forward and complete the transition over your arms
 
 ### 4. Grab the top player's far leg during the rotation to anchor them and prevent the feet from completing the arc
 
 - **When to use**: When you can reach the far leg as it passes within range during the walking phase of the rotation, typically when their step brings the leg close to your hip
-- **Targets**: [[Reverse Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Reverse Kesa-Gatame]]
 - **If successful**: The top player cannot complete the foot walk required for the transition and must either strip your grip or abandon the rotation back to reverse kesa
 - **Risk**: Reaching for the leg may extend your arm into a vulnerable position for kimura or arm isolation if the top player adjusts their attack
 
@@ -216,11 +216,11 @@ Defending against the Reverse Kesa to North-South transition requires recognizin
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a strong hip escape during the rotation's second half when the top player's arm control transitions between grips. As their far-arm clamp loosens to exchange for a north-south underhook, insert your near knee between your bodies and close your half guard before they can settle. The key timing cue is feeling the armpit clamp release on your far arm.
 
-### → [[Reverse Kesa-Gatame]]
+### → [[Positions/Side Control/Reverse Kesa-Gatame]]
 
 Bridge explosively during the initial phase of the rotation when the top player's weight first shifts off your shoulder. The bridge disrupts their balance before they build rotational momentum, forcing them to post with their hands and abandon the transition. Combine the bridge with a strong frame against their chest to prevent them from driving back through into the rotation.
 

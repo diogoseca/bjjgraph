@@ -174,7 +174,7 @@ description: "How to execute Side Control to Mount in BJJ. Attacking perspective
 
 The transition to mount from side control represents one of the most fundamental and high-percentage positional advancements in Brazilian Jiu-Jitsu. This transition is the natural progression when an opponent's defensive frames are compromised or when they turn into you attempting to recover guard. The movement capitalizes on controlling the near side of the opponent's body while stepping over to establish the dominant mount position. Understanding this transition is critical for developing a systematic top game, as mount offers superior control and submission opportunities compared to side control. The technique relies on precise weight distribution, maintaining connection throughout the movement, and timing the transition when defensive frames collapse or opponent movement creates openings. This is a bread-and-butter technique that every practitioner from white belt to black belt uses regularly in training and competition. The transition can be executed with various grips and entry methods, but the fundamental mechanics remain consistent: control the near side, step the leg over, and establish mount with proper weight distribution.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The transition to mount from side control represents one of the most fundamental
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 75% |
-| Failure | [[Side Control]] | 15% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount]] | 75% |
+| Failure | [[Positions/Side Control]] | 15% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -238,11 +238,11 @@ The transition to mount from side control represents one of the most fundamental
 
 ## Opponent Counters
 
-- **Opponent turns away from you (turning to turtle) as you attempt to step over** (Effectiveness: Medium) - Your Response: Follow their turn and take the back instead of forcing mount. This is often a better outcome than mount. Alternatively, use gift wrap control to prevent the turn and force them back flat before completing mount transition. → Leads to [[Side Control]]
-- **Opponent bridges explosively just as you step your leg over, creating space** (Effectiveness: High) - Your Response: Base out wide with your stepping leg and maintain crossface pressure to ride out the bridge. Wait for them to come back down flat, then complete the mount transition. Never fight directly against a strong bridge - use timing instead. → Leads to [[Side Control]]
-- **Opponent uses far-side underhook and near-side frame to create distance and prevent step-over** (Effectiveness: High) - Your Response: Address the underhook first by swimming your arm through or switching to north-south control. Then return to side control with better arm isolation before attempting mount transition again. Do not force the transition against strong frames. → Leads to [[Side Control]]
-- **Opponent catches half guard as you bring second leg over to complete mount** (Effectiveness: Medium) - Your Response: Immediately address the half guard by establishing an underhook on their lockdown leg, crossface pressure, and work to free your trapped leg using knee slice or backstep passes. Alternatively, accept top half guard and work your passing game from there. → Leads to [[Half Guard]]
-- **Opponent shrimps their hips away explosively creating distance as you transition** (Effectiveness: Low) - Your Response: Follow their hips with your step-over movement, maintaining connection. If they create too much distance, abandon mount transition and re-establish side control or move to knee-on-belly position instead. → Leads to [[Side Control]]
+- **Opponent turns away from you (turning to turtle) as you attempt to step over** (Effectiveness: Medium) - Your Response: Follow their turn and take the back instead of forcing mount. This is often a better outcome than mount. Alternatively, use gift wrap control to prevent the turn and force them back flat before completing mount transition. → Leads to [[Positions/Side Control]]
+- **Opponent bridges explosively just as you step your leg over, creating space** (Effectiveness: High) - Your Response: Base out wide with your stepping leg and maintain crossface pressure to ride out the bridge. Wait for them to come back down flat, then complete the mount transition. Never fight directly against a strong bridge - use timing instead. → Leads to [[Positions/Side Control]]
+- **Opponent uses far-side underhook and near-side frame to create distance and prevent step-over** (Effectiveness: High) - Your Response: Address the underhook first by swimming your arm through or switching to north-south control. Then return to side control with better arm isolation before attempting mount transition again. Do not force the transition against strong frames. → Leads to [[Positions/Side Control]]
+- **Opponent catches half guard as you bring second leg over to complete mount** (Effectiveness: Medium) - Your Response: Immediately address the half guard by establishing an underhook on their lockdown leg, crossface pressure, and work to free your trapped leg using knee slice or backstep passes. Alternatively, accept top half guard and work your passing game from there. → Leads to [[Positions/Half Guard]]
+- **Opponent shrimps their hips away explosively creating distance as you transition** (Effectiveness: Low) - Your Response: Follow their hips with your step-over movement, maintaining connection. If they create too much distance, abandon mount transition and re-establish side control or move to knee-on-belly position instead. → Leads to [[Positions/Side Control]]
 
 
 </section>

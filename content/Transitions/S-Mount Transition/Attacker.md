@@ -174,7 +174,7 @@ description: "How to execute S-Mount Transition in BJJ. Attacking perspective wi
 
 The S-Mount Transition represents a critical positional advancement from Modified Mount that positions the attacker for high-percentage armbar finishes. This technique involves sliding the posted leg underneath the opponent's far shoulder while the other leg swings over their head, creating the distinctive S-shaped body configuration that gives the position its name. The transition capitalizes on the natural armbar-focused structure of Modified Mount, taking it to its logical conclusion by fully committing the hips perpendicular to the opponent's body axis. S-Mount provides superior control for arm isolation compared to Modified Mount because both legs now actively contribute to pinning the opponent rather than one leg posting for stability. The position creates tremendous pressure on the opponent's ribcage and shoulder line, making defensive movements extremely difficult while the attacker maintains dominant hip position for armbar execution. Strategic timing involves transitioning to S-Mount when the opponent's near-side arm becomes isolated or when they attempt to turn away, as both reactions facilitate the leg-over-head movement. The transition requires committing fully to the armbar position, meaning escape to Modified Mount or standard mount becomes the fallback if the opponent defends successfully. Understanding S-Mount Transition as a commitment point rather than a reversible movement is essential for proper tactical deployment.
 
-**From Position**: [[Modified Mount]] (Top)
+**From Position**: [[Positions/Mount/Modified Mount]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The S-Mount Transition represents a critical positional advancement from Modifie
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[S Mount]] | 65% |
-| Failure | [[Modified Mount]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount/S Mount]] | 65% |
+| Failure | [[Positions/Mount/Modified Mount]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -238,10 +238,10 @@ The S-Mount Transition represents a critical positional advancement from Modifie
 
 ## Opponent Counters
 
-- **Opponent bridges explosively as you begin leg swing, attempting to throw you over their head** (Effectiveness: Medium) - Your Response: Keep head low toward their hip and weight forward on hands; if bridge succeeds, roll through to maintain arm control and finish armbar from guard → Leads to [[Modified Mount]]
-- **Opponent turns toward you and attempts to recover guard by shooting hips under your transition** (Effectiveness: High) - Your Response: Abort S-Mount attempt and transition to technical mount or back control as they expose their back → Leads to [[Half Guard]]
-- **Opponent straightens trapped arm and pulls it across their body to escape isolation** (Effectiveness: Medium) - Your Response: Follow the arm by adjusting hip angle; if arm escapes, settle in S-Mount and attack opposite arm or transition to mounted triangle → Leads to [[Modified Mount]]
-- **Opponent posts on your hip with their free arm to prevent weight transfer** (Effectiveness: Low) - Your Response: Strip the posting arm using your near hand or accept the post and use it to set up kimura grip on their defending arm → Leads to [[S Mount]]
+- **Opponent bridges explosively as you begin leg swing, attempting to throw you over their head** (Effectiveness: Medium) - Your Response: Keep head low toward their hip and weight forward on hands; if bridge succeeds, roll through to maintain arm control and finish armbar from guard → Leads to [[Positions/Mount/Modified Mount]]
+- **Opponent turns toward you and attempts to recover guard by shooting hips under your transition** (Effectiveness: High) - Your Response: Abort S-Mount attempt and transition to technical mount or back control as they expose their back → Leads to [[Positions/Half Guard]]
+- **Opponent straightens trapped arm and pulls it across their body to escape isolation** (Effectiveness: Medium) - Your Response: Follow the arm by adjusting hip angle; if arm escapes, settle in S-Mount and attack opposite arm or transition to mounted triangle → Leads to [[Positions/Mount/Modified Mount]]
+- **Opponent posts on your hip with their free arm to prevent weight transfer** (Effectiveness: Low) - Your Response: Strip the posting arm using your near hand or accept the post and use it to set up kimura grip on their defending arm → Leads to [[Positions/Mount/S Mount]]
 
 
 </section>

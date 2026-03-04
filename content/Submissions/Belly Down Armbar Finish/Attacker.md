@@ -182,7 +182,7 @@ description: "Execute the belly down armbar finish with precise hip mechanics an
 
 The belly down armbar finish from the attacker's perspective represents a decisive escalation in the armbar attack chain. When the standard supine armbar position fails to produce a tap due to the opponent's defensive grip, stacking, or hitchhiker escape attempts, the transition to belly-down converts those defensive reactions into finishing catalysts. The attacker's rotational movement from supine to prone fundamentally changes the leverage dynamics, replacing upward hip thrust with downward gravitational pressure while maintaining the arm isolation through continuous knee squeeze and wrist control. This transition must be executed with deliberate control and unbroken grip maintenance, as the brief rotational window represents both the technique's greatest strength and its primary vulnerability. Mastering the timing, grip maintenance, and finishing mechanics of this position creates a submission that high-level competitors find extremely difficult to defend once fully established.
 
-**From Position**: [[Armbar Control]] (Top)
+**From Position**: [[Positions/Armbar Control]] (Top)
 
 
 </section>
@@ -236,8 +236,8 @@ The belly down armbar finish from the attacker's perspective represents a decisi
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Armbar Control]] | 30% |
-| Counter | [[Closed Guard]] | 20% |
+| Failure | [[Positions/Armbar Control]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -246,10 +246,10 @@ The belly down armbar finish from the attacker's perspective represents a decisi
 
 ## Opponent Defenses
 
-- **Opponent clasps hands together in prayer grip or interlocks fingers to prevent arm extension** (Effectiveness: High) - Your Response: Complete the belly-down rotation first to establish maximum leverage, then peel the grip using wrist rotation and figure-four leverage. If grip persists, use hip pressure to load the elbow joint even through the clasped hands, or transition to a kimura by rotating the wrist outward against their grip. → Leads to [[Armbar Control]]
-- **Opponent attempts to roll through and follow the rotation to relieve extension pressure** (Effectiveness: Medium) - Your Response: Post your far hand on the mat to prevent being rolled while tightening knee squeeze. Use your legs as a frame against their torso to block their body from following the rotation. The belly-down position provides superior base compared to supine, making this counter less effective than against standard armbars. → Leads to [[Closed Guard]]
-- **Opponent explosively retracts arm during the transitional window between supine and prone position** (Effectiveness: High) - Your Response: Immediately pinch knees harder and pull wrist sharply to your chest. If the arm is partially retracted, abort the belly-down transition and return to standard armbar control to reset the attack. Preventing this counter requires establishing maximum knee squeeze before initiating rotation. → Leads to [[Armbar Control]]
-- **Opponent bridges explosively and shrimps away to create space during the prone transition** (Effectiveness: Medium) - Your Response: Follow their hip movement by scooting your hips to maintain shoulder proximity. The belly-down position actually makes bridging less effective since your weight presses downward. Use the opponent's bridge momentum to settle your hips deeper against their elbow as they return to the mat. → Leads to [[Armbar Control]]
+- **Opponent clasps hands together in prayer grip or interlocks fingers to prevent arm extension** (Effectiveness: High) - Your Response: Complete the belly-down rotation first to establish maximum leverage, then peel the grip using wrist rotation and figure-four leverage. If grip persists, use hip pressure to load the elbow joint even through the clasped hands, or transition to a kimura by rotating the wrist outward against their grip. → Leads to [[Positions/Armbar Control]]
+- **Opponent attempts to roll through and follow the rotation to relieve extension pressure** (Effectiveness: Medium) - Your Response: Post your far hand on the mat to prevent being rolled while tightening knee squeeze. Use your legs as a frame against their torso to block their body from following the rotation. The belly-down position provides superior base compared to supine, making this counter less effective than against standard armbars. → Leads to [[Positions/Closed Guard]]
+- **Opponent explosively retracts arm during the transitional window between supine and prone position** (Effectiveness: High) - Your Response: Immediately pinch knees harder and pull wrist sharply to your chest. If the arm is partially retracted, abort the belly-down transition and return to standard armbar control to reset the attack. Preventing this counter requires establishing maximum knee squeeze before initiating rotation. → Leads to [[Positions/Armbar Control]]
+- **Opponent bridges explosively and shrimps away to create space during the prone transition** (Effectiveness: Medium) - Your Response: Follow their hip movement by scooting your hips to maintain shoulder proximity. The belly-down position actually makes bridging less effective since your weight presses downward. Use the opponent's bridge momentum to settle your hips deeper against their elbow as they return to the mat. → Leads to [[Positions/Armbar Control]]
 
 
 </section>

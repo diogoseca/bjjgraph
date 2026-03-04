@@ -21,7 +21,7 @@ Strategically, the arm drag functions as both a primary attack and a setup withi
 
 The arm drag rewards timing over athleticism. The optimal window opens when your opponent extends an arm for a grip, pushes forward, or commits weight to one side. Reading these moments and executing with precise hip rotation rather than arm strength separates functional arm drags from telegraphed attempts that experienced grapplers easily counter.
 
-**From Position**: [[Clinch]] (Bottom)
+**From Position**: [[Positions/Clinch]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The arm drag rewards timing over athleticism. The optimal window opens when your
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Rear Clinch]] | 55% |
-| Failure | [[Clinch]] | 30% |
-| Counter | [[Front Headlock]] | 15% |
+| Success | [[Positions/Standing Rear Clinch]] | 55% |
+| Failure | [[Positions/Clinch]] | 30% |
+| Counter | [[Positions/Front Headlock]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The arm drag from clinch occupies a critical junction in the standing grappling 
 ## Related Techniques
 
 
-- [[Clinch]] - Source position where this transition initiates from standing grip fighting
+- [[Positions/Clinch]] - Source position where this transition initiates from standing grip fighting
 
-- [[Standing Rear Clinch]] - Primary success target establishing dominant standing rear control
+- [[Positions/Standing Rear Clinch]] - Primary success target establishing dominant standing rear control
 
-- [[Back Control]] - Natural continuation after converting rear clinch to ground control
+- [[Positions/Back Control]] - Natural continuation after converting rear clinch to ground control
 
-- [[Arm Drag to Back]] - Related arm drag technique applicable from various clinch configurations
+- [[Transitions/Arm Drag to Back]] - Related arm drag technique applicable from various clinch configurations
 
-- [[Front Headlock]] - Counter position the opponent may achieve if the drag is defended with a snap down
+- [[Positions/Front Headlock]] - Counter position the opponent may achieve if the drag is defended with a snap down
 
-- [[Arm Drag from Standing]] - Similar arm drag technique executed from open standing range without clinch engagement
+- [[Transitions/Arm Drag from Standing]] - Similar arm drag technique executed from open standing range without clinch engagement
 
-- [[Duck Under]] - Complementary back take from clinch that chains with arm drag feints
+- [[Transitions/Duck Under]] - Complementary back take from clinch that chains with arm drag feints
 
-- [[Single Leg Takedown]] - Chain attack option when arm drag partially succeeds and opponent is off-balance
+- [[Transitions/Single Leg Takedown]] - Chain attack option when arm drag partially succeeds and opponent is off-balance
 
-- [[Body Lock Takedown from Clinch]] - Alternative clinch-to-takedown pathway that threatens different angles
+- [[Transitions/Body Lock Takedown from Clinch]] - Alternative clinch-to-takedown pathway that threatens different angles
 
-- [[Snap Down to Front Headlock]] - Complementary clinch technique that creates dual threats with the arm drag
+- [[Transitions/Snap Down to Front Headlock]] - Complementary clinch technique that creates dual threats with the arm drag
 
 
 </section>

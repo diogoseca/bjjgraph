@@ -152,7 +152,7 @@ Defending the Rear Naked Choke from Seat Belt demands immediate recognition of t
 
 The psychological pressure of knowing the RNC can produce unconsciousness within seconds makes composure the single most important defensive attribute. Panicked reactions such as explosive bridging without addressing the choking arm or pulling randomly at the attacker's hands consistently accelerate the finish rather than prevent it. Defenders must accept the discomfort of the position and execute a systematic sequence: protect the neck first, fight the choking arm second, address hooks or body triangle third, and only then attempt full escape through rotation or hip movement.
 
-**Opponent's Starting Position**: [[Seat Belt Control Back]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
 
 
 </section>
@@ -191,21 +191,21 @@ The psychological pressure of knowing the RNC can produce unconsciousness within
 ### 1. Two-on-one grip control on the choking arm wrist, pulling it toward your hip to prevent forearm entry under the chin
 
 - **When to use**: As soon as you feel the over-shoulder hand release the seat belt connection and begin moving toward your neck
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Forces attacker to abandon the choke attempt and re-establish seat belt grip, resetting the attack sequence
 - **Risk**: Committing both hands to the choking arm leaves your body exposed to armbar transition if the attacker recognizes the opportunity
 
 ### 2. Chin tuck with collar line hand fighting, blocking forearm entry with both hands positioned at your jawline and throat
 
 - **When to use**: When the choking arm is already close to your neck and two-on-one grip on the wrist is not achievable
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Prevents the forearm from clearing the chin, forcing the attacker to work progressively and expend energy on chin clearing techniques
 - **Risk**: Prolonged chin tucking fatigues the neck muscles and the attacker can use the time to improve their grip positioning incrementally
 
 ### 3. Turn into the attacker during the grip transition window when the seat belt is broken but the choke is not yet established
 
 - **When to use**: The instant you feel the seat belt grip break and before the choking arm has cleared your chin
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Disrupts the attacker's alignment and may degrade their position from seat belt to standard back control, or further to turtle or half guard
 - **Risk**: If the choking arm is already partially under the chin, turning can accelerate the choke rather than prevent it
 
@@ -228,7 +228,7 @@ The psychological pressure of knowing the RNC can produce unconsciousness within
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Exploit the moment when the attacker releases the seat belt grip to initiate the choke by immediately turning into them before the RNC is established, forcing position regression to standard back control where the tight seat belt configuration is lost and escape probability increases
 

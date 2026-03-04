@@ -154,7 +154,7 @@ description: "Complete defensive guide against the heel hook from Backside 50-50
 
 Defending the heel hook from Backside 50-50 top requires recognizing the attack early and responding with decisive action before the bottom player can establish full finishing mechanics. As the top player, you hold significant positional advantages through chest-to-back pressure and superior visibility, but you must remain vigilant about your heel exposure, particularly during your own offensive transitions when your defensive awareness drops. The most dangerous moment is precisely when you shift focus to attack, because this is when the bottom player strikes at the opening. Your defense begins with prevention through proper heel positioning and constant awareness, escalates to immediate grip fighting if they secure initial contact, and culminates in positional advancement to punish their commitment when the opportunity presents itself.
 
-**Opponent's Starting Position**: [[Backside 50-50]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Backside 50-50]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the heel hook from Backside 50-50 top requires recognizing the attack 
 ### 1. Boot the heel by aggressively dorsiflexing your ankle and pulling toes toward your shin to hide the heel target
 
 - **When to use**: Immediately when you feel any hand contact on your heel or Achilles area, or proactively when you recognize the bottom player releasing frames
-- **Targets**: [[Backside 50-50]]
+- **Targets**: [[Positions/Ashi Garami/Backside 50-50]]
 - **If successful**: Opponent cannot establish grip on heel and must either abort the attempt returning to frames or switch to an alternative lower-percentage attack like toe hold
 - **Risk**: Toe hold becomes more accessible when heel is booted because the forefoot extends. Must be prepared to address the secondary threat.
 
 ### 2. Strip grips aggressively with both hands targeting their wrist-to-wrist connection before figure-four is locked
 
 - **When to use**: When opponent has made initial heel contact but has not yet completed the figure-four grip configuration, typically within the first one to two seconds of their attack
-- **Targets**: [[Backside 50-50]]
+- **Targets**: [[Positions/Ashi Garami/Backside 50-50]]
 - **If successful**: Heel hook attempt is neutralized at the grip stage and you maintain top position with opponent forced to return to defensive frames
 - **Risk**: Committing both hands to grip stripping temporarily reduces your own offensive pressure and may open alternative attacks if opponent adjusts
 
 ### 3. Abandon leg entanglement and advance to back control while opponent has both hands committed to heel grip instead of framing
 
 - **When to use**: When opponent has committed both hands to the heel hook leaving no defensive frames available against back control advancement
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You escape the leg entanglement entirely and secure back control with seat belt grip, gaining four points and dominant submission position
 - **Risk**: If you fail to fully clear the leg entanglement during the transition, opponent may retain the heel grip while you are in a compromised transitional position
 
 ### 4. Counter-rotate your entire body in the direction of the heel hook to neutralize rotational force on the knee while working to free the heel
 
 - **When to use**: When opponent has established a locked figure-four grip and is beginning to apply finishing force with no time for grip stripping or positional advancement
-- **Targets**: [[Backside 50-50]]
+- **Targets**: [[Positions/Ashi Garami/Backside 50-50]]
 - **If successful**: Rotational pressure on the knee is relieved and you buy time to strip grips or reposition while the breaking mechanism is neutralized
 - **Risk**: Rotation may improve opponent's body angle or create new entanglement configurations that offer different submission opportunities
 
@@ -225,11 +225,11 @@ Defending the heel hook from Backside 50-50 top requires recognizing the attack 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Capitalize on opponent's hand commitment to the heel hook by walking your hips up their body and securing seat belt grip while they have no frames available. Their complete investment in the submission creates the ideal window for positional advancement to back control. Time this advancement when you feel both their hands leave your body to grip the heel.
 
-### → [[Backside 50-50]]
+### → [[Positions/Ashi Garami/Backside 50-50]]
 
 Defend the heel hook through early recognition, proactive heel booting, and aggressive grip stripping before the figure-four is established. Re-establish dominant chest-to-back pressure immediately after neutralizing the attack to keep opponent pinned in the disadvantaged bottom position. Use the failed attack as an opportunity to increase your pressure and offensive tempo.
 

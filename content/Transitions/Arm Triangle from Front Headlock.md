@@ -21,7 +21,7 @@ Strategically, this transition exploits a common defensive reaction. When your o
 
 The transition works best when chained with other front headlock threats. If your opponent defends the guillotine by turning their head and tucking their chin, the arm triangle becomes available because their defensive rotation exposes the head-and-arm alignment. This makes it a natural second attack in the front headlock submission chain, punishing the very defenses your opponent uses against your primary threats.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The transition works best when chained with other front headlock threats. If you
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Front Headlock]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Front Headlock]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,29 +189,29 @@ The arm triangle from front headlock is a critical second-layer attack in the fr
 ## Related Techniques
 
 
-- [[Front Headlock]] - Starting position - the front headlock provides the control platform for this transition
+- [[Positions/Front Headlock]] - Starting position - the front headlock provides the control platform for this transition
 
-- [[Side Control]] - Target position - the arm triangle is typically finished from side control after the lateral walk
+- [[Positions/Side Control]] - Target position - the arm triangle is typically finished from side control after the lateral walk
 
-- [[Arm Triangle]] - Submission finish - the choke that results from this transition setup
+- [[Transitions/Arm Triangle]] - Submission finish - the choke that results from this transition setup
 
-- [[Arm Triangle Setup]] - Related transition - alternative entry to arm triangle from north-south position
+- [[Transitions/Arm Triangle Setup]] - Related transition - alternative entry to arm triangle from north-south position
 
-- [[Arm Triangle Transition]] - Related transition - arm triangle configuration change from hindulotine
+- [[Transitions/Arm Triangle Transition]] - Related transition - arm triangle configuration change from hindulotine
 
-- [[Front Headlock to Darce]] - Chain attack - alternative front headlock submission when arm triangle is defended
+- [[Transitions/Front Headlock to Darce]] - Chain attack - alternative front headlock submission when arm triangle is defended
 
-- [[Guillotine Setup]] - Primary threat - guillotine defense often creates the opening for arm triangle
+- [[Transitions/Guillotine Setup]] - Primary threat - guillotine defense often creates the opening for arm triangle
 
-- [[Darce Choke]] - Follow-up submission - available when opponent extends arm to defend arm triangle
+- [[Transitions/Darce Choke]] - Follow-up submission - available when opponent extends arm to defend arm triangle
 
-- [[Anaconda Choke]] - Alternative submission - another arm-in choke option from front headlock
+- [[Transitions/Anaconda Choke]] - Alternative submission - another arm-in choke option from front headlock
 
-- [[Arm Triangle from Top]] - Related transition - arm triangle setup from different starting position
+- [[Transitions/Arm Triangle from Top]] - Related transition - arm triangle setup from different starting position
 
-- [[Arm Triangle from Turtle]] - Related transition - arm triangle entry from turtle control
+- [[Transitions/Arm Triangle from Turtle]] - Related transition - arm triangle entry from turtle control
 
-- [[Front Headlock to Guillotine]] - System context - overall front headlock attack flow that includes this transition
+- [[Transitions/Front Headlock to Guillotine]] - System context - overall front headlock attack flow that includes this transition
 
 
 </section>

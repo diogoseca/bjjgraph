@@ -21,7 +21,7 @@ The sweep functions by using the lapel wrap as a lever to prevent the opponent f
 
 Strategically, this sweep is most effective when the opponent attempts to stand and create distance from Ringworm Guard, as their elevated center of gravity makes them more susceptible to rotational sweeps. The back take variation is particularly valuable because it bypasses the typical guard passing battle that follows a sweep to mount, immediately establishing the most dominant control position in Brazilian Jiu-Jitsu.
 
-**From Position**: [[Ringworm Guard]] (Bottom)
+**From Position**: [[Positions/Ringworm Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this sweep is most effective when the opponent attempts to stand 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Ringworm Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Ringworm Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Ringworm Sweep to Back Control sits within the larger Ringworm Guard attack 
 ## Related Techniques
 
 
-- [[Ringworm Guard]] - Starting position
+- [[Positions/Ringworm Guard]] - Starting position
 
-- [[Back Control]] - Primary target position
+- [[Positions/Back Control]] - Primary target position
 
-- [[Worm Guard]] - Alternative guard if sweep fails
+- [[Positions/Worm Guard]] - Alternative guard if sweep fails
 
-- [[Squid Guard]] - Sister position for transitions
+- [[Positions/Squid Guard]] - Sister position for transitions
 
-- [[Berimbolo Entry]] - Alternative back take approach
+- [[Transitions/Berimbolo Entry]] - Alternative back take approach
 
-- [[Lapel Elevator Sweep]] - Related lapel sweep technique
+- [[Transitions/Lapel Elevator Sweep]] - Related lapel sweep technique
 
-- [[Triangle Setup]] - Chain attack when post is defended
+- [[Transitions/Triangle Setup]] - Chain attack when post is defended
 
-- [[Omoplata]] - Counter when opponent smashes forward
+- [[Transitions/Omoplata]] - Counter when opponent smashes forward
 
-- [[De La Riva Guard]] - Recovery position if lapel is stripped
+- [[Positions/De La Riva Guard]] - Recovery position if lapel is stripped
 
-- [[Rear Naked Choke]] - Primary submission from back control
+- [[Transitions/Rear Naked Choke]] - Primary submission from back control
 
 
 </section>

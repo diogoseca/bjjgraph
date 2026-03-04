@@ -210,23 +210,23 @@ Success in this position requires prioritizing survival first, then creating fra
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (31% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (31% of attempts)
 
-### [[Bridge and Roll]] (12% of attempts)
+### [[Transitions/Bridge and Roll]] (12% of attempts)
 
-### [[Hip Escape to Guard]] (13% of attempts)
+### [[Transitions/Hip Escape to Guard]] (13% of attempts)
 
-### [[Frame and Shrimp to Guard]] (13% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (13% of attempts)
 
-### [[Technical Stand-up]] (10% of attempts)
+### [[Transitions/Technical Stand-up]] (10% of attempts)
 
-### [[Shrimp Escape]] (14% of attempts)
+### [[Transitions/Shrimp Escape]] (14% of attempts)
 
-### [[Escape Reverse Scarf Hold]] (4% of attempts)
+### [[Transitions/Escape Reverse Scarf Hold]] (4% of attempts)
 
-### [[Frame from Reverse Scarf Hold]] (2% of attempts)
+### [[Transitions/Frame from Reverse Scarf Hold]] (2% of attempts)
 
-### [[Bridge Escape from Reverse Scarf Hold]] (1% of attempts)
+### [[Transitions/Bridge Escape from Reverse Scarf Hold]] (1% of attempts)
 
 
 
@@ -237,23 +237,23 @@ Success in this position requires prioritizing survival first, then creating fra
 ## Decision Making from This Position
 
 **If opponent maintains heavy chest pressure without attempting submissions:**
-- Execute **[[Frame and Shrimp to Guard]]** → [[Half Guard]] (Probability: 70%)
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 70%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 60%)
 
 
 **If opponent isolates near-side arm for kimura or americana:**
-- Execute **[[Kimura Defense]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Bridge and Roll]]** → [[Reverse Scarf Hold]] (Probability: 40%)
+- Execute **[[Transitions/Kimura Defense]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Side Control/Reverse Scarf Hold]] (Probability: 40%)
 
 
 **If opponent attempts to advance to mount or north-south:**
-- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 65%)
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 65%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 **If opponent's base becomes compromised during transition attempts:**
-- Execute **[[Bridge and Roll]]** → [[Reverse Scarf Hold]] (Probability: 55%)
-- Execute **[[Technical Stand-up]]** → [[Clinch]] (Probability: 35%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Side Control/Reverse Scarf Hold]] (Probability: 55%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 35%)
 
 
 
@@ -387,16 +387,16 @@ Top player creates windows of opportunity (reaching for submissions, adjusting p
 
 ## Related Positions and Techniques
 
-- **[[Reverse Scarf Hold]]** - Parent position - hub page for this variant
-- **[[Reverse Kesa-Gatame]]** - Alternative name - judo terminology for same position
-- **[[Kesa Gatame]]** - Similar defensive position with traditional scarf hold orientation
-- **[[Side Control Consolidation]]** - Related defensive position with similar escape principles
-- **[[Scarf Hold Position]]** - Related position with traditional forward-facing scarf hold
-- **[[Elbow Escape to Guard]]** - Primary escape transition from bottom pins
-- **[[Bridge and Roll]]** - Reversal transition when opponent's base is compromised
-- **[[Half Guard]]** - Common recovery position after successful escape
-- **[[Closed Guard]]** - Full guard recovery position after complete escape
-- **[[Open Guard]]** - Alternative guard recovery when closed guard unavailable
+- **[[Positions/Side Control/Reverse Scarf Hold]]** - Parent position - hub page for this variant
+- **[[Positions/Side Control/Reverse Kesa-Gatame]]** - Alternative name - judo terminology for same position
+- **[[Positions/Side Control/Kesa Gatame]]** - Similar defensive position with traditional scarf hold orientation
+- **[[Positions/Side Control/Side Control Consolidation]]** - Related defensive position with similar escape principles
+- **[[Positions/Side Control/Scarf Hold Position]]** - Related position with traditional forward-facing scarf hold
+- **[[Transitions/Elbow Escape to Guard]]** - Primary escape transition from bottom pins
+- **[[Transitions/Bridge and Roll]]** - Reversal transition when opponent's base is compromised
+- **[[Positions/Half Guard]]** - Common recovery position after successful escape
+- **[[Positions/Closed Guard]]** - Full guard recovery position after complete escape
+- **[[Positions/Open Guard]]** - Alternative guard recovery when closed guard unavailable
 
 
 </section>

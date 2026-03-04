@@ -196,13 +196,13 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 ## Available Escapes
 
-### [[Defense from Standing Rear Clinch]] (30% of attempts)
+### [[Transitions/Defense from Standing Rear Clinch]] (30% of attempts)
 
-### [[Standing Switch from Rear Clinch]] (25% of attempts)
+### [[Transitions/Standing Switch from Rear Clinch]] (25% of attempts)
 
-### [[Snap Down to Front Headlock]] (25% of attempts)
+### [[Transitions/Snap Down to Front Headlock]] (25% of attempts)
 
-### [[Counter Throw from Standing Rear Clinch]] (20% of attempts)
+### [[Transitions/Counter Throw from Standing Rear Clinch]] (20% of attempts)
 
 
 
@@ -213,28 +213,28 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 ## Decision Making from This Position
 
 **If opponent sits to guard with back exposed maintaining poor defensive posture:**
-- Execute **[[Body Lock Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Body Lock Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
 
 
 **If opponent drops to hands and knees attempting turtle defensive position:**
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Mat Return to Back Mount]]** → [[Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Mat Return to Back Mount]]** → [[Positions/Back Control]] (Probability: 65%)
 
 
 **If opponent remains standing and hand fights aggressively to break grips:**
-- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 55%)
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 58%)
+- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 55%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 58%)
 
 
 **If opponent turns head away creating immediate choke opportunity:**
-- Execute **[[Rear Naked Choke Setup]]** → [[Back Control]] (Probability: 50%)
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Rear Naked Choke Setup]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent executes successful hip escape creating separation distance:**
-- Execute **[[Double Leg Finish]]** → [[Side Control]] (Probability: 48%)
-- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 52%)
+- Execute **[[Transitions/Double Leg Finish]]** → [[Positions/Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 52%)
 
 
 
@@ -368,16 +368,16 @@ Bottom person moves aggressively in all directions (forward, backward, spinning,
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Primary transition target from successful takedown or mat return
-- **[[Standing Back Control]]** - Alternative standing control position with different grip configuration and control emphasis
-- **[[Clinch]]** - Related standing position if opponent turns into you or establishes front control
-- **[[Body Lock]]** - Specific grip variation and control system used within standing rear clinch
-- **[[Seat Belt Control Back]]** - Ground-based version of similar control structure with comparable grip hierarchy
-- **[[Front Headlock]]** - Alternative standing control if opponent drops level or you execute snap down
-- **[[Side Control]]** - Common destination via bodylock pass when opponent sits to guard
-- **[[Mat Return from Rear Clinch]]** - Primary takedown transition for converting rear clinch to ground back control
-- **[[Rear Clinch to Body Lock]]** - Grip transition technique for converting seatbelt to bodylock control
-- **[[Standing Switch from Rear Clinch]]** - Primary escape reversal that must be anticipated and countered from this position
+- **[[Positions/Back Control]]** - Primary transition target from successful takedown or mat return
+- **[[Positions/Back Control/Standing Back Control]]** - Alternative standing control position with different grip configuration and control emphasis
+- **[[Positions/Clinch]]** - Related standing position if opponent turns into you or establishes front control
+- **[[Positions/Body Lock]]** - Specific grip variation and control system used within standing rear clinch
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Ground-based version of similar control structure with comparable grip hierarchy
+- **[[Positions/Front Headlock]]** - Alternative standing control if opponent drops level or you execute snap down
+- **[[Positions/Side Control]]** - Common destination via bodylock pass when opponent sits to guard
+- **[[Transitions/Mat Return from Rear Clinch]]** - Primary takedown transition for converting rear clinch to ground back control
+- **[[Transitions/Rear Clinch to Body Lock]]** - Grip transition technique for converting seatbelt to bodylock control
+- **[[Transitions/Standing Switch from Rear Clinch]]** - Primary escape reversal that must be anticipated and countered from this position
 
 
 </section>

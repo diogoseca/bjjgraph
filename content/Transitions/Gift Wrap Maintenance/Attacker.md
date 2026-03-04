@@ -180,7 +180,7 @@ description: "Learn Gift Wrap Maintenance attacking techniques in BJJ. Master ar
 
 Maintaining the Gift Wrap from top demands continuous micro-adjustments rather than static holding. The attacker must manage multiple control points simultaneously—wrist grip on the trapped arm, arm threading angle, chest-to-back connection, hook depth, and hip pressure—while reading and preempting the opponent's escape attempts. Effective maintenance creates a stable platform from which every Gift Wrap submission and positional advance becomes available, making it the foundational skill for the entire Gift Wrap attacking system. The attacker who masters maintenance converts a fleeting positional advantage into a sustained submission machine, cycling between offensive threats and control resets until the opponent's defenses collapse under accumulated pressure.
 
-**From Position**: [[Gift Wrap]] (Top)
+**From Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ Maintaining the Gift Wrap from top demands continuous micro-adjustments rather t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Gift Wrap]] | 60% |
-| Failure | [[Seat Belt Control Back]] | 25% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Gift Wrap]] | 60% |
+| Failure | [[Positions/Back Control/Seat Belt Control Back]] | 25% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ Maintaining the Gift Wrap from top demands continuous micro-adjustments rather t
 
 ## Opponent Counters
 
-- **Shoulder rotation arm recovery where opponent rotates trapped shoulder forward to extract arm along threading path** (Effectiveness: High) - Your Response: Drive controlling elbow toward opponent's hip and increase downward pressure on trapped wrist to block the rotation angle. Simultaneously tighten chest-to-back connection to prevent the torso rotation needed for extraction. → Leads to [[Seat Belt Control Back]]
-- **Explosive bridge and hip escape combination to clear hooks and create distance** (Effectiveness: Medium) - Your Response: Drive hips forward to absorb bridge energy while tightening chest connection. Follow any hip movement immediately to deny escape space. Load weight forward before the bridge completes rather than reacting after space opens. → Leads to [[Turtle]]
-- **Free arm frames against face or neck to create separation and reduce control** (Effectiveness: Medium) - Your Response: Attack the exposed free arm with kimura grip or transition to armbar threat. Their framing creates limb isolation opportunity. Alternatively, swim past the frame to secure deeper chest connection. → Leads to [[Gift Wrap]]
-- **Opponent flattens to belly and attempts to crawl forward to shed hooks** (Effectiveness: Low) - Your Response: Follow to maintain chest connection and consider transitioning to crucifix position. Belly-down escape exposes the back of the neck and creates additional arm trapping angles. Deepen hooks as they flatten rather than releasing. → Leads to [[Turtle]]
+- **Shoulder rotation arm recovery where opponent rotates trapped shoulder forward to extract arm along threading path** (Effectiveness: High) - Your Response: Drive controlling elbow toward opponent's hip and increase downward pressure on trapped wrist to block the rotation angle. Simultaneously tighten chest-to-back connection to prevent the torso rotation needed for extraction. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
+- **Explosive bridge and hip escape combination to clear hooks and create distance** (Effectiveness: Medium) - Your Response: Drive hips forward to absorb bridge energy while tightening chest connection. Follow any hip movement immediately to deny escape space. Load weight forward before the bridge completes rather than reacting after space opens. → Leads to [[Positions/Turtle]]
+- **Free arm frames against face or neck to create separation and reduce control** (Effectiveness: Medium) - Your Response: Attack the exposed free arm with kimura grip or transition to armbar threat. Their framing creates limb isolation opportunity. Alternatively, swim past the frame to secure deeper chest connection. → Leads to [[Positions/Gift Wrap]]
+- **Opponent flattens to belly and attempts to crawl forward to shed hooks** (Effectiveness: Low) - Your Response: Follow to maintain chest connection and consider transitioning to crucifix position. Belly-down escape exposes the back of the neck and creates additional arm trapping angles. Deepen hooks as they flatten rather than releasing. → Leads to [[Positions/Turtle]]
 
 
 </section>

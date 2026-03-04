@@ -26,8 +26,8 @@ The Arm Triangle from Scarf Hold chains naturally with americana and kimura atta
 **Category**: Choke
 **Type**: Head and Arm Choke
 **Target Area**: Neck (carotid arteries)
-**Starting Position**: [[Scarf Hold Position]]
-**From Position**: [[Scarf Hold Position]] (Top)
+**Starting Position**: [[Positions/Side Control/Scarf Hold Position]]
+**From Position**: [[Positions/Side Control/Scarf Hold Position]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -78,8 +78,8 @@ The Arm Triangle from Scarf Hold chains naturally with americana and kimura atta
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Scarf Hold Position]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Side Control/Scarf Hold Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -225,11 +225,11 @@ The Arm Triangle from Scarf Hold chains naturally with americana and kimura atta
 
 ## From Which Positions?
 
-- [[Scarf Hold Position]]
-- [[Kesa Gatame]]
-- [[Side Control]]
-- [[Modified Scarf Hold]]
-- [[Kuzure Kesa-Gatame]]
+- [[Positions/Side Control/Scarf Hold Position]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Side Control]]
+- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Side Control/Kuzure Kesa-Gatame]]
 
 
 </section>
@@ -238,12 +238,12 @@ The Arm Triangle from Scarf Hold chains naturally with americana and kimura atta
 
 ## Related Submissions
 
-- [[Arm Triangle]]
-- [[Americana from Kesa Gatame]]
-- [[Brabo Choke]]
-- [[Breadcutter Choke]]
-- [[Americana from Side Control]]
-- [[Armbar from Side Control]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Americana from Kesa Gatame]]
+- [[Submissions/Brabo Choke]]
+- [[Transitions/Breadcutter Choke]]
+- [[Submissions/Americana from Side Control]]
+- [[Submissions/Armbar from Side Control]]
 
 
 </section>
@@ -252,13 +252,13 @@ The Arm Triangle from Scarf Hold chains naturally with americana and kimura atta
 
 ## Additional Related Content
 
-- [[Scarf Hold Position]] - Primary source position providing the head control and arm isolation foundation for this submission
-- [[Kesa Gatame]] - Traditional judo variant of scarf hold offering the same entry mechanics with classical grip configuration
-- [[Side Control]] - Parent position family sharing lateral control principles and submission chain options
-- [[Arm Triangle]] - Base technique—the core arm triangle choke pattern applied from this specific starting position
-- [[Americana from Kesa Gatame]] - Chain submission from same position, defensive reactions to americana frequently expose arm triangle entry
-- [[Kimura Trap]] - Alternative submission control when opponent rotates arm to defend the choke, exposing shoulder
-- [[North-South]] - Transition option when arm triangle fails and attacker must re-establish dominant control
+- [[Positions/Side Control/Scarf Hold Position]] - Primary source position providing the head control and arm isolation foundation for this submission
+- [[Positions/Side Control/Kesa Gatame]] - Traditional judo variant of scarf hold offering the same entry mechanics with classical grip configuration
+- [[Positions/Side Control]] - Parent position family sharing lateral control principles and submission chain options
+- [[Transitions/Arm Triangle]] - Base technique—the core arm triangle choke pattern applied from this specific starting position
+- [[Submissions/Americana from Kesa Gatame]] - Chain submission from same position, defensive reactions to americana frequently expose arm triangle entry
+- [[Positions/Kimura Trap]] - Alternative submission control when opponent rotates arm to defend the choke, exposing shoulder
+- [[Positions/North-South]] - Transition option when arm triangle fails and attacker must re-establish dominant control
 
 
 </section>

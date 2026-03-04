@@ -21,7 +21,7 @@ The technique is particularly effective against opponents who maintain distance 
 
 From a strategic perspective, jumping guard should be deployed selectively rather than as a default guard entry. The technique works best when the attacker has a clear athletic advantage, when the opponent's stance creates a specific timing window, or when surprise is needed to shift match momentum. Elite practitioners treat it as one tool within a broader standing engagement system, always having backup guard options ready if the jump fails to achieve closed guard.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic perspective, jumping guard should be deployed selectively rathe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Standing Position]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -198,29 +198,29 @@ Jumping Guard serves as a dynamic entry point to the closed guard system within 
 ## Related Techniques
 
 
-- [[Guard Pull]] - Alternative - Traditional controlled guard entry method with lower risk profile
+- [[Transitions/Guard Pull]] - Alternative - Traditional controlled guard entry method with lower risk profile
 
-- [[Closed Guard]] - Destination - Primary position established by successful jumping guard
+- [[Positions/Closed Guard]] - Destination - Primary position established by successful jumping guard
 
-- [[Standing Position]] - Origin - Starting position before jumping guard execution
+- [[Positions/Standing Position]] - Origin - Starting position before jumping guard execution
 
-- [[Butterfly Guard]] - Alternative destination - Backup position if closed guard fails during jump
+- [[Positions/Butterfly Guard]] - Alternative destination - Backup position if closed guard fails during jump
 
-- [[De La Riva Guard]] - Alternative destination - Transition option if opponent sprawls during jump
+- [[Positions/De La Riva Guard]] - Alternative destination - Transition option if opponent sprawls during jump
 
-- [[Hip Bump Sweep]] - Follow-up - Primary offensive technique from closed guard after jumping entry
+- [[Transitions/Hip Bump Sweep]] - Follow-up - Primary offensive technique from closed guard after jumping entry
 
-- [[Collar Drag]] - Setup - Grip manipulation that can create jumping guard opportunity
+- [[Transitions/Collar Drag]] - Setup - Grip manipulation that can create jumping guard opportunity
 
-- [[Flying Armbar]] - Related - Dynamic jumping entry technique with direct submission commitment
+- [[Submissions/Flying Armbar]] - Related - Dynamic jumping entry technique with direct submission commitment
 
-- [[Triangle from Closed Guard]] - Follow-up - Immediate submission attack option from closed guard established via jump
+- [[Submissions/Triangle from Closed Guard]] - Follow-up - Immediate submission attack option from closed guard established via jump
 
-- [[Arm Drag]] - Setup - Alternative grip manipulation creating jumping guard timing
+- [[Transitions/Arm Drag]] - Setup - Alternative grip manipulation creating jumping guard timing
 
-- [[Standing Guard]] - Alternative - Different strategic approach to standing guard engagement
+- [[Positions/Standing Guard]] - Alternative - Different strategic approach to standing guard engagement
 
-- [[Seated Guard]] - Alternative - Safer guard establishment when jumping commitment seems risky
+- [[Positions/Seated Guard]] - Alternative - Safer guard establishment when jumping commitment seems risky
 
 
 </section>

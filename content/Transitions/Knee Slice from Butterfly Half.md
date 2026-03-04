@@ -21,7 +21,7 @@ The technique operates on a layered problem-solving framework: first control the
 
 Strategically, the knee slice from butterfly half guard fills a critical gap in the top player's passing arsenal because butterfly half guard has become one of the most popular guard configurations in modern competition and training. Players who cannot effectively pass this hybrid position will consistently stall against guard players who combine butterfly hook elevation with half guard leg entanglement. The pass chains naturally with smash passing when the bottom player blocks the slice laterally, backstep passing when they overshoot the hook defense, and leg weave concepts when the knee shield appears as a secondary defense. This multi-layered integration creates a passing attack system where each defensive reaction from the guard player opens a new passing pathway for the top player.
 
-**From Position**: [[Butterfly Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Butterfly Half Guard]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, the knee slice from butterfly half guard fills a critical gap in 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Half Guard]] | 20% |
-| Failure | [[Butterfly Half Guard]] | 15% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/Half Guard/Butterfly Half Guard]] | 15% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -199,29 +199,29 @@ The Knee Slice from Butterfly Half Guard occupies a critical position in the mod
 ## Related Techniques
 
 
-- [[Butterfly Half Guard]] - Starting position from which this pass is initiated
+- [[Positions/Half Guard/Butterfly Half Guard]] - Starting position from which this pass is initiated
 
-- [[Side Control]] - Primary target position on successful pass completion
+- [[Positions/Side Control]] - Primary target position on successful pass completion
 
-- [[Half Guard]] - Intermediate position if butterfly hook is neutralized but pass stalls
+- [[Positions/Half Guard]] - Intermediate position if butterfly hook is neutralized but pass stalls
 
-- [[Knee Slice Pass]] - Parent passing technique sharing core slicing mechanics
+- [[Transitions/Knee Slice Pass]] - Parent passing technique sharing core slicing mechanics
 
-- [[Smash Pass]] - Chain passing option when bottom player blocks the knee slice laterally
+- [[Transitions/Smash Pass]] - Chain passing option when bottom player blocks the knee slice laterally
 
-- [[Back Step Pass]] - Alternative pass when bottom player over-defends the knee slice direction
+- [[Transitions/Back Step Pass]] - Alternative pass when bottom player over-defends the knee slice direction
 
-- [[100% Sweep]] - Primary counter sweep the bottom player threatens during the pass attempt
+- [[Transitions/100% Sweep]] - Primary counter sweep the bottom player threatens during the pass attempt
 
-- [[Butterfly Half Guard Sweep]] - Counter sweep technique exploiting passer's commitment to the slice
+- [[Transitions/Butterfly Half Guard Sweep]] - Counter sweep technique exploiting passer's commitment to the slice
 
-- [[Deep Half Guard]] - Defensive transition the bottom player may use to escape the knee slice
+- [[Positions/Half Guard/Deep Half Guard]] - Defensive transition the bottom player may use to escape the knee slice
 
-- [[Knee Shield Half Guard]] - Defensive recovery position the bottom player inserts to block the slice
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive recovery position the bottom player inserts to block the slice
 
-- [[Headquarters Position]] - Related passing control position sharing knee slice mechanics
+- [[Positions/Headquarters Position]] - Related passing control position sharing knee slice mechanics
 
-- [[Dogfight Position]] - Scramble position that can result when both players contest during the pass
+- [[Positions/Dogfight Position]] - Scramble position that can result when both players contest during the pass
 
 
 </section>

@@ -21,7 +21,7 @@ The technique relies on a combination of hip pressure, systematic peel mechanics
 
 Strategically, the leg extraction occupies an important role in the leg knot subsystem as the safe exit option. When heel hook and toe hold attacks are being effectively defended, when energy is depleting from sustained entanglement warfare, or when the bottom player is threatening counter-entanglements, the leg extraction to Half Guard Top provides a reliable reset into a well-understood passing position. From Half Guard Top, the top player retains positional advantage with multiple passing options while eliminating the mutual submission danger inherent in leg entanglement exchanges.
 
-**From Position**: [[Leg Knot]] (Top)
+**From Position**: [[Positions/Leg Knot]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the leg extraction occupies an important role in the leg knot sub
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Leg Knot]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Leg Knot]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -195,29 +195,29 @@ Leg Extraction from Leg Knot serves as the primary conservative exit from the le
 ## Related Techniques
 
 
-- [[Leg Knot]] - Source position from which the extraction is initiated
+- [[Positions/Leg Knot]] - Source position from which the extraction is initiated
 
-- [[Half Guard]] - Primary target position after successful leg extraction
+- [[Positions/Half Guard]] - Primary target position after successful leg extraction
 
-- [[Open Guard]] - Position recovered by defender when extraction is countered with distance creation
+- [[Positions/Open Guard]] - Position recovered by defender when extraction is countered with distance creation
 
-- [[Backstep from Leg Knot]] - Higher-risk alternative disengagement that targets side control instead of half guard
+- [[Transitions/Backstep from Leg Knot]] - Higher-risk alternative disengagement that targets side control instead of half guard
 
-- [[Pressure Pass from Leg Knot]] - Complementary passing option that works through the entanglement rather than extracting
+- [[Transitions/Pressure Pass from Leg Knot]] - Complementary passing option that works through the entanglement rather than extracting
 
-- [[Leg Entanglement]] - Parent category of positions containing the leg knot configuration
+- [[Positions/Leg Entanglement]] - Parent category of positions containing the leg knot configuration
 
-- [[Ashi Garami Escape]] - Related disengagement technique from other leg entanglement configurations
+- [[Transitions/Ashi Garami Escape]] - Related disengagement technique from other leg entanglement configurations
 
-- [[Leg Extraction from Cross Ashi]] - Similar extraction technique from a different leg entanglement position
+- [[Transitions/Leg Extraction from Cross Ashi]] - Similar extraction technique from a different leg entanglement position
 
-- [[Leg Extraction from Inside Ashi]] - Related extraction technique sharing core peel mechanics
+- [[Transitions/Leg Extraction from Inside Ashi]] - Related extraction technique sharing core peel mechanics
 
-- [[Knee Slice Pass]] - High-percentage follow-up pass from the resulting Half Guard Top
+- [[Transitions/Knee Slice Pass]] - High-percentage follow-up pass from the resulting Half Guard Top
 
-- [[Saddle]] - Deeper entanglement that must be avoided during extraction timing decisions
+- [[Positions/Ashi Garami/Saddle]] - Deeper entanglement that must be avoided during extraction timing decisions
 
-- [[Inside Ashi-Garami]] - Related leg entanglement the opponent may transition to during failed extraction
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement the opponent may transition to during failed extraction
 
 
 </section>

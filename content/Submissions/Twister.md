@@ -24,8 +24,8 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 **Category**: Joint Lock
 **Type**: Spinal Lock
 **Target Area**: Cervical and thoracic spine, shoulder girdle
-**Starting Position**: [[Truck]]
-**From Position**: [[Twister Control]] (Top)
+**Starting Position**: [[Positions/Twister Control/Truck]]
+**From Position**: [[Positions/Twister Control]] (Top)
 **Success Rate**: 40%
 
 </section>
@@ -80,8 +80,8 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 52% |
-| Failure | [[Twister Control]] | 28% |
-| Counter | [[Turtle]] | 20% |
+| Failure | [[Positions/Twister Control]] | 28% |
+| Counter | [[Positions/Turtle]] | 20% |
 
 
 </section>
@@ -236,15 +236,15 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 
 ## From Which Positions?
 
-- [[Truck]]
-- [[Twister Control]]
-- [[Lockdown]]
-- [[Quarter Guard]]
-- [[Turtle]]
-- [[Crab Ride]]
-- [[Electric Chair]]
-- [[Half Guard]]
-- [[Twister Side Control]]
+- [[Positions/Twister Control/Truck]]
+- [[Positions/Twister Control]]
+- [[Positions/Half Guard/Lockdown]]
+- [[Positions/Quarter Guard]]
+- [[Positions/Turtle]]
+- [[Positions/Crab Ride]]
+- [[Positions/Half Guard/Electric Chair]]
+- [[Positions/Half Guard]]
+- [[Positions/Twister Control/Twister Side Control]]
 
 
 </section>
@@ -253,18 +253,18 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 
 ## Related Submissions
 
-- [[Calf Slicer from Truck]]
-- [[Banana Split]]
-- [[Electric Chair Submission]]
-- [[Rear Naked Choke]]
-- [[Bow and Arrow Choke]]
-- [[Choke from Crucifix]]
-- [[Guillotine Choke]]
-- [[Darce Choke]]
-- [[Kimura]]
-- [[Armbar from Back]]
-- [[Calf Slicer]]
-- [[Boston Crab]]
+- [[Submissions/Calf Slicer from Truck]]
+- [[Submissions/Banana Split]]
+- [[Submissions/Electric Chair Submission]]
+- [[Transitions/Rear Naked Choke]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Transitions/Choke from Crucifix]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Kimura]]
+- [[Submissions/Armbar from Back]]
+- [[Transitions/Calf Slicer]]
+- [[Submissions/Boston Crab]]
 
 
 </section>
@@ -273,17 +273,17 @@ Due to the complex mechanics and significant injury potential, the Twister is co
 
 ## Additional Related Content
 
-- [[Truck]] - Primary setup position - master this position before attempting Twister
-- [[Twister Control]] - Dominant control position used to set up the submission
-- [[Lockdown]] - Essential lower body control mechanism for anchoring opponent's legs
-- [[Back Control]] - Alternative back attack position and common entry point to Truck
-- [[Crab Ride]] - Alternative back attack entry that can transition to Truck
-- [[Turtle]] - Common opponent position for Truck entry and Twister setup
-- [[Electric Chair]] - Related 10th Planet position that chains directly with Twister
-- [[Half Guard]] - Starting position for lockdown entries leading to Truck system
-- [[Calf Slicer from Truck]] - Complementary submission from same control position
-- [[Banana Split]] - Alternative submission in the Truck attack system
-- [[Crucifix]] - Related back control position with arm isolation options
+- [[Positions/Twister Control/Truck]] - Primary setup position - master this position before attempting Twister
+- [[Positions/Twister Control]] - Dominant control position used to set up the submission
+- [[Positions/Half Guard/Lockdown]] - Essential lower body control mechanism for anchoring opponent's legs
+- [[Positions/Back Control]] - Alternative back attack position and common entry point to Truck
+- [[Positions/Crab Ride]] - Alternative back attack entry that can transition to Truck
+- [[Positions/Turtle]] - Common opponent position for Truck entry and Twister setup
+- [[Positions/Half Guard/Electric Chair]] - Related 10th Planet position that chains directly with Twister
+- [[Positions/Half Guard]] - Starting position for lockdown entries leading to Truck system
+- [[Submissions/Calf Slicer from Truck]] - Complementary submission from same control position
+- [[Submissions/Banana Split]] - Alternative submission in the Truck attack system
+- [[Positions/Crucifix]] - Related back control position with arm isolation options
 
 
 </section>

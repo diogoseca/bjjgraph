@@ -212,25 +212,25 @@ Advanced top players learn to create dilemmas in reverse - making the inverted p
 
 ## Available Attacks
 
-### [[Lasso Guard Pass]] (11% of attempts)
+### [[Transitions/Lasso Guard Pass]] (11% of attempts)
 
-### [[Stack Pass]] (11% of attempts)
+### [[Transitions/Stack Pass]] (11% of attempts)
 
-### [[Arm Extraction]] (22% of attempts)
+### [[Transitions/Arm Extraction]] (22% of attempts)
 
-### [[Cartwheel Pass]] (11% of attempts)
+### [[Transitions/Cartwheel Pass]] (11% of attempts)
 
-### [[Pressure Pass]] (10% of attempts)
+### [[Transitions/Pressure Pass]] (10% of attempts)
 
-### [[Knee Cut Pass]] (8% of attempts)
+### [[Transitions/Knee Cut Pass]] (8% of attempts)
 
-### [[Smash Pass]] (9% of attempts)
+### [[Transitions/Smash Pass]] (9% of attempts)
 
-### [[Back Step Pass]] (12% of attempts)
+### [[Transitions/Back Step Pass]] (12% of attempts)
 
-### [[Pass Inverted Lasso Guard]] (4% of attempts)
+### [[Transitions/Pass Inverted Lasso Guard]] (4% of attempts)
 
-### [[Stack from Inverted Lasso]] (2% of attempts)
+### [[Transitions/Stack from Inverted Lasso]] (2% of attempts)
 
 
 
@@ -241,23 +241,23 @@ Advanced top players learn to create dilemmas in reverse - making the inverted p
 ## Decision Making from This Position
 
 **If bottom player commits to berimbolo rotation with leg threading behind back:**
-- Execute **[[Cartwheel Pass]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Cartwheel Pass]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If bottom player extends lassoed leg for overhead sweep:**
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If lasso hook shows any looseness or bottom player adjusts grip:**
-- Execute **[[Arm Extraction]]** → [[Open Guard]] (Probability: 70%)
-- Execute **[[Knee Cut Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Open Guard]] (Probability: 70%)
+- Execute **[[Transitions/Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If bottom player remains inverted without initiating specific technique:**
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 
@@ -396,14 +396,14 @@ Start in established inverted lasso guard. Top player has 2 minutes to systemati
 
 ## Related Positions and Techniques
 
-- **[[Lasso Guard]]** - Parent position - understanding traditional lasso defense helps counter inverted variation
-- **[[Spider Guard]]** - Related guard - similar passing principles apply to both positions
-- **[[Berimbolo Entry]]** - Primary threat - must understand berimbolo mechanics to defend effectively
-- **[[Stack Pass]]** - Key counter technique - stack passing neutralizes inversion advantages
-- **[[Cartwheel Pass]]** - Advanced counter - following rotation can lead to back control
-- **[[Pressure Pass]]** - Alternative approach - strategic pressure makes inversion untenable
-- **[[Open Guard]]** - Transition target - successful arm extraction leads to open guard passing
-- **[[De La Riva Guard]]** - Related position - defensive concepts overlap between these inverted guards
+- **[[Positions/Lasso Guard]]** - Parent position - understanding traditional lasso defense helps counter inverted variation
+- **[[Positions/Spider Guard]]** - Related guard - similar passing principles apply to both positions
+- **[[Transitions/Berimbolo Entry]]** - Primary threat - must understand berimbolo mechanics to defend effectively
+- **[[Transitions/Stack Pass]]** - Key counter technique - stack passing neutralizes inversion advantages
+- **[[Transitions/Cartwheel Pass]]** - Advanced counter - following rotation can lead to back control
+- **[[Transitions/Pressure Pass]]** - Alternative approach - strategic pressure makes inversion untenable
+- **[[Positions/Open Guard]]** - Transition target - successful arm extraction leads to open guard passing
+- **[[Positions/De La Riva Guard]]** - Related position - defensive concepts overlap between these inverted guards
 
 
 </section>

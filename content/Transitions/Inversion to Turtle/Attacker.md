@@ -178,7 +178,7 @@ Strategically, this escape serves as a pressure release valve when heel hook dan
 
 The technique requires precise timing and commitment. Half-hearted attempts create the worst possible scenario: inverted with leg still trapped, maximizing submission vulnerability. Success depends on reading the attacker's control depth, choosing the optimal moment to initiate rotation, and maintaining heel protection throughout the entire movement arc. Advanced practitioners develop the ability to chain this escape directly into back exposure defense or guard recovery from turtle.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ The technique requires precise timing and commitment. Half-hearted attempts crea
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Ushiro Ashi-Garami]] | 30% |
-| Counter | [[Saddle]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ The technique requires precise timing and commitment. Half-hearted attempts crea
 
 ## Opponent Counters
 
-- **Opponent follows rotation and takes back during inversion** (Effectiveness: High) - Your Response: Accelerate the rotation and immediately sit through to guard before they can establish hooks. Keep elbows tight to prevent seatbelt grip. → Leads to [[Turtle]]
-- **Opponent deepens leg control and transitions to saddle mid-escape** (Effectiveness: High) - Your Response: If you feel the inside leg deepening, abandon the turtle escape and transition to deep half guard entry instead, which is more viable from that control depth. → Leads to [[Saddle]]
-- **Opponent maintains heel grip throughout rotation and finishes heel hook** (Effectiveness: Medium) - Your Response: Continue rotation even faster—the finishing mechanics become compromised as you complete the full inversion. The rotation actually helps strip heel hook grips if maintained throughout. → Leads to [[Ushiro Ashi-Garami]]
-- **Opponent sprawls and prevents full rotation, leaving you inverted** (Effectiveness: Medium) - Your Response: Use the sprawl pressure to your advantage—granby roll through their sprawl toward open guard rather than fighting to complete turtle. → Leads to [[Ushiro Ashi-Garami]]
+- **Opponent follows rotation and takes back during inversion** (Effectiveness: High) - Your Response: Accelerate the rotation and immediately sit through to guard before they can establish hooks. Keep elbows tight to prevent seatbelt grip. → Leads to [[Positions/Turtle]]
+- **Opponent deepens leg control and transitions to saddle mid-escape** (Effectiveness: High) - Your Response: If you feel the inside leg deepening, abandon the turtle escape and transition to deep half guard entry instead, which is more viable from that control depth. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent maintains heel grip throughout rotation and finishes heel hook** (Effectiveness: Medium) - Your Response: Continue rotation even faster—the finishing mechanics become compromised as you complete the full inversion. The rotation actually helps strip heel hook grips if maintained throughout. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Opponent sprawls and prevents full rotation, leaving you inverted** (Effectiveness: Medium) - Your Response: Use the sprawl pressure to your advantage—granby roll through their sprawl toward open guard rather than fighting to complete turtle. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 
 </section>

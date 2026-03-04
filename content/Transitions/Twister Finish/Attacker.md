@@ -184,7 +184,7 @@ Strategically, the Twister Finish from Russian Cowboy represents a high-commitme
 
 The submission's danger profile demands extreme caution in training. The spinal compression created by opposing the locked hips against the rotating shoulders can cause serious cervical and thoracic injury if applied too quickly. Progressive pressure over a minimum of five to seven seconds is mandatory, and both training partners must have established clear communication protocols before attempting this technique. The Twister Finish is most effective when the opponent has already exhausted their primary escape options from Russian Cowboy and is committed to a defensive posture that exposes their spine to rotational attack.
 
-**From Position**: [[Russian Cowboy]] (Top)
+**From Position**: [[Positions/Russian Cowboy]] (Top)
 
 </section>
 
@@ -239,8 +239,8 @@ The submission's danger profile demands extreme caution in training. The spinal 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Russian Cowboy]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Russian Cowboy]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -249,9 +249,9 @@ The submission's danger profile demands extreme caution in training. The spinal 
 
 ## Opponent Counters
 
-- **Opponent grabs their own leg to prevent the figure-four lock from completing during the transition from single hook** (Effectiveness: High) - Your Response: Hand fight to break their grip on their own leg using two-on-one control on their wrist. If the grip is too strong, abandon the Twister attempt and transition to alternative attacks from Russian Cowboy such as rear naked choke or crucifix entry while maintaining back control. → Leads to [[Russian Cowboy]]
-- **Opponent turns into you aggressively before spinal rotation is established, attempting to face you and recover guard** (Effectiveness: Medium) - Your Response: Use your figure-four leg lock and chest pressure to prevent the turn. If they partially succeed in turning, follow their rotation and convert to a standard back take with hooks or transition to front headlock position. The key is maintaining leg control regardless of their upper body rotation. → Leads to [[Half Guard]]
-- **Opponent straightens their body explosively to create distance and relieve the rotational pressure on their spine** (Effectiveness: Medium) - Your Response: Tighten the figure-four by driving your top leg down and pulling your bottom leg up while collapsing your chest into their back to eliminate space. If they achieve significant extension, consider transitioning to a calf slicer attack on the now-straightened leg or resetting the Truck position before reattempting the finish. → Leads to [[Russian Cowboy]]
+- **Opponent grabs their own leg to prevent the figure-four lock from completing during the transition from single hook** (Effectiveness: High) - Your Response: Hand fight to break their grip on their own leg using two-on-one control on their wrist. If the grip is too strong, abandon the Twister attempt and transition to alternative attacks from Russian Cowboy such as rear naked choke or crucifix entry while maintaining back control. → Leads to [[Positions/Russian Cowboy]]
+- **Opponent turns into you aggressively before spinal rotation is established, attempting to face you and recover guard** (Effectiveness: Medium) - Your Response: Use your figure-four leg lock and chest pressure to prevent the turn. If they partially succeed in turning, follow their rotation and convert to a standard back take with hooks or transition to front headlock position. The key is maintaining leg control regardless of their upper body rotation. → Leads to [[Positions/Half Guard]]
+- **Opponent straightens their body explosively to create distance and relieve the rotational pressure on their spine** (Effectiveness: Medium) - Your Response: Tighten the figure-four by driving your top leg down and pulling your bottom leg up while collapsing your chest into their back to eliminate space. If they achieve significant extension, consider transitioning to a calf slicer attack on the now-straightened leg or resetting the Truck position before reattempting the finish. → Leads to [[Positions/Russian Cowboy]]
 - **Opponent tucks chin and blocks head control arm from establishing position under their head** (Effectiveness: Low) - Your Response: Wrap the entire head and shoulder as one unit rather than trying to isolate the chin. The Twister works through spinal rotation created by opposing shoulder rotation against hip anchor, not through neck control specifically. Cup under the chin or accept the head wrap and focus on pulling the far shoulder across their body to maximize the rotation angle. → Leads to [[game-over]]
 
 

@@ -178,7 +178,7 @@ This escape is particularly effective when the opponent has consolidated harness
 
 Strategically, the explosive forward roll serves as an alternative when traditional standing escapes have failed or when the opponent is dragging you backward toward a takedown. Rather than fighting the backward pull, you redirect the energy forward and down, creating separation through inversion. This technique is seen frequently in no-gi competition where grip control is more difficult to maintain, making explosive escapes more viable than systematic grip breaks.
 
-**From Position**: [[Standing Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Bottom)
 
 </section>
 
@@ -229,10 +229,10 @@ Strategically, the explosive forward roll serves as an alternative when traditio
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Success | [[Open Guard]] | 15% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Success | [[Positions/Open Guard]] | 15% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ Strategically, the explosive forward roll serves as an alternative when traditio
 
 ## Opponent Counters
 
-- **Opponent sits back and sprawls their hips away, preventing the roll from completing and maintaining back control** (Effectiveness: High) - Your Response: If you feel the sprawl beginning, abort the roll and immediately transition to a technical standup or turtle position instead → Leads to [[Back Control]]
-- **Opponent releases harness to post their hand, stopping the roll but losing upper body control** (Effectiveness: Medium) - Your Response: This is actually favorable - use the released grip to immediately turn and face opponent, recovering to clinch or guard → Leads to [[Open Guard]]
-- **Opponent follows the roll and lands in mount or side control** (Effectiveness: High) - Your Response: Maintain wrist control throughout to prevent posting, and ensure you drive your hips away immediately upon landing to create guard before they consolidate → Leads to [[Mount]]
-- **Opponent secures body triangle before roll attempt, making inversion nearly impossible** (Effectiveness: High) - Your Response: Do not attempt this escape against body triangle - address the leg lock first or use alternative grounded escapes → Leads to [[Back Control]]
+- **Opponent sits back and sprawls their hips away, preventing the roll from completing and maintaining back control** (Effectiveness: High) - Your Response: If you feel the sprawl beginning, abort the roll and immediately transition to a technical standup or turtle position instead → Leads to [[Positions/Back Control]]
+- **Opponent releases harness to post their hand, stopping the roll but losing upper body control** (Effectiveness: Medium) - Your Response: This is actually favorable - use the released grip to immediately turn and face opponent, recovering to clinch or guard → Leads to [[Positions/Open Guard]]
+- **Opponent follows the roll and lands in mount or side control** (Effectiveness: High) - Your Response: Maintain wrist control throughout to prevent posting, and ensure you drive your hips away immediately upon landing to create guard before they consolidate → Leads to [[Positions/Mount]]
+- **Opponent secures body triangle before roll attempt, making inversion nearly impossible** (Effectiveness: High) - Your Response: Do not attempt this escape against body triangle - address the leg lock first or use alternative grounded escapes → Leads to [[Positions/Back Control]]
 
 
 </section>

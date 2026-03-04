@@ -154,7 +154,7 @@ description: "Defend against the Grip Strip from Buggy Choke transition. Learn t
 
 Defending the Grip Strip from Buggy Choke requires understanding that the top player's decision to abandon the choke creates a brief window of positional instability that can be exploited for escape. When the top player releases their choking grips and begins transitioning toward side control, the bottom player must recognize this shift immediately and choose between reinforcing defensive structures to stall the transition or using the movement to escape to guard. The key defensive principle is that the transition from buggy choke to side control requires the top player to change their entire grip configuration and body angle, creating gaps in control that do not exist during a committed choke attempt. Defenders who develop sensitivity to this transition timing can convert what should be a positional loss into a guard recovery or even a reversal to half guard top.
 
-**Opponent's Starting Position**: [[Buggy Choke]] (Top)
+**Opponent's Starting Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the Grip Strip from Buggy Choke requires understanding that the top pl
 ### 1. Maintain and strengthen defensive grips during the strip attempt through active re-gripping and frame reinforcement
 
 - **When to use**: When the top player is actively stripping your grips but has not yet released their choking grip or committed fully to the transition
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: Top player fails to strip your defensive structure and remains in the stalled buggy choke position, buying time for other escape sequences
 - **Risk**: If grips weaken despite effort, you end up defending both residual choke threat and the transition simultaneously
 
 ### 2. Sit to half guard during the grip release moment by immediately hip escaping and inserting knee
 
 - **When to use**: The instant the top player releases their choking grip and begins transitioning body angle toward side control alignment
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to half guard bottom before the top player establishes side control, converting a dangerous turtle position into a manageable guard with offensive options
 - **Risk**: If mistimed, the top player can drive crossface and flatten you into worse side control than stationary defense would allow
 
 ### 3. Turn in and establish frames against the crossface path to block side control consolidation
 
 - **When to use**: When the top player has already broken your grips and is actively driving toward side control position with lateral movement
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: Your frames prevent the crossface from establishing, buying time to insert a knee and begin guard recovery sequence
 - **Risk**: Turning in too aggressively can expose your back to a back take if the top player redirects their attack
 
 ### 4. Explosive granby roll during the transitional gap when the top player lifts hips to reposition
 
 - **When to use**: When the top player releases choke grips and momentarily reduces hip pressure to adjust body angle for side control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The roll creates distance and allows guard recovery, potentially ending up in closed guard or half guard with favorable defensive grips
 - **Risk**: If the top player maintains hip pressure throughout the transition, the granby fails and you may end up with back exposed
 
@@ -224,7 +224,7 @@ Defending the Grip Strip from Buggy Choke requires understanding that the top pl
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the transitional gap when the top player releases their choking grips and shifts body angle. Time a sit-out or hip escape during this 1-2 second window to insert your knee and recover half guard before the crossface can be established. Move immediately when you feel the choking pressure release rather than waiting to confirm the transition visually.
 

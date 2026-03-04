@@ -132,7 +132,7 @@ description: "Learn to counter the Straighten Leg Defense when attacking from El
 
 As the bottom player in Electric Chair, your opponent's most immediate defensive response is to straighten their trapped leg against your lockdown. Recognizing and countering this defense is essential for maintaining your attacking position and continuing your offensive sequence. The key to defeating the straighten leg defense lies in understanding the timing—the defense is most effective when attempted early before full extension, so accelerating your setup and maintaining constant pressure prevents the defense from developing. When the top player does attempt to straighten, you have multiple options including deepening the lockdown tension, transitioning to the Old School sweep using their forward pressure as fuel, or flowing to Truck entries when maintaining the Electric Chair is no longer viable.
 
-**Opponent's Starting Position**: [[Electric Chair]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 
 </section>
 
@@ -169,21 +169,21 @@ As the bottom player in Electric Chair, your opponent's most immediate defensive
 ### 1. Deepen lockdown tension and actively re-curl the trapped leg by increasing hip extension and driving your knee upward into their inner thigh
 
 - **When to use**: When the straightening attempt is in its early stages and you still have mechanical advantage through the lockdown configuration
-- **Targets**: [[Electric Chair]]
+- **Targets**: [[Positions/Half Guard/Electric Chair]]
 - **If successful**: Top player's leg returns to bent position and you can continue Electric Chair attack with renewed control and deeper lockdown engagement
 - **Risk**: Committing maximum energy to maintaining the lockdown may fatigue your legs, reducing effectiveness of subsequent attack attempts
 
 ### 2. Convert to Old School sweep by using the top player's forward pressure as momentum, rolling backward with your underhook while maintaining lockdown
 
 - **When to use**: When the top player is driving significant forward pressure to support their straightening attempt, making them vulnerable to a directional change sweep
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You sweep the top player and end up in mount or top position, converting their defensive effort into your positional advancement
 - **Risk**: If the sweep fails, you may lose lockdown control entirely and end up in a scramble favoring the top player
 
 ### 3. Accelerate the full Electric Chair extension by simultaneously driving all three pressure points—lockdown pull, underhook extension, and ankle control—before the defense can develop
 
 - **When to use**: At the very first sign of the straighten defense before the top player generates full extension force, winning the speed race to full Electric Chair
-- **Targets**: [[Electric Chair]]
+- **Targets**: [[Positions/Half Guard/Electric Chair]]
 - **If successful**: You achieve full Electric Chair extension before the defense develops, making the straighten defense exponentially harder due to the established mechanical advantage
 - **Risk**: Expends significant energy in the acceleration burst, and if it fails you may be too fatigued to maintain alternative controls
 
@@ -195,11 +195,11 @@ As the bottom player in Electric Chair, your opponent's most immediate defensive
 
 ## Best-Case Outcomes for Defender
 
-### → [[Electric Chair]]
+### → [[Positions/Half Guard/Electric Chair]]
 
 Maintain maximum lockdown tension and re-curl the top player's leg by increasing hip extension and driving your knee upward into their inner thigh. Accelerate the Electric Chair setup to achieve full splitting pressure before the defense can fully develop, winning the timing battle.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Convert the top player's forward defensive pressure into an Old School sweep by timing your backward roll with their forward drive. Use your deep underhook to control the direction of the roll and finish on top, turning their defense into your sweep.
 

@@ -21,7 +21,7 @@ The mechanical foundation of this transition relies on the backstep—a rotation
 
 Timing is critical for this transition. Executing too early abandons a potentially viable Estima Lock finish, while executing too late allows the opponent to extract their leg entirely or establish strong defensive frames. The optimal window occurs when you recognize the opponent's defense is working—their ankle rotation reduces your footlock pressure, their free leg threatens your balance, or their hip escape begins creating dangerous space. Reading these signals and immediately initiating the backstep preserves offensive momentum rather than losing the position entirely.
 
-**From Position**: [[Estima Lock]] (Top)
+**From Position**: [[Positions/Estima Lock]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Timing is critical for this transition. Executing too early abandons a potential
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Saddle]] | 65% |
-| Failure | [[Estima Lock]] | 25% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Ashi Garami/Saddle]] | 65% |
+| Failure | [[Positions/Estima Lock]] | 25% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -187,27 +187,27 @@ The Estima Lock to Saddle transition sits at a critical junction in modern leg l
 ## Related Techniques
 
 
-- [[Estima Lock]] - Starting position for this transition
+- [[Positions/Estima Lock]] - Starting position for this transition
 
-- [[Saddle]] - Target position achieved through successful backstep
+- [[Positions/Ashi Garami/Saddle]] - Target position achieved through successful backstep
 
-- [[Inside Sankaku]] - Alternative name for the Saddle leg triangle
+- [[Positions/Inside Sankaku]] - Alternative name for the Saddle leg triangle
 
-- [[Honey Hole]] - Alternative name for Saddle used in some systems
+- [[Positions/Ashi Garami/Honey Hole]] - Alternative name for Saddle used in some systems
 
-- [[Back Step Pass]] - Related movement pattern using similar hip rotation mechanics
+- [[Transitions/Back Step Pass]] - Related movement pattern using similar hip rotation mechanics
 
-- [[Cross Ashi-Garami]] - Alternative backstep destination for outside heel hook attacks
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Alternative backstep destination for outside heel hook attacks
 
-- [[50-50 Guard]] - Connected leg entanglement for positional exchanges
+- [[Positions/Ashi Garami/50-50 Guard]] - Connected leg entanglement for positional exchanges
 
-- [[Outside Ashi-Garami]] - Related leg entanglement accessible from failed transition
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related leg entanglement accessible from failed transition
 
-- [[Kneebar]] - Alternative finish available from Saddle position
+- [[Transitions/Kneebar]] - Alternative finish available from Saddle position
 
-- [[Ashi Garami]] - Parent category of leg entanglement positions
+- [[Positions/Ashi Garami]] - Parent category of leg entanglement positions
 
-- [[Heel Hook]] - Primary finishing submission available from Saddle
+- [[Transitions/Heel Hook]] - Primary finishing submission available from Saddle
 
 
 </section>

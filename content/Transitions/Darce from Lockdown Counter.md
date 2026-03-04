@@ -21,7 +21,7 @@ This counter represents an advanced understanding of positional warfare in half 
 
 From a strategic perspective, having this counter in your arsenal changes the dynamic of the Electric Chair exchange entirely. Bottom players who know you threaten the Darce must be more conservative with their underhook depth and extension, which reduces the effectiveness of their sweeps and submissions. This creates a dilemma-based defense that exemplifies high-level guard passing against the lockdown system.
 
-**From Position**: [[Electric Chair]] (Top)
+**From Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic perspective, having this counter in your arsenal changes the dy
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 65% |
-| Failure | [[Electric Chair]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Darce Control]] | 65% |
+| Failure | [[Positions/Half Guard/Electric Chair]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Darce from Lockdown Counter integrates into the half guard top game as a cri
 ## Related Techniques
 
 
-- [[Electric Chair]] - Starting position - the defensive situation this counter addresses
+- [[Positions/Half Guard/Electric Chair]] - Starting position - the defensive situation this counter addresses
 
-- [[Darce Control]] - Target position - where successful execution leads
+- [[Positions/Darce Control]] - Target position - where successful execution leads
 
-- [[Darce Choke]] - Follow-up submission - finish from Darce control
+- [[Transitions/Darce Choke]] - Follow-up submission - finish from Darce control
 
-- [[Lockdown]] - Related system - the guard configuration you're escaping
+- [[Positions/Half Guard/Lockdown]] - Related system - the guard configuration you're escaping
 
-- [[Anaconda Choke]] - Alternative technique - transition if Darce is defended
+- [[Transitions/Anaconda Choke]] - Alternative technique - transition if Darce is defended
 
-- [[Half Guard]] - Base position family - context for this technique
+- [[Positions/Half Guard]] - Base position family - context for this technique
 
-- [[Back Take from Lockdown Defense]] - Alternative counter - chain if Darce unavailable
+- [[Transitions/Back Take from Lockdown Defense]] - Alternative counter - chain if Darce unavailable
 
-- [[Arm Triangle]] - Related choke - similar arm-in head-and-arm configuration
+- [[Transitions/Arm Triangle]] - Related choke - similar arm-in head-and-arm configuration
 
-- [[Front Headlock]] - Related position - same control family as Darce
+- [[Positions/Front Headlock]] - Related position - same control family as Darce
 
-- [[Knee Slice Pass]] - Follow-up option - pass if opponent releases lockdown to defend choke
+- [[Transitions/Knee Slice Pass]] - Follow-up option - pass if opponent releases lockdown to defend choke
 
 
 </section>

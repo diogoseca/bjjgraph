@@ -154,7 +154,7 @@ description: "How to defend against the Underhook Sweep from Half Guard in BJJ. 
 
 Defending the Underhook Sweep from half guard top requires a proactive approach that begins well before the sweep is initiated. The moment the bottom player secures a deep underhook from half guard, the top player is already in a disadvantageous position that demands immediate corrective action. The defensive framework centers on three pillars: preventing the underhook from being established through crossface and shoulder pressure, neutralizing an established underhook through whizzer control and flattening techniques, and countering the sweep attempt itself through base management and weight distribution. The most effective defense is prevention - controlling the upper body battle so the bottom player never achieves the angle and underhook depth required for the sweep. When prevention fails, the defender must recognize the sweep initiation cues early and deploy the appropriate counter based on the specific variation being attempted. Understanding the attacker's mechanical requirements reveals the defensive solution: the sweep requires angle, underhook depth, far-base removal, and coordinated explosive movement. Disrupting any single element collapses the entire chain.
 
-**Opponent's Starting Position**: [[Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Underhook Sweep from half guard top requires a proactive approach 
 ### 1. Establish crossface and flatten bottom player to their back before they secure underhook depth
 
 - **When to use**: Immediately when you feel bottom player beginning to fight for underhook - this is the highest-percentage defense when applied early
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Bottom player loses angle and underhook position, you establish dominant half guard top with crossface control and can work your passing sequence
 - **Risk**: If applied too late after underhook is already deep, your crossface attempt may be countered by their shoulder elevation
 
 ### 2. Apply whizzer (overhook) on the underhook arm and drive it downward to the mat while sprawling hips back
 
 - **When to use**: When the bottom player has already secured a deep underhook and you cannot prevent it - the whizzer must be applied immediately before they establish angle
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Neutralizes the lifting power of their underhook, prevents them from coming to their side, and opens your own passing options including kimura threats on the overhooked arm
 - **Risk**: A committed whizzer can be exploited for old school sweep or back take if you overcommit your weight forward into the whizzer
 
 ### 3. Post far leg wide and lower your base when you feel the bridge and sweep initiation
 
 - **When to use**: During the sweep execution when you feel their bridge beginning to elevate you - this is the emergency defense when earlier prevention failed
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Wide base prevents the sweep from completing, opponent expends energy on failed attempt, and you can re-establish passing pressure from a strong base
 - **Risk**: Wide post can be exploited for old school sweep in the opposite direction or may open back take opportunities if they come up to dogfight
 
 ### 4. Shift weight backward and disengage forward pressure to deny sweep timing
 
 - **When to use**: When you recognize the sweep setup is complete and the bottom player is waiting for your forward weight commitment as timing trigger
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Denies the forward momentum the sweep requires, forces bottom player to chase you or abandon the sweep setup and reset their attack sequence
 - **Risk**: Backward weight shift can open space for butterfly guard entry, deep half guard transition, or kimura attacks on your near arm
 
@@ -225,11 +225,11 @@ Defending the Underhook Sweep from half guard top requires a proactive approach 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Establish crossface with forearm across their jaw and drive shoulder pressure forward to flatten them to their back. Once flat, their underhook loses all lifting leverage and their hips cannot generate the angle needed for the sweep. From here, work your half guard passing sequence.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Apply whizzer control on their underhook arm combined with hip sprawl to neutralize the sweep threat while maintaining your half guard top position. The whizzer prevents them from achieving the shoulder elevation needed for the sweep. Use this control to begin your passing sequence through knee slice or crossface pass.
 

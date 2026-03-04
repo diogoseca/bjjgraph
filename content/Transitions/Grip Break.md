@@ -21,7 +21,7 @@ The effectiveness of grip breaking lies in understanding leverage principles and
 
 Mastery of grip breaking transcends the physical technique itself and becomes a chess match of grip fighting sequences. Advanced practitioners anticipate their opponent's re-gripping attempts and chain multiple grip breaks together, creating sustained periods of grip dominance that translate directly to positional and tactical advantages throughout the match.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 **Success Rate**: 82%
 
 </section>
@@ -32,9 +32,9 @@ Mastery of grip breaking transcends the physical technique itself and becomes a 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 75% |
-| Failure | [[Open Guard]] | 15% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Open Guard]] | 75% |
+| Failure | [[Positions/Open Guard]] | 15% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -199,25 +199,25 @@ Grip breaking is fundamentally integrated into every aspect of guard play, guard
 ## Related Techniques
 
 
-- [[Collar Drag]] - Follow-up technique after breaking collar grips to establish dominant grip
+- [[Transitions/Collar Drag]] - Follow-up technique after breaking collar grips to establish dominant grip
 
-- [[Arm Drag]] - Follow-up technique after breaking sleeve grips to create back exposure
+- [[Transitions/Arm Drag]] - Follow-up technique after breaking sleeve grips to create back exposure
 
-- [[Spider Guard Pass]] - Requires systematic sleeve grip breaking as prerequisite
+- [[Transitions/Spider Guard Pass]] - Requires systematic sleeve grip breaking as prerequisite
 
-- [[Lasso Guard Pass]] - Requires breaking lasso sleeve grip before advancing position
+- [[Transitions/Lasso Guard Pass]] - Requires breaking lasso sleeve grip before advancing position
 
-- [[Guard Opening Sequence]] - Initial phase that relies heavily on grip breaking fundamentals
+- [[Transitions/Guard Opening Sequence]] - Initial phase that relies heavily on grip breaking fundamentals
 
-- [[Frame and Shrimp to Guard]] - Defensive movement often combined with grip breaks for guard retention
+- [[Transitions/Frame and Shrimp to Guard]] - Defensive movement often combined with grip breaks for guard retention
 
-- [[Toreando Pass]] - Passing technique that begins with pant grip breaks
+- [[Transitions/Toreando Pass]] - Passing technique that begins with pant grip breaks
 
-- [[Long Step Pass]] - Requires breaking guard grips before initiating step around
+- [[Transitions/Long Step Pass]] - Requires breaking guard grips before initiating step around
 
-- [[De La Riva Sweep]] - Offensive technique from guard that requires breaking opponent's counter-grips
+- [[Transitions/De La Riva Sweep]] - Offensive technique from guard that requires breaking opponent's counter-grips
 
-- [[Standing up in Base]] - Requires breaking pant and sleeve grips before standing
+- [[Transitions/Standing up in Base]] - Requires breaking pant and sleeve grips before standing
 
 
 </section>

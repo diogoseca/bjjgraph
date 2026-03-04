@@ -21,7 +21,7 @@ The core challenge of kneebar control maintenance lies in balancing submission t
 
 From a systems perspective, kneebar control maintenance serves as the stabilization hub connecting your initial entry to either a successful finish or an intelligent transition to alternative attacks. When maintenance succeeds, you preserve the positional advantage needed for high-percentage finishing sequences. When the opponent begins breaking free, recognizing the maintenance failure early allows smooth transitions to half guard top control, alternative leg attacks, or guard passing rather than scrambling from a lost position.
 
-**From Position**: [[Kneebar Control]] (Top)
+**From Position**: [[Positions/Kneebar Control]] (Top)
 **Success Rate**: 70%
 
 </section>
@@ -32,9 +32,9 @@ From a systems perspective, kneebar control maintenance serves as the stabilizat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kneebar Control]] | 70% |
-| Failure | [[Half Guard]] | 20% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Kneebar Control]] | 70% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -191,25 +191,25 @@ Kneebar control maintenance occupies a critical stabilization role within the br
 ## Related Techniques
 
 
-- [[Kneebar Control]] - Parent position that this maintenance transition sustains and consolidates
+- [[Positions/Kneebar Control]] - Parent position that this maintenance transition sustains and consolidates
 
-- [[Ashi Garami Maintenance]] - Analogous maintenance transition for the broader ashi garami leg entanglement system
+- [[Transitions/Ashi Garami Maintenance]] - Analogous maintenance transition for the broader ashi garami leg entanglement system
 
-- [[Inside Ashi-Garami]] - Primary bottom leg entanglement that feeds into kneebar control entries
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary bottom leg entanglement that feeds into kneebar control entries
 
-- [[Outside Ashi-Garami]] - Alternative leg entanglement offering different kneebar control angles
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative leg entanglement offering different kneebar control angles
 
-- [[Saddle]] - Advanced leg entanglement accessible as a transition when kneebar maintenance is threatened
+- [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement accessible as a transition when kneebar maintenance is threatened
 
-- [[Straight Ankle Lock Control]] - Alternative leg submission control position when kneebar angle deteriorates
+- [[Positions/Straight Ankle Lock Control]] - Alternative leg submission control position when kneebar angle deteriorates
 
-- [[Toe Hold Control]] - Rotational leg attack accessible when opponent defends knee but exposes foot
+- [[Positions/Toe Hold Control]] - Rotational leg attack accessible when opponent defends knee but exposes foot
 
-- [[Half Guard]] - Common position reached when kneebar maintenance fails but top position is retained
+- [[Positions/Half Guard]] - Common position reached when kneebar maintenance fails but top position is retained
 
-- [[50-50 Guard]] - Symmetrical entanglement that may develop from contested kneebar control exchanges
+- [[Positions/Ashi Garami/50-50 Guard]] - Symmetrical entanglement that may develop from contested kneebar control exchanges
 
-- [[Ashi Garami Escape]] - Primary escape pathway the opponent uses to break kneebar control maintenance
+- [[Transitions/Ashi Garami Escape]] - Primary escape pathway the opponent uses to break kneebar control maintenance
 
 
 </section>

@@ -21,7 +21,7 @@ The transition is particularly effective because it capitalizes on the opponent'
 
 This transition has become a staple in modern no-gi grappling and MMA, where the absence of gi grips makes the front headlock position even more dominant. The anaconda's versatility allows it to be applied from various front headlock configurations, including standing snapdowns, failed takedown attempts, and turtle attacks. Mastering this transition provides practitioners with a reliable path from control to submission that works across all levels of competition.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 **Success Rate**: 59%
 
 </section>
@@ -32,9 +32,9 @@ This transition has become a staple in modern no-gi grappling and MMA, where the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Anaconda Control]] | 68% |
-| Failure | [[Front Headlock]] | 22% |
-| Counter | [[Front Headlock]] | 10% |
+| Success | [[Positions/Anaconda Control]] | 68% |
+| Failure | [[Positions/Front Headlock]] | 22% |
+| Counter | [[Positions/Front Headlock]] | 10% |
 
 
 </section>
@@ -200,29 +200,29 @@ The technique integrates seamlessly with wrestling-based takedown systems, where
 ## Related Techniques
 
 
-- [[Front Headlock]] - Starting position - primary control position from which technique is initiated
+- [[Positions/Front Headlock]] - Starting position - primary control position from which technique is initiated
 
-- [[Anaconda Control]] - Ending position - final submission control after successful roll
+- [[Positions/Anaconda Control]] - Ending position - final submission control after successful roll
 
-- [[Anaconda Choke]] - Direct finish - the submission being applied from this transition
+- [[Transitions/Anaconda Choke]] - Direct finish - the submission being applied from this transition
 
-- [[Front Headlock to Darce]] - Alternative attack - primary alternative when anaconda setup is defended
+- [[Transitions/Front Headlock to Darce]] - Alternative attack - primary alternative when anaconda setup is defended
 
-- [[Front Headlock to Guillotine]] - Alternative attack - option when opponent stands or creates distance
+- [[Transitions/Front Headlock to Guillotine]] - Alternative attack - option when opponent stands or creates distance
 
-- [[Front Headlock to Back]] - Alternative attack - positional advance when submissions are defended
+- [[Transitions/Front Headlock to Back]] - Alternative attack - positional advance when submissions are defended
 
-- [[Darce Choke]] - Related submission - closely related choke with similar arm-in mechanics
+- [[Transitions/Darce Choke]] - Related submission - closely related choke with similar arm-in mechanics
 
-- [[Anaconda from Turtle]] - Setup variation - same finish from different entry position
+- [[Transitions/Anaconda from Turtle]] - Setup variation - same finish from different entry position
 
-- [[Turtle]] - Common starting context - opponent's defensive position being attacked
+- [[Positions/Turtle]] - Common starting context - opponent's defensive position being attacked
 
-- [[Guillotine Choke]] - Alternative attack - another front headlock submission option
+- [[Transitions/Guillotine Choke]] - Alternative attack - another front headlock submission option
 
-- [[Darce Control]] - Sister position - similar arm-in submission control with different threading angle
+- [[Positions/Darce Control]] - Sister position - similar arm-in submission control with different threading angle
 
-- [[Anaconda Setup]] - Related transition - alternative entry pathway to anaconda control
+- [[Transitions/Anaconda Setup]] - Related transition - alternative entry pathway to anaconda control
 
 
 </section>

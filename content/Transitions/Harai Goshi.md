@@ -21,7 +21,7 @@ The technique's effectiveness in BJJ competition stems from its versatility in b
 
 From a systems perspective, Harai Goshi functions as a high-reward option within the standing exchange that chains naturally with foot sweeps and other hip throws. The throw creates a dilemma for the defender: widening stance to resist the sweep opens them to Osoto Gari, while stepping backward to avoid the hip entry feeds directly into Kouchi Gari or single leg entries. This combinatorial pressure makes Harai Goshi far more dangerous as part of a throwing system than as an isolated technique.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ From a systems perspective, Harai Goshi functions as a high-reward option within
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Failure | [[Standing Position]] | 20% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Side Control]] | 70% |
+| Failure | [[Positions/Standing Position]] | 20% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -194,25 +194,25 @@ Harai Goshi occupies a critical position in the BJJ standing game as a bridge be
 ## Related Techniques
 
 
-- [[Ippon Seoi Nage]] - Alternative throw from similar grips with different entry mechanics - use when Harai Goshi entry is defended
+- [[Transitions/Ippon Seoi Nage]] - Alternative throw from similar grips with different entry mechanics - use when Harai Goshi entry is defended
 
-- [[Osoto Gari]] - Complementary technique - use to attack when opponent widens stance to defend Harai Goshi
+- [[Transitions/Osoto Gari]] - Complementary technique - use to attack when opponent widens stance to defend Harai Goshi
 
-- [[Kouchi Gari]] - Setup technique - small inside reap forces opponent to step forward into Harai Goshi range
+- [[Transitions/Kouchi Gari]] - Setup technique - small inside reap forces opponent to step forward into Harai Goshi range
 
-- [[Deashi Harai]] - Entry combination - failed foot sweep creates forward momentum perfect for Harai Goshi
+- [[Transitions/Deashi Harai]] - Entry combination - failed foot sweep creates forward momentum perfect for Harai Goshi
 
-- [[Side Control]] - Primary ending position - transition from throw completion to dominant ground control
+- [[Positions/Side Control]] - Primary ending position - transition from throw completion to dominant ground control
 
-- [[Mount]] - Alternative ending position - achievable by following throw directly to mount when opponent lands flat
+- [[Positions/Mount]] - Alternative ending position - achievable by following throw directly to mount when opponent lands flat
 
-- [[Kimura from Side Control]] - Follow-up submission - natural attack from side control position established after throw
+- [[Submissions/Kimura from Side Control]] - Follow-up submission - natural attack from side control position established after throw
 
-- [[North-South]] - Position transition option - flow to north-south if opponent attempts to turn away during landing
+- [[Positions/North-South]] - Position transition option - flow to north-south if opponent attempts to turn away during landing
 
-- [[Standing Position]] - Starting position - Harai Goshi initiates from standing grip engagement
+- [[Positions/Standing Position]] - Starting position - Harai Goshi initiates from standing grip engagement
 
-- [[Ouchi Gari]] - Combination throw - inside trip sets up forward reaction that feeds Harai Goshi entry
+- [[Transitions/Ouchi Gari]] - Combination throw - inside trip sets up forward reaction that feeds Harai Goshi entry
 
 
 </section>

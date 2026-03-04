@@ -158,7 +158,7 @@ The defender's primary tools are frames, hip movement, and early recognition. Th
 
 Understanding which phase of the transition the attacker is in determines your best defensive response. Before the knee insertion, you can frame and recover guard. During the knee insertion, you can turn away to force a back take scramble (which is often preferable to conceding technical mount). After the knee is deep and the front leg posts, your options are limited to technical mount escapes. Reading these phases in real time and selecting the appropriate defense is the hallmark of an experienced defender in this scenario.
 
-**Opponent's Starting Position**: [[Leg Drag Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Understanding which phase of the transition the attacker is in determines your b
 ### 1. Frame on attacker's shoulder and hip, then hip escape to insert knee shield and recover half guard
 
 - **When to use**: Before the attacker's knee slides behind your back—this is the highest-percentage defensive window when you still have space to create frames
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard with knee shield established, neutralizing the mount threat and returning to a position with offensive options
 - **Risk**: If your frames are weak or poorly timed, the attacker clears them and completes the transition with increased pressure
 
 ### 2. Turn away decisively to force back exposure and scramble for turtle position
 
 - **When to use**: When the attacker's knee is already behind your back and recovering guard is no longer viable—turning into a back take scramble is preferable to conceding settled technical mount
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: You force a scramble where you can fight for underhooks from turtle or reguard before the attacker establishes back control with hooks
 - **Risk**: Attacker follows your rotation and secures seatbelt with hooks for full back control
 
 ### 3. Bridge explosively toward the attacker while trapping their posting arm to create reversal opportunity
 
 - **When to use**: When the attacker releases the leg drag grip to post their front leg—this brief moment with only one hand controlling creates a reversal window
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: You disrupt their base during the grip transition, potentially sweeping them or creating enough space to recover guard
 - **Risk**: If the bridge is poorly timed, the attacker rides it and uses your momentum to settle deeper into technical mount
 
 ### 4. Pummel inside arm to underhook position and sit up into the attacker to prevent knee from settling
 
 - **When to use**: During the knee insertion phase when the attacker's upper body control is momentarily lighter as they focus on moving their legs
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: Your underhook prevents the attacker from completing the crossface and drives them back, stalling the transition and potentially allowing guard recovery
 - **Risk**: If the attacker maintains strong crossface pressure, your pummeling attempt exposes your arm for isolation
 
@@ -228,11 +228,11 @@ Understanding which phase of the transition the attacker is in determines your b
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Frame against the attacker's shoulder with your near arm and hip escape to create enough space to insert your knee between your bodies as a shield. Thread your bottom leg around their trapped leg to establish half guard entanglement before they can withdraw the leg and reposition. The key is inserting the knee shield before their front leg posts.
 
-### → [[Leg Drag Control]]
+### → [[Positions/Leg Drag Control]]
 
 Bridge explosively during the moment the attacker releases their leg drag grip to reposition their hands. Time the bridge to coincide with their weight shift, which temporarily compromises their base. Combine the bridge with strong frames to push them back to the original leg drag position, then immediately begin standard leg drag bottom escapes.
 

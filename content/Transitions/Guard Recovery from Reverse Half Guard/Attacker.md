@@ -180,7 +180,7 @@ description: "Learn to recover standard half guard from Reverse Half Guard as th
 
 As the bottom player in Reverse Half Guard, you face a unique recovery challenge: your back is partially exposed to the opponent because you are facing away from them rather than toward them. Standard guard recovery concepts must be adapted to account for this back exposure—your first priority is protecting against back takes, not creating guard frames. The recovery sequence begins with securing your far-side elbow tight to prevent seatbelt control, then rotating your hips to face the opponent through a combination of hip escape and bridging, and finally establishing a knee shield with underhook once you have re-faced the opponent. The difficulty lies in rotating 180 degrees from facing away to facing toward the opponent while maintaining enough leg entanglement to prevent the top player from simply stepping over into mount or side control.
 
-**From Position**: [[Reverse Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Reverse Half Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player in Reverse Half Guard, you face a unique recovery challenge
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Failure | [[Reverse Half Guard]] | 35% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Failure | [[Positions/Half Guard/Reverse Half Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the bottom player in Reverse Half Guard, you face a unique recovery challenge
 
 ## Opponent Counters
 
-- **Opponent establishes seatbelt grip on your back before you can complete the rotation, threatening back take** (Effectiveness: High) - Your Response: Address the seatbelt immediately by stripping the choking arm grip before continuing rotation—pull their wrist across your body and pin it while accelerating the turn to face them → Leads to [[Reverse Half Guard]]
-- **Opponent steps over your bottom leg during the rotation to extract from the half guard hook and advance to mount or side control** (Effectiveness: High) - Your Response: Tighten your half guard hook aggressively and use the lockdown to prevent leg extraction—if the leg escapes, immediately hip escape and recompose guard rather than continuing the rotation without the hook → Leads to [[Side Control]]
-- **Opponent drives heavy crossface pressure during the rotation to flatten you back to the reverse position** (Effectiveness: Medium) - Your Response: Use your head wedge and bridge power to resist the crossface, and redirect the rotation angle to come up on your side rather than fully underneath—the underhook fight becomes critical here → Leads to [[Reverse Half Guard]]
-- **Opponent sprawls their hips back and drives their weight low to prevent your bridge from generating rotation space** (Effectiveness: Medium) - Your Response: Switch from bridge-based rotation to a pummel-based rotation using your near-side arm to swim under their arm for the underhook, using arm pummeling to drive the rotation rather than bridge power → Leads to [[Reverse Half Guard]]
+- **Opponent establishes seatbelt grip on your back before you can complete the rotation, threatening back take** (Effectiveness: High) - Your Response: Address the seatbelt immediately by stripping the choking arm grip before continuing rotation—pull their wrist across your body and pin it while accelerating the turn to face them → Leads to [[Positions/Half Guard/Reverse Half Guard]]
+- **Opponent steps over your bottom leg during the rotation to extract from the half guard hook and advance to mount or side control** (Effectiveness: High) - Your Response: Tighten your half guard hook aggressively and use the lockdown to prevent leg extraction—if the leg escapes, immediately hip escape and recompose guard rather than continuing the rotation without the hook → Leads to [[Positions/Side Control]]
+- **Opponent drives heavy crossface pressure during the rotation to flatten you back to the reverse position** (Effectiveness: Medium) - Your Response: Use your head wedge and bridge power to resist the crossface, and redirect the rotation angle to come up on your side rather than fully underneath—the underhook fight becomes critical here → Leads to [[Positions/Half Guard/Reverse Half Guard]]
+- **Opponent sprawls their hips back and drives their weight low to prevent your bridge from generating rotation space** (Effectiveness: Medium) - Your Response: Switch from bridge-based rotation to a pummel-based rotation using your near-side arm to swim under their arm for the underhook, using arm pummeling to drive the rotation rather than bridge power → Leads to [[Positions/Half Guard/Reverse Half Guard]]
 
 
 </section>

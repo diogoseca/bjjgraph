@@ -21,7 +21,7 @@ This transition teaches fundamental principles of angle creation, hip movement, 
 
 Mastery of this sequence provides a reliable pathway to finish matches while simultaneously opening opportunities for sweeps and back takes when opponents defend the primary threat. The triangle from closed guard forms the centerpiece of the guard attack system, connecting directly to armbars, omoplatas, and sweep combinations that create compounding dilemmas for the defender.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Mastery of this sequence provides a reliable pathway to finish matches while sim
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Control]] | 50% |
-| Failure | [[Closed Guard]] | 35% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Triangle Control]] | 50% |
+| Failure | [[Positions/Closed Guard]] | 35% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -189,29 +189,29 @@ The closed guard to triangle transition represents a cornerstone attack in the g
 ## Related Techniques
 
 
-- [[Triangle Choke]] - Direct submission finish from this transition's control position
+- [[Transitions/Triangle Choke]] - Direct submission finish from this transition's control position
 
-- [[Triangle Control]] - Target control position reached upon successful execution
+- [[Positions/Triangle Control]] - Target control position reached upon successful execution
 
-- [[Armbar from Guard]] - Primary follow-up when triangle is defended by arm extraction
+- [[Submissions/Armbar from Guard]] - Primary follow-up when triangle is defended by arm extraction
 
-- [[Triangle to Armbar]] - Natural chain when opponent defends triangle by posturing
+- [[Transitions/Triangle to Armbar]] - Natural chain when opponent defends triangle by posturing
 
-- [[Triangle to Omoplata]] - Alternative transition when opponent turns away or stacks
+- [[Transitions/Triangle to Omoplata]] - Alternative transition when opponent turns away or stacks
 
-- [[Omoplata from Guard]] - Backup attack when triangle angle is lost during entry
+- [[Submissions/Omoplata from Guard]] - Backup attack when triangle angle is lost during entry
 
-- [[Triangle to Back]] - Back take opportunity from opponent's stacking defense
+- [[Transitions/Triangle to Back]] - Back take opportunity from opponent's stacking defense
 
-- [[Hip Bump Sweep]] - Alternative attack when opponent defends triangle by posturing high
+- [[Transitions/Hip Bump Sweep]] - Alternative attack when opponent defends triangle by posturing high
 
-- [[Pendulum Sweep]] - Sweep option from similar angle creation position
+- [[Transitions/Pendulum Sweep]] - Sweep option from similar angle creation position
 
-- [[Kimura from Guard]] - Alternative submission when arm isolation is achieved but triangle blocked
+- [[Submissions/Kimura from Guard]] - Alternative submission when arm isolation is achieved but triangle blocked
 
-- [[Closed Guard to Omoplata]] - Parallel attack sharing identical arm isolation and angle creation mechanics
+- [[Transitions/Closed Guard to Omoplata]] - Parallel attack sharing identical arm isolation and angle creation mechanics
 
-- [[Posture Recovery]] - Key defensive concept opponent uses to prevent this attack
+- [[Transitions/Posture Recovery]] - Key defensive concept opponent uses to prevent this attack
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Learn to defend against grip stripping from Zombie bottom. Maintai
 
 As the defender in the Strip Grip from Zombie scenario, you are the bottom player working to maintain your Zombie lockdown structure against the top player's systematic attempt to dismantle your grips. Your defensive strategy centers on three priorities: maintaining your most critical connections (underhook and lockdown), re-establishing any grips that get broken before the opponent can capitalize, and exploiting the momentary openings created during their grip stripping attempts to execute sweeps or recover to a better guard position. The Zombie's interconnected grip system means that losing even one key connection point can cascade into total structural failure, making immediate re-gripping essential to survival in this position.
 
-**Opponent's Starting Position**: [[Zombie]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Zombie]] (Top)
 
 </section>
 
@@ -183,28 +183,28 @@ As the defender in the Strip Grip from Zombie scenario, you are the bottom playe
 ### 1. Re-pump underhook aggressively when opponent attempts to strip it with whizzer
 
 - **When to use**: Immediately when you feel the whizzer tightening and your underhook arm being compressed — do not wait for it to be fully neutralized
-- **Targets**: [[Zombie]]
+- **Targets**: [[Positions/Rubber Guard/Zombie]]
 - **If successful**: Maintains full Zombie structure and forces opponent to restart their entire grip stripping sequence from the beginning
 - **Risk**: If re-pump fails repeatedly, you exhaust your arm and may compromise frame positioning from the effort
 
 ### 2. Execute Old School Sweep when opponent lifts weight during grip transitions
 
 - **When to use**: When the top player shifts weight or lifts chest during the transition between stripping different grips — their base is momentarily compromised
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Sweep to top position, reversing the engagement and establishing dominant half guard top or mount
 - **Risk**: If sweep fails during grip transition, you may lose remaining grips and end up in open guard bottom with no defensive structure
 
 ### 3. Transition to deep half guard before lockdown is fully extracted
 
 - **When to use**: When underhook has been neutralized and lockdown is weakening — voluntarily release lockdown and shoot underneath the opponent before they establish passing position
-- **Targets**: [[Zombie]]
+- **Targets**: [[Positions/Rubber Guard/Zombie]]
 - **If successful**: Establishes deep half guard which provides new sweep and escape opportunities from a structured defensive position
 - **Risk**: Failed deep half entry can leave you completely flattened under the opponent's pressure with no guard structure remaining
 
 ### 4. Recover to knee shield half guard by inserting top knee before opponent establishes passing grips
 
 - **When to use**: When lockdown has been broken and opponent is transitioning to open guard engagement — use the brief scramble window to establish new guard structure
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Establishes knee shield which is a strong defensive half guard position with its own sweep and submission threats
 - **Risk**: If insertion is too slow, opponent completes their pass through to side control before the frame is established
 
@@ -216,11 +216,11 @@ As the defender in the Strip Grip from Zombie scenario, you are the bottom playe
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your Old School Sweep attempt during the opponent's grip transition — the moment they shift from underhook stripping to lockdown work, their base is temporarily compromised. Post your far foot, drive your hips upward, and use the remaining lockdown tension to off-balance them through the sweep.
 
-### → [[Zombie]]
+### → [[Positions/Rubber Guard/Zombie]]
 
 Maintain relentless re-gripping on your underhook — every time the opponent breaks it, immediately re-pump by driving your elbow deep and connecting chest-to-chest. Combined with active lockdown tension, this forces the opponent to remain stuck in the Zombie position unable to advance their passing.
 

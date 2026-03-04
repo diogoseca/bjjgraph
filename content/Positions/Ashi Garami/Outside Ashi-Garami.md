@@ -93,19 +93,19 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 ### Available Transitions
 
 
-- **[[Outside Heel Hook]]** (32% of attempts)
+- **[[Transitions/Outside Heel Hook]]** (32% of attempts)
 
-- **[[Inside Ashi Entry]]** (25% of attempts)
+- **[[Transitions/Inside Ashi Entry]]** (25% of attempts)
 
-- **[[Straight Ankle Lock Entry]]** (14% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry]]** (14% of attempts)
 
-- **[[Saddle Entry from Top]]** (9% of attempts)
+- **[[Transitions/Saddle Entry from Top]]** (9% of attempts)
 
-- **[[Kneebar Setup]]** (9% of attempts)
+- **[[Transitions/Kneebar Setup]]** (9% of attempts)
 
-- **[[Cross Ashi Transition]]** (7% of attempts)
+- **[[Transitions/Cross Ashi Transition]]** (7% of attempts)
 
-- **[[Counter Sweep from Outside Ashi]]** (4% of attempts)
+- **[[Transitions/Counter Sweep from Outside Ashi]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -166,25 +166,25 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 ### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** (59% of attempts)
+- **[[Transitions/Ashi Garami Escape]]** (59% of attempts)
 
-- **[[Back Step]]** (18% of attempts)
+- **[[Transitions/Back Step]]** (18% of attempts)
 
-- **[[Counter heel hook]]** (11% of attempts)
+- **[[Transitions/Counter heel hook]]** (11% of attempts)
 
-- **[[Saddle Entry from Top]]** (4% of attempts)
+- **[[Transitions/Saddle Entry from Top]]** (4% of attempts)
 
-- **[[Kneebar Setup]]** (4% of attempts)
+- **[[Transitions/Kneebar Setup]]** (4% of attempts)
 
-- **[[Standing Escape]]** (3% of attempts)
+- **[[Transitions/Standing Escape]]** (3% of attempts)
 
-- **[[Outside Ashi to Inside Ashi]]** (0% of attempts)
+- **[[Transitions/Outside Ashi to Inside Ashi]]** (0% of attempts)
 
-- **[[Outside to Ushiro Ashi]]** (0% of attempts)
+- **[[Transitions/Outside to Ushiro Ashi]]** (0% of attempts)
 
-- **[[Saddle Entry from Outside Ashi]]** (0% of attempts)
+- **[[Transitions/Saddle Entry from Outside Ashi]]** (0% of attempts)
 
-- **[[Toe Hold from Outside Ashi]]** (1% of attempts)
+- **[[Transitions/Toe Hold from Outside Ashi]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -223,23 +223,23 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 ## Related Positions
 
 
-- **[[Inside Ashi-Garami]]** - More dominant leg entanglement with higher finish percentage
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - More dominant leg entanglement with higher finish percentage
 
-- **[[Saddle]]** - Primary advancement target offering both legs trapped
+- **[[Positions/Ashi Garami/Saddle]]** - Primary advancement target offering both legs trapped
 
-- **[[Cross Ashi-Garami]]** - Perpendicular variation with different submission angles
+- **[[Positions/Ashi Garami/Cross Ashi-Garami]]** - Perpendicular variation with different submission angles
 
-- **[[50-50 Guard]]** - Symmetrical leg entanglement with mutual control
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Symmetrical leg entanglement with mutual control
 
-- **[[Single Leg X-Guard]]** - Related leg control position with elevation focus
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Related leg control position with elevation focus
 
-- **[[Ushiro Ashi-Garami]]** - Rear-facing variation of leg entanglement
+- **[[Positions/Ashi Garami/Ushiro Ashi-Garami]]** - Rear-facing variation of leg entanglement
 
-- **[[Backside 50-50]]** - Back-facing mutual leg entanglement variation
+- **[[Positions/Ashi Garami/Backside 50-50]]** - Back-facing mutual leg entanglement variation
 
-- **[[Kneebar Control]]** - Alternative submission control from leg entanglement
+- **[[Positions/Kneebar Control]]** - Alternative submission control from leg entanglement
 
-- **[[Straight Ankle Lock Control]]** - Lower-risk submission option from this position
+- **[[Positions/Straight Ankle Lock Control]]** - Lower-risk submission option from this position
 
 
 </section>

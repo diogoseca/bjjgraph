@@ -148,7 +148,7 @@ description: "Defend against the hip rotation escape from Electric Chair in BJJ.
 
 As the defender against the hip rotation escape, you are the Electric Chair top player who has been successfully defending the lockdown attack. Your opponent is now attempting to abandon their electric chair and transition to turtle via hip rotation. Your objective is to either prevent the escape entirely, keeping the bottom player in a compromised position where you can pass, or capitalize on the transition to advance directly to side control or back control. The moment of lockdown release represents a significant vulnerability window for the bottom player, and your ability to read the escape attempt early and respond decisively determines whether they reach the relative safety of turtle or end up in a worse position than they started.
 
-**Opponent's Starting Position**: [[Electric Chair]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
 
 </section>
 
@@ -185,21 +185,21 @@ As the defender against the hip rotation escape, you are the Electric Chair top 
 ### 1. Drive heavy forward pressure and crossface to flatten the bottom player before they can initiate the rotation
 
 - **When to use**: As soon as you feel the lockdown tension decrease or see the bottom player releasing ankle control, indicating the bail-out is being set up
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Bottom player is pinned flat and unable to complete the rotation, remaining in a compromised half guard position where you can begin passing
 - **Risk**: If the bottom player times the rotation with your forward drive, they can use your momentum to power their rotation and reach turtle faster
 
 ### 2. Backstep pass during the transition window when the lockdown is released but turtle is not yet established
 
 - **When to use**: When the bottom player has fully committed to releasing the lockdown and their legs are momentarily free, creating a passing lane
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You advance directly to side control by passing the now-open guard during the transition, skipping the turtle phase entirely
 - **Risk**: If the bottom player completes the rotation to turtle before your backstep finishes, you may end up in a poor angle for turtle attacks
 
 ### 3. Maintain heavy crossface control to block the primary rotation direction while pinning the bottom player's hips
 
 - **When to use**: When you have established a deep crossface and can feel the bottom player setting up the underhook pivot for rotation
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The rotation is physically blocked and the bottom player cannot complete the movement, remaining stuck without lockdown control in a compromised half guard
 - **Risk**: The bottom player may switch to a granby roll variation over the opposite shoulder, which defeats the crossface angle
 
@@ -211,11 +211,11 @@ As the defender against the hip rotation escape, you are the Electric Chair top 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Maintain heavy forward pressure throughout the escape attempt, driving your chest into the bottom player and establishing a deep crossface as soon as the lockdown tension decreases. The key is preventing the rotation from starting by keeping the bottom player flat with no space to generate hip movement.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Time a backstep pass during the exact moment the bottom player releases their lockdown configuration. Their legs are momentarily free and uncommitted during the transition, creating a passing lane that does not exist when the lockdown is engaged. React decisively to the lockdown release rather than waiting for the rotation to develop.
 

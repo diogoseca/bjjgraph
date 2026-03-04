@@ -184,7 +184,7 @@ The technique relies on creating space through precise hip movement rather than 
 
 Strategically, this escape represents your primary pathway out of a position that otherwise leads to submissions or advancement to mounted Gift Wrap. The ability to recover guard from Gift Wrap Bottom is essential for any practitioner because the position commonly results from failed back escapes. Success requires patience, proper timing, and the discipline to maintain neck defense throughout the escape sequence rather than abandoning it to fight the arm trap.
 
-**From Position**: [[Gift Wrap]] (Bottom)
+**From Position**: [[Positions/Gift Wrap]] (Bottom)
 
 </section>
 
@@ -237,9 +237,9 @@ Strategically, this escape represents your primary pathway out of a position tha
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Gift Wrap]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Gift Wrap]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ Strategically, this escape represents your primary pathway out of a position tha
 
 ## Opponent Counters
 
-- **Opponent follows hip escape and maintains chest connection** (Effectiveness: High) - Your Response: Continue sequential hip escapes in same direction, creating more cumulative space. Eventually the gap becomes too large to follow while maintaining Gift Wrap control. Three to four consecutive escapes typically break their connection. → Leads to [[Gift Wrap]]
-- **Opponent tightens arm trap and flattens you when sensing escape attempt** (Effectiveness: High) - Your Response: Abort escape attempt and reset to defensive posture. Wait for next opportunity when they commit to submission attack, which requires loosening positional control. Patience is essential against disciplined opponents. → Leads to [[Gift Wrap]]
-- **Opponent transitions to mounted Gift Wrap during escape** (Effectiveness: Medium) - Your Response: Accept the mount transition but use the weight shift to accelerate your hip escape. The mount attempt momentarily loosens the arm trap as they adjust position, creating an arm extraction opportunity. → Leads to [[Mount]]
-- **Opponent attacks rear naked choke as you focus on hip escape** (Effectiveness: High) - Your Response: Immediately stop escape and return to two-handed choke defense if possible. Survival takes absolute priority over positional escape. Reset escape sequence after successfully defending the submission attempt. → Leads to [[Gift Wrap]]
+- **Opponent follows hip escape and maintains chest connection** (Effectiveness: High) - Your Response: Continue sequential hip escapes in same direction, creating more cumulative space. Eventually the gap becomes too large to follow while maintaining Gift Wrap control. Three to four consecutive escapes typically break their connection. → Leads to [[Positions/Gift Wrap]]
+- **Opponent tightens arm trap and flattens you when sensing escape attempt** (Effectiveness: High) - Your Response: Abort escape attempt and reset to defensive posture. Wait for next opportunity when they commit to submission attack, which requires loosening positional control. Patience is essential against disciplined opponents. → Leads to [[Positions/Gift Wrap]]
+- **Opponent transitions to mounted Gift Wrap during escape** (Effectiveness: Medium) - Your Response: Accept the mount transition but use the weight shift to accelerate your hip escape. The mount attempt momentarily loosens the arm trap as they adjust position, creating an arm extraction opportunity. → Leads to [[Positions/Mount]]
+- **Opponent attacks rear naked choke as you focus on hip escape** (Effectiveness: High) - Your Response: Immediately stop escape and return to two-handed choke defense if possible. Survival takes absolute priority over positional escape. Reset escape sequence after successfully defending the submission attempt. → Leads to [[Positions/Gift Wrap]]
 
 
 </section>

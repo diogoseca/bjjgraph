@@ -178,7 +178,7 @@ What makes the Scissor Sweep particularly effective is its reliance on timing an
 
 The Scissor Sweep integrates seamlessly into the closed guard attack system, working in combination with other sweeps like the Hip Bump and Pendulum Sweep. When opponents defend one sweep, they often create the opening for another, establishing a systematic approach to attacking from guard. Mastering this technique provides practitioners with a cornerstone skill that remains effective throughout their BJJ journey.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ The Scissor Sweep integrates seamlessly into the closed guard attack system, wor
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 75% |
-| Failure | [[Closed Guard]] | 15% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Mount]] | 75% |
+| Failure | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ The Scissor Sweep integrates seamlessly into the closed guard attack system, wor
 
 ## Opponent Counters
 
-- **Opponent posts with their free hand to prevent being swept** (Effectiveness: Medium) - Your Response: Switch to attacking the posted arm with a kimura or armbar, or transition to a different sweep like the Hip Bump if they commit weight to the post → Leads to [[Closed Guard]]
-- **Opponent establishes strong posture and pulls back, preventing forward weight commitment** (Effectiveness: High) - Your Response: Transition to a Pendulum Sweep on the opposite side, or use their backward weight shift to attempt a Hip Bump Sweep → Leads to [[Closed Guard]]
-- **Opponent steps over your bottom leg to prevent the scissor motion** (Effectiveness: Medium) - Your Response: Convert to a Hook Sweep using the top leg as a hook, or transition to Flower Sweep by switching your leg positioning → Leads to [[Closed Guard]]
-- **Opponent grips your pants at the knees to control your legs** (Effectiveness: Low) - Your Response: Use your grips to break their posture more aggressively, or kick your legs free while pulling them forward to disrupt their grip → Leads to [[Closed Guard]]
+- **Opponent posts with their free hand to prevent being swept** (Effectiveness: Medium) - Your Response: Switch to attacking the posted arm with a kimura or armbar, or transition to a different sweep like the Hip Bump if they commit weight to the post → Leads to [[Positions/Closed Guard]]
+- **Opponent establishes strong posture and pulls back, preventing forward weight commitment** (Effectiveness: High) - Your Response: Transition to a Pendulum Sweep on the opposite side, or use their backward weight shift to attempt a Hip Bump Sweep → Leads to [[Positions/Closed Guard]]
+- **Opponent steps over your bottom leg to prevent the scissor motion** (Effectiveness: Medium) - Your Response: Convert to a Hook Sweep using the top leg as a hook, or transition to Flower Sweep by switching your leg positioning → Leads to [[Positions/Closed Guard]]
+- **Opponent grips your pants at the knees to control your legs** (Effectiveness: Low) - Your Response: Use your grips to break their posture more aggressively, or kick your legs free while pulling them forward to disrupt their grip → Leads to [[Positions/Closed Guard]]
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Execute the bridge escape from Modified Mount with precise directi
 
 As the attacker executing the bridge escape from Modified Mount, your primary objective is to exploit the directional vulnerability created by the top player's asymmetric weight distribution. The posted leg, while providing excellent stability against bridges from the opposite direction, becomes a structural weakness when force is directed specifically toward it. Your task is to identify the posted leg through tactile recognition, establish proper foot positioning and frames, generate explosive directional hip power, and immediately follow through by capturing the posted leg to establish half guard. This escape requires disciplined sequencing rather than raw explosiveness, as the window for leg capture exists only briefly during the bridge's peak displacement. The technique rewards practitioners who combine precise timing with mechanical efficiency, directing maximum force along the optimal vector rather than simply bridging as hard as possible in a random direction.
 
-**From Position**: [[Modified Mount]] (Bottom)
+**From Position**: [[Positions/Mount/Modified Mount]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the bridge escape from Modified Mount, your primary ob
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Failure | [[Modified Mount]] | 35% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Failure | [[Positions/Mount/Modified Mount]] | 35% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the bridge escape from Modified Mount, your primary ob
 
 ## Opponent Counters
 
-- **Top player widens base by driving posted foot deeper into mat and lowering center of gravity to absorb bridge force** (Effectiveness: High) - Your Response: If the initial bridge direction is fully absorbed, immediately chain to a hip escape toward the opposite side or switch to frame-based escape using the space created by their base widening → Leads to [[Modified Mount]]
-- **Top player threatens armbar on the near-side arm as you commit to the bridge, forcing you to abandon the escape for arm defense** (Effectiveness: High) - Your Response: Immediately retract the bridge, bring your near-side elbow tight to your hip, and clasp your hands together to form a two-arm defensive structure before re-attempting the escape → Leads to [[Modified Mount]]
-- **Top player uses the bridge momentum to withdraw posted leg and consolidate to standard mount with symmetrical base** (Effectiveness: Medium) - Your Response: Recognize the transition and immediately switch to standard mount escape techniques like the upa or hip escape since the bridge has removed the Modified Mount configuration → Leads to [[Mount]]
-- **Top player drives heavy crossface pressure before the bridge develops, pinning your head and preventing the directional hip movement needed for the escape** (Effectiveness: Medium) - Your Response: Address the crossface first by framing on their elbow or turning your head toward the crossface side to create space before re-attempting the bridge sequence → Leads to [[Modified Mount]]
+- **Top player widens base by driving posted foot deeper into mat and lowering center of gravity to absorb bridge force** (Effectiveness: High) - Your Response: If the initial bridge direction is fully absorbed, immediately chain to a hip escape toward the opposite side or switch to frame-based escape using the space created by their base widening → Leads to [[Positions/Mount/Modified Mount]]
+- **Top player threatens armbar on the near-side arm as you commit to the bridge, forcing you to abandon the escape for arm defense** (Effectiveness: High) - Your Response: Immediately retract the bridge, bring your near-side elbow tight to your hip, and clasp your hands together to form a two-arm defensive structure before re-attempting the escape → Leads to [[Positions/Mount/Modified Mount]]
+- **Top player uses the bridge momentum to withdraw posted leg and consolidate to standard mount with symmetrical base** (Effectiveness: Medium) - Your Response: Recognize the transition and immediately switch to standard mount escape techniques like the upa or hip escape since the bridge has removed the Modified Mount configuration → Leads to [[Positions/Mount]]
+- **Top player drives heavy crossface pressure before the bridge develops, pinning your head and preventing the directional hip movement needed for the escape** (Effectiveness: Medium) - Your Response: Address the crossface first by framing on their elbow or turning your head toward the crossface side to create space before re-attempting the bridge sequence → Leads to [[Positions/Mount/Modified Mount]]
 
 
 </section>

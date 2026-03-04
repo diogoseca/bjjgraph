@@ -21,7 +21,7 @@ The fundamental challenge of escaping the Shoulder of Justice lies in its built-
 
 Success with this technique requires patience, composure under extreme physical duress, and precise recognition of the opponent's weight distribution patterns. The escape rewards practitioners who maintain calm nasal breathing despite jaw pressure, identify momentary weight shifts as escape windows, and execute a sequential process of pressure relief, space creation, knee shield insertion, and half guard consolidation. When integrated with other defensive options from the Shoulder of Justice bottom position, this escape creates an unpredictable defensive system that forces the top player to commit energy to maintaining position rather than freely advancing attacks.
 
-**From Position**: [[Shoulder of Justice]] (Bottom)
+**From Position**: [[Positions/Shoulder of Justice]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Success with this technique requires patience, composure under extreme physical 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Shoulder of Justice]] | 40% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Shoulder of Justice]] | 40% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Escape from Shoulder of Justice occupies a critical role within the side con
 ## Related Techniques
 
 
-- [[Shoulder of Justice]] - Source position - this escape begins from Shoulder of Justice bottom when trapped under intense jaw pressure
+- [[Positions/Shoulder of Justice]] - Source position - this escape begins from Shoulder of Justice bottom when trapped under intense jaw pressure
 
-- [[Half Guard]] - Primary target position - successful escape recovers to half guard for offensive guard play
+- [[Positions/Half Guard]] - Primary target position - successful escape recovers to half guard for offensive guard play
 
-- [[Side Control]] - Parent position category - Shoulder of Justice is a specialized side control variant requiring specific escape mechanics
+- [[Positions/Side Control]] - Parent position category - Shoulder of Justice is a specialized side control variant requiring specific escape mechanics
 
-- [[Mount]] - Counter outcome threat - failed escape attempt may allow opponent to advance to mount position
+- [[Positions/Mount]] - Counter outcome threat - failed escape attempt may allow opponent to advance to mount position
 
-- [[Knee Shield Half Guard]] - Intermediate recovery position - knee shield insertion is a key step in completing the escape sequence
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Intermediate recovery position - knee shield insertion is a key step in completing the escape sequence
 
-- [[Kimura Trap]] - Primary submission threat - extending near arm during escape attempt exposes high-percentage kimura attack
+- [[Positions/Kimura Trap]] - Primary submission threat - extending near arm during escape attempt exposes high-percentage kimura attack
 
-- [[North-South]] - Alternative threat position - turning into shoulder pressure opens north-south transition for top player
+- [[Positions/North-South]] - Alternative threat position - turning into shoulder pressure opens north-south transition for top player
 
-- [[Escape Modified Scarf Hold]] - Similar escape technique - shares framing and hip escape mechanics from related side control variant
+- [[Transitions/Escape Modified Scarf Hold]] - Similar escape technique - shares framing and hip escape mechanics from related side control variant
 
-- [[Bridge Escape from Kesa Gatame]] - Related escape concept - similar bridge-based displacement mechanics applicable to side control escapes
+- [[Transitions/Bridge Escape from Kesa Gatame]] - Related escape concept - similar bridge-based displacement mechanics applicable to side control escapes
 
-- [[Closed Guard]] - Alternative recovery target - full guard recovery possible if sufficient space is created during escape
+- [[Positions/Closed Guard]] - Alternative recovery target - full guard recovery possible if sufficient space is created during escape
 
 
 </section>

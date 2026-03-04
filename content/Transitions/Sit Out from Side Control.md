@@ -21,7 +21,7 @@ The technique relies on creating just enough space at the hips to establish a kn
 
 Strategically, the sit-out carries higher risk than standard escapes due to the brief back exposure during the rotation phase. However, this risk is offset by its effectiveness against heavy crossface pressure and hip-dominant control styles that neutralize shrimping. The technique is best deployed when the opponent commits weight toward your upper body, creating the hip space needed to initiate the base-building phase. Timing the sit-out during the opponent's transition between attacks or control adjustments dramatically increases success rates.
 
-**From Position**: [[Side Control]] (Bottom)
+**From Position**: [[Positions/Side Control]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the sit-out carries higher risk than standard escapes due to the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Scramble Position]] | 50% |
-| Failure | [[Side Control]] | 30% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Scramble Position]] | 50% |
+| Failure | [[Positions/Side Control]] | 30% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -191,21 +191,21 @@ The sit-out from side control occupies a critical niche in the bottom escape hie
 ## Related Techniques
 
 
-- [[Side Control]] - Starting position where the technique is initiated from the bottom
+- [[Positions/Side Control]] - Starting position where the technique is initiated from the bottom
 
-- [[Scramble Position]] - Primary target position reached upon successful sit-out completion
+- [[Positions/Scramble Position]] - Primary target position reached upon successful sit-out completion
 
-- [[Back Control]] - Counter position opponent may achieve if sit-out rotation exposes the back
+- [[Positions/Back Control]] - Counter position opponent may achieve if sit-out rotation exposes the back
 
-- [[Turtle]] - Intermediate position passed through during the sit-out transition from base to rotation
+- [[Positions/Turtle]] - Intermediate position passed through during the sit-out transition from base to rotation
 
-- [[Ghost Escape from Side Control]] - Alternative side control escape using similar initial space creation but different exit direction
+- [[Transitions/Ghost Escape from Side Control]] - Alternative side control escape using similar initial space creation but different exit direction
 
-- [[Escape Side Control Consolidation]] - Standard escape framework that the sit-out supplements as an alternative pathway
+- [[Transitions/Escape Side Control Consolidation]] - Standard escape framework that the sit-out supplements as an alternative pathway
 
-- [[Hip Escape from Side Control Consolidation]] - Complementary lateral escape technique contrasting the sit-out rotational approach
+- [[Transitions/Hip Escape from Side Control Consolidation]] - Complementary lateral escape technique contrasting the sit-out rotational approach
 
-- [[Scramble to Top Position]] - Follow-up transition available after reaching the scramble from a successful sit-out
+- [[Transitions/Scramble to Top Position]] - Follow-up transition available after reaching the scramble from a successful sit-out
 
 
 </section>

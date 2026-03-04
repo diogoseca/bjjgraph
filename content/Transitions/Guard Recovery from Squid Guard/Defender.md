@@ -148,7 +148,7 @@ description: "Prevent guard recovery from Squid Guard as the top player in BJJ. 
 
 As the top player against Squid Guard, the moment you strip the lapel grip or clear the threading leg is your highest-percentage opportunity to advance past the bottom player's guard. The Squid Guard's effectiveness depends entirely on the lapel threading and leg configuration working together—when either component fails, the entire guard structure collapses rapidly. Your objective is to capitalize on this collapse by preventing the bottom player from transitioning to closed guard, either by standing up to deny closure range, driving forward to pin their hips flat, or redirecting their legs into a passing sequence. The bottom player's recovery requires withdrawing the threading leg, hip escaping, and closing guard—each of these phases presents an exploitation opportunity for the aware top player.
 
-**Opponent's Starting Position**: [[Squid Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Squid Guard]] (Bottom)
 
 </section>
 
@@ -184,21 +184,21 @@ As the top player against Squid Guard, the moment you strip the lapel grip or cl
 ### 1. Redirect the threading leg to one side as it withdraws from the Squid Guard position, initiating a leg drag or toreando pass through the disorganized leg configuration
 
 - **When to use**: When the bottom player's threading leg is withdrawing from the Squid Guard position but has not yet reached the centerline
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Creates immediate passing lane on the side opposite the redirected leg, enabling leg drag or toreando pass completion
 - **Risk**: If redirection fails, bottom player may use the contact to accelerate their leg withdrawal and close guard faster
 
 ### 2. Stand up from the Squid Guard position immediately after stripping the lapel, creating vertical distance that prevents closed guard closure and enables standing passes
 
 - **When to use**: When the bottom player begins recovering their legs and guard closure appears imminent from kneeling position
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Prevents guard closure entirely and establishes standing passing position with full mobility advantage
 - **Risk**: Standing creates distance that may allow bottom player to establish feet-on-hips guard or re-thread the lapel
 
 ### 3. Drive heavy forward pressure and pin the bottom player's hips flat during the threading leg withdrawal, preventing the hip escape needed for guard closure angle
 
 - **When to use**: When the bottom player releases the lapel and begins withdrawing legs but has not yet hip escaped
-- **Targets**: [[Squid Guard]]
+- **Targets**: [[Positions/Squid Guard]]
 - **If successful**: Pins hips flat eliminating the lateral angle needed for guard closure, creating smash pass or stack pass opportunity
 - **Risk**: If bottom player has already hip escaped, forward pressure drives you directly into their closing guard
 
@@ -210,7 +210,7 @@ As the top player against Squid Guard, the moment you strip the lapel grip or cl
 
 ## Best-Case Outcomes for Defender
 
-### → [[Combat Base]]
+### → [[Positions/Combat Base]]
 
 Strip the lapel grip and immediately redirect the freed threading leg to one side for a leg drag pass, capitalizing on the disorganized leg positioning during the transition from Squid Guard to prevent the symmetric leg repositioning needed for guard closure
 

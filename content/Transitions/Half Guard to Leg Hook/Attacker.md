@@ -180,7 +180,7 @@ description: "Step-by-step guide to executing the Transition to Leg Hook from Ha
 
 As the attacker executing the Transition to Leg Hook, your objective is to convert your trapped leg in half guard into an active control tool by inserting a hook underneath or around the bottom player's defending leg. This requires a coordinated sequence of upper body pressure establishment, weight redistribution, and precise leg positioning that disrupts the bottom player's guard structure. The key insight is that you are not trying to escape the entanglement but rather to weaponize the leg contact. By establishing the hook, you gain control over the bottom player's hip mobility, prevent guard recovery, and create a stable platform for completing your pass through knee slice, leg drag, or direct pressure. The transition demands patience and proper sequencing, as premature hook attempts without established upper body control create sweep opportunities for the bottom player.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Transition to Leg Hook, your objective is to conve
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Leg Hook]] | 60% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Deep Half Guard]] | 15% |
+| Success | [[Positions/Leg Hook]] | 60% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Transition to Leg Hook, your objective is to conve
 
 ## Opponent Counters
 
-- **Bottom player hip escapes and recovers knee shield during hook insertion attempt** (Effectiveness: High) - Your Response: Increase forward pressure and re-establish crossface control before reattempting. Consider switching to a direct knee slice if the bottom player consistently recovers their shield during hook attempts. → Leads to [[Half Guard]]
-- **Bottom player ducks underneath during weight shift and enters deep half guard** (Effectiveness: High) - Your Response: Sprawl hips back immediately and whizzer the near-side arm. If they complete the deep half entry, you must address the deep half position before reattempting the hook. Keep hips low throughout the insertion to prevent this counter. → Leads to [[Deep Half Guard]]
-- **Bottom player bridges and attempts to sweep during the leg repositioning phase** (Effectiveness: Medium) - Your Response: Post the free leg wide and drive chest weight down onto their upper body. The bridge is only effective if you have lifted your weight during insertion. Maintain low hips and heavy pressure to absorb the bridge force. → Leads to [[Half Guard]]
-- **Bottom player locks down the trapped leg with a figure-four before hook can be established** (Effectiveness: Medium) - Your Response: Switch to lockdown-specific passing strategies. Use crossface pressure and gradually work to free the leg by driving your knee to the mat and circling your foot out of the entanglement before reattempting. → Leads to [[Half Guard]]
+- **Bottom player hip escapes and recovers knee shield during hook insertion attempt** (Effectiveness: High) - Your Response: Increase forward pressure and re-establish crossface control before reattempting. Consider switching to a direct knee slice if the bottom player consistently recovers their shield during hook attempts. → Leads to [[Positions/Half Guard]]
+- **Bottom player ducks underneath during weight shift and enters deep half guard** (Effectiveness: High) - Your Response: Sprawl hips back immediately and whizzer the near-side arm. If they complete the deep half entry, you must address the deep half position before reattempting the hook. Keep hips low throughout the insertion to prevent this counter. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Bottom player bridges and attempts to sweep during the leg repositioning phase** (Effectiveness: Medium) - Your Response: Post the free leg wide and drive chest weight down onto their upper body. The bridge is only effective if you have lifted your weight during insertion. Maintain low hips and heavy pressure to absorb the bridge force. → Leads to [[Positions/Half Guard]]
+- **Bottom player locks down the trapped leg with a figure-four before hook can be established** (Effectiveness: Medium) - Your Response: Switch to lockdown-specific passing strategies. Use crossface pressure and gradually work to free the leg by driving your knee to the mat and circling your foot out of the entanglement before reattempting. → Leads to [[Positions/Half Guard]]
 
 
 </section>

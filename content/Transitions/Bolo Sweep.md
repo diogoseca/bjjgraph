@@ -19,7 +19,7 @@ The Bolo Sweep, short for Berimbolo, is one of the most revolutionary techniques
 
 What makes the Bolo particularly powerful is its scalability - it can be executed as a pure sweep to off-balance and reverse positions, or it can seamlessly transition into back-taking sequences when the opponent attempts to defend the initial sweep. The technique has become a cornerstone of modern sport BJJ competition, particularly in the lighter weight divisions where flexibility and speed can be maximized. The Bolo creates a dilemma structure where defending the sweep exposes the back and defending the back take opens the sweep, forcing opponents into reactive decision-making under rotational pressure.
 
-**From Position**: [[De La Riva Guard]] (Bottom)
+**From Position**: [[Positions/De La Riva Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -30,9 +30,9 @@ What makes the Bolo particularly powerful is its scalability - it can be execute
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[De La Riva Guard]] | 30% |
-| Counter | [[De La Riva Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/De La Riva Guard]] | 30% |
+| Counter | [[Positions/De La Riva Guard]] | 15% |
 
 
 </section>
@@ -187,25 +187,25 @@ The Bolo Sweep is the centerpiece technique of modern De La Riva guard systems, 
 ## Related Techniques
 
 
-- [[Berimbolo Entry]] - Alternative systematic entry method from the same guard with similar rotational mechanics
+- [[Transitions/Berimbolo Entry]] - Alternative systematic entry method from the same guard with similar rotational mechanics
 
-- [[De La Riva Sweep]] - Foundational technique from same position that chains directly into Bolo when defended
+- [[Transitions/De La Riva Sweep]] - Foundational technique from same position that chains directly into Bolo when defended
 
-- [[Kiss of the Dragon]] - Complementary inversion attack creating two-directional rotational threat system
+- [[Transitions/Kiss of the Dragon]] - Complementary inversion attack creating two-directional rotational threat system
 
-- [[De La Riva to X-Guard Transition]] - Alternative transition when Bolo is defended by step-over or weight retraction
+- [[Transitions/De La Riva to X-Guard Transition]] - Alternative transition when Bolo is defended by step-over or weight retraction
 
-- [[Reverse De La Riva Guard]] - Related guard position with similar inversion mechanics enabling reverse Bolo entries
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Related guard position with similar inversion mechanics enabling reverse Bolo entries
 
-- [[Arm Drag to Back]] - Alternative back-taking method without inversion for opponents who deny rotation angles
+- [[Transitions/Arm Drag to Back]] - Alternative back-taking method without inversion for opponents who deny rotation angles
 
-- [[Crab Ride to Back]] - Follow-up control position after Bolo rotation when full back control is contested
+- [[Transitions/Crab Ride to Back]] - Follow-up control position after Bolo rotation when full back control is contested
 
-- [[Back Control]] - Primary target position after successful Bolo completion with hooks and seatbelt
+- [[Positions/Back Control]] - Primary target position after successful Bolo completion with hooks and seatbelt
 
-- [[Inverted Guard]] - Related inversion position sharing similar body mechanics and spatial awareness requirements
+- [[Positions/Inverted Guard]] - Related inversion position sharing similar body mechanics and spatial awareness requirements
 
-- [[Balloon Sweep]] - Complementary De La Riva sweep creating elevation-based threat alongside Bolo's rotational threat
+- [[Transitions/Balloon Sweep]] - Complementary De La Riva sweep creating elevation-based threat alongside Bolo's rotational threat
 
 
 </section>

@@ -184,7 +184,7 @@ The technique is particularly effective against opponents who maintain an uprigh
 
 This sweep serves as a cornerstone technique in modern no-gi grappling and has been refined by competitive grapplers who utilize seated guard as a primary defensive and offensive position. The Ankle Pick Sweep can be executed with minimal energy expenditure when timed correctly, making it an excellent option for practitioners of all sizes and strength levels. Its effectiveness lies in the mechanical advantage created rather than relying on superior strength or athleticism.
 
-**From Position**: [[Seated Guard]] (Bottom)
+**From Position**: [[Positions/Seated Guard]] (Bottom)
 
 </section>
 
@@ -238,9 +238,9 @@ This sweep serves as a cornerstone technique in modern no-gi grappling and has b
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Headquarters Position]] | 55% |
-| Failure | [[Seated Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Headquarters Position]] | 55% |
+| Failure | [[Positions/Seated Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -249,11 +249,11 @@ This sweep serves as a cornerstone technique in modern no-gi grappling and has b
 
 ## Opponent Counters
 
-- **Opponent posts their free hand to the mat when being swept** (Effectiveness: High) - Your Response: Transition to attacking the posted arm with a kimura or arm drag, or switch to sweeping the opposite ankle if their weight shifts → Leads to [[Seated Guard]]
-- **Opponent hops over the sweep with the attacked leg** (Effectiveness: Medium) - Your Response: Follow their movement by maintaining ankle grip and continuing to pull, converting to a single leg takedown finish or switching to attack the other ankle → Leads to [[Seated Guard]]
-- **Opponent sprawls backward and pulls their ankle away** (Effectiveness: Medium) - Your Response: Use their backward motion to transition to a single leg X-guard entry or come up to your knees and pursue with a single leg attack → Leads to [[Seated Guard]]
-- **Opponent breaks your upper body grip before you can execute sweep** (Effectiveness: High) - Your Response: Immediately switch to a two-on-one grip on the ankle and come up to standing for a single leg finish, or transition to butterfly guard → Leads to [[Seated Guard]]
-- **Opponent drives forward aggressively, smashing through your seated guard to establish top pressure** (Effectiveness: Low) - Your Response: Use their forward momentum against them by inserting butterfly hooks and executing an elevator sweep, or transition to closed guard if they close distance → Leads to [[Half Guard]]
+- **Opponent posts their free hand to the mat when being swept** (Effectiveness: High) - Your Response: Transition to attacking the posted arm with a kimura or arm drag, or switch to sweeping the opposite ankle if their weight shifts → Leads to [[Positions/Seated Guard]]
+- **Opponent hops over the sweep with the attacked leg** (Effectiveness: Medium) - Your Response: Follow their movement by maintaining ankle grip and continuing to pull, converting to a single leg takedown finish or switching to attack the other ankle → Leads to [[Positions/Seated Guard]]
+- **Opponent sprawls backward and pulls their ankle away** (Effectiveness: Medium) - Your Response: Use their backward motion to transition to a single leg X-guard entry or come up to your knees and pursue with a single leg attack → Leads to [[Positions/Seated Guard]]
+- **Opponent breaks your upper body grip before you can execute sweep** (Effectiveness: High) - Your Response: Immediately switch to a two-on-one grip on the ankle and come up to standing for a single leg finish, or transition to butterfly guard → Leads to [[Positions/Seated Guard]]
+- **Opponent drives forward aggressively, smashing through your seated guard to establish top pressure** (Effectiveness: Low) - Your Response: Use their forward momentum against them by inserting butterfly hooks and executing an elevator sweep, or transition to closed guard if they close distance → Leads to [[Positions/Half Guard]]
 
 
 </section>

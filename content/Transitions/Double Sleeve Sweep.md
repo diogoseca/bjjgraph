@@ -21,7 +21,7 @@ This sweep serves as the signature offensive technique from Double Sleeve Guard,
 
 At intermediate and advanced levels, the Double Sleeve Sweep becomes the entry point for a broader sweep chain system. When the opponent defends the primary sweep direction by posting wide, the bottom player can redirect to an overhead sweep using both feet on hips. When the opponent drives forward to prevent the overhead, the scissor variation becomes available. This adaptability makes the sweep difficult to defend against skilled practitioners who can read weight distribution and redirect force accordingly.
 
-**From Position**: [[Double Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ At intermediate and advanced levels, the Double Sleeve Sweep becomes the entry p
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Double Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Double Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -189,27 +189,27 @@ The Double Sleeve Sweep integrates into the Double Sleeve Guard system as the pr
 ## Related Techniques
 
 
-- [[Double Sleeve Guard]] - Source position providing the bilateral sleeve control framework for this sweep
+- [[Positions/Double Sleeve Guard]] - Source position providing the bilateral sleeve control framework for this sweep
 
-- [[Mount]] - Primary target position reached on successful sweep completion
+- [[Positions/Mount]] - Primary target position reached on successful sweep completion
 
-- [[Open Guard]] - Fallback position when opponent counters the sweep and breaks grip control
+- [[Positions/Open Guard]] - Fallback position when opponent counters the sweep and breaks grip control
 
-- [[Armbar Setup from Double Sleeve]] - Complementary attack from same position creating sweep-submission dilemma
+- [[Transitions/Armbar Setup from Double Sleeve]] - Complementary attack from same position creating sweep-submission dilemma
 
-- [[Tripod Sweep]] - Related sweep sharing open guard mechanics and similar weight-distribution reads
+- [[Transitions/Tripod Sweep]] - Related sweep sharing open guard mechanics and similar weight-distribution reads
 
-- [[Sickle Sweep]] - Chain sweep option when opponent defends the Double Sleeve Sweep direction
+- [[Transitions/Sickle Sweep]] - Chain sweep option when opponent defends the Double Sleeve Sweep direction
 
-- [[Scissor Sweep from Open Guard]] - Similar sweeping mechanic using shin barrier combined with directional pull
+- [[Transitions/Scissor Sweep from Open Guard]] - Similar sweeping mechanic using shin barrier combined with directional pull
 
-- [[Spider Guard]] - Natural guard transition when opponent extends arms during sweep defense
+- [[Positions/Spider Guard]] - Natural guard transition when opponent extends arms during sweep defense
 
-- [[Collar Sleeve Guard]] - Alternative grip configuration sharing one sleeve control for mixed attacks
+- [[Positions/Collar Sleeve Guard]] - Alternative grip configuration sharing one sleeve control for mixed attacks
 
-- [[Lasso Guard]] - Guard transition option when opponent circles to defend the lateral sweep
+- [[Positions/Lasso Guard]] - Guard transition option when opponent circles to defend the lateral sweep
 
-- [[Flower Sweep]] - Related sweep concept using directional off-balancing from guard bottom
+- [[Transitions/Flower Sweep]] - Related sweep concept using directional off-balancing from guard bottom
 
 
 </section>

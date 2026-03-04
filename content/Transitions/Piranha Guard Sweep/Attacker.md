@@ -180,7 +180,7 @@ description: "Learn to execute the Piranha Guard Sweep in BJJ. Step-by-step guid
 
 The Piranha Guard Sweep leverages the unique lapel-through-legs configuration to generate exceptional sweeping power that standard open guards cannot match. As the attacker, your primary objective is to combine lapel tension with coordinated hip movement and hook elevation to off-balance the opponent and complete the reversal to mount. The technique rewards patience in setup and explosive commitment during execution, requiring you to read the opponent's weight distribution and time the sweep during their forward weight shift or grip stripping attempts. Mastery of this sweep transforms the Piranha Guard from a control position into an aggressive mount-hunting system that chains seamlessly into back takes and submissions when the primary sweep is defended.
 
-**From Position**: [[Piranha Guard]] (Bottom)
+**From Position**: [[Positions/Piranha Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The Piranha Guard Sweep leverages the unique lapel-through-legs configuration to
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Piranha Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Piranha Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Piranha Guard Sweep leverages the unique lapel-through-legs configuration to
 
 ## Opponent Counters
 
-- **Opponent widens base and drops hips low to prevent hook elevation and resist off-balancing** (Effectiveness: High) - Your Response: Transition to collar drag or berimbolo entry since their widened base exposes the back, or switch to the opposite side hook sweep to attack the new base direction → Leads to [[Piranha Guard]]
-- **Opponent strips primary lapel grip with two-on-one break during sweep setup phase** (Effectiveness: High) - Your Response: Immediately re-thread the lapel if possible, or transition to De La Riva or Collar Sleeve Guard using the remaining hook to maintain distance and prevent the pass → Leads to [[Open Guard]]
-- **Opponent posts free hand on the mat to create additional base point in the sweep direction** (Effectiveness: Medium) - Your Response: Switch sweep direction to attack the posting-arm side where base is compromised, or set up an omoplata on the posted arm that is now extended away from their body → Leads to [[Piranha Guard]]
-- **Opponent drives forward aggressively to stack and pin bottom player's hips to the mat** (Effectiveness: Medium) - Your Response: Use their forward momentum to accelerate the sweep by pulling them over your hook, timing the elevation with their forward drive for a momentum-based reversal → Leads to [[Piranha Guard]]
+- **Opponent widens base and drops hips low to prevent hook elevation and resist off-balancing** (Effectiveness: High) - Your Response: Transition to collar drag or berimbolo entry since their widened base exposes the back, or switch to the opposite side hook sweep to attack the new base direction → Leads to [[Positions/Piranha Guard]]
+- **Opponent strips primary lapel grip with two-on-one break during sweep setup phase** (Effectiveness: High) - Your Response: Immediately re-thread the lapel if possible, or transition to De La Riva or Collar Sleeve Guard using the remaining hook to maintain distance and prevent the pass → Leads to [[Positions/Open Guard]]
+- **Opponent posts free hand on the mat to create additional base point in the sweep direction** (Effectiveness: Medium) - Your Response: Switch sweep direction to attack the posting-arm side where base is compromised, or set up an omoplata on the posted arm that is now extended away from their body → Leads to [[Positions/Piranha Guard]]
+- **Opponent drives forward aggressively to stack and pin bottom player's hips to the mat** (Effectiveness: Medium) - Your Response: Use their forward momentum to accelerate the sweep by pulling them over your hook, timing the elevation with their forward drive for a momentum-based reversal → Leads to [[Positions/Piranha Guard]]
 
 
 </section>

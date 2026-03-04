@@ -172,7 +172,7 @@ The fundamental defensive principle is prevention over escape. Stripping the lap
 
 When caught in a developing ringworm entry, the defender should prioritize addressing the weaker control point first. If the arm wrap is still incomplete, strip it immediately before it consolidates. If the leg entanglement is looser, backstep or stand to create extraction angles. The worst response is passivity—allowing the bottom player time to adjust tension and establish optimal angles for their sweep and back take threats.
 
-**Opponent's Starting Position**: [[Lapel Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -209,35 +209,35 @@ When caught in a developing ringworm entry, the defender should prioritize addre
 ### 1. Strip the lapel grip and recover posture before the arm wrap completes
 
 - **When to use**: Early in the entry when bottom player is still threading lapel from leg to arm—the configuration is weakest during this transition
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Reset to basic lapel guard defense where you face a single control point rather than dual entanglement
 - **Risk**: If you fail to strip the grip cleanly, reaching for the lapel with both hands can expose your arm further to the capture
 
 ### 2. Backstep around the leg entanglement while keeping arm tight to body
 
 - **When to use**: When worm guard is established but the arm capture has not begun or is in early stages—use your footwork to change the angle
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You clear the lapel entanglement and end up in a passing position with the opponent in half guard or open guard
 - **Risk**: If you backstep without maintaining defensive posture, the bottom player can follow your rotation and take your back
 
 ### 3. Stand up explosively and create distance to reset the engagement
 
 - **When to use**: When both grips are partially established but not yet consolidated—standing changes the angles and reduces lapel tension effectiveness
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Distance creation resets to standing guard passing where ringworm configuration is much harder to maintain
 - **Risk**: Bottom player may follow you up and convert to technical standup sweeps or maintain enough tension to pull you back down
 
 ### 4. Drive heavy forward pressure to collapse the bottom player's structure before configuration completes
 
 - **When to use**: When the bottom player is still on their back adjusting the lapel threading and hasn't established their angled hip position yet
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Smashing the bottom player flat eliminates the angles needed for ringworm mechanics and can lead to a half guard pass
 - **Risk**: If the bottom player has already loaded sweep mechanics, your forward pressure adds momentum to their sweep
 
 ### 5. Retract posting arm and establish collar grip to control distance and prevent arm capture
 
 - **When to use**: When you recognize the bottom player shifting from worm guard attacks to reaching for your posting arm—proactive arm protection
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Denies the arm capture that converts worm guard to ringworm, keeping the fight in single-control-point territory
 - **Risk**: Retracting your arm reduces your base and posting ability, potentially making you vulnerable to basic worm guard sweeps
 
@@ -249,11 +249,11 @@ When caught in a developing ringworm entry, the defender should prioritize addre
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lapel Guard]]
+### → [[Positions/Lapel Guard]]
 
 Strip the lapel grip or recover posture before the arm wrap consolidates. Use both hands to peel the lapel fabric from your arm while maintaining heavy hip pressure. Alternatively, stand up to change the angle and reduce the effectiveness of the lapel tension. The goal is to reduce the configuration back to basic worm guard or reset entirely.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Execute a backstep around the leg entanglement, using the rotation to clear the lapel wrap from your leg while keeping your arm tight. Drive your shoulder pressure through the backstep to prevent the bottom player from following your movement. Even if you don't clear the lapel completely, the angle change often results in a half guard position where you have significant passing advantages.
 

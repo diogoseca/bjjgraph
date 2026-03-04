@@ -180,7 +180,7 @@ description: "Master the attacker perspective for Outside Ashi to Inside Ashi co
 
 As the attacker executing the Outside Ashi to Inside Ashi transition, you are the practitioner whose leg is currently trapped in your opponent's Outside Ashi-Garami. Your objective is to reverse the positional dynamic by establishing your own Inside Ashi-Garami on the opponent's leg, transforming from the person being attacked to the person attacking. This requires reading your opponent's leg triangle tension, identifying threading windows, and executing the counter-entanglement with commitment and precision. The key insight driving this technique is that your opponent's legs, while controlling your limb, are themselves vulnerable to being entangled. Your free leg becomes the primary weapon, threading across their hip to establish the foundational inside ashi configuration. Successful execution demands that you balance heel protection with offensive opportunity recognition—you must never sacrifice safety for the counter-attack, but you must also recognize and exploit windows of opportunity before they close.
 
-**From Position**: [[Outside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Outside Ashi to Inside Ashi transition, you are th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 55% |
-| Failure | [[Outside Ashi-Garami]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 55% |
+| Failure | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Outside Ashi to Inside Ashi transition, you are th
 
 ## Opponent Counters
 
-- **Opponent tightens leg triangle to prevent free leg from threading across hip** (Effectiveness: High) - Your Response: Switch to gradual pummeling approach with incremental leg advances, or temporarily threaten a counter heel hook on their controlling leg to force them to loosen triangle defensively → Leads to [[Outside Ashi-Garami]]
-- **Opponent attacks heel hook during transition when your focus shifts to counter-entanglement** (Effectiveness: Medium) - Your Response: Immediately abort the counter-entanglement and return to heel protection as primary priority. Tuck heel inward, rotate hip internally, and re-establish defensive posture before attempting transition again → Leads to [[Outside Ashi-Garami]]
-- **Opponent disengages their ashi entirely and works to recover guard or pass to top position** (Effectiveness: Medium) - Your Response: Pursue the disengaging opponent aggressively with your partially established inside ashi position. If they create too much distance, transition to top position and initiate passing rather than chasing the entanglement → Leads to [[Half Guard]]
-- **Opponent pushes your threading leg off their hip with hands before inside position is established** (Effectiveness: High) - Your Response: Wait for their push to exhaust then re-thread during the relaxation phase. Consider switching to the explosive hip switch variant to beat their hand-clearing reaction time on the next attempt → Leads to [[Outside Ashi-Garami]]
+- **Opponent tightens leg triangle to prevent free leg from threading across hip** (Effectiveness: High) - Your Response: Switch to gradual pummeling approach with incremental leg advances, or temporarily threaten a counter heel hook on their controlling leg to force them to loosen triangle defensively → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Opponent attacks heel hook during transition when your focus shifts to counter-entanglement** (Effectiveness: Medium) - Your Response: Immediately abort the counter-entanglement and return to heel protection as primary priority. Tuck heel inward, rotate hip internally, and re-establish defensive posture before attempting transition again → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Opponent disengages their ashi entirely and works to recover guard or pass to top position** (Effectiveness: Medium) - Your Response: Pursue the disengaging opponent aggressively with your partially established inside ashi position. If they create too much distance, transition to top position and initiate passing rather than chasing the entanglement → Leads to [[Positions/Half Guard]]
+- **Opponent pushes your threading leg off their hip with hands before inside position is established** (Effectiveness: High) - Your Response: Wait for their push to exhaust then re-thread during the relaxation phase. Consider switching to the explosive hip switch variant to beat their hand-clearing reaction time on the next attempt → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 
 </section>

@@ -184,7 +184,7 @@ Strategically, this transition serves as a critical component of the back attack
 
 The key to success lies in recognizing the correct timing window: when the opponent commits both hands to neck defense, their arm structure becomes vulnerable. You must transition decisively, maintaining control throughout the movement from back to armbar position. Hesitation allows the opponent to retract their arms, recover posture, or exploit the positional instability inherent in standing transitions. Advanced practitioners chain this attack with choke attempts, creating a dilemma where defending one threat opens vulnerability to the other.
 
-**From Position**: [[Standing Back Control]] (Top)
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
 
@@ -237,9 +237,9 @@ The key to success lies in recognizing the correct timing window: when the oppon
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 65% |
-| Failure | [[Standing Back Control]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Armbar Control]] | 65% |
+| Failure | [[Positions/Back Control/Standing Back Control]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -248,11 +248,11 @@ The key to success lies in recognizing the correct timing window: when the oppon
 
 ## Opponent Counters
 
-- **Opponent retracts arm quickly when they feel the transition beginning, pulling elbow tight to body** (Effectiveness: High) - Your Response: Transition back to rear naked choke attack since their arm retraction opens neck access, or switch to the opposite arm if it remains exposed → Leads to [[Standing Back Control]]
-- **Opponent turns into you during the transition, attempting to face you and recover guard** (Effectiveness: Medium) - Your Response: Use your leg across their face to block the turn. If they complete partial rotation, transition to mounted triangle or armbar from mount. Use the rotation to maintain top position. → Leads to [[Standing Back Control]]
-- **Opponent stacks forward during descent, driving weight into you to prevent hip extension** (Effectiveness: Medium) - Your Response: Maintain control and transition to belly-down armbar variation, or use the momentum to sweep them and finish from top armbar position → Leads to [[Armbar Control]]
-- **Opponent grips their own hands together in defensive configuration to prevent arm isolation** (Effectiveness: Medium) - Your Response: Attack the grip by peeling fingers or transitioning to wristlock on the gripped hands, or pummel to two-on-one to break the defensive grip before continuing the armbar → Leads to [[Armbar Control]]
-- **Opponent drops to turtle during the transition, curling into defensive posture and pulling arm tight** (Effectiveness: Medium) - Your Response: If arm control is maintained, continue the armbar finish from the new angle. If arm is lost, transition to turtle top attacks including front headlock, back take, or crucifix → Leads to [[Turtle]]
+- **Opponent retracts arm quickly when they feel the transition beginning, pulling elbow tight to body** (Effectiveness: High) - Your Response: Transition back to rear naked choke attack since their arm retraction opens neck access, or switch to the opposite arm if it remains exposed → Leads to [[Positions/Back Control/Standing Back Control]]
+- **Opponent turns into you during the transition, attempting to face you and recover guard** (Effectiveness: Medium) - Your Response: Use your leg across their face to block the turn. If they complete partial rotation, transition to mounted triangle or armbar from mount. Use the rotation to maintain top position. → Leads to [[Positions/Back Control/Standing Back Control]]
+- **Opponent stacks forward during descent, driving weight into you to prevent hip extension** (Effectiveness: Medium) - Your Response: Maintain control and transition to belly-down armbar variation, or use the momentum to sweep them and finish from top armbar position → Leads to [[Positions/Armbar Control]]
+- **Opponent grips their own hands together in defensive configuration to prevent arm isolation** (Effectiveness: Medium) - Your Response: Attack the grip by peeling fingers or transitioning to wristlock on the gripped hands, or pummel to two-on-one to break the defensive grip before continuing the armbar → Leads to [[Positions/Armbar Control]]
+- **Opponent drops to turtle during the transition, curling into defensive posture and pulling arm tight** (Effectiveness: Medium) - Your Response: If arm control is maintained, continue the armbar finish from the new angle. If arm is lost, transition to turtle top attacks including front headlock, back take, or crucifix → Leads to [[Positions/Turtle]]
 
 
 </section>

@@ -184,7 +184,7 @@ Strategically, this transition functions as the primary alternative when the Aok
 
 This technique is particularly effective in no-gi competition where the absence of collar grips makes the Aoki Lock harder to finish but the slippery surface facilitates smooth transitions to the back. It represents the core principle of positional advancement over submission hunting: when your opponent gives you their back to escape a joint lock, taking the superior position often yields better finishing opportunities than the original attack.
 
-**From Position**: [[Aoki Lock]] (Top)
+**From Position**: [[Positions/Aoki Lock]] (Top)
 
 </section>
 
@@ -237,9 +237,9 @@ This technique is particularly effective in no-gi competition where the absence 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Aoki Lock]] | 30% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Aoki Lock]] | 30% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ This technique is particularly effective in no-gi competition where the absence 
 
 ## Opponent Counters
 
-- **Opponent turtles tight and blocks hook insertion by squeezing elbows to knees** (Effectiveness: High) - Your Response: Maintain seatbelt control and use a spiral ride or body lock to pry open space for hooks. Alternatively, transition to a body triangle or crucifix if hooks are denied. → Leads to [[Aoki Lock]]
-- **Opponent turns into you during the roll and recovers guard instead of giving their back** (Effectiveness: Medium) - Your Response: If they turn toward you, switch to front headlock or guillotine control. Use their forward momentum to snap down and establish head-and-arm control before they complete the guard recovery. → Leads to [[Turtle]]
-- **Opponent sprawls and flattens to prevent the roll-through from progressing** (Effectiveness: Medium) - Your Response: If they refuse to roll and flatten out, re-engage the Aoki Lock pressure or transition to a truck entry by threading your legs through their hip space while they are belly-down. → Leads to [[Aoki Lock]]
-- **Opponent grabs your hands or wrists to prevent seatbelt establishment** (Effectiveness: Low) - Your Response: Use your hooks and hip pressure to maintain back position even without seatbelt. Work hand fighting from the back to clear grips and re-establish upper body control. Their hands on your wrists means they are not defending their neck. → Leads to [[Back Control]]
+- **Opponent turtles tight and blocks hook insertion by squeezing elbows to knees** (Effectiveness: High) - Your Response: Maintain seatbelt control and use a spiral ride or body lock to pry open space for hooks. Alternatively, transition to a body triangle or crucifix if hooks are denied. → Leads to [[Positions/Aoki Lock]]
+- **Opponent turns into you during the roll and recovers guard instead of giving their back** (Effectiveness: Medium) - Your Response: If they turn toward you, switch to front headlock or guillotine control. Use their forward momentum to snap down and establish head-and-arm control before they complete the guard recovery. → Leads to [[Positions/Turtle]]
+- **Opponent sprawls and flattens to prevent the roll-through from progressing** (Effectiveness: Medium) - Your Response: If they refuse to roll and flatten out, re-engage the Aoki Lock pressure or transition to a truck entry by threading your legs through their hip space while they are belly-down. → Leads to [[Positions/Aoki Lock]]
+- **Opponent grabs your hands or wrists to prevent seatbelt establishment** (Effectiveness: Low) - Your Response: Use your hooks and hip pressure to maintain back position even without seatbelt. Work hand fighting from the back to clear grips and re-establish upper body control. Their hands on your wrists means they are not defending their neck. → Leads to [[Positions/Back Control]]
 
 
 </section>

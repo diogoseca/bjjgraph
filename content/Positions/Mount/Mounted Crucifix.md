@@ -101,25 +101,25 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ### Available Transitions
 
 
-- **[[Arm Extraction]]** (32% of attempts)
+- **[[Transitions/Arm Extraction]]** (32% of attempts)
 
-- **[[Bridge and Roll]]** (12% of attempts)
+- **[[Transitions/Bridge and Roll]]** (12% of attempts)
 
-- **[[Elbow Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (14% of attempts)
 
-- **[[Upa Escape]]** (9% of attempts)
+- **[[Transitions/Upa Escape]]** (9% of attempts)
 
-- **[[Hip Escape to Guard]]** (12% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (12% of attempts)
 
-- **[[Explosive Bridge to Turtle]]** (10% of attempts)
+- **[[Transitions/Explosive Bridge to Turtle]]** (10% of attempts)
 
-- **[[Arm Drag Sweep]]** (3% of attempts)
+- **[[Transitions/Arm Drag Sweep]]** (3% of attempts)
 
-- **[[Rolling Escape to Guard]]** (6% of attempts)
+- **[[Transitions/Rolling Escape to Guard]]** (6% of attempts)
 
-- **[[Hip Escape from Mounted Crucifix]]** (1% of attempts)
+- **[[Transitions/Hip Escape from Mounted Crucifix]]** (1% of attempts)
 
-- **[[Bridge Escape from Mounted Crucifix]]** (1% of attempts)
+- **[[Transitions/Bridge Escape from Mounted Crucifix]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -180,29 +180,29 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ### Available Transitions
 
 
-- **[[Armbar Finish]]** (16% of attempts)
+- **[[Transitions/Armbar Finish]]** (16% of attempts)
 
-- **[[Rear Naked Choke]]** (10% of attempts)
+- **[[Transitions/Rear Naked Choke]]** (10% of attempts)
 
-- **[[Back Control to Crucifix]]** (9% of attempts)
+- **[[Transitions/Back Control to Crucifix]]** (9% of attempts)
 
-- **[[Armbar on Free Arm]]** (9% of attempts)
+- **[[Transitions/Armbar on Free Arm]]** (9% of attempts)
 
-- **[[Gift Wrap to Technical Mount]]** (10% of attempts)
+- **[[Transitions/Gift Wrap to Technical Mount]]** (10% of attempts)
 
-- **[[Neck Crank]]** (5% of attempts)
+- **[[Transitions/Neck Crank]]** (5% of attempts)
 
-- **[[Mount to Armbar]]** (9% of attempts)
+- **[[Transitions/Mount to Armbar]]** (9% of attempts)
 
-- **[[Mounted Crucifix to S Mount]]** (9% of attempts)
+- **[[Transitions/Mounted Crucifix to S Mount]]** (9% of attempts)
 
-- **[[Gift Wrap Transition]]** (8% of attempts)
+- **[[Transitions/Gift Wrap Transition]]** (8% of attempts)
 
-- **[[Back Take from Top]]** (10% of attempts)
+- **[[Transitions/Back Take from Top]]** (10% of attempts)
 
-- **[[Seat Belt Control Back]]** (3% of attempts)
+- **[[Positions/Back Control/Seat Belt Control Back]]** (3% of attempts)
 
-- **[[Mounted Crucifix Armbar]]** (2% of attempts)
+- **[[Submissions/Mounted Crucifix Armbar]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -245,23 +245,23 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ## Related Positions
 
 
-- **[[Crucifix]]** - Parent position - mounted crucifix adds mount control to traditional crucifix mechanics
+- **[[Positions/Crucifix]]** - Parent position - mounted crucifix adds mount control to traditional crucifix mechanics
 
-- **[[High Mount]]** - Common entry position - high mount facilitates arm isolation for crucifix
+- **[[Positions/Mount/High Mount]]** - Common entry position - high mount facilitates arm isolation for crucifix
 
-- **[[Modified Mount]]** - Alternative mount variation - shares arm isolation principles
+- **[[Positions/Mount/Modified Mount]]** - Alternative mount variation - shares arm isolation principles
 
-- **[[3-4 Mount]]** - Transition option - can flow between 3-4 mount and mounted crucifix
+- **[[Positions/Mount/3-4 Mount]]** - Transition option - can flow between 3-4 mount and mounted crucifix
 
-- **[[Back Control]]** - Primary advancement - mounted crucifix provides excellent back take opportunities
+- **[[Positions/Back Control]]** - Primary advancement - mounted crucifix provides excellent back take opportunities
 
-- **[[Seat Belt Control Back]]** - Natural progression - crucifix control flows into seat belt when taking back
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Natural progression - crucifix control flows into seat belt when taking back
 
-- **[[Armbar Control]]** - Primary submission path - trapped arms create easy armbar entries
+- **[[Positions/Armbar Control]]** - Primary submission path - trapped arms create easy armbar entries
 
-- **[[Gift Wrap]]** - Related control - similar arm-trapping mechanics with different positioning
+- **[[Positions/Gift Wrap]]** - Related control - similar arm-trapping mechanics with different positioning
 
-- **[[North-South]]** - Alternative control position - can transition between positions for varied attacks
+- **[[Positions/North-South]]** - Alternative control position - can transition between positions for varied attacks
 
 
 </section>

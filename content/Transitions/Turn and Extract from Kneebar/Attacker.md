@@ -180,7 +180,7 @@ description: "Master the turn and extract escape from kneebar control. Step-by-s
 
 The turn and extract is the primary escape technique when caught in kneebar control from an opponent attacking from bottom position. As the person whose knee is under attack, your goal is to rotate your body toward the attacker to collapse the hyperextension angle, then systematically free the captured leg and reach turtle position. This escape requires precise timing, explosive hip rotation, and awareness of counter-attack opportunities the attacker may exploit during your movement. Mastering this technique is essential for any practitioner who regularly faces leg lock attacks in training or competition, as it provides a reliable pathway out of one of the most common leg lock control positions.
 
-**From Position**: [[Kneebar Control]] (Bottom)
+**From Position**: [[Positions/Kneebar Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The turn and extract is the primary escape technique when caught in kneebar cont
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 45% |
-| Failure | [[Kneebar Control]] | 35% |
-| Counter | [[Saddle]] | 20% |
+| Success | [[Positions/Turtle]] | 45% |
+| Failure | [[Positions/Kneebar Control]] | 35% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ The turn and extract is the primary escape technique when caught in kneebar cont
 
 ## Opponent Counters
 
-- **Attacker tightens grip and drives hips forward aggressively to maintain the extension angle during rotation attempt** (Effectiveness: High) - Your Response: Increase rotation speed with explosive hip movement to overcome the grip before they can fully re-establish extension pressure → Leads to [[Kneebar Control]]
-- **Attacker threads legs to transition to saddle position during the rotation, exploiting the space created by turning** (Effectiveness: Medium) - Your Response: Keep legs tight together during rotation and prevent leg threading by maintaining inside knee pressure against their thigh → Leads to [[Saddle]]
-- **Attacker switches grip to attack the heel as rotation exposes it, transitioning toward heel hook** (Effectiveness: Medium) - Your Response: Keep foot tucked with toes pointed toward shin throughout rotation, never allowing the foot to flare outward and expose the heel → Leads to [[Kneebar Control]]
-- **Attacker follows the rotation and re-captures the leg in the same kneebar configuration from a new angle** (Effectiveness: Medium) - Your Response: Complete the extraction with maximum speed and immediately establish turtle base before re-capture is possible → Leads to [[Kneebar Control]]
+- **Attacker tightens grip and drives hips forward aggressively to maintain the extension angle during rotation attempt** (Effectiveness: High) - Your Response: Increase rotation speed with explosive hip movement to overcome the grip before they can fully re-establish extension pressure → Leads to [[Positions/Kneebar Control]]
+- **Attacker threads legs to transition to saddle position during the rotation, exploiting the space created by turning** (Effectiveness: Medium) - Your Response: Keep legs tight together during rotation and prevent leg threading by maintaining inside knee pressure against their thigh → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Attacker switches grip to attack the heel as rotation exposes it, transitioning toward heel hook** (Effectiveness: Medium) - Your Response: Keep foot tucked with toes pointed toward shin throughout rotation, never allowing the foot to flare outward and expose the heel → Leads to [[Positions/Kneebar Control]]
+- **Attacker follows the rotation and re-captures the leg in the same kneebar configuration from a new angle** (Effectiveness: Medium) - Your Response: Complete the extraction with maximum speed and immediately establish turtle base before re-capture is possible → Leads to [[Positions/Kneebar Control]]
 
 
 </section>

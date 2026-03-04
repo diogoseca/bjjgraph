@@ -22,8 +22,8 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint and shoulder girdle
-**Starting Position**: [[Turtle]]
-**From Position**: [[Turtle]] (Top)
+**Starting Position**: [[Positions/Turtle]]
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -74,8 +74,8 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -219,14 +219,14 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 ## From Which Positions?
 
-- [[Turtle]]
-- [[Scramble Position]]
-- [[Front Headlock]]
-- [[Crucifix]]
-- [[Back Control]]
-- [[Side Control]]
-- [[North-South]]
-- [[Knee on Belly]]
+- [[Positions/Turtle]]
+- [[Positions/Scramble Position]]
+- [[Positions/Front Headlock]]
+- [[Positions/Crucifix]]
+- [[Positions/Back Control]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
+- [[Positions/Knee on Belly]]
 
 
 </section>
@@ -235,17 +235,17 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 ## Related Submissions
 
-- [[Armbar from Mount]]
-- [[Armbar from Guard]]
-- [[Armbar from Side Control]]
-- [[Armbar from Back]]
-- [[Far Side Armbar]]
-- [[Kimura]]
-- [[Guillotine Choke]]
-- [[Rear Naked Choke]]
-- [[Arm Triangle]]
-- [[Anaconda Choke]]
-- [[Darce Choke]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Armbar from Side Control]]
+- [[Submissions/Armbar from Back]]
+- [[Submissions/Far Side Armbar]]
+- [[Transitions/Kimura]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Rear Naked Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/Anaconda Choke]]
+- [[Transitions/Darce Choke]]
 
 
 </section>
@@ -254,16 +254,16 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 ## Additional Related Content
 
-- [[Turtle]] - Primary starting position where opponent is most vulnerable to this submission
-- [[Armbar from Mount]] - Traditional armbar variation that can transition to belly down position if defended with stacking
-- [[Kimura]] - Alternative arm lock from same position creating submission combinations
-- [[Back Control]] - Common attack when this position is defended; back take opportunities emerge if armbar fails
-- [[Crucifix]] - Alternative control position when attacking turtle; can transition between crucifix and belly down armbar
-- [[Front Headlock]] - Setup position where opponent's defensive reactions expose arms for belly down armbar
-- [[Far Side Armbar]] - Related armbar variation accessible from similar control positions
-- [[Armbar Control]] - Control position for maintaining arm isolation before finishing
-- [[Scramble Position]] - Dynamic transitional state where belly down armbar opportunities frequently emerge
-- [[Anaconda Choke]] - Alternative submission from front headlock that can chain with armbar attempts
+- [[Positions/Turtle]] - Primary starting position where opponent is most vulnerable to this submission
+- [[Submissions/Armbar from Mount]] - Traditional armbar variation that can transition to belly down position if defended with stacking
+- [[Transitions/Kimura]] - Alternative arm lock from same position creating submission combinations
+- [[Positions/Back Control]] - Common attack when this position is defended; back take opportunities emerge if armbar fails
+- [[Positions/Crucifix]] - Alternative control position when attacking turtle; can transition between crucifix and belly down armbar
+- [[Positions/Front Headlock]] - Setup position where opponent's defensive reactions expose arms for belly down armbar
+- [[Submissions/Far Side Armbar]] - Related armbar variation accessible from similar control positions
+- [[Positions/Armbar Control]] - Control position for maintaining arm isolation before finishing
+- [[Positions/Scramble Position]] - Dynamic transitional state where belly down armbar opportunities frequently emerge
+- [[Transitions/Anaconda Choke]] - Alternative submission from front headlock that can chain with armbar attempts
 
 
 </section>

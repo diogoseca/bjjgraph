@@ -154,7 +154,7 @@ description: "Learn to prevent the Deep Half Entry from Flattened Half Guard. Re
 
 As the defender against the Deep Half Entry, you are the top player in flattened half guard working to maintain your dominant position and prevent the bottom player from diving underneath your hips into deep half guard. Your primary objective is recognizing the entry attempt early and shutting it down before the bottom player can establish the deep underhook and shoulder wedge that characterize deep half guard. Early recognition is critical because once the bottom player secures deep half position, the dynamic reverses completely and you become the one defending against powerful sweeps. Maintaining heavy, consistent pressure while monitoring for the specific movements that signal an entry attempt is the key to successful defense.
 
-**Opponent's Starting Position**: [[Flattened Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Flattened Half Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the Deep Half Entry, you are the top player in flattened
 ### 1. Drive crossface pressure and sprawl hips back to remove entry space
 
 - **When to use**: At the first sign of hip rotation or arm threading, before the bottom player establishes any depth underneath your hips
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Bottom player is re-flattened with their entry attempt shut down, potentially in a worse frame position than before the attempt
 - **Risk**: If timed too late, the sprawl may not prevent the entry and you expend energy without changing the position
 
 ### 2. Whizzer the threading arm to prevent underhook establishment
 
 - **When to use**: When you feel the bottom player's arm threading between your legs, overhook the arm and drive shoulder pressure down
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Bottom player's underhook attempt is neutralized, removing the anchor for their entry and leaving them partially committed without control
 - **Risk**: The whizzer requires lifting your arm from its crossface or hip control position, briefly reducing your pressure and potentially opening a different escape path
 
 ### 3. Backstep and extract trapped leg to pass during the entry attempt
 
 - **When to use**: When the bottom player commits to the dive and temporarily abandons their half guard hook and upper body frames
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You complete the guard pass to side control by extracting your leg during the bottom player's vulnerable transition phase
 - **Risk**: A premature backstep against a non-committed entry gives the bottom player space to recover frames or enter a different guard variation
 
 ### 4. Drop hip weight and flatten bottom player when initial entry movement begins
 
 - **When to use**: When you feel the initial hip movement but before the arm thread is deep, collapse the available space by driving your hips toward the mat
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: The entry is stuffed with the bottom player re-flattened and their frames further compromised from the failed attempt
 - **Risk**: If the arm thread is already established when you drop weight, you may assist their entry by loading weight onto their underhook leverage system
 
@@ -225,11 +225,11 @@ As the defender against the Deep Half Entry, you are the top player in flattened
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Recognize the entry attempt and backstep your trapped leg free during the bottom player's commitment phase when they release frames and half guard hook. Immediately consolidate side control before they can recover any guard structure.
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Shut down the entry with early crossface pressure and hip sprawl, returning the bottom player to the flattened position with their frames even more compromised after the failed attempt.
 

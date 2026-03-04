@@ -162,7 +162,7 @@ description: "How to defend against Mounted Triangle in BJJ. Recognition cues, d
 
 Defending the Mounted Triangle requires calm technical execution under extreme pressure, as you face both the positional disadvantage of being mounted and the immediate submission threat of the triangle choke. The defender's primary challenge is managing two simultaneous dangers: the triangle strangle targeting the carotid arteries and the armbar threat on the trapped limb. Unlike defending a triangle from guard where you can posture and stack, the mounted variation pins you under the attacker's weight with gravity working against you. Successful defense begins before the triangle locks—recognizing the setup during the arm isolation phase gives you the highest-percentage window for prevention. Once the triangle is locked, defense shifts to systematic dismantling through posture management, arm protection, and timed bridging that exploits the inherent instability the attacker creates by committing legs to the triangle configuration rather than maintaining standard mount base. The key mental framework is understanding that the attacker sacrificed mount stability for submission access, and your defensive strategy must exploit that trade-off through patient, technically precise responses rather than panicked explosive movements.
 
-**Opponent's Starting Position**: [[Modified Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/Modified Mount]] (Top)
 
 </section>
 
@@ -201,28 +201,28 @@ Defending the Mounted Triangle requires calm technical execution under extreme p
 ### 1. Retract the isolated arm by driving your elbow back to your hip and turning your body toward the attacker before the leg swings over
 
 - **When to use**: During the arm isolation phase before the attacker's leg clears your head—this is the highest-percentage defensive window
-- **Targets**: [[Modified Mount]]
+- **Targets**: [[Positions/Mount/Modified Mount]]
 - **If successful**: You deny the head-and-arm configuration entirely, returning to standard modified mount defense with both arms protected
 - **Risk**: If you extend the arm trying to retract it, you may expose it further for armbar or create the exact isolation the attacker wanted
 
 ### 2. Explosively bridge toward the attacker's choking leg side while they are mid-transition with their leg elevated
 
 - **When to use**: During the leg swing when attacker has one leg off the mat and reduced base stability—a narrow timing window
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You disrupt the triangle entry, potentially capturing the swinging leg with your legs to recover half guard or force a scramble
 - **Risk**: Mistimed bridge when attacker has already posted expends energy without creating escape, and the leg may still clear your head
 
 ### 3. Turn into the attacker and drive your trapped shoulder into their hip while walking your feet toward their head to reduce the triangle angle
 
 - **When to use**: After the triangle is partially locked but before the attacker has cut a full perpendicular angle—works against loose triangles
-- **Targets**: [[Modified Mount]]
+- **Targets**: [[Positions/Mount/Modified Mount]]
 - **If successful**: You collapse the triangle angle and create enough pressure to work your head free or force the attacker to abandon and remount
 - **Risk**: If the triangle is already tight and fully angled, turning in can actually tighten the choke by compressing your own carotid further
 
 ### 4. Frame on the attacker's hip with your free arm and hip escape toward the choking leg side to create space for head extraction
 
 - **When to use**: When the triangle is locked but the attacker has not yet established full finishing angle and you have your free arm available for framing
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough distance to slip your head free from the triangle, potentially recovering to half guard as their legs disengage
 - **Risk**: Hip escaping without controlling their legs may allow them to follow your movement and re-establish the triangle from a new angle
 
@@ -234,11 +234,11 @@ Defending the Mounted Triangle requires calm technical execution under extreme p
 
 ## Best-Case Outcomes for Defender
 
-### → [[Modified Mount]]
+### → [[Positions/Mount/Modified Mount]]
 
 Prevent the triangle from locking by retracting your isolated arm early in the setup phase, keeping your elbow tight to your hip and turning your body to deny the head-and-arm configuration. Force the attacker to abandon the triangle attempt and re-establish modified mount, which resets to a standard mount defense scenario.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive bridge during the attacker's leg swing when their base is compromised by having one leg elevated. Bridge toward the choking leg side and immediately capture their leg between yours as the position breaks down. Alternatively, hip escape aggressively once you create any space from the triangle to recover half guard and establish knee shield.
 

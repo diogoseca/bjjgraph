@@ -180,7 +180,7 @@ description: "Complete guide to executing the Lockdown Whizzer Pass from top pos
 
 As the attacker executing the Lockdown Whizzer Pass, your objective is to neutralize the bottom player's primary offensive weapon, the underhook, by accepting it and immediately countering with a whizzer overhook. This counterintuitive approach transforms their best grip into a liability. By driving the whizzer elbow downward and applying heavy shoulder pressure, you flatten the bottom player onto their back, eliminating the hip angle required for whip-up sweeps, Old School attempts, and Electric Chair entries. Once flattened, systematic leg extraction through hip pressure and circular knee motion frees the trapped leg, allowing you to complete the pass to side control. The entire sequence demands patience, precise weight distribution, and the discipline to flatten completely before attempting extraction.
 
-**From Position**: [[Lockdown]] (Top)
+**From Position**: [[Positions/Half Guard/Lockdown]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Lockdown Whizzer Pass, your objective is to neutra
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Lockdown]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Lockdown Whizzer Pass, your objective is to neutra
 
 ## Opponent Counters
 
-- **Bottom player deepens underhook and drives into top player before whizzer is fully established** (Effectiveness: High) - Your Response: If the underhook is too deep for the whizzer to control, immediately switch to crossface and heavy shoulder pressure to stop their forward drive, then re-attempt the overhook from a stronger position → Leads to [[Lockdown]]
-- **Bottom player times a whip-up sweep during the leg extraction phase when top player's weight shifts** (Effectiveness: Medium) - Your Response: Keep the whizzer tight and maintain forward shoulder pressure throughout extraction. If they begin the whip-up, abandon extraction, drive weight forward immediately, and re-flatten before trying again → Leads to [[Half Guard]]
-- **Bottom player releases lockdown and transitions to deep half guard by going underneath** (Effectiveness: Medium) - Your Response: When they release the lockdown to go deep half, sprawl hips back and use the whizzer to prevent them from getting underneath. If they succeed, switch to deep half guard passing strategy → Leads to [[Lockdown]]
-- **Bottom player frames with free hand against shoulder to prevent flattening** (Effectiveness: Low) - Your Response: Drive through the frame with sustained shoulder pressure while pulling the whizzer tighter. The whizzer gives you a mechanical advantage that single-arm frames cannot overcome when you commit full body weight → Leads to [[Lockdown]]
+- **Bottom player deepens underhook and drives into top player before whizzer is fully established** (Effectiveness: High) - Your Response: If the underhook is too deep for the whizzer to control, immediately switch to crossface and heavy shoulder pressure to stop their forward drive, then re-attempt the overhook from a stronger position → Leads to [[Positions/Half Guard/Lockdown]]
+- **Bottom player times a whip-up sweep during the leg extraction phase when top player's weight shifts** (Effectiveness: Medium) - Your Response: Keep the whizzer tight and maintain forward shoulder pressure throughout extraction. If they begin the whip-up, abandon extraction, drive weight forward immediately, and re-flatten before trying again → Leads to [[Positions/Half Guard]]
+- **Bottom player releases lockdown and transitions to deep half guard by going underneath** (Effectiveness: Medium) - Your Response: When they release the lockdown to go deep half, sprawl hips back and use the whizzer to prevent them from getting underneath. If they succeed, switch to deep half guard passing strategy → Leads to [[Positions/Half Guard/Lockdown]]
+- **Bottom player frames with free hand against shoulder to prevent flattening** (Effectiveness: Low) - Your Response: Drive through the frame with sustained shoulder pressure while pulling the whizzer tighter. The whizzer gives you a mechanical advantage that single-arm frames cannot overcome when you commit full body weight → Leads to [[Positions/Half Guard/Lockdown]]
 
 
 </section>

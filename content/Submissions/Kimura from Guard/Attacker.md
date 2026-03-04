@@ -176,7 +176,7 @@ description: "How to execute Kimura from Guard in BJJ. Attacking perspective wit
 
 The Kimura from Guard is a fundamental shoulder lock that can be applied from multiple guard positions, with the closed guard variation being one of the most reliable entries. This submission targets the shoulder joint and surrounding structures through a figure-four grip configuration, creating rotational pressure that can damage the rotator cuff, shoulder capsule, and associated ligaments if applied forcefully. The technique's versatility lies in its dual nature as both a finishing submission and a powerful control position that opens pathways to sweeps, back takes, and other submissions. From the bottom position, the Kimura provides exceptional control over your opponent's posture and base, allowing you to dictate the pace of the engagement while maintaining offensive threats. The figure-four grip configuration creates a mechanical advantage that allows smaller practitioners to control and submit larger opponents through proper technique rather than raw strength. Understanding the Kimura from guard is essential for developing a complete bottom game, as it integrates seamlessly with guard retention, sweeping systems, and transitional attacks.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 
 </section>
@@ -232,8 +232,8 @@ The Kimura from Guard is a fundamental shoulder lock that can be applied from mu
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -242,11 +242,11 @@ The Kimura from Guard is a fundamental shoulder lock that can be applied from mu
 
 ## Opponent Defenses
 
-- **Grabbing their own belt, gi, or pants to prevent figure-four completion** (Effectiveness: High) - Your Response: Use your body weight to pry their defensive grip loose, or transition to triangle choke, omoplata, or hip bump sweep while maintaining wrist control. The grip itself weakens their base for sweeping. → Leads to [[Closed Guard]]
-- **Rolling forward over their trapped shoulder to relieve pressure** (Effectiveness: Medium) - Your Response: Follow the roll and transition to mounted Kimura or take the back during their roll attempt. Alternatively, extend your legs and maintain the angle to prevent the roll from completing, then reapply pressure. → Leads to [[Closed Guard]]
-- **Posturing up and creating distance to pull the arm free** (Effectiveness: High) - Your Response: Use your legs to pull them back down while maintaining the figure-four grip. If they create significant distance, transition to hip bump sweep or use the Kimura grip to off-balance them forward into alternative attacks. → Leads to [[Side Control]]
-- **Turning their thumb down (internal rotation) to reduce shoulder pressure** (Effectiveness: Medium) - Your Response: Increase your grip control on their wrist and use your body position to prevent the internal rotation. If they succeed, transition to straight armbar or adjust your angle to reestablish external rotation leverage. → Leads to [[Closed Guard]]
-- **Stacking forward and driving their shoulder toward the mat** (Effectiveness: Low) - Your Response: Use the stack momentum to sweep them over to side control or mount while maintaining the Kimura grip. The forward stack actually helps you execute a reversal if you follow their momentum. → Leads to [[Side Control]]
+- **Grabbing their own belt, gi, or pants to prevent figure-four completion** (Effectiveness: High) - Your Response: Use your body weight to pry their defensive grip loose, or transition to triangle choke, omoplata, or hip bump sweep while maintaining wrist control. The grip itself weakens their base for sweeping. → Leads to [[Positions/Closed Guard]]
+- **Rolling forward over their trapped shoulder to relieve pressure** (Effectiveness: Medium) - Your Response: Follow the roll and transition to mounted Kimura or take the back during their roll attempt. Alternatively, extend your legs and maintain the angle to prevent the roll from completing, then reapply pressure. → Leads to [[Positions/Closed Guard]]
+- **Posturing up and creating distance to pull the arm free** (Effectiveness: High) - Your Response: Use your legs to pull them back down while maintaining the figure-four grip. If they create significant distance, transition to hip bump sweep or use the Kimura grip to off-balance them forward into alternative attacks. → Leads to [[Positions/Side Control]]
+- **Turning their thumb down (internal rotation) to reduce shoulder pressure** (Effectiveness: Medium) - Your Response: Increase your grip control on their wrist and use your body position to prevent the internal rotation. If they succeed, transition to straight armbar or adjust your angle to reestablish external rotation leverage. → Leads to [[Positions/Closed Guard]]
+- **Stacking forward and driving their shoulder toward the mat** (Effectiveness: Low) - Your Response: Use the stack momentum to sweep them over to side control or mount while maintaining the Kimura grip. The forward stack actually helps you execute a reversal if you follow their momentum. → Leads to [[Positions/Side Control]]
 
 
 </section>

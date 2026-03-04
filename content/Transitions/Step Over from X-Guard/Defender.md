@@ -146,7 +146,7 @@ description: "Defend and counter the Step Over pass from X-Guard. Recognition cu
 
 As the defender in X-Guard bottom when the top player attempts the Step Over pass, your primary objective is to maintain your guard structure and prevent the pass from reaching side control. The Step Over is a timing-based pass that exploits momentary weaknesses in your hook depth and grip control, meaning your best defense begins before the step over is initiated by maintaining deep hooks and strong ankle grips. When the step over does begin, you have a narrow but valuable window to either re-engage your hooks, transition to an alternative guard, or counter-sweep the top player while they balance on a single leg. Understanding the top player's mechanical vulnerabilities during the step over allows you to transform their passing attempt into your offensive opportunity.
 
-**Opponent's Starting Position**: [[X-Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/X-Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender in X-Guard bottom when the top player attempts the Step Over pas
 ### 1. Re-engage deep hooks by driving hips upward and reinserting inside leg behind knee
 
 - **When to use**: When you feel the top player beginning to compress your guard but before the step over has started, best opportunity is when they shift weight forward
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: Top player's step over is prevented and they must restart their passing sequence from neutral X-Guard position
 - **Risk**: If hooks fail to seat deeply, the top player will immediately reattempt the step over with an even larger opening
 
 ### 2. Transition to Single Leg X-Guard by extending bottom leg and adjusting hook position to SLX configuration
 
 - **When to use**: When your inside hook has become too shallow to maintain effective X-Guard but you still have foot-on-hip contact with your outside leg
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: You establish a new guard position that requires the top player to restart their passing approach with different technique
 - **Risk**: Transition leaves a momentary gap that the top player may exploit to complete the step over before SLX is established
 
 ### 3. Sweep during single-leg phase by elevating and directing the loaded leg while top player is balanced on one foot
 
 - **When to use**: When the top player has committed to the step over and is balanced on a single leg with their free leg in the air
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Top player is swept and you achieve top position, landing in their half guard or side control
 - **Risk**: Mistimed sweep attempt may fail to off-balance the top player and leave you with compromised guard structure
 
 ### 4. Frame against the stepping leg with both hands to block the arc and redirect it back to your guard side
 
 - **When to use**: When the top player's free leg is mid-arc during the step over and has not yet cleared your body
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: The step over is blocked and the top player is forced back to both feet, resetting the position to X-Guard
 - **Risk**: If frames are too weak, the top player pushes through and completes the pass with your hands out of position for guard recovery
 
@@ -217,11 +217,11 @@ As the defender in X-Guard bottom when the top player attempts the Step Over pas
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your sweep during the top player's single-leg balance phase. As they lift their free leg, drive your hips upward and direct the trapped leg laterally to dump them off-balance. The single-leg stance makes them extremely vulnerable to directional force.
 
-### → [[X-Guard]]
+### → [[Positions/X-Guard]]
 
 Maintain deep hooks and strong ankle grips throughout the top player's compression attempts. When they test the step over, re-engage aggressively by elevating hips and driving the inside hook deeper behind their knee, forcing them to abandon the pass attempt.
 

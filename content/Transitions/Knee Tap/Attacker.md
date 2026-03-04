@@ -174,7 +174,7 @@ description: "How to execute Knee Tap in BJJ. Attacking perspective with setup, 
 
 The Knee Tap is a fundamental wrestling-based takedown that exploits opponent's weight distribution and stance. By attacking the knee while controlling the upper body, you create a mechanical advantage that collapses their base. This technique is particularly effective against opponents who overcommit their weight forward or stand square in their stance. The Knee Tap works across all skill levels and translates seamlessly between gi and no-gi environments. It requires minimal setup compared to more complex takedowns, making it an essential tool for pulling guard practitioners who need reliable standing entries. The technique's beauty lies in its simplicity - by simultaneously pulling the upper body while sweeping the lower support, you create an unstoppable collapse that transitions directly into dominant top positions.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The Knee Tap is a fundamental wrestling-based takedown that exploits opponent's 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Front Headlock]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Front Headlock]] | 10% |
 
 
 </section>
@@ -238,11 +238,11 @@ The Knee Tap is a fundamental wrestling-based takedown that exploits opponent's 
 
 ## Opponent Counters
 
-- **Sprawl defense - opponent shoots hips back and sprawls weight down** (Effectiveness: High) - Your Response: Immediately switch to single leg finish by securing the ankle and driving forward, or transition to double leg by changing levels and attacking both legs → Leads to [[Standing Position]]
-- **Guillotine attempt - opponent secures front headlock and attempts choke** (Effectiveness: Medium) - Your Response: Keep head position high and outside throughout entry, if caught bail out by stepping back and clearing the head, or counter with kimura grip on choking arm → Leads to [[Front Headlock]]
-- **Whizzer defense - opponent secures overhook on your shooting arm** (Effectiveness: Medium) - Your Response: Use the whizzer as leverage by lifting their arm while continuing to drive the knee tap, or abandon and transition to outside single leg position → Leads to [[Standing Position]]
-- **Base step - opponent steps targeted leg back to recover base** (Effectiveness: Low) - Your Response: Follow their step by advancing your position and switching to double leg attack on the new square stance, or elevate the knee higher to prevent step completion → Leads to [[Standing Position]]
-- **Crossface counter - opponent drives forearm across your face to break posture** (Effectiveness: Low) - Your Response: Duck under the crossface attempt while maintaining knee control, or use the crossface as opportunity to change angle and complete takedown from new vector → Leads to [[Standing Position]]
+- **Sprawl defense - opponent shoots hips back and sprawls weight down** (Effectiveness: High) - Your Response: Immediately switch to single leg finish by securing the ankle and driving forward, or transition to double leg by changing levels and attacking both legs → Leads to [[Positions/Standing Position]]
+- **Guillotine attempt - opponent secures front headlock and attempts choke** (Effectiveness: Medium) - Your Response: Keep head position high and outside throughout entry, if caught bail out by stepping back and clearing the head, or counter with kimura grip on choking arm → Leads to [[Positions/Front Headlock]]
+- **Whizzer defense - opponent secures overhook on your shooting arm** (Effectiveness: Medium) - Your Response: Use the whizzer as leverage by lifting their arm while continuing to drive the knee tap, or abandon and transition to outside single leg position → Leads to [[Positions/Standing Position]]
+- **Base step - opponent steps targeted leg back to recover base** (Effectiveness: Low) - Your Response: Follow their step by advancing your position and switching to double leg attack on the new square stance, or elevate the knee higher to prevent step completion → Leads to [[Positions/Standing Position]]
+- **Crossface counter - opponent drives forearm across your face to break posture** (Effectiveness: Low) - Your Response: Duck under the crossface attempt while maintaining knee control, or use the crossface as opportunity to change angle and complete takedown from new vector → Leads to [[Positions/Standing Position]]
 
 
 </section>

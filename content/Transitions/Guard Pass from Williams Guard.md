@@ -21,7 +21,7 @@ The pass operates on a two-phase model: first, neutralize the shoulder lock thre
 
 Strategically, this pass rewards patience and technical precision over athleticism. The top player must resist the instinct to fight the shoulder lock with force, instead using angle changes and circling movements to gradually disengage the figure-four grip mechanics. Once the arm is free, the passer exploits the momentary positional vacuum where the bottom player has lost their primary control mechanism but has not yet established secondary guard retention, making this transition window the highest-percentage moment for completing the pass to side control.
 
-**From Position**: [[Williams Guard]] (Top)
+**From Position**: [[Positions/Williams Guard]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, this pass rewards patience and technical precision over athletici
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Failure | [[Williams Guard]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
-| Counter | [[Omoplata Control]] | 10% |
+| Success | [[Positions/Side Control]] | 45% |
+| Failure | [[Positions/Williams Guard]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Omoplata Control]] | 10% |
 
 
 </section>
@@ -196,29 +196,29 @@ The guard pass from Williams Guard occupies a critical defensive-to-offensive tr
 ## Related Techniques
 
 
-- [[Williams Guard]] - Source position being passed
+- [[Positions/Williams Guard]] - Source position being passed
 
-- [[Side Control]] - Primary target position after successful pass
+- [[Positions/Side Control]] - Primary target position after successful pass
 
-- [[Closed Guard]] - Counter outcome when bottom player recovers full guard
+- [[Positions/Closed Guard]] - Counter outcome when bottom player recovers full guard
 
-- [[Omoplata Control]] - Counter outcome when bottom player transitions during pass attempt
+- [[Positions/Omoplata Control]] - Counter outcome when bottom player transitions during pass attempt
 
-- [[Stack Pass]] - Primary passing mechanic used after arm extraction
+- [[Transitions/Stack Pass]] - Primary passing mechanic used after arm extraction
 
-- [[Pressure Pass]] - Alternative passing approach integrating with extraction
+- [[Transitions/Pressure Pass]] - Alternative passing approach integrating with extraction
 
-- [[Knee Cut Pass]] - Follow-up pass option after successful arm extraction
+- [[Transitions/Knee Cut Pass]] - Follow-up pass option after successful arm extraction
 
-- [[Combat Base]] - Intermediate recovery position during extraction
+- [[Positions/Combat Base]] - Intermediate recovery position during extraction
 
-- [[Open Guard]] - Transitional guard state after Williams Guard is broken
+- [[Positions/Open Guard]] - Transitional guard state after Williams Guard is broken
 
-- [[Rubber Guard]] - Similar guard system requiring comparable extraction principles
+- [[Positions/Rubber Guard]] - Similar guard system requiring comparable extraction principles
 
-- [[Overhook Guard]] - Related arm-trapping guard with transferable passing concepts
+- [[Positions/Overhook Guard]] - Related arm-trapping guard with transferable passing concepts
 
-- [[Back Step Pass]] - Alternative passing direction from extraction position
+- [[Transitions/Back Step Pass]] - Alternative passing direction from extraction position
 
 
 </section>

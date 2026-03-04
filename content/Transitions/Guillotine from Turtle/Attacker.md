@@ -174,7 +174,7 @@ description: "How to execute Guillotine from Turtle in BJJ. Attacking perspectiv
 
 The Guillotine from Turtle is a high-percentage submission setup that capitalizes on the opponent's defensive turtle position. When an opponent turtles to avoid back exposure, they inadvertently expose their neck to front headlock attacks. This transition exploits the fundamental weakness of turtle position: the head and neck are accessible while the opponent focuses on protecting their back. The technique requires precise timing, proper grip mechanics, and understanding of when to finish from standing versus when to pull guard. The guillotine from turtle represents a critical junction in modern grappling where the top player must decide between back attacks and front headlock submissions. Understanding this transition is essential for anyone developing a complete top game, as it creates a dilemma for the bottom player: defend the back or defend the neck. The technique's success rate increases dramatically with proper setup and grip configuration, making it one of the most reliable submissions from turtle position.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The Guillotine from Turtle is a high-percentage submission setup that capitalize
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Guillotine Control]] | 70% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Guillotine Control]] | 70% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -238,11 +238,11 @@ The Guillotine from Turtle is a high-percentage submission setup that capitalize
 
 ## Opponent Counters
 
-- **Opponent tucks chin and turns into you** (Effectiveness: Medium) - Your Response: Switch to high elbow guillotine variation, using opponent's turn to deepen your grip. Alternatively transition to anaconda or darce choke as they expose their shoulder. → Leads to [[Turtle]]
-- **Opponent posts hand on your hip and extends to create space** (Effectiveness: High) - Your Response: Use your free hand to control their posting arm, stripping it away while driving your chest pressure forward. Alternatively, transition to arm-in guillotine if their arm becomes trapped. → Leads to [[Turtle]]
-- **Opponent rolls forward (granby roll escape)** (Effectiveness: Medium) - Your Response: Follow their roll while maintaining grip, ending in top position with guillotine locked. Use their momentum to improve your finishing angle. Don't resist the roll, flow with it. → Leads to [[Turtle]]
-- **Opponent stands to their feet explosively** (Effectiveness: Low) - Your Response: Jump to closed guard or maintain standing guillotine position. Their standing actually improves your finishing mechanics if you react quickly and maintain tight connection. → Leads to [[Turtle]]
-- **Opponent hand-fights and strips your grip** (Effectiveness: High) - Your Response: Abandon guillotine if grip is broken and immediately transition to back take, crucifix, or anaconda control. Never force a lost position, flow to next available attack. → Leads to [[Turtle]]
+- **Opponent tucks chin and turns into you** (Effectiveness: Medium) - Your Response: Switch to high elbow guillotine variation, using opponent's turn to deepen your grip. Alternatively transition to anaconda or darce choke as they expose their shoulder. → Leads to [[Positions/Turtle]]
+- **Opponent posts hand on your hip and extends to create space** (Effectiveness: High) - Your Response: Use your free hand to control their posting arm, stripping it away while driving your chest pressure forward. Alternatively, transition to arm-in guillotine if their arm becomes trapped. → Leads to [[Positions/Turtle]]
+- **Opponent rolls forward (granby roll escape)** (Effectiveness: Medium) - Your Response: Follow their roll while maintaining grip, ending in top position with guillotine locked. Use their momentum to improve your finishing angle. Don't resist the roll, flow with it. → Leads to [[Positions/Turtle]]
+- **Opponent stands to their feet explosively** (Effectiveness: Low) - Your Response: Jump to closed guard or maintain standing guillotine position. Their standing actually improves your finishing mechanics if you react quickly and maintain tight connection. → Leads to [[Positions/Turtle]]
+- **Opponent hand-fights and strips your grip** (Effectiveness: High) - Your Response: Abandon guillotine if grip is broken and immediately transition to back take, crucifix, or anaconda control. Never force a lost position, flow to next available attack. → Leads to [[Positions/Turtle]]
 
 
 </section>

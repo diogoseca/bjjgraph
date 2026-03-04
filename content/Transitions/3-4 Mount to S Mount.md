@@ -21,7 +21,7 @@ The transition is fundamentally about converting positional control into submiss
 
 Strategically, this transition should be initiated when the near-side arm becomes vulnerable through defensive positioning, opponent fatigue, or as a chain attack following a submission threat that forces the opponent to expose the arm. The highest-percentage S Mount entries come when the opponent is already defending another threat, making the transition feel inevitable rather than forced. The 3-4 Mount's asymmetric base provides a significant mechanical advantage over entering S Mount from standard mount, as the posted leg is already halfway to its final position over the opponent's head.
 
-**From Position**: [[3-4 Mount]] (Top)
+**From Position**: [[Positions/Mount/3-4 Mount]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition should be initiated when the near-side arm become
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[S Mount]] | 55% |
-| Failure | [[3-4 Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/S Mount]] | 55% |
+| Failure | [[Positions/Mount/3-4 Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The 3-4 Mount to S Mount transition serves as a critical link in the mount submi
 ## Related Techniques
 
 
-- [[3-4 Mount]] - Starting position for this transition—asymmetric mount providing the base configuration for S Mount entry
+- [[Positions/Mount/3-4 Mount]] - Starting position for this transition—asymmetric mount providing the base configuration for S Mount entry
 
-- [[S Mount]] - Target position—perpendicular mount configuration optimized for armbar and submission attacks
+- [[Positions/Mount/S Mount]] - Target position—perpendicular mount configuration optimized for armbar and submission attacks
 
-- [[3-4 Mount to Technical Mount]] - Alternative advancement from same starting position when opponent turns away instead of staying flat
+- [[Transitions/3-4 Mount to Technical Mount]] - Alternative advancement from same starting position when opponent turns away instead of staying flat
 
-- [[Mount]] - Parent position in the mount hierarchy from which both 3-4 Mount and S Mount derive
+- [[Positions/Mount]] - Parent position in the mount hierarchy from which both 3-4 Mount and S Mount derive
 
-- [[Armbar from S Mount]] - Primary submission follow-up after successfully achieving S Mount through this transition
+- [[Submissions/Armbar from S Mount]] - Primary submission follow-up after successfully achieving S Mount through this transition
 
-- [[Americana from 3-4 Mount]] - Complementary threat that can be used to set up the S Mount entry through defensive reactions
+- [[Submissions/Americana from 3-4 Mount]] - Complementary threat that can be used to set up the S Mount entry through defensive reactions
 
-- [[Half Guard]] - Counter outcome position—where attacker may end up if bottom player successfully reverses during transition
+- [[Positions/Half Guard]] - Counter outcome position—where attacker may end up if bottom player successfully reverses during transition
 
-- [[High Mount]] - Alternative mount advancement option when S Mount entry is blocked but opponent's posture is broken
+- [[Positions/Mount/High Mount]] - Alternative mount advancement option when S Mount entry is blocked but opponent's posture is broken
 
-- [[Armbar Control]] - Submission control position that S Mount naturally flows into once arm isolation is complete
+- [[Positions/Armbar Control]] - Submission control position that S Mount naturally flows into once arm isolation is complete
 
-- [[Mounted Triangle]] - Chain attack option when opponent defends the armbar by bringing their free arm across during S Mount entry
+- [[Positions/Mount/Mounted Triangle]] - Chain attack option when opponent defends the armbar by bringing their free arm across during S Mount entry
 
 
 </section>

@@ -182,7 +182,7 @@ The Transition to Matrix from the attacker's perspective is a deliberate positio
 
 The key challenge is maintaining constant pressure and connection while changing angle. Any gap in control during the transition gives the opponent a window to escape to guard, stand up, or re-establish their tight defensive turtle. The attacker must think of the entry as a continuous flow where chest pressure, arm threading, and leg positioning happen in overlapping phases rather than discrete steps. Mastery of this transition separates practitioners who can only attack turtle with conventional methods from those who possess a complete turtle top attacking system capable of handling elite-level defensive turtles.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -235,9 +235,9 @@ The key challenge is maintaining constant pressure and connection while changing
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Matrix]] | 55% |
-| Failure | [[Turtle]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Matrix]] | 55% |
+| Failure | [[Positions/Turtle]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -246,10 +246,10 @@ The key challenge is maintaining constant pressure and connection while changing
 
 ## Opponent Counters
 
-- **Opponent sits back heavily onto heels, closing the elbow-knee gap before leg insertion** (Effectiveness: High) - Your Response: Immediately switch to heavy forward pressure on their shoulders to drive them off their heels and back onto hands and knees. If they remain seated, transition to traditional seat belt back take from the new angle, or use their lowered posture to establish a front headlock by circling toward their head. → Leads to [[Turtle]]
-- **Opponent turns aggressively into you as they feel the arm threading under their armpit** (Effectiveness: Medium) - Your Response: Maintain your threading arm connection and follow their turn. Their rotation often delivers you into a front headlock or darce control position. If they turn completely to face you, use the momentum to establish a new attacking angle or pull guard if top position is lost. The key is keeping the arm anchor so their turn moves you with them. → Leads to [[Turtle]]
-- **Opponent explosively stands up during the angular movement phase before arm is fully threaded** (Effectiveness: Medium) - Your Response: Follow them to standing with your far-hip grip intact and convert to a standing rear clinch or body lock. From standing you can drag them back to the mat, execute a standing back take, or trip them to establish a new top position. Do not release the hip grip during their standup attempt. → Leads to [[Turtle]]
-- **Opponent performs a granby roll away from your entry direction as you begin establishing angle** (Effectiveness: Low) - Your Response: Follow the granby roll while maintaining chest contact and your hip grip. Their roll often exposes their back more than it escapes, and you can frequently establish hooks during or immediately after their rotation. If they successfully recover guard, you are still in top position with passing opportunities. → Leads to [[Closed Guard]]
+- **Opponent sits back heavily onto heels, closing the elbow-knee gap before leg insertion** (Effectiveness: High) - Your Response: Immediately switch to heavy forward pressure on their shoulders to drive them off their heels and back onto hands and knees. If they remain seated, transition to traditional seat belt back take from the new angle, or use their lowered posture to establish a front headlock by circling toward their head. → Leads to [[Positions/Turtle]]
+- **Opponent turns aggressively into you as they feel the arm threading under their armpit** (Effectiveness: Medium) - Your Response: Maintain your threading arm connection and follow their turn. Their rotation often delivers you into a front headlock or darce control position. If they turn completely to face you, use the momentum to establish a new attacking angle or pull guard if top position is lost. The key is keeping the arm anchor so their turn moves you with them. → Leads to [[Positions/Turtle]]
+- **Opponent explosively stands up during the angular movement phase before arm is fully threaded** (Effectiveness: Medium) - Your Response: Follow them to standing with your far-hip grip intact and convert to a standing rear clinch or body lock. From standing you can drag them back to the mat, execute a standing back take, or trip them to establish a new top position. Do not release the hip grip during their standup attempt. → Leads to [[Positions/Turtle]]
+- **Opponent performs a granby roll away from your entry direction as you begin establishing angle** (Effectiveness: Low) - Your Response: Follow the granby roll while maintaining chest contact and your hip grip. Their roll often exposes their back more than it escapes, and you can frequently establish hooks during or immediately after their rotation. If they successfully recover guard, you are still in top position with passing opportunities. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

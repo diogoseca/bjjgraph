@@ -21,7 +21,7 @@ The technique centers on frame creation and hip escape mechanics working in conc
 
 Strategic timing is paramount in this recovery. Attempting guard recovery too early when the top player's pressure is maximal wastes energy against their strongest control. Waiting too long allows the pass to complete. The optimal window occurs during the top player's grip adjustment, weight shift, or transition between passing angles. Successful practitioners develop sensitivity to these micro-moments and execute explosive guard recovery sequences precisely when the top player's control momentarily weakens.
 
-**From Position**: [[Double Unders]] (Bottom)
+**From Position**: [[Positions/Double Unders]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ Strategic timing is paramount in this recovery. Attempting guard recovery too ea
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 40% |
-| Success | [[Open Guard]] | 15% |
-| Failure | [[Double Unders]] | 25% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Closed Guard]] | 40% |
+| Success | [[Positions/Open Guard]] | 15% |
+| Failure | [[Positions/Double Unders]] | 25% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -192,25 +192,25 @@ Guard Recovery from Double Unders occupies a critical defensive node in the BJJ 
 ## Related Techniques
 
 
-- [[Double Unders]] - Starting position where this guard recovery technique is executed from the bottom perspective
+- [[Positions/Double Unders]] - Starting position where this guard recovery technique is executed from the bottom perspective
 
-- [[Closed Guard]] - Primary target position upon successful completion of the guard recovery sequence
+- [[Positions/Closed Guard]] - Primary target position upon successful completion of the guard recovery sequence
 
-- [[Open Guard]] - Secondary recovery target when full closed guard closure is not achievable
+- [[Positions/Open Guard]] - Secondary recovery target when full closed guard closure is not achievable
 
-- [[Half Guard]] - Alternative recovery position when only one leg can be freed from underhook control
+- [[Positions/Half Guard]] - Alternative recovery position when only one leg can be freed from underhook control
 
-- [[Deep Half Guard]] - Complementary escape destination from the same starting position using different mechanics
+- [[Positions/Half Guard/Deep Half Guard]] - Complementary escape destination from the same starting position using different mechanics
 
-- [[Butterfly Guard]] - Alternative guard position achievable through butterfly hook insertion variant
+- [[Positions/Butterfly Guard]] - Alternative guard position achievable through butterfly hook insertion variant
 
-- [[Headquarters Position]] - Related passing position that often precedes double unders establishment
+- [[Positions/Headquarters Position]] - Related passing position that often precedes double unders establishment
 
-- [[Knee Shield Half Guard]] - Intermediate recovery position achievable when one leg is freed with knee shield frame
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Intermediate recovery position achievable when one leg is freed with knee shield frame
 
-- [[Combat Base]] - Top player's base structure that influences available recovery timing windows
+- [[Positions/Combat Base]] - Top player's base structure that influences available recovery timing windows
 
-- [[Turtle]] - Alternative escape destination via granby roll when guard recovery fails
+- [[Positions/Turtle]] - Alternative escape destination via granby roll when guard recovery fails
 
 
 </section>

@@ -21,7 +21,7 @@ The effectiveness of this transition lies in its seamless flow from control to s
 
 This transition is fundamental to modern no-gi grappling and represents a cornerstone of systematic front headlock attack systems. It combines well with other front headlock finishes, creating a web of attacks that force opponents into submission dilemmas. The Darce entry from front headlock is a Type B submission setup: it leads to Darce Control, a distinct control position where the choke is then finished as a separate sequence. Mastery of this technique provides both a high-percentage path to a finishing position and a powerful platform from which to chain multiple submission attempts.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 55% |
-| Failure | [[Front Headlock]] | 30% |
-| Counter | [[Front Headlock]] | 15% |
+| Success | [[Positions/Darce Control]] | 55% |
+| Failure | [[Positions/Front Headlock]] | 30% |
+| Counter | [[Positions/Front Headlock]] | 15% |
 
 
 </section>
@@ -198,25 +198,25 @@ The Front Headlock to Darce transition is a cornerstone technique within the sys
 ## Related Techniques
 
 
-- [[Darce Choke]] - Primary submission - the finishing technique applied from Darce Control after this transition succeeds
+- [[Transitions/Darce Choke]] - Primary submission - the finishing technique applied from Darce Control after this transition succeeds
 
-- [[Front Headlock to Anaconda]] - Alternative attack - closely related transition using similar mechanics but opposite arm configuration
+- [[Transitions/Front Headlock to Anaconda]] - Alternative attack - closely related transition using similar mechanics but opposite arm configuration
 
-- [[Front Headlock to Guillotine]] - Alternative attack - another high-percentage submission from the same starting position
+- [[Transitions/Front Headlock to Guillotine]] - Alternative attack - another high-percentage submission from the same starting position
 
-- [[Front Headlock to Back]] - Alternative transition - positional advancement option when submissions are defended
+- [[Transitions/Front Headlock to Back]] - Alternative transition - positional advancement option when submissions are defended
 
-- [[Darce from Turtle]] - Related entry - alternative way to establish the Darce from similar turtle position
+- [[Transitions/Darce from Turtle]] - Related entry - alternative way to establish the Darce from similar turtle position
 
-- [[Anaconda Choke]] - Chain attack - common switch when Darce is defended by opponent circling toward choking arm
+- [[Transitions/Anaconda Choke]] - Chain attack - common switch when Darce is defended by opponent circling toward choking arm
 
-- [[Arm Triangle]] - Related choke - uses similar shoulder pressure and arm-in configuration principles
+- [[Transitions/Arm Triangle]] - Related choke - uses similar shoulder pressure and arm-in configuration principles
 
-- [[Guillotine Choke]] - Chain attack - natural follow-up when opponent postures up defending the Darce
+- [[Transitions/Guillotine Choke]] - Chain attack - natural follow-up when opponent postures up defending the Darce
 
-- [[Darce Setup]] - Related transition - alternative entry path to Darce Control from different angles
+- [[Transitions/Darce Setup]] - Related transition - alternative entry path to Darce Control from different angles
 
-- [[Arm Triangle from Front Headlock]] - Alternative submission - available from same starting position when Darce angle is unavailable
+- [[Transitions/Arm Triangle from Front Headlock]] - Alternative submission - available from same starting position when Darce angle is unavailable
 
 
 </section>

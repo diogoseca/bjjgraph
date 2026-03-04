@@ -180,7 +180,7 @@ description: "Learn to execute the reversal from flattened half guard as the bot
 
 As the attacker executing this reversal, you are the bottom player in flattened half guard who has decided to pursue a direct positional reversal rather than incremental frame recovery. This offensive choice requires you to fight for an underhook from a compromised position, generate sufficient bridge power to disrupt the top player's base, and drive through the reversal with committed body mechanics. The technique demands a shift from survival mentality to offensive initiative while still operating under heavy pressure. Your success depends on winning the underhook battle, timing your bridge to coincide with the top player's static moments, and committing fully to the sweep direction once initiated. Half-measures result in energy waste and potential position loss, so the reversal must be executed with conviction once the prerequisites are established.
 
-**From Position**: [[Flattened Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing this reversal, you are the bottom player in flattened 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Flattened Half Guard]] | 38% |
-| Counter | [[Mount]] | 22% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 38% |
+| Counter | [[Positions/Mount]] | 22% |
 
 
 </section>
@@ -243,11 +243,11 @@ As the attacker executing this reversal, you are the bottom player in flattened 
 
 ## Opponent Counters
 
-- **Top player wizards (overhooks) the underhook arm to neutralize it before the bridge** (Effectiveness: High) - Your Response: Switch to an elbow-push frame on their hip to create space for re-establishing the underhook at a deeper angle, or transition to a deep half guard entry where the overhook becomes less effective → Leads to [[Flattened Half Guard]]
-- **Top player posts their far hand wide to maintain base against the diagonal bridge direction** (Effectiveness: High) - Your Response: Use your driving hand to strip their posting hand off the mat by pushing it across their body, or redirect the bridge angle further toward their head where the post cannot reach → Leads to [[Flattened Half Guard]]
-- **Top player sprawls their hips back and drives crossface harder to flatten you during the bridge attempt** (Effectiveness: Medium) - Your Response: Use the increased forward pressure to accelerate the bridge timing - their forward commitment actually aids the reversal if your underhook is deep enough. Alternatively, abandon the reversal and use the space created by their sprawl to initiate frame recovery → Leads to [[Flattened Half Guard]]
-- **Top player extracts the trapped leg during the bridge when your hook loosens** (Effectiveness: High) - Your Response: If the leg begins to slip, immediately abort the reversal and transition to a Dogfight scramble or re-establish your hook. Continuing the reversal without the hook anchor results in the top player completing the pass to mount → Leads to [[Mount]]
-- **Top player transitions to knee slice pass timing the reversal attempt** (Effectiveness: Medium) - Your Response: Redirect the underhook energy into a frame against their hip to block the knee slice, then recover to knee shield half guard. The failed reversal creates enough movement to make frame recovery viable → Leads to [[Flattened Half Guard]]
+- **Top player wizards (overhooks) the underhook arm to neutralize it before the bridge** (Effectiveness: High) - Your Response: Switch to an elbow-push frame on their hip to create space for re-establishing the underhook at a deeper angle, or transition to a deep half guard entry where the overhook becomes less effective → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Top player posts their far hand wide to maintain base against the diagonal bridge direction** (Effectiveness: High) - Your Response: Use your driving hand to strip their posting hand off the mat by pushing it across their body, or redirect the bridge angle further toward their head where the post cannot reach → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Top player sprawls their hips back and drives crossface harder to flatten you during the bridge attempt** (Effectiveness: Medium) - Your Response: Use the increased forward pressure to accelerate the bridge timing - their forward commitment actually aids the reversal if your underhook is deep enough. Alternatively, abandon the reversal and use the space created by their sprawl to initiate frame recovery → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Top player extracts the trapped leg during the bridge when your hook loosens** (Effectiveness: High) - Your Response: If the leg begins to slip, immediately abort the reversal and transition to a Dogfight scramble or re-establish your hook. Continuing the reversal without the hook anchor results in the top player completing the pass to mount → Leads to [[Positions/Mount]]
+- **Top player transitions to knee slice pass timing the reversal attempt** (Effectiveness: Medium) - Your Response: Redirect the underhook energy into a frame against their hip to block the knee slice, then recover to knee shield half guard. The failed reversal creates enough movement to make frame recovery viable → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 
 
 </section>

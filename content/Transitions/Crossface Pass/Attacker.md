@@ -176,7 +176,7 @@ The Crossface Pass from the attacker's perspective demands a systematic approach
 
 Once the crossface is established and shoulder pressure is driving the opponent flat, the attacker controls the far arm to eliminate framing, then creates the extraction angle by stepping the trapped leg back and walking the free leg forward. The leg extraction uses a circular motion rather than a linear pull, exploiting the anatomical weakness in the defender's leg lock. Throughout this entire sequence, the attacker must maintain forward pressure distribution, keeping weight on the crossface rather than sitting back on the hips. The pass completes when the leg clears and the attacker immediately drops into side control consolidation with chest-to-chest pressure and established grips.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ Once the crossface is established and shoulder pressure is driving the opponent 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Half Guard]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -240,11 +240,11 @@ Once the crossface is established and shoulder pressure is driving the opponent 
 
 ## Opponent Counters
 
-- **Deep underhook and hip escape to recover guard or sweep** (Effectiveness: High) - Your Response: Beat them to the underhook position by establishing crossface earlier in the sequence. If they get the deep underhook, switch to knee slice or backstep pass. Maintain heavy shoulder pressure to limit their hip mobility even with the underhook established. → Leads to [[Half Guard]]
-- **Electric chair sweep setup via lockdown to crotch lift** (Effectiveness: Medium) - Your Response: Keep your hips low and weight forward to prevent them from getting under your center of gravity. If you feel them locking down your leg, immediately posture up and address the lockdown before continuing with the crossface pass. Consider switching to a leg weave or smash pass approach. → Leads to [[Half Guard]]
-- **Frame on face and bicep to create distance and prevent flattening** (Effectiveness: Medium) - Your Response: Swim your free arm over their framing arm to establish underhook control. Alternatively, strip their frame by grabbing their wrist and pulling it across their body. Increase shoulder pressure to drive through their frame rather than fighting around it. → Leads to [[Half Guard]]
-- **Knee shield or Z-guard recovery to create distance and block advancement** (Effectiveness: High) - Your Response: Prevent knee shield by establishing crossface before they can insert their knee. If they get the knee shield, transition to knee cut or smash pass. Keep constant forward pressure to prevent them from creating the space needed for effective knee shield insertion. → Leads to [[Half Guard]]
-- **Roll under sweep using momentum against forward pressure** (Effectiveness: Low) - Your Response: Maintain wide base with free leg and keep weight distributed forward but not overcommitted. If you feel them attempting to roll, post your free hand and sprawl your hips back momentarily, then resume the pass once their momentum is stopped. → Leads to [[Half Guard]]
+- **Deep underhook and hip escape to recover guard or sweep** (Effectiveness: High) - Your Response: Beat them to the underhook position by establishing crossface earlier in the sequence. If they get the deep underhook, switch to knee slice or backstep pass. Maintain heavy shoulder pressure to limit their hip mobility even with the underhook established. → Leads to [[Positions/Half Guard]]
+- **Electric chair sweep setup via lockdown to crotch lift** (Effectiveness: Medium) - Your Response: Keep your hips low and weight forward to prevent them from getting under your center of gravity. If you feel them locking down your leg, immediately posture up and address the lockdown before continuing with the crossface pass. Consider switching to a leg weave or smash pass approach. → Leads to [[Positions/Half Guard]]
+- **Frame on face and bicep to create distance and prevent flattening** (Effectiveness: Medium) - Your Response: Swim your free arm over their framing arm to establish underhook control. Alternatively, strip their frame by grabbing their wrist and pulling it across their body. Increase shoulder pressure to drive through their frame rather than fighting around it. → Leads to [[Positions/Half Guard]]
+- **Knee shield or Z-guard recovery to create distance and block advancement** (Effectiveness: High) - Your Response: Prevent knee shield by establishing crossface before they can insert their knee. If they get the knee shield, transition to knee cut or smash pass. Keep constant forward pressure to prevent them from creating the space needed for effective knee shield insertion. → Leads to [[Positions/Half Guard]]
+- **Roll under sweep using momentum against forward pressure** (Effectiveness: Low) - Your Response: Maintain wide base with free leg and keep weight distributed forward but not overcommitted. If you feel them attempting to roll, post your free hand and sprawl your hips back momentarily, then resume the pass once their momentum is stopped. → Leads to [[Positions/Half Guard]]
 
 
 </section>

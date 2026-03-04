@@ -190,7 +190,7 @@ The setup phase is arguably more important than the finish itself, as experience
 
 From a strategic perspective, the RNC setup integrates seamlessly with other back control attacks. Opponents who successfully defend the choke often expose themselves to arm attacks, bow and arrow choke entries, or crucifix transitions. This creates a dilemma-based attack system where defending one threat opens another, making the RNC setup not just a submission path but a positional control tool that forces reactions you can exploit.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -245,9 +245,9 @@ From a strategic perspective, the RNC setup integrates seamlessly with other bac
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Harness]] | 55% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Harness]] | 55% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -256,11 +256,11 @@ From a strategic perspective, the RNC setup integrates seamlessly with other bac
 
 ## Opponent Counters
 
-- **Opponent two-on-one grips your choking arm and pulls it away from their neck before you can insert beneath the chin** (Effectiveness: High) - Your Response: Use your free hand to strip their top grip first, then reinsert. Alternatively, switch to attacking their exposed arm for an armbar from back or transition to crucifix to trap their defending arms → Leads to [[Back Control]]
-- **Opponent tucks chin tightly to chest creating a barrier that prevents your forearm from sliding beneath** (Effectiveness: High) - Your Response: Attack the jaw line instead—slide your forearm across their face forcing the chin up, or use your free hand to cup their forehead and lift. The discomfort of the forearm on the jaw often opens the neck → Leads to [[Back Control]]
-- **Opponent turns their body toward your choking arm, facing partially toward you and potentially recovering guard** (Effectiveness: Medium) - Your Response: Follow their turn while maintaining chest contact. If they commit to turning, transition to gift wrap control or technical mount. Use their turn momentum to take the opposite side back control → Leads to [[Turtle]]
-- **Opponent reaches back to grab your head, attempting to control your posture and create space** (Effectiveness: Medium) - Your Response: Keep your head tight to their shoulder where they cannot reach it. If they do grab your head, strip the grip immediately as it exposes their arm for attacks and weakens their neck defense → Leads to [[Back Control]]
-- **Opponent escapes their hips and drops to the side, attempting to put their back to the mat** (Effectiveness: Medium) - Your Response: If they commit to this escape, follow with your body and transition to mounted crucifix or S-mount. Maintain your grip structure and finish the choke from the modified position if possible → Leads to [[Turtle]]
+- **Opponent two-on-one grips your choking arm and pulls it away from their neck before you can insert beneath the chin** (Effectiveness: High) - Your Response: Use your free hand to strip their top grip first, then reinsert. Alternatively, switch to attacking their exposed arm for an armbar from back or transition to crucifix to trap their defending arms → Leads to [[Positions/Back Control]]
+- **Opponent tucks chin tightly to chest creating a barrier that prevents your forearm from sliding beneath** (Effectiveness: High) - Your Response: Attack the jaw line instead—slide your forearm across their face forcing the chin up, or use your free hand to cup their forehead and lift. The discomfort of the forearm on the jaw often opens the neck → Leads to [[Positions/Back Control]]
+- **Opponent turns their body toward your choking arm, facing partially toward you and potentially recovering guard** (Effectiveness: Medium) - Your Response: Follow their turn while maintaining chest contact. If they commit to turning, transition to gift wrap control or technical mount. Use their turn momentum to take the opposite side back control → Leads to [[Positions/Turtle]]
+- **Opponent reaches back to grab your head, attempting to control your posture and create space** (Effectiveness: Medium) - Your Response: Keep your head tight to their shoulder where they cannot reach it. If they do grab your head, strip the grip immediately as it exposes their arm for attacks and weakens their neck defense → Leads to [[Positions/Back Control]]
+- **Opponent escapes their hips and drops to the side, attempting to put their back to the mat** (Effectiveness: Medium) - Your Response: If they commit to this escape, follow with your body and transition to mounted crucifix or S-mount. Maintain your grip structure and finish the choke from the modified position if possible → Leads to [[Positions/Turtle]]
 
 
 </section>

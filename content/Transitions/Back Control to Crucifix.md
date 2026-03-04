@@ -21,7 +21,7 @@ The transition typically occurs when the bottom player attempts to defend the re
 
 Understanding this positional flow is essential for any serious back attack specialist. It represents the logical evolution from basic back control to a more sophisticated control position that dramatically increases submission percentages while minimizing escape opportunities. Competition data consistently shows that practitioners who actively hunt for crucifix from back control have significantly higher finishing rates than those who rely solely on rear naked choke variations.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Understanding this positional flow is essential for any serious back attack spec
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Crucifix]] | 58% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Back Control]] | 12% |
+| Success | [[Positions/Crucifix]] | 58% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Back Control]] | 12% |
 
 
 </section>
@@ -196,31 +196,31 @@ The back control to crucifix transition occupies a critical position in modern b
 ## Related Techniques
 
 
-- [[Back Control]] - Starting position from which this transition begins
+- [[Positions/Back Control]] - Starting position from which this transition begins
 
-- [[Crucifix]] - Destination position achieved through this transition
+- [[Positions/Crucifix]] - Destination position achieved through this transition
 
-- [[Mounted Crucifix]] - Advanced variation with mount pressure instead of bottom hook
+- [[Positions/Mount/Mounted Crucifix]] - Advanced variation with mount pressure instead of bottom hook
 
-- [[Gift Wrap]] - Preliminary arm trap that facilitates easier crucifix entry
+- [[Positions/Gift Wrap]] - Preliminary arm trap that facilitates easier crucifix entry
 
-- [[Body Triangle]] - Alternative leg control that can be maintained during crucifix transition
+- [[Positions/Back Control/Body Triangle]] - Alternative leg control that can be maintained during crucifix transition
 
-- [[Seat Belt Control Back]] - Essential grip configuration for initiating transition sequence
+- [[Positions/Back Control/Seat Belt Control Back]] - Essential grip configuration for initiating transition sequence
 
-- [[Armbar from Crucifix]] - Primary submission finish after completing transition
+- [[Transitions/Armbar from Crucifix]] - Primary submission finish after completing transition
 
-- [[Choke from Crucifix]] - Secondary submission finish option from crucifix position
+- [[Transitions/Choke from Crucifix]] - Secondary submission finish option from crucifix position
 
-- [[Rear Naked Choke]] - Choke threat that creates defensive reaction enabling transition
+- [[Transitions/Rear Naked Choke]] - Choke threat that creates defensive reaction enabling transition
 
-- [[Truck]] - Alternative dual-arm control system with different leg mechanics
+- [[Positions/Twister Control/Truck]] - Alternative dual-arm control system with different leg mechanics
 
-- [[Crab Ride]] - Related back attack control position with different entry angles
+- [[Positions/Crab Ride]] - Related back attack control position with different entry angles
 
-- [[Back Take]] - Prerequisite back taking ability needed before advancing to crucifix
+- [[Transitions/Back Take]] - Prerequisite back taking ability needed before advancing to crucifix
 
-- [[Crucifix from Turtle]] - Alternative crucifix entry bypassing standard back control
+- [[Transitions/Crucifix from Turtle]] - Alternative crucifix entry bypassing standard back control
 
 
 </section>

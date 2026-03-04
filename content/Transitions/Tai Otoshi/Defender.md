@@ -154,7 +154,7 @@ description: "How to defend against Tai Otoshi in BJJ. Recognition cues, defensi
 
 Defending Tai Otoshi requires understanding the throw's mechanical dependencies and recognizing early warning signs before the technique reaches its point of no return. The throw relies on three sequential elements - kuzushi (off-balancing), body rotation with blocking leg placement, and the final pull-through - and disrupting any one of these elements can neutralize the attack. The defender's primary objective is to deny the forward weight commitment that the thrower needs to make the blocking leg effective, either by maintaining a strong upright posture with hips back, breaking the grip configuration that enables the pull, or stepping around the blocking leg before rotation completes. Successful defense requires constant awareness of your own weight distribution and your opponent's grip intentions during standing exchanges. The best defenders do not simply react to the throw attempt but proactively manage distance, grip positioning, and stance to make Tai Otoshi entries difficult from the outset. When caught in a committed entry, immediate hip-level sprawling or circling toward the thrower's back can convert a dangerous situation into a neutral or advantageous position.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -190,28 +190,28 @@ Defending Tai Otoshi requires understanding the throw's mechanical dependencies 
 ### 1. Drop hips back and widen base immediately upon feeling forward pull, driving your weight down and backward to deny the kuzushi
 
 - **When to use**: As soon as you feel sustained forward pulling pressure through the grips, before opponent begins their rotation entry
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent's throw attempt fails completely as they cannot generate the forward weight commitment needed, returning both fighters to neutral standing
 - **Risk**: If you overcommit your weight backward, opponent can chain to backward-direction attacks like Osoto Gari or Kouchi Gari
 
 ### 2. Step over the blocking leg by lifting your lead foot high and stepping past opponent's extended leg while driving your hips into them
 
 - **When to use**: When opponent has already placed their blocking leg but the rotational pull has not yet fully committed your weight forward
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You clear the blocking point entirely, ending up behind or beside the opponent with potential to take their back or establish dominant grip position
 - **Risk**: Requires precise timing - if you step too late, your momentum carries you over the blocking leg and the throw completes
 
 ### 3. Circle hard toward opponent's back (the direction they are rotating) while breaking or redirecting the sleeve/wrist grip to deny the pulling arc
 
 - **When to use**: During the opponent's rotation phase when they are turning their back to you but before the throw is fully loaded
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You end up behind the rotating opponent, potentially with access to their back or at minimum in a neutral standing position with their entry nullified
 - **Risk**: If opponent adjusts their rotation to match your circle, they may complete a modified throw or transition to a different technique
 
 ### 4. Immediately break the primary pulling grip (sleeve or wrist control) using a sharp two-on-one strip, then posture aggressively upright
 
 - **When to use**: During the initial kuzushi phase when you feel the characteristic two-handed forward pull before any rotation begins
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Without the pulling grip, opponent cannot generate the directional control needed for the throw and must reset their grip fighting
 - **Risk**: Brief moment of vulnerability during grip break where opponent may switch to a different attack that requires less grip setup
 
@@ -223,11 +223,11 @@ Defending Tai Otoshi requires understanding the throw's mechanical dependencies 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Deny the kuzushi by dropping your hips, widening your base, and actively breaking grips before the throw entry develops. The most reliable defense is preventing the throw from starting rather than dealing with it mid-execution. Keep your elbows tight, posture upright, and immediately strip any sleeve or collar grip that provides the opponent with two-point pulling control.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 When caught in a committed entry, step over the blocking leg and drive your hips into the opponent's back as they rotate. This converts their throw attempt into a scramble situation where you end up behind them. You can also hop over the blocking leg laterally and immediately establish an underhook or back clinch position on the disoriented thrower.
 

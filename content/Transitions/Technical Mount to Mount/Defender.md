@@ -156,7 +156,7 @@ From the defender's perspective, the Technical Mount to Mount transition represe
 
 The primary defensive strategy involves using the weight shift moment to execute hip escapes, insert knee shields, or bridge to disrupt the consolidation. Successfully countering this transition recovers half guard, dramatically improving the defender's positional outlook from the most dangerous position in BJJ to one with legitimate offensive options. Even forcing the top player to abort the consolidation and remain in technical mount can be strategically valuable, as it denies them the stable base they're seeking and forces continued commitment to the asymmetric position.
 
-**Opponent's Starting Position**: [[Technical Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/Technical Mount]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The primary defensive strategy involves using the weight shift moment to execute
 ### 1. Hip escape during leg retraction—shrimp away from the retracting leg and insert your knee between your bodies as a shield
 
 - **When to use**: The moment you feel the posted leg begin to slide backward and the downward pressure momentarily decreases on the retracting leg side
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover half guard with knee shield established, transitioning from the most dangerous position in BJJ to one with legitimate sweeping and guard recovery options
 - **Risk**: If mistimed, the top player settles mount before your knee enters, and your hip escape movement may expose your back or create an arm vulnerability
 
 ### 2. Bridge to disrupt consolidation—explosive upward bridge timed to the moment of maximum weight transition between legs
 
 - **When to use**: When the top player is mid-retraction with weight shifting from the posted leg to the inside knee, creating a brief period of reduced base stability
-- **Targets**: [[Technical Mount]]
+- **Targets**: [[Positions/Mount/Technical Mount]]
 - **If successful**: Disrupt the consolidation and force the top player to re-post their leg or abandon the transition, returning to technical mount where you may have better escape timing on the next attempt
 - **Risk**: If the bridge fails to disrupt the transition, you expend significant energy without positional improvement and may be flattened more effectively as the mount settles
 
 ### 3. Knee shield insertion during grip transition—as the top player releases arm isolation grips and transitions to mount control grips, exploit the brief grip gap to insert your knee
 
 - **When to use**: During the moment when the top player releases the wrist or elbow grip but hasn't yet established crossface or collar control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Establish knee shield half guard before mount settles, creating distance and frames that prevent immediate re-mounting and provide sweeping opportunities
 - **Risk**: Reaching to create the knee shield may expose your arm if the top player reads your timing and re-secures arm control instead of completing the mount transition
 
 ### 4. Frame on hips and create angle—use forearm frames against the top player's hips to maintain space during the transition, then turn to your side to begin guard recovery
 
 - **When to use**: When you have active frames established and the top player begins the consolidation without first neutralizing your defensive structure
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Create sufficient angle and distance to recover half guard or open guard, preventing the mount from fully settling and establishing a defensive guard position
 - **Risk**: Framing without hip escape can become static resistance that the top player eventually overcomes through sustained pressure once mount is established
 
@@ -227,11 +227,11 @@ The primary defensive strategy involves using the weight shift moment to execute
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your hip escape to coincide with the posted leg retraction. As the top player slides their leg back, the downward pressure on that side briefly lifts, creating a window to insert your knee between your bodies and establish half guard. Use forearm frames against their hip to maintain the space created, then immediately begin working your half guard offense to prevent being re-passed.
 
-### → [[Technical Mount]]
+### → [[Positions/Mount/Technical Mount]]
 
 Bridge explosively during the moment of maximum weight transition to disrupt the consolidation and force the top player to re-post their leg. While this returns you to technical mount bottom rather than improving your position, it denies the opponent their desired stable mount base and forces them to re-attempt the consolidation or continue attacking from the asymmetric position, giving you additional counter-opportunities.
 

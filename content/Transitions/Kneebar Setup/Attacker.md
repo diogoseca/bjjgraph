@@ -184,7 +184,7 @@ The setup requires transitioning from the standard outside ashi figure-4 configu
 
 This transition is particularly effective because it punishes one of the most common escape attempts from outside ashi—forward pressure to stack. Rather than fighting the stack directly, you redirect their momentum into a submission threat. The kneebar also serves as an excellent chain attack when heel hook attempts are defended, as opponents often straighten their leg to prevent heel exposure, inadvertently setting up the kneebar.
 
-**From Position**: [[Outside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -238,9 +238,9 @@ This transition is particularly effective because it punishes one of the most co
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kneebar Control]] | 58% |
-| Failure | [[Outside Ashi-Garami]] | 30% |
-| Counter | [[Half Guard]] | 12% |
+| Success | [[Positions/Kneebar Control]] | 58% |
+| Failure | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>
@@ -249,10 +249,10 @@ This transition is particularly effective because it punishes one of the most co
 
 ## Opponent Counters
 
-- **Opponent bends knee deeply to prevent hyperextension and begins rotating to face you** (Effectiveness: High) - Your Response: If knee bends before you secure position, immediately transition back to heel hook or flow to calf slicer by bringing your leg over their calf → Leads to [[Outside Ashi-Garami]]
-- **Opponent grabs their own leg and pulls knee toward chest to relieve pressure** (Effectiveness: Medium) - Your Response: Increase hip elevation and pull ankle harder, or if grip is strong, switch to inside heel hook by rotating and attacking the now-exposed heel → Leads to [[Outside Ashi-Garami]]
-- **Opponent rolls through the kneebar attempting to relieve pressure and escape** (Effectiveness: Medium) - Your Response: Follow the roll maintaining leg control, often ending in a mounted or top position kneebar with improved leverage → Leads to [[Kneebar Control]]
-- **Opponent posts with free leg and creates distance by pushing away, then extracts trapped leg** (Effectiveness: Low) - Your Response: Maintain ankle control and follow their retreat, using their pushing momentum to increase extension pressure on the knee → Leads to [[Half Guard]]
+- **Opponent bends knee deeply to prevent hyperextension and begins rotating to face you** (Effectiveness: High) - Your Response: If knee bends before you secure position, immediately transition back to heel hook or flow to calf slicer by bringing your leg over their calf → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Opponent grabs their own leg and pulls knee toward chest to relieve pressure** (Effectiveness: Medium) - Your Response: Increase hip elevation and pull ankle harder, or if grip is strong, switch to inside heel hook by rotating and attacking the now-exposed heel → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Opponent rolls through the kneebar attempting to relieve pressure and escape** (Effectiveness: Medium) - Your Response: Follow the roll maintaining leg control, often ending in a mounted or top position kneebar with improved leverage → Leads to [[Positions/Kneebar Control]]
+- **Opponent posts with free leg and creates distance by pushing away, then extracts trapped leg** (Effectiveness: Low) - Your Response: Maintain ankle control and follow their retreat, using their pushing momentum to increase extension pressure on the knee → Leads to [[Positions/Half Guard]]
 
 
 </section>

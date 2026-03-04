@@ -231,8 +231,8 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -241,11 +241,11 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 ## Opponent Defenses
 
-- **Hand fighting to break the grip by prying fingers apart** (Effectiveness: Medium) - Your Response: Counter by squeezing your elbows tighter to your ribs and increasing shoulder elevation. The opponent's grip-breaking attempts actually help you finish if you maintain elbow position. Alternatively, adjust your hand position slightly deeper or switch to a different grip variation momentarily before re-establishing the ten finger lock. → Leads to [[Front Headlock]]
-- **Driving forward aggressively to create space and posture up** (Effectiveness: High) - Your Response: Use opponent's forward pressure to sit to guard or jump to closed guard, bringing them with you. As you fall backward, maintain the choke and use your legs to control their hips, preventing them from following through with the posture recovery. The transition to guard actually tightens the choke by changing the angle. → Leads to [[Front Headlock]]
-- **Grabbing your leg for a single or double leg takedown to alleviate pressure** (Effectiveness: Medium) - Your Response: Sprawl your hips backward while maintaining upper body pressure and the choke. Alternatively, accept the takedown but ensure you maintain the guillotine grip and land in closed guard. Many successful guillotine finishes occur after the opponent completes a takedown but finds themselves trapped in guard with the choke still locked. → Leads to [[Front Headlock]]
-- **Turning into you to face the same direction (inside position escape)** (Effectiveness: High) - Your Response: Follow opponent's rotation by pivoting your feet and hips, maintaining front headlock control throughout. If they successfully turn all the way through, transition to an anaconda or darce choke by adjusting your arm position. Alternatively, use the scramble to take the back or improve position while threatening the choke. → Leads to [[Closed Guard]]
-- **Tucking chin aggressively to prevent forearm from crossing throat** (Effectiveness: Low) - Your Response: The ten finger guillotine is less affected by chin defense than other variations because the squeeze comes from shoulder elevation and lat engagement. Continue applying pressure - the opponent will either tire from holding their chin position or you'll finish with a combination of jaw pressure and blood restriction. Never force the chin up with jerking motions; let sustained pressure do the work. → Leads to [[Front Headlock]]
+- **Hand fighting to break the grip by prying fingers apart** (Effectiveness: Medium) - Your Response: Counter by squeezing your elbows tighter to your ribs and increasing shoulder elevation. The opponent's grip-breaking attempts actually help you finish if you maintain elbow position. Alternatively, adjust your hand position slightly deeper or switch to a different grip variation momentarily before re-establishing the ten finger lock. → Leads to [[Positions/Front Headlock]]
+- **Driving forward aggressively to create space and posture up** (Effectiveness: High) - Your Response: Use opponent's forward pressure to sit to guard or jump to closed guard, bringing them with you. As you fall backward, maintain the choke and use your legs to control their hips, preventing them from following through with the posture recovery. The transition to guard actually tightens the choke by changing the angle. → Leads to [[Positions/Front Headlock]]
+- **Grabbing your leg for a single or double leg takedown to alleviate pressure** (Effectiveness: Medium) - Your Response: Sprawl your hips backward while maintaining upper body pressure and the choke. Alternatively, accept the takedown but ensure you maintain the guillotine grip and land in closed guard. Many successful guillotine finishes occur after the opponent completes a takedown but finds themselves trapped in guard with the choke still locked. → Leads to [[Positions/Front Headlock]]
+- **Turning into you to face the same direction (inside position escape)** (Effectiveness: High) - Your Response: Follow opponent's rotation by pivoting your feet and hips, maintaining front headlock control throughout. If they successfully turn all the way through, transition to an anaconda or darce choke by adjusting your arm position. Alternatively, use the scramble to take the back or improve position while threatening the choke. → Leads to [[Positions/Closed Guard]]
+- **Tucking chin aggressively to prevent forearm from crossing throat** (Effectiveness: Low) - Your Response: The ten finger guillotine is less affected by chin defense than other variations because the squeeze comes from shoulder elevation and lat engagement. Continue applying pressure - the opponent will either tire from holding their chin position or you'll finish with a combination of jaw pressure and blood restriction. Never force the chin up with jerking motions; let sustained pressure do the work. → Leads to [[Positions/Front Headlock]]
 
 
 </section>

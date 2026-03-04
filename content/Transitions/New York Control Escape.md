@@ -21,7 +21,7 @@ The escape follows a strict sequential protocol where overhook extraction must o
 
 Strategic mastery of this escape extends beyond simple positional recovery. Practitioners who develop reliable New York Control extraction mechanics gain confidence when engaging rubber guard specialists, removing the psychological pressure that causes many competitors to make critical errors through panic-driven responses. The escape integrates with broader guard passing strategy, as successful extraction typically creates open guard scenarios where the top player can immediately implement their preferred passing sequences against a momentarily disrupted guard structure.
 
-**From Position**: [[New York Control]] (Top)
+**From Position**: [[Positions/Rubber Guard/New York Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategic mastery of this escape extends beyond simple positional recovery. Prac
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[New York Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Rubber Guard/New York Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The New York Control Escape integrates into the broader rubber guard defensive f
 ## Related Techniques
 
 
-- [[New York Control]] - Source position requiring systematic escape
+- [[Positions/Rubber Guard/New York Control]] - Source position requiring systematic escape
 
-- [[Open Guard]] - Primary target position after successful escape
+- [[Positions/Open Guard]] - Primary target position after successful escape
 
-- [[Half Guard]] - Counter outcome position when swept during escape attempt
+- [[Positions/Half Guard]] - Counter outcome position when swept during escape attempt
 
-- [[Mission Control]] - Related rubber guard position requiring similar defensive principles
+- [[Positions/Rubber Guard/Mission Control]] - Related rubber guard position requiring similar defensive principles
 
-- [[Closed Guard]] - Recovery position achievable during partial escape
+- [[Positions/Closed Guard]] - Recovery position achievable during partial escape
 
-- [[Combat Base]] - Intermediate base position during escape sequencing
+- [[Positions/Combat Base]] - Intermediate base position during escape sequencing
 
-- [[Invisible Collar]] - Adjacent rubber guard position with overlapping escape mechanics
+- [[Positions/Rubber Guard/Invisible Collar]] - Adjacent rubber guard position with overlapping escape mechanics
 
-- [[Rubber Guard]] - Parent guard system containing New York Control
+- [[Positions/Rubber Guard]] - Parent guard system containing New York Control
 
-- [[Chill Dog]] - Related rubber guard variation with similar escape requirements
+- [[Positions/Rubber Guard/Chill Dog]] - Related rubber guard variation with similar escape requirements
 
-- [[Overhook Guard]] - Related overhook-based position sharing arm extraction principles
+- [[Positions/Overhook Guard]] - Related overhook-based position sharing arm extraction principles
 
 
 </section>

@@ -190,7 +190,7 @@ Strategically, Triangle from Mount functions as a chain-attack catalyst. When th
 
 At competition level, the mounted triangle is devastating because it combines positional dominance with immediate submission threat. The attacker retains mount points while threatening a blood choke, and failed defense typically leads to armbar or back take opportunities rather than positional loss. The key challenge is managing the transition moment when the leg swings over—this brief window of instability is where most failures occur, making timing and weight distribution the critical variables for success.
 
-**From Position**: [[3-4 Mount]] (Top)
+**From Position**: [[Positions/Mount/3-4 Mount]] (Top)
 
 </section>
 
@@ -243,9 +243,9 @@ At competition level, the mounted triangle is devastating because it combines po
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mounted Triangle]] | 55% |
-| Failure | [[3-4 Mount]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Mount/Mounted Triangle]] | 55% |
+| Failure | [[Positions/Mount/3-4 Mount]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -254,10 +254,10 @@ At competition level, the mounted triangle is devastating because it combines po
 
 ## Opponent Counters
 
-- **Opponent tucks both elbows tight and refuses to allow arm isolation, maintaining a compact defensive shell** (Effectiveness: High) - Your Response: Switch to Americana or Ezekiel choke attacks that force them to extend an arm, then capitalize on the arm-out reaction to re-enter the triangle setup → Leads to [[3-4 Mount]]
-- **Opponent bridges explosively during the leg transition when your base is momentarily compromised** (Effectiveness: High) - Your Response: Post your free hand wide on the mat and drive your mounted knee deeper into their ribs to anchor. If the bridge is too powerful, abandon the triangle and resettle into mount rather than forcing a compromised position → Leads to [[3-4 Mount]]
-- **Opponent grabs your swinging leg with both hands to prevent it from clearing their shoulder** (Effectiveness: Medium) - Your Response: Use your free hand to peel their grip off your ankle while maintaining chest pressure. Alternatively, switch to an armbar on the arm that reached up to grab your leg, as they have exposed it by reaching high → Leads to [[3-4 Mount]]
-- **Opponent turns onto their side toward the swinging leg to prevent the triangle from locking around their neck** (Effectiveness: Medium) - Your Response: Follow the turn and transition to back take by inserting hooks as they expose their back. The turn that prevents the triangle creates an ideal back take entry angle → Leads to [[Closed Guard]]
+- **Opponent tucks both elbows tight and refuses to allow arm isolation, maintaining a compact defensive shell** (Effectiveness: High) - Your Response: Switch to Americana or Ezekiel choke attacks that force them to extend an arm, then capitalize on the arm-out reaction to re-enter the triangle setup → Leads to [[Positions/Mount/3-4 Mount]]
+- **Opponent bridges explosively during the leg transition when your base is momentarily compromised** (Effectiveness: High) - Your Response: Post your free hand wide on the mat and drive your mounted knee deeper into their ribs to anchor. If the bridge is too powerful, abandon the triangle and resettle into mount rather than forcing a compromised position → Leads to [[Positions/Mount/3-4 Mount]]
+- **Opponent grabs your swinging leg with both hands to prevent it from clearing their shoulder** (Effectiveness: Medium) - Your Response: Use your free hand to peel their grip off your ankle while maintaining chest pressure. Alternatively, switch to an armbar on the arm that reached up to grab your leg, as they have exposed it by reaching high → Leads to [[Positions/Mount/3-4 Mount]]
+- **Opponent turns onto their side toward the swinging leg to prevent the triangle from locking around their neck** (Effectiveness: Medium) - Your Response: Follow the turn and transition to back take by inserting hooks as they expose their back. The turn that prevents the triangle creates an ideal back take entry angle → Leads to [[Positions/Closed Guard]]
 
 
 </section>

@@ -21,7 +21,7 @@ When executed correctly, this transition catches opponents off-guard because it 
 
 Strategically, the Japanese Necktie functions as a high-value option within the front headlock attack tree. When opponents defend the Darce and Anaconda by keeping their elbows tight, the Japanese Necktie exploits the space created on the far side of their neck. The technique chains naturally with other front headlock submissions, creating a layered attack system where each defensive response opens a new offensive pathway.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Japanese Necktie functions as a high-value option within the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 55% |
-| Failure | [[Front Headlock]] | 30% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Darce Control]] | 55% |
+| Failure | [[Positions/Front Headlock]] | 30% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Japanese Necktie Setup is a crucial component of the front headlock attack s
 ## Related Techniques
 
 
-- [[Front Headlock]] - Starting position for setup
+- [[Positions/Front Headlock]] - Starting position for setup
 
-- [[Darce Control]] - Finishing control position reached on success
+- [[Positions/Darce Control]] - Finishing control position reached on success
 
-- [[Darce Setup]] - Alternative attack from same position
+- [[Transitions/Darce Setup]] - Alternative attack from same position
 
-- [[Anaconda Setup]] - Alternative attack from same position
+- [[Transitions/Anaconda Setup]] - Alternative attack from same position
 
-- [[Guillotine Setup]] - Alternative attack from same position
+- [[Transitions/Guillotine Setup]] - Alternative attack from same position
 
-- [[Anaconda from Turtle]] - Related turtle attack option
+- [[Transitions/Anaconda from Turtle]] - Related turtle attack option
 
-- [[Front Headlock to Back]] - Alternative if choke fails
+- [[Transitions/Front Headlock to Back]] - Alternative if choke fails
 
-- [[Turtle]] - Common opponent position for setup
+- [[Positions/Turtle]] - Common opponent position for setup
 
-- [[Darce Choke]] - Related submission from front headlock family
+- [[Transitions/Darce Choke]] - Related submission from front headlock family
 
-- [[Anaconda Choke]] - Related submission from front headlock family
+- [[Transitions/Anaconda Choke]] - Related submission from front headlock family
 
-- [[Arm Triangle from Front Headlock]] - Related neck attack from same control
+- [[Transitions/Arm Triangle from Front Headlock]] - Related neck attack from same control
 
-- [[Back Take from Top]] - Positional alternative if submission fails
+- [[Transitions/Back Take from Top]] - Positional alternative if submission fails
 
 
 </section>

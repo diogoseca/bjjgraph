@@ -180,7 +180,7 @@ description: "Master attacking mechanics for the 3-4 Mount to Technical Mount tr
 
 From the attacker's perspective, the 3-4 Mount to Technical Mount transition is a read-and-react positional advancement that converts asymmetric mount control into an immediate finishing platform. The transition requires patience to identify the correct timing window—typically when the bottom player turns their shoulders or extends an arm—followed by decisive commitment to arm isolation and leg repositioning. The entire sequence should execute within two to three seconds once initiated, as hesitation allows the bottom player to reset defensive frames and block the advancement. Success depends on maintaining constant pressure throughout the transition so the bottom player never feels the weight relief that signals a positional change is occurring.
 
-**From Position**: [[3-4 Mount]] (Top)
+**From Position**: [[Positions/Mount/3-4 Mount]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ From the attacker's perspective, the 3-4 Mount to Technical Mount transition is 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Technical Mount]] | 55% |
-| Failure | [[3-4 Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/Technical Mount]] | 55% |
+| Failure | [[Positions/Mount/3-4 Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ From the attacker's perspective, the 3-4 Mount to Technical Mount transition is 
 
 ## Opponent Counters
 
-- **Opponent clamps elbows tight to ribs, denying arm isolation needed to initiate the transition** (Effectiveness: High) - Your Response: Apply sustained crossface pressure to force them to turn away, exposing the far arm. Alternatively, attack the near-side arm with Americana threat to force them to open elbows reactively, then immediately transition when the arm extends. → Leads to [[3-4 Mount]]
-- **Opponent bridges explosively during the weight shift phase, disrupting your base before leg repositioning completes** (Effectiveness: High) - Your Response: Ride the bridge by staying heavy on your inside hook and posted leg. If mount is compromised, immediately transition to side control or knee on belly rather than fighting back to mount. If bridge is toward the arm-controlled side, use their momentum to accelerate into the armbar. → Leads to [[Half Guard]]
-- **Opponent frames against your hip with their free arm to block the posted knee from advancing toward their head** (Effectiveness: Medium) - Your Response: Attack the framing arm with a gift wrap by swimming your hand underneath their forearm and grabbing their far shoulder. The frame becomes a trapped limb, giving you superior arm control for the transition. Alternatively, redirect to an Americana on the framing arm. → Leads to [[3-4 Mount]]
-- **Opponent shrimps away and inserts knee shield during the transitional weight shift, recovering half guard** (Effectiveness: High) - Your Response: If the knee shield is already in, accept the half guard top position and work to re-pass rather than forcing mount recovery against an established frame. Immediately establish crossface and underhook control to begin passing sequence from half guard top. → Leads to [[Half Guard]]
+- **Opponent clamps elbows tight to ribs, denying arm isolation needed to initiate the transition** (Effectiveness: High) - Your Response: Apply sustained crossface pressure to force them to turn away, exposing the far arm. Alternatively, attack the near-side arm with Americana threat to force them to open elbows reactively, then immediately transition when the arm extends. → Leads to [[Positions/Mount/3-4 Mount]]
+- **Opponent bridges explosively during the weight shift phase, disrupting your base before leg repositioning completes** (Effectiveness: High) - Your Response: Ride the bridge by staying heavy on your inside hook and posted leg. If mount is compromised, immediately transition to side control or knee on belly rather than fighting back to mount. If bridge is toward the arm-controlled side, use their momentum to accelerate into the armbar. → Leads to [[Positions/Half Guard]]
+- **Opponent frames against your hip with their free arm to block the posted knee from advancing toward their head** (Effectiveness: Medium) - Your Response: Attack the framing arm with a gift wrap by swimming your hand underneath their forearm and grabbing their far shoulder. The frame becomes a trapped limb, giving you superior arm control for the transition. Alternatively, redirect to an Americana on the framing arm. → Leads to [[Positions/Mount/3-4 Mount]]
+- **Opponent shrimps away and inserts knee shield during the transitional weight shift, recovering half guard** (Effectiveness: High) - Your Response: If the knee shield is already in, accept the half guard top position and work to re-pass rather than forcing mount recovery against an established frame. Immediately establish crossface and underhook control to begin passing sequence from half guard top. → Leads to [[Positions/Half Guard]]
 
 
 </section>

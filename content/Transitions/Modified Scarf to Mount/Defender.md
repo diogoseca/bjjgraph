@@ -154,7 +154,7 @@ description: "Defend the Modified Scarf Hold to Mount transition. Learn recognit
 
 Defending the Modified Scarf to Mount transition requires recognizing the top player's intent before the leg swing begins and executing defensive countermeasures during the narrow vulnerability window created by the weight transfer. The defender's primary tools are hip framing, knee shield insertion, and bridge timing. Success depends on acting early—once the top player completes the step-over and settles their weight, the position deteriorates from a difficult but survivable Modified Scarf Hold into the significantly more oppressive mount. Understanding this transition's mechanics from the defender's perspective transforms a reactive survival scenario into a proactive defensive opportunity where the momentary instability of the leg swing becomes your best chance to recover guard. Prevention is always superior to post-mount escape: disrupting a transition in progress requires far less energy than escaping a fully consolidated mount.
 
-**Opponent's Starting Position**: [[Modified Scarf Hold]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Modified Scarf to Mount transition requires recognizing the top pl
 ### 1. Insert far knee shield between bodies during the leg swing gap
 
 - **When to use**: During the brief moment when downward pressure decreases as the top player lifts their leg to swing over, creating a gap in chest-to-chest compression
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Establish knee shield half guard, completely preventing mount consolidation and recovering to a defensive guard position with legitimate sweep and back take threats
 - **Risk**: If the knee insertion is too slow, the top player clears it with their swinging leg and establishes mount with your knee trapped in a compromised position
 
 ### 2. Frame on hip with far arm and execute aggressive hip escape to create distance
 
 - **When to use**: When you detect the transition early through grip changes or base foot repositioning, before the leg swing has begun
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Create enough space to insert knee shield and recover half guard, denying mount entry and regaining a guard position with offensive potential
 - **Risk**: If the hip escape is late or insufficient, the top player rides the movement and establishes mount with your hips already displaced sideways
 
 ### 3. Bridge explosively during the weight transfer phase to disrupt balance and abort the transition
 
 - **When to use**: During the precise moment when the top player's weight transitions from lateral scarf pressure to the step-over, before they settle into mount
-- **Targets**: [[Modified Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Modified Scarf Hold]]
 - **If successful**: Force the top player to abort the mount entry and re-establish Modified Scarf Hold, resetting the positional exchange and buying time for escape
 - **Risk**: Mistimed bridge wastes significant energy and may assist the top player's weight transfer if executed too early or too late in the sequence
 
 ### 4. Turn into the attacker and block leg clearance by keeping hips square
 
 - **When to use**: When you recognize early preparation cues and the top player has not yet committed to the step-over
-- **Targets**: [[Modified Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Modified Scarf Hold]]
 - **If successful**: Prevent the transition from initiating by denying the angle needed for leg clearance, forcing the attacker to abandon the mount attempt
 - **Risk**: Turning into the attacker without frames may enable them to take north-south or transition to a different pin instead
 
@@ -225,7 +225,7 @@ Defending the Modified Scarf to Mount transition requires recognizing the top pl
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your far knee insertion during the leg swing when chest pressure momentarily decreases. Drive the knee shield across the top player's hip line before they can clear it with the swinging leg. Even a partial knee shield that prevents full mount consolidation recovers half guard, which is dramatically more defensible than mount and offers legitimate offensive sweep and back take opportunities.
 

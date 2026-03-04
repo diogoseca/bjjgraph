@@ -174,7 +174,7 @@ description: "How to execute Standing to Single Leg X in BJJ. Attacking perspect
 
 The Standing to Single Leg X transition is a fundamental guard pull entry that converts standing engagement into a powerful leg entanglement position. This technique allows the bottom player to bypass traditional guard establishment and immediately threaten sweeps and leg attacks from a mechanically advantageous position. The Single Leg X position provides superior control of one leg while maintaining distance management and sweep opportunities. Unlike traditional seated guard pulls, this entry creates immediate offensive pressure by compromising the opponent's base and posture simultaneously. The technique is particularly effective in no-gi grappling and modern sport BJJ competition, where dynamic guard pulling has become essential. Success depends on timing the entry during opponent movement, maintaining proper body positioning throughout the transition, and securing critical grips before the opponent can establish defensive posture.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Standing Position]] | 15% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -238,10 +238,10 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 
 ## Opponent Counters
 
-- **Opponent sprawls backward and extracts leg** (Effectiveness: High) - Your Response: Maintain grip tension and follow their backward motion. If leg escapes, immediately transition to De La Riva Guard or Reverse De La Riva Guard by adjusting hook placement. Don't release grips during their defensive movement. → Leads to [[Standing Position]]
-- **Opponent drives forward pressure and smashes hook** (Effectiveness: Medium) - Your Response: Use outside foot to create frame and prevent chest-to-chest contact. If pressure continues, invert under their hips and transition to X-Guard or Reverse X-Guard by adding second hook. Never allow flat back position under pressure. → Leads to [[Standing Position]]
-- **Opponent grips your pants or ankle and blocks hook insertion** (Effectiveness: Medium) - Your Response: If hook is denied, immediately convert to Ankle Pick Sweep or Tripod Sweep using the same grips and positioning. Use outside foot to push hip and create space for hook re-entry. Multiple sweep threats prevent static defense. → Leads to [[Standing Position]]
-- **Opponent posts wide base and lowers hips defensively** (Effectiveness: Low) - Your Response: Their wide base and low posture creates opportunity for alternative sweep angles. Use inside hook to lift their leg while transitioning weight to outside foot, then rotate under for different sweep vector or transition to Ashi Garami entries. → Leads to [[Standing Position]]
+- **Opponent sprawls backward and extracts leg** (Effectiveness: High) - Your Response: Maintain grip tension and follow their backward motion. If leg escapes, immediately transition to De La Riva Guard or Reverse De La Riva Guard by adjusting hook placement. Don't release grips during their defensive movement. → Leads to [[Positions/Standing Position]]
+- **Opponent drives forward pressure and smashes hook** (Effectiveness: Medium) - Your Response: Use outside foot to create frame and prevent chest-to-chest contact. If pressure continues, invert under their hips and transition to X-Guard or Reverse X-Guard by adding second hook. Never allow flat back position under pressure. → Leads to [[Positions/Standing Position]]
+- **Opponent grips your pants or ankle and blocks hook insertion** (Effectiveness: Medium) - Your Response: If hook is denied, immediately convert to Ankle Pick Sweep or Tripod Sweep using the same grips and positioning. Use outside foot to push hip and create space for hook re-entry. Multiple sweep threats prevent static defense. → Leads to [[Positions/Standing Position]]
+- **Opponent posts wide base and lowers hips defensively** (Effectiveness: Low) - Your Response: Their wide base and low posture creates opportunity for alternative sweep angles. Use inside hook to lift their leg while transitioning weight to outside foot, then rotate under for different sweep vector or transition to Ashi Garami entries. → Leads to [[Positions/Standing Position]]
 
 
 </section>

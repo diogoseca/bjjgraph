@@ -21,7 +21,7 @@ The mechanics of the whizzer work by jamming the bottom player's primary offensi
 
 Strategically, the whizzer from deep half is not merely a pass attempt but a position management tool that shifts the entire positional dynamic. Without addressing the deep underhook, the top player faces constant high-percentage sweep threats from every angle. The whizzer neutralizes these threats while creating the space and control needed to methodically extract the trapped leg and complete the pass to side control. Advanced practitioners integrate kimura threats off the whizzer grip to create additional offensive pressure that prevents the bottom player from committing fully to sweep counters.
 
-**From Position**: [[Deep Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Deep Half Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the whizzer from deep half is not merely a pass attempt but a pos
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Deep Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Deep Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The whizzer from deep half guard occupies a critical role in the top player's ha
 ## Related Techniques
 
 
-- [[Deep Half Guard]] - Source position where this technique is applied from the top perspective
+- [[Positions/Half Guard/Deep Half Guard]] - Source position where this technique is applied from the top perspective
 
-- [[Side Control]] - Primary target position upon successful whizzer pass completion
+- [[Positions/Side Control]] - Primary target position upon successful whizzer pass completion
 
-- [[Half Guard]] - Counter outcome position when bottom player successfully defends the whizzer
+- [[Positions/Half Guard]] - Counter outcome position when bottom player successfully defends the whizzer
 
-- [[Backstep from Deep Half]] - Alternative passing technique from the same deep half guard top position
+- [[Transitions/Backstep from Deep Half]] - Alternative passing technique from the same deep half guard top position
 
-- [[Homer Simpson Sweep]] - Primary sweep threat the whizzer is designed to neutralize
+- [[Transitions/Homer Simpson Sweep]] - Primary sweep threat the whizzer is designed to neutralize
 
-- [[Deep Half Sweep]] - General sweep threat from deep half that the whizzer counters
+- [[Transitions/Deep Half Sweep]] - General sweep threat from deep half that the whizzer counters
 
-- [[Electric Chair Entry from Deep Half]] - Bottom player's counter-attack option when whizzer is applied
+- [[Transitions/Electric Chair Entry from Deep Half]] - Bottom player's counter-attack option when whizzer is applied
 
-- [[Kimura from Half Guard]] - Submission chain available by converting whizzer grip to kimura
+- [[Transitions/Kimura from Half Guard]] - Submission chain available by converting whizzer grip to kimura
 
-- [[Deep Half Entry from Half Guard]] - Entry technique that creates the position requiring the whizzer counter
+- [[Transitions/Deep Half Entry from Half Guard]] - Entry technique that creates the position requiring the whizzer counter
 
-- [[Lockdown]] - Leg control the bottom player may use to prevent sprawling during whizzer
+- [[Positions/Half Guard/Lockdown]] - Leg control the bottom player may use to prevent sprawling during whizzer
 
 
 </section>

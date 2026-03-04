@@ -154,7 +154,7 @@ description: "Learn to defend against the Roll from Chill Dog escape. Recognitio
 
 The defender in the Roll from Chill Dog is the top player working to prevent the bottom player's forward rolling escape. Your primary advantage is positional awareness - you can feel the bottom player's weight shifts and muscular tension changes that precede the roll. By maintaining consistent downward pressure, controlling at least one hip, and staying alert for forward movement patterns, you can either shut down this escape entirely or convert a failed roll attempt into an even more dominant position like back control. The key defensive principle is that preventing the roll requires less energy than executing it, so maintaining steady pressure and grip control is more effective than explosive reactions.
 
-**Opponent's Starting Position**: [[Chill Dog]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Chill Dog]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ The defender in the Roll from Chill Dog is the top player working to prevent the
 ### 1. Sprawl and drive hips down to flatten the bottom player before the roll builds momentum
 
 - **When to use**: When you feel the bottom player shift weight forward or begin to push off their hands for the roll initiation
-- **Targets**: [[Chill Dog]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: Bottom player is pinned flat and unable to complete the rotation, returning to Chill Dog or a more vulnerable flattened position
 - **Risk**: Over-committing the sprawl forward may open lateral space for a Granby roll or sit-through escape to the side
 
 ### 2. Follow the roll with tight chest-to-back pressure and insert hooks as the bottom player lands
 
 - **When to use**: When the roll has already initiated with momentum and you cannot stop the rotation mid-movement
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You maintain chest-to-back contact through the entire roll and end up behind them with hooks available as they land from the rotation
 - **Risk**: If you lose contact during the roll, the bottom player establishes guard frames before you can re-engage and the escape succeeds
 
 ### 3. Apply cross-face and drive weight laterally to prevent the shoulder tuck required for rotation
 
 - **When to use**: Preemptively when you sense the bottom player testing forward space or angling their shoulders for the roll
-- **Targets**: [[Chill Dog]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: The cross-face removes the bottom player's ability to tuck their shoulder under their body, completely shutting down the rolling mechanics
 - **Risk**: The cross-face requires moving one hand from hip control, which may open alternative escape routes like technical stand-up
 
 ### 4. Circle toward the head and establish front headlock control during the forward motion
 
 - **When to use**: When the bottom player's forward motion exposes their neck before the roll completes its full rotation
-- **Targets**: [[Chill Dog]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: You convert their escape attempt into a front headlock position with choke threats, making their situation worse than before the roll attempt
 - **Risk**: If the bottom player's roll has enough momentum, your headlock attempt may not generate sufficient stopping force
 
@@ -225,11 +225,11 @@ The defender in the Roll from Chill Dog is the top player working to prevent the
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Follow the roll with tight chest-to-back pressure, maintaining physical contact throughout the rotation. As the bottom player lands from the roll, immediately insert your near hook and reach for seatbelt grip. Their rolling momentum actually helps you secure the back position if you stay connected through the entire movement.
 
-### → [[Chill Dog]]
+### → [[Positions/Rubber Guard/Chill Dog]]
 
 Sprawl your hips down and drive chest pressure forward as you feel the roll initiate. Pin the bottom player's hips to the mat before the rotation can build sufficient momentum to complete. Immediately re-establish your attacking grips while they are momentarily displaced from their proper Chill Dog defensive structure.
 

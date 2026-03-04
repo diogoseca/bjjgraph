@@ -210,23 +210,23 @@ Pocket Half Guard Bottom is particularly effective against opponents who favor h
 
 ## Available Escapes
 
-### [[Old School Sweep]] (43% of attempts)
+### [[Transitions/Old School Sweep]] (43% of attempts)
 
-### [[Deep Half Entry]] (17% of attempts)
+### [[Transitions/Deep Half Entry]] (17% of attempts)
 
-### [[Half Guard to Back Take]] (15% of attempts)
+### [[Transitions/Half Guard to Back Take]] (15% of attempts)
 
-### [[Underhook Sweep from Half]] (12% of attempts)
+### [[Transitions/Underhook Sweep from Half]] (12% of attempts)
 
-### [[Electric Chair Transition]] (7% of attempts)
+### [[Transitions/Electric Chair Transition]] (7% of attempts)
 
-### [[Roll to Truck]] (4% of attempts)
+### [[Transitions/Roll to Truck]] (4% of attempts)
 
-### [[Reguard from Pocket Half Guard]] (1% of attempts)
+### [[Transitions/Reguard from Pocket Half Guard]] (1% of attempts)
 
-### [[Sweep from Pocket Half Guard]] (0% of attempts)
+### [[Transitions/Sweep from Pocket Half Guard]] (0% of attempts)
 
-### [[Underhook Sweep from Pocket Half]] (1% of attempts)
+### [[Transitions/Underhook Sweep from Pocket Half]] (1% of attempts)
 
 
 
@@ -237,23 +237,23 @@ Pocket Half Guard Bottom is particularly effective against opponents who favor h
 ## Decision Making from This Position
 
 **If opponent maintains upright posture and attempts to strip underhook:**
-- Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Back Take from Bottom]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent drives forward with heavy pressure attempting to flatten:**
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 70%)
-- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 70%)
+- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent establishes crossface and compromises underhook depth:**
-- Execute **[[Knee Shield Recovery]]** → [[Knee Shield Half Guard]] (Probability: 45%)
-- Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 40%)
+- Execute **[[Knee Shield Recovery]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 45%)
+- Execute **[[Principles/Guard Recovery]]** → [[Positions/Open Guard]] (Probability: 40%)
 
 
 **If opponent attempts to extract trapped leg by extending it:**
-- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 60%)
-- Execute **[[Roll to Truck]]** → [[Truck]] (Probability: 55%)
+- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 60%)
+- Execute **[[Transitions/Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 55%)
 
 
 
@@ -394,15 +394,15 @@ Start in Pocket Half Guard Bottom with deep underhook and pocket space establish
 
 ## Related Positions and Techniques
 
-- **[[Deep Half Guard]]** - Natural transition target when opponent drives forward pressure
-- **[[Old School]]** - Primary offensive technique from this position
-- **[[Electric Chair]]** - Submission opportunity when opponent extends trapped leg
-- **[[Knee Shield Half Guard]]** - Alternative half guard variant if underhook is lost
-- **[[Lockdown]]** - Can be combined with Pocket Half Guard for additional leg control
-- **[[Back Control]]** - Common advancement target via back-take from underhook
-- **[[Truck]]** - Advanced transition when opponent defends Old School Sweep
-- **[[X-Guard]]** - Alternative guard transition when pocket space is compromised
-- **[[Butterfly Guard]]** - Transition option when half guard retention becomes difficult
+- **[[Positions/Half Guard/Deep Half Guard]]** - Natural transition target when opponent drives forward pressure
+- **[[Positions/Half Guard/Old School]]** - Primary offensive technique from this position
+- **[[Positions/Half Guard/Electric Chair]]** - Submission opportunity when opponent extends trapped leg
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Alternative half guard variant if underhook is lost
+- **[[Positions/Half Guard/Lockdown]]** - Can be combined with Pocket Half Guard for additional leg control
+- **[[Positions/Back Control]]** - Common advancement target via back-take from underhook
+- **[[Positions/Twister Control/Truck]]** - Advanced transition when opponent defends Old School Sweep
+- **[[Positions/X-Guard]]** - Alternative guard transition when pocket space is compromised
+- **[[Positions/Butterfly Guard]]** - Transition option when half guard retention becomes difficult
 
 
 </section>

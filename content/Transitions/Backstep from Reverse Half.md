@@ -21,7 +21,7 @@ This transition represents one of the highest-percentage back takes available fr
 
 The backstep from reverse half guard integrates as the natural finishing sequence in the backstep passing chain. When practitioners execute backstep passes from De La Riva, deep half, K-guard, or standard half guard positions, they frequently arrive in reverse half guard. Completing the back take from this intermediate position transforms a passing advantage into the most dominant position in Brazilian Jiu-Jitsu, making this technique essential knowledge for practitioners developing systematic backstep passing games.
 
-**From Position**: [[Reverse Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Reverse Half Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The backstep from reverse half guard integrates as the natural finishing sequenc
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Reverse Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Half Guard/Reverse Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ The backstep from reverse half guard serves as the culminating technique in the 
 ## Related Techniques
 
 
-- [[Reverse Half Guard]] - Starting position from which this backstep back take is executed
+- [[Positions/Half Guard/Reverse Half Guard]] - Starting position from which this backstep back take is executed
 
-- [[Back Control]] - Primary target position achieved upon successful completion of the backstep
+- [[Positions/Back Control]] - Primary target position achieved upon successful completion of the backstep
 
-- [[Half Guard]] - Position the attacker may end up in if the defender successfully counters the backstep
+- [[Positions/Half Guard]] - Position the attacker may end up in if the defender successfully counters the backstep
 
-- [[Crab Ride]] - Intermediate control position used in the crab ride entry variant of the backstep
+- [[Positions/Crab Ride]] - Intermediate control position used in the crab ride entry variant of the backstep
 
-- [[Deep Half Guard]] - Guard position from which backstep passes frequently lead to reverse half guard
+- [[Positions/Half Guard/Deep Half Guard]] - Guard position from which backstep passes frequently lead to reverse half guard
 
-- [[Backstep from De La Riva]] - Related backstep technique that often creates the reverse half guard entry point
+- [[Transitions/Backstep from De La Riva]] - Related backstep technique that often creates the reverse half guard entry point
 
-- [[Backstep from Deep Half]] - Related backstep pass that frequently leads to reverse half guard position
+- [[Transitions/Backstep from Deep Half]] - Related backstep pass that frequently leads to reverse half guard position
 
-- [[Back Step Pass]] - Foundational backstep passing technique in the same movement chain
+- [[Transitions/Back Step Pass]] - Foundational backstep passing technique in the same movement chain
 
-- [[Back Take from Top]] - Alternative back take methodology from top positions for comparison
+- [[Transitions/Back Take from Top]] - Alternative back take methodology from top positions for comparison
 
-- [[Back Control to Reverse Half Guard]] - Reverse transition showing how back control can degrade to reverse half guard
+- [[Transitions/Back Control to Reverse Half Guard]] - Reverse transition showing how back control can degrade to reverse half guard
 
 
 </section>

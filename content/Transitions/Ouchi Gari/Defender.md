@@ -154,7 +154,7 @@ description: "How to defend against Ouchi Gari in BJJ. Recognition cues, defensi
 
 Defending Ouchi Gari requires recognizing the attack early and responding with the appropriate counter-movement before the throw reaches full commitment. The defender's primary challenge is that Ouchi Gari combines a leg attack with upper body manipulation, meaning a purely upper-body or purely lower-body defensive response will be insufficient. Effective defense begins well before the throw itself—it starts with grip denial and posture maintenance that prevent the attacker from establishing the control needed to initiate the technique. Once the attack is in progress, the defender must choose between stepping the attacked leg clear, sprawling to deny the reaping action, or using circular movement to create an angle that nullifies the throw. At the highest levels, skilled defenders convert Ouchi Gari defense into counter-attack opportunities, using the attacker's forward commitment against them through counter-throws or guard pulls that exploit their momentary single-leg base. Understanding the biomechanics of why Ouchi Gari works—the combination of rear-corner kuzushi with inside leg removal—allows the defender to address the root causes rather than merely reacting to symptoms.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending Ouchi Gari requires recognizing the attack early and responding with t
 ### 1. Step back and retract the attacked leg before the reap makes contact, pulling your lead foot behind your base foot while maintaining grip control and posture
 
 - **When to use**: As soon as you feel the initial kuzushi (backward pull) and sense the opponent's leg beginning to move toward your inside leg. This must be done early—before the reaping leg hooks behind your calf.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You return to neutral standing with both feet under you. The attacker's momentum carries forward slightly, potentially creating an opening for your own counter-attack such as Kouchi Gari or a snap down.
 - **Risk**: If you step back too late, the reaping leg catches your retreating leg and the throw may still complete. Stepping back also shifts your weight onto your heels momentarily, making you vulnerable to a follow-up Kouchi Gari combination.
 
 ### 2. Sprawl your hips back and down while posting your hands on opponent's shoulders or head, creating distance that prevents the reaping leg from reaching your leg effectively
 
 - **When to use**: When the opponent has already stepped in close and you cannot retract your leg in time. The sprawl removes your hips from their reach and puts your weight on their upper body, collapsing their throwing structure.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: The throw is completely neutralized and you end up with your weight on the opponent's back or in a front headlock position, giving you offensive opportunities including snap downs and chokes.
 - **Risk**: If your sprawl is shallow or late, the opponent can still complete a modified trip. An aggressive sprawl against a committed thrower can also result in both players going to the ground in a scramble.
 
 ### 3. Circle laterally away from the direction of the reap while breaking the collar grip, denying both the angle and the grip control needed to complete the throw
 
 - **When to use**: When you recognize the setup early during the grip-fighting phase before the opponent has fully closed distance. Circling works best as a preemptive defense when you sense the opponent loading up for the attack.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You create an angle that makes the reaping action ineffective and may expose the opponent's back for your own offensive entries such as arm drags or back takes.
 - **Risk**: If the opponent follows your circular movement and adjusts their angle, they can convert to an Osoto Gari or other throw that capitalizes on your lateral momentum. Circling without breaking grips is less effective.
 
 ### 4. Counter-throw with Tani Otoshi by sitting through as they commit forward, using their own momentum to take them down over your hip
 
 - **When to use**: When the opponent has fully committed to the forward drive of Ouchi Gari and their weight is moving aggressively into you. This requires confidence in sacrifice throws and precise timing.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You reverse the takedown entirely and land in a dominant position on top of the attacker, converting their offensive momentum into your advantage.
 - **Risk**: Mistiming the counter-throw can result in both players going down with the attacker still achieving a dominant position, or in a tangled scramble where the attacker maintains grip control. Failed sacrifice counters can also leave you on bottom.
 
@@ -225,11 +225,11 @@ Defending Ouchi Gari requires recognizing the attack early and responding with t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Retract the attacked leg early by stepping it behind your base foot as soon as you feel the kuzushi and inside leg entry. Simultaneously break the opponent's collar grip with a two-on-one grip break or circular strip, then re-establish your own grips in a dominant configuration. Your goal is to return to neutral standing with your grips intact while the attacker has spent energy on a failed attempt.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Time a counter-throw such as Tani Otoshi or Ura Nage as the opponent commits fully to the forward drive of Ouchi Gari. Use their forward momentum against them by dropping your center of gravity and redirecting their energy over your hip or to the side. This requires waiting for their full commitment rather than defending early, which carries higher risk but produces the most advantageous outcome when executed correctly.
 

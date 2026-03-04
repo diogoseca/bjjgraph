@@ -21,7 +21,7 @@ The inversion works by converting the compromised reverse orientation into rotat
 
 This technique requires precise timing and full commitment. The optimal window opens when the top player commits their weight forward or shifts laterally, momentarily reducing their ability to follow the rotation. Hesitation during the inversion is the primary failure point—incomplete rotations leave the bottom player in a worse position with maximum back exposure. The technique carries inherent risk because the inverted phase briefly exposes the back, making it essential to complete the full rotation as a single explosive movement with immediate guard engagement upon finishing.
 
-**From Position**: [[Reverse Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Reverse Half Guard]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ This technique requires precise timing and full commitment. The optimal window o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 45% |
-| Failure | [[Reverse Half Guard]] | 30% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Open Guard]] | 45% |
+| Failure | [[Positions/Half Guard/Reverse Half Guard]] | 30% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -191,25 +191,25 @@ The inversion from reverse half guard connects the reverse half guard recovery s
 ## Related Techniques
 
 
-- [[Reverse Half Guard]] - Starting position for this transition
+- [[Positions/Half Guard/Reverse Half Guard]] - Starting position for this transition
 
-- [[Open Guard]] - Primary success outcome position after completing the inversion
+- [[Positions/Open Guard]] - Primary success outcome position after completing the inversion
 
-- [[Inverted Guard]] - Intermediate position passed through during the inversion rotation
+- [[Positions/Inverted Guard]] - Intermediate position passed through during the inversion rotation
 
-- [[Back Control]] - Counter outcome position if opponent takes back during vulnerable inverted phase
+- [[Positions/Back Control]] - Counter outcome position if opponent takes back during vulnerable inverted phase
 
-- [[Deep Half Guard]] - Alternative target position via partial inversion variant
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative target position via partial inversion variant
 
-- [[Half Guard]] - Parent position family from which reverse half guard originates
+- [[Positions/Half Guard]] - Parent position family from which reverse half guard originates
 
-- [[Escape Reverse Half Guard]] - Alternative escape technique from the same starting position
+- [[Transitions/Escape Reverse Half Guard]] - Alternative escape technique from the same starting position
 
-- [[Backstep from Reverse Half]] - Opponent's passing technique that creates the reverse half guard situation
+- [[Transitions/Backstep from Reverse Half]] - Opponent's passing technique that creates the reverse half guard situation
 
-- [[Inversion from Headquarters]] - Similar inversion mechanic applied from a different guard situation
+- [[Transitions/Inversion from Headquarters]] - Similar inversion mechanic applied from a different guard situation
 
-- [[Back Door Escape from Half Guard]] - Alternative escape methodology from the half guard family
+- [[Transitions/Back Door Escape from Half Guard]] - Alternative escape methodology from the half guard family
 
 
 </section>

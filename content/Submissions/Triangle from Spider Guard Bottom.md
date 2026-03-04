@@ -26,8 +26,8 @@ The finishing mechanics follow standard triangle principles but benefit from the
 **Category**: Choke
 **Type**: Triangle Choke
 **Target Area**: Neck
-**Starting Position**: [[Spider Guard]]
-**From Position**: [[Spider Guard]] (Bottom)
+**Starting Position**: [[Positions/Spider Guard]]
+**From Position**: [[Positions/Spider Guard]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -76,9 +76,9 @@ The finishing mechanics follow standard triangle principles but benefit from the
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Spider Guard]] | 30% |
-| Failure | [[Open Guard]] | 15% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Spider Guard]] | 30% |
+| Failure | [[Positions/Open Guard]] | 15% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -220,9 +220,9 @@ The finishing mechanics follow standard triangle principles but benefit from the
 
 ## From Which Positions?
 
-- [[Spider Guard]]
-- [[Open Guard]]
-- [[Lasso Guard]]
+- [[Positions/Spider Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/Lasso Guard]]
 
 
 </section>
@@ -231,11 +231,11 @@ The finishing mechanics follow standard triangle principles but benefit from the
 
 ## Related Submissions
 
-- [[Triangle from Open Guard]]
-- [[Omoplata from Spider Guard]]
-- [[Armbar from Guard]]
-- [[Gogoplata Finish]]
-- [[Mounted Triangle Finish]]
+- [[Submissions/Triangle from Open Guard]]
+- [[Submissions/Omoplata from Spider Guard]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Gogoplata Finish]]
+- [[Submissions/Mounted Triangle Finish]]
 
 
 </section>
@@ -244,12 +244,12 @@ The finishing mechanics follow standard triangle principles but benefit from the
 
 ## Additional Related Content
 
-- [[Spider Guard]] - Primary starting position providing the sleeve control and bicep hooks that enable arm isolation for the triangle entry
-- [[Open Guard]] - Parent guard category and alternative starting position for triangle setups using open guard principles
-- [[Lasso Guard]] - Complementary guard variant that provides enhanced arm control for hybrid triangle entries
-- [[Collar Sleeve Guard]] - Related guard using similar grip configurations that also supports triangle entries through arm isolation
-- [[De La Riva Guard]] - Complementary guard system that chains with spider guard transitions and offers alternative triangle setups
-- [[Closed Guard]] - Fallback position if the triangle attempt fails and guard needs to be consolidated for recovery
+- [[Positions/Spider Guard]] - Primary starting position providing the sleeve control and bicep hooks that enable arm isolation for the triangle entry
+- [[Positions/Open Guard]] - Parent guard category and alternative starting position for triangle setups using open guard principles
+- [[Positions/Lasso Guard]] - Complementary guard variant that provides enhanced arm control for hybrid triangle entries
+- [[Positions/Collar Sleeve Guard]] - Related guard using similar grip configurations that also supports triangle entries through arm isolation
+- [[Positions/De La Riva Guard]] - Complementary guard system that chains with spider guard transitions and offers alternative triangle setups
+- [[Positions/Closed Guard]] - Fallback position if the triangle attempt fails and guard needs to be consolidated for recovery
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Execute the posture up escape from mounted triangle bottom. Step-b
 
 Executing the posture up escape from mounted triangle requires systematic frame creation and hip movement to disrupt the opponent's triangle lock and create space for guard recovery. As the escaping player, your primary challenge is generating posture against gravity and the opponent's weight while protecting your trapped arm from armbar transition and your neck from increasing choking pressure. The technique is not about raw strength but about proper structural alignment and sequencing. Frame placement against the opponent's hips provides the mechanical foundation, lateral hip escape disrupts the triangle angle, and patient arm extraction completes the escape to half guard. Success demands reading the opponent's adjustments and timing your efforts to coincide with moments of reduced downward pressure.
 
-**From Position**: [[Mounted Triangle]] (Bottom)
+**From Position**: [[Positions/Mount/Mounted Triangle]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the posture up escape from mounted triangle requires systematic frame 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 30% |
-| Failure | [[Mounted Triangle]] | 45% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 30% |
+| Failure | [[Positions/Mount/Mounted Triangle]] | 45% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the posture up escape from mounted triangle requires systematic frame 
 
 ## Opponent Counters
 
-- **Opponent pulls head down and re-tightens triangle lock using both hands behind the skull** (Effectiveness: High) - Your Response: Do not fight the pull directly with neck strength. Reset chin tuck, maintain frame contact, and wait for the next opportunity when opponent adjusts their grip or shifts weight → Leads to [[Mounted Triangle]]
-- **Opponent pivots hips toward the framing arm and transitions to armbar attack on the extended limb** (Effectiveness: High) - Your Response: Immediately retract the framing arm and bend it tight to your body. If caught mid-extension, turn toward the opponent and grip your own wrist to create a two-on-one defense → Leads to [[Mounted Triangle]]
-- **Opponent releases triangle deliberately and drives hips down to consolidate standard mount control** (Effectiveness: Medium) - Your Response: Exploit the triangle release moment by immediately inserting knee shield and frames before they can settle mount. The leg movement required to release the triangle creates a brief window for escape → Leads to [[Mount]]
-- **Opponent switches triangle angle to the opposite side, re-tightening the choke from a new direction** (Effectiveness: Medium) - Your Response: Follow the angle change by adjusting your chin tuck direction toward the newly trapped arm side and re-establishing your frame against the new hip angle before resuming the posture attempt → Leads to [[Mounted Triangle]]
+- **Opponent pulls head down and re-tightens triangle lock using both hands behind the skull** (Effectiveness: High) - Your Response: Do not fight the pull directly with neck strength. Reset chin tuck, maintain frame contact, and wait for the next opportunity when opponent adjusts their grip or shifts weight → Leads to [[Positions/Mount/Mounted Triangle]]
+- **Opponent pivots hips toward the framing arm and transitions to armbar attack on the extended limb** (Effectiveness: High) - Your Response: Immediately retract the framing arm and bend it tight to your body. If caught mid-extension, turn toward the opponent and grip your own wrist to create a two-on-one defense → Leads to [[Positions/Mount/Mounted Triangle]]
+- **Opponent releases triangle deliberately and drives hips down to consolidate standard mount control** (Effectiveness: Medium) - Your Response: Exploit the triangle release moment by immediately inserting knee shield and frames before they can settle mount. The leg movement required to release the triangle creates a brief window for escape → Leads to [[Positions/Mount]]
+- **Opponent switches triangle angle to the opposite side, re-tightening the choke from a new direction** (Effectiveness: Medium) - Your Response: Follow the angle change by adjusting your chin tuck direction toward the newly trapped arm side and re-establishing your frame against the new hip angle before resuming the posture attempt → Leads to [[Positions/Mount/Mounted Triangle]]
 
 
 </section>

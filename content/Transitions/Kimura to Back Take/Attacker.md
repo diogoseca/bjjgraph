@@ -174,7 +174,7 @@ description: "How to execute Kimura to Back Take in BJJ. Attacking perspective w
 
 The Kimura to Back Take from the attacker's perspective is about converting an established grip control system into the most dominant position in grappling. The attacker uses progressive Kimura pressure to force a predictable defensive rolling motion, then follows that motion while maintaining the figure-four grip as both anchor and steering mechanism. The transition requires patience to create genuine submission threat, sensitivity to read when the opponent commits to their defensive roll, and disciplined sequencing to establish hooks before releasing the Kimura grip for seat belt control. Mastery of this transition transforms the Kimura from a single submission attempt into a complete positional control system where the opponent's logical defensive choices consistently lead to worse positions.
 
-**From Position**: [[Kimura Trap]] (Top)
+**From Position**: [[Positions/Kimura Trap]] (Top)
 
 </section>
 
@@ -226,9 +226,9 @@ The Kimura to Back Take from the attacker's perspective is about converting an e
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 58% |
-| Failure | [[Kimura Trap]] | 30% |
-| Counter | [[Half Guard]] | 12% |
+| Success | [[Positions/Back Control]] | 58% |
+| Failure | [[Positions/Kimura Trap]] | 30% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>
@@ -237,10 +237,10 @@ The Kimura to Back Take from the attacker's perspective is about converting an e
 
 ## Opponent Counters
 
-- **Opponent grabs their own belt or pants to prevent arm isolation** (Effectiveness: High) - Your Response: Use the static position to improve your angle and body positioning, then attack with small circular adjustments to break the grip rather than pure force. Consider transitioning to different attacks like arm triangle if they commit fully to the grip. → Leads to [[Kimura Trap]]
-- **Opponent posts and bases hard to prevent rolling** (Effectiveness: Medium) - Your Response: Transition to other Kimura-based attacks such as the finish itself, or switch to taking the back from turtle by climbing over. Their rigid base creates different vulnerabilities you can exploit through angle changes and increased submission pressure. → Leads to [[Kimura Trap]]
-- **Opponent rolls quickly in opposite direction (away from Kimura)** (Effectiveness: Medium) - Your Response: This counter-roll can actually work in your favor if anticipated. Follow their momentum and look for armbar opportunities or mount position as they roll away from the lock. Their arm often extends during the counter-roll, creating direct Kimura finish opportunities. → Leads to [[Half Guard]]
-- **Opponent tucks trapped elbow tight and refuses to move** (Effectiveness: Low) - Your Response: Use the static control to systematically break down their defense by adjusting angles, applying progressive pressure, or threatening the submission finish. Their defensive rigidity prevents their own offense and you can patiently work to improve position or walk toward their head for finishing angle. → Leads to [[Kimura Trap]]
+- **Opponent grabs their own belt or pants to prevent arm isolation** (Effectiveness: High) - Your Response: Use the static position to improve your angle and body positioning, then attack with small circular adjustments to break the grip rather than pure force. Consider transitioning to different attacks like arm triangle if they commit fully to the grip. → Leads to [[Positions/Kimura Trap]]
+- **Opponent posts and bases hard to prevent rolling** (Effectiveness: Medium) - Your Response: Transition to other Kimura-based attacks such as the finish itself, or switch to taking the back from turtle by climbing over. Their rigid base creates different vulnerabilities you can exploit through angle changes and increased submission pressure. → Leads to [[Positions/Kimura Trap]]
+- **Opponent rolls quickly in opposite direction (away from Kimura)** (Effectiveness: Medium) - Your Response: This counter-roll can actually work in your favor if anticipated. Follow their momentum and look for armbar opportunities or mount position as they roll away from the lock. Their arm often extends during the counter-roll, creating direct Kimura finish opportunities. → Leads to [[Positions/Half Guard]]
+- **Opponent tucks trapped elbow tight and refuses to move** (Effectiveness: Low) - Your Response: Use the static control to systematically break down their defense by adjusting angles, applying progressive pressure, or threatening the submission finish. Their defensive rigidity prevents their own offense and you can patiently work to improve position or walk toward their head for finishing angle. → Leads to [[Positions/Kimura Trap]]
 
 
 </section>

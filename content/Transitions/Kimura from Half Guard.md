@@ -21,7 +21,7 @@ Strategically, this transition serves as the entry point into a comprehensive at
 
 The Kimura from Half Guard represents a paradigm shift in bottom-side grappling philosophy. Rather than purely defensive guard retention or single-threat sweeping, this technique establishes a grip-based control system that inverts the positional hierarchy. The bottom player with a secured Kimura grip often has more offensive options than the top player, making this transition one of the most important connective techniques between half guard and the modern Kimura Trap system.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ The Kimura from Half Guard represents a paradigm shift in bottom-side grappling 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kimura Trap]] | 40% |
-| Failure | [[Half Guard]] | 40% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Kimura Trap]] | 40% |
+| Failure | [[Positions/Half Guard]] | 40% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Kimura from Half Guard serves as the critical gateway connecting standard ha
 ## Related Techniques
 
 
-- [[Half Guard]] - Starting position where this transition initiates from the bottom role
+- [[Positions/Half Guard]] - Starting position where this transition initiates from the bottom role
 
-- [[Kimura Trap]] - Primary success outcome position establishing the Kimura Trap control system
+- [[Positions/Kimura Trap]] - Primary success outcome position establishing the Kimura Trap control system
 
-- [[Side Control]] - Counter outcome position if top player successfully passes during Kimura attempt
+- [[Positions/Side Control]] - Counter outcome position if top player successfully passes during Kimura attempt
 
-- [[Kimura from Kimura Trap]] - Follow-up submission finish available once Kimura Trap is established
+- [[Submissions/Kimura from Kimura Trap]] - Follow-up submission finish available once Kimura Trap is established
 
-- [[Deep Half Guard]] - Alternative bottom half guard attack sharing similar underneath positioning
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative bottom half guard attack sharing similar underneath positioning
 
-- [[Lockdown]] - Complementary leg control often combined with Kimura grip for enhanced bottom control
+- [[Positions/Half Guard/Lockdown]] - Complementary leg control often combined with Kimura grip for enhanced bottom control
 
-- [[Kimura Counter via Roll]] - Defensive counter technique the opponent may use to escape the Kimura grip
+- [[Transitions/Kimura Counter via Roll]] - Defensive counter technique the opponent may use to escape the Kimura grip
 
-- [[Kimura Defense Arm Extraction]] - Primary defensive technique the opponent uses to strip the Kimura grip
+- [[Transitions/Kimura Defense Arm Extraction]] - Primary defensive technique the opponent uses to strip the Kimura grip
 
-- [[Back Control]] - Advanced follow-up position accessible through Kimura Trap back take sequences
+- [[Positions/Back Control]] - Advanced follow-up position accessible through Kimura Trap back take sequences
 
-- [[Dogfight Position]] - Alternative scramble position arising from contested half guard underhook exchanges
+- [[Positions/Dogfight Position]] - Alternative scramble position arising from contested half guard underhook exchanges
 
 
 </section>

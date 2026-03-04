@@ -26,8 +26,8 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Side Control]]
-**From Position**: [[Side Control]] (Top)
+**Starting Position**: [[Positions/Side Control]]
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 59%
 
 </section>
@@ -84,8 +84,8 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -231,11 +231,11 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 ## From Which Positions?
 
-- [[Side Control]]
-- [[North-South]]
-- [[Scramble Position]]
-- [[Side Control Consolidation]]
-- [[Kesa Gatame]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
+- [[Positions/Scramble Position]]
+- [[Positions/Side Control/Side Control Consolidation]]
+- [[Positions/Side Control/Kesa Gatame]]
 
 
 </section>
@@ -244,15 +244,15 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 ## Related Submissions
 
-- [[Triangle Choke]]
-- [[Arm Triangle]]
-- [[Kimura from Side Control]]
-- [[Armbar from Side Control]]
-- [[North-South Choke]]
-- [[Darce Choke]]
-- [[Anaconda Choke]]
-- [[Triangle Choke Back]]
-- [[Inverted Triangle]]
+- [[Transitions/Triangle Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Kimura from Side Control]]
+- [[Submissions/Armbar from Side Control]]
+- [[Transitions/North-South Choke]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Anaconda Choke]]
+- [[Submissions/Triangle Choke Back]]
+- [[Transitions/Inverted Triangle]]
 
 
 </section>
@@ -261,14 +261,14 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 ## Additional Related Content
 
-- [[Triangle Choke]] - Traditional bottom variation - shares finishing mechanics but different angle and entry
-- [[Side Control]] - Primary starting position for this submission
-- [[North-South]] - Alternative starting position for north-south triangle variation
-- [[Arm Triangle]] - Similar blood choke from top position that can be combined with side triangle mechanics
-- [[Kimura from Side Control]] - Alternative submission when opponent defends by extracting trapped arm
-- [[Triangle Control]] - Control position used to maintain and finish the triangle
-- [[Armbar from Side Control]] - Alternative attack when triangle setup creates arm isolation opportunities
-- [[Mounted Triangle]] - Related triangle control variation from mount position
+- [[Transitions/Triangle Choke]] - Traditional bottom variation - shares finishing mechanics but different angle and entry
+- [[Positions/Side Control]] - Primary starting position for this submission
+- [[Positions/North-South]] - Alternative starting position for north-south triangle variation
+- [[Transitions/Arm Triangle]] - Similar blood choke from top position that can be combined with side triangle mechanics
+- [[Submissions/Kimura from Side Control]] - Alternative submission when opponent defends by extracting trapped arm
+- [[Positions/Triangle Control]] - Control position used to maintain and finish the triangle
+- [[Submissions/Armbar from Side Control]] - Alternative attack when triangle setup creates arm isolation opportunities
+- [[Positions/Mount/Mounted Triangle]] - Related triangle control variation from mount position
 
 
 </section>

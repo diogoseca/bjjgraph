@@ -146,7 +146,7 @@ description: "Learn to defend and counter the back control to cross body ride tr
 
 As the defender against the Transition to Cross Body Ride, you are in a back control bottom or turtle position where your opponent is shifting from a parallel back control alignment to a perpendicular cross body orientation. This transition typically occurs when your defensive efforts to strip hooks have been partially successful, but the opponent adapts by rotating laterally rather than releasing control. Your window to escape is during the transition itself, when the opponent is between positions and their base is temporarily compromised. Recognizing the transition cues early and acting decisively during the rotational shift gives you the best chance of escaping to turtle, recovering guard, or achieving a neutral position before cross body ride pressure is fully consolidated.
 
-**Opponent's Starting Position**: [[Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the Transition to Cross Body Ride, you are in a back con
 ### 1. Sit out toward the direction the opponent is rotating, turning to face them before cross body ride is established
 
 - **When to use**: During the early phase of the transition when the opponent's hips are still moving and their base is compromised by the rotation
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You face the opponent and can establish guard or scramble to a neutral position before they consolidate cross body pressure
 - **Risk**: If mistimed, the opponent follows your sit-out and establishes cross body ride on the opposite side with increased pressure
 
 ### 2. Hip escape away from the opponent's rotation direction and recover to half guard or butterfly guard
 
 - **When to use**: When you feel the opponent's knee arriving at your near hip, indicating they are almost at the perpendicular angle
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You create enough space to insert a knee shield or butterfly hook, converting from turtle to a guard position with legitimate defensive options
 - **Risk**: If the harness grip holds, you may drag the opponent with you and still end up under cross body pressure in a worse angle
 
 ### 3. Stand up explosively using a technical standup during the transitional moment when hooks are disengaged
 
 - **When to use**: When both hooks are cleared and the opponent has not yet established near-side knee control at the perpendicular angle
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You achieve standing position and can break the harness grip to return to a neutral standing engagement
 - **Risk**: Opponent may follow you up and convert to standing back control or drag you back down using the harness grip
 
 ### 4. Forward roll or granby roll in the opposite direction of the opponent's rotation to create maximum separation
 
 - **When to use**: When you feel the opponent committing heavily to one side during their lateral shift, creating a directional opening on the opposite side
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: The roll creates enough separation to recover guard or escape to a neutral scramble position
 - **Risk**: If the opponent maintains harness grip through the roll, they may end up in an even better cross body position on the other side
 
@@ -217,11 +217,11 @@ As the defender against the Transition to Cross Body Ride, you are in a back con
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Act during the transition window by sitting out or hip escaping before the opponent establishes all three cross body ride control points. The key is recognizing the transition early through the feeling of lateral hip rotation and immediately initiating your escape before perpendicular pressure is locked in. Chain sit-out attempts with hip escapes if the first movement is blocked.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Exploit the hook-free moment during the transition to stand up explosively using a technical standup. When the opponent's hooks are disengaged and they are committed to the lateral rotation, their ability to prevent you from standing is temporarily reduced. Drive upward through your legs while maintaining hand defense against the harness grip, then strip the grip once standing.
 

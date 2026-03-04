@@ -158,7 +158,7 @@ Successful defense begins with early recognition. The moment you feel the top pl
 
 From a strategic standpoint, awareness of this counter should inform how you attack the Electric Chair. Rather than abandoning the lockdown system entirely, develop the habit of monitoring the top player's arm position throughout your attacks. Experienced lockdown players learn to threaten the Electric Chair while keeping their chin tucked and underhook depth just short of creating the Darce window, maintaining offensive pressure without exposing the neck to the counter.
 
-**Opponent's Starting Position**: [[Electric Chair]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ From a strategic standpoint, awareness of this counter should inform how you att
 ### 1. Immediately retract underhook and frame on opponent's bicep and neck to create distance, preventing the Darce grip from connecting
 
 - **When to use**: At the earliest recognition that opponent's arm is threading across your neck, before the grip is locked
-- **Targets**: [[Electric Chair]]
+- **Targets**: [[Positions/Half Guard/Electric Chair]]
 - **If successful**: Opponent loses Darce opportunity and must restart their lockdown escape, while you retain lockdown control with the option to re-engage the Electric Chair
 - **Risk**: Retracting the underhook temporarily weakens your lockdown control and may allow opponent to begin passing if you cannot re-establish grips quickly
 
 ### 2. Tuck chin tightly to chest and turn your body into the opponent, closing the space the choking arm needs to thread across your neck
 
 - **When to use**: When you recognize the threading attempt but the arm has partially crossed your neck and full retraction of your underhook is not possible
-- **Targets**: [[Electric Chair]]
+- **Targets**: [[Positions/Half Guard/Electric Chair]]
 - **If successful**: The chin tuck blocks deep penetration of the choke, and turning in collapses the angle needed for the Darce, allowing you to work back to lockdown attacks
 - **Risk**: If the opponent switches to anaconda grip or arm triangle when you turn in, you exchange one choke threat for another
 
 ### 3. Roll toward the opponent and come to your knees, using the rolling motion to extract your trapped arm from the developing choke configuration
 
 - **When to use**: When the Darce grip is partially connected but not yet tight, and you need to urgently change the angle to prevent the finish
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The roll disrupts the choking angle and may allow arm extraction, putting you in turtle or half guard where you can re-engage
 - **Risk**: Rolling can tighten a well-connected Darce rather than relieving it - only attempt if you are certain the grip is still loose
 
 ### 4. Abandon lockdown entirely by releasing the leg entanglement and hip escaping away to create maximum distance from the choke
 
 - **When to use**: As a last resort when the Darce grip is connecting and other defenses have failed - survival takes priority over maintaining position
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creating distance breaks the chest pressure needed to finish the Darce and allows recovery to open guard or half guard bottom
 - **Risk**: You sacrifice all lockdown control and positional advantage, essentially conceding the guard pass to survive the choke
 
@@ -228,11 +228,11 @@ From a strategic standpoint, awareness of this counter should inform how you att
 
 ## Best-Case Outcomes for Defender
 
-### → [[Electric Chair]]
+### → [[Positions/Half Guard/Electric Chair]]
 
 Recognize the Darce attempt early and retract your underhook before the grip connects. Frame on opponent's bicep and neck to push them away, then re-establish your deep underhook and lockdown pressure to resume your Electric Chair attacks. The key is speed of recognition - the earlier you detect the threading, the easier the recovery.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If the Darce is partially established, release the lockdown and hip escape away to create distance. Use frames on opponent's hip and shoulder to prevent them from following. Recover to standard half guard bottom where you can re-engage with knee shield or other half guard variations without the immediate choke threat.
 

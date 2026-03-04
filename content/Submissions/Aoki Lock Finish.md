@@ -26,8 +26,8 @@ The Aoki Lock Finish has gained prominence in no-gi competition and submission-o
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (glenohumeral complex and rotator cuff)
-**Starting Position**: [[Aoki Lock]]
-**From Position**: [[Aoki Lock]] (Top)
+**Starting Position**: [[Positions/Aoki Lock]]
+**From Position**: [[Positions/Aoki Lock]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -78,9 +78,9 @@ The Aoki Lock Finish has gained prominence in no-gi competition and submission-o
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Aoki Lock]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
-| Counter | [[Turtle]] | 10% |
+| Failure | [[Positions/Aoki Lock]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -226,9 +226,9 @@ The Aoki Lock Finish has gained prominence in no-gi competition and submission-o
 
 ## From Which Positions?
 
-- [[Aoki Lock]]
-- [[Turtle]]
-- [[Front Headlock]]
+- [[Positions/Aoki Lock]]
+- [[Positions/Turtle]]
+- [[Positions/Front Headlock]]
 
 
 </section>
@@ -237,12 +237,12 @@ The Aoki Lock Finish has gained prominence in no-gi competition and submission-o
 
 ## Related Submissions
 
-- [[Americana]]
-- [[Baratoplata]]
-- [[Armbar from Side Control]]
-- [[Choke from Crucifix]]
-- [[Armbar from Crucifix]]
-- [[Belly Down Armbar]]
+- [[Transitions/Americana]]
+- [[Transitions/Baratoplata]]
+- [[Submissions/Armbar from Side Control]]
+- [[Transitions/Choke from Crucifix]]
+- [[Transitions/Armbar from Crucifix]]
+- [[Submissions/Belly Down Armbar]]
 
 
 </section>
@@ -251,13 +251,13 @@ The Aoki Lock Finish has gained prominence in no-gi competition and submission-o
 
 ## Additional Related Content
 
-- [[Aoki Lock]] - Control position from which this finish is executed
-- [[Aoki Lock to Back Control]] - Alternative transition when shoulder lock is defended
-- [[Aoki Lock to Crucifix]] - Chain transition when opponent exposes far arm during defense
-- [[Omoplata Control]] - Similar shoulder lock mechanics with different leg configuration
-- [[Kimura Trap]] - Related shoulder manipulation system with grip-based control
-- [[Back Control]] - Primary advancement position when finish is defended
-- [[Crucifix]] - Alternative control position accessible during Aoki Lock defense
+- [[Positions/Aoki Lock]] - Control position from which this finish is executed
+- [[Transitions/Aoki Lock to Back Control]] - Alternative transition when shoulder lock is defended
+- [[Transitions/Aoki Lock to Crucifix]] - Chain transition when opponent exposes far arm during defense
+- [[Positions/Omoplata Control]] - Similar shoulder lock mechanics with different leg configuration
+- [[Positions/Kimura Trap]] - Related shoulder manipulation system with grip-based control
+- [[Positions/Back Control]] - Primary advancement position when finish is defended
+- [[Positions/Crucifix]] - Alternative control position accessible during Aoki Lock defense
 
 
 </section>

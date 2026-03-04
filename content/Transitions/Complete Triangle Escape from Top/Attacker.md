@@ -186,7 +186,7 @@ description: "Master executing the complete triangle escape from top position. S
 
 As the practitioner caught in the triangle, your task is to execute a precise, multi-phase extraction sequence while managing the immediate submission danger from the choke and secondary threats from armbar and omoplata transitions. Success demands disciplined execution under extreme pressure, strict adherence to the escape phase hierarchy, and the tactical awareness to convert successful defense into guard passing offense. You must address the choking mechanism first through space creation at the neck, recover structural posture second through spine alignment and hip drive, control the opponent's hips third to neutralize their angle adjustments, then systematically dismantle the triangle lock through circling pressure toward your trapped arm side. Each phase builds upon the previous one, and attempting to rush or skip phases dramatically reduces escape probability while increasing submission risk.
 
-**From Position**: [[Triangle Escape Position]] (Top)
+**From Position**: [[Positions/Triangle Escape Position]] (Top)
 
 </section>
 
@@ -240,9 +240,9 @@ As the practitioner caught in the triangle, your task is to execute a precise, m
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Triangle Escape Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Triangle Escape Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the practitioner caught in the triangle, your task is to execute a precise, m
 
 ## Opponent Counters
 
-- **Opponent pulls head down forcefully with both hands to re-break posture during recovery phase** (Effectiveness: High) - Your Response: Drive upward from your legs rather than pulling with your back. Walk your knees forward to create a stronger base angle while continuing upward posture drive. If they maintain strong pulling, stand up in base to use full leg power against their arm strength. → Leads to [[Triangle Escape Position]]
-- **Opponent scoots hips laterally and re-angles to re-tighten triangle as you begin circling** (Effectiveness: High) - Your Response: Increase downward pressure on their hip with your free hand to pin them in place. Match their lateral movement by accelerating your circling steps. If they continue adjusting, switch to the shoulder pin variant to immobilize their rotation axis. → Leads to [[Triangle Escape Position]]
-- **Opponent transitions to armbar by pivoting hips and isolating the trapped arm during escape attempt** (Effectiveness: Medium) - Your Response: Keep trapped arm elbow pinned tight to your ribs throughout the escape. If they begin the armbar pivot, drive forward into the rotation and stack aggressively to prevent them from extending your arm. Turn toward the trapped arm side and use the stacking momentum to pass. → Leads to [[Triangle Escape Position]]
-- **Opponent executes hip bump sweep by bridging and rolling during the circling phase when base is compromised** (Effectiveness: Medium) - Your Response: Maintain wide knee base throughout the circling sequence and keep your weight centered over your base rather than leaning forward. If you feel the sweep initiation, post your free hand on the mat and drive your hips back toward center to re-establish base before continuing the escape. → Leads to [[Half Guard]]
+- **Opponent pulls head down forcefully with both hands to re-break posture during recovery phase** (Effectiveness: High) - Your Response: Drive upward from your legs rather than pulling with your back. Walk your knees forward to create a stronger base angle while continuing upward posture drive. If they maintain strong pulling, stand up in base to use full leg power against their arm strength. → Leads to [[Positions/Triangle Escape Position]]
+- **Opponent scoots hips laterally and re-angles to re-tighten triangle as you begin circling** (Effectiveness: High) - Your Response: Increase downward pressure on their hip with your free hand to pin them in place. Match their lateral movement by accelerating your circling steps. If they continue adjusting, switch to the shoulder pin variant to immobilize their rotation axis. → Leads to [[Positions/Triangle Escape Position]]
+- **Opponent transitions to armbar by pivoting hips and isolating the trapped arm during escape attempt** (Effectiveness: Medium) - Your Response: Keep trapped arm elbow pinned tight to your ribs throughout the escape. If they begin the armbar pivot, drive forward into the rotation and stack aggressively to prevent them from extending your arm. Turn toward the trapped arm side and use the stacking momentum to pass. → Leads to [[Positions/Triangle Escape Position]]
+- **Opponent executes hip bump sweep by bridging and rolling during the circling phase when base is compromised** (Effectiveness: Medium) - Your Response: Maintain wide knee base throughout the circling sequence and keep your weight centered over your base rather than leaning forward. If you feel the sweep initiation, post your free hand on the mat and drive your hips back toward center to re-establish base before continuing the escape. → Leads to [[Positions/Half Guard]]
 
 
 </section>

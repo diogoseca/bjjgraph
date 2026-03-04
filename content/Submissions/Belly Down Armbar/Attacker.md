@@ -176,7 +176,7 @@ description: "How to execute Belly Down Armbar in BJJ. Attacking perspective wit
 
 The Belly Down Armbar is an opportunistic joint lock typically applied when the opponent is in turtle position or during scrambles when they expose an arm while defending other attacks. Unlike traditional armbars executed from guard or mount where you control the opponent's torso with your legs, the belly down variant requires you to secure the isolated arm while the opponent remains face-down on the mat. This submission is particularly effective when your opponent turtles to defend against back takes or other attacks, as their defensive posture often leaves their arms extended and vulnerable. The key to success lies in rapid arm isolation, maintaining connection to the opponent's body to prevent them from rolling through the position, and applying controlled hyperextension to the elbow joint. The belly down armbar requires excellent timing and positional awareness, as the opponent has more escape options compared to traditional armbar positions. However, when executed correctly with proper control of the shoulder and hip, this submission becomes a powerful finishing option from positions where traditional submissions may be difficult to secure.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 
 </section>
@@ -231,8 +231,8 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 ## Opponent Defenses
 
-- **Rolling through toward the attacking side to create slack and escape the arm** (Effectiveness: High) - Your Response: Anticipate the roll by increasing shoulder pressure and keeping your chest glued to their back. Follow their roll while maintaining wrist control, often transitioning to traditional armbar position or taking the back as they rotate. Do not fight the roll - follow it while keeping connection. → Leads to [[Closed Guard]]
-- **Pulling the trapped arm back toward their body with explosive strength** (Effectiveness: Medium) - Your Response: Counter by dropping all your bodyweight onto their shoulder while maintaining two-handed wrist control. Angle your body so your hip pressure opposes their pulling direction. If they successfully pull the arm close to their body, immediately transition to another attack (back take, crucifix, or neck attack) rather than forcing the finish. → Leads to [[Turtle]]
-- **Posting with the free hand and bridging to create space** (Effectiveness: Medium) - Your Response: Use your head position and shoulder pressure to drive into their posted arm, collapsing their base. Alternatively, switch your inside hand control to attack the free arm, creating a dilemma where defending one arm exposes the other. Maintain hip pressure throughout to prevent them from creating significant space. → Leads to [[Turtle]]
-- **Flattening completely and hiding both arms under their body** (Effectiveness: Low) - Your Response: If this defense occurs before you've isolated the arm, use the opportunity to transition to back control or other turtle attacks. If attempted during the submission, your existing arm control and shoulder pressure should prevent them from successfully hiding the arm. Simply maintain your position and continue the extension sequence. → Leads to [[Turtle]]
+- **Rolling through toward the attacking side to create slack and escape the arm** (Effectiveness: High) - Your Response: Anticipate the roll by increasing shoulder pressure and keeping your chest glued to their back. Follow their roll while maintaining wrist control, often transitioning to traditional armbar position or taking the back as they rotate. Do not fight the roll - follow it while keeping connection. → Leads to [[Positions/Closed Guard]]
+- **Pulling the trapped arm back toward their body with explosive strength** (Effectiveness: Medium) - Your Response: Counter by dropping all your bodyweight onto their shoulder while maintaining two-handed wrist control. Angle your body so your hip pressure opposes their pulling direction. If they successfully pull the arm close to their body, immediately transition to another attack (back take, crucifix, or neck attack) rather than forcing the finish. → Leads to [[Positions/Turtle]]
+- **Posting with the free hand and bridging to create space** (Effectiveness: Medium) - Your Response: Use your head position and shoulder pressure to drive into their posted arm, collapsing their base. Alternatively, switch your inside hand control to attack the free arm, creating a dilemma where defending one arm exposes the other. Maintain hip pressure throughout to prevent them from creating significant space. → Leads to [[Positions/Turtle]]
+- **Flattening completely and hiding both arms under their body** (Effectiveness: Low) - Your Response: If this defense occurs before you've isolated the arm, use the opportunity to transition to back control or other turtle attacks. If attempted during the submission, your existing arm control and shoulder pressure should prevent them from successfully hiding the arm. Simply maintain your position and continue the extension sequence. → Leads to [[Positions/Turtle]]
 
 
 </section>

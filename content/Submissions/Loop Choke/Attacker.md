@@ -176,7 +176,7 @@ description: "How to execute Loop Choke in BJJ. Attacking perspective with setup
 
 The Loop Choke is a deceptive gi-based blood choke that attacks the carotid arteries through a deep same-side collar grip combined with strategic body positioning and weight distribution. Unlike traditional collar chokes that rely on bilateral compression, the Loop Choke creates asymmetric pressure by threading one hand deep into the opponent's collar while using body weight and positioning to complete the strangle. The technique is particularly effective from closed guard, mount, side control, and turtle positions, where the attacker can control posture and prevent defensive hand fighting. The Loop Choke's effectiveness stems from its ability to disguise the attacking grip as a standard control position, allowing practitioners to secure deep collar penetration before the opponent recognizes the submission threat. Advanced practitioners excel at chaining the Loop Choke with other collar attacks, creating offensive systems where defensive reactions to one threat open pathways to another. The submission requires refined sensitivity to grip depth, angle management, and the ability to maintain control while transitioning through finishing mechanics.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 
 
 </section>
@@ -231,8 +231,8 @@ The Loop Choke is a deceptive gi-based blood choke that attacks the carotid arte
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Closed Guard]] | 17% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 17% |
 
 
 </section>
@@ -241,10 +241,10 @@ The Loop Choke is a deceptive gi-based blood choke that attacks the carotid arte
 
 ## Opponent Defenses
 
-- **Strip the collar grip with both hands before choke is set** (Effectiveness: High) - Your Response: Establish grip as part of positional control sequence when opponent is defending other threats. Use cross-face or chest pressure to limit their ability to bring both hands to the grip. If grip is stripped, immediately transition to different collar attack to maintain offensive pressure. → Leads to [[Mount]]
-- **Turn into the choke to create space and reduce pressure** (Effectiveness: Medium) - Your Response: Block their turning motion with your head position and maintain shoulder pressure. If they successfully turn, adjust to take the back or transition to different choke variation. Use your free hand to control their far shoulder and prevent the turn. → Leads to [[Mount]]
-- **Bridge explosively to disrupt base and create escape opportunity** (Effectiveness: Medium) - Your Response: Maintain wide base with legs and be prepared to post. If from mount, consider stepping over to side control while maintaining the grip, or transition to technical mount for better stability. Keep your weight distributed to prevent being swept while finishing the choke. → Leads to [[Closed Guard]]
-- **Frame against neck and create distance to breathe** (Effectiveness: Low) - Your Response: Control the framing arm early in the setup phase. Once the choke is properly set with shoulder pressure and head position, frames are largely ineffective. Maintain pressure and drive through their defensive structure using body weight rather than arm strength. → Leads to [[Mount]]
+- **Strip the collar grip with both hands before choke is set** (Effectiveness: High) - Your Response: Establish grip as part of positional control sequence when opponent is defending other threats. Use cross-face or chest pressure to limit their ability to bring both hands to the grip. If grip is stripped, immediately transition to different collar attack to maintain offensive pressure. → Leads to [[Positions/Mount]]
+- **Turn into the choke to create space and reduce pressure** (Effectiveness: Medium) - Your Response: Block their turning motion with your head position and maintain shoulder pressure. If they successfully turn, adjust to take the back or transition to different choke variation. Use your free hand to control their far shoulder and prevent the turn. → Leads to [[Positions/Mount]]
+- **Bridge explosively to disrupt base and create escape opportunity** (Effectiveness: Medium) - Your Response: Maintain wide base with legs and be prepared to post. If from mount, consider stepping over to side control while maintaining the grip, or transition to technical mount for better stability. Keep your weight distributed to prevent being swept while finishing the choke. → Leads to [[Positions/Closed Guard]]
+- **Frame against neck and create distance to breathe** (Effectiveness: Low) - Your Response: Control the framing arm early in the setup phase. Once the choke is properly set with shoulder pressure and head position, frames are largely ineffective. Maintain pressure and drive through their defensive structure using body weight rather than arm strength. → Leads to [[Positions/Mount]]
 
 
 </section>

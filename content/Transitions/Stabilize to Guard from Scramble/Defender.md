@@ -154,7 +154,7 @@ description: "Learn to prevent guard recovery from BJJ scrambles. Expert guide o
 
 When your opponent attempts to stabilize from a scramble into open guard, your objective is to prevent their guard recovery and advance to a dominant position. The scramble represents a window of opportunity where neither player has structural advantages, and as the defender your goal is to deny frames, maintain chest-to-chest pressure, and complete a pass before guard structure solidifies. Recognition of guard recovery attempts is critical because the window to prevent establishment is narrow—once frames and grips are set, you face the full complexity of passing an established open guard rather than finishing a scramble. The defender must balance aggression with control, driving forward to deny space while maintaining sufficient base to avoid being swept by the opponent's developing guard. Every second the opponent spends building guard structure without interference increases their probability of successful recovery, making immediate proactive disruption essential.
 
-**Opponent's Starting Position**: [[Scramble Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Scramble Position]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ When your opponent attempts to stabilize from a scramble into open guard, your o
 ### 1. Drive heavy crossface pressure to flatten opponent and deny hip escape angle
 
 - **When to use**: Immediately when you recognize framing attempts, before the opponent can complete a hip escape and insert knee barriers
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent is flattened with no angle for guard insertion, allowing you to consolidate side control or advance to mount
 - **Risk**: If opponent bridges explosively during your drive, they may create space for guard recovery or reverse the scramble
 
 ### 2. Disengage momentarily and circle to attack from a new angle, bypassing developing frames
 
 - **When to use**: When opponent has established one strong frame that you cannot drive through directly
-- **Targets**: [[Scramble Position]]
+- **Targets**: [[Positions/Scramble Position]]
 - **If successful**: Opponent's frame becomes irrelevant as you attack from a different angle, forcing them to rebuild their guard structure from scratch
 - **Risk**: Disengaging gives the opponent time to sit up into seated guard or establish a specific guard variation
 
 ### 3. Underhook the near leg and execute immediate knee slide pass through developing guard
 
 - **When to use**: When opponent has inserted one knee but has not yet established grips or second leg positioning
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You pass through the incomplete guard structure before it solidifies, achieving side control with the opponent's guard recovery fully defeated
 - **Risk**: If the opponent catches an underhook during your slide, they may redirect into half guard or establish butterfly hooks
 
 ### 4. Strip grips aggressively with two-on-one breaks while maintaining forward chest pressure
 
 - **When to use**: When opponent has established grips but has not yet completed foot positioning on your hips
-- **Targets**: [[Scramble Position]]
+- **Targets**: [[Positions/Scramble Position]]
 - **If successful**: Without grips, the opponent's guard structure lacks control and their frames alone cannot prevent your advancement
 - **Risk**: Focusing on grip fighting may allow the opponent to insert feet on hips while your hands are occupied breaking grips
 
@@ -225,11 +225,11 @@ When your opponent attempts to stabilize from a scramble into open guard, your o
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Apply heavy crossface pressure during the opponent's hip escape attempt, drive through developing frames with shoulder pressure and low hip positioning, and complete the pass before they can establish foot placement on your hips. The key window is between their hip escape and their leg barrier insertion—attack through this gap decisively.
 
-### → [[Scramble Position]]
+### → [[Positions/Scramble Position]]
 
 Deny the initial frame by maintaining chest contact and actively controlling the opponent's wrists, preventing them from building any guard structure. Keep the scramble active by continuously changing angles and preventing the opponent from settling into the sequential guard building process. This prevents guard recovery even if you cannot immediately achieve a dominant position.
 

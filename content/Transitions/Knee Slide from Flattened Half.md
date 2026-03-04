@@ -21,7 +21,7 @@ The pass works by creating an angular displacement of the knee across the bottom
 
 This technique occupies a strategic position in the pressure passing hierarchy. Once you have flattened your opponent in half guard, the knee slide becomes one of the most direct paths to completing the pass. It pairs naturally with crossface passes and underhook passes, creating a passing chain where defending one option opens another. Advanced practitioners use the knee slide threat to force defensive reactions that expose back takes or submission entries, making it a cornerstone technique for systematic top game development from half guard.
 
-**From Position**: [[Flattened Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This technique occupies a strategic position in the pressure passing hierarchy. 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Flattened Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Knee Slide from Flattened Half Guard serves as the primary completion mechan
 ## Related Techniques
 
 
-- [[Flattened Half Guard]] - Starting position where top player has established dominant flattening control
+- [[Positions/Half Guard/Flattened Half Guard]] - Starting position where top player has established dominant flattening control
 
-- [[Side Control]] - Primary target position achieved upon successful completion of the pass
+- [[Positions/Side Control]] - Primary target position achieved upon successful completion of the pass
 
-- [[Half Guard]] - Position bottom player recovers to if knee slide is successfully defended and countered
+- [[Positions/Half Guard]] - Position bottom player recovers to if knee slide is successfully defended and countered
 
-- [[Complete Pass from Flattened Half]] - Alternative passing completion from the same starting position
+- [[Transitions/Complete Pass from Flattened Half]] - Alternative passing completion from the same starting position
 
-- [[Cross Face Pass from Flattened Half]] - Complementary pass that chains with knee slide when defender adjusts
+- [[Transitions/Cross Face Pass from Flattened Half]] - Complementary pass that chains with knee slide when defender adjusts
 
-- [[Knee Shield Half Guard]] - Position bottom player attempts to recover during failed knee slide attempts
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Position bottom player attempts to recover during failed knee slide attempts
 
-- [[Deep Half Guard]] - Counter-position bottom player may enter if top player lifts pressure during slide
+- [[Positions/Half Guard/Deep Half Guard]] - Counter-position bottom player may enter if top player lifts pressure during slide
 
-- [[Back Control]] - Position accessible when bottom player turns away to prevent the knee slide
+- [[Positions/Back Control]] - Position accessible when bottom player turns away to prevent the knee slide
 
-- [[Arm Triangle Setup]] - Submission entry available when defender extends arm to block the knee slide
+- [[Transitions/Arm Triangle Setup]] - Submission entry available when defender extends arm to block the knee slide
 
-- [[Deep Half Entry from Flattened]] - Counter-transition the bottom player may attempt during weight transfer
+- [[Transitions/Deep Half Entry from Flattened]] - Counter-transition the bottom player may attempt during weight transfer
 
 
 </section>

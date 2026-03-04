@@ -21,7 +21,7 @@ The defense operates on a strict hierarchy of urgency: protect the neck first th
 
 From a strategic perspective, the Crucifix Choke Defense serves as a gateway technique—its primary purpose is not to maintain the current position but to create the disruption necessary for meaningful escape. Successful choke defense disrupts the opponent's control structure, creates momentary gaps in their positional dominance, and generates the space needed for arm extraction, hip escape, or turtle recovery. Advanced practitioners recognize that defending the choke and escaping the position are not separate actions but integrated sequences where one enables the other.
 
-**From Position**: [[Crucifix]] (Bottom)
+**From Position**: [[Positions/Crucifix]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ From a strategic perspective, the Crucifix Choke Defense serves as a gateway tec
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 30% |
-| Success | [[Back Control]] | 15% |
-| Failure | [[Crucifix]] | 40% |
-| Counter | [[Mounted Crucifix]] | 15% |
+| Success | [[Positions/Turtle]] | 30% |
+| Success | [[Positions/Back Control]] | 15% |
+| Failure | [[Positions/Crucifix]] | 40% |
+| Counter | [[Positions/Mount/Mounted Crucifix]] | 15% |
 
 
 </section>
@@ -192,21 +192,21 @@ The Crucifix Choke Defense occupies a critical position in the defensive hierarc
 ## Related Techniques
 
 
-- [[Crucifix]] - Source position where this defense is executed from bottom
+- [[Positions/Crucifix]] - Source position where this defense is executed from bottom
 
-- [[Choke from Crucifix]] - Primary submission threat this defense neutralizes
+- [[Transitions/Choke from Crucifix]] - Primary submission threat this defense neutralizes
 
-- [[Arm Recovery from Crucifix]] - Follow-up escape technique after successful choke defense
+- [[Transitions/Arm Recovery from Crucifix]] - Follow-up escape technique after successful choke defense
 
-- [[Back Control]] - Improved position achievable through successful defense and grip stripping
+- [[Positions/Back Control]] - Improved position achievable through successful defense and grip stripping
 
-- [[Turtle]] - Primary escape destination after disrupting opponent's choke control
+- [[Positions/Turtle]] - Primary escape destination after disrupting opponent's choke control
 
-- [[Mounted Crucifix]] - Worsened position if opponent counters by transitioning to mount
+- [[Positions/Mount/Mounted Crucifix]] - Worsened position if opponent counters by transitioning to mount
 
-- [[Armbar from Crucifix]] - Alternative submission threat opponent may switch to when choke is defended
+- [[Transitions/Armbar from Crucifix]] - Alternative submission threat opponent may switch to when choke is defended
 
-- [[Gift Wrap]] - Related arm control concept sharing defensive principles against trapped-arm positions
+- [[Positions/Gift Wrap]] - Related arm control concept sharing defensive principles against trapped-arm positions
 
 
 </section>

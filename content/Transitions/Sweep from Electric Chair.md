@@ -21,7 +21,7 @@ The technique's effectiveness derives from the fundamental dilemma inherent in t
 
 Execution requires precise coordination between three control points working simultaneously. The lockdown leg configuration maintains constant tension on the trapped leg, preventing extraction. The deep underhook reaching across the opponent's back provides the primary sweeping lever and upper body control. The hand controlling the opponent's near ankle creates the splitting action that drives the entire mechanism. When these three points are engaged and the bottom player commits to a powerful hip extension while driving the underhook across, the opponent's base collapses and the sweep follows naturally as they roll over their compromised trapped leg.
 
-**From Position**: [[Electric Chair]] (Bottom)
+**From Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
 **Success Rate**: 48%
 
 </section>
@@ -32,9 +32,9 @@ Execution requires precise coordination between three control points working sim
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 48% |
-| Failure | [[Electric Chair]] | 32% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Mount]] | 48% |
+| Failure | [[Positions/Half Guard/Electric Chair]] | 32% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -193,29 +193,29 @@ The Sweep from Electric Chair occupies a central role within the lockdown half g
 ## Related Techniques
 
 
-- [[Electric Chair]] - Source position from which this sweep is executed
+- [[Positions/Half Guard/Electric Chair]] - Source position from which this sweep is executed
 
-- [[Mount]] - Primary target position on successful sweep completion
+- [[Positions/Mount]] - Primary target position on successful sweep completion
 
-- [[Side Control]] - Counter outcome position when opponent successfully defends and passes
+- [[Positions/Side Control]] - Counter outcome position when opponent successfully defends and passes
 
-- [[Lockdown]] - Parent half guard system where the Electric Chair position develops
+- [[Positions/Half Guard/Lockdown]] - Parent half guard system where the Electric Chair position develops
 
-- [[Half Guard]] - Base guard system from which the lockdown and Electric Chair are built
+- [[Positions/Half Guard]] - Base guard system from which the lockdown and Electric Chair are built
 
-- [[Deep Half Guard]] - Alternative transition when sweep is defended and lockdown is compromised
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition when sweep is defended and lockdown is compromised
 
-- [[Truck]] - Alternative transition available when opponent turtles during sweep defense
+- [[Positions/Twister Control/Truck]] - Alternative transition available when opponent turtles during sweep defense
 
-- [[Dogfight Position]] - Transition option when underhook is maintained but lockdown is lost
+- [[Positions/Dogfight Position]] - Transition option when underhook is maintained but lockdown is lost
 
-- [[Old School Sweep]] - Related sweep from the same lockdown system with different mechanics
+- [[Transitions/Old School Sweep]] - Related sweep from the same lockdown system with different mechanics
 
-- [[Banana Split]] - Submission threat from Electric Chair that creates the sweep dilemma
+- [[Submissions/Banana Split]] - Submission threat from Electric Chair that creates the sweep dilemma
 
-- [[Hip Rotation Escape from Electric Chair]] - Primary defensive counter used by the top player against this sweep
+- [[Transitions/Hip Rotation Escape from Electric Chair]] - Primary defensive counter used by the top player against this sweep
 
-- [[Electric Chair Entry from Deep Half]] - Entry pathway into the source position for this sweep
+- [[Transitions/Electric Chair Entry from Deep Half]] - Entry pathway into the source position for this sweep
 
 
 </section>

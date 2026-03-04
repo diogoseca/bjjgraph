@@ -174,7 +174,7 @@ description: "How to execute North-South Escape in BJJ. Attacking perspective wi
 
 The North-South Escape is a fundamental defensive technique designed to recover guard from one of the most dominant pinning positions in Brazilian Jiu-Jitsu. When trapped in north-south position, the top player maintains heavy chest pressure and controls your movement with their hips and arms, making escape extremely difficult without proper technique. This escape relies on precise hip movement, frame creation, and timing to create the space necessary to recover to a safer bottom position. The technique emphasizes the principle of creating distance through bridging and shrimping mechanics while preventing your opponent from transitioning to more dangerous positions like mount or side control. Success requires understanding weight distribution, maintaining defensive posture throughout the escape sequence, and capitalizing on small windows of opportunity when the top player adjusts their position. The north-south escape is essential for any practitioner's defensive arsenal, as it addresses a common scenario where opponents achieve dominant control through passing or transitioning from other top positions.
 
-**From Position**: [[North-South]] (Bottom)
+**From Position**: [[Positions/North-South]] (Bottom)
 
 </section>
 
@@ -227,11 +227,11 @@ The North-South Escape is a fundamental defensive technique designed to recover 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Success | [[Closed Guard]] | 25% |
-| Failure | [[North-South]] | 20% |
-| Counter | [[Side Control]] | 10% |
-| Counter | [[Mount]] | 5% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Success | [[Positions/Closed Guard]] | 25% |
+| Failure | [[Positions/North-South]] | 20% |
+| Counter | [[Positions/Side Control]] | 10% |
+| Counter | [[Positions/Mount]] | 5% |
 
 
 </section>
@@ -240,11 +240,11 @@ The North-South Escape is a fundamental defensive technique designed to recover 
 
 ## Opponent Counters
 
-- **Opponent sprawls their weight backward onto your hips** (Effectiveness: High) - Your Response: Switch to a technical standup or turtle recovery instead of continuing toward guard. Use the space created by their backward weight shift to come up to your knees or establish a seated guard position. → Leads to [[North-South]]
-- **Opponent transitions to side control during your turn** (Effectiveness: High) - Your Response: Immediately adjust your frames to address side control escape fundamentals. Use your near-side elbow as a frame against their shoulder and work to replace guard from the new position rather than forcing the original escape sequence. → Leads to [[Side Control]]
-- **Opponent attacks with submissions during escape attempt** (Effectiveness: Medium) - Your Response: Abandon the escape temporarily to address the submission threat directly. Defend the submission first, then reassess escape opportunities. Common submissions include kimura, armbar, or north-south choke variations. → Leads to [[North-South]]
-- **Opponent uses crossface or head control to prevent turning** (Effectiveness: Medium) - Your Response: Fight the hand controlling your head first by using both hands to strip their grip. Once head control is broken, immediately resume the bridging and turning sequence before they can re-establish control. → Leads to [[North-South]]
-- **Opponent drives forward and transitions toward mount during your bridge** (Effectiveness: Medium) - Your Response: Recognize the mount transition early and immediately insert your knee as a shield before they can complete the step-over. If they clear your knee, switch to mount escape protocols rather than continuing the north-south escape sequence. → Leads to [[Mount]]
+- **Opponent sprawls their weight backward onto your hips** (Effectiveness: High) - Your Response: Switch to a technical standup or turtle recovery instead of continuing toward guard. Use the space created by their backward weight shift to come up to your knees or establish a seated guard position. → Leads to [[Positions/North-South]]
+- **Opponent transitions to side control during your turn** (Effectiveness: High) - Your Response: Immediately adjust your frames to address side control escape fundamentals. Use your near-side elbow as a frame against their shoulder and work to replace guard from the new position rather than forcing the original escape sequence. → Leads to [[Positions/Side Control]]
+- **Opponent attacks with submissions during escape attempt** (Effectiveness: Medium) - Your Response: Abandon the escape temporarily to address the submission threat directly. Defend the submission first, then reassess escape opportunities. Common submissions include kimura, armbar, or north-south choke variations. → Leads to [[Positions/North-South]]
+- **Opponent uses crossface or head control to prevent turning** (Effectiveness: Medium) - Your Response: Fight the hand controlling your head first by using both hands to strip their grip. Once head control is broken, immediately resume the bridging and turning sequence before they can re-establish control. → Leads to [[Positions/North-South]]
+- **Opponent drives forward and transitions toward mount during your bridge** (Effectiveness: Medium) - Your Response: Recognize the mount transition early and immediately insert your knee as a shield before they can complete the step-over. If they clear your knee, switch to mount escape protocols rather than continuing the north-south escape sequence. → Leads to [[Positions/Mount]]
 
 
 </section>

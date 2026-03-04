@@ -184,7 +184,7 @@ The transition is particularly effective because it capitalizes on the opponent'
 
 This transition has become a staple in modern no-gi grappling and MMA, where the absence of gi grips makes the front headlock position even more dominant. The anaconda's versatility allows it to be applied from various front headlock configurations, including standing snapdowns, failed takedown attempts, and turtle attacks. Mastering this transition provides practitioners with a reliable path from control to submission that works across all levels of competition.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -238,9 +238,9 @@ This transition has become a staple in modern no-gi grappling and MMA, where the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Anaconda Control]] | 68% |
-| Failure | [[Front Headlock]] | 22% |
-| Counter | [[Front Headlock]] | 10% |
+| Success | [[Positions/Anaconda Control]] | 68% |
+| Failure | [[Positions/Front Headlock]] | 22% |
+| Counter | [[Positions/Front Headlock]] | 10% |
 
 
 </section>
@@ -249,11 +249,11 @@ This transition has become a staple in modern no-gi grappling and MMA, where the
 
 ## Opponent Counters
 
-- **Opponent turns toward you and steps over your head to escape the roll** (Effectiveness: High) - Your Response: Prevent by keeping chest heavy on their shoulders and controlling their hips during setup phase. If they begin stepping over, quickly transition to Darce choke or abandon the roll and take back control instead. → Leads to [[Front Headlock]]
-- **Opponent keeps their near arm tight to their body, preventing you from trapping it** (Effectiveness: High) - Your Response: Use your chest pressure to pry their arm away from their body, or switch to alternative attacks like guillotine or Darce choke that don't require the trapped arm. You can also wait for them to post or move, creating opportunity to capture the arm. → Leads to [[Front Headlock]]
-- **Opponent stands up explosively before you can secure the figure-four grip** (Effectiveness: Medium) - Your Response: Maintain head control and immediately snap them back down, or transition to standing front headlock attacks. If they fully stand, switch to takedown mode or guillotine attack rather than forcing the anaconda. → Leads to [[Front Headlock]]
-- **Opponent rolls through with you and escapes to top position, reversing the exchange** (Effectiveness: Medium) - Your Response: Prevent by securing figure-four grip completely before rolling. If they begin counter-rolling, tighten your grip and use your legs to control their hips and prevent their rotation. Maintain back arch to keep pressure on the choke. → Leads to [[Front Headlock]]
-- **Opponent creates space by pushing their hips away during the roll** (Effectiveness: Low) - Your Response: Use your legs to hook their hips or grapevine their legs immediately after the roll. Pull them tighter into your chest and adjust your shoulder angle to close any gaps. Space is the enemy—eliminate it immediately. → Leads to [[Front Headlock]]
+- **Opponent turns toward you and steps over your head to escape the roll** (Effectiveness: High) - Your Response: Prevent by keeping chest heavy on their shoulders and controlling their hips during setup phase. If they begin stepping over, quickly transition to Darce choke or abandon the roll and take back control instead. → Leads to [[Positions/Front Headlock]]
+- **Opponent keeps their near arm tight to their body, preventing you from trapping it** (Effectiveness: High) - Your Response: Use your chest pressure to pry their arm away from their body, or switch to alternative attacks like guillotine or Darce choke that don't require the trapped arm. You can also wait for them to post or move, creating opportunity to capture the arm. → Leads to [[Positions/Front Headlock]]
+- **Opponent stands up explosively before you can secure the figure-four grip** (Effectiveness: Medium) - Your Response: Maintain head control and immediately snap them back down, or transition to standing front headlock attacks. If they fully stand, switch to takedown mode or guillotine attack rather than forcing the anaconda. → Leads to [[Positions/Front Headlock]]
+- **Opponent rolls through with you and escapes to top position, reversing the exchange** (Effectiveness: Medium) - Your Response: Prevent by securing figure-four grip completely before rolling. If they begin counter-rolling, tighten your grip and use your legs to control their hips and prevent their rotation. Maintain back arch to keep pressure on the choke. → Leads to [[Positions/Front Headlock]]
+- **Opponent creates space by pushing their hips away during the roll** (Effectiveness: Low) - Your Response: Use your legs to hook their hips or grapevine their legs immediately after the roll. Pull them tighter into your chest and adjust your shoulder angle to close any gaps. Space is the enemy—eliminate it immediately. → Leads to [[Positions/Front Headlock]]
 
 
 </section>

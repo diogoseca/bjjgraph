@@ -21,7 +21,7 @@ The technique operates on the fundamental principle that the gogoplata's structu
 
 Strategically, this escape serves as the primary pathway out of gogoplata control when emergency rolling options are unavailable or undesirable due to back exposure risks. The successful completion leaves the defender in half guard top position, which while not dominant, represents a massive positional improvement from the immediate submission threat. Understanding this escape is essential for any practitioner who trains with flexible guard players employing rubber guard systems.
 
-**From Position**: [[Gogoplata Control]] (Top)
+**From Position**: [[Positions/Gogoplata Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape serves as the primary pathway out of gogoplata contro
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 65% |
-| Failure | [[Gogoplata Control]] | 25% |
-| Counter | [[Gogoplata Control]] | 10% |
+| Success | [[Positions/Half Guard]] | 65% |
+| Failure | [[Positions/Gogoplata Control]] | 25% |
+| Counter | [[Positions/Gogoplata Control]] | 10% |
 
 
 </section>
@@ -187,25 +187,25 @@ The Leg Extraction Escape serves as the primary systematic defense against gogop
 ## Related Techniques
 
 
-- [[Gogoplata Control]] - Starting position requiring this escape
+- [[Positions/Gogoplata Control]] - Starting position requiring this escape
 
-- [[Half Guard]] - Target position upon successful escape
+- [[Positions/Half Guard]] - Target position upon successful escape
 
-- [[Rubber Guard]] - Position system from which gogoplata typically develops
+- [[Positions/Rubber Guard]] - Position system from which gogoplata typically develops
 
-- [[Mission Control]] - Rubber guard variation preceding gogoplata setup
+- [[Positions/Rubber Guard/Mission Control]] - Rubber guard variation preceding gogoplata setup
 
-- [[Triangle Control]] - Alternative threat during escape if movement is imprecise
+- [[Positions/Triangle Control]] - Alternative threat during escape if movement is imprecise
 
-- [[Closed Guard]] - Fallback position if opponent releases to prevent escape
+- [[Positions/Closed Guard]] - Fallback position if opponent releases to prevent escape
 
-- [[Turtle]] - Emergency escape destination when immediate extraction required
+- [[Positions/Turtle]] - Emergency escape destination when immediate extraction required
 
-- [[Head Extraction to Posture]] - Related escape technique sharing similar mechanics
+- [[Transitions/Head Extraction to Posture]] - Related escape technique sharing similar mechanics
 
-- [[Angle Change Escape]] - Alternative escape using different movement pattern
+- [[Transitions/Angle Change Escape]] - Alternative escape using different movement pattern
 
-- [[Hand Control to Extract]] - Complementary escape technique targeting hand fighting before extraction
+- [[Transitions/Hand Control to Extract]] - Complementary escape technique targeting hand fighting before extraction
 
 
 </section>

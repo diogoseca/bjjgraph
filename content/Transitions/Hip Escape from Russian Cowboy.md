@@ -21,7 +21,7 @@ The strategic significance of this escape lies in its directional specificity. R
 
 Successful execution demands a structured priority hierarchy: protect the neck first, establish frames second, manage the hook third, and execute the hip escape fourth. This layered approach ensures each defensive concern is addressed before committing to the positional change, minimizing the risk of being caught in a worse position during the transition. The technique is particularly effective when the opponent transitions between grips or adjusts their hook depth, creating momentary windows where the escape can be executed with high success probability.
 
-**From Position**: [[Russian Cowboy]] (Bottom)
+**From Position**: [[Positions/Russian Cowboy]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Successful execution demands a structured priority hierarchy: protect the neck f
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Russian Cowboy]] | 40% |
-| Counter | [[Truck]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Russian Cowboy]] | 40% |
+| Counter | [[Positions/Twister Control/Truck]] | 20% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Hip Escape from Russian Cowboy occupies a critical role in the defensive hie
 ## Related Techniques
 
 
-- [[Russian Cowboy]] - Source position from which this escape is executed
+- [[Positions/Russian Cowboy]] - Source position from which this escape is executed
 
-- [[Half Guard]] - Primary target position achieved through successful escape
+- [[Positions/Half Guard]] - Primary target position achieved through successful escape
 
-- [[Truck]] - Counter position risk if opponent threads second hook during escape attempt
+- [[Positions/Twister Control/Truck]] - Counter position risk if opponent threads second hook during escape attempt
 
-- [[Escape from Russian Cowboy]] - Related escape technique with alternative recovery targets
+- [[Transitions/Escape from Russian Cowboy]] - Related escape technique with alternative recovery targets
 
-- [[Hip Escape from Back Control]] - Similar escape technique from traditional back control position
+- [[Transitions/Hip Escape from Back Control]] - Similar escape technique from traditional back control position
 
-- [[Back Control]] - Related dominant position sharing similar escape mechanics
+- [[Positions/Back Control]] - Related dominant position sharing similar escape mechanics
 
-- [[Arm Extraction to Turtle]] - Primary alternative escape from Russian Cowboy targeting turtle recovery
+- [[Transitions/Arm Extraction to Turtle]] - Primary alternative escape from Russian Cowboy targeting turtle recovery
 
-- [[Turtle]] - Alternative escape target position when half guard recovery is blocked
+- [[Positions/Turtle]] - Alternative escape target position when half guard recovery is blocked
 
-- [[Knee Shield Half Guard]] - Preferred half guard variation to establish after successful escape
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Preferred half guard variation to establish after successful escape
 
-- [[Crab Ride]] - Related back control variant with similar escape considerations
+- [[Positions/Crab Ride]] - Related back control variant with similar escape considerations
 
 
 </section>

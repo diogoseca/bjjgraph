@@ -154,7 +154,7 @@ description: "Defend the Worm Guard Sweep in BJJ. Recognition cues, base managem
 
 Defending the Worm Guard Sweep demands early recognition of the sweep setup and immediate action to neutralize the lapel mechanics before the off-balancing force becomes irresistible. As the defender, your leg is already trapped by the worm guard lapel wrap, which creates a structural disadvantage that eliminates your normal base recovery options on the trapped side. Your defensive priority is to prevent the attacker from establishing the secondary grip and proper hip angle that transforms their lapel control into a sweep. If the sweep begins to load, your options narrow rapidly because the mechanical advantage of the lapel fulcrum amplifies even small movements into powerful rotational force. Understanding the attacker's timing requirements allows you to disrupt the setup at the earliest possible stage, where your defensive investment is minimal and the probability of success is highest.
 
-**Opponent's Starting Position**: [[Worm Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Worm Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Worm Guard Sweep demands early recognition of the sweep setup and 
 ### 1. Strip the secondary grip before the sweep loads using a two-on-one break on the attacker's collar or sleeve grip
 
 - **When to use**: As soon as you recognize the attacker reaching for or establishing the secondary grip on your collar or sleeve
-- **Targets**: [[Worm Guard]]
+- **Targets**: [[Positions/Worm Guard]]
 - **If successful**: The attacker retains worm guard but cannot execute the sweep without the secondary grip, forcing them to reset or attempt different attacks
 - **Risk**: Committing both hands to the grip strip momentarily reduces your posting ability, creating a brief window for alternative attacks
 
 ### 2. Widen base and sit hips back low to create a stable platform that resists the elevation and angular forces
 
 - **When to use**: When you feel the initial off-balancing pull beginning but before the sweep is fully loaded
-- **Targets**: [[Worm Guard]]
+- **Targets**: [[Positions/Worm Guard]]
 - **If successful**: Your wide low base neutralizes the sweep angle and makes elevation extremely difficult, forcing the attacker to abandon the sweep or switch attacks
 - **Risk**: A wide base is vulnerable to collar drags since your weight is distributed sideways rather than forward, and the attacker may chain to that threat
 
 ### 3. Strip the lapel wrap by extracting your trapped leg or using hand fighting to peel the lapel off your shin
 
 - **When to use**: When you have sufficient time to address the lapel before the sweep is committed, ideally during early setup phases
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Both the worm guard and the sweep threat are neutralized simultaneously, leaving you in an advantageous passing position against basic open guard
 - **Risk**: Lapel stripping requires time and hand commitment. If the sweep fires during the strip, you may be caught mid-transition with compromised base
 
 ### 4. Drive forward with heavy shoulder pressure to flatten the attacker's hips and prevent the angular positioning needed for the sweep
 
 - **When to use**: When the attacker begins angling their hips but has not yet fully loaded the sweep
-- **Targets**: [[Worm Guard]]
+- **Targets**: [[Positions/Worm Guard]]
 - **If successful**: Forward pressure pins the attacker flat, preventing the hip angle and leg elevation needed for the sweep mechanics
 - **Risk**: Forward pressure into worm guard can feed into the overhead balloon sweep variation if the attacker redirects your momentum over their head
 
@@ -225,11 +225,11 @@ Defending the Worm Guard Sweep demands early recognition of the sweep setup and 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip the lapel wrap to neutralize both the worm guard and the sweep threat simultaneously. Focus your defensive energy on removing the lapel rather than only resisting the sweep force. Once the lapel is removed, the entire mechanical system collapses and you are in an advantageous open guard passing position.
 
-### → [[Worm Guard]]
+### → [[Positions/Worm Guard]]
 
 Deny the secondary grip and maintain wide base to prevent the sweep from loading. While remaining in your opponent's worm guard is not ideal, it is significantly better than being swept to mount. Use the time after stuffing the sweep to work on stripping the lapel or initiating a passing sequence.
 

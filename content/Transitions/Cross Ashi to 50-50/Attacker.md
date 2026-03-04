@@ -186,7 +186,7 @@ description: "Master the attacking mechanics of Cross Ashi to 50-50. Complete gu
 
 As the attacker executing the Cross Ashi to 50-50 transition, your primary objective is to change the geometric relationship between your legs and the opponent's trapped leg from an asymmetric crossed configuration to a symmetric mirror entanglement, all while maintaining continuous control over the opponent's heel and preventing leg extraction. This transition is a calculated positional adjustment rather than an explosive movement, requiring precise timing, smooth leg repositioning, and immediate establishment of top pressure in the new 50-50 configuration. The transition is most effective when initiated during the opponent's defensive reactions to heel hook attempts, as their focus on heel defense creates a window where they are less likely to recognize and counter the entanglement change.
 
-**From Position**: [[Cross Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ As the attacker executing the Cross Ashi to 50-50 transition, your primary objec
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 55% |
-| Failure | [[Cross Ashi-Garami]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 55% |
+| Failure | [[Positions/Ashi Garami/Cross Ashi-Garami]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the attacker executing the Cross Ashi to 50-50 transition, your primary objec
 
 ## Opponent Counters
 
-- **Opponent retracts knee and pulls trapped leg toward their body during the uncrossing window** (Effectiveness: High) - Your Response: Abort the transition immediately and re-establish cross ashi by recrossing your outside leg. If knee retraction is too advanced, switch to straight ankle lock grip on the partially extracted foot or transition to inside ashi-garami by following the retracting leg inward. → Leads to [[Cross Ashi-Garami]]
-- **Opponent explosively sits up and establishes frames on your hips during the transitional moment** (Effectiveness: Medium) - Your Response: Use their upward momentum to accelerate through the transition by pulling their heel toward your chest while completing the 50-50 threading. Their sit-up actually creates space that makes the mirror leg positioning easier. If you cannot complete the transition, collapse them back down with heel pull and inside hook pressure. → Leads to [[Cross Ashi-Garami]]
-- **Opponent straightens trapped leg and kicks free during the reduced-control window when outside cross is removed** (Effectiveness: High) - Your Response: If the leg extracts past the point of recovery, immediately transition to a passing position by driving forward into their hips before they can establish guard. If partial control remains, redirect into single leg X-guard or standard ashi-garami rather than forcing the 50-50 entry. → Leads to [[Half Guard]]
-- **Opponent counter-entangles by threading their own legs around yours during the repositioning** (Effectiveness: Medium) - Your Response: Recognize that counter-entanglement may actually complete the 50-50 transition for you, albeit with the opponent having better initial positioning. Focus on winning inside position and establishing top pressure immediately. If their counter-entangle creates a different configuration, evaluate whether saddle or inside ashi offers better control. → Leads to [[50-50 Guard]]
+- **Opponent retracts knee and pulls trapped leg toward their body during the uncrossing window** (Effectiveness: High) - Your Response: Abort the transition immediately and re-establish cross ashi by recrossing your outside leg. If knee retraction is too advanced, switch to straight ankle lock grip on the partially extracted foot or transition to inside ashi-garami by following the retracting leg inward. → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- **Opponent explosively sits up and establishes frames on your hips during the transitional moment** (Effectiveness: Medium) - Your Response: Use their upward momentum to accelerate through the transition by pulling their heel toward your chest while completing the 50-50 threading. Their sit-up actually creates space that makes the mirror leg positioning easier. If you cannot complete the transition, collapse them back down with heel pull and inside hook pressure. → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- **Opponent straightens trapped leg and kicks free during the reduced-control window when outside cross is removed** (Effectiveness: High) - Your Response: If the leg extracts past the point of recovery, immediately transition to a passing position by driving forward into their hips before they can establish guard. If partial control remains, redirect into single leg X-guard or standard ashi-garami rather than forcing the 50-50 entry. → Leads to [[Positions/Half Guard]]
+- **Opponent counter-entangles by threading their own legs around yours during the repositioning** (Effectiveness: Medium) - Your Response: Recognize that counter-entanglement may actually complete the 50-50 transition for you, albeit with the opponent having better initial positioning. Focus on winning inside position and establishing top pressure immediately. If their counter-entangle creates a different configuration, evaluate whether saddle or inside ashi offers better control. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 
 
 </section>

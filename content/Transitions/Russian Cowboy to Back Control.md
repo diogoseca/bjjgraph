@@ -21,7 +21,7 @@ The core challenge centers on threading the free leg across the opponent's body 
 
 Strategically, this transition requires balancing the risk of destabilizing current control against the reward of achieving the most dominant position in the sport. Patient practitioners who build their attacks around creating insertion windows consistently achieve higher success rates than those who force the second hook against active resistance. The key is recognizing that Russian Cowboy already provides significant control, so there is no urgency to rush the upgrade at the cost of losing the position entirely.
 
-**From Position**: [[Russian Cowboy]] (Top)
+**From Position**: [[Positions/Russian Cowboy]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition requires balancing the risk of destabilizing curr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Russian Cowboy]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Russian Cowboy]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -187,25 +187,25 @@ The Russian Cowboy to Back Control transition is a critical link in the back att
 ## Related Techniques
 
 
-- [[Russian Cowboy]] - Starting position for this transition providing the single-hook back control foundation
+- [[Positions/Russian Cowboy]] - Starting position for this transition providing the single-hook back control foundation
 
-- [[Back Control]] - Target position achieved upon successful second hook insertion with full 4-point scoring
+- [[Positions/Back Control]] - Target position achieved upon successful second hook insertion with full 4-point scoring
 
-- [[Seat Belt Control Back]] - Primary upper body control configuration maintained throughout the transition
+- [[Positions/Back Control/Seat Belt Control Back]] - Primary upper body control configuration maintained throughout the transition
 
-- [[Body Triangle]] - Alternative back control configuration available after establishing full back control
+- [[Positions/Back Control/Body Triangle]] - Alternative back control configuration available after establishing full back control
 
-- [[Truck]] - Alternative advancement path from Russian Cowboy when back control insertion is blocked
+- [[Positions/Twister Control/Truck]] - Alternative advancement path from Russian Cowboy when back control insertion is blocked
 
-- [[Crab Ride]] - Related single-hook back control variant with similar hook insertion challenges
+- [[Positions/Crab Ride]] - Related single-hook back control variant with similar hook insertion challenges
 
-- [[Escape from Russian Cowboy]] - Opponent's primary defensive technique that this transition must overcome
+- [[Transitions/Escape from Russian Cowboy]] - Opponent's primary defensive technique that this transition must overcome
 
-- [[Back Control Maintenance]] - Follow-up control system employed after successfully establishing both hooks
+- [[Transitions/Back Control Maintenance]] - Follow-up control system employed after successfully establishing both hooks
 
-- [[Rear Naked Choke]] - Primary submission threat used both as a diversion during insertion and as follow-up attack
+- [[Transitions/Rear Naked Choke]] - Primary submission threat used both as a diversion during insertion and as follow-up attack
 
-- [[Half Guard]] - Counter outcome position if opponent successfully reverses during hook insertion attempt
+- [[Positions/Half Guard]] - Counter outcome position if opponent successfully reverses during hook insertion attempt
 
 
 </section>

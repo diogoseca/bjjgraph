@@ -21,7 +21,7 @@ The mat return operates on the principle of controlled descent rather than explo
 
 Strategically, the mat return occupies a central role in any grappling system that emphasizes back control as the dominant finishing position. It connects the standing clinch game directly to the rear naked choke and other back attacks, creating a seamless chain from takedown to submission. The technique is particularly valuable in no-gi grappling and MMA where rear clinch opportunities arise frequently from failed guard pulls, scrambles, and wrestling exchanges. Its relatively low risk profile compared to throws and its high reward of immediate back control make it a preferred choice for competitors at all levels.
 
-**From Position**: [[Standing Rear Clinch]] (Top)
+**From Position**: [[Positions/Standing Rear Clinch]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the mat return occupies a central role in any grappling system th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Standing Rear Clinch]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Standing Rear Clinch]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -194,29 +194,29 @@ The mat return from rear clinch serves as the critical link between the standing
 ## Related Techniques
 
 
-- [[Standing Rear Clinch]] - Starting position from which the mat return is executed
+- [[Positions/Standing Rear Clinch]] - Starting position from which the mat return is executed
 
-- [[Back Control]] - Primary target position achieved upon successful mat return
+- [[Positions/Back Control]] - Primary target position achieved upon successful mat return
 
-- [[Seat Belt Control Back]] - Grip configuration maintained through the mat return for immediate submission access
+- [[Positions/Back Control/Seat Belt Control Back]] - Grip configuration maintained through the mat return for immediate submission access
 
-- [[Body Triangle]] - Advanced leg control option to establish immediately after successful mat return landing
+- [[Positions/Back Control/Body Triangle]] - Advanced leg control option to establish immediately after successful mat return landing
 
-- [[Standing Back Control]] - Related standing control position with similar grip structure and transition pathways
+- [[Positions/Back Control/Standing Back Control]] - Related standing control position with similar grip structure and transition pathways
 
-- [[Half Guard]] - Common counter outcome position if opponent turns during descent
+- [[Positions/Half Guard]] - Common counter outcome position if opponent turns during descent
 
-- [[Body Lock Takedown]] - Related takedown technique using similar grip structure from different angle
+- [[Transitions/Body Lock Takedown]] - Related takedown technique using similar grip structure from different angle
 
-- [[Defense from Standing Rear Clinch]] - Opponent's primary defensive system against the mat return attempt
+- [[Transitions/Defense from Standing Rear Clinch]] - Opponent's primary defensive system against the mat return attempt
 
-- [[Counter Throw from Standing Rear Clinch]] - Counter technique the defender may employ during mat return attempt
+- [[Transitions/Counter Throw from Standing Rear Clinch]] - Counter technique the defender may employ during mat return attempt
 
-- [[Rear Naked Choke]] - Primary submission threat available immediately after successful mat return to back control
+- [[Transitions/Rear Naked Choke]] - Primary submission threat available immediately after successful mat return to back control
 
-- [[Back Take]] - Alternative method for establishing back control from various positions
+- [[Transitions/Back Take]] - Alternative method for establishing back control from various positions
 
-- [[Turtle]] - Intermediate position that may occur if hooks are not immediately secured after landing
+- [[Positions/Turtle]] - Intermediate position that may occur if hooks are not immediately secured after landing
 
 
 </section>

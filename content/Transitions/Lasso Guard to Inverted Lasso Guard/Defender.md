@@ -154,7 +154,7 @@ description: "How to defend the transition to inverted lasso guard. Recognition 
 
 Defending the transition to inverted lasso guard requires early recognition and decisive action within a narrow timing window. As the top player caught in lasso guard, your primary vulnerability is the moment the bottom player initiates the backwards roll that converts their horizontal control into rotational momentum. Once the inversion completes and they establish an elevated hip position on their shoulders, your defensive options narrow dramatically and you face berimbolo, overhead sweep, and submission threats from multiple angles. The key defensive principle is disrupting the inversion during the transition rather than trying to counter the fully established inverted position. This means developing pattern recognition for the hip movement and weight shift that precede the roll, then applying the appropriate counter within 1-2 seconds of recognition.
 
-**Opponent's Starting Position**: [[Lasso Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Lasso Guard]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the transition to inverted lasso guard requires early recognition and 
 ### 1. Drive forward hip pressure onto the bottom player's chest and shoulders before the inversion completes to pin their hips to the mat
 
 - **When to use**: Immediately upon recognizing the hip elevation that initiates the inversion, before the roll gains momentum
-- **Targets**: [[Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard]]
 - **If successful**: Bottom player cannot complete inversion and returns to standard lasso guard where you can resume systematic passing
 - **Risk**: If timed late and they have already established inverted angle, your forward pressure feeds directly into their overhead sweep mechanics
 
 ### 2. Strip the sleeve grip by explosively pulling your arm back while their grip is stressed by the rotational forces of the inversion attempt
 
 - **When to use**: During the transition moment when the bottom player's grip is under maximum stress from maintaining connection through the roll
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Without sleeve control the lasso loses all offensive potential and you can pass the now-disconnected open guard
 - **Risk**: Explosive pulling can fail against a strong grip and the motion may create the momentum the bottom player needs to complete the inversion
 
 ### 3. Step over the lasso leg during the inversion to extract your trapped arm from the lasso hook entirely
 
 - **When to use**: When the inversion is beginning but the bottom player has not yet fully committed to the roll and their hip angle has not closed
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Complete extraction of your arm eliminates the lasso position entirely, returning to neutral open guard passing
 - **Risk**: The step-over temporarily removes one leg from base and if the bottom player recognizes it early, they can switch to back take or omoplata on the stepping leg
 
 ### 4. Follow the inversion rotation with a cartwheel or counter-rotation that matches the bottom player's movement and lands you in a dominant position
 
 - **When to use**: When the inversion has progressed too far to prevent with pressure and the bottom player has committed to berimbolo rotation
-- **Targets**: [[Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard]]
 - **If successful**: Your counter-rotation neutralizes their angular advantage and can lead to back control or side control as you follow their movement
 - **Risk**: Requires precise timing and comfort with acrobatic movement. Mistiming the cartwheel can result in being swept or giving up the back
 
@@ -224,11 +224,11 @@ Defending the transition to inverted lasso guard requires early recognition and 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lasso Guard]]
+### → [[Positions/Lasso Guard]]
 
 Apply immediate forward hip pressure when you detect the hip elevation that signals inversion, pinning the bottom player's hips to the mat before the roll gains momentum. This returns the position to standard lasso guard where you can continue methodical passing without the amplified inversion threats.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Target the sleeve grip during the transition moment when rotational forces stress the connection. A well-timed grip strip combined with arm extraction as the bottom player rolls breaks the entire lasso system and leaves them in open guard without their primary control mechanism, giving you a clean passing opportunity.
 

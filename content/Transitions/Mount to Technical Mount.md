@@ -21,7 +21,7 @@ Strategic timing is the defining factor in this transition's success. Premature 
 
 The Mount to Technical Mount transition serves as a critical bridge in the mount offense system, connecting the control-oriented standard mount with the finish-oriented technical mount and back control positions. Practitioners who master this transition gain the ability to systematically advance their offensive campaign based on the opponent's defensive reactions, transforming every escape attempt into an opportunity for positional improvement rather than a threat to their control.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The Mount to Technical Mount transition serves as a critical bridge in the mount
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Technical Mount]] | 55% |
-| Failure | [[Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/Technical Mount]] | 55% |
+| Failure | [[Positions/Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Mount to Technical Mount transition occupies a critical junction in the moun
 ## Related Techniques
 
 
-- [[Mount]] - Source position from which technical mount transition is initiated
+- [[Positions/Mount]] - Source position from which technical mount transition is initiated
 
-- [[Technical Mount]] - Target position providing asymmetric attacking platform for armbars and back takes
+- [[Positions/Mount/Technical Mount]] - Target position providing asymmetric attacking platform for armbars and back takes
 
-- [[Back Control]] - Common follow-up position when opponent turns away from technical mount submissions
+- [[Positions/Back Control]] - Common follow-up position when opponent turns away from technical mount submissions
 
-- [[Armbar from Technical Mount]] - Primary submission threat available after successful transition to technical mount
+- [[Submissions/Armbar from Technical Mount]] - Primary submission threat available after successful transition to technical mount
 
-- [[High Mount]] - Alternative positional advancement from mount when technical mount opportunity is unavailable
+- [[Positions/Mount/High Mount]] - Alternative positional advancement from mount when technical mount opportunity is unavailable
 
-- [[S Mount]] - Related asymmetric mount variation sharing similar leg posting mechanics
+- [[Positions/Mount/S Mount]] - Related asymmetric mount variation sharing similar leg posting mechanics
 
-- [[Back Turn from Technical Mount]] - Defender escape technique that top player must anticipate and counter
+- [[Transitions/Back Turn from Technical Mount]] - Defender escape technique that top player must anticipate and counter
 
-- [[Gift Wrap]] - Control grip used to force opponent's turn and facilitate technical mount entry
+- [[Positions/Gift Wrap]] - Control grip used to force opponent's turn and facilitate technical mount entry
 
-- [[3-4 Mount to Technical Mount]] - Related transition achieving technical mount from alternative mount variation
+- [[Transitions/3-4 Mount to Technical Mount]] - Related transition achieving technical mount from alternative mount variation
 
-- [[Half Guard]] - Counter outcome position when opponent successfully recovers guard during transition
+- [[Positions/Half Guard]] - Counter outcome position when opponent successfully recovers guard during transition
 
 
 </section>

@@ -21,7 +21,7 @@ The standup sequence involves establishing a stable posting base, creating dista
 
 This technique serves as a gateway movement that connects various bottom positions to standing engagements, making it indispensable for complete positional fluency in Brazilian Jiu-Jitsu. It integrates with turtle defense, guard recovery, and standing guard strategies, giving practitioners the ability to dictate whether engagement continues on the ground or resets to neutral standing.
 
-**From Position**: [[Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 **Success Rate**: 70%
 
 </section>
@@ -32,9 +32,9 @@ This technique serves as a gateway movement that connects various bottom positio
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Guard]] | 70% |
-| Failure | [[Turtle]] | 18% |
-| Counter | [[Back Control]] | 12% |
+| Success | [[Positions/Standing Guard]] | 70% |
+| Failure | [[Positions/Turtle]] | 18% |
+| Counter | [[Positions/Back Control]] | 12% |
 
 
 </section>
@@ -201,25 +201,25 @@ The technical standup from base serves as a fundamental bridge movement connecti
 ## Related Techniques
 
 
-- [[Turtle]] - Primary starting position for technical standup execution
+- [[Positions/Turtle]] - Primary starting position for technical standup execution
 
-- [[Standing Guard]] - Target position reached upon successful standup completion
+- [[Positions/Standing Guard]] - Target position reached upon successful standup completion
 
-- [[Granby Roll to Guard]] - Alternative turtle escape using inversion instead of standup
+- [[Transitions/Granby Roll to Guard]] - Alternative turtle escape using inversion instead of standup
 
-- [[Hip Escape to Guard]] - Alternative bottom escape using hip movement instead of standup
+- [[Transitions/Hip Escape to Guard]] - Alternative bottom escape using hip movement instead of standup
 
-- [[Guard Pull]] - Common follow-up action after achieving standing position
+- [[Transitions/Guard Pull]] - Common follow-up action after achieving standing position
 
-- [[Guard Recovery]] - Related defensive movement for regaining guard from bottom
+- [[Principles/Guard Recovery]] - Related defensive movement for regaining guard from bottom
 
-- [[Peterson Roll]] - Alternative turtle escape via rolling to guard recovery
+- [[Transitions/Peterson Roll]] - Alternative turtle escape via rolling to guard recovery
 
-- [[Back Control]] - Opponent's target position if standup is countered
+- [[Positions/Back Control]] - Opponent's target position if standup is countered
 
-- [[Frame Creation]] - Essential principle for creating space during standup
+- [[Principles/Frame Creation]] - Essential principle for creating space during standup
 
-- [[Bridge and Roll]] - Related escape movement sharing base-building fundamentals
+- [[Transitions/Bridge and Roll]] - Related escape movement sharing base-building fundamentals
 
 
 </section>

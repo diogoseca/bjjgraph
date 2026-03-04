@@ -138,7 +138,7 @@ description: "Complete guide to preventing guard recovery from leg entanglement.
 
 Defending against guard recovery attempts from leg entanglement means maintaining your entanglement structure and submission threats while your opponent systematically works to extract their trapped leg. As the leg lock attacker, your goal is either to retain the current entanglement for continued submission attempts or to advance to a more dominant configuration when the opponent creates openings during their escape. This requires recognizing each phase of the recovery attempt — heel hiding, hook stripping, hip escaping — and applying the appropriate counter-retention technique at each stage. The most effective defenders use their opponent's escape attempts as triggers for positional advancement rather than simply fighting to maintain the status quo.
 
-**Opponent's Starting Position**: [[Leg Entanglement]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Entanglement]] (Bottom)
 
 </section>
 
@@ -176,28 +176,28 @@ Defending against guard recovery attempts from leg entanglement means maintainin
 ### 1. Re-pummel inside hook and re-secure heel grip immediately when stripped
 
 - **When to use**: As soon as the opponent begins stripping your inside hook or heel control — immediate response prevents them from progressing to the next phase of extraction
-- **Targets**: [[Leg Entanglement]]
+- **Targets**: [[Positions/Leg Entanglement]]
 - **If successful**: Opponent remains trapped in the entanglement with submission threats intact and must restart their recovery sequence from the beginning
 - **Risk**: Over-focusing on re-pummeling may allow the opponent to create enough angle change that your hook lacks its original effectiveness
 
 ### 2. Advance to Inside Ashi-Garami by driving inside leg deeper and securing tighter heel control
 
 - **When to use**: When the opponent's extraction attempt creates a momentary opening in their defensive structure — their hands are occupied stripping hooks and cannot defend heel exposure
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Position advances to a more specific and dominant entanglement with clearer submission pathways and stronger control mechanics
 - **Risk**: Aggressive advancement during opponent's active escape may create scramble opportunities if the transition is not clean
 
 ### 3. Accelerate submission attack to force opponent to abandon extraction and return to defending
 
 - **When to use**: When the opponent's extraction movement momentarily exposes their heel or creates an angle favorable for ankle lock or toe hold finish
-- **Targets**: [[Leg Entanglement]]
+- **Targets**: [[Positions/Leg Entanglement]]
 - **If successful**: Opponent must abandon their recovery sequence and return to defending the submission, resetting the positional dynamic in your favor
 - **Risk**: Premature submission attempt without proper positioning may fail and create a better extraction opportunity for the opponent
 
 ### 4. Follow hip movement and re-close distance by scooting forward as opponent hip escapes away
 
 - **When to use**: When opponent begins hip escaping to create distance — match their movement speed to maintain zero distance throughout their escape attempt
-- **Targets**: [[Leg Entanglement]]
+- **Targets**: [[Positions/Leg Entanglement]]
 - **If successful**: Opponent's hip escape generates no actual distance because you followed their movement, wasting their energy while your control position is maintained
 - **Risk**: Following movement may cause you to overextend and lose structural control if the opponent suddenly changes direction
 
@@ -209,11 +209,11 @@ Defending against guard recovery attempts from leg entanglement means maintainin
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Entanglement]]
+### → [[Positions/Leg Entanglement]]
 
 Maintain heel control and re-pummel hooks immediately when stripped. Follow opponent's hip movement to prevent distance creation. Use submission threats to interrupt extraction sequences and force the opponent to restart their recovery from the beginning.
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Capitalize on openings created during the opponent's extraction attempt by advancing your inside leg deeper across their hip and securing a tighter entanglement configuration. When they focus on stripping one hook, use the opportunity to advance to Inside Ashi-Garami where your control and submission access improve significantly.
 

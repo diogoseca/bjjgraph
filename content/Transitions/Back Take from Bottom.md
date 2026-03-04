@@ -21,7 +21,7 @@ This technique transforms a failed or stalled submission attempt into a dominant
 
 The back take from bottom Hindulotine is particularly effective because the opponent often commits fully to the turn, believing they are escaping danger. This commitment makes the back exposure more complete and the subsequent control establishment more secure. The position integrates seamlessly into front headlock and guillotine attack systems, providing a reliable secondary option when the primary choke stalls.
 
-**From Position**: [[Hindulotine]] (Bottom)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The back take from bottom Hindulotine is particularly effective because the oppo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Hindulotine]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Hindulotine]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Back Take from Bottom Hindulotine is a critical component of the front headl
 ## Related Techniques
 
 
-- [[Hindulotine]] - Starting position for this transition
+- [[Positions/Hindulotine]] - Starting position for this transition
 
-- [[Back Control]] - Target position achieved upon successful execution
+- [[Positions/Back Control]] - Target position achieved upon successful execution
 
-- [[Guillotine Control]] - Parent position for Hindulotine variations
+- [[Positions/Guillotine Control]] - Parent position for Hindulotine variations
 
-- [[Rear Naked Choke]] - Primary follow-up submission from back control
+- [[Transitions/Rear Naked Choke]] - Primary follow-up submission from back control
 
-- [[Back Take from Top]] - Similar transition executed from top Hindulotine
+- [[Transitions/Back Take from Top]] - Similar transition executed from top Hindulotine
 
-- [[Hindulotine to Darce Choke]] - Alternative attack when opponent creates frames instead of turning
+- [[Transitions/Hindulotine to Darce Choke]] - Alternative attack when opponent creates frames instead of turning
 
-- [[Hindulotine to Anaconda Choke]] - Alternative transition from same control position
+- [[Transitions/Hindulotine to Anaconda Choke]] - Alternative transition from same control position
 
-- [[Closed Guard]] - Common guard configuration during bottom Hindulotine
+- [[Positions/Closed Guard]] - Common guard configuration during bottom Hindulotine
 
-- [[Body Triangle]] - Alternative leg control option after securing back
+- [[Positions/Back Control/Body Triangle]] - Alternative leg control option after securing back
 
-- [[Arm Drag to Back]] - Related back take technique from different entry
+- [[Transitions/Arm Drag to Back]] - Related back take technique from different entry
 
 
 </section>

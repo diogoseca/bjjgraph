@@ -186,7 +186,7 @@ description: "Learn to execute the Knee on Belly to Mount transition. Step-by-st
 
 The KOB to Mount transition from the attacker's perspective requires coordinating weight transfer, grip management, and timing to convert temporary Knee on Belly pressure into the most dominant ground position in BJJ. The key challenge is maintaining control continuity during the positional shift—any gap in pressure creates a defensive window that alert opponents will exploit. Successful execution depends on reading the bottom player's reactions and choosing the precise moment when their defensive options are most limited. The transition rewards practitioners who understand that mount entry from KOB is as much about creating the right conditions through sustained pressure and submission threats as it is about executing the right mechanics during the step-over itself.
 
-**From Position**: [[Knee on Belly]] (Top)
+**From Position**: [[Positions/Knee on Belly]] (Top)
 
 </section>
 
@@ -238,9 +238,9 @@ The KOB to Mount transition from the attacker's perspective requires coordinatin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Knee on Belly]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Knee on Belly]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -249,10 +249,10 @@ The KOB to Mount transition from the attacker's perspective requires coordinatin
 
 ## Opponent Counters
 
-- **Bottom player frames on the knee and executes a strong hip escape to create distance** (Effectiveness: High) - Your Response: Anticipate the shrimp by controlling the far hip tightly. When they begin to shrimp, follow their hip movement and accelerate the step-over to beat their guard recovery timing. → Leads to [[Half Guard]]
-- **Bottom player times an explosive bridge during the leg swing to disrupt base and balance** (Effectiveness: Medium) - Your Response: Post your free hand on the mat on the far side to absorb the bridge. Keep your driving knee pressure and wait for the bridge to collapse before completing the step-over. If the bridge is strong, settle back to KOB rather than forcing a compromised mount entry. → Leads to [[Knee on Belly]]
-- **Bottom player inserts a knee shield as the leg swings over, blocking mount establishment** (Effectiveness: High) - Your Response: Use your swinging leg to hook behind their inserting knee and push it flat before they can establish the shield. If the shield is already in, abort the mount entry and re-establish KOB pressure, then attack submissions to force them to abandon the shield. → Leads to [[Half Guard]]
-- **Bottom player turns to their side and attempts to recover full guard by threading legs** (Effectiveness: Medium) - Your Response: Use your far-hip grip to prevent the full turn. If they get partially to their side, capitalize by completing the step-over on the exposed side and immediately driving your hips forward into mount before they complete the guard recovery. → Leads to [[Knee on Belly]]
+- **Bottom player frames on the knee and executes a strong hip escape to create distance** (Effectiveness: High) - Your Response: Anticipate the shrimp by controlling the far hip tightly. When they begin to shrimp, follow their hip movement and accelerate the step-over to beat their guard recovery timing. → Leads to [[Positions/Half Guard]]
+- **Bottom player times an explosive bridge during the leg swing to disrupt base and balance** (Effectiveness: Medium) - Your Response: Post your free hand on the mat on the far side to absorb the bridge. Keep your driving knee pressure and wait for the bridge to collapse before completing the step-over. If the bridge is strong, settle back to KOB rather than forcing a compromised mount entry. → Leads to [[Positions/Knee on Belly]]
+- **Bottom player inserts a knee shield as the leg swings over, blocking mount establishment** (Effectiveness: High) - Your Response: Use your swinging leg to hook behind their inserting knee and push it flat before they can establish the shield. If the shield is already in, abort the mount entry and re-establish KOB pressure, then attack submissions to force them to abandon the shield. → Leads to [[Positions/Half Guard]]
+- **Bottom player turns to their side and attempts to recover full guard by threading legs** (Effectiveness: Medium) - Your Response: Use your far-hip grip to prevent the full turn. If they get partially to their side, capitalize by completing the step-over on the exposed side and immediately driving your hips forward into mount before they complete the guard recovery. → Leads to [[Positions/Knee on Belly]]
 
 
 </section>

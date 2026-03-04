@@ -21,7 +21,7 @@ The technique emphasizes pressure over speed, making it highly effective against
 
 Understanding the mechanics of hip pressure, shoulder positioning, and incremental advances makes this pass a cornerstone of any pressure-based passing system. It chains naturally with knee slice passes, body lock passes, and long step passes, providing a complete toolkit against butterfly guard. When the bottom player defends by transitioning to half guard, the passer is already in an advantageous position to continue passing with appropriate follow-up techniques.
 
-**From Position**: [[Butterfly Guard]] (Top)
+**From Position**: [[Positions/Butterfly Guard]] (Top)
 **Success Rate**: 68%
 
 </section>
@@ -32,9 +32,9 @@ Understanding the mechanics of hip pressure, shoulder positioning, and increment
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 68% |
-| Failure | [[Butterfly Guard]] | 18% |
-| Counter | [[Butterfly Guard]] | 14% |
+| Success | [[Positions/Side Control]] | 68% |
+| Failure | [[Positions/Butterfly Guard]] | 18% |
+| Counter | [[Positions/Butterfly Guard]] | 14% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Butterfly Smash integrates into a comprehensive pressure passing system as a
 ## Related Techniques
 
 
-- [[Butterfly Guard]] - Starting position - the guard being passed
+- [[Positions/Butterfly Guard]] - Starting position - the guard being passed
 
-- [[Butterfly Hook Control]] - Defensive mechanism being neutralized by the smash
+- [[Positions/Butterfly Guard/Butterfly Hook Control]] - Defensive mechanism being neutralized by the smash
 
-- [[Side Control]] - Primary ending position after successful pass
+- [[Positions/Side Control]] - Primary ending position after successful pass
 
-- [[Butterfly Pass]] - Alternative passing approach to the same guard
+- [[Transitions/Butterfly Pass]] - Alternative passing approach to the same guard
 
-- [[Double Under Pass]] - Complementary pressure pass that chains well from double underhooks
+- [[Transitions/Double Under Pass]] - Complementary pressure pass that chains well from double underhooks
 
-- [[Half Guard]] - Common intermediate position when opponent partially defends
+- [[Positions/Half Guard]] - Common intermediate position when opponent partially defends
 
-- [[Long Step Pass]] - Alternative pressure passing option from similar engagement range
+- [[Transitions/Long Step Pass]] - Alternative pressure passing option from similar engagement range
 
-- [[Knee Slice Pass]] - Follow-up pass when opponent creates frames or recovers half guard
+- [[Transitions/Knee Slice Pass]] - Follow-up pass when opponent creates frames or recovers half guard
 
-- [[Body Lock Pass]] - Complementary pressure pass using body lock control
+- [[Transitions/Body Lock Pass]] - Complementary pressure pass using body lock control
 
-- [[Smash Pass]] - Related pressure passing concept sharing similar mechanics
+- [[Transitions/Smash Pass]] - Related pressure passing concept sharing similar mechanics
 
-- [[Arm Drag to Back]] - Primary counter the bottom player threatens during engagement
+- [[Transitions/Arm Drag to Back]] - Primary counter the bottom player threatens during engagement
 
-- [[Butterfly Sweep]] - Main offensive threat from bottom that the smash neutralizes
+- [[Transitions/Butterfly Sweep]] - Main offensive threat from bottom that the smash neutralizes
 
 
 </section>

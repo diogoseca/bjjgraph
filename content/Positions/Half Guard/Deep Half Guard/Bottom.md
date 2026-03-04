@@ -210,27 +210,27 @@ Deep Half Guard Bottom requires excellent hip mobility, core strength, and timin
 
 ## Available Escapes
 
-### [[Waiter Sweep]] (14% of attempts)
+### [[Transitions/Waiter Sweep]] (14% of attempts)
 
-### [[Old School Sweep]] (41% of attempts)
+### [[Transitions/Old School Sweep]] (41% of attempts)
 
-### [[Rolling Back Take]] (11% of attempts)
+### [[Transitions/Rolling Back Take]] (11% of attempts)
 
-### [[Electric Chair Submission]] (6% of attempts)
+### [[Submissions/Electric Chair Submission]] (6% of attempts)
 
-### [[Underhook Sweep from Half]] (9% of attempts)
+### [[Transitions/Underhook Sweep from Half]] (9% of attempts)
 
-### [[X-Guard Sweep]] (10% of attempts)
+### [[Transitions/X-Guard Sweep]] (10% of attempts)
 
-### [[Single Leg X Entry]] (6% of attempts)
+### [[Transitions/Single Leg X Entry]] (6% of attempts)
 
-### [[Deep Half Sweep]] (2% of attempts)
+### [[Transitions/Deep Half Sweep]] (2% of attempts)
 
-### [[Deep Half to X-Guard]] (0% of attempts)
+### [[Transitions/Deep Half to X-Guard]] (0% of attempts)
 
-### [[Electric Chair Entry from Deep Half]] (0% of attempts)
+### [[Transitions/Electric Chair Entry from Deep Half]] (0% of attempts)
 
-### [[Homer Simpson Sweep]] (1% of attempts)
+### [[Transitions/Homer Simpson Sweep]] (1% of attempts)
 
 
 
@@ -241,23 +241,23 @@ Deep Half Guard Bottom requires excellent hip mobility, core strength, and timin
 ## Decision Making from This Position
 
 **If opponent drives weight forward with heavy crossface pressure:**
-- Execute **[[Waiter Sweep]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Old School Sweep]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Waiter Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent tries to step over near leg to escape:**
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[X-Guard Sweep]]** → [[Standing Position]] (Probability: 55%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/Standing Position]] (Probability: 55%)
 
 
 **If opponent whizzers far arm to prevent sweeps:**
-- Execute **[[Electric Chair Submission]]** → [[Electric Chair]] (Probability: 50%)
-- Execute **[[Deep Half Entry]]** → [[Back Control]] (Probability: 45%)
+- Execute **[[Submissions/Electric Chair Submission]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 50%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 **If opponent pulls far leg back to escape underhook:**
-- Execute **[[X-Guard Sweep]]** → [[Standing Position]] (Probability: 65%)
-- Execute **[[Underhook Sweep from Half]]** → [[Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/Standing Position]] (Probability: 65%)
+- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Half Guard]] (Probability: 55%)
 
 
 
@@ -379,14 +379,14 @@ Start in deep half guard bottom position. Bottom player works to sweep or take b
 
 ## Related Positions and Techniques
 
-- **[[Deep Half Guard]]** - Sibling variant - opponent's perspective of same position
-- **[[Half Guard]]** - Parent position - traditional half guard before deep underhook
-- **[[X-Guard]]** - Common transition target when opponent defends deep half
-- **[[Back Control]]** - Primary advancement target via rolling back take
-- **[[Electric Chair]]** - Direct submission option from deep half guard
-- **[[Lockdown]]** - Alternative half guard bottom variation with different control
-- **[[Single Leg X-Guard]]** - Transition option when opponent pulls leg back
-- **[[Waiter Sweep]]** - Primary sweep option from deep half
+- **[[Positions/Half Guard/Deep Half Guard]]** - Sibling variant - opponent's perspective of same position
+- **[[Positions/Half Guard]]** - Parent position - traditional half guard before deep underhook
+- **[[Positions/X-Guard]]** - Common transition target when opponent defends deep half
+- **[[Positions/Back Control]]** - Primary advancement target via rolling back take
+- **[[Positions/Half Guard/Electric Chair]]** - Direct submission option from deep half guard
+- **[[Positions/Half Guard/Lockdown]]** - Alternative half guard bottom variation with different control
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Transition option when opponent pulls leg back
+- **[[Transitions/Waiter Sweep]]** - Primary sweep option from deep half
 
 
 </section>

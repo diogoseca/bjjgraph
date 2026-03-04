@@ -140,7 +140,7 @@ description: "Defend against the lockdown break from Z-Lock Half Guard bottom. R
 
 As the bottom player in Z-Lock Half Guard, defending the lockdown break is essential to maintaining your offensive platform. The top player will attempt to systematically dismantle your leg configuration through pressure, straightening, and hook stripping. Your defense relies on early recognition of break attempts, active re-gripping to maintain your hooks, and counter-attacking with sweeps when the top player's weight shifts during extraction. The most effective defense combines retaining your Z-Lock configuration with punishing every break attempt through immediate offensive threats that make the top player pay a positional price for addressing your legs rather than defending your sweeps.
 
-**Opponent's Starting Position**: [[Z-Lock Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Top)
 
 </section>
 
@@ -177,21 +177,21 @@ As the bottom player in Z-Lock Half Guard, defending the lockdown break is essen
 ### 1. Immediately re-establish lockdown hooks by pulling heels together and re-securing the figure-four on their ankle before extraction completes
 
 - **When to use**: As soon as you feel the tension in your lockdown decreasing from their straightening pressure, before the hooks fully separate
-- **Targets**: [[Z-Lock Half Guard]]
+- **Targets**: [[Positions/Half Guard/Z-Lock Half Guard]]
 - **If successful**: Top player remains trapped in Z-Lock and must restart their break attempt, having expended energy without positional progress
 - **Risk**: Focusing entirely on leg retention may allow top player to improve upper body control and crossface during the re-grip window
 
 ### 2. Initiate old school sweep by threading your underhook arm under their far leg while they commit weight to the leg extraction process
 
 - **When to use**: When top player commits weight forward to straighten their trapped leg, temporarily reducing their base and shoulder pressure on your upper body
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Top player is swept and you achieve top position with potential mount or side control finish
 - **Risk**: If the sweep fails, your body position change during the attempt may cost you the Z-Lock configuration entirely
 
 ### 3. Activate butterfly hook to elevate and off-balance the top player during their extraction attempt, converting their weight commitment into sweep leverage
 
 - **When to use**: When the top player has not yet neutralized your butterfly hook and shifts weight onto the trapped leg side during the break
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Butterfly elevation creates a sweep that puts you on top while the top player's extraction focus leaves them unable to defend the elevation
 - **Risk**: If elevation fails, the top player may use the hook exposure to pin it flat and accelerate the break sequence
 
@@ -203,11 +203,11 @@ As the bottom player in Z-Lock Half Guard, defending the lockdown break is essen
 
 ## Best-Case Outcomes for Defender
 
-### → [[Z-Lock Half Guard]]
+### → [[Positions/Half Guard/Z-Lock Half Guard]]
 
 Maintain active hip angle and immediately re-grip any stripped hooks before the top player can consolidate standard half guard. Keep upper body control active through underhook or collar grip to complement leg retention and prevent the pressure angles needed for successful extraction.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a counter-sweep when the top player commits weight to the leg extraction sequence. The old school sweep and butterfly elevation are most effective during the moment their base narrows and shoulder pressure decreases as they focus on stripping your hooks.
 

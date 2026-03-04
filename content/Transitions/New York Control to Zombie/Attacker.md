@@ -178,7 +178,7 @@ This transition exemplifies the systematic philosophy of rubber guard: positions
 
 Strategic timing distinguishes successful practitioners. The transition must occur during the extraction process, not after the opponent has fully escaped. Attempting to hold a failing New York creates stalling positions without offensive options, while transitioning too early abandons viable submission chains. The sweet spot is when overhook depth becomes insufficient but before the opponent achieves full posture recovery - typically a 1-2 second window that requires pattern recognition and immediate response.
 
-**From Position**: [[New York Control]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/New York Control]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategic timing distinguishes successful practitioners. The transition must occ
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Zombie]] | 60% |
-| Failure | [[New York Control]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Zombie]] | 60% |
+| Failure | [[Positions/Rubber Guard/New York Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategic timing distinguishes successful practitioners. The transition must occ
 
 ## Opponent Counters
 
-- **Opponent drives forward aggressively during transition to flatten you before lockdown establishes** (Effectiveness: High) - Your Response: Immediately establish near-side frame against their chest and shrimp your hips away. If lockdown cannot be completed, transition to standard half guard retention with knee shield → Leads to [[Half Guard]]
-- **Opponent creates distance by posting and backing away during your leg repositioning** (Effectiveness: Medium) - Your Response: Chase their retreating leg with your lockdown attempt. If they create too much distance, let them stand and recover to open guard with feet on hips rather than overextending → Leads to [[New York Control]]
-- **Opponent establishes crossface before you can fight for underhook** (Effectiveness: Medium) - Your Response: Maintain lockdown and protect your head position. Use lockdown stretches to disrupt their base while working to insert your frame. The crossface is less effective when your lockdown controls their leg → Leads to [[New York Control]]
-- **Opponent immediately attacks with knee slice pass as your legs transition** (Effectiveness: Medium) - Your Response: Accelerate lockdown establishment and use the lockdown tension to block their knee slide. Turn into them rather than away, making the knee slice line unavailable → Leads to [[Half Guard]]
+- **Opponent drives forward aggressively during transition to flatten you before lockdown establishes** (Effectiveness: High) - Your Response: Immediately establish near-side frame against their chest and shrimp your hips away. If lockdown cannot be completed, transition to standard half guard retention with knee shield → Leads to [[Positions/Half Guard]]
+- **Opponent creates distance by posting and backing away during your leg repositioning** (Effectiveness: Medium) - Your Response: Chase their retreating leg with your lockdown attempt. If they create too much distance, let them stand and recover to open guard with feet on hips rather than overextending → Leads to [[Positions/Rubber Guard/New York Control]]
+- **Opponent establishes crossface before you can fight for underhook** (Effectiveness: Medium) - Your Response: Maintain lockdown and protect your head position. Use lockdown stretches to disrupt their base while working to insert your frame. The crossface is less effective when your lockdown controls their leg → Leads to [[Positions/Rubber Guard/New York Control]]
+- **Opponent immediately attacks with knee slice pass as your legs transition** (Effectiveness: Medium) - Your Response: Accelerate lockdown establishment and use the lockdown tension to block their knee slide. Turn into them rather than away, making the knee slice line unavailable → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Complete guide to executing the Bodylock Pass from Seated Guard. S
 
 As the attacker executing the Bodylock Pass from Seated Guard, your objective is to close the distance gap that the seated guard player creates with their legs, establish an unbreakable body lock around their torso, and use that connection to drive them flat while systematically clearing their legs to achieve side control. The pass requires explosive entry, precise hand positioning for the lock, and relentless forward drive that eliminates all defensive space. Timing the entry when the opponent is transitioning grips or adjusting position dramatically increases success rates, as their defensive frames are momentarily compromised during these transitions.
 
-**From Position**: [[Seated Guard]] (Top)
+**From Position**: [[Positions/Seated Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Bodylock Pass from Seated Guard, your objective is
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Seated Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Seated Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Bodylock Pass from Seated Guard, your objective is
 
 ## Opponent Counters
 
-- **Opponent establishes strong forearm frame across neck and shoulder before lock is established** (Effectiveness: High) - Your Response: Change the angle of entry or redirect their framing arm by pulling it across their body with your grip fighting hand, then re-engage with the level change from a different angle → Leads to [[Seated Guard]]
-- **Opponent inserts butterfly hooks as you close distance and attempts to elevate and sweep** (Effectiveness: Medium) - Your Response: Keep hips low and heavy during entry, pinch knees together to neutralize hook leverage, and accelerate forward drive to flatten opponent before hooks generate lifting force → Leads to [[Half Guard]]
-- **Opponent executes technical standup during your approach before the level change reaches them** (Effectiveness: High) - Your Response: Time the entry to catch opponent during grip transitions or when both hands are posted behind them, and immediately chain with a snap-down to front headlock if they begin to stand → Leads to [[Seated Guard]]
-- **Opponent underhooks your arm during the clinch exchange and pummels for inside position** (Effectiveness: Medium) - Your Response: Drive shoulder pressure into their chest to prevent them from using the underhook offensively, then re-pummel your arm back inside before completing the lock around their torso → Leads to [[Seated Guard]]
+- **Opponent establishes strong forearm frame across neck and shoulder before lock is established** (Effectiveness: High) - Your Response: Change the angle of entry or redirect their framing arm by pulling it across their body with your grip fighting hand, then re-engage with the level change from a different angle → Leads to [[Positions/Seated Guard]]
+- **Opponent inserts butterfly hooks as you close distance and attempts to elevate and sweep** (Effectiveness: Medium) - Your Response: Keep hips low and heavy during entry, pinch knees together to neutralize hook leverage, and accelerate forward drive to flatten opponent before hooks generate lifting force → Leads to [[Positions/Half Guard]]
+- **Opponent executes technical standup during your approach before the level change reaches them** (Effectiveness: High) - Your Response: Time the entry to catch opponent during grip transitions or when both hands are posted behind them, and immediately chain with a snap-down to front headlock if they begin to stand → Leads to [[Positions/Seated Guard]]
+- **Opponent underhooks your arm during the clinch exchange and pummels for inside position** (Effectiveness: Medium) - Your Response: Drive shoulder pressure into their chest to prevent them from using the underhook offensively, then re-pummel your arm back inside before completing the lock around their torso → Leads to [[Positions/Seated Guard]]
 
 
 </section>

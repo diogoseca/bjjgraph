@@ -21,7 +21,7 @@ The sweep's power derives from the lapel functioning as a rigid lever rather tha
 
 Strategically, the worm guard sweep serves as the highest-reward option within the broader worm guard attacking system. While techniques like the collar drag or transitions to squid guard offer incremental positional advantages, this sweep provides a direct path to mount, the highest-scoring and most dominant top position in competition. The sweep threat also functions as a powerful deterrent against aggressive forward pressure, as opponents who commit weight forward become increasingly vulnerable to the elevation mechanics that power this technique. When chained with collar drags and guard transitions, the sweep creates a multi-directional threat system that forces the opponent to defend all planes simultaneously.
 
-**From Position**: [[Worm Guard]] (Bottom)
+**From Position**: [[Positions/Worm Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the worm guard sweep serves as the highest-reward option within t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Worm Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Worm Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Worm Guard Sweep occupies a central position within the lapel guard ecosyste
 ## Related Techniques
 
 
-- [[Worm Guard]] - Source position providing the lapel control framework for the sweep
+- [[Positions/Worm Guard]] - Source position providing the lapel control framework for the sweep
 
-- [[Lapel Guard]] - Parent guard category that worm guard belongs to
+- [[Positions/Lapel Guard]] - Parent guard category that worm guard belongs to
 
-- [[Mount]] - Primary target position achieved on successful sweep execution
+- [[Positions/Mount]] - Primary target position achieved on successful sweep execution
 
-- [[Open Guard]] - Fallback position when worm guard structure is stripped during sweep attempt
+- [[Positions/Open Guard]] - Fallback position when worm guard structure is stripped during sweep attempt
 
-- [[De La Riva Guard]] - Complementary guard system whose DLR hook enhances the sweep variant
+- [[Positions/De La Riva Guard]] - Complementary guard system whose DLR hook enhances the sweep variant
 
-- [[X-Guard]] - Alternative sweep position frequently transitioned to from worm guard
+- [[Positions/X-Guard]] - Alternative sweep position frequently transitioned to from worm guard
 
-- [[Collar Drag from Worm Guard]] - Chain attack that threatens forward while sweep threatens laterally
+- [[Transitions/Collar Drag from Worm Guard]] - Chain attack that threatens forward while sweep threatens laterally
 
-- [[Backstep from Worm Guard]] - Common defensive counter opponents use against worm guard sweep setups
+- [[Transitions/Backstep from Worm Guard]] - Common defensive counter opponents use against worm guard sweep setups
 
-- [[Lapel Strip from Worm Guard]] - Opponent's primary grip-breaking response to neutralize worm guard control
+- [[Transitions/Lapel Strip from Worm Guard]] - Opponent's primary grip-breaking response to neutralize worm guard control
 
-- [[Worm Guard Entry]] - Prerequisite technique establishing the guard position for this sweep
+- [[Transitions/Worm Guard Entry]] - Prerequisite technique establishing the guard position for this sweep
 
 
 </section>

@@ -178,7 +178,7 @@ Strategically, this escape prioritizes extracting yourself from immediate submis
 
 The technique requires precise timing and total commitment - half-hearted attempts fail and waste energy. Ideally executed when the opponent shifts weight to set up submissions, the explosive bridge catches them off-balance and creates the rotational momentum needed to free trapped arms and complete the turn to turtle. Understanding this escape's place in the defensive hierarchy is crucial: it represents a calculated retreat to a recoverable position rather than a reversal attempt.
 
-**From Position**: [[Mounted Crucifix]] (Bottom)
+**From Position**: [[Positions/Mount/Mounted Crucifix]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ The technique requires precise timing and total commitment - half-hearted attemp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 65% |
-| Failure | [[Mounted Crucifix]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Turtle]] | 65% |
+| Failure | [[Positions/Mount/Mounted Crucifix]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ The technique requires precise timing and total commitment - half-hearted attemp
 
 ## Opponent Counters
 
-- **Opponent drops weight forward and flattens hips to absorb bridge power** (Effectiveness: High) - Your Response: Wait for their attack setup which requires weight shift, or fake bridge one direction then explosively commit opposite direction → Leads to [[Mounted Crucifix]]
-- **Opponent maintains tight knee squeeze on trapped arms preventing extraction during bridge** (Effectiveness: High) - Your Response: Focus bridge direction toward their weaker control side and use rotational momentum to twist arm free rather than pulling directly → Leads to [[Mounted Crucifix]]
-- **Opponent transitions to back control as you turn to turtle** (Effectiveness: Medium) - Your Response: Accept back control with freed arms - this is still superior to mounted crucifix. Immediately work hand fighting and hip escape → Leads to [[Back Control]]
-- **Opponent attacks with choke during bridge transition when neck briefly exposed** (Effectiveness: Medium) - Your Response: Maintain chin tuck throughout movement and accelerate the turn - completing turtle faster than they can sink choke → Leads to [[Mounted Crucifix]]
+- **Opponent drops weight forward and flattens hips to absorb bridge power** (Effectiveness: High) - Your Response: Wait for their attack setup which requires weight shift, or fake bridge one direction then explosively commit opposite direction → Leads to [[Positions/Mount/Mounted Crucifix]]
+- **Opponent maintains tight knee squeeze on trapped arms preventing extraction during bridge** (Effectiveness: High) - Your Response: Focus bridge direction toward their weaker control side and use rotational momentum to twist arm free rather than pulling directly → Leads to [[Positions/Mount/Mounted Crucifix]]
+- **Opponent transitions to back control as you turn to turtle** (Effectiveness: Medium) - Your Response: Accept back control with freed arms - this is still superior to mounted crucifix. Immediately work hand fighting and hip escape → Leads to [[Positions/Back Control]]
+- **Opponent attacks with choke during bridge transition when neck briefly exposed** (Effectiveness: Medium) - Your Response: Maintain chin tuck throughout movement and accelerate the turn - completing turtle faster than they can sink choke → Leads to [[Positions/Mount/Mounted Crucifix]]
 
 
 </section>

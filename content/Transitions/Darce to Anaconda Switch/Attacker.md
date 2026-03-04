@@ -186,7 +186,7 @@ description: "Master the attacking mechanics of the Darce to Anaconda Switch. Le
 
 The Darce to Anaconda Switch from the attacker's perspective involves a calculated grip reconfiguration that maintains continuous submission threat while transitioning between two complementary arm-in choke systems. The attacker must recognize when the Darce angle has been neutralized by the opponent's defense and execute a smooth transition to the Anaconda configuration without surrendering positional control. Success requires maintaining heavy chest and shoulder pressure throughout the switch to prevent the opponent from capitalizing on the brief moment when neither grip is fully locked. The technique rewards patience and sensitivity to the opponent's defensive posture, as the optimal switch timing occurs when the opponent commits to Darce-specific defenses that inadvertently expose the Anaconda pathway. Mastery of this switch transforms the front headlock position from a single-submission threat into a continuous choking system.
 
-**From Position**: [[Darce Control]] (Top)
+**From Position**: [[Positions/Darce Control]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ The Darce to Anaconda Switch from the attacker's perspective involves a calculat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Anaconda Control]] | 55% |
-| Failure | [[Darce Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Anaconda Control]] | 55% |
+| Failure | [[Positions/Darce Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ The Darce to Anaconda Switch from the attacker's perspective involves a calculat
 
 ## Opponent Counters
 
-- **Opponent extracts trapped arm during the grip release window when neither choke is fully locked** (Effectiveness: High) - Your Response: If the arm begins extracting, immediately abandon the switch and secure front headlock control with a crossface or snap-down to prevent full posture recovery. Re-evaluate whether to re-enter Darce or attempt a different attack. → Leads to [[Half Guard]]
-- **Opponent tucks chin deep and blocks the re-threading path by pressing shoulder to jaw, preventing Anaconda arm from circling the neck** (Effectiveness: Medium) - Your Response: Drive the opponent's head down with your free hand to open the threading channel between their chin and shoulder. If the path remains blocked, maintain chest pressure and settle for Darce control until a better switching opportunity arises. → Leads to [[Darce Control]]
-- **Opponent explosively bridges and hip escapes during the momentary pressure reduction of the grip transition** (Effectiveness: High) - Your Response: Ride the bridge by sprawling your hips back and maintaining chest connection. If they create significant space, immediately secure whichever grip is closer to completion rather than continuing the switch. Prioritize maintaining any form of head control over completing the reconfiguration. → Leads to [[Half Guard]]
-- **Opponent turns into you during the switch, attempting to establish inside position and recover guard** (Effectiveness: Medium) - Your Response: Use their turning momentum to accelerate the Anaconda threading by directing your arm around the front of their neck as they rotate toward you. Their turn actually opens the Anaconda angle and can make the switch easier if you time the re-thread with their rotation. → Leads to [[Darce Control]]
+- **Opponent extracts trapped arm during the grip release window when neither choke is fully locked** (Effectiveness: High) - Your Response: If the arm begins extracting, immediately abandon the switch and secure front headlock control with a crossface or snap-down to prevent full posture recovery. Re-evaluate whether to re-enter Darce or attempt a different attack. → Leads to [[Positions/Half Guard]]
+- **Opponent tucks chin deep and blocks the re-threading path by pressing shoulder to jaw, preventing Anaconda arm from circling the neck** (Effectiveness: Medium) - Your Response: Drive the opponent's head down with your free hand to open the threading channel between their chin and shoulder. If the path remains blocked, maintain chest pressure and settle for Darce control until a better switching opportunity arises. → Leads to [[Positions/Darce Control]]
+- **Opponent explosively bridges and hip escapes during the momentary pressure reduction of the grip transition** (Effectiveness: High) - Your Response: Ride the bridge by sprawling your hips back and maintaining chest connection. If they create significant space, immediately secure whichever grip is closer to completion rather than continuing the switch. Prioritize maintaining any form of head control over completing the reconfiguration. → Leads to [[Positions/Half Guard]]
+- **Opponent turns into you during the switch, attempting to establish inside position and recover guard** (Effectiveness: Medium) - Your Response: Use their turning momentum to accelerate the Anaconda threading by directing your arm around the front of their neck as they rotate toward you. Their turn actually opens the Anaconda angle and can make the switch easier if you time the re-thread with their rotation. → Leads to [[Positions/Darce Control]]
 
 
 </section>

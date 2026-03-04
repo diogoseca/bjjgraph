@@ -21,7 +21,7 @@ The mechanical change involves reconfiguring your leg position from parallel ash
 
 Strategically, this transition serves as an essential response when opponents successfully defend Inside Ashi attacks by rotating their knee line away from danger. Rather than forcing suboptimal attacks, advanced practitioners recognize when the opponent's defensive movement actually creates better opportunities from Cross Ashi. The ability to fluidly transition between ashi configurations based on opponent reactions is characteristic of high-level leg lock systems and demonstrates sophisticated positional awareness.
 
-**From Position**: [[Inside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition serves as an essential response when opponents su
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Cross Ashi-Garami]] | 60% |
-| Failure | [[Inside Ashi-Garami]] | 30% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Ashi Garami/Cross Ashi-Garami]] | 60% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Inside Ashi-Garami to Cross Ashi transition is an essential component of com
 ## Related Techniques
 
 
-- [[Inside Ashi-Garami]] - Starting position - foundational leg entanglement where transition originates
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Starting position - foundational leg entanglement where transition originates
 
-- [[Cross Ashi-Garami]] - Target position - crossed leg configuration achieved after successful transition
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Target position - crossed leg configuration achieved after successful transition
 
-- [[Saddle]] - Common advancement - frequently combined with transition for higher control
+- [[Positions/Ashi Garami/Saddle]] - Common advancement - frequently combined with transition for higher control
 
-- [[Honey Hole]] - Alternative name for Saddle - primary advancement target from Cross Ashi
+- [[Positions/Ashi Garami/Honey Hole]] - Alternative name for Saddle - primary advancement target from Cross Ashi
 
-- [[Heel Hook]] - Primary submission threat - main finishing option from Cross Ashi configuration
+- [[Transitions/Heel Hook]] - Primary submission threat - main finishing option from Cross Ashi configuration
 
-- [[Inside Heel Hook]] - Submission option - available after successful transition completion
+- [[Submissions/Inside Heel Hook]] - Submission option - available after successful transition completion
 
-- [[Outside Ashi-Garami]] - Related position - similar crossed entanglement mechanics
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related position - similar crossed entanglement mechanics
 
-- [[Saddle Entry from Top]] - Combined technique - often chained with Cross Ashi transition
+- [[Transitions/Saddle Entry from Top]] - Combined technique - often chained with Cross Ashi transition
 
-- [[50-50 Guard]] - Recovery position - may result from opponent's counter during transition
+- [[Positions/Ashi Garami/50-50 Guard]] - Recovery position - may result from opponent's counter during transition
 
-- [[Leg Entanglement]] - Fundamental concept - underlying principle governing all ashi transitions
+- [[Positions/Leg Entanglement]] - Fundamental concept - underlying principle governing all ashi transitions
 
 
 </section>

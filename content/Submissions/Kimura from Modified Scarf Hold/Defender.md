@@ -150,7 +150,7 @@ description: "Complete defense guide for the Kimura from Modified Scarf Hold. Re
 
 Defending the Kimura from Modified Scarf Hold demands early recognition and immediate preventive action. The defender's primary challenge is that the modified scarf hold already compromises the near arm, making the transition to kimura grip dangerously seamless for the attacker. Successful defense requires keeping the elbow glued to the ribs, preventing the figure-four grip from being established, and exploiting the attacker's positional adjustments during the submission attempt to create escape opportunities. The window for effective defense narrows rapidly once the attacker secures the figure-four grip—early intervention is far more effective than late-stage escape attempts. Understanding the progression from pin to submission allows the defender to identify and shut down each phase before it develops into the next.
 
-**Opponent's Starting Position**: [[Modified Scarf Hold]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
 
 
 </section>
@@ -188,21 +188,21 @@ Defending the Kimura from Modified Scarf Hold demands early recognition and imme
 ### 1. Clasp both hands together immediately to prevent figure-four isolation
 
 - **When to use**: As soon as you feel the opponent threading their arm under your near-side tricep, before the figure-four grip is fully established
-- **Targets**: [[Modified Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Modified Scarf Hold]]
 - **If successful**: Prevents the kimura grip from being secured, forcing the attacker to re-attempt arm isolation or abandon the submission
 - **Risk**: If the attacker breaks your grip, your arm is further from your body and more vulnerable to immediate re-attack
 
 ### 2. Anchor near arm to body by gripping own lapel, belt, or far-side hip
 
 - **When to use**: Preemptive defense when you sense the opponent transitioning from control to submission, before they begin threading
-- **Targets**: [[Modified Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Modified Scarf Hold]]
 - **If successful**: Opponent cannot isolate your arm for the figure-four, and your defensive anchor provides structural resistance they must overcome
 - **Risk**: Limits your own offensive and escape options while your arm is committed to the anchor position
 
 ### 3. Bridge and turn into the attacker during their grip transition
 
 - **When to use**: When the opponent releases head control to establish the kimura grip, creating a brief window where chest pressure and base are reduced
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover half guard or create enough hip space to insert your knee and begin systematic guard recovery
 - **Risk**: If timed poorly or the attacker maintains the figure-four during your bridge, you may give them a better angle to finish
 
@@ -226,7 +226,7 @@ Defending the Kimura from Modified Scarf Hold demands early recognition and imme
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a bridge during the attacker's transition from pin control to kimura grip, exploit the momentary reduction in chest pressure to create hip space and insert your knee for half guard recovery
 

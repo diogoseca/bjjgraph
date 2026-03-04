@@ -21,7 +21,7 @@ The technique's effectiveness from headquarters stems from the existing leg cont
 
 Strategically, the leg drag from headquarters represents a critical decision point in the systematic passing framework. When the opponent defends the knee cut by turning toward the trapped leg or straightening their leg to create distance, the passer shifts to the leg drag as a complementary attack that punishes the defensive adjustment. This creates the passing dilemma that makes headquarters-based systems so effective at the highest levels: defending one pass opens vulnerability to another, forcing the bottom player into increasingly compromised defensive positions until the pass succeeds.
 
-**From Position**: [[Headquarters Position]] (Top)
+**From Position**: [[Positions/Headquarters Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the leg drag from headquarters represents a critical decision poi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Leg Drag Control]] | 55% |
-| Failure | [[Headquarters Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Leg Drag Control]] | 55% |
+| Failure | [[Positions/Headquarters Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The leg drag from headquarters occupies a central position in the modern systema
 ## Related Techniques
 
 
-- [[Headquarters Position]] - Starting position from which the leg drag is initiated using existing leg control and base structure
+- [[Positions/Headquarters Position]] - Starting position from which the leg drag is initiated using existing leg control and base structure
 
-- [[Leg Drag Control]] - Primary target position on successful completion of the leg drag pass
+- [[Positions/Leg Drag Control]] - Primary target position on successful completion of the leg drag pass
 
-- [[Half Guard]] - Counter outcome position where opponent recovers guard during failed drag attempt
+- [[Positions/Half Guard]] - Counter outcome position where opponent recovers guard during failed drag attempt
 
-- [[Knee Cut from Headquarters]] - Complementary pass from headquarters that works when opponent turns inward, creating leg drag opportunities when defended
+- [[Transitions/Knee Cut from Headquarters]] - Complementary pass from headquarters that works when opponent turns inward, creating leg drag opportunities when defended
 
-- [[Side Control]] - Common consolidation position reached through leg drag control after successful pass
+- [[Positions/Side Control]] - Common consolidation position reached through leg drag control after successful pass
 
-- [[Back Control]] - High-percentage follow-up when opponent turns away during leg drag consolidation
+- [[Positions/Back Control]] - High-percentage follow-up when opponent turns away during leg drag consolidation
 
-- [[De La Riva Guard]] - Common guard configuration that headquarters is established from, often leading to leg drag entries
+- [[Positions/De La Riva Guard]] - Common guard configuration that headquarters is established from, often leading to leg drag entries
 
-- [[Combat Base]] - Preceding positional stage that leads to headquarters establishment before leg drag attempts
+- [[Positions/Combat Base]] - Preceding positional stage that leads to headquarters establishment before leg drag attempts
 
-- [[Back Step Pass]] - Alternative passing direction from headquarters when opponent defends both knee cut and leg drag
+- [[Transitions/Back Step Pass]] - Alternative passing direction from headquarters when opponent defends both knee cut and leg drag
 
-- [[Body Lock Pass]] - Alternative passing method from headquarters that addresses different defensive reactions
+- [[Transitions/Body Lock Pass]] - Alternative passing method from headquarters that addresses different defensive reactions
 
-- [[Leg Drag from DLR]] - Related leg drag entry from a different starting guard that shares similar finishing mechanics
+- [[Transitions/Leg Drag from DLR]] - Related leg drag entry from a different starting guard that shares similar finishing mechanics
 
 
 </section>

@@ -19,7 +19,7 @@ The Arm Triangle from Turtle is a powerful submission attack that exploits the d
 
 The arm triangle from turtle has become increasingly popular in modern no-gi competition, where the absence of gi grips makes traditional collar chokes less accessible. The attack exploits the fundamental vulnerability of the turtle position: the defender's arms must either protect the neck or maintain base, but cannot do both simultaneously. By applying systematic pressure that forces the defender to choose between protecting the neck and maintaining structural integrity, the attacker creates the separation needed for arm isolation. Mastery of this technique provides a high-percentage finishing option from one of the most common defensive positions in Brazilian Jiu-Jitsu, and integrates naturally with darce, anaconda, and back take chains from turtle top.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -31,9 +31,9 @@ The arm triangle from turtle has become increasingly popular in modern no-gi com
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Front Headlock]] | 25% |
-| Failure | [[Half Guard]] | 10% |
-| Counter | [[Closed Guard]] | 10% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Failure | [[Positions/Half Guard]] | 10% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -197,27 +197,27 @@ The arm triangle from turtle represents a crucial component of the top turtle at
 ## Related Techniques
 
 
-- [[Turtle]] - Starting position for this attack
+- [[Positions/Turtle]] - Starting position for this attack
 
-- [[Front Headlock]] - Control position during setup and failure outcome
+- [[Positions/Front Headlock]] - Control position during setup and failure outcome
 
-- [[Arm Triangle]] - Parent submission system
+- [[Transitions/Arm Triangle]] - Parent submission system
 
-- [[Anaconda from Turtle]] - Alternative front headlock attack from same position
+- [[Transitions/Anaconda from Turtle]] - Alternative front headlock attack from same position
 
-- [[Darce from Turtle]] - Alternative front headlock attack from same position
+- [[Transitions/Darce from Turtle]] - Alternative front headlock attack from same position
 
-- [[Front Headlock to Guillotine]] - Chain attack when opponent turns in during setup
+- [[Transitions/Front Headlock to Guillotine]] - Chain attack when opponent turns in during setup
 
-- [[Crucifix from Turtle]] - Alternative attack when opponent extends posting arm
+- [[Transitions/Crucifix from Turtle]] - Alternative attack when opponent extends posting arm
 
-- [[North-South Choke]] - Similar perpendicular finishing mechanics
+- [[Transitions/North-South Choke]] - Similar perpendicular finishing mechanics
 
-- [[Darce Choke]] - Related front headlock submission system
+- [[Transitions/Darce Choke]] - Related front headlock submission system
 
-- [[Arm Triangle from Top]] - Related arm triangle entry from side control
+- [[Transitions/Arm Triangle from Top]] - Related arm triangle entry from side control
 
-- [[Back Take from Top]] - Alternative when arm triangle is defended with tight elbows
+- [[Transitions/Back Take from Top]] - Alternative when arm triangle is defended with tight elbows
 
 
 </section>

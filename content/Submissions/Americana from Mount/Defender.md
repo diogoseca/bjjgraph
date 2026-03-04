@@ -160,7 +160,7 @@ The defender's primary strategy centers on prevention through proper arm positio
 
 From a strategic perspective, the most effective americana defense creates offensive opportunities for the defender. Bridging into the attacker during the setup phase can create the space needed for guard recovery. Straightening the trapped arm, while seemingly defensive, transitions the exchange into an armbar threat that the attacker must respect. Understanding these defensive-to-offensive transitions transforms americana defense from pure survival into an active part of your mount escape system.
 
-**Opponent's Starting Position**: [[Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 
 </section>
@@ -200,28 +200,28 @@ From a strategic perspective, the most effective americana defense creates offen
 ### 1. Grip fight and wrist extraction - use your free hand to strip the attacker's grip on your wrist by attacking the thumb side, then immediately retract your arm to your chest
 
 - **When to use**: Early stage defense when the attacker has captured your wrist but has not yet established the figure-four grip
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Returns you to standard mount bottom with both arms free to defend and attempt escapes
 - **Risk**: If grip fight fails, you've committed your free hand and may lose time establishing other defenses
 
 ### 2. Bridge and roll toward the trapped arm side - explosively bridge into the attacker while trapping their posting arm and foot on the americana side
 
 - **When to use**: When the attacker commits weight forward to pin your shoulder, creating a narrow base vulnerable to bridge reversal
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Reverses the position entirely, putting you in top position inside closed guard or in scramble
 - **Risk**: If bridge fails, you expend significant energy and may end up in a worse position with the americana still locked
 
 ### 3. Straighten the trapped arm completely to remove the 90-degree elbow angle required for the americana finish
 
 - **When to use**: When the figure-four grip is established but finishing pressure has not yet been applied - this is a late-stage emergency defense
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Neutralizes the americana threat, though it exposes you to armbar transition if the attacker is aware of the counter
 - **Risk**: Straightening the arm directly opens the mounted armbar transition - only use this if you are prepared to defend the armbar
 
 ### 4. Grab your own lapel, belt, or clasp hands together to create a connection point that prevents the attacker from completing the wrist isolation
 
 - **When to use**: When the attacker has partial grip control and is attempting to walk your arm to the mat - this buys time for a bridge or partner grip break
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Stalls the submission and forces the attacker to spend time breaking your defensive grip, creating transition opportunities
 - **Risk**: Only delays the submission rather than escaping it - you must use the time gained to execute a bridge or positional escape
 
@@ -244,11 +244,11 @@ From a strategic perspective, the most effective americana defense creates offen
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time a powerful bridge toward the trapped arm side when the attacker shifts weight forward to pin your shoulder. Trap their posting arm and same-side foot, then commit fully to the bridge and roll to reverse position into their closed guard.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Successfully strip the wrist grip early by attacking the thumb side with your free hand, then immediately retract both arms to defensive position against your chest. This returns you to standard mount bottom where all escape options remain available.
 

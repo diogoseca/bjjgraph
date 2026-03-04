@@ -186,7 +186,7 @@ description: "Master the attacker perspective for RDLR to Crab Ride in BJJ. Step
 
 Executing RDLR to Crab Ride requires precise coordination of hip elevation, rotational mechanics, and immediate hook insertion upon arrival at the target position. The attacker uses the Reverse De La Riva hook as a fulcrum to generate rotational momentum needed to thread underneath the opponent, arriving perpendicular to their spine in the crab ride position. Unlike direct berimbolo entries that commit to full back rotation, this transition provides a controlled stopping point at crab ride where the attacker can consolidate control before advancing to back takes or submissions. Success depends on reading the opponent's weight distribution to identify the optimal inversion window, timing the entry precisely when their base is compromised, and transitioning smoothly from guard player to dominant crab ride controller without losing connection during the inversion.
 
-**From Position**: [[Reverse De La Riva Guard]] (Bottom)
+**From Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing RDLR to Crab Ride requires precise coordination of hip elevation, rota
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Crab Ride]] | 55% |
-| Failure | [[Reverse De La Riva Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Crab Ride]] | 55% |
+| Failure | [[Positions/De La Riva Guard/Reverse De La Riva Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing RDLR to Crab Ride requires precise coordination of hip elevation, rota
 
 ## Opponent Counters
 
-- **Sprawl and drive hips to the mat to flatten the RDLR player and eliminate inversion space** (Effectiveness: High) - Your Response: Abort the inversion early and return to RDLR guard retention. Reattempt when the opponent relaxes their sprawl pressure, or redirect into a waiter sweep that capitalizes on their forward weight commitment. → Leads to [[Reverse De La Riva Guard]]
-- **Strip the ankle grip using wrist control or two-on-one break before inversion begins** (Effectiveness: High) - Your Response: Immediately transition to alternative RDLR attacks like Kiss of the Dragon or X-Guard entry before losing guard structure entirely. Re-establish the ankle grip only if the opponent gives you the opening. → Leads to [[Reverse De La Riva Guard]]
-- **Backstep away from the RDLR hook to disengage and create distance** (Effectiveness: Medium) - Your Response: Follow the backstep by converting to Single Leg X-Guard or X-Guard entry using their retreating momentum. Their backstep often opens the space needed for these guard transitions. → Leads to [[Open Guard]]
-- **Crossface to block shoulder rotation and prevent the inversion from initiating** (Effectiveness: High) - Your Response: Use the crossface pressure to load their weight forward, converting their defensive pressure into a waiter sweep opportunity. Their forward commitment while crossfacing feeds directly into your sweeping mechanics. → Leads to [[Reverse De La Riva Guard]]
+- **Sprawl and drive hips to the mat to flatten the RDLR player and eliminate inversion space** (Effectiveness: High) - Your Response: Abort the inversion early and return to RDLR guard retention. Reattempt when the opponent relaxes their sprawl pressure, or redirect into a waiter sweep that capitalizes on their forward weight commitment. → Leads to [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
+- **Strip the ankle grip using wrist control or two-on-one break before inversion begins** (Effectiveness: High) - Your Response: Immediately transition to alternative RDLR attacks like Kiss of the Dragon or X-Guard entry before losing guard structure entirely. Re-establish the ankle grip only if the opponent gives you the opening. → Leads to [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
+- **Backstep away from the RDLR hook to disengage and create distance** (Effectiveness: Medium) - Your Response: Follow the backstep by converting to Single Leg X-Guard or X-Guard entry using their retreating momentum. Their backstep often opens the space needed for these guard transitions. → Leads to [[Positions/Open Guard]]
+- **Crossface to block shoulder rotation and prevent the inversion from initiating** (Effectiveness: High) - Your Response: Use the crossface pressure to load their weight forward, converting their defensive pressure into a waiter sweep opportunity. Their forward commitment while crossfacing feeds directly into your sweeping mechanics. → Leads to [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 
 
 </section>

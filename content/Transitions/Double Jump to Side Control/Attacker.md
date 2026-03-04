@@ -186,7 +186,7 @@ description: "Learn to execute the Double Jump to Side Control transition. Step-
 
 Executing the Double Jump to Side Control transition requires strategic awareness to recognize when back-take attempts are being effectively neutralized by tight turtle defense, and technical precision to extract bilateral leg hooks while maintaining continuous upper body control throughout the lateral transition. Unlike the mount transition which targets a flattened opponent through a step-over, the side control transition involves walking the hips laterally around an active turtle defender to achieve perpendicular alignment. The key challenge lies in the transition window itself—the moment between removing hooks and establishing side control grips creates a brief vulnerability that the bottom player will attempt to exploit through sit-outs, guard recovery, or granby rolls. Success depends on maintaining constant crossface pressure and chest-to-back connection while systematically repositioning from behind the opponent to beside them, ensuring no gap in control allows defensive scrambles.
 
-**From Position**: [[Double Jump]] (Top)
+**From Position**: [[Positions/Double Jump]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Double Jump to Side Control transition requires strategic awarenes
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Double Jump]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Double Jump]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Double Jump to Side Control transition requires strategic awarenes
 
 ## Opponent Counters
 
-- **Opponent executes sit-out reversal during hook extraction, exploiting momentary loss of bilateral hip control to scramble to top position** (Effectiveness: High) - Your Response: If opponent initiates sit-out as you extract the far hook, immediately abandon the side control transition and redirect to crab ride or back take by following their sitting motion with your remaining hook and upper body control → Leads to [[Half Guard]]
-- **Opponent retucks into tight turtle shell and reestablishes defensive base before hooks can be fully extracted and side control achieved** (Effectiveness: Medium) - Your Response: Re-insert the extracted hook to return to full Double Jump position and pursue alternative attacks such as back take or truck entry, or attempt the side control transition from a different angle → Leads to [[Double Jump]]
-- **Opponent performs granby roll toward your transition direction, using your lateral momentum shift to invert and recover guard position** (Effectiveness: Medium) - Your Response: When you feel the opponent initiating a roll, post your lead hand on the mat and redirect your weight sprawling back rather than following the roll, maintaining chest pressure to prevent the inversion from completing → Leads to [[Half Guard]]
-- **Opponent inserts knee frame between bodies during the lateral hip walk phase, preventing perpendicular alignment and forcing half guard engagement** (Effectiveness: High) - Your Response: Immediately transition to a knee slice or smash pass sequence to complete the pass through half guard rather than fighting to remove the knee and return to the side control transition → Leads to [[Double Jump]]
+- **Opponent executes sit-out reversal during hook extraction, exploiting momentary loss of bilateral hip control to scramble to top position** (Effectiveness: High) - Your Response: If opponent initiates sit-out as you extract the far hook, immediately abandon the side control transition and redirect to crab ride or back take by following their sitting motion with your remaining hook and upper body control → Leads to [[Positions/Half Guard]]
+- **Opponent retucks into tight turtle shell and reestablishes defensive base before hooks can be fully extracted and side control achieved** (Effectiveness: Medium) - Your Response: Re-insert the extracted hook to return to full Double Jump position and pursue alternative attacks such as back take or truck entry, or attempt the side control transition from a different angle → Leads to [[Positions/Double Jump]]
+- **Opponent performs granby roll toward your transition direction, using your lateral momentum shift to invert and recover guard position** (Effectiveness: Medium) - Your Response: When you feel the opponent initiating a roll, post your lead hand on the mat and redirect your weight sprawling back rather than following the roll, maintaining chest pressure to prevent the inversion from completing → Leads to [[Positions/Half Guard]]
+- **Opponent inserts knee frame between bodies during the lateral hip walk phase, preventing perpendicular alignment and forcing half guard engagement** (Effectiveness: High) - Your Response: Immediately transition to a knee slice or smash pass sequence to complete the pass through half guard rather than fighting to remove the knee and return to the side control transition → Leads to [[Positions/Double Jump]]
 
 
 </section>

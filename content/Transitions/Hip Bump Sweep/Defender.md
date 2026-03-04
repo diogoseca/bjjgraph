@@ -150,7 +150,7 @@ The critical defensive window occurs between the moment the bottom player opens 
 
 Advanced defense against the Hip Bump requires understanding the entire attack triangle rather than just the sweep itself. Posting your hand stops the sweep but opens the Kimura. Pulling your arm back avoids the Kimura but feeds the Guillotine. The highest-percentage defense avoids entering this triangle entirely by maintaining posture so strong that the bottom player cannot generate sufficient angle or momentum for the initial bump. When posture is compromised and the sweep is initiated, the defender must choose their counter carefully, understanding which chain attack each defensive response invites and preparing accordingly.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -187,28 +187,28 @@ Advanced defense against the Hip Bump requires understanding the entire attack t
 ### 1. Drive hips back and re-establish strong upright posture before the bump reaches full power
 
 - **When to use**: Early recognition - as soon as you feel the bottom player open their guard and begin angling their hips, before the explosive bump is initiated
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You return to closed guard top with strong posture, denying the sweep entirely and forcing the bottom player to re-establish their setup from scratch
 - **Risk**: If you react too slowly and the bump has already committed, driving hips back may not generate enough counter-force and you lose position anyway
 
 ### 2. Post your free hand on the mat at a 45-degree angle behind you to create a tripod base against the sweep direction
 
 - **When to use**: Mid-sweep - when the hip bump has been initiated and you cannot recover posture in time, but you still have one free arm to post with
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: The posted hand absorbs the sweep momentum and prevents you from being toppled, allowing you to settle back into closed guard top position
 - **Risk**: The posted arm is now in perfect Kimura position - the attacker will likely immediately transition to Kimura on your posting arm, so you must be ready to defend the follow-up
 
 ### 3. Sprawl hips backward explosively while driving chest forward and down to flatten the bottom player
 
 - **When to use**: When you feel the guard open and the angle being created but before the explosive bump, especially effective against slower or more telegraphed attempts
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Your sprawl denies the bumping angle entirely and your forward chest pressure may create a guard passing opportunity as their guard is now open
 - **Risk**: If the bottom player reads the sprawl, they can use your forward momentum to set up a Guillotine or switch to a different sweep that exploits your lowered posture
 
 ### 4. Strip the controlling grip on your wrist by rotating your forearm and pulling sharply through their thumb
 
 - **When to use**: Preventive defense - before the sweep is initiated, when you recognize the bottom player has secured the critical wrist control that enables the Hip Bump
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Without arm control, the bottom player cannot prevent you from posting and the sweep becomes very low percentage, forcing them to re-establish grips
 - **Risk**: Grip fighting temporarily occupies your hands and may create openings for other attacks if the bottom player transitions to Triangle or Armbar setups
 
@@ -220,11 +220,11 @@ Advanced defense against the Hip Bump requires understanding the entire attack t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Maintain strong posture throughout by keeping head over hips, fighting grips immediately when they attempt to secure your wrist, and driving hips backward the moment you feel the guard open. Prevention through posture is the highest-percentage defense that avoids entering the chain attack triangle entirely.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the bottom player opens their guard to attempt the sweep, use the opening to initiate your own guard passing sequence. Sprawl your hips back, control their legs before they can re-close guard, and begin working toward a passing position. Their failed sweep attempt gives you the guard opening you needed.
 

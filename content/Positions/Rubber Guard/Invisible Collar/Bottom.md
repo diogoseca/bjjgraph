@@ -210,17 +210,17 @@ Successful escape from invisible collar bottom involves systematic approach to n
 
 ## Available Escapes
 
-### [[Hand Fighting to Remove Collar Grip]] (22% of attempts)
+### [[Transitions/Hand Fighting to Remove Collar Grip]] (22% of attempts)
 
-### [[Hip Escape to Guard]] (18% of attempts)
+### [[Transitions/Hip Escape to Guard]] (18% of attempts)
 
-### [[Elbow Escape to Remove Hooks]] (20% of attempts)
+### [[Transitions/Elbow Escape to Remove Hooks]] (20% of attempts)
 
-### [[Rolling Escape to Guard]] (13% of attempts)
+### [[Transitions/Rolling Escape to Guard]] (13% of attempts)
 
-### [[Standing Escape]] (11% of attempts)
+### [[Transitions/Standing Escape]] (11% of attempts)
 
-### [[Granby Roll to Guard]] (16% of attempts)
+### [[Transitions/Granby Roll to Guard]] (16% of attempts)
 
 
 
@@ -231,18 +231,18 @@ Successful escape from invisible collar bottom involves systematic approach to n
 ## Decision Making from This Position
 
 **If collar grip is shallow and not yet dangerous:**
-- Execute **[[Aggressive Hand Fighting to Remove Grip]]** → [[Back Control]] (Probability: 40%)
-- Execute **[[Focus on Removing Hooks First]]** → [[Turtle]] (Probability: 45%)
+- Execute **[[Aggressive Hand Fighting to Remove Grip]]** → [[Positions/Back Control]] (Probability: 40%)
+- Execute **[[Focus on Removing Hooks First]]** → [[Positions/Turtle]] (Probability: 45%)
 
 
 **If collar grip is deep and immediate threat exists:**
-- Execute **[[Emergency Chin Tuck and Neck Defense]]** → [[Back Control]] (Probability: 50%)
-- Execute **[[Explosive Hip Escape Attempt]]** → [[Half Guard]] (Probability: 35%)
+- Execute **[[Emergency Chin Tuck and Neck Defense]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Explosive Hip Escape Attempt]]** → [[Positions/Half Guard]] (Probability: 35%)
 
 
 **If one hook is removed but collar grip remains:**
-- Execute **[[Turn into Opponent to Remove Second Hook]]** → [[Half Guard]] (Probability: 48%)
-- Execute **[[Stand Up Escape]]** → [[Clinch]] (Probability: 30%)
+- Execute **[[Turn into Opponent to Remove Second Hook]]** → [[Positions/Half Guard]] (Probability: 48%)
+- Execute **[[Stand Up Escape]]** → [[Positions/Clinch]] (Probability: 30%)
 
 
 
@@ -364,11 +364,11 @@ Start with invisible collar fully established and tight. Defender has 90 seconds
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Position being defended against
-- **[[Half Guard]]** - Common escape target position
-- **[[Turtle]]** - Transitional escape position
-- **[[Rear Naked Choke]]** - Alternative submission opponent may use
-- **[[Open Guard]]** - Recovery position after successful escape
+- **[[Positions/Back Control]]** - Position being defended against
+- **[[Positions/Half Guard]]** - Common escape target position
+- **[[Positions/Turtle]]** - Transitional escape position
+- **[[Transitions/Rear Naked Choke]]** - Alternative submission opponent may use
+- **[[Positions/Open Guard]]** - Recovery position after successful escape
 
 
 </section>

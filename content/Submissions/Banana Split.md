@@ -26,8 +26,8 @@ The Banana Split often works in combination with other attacks from half guard a
 **Category**: Compression
 **Type**: Groin Stretch
 **Target Area**: Hip adductors, groin, and lower back
-**Starting Position**: [[Deep Half Guard]]
-**From Position**: [[Truck]] (Top)
+**Starting Position**: [[Positions/Half Guard/Deep Half Guard]]
+**From Position**: [[Positions/Twister Control/Truck]] (Top)
 **Success Rate**: 48%
 
 </section>
@@ -82,8 +82,8 @@ The Banana Split often works in combination with other attacks from half guard a
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 48% |
-| Failure | [[Deep Half Guard]] | 30% |
-| Counter | [[Back Control]] | 22% |
+| Failure | [[Positions/Half Guard/Deep Half Guard]] | 30% |
+| Counter | [[Positions/Back Control]] | 22% |
 
 
 </section>
@@ -234,13 +234,13 @@ The Banana Split often works in combination with other attacks from half guard a
 
 ## From Which Positions?
 
-- [[Deep Half Guard]]
-- [[Lockdown]]
-- [[Electric Chair]]
-- [[Half Guard]]
-- [[Turtle]]
-- [[Truck]]
-- [[Quarter Guard]]
+- [[Positions/Half Guard/Deep Half Guard]]
+- [[Positions/Half Guard/Lockdown]]
+- [[Positions/Half Guard/Electric Chair]]
+- [[Positions/Half Guard]]
+- [[Positions/Turtle]]
+- [[Positions/Twister Control/Truck]]
+- [[Positions/Quarter Guard]]
 
 
 </section>
@@ -249,15 +249,15 @@ The Banana Split often works in combination with other attacks from half guard a
 
 ## Related Submissions
 
-- [[Electric Chair Submission]]
-- [[Calf Slicer from Truck]]
-- [[Twister]]
-- [[Crotch Ripper]]
-- [[Boston Crab]]
-- [[Estima Lock]]
-- [[Achilles Lock]]
-- [[Toe Hold]]
-- [[Kneebar]]
+- [[Submissions/Electric Chair Submission]]
+- [[Submissions/Calf Slicer from Truck]]
+- [[Submissions/Twister]]
+- [[Submissions/Crotch Ripper]]
+- [[Submissions/Boston Crab]]
+- [[Positions/Estima Lock]]
+- [[Submissions/Achilles Lock]]
+- [[Transitions/Toe Hold]]
+- [[Transitions/Kneebar]]
 
 
 </section>
@@ -266,14 +266,14 @@ The Banana Split often works in combination with other attacks from half guard a
 
 ## Additional Related Content
 
-- [[Deep Half Guard]] - Primary starting position for banana split entries
-- [[Lockdown]] - Essential control mechanism for near leg in classic variation
-- [[Electric Chair]] - Common transition point sharing similar leg controls and sweep mechanics
-- [[Truck]] - Alternative entry position with similar leg trapping mechanics
-- [[Leg Entanglement]] - Core principle for controlling opponent's legs during setup
-- [[Half Guard]] - Parent guard system from which banana split entries develop
-- [[Back Control]] - Alternative target when opponent defends banana split by rolling
-- [[Crab Ride]] - Related control position with similar leg entanglement mechanics from back
+- [[Positions/Half Guard/Deep Half Guard]] - Primary starting position for banana split entries
+- [[Positions/Half Guard/Lockdown]] - Essential control mechanism for near leg in classic variation
+- [[Positions/Half Guard/Electric Chair]] - Common transition point sharing similar leg controls and sweep mechanics
+- [[Positions/Twister Control/Truck]] - Alternative entry position with similar leg trapping mechanics
+- [[Positions/Leg Entanglement]] - Core principle for controlling opponent's legs during setup
+- [[Positions/Half Guard]] - Parent guard system from which banana split entries develop
+- [[Positions/Back Control]] - Alternative target when opponent defends banana split by rolling
+- [[Positions/Crab Ride]] - Related control position with similar leg entanglement mechanics from back
 
 
 </section>

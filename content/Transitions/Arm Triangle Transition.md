@@ -21,7 +21,7 @@ Strategically, this transition punishes one of the most common Hindulotine defen
 
 The technique requires precise timing during the grip transition. Releasing the guillotine before the opponent's arm is fully trapped results in losing offensive position entirely. The sweep or reversal component is equally critical—the arm triangle finishes from side control, not from bottom position. Practitioners must combine upper body grip reconfiguration with lower body sweeping mechanics simultaneously, making this a high-level transition that rewards drilling and positional awareness.
 
-**From Position**: [[Hindulotine]] (Bottom)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique requires precise timing during the grip transition. Releasing the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Closed Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Arm Triangle Transition occupies a critical role in the Hindulotine attack s
 ## Related Techniques
 
 
-- [[Hindulotine]] - Starting position providing the guillotine grip base
+- [[Positions/Hindulotine]] - Starting position providing the guillotine grip base
 
-- [[Side Control]] - Target position for finishing the arm triangle
+- [[Positions/Side Control]] - Target position for finishing the arm triangle
 
-- [[Arm Triangle]] - The submission finish available after completing the transition
+- [[Transitions/Arm Triangle]] - The submission finish available after completing the transition
 
-- [[Arm Triangle Setup]] - Related transition establishing arm triangle from North-South
+- [[Transitions/Arm Triangle Setup]] - Related transition establishing arm triangle from North-South
 
-- [[Guillotine Choke]] - Alternative finish if opponent removes the frame
+- [[Transitions/Guillotine Choke]] - Alternative finish if opponent removes the frame
 
-- [[Back Take from Bottom]] - Alternative transition when opponent turns away from both threats
+- [[Transitions/Back Take from Bottom]] - Alternative transition when opponent turns away from both threats
 
-- [[Butterfly Sweep]] - Sweep mechanic used to achieve top position during the transition
+- [[Transitions/Butterfly Sweep]] - Sweep mechanic used to achieve top position during the transition
 
-- [[Darce Control]] - Alternative head-and-arm configuration from same defensive reaction
+- [[Positions/Darce Control]] - Alternative head-and-arm configuration from same defensive reaction
 
-- [[Closed Guard]] - Fallback position if the transition fails and grip is lost
+- [[Positions/Closed Guard]] - Fallback position if the transition fails and grip is lost
 
-- [[Arm Triangle from Top]] - Related arm triangle attack from a different starting position
+- [[Transitions/Arm Triangle from Top]] - Related arm triangle attack from a different starting position
 
 
 </section>

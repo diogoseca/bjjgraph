@@ -19,7 +19,7 @@ The Guard Pull is a fundamental BJJ transition that allows practitioners to move
 
 The technique has become increasingly sophisticated in modern competition, with various entries designed to land directly into specific guard positions rather than a generic seated guard. Pulling to De La Riva, butterfly, single leg X, or collar-sleeve guard requires distinct grip configurations and sitting mechanics that must be drilled independently. The strategic decision of which guard to pull into depends on the opponent's stance, grip tendencies, and known passing preferences. Understanding when and how to pull guard effectively is essential for building a complete competition game, and the difference between a well-executed guard pull that leads to immediate offense versus a sloppy pull that leads to immediate passing pressure lies entirely in grip quality, timing, and landing position.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 75%
 
 </section>
@@ -30,9 +30,9 @@ The technique has become increasingly sophisticated in modern competition, with 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 75% |
-| Failure | [[Standing Position]] | 15% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Closed Guard]] | 75% |
+| Failure | [[Positions/Standing Position]] | 15% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -198,27 +198,27 @@ The guard pull serves as the primary entry point into bottom guard game from sta
 ## Related Techniques
 
 
-- [[Closed Guard]] - Primary ending position after successful guard pull
+- [[Positions/Closed Guard]] - Primary ending position after successful guard pull
 
-- [[Open Guard]] - Alternative ending position when closed guard cannot be established
+- [[Positions/Open Guard]] - Alternative ending position when closed guard cannot be established
 
-- [[De La Riva Guard]] - Specialized entry target for De La Riva guard pull variation
+- [[Positions/De La Riva Guard]] - Specialized entry target for De La Riva guard pull variation
 
-- [[Butterfly Guard]] - Alternative entry target for butterfly guard pull variation
+- [[Positions/Butterfly Guard]] - Alternative entry target for butterfly guard pull variation
 
-- [[Spider Guard]] - Advanced gi-specific entry target requiring sleeve control
+- [[Positions/Spider Guard]] - Advanced gi-specific entry target requiring sleeve control
 
-- [[Lasso Guard]] - Gi-specific entry target with lasso grip established during pull
+- [[Positions/Lasso Guard]] - Gi-specific entry target with lasso grip established during pull
 
-- [[Jumping Guard]] - Aggressive alternative to seated guard pull
+- [[Transitions/Jumping Guard]] - Aggressive alternative to seated guard pull
 
-- [[Collar Drag]] - Setup technique that creates off-balancing for guard pull entry
+- [[Transitions/Collar Drag]] - Setup technique that creates off-balancing for guard pull entry
 
-- [[Arm Drag]] - Alternative entry method combining drag with seated pull
+- [[Transitions/Arm Drag]] - Alternative entry method combining drag with seated pull
 
-- [[Standing Position]] - Starting position for guard pull transition
+- [[Positions/Standing Position]] - Starting position for guard pull transition
 
-- [[Guard Pull]] - Self-reference for guard pull hub page
+- [[Transitions/Guard Pull]] - Self-reference for guard pull hub page
 
 
 </section>

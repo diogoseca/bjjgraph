@@ -21,7 +21,7 @@ The technique operates on a simple biomechanical principle: leg entanglements re
 
 Strategically, leg extraction escape represents the most energy-efficient defensive option from leg entanglements when the opponent has not yet advanced deep into the positional hierarchy. Compared to inversions, which require significant athletic ability and carry rotational injury risk, or boot scoot escapes that demand sustained hip movement, leg extraction relies primarily on precise hand fighting and mechanical clearing that any body type can execute. The key timing window occurs before the opponent consolidates tight hip-to-hip pressure and secures a finishing grip on the heel. Once those two conditions are met, alternative escape methods become necessary, making early recognition and immediate action critical to this escape's success.
 
-**From Position**: [[Leg Entanglement]] (Bottom)
+**From Position**: [[Positions/Leg Entanglement]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, leg extraction escape represents the most energy-efficient defens
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 45% |
-| Failure | [[Leg Entanglement]] | 35% |
-| Counter | [[Ashi Garami]] | 20% |
+| Success | [[Positions/Open Guard]] | 45% |
+| Failure | [[Positions/Leg Entanglement]] | 35% |
+| Counter | [[Positions/Ashi Garami]] | 20% |
 
 
 </section>
@@ -196,29 +196,29 @@ Leg Extraction Escape from Entanglement sits at the center of the defensive leg 
 ## Related Techniques
 
 
-- [[Leg Entanglement]] - Starting position - the entanglement family this escape addresses
+- [[Positions/Leg Entanglement]] - Starting position - the entanglement family this escape addresses
 
-- [[Open Guard]] - Primary recovery position after successful leg extraction
+- [[Positions/Open Guard]] - Primary recovery position after successful leg extraction
 
-- [[Ashi Garami]] - Specific entanglement configuration this escape targets
+- [[Positions/Ashi Garami]] - Specific entanglement configuration this escape targets
 
-- [[Inversion Escape from Leg Entanglement]] - Alternative escape using rotational movement when extraction is blocked
+- [[Transitions/Inversion Escape from Leg Entanglement]] - Alternative escape using rotational movement when extraction is blocked
 
-- [[Boot Scoot Escape from Saddle]] - Secondary escape for advanced entanglements where extraction is not viable
+- [[Transitions/Boot Scoot Escape from Saddle]] - Secondary escape for advanced entanglements where extraction is not viable
 
-- [[Heel Strip from Ashi Garami]] - Complementary technique addressing heel grip before extraction
+- [[Transitions/Heel Strip from Ashi Garami]] - Complementary technique addressing heel grip before extraction
 
-- [[Ashi Garami Escape]] - General escape framework that includes leg extraction as a primary method
+- [[Transitions/Ashi Garami Escape]] - General escape framework that includes leg extraction as a primary method
 
-- [[Inside Ashi-Garami]] - Advanced entanglement position requiring modified extraction approach
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Advanced entanglement position requiring modified extraction approach
 
-- [[Outside Ashi-Garami]] - Most common entanglement configuration where extraction has highest success rate
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Most common entanglement configuration where extraction has highest success rate
 
-- [[Saddle]] - Advanced entanglement where extraction becomes significantly more difficult
+- [[Positions/Ashi Garami/Saddle]] - Advanced entanglement where extraction becomes significantly more difficult
 
-- [[Guard Recovery from Leg Entanglement]] - Follow-up transition to re-establish guard structure after extraction
+- [[Transitions/Guard Recovery from Leg Entanglement]] - Follow-up transition to re-establish guard structure after extraction
 
-- [[Heel Hook Defense Escape]] - Emergency defense when opponent achieves heel grip during extraction attempt
+- [[Transitions/Heel Hook Defense Escape]] - Emergency defense when opponent achieves heel grip during extraction attempt
 
 
 </section>

@@ -210,23 +210,23 @@ Survival from this position requires immediate recognition, calm systematic defe
 
 ## Available Escapes
 
-### [[Arm Extraction]] (40% of attempts)
+### [[Transitions/Arm Extraction]] (40% of attempts)
 
-### [[Shrimp Escape]] (12% of attempts)
+### [[Transitions/Shrimp Escape]] (12% of attempts)
 
-### [[Defensive Roll]] (12% of attempts)
+### [[Transitions/Defensive Roll]] (12% of attempts)
 
-### [[Explosive Bridge to Turtle]] (15% of attempts)
+### [[Transitions/Explosive Bridge to Turtle]] (15% of attempts)
 
-### [[Roll to Guard]] (9% of attempts)
+### [[Transitions/Roll to Guard]] (9% of attempts)
 
-### [[Hip Escape to Guard]] (7% of attempts)
+### [[Transitions/Hip Escape to Guard]] (7% of attempts)
 
-### [[Arm Recovery from Crucifix]] (3% of attempts)
+### [[Transitions/Arm Recovery from Crucifix]] (3% of attempts)
 
-### [[Crucifix Choke Defense]] (1% of attempts)
+### [[Transitions/Crucifix Choke Defense]] (1% of attempts)
 
-### [[Hip Escape from Crucifix]] (1% of attempts)
+### [[Transitions/Hip Escape from Crucifix]] (1% of attempts)
 
 
 
@@ -237,27 +237,27 @@ Survival from this position requires immediate recognition, calm systematic defe
 ## Decision Making from This Position
 
 **If opponent secures deep rear naked choke grip with choking arm under chin:**
-- Execute **[[Two-on-one hand defense]]** → [[Back Control]] (Probability: 40%)
-- Execute **[[Chin tuck and shoulder raise]]** → [[Back Control]] (Probability: 50%)
-- Execute **[[Tap Out]]** → [[Game Over]] (Probability: 10%)
+- Execute **[[Two-on-one hand defense]]** → [[Positions/Back Control]] (Probability: 40%)
+- Execute **[[Chin tuck and shoulder raise]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Tap Out]]** → [[Positions/Game Over]] (Probability: 10%)
 
 
 **If trapped arm begins to free from leg trap with space creation:**
-- Execute **[[Arm Extraction to Turtle]]** → [[Turtle]] (Probability: 55%)
-- Execute **[[Hip Escape to Guard]]** → [[Closed Guard]] (Probability: 30%)
-- Execute **[[Roll to Guard]]** → [[Back Control]] (Probability: 15%)
+- Execute **[[Transitions/Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 30%)
+- Execute **[[Transitions/Roll to Guard]]** → [[Positions/Back Control]] (Probability: 15%)
 
 
 **If opponent transitions to mounted crucifix or adjusts position:**
-- Execute **[[Bridge and hip escape immediately]]** → [[Turtle]] (Probability: 45%)
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 35%)
-- Execute **[[Accept consolidated position]]** → [[Mounted Crucifix]] (Probability: 20%)
+- Execute **[[Bridge and hip escape immediately]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 35%)
+- Execute **[[Accept consolidated position]]** → [[Positions/Mount/Mounted Crucifix]] (Probability: 20%)
 
 
 **If free arm remains mobile and opponent has not secured submission:**
-- Execute **[[Use free arm to push opponent's leg and create space]]** → [[Back Control]] (Probability: 50%)
-- Execute **[[Shrimp Escape]]** → [[Side Control]] (Probability: 35%)
-- Execute **[[Standing Escape]]** → [[Clinch]] (Probability: 15%)
+- Execute **[[Use free arm to push opponent's leg and create space]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Side Control]] (Probability: 35%)
+- Execute **[[Transitions/Standing Escape]]** → [[Positions/Clinch]] (Probability: 15%)
 
 
 
@@ -391,15 +391,15 @@ From established crucifix, bottom player works specific pathway to turtle positi
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Primary transition target—less disadvantaged position
-- **[[Turtle]]** - Common escape destination—defensive recovery position
-- **[[Rear Naked Choke]]** - Primary submission threat from this position
-- **[[Armbar from Crucifix]]** - Secondary submission threat requiring specific defense
-- **[[Mounted Crucifix]]** - Worse variation if opponent transitions to mount
-- **[[Closed Guard]]** - Ideal escape destination—return to guard game
-- **[[Shrimp Escape]]** - Primary escape mechanism from crucifix
-- **[[Elbow Escape to Guard]]** - Alternative escape when hip escape is blocked
-- **[[Back Door Escape]]** - Broader defensive system containing crucifix escapes
+- **[[Positions/Back Control]]** - Primary transition target—less disadvantaged position
+- **[[Positions/Turtle]]** - Common escape destination—defensive recovery position
+- **[[Transitions/Rear Naked Choke]]** - Primary submission threat from this position
+- **[[Transitions/Armbar from Crucifix]]** - Secondary submission threat requiring specific defense
+- **[[Positions/Mount/Mounted Crucifix]]** - Worse variation if opponent transitions to mount
+- **[[Positions/Closed Guard]]** - Ideal escape destination—return to guard game
+- **[[Transitions/Shrimp Escape]]** - Primary escape mechanism from crucifix
+- **[[Transitions/Elbow Escape to Guard]]** - Alternative escape when hip escape is blocked
+- **[[Transitions/Back Door Escape]]** - Broader defensive system containing crucifix escapes
 
 
 </section>

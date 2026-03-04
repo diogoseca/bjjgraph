@@ -210,21 +210,21 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 
 ## Available Attacks
 
-### [[Posture Recovery]] (32% of attempts)
+### [[Transitions/Posture Recovery]] (32% of attempts)
 
-### [[Guard Opening Sequence]] (27% of attempts)
+### [[Transitions/Guard Opening Sequence]] (27% of attempts)
 
-### [[Standing up in Base]] (22% of attempts)
+### [[Transitions/Standing up in Base]] (22% of attempts)
 
-### [[Stack Pass]] (10% of attempts)
+### [[Transitions/Stack Pass]] (10% of attempts)
 
-### [[Stand Up in Closed Guard]] (3% of attempts)
+### [[Transitions/Stand Up in Closed Guard]] (3% of attempts)
 
-### [[Ezekiel from Closed Guard]] (2% of attempts)
+### [[Transitions/Ezekiel from Closed Guard]] (2% of attempts)
 
-### [[Knee Slice from Closed Guard]] (2% of attempts)
+### [[Transitions/Knee Slice from Closed Guard]] (2% of attempts)
 
-### [[Can Opener]] (2% of attempts)
+### [[Submissions/Can Opener]] (2% of attempts)
 
 
 
@@ -235,29 +235,29 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 ## Decision Making from This Position
 
 **If opponent has broken your posture and is pulling you down toward their chest with collar or head control:**
-- Execute **[[Posture Recovery]]** → [[Closed Guard]] (Probability: 65%)
-- Execute **[[Stack Defense]]** → [[Stack Pass]] (Probability: 45%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 65%)
+- Execute **[[Transitions/Stack Defense]]** → [[Transitions/Stack Pass]] (Probability: 45%)
 
 
 **If opponent maintains closed guard but you have good posture and hand position on hips or biceps:**
-- Execute **[[Guard Opening Sequence]]** → [[Open Guard]] (Probability: 60%)
-- Execute **[[Standing up in Base]]** → [[Standing Position]] (Probability: 70%)
+- Execute **[[Transitions/Guard Opening Sequence]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 70%)
 
 
 **If opponent opens their guard or you successfully break the guard creating separation:**
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent is attacking with triangle or armbar creating immediate submission threat:**
-- Execute **[[Posture Recovery]]** → [[Closed Guard]] (Probability: 50%)
-- Execute **[[Stack Defense]]** → [[Stack Pass]] (Probability: 55%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Stack Defense]]** → [[Transitions/Stack Pass]] (Probability: 55%)
 
 
 **If opponent establishes strong collar and sleeve grips creating control for attacks:**
-- Execute **[[Grip Break]]** → [[Closed Guard]] (Probability: 60%)
-- Execute **[[Standing up in Base]]** → [[Standing Position]] (Probability: 65%)
+- Execute **[[Transitions/Grip Break]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 65%)
 
 
 
@@ -383,18 +383,18 @@ Practice standing up from closed guard, breaking the guard with proper mechanics
 
 ## Related Positions and Techniques
 
-- **[[Closed Guard]]** - Inverse position - opponent's perspective from bottom
-- **[[Open Guard]]** - Target position after successfully opening closed guard
-- **[[Side Control]]** - Primary target position after successful guard pass
-- **[[Guard Opening Sequence]]** - Critical transition technique for escaping closed guard top
-- **[[Combat Base]]** - Defensive posture used during guard opening attempts
-- **[[Stack Pass]]** - Common passing option after opening guard
-- **[[Toreando Pass]]** - High-percentage pass after guard opening
-- **[[Triangle Control]]** - Primary submission threat from opponent in this position
-- **[[Hip Bump Sweep]]** - Common sweep threat from opponent in this position
-- **[[Knee Slice Pass]]** - Fundamental pass used after guard is opened
-- **[[Standing up in Base]]** - Key transition for standing guard break approach
-- **[[Posture Recovery]]** - Essential defensive transition maintaining top position
+- **[[Positions/Closed Guard]]** - Inverse position - opponent's perspective from bottom
+- **[[Positions/Open Guard]]** - Target position after successfully opening closed guard
+- **[[Positions/Side Control]]** - Primary target position after successful guard pass
+- **[[Transitions/Guard Opening Sequence]]** - Critical transition technique for escaping closed guard top
+- **[[Positions/Combat Base]]** - Defensive posture used during guard opening attempts
+- **[[Transitions/Stack Pass]]** - Common passing option after opening guard
+- **[[Transitions/Toreando Pass]]** - High-percentage pass after guard opening
+- **[[Positions/Triangle Control]]** - Primary submission threat from opponent in this position
+- **[[Transitions/Hip Bump Sweep]]** - Common sweep threat from opponent in this position
+- **[[Transitions/Knee Slice Pass]]** - Fundamental pass used after guard is opened
+- **[[Transitions/Standing up in Base]]** - Key transition for standing guard break approach
+- **[[Transitions/Posture Recovery]]** - Essential defensive transition maintaining top position
 
 
 </section>

@@ -21,7 +21,7 @@ The technique derives its name from the explosive whipping motion where the bott
 
 Strategically, the whip-up sweep creates a binary dilemma when paired with the Old School sweep. If the opponent sits back with their weight to defend the whip-up, they expose themselves to the Old School. If they drive forward to prevent the Old School, the whip-up becomes available. This forced choice is the foundation of lockdown offense and the reason the system has proven effective at the highest levels of no-gi competition. Advanced practitioners chain the whip-up with immediate back takes, truck entries, and submission threats during the dogfight scramble that follows a successful sweep.
 
-**From Position**: [[Lockdown]] (Bottom)
+**From Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, the whip-up sweep creates a binary dilemma when paired with the O
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Dogfight Position]] | 50% |
-| Success | [[Side Control]] | 15% |
-| Failure | [[Lockdown]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Dogfight Position]] | 50% |
+| Success | [[Positions/Side Control]] | 15% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -192,23 +192,23 @@ The Whip-up Sweep is the centerpiece of the 10th Planet lockdown offensive syste
 ## Related Techniques
 
 
-- [[Lockdown]] - Starting position - the lockdown leg entanglement is required to execute the whip-up
+- [[Positions/Half Guard/Lockdown]] - Starting position - the lockdown leg entanglement is required to execute the whip-up
 
-- [[Old School Sweep]] - Complementary attack - exploits opposite weight distribution to create lockdown dilemma
+- [[Transitions/Old School Sweep]] - Complementary attack - exploits opposite weight distribution to create lockdown dilemma
 
-- [[Electric Chair Transition]] - Alternative attack from lockdown when opponent's weight shifts backward
+- [[Transitions/Electric Chair Transition]] - Alternative attack from lockdown when opponent's weight shifts backward
 
-- [[Dogfight Position]] - Primary landing position after successful whip-up sweep
+- [[Positions/Dogfight Position]] - Primary landing position after successful whip-up sweep
 
-- [[Back Take from Lockdown Defense]] - Follow-up transition from dogfight after successful whip-up
+- [[Transitions/Back Take from Lockdown Defense]] - Follow-up transition from dogfight after successful whip-up
 
-- [[Half Guard]] - Parent position family - lockdown is a half guard variation
+- [[Positions/Half Guard]] - Parent position family - lockdown is a half guard variation
 
-- [[Deep Half Entry]] - Alternative half guard offensive entry when lockdown attacks are unavailable
+- [[Transitions/Deep Half Entry]] - Alternative half guard offensive entry when lockdown attacks are unavailable
 
-- [[Lockdown Recovery]] - Re-establishing lockdown when the whip-up attempt fails
+- [[Transitions/Lockdown Recovery]] - Re-establishing lockdown when the whip-up attempt fails
 
-- [[Kimura]] - Complementary half guard attack that chains with lockdown offense
+- [[Transitions/Kimura]] - Complementary half guard attack that chains with lockdown offense
 
 
 </section>

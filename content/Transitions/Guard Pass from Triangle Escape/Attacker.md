@@ -180,7 +180,7 @@ description: "Learn to execute the guard pass from triangle escape. Step-by-step
 
 Executing the guard pass from triangle escape requires capitalizing on the precise moment when the triangle lock breaks down. As the attacking passer, your focus shifts from survival to advancement in a single fluid motion. The stacking pressure and hip control you established during the escape become the foundation for your pass—you maintain forward drive while redirecting it from defensive space creation to offensive guard clearance. Timing is paramount: initiate the pass too early and the triangle re-locks, too late and the bottom player recovers closed guard. The ideal window exists for approximately two to three seconds as the legs transition from triangle configuration to open recovery, and your ability to recognize and exploit this window separates competent escape artists from practitioners who consistently convert defense into dominant position.
 
-**From Position**: [[Triangle Escape Position]] (Top)
+**From Position**: [[Positions/Triangle Escape Position]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the guard pass from triangle escape requires capitalizing on the preci
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Triangle Escape Position]] | 32% |
-| Counter | [[Closed Guard]] | 18% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Triangle Escape Position]] | 32% |
+| Counter | [[Positions/Closed Guard]] | 18% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the guard pass from triangle escape requires capitalizing on the preci
 
 ## Opponent Counters
 
-- **Bottom player re-locks triangle by catching the arm during the leg clearance phase before the pass is completed** (Effectiveness: High) - Your Response: Immediately resume escape sequence by re-establishing posture and stacking pressure. Do not try to force the pass through a re-locked triangle. Reset to escape mechanics and look for the next passing window. → Leads to [[Triangle Escape Position]]
-- **Bottom player shrimps aggressively and recovers closed guard by re-wrapping legs around waist during transition** (Effectiveness: Medium) - Your Response: Accelerate the crossface establishment and drive your hips forward to prevent the legs from closing. If the guard closes, accept the position and begin a standard closed guard passing sequence rather than forcing a compromised pass. → Leads to [[Closed Guard]]
-- **Bottom player creates strong frames against your shoulders and hips to maintain distance and prevent chest contact** (Effectiveness: Medium) - Your Response: Swim through the frames with your arms while maintaining low hip pressure. Use head position changes and shoulder switches to collapse individual frames one at a time rather than trying to power through both simultaneously. → Leads to [[Closed Guard]]
-- **Bottom player transitions to armbar attempt on the freed arm during the moment between escape and pass** (Effectiveness: Low) - Your Response: Keep your freed arm elbow tight to your body throughout the passing transition. If the armbar is attacked, stack forward aggressively to compress the armbar angle while continuing the pass. The same forward pressure that drives the pass also defends the armbar. → Leads to [[Triangle Escape Position]]
+- **Bottom player re-locks triangle by catching the arm during the leg clearance phase before the pass is completed** (Effectiveness: High) - Your Response: Immediately resume escape sequence by re-establishing posture and stacking pressure. Do not try to force the pass through a re-locked triangle. Reset to escape mechanics and look for the next passing window. → Leads to [[Positions/Triangle Escape Position]]
+- **Bottom player shrimps aggressively and recovers closed guard by re-wrapping legs around waist during transition** (Effectiveness: Medium) - Your Response: Accelerate the crossface establishment and drive your hips forward to prevent the legs from closing. If the guard closes, accept the position and begin a standard closed guard passing sequence rather than forcing a compromised pass. → Leads to [[Positions/Closed Guard]]
+- **Bottom player creates strong frames against your shoulders and hips to maintain distance and prevent chest contact** (Effectiveness: Medium) - Your Response: Swim through the frames with your arms while maintaining low hip pressure. Use head position changes and shoulder switches to collapse individual frames one at a time rather than trying to power through both simultaneously. → Leads to [[Positions/Closed Guard]]
+- **Bottom player transitions to armbar attempt on the freed arm during the moment between escape and pass** (Effectiveness: Low) - Your Response: Keep your freed arm elbow tight to your body throughout the passing transition. If the armbar is attacked, stack forward aggressively to compress the armbar angle while continuing the pass. The same forward pressure that drives the pass also defends the armbar. → Leads to [[Positions/Triangle Escape Position]]
 
 
 </section>

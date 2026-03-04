@@ -182,7 +182,7 @@ As the attacker executing this transition, your goal is to convert a general but
 
 Success depends on recognizing when the opponent's weight distribution creates openings for hook deepening and posture recovery. The most common window occurs when the top player shifts weight to establish a grip or begins a passing movement, momentarily unloading the pressure that keeps your hooks shallow.
 
-**From Position**: [[Butterfly Guard]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ Success depends on recognizing when the opponent's weight distribution creates o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Butterfly Hook Control]] | 65% |
-| Failure | [[Butterfly Guard]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Butterfly Guard/Butterfly Hook Control]] | 65% |
+| Failure | [[Positions/Butterfly Guard]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ Success depends on recognizing when the opponent's weight distribution creates o
 
 ## Opponent Counters
 
-- **Opponent drives heavy forward pressure to flatten you before hooks consolidate** (Effectiveness: High) - Your Response: Post hand behind hip immediately and time your sit-up with a grip pull that disrupts their forward drive. If pressure is overwhelming, transition to deep half guard rather than fighting to maintain butterfly. → Leads to [[Half Guard]]
-- **Opponent clears one hook by driving their knee to the mat through your hook** (Effectiveness: High) - Your Response: Immediately re-insert the cleared hook using a hip bump on the remaining hook, or transition to half butterfly and work from the asymmetric position. Do not chase the lost hook while neglecting the remaining one. → Leads to [[Half Guard]]
-- **Opponent stands up to disengage from hook insertion attempts** (Effectiveness: Medium) - Your Response: Follow their hips with your hooks and transition to X-Guard or single leg X-Guard, which are stronger positions against a standing opponent. Their standing creates the space you need for these transitions. → Leads to [[Butterfly Guard]]
-- **Opponent breaks your grips to prevent upper body connection during consolidation** (Effectiveness: Medium) - Your Response: Immediately re-grip or switch to alternative grips. Without upper body control, focus on maintaining hook depth and posture while re-establishing grips. Alternate between grip targets to prevent the opponent from establishing a pattern of grip breaks. → Leads to [[Butterfly Guard]]
+- **Opponent drives heavy forward pressure to flatten you before hooks consolidate** (Effectiveness: High) - Your Response: Post hand behind hip immediately and time your sit-up with a grip pull that disrupts their forward drive. If pressure is overwhelming, transition to deep half guard rather than fighting to maintain butterfly. → Leads to [[Positions/Half Guard]]
+- **Opponent clears one hook by driving their knee to the mat through your hook** (Effectiveness: High) - Your Response: Immediately re-insert the cleared hook using a hip bump on the remaining hook, or transition to half butterfly and work from the asymmetric position. Do not chase the lost hook while neglecting the remaining one. → Leads to [[Positions/Half Guard]]
+- **Opponent stands up to disengage from hook insertion attempts** (Effectiveness: Medium) - Your Response: Follow their hips with your hooks and transition to X-Guard or single leg X-Guard, which are stronger positions against a standing opponent. Their standing creates the space you need for these transitions. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent breaks your grips to prevent upper body connection during consolidation** (Effectiveness: Medium) - Your Response: Immediately re-grip or switch to alternative grips. Without upper body control, focus on maintaining hook depth and posture while re-establishing grips. Alternate between grip targets to prevent the opponent from establishing a pattern of grip breaks. → Leads to [[Positions/Butterfly Guard]]
 
 
 </section>

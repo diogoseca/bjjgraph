@@ -180,7 +180,7 @@ description: "How to execute Hitchhiker Escape in BJJ. Attacking perspective wit
 
 The Hitchhiker Escape is an advanced defensive technique used to escape from a fully extended armbar attack by exploiting rotational mechanics and timing. This escape requires exceptional flexibility, precise timing, and deep understanding of leverage principles. The technique involves rotating the thumb outward (the 'hitchhiker' motion) while simultaneously turning into the opponent and creating space to recover guard. While primarily associated with high-level competition and no-gi grappling, the Hitchhiker Escape represents a last-resort defensive option when positional escapes have failed and the armbar is nearly locked. The escape is particularly effective against opponents who rely purely on extension without proper shoulder control, as it exploits the natural weakness in the grip when the thumb is pointed away from the body. Success requires reading the opponent's finishing mechanics and executing the rotation at the precise moment before full extension is achieved.
 
-**From Position**: [[Armbar Control]] (Bottom)
+**From Position**: [[Positions/Armbar Control]] (Bottom)
 
 </section>
 
@@ -234,10 +234,10 @@ The Hitchhiker Escape is an advanced defensive technique used to escape from a f
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Success | [[Turtle]] | 20% |
-| Failure | [[Armbar Control]] | 20% |
-| Counter | [[Triangle Control]] | 10% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Success | [[Positions/Turtle]] | 20% |
+| Failure | [[Positions/Armbar Control]] | 20% |
+| Counter | [[Positions/Triangle Control]] | 10% |
 
 
 </section>
@@ -246,10 +246,10 @@ The Hitchhiker Escape is an advanced defensive technique used to escape from a f
 
 ## Opponent Counters
 
-- **Opponent adjusts grip to control shoulder and wrist simultaneously** (Effectiveness: High) - Your Response: If shoulder is controlled before rotation, the escape becomes extremely difficult. You must create initial space or consider tapping rather than forcing the escape and risking injury. → Leads to [[Armbar Control]]
-- **Opponent extends hips explosively as you begin rotation** (Effectiveness: High) - Your Response: This is the most dangerous counter. If full extension occurs during your rotation, tap immediately. The rotation actually increases joint stress when combined with full extension. → Leads to [[Armbar Control]]
-- **Opponent transitions to triangle or omoplata as you turn** (Effectiveness: Medium) - Your Response: Maintain awareness of opponent's leg position during rotation. If they begin transitioning, complete your escape quickly and establish defensive frames to prevent the follow-up submission. → Leads to [[Triangle Control]]
-- **Opponent switches to wrist lock during rotation** (Effectiveness: Medium) - Your Response: Keep your escaping hand in a fist and your wrist strong throughout the movement. The hitchhiker position naturally protects against most wrist lock variations if you maintain tension. → Leads to [[Armbar Control]]
+- **Opponent adjusts grip to control shoulder and wrist simultaneously** (Effectiveness: High) - Your Response: If shoulder is controlled before rotation, the escape becomes extremely difficult. You must create initial space or consider tapping rather than forcing the escape and risking injury. → Leads to [[Positions/Armbar Control]]
+- **Opponent extends hips explosively as you begin rotation** (Effectiveness: High) - Your Response: This is the most dangerous counter. If full extension occurs during your rotation, tap immediately. The rotation actually increases joint stress when combined with full extension. → Leads to [[Positions/Armbar Control]]
+- **Opponent transitions to triangle or omoplata as you turn** (Effectiveness: Medium) - Your Response: Maintain awareness of opponent's leg position during rotation. If they begin transitioning, complete your escape quickly and establish defensive frames to prevent the follow-up submission. → Leads to [[Positions/Triangle Control]]
+- **Opponent switches to wrist lock during rotation** (Effectiveness: Medium) - Your Response: Keep your escaping hand in a fist and your wrist strong throughout the movement. The hitchhiker position naturally protects against most wrist lock variations if you maintain tension. → Leads to [[Positions/Armbar Control]]
 
 
 </section>

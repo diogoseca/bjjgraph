@@ -146,7 +146,7 @@ description: "Learn to prevent and counter the elbow escape from flattened half 
 
 As the top player defending against the elbow escape from flattened half guard, your objective is to maintain the positional advantage you have earned through successful pressure application while advancing toward completing the guard pass. The elbow escape threatens to undo your pressure passing work by systematically recovering the frames and hip mobility that you collapsed to achieve the flattened position. Your defensive strategy centers on recognizing escape attempts early through tactile cues, maintaining dynamic pressure that follows your opponent's movement rather than remaining static, and converting their escape attempts into passing opportunities by capitalizing on the space and angles their movements create. The best defense is often a timely offense, using their escape motion to complete your pass.
 
-**Opponent's Starting Position**: [[Flattened Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Flattened Half Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the top player defending against the elbow escape from flattened half guard, 
 ### 1. Drive hips forward to collapse the elbow wedge before it can be consolidated with a hip escape
 
 - **When to use**: Immediately upon feeling the opponent's elbow begin to create space between your bodies at the hip or shoulder line
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Opponent's elbow frame collapses and they return to fully flattened position with chest-to-chest contact re-established
 - **Risk**: Overcommitting forward pressure can create sweep vulnerability if opponent times an underhook reversal
 
 ### 2. Initiate knee slice pass during the opponent's hip escape movement to convert their escape into your passing angle
 
 - **When to use**: When opponent executes a hip escape creating lateral space and an angle that favors your knee slice trajectory
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Convert the opponent's lateral movement into your passing angle, completing the guard pass to side control
 - **Risk**: If knee slice fails, opponent may recover to half guard with better frames than before the attempt
 
 ### 3. Switch to heavy crossface combined with near-hip control to prevent the lateral movement the escape requires
 
 - **When to use**: When opponent begins winning the underhook battle and establishing the structural foundation for their escape
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Heavy crossface turns their head away while hip pressure prevents the lateral shrimping movement needed for the escape
 - **Risk**: Focusing on crossface adjustment may momentarily create space that accelerates their frame recovery
 
 ### 4. Trap the escaping arm and transition to arm triangle setup when opponent extends arm during escape attempt
 
 - **When to use**: When opponent extends their arm to push your hip or establish a frame during the space creation phase
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Convert the defensive arm extension into a submission threat that forces them to abandon the escape entirely
 - **Risk**: If arm triangle setup is not completed quickly, the positional change may create space that aids their escape
 
@@ -217,11 +217,11 @@ As the top player defending against the elbow escape from flattened half guard, 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Maintain maximum pressure by following escape attempts with increased forward hip drive, re-establishing chest-to-chest contact whenever the opponent creates space. Use the crossface to prevent them from achieving the side angle needed for the escape sequence to progress.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Capitalize on the opponent's hip escape movement by timing your knee slice pass to coincide with their lateral motion. Their escape creates the exact angle you need for passing, and their commitment to the escape means they cannot simultaneously defend the pass with full defensive attention.
 

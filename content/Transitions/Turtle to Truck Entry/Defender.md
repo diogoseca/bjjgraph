@@ -158,7 +158,7 @@ The defender's strategic advantage lies in the attacker's vulnerability during t
 
 The most dangerous moment for the defender is the transition between recognizing the entry and executing a defensive response. Hesitation allows the attacker to complete the hook thread, after which the defender's options narrow to Truck bottom escapes rather than entry prevention. Drilling recognition cues and pre-loaded defensive responses ensures the defender can act without delay when the Truck entry is detected.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ The most dangerous moment for the defender is the transition between recognizing
 ### 1. Explosive sit-back: drive your hips backward and sit your weight onto your heels, crushing the attacker's reaching arm between your thigh and calf while removing the forward weight distribution they need for the entry
 
 - **When to use**: As soon as you feel the attacker's far arm reaching under your torso for the far leg grip, before the hook threading has begun
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: The attacker's reaching arm is trapped or withdrawn, their threading angle is destroyed, and they must reset to standard turtle top attacks or transition to back take or front headlock
 - **Risk**: If the sit-back is too slow, the attacker may have already secured the far leg grip and can use your backward momentum to accelerate the hook thread
 
 ### 2. Far leg extraction: straighten and pull your far leg away from the attacker's grip while simultaneously driving your far knee to the mat, removing the target limb from the threading path entirely
 
 - **When to use**: When you feel the attacker grip your far knee or shin but before their threading leg has penetrated past your thigh
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: The attacker loses the anchor grip needed for the entry and must restart the entire setup sequence, giving you time to improve your defensive posture or initiate a guard recovery
 - **Risk**: Extending your far leg compromises your four-point turtle base and may expose you to a traditional back take if the attacker reads the extension and switches attacks
 
 ### 3. Explosive granby roll: perform a forward shoulder roll away from the attacker's threading side, using rotational momentum to disrupt the leg insertion angle and potentially recover guard
 
 - **When to use**: When the attacker has committed their weight to the perpendicular position and their hips are driving against your near hip, limiting their ability to follow lateral movement
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You escape the turtle position entirely, recovering to half guard or closed guard while the attacker's threading attempt is disrupted by your rotation
 - **Risk**: The attacker may follow the roll and complete the hook thread from the opposite angle, or transition to back control during the rotation if they maintain chest contact
 
 ### 4. Elbow block and stand: drive your near elbow firmly against the attacker's reaching arm to block far leg access, then explosively stand to both feet using the blocked arm as a post
 
 - **When to use**: When the attacker begins reaching but has not yet secured a grip on your far leg, and their upper body control is loose enough to permit your explosive standup
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You achieve standing position where the Truck entry is mechanically impossible, forcing the attacker to transition to body lock or single leg attacks from a disadvantaged angle
 - **Risk**: If the standup is incomplete, the attacker can use your upward movement to drag you back down and the disrupted turtle base may make you more vulnerable to back control
 
@@ -229,11 +229,11 @@ The most dangerous moment for the defender is the transition between recognizing
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Deny the initial hook thread through early recognition and explosive reaction. Use sit-back, far leg extraction, or elbow block to prevent the attacker from establishing the far leg grip or threading their near-side leg. Maintaining a tight defensive turtle with rearward weight distribution is the foundation. Once the entry is stuffed, the attacker returns to standard turtle top and you can proceed with normal turtle escapes.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Execute a well-timed granby roll or sit-through when the attacker commits to the perpendicular position. Their lateral weight commitment makes it difficult to follow your rotational movement. Thread your legs around one of their legs during the recovery to establish half guard, which is a significant positional improvement from turtle bottom and removes all Truck entry threats.
 

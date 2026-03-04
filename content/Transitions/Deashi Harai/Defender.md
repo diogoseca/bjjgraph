@@ -158,7 +158,7 @@ The defensive framework for Deashi Harai operates on three levels: prevention th
 
 For experienced practitioners, Deashi Harai defense also involves understanding the common combinations your opponent will chain when the initial sweep fails. Knowing that a defended Deashi Harai often leads to Kosoto Gari, Kouchi Gari, or Osoto Gari allows you to prepare secondary defenses and avoid being caught by follow-up attacks that exploit your defensive adjustments.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ For experienced practitioners, Deashi Harai defense also involves understanding 
 ### 1. Retract lead leg and redistribute weight to rear foot as you feel the sweep contact approaching your ankle
 
 - **When to use**: When you detect the sweep early enough that your weight has not yet fully committed to the lead foot—typically when you feel the opponent's grips tighten and their body angle shifts
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You remain standing with your opponent having committed to a failed technique, creating an opening to attack with your own grip advantages or takedown while they recover position
 - **Risk**: Your rear leg becomes heavily weighted during the retraction, making you vulnerable to follow-up attacks like Kosoto Gari or Kouchi Gari on that leg
 
 ### 2. Break the controlling sleeve grip before the sweep can be coordinated, then immediately re-engage with your own dominant grips
 
 - **When to use**: During the setup phase when you recognize the opponent establishing the grip configuration needed for the sweep—before they have initiated any sweeping action
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: The opponent cannot coordinate the upper and lower body actions needed for an effective sweep, forcing them to re-establish grips before any further attack attempts
 - **Risk**: Momentary loss of your own grips during the break leaves both players in neutral grip-fighting position, which a skilled opponent may exploit
 
 ### 3. Counter-throw by driving forward into your opponent as they lift their sweeping leg off the ground, exploiting their single-leg base with Ouchi Gari or a body lock takedown
 
 - **When to use**: When the opponent has already committed to the sweep and their sweeping foot is off the mat—they are momentarily on one leg and vulnerable to forward pressure
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You achieve a takedown or reversal by capitalizing on their compromised single-leg base, potentially scoring points and establishing top position
 - **Risk**: If your timing is off and you drive forward into a sweep that is already connecting, you accelerate your own fall and make the takedown worse for yourself
 
 ### 4. Lower your center of gravity by bending your knees and widening your stance while pulling your opponent's upper body down with your grips to deny the lifting action
 
 - **When to use**: When you feel the upward lift through the collar grip that precedes the sweep—this is a late-stage defense when retraction is no longer possible
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Your lowered base absorbs the sweep without losing balance, and the opponent must abandon the technique and reset
 - **Risk**: The lowered stance may create opportunities for the opponent to transition to a different throw like Harai Goshi or snap you down to a front headlock
 
@@ -228,11 +228,11 @@ For experienced practitioners, Deashi Harai defense also involves understanding 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Break the opponent's controlling grips early in the setup phase or retract your lead leg as soon as you detect the sweep initiation. Immediately re-establish your own dominant grips and capitalize on their failed technique by attacking with your own takedown while they are recovering their stance and position. The key is maintaining composure and using their failed attempt as your offensive opportunity rather than simply resetting to neutral.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Time a counter-throw such as Ouchi Gari or a forward body lock drive at the exact moment the opponent commits their sweeping leg off the ground. Their single-leg base during the sweep execution is their most vulnerable moment. Drive your weight forward into their support leg while they cannot adjust, using their own commitment against them to achieve a takedown reversal.
 

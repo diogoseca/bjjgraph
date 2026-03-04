@@ -26,8 +26,8 @@ The bow and arrow operates as a blood choke targeting both carotid arteries simu
 **Category**: Choke
 **Type**: Collar Choke
 **Target Area**: Neck
-**Starting Position**: [[Seat Belt Control Back]]
-**From Position**: [[Seat Belt Control Back]] (Top)
+**Starting Position**: [[Positions/Back Control/Seat Belt Control Back]]
+**From Position**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -77,8 +77,8 @@ The bow and arrow operates as a blood choke targeting both carotid arteries simu
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Seat Belt Control Back]] | 35% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Back Control/Seat Belt Control Back]] | 35% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -228,9 +228,9 @@ The bow and arrow operates as a blood choke targeting both carotid arteries simu
 
 ## From Which Positions?
 
-- [[Seat Belt Control Back]]
-- [[Back Control]]
-- [[Body Triangle]]
+- [[Positions/Back Control/Seat Belt Control Back]]
+- [[Positions/Back Control]]
+- [[Positions/Back Control/Body Triangle]]
 
 
 </section>
@@ -239,14 +239,14 @@ The bow and arrow operates as a blood choke targeting both carotid arteries simu
 
 ## Related Submissions
 
-- [[Bow and Arrow Choke]]
-- [[Body Triangle RNC]]
-- [[Cross Collar Choke]]
-- [[Armbar from Back]]
-- [[Armbar from Back with Legs]]
-- [[Choke from Crucifix]]
-- [[Clock Choke]]
-- [[Brabo Choke]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Submissions/Body Triangle RNC]]
+- [[Transitions/Cross Collar Choke]]
+- [[Submissions/Armbar from Back]]
+- [[Submissions/Armbar from Back with Legs]]
+- [[Transitions/Choke from Crucifix]]
+- [[Transitions/Clock Choke]]
+- [[Submissions/Brabo Choke]]
 
 
 </section>
@@ -255,14 +255,14 @@ The bow and arrow operates as a blood choke targeting both carotid arteries simu
 
 ## Additional Related Content
 
-- [[Seat Belt Control Back]] - Primary starting position providing the foundational over-under grip for collar entry
-- [[Back Control]] - Parent positional framework from which the bow and arrow is executed
-- [[Body Triangle]] - Alternative leg control configuration that enhances bow and arrow finishing power
-- [[Bow and Arrow Choke]] - General bow and arrow technique sharing identical finishing mechanics
-- [[Turtle]] - Common position preceding back control entry and potential escape destination for defender
-- [[Half Guard]] - Escape destination when defender successfully counters during the transition window
-- [[Gift Wrap]] - Alternative upper body control from back that can set up collar access
-- [[Crucifix]] - Related back control variation offering alternative submission paths when bow and arrow is defended
+- [[Positions/Back Control/Seat Belt Control Back]] - Primary starting position providing the foundational over-under grip for collar entry
+- [[Positions/Back Control]] - Parent positional framework from which the bow and arrow is executed
+- [[Positions/Back Control/Body Triangle]] - Alternative leg control configuration that enhances bow and arrow finishing power
+- [[Transitions/Bow and Arrow Choke]] - General bow and arrow technique sharing identical finishing mechanics
+- [[Positions/Turtle]] - Common position preceding back control entry and potential escape destination for defender
+- [[Positions/Half Guard]] - Escape destination when defender successfully counters during the transition window
+- [[Positions/Gift Wrap]] - Alternative upper body control from back that can set up collar access
+- [[Positions/Crucifix]] - Related back control variation offering alternative submission paths when bow and arrow is defended
 
 
 </section>

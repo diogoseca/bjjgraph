@@ -209,17 +209,17 @@ This position is primarily encountered in gi-based competition and training envi
 
 ## Available Attacks
 
-### [[Lapel Grip Break and Posture Recovery]] (17% of attempts)
+### [[Transitions/Lapel Grip Break and Posture Recovery]] (17% of attempts)
 
-### [[Leg Extraction from Lapel Wrap]] (18% of attempts)
+### [[Transitions/Leg Extraction from Lapel Wrap]] (18% of attempts)
 
-### [[Stack Pass with Lapel Control Negation]] (15% of attempts)
+### [[Transitions/Stack Pass with Lapel Control Negation]] (15% of attempts)
 
-### [[Standing Guard Pass with Distance Creation]] (14% of attempts)
+### [[Transitions/Standing Guard Pass with Distance Creation]] (14% of attempts)
 
-### [[Smash Pass Counter]] (17% of attempts)
+### [[Transitions/Smash Pass Counter]] (17% of attempts)
 
-### [[Standing Reset to Open Guard]] (19% of attempts)
+### [[Transitions/Standing Reset to Open Guard]] (19% of attempts)
 
 
 
@@ -230,23 +230,23 @@ This position is primarily encountered in gi-based competition and training envi
 ## Decision Making from This Position
 
 **If opponent has just established the lapel wrap and is still securing their grip:**
-- Execute **[[Immediate Posture and Grip Strip]]** → [[Open Guard]] (Probability: 50%)
-- Execute **[[Leg Extraction from Lapel Wrap]]** → [[Combat Base]] (Probability: 45%)
+- Execute **[[Immediate Posture and Grip Strip]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Leg Extraction from Lapel Wrap]]** → [[Positions/Combat Base]] (Probability: 45%)
 
 
 **If opponent has secure lapel control and is creating angles for sweeps:**
-- Execute **[[Standing Reset to Open Guard]]** → [[Standing Guard]] (Probability: 55%)
-- Execute **[[Lapel Grip Break and Posture Recovery]]** → [[Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/Standing Reset to Open Guard]]** → [[Positions/Standing Guard]] (Probability: 55%)
+- Execute **[[Transitions/Lapel Grip Break and Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 40%)
 
 
 **If opponent begins sweeping motion or off-balancing attempts:**
-- Execute **[[Stack Pass with Lapel Control Negation]]** → [[Side Control]] (Probability: 40%)
-- Execute **[[Pressure Pass to Half Guard]]** → [[Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Stack Pass with Lapel Control Negation]]** → [[Positions/Side Control]] (Probability: 40%)
+- Execute **[[Pressure Pass to Half Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
 
 
 **If opponent establishes secondary grips and multiple control points:**
-- Execute **[[Standing Extraction with Distance]]** → [[Standing Guard]] (Probability: 50%)
-- Execute **[[Systematic Grip Breaking Sequence]]** → [[Combat Base]] (Probability: 35%)
+- Execute **[[Standing Extraction with Distance]]** → [[Positions/Standing Guard]] (Probability: 50%)
+- Execute **[[Systematic Grip Breaking Sequence]]** → [[Positions/Combat Base]] (Probability: 35%)
 
 
 
@@ -373,12 +373,12 @@ Partner in Ringworm Guard attempts various sweeps and back-taking attacks while 
 
 ## Related Positions and Techniques
 
-- **[[Worm Guard]]** - Related defensive challenge - similar lapel-based control requiring comparable extraction principles
-- **[[Squid Guard]]** - Sister position defense - another Keenan Cornelius lapel guard requiring related defensive concepts
-- **[[Lapel Guard]]** - General defensive category - Ringworm is a specific variation requiring specialized counters
-- **[[Open Guard]]** - Target position after successful extraction - neutral position to restart passing game
-- **[[Combat Base]]** - Intermediate defensive position - common stage in extraction sequence
-- **[[Headquarters Position]]** - Passing position after standing reset - allows safe distance management and passing entries
+- **[[Positions/Worm Guard]]** - Related defensive challenge - similar lapel-based control requiring comparable extraction principles
+- **[[Positions/Squid Guard]]** - Sister position defense - another Keenan Cornelius lapel guard requiring related defensive concepts
+- **[[Positions/Lapel Guard]]** - General defensive category - Ringworm is a specific variation requiring specialized counters
+- **[[Positions/Open Guard]]** - Target position after successful extraction - neutral position to restart passing game
+- **[[Positions/Combat Base]]** - Intermediate defensive position - common stage in extraction sequence
+- **[[Positions/Headquarters Position]]** - Passing position after standing reset - allows safe distance management and passing entries
 
 
 </section>

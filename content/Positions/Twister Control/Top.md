@@ -212,17 +212,17 @@ One critical aspect that differentiates elite-level Twister Control from interme
 
 ## Available Attacks
 
-### [[Twister Finish]] (30% of attempts)
+### [[Transitions/Twister Finish]] (30% of attempts)
 
-### [[Back Take]] (23% of attempts)
+### [[Transitions/Back Take]] (23% of attempts)
 
-### [[Guillotine Choke]] (15% of attempts)
+### [[Transitions/Guillotine Choke]] (15% of attempts)
 
-### [[Calf Slicer]] (12% of attempts)
+### [[Transitions/Calf Slicer]] (12% of attempts)
 
-### [[Neck Crank]] (11% of attempts)
+### [[Transitions/Neck Crank]] (11% of attempts)
 
-### [[Twister]] (9% of attempts)
+### [[Submissions/Twister]] (9% of attempts)
 
 
 
@@ -233,23 +233,23 @@ One critical aspect that differentiates elite-level Twister Control from interme
 ## Decision Making from This Position
 
 **Opponent is stationary and defending with minimal movement:**
-- Execute **[[Hunt Twister Finish]]** → [[Game Over]] (Probability: 45%)
-- Execute **[[Transition to Guillotine]]** → [[Guillotine Control]] (Probability: 55%)
+- Execute **[[Hunt Twister Finish]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Transition to Guillotine]]** → [[Positions/Guillotine Control]] (Probability: 55%)
 
 
 **Opponent is actively hand fighting and creating frames:**
-- Execute **[[Attack Extended Arm]]** → [[Armbar Control]] (Probability: 50%)
-- Execute **[[Increase Rotation Pressure]]** → [[Twister Control]] (Probability: 50%)
+- Execute **[[Attack Extended Arm]]** → [[Positions/Armbar Control]] (Probability: 50%)
+- Execute **[[Increase Rotation Pressure]]** → [[Positions/Twister Control]] (Probability: 50%)
 
 
 **Opponent is working to free trapped leg from entanglement:**
-- Execute **[[Recapture Leg Immediately]]** → [[Twister Control]] (Probability: 60%)
-- Execute **[[Transition to Back Control]]** → [[Back Control]] (Probability: 40%)
+- Execute **[[Recapture Leg Immediately]]** → [[Positions/Twister Control]] (Probability: 60%)
+- Execute **[[Transition to Back Control]]** → [[Positions/Back Control]] (Probability: 40%)
 
 
 **Opponent turns into you sacrificing back to escape twist:**
-- Execute **[[Guillotine Choke]]** → [[Game Over]] (Probability: 55%)
-- Execute **[[Front Headlock Series]]** → [[Front Headlock]] (Probability: 45%)
+- Execute **[[Transitions/Guillotine Choke]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Front Headlock Series]]** → [[Positions/Front Headlock]] (Probability: 45%)
 
 
 
@@ -346,11 +346,11 @@ Partner provides specific defensive reactions from Twister Control bottom. Pract
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Alternative control position to transition to when Twister Control breaks down
-- **[[Crab Ride]]** - Related back exposure position with similar control concepts and entry pathways
-- **[[Lockdown]]** - Bottom position in 10th Planet system that leads to truck and Twister entries
-- **[[Front Headlock]]** - Alternative control when opponent turns into you escaping Twister rotation
-- **[[Guillotine Control]]** - Submission control position accessible when opponent exposes neck during escape
+- **[[Positions/Back Control]]** - Alternative control position to transition to when Twister Control breaks down
+- **[[Positions/Crab Ride]]** - Related back exposure position with similar control concepts and entry pathways
+- **[[Positions/Half Guard/Lockdown]]** - Bottom position in 10th Planet system that leads to truck and Twister entries
+- **[[Positions/Front Headlock]]** - Alternative control when opponent turns into you escaping Twister rotation
+- **[[Positions/Guillotine Control]]** - Submission control position accessible when opponent exposes neck during escape
 
 
 </section>

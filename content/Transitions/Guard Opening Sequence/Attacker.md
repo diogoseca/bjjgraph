@@ -180,7 +180,7 @@ description: "How to execute guard opening in BJJ. Step-by-step posture, grip fi
 
 As the attacker executing the Guard Opening Sequence, your objective is to systematically dismantle the closed guard structure through a methodical progression of posture establishment, grip dominance, distance creation, and mechanical opening pressure. This is not a single technique but a complete system that chains multiple skills into one flowing sequence. Your success depends on winning each micro-battle in order: posture before grips, grips before distance, distance before opening pressure. Skipping any phase exposes you to sweeps and submissions that punish impatience. The guard opener who understands this progression and executes it with patience and precision will consistently advance to open guard passing positions against all levels of closed guard players.
 
-**From Position**: [[Closed Guard]] (Top)
+**From Position**: [[Positions/Closed Guard]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ As the attacker executing the Guard Opening Sequence, your objective is to syste
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Closed Guard]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -245,11 +245,11 @@ As the attacker executing the Guard Opening Sequence, your objective is to syste
 
 ## Opponent Counters
 
-- **Opponent breaks your posture forward with collar and sleeve grips** (Effectiveness: High) - Your Response: Do not fight strength with strength. Walk your hands forward on their hips or belt while keeping your elbows tight, then explosively sit back and re-establish posture. Alternatively, hug their head and shoulder tightly, stand up while maintaining the hug, then create distance once standing. → Leads to [[Closed Guard]]
-- **Opponent elevates hips and threatens triangle or omoplata as you create distance** (Effectiveness: High) - Your Response: Immediately posture up and drive your elbows to the inside of their knees. Control their hips with heavy downward pressure through your grips. If they have already started triangle mechanics, pull your trapped arm out by driving your same-side knee into their hip while turning toward the trapped arm. Do not allow their hips to stay elevated. → Leads to [[Closed Guard]]
-- **Opponent hooks your leg for elevator sweep during standing guard break** (Effectiveness: Medium) - Your Response: Shift your weight to the hooked leg side and base out with your hands if necessary. Do not try to stand on the hooked leg. Instead, step the free leg out wide for balance, strip the hook with your grip on their ankle, then continue the opening sequence from a wider base. → Leads to [[Mount]]
-- **Opponent grips your ankle or pant leg as you stand to prevent full extension** (Effectiveness: Medium) - Your Response: Use your free hand to strip the grip by attacking their fingers or thumb line. Alternatively, sit back into combat base temporarily, control both their legs at the knees, then attempt standing again with better grip prevention. Do not continue standing with an uncontrolled grip on your leg. → Leads to [[Closed Guard]]
-- **Opponent transitions to open guard retention with frames and hooks before you can initiate a pass** (Effectiveness: Low) - Your Response: This is acceptable - you have achieved your primary goal of opening the guard. Immediately establish strong passing grips on their pants at the knees and heavy collar or shoulder pressure to prevent them from setting up their preferred open guard structure. Use your momentum to flow directly into your strongest passing sequence. → Leads to [[Open Guard]]
+- **Opponent breaks your posture forward with collar and sleeve grips** (Effectiveness: High) - Your Response: Do not fight strength with strength. Walk your hands forward on their hips or belt while keeping your elbows tight, then explosively sit back and re-establish posture. Alternatively, hug their head and shoulder tightly, stand up while maintaining the hug, then create distance once standing. → Leads to [[Positions/Closed Guard]]
+- **Opponent elevates hips and threatens triangle or omoplata as you create distance** (Effectiveness: High) - Your Response: Immediately posture up and drive your elbows to the inside of their knees. Control their hips with heavy downward pressure through your grips. If they have already started triangle mechanics, pull your trapped arm out by driving your same-side knee into their hip while turning toward the trapped arm. Do not allow their hips to stay elevated. → Leads to [[Positions/Closed Guard]]
+- **Opponent hooks your leg for elevator sweep during standing guard break** (Effectiveness: Medium) - Your Response: Shift your weight to the hooked leg side and base out with your hands if necessary. Do not try to stand on the hooked leg. Instead, step the free leg out wide for balance, strip the hook with your grip on their ankle, then continue the opening sequence from a wider base. → Leads to [[Positions/Mount]]
+- **Opponent grips your ankle or pant leg as you stand to prevent full extension** (Effectiveness: Medium) - Your Response: Use your free hand to strip the grip by attacking their fingers or thumb line. Alternatively, sit back into combat base temporarily, control both their legs at the knees, then attempt standing again with better grip prevention. Do not continue standing with an uncontrolled grip on your leg. → Leads to [[Positions/Closed Guard]]
+- **Opponent transitions to open guard retention with frames and hooks before you can initiate a pass** (Effectiveness: Low) - Your Response: This is acceptable - you have achieved your primary goal of opening the guard. Immediately establish strong passing grips on their pants at the knees and heavy collar or shoulder pressure to prevent them from setting up their preferred open guard structure. Use your momentum to flow directly into your strongest passing sequence. → Leads to [[Positions/Open Guard]]
 
 
 </section>

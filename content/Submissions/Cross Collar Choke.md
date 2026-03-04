@@ -22,8 +22,8 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries
-**Starting Position**: [[Closed Guard]]
-**From Position**: [[Closed Guard]] (Bottom)
+**Starting Position**: [[Positions/Closed Guard]]
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -74,8 +74,8 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Open Guard]] | 17% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 17% |
 
 
 </section>
@@ -242,16 +242,16 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 
 ## From Which Positions?
 
-- [[Closed Guard]]
-- [[Mount]]
-- [[Side Control]]
-- [[North-South]]
-- [[Turtle]]
-- [[Half Guard]]
-- [[Open Guard]]
-- [[Spider Guard]]
-- [[Collar Sleeve Guard]]
-- [[Knee on Belly]]
+- [[Positions/Closed Guard]]
+- [[Positions/Mount]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
+- [[Positions/Turtle]]
+- [[Positions/Half Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/Spider Guard]]
+- [[Positions/Collar Sleeve Guard]]
+- [[Positions/Knee on Belly]]
 
 
 </section>
@@ -260,17 +260,17 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 
 ## Related Submissions
 
-- [[Ezekiel Choke]]
-- [[Baseball Bat Choke]]
-- [[Bow and Arrow Choke]]
-- [[Breadcutter Choke]]
-- [[Clock Choke]]
-- [[Triangle Choke]]
-- [[Armbar from Guard]]
-- [[Kimura]]
-- [[Omoplata]]
-- [[Guillotine Choke]]
-- [[Arm Triangle]]
+- [[Submissions/Ezekiel Choke]]
+- [[Transitions/Baseball Bat Choke]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Transitions/Breadcutter Choke]]
+- [[Transitions/Clock Choke]]
+- [[Transitions/Triangle Choke]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Kimura]]
+- [[Transitions/Omoplata]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Arm Triangle]]
 
 
 </section>
@@ -279,16 +279,16 @@ The Cross Collar Choke represents one of the most fundamental and effective gi s
 
 ## Additional Related Content
 
-- [[Closed Guard]] - Primary position for attacking Cross Collar Choke from bottom
-- [[Mount]] - High-percentage position for Cross Collar Choke from top
-- [[Side Control]] - Alternative position offering collar choke opportunities with weight advantage
-- [[Knee on Belly]] - Transitional position that exposes collar for choke setups
-- [[Half Guard]] - Position where collar grips can be established before advancing
-- [[Ezekiel Choke]] - Alternative choke finish from mount when collar grips are defended
-- [[Triangle Choke]] - Primary backup attack when opponent defends Cross Collar with frames
-- [[Armbar from Mount]] - Common follow-up when opponent defends Cross Collar by straightening arms
-- [[Armbar from Guard]] - Chain attack when opponent extends arms defending the collar choke
-- [[Bow and Arrow Choke]] - Related collar choke requiring similar grip depth and positioning
+- [[Positions/Closed Guard]] - Primary position for attacking Cross Collar Choke from bottom
+- [[Positions/Mount]] - High-percentage position for Cross Collar Choke from top
+- [[Positions/Side Control]] - Alternative position offering collar choke opportunities with weight advantage
+- [[Positions/Knee on Belly]] - Transitional position that exposes collar for choke setups
+- [[Positions/Half Guard]] - Position where collar grips can be established before advancing
+- [[Submissions/Ezekiel Choke]] - Alternative choke finish from mount when collar grips are defended
+- [[Transitions/Triangle Choke]] - Primary backup attack when opponent defends Cross Collar with frames
+- [[Submissions/Armbar from Mount]] - Common follow-up when opponent defends Cross Collar by straightening arms
+- [[Submissions/Armbar from Guard]] - Chain attack when opponent extends arms defending the collar choke
+- [[Transitions/Bow and Arrow Choke]] - Related collar choke requiring similar grip depth and positioning
 
 
 </section>

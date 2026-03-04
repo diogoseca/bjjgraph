@@ -158,7 +158,7 @@ The primary defensive challenge lies in managing multiple simultaneous threats. 
 
 The most favorable defensive outcomes involve either stripping the collar grip entirely and reverting to standard back control defense, or using the opponent's commitment to the collar finish as a window for hip escape to half guard. Understanding the attacker's submission chain logic—collar choke to rear naked choke to armbar—allows the defender to anticipate transitions and time defensive actions during the gaps between attacks rather than fighting a fully committed finish.
 
-**Opponent's Starting Position**: [[Invisible Collar]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Invisible Collar]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The most favorable defensive outcomes involve either stripping the collar grip e
 ### 1. Two-on-one grip strip on the choking wrist, pulling their hand away from your collar while tucking chin tight to chest
 
 - **When to use**: As soon as you feel fingers penetrating your collar or recognize the collar grip is being established, before full depth is achieved
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Strips the collar grip entirely, forcing opponent back to standard back control attacks without the invisible collar advantage
 - **Risk**: Both hands committed to grip removal leaves you vulnerable to immediate rear naked choke switch or armbar on your extended arms
 
 ### 2. Hip escape toward the non-collar side while bridging hard to create space, threading your bottom leg free from hooks
 
 - **When to use**: When opponent commits fully to finishing the collar choke and loosens hook control or seatbelt structure during the finishing attempt
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Escape to half guard where the collar grip loses its finishing angle and you recover a guard position with offensive options
 - **Risk**: If escape fails, you may end up flat with hooks re-secured and the collar grip potentially deeper from the movement
 
 ### 3. Turn into the collar grip side and drive your shoulder to the mat while controlling opponent's choking elbow to prevent rotation
 
 - **When to use**: When the choke is already partially locked and two-on-one strip is failing, as a last-resort survival technique to buy time
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Turns the choking angle into a less effective position and may create space to resume grip fighting or transition to turtle
 - **Risk**: Turning into the collar side can actually tighten the choke if you do not control the elbow simultaneously, and exposes you to crucifix entry
 
 ### 4. Explosive bridge toward the collar side combined with full body rotation attempt to create scramble
 
 - **When to use**: Emergency defense when choke is nearly locked and controlled escapes have failed, requiring immediate positional disruption
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough positional chaos to disrupt the finishing mechanics and potentially escape to half guard or turtle
 - **Risk**: High energy expenditure that may leave you exhausted if it fails, and explosive movement can actually help opponent tighten the choke if not timed with a gap in their control
 
@@ -228,11 +228,11 @@ The most favorable defensive outcomes involve either stripping the collar grip e
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Strip the collar grip entirely through two-on-one wrist control before the opponent achieves full depth. Pull their choking hand away from your neck while maintaining tight chin tuck. Once the grip is broken, immediately transition to standard back escape sequences targeting hook removal and hip escape.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the moment when the opponent commits to finishing the choke by loosening hook control or seatbelt structure. Hip escape hard toward the non-collar side while threading your bottom leg free from their hooks. Use the opponent's upper body commitment to the collar as an anchor point for your hip escape, arriving in half guard where their collar grip loses finishing angle.
 

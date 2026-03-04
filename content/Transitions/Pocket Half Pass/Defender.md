@@ -154,7 +154,7 @@ description: "Master defending the Pocket Half Pass in BJJ. Recognition cues, de
 
 Defending the Pocket Half Pass requires recognizing the specific moment when the top player commits to extracting their trapped leg and transitioning from positional control to active passing. The defender's window of opportunity is narrow but well-defined: once the passer shifts weight to begin extraction, they create brief moments of instability that can be exploited for guard recovery, sweep attempts, or positional transitions. The key defensive principle is preventing the flattening that precedes the pass rather than trying to stop the extraction itself. If the defender allows complete flattening with underhook and crossface control, the pass becomes extremely difficult to prevent. Proactive defense through maintaining hip mobility, frame creation, and threatening offensive responses forces the passer to address defensive actions rather than focusing on pass completion.
 
-**Opponent's Starting Position**: [[Pocket Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Pocket Half Guard]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the Pocket Half Pass requires recognizing the specific moment when the
 ### 1. Bridge explosively during the extraction phase when the passer's weight shifts to their trapped knee side
 
 - **When to use**: The moment you feel the passer begin to rotate their hip for leg extraction - their base is most compromised during this weight shift
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Passer is swept off balance and you achieve top position in half guard or scramble to a neutral position
 - **Risk**: If the bridge is poorly timed or the passer has stable base, you waste significant energy and may accelerate your own flattening
 
 ### 2. Scoot hips underneath the passer to enter deep half guard before extraction is complete
 
 - **When to use**: When the passer commits forward pressure for flattening but before the extraction begins - use their forward momentum to slide underneath
-- **Targets**: [[Pocket Half Guard]]
+- **Targets**: [[Positions/Half Guard/Pocket Half Guard]]
 - **If successful**: You transition to deep half guard where sweeping mechanics are favorable and the pass attempt is completely nullified
 - **Risk**: If the passer recognizes the entry and sprawls quickly, you may end up flattened in a worse position with less mobility
 
 ### 3. Insert knee shield by driving your shin across the passer's hip line while framing against their shoulder
 
 - **When to use**: When you detect the initial weight shift indicating pass preparation but before complete flattening occurs - requires remaining hip mobility
-- **Targets**: [[Pocket Half Guard]]
+- **Targets**: [[Positions/Half Guard/Pocket Half Guard]]
 - **If successful**: You recover knee shield half guard, creating distance and defensive frame that resets the passing sequence entirely
 - **Risk**: If the passer has achieved deep crossface and full flattening, the knee shield insertion attempt may fail and expose your arm
 
 ### 4. Swim for underhook recovery by framing the passer's shoulder to create space, then re-threading your arm for the underhook
 
 - **When to use**: During any moment where the passer's crossface loosens or their weight shifts off your upper body, creating a brief window for arm movement
-- **Targets**: [[Pocket Half Guard]]
+- **Targets**: [[Positions/Half Guard/Pocket Half Guard]]
 - **If successful**: You recover the underhook battle and return to an offensive pocket half guard bottom position with sweep and back-take threats
 - **Risk**: The arm movement during the swim can be intercepted by the passer for kimura or americana attacks if poorly timed
 
@@ -226,11 +226,11 @@ Defending the Pocket Half Pass requires recognizing the specific moment when the
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive bridge to coincide with the passer's extraction weight shift, using their momentary instability to sweep them into bottom half guard. The bridge must be powerful enough to compromise their base while their weight is committed to the extraction side.
 
-### → [[Pocket Half Guard]]
+### → [[Positions/Half Guard/Pocket Half Guard]]
 
 Prevent the pass from completing by recovering knee shield or deep half position before the extraction succeeds. This requires early recognition of the pass initiation and immediate defensive response within the first 1-2 seconds. Active hip movement and frame creation are essential to maintain enough mobility for recovery.
 

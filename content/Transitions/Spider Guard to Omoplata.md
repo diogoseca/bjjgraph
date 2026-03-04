@@ -21,7 +21,7 @@ This transition exemplifies the concept of converting defensive reactions into o
 
 Understanding this technique is essential for any serious spider guard player because it forces opponents into a lose-lose scenario: respect the omoplata threat and become passive (opening sweep opportunities), or aggressively pass and expose themselves to the shoulder attack. The omoplata control position itself branches into multiple high-percentage finishes including the shoulder lock, sweeps to mount, and back takes, making this transition a gateway to an entire offensive system rather than a single isolated attack.
 
-**From Position**: [[Spider Guard]] (Bottom)
+**From Position**: [[Positions/Spider Guard]] (Bottom)
 **Success Rate**: 52%
 
 </section>
@@ -32,9 +32,9 @@ Understanding this technique is essential for any serious spider guard player be
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Omoplata Control]] | 55% |
-| Failure | [[Spider Guard]] | 30% |
-| Counter | [[Spider Guard]] | 15% |
+| Success | [[Positions/Omoplata Control]] | 55% |
+| Failure | [[Positions/Spider Guard]] | 30% |
+| Counter | [[Positions/Spider Guard]] | 15% |
 
 
 </section>
@@ -195,29 +195,29 @@ The Spider Guard to Omoplata serves as a cornerstone attack in modern gi guard s
 ## Related Techniques
 
 
-- [[Spider Guard]] - Starting position - foundational guard where this transition initiates
+- [[Positions/Spider Guard]] - Starting position - foundational guard where this transition initiates
 
-- [[Omoplata Control]] - Target position - shoulder lock control achieved on success
+- [[Positions/Omoplata Control]] - Target position - shoulder lock control achieved on success
 
-- [[Omoplata from Guard]] - Related submission - primary finishing technique from omoplata control
+- [[Submissions/Omoplata from Guard]] - Related submission - primary finishing technique from omoplata control
 
-- [[Triangle Setup]] - Chain attack - primary alternative when omoplata entry is defended
+- [[Transitions/Triangle Setup]] - Chain attack - primary alternative when omoplata entry is defended
 
-- [[Omoplata Sweep]] - Follow-up transition - sweep option from established omoplata control
+- [[Transitions/Omoplata Sweep]] - Follow-up transition - sweep option from established omoplata control
 
-- [[Omoplata to Back]] - Advanced follow-up - back take when opponent defends the shoulder lock
+- [[Transitions/Omoplata to Back]] - Advanced follow-up - back take when opponent defends the shoulder lock
 
-- [[Lasso Guard]] - Related guard - lasso variant provides enhanced arm control for omoplata entry
+- [[Positions/Lasso Guard]] - Related guard - lasso variant provides enhanced arm control for omoplata entry
 
-- [[Collar Sleeve Guard]] - Alternative setup - similar open guard with omoplata potential
+- [[Positions/Collar Sleeve Guard]] - Alternative setup - similar open guard with omoplata potential
 
-- [[Closed Guard to Omoplata]] - Related transition - omoplata entry from closed guard position
+- [[Transitions/Closed Guard to Omoplata]] - Related transition - omoplata entry from closed guard position
 
-- [[Rolling Omoplata]] - Related submission - rolling entry variation when opponent is heavy on top
+- [[Submissions/Rolling Omoplata]] - Related submission - rolling entry variation when opponent is heavy on top
 
-- [[Spider Guard Pass]] - Opposing technique - what top player attempts that creates omoplata openings
+- [[Transitions/Spider Guard Pass]] - Opposing technique - what top player attempts that creates omoplata openings
 
-- [[Balloon Sweep]] - Alternative attack - sweep option from same spider guard position
+- [[Transitions/Balloon Sweep]] - Alternative attack - sweep option from same spider guard position
 
 
 </section>

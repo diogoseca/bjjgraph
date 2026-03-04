@@ -21,7 +21,7 @@ The fundamental challenge lies in the mechanical reality that the overhook creat
 
 Timing proves critical to successful execution. The optimal window for escape occurs when the bottom player adjusts their grip, transitions between positions, or commits to a submission setup that temporarily reduces their overhook pressure. Attempting the escape against a fully consolidated New York Control position with maximum overhook depth yields significantly lower success rates. Advanced practitioners develop sensitivity to these transitional moments, executing the extraction during the brief mechanical windows rather than fighting against established control.
 
-**From Position**: [[New York Control]] (Top)
+**From Position**: [[Positions/Rubber Guard/New York Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Timing proves critical to successful execution. The optimal window for escape oc
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Success | [[Open Guard]] | 15% |
-| Failure | [[New York Control]] | 25% |
-| Counter | [[Triangle Control]] | 10% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Success | [[Positions/Open Guard]] | 15% |
+| Failure | [[Positions/Rubber Guard/New York Control]] | 25% |
+| Counter | [[Positions/Triangle Control]] | 10% |
 
 
 </section>
@@ -192,23 +192,23 @@ Overhook Escape serves as the critical gateway technique for defending the entir
 ## Related Techniques
 
 
-- [[New York Control]] - Starting position requiring this escape
+- [[Positions/Rubber Guard/New York Control]] - Starting position requiring this escape
 
-- [[Half Guard]] - Primary success outcome position
+- [[Positions/Half Guard]] - Primary success outcome position
 
-- [[Open Guard]] - Alternative success outcome position
+- [[Positions/Open Guard]] - Alternative success outcome position
 
-- [[Triangle Control]] - Counter position if escape fails
+- [[Positions/Triangle Control]] - Counter position if escape fails
 
-- [[Mission Control]] - Related rubber guard position requiring similar escape principles
+- [[Positions/Rubber Guard/Mission Control]] - Related rubber guard position requiring similar escape principles
 
-- [[Posture Recovery]] - Follow-up technique after successful extraction
+- [[Transitions/Posture Recovery]] - Follow-up technique after successful extraction
 
-- [[Stack Pass]] - Alternative escape approach when extraction fails
+- [[Transitions/Stack Pass]] - Alternative escape approach when extraction fails
 
-- [[Gogoplata]] - Submission threat during failed extraction
+- [[Transitions/Gogoplata]] - Submission threat during failed extraction
 
-- [[Closed Guard]] - Position following successful posture recovery after escape
+- [[Positions/Closed Guard]] - Position following successful posture recovery after escape
 
 
 </section>

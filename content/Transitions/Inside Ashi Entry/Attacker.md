@@ -174,7 +174,7 @@ description: "How to execute Inside Ashi Entry in BJJ. Attacking perspective wit
 
 Inside Ashi Entry is a fundamental transition in modern leg lock systems that establishes the inside position on your opponent's leg. This entry creates immediate offensive opportunities for inside heel hooks, straight ankle locks, and transitions to more dominant leg entanglements. The inside position refers to having your outside leg positioned between your opponent's legs, creating a wedge that controls their hip and prevents escape. This entry is particularly effective from seated guard, single leg X-guard, or when your opponent is standing in your open guard. The key to successful execution lies in proper angle creation, hip control, and timing the entry when your opponent's weight is committed forward. Inside Ashi is considered one of the safest leg entanglements to enter because it offers strong control while maintaining defensive integrity against counter leg attacks.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -228,9 +228,9 @@ Inside Ashi Entry is a fundamental transition in modern leg lock systems that es
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 65% |
-| Failure | [[Open Guard]] | 25% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 65% |
+| Failure | [[Positions/Open Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -239,11 +239,11 @@ Inside Ashi Entry is a fundamental transition in modern leg lock systems that es
 
 ## Opponent Counters
 
-- **Opponent sprawls hard and drives weight forward over your guard before entry is complete** (Effectiveness: High) - Your Response: Immediately abandon the entry and transition to butterfly guard or technical standup. If committed, switch to a heel grab sweep or transition to deep half guard to work from underneath the pressure. → Leads to [[Open Guard]]
-- **Opponent steps back and pulls their leg out as you attempt to thread inside position** (Effectiveness: Medium) - Your Response: Follow their backward movement by hip escaping forward, maintaining grips. Transition to single leg X-guard or standing guard rather than losing control completely. Use their backward momentum to elevate them. → Leads to [[Open Guard]]
-- **Opponent immediately counters with their own leg entanglement on your exposed leg** (Effectiveness: Medium) - Your Response: Prioritize establishing your inside position first and clearing your trapped leg. Use your outside leg to block their leg from advancing. If necessary, accept a neutral 50-50 position rather than being caught in a bad entanglement. → Leads to [[Open Guard]]
-- **Opponent rotates their hip away and circles out of the entanglement** (Effectiveness: Low) - Your Response: Follow their rotation by scooting your hips and maintaining the inside leg wedge pressure. Transition to outside ashi or saddle position as they rotate. Never allow them to complete a full rotation without following. → Leads to [[Open Guard]]
-- **Opponent grabs your free leg and threatens a heel hook counter** (Effectiveness: High) - Your Response: Immediately address the threat by pulling your free leg back and establishing a defensive frame. If needed, release your attack temporarily to clear your leg, then re-enter. Never ignore counter leg attacks in exchange for your own attack. → Leads to [[Open Guard]]
+- **Opponent sprawls hard and drives weight forward over your guard before entry is complete** (Effectiveness: High) - Your Response: Immediately abandon the entry and transition to butterfly guard or technical standup. If committed, switch to a heel grab sweep or transition to deep half guard to work from underneath the pressure. → Leads to [[Positions/Open Guard]]
+- **Opponent steps back and pulls their leg out as you attempt to thread inside position** (Effectiveness: Medium) - Your Response: Follow their backward movement by hip escaping forward, maintaining grips. Transition to single leg X-guard or standing guard rather than losing control completely. Use their backward momentum to elevate them. → Leads to [[Positions/Open Guard]]
+- **Opponent immediately counters with their own leg entanglement on your exposed leg** (Effectiveness: Medium) - Your Response: Prioritize establishing your inside position first and clearing your trapped leg. Use your outside leg to block their leg from advancing. If necessary, accept a neutral 50-50 position rather than being caught in a bad entanglement. → Leads to [[Positions/Open Guard]]
+- **Opponent rotates their hip away and circles out of the entanglement** (Effectiveness: Low) - Your Response: Follow their rotation by scooting your hips and maintaining the inside leg wedge pressure. Transition to outside ashi or saddle position as they rotate. Never allow them to complete a full rotation without following. → Leads to [[Positions/Open Guard]]
+- **Opponent grabs your free leg and threatens a heel hook counter** (Effectiveness: High) - Your Response: Immediately address the threat by pulling your free leg back and establishing a defensive frame. If needed, release your attack temporarily to clear your leg, then re-enter. Never ignore counter leg attacks in exchange for your own attack. → Leads to [[Positions/Open Guard]]
 
 
 </section>

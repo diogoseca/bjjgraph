@@ -17,7 +17,7 @@ description: "Master the Knee Tap takedown in BJJ. Wrestling-based technique fro
 
 The Knee Tap is a fundamental wrestling-based takedown that exploits opponent's weight distribution and stance. By attacking the knee while controlling the upper body, you create a mechanical advantage that collapses their base. This technique is particularly effective against opponents who overcommit their weight forward or stand square in their stance. The Knee Tap works across all skill levels and translates seamlessly between gi and no-gi environments. It requires minimal setup compared to more complex takedowns, making it an essential tool for pulling guard practitioners who need reliable standing entries. The technique's beauty lies in its simplicity - by simultaneously pulling the upper body while sweeping the lower support, you create an unstoppable collapse that transitions directly into dominant top positions.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -28,9 +28,9 @@ The Knee Tap is a fundamental wrestling-based takedown that exploits opponent's 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Front Headlock]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Front Headlock]] | 10% |
 
 
 </section>
@@ -188,27 +188,27 @@ The knee tap serves as a critical bridge technique in the standing-to-ground tra
 ## Related Techniques
 
 
-- [[Single Leg Entry]] - Alternative - Similar mechanics with deeper penetration
+- [[Transitions/Single Leg Entry]] - Alternative - Similar mechanics with deeper penetration
 
-- [[Ankle Pick]] - Variation - Lower attack on same leg structure
+- [[Transitions/Ankle Pick]] - Variation - Lower attack on same leg structure
 
-- [[Double Leg Entry]] - Follow-up - Chain when knee tap is defended with step back
+- [[Transitions/Double Leg Entry]] - Follow-up - Chain when knee tap is defended with step back
 
-- [[Snap Down to Front Headlock]] - Setup - Creates ideal weight distribution for knee tap
+- [[Transitions/Snap Down to Front Headlock]] - Setup - Creates ideal weight distribution for knee tap
 
-- [[Arm Drag to Back]] - Setup - Establishes angle and off-balance for entry
+- [[Transitions/Arm Drag to Back]] - Setup - Establishes angle and off-balance for entry
 
-- [[Side Control]] - Ending position - Primary landing position after completion
+- [[Positions/Side Control]] - Ending position - Primary landing position after completion
 
-- [[Front Headlock]] - Counter to defend - Common opponent response to failed attempts
+- [[Positions/Front Headlock]] - Counter to defend - Common opponent response to failed attempts
 
-- [[Guillotine Choke]] - Counter to avoid - Risk when head position is too low
+- [[Transitions/Guillotine Choke]] - Counter to avoid - Risk when head position is too low
 
-- [[Sprawl]] - Counter to overcome - Primary defensive response
+- [[Transitions/Sprawl]] - Counter to overcome - Primary defensive response
 
-- [[Standing Position]] - Starting position - Where technique initiates
+- [[Positions/Standing Position]] - Starting position - Where technique initiates
 
-- [[Clinch]] - Starting position - Common setup context
+- [[Positions/Clinch]] - Starting position - Common setup context
 
 
 </section>

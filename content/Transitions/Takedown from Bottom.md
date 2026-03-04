@@ -21,7 +21,7 @@ Mechanically, the takedown requires a coordinated sequence of level change, pene
 
 Strategically, this transition serves as the cornerstone of a standing game plan that prioritizes achieving top position against opponents who dominate the grip fight. When combined with snap-downs, arm drags, and collar drags as setup entries, the takedown from bottom creates a comprehensive attacking system from the standing phase. The threat of the takedown itself forces the opponent to defend their legs, opening opportunities for upper body attacks and guard pull entries when the takedown is not directly available. Mastering this transition ensures that a lost grip exchange never translates into a lost positional battle.
 
-**From Position**: [[Standing Position]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, this transition serves as the cornerstone of a standing game plan
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Standing Position]] | 20% |
-| Counter | [[Front Headlock]] | 15% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Standing Position]] | 20% |
+| Counter | [[Positions/Front Headlock]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -192,29 +192,29 @@ The Takedown from Bottom serves as the primary offensive weapon for practitioner
 ## Related Techniques
 
 
-- [[Standing Position]] - Source position from which this takedown is initiated during the standing exchange
+- [[Positions/Standing Position]] - Source position from which this takedown is initiated during the standing exchange
 
-- [[Side Control]] - Primary success target where the attacker establishes dominant top control after completing the takedown
+- [[Positions/Side Control]] - Primary success target where the attacker establishes dominant top control after completing the takedown
 
-- [[Front Headlock]] - Counter position the opponent may achieve by sprawling on the takedown attempt
+- [[Positions/Front Headlock]] - Counter position the opponent may achieve by sprawling on the takedown attempt
 
-- [[Closed Guard]] - Counter position where the opponent pulls guard during the shot to deny the takedown
+- [[Positions/Closed Guard]] - Counter position where the opponent pulls guard during the shot to deny the takedown
 
-- [[Double Leg Entry]] - Primary takedown technique used as the core mechanic for this transition
+- [[Transitions/Double Leg Entry]] - Primary takedown technique used as the core mechanic for this transition
 
-- [[Single Leg Entry]] - Alternative takedown entry used as a chain attack when the double leg is defended
+- [[Transitions/Single Leg Entry]] - Alternative takedown entry used as a chain attack when the double leg is defended
 
-- [[Ankle Pick]] - Low-risk takedown alternative that can be chained from failed penetration steps
+- [[Transitions/Ankle Pick]] - Low-risk takedown alternative that can be chained from failed penetration steps
 
-- [[Body Lock Takedown]] - Close-range takedown variant used when penetration step distance is not available
+- [[Transitions/Body Lock Takedown]] - Close-range takedown variant used when penetration step distance is not available
 
-- [[Level Change Takedown]] - Closely related transition sharing the same fundamental level change mechanics
+- [[Transitions/Level Change Takedown]] - Closely related transition sharing the same fundamental level change mechanics
 
-- [[Arm Drag from Standing]] - Setup technique that clears defensive frames to create lanes for the takedown entry
+- [[Transitions/Arm Drag from Standing]] - Setup technique that clears defensive frames to create lanes for the takedown entry
 
-- [[Snap Down from Standing]] - Complementary setup and chain technique that disrupts opponent posture before the shot
+- [[Transitions/Snap Down from Standing]] - Complementary setup and chain technique that disrupts opponent posture before the shot
 
-- [[Sprawl Defense from Standing]] - Primary defensive counter that the attacker must overcome to complete the takedown
+- [[Transitions/Sprawl Defense from Standing]] - Primary defensive counter that the attacker must overcome to complete the takedown
 
 
 </section>

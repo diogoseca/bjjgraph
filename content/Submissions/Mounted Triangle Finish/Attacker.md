@@ -182,7 +182,7 @@ description: "Master attacking the Mounted Triangle Finish in BJJ. Step-by-step 
 
 Finishing the Mounted Triangle requires precise biomechanical execution that differentiates a controlled submission from a positional stalemate. The finish leverages gravity, adductor squeeze, and proper angle to compress the carotid arteries through bilateral leg pressure combined with the opponent's trapped arm as a fulcrum. Unlike guard triangles where the attacker fights gravity, the mounted variation allows body weight to enhance compression while maintaining positional dominance. The key to consistent finishing is establishing the correct perpendicular angle, controlling the opponent's posture, and applying progressive pressure through hip elevation and leg contraction. Advanced practitioners recognize that the finish is a process of systematic tightening rather than a single explosive squeeze.
 
-**From Position**: [[Mounted Triangle]] (Top)
+**From Position**: [[Positions/Mount/Mounted Triangle]] (Top)
 
 
 </section>
@@ -236,9 +236,9 @@ Finishing the Mounted Triangle requires precise biomechanical execution that dif
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Mounted Triangle]] | 30% |
-| Counter | [[Mount]] | 15% |
-| Counter | [[Closed Guard]] | 5% |
+| Failure | [[Positions/Mount/Mounted Triangle]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 5% |
 
 
 </section>
@@ -247,10 +247,10 @@ Finishing the Mounted Triangle requires precise biomechanical execution that dif
 
 ## Opponent Defenses
 
-- **Opponent clasps hands together and tucks chin aggressively to prevent full carotid compression** (Effectiveness: High) - Your Response: Isolate the defending arm by prying at the wrist or elbow to break the grip, then transition to armbar on the newly exposed arm. Alternatively, increase angle and hip elevation to compress around the clasped hands rather than fighting to separate them. → Leads to [[Mounted Triangle]]
-- **Opponent postures up and straightens their spine to create space between their neck and your thighs** (Effectiveness: Medium) - Your Response: Pull their head back down immediately using both hands behind the skull. If they generate significant upward posture, the space they create often loosens the triangle enough to transition the position back to mount and re-establish the triangle from scratch. → Leads to [[Mount]]
-- **Opponent attempts explosive bridge and roll toward the trapped arm side to reverse the position** (Effectiveness: Low) - Your Response: Post your free hand on the mat toward the direction of the roll, spreading your base to absorb the bridge momentum. The triangle lock itself creates a connection that makes the roll difficult to complete. If the roll gains momentum, follow through and finish the triangle from guard. → Leads to [[Closed Guard]]
-- **Opponent turns their head and body toward the choking leg to relieve neck pressure** (Effectiveness: Medium) - Your Response: Their turning motion exposes the back. Release the triangle and transition immediately to back control with seat belt grip and hook insertion. Their escape attempt becomes your pathway to an even more dominant position. → Leads to [[Mount]]
+- **Opponent clasps hands together and tucks chin aggressively to prevent full carotid compression** (Effectiveness: High) - Your Response: Isolate the defending arm by prying at the wrist or elbow to break the grip, then transition to armbar on the newly exposed arm. Alternatively, increase angle and hip elevation to compress around the clasped hands rather than fighting to separate them. → Leads to [[Positions/Mount/Mounted Triangle]]
+- **Opponent postures up and straightens their spine to create space between their neck and your thighs** (Effectiveness: Medium) - Your Response: Pull their head back down immediately using both hands behind the skull. If they generate significant upward posture, the space they create often loosens the triangle enough to transition the position back to mount and re-establish the triangle from scratch. → Leads to [[Positions/Mount]]
+- **Opponent attempts explosive bridge and roll toward the trapped arm side to reverse the position** (Effectiveness: Low) - Your Response: Post your free hand on the mat toward the direction of the roll, spreading your base to absorb the bridge momentum. The triangle lock itself creates a connection that makes the roll difficult to complete. If the roll gains momentum, follow through and finish the triangle from guard. → Leads to [[Positions/Closed Guard]]
+- **Opponent turns their head and body toward the choking leg to relieve neck pressure** (Effectiveness: Medium) - Your Response: Their turning motion exposes the back. Release the triangle and transition immediately to back control with seat belt grip and hook insertion. Their escape attempt becomes your pathway to an even more dominant position. → Leads to [[Positions/Mount]]
 
 
 </section>

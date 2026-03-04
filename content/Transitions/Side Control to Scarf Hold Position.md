@@ -21,7 +21,7 @@ Strategically, this transition is most effective when the bottom player is activ
 
 At the purple and brown belt level, this transition becomes a deliberate strategic choice rather than an accidental position. Understanding when to shift from standard side control crossface pressure to the perpendicular scarf hold angle allows you to break stalemates against strong defensive bottom players and create new submission threats that were unavailable from the parallel configuration.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 70%
 
 </section>
@@ -32,9 +32,9 @@ At the purple and brown belt level, this transition becomes a deliberate strateg
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Scarf Hold Position]] | 70% |
-| Failure | [[Side Control]] | 20% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control/Scarf Hold Position]] | 70% |
+| Failure | [[Positions/Side Control]] | 20% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Transition to Scarf Hold Position occupies a critical junction in the side c
 ## Related Techniques
 
 
-- [[Side Control]] - Starting position for this transition providing the base control platform
+- [[Positions/Side Control]] - Starting position for this transition providing the base control platform
 
-- [[Scarf Hold Position]] - Target position achieved upon successful execution of this transition
+- [[Positions/Side Control/Scarf Hold Position]] - Target position achieved upon successful execution of this transition
 
-- [[Kesa Gatame]] - Traditional judo terminology for the target scarf hold configuration
+- [[Positions/Side Control/Kesa Gatame]] - Traditional judo terminology for the target scarf hold configuration
 
-- [[Modified Scarf Hold]] - Alternative scarf hold variation accessible from similar transition mechanics
+- [[Positions/Side Control/Modified Scarf Hold]] - Alternative scarf hold variation accessible from similar transition mechanics
 
-- [[Americana]] - Primary submission available from the resulting scarf hold position
+- [[Transitions/Americana]] - Primary submission available from the resulting scarf hold position
 
-- [[Kimura]] - Secondary submission threat from scarf hold exploiting isolated arm
+- [[Transitions/Kimura]] - Secondary submission threat from scarf hold exploiting isolated arm
 
-- [[Arm Triangle]] - Choke option when opponent defends arm isolation during transition
+- [[Transitions/Arm Triangle]] - Choke option when opponent defends arm isolation during transition
 
-- [[Side Control to Mount]] - Alternative positional advancement from the same starting position
+- [[Transitions/Side Control to Mount]] - Alternative positional advancement from the same starting position
 
-- [[Side Control to North-South]] - Alternative transition option from the same starting position
+- [[Transitions/Side Control to North-South]] - Alternative transition option from the same starting position
 
-- [[Side Control to Kesa Gatame]] - Related transition targeting the traditional judo Kesa Gatame variant from the same starting position
+- [[Transitions/Side Control to Kesa Gatame]] - Related transition targeting the traditional judo Kesa Gatame variant from the same starting position
 
-- [[Kesa Gatame to Modified Scarf Hold]] - Follow-up transition from Kesa Gatame to Modified Scarf Hold with different arm control
+- [[Transitions/Kesa Gatame to Modified Scarf Hold]] - Follow-up transition from Kesa Gatame to Modified Scarf Hold with different arm control
 
-- [[Bridge and Roll]] - Primary counter-technique the defender uses against the resulting scarf hold
+- [[Transitions/Bridge and Roll]] - Primary counter-technique the defender uses against the resulting scarf hold
 
 
 </section>

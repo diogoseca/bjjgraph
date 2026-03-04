@@ -158,7 +158,7 @@ The critical defensive window is narrow. Once the attacker's first hook enters y
 
 Strategically, the defender should approach this situation by choosing escape directions and timing that minimize hook insertion opportunities. Sitting directly backward into the attacker creates the worst-case scenario with maximum hip exposure. Instead, sitting laterally or incorporating rotation during the escape changes the geometry and forces the attacker to chase angles rather than simply inserting hooks into a presented target. Understanding these directional principles transforms the buggy choke escape from a binary choice between choke and back take into a navigable positional problem with viable defensive solutions.
 
-**Opponent's Starting Position**: [[Buggy Choke]] (Top)
+**Opponent's Starting Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Strategically, the defender should approach this situation by choosing escape di
 ### 1. Lateral sit with elbow block: sit to guard at a 45-degree angle away from the attacker's near leg while keeping near elbow pinned tight against your hip to physically obstruct hook entry
 
 - **When to use**: As the primary defensive modification whenever you decide to sit out of buggy choke, before the attacker initiates hook insertion
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: Escape to seated guard position without hooks, forcing attacker to either disengage or re-establish turtle top control
 - **Risk**: If angle is insufficient, attacker follows your lateral movement and inserts hook from a wider angle
 
 ### 2. Grip strip and face: use both hands to explosively strip the harness grip during the sit-up, then immediately turn to face the attacker before hooks can be inserted
 
 - **When to use**: When you feel the harness grip is not fully consolidated and you have hand access to the seatbelt connection point
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Break upper body control entirely, allowing you to turn and face attacker in open guard or half guard without back exposure
 - **Risk**: Momentarily exposes neck if grip strip fails and attacker re-tightens harness with choking intent
 
 ### 3. Hook trap and rotate: if the first hook enters, immediately clamp your thighs together to trap the hooking foot, then rotate your body toward the hook side to prevent the second hook and begin facing the attacker
 
 - **When to use**: When prevention fails and the attacker has successfully inserted their near-side hook during your sit-up
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Prevent second hook insertion and transition to half guard by trapping the single leg and rotating to face attacker
 - **Risk**: If rotation is too slow, attacker uses first hook as anchor to insert second hook during your turning motion
 
 ### 4. Recline and pin: instead of sitting forward, recline backward to pin the attacker's chest to the mat, eliminating the space needed for hook insertion
 
 - **When to use**: When you recognize the attacker is committed to the back take rather than the choke and your priority shifts to denying hooks
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: Pin attacker flat with your back weight, forcing a positional reset where they must re-establish turtle top or transition to a different attack
 - **Risk**: Reclining can tighten existing collar grips and may expose you to crucifix entries if attacker swims their head
 
@@ -228,11 +228,11 @@ Strategically, the defender should approach this situation by choosing escape di
 
 ## Best-Case Outcomes for Defender
 
-### → [[Buggy Choke]]
+### → [[Positions/Buggy Choke]]
 
 Deny hook insertion through lateral sitting angle and elbow blocking, or recline to pin attacker flat. Either method forces a positional reset where the attacker remains in buggy choke top but has failed the back take transition, giving you another opportunity to escape with better defensive structure.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Strip the harness grip during the sit-up and immediately turn to face the attacker, or trap the first hook with your thighs and rotate toward the hook side. Both methods result in facing the attacker with their leg trapped between yours in half guard, a vastly improved defensive position compared to back control.
 

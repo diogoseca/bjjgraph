@@ -26,8 +26,8 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and windpipe
-**Starting Position**: [[Mount]]
-**From Position**: [[Mount]] (Top)
+**Starting Position**: [[Positions/Mount]]
+**From Position**: [[Positions/Mount]] (Top)
 **Success Rate**: 62%
 
 </section>
@@ -84,8 +84,8 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -241,16 +241,16 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 ## From Which Positions?
 
-- [[Mount]]
-- [[High Mount]]
-- [[Modified Mount]]
-- [[S Mount]]
-- [[Technical Mount]]
-- [[Side Control]]
-- [[Kesa Gatame]]
-- [[Modified Scarf Hold]]
-- [[North-South]]
-- [[Knee on Belly]]
+- [[Positions/Mount]]
+- [[Positions/Mount/High Mount]]
+- [[Positions/Mount/Modified Mount]]
+- [[Positions/Mount/S Mount]]
+- [[Positions/Mount/Technical Mount]]
+- [[Positions/Side Control]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/North-South]]
+- [[Positions/Knee on Belly]]
 
 
 </section>
@@ -259,18 +259,18 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 ## Related Submissions
 
-- [[Arm Triangle]]
-- [[Cross Collar Choke]]
-- [[Breadcutter Choke]]
-- [[Baseball Bat Choke]]
-- [[Americana from Mount]]
-- [[Armbar from Mount]]
-- [[Americana from Side Control]]
-- [[Armbar from Side Control]]
-- [[Brabo Choke]]
-- [[Americana]]
-- [[Armbar from High Mount]]
-- [[Cross Collar Choke from High Mount]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/Cross Collar Choke]]
+- [[Transitions/Breadcutter Choke]]
+- [[Transitions/Baseball Bat Choke]]
+- [[Submissions/Americana from Mount]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Americana from Side Control]]
+- [[Submissions/Armbar from Side Control]]
+- [[Submissions/Brabo Choke]]
+- [[Transitions/Americana]]
+- [[Submissions/Armbar from High Mount]]
+- [[Submissions/Cross Collar Choke from High Mount]]
 
 
 </section>
@@ -279,18 +279,18 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 ## Additional Related Content
 
-- [[Mount]] - Primary starting position for this technique
-- [[High Mount]] - Superior position variation that makes the choke more effective
-- [[Technical Mount]] - Alternative position from which this choke can be applied with excellent control
-- [[S Mount]] - Advanced mount variation allowing armbar transitions when Ezekiel is defended
-- [[Armbar from Mount]] - Primary combination attack when opponent defends Ezekiel by grabbing your arm
-- [[Americana from Mount]] - Alternative submission when opponent extends arms to defend Ezekiel
-- [[Cross Collar Choke]] - Related gi-based choke from mount using similar leverage principles
-- [[Arm Triangle]] - Related choke from top positions using similar bilateral pressure concepts
-- [[Half Guard]] - Common position reached when defender successfully counters the Ezekiel attempt
-- [[Modified Mount]] - Mount variation providing enhanced base stability during Ezekiel setup
-- [[Armbar from High Mount]] - High-percentage alternative submission from the same elevated mount platform
-- [[Cross Collar Choke from High Mount]] - Complementary gi choke creating submission dilemma alongside Ezekiel threat
+- [[Positions/Mount]] - Primary starting position for this technique
+- [[Positions/Mount/High Mount]] - Superior position variation that makes the choke more effective
+- [[Positions/Mount/Technical Mount]] - Alternative position from which this choke can be applied with excellent control
+- [[Positions/Mount/S Mount]] - Advanced mount variation allowing armbar transitions when Ezekiel is defended
+- [[Submissions/Armbar from Mount]] - Primary combination attack when opponent defends Ezekiel by grabbing your arm
+- [[Submissions/Americana from Mount]] - Alternative submission when opponent extends arms to defend Ezekiel
+- [[Transitions/Cross Collar Choke]] - Related gi-based choke from mount using similar leverage principles
+- [[Transitions/Arm Triangle]] - Related choke from top positions using similar bilateral pressure concepts
+- [[Positions/Half Guard]] - Common position reached when defender successfully counters the Ezekiel attempt
+- [[Positions/Mount/Modified Mount]] - Mount variation providing enhanced base stability during Ezekiel setup
+- [[Submissions/Armbar from High Mount]] - High-percentage alternative submission from the same elevated mount platform
+- [[Submissions/Cross Collar Choke from High Mount]] - Complementary gi choke creating submission dilemma alongside Ezekiel threat
 
 
 </section>

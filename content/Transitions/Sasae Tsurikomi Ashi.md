@@ -17,7 +17,7 @@ description: "Master Sasae Tsurikomi Ashi for BJJ. Complete guide to this judo f
 
 Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep technique that has been successfully adapted into modern Brazilian Jiu-Jitsu for standing exchanges. This technique exploits forward momentum and circular movement, using precise timing to block the opponent's ankle while simultaneously lifting and pulling their upper body. The beauty of Sasae Tsurikomi Ashi lies in its minimal force requirement - when executed with proper timing, the opponent's own movement and weight distribution do most of the work. Unlike power-based takedowns, this technique relies on kuzushi (off-balancing) and precise placement of the blocking foot. The throw is particularly effective against opponents who step forward aggressively or maintain an upright, forward-leaning posture. In BJJ competition, this technique offers a clean takedown that can lead directly to dominant positions, making it valuable for competitors who prefer technical entries over wrestling-heavy approaches.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -28,9 +28,9 @@ Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 60% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Standing Position]] | 15% |
+| Success | [[Positions/Side Control]] | 60% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -194,29 +194,29 @@ Sasae Tsurikomi Ashi serves as a fundamental entry point into the top game for B
 ## Related Techniques
 
 
-- [[Deashi Harai]] - Alternative foot sweep using sweeping motion instead of blocking action
+- [[Transitions/Deashi Harai]] - Alternative foot sweep using sweeping motion instead of blocking action
 
-- [[Kouchi Gari]] - Follow-up technique when opponent retracts leg backward
+- [[Transitions/Kouchi Gari]] - Follow-up technique when opponent retracts leg backward
 
-- [[Osoto Gari]] - Combination attack when opponent pulls back to avoid foot sweep
+- [[Transitions/Osoto Gari]] - Combination attack when opponent pulls back to avoid foot sweep
 
-- [[Harai Goshi]] - Related hip throw that can be entered from similar grips
+- [[Transitions/Harai Goshi]] - Related hip throw that can be entered from similar grips
 
-- [[Reverse De La Riva Guard]] - Guard pull option if sweep attempt fails and opponent pulls back
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Guard pull option if sweep attempt fails and opponent pulls back
 
-- [[De La Riva Guard]] - Alternative guard pull when takedown is defended
+- [[Positions/De La Riva Guard]] - Alternative guard pull when takedown is defended
 
-- [[Tai Otoshi]] - Similar blocking principle applied to hip and thigh instead of ankle
+- [[Transitions/Tai Otoshi]] - Similar blocking principle applied to hip and thigh instead of ankle
 
-- [[Side Control]] - Common landing position after successful execution
+- [[Positions/Side Control]] - Common landing position after successful execution
 
-- [[Ankle Pick]] - Alternative low attack against similar posture and stance
+- [[Transitions/Ankle Pick]] - Alternative low attack against similar posture and stance
 
-- [[Snap Down to Front Headlock]] - Upper body alternative when opponent defends low against foot sweeps
+- [[Transitions/Snap Down to Front Headlock]] - Upper body alternative when opponent defends low against foot sweeps
 
-- [[Ouchi Gari]] - Inside trip combination when opponent defends by stepping back
+- [[Transitions/Ouchi Gari]] - Inside trip combination when opponent defends by stepping back
 
-- [[Standing Position]] - Starting position for this technique with neutral grip fighting
+- [[Positions/Standing Position]] - Starting position for this technique with neutral grip fighting
 
 
 </section>

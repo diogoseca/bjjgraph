@@ -146,7 +146,7 @@ description: "Master defending the Standing Back Control Entry in BJJ. Learn to 
 
 From the defender perspective, the opponent's attempt to follow you to standing during your escape creates a critical window where their control is most vulnerable. The transition from horizontal to vertical disrupts the attacker's hook depth, challenges their balance, and temporarily loosens their seatbelt grip as they must redistribute weight and adjust body mechanics. Recognizing these moments of weakened control and timing your defensive actions to coincide with the attacker's adjustment phase gives you the best chance of escaping. Understanding that the attacker is most vulnerable during the mid-transition, not at the beginning or end, allows you to focus your defensive energy at the optimal moment rather than wasting it fighting fully consolidated control.
 
-**Opponent's Starting Position**: [[Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -183,28 +183,28 @@ From the defender perspective, the opponent's attempt to follow you to standing 
 ### 1. Strip hooks during mid-transition by straightening legs and pushing attacker's feet outward
 
 - **When to use**: When the transition reaches approximately forty-five degrees and the attacker's hooks are loosening due to the vertical angle change
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Attacker loses lower body control and you can turn to face them, recover guard, or establish a neutral position
 - **Risk**: Releasing hands from neck defense to address hooks exposes you to immediate choking attacks during the transition
 
 ### 2. Explosive sit-back to collapse the standing attempt and return to grounded position
 
 - **When to use**: Early in the transition before the attacker has fully committed to the vertical follow and adjusted their weight distribution
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Returns the engagement to grounded back control where you have more escape options and mat-based defensive leverage
 - **Risk**: May deepen the attacker's hooks and tighten their chest connection if your timing is late or the attacker anticipates the sit-back
 
 ### 3. Hip turn and shoulder rotation to face the attacker during the transition
 
 - **When to use**: When the attacker's seatbelt grip loosens during the angle change of the mid-transition phase and their upper body control is compromised
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Breaks back exposure and creates opportunity to establish guard, reach clinch, or achieve neutral position
 - **Risk**: If the turn is incomplete, the attacker can use your rotation to tighten their controls from a different angle
 
 ### 4. Grip strip the seatbelt underhook arm while maintaining neck defense with opposite hand
 
 - **When to use**: When attacker's underhook arm loosens during the positional angle change between ground and standing positions
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Breaking the seatbelt reduces attacker's upper body control significantly, enabling follow-up hip turn and guard recovery
 - **Risk**: One-handed neck defense is vulnerable to the attacker's choking arm if the grip strip takes too long to complete
 
@@ -216,11 +216,11 @@ From the defender perspective, the opponent's attempt to follow you to standing 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time hook strips and hip turns to the mid-transition phase when the attacker's controls are weakest. Strip at least one hook during the angle change, then immediately turn your hips and shoulders toward the attacker to break back exposure. Follow with hip escape and leg insertion to establish half guard before the attacker can recapture back control.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Execute an explosive sit-back early in the transition before the attacker commits their weight to the upward follow. Drop your hips directly downward while pulling the attacker's hooks deeper, collapsing the standing attempt and returning to grounded back control where more escape routes and mat-based leverage are available.
 

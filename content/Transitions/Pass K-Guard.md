@@ -21,7 +21,7 @@ Success depends on a multi-phase approach: winning the grip fight to establish d
 
 This pass holds particular significance in modern competition where K-Guard has become increasingly popular as both a retention platform and an offensive launching point. The guard's dynamic nature means hesitation or poorly timed attempts are punished with sweeps or back takes, making technical precision and systematic pressure essential for consistent success. Practitioners who develop reliable K-Guard passing gain a significant competitive advantage against the growing number of half guard specialists employing this configuration.
 
-**From Position**: [[K-Guard]] (Top)
+**From Position**: [[Positions/K-Guard]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ This pass holds particular significance in modern competition where K-Guard has 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Failure | [[Half Guard]] | 20% |
-| Failure | [[K-Guard]] | 20% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Side Control]] | 45% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/K-Guard]] | 20% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -192,25 +192,25 @@ Pass K-Guard occupies a critical position within the guard passing hierarchy as 
 ## Related Techniques
 
 
-- [[K-Guard]] - Source position where this pass is initiated from the top perspective
+- [[Positions/K-Guard]] - Source position where this pass is initiated from the top perspective
 
-- [[Side Control]] - Primary target position achieved upon successful pass completion
+- [[Positions/Side Control]] - Primary target position achieved upon successful pass completion
 
-- [[Half Guard]] - Intermediate position reached when pass partially succeeds but guard player retains half guard
+- [[Positions/Half Guard]] - Intermediate position reached when pass partially succeeds but guard player retains half guard
 
-- [[Back Control]] - Counter outcome position when guard player takes the passer's back during the attempt
+- [[Positions/Back Control]] - Counter outcome position when guard player takes the passer's back during the attempt
 
-- [[Backstep from K-Guard]] - Alternative passing technique that bypasses hooks rather than neutralizing them directly
+- [[Transitions/Backstep from K-Guard]] - Alternative passing technique that bypasses hooks rather than neutralizing them directly
 
-- [[K-Guard Sweep]] - Primary counter-technique the guard player threatens during pass attempts
+- [[Transitions/K-Guard Sweep]] - Primary counter-technique the guard player threatens during pass attempts
 
-- [[K-Guard to Single Leg X]] - Common guard transition the bottom player uses to escape passing pressure
+- [[Transitions/K-Guard to Single Leg X]] - Common guard transition the bottom player uses to escape passing pressure
 
-- [[Deep Half Guard]] - Guard position the bottom player may transition to when K-Guard retention fails
+- [[Positions/Half Guard/Deep Half Guard]] - Guard position the bottom player may transition to when K-Guard retention fails
 
-- [[Headquarters Position]] - Related passing framework with shared concepts of systematic guard dismantling
+- [[Positions/Headquarters Position]] - Related passing framework with shared concepts of systematic guard dismantling
 
-- [[Butterfly Guard]] - Recovery guard the bottom player may establish if K-Guard hooks are partially compromised
+- [[Positions/Butterfly Guard]] - Recovery guard the bottom player may establish if K-Guard hooks are partially compromised
 
 
 </section>

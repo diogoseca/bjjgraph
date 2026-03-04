@@ -186,7 +186,7 @@ description: "Learn to execute the Escape Vaporizer in BJJ. Step-by-step guide t
 
 Executing the Escape Vaporizer requires the bottom player to recognize when their lockdown-based game has been neutralized and commit to a clean tactical reset. The attacker must coordinate the lockdown release with immediate frame establishment to prevent the opponent from capitalizing on the transitional vulnerability. This technique demands timing, awareness of the opponent's weight distribution, and the discipline to abandon a controlling position when it stops producing offensive returns. The key challenge is managing the brief window between releasing the lockdown and establishing open guard—this gap is where most failures occur, as the opponent's previously trapped leg suddenly becomes free to drive forward or initiate passing sequences. Mastering this transition turns a potential stalemate into a strategic repositioning that catches the opponent off-guard.
 
-**From Position**: [[Vaporizer]] (Bottom)
+**From Position**: [[Positions/Vaporizer]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Escape Vaporizer requires the bottom player to recognize when thei
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Failure | [[Lockdown]] | 30% |
-| Counter | [[Flattened Half Guard]] | 20% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Escape Vaporizer requires the bottom player to recognize when thei
 
 ## Opponent Counters
 
-- **Opponent drives forward immediately upon feeling the lockdown loosening, attempting to establish chest-to-chest pressure and flatten the bottom player before frames are established** (Effectiveness: High) - Your Response: Maintain forearm frame and insert foot on hip as rapidly as possible. If they establish pressure before you complete the transition, retain knee shield half guard rather than trying to complete the open guard transition under heavy forward pressure. → Leads to [[Flattened Half Guard]]
-- **Opponent grabs ankles or pants legs as you attempt to place feet on hips, preventing frame establishment and controlling your leg positioning** (Effectiveness: Medium) - Your Response: Use your underhook to control their posture while circling your feet to break their grips. If you cannot free your feet, re-establish the lockdown temporarily and wait for a better release window rather than fighting from a compromised position. → Leads to [[Lockdown]]
-- **Opponent initiates an immediate knee slice pass through the opening created by the lockdown release, cutting through the transitional gap before guard can be established** (Effectiveness: High) - Your Response: Insert knee shield immediately with the near leg and accept half guard rather than trying to complete the full open guard transition. A controlled retreat to knee shield half guard is preferable to being passed entirely through the transition. → Leads to [[Flattened Half Guard]]
-- **Opponent sprawls backward and establishes ankle grips to set up a toreando-style pass as your legs become free from the lockdown configuration** (Effectiveness: Medium) - Your Response: Follow their retreat with your hips, maintaining feet on their body throughout. Use the distance they create to establish full open guard configuration with upper body grips before they can redirect back toward you with a passing attempt. → Leads to [[Flattened Half Guard]]
+- **Opponent drives forward immediately upon feeling the lockdown loosening, attempting to establish chest-to-chest pressure and flatten the bottom player before frames are established** (Effectiveness: High) - Your Response: Maintain forearm frame and insert foot on hip as rapidly as possible. If they establish pressure before you complete the transition, retain knee shield half guard rather than trying to complete the open guard transition under heavy forward pressure. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent grabs ankles or pants legs as you attempt to place feet on hips, preventing frame establishment and controlling your leg positioning** (Effectiveness: Medium) - Your Response: Use your underhook to control their posture while circling your feet to break their grips. If you cannot free your feet, re-establish the lockdown temporarily and wait for a better release window rather than fighting from a compromised position. → Leads to [[Positions/Half Guard/Lockdown]]
+- **Opponent initiates an immediate knee slice pass through the opening created by the lockdown release, cutting through the transitional gap before guard can be established** (Effectiveness: High) - Your Response: Insert knee shield immediately with the near leg and accept half guard rather than trying to complete the full open guard transition. A controlled retreat to knee shield half guard is preferable to being passed entirely through the transition. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent sprawls backward and establishes ankle grips to set up a toreando-style pass as your legs become free from the lockdown configuration** (Effectiveness: Medium) - Your Response: Follow their retreat with your hips, maintaining feet on their body throughout. Use the distance they create to establish full open guard configuration with upper body grips before they can redirect back toward you with a passing attempt. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 
 
 </section>

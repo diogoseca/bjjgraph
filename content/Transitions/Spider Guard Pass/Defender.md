@@ -160,7 +160,7 @@ description: "How to defend against Spider Guard Pass in BJJ. Recognition cues, 
 
 Defending the Spider Guard Pass means you are the bottom player working to retain your spider guard or sweep the passer as they attempt to strip your grips and drive forward. Your primary weapons are grip retention, hip mobility, and the ability to transition between guard variations when your spider guard is partially compromised. The defender's advantage lies in the favorable strength asymmetry of spider guard—your legs pushing against their arms—but this advantage evaporates the moment both grips are lost. Effective defense requires recognizing the passer's sequence early, fighting for every grip, and having clear transition paths to alternative guards when full spider guard retention is no longer viable. The best defense is an active offense: threatening sweeps and submissions forces the passer to address your attacks rather than executing their passing sequence.
 
-**Opponent's Starting Position**: [[Spider Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Spider Guard]] (Top)
 
 </section>
 
@@ -197,35 +197,35 @@ Defending the Spider Guard Pass means you are the bottom player working to retai
 ### 1. Re-grip the stripped sleeve immediately using foot pressure to prevent arm withdrawal
 
 - **When to use**: The instant you feel one grip being broken, before the passer can pin your knee and advance
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: Spider guard is fully re-established and the passer must restart their grip breaking sequence from scratch
 - **Risk**: If the re-grip fails, you have delayed transitioning to an alternative guard and the passer has advanced further in their sequence
 
 ### 2. Transition the compromised side to lasso guard by threading your leg under and over the passer's arm
 
 - **When to use**: When one spider hook is stripped and you cannot immediately re-establish the grip—thread the leg before the passer pins your knee
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: You establish lasso guard which is more difficult to pass and creates strong sweep and omoplata threats, forcing the passer to address a new guard entirely
 - **Risk**: If the lasso is shallow or the passer recognizes it early, they can backstep or circle to negate the lasso before it is established
 
 ### 3. Execute a sweep attempt (balloon sweep or scissor sweep) as the passer drives forward after breaking grips
 
 - **When to use**: When the passer commits weight forward during the pressure phase, especially if they have released knee control to drive with their chest
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: You sweep the passer and achieve top position, completely reversing the positional hierarchy and scoring points
 - **Risk**: If the sweep fails and you have committed your hips, the passer can use your movement to accelerate their pass to side control
 
 ### 4. Hip escape and insert knee shield to recover half guard or closed guard
 
 - **When to use**: When both grips are broken and the passer is driving forward—use their pressure against them by redirecting with a hip escape and knee insertion
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: You recover to half guard with knee shield, establishing a new defensive position with strong guard retention options
 - **Risk**: If the knee shield is not established quickly enough, the passer may smash through to side control or pin the knee
 
 ### 5. Transition to De La Riva guard by hooking the passer's lead leg as they advance
 
 - **When to use**: When the passer steps forward after breaking grips and their lead leg enters range for a DLR hook
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: DLR guard is established with new control points, forcing the passer to completely change their passing approach
 - **Risk**: If the DLR hook is shallow, the passer can circle out immediately and continue their pressure pass
 
@@ -237,11 +237,11 @@ Defending the Spider Guard Pass means you are the bottom player working to retai
 
 ## Best-Case Outcomes for Defender
 
-### → [[Spider Guard]]
+### → [[Positions/Spider Guard]]
 
 Retain or re-establish grips by fighting for wrist control the moment the passer begins stripping. Use foot pressure on their biceps to prevent arm withdrawal. If one grip breaks, immediately transition the compromised side to lasso or DLR to maintain a guard structure. Keep hips mobile and elevated to create angles that prevent the passer from flattening you.
 
-### → [[Spider Guard]]
+### → [[Positions/Spider Guard]]
 
 Execute a sweep as the passer commits weight forward during their passing attempt. Time a balloon sweep or scissor sweep to the moment they drive their chest toward you with both hands controlling your knees. Use their forward momentum against them by elevating with your legs and directing their weight past your centerline. Alternatively, hit a technical sweep during their grip-breaking phase when their balance is compromised by the effort of stripping your controls.
 

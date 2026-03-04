@@ -206,29 +206,29 @@ X-Guard Top represents the top player's position when facing an opponent who has
 
 ## Available Attacks
 
-### [[Smash Pass]] (12% of attempts)
+### [[Transitions/Smash Pass]] (12% of attempts)
 
-### [[Knee Slice Pass]] (61% of attempts)
+### [[Transitions/Knee Slice Pass]] (61% of attempts)
 
-### [[Long Step Pass]] (6% of attempts)
+### [[Transitions/Long Step Pass]] (6% of attempts)
 
-### [[Saddle Entry from Top]] (4% of attempts)
+### [[Transitions/Saddle Entry from Top]] (4% of attempts)
 
-### [[Outside Ashi Entry]] (2% of attempts)
+### [[Transitions/Outside Ashi Entry]] (2% of attempts)
 
-### [[Leg Weave Pass]] (6% of attempts)
+### [[Transitions/Leg Weave Pass]] (6% of attempts)
 
-### [[Back Step]] (2% of attempts)
+### [[Transitions/Back Step]] (2% of attempts)
 
-### [[Stack Pass]] (6% of attempts)
+### [[Transitions/Stack Pass]] (6% of attempts)
 
-### [[Knee Pin from X-Guard]] (0% of attempts)
+### [[Transitions/Knee Pin from X-Guard]] (0% of attempts)
 
-### [[Step Over from X-Guard]] (0% of attempts)
+### [[Transitions/Step Over from X-Guard]] (0% of attempts)
 
-### [[Smash Pass from X-Guard]] (0% of attempts)
+### [[Transitions/Smash Pass from X-Guard]] (0% of attempts)
 
-### [[Standing Escape from X-Guard]] (1% of attempts)
+### [[Transitions/Standing Escape from X-Guard]] (1% of attempts)
 
 
 
@@ -239,23 +239,23 @@ X-Guard Top represents the top player's position when facing an opponent who has
 ## Decision Making from This Position
 
 **If opponent has strong far leg hook behind knee and is creating elevation with near leg:**
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent attempts to invert deeper or transition to leg entanglement position:**
-- Execute **[[Saddle Entry from Top]]** → [[Honey Hole]] (Probability: 55%)
-- Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 50%)
+- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Honey Hole]] (Probability: 55%)
+- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 50%)
 
 
 **If opponent's hooks are shallow or grips are weak due to fatigue or poor positioning:**
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Leg Weave Pass]]** → [[Headquarters Position]] (Probability: 60%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Headquarters Position]] (Probability: 60%)
 
 
 **If opponent commits heavily to one side during sweep attempt exposing their back:**
-- Execute **[[Back Step]]** → [[Back Control]] (Probability: 50%)
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Back Step]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 
@@ -357,15 +357,15 @@ Start from X-Guard top with hooks already weakened. Practice smooth transitions 
 
 ## Related Positions and Techniques
 
-- **[[Single Leg X-Guard]]** - Related guard position with similar structure but different hook configuration requiring adapted passing
-- **[[Side Control]]** - Primary passing destination and dominant position after successful guard pass
-- **[[Smash Pass]]** - Primary offensive technique for pressure-based passing through X-Guard structure
-- **[[X-Guard Sweep]]** - Primary defensive threat from bottom player that must be defended against
-- **[[Headquarters Position]]** - Intermediate control position during guard pass used to consolidate progress
-- **[[Outside Ashi-Garami]]** - Counter-attack destination through leg entanglement when opponent inverts
-- **[[Back Control]]** - Advanced transition target through opportunistic back take during sweep defense
-- **[[Honey Hole]]** - High-value leg entanglement counter accessible when opponent inverts deeply
-- **[[Knee Slice Pass]]** - High-percentage passing technique for cutting through weakened X-Guard hooks
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Related guard position with similar structure but different hook configuration requiring adapted passing
+- **[[Positions/Side Control]]** - Primary passing destination and dominant position after successful guard pass
+- **[[Transitions/Smash Pass]]** - Primary offensive technique for pressure-based passing through X-Guard structure
+- **[[Transitions/X-Guard Sweep]]** - Primary defensive threat from bottom player that must be defended against
+- **[[Positions/Headquarters Position]]** - Intermediate control position during guard pass used to consolidate progress
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Counter-attack destination through leg entanglement when opponent inverts
+- **[[Positions/Back Control]]** - Advanced transition target through opportunistic back take during sweep defense
+- **[[Positions/Ashi Garami/Honey Hole]]** - High-value leg entanglement counter accessible when opponent inverts deeply
+- **[[Transitions/Knee Slice Pass]]** - High-percentage passing technique for cutting through weakened X-Guard hooks
 
 
 </section>

@@ -210,25 +210,25 @@ This position represents a defensive challenge where understanding leg lock mech
 
 ## Available Attacks
 
-### [[Ashi Garami Escape]] (59% of attempts)
+### [[Transitions/Ashi Garami Escape]] (59% of attempts)
 
-### [[Back Step]] (18% of attempts)
+### [[Transitions/Back Step]] (18% of attempts)
 
-### [[Counter heel hook]] (11% of attempts)
+### [[Transitions/Counter heel hook]] (11% of attempts)
 
-### [[Saddle Entry from Top]] (4% of attempts)
+### [[Transitions/Saddle Entry from Top]] (4% of attempts)
 
-### [[Kneebar Setup]] (4% of attempts)
+### [[Transitions/Kneebar Setup]] (4% of attempts)
 
-### [[Standing Escape]] (3% of attempts)
+### [[Transitions/Standing Escape]] (3% of attempts)
 
-### [[Outside Ashi to Inside Ashi]] (0% of attempts)
+### [[Transitions/Outside Ashi to Inside Ashi]] (0% of attempts)
 
-### [[Outside to Ushiro Ashi]] (0% of attempts)
+### [[Transitions/Outside to Ushiro Ashi]] (0% of attempts)
 
-### [[Saddle Entry from Outside Ashi]] (0% of attempts)
+### [[Transitions/Saddle Entry from Outside Ashi]] (0% of attempts)
 
-### [[Toe Hold from Outside Ashi]] (1% of attempts)
+### [[Transitions/Toe Hold from Outside Ashi]] (1% of attempts)
 
 
 
@@ -239,23 +239,23 @@ This position represents a defensive challenge where understanding leg lock mech
 ## Decision Making from This Position
 
 **If opponent has strong heel grip and is threatening immediate heel hook finish:**
-- Execute **[[Saddle Defense]]** → [[Outside Ashi-Garami]] (Probability: 50%)
-- Execute **[[Ashi Garami Escape]]** → [[Standing Position]] (Probability: 40%)
+- Execute **[[Saddle Defense]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 50%)
+- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Standing Position]] (Probability: 40%)
 
 
 **If opponent's leg triangle is loose or you have established standing position:**
-- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 70%)
-- Execute **[[Ashi Garami Escape]]** → [[Standing Position]] (Probability: 65%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 70%)
+- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Standing Position]] (Probability: 65%)
 
 
 **If opponent is transitioning to saddle/honey hole and creating exposure:**
-- Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 55%)
-- Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 50%)
+- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 50%)
 
 
 **If you have created sufficient distance with frames and opponent's control is weakened:**
-- Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Standing to Single Leg X]]** → [[Single Leg X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Standing to Single Leg X]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
 
 
 
@@ -396,15 +396,15 @@ Partner establishes outside ashi and slowly attempts to access your heel, practi
 
 ## Related Positions and Techniques
 
-- **[[Outside Ashi-Garami]]** - Offensive counterpart - same position from attacking perspective
-- **[[Inside Ashi-Garami]]** - Similar defensive leg entanglement with inside variation
-- **[[Saddle]]** - Advanced defensive challenge with both legs trapped
-- **[[Ashi Garami Escape]]** - Primary escape technique from this position
-- **[[Heel Hook]]** - Primary submission threat from opponent
-- **[[Straight Ankle Lock]]** - Secondary submission threat from opponent
-- **[[50-50 Guard]]** - Related defensive leg entanglement position
-- **[[Leg Entanglement]]** - General category this position belongs to
-- **[[Honey Hole]]** - Alternative name for saddle position commonly encountered
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Offensive counterpart - same position from attacking perspective
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Similar defensive leg entanglement with inside variation
+- **[[Positions/Ashi Garami/Saddle]]** - Advanced defensive challenge with both legs trapped
+- **[[Transitions/Ashi Garami Escape]]** - Primary escape technique from this position
+- **[[Transitions/Heel Hook]]** - Primary submission threat from opponent
+- **[[Submissions/Straight Ankle Lock]]** - Secondary submission threat from opponent
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Related defensive leg entanglement position
+- **[[Positions/Leg Entanglement]]** - General category this position belongs to
+- **[[Positions/Ashi Garami/Honey Hole]]** - Alternative name for saddle position commonly encountered
 
 
 </section>

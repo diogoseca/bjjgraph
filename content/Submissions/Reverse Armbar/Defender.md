@@ -188,21 +188,21 @@ Defending the Reverse Armbar requires a fundamentally different approach than de
 ### 1. Roll with the rotation and follow the attacker's movement to prevent arm isolation
 
 - **When to use**: During the early rotation phase before the attacker completes the 180-degree turn and reestablishes leg control
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You end up in mount bottom or scramble position with your arm freed, resetting to a positional battle
 - **Risk**: If timed poorly, you may accelerate the attacker's rotation and end up in a worse position with arm still trapped
 
 ### 2. Bend elbow aggressively and grip own collar or opposite shoulder to create a defensive lock
 
 - **When to use**: When the attacker has completed rotation but has not yet applied extension pressure, and your arm still has bend
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Attacker cannot extend your arm for the finish and must release to reset or transition to another attack
 - **Risk**: Sustained grip fighting is energy-intensive and the attacker may eventually break the grip if you cannot escape the position
 
 ### 3. Bridge explosively and turn into the attacker during their rotation to collapse their base
 
 - **When to use**: When the attacker is mid-rotation and their balance is compromised, before they plant their legs in the new position
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You disrupt the attacker's rotation, free your arm, and recover to closed guard or half guard
 - **Risk**: Explosive bridging while arm is trapped can increase joint stress if the attacker maintains grip during the disruption
 
@@ -225,11 +225,11 @@ Defending the Reverse Armbar requires a fundamentally different approach than de
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Disrupt the attacker's rotation by rolling with their movement or bridging explosively during the transitional phase, forcing them to abandon the submission and return to standard mount where you resume mount escape sequences
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Bridge into the attacker during mid-rotation to collapse their base, free your arm during the scramble, and immediately close your guard around their waist before they can reestablish top control
 

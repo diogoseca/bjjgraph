@@ -209,25 +209,25 @@ This position is particularly effective against opponents unfamiliar with the co
 
 ## Available Attacks
 
-### [[Side Control to North-South]] (22% of attempts)
+### [[Transitions/Side Control to North-South]] (22% of attempts)
 
-### [[Side Control to Mount]] (13% of attempts)
+### [[Transitions/Side Control to Mount]] (13% of attempts)
 
-### [[Americana]] (11% of attempts)
+### [[Transitions/Americana]] (11% of attempts)
 
-### [[Kimura]] (12% of attempts)
+### [[Transitions/Kimura]] (12% of attempts)
 
-### [[Back Step]] (10% of attempts)
+### [[Transitions/Back Step]] (10% of attempts)
 
-### [[Knee Slice Pass]] (15% of attempts)
+### [[Transitions/Knee Slice Pass]] (15% of attempts)
 
-### [[Arm Triangle]] (9% of attempts)
+### [[Transitions/Arm Triangle]] (9% of attempts)
 
-### [[Reverse Scarf to North-South]] (4% of attempts)
+### [[Transitions/Reverse Scarf to North-South]] (4% of attempts)
 
-### [[Reverse Scarf to Side Control]] (2% of attempts)
+### [[Transitions/Reverse Scarf to Side Control]] (2% of attempts)
 
-### [[North-South Choke from Reverse Scarf]] (2% of attempts)
+### [[Submissions/North-South Choke from Reverse Scarf]] (2% of attempts)
 
 
 
@@ -238,23 +238,23 @@ This position is particularly effective against opponents unfamiliar with the co
 ## Decision Making from This Position
 
 **If opponent remains flat and passive without bridging attempts:**
-- Execute **[[Americana]]** → [[Armbar Control]] (Probability: 55%)
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 50%)
+- Execute **[[Transitions/Americana]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 50%)
 
 
 **If opponent bridges explosively toward their head attempting to roll you:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 60%)
 
 
 **If opponent turns away from you toward turtle position:**
-- Execute **[[Back Step]]** → [[Back Control]] (Probability: 50%)
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 55%)
+- Execute **[[Transitions/Back Step]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 55%)
 
 
 **If opponent creates frames with free arm and begins hip escape:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control Consolidation]] (Probability: 60%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 45%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control/Side Control Consolidation]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 
@@ -388,16 +388,16 @@ Partner A establishes reverse scarf hold and flows through americana, kimura, an
 
 ## Related Positions and Techniques
 
-- **[[Kesa Gatame]]** - Traditional scarf hold with opposite orientation - similar control mechanics but facing opponent's head
-- **[[Scarf Hold Position]]** - Standard variation - fundamental scarf hold position from which reverse version derives
-- **[[North-South]]** - Primary transition target - common advancement when opponent creates space or bridges
-- **[[Side Control Consolidation]]** - Entry position - reverse scarf hold typically entered from side control when opponent turns in
-- **[[Mount]]** - Transition target - available when opponent bridges forward giving you opportunity to step over
-- **[[Modified Scarf Hold]]** - Variation - alternative scarf hold configuration with different pressure angles
-- **[[Kuzure Kesa-Gatame]]** - Judo variation - broken scarf hold position with modified arm control
-- **[[Americana]]** - Primary submission - high-percentage finish from reverse scarf hold arm trap
-- **[[Kimura]]** - Alternative submission - available when opponent extends trapped arm
-- **[[Back Control]]** - Transition target - accessible when opponent turns away attempting to escape
+- **[[Positions/Side Control/Kesa Gatame]]** - Traditional scarf hold with opposite orientation - similar control mechanics but facing opponent's head
+- **[[Positions/Side Control/Scarf Hold Position]]** - Standard variation - fundamental scarf hold position from which reverse version derives
+- **[[Positions/North-South]]** - Primary transition target - common advancement when opponent creates space or bridges
+- **[[Positions/Side Control/Side Control Consolidation]]** - Entry position - reverse scarf hold typically entered from side control when opponent turns in
+- **[[Positions/Mount]]** - Transition target - available when opponent bridges forward giving you opportunity to step over
+- **[[Positions/Side Control/Modified Scarf Hold]]** - Variation - alternative scarf hold configuration with different pressure angles
+- **[[Positions/Side Control/Kuzure Kesa-Gatame]]** - Judo variation - broken scarf hold position with modified arm control
+- **[[Transitions/Americana]]** - Primary submission - high-percentage finish from reverse scarf hold arm trap
+- **[[Transitions/Kimura]]** - Alternative submission - available when opponent extends trapped arm
+- **[[Positions/Back Control]]** - Transition target - accessible when opponent turns away attempting to escape
 
 
 </section>

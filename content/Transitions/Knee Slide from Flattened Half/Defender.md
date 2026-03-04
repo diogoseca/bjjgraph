@@ -154,7 +154,7 @@ description: "Comprehensive defense guide for stopping the knee slide from flatt
 
 Defending the knee slide from flattened half guard is one of the most challenging defensive tasks in Brazilian Jiu-Jitsu because you are operating from a severely compromised position. Your back is flat, your frames are collapsed, and the top player has dominant crossface control. The knee slide represents their most direct path to completing the guard pass to side control, and your window for effective defense is narrow. Successful defense requires early recognition of the slide attempt, precise timing of your defensive response, and the discipline to commit to one defensive pathway rather than splitting your efforts between multiple options. The fundamental defensive priority is preventing the knee from crossing your thigh line, either by re-establishing a frame that blocks the path or by recovering enough hip mobility to re-guard before the slide completes.
 
-**Opponent's Starting Position**: [[Flattened Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Flattened Half Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the knee slide from flattened half guard is one of the most challengin
 ### 1. Frame insertion on the sliding knee with near-side hand or forearm to block the path across your thigh line
 
 - **When to use**: At the first sign of hip displacement or knee angle change, before the slide momentum begins
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: The knee slide is stalled and the top player must reset. You maintain the leg hook and may have created enough space for incremental frame recovery toward active half guard.
 - **Risk**: If your arm extends too far, it becomes vulnerable to isolation for kimura or arm triangle attacks. Keep the frame tight against your body.
 
 ### 2. Hip escape and knee shield re-insertion timed with the top player's forward weight commitment
 
 - **When to use**: When the top player commits weight to the slide and their pressure briefly shifts from your chest to their driving leg
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to active half guard with a knee shield, dramatically improving your defensive position and creating offensive options for sweeps and guard recovery.
 - **Risk**: If the timing is off, the hip escape creates space that the top player can exploit to accelerate the pass. The knee shield must be inserted quickly before they can collapse the new space.
 
 ### 3. Underhook recovery and sweep threat to force the top player to abandon the passing sequence
 
 - **When to use**: When the top player's weight shifts forward during the slide, momentarily reducing their base and leaving the far side vulnerable
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover the underhook and establish an active offensive position in half guard. The sweep threat forces the top player into a defensive reaction that halts the passing sequence.
 - **Risk**: If the underhook attempt fails, you expose your arm and the top player can isolate it for submissions. Commit fully and quickly if you choose this option.
 
 ### 4. Deep half entry by diving underneath the top player's hips during their forward weight commitment
 
 - **When to use**: When the top player commits their weight forward for the knee slide, creating an opportunity to redirect their momentum and thread underneath their center of gravity
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You transition to deep half guard which offers superior sweeping mechanics and completely disrupts the passing sequence. The top player must now deal with a fundamentally different guard structure.
 - **Risk**: If the entry is incomplete, you end up in an even more compromised position with the top player's weight driving through your head and neck. Only attempt this if you have trained the deep half entry extensively.
 
@@ -225,11 +225,11 @@ Defending the knee slide from flattened half guard is one of the most challengin
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your strongest defensive response to coincide with the top player's weight transfer during the slide. Use a hip escape to create space, then immediately insert your knee shield between your bodies. Fight for the underhook on the far side to establish an active offensive half guard position with sweeping and back take options.
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Block the knee path early by framing against the inside of the sliding knee with your near-side hand. Tighten your leg hook to prevent extraction and increase resistance. While you remain in a disadvantaged position, you have prevented the pass completion and can work toward gradual frame recovery through incremental hip escapes.
 

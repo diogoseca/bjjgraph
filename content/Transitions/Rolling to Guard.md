@@ -21,7 +21,7 @@ Strategically, Rolling to Guard occupies a critical niche in the defensive hiera
 
 Mastery requires understanding the interplay between framing, momentum generation, and directional control. Rolling straight backward exposes the back; rolling at a 45-degree angle across the shoulder creates separation from the opponent's centerline and ensures you emerge facing them. The transition from rolling motion to guard establishment must be seamless - any pause between completing the roll and securing grips or hooks creates a passing window the top player will exploit. Practitioners who chain this technique with immediate guard attacks or sweeps convert defensive recovery into offensive initiative.
 
-**From Position**: [[Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 **Success Rate**: 75%
 
 </section>
@@ -32,10 +32,10 @@ Mastery requires understanding the interplay between framing, momentum generatio
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Success | [[Open Guard]] | 20% |
-| Failure | [[Turtle]] | 15% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Success | [[Positions/Open Guard]] | 20% |
+| Failure | [[Positions/Turtle]] | 15% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -199,27 +199,27 @@ Rolling to Guard serves as a critical link in the defensive hierarchy, connectin
 ## Related Techniques
 
 
-- [[Granby Roll to Guard]] - Advanced variation using more dynamic shoulder roll mechanics
+- [[Transitions/Granby Roll to Guard]] - Advanced variation using more dynamic shoulder roll mechanics
 
-- [[Guard Recovery]] - Broader defensive system this technique belongs to
+- [[Principles/Guard Recovery]] - Broader defensive system this technique belongs to
 
-- [[Hip Escape to Guard]] - Complementary fundamental escape using shrimping mechanics
+- [[Transitions/Hip Escape to Guard]] - Complementary fundamental escape using shrimping mechanics
 
-- [[Butterfly Guard]] - Common guard variation established after completing the roll
+- [[Positions/Butterfly Guard]] - Common guard variation established after completing the roll
 
-- [[Closed Guard]] - Primary target guard position upon successful recovery
+- [[Positions/Closed Guard]] - Primary target guard position upon successful recovery
 
-- [[Open Guard]] - Alternative guard established when opponent maintains distance
+- [[Positions/Open Guard]] - Alternative guard established when opponent maintains distance
 
-- [[Turtle]] - Starting position from which this technique is executed
+- [[Positions/Turtle]] - Starting position from which this technique is executed
 
-- [[Back Control]] - Position opponent achieves if roll is poorly timed or executed
+- [[Positions/Back Control]] - Position opponent achieves if roll is poorly timed or executed
 
-- [[Elbow Escape to Guard]] - Complementary escape option from flattened positions
+- [[Transitions/Elbow Escape to Guard]] - Complementary escape option from flattened positions
 
-- [[Peterson Roll]] - Related rolling escape with different entry angle from turtle
+- [[Transitions/Peterson Roll]] - Related rolling escape with different entry angle from turtle
 
-- [[Deep Half Entry]] - Alternative recovery path when rolling is blocked
+- [[Transitions/Deep Half Entry]] - Alternative recovery path when rolling is blocked
 
 
 </section>

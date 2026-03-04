@@ -196,28 +196,28 @@ From a tactical standpoint, defense against the Boston Crab operates on a timeli
 ### 1. Aggressive knee retraction to chest with hip curl
 
 - **When to use**: During early sit-back phase before attacker has fully committed weight backward. Most effective when attacker's grips are on ankles rather than locked around shins.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Breaks the lever arm needed for spinal extension, reducing submission to a control position you can escape from by returning to turtle
 - **Risk**: If attacker anticipates and spreads your ankles apart, the retraction becomes biomechanically difficult and you waste energy
 
 ### 2. Explosive roll to either side during step-over transition
 
 - **When to use**: When attacker is in the process of stepping over your body and has not yet established stable base on both sides. Their balance is compromised during this transitional moment.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Disrupts attacker's balance completely, often resulting in a scramble where you can recover guard or establish a neutral position
 - **Risk**: If attacker has already completed the step-over and is balanced, the roll attempt may accelerate spinal extension by adding rotational force
 
 ### 3. Single leg extraction by kicking one leg free
 
 - **When to use**: When both legs are controlled but attacker's grip on one ankle is weaker or higher than optimal. Focus on the leg with less secure grip control.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Reduces submission to single-leg Boston Crab which has minimal finishing power, and the free leg can post to prevent further sit-back pressure
 - **Risk**: Committing energy to leg extraction while ignoring the other leg can allow attacker to consolidate their remaining grip and adjust position
 
 ### 4. Forward crawl to collapse attacker's base
 
 - **When to use**: During very early phase when attacker has just grabbed ankles but has not yet stepped over. Driving forward forcefully pulls the attacker off-balance.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Breaks the entire attack sequence by denying the step-over. Returns to standard turtle top versus bottom engagement.
 - **Risk**: If attacker has strong grips and good base, forward crawling against their resistance drains energy quickly without creating escape
 
@@ -240,11 +240,11 @@ From a tactical standpoint, defense against the Boston Crab operates on a timeli
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Extract at least one leg from attacker's grip before the sit-back is established, then use the free leg to post and rebuild strong turtle base. The attacker must release and reset their attack sequence.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time a rolling escape during the step-over transition when attacker's balance is compromised. The roll disrupts their control and creates a scramble where you can turn to face them and establish closed guard as they attempt to re-engage.
 

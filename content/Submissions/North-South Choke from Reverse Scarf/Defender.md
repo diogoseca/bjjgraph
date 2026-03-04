@@ -156,7 +156,7 @@ description: "Defend and escape the North-South Choke from Reverse Scarf Hold. R
 
 Defending the North-South Choke from Reverse Scarf Hold requires early recognition and immediate defensive action, as the choke produces unconsciousness rapidly once locked. The defender's primary challenge is that they are already in a disadvantaged position beneath reverse scarf hold before the choke attack begins, meaning their defensive framing options and hip mobility are already compromised. Success depends on identifying the choke setup in its earliest stages and deploying defensive responses before the attacker completes the arm thread and hip transition. The critical defensive window exists between the moment the attacker begins threading their arm under your neck and the moment they lock their grip in north-south alignment. Once the choke is fully locked with bilateral carotid compression, escape becomes extremely difficult and tapping early is essential for training safety.
 
-**Opponent's Starting Position**: [[Reverse Scarf Hold]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Top)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the North-South Choke from Reverse Scarf Hold requires early recogniti
 ### 1. Chin tuck and hand fight to prevent arm threading beneath neck
 
 - **When to use**: As soon as you feel the attacker's arm begin to slide toward your neck from reverse scarf hold, before they achieve any depth
-- **Targets**: [[Reverse Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Reverse Scarf Hold]]
 - **If successful**: Attacker cannot establish the choking position and must return to maintaining the reverse scarf hold pin or attempt a different submission
 - **Risk**: Low risk - purely defensive action that does not compromise your position further
 
 ### 2. Bridge and turn into attacker during hip transition phase
 
 - **When to use**: When the attacker begins walking their hips from reverse scarf toward north-south and their base is momentarily compromised by the movement
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates space to insert knee between bodies and recover half guard, completely disrupting the choke sequence
 - **Risk**: Medium risk - explosive bridge may fail if attacker maintains heavy pressure, spending energy without improvement
 
 ### 3. Frame against chest and hip escape to create distance before choke locks
 
 - **When to use**: When the attacker has threaded the arm but has not yet completed the hip transition or locked their grip
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: Creates enough distance that the choke cannot be completed from current position, forcing attacker into standard north-south control without the choke
 - **Risk**: Medium risk - if frames collapse, you may have moved into worse position with less ability to defend the choke
 
 ### 4. Strip the grip before bilateral compression is established
 
 - **When to use**: When the attacker has positioned the arm but is still establishing their locking grip, and you can reach their choking hand or wrist
-- **Targets**: [[Reverse Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Reverse Scarf Hold]]
 - **If successful**: Pulling the choking arm free collapses the entire choke structure and returns to standard reverse scarf hold defensive position
 - **Risk**: Medium risk - reaching for the grip may extend your arm and create alternative submission opportunities for the attacker
 
@@ -239,11 +239,11 @@ Defending the North-South Choke from Reverse Scarf Hold requires early recogniti
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your bridge and knee insertion during the attacker's hip transition from reverse scarf to north-south. As they walk their feet, their base narrows momentarily - use this window to insert your knee between bodies and recover half guard.
 
-### → [[North-South]]
+### → [[Positions/North-South]]
 
 Frame against the attacker's chest and hip escape to create sufficient distance that the choke cannot reach. The attacker may maintain top position in north-south but without the choking arm threaded, returning to a standard control situation rather than a submission threat.
 

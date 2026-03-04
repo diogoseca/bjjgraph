@@ -154,7 +154,7 @@ description: "Defend against the Turn to Face from Zombie position in BJJ. Learn
 
 As the defender against the Turn to Face from Zombie, you are the top player working to maintain your dominant Zombie Top position while preventing the bottom player from rotating to face you and recovering guard. Your primary tools are crossface pressure, weight distribution, and arm control to shut down the framing and rotation mechanics the bottom player needs to complete the turn. Effective defense requires early recognition of turning attempts and immediate counter-pressure rather than reactive scrambling after the turn is underway. When the bottom player does commit to a turn attempt, the defender can capitalize by either re-flattening them into Zombie or using their rotation momentum to advance past their guard to side control.
 
-**Opponent's Starting Position**: [[Zombie]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Zombie]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the Turn to Face from Zombie, you are the top player wor
 ### 1. Drive crossface and flatten their shoulders back to the mat before rotation initiates
 
 - **When to use**: As soon as you feel them establishing frames and beginning to shift weight for the turn—early intervention is critical
-- **Targets**: [[Zombie]]
+- **Targets**: [[Positions/Rubber Guard/Zombie]]
 - **If successful**: Bottom player is re-flattened into defensive Zombie with frames collapsed, removing their turning space and forcing them to restart the setup process
 - **Risk**: Over-committing to crossface can open space for Old School Sweep if bottom player redirects to offensive techniques
 
 ### 2. Sprawl hips down and drive forward pressure to pin their hips and prevent rotation
 
 - **When to use**: When you feel the bottom player's hips beginning to shift and load for the rotational movement
-- **Targets**: [[Zombie]]
+- **Targets**: [[Positions/Rubber Guard/Zombie]]
 - **If successful**: Bottom player's hips are pinned preventing any rotation and their lockdown stretch loses effectiveness due to your sprawl pressure
 - **Risk**: Over-sprawling can create space underneath you that the bottom player exploits for Deep Half entry
 
 ### 3. Circle toward their back during their rotation to advance past their legs to side control
 
 - **When to use**: When the bottom player has committed to the turn and is mid-rotation—their movement creates a passing lane
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You advance past their legs during the rotation and establish side control before they can complete the turn and establish guard frames
 - **Risk**: If the bottom player completes the turn faster than you circle, they recover to Half Guard with you out of position
 
 ### 4. Control their far arm by gripping the wrist or elbow to remove their primary turning frame
 
 - **When to use**: When you see the far arm positioning for a frame—intercept before the frame is established
-- **Targets**: [[Zombie]]
+- **Targets**: [[Positions/Rubber Guard/Zombie]]
 - **If successful**: Without their far arm frame, the bottom player lacks the structural support to initiate or complete the turn and must fight to recover their arm before re-attempting
 - **Risk**: Reaching for the arm may momentarily reduce your crossface pressure, creating a brief window for other escapes
 
@@ -225,11 +225,11 @@ As the defender against the Turn to Face from Zombie, you are the top player wor
 
 ## Best-Case Outcomes for Defender
 
-### → [[Zombie]]
+### → [[Positions/Rubber Guard/Zombie]]
 
 Maintain heavy crossface pressure through your shoulder driving into their back and shoulder junction. Control their far arm to prevent frame establishment and keep your hips low to restrict their rotation. Continuously disrupt any frames they attempt to build before they can consolidate a turning position. Patient pressure with occasional passing threats keeps them defensive.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the bottom player commits to the turn but executes it slowly or without adequate frames, circle toward their back while driving your weight forward. Slide your knee across their hip line as they rotate, using their own turning momentum to advance past their legs. Immediately establish crossface and underhook upon arriving in side control to prevent them from recovering guard.
 

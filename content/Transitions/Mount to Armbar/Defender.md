@@ -156,7 +156,7 @@ Defending the Mount to Armbar requires recognizing the attack at the earliest po
 
 The defender's strategy centers on three priorities in sequence: first, prevent arm isolation by keeping elbows tight and avoiding extended frames that expose the arm; second, if isolation begins, immediately address the pivot by turning into the attacker or creating structural barriers to the leg crossing the face; third, if the transition reaches the sit-back phase, employ armbar-specific defenses including the hitchhiker escape, stacking, or arm extraction to recover to a safer position. Energy management is critical because bottom mount already demands significant effort, and panic-driven responses to the armbar attempt accelerate exhaustion without improving defensive position.
 
-**Opponent's Starting Position**: [[Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The defender's strategy centers on three priorities in sequence: first, prevent 
 ### 1. Retract elbow and turn into attacker during pivot phase
 
 - **When to use**: As soon as you feel the attacker isolating your arm and beginning to rotate their hips - this is the earliest and highest-percentage defensive window
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You prevent the armbar transition entirely and remain in bottom mount, which although still disadvantageous is far safer than armbar control. The attacker must re-establish their setup from scratch.
 - **Risk**: If your turn is incomplete, the attacker may take your back instead. Committing to the turn without freeing your arm first can expose the back.
 
 ### 2. Bridge explosively toward attacker's head and stack their hips
 
 - **When to use**: When the attacker has begun sitting back but has not yet fully secured the armbar position with tight hips and pinched knees
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: The bridge disrupts the attacker's base and angle, preventing them from completing the sit-back. You can recover to mount bottom or potentially scramble to a neutral position.
 - **Risk**: If timed too late when the attacker's legs are already locked, the bridge may accelerate the arm extension and hasten the submission.
 
 ### 3. Control the leg crossing your face and execute hitchhiker escape
 
 - **When to use**: When the attacker's leg is crossing your face but they have not yet achieved tight hip-to-shoulder connection - grab their leg with your free hand and begin rotating
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You extract your arm by rotating it thumb-first while turning your body away from the attack, recovering to a neutral position or establishing closed guard on top.
 - **Risk**: If the attacker maintains wrist control during your rotation, the escape stalls and you remain in armbar control with depleted energy.
 
 ### 4. Clasp hands together and stack forward to prevent arm extension
 
 - **When to use**: When arm isolation is complete and you cannot prevent the transition - this is a last-resort survival tactic to buy time for a more complete escape
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: You prevent the immediate finish and create time to work a more systematic escape such as stacking or hitchhiker. The clasped grip delays the extension.
 - **Risk**: This is a temporary defense only. The attacker can break the grip incrementally with hip pressure, switch to triangle, or attack the opposite arm.
 
@@ -228,11 +228,11 @@ The defender's strategy centers on three priorities in sequence: first, prevent 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Prevent the armbar transition entirely by retracting your elbow early and turning into the attacker during their pivot phase. Keep elbows tight to your body, deny arm isolation, and bridge toward their head to disrupt the rotation. If successful, you remain in bottom mount where you can then work standard mount escapes.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Execute the hitchhiker escape during the transition by controlling the attacker's leg across your face, rotating your trapped arm thumb-first, and turning your body away from the attack. As you extract your arm, follow through by establishing closed guard. This is the best-case scenario when the transition has progressed past the initial pivot.
 

@@ -146,7 +146,7 @@ description: "Defend against the Ringworm to Spider Guard transition. Learn to r
 
 Defending against the Ringworm to Spider Guard transition requires the top player to recognize the grip conversion attempt and exploit the brief window of vulnerability when the bottom player releases lapel control to establish sleeve grips. The defender must prevent sleeve acquisition while capitalizing on the reduced control during the transition phase. Quick hands and awareness of the bottom player's grip sequence are essential for shutting down this transition before Spider Guard is fully established. The most effective defensive strategy combines immediate grip prevention with forward pressure during the control gap, turning the bottom player's transition attempt into a passing opportunity rather than allowing them to upgrade their guard system.
 
-**Opponent's Starting Position**: [[Ringworm Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ringworm Guard]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ Defending against the Ringworm to Spider Guard transition requires the top playe
 ### 1. Strip the attempted sleeve grip and withdraw arms immediately when you sense the transition initiating
 
 - **When to use**: As soon as you feel the bottom player's free hand reaching for your sleeve while still holding the lapel
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Bottom player loses both lapel control and fails to establish sleeve control, leaving them in a compromised open guard with no effective grip system
 - **Risk**: If too slow, the bottom player secures the sleeve grip and establishes the spider hook before you can withdraw
 
 ### 2. Drive forward with explosive pressure during the moment the lapel is released
 
 - **When to use**: The instant you feel lapel tension disappear, indicating the bottom player has released the wrap to reach for your other sleeve
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You collapse the distance before Spider Guard can be established, achieving a dominant passing position or forcing a scramble in your favor
 - **Risk**: If the bottom player has already secured both sleeve grips, your forward drive plays into their spider sweep mechanics
 
 ### 3. Control the bottom player's grip-fighting hand with a same-side wrist grip to prevent sleeve acquisition
 
 - **When to use**: When you notice the bottom player beginning to release lapel tension or reaching with their free hand toward your sleeve
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: The bottom player cannot complete the grip exchange and must either maintain a weakened Ringworm Guard or attempt a different transition
 - **Risk**: Committing your hand to wrist control may limit your own passing options and give the bottom player time to reconfigure
 
 ### 4. Circle laterally and change angle to disrupt the bottom player's foot placement for spider hooks
 
 - **When to use**: When the bottom player has secured one sleeve but is attempting to place their foot on your bicep
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The angle change prevents the bottom player from establishing proper pushing pressure, degrading the transition into a scramble position
 - **Risk**: Lateral movement may expose your back or create sweeping angles if the bottom player adapts quickly
 
@@ -216,11 +216,11 @@ Defending against the Ringworm to Spider Guard transition requires the top playe
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Exploit the grip exchange window by stripping the sleeve grip attempt and immediately driving forward with pressure, or withdraw both arms and posture up when the lapel is released, preventing the bottom player from establishing any effective guard configuration.
 
-### → [[Ringworm Guard]]
+### → [[Positions/Ringworm Guard]]
 
 Prevent the sleeve acquisition by controlling the bottom player's grip-fighting hand, forcing them to abort the transition and retain their Ringworm Guard configuration where you can continue your extraction and passing sequence.
 

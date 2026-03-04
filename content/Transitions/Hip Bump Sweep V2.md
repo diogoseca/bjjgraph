@@ -21,7 +21,7 @@ The Hip Bump Sweep serves as a cornerstone technique in closed guard offense, te
 
 This sweep is considered essential curriculum for white and blue belts, as it develops fundamental skills in breaking posture, creating angles, and understanding weight distribution. The Hip Bump Sweep integrates seamlessly into closed guard attack systems and creates multiple offensive opportunities through the reactions it generates from opponents.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ This sweep is considered essential curriculum for white and blue belts, as it de
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Mount]] | 60% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -196,27 +196,27 @@ The hip bump sweep occupies a foundational position within the closed guard offe
 ## Related Techniques
 
 
-- [[Scissor Sweep]] - Alternative sweep from same position - use when opponent's weight is distributed differently
+- [[Transitions/Scissor Sweep]] - Alternative sweep from same position - use when opponent's weight is distributed differently
 
-- [[Pendulum Sweep]] - Follow-up sweep when opponent defends hip bump by driving weight backward
+- [[Transitions/Pendulum Sweep]] - Follow-up sweep when opponent defends hip bump by driving weight backward
 
-- [[Triangle from Closed Guard]] - Primary submission follow-up when opponent posts arm wide to defend sweep
+- [[Submissions/Triangle from Closed Guard]] - Primary submission follow-up when opponent posts arm wide to defend sweep
 
-- [[Armbar from Guard]] - Secondary submission option when opponent posts arm during sweep defense
+- [[Submissions/Armbar from Guard]] - Secondary submission option when opponent posts arm during sweep defense
 
-- [[Kimura from Guard]] - Alternative attack when opponent pulls arm free during sweep attempt
+- [[Submissions/Kimura from Guard]] - Alternative attack when opponent pulls arm free during sweep attempt
 
-- [[Flower Sweep]] - Complementary sweep that works well in combination when opponent adjusts to hip bump
+- [[Transitions/Flower Sweep]] - Complementary sweep that works well in combination when opponent adjusts to hip bump
 
-- [[Omoplata from Guard]] - Advanced follow-up when opponent defends by circling away from sweep direction
+- [[Submissions/Omoplata from Guard]] - Advanced follow-up when opponent defends by circling away from sweep direction
 
-- [[Closed Guard]] - Starting position - hip bump is core technique from this position
+- [[Positions/Closed Guard]] - Starting position - hip bump is core technique from this position
 
-- [[Mount]] - Ending position - successful sweep establishes dominant mount control
+- [[Positions/Mount]] - Ending position - successful sweep establishes dominant mount control
 
-- [[Elevator Sweep]] - Related sweep exploiting similar timing windows from closed guard
+- [[Transitions/Elevator Sweep]] - Related sweep exploiting similar timing windows from closed guard
 
-- [[Guillotine Choke]] - Chain attack when opponent pulls arm back defending kimura follow-up
+- [[Transitions/Guillotine Choke]] - Chain attack when opponent pulls arm back defending kimura follow-up
 
 
 </section>

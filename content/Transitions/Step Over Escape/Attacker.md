@@ -190,7 +190,7 @@ This escape is particularly effective when the opponent has committed to flatten
 
 Strategically, the Step Over Escape pairs with the Back Door Escape and Counter Roll as the three primary escapes from Darce Control Bottom. Where the Back Door Escape retreats behind the opponent and the Counter Roll inverts through them, the Step Over goes over the top, making it the preferred option when the opponent's weight is shifted low and their head is accessible for the leg to clear. Advanced practitioners chain all three escapes together, forcing the attacker to defend multiple escape vectors simultaneously.
 
-**From Position**: [[Darce Control]] (Bottom)
+**From Position**: [[Positions/Darce Control]] (Bottom)
 
 </section>
 
@@ -245,9 +245,9 @@ Strategically, the Step Over Escape pairs with the Back Door Escape and Counter 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 65% |
-| Failure | [[Darce Control]] | 25% |
-| Counter | [[Darce Control]] | 10% |
+| Success | [[Positions/Open Guard]] | 65% |
+| Failure | [[Positions/Darce Control]] | 25% |
+| Counter | [[Positions/Darce Control]] | 10% |
 
 
 </section>
@@ -256,10 +256,10 @@ Strategically, the Step Over Escape pairs with the Back Door Escape and Counter 
 
 ## Opponent Counters
 
-- **Opponent sprawls hips back and drives shoulder pressure forward to prevent the leg from clearing over their head** (Effectiveness: High) - Your Response: If the leg cannot clear, abort the step over and immediately transition to a Back Door Escape by retreating behind the opponent, using the momentum you already generated toward their body → Leads to [[Darce Control]]
-- **Opponent tightens the Darce grip and walks hips around to the opposite side, chasing the rotation** (Effectiveness: Medium) - Your Response: Accelerate your rotation speed and use your free hand frame on their hip to create separation. If they chase fully around, the choke loses its angle and you can extract the trapped arm during their positional adjustment → Leads to [[Darce Control]]
-- **Opponent releases the Darce grip and transitions to mount or side control as you rotate through** (Effectiveness: Medium) - Your Response: This is actually a partial success since the choke is broken. Immediately address the new positional threat by framing on their hips, inserting a knee shield, and recovering to half guard or closed guard before they consolidate the new position → Leads to [[Open Guard]]
-- **Opponent blocks the stepping leg with their free arm and traps it against their body** (Effectiveness: Low) - Your Response: Use the trapped leg as a hook on their body to pull yourself through the rotation rather than trying to retract it. The leg hook gives you leverage to continue the escape movement and can transition into a scramble → Leads to [[Darce Control]]
+- **Opponent sprawls hips back and drives shoulder pressure forward to prevent the leg from clearing over their head** (Effectiveness: High) - Your Response: If the leg cannot clear, abort the step over and immediately transition to a Back Door Escape by retreating behind the opponent, using the momentum you already generated toward their body → Leads to [[Positions/Darce Control]]
+- **Opponent tightens the Darce grip and walks hips around to the opposite side, chasing the rotation** (Effectiveness: Medium) - Your Response: Accelerate your rotation speed and use your free hand frame on their hip to create separation. If they chase fully around, the choke loses its angle and you can extract the trapped arm during their positional adjustment → Leads to [[Positions/Darce Control]]
+- **Opponent releases the Darce grip and transitions to mount or side control as you rotate through** (Effectiveness: Medium) - Your Response: This is actually a partial success since the choke is broken. Immediately address the new positional threat by framing on their hips, inserting a knee shield, and recovering to half guard or closed guard before they consolidate the new position → Leads to [[Positions/Open Guard]]
+- **Opponent blocks the stepping leg with their free arm and traps it against their body** (Effectiveness: Low) - Your Response: Use the trapped leg as a hook on their body to pull yourself through the rotation rather than trying to retract it. The leg hook gives you leverage to continue the escape movement and can transition into a scramble → Leads to [[Positions/Darce Control]]
 
 
 </section>

@@ -158,7 +158,7 @@ The defender must address two concurrent threats during this transition: the mom
 
 Strategically, the best defense against this transition operates at the prevention level. Recognizing the attacker's intent before the grip change occurs allows the defender to retract their frame, deny the threading path, or create enough distance to fully escape the head control. When prevention fails, the defender must work systematically through escape sequences that address the Darce grip while maintaining awareness of the guillotine fallback threat.
 
-**Opponent's Starting Position**: [[Hindulotine]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Strategically, the best defense against this transition operates at the preventi
 ### 1. Retract near-side arm and posture up during grip change
 
 - **When to use**: As soon as you feel the guillotine grip release and the attacker's arm begins threading under your armpit
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: Eliminates the arm-in configuration, forcing attacker back to guillotine attempt from weakened grip position
 - **Risk**: If too slow, the arm becomes trapped in the Darce configuration before extraction completes
 
 ### 2. Drive forward and flatten the attacker while tucking chin
 
 - **When to use**: When the attacker has partially threaded the Darce arm but has not yet locked the figure-four grip
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Your forward pressure and weight deny the attacker the hip angle needed to finish, potentially passing to a neutral or dominant position
 - **Risk**: If attacker has butterfly hooks, your forward drive provides energy for a sweep
 
 ### 3. Turn into attacker and circle toward the choking arm side
 
 - **When to use**: When the Darce grip is partially established but not fully locked, and you can still move your head
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: Turning into the choke relieves the compression angle and creates space to extract your trapped arm from the Darce configuration
 - **Risk**: If attacker adjusts hip angle to match your turn, the Darce can tighten during the rotation
 
 ### 4. Swim free arm inside and strip the threading arm before grip locks
 
 - **When to use**: During the brief moment between guillotine release and Darce grip completion when the attacker's threading arm is exposed
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: Prevents the Darce grip from locking entirely, forcing attacker to restart the transition or abandon the attempt
 - **Risk**: Reaching with your free arm may compromise your base and open you to sweeps
 
@@ -228,11 +228,11 @@ Strategically, the best defense against this transition operates at the preventi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Hindulotine]]
+### → [[Positions/Hindulotine]]
 
 Retract your near-side arm the moment you feel guillotine pressure release, then posture up explosively while the attacker lacks a secure grip configuration. Frame against their head control arm to break the remaining connection and return to defending the Hindulotine rather than the Darce.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Drive forward aggressively when you feel the grip change, using your bodyweight to flatten the attacker and deny hip angle. Walk your knees forward past their hips to establish a top position, forcing them into closed guard where their head control is weakened.
 

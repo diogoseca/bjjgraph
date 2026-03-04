@@ -180,7 +180,7 @@ description: "Learn to execute the Guard Pass from Chill Dog as the attacker. St
 
 As the attacker executing the Guard Pass from Chill Dog, your primary objective is systematically dismantling the opponent's compact defensive turtle to establish side control. This requires a sequential approach: first securing heavy chest pressure to limit escape options, then breaking the elbow-to-knee connection that forms the foundation of the Chill Dog defense, flattening the opponent's hips to the mat, and finally sliding to a perpendicular position for side control consolidation. Rushing any phase allows the defender to reset their protective shell or execute an explosive escape to guard. The technique rewards patience and methodical pressure over speed and athleticism.
 
-**From Position**: [[Chill Dog]] (Top)
+**From Position**: [[Positions/Rubber Guard/Chill Dog]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ As the attacker executing the Guard Pass from Chill Dog, your primary objective 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Chill Dog]] | 32% |
-| Counter | [[Closed Guard]] | 18% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Rubber Guard/Chill Dog]] | 32% |
+| Counter | [[Positions/Closed Guard]] | 18% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the Guard Pass from Chill Dog, your primary objective 
 
 ## Opponent Counters
 
-- **Opponent immediately re-establishes elbow-knee connection after initial frame break attempt** (Effectiveness: High) - Your Response: Switch angle of attack - if direct underhook failed, try crossface-first approach or threaten back take to force a different defensive reaction that reopens the frame → Leads to [[Chill Dog]]
-- **Opponent executes Granby roll when you commit weight forward during the flattening phase** (Effectiveness: Medium) - Your Response: Follow the roll by staying chest-to-back and maintaining upper body connection rather than pulling away. Their roll often exposes their back for a back take attempt if you stay tight through the rotation → Leads to [[Closed Guard]]
-- **Opponent explosively posts on hands and attempts technical stand-up during hip transition** (Effectiveness: Medium) - Your Response: Snap them back down immediately with crossface and hip pressure, or transition to a body lock around their waist if they achieve partial standing position. Front headlock is available if their head rises → Leads to [[Chill Dog]]
-- **Opponent turns into you and recovers guard during the slide to perpendicular position** (Effectiveness: Low) - Your Response: Maintain crossface pressure throughout the lateral slide to prevent the turn. If they do recover guard, you are in closed guard top which is stable - immediately work posture and guard opening sequence → Leads to [[Closed Guard]]
+- **Opponent immediately re-establishes elbow-knee connection after initial frame break attempt** (Effectiveness: High) - Your Response: Switch angle of attack - if direct underhook failed, try crossface-first approach or threaten back take to force a different defensive reaction that reopens the frame → Leads to [[Positions/Rubber Guard/Chill Dog]]
+- **Opponent executes Granby roll when you commit weight forward during the flattening phase** (Effectiveness: Medium) - Your Response: Follow the roll by staying chest-to-back and maintaining upper body connection rather than pulling away. Their roll often exposes their back for a back take attempt if you stay tight through the rotation → Leads to [[Positions/Closed Guard]]
+- **Opponent explosively posts on hands and attempts technical stand-up during hip transition** (Effectiveness: Medium) - Your Response: Snap them back down immediately with crossface and hip pressure, or transition to a body lock around their waist if they achieve partial standing position. Front headlock is available if their head rises → Leads to [[Positions/Rubber Guard/Chill Dog]]
+- **Opponent turns into you and recovers guard during the slide to perpendicular position** (Effectiveness: Low) - Your Response: Maintain crossface pressure throughout the lateral slide to prevent the turn. If they do recover guard, you are in closed guard top which is stable - immediately work posture and guard opening sequence → Leads to [[Positions/Closed Guard]]
 
 
 </section>

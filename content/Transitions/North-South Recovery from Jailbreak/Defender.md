@@ -154,7 +154,7 @@ description: "Defend the North-South Recovery from Jailbreak in BJJ. Recognition
 
 Defending the North-South Recovery from Jailbreak requires the bottom player to recognize the top player's intent to transition and respond before perpendicular alignment is established. The primary danger is that once North-South is consolidated, escape becomes significantly more difficult due to crushing chest pressure and severely limited mobility. The bottom player's best opportunity to counter this transition occurs during the movement itself, when the top player's weight distribution shifts and momentary gaps in control appear. Understanding the recognition cues and having pre-planned defensive responses transforms this transition from a vulnerability into a guard recovery opportunity, since the angle change inherently creates brief windows that can be exploited by a prepared defender.
 
-**Opponent's Starting Position**: [[Jailbreak]] (Top)
+**Opponent's Starting Position**: [[Positions/Jailbreak]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the North-South Recovery from Jailbreak requires the bottom player to 
 ### 1. Retract legs and insert knee shield between bodies
 
 - **When to use**: As soon as you recognize the circular walking motion beginning, before the top player achieves perpendicular alignment
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover half guard position with knee shield established, resetting the passing exchange to a more defensible state
 - **Risk**: If too slow, the top player clears your legs entirely and consolidates North-South before the knee shield can be inserted
 
 ### 2. Hip escape to follow the top player's circular movement direction
 
 - **When to use**: During the initial phase of the walk-around when the top player first shifts weight toward your head
-- **Targets**: [[Jailbreak]]
+- **Targets**: [[Positions/Jailbreak]]
 - **If successful**: Maintain frontal alignment and keep position in Jailbreak stalemate, preventing the angle change needed for North-South
 - **Risk**: Insufficient hip escape speed may create space that actually assists the top player's movement rather than preventing it
 
 ### 3. Establish structural forearm frames against chest during the transition
 
 - **When to use**: When the top player has begun walking around but has not yet achieved full perpendicular alignment
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Frames prevent chest pressure consolidation and create sufficient space for leg recovery and guard re-establishment
 - **Risk**: Extended arms may be targeted for kimura or americana if the frames collapse under pressure
 
 ### 4. Explosive bridge during the mid-transition weight shift
 
 - **When to use**: When the top player is at approximately 45 degrees and their weight is most unevenly distributed during the angle change
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Bridge disrupts the top player's balance during the vulnerable transition phase and creates enough space to re-insert guard
 - **Risk**: Poorly timed bridge wastes significant energy and may accelerate the top player's movement into North-South
 
@@ -225,11 +225,11 @@ Defending the North-South Recovery from Jailbreak requires the bottom player to 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Retract extended legs and insert a knee shield during the transition window while the top player's focus is on the walk-around footwork. Use forearm frames to maintain the space needed for knee insertion, then re-establish half guard hooks and grips.
 
-### → [[Jailbreak]]
+### → [[Positions/Jailbreak]]
 
 Follow the top player's circular movement with hip escapes to maintain frontal alignment, preventing them from achieving the perpendicular angle needed for North-South. Combined with active leg engagement, this keeps the position in the Jailbreak stalemate where your leg barriers remain effective.
 

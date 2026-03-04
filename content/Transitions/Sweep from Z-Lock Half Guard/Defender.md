@@ -148,7 +148,7 @@ As the defender against the Sweep from Z-Lock Half Guard, you are the top player
 
 Defensive success requires active management of three variables: your base width, your weight placement, and your control over the opponent's underhook. When all three are addressed simultaneously, the sweep becomes extremely difficult to execute regardless of the bottom player's technical skill.
 
-**Opponent's Starting Position**: [[Z-Lock Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Bottom)
 
 </section>
 
@@ -186,28 +186,28 @@ Defensive success requires active management of three variables: your base width
 ### 1. Post far hand wide on the mat in the direction of the sweep to create a structural brace that blocks the rotational path
 
 - **When to use**: When you feel the compound off-balance beginning to fire and your body starting to rotate - the post must be established before the tipping point
-- **Targets**: [[Z-Lock Half Guard]]
+- **Targets**: [[Positions/Half Guard/Z-Lock Half Guard]]
 - **If successful**: The sweep stalls against your posted arm, opponent remains in Z-Lock bottom with their sweep energy expended, and you can re-establish heavy top pressure
 - **Risk**: Posted arm becomes vulnerable to kimura attack if bottom player recognizes and targets it
 
 ### 2. Drive aggressive crossface and flatten opponent's shoulders to the mat, eliminating their hip angle and neutralizing the mechanical advantage of both legs
 
 - **When to use**: Proactively when you recognize Z-Lock configuration being established, before the sweeper has loaded their position for the attempt
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Opponent is flattened to Flattened Half Guard Bottom with reduced offensive capability, opening passing sequences for you
 - **Risk**: Driving forward aggressively can feed into the sweep if the opponent times the off-balance to coincide with your pressure commitment
 
 ### 3. Sit weight back onto heels and widen base, removing the forward weight commitment the sweep requires while maintaining top position
 
 - **When to use**: When you recognize the bottom player is baiting you into driving forward, particularly when they become still after establishing sweep grips
-- **Targets**: [[Z-Lock Half Guard]]
+- **Targets**: [[Positions/Half Guard/Z-Lock Half Guard]]
 - **If successful**: Sweep cannot fire without forward momentum to exploit. You maintain top position and can work to strip the Z-Lock grips methodically
 - **Risk**: Sitting back creates space that opponent can use to transition to deep half guard, come up to dogfight, or re-establish more favorable guard position
 
 ### 4. Strip the lockdown by straightening and circling your trapped leg free before the compound off-balance can be coordinated
 
 - **When to use**: Early in the Z-Lock establishment before the bottom player has fully secured both leg positions and the underhook
-- **Targets**: [[Z-Lock Half Guard]]
+- **Targets**: [[Positions/Half Guard/Z-Lock Half Guard]]
 - **If successful**: Z-Lock configuration is broken, reducing the position to standard half guard where the compound sweep is no longer available
 - **Risk**: Forceful leg extraction can compromise your own base and open space for guard recovery or alternative sweep attempts
 
@@ -219,11 +219,11 @@ Defensive success requires active management of three variables: your base width
 
 ## Best-Case Outcomes for Defender
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Drive aggressive crossface to pin opponent's far shoulder to the mat while simultaneously walking your hips forward to increase pressure. This flattens their hip angle, neutralizes both butterfly hook and lockdown effectiveness, and transitions the position into Flattened Half Guard where your passing options increase significantly and their sweep threats diminish.
 
-### → [[Z-Lock Half Guard]]
+### → [[Positions/Half Guard/Z-Lock Half Guard]]
 
 Deny the sweep by maintaining a balanced, centrally-distributed weight position with a wide base. Actively fight the underhook through whizzer or crossface control and work to strip the lockdown before the sweeper can coordinate the compound off-balance. Staying patient and refusing to drive forward when the sweeper is loaded for the attempt keeps you in top position with the initiative.
 

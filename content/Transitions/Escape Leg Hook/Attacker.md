@@ -186,7 +186,7 @@ description: "Learn to execute the Escape Leg Hook from bottom position. Systema
 
 As the attacker executing the Escape Leg Hook, you are the bottom player systematically working to dismantle the top player's hook control and recover to standard Half Guard. Unlike the explosive Counter Leg Hook that targets turtle, this escape prioritizes controlled, incremental progress through frame establishment, hip escape, and leg extraction. Your approach should be methodical: establish frames to prevent further deterioration, create space through precise hip escapes, extract the hooked leg when sufficient space exists, and immediately establish half guard structure to prevent re-hooking. This technique rewards patience and positional awareness over athleticism, making it a reliable default escape that works across body types and experience levels.
 
-**From Position**: [[Leg Hook]] (Bottom)
+**From Position**: [[Positions/Leg Hook]] (Bottom)
 
 </section>
 
@@ -238,9 +238,9 @@ As the attacker executing the Escape Leg Hook, you are the bottom player systema
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Leg Hook]] | 30% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Leg Hook]] | 30% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -249,10 +249,10 @@ As the attacker executing the Escape Leg Hook, you are the bottom player systema
 
 ## Opponent Counters
 
-- **Top player drives heavy forward pressure when they feel the hip escape beginning, collapsing the frame and eliminating space** (Effectiveness: High) - Your Response: Redirect to deep half guard entry by using their forward pressure momentum to duck underneath their base, converting the failed hip escape into an offensive transition → Leads to [[Leg Hook]]
-- **Top player re-deepens the hook immediately after you create initial angle, following your hip movement with their own adjustment** (Effectiveness: Medium) - Your Response: Continue the incremental escape sequence with a second hip escape in the same direction, or switch to push-kick extraction variant using your free foot against their hip to create forced separation → Leads to [[Leg Hook]]
-- **Top player abandons the hook and advances directly to side control pass during the extraction movement** (Effectiveness: High) - Your Response: Abandon the leg extraction and immediately fight for inside position with frames to prevent the pass, transitioning to standard side control prevention rather than continuing the hook escape → Leads to [[Side Control]]
-- **Top player establishes dominant crossface control that limits all hip escape movement and pins your head position** (Effectiveness: High) - Your Response: Prioritize stripping the crossface before continuing the escape using two-on-one grip fighting on their crossface arm, then reinitiate the hip escape sequence once head control is removed → Leads to [[Leg Hook]]
+- **Top player drives heavy forward pressure when they feel the hip escape beginning, collapsing the frame and eliminating space** (Effectiveness: High) - Your Response: Redirect to deep half guard entry by using their forward pressure momentum to duck underneath their base, converting the failed hip escape into an offensive transition → Leads to [[Positions/Leg Hook]]
+- **Top player re-deepens the hook immediately after you create initial angle, following your hip movement with their own adjustment** (Effectiveness: Medium) - Your Response: Continue the incremental escape sequence with a second hip escape in the same direction, or switch to push-kick extraction variant using your free foot against their hip to create forced separation → Leads to [[Positions/Leg Hook]]
+- **Top player abandons the hook and advances directly to side control pass during the extraction movement** (Effectiveness: High) - Your Response: Abandon the leg extraction and immediately fight for inside position with frames to prevent the pass, transitioning to standard side control prevention rather than continuing the hook escape → Leads to [[Positions/Side Control]]
+- **Top player establishes dominant crossface control that limits all hip escape movement and pins your head position** (Effectiveness: High) - Your Response: Prioritize stripping the crossface before continuing the escape using two-on-one grip fighting on their crossface arm, then reinitiate the hip escape sequence once head control is removed → Leads to [[Positions/Leg Hook]]
 
 
 </section>

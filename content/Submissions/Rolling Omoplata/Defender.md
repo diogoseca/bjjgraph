@@ -156,7 +156,7 @@ description: "How to defend against Rolling Omoplata in BJJ. Recognition, escape
 
 Defending the Rolling Omoplata requires understanding that this submission develops through a rapid sequence of rolling momentum followed by shoulder isolation, making early recognition the single most important defensive skill. Unlike defending a traditional omoplata where you have clear visual cues from a static guard position, the rolling version emerges from scrambles and transitions with minimal warning. Your defensive priorities shift based on the stage of the attack: during the rolling phase, your goal is to prevent arm isolation and deny the roll completion; once the roll is completed and your shoulder is captured, your goal shifts to preventing the perpendicular angle and creating space to extract your arm or roll through to a neutral position. The dynamic nature of this attack means that timing-based defenses are more effective than strength-based resistance - understanding when to posture, when to turn, and when to roll through is critical for survival. Experienced defenders treat the rolling omoplata as a transitional problem rather than a static one, using the attacker's momentum against them to create scramble opportunities rather than fighting from a locked defensive position.
 
-**Opponent's Starting Position**: [[Scramble Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Scramble Position]] (Bottom)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the Rolling Omoplata requires understanding that this submission devel
 ### 1. Retract your arm and pull elbow tight to your body immediately when you feel the rolling entry beginning
 
 - **When to use**: During the initial rolling phase before the attacker completes the roll and positions their legs - this is the highest percentage defense window
-- **Targets**: [[Scramble Position]]
+- **Targets**: [[Positions/Scramble Position]]
 - **If successful**: Denies the arm isolation entirely, returning both grapplers to a neutral scramble with no submission threat
 - **Risk**: If you retract too late, you may end up in a worse position with your arm partially trapped and the attacker's legs already in position
 
 ### 2. Forward roll through the omoplata to escape shoulder pressure and scramble to top position
 
 - **When to use**: Once the attacker has completed the roll and positioned their legs but before they have secured the perpendicular angle and hip pressure on your shoulder
-- **Targets**: [[Scramble Position]]
+- **Targets**: [[Positions/Scramble Position]]
 - **If successful**: Escapes the omoplata and creates a scramble where you may achieve top position or at minimum reset to neutral
 - **Risk**: Attacker may follow your roll and transition to back control; requires space and timing to execute safely without injuring your shoulder
 
 ### 3. Grab your own belt or lapel with the trapped hand to prevent arm extension while turning your body toward the attacker
 
 - **When to use**: When the attacker has completed the roll and is working to extend your arm for the finish but has not yet achieved full hip pressure
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Prevents the arm extension needed for the submission finish, buying time to work a more complete escape or force the attacker to transition
 - **Risk**: This is a temporary stall that buys time but does not escape the position; attacker may transition to triangle or increase pressure to break the grip
 
 ### 4. Posture up explosively while stacking weight onto the attacker before they complete the rolling motion
 
 - **When to use**: During the early phase of the roll when the attacker is inverted and loading onto their shoulders
-- **Targets**: [[Scramble Position]]
+- **Targets**: [[Positions/Scramble Position]]
 - **If successful**: Disrupts the rolling momentum and prevents the attacker from completing the technique, returning to a scramble or achieving top pressure
 - **Risk**: If the attacker has already completed most of the roll, your forward pressure may actually help them finish positioning their legs
 
@@ -239,11 +239,11 @@ Defending the Rolling Omoplata requires understanding that this submission devel
 
 ## Best-Case Outcomes for Defender
 
-### → [[Scramble Position]]
+### → [[Positions/Scramble Position]]
 
 Retract arm early before roll completion or execute a forward roll through the omoplata to reset to neutral positioning where neither player has established control
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Turn into the attacker while defending the grip, use your posture and weight to drive them flat on their back, and work to establish top position inside their guard as they abandon the omoplata attempt
 

@@ -21,7 +21,7 @@ This sweep represents a cornerstone of open guard offense because it requires mi
 
 Strategically, the tripod sweep creates a devastating dilemma when paired with the sickle sweep. Both attacks share the same initial feet-on-hips configuration but send the opponent in opposite directions—the tripod drives them backward while the sickle cuts them laterally. This pairing forces the opponent to defend multiple directions simultaneously, dramatically increasing the success rate of both techniques. The tripod sweep also serves as an excellent entry into standing passing sequences, as the sweeper naturally rises to their feet during follow-through.
 
-**From Position**: [[Feet on Hips Guard]] (Bottom)
+**From Position**: [[Positions/Feet on Hips Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the tripod sweep creates a devastating dilemma when paired with t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Feet on Hips Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Feet on Hips Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The tripod sweep occupies a central position in the open guard sweeping hierarch
 ## Related Techniques
 
 
-- [[Feet on Hips Guard]] - Starting position from which the tripod sweep is initiated
+- [[Positions/Feet on Hips Guard]] - Starting position from which the tripod sweep is initiated
 
-- [[Open Guard]] - Parent guard category and typical resulting position after successful sweep
+- [[Positions/Open Guard]] - Parent guard category and typical resulting position after successful sweep
 
-- [[Feet on Hips Sickle Sweep]] - Complementary sweep forming a bidirectional attack pair from the same position
+- [[Transitions/Feet on Hips Sickle Sweep]] - Complementary sweep forming a bidirectional attack pair from the same position
 
-- [[De La Riva Guard]] - Related guard system with similar ankle-based sweep mechanics
+- [[Positions/De La Riva Guard]] - Related guard system with similar ankle-based sweep mechanics
 
-- [[Tomoe Nage]] - Alternative sweep from feet-on-hips using overhead throwing mechanics
+- [[Transitions/Tomoe Nage]] - Alternative sweep from feet-on-hips using overhead throwing mechanics
 
-- [[Balloon Sweep]] - Related sweep technique exploiting forward momentum from similar guard configuration
+- [[Transitions/Balloon Sweep]] - Related sweep technique exploiting forward momentum from similar guard configuration
 
-- [[Lumberjack Sweep]] - Similar base-destruction sweep concept using ankle control from open guard
+- [[Transitions/Lumberjack Sweep]] - Similar base-destruction sweep concept using ankle control from open guard
 
-- [[Combat Base]] - Common opponent posture that modifies sweep timing and setup requirements
+- [[Positions/Combat Base]] - Common opponent posture that modifies sweep timing and setup requirements
 
-- [[Toreando Pass]] - Primary passing technique the top player may attempt while defending the sweep
+- [[Transitions/Toreando Pass]] - Primary passing technique the top player may attempt while defending the sweep
 
-- [[Half Guard]] - Recovery position when sweep attempt is partially countered during execution
+- [[Positions/Half Guard]] - Recovery position when sweep attempt is partially countered during execution
 
 
 </section>

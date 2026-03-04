@@ -146,7 +146,7 @@ description: "How to defend against Jumping Guard in BJJ. Recognition cues, defe
 
 Defending against Jumping Guard requires early recognition, proper stance maintenance, and decisive defensive reactions executed in the narrow window between your opponent's commitment to jump and their guard establishment. As the defender, your primary advantage is that jumping guard is a high-commitment technique with significant telegraphing cues if you know what to look for. Your defensive strategy operates on three timelines: pre-jump (denying the setup conditions through distance management and grip fighting), during-jump (sprawling, framing, or redirecting their momentum), and post-contact (preventing closed guard lock and immediately working to pass or disengage). The most effective defense is prevention through maintaining proper stance and distance that denies the attacker comfortable jumping range while keeping your grips active enough to feel their weight shifts. When prevention fails, a well-timed sprawl combined with hip displacement is the highest-percentage defensive response, converting their aggressive entry into a scramble that favors the standing player.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -185,28 +185,28 @@ Defending against Jumping Guard requires early recognition, proper stance mainte
 ### 1. Sprawl and hip displacement - drive hips back and down while extending arms on their shoulders to deny hip contact
 
 - **When to use**: As soon as you recognize the jump initiation, ideally before their feet leave the ground or during their upward trajectory
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent falls short of closed guard, landing in open guard or on the mat without leg control, giving you immediate passing opportunity from standing
 - **Risk**: If your sprawl is late and they have already wrapped legs, you may drive them backward and fall into their closed guard with broken posture
 
 ### 2. Stiff-arm frame - extend both arms with hands on their hips or chest to create distance barrier they cannot jump past
 
 - **When to use**: When you read the setup early and have time to establish a frame before they commit to the jump, particularly effective against opponents who telegraph
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent cannot close distance for the jump and either aborts the attempt or falls short, remaining at standing distance where you can re-engage on your terms
 - **Risk**: Extended arms can be attacked with arm drags or collar drags if opponent adjusts; stiff-arms require strong base to maintain against explosive forward momentum
 
 ### 3. Lateral step and angle change - step laterally off the line of the jump while maintaining grip contact to redirect their trajectory
 
 - **When to use**: When the jump is already in progress and a direct sprawl is too late, stepping off the angle forces them to land off-center without proper guard alignment
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent lands asymmetrically and cannot establish closed guard, ending in a scramble position where your standing base gives you advantage for passing or re-engaging
 - **Risk**: Requires precise timing and footwork; poor execution may result in you tripping or losing balance during their contact
 
 ### 4. Underhook and circle - if contact is made, immediately establish an underhook on one side and circle toward that side to prevent closed guard lock
 
 - **When to use**: When the jump has partially succeeded and opponent has legs around you but ankles are not yet locked, typically in the first 1-2 seconds of contact
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You prevent the closed guard lock and create an angle that allows you to peel their legs off and begin passing, potentially establishing side control or forcing them to play open guard
 - **Risk**: If opponent locks ankles before you establish the underhook, you are now in closed guard with compromised posture from the circling motion
 
@@ -218,11 +218,11 @@ Defending against Jumping Guard requires early recognition, proper stance mainte
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Deny the jump entirely through early recognition and sprawl defense. When you read the setup cues, immediately sprawl your hips back while posting on their shoulders. Their jump falls short and they land on the mat below you. Immediately pressure forward to establish a passing position before they can recover guard, or disengage to reset standing with initiative. This outcome is most achievable when you maintain active distance management and grip engagement throughout standing exchanges.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 If the opponent makes contact but you prevent closed guard by widening your base and peeling their legs off before the ankles lock, you can force them into open guard where your standing position gives you passing options. Use an underhook to create angles, drive forward through one side, and strip their leg hooks to establish top position. Although labeled as disadvantaged standing, this outcome reflects your opponent now being on the ground in open guard while you maintain a passing position above them.
 

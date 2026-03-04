@@ -203,21 +203,21 @@ Defending the Inside Heel Hook is one of the most critical survival skills in mo
 ### 1. Hide the heel by rotating knee inward and grip fighting to strip opponent's hand control on your heel
 
 - **When to use**: Immediately upon recognizing opponent is establishing inside ashi-garami and reaching for your heel, before they secure a strong grip
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Opponent loses heel access and must re-attack or transition to alternative submission, giving you time to work leg extraction
 - **Risk**: Hiding the heel exposes your ankle to straight ankle lock or toe hold attacks, requiring awareness of multiple threats
 
 ### 2. Boot your free leg into opponent's hip to create a frame, then shrimp your hips away to reduce their leverage and begin leg extraction
 
 - **When to use**: When opponent has established position but has not yet secured a deep heel grip, and you have successfully hidden your heel through knee rotation
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Creates enough space to begin extracting your trapped leg from the entanglement and recover to open guard or standing
 - **Risk**: If opponent has strong leg entanglement, framing alone may be insufficient and you may need to combine with grip fighting
 
 ### 3. Sit up aggressively and attack opponent's heel grip with both hands using two-on-one grip breaks while driving your body toward them
 
 - **When to use**: When opponent has established heel grip but has not yet begun hip extension and rotation for the finish
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Strips opponent's heel control and may allow you to establish your own grips for counter-attacks or position reversal
 - **Risk**: Sitting up exposes your upper body and may allow opponent to use head and shoulder pressure to block your torso
 
@@ -247,11 +247,11 @@ Defending the Inside Heel Hook is one of the most critical survival skills in mo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Strip opponent's heel grip through aggressive grip fighting, hide your heel by rotating knee inward, then use framing and hip movement to nullify their attacking angle while maintaining your leg within a now-neutralized entanglement
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 After successfully defending the heel and clearing opponent's hip pressure, extract your trapped leg by moving your body toward opponent while pushing their hips away with your free leg, then recover to open guard with feet between you and opponent
 

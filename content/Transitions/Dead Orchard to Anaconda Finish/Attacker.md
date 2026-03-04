@@ -186,7 +186,7 @@ description: "Execute the Dead Orchard to Anaconda Finish in BJJ. Step-by-step f
 
 From dead orchard control top, the attacker initiates the anaconda finishing sequence by systematically stripping defensive frames, walking hips toward the opponent's head, and applying coordinated grip-and-shoulder compression. The dead orchard variation emphasizes patience and grip depth over speed, using the extended control phase to exhaust defensive resources before committing to the squeeze. Success depends on reading the opponent's diminished defensive capacity and timing the finish when grip defense weakens, rather than forcing the completion against active resistance. The finishing position requires coordinated chest expansion driving into the locked grip for bilateral carotid compression, producing a blood choke that can render opponents unconscious within seconds once fully established.
 
-**From Position**: [[Dead Orchard Control]] (Top)
+**From Position**: [[Positions/Dead Orchard Control]] (Top)
 
 </section>
 
@@ -240,8 +240,8 @@ From dead orchard control top, the attacker initiates the anaconda finishing seq
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Dead Orchard Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Dead Orchard Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ From dead orchard control top, the attacker initiates the anaconda finishing seq
 
 ## Opponent Counters
 
-- **Opponent clasps hands together creating a structural barrier that prevents grip from tightening into full compression** (Effectiveness: High) - Your Response: Attack the bottom hand of the clasp specifically, stripping it toward their hip with your free hand. If direct grip stripping fails, walk hips further toward their head to increase angular pressure that makes the clasped position structurally weaker. Do not squeeze harder against clasped hands. → Leads to [[Dead Orchard Control]]
-- **Opponent hip escapes toward their trapped arm side during the hip walking phase to change the compression angle** (Effectiveness: Medium) - Your Response: Follow their hip movement by adjusting your hip walk direction to maintain the compression angle. Their lateral movement often cannot keep pace with your incremental steps when you maintain chest-to-shoulder contact throughout. Use their movement energy to further flatten them. → Leads to [[Dead Orchard Control]]
-- **Opponent drives forward and attempts to roll through the squeeze to invert the position and recover guard** (Effectiveness: Medium) - Your Response: Sprawl hips back immediately and increase chest pressure to flatten their forward drive. If they complete the roll, maintain grip integrity and curl into the finished position to capitalize on the new angle rather than fighting the roll. → Leads to [[Half Guard]]
-- **Opponent inserts free hand inside the choking arm at the elbow to create a frame preventing full compression** (Effectiveness: High) - Your Response: Walk your hips slightly away to create angle that naturally tightens the grip around their neck, making the elbow frame less effective. Simultaneously use your free arm to strip their defending hand by attacking at the wrist. If hand fighting continues, walk hips further and convert to an angular squeeze that bypasses the frame. → Leads to [[Dead Orchard Control]]
+- **Opponent clasps hands together creating a structural barrier that prevents grip from tightening into full compression** (Effectiveness: High) - Your Response: Attack the bottom hand of the clasp specifically, stripping it toward their hip with your free hand. If direct grip stripping fails, walk hips further toward their head to increase angular pressure that makes the clasped position structurally weaker. Do not squeeze harder against clasped hands. → Leads to [[Positions/Dead Orchard Control]]
+- **Opponent hip escapes toward their trapped arm side during the hip walking phase to change the compression angle** (Effectiveness: Medium) - Your Response: Follow their hip movement by adjusting your hip walk direction to maintain the compression angle. Their lateral movement often cannot keep pace with your incremental steps when you maintain chest-to-shoulder contact throughout. Use their movement energy to further flatten them. → Leads to [[Positions/Dead Orchard Control]]
+- **Opponent drives forward and attempts to roll through the squeeze to invert the position and recover guard** (Effectiveness: Medium) - Your Response: Sprawl hips back immediately and increase chest pressure to flatten their forward drive. If they complete the roll, maintain grip integrity and curl into the finished position to capitalize on the new angle rather than fighting the roll. → Leads to [[Positions/Half Guard]]
+- **Opponent inserts free hand inside the choking arm at the elbow to create a frame preventing full compression** (Effectiveness: High) - Your Response: Walk your hips slightly away to create angle that naturally tightens the grip around their neck, making the elbow frame less effective. Simultaneously use your free arm to strip their defending hand by attacking at the wrist. If hand fighting continues, walk hips further and convert to an angular squeeze that bypasses the frame. → Leads to [[Positions/Dead Orchard Control]]
 
 
 </section>

@@ -21,7 +21,7 @@ The technique operates on the principle that lapel configurations create directi
 
 Strategically, this pass is most effective when combined with systematic lapel clearing sequences. Rather than fighting directly against the lapel barrier, you partially clear the obstruction, initiate the knee slice during the transition window, and complete the pass before the opponent can re-establish their configuration. The timing window is narrow, making this a technically demanding but highly effective solution for gi competition where lapel guards are prevalent.
 
-**From Position**: [[Lapel Guard]] (Top)
+**From Position**: [[Positions/Lapel Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, this pass is most effective when combined with systematic lapel c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Success | [[Knee on Belly]] | 15% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 50% |
+| Success | [[Positions/Knee on Belly]] | 15% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -192,25 +192,25 @@ The Knee Slice Despite Lapel fills a critical gap in gi passing systems where st
 ## Related Techniques
 
 
-- [[Lapel Guard]] - Starting position where opponent has established control
+- [[Positions/Lapel Guard]] - Starting position where opponent has established control
 
-- [[Side Control]] - Primary success outcome after completing the pass
+- [[Positions/Side Control]] - Primary success outcome after completing the pass
 
-- [[Knee on Belly]] - Alternative success outcome with immediate pressure
+- [[Positions/Knee on Belly]] - Alternative success outcome with immediate pressure
 
-- [[Half Guard]] - Common counter position if opponent recovers during slice
+- [[Positions/Half Guard]] - Common counter position if opponent recovers during slice
 
-- [[Backstep Around Worm Guard]] - Alternative pass that creates openings for knee slice
+- [[Transitions/Backstep Around Worm Guard]] - Alternative pass that creates openings for knee slice
 
-- [[Knee Slice Pass]] - Standard technique this variation modifies for lapel scenarios
+- [[Transitions/Knee Slice Pass]] - Standard technique this variation modifies for lapel scenarios
 
-- [[Front Headlock]] - Counter position when opponent sits up during pass attempt
+- [[Positions/Front Headlock]] - Counter position when opponent sits up during pass attempt
 
-- [[Worm Guard]] - Specific lapel configuration requiring modified slice angle
+- [[Positions/Worm Guard]] - Specific lapel configuration requiring modified slice angle
 
-- [[Squid Guard]] - Arm-based lapel configuration requiring extraction variant
+- [[Positions/Squid Guard]] - Arm-based lapel configuration requiring extraction variant
 
-- [[De La Riva Guard]] - Often combined with lapel configurations affecting passing approach
+- [[Positions/De La Riva Guard]] - Often combined with lapel configurations affecting passing approach
 
 
 </section>

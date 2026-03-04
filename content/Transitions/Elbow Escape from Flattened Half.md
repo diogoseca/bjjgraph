@@ -21,7 +21,7 @@ The mechanical principle underlying this escape centers on using the bottom elbo
 
 Understanding the timing dimension of this escape separates intermediate from advanced practitioners. The top player's pressure is not constant but fluctuates as they adjust grips, shift weight for passing attempts, or respond to your defensive movements. The elbow escape is most effective when initiated during these natural pressure fluctuations, particularly when the top player shifts weight to begin a knee slice or adjusts their crossface. Recognizing and exploiting these windows transforms the escape from a grinding battle into a precise technical execution.
 
-**From Position**: [[Flattened Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Understanding the timing dimension of this escape separates intermediate from ad
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Flattened Half Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The elbow escape from flattened half guard occupies a critical defensive node in
 ## Related Techniques
 
 
-- [[Flattened Half Guard]] - Starting position requiring escape from collapsed frames and chest-to-chest pressure
+- [[Positions/Half Guard/Flattened Half Guard]] - Starting position requiring escape from collapsed frames and chest-to-chest pressure
 
-- [[Half Guard]] - Primary target position after successful escape with functional frames recovered
+- [[Positions/Half Guard]] - Primary target position after successful escape with functional frames recovered
 
-- [[Knee Shield Half Guard]] - Intermediate recovery target providing maximum distance management after escape
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Intermediate recovery target providing maximum distance management after escape
 
-- [[Deep Half Guard]] - Alternative recovery position accessible through deep half transition variant
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative recovery position accessible through deep half transition variant
 
-- [[Side Control]] - Position opponent achieves if escape fails and guard pass completes
+- [[Positions/Side Control]] - Position opponent achieves if escape fails and guard pass completes
 
-- [[Lockdown]] - Alternative leg control system that can stabilize flattened position before escape
+- [[Positions/Half Guard/Lockdown]] - Alternative leg control system that can stabilize flattened position before escape
 
-- [[Complete Pass from Flattened Half]] - Opponent's primary objective that this escape prevents
+- [[Transitions/Complete Pass from Flattened Half]] - Opponent's primary objective that this escape prevents
 
-- [[Deep Half Entry from Flattened]] - Related escape entering deep half from the same starting position
+- [[Transitions/Deep Half Entry from Flattened]] - Related escape entering deep half from the same starting position
 
-- [[Back Door Escape from Half Guard]] - Alternative escape concept from compromised half guard positions
+- [[Transitions/Back Door Escape from Half Guard]] - Alternative escape concept from compromised half guard positions
 
-- [[Quarter Guard]] - Transitional position when escape is partially successful but guard not fully recovered
+- [[Positions/Quarter Guard]] - Transitional position when escape is partially successful but guard not fully recovered
 
 
 </section>

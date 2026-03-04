@@ -180,7 +180,7 @@ description: "Complete guide to executing the X-Guard to Single Leg X transition
 
 As the attacker executing the X-Guard to Single Leg X transition, your objective is to smoothly reconfigure your leg placement from the bilateral X formation to the asymmetric SLX hook configuration while maintaining continuous control over the opponent's trapped leg. The critical skill is staggering the transition so that you never have a moment where both legs are between positions simultaneously. Your inside hook behind the knee must transition to an ankle wrap before the outside hip leg releases, creating overlapping control that prevents the opponent from extracting their leg during the reconfiguration. Success depends on reading the opponent's weight distribution and timing the transition to coincide with their backward weight shifts or extraction attempts, converting their defensive movement into your positional advancement.
 
-**From Position**: [[X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the X-Guard to Single Leg X transition, your objective
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 55% |
-| Failure | [[X-Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 55% |
+| Failure | [[Positions/X-Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the X-Guard to Single Leg X transition, your objective
 
 ## Opponent Counters
 
-- **Opponent drives aggressive forward pressure to smash through the transition before SLX is established** (Effectiveness: High) - Your Response: If forward pressure comes during reconfiguration, abandon the SLX transition and use the momentum to enter deep half guard by threading underneath them, or revert to X-Guard by re-establishing the knee hook. The opponent's forward drive can be redirected into a sweep if you maintain your ankle grip. → Leads to [[Open Guard]]
-- **Opponent extracts their trapped leg during the reconfiguration gap between X-Guard hooks and SLX wrap** (Effectiveness: High) - Your Response: Maintain the anchor hand grip on their ankle at all costs and immediately re-insert either the X-Guard hook or the SLX wrap. If they get their leg partially free, switch to butterfly guard hooks or seated guard to retain some form of guard rather than conceding the pass completely. → Leads to [[Open Guard]]
-- **Opponent backsteps around the transitioning legs to avoid the SLX configuration entirely** (Effectiveness: Medium) - Your Response: Follow their backstep with hip rotation to maintain the angle. If they backstep over your outside leg, you can often catch them in a reverse X-Guard or transition to de la riva by hooking their stepping leg. The backstep also exposes their back if they turn too far. → Leads to [[X-Guard]]
-- **Opponent sits back and disengages weight from the trapped leg to reduce your control leverage** (Effectiveness: Low) - Your Response: Their sitting back actually assists the transition by reducing downward pressure. Capitalize by completing the SLX wrap quickly and using their seated posture to load their weight onto your hooks for an immediate sweep. Their reduced base makes them vulnerable to elevation attacks. → Leads to [[X-Guard]]
+- **Opponent drives aggressive forward pressure to smash through the transition before SLX is established** (Effectiveness: High) - Your Response: If forward pressure comes during reconfiguration, abandon the SLX transition and use the momentum to enter deep half guard by threading underneath them, or revert to X-Guard by re-establishing the knee hook. The opponent's forward drive can be redirected into a sweep if you maintain your ankle grip. → Leads to [[Positions/Open Guard]]
+- **Opponent extracts their trapped leg during the reconfiguration gap between X-Guard hooks and SLX wrap** (Effectiveness: High) - Your Response: Maintain the anchor hand grip on their ankle at all costs and immediately re-insert either the X-Guard hook or the SLX wrap. If they get their leg partially free, switch to butterfly guard hooks or seated guard to retain some form of guard rather than conceding the pass completely. → Leads to [[Positions/Open Guard]]
+- **Opponent backsteps around the transitioning legs to avoid the SLX configuration entirely** (Effectiveness: Medium) - Your Response: Follow their backstep with hip rotation to maintain the angle. If they backstep over your outside leg, you can often catch them in a reverse X-Guard or transition to de la riva by hooking their stepping leg. The backstep also exposes their back if they turn too far. → Leads to [[Positions/X-Guard]]
+- **Opponent sits back and disengages weight from the trapped leg to reduce your control leverage** (Effectiveness: Low) - Your Response: Their sitting back actually assists the transition by reducing downward pressure. Capitalize by completing the SLX wrap quickly and using their seated posture to load their weight onto your hooks for an immediate sweep. Their reduced base makes them vulnerable to elevation attacks. → Leads to [[Positions/X-Guard]]
 
 
 </section>

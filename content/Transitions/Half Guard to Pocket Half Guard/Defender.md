@@ -146,7 +146,7 @@ description: "How to defend the Transition to Pocket Half Guard from Half Guard 
 
 As the defender against the Transition to Pocket Half Guard, your primary objective is to prevent the top player from establishing the deep underhook and flattening pressure that converts a contested Half Guard exchange into a dominant passing platform. Early recognition of the transition attempt is critical because once Pocket Half Guard Top is fully established, your offensive options are severely limited and escape becomes significantly more difficult. The defensive strategy prioritizes three layers: prevention through proactive underhook fighting and frame maintenance, disruption through knee shield insertion and hip movement during the transition, and recovery through guard transitions when the position is partially established.
 
-**Opponent's Starting Position**: [[Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the Transition to Pocket Half Guard, your primary object
 ### 1. Fight for your own underhook first by aggressively swimming your arm under the top player's armpit before they establish theirs
 
 - **When to use**: As soon as you feel the top player beginning to swim their arm for the underhook. The earliest possible intervention before they achieve any depth.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish the dominant underhook, reversing the positional hierarchy and opening your own offensive pathways for sweeps and back takes from Half Guard Bottom
 - **Risk**: If you overcommit to the underhook race and lose, you may end up with your arm extended and out of position, making the top player's transition easier
 
 ### 2. Insert knee shield by driving your inside knee across the top player's chest or hip before they can close the distance for chest-to-chest contact
 
 - **When to use**: When the top player begins driving forward pressure and you feel your ability to win the underhook battle is compromised. The knee shield must be inserted before chest contact is established.
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: You create sufficient distance to prevent the Pocket Half Guard transition and establish a Knee Shield Half Guard position with strong defensive frames and sweep options
 - **Risk**: If the top player is already past the knee shield distance, your attempt to insert it may be smashed through, wasting the defensive effort
 
 ### 3. Hip escape toward the underhook side to scoot underneath the top player for a deep half guard entry
 
 - **When to use**: When the top player has already begun establishing the underhook but has not yet consolidated crossface control. Use their forward weight commitment against them by going underneath.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You enter Deep Half Guard where the top player's underhook becomes irrelevant and you gain superior sweeping mechanics from underneath
 - **Risk**: If the top player recognizes the deep half entry and sprawls in time, you end up flattened with compromised position and a partially established underhook against you
 
 ### 4. Frame with both arms against top player's shoulders and hips to maintain distance while working to strip the underhook grip
 
 - **When to use**: When the top player has begun closing distance but the underhook is not yet fully deep. Use frames to buy time while attacking their grip with your free hand.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You strip the underhook attempt and re-establish neutral Half Guard Bottom with frames intact and distance managed
 - **Risk**: Extended frames can be collapsed by heavy pressure, and the reaching arm becomes vulnerable to Kimura attacks if the top player redirects
 
@@ -217,11 +217,11 @@ As the defender against the Transition to Pocket Half Guard, your primary object
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Win the underhook battle by establishing your own underhook first, using aggressive arm fighting and hip positioning. Alternatively, strip the top player's underhook attempt through grip fighting and re-establish neutral Half Guard Bottom with frames intact.
 
-### → [[Knee Shield Half Guard]]
+### → [[Positions/Half Guard/Knee Shield Half Guard]]
 
 Insert knee shield before the top player can close chest-to-chest distance. Drive your inside knee across their chest while framing with your arms. This creates the distance that prevents the Pocket Half Guard transition and establishes a defensively sound guard position with offensive options.
 

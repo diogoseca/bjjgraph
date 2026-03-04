@@ -158,7 +158,7 @@ Successful defense against leg extraction demands understanding the specific mec
 
 The most effective defenders treat leg extraction attempts as offensive opportunities rather than purely defensive situations. Every extraction attempt your opponent makes requires them to redirect attention and energy away from submission defense. By maintaining constant submission pressure while adjusting your entanglement to counter their clearing sequence, you force them into a lose-lose scenario where extraction attempts create submission opportunities and passive defense allows you to consolidate control for finishing attacks.
 
-**Opponent's Starting Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ The most effective defenders treat leg extraction attempts as offensive opportun
 ### 1. Step inside leg through to saddle when opponent clears your outside leg
 
 - **When to use**: The moment opponent successfully clears your outside leg and focuses on inside leg extraction, creating a brief window where your inside leg has direct path to deeper entanglement
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Achieve saddle position with higher control and better submission angles than ushiro ashi-garami, significantly worsening opponent's defensive situation
 - **Risk**: If opponent recognizes the step-through and blocks with inside knee control, you may lose your inside leg position entirely and accelerate their escape
 
 ### 2. Secure heel grip and attack submission during extraction movement
 
 - **When to use**: When opponent's dorsiflexion lapses or their foot rotates during the circular clearing motion, momentarily exposing the heel for a finishing grip
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Forces immediate abort of extraction attempt and returns to consolidated attacking position with heel exposure for finish
 - **Risk**: Committing both hands to heel grip temporarily releases upper body control and may allow opponent to complete extraction if grip is not secured quickly
 
 ### 3. Pull opponent back into entanglement using hip or belt grip while tightening figure-four
 
 - **When to use**: When opponent begins pushing your hips away with their free leg but has not yet started clearing your outside leg, making it possible to collapse the distance they are creating
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Eliminates the space needed for extraction and returns to tight entanglement control with opponent fatigued from failed escape attempt
 - **Risk**: Reaching for hip or belt grip requires momentary release of heel control which opponent may exploit to complete rapid extraction
 
 ### 4. Transition to ankle lock attack during opponent's extraction movement
 
 - **When to use**: When opponent is mid-extraction and their foot angle changes during leg clearing, creating an accessible ankle lock configuration that is faster to secure than re-establishing heel hook position
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Forces opponent to stop extraction and defend ankle lock, resetting the position to your attacking advantage
 - **Risk**: Ankle locks have lower finish rate than heel hooks and opponent may choose to absorb pressure and complete extraction rather than defending
 
@@ -228,11 +228,11 @@ The most effective defenders treat leg extraction attempts as offensive opportun
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ushiro Ashi-Garami]]
+### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Maintain tight figure-four control by following opponent's hip movement with your own adjustments. When they push your hips away, close the distance by pulling with your inside leg on their thigh. Threaten heel hooks during their grip changes to force them to abort extraction and return to defensive posture. Controlling their free leg with your hands prevents the pushing frame they need for space creation.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 Time your inside leg step-through for the exact moment opponent clears your outside leg. Their focus on outside leg clearance creates a window where inside knee control weakens. Drive your inside leg across their thigh to establish the crossed-leg configuration of saddle position. This converts their escape attempt into a worse defensive situation with higher submission probability for you.
 

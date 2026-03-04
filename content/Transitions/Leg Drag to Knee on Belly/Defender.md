@@ -158,7 +158,7 @@ The key to successful defense lies in understanding that your opponent must rele
 
 From a strategic standpoint, your defensive options scale with how early you recognize the transition. If you intercept during the grip switch, you can recover to half guard or even re-establish full guard. If the knee lands but grips are not yet secured, framing and hip escape can still prevent consolidation. If knee on belly is fully established with collar and belt control, you have shifted from defending a transition to escaping a position—a significantly harder task requiring different techniques entirely.
 
-**Opponent's Starting Position**: [[Leg Drag Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
 
@@ -197,28 +197,28 @@ From a strategic standpoint, your defensive options scale with how early you rec
 ### 1. Frame on hip and recover knee to chest as opponent releases leg grip
 
 - **When to use**: The instant you feel the opponent's grip on your leg loosen or their weight shift forward, before the knee reaches your belly
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You pull your knee between your bodies and re-establish half guard with knee shield, returning to a manageable defensive position
 - **Risk**: If too slow, your knee recovery gets pinned by their transitioning knee and you end up in knee on belly with your arm extended
 
 ### 2. Hip escape toward opponent's posting foot and insert knee shield
 
 - **When to use**: When the opponent's knee has begun its path to your belly but has not yet settled with full weight—you still have space to move your hips
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your hip escape collapses their base on the posting foot side and your knee shield prevents the knee from advancing, recovering to half guard
 - **Risk**: If your hip escape goes the wrong direction (away from posting foot), you create more space for their knee and may give up mount instead
 
 ### 3. Frame on transitioning knee and bridge toward opponent to off-balance
 
 - **When to use**: When the knee is in transit but the opponent has not yet established wide posting foot base—their balance is momentarily compromised during the transition
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: Your bridge disrupts their base and forces them to post their hands to recover, stalling the transition and allowing you to re-establish guard or scramble to neutral
 - **Risk**: A poorly timed bridge when they already have base gives them momentum to drive the knee through with more force
 
 ### 4. Turn into opponent and pummel for underhook during grip switch
 
 - **When to use**: When you recognize the grip switch early and still have enough hip mobility to rotate toward the opponent before their knee crosses your centerline
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: Your underhook and facing position prevents knee on belly establishment entirely, forcing opponent to re-engage the leg drag battle or settle for side control where you have better escape options
 - **Risk**: Turning into a well-timed crossface can flatten you and accelerate the knee on belly establishment
 
@@ -230,11 +230,11 @@ From a strategic standpoint, your defensive options scale with how early you rec
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Recover your trapped leg by pulling your knee to your chest the instant you feel the opponent's leg grip release. Combine with a hip escape toward their posting foot and insert your knee between your bodies to establish knee shield half guard. The grip switch window is your best opportunity because your opponent has temporarily abandoned leg control.
 
-### → [[Leg Drag Control]]
+### → [[Positions/Leg Drag Control]]
 
 Frame aggressively on the opponent's hip and shoulder during the transition to prevent their weight from settling. Bridge toward them to disrupt their base while their posting foot has not yet been planted. This forces them to abandon the knee on belly attempt and re-establish their leg drag control, giving you another opportunity to escape before they reattempt.
 

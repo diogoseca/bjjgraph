@@ -162,7 +162,7 @@ description: "How to defend against Leg Extraction to Combat Base in BJJ. Recogn
 
 Defending against leg extraction from lockdown bottom means maintaining the figure-four entanglement that gives you control over the top player's mobility and offensive options. The lockdown is only useful so long as the leg remains trapped—once extracted, you lose your primary control mechanism and face an opponent in combat base ready to pass. Effective defense requires recognizing extraction attempts early through tactile and visual cues, then responding with the correct counter: re-tightening the lockdown, attacking with sweeps that punish extraction posture, or transitioning to deep half guard when the lockdown begins failing. The defender's goal is never simply to hold on passively, but to use the opponent's extraction attempts as openings for offensive attacks. Every time they shift weight or change angles to extract, they create vulnerabilities in their base that the lockdown bottom player can exploit with whip-ups, Old School sweeps, and Electric Chair entries. Understanding this dynamic transforms lockdown defense from a passive retention game into an active offensive system.
 
-**Opponent's Starting Position**: [[Lockdown]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Lockdown]] (Top)
 
 </section>
 
@@ -201,28 +201,28 @@ Defending against leg extraction from lockdown bottom means maintaining the figu
 ### 1. Re-tighten lockdown and extend aggressively while fighting for underhook
 
 - **When to use**: When you feel opponent beginning to circle their leg or drive hips forward for extraction, and your lockdown still has purchase on their ankle
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Opponent remains trapped in lockdown and you maintain full control with offensive options available
 - **Risk**: If opponent has already broken most of the lockdown tension, extending may be too late and wastes energy on a failing grip
 
 ### 2. Execute whip-up sweep by explosively coming to elbow and driving into opponent
 
 - **When to use**: When opponent drives their weight forward and drops shoulder pressure for extraction, creating forward momentum you can redirect
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: You come to dogfight or complete the sweep to top position, completely reversing the position
 - **Risk**: If opponent has strong crossface control and you fail the whip-up, you may be flattened with less lockdown tension than before
 
 ### 3. Release lockdown and transition to deep half guard by sliding underneath opponent's hips
 
 - **When to use**: When lockdown is clearly failing and opponent has created sufficient angle change that retention is no longer viable
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: You establish deep half guard with underhook of their far leg, maintaining an offensive guard position with sweep opportunities
 - **Risk**: If transition is too slow, opponent completes extraction and establishes combat base before you can secure deep half grips
 
 ### 4. Attack Old School sweep by securing deep underhook and posting outside leg
 
 - **When to use**: When opponent sits their weight back or shifts laterally during extraction attempt, creating a sweepable angle
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: You complete the Old School sweep to mount or side control, scoring a reversal
 - **Risk**: If opponent recognizes the sweep attempt early, they can flatten you with crossface and accelerate their extraction
 
@@ -234,11 +234,11 @@ Defending against leg extraction from lockdown bottom means maintaining the figu
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lockdown]]
+### → [[Positions/Half Guard/Lockdown]]
 
 Maintain lockdown tension by keeping ankles tightly crossed and constantly pulling opponent's heel toward your hip. When you feel them begin extraction, immediately extend the lockdown while simultaneously fighting for the underhook. Attack with whip-up or Old School sweep when their base is compromised by the extraction attempt. The goal is either to retain lockdown or use their extraction attempt as a launching pad for a sweep.
 
-### → [[Deep Half Guard]]
+### → [[Positions/Half Guard/Deep Half Guard]]
 
 When lockdown retention becomes impossible because opponent has created too much angle change, proactively release the figure-four and immediately slide your body underneath their hips before they can establish combat base. Secure a deep underhook on their far leg with your shoulder wedged against their inner thigh. This transition must be fast and decisive—any hesitation allows them to complete extraction and begin passing.
 

@@ -178,7 +178,7 @@ The technique demands a fundamental mindset shift from leg hunter to positional 
 
 Success depends on three sequential priorities: follow with hips to eliminate space, establish seat belt to control upper body, then insert hooks bottom-first to anchor the position. Each priority builds on the previous one, and skipping steps is the most common cause of failure. The attacker must resist the urge to reach for grips before their body has arrived at the opponent's back.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ Success depends on three sequential priorities: follow with hips to eliminate sp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Ushiro Ashi-Garami]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -240,9 +240,9 @@ Success depends on three sequential priorities: follow with hips to eliminate sp
 
 ## Opponent Counters
 
-- **Opponent accelerates rotation to complete turtle before you can establish grips** (Effectiveness: High) - Your Response: Anticipate this by releasing leg entanglement earlier when you see strong rotational commitment. If they reach turtle, transition to turtle attack series rather than forcing back control against solid defensive structure. → Leads to [[Turtle]]
-- **Opponent reaches back to block your underhook or seat belt establishment** (Effectiveness: Medium) - Your Response: Switch to a two-on-one arm drag grip on their defending arm. Use this grip to clear the arm and expose their back, then establish seat belt on the cleared side. → Leads to [[Ushiro Ashi-Garami]]
-- **Opponent re-guards by shooting their hips back and inserting a knee shield before you establish hooks** (Effectiveness: Medium) - Your Response: Maintain heavy chest pressure to prevent hip escape. If they begin re-guarding, immediately switch to passing position by driving your shoulder across their face and securing crossface control. → Leads to [[Ushiro Ashi-Garami]]
+- **Opponent accelerates rotation to complete turtle before you can establish grips** (Effectiveness: High) - Your Response: Anticipate this by releasing leg entanglement earlier when you see strong rotational commitment. If they reach turtle, transition to turtle attack series rather than forcing back control against solid defensive structure. → Leads to [[Positions/Turtle]]
+- **Opponent reaches back to block your underhook or seat belt establishment** (Effectiveness: Medium) - Your Response: Switch to a two-on-one arm drag grip on their defending arm. Use this grip to clear the arm and expose their back, then establish seat belt on the cleared side. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Opponent re-guards by shooting their hips back and inserting a knee shield before you establish hooks** (Effectiveness: Medium) - Your Response: Maintain heavy chest pressure to prevent hip escape. If they begin re-guarding, immediately switch to passing position by driving your shoulder across their face and securing crossface control. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 
 </section>

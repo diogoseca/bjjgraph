@@ -22,8 +22,8 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Mount]]
-**From Position**: [[Mount]] (Top)
+**Starting Position**: [[Positions/Mount]]
+**From Position**: [[Positions/Mount]] (Top)
 **Success Rate**: 48%
 
 </section>
@@ -78,8 +78,8 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -222,11 +222,11 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 
 ## From Which Positions?
 
-- [[Mount]]
-- [[High Mount]]
-- [[S Mount]]
-- [[Technical Mount]]
-- [[Modified Mount]]
+- [[Positions/Mount]]
+- [[Positions/Mount/High Mount]]
+- [[Positions/Mount/S Mount]]
+- [[Positions/Mount/Technical Mount]]
+- [[Positions/Mount/Modified Mount]]
 
 
 </section>
@@ -235,18 +235,18 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 
 ## Related Submissions
 
-- [[Omoplata from Guard]]
-- [[Armbar from Mount]]
-- [[Monoplata]]
-- [[Gogoplata]]
-- [[Baratoplata]]
-- [[Kimura from Mount]]
-- [[Americana from Mount]]
-- [[Ezekiel from Mount]]
-- [[Triangle Choke]]
-- [[Far Side Armbar]]
-- [[Armbar from Back]]
-- [[Belly Down Armbar]]
+- [[Submissions/Omoplata from Guard]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Monoplata]]
+- [[Transitions/Gogoplata]]
+- [[Transitions/Baratoplata]]
+- [[Submissions/Kimura from Mount]]
+- [[Submissions/Americana from Mount]]
+- [[Submissions/Ezekiel from Mount]]
+- [[Transitions/Triangle Choke]]
+- [[Submissions/Far Side Armbar]]
+- [[Submissions/Armbar from Back]]
+- [[Submissions/Belly Down Armbar]]
 
 
 </section>
@@ -255,16 +255,16 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 
 ## Additional Related Content
 
-- [[Mount]] - Primary starting position for this technique
-- [[High Mount]] - Optimal position for isolating opponent's arm before transition
-- [[S Mount]] - Alternative mount position that can transition to monoplata
-- [[Technical Mount]] - Position that allows reverse monoplata variation
-- [[Crucifix]] - Follow-up position if opponent rolls to escape monoplata
-- [[Omoplata Control]] - Similar shoulder lock mechanics with different angle of attack
-- [[Triangle Control]] - Alternative submission when opponent defends monoplata by tucking arm
-- [[Armbar Control]] - Chain submission when opponent grabs your threading leg
-- [[Armbar from Mount]] - Common transition that can flow into monoplata if defended
-- [[Closed Guard]] - Guard position where similar leg threading mechanics apply for omoplata
+- [[Positions/Mount]] - Primary starting position for this technique
+- [[Positions/Mount/High Mount]] - Optimal position for isolating opponent's arm before transition
+- [[Positions/Mount/S Mount]] - Alternative mount position that can transition to monoplata
+- [[Positions/Mount/Technical Mount]] - Position that allows reverse monoplata variation
+- [[Positions/Crucifix]] - Follow-up position if opponent rolls to escape monoplata
+- [[Positions/Omoplata Control]] - Similar shoulder lock mechanics with different angle of attack
+- [[Positions/Triangle Control]] - Alternative submission when opponent defends monoplata by tucking arm
+- [[Positions/Armbar Control]] - Chain submission when opponent grabs your threading leg
+- [[Submissions/Armbar from Mount]] - Common transition that can flow into monoplata if defended
+- [[Positions/Closed Guard]] - Guard position where similar leg threading mechanics apply for omoplata
 
 
 </section>

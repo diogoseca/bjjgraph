@@ -146,7 +146,7 @@ description: "Defend against the Roll Escape from Cross Body Ride in BJJ. Learn 
 
 Defending against the Roll Escape from Cross Body Ride requires the top player to maintain balanced perpendicular pressure while staying alert to rotational escape attempts from the bottom player. Unlike lateral hip escapes which create progressive separation, the roll escape is an explosive all-or-nothing movement that can rapidly reverse the positional dynamic if undetected. The defender's primary objective is to prevent the roll from generating sufficient momentum by maintaining centered weight distribution and controlling the bottom player's hip mobility. When a roll attempt is detected, the defender faces a critical decision: drive weight to kill the rotation and maintain the ride, or flow with the roll momentum and transition to back control by inserting hooks as the bottom player rotates. Mastering this defensive decision point—maintain versus advance—is the key skill for riders facing roll escape attempts.
 
-**Opponent's Starting Position**: [[Cross Body Ride]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Cross Body Ride]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending against the Roll Escape from Cross Body Ride requires the top player t
 ### 1. Drive chest weight down and sprawl hips to kill rotational momentum before the roll develops
 
 - **When to use**: During the loading phase when you detect hip coiling or shoulder dropping but before explosive rotation has begun
-- **Targets**: [[Cross Body Ride]]
+- **Targets**: [[Positions/Cross Body Ride]]
 - **If successful**: The roll is smothered before generating momentum, and the bottom player returns to controlled position with their escape energy wasted
 - **Risk**: Over-committing weight forward opens vulnerability to a sit-through escape that exploits your forward momentum
 
 ### 2. Follow the roll momentum and immediately insert hooks to transition to full back control
 
 - **When to use**: When the roll has already generated significant rotational momentum that cannot be stopped, typically after the initial hip drive has begun
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: The bottom player's roll delivers them directly into your back control with hooks, converting their escape attempt into a worse position
 - **Risk**: If you chase hooks without maintaining upper body harness control, the bottom player may complete their guard recovery during the transition
 
 ### 3. Adjust weight to the opposite side and re-center perpendicular pressure to block the intended roll direction
 
 - **When to use**: When you detect the loading phase and can identify which direction the roll will go before it initiates
-- **Targets**: [[Cross Body Ride]]
+- **Targets**: [[Positions/Cross Body Ride]]
 - **If successful**: Your centered weight removes the asymmetric pressure the roll needs, forcing the bottom player to abort or stall mid-rotation
 - **Risk**: Shifting weight to block one direction may open a hip escape opportunity on the side you vacated
 
 ### 4. Secure collar grip and threaten choke to freeze the bottom player before they can initiate the roll
 
 - **When to use**: When you recognize pre-roll posture but the bottom player has not yet committed to the explosive rotation phase
-- **Targets**: [[Cross Body Ride]]
+- **Targets**: [[Positions/Cross Body Ride]]
 - **If successful**: The choke threat forces the bottom player to address the grip with their hands rather than executing the roll, resetting to defensive survival mode
 - **Risk**: Reaching for the collar may momentarily lighten chest pressure, giving the bottom player the exact weight transition they need to roll
 
@@ -217,11 +217,11 @@ Defending against the Roll Escape from Cross Body Ride requires the top player t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Cross Body Ride]]
+### → [[Positions/Cross Body Ride]]
 
 Maintain centered perpendicular pressure without committing weight asymmetrically to either side. Control the bottom player's near-side hip with your knee to anchor them against rotational force. When you detect roll loading through hip coiling or shoulder drop, immediately drive your weight down and sprawl to smother the rotation before it generates momentum.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the roll has already generated momentum and stopping it would cost more energy than following it, maintain your harness grip on the upper body and flow with the bottom player's rotation. As their body turns, thread your hooks inside their thighs using the space their rotation creates. Arrive in back control before the bottom player can establish half guard entanglement. Their own escape momentum accelerates your advancement to the most dominant position in grappling.
 

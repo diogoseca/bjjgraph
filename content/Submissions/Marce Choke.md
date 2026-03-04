@@ -26,8 +26,8 @@ The choke works on a fundamental principle: using the lapel as a ligature around
 **Category**: Choke
 **Type**: Lapel Choke
 **Target Area**: Carotid arteries and trachea via lapel compression
-**Starting Position**: [[Side Control]]
-**From Position**: [[Side Control]] (Top)
+**Starting Position**: [[Positions/Side Control]]
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -80,8 +80,8 @@ The choke works on a fundamental principle: using the lapel as a ligature around
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Side Control]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -229,12 +229,12 @@ The choke works on a fundamental principle: using the lapel as a ligature around
 
 ## From Which Positions?
 
-- [[Side Control]]
-- [[North-South]]
-- [[Kesa Gatame]]
-- [[Knee on Belly]]
-- [[Scarf Hold Position]]
-- [[Modified Scarf Hold]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Knee on Belly]]
+- [[Positions/Side Control/Scarf Hold Position]]
+- [[Positions/Side Control/Modified Scarf Hold]]
 
 
 </section>
@@ -243,17 +243,17 @@ The choke works on a fundamental principle: using the lapel as a ligature around
 
 ## Related Submissions
 
-- [[Loop Choke]]
-- [[Cross Collar Choke]]
-- [[Baseball Bat Choke]]
-- [[Breadcutter Choke]]
-- [[Bow and Arrow Choke]]
-- [[North-South Choke]]
-- [[Ezekiel Choke]]
-- [[Arm Triangle]]
-- [[Kimura from Side Control]]
-- [[Americana from Side Control]]
-- [[Brabo Choke]]
+- [[Submissions/Loop Choke]]
+- [[Transitions/Cross Collar Choke]]
+- [[Transitions/Baseball Bat Choke]]
+- [[Transitions/Breadcutter Choke]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Transitions/North-South Choke]]
+- [[Submissions/Ezekiel Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Kimura from Side Control]]
+- [[Submissions/Americana from Side Control]]
+- [[Submissions/Brabo Choke]]
 
 
 </section>
@@ -262,14 +262,14 @@ The choke works on a fundamental principle: using the lapel as a ligature around
 
 ## Additional Related Content
 
-- [[Side Control]] - Primary starting position for the Marce Choke setup
-- [[North-South]] - Alternative position for finishing the Marce Choke with better pressure angle
-- [[Kesa Gatame]] - Scarf hold variation that provides excellent control for the Marce Choke
-- [[Loop Choke]] - Similar lapel manipulation mechanics and choking principle
-- [[Cross Collar Choke]] - Shares the concept of using the gi to create carotid compression
-- [[Knee on Belly]] - Transitional position that offers excellent setup opportunities
-- [[Brabo Choke]] - Related gi choke with similar pressure mechanics from top positions
-- [[Breadcutter Choke]] - Alternative lapel choke from similar positions with different finishing mechanics
+- [[Positions/Side Control]] - Primary starting position for the Marce Choke setup
+- [[Positions/North-South]] - Alternative position for finishing the Marce Choke with better pressure angle
+- [[Positions/Side Control/Kesa Gatame]] - Scarf hold variation that provides excellent control for the Marce Choke
+- [[Submissions/Loop Choke]] - Similar lapel manipulation mechanics and choking principle
+- [[Transitions/Cross Collar Choke]] - Shares the concept of using the gi to create carotid compression
+- [[Positions/Knee on Belly]] - Transitional position that offers excellent setup opportunities
+- [[Submissions/Brabo Choke]] - Related gi choke with similar pressure mechanics from top positions
+- [[Transitions/Breadcutter Choke]] - Alternative lapel choke from similar positions with different finishing mechanics
 
 
 </section>

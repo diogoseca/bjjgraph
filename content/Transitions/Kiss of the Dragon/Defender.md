@@ -146,7 +146,7 @@ description: "How to defend against Kiss of the Dragon in BJJ. Recognition cues,
 
 Defending the Kiss of the Dragon requires understanding that this technique exploits the gap underneath your turtle position by rolling beneath your center of gravity. As the defender in turtle, your primary vulnerability is committing too much weight forward while focusing on traditional back take defenses, which creates the space the attacker needs to insert their head and shoulders below your hips. The defense hierarchy begins with prevention through weight distribution awareness, moves to disruption if the roll is initiated, and finally addresses recovery if the attacker completes the rotation and arrives at your back. The most effective defense is never allowing the entry conditions to exist, but when the technique is already in motion, specific tactical responses can prevent or mitigate the back take. Understanding the attacker's mechanical requirements, particularly their need for a hip grip anchor and forward weight commitment, allows you to deny those conditions systematically.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -182,28 +182,28 @@ Defending the Kiss of the Dragon requires understanding that this technique expl
 ### 1. Sit hips back to heels and sprawl weight rearward to collapse entry space
 
 - **When to use**: When you recognize opponent positioning at an angle with their head dropping below your hips, before the roll has initiated
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Opponent cannot get underneath your hips and must abandon the technique, returning to standard turtle top attacks where you maintain your defensive shell
 - **Risk**: Sitting weight back opens you to front headlock attacks or traditional back take methods that exploit rearward weight distribution
 
 ### 2. Strip opponent's hip grip by prying their hand off your belt or pants with both hands
 
 - **When to use**: When you feel the opponent establishing the anchor grip on your hips before they initiate the roll
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Without the hip anchor, the opponent cannot maintain connection during the roll and the technique fails completely, forcing them to re-establish control
 - **Risk**: Using both hands to strip grips momentarily compromises your defensive turtle posture and may expose your neck to front headlock attacks
 
 ### 3. Turn and follow the opponent's rotation direction, sitting through to guard recovery
 
 - **When to use**: When the roll has already begun and you feel the opponent passing underneath you
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: By matching the rotation, you prevent the attacker from arriving behind you and instead end up in a scramble or guard position where back control is denied
 - **Risk**: If you turn too late, the opponent has already completed the roll and your turning motion may actually help them establish seatbelt control faster
 
 ### 4. Post far arm and drive forward to flatten opponent during their roll
 
 - **When to use**: When you feel the opponent's body beginning to pass underneath you during the mid-roll phase
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Your forward drive pins the opponent underneath you during their inversion, preventing them from completing the rotation and potentially reversing the position
 - **Risk**: Driving forward commits your weight in the direction the opponent wants to travel, and if timed poorly can accelerate their roll completion
 
@@ -215,11 +215,11 @@ Defending the Kiss of the Dragon requires understanding that this technique expl
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Prevent the roll entirely by sitting weight back to collapse entry space or stripping the hip grip before the opponent can initiate the somersault. This maintains the original positional dynamic with you in defensive turtle and denies the attacker their technique.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 If the roll has initiated but is not yet complete, follow the rotation direction by turning your body to match the opponent's movement. Sit through to a guard recovery position or scramble before they can establish seatbelt and hooks. Even arriving in a neutral scramble is preferable to conceding full back control.
 

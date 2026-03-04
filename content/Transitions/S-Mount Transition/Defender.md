@@ -162,7 +162,7 @@ description: "How to defend against S-Mount Transition in BJJ. Recognition cues,
 
 Defending the S-Mount Transition requires recognizing the technique during its early phases and responding before the attacker completes the leg-over-head movement. Once fully established, S-Mount is one of the most difficult positions to escape because both legs actively pin the defender while the arm is isolated for submission. The critical defensive window exists during the transition itself, specifically between when the attacker begins shifting weight forward and when the top leg clears the head. During this brief window, the attacker's base is temporarily compromised as they move from the stable Modified Mount structure to the perpendicular S-Mount configuration. Effective defense requires understanding the sequential nature of the transition: the attacker must first secure arm control, then shift weight, then slide the base leg, and finally swing the top leg over. Each phase presents specific defensive opportunities that diminish as the sequence progresses. The defender's primary objective is preventing the leg from clearing the head, as this single event transforms the position from recoverable to nearly terminal. If the transition completes, defensive priorities shift entirely to arm protection and survival while seeking any opportunity to create space for guard recovery.
 
-**Opponent's Starting Position**: [[Modified Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/Modified Mount]] (Top)
 
 </section>
 
@@ -200,28 +200,28 @@ Defending the S-Mount Transition requires recognizing the technique during its e
 ### 1. Frame on the attacker's swinging-leg hip with your free hand and bridge explosively toward the posted leg side to disrupt the transition before the leg clears your head
 
 - **When to use**: As soon as you feel weight shift forward and the posted leg begins sliding - this is the highest-percentage window before the transition completes
-- **Targets**: [[Modified Mount]]
+- **Targets**: [[Positions/Mount/Modified Mount]]
 - **If successful**: Attacker is forced back to Modified Mount and must re-establish control before attempting again, resetting the defensive situation
 - **Risk**: If bridge is too late, you may extend your trapped arm during the explosive movement, making the armbar easier to finish
 
 ### 2. Turn aggressively into the attacker by driving your near-side shoulder toward them while hip escaping toward their legs to collapse the perpendicular angle
 
 - **When to use**: When the attacker has begun the leg swing but has not fully settled their hips perpendicular - the transition is in progress but not complete
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to half guard by getting underneath the attacker and capturing their leg during the scramble created by disrupting the perpendicular angle
 - **Risk**: If you turn too aggressively without controlling the arm situation, you may expose your back for a back take or gift wrap
 
 ### 3. Hook the attacker's swinging leg with your free arm, grabbing behind their knee to physically prevent the leg from clearing your head while keeping your near arm tight
 
 - **When to use**: When you feel the attacker begin the top leg swing over your head - this is the last viable moment to prevent S-Mount completion
-- **Targets**: [[Modified Mount]]
+- **Targets**: [[Positions/Mount/Modified Mount]]
 - **If successful**: The attacker cannot complete the S-Mount configuration and is forced to either return to Modified Mount or fight to free their leg, creating time for further defense
 - **Risk**: Extending your free arm to hook the leg temporarily reduces your framing ability and the attacker may switch to attacking that arm instead
 
 ### 4. Execute a deep hip escape toward the attacker's legs while maintaining elbow-knee connection on the near side to prevent arm isolation and create space for guard recovery
 
 - **When to use**: When S-Mount is partially established but the attacker has not yet pinched knees tightly or settled full hip weight on your shoulder
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough space to insert your legs between you and the attacker, recovering to half guard or open guard before the submission can be initiated
 - **Risk**: If the hip escape is not deep enough, the attacker follows with their hips and establishes an even tighter S-Mount with better arm control
 
@@ -233,11 +233,11 @@ Defending the S-Mount Transition requires recognizing the technique during its e
 
 ## Best-Case Outcomes for Defender
 
-### → [[Modified Mount]]
+### → [[Positions/Mount/Modified Mount]]
 
 Bridge explosively toward the posted leg side during the early transition phase when the attacker's weight is loaded forward and their base is compromised. Combine with framing on their hip to push them back to the standard Modified Mount configuration. This works best when you react to the first recognition cue before the legs begin moving.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Turn aggressively into the attacker and hip escape toward their legs during the mid-transition phase. As their body angle changes from parallel to perpendicular, drive underneath them and capture a leg between yours. This requires committing to the turn while keeping your near arm protected to avoid giving up the armbar during the scramble.
 

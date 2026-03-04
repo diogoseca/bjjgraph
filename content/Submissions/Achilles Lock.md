@@ -22,8 +22,8 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Achilles tendon and ankle joint
-**Starting Position**: [[Ashi Garami]]
-**From Position**: [[Inside Ashi-Garami]] (Bottom)
+**Starting Position**: [[Positions/Ashi Garami]]
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -78,8 +78,8 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Ashi Garami]] | 25% |
-| Counter | [[Open Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -226,14 +226,14 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 ## From Which Positions?
 
-- [[Ashi Garami]]
-- [[Inside Ashi-Garami]]
-- [[Outside Ashi-Garami]]
-- [[Single Leg X-Guard]]
-- [[50-50 Guard]]
-- [[Saddle]]
-- [[Deep Half Guard]]
-- [[Open Guard]]
+- [[Positions/Ashi Garami]]
+- [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- [[Positions/X-Guard/Single Leg X-Guard]]
+- [[Positions/Ashi Garami/50-50 Guard]]
+- [[Positions/Ashi Garami/Saddle]]
+- [[Positions/Half Guard/Deep Half Guard]]
+- [[Positions/Open Guard]]
 
 
 </section>
@@ -242,14 +242,14 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 ## Related Submissions
 
-- [[Straight Ankle Lock]]
-- [[Heel Hook]]
-- [[Inside Heel Hook]]
-- [[Outside Heel Hook]]
-- [[Kneebar]]
-- [[Toe Hold]]
-- [[Calf Slicer]]
-- [[Estima Lock]]
+- [[Submissions/Straight Ankle Lock]]
+- [[Transitions/Heel Hook]]
+- [[Submissions/Inside Heel Hook]]
+- [[Transitions/Outside Heel Hook]]
+- [[Transitions/Kneebar]]
+- [[Transitions/Toe Hold]]
+- [[Transitions/Calf Slicer]]
+- [[Positions/Estima Lock]]
 
 
 </section>
@@ -258,16 +258,16 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 ## Additional Related Content
 
-- [[Ashi Garami]] - Primary position for Achilles Lock setup and control
-- [[Outside Ashi-Garami]] - Alternative position providing different angle for Achilles Lock
-- [[Single Leg X-Guard]] - Common entry position transitioning to Achilles Lock
-- [[Straight Ankle Lock]] - Similar submission targeting same area with different mechanics
-- [[Heel Hook]] - Advanced leg lock often threatened in combination with Achilles attacks
-- [[Toe Hold]] - Alternative leg attack from similar positions, different target
-- [[Kneebar]] - Leg lock targeting different joint, often chained with Achilles Lock
-- [[Saddle]] - Advanced leg entanglement position including Achilles variations
-- [[Inside Ashi-Garami]] - Dominant Ashi variation for Achilles Lock attacks
-- [[Leg Entanglement]] - Conceptual framework for understanding Ashi positions and controls
+- [[Positions/Ashi Garami]] - Primary position for Achilles Lock setup and control
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative position providing different angle for Achilles Lock
+- [[Positions/X-Guard/Single Leg X-Guard]] - Common entry position transitioning to Achilles Lock
+- [[Submissions/Straight Ankle Lock]] - Similar submission targeting same area with different mechanics
+- [[Transitions/Heel Hook]] - Advanced leg lock often threatened in combination with Achilles attacks
+- [[Transitions/Toe Hold]] - Alternative leg attack from similar positions, different target
+- [[Transitions/Kneebar]] - Leg lock targeting different joint, often chained with Achilles Lock
+- [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement position including Achilles variations
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Dominant Ashi variation for Achilles Lock attacks
+- [[Positions/Leg Entanglement]] - Conceptual framework for understanding Ashi positions and controls
 
 
 </section>

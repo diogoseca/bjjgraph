@@ -21,7 +21,7 @@ The key to successful execution lies in a strict top-down control progression. U
 
 This technique forms the cornerstone of effective top turtle work and is essential for competitors at all levels. The turtle position occurs constantly in competition arising from failed takedowns, guard passes, and scrambles. Practitioners who can reliably convert turtle top into back control gain access to the highest-percentage submission position in grappling, including rear naked choke, bow and arrow choke, and armbar transitions. The transition also integrates with alternative turtle attacks like crucifix entries and truck position, creating a web of threats that forces defensive errors.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ This technique forms the cornerstone of effective top turtle work and is essenti
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 60% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Back Control]] | 60% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -198,29 +198,29 @@ The turtle to back transition is a critical component of top turtle offensive sy
 ## Related Techniques
 
 
-- [[Seat Belt Control Back]] - Direct follow-up position establishing primary control configuration after back take
+- [[Positions/Back Control/Seat Belt Control Back]] - Direct follow-up position establishing primary control configuration after back take
 
-- [[Body Triangle]] - Alternative leg control method after completing back take for enhanced pressure
+- [[Positions/Back Control/Body Triangle]] - Alternative leg control method after completing back take for enhanced pressure
 
-- [[Rear Naked Choke]] - Primary submission threat from achieved back control position
+- [[Transitions/Rear Naked Choke]] - Primary submission threat from achieved back control position
 
-- [[Crab Ride to Back]] - Alternative turtle control pathway leading to back take via crab ride
+- [[Transitions/Crab Ride to Back]] - Alternative turtle control pathway leading to back take via crab ride
 
-- [[Truck]] - Alternative transition from turtle when one hook is established and opponent defends
+- [[Positions/Twister Control/Truck]] - Alternative transition from turtle when one hook is established and opponent defends
 
-- [[Crucifix from Turtle]] - Alternative attack when opponent posts arm defensively during back take attempt
+- [[Transitions/Crucifix from Turtle]] - Alternative attack when opponent posts arm defensively during back take attempt
 
-- [[Arm Drag to Back]] - Related back take technique from different starting position sharing control principles
+- [[Transitions/Arm Drag to Back]] - Related back take technique from different starting position sharing control principles
 
-- [[Gift Wrap]] - Alternative upper body control during back take when opponent exposes arm
+- [[Positions/Gift Wrap]] - Alternative upper body control during back take when opponent exposes arm
 
-- [[Bow and Arrow Choke]] - High-percentage gi submission from completed back control position
+- [[Transitions/Bow and Arrow Choke]] - High-percentage gi submission from completed back control position
 
-- [[Armbar from Back]] - Alternative submission when opponent over-defends neck from back control
+- [[Submissions/Armbar from Back]] - Alternative submission when opponent over-defends neck from back control
 
-- [[Turtle to Standing]] - Opponent escape attempt requiring standing back control counter-adjustment
+- [[Transitions/Turtle to Standing]] - Opponent escape attempt requiring standing back control counter-adjustment
 
-- [[Front Headlock to Back]] - Related back take from front headlock when opponent turns during turtle attack
+- [[Transitions/Front Headlock to Back]] - Related back take from front headlock when opponent turns during turtle attack
 
 
 </section>

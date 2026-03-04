@@ -172,7 +172,7 @@ The defensive framework follows a priority hierarchy: first, maintain posture an
 
 Experienced defenders recognize that the triangle setup creates a decision tree where their own defensive reactions can open alternative attacks. Posturing hard to defend the triangle may expose you to hip bump sweeps. Pulling your arm back aggressively can give the opponent an omoplata angle. This understanding informs intelligent defense — you must deny the triangle without overcorrecting into other vulnerabilities, maintaining a balanced defensive posture that addresses the immediate threat while preserving your overall positional safety inside the closed guard.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -210,35 +210,35 @@ Experienced defenders recognize that the triangle setup creates a decision tree 
 ### 1. Posture recovery with hand-on-hip frame — drive both hands into opponent's hips while sitting your weight back, straightening spine and lifting head above shoulder line to deny the posture break that enables the entire setup
 
 - **When to use**: As soon as you feel collar grip pulling your head forward or your posture beginning to compromise — this is the first-line defense that prevents all subsequent setup stages
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Opponent cannot isolate arm or create angle from your strong posture, forcing them to abandon the triangle setup and attempt alternative attacks or re-break your posture
 - **Risk**: Hands on hips removes your grip fighting, potentially allowing opponent to establish stronger collar and sleeve grips for a second attempt
 
 ### 2. Elbow retraction and arm recovery — drive your isolated elbow sharply back toward your own hip while turning your shoulder inward, stripping the arm back across the centerline before the opponent can establish angle
 
 - **When to use**: When you feel your arm being pulled across the opponent's centerline but they have not yet created significant angle with their hips — this narrow window closes once hip escape begins
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Arm returns to safe position inside guard, negating the arm isolation that is prerequisite for triangle entry and forcing opponent to restart the setup sequence
 - **Risk**: Aggressive arm retraction can be redirected into omoplata if opponent releases the wrist and transitions to overhook control during your recovery movement
 
 ### 3. Stack and drive forward — as opponent creates angle and begins leg throw, drive your weight forward and upward, stacking their hips over their shoulders to compress their body and prevent the leg from completing its arc over your shoulder
 
 - **When to use**: When opponent has achieved angle and the leg throw is imminent or in progress — stacking reduces the space available for the leg to clear your shoulder and compresses their offensive structure
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Opponent's triangle setup is crushed under your weight, their angle is neutralized, and you can begin working to pass from the stacked position or reset to standard closed guard top
 - **Risk**: Committed forward drive can be redirected into pendulum sweep if opponent abandons triangle and uses your momentum against you, or they may transition to omoplata from the stacked angle
 
 ### 4. Circle toward the trapped arm side — turn your body toward the side where your arm is being isolated, squaring your shoulders to the opponent and removing the angle they need for the leg throw
 
 - **When to use**: When opponent has begun creating the 45-degree angle but has not yet thrown the leg — circling into them collapses the angle and removes the space needed for the leg to clear your shoulder
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Angle is neutralized and you return to square alignment inside the guard, denying the geometric prerequisites for the triangle while maintaining your top position
 - **Risk**: Circling too aggressively can create momentum that the opponent redirects into a sweep if they release grips and use your turning force against your base
 
 ### 5. Grip strip and posture — use your free hand to break the opponent's controlling grip on your sleeve or wrist using a two-on-one grip break, then immediately posture up before they can re-establish control
 
 - **When to use**: When opponent has only established the initial grips for the setup but has not yet broken your posture significantly — breaking their grip chain early prevents the entire sequence from developing
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Opponent loses the grip control necessary to isolate your arm and break your posture, forcing them to fight for new grips before reattempting the setup
 - **Risk**: While stripping grips with both hands, your posture may momentarily be unsupported, creating a brief window for opponent to pull you down with guard legs alone
 
@@ -250,11 +250,11 @@ Experienced defenders recognize that the triangle setup creates a decision tree 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Maintain or recover posture before the opponent can complete the setup sequence. Keep elbows tight to ribs, retract any isolated arm immediately, and use hands on hips to frame against posture-breaking attempts. Deny the angle by controlling opponent's hip movement. The earlier you interrupt the setup chain, the more likely you return to neutral closed guard top position with minimal energy expenditure.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the opponent over-commits to the triangle setup — particularly during angle creation or leg throw — exploit the momentary opening of their guard to initiate a guard pass. Stack their hips as they attempt the leg throw, then drive forward to begin a passing sequence. Alternatively, use the moment when they uncross their ankles for the setup to begin your own guard opening sequence. The counter opportunity arises specifically because the triangle setup requires them to open their closed guard, creating the space you need to advance.
 

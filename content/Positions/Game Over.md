@@ -295,18 +295,18 @@ Start from a neutral or disadvantaged position. The goal is to advance through t
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Highest-percentage submission position feeding into Game Over via rear naked choke and collar chokes
-- **[[Mount]]** - Dominant top position with multiple submission paths to Game Over including armbar and cross collar choke
-- **[[Armbar Control]]** - Direct submission control position with armbar finish transition to Game Over
-- **[[Mounted Triangle]]** - High-control triangle position from mount with direct finish path to Game Over
-- **[[Guillotine Control]]** - Front headlock submission control with guillotine choke finish to Game Over
-- **[[Rear Triangle]]** - Rear-mounted triangle control with choke and armbar finishes to Game Over
-- **[[Ashi Garami]]** - Leg entanglement family providing heel hook and ankle lock paths to Game Over
-- **[[Crucifix]]** - Extreme control position with choke and armbar submission options leading to Game Over
-- **[[Omoplata Control]]** - Shoulder lock control position with omoplata finish transition to Game Over
-- **[[Bow and Arrow Choke]]** - High-percentage gi submission finish that terminates at Game Over from back control
-- **[[Rear Naked Choke]]** - Highest-percentage no-gi submission finish leading directly to Game Over
-- **[[Armbar from Guard]]** - Universal submission finish from multiple control positions terminating at Game Over
+- **[[Positions/Back Control]]** - Highest-percentage submission position feeding into Game Over via rear naked choke and collar chokes
+- **[[Positions/Mount]]** - Dominant top position with multiple submission paths to Game Over including armbar and cross collar choke
+- **[[Positions/Armbar Control]]** - Direct submission control position with armbar finish transition to Game Over
+- **[[Positions/Mount/Mounted Triangle]]** - High-control triangle position from mount with direct finish path to Game Over
+- **[[Positions/Guillotine Control]]** - Front headlock submission control with guillotine choke finish to Game Over
+- **[[Positions/Triangle Control/Rear Triangle]]** - Rear-mounted triangle control with choke and armbar finishes to Game Over
+- **[[Positions/Ashi Garami]]** - Leg entanglement family providing heel hook and ankle lock paths to Game Over
+- **[[Positions/Crucifix]]** - Extreme control position with choke and armbar submission options leading to Game Over
+- **[[Positions/Omoplata Control]]** - Shoulder lock control position with omoplata finish transition to Game Over
+- **[[Transitions/Bow and Arrow Choke]]** - High-percentage gi submission finish that terminates at Game Over from back control
+- **[[Transitions/Rear Naked Choke]]** - Highest-percentage no-gi submission finish leading directly to Game Over
+- **[[Submissions/Armbar from Guard]]** - Universal submission finish from multiple control positions terminating at Game Over
 
 
 </section>

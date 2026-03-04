@@ -206,31 +206,31 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 ## Available Attacks
 
-### [[Side Control to Mount]] (33% of attempts)
+### [[Transitions/Side Control to Mount]] (33% of attempts)
 
-### [[Armbar Finish]] (9% of attempts)
+### [[Transitions/Armbar Finish]] (9% of attempts)
 
-### [[Baseball Bat Choke]] (11% of attempts)
+### [[Transitions/Baseball Bat Choke]] (11% of attempts)
 
-### [[Side Control to North-South]] (10% of attempts)
+### [[Transitions/Side Control to North-South]] (10% of attempts)
 
-### [[Kimura]] (7% of attempts)
+### [[Transitions/Kimura]] (7% of attempts)
 
-### [[Back Take from Top]] (7% of attempts)
+### [[Transitions/Back Take from Top]] (7% of attempts)
 
-### [[S-Mount Transition]] (6% of attempts)
+### [[Transitions/S-Mount Transition]] (6% of attempts)
 
-### [[Cross Collar Choke]] (9% of attempts)
+### [[Transitions/Cross Collar Choke]] (9% of attempts)
 
-### [[Far Side Armbar from KOB]] (2% of attempts)
+### [[Transitions/Far Side Armbar from KOB]] (2% of attempts)
 
-### [[KOB to Mount]] (1% of attempts)
+### [[Transitions/KOB to Mount]] (1% of attempts)
 
-### [[KOB to Side Control]] (1% of attempts)
+### [[Transitions/KOB to Side Control]] (1% of attempts)
 
-### [[Armbar from Knee on Belly]] (2% of attempts)
+### [[Submissions/Armbar from Knee on Belly]] (2% of attempts)
 
-### [[Cross Collar Choke from KOB]] (2% of attempts)
+### [[Submissions/Cross Collar Choke from KOB]] (2% of attempts)
 
 
 
@@ -241,23 +241,23 @@ Knee on Belly Top is a highly effective transitional control position where the 
 ## Decision Making from This Position
 
 **If opponent remains flat and defensive without creating frames:**
-- Execute **[[Baseball Bat Choke]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 65%)
+- Execute **[[Transitions/Baseball Bat Choke]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
 
 
 **If opponent pushes against knee or creates frames with arms:**
-- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 60%)
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 55%)
+- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 60%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
 
 
 **If opponent turns to side attempting to escape:**
-- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 50%)
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 70%)
+- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
 
 
 **If opponent successfully creates space by shrimping away:**
-- Execute **[[Knee on Belly]]** → [[Side Control]] (Probability: 75%)
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Positions/Knee on Belly]]** → [[Positions/Side Control]] (Probability: 75%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 
@@ -391,14 +391,14 @@ Partner gives feedback on pressure levels as you experiment with different weigh
 
 ## Related Positions and Techniques
 
-- **[[Side Control]]** - Primary entry position - Knee on Belly often entered from side control
-- **[[Mount]]** - Common transition target - natural progression when opponent creates space
-- **[[North-South]]** - Alternative transition - effective when opponent escapes toward head
-- **[[Baseball Bat Choke]]** - Primary submission - high-percentage attack from this position in gi
-- **[[S Mount]]** - Advanced variation - evolution of Knee on Belly toward mount
-- **[[Back Control]]** - Opportunistic target when opponent turns away from pressure
-- **[[Armbar Finish]]** - Primary arm attack when opponent extends frames against knee
-- **[[Kimura]]** - Alternative arm attack targeting opponent's far arm from top control
+- **[[Positions/Side Control]]** - Primary entry position - Knee on Belly often entered from side control
+- **[[Positions/Mount]]** - Common transition target - natural progression when opponent creates space
+- **[[Positions/North-South]]** - Alternative transition - effective when opponent escapes toward head
+- **[[Transitions/Baseball Bat Choke]]** - Primary submission - high-percentage attack from this position in gi
+- **[[Positions/Mount/S Mount]]** - Advanced variation - evolution of Knee on Belly toward mount
+- **[[Positions/Back Control]]** - Opportunistic target when opponent turns away from pressure
+- **[[Transitions/Armbar Finish]]** - Primary arm attack when opponent extends frames against knee
+- **[[Transitions/Kimura]]** - Alternative arm attack targeting opponent's far arm from top control
 
 
 </section>

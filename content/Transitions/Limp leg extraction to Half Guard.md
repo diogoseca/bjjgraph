@@ -21,7 +21,7 @@ The strategic importance of this escape lies in its energy efficiency and reliab
 
 Advanced practitioners recognize this escape as part of a larger defensive system within leg entanglement warfare. The transition to Half Guard provides immediate safety from leg lock submissions while establishing a stable platform for guard recovery or offensive sweeps. The position choice is deliberate: Half Guard offers superior hip mobility and framing options compared to other escape destinations, while keeping one leg engaged to prevent immediate passing attempts.
 
-**From Position**: [[Leg Knot]] (Bottom)
+**From Position**: [[Positions/Leg Knot]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Advanced practitioners recognize this escape as part of a larger defensive syste
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Leg Knot]] | 30% |
-| Counter | [[Saddle]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Leg Knot]] | 30% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ Limp Leg Extraction to Half Guard serves as a cornerstone defensive technique wi
 ## Related Techniques
 
 
-- [[Leg Knot]] - Starting position - the entanglement configuration you're escaping from
+- [[Positions/Leg Knot]] - Starting position - the entanglement configuration you're escaping from
 
-- [[Half Guard]] - Primary destination - stable defensive position after successful extraction
+- [[Positions/Half Guard]] - Primary destination - stable defensive position after successful extraction
 
-- [[Granby Roll to Guard]] - Alternative escape - when opponent has tighter control or forward pressure
+- [[Transitions/Granby Roll to Guard]] - Alternative escape - when opponent has tighter control or forward pressure
 
-- [[Ashi Garami Escape]] - Related defensive technique for similar leg entanglement scenarios
+- [[Transitions/Ashi Garami Escape]] - Related defensive technique for similar leg entanglement scenarios
 
-- [[50-50 Entry]] - Counter-entanglement option when extraction to Half Guard fails
+- [[Transitions/50-50 Entry]] - Counter-entanglement option when extraction to Half Guard fails
 
-- [[Hip Escape to Guard]] - Core movement mechanic used during extraction sequence
+- [[Transitions/Hip Escape to Guard]] - Core movement mechanic used during extraction sequence
 
-- [[Saddle]] - Position to prevent - opponent's advancement target if extraction fails
+- [[Positions/Ashi Garami/Saddle]] - Position to prevent - opponent's advancement target if extraction fails
 
-- [[Inside Ashi-Garami]] - Related leg entanglement position with similar escape principles
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement position with similar escape principles
 
-- [[Heel Hook]] - Primary submission threat being defended during extraction
+- [[Transitions/Heel Hook]] - Primary submission threat being defended during extraction
 
-- [[Counter-entangle to 50-50 Guard]] - Alternative defensive option when extraction is blocked
+- [[Transitions/Counter-entangle to 50-50 Guard]] - Alternative defensive option when extraction is blocked
 
 
 </section>

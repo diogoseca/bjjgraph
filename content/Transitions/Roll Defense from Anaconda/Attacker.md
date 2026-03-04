@@ -186,7 +186,7 @@ description: "Learn to execute the Roll Defense from Anaconda as the defender ca
 
 As the person caught in anaconda control, executing the Roll Defense requires precise timing and mechanical awareness to deny the opponent's roll-through finishing sequence. Your primary weapons are your free hand for posting, your hip positioning to resist rotation, and your base structure to anchor against the rolling momentum. The roll-through is the anaconda attacker's highest-percentage finishing method, so successfully defending it often forces them to abandon the submission attempt or settle for maintaining control without the dominant finishing angle. This defense demands reading your opponent's intentions through their weight shifts and hip positioning, then deploying the correct counter-movement within a narrow timing window.
 
-**From Position**: [[Anaconda Control]] (Bottom)
+**From Position**: [[Positions/Anaconda Control]] (Bottom)
 
 </section>
 
@@ -238,9 +238,9 @@ As the person caught in anaconda control, executing the Roll Defense requires pr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 40% |
-| Failure | [[Anaconda Control]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Turtle]] | 40% |
+| Failure | [[Positions/Anaconda Control]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -249,10 +249,10 @@ As the person caught in anaconda control, executing the Roll Defense requires pr
 
 ## Opponent Counters
 
-- **Attacker fakes the roll and switches to stationary squeeze finish** (Effectiveness: High) - Your Response: If you commit to the post and the roll does not come, immediately retract the post and resume grip fighting at the choking arm. The stationary finish is generally less effective than the roll-through, so returning to standard anaconda defense is a viable recovery. → Leads to [[Anaconda Control]]
-- **Attacker controls the posting hand before initiating the roll** (Effectiveness: High) - Your Response: If your free hand is controlled, use your hips and legs as the primary defense. Sprawl explosively and drive hips away from the roll direction. Without the hand post you need maximum lower body resistance. If possible, strip their grip on your wrist before the roll begins. → Leads to [[Side Control]]
-- **Attacker uses explosive leg drive to power through the post** (Effectiveness: Medium) - Your Response: If the roll overwhelms your post, transition to the roll-with counter variant. Go with the momentum but immediately fight the grip and scramble during the landing phase. The goal shifts from preventing the roll to denying the finishing angle after landing. → Leads to [[Side Control]]
-- **Attacker switches roll direction mid-attempt** (Effectiveness: Medium) - Your Response: Re-post on the new side immediately. The direction switch requires the attacker to reposition their hips, which creates a brief pause you can use to adjust your defense. Stay heavy and mobile rather than committing fully to one posting direction. → Leads to [[Anaconda Control]]
+- **Attacker fakes the roll and switches to stationary squeeze finish** (Effectiveness: High) - Your Response: If you commit to the post and the roll does not come, immediately retract the post and resume grip fighting at the choking arm. The stationary finish is generally less effective than the roll-through, so returning to standard anaconda defense is a viable recovery. → Leads to [[Positions/Anaconda Control]]
+- **Attacker controls the posting hand before initiating the roll** (Effectiveness: High) - Your Response: If your free hand is controlled, use your hips and legs as the primary defense. Sprawl explosively and drive hips away from the roll direction. Without the hand post you need maximum lower body resistance. If possible, strip their grip on your wrist before the roll begins. → Leads to [[Positions/Side Control]]
+- **Attacker uses explosive leg drive to power through the post** (Effectiveness: Medium) - Your Response: If the roll overwhelms your post, transition to the roll-with counter variant. Go with the momentum but immediately fight the grip and scramble during the landing phase. The goal shifts from preventing the roll to denying the finishing angle after landing. → Leads to [[Positions/Side Control]]
+- **Attacker switches roll direction mid-attempt** (Effectiveness: Medium) - Your Response: Re-post on the new side immediately. The direction switch requires the attacker to reposition their hips, which creates a brief pause you can use to adjust your defense. Stay heavy and mobile rather than committing fully to one posting direction. → Leads to [[Positions/Anaconda Control]]
 
 
 </section>

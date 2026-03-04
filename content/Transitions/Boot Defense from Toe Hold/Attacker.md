@@ -180,7 +180,7 @@ description: "Learn the Boot Defense from Toe Hold attacker execution. Step-by-s
 
 The Boot Defense from Toe Hold requires the defending practitioner to combine mechanical foot rigidity with systematic grip elimination to create an escape window from toe hold control. As the attacker executing this defense, your primary objective is establishing the rigid boot structure immediately upon recognizing toe hold grip establishment, then transitioning from passive defense to active grip fighting and controlled leg extraction. Success depends on the sequence of defense—boot first, grip break second, extraction third—rather than attempting any single element in isolation. The technique demands calm execution under direct submission threat, where panic responses like explosive pulling actively worsen the situation and increase injury risk to your own ankle.
 
-**From Position**: [[Toe Hold Control]] (Bottom)
+**From Position**: [[Positions/Toe Hold Control]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ The Boot Defense from Toe Hold requires the defending practitioner to combine me
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 45% |
-| Failure | [[Toe Hold Control]] | 35% |
-| Counter | [[Kneebar Control]] | 20% |
+| Success | [[Positions/Open Guard]] | 45% |
+| Failure | [[Positions/Toe Hold Control]] | 35% |
+| Counter | [[Positions/Kneebar Control]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ The Boot Defense from Toe Hold requires the defending practitioner to combine me
 
 ## Opponent Counters
 
-- **Opponent repositions hips perpendicular to your leg to circumvent boot rigidity and expose your knee for kneebar transition** (Effectiveness: High) - Your Response: Immediately bend your knee and pull it toward your chest when you feel the angle change, preventing the leg extension required for kneebar application → Leads to [[Kneebar Control]]
-- **Opponent applies explosive rotational burst before boot structure fully solidifies during grip establishment** (Effectiveness: High) - Your Response: Prioritize speed of boot deployment—the moment you feel hands on your foot, begin internal rotation and plantarflexion simultaneously without waiting for full grip → Leads to [[Toe Hold Control]]
-- **Opponent uses knee wedge pressure against your rigid boot structure to progressively break through the foot rigidity** (Effectiveness: Medium) - Your Response: Combine boot maintenance with active grip fighting rather than relying on rigidity alone—attack their grip configuration while the boot provides protection → Leads to [[Toe Hold Control]]
-- **Opponent transitions from toe hold to straight ankle lock by shifting hand position during grip adjustment** (Effectiveness: Medium) - Your Response: Use the grip transition window to accelerate leg extraction through circular hip movement before the new ankle lock grip fully establishes → Leads to [[Toe Hold Control]]
+- **Opponent repositions hips perpendicular to your leg to circumvent boot rigidity and expose your knee for kneebar transition** (Effectiveness: High) - Your Response: Immediately bend your knee and pull it toward your chest when you feel the angle change, preventing the leg extension required for kneebar application → Leads to [[Positions/Kneebar Control]]
+- **Opponent applies explosive rotational burst before boot structure fully solidifies during grip establishment** (Effectiveness: High) - Your Response: Prioritize speed of boot deployment—the moment you feel hands on your foot, begin internal rotation and plantarflexion simultaneously without waiting for full grip → Leads to [[Positions/Toe Hold Control]]
+- **Opponent uses knee wedge pressure against your rigid boot structure to progressively break through the foot rigidity** (Effectiveness: Medium) - Your Response: Combine boot maintenance with active grip fighting rather than relying on rigidity alone—attack their grip configuration while the boot provides protection → Leads to [[Positions/Toe Hold Control]]
+- **Opponent transitions from toe hold to straight ankle lock by shifting hand position during grip adjustment** (Effectiveness: Medium) - Your Response: Use the grip transition window to accelerate leg extraction through circular hip movement before the new ankle lock grip fully establishes → Leads to [[Positions/Toe Hold Control]]
 
 
 </section>

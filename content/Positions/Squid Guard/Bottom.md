@@ -211,27 +211,27 @@ While technically demanding and requiring significant flexibility, coordination,
 
 ## Available Escapes
 
-### [[Kiss of the Dragon]] (22% of attempts)
+### [[Transitions/Kiss of the Dragon]] (22% of attempts)
 
-### [[X-Guard Sweep]] (10% of attempts)
+### [[Transitions/X-Guard Sweep]] (10% of attempts)
 
-### [[Single Leg X Sweep]] (9% of attempts)
+### [[Transitions/Single Leg X Sweep]] (9% of attempts)
 
-### [[Berimbolo Entry]] (9% of attempts)
+### [[Transitions/Berimbolo Entry]] (9% of attempts)
 
-### [[De La Riva Sweep]] (9% of attempts)
+### [[Transitions/De La Riva Sweep]] (9% of attempts)
 
-### [[Guard Recovery from Squid Guard]] (10% of attempts)
+### [[Transitions/Guard Recovery from Squid Guard]] (10% of attempts)
 
-### [[Omoplata Sweep]] (8% of attempts)
+### [[Transitions/Omoplata Sweep]] (8% of attempts)
 
-### [[Triangle Setup]] (8% of attempts)
+### [[Transitions/Triangle Setup]] (8% of attempts)
 
-### [[Omoplata to Back]] (9% of attempts)
+### [[Transitions/Omoplata to Back]] (9% of attempts)
 
-### [[Squid Guard Sweep]] (4% of attempts)
+### [[Transitions/Squid Guard Sweep]] (4% of attempts)
 
-### [[Squid to Ringworm Guard]] (2% of attempts)
+### [[Transitions/Squid to Ringworm Guard]] (2% of attempts)
 
 
 
@@ -242,23 +242,23 @@ While technically demanding and requiring significant flexibility, coordination,
 ## Decision Making from This Position
 
 **If opponent maintains upright posture with weight distributed evenly:**
-- Execute **[[De La Riva Sweep]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[X-Guard Sweep]]** → [[X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 55%)
 
 
 **If opponent drives forward with pressure attempting to stack:**
-- Execute **[[Kiss of the Dragon]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Berimbolo Entry]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Kiss of the Dragon]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent turns away from threading leg to escape tension:**
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Omoplata to Back]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent attempts to disengage and create distance:**
-- Execute **[[Guard Recovery from Squid Guard]]** → [[Open Guard]] (Probability: 70%)
-- Execute **[[Shin to Shin Pull]]** → [[Spider Guard]] (Probability: 60%)
+- Execute **[[Transitions/Guard Recovery from Squid Guard]]** → [[Positions/Open Guard]] (Probability: 70%)
+- Execute **[[Transitions/Shin to Shin Pull]]** → [[Positions/Spider Guard]] (Probability: 60%)
 
 
 
@@ -392,16 +392,16 @@ Hold Squid Guard position with partner attempting to extract threading leg and c
 
 ## Related Positions and Techniques
 
-- **[[De La Riva Guard]]** - Parent position sharing hook mechanics and concepts
-- **[[Reverse De La Riva Guard]]** - Similar position with alternative hook placement
-- **[[X-Guard]]** - Common transition target sharing leg control
-- **[[Single Leg X-Guard]]** - Natural progression with single leg control
-- **[[Lasso Guard]]** - Related lapel control guard system
-- **[[Spider Guard]]** - Complementary open guard variation
-- **[[Worm Guard]]** - Similar advanced lapel guard system
-- **[[Back Control]]** - Primary advancement via back takes
-- **[[Omoplata Control]]** - Submission threat from position
-- **[[Inverted Guard]]** - Related guard used during retention and transitions
+- **[[Positions/De La Riva Guard]]** - Parent position sharing hook mechanics and concepts
+- **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Similar position with alternative hook placement
+- **[[Positions/X-Guard]]** - Common transition target sharing leg control
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Natural progression with single leg control
+- **[[Positions/Lasso Guard]]** - Related lapel control guard system
+- **[[Positions/Spider Guard]]** - Complementary open guard variation
+- **[[Positions/Worm Guard]]** - Similar advanced lapel guard system
+- **[[Positions/Back Control]]** - Primary advancement via back takes
+- **[[Positions/Omoplata Control]]** - Submission threat from position
+- **[[Positions/Inverted Guard]]** - Related guard used during retention and transitions
 
 
 </section>

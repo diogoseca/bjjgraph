@@ -146,7 +146,7 @@ description: "Defend against the Roll from Dead Orchard in BJJ. Guide for the to
 
 The Roll from Dead Orchard Defender is the top player maintaining dead orchard control who must prevent the bottom player from executing a forward roll escape. When the bottom player initiates a roll, the defender must read the direction and timing to either prevent the rotation entirely through hip pressure and grip adjustments, or follow the roll and transition to back control. The defender's primary advantage is that the roll attempt temporarily exposes the bottom player's back, creating opportunities for an even more dominant position. Understanding the mechanics of the roll escape allows the top player to anticipate attempts, adjust pressure patterns to deny the escape window, and capitalize on failed roll attempts by advancing to back control or re-establishing deeper dead orchard control. Skilled defenders recognize the subtle hip shifts and framing patterns that telegraph a roll attempt and preemptively adjust their weight distribution to remove the escape option entirely.
 
-**Opponent's Starting Position**: [[Dead Orchard Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Dead Orchard Control]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ The Roll from Dead Orchard Defender is the top player maintaining dead orchard c
 ### 1. Sprawl hips back and increase downward shoulder pressure to block the rotation
 
 - **When to use**: When you detect the initial hip loading or free hand posting that signals the roll setup, before the roll is initiated
-- **Targets**: [[Dead Orchard Control]]
+- **Targets**: [[Positions/Dead Orchard Control]]
 - **If successful**: Bottom player's roll attempt is completely prevented and you maintain full dead orchard control with the option to re-tighten the choke
 - **Risk**: If you sprawl too aggressively, you may create space that allows a hip escape in the opposite direction
 
 ### 2. Follow the roll maintaining chest-to-back contact and transition to back control with hook insertion
 
 - **When to use**: When the roll has already been initiated and is past the point where sprawling can prevent it, follow the momentum rather than fighting it
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You secure back control with harness grip and begin inserting hooks, achieving a 4-point position that is superior to dead orchard for sustained control
 - **Risk**: If you follow too slowly, the bottom player establishes tight turtle and you must work standard turtle attacks without the back control advantage
 
 ### 3. Release anaconda grip and immediately transition to seatbelt or harness control during the roll
 
 - **When to use**: When the roll disrupts your anaconda grip alignment to the point where the choke is no longer viable, proactively release and secure back control grips
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You trade the choke threat for back control position, maintaining dominant positioning even though the specific submission was escaped
 - **Risk**: If your grip transition is too slow, the bottom player escapes to turtle without any upper body control established
 
 ### 4. Re-secure deeper anaconda grip by walking hips around after a stalled roll attempt
 
 - **When to use**: When the bottom player's roll stalls partway through and they are caught in a compromised mid-roll position
-- **Targets**: [[Dead Orchard Control]]
+- **Targets**: [[Positions/Dead Orchard Control]]
 - **If successful**: You re-establish dead orchard control with an even deeper grip position because the bottom player has exhausted energy on the failed escape attempt
 - **Risk**: If you focus on re-gripping rather than following the roll, the bottom player may complete the rotation with a second explosive effort
 
@@ -217,11 +217,11 @@ The Roll from Dead Orchard Defender is the top player maintaining dead orchard c
 
 ## Best-Case Outcomes for Defender
 
-### → [[Dead Orchard Control]]
+### → [[Positions/Dead Orchard Control]]
 
 Prevent the roll entirely by sprawling hips back and increasing downward shoulder pressure when you detect the setup cues. Keep hips low and heavy to deny the hip loading needed for the rotation. Use controlled pressure rather than explosive forward drives that create the timing window the escape exploits.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 If the roll initiates, follow it with chest-to-back contact rather than fighting the rotation. Release the anaconda grip proactively and transition to seatbelt control during the roll, inserting the near hook as the bottom player lands in turtle. The roll exposes the back, so following it aggressively often yields a superior position to the original dead orchard.
 

@@ -158,7 +158,7 @@ The defender's advantage lies in the inherent mechanical superiority of the Gift
 
 Strategically, the defender should view arm recovery attempts as offensive opportunities rather than purely defensive problems. When the bottom player initiates arm recovery, they must commit their free hand to the extraction or compromise their neck defense. Either scenario opens attack pathways. A well-timed rear naked choke attempt during the recovery window exploits the momentary defensive gap, while recognizing the crucifix transition opportunity when the opponent creates space turns their escape attempt into positional regression.
 
-**Opponent's Starting Position**: [[Gift Wrap]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Gift Wrap]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Strategically, the defender should view arm recovery attempts as offensive oppor
 ### 1. Tighten Gift Wrap and flatten opponent to mat with forward chest pressure and hook drive
 
 - **When to use**: When you feel the initial hip escape attempt and shoulder rotation beginning - act immediately before space is created
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Opponent returns to flat position with no hip mobility, arm recovery becomes impossible and you can resume attacks
 - **Risk**: Over-committing forward pressure may allow roll-through variant if opponent redirects your momentum
 
 ### 2. Attack rear naked choke during the recovery attempt when opponent's neck defense is compromised
 
 - **When to use**: When opponent begins arm recovery and their free hand shifts attention away from neck defense toward assisting extraction
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Opponent must abandon recovery and return to choke defense, resetting them back to Gift Wrap bottom with spent energy
 - **Risk**: If choke attempt fails and you release Gift Wrap control, opponent may recover arm during your transition
 
 ### 3. Transition to crucifix by capturing the free arm when opponent extends it during recovery attempt
 
 - **When to use**: When opponent creates space with hip escape and their free arm becomes accessible as they focus on extracting trapped arm
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Both of opponent's arms are now trapped, creating an even more dominant position with higher submission probability
 - **Risk**: If crucifix entry fails, you may lose Gift Wrap control and end up in standard back control
 
 ### 4. Follow opponent's hip escape by scooting your hips to maintain alignment and chest connection
 
 - **When to use**: When opponent chains multiple hip escapes to create cumulative distance - follow each shrimp immediately
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Negates the space creation from hip escapes and maintains the control geometry needed to keep the arm trapped
 - **Risk**: Constant following can be energy-intensive and opponent may use direction change to exploit your momentum
 
@@ -229,11 +229,11 @@ Strategically, the defender should view arm recovery attempts as offensive oppor
 
 ## Best-Case Outcomes for Defender
 
-### → [[Gift Wrap]]
+### → [[Positions/Gift Wrap]]
 
 Maintain tight chest-to-back connection and keep the trapped arm pulled high across the chest. When you feel hip escape beginning, immediately drive forward to flatten opponent and deny the rotational angle. Follow their hip movement to prevent cumulative space creation. Attack the neck when their free hand shifts from defense to assist extraction.
 
-### → [[Crucifix]]
+### → [[Positions/Crucifix]]
 
 When the opponent creates space during their arm recovery attempt and their free arm becomes accessible, thread your legs around their near arm while simultaneously capturing the far arm with your hands. The arm recovery attempt often separates their elbows from their body, creating the opening needed for crucifix entry. This transforms their escape attempt into a worse position.
 

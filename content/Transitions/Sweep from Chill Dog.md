@@ -21,7 +21,7 @@ This technique operates on a fundamental principle of redirected force. Rather t
 
 The strategic value of this sweep extends far beyond the immediate positional gain. Once opponents learn that an aggressive sweep threat exists from Chill Dog, they become significantly more conservative in their turtle attacks. This hesitancy creates wider escape windows for the bottom player's other options, including the Granby roll to open guard, hip escape to half guard, and technical stand-up to standing. The sweep functions as a force multiplier for the entire Chill Dog defensive system by punishing overaggression, making all other escapes more effective through threat multiplication. Within the 10th Planet system, this sweep exemplifies the philosophy that every position should carry both defensive and offensive capabilities, ensuring that no position is purely reactive.
 
-**From Position**: [[Chill Dog]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Chill Dog]] (Bottom)
 **Success Rate**: 44%
 
 </section>
@@ -32,9 +32,9 @@ The strategic value of this sweep extends far beyond the immediate positional ga
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 44% |
-| Failure | [[Chill Dog]] | 36% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Mount]] | 44% |
+| Failure | [[Positions/Rubber Guard/Chill Dog]] | 36% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Sweep from Chill Dog occupies a critical offensive niche within the turtle d
 ## Related Techniques
 
 
-- [[Chill Dog]] - Source position - sweep is executed from this compact turtle defensive variant
+- [[Positions/Rubber Guard/Chill Dog]] - Source position - sweep is executed from this compact turtle defensive variant
 
-- [[Mount]] - Primary success target - successful sweep lands directly in full mount
+- [[Positions/Mount]] - Primary success target - successful sweep lands directly in full mount
 
-- [[Open Guard]] - Counter outcome position when sweep fails and defensive shell is lost
+- [[Positions/Open Guard]] - Counter outcome position when sweep fails and defensive shell is lost
 
-- [[Escape Chill Dog]] - Alternative escape from same position targeting half guard recovery
+- [[Transitions/Escape Chill Dog]] - Alternative escape from same position targeting half guard recovery
 
-- [[Roll from Chill Dog]] - Alternative rolling escape from same position targeting open guard
+- [[Transitions/Roll from Chill Dog]] - Alternative rolling escape from same position targeting open guard
 
-- [[Turtle]] - Parent position category - Chill Dog is a specialized turtle variant
+- [[Positions/Turtle]] - Parent position category - Chill Dog is a specialized turtle variant
 
-- [[Dogfight Sweep]] - Related reversal concept from similar bottom-up kneeling position
+- [[Transitions/Dogfight Sweep]] - Related reversal concept from similar bottom-up kneeling position
 
-- [[Homer Simpson Sweep]] - Related 10th Planet sweep using similar hip mechanics from different guard
+- [[Transitions/Homer Simpson Sweep]] - Related 10th Planet sweep using similar hip mechanics from different guard
 
-- [[Back Control]] - Opponent's primary objective from turtle top that the sweep threat deters
+- [[Positions/Back Control]] - Opponent's primary objective from turtle top that the sweep threat deters
 
-- [[Rubber Guard]] - Related 10th Planet system position connecting to sweep philosophy
+- [[Positions/Rubber Guard]] - Related 10th Planet system position connecting to sweep philosophy
 
 
 </section>

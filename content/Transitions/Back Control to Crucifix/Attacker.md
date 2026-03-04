@@ -180,7 +180,7 @@ description: "How to execute Back Control to Crucifix in BJJ. Attacking perspect
 
 The Back Control to Crucifix transition converts standard rear mount dominance into a superior control platform by systematically isolating both of the opponent's arms. The attacker exploits the opponent's choke defense posture, using the extended arms as entry points for leg and hand traps that eliminate all defensive capability. The sequence follows a strict order: threaten the choke to force arm extension, pin the near arm with the shin, then capture the far arm under the armpit. This methodical approach transforms the opponent's defensive reactions into the mechanism for their own entrapment, creating one of the highest-percentage submission platforms in grappling. Mastery of this transition requires precise timing, patient setup, and the discipline to maintain positional control throughout the vulnerable transition phases rather than rushing to capture both arms simultaneously.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -235,9 +235,9 @@ The Back Control to Crucifix transition converts standard rear mount dominance i
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Crucifix]] | 58% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Back Control]] | 12% |
+| Success | [[Positions/Crucifix]] | 58% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Back Control]] | 12% |
 
 
 </section>
@@ -246,10 +246,10 @@ The Back Control to Crucifix transition converts standard rear mount dominance i
 
 ## Opponent Counters
 
-- **Opponent tucks arms tight to body defensively, denying entry** (Effectiveness: High) - Your Response: Maintain back control and use alternative attacks like body triangle or gift wrap. Threaten rear naked choke to force arm extension, then re-enter crucifix sequence when opponent commits hands to neck defense. → Leads to [[Back Control]]
-- **Opponent rolls toward you during hook removal phase** (Effectiveness: Medium) - Your Response: Keep bottom hook deeply inserted and use it as an anchor to prevent the roll. If they complete the roll, maintain chest connection and transition to mounted crucifix or standard mount rather than losing position entirely. → Leads to [[Back Control]]
-- **Opponent pulls trapped arm free during knee insertion** (Effectiveness: Medium) - Your Response: Immediately return to standard back control by reinserting both hooks. Re-establish seatbelt grip and restart the sequence when opponent commits hands to neck defense again. Do not chase the arm. → Leads to [[Back Control]]
-- **Opponent bridges explosively and attempts to turn into guard** (Effectiveness: Low) - Your Response: Bottom hook and shin pressure should prevent this if properly maintained. Increase chest pressure, drop your hips, and adjust weight distribution to keep them flat. Use the bridge momentum against them by threatening the neck as they return to the mat. → Leads to [[Back Control]]
+- **Opponent tucks arms tight to body defensively, denying entry** (Effectiveness: High) - Your Response: Maintain back control and use alternative attacks like body triangle or gift wrap. Threaten rear naked choke to force arm extension, then re-enter crucifix sequence when opponent commits hands to neck defense. → Leads to [[Positions/Back Control]]
+- **Opponent rolls toward you during hook removal phase** (Effectiveness: Medium) - Your Response: Keep bottom hook deeply inserted and use it as an anchor to prevent the roll. If they complete the roll, maintain chest connection and transition to mounted crucifix or standard mount rather than losing position entirely. → Leads to [[Positions/Back Control]]
+- **Opponent pulls trapped arm free during knee insertion** (Effectiveness: Medium) - Your Response: Immediately return to standard back control by reinserting both hooks. Re-establish seatbelt grip and restart the sequence when opponent commits hands to neck defense again. Do not chase the arm. → Leads to [[Positions/Back Control]]
+- **Opponent bridges explosively and attempts to turn into guard** (Effectiveness: Low) - Your Response: Bottom hook and shin pressure should prevent this if properly maintained. Increase chest pressure, drop your hips, and adjust weight distribution to keep them flat. Use the bridge momentum against them by threatening the neck as they return to the mat. → Leads to [[Positions/Back Control]]
 
 
 </section>

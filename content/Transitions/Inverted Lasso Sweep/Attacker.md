@@ -180,7 +180,7 @@ description: "Master the attacker perspective for the Inverted Lasso Sweep. Step
 
 Executing the Inverted Lasso Sweep requires precise coordination between the lasso hook, sleeve grip, hip rotation, and free leg positioning. The attacker must establish the inverted position with maintained tension on the lasso connection, then generate rotational momentum through hip extension and leg drive that lifts the opponent's weight over the fulcrum point created by the lasso hook. Success depends on timing the sweep to coincide with the opponent's forward weight commitment and connecting the body's rotational energy through the lasso connection rather than relying on isolated limb strength. The sweep creates a whole-body lever system where the shoulders serve as the pivot, the lassoed leg generates lift, and the sleeve grip prevents escape, producing force that dramatically exceeds what any single limb could generate in isolation.
 
-**From Position**: [[Inverted Lasso Guard]] (Bottom)
+**From Position**: [[Positions/Lasso Guard/Inverted Lasso Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Inverted Lasso Sweep requires precise coordination between the las
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 50% |
-| Failure | [[Inverted Lasso Guard]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Mount]] | 50% |
+| Failure | [[Positions/Lasso Guard/Inverted Lasso Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Inverted Lasso Sweep requires precise coordination between the las
 
 ## Opponent Counters
 
-- **Opponent sits weight backward and drops hips low to resist the overhead lifting force** (Effectiveness: High) - Your Response: Immediately switch to berimbolo entry by threading the free leg behind their back. Their retreated weight makes berimbolo rotation significantly easier since their center of gravity is already moving in the direction of the back take. → Leads to [[Inverted Lasso Guard]]
-- **Opponent strips the sleeve grip using a two-on-one grip break, severing the pulling connection** (Effectiveness: High) - Your Response: Immediately re-grip the sleeve before they extract the lassoed arm, or transition to omoplata or triangle entry using the remaining lasso hook to control their posture while you set up the submission angle. → Leads to [[Open Guard]]
-- **Opponent steps laterally to change the sweep angle and avoid the overhead trajectory** (Effectiveness: Medium) - Your Response: Follow their lateral movement with hip rotation to maintain the sweep angle, or convert to De La Riva hook on their lead leg and transition to a different guard system that addresses their new angle. → Leads to [[Open Guard]]
-- **Opponent posts free hand on the mat behind them to create a structural brace against the sweep** (Effectiveness: Medium) - Your Response: Target the posting arm with your free hand to strip the post, or redirect the sweep angle slightly lateral to bypass the post entirely. The posting hand cannot defend both directions simultaneously. → Leads to [[Inverted Lasso Guard]]
+- **Opponent sits weight backward and drops hips low to resist the overhead lifting force** (Effectiveness: High) - Your Response: Immediately switch to berimbolo entry by threading the free leg behind their back. Their retreated weight makes berimbolo rotation significantly easier since their center of gravity is already moving in the direction of the back take. → Leads to [[Positions/Lasso Guard/Inverted Lasso Guard]]
+- **Opponent strips the sleeve grip using a two-on-one grip break, severing the pulling connection** (Effectiveness: High) - Your Response: Immediately re-grip the sleeve before they extract the lassoed arm, or transition to omoplata or triangle entry using the remaining lasso hook to control their posture while you set up the submission angle. → Leads to [[Positions/Open Guard]]
+- **Opponent steps laterally to change the sweep angle and avoid the overhead trajectory** (Effectiveness: Medium) - Your Response: Follow their lateral movement with hip rotation to maintain the sweep angle, or convert to De La Riva hook on their lead leg and transition to a different guard system that addresses their new angle. → Leads to [[Positions/Open Guard]]
+- **Opponent posts free hand on the mat behind them to create a structural brace against the sweep** (Effectiveness: Medium) - Your Response: Target the posting arm with your free hand to strip the post, or redirect the sweep angle slightly lateral to bypass the post entirely. The posting hand cannot defend both directions simultaneously. → Leads to [[Positions/Lasso Guard/Inverted Lasso Guard]]
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Master the Toss Pass attacker strategy from Double Unders. Step-by
 
 The Toss Pass attacker operates from an already dominant double unders control position, using the bilateral underhook grip to execute an explosive lateral redirection of the opponent's legs. The attacker's primary challenge is disguising the toss direction while maintaining sufficient forward pressure to prevent early defensive adjustment. Success requires coordinating grip mechanics, hip rotation, and immediate follow-through into side control within a narrow execution window. The attacker must read the opponent's frame orientation to select the optimal toss direction and commit fully to the directional change, as half-committed attempts allow easy defensive recovery.
 
-**From Position**: [[Double Unders]] (Top)
+**From Position**: [[Positions/Double Unders]] (Top)
 
 </section>
 
@@ -232,10 +232,10 @@ The Toss Pass attacker operates from an already dominant double unders control p
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Double Unders]] | 20% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Double Unders]] | 20% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -244,10 +244,10 @@ The Toss Pass attacker operates from an already dominant double unders control p
 
 ## Opponent Counters
 
-- **Opponent inserts butterfly hook on the toss side during redirection, preventing legs from clearing** (Effectiveness: High) - Your Response: If you feel the hook engaging mid-toss, immediately shift to a leg weave passing configuration on that side rather than fighting the hook. Use the momentum of your toss to drive past the hook into a half guard top position, then work to complete the pass from there. → Leads to [[Half Guard]]
-- **Opponent frames against your shoulder and hip escapes during the toss, creating distance to recover open guard** (Effectiveness: Medium) - Your Response: Accelerate your follow-through and chase their hip movement with your chest. If they create significant distance, abandon the toss pass and re-establish double unders control by driving forward into their retreating hips before they can fully recover their guard structure. → Leads to [[Open Guard]]
-- **Opponent grips your sleeve or wrist to prevent arm release during toss, stalling the redirection** (Effectiveness: Medium) - Your Response: Strip the grip by circling your wrist out of their grip direction while continuing the toss motion. If the grip holds, maintain pressure and revert to forward stacking, then attempt the toss again after re-establishing full pressure and breaking the grip with a sharp elbow retraction. → Leads to [[Double Unders]]
-- **Opponent anticipates toss direction and pre-rotates hips toward the toss side, turning into you** (Effectiveness: Low) - Your Response: If the opponent turns into the toss direction, they expose their back. Redirect immediately to a back take by following their rotation and establishing seat belt control as they turn. Their pre-rotation actually assists your transition to a superior position if you read it correctly. → Leads to [[Side Control]]
+- **Opponent inserts butterfly hook on the toss side during redirection, preventing legs from clearing** (Effectiveness: High) - Your Response: If you feel the hook engaging mid-toss, immediately shift to a leg weave passing configuration on that side rather than fighting the hook. Use the momentum of your toss to drive past the hook into a half guard top position, then work to complete the pass from there. → Leads to [[Positions/Half Guard]]
+- **Opponent frames against your shoulder and hip escapes during the toss, creating distance to recover open guard** (Effectiveness: Medium) - Your Response: Accelerate your follow-through and chase their hip movement with your chest. If they create significant distance, abandon the toss pass and re-establish double unders control by driving forward into their retreating hips before they can fully recover their guard structure. → Leads to [[Positions/Open Guard]]
+- **Opponent grips your sleeve or wrist to prevent arm release during toss, stalling the redirection** (Effectiveness: Medium) - Your Response: Strip the grip by circling your wrist out of their grip direction while continuing the toss motion. If the grip holds, maintain pressure and revert to forward stacking, then attempt the toss again after re-establishing full pressure and breaking the grip with a sharp elbow retraction. → Leads to [[Positions/Double Unders]]
+- **Opponent anticipates toss direction and pre-rotates hips toward the toss side, turning into you** (Effectiveness: Low) - Your Response: If the opponent turns into the toss direction, they expose their back. Redirect immediately to a back take by following their rotation and establishing seat belt control as they turn. Their pre-rotation actually assists your transition to a superior position if you read it correctly. → Leads to [[Positions/Side Control]]
 
 
 </section>

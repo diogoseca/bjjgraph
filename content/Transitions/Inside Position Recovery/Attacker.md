@@ -180,7 +180,7 @@ description: "How to execute Inside Position Recovery in BJJ. Attacking perspect
 
 As the person executing Inside Position Recovery, you are the bottom player caught in leg drag control who must systematically work to re-establish inside position before your opponent consolidates. Your task requires precise coordination of frames, hip movement, and leg extraction in a specific sequence that exploits transitional moments in your opponent's control. The escape depends on creating space through structural frames rather than muscular effort, then timing your leg extraction to the exact moment when your opponent shifts weight to advance. The distinguishing feature of this recovery compared to other leg drag escapes is the immediate establishment of butterfly hooks, which transitions you from pure defense to an offensive guard with sweep and submission threats. Understanding the biomechanics of the leg drag—specifically how your crossed leg acts as a fulcrum for opponent control—allows you to identify the precise angles and movements needed to extract your leg along the path of least resistance rather than fighting directly against their grip strength.
 
-**From Position**: [[Leg Drag Control]] (Bottom)
+**From Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ As the person executing Inside Position Recovery, you are the bottom player caug
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Butterfly Guard]] | 58% |
-| Failure | [[Leg Drag Control]] | 27% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Butterfly Guard]] | 58% |
+| Failure | [[Positions/Leg Drag Control]] | 27% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the person executing Inside Position Recovery, you are the bottom player caug
 
 ## Opponent Counters
 
-- **Opponent drives shoulder pressure forward to flatten you before leg extraction** (Effectiveness: High) - Your Response: Increase frame pressure and angle your body slightly toward them rather than away; if they commit weight forward, use their momentum to technical standup or granby roll → Leads to [[Leg Drag Control]]
-- **Opponent backsteps to maintain leg control when you create hip space** (Effectiveness: Medium) - Your Response: Follow their movement with your hips, continuing to extract leg; if they backstep significantly, their base is compromised and you can sweep or come to knees → Leads to [[Leg Drag Control]]
-- **Opponent releases leg drag to immediately take back as you move** (Effectiveness: High) - Your Response: If you feel them releasing for back take, abandon leg recovery and fight for underhook on the exposed side, turning into them rather than away → Leads to [[Side Control]]
-- **Opponent drops hips low to kill your hip escape space** (Effectiveness: Medium) - Your Response: Switch to pummel your inside knee through their hip control; low hips make them vulnerable to elevation sweeps if you can get underneath → Leads to [[Leg Drag Control]]
+- **Opponent drives shoulder pressure forward to flatten you before leg extraction** (Effectiveness: High) - Your Response: Increase frame pressure and angle your body slightly toward them rather than away; if they commit weight forward, use their momentum to technical standup or granby roll → Leads to [[Positions/Leg Drag Control]]
+- **Opponent backsteps to maintain leg control when you create hip space** (Effectiveness: Medium) - Your Response: Follow their movement with your hips, continuing to extract leg; if they backstep significantly, their base is compromised and you can sweep or come to knees → Leads to [[Positions/Leg Drag Control]]
+- **Opponent releases leg drag to immediately take back as you move** (Effectiveness: High) - Your Response: If you feel them releasing for back take, abandon leg recovery and fight for underhook on the exposed side, turning into them rather than away → Leads to [[Positions/Side Control]]
+- **Opponent drops hips low to kill your hip escape space** (Effectiveness: Medium) - Your Response: Switch to pummel your inside knee through their hip control; low hips make them vulnerable to elevation sweeps if you can get underneath → Leads to [[Positions/Leg Drag Control]]
 
 
 </section>

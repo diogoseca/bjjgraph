@@ -148,7 +148,7 @@ description: "Learn to defend and escape the Omoplata from Spider Guard. Recogni
 
 Defending the Omoplata from Spider Guard requires understanding both early prevention and late-stage escape mechanics. The most effective defense begins before the omoplata is fully established - recognizing the setup cues from spider guard and disrupting the entry before the attacker's leg clears your shoulder. Once the leg is over and the attacker begins sitting up, escape becomes significantly more difficult and the window for safe defense narrows rapidly. The defender must prioritize posture maintenance and grip fighting in spider guard to prevent the conditions that allow the omoplata entry. When caught in a developing omoplata, the forward roll is the highest-percentage escape but must be executed before the attacker secures hip control, or it will be blocked. Understanding the progression from early defense to emergency escape is critical for surviving this submission against skilled spider guard players.
 
-**Opponent's Starting Position**: [[Spider Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Spider Guard]] (Bottom)
 
 
 </section>
@@ -187,28 +187,28 @@ Defending the Omoplata from Spider Guard requires understanding both early preve
 ### 1. Posture aggressively and strip the sleeve grip before the leg swing initiates
 
 - **When to use**: Early stage - when you feel asymmetric pressure in spider guard but the leg has not yet begun swinging over your shoulder
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: Return to standard spider guard top position with opportunity to re-establish passing grips
 - **Risk**: Low - this is the safest defensive window and should be your primary response to omoplata setups
 
 ### 2. Forward roll escape - tuck chin and roll over the trapped shoulder before hip control is established
 
 - **When to use**: Mid-stage - the leg is over your shoulder and the attacker is beginning to sit up, but has not yet controlled your far hip
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Escape the omoplata entirely and potentially achieve a passing or scramble position
 - **Risk**: Medium - if the attacker has already secured hip control, the roll will be blocked and you will be in a worse position
 
 ### 3. Stack and drive weight forward to compress the attacker and create space for arm extraction
 
 - **When to use**: Mid to late stage - when the omoplata is partially established but the attacker has not yet flattened your torso completely
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: Extract your arm from the omoplata and recover to guard top position
 - **Risk**: Medium-high - if you cannot extract the arm, the stacking motion can actually accelerate the shoulder lock
 
 ### 4. Clasp hands together to prevent arm extension and buy time for escape
 
 - **When to use**: Late stage - omoplata is established and you need to delay the finish while working an escape
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: Prevents immediate tap and creates time window for other escape attempts or grip breaks
 - **Risk**: High - this is a stalling defense only, and skilled attackers will break the clasp through wrist locks or leverage
 
@@ -232,11 +232,11 @@ Defending the Omoplata from Spider Guard requires understanding both early preve
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Execute the forward roll escape before the attacker secures hip control, rolling over the trapped shoulder and using the momentum to establish a passing or scramble position
 
-### → [[Spider Guard]]
+### → [[Positions/Spider Guard]]
 
 Disrupt the entry early by posturing aggressively and stripping the sleeve grip before the leg clears the shoulder, returning to standard spider guard engagement
 

@@ -158,7 +158,7 @@ Defending the Short Choke requires early recognition and immediate action becaus
 
 The defensive hierarchy against the Short Choke prioritizes preventing lapel access first, disrupting the grip second, and creating positional escapes third. Unlike defending traditional collar chokes where you can fight grips at your own collar, the Short Choke often uses the attacker's own lapel, meaning you must control their hand movement and body positioning rather than simply stripping collar grips. Understanding that the attacker needs both hands engaged in the lapel while maintaining top pressure reveals the inherent tension in their position - exploiting moments when they compromise control to manipulate the lapel is the key to successful defense.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -196,28 +196,28 @@ The defensive hierarchy against the Short Choke prioritizes preventing lapel acc
 ### 1. Frame against attacker's chest and hip escape to recover half guard
 
 - **When to use**: Early phase when attacker releases hip control or crossface to reach for their lapel, creating a momentary gap in their control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover half guard or knee shield, completely negating the Short Choke threat and resetting to a guard position
 - **Risk**: If timed poorly, the frame may be too weak to prevent the attacker from re-consolidating and you waste energy without meaningful escape
 
 ### 2. Control attacker's feeding hand at the wrist to prevent lapel threading
 
 - **When to use**: When you feel the attacker's hand moving toward their lapel or beginning to thread fabric behind your neck
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Stalls the choke setup entirely, forcing attacker to either abandon the choke or fight for hand control, buying time for positional escape
 - **Risk**: Extending your arm to grip their wrist may expose your arm to Americana or Kimura if the attacker abandons the choke attempt and capitalizes
 
 ### 3. Bridge explosively and turn into attacker to disrupt lapel positioning
 
 - **When to use**: During or immediately after the attacker threads the lapel but before they remove all slack and establish the finishing grip
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Disrupts the lapel positioning, potentially loosens the material, and creates space for guard recovery or forces attacker to re-establish control
 - **Risk**: If the choke is already locked, bridging can tighten the lapel and accelerate the submission rather than disrupting it
 
 ### 4. Insert two hands inside the lapel loop and push outward to create space
 
 - **When to use**: When the lapel is already threaded but finishing pressure has not yet been fully applied
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Creates enough slack in the lapel to prevent effective carotid compression, buying time for positional escape
 - **Risk**: Both hands committed to fighting the lapel leaves you vulnerable to positional advancement to mount if the attacker changes strategy
 
@@ -240,11 +240,11 @@ The defensive hierarchy against the Short Choke prioritizes preventing lapel acc
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your hip escape to coincide with the attacker reaching for their lapel. As they lift their near hand off your hip to grab the gi material, immediately shrimp your hips away and insert your knee to establish half guard, completely negating the choke threat.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the attacker has both hands committed to lapel manipulation and their base is compromised, execute an explosive bridge toward the choking side. Their inability to post with their hands creates a reversal opportunity, especially if you can trap their near arm during the bridge.
 

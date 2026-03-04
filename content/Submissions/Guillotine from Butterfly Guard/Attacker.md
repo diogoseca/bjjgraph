@@ -188,7 +188,7 @@ description: "Learn to execute the guillotine choke from butterfly guard with pr
 
 Executing the guillotine from butterfly guard requires precise coordination between your upper body choking mechanics and your lower body hook control. The attack begins when your opponent drops their head, either from a failed takedown attempt, forward driving pressure to neutralize your hooks, or a deliberate snap-down that you initiate. Your ability to immediately secure a deep grip around the neck, lock your hands in the appropriate configuration, and engage your butterfly hooks to control the opponent's base determines whether you achieve a finish or merely delay the inevitable escape. The most critical element is understanding that the guillotine from butterfly guard is a full-body submission where your hips, hooks, and arms must work as a unified system to generate maximum choking pressure while preventing your opponent from creating the space or angle needed to defend.
 
-**From Position**: [[Butterfly Guard]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 
 </section>
@@ -243,9 +243,9 @@ Executing the guillotine from butterfly guard requires precise coordination betw
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Butterfly Guard]] | 25% |
-| Failure | [[Closed Guard]] | 20% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Butterfly Guard]] | 25% |
+| Failure | [[Positions/Closed Guard]] | 20% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -254,10 +254,10 @@ Executing the guillotine from butterfly guard requires precise coordination betw
 
 ## Opponent Defenses
 
-- **Opponent postures up explosively before grip is locked, creating distance and extracting head** (Effectiveness: High) - Your Response: Follow the posture-up with a hip bump sweep since their weight is shifting backward, or immediately re-snap the head down and reattempt the grip before they can fully establish posture → Leads to [[Butterfly Guard]]
-- **Opponent passes to the choking-arm side toward side control, threatening Von Flue choke** (Effectiveness: Medium) - Your Response: Release the guillotine grip before they complete the pass and immediately recover butterfly hooks or transition to closed guard. Never hold the guillotine against a completed pass to side control. → Leads to [[Side Control]]
-- **Opponent stacks and drives forward aggressively, pinning your shoulders to the mat** (Effectiveness: High) - Your Response: Close your guard to prevent the pass while maintaining the guillotine grip. Use the closed guard to control their posture and reattempt the finish with hip extension from closed guard position. → Leads to [[Closed Guard]]
-- **Opponent hand-fights to strip the choking grip by peeling fingers or breaking the grip lock** (Effectiveness: Medium) - Your Response: Squeeze elbows tighter and re-lock the grip immediately. If the grip breaks, transition to an arm drag or snap-down to re-establish head control rather than chasing the grip. → Leads to [[Butterfly Guard]]
+- **Opponent postures up explosively before grip is locked, creating distance and extracting head** (Effectiveness: High) - Your Response: Follow the posture-up with a hip bump sweep since their weight is shifting backward, or immediately re-snap the head down and reattempt the grip before they can fully establish posture → Leads to [[Positions/Butterfly Guard]]
+- **Opponent passes to the choking-arm side toward side control, threatening Von Flue choke** (Effectiveness: Medium) - Your Response: Release the guillotine grip before they complete the pass and immediately recover butterfly hooks or transition to closed guard. Never hold the guillotine against a completed pass to side control. → Leads to [[Positions/Side Control]]
+- **Opponent stacks and drives forward aggressively, pinning your shoulders to the mat** (Effectiveness: High) - Your Response: Close your guard to prevent the pass while maintaining the guillotine grip. Use the closed guard to control their posture and reattempt the finish with hip extension from closed guard position. → Leads to [[Positions/Closed Guard]]
+- **Opponent hand-fights to strip the choking grip by peeling fingers or breaking the grip lock** (Effectiveness: Medium) - Your Response: Squeeze elbows tighter and re-lock the grip immediately. If the grip breaks, transition to an arm drag or snap-down to re-establish head control rather than chasing the grip. → Leads to [[Positions/Butterfly Guard]]
 
 
 </section>

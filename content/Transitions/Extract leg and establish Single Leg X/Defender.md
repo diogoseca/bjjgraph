@@ -152,7 +152,7 @@ The critical defensive challenge is recognizing the extraction attempt early. On
 
 Advanced defensive strategy goes beyond simple retention. When the bottom player commits to extraction, the top player can use that commitment against them by transitioning to deeper leg entanglements. A failed extraction attempt that exposes the bottom player's knee line or creates new angles can be capitalized upon to advance to Saddle position, transforming the opponent's escape attempt into a worse positional outcome for them.
 
-**Opponent's Starting Position**: [[Leg Knot]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Knot]] (Bottom)
 
 </section>
 
@@ -189,21 +189,21 @@ Advanced defensive strategy goes beyond simple retention. When the bottom player
 ### 1. Drive forward with heavy hip pressure and sprawl to pin opponent's hips flat against the mat, eliminating rotation angles
 
 - **When to use**: When you detect early signs of hip rotation or free leg framing activity indicating extraction is being set up
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: Opponent's extraction attempt is stuffed, they remain in Leg Knot Bottom, and you can advance your own leg lock attacks
 - **Risk**: Over-committing forward may allow opponent to use your momentum for a Granby roll escape or 50-50 entry
 
 ### 2. Tighten leg crossing and immediately re-attack with submission as opponent begins extraction, forcing them to abandon escape to defend
 
 - **When to use**: When opponent's leg begins sliding through the entanglement and you feel control loosening despite your attempts to maintain it
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Opponent is forced back into defending submission threats and you advance to tighter Saddle configuration during their moment of vulnerability
 - **Risk**: If the submission attack is not credible, opponent completes extraction while you transition and establishes Single Leg X-Guard
 
 ### 3. Disengage your own leg and immediately sprawl to top passing position before opponent can establish Single Leg X-Guard hooks
 
 - **When to use**: When extraction is largely complete and opponent's leg is nearly free, making retention of the entanglement impractical
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: You escape the leg entanglement exchange entirely and achieve a top passing position where you dictate the engagement
 - **Risk**: If opponent is fast with hook establishment, your disengagement attempt feeds directly into their Single Leg X-Guard
 
@@ -215,11 +215,11 @@ Advanced defensive strategy goes beyond simple retention. When the bottom player
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Knot]]
+### → [[Positions/Leg Knot]]
 
 Maintain tight leg crossing with constant hip pressure to deny extraction angles. Overlap grip adjustments so there is never a window of loose control. Use your top leg to block opponent's free leg from framing. Pin their hips flat with forward drive whenever you detect rotation beginning.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 When opponent commits to extraction and creates rotation, capitalize on the movement by using their angle change to step through to a deeper entanglement. As their leg begins sliding free, their knee line becomes vulnerable—use this opening to cross your leg over and consolidate into Saddle position before they can complete the extraction and establish hooks.
 

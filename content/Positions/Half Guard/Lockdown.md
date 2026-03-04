@@ -89,31 +89,31 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 ### Available Transitions
 
 
-- **[[Whip-up Sweep]]** (26% of attempts)
+- **[[Transitions/Whip-up Sweep]]** (26% of attempts)
 
-- **[[Old School Sweep]]** (9% of attempts)
+- **[[Transitions/Old School Sweep]]** (9% of attempts)
 
-- **[[Electric Chair Transition]]** (11% of attempts)
+- **[[Transitions/Electric Chair Transition]]** (11% of attempts)
 
-- **[[Underhook Sweep from Half]]** (7% of attempts)
+- **[[Transitions/Underhook Sweep from Half]]** (7% of attempts)
 
-- **[[Rolling Back Take]]** (7% of attempts)
+- **[[Transitions/Rolling Back Take]]** (7% of attempts)
 
-- **[[Roll to Truck]]** (8% of attempts)
+- **[[Transitions/Roll to Truck]]** (8% of attempts)
 
-- **[[Deep Half Entry]]** (9% of attempts)
+- **[[Transitions/Deep Half Entry]]** (9% of attempts)
 
-- **[[Kimura]]** (4% of attempts)
+- **[[Transitions/Kimura]]** (4% of attempts)
 
-- **[[Lockdown Recovery]]** (4% of attempts)
+- **[[Transitions/Lockdown Recovery]]** (4% of attempts)
 
-- **[[Lockdown to Vaporizer]]** (3% of attempts)
+- **[[Transitions/Lockdown to Vaporizer]]** (3% of attempts)
 
-- **[[Half Guard to Old School]]** (6% of attempts)
+- **[[Transitions/Half Guard to Old School]]** (6% of attempts)
 
-- **[[Back Take from Lockdown Defense]]** (4% of attempts)
+- **[[Transitions/Back Take from Lockdown Defense]]** (4% of attempts)
 
-- **[[Crotch Ripper]]** (2% of attempts)
+- **[[Submissions/Crotch Ripper]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -174,25 +174,25 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 ### Available Transitions
 
 
-- **[[Half Guard Pass]]** (6% of attempts)
+- **[[Transitions/Half Guard Pass]]** (6% of attempts)
 
-- **[[Knee Slice from Half]]** (9% of attempts)
+- **[[Transitions/Knee Slice from Half]]** (9% of attempts)
 
-- **[[Smash Pass]]** (8% of attempts)
+- **[[Transitions/Smash Pass]]** (8% of attempts)
 
-- **[[Underhook Pass]]** (8% of attempts)
+- **[[Transitions/Underhook Pass]]** (8% of attempts)
 
-- **[[Crossface Pass]]** (9% of attempts)
+- **[[Transitions/Crossface Pass]]** (9% of attempts)
 
-- **[[Leg Extraction to Combat Base]]** (37% of attempts)
+- **[[Transitions/Leg Extraction to Combat Base]]** (37% of attempts)
 
-- **[[Lockdown to Z-Lock Half Guard]]** (9% of attempts)
+- **[[Transitions/Lockdown to Z-Lock Half Guard]]** (9% of attempts)
 
-- **[[Lockdown Break and Pass]]** (10% of attempts)
+- **[[Transitions/Lockdown Break and Pass]]** (10% of attempts)
 
-- **[[Darce from Lockdown Counter]]** (3% of attempts)
+- **[[Transitions/Darce from Lockdown Counter]]** (3% of attempts)
 
-- **[[Lockdown Whizzer Pass]]** (1% of attempts)
+- **[[Transitions/Lockdown Whizzer Pass]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -231,21 +231,21 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 ## Related Positions
 
 
-- **[[Half Guard]]** - Parent position - traditional half guard without lockdown mechanism
+- **[[Positions/Half Guard]]** - Parent position - traditional half guard without lockdown mechanism
 
-- **[[Deep Half Guard]]** - Alternative half guard variation - complementary attacking system
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative half guard variation - complementary attacking system
 
-- **[[Knee Shield Half Guard]]** - Alternative half guard structure - different defensive framework
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Alternative half guard structure - different defensive framework
 
-- **[[Electric Chair]]** - Primary submission target - signature lockdown attack
+- **[[Positions/Half Guard/Electric Chair]]** - Primary submission target - signature lockdown attack
 
-- **[[Dogfight Position]]** - Common transition via whip-up - scramble position leading to sweeps
+- **[[Positions/Dogfight Position]]** - Common transition via whip-up - scramble position leading to sweeps
 
-- **[[Truck]]** - Advanced transition target - leads to twister and back attacks
+- **[[Positions/Twister Control/Truck]]** - Advanced transition target - leads to twister and back attacks
 
-- **[[Back Control]]** - Ultimate position goal - accessible via multiple lockdown paths
+- **[[Positions/Back Control]]** - Ultimate position goal - accessible via multiple lockdown paths
 
-- **[[Butterfly Half Guard]]** - Related half guard variation - combines butterfly hook with half guard
+- **[[Positions/Half Guard/Butterfly Half Guard]]** - Related half guard variation - combines butterfly hook with half guard
 
 
 </section>

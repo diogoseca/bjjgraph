@@ -184,7 +184,7 @@ The escape works because the buggy choke's power comes from the threading arm wr
 
 Strategically, Turn In and Face is the preferred escape when the defender still has sufficient posture and mobility to execute a rotation. It creates direct pathways to open guard, closed guard, or half guard depending on how the attacker reacts. Compared to alternatives like granby rolls or sitting to half guard, this escape keeps the defender facing the opponent from the outset, reducing the risk of exposing the back during the escape sequence. For practitioners who play guard-centric games, this transition provides the most direct route back to their preferred positions.
 
-**From Position**: [[Buggy Choke]] (Bottom)
+**From Position**: [[Positions/Buggy Choke]] (Bottom)
 
 </section>
 
@@ -236,10 +236,10 @@ Strategically, Turn In and Face is the preferred escape when the defender still 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Success | [[Closed Guard]] | 15% |
-| Failure | [[Buggy Choke]] | 20% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Success | [[Positions/Closed Guard]] | 15% |
+| Failure | [[Positions/Buggy Choke]] | 20% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ Strategically, Turn In and Face is the preferred escape when the defender still 
 
 ## Opponent Counters
 
-- **Opponent follows the rotation and immediately attacks with a front headlock or guillotine as the defender turns to face them** (Effectiveness: High) - Your Response: Keep chin tucked and hands fighting inside during the turn. Establish inside collar tie or underhook immediately upon facing to prevent head control. If guillotine is locked, use standard guillotine defense by posturing up and circling to the choke side → Leads to [[Buggy Choke]]
-- **Opponent releases the buggy choke grips during the turn and immediately transitions to back control by inserting hooks as the defender rotates** (Effectiveness: High) - Your Response: Commit fully to the rotation speed so the turn completes before hooks can be inserted. If hooks begin entering, continue the turn past facing into a seated guard position and immediately begin back escape protocols by fighting the bottom hook first → Leads to [[Back Control]]
-- **Opponent drives heavy chest pressure during the rotation to flatten the defender before the turn completes, maintaining side control** (Effectiveness: Medium) - Your Response: Use the posted far arm as a strong frame during rotation. If flattened mid-turn, switch to a hip escape toward the opponent to continue creating the facing angle from a flattened position rather than abandoning the turn attempt → Leads to [[Buggy Choke]]
-- **Opponent anticipates the turn and switches to an arm-in guillotine grip as the defender's head comes around to face them** (Effectiveness: Medium) - Your Response: Swim the near arm to an underhook position during the turn to block guillotine access. If the guillotine is partially established, immediately pass to the choke side and apply shoulder pressure to strip the grip before it locks → Leads to [[Buggy Choke]]
+- **Opponent follows the rotation and immediately attacks with a front headlock or guillotine as the defender turns to face them** (Effectiveness: High) - Your Response: Keep chin tucked and hands fighting inside during the turn. Establish inside collar tie or underhook immediately upon facing to prevent head control. If guillotine is locked, use standard guillotine defense by posturing up and circling to the choke side → Leads to [[Positions/Buggy Choke]]
+- **Opponent releases the buggy choke grips during the turn and immediately transitions to back control by inserting hooks as the defender rotates** (Effectiveness: High) - Your Response: Commit fully to the rotation speed so the turn completes before hooks can be inserted. If hooks begin entering, continue the turn past facing into a seated guard position and immediately begin back escape protocols by fighting the bottom hook first → Leads to [[Positions/Back Control]]
+- **Opponent drives heavy chest pressure during the rotation to flatten the defender before the turn completes, maintaining side control** (Effectiveness: Medium) - Your Response: Use the posted far arm as a strong frame during rotation. If flattened mid-turn, switch to a hip escape toward the opponent to continue creating the facing angle from a flattened position rather than abandoning the turn attempt → Leads to [[Positions/Buggy Choke]]
+- **Opponent anticipates the turn and switches to an arm-in guillotine grip as the defender's head comes around to face them** (Effectiveness: Medium) - Your Response: Swim the near arm to an underhook position during the turn to block guillotine access. If the guillotine is partially established, immediately pass to the choke side and apply shoulder pressure to strip the grip before it locks → Leads to [[Positions/Buggy Choke]]
 
 
 </section>

@@ -154,7 +154,7 @@ description: "Master defending against the New York Control Escape. Maintain rub
 
 Defending against the New York Control Escape requires the bottom player to recognize escape patterns early and respond with targeted counter-techniques that either restore full control or transition to advantageous positions. The defender's primary objective is to prevent overhook extraction, as the overhook constitutes the structural foundation of New York Control's submission system. When extraction cannot be prevented, the defender must immediately transition to alternative attacks or sweep attempts that punish the escape attempt rather than allowing free position advancement. Understanding the escape's sequential nature allows the defender to identify which phase the top player is in and apply the appropriate counter at each stage, transforming defensive retention into offensive opportunity.
 
-**Opponent's Starting Position**: [[New York Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/New York Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against the New York Control Escape requires the bottom player to reco
 ### 1. Deepen overhook by driving arm further under opponent's armpit and clasping shoulder or own leg
 
 - **When to use**: As soon as you feel the opponent's shoulder beginning to rotate forward or their elbow pulling toward their hip
-- **Targets**: [[New York Control]]
+- **Targets**: [[Positions/Rubber Guard/New York Control]]
 - **If successful**: Opponent's extraction attempt is nullified and you maintain full control with opportunity to transition to submissions
 - **Risk**: Overcommitting to the overhook can expose your back if the opponent suddenly changes angle and attempts to circle behind
 
 ### 2. Initiate triangle setup by shooting leg around opponent's neck as their arm begins to separate from your overhook
 
 - **When to use**: When the opponent's arm partially clears the overhook and creates space between their elbow and ribs during extraction
-- **Targets**: [[New York Control]]
+- **Targets**: [[Positions/Rubber Guard/New York Control]]
 - **If successful**: Opponent must abandon escape to defend triangle, resetting to New York Control or advancing to triangle control
 - **Risk**: If the triangle angle is poor, the opponent may use the leg transition to clear your control entirely
 
 ### 3. Execute hip bump sweep during opponent's lateral weight shift when their base is transitionally compromised
 
 - **When to use**: When the top player shifts weight laterally for angle creation and temporarily has their center of gravity off-center
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent is swept and you achieve top position, converting their escape attempt into a positional reversal
 - **Risk**: Failed sweep attempt may accelerate their escape by creating additional space and breaking your leg control structure
 
 ### 4. Transition to Mission Control or Crackhead Control as the overhook begins failing
 
 - **When to use**: When you recognize the overhook is compromised beyond recovery but your leg wrap still controls their posture
-- **Targets**: [[New York Control]]
+- **Targets**: [[Positions/Rubber Guard/New York Control]]
 - **If successful**: You maintain guard control through an alternative rubber guard position without conceding escape to open guard
 - **Risk**: Transition requires releasing the failing overhook, which momentarily reduces control and may allow leg extraction if not executed smoothly
 
@@ -225,11 +225,11 @@ Defending against the New York Control Escape requires the bottom player to reco
 
 ## Best-Case Outcomes for Defender
 
-### → [[New York Control]]
+### → [[Positions/Rubber Guard/New York Control]]
 
 Immediately deepen overhook control when you feel the opponent's shoulder rotate or elbow pull toward hip. Keep active leg pressure across their back and threaten submissions to force them to abandon escape attempts and return to defensive positioning.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a hip bump sweep to coincide with the opponent's lateral weight shift during angle creation. When their center of gravity moves off-center, drive your hip upward while pulling with the overhook to topple their compromised base. Follow through to establish top half guard position.
 

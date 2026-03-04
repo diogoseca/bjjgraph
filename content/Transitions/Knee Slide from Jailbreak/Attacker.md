@@ -186,7 +186,7 @@ description: "Execute the Knee Slide from Jailbreak pass in BJJ. Step-by-step gu
 
 From the attacker's perspective, the Knee Slide from Jailbreak capitalizes on the momentary vulnerability created when the bottom player's legs are extended away from their torso in the Jailbreak configuration. The passer must read the leg extension, maintain heavy upper body control through crossface or collar tie, and drive the knee diagonally across the thigh line before the bottom player can retract and re-establish defensive frames. Success requires combining precise timing with committed forward pressure, as the passing window is brief and half-measures result in the bottom player recovering half guard or worse.
 
-**From Position**: [[Jailbreak]] (Top)
+**From Position**: [[Positions/Jailbreak]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ From the attacker's perspective, the Knee Slide from Jailbreak capitalizes on th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ From the attacker's perspective, the Knee Slide from Jailbreak capitalizes on th
 
 ## Opponent Counters
 
-- **Bottom player retracts legs and re-establishes knee shield before knee slide completes** (Effectiveness: High) - Your Response: Recognize the retraction early and switch to a smash pass by driving your shoulder pressure forward and collapsing the knee shield, or transition to headquarters position to re-read the passing options → Leads to [[Half Guard]]
-- **Bottom player secures underhook and sits up into dogfight position during the slide** (Effectiveness: Medium) - Your Response: Apply immediate whizzer on the underhooking arm and drive your weight forward to reflatten them, or if they are already elevated, switch to circling toward their back to exploit the exposed position → Leads to [[Half Guard]]
-- **Bottom player hip escapes underneath to enter deep half guard before the slide clears** (Effectiveness: Medium) - Your Response: Sprawl your hips back and post your free hand on the mat to prevent being swept. Reestablish crossface and work a deep half guard passing sequence, or use a backstep to free your trapped leg → Leads to [[Half Guard]]
-- **Bottom player bridges and rolls during the knee slide transition to reverse position** (Effectiveness: Low) - Your Response: Maintain heavy crossface and low center of gravity throughout the slide. If the bridge catches you off-balance, post with your free hand and drive your weight back to center. The crossface should prevent any effective bridging direction → Leads to [[Half Guard]]
+- **Bottom player retracts legs and re-establishes knee shield before knee slide completes** (Effectiveness: High) - Your Response: Recognize the retraction early and switch to a smash pass by driving your shoulder pressure forward and collapsing the knee shield, or transition to headquarters position to re-read the passing options → Leads to [[Positions/Half Guard]]
+- **Bottom player secures underhook and sits up into dogfight position during the slide** (Effectiveness: Medium) - Your Response: Apply immediate whizzer on the underhooking arm and drive your weight forward to reflatten them, or if they are already elevated, switch to circling toward their back to exploit the exposed position → Leads to [[Positions/Half Guard]]
+- **Bottom player hip escapes underneath to enter deep half guard before the slide clears** (Effectiveness: Medium) - Your Response: Sprawl your hips back and post your free hand on the mat to prevent being swept. Reestablish crossface and work a deep half guard passing sequence, or use a backstep to free your trapped leg → Leads to [[Positions/Half Guard]]
+- **Bottom player bridges and rolls during the knee slide transition to reverse position** (Effectiveness: Low) - Your Response: Maintain heavy crossface and low center of gravity throughout the slide. If the bridge catches you off-balance, post with your free hand and drive your weight back to center. The crossface should prevent any effective bridging direction → Leads to [[Positions/Half Guard]]
 
 
 </section>

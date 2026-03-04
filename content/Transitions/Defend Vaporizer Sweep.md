@@ -21,7 +21,7 @@ The defense operates on the principle of base management and pressure redistribu
 
 Successful execution requires reading the bottom player's specific sweep attempt and applying the appropriate counter at the right moment. Against the Old School sweep, the defender must prevent the posted foot from generating leverage. Against rolling attacks toward the Truck, the defender must control hip rotation. This situational awareness, combined with methodical lockdown clearing technique, transforms a desperate defensive scramble into a systematic positional recovery that feeds directly into standard half guard passing sequences.
 
-**From Position**: [[Vaporizer]] (Top)
+**From Position**: [[Positions/Vaporizer]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Successful execution requires reading the bottom player's specific sweep attempt
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Vaporizer]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Vaporizer]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -191,21 +191,21 @@ The Defend Vaporizer Sweep transition is essential for any practitioner regularl
 ## Related Techniques
 
 
-- [[Vaporizer]] - Source position where this defensive transition is executed from top
+- [[Positions/Vaporizer]] - Source position where this defensive transition is executed from top
 
-- [[Half Guard]] - Primary target position after successful sweep defense and lockdown extraction
+- [[Positions/Half Guard]] - Primary target position after successful sweep defense and lockdown extraction
 
-- [[Lockdown]] - Control mechanism that must be neutralized during the defensive sequence
+- [[Positions/Half Guard/Lockdown]] - Control mechanism that must be neutralized during the defensive sequence
 
-- [[Electric Chair]] - Submission threat the bottom player may transition to when sweep defense creates openings
+- [[Positions/Half Guard/Electric Chair]] - Submission threat the bottom player may transition to when sweep defense creates openings
 
-- [[Old School]] - Primary sweep position the bottom player attacks from within the Vaporizer
+- [[Positions/Half Guard/Old School]] - Primary sweep position the bottom player attacks from within the Vaporizer
 
-- [[Combat Base]] - Intermediate stability position used during defensive recovery and passing transitions
+- [[Positions/Combat Base]] - Intermediate stability position used during defensive recovery and passing transitions
 
-- [[Side Control]] - Advanced target position if defense leads to successful half guard pass completion
+- [[Positions/Side Control]] - Advanced target position if defense leads to successful half guard pass completion
 
-- [[Old School Sweep]] - Primary sweep technique being defended against from the Vaporizer bottom
+- [[Transitions/Old School Sweep]] - Primary sweep technique being defended against from the Vaporizer bottom
 
 
 </section>

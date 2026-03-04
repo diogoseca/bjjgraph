@@ -21,7 +21,7 @@ The technique operates on the principle that the gogoplata is a self-contained s
 
 Strategically, this escape works best when the gogoplata is not fully locked. The window for this technique opens when the opponent is still working to secure their foot behind your head or when their grip on their own foot is loose. Practitioners must develop sensitivity to recognize when hand fighting is viable versus when emergency escapes are necessary. The technique demands precise timing and methodical execution rather than explosive movement, making it particularly effective for technically proficient defenders who remain calm under submission pressure.
 
-**From Position**: [[Gogoplata Control]] (Top)
+**From Position**: [[Positions/Gogoplata Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, this escape works best when the gogoplata is not fully locked. Th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Gogoplata Control]] | 25% |
-| Counter | [[Triangle Control]] | 10% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Gogoplata Control]] | 25% |
+| Counter | [[Positions/Triangle Control]] | 10% |
 
 
 </section>
@@ -192,25 +192,25 @@ Hand Control to Extract occupies a specific niche in the gogoplata defense hiera
 ## Related Techniques
 
 
-- [[Gogoplata Control]] - Starting position - the submission control you are escaping from
+- [[Positions/Gogoplata Control]] - Starting position - the submission control you are escaping from
 
-- [[Rubber Guard]] - Parent control system from which gogoplata develops
+- [[Positions/Rubber Guard]] - Parent control system from which gogoplata develops
 
-- [[Mission Control]] - Rubber guard variation that precedes gogoplata setup
+- [[Positions/Rubber Guard/Mission Control]] - Rubber guard variation that precedes gogoplata setup
 
-- [[Closed Guard]] - Primary escape destination after successful extraction
+- [[Positions/Closed Guard]] - Primary escape destination after successful extraction
 
-- [[Half Guard]] - Alternative escape destination depending on hip position
+- [[Positions/Half Guard]] - Alternative escape destination depending on hip position
 
-- [[Triangle Control]] - Potential counter if defender's escape creates triangle opportunity
+- [[Positions/Triangle Control]] - Potential counter if defender's escape creates triangle opportunity
 
-- [[Omoplata Control]] - Related position defender must avoid during lateral extraction
+- [[Positions/Omoplata Control]] - Related position defender must avoid during lateral extraction
 
-- [[Gogoplata]] - The submission being defended against
+- [[Transitions/Gogoplata]] - The submission being defended against
 
-- [[Angle Change Escape]] - Alternative escape technique from same position
+- [[Transitions/Angle Change Escape]] - Alternative escape technique from same position
 
-- [[Head Extraction to Posture]] - Complementary extraction technique addressing different phase of escape
+- [[Transitions/Head Extraction to Posture]] - Complementary extraction technique addressing different phase of escape
 
 
 </section>

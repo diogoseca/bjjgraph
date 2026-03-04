@@ -180,7 +180,7 @@ description: "How to execute Turtle to Back Control in BJJ. Attacking perspectiv
 
 The Turtle to Back Control transition is a fundamental back-taking sequence that exploits the defensive turtle position's inherent vulnerability: back exposure. When an opponent assumes turtle to protect against pins or submissions, they surrender rear access, creating a high-percentage opportunity for the most dominant position in BJJ. This transition involves systematically breaking down the turtle structure through strategic grip placement, hip control, and body positioning to achieve full back control. The key to successful execution lies in understanding the top-down control progression: seatbelt first, hip block second, hooks last. Rushing any step dramatically reduces success rate. This technique forms the cornerstone of effective top turtle work and is essential for competitors at all levels, offering direct pathways to both dominant positioning and submission attacks from the back.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The Turtle to Back Control transition is a fundamental back-taking sequence that
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 60% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Back Control]] | 60% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -245,11 +245,11 @@ The Turtle to Back Control transition is a fundamental back-taking sequence that
 
 ## Opponent Counters
 
-- **Opponent sits back to guard before hooks are established** (Effectiveness: High) - Your Response: Immediately transition to front headlock position or follow them to closed guard while maintaining upper body control. If they sit explosively, use their backward momentum to establish front headlock and threaten guillotine or anaconda choke. Your near-hip knee block should prevent this entirely if properly positioned. → Leads to [[Turtle]]
-- **Opponent executes granby roll toward your grip side** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining seatbelt grip, transitioning to truck position or continuing rotation to complete back take from new angle. Your hip control with the knee block is critical to shut down this counter. If your knee is properly blocking their hip, this counter becomes very low percentage. Stay heavy and connected throughout their rotation. → Leads to [[Turtle]]
-- **Opponent drives forward and stands up before control is established** (Effectiveness: Medium) - Your Response: Maintain seatbelt grip and allow them to carry your weight upward rather than fighting their standing motion. Immediately work to insert hooks while standing or transition to body lock position for a mat return to standing back control. Your chest pressure must be heavy enough to make standing difficult. If they do stand, you have standing back control which is still highly advantageous. → Leads to [[Turtle]]
-- **Opponent turns into you and establishes underhook** (Effectiveness: Low) - Your Response: Switch to front headlock or darce/anaconda position depending on their head position relative to your body. If they turn aggressively, use their momentum to establish front headlock series and threaten choke or back take from the new angle. Their turn actually exposes the neck more than the back take attempt did. → Leads to [[Turtle]]
-- **Opponent posts hand and creates space to escape hips** (Effectiveness: Medium) - Your Response: Attack the posting arm immediately with kimura grip or arm crush pressure. Use their posted arm as an anchor point to prevent escape while you re-establish hip control. Consider transitioning to crucifix if you can trap their posting arm between your legs. The extended arm is a defensive error that opens multiple attacks. → Leads to [[Turtle]]
+- **Opponent sits back to guard before hooks are established** (Effectiveness: High) - Your Response: Immediately transition to front headlock position or follow them to closed guard while maintaining upper body control. If they sit explosively, use their backward momentum to establish front headlock and threaten guillotine or anaconda choke. Your near-hip knee block should prevent this entirely if properly positioned. → Leads to [[Positions/Turtle]]
+- **Opponent executes granby roll toward your grip side** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining seatbelt grip, transitioning to truck position or continuing rotation to complete back take from new angle. Your hip control with the knee block is critical to shut down this counter. If your knee is properly blocking their hip, this counter becomes very low percentage. Stay heavy and connected throughout their rotation. → Leads to [[Positions/Turtle]]
+- **Opponent drives forward and stands up before control is established** (Effectiveness: Medium) - Your Response: Maintain seatbelt grip and allow them to carry your weight upward rather than fighting their standing motion. Immediately work to insert hooks while standing or transition to body lock position for a mat return to standing back control. Your chest pressure must be heavy enough to make standing difficult. If they do stand, you have standing back control which is still highly advantageous. → Leads to [[Positions/Turtle]]
+- **Opponent turns into you and establishes underhook** (Effectiveness: Low) - Your Response: Switch to front headlock or darce/anaconda position depending on their head position relative to your body. If they turn aggressively, use their momentum to establish front headlock series and threaten choke or back take from the new angle. Their turn actually exposes the neck more than the back take attempt did. → Leads to [[Positions/Turtle]]
+- **Opponent posts hand and creates space to escape hips** (Effectiveness: Medium) - Your Response: Attack the posting arm immediately with kimura grip or arm crush pressure. Use their posted arm as an anchor point to prevent escape while you re-establish hip control. Consider transitioning to crucifix if you can trap their posting arm between your legs. The extended arm is a defensive error that opens multiple attacks. → Leads to [[Positions/Turtle]]
 
 
 </section>

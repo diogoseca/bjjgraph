@@ -180,7 +180,7 @@ description: "How to establish overhook guard from closed guard bottom in BJJ. S
 
 As the attacker (bottom guard player), your objective is to capture one of the opponent's arms with a deep overhook and convert your standard closed guard into an overhook guard. This grip change removes one of their posting hands, breaks their structural base, and creates immediate access to sweeps, back takes, and submissions. The transition requires reading the opponent's arm positioning, timing the overhook entry to their committed movement, and immediately consolidating control before they can retract. Success depends on breaking posture first to bring their arm within range, securing the overhook deep on the lat rather than shallow on the tricep, and establishing secondary control on the opposite side to prevent defensive recovery.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker (bottom guard player), your objective is to capture one of the o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Overhook Guard]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Overhook Guard]] | 60% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker (bottom guard player), your objective is to capture one of the o
 
 ## Opponent Counters
 
-- **Opponent postures up forcefully and strips the overhook by driving elbow to hip and spiraling arm free** (Effectiveness: High) - Your Response: Follow their posture by sitting up with them and converting to a hip bump sweep using their elevated posture. If overhook is stripped, immediately transition to collar-sleeve or wrist control to maintain offensive initiative rather than resetting to neutral closed guard. → Leads to [[Closed Guard]]
-- **Opponent drives forward and stacks, using their weight to compress you and create passing pressure through the overhook side** (Effectiveness: Medium) - Your Response: Use the stacking momentum to load your hips and pivot toward omoplata or triangle. Their forward drive actually assists your hip rotation. Frame with your free hand on their shoulder to manage distance while transitioning your legs into the submission position. → Leads to [[Overhook Guard]]
-- **Opponent pulls trapped arm sharply backward while simultaneously standing to create distance and break guard** (Effectiveness: High) - Your Response: If the arm extracts, immediately transition to feet-on-hips open guard and establish sleeve or collar control. Use the standing motion to set up lumberjack sweep or transition to De La Riva guard. Do not chase the lost overhook from a flat position. → Leads to [[Open Guard]]
-- **Opponent keeps elbow extremely tight to their body and refuses to extend arm inside the guard, denying overhook access** (Effectiveness: Medium) - Your Response: Use collar drags or arm drags on their retracted arm to force it forward. Alternatively, attack the opposite arm with kimura or wrist control to create a reaction that opens the overhook side. A strong collar pull combined with heel pressure often forces at least one arm forward as they post to prevent face-planting. → Leads to [[Closed Guard]]
+- **Opponent postures up forcefully and strips the overhook by driving elbow to hip and spiraling arm free** (Effectiveness: High) - Your Response: Follow their posture by sitting up with them and converting to a hip bump sweep using their elevated posture. If overhook is stripped, immediately transition to collar-sleeve or wrist control to maintain offensive initiative rather than resetting to neutral closed guard. → Leads to [[Positions/Closed Guard]]
+- **Opponent drives forward and stacks, using their weight to compress you and create passing pressure through the overhook side** (Effectiveness: Medium) - Your Response: Use the stacking momentum to load your hips and pivot toward omoplata or triangle. Their forward drive actually assists your hip rotation. Frame with your free hand on their shoulder to manage distance while transitioning your legs into the submission position. → Leads to [[Positions/Overhook Guard]]
+- **Opponent pulls trapped arm sharply backward while simultaneously standing to create distance and break guard** (Effectiveness: High) - Your Response: If the arm extracts, immediately transition to feet-on-hips open guard and establish sleeve or collar control. Use the standing motion to set up lumberjack sweep or transition to De La Riva guard. Do not chase the lost overhook from a flat position. → Leads to [[Positions/Open Guard]]
+- **Opponent keeps elbow extremely tight to their body and refuses to extend arm inside the guard, denying overhook access** (Effectiveness: Medium) - Your Response: Use collar drags or arm drags on their retracted arm to force it forward. Alternatively, attack the opposite arm with kimura or wrist control to create a reaction that opens the overhook side. A strong collar pull combined with heel pressure often forces at least one arm forward as they post to prevent face-planting. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

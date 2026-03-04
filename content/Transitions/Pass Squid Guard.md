@@ -21,7 +21,7 @@ The passing strategy centers on a three-phase approach: first establishing stabl
 
 This pass integrates into the broader guard passing system as a specialized response to modern lapel-based guards. The principles of posture maintenance, grip stripping, and systematic entanglement clearing transfer directly to passing other lapel guards such as Worm Guard and Lapel Guard. Success requires patience and technical precision rather than explosive athleticism, making it particularly effective for methodical passers who prefer systematic approaches over speed-based passing.
 
-**From Position**: [[Squid Guard]] (Top)
+**From Position**: [[Positions/Squid Guard]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,10 +32,10 @@ This pass integrates into the broader guard passing system as a specialized resp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Squid Guard]] | 25% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Side Control]] | 45% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Squid Guard]] | 25% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -198,25 +198,25 @@ Pass Squid Guard sits within the modern lapel guard passing system alongside Wor
 ## Related Techniques
 
 
-- [[Squid Guard]] - Source position being passed
+- [[Positions/Squid Guard]] - Source position being passed
 
-- [[Side Control]] - Primary target position on successful pass
+- [[Positions/Side Control]] - Primary target position on successful pass
 
-- [[De La Riva Guard]] - Parent guard system sharing hook mechanics with Squid Guard
+- [[Positions/De La Riva Guard]] - Parent guard system sharing hook mechanics with Squid Guard
 
-- [[Lapel Guard]] - Related lapel-based guard requiring similar passing approach
+- [[Positions/Lapel Guard]] - Related lapel-based guard requiring similar passing approach
 
-- [[Lasso Guard]] - Similar entanglement guard with transferable passing principles
+- [[Positions/Lasso Guard]] - Similar entanglement guard with transferable passing principles
 
-- [[Headquarters Position]] - Intermediate passing position often reached during Squid Guard clearing
+- [[Positions/Headquarters Position]] - Intermediate passing position often reached during Squid Guard clearing
 
-- [[Half Guard]] - Common intermediate outcome when pass partially completes
+- [[Positions/Half Guard]] - Common intermediate outcome when pass partially completes
 
-- [[Back Control]] - Counter threat if bottom player inverts during pass attempt
+- [[Positions/Back Control]] - Counter threat if bottom player inverts during pass attempt
 
-- [[Spider Guard]] - Related open guard the bottom player may transition to if lapel is cleared
+- [[Positions/Spider Guard]] - Related open guard the bottom player may transition to if lapel is cleared
 
-- [[Backstep from De La Riva]] - Related passing technique sharing backstep mechanics
+- [[Transitions/Backstep from De La Riva]] - Related passing technique sharing backstep mechanics
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Defend against the Rubber Guard to Closed Guard transition from th
 
 As the top player defending against the Rubber Guard to Closed Guard transition, you face a brief but critical window of opportunity when your opponent begins repositioning their elevated leg. During this transition, the bottom player's control temporarily weakens as they shift from the specialized rubber guard configuration to the more fundamental closed guard lock. Your objective is to recognize this transition as it begins and capitalize on the reduced control to either recover full posture, strip the replacement grips, or prevent the ankle crossing that establishes closed guard. The transition window is narrow—typically lasting only two to three seconds—but it represents the best escape opportunity you may get while trapped in the bottom player's guard system. Failing to exploit this window means you face a fresh closed guard with a well-prepared opponent who has already planned their next attack sequence.
 
-**Opponent's Starting Position**: [[Rubber Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ As the top player defending against the Rubber Guard to Closed Guard transition,
 ### 1. Explosive posture recovery the moment the elevated leg begins to slide, driving your head and chest upward while pushing off the opponent's hips
 
 - **When to use**: The instant you feel the elevated leg begin to move downward from its high position and the rubber guard foot grip is released
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You recover full posture before the opponent can cross ankles, converting the position to open guard where you have passing opportunities and initiative
 - **Risk**: If timed poorly or the bottom player maintains strong collar grips, you may expend energy without escaping and face an established closed guard with compromised energy reserves
 
 ### 2. Strip the replacement collar and head grips before they are fully established, using two-on-one grip breaks and arm positioning
 
 - **When to use**: When you detect the bottom player's hands shifting from rubber guard grips to collar or head control during the early phase of the transition
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Without replacement grips, the bottom player cannot maintain posture control during the leg transition, making the closed guard establishment significantly weaker and easier to open immediately
 - **Risk**: Focusing on grip fighting may distract from the posture recovery opportunity, and if the bottom player completes the ankle lock despite losing grips, you face closed guard without dominant grips yourself
 
 ### 3. Drive forward with controlled stack pressure to pin the elevated leg in its high position and prevent the downward slide
 
 - **When to use**: When the bottom player initiates the transition but has not yet released the rubber guard foot grip, trapping them between positions
-- **Targets**: [[Rubber Guard]]
+- **Targets**: [[Positions/Rubber Guard]]
 - **If successful**: The bottom player remains stuck in a deteriorating rubber guard position where their attacks have already stalled, buying you time to develop your own escape strategy
 - **Risk**: Forward pressure can be redirected into sweep opportunities or omoplata setups if the bottom player is experienced in using opponent momentum against them
 
 ### 4. Post one leg back and drive hips away to create maximum separation during the ankle-crossing phase
 
 - **When to use**: When the bottom player's leg has reached waist level and they are attempting to hook and cross ankles behind your back
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You create enough hip separation to prevent the ankle crossing, leaving the bottom player with uncrossed legs and an open guard that is immediately passable
 - **Risk**: If the bottom player has strong collar control, driving hips back without addressing grips may result in being pulled forward by the collar grip into a worse position
 
@@ -216,7 +216,7 @@ As the top player defending against the Rubber Guard to Closed Guard transition,
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Capitalize on the transition window by aggressively recovering posture the moment the elevated leg begins to slide downward. Simultaneously strip or fight the replacement grips while the bottom player's attention is divided between managing the leg transition and maintaining grip control. Drive hips backward and create distance before ankles can be crossed. The key is committing fully and immediately rather than waiting to see what the bottom player does—every fraction of a second of hesitation reduces your escape probability.
 

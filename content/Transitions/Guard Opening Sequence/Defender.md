@@ -160,7 +160,7 @@ description: "How to defend against guard opening in BJJ. Recognition cues, guar
 
 As the defender against the Guard Opening Sequence, you are the closed guard bottom player working to maintain your guard, break the opponent's posture, and either retain closed guard or capitalize on the opening attempt with sweeps and submissions. Your closed guard is an offensive position - the opponent is trying to escape your control, and your job is to make that escape as difficult and dangerous as possible. Effective defense combines proactive posture breaking to prevent the opening sequence from starting, grip fighting to deny the control needed for opening mechanics, and reactive counters that punish predictable opening patterns with sweeps and submission threats. The best guard retention is offensive guard retention: an opponent focused on defending your attacks cannot simultaneously execute a systematic guard opening.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Top)
 
 </section>
 
@@ -200,35 +200,35 @@ As the defender against the Guard Opening Sequence, you are the closed guard bot
 ### 1. Break posture with collar grip and heel pressure to prevent opening initiation
 
 - **When to use**: As soon as opponent begins establishing upright posture or walking hands toward your hips - before they complete posture setup
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Opponent returns to broken posture inside your closed guard, resetting their opening attempt and exposing them to your attacks
 - **Risk**: If your grips are stripped before you can break posture, opponent advances to grip establishment phase with momentum
 
 ### 2. Hip bump sweep when opponent sits back with hips behind their knees during opening attempt
 
 - **When to use**: When opponent creates distance by sitting their hips back for combat base or standing break - their weight is behind their base
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You sweep to mount position, completely reversing the positional hierarchy and gaining dominant top position
 - **Risk**: If opponent has strong base and anticipates the bump, they can drive you back down and use your momentum against you
 
 ### 3. Elevator sweep when opponent stands with one or both feet during standing guard break
 
 - **When to use**: When opponent stands and you can hook one of their legs with your foot while controlling their upper body with grips
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You elevate and sweep opponent to their back, achieving top position or at minimum disrupting their standing break
 - **Risk**: If opponent strips the hook before you can generate elevation, you may end up in open guard with their grips already established
 
 ### 4. Attack triangle or omoplata when opponent creates space with arms during grip establishment
 
 - **When to use**: When opponent reaches for your legs with one arm while the other is isolated, creating the arm-in/arm-out configuration needed for triangle
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Opponent must abandon opening attempt to defend submission, returning to defensive posture inside your guard or you complete the submission
 - **Risk**: If opponent maintains strong posture through your attack, they may stack you and use the opening to pass
 
 ### 5. Transition to open guard system with immediate offensive grips when guard opens despite defense
 
 - **When to use**: When you feel your ankles being forced apart and re-closing is no longer viable - do not waste energy fighting a lost battle
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You establish your preferred open guard (spider, de la riva, collar-sleeve) with strong grips before opponent can initiate passing
 - **Risk**: Brief vulnerability during transition where opponent may establish passing grips if you are slow to set up open guard
 
@@ -240,11 +240,11 @@ As the defender against the Guard Opening Sequence, you are the closed guard bot
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Maintain closed guard by breaking opponent's posture with combined collar grip pulling and heel pressure into their lower back. Win grip battles to deny them opening grips on your legs. Use continuous posture breaks so they cannot progress through the opening sequence.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Time a hip bump sweep when opponent sits their hips back during opening attempt, or execute an elevator sweep when they stand with compromised base. Both sweeps exploit the distance creation that is necessary for guard opening, turning their offensive progression into your sweeping opportunity.
 

@@ -21,7 +21,7 @@ The entry requires precise timing and lapel management. The bottom player must m
 
 Strategically, completing the Worm Guard Entry represents a significant positional upgrade. While basic Lapel Guard offers control, the Worm Guard configuration locks the opponent's lead leg in place, severely limiting their passing options and loading powerful sweep mechanics. The position creates true dilemmas where defending the sweep exposes the back, and defending the back take opens sweep opportunities. For gi competitors, this entry is a gateway to an entire attacking subsystem that rewards technical precision over athleticism.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, completing the Worm Guard Entry represents a significant position
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Worm Guard]] | 60% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Worm Guard]] | 60% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ Worm Guard Entry occupies a central role in the modern gi guard hierarchy as the
 ## Related Techniques
 
 
-- [[Worm Guard]] - Target position established upon successful entry
+- [[Positions/Worm Guard]] - Target position established upon successful entry
 
-- [[Lapel Guard]] - Starting position where lapel is already extracted and controlled
+- [[Positions/Lapel Guard]] - Starting position where lapel is already extracted and controlled
 
-- [[Squid Guard Entry]] - Alternative lapel configuration when Worm Guard threading is denied
+- [[Transitions/Squid Guard Entry]] - Alternative lapel configuration when Worm Guard threading is denied
 
-- [[Ringworm Guard Entry]] - Alternative entry to related lapel configuration with different threading path
+- [[Transitions/Ringworm Guard Entry]] - Alternative entry to related lapel configuration with different threading path
 
-- [[Backstep Around Worm Guard]] - Primary opponent counter that must be anticipated during and after entry
+- [[Transitions/Backstep Around Worm Guard]] - Primary opponent counter that must be anticipated during and after entry
 
-- [[De La Riva Guard]] - Common preceding position that provides the hook and angle for threading
+- [[Positions/De La Riva Guard]] - Common preceding position that provides the hook and angle for threading
 
-- [[Lapel to De La Riva]] - Transition used to set up threading angle when direct entry is blocked
+- [[Transitions/Lapel to De La Riva]] - Transition used to set up threading angle when direct entry is blocked
 
-- [[Lapel Sweep to Back]] - Follow-up attack available from completed Worm Guard position
+- [[Transitions/Lapel Sweep to Back]] - Follow-up attack available from completed Worm Guard position
 
-- [[Lapel to Lasso Guard]] - Fallback transition when lapel grip is maintained but Worm Guard is denied
+- [[Transitions/Lapel to Lasso Guard]] - Fallback transition when lapel grip is maintained but Worm Guard is denied
 
-- [[Lapel to Spider Guard]] - Recovery option when lapel configuration is stripped during entry
+- [[Transitions/Lapel to Spider Guard]] - Recovery option when lapel configuration is stripped during entry
 
-- [[Lapel Elevator Sweep]] - Alternative sweep using lapel grip when opponent drives forward into entry
+- [[Transitions/Lapel Elevator Sweep]] - Alternative sweep using lapel grip when opponent drives forward into entry
 
-- [[Ringworm Guard to Worm Guard]] - Related transition that arrives at Worm Guard from a different lapel starting configuration
+- [[Transitions/Ringworm Guard to Worm Guard]] - Related transition that arrives at Worm Guard from a different lapel starting configuration
 
 
 </section>

@@ -21,7 +21,7 @@ The strategic value of the body lock takedown lies in its simplicity and reliabi
 
 Successful execution depends on three critical elements: maintaining the locked grip throughout the entire takedown sequence, choosing the correct angle of attack based on the opponent's weight distribution and defensive posture, and controlling the landing to immediately establish side control rather than allowing the opponent to recover guard. The takedown integrates seamlessly with the broader body lock system, chaining naturally with mat returns, back takes, and guard passes when the primary takedown is defended.
 
-**From Position**: [[Body Lock]] (Top)
+**From Position**: [[Positions/Body Lock]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Successful execution depends on three critical elements: maintaining the locked 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Body Lock]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Body Lock]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -194,21 +194,21 @@ The Body Lock Takedown serves as the primary converting mechanism within the bod
 ## Related Techniques
 
 
-- [[Body Lock]] - Source position from which this takedown is initiated
+- [[Positions/Body Lock]] - Source position from which this takedown is initiated
 
-- [[Side Control]] - Primary target position after successful takedown completion
+- [[Positions/Side Control]] - Primary target position after successful takedown completion
 
-- [[Half Guard]] - Counter outcome position when defender successfully reverses the takedown
+- [[Positions/Half Guard]] - Counter outcome position when defender successfully reverses the takedown
 
-- [[Clinch]] - Precursor standing control position where body lock is typically established
+- [[Positions/Clinch]] - Precursor standing control position where body lock is typically established
 
-- [[Body Lock Pass]] - Alternative technique from the same body lock position when takedown is defended
+- [[Transitions/Body Lock Pass]] - Alternative technique from the same body lock position when takedown is defended
 
-- [[Body Lock Takedown from Clinch]] - Related entry variant initiating the takedown directly from clinch without established body lock
+- [[Transitions/Body Lock Takedown from Clinch]] - Related entry variant initiating the takedown directly from clinch without established body lock
 
-- [[Back Control]] - Alternative high-value target accessible through body lock mat returns
+- [[Positions/Back Control]] - Alternative high-value target accessible through body lock mat returns
 
-- [[Closed Guard]] - Defensive position the defender may pull to avoid the takedown landing
+- [[Positions/Closed Guard]] - Defensive position the defender may pull to avoid the takedown landing
 
 
 </section>

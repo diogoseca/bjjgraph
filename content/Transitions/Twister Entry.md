@@ -21,7 +21,7 @@ Strategically, this entry represents a commitment point in the back attack seque
 
 The transition demands precise coordination between maintaining upper body pressure and executing lower body mechanics. Releasing too much chest pressure to thread the hook allows the opponent to turn in or recover guard, while insufficient hip drive prevents the hook from penetrating deep enough to establish the figure-four. Mastering this timing window is what separates practitioners who can reliably access the Twister system from those who lose position attempting it.
 
-**From Position**: [[Cross Body Ride]] (Top)
+**From Position**: [[Positions/Cross Body Ride]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ The transition demands precise coordination between maintaining upper body press
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Twister Control]] | 55% |
-| Failure | [[Cross Body Ride]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Twister Control]] | 55% |
+| Failure | [[Positions/Cross Body Ride]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -187,29 +187,29 @@ The Twister entry from Cross Body Ride is a critical link in the 10th Planet Jiu
 ## Related Techniques
 
 
-- [[Cross Body Ride]] - Starting position providing perpendicular turtle-top control
+- [[Positions/Cross Body Ride]] - Starting position providing perpendicular turtle-top control
 
-- [[Twister Control]] - Target position reached on successful entry
+- [[Positions/Twister Control]] - Target position reached on successful entry
 
-- [[Twister Finish]] - Primary submission follow-up from established Twister Control
+- [[Transitions/Twister Finish]] - Primary submission follow-up from established Twister Control
 
-- [[Calf Slicer from Truck]] - Alternative submission from the same figure-four entanglement
+- [[Submissions/Calf Slicer from Truck]] - Alternative submission from the same figure-four entanglement
 
-- [[Banana Split]] - Alternative submission available from Twister Control leg position
+- [[Submissions/Banana Split]] - Alternative submission available from Twister Control leg position
 
-- [[Back Take from Top]] - Alternative offensive pathway from cross body ride when Twister is defended
+- [[Transitions/Back Take from Top]] - Alternative offensive pathway from cross body ride when Twister is defended
 
-- [[Crucifix Transition]] - Alternative arm-isolation attack from cross body ride
+- [[Transitions/Crucifix Transition]] - Alternative arm-isolation attack from cross body ride
 
-- [[Crab Ride]] - Intermediate hip-control position enabling alternative Twister entry angle
+- [[Positions/Crab Ride]] - Intermediate hip-control position enabling alternative Twister entry angle
 
-- [[Roll to Truck]] - Alternative Twister Control entry from different starting position
+- [[Transitions/Roll to Truck]] - Alternative Twister Control entry from different starting position
 
-- [[Electric Chair Transition]] - Related 10th Planet system transition from lockdown to leg entanglement
+- [[Transitions/Electric Chair Transition]] - Related 10th Planet system transition from lockdown to leg entanglement
 
-- [[Lockdown]] - Bottom half guard position that feeds into the broader Twister system
+- [[Positions/Half Guard/Lockdown]] - Bottom half guard position that feeds into the broader Twister system
 
-- [[Half Guard]] - Counter outcome position when opponent successfully defends and recovers guard
+- [[Positions/Half Guard]] - Counter outcome position when opponent successfully defends and recovers guard
 
 
 </section>

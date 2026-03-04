@@ -178,7 +178,7 @@ The core challenge is biomechanical: standard heel hook grips and hip angles do 
 
 Successful attackers develop sensitivity for the defender's grip fighting rhythm, timing their heel capture during moments when the defender's hands are occupied with escape attempts rather than wrist control. The adjustment also requires reading whether the defender is committing to boot defense, counter-rotation, or counter-entanglement, as each response demands a different attacking adaptation.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
 
@@ -229,8 +229,8 @@ Successful attackers develop sensitivity for the defender's grip fighting rhythm
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Ushiro Ashi-Garami]] | 30% |
-| Counter | [[Inside Ashi-Garami]] | 15% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
 
 
 </section>
@@ -239,9 +239,9 @@ Successful attackers develop sensitivity for the defender's grip fighting rhythm
 
 ## Opponent Counters
 
-- **Boot defense (dorsiflexing foot and pointing toes toward shin to hide heel)** (Effectiveness: High) - Your Response: Use your forearm to apply pressure behind their calf, forcing their heel to pop out. If boot is strong, transition to ankle lock or saddle position. → Leads to [[Ushiro Ashi-Garami]]
-- **Accelerated inversion to turtle, completing rotation before adjustment finishes** (Effectiveness: Medium) - Your Response: Follow to back control rather than forcing the heel hook. The back take is often higher percentage than fighting a committed rotation. → Leads to [[Ushiro Ashi-Garami]]
-- **Counter-entanglement by attacking your exposed legs during the grip transition** (Effectiveness: Medium) - Your Response: Maintain outside leg pressure on their free leg throughout adjustment. If they achieve inside position, address their entanglement before continuing. → Leads to [[Inside Ashi-Garami]]
+- **Boot defense (dorsiflexing foot and pointing toes toward shin to hide heel)** (Effectiveness: High) - Your Response: Use your forearm to apply pressure behind their calf, forcing their heel to pop out. If boot is strong, transition to ankle lock or saddle position. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Accelerated inversion to turtle, completing rotation before adjustment finishes** (Effectiveness: Medium) - Your Response: Follow to back control rather than forcing the heel hook. The back take is often higher percentage than fighting a committed rotation. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Counter-entanglement by attacking your exposed legs during the grip transition** (Effectiveness: Medium) - Your Response: Maintain outside leg pressure on their free leg throughout adjustment. If they achieve inside position, address their entanglement before continuing. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **Straightening the trapped leg to reduce rotational pressure on knee** (Effectiveness: Low) - Your Response: Straight leg actually makes heel hook more dangerous. Squeeze knees tighter to prevent full extension and finish with standard mechanics. → Leads to [[game-over]]
 
 

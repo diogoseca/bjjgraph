@@ -26,8 +26,8 @@ The Estima Lock Finish requires heightened safety awareness due to the rapid ons
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Ankle joint, lateral ligaments, and Achilles tendon
-**Starting Position**: [[Estima Lock]]
-**From Position**: [[Estima Lock]] (Top)
+**Starting Position**: [[Positions/Estima Lock]]
+**From Position**: [[Positions/Estima Lock]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -76,8 +76,8 @@ The Estima Lock Finish requires heightened safety awareness due to the rapid ons
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Estima Lock]] | 30% |
-| Counter | [[50-50 Guard]] | 20% |
+| Failure | [[Positions/Estima Lock]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 20% |
 
 
 </section>
@@ -202,11 +202,11 @@ The Estima Lock Finish requires heightened safety awareness due to the rapid ons
 
 ## From Which Positions?
 
-- [[Estima Lock]]
-- [[Ashi Garami]]
-- [[50-50 Guard]]
-- [[Outside Ashi-Garami]]
-- [[Single Leg X-Guard]]
+- [[Positions/Estima Lock]]
+- [[Positions/Ashi Garami]]
+- [[Positions/Ashi Garami/50-50 Guard]]
+- [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- [[Positions/X-Guard/Single Leg X-Guard]]
 
 
 </section>
@@ -215,10 +215,10 @@ The Estima Lock Finish requires heightened safety awareness due to the rapid ons
 
 ## Related Submissions
 
-- [[Achilles Lock]]
-- [[Aoki Lock Finish]]
-- [[Ankle Lock from X-Guard]]
-- [[Calf Slicer from 50-50]]
+- [[Submissions/Achilles Lock]]
+- [[Transitions/Aoki Lock Finish]]
+- [[Submissions/Ankle Lock from X-Guard]]
+- [[Submissions/Calf Slicer from 50-50]]
 
 
 </section>
@@ -227,12 +227,12 @@ The Estima Lock Finish requires heightened safety awareness due to the rapid ons
 
 ## Additional Related Content
 
-- [[Estima Lock]] - Parent control position from which this finish is executed
-- [[Ashi Garami]] - Foundational leg entanglement system containing this submission pathway
-- [[50-50 Guard]] - Common entry position where Estima Lock opportunities develop during leg exchanges
-- [[Achilles Lock]] - Related straight ankle lock sharing similar footlock mechanics and control principles
-- [[Aoki Lock Finish]] - Alternative inverted leg lock finish from similar control positions in leg entanglement system
-- [[Saddle]] - Advanced leg entanglement offering natural transition pathways from Estima Lock control
+- [[Positions/Estima Lock]] - Parent control position from which this finish is executed
+- [[Positions/Ashi Garami]] - Foundational leg entanglement system containing this submission pathway
+- [[Positions/Ashi Garami/50-50 Guard]] - Common entry position where Estima Lock opportunities develop during leg exchanges
+- [[Submissions/Achilles Lock]] - Related straight ankle lock sharing similar footlock mechanics and control principles
+- [[Transitions/Aoki Lock Finish]] - Alternative inverted leg lock finish from similar control positions in leg entanglement system
+- [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement offering natural transition pathways from Estima Lock control
 
 
 </section>

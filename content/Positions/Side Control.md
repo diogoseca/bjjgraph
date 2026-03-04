@@ -83,23 +83,23 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (28% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (28% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (22% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (22% of attempts)
 
-- **[[Hip Escape to Guard]]** (18% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (18% of attempts)
 
-- **[[Bridge and Roll]]** (10% of attempts)
+- **[[Transitions/Bridge and Roll]]** (10% of attempts)
 
-- **[[Ghost Escape]]** (8% of attempts)
+- **[[Transitions/Ghost Escape]]** (8% of attempts)
 
-- **[[Side Control Escape]]** (5% of attempts)
+- **[[Transitions/Side Control Escape]]** (5% of attempts)
 
-- **[[Ghost Escape from Side Control]]** (4% of attempts)
+- **[[Transitions/Ghost Escape from Side Control]]** (4% of attempts)
 
-- **[[Sit Out from Side Control]]** (3% of attempts)
+- **[[Transitions/Sit Out from Side Control]]** (3% of attempts)
 
-- **[[Turtle from Side Control Bottom]]** (2% of attempts)
+- **[[Transitions/Turtle from Side Control Bottom]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -160,49 +160,49 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 ### Available Transitions
 
 
-- **[[Side Control to Mount]]** (21% of attempts)
+- **[[Transitions/Side Control to Mount]]** (21% of attempts)
 
-- **[[Americana]]** (11% of attempts)
+- **[[Transitions/Americana]]** (11% of attempts)
 
-- **[[Kimura]]** (10% of attempts)
+- **[[Transitions/Kimura]]** (10% of attempts)
 
-- **[[Knee on Belly]]** (10% of attempts)
+- **[[Positions/Knee on Belly]]** (10% of attempts)
 
-- **[[Side Control to North-South]]** (7% of attempts)
+- **[[Transitions/Side Control to North-South]]** (7% of attempts)
 
-- **[[Arm Triangle]]** (7% of attempts)
+- **[[Transitions/Arm Triangle]]** (7% of attempts)
 
-- **[[Armbar Finish]]** (3% of attempts)
+- **[[Transitions/Armbar Finish]]** (3% of attempts)
 
-- **[[Side Control to Kesa Gatame]]** (3% of attempts)
+- **[[Transitions/Side Control to Kesa Gatame]]** (3% of attempts)
 
-- **[[Side Control to Side Control Consolidation]]** (2% of attempts)
+- **[[Transitions/Side Control to Side Control Consolidation]]** (2% of attempts)
 
-- **[[Side Control to Shoulder of Justice]]** (2% of attempts)
+- **[[Transitions/Side Control to Shoulder of Justice]]** (2% of attempts)
 
-- **[[North-South Choke]]** (2% of attempts)
+- **[[Transitions/North-South Choke]]** (2% of attempts)
 
-- **[[Breadcutter Choke]]** (2% of attempts)
+- **[[Transitions/Breadcutter Choke]]** (2% of attempts)
 
-- **[[Side Control to Scarf Hold Position]]** (2% of attempts)
+- **[[Transitions/Side Control to Scarf Hold Position]]** (2% of attempts)
 
-- **[[Americana from Side Control]]** (2% of attempts)
+- **[[Submissions/Americana from Side Control]]** (2% of attempts)
 
-- **[[Arm Crush]]** (2% of attempts)
+- **[[Submissions/Arm Crush]]** (2% of attempts)
 
-- **[[Armbar from Side Control]]** (2% of attempts)
+- **[[Submissions/Armbar from Side Control]]** (2% of attempts)
 
-- **[[Far Side Armbar]]** (2% of attempts)
+- **[[Submissions/Far Side Armbar]]** (2% of attempts)
 
-- **[[Kimura from Side Control]]** (2% of attempts)
+- **[[Submissions/Kimura from Side Control]]** (2% of attempts)
 
-- **[[Kneebar from Top]]** (2% of attempts)
+- **[[Submissions/Kneebar from Top]]** (2% of attempts)
 
-- **[[Marce Choke]]** (2% of attempts)
+- **[[Submissions/Marce Choke]]** (2% of attempts)
 
-- **[[Mir Lock]]** (2% of attempts)
+- **[[Submissions/Mir Lock]]** (2% of attempts)
 
-- **[[Triangle Choke Side]]** (2% of attempts)
+- **[[Submissions/Triangle Choke Side]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -241,15 +241,15 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 ## Related Positions
 
 
-- **[[Mount]]** - Primary advancement target offering higher point value and increased control
+- **[[Positions/Mount]]** - Primary advancement target offering higher point value and increased control
 
-- **[[North-South]]** - Alternative dominant position accessed via head control transition
+- **[[Positions/North-South]]** - Alternative dominant position accessed via head control transition
 
-- **[[Knee on Belly]]** - Transitional control position offering mobility and additional points
+- **[[Positions/Knee on Belly]]** - Transitional control position offering mobility and additional points
 
-- **[[Back Control]]** - Advanced position when opponent turns incorrectly during escape attempts
+- **[[Positions/Back Control]]** - Advanced position when opponent turns incorrectly during escape attempts
 
-- **[[Half Guard]]** - Common escape target for bottom player attempting guard recovery
+- **[[Positions/Half Guard]]** - Common escape target for bottom player attempting guard recovery
 
 
 </section>

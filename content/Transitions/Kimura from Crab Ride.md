@@ -21,7 +21,7 @@ Unlike traditional kimura attacks from guard or side control, the Crab Ride Kimu
 
 Strategically, this technique creates a powerful dilemma system within the turtle attack framework. Opponents who keep their elbows tight to prevent the kimura expose themselves to back takes, while those who post aggressively to resist the back take offer their arms for isolation. The Kimura from Crab Ride is most commonly used as a transition to Kimura Trap control rather than an immediate finish, as the perpendicular crab ride angle makes sustained finishing pressure difficult without first consolidating the grip into a dedicated control position.
 
-**From Position**: [[Crab Ride]] (Top)
+**From Position**: [[Positions/Crab Ride]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this technique creates a powerful dilemma system within the turtl
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kimura Trap]] | 55% |
-| Failure | [[Crab Ride]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Kimura Trap]] | 55% |
+| Failure | [[Positions/Crab Ride]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,21 +191,21 @@ The Kimura from Crab Ride fits within the broader turtle attack system as a seco
 ## Related Techniques
 
 
-- [[Crab Ride]] - Source position where the kimura attack originates
+- [[Positions/Crab Ride]] - Source position where the kimura attack originates
 
-- [[Kimura Trap]] - Primary target position on successful arm isolation
+- [[Positions/Kimura Trap]] - Primary target position on successful arm isolation
 
-- [[Back Control]] - Alternative high-value target from crab ride that creates the dilemma with kimura
+- [[Positions/Back Control]] - Alternative high-value target from crab ride that creates the dilemma with kimura
 
-- [[Crucifix]] - Alternative attacking position when opponent extends arm to defend kimura
+- [[Positions/Crucifix]] - Alternative attacking position when opponent extends arm to defend kimura
 
-- [[Turtle]] - Parent position category for crab ride attacks
+- [[Positions/Turtle]] - Parent position category for crab ride attacks
 
-- [[Kimura from Kimura Trap]] - Follow-up submission finish from the target control position
+- [[Submissions/Kimura from Kimura Trap]] - Follow-up submission finish from the target control position
 
-- [[Reverse Kimura]] - Related shoulder lock variation using opposite rotational direction
+- [[Submissions/Reverse Kimura]] - Related shoulder lock variation using opposite rotational direction
 
-- [[Half Guard]] - Counter outcome position when opponent escapes during kimura attempt
+- [[Positions/Half Guard]] - Counter outcome position when opponent escapes during kimura attempt
 
 
 </section>

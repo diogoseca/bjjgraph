@@ -178,7 +178,7 @@ This technique represents the finishing sequence after Darce Control has been es
 
 The Darce Choke is particularly effective because it attacks from a position where the opponent has limited defensive options. Once the grip is locked and the body position is correct, escape becomes extremely difficult. The technique sees frequent application in both gi and no-gi competition, with no-gi being especially favorable due to reduced friction and the prevalence of front headlock situations.
 
-**From Position**: [[Darce Control]] (Top)
+**From Position**: [[Positions/Darce Control]] (Top)
 
 </section>
 
@@ -231,8 +231,8 @@ The Darce Choke is particularly effective because it attacks from a position whe
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Darce Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Darce Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ The Darce Choke is particularly effective because it attacks from a position whe
 
 ## Opponent Counters
 
-- **Arm extraction before grip locks - opponent pulls trapped arm free eliminating choke structure** (Effectiveness: High) - Your Response: Maintain constant inward pressure with bicep against neck. If extraction begins, immediately transition to anaconda grip or advance to mount rather than fighting for the darce → Leads to [[Darce Control]]
-- **Turning into the choke - opponent rotates their body to face you and reduce choking angle** (Effectiveness: Medium) - Your Response: Follow their turn by walking your hips in the same direction. If they commit fully, take their back as they turn or transition to mount over their turning body → Leads to [[Darce Control]]
-- **Framing on hip to create space - opponent posts free hand on your hip preventing sprawl** (Effectiveness: Medium) - Your Response: Strip the frame by driving your hip into their hand while maintaining grip, or transition to north-south to remove their framing angle entirely → Leads to [[Darce Control]]
-- **Rolling through - opponent somersaults through the choke to relieve pressure and potentially reverse to half guard** (Effectiveness: Low) - Your Response: Follow the roll maintaining your grip. The roll often tightens the choke as you end up on top in an even better finishing position with full body extension available → Leads to [[Half Guard]]
+- **Arm extraction before grip locks - opponent pulls trapped arm free eliminating choke structure** (Effectiveness: High) - Your Response: Maintain constant inward pressure with bicep against neck. If extraction begins, immediately transition to anaconda grip or advance to mount rather than fighting for the darce → Leads to [[Positions/Darce Control]]
+- **Turning into the choke - opponent rotates their body to face you and reduce choking angle** (Effectiveness: Medium) - Your Response: Follow their turn by walking your hips in the same direction. If they commit fully, take their back as they turn or transition to mount over their turning body → Leads to [[Positions/Darce Control]]
+- **Framing on hip to create space - opponent posts free hand on your hip preventing sprawl** (Effectiveness: Medium) - Your Response: Strip the frame by driving your hip into their hand while maintaining grip, or transition to north-south to remove their framing angle entirely → Leads to [[Positions/Darce Control]]
+- **Rolling through - opponent somersaults through the choke to relieve pressure and potentially reverse to half guard** (Effectiveness: Low) - Your Response: Follow the roll maintaining your grip. The roll often tightens the choke as you end up on top in an even better finishing position with full body extension available → Leads to [[Positions/Half Guard]]
 
 
 </section>

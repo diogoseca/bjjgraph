@@ -180,7 +180,7 @@ description: "Execute the Trap and Roll escape from High Mount Bottom. Step-by-s
 
 Executing the Trap and Roll from High Mount requires precise timing, specific grip sequencing, and explosive hip mechanics adapted for the reduced bridging leverage inherent in this elevated mount position. Unlike the standard upa from regular mount, the high mount version demands that the bottom player create or exploit weight shifts before the bridge becomes mechanically viable. The escape functions as a reaction-based technique—triggered by the top player's offensive commitments rather than initiated from neutral control. Success depends on recognizing the micro-windows created when the top player reaches for grips, adjusts position, or commits to submission setups, then executing the trap-bridge-roll sequence with full commitment during that brief opening. The bottom player must accept that partial results—escaping to half guard rather than achieving a full reversal—represent the realistic success outcome from this position.
 
-**From Position**: [[High Mount]] (Bottom)
+**From Position**: [[Positions/Mount/High Mount]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ Executing the Trap and Roll from High Mount requires precise timing, specific gr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Failure | [[High Mount]] | 40% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Failure | [[Positions/Mount/High Mount]] | 40% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -244,10 +244,10 @@ Executing the Trap and Roll from High Mount requires precise timing, specific gr
 
 ## Opponent Counters
 
-- **Top player posts free hand wide to create tripod base and stop the roll** (Effectiveness: High) - Your Response: Abandon the roll and immediately switch to elbow escape on the opposite side, using the space created by their wide posting hand as your escape corridor → Leads to [[High Mount]]
-- **Top player pulls trapped arm free before bridge is executed by stripping the grip** (Effectiveness: Medium) - Your Response: Chain into frame-and-shrimp escape using the space created during the grip fight, or re-attempt the trap if the weight shift window remains open → Leads to [[High Mount]]
-- **Top player drives weight forward into cross-face to flatten the bottom player and eliminate bridge angle** (Effectiveness: High) - Your Response: Use the forward weight shift as a new trigger—if their weight is on their hands, their hips are lighter, enabling a modified hip escape underneath their pressure → Leads to [[High Mount]]
-- **Top player transitions to regular mount by dropping knees lower to neutralize the escape mechanics** (Effectiveness: Medium) - Your Response: Accept the positional improvement to regular mount and apply standard trap and roll or elbow escape from the less compressed position → Leads to [[Mount]]
+- **Top player posts free hand wide to create tripod base and stop the roll** (Effectiveness: High) - Your Response: Abandon the roll and immediately switch to elbow escape on the opposite side, using the space created by their wide posting hand as your escape corridor → Leads to [[Positions/Mount/High Mount]]
+- **Top player pulls trapped arm free before bridge is executed by stripping the grip** (Effectiveness: Medium) - Your Response: Chain into frame-and-shrimp escape using the space created during the grip fight, or re-attempt the trap if the weight shift window remains open → Leads to [[Positions/Mount/High Mount]]
+- **Top player drives weight forward into cross-face to flatten the bottom player and eliminate bridge angle** (Effectiveness: High) - Your Response: Use the forward weight shift as a new trigger—if their weight is on their hands, their hips are lighter, enabling a modified hip escape underneath their pressure → Leads to [[Positions/Mount/High Mount]]
+- **Top player transitions to regular mount by dropping knees lower to neutralize the escape mechanics** (Effectiveness: Medium) - Your Response: Accept the positional improvement to regular mount and apply standard trap and roll or elbow escape from the less compressed position → Leads to [[Positions/Mount]]
 
 
 </section>

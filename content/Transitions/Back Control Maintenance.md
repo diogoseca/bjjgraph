@@ -21,7 +21,7 @@ The fundamental concept driving back control maintenance is the understanding th
 
 Advanced back control maintenance integrates threat cycling—the continuous rotation between rear naked choke setups, collar chokes, armbars, and crucifix transitions—that keeps the defender perpetually reactive. By threatening submissions without fully committing, the attacking practitioner forces defensive movements that can be exploited to tighten positional control. This creates a feedback loop where defensive effort leads to tighter control, which creates more submission threats, requiring more defensive effort. Understanding and executing this cycle separates practitioners who occasionally get the back from those who systematically finish from back control.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 **Success Rate**: 70%
 
 </section>
@@ -32,9 +32,9 @@ Advanced back control maintenance integrates threat cycling—the continuous rot
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ Back Control Maintenance serves as the foundational skill that transforms back c
 ## Related Techniques
 
 
-- [[Back Control]] - Primary position being maintained
+- [[Positions/Back Control]] - Primary position being maintained
 
-- [[Rear Naked Choke]] - Primary submission threat used during maintenance
+- [[Transitions/Rear Naked Choke]] - Primary submission threat used during maintenance
 
-- [[Body Triangle Lock]] - Enhanced control variation
+- [[Transitions/Body Triangle Lock]] - Enhanced control variation
 
-- [[Armbar from Back]] - Alternative submission when choke is defended
+- [[Submissions/Armbar from Back]] - Alternative submission when choke is defended
 
-- [[Crucifix]] - Transition option when opponent turns
+- [[Positions/Crucifix]] - Transition option when opponent turns
 
-- [[Bow and Arrow Choke]] - Gi-specific submission from back control
+- [[Transitions/Bow and Arrow Choke]] - Gi-specific submission from back control
 
-- [[Gift Wrap]] - Control variation for maintenance
+- [[Positions/Gift Wrap]] - Control variation for maintenance
 
-- [[Back Door Escape]] - Counter techniques opponent will attempt
+- [[Transitions/Back Door Escape]] - Counter techniques opponent will attempt
 
-- [[Turtle]] - Common position if control is lost
+- [[Positions/Turtle]] - Common position if control is lost
 
-- [[Mount]] - Alternative dominant position if back is lost
+- [[Positions/Mount]] - Alternative dominant position if back is lost
 
 
 </section>

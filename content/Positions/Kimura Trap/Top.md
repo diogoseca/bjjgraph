@@ -210,25 +210,25 @@ Strategically, the position is valued for its control density—the top player c
 
 ## Available Attacks
 
-### [[Kimura]] (30% of attempts)
+### [[Transitions/Kimura]] (30% of attempts)
 
-### [[North-South to Kimura]] (13% of attempts)
+### [[Transitions/North-South to Kimura]] (13% of attempts)
 
-### [[Side Control to Mount]] (15% of attempts)
+### [[Transitions/Side Control to Mount]] (15% of attempts)
 
-### [[Kimura to Back Take]] (13% of attempts)
+### [[Transitions/Kimura to Back Take]] (13% of attempts)
 
-### [[Knee on Belly]] (8% of attempts)
+### [[Positions/Knee on Belly]] (8% of attempts)
 
-### [[Arm Triangle Setup]] (8% of attempts)
+### [[Transitions/Arm Triangle Setup]] (8% of attempts)
 
-### [[Americana]] (6% of attempts)
+### [[Transitions/Americana]] (6% of attempts)
 
-### [[Kimura Defense]] (3% of attempts)
+### [[Transitions/Kimura Defense]] (3% of attempts)
 
-### [[Kimura Trap to Reverse Scarf Hold]] (2% of attempts)
+### [[Transitions/Kimura Trap to Reverse Scarf Hold]] (2% of attempts)
 
-### [[Kimura from Kimura Trap]] (2% of attempts)
+### [[Submissions/Kimura from Kimura Trap]] (2% of attempts)
 
 
 
@@ -239,23 +239,23 @@ Strategically, the position is valued for its control density—the top player c
 ## Decision Making from This Position
 
 **If opponent keeps arm tight and defensive, preventing finishing angle development:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 75%)
-- Execute **[[North-South to Kimura]]** → [[North-South]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 75%)
+- Execute **[[Transitions/North-South to Kimura]]** → [[Positions/North-South]] (Probability: 65%)
 
 
 **If opponent attempts to roll or turn into Kimura grip to defend shoulder pressure:**
-- Execute **[[Kimura to Back Take]]** → [[Back Control]] (Probability: 80%)
-- Execute **[[North-South to Kimura]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Transitions/Kimura to Back Take]]** → [[Positions/Back Control]] (Probability: 80%)
+- Execute **[[Transitions/North-South to Kimura]]** → [[game-over]] (Probability: 70%)
 
 
 **If opponent creates space attempting elbow escape or bridge and shrimp sequence:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 78%)
-- Execute **[[Knee on Belly]]** → [[Knee on Belly]] (Probability: 73%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 78%)
+- Execute **[[Positions/Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 73%)
 
 
 **If opponent extends arm or loses defensive structure attempting to push or frame:**
-- Execute **[[Kimura]]** → [[game-over]] (Probability: 85%)
-- Execute **[[Arm Triangle Setup]]** → [[Arm Triangle]] (Probability: 70%)
+- Execute **[[Transitions/Kimura]]** → [[game-over]] (Probability: 85%)
+- Execute **[[Transitions/Arm Triangle Setup]]** → [[Transitions/Arm Triangle]] (Probability: 70%)
 
 
 
@@ -389,16 +389,16 @@ Start in Kimura Trap Top from side control. Partner cycles through defensive rea
 
 ## Related Positions and Techniques
 
-- **[[Side Control]]** - Primary position - most common platform for establishing Kimura Trap Top
-- **[[North-South]]** - Key transition position - excellent platform for Kimura finishing mechanics
-- **[[Kimura]]** - Primary submission - direct finish from this control position
-- **[[Mount]]** - Common transition target - reached when opponent creates space defending Kimura
-- **[[Back Control]]** - Transition option - accessed when opponent rolls to defend Kimura
-- **[[Turtle]]** - Entry position - opponent's turtle creates arm exposure for grip establishment
-- **[[Half Guard]]** - Alternative entry - can establish Kimura Trap from top half guard position
-- **[[Americana]]** - Related shoulder lock - similar finishing mechanics from top positions
-- **[[Kimura to Back Take]]** - Key transition - primary pathway when opponent rolls to defend
-- **[[Knee on Belly]]** - Alternative advancement - transitional position when Kimura is defended
+- **[[Positions/Side Control]]** - Primary position - most common platform for establishing Kimura Trap Top
+- **[[Positions/North-South]]** - Key transition position - excellent platform for Kimura finishing mechanics
+- **[[Transitions/Kimura]]** - Primary submission - direct finish from this control position
+- **[[Positions/Mount]]** - Common transition target - reached when opponent creates space defending Kimura
+- **[[Positions/Back Control]]** - Transition option - accessed when opponent rolls to defend Kimura
+- **[[Positions/Turtle]]** - Entry position - opponent's turtle creates arm exposure for grip establishment
+- **[[Positions/Half Guard]]** - Alternative entry - can establish Kimura Trap from top half guard position
+- **[[Transitions/Americana]]** - Related shoulder lock - similar finishing mechanics from top positions
+- **[[Transitions/Kimura to Back Take]]** - Key transition - primary pathway when opponent rolls to defend
+- **[[Positions/Knee on Belly]]** - Alternative advancement - transitional position when Kimura is defended
 
 
 </section>

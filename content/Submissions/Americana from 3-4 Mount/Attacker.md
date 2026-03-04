@@ -188,7 +188,7 @@ description: "Execute the Americana shoulder lock from 3-4 Mount. Setup grips, f
 
 The Americana from 3-4 Mount attacks the shoulder through forced external rotation using a figure-four grip while the asymmetric mount provides exceptional stability throughout the finishing sequence. The 3-4 configuration pins the near shoulder to the mat more effectively than standard mount, reducing the opponent's rotational defense and eliminating their most common escape angle. Your mounted knee drives into their ribs to prevent hip escape while the posted leg absorbs bridging attempts, allowing you to focus entirely on securing the grip and applying progressive rotational pressure. The key to finishing is patience—pin the wrist firmly before threading, lock the figure-four tight with zero slack, then apply steady pressure through the paint-the-mat arc rather than jerking or spiking the joint. The submission chain from this position branches naturally: Americana when the arm is bent, armbar when it straightens, back take when they turn away.
 
-**From Position**: [[3-4 Mount]] (Top)
+**From Position**: [[Positions/Mount/3-4 Mount]] (Top)
 
 
 </section>
@@ -243,9 +243,9 @@ The Americana from 3-4 Mount attacks the shoulder through forced external rotati
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[3-4 Mount]] | 30% |
-| Failure | [[Mount]] | 15% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Mount/3-4 Mount]] | 30% |
+| Failure | [[Positions/Mount]] | 15% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -254,10 +254,10 @@ The Americana from 3-4 Mount attacks the shoulder through forced external rotati
 
 ## Opponent Defenses
 
-- **Opponent straightens arm to prevent figure-four grip from locking** (Effectiveness: High) - Your Response: Immediately transition to armbar—the straight arm is perfectly positioned for armbar attack from the 3-4 Mount angle. Maintain wrist control and swing your leg over their face. → Leads to [[Mount]]
-- **Opponent bridges explosively toward the attacking side to disrupt grip angle** (Effectiveness: Medium) - Your Response: Absorb the bridge through your posted leg base—the 3-4 Mount configuration is specifically designed to resist this direction of force. Ride the bridge, resettle weight, and continue the finish. → Leads to [[3-4 Mount]]
-- **Opponent grabs own belt, lapel, or shorts to anchor against rotational pressure** (Effectiveness: High) - Your Response: Strip the grip by driving their elbow higher toward their head first, then peel their fingers using your threading hand while maintaining wrist control. Alternatively, switch to the high-elbow variation to bypass the anchor point. → Leads to [[3-4 Mount]]
-- **Opponent hip escapes during the wrist pin phase before figure-four is established** (Effectiveness: Medium) - Your Response: Follow their hips and resettle mount pressure before reattempting. If they create significant space, transition to side control or knee on belly rather than forcing a compromised Americana. → Leads to [[Half Guard]]
+- **Opponent straightens arm to prevent figure-four grip from locking** (Effectiveness: High) - Your Response: Immediately transition to armbar—the straight arm is perfectly positioned for armbar attack from the 3-4 Mount angle. Maintain wrist control and swing your leg over their face. → Leads to [[Positions/Mount]]
+- **Opponent bridges explosively toward the attacking side to disrupt grip angle** (Effectiveness: Medium) - Your Response: Absorb the bridge through your posted leg base—the 3-4 Mount configuration is specifically designed to resist this direction of force. Ride the bridge, resettle weight, and continue the finish. → Leads to [[Positions/Mount/3-4 Mount]]
+- **Opponent grabs own belt, lapel, or shorts to anchor against rotational pressure** (Effectiveness: High) - Your Response: Strip the grip by driving their elbow higher toward their head first, then peel their fingers using your threading hand while maintaining wrist control. Alternatively, switch to the high-elbow variation to bypass the anchor point. → Leads to [[Positions/Mount/3-4 Mount]]
+- **Opponent hip escapes during the wrist pin phase before figure-four is established** (Effectiveness: Medium) - Your Response: Follow their hips and resettle mount pressure before reattempting. If they create significant space, transition to side control or knee on belly rather than forcing a compromised Americana. → Leads to [[Positions/Half Guard]]
 
 
 </section>

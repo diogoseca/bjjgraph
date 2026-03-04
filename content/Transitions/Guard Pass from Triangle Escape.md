@@ -21,7 +21,7 @@ The technique leverages the biomechanical reality that the same mechanics drivin
 
 Strategic context elevates this transition beyond a simple escape continuation. Practitioners who consistently convert triangle escapes into passes create a powerful competitive deterrent—opponents become reluctant to commit fully to triangle attacks knowing that failure leads not to a neutral reset but to bottom side control. This defense-to-offense chain exemplifies the principle that every defensive action should contain offensive intent, and mastery of this transition fundamentally changes the risk calculus of triangle attacks in both competition and training.
 
-**From Position**: [[Triangle Escape Position]] (Top)
+**From Position**: [[Positions/Triangle Escape Position]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategic context elevates this transition beyond a simple escape continuation. 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Triangle Escape Position]] | 32% |
-| Counter | [[Closed Guard]] | 18% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Triangle Escape Position]] | 32% |
+| Counter | [[Positions/Closed Guard]] | 18% |
 
 
 </section>
@@ -187,21 +187,21 @@ The guard pass from triangle escape occupies a critical node in the BJJ position
 ## Related Techniques
 
 
-- [[Side Control]] - Target position upon successful pass completion, opening full top game offensive system
+- [[Positions/Side Control]] - Target position upon successful pass completion, opening full top game offensive system
 
-- [[Closed Guard]] - Counter outcome position when bottom player successfully recovers guard during pass attempt
+- [[Positions/Closed Guard]] - Counter outcome position when bottom player successfully recovers guard during pass attempt
 
-- [[Complete Triangle Escape from Top]] - Prerequisite transition that precedes and enables this guard pass opportunity
+- [[Transitions/Complete Triangle Escape from Top]] - Prerequisite transition that precedes and enables this guard pass opportunity
 
-- [[Complete Triangle Escape]] - Related escape technique that creates similar passing windows from triangle position
+- [[Transitions/Complete Triangle Escape]] - Related escape technique that creates similar passing windows from triangle position
 
-- [[Half Guard]] - Alternative intermediate position when pass is partially completed but legs not fully cleared
+- [[Positions/Half Guard]] - Alternative intermediate position when pass is partially completed but legs not fully cleared
 
-- [[Combat Base]] - Intermediate posture position used during triangle escape that sets up passing base
+- [[Positions/Combat Base]] - Intermediate posture position used during triangle escape that sets up passing base
 
-- [[Knee on Belly]] - Alternative advancement option after clearing triangle legs instead of settling side control
+- [[Positions/Knee on Belly]] - Alternative advancement option after clearing triangle legs instead of settling side control
 
-- [[Open Guard]] - Transitional guard configuration the bottom player may establish during leg clearance phase
+- [[Positions/Open Guard]] - Transitional guard configuration the bottom player may establish during leg clearance phase
 
 
 </section>

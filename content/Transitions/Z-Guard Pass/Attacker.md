@@ -180,7 +180,7 @@ description: "Complete guide to executing the Z-Guard Pass from top position. Sy
 
 The Z-Guard Pass attacker is the top player who must systematically dismantle the bottom player's elevated knee shield frame to advance to side control. This requires winning three simultaneous battles: the underhook or crossface control war, the knee shield collapse through directional pressure, and the prevention of the bottom player's hip mobility that enables sweeps and transitions. The attacker must approach this pass with patience and methodical pressure rather than explosive force, as the Z-Guard's high shield placement mechanically redirects brute-force attempts into sweep opportunities for the defender. Elite passers treat Z-Guard as a puzzle requiring precise control point acquisition before the actual passing movement begins.
 
-**From Position**: [[Z-Guard]] (Top)
+**From Position**: [[Positions/Z-Guard]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ The Z-Guard Pass attacker is the top player who must systematically dismantle th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Z-Guard]] | 32% |
-| Counter | [[Z-Guard]] | 18% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Z-Guard]] | 32% |
+| Counter | [[Positions/Z-Guard]] | 18% |
 
 
 </section>
@@ -242,11 +242,11 @@ The Z-Guard Pass attacker is the top player who must systematically dismantle th
 
 ## Opponent Counters
 
-- **Bottom player secures deep underhook and initiates old school sweep or back take** (Effectiveness: High) - Your Response: Immediately establish whizzer or overhook on the underhook arm and drive crossface pressure to flatten them. If the underhook is too deep, switch to a backstep pass to use their angle against them rather than fighting the underhook directly. → Leads to [[Z-Guard]]
-- **Bottom player dives underneath for deep half guard entry as knee shield collapses** (Effectiveness: High) - Your Response: Sprawl hips back immediately when you feel them shooting their head under your body. Drive shoulder pressure into their shoulder and prevent them from turning the corner. If they get partial deep half, backstep to face their hips directly rather than allowing them to complete the entry. → Leads to [[Z-Guard]]
-- **Bottom player extends knee shield forcefully and creates distance to reset guard** (Effectiveness: Medium) - Your Response: Accept the re-extension temporarily but maintain your grips and upper body control. Reset your pressure angle and begin collapsing the shield again. The bottom player cannot extend indefinitely without tiring, so sustained pressure over multiple collapse attempts will eventually break through. → Leads to [[Z-Guard]]
-- **Bottom player hip escapes to create angle and threatens butterfly hook insertion** (Effectiveness: Medium) - Your Response: Follow their hip movement by adjusting your angle to stay aligned with their center line. Pin their far knee to the mat to prevent butterfly hook insertion. If they create significant angle, transition to headquarters position and reset the passing sequence from a more stable platform. → Leads to [[Z-Guard]]
-- **Bottom player uses knee shield as lever to bump and off-balance during pass attempt** (Effectiveness: Medium) - Your Response: Widen your knee base and drop your center of gravity lower to absorb the bump. Post with your free hand if needed to prevent being toppled. Use the bottom player's extension energy against them by immediately driving back into the knee shield as they retract, catching them during the transition when the shield has less structural integrity. → Leads to [[Z-Guard]]
+- **Bottom player secures deep underhook and initiates old school sweep or back take** (Effectiveness: High) - Your Response: Immediately establish whizzer or overhook on the underhook arm and drive crossface pressure to flatten them. If the underhook is too deep, switch to a backstep pass to use their angle against them rather than fighting the underhook directly. → Leads to [[Positions/Z-Guard]]
+- **Bottom player dives underneath for deep half guard entry as knee shield collapses** (Effectiveness: High) - Your Response: Sprawl hips back immediately when you feel them shooting their head under your body. Drive shoulder pressure into their shoulder and prevent them from turning the corner. If they get partial deep half, backstep to face their hips directly rather than allowing them to complete the entry. → Leads to [[Positions/Z-Guard]]
+- **Bottom player extends knee shield forcefully and creates distance to reset guard** (Effectiveness: Medium) - Your Response: Accept the re-extension temporarily but maintain your grips and upper body control. Reset your pressure angle and begin collapsing the shield again. The bottom player cannot extend indefinitely without tiring, so sustained pressure over multiple collapse attempts will eventually break through. → Leads to [[Positions/Z-Guard]]
+- **Bottom player hip escapes to create angle and threatens butterfly hook insertion** (Effectiveness: Medium) - Your Response: Follow their hip movement by adjusting your angle to stay aligned with their center line. Pin their far knee to the mat to prevent butterfly hook insertion. If they create significant angle, transition to headquarters position and reset the passing sequence from a more stable platform. → Leads to [[Positions/Z-Guard]]
+- **Bottom player uses knee shield as lever to bump and off-balance during pass attempt** (Effectiveness: Medium) - Your Response: Widen your knee base and drop your center of gravity lower to absorb the bump. Post with your free hand if needed to prevent being toppled. Use the bottom player's extension energy against them by immediately driving back into the knee shield as they retract, catching them during the transition when the shield has less structural integrity. → Leads to [[Positions/Z-Guard]]
 
 
 </section>

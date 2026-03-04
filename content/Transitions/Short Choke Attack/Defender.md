@@ -166,7 +166,7 @@ The defender's primary advantage lies in timing. The Short Choke requires the at
 
 Strategically, the defender should view Short Choke defense not as preventing a single technique but as disrupting the attacker's entire Gift Wrap attack system. By forcing the attacker to continuously adjust and restart their choke setup, the defender creates cumulative opportunities to recover the trapped arm, escape the back position, or at minimum force the attacker to expend significant energy on failed attempts.
 
-**Opponent's Starting Position**: [[Gift Wrap]] (Top)
+**Opponent's Starting Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
 
@@ -205,28 +205,28 @@ Strategically, the defender should view Short Choke defense not as preventing a 
 ### 1. Aggressive chin tuck with shoulder shrug to seal the space under your chin, combined with free hand gripping the attacker's threading arm at the wrist or forearm to prevent it from sliding under
 
 - **When to use**: Immediately upon recognizing the attacker's free arm moving toward your chin - this is your primary defense and must be deployed before the arm threads under
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Attacker's choke entry is blocked and they must reset, giving you time to work trapped arm recovery or hip escape
 - **Risk**: Free arm committed to chin defense leaves it exposed to armbar attack if attacker switches targets
 
 ### 2. Explosive bridge and hip rotation toward the attacker's choking arm side, turning your body to face them while the Gift Wrap is partially loosened during their choke attempt
 
 - **When to use**: When attacker commits their free arm to threading the choke, temporarily reducing their ability to control your hip movement and follow rotational escapes
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You escape the Gift Wrap entirely and recover to standard back control bottom where both arms are available for defense, or potentially recover to half guard
 - **Risk**: Failed bridge wastes significant energy and may flatten you further if attacker absorbs it, worsening your position
 
 ### 3. Trapped arm recovery by rotating your shoulder forward and shrimping your hips in the same direction while the attacker's attention is divided between maintaining Gift Wrap and threading the choke
 
 - **When to use**: When attacker begins loosening Gift Wrap control to transition to choke setup - the moment of divided attention is your window for arm recovery
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Recovered arm restores full defensive capability, converting the situation to standard back control defense where both hands can fight grips and protect neck
 - **Risk**: If recovery attempt fails mid-execution, you may expose your neck further as your free arm shifts from chin defense to assist the trapped arm
 
 ### 4. Two-on-one grip control on the attacker's choking arm using your free hand to strip or redirect the threading arm before it reaches under your chin, pulling it down toward your chest
 
 - **When to use**: When attacker's arm is partially threaded but has not yet connected the figure-four grip - this narrow window allows you to prevent the choke from being completed
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Choke attempt is disrupted and attacker must withdraw and reset, burning their energy and creating opportunity for positional escape
 - **Risk**: Committing your free hand to grip fighting the choking arm removes it from chin protection, creating vulnerability if attacker adjusts angle quickly
 
@@ -238,11 +238,11 @@ Strategically, the defender should view Short Choke defense not as preventing a 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Gift Wrap]]
+### → [[Positions/Gift Wrap]]
 
 Successfully defend the choke through chin tuck and grip fighting, forcing the attacker to reset their submission attempt. While this keeps you in Gift Wrap Bottom, it buys time and forces the attacker to expend energy on repeated failed attempts, creating cumulative opportunities for escape.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Use the attacker's divided attention during choke setup to execute explosive bridge and hip rotation or recover the trapped arm. When the attacker commits their free arm to threading the choke, their Gift Wrap control temporarily weakens, creating a window to escape back to standard back control where both arms are available for defense.
 

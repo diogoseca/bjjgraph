@@ -21,7 +21,7 @@ Executing this transition requires careful grip management and weight distributi
 
 Strategically, this transition converts a potentially stalling Rodeo Ride position into a high-percentage back attack platform. Standard turtle top offers clearer pathways to seatbelt control, systematic hook insertion, and the conventional back take sequence that represents one of the most dominant finishing positions in competitive grappling. Understanding when to abandon Rodeo Ride dynamics in favor of methodical turtle control separates advanced practitioners who can read positional flow from those who become locked into a single approach regardless of diminishing effectiveness.
 
-**From Position**: [[Rodeo Ride]] (Top)
+**From Position**: [[Positions/Rodeo Ride]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition converts a potentially stalling Rodeo Ride positi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Rodeo Ride]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Rodeo Ride]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -188,25 +188,25 @@ The Rodeo Ride to Turtle transition occupies a critical role in the turtle attac
 ## Related Techniques
 
 
-- [[Turtle]] - Target position providing stable platform for systematic back attacks
+- [[Positions/Turtle]] - Target position providing stable platform for systematic back attacks
 
-- [[Back Control]] - Primary advancement target after establishing turtle top control
+- [[Positions/Back Control]] - Primary advancement target after establishing turtle top control
 
-- [[Crab Ride]] - Alternative turtle attack position with similar transition dynamics
+- [[Positions/Crab Ride]] - Alternative turtle attack position with similar transition dynamics
 
-- [[Seat Belt Control Back]] - Key control mechanism established during the transition
+- [[Positions/Back Control/Seat Belt Control Back]] - Key control mechanism established during the transition
 
-- [[Harness]] - Alternative upper body control used in turtle top after transition
+- [[Positions/Harness]] - Alternative upper body control used in turtle top after transition
 
-- [[Half Guard]] - Counter outcome position when defender escapes during transition
+- [[Positions/Half Guard]] - Counter outcome position when defender escapes during transition
 
-- [[Escape from Rodeo Ride]] - Defender's primary escape route that this transition must prevent
+- [[Transitions/Escape from Rodeo Ride]] - Defender's primary escape route that this transition must prevent
 
-- [[Rodeo Ride to Back Control]] - Higher-percentage alternative transition from same starting position
+- [[Transitions/Rodeo Ride to Back Control]] - Higher-percentage alternative transition from same starting position
 
-- [[Calf Slicer from Rodeo Ride]] - Submission threat from source position that may precede this transition
+- [[Submissions/Calf Slicer from Rodeo Ride]] - Submission threat from source position that may precede this transition
 
-- [[Crucifix]] - Advanced attacking position accessible from both Rodeo Ride and turtle top
+- [[Positions/Crucifix]] - Advanced attacking position accessible from both Rodeo Ride and turtle top
 
 
 </section>

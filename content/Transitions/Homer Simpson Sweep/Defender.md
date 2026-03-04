@@ -156,7 +156,7 @@ Defending the Homer Simpson Sweep requires the top player to recognize the sweep
 
 Successful defense requires understanding that the sweep's power comes from the closed kinetic chain created by the underhook and over-the-back grip working together. Breaking either grip degrades the sweep significantly, but the primary defensive tool is sprawling pressure combined with crossface control to prevent the bottom player from completing the come-up motion. The defender must also recognize when the Homer Simpson is being used as a setup for lateral sweeps or back takes, adjusting their defensive posture accordingly.
 
-**Opponent's Starting Position**: [[Deep Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ Successful defense requires understanding that the sweep's power comes from the 
 ### 1. Sprawl hips back and apply heavy crossface pressure to flatten the bottom player
 
 - **When to use**: As soon as you feel the bottom player begin to rise or when you detect the over-the-back grip being established
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: Bottom player is driven back to the mat with their come-up motion neutralized, returning to standard deep half guard where you can work extraction
 - **Risk**: Heavy forward commitment to the crossface can be redirected into a waiter sweep if the bottom player changes direction. Maintain base awareness while pressuring.
 
 ### 2. Strip the over-the-back grip with your free hand and re-establish posture
 
 - **When to use**: Early in the sweep setup phase when the bottom player first reaches over your back for the belt or waistband grip
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: Breaking the over-the-back grip removes the closed chain necessary for the sweep, degrading it from a high-percentage technique to a low-percentage attempt that can be resisted with basic base alone
 - **Risk**: Reaching to strip the grip momentarily reduces your base control, creating a brief window where a fast bottom player could accelerate the sweep or transition to an alternative attack
 
 ### 3. Post near hand and circle hips away while driving crossface to extract from deep half
 
 - **When to use**: When the sweep has partially initiated and you need to prevent the forward topple while simultaneously improving your position
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You extract your far leg from the deep underhook and transition to standard half guard top, eliminating all deep half sweep threats and establishing a passing position
 - **Risk**: The circling motion can expose your back if executed without maintaining crossface pressure, and a skilled bottom player may transition to rolling back take during your hip movement
 
 ### 4. Drive weight down through your shoulder into opponent's chest while backstep extracting trapped leg
 
 - **When to use**: When you feel the sweep is about to succeed and need an emergency defense to prevent being swept to mount
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your weight drives the bottom player flat while your backstep extracts your trapped leg, transitioning directly through to half guard top or potentially side control
 - **Risk**: The backstep leaves you momentarily in a vulnerable position. If the underhook is maintained during the backstep, the bottom player may follow your leg and re-enter deep half or transition to X-Guard
 
@@ -227,11 +227,11 @@ Successful defense requires understanding that the sweep's power comes from the 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Counter the sweep by sprawling, applying crossface, and using the opponent's upward momentum against them to extract your trapped leg from the deep underhook. Circle your hips away while driving your shoulder into their chest to transition from deep half guard top to standard half guard top, where you have significantly better passing options and no sweep threats from the deep half system.
 
-### → [[Deep Half Guard]]
+### → [[Positions/Half Guard/Deep Half Guard]]
 
 Prevent the sweep in its early phases by stripping the over-the-back grip and applying heavy crossface pressure to drive the bottom player back to the mat. Maintain sprawling hip pressure to deny the space needed for the come-up motion. While still in deep half guard top, this outcome buys time to work systematic leg extraction and passing sequences.
 

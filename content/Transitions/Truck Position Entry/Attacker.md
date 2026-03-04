@@ -190,7 +190,7 @@ Strategically, this transition is most effective against opponents who use the c
 
 In competition, this entry has become increasingly relevant as practitioners develop layered back attack systems that branch between traditional rear naked choke sequences and modern Twister system attacks. The ability to transition from standing back control directly into Truck bypasses the turtle position entirely, denying the opponent the defensive frames and options that turtle provides. Advanced practitioners use this as part of a decision tree from standing back control: if the opponent maintains strong posture and defends the choke, threaten the takedown; when they drop to avoid the takedown, enter the Truck instead of following to standard back control.
 
-**From Position**: [[Standing Back Control]] (Top)
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
 
@@ -243,9 +243,9 @@ In competition, this entry has become increasingly relevant as practitioners dev
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Truck]] | 65% |
-| Failure | [[Standing Back Control]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Twister Control/Truck]] | 65% |
+| Failure | [[Positions/Back Control/Standing Back Control]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -254,10 +254,10 @@ In competition, this entry has become increasingly relevant as practitioners dev
 
 ## Opponent Counters
 
-- **Opponent sprawls their hips back and fights to stay standing rather than dropping to knees, denying the descent trigger** (Effectiveness: High) - Your Response: Switch to traditional standing back control attacks: pursue rear naked choke setup, execute a mat return takedown, or apply a body triangle to compromise their base before reattempting the Truck entry on the next defensive drop. → Leads to [[Standing Back Control]]
-- **Opponent drops to turtle and immediately tucks elbows tight and flattens hips to the mat, preventing leg hook threading** (Effectiveness: Medium) - Your Response: Transition to standard turtle top attacks such as Crucifix entry by isolating the near arm, or apply spiral ride pressure to create the hip space needed for a delayed Truck entry. Alternatively, switch to a seatbelt back take by inserting hooks from the top. → Leads to [[Turtle]]
-- **Opponent sits through to guard during the descent, turning to face you before you can thread the hook** (Effectiveness: Medium) - Your Response: Follow the sit-through momentum and use your chest pressure to drive them to their back. Transition to passing position or re-establish clinch control. If they achieve half guard, use your existing upper body control to work a knee slice pass. → Leads to [[Turtle]]
-- **Opponent grabs your hooking leg with both hands and strips the hook before you can lock the Truck position** (Effectiveness: Medium) - Your Response: Use their focus on your leg to attack the exposed neck with rear naked choke setup, or switch to the opposite leg for a hook on the other side. Their hands occupied on your leg means their neck and arms are undefended. → Leads to [[Standing Back Control]]
+- **Opponent sprawls their hips back and fights to stay standing rather than dropping to knees, denying the descent trigger** (Effectiveness: High) - Your Response: Switch to traditional standing back control attacks: pursue rear naked choke setup, execute a mat return takedown, or apply a body triangle to compromise their base before reattempting the Truck entry on the next defensive drop. → Leads to [[Positions/Back Control/Standing Back Control]]
+- **Opponent drops to turtle and immediately tucks elbows tight and flattens hips to the mat, preventing leg hook threading** (Effectiveness: Medium) - Your Response: Transition to standard turtle top attacks such as Crucifix entry by isolating the near arm, or apply spiral ride pressure to create the hip space needed for a delayed Truck entry. Alternatively, switch to a seatbelt back take by inserting hooks from the top. → Leads to [[Positions/Turtle]]
+- **Opponent sits through to guard during the descent, turning to face you before you can thread the hook** (Effectiveness: Medium) - Your Response: Follow the sit-through momentum and use your chest pressure to drive them to their back. Transition to passing position or re-establish clinch control. If they achieve half guard, use your existing upper body control to work a knee slice pass. → Leads to [[Positions/Turtle]]
+- **Opponent grabs your hooking leg with both hands and strips the hook before you can lock the Truck position** (Effectiveness: Medium) - Your Response: Use their focus on your leg to attack the exposed neck with rear naked choke setup, or switch to the opposite leg for a hook on the other side. Their hands occupied on your leg means their neck and arms are undefended. → Leads to [[Positions/Back Control/Standing Back Control]]
 
 
 </section>

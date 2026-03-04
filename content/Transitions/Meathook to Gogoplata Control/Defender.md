@@ -158,7 +158,7 @@ The critical defensive window exists between the moment the bottom player releas
 
 Defensive success depends primarily on posture management and pressure direction. The transition specifically requires forward driving pressure to function, meaning that controlling your weight distribution and avoiding forward commitment are the most reliable preventive measures. Experienced defenders recognize that the moment they feel the shin hook release from their tricep, the gogoplata attempt is imminent, and immediate posture recovery or lateral movement must override any other tactical considerations.
 
-**Opponent's Starting Position**: [[Meathook]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Defensive success depends primarily on posture management and pressure direction
 ### 1. Explosive posture recovery the moment shin hook releases from tricep
 
 - **When to use**: Immediately upon feeling the shin pressure release from your arm—this is the highest-percentage defense and must be executed without hesitation
-- **Targets**: [[Meathook]]
+- **Targets**: [[Positions/Rubber Guard/Meathook]]
 - **If successful**: You recover posture and the bottom player's leg is extended without control, forcing them to re-establish Meathook or retreat to closed guard
 - **Risk**: If timed too late, the shin may already be crossing your throat, and posturing drives your throat into the shin rather than away from it
 
 ### 2. Lateral head movement combined with chin tuck to deflect shin path
 
 - **When to use**: When posture recovery is not possible because opponent's grip on your head prevents upward drive—turn your head to the side while tucking chin
-- **Targets**: [[Meathook]]
+- **Targets**: [[Positions/Rubber Guard/Meathook]]
 - **If successful**: The shin contacts your cheek or jaw rather than throat, eliminating choke pressure and allowing you to work the leg off your face
 - **Risk**: Turning toward the attacking leg can expose your shoulder for omoplata; always turn away from the shin path
 
 ### 3. Stack and drive through to force guard opening
 
 - **When to use**: When the transition is already in progress and you cannot posture—commit fully to stacking opponent by driving your weight forward and up to fold them
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Stacking compresses the bottom player's hip flexibility, forcing them to release the leg position and potentially opening their guard entirely
 - **Risk**: Half-committed stacking actually helps the gogoplata by providing the forward pressure the bottom player needs; must be fully explosive to work
 
 ### 4. Arm extraction and immediate base recovery during shin release window
 
 - **When to use**: During the brief moment when shin hook releases from your tricep—the arm is momentarily free and can be used to create frames
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Your newly freed arm creates a frame against opponent's hip or chest, generating enough space to recover posture and break guard
 - **Risk**: Focusing on arm extraction without protecting your neck may allow the shin to reach your throat while your attention is on your arm
 
@@ -229,11 +229,11 @@ Defensive success depends primarily on posture management and pressure direction
 
 ## Best-Case Outcomes for Defender
 
-### → [[Meathook]]
+### → [[Positions/Rubber Guard/Meathook]]
 
 Execute explosive posture recovery the instant you feel the shin hook release from your tricep. Drive your hips back and chest up simultaneously while the bottom player's leg is in transit between arm and throat. Their temporary loss of arm control during the transition is your window to re-establish structural posture, forcing them to either re-establish Meathook from scratch or accept the failed transition.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Use the stacking defense by committing fully to forward pressure that compresses the bottom player's hip flexibility, forcing their leg down and breaking the guard structure. Alternatively, exploit the arm extraction window during shin release to create frames and drive through to closed guard reset. Both paths accept positional regression from Meathook top to closed guard top, which is strategically acceptable given the submission threat avoided.
 

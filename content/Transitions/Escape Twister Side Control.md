@@ -21,7 +21,7 @@ The escape follows a strict priority hierarchy: first protect the spine from rot
 
 What distinguishes this escape from standard side control escapes is the necessity of addressing the leg entanglement before meaningful hip movement becomes possible. Traditional shrimping and bridging mechanics are largely neutralized by the hook structure characteristic of twister side control. Instead, the escaping player must combine frame-assisted separation with strategic turning and incremental hip adjustments to dismantle the control structure layer by layer. The escape demands patience, technical precision, and careful energy management—qualities that differentiate successful defenders from those who exhaust themselves with futile explosive attempts.
 
-**From Position**: [[Twister Side Control]] (Bottom)
+**From Position**: [[Positions/Twister Control/Twister Side Control]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ What distinguishes this escape from standard side control escapes is the necessi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 35% |
-| Success | [[Half Guard]] | 10% |
-| Failure | [[Twister Side Control]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Turtle]] | 35% |
+| Success | [[Positions/Half Guard]] | 10% |
+| Failure | [[Positions/Twister Control/Twister Side Control]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -194,25 +194,25 @@ The Escape from Twister Side Control connects the 10th Planet defensive ecosyste
 ## Related Techniques
 
 
-- [[Twister Side Control]] - Source position from which this escape is executed
+- [[Positions/Twister Control/Twister Side Control]] - Source position from which this escape is executed
 
-- [[Turtle]] - Primary escape destination and transitional recovery position
+- [[Positions/Turtle]] - Primary escape destination and transitional recovery position
 
-- [[Half Guard]] - Alternative escape destination when leg extraction is clean
+- [[Positions/Half Guard]] - Alternative escape destination when leg extraction is clean
 
-- [[Back Control]] - Counter outcome when escape exposes the back to opponent
+- [[Positions/Back Control]] - Counter outcome when escape exposes the back to opponent
 
-- [[Truck]] - Related position in the twister system sharing leg entanglement mechanics
+- [[Positions/Twister Control/Truck]] - Related position in the twister system sharing leg entanglement mechanics
 
-- [[Arm Extraction to Turtle]] - Related escape technique targeting the same turtle destination
+- [[Transitions/Arm Extraction to Turtle]] - Related escape technique targeting the same turtle destination
 
-- [[Granby Roll to Guard]] - Follow-up technique available after reaching turtle position
+- [[Transitions/Granby Roll to Guard]] - Follow-up technique available after reaching turtle position
 
-- [[Technical Stand-up]] - Follow-up technique available after reaching turtle position
+- [[Transitions/Technical Stand-up]] - Follow-up technique available after reaching turtle position
 
-- [[Frame and Shrimp to Guard]] - Related framing and hip escape technique from bottom positions
+- [[Transitions/Frame and Shrimp to Guard]] - Related framing and hip escape technique from bottom positions
 
-- [[Lockdown]] - Related 10th Planet leg entanglement system sharing defensive principles
+- [[Positions/Half Guard/Lockdown]] - Related 10th Planet leg entanglement system sharing defensive principles
 
 
 </section>

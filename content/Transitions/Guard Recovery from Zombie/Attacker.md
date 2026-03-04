@@ -180,7 +180,7 @@ description: "Learn to recover closed guard from the Zombie lockdown position in
 
 As the bottom player in the Zombie position, your lockdown-based control is being systematically dismantled by the top player's pressure, posture recovery, or passing sequences. The Zombie's strength lies in its leg entanglement and high guard configuration, but when the top player successfully addresses these controls, remaining in the position becomes increasingly dangerous. Guard recovery requires a carefully timed release of the lockdown entanglement coordinated with frame establishment and hip movement to close standard guard before the top player can capitalize on the brief moment when your legs disengage from the Zombie configuration. The key challenge is that releasing the lockdown eliminates your primary control mechanism, creating a window of vulnerability that must be bridged by upper body frames and rapid leg repositioning. Successful recovery transforms a deteriorating Zombie position into a stable closed guard with full offensive capability.
 
-**From Position**: [[Zombie]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Zombie]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player in the Zombie position, your lockdown-based control is bein
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Failure | [[Zombie]] | 30% |
-| Counter | [[Open Guard]] | 25% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Failure | [[Positions/Rubber Guard/Zombie]] | 30% |
+| Counter | [[Positions/Open Guard]] | 25% |
 
 
 </section>
@@ -243,9 +243,9 @@ As the bottom player in the Zombie position, your lockdown-based control is bein
 
 ## Opponent Counters
 
-- **Opponent explosively postures up the moment the lockdown releases, creating distance before guard can close** (Effectiveness: High) - Your Response: Maintain the overhook grip as an anchor and use it to pull the opponent back down. If they posture out of overhook range, immediately transition to feet-on-hips open guard rather than attempting closed guard against a fully postured opponent. → Leads to [[Open Guard]]
-- **Opponent drives heavy forward pressure during the lockdown release, attempting to flatten you and advance past your legs** (Effectiveness: High) - Your Response: Use your shoulder frame to redirect their forward pressure past your centerline while hip escaping in the opposite direction. If they flatten you completely, abandon closed guard recovery and work for half guard by trapping their near leg before they can advance to side control. → Leads to [[Zombie]]
-- **Opponent strips your overhook grip during the transition, eliminating your primary upper body connection point** (Effectiveness: Medium) - Your Response: Immediately replace the overhook with a collar grip or wrist control to maintain upper body connection. Speed of guard closure becomes critical - close guard around their torso before they can exploit the grip break to create distance or begin passing. → Leads to [[Zombie]]
+- **Opponent explosively postures up the moment the lockdown releases, creating distance before guard can close** (Effectiveness: High) - Your Response: Maintain the overhook grip as an anchor and use it to pull the opponent back down. If they posture out of overhook range, immediately transition to feet-on-hips open guard rather than attempting closed guard against a fully postured opponent. → Leads to [[Positions/Open Guard]]
+- **Opponent drives heavy forward pressure during the lockdown release, attempting to flatten you and advance past your legs** (Effectiveness: High) - Your Response: Use your shoulder frame to redirect their forward pressure past your centerline while hip escaping in the opposite direction. If they flatten you completely, abandon closed guard recovery and work for half guard by trapping their near leg before they can advance to side control. → Leads to [[Positions/Rubber Guard/Zombie]]
+- **Opponent strips your overhook grip during the transition, eliminating your primary upper body connection point** (Effectiveness: Medium) - Your Response: Immediately replace the overhook with a collar grip or wrist control to maintain upper body connection. Speed of guard closure becomes critical - close guard around their torso before they can exploit the grip break to create distance or begin passing. → Leads to [[Positions/Rubber Guard/Zombie]]
 
 
 </section>

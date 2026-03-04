@@ -178,7 +178,7 @@ This pass represents a critical skill for anyone competing in gi BJJ where moder
 
 Strategically, this technique should be deployed when you recognize squid guard early and before the bottom player establishes secondary grips or leg entanglements that would compound the problem. The pressure pass works best against opponents who rely primarily on the lapel configuration without developing complementary guard retention skills. Against experienced lapel players who chain multiple configurations together, combining pressure with technical lapel clearing produces superior results.
 
-**From Position**: [[Lapel Guard]] (Top)
+**From Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
 
@@ -230,9 +230,9 @@ Strategically, this technique should be deployed when you recognize squid guard 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ Strategically, this technique should be deployed when you recognize squid guard 
 
 ## Opponent Counters
 
-- **Opponent sits up aggressively to take your back as you pressure forward** (Effectiveness: High) - Your Response: Maintain strong collar grip and keep your elbow tight. If they sit up, use your pressure to drive them back down or transition to front headlock control → Leads to [[Back Control]]
-- **Opponent transitions to worm guard by redirecting lapel around your leg** (Effectiveness: Medium) - Your Response: Continue forward pressure and backstep before worm configuration completes. Your momentum should prevent them from completing the reconfiguration → Leads to [[Lapel Guard]]
-- **Opponent frames with free arm to create space and recover guard** (Effectiveness: Medium) - Your Response: Control their framing arm with your collar grip or underhook it. Without the frame, your pressure collapses their guard structure → Leads to [[Lapel Guard]]
-- **Opponent releases lapel grip and recovers to spider or lasso guard** (Effectiveness: Low) - Your Response: If they release the lapel, immediately complete your pass with increased speed. Their release indicates the pressure is working → Leads to [[Lapel Guard]]
+- **Opponent sits up aggressively to take your back as you pressure forward** (Effectiveness: High) - Your Response: Maintain strong collar grip and keep your elbow tight. If they sit up, use your pressure to drive them back down or transition to front headlock control → Leads to [[Positions/Back Control]]
+- **Opponent transitions to worm guard by redirecting lapel around your leg** (Effectiveness: Medium) - Your Response: Continue forward pressure and backstep before worm configuration completes. Your momentum should prevent them from completing the reconfiguration → Leads to [[Positions/Lapel Guard]]
+- **Opponent frames with free arm to create space and recover guard** (Effectiveness: Medium) - Your Response: Control their framing arm with your collar grip or underhook it. Without the frame, your pressure collapses their guard structure → Leads to [[Positions/Lapel Guard]]
+- **Opponent releases lapel grip and recovers to spider or lasso guard** (Effectiveness: Low) - Your Response: If they release the lapel, immediately complete your pass with increased speed. Their release indicates the pressure is working → Leads to [[Positions/Lapel Guard]]
 
 
 </section>

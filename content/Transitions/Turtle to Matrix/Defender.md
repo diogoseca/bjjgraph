@@ -158,7 +158,7 @@ The most effective defense is prevention through maintaining a tight turtle stru
 
 Successful Matrix defense integrates with your broader turtle escape system. The attacker's commitment to the angular entry creates weight distribution changes that can be exploited for guard recovery, technical standup, or granby roll escapes. When you successfully disrupt the Matrix entry, the attacker is often in a compromised position that opens counter-attacking opportunities.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Successful Matrix defense integrates with your broader turtle escape system. The
 ### 1. Sit back onto heels and clamp elbows tight to knees to eliminate the threading gap
 
 - **When to use**: At the first sign of the attacker creating angle by walking their knees laterally, before any arm threading has begun
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Closes the elbow-knee gap entirely, forcing the attacker to abandon the Matrix entry and return to standard turtle top or seek a different attack angle
 - **Risk**: Excessive sitting back without upper body defense can open you to snap-down or front headlock attacks if the attacker redirects quickly
 
 ### 2. Turn aggressively toward the attacker's direction of travel to face them before the arm threading completes
 
 - **When to use**: When you feel the arm beginning to thread under your armpit but the leg has not yet been inserted through the elbow-knee gap
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Eliminates the back-take angle entirely by facing the attacker, forcing a scramble or allowing guard recovery from the face-to-face position
 - **Risk**: If the attacker's arm is already deeply anchored, your turn may deliver you into front headlock or darce control rather than a neutral position
 
 ### 3. Execute an explosive granby roll away from the attacker's entry direction
 
 - **When to use**: As a last-resort defense when the arm is threaded and the leg is beginning to insert, and sitting back or turning in is no longer viable
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: The rolling momentum separates you from the attacker's connections and can lead to guard recovery or a complete positional reset
 - **Risk**: If the attacker follows the roll with maintained connections, you may end up in a worse position with their hooks partially established
 
 ### 4. Strip the far-hip grip with both hands while maintaining tight turtle structure
 
 - **When to use**: Early in the sequence when the attacker is establishing or maintaining their controlling grip on your far hip before committing to the angular movement
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Without the hip grip, the attacker cannot control your rotation and the angular movement loses its effectiveness, often forcing them to reset entirely
 - **Risk**: Using both hands to fight the hip grip temporarily opens your elbow-knee structure and reduces your ability to defend other attacks
 
@@ -229,11 +229,11 @@ Successful Matrix defense integrates with your broader turtle escape system. The
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Sit back onto your heels and clamp elbows tight to knees at the first sign of lateral movement. This denies the entry gap and forces the attacker back to standard turtle top, where all your normal escape options remain available. Combine with active grip fighting on the far-hip grip to make re-attempts more difficult.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the attacker commits their weight to the angular entry and their base becomes compromised, exploit their weight shift by executing a granby roll in the opposite direction of their entry. Their commitment to the angle means they cannot follow your roll effectively, and the separation allows you to recover closed guard or open guard from the resulting scramble.
 

@@ -207,23 +207,23 @@ From this position, the top player enjoys significant control advantages, includ
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (45% of attempts)
+### [[Transitions/Knee Slice Pass]] (45% of attempts)
 
-### [[Smash Pass]] (12% of attempts)
+### [[Transitions/Smash Pass]] (12% of attempts)
 
-### [[Underhook Pass]] (12% of attempts)
+### [[Transitions/Underhook Pass]] (12% of attempts)
 
-### [[Back Step Pass]] (12% of attempts)
+### [[Transitions/Back Step Pass]] (12% of attempts)
 
-### [[Darce Setup]] (7% of attempts)
+### [[Transitions/Darce Setup]] (7% of attempts)
 
-### [[Half Guard to Flattened Half Guard]] (7% of attempts)
+### [[Transitions/Half Guard to Flattened Half Guard]] (7% of attempts)
 
-### [[Pass Pocket Half]] (3% of attempts)
+### [[Transitions/Pass Pocket Half]] (3% of attempts)
 
-### [[Smash Pocket Half]] (1% of attempts)
+### [[Transitions/Smash Pocket Half]] (1% of attempts)
 
-### [[Pocket Half Pass]] (1% of attempts)
+### [[Transitions/Pocket Half Pass]] (1% of attempts)
 
 
 
@@ -234,24 +234,24 @@ From this position, the top player enjoys significant control advantages, includ
 ## Decision Making from This Position
 
 **If opponent is completely flattened with no frames established:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 75%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 75%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 **If opponent turns into underhook to defend:**
-- Execute **[[Darce Choke]]** → [[Darce Control]] (Probability: 60%)
-- Execute **[[Back Step Pass]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[North-South Transition]]** → [[North-South]] (Probability: 65%)
+- Execute **[[Transitions/Darce Choke]]** → [[Positions/Darce Control]] (Probability: 60%)
+- Execute **[[Transitions/Back Step Pass]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[North-South Transition]]** → [[Positions/North-South]] (Probability: 65%)
 
 
 **If opponent establishes frames with their free arm:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 55%)
-- Execute **[[Underhook Pass]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 55%)
+- Execute **[[Transitions/Underhook Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent attempts deep half guard entry:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 50%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 
@@ -385,15 +385,15 @@ Bottom player attempts specific escapes (deep half entry, turning into underhook
 
 ## Related Positions and Techniques
 
-- **[[Half Guard]]** - Parent position - broader category
-- **[[Side Control]]** - Common transition target - primary passing option
-- **[[Deep Half Guard]]** - Common defensive response - bottom player's primary escape
-- **[[Underhook Pass]]** - Primary offensive technique - key passing method
-- **[[Darce Control]]** - Opportunistic submission position - when opponent turns in
-- **[[Kimura Trap]]** - Submission option - attacking the defending arm
-- **[[Mount]]** - Advanced position target - highest point advancement
-- **[[Knee Shield Half Guard]]** - Common recovery position for bottom player
-- **[[Flattened Half Guard]]** - Related position when complete flattening is achieved
+- **[[Positions/Half Guard]]** - Parent position - broader category
+- **[[Positions/Side Control]]** - Common transition target - primary passing option
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common defensive response - bottom player's primary escape
+- **[[Transitions/Underhook Pass]]** - Primary offensive technique - key passing method
+- **[[Positions/Darce Control]]** - Opportunistic submission position - when opponent turns in
+- **[[Positions/Kimura Trap]]** - Submission option - attacking the defending arm
+- **[[Positions/Mount]]** - Advanced position target - highest point advancement
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Common recovery position for bottom player
+- **[[Positions/Half Guard/Flattened Half Guard]]** - Related position when complete flattening is achieved
 
 
 </section>

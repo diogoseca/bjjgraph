@@ -182,7 +182,7 @@ description: "How to execute Short Choke in BJJ. Attacking perspective with setu
 
 The Short Choke is a highly effective gi-based blood choke executed from top positions, particularly side control and north-south. Unlike traditional collar chokes that require deep grips, the Short Choke capitalizes on minimal space and opponent defensive reactions. The technique involves threading your own lapel or the opponent's lapel behind their neck while maintaining superior top position control, then applying pressure through a combination of wrist rotation and shoulder pressure. This choke is particularly effective when opponents defend aggressively against more common submissions like the Americana or Kimura, creating the exact spacing needed for lapel manipulation. The Short Choke exemplifies economy of motion - once the lapel is positioned correctly, the finish requires minimal energy expenditure while creating maximum discomfort. The technique is especially valuable in gi competition because it can be concealed within normal top position pressure, making it difficult for opponents to recognize and defend until the submission is deeply locked. Advanced practitioners use the Short Choke as both a primary finish and a setup for transitioning to mount or taking the back when opponents attempt to escape.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -238,8 +238,8 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Side Control]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -248,11 +248,11 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 
 ## Opponent Defenses
 
-- **Tucking chin to chest to block lapel access** (Effectiveness: Medium) - Your Response: Use crossface pressure to create slight gap, or transition to near-side collar grip variation. Patience is key - maintain pressure and wait for opponent to fatigue and create space. → Leads to [[Side Control]]
-- **Framing with near arm against your hips** (Effectiveness: High) - Your Response: Switch to Americana or Kimura attack on the framing arm, forcing them to retract. Once arm is controlled, return to Short Choke setup with better isolation. → Leads to [[Side Control]]
-- **Bridging explosively to create space** (Effectiveness: Medium) - Your Response: Allow slight bridge while maintaining grips, then ride their hips back to mat with increased pressure. Use their energy expenditure to tighten the choke during the descent. → Leads to [[Side Control]]
-- **Turning into you to recover guard** (Effectiveness: Low) - Your Response: Maintain lapel grips and transition to north-south position as they turn. The turning motion often tightens the choke automatically. Follow to mount if they complete the turn. → Leads to [[Half Guard]]
-- **Grabbing your choking hand/wrist** (Effectiveness: Low) - Your Response: Your leverage from shoulder pressure and body position overwhelms grip fighting on the wrist. Simply maintain pressure and wait for their grip to fatigue, or use their focus on your hand to improve body position. → Leads to [[Side Control]]
+- **Tucking chin to chest to block lapel access** (Effectiveness: Medium) - Your Response: Use crossface pressure to create slight gap, or transition to near-side collar grip variation. Patience is key - maintain pressure and wait for opponent to fatigue and create space. → Leads to [[Positions/Side Control]]
+- **Framing with near arm against your hips** (Effectiveness: High) - Your Response: Switch to Americana or Kimura attack on the framing arm, forcing them to retract. Once arm is controlled, return to Short Choke setup with better isolation. → Leads to [[Positions/Side Control]]
+- **Bridging explosively to create space** (Effectiveness: Medium) - Your Response: Allow slight bridge while maintaining grips, then ride their hips back to mat with increased pressure. Use their energy expenditure to tighten the choke during the descent. → Leads to [[Positions/Side Control]]
+- **Turning into you to recover guard** (Effectiveness: Low) - Your Response: Maintain lapel grips and transition to north-south position as they turn. The turning motion often tightens the choke automatically. Follow to mount if they complete the turn. → Leads to [[Positions/Half Guard]]
+- **Grabbing your choking hand/wrist** (Effectiveness: Low) - Your Response: Your leverage from shoulder pressure and body position overwhelms grip fighting on the wrist. Simply maintain pressure and wait for their grip to fatigue, or use their focus on your hand to improve body position. → Leads to [[Positions/Side Control]]
 
 
 </section>

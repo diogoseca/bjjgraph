@@ -21,7 +21,7 @@ The mechanical challenge of this transition centers on the grip switch: the bott
 
 Strategically, this transition represents the gateway to the entire 10th Planet offensive system. Once Mission Control is locked, the bottom player gains access to a comprehensive submission chain where each defensive reaction from the opponent opens a different attack. The position's shoulder isolation creates a cooking effect where the opponent fatigues under their own awkwardly distributed weight, while the bottom player can maintain control with relatively less energy expenditure. For practitioners who invest in the required hip flexibility, mastering this entry transforms rubber guard from a holding position into a systematic submission platform.
 
-**From Position**: [[Rubber Guard]] (Bottom)
+**From Position**: [[Positions/Rubber Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition represents the gateway to the entire 10th Planet 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mission Control]] | 55% |
-| Failure | [[Rubber Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Mission Control]] | 55% |
+| Failure | [[Positions/Rubber Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ Mission Control Entry from Rubber Guard sits at the critical junction between ba
 ## Related Techniques
 
 
-- [[Rubber Guard]] - Source position from which Mission Control entry is initiated
+- [[Positions/Rubber Guard]] - Source position from which Mission Control entry is initiated
 
-- [[Mission Control]] - Target position established upon successful completion of this transition
+- [[Positions/Rubber Guard/Mission Control]] - Target position established upon successful completion of this transition
 
-- [[Closed Guard]] - Base position from which rubber guard is originally entered before this transition
+- [[Positions/Closed Guard]] - Base position from which rubber guard is originally entered before this transition
 
-- [[High Guard to Rubber Guard]] - Preceding transition in the system that establishes the rubber guard needed for this entry
+- [[Transitions/High Guard to Rubber Guard]] - Preceding transition in the system that establishes the rubber guard needed for this entry
 
-- [[New York Entry from Rubber Guard]] - Alternative advancement from rubber guard bypassing Mission Control for direct New York entry
+- [[Transitions/New York Entry from Rubber Guard]] - Alternative advancement from rubber guard bypassing Mission Control for direct New York entry
 
-- [[Crackhead Control Entry]] - Alternative rubber guard advancement option when Mission Control entry is defended
+- [[Transitions/Crackhead Control Entry]] - Alternative rubber guard advancement option when Mission Control entry is defended
 
-- [[Crackhead Control to Mission Control]] - Related transition that reaches Mission Control from a different rubber guard sub-position
+- [[Transitions/Crackhead Control to Mission Control]] - Related transition that reaches Mission Control from a different rubber guard sub-position
 
-- [[Triangle Setup]] - Primary follow-up submission chain available once Mission Control is established
+- [[Transitions/Triangle Setup]] - Primary follow-up submission chain available once Mission Control is established
 
-- [[New York]] - Next positional advancement in the system hierarchy after Mission Control
+- [[Positions/Rubber Guard/New York]] - Next positional advancement in the system hierarchy after Mission Control
 
-- [[Invisible Collar]] - Advanced rubber guard position accessible through the Mission Control platform
+- [[Positions/Rubber Guard/Invisible Collar]] - Advanced rubber guard position accessible through the Mission Control platform
 
-- [[Open Guard]] - Position resulting from failed entry when opponent clears rubber guard entirely
+- [[Positions/Open Guard]] - Position resulting from failed entry when opponent clears rubber guard entirely
 
 
 </section>

@@ -174,7 +174,7 @@ description: "Step-by-step guide to transitioning from Kesa Gatame to Modified S
 
 As the attacker executing this transition, your objective is to convert the perpendicular seated control of Kesa Gatame into the superior chest-over-chest compression of Modified Scarf Hold. This positional upgrade eliminates the back exposure inherent in traditional Kesa Gatame while dramatically increasing your submission options and pressure output. The transition demands precise weight management: you must maintain crushing control throughout the shift, never creating gaps that allow the bottom player to insert frames or initiate escapes. The key mechanical insight is that your hips must travel forward while your chest drops down, converting lateral control into vertical compression in one continuous motion.
 
-**From Position**: [[Kesa Gatame]] (Top)
+**From Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
 
 </section>
 
@@ -225,9 +225,9 @@ As the attacker executing this transition, your objective is to convert the perp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Modified Scarf Hold]] | 70% |
-| Failure | [[Kesa Gatame]] | 20% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control/Modified Scarf Hold]] | 70% |
+| Failure | [[Positions/Side Control/Kesa Gatame]] | 20% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -236,10 +236,10 @@ As the attacker executing this transition, your objective is to convert the perp
 
 ## Opponent Counters
 
-- **Bottom player bridges explosively during hip walk phase** (Effectiveness: High) - Your Response: Immediately widen your posted leg and drive your weight down. If the bridge is too strong, abandon the transition and re-establish Kesa Gatame with hips sunk low. Do not fight the bridge from an unstable mid-transition position. → Leads to [[Kesa Gatame]]
-- **Bottom player turns into you to attack your back during weight shift** (Effectiveness: Medium) - Your Response: Accelerate the transition by dropping your chest weight immediately onto their sternum, using their turn to help you settle into Modified Scarf Hold. Their turn actually assists your chest placement if you are fast enough to capitalize. → Leads to [[Modified Scarf Hold]]
-- **Bottom player extracts near arm and inserts knee shield during transition gap** (Effectiveness: High) - Your Response: If they get the knee in, do not force Modified Scarf Hold. Instead, transition to knee cut pass or float to knee on belly. Trying to smash through an established knee shield from mid-transition wastes energy and risks losing position entirely. → Leads to [[Half Guard]]
-- **Bottom player hip escapes during the chest lowering phase** (Effectiveness: Medium) - Your Response: Follow their hip escape by circling toward their head, converting into a north-south transition rather than fighting back to scarf hold. Use their movement to improve your position rather than resisting it. → Leads to [[Kesa Gatame]]
+- **Bottom player bridges explosively during hip walk phase** (Effectiveness: High) - Your Response: Immediately widen your posted leg and drive your weight down. If the bridge is too strong, abandon the transition and re-establish Kesa Gatame with hips sunk low. Do not fight the bridge from an unstable mid-transition position. → Leads to [[Positions/Side Control/Kesa Gatame]]
+- **Bottom player turns into you to attack your back during weight shift** (Effectiveness: Medium) - Your Response: Accelerate the transition by dropping your chest weight immediately onto their sternum, using their turn to help you settle into Modified Scarf Hold. Their turn actually assists your chest placement if you are fast enough to capitalize. → Leads to [[Positions/Side Control/Modified Scarf Hold]]
+- **Bottom player extracts near arm and inserts knee shield during transition gap** (Effectiveness: High) - Your Response: If they get the knee in, do not force Modified Scarf Hold. Instead, transition to knee cut pass or float to knee on belly. Trying to smash through an established knee shield from mid-transition wastes energy and risks losing position entirely. → Leads to [[Positions/Half Guard]]
+- **Bottom player hip escapes during the chest lowering phase** (Effectiveness: Medium) - Your Response: Follow their hip escape by circling toward their head, converting into a north-south transition rather than fighting back to scarf hold. Use their movement to improve your position rather than resisting it. → Leads to [[Positions/Side Control/Kesa Gatame]]
 
 
 </section>

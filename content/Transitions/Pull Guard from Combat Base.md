@@ -21,7 +21,7 @@ This transition represents a critical decision point for the bottom player. Comb
 
 Success requires a systematic approach: establishing controlling grips to compromise posture, using hip escapes to close distance, timing the guard closure during weight shifts or grip transitions, and immediately consolidating the closed guard position once legs are wrapped. The technique rewards patient grip fighting and precise timing over explosive athleticism, making it accessible across body types while remaining effective at the highest levels of competition.
 
-**From Position**: [[Combat Base]] (Bottom)
+**From Position**: [[Positions/Combat Base]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Success requires a systematic approach: establishing controlling grips to compro
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Combat Base]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Combat Base]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ Pulling guard from combat base bottom occupies a critical juncture in the BJJ po
 ## Related Techniques
 
 
-- [[Closed Guard]] - Target position on success — establishing closed guard gives bottom player offensive control and submission threats
+- [[Positions/Closed Guard]] - Target position on success — establishing closed guard gives bottom player offensive control and submission threats
 
-- [[Combat Base]] - Starting position — the top player's guard passing platform that this technique aims to neutralize
+- [[Positions/Combat Base]] - Starting position — the top player's guard passing platform that this technique aims to neutralize
 
-- [[Open Guard]] - Related guard family — combat base bottom is a specific open guard scenario requiring active guard closure
+- [[Positions/Open Guard]] - Related guard family — combat base bottom is a specific open guard scenario requiring active guard closure
 
-- [[Half Guard]] - Counter outcome position — opponent may advance to half guard if guard pull is countered during execution
+- [[Positions/Half Guard]] - Counter outcome position — opponent may advance to half guard if guard pull is countered during execution
 
-- [[Posture Recovery]] - Opposing technique — top player uses posture recovery to resist the guard pull's posture-breaking mechanics
+- [[Transitions/Posture Recovery]] - Opposing technique — top player uses posture recovery to resist the guard pull's posture-breaking mechanics
 
-- [[Combat Base to Headquarters]] - Top player alternative — advancing to headquarters instead of fighting guard closure
+- [[Transitions/Combat Base to Headquarters]] - Top player alternative — advancing to headquarters instead of fighting guard closure
 
-- [[Guard Pull from Clinch]] - Related technique — similar guard establishment mechanics from a different starting position
+- [[Transitions/Guard Pull from Clinch]] - Related technique — similar guard establishment mechanics from a different starting position
 
-- [[Knee Shield to Closed Guard]] - Alternative guard closure path — using knee shield as intermediate step to closed guard
+- [[Transitions/Knee Shield to Closed Guard]] - Alternative guard closure path — using knee shield as intermediate step to closed guard
 
-- [[Butterfly Guard]] - Alternative guard option — butterfly hooks provide sweeping threats if closed guard cannot be established
+- [[Positions/Butterfly Guard]] - Alternative guard option — butterfly hooks provide sweeping threats if closed guard cannot be established
 
-- [[Guard Recovery from Combat Base]] - Related defensive technique — broader guard recovery concept that includes guard pull as a specific option
+- [[Transitions/Guard Recovery from Combat Base]] - Related defensive technique — broader guard recovery concept that includes guard pull as a specific option
 
 
 </section>

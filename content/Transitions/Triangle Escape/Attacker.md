@@ -174,7 +174,7 @@ description: "How to execute Triangle Escape in BJJ. Attacking perspective with 
 
 The Triangle Escape is a critical defensive technique for escaping one of Brazilian Jiu-Jitsu's most dominant submission positions. When caught in a triangle choke, the defender faces a race against time as blood flow to the brain becomes restricted. Understanding the mechanics of the triangle allows practitioners to identify escape windows and execute proper defensive sequences. The escape requires a combination of posture management, pressure redirection, and strategic positioning to break the configuration before the choke becomes fully locked. Early recognition and immediate defensive action dramatically increase escape success rates, making this skill essential for all practitioners. The triangle escape encompasses multiple strategies depending on the stage of the attack, from preventing the initial lock to escaping fully secured positions. Advanced practitioners develop sensitivity to triangle entries and can abort attacks before they materialize, while beginners must focus on fundamental escape mechanics and preventing the worst-case scenario of a fully locked submission.
 
-**From Position**: [[Triangle Control]] (Top)
+**From Position**: [[Positions/Triangle Control]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The Triangle Escape is a critical defensive technique for escaping one of Brazil
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Triangle Control]] | 30% |
-| Counter | [[Armbar Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Triangle Control]] | 30% |
+| Counter | [[Positions/Armbar Control]] | 15% |
 
 
 </section>
@@ -238,11 +238,11 @@ The Triangle Escape is a critical defensive technique for escaping one of Brazil
 
 ## Opponent Counters
 
-- **Opponent adjusts angle and locks triangle tighter by pulling down on head** (Effectiveness: High) - Your Response: Immediately drive posture back up, strengthen posting arm, and increase stacking pressure. Consider alternative escape path by stepping to opposite side if original angle is too tight. → Leads to [[Triangle Control]]
-- **Opponent switches to armbar as you attempt to posture** (Effectiveness: High) - Your Response: Keep trapped arm bent and tight to body as you posture. If armbar transition begins, immediately clasp hands together in prayer grip and turn toward trapped arm side to defend the extension. → Leads to [[Armbar Control]]
-- **Opponent breaks down your posture by pulling head and using guard to sweep** (Effectiveness: Medium) - Your Response: Widen base with legs, keep free arm posted strongly on mat, and drive hips forward into opponent. Use stacking pressure to prevent them from breaking you down rather than fighting their grips directly. → Leads to [[Triangle Control]]
-- **Opponent transitions to omoplata as you circle to escape** (Effectiveness: Medium) - Your Response: Recognize omoplata transition early and either complete the circle escape before they establish control, or roll forward through the omoplata to escape. Do not allow shoulder to become isolated. → Leads to [[Triangle Control]]
-- **Opponent locks figure-four tighter and extends hips to finish choke** (Effectiveness: High) - Your Response: This is worst-case scenario requiring immediate tap if pressure is unbearable. If still fighting, maximize stack pressure, keep posture tall, and accelerate circular escape movement. Consider tap to preserve safety. → Leads to [[Triangle Control]]
+- **Opponent adjusts angle and locks triangle tighter by pulling down on head** (Effectiveness: High) - Your Response: Immediately drive posture back up, strengthen posting arm, and increase stacking pressure. Consider alternative escape path by stepping to opposite side if original angle is too tight. → Leads to [[Positions/Triangle Control]]
+- **Opponent switches to armbar as you attempt to posture** (Effectiveness: High) - Your Response: Keep trapped arm bent and tight to body as you posture. If armbar transition begins, immediately clasp hands together in prayer grip and turn toward trapped arm side to defend the extension. → Leads to [[Positions/Armbar Control]]
+- **Opponent breaks down your posture by pulling head and using guard to sweep** (Effectiveness: Medium) - Your Response: Widen base with legs, keep free arm posted strongly on mat, and drive hips forward into opponent. Use stacking pressure to prevent them from breaking you down rather than fighting their grips directly. → Leads to [[Positions/Triangle Control]]
+- **Opponent transitions to omoplata as you circle to escape** (Effectiveness: Medium) - Your Response: Recognize omoplata transition early and either complete the circle escape before they establish control, or roll forward through the omoplata to escape. Do not allow shoulder to become isolated. → Leads to [[Positions/Triangle Control]]
+- **Opponent locks figure-four tighter and extends hips to finish choke** (Effectiveness: High) - Your Response: This is worst-case scenario requiring immediate tap if pressure is unbearable. If still fighting, maximize stack pressure, keep posture tall, and accelerate circular escape movement. Consider tap to preserve safety. → Leads to [[Positions/Triangle Control]]
 
 
 </section>

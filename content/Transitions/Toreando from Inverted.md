@@ -21,7 +21,7 @@ Strategically, this technique provides a speed-based alternative to pressure pas
 
 Successful execution demands aggressive bilateral leg control, decisive lateral movement, and immediate chest pressure upon clearing the opponent's hip line. The passer must resist the temptation to drive forward into the inverted player, which feeds their preferred offensive sequences, and instead commit fully to the lateral passing angle that the toreando provides. The directional change must be explosive and committed — half-measures allow the inverted player to track with hip rotation and retain guard.
 
-**From Position**: [[Inverted Guard]] (Top)
+**From Position**: [[Positions/Inverted Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Successful execution demands aggressive bilateral leg control, decisive lateral 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Inverted Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Inverted Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,21 +189,21 @@ The toreando from inverted guard connects to the broader toreando passing family
 ## Related Techniques
 
 
-- [[Inverted Guard]] - Source position where the bottom player is inverted and the top player initiates the toreando pass
+- [[Positions/Inverted Guard]] - Source position where the bottom player is inverted and the top player initiates the toreando pass
 
-- [[Side Control]] - Primary target position upon successful completion of the toreando pass
+- [[Positions/Side Control]] - Primary target position upon successful completion of the toreando pass
 
-- [[Half Guard]] - Counter outcome position when the inverted player intercepts the pass with a leg hook
+- [[Positions/Half Guard]] - Counter outcome position when the inverted player intercepts the pass with a leg hook
 
-- [[Headquarters Position]] - Alternative control position when the toreando does not fully clear the legs
+- [[Positions/Headquarters Position]] - Alternative control position when the toreando does not fully clear the legs
 
-- [[De La Riva Guard]] - Related guard position with similar toreando passing applications and shared grip mechanics
+- [[Positions/De La Riva Guard]] - Related guard position with similar toreando passing applications and shared grip mechanics
 
-- [[Combat Base]] - Common starting stance from which the toreando is initiated against inverted guard
+- [[Positions/Combat Base]] - Common starting stance from which the toreando is initiated against inverted guard
 
-- [[Reverse De La Riva Guard]] - Guard position frequently connected to inverted guard entries that the toreando can intercept
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Guard position frequently connected to inverted guard entries that the toreando can intercept
 
-- [[Knee on Belly]] - Alternative consolidation position after clearing the legs when side control is not immediately available
+- [[Positions/Knee on Belly]] - Alternative consolidation position after clearing the legs when side control is not immediately available
 
 
 </section>

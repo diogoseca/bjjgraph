@@ -180,7 +180,7 @@ description: "Master the offensive armbar attack from reverse mount. Learn arm i
 
 Attacking the armbar from reverse mount requires a fundamentally different approach than standard mount armbars because you cannot see your opponent's face or upper body reactions. Instead, you must develop tactile sensitivity to read arm positioning through feel, identifying when an arm extends into the danger zone near your hips. The attack demands decisive commitment: hesitation during the pivot creates windows for escape, while full commitment with proper mechanics produces a high-percentage armbar entry that catches many defenders unprepared. The key advantage is surprise. Opponents calibrate their defensive instincts for forward-facing mount threats, making the reverse mount armbar a potent weapon that exploits this blind spot in their defensive awareness.
 
-**From Position**: [[Reverse Mount]] (Top)
+**From Position**: [[Positions/Reverse Mount]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Attacking the armbar from reverse mount requires a fundamentally different appro
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 50% |
-| Failure | [[Reverse Mount]] | 35% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Armbar Control]] | 50% |
+| Failure | [[Positions/Reverse Mount]] | 35% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Attacking the armbar from reverse mount requires a fundamentally different appro
 
 ## Opponent Counters
 
-- **Opponent clasps hands together immediately upon feeling wrist grip, creating interlocked defense preventing arm extension** (Effectiveness: High) - Your Response: Use hip elevation and leg pressure to create a wedge across the forearm line, separating the grip mechanically rather than relying on hand strength. Alternatively, attack the grip with a wrist peel using both hands while your hips maintain the armbar angle. → Leads to [[Reverse Mount]]
-- **Opponent bridges explosively and turns toward the attacker during the pivot, using the transition movement to create scramble opportunity** (Effectiveness: Medium) - Your Response: If the bridge comes during your pivot, use the opponent's turning momentum to accelerate into back control rather than fighting for the armbar. Their turn exposes their back, converting a failed armbar into a superior positional transition. → Leads to [[Closed Guard]]
-- **Opponent pulls the targeted arm tight against their body before isolation is complete, denying the wrist grip and eliminating the attack** (Effectiveness: High) - Your Response: Switch your attack target to the opposite arm if it is exposed, or abandon the armbar attempt and convert to standard mount by spinning to face the opponent's head. The opponent's arm-clamping defense often creates openings for mount or back transitions. → Leads to [[Reverse Mount]]
-- **Opponent hip escapes laterally to create an angle that prevents the perpendicular armbar alignment, disrupting the pivot mechanics** (Effectiveness: Medium) - Your Response: Follow the hip escape by adjusting your pivot angle to match their new body position. If they create too much angle, transition to a mounted triangle or switch to the opposite arm. Their lateral movement often exposes the far arm while defending the near one. → Leads to [[Closed Guard]]
+- **Opponent clasps hands together immediately upon feeling wrist grip, creating interlocked defense preventing arm extension** (Effectiveness: High) - Your Response: Use hip elevation and leg pressure to create a wedge across the forearm line, separating the grip mechanically rather than relying on hand strength. Alternatively, attack the grip with a wrist peel using both hands while your hips maintain the armbar angle. → Leads to [[Positions/Reverse Mount]]
+- **Opponent bridges explosively and turns toward the attacker during the pivot, using the transition movement to create scramble opportunity** (Effectiveness: Medium) - Your Response: If the bridge comes during your pivot, use the opponent's turning momentum to accelerate into back control rather than fighting for the armbar. Their turn exposes their back, converting a failed armbar into a superior positional transition. → Leads to [[Positions/Closed Guard]]
+- **Opponent pulls the targeted arm tight against their body before isolation is complete, denying the wrist grip and eliminating the attack** (Effectiveness: High) - Your Response: Switch your attack target to the opposite arm if it is exposed, or abandon the armbar attempt and convert to standard mount by spinning to face the opponent's head. The opponent's arm-clamping defense often creates openings for mount or back transitions. → Leads to [[Positions/Reverse Mount]]
+- **Opponent hip escapes laterally to create an angle that prevents the perpendicular armbar alignment, disrupting the pivot mechanics** (Effectiveness: Medium) - Your Response: Follow the hip escape by adjusting your pivot angle to match their new body position. If they create too much angle, transition to a mounted triangle or switch to the opposite arm. Their lateral movement often exposes the far arm while defending the near one. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

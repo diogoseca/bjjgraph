@@ -212,19 +212,19 @@ The submission chain available from triangle control represents one of the most 
 
 ## Available Escapes
 
-### [[Triangle Choke Front]] (29% of attempts)
+### [[Submissions/Triangle Choke Front]] (29% of attempts)
 
-### [[Triangle to Armbar]] (22% of attempts)
+### [[Transitions/Triangle to Armbar]] (22% of attempts)
 
-### [[Triangle to Omoplata]] (13% of attempts)
+### [[Transitions/Triangle to Omoplata]] (13% of attempts)
 
-### [[Triangle to Back]] (9% of attempts)
+### [[Transitions/Triangle to Back]] (9% of attempts)
 
-### [[Mounted Triangle]] (7% of attempts)
+### [[Positions/Mount/Mounted Triangle]] (7% of attempts)
 
-### [[Closed Guard to Omoplata]] (6% of attempts)
+### [[Transitions/Closed Guard to Omoplata]] (6% of attempts)
 
-### [[Inverted Triangle]] (14% of attempts)
+### [[Transitions/Inverted Triangle]] (14% of attempts)
 
 
 
@@ -235,23 +235,23 @@ The submission chain available from triangle control represents one of the most 
 ## Decision Making from This Position
 
 **If opponent attempts to stack by driving forward and lifting hips:**
-- Execute **[[Triangle to Omoplata]]** → [[Omoplata Control]] (Probability: 65%)
-- Execute **[[Triangle to Back]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Triangle to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 65%)
+- Execute **[[Transitions/Triangle to Back]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent attempts to posture up vertically or pull head back:**
-- Execute **[[Triangle Choke Front]]** → [[Game Over]] (Probability: 75%)
-- Execute **[[Triangle to Armbar]]** → [[Armbar Control]] (Probability: 70%)
+- Execute **[[Submissions/Triangle Choke Front]]** → [[Positions/Game Over]] (Probability: 75%)
+- Execute **[[Transitions/Triangle to Armbar]]** → [[Positions/Armbar Control]] (Probability: 70%)
 
 
 **If opponent successfully extracts trapped arm from triangle configuration:**
-- Execute **[[Triangle to Back]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle to Back]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
 
 
 **If opponent turns shoulder inward to defend choking pressure on neck:**
-- Execute **[[Triangle to Omoplata]]** → [[Omoplata Control]] (Probability: 70%)
-- Execute **[[Triangle to Armbar]]** → [[Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Triangle to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 70%)
+- Execute **[[Transitions/Triangle to Armbar]]** → [[Positions/Armbar Control]] (Probability: 55%)
 
 
 
@@ -353,17 +353,17 @@ Flow drill starting from triangle control: if partner defends choke transition t
 
 ## Related Positions and Techniques
 
-- **[[Triangle Choke Front]]** - Primary submission finish executed from this control position
-- **[[Closed Guard]]** - Most common entry position for establishing triangle control
-- **[[Armbar Control]]** - Primary transition target when opponent defends triangle choke
-- **[[Omoplata Control]]** - Alternative submission when opponent turns shoulder into triangle
-- **[[Triangle to Armbar]]** - Key transition technique for the triangle submission chain
-- **[[Triangle to Omoplata]]** - Counter-transition used against stacking defense attempts
-- **[[Triangle to Back]]** - Transition option when opponent extracts trapped arm
-- **[[Back Control]]** - Dominant position reached via back take from triangle
-- **[[Mounted Triangle]]** - Position variation achieved when opponent stands in triangle
-- **[[Inverted Triangle]]** - Alternative triangle finishing variation from different angle
-- **[[Closed Guard to Omoplata]]** - Related guard attack sharing similar hip mechanics
+- **[[Submissions/Triangle Choke Front]]** - Primary submission finish executed from this control position
+- **[[Positions/Closed Guard]]** - Most common entry position for establishing triangle control
+- **[[Positions/Armbar Control]]** - Primary transition target when opponent defends triangle choke
+- **[[Positions/Omoplata Control]]** - Alternative submission when opponent turns shoulder into triangle
+- **[[Transitions/Triangle to Armbar]]** - Key transition technique for the triangle submission chain
+- **[[Transitions/Triangle to Omoplata]]** - Counter-transition used against stacking defense attempts
+- **[[Transitions/Triangle to Back]]** - Transition option when opponent extracts trapped arm
+- **[[Positions/Back Control]]** - Dominant position reached via back take from triangle
+- **[[Positions/Mount/Mounted Triangle]]** - Position variation achieved when opponent stands in triangle
+- **[[Transitions/Inverted Triangle]]** - Alternative triangle finishing variation from different angle
+- **[[Transitions/Closed Guard to Omoplata]]** - Related guard attack sharing similar hip mechanics
 
 
 </section>

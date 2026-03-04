@@ -154,7 +154,7 @@ description: "Learn to defend and counter the Sweep from Clamp Guard. Recognitio
 
 Defending the Sweep from Clamp Guard begins with recognizing that your compromised base from the arm trap makes you inherently vulnerable to directional sweeps. The primary defensive priority is maintaining your free arm as a dedicated posting point rather than committing it to extraction or attacks. Base width, hip positioning, and weight distribution become critical when only one arm is available for structural support. Understanding the sweep triggers — forward weight shift, free arm commitment, and posture changes — allows you to avoid the positions where the sweep becomes high-percentage. The most effective defense operates on two levels simultaneously: preventing the sweep through base management while actively working to extract the trapped arm and escape the clamp entirely.
 
-**Opponent's Starting Position**: [[Clamp Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Clamp Guard]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the Sweep from Clamp Guard begins with recognizing that your compromis
 ### 1. Post free arm wide on the mat in the anticipated sweep direction
 
 - **When to use**: Immediately when you feel the opponent loading their hips or pulling your posture toward the trapped arm side
-- **Targets**: [[Clamp Guard]]
+- **Targets**: [[Positions/Clamp Guard]]
 - **If successful**: The sweep stalls against your posted arm, maintaining your top position and allowing you to reset your base
 - **Risk**: Committing the free arm to posting removes it from extraction duty, prolonging your time trapped in the clamp and potentially opening submission angles
 
 ### 2. Drop hips low and widen base to increase overall stability against directional force
 
 - **When to use**: Proactively when you sense the opponent threatening sweeps through grip changes or hip repositioning before they initiate the sweep
-- **Targets**: [[Clamp Guard]]
+- **Targets**: [[Positions/Clamp Guard]]
 - **If successful**: Wide base absorbs the sweeping force without requiring arm posting, keeping your free arm available for extraction work
 - **Risk**: Widening base extends the trapped arm further from your body, potentially increasing the opponent's leverage for armbar entries
 
 ### 3. Drive hips back and create distance to flatten the sweep angle before it develops
 
 - **When to use**: When the opponent begins loading the sweep by shifting their hips underneath you but before they execute the directional force
-- **Targets**: [[Clamp Guard]]
+- **Targets**: [[Positions/Clamp Guard]]
 - **If successful**: The increased distance reduces the opponent's leverage and may loosen the clamp enough to begin arm extraction
 - **Risk**: Creating distance can open space for the opponent to re-angle their hips and threaten armbar with the extended arm
 
 ### 4. Counter the sweep momentum with a sprawl and drive into guard pass
 
 - **When to use**: During the sweep execution when the opponent has committed their hips and grips, use their momentum against them by sprawling and driving through
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You convert their sweep attempt into a guard pass opportunity, achieving side control as the clamp breaks under the passing pressure
 - **Risk**: If the sprawl is too late, you may end up rolling through the sweep worse than if you had simply posted
 
@@ -224,11 +224,11 @@ Defending the Sweep from Clamp Guard begins with recognizing that your compromis
 
 ## Best-Case Outcomes for Defender
 
-### → [[Clamp Guard]]
+### → [[Positions/Clamp Guard]]
 
 Maintain base by posting the free arm wide or keeping hips low with wide stance, absorbing the sweep force without being rolled. This keeps you in top position but still trapped in clamp guard, requiring continued extraction work.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Counter the sweep attempt by sprawling through the opponent's momentum, extracting the trapped arm during the dynamic movement when the clamp loosens, and driving through to pass guard into side control. This converts their offensive action into your positional advancement.
 

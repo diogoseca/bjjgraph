@@ -22,7 +22,7 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint, rotator cuff, and surrounding ligaments
-**Starting Position**: [[North-South]]
+**Starting Position**: [[Positions/North-South]]
 **Success Rate**: 58%
 
 </section>
@@ -77,8 +77,8 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[North-South]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/North-South]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -222,13 +222,13 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 ## From Which Positions?
 
-- [[North-South]]
-- [[Kesa Gatame]]
-- [[Kuzure Kesa-Gatame]]
-- [[Modified Scarf Hold]]
-- [[Side Control]]
-- [[Knee on Belly]]
-- [[Mount]]
+- [[Positions/North-South]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Side Control]]
+- [[Positions/Knee on Belly]]
+- [[Positions/Mount]]
 
 
 </section>
@@ -237,19 +237,19 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 ## Related Submissions
 
-- [[Kimura]]
-- [[Kimura from Side Control]]
-- [[Kimura from Mount]]
-- [[Kimura from Guard]]
-- [[Kimura from Half Guard]]
-- [[North-South Choke]]
-- [[Americana]]
-- [[Americana from Side Control]]
-- [[Americana from Mount]]
-- [[Reverse Kimura]]
-- [[Armbar from Side Control]]
-- [[Far Side Armbar]]
-- [[Armbar from Mount]]
+- [[Transitions/Kimura]]
+- [[Submissions/Kimura from Side Control]]
+- [[Submissions/Kimura from Mount]]
+- [[Submissions/Kimura from Guard]]
+- [[Transitions/Kimura from Half Guard]]
+- [[Transitions/North-South Choke]]
+- [[Transitions/Americana]]
+- [[Submissions/Americana from Side Control]]
+- [[Submissions/Americana from Mount]]
+- [[Submissions/Reverse Kimura]]
+- [[Submissions/Armbar from Side Control]]
+- [[Submissions/Far Side Armbar]]
+- [[Submissions/Armbar from Mount]]
 
 
 </section>
@@ -258,17 +258,17 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 ## Additional Related Content
 
-- [[North-South]] - Primary starting position providing optimal control and leverage angle
-- [[Kimura Trap]] - System utilizing Kimura grip for positional control and submission chains
-- [[Kimura from Mount]] - Related Kimura variation from alternative dominant position with different finishing angle
-- [[Side Control]] - Related top control position offering alternative Kimura angles
-- [[Americana]] - Alternative shoulder lock using similar figure-four mechanics but different rotation direction
-- [[Armbar Control]] - Alternative joint lock control position if Kimura grip is defended
-- [[Kimura from Half Guard]] - Related Kimura variation with different control dynamics and entry requirements
-- [[Turtle]] - Common defensive position opponent may assume, creating alternative Kimura opportunities
-- [[Back Control]] - Positional transition when opponent rolls into Kimura defense
-- [[Kimura from Side Control]] - Related submission with different leverage angle and control requirements
-- [[North-South Choke]] - Complementary attack creating dilemma when opponent defends Kimura by hiding arm
+- [[Positions/North-South]] - Primary starting position providing optimal control and leverage angle
+- [[Positions/Kimura Trap]] - System utilizing Kimura grip for positional control and submission chains
+- [[Submissions/Kimura from Mount]] - Related Kimura variation from alternative dominant position with different finishing angle
+- [[Positions/Side Control]] - Related top control position offering alternative Kimura angles
+- [[Transitions/Americana]] - Alternative shoulder lock using similar figure-four mechanics but different rotation direction
+- [[Positions/Armbar Control]] - Alternative joint lock control position if Kimura grip is defended
+- [[Transitions/Kimura from Half Guard]] - Related Kimura variation with different control dynamics and entry requirements
+- [[Positions/Turtle]] - Common defensive position opponent may assume, creating alternative Kimura opportunities
+- [[Positions/Back Control]] - Positional transition when opponent rolls into Kimura defense
+- [[Submissions/Kimura from Side Control]] - Related submission with different leverage angle and control requirements
+- [[Transitions/North-South Choke]] - Complementary attack creating dilemma when opponent defends Kimura by hiding arm
 
 
 </section>

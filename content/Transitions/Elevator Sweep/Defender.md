@@ -158,7 +158,7 @@ The defender's primary advantage is anticipation. Because the elevator sweep req
 
 From a strategic perspective, the defender should view elevator sweep defense not as a static problem but as a dynamic exchange where their defensive reactions create their own offensive opportunities. Sprawling back to deny the sweep opens leg drag and smash passing opportunities. Clearing the overhook allows for crossface pressure and knee slice entries. Even being swept partway can be converted into a scramble that favors the more prepared practitioner. The best defenders use sweep defense as the starting point for their own passing game rather than treating it purely as survival.
 
-**Opponent's Starting Position**: [[Butterfly Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
 
@@ -197,28 +197,28 @@ From a strategic perspective, the defender should view elevator sweep defense no
 ### 1. Post far hand to the mat on the sweep side and drive weight into the post to create a structural base that resists the rotation
 
 - **When to use**: When you feel the hooks begin to elevate and your weight starting to shift - this is the immediate emergency response before full commitment
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Sweep is stopped, you maintain top position in opponent's butterfly guard and can begin working to clear hooks and pass
 - **Risk**: Extended posting arm is vulnerable to arm drag to back take if opponent recognizes the post and redirects their attack
 
 ### 2. Sprawl hips back and drive weight down through opponent's chest, flattening their seated posture and removing elevation capability from hooks
 
 - **When to use**: During the setup phase when opponent is establishing grips and angle but before the explosive lift begins
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Opponent is flattened to their back, hooks lose mechanical advantage, and you can begin pressure passing or transition to smash pass
 - **Risk**: If you sprawl too aggressively, opponent may use your forward momentum against you or transition to deep half guard
 
 ### 3. Strip the overhook by pulling your elbow tight to your hip and circling your arm free, then immediately establish crossface control on the now-exposed side
 
 - **When to use**: Early in the setup phase when opponent first attempts to swim the overhook but before they secure head position
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Without the overhook, opponent cannot control your upper body rotation and the sweep loses most of its effectiveness, opening passing opportunities
 - **Risk**: Grip fighting to clear the overhook momentarily occupies both arms, creating a brief window where opponent could switch to alternative attacks
 
 ### 4. Drive knees together and forward into opponent's hips to collapse the butterfly hook structure, then immediately work to clear one hook and begin passing
 
 - **When to use**: When you feel both hooks beginning to elevate simultaneously - this directly attacks the lifting mechanism
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Hook elevation is neutralized, opponent's guard structure is compromised, and you can transition to half guard passing or over-under configuration
 - **Risk**: Driving forward loads weight onto hooks momentarily, so timing must be precise to collapse rather than elevate
 
@@ -230,11 +230,11 @@ From a strategic perspective, the defender should view elevator sweep defense no
 
 ## Best-Case Outcomes for Defender
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 Successfully post on the sweep side to stop the rotation, then re-establish combat base with proper posture. Work to strip the overhook and disengage the head position to return to a neutral butterfly guard top position where you can begin your passing game.
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 Sprawl back aggressively to flatten opponent's posture, strip the overhook, and drive crossface pressure to establish dominant top position. From here, transition immediately to a passing sequence such as butterfly smash, knee slice, or body lock pass while opponent is recovering from the failed sweep attempt.
 

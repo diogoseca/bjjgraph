@@ -17,7 +17,7 @@ description: "Master the Underhook Sweep from Half Guard in BJJ. Step-by-step ex
 
 The Underhook Sweep from Half Guard is a fundamental attacking technique that exploits the power of the underhook control to off-balance and sweep opponents from bottom half guard. This sweep represents one of the highest percentage attacks available from half guard, combining proper angle creation, hip movement, and timing to reverse position. The technique capitalizes on the underhook's ability to control the opponent's posture and weight distribution, creating the mechanical advantage necessary to complete the reversal. By establishing the underhook on the trapped leg side, you create a powerful lever that disrupts your opponent's base while simultaneously generating the momentum needed for the sweep. This technique serves as a cornerstone of modern half guard systems, offering a reliable pathway from defensive bottom position to dominant top control.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -28,9 +28,9 @@ The Underhook Sweep from Half Guard is a fundamental attacking technique that ex
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -190,25 +190,25 @@ The Underhook Sweep from Half Guard represents a cornerstone technique within th
 ## Related Techniques
 
 
-- [[Old School Sweep]] - Alternative sweep when underhook is whizzered
+- [[Transitions/Old School Sweep]] - Alternative sweep when underhook is whizzered
 
-- [[Deep Half Entry]] - Transition when opponent flattens you out
+- [[Transitions/Deep Half Entry]] - Transition when opponent flattens you out
 
-- [[Half Guard to Back Take]] - Follow-up when sweep is defended with strong base
+- [[Transitions/Half Guard to Back Take]] - Follow-up when sweep is defended with strong base
 
-- [[Waiter Sweep]] - Chain attack when opponent sits back to defend
+- [[Transitions/Waiter Sweep]] - Chain attack when opponent sits back to defend
 
-- [[Butterfly Sweep]] - Related technique using similar mechanics with butterfly hooks
+- [[Transitions/Butterfly Sweep]] - Related technique using similar mechanics with butterfly hooks
 
-- [[Knee Shield Half Guard]] - Starting position variation for defensive structure
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Starting position variation for defensive structure
 
-- [[Kimura from Half Guard]] - Submission threat that creates underhook opportunities
+- [[Transitions/Kimura from Half Guard]] - Submission threat that creates underhook opportunities
 
-- [[Lockdown]] - Alternative leg control method in half guard system
+- [[Positions/Half Guard/Lockdown]] - Alternative leg control method in half guard system
 
-- [[Side Control]] - Ending position after successful sweep
+- [[Positions/Side Control]] - Ending position after successful sweep
 
-- [[Dogfight Position]] - Intermediate position arising from contested underhook battles
+- [[Positions/Dogfight Position]] - Intermediate position arising from contested underhook battles
 
 
 </section>

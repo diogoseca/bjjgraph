@@ -182,7 +182,7 @@ description: "Execute the Kesa Gatame Arm Crush submission. Step-by-step guide c
 
 Executing the Kesa Gatame Arm Crush requires precise arm isolation and hip positioning from the scarf hold. The attacker must secure the opponent's near arm tightly against their chest, position the elbow against their hip or ribcage as a fulcrum point, and then apply controlled pressure through hip drive and body mechanics. The key to a successful finish lies in eliminating all slack from the arm before applying the crush, ensuring the opponent cannot rotate their elbow to relieve the pressure. Timing is critical—the arm crush is most effective when applied after the opponent has exhausted initial escape attempts and becomes static under kesa gatame pressure, making their trapped arm vulnerable to isolation and extension.
 
-**From Position**: [[Kesa Gatame]] (Top)
+**From Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
 
 
 </section>
@@ -236,8 +236,8 @@ Executing the Kesa Gatame Arm Crush requires precise arm isolation and hip posit
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Kesa Gatame]] | 35% |
-| Counter | [[Half Guard]] | 25% |
+| Failure | [[Positions/Side Control/Kesa Gatame]] | 35% |
+| Counter | [[Positions/Half Guard]] | 25% |
 
 
 </section>
@@ -246,10 +246,10 @@ Executing the Kesa Gatame Arm Crush requires precise arm isolation and hip posit
 
 ## Opponent Defenses
 
-- **Opponent bends their arm and pulls elbow tight to their body before the arm can be straightened** (Effectiveness: High) - Your Response: Switch to americana attack using the same arm control—their bent arm position is ideal for the americana figure-four. The arm crush and americana create a natural submission chain where defending one opens the other. → Leads to [[Kesa Gatame]]
-- **Opponent bridges explosively during the wrist control transition when head control is released** (Effectiveness: Medium) - Your Response: Widen your base leg immediately and drive your chest back onto their face. If the bridge creates significant space, abandon the arm crush and re-establish full kesa gatame control before reattempting. Never chase the submission at the expense of position. → Leads to [[Kesa Gatame]]
-- **Opponent rotates their wrist and forearm to slip the elbow off the hip fulcrum during the crush** (Effectiveness: Medium) - Your Response: Tighten your two-on-one wrist grip and pronate their hand so the palm faces upward, which locks the elbow in the vulnerable extension plane. If they continue rotating, transition to a kimura grip on the same arm to attack from a different angle. → Leads to [[Kesa Gatame]]
-- **Opponent uses free arm to push against your head or body to create space and escape hips** (Effectiveness: Medium) - Your Response: Drive your shoulder into their pushing arm while maintaining wrist control on the trapped arm. Their free arm has limited leverage from the bottom of kesa gatame. If they create meaningful space, re-consolidate kesa gatame with head control before the arm crush attempt. → Leads to [[Half Guard]]
+- **Opponent bends their arm and pulls elbow tight to their body before the arm can be straightened** (Effectiveness: High) - Your Response: Switch to americana attack using the same arm control—their bent arm position is ideal for the americana figure-four. The arm crush and americana create a natural submission chain where defending one opens the other. → Leads to [[Positions/Side Control/Kesa Gatame]]
+- **Opponent bridges explosively during the wrist control transition when head control is released** (Effectiveness: Medium) - Your Response: Widen your base leg immediately and drive your chest back onto their face. If the bridge creates significant space, abandon the arm crush and re-establish full kesa gatame control before reattempting. Never chase the submission at the expense of position. → Leads to [[Positions/Side Control/Kesa Gatame]]
+- **Opponent rotates their wrist and forearm to slip the elbow off the hip fulcrum during the crush** (Effectiveness: Medium) - Your Response: Tighten your two-on-one wrist grip and pronate their hand so the palm faces upward, which locks the elbow in the vulnerable extension plane. If they continue rotating, transition to a kimura grip on the same arm to attack from a different angle. → Leads to [[Positions/Side Control/Kesa Gatame]]
+- **Opponent uses free arm to push against your head or body to create space and escape hips** (Effectiveness: Medium) - Your Response: Drive your shoulder into their pushing arm while maintaining wrist control on the trapped arm. Their free arm has limited leverage from the bottom of kesa gatame. If they create meaningful space, re-consolidate kesa gatame with head control before the arm crush attempt. → Leads to [[Positions/Half Guard]]
 
 
 </section>

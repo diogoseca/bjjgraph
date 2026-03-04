@@ -21,7 +21,7 @@ This transition represents a natural evolution within the truck system's positio
 
 The success of this technique depends heavily on timing and the ability to maintain continuous pressure throughout the rotational transition. Premature commitment to the back take before sufficient back exposure results in losing Twister Side Control entirely, while waiting too long allows the defender to establish frames and begin extracting from the leg entanglement. The optimal execution window occurs when the defender has committed to turning away but has not yet established effective defensive frames in the new orientation. This narrow timing window is what separates practitioners who reliably convert Twister Side Control to back control from those who lose positional advantage during the attempt.
 
-**From Position**: [[Twister Side Control]] (Top)
+**From Position**: [[Positions/Twister Control/Twister Side Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The success of this technique depends heavily on timing and the ability to maint
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Twister Side Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Twister Control/Twister Side Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Twister Side Control to Back Take occupies a critical junction in the 10th P
 ## Related Techniques
 
 
-- [[Twister Side Control]] - Starting position providing the lateral control foundation and leg entanglement platform for initiating the back take
+- [[Positions/Twister Control/Twister Side Control]] - Starting position providing the lateral control foundation and leg entanglement platform for initiating the back take
 
-- [[Back Control]] - Target position representing the most dominant control state in grappling with maximum submission accessibility
+- [[Positions/Back Control]] - Target position representing the most dominant control state in grappling with maximum submission accessibility
 
-- [[Truck]] - Related 10th Planet system position sharing leg entanglement mechanics and common transition pathways to back control
+- [[Positions/Twister Control/Truck]] - Related 10th Planet system position sharing leg entanglement mechanics and common transition pathways to back control
 
-- [[Half Guard]] - Counter outcome position where the defender successfully reverses during the transition, putting the attacker on bottom
+- [[Positions/Half Guard]] - Counter outcome position where the defender successfully reverses during the transition, putting the attacker on bottom
 
-- [[Crab Ride]] - Alternative intermediate position accessible during the back take transition for additional control security
+- [[Positions/Crab Ride]] - Alternative intermediate position accessible during the back take transition for additional control security
 
-- [[Escape Twister Side Control]] - Primary defensive transition the bottom player uses to prevent or abort the back take sequence
+- [[Transitions/Escape Twister Side Control]] - Primary defensive transition the bottom player uses to prevent or abort the back take sequence
 
-- [[Truck to Back Control]] - Analogous back take transition from the closely related truck position sharing similar mechanics and timing
+- [[Transitions/Truck to Back Control]] - Analogous back take transition from the closely related truck position sharing similar mechanics and timing
 
-- [[Turn In from Twister Side Control]] - Defensive counter-movement where the bottom player turns toward the attacker to prevent back exposure
+- [[Transitions/Turn In from Twister Side Control]] - Defensive counter-movement where the bottom player turns toward the attacker to prevent back exposure
 
-- [[Frame from Twister Side Control]] - Defender's frame-based escape that must be prevented for the back take to succeed
+- [[Transitions/Frame from Twister Side Control]] - Defender's frame-based escape that must be prevented for the back take to succeed
 
-- [[Body Triangle]] - Advanced back control variation accessible after completing the transition for enhanced hip control
+- [[Positions/Back Control/Body Triangle]] - Advanced back control variation accessible after completing the transition for enhanced hip control
 
 
 </section>

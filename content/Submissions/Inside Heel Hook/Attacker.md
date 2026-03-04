@@ -231,8 +231,8 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Inside Ashi-Garami]] | 25% |
-| Counter | [[Open Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -241,11 +241,11 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 
 ## Opponent Defenses
 
-- **Opponent grabs your wrists or hands to prevent heel control establishment** (Effectiveness: High) - Your Response: Use head position and shoulder pressure to create frames against their arms, or transition to different leg entanglement attack while maintaining position. Alternatively, establish initial heel grip with one hand and use free hand to break their defensive grips before securing full heel control. → Leads to [[Inside Ashi-Garami]]
-- **Opponent attempts to turn into you (following the rotation) to relieve pressure** (Effectiveness: Medium) - Your Response: Increase hip pressure with your inside leg across their hip to prevent rotation. If they successfully turn slightly, adjust your rotation angle and continue finishing mechanics. Alternatively, transition to outside heel hook as they turn if position allows. → Leads to [[Inside Ashi-Garami]]
-- **Opponent extends their trapped leg forcefully and drives knee through your leg entanglement** (Effectiveness: Medium) - Your Response: Tighten outside leg hook to prevent knee from escaping. Pull heel more aggressively to your chest while extending hips to create angle that makes leg extension difficult. If leg escapes, immediately pursue alternative leg entanglement or guard recovery. → Leads to [[Open Guard]]
-- **Opponent creates frame with free leg on your hip or chest to create distance** (Effectiveness: Medium) - Your Response: Control free leg by adjusting your inside leg position or by transitioning to different ashi-garami variation that neutralizes free leg. Alternatively, swim your head and shoulders under the free leg while maintaining heel control to eliminate their framing ability. → Leads to [[Inside Ashi-Garami]]
-- **Opponent sits up aggressively and attempts to strip heel grip with both hands** (Effectiveness: High) - Your Response: Use your head and shoulder position to block their torso from coming fully upright. Create space between their attacking hands and your grip by extending hips and pulling heel deeper to your body. If grip becomes compromised, transition to alternative leg attack or consolidate position before re-attacking. → Leads to [[Open Guard]]
+- **Opponent grabs your wrists or hands to prevent heel control establishment** (Effectiveness: High) - Your Response: Use head position and shoulder pressure to create frames against their arms, or transition to different leg entanglement attack while maintaining position. Alternatively, establish initial heel grip with one hand and use free hand to break their defensive grips before securing full heel control. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent attempts to turn into you (following the rotation) to relieve pressure** (Effectiveness: Medium) - Your Response: Increase hip pressure with your inside leg across their hip to prevent rotation. If they successfully turn slightly, adjust your rotation angle and continue finishing mechanics. Alternatively, transition to outside heel hook as they turn if position allows. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent extends their trapped leg forcefully and drives knee through your leg entanglement** (Effectiveness: Medium) - Your Response: Tighten outside leg hook to prevent knee from escaping. Pull heel more aggressively to your chest while extending hips to create angle that makes leg extension difficult. If leg escapes, immediately pursue alternative leg entanglement or guard recovery. → Leads to [[Positions/Open Guard]]
+- **Opponent creates frame with free leg on your hip or chest to create distance** (Effectiveness: Medium) - Your Response: Control free leg by adjusting your inside leg position or by transitioning to different ashi-garami variation that neutralizes free leg. Alternatively, swim your head and shoulders under the free leg while maintaining heel control to eliminate their framing ability. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent sits up aggressively and attempts to strip heel grip with both hands** (Effectiveness: High) - Your Response: Use your head and shoulder position to block their torso from coming fully upright. Create space between their attacking hands and your grip by extending hips and pulling heel deeper to your body. If grip becomes compromised, transition to alternative leg attack or consolidate position before re-attacking. → Leads to [[Positions/Open Guard]]
 
 
 </section>

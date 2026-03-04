@@ -21,7 +21,7 @@ This technique demands excellent body awareness, precise timing, and the ability
 
 The Matrix Back Take has become a staple in modern no-gi back attack systems, where the absence of gi grips makes dynamic movement-based entries more viable than static grip-fighting approaches. It integrates naturally with truck entries, crab ride transitions, and traditional seat belt back takes, allowing the attacker to chain multiple options based on the defender's reactions. Practitioners who invest in developing this technique gain a significant advantage in turtle top situations, particularly against experienced defenders who have neutralized conventional back take entries.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -32,9 +32,9 @@ The Matrix Back Take has become a staple in modern no-gi back attack systems, wh
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -196,25 +196,25 @@ The matrix back take is an advanced component of a comprehensive turtle top atta
 ## Related Techniques
 
 
-- [[Back Control]] - Target position achieved upon successful completion of the technique
+- [[Positions/Back Control]] - Target position achieved upon successful completion of the technique
 
-- [[Seat Belt Control Back]] - Control configuration established after completing the back take
+- [[Positions/Back Control/Seat Belt Control Back]] - Control configuration established after completing the back take
 
-- [[Turtle]] - Defensive position being attacked in this technique
+- [[Positions/Turtle]] - Defensive position being attacked in this technique
 
-- [[Crab Ride to Back]] - Complementary back take from turtle using different mechanics that chains with matrix entry
+- [[Transitions/Crab Ride to Back]] - Complementary back take from turtle using different mechanics that chains with matrix entry
 
-- [[Truck]] - Alternative transition available if opponent rolls through during the hip slide
+- [[Positions/Twister Control/Truck]] - Alternative transition available if opponent rolls through during the hip slide
 
-- [[Crucifix from Turtle]] - Alternative attack when opponent exposes an arm defending the matrix entry
+- [[Transitions/Crucifix from Turtle]] - Alternative attack when opponent exposes an arm defending the matrix entry
 
-- [[Rear Naked Choke]] - Primary submission attack after establishing back control from this technique
+- [[Transitions/Rear Naked Choke]] - Primary submission attack after establishing back control from this technique
 
-- [[Front Headlock to Back]] - Alternative back take path that can be chained when matrix entry is defended
+- [[Transitions/Front Headlock to Back]] - Alternative back take path that can be chained when matrix entry is defended
 
-- [[Back Take from Top]] - Traditional seat belt back take that serves as primary alternative from same position
+- [[Transitions/Back Take from Top]] - Traditional seat belt back take that serves as primary alternative from same position
 
-- [[Matrix]] - Parent position representing the dynamic rolling back take system
+- [[Positions/Matrix]] - Parent position representing the dynamic rolling back take system
 
 
 </section>

@@ -21,7 +21,7 @@ The critical technical challenge lies in managing the vulnerability window betwe
 
 From a strategic perspective, this transition reflects an advanced positional calculation that trades the crucifix's extreme but potentially unstable dominance for mount's proven, sustainable control platform with branching submission chains. Practitioners who master this pathway maintain offensive pressure even when crucifix attacks stall, preventing the defensive resets that would otherwise allow opponents to recover and begin systematic escape sequences.
 
-**From Position**: [[Crucifix]] (Top)
+**From Position**: [[Positions/Crucifix]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic perspective, this transition reflects an advanced positional ca
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Crucifix]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Crucifix]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Crucifix to Mount transition serves as a critical pathway in the positional 
 ## Related Techniques
 
 
-- [[Crucifix]] - Starting position providing bilateral arm isolation control
+- [[Positions/Crucifix]] - Starting position providing bilateral arm isolation control
 
-- [[Mount]] - Target position offering systematic submission chains and sustained pressure
+- [[Positions/Mount]] - Target position offering systematic submission chains and sustained pressure
 
-- [[Half Guard]] - Counter outcome position if opponent successfully reverses during transition
+- [[Positions/Half Guard]] - Counter outcome position if opponent successfully reverses during transition
 
-- [[Crucifix Maintenance]] - Alternative to transitioning when crucifix control remains strong
+- [[Transitions/Crucifix Maintenance]] - Alternative to transitioning when crucifix control remains strong
 
-- [[Choke from Crucifix]] - Primary submission that creates the dilemma prompting mount transition
+- [[Transitions/Choke from Crucifix]] - Primary submission that creates the dilemma prompting mount transition
 
-- [[Armbar from Crucifix]] - Secondary submission option from starting position
+- [[Transitions/Armbar from Crucifix]] - Secondary submission option from starting position
 
-- [[Arm Recovery from Crucifix]] - Defender's escape technique that may prompt transition decision
+- [[Transitions/Arm Recovery from Crucifix]] - Defender's escape technique that may prompt transition decision
 
-- [[Mounted Crucifix]] - Related variant combining mount pressure with arm trapping
+- [[Positions/Mount/Mounted Crucifix]] - Related variant combining mount pressure with arm trapping
 
-- [[Back Control]] - Alternative transition target from crucifix when back exposure occurs
+- [[Positions/Back Control]] - Alternative transition target from crucifix when back exposure occurs
 
-- [[Armbar from Mount]] - High-percentage submission available after successful mount establishment
+- [[Submissions/Armbar from Mount]] - High-percentage submission available after successful mount establishment
 
 
 </section>

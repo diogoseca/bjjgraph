@@ -21,7 +21,7 @@ This escape addresses a specific deterioration in the half guard system: the top
 
 The technique requires patience and precise timing rather than explosive athleticism. The bottom player must first establish defensive frames to prevent further advancement, then systematically create the space needed for hip escape, and finally extract the hooked leg while immediately establishing knee shield or standard half guard structure. Rushing any phase of the escape exposes the bottom player to pass advancement, making this a technique that rewards disciplined execution over raw power.
 
-**From Position**: [[Leg Hook]] (Bottom)
+**From Position**: [[Positions/Leg Hook]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ The technique requires patience and precise timing rather than explosive athleti
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Leg Hook]] | 30% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Leg Hook]] | 30% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -191,23 +191,23 @@ The Escape Leg Hook occupies a critical defensive node in the half guard retenti
 ## Related Techniques
 
 
-- [[Leg Hook]] - Source position from which this escape is executed
+- [[Positions/Leg Hook]] - Source position from which this escape is executed
 
-- [[Half Guard]] - Primary target position after successful escape
+- [[Positions/Half Guard]] - Primary target position after successful escape
 
-- [[Counter Leg Hook]] - Alternative escape from same position using explosive movement to turtle
+- [[Transitions/Counter Leg Hook]] - Alternative escape from same position using explosive movement to turtle
 
-- [[Deep Half Entry]] - Alternative offensive transition from Leg Hook Bottom
+- [[Transitions/Deep Half Entry]] - Alternative offensive transition from Leg Hook Bottom
 
-- [[Knee Shield Half Guard]] - Common recovery configuration established after successful escape
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Common recovery configuration established after successful escape
 
-- [[Back Door Escape from Half Guard]] - Related escape concept using similar hip movement principles
+- [[Transitions/Back Door Escape from Half Guard]] - Related escape concept using similar hip movement principles
 
-- [[Lockdown]] - Alternative leg control position accessible from similar starting configuration
+- [[Positions/Half Guard/Lockdown]] - Alternative leg control position accessible from similar starting configuration
 
-- [[Elbow Escape from Flattened Half]] - Related escape technique using comparable hip escape mechanics
+- [[Transitions/Elbow Escape from Flattened Half]] - Related escape technique using comparable hip escape mechanics
 
-- [[Side Control]] - Worst-case outcome position if escape fails and pass completes
+- [[Positions/Side Control]] - Worst-case outcome position if escape fails and pass completes
 
 
 </section>

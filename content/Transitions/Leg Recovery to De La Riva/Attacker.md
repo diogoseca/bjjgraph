@@ -178,7 +178,7 @@ The biomechanical key is understanding that your trapped leg cannot travel in a 
 
 Once the leg is free, the window for re-drag is extremely small—typically under one second. The DLR hook must be inserted as a continuation of the extraction movement, not as a separate action. Treating extraction and hook insertion as one motion is the single most important technical detail that determines success or failure of this transition.
 
-**From Position**: [[Leg Drag Control]] (Bottom)
+**From Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
 
@@ -228,9 +228,9 @@ Once the leg is free, the window for re-drag is extremely small—typically unde
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[De La Riva Guard]] | 58% |
-| Failure | [[Leg Drag Control]] | 30% |
-| Counter | [[Side Control]] | 12% |
+| Success | [[Positions/De La Riva Guard]] | 58% |
+| Failure | [[Positions/Leg Drag Control]] | 30% |
+| Counter | [[Positions/Side Control]] | 12% |
 
 
 </section>
@@ -239,10 +239,10 @@ Once the leg is free, the window for re-drag is extremely small—typically unde
 
 ## Opponent Counters
 
-- **Opponent drives forward and re-establishes heavy shoulder pressure before you can extract** (Effectiveness: High) - Your Response: Maintain frames and wait for next weight shift; do not force extraction against settled pressure. Use your free leg to push their hip and create micro-adjustments that may force a weight shift. → Leads to [[Leg Drag Control]]
-- **Opponent releases leg drag to backstep into leg entanglement as you extract** (Effectiveness: Medium) - Your Response: Immediately pummel your free leg inside to prevent ashi garami entry and sit up to address the leg attack. If they commit to the backstep, your extracted leg should already be threading for the DLR hook which blocks their entry angle. → Leads to [[Leg Drag Control]]
-- **Opponent transitions to knee slice as your leg comes free** (Effectiveness: Medium) - Your Response: Use extracted leg to establish knee shield before they can complete the slice. If you get the DLR hook in first, it prevents their hip from advancing past your leg line and you can redirect into a standard DLR defense of the knee slice. → Leads to [[Leg Drag Control]]
-- **Opponent accelerates to side control consolidation during your extraction attempt** (Effectiveness: High) - Your Response: If they achieve crossface and hip control before your leg clears, abandon the DLR recovery and switch to standard side control escape sequences. Do not continue forcing extraction once they have consolidated. → Leads to [[Side Control]]
+- **Opponent drives forward and re-establishes heavy shoulder pressure before you can extract** (Effectiveness: High) - Your Response: Maintain frames and wait for next weight shift; do not force extraction against settled pressure. Use your free leg to push their hip and create micro-adjustments that may force a weight shift. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent releases leg drag to backstep into leg entanglement as you extract** (Effectiveness: Medium) - Your Response: Immediately pummel your free leg inside to prevent ashi garami entry and sit up to address the leg attack. If they commit to the backstep, your extracted leg should already be threading for the DLR hook which blocks their entry angle. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent transitions to knee slice as your leg comes free** (Effectiveness: Medium) - Your Response: Use extracted leg to establish knee shield before they can complete the slice. If you get the DLR hook in first, it prevents their hip from advancing past your leg line and you can redirect into a standard DLR defense of the knee slice. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent accelerates to side control consolidation during your extraction attempt** (Effectiveness: High) - Your Response: If they achieve crossface and hip control before your leg clears, abandon the DLR recovery and switch to standard side control escape sequences. Do not continue forcing extraction once they have consolidated. → Leads to [[Positions/Side Control]]
 
 
 </section>

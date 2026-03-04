@@ -180,7 +180,7 @@ description: "Complete guide to executing posture recovery from Carni in BJJ. St
 
 As the top player caught in Carni, executing posture recovery requires a disciplined, sequential approach that prioritizes safety while generating the forward pressure needed to collapse the bottom player's leg entanglement structure. The technique begins with securing your heel from immediate attack, then transitions to establishing upper body frames that allow you to drive forward into the bottom player's guard. Unlike explosive escape attempts that create the angular changes your opponent needs for saddle entries or back takes, posture recovery uses steady, controlled pressure that systematically eliminates the bottom player's offensive options until they are forced to abandon the leg attack and re-establish closed guard. This methodical approach makes it one of the safest escape paths from Carni, particularly valuable when other higher-percentage escapes have been shut down.
 
-**From Position**: [[Carni]] (Top)
+**From Position**: [[Positions/Rubber Guard/Carni]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the top player caught in Carni, executing posture recovery requires a discipl
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Failure | [[Carni]] | 30% |
-| Counter | [[Saddle]] | 20% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Failure | [[Positions/Rubber Guard/Carni]] | 30% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the top player caught in Carni, executing posture recovery requires a discipl
 
 ## Opponent Counters
 
-- **Opponent inverts and re-establishes leg entanglement during forward pressure** (Effectiveness: High) - Your Response: Maintain heavy chest-to-chest pressure and pin opponent's hips to prevent inversion. If they begin inverting, accelerate your forward drive to compress them before they can re-establish hooks. → Leads to [[Carni]]
-- **Opponent transitions to saddle as you drive forward by threading their inside leg deeper** (Effectiveness: High) - Your Response: Immediately stop forward pressure and retract hip away from opponent's inside leg. Establish crossface pressure and use your free leg to block their saddle entry hook before resuming extraction. → Leads to [[Saddle]]
-- **Opponent releases entanglement but immediately pulls you into tight closed guard with collar control** (Effectiveness: Medium) - Your Response: Accept the closed guard position as a significant improvement over Carni. Immediately establish strong posture and begin standard closed guard opening sequences. → Leads to [[Closed Guard]]
-- **Opponent uses your forward pressure to create angle for back take by rolling underneath** (Effectiveness: Medium) - Your Response: Keep hips heavy and maintain chest contact to prevent opponent from creating the space needed to rotate underneath. If they begin rolling, follow their hips with your body weight to prevent back exposure. → Leads to [[Carni]]
+- **Opponent inverts and re-establishes leg entanglement during forward pressure** (Effectiveness: High) - Your Response: Maintain heavy chest-to-chest pressure and pin opponent's hips to prevent inversion. If they begin inverting, accelerate your forward drive to compress them before they can re-establish hooks. → Leads to [[Positions/Rubber Guard/Carni]]
+- **Opponent transitions to saddle as you drive forward by threading their inside leg deeper** (Effectiveness: High) - Your Response: Immediately stop forward pressure and retract hip away from opponent's inside leg. Establish crossface pressure and use your free leg to block their saddle entry hook before resuming extraction. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent releases entanglement but immediately pulls you into tight closed guard with collar control** (Effectiveness: Medium) - Your Response: Accept the closed guard position as a significant improvement over Carni. Immediately establish strong posture and begin standard closed guard opening sequences. → Leads to [[Positions/Closed Guard]]
+- **Opponent uses your forward pressure to create angle for back take by rolling underneath** (Effectiveness: Medium) - Your Response: Keep hips heavy and maintain chest contact to prevent opponent from creating the space needed to rotate underneath. If they begin rolling, follow their hips with your body weight to prevent back exposure. → Leads to [[Positions/Rubber Guard/Carni]]
 
 
 </section>

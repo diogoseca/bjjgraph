@@ -176,7 +176,7 @@ description: "How to execute Loop Choke from Mount in BJJ. Attacking perspective
 
 The Loop Choke from Mount is a devastating gi-based blood choke that leverages the attacker's dominant top position to create an inescapable strangling mechanism using the opponent's own collar. This technique exemplifies the principle of using positional control to set up high-percentage submissions. From mount, the practitioner feeds one hand deep into the opponent's collar while securing the opposite side lapel with the other hand, creating a loop configuration that tightens around the neck as pressure is applied. The beauty of this submission lies in its ability to be applied from one of the most dominant positions in BJJ, making it extremely difficult to defend once properly set up. Unlike many other mount attacks that require significant positional shifts, the loop choke can be finished while maintaining full mount control, allowing the attacker to threaten the submission without compromising position. The technique works on a biomechanical principle where the opponent's own collar becomes a noose, with the attacker's grips creating opposing vectors of force that compress both carotid arteries simultaneously.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 
 
 </section>
@@ -231,8 +231,8 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -241,11 +241,11 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 ## Opponent Defenses
 
-- **Frames against attacker's hips and attempts to bridge and shrimp to escape mount** (Effectiveness: Low) - Your Response: Use your grips on their collar to base out and prevent the bridge, then continue tightening the choke as they expend energy. Their bridging motion can actually help tighten the collar around their neck. → Leads to [[Mount]]
-- **Grabs and pulls on the deep collar grip wrist to prevent proper positioning** (Effectiveness: Medium) - Your Response: If they grab your wrist, use your free hand to reinforce the grip or to strip their hand away. Alternatively, use their pulling to help you circle your elbow over their face, which can set up the loop configuration from a different angle. → Leads to [[Mount]]
-- **Tucks chin deeply to protect neck and collar access** (Effectiveness: Medium) - Your Response: If the chin is tucked early, use collar drags and arm attacks to force them to extend their neck. Alternatively, transition to other mount attacks like Americana or armbar to create reactions that expose the collar. Once they defend other attacks, the collar becomes available again. → Leads to [[Mount]]
-- **Turns into opponent to prevent the loop configuration and attempts to go to turtle** (Effectiveness: Low) - Your Response: If they turn into you, maintain your deep collar grip and transition to their back or to a modified mount position. The turning motion often makes the collar grip even deeper, and you can finish the loop choke from back control or side mount. → Leads to [[Mount]]
-- **Strips the lapel grip before the loop is fully established and bridges explosively to recover guard** (Effectiveness: High) - Your Response: This is the most effective defense if executed early. Counter by using your deep grip to off-balance them, or fake the loop choke to set up other attacks. If they're focused on defending the lapel grip, switch to armbar or Americana attacks on the defending arm. → Leads to [[Closed Guard]]
+- **Frames against attacker's hips and attempts to bridge and shrimp to escape mount** (Effectiveness: Low) - Your Response: Use your grips on their collar to base out and prevent the bridge, then continue tightening the choke as they expend energy. Their bridging motion can actually help tighten the collar around their neck. → Leads to [[Positions/Mount]]
+- **Grabs and pulls on the deep collar grip wrist to prevent proper positioning** (Effectiveness: Medium) - Your Response: If they grab your wrist, use your free hand to reinforce the grip or to strip their hand away. Alternatively, use their pulling to help you circle your elbow over their face, which can set up the loop configuration from a different angle. → Leads to [[Positions/Mount]]
+- **Tucks chin deeply to protect neck and collar access** (Effectiveness: Medium) - Your Response: If the chin is tucked early, use collar drags and arm attacks to force them to extend their neck. Alternatively, transition to other mount attacks like Americana or armbar to create reactions that expose the collar. Once they defend other attacks, the collar becomes available again. → Leads to [[Positions/Mount]]
+- **Turns into opponent to prevent the loop configuration and attempts to go to turtle** (Effectiveness: Low) - Your Response: If they turn into you, maintain your deep collar grip and transition to their back or to a modified mount position. The turning motion often makes the collar grip even deeper, and you can finish the loop choke from back control or side mount. → Leads to [[Positions/Mount]]
+- **Strips the lapel grip before the loop is fully established and bridges explosively to recover guard** (Effectiveness: High) - Your Response: This is the most effective defense if executed early. Counter by using your deep grip to off-balance them, or fake the loop choke to set up other attacks. If they're focused on defending the lapel grip, switch to armbar or Americana attacks on the defending arm. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

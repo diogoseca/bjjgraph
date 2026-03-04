@@ -21,7 +21,7 @@ The fundamental mechanics involve releasing the Darce figure-four lock while mai
 
 Strategically, this switch embodies the modern front headlock system's principle of constant submission threat cycling. Rather than abandoning control when one choke is defended, the practitioner flows to a sister submission that attacks from a complementary angle. This creates a chain attack system that compounds defensive difficulty for the trapped opponent, forcing them to address two distinct choking mechanics from a single control platform. The technique rewards sensitivity to the opponent's defensive reactions and the discipline to maintain pressure throughout the grip transition.
 
-**From Position**: [[Darce Control]] (Top)
+**From Position**: [[Positions/Darce Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this switch embodies the modern front headlock system's principle
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Anaconda Control]] | 55% |
-| Failure | [[Darce Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Anaconda Control]] | 55% |
+| Failure | [[Positions/Darce Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Darce to Anaconda Switch serves as a critical link within the front headlock
 ## Related Techniques
 
 
-- [[Darce Control]] - Source position from which this grip switch is initiated
+- [[Positions/Darce Control]] - Source position from which this grip switch is initiated
 
-- [[Anaconda Control]] - Target position achieved upon successful grip reconfiguration
+- [[Positions/Anaconda Control]] - Target position achieved upon successful grip reconfiguration
 
-- [[Front Headlock]] - Parent position encompassing both Darce and Anaconda control systems
+- [[Positions/Front Headlock]] - Parent position encompassing both Darce and Anaconda control systems
 
-- [[Darce Control Maintenance]] - Alternative option when maintaining Darce grip is more effective than switching
+- [[Transitions/Darce Control Maintenance]] - Alternative option when maintaining Darce grip is more effective than switching
 
-- [[Anaconda Choke]] - Primary submission available after successful switch to Anaconda configuration
+- [[Transitions/Anaconda Choke]] - Primary submission available after successful switch to Anaconda configuration
 
-- [[Back Take from Anaconda]] - Chain transition available from Anaconda control if choke is defended
+- [[Transitions/Back Take from Anaconda]] - Chain transition available from Anaconda control if choke is defended
 
-- [[Anaconda to Side Control]] - Positional advancement option after establishing Anaconda control
+- [[Transitions/Anaconda to Side Control]] - Positional advancement option after establishing Anaconda control
 
-- [[Anaconda Control to Dead Orchard Control]] - Advanced control transition accessible after completing the switch
+- [[Transitions/Anaconda Control to Dead Orchard Control]] - Advanced control transition accessible after completing the switch
 
-- [[Turtle]] - Common opponent position during front headlock exchanges where this switch occurs
+- [[Positions/Turtle]] - Common opponent position during front headlock exchanges where this switch occurs
 
-- [[Half Guard]] - Recovery position for defender if they successfully counter during the grip transition
+- [[Positions/Half Guard]] - Recovery position for defender if they successfully counter during the grip transition
 
 
 </section>

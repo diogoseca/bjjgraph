@@ -154,7 +154,7 @@ description: "How to defend the Omoplata to Back transition in BJJ. Recognition 
 
 Defending the Omoplata to Back transition requires understanding that your own forward roll escape from the omoplata is what creates the back take opportunity. As the person caught in the omoplata, you face a dilemma: staying in place allows the shoulder lock to finish, but rolling forward exposes your back. Effective defense starts before the roll by recognizing when the attacker is prepared to follow, and continues through the roll with specific actions to prevent hook insertion and seatbelt establishment. The defender's primary goals are to complete the roll while creating separation from the attacker's shoulder connection, immediately turn to face the attacker after the roll, and prevent the seatbelt grip from being established. Understanding the attacker's sequence of shoulder ride, first hook, seatbelt, second hook allows you to disrupt the chain at its most vulnerable link. Advanced defenders learn to time their roll to break the shoulder connection, use their free arm to block hook insertion, and turn explosively into the attacker before back control is consolidated.
 
-**Opponent's Starting Position**: [[Omoplata Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Omoplata Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Omoplata to Back transition requires understanding that your own f
 ### 1. Roll explosively at an angle to break shoulder connection and immediately turn to face attacker
 
 - **When to use**: When you must roll to escape the omoplata and the attacker's leg is heavy on your shoulder indicating they plan to follow
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: You face the attacker and re-establish a guard position, negating the back take and returning to a neutral guard exchange
 - **Risk**: If the roll is too slow or the angle is wrong, the attacker maintains connection and establishes back control despite your defensive effort
 
 ### 2. Post your free arm behind you during the roll to block the attacker's first hook insertion
 
 - **When to use**: As you complete the forward roll and feel the attacker following, use your free hand to frame against their inserting leg
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: Prevents the first hook from being established, giving you time to turn and face the attacker before they consolidate back control
 - **Risk**: Using your arm to block hooks means it is not available for posting or turning, which can delay your rotation and leave your neck exposed
 
 ### 3. Strip the seatbelt grip with two-on-one control on the choking arm before hooks are consolidated
 
 - **When to use**: When the attacker has begun establishing the seatbelt after the roll but has not yet locked both hooks
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: Breaking the seatbelt removes the primary control that prevents you from turning, allowing you to rotate and face the attacker or escape to turtle
 - **Risk**: If the attacker already has deep hooks, stripping the seatbelt alone may not be sufficient to escape and you remain in back control
 
 ### 4. Posture up aggressively in the omoplata to prevent the need to roll at all
 
 - **When to use**: Before committing to the forward roll, when you still have base and can stand or posture out of the omoplata
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: You escape the omoplata without rolling, eliminating the back take opportunity entirely and potentially achieving a top passing position
 - **Risk**: If posture recovery fails, you remain in the omoplata with the shoulder lock still active and may be forced to roll from a worse position
 
@@ -225,11 +225,11 @@ Defending the Omoplata to Back transition requires understanding that your own f
 
 ## Best-Case Outcomes for Defender
 
-### → [[Omoplata Control]]
+### → [[Positions/Omoplata Control]]
 
 Roll explosively at a diagonal angle while keeping elbows tight to break the attacker's shoulder connection, then immediately turn to face them and establish guard before they can re-enter the omoplata or take your back. The angular roll is key because rolling straight forward is what the attacker expects and has drilled to follow.
 
-### → [[Omoplata Control]]
+### → [[Positions/Omoplata Control]]
 
 If the attacker partially establishes back control, use two-on-one grip fighting on their choking arm to strip the seatbelt while simultaneously turning your hips toward them. Even if hooks remain, removing the seatbelt allows you to rotate into a scramble where you can recover to a guard position and the attacker may re-enter omoplata control rather than maintaining back mount.
 

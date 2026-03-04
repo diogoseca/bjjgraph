@@ -186,7 +186,7 @@ description: "Complete guide to executing the Stack Escape from Triangle in BJJ.
 
 Executing the Stack Escape from Triangle requires the top player to transform a defensive crisis into a passing opportunity through systematic forward driving pressure. As the player caught in the triangle, your primary objective is to collapse the choking geometry by driving your opponent's hips above their shoulders, eliminating the perpendicular angle that generates arterial compression. The technique demands controlled aggression—establishing proper grips before standing, maintaining constant forward pressure during the stack, and immediately consolidating position after clearing the triangle lock. Success depends on recognizing the transition window between full triangle defense and the moment when the opponent's structure breaks down under sustained stacking pressure, then capitalizing on that window before the bottom player can transition to an omoplata or recover their choking angle.
 
-**From Position**: [[Triangle Control]] (Top)
+**From Position**: [[Positions/Triangle Control]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Stack Escape from Triangle requires the top player to transform a 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Triangle Control]] | 30% |
-| Counter | [[Omoplata Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Triangle Control]] | 30% |
+| Counter | [[Positions/Omoplata Control]] | 20% |
 
 
 </section>
@@ -250,9 +250,9 @@ Executing the Stack Escape from Triangle requires the top player to transform a 
 
 ## Opponent Counters
 
-- **Angle re-adjustment through hip escaping to maintain perpendicular choking geometry** (Effectiveness: High) - Your Response: Pin their far shoulder to the mat with your free hand to prevent hip rotation and maintain constant forward driving pressure to override their angle adjustment before it completes → Leads to [[Triangle Control]]
-- **Omoplata transition by releasing triangle lock and pivoting hips to capture trapped arm** (Effectiveness: High) - Your Response: Keep trapped elbow tight to your ribcage, immediately pin their far shoulder to deny the rotation, and if the pivot begins, circle away from the omoplata direction while maintaining forward stack pressure → Leads to [[Omoplata Control]]
-- **Head pull with both hands to break posture and re-establish triangle choking pressure before stack develops** (Effectiveness: Medium) - Your Response: Drive chin into their sternum and use your posted leg to generate upward force through your entire body with core engaged, walk posted foot closer to their hip for stronger mechanical angle → Leads to [[Triangle Control]]
+- **Angle re-adjustment through hip escaping to maintain perpendicular choking geometry** (Effectiveness: High) - Your Response: Pin their far shoulder to the mat with your free hand to prevent hip rotation and maintain constant forward driving pressure to override their angle adjustment before it completes → Leads to [[Positions/Triangle Control]]
+- **Omoplata transition by releasing triangle lock and pivoting hips to capture trapped arm** (Effectiveness: High) - Your Response: Keep trapped elbow tight to your ribcage, immediately pin their far shoulder to deny the rotation, and if the pivot begins, circle away from the omoplata direction while maintaining forward stack pressure → Leads to [[Positions/Omoplata Control]]
+- **Head pull with both hands to break posture and re-establish triangle choking pressure before stack develops** (Effectiveness: Medium) - Your Response: Drive chin into their sternum and use your posted leg to generate upward force through your entire body with core engaged, walk posted foot closer to their hip for stronger mechanical angle → Leads to [[Positions/Triangle Control]]
 
 
 </section>

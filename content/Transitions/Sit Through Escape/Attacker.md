@@ -178,7 +178,7 @@ The escape works by combining a strategic weight shift with explosive hip rotati
 
 Strategically, the Sit Through Escape represents a high-percentage option when the opponent has established only the initial hook and has not yet secured deep upper body control. It is particularly effective against opponents who over-commit to the hooking leg or who extend too far forward in pursuit of back control. The escape transitions naturally into various open guard variations and can be chained with technical stand-ups when the opponent's reaction creates additional space.
 
-**From Position**: [[Crab Ride]] (Bottom)
+**From Position**: [[Positions/Crab Ride]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ Strategically, the Sit Through Escape represents a high-percentage option when t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 65% |
-| Failure | [[Crab Ride]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Open Guard]] | 65% |
+| Failure | [[Positions/Crab Ride]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ Strategically, the Sit Through Escape represents a high-percentage option when t
 
 ## Opponent Counters
 
-- **Opponent follows rotation and maintains back exposure by circling with your movement** (Effectiveness: High) - Your Response: Accelerate rotation speed and immediately transition to technical stand-up rather than settling into guard → Leads to [[Crab Ride]]
-- **Opponent drives forward and flattens you before rotation completes** (Effectiveness: High) - Your Response: Abandon the sit through and transition to Granby roll escape or re-establish turtle base → Leads to [[Back Control]]
-- **Opponent deepens hook and blocks hip rotation by pinning near-side hip to mat** (Effectiveness: Medium) - Your Response: Switch to hook stripping with same-side hand before re-attempting sit through → Leads to [[Crab Ride]]
-- **Opponent secures seat belt grip and prevents rotation through upper body control** (Effectiveness: Medium) - Your Response: Address seat belt by controlling choking hand first, then create space for escape → Leads to [[Back Control]]
+- **Opponent follows rotation and maintains back exposure by circling with your movement** (Effectiveness: High) - Your Response: Accelerate rotation speed and immediately transition to technical stand-up rather than settling into guard → Leads to [[Positions/Crab Ride]]
+- **Opponent drives forward and flattens you before rotation completes** (Effectiveness: High) - Your Response: Abandon the sit through and transition to Granby roll escape or re-establish turtle base → Leads to [[Positions/Back Control]]
+- **Opponent deepens hook and blocks hip rotation by pinning near-side hip to mat** (Effectiveness: Medium) - Your Response: Switch to hook stripping with same-side hand before re-attempting sit through → Leads to [[Positions/Crab Ride]]
+- **Opponent secures seat belt grip and prevents rotation through upper body control** (Effectiveness: Medium) - Your Response: Address seat belt by controlling choking hand first, then create space for escape → Leads to [[Positions/Back Control]]
 
 
 </section>

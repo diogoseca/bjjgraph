@@ -216,27 +216,27 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 
 ## Available Escapes
 
-### [[Matrix Back Take]] (52% of attempts)
+### [[Transitions/Matrix Back Take]] (52% of attempts)
 
-### [[Rolling Back Take]] (7% of attempts)
+### [[Transitions/Rolling Back Take]] (7% of attempts)
 
-### [[Arm Drag to Back]] (7% of attempts)
+### [[Transitions/Arm Drag to Back]] (7% of attempts)
 
-### [[Chair Sit to Back]] (5% of attempts)
+### [[Transitions/Chair Sit to Back]] (5% of attempts)
 
-### [[Granby Roll to Guard]] (13% of attempts)
+### [[Transitions/Granby Roll to Guard]] (13% of attempts)
 
-### [[Rolling to Guard]] (7% of attempts)
+### [[Transitions/Rolling to Guard]] (7% of attempts)
 
-### [[Berimbolo Entry]] (1% of attempts)
+### [[Transitions/Berimbolo Entry]] (1% of attempts)
 
-### [[Turtle to Guard]] (7% of attempts)
+### [[Transitions/Turtle to Guard]] (7% of attempts)
 
-### [[Counter Roll from Matrix]] (0% of attempts)
+### [[Transitions/Counter Roll from Matrix]] (0% of attempts)
 
-### [[Escape Matrix Position]] (0% of attempts)
+### [[Transitions/Escape Matrix Position]] (0% of attempts)
 
-### [[Sweep from Matrix]] (1% of attempts)
+### [[Transitions/Sweep from Matrix]] (1% of attempts)
 
 
 
@@ -247,23 +247,23 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 ## Decision Making from This Position
 
 **Opponent maintains static turtle position with narrow base:**
-- Execute **[[Matrix Back Take]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Matrix Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **Opponent widens base or posts hand to block rotation:**
-- Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Chair Sit to Back]]** → [[Crab Ride]] (Probability: 50%)
+- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Chair Sit to Back]]** → [[Positions/Crab Ride]] (Probability: 50%)
 
 
 **Rotation is blocked mid-movement by weight pressure:**
-- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 60%)
-- Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
 
 
 **Opponent actively scrambling or mobile:**
-- Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 50%)
-- Execute **[[Rolling to Guard]]** → [[Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Open Guard]] (Probability: 55%)
 
 
 
@@ -397,14 +397,14 @@ Intentionally practice incomplete or defended Matrix attempts, focusing on immed
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Primary target position achieved through successful Matrix execution
-- **[[Turtle]]** - Common starting position providing optimal structure for Matrix entry
-- **[[Rolling Back Take]]** - Similar rotational back take with comparable mechanics and timing
-- **[[Berimbolo Entry]]** - Shares inverted rolling mechanics and spatial awareness requirements
-- **[[Granby Roll to Guard]]** - Backup transition when Matrix is defended, uses similar rolling mechanics
-- **[[Crab Ride]]** - Alternative back attack approach with overlapping timing windows
-- **[[Back Attack System]]** - Comprehensive system integrating Matrix with other back take approaches
-- **[[Matrix Back Take]]** - Primary transition technique executed from this position
+- **[[Positions/Back Control]]** - Primary target position achieved through successful Matrix execution
+- **[[Positions/Turtle]]** - Common starting position providing optimal structure for Matrix entry
+- **[[Transitions/Rolling Back Take]]** - Similar rotational back take with comparable mechanics and timing
+- **[[Transitions/Berimbolo Entry]]** - Shares inverted rolling mechanics and spatial awareness requirements
+- **[[Transitions/Granby Roll to Guard]]** - Backup transition when Matrix is defended, uses similar rolling mechanics
+- **[[Positions/Crab Ride]]** - Alternative back attack approach with overlapping timing windows
+- **[[Systems/Back Attack System]]** - Comprehensive system integrating Matrix with other back take approaches
+- **[[Transitions/Matrix Back Take]]** - Primary transition technique executed from this position
 
 
 </section>

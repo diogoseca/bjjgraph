@@ -154,7 +154,7 @@ description: "Learn to defend the Triangle Setup from De La Riva Guard. Recognit
 
 Defending the Triangle Setup from De La Riva requires recognizing the setup early and addressing the threat before the triangle locks. As the defender occupying the top position in DLR, you must manage your arm position, maintain posture, and prevent the guard player from achieving the posture break and arm isolation that precede the triangle entry. The most critical defensive window is before the triangle locks, because once locked you are in Triangle Control defending a fully established submission threat with significantly reduced escape options. Your defensive priorities follow a clear hierarchy: keep both elbows inside the guard player's leg frames, maintain upright posture with your head above your hips, and actively neutralize the DLR framework through passing pressure rather than remaining static in the guard.
 
-**Opponent's Starting Position**: [[De La Riva Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Triangle Setup from De La Riva requires recognizing the setup earl
 ### 1. Posture up explosively and drive hips back to prevent triangle from locking
 
 - **When to use**: As soon as you feel the opponent's leg disengaging from your hip and moving upward toward your neck, or when their pulling force on your sleeve increases dramatically
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Prevents triangle from locking and returns the engagement to standard DLR guard passing where you retain top position advantage
 - **Risk**: If the triangle is already partially locked when you posture, the stacking motion may feed into their omoplata transition
 
 ### 2. Strip the cross sleeve grip using a two-on-one break before posture breaks
 
 - **When to use**: When you recognize increased pulling tension on your far sleeve indicating the initial phase of triangle setup before posture has been compromised
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Removes the arm isolation that makes the triangle possible, forcing the opponent to re-establish grips before they can attempt the setup again
 - **Risk**: Momentary grip fighting with both hands on one arm creates a brief posture vulnerability that the opponent may exploit for a sweep
 
 ### 3. Drive knee through the guard during the DLR hook release window to initiate a pass
 
 - **When to use**: During the brief moment when the opponent releases their DLR hook to reposition for the triangle leg shoot, creating a gap in their guard structure
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You pass the guard entirely during their most vulnerable transition moment, converting their attack into your dominant position advancement
 - **Risk**: If you mistime the drive and the opponent retains hook control, you may feed directly into the closing triangle with your posture compromised
 
 ### 4. Circle away from the shooting leg side while maintaining base
 
 - **When to use**: When you see the non-hooking leg beginning to swing upward toward your neck and you have time to create lateral distance
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Creates distance that prevents the shooting leg from reaching your neck, resetting to neutral DLR engagement where you can resume passing
 - **Risk**: Circling too far can expose your back or create off-balancing opportunity if the DLR hook is still active and the opponent follows your movement
 
@@ -225,11 +225,11 @@ Defending the Triangle Setup from De La Riva requires recognizing the setup earl
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Time a guard pass attempt during the opponent's DLR hook release window. When they release the hook to shoot the triangle, drive your knee through the opening and apply immediate passing pressure. This exploits the brief moment when neither their DLR structure nor their triangle is established, converting their attack into your passing opportunity.
 
-### → [[De La Riva Guard]]
+### → [[Positions/De La Riva Guard]]
 
 Recognize the triangle setup early through sleeve grip tension and leg movement cues. Strip the cross sleeve grip using a two-on-one break before your posture breaks. Maintain strong upright posture throughout and keep elbows pinched tight to your ribcage. The earlier you interrupt the setup sequence, the more cleanly you return to standard DLR engagement where you retain the initiative for passing.
 

@@ -97,13 +97,13 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 ### Available Transitions
 
 
-- **[[Trap and Roll from S Mount]]** (30% of attempts)
+- **[[Transitions/Trap and Roll from S Mount]]** (30% of attempts)
 
-- **[[Frame and Shrimp from S Mount]]** (28% of attempts)
+- **[[Transitions/Frame and Shrimp from S Mount]]** (28% of attempts)
 
-- **[[Bridge Escape from S Mount]]** (25% of attempts)
+- **[[Transitions/Bridge Escape from S Mount]]** (25% of attempts)
 
-- **[[Bridge and Roll]]** (17% of attempts)
+- **[[Transitions/Bridge and Roll]]** (17% of attempts)
 
 
 ### Common Mistakes
@@ -164,25 +164,25 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 ### Available Transitions
 
 
-- **[[Mount to Armbar]]** (34% of attempts)
+- **[[Transitions/Mount to Armbar]]** (34% of attempts)
 
-- **[[Triangle from Mount]]** (15% of attempts)
+- **[[Transitions/Triangle from Mount]]** (15% of attempts)
 
-- **[[Americana]]** (7% of attempts)
+- **[[Transitions/Americana]]** (7% of attempts)
 
-- **[[Kimura]]** (7% of attempts)
+- **[[Transitions/Kimura]]** (7% of attempts)
 
-- **[[Back Take]]** (11% of attempts)
+- **[[Transitions/Back Take]]** (11% of attempts)
 
-- **[[Mounted Crucifix Entry]]** (7% of attempts)
+- **[[Transitions/Mounted Crucifix Entry]]** (7% of attempts)
 
-- **[[Gift Wrap to Back]]** (12% of attempts)
+- **[[Transitions/Gift Wrap to Back]]** (12% of attempts)
 
-- **[[S Mount Armbar Setup]]** (3% of attempts)
+- **[[Transitions/S Mount Armbar Setup]]** (3% of attempts)
 
-- **[[S Mount to Mounted Triangle]]** (2% of attempts)
+- **[[Transitions/S Mount to Mounted Triangle]]** (2% of attempts)
 
-- **[[Armbar from S Mount]]** (2% of attempts)
+- **[[Submissions/Armbar from S Mount]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -225,21 +225,21 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 ## Related Positions
 
 
-- **[[Mount]]** - Primary entry position - S Mount is an attacking transition from standard mount
+- **[[Positions/Mount]]** - Primary entry position - S Mount is an attacking transition from standard mount
 
-- **[[High Mount]]** - Alternative dominant position - can transition between high mount and S Mount for submissions
+- **[[Positions/Mount/High Mount]]** - Alternative dominant position - can transition between high mount and S Mount for submissions
 
-- **[[Armbar Control]]** - Primary submission destination - S Mount provides optimal setup for armbar finish
+- **[[Positions/Armbar Control]]** - Primary submission destination - S Mount provides optimal setup for armbar finish
 
-- **[[Mounted Triangle]]** - Alternative submission - can transition to mounted triangle if armbar is defended
+- **[[Positions/Mount/Mounted Triangle]]** - Alternative submission - can transition to mounted triangle if armbar is defended
 
-- **[[Side Control]]** - Common entry position - can attack S Mount directly from side control via arm isolation
+- **[[Positions/Side Control]]** - Common entry position - can attack S Mount directly from side control via arm isolation
 
-- **[[Back Control]]** - Alternative advancement - if opponent turns away from S Mount, take the back
+- **[[Positions/Back Control]]** - Alternative advancement - if opponent turns away from S Mount, take the back
 
-- **[[Mounted Crucifix]]** - Alternative control position - similar arm isolation mechanics with different body configuration
+- **[[Positions/Mount/Mounted Crucifix]]** - Alternative control position - similar arm isolation mechanics with different body configuration
 
-- **[[Gift Wrap]]** - Arm control position - can lead to S Mount entry when opponent's arm is trapped
+- **[[Positions/Gift Wrap]]** - Arm control position - can lead to S Mount entry when opponent's arm is trapped
 
 
 </section>

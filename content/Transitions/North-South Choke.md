@@ -21,7 +21,7 @@ Strategically, the North-South Choke serves as a powerful complement to Kimura a
 
 The key mechanical principle involves threading your choking arm deep under the opponent's neck while your chest drops onto their face, sealing the choke on both sides simultaneously. Unlike collar chokes that can stall or allow breathing, a properly applied North-South Choke produces unconsciousness within seconds due to bilateral carotid compression. This makes it one of the most efficient blood chokes in grappling when executed correctly.
 
-**From Position**: [[North-South]] (Top)
+**From Position**: [[Positions/North-South]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -33,8 +33,8 @@ The key mechanical principle involves threading your choking arm deep under the 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[North-South]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/North-South]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The North-South Choke integrates into the North-South control system as a primar
 ## Related Techniques
 
 
-- [[North-South]] - Primary starting position for this choke
+- [[Positions/North-South]] - Primary starting position for this choke
 
-- [[Kesa Gatame]] - Alternative starting position for transition to North-South
+- [[Positions/Side Control/Kesa Gatame]] - Alternative starting position for transition to North-South
 
-- [[Side Control]] - Common position to transition from before reaching North-South
+- [[Positions/Side Control]] - Common position to transition from before reaching North-South
 
-- [[North-South to Kimura]] - Complementary arm attack creating submission dilemma
+- [[Transitions/North-South to Kimura]] - Complementary arm attack creating submission dilemma
 
-- [[Americana]] - Alternative submission from North-South position
+- [[Transitions/Americana]] - Alternative submission from North-South position
 
-- [[Front Headlock]] - Transition option when opponent turns in during choke defense
+- [[Positions/Front Headlock]] - Transition option when opponent turns in during choke defense
 
-- [[Guillotine Choke]] - Alternative choke if opponent creates space and exposes neck
+- [[Transitions/Guillotine Choke]] - Alternative choke if opponent creates space and exposes neck
 
-- [[Arm Triangle]] - Related choking concept using different compression mechanics
+- [[Transitions/Arm Triangle]] - Related choking concept using different compression mechanics
 
-- [[Knee on Belly]] - Transition option for positional advancement when choke fails
+- [[Positions/Knee on Belly]] - Transition option for positional advancement when choke fails
 
-- [[North-South Choke]] - Submission finish directly from this transition setup
+- [[Transitions/North-South Choke]] - Submission finish directly from this transition setup
 
-- [[Half Guard]] - Position opponent may recover to if choke attempt is countered
+- [[Positions/Half Guard]] - Position opponent may recover to if choke attempt is countered
 
 
 </section>

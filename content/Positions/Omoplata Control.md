@@ -89,23 +89,23 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 ### Available Transitions
 
 
-- **[[Omoplata]]** (13% of attempts)
+- **[[Transitions/Omoplata]]** (13% of attempts)
 
-- **[[Omoplata Sweep]]** (30% of attempts)
+- **[[Transitions/Omoplata Sweep]]** (30% of attempts)
 
-- **[[Omoplata to Back]]** (11% of attempts)
+- **[[Transitions/Omoplata to Back]]** (11% of attempts)
 
-- **[[Triangle Setup]]** (14% of attempts)
+- **[[Transitions/Triangle Setup]]** (14% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (13% of attempts)
+- **[[Transitions/Closed Guard to Omoplata]]** (13% of attempts)
 
-- **[[Rolling Omoplata]]** (11% of attempts)
+- **[[Submissions/Rolling Omoplata]]** (11% of attempts)
 
-- **[[Cartwheel Escape from Omoplata]]** (5% of attempts)
+- **[[Transitions/Cartwheel Escape from Omoplata]]** (5% of attempts)
 
-- **[[Roll Forward from Omoplata]]** (2% of attempts)
+- **[[Transitions/Roll Forward from Omoplata]]** (2% of attempts)
 
-- **[[Stack Defense from Omoplata]]** (1% of attempts)
+- **[[Transitions/Stack Defense from Omoplata]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -162,17 +162,17 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 ### Available Transitions
 
 
-- **[[Omoplata]]** (19% of attempts)
+- **[[Transitions/Omoplata]]** (19% of attempts)
 
-- **[[Omoplata to Back]]** (19% of attempts)
+- **[[Transitions/Omoplata to Back]]** (19% of attempts)
 
-- **[[Omoplata Sweep]]** (17% of attempts)
+- **[[Transitions/Omoplata Sweep]]** (17% of attempts)
 
-- **[[Triangle Setup]]** (14% of attempts)
+- **[[Transitions/Triangle Setup]]** (14% of attempts)
 
-- **[[Armbar from Guard]]** (17% of attempts)
+- **[[Submissions/Armbar from Guard]]** (17% of attempts)
 
-- **[[Rolling Back Take]]** (14% of attempts)
+- **[[Transitions/Rolling Back Take]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -211,21 +211,21 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 ## Related Positions
 
 
-- **[[Triangle Control]]** - Alternative shoulder attack with similar control principles
+- **[[Positions/Triangle Control]]** - Alternative shoulder attack with similar control principles
 
-- **[[Armbar Control]]** - Complementary arm attack from similar guard positions
+- **[[Positions/Armbar Control]]** - Complementary arm attack from similar guard positions
 
-- **[[Closed Guard]]** - Traditional entry position for omoplata attacks
+- **[[Positions/Closed Guard]]** - Traditional entry position for omoplata attacks
 
-- **[[Spider Guard]]** - Modern entry position with strong omoplata connections
+- **[[Positions/Spider Guard]]** - Modern entry position with strong omoplata connections
 
-- **[[Back Control]]** - Primary transition target when opponent defends
+- **[[Positions/Back Control]]** - Primary transition target when opponent defends
 
-- **[[Mount]]** - Common result after successful omoplata sweep
+- **[[Positions/Mount]]** - Common result after successful omoplata sweep
 
-- **[[Rubber Guard]]** - Alternative guard with similar shoulder control mechanics
+- **[[Positions/Rubber Guard]]** - Alternative guard with similar shoulder control mechanics
 
-- **[[Lasso Guard]]** - Entry position with arm isolation for omoplata setup
+- **[[Positions/Lasso Guard]]** - Entry position with arm isolation for omoplata setup
 
 
 </section>

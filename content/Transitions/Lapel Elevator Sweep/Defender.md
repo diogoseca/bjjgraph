@@ -156,7 +156,7 @@ Defending the Lapel Elevator Sweep requires understanding the compound lever mec
 
 The most important defensive principle is addressing the lapel configuration early rather than reacting to the sweep itself. Once your opponent has established full lapel tension, butterfly hook placement, and sleeve control, the sweep becomes extremely difficult to stop through reactive defense alone. Prevention through early lapel grip stripping, posture management, and base maintenance is significantly more effective than last-second counters. Recognizing the setup phase and intervening before the compound lever system is fully assembled gives you the best chance of maintaining your position or even advancing past the guard.
 
-**Opponent's Starting Position**: [[Lapel Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ The most important defensive principle is addressing the lapel configuration ear
 ### 1. Strip the lapel grip early by controlling opponent's gripping hand and systematically unwinding the fabric from your leg or torso before the full configuration is established
 
 - **When to use**: As soon as you recognize the opponent is feeding the lapel around your body—the earlier you intervene, the easier the grip break. Prioritize this before they establish the butterfly hook.
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Opponent loses their primary control mechanism and must re-extract and re-feed the lapel, resetting the exchange to a neutral lapel guard position where you can advance your pass
 - **Risk**: If you commit both hands to grip stripping, you temporarily lose base and your opponent may time a different sweep or transition to an alternative guard during your clearing attempt
 
 ### 2. Post your free hand wide and drive your weight toward the hook side, flattening your hips into the opponent to eliminate the elevation angle while backstep passing around the lapel barrier
 
 - **When to use**: When the sweep has already been initiated and you feel the elevation beginning—this is a reactive last-resort defense when prevention has failed and you must counter mid-execution
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: You neutralize the sweep by removing the diagonal angle needed for the compound lever to function, and the backstep motion navigates you around the lapel control toward passing position
 - **Risk**: Your posting arm becomes exposed to omoplata if opponent redirects their attack—the posted arm is a classic submission target from lapel guard bottom
 
 ### 3. Create distance by standing up tall and pressuring backward to reduce lapel tension below the threshold needed to prevent posting, then immediately work to clear the lapel wrap from your leg
 
 - **When to use**: When opponent has the lapel configuration but has not yet secured your sleeve—posturing up before the final grip is established removes the forward weight loading the sweep requires
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Reduces lapel mechanical advantage, forces opponent to sit up and chase the connection, and creates space for you to systematically clear the lapel configuration from a stable standing position
 - **Risk**: Opponent may follow your posture by sitting up aggressively and threatening back take as you create distance, or use the slack to transition to a different lapel guard variation
 
 ### 4. Drop weight sharply and drive knee through opponent's guard centerline to initiate a pressure pass, using forward commitment to take away the space needed for hook elevation
 
 - **When to use**: When opponent's hook is set but their sleeve grip is not yet secured—your forward drive removes the space between you needed for the lifting motion before the sweep is fully armed
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your knee drive splits the guard and your heavy forward pressure prevents the hook from generating lift, potentially forcing opponent into half guard where their lapel configuration provides less sweeping leverage
 - **Risk**: If your timing is off, your forward drive actually loads the sweep by putting your weight directly onto the butterfly hook—opponent can redirect your momentum into the sweep
 
@@ -225,11 +225,11 @@ The most important defensive principle is addressing the lapel configuration ear
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lapel Guard]]
+### → [[Positions/Lapel Guard]]
 
 Strip the lapel grip or create enough distance to neutralize the sweep threat, forcing the exchange back to a neutral lapel guard position where you can begin your passing sequence. The key is removing at least one of the three elements (lapel tension, hook placement, sleeve control) to disarm the compound lever system.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If the sweep is partially initiated but you manage to insert your knee and drive through the guard centerline, you can settle into half guard top where the opponent's lapel configuration provides significantly less sweeping leverage. This is a damage control outcome—not ideal, but far better than being swept to mount.
 

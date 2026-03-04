@@ -180,7 +180,7 @@ description: "How to execute Spider Guard to Omoplata in BJJ. Attacking perspect
 
 The Spider Guard to Omoplata attack requires precise coordination between grip control, foot pressure, hip movement, and explosive leg swing to capture the opponent's shoulder in the omoplata configuration. From spider guard bottom, you use your feet on the opponent's biceps and sleeve grips to create arm extension and posture breakdown, then exploit the moment when their weight commits forward or their arm is maximally extended to swing your leg over their shoulder and sit up into dominant omoplata control. The entire sequence from initial spider guard pressure through established omoplata control should flow as one continuous chain of movements. The attacking mindset requires patience during setup, recognizing that the omoplata opportunity must be created through persistent spider guard pressure rather than forced from a neutral position. Once the timing window appears, the execution must be explosive and committed, as a hesitant or partial entry gives the opponent time to counter.
 
-**From Position**: [[Spider Guard]] (Bottom)
+**From Position**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ The Spider Guard to Omoplata attack requires precise coordination between grip c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Omoplata Control]] | 55% |
-| Failure | [[Spider Guard]] | 30% |
-| Counter | [[Spider Guard]] | 15% |
+| Success | [[Positions/Omoplata Control]] | 55% |
+| Failure | [[Positions/Spider Guard]] | 30% |
+| Counter | [[Positions/Spider Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ The Spider Guard to Omoplata attack requires precise coordination between grip c
 
 ## Opponent Counters
 
-- **Opponent stacks by driving weight forward and stepping around to pass** (Effectiveness: High) - Your Response: As they stack, immediately transition to triangle by bringing your bottom leg up and over their back while maintaining sleeve control. Alternatively, roll backward using their stacking momentum to sweep them over you into a reversal. Never force the omoplata against a committed stack. → Leads to [[Spider Guard]]
-- **Opponent pulls their trapped arm free during the leg swing phase** (Effectiveness: Medium) - Your Response: If the arm begins escaping during the swing, abort the omoplata and immediately transition to triangle setup since their head is already partially between your legs. Maintain your remaining sleeve grip and foot control to retain spider guard if the triangle is not available. → Leads to [[Spider Guard]]
-- **Opponent stands up explosively as you initiate the attack** (Effectiveness: Medium) - Your Response: Use your leg over their shoulder as a hook to pull them back down while simultaneously sweeping their far leg with your bottom leg. Their standing momentum combined with your downward pull creates a powerful sweep opportunity. If the sweep fails, transition to single leg X-guard using the hook you already have. → Leads to [[Spider Guard]]
-- **Opponent rolls forward through the omoplata after you establish control** (Effectiveness: Low) - Your Response: Follow their roll immediately, maintaining hip connection and leg pressure across their back. As they complete the roll, transition to back control by inserting hooks and establishing seatbelt grip. The forward roll actually assists your back take if you maintain connection throughout the roll. → Leads to [[Omoplata Control]]
+- **Opponent stacks by driving weight forward and stepping around to pass** (Effectiveness: High) - Your Response: As they stack, immediately transition to triangle by bringing your bottom leg up and over their back while maintaining sleeve control. Alternatively, roll backward using their stacking momentum to sweep them over you into a reversal. Never force the omoplata against a committed stack. → Leads to [[Positions/Spider Guard]]
+- **Opponent pulls their trapped arm free during the leg swing phase** (Effectiveness: Medium) - Your Response: If the arm begins escaping during the swing, abort the omoplata and immediately transition to triangle setup since their head is already partially between your legs. Maintain your remaining sleeve grip and foot control to retain spider guard if the triangle is not available. → Leads to [[Positions/Spider Guard]]
+- **Opponent stands up explosively as you initiate the attack** (Effectiveness: Medium) - Your Response: Use your leg over their shoulder as a hook to pull them back down while simultaneously sweeping their far leg with your bottom leg. Their standing momentum combined with your downward pull creates a powerful sweep opportunity. If the sweep fails, transition to single leg X-guard using the hook you already have. → Leads to [[Positions/Spider Guard]]
+- **Opponent rolls forward through the omoplata after you establish control** (Effectiveness: Low) - Your Response: Follow their roll immediately, maintaining hip connection and leg pressure across their back. As they complete the roll, transition to back control by inserting hooks and establishing seatbelt grip. The forward roll actually assists your back take if you maintain connection throughout the roll. → Leads to [[Positions/Omoplata Control]]
 
 
 </section>

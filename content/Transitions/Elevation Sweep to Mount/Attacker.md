@@ -178,7 +178,7 @@ Strategically, the Elevation Sweep represents the highest-reward option from Rev
 
 This sweep integrates naturally into the Reverse X-Guard attack system, functioning as the primary direct sweep when the opponent fails to widen their base or drop their hips defensively. When the opponent defends by widening stance or lowering weight, alternative attacks like the Reverse X-Guard Sweep (technical sweep) or transitions to Single Leg X-Guard become available, creating an offensive system where each defense opens new attack vectors.
 
-**From Position**: [[Reverse X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
 
@@ -230,9 +230,9 @@ This sweep integrates naturally into the Reverse X-Guard attack system, function
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 65% |
-| Failure | [[Reverse X-Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount]] | 65% |
+| Failure | [[Positions/X-Guard/Reverse X-Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ This sweep integrates naturally into the Reverse X-Guard attack system, function
 
 ## Opponent Counters
 
-- **Widening base and dropping hips low to prevent elevation** (Effectiveness: High) - Your Response: Transition to technical Reverse X-Guard Sweep or follow their base widening to Single Leg X-Guard entry → Leads to [[Reverse X-Guard]]
-- **Stepping back with trapped leg to remove hooks** (Effectiveness: Medium) - Your Response: Follow their movement with inversion and transition to back take, or immediately switch to Ashi Garami entry → Leads to [[Reverse X-Guard]]
-- **Posting hand on mat behind to prevent backward fall** (Effectiveness: Medium) - Your Response: Increase forward pull on sleeve grip to prevent posting, or switch to technical sweep angle that takes advantage of their weight shift → Leads to [[Reverse X-Guard]]
-- **Sprawling forward to flatten guard player and drive through hooks** (Effectiveness: Low) - Your Response: Use their forward pressure to transition to Deep Half Guard entry, as sprawl actually assists this transition → Leads to [[Half Guard]]
+- **Widening base and dropping hips low to prevent elevation** (Effectiveness: High) - Your Response: Transition to technical Reverse X-Guard Sweep or follow their base widening to Single Leg X-Guard entry → Leads to [[Positions/X-Guard/Reverse X-Guard]]
+- **Stepping back with trapped leg to remove hooks** (Effectiveness: Medium) - Your Response: Follow their movement with inversion and transition to back take, or immediately switch to Ashi Garami entry → Leads to [[Positions/X-Guard/Reverse X-Guard]]
+- **Posting hand on mat behind to prevent backward fall** (Effectiveness: Medium) - Your Response: Increase forward pull on sleeve grip to prevent posting, or switch to technical sweep angle that takes advantage of their weight shift → Leads to [[Positions/X-Guard/Reverse X-Guard]]
+- **Sprawling forward to flatten guard player and drive through hooks** (Effectiveness: Low) - Your Response: Use their forward pressure to transition to Deep Half Guard entry, as sprawl actually assists this transition → Leads to [[Positions/Half Guard]]
 
 
 </section>

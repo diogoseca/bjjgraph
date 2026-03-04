@@ -180,7 +180,7 @@ description: "Complete attacking guide for the Knee Slice from Reverse X-Guard. 
 
 As the attacker executing the Knee Slice from Reverse X-Guard, your objective is to convert a defensive top position against an active inverted guard into a dominant side control. This requires reading hook integrity in real time, establishing upper body control to anchor your passing angle, and committing to a decisive knee cut at the precise moment the bottom player's structure weakens. The pass demands a blend of patience during the setup phase and explosiveness during execution—rushing the slice into intact hooks fails, but waiting too long allows re-establishment. Mastering this technique gives you a reliable passing option against one of the most common modern guard positions, and the mechanics transfer directly to knee slice passes from other entanglement positions.
 
-**From Position**: [[Reverse X-Guard]] (Top)
+**From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Top)
 
 </section>
 
@@ -232,10 +232,10 @@ As the attacker executing the Knee Slice from Reverse X-Guard, your objective is
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Half Guard]] | 25% |
-| Failure | [[Reverse X-Guard]] | 15% |
-| Counter | [[Single Leg X-Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Failure | [[Positions/X-Guard/Reverse X-Guard]] | 15% |
+| Counter | [[Positions/X-Guard/Single Leg X-Guard]] | 10% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the Knee Slice from Reverse X-Guard, your objective is
 
 ## Opponent Counters
 
-- **Opponent re-hooks behind your knee as you initiate the slice** (Effectiveness: High) - Your Response: If the hook catches early, reset to base management and repeat the hook stripping process. If it catches late, drive more aggressive forward pressure to flatten their structure and force the hook shallow enough to slice through. → Leads to [[Reverse X-Guard]]
-- **Opponent frames on your hip with their hands to block the knee from cutting across** (Effectiveness: Medium) - Your Response: Swim your arm inside their frame to collapse it, or switch to a backstep pass that attacks from the opposite angle. The frame is strong against direct pressure but weak against angle changes. → Leads to [[Reverse X-Guard]]
-- **Opponent inserts their knee to catch half guard as you slice through** (Effectiveness: High) - Your Response: If caught in half guard, immediately establish crossface and underhook to prevent them from recovering to a strong half guard position. Continue the pass using knee slice from half guard mechanics or transition to smash half guard passing. → Leads to [[Half Guard]]
-- **Opponent redirects your slicing leg into Single Leg X-Guard hooks** (Effectiveness: Medium) - Your Response: Immediately stop forward momentum and address the new hook configuration. Backstep to clear the Single Leg X hooks or apply the same hook stripping principles from the new position before re-attempting the pass. → Leads to [[Single Leg X-Guard]]
+- **Opponent re-hooks behind your knee as you initiate the slice** (Effectiveness: High) - Your Response: If the hook catches early, reset to base management and repeat the hook stripping process. If it catches late, drive more aggressive forward pressure to flatten their structure and force the hook shallow enough to slice through. → Leads to [[Positions/X-Guard/Reverse X-Guard]]
+- **Opponent frames on your hip with their hands to block the knee from cutting across** (Effectiveness: Medium) - Your Response: Swim your arm inside their frame to collapse it, or switch to a backstep pass that attacks from the opposite angle. The frame is strong against direct pressure but weak against angle changes. → Leads to [[Positions/X-Guard/Reverse X-Guard]]
+- **Opponent inserts their knee to catch half guard as you slice through** (Effectiveness: High) - Your Response: If caught in half guard, immediately establish crossface and underhook to prevent them from recovering to a strong half guard position. Continue the pass using knee slice from half guard mechanics or transition to smash half guard passing. → Leads to [[Positions/Half Guard]]
+- **Opponent redirects your slicing leg into Single Leg X-Guard hooks** (Effectiveness: Medium) - Your Response: Immediately stop forward momentum and address the new hook configuration. Backstep to clear the Single Leg X hooks or apply the same hook stripping principles from the new position before re-attempting the pass. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
 
 
 </section>

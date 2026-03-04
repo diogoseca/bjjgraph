@@ -146,7 +146,7 @@ description: "Defend against the hip escape from cross body ride in BJJ. Learn t
 
 Defending against the hip escape from cross body ride requires the top player to maintain relentless perpendicular pressure while staying ready to follow the bottom player's lateral movement. The key defensive principle is prevention through pressure—maintaining heavy chest contact that eliminates the space needed for effective shrimping. When the escape is initiated, the defender must choose between re-establishing the ride through forward drive or capitalizing on the movement to advance to back control. Understanding the bottom player's escape timing and preferred direction allows the top player to convert defensive reactions into offensive transitions, turning escape attempts into position advancement opportunities.
 
-**Opponent's Starting Position**: [[Cross Body Ride]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Cross Body Ride]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ Defending against the hip escape from cross body ride requires the top player to
 ### 1. Drive chest weight forward and down to re-flatten bottom player before escape completes
 
 - **When to use**: Early in the escape sequence when you first feel the frame establishing against your hip, before explosive movement begins
-- **Targets**: [[Cross Body Ride]]
+- **Targets**: [[Positions/Cross Body Ride]]
 - **If successful**: Bottom player returns to flattened position under ride with their escape attempt neutralized
 - **Risk**: Over-committing weight forward opens you to sit-out or granby roll escapes that exploit forward momentum
 
 ### 2. Follow hip movement laterally to maintain perpendicular angle and chest contact
 
 - **When to use**: During the shrimping motion when lateral space begins to open but has not yet reached critical separation
-- **Targets**: [[Cross Body Ride]]
+- **Targets**: [[Positions/Cross Body Ride]]
 - **If successful**: Ride is maintained at updated angle with the bottom player's escape energy wasted
 - **Risk**: Moving too slowly or in wrong direction allows enough space for turtle recovery or guard insertion
 
 ### 3. Capitalize on created space by immediately securing seatbelt and inserting hooks for back control
 
 - **When to use**: When hip escape creates significant space and perpendicular chest contact is breaking down beyond recovery
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Convert compromised ride directly into full back control with hooks and seatbelt established
 - **Risk**: Reaching for hooks without securing upper body control first may allow guard recovery in the transition
 
 ### 4. Strip bottom player's framing arm and re-establish heavy chest pressure before escape initiates
 
 - **When to use**: When you identify the frame posting against your hip before the explosive escape movement begins
-- **Targets**: [[Cross Body Ride]]
+- **Targets**: [[Positions/Cross Body Ride]]
 - **If successful**: Removes the primary escape lever, making subsequent hip escape attempts significantly less effective
 - **Risk**: Hand fighting to strip the frame can create space if done without simultaneously maintaining chest pressure
 
@@ -216,11 +216,11 @@ Defending against the hip escape from cross body ride requires the top player to
 
 ## Best-Case Outcomes for Defender
 
-### → [[Cross Body Ride]]
+### → [[Positions/Cross Body Ride]]
 
 Maintain constant heavy perpendicular pressure and follow all lateral hip movement immediately. Strip frames as they appear and keep your weight centered on their upper back. Prevent the escape from ever generating enough space to be effective.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the hip escape creates enough space that the ride is compromised beyond recovery, immediately transition to securing seatbelt control and inserting the near-side hook. Use the bottom player's own escape momentum to accelerate your transition to full back control.
 

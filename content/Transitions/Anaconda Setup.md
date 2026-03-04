@@ -21,7 +21,7 @@ Unlike the traditional guillotine or Darce choke setups, the anaconda requires p
 
 This technique exemplifies the modern front headlock system's emphasis on control, patience, and positional dominance before attempting the finish. Rushing the setup often results in the opponent escaping to guard or achieving a single leg position, making methodical execution essential for success at all levels of competition.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -32,9 +32,9 @@ This technique exemplifies the modern front headlock system's emphasis on contro
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Anaconda Control]] | 65% |
-| Failure | [[Front Headlock]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Anaconda Control]] | 65% |
+| Failure | [[Positions/Front Headlock]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -194,25 +194,25 @@ The anaconda setup is a fundamental component of the modern front headlock syste
 ## Related Techniques
 
 
-- [[Anaconda Choke]] - Natural follow-up finish from this setup position
+- [[Transitions/Anaconda Choke]] - Natural follow-up finish from this setup position
 
-- [[Darce Choke]] - Alternative attack when near arm is tucked defensively
+- [[Transitions/Darce Choke]] - Alternative attack when near arm is tucked defensively
 
-- [[Front Headlock to Anaconda]] - Entry pathway from standing or scramble positions
+- [[Transitions/Front Headlock to Anaconda]] - Entry pathway from standing or scramble positions
 
-- [[Guillotine Choke]] - Alternative attack from same front headlock control
+- [[Transitions/Guillotine Choke]] - Alternative attack from same front headlock control
 
-- [[Darce Setup]] - Complementary setup from same starting position
+- [[Transitions/Darce Setup]] - Complementary setup from same starting position
 
-- [[Front Headlock to Darce]] - Related transition technique with similar mechanics
+- [[Transitions/Front Headlock to Darce]] - Related transition technique with similar mechanics
 
-- [[Japanese Necktie Setup]] - Alternative choke from front headlock position
+- [[Transitions/Japanese Necktie Setup]] - Alternative choke from front headlock position
 
-- [[Arm Triangle]] - Another head-and-arm choke option from turtle top
+- [[Transitions/Arm Triangle]] - Another head-and-arm choke option from turtle top
 
-- [[Front Headlock to Back]] - Positional alternative when submission setup fails
+- [[Transitions/Front Headlock to Back]] - Positional alternative when submission setup fails
 
-- [[Anaconda Control]] - Target control position after successful setup
+- [[Positions/Anaconda Control]] - Target control position after successful setup
 
 
 </section>

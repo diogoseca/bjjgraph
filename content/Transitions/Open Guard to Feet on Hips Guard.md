@@ -21,7 +21,7 @@ Strategically, this transition serves as the gateway between unstructured open g
 
 The position's value in modern competition cannot be overstated. Elite guard players use this transition as a reset mechanism when more complex guards are disrupted, as a launching platform for sweep chains, and as a defensive emergency response when passing pressure intensifies. The ability to rapidly establish feet on hips from any open guard configuration is a hallmark of high-level guard retention, providing the practitioner with a reliable fallback position that maintains offensive potential while immediately addressing the most urgent defensive priorities.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ The position's value in modern competition cannot be overstated. Elite guard pla
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Feet on Hips Guard]] | 60% |
-| Failure | [[Open Guard]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Feet on Hips Guard]] | 60% |
+| Failure | [[Positions/Open Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,21 +189,21 @@ The transition to feet on hips guard occupies a central position in the BJJ guar
 ## Related Techniques
 
 
-- [[Open Guard]] - Starting position from which this transition initiates
+- [[Positions/Open Guard]] - Starting position from which this transition initiates
 
-- [[Feet on Hips Guard]] - Target position achieved on successful execution
+- [[Positions/Feet on Hips Guard]] - Target position achieved on successful execution
 
-- [[Spider Guard]] - Natural progression when sleeve grips are added after establishing feet on hips
+- [[Positions/Spider Guard]] - Natural progression when sleeve grips are added after establishing feet on hips
 
-- [[De La Riva Guard]] - Common follow-up guard when opponent advances one leg past the foot frame
+- [[Positions/De La Riva Guard]] - Common follow-up guard when opponent advances one leg past the foot frame
 
-- [[Closed Guard]] - Alternative guard recovery option when opponent closes distance before feet reach hips
+- [[Positions/Closed Guard]] - Alternative guard recovery option when opponent closes distance before feet reach hips
 
-- [[Half Guard]] - Fallback position when transition fails and opponent partially passes
+- [[Positions/Half Guard]] - Fallback position when transition fails and opponent partially passes
 
-- [[Scissor Sweep]] - Primary sweep threat available immediately after establishing feet on hips
+- [[Transitions/Scissor Sweep]] - Primary sweep threat available immediately after establishing feet on hips
 
-- [[Butterfly Guard]] - Alternative guard transition when opponent drops below the feet-on-hips frame
+- [[Positions/Butterfly Guard]] - Alternative guard transition when opponent drops below the feet-on-hips frame
 
 
 </section>

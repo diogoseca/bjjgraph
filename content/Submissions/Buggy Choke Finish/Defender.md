@@ -142,7 +142,7 @@ description: "Defend and escape the Buggy Choke Finish. Recognition cues, grip s
 
 Defending the Buggy Choke Finish requires immediate recognition that the finishing sequence has begun and decisive action before progressive pressure eliminates escape options. The defender must prioritize stripping the primary threading arm's collar grip rather than the secondary support grip, maintain aggressive posture to prevent flattening, and be willing to accept controlled positional transitions to half guard or open guard rather than remaining in a deteriorating turtle position where submission becomes inevitable. The critical defensive window narrows rapidly once both grips are secured and body pressure is applied, making early intervention the highest-percentage defensive strategy.
 
-**Opponent's Starting Position**: [[Buggy Choke]] (Top)
+**Opponent's Starting Position**: [[Positions/Buggy Choke]] (Top)
 
 
 </section>
@@ -179,21 +179,21 @@ Defending the Buggy Choke Finish requires immediate recognition that the finishi
 ### 1. Strip primary threading arm collar grip by pushing the arm back toward your armpit while turning toward the attacker
 
 - **When to use**: As soon as you feel progressive collar tightening indicating the finishing sequence has begun, before full body pressure makes grip stripping impossible
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Attacker loses primary choking mechanism and must re-establish position or settle for side control
 - **Risk**: Turning toward the attacker may expose neck further if the grip strip fails
 
 ### 2. Explosive sit to half guard by dropping hips and threading legs for half guard entanglement
 
 - **When to use**: When both grips are secured but the attacker has not yet applied maximum perpendicular body pressure
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Complete escape from the choke with recovery to half guard bottom where offensive options exist
 - **Risk**: Sitting motion may briefly tighten choke before escape completes and exposes back to potential back take
 
 ### 3. Tuck chin and grip fight both collar grips simultaneously to prevent slack elimination
 
 - **When to use**: When body pressure is too heavy to sit to guard but grips are not yet fully tightened to finishing depth
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: Stalls the finishing sequence and creates time for alternative escape attempts or positional transitions
 - **Risk**: Energy intensive and only delays submission without improving position long-term
 
@@ -215,11 +215,11 @@ Defending the Buggy Choke Finish requires immediate recognition that the finishi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Execute explosive sit to guard during the finishing attempt when attacker commits their weight forward for the choke, creating the opening to thread legs for half guard entanglement
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Strip the primary threading arm collar grip during the early finishing phase before perpendicular pressure is fully established, forcing the attacker to abandon the choke and settle for basic side control
 

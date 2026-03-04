@@ -154,7 +154,7 @@ description: "Learn to defend against the stand up from combat base in BJJ. Reco
 
 As the guard player facing an opponent standing up from combat base, your primary objective is to exploit the transitional instability or, failing that, immediately establish a strong open guard system suited to defending against a standing passer. The stand-up creates a critical 1-2 second window where the top player's base is compromised during weight transfer from three contact points to two feet. Recognizing the stand-up initiation early—through shifts in grip configuration, hip pressure changes, and weight distribution—allows you to time counterattacks during this vulnerability window. If the stand up completes, your strategy shifts to rapidly establishing grips and guard hooks appropriate for standing guard engagement, prioritizing distance management guards like De La Riva or feet-on-hips over close-range guards.
 
-**Opponent's Starting Position**: [[Combat Base]] (Top)
+**Opponent's Starting Position**: [[Positions/Combat Base]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the guard player facing an opponent standing up from combat base, your primar
 ### 1. Close guard by locking ankles behind opponent's back during their weight transition
 
 - **When to use**: When the opponent's hips move forward and upward during the initial phase of standing, before they achieve enough height to be out of guard closure range
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Opponent is pulled back into your closed guard, eliminating their standing passing options and giving you strong submission and sweep threats
 - **Risk**: If timed late, opponent is already too high and your legs cannot lock, leaving you in a compromised open guard with the opponent partially standing
 
 ### 2. Attack single leg on the posted leg as opponent begins rising
 
 - **When to use**: When the opponent's weight shifts to their posted foot and their trailing knee lifts off the mat, creating a window to attack the weight-bearing leg
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Opponent's stand up is disrupted and they must resettle into combat base to re-establish base, buying time to establish your preferred guard
 - **Risk**: If the single leg attack fails, opponent may accelerate their stand up and use your extended body position to initiate a pass
 
 ### 3. Establish De La Riva hook on lead leg during the transition phase
 
 - **When to use**: When the opponent reaches the half-standing position with one foot planted, threading your outside foot around their lead leg before they achieve full standing base
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Deep De La Riva hook prevents the opponent from completing the stand up and provides immediate sweep and back take threats that force them to address the hook before continuing
 - **Risk**: If the hook is shallow, opponent may complete the stand up and use the compromised hook position to initiate a leg drag pass
 
 ### 4. Pull collar grip to break posture during hip elevation
 
 - **When to use**: When you have an established collar grip and the opponent's hips begin rising, pulling them forward and down during the transition window when their base is most compromised
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Opponent's posture breaks forward, preventing the stand up and potentially allowing guard closure or front headlock transition
 - **Risk**: If the collar grip is not deep enough, opponent may strip it and use the momentary imbalance to accelerate through the transition
 
@@ -225,11 +225,11 @@ As the guard player facing an opponent standing up from combat base, your primar
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time guard closure to the moment the opponent's hips shift forward during the stand up initiation. Lock your ankles behind their back before they achieve enough height to be out of range. The forward weight loading that precedes the stand up actually brings their hips closer to your legs, creating the ideal moment to close guard.
 
-### → [[Combat Base]]
+### → [[Positions/Combat Base]]
 
 Disrupt the stand up by attacking the posted leg with a hook, single leg attempt, or De La Riva entanglement during the transition window. Force the opponent to resettle into combat base by removing the stable base they need to complete the elevation. Maintaining active grips and hooks throughout prevents the clean disengagement needed for standing.
 

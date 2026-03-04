@@ -146,7 +146,7 @@ description: "Defend against the Trap and Roll escape from High Mount. Recogniti
 
 Defending the Trap and Roll from High Mount requires the top player to recognize the escape setup before it fully develops and maintain base awareness throughout all offensive sequences. The most dangerous moment occurs when reaching for grips or committing to submissions, as forward weight shifts create the bridging window the bottom player needs. Effective defense combines arm retraction discipline, strategic foot positioning, and the ability to flow to alternative dominant positions when the escape attempt creates positional instability. Understanding that the trap and roll specifically targets the posting arm and same-side foot allows the top player to maintain base awareness while attacking, neutralizing the escape without sacrificing offensive pressure. The top player who develops automatic posting responses can attack submissions aggressively while remaining structurally immune to the trap and roll.
 
-**Opponent's Starting Position**: [[High Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount/High Mount]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ Defending the Trap and Roll from High Mount requires the top player to recognize
 ### 1. Post free hand wide on the mat to create tripod base that prevents the roll
 
 - **When to use**: Immediately when you feel upward bridging pressure or detect that your arm and foot are being trapped simultaneously
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Maintain high mount position with opponent having wasted significant energy on the failed escape attempt
 - **Risk**: Wide posting creates space on the opposite side that the bottom player might exploit for an elbow escape
 
 ### 2. Strip arm from the two-on-one grip and re-settle heavy hip pressure before the foot hook is established
 
 - **When to use**: Early in the setup when only the arm is being controlled, before the bottom player hooks your foot
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Nullify the escape attempt at the earliest stage and maintain position with minimal disruption to your offensive plans
 - **Risk**: Grip fighting creates momentary space and occupies your hands, potentially opening alternative escape routes
 
 ### 3. Transition to S Mount by swinging your leg over the trapped arm, converting their grip into an armbar opportunity
 
 - **When to use**: When you detect the arm grip before the bridge starts, using their two-handed commitment to your arm as the setup for your S Mount armbar
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Advance to a more dominant position with immediate submission threat, turning their escape attempt into your finishing opportunity
 - **Risk**: Mistimed transition during an active bridge could result in losing base and position entirely
 
 ### 4. Drive weight forward and apply cross-face pressure to flatten the bottom player and eliminate all bridging angle
 
 - **When to use**: When the bridge begins but before full hip extension develops, using forward pressure to collapse the escape before it gains momentum
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Flatten the opponent completely, eliminating all escape leverage and resetting to full dominant control
 - **Risk**: Forward weight shift could be exploited if the arm is already fully trapped and the bottom player has sufficient hook on the foot
 
@@ -218,11 +218,11 @@ Defending the Trap and Roll from High Mount requires the top player to recognize
 
 ## Best-Case Outcomes for Defender
 
-### → [[High Mount]]
+### → [[Positions/Mount/High Mount]]
 
 Maintain awareness of arm position during submissions and immediately strip grips or post wide when you feel the two-on-one trap developing. Keep at least one foot mobile and ready to step wide for base when bridging pressure is detected. Re-settle heavy hips after neutralizing the attempt.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When you detect the arm trap setup, transition to S Mount by swinging your leg over the controlled arm. The bottom player's two-handed commitment to your arm exposes it for armbar entry, turning their escape attempt into your submission opportunity. Even if the armbar does not finish, you advance to a more dominant mount variation.
 

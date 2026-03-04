@@ -180,7 +180,7 @@ description: "How to execute Ouchi Gari in BJJ. Attacking perspective with setup
 
 Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has become an essential tool in Brazilian Jiu-Jitsu's standing game. The technique involves reaping the opponent's lead leg from the inside while simultaneously breaking their posture and balance to the rear corner. Unlike pure throwing arts where the goal is a clean ippon, BJJ practitioners use Ouchi Gari both as a takedown to achieve dominant top position and as a setup for other attacks when the opponent defends. The technique's effectiveness lies in its ability to capitalize on natural standing posture—most grapplers stand with weight distributed between both legs, making them vulnerable to this inside leg attack. When executed properly, Ouchi Gari creates a powerful combination of off-balancing, sweeping action, and forward pressure that makes it extremely difficult for the opponent to maintain their base. The technique integrates seamlessly with BJJ's ground game, as a successful Ouchi Gari typically lands the practitioner in side control or a transitional position from which mount or back control can be achieved. Its versatility makes it valuable across all rulesets, from IBJJF competition to no-gi grappling and MMA applications.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -235,9 +235,9 @@ Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Failure | [[Standing Position]] | 20% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Side Control]] | 70% |
+| Failure | [[Positions/Standing Position]] | 20% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -246,11 +246,11 @@ Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has 
 
 ## Opponent Counters
 
-- **Opponent steps back with attacked leg to avoid the reap** (Effectiveness: High) - Your Response: Follow their backward step and chain into Kouchi Gari (minor inner reap) on the same leg, or switch to Kosoto Gari attacking their other leg. Alternatively, use their backward movement to enter for a different forward throw like Seoi Nage. → Leads to [[Standing Position]]
-- **Opponent sprawls and creates distance by pushing hips back** (Effectiveness: High) - Your Response: If they sprawl early, switch to a front headlock position or snap them down to a turtle position. If already committed to the throw, maintain your reaping leg behind theirs and drive harder forward, turning the technique into more of a trip than a sweep. → Leads to [[Standing Position]]
-- **Opponent bases out with their free leg and posts hand to prevent fall** (Effectiveness: Medium) - Your Response: Transition to a different attack on the posted leg (such as a single leg) or continue driving through the original technique with increased forward pressure. You can also release and immediately re-attack with a combination. → Leads to [[Standing Position]]
-- **Opponent circles away from the direction of the throw** (Effectiveness: Medium) - Your Response: Follow their circular movement and switch to an outside leg attack like Osoto Gari, or use their momentum against them by transitioning to a different throw that works with their direction of movement. → Leads to [[Standing Position]]
-- **Opponent pulls guard as they feel the throw coming** (Effectiveness: Low) - Your Response: This is actually advantageous in many rule sets. Maintain your grips, land in their guard, and immediately begin your guard passing sequence. In competition, you may score for the takedown if you initiated the action before they pulled guard. → Leads to [[Side Control]]
+- **Opponent steps back with attacked leg to avoid the reap** (Effectiveness: High) - Your Response: Follow their backward step and chain into Kouchi Gari (minor inner reap) on the same leg, or switch to Kosoto Gari attacking their other leg. Alternatively, use their backward movement to enter for a different forward throw like Seoi Nage. → Leads to [[Positions/Standing Position]]
+- **Opponent sprawls and creates distance by pushing hips back** (Effectiveness: High) - Your Response: If they sprawl early, switch to a front headlock position or snap them down to a turtle position. If already committed to the throw, maintain your reaping leg behind theirs and drive harder forward, turning the technique into more of a trip than a sweep. → Leads to [[Positions/Standing Position]]
+- **Opponent bases out with their free leg and posts hand to prevent fall** (Effectiveness: Medium) - Your Response: Transition to a different attack on the posted leg (such as a single leg) or continue driving through the original technique with increased forward pressure. You can also release and immediately re-attack with a combination. → Leads to [[Positions/Standing Position]]
+- **Opponent circles away from the direction of the throw** (Effectiveness: Medium) - Your Response: Follow their circular movement and switch to an outside leg attack like Osoto Gari, or use their momentum against them by transitioning to a different throw that works with their direction of movement. → Leads to [[Positions/Standing Position]]
+- **Opponent pulls guard as they feel the throw coming** (Effectiveness: Low) - Your Response: This is actually advantageous in many rule sets. Maintain your grips, land in their guard, and immediately begin your guard passing sequence. In competition, you may score for the takedown if you initiated the action before they pulled guard. → Leads to [[Positions/Side Control]]
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Master the straighten leg kneebar defense execution in BJJ. Step-b
 
 The straighten leg kneebar defense is your primary response when an opponent establishes kneebar control and threatens to hyperextend your knee joint. This defense targets the fundamental mechanic of the kneebar—the bent-knee position that allows the attacker to create a lever against your knee. By actively extending your knee through a combination of quadriceps engagement, hip rotation, and free leg posting, you deny the attacker the angle needed for finishing pressure. The defense requires commitment and proper timing—initiating too early wastes energy against maximum grip strength, while too late risks your knee being compromised before the extension can take effect. Success leads to leg extraction and advancement to half guard top, where you can consolidate positional control over the now-prone attacker.
 
-**From Position**: [[Kneebar Control]] (Bottom)
+**From Position**: [[Positions/Kneebar Control]] (Bottom)
 
 </section>
 
@@ -231,8 +231,8 @@ The straighten leg kneebar defense is your primary response when an opponent est
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Failure | [[Kneebar Control]] | 40% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Failure | [[Positions/Kneebar Control]] | 40% |
 | Counter | [[game-over]] | 15% |
 
 
@@ -242,10 +242,10 @@ The straighten leg kneebar defense is your primary response when an opponent est
 
 ## Opponent Counters
 
-- **Attacker sharply re-breaks the leg bend with a quick hip drive and arm pull before full extension is achieved** (Effectiveness: High) - Your Response: Immediately re-engage quadriceps and repeat the extension attempt from the re-broken position, or use the momentary grip shift during re-break to create a hip escape angle → Leads to [[Kneebar Control]]
+- **Attacker sharply re-breaks the leg bend with a quick hip drive and arm pull before full extension is achieved** (Effectiveness: High) - Your Response: Immediately re-engage quadriceps and repeat the extension attempt from the re-broken position, or use the momentary grip shift during re-break to create a hip escape angle → Leads to [[Positions/Kneebar Control]]
 - **Attacker transitions to heel hook by rotating your foot during the extension attempt, exploiting exposed rotational angles** (Effectiveness: Medium) - Your Response: Immediately switch defensive priorities from leg extension to foot and ankle control—bring heel to buttock and hide the heel by turning toes toward their chest → Leads to [[game-over]]
 - **Attacker drops to straight ankle lock by adjusting grip to your foot when the knee straightens and ankle becomes exposed** (Effectiveness: Medium) - Your Response: Point your toes and flex your ankle to reduce ankle lock leverage while continuing to extract the leg from their entanglement structure → Leads to [[game-over]]
-- **Attacker drives hips forward aggressively to maintain fulcrum pressure against the knee despite your extension effort** (Effectiveness: High) - Your Response: Combine hip rotation with the extension to change the force angle rather than fighting their forward drive head-on with pure strength → Leads to [[Kneebar Control]]
+- **Attacker drives hips forward aggressively to maintain fulcrum pressure against the knee despite your extension effort** (Effectiveness: High) - Your Response: Combine hip rotation with the extension to change the force angle rather than fighting their forward drive head-on with pure strength → Leads to [[Positions/Kneebar Control]]
 
 
 </section>

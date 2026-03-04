@@ -178,7 +178,7 @@ The strategic value of this transition lies in recognizing when continued engage
 
 This approach requires precise timing and grip sequencing. Premature disengagement exposes you to sweeps and back takes, while delayed attempts face increasingly complex lapel entanglements. The key is identifying the optimal window—when you've neutralized immediate threats but before the bottom player deepens their configuration. Executed properly, distance creation transforms a losing positional battle into a neutral restart where your passing skills can be applied fresh.
 
-**From Position**: [[Lapel Guard]] (Top)
+**From Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ This approach requires precise timing and grip sequencing. Premature disengageme
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 65% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[De La Riva Guard]] | 10% |
+| Success | [[Positions/Open Guard]] | 65% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/De La Riva Guard]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ This approach requires precise timing and grip sequencing. Premature disengageme
 
 ## Opponent Counters
 
-- **Opponent sits up aggressively pursuing back take as you disengage** (Effectiveness: High) - Your Response: Anticipate the sit-up and use their forward momentum to sprawl or circle away. Maintain heavy shoulder pressure during the backstep to stuff their elevation attempt. → Leads to [[Lapel Guard]]
-- **Opponent immediately re-extracts lapel as you create distance** (Effectiveness: Medium) - Your Response: Close distance immediately with forward pressure before new configuration is established. The moment of lapel extraction is vulnerable—attack the grip before the wrap is complete. → Leads to [[Lapel Guard]]
-- **Opponent hooks your ankle with foot as you step back** (Effectiveness: Medium) - Your Response: Clear the foot hook before completing backstep by circling your leg or pushing their foot down. Never step back into an active foot hook. → Leads to [[Lapel Guard]]
-- **Opponent transitions to De La Riva as you create space** (Effectiveness: Low) - Your Response: De La Riva without lapel entanglement is a more familiar passing problem. Accept the guard change and apply standard DLR passing techniques with full grip endurance. → Leads to [[De La Riva Guard]]
+- **Opponent sits up aggressively pursuing back take as you disengage** (Effectiveness: High) - Your Response: Anticipate the sit-up and use their forward momentum to sprawl or circle away. Maintain heavy shoulder pressure during the backstep to stuff their elevation attempt. → Leads to [[Positions/Lapel Guard]]
+- **Opponent immediately re-extracts lapel as you create distance** (Effectiveness: Medium) - Your Response: Close distance immediately with forward pressure before new configuration is established. The moment of lapel extraction is vulnerable—attack the grip before the wrap is complete. → Leads to [[Positions/Lapel Guard]]
+- **Opponent hooks your ankle with foot as you step back** (Effectiveness: Medium) - Your Response: Clear the foot hook before completing backstep by circling your leg or pushing their foot down. Never step back into an active foot hook. → Leads to [[Positions/Lapel Guard]]
+- **Opponent transitions to De La Riva as you create space** (Effectiveness: Low) - Your Response: De La Riva without lapel entanglement is a more familiar passing problem. Accept the guard change and apply standard DLR passing techniques with full grip endurance. → Leads to [[Positions/De La Riva Guard]]
 
 
 </section>

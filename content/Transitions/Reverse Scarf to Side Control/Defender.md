@@ -154,7 +154,7 @@ description: "Learn to defend and counter the Reverse Scarf to Side Control tran
 
 Defending the Reverse Scarf to Side Control transition requires recognizing the rotational movement early and exploiting the brief window of reduced pressure that occurs during the top player's hip switch. As the defender, you are on the bottom of reverse scarf hold when your opponent begins rotating toward standard side control. This transition creates your best escape opportunity from the pin—the rotational movement necessarily reduces the crushing hip pressure that characterizes reverse scarf hold, providing a window to insert frames, recover guard, or initiate reversals. Your defensive strategy should be pre-loaded before the transition begins, with frames already positioned so that immediate response is possible when you feel the hip pressure shift that signals rotation. Failing to capitalize on this window means accepting standard side control, which offers the top player superior submission chains, more advancement pathways, and a more stable long-term control platform than reverse scarf hold.
 
-**Opponent's Starting Position**: [[Reverse Scarf Hold]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Reverse Scarf to Side Control transition requires recognizing the 
 ### 1. Drive far-side forearm into opponent's neck or shoulder as they begin rotating, creating a structural frame that blocks transition completion
 
 - **When to use**: When you detect the initial hip shift signaling rotation, before the opponent builds rotational momentum
-- **Targets**: [[Reverse Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Reverse Scarf Hold]]
 - **If successful**: Opponent cannot complete rotation and must re-settle reverse scarf hold or abandon the transition attempt entirely
 - **Risk**: If frame is inserted too late, opponent drives through with rotational momentum and establishes crossface over your frame
 
 ### 2. Shrimp hips away from opponent during pressure reduction and insert near knee between bodies for half guard hook recovery
 
 - **When to use**: During mid-rotation when opponent's hip pressure on your chest reaches its lowest point
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover half guard bottom position with established hooks, gaining access to sweeps, back takes, and guard recovery sequences
 - **Risk**: If timed too early, opponent aborts rotation and re-establishes heavy reverse scarf pressure on your shrimped position
 
 ### 3. Execute explosive bridge toward opponent's rotating direction during mid-transition when their base is narrowest
 
 - **When to use**: When opponent commits to rotation and their weight shifts to a single narrow support point with compromised balance
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Create enough space and disruption for guard recovery or force opponent into scramble where half guard can be established
 - **Risk**: If bridge force is insufficient, opponent absorbs the energy and uses your upward movement to accelerate their transition
 
 ### 4. Shoot near-side underhook as opponent releases arm control during their grip transition to crossface
 
 - **When to use**: During the brief moment when opponent releases arm trap to switch to crossface grip, creating a gap in their control chain
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Establish underhook that prevents opponent from settling crossface, enabling guard recovery or sweep initiation from half guard
 - **Risk**: If opponent maintains arm control or establishes crossface first, your underhook attempt may leave your arm exposed to kimura
 
@@ -225,7 +225,7 @@ Defending the Reverse Scarf to Side Control transition requires recognizing the 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your hip escape to the mid-rotation moment when opponent's hip pressure reduces below the level needed to pin you. Shrimp away from their rotating direction, insert your near knee between their legs, and establish half guard hooks before they can complete the crossface. Pre-position your far-side frame against their shoulder before the transition begins so you have immediate leverage when the pressure window opens.
 

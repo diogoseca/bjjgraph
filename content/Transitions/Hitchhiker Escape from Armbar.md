@@ -21,7 +21,7 @@ The technique demands precise timing and full commitment. Initiating the escape 
 
 Strategically, the hitchhiker escape integrates into a layered armbar defense system. It works best when combined with initial hand-clasping defense and stacking attempts that force the opponent to readjust. When those primary defenses are exhausted, the hitchhiker provides a secondary escape route that can catch even experienced armbar attackers off guard. The escape typically recovers to open guard or turtle position, requiring immediate follow-up guard recovery to prevent the opponent from re-establishing dominant position.
 
-**From Position**: [[Armbar Control]] (Bottom)
+**From Position**: [[Positions/Armbar Control]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the hitchhiker escape integrates into a layered armbar defense sy
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 40% |
-| Failure | [[Armbar Control]] | 40% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Open Guard]] | 40% |
+| Failure | [[Positions/Armbar Control]] | 40% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The hitchhiker escape occupies a critical role in the armbar defense hierarchy a
 ## Related Techniques
 
 
-- [[Armbar Control]] - Starting position where the escape is initiated from bottom
+- [[Positions/Armbar Control]] - Starting position where the escape is initiated from bottom
 
-- [[Open Guard]] - Primary target position upon successful escape
+- [[Positions/Open Guard]] - Primary target position upon successful escape
 
-- [[Mount]] - Counter outcome when opponent abandons armbar and re-mounts
+- [[Positions/Mount]] - Counter outcome when opponent abandons armbar and re-mounts
 
-- [[Armbar Finish]] - The submission threat being escaped from
+- [[Transitions/Armbar Finish]] - The submission threat being escaped from
 
-- [[Armbar Defense]] - Related defensive technique often used before hitchhiker attempt
+- [[Transitions/Armbar Defense]] - Related defensive technique often used before hitchhiker attempt
 
-- [[Belly Down Armbar Transition]] - Common counter where opponent follows rotation to maintain submission
+- [[Transitions/Belly Down Armbar Transition]] - Common counter where opponent follows rotation to maintain submission
 
-- [[Back Take from Armbar]] - Alternative offensive transition the armbar holder may pursue
+- [[Transitions/Back Take from Armbar]] - Alternative offensive transition the armbar holder may pursue
 
-- [[Turtle]] - Intermediate position sometimes reached during belly-down hitchhiker variant
+- [[Positions/Turtle]] - Intermediate position sometimes reached during belly-down hitchhiker variant
 
-- [[Half Guard]] - Alternative guard recovery position if full open guard is not achieved
+- [[Positions/Half Guard]] - Alternative guard recovery position if full open guard is not achieved
 
-- [[Closed Guard]] - Alternative recovery position after successful escape and guard recomposition
+- [[Positions/Closed Guard]] - Alternative recovery position after successful escape and guard recomposition
 
 
 </section>

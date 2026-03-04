@@ -21,7 +21,7 @@ The mechanics rely on two coordinated actions: rotation and extraction. The rota
 
 Strategically, the turn and extract occupies a specific window in the kneebar defense hierarchy. It sits between early prevention and last-resort defenses like the boot defense or straightening the leg against the finish. The technique works best in the mid-phase of kneebar attacks, after control is established but before the attacker has broken defensive posture and achieved full extension. Practitioners who master this escape force kneebar attackers to commit more fully to control before attempting the finish, which in turn opens other defensive options and transitional pathways.
 
-**From Position**: [[Kneebar Control]] (Bottom)
+**From Position**: [[Positions/Kneebar Control]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the turn and extract occupies a specific window in the kneebar de
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 45% |
-| Failure | [[Kneebar Control]] | 35% |
-| Counter | [[Saddle]] | 20% |
+| Success | [[Positions/Turtle]] | 45% |
+| Failure | [[Positions/Kneebar Control]] | 35% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The turn and extract escape connects the kneebar control position to turtle reco
 ## Related Techniques
 
 
-- [[Kneebar Control]] - Source position from which this escape is initiated
+- [[Positions/Kneebar Control]] - Source position from which this escape is initiated
 
-- [[Turtle]] - Primary target position after successful leg extraction
+- [[Positions/Turtle]] - Primary target position after successful leg extraction
 
-- [[Saddle]] - Counter position attacker may achieve if turn exposes leg threading opportunity
+- [[Positions/Ashi Garami/Saddle]] - Counter position attacker may achieve if turn exposes leg threading opportunity
 
-- [[Straighten Leg Kneebar Defense]] - Alternative kneebar defense using linear resistance rather than rotation
+- [[Transitions/Straighten Leg Kneebar Defense]] - Alternative kneebar defense using linear resistance rather than rotation
 
-- [[Kneebar Control Maintenance]] - Attacker's technique for preventing this escape
+- [[Transitions/Kneebar Control Maintenance]] - Attacker's technique for preventing this escape
 
-- [[Inside Ashi-Garami]] - Common leg entanglement configuration from which kneebar attacks originate
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Common leg entanglement configuration from which kneebar attacks originate
 
-- [[Ashi Garami Escape]] - Related leg entanglement escape sharing similar defensive principles
+- [[Transitions/Ashi Garami Escape]] - Related leg entanglement escape sharing similar defensive principles
 
-- [[Reversal from Kneebar Control]] - Alternative escape option that reverses position rather than extracting to turtle
+- [[Transitions/Reversal from Kneebar Control]] - Alternative escape option that reverses position rather than extracting to turtle
 
-- [[Kneebar to Ashi Garami]] - Attacker's transition option when kneebar control weakens during escape attempt
+- [[Transitions/Kneebar to Ashi Garami]] - Attacker's transition option when kneebar control weakens during escape attempt
 
-- [[Half Guard]] - Alternative recovery position accessible from turtle after successful extraction
+- [[Positions/Half Guard]] - Alternative recovery position accessible from turtle after successful extraction
 
 
 </section>

@@ -21,7 +21,7 @@ The escape hierarchy follows an inviolable order: first create breathing space t
 
 Elite-level triangle escape converts defense directly into offense. Rather than simply extracting from danger and resetting to a neutral exchange, the skilled practitioner channels escape momentum into an immediate guard passing sequence, capitalizing on the opponent's compromised hip position and disorganized leg configuration that result from the stacking pressure. This seamless transition from survival to positional advancement is what distinguishes a complete escape from mere survival, and it punishes the bottom player for committing to a failed submission attempt.
 
-**From Position**: [[Triangle Escape Position]] (Top)
+**From Position**: [[Positions/Triangle Escape Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Elite-level triangle escape converts defense directly into offense. Rather than 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Triangle Escape Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Triangle Escape Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,21 +195,21 @@ The Complete Triangle Escape from Top occupies a critical defensive node in the 
 ## Related Techniques
 
 
-- [[Closed Guard]] - Primary target position after successful triangle escape - practitioner returns to opponent's closed guard
+- [[Positions/Closed Guard]] - Primary target position after successful triangle escape - practitioner returns to opponent's closed guard
 
-- [[Half Guard]] - Counter position if opponent sweeps during escape attempt, requiring bottom half guard recovery
+- [[Positions/Half Guard]] - Counter position if opponent sweeps during escape attempt, requiring bottom half guard recovery
 
-- [[Side Control]] - Advanced target achievable through stack pass escape variation for immediate positional dominance
+- [[Positions/Side Control]] - Advanced target achievable through stack pass escape variation for immediate positional dominance
 
-- [[Armbar Defense]] - Critical complementary skill when opponent transitions from triangle to armbar during escape
+- [[Transitions/Armbar Defense]] - Critical complementary skill when opponent transitions from triangle to armbar during escape
 
-- [[Combat Base]] - Intermediate stabilization position used during posture recovery phase of escape
+- [[Positions/Combat Base]] - Intermediate stabilization position used during posture recovery phase of escape
 
-- [[Open Guard]] - Alternative recovery position when triangle breaks but opponent retains some leg control
+- [[Positions/Open Guard]] - Alternative recovery position when triangle breaks but opponent retains some leg control
 
-- [[Mounted Triangle]] - Related triangle position requiring similar escape principles adapted to mounted configuration
+- [[Positions/Mount/Mounted Triangle]] - Related triangle position requiring similar escape principles adapted to mounted configuration
 
-- [[Omoplata Control]] - Secondary submission threat opponent may attempt when triangle escape disrupts their primary attack
+- [[Positions/Omoplata Control]] - Secondary submission threat opponent may attempt when triangle escape disrupts their primary attack
 
 
 </section>

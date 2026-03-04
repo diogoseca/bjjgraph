@@ -138,7 +138,7 @@ description: "Defensive guide for maintaining body lock control against pummelin
 
 As the defender maintaining the body lock, your objective is to prevent the opponent from establishing inside position with their arms through pummeling. This requires constant awareness of their arm movement, immediate grip tightening when you feel pummel attempts, and the ability to transition to higher-value control positions when the body lock becomes compromised. The body lock is inherently transitional, so your defense against pummeling should be integrated with your offensive plan rather than treated as a purely reactive holding pattern. Reading pummeling attempts early and converting them into opportunities for back takes or throws represents the highest level of body lock defense.
 
-**Opponent's Starting Position**: [[Body Lock]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Body Lock]] (Bottom)
 
 </section>
 
@@ -176,28 +176,28 @@ As the defender maintaining the body lock, your objective is to prevent the oppo
 ### 1. Squeeze elbows inward and tighten chest seal to close the space before the pummel entry completes
 
 - **When to use**: At the earliest recognition of a pummel attempt, before the opponent's elbow has fully entered inside your grip
-- **Targets**: [[Body Lock]]
+- **Targets**: [[Positions/Body Lock]]
 - **If successful**: Opponent's pummel is blocked and you maintain full body lock control with opportunity to immediately attack
 - **Risk**: If the squeeze is too late, your tightening may trap their arm inside your grip in a worse configuration
 
 ### 2. Release and re-lock grip at a lower position on the opponent's torso when you feel their arm threading inside
 
 - **When to use**: When the opponent has partially completed a pummel entry and your original grip level is compromised
-- **Targets**: [[Body Lock]]
+- **Targets**: [[Positions/Body Lock]]
 - **If successful**: New grip position below the pummel entry restores full body lock control at a lower, mechanically stronger position
 - **Risk**: The momentary grip release creates a window where the opponent can explosively separate before you re-lock
 
 ### 3. Transition to back control by inserting hooks and establishing seatbelt grip when the body lock is being compromised
 
 - **When to use**: When the opponent has successfully inserted one arm inside your lock and your body lock is deteriorating
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Convert the weakening body lock into a higher-value back control position before the opponent completes their escape
 - **Risk**: If the transition is too slow, the opponent breaks free to neutral clinch before you can establish hooks
 
 ### 4. Execute immediate mat return or throw when you feel the opponent begin their pummeling sequence
 
 - **When to use**: When you recognize early pummeling setup movements and still have strong grip control with explosive potential
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Opponent is taken down before completing the escape, and the mat return often results in back control or dominant top position
 - **Risk**: Failed throw attempt may accelerate the opponent's escape if your grip loosens during the throwing motion
 
@@ -209,11 +209,11 @@ As the defender maintaining the body lock, your objective is to prevent the oppo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Body Lock]]
+### → [[Positions/Body Lock]]
 
 React immediately to the first pummel attempt by squeezing elbows inward and driving forward hip pressure. Close all space before the opponent's arm can thread inside your grip. Then immediately attack with a throw or mat return to punish the failed escape attempt.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the opponent's pummeling creates enough movement to partially compromise your body lock, convert the deteriorating lock into back control by inserting hooks and transitioning to seatbelt grip. Use the opponent's own escape movement to create the space needed for hook insertion.
 

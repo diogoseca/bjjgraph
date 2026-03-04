@@ -156,7 +156,7 @@ Defending the Americana requires understanding the submission's mechanical chain
 
 Defense operates across three distinct windows: prevention (before grip is secured), early escape (grip secured but no rotation), and late escape (rotation initiated). In the prevention window, keeping elbows tight to the body and hands connected to each other or to the opponent's body eliminates the arm isolation that starts the attack. During early escape, straightening the arm to prevent the 90-degree configuration or turning into the attacker to relieve shoulder pressure are viable options, though each carries secondary risks. In the late escape window, options narrow significantly - explosive bridging combined with rolling toward the lock side offers the best chance, but timing must be precise.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ Defense operates across three distinct windows: prevention (before grip is secur
 ### 1. Grip your own belt, lapel, or opposite hand to prevent arm isolation before figure-four is secured
 
 - **When to use**: Immediately when you feel the opponent grab your wrist or slide their hand under your elbow - this is the highest-percentage window
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent cannot establish the figure-four grip and must abandon the Americana attempt, returning to standard side control control
 - **Risk**: Static grip defense without active escape allows opponent to work grip breaks or transition to alternative attacks like mount advancement
 
 ### 2. Straighten your arm explosively to prevent the 90-degree elbow bend required for the lock
 
 - **When to use**: When the figure-four grip is partially secured but the opponent has not yet established the 90-degree angle at your elbow
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Breaks the mechanical structure needed for the submission, forcing opponent back to positional control
 - **Risk**: A fully straightened arm exposes you to armbar transition - opponent may switch to straight armbar while maintaining wrist control
 
 ### 3. Bridge explosively and roll toward the attacker while tucking the attacked arm tight to your body
 
 - **When to use**: When the figure-four is secured and rotation has begun - this is the last-resort escape requiring precise timing with the opponent's weight shift
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Disrupts opponent's base and weight distribution, creating scramble opportunity to recover guard or reverse position
 - **Risk**: If bridge timing is poor, the rolling motion can accelerate the submission finish by driving your own shoulder into the lock
 
 ### 4. Turn aggressively toward the attacker, getting to your side and working your elbow to the mat to prevent rotation
 
 - **When to use**: When shoulder pin is being established but full rotation has not yet been applied - you must act before the shoulder blade is completely immobilized
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Relieves rotational pressure on the shoulder by following the direction of the lock, creates opportunity to insert knee and recover half guard
 - **Risk**: Turning too far can expose your back for back take if opponent releases the Americana and transitions
 
@@ -227,11 +227,11 @@ Defense operates across three distinct windows: prevention (before grip is secur
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Prevent arm isolation in the first place by keeping elbows glued to your ribcage and hands connected together. When you feel the opponent reaching for your wrist, immediately grip your own belt or opposite hand. Combine this grip defense with active hip movement to create space for guard recovery rather than simply stalling in the defensive grip.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the Americana grip is secured, bridge explosively toward the attacker while simultaneously working your near-side knee inside to capture their leg. The bridge disrupts their weight placement and the knee insertion recovers half guard. Time the bridge with the opponent's weight commitment to the submission when their base is most vulnerable.
 

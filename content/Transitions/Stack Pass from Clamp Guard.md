@@ -21,7 +21,7 @@ The technique represents a calculated risk-reward decision within the guard pass
 
 From a systematic perspective, the stack pass offers a direct path from one of the more threatening open guard positions to full side control without the incremental arm extraction approach that often results in extended guard battles and multiple submission threats. Advanced passers combine the initial stack with lateral movement, walking around the compressed guard player to clear legs and establish crossface control in side control. The key tactical insight is that the stack must be committed — half-measures allow the guard player to re-establish angles and launch the counter-attacks that make clamp guard dangerous in the first place.
 
-**From Position**: [[Clamp Guard]] (Top)
+**From Position**: [[Positions/Clamp Guard]] (Top)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ From a systematic perspective, the stack pass offers a direct path from one of t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Clamp Guard]] | 35% |
-| Counter | [[Triangle Control]] | 25% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Clamp Guard]] | 35% |
+| Counter | [[Positions/Triangle Control]] | 25% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Stack Pass from Clamp Guard connects the clamp guard defensive hierarchy to 
 ## Related Techniques
 
 
-- [[Clamp Guard]] - Source position where the passer's arm is trapped, initiating the need for stack pass or extraction
+- [[Positions/Clamp Guard]] - Source position where the passer's arm is trapped, initiating the need for stack pass or extraction
 
-- [[Side Control]] - Target position reached on successful stack pass completion
+- [[Positions/Side Control]] - Target position reached on successful stack pass completion
 
-- [[Triangle Control]] - Counter position risk if passer's head positioning is incorrect during forward drive
+- [[Positions/Triangle Control]] - Counter position risk if passer's head positioning is incorrect during forward drive
 
-- [[Arm Extraction from Clamp Guard]] - Alternative escape approach from clamp guard that avoids stack commitment but faces direct submission chain
+- [[Transitions/Arm Extraction from Clamp Guard]] - Alternative escape approach from clamp guard that avoids stack commitment but faces direct submission chain
 
-- [[Armbar from Clamp Guard]] - Primary submission threat from clamp guard that motivates the stack pass over arm extraction
+- [[Transitions/Armbar from Clamp Guard]] - Primary submission threat from clamp guard that motivates the stack pass over arm extraction
 
-- [[Stack Pass from Carni]] - Related stacking pass concept from a similar Rubber Guard variant requiring analogous compression mechanics
+- [[Transitions/Stack Pass from Carni]] - Related stacking pass concept from a similar Rubber Guard variant requiring analogous compression mechanics
 
-- [[Complete Pass from Flattened Half]] - Related passing completion technique sharing lateral movement and crossface establishment principles
+- [[Transitions/Complete Pass from Flattened Half]] - Related passing completion technique sharing lateral movement and crossface establishment principles
 
-- [[Closed Guard]] - Fallback position for the bottom player if clamp collapses but legs wrap around passer's torso
+- [[Positions/Closed Guard]] - Fallback position for the bottom player if clamp collapses but legs wrap around passer's torso
 
-- [[Half Guard]] - Intermediate position the bottom player may recover if passer's lateral walk stalls before completion
+- [[Positions/Half Guard]] - Intermediate position the bottom player may recover if passer's lateral walk stalls before completion
 
-- [[Open Guard]] - Parent guard family from which clamp guard derives, providing alternative reguarding options for the bottom player
+- [[Positions/Open Guard]] - Parent guard family from which clamp guard derives, providing alternative reguarding options for the bottom player
 
 
 </section>

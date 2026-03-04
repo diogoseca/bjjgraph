@@ -21,7 +21,7 @@ This escape capitalizes on the geometric reality that the gogoplata's effectiven
 
 Strategically, the Angle Change Escape serves as a medium-resistance pathway between emergency explosive escapes and systematic technical extraction. It provides a reliable option when the defender has time to work methodically but faces a competent bottom player who maintains hip elevation and foot-behind-head control. The escape naturally transitions to half guard when successful, providing the defender an opportunity to recover and reset rather than remaining in immediate submission danger.
 
-**From Position**: [[Gogoplata Control]] (Top)
+**From Position**: [[Positions/Gogoplata Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Angle Change Escape serves as a medium-resistance pathway bet
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 65% |
-| Failure | [[Gogoplata Control]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Half Guard]] | 65% |
+| Failure | [[Positions/Gogoplata Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -191,23 +191,23 @@ The Angle Change Escape occupies a critical role in the defensive hierarchy agai
 ## Related Techniques
 
 
-- [[Gogoplata Control]] - Starting position - the submission control this technique escapes from
+- [[Positions/Gogoplata Control]] - Starting position - the submission control this technique escapes from
 
-- [[Half Guard]] - Primary escape destination providing stable recovery position
+- [[Positions/Half Guard]] - Primary escape destination providing stable recovery position
 
-- [[Triangle Control]] - Related submission sharing similar leg-across-throat mechanics and escape principles
+- [[Positions/Triangle Control]] - Related submission sharing similar leg-across-throat mechanics and escape principles
 
-- [[Closed Guard]] - Alternative escape destination if angle change creates guard recovery opportunity
+- [[Positions/Closed Guard]] - Alternative escape destination if angle change creates guard recovery opportunity
 
-- [[Rubber Guard]] - Entry system that leads to gogoplata - understanding rubber guard helps recognize gogoplata threat earlier
+- [[Positions/Rubber Guard]] - Entry system that leads to gogoplata - understanding rubber guard helps recognize gogoplata threat earlier
 
-- [[Mission Control]] - Rubber guard position that precedes gogoplata - escaping before this becomes gogoplata is preferable
+- [[Positions/Rubber Guard/Mission Control]] - Rubber guard position that precedes gogoplata - escaping before this becomes gogoplata is preferable
 
-- [[Stack Pass]] - Complementary escape technique that can be combined with angle change for stacking pressure
+- [[Transitions/Stack Pass]] - Complementary escape technique that can be combined with angle change for stacking pressure
 
-- [[Turtle]] - Alternative escape destination using angle change to turtle variant
+- [[Positions/Turtle]] - Alternative escape destination using angle change to turtle variant
 
-- [[Gogoplata]] - The submission being threatened from gogoplata control that this escape defends against
+- [[Transitions/Gogoplata]] - The submission being threatened from gogoplata control that this escape defends against
 
 
 </section>

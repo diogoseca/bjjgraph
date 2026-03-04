@@ -180,7 +180,7 @@ description: "Master attacking the Choke from Crucifix. Step-by-step guide to fi
 
 As the attacker executing the Choke from Crucifix, you hold one of the most advantageous finishing positions in all of grappling. With both of your opponent's arms trapped—one secured in your leg triangle and the other controlled by your hands—you have eliminated their primary defensive tools against neck attacks. Your objective is to convert this extreme positional advantage into a choke finish by committing both hands to the choking action while your legs maintain independent arm control. The key insight is that you do not need to rush; the position is inherently unsustainable for the defender, and methodical application of choking pressure yields higher finishing rates than frantic grip changes. Focus on proper forearm placement against the carotid arteries, head position reinforcement behind the opponent's skull, and steady compression rather than explosive squeezing.
 
-**From Position**: [[Crucifix]] (Top)
+**From Position**: [[Positions/Crucifix]] (Top)
 
 </section>
 
@@ -233,8 +233,8 @@ As the attacker executing the Choke from Crucifix, you hold one of the most adva
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Crucifix]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Failure | [[Positions/Crucifix]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Choke from Crucifix, you hold one of the most adva
 
 ## Opponent Counters
 
-- **Opponent tucks chin aggressively to block choking arm from sliding under** (Effectiveness: Medium) - Your Response: Use your free hand to pry the chin up before threading the choking arm, or switch to an arm-in choke variation that does not require getting under the chin. Alternatively, apply a short choke pressing the forearm blade directly against the jaw and neck. → Leads to [[Crucifix]]
-- **Opponent uses freed far arm to grab and fight the choking arm** (Effectiveness: Medium) - Your Response: If the far arm reaches your choking arm, immediately switch to a kimura or armbar attack on that exposed arm. The opponent has created the fundamental crucifix dilemma—by committing their arm to neck defense, they have exposed it to joint attacks. Chain directly to Armbar from Crucifix. → Leads to [[Crucifix]]
-- **Opponent explosively bridges and rolls to escape the crucifix entirely** (Effectiveness: High) - Your Response: Maintain tight body connection and follow the roll, keeping your leg triangle locked. If crucifix control is lost, immediately secure standard back control hooks and seatbelt grip. The bridge often momentarily exposes the neck—be ready to capitalize on that opening. → Leads to [[Back Control]]
-- **Opponent works to extract trapped arm from leg triangle during choke setup** (Effectiveness: High) - Your Response: Increase leg triangle squeeze immediately and abort the choke attempt if the arm is genuinely escaping. Re-establish full crucifix control before attempting the choke again. If the arm comes partially free, transition to back control and reset rather than fighting for a compromised crucifix. → Leads to [[Back Control]]
+- **Opponent tucks chin aggressively to block choking arm from sliding under** (Effectiveness: Medium) - Your Response: Use your free hand to pry the chin up before threading the choking arm, or switch to an arm-in choke variation that does not require getting under the chin. Alternatively, apply a short choke pressing the forearm blade directly against the jaw and neck. → Leads to [[Positions/Crucifix]]
+- **Opponent uses freed far arm to grab and fight the choking arm** (Effectiveness: Medium) - Your Response: If the far arm reaches your choking arm, immediately switch to a kimura or armbar attack on that exposed arm. The opponent has created the fundamental crucifix dilemma—by committing their arm to neck defense, they have exposed it to joint attacks. Chain directly to Armbar from Crucifix. → Leads to [[Positions/Crucifix]]
+- **Opponent explosively bridges and rolls to escape the crucifix entirely** (Effectiveness: High) - Your Response: Maintain tight body connection and follow the roll, keeping your leg triangle locked. If crucifix control is lost, immediately secure standard back control hooks and seatbelt grip. The bridge often momentarily exposes the neck—be ready to capitalize on that opening. → Leads to [[Positions/Back Control]]
+- **Opponent works to extract trapped arm from leg triangle during choke setup** (Effectiveness: High) - Your Response: Increase leg triangle squeeze immediately and abort the choke attempt if the arm is genuinely escaping. Re-establish full crucifix control before attempting the choke again. If the arm comes partially free, transition to back control and reset rather than fighting for a compromised crucifix. → Leads to [[Positions/Back Control]]
 
 
 </section>

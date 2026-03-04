@@ -21,7 +21,7 @@ The sweep functions as a critical branch in the Meathook attack tree, complement
 
 Within the 10th Planet system, the Meathook sweep represents the positional advancement pathway when submission finishes are unavailable or when the practitioner prefers to accumulate points before finishing. Competition-oriented practitioners value this sweep because it converts a zero-point guard position into a four-point mount, dramatically shifting the scoreboard while maintaining offensive momentum. The sweep also serves as a bailout option when Meathook control begins to degrade due to energy cost. Rather than losing the position entirely, converting to a sweep attempt preserves offensive initiative and punishes the opponent for their escape efforts.
 
-**From Position**: [[Meathook]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Within the 10th Planet system, the Meathook sweep represents the positional adva
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 45% |
-| Failure | [[Meathook]] | 35% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Mount]] | 45% |
+| Failure | [[Positions/Rubber Guard/Meathook]] | 35% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Sweep from Meathook integrates into the Rubber Guard system as the positiona
 ## Related Techniques
 
 
-- [[Meathook]] - Source position providing the arm isolation and broken posture that enables this sweep
+- [[Positions/Rubber Guard/Meathook]] - Source position providing the arm isolation and broken posture that enables this sweep
 
-- [[Mount]] - Target position on successful sweep completion, providing dominant top control
+- [[Positions/Mount]] - Target position on successful sweep completion, providing dominant top control
 
-- [[Open Guard]] - Fallback position when opponent successfully counters the sweep attempt
+- [[Positions/Open Guard]] - Fallback position when opponent successfully counters the sweep attempt
 
-- [[Mission Control]] - Primary entry position that leads to Meathook establishment before sweep becomes available
+- [[Positions/Rubber Guard/Mission Control]] - Primary entry position that leads to Meathook establishment before sweep becomes available
 
-- [[Rubber Guard Sweep]] - Related sweep from the broader Rubber Guard system sharing similar hip mechanics
+- [[Transitions/Rubber Guard Sweep]] - Related sweep from the broader Rubber Guard system sharing similar hip mechanics
 
-- [[Posture Recovery from Meathook]] - Defender's primary counter-technique that must be prevented for sweep success
+- [[Transitions/Posture Recovery from Meathook]] - Defender's primary counter-technique that must be prevented for sweep success
 
-- [[Stack Pass from Meathook]] - Alternative defensive response where opponent drives forward, opening gogoplata instead
+- [[Transitions/Stack Pass from Meathook]] - Alternative defensive response where opponent drives forward, opening gogoplata instead
 
-- [[Carni]] - Adjacent position in 10th Planet chain offering alternative attacks if sweep is unavailable
+- [[Positions/Rubber Guard/Carni]] - Adjacent position in 10th Planet chain offering alternative attacks if sweep is unavailable
 
-- [[Gogoplata Control]] - Complementary submission threat from Meathook that creates the sweep-or-submit dilemma
+- [[Positions/Gogoplata Control]] - Complementary submission threat from Meathook that creates the sweep-or-submit dilemma
 
-- [[Homer Simpson Sweep]] - Related 10th Planet sweep technique sharing the philosophy of sweeping from unconventional guard positions
+- [[Transitions/Homer Simpson Sweep]] - Related 10th Planet sweep technique sharing the philosophy of sweeping from unconventional guard positions
 
 
 </section>

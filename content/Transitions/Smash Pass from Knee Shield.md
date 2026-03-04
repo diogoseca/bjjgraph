@@ -21,7 +21,7 @@ The technique operates on a simple mechanical principle: rather than fighting th
 
 Within the broader guard passing hierarchy, the smash pass from knee shield pairs naturally with the knee slice and backstep passes. When the bottom player keeps their shield tight to defend the knee slice, the smash pass becomes available as a direct counter. Conversely, threatening the smash forces the bottom player to extend their shield, creating openings for the knee slice. This complementary relationship makes the smash pass essential for anyone developing a systematic approach to defeating half guard players.
 
-**From Position**: [[Knee Shield Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Top)
 **Success Rate**: 48%
 
 </section>
@@ -32,9 +32,9 @@ Within the broader guard passing hierarchy, the smash pass from knee shield pair
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 48% |
-| Failure | [[Knee Shield Half Guard]] | 32% |
-| Counter | [[Knee Shield Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 48% |
+| Failure | [[Positions/Half Guard/Knee Shield Half Guard]] | 32% |
+| Counter | [[Positions/Half Guard/Knee Shield Half Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Smash Pass from Knee Shield is a cornerstone technique in the top player's h
 ## Related Techniques
 
 
-- [[Knee Shield Half Guard]] - Starting position where the technique is initiated from top
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Starting position where the technique is initiated from top
 
-- [[Side Control]] - Primary target position achieved on successful pass completion
+- [[Positions/Side Control]] - Primary target position achieved on successful pass completion
 
-- [[Half Guard]] - Parent guard category containing the knee shield variation
+- [[Positions/Half Guard]] - Parent guard category containing the knee shield variation
 
-- [[Flattened Half Guard]] - Intermediate position created when knee shield is partially collapsed
+- [[Positions/Half Guard/Flattened Half Guard]] - Intermediate position created when knee shield is partially collapsed
 
-- [[Deep Half Guard]] - Common defensive transition used by bottom player to counter the smash
+- [[Positions/Half Guard/Deep Half Guard]] - Common defensive transition used by bottom player to counter the smash
 
-- [[Dogfight Position]] - Scramble position if bottom player gets underhook during pass attempt
+- [[Positions/Dogfight Position]] - Scramble position if bottom player gets underhook during pass attempt
 
-- [[Headquarters Position]] - Related top control position with similar passing dynamics and options
+- [[Positions/Headquarters Position]] - Related top control position with similar passing dynamics and options
 
-- [[North-South]] - Follow-up advancement position after establishing side control
+- [[Positions/North-South]] - Follow-up advancement position after establishing side control
 
-- [[Mount]] - Advanced positional target accessible after consolidating side control
+- [[Positions/Mount]] - Advanced positional target accessible after consolidating side control
 
-- [[Combat Base]] - Alternative top position when smash pass is not viable
+- [[Positions/Combat Base]] - Alternative top position when smash pass is not viable
 
 
 </section>

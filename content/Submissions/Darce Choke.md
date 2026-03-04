@@ -24,8 +24,8 @@ The Darce's effectiveness stems from its applicability across multiple positions
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Front Headlock]]
-**From Position**: [[Darce Control]] (Top)
+**Starting Position**: [[Positions/Front Headlock]]
+**From Position**: [[Positions/Darce Control]] (Top)
 **Success Rate**: 62%
 
 </section>
@@ -81,8 +81,8 @@ The Darce's effectiveness stems from its applicability across multiple positions
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Darce Control]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Darce Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -245,13 +245,13 @@ The Darce's effectiveness stems from its applicability across multiple positions
 
 ## From Which Positions?
 
-- [[Front Headlock]]
-- [[Turtle]]
-- [[Side Control]]
-- [[North-South]]
-- [[Half Guard]]
-- [[Scramble Position]]
-- [[Darce Control]]
+- [[Positions/Front Headlock]]
+- [[Positions/Turtle]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
+- [[Positions/Half Guard]]
+- [[Positions/Scramble Position]]
+- [[Positions/Darce Control]]
 
 
 </section>
@@ -260,14 +260,14 @@ The Darce's effectiveness stems from its applicability across multiple positions
 
 ## Related Submissions
 
-- [[Anaconda Choke]]
-- [[Guillotine Choke]]
-- [[Arm Triangle]]
-- [[Brabo Choke]]
-- [[Arm in Guillotine]]
-- [[Ezekiel Choke]]
-- [[Japanese Necktie]]
-- [[Peruvian Necktie]]
+- [[Transitions/Anaconda Choke]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Brabo Choke]]
+- [[Submissions/Arm in Guillotine]]
+- [[Submissions/Ezekiel Choke]]
+- [[Submissions/Japanese Necktie]]
+- [[Submissions/Peruvian Necktie]]
 
 
 </section>
@@ -276,14 +276,14 @@ The Darce's effectiveness stems from its applicability across multiple positions
 
 ## Additional Related Content
 
-- [[Front Headlock]] - Primary position for darce entries—mastering front headlock control essential for high-percentage darce setups
-- [[Darce Setup]] - Transition technique covering optimal entries and timing for darce choke from various positions
-- [[Darce from Turtle]] - Specific transition for most common darce entry point when opponent defensively turtles
-- [[Anaconda Choke]] - Closely related front headlock choke—opponent defending darce by turning in opens anaconda, and vice versa
-- [[Darce Control]] - Position page covering control mechanics and maintenance of darce position before finishing
-- [[Anaconda Control]] - Related control position—understanding anaconda mechanics improves darce understanding and vice versa
-- [[Turtle]] - Common attacking position where darce opportunities frequently arise from opponent's defensive posture
-- [[Half Guard]] - Darce opportunities arise during half guard passing when opponent keeps head low or attempts underhook
+- [[Positions/Front Headlock]] - Primary position for darce entries—mastering front headlock control essential for high-percentage darce setups
+- [[Transitions/Darce Setup]] - Transition technique covering optimal entries and timing for darce choke from various positions
+- [[Transitions/Darce from Turtle]] - Specific transition for most common darce entry point when opponent defensively turtles
+- [[Transitions/Anaconda Choke]] - Closely related front headlock choke—opponent defending darce by turning in opens anaconda, and vice versa
+- [[Positions/Darce Control]] - Position page covering control mechanics and maintenance of darce position before finishing
+- [[Positions/Anaconda Control]] - Related control position—understanding anaconda mechanics improves darce understanding and vice versa
+- [[Positions/Turtle]] - Common attacking position where darce opportunities frequently arise from opponent's defensive posture
+- [[Positions/Half Guard]] - Darce opportunities arise during half guard passing when opponent keeps head low or attempts underhook
 
 
 </section>

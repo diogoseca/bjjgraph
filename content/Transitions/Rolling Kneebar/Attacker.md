@@ -176,7 +176,7 @@ The Rolling Kneebar from Grasshopper Guard uses rotational momentum to capture a
 
 Strategically, the Rolling Kneebar excels when opponents back step away from grasshopper guard or freeze against leg engagement. Their retreating motion facilitates the roll by creating space and directional momentum. Against opponents who drive forward aggressively, the roll becomes harder to execute and X-Guard sweeps become preferable. Mastery requires understanding the precise moment when hip elevation, leg grip, and opponent positioning align to create the ideal rolling window.
 
-**From Position**: [[Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategically, the Rolling Kneebar excels when opponents back step away from gra
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kneebar Control]] | 55% |
-| Failure | [[Grasshopper Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Kneebar Control]] | 55% |
+| Failure | [[Positions/Grasshopper Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, the Rolling Kneebar excels when opponents back step away from gra
 
 ## Opponent Counters
 
-- **Opponent posts hand and sprawls during roll initiation, stopping rotational momentum** (Effectiveness: High) - Your Response: If sprawl stops your roll, immediately convert to inside heel hook by retracting the trapped leg toward your hips and rotating to outside ashi position → Leads to [[Grasshopper Guard]]
-- **Opponent steps over your rolling body to escape leg entanglement** (Effectiveness: Medium) - Your Response: Follow their step with your hips, continuing to roll in the same direction to reestablish leg control from 50-50 or reverse X-Guard position → Leads to [[Grasshopper Guard]]
-- **Opponent drives forward into you before roll completes, flattening your inversion** (Effectiveness: High) - Your Response: Abandon kneebar attempt and convert their forward pressure into X-Guard elevation sweep by shooting your legs into their hips → Leads to [[Side Control]]
-- **Opponent straightens attacked leg and pulls knee away before you complete figure-four** (Effectiveness: Medium) - Your Response: Transition to straight ankle lock on the same leg by switching your grip to their heel and applying achilles pressure → Leads to [[Grasshopper Guard]]
+- **Opponent posts hand and sprawls during roll initiation, stopping rotational momentum** (Effectiveness: High) - Your Response: If sprawl stops your roll, immediately convert to inside heel hook by retracting the trapped leg toward your hips and rotating to outside ashi position → Leads to [[Positions/Grasshopper Guard]]
+- **Opponent steps over your rolling body to escape leg entanglement** (Effectiveness: Medium) - Your Response: Follow their step with your hips, continuing to roll in the same direction to reestablish leg control from 50-50 or reverse X-Guard position → Leads to [[Positions/Grasshopper Guard]]
+- **Opponent drives forward into you before roll completes, flattening your inversion** (Effectiveness: High) - Your Response: Abandon kneebar attempt and convert their forward pressure into X-Guard elevation sweep by shooting your legs into their hips → Leads to [[Positions/Side Control]]
+- **Opponent straightens attacked leg and pulls knee away before you complete figure-four** (Effectiveness: Medium) - Your Response: Transition to straight ankle lock on the same leg by switching your grip to their heel and applying achilles pressure → Leads to [[Positions/Grasshopper Guard]]
 
 
 </section>

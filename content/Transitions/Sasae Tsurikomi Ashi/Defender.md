@@ -154,7 +154,7 @@ description: "How to defend against Sasae Tsurikomi Ashi in BJJ. Recognition cue
 
 Defending Sasae Tsurikomi Ashi requires early recognition and proactive posture management rather than reactive scrambling once the throw is in motion. The technique depends entirely on kuzushi - if the attacker cannot break your balance forward, the foot block has no effect. Your defensive priority is to deny the off-balancing by maintaining a strong base with low hips and active grip fighting that prevents the attacker from establishing the lifting pulls they need. When you feel the characteristic circular pull and forward pressure that precedes Sasae, your immediate response must address the direction of force rather than the foot placement itself. Experienced defenders recognize that the foot block is merely the final element of a three-part sequence (circular movement, kuzushi, block), and that disrupting any earlier element makes the technique impossible to complete. Understanding this sequence gives you multiple defensive windows rather than a single desperate reaction at the moment of the sweep.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending Sasae Tsurikomi Ashi requires early recognition and proactive posture 
 ### 1. Retract the targeted foot and circle away from the blocking attempt while breaking the collar grip
 
 - **When to use**: Early in the attack sequence, when you feel the initial forward pull and circular movement but before the blocking foot is placed
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Returns to neutral standing with grip advantage since attacker's positioning is disrupted
 - **Risk**: If you retract too aggressively backward, you load weight onto the rear leg, making it vulnerable to Osoto Gari or Ouchi Gari follow-ups
 
 ### 2. Lower your hips and widen your base while driving forward into the attacker's space to kill the circular momentum
 
 - **When to use**: When you recognize the circular movement pattern and feel the kuzushi attempt beginning but still have your base intact
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Collapses the attacker's spacing and denies the angle needed for the foot block, potentially creating your own offensive opportunities
 - **Risk**: Driving forward aggressively can be exploited if attacker switches to a sacrifice throw like Tomoe Nage or pulls guard
 
 ### 3. Strip the collar grip using a two-on-one grip break and immediately establish your own dominant grips
 
 - **When to use**: At the earliest stage of the setup, when you feel the attacker securing the high collar grip that enables the upward lift
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Eliminates the attacker's primary lifting mechanism, making the throw mechanically impossible without re-establishing grips
 - **Risk**: Momentarily occupies both of your hands with the grip break, creating a brief window where the attacker could switch to a different attack
 
 ### 4. Sit to guard by pulling the attacker into your preferred guard position as the throw initiates
 
 - **When to use**: When the sweep is already in motion and you cannot defend standing, converting the momentum into a controlled guard pull rather than an uncontrolled fall
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You land in a guard position of your choice rather than flat on your back in a scramble, maintaining some tactical control
 - **Risk**: Concedes the standing exchange and may give up advantage points if the referee scores the action as a takedown before the guard is established
 
@@ -226,11 +226,11 @@ Defending Sasae Tsurikomi Ashi requires early recognition and proactive posture 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Deny the kuzushi by maintaining a strong base with low hips, actively breaking the high collar grip before the attacker can generate the upward pull, and circling away from the blocking foot while maintaining your own grip advantage. When the sweep fails, the attacker is momentarily out of position with committed weight, creating your window for counter-attacks.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 If the sweep catches you partially off-balance, convert the falling momentum into a deliberate guard pull by securing sleeve control and sitting into De La Riva or Reverse De La Riva guard. This requires accepting the sweep is partially successful but controlling where and how you land rather than being thrown flat onto your back into a bad position.
 

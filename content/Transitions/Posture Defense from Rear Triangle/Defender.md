@@ -154,7 +154,7 @@ description: "Learn to maintain rear triangle control when opponent attempts pos
 
 As the rear triangle top player, your opponent's posture defense represents the most dangerous threat to your control and submission finish. When the bottom player begins driving their shoulders back and gripping your locking ankle, you face a critical decision point: tighten the existing triangle to finish the choke before they recover posture, or transition to alternative attacks that capitalize on their escape movements. Maintaining the triangle's structural integrity through active knee compression, hip angling, and head control is essential to prevent the space creation that enables all subsequent escape sequences. Your defensive strategy must address both the immediate lock disruption and the subsequent positional transitions the bottom player will attempt once posture is partially recovered.
 
-**Opponent's Starting Position**: [[Rear Triangle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Triangle Control/Rear Triangle]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the rear triangle top player, your opponent's posture defense represents the 
 ### 1. Squeeze knees together and re-tighten the triangle lock while pulling opponent's head forward with both hands
 
 - **When to use**: Immediately upon recognizing any posture recovery attempt, before the opponent creates meaningful space
-- **Targets**: [[Rear Triangle]]
+- **Targets**: [[Positions/Triangle Control/Rear Triangle]]
 - **If successful**: Triangle returns to full compression, opponent's posture defense is nullified, and you can resume finishing the choke or cycling submissions
 - **Risk**: Committing both hands to head control temporarily removes ability to defend against ankle grip on locking ankle
 
 ### 2. Attack the opponent's free arm to transition toward crucifix when they reach for your ankle
 
 - **When to use**: When opponent extends their free arm across their centerline to grip the locking ankle, creating arm capture opportunity
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Both opponent's arms are trapped, eliminating all escape and defensive options and creating undefended submission paths
 - **Risk**: If the arm capture fails, you may loosen the triangle in the attempt, accelerating opponent's posture recovery
 
 ### 3. Extend hips and angle aggressively toward trapped arm to finish the choke before posture is fully recovered
 
 - **When to use**: When opponent has begun posturing but the triangle is still partially locked and chin protection is imperfect
-- **Targets**: [[Rear Triangle]]
+- **Targets**: [[Positions/Triangle Control/Rear Triangle]]
 - **If successful**: Submission finish or forced tap before escape is completed, ending the exchange decisively
 - **Risk**: Overcommitting to the finish may create space if it fails, giving opponent a larger window for posture recovery
 
 ### 4. Release triangle and transition to standard back control with seat belt grip
 
 - **When to use**: When posture defense is succeeding and the triangle is significantly compromised, making the finish unlikely
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Maintain dominant back control position and reset for future submission attempts from a secure platform
 - **Risk**: Voluntarily giving up the triangle configuration may allow opponent to execute back control escapes they were unable to attempt from rear triangle
 
@@ -225,11 +225,11 @@ As the rear triangle top player, your opponent's posture defense represents the 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Rear Triangle]]
+### → [[Positions/Triangle Control/Rear Triangle]]
 
 Maintain the triangle lock by actively squeezing knees, pulling opponent's head forward with free hands, and fighting to keep the locking ankle behind your knee. Counter every posture attempt with increased compression and hip angling toward the trapped arm side.
 
-### → [[Crucifix]]
+### → [[Positions/Crucifix]]
 
 When opponent reaches across their centerline with their free arm to grip your ankle, capture that arm with your hands and thread it between your legs or secure it with an overhook. Once both arms are trapped, transition to full crucifix control for undefended attacks.
 

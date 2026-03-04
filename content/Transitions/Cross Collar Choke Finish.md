@@ -21,7 +21,7 @@ The finishing mechanics differ fundamentally from mounted cross collar variation
 
 Strategically, this finish serves as the primary payoff for invisible collar positioning. When opponents defend effectively, the failed attempt maintains back control rather than surrendering position, making it a low-risk submission attempt. The technique chains naturally with rear naked choke attacks, creating a dilemma where defending one option opens vulnerability to the other.
 
-**From Position**: [[Invisible Collar]] (Top)
+**From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -33,8 +33,8 @@ Strategically, this finish serves as the primary payoff for invisible collar pos
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -189,21 +189,21 @@ The Cross Collar Choke Finish serves as the primary submission payoff for the in
 ## Related Techniques
 
 
-- [[Invisible Collar]] - Starting position
+- [[Positions/Rubber Guard/Invisible Collar]] - Starting position
 
-- [[Back Control]] - Fallback position on failure
+- [[Positions/Back Control]] - Fallback position on failure
 
-- [[Rear Naked Choke]] - Primary alternative when collar defended
+- [[Transitions/Rear Naked Choke]] - Primary alternative when collar defended
 
-- [[Armbar from Back]] - Chain attack when arms extend to defend
+- [[Submissions/Armbar from Back]] - Chain attack when arms extend to defend
 
-- [[Bow and Arrow Choke]] - Alternative collar finish variation
+- [[Transitions/Bow and Arrow Choke]] - Alternative collar finish variation
 
-- [[Body Triangle]] - Enhanced control platform for finish
+- [[Positions/Back Control/Body Triangle]] - Enhanced control platform for finish
 
-- [[Crucifix]] - Transition target when opponent turns
+- [[Positions/Crucifix]] - Transition target when opponent turns
 
-- [[Cross Collar Choke]] - Related front-facing collar choke submission
+- [[Transitions/Cross Collar Choke]] - Related front-facing collar choke submission
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Master defending against guard recovery from double unders. Comple
 
 As the top player defending against guard recovery attempts from double unders, your objective is to maintain bilateral underhook control and relentless forward pressure while advancing toward pass completion. You must recognize early indicators of guard recovery attempts and counter them by increasing pressure, tightening grip connections, and strategically advancing your knees past the opponent's hips. The defensive battle centers on preventing frame creation and maintaining the chest-to-leg contact that makes your double unders control effective. When the bottom player initiates recovery mechanics, your ability to read their intent within the first one to two seconds and respond with the appropriate counter determines whether you maintain position, advance the pass, or concede guard recovery.
 
-**Opponent's Starting Position**: [[Double Unders]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Double Unders]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the top player defending against guard recovery attempts from double unders, 
 ### 1. Increase forward chest pressure and drive through their frame attempts
 
 - **When to use**: When bottom player begins establishing forearm frames against your jawline or neck before hip escape
-- **Targets**: [[Double Unders]]
+- **Targets**: [[Positions/Double Unders]]
 - **If successful**: Bottom player's frames collapse under increased pressure, maintaining your full double unders control and stacking position
 - **Risk**: Over-committing forward can provide momentum for the bottom player's granby roll escape if they redirect your pressure laterally
 
 ### 2. Walk knees forward past opponent's hips to complete guard pass
 
 - **When to use**: When bottom player hip escapes and momentarily loosens their leg connection during recovery attempt
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Complete the guard pass to side control while opponent is mid-recovery with legs partially freed but not yet repositioned
 - **Risk**: If pass completion is too slow, bottom player may establish half guard or knee shield during your advancement
 
 ### 3. Re-grip and squeeze underhooks tighter to prevent leg extraction
 
 - **When to use**: When bottom player begins working to extract one leg from your underhook by pulling knee to chest
-- **Targets**: [[Double Unders]]
+- **Targets**: [[Positions/Double Unders]]
 - **If successful**: Re-establish full bilateral underhook control and reset stacking pressure to original dominant position
 - **Risk**: Momentary grip adjustment creates a brief window where bottom player can execute explosive leg extraction before you re-secure
 
 ### 4. Transition to over-under or leg weave passing configuration
 
 - **When to use**: When bottom player successfully frees one leg from your underhook control and standard re-grip fails
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Maintain passing pressure through alternative configuration, converting partial guard recovery into a different passing pathway
 - **Risk**: Freed leg may establish butterfly hook or knee shield during the configuration transition, allowing partial guard recovery
 
@@ -217,11 +217,11 @@ As the top player defending against guard recovery attempts from double unders, 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Double Unders]]
+### → [[Positions/Double Unders]]
 
 Maintain relentless forward pressure with tight elbow connection throughout their recovery attempt. Drive through their frames rather than retreating, keeping chest weight on their thighs at all times. Re-grip quickly if any slack develops in your underhook connection. Their failed recovery attempt will exhaust them, weakening subsequent escape attempts.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Capitalize on the bottom player's hip escape and frame creation by walking your knees forward past their hips during their recovery sequence. The space they create for leg extraction also opens a pathway for your knees to advance. Time your pass completion during the transition between their frame establishment and leg extraction when their focus is split between two tasks.
 

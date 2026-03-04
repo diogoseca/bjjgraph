@@ -154,7 +154,7 @@ description: "Complete defender guide for surviving the Inside Sankaku Heel Hook
 
 Defending the Inside Sankaku Heel Hook is one of the most urgent and high-stakes defensive situations in modern grappling. The defender's leg is trapped in the opponent's figure-four entanglement with the heel exposed toward the attacker's centerline, creating immediate submission danger. Unlike many defensive situations where time is an ally, the Inside Sankaku Heel Hook demands immediate action—once the attacker establishes a secure two-on-one grip on the heel, the window for safe escape closes rapidly and the only responsible option becomes tapping. Effective defense requires a layered approach: first protect the heel to prevent grip establishment, then fight any grips that are established, and only then work on positional escape. Understanding this priority sequence is critical because many practitioners reverse the order—attempting to escape the position while neglecting heel protection—and suffer injury when the attacker capitalizes on the exposed heel during the escape attempt.
 
-**Opponent's Starting Position**: [[Inside Sankaku]] (Top)
+**Opponent's Starting Position**: [[Positions/Inside Sankaku]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Inside Sankaku Heel Hook is one of the most urgent and high-stakes
 ### 1. Hide the heel by pressing it tightly against your own hip with toes turned inward and knee rotated outward
 
 - **When to use**: Immediately upon recognizing you are in Inside Sankaku—this should be your default defensive posture before the opponent initiates any grip attempt
-- **Targets**: [[Inside Sankaku]]
+- **Targets**: [[Positions/Inside Sankaku]]
 - **If successful**: Prevents the opponent from establishing the wrist blade grip on your Achilles tendon, forcing them to work through your heel protection before they can attack. Buys time to work on grip fighting and positional escapes.
 - **Risk**: If you focus entirely on heel hiding without addressing the entanglement, the opponent can apply steady pressure that eventually fatigues your defensive posture and forces exposure.
 
 ### 2. Two-on-one grip strip where both hands peel the opponent's gripping hand off your heel and redirect it away
 
 - **When to use**: When the opponent has established initial contact with your heel but has not yet secured the full two-on-one reinforcement grip
-- **Targets**: [[Inside Sankaku]]
+- **Targets**: [[Positions/Inside Sankaku]]
 - **If successful**: Breaks the opponent's submission grip, resetting the attack sequence and forcing them to re-establish contact. Creates a window to re-hide the heel and potentially work toward extraction.
 - **Risk**: Committing both hands to grip fighting removes your ability to frame against the opponent's hips or control their legs, potentially allowing them to improve positional control while you strip grips.
 
 ### 3. Counter-entangle by threading your free leg to establish 50-50 Guard and neutralize the positional advantage
 
 - **When to use**: When the opponent overcommits to the submission and creates space between their legs that allows your free leg to enter the entanglement
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Transitions to 50-50 Guard where the entanglement becomes symmetrical and the opponent loses their dominant Inside Sankaku control. The heel hook threat is significantly reduced in 50-50 compared to Inside Sankaku.
 - **Risk**: If the counter-entangle fails, you may have worsened your position by bringing your second leg closer to the opponent's control, potentially allowing them to transition to Saddle.
 
 ### 4. Boot scoot escape by pumping hips backward while straightening the trapped leg to create extraction distance
 
 - **When to use**: When the opponent momentarily loses hip connection or is transitioning between positional grips and submission grips
-- **Targets**: [[Inside Sankaku]]
+- **Targets**: [[Positions/Inside Sankaku]]
 - **If successful**: Creates enough distance to begin extracting the trapped leg from the figure-four entanglement. If extraction progresses far enough, the entanglement structure collapses and you can recover guard.
 - **Risk**: Straightening the leg during the boot scoot can temporarily expose the heel if the opponent reads the movement and intercepts with a grip before you create sufficient distance.
 
@@ -225,11 +225,11 @@ Defending the Inside Sankaku Heel Hook is one of the most urgent and high-stakes
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Thread your free leg into the opponent's entanglement when they create space during the submission attempt. Target the gap between their legs and hook your foot behind their far leg to establish the symmetrical 50-50 configuration. This neutralizes their dominant control and reduces the heel hook threat significantly.
 
-### → [[Inside Sankaku]]
+### → [[Positions/Inside Sankaku]]
 
 Successfully defend the heel hook attempt through grip fighting and heel hiding without losing the positional battle. Strip the opponent's grip using two-on-one defense, re-hide the heel, and force them to restart the entire submission sequence. While you remain in a dangerous position, surviving the heel hook attempt buys time to work on positional escapes.
 

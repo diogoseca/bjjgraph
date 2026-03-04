@@ -178,7 +178,7 @@ The strategic importance of this technique cannot be overstated for bottom playe
 
 Timing is the critical factor that separates successful butterfly hook recoveries from failed attempts that result in immediate pass completion. The window for insertion exists when the passer's weight shifts forward, backward, or laterally - any moment when their pressure is not driving directly into your hips. Advanced practitioners develop the sensitivity to feel these micro-adjustments and insert hooks almost reflexively, while beginners must consciously look for larger, more obvious opportunities.
 
-**From Position**: [[Double Unders]] (Bottom)
+**From Position**: [[Positions/Double Unders]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ Timing is the critical factor that separates successful butterfly hook recoverie
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Butterfly Guard]] | 65% |
-| Failure | [[Double Unders]] | 25% |
-| Counter | [[Side Control]] | 10% |
+| Success | [[Positions/Butterfly Guard]] | 65% |
+| Failure | [[Positions/Double Unders]] | 25% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -240,9 +240,9 @@ Timing is the critical factor that separates successful butterfly hook recoverie
 
 ## Opponent Counters
 
-- **Opponent drives forward explosively as they feel hook insertion beginning, re-smashing and trapping the leg** (Effectiveness: High) - Your Response: If they drive as you insert, use their momentum to complete an immediate elevation sweep rather than trying to seat the hook statically → Leads to [[Double Unders]]
-- **Opponent releases double unders and transitions to over-under or leg weave position before hook is seated** (Effectiveness: Medium) - Your Response: Accept the position change as a win - over-under and leg weave are less dominant than double unders and offer better escape opportunities → Leads to [[Double Unders]]
-- **Opponent backsteps around the hook and transitions to headquarters or knee slice position** (Effectiveness: Medium) - Your Response: Follow their movement with your hook, transitioning to de la riva or single leg x-guard as they retreat around your leg → Leads to [[Butterfly Guard]]
+- **Opponent drives forward explosively as they feel hook insertion beginning, re-smashing and trapping the leg** (Effectiveness: High) - Your Response: If they drive as you insert, use their momentum to complete an immediate elevation sweep rather than trying to seat the hook statically → Leads to [[Positions/Double Unders]]
+- **Opponent releases double unders and transitions to over-under or leg weave position before hook is seated** (Effectiveness: Medium) - Your Response: Accept the position change as a win - over-under and leg weave are less dominant than double unders and offer better escape opportunities → Leads to [[Positions/Double Unders]]
+- **Opponent backsteps around the hook and transitions to headquarters or knee slice position** (Effectiveness: Medium) - Your Response: Follow their movement with your hook, transitioning to de la riva or single leg x-guard as they retreat around your leg → Leads to [[Positions/Butterfly Guard]]
 
 
 </section>

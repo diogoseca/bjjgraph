@@ -21,7 +21,7 @@ Finishing mechanics center on three interconnected elements: angle optimization,
 
 Strategic awareness during the finish is essential because overcommitting to raw squeeze force without proper angle creates openings for the opponent to extract the trapped arm or bridge to disrupt the configuration. A well-angled triangle with moderate pressure finishes faster and more reliably than maximum force applied at a suboptimal angle. The mounted triangle choke finish exemplifies the principle that positional precision generates submission power more effectively than strength, and the 65% success rate reflects the position's inherent advantage when the attacker executes with patience and technical discipline.
 
-**From Position**: [[Mounted Triangle]] (Top)
+**From Position**: [[Positions/Mount/Mounted Triangle]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -33,8 +33,8 @@ Strategic awareness during the finish is essential because overcommitting to raw
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Mounted Triangle]] | 25% |
-| Counter | [[Mount]] | 10% |
+| Failure | [[Positions/Mount/Mounted Triangle]] | 25% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Triangle Choke from Mounted Triangle sits at the apex of the mount-to-submis
 ## Related Techniques
 
 
-- [[Mounted Triangle]] - Starting position from which this triangle choke finish is executed
+- [[Positions/Mount/Mounted Triangle]] - Starting position from which this triangle choke finish is executed
 
-- [[Mount]] - Fallback position when opponent escapes triangle structure entirely
+- [[Positions/Mount]] - Fallback position when opponent escapes triangle structure entirely
 
-- [[Mounted Triangle Finish]] - Related submission entry covering the full mounted triangle finishing system
+- [[Submissions/Mounted Triangle Finish]] - Related submission entry covering the full mounted triangle finishing system
 
-- [[Mounted Triangle Squeeze]] - Complementary pressure-building technique used before committing to the finish
+- [[Transitions/Mounted Triangle Squeeze]] - Complementary pressure-building technique used before committing to the finish
 
-- [[Mounted Triangle to S Mount]] - Alternative transition when triangle finish is defended and positional reset is needed
+- [[Transitions/Mounted Triangle to S Mount]] - Alternative transition when triangle finish is defended and positional reset is needed
 
-- [[Armbar from S Mount]] - Chain attack available when opponent defends triangle by extracting trapped arm
+- [[Submissions/Armbar from S Mount]] - Chain attack available when opponent defends triangle by extracting trapped arm
 
-- [[Back Control]] - Transition target when opponent turns to escape the triangle configuration
+- [[Positions/Back Control]] - Transition target when opponent turns to escape the triangle configuration
 
-- [[High Mount]] - Primary entry position from which mounted triangle is established before the finish
+- [[Positions/Mount/High Mount]] - Primary entry position from which mounted triangle is established before the finish
 
-- [[S Mount]] - Alternative mount variation that feeds into the mounted triangle setup
+- [[Positions/Mount/S Mount]] - Alternative mount variation that feeds into the mounted triangle setup
 
-- [[Triangle from Open Guard]] - Related triangle submission using similar mechanics from guard position
+- [[Submissions/Triangle from Open Guard]] - Related triangle submission using similar mechanics from guard position
 
 
 </section>

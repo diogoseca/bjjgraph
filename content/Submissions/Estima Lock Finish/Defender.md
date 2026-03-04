@@ -150,7 +150,7 @@ description: "Defend the Estima Lock Finish effectively. Recognition cues, count
 
 Defending the Estima Lock Finish demands immediate recognition of the submission threat and systematic defensive responses that address both the rotational pressure and the positional control simultaneously. The defender's primary tool is counter-rotation of the ankle to reduce torque on the joint, combined with active framing against the attacker's hips and engagement of the free leg for defensive leverage and escape initiation. Timing is critical because the Estima Lock's rotational mechanics can progress from manageable defensive pressure to injury-risk threshold rapidly once the attacker establishes proper alignment with the hip fulcrum. Knowing when to commit to escape attempts versus when to tap is essential for preserving long-term joint health and training longevity.
 
-**Opponent's Starting Position**: [[Estima Lock]] (Top)
+**Opponent's Starting Position**: [[Positions/Estima Lock]] (Top)
 
 
 </section>
@@ -188,21 +188,21 @@ Defending the Estima Lock Finish demands immediate recognition of the submission
 ### 1. Counter-rotate ankle and strip attacker's grip with two-on-one hand fighting
 
 - **When to use**: Immediately upon recognizing the Estima Lock grip before the attacker can establish full finishing mechanics and hip fulcrum pressure
-- **Targets**: [[Estima Lock]]
+- **Targets**: [[Positions/Estima Lock]]
 - **If successful**: Prevents the finish and creates opportunity to initiate leg extraction or transition to a more defensible position
 - **Risk**: If grip strip fails, attacker may tighten control and accelerate finishing pressure
 
 ### 2. Push attacker's hips away with free leg while maintaining counter-rotation on trapped ankle
 
 - **When to use**: When attacker has grip established but has not yet fully consolidated hip fulcrum pressure against your calf
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Creates distance that removes the hip fulcrum, reducing rotational torque and enabling leg extraction to 50-50 or open guard
 - **Risk**: Free leg must connect solidly with attacker's hips; missing the frame leaves the free leg exposed to control
 
 ### 3. Sit up and establish defensive frames on attacker's shoulders while retracting knee toward chest
 
 - **When to use**: When counter-rotation alone is insufficient and attacker has begun applying progressive finishing pressure
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Sitting up changes the positional dynamic and creates opportunities for full leg extraction or counter-entanglement into 50-50 Guard
 - **Risk**: Sitting up requires significant core engagement and may be impossible if attacker has heavy hip pressure established
 
@@ -224,11 +224,11 @@ Defending the Estima Lock Finish demands immediate recognition of the submission
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Retract the trapped leg while establishing counter-entanglement to transition from Estima Lock into the symmetrical 50-50 position where submission threat is neutralized
 
-### → [[Estima Lock]]
+### → [[Positions/Estima Lock]]
 
 Maintain strong counter-rotation and strip attacker's grip to prevent the finish, buying time to set up a more complete escape sequence from the control position
 

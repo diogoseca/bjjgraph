@@ -21,7 +21,7 @@ The technique demands disciplined two-on-one grip fighting methodology rather th
 
 Successful hand fighting creates cascading defensive advantages that compound through the escape sequence. Breaking the seat belt downgrades opponent's control from the specialized diagonal configuration to general back control, reducing submission options and overall retention capacity. This positional degradation opens pathways for secondary escape sequences including back door escapes, hip escapes to turtle, and elbow escapes to half guard. The hand fight is therefore not an isolated technique but a gateway action that enables the full spectrum of back escape methodology.
 
-**From Position**: [[Seat Belt Control Back]] (Bottom)
+**From Position**: [[Positions/Back Control/Seat Belt Control Back]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ Successful hand fighting creates cascading defensive advantages that compound th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 35% |
-| Success | [[Turtle]] | 10% |
-| Failure | [[Seat Belt Control Back]] | 40% |
-| Counter | [[Seat Belt Control Back]] | 15% |
+| Success | [[Positions/Back Control]] | 35% |
+| Success | [[Positions/Turtle]] | 10% |
+| Failure | [[Positions/Back Control/Seat Belt Control Back]] | 40% |
+| Counter | [[Positions/Back Control/Seat Belt Control Back]] | 15% |
 
 
 </section>
@@ -196,25 +196,25 @@ Hand fighting from seat belt control occupies a pivotal position in the back esc
 ## Related Techniques
 
 
-- [[Seat Belt Control Back]] - Source position - hand fight initiates from bottom of this specific back control configuration
+- [[Positions/Back Control/Seat Belt Control Back]] - Source position - hand fight initiates from bottom of this specific back control configuration
 
-- [[Back Control]] - Primary success target - breaking seat belt downgrades opponent to general back control
+- [[Positions/Back Control]] - Primary success target - breaking seat belt downgrades opponent to general back control
 
-- [[Turtle]] - Secondary escape target - successful grip disruption may enable escape to turtle
+- [[Positions/Turtle]] - Secondary escape target - successful grip disruption may enable escape to turtle
 
-- [[Back Door Escape]] - Complementary escape - hand fight creates conditions for back door escape execution
+- [[Transitions/Back Door Escape]] - Complementary escape - hand fight creates conditions for back door escape execution
 
-- [[Elbow Escape from Back]] - Follow-up technique - used after hand fight weakens control to remove hooks
+- [[Transitions/Elbow Escape from Back]] - Follow-up technique - used after hand fight weakens control to remove hooks
 
-- [[Body Triangle]] - Alternative back control - opponent may transition to body triangle if seat belt is threatened
+- [[Positions/Back Control/Body Triangle]] - Alternative back control - opponent may transition to body triangle if seat belt is threatened
 
-- [[Gift Wrap]] - Counter threat - opponent may switch to gift wrap when seat belt grip is compromised
+- [[Positions/Gift Wrap]] - Counter threat - opponent may switch to gift wrap when seat belt grip is compromised
 
-- [[RNC from Seat Belt]] - Primary submission threat - the choke that hand fighting is designed to prevent
+- [[Submissions/RNC from Seat Belt]] - Primary submission threat - the choke that hand fighting is designed to prevent
 
-- [[Bow and Arrow from Seat Belt]] - Secondary submission threat - gi choke accessible from seat belt requiring grip defense
+- [[Submissions/Bow and Arrow from Seat Belt]] - Secondary submission threat - gi choke accessible from seat belt requiring grip defense
 
-- [[Harness]] - Related grip concept - shares upper body control mechanics with seat belt configuration
+- [[Positions/Harness]] - Related grip concept - shares upper body control mechanics with seat belt configuration
 
 
 </section>

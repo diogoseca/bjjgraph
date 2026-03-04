@@ -180,7 +180,7 @@ description: "Complete guide to executing the butterfly hook control pass in BJJ
 
 As the passer, your objective is to systematically dismantle the butterfly guard player's offensive structure before they can generate sweep momentum. The pass requires patience and methodical execution—rushing forward into active hooks invites sweeps. The key insight is that butterfly hooks become dangerous only when combined with upper body control and directional pulling. By winning the grip battle first and controlling the opponent's posture, you remove the directional component of their sweep threat, making the hooks far less dangerous. From there, you can address the hooks themselves through pressure, pinning, and hip switching to complete the pass to side control.
 
-**From Position**: [[Butterfly Hook Control]] (Top)
+**From Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Top)
 
 </section>
 
@@ -232,10 +232,10 @@ As the passer, your objective is to systematically dismantle the butterfly guard
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Failure | [[Butterfly Hook Control]] | 25% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Side Control]] | 45% |
+| Failure | [[Positions/Butterfly Guard/Butterfly Hook Control]] | 25% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the passer, your objective is to systematically dismantle the butterfly guard
 
 ## Opponent Counters
 
-- **Opponent executes explosive hook elevation combined with upper body pull to sweep during passer's weight shift** (Effectiveness: High) - Your Response: Immediately sprawl hips back and widen base while driving forehead into their chest to kill the elevation angle. If already elevated significantly, standing up is safer than fighting to recover kneeling base. → Leads to [[Mount]]
-- **Opponent hip escapes and re-inserts hook after initial pin before passer can consolidate** (Effectiveness: Medium) - Your Response: Return to upper body control and re-break their posture before re-attempting the hook pin. The re-insertion succeeded because upper body control was insufficient during the first attempt. → Leads to [[Butterfly Hook Control]]
-- **Opponent frames with forearms against shoulders and shrimps away to reset guard distance** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own forward pressure, strip one frame at a time rather than fighting both, and re-establish chest-to-chest contact before resuming the pass sequence. → Leads to [[Butterfly Hook Control]]
-- **Opponent inserts knee shield as near-side hook is cleared, transitioning to half guard retention** (Effectiveness: Medium) - Your Response: Accept the transition to half guard top and switch to knee slice or pressure pass mechanics. Do not try to force through a well-established knee shield—instead use the half guard passing game. → Leads to [[Half Guard]]
+- **Opponent executes explosive hook elevation combined with upper body pull to sweep during passer's weight shift** (Effectiveness: High) - Your Response: Immediately sprawl hips back and widen base while driving forehead into their chest to kill the elevation angle. If already elevated significantly, standing up is safer than fighting to recover kneeling base. → Leads to [[Positions/Mount]]
+- **Opponent hip escapes and re-inserts hook after initial pin before passer can consolidate** (Effectiveness: Medium) - Your Response: Return to upper body control and re-break their posture before re-attempting the hook pin. The re-insertion succeeded because upper body control was insufficient during the first attempt. → Leads to [[Positions/Butterfly Guard/Butterfly Hook Control]]
+- **Opponent frames with forearms against shoulders and shrimps away to reset guard distance** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own forward pressure, strip one frame at a time rather than fighting both, and re-establish chest-to-chest contact before resuming the pass sequence. → Leads to [[Positions/Butterfly Guard/Butterfly Hook Control]]
+- **Opponent inserts knee shield as near-side hook is cleared, transitioning to half guard retention** (Effectiveness: Medium) - Your Response: Accept the transition to half guard top and switch to knee slice or pressure pass mechanics. Do not try to force through a well-established knee shield—instead use the half guard passing game. → Leads to [[Positions/Half Guard]]
 
 
 </section>

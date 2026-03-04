@@ -186,7 +186,7 @@ description: "Execute the Sweep from Honey Hole to reverse dangerous leg entangl
 
 Executing the Sweep from Honey Hole requires transforming the worst-case leg lock scenario into a positional reversal. As the attacker, you are the bottom player trapped in your opponent's inside leg triangle, facing imminent heel hook danger. Rather than accepting this defensive nightmare passively, you leverage the physical connection created by the entanglement itself—using bridging force, free leg momentum, and upper body grips to generate a sweep that deposits your opponent beneath you in Side Control. This technique demands precise timing, explosive commitment, and the tactical awareness to recognize when your opponent's weight distribution creates vulnerability. The sweep is most effective during the brief window when your opponent reaches for your heel or adjusts their leg configuration, momentarily compromising their base. Attempting this sweep without recognizing these windows results in wasted energy and potentially deeper entanglement.
 
-**From Position**: [[Honey Hole]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Honey Hole]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Sweep from Honey Hole requires transforming the worst-case leg loc
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 30% |
-| Failure | [[Honey Hole]] | 45% |
-| Counter | [[Honey Hole]] | 25% |
+| Success | [[Positions/Side Control]] | 30% |
+| Failure | [[Positions/Ashi Garami/Honey Hole]] | 45% |
+| Counter | [[Positions/Ashi Garami/Honey Hole]] | 25% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Sweep from Honey Hole requires transforming the worst-case leg loc
 
 ## Opponent Counters
 
-- **Opponent drives hips down and tightens inside leg triangle immediately upon sensing sweep initiation** (Effectiveness: High) - Your Response: Abort the sweep attempt and transition to grip fighting or counter-entanglement to 50-50 guard instead. Do not force the sweep against a locked-down base—it wastes energy and may expose your heel. → Leads to [[Honey Hole]]
-- **Opponent posts far hand on the mat to base out against the sweep direction** (Effectiveness: Medium) - Your Response: If you have their far arm controlled, this counter is neutralized. If they free the arm to post, redirect your sweep angle or immediately switch to pulling their posting arm to remove the base before re-attempting the sweep. → Leads to [[Honey Hole]]
-- **Opponent accelerates heel hook attempt using your sweep momentum to create rotational force on your knee** (Effectiveness: High) - Your Response: This is the most dangerous counter. If you feel any heel hook grip tightening during the sweep, abandon the sweep instantly and prioritize heel defense. Tap immediately if rotational pressure reaches your knee. Never fight through a heel hook to complete a sweep. → Leads to [[Honey Hole]]
-- **Opponent releases triangle voluntarily and disengages to avoid being swept, resetting to neutral** (Effectiveness: Low) - Your Response: Accept the positional reset as a win—you escaped Honey Hole bottom. Immediately establish distance or guard position before they can re-enter the leg entanglement. This counter actually achieves your defensive goal even though the sweep itself did not complete. → Leads to [[Side Control]]
+- **Opponent drives hips down and tightens inside leg triangle immediately upon sensing sweep initiation** (Effectiveness: High) - Your Response: Abort the sweep attempt and transition to grip fighting or counter-entanglement to 50-50 guard instead. Do not force the sweep against a locked-down base—it wastes energy and may expose your heel. → Leads to [[Positions/Ashi Garami/Honey Hole]]
+- **Opponent posts far hand on the mat to base out against the sweep direction** (Effectiveness: Medium) - Your Response: If you have their far arm controlled, this counter is neutralized. If they free the arm to post, redirect your sweep angle or immediately switch to pulling their posting arm to remove the base before re-attempting the sweep. → Leads to [[Positions/Ashi Garami/Honey Hole]]
+- **Opponent accelerates heel hook attempt using your sweep momentum to create rotational force on your knee** (Effectiveness: High) - Your Response: This is the most dangerous counter. If you feel any heel hook grip tightening during the sweep, abandon the sweep instantly and prioritize heel defense. Tap immediately if rotational pressure reaches your knee. Never fight through a heel hook to complete a sweep. → Leads to [[Positions/Ashi Garami/Honey Hole]]
+- **Opponent releases triangle voluntarily and disengages to avoid being swept, resetting to neutral** (Effectiveness: Low) - Your Response: Accept the positional reset as a win—you escaped Honey Hole bottom. Immediately establish distance or guard position before they can re-enter the leg entanglement. This counter actually achieves your defensive goal even though the sweep itself did not complete. → Leads to [[Positions/Side Control]]
 
 
 </section>

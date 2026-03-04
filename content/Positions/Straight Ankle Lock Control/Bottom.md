@@ -215,25 +215,25 @@ The technical execution requires precise coordination of grips, leg positioning,
 
 ## Available Escapes
 
-### [[Ankle Lock Finish]] (31% of attempts)
+### [[Transitions/Ankle Lock Finish]] (31% of attempts)
 
-### [[Inside Ashi Entry]] (13% of attempts)
+### [[Transitions/Inside Ashi Entry]] (13% of attempts)
 
-### [[Outside Ashi Entry]] (11% of attempts)
+### [[Transitions/Outside Ashi Entry]] (11% of attempts)
 
-### [[X-Guard to Ashi Garami]] (6% of attempts)
+### [[Transitions/X-Guard to Ashi Garami]] (6% of attempts)
 
-### [[50-50 Entry from Standing]] (8% of attempts)
+### [[Transitions/50-50 Entry from Standing]] (8% of attempts)
 
-### [[Single Leg X Entry]] (10% of attempts)
+### [[Transitions/Single Leg X Entry]] (10% of attempts)
 
-### [[Kneebar Finish]] (8% of attempts)
+### [[Transitions/Kneebar Finish]] (8% of attempts)
 
-### [[Ankle Pick Sweep]] (8% of attempts)
+### [[Transitions/Ankle Pick Sweep]] (8% of attempts)
 
-### [[Straight Footlock]] (3% of attempts)
+### [[Transitions/Straight Footlock]] (3% of attempts)
 
-### [[Ankle Lock Escape to Standing]] (2% of attempts)
+### [[Transitions/Ankle Lock Escape to Standing]] (2% of attempts)
 
 
 
@@ -244,28 +244,28 @@ The technical execution requires precise coordination of grips, leg positioning,
 ## Decision Making from This Position
 
 **If defender rotates hip away from attacker attempting to extract knee and create distance:**
-- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 70%)
-- Execute **[[Transition to leg triangle control]]** → [[Inside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 70%)
+- Execute **[[Transition to leg triangle control]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 65%)
 
 
 **If defender rotates hip toward attacker attempting to come on top or pass:**
-- Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 65%)
-- Execute **[[Maintain ankle control and transition outside]]** → [[Outside Ashi-Garami]] (Probability: 60%)
+- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Maintain ankle control and transition outside]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 60%)
 
 
 **If defender straightens leg completely attempting to pull foot out of grip:**
-- Execute **[[Ankle Lock Finish]]** → [[Game Over]] (Probability: 70%)
-- Execute **[[Kneebar Finish]]** → [[Game Over]] (Probability: 55%)
+- Execute **[[Transitions/Ankle Lock Finish]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Transitions/Kneebar Finish]]** → [[Positions/Game Over]] (Probability: 55%)
 
 
 **If defender attempts to stand and creates vertical pressure on trapped leg:**
-- Execute **[[Ankle Pick Sweep]]** → [[Standing Position]] (Probability: 60%)
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 65%)
+- Execute **[[Transitions/Ankle Pick Sweep]]** → [[Positions/Standing Position]] (Probability: 60%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
 
 
 **If defender secures grip on attacker's opposite leg attempting symmetrical entanglement:**
-- Execute **[[50-50 Entry from Standing]]** → [[50-50 Guard]] (Probability: 70%)
-- Execute **[[Race to finish ankle lock before defender secures their control]]** → [[Game Over]] (Probability: 45%)
+- Execute **[[Transitions/50-50 Entry from Standing]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 70%)
+- Execute **[[Race to finish ankle lock before defender secures their control]]** → [[Positions/Game Over]] (Probability: 45%)
 
 
 
@@ -399,14 +399,14 @@ With fully compliant partner in straight ankle lock control, practice proper bre
 
 ## Related Positions and Techniques
 
-- **[[Inside Ashi-Garami]]** - Primary advancement position when defender rotates hip away from control
-- **[[Outside Ashi-Garami]]** - Alternative advancement when defender rotates hip toward attacker
-- **[[50-50 Guard]]** - Symmetrical entanglement resulting from defender's counter-entry attempts
-- **[[Single Leg X-Guard]]** - Common entry position and fallback when standing defense occurs
-- **[[Achilles Lock]]** - Primary submission finish from this control position
-- **[[Kneebar Control]]** - Alternative attack when defender straightens leg defending ankle lock
-- **[[Saddle]]** - Advanced leg entanglement accessible through systematic transitions
-- **[[Leg Entanglement]]** - Conceptual framework principle governing this position category
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Primary advancement position when defender rotates hip away from control
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Alternative advancement when defender rotates hip toward attacker
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Symmetrical entanglement resulting from defender's counter-entry attempts
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Common entry position and fallback when standing defense occurs
+- **[[Submissions/Achilles Lock]]** - Primary submission finish from this control position
+- **[[Positions/Kneebar Control]]** - Alternative attack when defender straightens leg defending ankle lock
+- **[[Positions/Ashi Garami/Saddle]]** - Advanced leg entanglement accessible through systematic transitions
+- **[[Positions/Leg Entanglement]]** - Conceptual framework principle governing this position category
 
 
 </section>

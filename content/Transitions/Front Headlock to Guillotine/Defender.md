@@ -158,7 +158,7 @@ The defensive framework operates on a hierarchy of priorities: first, protect yo
 
 The critical defensive window occurs during the grip change phase - the moment your opponent releases their front headlock grip to slide deeper for the guillotine. This is when their control is weakest and your escape opportunities are greatest. Training to recognize this transition moment and respond with pre-programmed defensive reactions is essential for surviving against opponents with strong front headlock systems.
 
-**Opponent's Starting Position**: [[Front Headlock]] (Top)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -197,28 +197,28 @@ The critical defensive window occurs during the grip change phase - the moment y
 ### 1. Two-on-one arm fight and posture recovery - grip the choking arm at the wrist with your near hand and at the elbow with your far hand, then drive upward forcefully to straighten your spine while stepping your lead foot forward to create posture
 
 - **When to use**: Early in the transition, before the opponent has locked their hands together for the guillotine grip. Most effective when you feel the arm beginning to slide deeper but the grip has not yet been established.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Returns to standard front headlock position where opponent must re-establish their grip and you have more escape options available without immediate submission threat
 - **Risk**: If opponent's grip is already locked, committing both hands to the arm fight leaves your body undefended and they can use the opening to tighten the choke or pull guard
 
 ### 2. Von Flue counter - drive forward into the opponent as they attempt to pull guard, passing to side control while their guillotine grip is still locked. Pin their choking arm between your shoulder and their neck to create a shoulder-pressure choke on the attacker
 
 - **When to use**: When the opponent commits to pulling guard and wrapping their legs but has a shallow grip that is uncomfortable but not finishing. You must act before they can adjust depth or switch to high-elbow variation.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You escape the guillotine entirely and reverse the position, ending in side control with the opponent forced to release their grip or be submitted by the Von Flue choke pressure
 - **Risk**: If their guillotine is deep and properly locked, driving forward into it significantly increases choking pressure and can accelerate unconsciousness. Only attempt when the grip is demonstrably shallow.
 
 ### 3. Circle toward choking arm and duck under - step toward the choking arm side while dropping your level, simultaneously rotating your body to face the opponent and extracting your head from the grip by going under their armpit rather than pulling backward
 
 - **When to use**: During the grip change window when the opponent momentarily loosens their front headlock control to slide deeper. The brief reduction in control pressure creates space to circle and duck.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Head extracts from the guillotine path entirely, often resulting in you achieving a body lock or underhook on the opponent from a neutral position
 - **Risk**: If you circle at the wrong moment (after grip is locked), you can tighten the choke by giving the opponent a better angle. Requires precise timing during the transition window.
 
 ### 4. Sprawl and create distance - explosively extend your hips backward while posting both hands on the mat, creating maximum distance between your neck and the opponent's body to prevent guard closure and reduce arm depth
 
 - **When to use**: When the opponent begins sitting back to pull guard but has not yet locked their legs around your waist. The sprawl must happen before guard closure or it becomes ineffective.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Creates enough distance that the opponent cannot close guard or maintain choking pressure. Often results in their grip breaking as their arms extend, returning to a scramble or front headlock position
 - **Risk**: Sprawling with poor chin protection can actually feed your neck deeper into the choke if the opponent maintains their grip. Must be combined with chin tuck and arm fighting.
 
@@ -230,11 +230,11 @@ The critical defensive window occurs during the grip change phase - the moment y
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Prevent the guillotine grip from being established by fighting the choking arm during the transition window. Use two-on-one arm control to peel the wrist away from your neck while recovering posture. Alternatively, sprawl explosively to create distance before guard closure, forcing the opponent to abandon the guillotine attempt and re-establish front headlock control. The key is acting during the grip change phase when their control is weakest.
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Execute a Von Flue counter by driving forward into side control when the opponent pulls guard with a shallow guillotine grip. Pin their choking arm between your shoulder and their neck using heavy shoulder pressure, creating a reverse choke that forces them to release the guillotine. This requires their grip to be shallow enough that driving forward does not accelerate the choke. Alternatively, turn into the opponent and establish an underhook, using their committed grip against them to improve your position to at minimum a neutral scramble where you have reversed the control dynamic.
 

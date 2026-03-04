@@ -182,7 +182,7 @@ description: "Master attacking the Gift Wrap RNC in BJJ. Learn setup mechanics, 
 
 Attacking the Gift Wrap RNC requires understanding that the submission's power derives from positional dominance rather than raw squeezing strength. The Gift Wrap arm trap has already done the hardest work by neutralizing one of the defender's arms, leaving only a single free hand to contest your choking arm. Your primary task is to methodically work the choking arm past that one remaining defensive hand, connect your grip behind the opponent's head, and apply controlled bilateral pressure on the carotid arteries. The key insight is patience: the arm trap provides such a significant advantage that rushing the choke entry is unnecessary and counterproductive. Allow the positional advantage to create the submission rather than forcing it through strength.
 
-**From Position**: [[Gift Wrap]] (Top)
+**From Position**: [[Positions/Gift Wrap]] (Top)
 
 
 </section>
@@ -237,8 +237,8 @@ Attacking the Gift Wrap RNC requires understanding that the submission's power d
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Gift Wrap]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Failure | [[Positions/Gift Wrap]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -247,10 +247,10 @@ Attacking the Gift Wrap RNC requires understanding that the submission's power d
 
 ## Opponent Defenses
 
-- **Defender tucks chin tightly to chest preventing forearm entry under the jawline** (Effectiveness: Medium) - Your Response: Use your forehead or the crown of your head to push against the back of their skull, tilting their chin up. Alternatively, adjust angle and enter from the side where the chin creates less obstruction. The gift wrap advantage means you have time to work past the chin methodically. → Leads to [[Gift Wrap]]
-- **Defender uses free hand to grip fight the choking arm, stripping wrist control or blocking forearm entry** (Effectiveness: High) - Your Response: Since they only have one hand for defense, use swim moves and circular motion to bypass the grip. If they commit fully to wrist control, consider transitioning to armbar on the defending free arm. Their single-handed defense cannot cover all angles simultaneously. → Leads to [[Gift Wrap]]
-- **Defender attempts explosive bridge and roll to dislodge back control during choke entry** (Effectiveness: Low) - Your Response: Drive hooks forward and flatten your hips against their lower back to absorb the bridge. With one arm trapped, their bridging power is significantly reduced. Use the bridge as an opportunity to sink the choking arm deeper during the moment of movement. → Leads to [[Gift Wrap]]
-- **Defender strips the gift wrap arm trap by rotating shoulder during choke entry distraction** (Effectiveness: High) - Your Response: If the gift wrap is partially compromised, immediately reassess whether to re-establish the wrap or commit fully to the choke if your arm is already deep enough. If the forearm is under the chin, commit to the finish. If not, re-establish the gift wrap before continuing the attack. → Leads to [[Back Control]]
+- **Defender tucks chin tightly to chest preventing forearm entry under the jawline** (Effectiveness: Medium) - Your Response: Use your forehead or the crown of your head to push against the back of their skull, tilting their chin up. Alternatively, adjust angle and enter from the side where the chin creates less obstruction. The gift wrap advantage means you have time to work past the chin methodically. → Leads to [[Positions/Gift Wrap]]
+- **Defender uses free hand to grip fight the choking arm, stripping wrist control or blocking forearm entry** (Effectiveness: High) - Your Response: Since they only have one hand for defense, use swim moves and circular motion to bypass the grip. If they commit fully to wrist control, consider transitioning to armbar on the defending free arm. Their single-handed defense cannot cover all angles simultaneously. → Leads to [[Positions/Gift Wrap]]
+- **Defender attempts explosive bridge and roll to dislodge back control during choke entry** (Effectiveness: Low) - Your Response: Drive hooks forward and flatten your hips against their lower back to absorb the bridge. With one arm trapped, their bridging power is significantly reduced. Use the bridge as an opportunity to sink the choking arm deeper during the moment of movement. → Leads to [[Positions/Gift Wrap]]
+- **Defender strips the gift wrap arm trap by rotating shoulder during choke entry distraction** (Effectiveness: High) - Your Response: If the gift wrap is partially compromised, immediately reassess whether to re-establish the wrap or commit fully to the choke if your arm is already deep enough. If the forearm is under the chin, commit to the finish. If not, re-establish the gift wrap before continuing the attack. → Leads to [[Positions/Back Control]]
 
 
 </section>

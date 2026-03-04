@@ -154,7 +154,7 @@ description: "Defend against guard passes from Williams Guard bottom position. L
 
 Defending the guard pass from Williams Guard means you are the bottom player working to maintain your shoulder lock control and guard structure while the top player systematically attempts arm extraction and passing. Your primary objective is retention of the Williams Guard position, with secondary objectives of converting their passing attempts into sweep or submission opportunities. The defender holds significant mechanical advantage in this exchange—the shoulder lock creates a submission threat that constrains the passer's options, and every extraction attempt creates small positional vulnerabilities that can be exploited for transitions to omoplata, triangle, back take, or sweep. Success requires reading the passer's extraction method and responding with the appropriate counter that either maintains the position or converts their movement into your offense.
 
-**Opponent's Starting Position**: [[Williams Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Williams Guard]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the guard pass from Williams Guard means you are the bottom player wor
 ### 1. Tighten figure-four grip and re-angle hips to restore shoulder lock mechanics when feeling extraction rotation
 
 - **When to use**: Early in the extraction attempt when you feel the circular rotation beginning to create slack in your grip
-- **Targets**: [[Williams Guard]]
+- **Targets**: [[Positions/Williams Guard]]
 - **If successful**: Passer's extraction fails and they return to Williams Guard top defensive position with arm still controlled
 - **Risk**: Over-tightening the grip may trigger standing extraction variant if passer recognizes ground extraction is being shut down
 
 ### 2. Transition to omoplata by swinging leg over the passer's shoulder during their forward drive
 
 - **When to use**: When the passer commits to the forward shoulder drive in step three of the extraction, creating the rotation opportunity
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: You establish omoplata control with sweep and submission opportunities from a dominant position
 - **Risk**: If the passer recognizes the transition early, they can stack you to prevent omoplata completion and may complete the pass
 
 ### 3. Close guard immediately when arm begins to clear to prevent the pass from completing
 
 - **When to use**: When the arm extraction succeeds but you can still close your legs around the passer's waist before they establish passing pressure
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover closed guard position which, while losing Williams Guard control, prevents the pass to side control
 - **Risk**: If you close guard too late, the passer may already have their hips past your legs, resulting in half guard or side control
 
 ### 4. Insert butterfly hooks and sweep as the passer transitions from extraction to pass
 
 - **When to use**: During the extraction-to-pass transition window when the passer's weight shifts forward and their base is temporarily compromised
-- **Targets**: [[Williams Guard]]
+- **Targets**: [[Positions/Williams Guard]]
 - **If successful**: The sweep reverses position, and you establish top position from the transition
 - **Risk**: If the passer's sprawl timing is correct, the butterfly hooks may be flattened and the pass accelerates
 
@@ -226,15 +226,15 @@ Defending the guard pass from Williams Guard means you are the bottom player wor
 
 ## Best-Case Outcomes for Defender
 
-### → [[Williams Guard]]
+### → [[Positions/Williams Guard]]
 
 Maintain figure-four grip tension throughout all extraction attempts by constantly adjusting hip angle to track the passer's circling movements. When you feel circular rotation on your grip, re-angle your hips to restore optimal shoulder lock mechanics before the extraction reaches critical threshold.
 
-### → [[Omoplata Control]]
+### → [[Positions/Omoplata Control]]
 
 Time your leg swing to coincide with the passer's forward shoulder drive during extraction step three. Their committed forward movement creates the rotational opportunity for omoplata—use their momentum to accelerate your hip rotation and establish the leg position over their shoulder before they can posture up.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 If arm extraction succeeds, immediately close your guard by locking ankles behind the passer's back before they can establish passing pressure. This is a fallback that prevents the worst outcome of side control while giving you offensive options from closed guard bottom.
 

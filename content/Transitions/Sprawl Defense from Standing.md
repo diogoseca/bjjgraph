@@ -21,7 +21,7 @@ Beyond simple shot defense, the sprawl functions as a critical transition point 
 
 The strategic depth of the sprawl extends well beyond reactive defense. Advanced practitioners recognize that the sprawl-to-front-headlock sequence creates one of the highest-percentage submission chains available from standing. The key differentiator between competent and elite sprawl defense lies in the seamless transition from stuffing the shot to immediately attacking with chokes or positional advancement, rather than simply returning to neutral standing. Practitioners who bait takedown attempts specifically to trigger their front headlock offense represent the highest evolution of this technique.
 
-**From Position**: [[Standing Position]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The strategic depth of the sprawl extends well beyond reactive defense. Advanced
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Front Headlock]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The sprawl defense occupies a critical junction in the BJJ standing game, connec
 ## Related Techniques
 
 
-- [[Standing Position]] - Origin position from which the sprawl defense is executed during standing exchanges
+- [[Positions/Standing Position]] - Origin position from which the sprawl defense is executed during standing exchanges
 
-- [[Front Headlock]] - Primary success target position established after a successful sprawl stuffs the takedown
+- [[Positions/Front Headlock]] - Primary success target position established after a successful sprawl stuffs the takedown
 
-- [[Open Guard]] - Counter outcome position when opponent converts failed shot into guard pull during sprawl
+- [[Positions/Open Guard]] - Counter outcome position when opponent converts failed shot into guard pull during sprawl
 
-- [[Snap Down to Front Headlock]] - Complementary standing-to-headlock technique that shares the front headlock destination
+- [[Transitions/Snap Down to Front Headlock]] - Complementary standing-to-headlock technique that shares the front headlock destination
 
-- [[Double Leg Entry]] - Primary offensive technique that the sprawl defends against from standing position
+- [[Transitions/Double Leg Entry]] - Primary offensive technique that the sprawl defends against from standing position
 
-- [[Single Leg Entry]] - Secondary offensive technique that the sprawl defends against from standing position
+- [[Transitions/Single Leg Entry]] - Secondary offensive technique that the sprawl defends against from standing position
 
-- [[Anaconda Setup]] - High-percentage follow-up submission from the front headlock position after successful sprawl
+- [[Transitions/Anaconda Setup]] - High-percentage follow-up submission from the front headlock position after successful sprawl
 
-- [[Clinch]] - Related standing engagement position where grip fighting precedes takedown and sprawl exchanges
+- [[Positions/Clinch]] - Related standing engagement position where grip fighting precedes takedown and sprawl exchanges
 
-- [[Turtle]] - Common position opponent occupies after their shot is stuffed by the sprawl
+- [[Positions/Turtle]] - Common position opponent occupies after their shot is stuffed by the sprawl
 
-- [[Body Lock Takedown]] - Alternative takedown technique the sprawl can partially defend against from standing
+- [[Transitions/Body Lock Takedown]] - Alternative takedown technique the sprawl can partially defend against from standing
 
 
 </section>

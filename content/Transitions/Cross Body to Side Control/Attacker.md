@@ -186,7 +186,7 @@ description: "Master the attacker's approach to Cross Body to Side Control. Step
 
 As the attacker executing Cross Body to Side Control, your primary objective is to convert your cross body ride control into a dominant side control position by systematically collapsing the opponent's turtle structure. This requires maintaining unbroken chest-to-back pressure while progressively shifting your weight and angle to flatten the opponent and establish perpendicular chest-to-chest contact in side control. The transition demands patience, precise weight distribution, and the ability to read defensive reactions that signal when the opponent's structure is ready to collapse. Success depends on understanding that this is a progressive breakdown rather than an explosive positional change—each micro-adjustment of pressure and angle degrades the opponent's ability to maintain turtle until the position collapses organically into side control.
 
-**From Position**: [[Cross Body Ride]] (Top)
+**From Position**: [[Positions/Cross Body Ride]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ As the attacker executing Cross Body to Side Control, your primary objective is 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Cross Body Ride]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Cross Body Ride]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the attacker executing Cross Body to Side Control, your primary objective is 
 
 ## Opponent Counters
 
-- **Opponent executes granby roll during the flattening phase** (Effectiveness: High) - Your Response: Follow the roll direction by maintaining chest contact and letting your weight travel with their rotation rather than trying to stop the roll. If they complete the roll, immediately re-establish top control in the resulting position. → Leads to [[Half Guard]]
-- **Opponent posts far arm and turns into you to recover guard** (Effectiveness: Medium) - Your Response: Capitalize on the extended arm by threatening armbar or shifting to crucifix entry. The posting arm creates a lever you can exploit rather than fighting to flatten against their frame. → Leads to [[Cross Body Ride]]
-- **Opponent sits through attempting guard recovery** (Effectiveness: High) - Your Response: Follow their hip movement and maintain chest connection. If they successfully insert a knee, accept half guard top and immediately work to pass rather than trying to force them back to turtle. → Leads to [[Half Guard]]
-- **Opponent turtles tighter and rebuilds base during transition** (Effectiveness: Medium) - Your Response: Return to full cross body ride pressure and restart the flattening sequence. Consider switching to a back take attempt since their defensive focus on preventing the flatten may expose their back. → Leads to [[Cross Body Ride]]
+- **Opponent executes granby roll during the flattening phase** (Effectiveness: High) - Your Response: Follow the roll direction by maintaining chest contact and letting your weight travel with their rotation rather than trying to stop the roll. If they complete the roll, immediately re-establish top control in the resulting position. → Leads to [[Positions/Half Guard]]
+- **Opponent posts far arm and turns into you to recover guard** (Effectiveness: Medium) - Your Response: Capitalize on the extended arm by threatening armbar or shifting to crucifix entry. The posting arm creates a lever you can exploit rather than fighting to flatten against their frame. → Leads to [[Positions/Cross Body Ride]]
+- **Opponent sits through attempting guard recovery** (Effectiveness: High) - Your Response: Follow their hip movement and maintain chest connection. If they successfully insert a knee, accept half guard top and immediately work to pass rather than trying to force them back to turtle. → Leads to [[Positions/Half Guard]]
+- **Opponent turtles tighter and rebuilds base during transition** (Effectiveness: Medium) - Your Response: Return to full cross body ride pressure and restart the flattening sequence. Consider switching to a back take attempt since their defensive focus on preventing the flatten may expose their back. → Leads to [[Positions/Cross Body Ride]]
 
 
 </section>

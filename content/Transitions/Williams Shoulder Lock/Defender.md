@@ -158,7 +158,7 @@ The defender's primary advantage is that the attacker must sacrifice some guard 
 
 At the purple and brown belt level, defending the Williams Shoulder Lock is less about brute force escape and more about understanding the attacker's decision tree and selecting defensive responses that lead to favorable positional outcomes rather than directly into their next attack. The safest defensive path typically involves establishing a defensive grip anchor, recovering posture through incremental angle changes, and extracting the arm using circular motion rather than linear pulling — all while maintaining awareness of the omoplata, triangle, and back take threats that your defensive reactions may trigger.
 
-**Opponent's Starting Position**: [[Williams Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Williams Guard]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ At the purple and brown belt level, defending the Williams Shoulder Lock is less
 ### 1. Establish defensive grip anchor by clasping hands together or grabbing your own lapel/belt to create a structural barrier against shoulder rotation
 
 - **When to use**: Immediately upon recognizing the overhook is deep and wrist control has been established — this buys time before the attacker can generate finishing torque
-- **Targets**: [[Williams Guard]]
+- **Targets**: [[Positions/Williams Guard]]
 - **If successful**: Prevents the attacker from completing the external rotation finish, stalling the submission and creating time to work on arm extraction or posture recovery
 - **Risk**: Attacker may use angle changes to systematically break your grip, or abandon the shoulder lock entirely to transition to omoplata while your hands remain occupied with grip defense
 
 ### 2. Circular arm extraction by rotating your elbow inward and downward while driving your weight forward to reduce the overhook depth
 
 - **When to use**: When the attacker's hip angle is not yet fully established or when their leg control is momentarily weakened during a transition or adjustment
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Your arm is freed from the overhook, immediately eliminating the shoulder lock threat and creating a guard passing opportunity from combat base
 - **Risk**: If performed as a linear pull rather than circular rotation, the retreating arm path feeds directly into omoplata or armbar position — the attacker's highest-percentage chain attacks
 
 ### 3. Drive forward with controlled stacking pressure to collapse the attacker's hip angle and reduce the space needed for rotational torque generation
 
 - **When to use**: When you have strong base through your legs and can apply forward pressure without your arm being pulled into a deeper submission angle by the momentum
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Collapses the attacker's guard structure, eliminates the hip angle required for the shoulder lock, and creates half guard or side control passing opportunities
 - **Risk**: Attacker redirects your forward momentum into a sweep or uses the stacking motion to accelerate omoplata rotation, potentially ending up on top or taking your back
 
 ### 4. Post your free hand on the mat and circle away from the trapped arm to reduce the shoulder lock angle while creating space to extract
 
 - **When to use**: When the attacker has committed to the shoulder lock finish but their leg control is insufficient to prevent your lateral movement
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Creates enough angle change to reduce shoulder lock effectiveness and opens space for arm extraction and guard pass initiation
 - **Risk**: Mat posting with the free hand exposes it to triangle or kimura attack — only viable when the attacker's legs cannot threaten the posted arm
 
@@ -229,15 +229,15 @@ At the purple and brown belt level, defending the Williams Shoulder Lock is less
 
 ## Best-Case Outcomes for Defender
 
-### → [[Williams Guard]]
+### → [[Positions/Williams Guard]]
 
 Establish a defensive grip anchor to stall the shoulder lock, then systematically work to reduce overhook depth through small positional adjustments. Maintain your arm inside the overhook but prevent the attacker from achieving the three-point alignment needed for finishing torque. This returns you to the guard position without the immediate submission threat.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Execute a circular arm extraction by rotating your elbow inward while driving forward to collapse the overhook. Once your arm is free, immediately establish combat base and begin a guard pass sequence before the attacker can re-establish Williams Guard grips. Speed is critical during the extraction-to-pass transition.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Use controlled forward stacking pressure to collapse the attacker's guard structure while maintaining shoulder alignment. As their hip angle breaks down, drive your knee through to establish half guard top position. From here, continue pressure passing while the attacker has lost their primary submission threat.
 

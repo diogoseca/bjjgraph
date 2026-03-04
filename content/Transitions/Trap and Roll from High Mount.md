@@ -21,7 +21,7 @@ The key to making this escape work from high mount lies in timing and provocatio
 
 Strategic application of this escape requires understanding its role within the broader escape hierarchy from high mount. The Trap and Roll serves as a high-reward option that works best as a second-layer escape—triggered when the top player commits to an offensive action. Combining the trap and roll with frame-based escapes and elbow escapes creates a multi-layered defensive system that keeps the top player uncertain and prevents them from fully committing to submission sequences without consequence.
 
-**From Position**: [[High Mount]] (Bottom)
+**From Position**: [[Positions/Mount/High Mount]] (Bottom)
 **Success Rate**: 35%
 
 </section>
@@ -32,9 +32,9 @@ Strategic application of this escape requires understanding its role within the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Failure | [[High Mount]] | 40% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Failure | [[Positions/Mount/High Mount]] | 40% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Trap and Roll from High Mount functions as a critical escape within the moun
 ## Related Techniques
 
 
-- [[High Mount]] - Starting position from which this escape is executed from the bottom
+- [[Positions/Mount/High Mount]] - Starting position from which this escape is executed from the bottom
 
-- [[Half Guard]] - Primary target position after successful trap and roll execution
+- [[Positions/Half Guard]] - Primary target position after successful trap and roll execution
 
-- [[Mount]] - Related parent position with analogous trap and roll escape mechanics and counter outcome
+- [[Positions/Mount]] - Related parent position with analogous trap and roll escape mechanics and counter outcome
 
-- [[Bridge to Mount from High Mount]] - Related bridging escape that transitions from high mount to regular mount
+- [[Transitions/Bridge to Mount from High Mount]] - Related bridging escape that transitions from high mount to regular mount
 
-- [[Frame Escape from High Mount]] - Complementary frame-based escape alternative from the same starting position
+- [[Transitions/Frame Escape from High Mount]] - Complementary frame-based escape alternative from the same starting position
 
-- [[Elbow Escape from 3-4 Mount]] - Similar hip escape technique from a closely related mount variation
+- [[Transitions/Elbow Escape from 3-4 Mount]] - Similar hip escape technique from a closely related mount variation
 
-- [[Bridge Escape from S Mount]] - Related bridging escape applicable when opponent advances to S Mount
+- [[Transitions/Bridge Escape from S Mount]] - Related bridging escape applicable when opponent advances to S Mount
 
-- [[Technical Mount]] - Position the top player may transition to when the escape creates instability
+- [[Positions/Mount/Technical Mount]] - Position the top player may transition to when the escape creates instability
 
-- [[S Mount]] - Advanced mount variation the top player may advance to when detecting the arm trap
+- [[Positions/Mount/S Mount]] - Advanced mount variation the top player may advance to when detecting the arm trap
 
-- [[Bridge Escape from Modified Mount]] - Analogous bridging escape from a different mount variation using similar mechanics
+- [[Transitions/Bridge Escape from Modified Mount]] - Analogous bridging escape from a different mount variation using similar mechanics
 
 
 </section>

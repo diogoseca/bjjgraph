@@ -180,7 +180,7 @@ description: "Master reestablishing Side Control from Jailbreak as the top playe
 
 As the top player in Jailbreak, your objective is to recognize and shut down the bottom player's explosive jailbreak escape attempt before they generate sufficient momentum to complete the inversion. The reestablishment to Side Control requires immediate reaction through crossface reinforcement, underhook neutralization, and systematic hip repositioning. Your advantage lies in reading the escape early and responding with overwhelming forward pressure that collapses the escape mechanism before it develops. Success depends on understanding that the jailbreak's power comes from the underhook and rotational momentum—eliminate either element and the escape fails.
 
-**From Position**: [[Jailbreak]] (Top)
+**From Position**: [[Positions/Jailbreak]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ As the top player in Jailbreak, your objective is to recognize and shut down the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Deep Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 20% |
 
 
 </section>
@@ -242,10 +242,10 @@ As the top player in Jailbreak, your objective is to recognize and shut down the
 
 ## Opponent Counters
 
-- **Bottom player explosively completes the jailbreak roll before top player can react with sufficient counter-pressure** (Effectiveness: High) - Your Response: If the roll has significant momentum, follow the motion and look to establish front headlock or turtle top control rather than fighting the roll directly. Drive forward over the top to prevent back exposure. → Leads to [[Deep Half Guard]]
-- **Bottom player abandons jailbreak and recovers traditional half guard frames with knee shield insertion** (Effectiveness: Medium) - Your Response: Transition to standard half guard passing sequence using knee slice, smash pass, or backstep. The abandoned jailbreak means they have conceded the explosive escape for positional defense. → Leads to [[Half Guard]]
-- **Bottom player redirects underneath for deep half guard entry during the recovery sequence** (Effectiveness: Medium) - Your Response: Immediately sprawl hips back and reinforce whizzer to prevent them from reaching full deep half position. If they achieve deep half, switch to standard deep half passing techniques rather than continuing the side control recovery. → Leads to [[Deep Half Guard]]
-- **Bottom player uses free leg to frame against your hips and block the walk-around to perpendicular alignment** (Effectiveness: Low) - Your Response: Maintain upper body connection and walk around leg frames rather than fighting through them directly. Use crossface to keep shoulders pinned while your hips navigate past the leg barriers incrementally. → Leads to [[Half Guard]]
+- **Bottom player explosively completes the jailbreak roll before top player can react with sufficient counter-pressure** (Effectiveness: High) - Your Response: If the roll has significant momentum, follow the motion and look to establish front headlock or turtle top control rather than fighting the roll directly. Drive forward over the top to prevent back exposure. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Bottom player abandons jailbreak and recovers traditional half guard frames with knee shield insertion** (Effectiveness: Medium) - Your Response: Transition to standard half guard passing sequence using knee slice, smash pass, or backstep. The abandoned jailbreak means they have conceded the explosive escape for positional defense. → Leads to [[Positions/Half Guard]]
+- **Bottom player redirects underneath for deep half guard entry during the recovery sequence** (Effectiveness: Medium) - Your Response: Immediately sprawl hips back and reinforce whizzer to prevent them from reaching full deep half position. If they achieve deep half, switch to standard deep half passing techniques rather than continuing the side control recovery. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Bottom player uses free leg to frame against your hips and block the walk-around to perpendicular alignment** (Effectiveness: Low) - Your Response: Maintain upper body connection and walk around leg frames rather than fighting through them directly. Use crossface to keep shoulders pinned while your hips navigate past the leg barriers incrementally. → Leads to [[Positions/Half Guard]]
 
 
 </section>

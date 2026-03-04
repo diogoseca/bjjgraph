@@ -21,7 +21,7 @@ This technique represents a methodical, low-risk approach to half guard passing.
 
 The strategic value of this transition lies in its versatility. Once combat base is established, you have access to toreando, knee slice, long step, and pressure passing options based on how your opponent defends. This makes the crossface to combat base transition a cornerstone of systematic guard passing, allowing you to chain multiple attacks while maintaining positional stability throughout.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The strategic value of this transition lies in its versatility. Once combat base
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Combat Base]] | 65% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Combat Base]] | 65% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -196,29 +196,29 @@ The Crossface to Combat Base transition is a fundamental component of systematic
 ## Related Techniques
 
 
-- [[Half Guard]] - Starting position - transition begins from half guard top
+- [[Positions/Half Guard]] - Starting position - transition begins from half guard top
 
-- [[Combat Base]] - Ending position - destination of successful transition
+- [[Positions/Combat Base]] - Ending position - destination of successful transition
 
-- [[Crossface Pass]] - Alternative technique - direct pass using same control principles
+- [[Transitions/Crossface Pass]] - Alternative technique - direct pass using same control principles
 
-- [[Knee Slice Pass]] - Follow-up technique - high-percentage pass from combat base
+- [[Transitions/Knee Slice Pass]] - Follow-up technique - high-percentage pass from combat base
 
-- [[Toreando Pass]] - Follow-up technique - dynamic pass available from combat base
+- [[Transitions/Toreando Pass]] - Follow-up technique - dynamic pass available from combat base
 
-- [[Smash Pass]] - Alternative technique - pressure pass from half guard top
+- [[Transitions/Smash Pass]] - Alternative technique - pressure pass from half guard top
 
-- [[Headquarters Position]] - Alternative destination - deeper passing position from half guard
+- [[Positions/Headquarters Position]] - Alternative destination - deeper passing position from half guard
 
-- [[Knee Shield Half Guard]] - Counter position - defensive response from bottom player
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Counter position - defensive response from bottom player
 
-- [[Lockdown]] - Counter technique - leg entanglement that prevents extraction
+- [[Positions/Half Guard/Lockdown]] - Counter technique - leg entanglement that prevents extraction
 
-- [[Deep Half Guard]] - Counter position - opponent's escape option during transition
+- [[Positions/Half Guard/Deep Half Guard]] - Counter position - opponent's escape option during transition
 
-- [[Leg Drag Pass]] - Follow-up technique - available from combat base against active guards
+- [[Transitions/Leg Drag Pass]] - Follow-up technique - available from combat base against active guards
 
-- [[Darce Choke]] - Submission option - available if opponent turns into crossface
+- [[Transitions/Darce Choke]] - Submission option - available if opponent turns into crossface
 
 
 </section>

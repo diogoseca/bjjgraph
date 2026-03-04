@@ -186,7 +186,7 @@ This submission represents a sophisticated understanding of triangle mechanics, 
 
 The side triangle is particularly valuable in no-gi grappling and MMA contexts where traditional collar chokes are unavailable, and it serves as an excellent counter to common defensive reactions from bottom positions. Mastery of this technique demonstrates advanced technical knowledge and the ability to recognize and capitalize on dynamic positional transitions.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -242,8 +242,8 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -252,11 +252,11 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 ## Opponent Defenses
 
-- **Pulling trapped arm back across centerline** (Effectiveness: High) - Your Response: Immediately increase chest pressure on their shoulder and use your hand to control their wrist, preventing the arm from escaping. If they succeed in extracting the arm, transition to alternative attacks like kimura or armbar rather than forcing a compromised triangle. → Leads to [[Side Control]]
-- **Inserting free hand into triangle to create space** (Effectiveness: High) - Your Response: Control the free arm before they can insert it - grab their wrist and extend it away from their body, or pin it to the mat. If the hand is already inserted, you may need to break your lock temporarily, reposition, and re-secure the triangle with better arm control. → Leads to [[Side Control]]
-- **Turning into you to relieve neck pressure** (Effectiveness: Medium) - Your Response: Adjust your angle dynamically - as they turn, you must turn with them to maintain perpendicular positioning. Use your locked legs to follow their movement and maintain back-of-neck pressure. Sometimes their turn actually improves your angle if you move with them correctly. → Leads to [[Side Control]]
-- **Posturing up or bridging to create distance** (Effectiveness: Medium) - Your Response: Drive your hips aggressively toward their head to prevent posture, and use your free hand to push their far hip down or control their far shoulder. Your perpendicular angle and high hip position should naturally prevent effective bridging, but you must maintain active pressure. → Leads to [[Side Control]]
-- **Rolling through or over to escape the triangle and recover guard** (Effectiveness: Low) - Your Response: Maintain your locked position and follow their roll - often their attempt to roll actually tightens the triangle. Be prepared to adjust your grip and angle mid-roll, and ensure you don't post on your head or neck during the rolling motion to avoid injury to yourself. → Leads to [[Half Guard]]
+- **Pulling trapped arm back across centerline** (Effectiveness: High) - Your Response: Immediately increase chest pressure on their shoulder and use your hand to control their wrist, preventing the arm from escaping. If they succeed in extracting the arm, transition to alternative attacks like kimura or armbar rather than forcing a compromised triangle. → Leads to [[Positions/Side Control]]
+- **Inserting free hand into triangle to create space** (Effectiveness: High) - Your Response: Control the free arm before they can insert it - grab their wrist and extend it away from their body, or pin it to the mat. If the hand is already inserted, you may need to break your lock temporarily, reposition, and re-secure the triangle with better arm control. → Leads to [[Positions/Side Control]]
+- **Turning into you to relieve neck pressure** (Effectiveness: Medium) - Your Response: Adjust your angle dynamically - as they turn, you must turn with them to maintain perpendicular positioning. Use your locked legs to follow their movement and maintain back-of-neck pressure. Sometimes their turn actually improves your angle if you move with them correctly. → Leads to [[Positions/Side Control]]
+- **Posturing up or bridging to create distance** (Effectiveness: Medium) - Your Response: Drive your hips aggressively toward their head to prevent posture, and use your free hand to push their far hip down or control their far shoulder. Your perpendicular angle and high hip position should naturally prevent effective bridging, but you must maintain active pressure. → Leads to [[Positions/Side Control]]
+- **Rolling through or over to escape the triangle and recover guard** (Effectiveness: Low) - Your Response: Maintain your locked position and follow their roll - often their attempt to roll actually tightens the triangle. Be prepared to adjust your grip and angle mid-roll, and ensure you don't post on your head or neck during the rolling motion to avoid injury to yourself. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -21,7 +21,7 @@ The strategic significance of this transition lies in its position within the pa
 
 From a systems perspective, the complete pass connects the pressure-passing chain to the side control attacking platform. Successful execution opens the entire side control submission tree including Americana, Kimura, arm triangle, and positional advances to mount or knee on belly. The pass also earns three points in IBJJF competition, making it a high-value transition that combines tactical advancement with scoring opportunity. Understanding when to initiate the extraction, which angle to create, and how to maintain control throughout the movement separates practitioners who can flatten opponents from those who can actually finish the pass.
 
-**From Position**: [[Flattened Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ From a systems perspective, the complete pass connects the pressure-passing chai
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Flattened Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,29 +193,29 @@ Complete Pass from Flattened Half Guard serves as the critical bridge between th
 ## Related Techniques
 
 
-- [[Flattened Half Guard]] - Starting position where this transition is executed from top control
+- [[Positions/Half Guard/Flattened Half Guard]] - Starting position where this transition is executed from top control
 
-- [[Side Control]] - Primary target position achieved upon successful pass completion
+- [[Positions/Side Control]] - Primary target position achieved upon successful pass completion
 
-- [[Half Guard]] - Position bottom player recovers to if pass attempt fails and frames are re-established
+- [[Positions/Half Guard]] - Position bottom player recovers to if pass attempt fails and frames are re-established
 
-- [[Knee Slice Pass]] - Primary passing technique that often leads to flattened half guard when partially completed
+- [[Transitions/Knee Slice Pass]] - Primary passing technique that often leads to flattened half guard when partially completed
 
-- [[Crossface Pass]] - Complementary passing technique using similar pressure mechanics and crossface control
+- [[Transitions/Crossface Pass]] - Complementary passing technique using similar pressure mechanics and crossface control
 
-- [[Knee on Belly]] - Alternative target position accessible during pass completion with modified angle
+- [[Positions/Knee on Belly]] - Alternative target position accessible during pass completion with modified angle
 
-- [[Mount]] - Advanced target position if pass completion momentum allows direct mount transition
+- [[Positions/Mount]] - Advanced target position if pass completion momentum allows direct mount transition
 
-- [[Knee Shield Half Guard]] - Position bottom player attempts to recover to during failed pass attempts
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Position bottom player attempts to recover to during failed pass attempts
 
-- [[Deep Half Guard]] - Counter position bottom player may enter if top player lifts pressure during extraction
+- [[Positions/Half Guard/Deep Half Guard]] - Counter position bottom player may enter if top player lifts pressure during extraction
 
-- [[Smash Pass]] - Related pressure-passing technique sharing similar control mechanics
+- [[Transitions/Smash Pass]] - Related pressure-passing technique sharing similar control mechanics
 
-- [[Underhook Pass]] - Alternative passing approach that can chain with this technique
+- [[Transitions/Underhook Pass]] - Alternative passing approach that can chain with this technique
 
-- [[Back Step Pass]] - Alternative extraction method using backstep mechanics to free trapped leg
+- [[Transitions/Back Step Pass]] - Alternative extraction method using backstep mechanics to free trapped leg
 
 
 </section>

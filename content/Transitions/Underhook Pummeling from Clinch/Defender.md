@@ -154,7 +154,7 @@ description: "Learn to defend against underhook pummeling in the clinch. Recogni
 
 Defending against underhook pummeling requires maintaining your established grip advantages and dominant clinch positioning. When holding the superior position through overhooks, head control, or inside ties, your primary objective is preventing the opponent from swimming underneath your controlling arms to establish underhooks that would transfer positional dominance. Effective defense combines active grip maintenance with constant downward pressure, immediate counter-pummeling when you feel the swim beginning, and the ability to capitalize on the opponent's openings during their swim attempts to advance your own position through body lock establishment or takedown entries.
 
-**Opponent's Starting Position**: [[Clinch]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against underhook pummeling requires maintaining your established grip
 ### 1. Clamp overhook or whizzer immediately on the swimming arm to block underhook establishment
 
 - **When to use**: The moment you feel the opponent's arm beginning to swim underneath your controlling grip—early intervention is critical
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Opponent's pummel is blocked and they remain in the inferior clinch position with no positional advancement
 - **Risk**: Over-committing to the whizzer on one side may open the opposite side to a secondary pummel or arm drag attempt
 
 ### 2. Counter-pummel to strip the newly established underhook before consolidation
 
 - **When to use**: After the opponent threads one underhook but before they establish head position and hip drive to consolidate
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: You strip the opponent's underhook and re-establish your dominant inside position, returning to the pre-pummel status quo
 - **Risk**: Failed counter-pummel during the exchange window may leave you with fewer control points and a worsened grip configuration
 
 ### 3. Capitalize into body lock by wrapping arms around opponent's torso during the opening created by their swim
 
 - **When to use**: When the opponent's pummel attempt creates a clear opening to their torso as their elbow lifts and they commit to the swim
-- **Targets**: [[Body Lock]]
+- **Targets**: [[Positions/Body Lock]]
 - **If successful**: You establish body lock control that eliminates further pummeling and creates direct takedown threats from dominant position
 - **Risk**: Reaching for the body lock requires temporarily abandoning overhook control, leaving your head position vulnerable if the lock fails
 
 ### 4. Snap down during the swim transition when opponent's posture breaks
 
 - **When to use**: When the opponent drops their head or loosens posture during the swim motion, creating vulnerability to downward pressure
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Opponent's pummel attempt is disrupted and they must recover posture completely before they can attempt another swim
 - **Risk**: The snap down may give up space if the opponent anticipates and pulls away, potentially creating distance that resets the engagement
 
@@ -225,11 +225,11 @@ Defending against underhook pummeling requires maintaining your established grip
 
 ## Best-Case Outcomes for Defender
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Maintain active overhook pressure and counter-pummel immediately when you feel the opponent's arm beginning to swim. Use forehead pressure on their shoulder as a structural barrier and keep your elbows tight to close swimming lanes. Address each pummel attempt within the first second before it develops into a completed underhook.
 
-### → [[Body Lock]]
+### → [[Positions/Body Lock]]
 
 When the opponent's aggressive pummel attempt creates a clear opening to their torso—specifically when their elbow lifts away from their body during the swim—dive your arms around their waist and lock hands. The moment during the swim is when their centerline is most exposed and the body lock can be established before they can retract.
 

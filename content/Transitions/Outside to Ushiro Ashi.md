@@ -21,7 +21,7 @@ This transition represents one of the key differentiators between intermediate a
 
 Strategically, mastering Outside to Ushiro Ashi forces opponents to abandon inversion-based escapes from Outside Ashi-Garami, limiting their defensive options and creating layered defensive dilemmas. When the defender knows their inversion will be followed rather than creating freedom, they must develop alternative escape routes that may expose them to more direct submission threats from the original position.
 
-**From Position**: [[Outside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, mastering Outside to Ushiro Ashi forces opponents to abandon inve
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Ushiro Ashi-Garami]] | 55% |
-| Failure | [[Outside Ashi-Garami]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 55% |
+| Failure | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ Outside to Ushiro Ashi-Garami bridges the gap between standard and reversed leg 
 ## Related Techniques
 
 
-- [[Outside Ashi-Garami]] - Starting position for this transition where the attacker has established initial leg entanglement control
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Starting position for this transition where the attacker has established initial leg entanglement control
 
-- [[Inside Ashi-Garami]] - Related leg entanglement with parallel Ushiro transition path and similar follow mechanics
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement with parallel Ushiro transition path and similar follow mechanics
 
-- [[Saddle]] - Alternative high-control advancement target from Outside Ashi-Garami when Ushiro transition is not available
+- [[Positions/Ashi Garami/Saddle]] - Alternative high-control advancement target from Outside Ashi-Garami when Ushiro transition is not available
 
-- [[Honey Hole]] - Advanced entanglement position accessible from Ushiro Ashi-Garami after successful transition
+- [[Positions/Ashi Garami/Honey Hole]] - Advanced entanglement position accessible from Ushiro Ashi-Garami after successful transition
 
-- [[Half Guard]] - Counter outcome position when defender successfully escapes the leg entanglement during transition
+- [[Positions/Half Guard]] - Counter outcome position when defender successfully escapes the leg entanglement during transition
 
-- [[Back Control]] - Continuation option when opponent fully inverts through Ushiro toward turtle position
+- [[Positions/Back Control]] - Continuation option when opponent fully inverts through Ushiro toward turtle position
 
-- [[Inside Ashi-Garami to Ushiro Ashi]] - Parallel transition from inside ashi configuration using similar follow and rotation mechanics
+- [[Transitions/Inside Ashi-Garami to Ushiro Ashi]] - Parallel transition from inside ashi configuration using similar follow and rotation mechanics
 
-- [[Ashi Garami Maintenance]] - Core entanglement maintenance principles that underpin the ability to follow rotation
+- [[Transitions/Ashi Garami Maintenance]] - Core entanglement maintenance principles that underpin the ability to follow rotation
 
-- [[Backside 50-50 Entry from Ashi]] - Alternative transition path from ashi configurations when Ushiro is not available
+- [[Transitions/Backside 50-50 Entry from Ashi]] - Alternative transition path from ashi configurations when Ushiro is not available
 
-- [[50-50 Guard]] - Related symmetrical leg entanglement position within the broader ashi garami system
+- [[Positions/Ashi Garami/50-50 Guard]] - Related symmetrical leg entanglement position within the broader ashi garami system
 
 
 </section>

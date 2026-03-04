@@ -158,7 +158,7 @@ The defensive methodology centers on maintaining base integrity without sacrific
 
 Advanced defenders develop the ability to transition fluidly when the base attack materializes. Rather than desperately trying to re-post a compromised leg, skilled practitioners release the Aoki Lock control and flow to back control, converting a defensive scramble into continued positional dominance. The willingness to abandon the submission attempt in favor of positional advancement is what separates effective defenders from those who get swept trying to hold onto a finish that is no longer available.
 
-**Opponent's Starting Position**: [[Aoki Lock]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Aoki Lock]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Advanced defenders develop the ability to transition fluidly when the base attac
 ### 1. Widen base preemptively by stepping posted leg further from opponent's reach while maintaining hip pressure angle
 
 - **When to use**: When you detect the bottom player's free hand moving toward your posted leg or sense a shift in their defensive priorities
-- **Targets**: [[Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock]]
 - **If successful**: Opponent cannot reach your posted leg and remains trapped in Aoki Lock with no sweep available, forcing them back to pure arm extraction defense
 - **Risk**: Widening base reduces your shoulder pressure effectiveness and may create space for arm extraction escape
 
 ### 2. Abandon Aoki Lock and transition to back control by following opponent's hip movement and inserting hooks
 
 - **When to use**: When your posted leg has been compromised and the sweep is in progress or imminent, making base recovery unlikely
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You maintain dominant position despite losing the submission, converting to back control where you retain 4-point scoring potential and multiple submission threats
 - **Risk**: If transition timing is poor, opponent may complete the sweep during the scramble and achieve mount
 
 ### 3. Post free hand on mat to create secondary base while maintaining leg entanglement and shoulder pressure
 
 - **When to use**: When opponent has gripped your posted leg but has not yet generated the hip bridge, giving you time to establish a secondary support point
-- **Targets**: [[Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock]]
 - **If successful**: Secondary base absorbs the sweep force and you can reposition your posted leg while maintaining Aoki Lock control and submission threat
 - **Risk**: Hand posting reduces your ability to control opponent's hips, potentially opening other escape routes like arm extraction
 
 ### 4. Drive weight forward explosively to finish the shoulder lock before sweep completes
 
 - **When to use**: Only when submission is very close to completion and you judge you can finish before the sweep disrupts your position entirely
-- **Targets**: [[Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock]]
 - **If successful**: Submission finishes before positional change occurs, ending the exchange in your favor
 - **Risk**: Extremely high - forward commitment accelerates sweep if submission does not finish, and applying explosive pressure risks injuring your partner
 
@@ -229,11 +229,11 @@ Advanced defenders develop the ability to transition fluidly when the base attac
 
 ## Best-Case Outcomes for Defender
 
-### → [[Aoki Lock]]
+### → [[Positions/Aoki Lock]]
 
 Maintain base integrity by widening posted leg positioning when you detect sweep setup, or post secondary hand to create redundant base. Cycle between pressure and base phases to deny clean timing windows. Control opponent's hips through leg entanglement to limit their bridging power.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When base is compromised and sweep appears inevitable, immediately release Aoki Lock shoulder pressure and flow to back control by following opponent's hip movement. Insert hooks during the transition scramble and establish seatbelt grip before they complete the positional change. Accept losing the submission to maintain dominant position.
 

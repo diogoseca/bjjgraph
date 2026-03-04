@@ -182,7 +182,7 @@ description: "Learn to execute the Mounted Crucifix Armbar as the attacker. Step
 
 Executing the Mounted Crucifix Armbar requires understanding how the crucifix's pre-existing arm isolation creates a fundamentally different armbar dynamic than standard mount attacks. The trapped arm is already partially controlled by your legs, meaning your primary focus shifts from the arm isolation phase to wrist control, hip pivot angle, and controlled extension. The key tactical consideration is timing—attacking the armbar when the defender is focused on neck defense creates the highest percentage finishing window. Premature armbar attempts without proper grip setup risk losing the crucifix control entirely. Approach the finish as the natural culmination of positional dominance rather than a rushed attack, and the conversion rate from this position becomes exceptionally high.
 
-**From Position**: [[Mounted Crucifix]] (Top)
+**From Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
 
 
 </section>
@@ -236,8 +236,8 @@ Executing the Mounted Crucifix Armbar requires understanding how the crucifix's 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Mounted Crucifix]] | 30% |
-| Counter | [[Mount]] | 20% |
+| Failure | [[Positions/Mount/Mounted Crucifix]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -246,10 +246,10 @@ Executing the Mounted Crucifix Armbar requires understanding how the crucifix's 
 
 ## Opponent Defenses
 
-- **Defender clasps hands together to prevent arm extension** (Effectiveness: High) - Your Response: Attack the grip by wedging your wrist between their clasped hands and prying apart, or switch to a wrist lock on the gripping hand. Alternatively, maintain the armbar position patiently and use hip pressure to gradually break the grip over time. → Leads to [[Mounted Crucifix]]
-- **Defender bridges explosively during the hip pivot transition** (Effectiveness: Medium) - Your Response: Post with your free hand and ride the bridge while maintaining wrist control. As the bridge collapses, immediately resume the hip pivot. If the bridge disrupts your crucifix leg control, settle back to mounted crucifix before reattempting. → Leads to [[Mount]]
-- **Defender turns toward you and tucks the elbow to close the armbar angle** (Effectiveness: Medium) - Your Response: Use the turn to transition to a choke attack on the now-exposed neck, or re-angle your hip pivot to address the new elbow position. The turn often loosens the crucifix leg control, so verify your arm traps before continuing. → Leads to [[Mounted Crucifix]]
-- **Defender uses free arm to push your hip and create space during extension** (Effectiveness: Low) - Your Response: Capture the pushing arm with your free hand to create a secondary armbar threat, or use your leg to pin their free arm against their body. Their free arm leaving neck defense also opens immediate choke opportunities. → Leads to [[Mount]]
+- **Defender clasps hands together to prevent arm extension** (Effectiveness: High) - Your Response: Attack the grip by wedging your wrist between their clasped hands and prying apart, or switch to a wrist lock on the gripping hand. Alternatively, maintain the armbar position patiently and use hip pressure to gradually break the grip over time. → Leads to [[Positions/Mount/Mounted Crucifix]]
+- **Defender bridges explosively during the hip pivot transition** (Effectiveness: Medium) - Your Response: Post with your free hand and ride the bridge while maintaining wrist control. As the bridge collapses, immediately resume the hip pivot. If the bridge disrupts your crucifix leg control, settle back to mounted crucifix before reattempting. → Leads to [[Positions/Mount]]
+- **Defender turns toward you and tucks the elbow to close the armbar angle** (Effectiveness: Medium) - Your Response: Use the turn to transition to a choke attack on the now-exposed neck, or re-angle your hip pivot to address the new elbow position. The turn often loosens the crucifix leg control, so verify your arm traps before continuing. → Leads to [[Positions/Mount/Mounted Crucifix]]
+- **Defender uses free arm to push your hip and create space during extension** (Effectiveness: Low) - Your Response: Capture the pushing arm with your free hand to create a secondary armbar threat, or use your leg to pin their free arm against their body. Their free arm leaving neck defense also opens immediate choke opportunities. → Leads to [[Positions/Mount]]
 
 
 </section>

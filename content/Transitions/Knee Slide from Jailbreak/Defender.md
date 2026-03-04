@@ -154,7 +154,7 @@ description: "Defend the Knee Slide from Jailbreak in BJJ. Recognition cues, def
 
 Defending the Knee Slide from Jailbreak requires the bottom player to recognize the pass attempt early and act decisively before the passer's knee clears the thigh line. The extended leg configuration of the Jailbreak position creates vulnerability to the knee slide, so the defender must either retract legs quickly to re-establish frames, secure an underhook to prevent the crossface from controlling their head, or redirect into deep half guard before the passing lane opens completely. Once the knee has crossed the thigh line with hip pressure applied, defensive options diminish rapidly, making early recognition the most critical defensive skill.
 
-**Opponent's Starting Position**: [[Jailbreak]] (Top)
+**Opponent's Starting Position**: [[Positions/Jailbreak]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Knee Slide from Jailbreak requires the bottom player to recognize 
 ### 1. Retract legs and re-establish knee shield before the knee slide enters the passing corridor
 
 - **When to use**: As soon as you feel the passer's knee angle change and weight shift indicating knee slide initiation, before the knee contacts your thigh
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Passer's knee meets your knee shield and the passing lane is blocked, resetting to standard half guard with defensive frames intact
 - **Risk**: If too slow, the passer's knee catches your retracting leg and drives through anyway with momentum, completing the pass with even less resistance
 
 ### 2. Secure underhook on the trapped leg side and sit up aggressively into dogfight position
 
 - **When to use**: When the passer commits their weight forward for the slide and their crossface loosens momentarily during the transition
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You achieve dogfight position with superior underhook, creating sweep opportunities and preventing the pass from completing
 - **Risk**: Passer applies whizzer to counter the underhook and uses your forward motion to drive you back flat into a worse position
 
 ### 3. Hip escape underneath the passer and enter deep half guard before the knee clears the thigh line
 
 - **When to use**: When the passer's weight drives forward onto your upper body during the slide, creating space underneath for hip escape
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You end up underneath the passer in deep half guard with sweep entries and the knee slide is completely neutralized
 - **Risk**: Passer sprawls back and prevents the deep half entry, leaving you flattened with compromised guard retention
 
 ### 4. Bridge explosively during the knee slide transition to reverse position
 
 - **When to use**: At the exact moment the passer's weight is most committed forward and their base is narrowest during the sliding motion
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You sweep the passer by exploiting their forward weight commitment, reversing to top position in the scramble
 - **Risk**: Passer has a wide base and the bridge fails, burning significant energy while the passer uses the space to complete the pass
 
@@ -225,11 +225,11 @@ Defending the Knee Slide from Jailbreak requires the bottom player to recognize 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a bridge or hip escape at the exact moment the passer's weight commits forward for the knee slide, exploiting their narrow base and forward momentum to reverse position. Chain the bridge with an underhook on the far side and continue the sweeping motion through to top position.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Retract legs early to re-establish knee shield or butterfly hooks before the knee slide reaches the thigh line, forcing the passer back into standard half guard top where your frames prevent the pass. Alternatively, secure the underhook and sit up into dogfight where you have superior leverage.
 

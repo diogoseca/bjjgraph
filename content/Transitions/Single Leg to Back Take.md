@@ -21,7 +21,7 @@ This transition is particularly valuable in no-gi grappling and MMA contexts whe
 
 Successful execution requires strong positional awareness, quick hip movement, and the ability to maintain connection throughout the transition. The technique exemplifies the wrestling principle of chain wrestling—linking attacks together so that defending one creates vulnerability to another. For competitive grapplers, this represents a high-percentage path to back control, which scores maximum points in most rule sets and provides the best submission opportunities.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ Successful execution requires strong positional awareness, quick hip movement, a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Standing Position]] | 10% |
-| Success | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Standing Position]] | 10% |
+| Success | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -197,25 +197,25 @@ The Single Leg to Back Take represents a crucial link between standing wrestling
 ## Related Techniques
 
 
-- [[Single Leg Entry]] - Initial setup transition that creates the single leg position from which the back take is attempted
+- [[Transitions/Single Leg Entry]] - Initial setup transition that creates the single leg position from which the back take is attempted
 
-- [[Back Take]] - General back taking transition sharing core principles of climbing to back control
+- [[Transitions/Back Take]] - General back taking transition sharing core principles of climbing to back control
 
-- [[Rear Naked Choke]] - Primary submission finish available from the resulting back control position
+- [[Transitions/Rear Naked Choke]] - Primary submission finish available from the resulting back control position
 
-- [[Arm Drag to Back]] - Alternative back taking technique from standing that exploits similar off-angle principles
+- [[Transitions/Arm Drag to Back]] - Alternative back taking technique from standing that exploits similar off-angle principles
 
-- [[Chair Sit to Back]] - Related technique exploiting a similar defensive turn to achieve back control
+- [[Transitions/Chair Sit to Back]] - Related technique exploiting a similar defensive turn to achieve back control
 
-- [[Crab Ride to Back]] - Follow-up option when opponent turtles during the back take attempt
+- [[Transitions/Crab Ride to Back]] - Follow-up option when opponent turtles during the back take attempt
 
-- [[Back Control]] - Target position achieved on successful execution of this transition
+- [[Positions/Back Control]] - Target position achieved on successful execution of this transition
 
-- [[Standing Position]] - Starting neutral position where single leg attacks are initiated
+- [[Positions/Standing Position]] - Starting neutral position where single leg attacks are initiated
 
-- [[Turtle]] - Common intermediate position when opponent defends the back take by turtling
+- [[Positions/Turtle]] - Common intermediate position when opponent defends the back take by turtling
 
-- [[High Crotch]] - Related wrestling entry that provides an alternative starting point for the same back take mechanics
+- [[Transitions/High Crotch]] - Related wrestling entry that provides an alternative starting point for the same back take mechanics
 
 
 </section>

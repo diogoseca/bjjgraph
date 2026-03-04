@@ -146,7 +146,7 @@ description: "Complete guide to defending against Z-Lock Half Guard passing atte
 
 As the defender in Z-Lock Half Guard, your primary objectives are retaining the Z-Lock configuration, preventing the passer from establishing dominant upper body control, and converting their passing attempts into sweep or back take opportunities. The Z-Lock's dual-leg system provides multiple defensive layers, but each layer requires active maintenance. Passive defense where you simply hold the lockdown will eventually fail against a methodical passer. Instead, you must constantly threaten offensive actions that force the passer to address your attacks rather than systematically dismantling your guard. Your defensive hierarchy prioritizes maintaining the underhook and hip angle first, retaining the Z-Lock configuration second, and recovering to alternative guard positions third. When the Z-Lock is compromised, immediate transition to deep half, knee shield, or standard half guard prevents the passer from capitalizing on the broken configuration.
 
-**Opponent's Starting Position**: [[Z-Lock Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender in Z-Lock Half Guard, your primary objectives are retaining the 
 ### 1. Recover underhook and come up to dogfight position while maintaining lockdown tension
 
 - **When to use**: When the passer lightens their crossface pressure to address the leg configuration, creating a window for the underhook insertion
-- **Targets**: [[Z-Lock Half Guard]]
+- **Targets**: [[Positions/Half Guard/Z-Lock Half Guard]]
 - **If successful**: Forces passer to abandon the pass and address your underhook and sweep threats, resetting the position
 - **Risk**: If underhook recovery fails, you may end up flattened with compromised upper body control
 
 ### 2. Activate butterfly hook to elevate and sweep when passer commits weight forward during lockdown strip
 
 - **When to use**: When the passer drives heavy forward pressure to break the lockdown, creating forward momentum you can redirect upward through the butterfly hook
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Sweeps the passer using their own forward momentum, reversing the position entirely
 - **Risk**: If the sweep fails, you lose the butterfly hook element and are left with only the lockdown defense
 
 ### 3. Transition to deep half guard by ducking under the passer's pressure before they complete the lockdown strip
 
 - **When to use**: When the lockdown tension is failing and you cannot maintain the Z-Lock configuration, but still have enough hip mobility to angle underneath
-- **Targets**: [[Z-Lock Half Guard]]
+- **Targets**: [[Positions/Half Guard/Z-Lock Half Guard]]
 - **If successful**: Establishes a strong sweeping position that is difficult for the passer to address once you are underneath
 - **Risk**: Passer may flatten you during the transition if your timing is late or their hip pressure prevents you from getting underneath
 
 ### 4. Re-establish lockdown hook immediately after the passer strips it by re-hooking the ankle before they advance
 
 - **When to use**: Immediately after the passer strips the lockdown hook but before they address the butterfly component, during the brief transition between phases
-- **Targets**: [[Z-Lock Half Guard]]
+- **Targets**: [[Positions/Half Guard/Z-Lock Half Guard]]
 - **If successful**: Resets the Z-Lock entirely, forcing the passer to restart their entire passing sequence
 - **Risk**: Requires fast leg dexterity and may fail if the passer maintains heavy pressure on the stripped leg
 
@@ -217,11 +217,11 @@ As the defender in Z-Lock Half Guard, your primary objectives are retaining the 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a butterfly hook sweep when the passer commits forward momentum during the lockdown stripping phase. Use their weight transfer against them by elevating with the hook while pulling with whatever remains of the lockdown to off-balance them laterally.
 
-### → [[Z-Lock Half Guard]]
+### → [[Positions/Half Guard/Z-Lock Half Guard]]
 
 Aggressively re-establish the Z-Lock configuration every time the passer strips a component. Fight for the underhook to prevent them from settling into the passing sequence. Maintain constant sweep threats that force them to address your offense rather than completing the pass.
 

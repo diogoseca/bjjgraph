@@ -154,7 +154,7 @@ description: "How to defend the Technical Stand Up to Single Leg in BJJ. Recogni
 
 Defending the Technical Stand Up to Single Leg requires a two-phase approach that mirrors the attacker's sequence. In the first phase, you must prevent or disrupt the technical standup itself by maintaining heavy top pressure, controlling grips, and collapsing their posting structure before they can rise. If the standup succeeds, the second phase demands rapid recognition of the incoming single leg and deployment of sprawl mechanics, whizzer control, or front headlock entries. The defender who understands both phases can shut down this chain at multiple points, either keeping the bottom player grounded or punishing their takedown attempt with counter-attacks. The most common defensive error is addressing only one phase: players who focus solely on preventing the standup often get caught by the explosive entry, while those who only prepare for the single leg allow easy standup transitions that give the attacker momentum and initiative.
 
-**Opponent's Starting Position**: [[Turtle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the Technical Stand Up to Single Leg requires a two-phase approach tha
 ### 1. Drive crossface pressure and collapse posting arm during standup attempt
 
 - **When to use**: Early in the standup sequence when opponent first posts their hand and extends their lead leg
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Opponent is driven back to turtle bottom and you maintain top control with potential to advance to back control
 - **Risk**: If you overcommit forward, opponent may use your momentum to execute a sit-through or roll underneath you
 
 ### 2. Sprawl hips back and drive weight down on opponent's shoulders during single leg entry
 
 - **When to use**: When you feel the level change and penetration step after opponent has achieved standing position
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Opponent's single leg is stuffed and you establish front headlock control with access to guillotine, darce, and anaconda attacks
 - **Risk**: If sprawl is late or shallow, opponent drives through and completes the takedown or transitions to leg entanglement
 
 ### 3. Whizzer the penetrating arm and circle to take the back
 
 - **When to use**: When opponent has secured a shallow single leg grip and you can overhook their attacking arm before they drive through
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You nullify the single leg and can circle behind the opponent or drive them to the mat using the whizzer as a lever
 - **Risk**: Opponent may convert the whizzer pressure into an outside trip or duck under the whizzer to take your back instead
 
 ### 4. Guillotine counter during the level change
 
 - **When to use**: When opponent's head drops inside your body during the penetration step, exposing their neck
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You catch a guillotine choke or establish front headlock control, converting their offensive attempt into your submission opportunity
 - **Risk**: If their head is properly positioned outside your body, the guillotine attempt fails and you lose the sprawl window
 
@@ -226,11 +226,11 @@ Defending the Technical Stand Up to Single Leg requires a two-phase approach tha
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Collapse the standup early by driving heavy crossface pressure into their posting structure while controlling their near hip. Strip their posting hand by sweeping it or driving your shoulder into their elbow. The key is addressing the standup in its first two seconds before they generate upward momentum.
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Allow the standup to complete but be ready for the single leg. When you feel the level change, sprawl your hips explosively backward and downward while snapping their head down with both hands. Secure a front headlock grip with one arm around the neck and the other controlling their near arm. From here you have access to guillotine, anaconda, darce, and go-behind options.
 

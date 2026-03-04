@@ -180,7 +180,7 @@ description: "Master the attacking mechanics of underhook pummeling from the dis
 
 Executing underhook pummeling from the disadvantaged clinch requires a systematic approach to inside position recovery. The attacker must combine precise arm mechanics with strategic pressure creation to swim underneath the opponent's controlling arms and establish dominant underhooks. Success depends on a tight elbow path, immediate consolidation through head position and hip drive, and the ability to chain follow-up techniques before the opponent can re-pummel. The attacker's goal is to transform the disadvantaged clinch position into an offensive launching pad for takedowns and positional advancement through methodical inside position recovery.
 
-**From Position**: [[Clinch]] (Bottom)
+**From Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing underhook pummeling from the disadvantaged clinch requires a systemati
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Clinch]] | 55% |
-| Failure | [[Clinch]] | 30% |
-| Counter | [[Body Lock]] | 15% |
+| Success | [[Positions/Clinch]] | 55% |
+| Failure | [[Positions/Clinch]] | 30% |
+| Counter | [[Positions/Body Lock]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing underhook pummeling from the disadvantaged clinch requires a systemati
 
 ## Opponent Counters
 
-- **Opponent clamps overhook or whizzer on the swimming arm, blocking underhook establishment through downward pressure** (Effectiveness: High) - Your Response: Use the overhook commitment against them by immediately attacking the opposite side where they are now weaker, or circle toward the whizzer side to create an angle for a duck under or arm drag → Leads to [[Clinch]]
-- **Opponent capitalizes on the opening during the swim to lock hands around your torso and establish body lock control** (Effectiveness: Medium) - Your Response: Frame on their hips immediately with both hands, lower your center of gravity, and begin working to break the grip through hip pummeling and hand fighting before they can initiate a takedown → Leads to [[Body Lock]]
-- **Opponent immediately counter-pummels the moment your underhook reaches their body, stripping it before you can consolidate** (Effectiveness: High) - Your Response: Anticipate the re-pummel and accelerate your consolidation sequence—drive head to shoulder and hips forward simultaneously rather than in stages, or transition immediately to a second pummel attempt on the opposite side → Leads to [[Clinch]]
-- **Opponent uses the moment your arm drops for the swim to snap your head down with an aggressive collar tie, disrupting your posture** (Effectiveness: Medium) - Your Response: Maintain posture and chin position throughout the swim by keeping your head up and driven forward into their shoulder rather than allowing it to drop. If snapped down, immediately address posture recovery before continuing pummel attempts → Leads to [[Clinch]]
+- **Opponent clamps overhook or whizzer on the swimming arm, blocking underhook establishment through downward pressure** (Effectiveness: High) - Your Response: Use the overhook commitment against them by immediately attacking the opposite side where they are now weaker, or circle toward the whizzer side to create an angle for a duck under or arm drag → Leads to [[Positions/Clinch]]
+- **Opponent capitalizes on the opening during the swim to lock hands around your torso and establish body lock control** (Effectiveness: Medium) - Your Response: Frame on their hips immediately with both hands, lower your center of gravity, and begin working to break the grip through hip pummeling and hand fighting before they can initiate a takedown → Leads to [[Positions/Body Lock]]
+- **Opponent immediately counter-pummels the moment your underhook reaches their body, stripping it before you can consolidate** (Effectiveness: High) - Your Response: Anticipate the re-pummel and accelerate your consolidation sequence—drive head to shoulder and hips forward simultaneously rather than in stages, or transition immediately to a second pummel attempt on the opposite side → Leads to [[Positions/Clinch]]
+- **Opponent uses the moment your arm drops for the swim to snap your head down with an aggressive collar tie, disrupting your posture** (Effectiveness: Medium) - Your Response: Maintain posture and chin position throughout the swim by keeping your head up and driven forward into their shoulder rather than allowing it to drop. If snapped down, immediately address posture recovery before continuing pummel attempts → Leads to [[Positions/Clinch]]
 
 
 </section>

@@ -21,7 +21,7 @@ Strategically, this transition exploits the opponent's compromised defensive pos
 
 The Bow and Arrow Choke Setup requires precise sequencing: maintaining Gift Wrap control while securing collar depth, then transitioning hips to the perpendicular angle while managing the opponent's ability to turn or create defensive frames. The trapped arm paradoxically becomes a liability for the defender as they cannot use it to push away or block the hip transition. Successful execution positions the attacker for one of the highest-percentage gi finishes available from back control variants.
 
-**From Position**: [[Gift Wrap]] (Top)
+**From Position**: [[Positions/Gift Wrap]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The Bow and Arrow Choke Setup requires precise sequencing: maintaining Gift Wrap
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Gift Wrap]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Gift Wrap]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -193,21 +193,21 @@ The Bow and Arrow Choke Setup integrates the Gift Wrap position into the broader
 ## Related Techniques
 
 
-- [[Gift Wrap]] - Starting position - provides arm control foundation for setup
+- [[Positions/Gift Wrap]] - Starting position - provides arm control foundation for setup
 
-- [[Bow and Arrow Choke]] - Primary follow-up submission after successful setup
+- [[Transitions/Bow and Arrow Choke]] - Primary follow-up submission after successful setup
 
-- [[Back Control]] - Target position - setup establishes bow and arrow back control configuration
+- [[Positions/Back Control]] - Target position - setup establishes bow and arrow back control configuration
 
-- [[Rear Naked Choke]] - Alternative attack that chains with bow and arrow setup creating submission dilemma
+- [[Transitions/Rear Naked Choke]] - Alternative attack that chains with bow and arrow setup creating submission dilemma
 
-- [[Clock Choke]] - Alternative finish when opponent defends by flattening to belly-down
+- [[Transitions/Clock Choke]] - Alternative finish when opponent defends by flattening to belly-down
 
-- [[Body Triangle]] - Leg control option that can combine with collar grip setup
+- [[Positions/Back Control/Body Triangle]] - Leg control option that can combine with collar grip setup
 
-- [[Crucifix]] - Alternative position when bow and arrow transition is defended
+- [[Positions/Crucifix]] - Alternative position when bow and arrow transition is defended
 
-- [[Armbar from Back]] - Alternative submission targeting arm that escapes Gift Wrap
+- [[Submissions/Armbar from Back]] - Alternative submission targeting arm that escapes Gift Wrap
 
 
 </section>

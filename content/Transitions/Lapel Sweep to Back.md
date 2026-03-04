@@ -21,7 +21,7 @@ Strategically, this technique exemplifies the dilemma-based approach that makes 
 
 The technique requires timing recognition and commitment to the back take pathway. Many practitioners successfully initiate the sweep but hesitate when the opponent begins rotating, losing the back take opportunity. Understanding that the opponent's rotation IS the technique working—not a failed sweep—is critical for successful execution.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ The technique requires timing recognition and commitment to the back take pathwa
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Success | [[Mount]] | 10% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 55% |
+| Success | [[Positions/Mount]] | 10% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -190,25 +190,25 @@ The Lapel Sweep to Back serves as a cornerstone technique within the lapel guard
 ## Related Techniques
 
 
-- [[Lapel Guard]] - Starting position from which this technique is executed
+- [[Positions/Lapel Guard]] - Starting position from which this technique is executed
 
-- [[Back Control]] - Primary target position after successful back take
+- [[Positions/Back Control]] - Primary target position after successful back take
 
-- [[Worm Guard Entry]] - Setup variation using lapel wrapped behind opponent's knee
+- [[Transitions/Worm Guard Entry]] - Setup variation using lapel wrapped behind opponent's knee
 
-- [[Squid Guard Entry]] - Alternative setup using lapel wrapped around opponent's arm
+- [[Transitions/Squid Guard Entry]] - Alternative setup using lapel wrapped around opponent's arm
 
-- [[Lapel Omoplata Entry]] - Chain attack when back take pathway is defended
+- [[Transitions/Lapel Omoplata Entry]] - Chain attack when back take pathway is defended
 
-- [[Lapel Elevator Sweep]] - Alternative sweep when opponent prevents rotation
+- [[Transitions/Lapel Elevator Sweep]] - Alternative sweep when opponent prevents rotation
 
-- [[Mount]] - Alternative outcome when back is unavailable but sweep succeeds
+- [[Positions/Mount]] - Alternative outcome when back is unavailable but sweep succeeds
 
-- [[De La Riva Guard]] - Common entry position for establishing lapel configurations
+- [[Positions/De La Riva Guard]] - Common entry position for establishing lapel configurations
 
-- [[Spider Guard]] - Fallback guard when lapel grip is stripped
+- [[Positions/Spider Guard]] - Fallback guard when lapel grip is stripped
 
-- [[Backstep Around Worm Guard]] - Primary counter the defender uses to escape lapel control
+- [[Transitions/Backstep Around Worm Guard]] - Primary counter the defender uses to escape lapel control
 
 
 </section>

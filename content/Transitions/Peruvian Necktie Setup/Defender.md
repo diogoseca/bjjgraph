@@ -162,7 +162,7 @@ description: "How to defend against Peruvian Necktie Setup in BJJ. Recognition c
 
 Defending the Peruvian Necktie Setup demands early recognition and immediate action, because this choke becomes nearly inescapable once the leg triangle is locked and hip rotation begins. Your defensive timeline is compressed into three critical windows: the front headlock phase, the overhook establishment phase, and the leg threading phase. Missing all three means you are fighting a fully locked blood choke with diminishing returns on every escape attempt. The defense centers on preventing the attacker from completing the sequential chain of controls that make the Peruvian Necktie work. Your near arm must stay free, your posture must be recovered or at minimum maintained, and you must create lateral movement rather than pulling backward into the choking pressure. Understanding the biomechanics of this choke reveals that the attacker needs three structural elements in place simultaneously: head control, arm trap via overhook, and leg triangle lock. Disrupting any single element collapses the entire attack. Prioritize arm extraction above all else during the early phases, and if the triangle is locked with bilateral carotid pressure, tap immediately rather than risking unconsciousness from a technique with one of the highest finishing rates in modern grappling.
 
-**Opponent's Starting Position**: [[Front Headlock]] (Top)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -199,28 +199,28 @@ Defending the Peruvian Necktie Setup demands early recognition and immediate act
 ### 1. Posture up explosively and drive forward before the overhook is secured
 
 - **When to use**: During the initial front headlock phase when you feel opponent releasing their gable grip to establish the overhook - this is the widest defensive window
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You break the front headlock control entirely, forcing opponent to re-establish position or chain to a different attack from a neutral exchange
 - **Risk**: If you posture but fail to fully escape, you may expose your neck for a guillotine as opponent capitalizes on your upward movement
 
 ### 2. Strip the overhook by pulling your near arm down and across your body while circling away
 
 - **When to use**: When you feel your arm being trapped under opponent's armpit but before they have dropped to their hip and begun the leg thread
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Without the overhook, the Peruvian Necktie structure collapses and opponent must transition to guillotine, darce, anaconda, or abandon the attack
 - **Risk**: Active arm extraction creates brief moments of reduced defensive framing where opponent may switch to an anaconda or darce entry on the freed arm
 
 ### 3. Turn into the attacker and sit through to guard as their leg threads underneath
 
 - **When to use**: During the leg threading phase when opponent's base is most compromised by their inversion movement and their weight shifts off you
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You recover to half guard or scramble position, completely neutralizing the front headlock threat and resetting the positional exchange
 - **Risk**: Poor timing on the sit-through while the leg is partially threaded can accelerate the choke setup if opponent maintains head control through your turn
 
 ### 4. Roll through with opponent's momentum and scramble to top position
 
 - **When to use**: When the leg triangle is partially locked but not yet tight, and opponent is committing their body weight underneath you during the inversion
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You end up in a scramble or top position with the choke loosened, allowing you to disengage and reset
 - **Risk**: Rolling with a partially locked triangle can tighten the choke if opponent adjusts during the roll, potentially accelerating the finish
 
@@ -232,11 +232,11 @@ Defending the Peruvian Necktie Setup demands early recognition and immediate act
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Posture up explosively during the early setup phase before the overhook is secured, or strip the overhook by pulling your near arm down and across your body while circling laterally away from the choking side. Both actions deny the attacker the structural elements needed for the Peruvian Necktie and force them to reset or chain to a different front headlock attack.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Turn into the attacker and execute a sit-through during the leg threading phase when their base is most compromised. Their inversion movement creates a window where their weight shifts off you, allowing you to rotate and recover to turtle or half guard. Alternatively, roll through their momentum if the triangle is partially locked but not yet tight.
 

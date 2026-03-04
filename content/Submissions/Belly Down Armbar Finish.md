@@ -26,8 +26,8 @@ The mechanical principle centers on the attacker's ability to use their entire b
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint hyperextension and ulnar collateral ligament
-**Starting Position**: [[Armbar Control]]
-**From Position**: [[Armbar Control]] (Top)
+**Starting Position**: [[Positions/Armbar Control]]
+**From Position**: [[Positions/Armbar Control]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -78,8 +78,8 @@ The mechanical principle centers on the attacker's ability to use their entire b
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Armbar Control]] | 30% |
-| Counter | [[Closed Guard]] | 20% |
+| Failure | [[Positions/Armbar Control]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -225,11 +225,11 @@ The mechanical principle centers on the attacker's ability to use their entire b
 
 ## From Which Positions?
 
-- [[Armbar Control]]
-- [[Mount]]
-- [[Back Control]]
-- [[High Mount]]
-- [[S Mount]]
+- [[Positions/Armbar Control]]
+- [[Positions/Mount]]
+- [[Positions/Back Control]]
+- [[Positions/Mount/High Mount]]
+- [[Positions/Mount/S Mount]]
 
 
 </section>
@@ -238,14 +238,14 @@ The mechanical principle centers on the attacker's ability to use their entire b
 
 ## Related Submissions
 
-- [[Belly Down Armbar]]
-- [[Armbar from Mount]]
-- [[Armbar from Guard]]
-- [[Armbar from High Mount]]
-- [[Armbar from S Mount]]
-- [[Armbar from Technical Mount]]
-- [[Armbar from Back]]
-- [[Armbar from Knee on Belly]]
+- [[Submissions/Belly Down Armbar]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Armbar from High Mount]]
+- [[Submissions/Armbar from S Mount]]
+- [[Submissions/Armbar from Technical Mount]]
+- [[Submissions/Armbar from Back]]
+- [[Submissions/Armbar from Knee on Belly]]
 
 
 </section>
@@ -254,13 +254,13 @@ The mechanical principle centers on the attacker's ability to use their entire b
 
 ## Additional Related Content
 
-- [[Armbar Control]] - Primary starting position for initiating the belly down armbar finish
-- [[Belly Down Armbar]] - Related base submission and control position for the prone armbar system
-- [[Armbar from Mount]] - Common entry path leading to armbar control before belly down transition
-- [[Armbar from High Mount]] - High-percentage armbar entry that frequently chains into belly down finish
-- [[Mount]] - Primary dominant position for initiating armbar sequences leading to belly down
-- [[Back Control]] - Alternative starting position for armbar attacks that can transition belly down
-- [[High Mount]] - Advanced mount variation providing optimal armbar entry angles
+- [[Positions/Armbar Control]] - Primary starting position for initiating the belly down armbar finish
+- [[Submissions/Belly Down Armbar]] - Related base submission and control position for the prone armbar system
+- [[Submissions/Armbar from Mount]] - Common entry path leading to armbar control before belly down transition
+- [[Submissions/Armbar from High Mount]] - High-percentage armbar entry that frequently chains into belly down finish
+- [[Positions/Mount]] - Primary dominant position for initiating armbar sequences leading to belly down
+- [[Positions/Back Control]] - Alternative starting position for armbar attacks that can transition belly down
+- [[Positions/Mount/High Mount]] - Advanced mount variation providing optimal armbar entry angles
 
 
 </section>

@@ -21,7 +21,7 @@ The technique draws from the same biomechanical principles that make backsteppin
 
 From a strategic standpoint, the backstep from worm guard serves as a critical secondary option in the passer's toolkit. While the primary approach against worm guard involves systematic lapel stripping, the backstep provides an alternative when the bottom player's grip fighting makes direct lapel removal impractical. The technique carries moderate risk, as the rotational movement during the backstep can expose the passer's back if the bottom player reads the movement early and pursues a back take.
 
-**From Position**: [[Worm Guard]] (Top)
+**From Position**: [[Positions/Worm Guard]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ From a strategic standpoint, the backstep from worm guard serves as a critical s
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Failure | [[Worm Guard]] | 25% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Side Control]] | 45% |
+| Failure | [[Positions/Worm Guard]] | 25% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -192,29 +192,29 @@ The backstep from worm guard sits within the broader backstep passing system tha
 ## Related Techniques
 
 
-- [[Worm Guard]] - Source position where this technique begins
+- [[Positions/Worm Guard]] - Source position where this technique begins
 
-- [[Side Control]] - Primary target position upon successful execution
+- [[Positions/Side Control]] - Primary target position upon successful execution
 
-- [[Lapel Guard]] - Parent guard category; worm guard is a specialized variant
+- [[Positions/Lapel Guard]] - Parent guard category; worm guard is a specialized variant
 
-- [[Back Control]] - Counter outcome position when defender takes the back during backstep rotation
+- [[Positions/Back Control]] - Counter outcome position when defender takes the back during backstep rotation
 
-- [[Half Guard]] - Alternative outcome when pass is partially completed
+- [[Positions/Half Guard]] - Alternative outcome when pass is partially completed
 
-- [[Backstep from De La Riva]] - Related backstep technique sharing angular passing principles
+- [[Transitions/Backstep from De La Riva]] - Related backstep technique sharing angular passing principles
 
-- [[Backstep from Single Leg X]] - Related backstep pass from different guard with similar mechanics
+- [[Transitions/Backstep from Single Leg X]] - Related backstep pass from different guard with similar mechanics
 
-- [[Backstep from K-Guard]] - Related backstep technique against modern guard system
+- [[Transitions/Backstep from K-Guard]] - Related backstep technique against modern guard system
 
-- [[Backstep Around Worm Guard]] - Closely related variant technique for worm guard passing
+- [[Transitions/Backstep Around Worm Guard]] - Closely related variant technique for worm guard passing
 
-- [[Back Step Pass]] - General backstep passing methodology that underpins this technique
+- [[Transitions/Back Step Pass]] - General backstep passing methodology that underpins this technique
 
-- [[Leg Drag Pass]] - Alternative passing approach against worm guard and common follow-up
+- [[Transitions/Leg Drag Pass]] - Alternative passing approach against worm guard and common follow-up
 
-- [[De La Riva Guard]] - Related guard where backstep passing principles originated
+- [[Positions/De La Riva Guard]] - Related guard where backstep passing principles originated
 
 
 </section>

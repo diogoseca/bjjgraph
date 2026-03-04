@@ -182,7 +182,7 @@ description: "Execute the Kimura from Shoulder of Justice with precision. Step-b
 
 From the Shoulder of Justice, the Kimura becomes available when your intense jaw pressure forces the opponent to extend their near arm for relief. This reactive arm extension creates the opening for a figure-four grip that attacks the shoulder through forced internal rotation. The key offensive principle is maintaining positional pressure throughout the submission attempt—your shoulder pressure, hip connection, and base must remain intact even as you transition to the kimura grip. The position naturally creates the submission opportunity through a pressure dilemma: the opponent must either endure the unbearable jaw pressure or extend their arm and face immediate kimura attack. Your role is to recognize the arm extension instantly, secure the figure-four before they retract, and finish with controlled rotational pressure using your entire body rather than arm strength alone.
 
-**From Position**: [[Shoulder of Justice]] (Top)
+**From Position**: [[Positions/Shoulder of Justice]] (Top)
 
 
 </section>
@@ -236,8 +236,8 @@ From the Shoulder of Justice, the Kimura becomes available when your intense jaw
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Shoulder of Justice]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Shoulder of Justice]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -246,10 +246,10 @@ From the Shoulder of Justice, the Kimura becomes available when your intense jaw
 
 ## Opponent Defenses
 
-- **Opponent clasps hands together to prevent arm isolation and rotation** (Effectiveness: High) - Your Response: Step far leg over their head and transition to belly-down kimura finish for dramatically increased leverage to break the grip. Alternatively, release one hand to peel their gripping fingers apart before re-securing the figure-four. → Leads to [[Shoulder of Justice]]
-- **Opponent bridges and rolls toward you during the grip transition to disrupt your base** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining the figure-four grip and finish the kimura from the new top position after the roll completes. The grip remains effective regardless of which side you end up on. → Leads to [[Half Guard]]
-- **Opponent shrimps hips away explosively to create distance and recover guard during setup** (Effectiveness: Medium) - Your Response: Follow their hips maintaining the grip and transition to a mounted kimura or abandon the submission attempt and re-establish Shoulder of Justice pressure before they complete guard recovery. → Leads to [[Half Guard]]
-- **Opponent straightens their arm fully to prevent the figure-four from closing** (Effectiveness: Medium) - Your Response: Transition to an armbar by swinging your leg over their face while maintaining wrist control on the straightened arm. Their straight-arm defense against the kimura creates a direct armbar opportunity. → Leads to [[Shoulder of Justice]]
+- **Opponent clasps hands together to prevent arm isolation and rotation** (Effectiveness: High) - Your Response: Step far leg over their head and transition to belly-down kimura finish for dramatically increased leverage to break the grip. Alternatively, release one hand to peel their gripping fingers apart before re-securing the figure-four. → Leads to [[Positions/Shoulder of Justice]]
+- **Opponent bridges and rolls toward you during the grip transition to disrupt your base** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining the figure-four grip and finish the kimura from the new top position after the roll completes. The grip remains effective regardless of which side you end up on. → Leads to [[Positions/Half Guard]]
+- **Opponent shrimps hips away explosively to create distance and recover guard during setup** (Effectiveness: Medium) - Your Response: Follow their hips maintaining the grip and transition to a mounted kimura or abandon the submission attempt and re-establish Shoulder of Justice pressure before they complete guard recovery. → Leads to [[Positions/Half Guard]]
+- **Opponent straightens their arm fully to prevent the figure-four from closing** (Effectiveness: Medium) - Your Response: Transition to an armbar by swinging your leg over their face while maintaining wrist control on the straightened arm. Their straight-arm defense against the kimura creates a direct armbar opportunity. → Leads to [[Positions/Shoulder of Justice]]
 
 
 </section>

@@ -174,7 +174,7 @@ description: "How to execute Lockdown Recovery in BJJ. Attacking perspective wit
 
 Lockdown Recovery is a specialized escape from Modified Mount that exploits the position's asymmetric structure to capture the opponent's posted leg and establish the powerful Lockdown half guard control. When mounted in Modified Mount, the opponent's posted leg creates both stability for them and an opportunity for the bottom practitioner - that extended leg is vulnerable to being captured if proper timing and technique are applied. The escape centers on creating enough hip space through frames and movement to shoot your legs around the posted leg and establish the figure-four lockdown configuration before the opponent can retract. This technique represents a fundamental principle in BJJ defensive strategy: rather than fighting directly against the mount, you transition to a position where your leg control creates immediate problems for the top player. Once Lockdown is established, the dynamic shifts dramatically - the opponent cannot effectively pass or mount because their leg mobility is completely compromised. The technique requires precise timing, as attempting the leg capture too early leaves you vulnerable to submission attempts, while waiting too long allows the opponent to consolidate mount or transition to a more dominant position. Advanced practitioners use this recovery as part of a broader escape system, threatening the Lockdown entry to create reactions that open other escape paths like deep half guard or standard hip escapes.
 
-**From Position**: [[Modified Mount]] (Bottom)
+**From Position**: [[Positions/Mount/Modified Mount]] (Bottom)
 
 </section>
 
@@ -226,9 +226,9 @@ Lockdown Recovery is a specialized escape from Modified Mount that exploits the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Lockdown]] | 65% |
-| Failure | [[Modified Mount]] | 25% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Half Guard/Lockdown]] | 65% |
+| Failure | [[Positions/Mount/Modified Mount]] | 25% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -237,10 +237,10 @@ Lockdown Recovery is a specialized escape from Modified Mount that exploits the 
 
 ## Opponent Counters
 
-- **Opponent retracts posted leg before capture is complete** (Effectiveness: High) - Your Response: Use the reaction to immediately hip escape toward the now-empty space where the posted leg was, recovering to standard half guard or open guard → Leads to [[Modified Mount]]
-- **Opponent sprawls weight back and drives posted leg forward to pin** (Effectiveness: Medium) - Your Response: If they commit weight backward, bridge and roll toward the across-body knee side which is now lighter, or transition to hip escape in opposite direction → Leads to [[Modified Mount]]
-- **Opponent attempts armbar as you reach for leg capture** (Effectiveness: High) - Your Response: Keep near-side arm completely tight to body throughout - never reach with this arm. If armbar threat materializes, abandon leg capture and defend submission first → Leads to [[Mount]]
-- **Opponent transitions to standard mount or high mount when feeling leg movement** (Effectiveness: Medium) - Your Response: Follow their movement with your hip escape, using their transition to create space for standard mount escape sequences → Leads to [[Mount]]
+- **Opponent retracts posted leg before capture is complete** (Effectiveness: High) - Your Response: Use the reaction to immediately hip escape toward the now-empty space where the posted leg was, recovering to standard half guard or open guard → Leads to [[Positions/Mount/Modified Mount]]
+- **Opponent sprawls weight back and drives posted leg forward to pin** (Effectiveness: Medium) - Your Response: If they commit weight backward, bridge and roll toward the across-body knee side which is now lighter, or transition to hip escape in opposite direction → Leads to [[Positions/Mount/Modified Mount]]
+- **Opponent attempts armbar as you reach for leg capture** (Effectiveness: High) - Your Response: Keep near-side arm completely tight to body throughout - never reach with this arm. If armbar threat materializes, abandon leg capture and defend submission first → Leads to [[Positions/Mount]]
+- **Opponent transitions to standard mount or high mount when feeling leg movement** (Effectiveness: Medium) - Your Response: Follow their movement with your hip escape, using their transition to create space for standard mount escape sequences → Leads to [[Positions/Mount]]
 
 
 </section>

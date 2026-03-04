@@ -21,7 +21,7 @@ This transition exploits the opponent's compromised defensive structure. With ar
 
 The seat belt grip configuration (one arm over the shoulder, one under the armpit, hands clasped at the sternum) provides the structural foundation for maintaining back control through opponent's escape attempts. Establishing this grip during the transition from mounted crucifix ensures you arrive at back control with immediate offensive potential rather than scrambling to establish control after the position change. This proactive grip work separates high-level back takes from opportunistic ones that often result in lost positions.
 
-**From Position**: [[Mounted Crucifix]] (Top)
+**From Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The seat belt grip configuration (one arm over the shoulder, one under the armpi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Mounted Crucifix]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Mount/Mounted Crucifix]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -189,25 +189,25 @@ Seat Belt Control Back serves as the critical link between mounted crucifix domi
 ## Related Techniques
 
 
-- [[Mounted Crucifix]] - Starting position - mounted crucifix provides the arm isolation that enables this transition
+- [[Positions/Mount/Mounted Crucifix]] - Starting position - mounted crucifix provides the arm isolation that enables this transition
 
-- [[Back Control]] - Target position - full back control with hooks or body triangle is the destination
+- [[Positions/Back Control]] - Target position - full back control with hooks or body triangle is the destination
 
-- [[Rear Naked Choke]] - Primary follow-up submission once back control is established
+- [[Transitions/Rear Naked Choke]] - Primary follow-up submission once back control is established
 
-- [[Body Triangle Lock]] - Alternative lower body control option upon completing the transition
+- [[Transitions/Body Triangle Lock]] - Alternative lower body control option upon completing the transition
 
-- [[Armbar from Crucifix]] - Alternative attack from the starting position instead of transitioning
+- [[Transitions/Armbar from Crucifix]] - Alternative attack from the starting position instead of transitioning
 
-- [[Choke from Crucifix]] - Alternative attack from the starting position instead of transitioning
+- [[Transitions/Choke from Crucifix]] - Alternative attack from the starting position instead of transitioning
 
-- [[High Mount]] - Common entry path leading to mounted crucifix before this transition
+- [[Positions/Mount/High Mount]] - Common entry path leading to mounted crucifix before this transition
 
-- [[S Mount]] - Alternative mount attack position that also leads to crucifix entries
+- [[Positions/Mount/S Mount]] - Alternative mount attack position that also leads to crucifix entries
 
-- [[Back Take from Top]] - Related back take transition from other top positions
+- [[Transitions/Back Take from Top]] - Related back take transition from other top positions
 
-- [[Gift Wrap Transition]] - Alternative arm control transition from similar starting positions
+- [[Transitions/Gift Wrap Transition]] - Alternative arm control transition from similar starting positions
 
 
 </section>

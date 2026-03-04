@@ -21,7 +21,7 @@ This technique exemplifies the principle of turning defensive liability into off
 
 Strategically, the mere threat of the Von Flue forces guillotine players to reconsider holding their grip once the guard is passed. This creates a powerful deterrent effect—experienced practitioners who know the Von Flue will release their guillotine early during guard passing attempts, which itself benefits the passer by removing the choking threat and conceding side control. The technique functions both as a direct submission counter and as a strategic tool that shapes opponent behavior, making it invaluable for anyone who regularly faces guillotine attacks from bottom guard.
 
-**From Position**: [[Guillotine Control]] (Bottom)
+**From Position**: [[Positions/Guillotine Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the mere threat of the Von Flue forces guillotine players to reco
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Guillotine Control]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Guillotine Control]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Guillotine Escape to Von Flue occupies a critical junction in the BJJ positi
 ## Related Techniques
 
 
-- [[Guillotine Control]] - Source position where this transition begins—opponent holds guillotine from bottom guard
+- [[Positions/Guillotine Control]] - Source position where this transition begins—opponent holds guillotine from bottom guard
 
-- [[Side Control]] - Primary success outcome—achieving side control with Von Flue choke opportunity
+- [[Positions/Side Control]] - Primary success outcome—achieving side control with Von Flue choke opportunity
 
-- [[Open Guard]] - Counter outcome position when opponent releases guillotine and recovers guard
+- [[Positions/Open Guard]] - Counter outcome position when opponent releases guillotine and recovers guard
 
-- [[Shoulder of Justice]] - Related shoulder pressure concept using similar mechanics for control and submission
+- [[Positions/Shoulder of Justice]] - Related shoulder pressure concept using similar mechanics for control and submission
 
-- [[Kesa Gatame]] - Alternative side control variant with comparable shoulder-to-neck pressure principles
+- [[Positions/Side Control/Kesa Gatame]] - Alternative side control variant with comparable shoulder-to-neck pressure principles
 
-- [[Front Headlock]] - Parent control system from which guillotine attacks originate
+- [[Positions/Front Headlock]] - Parent control system from which guillotine attacks originate
 
-- [[North-South]] - Alternative positional advancement available after escaping the guillotine
+- [[Positions/North-South]] - Alternative positional advancement available after escaping the guillotine
 
-- [[Standing Guillotine from Clinch]] - Related guillotine attack that can lead to the guard guillotine scenario
+- [[Submissions/Standing Guillotine from Clinch]] - Related guillotine attack that can lead to the guard guillotine scenario
 
-- [[Guillotine from Butterfly Guard]] - Common guillotine setup that this technique counters
+- [[Submissions/Guillotine from Butterfly Guard]] - Common guillotine setup that this technique counters
 
-- [[Arm in Guillotine Variation]] - Guillotine variation where Von Flue counter is still applicable with modified mechanics
+- [[Transitions/Arm in Guillotine Variation]] - Guillotine variation where Von Flue counter is still applicable with modified mechanics
 
 
 </section>

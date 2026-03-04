@@ -182,7 +182,7 @@ description: "Learn to execute the Triangle Choke from Open Guard. Step-by-step 
 
 The Triangle from Open Guard Attacker position focuses on systematically isolating one of the opponent's arms, creating a perpendicular angle with hip movement, and threading the legs into a figure-four configuration around the opponent's neck and trapped arm. Success requires precise grip sequencing from open guard control points—collar grip to break posture, sleeve grip to isolate the arm—followed by explosive leg shooting when the angle is established. The finishing mechanics demand constant angle adjustment and progressive squeeze pressure rather than explosive force, making this a technique that rewards technical precision over raw athleticism. The open guard starting point provides superior hip mobility for angle creation compared to closed guard entries, but requires more active setup work to create the arm isolation needed for a clean triangle lock.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 
 
 </section>
@@ -235,8 +235,8 @@ The Triangle from Open Guard Attacker position focuses on systematically isolati
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Open Guard]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Failure | [[Positions/Open Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -245,10 +245,10 @@ The Triangle from Open Guard Attacker position focuses on systematically isolati
 
 ## Opponent Defenses
 
-- **Opponent postures up strongly before triangle is locked, creating space and lifting your hips off the mat** (Effectiveness: High) - Your Response: If they posture before the lock, switch to armbar by swinging your leg over their face and extending their trapped arm. Alternatively, transition to omoplata by pivoting your hips and threading your leg over their shoulder. Their posturing actually isolates the arm perfectly for these chain attacks. → Leads to [[Open Guard]]
-- **Opponent stacks your body by driving forward and pinning your shoulders to the mat, compressing your spine** (Effectiveness: High) - Your Response: When stacked, frame on their hip with one hand to create space and use the other to maintain head control. Angle your body to the side rather than accepting the stack square-on. If you can get to your side, the triangle pressure actually increases. Alternatively, transition to omoplata which becomes available when they drive their weight forward. → Leads to [[Side Control]]
-- **Opponent clasps hands together to prevent arm isolation or to create a frame inside the triangle** (Effectiveness: Medium) - Your Response: Attack the grip by pulling their wrist with both hands while squeezing your knees. If the grip is strong, switch to attacking the opposite arm with a kimura grip or transition to an armbar on the clasped arm by extending your hips. The clasping defense exposes both arms to different submission threats. → Leads to [[Open Guard]]
-- **Opponent turns and angles their body to slip their head out while driving toward side control** (Effectiveness: Medium) - Your Response: If they begin turning, immediately tighten the triangle lock and pull their head back toward your centerline. If they create significant angle, transition to omoplata on the trapped arm as their rotation feeds directly into the omoplata hip position. Their turning defense trades one submission threat for another. → Leads to [[Side Control]]
+- **Opponent postures up strongly before triangle is locked, creating space and lifting your hips off the mat** (Effectiveness: High) - Your Response: If they posture before the lock, switch to armbar by swinging your leg over their face and extending their trapped arm. Alternatively, transition to omoplata by pivoting your hips and threading your leg over their shoulder. Their posturing actually isolates the arm perfectly for these chain attacks. → Leads to [[Positions/Open Guard]]
+- **Opponent stacks your body by driving forward and pinning your shoulders to the mat, compressing your spine** (Effectiveness: High) - Your Response: When stacked, frame on their hip with one hand to create space and use the other to maintain head control. Angle your body to the side rather than accepting the stack square-on. If you can get to your side, the triangle pressure actually increases. Alternatively, transition to omoplata which becomes available when they drive their weight forward. → Leads to [[Positions/Side Control]]
+- **Opponent clasps hands together to prevent arm isolation or to create a frame inside the triangle** (Effectiveness: Medium) - Your Response: Attack the grip by pulling their wrist with both hands while squeezing your knees. If the grip is strong, switch to attacking the opposite arm with a kimura grip or transition to an armbar on the clasped arm by extending your hips. The clasping defense exposes both arms to different submission threats. → Leads to [[Positions/Open Guard]]
+- **Opponent turns and angles their body to slip their head out while driving toward side control** (Effectiveness: Medium) - Your Response: If they begin turning, immediately tighten the triangle lock and pull their head back toward your centerline. If they create significant angle, transition to omoplata on the trapped arm as their rotation feeds directly into the omoplata hip position. Their turning defense trades one submission threat for another. → Leads to [[Positions/Side Control]]
 
 
 </section>

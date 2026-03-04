@@ -176,7 +176,7 @@ description: "How to execute Darce Choke in BJJ. Attacking perspective with setu
 
 The Darce Choke attack centers on threading your arm through the gap between your opponent's neck and near arm, creating a figure-four configuration that compresses both carotid arteries simultaneously. The shoulder drives into the near-side carotid while the forearm blade attacks the far-side carotid, producing bilateral compression that restricts blood flow to the brain. Successful execution requires establishing heavy front headlock or turtle top control first, then methodically threading the choking arm while maintaining downward pressure to prevent escape. The finish demands precise body positioning—hips angled away from the opponent's head, chest heavy on their shoulders, and choking elbow pinned tight to your ribs. The Darce is most dangerous during transitions: opponents defending guillotines, recovering from guard passes, or turtling defensively all create the arm-neck gap this choke exploits. Mastering the Darce means developing sensitivity to when that gap appears and the ability to thread your arm before it closes.
 
-**From Position**: [[Darce Control]] (Top)
+**From Position**: [[Positions/Darce Control]] (Top)
 
 
 </section>
@@ -232,8 +232,8 @@ The Darce Choke attack centers on threading your arm through the gap between you
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Darce Control]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Darce Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -242,10 +242,10 @@ The Darce Choke attack centers on threading your arm through the gap between you
 
 ## Opponent Defenses
 
-- **Turn into the choke (face you)** (Effectiveness: Medium) - Your Response: Maintain strong crossface pressure to prevent the turn. If they complete the turn, transition to guillotine or anaconda choke. Use your choking arm to frame against their face and prevent them from getting their head across your centerline. → Leads to [[Darce Control]]
-- **Roll away from the choke** (Effectiveness: High) - Your Response: Establish strong inside leg positioning over their back to prevent the roll. If they start rolling, go with them while maintaining the grip and finish the choke in the new position. Use your hip pressure and sprawl to pin their hips and prevent rotation. → Leads to [[Half Guard]]
-- **Pull trapped arm out** (Effectiveness: Medium) - Your Response: Increase shoulder pressure on their neck to make the space smaller. Keep your choking elbow tight to your ribs to prevent them from creating space. If they start freeing the arm, switch to anaconda choke variation by adjusting grip position. → Leads to [[Darce Control]]
-- **Stand up or posture up** (Effectiveness: High) - Your Response: Immediately increase chest pressure on their shoulders and use your body weight to drive them back down. Circle your hips away from their legs to prevent them from establishing a base under you. If they succeed in standing, transition to a standing darce or release and reset. → Leads to [[Half Guard]]
+- **Turn into the choke (face you)** (Effectiveness: Medium) - Your Response: Maintain strong crossface pressure to prevent the turn. If they complete the turn, transition to guillotine or anaconda choke. Use your choking arm to frame against their face and prevent them from getting their head across your centerline. → Leads to [[Positions/Darce Control]]
+- **Roll away from the choke** (Effectiveness: High) - Your Response: Establish strong inside leg positioning over their back to prevent the roll. If they start rolling, go with them while maintaining the grip and finish the choke in the new position. Use your hip pressure and sprawl to pin their hips and prevent rotation. → Leads to [[Positions/Half Guard]]
+- **Pull trapped arm out** (Effectiveness: Medium) - Your Response: Increase shoulder pressure on their neck to make the space smaller. Keep your choking elbow tight to your ribs to prevent them from creating space. If they start freeing the arm, switch to anaconda choke variation by adjusting grip position. → Leads to [[Positions/Darce Control]]
+- **Stand up or posture up** (Effectiveness: High) - Your Response: Immediately increase chest pressure on their shoulders and use your body weight to drive them back down. Circle your hips away from their legs to prevent them from establishing a base under you. If they succeed in standing, transition to a standing darce or release and reset. → Leads to [[Positions/Half Guard]]
 - **Grab your choking elbow** (Effectiveness: Low) - Your Response: This defense is often too late. Simply maintain your figure-four lock and continue applying bilateral pressure. Their grip on your elbow doesn't prevent the carotid compression. Focus on keeping your elbow tight to your ribs and driving shoulder pressure. → Leads to [[game-over]]
 
 

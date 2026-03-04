@@ -186,7 +186,7 @@ description: "Complete guide to executing the clinch break in BJJ. Learn frame c
 
 Executing the clinch break requires a systematic approach that combines grip fighting, structural framing, and explosive separation into one coordinated sequence. As the person initiating the break from the disadvantaged clinch position, your primary objective is to neutralize your opponent's controlling grips, establish inside frames that prevent them from maintaining chest-to-chest proximity, and then create enough distance through a decisive push-off and footwork combination that the opponent cannot immediately re-engage. The break must be treated as an active offensive technique with specific mechanical steps rather than a panicked retreat, because undisciplined separation creates vulnerability to snap-downs, level changes, and follow-up takedown entries. Success depends on reading when the opponent's weight is committed and timing the separation to exploit moments of overextension or grip transition.
 
-**From Position**: [[Clinch]] (Bottom)
+**From Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ Executing the clinch break requires a systematic approach that combines grip fig
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Clinch]] | 30% |
-| Counter | [[Front Headlock]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Clinch]] | 30% |
+| Counter | [[Positions/Front Headlock]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ Executing the clinch break requires a systematic approach that combines grip fig
 
 ## Opponent Counters
 
-- **Opponent re-pummels to underhooks immediately after you strip their grip, re-establishing tight clinch control before you can complete the separation** (Effectiveness: High) - Your Response: Accelerate the break timing so the push-off happens simultaneously with the grip strip rather than sequentially. If they re-pummel, use the swimming motion to clear their arms again and attempt a second break with less setup time. → Leads to [[Clinch]]
-- **Opponent times a snap-down during the push-off phase, using your backward momentum and extended frames to pull your head down into a front headlock** (Effectiveness: High) - Your Response: Keep your chin tucked and head position strong throughout the break. Never extend your arms fully during the push as this creates the leverage they need. If caught in the snap-down, immediately circle your head to the outside and fight back to your feet before they consolidate the headlock. → Leads to [[Front Headlock]]
-- **Opponent follows your separation with immediate forward pressure, closing the distance before you can establish your fighting stance** (Effectiveness: Medium) - Your Response: Circle laterally after the initial separation rather than continuing backward. If they close distance on a straight line, use a stiff-arm post on their lead shoulder to redirect their forward momentum past you while continuing to angle away. → Leads to [[Clinch]]
-- **Opponent transitions to a tight body lock before you can establish inside frames, locking hands around your torso to prevent any frame-based separation** (Effectiveness: Medium) - Your Response: If the body lock is secured, abandon the frame-and-push break and switch to an underhook peel or consider pulling guard rather than fighting a locked body connection. Address the body lock grip by creating a frame on their hip and prying their hands apart before reattempting separation. → Leads to [[Clinch]]
+- **Opponent re-pummels to underhooks immediately after you strip their grip, re-establishing tight clinch control before you can complete the separation** (Effectiveness: High) - Your Response: Accelerate the break timing so the push-off happens simultaneously with the grip strip rather than sequentially. If they re-pummel, use the swimming motion to clear their arms again and attempt a second break with less setup time. → Leads to [[Positions/Clinch]]
+- **Opponent times a snap-down during the push-off phase, using your backward momentum and extended frames to pull your head down into a front headlock** (Effectiveness: High) - Your Response: Keep your chin tucked and head position strong throughout the break. Never extend your arms fully during the push as this creates the leverage they need. If caught in the snap-down, immediately circle your head to the outside and fight back to your feet before they consolidate the headlock. → Leads to [[Positions/Front Headlock]]
+- **Opponent follows your separation with immediate forward pressure, closing the distance before you can establish your fighting stance** (Effectiveness: Medium) - Your Response: Circle laterally after the initial separation rather than continuing backward. If they close distance on a straight line, use a stiff-arm post on their lead shoulder to redirect their forward momentum past you while continuing to angle away. → Leads to [[Positions/Clinch]]
+- **Opponent transitions to a tight body lock before you can establish inside frames, locking hands around your torso to prevent any frame-based separation** (Effectiveness: Medium) - Your Response: If the body lock is secured, abandon the frame-and-push break and switch to an underhook peel or consider pulling guard rather than fighting a locked body connection. Address the body lock grip by creating a frame on their hip and prying their hands apart before reattempting separation. → Leads to [[Positions/Clinch]]
 
 
 </section>

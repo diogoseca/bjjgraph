@@ -184,7 +184,7 @@ This transition exploits the fundamental defensive dilemma created by buggy chok
 
 Strategically, this transition transforms failed submission attempts into continued offensive pressure. Rather than viewing defensive success as a reset, skilled practitioners chain the buggy choke to front headlock as part of a systematic turtle attack flowchart where every defensive response opens different offensive opportunities. This reflects advanced positional thinking where submissions are entry points to position, and positions are entry points to submissions.
 
-**From Position**: [[Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
 
@@ -237,9 +237,9 @@ Strategically, this transition transforms failed submission attempts into contin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 65% |
-| Failure | [[Buggy Choke]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Front Headlock]] | 65% |
+| Failure | [[Positions/Buggy Choke]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -248,10 +248,10 @@ Strategically, this transition transforms failed submission attempts into contin
 
 ## Opponent Counters
 
-- **Opponent sprawls and circles away to disengage** (Effectiveness: Medium) - Your Response: Maintain chin strap and follow their movement, converting to snap down series or re-attacking with arm drags if they create distance → Leads to [[Buggy Choke]]
-- **Opponent posts far arm and drives into you to prevent sprawl** (Effectiveness: High) - Your Response: Accept the underhook battle or transition to arm drag, using their forward drive to off-balance them toward back take opportunities → Leads to [[Buggy Choke]]
-- **Opponent turtles tightly and protects neck with both hands** (Effectiveness: Medium) - Your Response: Maintain top pressure and work to isolate one arm for crucifix entry or attack exposed wrist with wristlock threats → Leads to [[Buggy Choke]]
-- **Opponent sits to guard during the transition** (Effectiveness: Low) - Your Response: Follow them down maintaining head control and convert to guillotine guard attack or pass the open guard using head control as anchor → Leads to [[Turtle]]
+- **Opponent sprawls and circles away to disengage** (Effectiveness: Medium) - Your Response: Maintain chin strap and follow their movement, converting to snap down series or re-attacking with arm drags if they create distance → Leads to [[Positions/Buggy Choke]]
+- **Opponent posts far arm and drives into you to prevent sprawl** (Effectiveness: High) - Your Response: Accept the underhook battle or transition to arm drag, using their forward drive to off-balance them toward back take opportunities → Leads to [[Positions/Buggy Choke]]
+- **Opponent turtles tightly and protects neck with both hands** (Effectiveness: Medium) - Your Response: Maintain top pressure and work to isolate one arm for crucifix entry or attack exposed wrist with wristlock threats → Leads to [[Positions/Buggy Choke]]
+- **Opponent sits to guard during the transition** (Effectiveness: Low) - Your Response: Follow them down maintaining head control and convert to guillotine guard attack or pass the open guard using head control as anchor → Leads to [[Positions/Turtle]]
 
 
 </section>

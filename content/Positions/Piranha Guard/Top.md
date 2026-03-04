@@ -208,23 +208,23 @@ The Piranha Guard Top position requires excellent grip fighting skills, strong b
 
 ## Available Attacks
 
-### [[Toreando Pass]] (20% of attempts)
+### [[Transitions/Toreando Pass]] (20% of attempts)
 
-### [[Knee Slice Pass]] (13% of attempts)
+### [[Transitions/Knee Slice Pass]] (13% of attempts)
 
-### [[Long Step Pass]] (11% of attempts)
+### [[Transitions/Long Step Pass]] (11% of attempts)
 
-### [[Stack Pass]] (10% of attempts)
+### [[Transitions/Stack Pass]] (10% of attempts)
 
-### [[Leg Drag Pass]] (13% of attempts)
+### [[Transitions/Leg Drag Pass]] (13% of attempts)
 
-### [[Pressure Pass]] (14% of attempts)
+### [[Transitions/Pressure Pass]] (14% of attempts)
 
-### [[X Pass]] (11% of attempts)
+### [[Transitions/X Pass]] (11% of attempts)
 
-### [[Pass Piranha Guard]] (5% of attempts)
+### [[Transitions/Pass Piranha Guard]] (5% of attempts)
 
-### [[Strip Lapel from Piranha]] (3% of attempts)
+### [[Transitions/Strip Lapel from Piranha]] (3% of attempts)
 
 
 
@@ -235,28 +235,28 @@ The Piranha Guard Top position requires excellent grip fighting skills, strong b
 ## Decision Making from This Position
 
 **If bottom player has lapel wrapped around your neck or back creating immediate choke threat:**
-- Execute **[[Immediate Lapel Strip]]** → [[Combat Base]] (Probability: 85%)
-- Execute **[[Posture Recovery]]** → [[Standing Guard]] (Probability: 75%)
+- Execute **[[Immediate Lapel Strip]]** → [[Positions/Combat Base]] (Probability: 85%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Standing Guard]] (Probability: 75%)
 
 
 **If bottom player has collar threaded through legs only without dangerous secondary grips:**
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If bottom player is actively off-balancing with lapel grips and hook placement:**
-- Execute **[[Base Widening]]** → [[Combat Base]] (Probability: 75%)
-- Execute **[[Pressure Pass]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Base Widening]]** → [[Positions/Combat Base]] (Probability: 75%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 **If bottom player has weak or broken lapel configuration with compromised grips:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[X Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/X Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If bottom player attempts to invert or berimbolo with lapel control:**
-- Execute **[[Backstep to Leg Drag]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Backstep to Leg Drag]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 
@@ -395,16 +395,16 @@ Start with bottom player using 50% resistance with lapel grips. Top player works
 
 ## Related Positions and Techniques
 
-- **[[Piranha Guard]]** - Complementary bottom position perspective of the same guard system
-- **[[Lasso Guard]]** - Similar lapel-based guard passing position with related grip fighting concepts
-- **[[Worm Guard]]** - Related lapel guard passing scenario with similar systematic clearing methodology
-- **[[Spider Guard]]** - Similar guard passing concepts regarding distance management and grip fighting
-- **[[Combat Base]]** - Common transitional position for posture recovery when lapel controls are threatening
-- **[[Toreando Pass]]** - Primary passing technique that capitalizes on extended leg position in lapel guards
-- **[[Knee Slice Pass]]** - Essential passing technique for cutting through lapel guard after grip clearing
-- **[[Long Step Pass]]** - Effective passing approach when opponent's lapel grips are partially neutralized
-- **[[Leg Drag Pass]]** - Alternative passing strategy effective when bottom player's legs become exposed
-- **[[Side Control]]** - Primary target position after successful pass completion from Piranha Guard Top
+- **[[Positions/Piranha Guard]]** - Complementary bottom position perspective of the same guard system
+- **[[Positions/Lasso Guard]]** - Similar lapel-based guard passing position with related grip fighting concepts
+- **[[Positions/Worm Guard]]** - Related lapel guard passing scenario with similar systematic clearing methodology
+- **[[Positions/Spider Guard]]** - Similar guard passing concepts regarding distance management and grip fighting
+- **[[Positions/Combat Base]]** - Common transitional position for posture recovery when lapel controls are threatening
+- **[[Transitions/Toreando Pass]]** - Primary passing technique that capitalizes on extended leg position in lapel guards
+- **[[Transitions/Knee Slice Pass]]** - Essential passing technique for cutting through lapel guard after grip clearing
+- **[[Transitions/Long Step Pass]]** - Effective passing approach when opponent's lapel grips are partially neutralized
+- **[[Transitions/Leg Drag Pass]]** - Alternative passing strategy effective when bottom player's legs become exposed
+- **[[Positions/Side Control]]** - Primary target position after successful pass completion from Piranha Guard Top
 
 
 </section>

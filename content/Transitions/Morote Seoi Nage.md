@@ -17,7 +17,7 @@ description: "Master Morote Seoi Nage in BJJ. Complete two-handed shoulder throw
 
 Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo technique that has proven highly effective in Brazilian Jiu-Jitsu competition and self-defense scenarios. Unlike the single-handed Ippon Seoi Nage, this variation maintains grips on both sleeves or wrists throughout the throw, providing superior control and reducing the opponent's ability to counter. The technique exploits forward momentum or pressure, using a rotating entry to load the opponent onto your back before executing an explosive forward projection. This throw is particularly effective in gi competition where sleeve control is paramount, and it transitions seamlessly into dominant top positions like side control or mount. The Morote Seoi Nage requires precise timing, strong hip positioning, and excellent kuzushi (off-balancing) to execute successfully against resisting opponents. When mastered, it becomes a high-percentage technique that can score immediate points in competition while establishing superior position for submission attacks or control.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -28,9 +28,9 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Failure | [[Standing Position]] | 20% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Side Control]] | 70% |
+| Failure | [[Positions/Standing Position]] | 20% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -188,27 +188,27 @@ Morote Seoi Nage serves as a critical bridge between standing positions and domi
 ## Related Techniques
 
 
-- [[Ippon Seoi Nage]] - Alternative - single-arm shoulder throw variation from the same family
+- [[Transitions/Ippon Seoi Nage]] - Alternative - single-arm shoulder throw variation from the same family
 
-- [[Tai Otoshi]] - Combination - body drop throw that chains well with Morote Seoi Nage
+- [[Transitions/Tai Otoshi]] - Combination - body drop throw that chains well with Morote Seoi Nage
 
-- [[Arm Drag to Back]] - Setup - creates rotational momentum for entry
+- [[Transitions/Arm Drag to Back]] - Setup - creates rotational momentum for entry
 
-- [[Snap Down to Front Headlock]] - Backup - alternative when opponent defends throw
+- [[Transitions/Snap Down to Front Headlock]] - Backup - alternative when opponent defends throw
 
-- [[Side Control]] - Follow-up - primary landing position after successful throw
+- [[Positions/Side Control]] - Follow-up - primary landing position after successful throw
 
-- [[Single Leg Entry]] - Combination - chain attack when opponent sprawls
+- [[Transitions/Single Leg Entry]] - Combination - chain attack when opponent sprawls
 
-- [[Harai Goshi]] - Combination - sweeping hip throw that creates tactical uncertainty
+- [[Transitions/Harai Goshi]] - Combination - sweeping hip throw that creates tactical uncertainty
 
-- [[Double Leg Entry]] - Alternative - contrasting attack that exploits different defensive reactions
+- [[Transitions/Double Leg Entry]] - Alternative - contrasting attack that exploits different defensive reactions
 
-- [[Turtle]] - Follow-up - backup position if opponent posts during throw
+- [[Positions/Turtle]] - Follow-up - backup position if opponent posts during throw
 
-- [[Front Headlock]] - Follow-up - control position if opponent defends by posting
+- [[Positions/Front Headlock]] - Follow-up - control position if opponent defends by posting
 
-- [[Mount]] - Follow-up - high-value position option after throw
+- [[Positions/Mount]] - Follow-up - high-value position option after throw
 
 
 </section>

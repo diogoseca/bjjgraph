@@ -182,7 +182,7 @@ Executing the Transition to Reverse Kesa-Gatame requires the top player to rotat
 
 The transition creates an immediate tactical advantage by trapping the opponent's far arm, which was their primary defensive tool in standard Kesa Gatame. Once in Reverse Kesa-Gatame, the top player faces the opponent's legs with the far arm isolated under their armpit, opening direct pathways to Kimura, Americana, and arm triangle submissions without additional positional work.
 
-**From Position**: [[Kesa Gatame]] (Top)
+**From Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
 
 </section>
 
@@ -235,9 +235,9 @@ The transition creates an immediate tactical advantage by trapping the opponent'
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Reverse Kesa-Gatame]] | 65% |
-| Failure | [[Kesa Gatame]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control/Reverse Kesa-Gatame]] | 65% |
+| Failure | [[Positions/Side Control/Kesa Gatame]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -246,10 +246,10 @@ The transition creates an immediate tactical advantage by trapping the opponent'
 
 ## Opponent Counters
 
-- **Opponent frames against your hip or shoulder during the rotation to create space and begin shrimping** (Effectiveness: High) - Your Response: Accelerate the rotation and drive your chest pressure down harder during the pivot. If they create significant space, abort the transition and return to standard Kesa Gatame rather than completing a compromised rotation. The frame is most effective when you pause mid-rotation, so committing fully to the movement reduces its effectiveness. → Leads to [[Kesa Gatame]]
-- **Opponent bridges explosively as you release head control during the transitional phase** (Effectiveness: High) - Your Response: If the bridge occurs before you complete the rotation, drop your hips and re-establish standard Kesa Gatame. If it occurs after the midpoint, use the bridge momentum to accelerate your rotation and settle into Reverse Kesa-Gatame with increased pressure on their chest. Widen your base immediately to absorb the bridge energy. → Leads to [[Kesa Gatame]]
-- **Opponent pulls their far arm tight to their body to prevent arm isolation during rotation** (Effectiveness: Medium) - Your Response: Complete the rotation to Reverse Kesa-Gatame regardless and use chest pressure to pin their arm against their own body. From the established reverse position, work to pry the arm free using your weight advantage and leverage. Their arm defense becomes less effective once you have settled your weight in the new orientation. → Leads to [[Reverse Kesa-Gatame]]
-- **Opponent turns on their side and inserts a knee shield or recovers half guard during the rotational movement** (Effectiveness: High) - Your Response: If they recover half guard, accept the positional change and work to pass from half guard top rather than forcing the reverse kesa. This counter succeeds when the rotation creates too much space. Prevent it by maintaining maximum chest compression throughout the transition and completing the movement quickly. → Leads to [[Half Guard]]
+- **Opponent frames against your hip or shoulder during the rotation to create space and begin shrimping** (Effectiveness: High) - Your Response: Accelerate the rotation and drive your chest pressure down harder during the pivot. If they create significant space, abort the transition and return to standard Kesa Gatame rather than completing a compromised rotation. The frame is most effective when you pause mid-rotation, so committing fully to the movement reduces its effectiveness. → Leads to [[Positions/Side Control/Kesa Gatame]]
+- **Opponent bridges explosively as you release head control during the transitional phase** (Effectiveness: High) - Your Response: If the bridge occurs before you complete the rotation, drop your hips and re-establish standard Kesa Gatame. If it occurs after the midpoint, use the bridge momentum to accelerate your rotation and settle into Reverse Kesa-Gatame with increased pressure on their chest. Widen your base immediately to absorb the bridge energy. → Leads to [[Positions/Side Control/Kesa Gatame]]
+- **Opponent pulls their far arm tight to their body to prevent arm isolation during rotation** (Effectiveness: Medium) - Your Response: Complete the rotation to Reverse Kesa-Gatame regardless and use chest pressure to pin their arm against their own body. From the established reverse position, work to pry the arm free using your weight advantage and leverage. Their arm defense becomes less effective once you have settled your weight in the new orientation. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
+- **Opponent turns on their side and inserts a knee shield or recovers half guard during the rotational movement** (Effectiveness: High) - Your Response: If they recover half guard, accept the positional change and work to pass from half guard top rather than forcing the reverse kesa. This counter succeeds when the rotation creates too much space. Prevent it by maintaining maximum chest compression throughout the transition and completing the movement quickly. → Leads to [[Positions/Half Guard]]
 
 
 </section>

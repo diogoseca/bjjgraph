@@ -176,7 +176,7 @@ description: "How to execute Clock Choke in BJJ. Attacking perspective with setu
 
 The Clock Choke is a highly effective gi-based blood choke primarily executed from turtle position, though it can also be applied from back control variations. The technique derives its name from the circular walking motion the attacker makes around the opponent's head, resembling the movement of clock hands. This submission targets the carotid arteries using a combination of the opponent's own gi lapel and precise body positioning. The Clock Choke represents an excellent example of using the gi as a force multiplier, creating a mechanical advantage that doesn't require significant upper body strength. The technique is particularly valuable because it can be executed when traditional back takes are defended, offering an alternative finishing option from turtle and transition positions. Many practitioners overlook the Clock Choke in favor of taking the back, but experienced grapplers recognize it as a high-percentage finish that capitalizes on the opponent's defensive posture in turtle.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 
 </section>
@@ -231,8 +231,8 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Turtle]] | 27% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Turtle]] | 27% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -241,11 +241,11 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 ## Opponent Defenses
 
-- **Opponent tucks their chin tightly to block collar access** (Effectiveness: High) - Your Response: Use your free hand to grip under opponent's chin or use collar grips to peel their chin up before feeding your primary choking hand deeper. Alternatively, wait for movement when they attempt to advance from turtle - defensive postures naturally open briefly during transitions. → Leads to [[Turtle]]
-- **Opponent rolls forward (granby roll) toward your choking arm to relieve pressure** (Effectiveness: Medium) - Your Response: Follow the roll by continuing your circular motion, staying connected to opponent's body. Often the roll actually helps complete your walking motion. Maintain your collar grip and chest connection throughout. You may need to post with your free hand to avoid being reversed. → Leads to [[Turtle]]
-- **Opponent posts with their far arm and pushes into you to prevent rotation** (Effectiveness: Medium) - Your Response: Use your free hand to strip opponent's posting arm or control their far hip more aggressively. Alternatively, momentarily release hip pressure to allow opponent to turn slightly, then re-establish control once you have better angle. Sometimes stepping over opponent's arm can eliminate the post. → Leads to [[Turtle]]
+- **Opponent tucks their chin tightly to block collar access** (Effectiveness: High) - Your Response: Use your free hand to grip under opponent's chin or use collar grips to peel their chin up before feeding your primary choking hand deeper. Alternatively, wait for movement when they attempt to advance from turtle - defensive postures naturally open briefly during transitions. → Leads to [[Positions/Turtle]]
+- **Opponent rolls forward (granby roll) toward your choking arm to relieve pressure** (Effectiveness: Medium) - Your Response: Follow the roll by continuing your circular motion, staying connected to opponent's body. Often the roll actually helps complete your walking motion. Maintain your collar grip and chest connection throughout. You may need to post with your free hand to avoid being reversed. → Leads to [[Positions/Turtle]]
+- **Opponent posts with their far arm and pushes into you to prevent rotation** (Effectiveness: Medium) - Your Response: Use your free hand to strip opponent's posting arm or control their far hip more aggressively. Alternatively, momentarily release hip pressure to allow opponent to turn slightly, then re-establish control once you have better angle. Sometimes stepping over opponent's arm can eliminate the post. → Leads to [[Positions/Turtle]]
 - **Opponent drops to their side and attempts to turn into you** (Effectiveness: Low) - Your Response: This movement often makes the choke tighter. Maintain your collar grip and continue your circular motion. As they turn, your chest pressure and rotational force increase. Follow their movement and secure the submission as they complete the turn. → Leads to [[game-over]]
-- **Opponent grabs your choking arm with both hands to strip the grip** (Effectiveness: Medium) - Your Response: Once the choke is properly positioned, grip fighting becomes less effective for defense. Continue walking and applying rotational pressure - the mechanics of the position make grip stripping difficult. Focus on keeping your elbow tight and your collar grip deep. Your free hand can control opponent's grip fighting hands. → Leads to [[Turtle]]
+- **Opponent grabs your choking arm with both hands to strip the grip** (Effectiveness: Medium) - Your Response: Once the choke is properly positioned, grip fighting becomes less effective for defense. Continue walking and applying rotational pressure - the mechanics of the position make grip stripping difficult. Focus on keeping your elbow tight and your collar grip deep. Your free hand can control opponent's grip fighting hands. → Leads to [[Positions/Turtle]]
 
 
 </section>

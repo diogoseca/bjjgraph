@@ -21,7 +21,7 @@ The technique relies on creating space through precise hip movement rather than 
 
 Strategically, this escape represents your primary pathway out of a position that otherwise leads to submissions or advancement to mounted Gift Wrap. The ability to recover guard from Gift Wrap Bottom is essential for any practitioner because the position commonly results from failed back escapes. Success requires patience, proper timing, and the discipline to maintain neck defense throughout the escape sequence rather than abandoning it to fight the arm trap.
 
-**From Position**: [[Gift Wrap]] (Bottom)
+**From Position**: [[Positions/Gift Wrap]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape represents your primary pathway out of a position tha
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Gift Wrap]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Gift Wrap]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ Hip Escape to Guard is the primary escape pathway from Gift Wrap Bottom, one of 
 ## Related Techniques
 
 
-- [[Gift Wrap]] - Starting position - the dominant control you are escaping from
+- [[Positions/Gift Wrap]] - Starting position - the dominant control you are escaping from
 
-- [[Open Guard]] - Target position - where successful escape leads
+- [[Positions/Open Guard]] - Target position - where successful escape leads
 
-- [[Back Door Escape]] - Related escape - broader back defense methodology
+- [[Transitions/Back Door Escape]] - Related escape - broader back defense methodology
 
-- [[Elbow Escape to Guard]] - Alternative escape - similar hip movement principles from mount
+- [[Transitions/Elbow Escape to Guard]] - Alternative escape - similar hip movement principles from mount
 
-- [[Guard Recovery]] - Follow-up concept - establishing guard after escape
+- [[Principles/Guard Recovery]] - Follow-up concept - establishing guard after escape
 
-- [[Granby Roll to Guard]] - Alternative technique - rolling escape option from same position
+- [[Transitions/Granby Roll to Guard]] - Alternative technique - rolling escape option from same position
 
-- [[Half Guard]] - Alternative target - intermediate recovery position
+- [[Positions/Half Guard]] - Alternative target - intermediate recovery position
 
-- [[Back Control]] - Parent position - Gift Wrap evolves from back control
+- [[Positions/Back Control]] - Parent position - Gift Wrap evolves from back control
 
-- [[Frame Creation]] - Supporting concept - establishing defensive frames during escape
+- [[Principles/Frame Creation]] - Supporting concept - establishing defensive frames during escape
 
-- [[Mount]] - Counter outcome - where failed escape can lead
+- [[Positions/Mount]] - Counter outcome - where failed escape can lead
 
 
 </section>

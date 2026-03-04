@@ -180,7 +180,7 @@ description: "Execute the turn-in escape from twister side control bottom. Step-
 
 Executing the turn-in from twister side control bottom requires a systematic approach to dismantling one of the most dangerous control positions in modern grappling. As the bottom player, your primary objective is to rotate your hips toward the opponent, using frames to prevent them from re-establishing control during the rotation. This technique prioritizes controlled, incremental movement over explosive athleticism, demanding precise frame placement, deliberate hip rotation, and immediate knee shield insertion upon leg extraction. The turn-in represents the highest-percentage inward escape route from twister side control, as it directly neutralizes the spinal torque that makes the twister finish possible while positioning you to recover a functional guard. The key distinction from other escape options is that turning in faces you toward the opponent rather than exposing your back, making it the safer directional choice when the opponent's back-take game is threatening.
 
-**From Position**: [[Twister Side Control]] (Bottom)
+**From Position**: [[Positions/Twister Control/Twister Side Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the turn-in from twister side control bottom requires a systematic app
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Failure | [[Twister Side Control]] | 40% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Failure | [[Positions/Twister Control/Twister Side Control]] | 40% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the turn-in from twister side control bottom requires a systematic app
 
 ## Opponent Counters
 
-- **Opponent increases shoulder pressure and drives near shoulder to mat to prevent frame establishment** (Effectiveness: High) - Your Response: Use forearm wedge frames connected to your own hip rather than extended arms, creating compact barriers that resist heavy pressure through structural alignment rather than muscular strength → Leads to [[Twister Side Control]]
-- **Opponent steps over to mount as you create space during the rotation** (Effectiveness: High) - Your Response: Immediately insert knee shield the moment any leg comes free, prioritizing the knee barrier over completing the full turn. If mount is imminent, abandon the turn-in and address mount defense directly → Leads to [[Mount]]
-- **Opponent deepens leg entanglement by re-hooking during extraction attempt** (Effectiveness: Medium) - Your Response: Pause leg extraction and refocus on maintaining frames and facing position, then reattempt extraction with smaller incremental movements that give less space for re-hooking → Leads to [[Twister Side Control]]
-- **Opponent attacks framing arm with kimura or wristlock to discourage frame creation** (Effectiveness: Medium) - Your Response: Keep elbows bent and connected to your body so arms cannot be isolated. If opponent commits to the arm attack, use the weight shift to accelerate your hip rotation while they are occupied with the grip → Leads to [[Twister Side Control]]
+- **Opponent increases shoulder pressure and drives near shoulder to mat to prevent frame establishment** (Effectiveness: High) - Your Response: Use forearm wedge frames connected to your own hip rather than extended arms, creating compact barriers that resist heavy pressure through structural alignment rather than muscular strength → Leads to [[Positions/Twister Control/Twister Side Control]]
+- **Opponent steps over to mount as you create space during the rotation** (Effectiveness: High) - Your Response: Immediately insert knee shield the moment any leg comes free, prioritizing the knee barrier over completing the full turn. If mount is imminent, abandon the turn-in and address mount defense directly → Leads to [[Positions/Mount]]
+- **Opponent deepens leg entanglement by re-hooking during extraction attempt** (Effectiveness: Medium) - Your Response: Pause leg extraction and refocus on maintaining frames and facing position, then reattempt extraction with smaller incremental movements that give less space for re-hooking → Leads to [[Positions/Twister Control/Twister Side Control]]
+- **Opponent attacks framing arm with kimura or wristlock to discourage frame creation** (Effectiveness: Medium) - Your Response: Keep elbows bent and connected to your body so arms cannot be isolated. If opponent commits to the arm attack, use the weight shift to accelerate your hip rotation while they are occupied with the grip → Leads to [[Positions/Twister Control/Twister Side Control]]
 
 
 </section>

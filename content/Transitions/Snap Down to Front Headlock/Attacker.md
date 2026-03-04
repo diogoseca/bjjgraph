@@ -182,7 +182,7 @@ The Snap Down to Front Headlock from the attacker's perspective is a high-percen
 
 The attacker's strategic advantage lies in dictating the pace and direction of the engagement. By threatening the snap down, the attacker forces the defender into a reactive posture that opens additional takedown entries. This makes the snap down not just an isolated technique but a force multiplier within a complete standing game, creating offensive dilemmas where defending one threat exposes another.
 
-**From Position**: [[Clinch]] (Top)
+**From Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
@@ -236,9 +236,9 @@ The attacker's strategic advantage lies in dictating the pace and direction of t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 60% |
-| Failure | [[Clinch]] | 25% |
-| Counter | [[Clinch]] | 15% |
+| Success | [[Positions/Front Headlock]] | 60% |
+| Failure | [[Positions/Clinch]] | 25% |
+| Counter | [[Positions/Clinch]] | 15% |
 
 
 </section>
@@ -247,11 +247,11 @@ The attacker's strategic advantage lies in dictating the pace and direction of t
 
 ## Opponent Counters
 
-- **Opponent sprawls and drives forward as you attempt to snap, resisting the downward pull** (Effectiveness: High) - Your Response: Redirect to alternate technique: use their forward drive to transition to single leg attack, arm drag, or guard pull. If they overcommit forward, redirect their momentum past you for a go-behind. → Leads to [[Clinch]]
-- **Opponent posts hand to mat and creates defensive frame to prevent collapse** (Effectiveness: Medium) - Your Response: Attack posted arm immediately with kimura grip or arm crush. Alternatively, circle toward their posted side while maintaining head control to collapse the frame. Drive shoulder into their tricep to break posting structure. → Leads to [[Front Headlock]]
-- **Opponent counters with their own collar tie and establishes pummeling battle** (Effectiveness: Medium) - Your Response: Win inside position through superior hand fighting before reattempting snap. Use feints and level changes to create openings. Circle away from their strong side grip before executing snap to disrupt their counter-control. → Leads to [[Clinch]]
-- **Opponent anticipates snap and pulls head back while establishing distance** (Effectiveness: High) - Your Response: Follow their backward movement by stepping forward aggressively and closing distance, or transition to different attack such as double leg entry or guard pull. Do not overcommit to the snap if they have successfully created distance. → Leads to [[Clinch]]
-- **Opponent shoots for a takedown as you reach for head control, ducking under your snap attempt** (Effectiveness: Medium) - Your Response: Use their level change against them by sprawling and immediately securing front headlock as they shoot into your hips. Their takedown attempt actually delivers them into the position you wanted. → Leads to [[Clinch]]
+- **Opponent sprawls and drives forward as you attempt to snap, resisting the downward pull** (Effectiveness: High) - Your Response: Redirect to alternate technique: use their forward drive to transition to single leg attack, arm drag, or guard pull. If they overcommit forward, redirect their momentum past you for a go-behind. → Leads to [[Positions/Clinch]]
+- **Opponent posts hand to mat and creates defensive frame to prevent collapse** (Effectiveness: Medium) - Your Response: Attack posted arm immediately with kimura grip or arm crush. Alternatively, circle toward their posted side while maintaining head control to collapse the frame. Drive shoulder into their tricep to break posting structure. → Leads to [[Positions/Front Headlock]]
+- **Opponent counters with their own collar tie and establishes pummeling battle** (Effectiveness: Medium) - Your Response: Win inside position through superior hand fighting before reattempting snap. Use feints and level changes to create openings. Circle away from their strong side grip before executing snap to disrupt their counter-control. → Leads to [[Positions/Clinch]]
+- **Opponent anticipates snap and pulls head back while establishing distance** (Effectiveness: High) - Your Response: Follow their backward movement by stepping forward aggressively and closing distance, or transition to different attack such as double leg entry or guard pull. Do not overcommit to the snap if they have successfully created distance. → Leads to [[Positions/Clinch]]
+- **Opponent shoots for a takedown as you reach for head control, ducking under your snap attempt** (Effectiveness: Medium) - Your Response: Use their level change against them by sprawling and immediately securing front headlock as they shoot into your hips. Their takedown attempt actually delivers them into the position you wanted. → Leads to [[Positions/Clinch]]
 
 
 </section>

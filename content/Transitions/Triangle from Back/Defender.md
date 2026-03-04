@@ -158,7 +158,7 @@ The defensive priority hierarchy is clear: first, prevent the leg from clearing 
 
 Successful defense against this technique demands a balance between defending the rear naked choke and denying the triangle entry. Experienced defenders learn to keep one hand fighting the choke while the other monitors the attacker's hip and leg movement, ready to block any leg threading attempt. This split-attention defensive posture is more demanding but eliminates the binary choice between choke defense and triangle vulnerability that the attacker is trying to exploit.
 
-**Opponent's Starting Position**: [[Harness]] (Top)
+**Opponent's Starting Position**: [[Positions/Harness]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful defense against this technique demands a balance between defending th
 ### 1. Shoulder shrug and chin tuck defense - raise the shoulder on the threading side while tucking your chin tight, closing the gap the leg needs to clear
 
 - **When to use**: At the earliest recognition that the attacker is withdrawing a hook and beginning the leg threading motion, before the leg reaches the shoulder
-- **Targets**: [[Harness]]
+- **Targets**: [[Positions/Harness]]
 - **If successful**: The attacker's leg cannot clear the shoulder and they must either abandon the triangle attempt and re-establish their hook, returning to standard harness control
 - **Risk**: If you over-commit the shoulder shrug, you may temporarily reduce your choke defense on that side, giving the attacker a brief window to advance the rear naked choke
 
 ### 2. Turn into the opening - when you feel the hook withdraw, immediately hip escape and turn your body toward the side where the hook was removed to face the attacker
 
 - **When to use**: During the transition window when one hook is removed and the attacker has reduced lower body control, before the leg begins its arc over the shoulder
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You escape the back position entirely and recover to half guard or closed guard by turning to face your opponent before they can re-establish back control
 - **Risk**: If the turn is too slow or the remaining hook prevents full rotation, you end up in a worse position with the attacker able to transition to a mounted triangle or front-facing control
 
 ### 3. Ankle strip and leg push - grab the attacker's threading leg at the ankle or shin as it comes over the shoulder and push it back over before the figure-four locks
 
 - **When to use**: When the leg has already cleared the shoulder but the figure-four has not yet been locked, during the 2-3 second window before the triangle consolidates
-- **Targets**: [[Harness]]
+- **Targets**: [[Positions/Harness]]
 - **If successful**: The triangle is prevented from locking and the attacker must retract the leg, returning to harness position with potentially compromised hook placement
 - **Risk**: By releasing your grip on the choking arm to fight the leg, you expose your neck to the rear naked choke if the attacker quickly re-attacks rather than pursuing the triangle
 
 ### 4. Two-on-one arm extraction - if the triangle locks with your arm trapped, immediately grip your own wrist and work to pull the trapped arm across your centerline and out of the triangle
 
 - **When to use**: After the figure-four is locked and one arm is trapped inside the triangle, as the first priority escape action before the choke tightens fully
-- **Targets**: [[Harness]]
+- **Targets**: [[Positions/Harness]]
 - **If successful**: Extracting the arm removes the mechanical wedge that makes the triangle effective as a choke, dramatically reducing finishing pressure and opening escape pathways
 - **Risk**: The extraction attempt may fail if the attacker squeezes knees together to prevent arm removal, and the effort expended during failed extraction accelerates fatigue under choking pressure
 
@@ -228,11 +228,11 @@ Successful defense against this technique demands a balance between defending th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Harness]]
+### → [[Positions/Harness]]
 
 Block the triangle entry by keeping shoulders tight and denying the gap, or strip the leg before the figure-four locks. Maintain two-on-one control on the choking arm while using your far-side elbow to block leg threading attempts. The attacker returns to standard harness position where you resume normal back escape sequences.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the transition window when the attacker removes a hook to thread the leg. Immediately hip escape and turn toward the opening to face the attacker. Use the reduced lower body control to create enough rotation to recover half guard before the attacker can re-establish hooks or complete the triangle. This requires committed timing and willingness to accept the momentary risk of turning.
 

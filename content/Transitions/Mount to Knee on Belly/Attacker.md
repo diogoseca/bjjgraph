@@ -180,7 +180,7 @@ description: "Learn to execute the Mount to Knee on Belly transition. Master wei
 
 Executing the Mount to Knee on Belly transition requires balancing the desire for positional advancement with the need to maintain continuous control during the weight shift. The attacker must read the bottom player's defensive commitments, identify the optimal moment to transition, and execute a smooth weight transfer that arrives at concentrated KOB pressure before any defensive recovery can begin. The transition is most effective when used as part of a positional cycling system rather than as an isolated positional change, flowing naturally from mount attacks into KOB threats and back. Mastering this movement adds a critical dimension to the top mount game by preventing opponents from settling into static defensive patterns.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Mount to Knee on Belly transition requires balancing the desire fo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Knee on Belly]] | 60% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Knee on Belly]] | 60% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Mount to Knee on Belly transition requires balancing the desire fo
 
 ## Opponent Counters
 
-- **Bottom player frames on transitioning knee and shrimps away during weight shift** (Effectiveness: Medium) - Your Response: Abort the transition and re-settle mount with heavy hips. Use their framing arm as an attack target for Americana or advance to high mount where their hip frame becomes ineffective. → Leads to [[Mount]]
-- **Bottom player bridges explosively during the lift phase and catches the transitioning leg between their legs** (Effectiveness: High) - Your Response: Accelerate the transition by posting firmly and driving through to KOB before the leg catch is secured. If caught, use your free leg to pummel and extract back to mount or knee slice through to side control. → Leads to [[Half Guard]]
-- **Bottom player turns into the transition and establishes underhook before knee can land** (Effectiveness: Low) - Your Response: Use the collar grip to redirect their head toward the transitioning side and complete the KOB entry above their underhook. The elevated position makes their underhook largely ineffective for sweeping. → Leads to [[Mount]]
-- **Bottom player executes hip escape during the posting phase to create space and begins inserting knee shield** (Effectiveness: Medium) - Your Response: Follow their hips with your knee placement, redirecting the knee to their new centerline position. Alternatively, settle to side control immediately and re-approach KOB from the consolidated position rather than chasing a compromised entry. → Leads to [[Half Guard]]
+- **Bottom player frames on transitioning knee and shrimps away during weight shift** (Effectiveness: Medium) - Your Response: Abort the transition and re-settle mount with heavy hips. Use their framing arm as an attack target for Americana or advance to high mount where their hip frame becomes ineffective. → Leads to [[Positions/Mount]]
+- **Bottom player bridges explosively during the lift phase and catches the transitioning leg between their legs** (Effectiveness: High) - Your Response: Accelerate the transition by posting firmly and driving through to KOB before the leg catch is secured. If caught, use your free leg to pummel and extract back to mount or knee slice through to side control. → Leads to [[Positions/Half Guard]]
+- **Bottom player turns into the transition and establishes underhook before knee can land** (Effectiveness: Low) - Your Response: Use the collar grip to redirect their head toward the transitioning side and complete the KOB entry above their underhook. The elevated position makes their underhook largely ineffective for sweeping. → Leads to [[Positions/Mount]]
+- **Bottom player executes hip escape during the posting phase to create space and begins inserting knee shield** (Effectiveness: Medium) - Your Response: Follow their hips with your knee placement, redirecting the knee to their new centerline position. Alternatively, settle to side control immediately and re-approach KOB from the consolidated position rather than chasing a compromised entry. → Leads to [[Positions/Half Guard]]
 
 
 </section>

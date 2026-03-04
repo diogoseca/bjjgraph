@@ -184,7 +184,7 @@ What makes the knee cut particularly powerful is its versatility across all leve
 
 The knee cut pass represents a perfect marriage of pressure passing and movement-based passing. Unlike purely smash passes that rely on static pressure, or purely speed passes that rely on rapid movement, the knee cut combines both elements. The passer must maintain constant forward pressure while simultaneously cutting their knee through the opponent's leg line, creating a dynamic pass that adapts to defensive reactions. This dual nature makes it both highly effective and highly technical, requiring practitioners to develop sensitivity to weight distribution and timing.
 
-**From Position**: [[Open Guard]] (Top)
+**From Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 
@@ -238,10 +238,10 @@ The knee cut pass represents a perfect marriage of pressure passing and movement
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Half Guard]] | 15% |
-| Failure | [[Open Guard]] | 10% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Open Guard]] | 10% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -250,11 +250,11 @@ The knee cut pass represents a perfect marriage of pressure passing and movement
 
 ## Opponent Counters
 
-- **Opponent frames on your hip and bicep to create space and recover guard** (Effectiveness: High) - Your Response: Switch to underhook control before they can frame, or transition to long step position to clear their frames. Maintain constant forward pressure so frames cannot extend fully. If their frame locks out, circle your hips to a different angle rather than driving straight into the frame. → Leads to [[Open Guard]]
-- **Opponent establishes knee shield and blocks the knee cut path** (Effectiveness: High) - Your Response: Use your collar grip to break down their posture and flatten the knee shield, or transition to knee shield pass variations. Alternatively, switch to other passing angles like over-under or leg drag rather than forcing the knee cut through their shield. → Leads to [[Open Guard]]
-- **Opponent rolls to their knees and turtles as you cut through** (Effectiveness: Medium) - Your Response: Follow their movement and transition to turtle attacks. Maintain your grips and take back control or establish front headlock position. Do not abandon your forward pressure - the turtle is a worse position for them than open guard. → Leads to [[Side Control]]
-- **Opponent locks half guard by catching your far leg as you pass** (Effectiveness: High) - Your Response: This is the most common counter - your far leg clearance was incomplete. Immediately address the half guard by freeing your trapped leg using knee slice from half guard or transitioning to half guard passing sequences. Do not try to rip the leg free explosively. → Leads to [[Half Guard]]
-- **Opponent sits up and attempts to take your back during the cut** (Effectiveness: Medium) - Your Response: Maintain heavy chest pressure to prevent them from coming up. If they begin to sit, immediately sprawl your legs back and windshield wiper your hips to face them, or transition to front headlock control. The collar grip should prevent their sit-up if maintained. → Leads to [[Open Guard]]
+- **Opponent frames on your hip and bicep to create space and recover guard** (Effectiveness: High) - Your Response: Switch to underhook control before they can frame, or transition to long step position to clear their frames. Maintain constant forward pressure so frames cannot extend fully. If their frame locks out, circle your hips to a different angle rather than driving straight into the frame. → Leads to [[Positions/Open Guard]]
+- **Opponent establishes knee shield and blocks the knee cut path** (Effectiveness: High) - Your Response: Use your collar grip to break down their posture and flatten the knee shield, or transition to knee shield pass variations. Alternatively, switch to other passing angles like over-under or leg drag rather than forcing the knee cut through their shield. → Leads to [[Positions/Open Guard]]
+- **Opponent rolls to their knees and turtles as you cut through** (Effectiveness: Medium) - Your Response: Follow their movement and transition to turtle attacks. Maintain your grips and take back control or establish front headlock position. Do not abandon your forward pressure - the turtle is a worse position for them than open guard. → Leads to [[Positions/Side Control]]
+- **Opponent locks half guard by catching your far leg as you pass** (Effectiveness: High) - Your Response: This is the most common counter - your far leg clearance was incomplete. Immediately address the half guard by freeing your trapped leg using knee slice from half guard or transitioning to half guard passing sequences. Do not try to rip the leg free explosively. → Leads to [[Positions/Half Guard]]
+- **Opponent sits up and attempts to take your back during the cut** (Effectiveness: Medium) - Your Response: Maintain heavy chest pressure to prevent them from coming up. If they begin to sit, immediately sprawl your legs back and windshield wiper your hips to face them, or transition to front headlock control. The collar grip should prevent their sit-up if maintained. → Leads to [[Positions/Open Guard]]
 
 
 </section>

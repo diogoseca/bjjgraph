@@ -21,7 +21,7 @@ The strategic value of this transition lies in the expanded attack options that 
 
 The mechanical key to success is maintaining continuous control of the opponent's trapped leg throughout the reconfiguration. The moment both legs release the X formation simultaneously, the opponent has a window to extract their leg and begin passing. Skilled practitioners stagger the transition, releasing one leg control point while maintaining the other, ensuring there is never a gap in leg retention that the opponent can exploit. The ankle wrap must be established before the knee hook is fully abandoned, creating overlapping control that preserves positional integrity throughout the shift.
 
-**From Position**: [[X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The mechanical key to success is maintaining continuous control of the opponent'
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 55% |
-| Failure | [[X-Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 55% |
+| Failure | [[Positions/X-Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The X-Guard to Single Leg X transition functions as a critical bridge within the
 ## Related Techniques
 
 
-- [[X-Guard]] - Source position from which the transition originates
+- [[Positions/X-Guard]] - Source position from which the transition originates
 
-- [[Single Leg X-Guard]] - Target position reached upon successful transition
+- [[Positions/X-Guard/Single Leg X-Guard]] - Target position reached upon successful transition
 
-- [[Open Guard]] - Fallback position if opponent counters and guard structure collapses
+- [[Positions/Open Guard]] - Fallback position if opponent counters and guard structure collapses
 
-- [[Ashi Garami]] - Primary leg entanglement accessible from SLX after transition
+- [[Positions/Ashi Garami]] - Primary leg entanglement accessible from SLX after transition
 
-- [[Butterfly Guard]] - Common entry guard used to establish X-Guard before this transition
+- [[Positions/Butterfly Guard]] - Common entry guard used to establish X-Guard before this transition
 
-- [[Single Leg X Entry]] - Related transition technique for entering SLX from other positions
+- [[Transitions/Single Leg X Entry]] - Related transition technique for entering SLX from other positions
 
-- [[SLX to Ashi Garami]] - Chain attack transition available after successful SLX establishment
+- [[Transitions/SLX to Ashi Garami]] - Chain attack transition available after successful SLX establishment
 
-- [[SLX to X-Guard]] - Reverse transition for flowing back to X-Guard if needed
+- [[Transitions/SLX to X-Guard]] - Reverse transition for flowing back to X-Guard if needed
 
-- [[Backstep from Single Leg X]] - Primary counter-attack the opponent uses from SLX top
+- [[Transitions/Backstep from Single Leg X]] - Primary counter-attack the opponent uses from SLX top
 
-- [[Standing Escape from SLX]] - Common defensive response by top player after SLX is established
+- [[Transitions/Standing Escape from SLX]] - Common defensive response by top player after SLX is established
 
-- [[Deep Half Guard]] - Alternative guard recovery option if transition is interrupted by forward pressure
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative guard recovery option if transition is interrupted by forward pressure
 
 
 </section>

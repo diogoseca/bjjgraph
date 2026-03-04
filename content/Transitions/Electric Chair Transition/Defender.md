@@ -166,7 +166,7 @@ The primary defensive strategy centers on denying the underhook and maintaining 
 
 Understanding the attacker's sequencing is your greatest defensive asset. The transition requires lockdown tension, deep underhook, and ankle control working simultaneously. Disrupting any single element degrades the entire attack chain. Target the weakest link in their sequence - typically the ankle grip, which requires them to release upper body control - and exploit that moment of vulnerability to advance your own position or extract your leg.
 
-**Opponent's Starting Position**: [[Lockdown]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 
 </section>
 
@@ -204,28 +204,28 @@ Understanding the attacker's sequencing is your greatest defensive asset. The tr
 ### 1. Drive heavy crossface and shoulder pressure forward while sprawling hips away to flatten the bottom player and deny elevation angle
 
 - **When to use**: Early defense - as soon as you recognize the underhook is being established and before the ankle grip is secured
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Bottom player is flattened with their offensive angle eliminated, returning to standard lockdown retention battle where you can work systematic leg extraction
 - **Risk**: If you overcommit forward without controlling the underhook, the bottom player can use your momentum for the whip-up sweep variation
 
 ### 2. Strip the ankle grip by pulling your near foot away while simultaneously driving your knee toward the mat on the lockdown side to deny elevation
 
 - **When to use**: Mid-transition defense - when you feel the bottom player's hand reaching for or gripping your ankle but before full elevation is achieved
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: The splitting action is eliminated without the ankle control, reducing the Electric Chair to a standard lockdown underhook battle where you retain defensive options
 - **Risk**: Focusing on the ankle grip may allow the underhook to deepen further, making subsequent defense more difficult if the ankle grip is re-established
 
 ### 3. Windshield wiper your trapped leg by rotating your knee outward and driving your hips in the opposite direction to break the lockdown configuration entirely
 
 - **When to use**: When the transition is progressing and you need to escape the lockdown mechanism itself rather than defending individual control points
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The lockdown is broken and you recover to standard half guard top where you can immediately pursue passing sequences without the lockdown threat
 - **Risk**: The rotation exposes the crab ride position and Truck entry - if the bottom player follows your rotation rather than fighting to maintain lockdown, you may end up in a worse position
 
 ### 4. Post your far hand wide on the mat and base outward while driving your weight forward to create a stable platform that resists the elevation
 
 - **When to use**: When you feel the elevation beginning and need immediate structural stability to prevent being swept or stretched
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Your wide base prevents the sweep component of the Electric Chair and buys time to work on lockdown extraction or grip stripping
 - **Risk**: Posting the far hand commits your weight distribution and opens the Old School sweep if the bottom player recognizes the posting and redirects to the backward roll
 
@@ -237,11 +237,11 @@ Understanding the attacker's sequencing is your greatest defensive asset. The tr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lockdown]]
+### → [[Positions/Half Guard/Lockdown]]
 
 Flatten the bottom player with heavy crossface and shoulder pressure before they establish the ankle grip. Drive forward weight through your chest while working to separate their lockdown feet. Once flattened, systematically work the lockdown break sequence to extract your trapped leg.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Break the lockdown configuration entirely through windshield wiper motion or systematic foot separation. Once the figure-four is broken, immediately drive your knee through toward the mat and establish standard half guard top positioning with crossface control. Transition directly to passing sequences before the bottom player can re-engage the lockdown.
 

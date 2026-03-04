@@ -156,7 +156,7 @@ Defending the rolling guard pull requires early recognition and decisive reactio
 
 The rolling guard pull is most dangerous when it catches you off-guard. Once you learn to recognize the telltale setup indicators, your defensive success rate increases dramatically because the technique relies heavily on the element of surprise and your forward pressure. By managing your distance, keeping your grips strategic, and maintaining a slightly retreating base angle, you force the attacker into lower-percentage entries or outright failed attempts that leave them grounded without guard established.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The rolling guard pull is most dangerous when it catches you off-guard. Once you
 ### 1. Strip grips and disengage backward before the roll initiates
 
 - **When to use**: When you recognize the setup cues early: opponent establishes deep grip, begins increasing pull tension, and starts shifting weight backward
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent falls to their back without guard established, giving you immediate passing or standing advantage
 - **Risk**: If you strip grips too late and they have already committed, you may lose your own balance from the pulling momentum
 
 ### 2. Circle laterally and maintain distance as the roll begins
 
 - **When to use**: When the opponent has already committed to the hip drop and stripping grips is no longer viable, but the roll has not completed
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You avoid being pulled into guard and end up standing over an opponent who is on their back without established guard hooks
 - **Risk**: Circling too slowly allows them to adjust their rolling angle and catch you with hooks as the roll completes
 
 ### 3. Drive forward and pressure down during the roll to deny rotation completion
 
 - **When to use**: When the roll has initiated but you have strong grips on their collar or head that allow you to apply top pressure during their rotation
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You collapse their roll before completion, ending up in a scramble position where your top pressure gives you an advantage to establish a passing position
 - **Risk**: If they have strong grips, your forward drive may actually assist their rotation and feed directly into their guard establishment
 
 ### 4. Post on their hip and establish immediate passing grips as they complete the roll
 
 - **When to use**: When the roll has already completed and you could not prevent it, but they have not yet closed their guard or established hooks
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You deny guard closure and immediately begin a passing sequence from standing while they are still orienting from the roll
 - **Risk**: Delayed response allows them to lock closed guard or establish De La Riva hooks, placing you in their preferred guard game
 
@@ -227,11 +227,11 @@ The rolling guard pull is most dangerous when it catches you off-guard. Once you
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Strip grips early when you recognize the setup, step backward to break the connection, and force the opponent to fall to their back without guard established. Immediately pressure forward into a passing position or re-engage from standing with grip advantage.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 If the opponent's roll carries them too far or they lose grip, they end up on their back while you remain standing in a dominant passing position. Apply immediate pressure with knee slides or toreando passes before they can recover guard structure.
 

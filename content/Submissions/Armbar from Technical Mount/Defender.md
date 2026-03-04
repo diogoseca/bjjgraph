@@ -158,7 +158,7 @@ Defending the Armbar from Technical Mount is one of the most challenging defensi
 
 The critical defensive principle is that a bent arm cannot be armbarred. As long as the defender maintains their elbow at 90 degrees or greater with the hand gripping their own collar, clasping the opposite hand, or grabbing their own shoulder, the attacker cannot complete the hyperextension. Every defensive action — framing, escaping, grip fighting — must be performed while maintaining this bent-arm protection. Understanding the timing distinction between a defensible position and a finished submission is the foundation of armbar survival from Technical Mount.
 
-**Opponent's Starting Position**: [[Technical Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/Technical Mount]] (Top)
 
 
 </section>
@@ -198,28 +198,28 @@ The critical defensive principle is that a bent arm cannot be armbarred. As long
 ### 1. Clasp hands in gable grip or grip own collar to prevent arm extension
 
 - **When to use**: Immediately upon feeling arm isolation — this is your primary defense that must be established before the attacker secures full wrist control
-- **Targets**: [[Technical Mount]]
+- **Targets**: [[Positions/Mount/Technical Mount]]
 - **If successful**: Attacker cannot complete the hyperextension and must work to break your grip, buying time for secondary escapes
 - **Risk**: If attacker breaks the grip with figure-four technique or stacking, the arm extends directly into submission position
 
 ### 2. Bridge explosively and follow the attacker's swing-over momentum to stack them
 
 - **When to use**: The moment the attacker lifts their leg to swing over your head — their base is weakest during this transition phase
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Bridge displaces the attacker's base, preventing armbar completion and creating the opportunity to follow them into closed guard
 - **Risk**: Mistimed bridge wastes energy and may further extend the trapped arm during the explosive movement
 
 ### 3. Control attacker's swinging leg with free hand to block the step-over completion
 
 - **When to use**: As soon as you see or feel the attacker beginning to lift their inside leg for the swing-over transition
-- **Targets**: [[Technical Mount]]
+- **Targets**: [[Positions/Mount/Technical Mount]]
 - **If successful**: Prevents the attacker from completing the leg-over-head position, stalling the armbar and potentially forcing them to re-establish Technical Mount
 - **Risk**: Using the free hand for leg control means it cannot maintain grip defense on the trapped arm
 
 ### 4. Turn toward the trapped arm and attempt to sit up into the attacker during their sit-back
 
 - **When to use**: When the attacker has completed the swing-over but is in the process of sitting back — turning in prevents full arm extension
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Relieves extension pressure on the elbow and may allow you to stack the attacker, recover posture, and establish guard
 - **Risk**: If the attacker maintains wrist control and adjusts angle, turning in may not generate enough space to escape
 
@@ -243,7 +243,7 @@ The critical defensive principle is that a bent arm cannot be armbarred. As long
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time an explosive bridge during the attacker's swing-over phase or sit-back, following their momentum to stack them and recover to closed guard position before the armbar is secured
 

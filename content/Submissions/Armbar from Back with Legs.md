@@ -22,8 +22,8 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint
-**Starting Position**: [[Back Control]]
-**From Position**: [[Back Control]] (Top)
+**Starting Position**: [[Positions/Back Control]]
+**From Position**: [[Positions/Back Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -78,8 +78,8 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -232,14 +232,14 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 ## From Which Positions?
 
-- [[Back Control]]
-- [[Body Triangle]]
-- [[Seat Belt Control Back]]
-- [[Gift Wrap]]
-- [[Harness]]
-- [[Crucifix]]
-- [[Mounted Crucifix]]
-- [[Turtle]]
+- [[Positions/Back Control]]
+- [[Positions/Back Control/Body Triangle]]
+- [[Positions/Back Control/Seat Belt Control Back]]
+- [[Positions/Gift Wrap]]
+- [[Positions/Harness]]
+- [[Positions/Crucifix]]
+- [[Positions/Mount/Mounted Crucifix]]
+- [[Positions/Turtle]]
 
 
 </section>
@@ -248,17 +248,17 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 ## Related Submissions
 
-- [[Armbar from Back]]
-- [[Rear Naked Choke]]
-- [[Armbar from Crucifix]]
-- [[Choke from Crucifix]]
-- [[Armbar from Guard]]
-- [[Belly Down Armbar]]
-- [[Armbar from Mount]]
-- [[Bow and Arrow Choke]]
-- [[Kimura]]
-- [[Omoplata]]
-- [[Triangle Choke]]
+- [[Submissions/Armbar from Back]]
+- [[Transitions/Rear Naked Choke]]
+- [[Transitions/Armbar from Crucifix]]
+- [[Transitions/Choke from Crucifix]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Belly Down Armbar]]
+- [[Submissions/Armbar from Mount]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Transitions/Kimura]]
+- [[Transitions/Omoplata]]
+- [[Transitions/Triangle Choke]]
 
 
 </section>
@@ -267,16 +267,16 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 ## Additional Related Content
 
-- [[Back Control]] - Primary starting position providing the dominant control needed for this submission
-- [[Body Triangle]] - Enhanced back control variation offering even tighter control during the armbar transition
-- [[Crucifix]] - Alternative transition target if armbar is defended by reaching back
-- [[Armbar Control]] - Control position established before applying finishing pressure
-- [[Rear Naked Choke]] - Primary submission that creates armbar opportunities when defended
-- [[Armbar from Back]] - Related armbar variation with different leg configuration from same starting position
-- [[Belly Down Armbar]] - Transition option when opponent rolls or stacks during standard finish
-- [[Bow and Arrow Choke]] - Alternative back control submission when arm isolation proves difficult
-- [[Kimura]] - Alternative arm attack from back control when armbar angle is not available
-- [[Seat Belt Control Back]] - Optimal grip configuration for initiating the armbar transition from back control
+- [[Positions/Back Control]] - Primary starting position providing the dominant control needed for this submission
+- [[Positions/Back Control/Body Triangle]] - Enhanced back control variation offering even tighter control during the armbar transition
+- [[Positions/Crucifix]] - Alternative transition target if armbar is defended by reaching back
+- [[Positions/Armbar Control]] - Control position established before applying finishing pressure
+- [[Transitions/Rear Naked Choke]] - Primary submission that creates armbar opportunities when defended
+- [[Submissions/Armbar from Back]] - Related armbar variation with different leg configuration from same starting position
+- [[Submissions/Belly Down Armbar]] - Transition option when opponent rolls or stacks during standard finish
+- [[Transitions/Bow and Arrow Choke]] - Alternative back control submission when arm isolation proves difficult
+- [[Transitions/Kimura]] - Alternative arm attack from back control when armbar angle is not available
+- [[Positions/Back Control/Seat Belt Control Back]] - Optimal grip configuration for initiating the armbar transition from back control
 
 
 </section>

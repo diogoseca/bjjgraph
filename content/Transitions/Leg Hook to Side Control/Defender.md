@@ -154,7 +154,7 @@ description: "Learn to defend the Leg Hook to Side Control pass from bottom. Mas
 
 As the bottom player, the top player's attempt to complete the pass from Leg Hook to Side Control represents both your greatest threat and a critical defensive opportunity. The extraction phase requires the top player to momentarily reduce lower body control while clearing their leg, creating a brief but exploitable window of vulnerability in their control structure. Your defensive priority is threefold: first, prevent the pass by maintaining leg entanglement and active frames; second, if the pass progresses, establish defensive structures that limit the top player's side control quality; and third, capitalize on the extraction phase instability to sweep or recover guard. Recognizing the pass attempt early through tactile and visual cues allows you to execute your defensive response before the top player can build irrecoverable momentum. Every successful defense exploits the fundamental tension in the passer's mechanics: they cannot simultaneously maintain maximum upper body pressure and freely extract their hooked leg.
 
-**Opponent's Starting Position**: [[Leg Hook]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Hook]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the bottom player, the top player's attempt to complete the pass from Leg Hoo
 ### 1. Tighten leg clamp and actively resist extraction while fighting for underhook
 
 - **When to use**: At the first recognition cue that extraction is beginning—squeeze your legs tight around the hooked leg while simultaneously reaching for the underhook on the trapped leg side
-- **Targets**: [[Leg Hook]]
+- **Targets**: [[Positions/Leg Hook]]
 - **If successful**: The extraction stalls, the top player remains in Leg Hook Top, and your newly established underhook provides offensive sweep options from the retained position
 - **Risk**: If the top player has already built too much extraction momentum, the clamp burns energy without preventing the pass, leaving you fatigued in side control
 
 ### 2. Explosive hip escape when far hip control slips during extraction
 
 - **When to use**: The moment you feel the top player's far hip grip weaken or release, even briefly, during the leg repositioning phase—this is your highest-percentage escape window
-- **Targets**: [[Leg Hook]]
+- **Targets**: [[Positions/Leg Hook]]
 - **If successful**: Create enough distance to recover knee shield half guard, insert butterfly hooks, or recover full closed guard, completely resetting the passing sequence
 - **Risk**: If the hip escape is slow or the grip didn't actually release, the top player follows your movement and completes the pass with you displaced and off-angle
 
 ### 3. Insert knee shield as the leg clears to block side control establishment
 
 - **When to use**: When the hooked leg has begun clearing your entanglement and full retention is no longer possible—redirect energy from leg clamp to establishing knee shield before the top player can settle side control
-- **Targets**: [[Leg Hook]]
+- **Targets**: [[Positions/Leg Hook]]
 - **If successful**: Establish Knee Shield Half Guard which provides strong distance management, frame structure, and prevents the flat side control the top player was seeking
 - **Risk**: If knee shield insertion is late, the top player may smash it flat with their passing momentum and use the extended leg as leverage for completing the pass
 
 ### 4. Dive for deep half guard entry during the weight transfer
 
 - **When to use**: When the top player's weight shifts heavily to upper body during extraction, creating lightness in their lower body that allows you to duck underneath their center of gravity
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Establish Deep Half Guard with superior sweeping mechanics underneath the top player's base, converting their pass attempt into your offensive position
 - **Risk**: If the entry is too slow or the top player reads it, they sprawl and drive you completely flat, accelerating the pass to an even more dominant side control position
 
@@ -225,11 +225,11 @@ As the bottom player, the top player's attempt to complete the pass from Leg Hoo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Hook]]
+### → [[Positions/Leg Hook]]
 
 Retain the leg entanglement through active leg clamp and combined underhook fighting during the extraction phase. Force the top player to abandon the pass attempt and return to the Leg Hook position where your offensive options are preserved. The key is acting early when the first recognition cues appear, before the extraction builds momentum.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Capitalize on the extraction phase instability to execute a sweep reversal. Time your bridge or hip escape to coincide with the moment the top player's hooked leg is mid-extraction and their base is narrowest. The brief window where they have neither full leg hook control nor full side control is your highest-percentage sweep opportunity in the entire passing sequence.
 

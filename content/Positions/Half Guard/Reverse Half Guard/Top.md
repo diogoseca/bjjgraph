@@ -206,23 +206,23 @@ The reverse half guard top position represents a critical moment in passing sequ
 
 ## Available Attacks
 
-### [[Leg Drag Pass]] (24% of attempts)
+### [[Transitions/Leg Drag Pass]] (24% of attempts)
 
-### [[Knee Slice from Half]] (12% of attempts)
+### [[Transitions/Knee Slice from Half]] (12% of attempts)
 
-### [[Crossface Pass]] (11% of attempts)
+### [[Transitions/Crossface Pass]] (11% of attempts)
 
-### [[Smash Pass]] (12% of attempts)
+### [[Transitions/Smash Pass]] (12% of attempts)
 
-### [[Crab Ride to Back]] (12% of attempts)
+### [[Transitions/Crab Ride to Back]] (12% of attempts)
 
-### [[Back Step Pass]] (11% of attempts)
+### [[Transitions/Back Step Pass]] (11% of attempts)
 
-### [[Back Take from Top]] (10% of attempts)
+### [[Transitions/Back Take from Top]] (10% of attempts)
 
-### [[Backstep from Reverse Half]] (5% of attempts)
+### [[Transitions/Backstep from Reverse Half]] (5% of attempts)
 
-### [[Pass Reverse Half]] (3% of attempts)
+### [[Transitions/Pass Reverse Half]] (3% of attempts)
 
 
 
@@ -233,23 +233,23 @@ The reverse half guard top position represents a critical moment in passing sequ
 ## Decision Making from This Position
 
 **If opponent attempts to turn and face you by rotating their chest toward you:**
-- Execute **[[Aoki Lock to Back Control]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Crab Ride to Back]]** → [[Crab Ride]] (Probability: 60%)
+- Execute **[[Transitions/Aoki Lock to Back Control]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 60%)
 
 
 **If opponent flattens defensively to their stomach to prevent the back take:**
-- Execute **[[Leg Drag Pass]]** → [[Side Control]] (Probability: 75%)
-- Execute **[[Knee Slice from Half]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 75%)
+- Execute **[[Transitions/Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent attempts to recover full guard by shrimping away:**
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent reaches for underhook to recover half guard structure:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 55%)
-- Execute **[[Crossface Pass]]** → [[North-South]] (Probability: 60%)
+- Execute **[[Transitions/Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 55%)
+- Execute **[[Transitions/Crossface Pass]]** → [[Positions/North-South]] (Probability: 60%)
 
 
 
@@ -371,13 +371,13 @@ Start with cooperative partner in reverse half guard. Progress through: no resis
 
 ## Related Positions and Techniques
 
-- **[[Half Guard]]** - Parent position from which reverse half guard is entered
-- **[[Back Control]]** - Primary advancement target when opponent turns to face you
-- **[[Side Control]]** - Primary passing completion target when opponent flattens defensively
-- **[[Leg Drag Control]]** - Common passing variation from reverse half guard
-- **[[Crab Ride]]** - Transitional position when pursuing back control
-- **[[Truck]]** - Alternative back attack entry from reverse half guard
-- **[[Knee Shield Half Guard]]** - Position opponent attempts to recover from reverse half
+- **[[Positions/Half Guard]]** - Parent position from which reverse half guard is entered
+- **[[Positions/Back Control]]** - Primary advancement target when opponent turns to face you
+- **[[Positions/Side Control]]** - Primary passing completion target when opponent flattens defensively
+- **[[Positions/Leg Drag Control]]** - Common passing variation from reverse half guard
+- **[[Positions/Crab Ride]]** - Transitional position when pursuing back control
+- **[[Positions/Twister Control/Truck]]** - Alternative back attack entry from reverse half guard
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Position opponent attempts to recover from reverse half
 
 
 </section>

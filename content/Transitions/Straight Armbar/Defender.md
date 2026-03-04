@@ -156,7 +156,7 @@ Defending the Straight Armbar from Mounted Crucifix is one of the most challengi
 
 The defensive strategy centers on three phases: prevention, disruption, and escape. Prevention means recognizing the armbar setup before the attacker commits and addressing the threat while still in crucifix — typically by denying the wrist grip or keeping the elbow bent. Disruption targets the transition itself, exploiting the brief moments of instability when the attacker shifts weight from crucifix control to armbar position. Escape applies when the armbar is partially secured, requiring explosive movement combined with technical precision to extract the arm or reverse position before the finish lands. Understanding all three phases gives you multiple defensive layers rather than relying on a single desperate escape attempt.
 
-**Opponent's Starting Position**: [[Mounted Crucifix]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The defensive strategy centers on three phases: prevention, disruption, and esca
 ### 1. Explosive bridge toward the trapped arm side during the attacker's weight transition
 
 - **When to use**: The moment you feel the attacker's weight shift from centered crucifix to armbar alignment — this is the window of maximum instability in their base
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: The bridge disrupts the attacker's balance during transition, potentially rolling them off mount entirely or creating enough space to extract the trapped arm and recover to closed guard
 - **Risk**: If the bridge is too late and the armbar is already secured, the explosive movement may actually accelerate the arm extension and hasten the submission
 
 ### 2. Bicep curl and thumb rotation to prevent arm extension while turning body toward trapped arm
 
 - **When to use**: When the attacker has secured wrist control but has not yet fully aligned their hips over your elbow — this buys time and changes the submission angle
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: Prevents the armbar finish by denying full extension, forcing the attacker to abandon the attempt and return to crucifix control or attempt grip-breaking sequences that create further escape windows
 - **Risk**: Sustained bicep curl against an attacker applying gradual hip pressure will eventually fatigue — this defense delays but does not escape unless combined with positional movement
 
 ### 3. Hip escape and leg extraction to recover guard position
 
 - **When to use**: When the attacker's leg control loosens during the transition from crucifix to armbar, creating momentary space around your head and torso
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You extract your head from under the attacker's leg and shrimp your hips away, recovering to closed guard or half guard where you have full defensive capability with both arms available
 - **Risk**: If the attacker maintains tight leg control, attempting to hip escape without freeing your head first exposes your arm further and may accelerate the armbar transition
 
 ### 4. Grip your own lapel or shorts to anchor the trapped arm and prevent wrist isolation
 
 - **When to use**: Early in the transition when the attacker is reaching for your wrist — anchoring your hand to your own body prevents them from controlling and extending the arm
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: The attacker cannot isolate your wrist and must either abandon the armbar attempt or work to break your anchor grip, which gives you time and creates opportunities for other defensive actions
 - **Risk**: A skilled attacker will switch to two-on-one grip breaking or attack the gripping hand with a wrist lock, so this defense must be combined with active escape attempts
 
@@ -227,11 +227,11 @@ The defensive strategy centers on three phases: prevention, disruption, and esca
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mounted Crucifix]]
+### → [[Positions/Mount/Mounted Crucifix]]
 
 Deny the armbar transition by keeping your elbow bent and preventing wrist isolation. Use bicep curling combined with thumb rotation to maintain defensive arm structure. If the attacker cannot secure proper hip-over-elbow alignment, they are forced to abandon the attempt and return to crucifix control, resetting to the previous position where you can attempt arm extraction escapes.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time an explosive bridge to coincide with the attacker's weight shift during transition from crucifix to armbar. The bridge should drive toward the trapped arm side, disrupting the attacker's base. As they lose balance, extract your head from under their leg and shrimp your hips away. Immediately close your guard around their waist once your arms are free. This requires precise timing — too early and they abort the armbar and maintain crucifix; too late and the armbar is secured.
 

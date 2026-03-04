@@ -154,7 +154,7 @@ description: "Defend against crucifix maintenance in BJJ. Recognition cues, syst
 
 Defending against Crucifix Maintenance means systematically dismantling the opponent's three-point control structure—leg triangle, far arm grip, and chest pressure—to recover a survivable position. The defender faces an extreme asymmetric disadvantage where both arms are compromised, neck attacks are imminent, and explosive movements typically tighten the position rather than breaking it. Success requires identifying the maintenance windows where the attacker adjusts their controls, and converting those brief openings into progressive escape momentum. The hierarchy of defensive priorities is clear: protect the neck first, then work to free the most accessible arm, then execute positional recovery before the attacker can re-establish full control.
 
-**Opponent's Starting Position**: [[Crucifix]] (Top)
+**Opponent's Starting Position**: [[Positions/Crucifix]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against Crucifix Maintenance means systematically dismantling the oppo
 ### 1. Incremental arm extraction during grip transition: use subtle hip movement and angle changes to create space in the leg triangle when the attacker adjusts their far arm grip
 
 - **When to use**: When you detect the attacker transitioning between grip types on your far arm, briefly weakening their overall control coordination
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You free the trapped arm and transition to standard back control bottom where both arms are available for defense and escape, significantly improving your survival prospects
 - **Risk**: If the extraction fails, the attacker will tighten the leg triangle and potentially add a submission threat to punish the escape attempt
 
 ### 2. Timed bridge escape during weight redistribution: execute a controlled bridge when the attacker shifts their weight to set up a submission or adjust hip position
 
 - **When to use**: When you feel the attacker's weight lift momentarily as they reposition for an attack or adjust their perpendicular alignment
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: The bridge displaces the attacker's base and creates enough rotational momentum to escape both arm traps, with the attacker scrambling to secure side control as a fallback
 - **Risk**: A mistimed bridge against a settled attacker tightens the position and wastes energy, potentially exposing the neck during the movement
 
 ### 3. Hip escape during submission threat: shrimp away to change the leg triangle geometry when the attacker commits a hand to a choke or armbar setup
 
 - **When to use**: When the attacker releases far arm control or reduces chest pressure to pursue a submission, creating a temporary gap in maintenance
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: The angle change makes the leg triangle less effective, allowing arm extraction and transition to back control defense where you can work standard escape sequences
 - **Risk**: If you shrimp without defending the neck first, the attacker may finish the submission they initiated rather than re-establishing maintenance
 
 ### 4. Turn into the attacker by rotating torso toward them to reduce the effectiveness of back-facing control and create frames with any freed arm segment
 
 - **When to use**: When the attacker's chest pressure is momentarily light and their leg triangle has loosened enough that turning does not tighten the arm trap further
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Turning disrupts the crucifix geometry entirely, forcing the attacker to abandon the position and transition to side control or mount where your arms are freed
 - **Risk**: Turning into an attacker with tight controls can worsen the position by allowing them to consolidate a mounted crucifix or tighten arm traps at the new angle
 
@@ -225,11 +225,11 @@ Defending against Crucifix Maintenance means systematically dismantling the oppo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Time your bridge escape during the attacker's weight redistribution or submission setup, creating enough displacement to escape both arm traps. The attacker retains top position but in side control where your arms are free and standard escape sequences become available.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Work systematic arm extraction by combining hip movement with angle changes during the attacker's grip transition windows. Free the trapped arm from the leg triangle and transition to standard back control defense where both arms are available for defensive frames, choke defense, and escape attempts.
 

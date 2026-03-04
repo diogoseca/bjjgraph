@@ -21,7 +21,7 @@ The technique operates on the principle that butterfly guard effectiveness depen
 
 Strategically, the ability to recover a compromised guard position rather than accepting progressive degradation separates intermediate practitioners from advanced ones. A skilled butterfly guard player treats partial hook displacement not as a defeat but as a momentary setback that can be systematically reversed. This recovery cycle—compromise, reguard, attack—forms the backbone of sustainable butterfly guard play and allows practitioners to maintain offensive pressure even against elite passers who regularly threaten hook clearing and posture destruction.
 
-**From Position**: [[Butterfly Hook Control]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the ability to recover a compromised guard position rather than a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Butterfly Guard]] | 55% |
-| Failure | [[Butterfly Hook Control]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Butterfly Guard]] | 55% |
+| Failure | [[Positions/Butterfly Guard/Butterfly Hook Control]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The reguard to butterfly guard is a critical link in the guard retention chain t
 ## Related Techniques
 
 
-- [[Butterfly Guard]] - Target position—full butterfly guard structure that the reguard seeks to restore
+- [[Positions/Butterfly Guard]] - Target position—full butterfly guard structure that the reguard seeks to restore
 
-- [[Butterfly Hook Control]] - Source position—compromised hook state from which the reguard initiates
+- [[Positions/Butterfly Guard/Butterfly Hook Control]] - Source position—compromised hook state from which the reguard initiates
 
-- [[Open Guard]] - Counter outcome when hooks are stripped entirely during failed reguard
+- [[Positions/Open Guard]] - Counter outcome when hooks are stripped entirely during failed reguard
 
-- [[Butterfly Sweep]] - Primary offensive technique available after successful reguard recovery
+- [[Transitions/Butterfly Sweep]] - Primary offensive technique available after successful reguard recovery
 
-- [[Arm Drag to Back]] - Key attack chain option from recovered full butterfly guard position
+- [[Transitions/Arm Drag to Back]] - Key attack chain option from recovered full butterfly guard position
 
-- [[Half Butterfly]] - Alternative recovery path when only one hook can be reinserted
+- [[Positions/Butterfly Guard/Half Butterfly]] - Alternative recovery path when only one hook can be reinserted
 
-- [[X-Guard]] - Transition alternative if opponent stands during the reguard attempt
+- [[Positions/X-Guard]] - Transition alternative if opponent stands during the reguard attempt
 
-- [[Deep Half Guard]] - Alternative guard recovery option when butterfly reguard is shut down
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative guard recovery option when butterfly reguard is shut down
 
-- [[Combat Base]] - Typical opponent position during this transition
+- [[Positions/Combat Base]] - Typical opponent position during this transition
 
-- [[Elevator Sweep]] - Complementary sweep that can be combined with reguard momentum
+- [[Transitions/Elevator Sweep]] - Complementary sweep that can be combined with reguard momentum
 
 
 </section>

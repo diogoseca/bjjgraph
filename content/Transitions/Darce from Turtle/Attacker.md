@@ -174,7 +174,7 @@ description: "How to execute Darce from Turtle in BJJ. Attacking perspective wit
 
 The Darce choke from turtle position is one of the most high-percentage submission setups in modern no-gi BJJ. This technique capitalizes on the opponent's defensive turtle posture by attacking the exposed neck and far-side arm, creating a powerful blood choke configuration that targets both carotid arteries. The Darce from turtle is especially effective because opponents often feel safe in turtle, directing their defensive energy toward preventing back takes rather than neck attacks. The technique requires precise arm threading across the opponent's throat, sustained chest-to-back pressure to prevent escape, and disciplined patience to achieve proper depth before locking any grip. When the arm is threaded deep enough and the figure-four grip is secured with proper body angle, the resulting compression is extremely difficult to defend and can produce a tap within seconds.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The Darce choke from turtle position is one of the most high-percentage submissi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 60% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Darce Control]] | 60% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -238,11 +238,11 @@ The Darce choke from turtle position is one of the most high-percentage submissi
 
 ## Opponent Counters
 
-- **Opponent sits through to guard before you can thread arm** (Effectiveness: High) - Your Response: Follow them to guard and transition to anaconda choke or guillotine. If they sit through quickly, use their momentum to take their back instead of forcing the Darce. → Leads to [[Turtle]]
-- **Opponent pulls their far arm free during threading** (Effectiveness: High) - Your Response: Switch to front headlock series - guillotine, anaconda, or arm-in guillotine. Do not fight for the Darce if the arm escapes; transition immediately to prevent losing position. → Leads to [[Turtle]]
-- **Opponent turns into you and faces guard position** (Effectiveness: Medium) - Your Response: If grip is already secured, maintain the Darce and adjust to a front-facing finish. If not locked, transition to guillotine or use their turn to take mount position. → Leads to [[Turtle]]
-- **Opponent granby rolls away from the choking arm** (Effectiveness: Medium) - Your Response: Follow their roll and use the momentum to come up on top in side control or mount. If grip is locked, maintain it throughout the roll and finish from the new position. → Leads to [[Turtle]]
-- **Opponent gets hand inside to defend neck before threading completes** (Effectiveness: Low) - Your Response: Increase shoulder pressure and work to remove their defensive hand by driving your head toward their far hip. Expand your chest and drive your shoulder through their defending hand to clear the space. → Leads to [[Darce Control]]
+- **Opponent sits through to guard before you can thread arm** (Effectiveness: High) - Your Response: Follow them to guard and transition to anaconda choke or guillotine. If they sit through quickly, use their momentum to take their back instead of forcing the Darce. → Leads to [[Positions/Turtle]]
+- **Opponent pulls their far arm free during threading** (Effectiveness: High) - Your Response: Switch to front headlock series - guillotine, anaconda, or arm-in guillotine. Do not fight for the Darce if the arm escapes; transition immediately to prevent losing position. → Leads to [[Positions/Turtle]]
+- **Opponent turns into you and faces guard position** (Effectiveness: Medium) - Your Response: If grip is already secured, maintain the Darce and adjust to a front-facing finish. If not locked, transition to guillotine or use their turn to take mount position. → Leads to [[Positions/Turtle]]
+- **Opponent granby rolls away from the choking arm** (Effectiveness: Medium) - Your Response: Follow their roll and use the momentum to come up on top in side control or mount. If grip is locked, maintain it throughout the roll and finish from the new position. → Leads to [[Positions/Turtle]]
+- **Opponent gets hand inside to defend neck before threading completes** (Effectiveness: Low) - Your Response: Increase shoulder pressure and work to remove their defensive hand by driving your head toward their far hip. Expand your chest and drive your shoulder through their defending hand to clear the space. → Leads to [[Positions/Darce Control]]
 
 
 </section>

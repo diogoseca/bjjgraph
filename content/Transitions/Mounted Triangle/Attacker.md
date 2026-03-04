@@ -174,7 +174,7 @@ description: "How to execute Mounted Triangle in BJJ. Attacking perspective with
 
 The Mounted Triangle represents one of the most dominant submission setups in Brazilian Jiu-Jitsu, combining the positional dominance of mount with the strangling power of the triangle choke. This transition begins from Modified Mount where the asymmetric positioning naturally facilitates leg insertion around the opponent's head and arm. Unlike the triangle from closed guard, the Mounted Triangle benefits from gravitational pressure and superior control, making defensive responses significantly more difficult for the bottom practitioner. The technique emerges organically when opponents use frames against mount attacks—their arms naturally create the space and isolation needed for triangle entry. Strategic application involves recognizing when the opponent's defensive frames create a head-and-arm configuration that can be captured. The mounted position allows you to use your weight to maintain the triangle while adjusting the angle, something impossible from bottom triangle positions. Modern competitive grappling has seen increased use of this technique as practitioners have developed entries that flow seamlessly from armbar and americana attempts. When the opponent defends upper body submissions by bringing their elbows tight, they often expose the neck for triangle entry. The Mounted Triangle also serves as an excellent positional anchor—even if the submission fails, you typically maintain a controlling position rather than risking reversal.
 
-**From Position**: [[Modified Mount]] (Top)
+**From Position**: [[Positions/Mount/Modified Mount]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The Mounted Triangle represents one of the most dominant submission setups in Br
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mounted Triangle]] | 55% |
-| Failure | [[Modified Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/Mounted Triangle]] | 55% |
+| Failure | [[Positions/Mount/Modified Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -238,10 +238,10 @@ The Mounted Triangle represents one of the most dominant submission setups in Br
 
 ## Opponent Counters
 
-- **Posturing up before triangle locks by explosively extending spine and driving head backward** (Effectiveness: High) - Your Response: Maintain heavy forward pressure throughout entry. If they begin posturing, abandon triangle and transition to armbar on the isolated arm using their momentum against them. → Leads to [[Modified Mount]]
-- **Extracting trapped arm by turning elbow toward your hip and pulling arm free before lock completes** (Effectiveness: High) - Your Response: Maintain constant wrist control and hug the arm tight to your chest. If arm starts escaping, immediately transition to armbar or switch to head-and-arm choke using same configuration. → Leads to [[Modified Mount]]
-- **Stacking defense by driving forward into you to relieve neck pressure and create space** (Effectiveness: Medium) - Your Response: Use your posted leg as an anchor and shift angle further perpendicular. The mounted position gives you gravity advantage—use it by pulling their head down while scooting hips away. → Leads to [[Mounted Triangle]]
-- **Bridging and rolling to escape mount position before triangle can be established** (Effectiveness: Medium) - Your Response: Base with your free hand during transition and keep weight forward. If roll succeeds, maintain triangle lock—you transition to standard guard triangle with excellent position. → Leads to [[Half Guard]]
+- **Posturing up before triangle locks by explosively extending spine and driving head backward** (Effectiveness: High) - Your Response: Maintain heavy forward pressure throughout entry. If they begin posturing, abandon triangle and transition to armbar on the isolated arm using their momentum against them. → Leads to [[Positions/Mount/Modified Mount]]
+- **Extracting trapped arm by turning elbow toward your hip and pulling arm free before lock completes** (Effectiveness: High) - Your Response: Maintain constant wrist control and hug the arm tight to your chest. If arm starts escaping, immediately transition to armbar or switch to head-and-arm choke using same configuration. → Leads to [[Positions/Mount/Modified Mount]]
+- **Stacking defense by driving forward into you to relieve neck pressure and create space** (Effectiveness: Medium) - Your Response: Use your posted leg as an anchor and shift angle further perpendicular. The mounted position gives you gravity advantage—use it by pulling their head down while scooting hips away. → Leads to [[Positions/Mount/Mounted Triangle]]
+- **Bridging and rolling to escape mount position before triangle can be established** (Effectiveness: Medium) - Your Response: Base with your free hand during transition and keep weight forward. If roll succeeds, maintain triangle lock—you transition to standard guard triangle with excellent position. → Leads to [[Positions/Half Guard]]
 
 
 </section>

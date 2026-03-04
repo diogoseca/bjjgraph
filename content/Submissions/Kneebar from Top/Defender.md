@@ -150,7 +150,7 @@ description: "How to defend against Kneebar from Top in BJJ. Recognition, escape
 
 Defending the kneebar from top position requires a fundamentally different mindset than defending bottom-initiated leg attacks. When an opponent abandons dominant top position to attack your knee, a critical window exists during their transition where defensive intervention is most effective. The defender's primary advantage is that the attacker must sacrifice positional control to pursue the submission—recognizing this transition early and responding with structured defensive mechanics can prevent the kneebar from reaching a dangerous finishing position. The defensive hierarchy prioritizes three sequential objectives: first, prevent the attacker from completing the step-over and establishing perpendicular alignment; second, if the position is established, maximize knee bend to neutralize hyperextension mechanics; third, create space and extract the leg to recover guard or scramble to a neutral position. Understanding the biomechanics of the kneebar—specifically that hyperextension requires a straightened leg against a fulcrum at the knee crease—informs every defensive decision, as maintaining knee flexion eliminates the primary finishing mechanism.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -188,21 +188,21 @@ Defending the kneebar from top position requires a fundamentally different minds
 ### 1. Sit up and drive weight forward during step-over transition
 
 - **When to use**: During the 1-2 second window when opponent is stepping over your body and their base is compromised—this is the highest-percentage defensive intervention point before the kneebar is established
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Collapses opponent's alignment, prevents perpendicular positioning, and creates scramble opportunity to recover guard or achieve top position
 - **Risk**: If timed too late (after opponent completes step-over), sitting up drives your weight onto them in a way that may actually help them establish the kneebar position
 
 ### 2. Maximally bend knee and fight to maintain heel-to-buttocks position
 
 - **When to use**: Once opponent has established the kneebar position with your leg controlled between their thighs—this is your primary defense when the entry phase is missed
-- **Targets**: [[Kneebar Control]]
+- **Targets**: [[Positions/Kneebar Control]]
 - **If successful**: Neutralizes hyperextension mechanics entirely, forcing opponent to spend energy attempting to straighten your leg while you work additional escape mechanics
 - **Risk**: Knee bend alone is insufficient as a complete defense—opponent can use three-directional force to progressively break the bend, so you must simultaneously work leg extraction
 
 ### 3. Rotate leg inward and push on opponent's hips to extract trapped leg
 
 - **When to use**: While maintaining knee bend defense, simultaneously work to free your leg from between opponent's thighs—this combines passive defense (bent knee) with active escape (leg extraction)
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Once leg is extracted, immediately establish guard position or scramble to top—the opponent has abandoned their original dominant position and is now in a compromised transitional state
 - **Risk**: Aggressive extraction attempts may straighten the knee momentarily during the movement, creating a window for the attacker to apply finishing pressure if your timing is poor
 
@@ -225,11 +225,11 @@ Defending the kneebar from top position requires a fundamentally different minds
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Successfully extract leg during kneebar entry or after defending the finish, then immediately insert knee shield to establish half guard—the attacker abandoned their original top position, so you may end up in a relatively neutral or advantageous guard position
 
-### → [[Kneebar Control]]
+### → [[Positions/Kneebar Control]]
 
 Defend the kneebar finish through sustained knee bend defense, then gradually work leg extraction while opponent's energy depletes from failed finishing attempts—the failed kneebar transitions to a control position where you can methodically escape
 

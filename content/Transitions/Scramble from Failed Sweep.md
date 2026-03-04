@@ -21,7 +21,7 @@ This technique bridges the gap between guard play and wrestling-based scrambling
 
 The scramble from failed sweep also serves as a critical mental framework. Practitioners who view sweep attempts as binary success-or-failure events miss the vast middle ground where partial sweeps generate positional chaos that favors the more prepared and decisive athlete. Developing this transitional skill transforms your entire guard game from a series of isolated sweep attempts into a continuous offensive chain where each technique flows into the next opportunity.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ The scramble from failed sweep also serves as a critical mental framework. Pract
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Scramble Position]] | 50% |
-| Failure | [[Open Guard]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Scramble Position]] | 50% |
+| Failure | [[Positions/Open Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Scramble from Failed Sweep serves as a critical connector between the open g
 ## Related Techniques
 
 
-- [[Scramble Position]] - Target position reached on successful scramble entry from failed sweep
+- [[Positions/Scramble Position]] - Target position reached on successful scramble entry from failed sweep
 
-- [[Open Guard]] - Source position where the original sweep was attempted from bottom
+- [[Positions/Open Guard]] - Source position where the original sweep was attempted from bottom
 
-- [[Half Guard]] - Common counter outcome when defender advances past guard during the scramble
+- [[Positions/Half Guard]] - Common counter outcome when defender advances past guard during the scramble
 
-- [[Collar Drag from Open Guard]] - Related offensive technique from the same starting position that creates similar scramble dynamics
+- [[Transitions/Collar Drag from Open Guard]] - Related offensive technique from the same starting position that creates similar scramble dynamics
 
-- [[Scissor Sweep from Open Guard]] - Related sweep technique whose failure commonly leads to scramble opportunities
+- [[Transitions/Scissor Sweep from Open Guard]] - Related sweep technique whose failure commonly leads to scramble opportunities
 
-- [[Back Control]] - High-value target position accessible from successful scramble when opponent exposes their back
+- [[Positions/Back Control]] - High-value target position accessible from successful scramble when opponent exposes their back
 
-- [[Front Headlock]] - Position reachable from scramble when opponent drops their head during the exchange
+- [[Positions/Front Headlock]] - Position reachable from scramble when opponent drops their head during the exchange
 
-- [[Butterfly Hook Sweep]] - Related sweep technique that generates momentum useful for scramble conversion on failure
+- [[Transitions/Butterfly Hook Sweep]] - Related sweep technique that generates momentum useful for scramble conversion on failure
 
-- [[Standing Position]] - Alternative recovery option via technical stand-up instead of committing to the scramble
+- [[Positions/Standing Position]] - Alternative recovery option via technical stand-up instead of committing to the scramble
 
-- [[Deep Half Guard]] - Alternative recovery position accessible during scramble transition when opponent drives forward
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative recovery position accessible during scramble transition when opponent drives forward
 
 
 </section>

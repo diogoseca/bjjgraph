@@ -21,7 +21,7 @@ The sweep operates on a push-pull principle where the knee shield extends forcef
 
 Strategically, this sweep represents the primary offensive weapon from Z-Guard and creates a critical dilemma for the top player: driving forward into the knee shield loads energy for the sweep, while backing away creates space for the bottom player to transition to other offensive positions like deep half guard or X-guard entries. This push-pull dynamic makes the Z-Guard sweep essential knowledge for any practitioner building a comprehensive half guard game, as the threat of the sweep alone forces the top player to respect the position and modify their passing strategy.
 
-**From Position**: [[Z-Guard]] (Bottom)
+**From Position**: [[Positions/Z-Guard]] (Bottom)
 **Success Rate**: 44%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this sweep represents the primary offensive weapon from Z-Guard a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 44% |
-| Failure | [[Z-Guard]] | 34% |
-| Counter | [[Side Control]] | 22% |
+| Success | [[Positions/Mount]] | 44% |
+| Failure | [[Positions/Z-Guard]] | 34% |
+| Counter | [[Positions/Side Control]] | 22% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Sweep from Z-Guard occupies a central position in the modern half guard offe
 ## Related Techniques
 
 
-- [[Half Guard]] - Parent position category from which Z-Guard structure derives
+- [[Positions/Half Guard]] - Parent position category from which Z-Guard structure derives
 
-- [[Knee Shield Half Guard]] - Closely related position with similar sweeping mechanics but lower knee placement
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Closely related position with similar sweeping mechanics but lower knee placement
 
-- [[Mount]] - Primary target position achieved on successful sweep completion
+- [[Positions/Mount]] - Primary target position achieved on successful sweep completion
 
-- [[Side Control]] - Position opponent achieves if they successfully counter the sweep attempt
+- [[Positions/Side Control]] - Position opponent achieves if they successfully counter the sweep attempt
 
-- [[Deep Half Guard]] - Alternative transition when sweep is defended and opponent collapses knee shield
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition when sweep is defended and opponent collapses knee shield
 
-- [[Dogfight Position]] - Common scramble position when sweep partially succeeds without completing to mount
+- [[Positions/Dogfight Position]] - Common scramble position when sweep partially succeeds without completing to mount
 
-- [[Sweep from Knee Shield]] - Related sweep from similar position using comparable mechanics with different leverage angle
+- [[Transitions/Sweep from Knee Shield]] - Related sweep from similar position using comparable mechanics with different leverage angle
 
-- [[Deep Half Entry from Half Guard]] - Chain technique when opponent defends sweep by driving weight forward
+- [[Transitions/Deep Half Entry from Half Guard]] - Chain technique when opponent defends sweep by driving weight forward
 
-- [[Lockdown]] - Alternative control system that can set up similar sweeping opportunities
+- [[Positions/Half Guard/Lockdown]] - Alternative control system that can set up similar sweeping opportunities
 
-- [[Pass Z-Guard]] - Opponent's primary counter-strategy that the sweep must address
+- [[Transitions/Pass Z-Guard]] - Opponent's primary counter-strategy that the sweep must address
 
 
 </section>

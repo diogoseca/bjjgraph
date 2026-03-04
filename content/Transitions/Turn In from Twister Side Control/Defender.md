@@ -146,7 +146,7 @@ description: "Prevent the turn-in escape from twister side control. Learn to mai
 
 As the top player in twister side control, your goal when the bottom player attempts a turn-in is to maintain your control structure and either prevent the escape entirely or capitalize on the rotation to advance to mount. The turn-in creates specific vulnerabilities because the bottom player must temporarily compromise their defensive structure to rotate, opening windows for position advancement. Your defensive priorities follow a clear hierarchy: maintain leg entanglement integrity, drive shoulder pressure to prevent effective framing, recognize the moment the bottom player begins rotating, and either shut down the rotation through pressure or flow with it to achieve mount. Understanding this escape attempt from the top perspective transforms a potential positional loss into an opportunity for advancement.
 
-**Opponent's Starting Position**: [[Twister Side Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Twister Control/Twister Side Control]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the top player in twister side control, your goal when the bottom player atte
 ### 1. Drive shoulder pressure and collapse frames by lowering your chest into their near shoulder before they complete the frame structure
 
 - **When to use**: At the first sign of frame creation, before the bottom player has established structural barriers
-- **Targets**: [[Twister Side Control]]
+- **Targets**: [[Positions/Twister Control/Twister Side Control]]
 - **If successful**: Bottom player's frames are collapsed and they remain flat in twister side control with reduced defensive options
 - **Risk**: If timed late, you may drive into established frames that redirect your weight and assist their rotation
 
 ### 2. Step over to mount as the bottom player creates space during their rotation, using the gap they generate to advance position
 
 - **When to use**: When the bottom player has partially completed the turn and created space but has not yet inserted a knee shield
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You advance from twister side control to full mount, converting their escape attempt into a worse position for them
 - **Risk**: If the bottom player inserts knee shield before you complete the step-over, you end up in a contested half guard
 
 ### 3. Deepen leg entanglement by re-hooking when the bottom player begins leg extraction, driving your hook behind their knee before they can free the leg
 
 - **When to use**: When you feel the bottom player's leg beginning to slide free from your hook during their rotation
-- **Targets**: [[Twister Side Control]]
+- **Targets**: [[Positions/Twister Control/Twister Side Control]]
 - **If successful**: Leg entanglement is re-established at deeper level, making subsequent extraction attempts more difficult
 - **Risk**: Focusing on re-hooking may require releasing shoulder pressure, potentially allowing more upper body separation
 
 ### 4. Attack the framing arm with kimura grip to discourage frame creation and force the bottom player to defend the submission instead of escaping
 
 - **When to use**: When the bottom player extends an arm to frame and creates an isolation opportunity on the limb
-- **Targets**: [[Twister Side Control]]
+- **Targets**: [[Positions/Twister Control/Twister Side Control]]
 - **If successful**: Bottom player must abandon escape attempt to defend the arm attack, resetting their defensive sequence
 - **Risk**: Pursuing the kimura requires shifting your weight and may reduce leg entanglement control temporarily
 
@@ -217,11 +217,11 @@ As the top player in twister side control, your goal when the bottom player atte
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Capitalize on the space the bottom player creates during their rotation by stepping over before they can insert a knee shield. Time the step-over to the moment their leg comes free from entanglement but before the knee crosses your body. Drive your hips down immediately upon achieving mount to prevent them from framing or bridging.
 
-### → [[Twister Side Control]]
+### → [[Positions/Twister Control/Twister Side Control]]
 
 Shut down the escape at the earliest stage by collapsing frames with shoulder drive before the bottom player can initiate hip rotation. Maintain tight leg hooks and control the near arm to prevent underhook establishment. Keep constant forward pressure to deny the space needed for any rotation.
 

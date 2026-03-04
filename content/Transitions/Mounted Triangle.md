@@ -21,7 +21,7 @@ Strategic application involves recognizing when the opponent's defensive frames 
 
 The Mounted Triangle also serves as an excellent positional anchor—even if the submission fails, you typically maintain a controlling position rather than risking reversal. If the opponent bridges and rolls during the transition, you land in a standard guard triangle with the lock already secured, converting their escape into your submission. This low-risk, high-reward profile makes the Mounted Triangle a cornerstone of any complete mount attack system.
 
-**From Position**: [[Modified Mount]] (Top)
+**From Position**: [[Positions/Mount/Modified Mount]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The Mounted Triangle also serves as an excellent positional anchor—even if the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mounted Triangle]] | 55% |
-| Failure | [[Modified Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/Mounted Triangle]] | 55% |
+| Failure | [[Positions/Mount/Modified Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Mounted Triangle functions as a cornerstone submission setup within the moun
 ## Related Techniques
 
 
-- [[Modified Mount]] - Starting position for this technique
+- [[Positions/Mount/Modified Mount]] - Starting position for this technique
 
-- [[Mounted Triangle]] - Target control position when transition succeeds
+- [[Positions/Mount/Mounted Triangle]] - Target control position when transition succeeds
 
-- [[Triangle Choke]] - Same strangling mechanics applied from different position
+- [[Transitions/Triangle Choke]] - Same strangling mechanics applied from different position
 
-- [[Armbar from Mount]] - Chain attack when opponent defends triangle by posturing
+- [[Submissions/Armbar from Mount]] - Chain attack when opponent defends triangle by posturing
 
-- [[Gift Wrap]] - Control position that sets up ideal triangle entry
+- [[Positions/Gift Wrap]] - Control position that sets up ideal triangle entry
 
-- [[Americana from Mount]] - Alternative attack when arm isolation fails
+- [[Submissions/Americana from Mount]] - Alternative attack when arm isolation fails
 
-- [[S Mount]] - Similar asymmetric mount used for armbar that can transition to triangle
+- [[Positions/Mount/S Mount]] - Similar asymmetric mount used for armbar that can transition to triangle
 
-- [[High Mount]] - Alternative mount advancement when triangle entry is defended
+- [[Positions/Mount/High Mount]] - Alternative mount advancement when triangle entry is defended
 
-- [[Half Guard]] - Position opponent may recover to if counter is successful
+- [[Positions/Half Guard]] - Position opponent may recover to if counter is successful
 
-- [[Triangle Choke Front]] - Submission finish accessible from mounted triangle control
+- [[Submissions/Triangle Choke Front]] - Submission finish accessible from mounted triangle control
 
 
 </section>

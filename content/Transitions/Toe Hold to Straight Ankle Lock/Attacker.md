@@ -186,7 +186,7 @@ description: "Master the attacking grip switch from toe hold to straight ankle l
 
 From the attacker's perspective, the Toe Hold to Straight Ankle Lock transition requires precise coordination between releasing one submission configuration and establishing another while maintaining continuous leg entanglement control. The key insight is that your legs do the controlling while your hands do the attacking. During the grip switch, your leg wrap around the defender's trapped leg must remain secure enough to prevent extraction even as both hands momentarily release their attacking grips. This separation of control responsibilities between upper and lower body is the technical foundation that makes the transition viable against resisting opponents. The attacker must read the defender's foot orientation to determine optimal timing. When the defender commits to internal rotation and boot defense against the toe hold, their Achilles tendon becomes exposed and accessible for the forearm blade placement that initiates straight ankle lock mechanics.
 
-**From Position**: [[Toe Hold Control]] (Top)
+**From Position**: [[Positions/Toe Hold Control]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ From the attacker's perspective, the Toe Hold to Straight Ankle Lock transition 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Straight Ankle Lock Control]] | 55% |
-| Failure | [[Toe Hold Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Straight Ankle Lock Control]] | 55% |
+| Failure | [[Positions/Toe Hold Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,11 +250,11 @@ From the attacker's perspective, the Toe Hold to Straight Ankle Lock transition 
 
 ## Opponent Counters
 
-- **Leg extraction during grip release window** (Effectiveness: High) - Your Response: Maximize leg entanglement squeeze before initiating grip change. If extraction begins during the switch, immediately abandon the ankle lock attempt and re-establish toe hold grips on whatever foot control remains. Prevention through tight leg control is more effective than recovery after extraction begins. → Leads to [[Half Guard]]
-- **Defender sits up and posts during momentary grip looseness** (Effectiveness: Medium) - Your Response: Drive forward hip pressure aggressively before and during the grip switch to prevent sit-up. If the defender achieves partial posture, use the newly established ankle lock grip to pull them off-balance while your legs maintain entanglement control. Transition to saddle entry if sit-up becomes significant. → Leads to [[Toe Hold Control]]
-- **Defender uses free leg to kick away or frame on hips creating distance** (Effectiveness: Medium) - Your Response: Control the free leg with your outside leg or hip positioning before initiating the grip change. If the defender creates distance after the switch, use the straight ankle lock grip to pull them back into range while adjusting leg control to close the distance gap. → Leads to [[Toe Hold Control]]
-- **Defender rotates foot externally during grip transition to prevent Achilles exposure** (Effectiveness: Medium) - Your Response: If the defender rotates their foot externally during your grip change, this actually re-exposes them to the original toe hold attack. Abort the ankle lock switch and immediately reattack the toe hold with the figure-four grip, capitalizing on their defensive movement. → Leads to [[Toe Hold Control]]
-- **Defender counter-entangles with free leg during transition window** (Effectiveness: High) - Your Response: If the defender threads their free leg into your entanglement creating 50-50 or counter-ashi, complete the ankle lock grip as quickly as possible and race to finish before their counter-control consolidates. Alternatively, abandon the switch and focus on defending the counter-entanglement. → Leads to [[Half Guard]]
+- **Leg extraction during grip release window** (Effectiveness: High) - Your Response: Maximize leg entanglement squeeze before initiating grip change. If extraction begins during the switch, immediately abandon the ankle lock attempt and re-establish toe hold grips on whatever foot control remains. Prevention through tight leg control is more effective than recovery after extraction begins. → Leads to [[Positions/Half Guard]]
+- **Defender sits up and posts during momentary grip looseness** (Effectiveness: Medium) - Your Response: Drive forward hip pressure aggressively before and during the grip switch to prevent sit-up. If the defender achieves partial posture, use the newly established ankle lock grip to pull them off-balance while your legs maintain entanglement control. Transition to saddle entry if sit-up becomes significant. → Leads to [[Positions/Toe Hold Control]]
+- **Defender uses free leg to kick away or frame on hips creating distance** (Effectiveness: Medium) - Your Response: Control the free leg with your outside leg or hip positioning before initiating the grip change. If the defender creates distance after the switch, use the straight ankle lock grip to pull them back into range while adjusting leg control to close the distance gap. → Leads to [[Positions/Toe Hold Control]]
+- **Defender rotates foot externally during grip transition to prevent Achilles exposure** (Effectiveness: Medium) - Your Response: If the defender rotates their foot externally during your grip change, this actually re-exposes them to the original toe hold attack. Abort the ankle lock switch and immediately reattack the toe hold with the figure-four grip, capitalizing on their defensive movement. → Leads to [[Positions/Toe Hold Control]]
+- **Defender counter-entangles with free leg during transition window** (Effectiveness: High) - Your Response: If the defender threads their free leg into your entanglement creating 50-50 or counter-ashi, complete the ankle lock grip as quickly as possible and race to finish before their counter-control consolidates. Alternatively, abandon the switch and focus on defending the counter-entanglement. → Leads to [[Positions/Half Guard]]
 
 
 </section>

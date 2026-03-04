@@ -210,23 +210,23 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 
 ## Available Attacks
 
-### [[Armbar Finish]] (51% of attempts)
+### [[Transitions/Armbar Finish]] (51% of attempts)
 
-### [[Triangle Setup]] (21% of attempts)
+### [[Transitions/Triangle Setup]] (21% of attempts)
 
-### [[Omoplata]] (7% of attempts)
+### [[Transitions/Omoplata]] (7% of attempts)
 
-### [[Kimura]] (7% of attempts)
+### [[Transitions/Kimura]] (7% of attempts)
 
-### [[Straight Armbar]] (7% of attempts)
+### [[Transitions/Straight Armbar]] (7% of attempts)
 
-### [[Back Take from Armbar]] (3% of attempts)
+### [[Transitions/Back Take from Armbar]] (3% of attempts)
 
-### [[Belly Down Armbar Transition]] (1% of attempts)
+### [[Transitions/Belly Down Armbar Transition]] (1% of attempts)
 
-### [[Triangle from Armbar]] (1% of attempts)
+### [[Transitions/Triangle from Armbar]] (1% of attempts)
 
-### [[Belly Down Armbar Finish]] (2% of attempts)
+### [[Submissions/Belly Down Armbar Finish]] (2% of attempts)
 
 
 
@@ -237,27 +237,27 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 ## Decision Making from This Position
 
 **If opponent keeps arm straight and does not attempt to stack or create defensive posture:**
-- Execute **[[Armbar Finish]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Transitions/Armbar Finish]]** → [[game-over]] (Probability: 75%)
 
 
 **If opponent attempts to stack by driving forward and posting on their free arm:**
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 60%)
-- Execute **[[Triangle to Armbar]]** → [[Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 60%)
+- Execute **[[Transitions/Triangle to Armbar]]** → [[Positions/Triangle Control]] (Probability: 55%)
 
 
 **If opponent successfully bends their trapped arm and begins tucking elbow to chest:**
-- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 50%)
-- Execute **[[Triangle to Armbar]]** → [[Triangle Control]] (Probability: 45%)
+- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle to Armbar]]** → [[Positions/Triangle Control]] (Probability: 45%)
 
 
 **If opponent attempts to roll through or turn into the submission:**
-- Execute **[[Straight Armbar]]** → [[Armbar Control]] (Probability: 55%)
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 40%)
+- Execute **[[Transitions/Straight Armbar]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 40%)
 
 
 **If opponent creates space under hips and attempts to pull arm back toward their body:**
-- Execute **[[Mount to Armbar]]** → [[Mount]] (Probability: 50%)
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 45%)
+- Execute **[[Transitions/Mount to Armbar]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 45%)
 
 
 
@@ -396,16 +396,16 @@ Practice entering armbar control from five different starting positions: closed 
 
 ## Related Positions and Techniques
 
-- **[[Armbar Finish]]** - Primary submission finish from this control position
-- **[[Triangle Control]]** - Common transition when opponent defends armbar with stacking
-- **[[Omoplata Control]]** - Alternative submission when opponent successfully bends arm
-- **[[Mount]]** - Common entry position for armbar attacks
-- **[[Closed Guard]]** - Frequent starting position for armbar attacks from bottom
-- **[[Armbar from Mount]]** - Specific entry technique from mount position
-- **[[Armbar from Guard]]** - Entry variation from guard positions
-- **[[Kimura Trap]]** - Alternative arm attack control when armbar is defended
-- **[[High Mount]]** - Transitional position facilitating armbar setup from mount
-- **[[Belly Down Armbar]]** - Variant submission finish when opponent rolls during armbar attempt
+- **[[Transitions/Armbar Finish]]** - Primary submission finish from this control position
+- **[[Positions/Triangle Control]]** - Common transition when opponent defends armbar with stacking
+- **[[Positions/Omoplata Control]]** - Alternative submission when opponent successfully bends arm
+- **[[Positions/Mount]]** - Common entry position for armbar attacks
+- **[[Positions/Closed Guard]]** - Frequent starting position for armbar attacks from bottom
+- **[[Submissions/Armbar from Mount]]** - Specific entry technique from mount position
+- **[[Submissions/Armbar from Guard]]** - Entry variation from guard positions
+- **[[Positions/Kimura Trap]]** - Alternative arm attack control when armbar is defended
+- **[[Positions/Mount/High Mount]]** - Transitional position facilitating armbar setup from mount
+- **[[Submissions/Belly Down Armbar]]** - Variant submission finish when opponent rolls during armbar attempt
 
 
 </section>

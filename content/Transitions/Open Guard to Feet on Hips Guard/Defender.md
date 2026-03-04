@@ -154,7 +154,7 @@ description: "How to defend against the transition to feet on hips guard in BJJ.
 
 As the defender (top player), your objective is to prevent the bottom player from establishing the controlled feet-on-hips frame that gives them distance management, sweep threats, and guard transition options. The defense operates on a simple principle: deny the bottom player access to your hips before their feet arrive, or immediately strip their feet once they land before they can coordinate grips and pushing tension. The critical defensive window is the 1-2 seconds during which the bottom player is transitioning from unstructured open guard to the feet-on-hips configuration—during this window, they are committing their legs forward and their hip elevation creates vulnerability to pressure passing. Effective defenders recognize the transition attempt early through visual and tactile cues and respond with either preemptive grip control (grabbing ankles before feet reach hips), immediate pressure (driving forward to collapse the frames before tension establishes), or angle creation (circling laterally to prevent bilateral hip placement). The defender must act decisively during this window because once the bottom player establishes feet on hips with grips and active tension, dismantling the position becomes a systematic technical challenge rather than a quick positional gain.
 
-**Opponent's Starting Position**: [[Open Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ As the defender (top player), your objective is to prevent the bottom player fro
 ### 1. Preemptive ankle grips to block foot placement
 
 - **When to use**: When you recognize the hip elevation and foot movement in the early phase of the transition before feet contact your hips
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Bottom player's feet are controlled below your hip line, preventing frame establishment and opening immediate toreando or leg drag passing opportunities
 - **Risk**: If your grip timing is late and feet land on hips despite ankle grips, you may end up in a worse position with committed hands that cannot fight upper body grips
 
 ### 2. Explosive forward pressure drive to collapse frames before they establish
 
 - **When to use**: When feet have just contacted your hips but the bottom player has not yet established grips or active pushing tension—the first half-second of contact
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your forward drive overwhelms the incomplete frames, collapsing the guard structure and allowing you to achieve a passing position or at minimum close the distance to chest-to-chest contact
 - **Risk**: If the bottom player's frames are already loaded with tension, your forward drive feeds directly into their sweep setup—scissor sweep and pendulum sweep both use forward pressure as the triggering mechanism
 
 ### 3. Lateral circle to prevent bilateral frame establishment
 
 - **When to use**: When you have time and space to move laterally, particularly effective when the bottom player is committing both feet forward simultaneously
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You bypass the bilateral frame by creating an angle where only one foot can reach your hip, making the guard asymmetric and easier to dismantle while opening toreando or knee cut passing angles
 - **Risk**: Circling too wide or slowly allows the bottom player to track your movement with their hips and establish the guard from the new angle, wasting your movement without gaining positional advantage
 
 ### 4. Drop to combat base below foot placement level
 
 - **When to use**: When feet are shooting toward your hips and you cannot control ankles in time—dropping your hip level below their foot trajectory makes hip placement mechanically impossible
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Bottom player's feet overshoot your lowered hips and you are positioned for butterfly smash or half guard passing sequences from the low combat base
 - **Risk**: Dropping too low surrenders your standing base advantage and may allow the bottom player to transition to butterfly guard hooks or underhook positions that threaten different sweeps
 
@@ -224,11 +224,11 @@ As the defender (top player), your objective is to prevent the bottom player fro
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Prevent the transition entirely through preemptive ankle control, lateral movement, or level change. When the bottom player fails to establish feet on hips, they remain in an unstructured open guard where you maintain your passing initiative and grip fighting advantage.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Drive through the partially established frames with explosive forward pressure before grips and tension coordinate. Your forward drive collapses the incomplete guard structure, and as you pass one leg, the bottom player retains the other in a half guard configuration. From half guard top, you maintain significant positional advantage with multiple passing options.
 

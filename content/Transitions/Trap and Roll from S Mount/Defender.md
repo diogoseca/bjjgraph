@@ -154,7 +154,7 @@ description: "Defend against the Trap and Roll escape from S Mount. Recognize br
 
 Defending against the Trap and Roll from S Mount requires the top player to maintain positional control while recognizing and neutralizing the bottom player's escape mechanics before they can generate displacement. The primary defense relies on maintaining heavy hip-to-shoulder pressure, controlling the isolated arm continuously, and keeping a wide enough base to absorb bridging attempts without being toppled. When the bottom player initiates a bridge, the top player must immediately post the free hand, drive hips forward, and either ride the bridge to maintain S Mount or capitalize on the failed escape by advancing to armbar finish if the bottom player's arm extends during the attempt. Understanding the escape mechanics allows the defender to anticipate and preempt rather than merely react.
 
-**Opponent's Starting Position**: [[S Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount/S Mount]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against the Trap and Roll from S Mount requires the top player to main
 ### 1. Post free hand on mat and drive hips forward to absorb the bridge
 
 - **When to use**: As soon as you feel the opponent plant their feet flat and load their hips for bridging
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: Opponent's bridge fails completely and they remain trapped in S Mount with depleted energy
 - **Risk**: Temporarily committing hand to posting may reduce arm control pressure momentarily
 
 ### 2. Extend opponent's arm toward armbar during bridging motion
 
 - **When to use**: When the opponent's bridge causes their trapped arm to momentarily straighten or their collar grip loosens
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: Transition directly to armbar finish as the escape attempt extends their arm into submission position
 - **Risk**: If the arm does not extend, overreaching for the armbar may compromise your own base
 
 ### 3. Transition to regular mount by stepping leg back over opponent's head
 
 - **When to use**: When the opponent's bridge partially succeeds and your S Mount base becomes unstable
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Re-establish dominant mount control with better base stability and resume attack sequence
 - **Risk**: Opponent may recover half guard during the transition between positions
 
 ### 4. Apply crossface pressure by swimming free arm under opponent's neck
 
 - **When to use**: When you detect bridge preparation but before the opponent initiates the explosive motion
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: Crossface pins opponent's head to the mat, eliminating bridging power on that side and neutralizing the escape
 - **Risk**: Changing arm position creates a brief opening that the opponent may use for arm extraction
 
@@ -225,11 +225,11 @@ Defending against the Trap and Roll from S Mount requires the top player to main
 
 ## Best-Case Outcomes for Defender
 
-### → [[S Mount]]
+### → [[Positions/Mount/S Mount]]
 
 Maintain heavy hip-to-shoulder pressure, post immediately when sensing bridge, and keep continuous wrist control to prevent any successful trapping or displacement sequence from developing
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 If S Mount base becomes compromised during the escape attempt, transition smoothly to regular mount by stepping your leg back and settling weight centrally rather than fighting to maintain an unstable S Mount
 

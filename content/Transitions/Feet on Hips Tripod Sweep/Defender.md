@@ -146,7 +146,7 @@ description: "Defend against the Feet on Hips Tripod Sweep with recognition cues
 
 When facing the tripod sweep from feet-on-hips guard, the defender must recognize the setup early—specifically the transition of one foot from hip contact to ankle hooking position—and respond before the three-point base attack is fully established. Defensive success requires maintaining a wide, low base that resists backward toppling, active ankle mobility to deny the hook, and the awareness to convert successful defense into guard passing opportunities. Understanding the sweep mechanics helps you predict the attack timeline and react within the narrow defensive window. The tripod sweep becomes far less dangerous when the defender reads the cues early and addresses the threat proactively rather than reacting after all three contact points are established.
 
-**Opponent's Starting Position**: [[Feet on Hips Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Feet on Hips Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ When facing the tripod sweep from feet-on-hips guard, the defender must recogniz
 ### 1. Backstep the hooked ankle immediately to remove the sweep fulcrum before the push engages
 
 - **When to use**: As soon as you feel the foot transitioning from your hip toward your ankle—the earlier you react, the more effective this defense becomes
-- **Targets**: [[Feet on Hips Guard]]
+- **Targets**: [[Positions/Feet on Hips Guard]]
 - **If successful**: The sweep attempt fails completely as you remove one of the three base attack points, and you maintain your top position in feet on hips guard
 - **Risk**: The backstep creates lateral space that the opponent may exploit by transitioning to sickle sweep or establishing De La Riva guard on the retreating leg
 
 ### 2. Lower your base by dropping to combat base or widening your stance with deeply bent knees
 
 - **When to use**: When you recognize the sweep setup developing but before the hook is fully established, giving you time to change your posture rather than move your feet
-- **Targets**: [[Feet on Hips Guard]]
+- **Targets**: [[Positions/Feet on Hips Guard]]
 - **If successful**: Your lowered center of gravity makes the backward topple mechanically impossible as the opponent cannot generate sufficient force to move your mass from below
 - **Risk**: Dropping your base may open opportunities for butterfly guard hook entries, tomoe nage attempts, or collar drag attacks that exploit your lowered posture
 
 ### 3. Strip the far ankle grip with your hand and immediately initiate a guard pass
 
 - **When to use**: When the opponent commits their hand to your far ankle, creating an upper body opening that you can exploit while removing a critical sweep control point
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You break the three-point sweep mechanics entirely and convert the opponent's committed position into a guard passing opportunity, advancing to at least half guard
 - **Risk**: If the grip strip fails or is too slow, you have removed your defensive hand from its framing position and may be swept before you can recover
 
 ### 4. Step the far ankle away laterally while driving forward pressure through your grips and chest
 
 - **When to use**: When you feel the hand grab on your far ankle before the full sweep configuration is set, allowing you to remove the grip target while advancing your passing pressure
-- **Targets**: [[Feet on Hips Guard]]
+- **Targets**: [[Positions/Feet on Hips Guard]]
 - **If successful**: Removes one of the three critical sweep contact points while simultaneously advancing your position toward a guard pass
 - **Risk**: Lateral movement may open an angle for the sickle sweep variation if the opponent reads your directional shift and redirects their attack
 
@@ -217,11 +217,11 @@ When facing the tripod sweep from feet-on-hips guard, the defender must recogniz
 
 ## Best-Case Outcomes for Defender
 
-### → [[Feet on Hips Guard]]
+### → [[Positions/Feet on Hips Guard]]
 
 React instantly to any foot movement from the opponent's hip toward your ankle by backstepping the targeted leg and re-establishing your base. Maintain active grip fighting on their pants at the knees to prevent the setup configuration from developing. Keep constant forward pressure to make the sweep mechanically difficult.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the opponent commits fully to the sweep attempt with their hand on your ankle and foot transitioning to the hook, use their extended and committed position as an opening to advance past their guard. Drive forward past the hook, controlling their hooking leg, and establish half guard top position where you have significant passing advantage.
 

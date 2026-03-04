@@ -154,7 +154,7 @@ description: "Master defending the Sweep from Double Jump in BJJ. Learn recognit
 
 Defending the Sweep from Double Jump requires the top player to recognize the sweep initiation before full commitment and respond with appropriate base recovery or counter-passing actions. The defender's primary challenge is that the Double Jump bottom position has already compromised their base through bilateral leg insertion, meaning prevention of the sweep must begin before the bottom player initiates the hip bridge. Effective defense combines early recognition of sweep setup cues, immediate base widening or posting responses, and systematic counter-passing to convert a defensive moment into an offensive passing opportunity. The most critical principle is maintaining posture and posting capability throughout—the sweep only succeeds when the defender's posting arm is controlled and their weight is committed forward without escape routes.
 
-**Opponent's Starting Position**: [[Double Jump]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Double Jump]] (Bottom)
 
 </section>
 
@@ -190,28 +190,28 @@ Defending the Sweep from Double Jump requires the top player to recognize the sw
 ### 1. Post far hand wide on the mat and sprawl hips back to flatten base
 
 - **When to use**: Immediately upon feeling opponent secure near arm control or sensing the initial hip bridge movement beginning
-- **Targets**: [[Double Jump]]
+- **Targets**: [[Positions/Double Jump]]
 - **If successful**: Sweep force is absorbed by your wide posted base, opponent remains in bottom position with diminished hook depth, opening guard passing opportunities
 - **Risk**: If posting is too late, the sweep momentum may be sufficient to roll you despite the post, potentially landing in a worse scramble position
 
 ### 2. Strip near arm control by pulling elbow tight to body and circling wrist free
 
 - **When to use**: As soon as opponent grips your near wrist or sleeve, before they can establish the full sweep setup with proper angle
-- **Targets**: [[Double Jump]]
+- **Targets**: [[Positions/Double Jump]]
 - **If successful**: Without near arm control, the sweep cannot be executed effectively, and you maintain full posting capability to defend any subsequent sweep attempts
 - **Risk**: Focusing on grip fighting may distract from maintaining base, and opponent may use the grip fight as a setup for alternative attacks
 
 ### 3. Drive heavy crossface pressure and work to extract legs from Double Jump hooks
 
 - **When to use**: When you have maintained posting capability and the sweep has not yet been initiated, using forward pressure to flatten opponent and systematically remove leg hooks
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Extracting legs from Double Jump hooks while maintaining crossface leads directly to guard pass completion into side control
 - **Risk**: Forward pressure during leg extraction can be redirected by the opponent if they time a sweep attempt during your weight shift
 
 ### 4. Stand up rapidly to disengage from Double Jump hooks entirely
 
 - **When to use**: When opponent has established deep hooks and near arm control making ground-based defense unlikely to succeed
-- **Targets**: [[Double Jump]]
+- **Targets**: [[Positions/Double Jump]]
 - **If successful**: Standing removes the leverage platform the opponent needs for the sweep and forces them to transition to standing guard attacks or release hooks
 - **Risk**: Standing may expose you to X-Guard or single leg X-Guard transitions that carry their own sweep threats
 
@@ -223,11 +223,11 @@ Defending the Sweep from Double Jump requires the top player to recognize the sw
 
 ## Best-Case Outcomes for Defender
 
-### → [[Double Jump]]
+### → [[Positions/Double Jump]]
 
 Strip near arm control early and widen base with far hand post to neutralize sweep angle. Once posting is secured, work to extract leg hooks systematically while maintaining crossface pressure to prevent re-establishment of sweep setup.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Use heavy crossface and hip pressure to flatten the opponent while systematically extracting their leg hooks. Drive your hips through their guard as hooks release, completing the pass into side control. This converts a defensive situation into an offensive pass completion.
 

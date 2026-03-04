@@ -21,7 +21,7 @@ Mastering posture recovery is crucial because it represents the difference betwe
 
 When executed properly, posture recovery neutralizes the guard player's attacks while preserving your energy and positioning for continued passing attempts. The technique chains directly into combat base establishment and guard opening sequences, making it the essential first link in any guard passing chain. Advanced practitioners develop the ability to recover posture while simultaneously addressing submission threats and transitioning immediately into passing attacks, turning a defensive moment into an offensive opportunity.
 
-**From Position**: [[Closed Guard]] (Top)
+**From Position**: [[Positions/Closed Guard]] (Top)
 **Success Rate**: 75%
 
 </section>
@@ -32,9 +32,9 @@ When executed properly, posture recovery neutralizes the guard player's attacks 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Combat Base]] | 75% |
-| Failure | [[Closed Guard]] | 15% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Combat Base]] | 75% |
+| Failure | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -196,29 +196,29 @@ Posture Recovery is a critical defensive technique within the guard passing syst
 ## Related Techniques
 
 
-- [[Combat Base]] - Target position - the stable position you aim to achieve after recovering posture
+- [[Positions/Combat Base]] - Target position - the stable position you aim to achieve after recovering posture
 
-- [[Closed Guard]] - Common starting position - where posture is frequently broken and recovery is needed
+- [[Positions/Closed Guard]] - Common starting position - where posture is frequently broken and recovery is needed
 
-- [[Guard Recovery from Combat Base]] - Counter technique - what opponent attempts when you successfully recover posture
+- [[Transitions/Guard Recovery from Combat Base]] - Counter technique - what opponent attempts when you successfully recover posture
 
-- [[Armbar from Guard]] - Common threat - submission often attempted when posture is broken
+- [[Submissions/Armbar from Guard]] - Common threat - submission often attempted when posture is broken
 
-- [[Closed Guard to Triangle]] - Common threat - triangle setup that can occur during recovery if arms are exposed
+- [[Transitions/Closed Guard to Triangle]] - Common threat - triangle setup that can occur during recovery if arms are exposed
 
-- [[Technical Stand-up]] - Alternative technique - another method to escape broken posture situations
+- [[Transitions/Technical Stand-up]] - Alternative technique - another method to escape broken posture situations
 
-- [[Knee Shield Retention]] - Related defense - what opponent may transition to if you recover too aggressively
+- [[Transitions/Knee Shield Retention]] - Related defense - what opponent may transition to if you recover too aggressively
 
-- [[Grip Break]] - Prerequisite skill - breaking collar and sleeve grips before initiating recovery
+- [[Transitions/Grip Break]] - Prerequisite skill - breaking collar and sleeve grips before initiating recovery
 
-- [[Guard Opening Sequence]] - Follow-up technique - the next step after recovering posture in closed guard
+- [[Transitions/Guard Opening Sequence]] - Follow-up technique - the next step after recovering posture in closed guard
 
-- [[Posture Recovery to Closed Guard]] - Related transition - returning to stable closed guard top after recovery
+- [[Transitions/Posture Recovery to Closed Guard]] - Related transition - returning to stable closed guard top after recovery
 
-- [[Hip Bump Sweep]] - Counter threat - common sweep exploiting backward weight shift during recovery
+- [[Transitions/Hip Bump Sweep]] - Counter threat - common sweep exploiting backward weight shift during recovery
 
-- [[Combat Base to Headquarters]] - Follow-up transition - progressing from recovered posture into deeper passing position
+- [[Transitions/Combat Base to Headquarters]] - Follow-up transition - progressing from recovered posture into deeper passing position
 
 
 </section>

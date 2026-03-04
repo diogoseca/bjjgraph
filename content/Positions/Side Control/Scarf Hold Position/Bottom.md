@@ -210,23 +210,23 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 
 ## Available Escapes
 
-### [[Bridge and Roll]] (12% of attempts)
+### [[Transitions/Bridge and Roll]] (12% of attempts)
 
-### [[Elbow Escape to Guard]] (14% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (14% of attempts)
 
-### [[Hip Escape to Guard]] (11% of attempts)
+### [[Transitions/Hip Escape to Guard]] (11% of attempts)
 
-### [[Ghost Escape]] (12% of attempts)
+### [[Transitions/Ghost Escape]] (12% of attempts)
 
-### [[Frame and Shrimp to Guard]] (12% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (12% of attempts)
 
-### [[Arm Extraction to Turtle]] (31% of attempts)
+### [[Transitions/Arm Extraction to Turtle]] (31% of attempts)
 
-### [[Bridge from Scarf Hold Position]] (5% of attempts)
+### [[Transitions/Bridge from Scarf Hold Position]] (5% of attempts)
 
-### [[Escape Scarf Hold Position]] (2% of attempts)
+### [[Transitions/Escape Scarf Hold Position]] (2% of attempts)
 
-### [[Bridge Escape from Scarf Hold]] (1% of attempts)
+### [[Transitions/Bridge Escape from Scarf Hold]] (1% of attempts)
 
 
 
@@ -237,31 +237,31 @@ Scarf Hold Bottom presents both immediate submission dangers through arm locks (
 ## Decision Making from This Position
 
 **If opponent maintains tight control with heavy hip pressure and secure head control without attacking submissions:**
-- Execute **[[Frame and Shrimp to Guard]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Shrimp Escape]]** → [[Scarf Hold Position]] (Probability: 60%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Side Control/Scarf Hold Position]] (Probability: 60%)
 
 
 **If opponent shifts weight forward attempting to transition to mount or north-south:**
-- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 55%)
-- Execute **[[Ghost Escape]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Arm Extraction to Turtle]]** → [[Turtle]] (Probability: 40%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Ghost Escape]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 40%)
 
 
 **If opponent releases head control or loosens cross-face to attack far arm for americana or kimura:**
-- Execute **[[Hip Escape to Guard]]** → [[Closed Guard]] (Probability: 60%)
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
 
 
 **If opponent posts their far arm wide for base or extends back leg creating narrow base:**
-- Execute **[[Bridge and Roll]]** → [[Scramble Position]] (Probability: 55%)
-- Execute **[[Shrimp Escape]]** → [[Scramble Position]] (Probability: 50%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Scramble Position]] (Probability: 55%)
+- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Scramble Position]] (Probability: 50%)
 
 
 **If opponent sits back heavily on their hip creating space between their chest and your hips:**
-- Execute **[[Arm Extraction to Turtle]]** → [[Turtle]] (Probability: 60%)
-- Execute **[[Ghost Escape]]** → [[Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Arm Extraction to Turtle]]** → [[Positions/Turtle]] (Probability: 60%)
+- Execute **[[Transitions/Ghost Escape]]** → [[Positions/Turtle]] (Probability: 55%)
 
 
 
@@ -383,15 +383,15 @@ Specific training for transitioning from scarf hold bottom to turtle position. P
 
 ## Related Positions and Techniques
 
-- **[[Scarf Hold Position]]** - Parent position - umbrella category for both perspectives
-- **[[Kesa Gatame]]** - Traditional judo terminology for same position
-- **[[Side Control]]** - Similar defensive pin with parallel angle requiring different escape mechanics
-- **[[Reverse Kesa-Gatame]]** - Opposite-facing variation requiring modified escape strategies
-- **[[North-South]]** - Common opponent transition when escapes are attempted
-- **[[Mount]]** - Higher-risk position opponent may advance to
-- **[[Turtle]]** - Primary escape target offering defensive stability
-- **[[Half Guard]]** - Primary guard recovery target for partial escape
-- **[[Bridge and Roll]]** - Primary escape technique requiring explosive power and arm trapping
+- **[[Positions/Side Control/Scarf Hold Position]]** - Parent position - umbrella category for both perspectives
+- **[[Positions/Side Control/Kesa Gatame]]** - Traditional judo terminology for same position
+- **[[Positions/Side Control]]** - Similar defensive pin with parallel angle requiring different escape mechanics
+- **[[Positions/Side Control/Reverse Kesa-Gatame]]** - Opposite-facing variation requiring modified escape strategies
+- **[[Positions/North-South]]** - Common opponent transition when escapes are attempted
+- **[[Positions/Mount]]** - Higher-risk position opponent may advance to
+- **[[Positions/Turtle]]** - Primary escape target offering defensive stability
+- **[[Positions/Half Guard]]** - Primary guard recovery target for partial escape
+- **[[Transitions/Bridge and Roll]]** - Primary escape technique requiring explosive power and arm trapping
 
 
 </section>

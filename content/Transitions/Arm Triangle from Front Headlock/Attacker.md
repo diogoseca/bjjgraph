@@ -178,7 +178,7 @@ Strategically, this transition exploits a common defensive reaction. When your o
 
 The transition works best when chained with other front headlock threats. If your opponent defends the guillotine by turning their head and tucking their chin, the arm triangle becomes available because their defensive rotation exposes the head-and-arm alignment. This makes it a natural second attack in the front headlock submission chain, punishing the very defenses your opponent uses against your primary threats.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ The transition works best when chained with other front headlock threats. If you
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Front Headlock]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Front Headlock]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ The transition works best when chained with other front headlock threats. If you
 
 ## Opponent Counters
 
-- **Opponent frames on your hip and circles away before you can lock the grip, creating enough space to extract their trapped arm and recover to turtle or half guard** (Effectiveness: High) - Your Response: Anticipate the hip frame by keeping your weight low and chest glued to their back. If they start circling, switch to a back take by following their movement and inserting hooks rather than forcing the arm triangle. → Leads to [[Half Guard]]
-- **Opponent clasps hands together in a gable grip to prevent you from isolating their near arm against their neck, creating a strong defensive structure** (Effectiveness: Medium) - Your Response: Use your chest pressure to drive their clasped hands toward their own face while pummeling your arm deeper behind their neck. Alternatively, attack the guillotine or darce since their hand position leaves those lines open. → Leads to [[Front Headlock]]
-- **Opponent stands up explosively while you are reconfiguring your grip, using the transition moment to improve their posture and break free from the compromised bent-forward position** (Effectiveness: Medium) - Your Response: If they begin to stand, snap their head back down immediately. If they achieve height, switch to a standing guillotine by pulling guard, or release the head and transition to a body lock takedown. → Leads to [[Front Headlock]]
-- **Opponent rolls through toward the trapped arm side during the transition to side control, attempting to invert and recover guard before the choke is consolidated** (Effectiveness: Low) - Your Response: Follow their roll by maintaining your squeeze and transitioning to mount if they end up on their back. The roll often makes the choke tighter if you stay connected, so maintain your grip and settle into the finishing position from whatever angle results. → Leads to [[Half Guard]]
+- **Opponent frames on your hip and circles away before you can lock the grip, creating enough space to extract their trapped arm and recover to turtle or half guard** (Effectiveness: High) - Your Response: Anticipate the hip frame by keeping your weight low and chest glued to their back. If they start circling, switch to a back take by following their movement and inserting hooks rather than forcing the arm triangle. → Leads to [[Positions/Half Guard]]
+- **Opponent clasps hands together in a gable grip to prevent you from isolating their near arm against their neck, creating a strong defensive structure** (Effectiveness: Medium) - Your Response: Use your chest pressure to drive their clasped hands toward their own face while pummeling your arm deeper behind their neck. Alternatively, attack the guillotine or darce since their hand position leaves those lines open. → Leads to [[Positions/Front Headlock]]
+- **Opponent stands up explosively while you are reconfiguring your grip, using the transition moment to improve their posture and break free from the compromised bent-forward position** (Effectiveness: Medium) - Your Response: If they begin to stand, snap their head back down immediately. If they achieve height, switch to a standing guillotine by pulling guard, or release the head and transition to a body lock takedown. → Leads to [[Positions/Front Headlock]]
+- **Opponent rolls through toward the trapped arm side during the transition to side control, attempting to invert and recover guard before the choke is consolidated** (Effectiveness: Low) - Your Response: Follow their roll by maintaining your squeeze and transitioning to mount if they end up on their back. The roll often makes the choke tighter if you stay connected, so maintain your grip and settle into the finishing position from whatever angle results. → Leads to [[Positions/Half Guard]]
 
 
 </section>

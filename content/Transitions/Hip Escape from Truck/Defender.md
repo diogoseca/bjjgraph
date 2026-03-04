@@ -146,7 +146,7 @@ description: "Counter the hip escape from truck as the top player. Maintain truc
 
 As the truck top player defending against the hip escape, your objective is to maintain the dominant truck position by neutralizing the bottom player's shrimping mechanics and preserving the leg entanglement that enables your submission attacks. The hip escape represents the bottom player's most methodical escape attempt, and countering it requires understanding the sequential nature of their escape mechanics. By maintaining strong boot pressure, following their hip movement with matching pressure, and recognizing when to transition to back control rather than fighting to maintain truck, you can keep the positional advantage regardless of their escape attempts.
 
-**Opponent's Starting Position**: [[Truck]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Twister Control/Truck]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the truck top player defending against the hip escape, your objective is to m
 ### 1. Increase boot pressure and drive hips forward to counteract shrimping
 
 - **When to use**: As soon as you detect the bottom player posting their free foot or beginning lateral hip movement. Apply immediately to prevent the first hip escape from creating any distance.
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: Bottom player's hip escape is neutralized and they remain in truck with your control fully intact, allowing continued submission hunting
 - **Risk**: Over-committing weight forward can expose you to a granby roll counter if the bottom player reads your forward pressure
 
 ### 2. Transition to back control by inserting hooks during hip escape movement
 
 - **When to use**: When the bottom player has created enough distance through hip escapes that the truck entanglement is loosening and leg extraction appears imminent. Proactively transition rather than losing position entirely.
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You maintain dominant position through back control with hooks, preserving your positional advantage even though truck was lost
 - **Risk**: Hook insertion may be shallow if timed poorly, giving the bottom player immediate escape opportunity from back control
 
 ### 3. Attack calf slicer on trapped leg during extraction attempt
 
 - **When to use**: When bottom player begins circular leg extraction motion. Their movement creates angles that can be exploited for calf slicer by extending their trapped leg while they are focused on escape mechanics.
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: Bottom player must abandon escape and defend the calf slicer, resetting you to full truck control with submission pressure
 - **Risk**: Committing to the calf slicer attack may loosen your overall control if the submission fails and the bottom player continues extraction
 
 ### 4. Tighten leg entanglement and re-establish upper body control
 
 - **When to use**: When bottom player has created partial distance but has not yet begun leg extraction. Close the gap by following their movement and re-establishing the connections that were loosened.
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: Position is fully restored to starting control level, negating the bottom player's escape progress and forcing them to restart
 - **Risk**: Following movement aggressively may result in scramble if bottom player is further along in escape than you estimated
 
@@ -217,11 +217,11 @@ As the truck top player defending against the hip escape, your objective is to m
 
 ## Best-Case Outcomes for Defender
 
-### → [[Truck]]
+### → [[Positions/Twister Control/Truck]]
 
 Maintain strong boot pressure throughout the escape attempt, follow the bottom player's hip movement with matching pressure, and tighten leg entanglement when you feel extraction attempts beginning. Use submission threats to interrupt systematic escape sequences.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Recognize when the truck position is becoming untenable and proactively transition to back control by inserting hooks during the bottom player's hip escape movement. Accept the positional change as a strategic improvement over losing control entirely.
 

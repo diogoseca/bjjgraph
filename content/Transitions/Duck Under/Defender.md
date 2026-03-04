@@ -158,7 +158,7 @@ The defensive hierarchy against the Duck Under operates in phases tied to how de
 
 The best defenders do not simply react to Duck Under attempts but proactively remove the conditions that make the technique available. By maintaining disciplined elbow positioning, avoiding overcommitting weight forward, and keeping grip fighting active, you deny the attacker the setup they need. When a Duck Under is initiated despite your preventive efforts, immediate recognition and decisive counter-action within the first half-second of their level change determines whether you defend successfully or concede back control.
 
-**Opponent's Starting Position**: [[Clinch]] (Top)
+**Opponent's Starting Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The best defenders do not simply react to Duck Under attempts but proactively re
 ### 1. Sprawl hips back and drive opponent's head down to establish front headlock control
 
 - **When to use**: Immediately upon recognizing the level change, before opponent threads underneath your arm. Most effective in the first half-second of their level drop.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You establish Front Headlock position with dominant head and arm control, creating your own offensive opportunities for guillotine, darce, or anaconda entries
 - **Risk**: If sprawl is late or half-committed, opponent may complete the duck under while you are off-balance with hips extended, making recovery to clinch very difficult
 
 ### 2. Apply strong overhook (whizzer) on the arm closest to opponent's ducking direction and drive downward hip pressure
 
 - **When to use**: When opponent has already begun threading and it is too late to sprawl effectively. The whizzer stops their circling motion and buys time to re-square your hips.
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: You halt their circle and can pummel back to neutral clinch by re-squaring your hips while maintaining the whizzer as a control point until you establish new grips
 - **Risk**: A committed attacker can limp-arm through the whizzer or use your overhook commitment to complete the circle, especially if you fail to re-square your hips quickly
 
 ### 3. Pivot aggressively to face opponent by turning your hips toward them and re-establishing squared clinch position
 
 - **When to use**: When opponent has passed your centerline and is beginning to circle behind you. This is the last-resort defense before they establish rear clinch.
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: You re-face the opponent and return to neutral clinch position, negating their positional advantage and allowing you to resume grip fighting
 - **Risk**: If your pivot is too slow, opponent secures chest-to-back connection and rear clinch grips before you complete the turn, leaving you in Standing Rear Clinch bottom
 
 ### 4. Drop level simultaneously and shoot a double leg or establish underhook to counter-attack
 
 - **When to use**: When you read the duck under setup early and want to preempt the attack rather than defend passively. Best used when opponent telegraphs with exaggerated collar tie pressure.
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Your own offensive attack disrupts their duck under timing and forces them to defend, returning the exchange to neutral or giving you a takedown opportunity
 - **Risk**: If your timing is off and opponent has already committed to the duck, your level change can accelerate their threading by lowering the lane they need to pass through
 
@@ -228,11 +228,11 @@ The best defenders do not simply react to Duck Under attempts but proactively re
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Sprawl your hips back explosively the instant you feel the level change, driving your weight down on opponent's head and shoulders. Secure a front headlock by wrapping your arm around their neck as they duck, using their own forward momentum against them. This converts their offensive attempt into your dominant control position.
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Apply an immediate whizzer on the ducking side to arrest their circle, then aggressively pivot your hips to re-face them. As you re-square, pummel the whizzer back to an underhook to re-establish neutral clinch. The key is combining the whizzer with active hip movement rather than relying on the whizzer alone.
 

@@ -158,7 +158,7 @@ The defender's primary challenge is managing the dilemma between relieving guill
 
 Defensive success depends on early recognition and decisive action during the transition window. If you feel the attacker's arm beginning to slide under your armpit rather than continuing to squeeze the guillotine, you must immediately retract your frame and re-establish tight defensive posture. Waiting even one second too long allows the anaconda grip to lock, at which point your defensive options narrow significantly to grip fighting and hip escape rather than outright denial of the position.
 
-**Opponent's Starting Position**: [[Hindulotine]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Defensive success depends on early recognition and decisive action during the tr
 ### 1. Retract defensive frame and re-tuck arm tight to body before attacker can thread under armpit
 
 - **When to use**: As soon as you feel the attacker's arm beginning to slide under your armpit during the grip transition
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: Denies the anaconda entry entirely, returning to standard Hindulotine where you can work other escapes
 - **Risk**: Re-exposes you to full guillotine pressure since you removed the frame that was creating space
 
 ### 2. Posture up explosively while grip is transitioning, driving head and shoulders upward to extract from the neck control
 
 - **When to use**: During the brief moment when the attacker releases guillotine grip to rethread for anaconda, creating a gap in control
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Escape the neck attack entirely and recover to closed guard or neutral position
 - **Risk**: If timing is wrong and anaconda is already locked, explosive posturing tightens the choke against you
 
 ### 3. Circle hips away from attacker while fighting the grip at the wrist to prevent figure-four from locking
 
 - **When to use**: When you feel the anaconda arm threading but before the figure-four grip is fully secured
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: Creates enough angle that the anaconda cannot lock properly, forcing attacker back to guillotine attempt
 - **Risk**: If you turn too far while circling, you may expose your back for a back take
 
 ### 4. Drive forward aggressively to stack the attacker while pulling your trapped arm free from the developing loop
 
 - **When to use**: When anaconda grip is partially established but not yet fully tightened with hip walk
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Forward pressure collapses the attacker's guard structure and allows you to extract into top position or closed guard
 - **Risk**: Driving forward with head down can increase neck compression if the grip is tighter than anticipated
 
@@ -228,11 +228,11 @@ Defensive success depends on early recognition and decisive action during the tr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Hindulotine]]
+### → [[Positions/Hindulotine]]
 
 Retract your defensive frame immediately when you recognize the arm threading motion, keeping your elbow pinched tight to your body to block the under-armpit path. This denies the anaconda entry and returns to standard Hindulotine, where you still face the guillotine but have removed the anaconda threat.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time an explosive posture-up during the grip transition window when the attacker momentarily releases the guillotine to rethread for anaconda. Drive your head and shoulders upward while pushing off the attacker's hips with your hands. If you create enough separation, disengage to closed guard and reset the engagement entirely.
 

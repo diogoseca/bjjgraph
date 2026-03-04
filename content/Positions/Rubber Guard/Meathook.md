@@ -101,25 +101,25 @@ Understanding Meathook requires grasping its place in the larger Rubber Guard ec
 ### Available Transitions
 
 
-- **[[Meathook to Gogoplata Control]]** (11% of attempts)
+- **[[Transitions/Meathook to Gogoplata Control]]** (11% of attempts)
 
-- **[[Triangle Setup]]** (18% of attempts)
+- **[[Transitions/Triangle Setup]]** (18% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (11% of attempts)
+- **[[Transitions/Closed Guard to Omoplata]]** (11% of attempts)
 
-- **[[Crackhead Control to Carni]]** (10% of attempts)
+- **[[Transitions/Crackhead Control to Carni]]** (10% of attempts)
 
-- **[[Armbar from Guard]]** (8% of attempts)
+- **[[Submissions/Armbar from Guard]]** (8% of attempts)
 
-- **[[Omoplata to Back]]** (7% of attempts)
+- **[[Transitions/Omoplata to Back]]** (7% of attempts)
 
-- **[[Crackhead Control to Mission Control]]** (11% of attempts)
+- **[[Transitions/Crackhead Control to Mission Control]]** (11% of attempts)
 
-- **[[Baratoplata Setup]]** (10% of attempts)
+- **[[Transitions/Baratoplata Setup]]** (10% of attempts)
 
-- **[[Tarikoplata Setup]]** (10% of attempts)
+- **[[Transitions/Tarikoplata Setup]]** (10% of attempts)
 
-- **[[Sweep from Meathook]]** (4% of attempts)
+- **[[Transitions/Sweep from Meathook]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -184,19 +184,19 @@ Understanding Meathook requires grasping its place in the larger Rubber Guard ec
 ### Available Transitions
 
 
-- **[[Arm Extraction]]** (28% of attempts)
+- **[[Transitions/Arm Extraction]]** (28% of attempts)
 
-- **[[Posture Recovery]]** (17% of attempts)
+- **[[Transitions/Posture Recovery]]** (17% of attempts)
 
-- **[[Stack Defense]]** (17% of attempts)
+- **[[Transitions/Stack Defense]]** (17% of attempts)
 
-- **[[Sprawl]]** (12% of attempts)
+- **[[Transitions/Sprawl]]** (12% of attempts)
 
-- **[[Guard Opening Sequence]]** (17% of attempts)
+- **[[Transitions/Guard Opening Sequence]]** (17% of attempts)
 
-- **[[Posture Recovery from Meathook]]** (6% of attempts)
+- **[[Transitions/Posture Recovery from Meathook]]** (6% of attempts)
 
-- **[[Stack Pass from Meathook]]** (3% of attempts)
+- **[[Transitions/Stack Pass from Meathook]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -239,23 +239,23 @@ Understanding Meathook requires grasping its place in the larger Rubber Guard ec
 ## Related Positions
 
 
-- **[[Mission Control]]** - Primary entry position—Meathook typically follows Mission Control in Rubber Guard progression
+- **[[Positions/Rubber Guard/Mission Control]]** - Primary entry position—Meathook typically follows Mission Control in Rubber Guard progression
 
-- **[[Carni]]** - Common transition when opponent attempts to extract arm—leads to omoplata setups
+- **[[Positions/Rubber Guard/Carni]]** - Common transition when opponent attempts to extract arm—leads to omoplata setups
 
-- **[[Gogoplata Control]]** - Direct finishing position when opponent drives forward from Meathook
+- **[[Positions/Gogoplata Control]]** - Direct finishing position when opponent drives forward from Meathook
 
-- **[[Triangle Control]]** - Alternative finish when opponent attempts to circle away from trapped arm
+- **[[Positions/Triangle Control]]** - Alternative finish when opponent attempts to circle away from trapped arm
 
-- **[[Omoplata Control]]** - High-percentage transition when opponent tries to spin arm free
+- **[[Positions/Omoplata Control]]** - High-percentage transition when opponent tries to spin arm free
 
-- **[[New York]]** - Alternative Rubber Guard control that can transition to Meathook
+- **[[Positions/Rubber Guard/New York]]** - Alternative Rubber Guard control that can transition to Meathook
 
-- **[[Closed Guard]]** - Starting position—Meathook represents advanced evolution of traditional guard control
+- **[[Positions/Closed Guard]]** - Starting position—Meathook represents advanced evolution of traditional guard control
 
-- **[[Armbar Control]]** - Can transition if opponent overcommits to posture recovery
+- **[[Positions/Armbar Control]]** - Can transition if opponent overcommits to posture recovery
 
-- **[[Back Control]]** - Available when opponent attempts to stack or pressure pass
+- **[[Positions/Back Control]]** - Available when opponent attempts to stack or pressure pass
 
 
 </section>

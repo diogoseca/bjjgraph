@@ -21,7 +21,7 @@ Execution demands precise timing and commitment. The practitioner must recognize
 
 This reversal carries moderate risk because committing to the pass requires continued proximity to the triangle. If the triangle structure has not been sufficiently compromised, the lateral movement can actually tighten the choke. Proper assessment of the triangle's remaining integrity is therefore the most critical skill in this technique, separating successful reversals from accelerated submissions. Training this technique develops the broader ability to recognize offensive opportunities within defensive sequences, a skill that distinguishes advanced practitioners from those who treat defense and offense as entirely separate phases of grappling.
 
-**From Position**: [[Triangle Escape Position]] (Bottom)
+**From Position**: [[Positions/Triangle Escape Position]] (Bottom)
 **Success Rate**: 38%
 
 </section>
@@ -32,9 +32,9 @@ This reversal carries moderate risk because committing to the pass requires cont
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 38% |
-| Failure | [[Triangle Escape Position]] | 37% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Side Control]] | 38% |
+| Failure | [[Positions/Triangle Escape Position]] | 37% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Reversal from Triangle Escape sits at the intersection of submission defense
 ## Related Techniques
 
 
-- [[Complete Triangle Escape]] - Standard escape sequence that this reversal extends by adding an offensive guard pass component
+- [[Transitions/Complete Triangle Escape]] - Standard escape sequence that this reversal extends by adding an offensive guard pass component
 
-- [[Complete Triangle Escape from Top]] - Alternative full escape technique that disengages entirely rather than converting to a pass
+- [[Transitions/Complete Triangle Escape from Top]] - Alternative full escape technique that disengages entirely rather than converting to a pass
 
-- [[Posture in Triangle]] - Essential precursor technique establishing the postural foundation needed to initiate the reversal
+- [[Transitions/Posture in Triangle]] - Essential precursor technique establishing the postural foundation needed to initiate the reversal
 
-- [[Side Control]] - Target position achieved when the reversal succeeds, requiring immediate consolidation
+- [[Positions/Side Control]] - Target position achieved when the reversal succeeds, requiring immediate consolidation
 
-- [[Mount]] - Position the opponent achieves when the reversal is countered through a sweep during forward commitment
+- [[Positions/Mount]] - Position the opponent achieves when the reversal is countered through a sweep during forward commitment
 
-- [[Closed Guard]] - Common recovery position the triangle holder transitions to when the reversal is partially defended
+- [[Positions/Closed Guard]] - Common recovery position the triangle holder transitions to when the reversal is partially defended
 
-- [[Omoplata Control]] - Alternative attack the triangle holder may transition to when their triangle structure is compromised
+- [[Positions/Omoplata Control]] - Alternative attack the triangle holder may transition to when their triangle structure is compromised
 
-- [[Combat Base]] - Intermediate postural position often established during the stacking phase before initiating the reversal
+- [[Positions/Combat Base]] - Intermediate postural position often established during the stacking phase before initiating the reversal
 
-- [[Armbar Control]] - Secondary submission threat the triangle holder may attempt during the arm extraction phase
+- [[Positions/Armbar Control]] - Secondary submission threat the triangle holder may attempt during the arm extraction phase
 
-- [[Triangle Choke]] - The submission attack that creates the defensive context requiring this reversal technique
+- [[Transitions/Triangle Choke]] - The submission attack that creates the defensive context requiring this reversal technique
 
 
 </section>

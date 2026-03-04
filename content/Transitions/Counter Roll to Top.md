@@ -21,7 +21,7 @@ The technique requires precise timing and commitment. Unlike incremental escapes
 
 From a strategic perspective, this escape is most effective against aggressive opponents who overcommit to submission attacks or positional advancement. The technique capitalizes on the temporary weight distribution changes that occur when the top player shifts to attack the neck, transition to mount, or secure a tighter arm trap. Understanding these windows is essential for successful execution.
 
-**From Position**: [[Gift Wrap]] (Bottom)
+**From Position**: [[Positions/Gift Wrap]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic perspective, this escape is most effective against aggressive o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Gift Wrap]] | 55% |
-| Failure | [[Gift Wrap]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Gift Wrap]] | 55% |
+| Failure | [[Positions/Gift Wrap]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ Counter Roll to Top represents a high-variance escape option within the Gift Wra
 ## Related Techniques
 
 
-- [[Gift Wrap]] - Starting and ending position for this reversal technique
+- [[Positions/Gift Wrap]] - Starting and ending position for this reversal technique
 
-- [[Back Control]] - Counter outcome position if roll fails and opponent improves control
+- [[Positions/Back Control]] - Counter outcome position if roll fails and opponent improves control
 
-- [[Back Door Escape]] - Broader escape system this technique complements as a high-variance option
+- [[Transitions/Back Door Escape]] - Broader escape system this technique complements as a high-variance option
 
-- [[Bridge and Roll]] - Related escape mechanic using similar explosive bridging principles
+- [[Transitions/Bridge and Roll]] - Related escape mechanic using similar explosive bridging principles
 
-- [[Crucifix]] - Risk position if roll stalls midway exposing second arm
+- [[Positions/Crucifix]] - Risk position if roll stalls midway exposing second arm
 
-- [[Turtle]] - Alternative escape target if reversal fails but position improves
+- [[Positions/Turtle]] - Alternative escape target if reversal fails but position improves
 
-- [[Hip Escape to Guard]] - Backup technique when Counter Roll timing window is not available
+- [[Transitions/Hip Escape to Guard]] - Backup technique when Counter Roll timing window is not available
 
-- [[Technical Mount]] - Opponent advancement risk if roll is poorly timed and opponent follows
+- [[Positions/Mount/Technical Mount]] - Opponent advancement risk if roll is poorly timed and opponent follows
 
-- [[Gift Wrap Arm Recovery]] - Primary alternative escape focusing on incremental arm recovery
+- [[Transitions/Gift Wrap Arm Recovery]] - Primary alternative escape focusing on incremental arm recovery
 
-- [[Rear Naked Choke]] - Primary submission threat that creates timing windows for this counter
+- [[Transitions/Rear Naked Choke]] - Primary submission threat that creates timing windows for this counter
 
 
 </section>

@@ -21,7 +21,7 @@ Strategically, the Williams Shoulder Lock functions as the apex threat in the Wi
 
 The submission targets the rotator cuff complex and shoulder capsule through external rotation and abduction, making it one of the more dangerous joint locks in the BJJ arsenal. Due to the complexity of shoulder anatomy and the speed at which injury can occur, practitioners must develop exceptional sensitivity to their partner's defensive responses and maintain strict progressive pressure application. The finishing window is narrow — once the three-point control alignment is achieved (deep overhook, proper hip angle, active leg control), the opponent cannot mechanically escape, and patience becomes the primary finishing tool.
 
-**From Position**: [[Williams Guard]] (Bottom)
+**From Position**: [[Positions/Williams Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -33,9 +33,9 @@ The submission targets the rotator cuff complex and shoulder capsule through ext
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Williams Guard]] | 25% |
-| Failure | [[Open Guard]] | 10% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Williams Guard]] | 25% |
+| Failure | [[Positions/Open Guard]] | 10% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -194,29 +194,29 @@ The Williams Shoulder Lock serves as the apex submission threat within the Willi
 ## Related Techniques
 
 
-- [[Williams Guard]] - Starting position — Williams Guard Bottom provides the overhook control platform
+- [[Positions/Williams Guard]] - Starting position — Williams Guard Bottom provides the overhook control platform
 
-- [[Omoplata]] - Primary chain transition when opponent defends by extracting arm
+- [[Transitions/Omoplata]] - Primary chain transition when opponent defends by extracting arm
 
-- [[Triangle Choke Front]] - Alternative submission when opponent posts free hand or creates space
+- [[Submissions/Triangle Choke Front]] - Alternative submission when opponent posts free hand or creates space
 
-- [[Armbar from Guard]] - Follow-up attack when opponent's elbow becomes exposed during arm extraction defense
+- [[Submissions/Armbar from Guard]] - Follow-up attack when opponent's elbow becomes exposed during arm extraction defense
 
-- [[Back Take from Bottom]] - Positional transition when opponent commits to rolling escape
+- [[Transitions/Back Take from Bottom]] - Positional transition when opponent commits to rolling escape
 
-- [[Kimura]] - Alternative shoulder attack sharing arm isolation principles
+- [[Transitions/Kimura]] - Alternative shoulder attack sharing arm isolation principles
 
-- [[Omoplata Control]] - Control position reached when transitioning from failed shoulder lock
+- [[Positions/Omoplata Control]] - Control position reached when transitioning from failed shoulder lock
 
-- [[Closed Guard]] - Foundation guard from which Williams Guard is commonly entered
+- [[Positions/Closed Guard]] - Foundation guard from which Williams Guard is commonly entered
 
-- [[Rubber Guard]] - Related guard system sharing arm control and high-leg attack philosophy
+- [[Positions/Rubber Guard]] - Related guard system sharing arm control and high-leg attack philosophy
 
-- [[Baratoplata]] - Advanced shoulder lock variant with similar overhook mechanics
+- [[Transitions/Baratoplata]] - Advanced shoulder lock variant with similar overhook mechanics
 
-- [[Overhook Control]] - Related control position sharing overhook principles
+- [[Positions/Overhook Control]] - Related control position sharing overhook principles
 
-- [[Open Guard]] - Fallback guard position when shoulder lock fails and guard structure degrades
+- [[Positions/Open Guard]] - Fallback guard position when shoulder lock fails and guard structure degrades
 
 
 </section>

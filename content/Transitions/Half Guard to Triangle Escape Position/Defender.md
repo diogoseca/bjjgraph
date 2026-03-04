@@ -146,7 +146,7 @@ description: "How to prevent the triangle escape position transition in BJJ. Rec
 
 As the defender (the bottom guard player maintaining the triangle), your objective is to prevent the top player from establishing a structured escape position. You have caught the triangle during their half guard passing attempt and now must complete the submission before they can recover posture, establish base, and begin systematic escape sequences. The transition window is your primary opportunity to finish - once the top player successfully establishes the escape position with posture, base, and hip control, your finishing probability drops dramatically. Your defensive priorities are maintaining the head pull to prevent posture recovery, optimizing your choking angle through lateral hip adjustment, and threatening secondary submissions like armbars to disrupt the escape sequence.
 
-**Opponent's Starting Position**: [[Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender (the bottom guard player maintaining the triangle), your objecti
 ### 1. Pull head down aggressively with both hands while squeezing knees together to re-break posture
 
 - **When to use**: Immediately when you feel the opponent beginning to drive upward to recover posture in the early phase of their escape attempt
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Opponent's posture is re-broken, triangle tightens, and you maintain finishing position with optimized angle
 - **Risk**: If opponent has already established strong base, pulling may tire your arms without achieving re-break
 
 ### 2. Transition to armbar by opening triangle and isolating the trapped arm
 
 - **When to use**: When opponent focuses entirely on posture recovery and neglects trapped arm protection, or when they begin loosening their arm position during escape attempts
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Opponent is forced to abandon escape position and address armbar threat, potentially resulting in submission or full reset to triangle
 - **Risk**: Opening the triangle to transition creates a brief window where opponent may extract their arm and escape entirely
 
 ### 3. Scoot hips laterally to optimize choking angle before opponent can establish hip control
 
 - **When to use**: When opponent is focused on posture recovery and has not yet established their free hand on your hip to prevent angle adjustment
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Perpendicular angle maximizes choking pressure, making the triangle exponentially harder to escape even with recovered posture
 - **Risk**: Lateral movement may create space that the opponent exploits to accelerate their posture recovery
 
 ### 4. Control opponent's free arm to prevent posting and base establishment
 
 - **When to use**: When opponent reaches to post their free hand on the mat or your hip during the early transition phase
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Without a posting base, opponent cannot recover posture effectively and remains broken down in the triangle
 - **Risk**: Committing a hand to control their arm may reduce your own pulling power on their head
 
@@ -217,7 +217,7 @@ As the defender (the bottom guard player maintaining the triangle), your objecti
 
 ## Best-Case Outcomes for Defender
 
-### → [[Triangle Control]]
+### → [[Positions/Triangle Control]]
 
 Maintain constant head pull and angle optimization to prevent posture recovery. Squeeze knees together and extend hips before they establish stacking pressure. Threaten armbar transitions to keep them addressing multiple problems simultaneously.
 

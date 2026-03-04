@@ -21,7 +21,7 @@ The transition involves uncrossing the outside leg from the cross ashi configura
 
 From a systems perspective, this transition represents a key connector in the modern leg lock flowchart, linking the cross ashi hub to the 50-50 hub and opening access to inside heel hooks, kneebar entries, back takes, and guard passing sequences that are unique to 50-50. Advanced practitioners chain this transition with entries to saddle, inside ashi, and backside 50-50, creating a continuous entanglement flow that prevents the opponent from establishing stable defensive positions in any single configuration.
 
-**From Position**: [[Cross Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ From a systems perspective, this transition represents a key connector in the mo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 55% |
-| Failure | [[Cross Ashi-Garami]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 55% |
+| Failure | [[Positions/Ashi Garami/Cross Ashi-Garami]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,29 +193,29 @@ The Cross Ashi to 50-50 transition occupies a critical junction in the modern le
 ## Related Techniques
 
 
-- [[Cross Ashi-Garami]] - Starting position for this transition with crossed leg entanglement configuration
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Starting position for this transition with crossed leg entanglement configuration
 
-- [[50-50 Guard]] - Target position providing symmetric leg entanglement with different attack angles
+- [[Positions/Ashi Garami/50-50 Guard]] - Target position providing symmetric leg entanglement with different attack angles
 
-- [[Ashi Garami]] - Parent leg entanglement system containing both cross ashi and 50-50 variations
+- [[Positions/Ashi Garami]] - Parent leg entanglement system containing both cross ashi and 50-50 variations
 
-- [[Saddle]] - Alternative advancement from cross ashi offering superior control mechanics
+- [[Positions/Ashi Garami/Saddle]] - Alternative advancement from cross ashi offering superior control mechanics
 
-- [[Inside Ashi-Garami]] - Related entanglement accessible from both cross ashi and 50-50 positions
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related entanglement accessible from both cross ashi and 50-50 positions
 
-- [[Backside 50-50]] - Adjacent entanglement position reachable from 50-50 after completing transition
+- [[Positions/Ashi Garami/Backside 50-50]] - Adjacent entanglement position reachable from 50-50 after completing transition
 
-- [[Honey Hole]] - Alternative transition target from cross ashi with deeper control structure
+- [[Positions/Ashi Garami/Honey Hole]] - Alternative transition target from cross ashi with deeper control structure
 
-- [[Outside Heel Hook]] - Primary submission available from cross ashi before deciding to transition
+- [[Transitions/Outside Heel Hook]] - Primary submission available from cross ashi before deciding to transition
 
-- [[Inside Heel Hook]] - Submission accessible from 50-50 after completing this transition
+- [[Submissions/Inside Heel Hook]] - Submission accessible from 50-50 after completing this transition
 
-- [[Back Take from 50-50]] - Follow-up positional advancement available after establishing 50-50 top
+- [[Transitions/Back Take from 50-50]] - Follow-up positional advancement available after establishing 50-50 top
 
-- [[Counter Entangle from Cross Ashi]] - Opponent's counter-entanglement response during transition attempts
+- [[Transitions/Counter Entangle from Cross Ashi]] - Opponent's counter-entanglement response during transition attempts
 
-- [[Backside 50-50 Entry from Ashi]] - Alternative entanglement transition from same starting position
+- [[Transitions/Backside 50-50 Entry from Ashi]] - Alternative entanglement transition from same starting position
 
 
 </section>

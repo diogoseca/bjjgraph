@@ -21,7 +21,7 @@ The key strategic principle is addressing the overhook before attempting the pas
 
 This pass integrates with broader guard passing systems as a specialized solution for one of the most common defensive grips encountered during guard work. Practitioners who master this pass remove a key defensive tool from their opponent's arsenal, forcing them into less favorable guard configurations where standard passing sequences become more effective.
 
-**From Position**: [[Overhook Guard]] (Top)
+**From Position**: [[Positions/Overhook Guard]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,10 +32,10 @@ This pass integrates with broader guard passing systems as a specialized solutio
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Overhook Guard]] | 25% |
-| Failure | [[Closed Guard]] | 15% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Overhook Guard]] | 25% |
+| Failure | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -196,29 +196,29 @@ Pass Overhook Guard connects the guard passing game with dominant side control p
 ## Related Techniques
 
 
-- [[Overhook Guard]] - Source position where this pass is initiated
+- [[Positions/Overhook Guard]] - Source position where this pass is initiated
 
-- [[Side Control]] - Primary target position upon successful completion of the pass
+- [[Positions/Side Control]] - Primary target position upon successful completion of the pass
 
-- [[Break Overhook Guard]] - Complementary technique focused on stripping the overhook grip
+- [[Transitions/Break Overhook Guard]] - Complementary technique focused on stripping the overhook grip
 
-- [[Overhook Pass to Side Control]] - Related passing sequence from overhook position
+- [[Transitions/Overhook Pass to Side Control]] - Related passing sequence from overhook position
 
-- [[Overhook to Closed Guard]] - Bottom player's defensive recovery option against this pass
+- [[Transitions/Overhook to Closed Guard]] - Bottom player's defensive recovery option against this pass
 
-- [[Overhook to Half Guard]] - Intermediate position that may occur during passing attempts
+- [[Transitions/Overhook to Half Guard]] - Intermediate position that may occur during passing attempts
 
-- [[Closed Guard]] - Position bottom player may recover to if pass fails
+- [[Positions/Closed Guard]] - Position bottom player may recover to if pass fails
 
-- [[Half Guard]] - Intermediate position during partial pass attempts
+- [[Positions/Half Guard]] - Intermediate position during partial pass attempts
 
-- [[Headquarters Position]] - Related passing position used during guard navigation
+- [[Positions/Headquarters Position]] - Related passing position used during guard navigation
 
-- [[Overhook Control]] - Related arm control concept used in the overhook system
+- [[Positions/Overhook Control]] - Related arm control concept used in the overhook system
 
-- [[Overhook Control Sweep]] - Counter-technique bottom player may attempt during pass
+- [[Transitions/Overhook Control Sweep]] - Counter-technique bottom player may attempt during pass
 
-- [[Mount]] - Position bottom player targets with sweep counters
+- [[Positions/Mount]] - Position bottom player targets with sweep counters
 
 
 </section>

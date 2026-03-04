@@ -26,8 +26,8 @@ This submission represents a critical component of modern leg lock systems and i
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Knee joint (hyperextension of knee ligaments)
-**Starting Position**: [[50-50 Guard]]
-**From Position**: [[50-50 Guard]] (Top)
+**Starting Position**: [[Positions/Ashi Garami/50-50 Guard]]
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -83,8 +83,8 @@ This submission represents a critical component of modern leg lock systems and i
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[Inside Ashi-Garami]] | 15% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
 
 
 </section>
@@ -233,13 +233,13 @@ This submission represents a critical component of modern leg lock systems and i
 
 ## From Which Positions?
 
-- [[50-50 Guard]]
-- [[Inside Ashi-Garami]]
-- [[Outside Ashi-Garami]]
-- [[Single Leg X-Guard]]
-- [[Backside 50-50]]
-- [[Ashi Garami]]
-- [[Open Guard]]
+- [[Positions/Ashi Garami/50-50 Guard]]
+- [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- [[Positions/X-Guard/Single Leg X-Guard]]
+- [[Positions/Ashi Garami/Backside 50-50]]
+- [[Positions/Ashi Garami]]
+- [[Positions/Open Guard]]
 
 
 </section>
@@ -248,16 +248,16 @@ This submission represents a critical component of modern leg lock systems and i
 
 ## Related Submissions
 
-- [[Kneebar]]
-- [[Inside Heel Hook]]
-- [[Outside Heel Hook]]
-- [[Straight Ankle Lock]]
-- [[Toe Hold]]
-- [[Toe Hold from 50-50]]
-- [[Calf Slicer from 50-50]]
-- [[Kneebar from Guard]]
-- [[Kneebar from Half Guard]]
-- [[Kneebar from Top]]
+- [[Transitions/Kneebar]]
+- [[Submissions/Inside Heel Hook]]
+- [[Transitions/Outside Heel Hook]]
+- [[Submissions/Straight Ankle Lock]]
+- [[Transitions/Toe Hold]]
+- [[Submissions/Toe Hold from 50-50]]
+- [[Submissions/Calf Slicer from 50-50]]
+- [[Submissions/Kneebar from Guard]]
+- [[Submissions/Kneebar from Half Guard]]
+- [[Submissions/Kneebar from Top]]
 
 
 </section>
@@ -266,15 +266,15 @@ This submission represents a critical component of modern leg lock systems and i
 
 ## Additional Related Content
 
-- [[50-50 Guard]] - Primary attacking position—this submission is executed from this specific guard
-- [[Inside Ashi-Garami]] - Transitional position that often leads to 50-50 entry and kneebar setup
-- [[Saddle]] - Alternative leg entanglement position with similar control concepts but different submission angles
-- [[Kneebar Control]] - Positional control principles that apply to finishing this submission from any position
-- [[Heel Hook]] - Strategic concept where kneebar defense opens heel hook attack and vice versa
-- [[Leg Entanglement]] - Fundamental position category that encompasses 50-50 and enables this submission
-- [[Outside Ashi-Garami]] - Related leg entanglement that can transition to 50-50 kneebar attacks
-- [[Straight Ankle Lock]] - Alternative finish when kneebar is defended by leg straightening
-- [[Inside Heel Hook]] - Chain submission when opponent defends kneebar by rotating knee inward
+- [[Positions/Ashi Garami/50-50 Guard]] - Primary attacking position—this submission is executed from this specific guard
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Transitional position that often leads to 50-50 entry and kneebar setup
+- [[Positions/Ashi Garami/Saddle]] - Alternative leg entanglement position with similar control concepts but different submission angles
+- [[Positions/Kneebar Control]] - Positional control principles that apply to finishing this submission from any position
+- [[Transitions/Heel Hook]] - Strategic concept where kneebar defense opens heel hook attack and vice versa
+- [[Positions/Leg Entanglement]] - Fundamental position category that encompasses 50-50 and enables this submission
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related leg entanglement that can transition to 50-50 kneebar attacks
+- [[Submissions/Straight Ankle Lock]] - Alternative finish when kneebar is defended by leg straightening
+- [[Submissions/Inside Heel Hook]] - Chain submission when opponent defends kneebar by rotating knee inward
 
 
 </section>

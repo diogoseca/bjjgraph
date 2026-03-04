@@ -180,7 +180,7 @@ description: "Master the attacker perspective for escaping consolidated side con
 
 Executing the escape from consolidated side control requires systematic dismantling of the top player's control architecture. The bottom player must prioritize frame establishment to restore breathing capacity, then exploit timing windows created by opponent weight shifts or transition attempts to execute precise hip escape mechanics. Success demands patience and technical discipline rather than explosive effort, as premature attempts against settled pressure typically fail and accelerate fatigue while opening pathways for the top player to advance position. The key insight is that every escape begins with creating space through frames before committing to movement, and the quality of the initial frame determines the likelihood of the entire escape sequence succeeding.
 
-**From Position**: [[Side Control Consolidation]] (Bottom)
+**From Position**: [[Positions/Side Control/Side Control Consolidation]] (Bottom)
 
 </section>
 
@@ -232,11 +232,11 @@ Executing the escape from consolidated side control requires systematic dismantl
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Open Guard]] | 5% |
-| Failure | [[Side Control Consolidation]] | 30% |
-| Counter | [[Mount]] | 20% |
-| Counter | [[North-South]] | 10% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Open Guard]] | 5% |
+| Failure | [[Positions/Side Control/Side Control Consolidation]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
+| Counter | [[Positions/North-South]] | 10% |
 
 
 </section>
@@ -245,11 +245,11 @@ Executing the escape from consolidated side control requires systematic dismantl
 
 ## Opponent Counters
 
-- **Top player drives crossface deeper and increases chest pressure to collapse frames before bridge initiates** (Effectiveness: High) - Your Response: Redirect escape to ghost escape variation by threading near-side arm through the gap, or switch to bridge-and-roll if their weight commits too far forward over your chest → Leads to [[Side Control Consolidation]]
-- **Top player transitions to knee on belly during hip escape, capitalizing on the space you created** (Effectiveness: Medium) - Your Response: Continue the hip escape motion and use the created distance to recover full open guard rather than half guard, as knee on belly provides more space than consolidated side control → Leads to [[Open Guard]]
-- **Top player steps over to mount during bridge or turning motion, using your escape momentum to advance position** (Effectiveness: High) - Your Response: Abort the hip escape and immediately block the stepping leg with your near-side knee and elbow, establishing half guard before the mount is consolidated. If mount is achieved, transition to mount escape protocols → Leads to [[Mount]]
-- **Top player sprawls hips back and switches to north-south during hip escape attempt** (Effectiveness: Medium) - Your Response: Follow their movement by turning to face them and establishing frames against their hips. Use the rotational momentum to initiate a granby roll to turtle or thread arms for guard recovery before north-south consolidates → Leads to [[North-South]]
-- **Top player attacks exposed arm with kimura or americana during framing attempt** (Effectiveness: Medium) - Your Response: Immediately retract the threatened arm and grip your own belt or pants for defense while continuing hip escape with the remaining frame. Never extend arms fully during the escape sequence to avoid isolation → Leads to [[Side Control Consolidation]]
+- **Top player drives crossface deeper and increases chest pressure to collapse frames before bridge initiates** (Effectiveness: High) - Your Response: Redirect escape to ghost escape variation by threading near-side arm through the gap, or switch to bridge-and-roll if their weight commits too far forward over your chest → Leads to [[Positions/Side Control/Side Control Consolidation]]
+- **Top player transitions to knee on belly during hip escape, capitalizing on the space you created** (Effectiveness: Medium) - Your Response: Continue the hip escape motion and use the created distance to recover full open guard rather than half guard, as knee on belly provides more space than consolidated side control → Leads to [[Positions/Open Guard]]
+- **Top player steps over to mount during bridge or turning motion, using your escape momentum to advance position** (Effectiveness: High) - Your Response: Abort the hip escape and immediately block the stepping leg with your near-side knee and elbow, establishing half guard before the mount is consolidated. If mount is achieved, transition to mount escape protocols → Leads to [[Positions/Mount]]
+- **Top player sprawls hips back and switches to north-south during hip escape attempt** (Effectiveness: Medium) - Your Response: Follow their movement by turning to face them and establishing frames against their hips. Use the rotational momentum to initiate a granby roll to turtle or thread arms for guard recovery before north-south consolidates → Leads to [[Positions/North-South]]
+- **Top player attacks exposed arm with kimura or americana during framing attempt** (Effectiveness: Medium) - Your Response: Immediately retract the threatened arm and grip your own belt or pants for defense while continuing hip escape with the remaining frame. Never extend arms fully during the escape sequence to avoid isolation → Leads to [[Positions/Side Control/Side Control Consolidation]]
 
 
 </section>

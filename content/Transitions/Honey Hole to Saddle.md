@@ -21,7 +21,7 @@ This transition occurs when the attacker recognizes that their current Honey Hol
 
 Strategically, this transition reflects the modern leg lock philosophy of position before submission. Rather than attacking immediately from a loose Honey Hole, elite practitioners invest in achieving the Saddle configuration where finishing rates increase dramatically. The 55% success rate reflects the inherent tension between the need to optimize and the risk of creating space during reconfiguration against a resisting opponent.
 
-**From Position**: [[Honey Hole]] (Top)
+**From Position**: [[Positions/Ashi Garami/Honey Hole]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition reflects the modern leg lock philosophy of positi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Saddle]] | 55% |
-| Failure | [[Honey Hole]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Saddle]] | 55% |
+| Failure | [[Positions/Ashi Garami/Honey Hole]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Honey Hole to Saddle transition occupies a unique position within the leg lo
 ## Related Techniques
 
 
-- [[Honey Hole]] - Starting position for this transition representing the initial inside leg entanglement catch
+- [[Positions/Ashi Garami/Honey Hole]] - Starting position for this transition representing the initial inside leg entanglement catch
 
-- [[Saddle]] - Target position representing the optimized dominant leg entanglement configuration
+- [[Positions/Ashi Garami/Saddle]] - Target position representing the optimized dominant leg entanglement configuration
 
-- [[Inside Heel Hook from Honey Hole]] - Primary submission available from starting position before transition
+- [[Transitions/Inside Heel Hook from Honey Hole]] - Primary submission available from starting position before transition
 
-- [[Heel Hook from Saddle]] - Primary submission available from target position after successful transition
+- [[Transitions/Heel Hook from Saddle]] - Primary submission available from target position after successful transition
 
-- [[Inside Ashi-Garami]] - Foundational position in the leg entanglement hierarchy preceding both Honey Hole and Saddle
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Foundational position in the leg entanglement hierarchy preceding both Honey Hole and Saddle
 
-- [[Backside 50-50 Entry from Ashi]] - Alternative transition from the ashi garami system when Saddle optimization is not viable
+- [[Transitions/Backside 50-50 Entry from Ashi]] - Alternative transition from the ashi garami system when Saddle optimization is not viable
 
-- [[Back Take from Ashi]] - Alternative offensive transition when opponent turns away during reconfiguration attempts
+- [[Transitions/Back Take from Ashi]] - Alternative offensive transition when opponent turns away during reconfiguration attempts
 
-- [[Fallback to Inside Ashi-Garami]] - Defensive fallback if both Honey Hole and Saddle control are compromised during transition
+- [[Transitions/Fallback to Inside Ashi-Garami]] - Defensive fallback if both Honey Hole and Saddle control are compromised during transition
 
-- [[Ashi Garami]] - Parent positional family encompassing the entire leg entanglement system
+- [[Positions/Ashi Garami]] - Parent positional family encompassing the entire leg entanglement system
 
-- [[Half Guard]] - Counter outcome position when opponent successfully escapes during reconfiguration
+- [[Positions/Half Guard]] - Counter outcome position when opponent successfully escapes during reconfiguration
 
 
 </section>

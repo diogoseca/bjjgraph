@@ -148,7 +148,7 @@ description: "Prevent the Hitchhiker Escape from your armbar in BJJ. Learn to re
 
 As the defender maintaining the armbar against a hitchhiker escape attempt, your objective is to prevent the rotational extraction of the trapped arm while either maintaining submission control or transitioning to an equally dominant position. The hitchhiker escape exploits the single-plane nature of the armbar by introducing perpendicular rotation, so your defensive strategy must address this rotational threat directly. This means maintaining tight knee control to prevent the body turn, keeping hips connected to the shoulder to preserve leverage, and being prepared to follow the rotation into a belly-down armbar if the escape gains momentum. Understanding the escape's mechanics from the defender's perspective allows you to recognize the attempt early and shut it down before the rotation generates enough momentum to succeed.
 
-**Opponent's Starting Position**: [[Armbar Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Armbar Control]] (Bottom)
 
 </section>
 
@@ -186,21 +186,21 @@ As the defender maintaining the armbar against a hitchhiker escape attempt, your
 ### 1. Squeeze knees together and elevate hips immediately upon detecting thumb rotation
 
 - **When to use**: At the earliest recognition of the escape - when you feel the thumb rotating or see the free hand reaching for your leg
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: Prevents the rotation entirely and maintains full armbar control with finishing opportunity
 - **Risk**: If the escape has already generated significant momentum, static resistance may be insufficient and you exhaust energy fighting the turn
 
 ### 2. Follow the rotation and transition to belly-down armbar position
 
 - **When to use**: When the opponent has begun rotating and you cannot prevent the turn with knee squeeze alone
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: Maintains armbar control in the belly-down configuration where the opponent loses their bridging defense
 - **Risk**: If you are too slow following the rotation, the opponent completes the turn and extracts the arm before you can re-establish hip-to-shoulder contact
 
 ### 3. Release the armbar and immediately transition to mount
 
 - **When to use**: When the escape has progressed far enough that maintaining the armbar is no longer viable and the opponent is mid-rotation
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Secures mount position worth 4 points, maintaining top dominance and creating new submission opportunities
 - **Risk**: If the transition is not immediate, the opponent may recover guard before you establish mount control
 
@@ -212,11 +212,11 @@ As the defender maintaining the armbar against a hitchhiker escape attempt, your
 
 ## Best-Case Outcomes for Defender
 
-### → [[Armbar Control]]
+### → [[Positions/Armbar Control]]
 
 Prevent the escape by squeezing knees tightly the moment you detect thumb rotation, maintaining wrist control to block arm rotation, and keeping hips pressed against their shoulder. If they begin to turn, follow the rotation to maintain the belly-down armbar rather than fighting the turn statically.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the hitchhiker escape has progressed too far to maintain the armbar, immediately release the arm and drive your hips forward over their torso as they complete their rotation. Their rotational momentum carries them back toward supine position, and your forward drive establishes mount before they can recover guard. Speed of transition is critical.
 

@@ -154,7 +154,7 @@ description: "Defend the Double Sleeve to Spider Guard transition in BJJ. Learn 
 
 Defending the Double Sleeve to Spider Guard transition requires the top player to recognize the bottom player's intention to elevate their feet from the hips to the biceps and act decisively during the brief transition window. The key defensive principle is that spider guard is significantly harder to deal with than double sleeve guard alone, so preventing the upgrade is strategically critical. The defender must choose between preemptive grip breaking before the transition begins, aggressive distance closing during the foot repositioning window, or systematic arm retraction that denies bicep access. Understanding the timing and mechanics of this transition allows the top player to exploit the momentary vulnerability when the bottom player's feet are neither on the hips nor on the biceps, creating opportunities to break free of sleeve control and initiate passing sequences.
 
-**Opponent's Starting Position**: [[Double Sleeve Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Double Sleeve to Spider Guard transition requires the top player t
 ### 1. Strip sleeve grip using wrist rotation or two-on-one break during the foot transition window
 
 - **When to use**: When the opponent lifts their first foot off your hip, as their attention shifts to foot placement and their grip maintenance momentarily weakens
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Break free of sleeve control and immediately establish passing grips on their legs before they can re-grip
 - **Risk**: If the grip strip fails, the opponent may accelerate the second foot placement and establish spider guard more quickly
 
 ### 2. Retract arms tight to your chest with bent elbows and step back to deny bicep hook access
 
 - **When to use**: When you feel increased pulling tension indicating an imminent transition attempt, preemptively removing the bicep target before feet begin moving
-- **Targets**: [[Double Sleeve Guard]]
+- **Targets**: [[Positions/Double Sleeve Guard]]
 - **If successful**: Deny bicep hook placement entirely, forcing the opponent to remain in double sleeve guard or attempt a different guard transition
 - **Risk**: Pulling arms back may give the opponent the arm extension they need if timed poorly, and creates temporary inability to establish your own grips
 
 ### 3. Drive forward explosively to collapse the guard structure during the transition
 
 - **When to use**: When both of the opponent's feet are between hips and biceps during the transition, representing maximum vulnerability in their frame structure
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Collapse the guard and begin immediate passing sequence before opponent can reestablish any frame control
 - **Risk**: If timed poorly when one foot is already on the bicep, the opponent can catch you in a sweep or redirect your forward momentum into a triangle entry
 
 ### 4. Circle laterally while working grip breaks to create an angle that prevents bilateral foot placement
 
 - **When to use**: When the opponent begins foot repositioning, as lateral movement makes accurate foot-to-bicep placement significantly harder from the resulting angle
-- **Targets**: [[Double Sleeve Guard]]
+- **Targets**: [[Positions/Double Sleeve Guard]]
 - **If successful**: Prevent clean spider guard establishment and create a passing angle on one side
 - **Risk**: Lateral movement with sleeve grips intact may create sweep opportunities if the opponent redirects to a sweep attempt rather than completing the spider guard transition
 
@@ -225,11 +225,11 @@ Defending the Double Sleeve to Spider Guard transition requires the top player t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip both sleeve grips during the transition window when the opponent's feet are between hips and biceps, exploiting the momentary reduction in frame control to break free. Immediately establish passing grips on their legs before they can re-grip your sleeves.
 
-### → [[Double Sleeve Guard]]
+### → [[Positions/Double Sleeve Guard]]
 
 Retract arms tight to your body with bent elbows and deny bicep hook placement entirely. While remaining in double sleeve guard is not ideal, it is significantly easier to manage than spider guard and preserves your passing options.
 

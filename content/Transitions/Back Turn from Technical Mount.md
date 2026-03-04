@@ -21,7 +21,7 @@ This technique represents one of the most strategic defensive decisions in BJJ. 
 
 Successful execution requires precise timing coordinated with the opponent's weight shift during armbar setup, disciplined arm protection throughout the entire rotation to prevent mid-turn armbar catches, and seamless transition into back control defensive methodology. The bottom player must commit fully once initiated—half-turns leave the practitioner in the worst possible configuration with back partially exposed and arm still vulnerable to attack. When executed properly with a pre-planned escape chain, this transition converts a high-probability submission scenario into a defensible positional battle.
 
-**From Position**: [[Technical Mount]] (Bottom)
+**From Position**: [[Positions/Mount/Technical Mount]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Successful execution requires precise timing coordinated with the opponent's wei
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 45% |
-| Failure | [[Technical Mount]] | 30% |
-| Counter | [[Armbar Control]] | 25% |
+| Success | [[Positions/Back Control]] | 45% |
+| Failure | [[Positions/Mount/Technical Mount]] | 30% |
+| Counter | [[Positions/Armbar Control]] | 25% |
 
 
 </section>
@@ -189,27 +189,27 @@ The Back Turn from Technical Mount occupies a unique place in the BJJ positional
 ## Related Techniques
 
 
-- [[Technical Mount]] - Starting position from which the back turn is executed by the bottom player
+- [[Positions/Mount/Technical Mount]] - Starting position from which the back turn is executed by the bottom player
 
-- [[Back Control]] - Primary resulting position after successful back turn—requires immediate defensive engagement
+- [[Positions/Back Control]] - Primary resulting position after successful back turn—requires immediate defensive engagement
 
-- [[Armbar Control]] - Counter outcome position when opponent catches arm during mid-turn rotation
+- [[Positions/Armbar Control]] - Counter outcome position when opponent catches arm during mid-turn rotation
 
-- [[Armbar from Technical Mount]] - Primary submission threat that motivates the back turn as a defensive response
+- [[Submissions/Armbar from Technical Mount]] - Primary submission threat that motivates the back turn as a defensive response
 
-- [[Back Door Escape]] - Follow-up escape system used from back control after completing the turn
+- [[Transitions/Back Door Escape]] - Follow-up escape system used from back control after completing the turn
 
-- [[Seat Belt Control Back]] - Specific back control variation opponent commonly establishes after following the turn
+- [[Positions/Back Control/Seat Belt Control Back]] - Specific back control variation opponent commonly establishes after following the turn
 
-- [[Turtle]] - Intermediate position sometimes achieved during scramble turn variant before back control is established
+- [[Positions/Turtle]] - Intermediate position sometimes achieved during scramble turn variant before back control is established
 
-- [[Mount]] - Parent position of technical mount from which the overall escape sequence begins
+- [[Positions/Mount]] - Parent position of technical mount from which the overall escape sequence begins
 
-- [[Back Take]] - Opponent's transition used to follow the turn and establish back control with hooks
+- [[Transitions/Back Take]] - Opponent's transition used to follow the turn and establish back control with hooks
 
-- [[Half Guard]] - Alternative escape target from technical mount bottom when back turn is not necessary
+- [[Positions/Half Guard]] - Alternative escape target from technical mount bottom when back turn is not necessary
 
-- [[Body Triangle]] - Back control variation opponent may establish after following the turn for enhanced hip control
+- [[Positions/Back Control/Body Triangle]] - Back control variation opponent may establish after following the turn for enhanced hip control
 
 
 </section>

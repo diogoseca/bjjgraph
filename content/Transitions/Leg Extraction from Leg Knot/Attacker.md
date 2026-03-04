@@ -180,7 +180,7 @@ description: "Execute Leg Extraction from Leg Knot to escape leg entanglements a
 
 As the attacker executing Leg Extraction from Leg Knot, your objective is to methodically free your trapped leg from the opponent's entanglement and consolidate Half Guard Top. This is a controlled, deliberate technique that prioritizes maintaining positional advantage throughout the extraction rather than explosively ripping free. The decision to extract typically comes when your leg lock attacks are being neutralized, when energy management demands a positional reset, or when the entanglement configuration favors extraction over continued submission hunting. Success depends on applying constant forward pressure to limit the opponent's hip mobility while systematically addressing each hook point that maintains the entanglement, working from the ankle up through the knee until the leg is fully cleared.
 
-**From Position**: [[Leg Knot]] (Top)
+**From Position**: [[Positions/Leg Knot]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ As the attacker executing Leg Extraction from Leg Knot, your objective is to met
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Leg Knot]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Leg Knot]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing Leg Extraction from Leg Knot, your objective is to met
 
 ## Opponent Counters
 
-- **Opponent re-hooks your ankle with their inside hook as you begin extraction** (Effectiveness: High) - Your Response: Pause the extraction and re-apply forward hip pressure to flatten their hips before trying again. The re-hook succeeds because the opponent has hip mobility — remove it with pressure first. Consider switching to limp leg mechanics if the peel approach is being consistently countered. → Leads to [[Leg Knot]]
-- **Opponent sits up and establishes an underhook during the extraction transition** (Effectiveness: Medium) - Your Response: Drive your crossface shoulder forward to flatten them back down immediately. If the underhook is already established, switch to a whizzer and use it to maintain top pressure while continuing the extraction. Accept arriving in half guard with an active underhook battle rather than trying to eliminate it during extraction. → Leads to [[Half Guard]]
-- **Opponent frames and hip escapes to create distance, recovering to open guard** (Effectiveness: Medium) - Your Response: Follow their hip escape by advancing your hips and maintaining chest contact. If significant distance is created, accept the open guard position and immediately begin a standing or combat base passing approach rather than diving back into entanglement range. → Leads to [[Open Guard]]
-- **Opponent counter-entangles by transitioning to 50-50 as your leg starts to clear** (Effectiveness: High) - Your Response: If you feel the opponent triangling your extracting leg, immediately retract it back into the original knot rather than completing extraction into 50-50. Reset forward pressure and try again when their configuration loosens. Entering 50-50 unintentionally gives up your top position advantage. → Leads to [[Leg Knot]]
+- **Opponent re-hooks your ankle with their inside hook as you begin extraction** (Effectiveness: High) - Your Response: Pause the extraction and re-apply forward hip pressure to flatten their hips before trying again. The re-hook succeeds because the opponent has hip mobility — remove it with pressure first. Consider switching to limp leg mechanics if the peel approach is being consistently countered. → Leads to [[Positions/Leg Knot]]
+- **Opponent sits up and establishes an underhook during the extraction transition** (Effectiveness: Medium) - Your Response: Drive your crossface shoulder forward to flatten them back down immediately. If the underhook is already established, switch to a whizzer and use it to maintain top pressure while continuing the extraction. Accept arriving in half guard with an active underhook battle rather than trying to eliminate it during extraction. → Leads to [[Positions/Half Guard]]
+- **Opponent frames and hip escapes to create distance, recovering to open guard** (Effectiveness: Medium) - Your Response: Follow their hip escape by advancing your hips and maintaining chest contact. If significant distance is created, accept the open guard position and immediately begin a standing or combat base passing approach rather than diving back into entanglement range. → Leads to [[Positions/Open Guard]]
+- **Opponent counter-entangles by transitioning to 50-50 as your leg starts to clear** (Effectiveness: High) - Your Response: If you feel the opponent triangling your extracting leg, immediately retract it back into the original knot rather than completing extraction into 50-50. Reset forward pressure and try again when their configuration loosens. Entering 50-50 unintentionally gives up your top position advantage. → Leads to [[Positions/Leg Knot]]
 
 
 </section>

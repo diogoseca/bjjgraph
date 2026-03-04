@@ -21,7 +21,7 @@ This technique capitalizes on the leg control already established in the Estima 
 
 Strategically, this transition embodies the chain-attack philosophy central to effective leg lock systems. The Estima Lock threatens the ankle joint; when that fails, the ashi garami threatens the heel and knee. Opponents cannot defend both simultaneously, creating the positional dilemmas that lead to submission opportunities. Understanding when to abandon the Estima Lock finish in favor of transitional advancement separates effective leg lockers from those who stall in compromised positions.
 
-**From Position**: [[Estima Lock]] (Top)
+**From Position**: [[Positions/Estima Lock]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition embodies the chain-attack philosophy central to e
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Ashi Garami]] | 65% |
-| Failure | [[Estima Lock]] | 25% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Ashi Garami]] | 65% |
+| Failure | [[Positions/Estima Lock]] | 25% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -185,25 +185,25 @@ The Estima Lock to Ashi Garami transition represents a critical link in modern l
 ## Related Techniques
 
 
-- [[Estima Lock]] - Starting position and initial submission threat
+- [[Positions/Estima Lock]] - Starting position and initial submission threat
 
-- [[Ashi Garami]] - Target position providing heel hook access
+- [[Positions/Ashi Garami]] - Target position providing heel hook access
 
-- [[Inside Ashi-Garami]] - Alternative target position with different heel hook angles
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative target position with different heel hook angles
 
-- [[Saddle]] - Advanced follow-up position through backstep from ashi garami
+- [[Positions/Ashi Garami/Saddle]] - Advanced follow-up position through backstep from ashi garami
 
-- [[50-50 Guard]] - Fallback position if ashi garami entry is defended
+- [[Positions/Ashi Garami/50-50 Guard]] - Fallback position if ashi garami entry is defended
 
-- [[Heel Hook]] - Primary submission from ashi garami after successful transition
+- [[Transitions/Heel Hook]] - Primary submission from ashi garami after successful transition
 
-- [[Toe Hold]] - Alternative submission available during transition phase
+- [[Transitions/Toe Hold]] - Alternative submission available during transition phase
 
-- [[Cross Ashi-Garami]] - Variant entry option changing attack angle
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Variant entry option changing attack angle
 
-- [[Leg Entanglement]] - Broader positional category encompassing both positions
+- [[Positions/Leg Entanglement]] - Broader positional category encompassing both positions
 
-- [[Outside Ashi-Garami]] - Related leg control position with similar submission options
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related leg control position with similar submission options
 
 
 </section>

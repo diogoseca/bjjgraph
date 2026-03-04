@@ -158,7 +158,7 @@ The critical defensive insight is that the escape operates in a predictable sequ
 
 Defensive success depends on recognizing which stage of escape the opponent has reached and applying the appropriate counter. Against skilled opponents who execute the extraction methodically, you must be prepared to transition fluidly between maintaining the gogoplata finish, threatening alternative submissions like triangle or omoplata, and recovering to closed guard as a safe fallback position. The ability to chain between these options based on the opponent's escape progression transforms a binary success-or-failure scenario into a multi-layered defensive system.
 
-**Opponent's Starting Position**: [[Gogoplata Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Defensive success depends on recognizing which stage of escape the opponent has 
 ### 1. Pull foot deeper behind opponent's head and elevate hips aggressively when you feel them controlling your hips
 
 - **When to use**: Early in escape sequence when opponent begins pressing your hips down but has not yet addressed the foot anchor
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Resets opponent's escape progress by deepening the closed loop system, forcing them to restart the extraction sequence from hip control
 - **Risk**: Focusing on deepening foot may sacrifice hip elevation if opponent maintains strong downward hip pressure, creating a different escape window
 
 ### 2. Transition to triangle by switching leg configuration as opponent's head begins lateral extraction movement
 
 - **When to use**: When opponent has successfully loosened the shin position and begun lateral head extraction, making gogoplata finish unlikely
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Catches opponent in triangle choke during the transition, or at minimum forces them to defend the triangle and abandon the pass attempt
 - **Risk**: Failed triangle attempt may leave you in open guard with opponent having already cleared the shin, resulting in easier pass to side control
 
 ### 3. Release gogoplata voluntarily and recover to closed guard before opponent completes the pass
 
 - **When to use**: When shin position is compromised beyond recovery and opponent is clearing the leg but has not yet established side control contact
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Resets to neutral closed guard position where you retain offensive options and avoid being passed to side control
 - **Risk**: Minimal risk as closed guard is a safe position, though you surrender the submission attempt and must rebuild offense from guard
 
 ### 4. Use free leg to hook opponent's far hip or post on their shoulder to block lateral head movement during extraction
 
 - **When to use**: When opponent begins lateral head movement but has not fully cleared the shin from the throat
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Blocks the lateral pathway preventing head extraction and allows you to re-tighten the shin position across the throat
 - **Risk**: Extending the free leg may compromise your base and hip elevation if opponent uses the extended leg against you
 
@@ -228,11 +228,11 @@ Defensive success depends on recognizing which stage of escape the opponent has 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Gogoplata Control]]
+### → [[Positions/Gogoplata Control]]
 
 Maintain constant hip elevation and keep foot deeply secured behind their head with both hands controlling your own ankle. When you feel downward hip pressure, counter by engaging your core to drive hips toward the ceiling. When they attempt to address the foot, pull it deeper while simultaneously adjusting shin angle to increase compression. The goal is preventing them from ever reaching the lateral extraction phase.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the gogoplata structure is compromised beyond recovery, release the position proactively rather than allowing the pass. Uncross the shin from their throat, immediately close your guard around their waist before they can establish side control, and re-establish posture-breaking grips on their collar or behind their head. This controlled retreat preserves guard position and offensive options.
 

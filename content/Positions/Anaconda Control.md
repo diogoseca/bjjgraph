@@ -91,19 +91,19 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 ### Available Transitions
 
 
-- **[[Defensive Roll]]** (40% of attempts)
+- **[[Transitions/Defensive Roll]]** (40% of attempts)
 
-- **[[Hip Escape to Guard]]** (20% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (20% of attempts)
 
-- **[[Arm Extraction]]** (20% of attempts)
+- **[[Transitions/Arm Extraction]]** (20% of attempts)
 
-- **[[Anaconda Grip Break to Front Headlock]]** (10% of attempts)
+- **[[Transitions/Anaconda Grip Break to Front Headlock]]** (10% of attempts)
 
-- **[[Frame and Posture from Anaconda]]** (5% of attempts)
+- **[[Transitions/Frame and Posture from Anaconda]]** (5% of attempts)
 
-- **[[Roll Defense from Anaconda]]** (3% of attempts)
+- **[[Transitions/Roll Defense from Anaconda]]** (3% of attempts)
 
-- **[[Rolling Escape from Anaconda]]** (2% of attempts)
+- **[[Transitions/Rolling Escape from Anaconda]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -164,15 +164,15 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 ### Available Transitions
 
 
-- **[[Anaconda Choke]]** (50% of attempts)
+- **[[Transitions/Anaconda Choke]]** (50% of attempts)
 
-- **[[Anaconda Control to Dead Orchard Control]]** (20% of attempts)
+- **[[Transitions/Anaconda Control to Dead Orchard Control]]** (20% of attempts)
 
-- **[[Switch to Darce Configuration]]** (15% of attempts)
+- **[[Transitions/Switch to Darce Configuration]]** (15% of attempts)
 
-- **[[Anaconda to Side Control]]** (10% of attempts)
+- **[[Transitions/Anaconda to Side Control]]** (10% of attempts)
 
-- **[[Back Take from Anaconda]]** (5% of attempts)
+- **[[Transitions/Back Take from Anaconda]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -207,19 +207,19 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 ## Related Positions
 
 
-- **[[Front Headlock]]** - Primary entry position for anaconda grip establishment
+- **[[Positions/Front Headlock]]** - Primary entry position for anaconda grip establishment
 
-- **[[Darce Control]]** - Sister submission with similar arm-in mechanics but different hand positioning
+- **[[Positions/Darce Control]]** - Sister submission with similar arm-in mechanics but different hand positioning
 
-- **[[Guillotine Control]]** - Alternative front headlock submission accessible from same position
+- **[[Positions/Guillotine Control]]** - Alternative front headlock submission accessible from same position
 
-- **[[Turtle]]** - Common entry position where anaconda attacks are initiated
+- **[[Positions/Turtle]]** - Common entry position where anaconda attacks are initiated
 
-- **[[Side Control]]** - Position achieved after successful roll-through from anaconda
+- **[[Positions/Side Control]]** - Position achieved after successful roll-through from anaconda
 
-- **[[Back Control]]** - Alternative advancement when opponent turns away from pressure
+- **[[Positions/Back Control]]** - Alternative advancement when opponent turns away from pressure
 
-- **[[Dead Orchard Control]]** - Advanced control position accessible from anaconda grip
+- **[[Positions/Dead Orchard Control]]** - Advanced control position accessible from anaconda grip
 
 
 </section>

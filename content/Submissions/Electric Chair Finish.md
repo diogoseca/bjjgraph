@@ -26,8 +26,8 @@ Strategically, the Electric Chair Finish creates a powerful dilemma within the l
 **Category**: Joint Lock
 **Type**: Hip Lock
 **Target Area**: Hip joint and groin
-**Starting Position**: [[Electric Chair]]
-**From Position**: [[Electric Chair]] (Bottom)
+**Starting Position**: [[Positions/Half Guard/Electric Chair]]
+**From Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
 **Success Rate**: 42%
 
 </section>
@@ -78,8 +78,8 @@ Strategically, the Electric Chair Finish creates a powerful dilemma within the l
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Electric Chair]] | 30% |
-| Counter | [[Half Guard]] | 25% |
+| Failure | [[Positions/Half Guard/Electric Chair]] | 30% |
+| Counter | [[Positions/Half Guard]] | 25% |
 
 
 </section>
@@ -231,9 +231,9 @@ Strategically, the Electric Chair Finish creates a powerful dilemma within the l
 
 ## From Which Positions?
 
-- [[Electric Chair]]
-- [[Lockdown]]
-- [[Half Guard]]
+- [[Positions/Half Guard/Electric Chair]]
+- [[Positions/Half Guard/Lockdown]]
+- [[Positions/Half Guard]]
 
 
 </section>
@@ -242,11 +242,11 @@ Strategically, the Electric Chair Finish creates a powerful dilemma within the l
 
 ## Related Submissions
 
-- [[Banana Split]]
-- [[Calf Slicer from Truck]]
-- [[Calf Slicer]]
-- [[Aoki Lock Finish]]
-- [[Armbar from Guard]]
+- [[Submissions/Banana Split]]
+- [[Submissions/Calf Slicer from Truck]]
+- [[Transitions/Calf Slicer]]
+- [[Transitions/Aoki Lock Finish]]
+- [[Submissions/Armbar from Guard]]
 
 
 </section>
@@ -255,15 +255,15 @@ Strategically, the Electric Chair Finish creates a powerful dilemma within the l
 
 ## Additional Related Content
 
-- [[Electric Chair]] - Source position where this submission is applied from bottom
-- [[Lockdown]] - Parent half guard system providing the foundational leg control for the submission
-- [[Half Guard]] - Base guard position from which the lockdown system originates
-- [[Truck]] - Common transition target when Electric Chair finish is defended
-- [[Old School]] - Complementary sweep creating offensive dilemma with the submission threat
-- [[Banana Split]] - Closely related submission using the same crotch-splitting mechanism
-- [[Deep Half Guard]] - Alternative transition when Electric Chair position is lost
-- [[Back Control]] - Advanced position accessible through sweep from Electric Chair
-- [[Dogfight Position]] - Intermediate scramble position during Electric Chair sweep transitions
+- [[Positions/Half Guard/Electric Chair]] - Source position where this submission is applied from bottom
+- [[Positions/Half Guard/Lockdown]] - Parent half guard system providing the foundational leg control for the submission
+- [[Positions/Half Guard]] - Base guard position from which the lockdown system originates
+- [[Positions/Twister Control/Truck]] - Common transition target when Electric Chair finish is defended
+- [[Positions/Half Guard/Old School]] - Complementary sweep creating offensive dilemma with the submission threat
+- [[Submissions/Banana Split]] - Closely related submission using the same crotch-splitting mechanism
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition when Electric Chair position is lost
+- [[Positions/Back Control]] - Advanced position accessible through sweep from Electric Chair
+- [[Positions/Dogfight Position]] - Intermediate scramble position during Electric Chair sweep transitions
 
 
 </section>

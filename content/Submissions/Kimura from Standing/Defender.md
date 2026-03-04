@@ -156,7 +156,7 @@ description: "How to defend against Kimura from Standing in BJJ. Recognition, es
 
 Defending the Kimura from Standing demands early recognition and immediate action because the standing environment amplifies both the submission danger and the risk of uncontrolled falls. Unlike ground-based Kimura defense where the mat provides bracing and friction, standing defense must account for balance disruption, gravity-assisted rotation, and the attacker's ability to combine shoulder lock pressure with takedown threats. The defender faces a cascading dilemma: defending the shoulder rotation opens vulnerability to trips and takedowns, while defending the takedown exposes the shoulder to increased rotational pressure. Successful defense requires understanding the critical windows where intervention is most effective. The highest percentage defensive moment occurs before the figure-four grip is fully locked - once the attacker establishes a tight figure-four with elbow elevation, defensive options narrow dramatically. Defenders must prioritize arm retraction and elbow pinning in the early phase, then shift to counter-rotation, guard pulling, or explosive forward pressure if the grip is established. Advanced defenders treat the standing Kimura as a positional problem rather than purely a submission defense, recognizing that escaping to closed guard or neutral standing resets the engagement entirely. The willingness to sacrifice standing position by pulling guard is often the highest percentage escape, converting a dangerous standing submission scenario into a manageable ground position where the defender has more defensive tools available.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 
 </section>
@@ -194,28 +194,28 @@ Defending the Kimura from Standing demands early recognition and immediate actio
 ### 1. Explosive arm retraction with elbow pinch to ribs
 
 - **When to use**: Immediately upon feeling wrist isolation before the figure-four grip is locked. This is the highest percentage window for defense - once the grip locks, this option becomes much harder.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Returns to neutral standing with no submission threat. Attacker must restart the entire setup sequence from scratch.
 - **Risk**: If retraction fails or is too slow, attacker locks figure-four during the attempt and you've wasted energy without escaping. Must be explosive and immediate.
 
 ### 2. Counter-rotation toward trapped arm with back exposure management
 
 - **When to use**: When the figure-four grip is established but rotation has not yet reached critical angle. Spin toward your trapped arm to relieve rotational pressure and create space to extract.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Relieves shoulder pressure and may create sufficient space to extract arm entirely. Can reset to neutral standing or transition to your own offensive opportunity.
 - **Risk**: Over-rotation exposes your back, allowing attacker to transition to back take. Must manage rotation speed and keep awareness of back exposure throughout.
 
 ### 3. Controlled guard pull to closed guard
 
 - **When to use**: When the Kimura grip is locked and standing escape options are diminishing. Pull guard deliberately rather than being taken down on attacker's terms.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Removes all standing fall risk and places you in closed guard where you have superior defensive tools including hip control, frame creation, and grip breaking leverage from the mat.
 - **Risk**: Attacker maintains Kimura grip through guard pull and may immediately begin passing with submission control. Must establish closed guard quickly and begin grip fighting on the ground.
 
 ### 4. Aggressive forward pressure drive through attacker's stance
 
 - **When to use**: When attacker has established grip but is positioned with a narrow or compromised base. Drive explosively into them to disrupt their leverage angle and potentially break the grip through positional chaos.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Disrupts attacker's base and leverage angle, potentially breaking their grip or forcing them to release to defend the forward pressure. Can create scramble opportunities.
 - **Risk**: If attacker absorbs the drive and maintains grip, they can use your forward momentum for sacrifice throw or controlled descent into dominant ground position with Kimura intact.
 
@@ -238,11 +238,11 @@ Defending the Kimura from Standing demands early recognition and immediate actio
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Strip wrist control early before figure-four locks using explosive retraction and two-on-one grip fighting, then circle away to neutral distance and reset stance. Alternatively, drive forward through attacker's compromised base to break their structure and force grip release.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the Kimura grip is locked and standing defense is deteriorating, deliberately pull guard by sitting and wrapping closed guard around attacker's waist. This removes standing fall risk entirely and provides mat bracing for shoulder defense. Immediately begin ground-based grip fighting to break the figure-four before attacker can transition to ground Kimura finish.
 

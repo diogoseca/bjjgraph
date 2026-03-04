@@ -98,41 +98,41 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Underhook Sweep from Half]]** (18% of attempts)
+- **[[Transitions/Underhook Sweep from Half]]** (18% of attempts)
 
-- **[[Half Guard to Back Take]]** (12% of attempts)
+- **[[Transitions/Half Guard to Back Take]]** (12% of attempts)
 
-- **[[Deep Half Entry]]** (10% of attempts)
+- **[[Transitions/Deep Half Entry]]** (10% of attempts)
 
-- **[[Old School Sweep]]** (8% of attempts)
+- **[[Transitions/Old School Sweep]]** (8% of attempts)
 
-- **[[Knee Shield Retention]]** (8% of attempts)
+- **[[Transitions/Knee Shield Retention]]** (8% of attempts)
 
-- **[[Lockdown Recovery]]** (5% of attempts)
+- **[[Transitions/Lockdown Recovery]]** (5% of attempts)
 
-- **[[Kimura Sweep]]** (5% of attempts)
+- **[[Transitions/Kimura Sweep]]** (5% of attempts)
 
-- **[[Deep Half Entry from Half Guard]]** (5% of attempts)
+- **[[Transitions/Deep Half Entry from Half Guard]]** (5% of attempts)
 
-- **[[Knee Torque Sweep]]** (5% of attempts)
+- **[[Transitions/Knee Torque Sweep]]** (5% of attempts)
 
-- **[[Half Guard to X-Guard]]** (4% of attempts)
+- **[[Transitions/Half Guard to X-Guard]]** (4% of attempts)
 
-- **[[Dogfight Position]]** (4% of attempts)
+- **[[Positions/Dogfight Position]]** (4% of attempts)
 
-- **[[Half Guard Recovery]]** (3% of attempts)
+- **[[Transitions/Half Guard Recovery]]** (3% of attempts)
 
-- **[[Electric Chair Transition]]** (3% of attempts)
+- **[[Transitions/Electric Chair Transition]]** (3% of attempts)
 
-- **[[Half Guard to K-Guard]]** (2% of attempts)
+- **[[Transitions/Half Guard to K-Guard]]** (2% of attempts)
 
-- **[[Back Door Escape from Half Guard]]** (2% of attempts)
+- **[[Transitions/Back Door Escape from Half Guard]]** (2% of attempts)
 
-- **[[Half Guard to Old School]]** (2% of attempts)
+- **[[Transitions/Half Guard to Old School]]** (2% of attempts)
 
-- **[[Buggy Choke]]** (2% of attempts)
+- **[[Positions/Buggy Choke]]** (2% of attempts)
 
-- **[[Kneebar from Half Guard]]** (2% of attempts)
+- **[[Submissions/Kneebar from Half Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -193,39 +193,39 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (28% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (28% of attempts)
 
-- **[[Smash Pass]]** (15% of attempts)
+- **[[Transitions/Smash Pass]]** (15% of attempts)
 
-- **[[Underhook Pass]]** (12% of attempts)
+- **[[Transitions/Underhook Pass]]** (12% of attempts)
 
-- **[[Long Step Pass]]** (8% of attempts)
+- **[[Transitions/Long Step Pass]]** (8% of attempts)
 
-- **[[Crossface Pass]]** (5% of attempts)
+- **[[Transitions/Crossface Pass]]** (5% of attempts)
 
-- **[[Back Step Pass]]** (5% of attempts)
+- **[[Transitions/Back Step Pass]]** (5% of attempts)
 
-- **[[Over-Under Pass]]** (4% of attempts)
+- **[[Transitions/Over-Under Pass]]** (4% of attempts)
 
-- **[[Kimura]]** (3% of attempts)
+- **[[Transitions/Kimura]]** (3% of attempts)
 
-- **[[Half Guard to Double Jump]]** (3% of attempts)
+- **[[Transitions/Half Guard to Double Jump]]** (3% of attempts)
 
-- **[[Half Guard to Flattened Half Guard]]** (3% of attempts)
+- **[[Transitions/Half Guard to Flattened Half Guard]]** (3% of attempts)
 
-- **[[Crossface to Combat Base]]** (2% of attempts)
+- **[[Transitions/Crossface to Combat Base]]** (2% of attempts)
 
-- **[[Headquarters Pass]]** (2% of attempts)
+- **[[Transitions/Headquarters Pass]]** (2% of attempts)
 
-- **[[Half Guard to Leg Hook]]** (2% of attempts)
+- **[[Transitions/Half Guard to Leg Hook]]** (2% of attempts)
 
-- **[[Half Guard to Pocket Half Guard]]** (2% of attempts)
+- **[[Transitions/Half Guard to Pocket Half Guard]]** (2% of attempts)
 
-- **[[Half Guard to Quarter Guard]]** (2% of attempts)
+- **[[Transitions/Half Guard to Quarter Guard]]** (2% of attempts)
 
-- **[[Half Guard to Triangle Escape Position]]** (2% of attempts)
+- **[[Transitions/Half Guard to Triangle Escape Position]]** (2% of attempts)
 
-- **[[Suloev Stretch]]** (2% of attempts)
+- **[[Submissions/Suloev Stretch]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -264,21 +264,21 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ## Related Positions
 
 
-- **[[Closed Guard]]** - Full guard position that Half Guard often transitions to or from through guard recovery or partial passes
+- **[[Positions/Closed Guard]]** - Full guard position that Half Guard often transitions to or from through guard recovery or partial passes
 
-- **[[Open Guard]]** - General guard category that includes Half Guard variations among its diverse defensive structures
+- **[[Positions/Open Guard]]** - General guard category that includes Half Guard variations among its diverse defensive structures
 
-- **[[Butterfly Guard]]** - Related hook-based guard with similar sweeping mechanics and frequent transitions to and from Half Guard
+- **[[Positions/Butterfly Guard]]** - Related hook-based guard with similar sweeping mechanics and frequent transitions to and from Half Guard
 
-- **[[X-Guard]]** - Advanced guard variation accessible through Half Guard transitions and leg entanglement entries
+- **[[Positions/X-Guard]]** - Advanced guard variation accessible through Half Guard transitions and leg entanglement entries
 
-- **[[Side Control]]** - Common passing destination from Half Guard top or sweep destination from bottom
+- **[[Positions/Side Control]]** - Common passing destination from Half Guard top or sweep destination from bottom
 
-- **[[Turtle]]** - Defensive position arising from Half Guard scrambles when sweep or pass attempts create positional chaos
+- **[[Positions/Turtle]]** - Defensive position arising from Half Guard scrambles when sweep or pass attempts create positional chaos
 
-- **[[Back Control]]** - Advanced position accessible through Half Guard back take sequences from bottom underhook
+- **[[Positions/Back Control]]** - Advanced position accessible through Half Guard back take sequences from bottom underhook
 
-- **[[Quarter Guard]]** - Transitional position between Half Guard and full pass where only the ankle remains trapped
+- **[[Positions/Quarter Guard]]** - Transitional position between Half Guard and full pass where only the ankle remains trapped
 
 
 </section>

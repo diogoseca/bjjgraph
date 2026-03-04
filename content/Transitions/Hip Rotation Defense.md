@@ -21,7 +21,7 @@ The technique operates on the principle that ankle lock submissions require the 
 
 Strategically, hip rotation defense serves as both an immediate pressure relief mechanism and a gateway to multiple escape sequences. Successful rotation creates space to extract the trapped knee, establish defensive frames, or transition to counter-attacks. The technique must be executed with controlled precision rather than explosive panic, as wild rotation often opens pathways the attacker has specifically trained to exploit.
 
-**From Position**: [[Straight Ankle Lock Control]] (Top)
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, hip rotation defense serves as both an immediate pressure relief 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Failure | [[Straight Ankle Lock Control]] | 35% |
-| Counter | [[Inside Ashi-Garami]] | 15% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Failure | [[Positions/Straight Ankle Lock Control]] | 35% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
 
 
 </section>
@@ -189,23 +189,23 @@ Hip Rotation Defense is the foundational defensive response in the straight ankl
 ## Related Techniques
 
 
-- [[Straight Ankle Lock Control]] - Starting position this defense addresses
+- [[Positions/Straight Ankle Lock Control]] - Starting position this defense addresses
 
-- [[Ashi Garami Escape]] - Related defensive sequence for leg entanglements
+- [[Transitions/Ashi Garami Escape]] - Related defensive sequence for leg entanglements
 
-- [[Inside Ashi-Garami]] - Dangerous transition hip rotation must deny
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Dangerous transition hip rotation must deny
 
-- [[Outside Ashi-Garami]] - Alternative dangerous transition to prevent
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative dangerous transition to prevent
 
-- [[50-50 Guard]] - Counter-entanglement option during rotation
+- [[Positions/Ashi Garami/50-50 Guard]] - Counter-entanglement option during rotation
 
-- [[Open Guard]] - Primary recovery position after successful defense
+- [[Positions/Open Guard]] - Primary recovery position after successful defense
 
-- [[Frame and Distance Creation]] - Complementary defensive technique
+- [[Transitions/Frame and Distance Creation]] - Complementary defensive technique
 
-- [[Counter Entry to Opponent's Leg]] - Counter-attack option during defense
+- [[Transitions/Counter Entry to Opponent's Leg]] - Counter-attack option during defense
 
-- [[Knee Extraction]] - Follow-up extraction technique after rotation creates space
+- [[Transitions/Knee Extraction]] - Follow-up extraction technique after rotation creates space
 
 
 </section>

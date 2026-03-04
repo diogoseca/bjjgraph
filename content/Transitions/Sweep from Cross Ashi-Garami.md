@@ -21,7 +21,7 @@ The sweep functions as a critical escape pathway within modern leg lock exchange
 
 Strategically, the sweep occupies a unique role in the defensive leg entanglement toolbox. It provides a path to a dominant top position (Side Control) rather than merely returning to neutral guard, making it a high-reward option when conditions align. However, a poorly timed or executed sweep attempt carries real risk—the movement can expose the heel, create rotational forces that aid the top player's submission, or allow advancement to the deeper Saddle position. Success requires reading the opponent's weight commitment, securing upper body control before initiating the sweep, and committing fully once the motion begins.
 
-**From Position**: [[Cross Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Bottom)
 **Success Rate**: 30%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the sweep occupies a unique role in the defensive leg entanglemen
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 30% |
-| Failure | [[Cross Ashi-Garami]] | 45% |
-| Counter | [[Saddle]] | 25% |
+| Success | [[Positions/Side Control]] | 30% |
+| Failure | [[Positions/Ashi Garami/Cross Ashi-Garami]] | 45% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 25% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Sweep from Cross Ashi-Garami occupies a vital niche in the defensive leg ent
 ## Related Techniques
 
 
-- [[Cross Ashi-Garami]] - Starting position from which the sweep is executed
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Starting position from which the sweep is executed
 
-- [[Side Control]] - Target position achieved on successful sweep
+- [[Positions/Side Control]] - Target position achieved on successful sweep
 
-- [[Saddle]] - Counter outcome position when sweep attempt is capitalized upon by top player
+- [[Positions/Ashi Garami/Saddle]] - Counter outcome position when sweep attempt is capitalized upon by top player
 
-- [[Ashi Garami]] - Parent leg entanglement system with similar sweep mechanics
+- [[Positions/Ashi Garami]] - Parent leg entanglement system with similar sweep mechanics
 
-- [[Counter Entangle from Cross Ashi]] - Alternative bottom option when sweep conditions are not met
+- [[Transitions/Counter Entangle from Cross Ashi]] - Alternative bottom option when sweep conditions are not met
 
-- [[Leg Extraction from Cross Ashi]] - Alternative escape technique focusing on freeing the trapped leg
+- [[Transitions/Leg Extraction from Cross Ashi]] - Alternative escape technique focusing on freeing the trapped leg
 
-- [[Heel Hook Defense Escape]] - Priority defensive option when immediate heel hook threat exists
+- [[Transitions/Heel Hook Defense Escape]] - Priority defensive option when immediate heel hook threat exists
 
-- [[Counter Sweep from Outside Ashi]] - Related sweep defense concepts from the top player perspective
+- [[Transitions/Counter Sweep from Outside Ashi]] - Related sweep defense concepts from the top player perspective
 
-- [[Inside Ashi-Garami]] - Alternative leg entanglement the bottom player can enter instead of sweeping
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative leg entanglement the bottom player can enter instead of sweeping
 
-- [[Outside Heel Hook from Cross Ashi]] - Primary submission threat the sweeper must avoid during the attempt
+- [[Transitions/Outside Heel Hook from Cross Ashi]] - Primary submission threat the sweeper must avoid during the attempt
 
 
 </section>

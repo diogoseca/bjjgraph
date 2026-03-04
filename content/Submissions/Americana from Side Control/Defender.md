@@ -158,7 +158,7 @@ Defending the Americana from Side Control requires early recognition and discipl
 
 The critical defensive window is during the grip establishment phase. Once your opponent secures the figure-four and achieves the 90-degree arm configuration, escape becomes exponentially more difficult and the risk of injury increases significantly. Your defensive strategy should focus on preventing the initial wrist capture, keeping your elbow tight to your body, and using your free arm and hip movement to disrupt the setup rather than simply resisting the rotation. Understanding that the Americana creates a dilemma between defending the submission and escaping the position is essential - the most effective defenses address both threats simultaneously by using the opponent's commitment to the submission as an opportunity to recover guard or reverse position.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -196,28 +196,28 @@ The critical defensive window is during the grip establishment phase. Once your 
 ### 1. Grip your own collar, belt, or opposite bicep with your near-side hand to prevent wrist isolation
 
 - **When to use**: As a preventive measure whenever you are under side control, or immediately when you feel the opponent's hand searching for your wrist
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent cannot establish the figure-four grip and must abandon the Americana attempt, returning to positional control
 - **Risk**: Committing both hands to defensive grips limits your ability to frame and create space for escapes
 
 ### 2. Bridge and turn into your opponent while they establish the figure-four, threading your trapped arm across their body
 
 - **When to use**: During the grip transition phase when the opponent lifts their weight to bring their far arm over yours, creating a momentary base weakness
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover to closed guard or half guard by using their submission commitment to create space for hip escape
 - **Risk**: If mistimed, the turn can accelerate the submission by placing your shoulder in a worse angle for the lock
 
 ### 3. Straighten your trapped arm explosively and push it toward the mat while bridging with your hips
 
 - **When to use**: Early in the submission sequence before the opponent has fully secured the 90-degree configuration and while your arm still has range of motion
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You break free of the figure-four grip and return to standard side control bottom defensive position
 - **Risk**: A fully extended arm is vulnerable to a straight armbar if the opponent transitions quickly
 
 ### 4. Roll toward the opponent aggressively to eliminate the external rotation angle and begin a guard recovery sequence
 
 - **When to use**: When the submission is partially locked but not yet at the finishing angle, and you need to relieve immediate shoulder pressure
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You end up in closed guard or half guard, completely nullifying the Americana threat while improving your overall position
 - **Risk**: If the opponent follows your roll and maintains the grip, they may finish from mount instead
 
@@ -240,11 +240,11 @@ The critical defensive window is during the grip establishment phase. Once your 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time a hip escape to coincide with the opponent shifting their weight to establish the figure-four grip, using the momentary base weakness to insert your knee and recover closed guard or half guard
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the opponent overcommits to the Americana by releasing cross-face and shifting weight laterally, execute an explosive bridge and roll in the direction of their grip, reversing position entirely
 

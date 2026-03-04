@@ -186,7 +186,7 @@ description: "How to execute the Transition to K-Guard from Half Guard Bottom. S
 
 From the attacker's perspective, the Transition to K-Guard is about converting your half guard bottom position from a potentially deteriorating defensive state into an aggressive offensive platform. Your objective is to reconfigure your leg entanglement from standard half guard hooks into the inverted hook plus butterfly hook configuration that defines K-Guard. This requires maintaining active frames to control distance, creating sufficient hip space to rotate your inside hook, and timing the transition to coincide with moments when the top player's weight is committed forward. The entry is a calculated upgrade of your guard structure that trades momentary instability during the hook switch for significantly superior offensive mechanics once K-Guard is established. Mastering this transition gives you a reliable escape route from deteriorating half guard situations and a launching point for the entire K-Guard sweep and back-take system.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -241,9 +241,9 @@ From the attacker's perspective, the Transition to K-Guard is about converting y
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[K-Guard]] | 55% |
-| Failure | [[Half Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/K-Guard]] | 55% |
+| Failure | [[Positions/Half Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -252,10 +252,10 @@ From the attacker's perspective, the Transition to K-Guard is about converting y
 
 ## Opponent Counters
 
-- **Opponent drives heavy crossface and shoulder pressure during hook switch to flatten bottom player** (Effectiveness: High) - Your Response: If you feel the crossface establishing before you complete the hook switch, abort the K-Guard entry and recover your standard half guard hook immediately. Use your inside frame to push their shoulder away and re-establish distance. Alternatively, if the crossface catches you mid-transition, use the forward pressure to redirect into a deep half entry by diving underneath their weight rather than fighting the flatten-out. → Leads to [[Half Guard]]
-- **Opponent extracts trapped leg by sprawling backward during the momentary release of inside hook** (Effectiveness: High) - Your Response: If the opponent begins extracting during your hook switch, immediately abandon the K-Guard reconfiguration and follow their retreating leg with your hips. Re-engage with a butterfly hook on their retreating leg and pursue single leg X-Guard or standard butterfly guard. Do not chase the lost entanglement - transition to whatever guard structure the new distance and angle supports. → Leads to [[Half Guard]]
-- **Opponent posts far leg wide and sits back to deny butterfly hook elevation, stabilizing their base against the new hook configuration** (Effectiveness: Medium) - Your Response: When the opponent widens their base and sits back, your inverted hook still has lateral pulling effectiveness even without the butterfly elevation threat. Use the inverted hook to drag their trapped leg across your centerline while hip escaping to create a sharper angle. From this angle, transition to single leg X-Guard or standard X-Guard entries that exploit the widened base. Their defensive posture creates the distance needed for leg entanglement transitions. → Leads to [[K-Guard]]
-- **Opponent underhooks your inside arm during the transition and drives forward to pass while hooks are reconfiguring** (Effectiveness: Medium) - Your Response: If the opponent captures your inside arm during the hook switch, prioritize recovering your arm by swimming it free or framing against their neck with your outside arm. Complete the K-Guard hook configuration even with the compromised upper body position, as the hook mechanics can still function defensively. Once hooks are active, use the inverted hook tension to create space for arm recovery. If the arm remains trapped, transition to lockdown on their trapped leg as a more defensible position. → Leads to [[Side Control]]
+- **Opponent drives heavy crossface and shoulder pressure during hook switch to flatten bottom player** (Effectiveness: High) - Your Response: If you feel the crossface establishing before you complete the hook switch, abort the K-Guard entry and recover your standard half guard hook immediately. Use your inside frame to push their shoulder away and re-establish distance. Alternatively, if the crossface catches you mid-transition, use the forward pressure to redirect into a deep half entry by diving underneath their weight rather than fighting the flatten-out. → Leads to [[Positions/Half Guard]]
+- **Opponent extracts trapped leg by sprawling backward during the momentary release of inside hook** (Effectiveness: High) - Your Response: If the opponent begins extracting during your hook switch, immediately abandon the K-Guard reconfiguration and follow their retreating leg with your hips. Re-engage with a butterfly hook on their retreating leg and pursue single leg X-Guard or standard butterfly guard. Do not chase the lost entanglement - transition to whatever guard structure the new distance and angle supports. → Leads to [[Positions/Half Guard]]
+- **Opponent posts far leg wide and sits back to deny butterfly hook elevation, stabilizing their base against the new hook configuration** (Effectiveness: Medium) - Your Response: When the opponent widens their base and sits back, your inverted hook still has lateral pulling effectiveness even without the butterfly elevation threat. Use the inverted hook to drag their trapped leg across your centerline while hip escaping to create a sharper angle. From this angle, transition to single leg X-Guard or standard X-Guard entries that exploit the widened base. Their defensive posture creates the distance needed for leg entanglement transitions. → Leads to [[Positions/K-Guard]]
+- **Opponent underhooks your inside arm during the transition and drives forward to pass while hooks are reconfiguring** (Effectiveness: Medium) - Your Response: If the opponent captures your inside arm during the hook switch, prioritize recovering your arm by swimming it free or framing against their neck with your outside arm. Complete the K-Guard hook configuration even with the compromised upper body position, as the hook mechanics can still function defensively. Once hooks are active, use the inverted hook tension to create space for arm recovery. If the arm remains trapped, transition to lockdown on their trapped leg as a more defensible position. → Leads to [[Positions/Side Control]]
 
 
 </section>

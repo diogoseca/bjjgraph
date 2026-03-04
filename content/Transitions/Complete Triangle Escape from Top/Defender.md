@@ -154,7 +154,7 @@ description: "Learn to defend your triangle choke against top-position escape at
 
 As the triangle holder defending against your opponent's escape attempt, your primary objective is maintaining the submission threat by preserving your choking angle, hip elevation, and leg lock configuration while actively countering each phase of the escape sequence. You must recognize escape patterns early and apply targeted counter-pressure at each stage: pulling the head down immediately when they attempt posture recovery, adjusting your angle to match their circling direction, threatening armbar transitions when they focus on extracting their trapped arm, and initiating sweeps when their base becomes compromised during lateral movement. The triangle escape creates a dynamic exchange where your ability to anticipate and shut down each sequential escape phase determines whether you finish the submission, maintain the position for continued attack, or at minimum convert into a dominant positional exchange through sweep.
 
-**Opponent's Starting Position**: [[Triangle Escape Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Triangle Escape Position]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the triangle holder defending against your opponent's escape attempt, your pr
 ### 1. Pull head down and re-break posture using collar grip, wrist control, or both hands behind the head
 
 - **When to use**: Immediately when you feel opponent beginning to straighten their spine or drive their head upward in posture recovery phase
-- **Targets**: [[Triangle Escape Position]]
+- **Targets**: [[Positions/Triangle Escape Position]]
 - **If successful**: Opponent's posture collapses back into optimal choking position, resetting their escape progress and allowing you to re-tighten the triangle for finishing attempt
 - **Risk**: If pulling too aggressively with just arms, opponent can use your pulling energy against you in a stack pass by driving forward through your pull
 
 ### 2. Scoot hips laterally and re-angle to maintain perpendicular choking geometry as opponent circles
 
 - **When to use**: When opponent begins stepping laterally toward their trapped arm side during the circling phase of the escape
-- **Targets**: [[Triangle Escape Position]]
+- **Targets**: [[Positions/Triangle Escape Position]]
 - **If successful**: Maintains optimal finishing angle despite opponent's circling, negating their positional gains and keeping the triangle structurally sound for continued submission pressure
 - **Risk**: Lateral hip movement temporarily loosens leg squeeze, creating brief extraction window if opponent recognizes the adjustment timing
 
 ### 3. Transition to armbar by pivoting hips and isolating the trapped arm while maintaining triangle leg position
 
 - **When to use**: When opponent successfully recovers posture and the triangle finish becomes unlikely, or when opponent extends their trapped arm during extraction attempt
-- **Targets**: [[Triangle Escape Position]]
+- **Targets**: [[Positions/Triangle Escape Position]]
 - **If successful**: Catches opponent in armbar transition that they must now defend in addition to the triangle, creating a dual-threat scenario that dramatically increases submission probability
 - **Risk**: Armbar pivot requires temporarily opening the triangle structure, and if the armbar fails, opponent may complete their escape through the created space
 
 ### 4. Execute hip bump sweep by bridging explosively when opponent's base is compromised during circling or stacking
 
 - **When to use**: When opponent commits weight to one side during circling phase or when their knees come together compromising lateral stability during the stacking sequence
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Reverses the position entirely, sweeping the opponent to bottom while you achieve top position, converting a potentially lost submission into a dominant positional exchange
 - **Risk**: Failed sweep from triangle position may accelerate the escape by creating space and disrupting your own leg configuration
 
@@ -225,11 +225,11 @@ As the triangle holder defending against your opponent's escape attempt, your pr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Triangle Escape Position]]
+### → [[Positions/Triangle Escape Position]]
 
 Maintain active pulling pressure on opponent's head, continuously re-adjust angle to match their circling, and threaten armbar transitions whenever they focus on arm extraction. The longer you maintain the triangle position, the more energy the opponent expends on escape attempts, progressively increasing your finishing probability.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the triangle is being successfully dismantled and the submission is no longer viable, transition proactively to a sweep by bridging into the opponent's compromised base during their circling or stacking phase. Time the sweep for the moment their weight shifts laterally during a step, catching them off-balance for the reversal.
 

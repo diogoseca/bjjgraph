@@ -21,7 +21,7 @@ The setup phase is arguably more important than the finish itself, as experience
 
 From a strategic perspective, the RNC setup integrates seamlessly with other back control attacks. Opponents who successfully defend the choke often expose themselves to arm attacks, bow and arrow choke entries, or crucifix transitions. This creates a dilemma-based attack system where defending one threat opens another, making the RNC setup not just a submission path but a positional control tool that forces reactions you can exploit.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic perspective, the RNC setup integrates seamlessly with other bac
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Harness]] | 55% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Harness]] | 55% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -198,27 +198,27 @@ The Rear Naked Choke Setup is the primary submission pathway from back control, 
 ## Related Techniques
 
 
-- [[Back Control]] - Starting position and foundation for the RNC setup sequence
+- [[Positions/Back Control]] - Starting position and foundation for the RNC setup sequence
 
-- [[Rear Naked Choke]] - Finishing submission that follows successful setup
+- [[Transitions/Rear Naked Choke]] - Finishing submission that follows successful setup
 
-- [[Armbar from Back]] - Alternative attack when opponent defends neck with both arms
+- [[Submissions/Armbar from Back]] - Alternative attack when opponent defends neck with both arms
 
-- [[Bow and Arrow Choke]] - Gi alternative when RNC is defended but collar is available
+- [[Transitions/Bow and Arrow Choke]] - Gi alternative when RNC is defended but collar is available
 
-- [[Crucifix]] - Transition target when you trap opponent's defending arm
+- [[Positions/Crucifix]] - Transition target when you trap opponent's defending arm
 
-- [[Body Triangle]] - Control variation that enhances RNC setup stability
+- [[Positions/Back Control/Body Triangle]] - Control variation that enhances RNC setup stability
 
-- [[Gift Wrap]] - Arm control position used to eliminate defensive grips
+- [[Positions/Gift Wrap]] - Arm control position used to eliminate defensive grips
 
-- [[Hand Fighting from Back]] - Defensive technique opponent uses against the setup
+- [[Transitions/Hand Fighting from Back]] - Defensive technique opponent uses against the setup
 
-- [[Back Door Escape]] - Escape system opponent employs if setup is delayed
+- [[Transitions/Back Door Escape]] - Escape system opponent employs if setup is delayed
 
-- [[Harness]] - Grip configuration that initiates the setup sequence and represents successful choke control
+- [[Positions/Harness]] - Grip configuration that initiates the setup sequence and represents successful choke control
 
-- [[Turtle]] - Position opponent may recover to if setup fails
+- [[Positions/Turtle]] - Position opponent may recover to if setup fails
 
 
 </section>

@@ -158,7 +158,7 @@ The defender's primary strategic choice is between maintaining standing position
 
 Advanced defenders integrate awareness of the Truck entry threat into their overall standing back control escape strategy. Rather than treating the Truck entry as a separate problem, they recognize it as one branch of the attacker's decision tree from standing back control and adjust their defensive posture to make the hook threading angle unavailable while still working their primary escape sequences. This means keeping hips low and squared when dropping, immediately tucking elbows tight to block hook access, and maintaining enough base to prevent the attacker from angling the descent to their preferred side.
 
-**Opponent's Starting Position**: [[Standing Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Advanced defenders integrate awareness of the Truck entry threat into their over
 ### 1. Maintain standing position by widening base and fighting to stay upright, denying the descent trigger the attacker needs to initiate the Truck entry
 
 - **When to use**: When you have sufficient balance and the attacker has not yet broken your posture or committed to a forceful takedown. Best used early before the attacker generates downward momentum.
-- **Targets**: [[Standing Back Control]]
+- **Targets**: [[Positions/Back Control/Standing Back Control]]
 - **If successful**: You remain in standing back control bottom, which is dangerous but prevents Truck entry. You can continue working primary standing escapes: grip fighting, hip turning, or technical standup.
 - **Risk**: Staying standing against an opponent with strong harness control exposes you to rear naked choke attempts and forceful mat returns. If the attacker has body triangle or deep hooks, staying standing may not be possible.
 
 ### 2. Execute a controlled drop to turtle with hips squared, elbows immediately tucked, and hips driven flat to the mat to block hook access underneath your body
 
 - **When to use**: When you cannot maintain standing position and need to go to ground, but want to deny the Truck entry by controlling how you land. Execute this before the attacker can angle your descent.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You land in a consolidated turtle position with elbows and knees forming a defensive shell that prevents hook threading. From turtle, you can work standard escapes: granby roll, sit-through, or technical standup.
 - **Risk**: If you drop too slowly or allow the attacker to angle you, they thread the hook during your descent. If your turtle is too flat, you may be vulnerable to other turtle top attacks like crucifix or front headlock.
 
 ### 3. Strip the threading leg hook with both hands before it crosses your centerline, pushing the attacker's shin away from under your hips
 
 - **When to use**: When you feel the attacker's leg beginning to thread under your body during the descent. This is a reactive defense used when the first two options have failed and the hook is actively being inserted.
-- **Targets**: [[Standing Back Control]]
+- **Targets**: [[Positions/Back Control/Standing Back Control]]
 - **If successful**: The hook is cleared before it reaches depth, and the attacker's Truck entry fails. You return to either standing back control or land in turtle without the leg entanglement.
 - **Risk**: Using both hands to fight the leg means releasing your neck defense temporarily, creating an opening for rear naked choke or other choking attacks while your hands are occupied below.
 
 ### 4. Sit through explosively toward the hooking side, turning to face the attacker before they can complete the roll to Truck configuration
 
 - **When to use**: When the attacker has begun the hook but has not yet completed the roll. Use the narrow window between hook threading and roll completion to change the angle entirely.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You face the attacker and recover to a guard position or scramble, completely negating the Truck entry. The sit-through converts the situation from back exposure to a front-facing engagement.
 - **Risk**: If the hook is already deep and the attacker has strong harness control, the sit-through may be stopped and you end up in a worse position with partial hook engagement and compromised base.
 
@@ -229,11 +229,11 @@ Advanced defenders integrate awareness of the Truck entry threat into their over
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Back Control]]
+### → [[Positions/Back Control/Standing Back Control]]
 
 Deny the descent entirely by maintaining strong standing posture, fighting the attacker's downward pressure, and keeping your base wide enough that they cannot generate the angle needed for the Truck entry. Strip any early hook attempts while maintaining neck defense. Continue working primary standing escapes to eventually remove back exposure completely.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Execute a controlled, deliberate drop to turtle with your hips squared and driven flat to the mat, elbows immediately tucked tight to knees. Drop before the attacker can angle your descent to their preferred side. Land in a compact defensive shell that blocks hook threading. From consolidated turtle, work standard escape sequences: granby roll to guard, technical standup, or sit-through to half guard.
 

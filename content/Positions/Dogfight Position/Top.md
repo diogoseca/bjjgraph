@@ -193,11 +193,11 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 ## Available Attacks
 
-### [[Crossface from Dogfight]] (35% of attempts)
+### [[Transitions/Crossface from Dogfight]] (35% of attempts)
 
-### [[Re-flatten from Dogfight]] (35% of attempts)
+### [[Transitions/Re-flatten from Dogfight]] (35% of attempts)
 
-### [[Snap Down from Dogfight]] (30% of attempts)
+### [[Transitions/Snap Down from Dogfight]] (30% of attempts)
 
 
 
@@ -208,34 +208,34 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 ## Decision Making from This Position
 
 **If opponent has strong whizzer and is driving you backward with heavy crossface pressure:**
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 70%)
-- Execute **[[Re-pull Half Guard from Dogfight]]** → [[Half Guard]] (Probability: 60%)
-- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 45%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 70%)
+- Execute **[[Transitions/Re-pull Half Guard from Dogfight]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 45%)
 
 
 **If opponent's far leg is posted wide and vulnerable to being controlled:**
-- Execute **[[Dogfight Sweep]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Forward Drive Sweep from Dogfight]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Transitions/Dogfight Sweep]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Forward Drive Sweep from Dogfight]]** → [[Positions/Mount]] (Probability: 60%)
 
 
 **If opponent loses whizzer control, exposes their back, or commits weight forward excessively:**
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Underhook Sweep from Dogfight]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Underhook Sweep from Dogfight]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent maintains upright posture and posts their free leg far out for base:**
-- Execute **[[Underhook Sweep from Dogfight]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Forward Drive Sweep from Dogfight]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/Underhook Sweep from Dogfight]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Forward Drive Sweep from Dogfight]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent attempts to circle their trapped leg free while maintaining balance:**
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Dogfight Sweep]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Dogfight Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If you are the top player and opponent has deep underhook with forward pressure:**
-- Execute **[[Crossface from Dogfight]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Re-flatten from Dogfight]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Crossface from Dogfight]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Re-flatten from Dogfight]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 
@@ -381,16 +381,16 @@ Practice entering Dogfight from flat half guard bottom with progressive resistan
 
 ## Related Positions and Techniques
 
-- **[[Half Guard]]** - Parent position - Dogfight is an elevated variation arising from flat half guard recovery
-- **[[Deep Half Guard]]** - Common transition target when opponent applies forward pressure or posts wide from Dogfight
-- **[[Lockdown]]** - Alternative half guard control mechanism that can transition to Dogfight when coming up to knees
-- **[[Knee Shield Half Guard]]** - Often precedes Dogfight - bottom player comes up to knees from knee shield configuration
-- **[[Back Control]]** - Primary offensive target from Dogfight via back take transitions when opponent exposes back
-- **[[Old School]]** - Signature sweep technique from Dogfight position targeting opponent's posted far leg
-- **[[Overhook Control]]** - Defensive concept the top player uses to counter Dogfight underhook and flatten opponent
-- **[[Butterfly Guard]]** - Alternative guard position with similar underhook battles and elevated posture dynamics
-- **[[Crab Ride]]** - Alternative position top player may transition to when defending Dogfight back take attempts
-- **[[Flattened Half Guard]]** - Position you regress to when losing the underhook battle and getting driven backward
+- **[[Positions/Half Guard]]** - Parent position - Dogfight is an elevated variation arising from flat half guard recovery
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common transition target when opponent applies forward pressure or posts wide from Dogfight
+- **[[Positions/Half Guard/Lockdown]]** - Alternative half guard control mechanism that can transition to Dogfight when coming up to knees
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Often precedes Dogfight - bottom player comes up to knees from knee shield configuration
+- **[[Positions/Back Control]]** - Primary offensive target from Dogfight via back take transitions when opponent exposes back
+- **[[Positions/Half Guard/Old School]]** - Signature sweep technique from Dogfight position targeting opponent's posted far leg
+- **[[Positions/Overhook Control]]** - Defensive concept the top player uses to counter Dogfight underhook and flatten opponent
+- **[[Positions/Butterfly Guard]]** - Alternative guard position with similar underhook battles and elevated posture dynamics
+- **[[Positions/Crab Ride]]** - Alternative position top player may transition to when defending Dogfight back take attempts
+- **[[Positions/Half Guard/Flattened Half Guard]]** - Position you regress to when losing the underhook battle and getting driven backward
 
 
 </section>

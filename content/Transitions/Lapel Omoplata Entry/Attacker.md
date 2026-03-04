@@ -178,7 +178,7 @@ From lapel guard bottom, the practitioner uses the existing lapel configuration 
 
 Strategically, this entry creates a true dilemma for the top player. When threatened with lapel sweeps, posting the hand becomes a natural defensive reaction. However, this posting arm becomes the target for omoplata entry. The technical challenge lies in maintaining lapel control while executing the hip rotation necessary to thread the leg over the opponent's shoulder. Success requires precise timing—attacking the posting arm at the moment of maximum commitment when the opponent cannot easily retract.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategically, this entry creates a true dilemma for the top player. When threat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Omoplata Control]] | 55% |
-| Failure | [[Lapel Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Omoplata Control]] | 55% |
+| Failure | [[Positions/Lapel Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, this entry creates a true dilemma for the top player. When threat
 
 ## Opponent Counters
 
-- **Opponent postures up immediately when feeling the rotation begin, pulling arm free before leg threads** (Effectiveness: High) - Your Response: Maintain tight lapel control and pursue with your rotation, or transition to triangle setup if arm escapes but head remains trapped → Leads to [[Lapel Guard]]
-- **Opponent rolls forward through the omoplata to escape the shoulder pressure** (Effectiveness: Medium) - Your Response: Follow the roll maintaining control, transitioning to mounted omoplata or using the roll to come up on top → Leads to [[Omoplata Control]]
-- **Opponent stacks pressure into you to prevent hip rotation and kill the angle** (Effectiveness: Medium) - Your Response: Use the lapel to off-balance them or transition to sweep using their forward pressure momentum → Leads to [[Lapel Guard]]
-- **Opponent clasps hands together to prevent arm isolation** (Effectiveness: Low) - Your Response: Attack the grip connection using wrist control or transition to wrist lock opportunities on the clasped hands → Leads to [[Omoplata Control]]
+- **Opponent postures up immediately when feeling the rotation begin, pulling arm free before leg threads** (Effectiveness: High) - Your Response: Maintain tight lapel control and pursue with your rotation, or transition to triangle setup if arm escapes but head remains trapped → Leads to [[Positions/Lapel Guard]]
+- **Opponent rolls forward through the omoplata to escape the shoulder pressure** (Effectiveness: Medium) - Your Response: Follow the roll maintaining control, transitioning to mounted omoplata or using the roll to come up on top → Leads to [[Positions/Omoplata Control]]
+- **Opponent stacks pressure into you to prevent hip rotation and kill the angle** (Effectiveness: Medium) - Your Response: Use the lapel to off-balance them or transition to sweep using their forward pressure momentum → Leads to [[Positions/Lapel Guard]]
+- **Opponent clasps hands together to prevent arm isolation** (Effectiveness: Low) - Your Response: Attack the grip connection using wrist control or transition to wrist lock opportunities on the clasped hands → Leads to [[Positions/Omoplata Control]]
 
 
 </section>

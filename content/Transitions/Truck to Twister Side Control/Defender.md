@@ -154,7 +154,7 @@ description: "Defend the Truck to Twister Side Control transition in BJJ. Learn 
 
 Defending the Transition to Twister Side Control requires recognizing the attacker's intent to rotate from behind you to your side and disrupting the walk-around before they establish lateral shoulder pressure. The defender's primary advantage is the brief window during rotation where the attacker's control is transitional—they have partially released truck grips but have not yet established twister side control grips. Exploiting this window through frames, hip escape, or granby roll is the key to successful defense. The defender must also protect against the worst outcome: arriving in full twister side control with complete shoulder pressure and leg entanglement, which severely limits escape options and exposes the spine to submission threats.
 
-**Opponent's Starting Position**: [[Truck]] (Top)
+**Opponent's Starting Position**: [[Positions/Twister Control/Truck]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the Transition to Twister Side Control requires recognizing the attack
 ### 1. Frame against attacker's shoulder with near arm to block walk-around path
 
 - **When to use**: As soon as you feel the attacker's chest begin moving from behind you toward your side—the earlier the frame, the more effective
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: Attacker cannot complete the rotation and must return to truck position, giving you time to work truck escapes
 - **Risk**: Extended framing arm can be attacked with kimura or armbar from truck if the attacker reads your defense
 
 ### 2. Execute granby roll during the rotation to escape underneath and recover guard
 
 - **When to use**: When the attacker is mid-rotation with weight committed forward—use their momentum to power your roll
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You escape the truck entirely and recover to half guard or open guard, completely resetting the position
 - **Risk**: If the attacker maintains leg entanglement through the granby, you may end up in a worse position with back exposed
 
 ### 3. Hip escape and extract trapped leg while attacker's attention is on the rotation
 
 - **When to use**: When the attacker has released upper body grips to support the walk-around, creating a divided-attention window
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Leg extraction removes the foundation of both truck and twister side control, forcing a scramble or guard recovery
 - **Risk**: If extraction fails, you have used energy without improving position and the attacker may consolidate twister side control
 
 ### 4. Turn into the attacker and fight for underhook to prevent lateral establishment
 
 - **When to use**: When the attacker has nearly completed the rotation but has not yet established shoulder-to-mat pressure
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: You prevent twister side control establishment and create a scramble opportunity from a face-to-face position
 - **Risk**: Turning in can expose your neck to darce or anaconda choke if the attacker is prepared for this response
 
@@ -226,11 +226,11 @@ Defending the Transition to Twister Side Control requires recognizing the attack
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Extract the trapped leg during the rotation window when the attacker's grip attention is divided between releasing truck grips and establishing lateral control. Hip escape aggressively while framing to create the space needed for leg extraction. Even partial extraction that leads to half guard removes the twister side control threat entirely.
 
-### → [[Truck]]
+### → [[Positions/Twister Control/Truck]]
 
 Frame early and decisively against the attacker's shoulder to block the walk-around path. A strong frame forces the attacker back to truck position, which while still disadvantageous, is a position you were already defending. This buys time to continue working truck escapes from a familiar defensive structure.
 

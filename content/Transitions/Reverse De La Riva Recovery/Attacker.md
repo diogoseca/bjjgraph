@@ -178,7 +178,7 @@ The recovery sequence follows a clear hierarchy: establish emergency frames to a
 
 Advanced practitioners turn recovery into offense by using the hip escape momentum to create angles that feed directly into Kiss of the Dragon entries, X-Guard transitions, or berimbolo setups. This transforms a defensive situation into an attacking opportunity, which is the hallmark of elite guard retention.
 
-**From Position**: [[Reverse De La Riva Guard]] (Bottom)
+**From Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -230,9 +230,9 @@ Advanced practitioners turn recovery into offense by using the hip escape moment
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Reverse De La Riva Guard]] | 55% |
-| Failure | [[Open Guard]] | 25% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/De La Riva Guard/Reverse De La Riva Guard]] | 55% |
+| Failure | [[Positions/Open Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -241,10 +241,10 @@ Advanced practitioners turn recovery into offense by using the hip escape moment
 
 ## Opponent Counters
 
-- **Opponent drives forward with heavy shoulder pressure before you can hip escape** (Effectiveness: High) - Your Response: Switch to Granby Roll recovery or use the forward pressure to load a waiter sweep if any hook remains. If completely flattened, abandon RDLR recovery and transition to Technical Stand-up or Butterfly Guard transition → Leads to [[Side Control]]
-- **Opponent controls your RDLR leg at the knee and prevents hook reinsertion** (Effectiveness: Medium) - Your Response: Use your free leg to push their controlling hand away, or transition to butterfly hooks or opposite-side RDLR rather than forcing a compromised recovery on the blocked side → Leads to [[Open Guard]]
-- **Opponent establishes strong crossface and prevents hip escape movement** (Effectiveness: High) - Your Response: Fight the crossface with your near arm to create space, establish an underhook if possible, and use that connection to generate enough room for a smaller hip adjustment before attempting full recovery → Leads to [[Side Control]]
-- **Opponent backsteps and pulls their leg completely free during recovery attempt** (Effectiveness: Medium) - Your Response: Follow their backward movement by sitting up to seated guard or transitioning to open guard with feet on hips, maintaining distance control even if RDLR structure cannot be re-established → Leads to [[Open Guard]]
+- **Opponent drives forward with heavy shoulder pressure before you can hip escape** (Effectiveness: High) - Your Response: Switch to Granby Roll recovery or use the forward pressure to load a waiter sweep if any hook remains. If completely flattened, abandon RDLR recovery and transition to Technical Stand-up or Butterfly Guard transition → Leads to [[Positions/Side Control]]
+- **Opponent controls your RDLR leg at the knee and prevents hook reinsertion** (Effectiveness: Medium) - Your Response: Use your free leg to push their controlling hand away, or transition to butterfly hooks or opposite-side RDLR rather than forcing a compromised recovery on the blocked side → Leads to [[Positions/Open Guard]]
+- **Opponent establishes strong crossface and prevents hip escape movement** (Effectiveness: High) - Your Response: Fight the crossface with your near arm to create space, establish an underhook if possible, and use that connection to generate enough room for a smaller hip adjustment before attempting full recovery → Leads to [[Positions/Side Control]]
+- **Opponent backsteps and pulls their leg completely free during recovery attempt** (Effectiveness: Medium) - Your Response: Follow their backward movement by sitting up to seated guard or transitioning to open guard with feet on hips, maintaining distance control even if RDLR structure cannot be re-established → Leads to [[Positions/Open Guard]]
 
 
 </section>

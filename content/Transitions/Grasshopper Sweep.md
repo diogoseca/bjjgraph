@@ -21,7 +21,7 @@ The sweep capitalizes on the opponent's forward commitment or narrow base, using
 
 Strategically, this sweep functions as a high-reward option within the Grasshopper Guard system. When opponents recognize the leg entanglement threats from grasshopper and begin backing away or widening their base defensively, they often create the exact conditions needed for this sweep. The technique requires precise timing and substantial core strength to execute, but when landed correctly, it bypasses the half guard and side control positions entirely, placing you directly in mount with significant momentum advantage.
 
-**From Position**: [[Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this sweep functions as a high-reward option within the Grasshopp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Grasshopper Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Grasshopper Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -193,21 +193,21 @@ The Grasshopper Sweep integrates into the broader inverted guard and leg entangl
 ## Related Techniques
 
 
-- [[Grasshopper Guard]] - Starting position for this sweep
+- [[Positions/Grasshopper Guard]] - Starting position for this sweep
 
-- [[Mount]] - Primary target position after successful sweep
+- [[Positions/Mount]] - Primary target position after successful sweep
 
-- [[Side Control]] - Position opponent may reach if they counter the sweep mid-execution
+- [[Positions/Side Control]] - Position opponent may reach if they counter the sweep mid-execution
 
-- [[Inverted Guard]] - Parent guard category sharing inversion mechanics
+- [[Positions/Inverted Guard]] - Parent guard category sharing inversion mechanics
 
-- [[Inside Ashi Entry]] - Chain attack when sweep fails but leg contact remains
+- [[Transitions/Inside Ashi Entry]] - Chain attack when sweep fails but leg contact remains
 
-- [[Reverse De La Riva Guard]] - Recovery position when opponent circles to escape
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Recovery position when opponent circles to escape
 
-- [[Butterfly Sweep]] - Shares hip elevation sweep mechanics from different guard
+- [[Transitions/Butterfly Sweep]] - Shares hip elevation sweep mechanics from different guard
 
-- [[Elevator Sweep]] - Related elevation-based sweep using similar hip drive principles
+- [[Transitions/Elevator Sweep]] - Related elevation-based sweep using similar hip drive principles
 
 
 </section>

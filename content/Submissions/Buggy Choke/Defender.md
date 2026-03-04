@@ -156,7 +156,7 @@ description: "How to defend against Buggy Choke in BJJ. Recognition, escape path
 
 Defending the Buggy Choke requires early recognition and immediate action, because once the choke is fully locked with the arm trapped and the angle established, escape becomes extremely difficult. As the top player in half guard, your primary vulnerability to the Buggy Choke occurs when you commit your weight forward and allow the bottom player to create an angle against your neck. The defense centers on three phases: preventing the initial setup by maintaining proper posture and denying the arm trap, disrupting the choke mid-setup by extracting your trapped arm and creating distance, and emergency escapes when the choke is already locked by posturing aggressively or completing the guard pass to change the angle. Understanding the attacker's mechanics is essential—the choke requires your arm to be trapped, a specific body angle, and shoulder-to-neck compression. Removing any one of these three elements neutralizes the threat. The most common defensive failure is ignoring the setup because the bottom half guard position appears non-threatening, allowing the attacker to lock the configuration before you recognize the danger.
 
-**Opponent's Starting Position**: [[Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the Buggy Choke requires early recognition and immediate action, becau
 ### 1. Extract trapped arm by swimming it back toward your hip and turning your elbow down
 
 - **When to use**: As soon as you feel your arm being controlled or threaded across your neck—this is the highest-priority defense
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Removes the primary choking mechanism and returns you to standard half guard top where you can resume passing
 - **Risk**: If extraction fails, opponent may lock the grip tighter; combine with posture to avoid feeding deeper into the choke
 
 ### 2. Posture up explosively by driving your hips back and extending your spine to break the compression angle
 
 - **When to use**: When the choke setup is in progress but not yet fully locked—creating distance removes the shoulder-to-neck pressure
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Breaks the compression angle and creates enough space to extract arm and reset to dominant half guard top
 - **Risk**: Posturing too aggressively may allow opponent to transition to sweeps if you lose base; maintain half guard control while posturing
 
 ### 3. Complete the guard pass by driving through to side control, changing the angle and removing the choke mechanics
 
 - **When to use**: When the choke is partially locked but you still have mobility—passing eliminates the half guard structure the choke depends on
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Removes half guard control entirely, which destroys the positional foundation of the Buggy Choke
 - **Risk**: Driving forward to pass may temporarily increase choking pressure before angle changes; must commit fully and move quickly
 
 ### 4. Turn your chin toward the choking pressure and tuck to protect your carotid arteries
 
 - **When to use**: Emergency defense when the choke is deeply locked and other options have failed—buys time but does not escape
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Reduces carotid compression temporarily, allowing you to work on arm extraction or posture recovery
 - **Risk**: This is a stalling defense only; opponent will maintain position and wait for your chin defense to fatigue
 
@@ -240,11 +240,11 @@ Defending the Buggy Choke requires early recognition and immediate action, becau
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Extract the trapped arm and posture up to reset dominant half guard top position with crossface control re-established
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Complete the guard pass by driving through to side control, which eliminates the half guard structure the Buggy Choke depends on
 

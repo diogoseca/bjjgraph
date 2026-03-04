@@ -154,7 +154,7 @@ description: "Learn to defend against the Sweep from Leg Weave. Recognition cues
 
 As the top player maintaining the leg weave passing position, you must recognize and prevent sweep attempts by the bottom player while continuing to advance your own pass. The sweep from leg weave is the bottom player's highest-reward option, converting your passing control directly into their side control. Understanding how the sweep works mechanically allows you to deny the critical setup elements: the underhook, the weight commitment timing, and the far arm control. Your defensive priority is threefold: prevent the underhook from establishing, maintain your base so your weight cannot be redirected, and keep a posting option available at all times. When you successfully defend the sweep, you often create immediate passing opportunities because the bottom player's failed sweep attempt leaves them off-balance and exposed.
 
-**Opponent's Starting Position**: [[Leg Weave]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Weave]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the top player maintaining the leg weave passing position, you must recognize
 ### 1. Drive your shoulder into the bottom player's chest and swim your near arm inside to deny the underhook before it establishes
 
 - **When to use**: When you feel the bottom player's near arm beginning to swim under your armpit at the earliest stage of setup
-- **Targets**: [[Leg Weave]]
+- **Targets**: [[Positions/Leg Weave]]
 - **If successful**: The sweep is denied at its foundation because without the underhook the bottom player cannot generate rotational force for the reversal
 - **Risk**: Over-focusing on underhook denial can create space on the far side that the bottom player exploits for a frame-based guard recovery
 
 ### 2. Post your far hand wide on the mat and sprawl your hips back to create distance between your center of gravity and the sweep direction
 
 - **When to use**: When the bottom player has established the underhook and you feel the rotational pull beginning, before the bridge commits
-- **Targets**: [[Leg Weave]]
+- **Targets**: [[Positions/Leg Weave]]
 - **If successful**: Your posted hand and sprawled hips create a counterbalance that the bottom player cannot overcome with the bridge, killing the sweep momentum
 - **Risk**: Posting wide removes your hand from controlling the bottom player's hip, potentially allowing knee shield reinsertion or guard recovery
 
 ### 3. Crossface aggressively and drive your chest weight forward to flatten the bottom player before they can turn onto their side and load the sweep
 
 - **When to use**: When you recognize the bottom player beginning to turn toward you but before the underhook is fully secured
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: The bottom player is flattened with their sweep angle neutralized, and the aggressive forward drive can accelerate your pass completion through the opening
 - **Risk**: Driving forward aggressively commits your weight over the bottom player's centerline, which is exactly the weight distribution they need if the underhook is already established
 
 ### 4. Backstep your weaved leg free and circle away from the sweep direction, transitioning to a backstep pass or leg drag angle
 
 - **When to use**: When the sweep is fully loaded with underhook established and bridge imminent, and direct resistance would likely fail
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You remove the trapped leg from the equation entirely, converting the bottom player's sweep setup into exposure for a backstep pass to their back
 - **Risk**: If the backstep is too slow, the bottom player completes the sweep during your disengagement. If it fails entirely, you may lose the leg weave position without completing any pass
 
@@ -225,11 +225,11 @@ As the top player maintaining the leg weave passing position, you must recognize
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Weave]]
+### → [[Positions/Leg Weave]]
 
 Deny the underhook by maintaining inside arm position and driving your shoulder into the bottom player's chest. Keep your weight distributed across multiple contact points rather than committed forward, and maintain a posting hand available at all times. Address the sweep setup in its earliest phase by preventing the hip angle change.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the bottom player commits to the sweep attempt and fails, they often end up off-balance with their defensive frames compromised. Exploit this window by immediately driving through with a knee slice or smash pass. The failed sweep attempt creates a passing lane that did not exist before because the bottom player's grips are misaligned for passing defense.
 

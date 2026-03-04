@@ -182,7 +182,7 @@ The attacker's role in the Back Take from Armbar centers on recognizing when the
 
 Success depends on reading the opponent's defensive commitment accurately. The attacker who waits too long loses the transition window as the opponent settles into a stable defensive position, while the attacker who moves too early gives up a viable armbar attempt. The optimal timing occurs when the opponent has committed to turning but has not yet completed their rotation to a safe position, creating a brief window where the back is accessible and the opponent's defensive momentum can be redirected into your positional control.
 
-**From Position**: [[Armbar Control]] (Top)
+**From Position**: [[Positions/Armbar Control]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ Success depends on reading the opponent's defensive commitment accurately. The a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Armbar Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Armbar Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ Success depends on reading the opponent's defensive commitment accurately. The a
 
 ## Opponent Counters
 
-- **Opponent stops rotating and re-extends arm to return to standard armbar defense** (Effectiveness: High) - Your Response: If the opponent stops turning before you can thread the first hook, immediately re-secure your armbar wrist grips and return to standard armbar control. You retain your original dominant position and can threaten the armbar again to provoke renewed defensive turning. → Leads to [[Armbar Control]]
-- **Opponent explosively hip escapes away during the grip transition window** (Effectiveness: Medium) - Your Response: When the opponent uses the momentary grip looseness to shrimp and create distance, immediately follow with your hips and attempt to re-establish any form of top control. Chase their hips and try to secure at least one hook or transition to a top position before they fully recover guard. → Leads to [[Half Guard]]
-- **Opponent posts on far hand and drives into you to prevent the back take** (Effectiveness: Medium) - Your Response: If the opponent posts and resists by driving pressure toward you, use their extended posting arm as a potential new armbar target. Alternatively, use the posting arm to set up a triangle or return to your original armbar position with adjusted grips on the newly exposed limb. → Leads to [[Armbar Control]]
-- **Opponent turtles tightly and blocks hook insertion with elbows pinched to hips** (Effectiveness: Low) - Your Response: When the opponent turtles to block hooks, maintain chest-to-back pressure and transition to standard turtle attacks. Work patiently to insert hooks one at a time using knee wedges, or transition to alternative back take entries from turtle control such as seatbelt with single hook. → Leads to [[Back Control]]
+- **Opponent stops rotating and re-extends arm to return to standard armbar defense** (Effectiveness: High) - Your Response: If the opponent stops turning before you can thread the first hook, immediately re-secure your armbar wrist grips and return to standard armbar control. You retain your original dominant position and can threaten the armbar again to provoke renewed defensive turning. → Leads to [[Positions/Armbar Control]]
+- **Opponent explosively hip escapes away during the grip transition window** (Effectiveness: Medium) - Your Response: When the opponent uses the momentary grip looseness to shrimp and create distance, immediately follow with your hips and attempt to re-establish any form of top control. Chase their hips and try to secure at least one hook or transition to a top position before they fully recover guard. → Leads to [[Positions/Half Guard]]
+- **Opponent posts on far hand and drives into you to prevent the back take** (Effectiveness: Medium) - Your Response: If the opponent posts and resists by driving pressure toward you, use their extended posting arm as a potential new armbar target. Alternatively, use the posting arm to set up a triangle or return to your original armbar position with adjusted grips on the newly exposed limb. → Leads to [[Positions/Armbar Control]]
+- **Opponent turtles tightly and blocks hook insertion with elbows pinched to hips** (Effectiveness: Low) - Your Response: When the opponent turtles to block hooks, maintain chest-to-back pressure and transition to standard turtle attacks. Work patiently to insert hooks one at a time using knee wedges, or transition to alternative back take entries from turtle control such as seatbelt with single hook. → Leads to [[Positions/Back Control]]
 
 
 </section>

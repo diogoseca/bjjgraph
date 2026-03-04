@@ -21,7 +21,7 @@ Unlike many submissions that require transitioning to a dedicated control positi
 
 The Baseball Bat Choke occupies a unique strategic position within the Knee on Belly attack system because it punishes the most natural defensive reaction. Most practitioners instinctively push against the knee to relieve diaphragm pressure, and that arm extension is precisely the opening this choke requires. This creates a true dilemma: accept the crushing knee pressure or expose the neck. Advanced practitioners layer this threat with armbar and Americana attacks to create a three-way forcing function that overwhelms even disciplined defenders.
 
-**From Position**: [[Knee on Belly]] (Top)
+**From Position**: [[Positions/Knee on Belly]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -33,8 +33,8 @@ The Baseball Bat Choke occupies a unique strategic position within the Knee on B
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Knee on Belly]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Knee on Belly]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Baseball Bat Choke integrates seamlessly into the Knee on Belly attack syste
 ## Related Techniques
 
 
-- [[Knee on Belly]] - Starting position — Baseball Bat Choke is the primary submission attack from Knee on Belly Top
+- [[Positions/Knee on Belly]] - Starting position — Baseball Bat Choke is the primary submission attack from Knee on Belly Top
 
-- [[Side Control]] - Alternative starting position for grip acquisition before transitioning to Knee on Belly
+- [[Positions/Side Control]] - Alternative starting position for grip acquisition before transitioning to Knee on Belly
 
-- [[North-South]] - Transition target when spin is blocked — same grips enable North-South choke continuation
+- [[Positions/North-South]] - Transition target when spin is blocked — same grips enable North-South choke continuation
 
-- [[Armbar from Side Control]] - Alternative attack when opponent keeps arms tight defending collar grips
+- [[Submissions/Armbar from Side Control]] - Alternative attack when opponent keeps arms tight defending collar grips
 
-- [[Americana from Side Control]] - Alternative attack targeting opponent's near arm when collar defense is strong
+- [[Submissions/Americana from Side Control]] - Alternative attack targeting opponent's near arm when collar defense is strong
 
-- [[Cross Collar Choke]] - Related collar choke sharing similar grip mechanics and collar depth requirements
+- [[Transitions/Cross Collar Choke]] - Related collar choke sharing similar grip mechanics and collar depth requirements
 
-- [[Mount]] - Position advancement option when opponent successfully defends all submission attempts
+- [[Positions/Mount]] - Position advancement option when opponent successfully defends all submission attempts
 
-- [[Breadcutter Choke]] - Related collar choke from similar positions with different grip orientation and finishing angle
+- [[Transitions/Breadcutter Choke]] - Related collar choke from similar positions with different grip orientation and finishing angle
 
-- [[North-South Choke]] - Continuation option using same grip configuration when spin is blocked by opponent turning in
+- [[Transitions/North-South Choke]] - Continuation option using same grip configuration when spin is blocked by opponent turning in
 
-- [[Half Guard]] - Common recovery position for defender who successfully counters the spin with hip escape
+- [[Positions/Half Guard]] - Common recovery position for defender who successfully counters the spin with hip escape
 
 
 </section>

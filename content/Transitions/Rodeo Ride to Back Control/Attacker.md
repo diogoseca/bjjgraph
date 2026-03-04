@@ -186,7 +186,7 @@ description: "Execute the Rodeo Ride to Back Control transition with systematic 
 
 Executing the Rodeo Ride to Back Control transition requires converting your dynamic, perpendicular turtle pressure into parallel back alignment through sequential hook insertion and coordinated upper body control changes. The attacker must manage a fundamental tension throughout this transition: maintaining enough chest-to-back pressure to prevent escapes while simultaneously shifting weight and leg position to insert hooks. This process follows a strict mechanical sequence—near-arm control, angle change, first hook, seat belt establishment, second hook—where skipping or rushing any step dramatically increases the probability of losing position entirely. The transition rewards patience and systematic execution over explosive athleticism, as the critical moments require precise timing rather than raw speed.
 
-**From Position**: [[Rodeo Ride]] (Top)
+**From Position**: [[Positions/Rodeo Ride]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Rodeo Ride to Back Control transition requires converting your dyn
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Rodeo Ride]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Rodeo Ride]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Rodeo Ride to Back Control transition requires converting your dyn
 
 ## Opponent Counters
 
-- **Opponent explosively sits back toward guard as soon as hip pressure shifts during hook insertion** (Effectiveness: High) - Your Response: Follow their sit-back movement by maintaining chest connection and accelerating hook insertion—their backward motion actually helps you slide behind them if you stay attached and ride the movement rather than fighting against it → Leads to [[Half Guard]]
-- **Opponent strips near-arm grip using explosive arm pull or posting, then retightens turtle posture to reset defensive structure** (Effectiveness: Medium) - Your Response: Immediately re-establish near-arm control or switch to collar grip in gi; if arm is free, threaten clock choke to force a defensive reaction that re-opens the hook insertion pathway → Leads to [[Rodeo Ride]]
-- **Opponent executes granby roll during the weight shift phase of hook insertion, inverting to face you and recover guard** (Effectiveness: High) - Your Response: Follow the roll direction and maintain upper body control through the inversion—if you lose back position, immediately transition to front headlock or side control before they complete guard recovery → Leads to [[Half Guard]]
-- **Opponent posts on both hands and drives upward to standing before second hook is fully secured** (Effectiveness: Medium) - Your Response: Hang from seat belt grip and wrap both legs around their waist in a body lock, then use your weight to drag them back to the mat or transition to standing back control with hooks → Leads to [[Rodeo Ride]]
+- **Opponent explosively sits back toward guard as soon as hip pressure shifts during hook insertion** (Effectiveness: High) - Your Response: Follow their sit-back movement by maintaining chest connection and accelerating hook insertion—their backward motion actually helps you slide behind them if you stay attached and ride the movement rather than fighting against it → Leads to [[Positions/Half Guard]]
+- **Opponent strips near-arm grip using explosive arm pull or posting, then retightens turtle posture to reset defensive structure** (Effectiveness: Medium) - Your Response: Immediately re-establish near-arm control or switch to collar grip in gi; if arm is free, threaten clock choke to force a defensive reaction that re-opens the hook insertion pathway → Leads to [[Positions/Rodeo Ride]]
+- **Opponent executes granby roll during the weight shift phase of hook insertion, inverting to face you and recover guard** (Effectiveness: High) - Your Response: Follow the roll direction and maintain upper body control through the inversion—if you lose back position, immediately transition to front headlock or side control before they complete guard recovery → Leads to [[Positions/Half Guard]]
+- **Opponent posts on both hands and drives upward to standing before second hook is fully secured** (Effectiveness: Medium) - Your Response: Hang from seat belt grip and wrap both legs around their waist in a body lock, then use your weight to drag them back to the mat or transition to standing back control with hooks → Leads to [[Positions/Rodeo Ride]]
 
 
 </section>

@@ -93,27 +93,27 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 ### Available Transitions
 
 
-- **[[X-Guard Sweep]]** (10% of attempts)
+- **[[Transitions/X-Guard Sweep]]** (10% of attempts)
 
-- **[[Single Leg X Sweep]]** (11% of attempts)
+- **[[Transitions/Single Leg X Sweep]]** (11% of attempts)
 
-- **[[Deep Half Entry]]** (29% of attempts)
+- **[[Transitions/Deep Half Entry]]** (29% of attempts)
 
-- **[[Old School Sweep]]** (8% of attempts)
+- **[[Transitions/Old School Sweep]]** (8% of attempts)
 
-- **[[Waiter Sweep]]** (7% of attempts)
+- **[[Transitions/Waiter Sweep]]** (7% of attempts)
 
-- **[[Half Guard to Back Take]]** (12% of attempts)
+- **[[Transitions/Half Guard to Back Take]]** (12% of attempts)
 
-- **[[Butterfly Sweep]]** (10% of attempts)
+- **[[Transitions/Butterfly Sweep]]** (10% of attempts)
 
-- **[[50-50 Entry]]** (6% of attempts)
+- **[[Transitions/50-50 Entry]]** (6% of attempts)
 
-- **[[Butterfly Hook Recovery]]** (4% of attempts)
+- **[[Transitions/Butterfly Hook Recovery]]** (4% of attempts)
 
-- **[[K-Guard Sweep]]** (2% of attempts)
+- **[[Transitions/K-Guard Sweep]]** (2% of attempts)
 
-- **[[K-Guard to Single Leg X]]** (1% of attempts)
+- **[[Transitions/K-Guard to Single Leg X]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -174,23 +174,23 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (25% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (25% of attempts)
 
-- **[[Smash Pass]]** (14% of attempts)
+- **[[Transitions/Smash Pass]]** (14% of attempts)
 
-- **[[Leg Drag Pass]]** (12% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (12% of attempts)
 
-- **[[Half Guard Pass]]** (16% of attempts)
+- **[[Transitions/Half Guard Pass]]** (16% of attempts)
 
-- **[[Underhook Pass]]** (12% of attempts)
+- **[[Transitions/Underhook Pass]]** (12% of attempts)
 
-- **[[Kimura from Half Guard]]** (10% of attempts)
+- **[[Transitions/Kimura from Half Guard]]** (10% of attempts)
 
-- **[[Guillotine Setup]]** (6% of attempts)
+- **[[Transitions/Guillotine Setup]]** (6% of attempts)
 
-- **[[Backstep from K-Guard]]** (3% of attempts)
+- **[[Transitions/Backstep from K-Guard]]** (3% of attempts)
 
-- **[[Pass K-Guard]]** (2% of attempts)
+- **[[Transitions/Pass K-Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -233,27 +233,27 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 ## Related Positions
 
 
-- **[[Deep Half Guard]]** - Natural transition target when opponent drives forward pressure
+- **[[Positions/Half Guard/Deep Half Guard]]** - Natural transition target when opponent drives forward pressure
 
-- **[[X-Guard]]** - Common sweep destination utilizing similar hook mechanics with different angle
+- **[[Positions/X-Guard]]** - Common sweep destination utilizing similar hook mechanics with different angle
 
-- **[[Single Leg X-Guard]]** - Alternative sweep position accessed when opponent attempts to extract trapped leg
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Alternative sweep position accessed when opponent attempts to extract trapped leg
 
-- **[[Butterfly Guard]]** - Recovery position when K-Guard hooks are compromised but butterfly hook remains
+- **[[Positions/Butterfly Guard]]** - Recovery position when K-Guard hooks are compromised but butterfly hook remains
 
-- **[[Half Guard]]** - Parent position family with shared concepts of trapped leg control and angle creation
+- **[[Positions/Half Guard]]** - Parent position family with shared concepts of trapped leg control and angle creation
 
-- **[[Lockdown]]** - Alternative half guard retention system with different leg configuration mechanics
+- **[[Positions/Half Guard/Lockdown]]** - Alternative half guard retention system with different leg configuration mechanics
 
-- **[[Z-Guard]]** - Related half guard variation using knee shield instead of inverted hook structure
+- **[[Positions/Z-Guard]]** - Related half guard variation using knee shield instead of inverted hook structure
 
-- **[[Knee Shield Half Guard]]** - Similar defensive framing concepts with different leg configuration
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Similar defensive framing concepts with different leg configuration
 
-- **[[Side Control]]** - Primary passing objective for top player from K-Guard
+- **[[Positions/Side Control]]** - Primary passing objective for top player from K-Guard
 
-- **[[Back Control]]** - High-value transition target for bottom player when opponent commits forward
+- **[[Positions/Back Control]]** - High-value transition target for bottom player when opponent commits forward
 
-- **[[Headquarters Position]]** - Systematic passing framework applicable to K-Guard top scenarios
+- **[[Positions/Headquarters Position]]** - Systematic passing framework applicable to K-Guard top scenarios
 
 
 </section>

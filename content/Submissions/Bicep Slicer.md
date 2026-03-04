@@ -22,7 +22,7 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 **Category**: Compression
 **Type**: Bicep Compression Lock
 **Target Area**: Bicep muscle and elbow joint
-**Starting Position**: [[Crucifix]]
+**Starting Position**: [[Positions/Crucifix]]
 **Success Rate**: 52%
 
 </section>
@@ -76,8 +76,8 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Crucifix]] | 25% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Crucifix]] | 25% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -228,13 +228,13 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 
 ## From Which Positions?
 
-- [[Crucifix]]
-- [[Twister Control]]
-- [[Technical Mount]]
-- [[North-South]]
-- [[S Mount]]
-- [[Gift Wrap]]
-- [[Modified Scarf Hold]]
+- [[Positions/Crucifix]]
+- [[Positions/Twister Control]]
+- [[Positions/Mount/Technical Mount]]
+- [[Positions/North-South]]
+- [[Positions/Mount/S Mount]]
+- [[Positions/Gift Wrap]]
+- [[Positions/Side Control/Modified Scarf Hold]]
 
 
 </section>
@@ -243,16 +243,16 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 
 ## Related Submissions
 
-- [[Kimura]]
-- [[Americana]]
-- [[Armbar from Mount]]
-- [[Armbar from Side Control]]
-- [[Calf Slicer]]
-- [[Calf Slicer from Truck]]
-- [[Banana Split]]
-- [[Twister]]
-- [[Rear Naked Choke]]
-- [[Arm Crush]]
+- [[Transitions/Kimura]]
+- [[Transitions/Americana]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Armbar from Side Control]]
+- [[Transitions/Calf Slicer]]
+- [[Submissions/Calf Slicer from Truck]]
+- [[Submissions/Banana Split]]
+- [[Submissions/Twister]]
+- [[Transitions/Rear Naked Choke]]
+- [[Submissions/Arm Crush]]
 
 
 </section>
@@ -261,18 +261,18 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 
 ## Additional Related Content
 
-- [[Crucifix]] - Primary attacking position for bicep slicer
-- [[Twister Control]] - Common setup position for bicep slicer and calf slicer combination
-- [[Kimura]] - Alternative submission when opponent defends by straightening arm
-- [[Calf Slicer]] - Similar compression lock mechanics applied to the calf instead of bicep
-- [[Technical Mount]] - Modified mount position allowing bicep slicer setup
-- [[Americana]] - Similar arm isolation and control concepts
-- [[Back Control]] - Position that can transition to crucifix and bicep slicer opportunities
-- [[Banana Split]] - Another compression-based submission using similar mechanical principles
-- [[Gift Wrap]] - Arm control position that can transition to bicep slicer setup
-- [[Arm Crush]] - Related compression submission targeting the arm
-- [[Armbar from Mount]] - Alternative arm attack when bicep slicer defense creates extension
-- [[S Mount]] - Mount variation providing bicep slicer setup opportunity
+- [[Positions/Crucifix]] - Primary attacking position for bicep slicer
+- [[Positions/Twister Control]] - Common setup position for bicep slicer and calf slicer combination
+- [[Transitions/Kimura]] - Alternative submission when opponent defends by straightening arm
+- [[Transitions/Calf Slicer]] - Similar compression lock mechanics applied to the calf instead of bicep
+- [[Positions/Mount/Technical Mount]] - Modified mount position allowing bicep slicer setup
+- [[Transitions/Americana]] - Similar arm isolation and control concepts
+- [[Positions/Back Control]] - Position that can transition to crucifix and bicep slicer opportunities
+- [[Submissions/Banana Split]] - Another compression-based submission using similar mechanical principles
+- [[Positions/Gift Wrap]] - Arm control position that can transition to bicep slicer setup
+- [[Submissions/Arm Crush]] - Related compression submission targeting the arm
+- [[Submissions/Armbar from Mount]] - Alternative arm attack when bicep slicer defense creates extension
+- [[Positions/Mount/S Mount]] - Mount variation providing bicep slicer setup opportunity
 
 
 </section>

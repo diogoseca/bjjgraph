@@ -21,7 +21,7 @@ The technique relies on creating rigid forearm frames against the opponent's pel
 
 Timing is essential because the top player in high mount generates significant downward pressure through gravity and forward lean. Attempting to frame when the opponent is settled and static wastes energy against their full weight. Instead, the frame must be established during moments of transition—when the opponent reaches for grips, shifts weight for a submission attempt, or adjusts position. These weight shifts create brief windows where the top player's pressure is reduced, allowing the bottom player to insert frames and begin the process of walking the hips back down.
 
-**From Position**: [[High Mount]] (Bottom)
+**From Position**: [[Positions/Mount/High Mount]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Timing is essential because the top player in high mount generates significant d
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 50% |
-| Failure | [[High Mount]] | 30% |
-| Counter | [[S Mount]] | 20% |
+| Success | [[Positions/Mount]] | 50% |
+| Failure | [[Positions/Mount/High Mount]] | 30% |
+| Counter | [[Positions/Mount/S Mount]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Frame Escape from High Mount occupies a critical position in the bottom moun
 ## Related Techniques
 
 
-- [[High Mount]] - Source position from which the frame escape is initiated by the bottom player
+- [[Positions/Mount/High Mount]] - Source position from which the frame escape is initiated by the bottom player
 
-- [[Mount]] - Primary success target where traditional mount escapes become mechanically available
+- [[Positions/Mount]] - Primary success target where traditional mount escapes become mechanically available
 
-- [[S Mount]] - Counter outcome when top player capitalizes on frame attempt to advance position
+- [[Positions/Mount/S Mount]] - Counter outcome when top player capitalizes on frame attempt to advance position
 
-- [[Bridge to Mount from High Mount]] - Related escape technique using bridge mechanics rather than frame pressure from the same starting position
+- [[Transitions/Bridge to Mount from High Mount]] - Related escape technique using bridge mechanics rather than frame pressure from the same starting position
 
-- [[Elbow Escape from Mount]] - Follow-up technique executed after successfully reducing high mount to standard mount
+- [[Transitions/Elbow Escape from Mount]] - Follow-up technique executed after successfully reducing high mount to standard mount
 
-- [[Bridge Escape from S Mount]] - Escape technique needed if the top player counters with S Mount advancement
+- [[Transitions/Bridge Escape from S Mount]] - Escape technique needed if the top player counters with S Mount advancement
 
-- [[Armbar from High Mount]] - Primary submission threat during frame escape when arms become exposed
+- [[Submissions/Armbar from High Mount]] - Primary submission threat during frame escape when arms become exposed
 
-- [[Technical Mount]] - Related advanced position the top player may transition to during escape attempts
+- [[Positions/Mount/Technical Mount]] - Related advanced position the top player may transition to during escape attempts
 
-- [[Half Guard]] - Alternative escape target if frame escape generates enough space for knee insertion
+- [[Positions/Half Guard]] - Alternative escape target if frame escape generates enough space for knee insertion
 
-- [[Closed Guard]] - Optimal recovery position if the frame escape chains into a successful full escape sequence
+- [[Positions/Closed Guard]] - Optimal recovery position if the frame escape chains into a successful full escape sequence
 
 
 </section>

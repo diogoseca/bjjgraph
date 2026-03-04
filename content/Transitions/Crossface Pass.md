@@ -21,7 +21,7 @@ This pass is particularly effective against opponents who rely on the underhook 
 
 When executed correctly, the crossface pass is one of the highest percentage methods for passing half guard, especially in no-gi situations where lapel grips are unavailable. It chains naturally with knee slice and smash pass variations, allowing the passer to create passing dilemmas based on the defender's reactions. The position also opens direct submission threats including the Kimura, Darce Choke, and Arm Triangle, transforming what begins as a passing sequence into a multi-layered offensive platform.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -32,9 +32,9 @@ When executed correctly, the crossface pass is one of the highest percentage met
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Half Guard]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -194,29 +194,29 @@ The Crossface Pass is a fundamental component of the half guard passing system a
 ## Related Techniques
 
 
-- [[Knee Slice Pass]] - Alternative pass when opponent secures deep underhook and prevents crossface effectiveness
+- [[Transitions/Knee Slice Pass]] - Alternative pass when opponent secures deep underhook and prevents crossface effectiveness
 
-- [[Smash Pass]] - Complementary pressure-based approach with different leg extraction mechanics
+- [[Transitions/Smash Pass]] - Complementary pressure-based approach with different leg extraction mechanics
 
-- [[Underhook Pass]] - Alternative control point but similar goal of passing half guard to side control
+- [[Transitions/Underhook Pass]] - Alternative control point but similar goal of passing half guard to side control
 
-- [[Half Guard Pass]] - Parent category - Crossface pass is one specific method within broader half guard passing system
+- [[Transitions/Half Guard Pass]] - Parent category - Crossface pass is one specific method within broader half guard passing system
 
-- [[Darce Choke]] - Submission available if opponent turns into you during crossface pressure
+- [[Transitions/Darce Choke]] - Submission available if opponent turns into you during crossface pressure
 
-- [[Arm Triangle]] - Submission option when opponent gives up far arm during pass attempt
+- [[Transitions/Arm Triangle]] - Submission option when opponent gives up far arm during pass attempt
 
-- [[Knee Shield Half Guard]] - Primary defensive structure from bottom that crossface pass must overcome
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Primary defensive structure from bottom that crossface pass must overcome
 
-- [[Side Control]] - Destination position after successful crossface pass completion
+- [[Positions/Side Control]] - Destination position after successful crossface pass completion
 
-- [[Half Guard]] - Starting position from which crossface pass is initiated
+- [[Positions/Half Guard]] - Starting position from which crossface pass is initiated
 
-- [[Back Step Pass]] - Chain option when crossface is defended and opponent creates angle
+- [[Transitions/Back Step Pass]] - Chain option when crossface is defended and opponent creates angle
 
-- [[Crossface to Combat Base]] - Transitional option from crossface position to reset passing angle
+- [[Transitions/Crossface to Combat Base]] - Transitional option from crossface position to reset passing angle
 
-- [[Lockdown]] - Defensive leg entanglement that must be addressed before crossface pass can proceed
+- [[Positions/Half Guard/Lockdown]] - Defensive leg entanglement that must be addressed before crossface pass can proceed
 
 
 </section>

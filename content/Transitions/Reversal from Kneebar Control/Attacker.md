@@ -180,7 +180,7 @@ description: "Learn to execute the reversal from kneebar control bottom in BJJ. 
 
 The reversal from kneebar control requires the bottom player to redirect their leg entanglement from a submission-seeking tool into a positional advancement platform. Rather than fighting exclusively for the kneebar finish, the attacker uses existing grips and leg hooks to create sweeping leverage against the opponent's base. The key insight is recognizing when the kneebar finish probability drops below an acceptable threshold and immediately redirecting energy into the sweep. This demands strong proprioceptive awareness of the opponent's weight distribution and defensive reactions, combined with the mechanical ability to generate forward or rotational momentum from the bottom position while maintaining control of the entangled leg.
 
-**From Position**: [[Kneebar Control]] (Bottom)
+**From Position**: [[Positions/Kneebar Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The reversal from kneebar control requires the bottom player to redirect their l
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 35% |
-| Failure | [[Kneebar Control]] | 40% |
-| Counter | [[Half Guard]] | 25% |
+| Success | [[Positions/Side Control]] | 35% |
+| Failure | [[Positions/Kneebar Control]] | 40% |
+| Counter | [[Positions/Half Guard]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ The reversal from kneebar control requires the bottom player to redirect their l
 
 ## Opponent Counters
 
-- **Opponent posts hand behind them and scoots hips away to create distance** (Effectiveness: High) - Your Response: Chase their hips immediately to maintain connection. If they create significant space, redirect back to the kneebar attack rather than forcing the sweep against distance, as their posting arm may have compromised their knee defense. → Leads to [[Kneebar Control]]
-- **Opponent uses free leg to kick out your hook and base wide to resist elevation** (Effectiveness: Medium) - Your Response: Immediately re-insert the hook or switch to the roll-through or sit-up drive variant. If their base becomes too wide for any sweep, return to the kneebar attack since their wide base may have opened their knee defense. → Leads to [[Kneebar Control]]
-- **Opponent sprawls weight forward during the sit-up drive, flattening you back down** (Effectiveness: High) - Your Response: Use their forward pressure against them by switching to the roll-through variant, redirecting their momentum into the roll. Their forward weight commitment makes them vulnerable to the direction change. → Leads to [[Kneebar Control]]
-- **Opponent extracts their leg during the transition by straightening and pulling while grips are loosened** (Effectiveness: High) - Your Response: If leg extraction is near-complete, abandon the reversal and immediately re-guard to half guard or open guard before they establish passing position. Do not chase a lost grip. → Leads to [[Half Guard]]
+- **Opponent posts hand behind them and scoots hips away to create distance** (Effectiveness: High) - Your Response: Chase their hips immediately to maintain connection. If they create significant space, redirect back to the kneebar attack rather than forcing the sweep against distance, as their posting arm may have compromised their knee defense. → Leads to [[Positions/Kneebar Control]]
+- **Opponent uses free leg to kick out your hook and base wide to resist elevation** (Effectiveness: Medium) - Your Response: Immediately re-insert the hook or switch to the roll-through or sit-up drive variant. If their base becomes too wide for any sweep, return to the kneebar attack since their wide base may have opened their knee defense. → Leads to [[Positions/Kneebar Control]]
+- **Opponent sprawls weight forward during the sit-up drive, flattening you back down** (Effectiveness: High) - Your Response: Use their forward pressure against them by switching to the roll-through variant, redirecting their momentum into the roll. Their forward weight commitment makes them vulnerable to the direction change. → Leads to [[Positions/Kneebar Control]]
+- **Opponent extracts their leg during the transition by straightening and pulling while grips are loosened** (Effectiveness: High) - Your Response: If leg extraction is near-complete, abandon the reversal and immediately re-guard to half guard or open guard before they establish passing position. Do not chase a lost grip. → Leads to [[Positions/Half Guard]]
 
 
 </section>

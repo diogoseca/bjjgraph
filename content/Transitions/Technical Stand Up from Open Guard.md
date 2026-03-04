@@ -21,7 +21,7 @@ Strategically, the technical stand up serves dual purposes: as an offensive impo
 
 The technique demands precise timing and awareness of your opponent's distance and intentions. Executing it when your opponent is too close invites immediate re-engagement and potential takedowns, while waiting too long may mean your guard has already been compromised. Advanced practitioners integrate the technical stand up threat into their overall guard game, using the threat of standing to force reactions that open up sweeps and submissions from guard, creating a complete offensive system that operates on multiple levels.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique demands precise timing and awareness of your opponent's distance a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Open Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Open Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Technical Stand Up from Open Guard serves as a critical bridge between the g
 ## Related Techniques
 
 
-- [[Standing Position]] - Target position reached upon successful execution of the technical stand up
+- [[Positions/Standing Position]] - Target position reached upon successful execution of the technical stand up
 
-- [[Open Guard]] - Starting position from which this transition is initiated
+- [[Positions/Open Guard]] - Starting position from which this transition is initiated
 
-- [[Technical Stand Up from Ground]] - Related fundamental stand-up technique from different starting positions
+- [[Transitions/Technical Stand Up from Ground]] - Related fundamental stand-up technique from different starting positions
 
-- [[Pull Guard from Standing]] - Complementary transition for cycling between standing and guard
+- [[Transitions/Pull Guard from Standing]] - Complementary transition for cycling between standing and guard
 
-- [[Scramble to Top Position]] - Alternative transition when stand-up creates a scramble opportunity
+- [[Transitions/Scramble to Top Position]] - Alternative transition when stand-up creates a scramble opportunity
 
-- [[Standing Up from Combat Base]] - Related standing transition using combat base as intermediate position
+- [[Transitions/Standing Up from Combat Base]] - Related standing transition using combat base as intermediate position
 
-- [[Combat Base]] - Intermediate position sometimes used during the stand-up sequence
+- [[Positions/Combat Base]] - Intermediate position sometimes used during the stand-up sequence
 
-- [[Clinch]] - Position that may result if opponent closes distance as you stand
+- [[Positions/Clinch]] - Position that may result if opponent closes distance as you stand
 
-- [[Closed Guard]] - Alternative guard position that can also transition to standing
+- [[Positions/Closed Guard]] - Alternative guard position that can also transition to standing
 
-- [[Scramble Position]] - Common resulting position when stand-up is contested by opponent
+- [[Positions/Scramble Position]] - Common resulting position when stand-up is contested by opponent
 
-- [[Guard Pull from Clinch]] - Option if opponent clinches during your stand-up attempt
+- [[Transitions/Guard Pull from Clinch]] - Option if opponent clinches during your stand-up attempt
 
-- [[Sprawl Defense from Standing]] - Defensive skill needed if opponent shoots during stand-up completion
+- [[Transitions/Sprawl Defense from Standing]] - Defensive skill needed if opponent shoots during stand-up completion
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Complete attacking guide for converting standing rear clinch to bo
 
 As the attacker executing the Rear Clinch to Body Lock, your objective is to convert your current upper body control configuration into a unified waist-level grip that unlocks the full spectrum of takedown finishes. The transition requires maintaining constant chest-to-back pressure while sliding your arms from the seatbelt or collar tie position down to the opponent's waist, then locking hands together to create a closed kinetic chain around their center of mass. The critical challenge is minimizing the vulnerability window during grip reconfiguration, where momentary loss of upper body control can allow the opponent to hand fight free, create separation, or execute a reversal. Success depends on timing the transition when the opponent is occupied defending your current control rather than actively creating space, and immediately attacking with a takedown or mat return once the lock is secured rather than holding the position statically.
 
-**From Position**: [[Standing Rear Clinch]] (Top)
+**From Position**: [[Positions/Standing Rear Clinch]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ As the attacker executing the Rear Clinch to Body Lock, your objective is to con
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Body Lock]] | 55% |
-| Failure | [[Standing Rear Clinch]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Body Lock]] | 55% |
+| Failure | [[Positions/Standing Rear Clinch]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the Rear Clinch to Body Lock, your objective is to con
 
 ## Opponent Counters
 
-- **Opponent two-on-one fights the sliding arm during transition** (Effectiveness: High) - Your Response: Immediately return to seatbelt and re-establish upper body control before reattempting. Use increased hip pressure and angle change to create a new opening for the conversion. → Leads to [[Standing Rear Clinch]]
-- **Opponent explosively hip escapes during the grip release moment** (Effectiveness: Medium) - Your Response: Follow their hip escape with your own hips, maintaining chest contact as the priority. If they create significant separation, transition to a single leg or double leg entry rather than chasing the body lock. → Leads to [[Standing Rear Clinch]]
-- **Opponent sits to guard during the transition window** (Effectiveness: High) - Your Response: If your hands are already at waist level, follow them down and complete the body lock around their seated position. If the lock is not yet established, maintain whatever grip you have and work to pass their guard immediately. → Leads to [[Half Guard]]
-- **Opponent turns to face you during the momentary grip weakness** (Effectiveness: Medium) - Your Response: Use your chest connection as a pivot point and circle with their rotation to maintain position behind them. If they complete the turn, accept the clinch position and work to re-establish rear control through arm drags or level changes. → Leads to [[Standing Rear Clinch]]
+- **Opponent two-on-one fights the sliding arm during transition** (Effectiveness: High) - Your Response: Immediately return to seatbelt and re-establish upper body control before reattempting. Use increased hip pressure and angle change to create a new opening for the conversion. → Leads to [[Positions/Standing Rear Clinch]]
+- **Opponent explosively hip escapes during the grip release moment** (Effectiveness: Medium) - Your Response: Follow their hip escape with your own hips, maintaining chest contact as the priority. If they create significant separation, transition to a single leg or double leg entry rather than chasing the body lock. → Leads to [[Positions/Standing Rear Clinch]]
+- **Opponent sits to guard during the transition window** (Effectiveness: High) - Your Response: If your hands are already at waist level, follow them down and complete the body lock around their seated position. If the lock is not yet established, maintain whatever grip you have and work to pass their guard immediately. → Leads to [[Positions/Half Guard]]
+- **Opponent turns to face you during the momentary grip weakness** (Effectiveness: Medium) - Your Response: Use your chest connection as a pivot point and circle with their rotation to maintain position behind them. If they complete the turn, accept the clinch position and work to re-establish rear control through arm drags or level changes. → Leads to [[Positions/Standing Rear Clinch]]
 
 
 </section>

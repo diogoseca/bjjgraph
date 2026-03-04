@@ -140,7 +140,7 @@ description: "Defend against the Roll Escape from Russian Cowboy in BJJ. Learn r
 
 Defending against the Roll Escape from Russian Cowboy requires the top player to maintain vigilant awareness of the bottom player's hip loading patterns and rotational attempts. The primary defensive strategy involves keeping heavy chest-to-back pressure that prevents the bottom player from generating the rotational momentum needed to execute the roll. When the escape is initiated, the defender must decide between killing the rotation early through increased pressure and sprawl, or following the roll to transition into an even more dominant position like the truck. Recognition of pre-roll loading cues allows the defender to preemptively address the escape before it develops into a committed rotation. The asymmetric nature of Russian Cowboy control means the top player holds significant mechanical advantage in preventing this escape when proper pressure and awareness are maintained.
 
-**Opponent's Starting Position**: [[Russian Cowboy]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Russian Cowboy]] (Bottom)
 
 </section>
 
@@ -179,21 +179,21 @@ Defending against the Roll Escape from Russian Cowboy requires the top player to
 ### 1. Sprawl hips back and drive chest weight down onto opponent's upper back to kill rotational momentum
 
 - **When to use**: When you feel the opponent loading their hips for rotation or reaching for your hooking ankle in the early loading phase
-- **Targets**: [[Russian Cowboy]]
+- **Targets**: [[Positions/Russian Cowboy]]
 - **If successful**: Roll is killed before it develops and you maintain original Russian Cowboy control with opportunity to tighten grips
 - **Risk**: If the sprawl is too late, opponent may complete partial rotation creating a scramble
 
 ### 2. Follow the roll by maintaining chest contact and threading second leg to transition into truck position
 
 - **When to use**: When the roll has already been initiated and you cannot prevent the rotation from completing
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: Convert the opponent's escape attempt into an even more dominant truck position with full leg entanglement control
 - **Risk**: If you fail to thread the second leg during the roll, opponent may escape to turtle with separation
 
 ### 3. Tighten seatbelt grip and deepen hook while increasing downward pressure through your core
 
 - **When to use**: When you recognize early loading cues before the roll has built any momentum
-- **Targets**: [[Russian Cowboy]]
+- **Targets**: [[Positions/Russian Cowboy]]
 - **If successful**: Preemptively eliminate the escape window and consolidate control for submission attempts
 - **Risk**: Over-committing weight forward may open alternative escape paths like hip escapes in the opposite direction
 
@@ -205,11 +205,11 @@ Defending against the Roll Escape from Russian Cowboy requires the top player to
 
 ## Best-Case Outcomes for Defender
 
-### → [[Truck]]
+### → [[Positions/Twister Control/Truck]]
 
 Follow the roll by maintaining chest contact and threading your free leg to establish full truck position. Use the opponent's rotational momentum to your advantage by matching their direction and deepening control as they move through the rotation.
 
-### → [[Russian Cowboy]]
+### → [[Positions/Russian Cowboy]]
 
 Kill the roll before it develops by recognizing loading cues early, sprawling your hips back, and driving chest weight down into their upper back. Re-tighten seatbelt and hook engagement immediately to prevent subsequent escape attempts.
 

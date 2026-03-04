@@ -154,7 +154,7 @@ description: "Defend against the Carni to Gogoplata Setup transition. Recognitio
 
 Defending the Carni to Gogoplata Setup requires early recognition and immediate response during a narrow transition window. As the defender caught in Carni top position, you are already managing leg lock threats when the attacker redirects their attack from your legs to your throat. The critical defensive moment occurs when you feel the inside leg release from your hip, signaling the beginning of the gogoplata attempt rather than a standard saddle transition. Your primary defense is posture recovery, driving your hips backward and extending your arms to create distance between your neck and the opponent's legs before the shin can cross your throat. If the shin reaches your throat, your priority shifts to preventing the opponent from securing their foot behind your head, which locks the submission into a closed system that is extremely difficult to escape. Understanding that your own forward stack pressure creates the vulnerability for this attack is essential: tempering your Carni escape intensity when you sense the opponent has exceptional flexibility prevents walking directly into the trap.
 
-**Opponent's Starting Position**: [[Carni]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Carni]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the Carni to Gogoplata Setup requires early recognition and immediate 
 ### 1. Immediate posture recovery by extending arms and driving hips backward to create distance from threading leg
 
 - **When to use**: In the first one to two seconds when you feel the inside leg release from your hip before shin contacts throat
-- **Targets**: [[Carni]]
+- **Targets**: [[Positions/Rubber Guard/Carni]]
 - **If successful**: Prevents shin from reaching throat and forces opponent to re-establish Carni control or attempt alternative transition
 - **Risk**: Pulling backward may allow opponent to follow with the leg if timing is poor or you do not create enough distance
 
 ### 2. Tuck chin to chest and turn head away from the threading shin to prevent perpendicular throat contact
 
 - **When to use**: When the shin is approaching your throat and full posture recovery is not achievable in time
-- **Targets**: [[Carni]]
+- **Targets**: [[Positions/Rubber Guard/Carni]]
 - **If successful**: Shin slides across chin or jaw rather than throat, reducing submission threat and buying time for complete escape
 - **Risk**: Turning head may expose back if opponent adjusts to pursue back take instead of continuing gogoplata
 
 ### 3. Hand fight the foot to prevent opponent from pulling it deep behind your head after shin contacts throat
 
 - **When to use**: When shin is already across throat but foot has not yet been secured behind your head
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Without the foot behind your head the gogoplata is an open system and you can extract by pulling backward or laterally
 - **Risk**: Both hands occupied with foot fighting leaves you unable to address remaining leg entanglement simultaneously
 
 ### 4. Explosive drive through and pass attempt, committing forward pressure to collapse the partially established gogoplata
 
 - **When to use**: When opponent's foot is not yet secured behind your head and the control position is loose and unstable
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Drive through the position entirely, neutralizing both the remaining Carni entanglement and the gogoplata setup simultaneously
 - **Risk**: If the gogoplata is more established than assessed, driving forward tightens the choke significantly and accelerates the submission
 
@@ -224,11 +224,11 @@ Defending the Carni to Gogoplata Setup requires early recognition and immediate 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Extract yourself from both the leg entanglement remnants and the throat control by hand fighting the foot behind your head, creating posture, and disengaging your trapped leg simultaneously. Prioritize distance creation over maintaining top position.
 
-### → [[Carni]]
+### → [[Positions/Rubber Guard/Carni]]
 
 Shut down the transition early by posturing immediately when feeling the inside leg release, forcing the opponent to abandon the gogoplata attempt and return to standard Carni attacks which you were already defending.
 

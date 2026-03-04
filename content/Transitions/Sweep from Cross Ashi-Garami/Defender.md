@@ -154,7 +154,7 @@ description: "Master defending the Sweep from Cross Ashi-Garami. Recognition cue
 
 As the defender against the Sweep from Cross Ashi-Garami, you are the top player maintaining cross ashi control while your opponent attempts to reverse your position. Your primary task is recognizing the sweep setup early—before your opponent secures upper body control—and responding with appropriate base adjustments or counter-attacks. The sweep threatens to convert your dominant offensive position into a disadvantageous bottom side control, which represents a massive positional loss. Understanding the mechanics of the sweep allows you to identify the critical moments when it becomes dangerous and shut down the attempt before it gains momentum. Your strongest defensive weapons are maintaining base awareness, keeping your hands free to post when needed, and attacking with submissions to punish sweep attempts.
 
-**Opponent's Starting Position**: [[Cross Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the Sweep from Cross Ashi-Garami, you are the top player
 ### 1. Post free hand on the mat in the direction of the sweep to maintain base and absorb the rotational force
 
 - **When to use**: Immediately when you feel the opponent initiating the hip bridge or sit-up motion and your balance is threatened
-- **Targets**: [[Cross Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Cross Ashi-Garami]]
 - **If successful**: The sweep is stopped and you maintain cross ashi top position with the opponent still trapped in the leg entanglement
 - **Risk**: Posting requires releasing one hand from heel control, temporarily reducing submission threat and potentially allowing the opponent to fight grips or extract their leg
 
 ### 2. Attack heel hook aggressively using the opponent's bridging motion to enhance rotational finishing mechanics
 
 - **When to use**: When the opponent commits to the sweep and their hip bridge creates leg extension that exposes the heel for finishing
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: The heel hook threat forces the opponent to abandon the sweep and address the submission, or the submission finishes directly
 - **Risk**: If the heel hook attempt fails, the commitment to finishing may compromise your base further and accelerate the sweep
 
 ### 3. Thread legs into Saddle configuration during the opponent's upward motion, capitalizing on the hip elevation to advance the entanglement
 
 - **When to use**: When the sweep is gaining momentum and maintaining cross ashi is becoming difficult, redirect to a more dominant entanglement position
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: You advance from cross ashi to the deeper Saddle position, which provides superior control and finishing options
 - **Risk**: If the Saddle transition is incomplete, the opponent may use the positional confusion to complete their sweep or extract the trapped leg
 
 ### 4. Drop weight backward and widen base by extending legs, absorbing the sweep force through structural resistance
 
 - **When to use**: When you detect the sweep setup early before the opponent has established strong upper body control
-- **Targets**: [[Cross Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Cross Ashi-Garami]]
 - **If successful**: Your widened base absorbs the sweep force and the opponent cannot generate sufficient rotational momentum to complete the reversal
 - **Risk**: The backward lean and leg extension may loosen your leg control enough for the opponent to extract their trapped leg
 
@@ -225,11 +225,11 @@ As the defender against the Sweep from Cross Ashi-Garami, you are the top player
 
 ## Best-Case Outcomes for Defender
 
-### → [[Cross Ashi-Garami]]
+### → [[Positions/Ashi Garami/Cross Ashi-Garami]]
 
 Shut down the sweep early by denying upper body control. Strip any underhook, collar tie, or sleeve grip before the opponent can combine it with a hip bridge. Maintain a compact seated posture with awareness of posting options. When the sweep attempt fizzles, immediately re-engage with submission threats to punish the failed attempt and prevent the opponent from resetting for another try.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 If the sweep begins to succeed and maintaining cross ashi becomes untenable, use the opponent's upward hip motion to thread your legs into Saddle configuration. As they bridge, their hips create space that allows you to cross your feet and secure the deeper entanglement. This converts a defensive moment into a positional advancement, placing the opponent in an even more dangerous submission position than the original cross ashi.
 

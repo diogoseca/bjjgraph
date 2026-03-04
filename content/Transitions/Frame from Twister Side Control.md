@@ -21,7 +21,7 @@ The technique addresses the core challenge of twister side control defense: mana
 
 Strategic deployment requires reading the top player's weight distribution and submission intentions. The optimal timing window occurs when the top player shifts weight to pursue twister or choke attacks, momentarily reducing leg entanglement effectiveness. Successful execution chains frame creation into systematic leg extraction and hip escape, arriving in half guard where the bottom player can immediately establish retention grips and transition to offensive sequences. The technique's reliability makes it a cornerstone of any systematic defense against 10th Planet twister-based attacks.
 
-**From Position**: [[Twister Side Control]] (Bottom)
+**From Position**: [[Positions/Twister Control/Twister Side Control]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Strategic deployment requires reading the top player's weight distribution and s
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Twister Side Control]] | 35% |
-| Counter | [[Truck]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Twister Control/Twister Side Control]] | 35% |
+| Counter | [[Positions/Twister Control/Truck]] | 25% |
 
 
 </section>
@@ -193,21 +193,21 @@ The Frame from Twister Side Control serves as a critical defensive bridge betwee
 ## Related Techniques
 
 
-- [[Twister Side Control]] - Origin position from which this frame escape initiates
+- [[Positions/Twister Control/Twister Side Control]] - Origin position from which this frame escape initiates
 
-- [[Half Guard]] - Primary target position upon successful frame escape completion
+- [[Positions/Half Guard]] - Primary target position upon successful frame escape completion
 
-- [[Truck]] - Counter outcome position within twister system if escape fails and legs are re-entangled
+- [[Positions/Twister Control/Truck]] - Counter outcome position within twister system if escape fails and legs are re-entangled
 
-- [[Escape Twister Side Control]] - Related escape technique with different mechanics from the same starting position
+- [[Transitions/Escape Twister Side Control]] - Related escape technique with different mechanics from the same starting position
 
-- [[Back Control]] - Risk position if framing creates back exposure during the escape attempt
+- [[Positions/Back Control]] - Risk position if framing creates back exposure during the escape attempt
 
-- [[Side Control]] - Related lateral control position with similar framing escape concepts
+- [[Positions/Side Control]] - Related lateral control position with similar framing escape concepts
 
-- [[Lockdown]] - Related 10th Planet leg entanglement system with overlapping defensive principles
+- [[Positions/Half Guard/Lockdown]] - Related 10th Planet leg entanglement system with overlapping defensive principles
 
-- [[Turtle]] - Intermediate position sometimes reached during partial escape sequences from twister control
+- [[Positions/Turtle]] - Intermediate position sometimes reached during partial escape sequences from twister control
 
 
 </section>

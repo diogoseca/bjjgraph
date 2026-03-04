@@ -21,7 +21,7 @@ The mechanics rely on reading the opponent's shoulder rotation and immediately c
 
 This transition represents a core link between the mount offense system and the back attack system. Rather than forcing armbars against disciplined defense, advanced practitioners use the armbar threat as bait, drawing the turn that opens the back take. The ability to flow seamlessly between armbar attack and back take from Technical Mount creates an unresolvable dilemma for the bottom player, where defending the arm exposes the back and defending the back exposes the arm. Mastery of this transition elevates the practitioner's entire top game by ensuring that every defensive reaction from Technical Mount leads to either a submission or an even more dominant position.
 
-**From Position**: [[Technical Mount]] (Top)
+**From Position**: [[Positions/Mount/Technical Mount]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition represents a core link between the mount offense system and the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Technical Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Mount/Technical Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Technical Mount to Back Control transition sits at the critical junction bet
 ## Related Techniques
 
 
-- [[Technical Mount]] - Source position from which this back take transition initiates
+- [[Positions/Mount/Technical Mount]] - Source position from which this back take transition initiates
 
-- [[Back Control]] - Target position achieved on successful completion of this transition
+- [[Positions/Back Control]] - Target position achieved on successful completion of this transition
 
-- [[Half Guard]] - Counter outcome position when the defender successfully reverses during the transition
+- [[Positions/Half Guard]] - Counter outcome position when the defender successfully reverses during the transition
 
-- [[Back Turn from Technical Mount]] - Closely related transition covering the opponent's defensive turn that creates the back take opportunity
+- [[Transitions/Back Turn from Technical Mount]] - Closely related transition covering the opponent's defensive turn that creates the back take opportunity
 
-- [[Mount]] - Parent position of Technical Mount and common reset when back take fails
+- [[Positions/Mount]] - Parent position of Technical Mount and common reset when back take fails
 
-- [[Seat Belt Control Back]] - Specific back control variation establishing the grip used during this transition
+- [[Positions/Back Control/Seat Belt Control Back]] - Specific back control variation establishing the grip used during this transition
 
-- [[Armbar from Technical Mount]] - Primary submission threat that creates the armbar-or-back dilemma enabling this transition
+- [[Submissions/Armbar from Technical Mount]] - Primary submission threat that creates the armbar-or-back dilemma enabling this transition
 
-- [[RNC from Seat Belt]] - Primary submission chain available after completing this transition to back control
+- [[Submissions/RNC from Seat Belt]] - Primary submission chain available after completing this transition to back control
 
-- [[Escape Technical Mount to Half Guard]] - Defender's primary escape technique that this transition must overcome
+- [[Transitions/Escape Technical Mount to Half Guard]] - Defender's primary escape technique that this transition must overcome
 
-- [[Bridge from Technical Mount]] - Defender's explosive escape attempt that can disrupt the back take timing
+- [[Transitions/Bridge from Technical Mount]] - Defender's explosive escape attempt that can disrupt the back take timing
 
 
 </section>

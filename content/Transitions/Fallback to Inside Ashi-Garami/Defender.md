@@ -150,7 +150,7 @@ The defender facing a Fallback to Inside Ashi-Garami is in a unique tactical sit
 
 The defender's primary objective during this transition is to escape the leg entanglement entirely rather than simply accepting the downgrade from saddle to inside ashi. While inside ashi is less dangerous than saddle, it still represents a significant submission threat. The optimal defensive strategy is to recognize the transition as it begins—through specific tactile and visual cues—and immediately launch escape actions that exploit the momentary looseness in the attacker's control. Understanding which specific control elements the attacker must release and when creates actionable intelligence for timing escape attempts.
 
-**Opponent's Starting Position**: [[Saddle]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Saddle]] (Top)
 
 </section>
 
@@ -187,21 +187,21 @@ The defender's primary objective during this transition is to escape the leg ent
 ### 1. Explosive hip escape with frame during leg reconfiguration window
 
 - **When to use**: The moment you feel the attacker's deeper leg entanglement release and before they establish the inside ashi structure. This is a 1-2 second window.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You extract your trapped leg completely and recover to half guard top, escaping all leg entanglement and reversing the positional dynamic
 - **Risk**: If mistimed (too early or too late), the attacker may re-clamp their leg configuration and you waste energy while remaining trapped
 
 ### 2. Pummel free leg to prevent attacker's inside leg from crossing your hip
 
 - **When to use**: During the transition as the attacker attempts to place their inside leg across your hip. Block or redirect this leg with your free leg before it establishes the frame.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Without the inside leg across your hip, the attacker cannot establish functional inside ashi-garami, and continued pummeling creates escape opportunities
 - **Risk**: If the attacker overpowers your pummel with hip extension, they establish inside ashi with your free leg momentarily compromised
 
 ### 3. Strip transitional ankle grip during the control changeover
 
 - **When to use**: When you feel the attacker switching from saddle finishing grips to transitional ankle grips. The grip changeover creates a moment where their hold on your foot is weakest.
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: The attacker arrives in inside ashi-garami with compromised grip on your foot, making the position significantly easier to escape in the next exchange
 - **Risk**: Focusing on grip fighting may distract from hip escape opportunities during the broader transition window
 
@@ -213,7 +213,7 @@ The defender's primary objective during this transition is to escape the leg ent
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your hip escape to coincide with the moment the attacker releases their deeper saddle leg configuration. Use your free leg to frame on their hip and push away while simultaneously extracting your trapped leg through the momentary gap in their control. The key is explosive but controlled movement during the 1-2 second window when their legs are reconfiguring.
 

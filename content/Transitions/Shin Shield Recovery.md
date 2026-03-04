@@ -21,7 +21,7 @@ The shin shield works by using your inside leg to create a barrier across the op
 
 Mastering shin shield recovery is critical for developing a robust half guard game. It serves as the foundation for numerous sweeps, back takes, and submissions while simultaneously providing a reliable defensive structure. The technique requires precise hip positioning, proper angle creation, and understanding of weight distribution to maximize effectiveness against various passing attempts.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 **Success Rate**: 72%
 
 </section>
@@ -32,9 +32,9 @@ Mastering shin shield recovery is critical for developing a robust half guard ga
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Knee Shield Half Guard]] | 75% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Side Control]] | 10% |
+| Success | [[Positions/Half Guard/Knee Shield Half Guard]] | 75% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -199,25 +199,25 @@ From a systematic perspective, mastering shin shield recovery is essential for d
 ## Related Techniques
 
 
-- [[Knee Shield Half Guard]] - Primary transition - Shin shield recovery leads directly to knee shield position
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Primary transition - Shin shield recovery leads directly to knee shield position
 
-- [[Deep Half Guard]] - Alternative - Common transition when shin shield is smashed down
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative - Common transition when shin shield is smashed down
 
-- [[Old School Sweep]] - Follow-up attack - Offensive option from established shin shield
+- [[Transitions/Old School Sweep]] - Follow-up attack - Offensive option from established shin shield
 
-- [[Underhook Sweep from Half]] - Related technique - Both use inside underhook control for guard retention and sweeps
+- [[Transitions/Underhook Sweep from Half]] - Related technique - Both use inside underhook control for guard retention and sweeps
 
-- [[Frame and Shrimp to Guard]] - Fundamental component - Core movement pattern used to create space for shin insertion
+- [[Transitions/Frame and Shrimp to Guard]] - Fundamental component - Core movement pattern used to create space for shin insertion
 
-- [[Lockdown Recovery]] - Alternative system - Low shin shield connects to lockdown half guard entries
+- [[Transitions/Lockdown Recovery]] - Alternative system - Low shin shield connects to lockdown half guard entries
 
-- [[Half Guard to Back Take]] - Follow-up - Shin shield with inside underhook creates back-take opportunities
+- [[Transitions/Half Guard to Back Take]] - Follow-up - Shin shield with inside underhook creates back-take opportunities
 
-- [[Hip Escape to Guard]] - Parallel technique - Both focus on recovering guard structure from compromised positions
+- [[Transitions/Hip Escape to Guard]] - Parallel technique - Both focus on recovering guard structure from compromised positions
 
-- [[Guard Recovery]] - Conceptual framework - Shin shield exemplifies core guard retention principles
+- [[Principles/Guard Recovery]] - Conceptual framework - Shin shield exemplifies core guard retention principles
 
-- [[Knee Shield Retention]] - Complementary technique - Maintains knee shield once shin shield recovery succeeds
+- [[Transitions/Knee Shield Retention]] - Complementary technique - Maintains knee shield once shin shield recovery succeeds
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Learn to execute the Duck Under from Clinch as the attacker. Step-
 
 The Duck Under from Clinch is executed by the practitioner who uses a level change to dip beneath the opponent's arm and circle behind them. From the attacker's perspective, this technique converts a neutral or disadvantaged clinch position into the highly dominant Standing Rear Clinch through explosive level change, precise arm clearance, and continuous lateral movement. The attacker must read the opponent's grip configuration, identify the optimal side to duck under, create effective misdirection, and commit fully to the circular motion without hesitation. Success depends on proper knee-bend mechanics that protect the neck while generating explosive lateral movement, and achieving immediate chest-to-back contact after clearing the arm to prevent the opponent from re-squaring.
 
-**From Position**: [[Clinch]] (Bottom)
+**From Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The Duck Under from Clinch is executed by the practitioner who uses a level chan
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Rear Clinch]] | 55% |
-| Failure | [[Clinch]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Standing Rear Clinch]] | 55% |
+| Failure | [[Positions/Clinch]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Duck Under from Clinch is executed by the practitioner who uses a level chan
 
 ## Opponent Counters
 
-- **Sprawl and hip away upon recognizing the level change, driving hips back and pushing attacker's head down** (Effectiveness: High) - Your Response: Convert to single leg by catching their near leg as they sprawl backward, or immediately re-engage the clinch from a lower position using an underhook → Leads to [[Clinch]]
-- **Whizzer (overhook) threaded on the duck side as head passes beneath the arm, controlling the attacker's shoulder** (Effectiveness: Medium) - Your Response: Continue circling through the whizzer by keeping hips tight to opponent's body and driving short steps; alternatively switch to an inside trip on the far leg using the close proximity → Leads to [[Clinch]]
-- **Cross-face with free hand as attacker ducks, combined with hip re-squaring to prevent the circle behind** (Effectiveness: High) - Your Response: Underhook on the cross-face side and drive through to complete the back take, or disengage and re-engage from standing with a snap down → Leads to [[Clinch]]
-- **Sit to guard when feeling the angle being gained, denying the standing back take by transitioning to ground** (Effectiveness: Medium) - Your Response: Follow immediately with body lock pass or knee slide while maintaining forward chest pressure as they descend to the mat → Leads to [[Open Guard]]
+- **Sprawl and hip away upon recognizing the level change, driving hips back and pushing attacker's head down** (Effectiveness: High) - Your Response: Convert to single leg by catching their near leg as they sprawl backward, or immediately re-engage the clinch from a lower position using an underhook → Leads to [[Positions/Clinch]]
+- **Whizzer (overhook) threaded on the duck side as head passes beneath the arm, controlling the attacker's shoulder** (Effectiveness: Medium) - Your Response: Continue circling through the whizzer by keeping hips tight to opponent's body and driving short steps; alternatively switch to an inside trip on the far leg using the close proximity → Leads to [[Positions/Clinch]]
+- **Cross-face with free hand as attacker ducks, combined with hip re-squaring to prevent the circle behind** (Effectiveness: High) - Your Response: Underhook on the cross-face side and drive through to complete the back take, or disengage and re-engage from standing with a snap down → Leads to [[Positions/Clinch]]
+- **Sit to guard when feeling the angle being gained, denying the standing back take by transitioning to ground** (Effectiveness: Medium) - Your Response: Follow immediately with body lock pass or knee slide while maintaining forward chest pressure as they descend to the mat → Leads to [[Positions/Open Guard]]
 
 
 </section>

@@ -21,7 +21,7 @@ Strategically, the Bridge and Turn serves as the primary escape pathway from one
 
 The technique's effectiveness relies on understanding the relationship between explosive power and precise timing. A powerful bridge executed at the wrong moment accomplishes nothing against a settled opponent. However, when timed to coincide with the opponent's transition attempts, submission setups, or weight adjustments, even a moderate bridge can create sufficient space for the turn. Advanced practitioners develop sensitivity to these weight shifts, allowing them to escape with seemingly minimal effort.
 
-**From Position**: [[North-South]] (Bottom)
+**From Position**: [[Positions/North-South]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ The technique's effectiveness relies on understanding the relationship between e
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[North-South]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/North-South]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Bridge and Turn to Turtle occupies a critical role in the North-South escape
 ## Related Techniques
 
 
-- [[North-South]] - Starting position from which this escape is executed
+- [[Positions/North-South]] - Starting position from which this escape is executed
 
-- [[Turtle]] - Target escape position achieved upon successful execution
+- [[Positions/Turtle]] - Target escape position achieved upon successful execution
 
-- [[Back Control]] - Position opponent may achieve if turn is executed incorrectly or too slowly
+- [[Positions/Back Control]] - Position opponent may achieve if turn is executed incorrectly or too slowly
 
-- [[Granby Roll to Guard]] - Alternative escape from North-South using rolling mechanics instead of turning
+- [[Transitions/Granby Roll to Guard]] - Alternative escape from North-South using rolling mechanics instead of turning
 
-- [[Hip Escape to Guard]] - Alternative escape option from North-South using hip movement to recover guard
+- [[Transitions/Hip Escape to Guard]] - Alternative escape option from North-South using hip movement to recover guard
 
-- [[Kimura]] - Submission threat from top that creates timing windows for the escape
+- [[Transitions/Kimura]] - Submission threat from top that creates timing windows for the escape
 
-- [[North-South Choke]] - Submission threat to recognize during escape timing decisions
+- [[Transitions/North-South Choke]] - Submission threat to recognize during escape timing decisions
 
-- [[Side Control]] - Position often preceding North-South that uses similar escape concepts
+- [[Positions/Side Control]] - Position often preceding North-South that uses similar escape concepts
 
-- [[Bridge and Roll]] - Related bridging escape technique using similar hip drive mechanics
+- [[Transitions/Bridge and Roll]] - Related bridging escape technique using similar hip drive mechanics
 
-- [[North-South Escape]] - General North-South escape framework that includes this technique
+- [[Transitions/North-South Escape]] - General North-South escape framework that includes this technique
 
 
 </section>

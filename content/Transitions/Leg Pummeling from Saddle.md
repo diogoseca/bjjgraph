@@ -21,7 +21,7 @@ The mechanics of leg pummeling center on using your free leg and hip movement to
 
 Success with this technique requires patience, precise timing, and an unwavering commitment to heel protection throughout the pummeling sequence. The transition window is narrow—the opponent will feel your legs moving and attempt to either re-lock their controlling configuration or capitalize on the momentary instability by attacking immediately. Training this escape under progressive resistance builds the sensitivity to recognize when the opponent's legs momentarily loosen, creating the split-second opportunity for the pummel to succeed.
 
-**From Position**: [[Saddle]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Success with this technique requires patience, precise timing, and an unwavering
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 55% |
-| Failure | [[Saddle]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 55% |
+| Failure | [[Positions/Ashi Garami/Saddle]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -193,27 +193,27 @@ Leg pummeling from saddle occupies a critical position in the leg lock escape hi
 ## Related Techniques
 
 
-- [[Saddle]] - Starting position where the practitioner is trapped and initiating the pummeling escape
+- [[Positions/Ashi Garami/Saddle]] - Starting position where the practitioner is trapped and initiating the pummeling escape
 
-- [[Inside Ashi-Garami]] - Target position reached through successful leg pummeling, offering improved defensive options
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Target position reached through successful leg pummeling, offering improved defensive options
 
-- [[Open Guard]] - Position the opponent may achieve if they capitalize on the pummeling attempt to disengage and pass
+- [[Positions/Open Guard]] - Position the opponent may achieve if they capitalize on the pummeling attempt to disengage and pass
 
-- [[Fight to Inside Ashi from Saddle]] - Alternative escape technique with similar goal of downgrading from saddle to inside ashi
+- [[Transitions/Fight to Inside Ashi from Saddle]] - Alternative escape technique with similar goal of downgrading from saddle to inside ashi
 
-- [[Boot Scoot Escape from Saddle]] - Complementary escape option using scooting mechanics rather than leg pummeling
+- [[Transitions/Boot Scoot Escape from Saddle]] - Complementary escape option using scooting mechanics rather than leg pummeling
 
-- [[Forward Roll from Saddle]] - Higher-risk escape alternative using rolling momentum to clear the entanglement
+- [[Transitions/Forward Roll from Saddle]] - Higher-risk escape alternative using rolling momentum to clear the entanglement
 
-- [[Ashi Garami Escape]] - Follow-up escape technique applicable once inside ashi-garami is reached
+- [[Transitions/Ashi Garami Escape]] - Follow-up escape technique applicable once inside ashi-garami is reached
 
-- [[Fallback to Inside Ashi-Garami]] - Related transition from the attacker perspective of voluntarily downgrading to inside ashi
+- [[Transitions/Fallback to Inside Ashi-Garami]] - Related transition from the attacker perspective of voluntarily downgrading to inside ashi
 
-- [[Honey Hole]] - Alternative name for saddle in some systems, same starting position applies
+- [[Positions/Ashi Garami/Honey Hole]] - Alternative name for saddle in some systems, same starting position applies
 
-- [[Heel Hook from Saddle]] - Primary submission threat the pummeling escape aims to prevent
+- [[Transitions/Heel Hook from Saddle]] - Primary submission threat the pummeling escape aims to prevent
 
-- [[Leg Entanglement]] - Conceptual framework governing the hierarchy of positions involved in this escape
+- [[Positions/Leg Entanglement]] - Conceptual framework governing the hierarchy of positions involved in this escape
 
 
 </section>

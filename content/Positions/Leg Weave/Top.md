@@ -206,25 +206,25 @@ The Leg Weave Top Position is an advanced guard passing control where the top pl
 
 ## Available Attacks
 
-### [[Leg Weave Pass]] (15% of attempts)
+### [[Transitions/Leg Weave Pass]] (15% of attempts)
 
-### [[Knee Slice Pass]] (32% of attempts)
+### [[Transitions/Knee Slice Pass]] (32% of attempts)
 
-### [[Leg Drag Pass]] (10% of attempts)
+### [[Transitions/Leg Drag Pass]] (10% of attempts)
 
-### [[Smash Pass]] (11% of attempts)
+### [[Transitions/Smash Pass]] (11% of attempts)
 
-### [[Over-Under Pass]] (10% of attempts)
+### [[Transitions/Over-Under Pass]] (10% of attempts)
 
-### [[Long Step Pass]] (10% of attempts)
+### [[Transitions/Long Step Pass]] (10% of attempts)
 
-### [[Back Step]] (7% of attempts)
+### [[Transitions/Back Step]] (7% of attempts)
 
-### [[Backstep from Leg Weave]] (3% of attempts)
+### [[Transitions/Backstep from Leg Weave]] (3% of attempts)
 
-### [[Complete Leg Weave Pass]] (1% of attempts)
+### [[Transitions/Complete Leg Weave Pass]] (1% of attempts)
 
-### [[Leg Weave Pass Completion]] (1% of attempts)
+### [[Transitions/Leg Weave Pass Completion]] (1% of attempts)
 
 
 
@@ -235,23 +235,23 @@ The Leg Weave Top Position is an advanced guard passing control where the top pl
 ## Decision Making from This Position
 
 **If opponent attempts to create frames with arms or recover knee shield position:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent turns away or attempts to come up to turtle position:**
-- Execute **[[Leg Drag Pass]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Back Step]]** → [[Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Back Step]]** → [[Positions/Back Control]] (Probability: 50%)
 
 
 **If opponent flattens out completely and attempts to use leg positioning to prevent pass:**
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Over-Under Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Over-Under Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent attempts deep half guard entry or underhook sweep:**
-- Execute **[[Back Step]]** → [[Back Control]] (Probability: 45%)
-- Execute **[[Sprawl Defense]]** → [[Headquarters Position]] (Probability: 50%)
+- Execute **[[Transitions/Back Step]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Sprawl Defense]]** → [[Positions/Headquarters Position]] (Probability: 50%)
 
 
 
@@ -380,13 +380,13 @@ Bottom player attempts specific escapes (knee shield recovery, deep half entry, 
 
 ## Related Positions and Techniques
 
-- **[[Leg Drag Control]]** - Alternative passing finish from leg weave control
-- **[[Half Guard]]** - Common starting position before establishing leg weave
-- **[[Side Control]]** - Primary completion target for leg weave passes
-- **[[Headquarters Position]]** - Related passing position with similar pressure principles
-- **[[Knee Slice Pass]]** - Primary passing technique from leg weave
-- **[[Smash Pass]]** - Alternative passing technique when opponent flattens
-- **[[Long Step Pass]]** - Related passing concept with leg threading mechanics
+- **[[Positions/Leg Drag Control]]** - Alternative passing finish from leg weave control
+- **[[Positions/Half Guard]]** - Common starting position before establishing leg weave
+- **[[Positions/Side Control]]** - Primary completion target for leg weave passes
+- **[[Positions/Headquarters Position]]** - Related passing position with similar pressure principles
+- **[[Transitions/Knee Slice Pass]]** - Primary passing technique from leg weave
+- **[[Transitions/Smash Pass]]** - Alternative passing technique when opponent flattens
+- **[[Transitions/Long Step Pass]]** - Related passing concept with leg threading mechanics
 
 
 </section>

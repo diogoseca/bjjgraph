@@ -204,25 +204,25 @@ Double Sleeve Guard Top represents the passing position when facing an opponent 
 
 ## Available Attacks
 
-### [[Toreando Pass]] (10% of attempts)
+### [[Transitions/Toreando Pass]] (10% of attempts)
 
-### [[Knee Slice Pass]] (10% of attempts)
+### [[Transitions/Knee Slice Pass]] (10% of attempts)
 
-### [[Leg Drag Pass]] (10% of attempts)
+### [[Transitions/Leg Drag Pass]] (10% of attempts)
 
-### [[Long Step Pass]] (8% of attempts)
+### [[Transitions/Long Step Pass]] (8% of attempts)
 
-### [[X Pass]] (8% of attempts)
+### [[Transitions/X Pass]] (8% of attempts)
 
-### [[Double Under Pass]] (6% of attempts)
+### [[Transitions/Double Under Pass]] (6% of attempts)
 
-### [[Grip Break]] (35% of attempts)
+### [[Transitions/Grip Break]] (35% of attempts)
 
-### [[Stack Pass]] (8% of attempts)
+### [[Transitions/Stack Pass]] (8% of attempts)
 
-### [[Pass Double Sleeve Guard]] (3% of attempts)
+### [[Transitions/Pass Double Sleeve Guard]] (3% of attempts)
 
-### [[Toreando from Double Sleeve]] (2% of attempts)
+### [[Transitions/Toreando from Double Sleeve]] (2% of attempts)
 
 
 
@@ -233,24 +233,24 @@ Double Sleeve Guard Top represents the passing position when facing an opponent 
 ## Decision Making from This Position
 
 **If opponent maintains strong double sleeve grips with feet on hips creating maximum distance:**
-- Execute **[[Grip Break]]** → [[Combat Base]] (Probability: 60%)
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Grip Break]]** → [[Positions/Combat Base]] (Probability: 60%)
+- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent has sleeve grips but legs are in dynamic movement without stable foot placement:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Probability: 50%)
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 50%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent loses one sleeve grip or weakens bilateral control:**
-- Execute **[[X Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/X Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent attempts to transition to different guard variation or sweep:**
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 
@@ -385,15 +385,15 @@ Start with opponent holding double sleeve grips. Practice breaking one grip, est
 ## Related Positions and Techniques
 
 - **[[Double Sleeve Guard Bottom]]** - Opposite perspective - bottom player's position
-- **[[Combat Base]]** - Alternative posture for addressing double sleeve grips
-- **[[Toreando Pass]]** - Primary passing technique from this position
-- **[[Knee Slice Pass]]** - High-percentage passing option after grip break
-- **[[Leg Drag Pass]]** - Effective passing option creating angle and control
-- **[[Spider Guard]]** - Similar position with different grip configuration
-- **[[Closed Guard]]** - Related guard passing scenario
-- **[[Open Guard]]** - Parent category of guard passing positions
-- **[[Headquarters Position]]** - Intermediate control position during passing sequences
-- **[[Side Control]]** - Primary destination after successful pass
+- **[[Positions/Combat Base]]** - Alternative posture for addressing double sleeve grips
+- **[[Transitions/Toreando Pass]]** - Primary passing technique from this position
+- **[[Transitions/Knee Slice Pass]]** - High-percentage passing option after grip break
+- **[[Transitions/Leg Drag Pass]]** - Effective passing option creating angle and control
+- **[[Positions/Spider Guard]]** - Similar position with different grip configuration
+- **[[Positions/Closed Guard]]** - Related guard passing scenario
+- **[[Positions/Open Guard]]** - Parent category of guard passing positions
+- **[[Positions/Headquarters Position]]** - Intermediate control position during passing sequences
+- **[[Positions/Side Control]]** - Primary destination after successful pass
 
 
 </section>

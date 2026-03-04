@@ -97,27 +97,27 @@ Success in mounted triangle requires understanding the biomechanical principles 
 ### Available Transitions
 
 
-- **[[Bridge and Roll]]** (11% of attempts)
+- **[[Transitions/Bridge and Roll]]** (11% of attempts)
 
-- **[[Elbow Escape to Guard]]** (35% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (35% of attempts)
 
-- **[[Granby Roll to Guard]]** (5% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (5% of attempts)
 
-- **[[Hip Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (13% of attempts)
 
-- **[[Upa Escape]]** (9% of attempts)
+- **[[Transitions/Upa Escape]]** (9% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (12% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (12% of attempts)
 
-- **[[Shrimp Escape]]** (5% of attempts)
+- **[[Transitions/Shrimp Escape]]** (5% of attempts)
 
-- **[[Arm Extraction]]** (6% of attempts)
+- **[[Transitions/Arm Extraction]]** (6% of attempts)
 
-- **[[Bridge Defense from Mounted Triangle]]** (2% of attempts)
+- **[[Transitions/Bridge Defense from Mounted Triangle]]** (2% of attempts)
 
-- **[[Frame and Escape Mounted Triangle]]** (1% of attempts)
+- **[[Transitions/Frame and Escape Mounted Triangle]]** (1% of attempts)
 
-- **[[Posture Up from Mounted Triangle]]** (1% of attempts)
+- **[[Transitions/Posture Up from Mounted Triangle]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -178,31 +178,31 @@ Success in mounted triangle requires understanding the biomechanical principles 
 ### Available Transitions
 
 
-- **[[Triangle Choke]]** (22% of attempts)
+- **[[Transitions/Triangle Choke]]** (22% of attempts)
 
-- **[[Armbar Finish]]** (9% of attempts)
+- **[[Transitions/Armbar Finish]]** (9% of attempts)
 
-- **[[Switch to Triangle]]** (8% of attempts)
+- **[[Transitions/Switch to Triangle]]** (8% of attempts)
 
-- **[[Back Take]]** (8% of attempts)
+- **[[Transitions/Back Take]]** (8% of attempts)
 
-- **[[Consolidate Mount]]** (9% of attempts)
+- **[[Transitions/Consolidate Mount]]** (9% of attempts)
 
-- **[[Gift Wrap]]** (6% of attempts)
+- **[[Positions/Gift Wrap]]** (6% of attempts)
 
-- **[[Kimura to Back Take]]** (6% of attempts)
+- **[[Transitions/Kimura to Back Take]]** (6% of attempts)
 
-- **[[S-Mount Transition]]** (9% of attempts)
+- **[[Transitions/S-Mount Transition]]** (9% of attempts)
 
-- **[[Triangle to Armbar]]** (9% of attempts)
+- **[[Transitions/Triangle to Armbar]]** (9% of attempts)
 
-- **[[Triangle to Back]]** (7% of attempts)
+- **[[Transitions/Triangle to Back]]** (7% of attempts)
 
-- **[[Mounted Triangle Squeeze]]** (3% of attempts)
+- **[[Transitions/Mounted Triangle Squeeze]]** (3% of attempts)
 
-- **[[Mounted Triangle to S Mount]]** (2% of attempts)
+- **[[Transitions/Mounted Triangle to S Mount]]** (2% of attempts)
 
-- **[[Mounted Triangle Finish]]** (2% of attempts)
+- **[[Submissions/Mounted Triangle Finish]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -245,21 +245,21 @@ Success in mounted triangle requires understanding the biomechanical principles 
 ## Related Positions
 
 
-- **[[High Mount]]** - Primary entry position for mounted triangle setup
+- **[[Positions/Mount/High Mount]]** - Primary entry position for mounted triangle setup
 
-- **[[Triangle Control]]** - Shares triangle mechanics but from guard rather than mount
+- **[[Positions/Triangle Control]]** - Shares triangle mechanics but from guard rather than mount
 
-- **[[Armbar Control]]** - Common transition target when opponent defends triangle
+- **[[Positions/Armbar Control]]** - Common transition target when opponent defends triangle
 
-- **[[S Mount]]** - Alternative high mount configuration that enables triangle entry
+- **[[Positions/Mount/S Mount]]** - Alternative high mount configuration that enables triangle entry
 
-- **[[Back Control]]** - Back take available when opponent turns to escape triangle
+- **[[Positions/Back Control]]** - Back take available when opponent turns to escape triangle
 
-- **[[Gift Wrap]]** - Arm control position that facilitates mounted triangle entry
+- **[[Positions/Gift Wrap]]** - Arm control position that facilitates mounted triangle entry
 
-- **[[Mount]]** - Standard mount position from which mounted triangle develops
+- **[[Positions/Mount]]** - Standard mount position from which mounted triangle develops
 
-- **[[Technical Mount]]** - Transitional position during mounted triangle setup
+- **[[Positions/Mount/Technical Mount]]** - Transitional position during mounted triangle setup
 
 
 </section>

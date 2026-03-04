@@ -21,7 +21,7 @@ From the bottom 50-50 position, you face significant disadvantage due to your op
 
 This sweep integrates into the modern leg lock game as an essential defensive tool. Rather than simply extracting legs and disengaging, the reversal allows you to turn a bad position into an attacking platform. Once on top, you inherit all the offensive opportunities of top 50-50 including heel hooks, kneebars, and back takes. The sweep represents the principle that every defensive position should contain offensive counter-opportunities.
 
-**From Position**: [[50-50 Guard]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This sweep integrates into the modern leg lock game as an essential defensive to
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 65% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[Inside Ashi-Garami]] | 10% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 65% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 10% |
 
 
 </section>
@@ -187,25 +187,25 @@ The position reversal sweep is a cornerstone defensive technique within the bott
 ## Related Techniques
 
 
-- [[50-50 Guard]] - Starting position (bottom) and target position (top)
+- [[Positions/Ashi Garami/50-50 Guard]] - Starting position (bottom) and target position (top)
 
-- [[Inside Heel Hook]] - Primary follow-up submission after achieving top position
+- [[Submissions/Inside Heel Hook]] - Primary follow-up submission after achieving top position
 
-- [[Counter heel hook]] - Alternative attack when sweep is defended and opponent's heel exposed
+- [[Transitions/Counter heel hook]] - Alternative attack when sweep is defended and opponent's heel exposed
 
-- [[Back Take from 50-50]] - Chain attack option from top position after sweep
+- [[Transitions/Back Take from 50-50]] - Chain attack option from top position after sweep
 
-- [[50-50 Guard to Single Leg X-Guard]] - Alternative escape when reversal sweep is blocked
+- [[Transitions/50-50 Guard to Single Leg X-Guard]] - Alternative escape when reversal sweep is blocked
 
-- [[Extract legs and stand up]] - Alternative escape option when sweep unavailable
+- [[Transitions/Extract legs and stand up]] - Alternative escape option when sweep unavailable
 
-- [[Kneebar from 50-50]] - Follow-up submission option after achieving top position
+- [[Submissions/Kneebar from 50-50]] - Follow-up submission option after achieving top position
 
-- [[Single Leg X-Guard]] - Transition target when opponent's low base prevents reversal
+- [[Positions/X-Guard/Single Leg X-Guard]] - Transition target when opponent's low base prevents reversal
 
-- [[Inside Ashi-Garami]] - Counter position opponent may achieve if they disengage during sweep and re-entangle
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Counter position opponent may achieve if they disengage during sweep and re-entangle
 
-- [[Calf Slicer from 50-50]] - Alternative submission from top 50-50 after successful sweep
+- [[Submissions/Calf Slicer from 50-50]] - Alternative submission from top 50-50 after successful sweep
 
 
 </section>

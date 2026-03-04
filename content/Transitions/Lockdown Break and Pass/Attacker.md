@@ -178,7 +178,7 @@ The technique centers on methodically breaking the lockdown's foot triangle conf
 
 Strategically, the Lockdown Break and Pass transforms a defensive scramble into offensive advancement. Rather than merely escaping back to a neutral half guard position, the technique channels the escape momentum directly into a passing sequence, typically finishing in side control. This prevents the opponent from immediately re-engaging the lockdown and capitalizes on the positional disruption caused by breaking their primary control structure.
 
-**From Position**: [[Electric Chair]] (Top)
+**From Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ Strategically, the Lockdown Break and Pass transforms a defensive scramble into 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Electric Chair]] | 25% |
-| Counter | [[Deep Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Half Guard/Electric Chair]] | 25% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ Strategically, the Lockdown Break and Pass transforms a defensive scramble into 
 
 ## Opponent Counters
 
-- **Opponent re-engages lockdown during extraction by catching your ankle before it clears** (Effectiveness: High) - Your Response: Maintain forward pressure and restart the sequence from step 3. Increase focus on completely breaking the foot triangle before attempting extraction. Consider using your hand to guide your foot clear. → Leads to [[Electric Chair]]
-- **Opponent transitions to Deep Half Guard as you break the lockdown, diving underneath toward your far hip** (Effectiveness: Medium) - Your Response: Sprawl hips immediately and establish whizzer control. Do not allow them to fully secure the deep half position. Use your free leg to backstep and prevent their underhook from developing. → Leads to [[Deep Half Guard]]
-- **Opponent uses the lockdown release to hit Old School sweep by rolling backwards with the underhook** (Effectiveness: Medium) - Your Response: Anticipate the roll by establishing deep whizzer on their underhooking arm before attempting extraction. If they begin rolling, sprawl and use the whizzer to drive them flat rather than following the sweep. → Leads to [[Electric Chair]]
-- **Opponent abandons lockdown for back take by turning into you during extraction** (Effectiveness: Low) - Your Response: Your forward pressure should prevent significant turning. If they expose their back while you maintain upper body control, follow them and take back control yourself. → Leads to [[Side Control]]
+- **Opponent re-engages lockdown during extraction by catching your ankle before it clears** (Effectiveness: High) - Your Response: Maintain forward pressure and restart the sequence from step 3. Increase focus on completely breaking the foot triangle before attempting extraction. Consider using your hand to guide your foot clear. → Leads to [[Positions/Half Guard/Electric Chair]]
+- **Opponent transitions to Deep Half Guard as you break the lockdown, diving underneath toward your far hip** (Effectiveness: Medium) - Your Response: Sprawl hips immediately and establish whizzer control. Do not allow them to fully secure the deep half position. Use your free leg to backstep and prevent their underhook from developing. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Opponent uses the lockdown release to hit Old School sweep by rolling backwards with the underhook** (Effectiveness: Medium) - Your Response: Anticipate the roll by establishing deep whizzer on their underhooking arm before attempting extraction. If they begin rolling, sprawl and use the whizzer to drive them flat rather than following the sweep. → Leads to [[Positions/Half Guard/Electric Chair]]
+- **Opponent abandons lockdown for back take by turning into you during extraction** (Effectiveness: Low) - Your Response: Your forward pressure should prevent significant turning. If they expose their back while you maintain upper body control, follow them and take back control yourself. → Leads to [[Positions/Side Control]]
 
 
 </section>

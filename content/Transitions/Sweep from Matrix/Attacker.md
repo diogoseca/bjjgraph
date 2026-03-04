@@ -180,7 +180,7 @@ description: "Execute the Sweep from Matrix in BJJ. Technical guide to hip eleva
 
 From the attacker perspective, the Sweep from Matrix transforms the bottom position's rotational dynamics into a powerful reversal tool. The sweep leverages explosive hip elevation, directional grip pulling, and committed rotational motion to break the top player's base and follow through to back control. Success requires reading the opponent's weight distribution, establishing strong grip connections on their belt or hips, and committing fully to the sweeping motion without hesitation. The technique is most effective as part of a broader Matrix attack chain where sweep threats complement back take attempts, forcing the top player into defensive dilemmas that no single base adjustment can resolve. Developing proficiency requires months of drilling the hip elevation mechanics and timing recognition, but once integrated, the sweep dramatically increases the offensive output from Matrix bottom.
 
-**From Position**: [[Matrix]] (Bottom)
+**From Position**: [[Positions/Matrix]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ From the attacker perspective, the Sweep from Matrix transforms the bottom posit
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 45% |
-| Failure | [[Matrix]] | 35% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Back Control]] | 45% |
+| Failure | [[Positions/Matrix]] | 35% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ From the attacker perspective, the Sweep from Matrix transforms the bottom posit
 
 ## Opponent Counters
 
-- **Opponent widens base and drops hips to increase support polygon against sweeping force** (Effectiveness: High) - Your Response: Switch to Matrix back take or arm drag, as their wide base creates openings for rotational attacks that exploit the lateral space they created → Leads to [[Matrix]]
-- **Opponent drives weight forward and sprawls to flatten your hip elevation** (Effectiveness: High) - Your Response: Use their forward momentum to redirect into guard recovery through granby roll, converting their aggressive defense into your guard establishment → Leads to [[Side Control]]
-- **Opponent strips grips on belt and hips to break sweeping connection before momentum develops** (Effectiveness: Medium) - Your Response: Immediately re-establish grips and threaten with alternative attacks such as arm drags or back take entries to prevent disengagement → Leads to [[Matrix]]
-- **Opponent counter-rotates in opposite direction to neutralize sweeping momentum** (Effectiveness: Medium) - Your Response: If their counter-rotation is early, reverse your sweep direction to attack the angle they vacated; if late, accelerate through their resistance as mistimed counter-rotation may assist your sweep completion → Leads to [[Matrix]]
+- **Opponent widens base and drops hips to increase support polygon against sweeping force** (Effectiveness: High) - Your Response: Switch to Matrix back take or arm drag, as their wide base creates openings for rotational attacks that exploit the lateral space they created → Leads to [[Positions/Matrix]]
+- **Opponent drives weight forward and sprawls to flatten your hip elevation** (Effectiveness: High) - Your Response: Use their forward momentum to redirect into guard recovery through granby roll, converting their aggressive defense into your guard establishment → Leads to [[Positions/Side Control]]
+- **Opponent strips grips on belt and hips to break sweeping connection before momentum develops** (Effectiveness: Medium) - Your Response: Immediately re-establish grips and threaten with alternative attacks such as arm drags or back take entries to prevent disengagement → Leads to [[Positions/Matrix]]
+- **Opponent counter-rotates in opposite direction to neutralize sweeping momentum** (Effectiveness: Medium) - Your Response: If their counter-rotation is early, reverse your sweep direction to attack the angle they vacated; if late, accelerate through their resistance as mistimed counter-rotation may assist your sweep completion → Leads to [[Positions/Matrix]]
 
 
 </section>

@@ -178,7 +178,7 @@ Strategically, this armbar setup serves as a primary offensive option when the o
 
 The mechanical foundation relies on pivoting your body perpendicular to the opponent's arm while maintaining control of their wrist and elbow. Your legs create the fulcrum for the hyperextension by clamping across their chest and shoulder line. Success depends on controlling the arm throughout the transition—any slack allows defensive hitchhiker escapes or guard recovery attempts.
 
-**From Position**: [[North-South]] (Top)
+**From Position**: [[Positions/North-South]] (Top)
 
 </section>
 
@@ -230,9 +230,9 @@ The mechanical foundation relies on pivoting your body perpendicular to the oppo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 58% |
-| Failure | [[North-South]] | 30% |
-| Counter | [[Half Guard]] | 12% |
+| Success | [[Positions/Armbar Control]] | 58% |
+| Failure | [[Positions/North-South]] | 30% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>
@@ -241,10 +241,10 @@ The mechanical foundation relies on pivoting your body perpendicular to the oppo
 
 ## Opponent Counters
 
-- **Hitchhiker escape where opponent rotates toward the trapped arm and extracts elbow** (Effectiveness: High) - Your Response: Maintain heavy leg pressure on their face and follow their rotation, transitioning to mounted armbar or back take if they commit to the escape → Leads to [[North-South]]
-- **Stacking defense where opponent drives forward to relieve pressure on elbow** (Effectiveness: Medium) - Your Response: Angle your body away from the stack, keep legs heavy on their shoulder, and use hip extension angle to maintain breaking pressure despite the stack → Leads to [[North-South]]
-- **Grip fighting to clasp hands together and prevent arm extension** (Effectiveness: Medium) - Your Response: Attack the grip by wedging your forearm between their hands, or transition to triangle or omoplata if their arm configuration allows → Leads to [[Armbar Control]]
-- **Guard recovery by inserting knee between bodies during transition** (Effectiveness: Low) - Your Response: Explosive hip rotation that clears their legs before they can insert a knee, or immediately return to North-South if guard recovery begins → Leads to [[Half Guard]]
+- **Hitchhiker escape where opponent rotates toward the trapped arm and extracts elbow** (Effectiveness: High) - Your Response: Maintain heavy leg pressure on their face and follow their rotation, transitioning to mounted armbar or back take if they commit to the escape → Leads to [[Positions/North-South]]
+- **Stacking defense where opponent drives forward to relieve pressure on elbow** (Effectiveness: Medium) - Your Response: Angle your body away from the stack, keep legs heavy on their shoulder, and use hip extension angle to maintain breaking pressure despite the stack → Leads to [[Positions/North-South]]
+- **Grip fighting to clasp hands together and prevent arm extension** (Effectiveness: Medium) - Your Response: Attack the grip by wedging your forearm between their hands, or transition to triangle or omoplata if their arm configuration allows → Leads to [[Positions/Armbar Control]]
+- **Guard recovery by inserting knee between bodies during transition** (Effectiveness: Low) - Your Response: Explosive hip rotation that clears their legs before they can insert a knee, or immediately return to North-South if guard recovery begins → Leads to [[Positions/Half Guard]]
 
 
 </section>

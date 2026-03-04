@@ -162,7 +162,7 @@ description: "Defend the Heel Hook from Ushiro Ashi-Garami. Recognition cues, es
 
 Defending the heel hook from ushiro ashi-garami requires immediate recognition of the attack and disciplined execution of protective mechanics. The defender has typically already begun an inversion escape from standard ashi-garami and must now balance completing that escape with protecting the heel from exposure. The reversed orientation creates both danger and opportunity: the attacker must adjust their standard finishing mechanics, creating windows where defensive grip fighting and continued rotation can prevent the finish. Maintaining dorsiflexion to protect the heel, controlling the attacker's grips to prevent finishing establishment, and making smart decisions about when to continue rotation versus when to accept transitional positions are critical survival skills in this configuration.
 
-**Opponent's Starting Position**: [[Ushiro Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 
 </section>
@@ -201,28 +201,28 @@ Defending the heel hook from ushiro ashi-garami requires immediate recognition o
 ### 1. Boot the heel through aggressive dorsiflexion and knee straightening to deny heel exposure
 
 - **When to use**: As the first line of defense whenever you feel the attacker's hands approaching your heel or Achilles area
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Attacker cannot establish finishing grip and must continue grip fighting, buying you time to work escapes
 - **Risk**: Low risk if combined with grip fighting; becomes insufficient alone against skilled grip fighters who can peel toes back
 
 ### 2. Two-on-one grip strip to break the heel hook grip before rotation begins
 
 - **When to use**: Immediately upon feeling the attacker's wrist seat behind your Achilles - do not wait for them to establish secondary grip
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Resets the submission attempt and forces attacker to re-establish grip, providing window for escape advancement
 - **Risk**: Medium risk as both hands committed to grip fighting leaves legs uncontrolled momentarily
 
 ### 3. Complete inversion rotation to turtle position, clearing the leg entanglement entirely
 
 - **When to use**: When attacker's leg control is shallow enough to clear through continued rotation, or when grip defense alone is insufficient to prevent the finish
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Complete escape from ushiro ashi-garami, arriving in turtle where you can recover to guard or standing
 - **Risk**: Medium-high risk as rotation can momentarily expose heel if not combined with dorsiflexion protection
 
 ### 4. Counter-entangle the attacker's free leg to establish 50-50 guard position
 
 - **When to use**: When the attacker's free leg becomes exposed during their grip adjustment phase and direct escape is blocked
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Creates bilateral entanglement that forces attacker to defend their own leg, alleviating immediate submission pressure
 - **Risk**: High risk as counter-entanglement attempt delays escape and keeps you in leg lock exchange territory
 
@@ -252,11 +252,11 @@ Defending the heel hook from ushiro ashi-garami requires immediate recognition o
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Complete inversion rotation to turtle, then recover to open guard. Time the rotation for when attacker commits to grip fighting and their leg control loosens during the adjustment phase.
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 When attacker's free leg becomes accessible during their grip transition, hook underneath with your free leg and establish bilateral entanglement that neutralizes their positional advantage.
 

@@ -209,25 +209,25 @@ Successful escape from Rodeo Ride requires a systematic approach that prioritize
 
 ## Available Escapes
 
-### [[Turtle to Guard]] (34% of attempts)
+### [[Transitions/Turtle to Guard]] (34% of attempts)
 
-### [[Technical Stand-up]] (15% of attempts)
+### [[Transitions/Technical Stand-up]] (15% of attempts)
 
-### [[Granby Roll to Guard]] (12% of attempts)
+### [[Transitions/Granby Roll to Guard]] (12% of attempts)
 
-### [[Rolling to Guard]] (14% of attempts)
+### [[Transitions/Rolling to Guard]] (14% of attempts)
 
-### [[Elbow Escape to Guard]] (9% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (9% of attempts)
 
-### [[Sit Through Escape]] (7% of attempts)
+### [[Transitions/Sit Through Escape]] (7% of attempts)
 
-### [[Standing up in Base]] (5% of attempts)
+### [[Transitions/Standing up in Base]] (5% of attempts)
 
-### [[Roll from Rodeo Ride]] (2% of attempts)
+### [[Transitions/Roll from Rodeo Ride]] (2% of attempts)
 
-### [[Shake Off Rodeo Ride]] (1% of attempts)
+### [[Transitions/Shake Off Rodeo Ride]] (1% of attempts)
 
-### [[Escape from Rodeo Ride]] (1% of attempts)
+### [[Transitions/Escape from Rodeo Ride]] (1% of attempts)
 
 
 
@@ -238,23 +238,23 @@ Successful escape from Rodeo Ride requires a systematic approach that prioritize
 ## Decision Making from This Position
 
 **If top practitioner establishes seat belt grip or hooks threatening back control:**
-- Execute **[[Fight Hands]]** → [[Turtle]] (Probability: 60%)
-- Execute **[[Rolling to Guard]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Fight Hands]]** → [[Positions/Turtle]] (Probability: 60%)
+- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If top practitioner attacks with clock choke or collar choke:**
-- Execute **[[Chin Protection]]** → [[Turtle]] (Probability: 70%)
-- Execute **[[Explosive Stand]]** → [[Standing Position]] (Probability: 30%)
+- Execute **[[Principles/Chin Protection]]** → [[Positions/Turtle]] (Probability: 70%)
+- Execute **[[Explosive Stand]]** → [[Positions/Standing Position]] (Probability: 30%)
 
 
 **If top practitioner's weight is high on shoulders with minimal hip control:**
-- Execute **[[Granby Roll to Guard]]** → [[Open Guard]] (Probability: 50%)
-- Execute **[[Sit Through]]** → [[Butterfly Guard]] (Probability: 45%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Sit Through]]** → [[Positions/Butterfly Guard]] (Probability: 45%)
 
 
 **If top practitioner controls near arm but far side is free:**
-- Execute **[[Roll to Free Side]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 40%)
+- Execute **[[Roll to Free Side]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 40%)
 
 
 
@@ -393,13 +393,13 @@ Starting from bottom of Rodeo Ride, work specifically on rolling to guard variat
 
 ## Related Positions and Techniques
 
-- **[[Turtle]]** - Parent defensive position where Rodeo Ride control develops
-- **[[Back Control]]** - Primary threat position to defend against
-- **[[Half Guard]]** - Common escape target position
-- **[[Closed Guard]]** - Alternative escape target position
-- **[[Turtle to Guard]]** - Key escape transition from this position
-- **[[Butterfly Guard]]** - Escape target position via sit-through
-- **[[Granby Roll to Guard]]** - Inversion-based escape technique from turtle
+- **[[Positions/Turtle]]** - Parent defensive position where Rodeo Ride control develops
+- **[[Positions/Back Control]]** - Primary threat position to defend against
+- **[[Positions/Half Guard]]** - Common escape target position
+- **[[Positions/Closed Guard]]** - Alternative escape target position
+- **[[Transitions/Turtle to Guard]]** - Key escape transition from this position
+- **[[Positions/Butterfly Guard]]** - Escape target position via sit-through
+- **[[Transitions/Granby Roll to Guard]]** - Inversion-based escape technique from turtle
 
 
 </section>

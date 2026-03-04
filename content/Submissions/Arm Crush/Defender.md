@@ -150,7 +150,7 @@ description: "How to defend against Arm Crush in BJJ. Recognition, escape paths,
 
 Defending the Arm Crush requires early recognition and immediate action because this submission develops overwhelming pressure once the figure-four grip is established and chest weight is committed. The defender is typically in side control bottom with their near arm trapped against their own ribcage - a position that initially feels like standard side control defense but becomes dangerous the moment the attacker wedges their arm underneath and begins locking the figure-four configuration. The key defensive principle is preventing the grip from being fully established rather than trying to escape after the crushing pressure is applied. Once the attacker's chest weight is driving into your shoulder with the grip locked, escape options narrow dramatically and the risk of injury increases with every second of resistance. Early-stage defense focuses on arm extraction and positional escape, while late-stage defense prioritizes protecting the shoulder joint through controlled movement toward the attacker to reduce rotational torque.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -189,21 +189,21 @@ Defending the Arm Crush requires early recognition and immediate action because 
 ### 1. Extract elbow by pulling it tight to hip and shrimping away
 
 - **When to use**: Early stage - when attacker begins wedging their arm under your elbow but before the figure-four grip locks
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Returns to standard side control bottom position where normal escape sequences apply
 - **Risk**: Low - this is a positional adjustment that does not expose you to other submissions
 
 ### 2. Turn into the attacker by bridging toward them and driving your near shoulder into their chest
 
 - **When to use**: Mid-stage - when the grip is partially established but full crushing pressure has not been applied
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Nullifies the crushing angle and may create enough space to recover half guard or escape to turtle
 - **Risk**: Medium - turning aggressively may expose your back if the attacker releases the grip and transitions
 
 ### 3. Explosive bridge and roll toward the trapped arm side while gripping attacker's far elbow
 
 - **When to use**: Late stage emergency - when grip is locked and pressure is building but not yet at maximum
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Disrupts attacker's base and may create enough space to extract the arm or recover guard
 - **Risk**: High - if the bridge fails, you return to the mat with the attacker's grip still locked and they can immediately reapply maximum pressure
 
@@ -225,11 +225,11 @@ Defending the Arm Crush requires early recognition and immediate action because 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Extract the trapped elbow early before the figure-four grip is established by pulling it tight to your hip and shrimping away from the attacker's wedge attempt
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Bridge toward the attacker to nullify the crushing angle, then use the space created to insert your knee and establish half guard with a knee shield to prevent re-establishment of the Arm Crush
 

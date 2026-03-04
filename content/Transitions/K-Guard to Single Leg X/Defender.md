@@ -154,7 +154,7 @@ description: "Defend against the K-Guard to Single Leg X transition from the top
 
 As the top player in K-Guard facing the SLX transition attempt, your primary objective is to recognize the hook reconfiguration early and prevent it from completing. The transition from K-Guard to SLX represents a significant upgrade for the bottom player—SLX offers more sweeping leverage, better leg lock access, and harder-to-pass configurations than K-Guard. Your defensive strategy must address the transition at its earliest stages, ideally preventing the bottom player from ever releasing their inverted hook to begin the thread. Understanding the trigger conditions (your own backward movement, posture changes, and leg extraction attempts) allows you to control the situation proactively, either by maintaining heavy forward pressure to deny transition space or by timing a backstep that clears your leg entirely before SLX can be established.
 
-**Opponent's Starting Position**: [[K-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/K-Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the top player in K-Guard facing the SLX transition attempt, your primary obj
 ### 1. Backstep to clear trapped leg before SLX is established
 
 - **When to use**: When you recognize the early stages of hook reconfiguration and still have mobility in your trapped leg to step backward and clear the developing ankle wrap
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You disengage from the leg entanglement entirely and establish open guard top position with passing opportunities
 - **Risk**: If timed poorly, the backstep provides the exact space the bottom player needs to complete the SLX entry on your retreating leg
 
 ### 2. Drive forward pressure to deny transition space and flatten K-Guard hooks
 
 - **When to use**: When the bottom player begins scooting hips forward but has not yet released the inverted hook—forward pressure compresses the hooks and prevents reconfiguration
-- **Targets**: [[K-Guard]]
+- **Targets**: [[Positions/K-Guard]]
 - **If successful**: Bottom player is forced to abandon the SLX transition and return to standard K-Guard retention, where you can resume systematic passing
 - **Risk**: Excessive forward commitment can be redirected into K-Guard sweeps or Deep Half Guard entries if the bottom player reads your pressure
 
 ### 3. Control bottom player's inside knee to block the ankle wrap threading motion
 
 - **When to use**: When you see the inside leg beginning to release from inverted hook position—grab the knee or shin and push it to the mat to prevent the wrapping motion
-- **Targets**: [[K-Guard]]
+- **Targets**: [[Positions/K-Guard]]
 - **If successful**: The SLX transition is mechanically blocked and the bottom player must return to K-Guard or attempt an alternative transition
 - **Risk**: Using a hand to control the knee temporarily removes it from upper body control, potentially opening underhook or back-take opportunities
 
 ### 4. Widen base and lower hips to prevent SLX elevation if transition partially completes
 
 - **When to use**: When the bottom player has already threaded the ankle wrap but has not yet achieved full hip elevation—lower your center of gravity to neutralize their leverage
-- **Targets**: [[K-Guard]]
+- **Targets**: [[Positions/K-Guard]]
 - **If successful**: Even with ankle wrap established, the SLX lacks sweeping power without elevation, allowing you to work on systematic hook removal
 - **Risk**: Widened base reduces lateral stability, making you vulnerable to directional sweeps if the bottom player adjusts their off-balancing angle
 
@@ -225,11 +225,11 @@ As the top player in K-Guard facing the SLX transition attempt, your primary obj
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Time a backstep to coincide with the bottom player's hook release phase when their leg connection is weakest. Step your trapped leg backward and clear it completely from their developing wrap before they can tighten. Immediately establish distance and begin passing from the superior open guard top position.
 
-### → [[K-Guard]]
+### → [[Positions/K-Guard]]
 
 Maintain constant forward pressure with low hips to deny the space needed for hook reconfiguration. Control the bottom player's inside knee or shin when you see movement, preventing the wrapping motion. Keep your trapped leg heavy with downward pressure to force them to abandon the SLX transition and return to standard K-Guard defensive retention.
 

@@ -184,7 +184,7 @@ This transition exploits a fundamental vulnerability in leg lock defense: when o
 
 The back take from ashi has become increasingly important in modern competition as leg lock defenses have improved. High-level practitioners use the threat of leg attacks to create back take opportunities, and the threat of back takes to create leg lock openings. This creates a systematic dilemma where defending one attack opens vulnerability to the other, embodying the interconnected nature of positional grappling at advanced levels.
 
-**From Position**: [[Inside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
 
@@ -236,9 +236,9 @@ The back take from ashi has become increasingly important in modern competition 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Inside Ashi-Garami]] | 30% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -247,10 +247,10 @@ The back take from ashi has become increasingly important in modern competition 
 
 ## Opponent Counters
 
-- **Opponent immediately stands and runs away when they feel leg control release** (Effectiveness: High) - Your Response: Maintain grip on their leg or pants as you transition, using their standing motion to pull yourself up to standing back control or immediately shooting for takedown → Leads to [[Inside Ashi-Garami]]
-- **Opponent turns into you and establishes closed guard as you release leg control** (Effectiveness: Medium) - Your Response: Keep your inside leg ready to backstep and prevent guard closure, or accept closed guard top position as still advantageous compared to failed leg lock → Leads to [[Inside Ashi-Garami]]
-- **Opponent sprawls hard and pushes your upper body away preventing back connection** (Effectiveness: Medium) - Your Response: Return to leg entanglement immediately by re-establishing inside ashi control since opponent's sprawl often re-exposes their leg for submission attacks → Leads to [[Inside Ashi-Garami]]
-- **Opponent reaches back and establishes whizzer or overhook preventing hook insertion** (Effectiveness: Low) - Your Response: Use body lock or mat return to establish control despite whizzer, or transition to truck position using their overhook as a lever point → Leads to [[Turtle]]
+- **Opponent immediately stands and runs away when they feel leg control release** (Effectiveness: High) - Your Response: Maintain grip on their leg or pants as you transition, using their standing motion to pull yourself up to standing back control or immediately shooting for takedown → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent turns into you and establishes closed guard as you release leg control** (Effectiveness: Medium) - Your Response: Keep your inside leg ready to backstep and prevent guard closure, or accept closed guard top position as still advantageous compared to failed leg lock → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent sprawls hard and pushes your upper body away preventing back connection** (Effectiveness: Medium) - Your Response: Return to leg entanglement immediately by re-establishing inside ashi control since opponent's sprawl often re-exposes their leg for submission attacks → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent reaches back and establishes whizzer or overhook preventing hook insertion** (Effectiveness: Low) - Your Response: Use body lock or mat return to establish control despite whizzer, or transition to truck position using their overhook as a lever point → Leads to [[Positions/Turtle]]
 
 
 </section>

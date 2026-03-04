@@ -156,7 +156,7 @@ Defending the anaconda choke requires immediate recognition and decisive action 
 
 The critical window for successful defense occurs before the attacker connects their hands on the far side. Once the loop is closed and the attacker begins walking their hips for the roll, escape probability drops dramatically. Defenders must develop sensitivity to the initial arm threading attempt and respond with immediate counter-movement rather than waiting until the choke is locked to begin defending. Understanding that the anaconda attacks from the front differentiates defensive timing from Darce defense, where the arm threads from behind.
 
-**Opponent's Starting Position**: [[Front Headlock]] (Top)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The critical window for successful defense occurs before the attacker connects t
 ### 1. Strip the grip before hands connect by pulling opponent's threading wrist away from your far shoulder with your free hand
 
 - **When to use**: Early stage when opponent is still threading their arm and has not yet clasped hands together on the far side
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Opponent returns to basic front headlock without arm-in configuration, dramatically reducing submission threat
 - **Risk**: If grip strip fails and opponent completes the clasp, you have used time that could have been spent circling away
 
 ### 2. Circle away from trapped arm side while fighting the choking wrist with your free hand to create escape angle
 
 - **When to use**: When grip is connected but attacker has not yet begun the gator roll or walked hips to finishing position
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Creates enough angle to extract trapped arm and return to defensive turtle position with neck free
 - **Risk**: Circling the wrong direction tightens the choke, and slow circling allows attacker to follow and maintain the angle
 
 ### 3. Post free hand on mat and sprawl legs back to block the step-over and deny the gator roll angle
 
 - **When to use**: When attacker begins walking hips to initiate the roll, stepping their far leg over your back
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Denies the roll and forces attacker to either maintain a less effective standing anaconda or reset their position
 - **Risk**: If the post is swept or attacker commits to a standing finish, you remain in the grip without having created an escape
 
 ### 4. Roll with the gator roll momentum and immediately scramble to guard on landing
 
 - **When to use**: When the gator roll is already committed and resistance is no longer viable - go with the momentum
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Use the chaos of the roll to attack the grip and scramble to half guard or turtle before attacker can settle and finish
 - **Risk**: Attacker may land in optimal finishing position with bodies perpendicular and complete the choke during the scramble
 
@@ -227,11 +227,11 @@ The critical window for successful defense occurs before the attacker connects t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Strip the anaconda grip before it closes by attacking the threading wrist with your free hand, or prevent the gator roll by posting and sprawling to force the attacker back to basic front headlock control without the arm-in loop
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Circle away from the trapped arm side aggressively while fighting the choking wrist to create enough angle for arm extraction, returning to defensive turtle where you can work standard turtle escapes without immediate choke threat
 

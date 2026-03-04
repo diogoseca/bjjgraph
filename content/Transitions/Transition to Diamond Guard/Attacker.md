@@ -180,7 +180,7 @@ description: "Master the attacker perspective for transitioning to Diamond Guard
 
 As the attacker executing the Transition to Diamond Guard, your objective is to systematically convert your closed guard position into the diamond frame by first establishing a deep overhook and then adding head control to complete the diamond structure. This transition transforms your closed guard from a general-purpose offensive and defensive position into a specialized submission platform where your opponent's posture is broken beyond easy recovery and multiple submission chains become immediately accessible. The key tactical principle is sequencing your grips correctly — overhook before head control — while maintaining closed guard integrity throughout the transition and capitalizing on your opponent's arm positioning or posture recovery attempts to find the entry window. Patience and timing matter more than speed, because a deep overhook established when the opponent reaches inside is far more effective than a shallow overhook forced against retracted arms.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Transition to Diamond Guard, your objective is to 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Diamond Guard]] | 45% |
-| Failure | [[Closed Guard]] | 35% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Closed Guard/Diamond Guard]] | 45% |
+| Failure | [[Positions/Closed Guard]] | 35% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Transition to Diamond Guard, your objective is to 
 
 ## Opponent Counters
 
-- **Opponent drives posture up forcefully with hip extension before the diamond frame is complete** (Effectiveness: High) - Your Response: If only the overhook is established without head control, increase heel pressure and pull the overhook tighter while using your free hand to re-break posture via collar or head grip. If the posture break fails, maintain the overhook and transition to overhook guard attacks rather than abandoning the grip entirely. → Leads to [[Closed Guard]]
-- **Opponent strips overhook by yanking their arm backward while circling their head away from head control** (Effectiveness: Medium) - Your Response: As the overhook begins slipping, immediately transition your grip down their arm to wrist control and use the pulling momentum to enter an omoplata rotation or convert to a wrist-control triangle setup. Their backward pull creates the arm extension needed for these submissions. → Leads to [[Closed Guard]]
-- **Opponent stands up to break guard during the grip transition window when leg squeeze is momentarily weakened** (Effectiveness: Medium) - Your Response: If you have the overhook secured, maintain it while transitioning your legs to an open guard position that preserves the overhook advantage — lasso guard or collar-sleeve guard with the overhook arm still trapped. If the overhook is not yet secure, pull guard back to closed and reset. → Leads to [[Open Guard]]
-- **Opponent drives forward aggressively with shoulder pressure to flatten the guard player before diamond completes** (Effectiveness: Low) - Your Response: Forward drive actually assists your diamond establishment because it brings the opponent's arm and head closer to you. Use their forward momentum to accelerate the overhook and head control by pulling them into the frame. Their pressure-forward movement is the ideal entry condition for the diamond transition. → Leads to [[Closed Guard]]
+- **Opponent drives posture up forcefully with hip extension before the diamond frame is complete** (Effectiveness: High) - Your Response: If only the overhook is established without head control, increase heel pressure and pull the overhook tighter while using your free hand to re-break posture via collar or head grip. If the posture break fails, maintain the overhook and transition to overhook guard attacks rather than abandoning the grip entirely. → Leads to [[Positions/Closed Guard]]
+- **Opponent strips overhook by yanking their arm backward while circling their head away from head control** (Effectiveness: Medium) - Your Response: As the overhook begins slipping, immediately transition your grip down their arm to wrist control and use the pulling momentum to enter an omoplata rotation or convert to a wrist-control triangle setup. Their backward pull creates the arm extension needed for these submissions. → Leads to [[Positions/Closed Guard]]
+- **Opponent stands up to break guard during the grip transition window when leg squeeze is momentarily weakened** (Effectiveness: Medium) - Your Response: If you have the overhook secured, maintain it while transitioning your legs to an open guard position that preserves the overhook advantage — lasso guard or collar-sleeve guard with the overhook arm still trapped. If the overhook is not yet secure, pull guard back to closed and reset. → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward aggressively with shoulder pressure to flatten the guard player before diamond completes** (Effectiveness: Low) - Your Response: Forward drive actually assists your diamond establishment because it brings the opponent's arm and head closer to you. Use their forward momentum to accelerate the overhook and head control by pulling them into the frame. Their pressure-forward movement is the ideal entry condition for the diamond transition. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

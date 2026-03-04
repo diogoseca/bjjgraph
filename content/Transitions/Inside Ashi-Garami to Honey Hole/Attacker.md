@@ -184,7 +184,7 @@ Strategically, this transition should be attempted when opponent defends your in
 
 The timing window for this transition typically opens when opponent commits weight to defend one attack, creating the momentary looseness in their defensive posture that allows your leg to thread through. Masters of this transition recognize that it functions as part of an attack chain: threatening straight ankle lock forces defensive posture that opens Honey Hole entry, and vice versa. The position after successful transition places you in arguably the most dominant leg entanglement in grappling.
 
-**From Position**: [[Inside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
 
@@ -236,9 +236,9 @@ The timing window for this transition typically opens when opponent commits weig
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Honey Hole]] | 58% |
-| Failure | [[Inside Ashi-Garami]] | 30% |
-| Counter | [[50-50 Guard]] | 12% |
+| Success | [[Positions/Ashi Garami/Honey Hole]] | 58% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 12% |
 
 
 </section>
@@ -247,10 +247,10 @@ The timing window for this transition typically opens when opponent commits weig
 
 ## Opponent Counters
 
-- **Opponent kicks free leg over your threading leg to block entry** (Effectiveness: High) - Your Response: Maintain heel control and return to Inside Ashi-Garami, threatening straight ankle lock to force defensive reaction that reopens threading opportunity → Leads to [[Inside Ashi-Garami]]
-- **Opponent rotates hips explosively away during threading attempt** (Effectiveness: Medium) - Your Response: Follow their rotation by switching to Outside Ashi-Garami, using their momentum to establish outside heel hook position instead → Leads to [[Inside Ashi-Garami]]
-- **Opponent straightens trapped leg and pushes your hips away creating distance** (Effectiveness: Medium) - Your Response: Use leg extension as kneebar opportunity by controlling their knee and extending for submission, or pursue by scooting hips forward to maintain connection → Leads to [[Inside Ashi-Garami]]
-- **Opponent attempts to establish 50-50 by threading their own leg during your transition** (Effectiveness: High) - Your Response: Accept 50-50 position if necessary but prioritize completing your triangle first - you should arrive in 50-50 with superior grip and angle if timing is correct → Leads to [[50-50 Guard]]
+- **Opponent kicks free leg over your threading leg to block entry** (Effectiveness: High) - Your Response: Maintain heel control and return to Inside Ashi-Garami, threatening straight ankle lock to force defensive reaction that reopens threading opportunity → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent rotates hips explosively away during threading attempt** (Effectiveness: Medium) - Your Response: Follow their rotation by switching to Outside Ashi-Garami, using their momentum to establish outside heel hook position instead → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent straightens trapped leg and pushes your hips away creating distance** (Effectiveness: Medium) - Your Response: Use leg extension as kneebar opportunity by controlling their knee and extending for submission, or pursue by scooting hips forward to maintain connection → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent attempts to establish 50-50 by threading their own leg during your transition** (Effectiveness: High) - Your Response: Accept 50-50 position if necessary but prioritize completing your triangle first - you should arrive in 50-50 with superior grip and angle if timing is correct → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 
 
 </section>

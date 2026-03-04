@@ -158,7 +158,7 @@ Effective defense operates on a timeline: early prevention is far more energy-ef
 
 The defender must recognize that static defense against Reverse X-Guard is a losing strategy. The bottom player's hook structure allows them to constantly adjust angles and create off-balancing pressure with minimal energy expenditure, while the top player burns energy resisting. Successful defense therefore emphasizes active disengagement or pressure-based neutralization rather than simply holding position. Dropping weight to smash, backstepping to clear hooks, or driving forward to flatten the guard player's hips are all proactive defensive strategies that force the bottom player to abandon their sweep setup and react to your initiative instead.
 
-**Opponent's Starting Position**: [[Reverse X-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ The defender must recognize that static defense against Reverse X-Guard is a los
 ### 1. Widen base and drop weight while stripping near-side grip
 
 - **When to use**: Early in the sweep setup when you feel hooks loading but before full elevation begins
-- **Targets**: [[Reverse X-Guard]]
+- **Targets**: [[Positions/X-Guard/Reverse X-Guard]]
 - **If successful**: Neutralizes sweep power by removing the elevation angle and grip coordination, forcing bottom player to reset their attack
 - **Risk**: If you drop weight without stripping grips, bottom player may redirect to Deep Half Guard entry using your forward pressure
 
 ### 2. Backstep the controlled leg to clear hooks and circle to pass
 
 - **When to use**: When the bottom player has committed to the sweep angle and you cannot widen base effectively due to their hook depth
-- **Targets**: [[Reverse X-Guard]]
+- **Targets**: [[Positions/X-Guard/Reverse X-Guard]]
 - **If successful**: Clears your leg from the hook entanglement and creates passing angle around their guard, potentially reaching Side Control
 - **Risk**: Bottom player may follow your backstep with an inversion to take your back if you do not maintain upper body control during the circle
 
 ### 3. Drive forward with smash pressure to flatten guard player's hips to the mat
 
 - **When to use**: When you have strong upper body control and the bottom player's hooks are not yet fully loaded with your weight
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Flattens the bottom player's hip structure, removing the elevation mechanics and transitioning to a passing position like Half Guard Top
 - **Risk**: Over-committing forward without controlling their far hip may allow them to thread under for Deep Half Guard entry
 
 ### 4. Strip secondary hip hook by controlling their ankle and peeling the foot off your hip
 
 - **When to use**: When you have one hand free and can reach their secondary hook foot while maintaining base with your other hand and free leg
-- **Targets**: [[Reverse X-Guard]]
+- **Targets**: [[Positions/X-Guard/Reverse X-Guard]]
 - **If successful**: Removes the directional control of the sweep, reducing the position to a single hook that cannot generate rotational force for the sweep
 - **Risk**: Reaching for the foot may temporarily compromise your posture if the bottom player pulls sharply on their sleeve grip during the reach
 
@@ -229,11 +229,11 @@ The defender must recognize that static defense against Reverse X-Guard is a los
 
 ## Best-Case Outcomes for Defender
 
-### → [[Reverse X-Guard]]
+### → [[Positions/X-Guard/Reverse X-Guard]]
 
 Strip their near-side sleeve grip and widen your base simultaneously to neutralize the sweep setup. With grip control broken and base established, you can begin systematic hook removal and work toward passing. The bottom player remains in Reverse X-Guard but without the offensive tools needed to execute the sweep.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Drive forward with smash pressure while maintaining crossface control, collapsing their hook structure and flattening their hips to the mat. As their elevation mechanics are destroyed, drive your knee through their entanglement to establish Half Guard Top, which is a significantly more favorable passing position than defending Reverse X-Guard.
 

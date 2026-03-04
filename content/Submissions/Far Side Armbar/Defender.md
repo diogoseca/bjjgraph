@@ -160,7 +160,7 @@ The defensive hierarchy against the far side armbar follows three stages: preven
 
 From a strategic perspective, the best defense against the far side armbar is never allowing your arm to be fully extended and isolated. Keep your elbows connected to your torso, avoid pushing with straight arms against a top player who is hunting arm attacks, and be prepared to sacrifice frames and accept tighter pressure rather than extending your arms into submission traps. When caught, stay calm, protect the arm by clasping hands immediately, and work systematic escapes rather than panicking with explosive movements that often accelerate the finish.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -200,28 +200,28 @@ From a strategic perspective, the best defense against the far side armbar is ne
 ### 1. Clasp hands together in prayer grip or grab your own bicep to prevent arm extension
 
 - **When to use**: Immediately when you feel the attacker grip your far wrist or begin to pull your arm across their body
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Stalls the submission and forces the attacker to spend time breaking your grip, creating windows for positional escapes back to side control bottom or guard recovery
 - **Risk**: If the attacker is skilled at grip breaking, this only delays the submission; you must combine grip fighting with positional escapes
 
 ### 2. Turn into the attacker and drive your shoulder toward them to deny the perpendicular angle
 
 - **When to use**: When the attacker begins rotating their hips toward your head but has not yet established leg control over your face
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Collapses their armbar structure and returns you to a side control situation where you can work standard escapes
 - **Risk**: If you turn too aggressively without protecting your back, the attacker may transition to back control instead
 
 ### 3. Bridge explosively toward the attacker and roll over the trapped arm side to reverse position
 
 - **When to use**: When the attacker commits to the leg swing over your head and their weight shifts during the transition
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Reverses the position entirely, landing you in the attacker's closed guard or in a scramble where you can recover top position
 - **Risk**: Requires precise timing; if you bridge too early the attacker adjusts, too late and the armbar is already locked
 
 ### 4. Hitchhiker escape by rotating your thumb toward your head and spinning your body
 
 - **When to use**: When the armbar is nearly locked and you cannot prevent arm extension, as a last-resort escape
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Relieves hyperextension pressure and allows you to spin to your knees, recovering to turtle or top position
 - **Risk**: High risk of injury if performed too late or against an opponent with excellent thumb-direction control; only effective when thumb is not properly controlled toward your feet
 
@@ -245,11 +245,11 @@ From a strategic perspective, the best defense against the far side armbar is ne
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Turn into the attacker early during their hip rotation to deny the perpendicular angle, collapsing their armbar structure and recovering to side control bottom where you can work standard guard recovery escapes
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time an explosive bridge during the attacker's leg swing transition when their base is compromised, rolling over the trapped arm side to reverse position and land in their closed guard
 

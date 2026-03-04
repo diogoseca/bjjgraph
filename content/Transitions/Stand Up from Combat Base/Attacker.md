@@ -180,7 +180,7 @@ description: "Learn to execute the stand up from combat base in BJJ. Step-by-ste
 
 As the executing practitioner, your goal is to elevate from a kneeling combat base posture to a standing position while maintaining forward pressure and grip control on your opponent's lower body. The critical challenge is managing the transition window—the brief moment when your base shifts from three contact points to two feet—without allowing the guard player to exploit the weight shift for sweeps, guard closures, or leg entanglements. Success depends on loading your weight forward through your controlling grips before driving the hips upward, ensuring your center of gravity never travels backward during the elevation. The stand up must be decisive and committed: hesitation in the half-standing position invites the worst defensive responses from the guard player.
 
-**From Position**: [[Combat Base]] (Top)
+**From Position**: [[Positions/Combat Base]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the executing practitioner, your goal is to elevate from a kneeling combat ba
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Combat Base]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Combat Base]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the executing practitioner, your goal is to elevate from a kneeling combat ba
 
 ## Opponent Counters
 
-- **Opponent closes guard by locking ankles behind your back during weight transition** (Effectiveness: High) - Your Response: Strip the ankle lock immediately by posting one hand on their hip and driving your hips backward while wedging your elbow inside their knee. If guard fully closes, reset to closed guard opening sequence before reattempting. → Leads to [[Closed Guard]]
-- **Opponent pulls collar grip to break posture forward as hips begin to rise** (Effectiveness: High) - Your Response: Break the collar grip before committing to the stand up using a two-on-one peel. If the grip is too deep, abort the stand up, resettle into combat base, and strip the grip before reattempting from a secure base. → Leads to [[Combat Base]]
-- **Opponent establishes De La Riva hook on lead leg during the transition** (Effectiveness: Medium) - Your Response: Drive the hooked knee forward and inward to strip the hook using rotational force. Do not step back, as this deepens the entanglement. Maintain pant grip control on the hooking leg and circle your foot to clear the hook before continuing to stand. → Leads to [[Combat Base]]
-- **Opponent hip bumps or bridges into you during the moment of weight shift** (Effectiveness: Medium) - Your Response: Absorb the bump by bending your arms slightly and lowering your center of gravity. If balance is compromised, post one hand on the mat for emergency base rather than falling forward into their guard. Reset to combat base if necessary. → Leads to [[Closed Guard]]
+- **Opponent closes guard by locking ankles behind your back during weight transition** (Effectiveness: High) - Your Response: Strip the ankle lock immediately by posting one hand on their hip and driving your hips backward while wedging your elbow inside their knee. If guard fully closes, reset to closed guard opening sequence before reattempting. → Leads to [[Positions/Closed Guard]]
+- **Opponent pulls collar grip to break posture forward as hips begin to rise** (Effectiveness: High) - Your Response: Break the collar grip before committing to the stand up using a two-on-one peel. If the grip is too deep, abort the stand up, resettle into combat base, and strip the grip before reattempting from a secure base. → Leads to [[Positions/Combat Base]]
+- **Opponent establishes De La Riva hook on lead leg during the transition** (Effectiveness: Medium) - Your Response: Drive the hooked knee forward and inward to strip the hook using rotational force. Do not step back, as this deepens the entanglement. Maintain pant grip control on the hooking leg and circle your foot to clear the hook before continuing to stand. → Leads to [[Positions/Combat Base]]
+- **Opponent hip bumps or bridges into you during the moment of weight shift** (Effectiveness: Medium) - Your Response: Absorb the bump by bending your arms slightly and lowering your center of gravity. If balance is compromised, post one hand on the mat for emergency base rather than falling forward into their guard. Reset to combat base if necessary. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

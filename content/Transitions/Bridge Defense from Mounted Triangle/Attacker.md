@@ -186,7 +186,7 @@ description: "Master the bridge defense escape from mounted triangle. Step-by-st
 
 The bridge defense from mounted triangle is executed by the bottom player trapped in the mounted triangle configuration. As the attacker executing this escape, your primary objective is to use explosive hip drive to disrupt the triangle structure and create enough space to either dislodge the triangle entirely or chain into secondary escapes. The technique requires precise timing coordinated with the top player's weight shifts and finishing attempts, combined with proper bridging mechanics that target the weakest point of the opponent's asymmetric base. Success depends on reading the opponent's commitment level, protecting yourself from submission during the bridge, and immediately capitalizing on any space created before the opponent can re-establish control.
 
-**From Position**: [[Mounted Triangle]] (Bottom)
+**From Position**: [[Positions/Mount/Mounted Triangle]] (Bottom)
 
 </section>
 
@@ -240,10 +240,10 @@ The bridge defense from mounted triangle is executed by the bottom player trappe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 35% |
-| Success | [[Half Guard]] | 5% |
-| Failure | [[Mounted Triangle]] | 35% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Mount]] | 35% |
+| Success | [[Positions/Half Guard]] | 5% |
+| Failure | [[Positions/Mount/Mounted Triangle]] | 35% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -252,10 +252,10 @@ The bridge defense from mounted triangle is executed by the bottom player trappe
 
 ## Opponent Counters
 
-- **Opponent posts wide on the bridge side to absorb force and maintain base** (Effectiveness: High) - Your Response: If the initial bridge is absorbed, immediately chain into a hip escape on the opposite side while the opponent's weight is committed to their posting leg. The posting action opens space on the other side that you can exploit with shrimping movement. → Leads to [[Mounted Triangle]]
-- **Opponent tightens triangle lock and drives hips forward during bridge attempt** (Effectiveness: High) - Your Response: Abandon the bridge immediately and return to defensive posture with reinforced chin tuck. Wait for the next finishing attempt before re-attempting. The tightening response often exhausts the opponent's squeeze, creating a better window on the subsequent attempt. → Leads to [[Mounted Triangle]]
-- **Opponent releases triangle and transitions to back control as you bridge and turn** (Effectiveness: Medium) - Your Response: If you feel the triangle release and the opponent shifting to your back, immediately drop your hips flat, turn to face the opponent, and establish frames before they can secure hooks. Getting your back to the mat before hooks are inserted prevents the full back take. → Leads to [[Back Control]]
-- **Opponent shifts to armbar by pivoting hips during your bridge setup** (Effectiveness: Medium) - Your Response: The armbar transition requires the opponent to release triangle pressure momentarily. Use this opening to bend your trapped arm aggressively and turn into the opponent. Their hip pivot during the armbar transition often creates space for you to recover to mount bottom or insert a knee for half guard. → Leads to [[Mount]]
+- **Opponent posts wide on the bridge side to absorb force and maintain base** (Effectiveness: High) - Your Response: If the initial bridge is absorbed, immediately chain into a hip escape on the opposite side while the opponent's weight is committed to their posting leg. The posting action opens space on the other side that you can exploit with shrimping movement. → Leads to [[Positions/Mount/Mounted Triangle]]
+- **Opponent tightens triangle lock and drives hips forward during bridge attempt** (Effectiveness: High) - Your Response: Abandon the bridge immediately and return to defensive posture with reinforced chin tuck. Wait for the next finishing attempt before re-attempting. The tightening response often exhausts the opponent's squeeze, creating a better window on the subsequent attempt. → Leads to [[Positions/Mount/Mounted Triangle]]
+- **Opponent releases triangle and transitions to back control as you bridge and turn** (Effectiveness: Medium) - Your Response: If you feel the triangle release and the opponent shifting to your back, immediately drop your hips flat, turn to face the opponent, and establish frames before they can secure hooks. Getting your back to the mat before hooks are inserted prevents the full back take. → Leads to [[Positions/Back Control]]
+- **Opponent shifts to armbar by pivoting hips during your bridge setup** (Effectiveness: Medium) - Your Response: The armbar transition requires the opponent to release triangle pressure momentarily. Use this opening to bend your trapped arm aggressively and turn into the opponent. Their hip pivot during the armbar transition often creates space for you to recover to mount bottom or insert a knee for half guard. → Leads to [[Positions/Mount]]
 
 
 </section>

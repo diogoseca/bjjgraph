@@ -21,7 +21,7 @@ This escape relies on precise timing and coordinated movement rather than explos
 
 Strategically, knee extraction serves as the first-line defense before the attacker consolidates position. The optimal window for this escape is within the first 5-10 seconds of ankle lock control being established. Beyond this timeframe, the attacker typically secures tighter leg control, making extraction progressively more difficult. Understanding this temporal pressure drives the need for immediate recognition and rapid technical execution rather than waiting passively and hoping for escape opportunities.
 
-**From Position**: [[Straight Ankle Lock Control]] (Top)
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, knee extraction serves as the first-line defense before the attac
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 45% |
-| Success | [[Open Guard]] | 20% |
-| Failure | [[Straight Ankle Lock Control]] | 25% |
-| Counter | [[Inside Ashi-Garami]] | 10% |
+| Success | [[Positions/Standing Position]] | 45% |
+| Success | [[Positions/Open Guard]] | 20% |
+| Failure | [[Positions/Straight Ankle Lock Control]] | 25% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 10% |
 
 
 </section>
@@ -192,25 +192,25 @@ Knee Extraction fits into the broader leg lock defense system as the first-line 
 ## Related Techniques
 
 
-- [[Straight Ankle Lock Control]] - Starting position where this escape is initiated
+- [[Positions/Straight Ankle Lock Control]] - Starting position where this escape is initiated
 
-- [[Ashi Garami Escape]] - Related escape technique from broader leg entanglement category
+- [[Transitions/Ashi Garami Escape]] - Related escape technique from broader leg entanglement category
 
-- [[Hip Rotation Defense]] - Alternative defense when extraction fails due to consolidated leg control
+- [[Transitions/Hip Rotation Defense]] - Alternative defense when extraction fails due to consolidated leg control
 
-- [[Counter Entry to Opponent's Leg]] - Offensive alternative during extraction creating 50-50 entry
+- [[Transitions/Counter Entry to Opponent's Leg]] - Offensive alternative during extraction creating 50-50 entry
 
-- [[50-50 Guard]] - Counter-entry destination when symmetrical entanglement is preferred
+- [[Positions/Ashi Garami/50-50 Guard]] - Counter-entry destination when symmetrical entanglement is preferred
 
-- [[Inside Ashi-Garami]] - Dangerous position attacker may transition to during failed extraction
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Dangerous position attacker may transition to during failed extraction
 
-- [[Open Guard]] - Recovery position after successful extraction when standing is not possible
+- [[Positions/Open Guard]] - Recovery position after successful extraction when standing is not possible
 
-- [[Standing Position]] - Primary recovery destination after successful extraction
+- [[Positions/Standing Position]] - Primary recovery destination after successful extraction
 
-- [[Frame and Distance Creation]] - Complementary technique for establishing space during and after extraction
+- [[Transitions/Frame and Distance Creation]] - Complementary technique for establishing space during and after extraction
 
-- [[Counter-entangle to 50-50 Guard]] - Alternative escape path using symmetrical leg entanglement
+- [[Transitions/Counter-entangle to 50-50 Guard]] - Alternative escape path using symmetrical leg entanglement
 
 
 </section>

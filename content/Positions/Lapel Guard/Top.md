@@ -214,23 +214,23 @@ Developing lapel guard top competency requires specific drilling and study. Gene
 
 ## Available Attacks
 
-### [[Lapel Clear to Toreando Pass]] (12% of attempts)
+### [[Transitions/Lapel Clear to Toreando Pass]] (12% of attempts)
 
-### [[Backstep Around Worm Guard]] (16% of attempts)
+### [[Transitions/Backstep Around Worm Guard]] (16% of attempts)
 
-### [[Pressure Pass Through Squid]] (11% of attempts)
+### [[Transitions/Pressure Pass Through Squid]] (11% of attempts)
 
-### [[Knee Slice Despite Lapel]] (12% of attempts)
+### [[Transitions/Knee Slice Despite Lapel]] (12% of attempts)
 
-### [[Long Step Around Ringworm]] (11% of attempts)
+### [[Transitions/Long Step Around Ringworm]] (11% of attempts)
 
-### [[Stack Pass Over Lapel Barrier]] (9% of attempts)
+### [[Transitions/Stack Pass Over Lapel Barrier]] (9% of attempts)
 
-### [[Distance Creation to Reset]] (8% of attempts)
+### [[Transitions/Distance Creation to Reset]] (8% of attempts)
 
-### [[Leg Drag While Clearing Lapel]] (11% of attempts)
+### [[Transitions/Leg Drag While Clearing Lapel]] (11% of attempts)
 
-### [[Leg Extraction from Lapel Wrap]] (10% of attempts)
+### [[Transitions/Leg Extraction from Lapel Wrap]] (10% of attempts)
 
 
 
@@ -241,23 +241,23 @@ Developing lapel guard top competency requires specific drilling and study. Gene
 ## Decision Making from This Position
 
 **If opponent has worm guard with lapel around your leg:**
-- Execute **[[Backstep Around Worm Guard]]** → [[Turtle]] (Probability: 60%)
-- Execute **[[Distance Creation to Reset]]** → [[Standing Guard]] (Probability: 55%)
+- Execute **[[Transitions/Backstep Around Worm Guard]]** → [[Positions/Turtle]] (Probability: 60%)
+- Execute **[[Transitions/Distance Creation to Reset]]** → [[Positions/Standing Guard]] (Probability: 55%)
 
 
 **If opponent has squid guard with lapel controlling your arm:**
-- Execute **[[Pressure Pass Through Squid]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Lapel Clear to Toreando Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Pressure Pass Through Squid]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Lapel Clear to Toreando Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent has complex ringworm configuration with multiple wraps:**
-- Execute **[[Distance Creation to Reset]]** → [[Standing Guard]] (Probability: 65%)
-- Execute **[[Long Step Around Ringworm]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Distance Creation to Reset]]** → [[Positions/Standing Guard]] (Probability: 65%)
+- Execute **[[Transitions/Long Step Around Ringworm]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If you've successfully cleared lapel configuration:**
-- Execute **[[Immediate Pressure When Lapel Cleared]]** → [[Half Guard]] (Probability: 70%)
-- Execute **[[Knee Slice Despite Lapel]]** → [[Knee on Belly]] (Probability: 65%)
+- Execute **[[Immediate Pressure When Lapel Cleared]]** → [[Positions/Half Guard]] (Probability: 70%)
+- Execute **[[Transitions/Knee Slice Despite Lapel]]** → [[Positions/Knee on Belly]] (Probability: 65%)
 
 
 
@@ -391,16 +391,16 @@ Partner establishes lapel configuration of choice. Clear it using appropriate te
 
 ## Related Positions and Techniques
 
-- **[[Worm Guard]]** - Most common lapel configuration you'll face—requires specific backstep solutions
-- **[[Squid Guard]]** - Arm control variation requiring pressure passing or distance creation
-- **[[Ringworm Guard]]** - Complex configuration often requiring full reset rather than direct passing
-- **[[Toreando Pass]]** - Effective passing method after clearing lapel configurations
-- **[[Long Step Pass]]** - Navigates around lapel barriers by changing passing angle
-- **[[Back Step]]** - Primary solution for worm guard configurations
-- **[[Standing Guard]]** - Reset position for creating distance from complex lapel configurations
-- **[[Side Control]]** - Common passing destination after successfully clearing lapel configurations
-- **[[Half Guard]]** - Intermediate position often reached during lapel guard passing attempts
-- **[[Knee on Belly]]** - Dominant position achievable after clearing lapel and completing knee slice
+- **[[Positions/Worm Guard]]** - Most common lapel configuration you'll face—requires specific backstep solutions
+- **[[Positions/Squid Guard]]** - Arm control variation requiring pressure passing or distance creation
+- **[[Positions/Ringworm Guard]]** - Complex configuration often requiring full reset rather than direct passing
+- **[[Transitions/Toreando Pass]]** - Effective passing method after clearing lapel configurations
+- **[[Transitions/Long Step Pass]]** - Navigates around lapel barriers by changing passing angle
+- **[[Transitions/Back Step]]** - Primary solution for worm guard configurations
+- **[[Positions/Standing Guard]]** - Reset position for creating distance from complex lapel configurations
+- **[[Positions/Side Control]]** - Common passing destination after successfully clearing lapel configurations
+- **[[Positions/Half Guard]]** - Intermediate position often reached during lapel guard passing attempts
+- **[[Positions/Knee on Belly]]** - Dominant position achievable after clearing lapel and completing knee slice
 
 
 </section>

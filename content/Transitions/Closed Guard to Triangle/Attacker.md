@@ -174,7 +174,7 @@ description: "How to execute Closed Guard to Triangle in BJJ. Attacking perspect
 
 The transition from Closed Guard to Triangle represents one of the most fundamental and high-percentage attacks in Brazilian Jiu-Jitsu. This technique exploits the opponent's defensive posturing by converting arm positioning into a powerful strangulation threat. The beauty of this transition lies in its ability to capitalize on the opponent's natural defensive reactions—whether they maintain their base or attempt to posture, the guard player can manipulate limb placement to secure the triangle lock. The closed guard provides an ideal launching platform because it offers control of distance, hip mobility, and the ability to break posture repeatedly until the optimal angle presents itself. This transition teaches fundamental principles of angle creation, hip movement, and limb isolation that apply throughout guard-based submissions. Mastery of this sequence provides a reliable pathway to finish matches while simultaneously opening opportunities for sweeps and back takes when opponents defend the primary threat.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -226,9 +226,9 @@ The transition from Closed Guard to Triangle represents one of the most fundamen
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Control]] | 50% |
-| Failure | [[Closed Guard]] | 35% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Triangle Control]] | 50% |
+| Failure | [[Positions/Closed Guard]] | 35% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -237,10 +237,10 @@ The transition from Closed Guard to Triangle represents one of the most fundamen
 
 ## Opponent Counters
 
-- **Opponent stands up explosively to stack and create space above you** (Effectiveness: High) - Your Response: Follow their upward movement by maintaining triangle lock and transitioning to elevated position using shoulder walk, or switch to armbar by extending the trapped arm as their posture opens it → Leads to [[Closed Guard]]
-- **Opponent postures hard and pulls their trapped arm back toward centerline to relieve pressure** (Effectiveness: Medium) - Your Response: If the arm starts extracting, immediately transition to omoplata by releasing the top leg and swinging it over their back, or switch to armbar on the extending arm before it fully clears → Leads to [[Closed Guard]]
-- **Opponent drives forward and smashes into you with shoulder pressure before triangle is locked** (Effectiveness: High) - Your Response: Maintain leg over shoulder and use underhook to transition to mounted triangle position, or frame on their shoulder and recover closed guard while maintaining wrist control for a re-attack → Leads to [[Closed Guard]]
-- **Opponent circles away from your angle and prevents leg from crossing the back of their neck** (Effectiveness: Medium) - Your Response: Use the foot on hip to push and pivot your hips to recreate the angle, or switch to omoplata as their circling motion naturally rotates their shoulder into the omoplata entry position → Leads to [[Closed Guard]]
+- **Opponent stands up explosively to stack and create space above you** (Effectiveness: High) - Your Response: Follow their upward movement by maintaining triangle lock and transitioning to elevated position using shoulder walk, or switch to armbar by extending the trapped arm as their posture opens it → Leads to [[Positions/Closed Guard]]
+- **Opponent postures hard and pulls their trapped arm back toward centerline to relieve pressure** (Effectiveness: Medium) - Your Response: If the arm starts extracting, immediately transition to omoplata by releasing the top leg and swinging it over their back, or switch to armbar on the extending arm before it fully clears → Leads to [[Positions/Closed Guard]]
+- **Opponent drives forward and smashes into you with shoulder pressure before triangle is locked** (Effectiveness: High) - Your Response: Maintain leg over shoulder and use underhook to transition to mounted triangle position, or frame on their shoulder and recover closed guard while maintaining wrist control for a re-attack → Leads to [[Positions/Closed Guard]]
+- **Opponent circles away from your angle and prevents leg from crossing the back of their neck** (Effectiveness: Medium) - Your Response: Use the foot on hip to push and pivot your hips to recreate the angle, or switch to omoplata as their circling motion naturally rotates their shoulder into the omoplata entry position → Leads to [[Positions/Closed Guard]]
 
 
 </section>

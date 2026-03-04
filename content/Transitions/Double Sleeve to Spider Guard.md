@@ -21,7 +21,7 @@ The strategic significance of this transition lies in the dramatic increase in o
 
 The key challenge lies in maintaining control during the transition itself. The moment your feet leave the opponent's hips to travel toward their biceps, you temporarily lose your primary distance management frame. Skilled opponents recognize this vulnerability and will attempt to strip grips or close distance during this window. Successful execution requires precise timing coordinated with grip tension, typically initiated when the opponent extends their arms during grip fighting or postures up to create space. The transition rewards practitioners who develop sensitivity to their opponent's weight shifts and arm positioning rather than those who attempt to force the entry against a settled, well-postured opponent.
 
-**From Position**: [[Double Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The key challenge lies in maintaining control during the transition itself. The 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Spider Guard]] | 55% |
-| Failure | [[Double Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Spider Guard]] | 55% |
+| Failure | [[Positions/Double Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Double Sleeve to Spider Guard transition occupies a critical junction in the
 ## Related Techniques
 
 
-- [[Spider Guard]] - Target position achieved when bicep hooks and sleeve grips are fully established
+- [[Positions/Spider Guard]] - Target position achieved when bicep hooks and sleeve grips are fully established
 
-- [[Double Sleeve Guard]] - Starting position providing the bilateral sleeve control foundation for this transition
+- [[Positions/Double Sleeve Guard]] - Starting position providing the bilateral sleeve control foundation for this transition
 
-- [[Double Sleeve to Lasso]] - Alternative guard evolution from double sleeve targeting asymmetric lasso control
+- [[Transitions/Double Sleeve to Lasso]] - Alternative guard evolution from double sleeve targeting asymmetric lasso control
 
-- [[Double Sleeve to De La Riva]] - Alternative guard evolution from double sleeve targeting hook-based control against standing opponents
+- [[Transitions/Double Sleeve to De La Riva]] - Alternative guard evolution from double sleeve targeting hook-based control against standing opponents
 
-- [[Collar Sleeve to Spider Guard]] - Related transition reaching same target position from collar sleeve starting point
+- [[Transitions/Collar Sleeve to Spider Guard]] - Related transition reaching same target position from collar sleeve starting point
 
-- [[Lasso Guard]] - Complementary guard reachable via lasso-spider hybrid entry variant
+- [[Positions/Lasso Guard]] - Complementary guard reachable via lasso-spider hybrid entry variant
 
-- [[Open Guard]] - Parent guard category and counter outcome position when grips are stripped during transition
+- [[Positions/Open Guard]] - Parent guard category and counter outcome position when grips are stripped during transition
 
-- [[Collar Sleeve Guard]] - Related sleeve-based guard sharing grip foundations and transition pathways
+- [[Positions/Collar Sleeve Guard]] - Related sleeve-based guard sharing grip foundations and transition pathways
 
-- [[Armbar Setup from Double Sleeve]] - Alternative offensive option from the same starting position targeting submission
+- [[Transitions/Armbar Setup from Double Sleeve]] - Alternative offensive option from the same starting position targeting submission
 
-- [[Triangle Setup]] - Primary submission entry available from spider guard after successful transition
+- [[Transitions/Triangle Setup]] - Primary submission entry available from spider guard after successful transition
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Complete defensive guide against the Leg Extraction Pass. Learn to
 
 As the defender against the Leg Extraction Pass, your objective is to maintain the leg entanglement and either finish a submission before the extraction completes or re-enter the entanglement each time the opponent clears a hook. Your position begins with an advantage — you have established leg control and the opponent is trying to escape — but this advantage erodes quickly if the top player executes the extraction methodically. The defensive game requires constant activity: re-pummeling hooks that are cleared, attacking heel and ankle grips to maintain submission threat pressure, and using sweep attempts to destabilize the opponent's base during their extraction process. Passive defense that simply holds the entanglement will fail against a systematic extraction because the top player's forward pressure progressively dismantles static control structures. Your goal is to create a dilemma where the opponent must choose between defending submissions and advancing their extraction, with neither option being safe to pursue fully.
 
-**Opponent's Starting Position**: [[Leg Entanglement]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Entanglement]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the Leg Extraction Pass, your objective is to maintain t
 ### 1. Re-pummel inside hook immediately as opponent clears it with knee-to-mat drive
 
 - **When to use**: The moment you feel your inside hook being stripped by the opponent's knee straightening action — do not wait for full clearance
-- **Targets**: [[Leg Entanglement]]
+- **Targets**: [[Positions/Leg Entanglement]]
 - **If successful**: Opponent's extraction progress resets and they must restart the knee-to-mat sequence, buying you time to attack or improve position
 - **Risk**: If your re-pummel timing is late, the opponent has already passed the hook line and your foot gets caught under their knee, weakening your control
 
 ### 2. Transition to saddle or deeper entanglement variant as hooks begin to clear
 
 - **When to use**: When you recognize the extraction is progressing and your current configuration is being systematically dismantled
-- **Targets**: [[Leg Entanglement]]
+- **Targets**: [[Positions/Leg Entanglement]]
 - **If successful**: The new entanglement configuration resets the extraction problem and may provide better submission angles than the original position
 - **Risk**: The transition creates a moment of reduced control where the opponent may accelerate their extraction through the gap
 
 ### 3. Attack heel hook or ankle lock during extraction to force opponent to abandon extraction and address submission
 
 - **When to use**: When opponent begins extraction movement without first neutralizing your heel grip — their movement provides the rotation you need to finish
-- **Targets**: [[Leg Entanglement]]
+- **Targets**: [[Positions/Leg Entanglement]]
 - **If successful**: Opponent must stop extraction and return to defending the submission, resetting the entire exchange in your favor
 - **Risk**: If the opponent has already stripped your grip, the attack is empty and you waste energy and positioning on a failed submission attempt
 
 ### 4. Execute sweep by attacking opponent's posted base leg during extraction
 
 - **When to use**: When opponent commits significant weight to forward drive and their posted leg is within reach of your free leg or hands
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You end up on top from the scramble, converting the opponent's extraction attempt into a positional reversal in your favor
 - **Risk**: If the sweep fails, you have compromised your entanglement structure by releasing hooks to attack the base, accelerating their extraction
 
@@ -217,11 +217,11 @@ As the defender against the Leg Extraction Pass, your objective is to maintain t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Entanglement]]
+### → [[Positions/Leg Entanglement]]
 
 Maintain the entanglement by re-pummeling hooks faster than the opponent can clear them, transitioning between variants to reset extraction progress, and using submission threats to force the opponent to address danger rather than continue advancing. Keep active heel control and stay mobile on your side to follow their hip movement.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If the extraction progresses past the point of re-entry, immediately transition to offensive half guard bottom by securing an underhook on the previously-trapped leg side and establishing knee shield or butterfly hooks. Convert the failed entanglement into a strong half guard bottom position with sweep and back take threats rather than accepting flat-on-back half guard.
 

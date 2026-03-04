@@ -21,7 +21,7 @@ The primary technical challenge lies in managing the brief control gap that occu
 
 Understanding when and how to execute this positional reset is essential for any practitioner who employs the Rubber Guard system. The ability to flow seamlessly between Rubber Guard and Closed Guard creates a more complete bottom game, allowing the practitioner to attempt rubber guard attacks, reset to closed guard when those attacks stall, and launch entirely different offensive sequences from the new position. This transition also serves as a safety valve that prevents the bottom player from being forced into open guard when rubber guard control begins to deteriorate.
 
-**From Position**: [[Rubber Guard]] (Bottom)
+**From Position**: [[Positions/Rubber Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Understanding when and how to execute this positional reset is essential for any
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Rubber Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Rubber Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Rubber Guard to Closed Guard transition serves as the critical safety valve 
 ## Related Techniques
 
 
-- [[Rubber Guard]] - Source position from which this transition begins, providing the specialized guard control that is being reset
+- [[Positions/Rubber Guard]] - Source position from which this transition begins, providing the specialized guard control that is being reset
 
-- [[Closed Guard]] - Target position achieved upon successful transition, offering broader offensive options and greater sustainability
+- [[Positions/Closed Guard]] - Target position achieved upon successful transition, offering broader offensive options and greater sustainability
 
-- [[Open Guard]] - Position resulting from failed guard closure during transition when opponent exploits the control gap
+- [[Positions/Open Guard]] - Position resulting from failed guard closure during transition when opponent exploits the control gap
 
-- [[Mission Control]] - Primary Rubber Guard sub-position that often precedes the decision to transition back to Closed Guard
+- [[Positions/Rubber Guard/Mission Control]] - Primary Rubber Guard sub-position that often precedes the decision to transition back to Closed Guard
 
-- [[High Guard to Rubber Guard]] - Reverse directional transition that enters Rubber Guard from the Closed Guard system
+- [[Transitions/High Guard to Rubber Guard]] - Reverse directional transition that enters Rubber Guard from the Closed Guard system
 
-- [[Rubber Guard Sweep]] - Alternative offensive option from Rubber Guard instead of transitioning back to Closed Guard
+- [[Transitions/Rubber Guard Sweep]] - Alternative offensive option from Rubber Guard instead of transitioning back to Closed Guard
 
-- [[Rubber Guard Top Posture Escape]] - Opponent's escape technique that may force the bottom player to reset to Closed Guard
+- [[Transitions/Rubber Guard Top Posture Escape]] - Opponent's escape technique that may force the bottom player to reset to Closed Guard
 
-- [[Posture Recovery]] - Top player's primary defensive response that can exploit the transition window
+- [[Transitions/Posture Recovery]] - Top player's primary defensive response that can exploit the transition window
 
-- [[Mission Control Entry from Rubber Guard]] - Alternative progression within the Rubber Guard system instead of resetting position
+- [[Transitions/Mission Control Entry from Rubber Guard]] - Alternative progression within the Rubber Guard system instead of resetting position
 
-- [[New York Entry from Rubber Guard]] - Advanced Rubber Guard progression available as alternative to resetting to Closed Guard
+- [[Transitions/New York Entry from Rubber Guard]] - Advanced Rubber Guard progression available as alternative to resetting to Closed Guard
 
 
 </section>

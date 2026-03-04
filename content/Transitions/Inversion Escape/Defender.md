@@ -156,7 +156,7 @@ As the defender against the Inversion Escape, you are the Honey Hole top player 
 
 Defense against the Inversion Escape requires reading your opponent's preparatory movements - particularly the free leg posting and grip adjustments that telegraph the explosive rotation. The most effective counter-strategy is preventing the escape entirely by securing your heel hook grip before they can initiate, but if they begin inverting, you must decide instantly whether to follow their rotation with hip pressure or capitalize on the rotational exposure to finish a submission. Hesitation in either direction results in the escape succeeding.
 
-**Opponent's Starting Position**: [[Honey Hole]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Honey Hole]] (Bottom)
 
 </section>
 
@@ -200,7 +200,7 @@ Defense against the Inversion Escape requires reading your opponent's preparator
 ### 2. Drive hips forward aggressively and follow opponent's rotation, maintaining inside triangle pressure throughout their inversion attempt
 
 - **When to use**: When opponent begins inverting before you can secure the heel - follow their movement rather than trying to hold static position
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: Your forward hip pressure and rotation matching keeps the triangle intact through their movement, and they end up back in the same trapped position having wasted energy on a failed escape
 - **Risk**: If you over-commit forward and opponent redirects to 50-50 counter-entanglement, you may end up in symmetrical position losing your inside advantage
 
@@ -214,7 +214,7 @@ Defense against the Inversion Escape requires reading your opponent's preparator
 ### 4. Control opponent's free leg by gripping their pants or hooking their ankle to eliminate the posted leg drive that powers the inversion
 
 - **When to use**: Preemptively when you recognize opponent loading their free foot for the inversion - remove their propulsion source before they can fire
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: Without the posted leg drive, opponent cannot generate sufficient force for the inversion and remains trapped in the entanglement with reduced escape options
 - **Risk**: Reaching for their free leg requires releasing one hand from heel control, potentially giving them a brief window to begin rotating
 
@@ -230,7 +230,7 @@ Defense against the Inversion Escape requires reading your opponent's preparator
 
 Secure heel hook grip before opponent initiates inversion, or catch the heel during their rotation when it becomes momentarily exposed due to the angle change. Apply controlled breaking pressure once grip is established. Alternatively, transition to kneebar when their leg extends during the inversion attempt, using their own rotational momentum to drive the hyperextension.
 
-### → [[Honey Hole]]
+### → [[Positions/Ashi Garami/Honey Hole]]
 
 Follow opponent's rotation with aggressive hip pressure, driving your hips forward and maintaining your inside leg triangle throughout their movement. Match their rotation speed so the entanglement stays intact. When their inversion stalls or fails, immediately re-settle your weight and tighten control. Control their free leg to prevent subsequent escape attempts.
 

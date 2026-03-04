@@ -158,7 +158,7 @@ The defender's central challenge is that the turning motion used to escape the b
 
 From a systemic perspective, the most successful defensive approach treats the transition as a scramble opportunity. Rather than passively accepting the front headlock, the defender uses the attacker's movement and grip changes to initiate their own positional improvements: recovering guard, creating distance for a technical standup, or counterattacking with an arm drag during the brief period of compromised control. The defender who waits for the front headlock to consolidate before reacting faces a much harder escape problem than the one who acts during the transition itself.
 
-**Opponent's Starting Position**: [[Buggy Choke]] (Top)
+**Opponent's Starting Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ From a systemic perspective, the most successful defensive approach treats the t
 ### 1. Explosive sit-out to guard recovery during the grip exchange
 
 - **When to use**: When you feel the threading arm withdrawing and the attacker's weight shifts forward during the circling movement, creating a momentary gap in hip control
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You recover to seated guard or half guard, completely negating the front headlock and resetting the engagement from a neutral or favorable position
 - **Risk**: If the attacker reads the sit-out and maintains head control, you may expose your back and end up in a worse position with the attacker taking back control
 
 ### 2. Drive into the attacker and stand up during the arm extraction phase
 
 - **When to use**: When the attacker releases the threading arm and their secondary grip is not yet fully consolidated, giving you a window where their control is weakest
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You achieve standing position and can disengage, face the attacker, or initiate your own offensive sequence from neutral standing
 - **Risk**: If the attacker snaps you back down or already has strong collar tie control, the standup attempt fails and may accelerate the front headlock establishment
 
 ### 3. Counter-circle away from the attacker's path while stripping the chin strap grip
 
 - **When to use**: When the attacker begins circling toward your head and you can feel their feet shuffling, use two hands to strip the chin strap while circling the opposite direction
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: You break all control connections, recover to neutral turtle, and force the attacker to restart their attack sequence from scratch
 - **Risk**: If you fail to strip the grip, you may end up facing away from the attacker with compromised posture and accelerated front headlock entry
 
 ### 4. Arm drag the circling arm to take the attacker's back
 
 - **When to use**: When the attacker overcommits to the circling motion and their arm that was previously threading is now exposed during the transition to front headlock grip
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You reverse the position entirely, ending up behind the attacker with potential back control or at minimum a favorable scramble
 - **Risk**: If the arm drag is not deep enough, the attacker may use your pulling motion to accelerate into a tighter front headlock or guillotine
 
@@ -228,11 +228,11 @@ From a systemic perspective, the most successful defensive approach treats the t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Buggy Choke]]
+### → [[Positions/Buggy Choke]]
 
 Strip the attacker's secondary head control grip during the arm extraction phase using both hands on their wrist. With the threading arm already withdrawn and the chin strap broken, all control connections are severed and the attacker must disengage, returning you to neutral turtle where you can pursue guard recovery.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Execute a sit-out or technical standup during the grip exchange window when the attacker's threading arm is withdrawing. Time the explosive movement to coincide with the moment of weakest control. Even partial success that prevents front headlock consolidation returns you to standard turtle bottom where you have the full range of escape options available.
 

@@ -154,7 +154,7 @@ description: "Defend the Bull Pass from Seated Guard effectively. Recognition cu
 
 Defending the Bull Pass from Seated Guard requires early recognition of the passer's intent to drive forward and immediate deployment of leg frames before the drive connects. As the defender in seated guard, your primary tools are active feet that prevent leg grips, hip scooting to maintain distance, and the ability to insert defensive frames at the critical moment before the passer's chest advances past your legs. The bull pass is characterized by its directness and explosiveness, so the defensive window is narrow. Success depends on prevention through active leg management rather than reaction after the drive has already started. Understanding the attacker's grip requirements and disrupting them before the drive initiates is the highest-percentage defensive strategy available.
 
-**Opponent's Starting Position**: [[Seated Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Seated Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Bull Pass from Seated Guard requires early recognition of the pass
 ### 1. Push feet into opponent's hips and scoot hips backward to maintain distance
 
 - **When to use**: Early recognition phase when opponent is reaching for leg grips but has not yet secured them
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: Opponent cannot secure leg grips and must reapproach, completely resetting the passing attempt
 - **Risk**: If too slow to react, opponent secures grips through your frames and drives forward with both legs controlled
 
 ### 2. Insert butterfly hook or knee shield as opponent begins the forward drive
 
 - **When to use**: Mid-drive phase when opponent has secured leg grips and initiated forward movement but has not cleared your legs
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Forward drive is arrested by the inserted frame, and position transitions to butterfly guard or knee shield half guard where you retain guard
 - **Risk**: If the drive is too explosive, the frame may be collapsed before it is fully established and opponent advances to side control
 
 ### 3. Hook opponent's lead leg and elevate using their committed forward momentum for sweep
 
 - **When to use**: When opponent overcommits to the forward drive with a high center of gravity or narrow base
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent is swept using their own forward momentum and you achieve top position in half guard or a neutral scramble
 - **Risk**: If sweep fails, you have pulled the opponent closer and may end up in an inferior position with their weight driving into you
 
 ### 4. Sit up and establish deep collar grip to control opponent's posture before drive initiates
 
 - **When to use**: Preemptive defense when you read opponent's intention to close distance for the bull pass setup
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: Collar control prevents opponent from dropping their posture for the drive and keeps them in upright passing range where seated guard is most effective
 - **Risk**: Sitting up removes one posting hand from the ground, temporarily compromising your base against other pass types
 
@@ -225,11 +225,11 @@ Defending the Bull Pass from Seated Guard requires early recognition of the pass
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a sweep using the opponent's committed forward momentum. Hook their lead leg as they drive, elevate with your hips, and redirect their weight to the side. The bull pass's full forward commitment makes it inherently vulnerable to elevation-based counters when the timing is correct.
 
-### → [[Seated Guard]]
+### → [[Positions/Seated Guard]]
 
 Prevent the pass through early frame deployment before the drive connects. Push feet into hips before grips are secured, scoot hips backward to maintain distance, or establish collar control that prevents the forward drive from initiating. Making the bull pass fail repeatedly forces the opponent to abandon the technique.
 

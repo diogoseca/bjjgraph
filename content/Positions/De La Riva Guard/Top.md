@@ -206,33 +206,33 @@ The most effective DLR passers develop a systematic approach that addresses each
 
 ## Available Attacks
 
-### [[Toreando Pass]] (74% of attempts)
+### [[Transitions/Toreando Pass]] (74% of attempts)
 
-### [[Knee Slice Pass]] (7% of attempts)
+### [[Transitions/Knee Slice Pass]] (7% of attempts)
 
-### [[X Pass]] (3% of attempts)
+### [[Transitions/X Pass]] (3% of attempts)
 
-### [[Leg Drag Pass]] (5% of attempts)
+### [[Transitions/Leg Drag Pass]] (5% of attempts)
 
-### [[Long Step Pass]] (1% of attempts)
+### [[Transitions/Long Step Pass]] (1% of attempts)
 
-### [[Smash Pass]] (0% of attempts)
+### [[Transitions/Smash Pass]] (0% of attempts)
 
-### [[Back Step Pass]] (5% of attempts)
+### [[Transitions/Back Step Pass]] (5% of attempts)
 
-### [[Body Lock Pass]] (3% of attempts)
+### [[Transitions/Body Lock Pass]] (3% of attempts)
 
-### [[Stack Pass]] (0% of attempts)
+### [[Transitions/Stack Pass]] (0% of attempts)
 
-### [[Bullfighter Pass]] (1% of attempts)
+### [[Transitions/Bullfighter Pass]] (1% of attempts)
 
-### [[Toreando Pass from De La Riva]] (0% of attempts)
+### [[Transitions/Toreando Pass from De La Riva]] (0% of attempts)
 
-### [[Backstep from De La Riva]] (0% of attempts)
+### [[Transitions/Backstep from De La Riva]] (0% of attempts)
 
-### [[Knee Slice from DLR]] (0% of attempts)
+### [[Transitions/Knee Slice from DLR]] (0% of attempts)
 
-### [[Leg Drag from DLR]] (1% of attempts)
+### [[Transitions/Leg Drag from DLR]] (1% of attempts)
 
 
 
@@ -243,23 +243,23 @@ The most effective DLR passers develop a systematic approach that addresses each
 ## Decision Making from This Position
 
 **If opponent maintains strong DLR hook with ankle grip and perpendicular hip angle:**
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[X Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/X Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent's DLR hook is shallow or ankle grip is broken:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Probability: 50%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 50%)
 
 
 **If opponent attempts to transition to reverse DLR or X-Guard:**
-- Execute **[[Long Step Pass]]** → [[Headquarters Position]] (Probability: 48%)
-- Execute **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Probability: 52%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Headquarters Position]] (Probability: 48%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Leg Drag Control]] (Probability: 52%)
 
 
 **If opponent inverts for berimbolo or kiss of the dragon attempt:**
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Knee Slice Pass]]** → [[Headquarters Position]] (Probability: 45%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Headquarters Position]] (Probability: 45%)
 
 
 
@@ -361,14 +361,14 @@ Partner plays DLR and actively attempts berimbolo and kiss of the dragon entries
 
 ## Related Positions and Techniques
 
-- **[[De La Riva Guard]]** - The guard position being faced from top - direct counterpart position
-- **[[Reverse De La Riva Guard]]** - Common transition target for bottom player during DLR passing attempts
-- **[[X-Guard]]** - Common transition target for bottom player from DLR when hook is threatened
-- **[[Single Leg X-Guard]]** - Transition option for bottom player when DLR hook is threatened or removed
-- **[[Side Control]]** - Primary target position after successful DLR pass completion
-- **[[Headquarters Position]]** - Intermediate passing position often reached when partially neutralizing DLR structure
-- **[[Leg Drag Control]]** - Alternative passing endpoint that exposes back and creates follow-up opportunities
-- **[[Knee on Belly]]** - Dominant consolidation option after fast mobile passes against DLR
+- **[[Positions/De La Riva Guard]]** - The guard position being faced from top - direct counterpart position
+- **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Common transition target for bottom player during DLR passing attempts
+- **[[Positions/X-Guard]]** - Common transition target for bottom player from DLR when hook is threatened
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Transition option for bottom player when DLR hook is threatened or removed
+- **[[Positions/Side Control]]** - Primary target position after successful DLR pass completion
+- **[[Positions/Headquarters Position]]** - Intermediate passing position often reached when partially neutralizing DLR structure
+- **[[Positions/Leg Drag Control]]** - Alternative passing endpoint that exposes back and creates follow-up opportunities
+- **[[Positions/Knee on Belly]]** - Dominant consolidation option after fast mobile passes against DLR
 
 
 </section>

@@ -158,7 +158,7 @@ Understanding the sprawl timing is critical for maintaining your grasshopper gua
 
 The key defensive framework involves recognizing which phase of the sprawl your opponent is in and matching your response accordingly. Early-phase sprawls (before hip extension completes) can be countered by tightening hooks and pulling them back into your guard. Mid-phase sprawls (during hip extension) require you to transition your attack angle by following with inversions. Late-phase sprawls (after distance is established) demand you either chase aggressively or accept the reset and prepare to re-establish guard on the next engagement.
 
-**Opponent's Starting Position**: [[Grasshopper Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The key defensive framework involves recognizing which phase of the sprawl your 
 ### 1. Tighten hooks and pull opponent back into guard before sprawl completes
 
 - **When to use**: Early phase of sprawl when their hips have not yet fully extended and your hooks are still engaged behind their knees
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: Opponent returns to your guard range and you maintain full grasshopper guard offensive position
 - **Risk**: If their hip extension is too powerful, you waste energy fighting against their sprawl and end up in worse position with fatigued hooks
 
 ### 2. Follow with inversion roll to reestablish leg contact on their retreating legs
 
 - **When to use**: Mid-phase of sprawl when they have partially disengaged but you can still reach their legs by rolling toward them
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: You reestablish grasshopper guard or transition to a related leg entanglement position with renewed contact
 - **Risk**: Following aggressively expends significant energy and may leave you in a compromised position if they sprawl again immediately
 
 ### 3. Shoot for ankle or heel control as their leg retreats to transition into single leg X-guard
 
 - **When to use**: When you detect the sprawl beginning and can redirect one hand to catch their retreating ankle before distance is established
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: You convert their sprawl attempt into a single leg X-guard entry, maintaining offensive guard position with new attack angles
 - **Risk**: Reaching for the ankle with your hand reduces your inverted base stability and may result in being flattened if you miss the grip
 
 ### 4. Accept reset and immediately transition to seated guard or De La Riva on re-engagement
 
 - **When to use**: Late phase of sprawl when full disengagement has occurred and chasing would waste energy without realistic chance of reconnection
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You conserve energy for the next exchange and can establish a fresh guard position when they re-engage
 - **Risk**: Opponent may use the standing reset to initiate a passing sequence from distance before you can establish a new guard
 
@@ -228,11 +228,11 @@ The key defensive framework involves recognizing which phase of the sprawl your 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Grasshopper Guard]]
+### → [[Positions/Grasshopper Guard]]
 
 Tighten hooks aggressively at the first sign of the sprawl, before their hips fully extend. Use your inside hook behind their knee as an anchor and pull their weight back over your hips while simultaneously elevating to disrupt their base. The earlier you react, the higher your success rate—once their hips are fully extended, recovery becomes exponentially harder.
 
-### → [[Single Leg X-Guard]]
+### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 As their leg retreats during the sprawl, redirect your hook configuration to catch their ankle with your inside leg wrap while your outside foot shoots to their hip. This converts their extraction attempt into a single leg X entry. Time the catch to the moment their leg is mid-extraction—too early and they haven't committed to the sprawl, too late and they're out of range.
 

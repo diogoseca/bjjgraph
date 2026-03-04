@@ -21,7 +21,7 @@ The technical execution requires precise angle adjustment, hip mobility, and con
 
 The triangle-to-armbar system exemplifies the principle of submission chains, where multiple attacks flow seamlessly based on the opponent's reactions, maximizing offensive pressure while minimizing energy expenditure. When combined with the omoplata as a third option, this creates a triangular dilemma system where every defensive reaction the opponent makes exposes a different submission vulnerability. Understanding this connection is essential for developing a complete guard game at purple belt and above.
 
-**From Position**: [[Triangle Control]] (Bottom)
+**From Position**: [[Positions/Triangle Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The triangle-to-armbar system exemplifies the principle of submission chains, wh
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 55% |
-| Failure | [[Triangle Control]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Armbar Control]] | 55% |
+| Failure | [[Positions/Triangle Control]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -195,31 +195,31 @@ The triangle to armbar transition is a cornerstone of comprehensive guard attack
 ## Related Techniques
 
 
-- [[Triangle Control]] - Starting position where triangle is established before transitioning
+- [[Positions/Triangle Control]] - Starting position where triangle is established before transitioning
 
-- [[Armbar Control]] - Target control position reached on successful transition
+- [[Positions/Armbar Control]] - Target control position reached on successful transition
 
-- [[Triangle Choke Front]] - Primary attack that forces defensive reaction opening the armbar
+- [[Submissions/Triangle Choke Front]] - Primary attack that forces defensive reaction opening the armbar
 
-- [[Armbar from Guard]] - Related finishing technique sharing similar mechanics
+- [[Submissions/Armbar from Guard]] - Related finishing technique sharing similar mechanics
 
-- [[Closed Guard to Triangle]] - Initial attack sequence that establishes the triangle
+- [[Transitions/Closed Guard to Triangle]] - Initial attack sequence that establishes the triangle
 
-- [[Closed Guard to Omoplata]] - Alternative transition creating three-way dilemma system
+- [[Transitions/Closed Guard to Omoplata]] - Alternative transition creating three-way dilemma system
 
-- [[Triangle to Omoplata]] - Parallel option when opponent stacks forward during transition
+- [[Transitions/Triangle to Omoplata]] - Parallel option when opponent stacks forward during transition
 
-- [[Omoplata]] - Third submission in the triangle chain system
+- [[Transitions/Omoplata]] - Third submission in the triangle chain system
 
-- [[Triangle to Back]] - Positional transition when opponent extracts trapped arm
+- [[Transitions/Triangle to Back]] - Positional transition when opponent extracts trapped arm
 
-- [[Armbar Finish]] - Finishing technique applied from armbar control position
+- [[Transitions/Armbar Finish]] - Finishing technique applied from armbar control position
 
-- [[Closed Guard]] - Primary guard position from which triangle is established
+- [[Positions/Closed Guard]] - Primary guard position from which triangle is established
 
-- [[Mount to Armbar]] - Similar armbar mechanics executed from different position
+- [[Transitions/Mount to Armbar]] - Similar armbar mechanics executed from different position
 
-- [[Inverted Triangle]] - Alternative triangle variation sharing transition principles
+- [[Transitions/Inverted Triangle]] - Alternative triangle variation sharing transition principles
 
 
 </section>

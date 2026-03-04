@@ -21,7 +21,7 @@ Unlike a direct back take attempt from turtle top, the Transition to Matrix prio
 
 The transition demands precise reading of the opponent's defensive posture. A tight turtle with elbows glued to knees requires specific grip sequences and angle adjustments before the Matrix position can be achieved. The attacker must create or exploit gaps in the turtle structure through pressure manipulation, directional changes, and timing their entry to moments when the opponent's base shifts or their defensive structure momentarily opens. Success depends on fluid movement that maintains constant pressure while systematically building toward the angular position needed for Matrix attacks.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The transition demands precise reading of the opponent's defensive posture. A ti
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Matrix]] | 55% |
-| Failure | [[Turtle]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Matrix]] | 55% |
+| Failure | [[Positions/Turtle]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Transition to Matrix serves as the bridge between standard turtle top contro
 ## Related Techniques
 
 
-- [[Matrix]] - Target position achieved through successful execution of this transition
+- [[Positions/Matrix]] - Target position achieved through successful execution of this transition
 
-- [[Turtle]] - Starting position from which this transition is initiated
+- [[Positions/Turtle]] - Starting position from which this transition is initiated
 
-- [[Matrix Back Take]] - Primary follow-up technique executed from the Matrix position after this entry
+- [[Transitions/Matrix Back Take]] - Primary follow-up technique executed from the Matrix position after this entry
 
-- [[Back Control]] - Ultimate destination position reached through Matrix Back Take after this entry
+- [[Positions/Back Control]] - Ultimate destination position reached through Matrix Back Take after this entry
 
-- [[Crab Ride to Back]] - Alternative back take approach that can chain with or substitute for Matrix entry
+- [[Transitions/Crab Ride to Back]] - Alternative back take approach that can chain with or substitute for Matrix entry
 
-- [[Back Take from Top]] - Traditional back take that serves as primary alternative when Matrix entry is not viable
+- [[Transitions/Back Take from Top]] - Traditional back take that serves as primary alternative when Matrix entry is not viable
 
-- [[Crucifix from Turtle]] - Alternative attack available when opponent exposes arm defending Matrix entry
+- [[Transitions/Crucifix from Turtle]] - Alternative attack available when opponent exposes arm defending Matrix entry
 
-- [[Front Headlock to Back]] - Complementary transition used as feint or fallback during Matrix entry attempts
+- [[Transitions/Front Headlock to Back]] - Complementary transition used as feint or fallback during Matrix entry attempts
 
-- [[Truck]] - Alternative control position accessible if opponent rolls during Matrix entry
+- [[Positions/Twister Control/Truck]] - Alternative control position accessible if opponent rolls during Matrix entry
 
-- [[Seat Belt Control Back]] - Control configuration that can be established during or after Matrix entry
+- [[Positions/Back Control/Seat Belt Control Back]] - Control configuration that can be established during or after Matrix entry
 
 
 </section>

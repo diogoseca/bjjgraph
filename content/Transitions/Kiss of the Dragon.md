@@ -21,7 +21,7 @@ The technique exploits the moment when an opponent commits weight forward into t
 
 The technique requires excellent spatial awareness, timing, and the ability to maintain connection throughout the inversion. The hip grip serves as the anchor that keeps the rolling practitioner's body tracing a tight arc around the opponent rather than rolling into empty space. When executed properly, the Kiss of the Dragon provides one of the most direct paths from turtle top to full back control with hooks. The technique has gained prominence in modern competition grappling as a complement to traditional turtle attacks, creating a three-dimensional threat system that is extremely difficult to defend comprehensively.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ The technique requires excellent spatial awareness, timing, and the ability to m
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 50% |
-| Failure | [[Turtle]] | 35% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Back Control]] | 50% |
+| Failure | [[Positions/Turtle]] | 35% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -192,31 +192,31 @@ The Kiss of the Dragon is a specialized back take technique that fits within the
 ## Related Techniques
 
 
-- [[Turtle]] - Starting position where technique is initiated from top
+- [[Positions/Turtle]] - Starting position where technique is initiated from top
 
-- [[Back Control]] - Primary target position upon successful execution
+- [[Positions/Back Control]] - Primary target position upon successful execution
 
-- [[Crab Ride to Back]] - Alternative back take method from turtle top
+- [[Transitions/Crab Ride to Back]] - Alternative back take method from turtle top
 
-- [[Rolling Back Take]] - Similar rolling mechanics for back take entry
+- [[Transitions/Rolling Back Take]] - Similar rolling mechanics for back take entry
 
-- [[Truck]] - Alternative ending position via Kiss of the Dragon to Truck variant
+- [[Positions/Twister Control/Truck]] - Alternative ending position via Kiss of the Dragon to Truck variant
 
-- [[Granby Roll to Guard]] - Related inversion movement pattern used by defender
+- [[Transitions/Granby Roll to Guard]] - Related inversion movement pattern used by defender
 
-- [[Berimbolo Entry]] - Similar rolling mechanics and inversion principles
+- [[Transitions/Berimbolo Entry]] - Similar rolling mechanics and inversion principles
 
-- [[Rear Naked Choke]] - Primary follow-up submission from back control
+- [[Transitions/Rear Naked Choke]] - Primary follow-up submission from back control
 
-- [[Bow and Arrow Choke]] - High-percentage gi follow-up submission from back control
+- [[Transitions/Bow and Arrow Choke]] - High-percentage gi follow-up submission from back control
 
-- [[Armbar from Back]] - Follow-up submission option from back control
+- [[Submissions/Armbar from Back]] - Follow-up submission option from back control
 
-- [[Crab Ride]] - Alternative back take control position from turtle
+- [[Positions/Crab Ride]] - Alternative back take control position from turtle
 
-- [[Front Headlock]] - Alternative turtle control position when Kiss of the Dragon is unavailable
+- [[Positions/Front Headlock]] - Alternative turtle control position when Kiss of the Dragon is unavailable
 
-- [[Crucifix from Turtle]] - Alternative advanced attack from turtle top position
+- [[Transitions/Crucifix from Turtle]] - Alternative advanced attack from turtle top position
 
 
 </section>

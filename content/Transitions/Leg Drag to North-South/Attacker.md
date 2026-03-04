@@ -178,7 +178,7 @@ This transition exploits a fundamental positional reality: when opponents focus 
 
 From a systematic perspective, the leg drag to north-south fills an essential gap in the leg drag passing system. Without this option, determined defenders can effectively stall the leg drag position by maintaining strong shoulder frames and preventing the standard consolidation pathways. Adding north-south as a tertiary option creates a complete dilemma system: defend the back take, defend the mount, or defend north-south—but defending all three simultaneously becomes mechanically impossible. This transition is particularly effective against opponents who have strong frames but less mobile hips, as it punishes static defensive structures.
 
-**From Position**: [[Leg Drag Control]] (Top)
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
 
@@ -228,9 +228,9 @@ From a systematic perspective, the leg drag to north-south fills an essential ga
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[North-South]] | 65% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/North-South]] | 65% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -239,10 +239,10 @@ From a systematic perspective, the leg drag to north-south fills an essential ga
 
 ## Opponent Counters
 
-- **Opponent turns toward you and attempts to follow to recover guard** (Effectiveness: High) - Your Response: If they start turning into you during the transition, immediately abort and transition back to leg drag or switch to side control entry on the opposite side where their turn creates an opening. → Leads to [[Leg Drag Control]]
-- **Opponent frames at your hips during the circle to create space** (Effectiveness: Medium) - Your Response: Keep your hips extremely low and heavy during the transition. If frames connect, use your weight to collapse them while continuing the circular motion. Do not fight the frames directly—move around them. → Leads to [[Leg Drag Control]]
-- **Opponent attempts technical standup as you release leg control** (Effectiveness: Medium) - Your Response: Maintain heavy shoulder pressure on their upper body throughout the transition. If they begin sitting up, drive your weight forward and consider switching to a front headlock or guillotine threat. → Leads to [[Leg Drag Control]]
-- **Opponent bridges and hip escapes to insert a knee and recover half guard** (Effectiveness: Low) - Your Response: If they manage to insert a knee during your circling motion, immediately switch to a half guard passing sequence rather than continuing toward north-south. Their knee insertion means you need to address the new guard structure first. → Leads to [[Half Guard]]
+- **Opponent turns toward you and attempts to follow to recover guard** (Effectiveness: High) - Your Response: If they start turning into you during the transition, immediately abort and transition back to leg drag or switch to side control entry on the opposite side where their turn creates an opening. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent frames at your hips during the circle to create space** (Effectiveness: Medium) - Your Response: Keep your hips extremely low and heavy during the transition. If frames connect, use your weight to collapse them while continuing the circular motion. Do not fight the frames directly—move around them. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent attempts technical standup as you release leg control** (Effectiveness: Medium) - Your Response: Maintain heavy shoulder pressure on their upper body throughout the transition. If they begin sitting up, drive your weight forward and consider switching to a front headlock or guillotine threat. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent bridges and hip escapes to insert a knee and recover half guard** (Effectiveness: Low) - Your Response: If they manage to insert a knee during your circling motion, immediately switch to a half guard passing sequence rather than continuing toward north-south. Their knee insertion means you need to address the new guard structure first. → Leads to [[Positions/Half Guard]]
 
 
 </section>

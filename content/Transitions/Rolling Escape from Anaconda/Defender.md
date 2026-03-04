@@ -146,7 +146,7 @@ description: "Learn to defend against the Rolling Escape from Anaconda as the co
 
 As the practitioner maintaining anaconda control, defending against the rolling escape requires anticipating your opponent's timing and maintaining structural integrity through dynamic movement. The rolling escape is the most common explosive response from skilled practitioners caught in your anaconda grip, and recognizing the pre-roll positioning cues allows you to prevent or counter the attempt before it generates momentum. Your defensive priorities are maintaining tight grip configuration throughout any rolling motion, using chest pressure to limit the opponent's ability to generate rotational force, and being prepared to follow their movement into dead orchard control if they commit to the roll. Understanding the biomechanics of why the roll creates slack in your grip helps you adjust your angle and pressure to neutralize the escape before it develops into a successful extraction.
 
-**Opponent's Starting Position**: [[Anaconda Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Anaconda Control]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the practitioner maintaining anaconda control, defending against the rolling 
 ### 1. Drive chest pressure and sprawl hips back to flatten opponent and eliminate rolling space
 
 - **When to use**: When you detect lateral hip movement or free hand posting that signals early roll setup, before the roll has been initiated
-- **Targets**: [[Anaconda Control]]
+- **Targets**: [[Positions/Anaconda Control]]
 - **If successful**: Opponent is flattened with no rolling angle, grip remains tight, and you can continue tightening toward finish
 - **Risk**: If the opponent uses your forward pressure to fuel their roll, you may accelerate their escape momentum
 
 ### 2. Follow the roll with your hips while maintaining grip and transition to dead orchard finishing position
 
 - **When to use**: When the opponent has committed to the roll and stopping it is no longer viable - use their momentum to advance your position
-- **Targets**: [[Dead Orchard Control]]
+- **Targets**: [[Positions/Dead Orchard Control]]
 - **If successful**: You arrive in dead orchard control with an even tighter anaconda grip at an optimal finishing angle, significantly increasing submission probability
 - **Risk**: If your grip loosens during the transition, the opponent may extract their arm during the rolling chaos
 
 ### 3. Step over opponent's head during roll attempt to establish dominant side finishing angle
 
 - **When to use**: When you feel the roll beginning but the opponent's free hand is not blocking your leg path over their head
-- **Targets**: [[Dead Orchard Control]]
+- **Targets**: [[Positions/Dead Orchard Control]]
 - **If successful**: The step-over combined with the roll creates the dead orchard position with your body weight optimally placed for the anaconda finish
 - **Risk**: If timed poorly, the step-over can create space that aids the opponent's escape rather than advancing your position
 
 ### 4. Squeeze elbows together and tighten grip progressively to finish the choke before the roll develops
 
 - **When to use**: When you detect escape preparation but believe the choke is deep enough to finish within the next few seconds before the roll is executed
-- **Targets**: [[Anaconda Control]]
+- **Targets**: [[Positions/Anaconda Control]]
 - **If successful**: The opponent is forced to tap before completing the rolling escape, ending the exchange
 - **Risk**: If the choke is not deep enough to finish quickly, the tightening attempt burns grip energy that could be used to maintain control
 
@@ -217,11 +217,11 @@ As the practitioner maintaining anaconda control, defending against the rolling 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Anaconda Control]]
+### → [[Positions/Anaconda Control]]
 
 Prevent the roll from initiating by maintaining heavy chest pressure on the trapped shoulder, sprawling hips back to eliminate rolling angle, and progressively tightening the grip to close the escape window entirely
 
-### → [[Dead Orchard Control]]
+### → [[Positions/Dead Orchard Control]]
 
 Follow the opponent's rolling momentum while maintaining grip integrity, stepping over their head during the rotation to arrive in dead orchard position with optimal finishing angle and body weight placement for the anaconda choke finish
 

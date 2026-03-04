@@ -174,7 +174,7 @@ description: "How to execute Flower Sweep in BJJ. Attacking perspective with set
 
 The Flower Sweep is a fundamental closed guard sweep that exploits the opponent's reaction to your initial attack. Named for the circular, flowing motion that resembles a flower opening, this technique is one of the highest-percentage sweeps available from closed guard. The sweep works by creating a pendulum-like momentum that uses the opponent's forward pressure against them. What makes the Flower Sweep particularly effective is its ability to chain seamlessly with other attacks - if the opponent defends the sweep, you're already positioned for triangles, armbars, or omoplatas. The technique requires excellent hip mobility and precise timing, but once mastered, it becomes an instinctive response to the opponent's posture. The Flower Sweep is often one of the first sweeps taught to beginners due to its mechanical simplicity and high success rate, yet it remains effective at the highest levels of competition when executed with proper timing and setup.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -227,9 +227,9 @@ The Flower Sweep is a fundamental closed guard sweep that exploits the opponent'
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 62% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Closed Guard]] | 13% |
+| Success | [[Positions/Mount]] | 62% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 13% |
 
 
 </section>
@@ -238,10 +238,10 @@ The Flower Sweep is a fundamental closed guard sweep that exploits the opponent'
 
 ## Opponent Counters
 
-- **Opponent posts their hand on the mat on the sweeping side** (Effectiveness: High) - Your Response: Switch to attacking the posted arm with a straight armbar or transition to triangle/omoplata. Alternatively, switch to sweeping the opposite direction if they overcommit to the post. → Leads to [[Closed Guard]]
-- **Opponent stands up to break your guard** (Effectiveness: Medium) - Your Response: Maintain your sleeve grip and transition to standing guard attacks, ankle picks, or sit-up sweeps. Their standing creates different sweep opportunities. → Leads to [[Closed Guard]]
-- **Opponent sprawls their hips back and away** (Effectiveness: Medium) - Your Response: If they sprawl early, you can often still complete the sweep by following them with your rotation. If they fully defend, transition to attacking their extended arms or attempt the Hip Bump Sweep in the opposite direction. → Leads to [[Closed Guard]]
-- **Opponent grabs your belt or pants to anchor themselves** (Effectiveness: Low) - Your Response: Continue the sweeping motion with more emphasis on your leg drive and hip rotation. The grip on your belt actually limits their ability to post their hand effectively. → Leads to [[Closed Guard]]
+- **Opponent posts their hand on the mat on the sweeping side** (Effectiveness: High) - Your Response: Switch to attacking the posted arm with a straight armbar or transition to triangle/omoplata. Alternatively, switch to sweeping the opposite direction if they overcommit to the post. → Leads to [[Positions/Closed Guard]]
+- **Opponent stands up to break your guard** (Effectiveness: Medium) - Your Response: Maintain your sleeve grip and transition to standing guard attacks, ankle picks, or sit-up sweeps. Their standing creates different sweep opportunities. → Leads to [[Positions/Closed Guard]]
+- **Opponent sprawls their hips back and away** (Effectiveness: Medium) - Your Response: If they sprawl early, you can often still complete the sweep by following them with your rotation. If they fully defend, transition to attacking their extended arms or attempt the Hip Bump Sweep in the opposite direction. → Leads to [[Positions/Closed Guard]]
+- **Opponent grabs your belt or pants to anchor themselves** (Effectiveness: Low) - Your Response: Continue the sweeping motion with more emphasis on your leg drive and hip rotation. The grip on your belt actually limits their ability to post their hand effectively. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

@@ -212,23 +212,23 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 
 ## Available Escapes
 
-### [[Roll Through Escape]] (15% of attempts)
+### [[Transitions/Roll Through Escape]] (15% of attempts)
 
-### [[Hip Escape to Guard]] (14% of attempts)
+### [[Transitions/Hip Escape to Guard]] (14% of attempts)
 
-### [[Bridge and Turn to Turtle]] (14% of attempts)
+### [[Transitions/Bridge and Turn to Turtle]] (14% of attempts)
 
-### [[Leg Extraction]] (12% of attempts)
+### [[Transitions/Leg Extraction]] (12% of attempts)
 
-### [[Defensive Roll]] (11% of attempts)
+### [[Transitions/Defensive Roll]] (11% of attempts)
 
-### [[Frame and Turn]] (10% of attempts)
+### [[Transitions/Frame and Turn]] (10% of attempts)
 
-### [[Scramble to Guard]] (10% of attempts)
+### [[Transitions/Scramble to Guard]] (10% of attempts)
 
-### [[Shrimp Escape]] (8% of attempts)
+### [[Transitions/Shrimp Escape]] (8% of attempts)
 
-### [[Granby Roll to Guard]] (6% of attempts)
+### [[Transitions/Granby Roll to Guard]] (6% of attempts)
 
 
 
@@ -239,24 +239,24 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 ## Decision Making from This Position
 
 **Opponent is establishing initial Twister Control with partial leg capture:**
-- Execute **[[Immediate Leg Defense]]** → [[Open Guard]] (Probability: 60%)
-- Execute **[[Turn Into Opponent]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Immediate Leg Defense]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Turn Into Opponent]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **Twister Control is fully established with deep rotation and leg control:**
-- Execute **[[Protect Neck First]]** → [[Twister Control]] (Probability: 65%)
-- Execute **[[Work Leg Extraction]]** → [[Half Guard]] (Probability: 35%)
+- Execute **[[Protect Neck First]]** → [[Positions/Twister Control]] (Probability: 65%)
+- Execute **[[Work Leg Extraction]]** → [[Positions/Half Guard]] (Probability: 35%)
 
 
 **Opponent is hunting for Twister submission grip with rotation maximized:**
-- Execute **[[Hand Fight Submission Grip]]** → [[Twister Control]] (Probability: 40%)
-- Execute **[[Roll Through With Twist]]** → [[Open Guard]] (Probability: 30%)
-- Execute **[[Tap for Safety]]** → [[Game Over]] (Probability: 30%)
+- Execute **[[Hand Fight Submission Grip]]** → [[Positions/Twister Control]] (Probability: 40%)
+- Execute **[[Roll Through With Twist]]** → [[Positions/Open Guard]] (Probability: 30%)
+- Execute **[[Tap for Safety]]** → [[Positions/Game Over]] (Probability: 30%)
 
 
 **Opponent transitions to alternative attack losing some rotational control:**
-- Execute **[[Explosive Escape Attempt]]** → [[Open Guard]] (Probability: 55%)
-- Execute **[[Extract Trapped Leg]]** → [[Half Guard]] (Probability: 45%)
+- Execute **[[Explosive Escape Attempt]]** → [[Positions/Open Guard]] (Probability: 55%)
+- Execute **[[Extract Trapped Leg]]** → [[Positions/Half Guard]] (Probability: 45%)
 
 
 
@@ -353,11 +353,11 @@ Partner attempts to establish Twister Control from truck position. Practice reco
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Alternative position opponent may transition to from similar entry pathway
-- **[[Crab Ride]]** - Related back exposure position with similar defensive requirements
-- **[[Lockdown]]** - Bottom position that can lead to opponent's Twister Control entries via truck
-- **[[Open Guard]]** - Primary recovery position after successful escape from Twister Control
-- **[[Half Guard]]** - Intermediate recovery position reachable through leg extraction escapes
+- **[[Positions/Back Control]]** - Alternative position opponent may transition to from similar entry pathway
+- **[[Positions/Crab Ride]]** - Related back exposure position with similar defensive requirements
+- **[[Positions/Half Guard/Lockdown]]** - Bottom position that can lead to opponent's Twister Control entries via truck
+- **[[Positions/Open Guard]]** - Primary recovery position after successful escape from Twister Control
+- **[[Positions/Half Guard]]** - Intermediate recovery position reachable through leg extraction escapes
 
 
 </section>

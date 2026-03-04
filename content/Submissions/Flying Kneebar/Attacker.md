@@ -182,7 +182,7 @@ description: "How to execute Flying Kneebar in BJJ. Attacking perspective with s
 
 The Flying Kneebar is an advanced, dynamic leg lock submission that involves jumping onto the opponent's leg while standing and immediately transitioning to a kneebar position mid-air. This spectacular technique combines athleticism, timing, and technical precision to catch opponents off-guard during standup exchanges or guard pulls. While visually impressive and highly effective when executed properly, the Flying Kneebar carries significant risk for both practitioners and requires extensive drilling before live application. The submission targets the knee joint through hyperextension, attacking the posterior cruciate ligament (PCL), medial collateral ligament (MCL), and lateral collateral ligament (LCL) simultaneously. Due to the dynamic nature of the entry and the potential for awkward landings, this technique demands exceptional body control and spatial awareness. The Flying Kneebar is most commonly seen in no-gi competition where grips don't interfere with the rotational mechanics, though gi variations exist using lapel and sleeve grips to control the descent. This submission represents the intersection of takedown artistry and leg lock expertise, requiring practitioners to master both the aerial component and the finishing mechanics to achieve consistent success.
 
-**From Position**: [[Standing Position]] ()
+**From Position**: [[Positions/Standing Position]] ()
 
 
 </section>
@@ -240,8 +240,8 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Standing Guard]] | 15% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Standing Guard]] | 15% |
 
 
 </section>
@@ -250,11 +250,11 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 ## Opponent Defenses
 
-- **Pull targeted leg back immediately when they recognize jump initiation** (Effectiveness: High) - Your Response: Commit fully to the jump and follow the leg backward - maintain grip security and complete rotation even if they retreat. Alternatively, switch to single leg takedown if leg withdrawal is too fast. → Leads to [[Standing Position]]
-- **Turn into the kneebar to alleviate pressure (rotate toward trapped leg)** (Effectiveness: High) - Your Response: Counter-rotate with them to maintain perpendicular alignment, or immediately switch to heel hook position as their knee turns inward, exposing the heel. → Leads to [[Standing Guard]]
-- **Sit forward and grab your head/upper body to prevent full rotation** (Effectiveness: Medium) - Your Response: Use your outside leg to push their torso away while continuing rotation. Accelerate rotation speed to complete position before they establish upper body control. → Leads to [[Standing Guard]]
+- **Pull targeted leg back immediately when they recognize jump initiation** (Effectiveness: High) - Your Response: Commit fully to the jump and follow the leg backward - maintain grip security and complete rotation even if they retreat. Alternatively, switch to single leg takedown if leg withdrawal is too fast. → Leads to [[Positions/Standing Position]]
+- **Turn into the kneebar to alleviate pressure (rotate toward trapped leg)** (Effectiveness: High) - Your Response: Counter-rotate with them to maintain perpendicular alignment, or immediately switch to heel hook position as their knee turns inward, exposing the heel. → Leads to [[Positions/Standing Guard]]
+- **Sit forward and grab your head/upper body to prevent full rotation** (Effectiveness: Medium) - Your Response: Use your outside leg to push their torso away while continuing rotation. Accelerate rotation speed to complete position before they establish upper body control. → Leads to [[Positions/Standing Guard]]
 - **Lock their hands together (gable grip) around their own knee to create defensive structure** (Effectiveness: Medium) - Your Response: Attack the grip by driving your hip deeper behind the knee - this forces them to defend knee integrity rather than maintain grip. Alternatively, transition to toe hold or ankle lock which their grip doesn't defend. → Leads to [[game-over]]
-- **Stack you by driving weight forward over your head** (Effectiveness: Low) - Your Response: Maintain outside leg pressure across torso to prevent forward drive. If stack begins, immediately adjust angle 45 degrees to either side to redirect their pressure away from vertical stack. → Leads to [[Standing Guard]]
+- **Stack you by driving weight forward over your head** (Effectiveness: Low) - Your Response: Maintain outside leg pressure across torso to prevent forward drive. If stack begins, immediately adjust angle 45 degrees to either side to redirect their pressure away from vertical stack. → Leads to [[Positions/Standing Guard]]
 - **Create knee bend by tucking heel toward buttocks** (Effectiveness: Medium) - Your Response: Immediately extend their ankle by plantarflexing the foot (push toes down), which removes slack and straightens the leg. Increase hip pressure to prevent further knee bend. → Leads to [[game-over]]
 
 

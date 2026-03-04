@@ -180,7 +180,7 @@ description: "Execute the Turn to Face from Zombie position in BJJ. Step-by-step
 
 As the attacker executing the Turn to Face from Zombie, your objective is to rotate your body from the defensive Zombie position—where you are on your side facing partially away from your opponent—into a proper facing guard. This requires sequential use of frames to create space, strategic lockdown manipulation to disrupt the top player's base, and coordinated hip rotation to complete the turn. The technique transforms you from a survival-oriented defensive posture into an active guard player with access to sweeps, submissions, and further guard improvements. Success depends on reading your opponent's weight distribution, identifying windows when their pressure shifts, and executing the rotation with enough speed and structure to prevent them from following you to a worse position.
 
-**From Position**: [[Zombie]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Zombie]] (Bottom)
 
 </section>
 
@@ -232,10 +232,10 @@ As the attacker executing the Turn to Face from Zombie, your objective is to rot
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Success | [[Open Guard]] | 10% |
-| Failure | [[Zombie]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Rubber Guard/Zombie]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the Turn to Face from Zombie, your objective is to rot
 
 ## Opponent Counters
 
-- **Heavy crossface pressure to flatten and prevent any shoulder rotation from initiating** (Effectiveness: High) - Your Response: Use lockdown stretch to disrupt their base before the crossface settles fully, or abandon the turn and switch to Granby Roll or Deep Half entry which both work better under heavy forward pressure → Leads to [[Zombie]]
-- **Sprawl and drive hips down during the turn attempt to pin your hips to the mat** (Effectiveness: Medium) - Your Response: Use their forward commitment against them by pulling into Deep Half Guard entry, or switch to Old School Sweep setup which capitalizes on their forward weight distribution → Leads to [[Zombie]]
-- **Circle toward your back during the rotation to take back control or advance past your legs** (Effectiveness: High) - Your Response: Abandon the turn immediately, secure near-side underhook, and switch to rolling back take or re-establish Zombie frames before they complete the back take → Leads to [[Side Control]]
-- **Control your far arm and pull it across your body to block the rotational frame** (Effectiveness: Medium) - Your Response: Strip the grip using elbow pressure and circular motion before re-attempting, or use the grip break motion itself to generate rotational momentum for the turn → Leads to [[Zombie]]
+- **Heavy crossface pressure to flatten and prevent any shoulder rotation from initiating** (Effectiveness: High) - Your Response: Use lockdown stretch to disrupt their base before the crossface settles fully, or abandon the turn and switch to Granby Roll or Deep Half entry which both work better under heavy forward pressure → Leads to [[Positions/Rubber Guard/Zombie]]
+- **Sprawl and drive hips down during the turn attempt to pin your hips to the mat** (Effectiveness: Medium) - Your Response: Use their forward commitment against them by pulling into Deep Half Guard entry, or switch to Old School Sweep setup which capitalizes on their forward weight distribution → Leads to [[Positions/Rubber Guard/Zombie]]
+- **Circle toward your back during the rotation to take back control or advance past your legs** (Effectiveness: High) - Your Response: Abandon the turn immediately, secure near-side underhook, and switch to rolling back take or re-establish Zombie frames before they complete the back take → Leads to [[Positions/Side Control]]
+- **Control your far arm and pull it across your body to block the rotational frame** (Effectiveness: Medium) - Your Response: Strip the grip using elbow pressure and circular motion before re-attempting, or use the grip break motion itself to generate rotational momentum for the turn → Leads to [[Positions/Rubber Guard/Zombie]]
 
 
 </section>

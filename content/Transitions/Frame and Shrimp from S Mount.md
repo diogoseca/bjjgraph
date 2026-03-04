@@ -21,7 +21,7 @@ This escape epitomizes the core BJJ defensive principle: create frames first, th
 
 The Frame and Shrimp integrates into the broader mount escape system as the go-to response when bridging alone is insufficient. While bridge-based escapes work best against standard mount, S Mount's perpendicular angle makes bridging less effective because the top person's weight is distributed differently. Framing and shrimping attacks S Mount's structural weakness: the top person's base becomes narrower in perpendicular alignment, making lateral hip escapes more effective than vertical bridges. Understanding when to bridge versus when to frame and shrimp is a critical skill for surviving all mount variations.
 
-**From Position**: [[S Mount]] (Bottom)
+**From Position**: [[Positions/Mount/S Mount]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ The Frame and Shrimp integrates into the broader mount escape system as the go-t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Failure | [[S Mount]] | 35% |
-| Counter | [[Armbar Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Failure | [[Positions/Mount/S Mount]] | 35% |
+| Counter | [[Positions/Armbar Control]] | 20% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Frame and Shrimp from S Mount connects the mount escape system to the half g
 ## Related Techniques
 
 
-- [[S Mount]] - Source position - the dominant mount variation this escape addresses
+- [[Positions/Mount/S Mount]] - Source position - the dominant mount variation this escape addresses
 
-- [[Half Guard]] - Primary escape destination - successful frame and shrimp recovers half guard
+- [[Positions/Half Guard]] - Primary escape destination - successful frame and shrimp recovers half guard
 
-- [[Bridge Escape from S Mount]] - Alternative escape technique - bridge-based approach for when perpendicular angle allows
+- [[Transitions/Bridge Escape from S Mount]] - Alternative escape technique - bridge-based approach for when perpendicular angle allows
 
-- [[Trap and Roll from S Mount]] - Alternative escape technique - reversal-based approach using opponent's weight against them
+- [[Transitions/Trap and Roll from S Mount]] - Alternative escape technique - reversal-based approach using opponent's weight against them
 
-- [[Armbar from S Mount]] - Primary submission threat - the attack that motivates this escape
+- [[Submissions/Armbar from S Mount]] - Primary submission threat - the attack that motivates this escape
 
-- [[Armbar Control]] - Counter outcome position - where opponent ends up if they capitalize on failed escape
+- [[Positions/Armbar Control]] - Counter outcome position - where opponent ends up if they capitalize on failed escape
 
-- [[Mount]] - Parent position - S Mount is a variation of mount requiring different escape mechanics
+- [[Positions/Mount]] - Parent position - S Mount is a variation of mount requiring different escape mechanics
 
-- [[Frame Escape from High Mount]] - Similar technique concept - frame-based escape from a different mount variation
+- [[Transitions/Frame Escape from High Mount]] - Similar technique concept - frame-based escape from a different mount variation
 
-- [[Elbow Escape from Mount]] - Related escape concept - uses similar hip escape mechanics from standard mount
+- [[Transitions/Elbow Escape from Mount]] - Related escape concept - uses similar hip escape mechanics from standard mount
 
-- [[Knee Shield Half Guard]] - Variant escape destination - knee shield recovery provides better distance management after escape
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Variant escape destination - knee shield recovery provides better distance management after escape
 
-- [[Open Guard]] - Extended escape destination - full escape may recover open guard if enough distance is created
+- [[Positions/Open Guard]] - Extended escape destination - full escape may recover open guard if enough distance is created
 
 
 </section>

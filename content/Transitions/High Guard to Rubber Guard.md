@@ -21,7 +21,7 @@ This transition represents a critical entry point into the 10th Planet offensive
 
 The technique requires above-average hip flexibility, particularly in the hamstrings and hip flexors, making it most accessible to practitioners who invest in dedicated flexibility development. The mechanical advantage created once Mission Control is established provides access to a comprehensive submission chain including triangles, omoplatas, and gogoplatas, making the initial flexibility investment worthwhile for practitioners committed to developing a complete guard offense system. The transition is especially effective in no-gi grappling and MMA contexts where it neutralizes striking while simultaneously setting up high-percentage submissions.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique requires above-average hip flexibility, particularly in the hamstr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Rubber Guard]] | 55% |
-| Failure | [[Closed Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Rubber Guard]] | 55% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The High Guard to Rubber Guard transition occupies a critical junction in the cl
 ## Related Techniques
 
 
-- [[Closed Guard]] - Source position from which this transition initiates through posture breaking and guard climbing
+- [[Positions/Closed Guard]] - Source position from which this transition initiates through posture breaking and guard climbing
 
-- [[Rubber Guard]] - Target position achieved upon successful completion of the transition
+- [[Positions/Rubber Guard]] - Target position achieved upon successful completion of the transition
 
-- [[Mission Control]] - Primary sub-position established through this transition, the foundation of Rubber Guard offense
+- [[Positions/Rubber Guard/Mission Control]] - Primary sub-position established through this transition, the foundation of Rubber Guard offense
 
-- [[Open Guard]] - Resulting position if opponent successfully counters by opening the guard during transition
+- [[Positions/Open Guard]] - Resulting position if opponent successfully counters by opening the guard during transition
 
-- [[Triangle Setup]] - Primary follow-up submission attack available from established Rubber Guard position
+- [[Transitions/Triangle Setup]] - Primary follow-up submission attack available from established Rubber Guard position
 
-- [[Crackhead Control Entry]] - Advanced progression within the Rubber Guard system building from Mission Control
+- [[Transitions/Crackhead Control Entry]] - Advanced progression within the Rubber Guard system building from Mission Control
 
-- [[Overhook Guard]] - Related guard position sharing overhook control principles used during the transition
+- [[Positions/Overhook Guard]] - Related guard position sharing overhook control principles used during the transition
 
-- [[Carni to Gogoplata Setup]] - Advanced Rubber Guard system follow-up leading to gogoplata from Carni position
+- [[Transitions/Carni to Gogoplata Setup]] - Advanced Rubber Guard system follow-up leading to gogoplata from Carni position
 
-- [[New York Control]] - Intermediate Rubber Guard progression position with omoplata threat
+- [[Positions/Rubber Guard/New York Control]] - Intermediate Rubber Guard progression position with omoplata threat
 
-- [[Invisible Collar]] - Advanced Rubber Guard position for choke setups without gi grips
+- [[Positions/Rubber Guard/Invisible Collar]] - Advanced Rubber Guard position for choke setups without gi grips
 
 
 </section>

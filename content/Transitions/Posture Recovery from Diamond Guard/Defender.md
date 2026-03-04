@@ -146,7 +146,7 @@ description: "Defend against posture recovery from diamond guard in BJJ. Learn t
 
 As the diamond guard player (bottom), your objective is to maintain the overhook and head control frame that keeps the top player's posture broken, denying them the structural base required for guard passing. When the top player begins a posture recovery attempt, you must recognize the early indicators and respond with frame reinforcement, grip re-establishment, or submission entries that punish the recovery attempt. The diamond guard gives you an inherent energy advantage — maintaining the frame requires less effort than breaking it — so your strategy should emphasize patience, grip retention, and calculated submission threats that force the top player to abandon recovery attempts and return to defensive survival.
 
-**Opponent's Starting Position**: [[Diamond Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Closed Guard/Diamond Guard]] (Top)
 
 </section>
 
@@ -185,28 +185,28 @@ As the diamond guard player (bottom), your objective is to maintain the overhook
 ### 1. Deepen head control by switching from neck grip to deep collar or crown-of-head cup when you feel them address your wrist
 
 - **When to use**: When you feel the top player's free hand grip your head-controlling wrist — switch grip before they can strip it
-- **Targets**: [[Diamond Guard]]
+- **Targets**: [[Positions/Closed Guard/Diamond Guard]]
 - **If successful**: Top player's recovery attempt is reset to zero as you maintain broken posture with a deeper, harder-to-strip grip
 - **Risk**: Brief moment of reduced head control during grip switch may allow partial posture recovery
 
 ### 2. Shoot for triangle entry by releasing head control and swinging your leg over their neck when they circle their head
 
 - **When to use**: When the top player successfully breaks head control and begins circling — their head is momentarily in a predictable position ideal for triangle leg placement
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: Triangle control captures the opponent in a submission position that is worse than the diamond guard they escaped
 - **Risk**: If triangle fails to lock, you lose diamond guard entirely and end up in open guard with reduced control
 
 ### 3. Increase heel pull and squeeze legs tighter when you feel backward hip drive to stall distance creation
 
 - **When to use**: When you feel the top player driving their hips backward to stretch the frame — immediately increase lower body anchoring
-- **Targets**: [[Diamond Guard]]
+- **Targets**: [[Positions/Closed Guard/Diamond Guard]]
 - **If successful**: Hip drive is stalled and the top player cannot create sufficient distance to extract the overhook, maintaining the diamond
 - **Risk**: Extended squeezing fatigues your legs and may not overcome a strong standing recovery attempt
 
 ### 4. Convert overhook to kimura grip when you feel the arm rotating during extraction attempt
 
 - **When to use**: When the top player's trapped arm begins corkscrewing and the overhook is slipping — redirect the control to a more threatening grip
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: Kimura grip is a more dangerous control than the overhook and transitions directly to kimura submission or trap position
 - **Risk**: If kimura conversion fails, you lose the overhook entirely and the diamond frame collapses
 
@@ -218,11 +218,11 @@ As the diamond guard player (bottom), your objective is to maintain the overhook
 
 ## Best-Case Outcomes for Defender
 
-### → [[Diamond Guard]]
+### → [[Positions/Closed Guard/Diamond Guard]]
 
 Maintain diamond frame by immediately reinforcing any control point the top player addresses. Switch head control grip to deeper position when they target your wrist. Increase leg squeeze when they drive hips back. Re-sink overhook when slack develops. Patient maintenance eventually exhausts the top player's recovery attempts.
 
-### → [[Armbar Control]]
+### → [[Positions/Armbar Control]]
 
 When the top player commits to head circle or arm extraction, they create predictable positions that expose their neck and arms. Release head control and shoot for triangle when their head circles. Convert overhook to kimura grip when their arm rotates. The top player's recovery movement creates the openings for your counter-attacks.
 

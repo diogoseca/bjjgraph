@@ -21,7 +21,7 @@ This transition exemplifies the principle that defensive movement in leg entangl
 
 Mastery of this transition separates intermediate leg lock practitioners from advanced ones. Practitioners who cannot follow rotations lose attacking position every time an opponent inverts, creating a reliable escape route that undermines the entire ashi-garami system. Those who develop ushiro ashi maintenance can sustain offensive pressure through defensive scrambles, closing off the inversion escape and forcing defenders into increasingly limited options. The transition integrates naturally with the broader ashi-garami system, connecting inside ashi to back takes, saddle entries, and direct heel hook finishes from the reversed configuration.
 
-**From Position**: [[Inside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Mastery of this transition separates intermediate leg lock practitioners from ad
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Ushiro Ashi-Garami]] | 55% |
-| Failure | [[Inside Ashi-Garami]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 55% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ Inside Ashi-Garami to Ushiro Ashi serves as a critical link in the leg entanglem
 ## Related Techniques
 
 
-- [[Inside Ashi-Garami]] - Starting position for this transition providing the foundation for all follow-through mechanics
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Starting position for this transition providing the foundation for all follow-through mechanics
 
-- [[Saddle]] - Alternative advancement target accessible from ushiro ashi when inside leg control is deep
+- [[Positions/Ashi Garami/Saddle]] - Alternative advancement target accessible from ushiro ashi when inside leg control is deep
 
-- [[Honey Hole]] - Advanced entanglement that can be reached through ushiro as an intermediate position
+- [[Positions/Ashi Garami/Honey Hole]] - Advanced entanglement that can be reached through ushiro as an intermediate position
 
-- [[Outside Ashi-Garami]] - Alternative ashi configuration that shares similar rotation-following principles
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative ashi configuration that shares similar rotation-following principles
 
-- [[Back Control]] - Common transition target when opponent over-rotates through ushiro position
+- [[Positions/Back Control]] - Common transition target when opponent over-rotates through ushiro position
 
-- [[Half Guard]] - Counter outcome position when opponent successfully escapes the entire leg entanglement
+- [[Positions/Half Guard]] - Counter outcome position when opponent successfully escapes the entire leg entanglement
 
-- [[Ashi Garami Maintenance]] - Related maintenance concept governing control retention during positional changes
+- [[Transitions/Ashi Garami Maintenance]] - Related maintenance concept governing control retention during positional changes
 
-- [[Back Take from Ashi]] - Related transition using similar rotation-following mechanics from ashi positions
+- [[Transitions/Back Take from Ashi]] - Related transition using similar rotation-following mechanics from ashi positions
 
-- [[Inside Heel Hook]] - Primary submission available from the ushiro ashi destination position
+- [[Submissions/Inside Heel Hook]] - Primary submission available from the ushiro ashi destination position
 
-- [[Heel Hook from Saddle]] - Related submission pathway accessible through ushiro to saddle advancement
+- [[Transitions/Heel Hook from Saddle]] - Related submission pathway accessible through ushiro to saddle advancement
 
 
 </section>

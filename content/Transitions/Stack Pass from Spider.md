@@ -21,7 +21,7 @@ This technique operates on a fundamental timing principle: the same actions that
 
 The stack pass from spider guard is particularly effective at intermediate and advanced levels because it punishes overly aggressive guard players who commit heavily to submissions without maintaining adequate defensive structure. It integrates naturally with the broader spider guard passing system as a reactive tool that complements proactive passes like the toreando, leg drag, and knee slice. Understanding when to deploy the stack pass versus continuing systematic grip breaking is a critical tactical decision that separates competent passers from dominant ones.
 
-**From Position**: [[Spider Guard]] (Top)
+**From Position**: [[Positions/Spider Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ The stack pass from spider guard is particularly effective at intermediate and a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Spider Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 40% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Spider Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -194,25 +194,25 @@ The Stack Pass from Spider Guard occupies a critical reactive role within the br
 ## Related Techniques
 
 
-- [[Spider Guard]] - Source position where the stack pass is initiated from top
+- [[Positions/Spider Guard]] - Source position where the stack pass is initiated from top
 
-- [[Side Control]] - Primary target position after successful stack pass completion
+- [[Positions/Side Control]] - Primary target position after successful stack pass completion
 
-- [[Half Guard]] - Secondary target when pass completes partially through stacking
+- [[Positions/Half Guard]] - Secondary target when pass completes partially through stacking
 
-- [[Lasso Guard Stack Pass]] - Related stacking technique from lasso guard sharing similar mechanics
+- [[Transitions/Lasso Guard Stack Pass]] - Related stacking technique from lasso guard sharing similar mechanics
 
-- [[Stack Pass from Clamp Guard]] - Similar stack pass technique applied from clamp guard position
+- [[Transitions/Stack Pass from Clamp Guard]] - Similar stack pass technique applied from clamp guard position
 
-- [[Stack Pass from Mission Control]] - Stack pass variant from rubber guard sub-position with comparable stacking principles
+- [[Transitions/Stack Pass from Mission Control]] - Stack pass variant from rubber guard sub-position with comparable stacking principles
 
-- [[Stack Pass from Double Unders]] - Related stacking technique using double underhooks for maximum compression
+- [[Transitions/Stack Pass from Double Unders]] - Related stacking technique using double underhooks for maximum compression
 
-- [[Open Guard]] - Parent guard category that spider guard belongs to
+- [[Positions/Open Guard]] - Parent guard category that spider guard belongs to
 
-- [[Headquarters Position]] - Alternative intermediate passing position when stack is partially successful
+- [[Positions/Headquarters Position]] - Alternative intermediate passing position when stack is partially successful
 
-- [[De La Riva Guard]] - Complementary guard that bottom player may transition to when avoiding the stack
+- [[Positions/De La Riva Guard]] - Complementary guard that bottom player may transition to when avoiding the stack
 
 
 </section>

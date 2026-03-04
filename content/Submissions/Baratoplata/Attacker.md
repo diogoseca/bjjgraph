@@ -176,7 +176,7 @@ description: "How to execute Baratoplata in BJJ. Attacking perspective with setu
 
 The Baratoplata attack requires establishing rubber guard control, threading the characteristic arm weave, and applying progressive rotational pressure to the shoulder joint. The technique is typically initiated from Mission Control or New York, where the bottom player has already broken the opponent's posture and isolated their arm. The arm weave distinguishes this from standard omoplata attacks by creating a closed kinetic chain that eliminates most defensive hand fighting options. The finish combines downward pressure from the high guard leg, outward rotation from the arm weave, and linear extension from the hips, creating multi-directional force on the shoulder that is extremely difficult to resist once properly locked. Success depends on methodical setup, proper hip angle, and controlled application speed.
 
-**From Position**: [[Rubber Guard]] (Bottom)
+**From Position**: [[Positions/Rubber Guard]] (Bottom)
 
 
 </section>
@@ -232,9 +232,9 @@ The Baratoplata attack requires establishing rubber guard control, threading the
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 42% |
-| Failure | [[Closed Guard]] | 28% |
-| Counter | [[Closed Guard]] | 18% |
-| Failure | [[Omoplata Control]] | 12% |
+| Failure | [[Positions/Closed Guard]] | 28% |
+| Counter | [[Positions/Closed Guard]] | 18% |
+| Failure | [[Positions/Omoplata Control]] | 12% |
 
 
 </section>
@@ -243,11 +243,11 @@ The Baratoplata attack requires establishing rubber guard control, threading the
 
 ## Opponent Defenses
 
-- **Posting with free hand to prevent rotation** (Effectiveness: High) - Your Response: Use your bottom leg to hook and control their free arm, or transition to crucifix position if they overcommit to the post → Leads to [[Closed Guard]]
-- **Driving forward and stacking to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Maintain high guard pressure pulling them down, scoot hips further away to maintain angle, or transition to omoplata if they commit fully to the stack → Leads to [[Closed Guard]]
-- **Attempting to strip the arm weave grip** (Effectiveness: Medium) - Your Response: Tighten the weave by pulling shin closer to body, use free hand to block their grip breaking attempts, or accelerate the finish before they break connection → Leads to [[Closed Guard]]
-- **Rolling forward to relieve pressure** (Effectiveness: Low) - Your Response: Follow the roll maintaining control, this often improves your finishing angle or opens transitions to back control or crucifix → Leads to [[Closed Guard]]
-- **Attempting to stand and lift out of position** (Effectiveness: Low) - Your Response: Increase downward pressure with high guard, control their hips with bottom leg, or transition to triangle if they create space → Leads to [[Closed Guard]]
+- **Posting with free hand to prevent rotation** (Effectiveness: High) - Your Response: Use your bottom leg to hook and control their free arm, or transition to crucifix position if they overcommit to the post → Leads to [[Positions/Closed Guard]]
+- **Driving forward and stacking to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Maintain high guard pressure pulling them down, scoot hips further away to maintain angle, or transition to omoplata if they commit fully to the stack → Leads to [[Positions/Closed Guard]]
+- **Attempting to strip the arm weave grip** (Effectiveness: Medium) - Your Response: Tighten the weave by pulling shin closer to body, use free hand to block their grip breaking attempts, or accelerate the finish before they break connection → Leads to [[Positions/Closed Guard]]
+- **Rolling forward to relieve pressure** (Effectiveness: Low) - Your Response: Follow the roll maintaining control, this often improves your finishing angle or opens transitions to back control or crucifix → Leads to [[Positions/Closed Guard]]
+- **Attempting to stand and lift out of position** (Effectiveness: Low) - Your Response: Increase downward pressure with high guard, control their hips with bottom leg, or transition to triangle if they create space → Leads to [[Positions/Closed Guard]]
 
 
 </section>

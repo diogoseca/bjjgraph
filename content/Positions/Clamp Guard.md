@@ -93,19 +93,19 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 ### Available Transitions
 
 
-- **[[Armbar from Clamp Guard]]** (22% of attempts)
+- **[[Transitions/Armbar from Clamp Guard]]** (22% of attempts)
 
-- **[[Triangle Setup]]** (18% of attempts)
+- **[[Transitions/Triangle Setup]]** (18% of attempts)
 
-- **[[Triangle from Clamp Guard]]** (15% of attempts)
+- **[[Transitions/Triangle from Clamp Guard]]** (15% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (13% of attempts)
+- **[[Transitions/Closed Guard to Omoplata]]** (13% of attempts)
 
-- **[[Scissor Sweep]]** (12% of attempts)
+- **[[Transitions/Scissor Sweep]]** (12% of attempts)
 
-- **[[Hip Bump Sweep]]** (10% of attempts)
+- **[[Transitions/Hip Bump Sweep]]** (10% of attempts)
 
-- **[[Sweep from Clamp Guard]]** (10% of attempts)
+- **[[Transitions/Sweep from Clamp Guard]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -166,9 +166,9 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 ### Available Transitions
 
 
-- **[[Arm Extraction from Clamp Guard]]** (55% of attempts)
+- **[[Transitions/Arm Extraction from Clamp Guard]]** (55% of attempts)
 
-- **[[Stack Pass from Clamp Guard]]** (45% of attempts)
+- **[[Transitions/Stack Pass from Clamp Guard]]** (45% of attempts)
 
 
 ### Common Mistakes
@@ -207,23 +207,23 @@ Clamp Guard operates on the principle of limb isolation. By removing one arm fro
 ## Related Positions
 
 
-- **[[Spider Guard]]** - Related open guard using shin-on-bicep control in different configuration
+- **[[Positions/Spider Guard]]** - Related open guard using shin-on-bicep control in different configuration
 
-- **[[Lasso Guard]]** - Alternative arm entanglement concept from open guard
+- **[[Positions/Lasso Guard]]** - Alternative arm entanglement concept from open guard
 
-- **[[Armbar Control]]** - Primary submission destination from clamp guard armbar entries
+- **[[Positions/Armbar Control]]** - Primary submission destination from clamp guard armbar entries
 
-- **[[Triangle Control]]** - High-percentage submission accessible from clamp angle adjustments
+- **[[Positions/Triangle Control]]** - High-percentage submission accessible from clamp angle adjustments
 
-- **[[Omoplata Control]]** - Tertiary submission destination when opponent circles arm outward
+- **[[Positions/Omoplata Control]]** - Tertiary submission destination when opponent circles arm outward
 
-- **[[Open Guard]]** - Parent guard family — clamp guard is an open guard variation
+- **[[Positions/Open Guard]]** - Parent guard family — clamp guard is an open guard variation
 
-- **[[Collar Sleeve Guard]]** - Related open guard system that can transition into clamp guard
+- **[[Positions/Collar Sleeve Guard]]** - Related open guard system that can transition into clamp guard
 
-- **[[Closed Guard]]** - Alternative guard if opponent closes distance past clamp range
+- **[[Positions/Closed Guard]]** - Alternative guard if opponent closes distance past clamp range
 
-- **[[Side Control]]** - Position reached if top player successfully extracts and passes
+- **[[Positions/Side Control]]** - Position reached if top player successfully extracts and passes
 
 
 </section>

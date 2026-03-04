@@ -21,7 +21,7 @@ The mechanical foundation relies on the RDLR hook creating a pivot point around 
 
 Strategically, this technique creates a powerful dilemma for the top player: driving forward feeds into waiter sweeps, but standing tall or creating distance exposes the exact spacing needed for the Kiss of the Dragon entry. The technique integrates seamlessly with the broader RDLR attack system, functioning as the primary back-take option that forces opponents to choose between equally unfavorable defensive postures.
 
-**From Position**: [[Reverse De La Riva Guard]] (Bottom)
+**From Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this technique creates a powerful dilemma for the top player: dri
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Reverse De La Riva Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/De La Riva Guard/Reverse De La Riva Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ Kiss of the Dragon occupies a central role in the Reverse De La Riva attack syst
 ## Related Techniques
 
 
-- [[Reverse De La Riva Guard]] - Source position providing the hook structure and grips that enable the inversion entry
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Source position providing the hook structure and grips that enable the inversion entry
 
-- [[Back Control]] - Primary target position reached upon successful completion of the inversion and hook insertion
+- [[Positions/Back Control]] - Primary target position reached upon successful completion of the inversion and hook insertion
 
-- [[Crab Ride]] - Intermediate control position during the technique and alternative stopping point before full back take
+- [[Positions/Crab Ride]] - Intermediate control position during the technique and alternative stopping point before full back take
 
-- [[Berimbolo Entry]] - Related inversion-based back take sharing similar rotational mechanics from RDLR guard
+- [[Transitions/Berimbolo Entry]] - Related inversion-based back take sharing similar rotational mechanics from RDLR guard
 
-- [[De La Riva Guard]] - Parent guard system with standard hook orientation that RDLR inverts for different attack angles
+- [[Positions/De La Riva Guard]] - Parent guard system with standard hook orientation that RDLR inverts for different attack angles
 
-- [[Side Control]] - Counter outcome position when top player successfully sprawls and passes during failed inversion
+- [[Positions/Side Control]] - Counter outcome position when top player successfully sprawls and passes during failed inversion
 
-- [[Seat Belt Control Back]] - Upper body control configuration established immediately after completing the back take
+- [[Positions/Back Control/Seat Belt Control Back]] - Upper body control configuration established immediately after completing the back take
 
-- [[Single Leg X-Guard]] - Alternative transition from RDLR when Kiss of the Dragon entry is denied by backstepping
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative transition from RDLR when Kiss of the Dragon entry is denied by backstepping
 
-- [[X-Guard]] - Related guard position accessible when opponent's backstep defense creates elevation opportunities
+- [[Positions/X-Guard]] - Related guard position accessible when opponent's backstep defense creates elevation opportunities
 
-- [[Open Guard]] - Recovery position when RDLR structure is compromised during failed inversion attempts
+- [[Positions/Open Guard]] - Recovery position when RDLR structure is compromised during failed inversion attempts
 
 
 </section>

@@ -21,7 +21,7 @@ The escape requires precise timing and explosive hip movement. The bottom player
 
 Strategically, this escape is particularly valuable because half guard offers significantly more offensive options than Chill Dog. Once established in half guard, the escaper can immediately begin working for underhooks, sweeps, and back takes rather than simply surviving. The transition from a purely defensive turtle position to an offensive guard platform represents a major positional improvement that shifts the dynamic of the exchange.
 
-**From Position**: [[Chill Dog]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Chill Dog]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape is particularly valuable because half guard offers si
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Chill Dog]] | 25% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Rubber Guard/Chill Dog]] | 25% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ Escape Chill Dog connects the defensive turtle system to the half guard offensiv
 ## Related Techniques
 
 
-- [[Chill Dog]] - Source position - defensive turtle variant being escaped from
+- [[Positions/Rubber Guard/Chill Dog]] - Source position - defensive turtle variant being escaped from
 
-- [[Half Guard]] - Primary target position after successful escape
+- [[Positions/Half Guard]] - Primary target position after successful escape
 
-- [[Back Control]] - Opponent's objective if escape is countered during rotation
+- [[Positions/Back Control]] - Opponent's objective if escape is countered during rotation
 
-- [[Turtle]] - Parent position category containing Chill Dog variant
+- [[Positions/Turtle]] - Parent position category containing Chill Dog variant
 
-- [[Lockdown]] - 10th Planet half guard option immediately available after successful escape
+- [[Positions/Half Guard/Lockdown]] - 10th Planet half guard option immediately available after successful escape
 
-- [[Knee Shield Half Guard]] - Defensive half guard variation accessible after escape for distance management
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive half guard variation accessible after escape for distance management
 
-- [[Deep Half Guard]] - Alternative guard target if escape goes deep underneath opponent
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative guard target if escape goes deep underneath opponent
 
-- [[Granby Roll to Guard]] - Alternative escape technique from Chill Dog targeting open or closed guard
+- [[Transitions/Granby Roll to Guard]] - Alternative escape technique from Chill Dog targeting open or closed guard
 
-- [[Back Door Escape from Half Guard]] - Related escape concept using similar hip movement mechanics
+- [[Transitions/Back Door Escape from Half Guard]] - Related escape concept using similar hip movement mechanics
 
-- [[Advance to Chill Dog]] - Entry transition that establishes the position this escape addresses
+- [[Transitions/Advance to Chill Dog]] - Entry transition that establishes the position this escape addresses
 
 
 </section>

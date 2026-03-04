@@ -21,7 +21,7 @@ The reversal mechanics rely on exploiting the transitional nature of Leg Knot po
 
 Strategic timing is paramount for this technique. The optimal window occurs when the opponent commits weight forward for a submission attempt or during their transition between leg lock setups. Attempting the reversal while the opponent maintains neutral balance significantly reduces success probability. Advanced practitioners recognize micro-transitions in the opponent's weight distribution and capitalize on these brief windows to execute the reversal with maximum efficiency.
 
-**From Position**: [[Leg Knot]] (Bottom)
+**From Position**: [[Positions/Leg Knot]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategic timing is paramount for this technique. The optimal window occurs when
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Outside Ashi-Garami]] | 65% |
-| Failure | [[Leg Knot]] | 25% |
-| Counter | [[Saddle]] | 10% |
+| Success | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 65% |
+| Failure | [[Positions/Leg Knot]] | 25% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 10% |
 
 
 </section>
@@ -187,25 +187,25 @@ The reversal to Outside Ashi fits within the broader defensive leg lock system a
 ## Related Techniques
 
 
-- [[Leg Knot]] - Starting position
+- [[Positions/Leg Knot]] - Starting position
 
-- [[Outside Ashi-Garami]] - Primary target position after successful reversal
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Primary target position after successful reversal
 
-- [[50-50 Guard]] - Alternative target when Outside Ashi blocked
+- [[Positions/Ashi Garami/50-50 Guard]] - Alternative target when Outside Ashi blocked
 
-- [[Heel Hook]] - Primary submission from resulting position
+- [[Transitions/Heel Hook]] - Primary submission from resulting position
 
-- [[Saddle]] - Opponent's counter-target if reversal fails
+- [[Positions/Ashi Garami/Saddle]] - Opponent's counter-target if reversal fails
 
-- [[Granby Roll to Guard]] - Related escape mechanics used in Granby variation
+- [[Transitions/Granby Roll to Guard]] - Related escape mechanics used in Granby variation
 
-- [[Single Leg X-Guard]] - Follow-up position if opponent disengages
+- [[Positions/X-Guard/Single Leg X-Guard]] - Follow-up position if opponent disengages
 
-- [[Inside Ashi-Garami]] - Related leg entanglement position
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement position
 
-- [[Cross Ashi-Garami]] - Alternative target position in cross ashi variation
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Alternative target position in cross ashi variation
 
-- [[Ashi Garami Escape]] - Related defensive technique from leg entanglements
+- [[Transitions/Ashi Garami Escape]] - Related defensive technique from leg entanglements
 
 
 </section>

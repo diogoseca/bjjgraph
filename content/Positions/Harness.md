@@ -93,23 +93,23 @@ Strategically, the harness position serves as a transitional control point and a
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (21% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (21% of attempts)
 
-- **[[Hip Escape to Turtle]]** (17% of attempts)
+- **[[Transitions/Hip Escape to Turtle]]** (17% of attempts)
 
-- **[[Technical Stand Up to Single Leg]]** (8% of attempts)
+- **[[Transitions/Technical Stand Up to Single Leg]]** (8% of attempts)
 
-- **[[Roll to Guard]]** (12% of attempts)
+- **[[Transitions/Roll to Guard]]** (12% of attempts)
 
-- **[[Granby Roll to Guard]]** (11% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (11% of attempts)
 
-- **[[Hip Escape to Guard]]** (11% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (11% of attempts)
 
-- **[[Shrimp Escape]]** (9% of attempts)
+- **[[Transitions/Shrimp Escape]]** (9% of attempts)
 
-- **[[Hand Fighting from Back]]** (7% of attempts)
+- **[[Transitions/Hand Fighting from Back]]** (7% of attempts)
 
-- **[[Harness Escape to Half Guard]]** (4% of attempts)
+- **[[Transitions/Harness Escape to Half Guard]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -170,31 +170,31 @@ Strategically, the harness position serves as a transitional control point and a
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (40% of attempts)
+- **[[Transitions/Rear Naked Choke]]** (40% of attempts)
 
-- **[[Armbar from Back Transition]]** (13% of attempts)
+- **[[Transitions/Armbar from Back Transition]]** (13% of attempts)
 
-- **[[Back Control to Crucifix]]** (8% of attempts)
+- **[[Transitions/Back Control to Crucifix]]** (8% of attempts)
 
-- **[[Triangle from Back]]** (4% of attempts)
+- **[[Transitions/Triangle from Back]]** (4% of attempts)
 
-- **[[Bow and Arrow Choke]]** (10% of attempts)
+- **[[Transitions/Bow and Arrow Choke]]** (10% of attempts)
 
-- **[[Short Choke]]** (5% of attempts)
+- **[[Transitions/Short Choke]]** (5% of attempts)
 
-- **[[Rolling Back Take]]** (3% of attempts)
+- **[[Transitions/Rolling Back Take]]** (3% of attempts)
 
-- **[[Back Control Maintenance]]** (2% of attempts)
+- **[[Transitions/Back Control Maintenance]]** (2% of attempts)
 
-- **[[Kimura from Back]]** (6% of attempts)
+- **[[Transitions/Kimura from Back]]** (6% of attempts)
 
-- **[[Gift Wrap Transition]]** (4% of attempts)
+- **[[Transitions/Gift Wrap Transition]]** (4% of attempts)
 
-- **[[Hand Fighting from Back]]** (3% of attempts)
+- **[[Transitions/Hand Fighting from Back]]** (3% of attempts)
 
-- **[[Harness to Body Lock]]** (1% of attempts)
+- **[[Transitions/Harness to Body Lock]]** (1% of attempts)
 
-- **[[RNC from Harness]]** (1% of attempts)
+- **[[Transitions/RNC from Harness]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -237,27 +237,27 @@ Strategically, the harness position serves as a transitional control point and a
 ## Related Positions
 
 
-- **[[Back Control]]** - Parent position category with hooks fully established
+- **[[Positions/Back Control]]** - Parent position category with hooks fully established
 
-- **[[Body Triangle]]** - Advanced leg control variation from harness
+- **[[Positions/Back Control/Body Triangle]]** - Advanced leg control variation from harness
 
-- **[[Gift Wrap]]** - Common transition when opponent defends choking arm
+- **[[Positions/Gift Wrap]]** - Common transition when opponent defends choking arm
 
-- **[[Crucifix]]** - Offensive advancement when opponent turns shoulder in
+- **[[Positions/Crucifix]]** - Offensive advancement when opponent turns shoulder in
 
-- **[[Turtle]]** - Common entry position and escape target
+- **[[Positions/Turtle]]** - Common entry position and escape target
 
-- **[[Standing Back Control]]** - Standing application of same grip principles
+- **[[Positions/Back Control/Standing Back Control]]** - Standing application of same grip principles
 
-- **[[Seat Belt Control Back]]** - Alternative classification name for same position
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Alternative classification name for same position
 
-- **[[Rear Naked Choke]]** - Primary submission threat from top harness control
+- **[[Transitions/Rear Naked Choke]]** - Primary submission threat from top harness control
 
-- **[[Armbar Control]]** - Submission control accessible when opponent defends choke
+- **[[Positions/Armbar Control]]** - Submission control accessible when opponent defends choke
 
-- **[[Rear Triangle]]** - Alternative submission path from harness control
+- **[[Positions/Triangle Control/Rear Triangle]]** - Alternative submission path from harness control
 
-- **[[Mounted Crucifix]]** - Advanced control variation from back position
+- **[[Positions/Mount/Mounted Crucifix]]** - Advanced control variation from back position
 
 
 </section>

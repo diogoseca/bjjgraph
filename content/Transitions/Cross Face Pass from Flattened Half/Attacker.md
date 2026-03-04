@@ -186,7 +186,7 @@ description: "Master the cross face pass from flattened half guard as the top pl
 
 Executing the cross face pass from flattened half guard requires systematic progression through four distinct phases: crossface establishment, angle creation, leg extraction, and side control consolidation. The passer must maintain unbroken chest pressure throughout all four phases, treating the pass as a continuous flow of pressure rather than discrete steps. The crossface is the engine of this pass, simultaneously controlling the opponent's head, limiting their defensive vision, and creating the wedge effect that opens the path for leg extraction. Success depends on patience and incremental advancement, resisting the temptation to rush the extraction before sufficient angle has been created. The technique rewards practitioners who develop sensitivity to their opponent's defensive reactions, timing each phase advancement with moments when the defender is managing pressure rather than actively resisting the pass.
 
-**From Position**: [[Flattened Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the cross face pass from flattened half guard requires systematic prog
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 52% |
-| Failure | [[Flattened Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 18% |
+| Success | [[Positions/Side Control]] | 52% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 18% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the cross face pass from flattened half guard requires systematic prog
 
 ## Opponent Counters
 
-- **Opponent recovers underhook on far side and creates defensive angle to prevent flattening** (Effectiveness: High) - Your Response: Immediately apply whizzer control on their underhook arm and increase crossface pressure to re-flatten them before they can build structural resistance from the recovered underhook → Leads to [[Flattened Half Guard]]
-- **Opponent dives underneath for deep half guard entry during angle creation phase** (Effectiveness: Medium) - Your Response: Post your free hand behind their head and drive your hips back to prevent them from getting underneath your center of gravity, then re-settle weight forward to maintain the flattened position → Leads to [[Half Guard]]
-- **Opponent bridges and shrimps to re-establish knee shield or active half guard frames** (Effectiveness: High) - Your Response: Follow their hip movement with your own hips, increasing forward pressure during the bridge apex when they are extended and most vulnerable, then use their return to the mat to advance your passing angle further → Leads to [[Flattened Half Guard]]
-- **Opponent locks down the trapped leg with lockdown figure-four control to prevent extraction** (Effectiveness: Medium) - Your Response: Drive your trapped knee to the mat and flatten your hips to neutralize the lockdown stretch, then work to pry their feet apart by walking your trapped foot toward their ankle while maintaining crossface pressure → Leads to [[Flattened Half Guard]]
+- **Opponent recovers underhook on far side and creates defensive angle to prevent flattening** (Effectiveness: High) - Your Response: Immediately apply whizzer control on their underhook arm and increase crossface pressure to re-flatten them before they can build structural resistance from the recovered underhook → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent dives underneath for deep half guard entry during angle creation phase** (Effectiveness: Medium) - Your Response: Post your free hand behind their head and drive your hips back to prevent them from getting underneath your center of gravity, then re-settle weight forward to maintain the flattened position → Leads to [[Positions/Half Guard]]
+- **Opponent bridges and shrimps to re-establish knee shield or active half guard frames** (Effectiveness: High) - Your Response: Follow their hip movement with your own hips, increasing forward pressure during the bridge apex when they are extended and most vulnerable, then use their return to the mat to advance your passing angle further → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent locks down the trapped leg with lockdown figure-four control to prevent extraction** (Effectiveness: Medium) - Your Response: Drive your trapped knee to the mat and flatten your hips to neutralize the lockdown stretch, then work to pry their feet apart by walking your trapped foot toward their ankle while maintaining crossface pressure → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 
 
 </section>

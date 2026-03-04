@@ -180,7 +180,7 @@ description: "Complete guide to executing the New York pass to side control. Lea
 
 The attacker in the New York Pass to Side Control is the top player currently trapped in the New York rubber guard position. Despite being in a defensive situation, the attacker must adopt a methodical offensive mindset focused on systematically dismantling each control point in the correct sequence. The pass requires exceptional patience and discipline, as the most common failure pattern involves rushing the arm extraction before establishing the base and posture needed to support it. Successful execution demands reading the bottom player's grip strength and transition timing to identify optimal windows for each phase of the escape-to-pass sequence. The attacker who maintains calm, sequential execution while constantly monitoring submission threats achieves side control at significantly higher rates than those who rely on explosive movement.
 
-**From Position**: [[New York]] (Top)
+**From Position**: [[Positions/Rubber Guard/New York]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ The attacker in the New York Pass to Side Control is the top player currently tr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[New York]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Rubber Guard/New York]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ The attacker in the New York Pass to Side Control is the top player currently tr
 
 ## Opponent Counters
 
-- **Bottom player re-grips shin and pulls posture back down before arm extraction can begin** (Effectiveness: High) - Your Response: Maintain your base width and immediately re-engage grip fighting on their shin-controlling hand. Consider switching to the stack pass variation by driving your weight forward to compress their hips, neutralizing the shin control through stacking pressure rather than grip fighting. → Leads to [[New York]]
-- **Bottom player shoots leg over your shoulder for triangle as your arm begins extracting from the overhook** (Effectiveness: Medium) - Your Response: Keep your extracted elbow tight to your body pointing downward to prevent the triangle lock from closing. Immediately posture toward the choking leg side while stacking forward to flatten their hips and neutralize the triangle angle. Use the stacked position to continue working the pass. → Leads to [[New York]]
-- **Bottom player times a hip bump sweep during posture recovery when your weight shifts backward** (Effectiveness: Medium) - Your Response: Maintain forward pressure throughout posture recovery rather than shifting weight backward. Recover posture through hip drive forward and chest lift rather than leaning back. If swept, immediately establish defensive frames and work to recover guard position. → Leads to [[Half Guard]]
-- **Bottom player transitions to Invisible Collar by swimming hand behind your head during the grip fight** (Effectiveness: High) - Your Response: Tuck your chin and drive your head toward the mat on the overhook side to deny the hand position behind your head. If they establish Invisible Collar, return to base establishment and address the new control configuration before continuing the pass attempt. → Leads to [[New York]]
+- **Bottom player re-grips shin and pulls posture back down before arm extraction can begin** (Effectiveness: High) - Your Response: Maintain your base width and immediately re-engage grip fighting on their shin-controlling hand. Consider switching to the stack pass variation by driving your weight forward to compress their hips, neutralizing the shin control through stacking pressure rather than grip fighting. → Leads to [[Positions/Rubber Guard/New York]]
+- **Bottom player shoots leg over your shoulder for triangle as your arm begins extracting from the overhook** (Effectiveness: Medium) - Your Response: Keep your extracted elbow tight to your body pointing downward to prevent the triangle lock from closing. Immediately posture toward the choking leg side while stacking forward to flatten their hips and neutralize the triangle angle. Use the stacked position to continue working the pass. → Leads to [[Positions/Rubber Guard/New York]]
+- **Bottom player times a hip bump sweep during posture recovery when your weight shifts backward** (Effectiveness: Medium) - Your Response: Maintain forward pressure throughout posture recovery rather than shifting weight backward. Recover posture through hip drive forward and chest lift rather than leaning back. If swept, immediately establish defensive frames and work to recover guard position. → Leads to [[Positions/Half Guard]]
+- **Bottom player transitions to Invisible Collar by swimming hand behind your head during the grip fight** (Effectiveness: High) - Your Response: Tuck your chin and drive your head toward the mat on the overhook side to deny the hand position behind your head. If they establish Invisible Collar, return to base establishment and address the new control configuration before continuing the pass attempt. → Leads to [[Positions/Rubber Guard/New York]]
 
 
 </section>

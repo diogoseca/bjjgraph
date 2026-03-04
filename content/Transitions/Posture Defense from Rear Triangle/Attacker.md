@@ -186,7 +186,7 @@ description: "Master the posture defense escape from rear triangle bottom positi
 
 As the bottom player caught in a rear triangle, executing posture defense requires immediate action before the choke reaches critical pressure. Your primary weapon is your spine's structural integrity—by fighting to maintain or recover an upright posture, you reduce the triangle's mechanical advantage and create opportunities for arm extraction and escape. Success depends on addressing the choking leg's control point first through grip management on the locking ankle, then systematically rebuilding posture through shoulder pressure and hip positioning rather than explosive strength-based attempts that accelerate energy depletion. The posture defense is not a standalone escape but the essential first phase that unlocks all subsequent escape options from the rear triangle.
 
-**From Position**: [[Rear Triangle]] (Bottom)
+**From Position**: [[Positions/Triangle Control/Rear Triangle]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ As the bottom player caught in a rear triangle, executing posture defense requir
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 40% |
-| Failure | [[Rear Triangle]] | 40% |
-| Counter | [[Crucifix]] | 20% |
+| Success | [[Positions/Back Control]] | 40% |
+| Failure | [[Positions/Triangle Control/Rear Triangle]] | 40% |
+| Counter | [[Positions/Crucifix]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the bottom player caught in a rear triangle, executing posture defense requir
 
 ## Opponent Counters
 
-- **Opponent squeezes knees together and tightens triangle lock during posture attempt** (Effectiveness: High) - Your Response: Accelerate the ankle strip before they can fully compress. If the lock retightens, return to chin protection and wait for them to adjust before attempting again. Do not fight a fully compressed triangle with posture alone. → Leads to [[Rear Triangle]]
-- **Opponent attacks rear naked choke with free hands while you focus on posture recovery** (Effectiveness: Medium) - Your Response: Immediately shift your free hand from the ankle to defend the choking arm using two-on-one grip control. Neck defense always takes priority over posture recovery. Re-establish chin protection before resuming the ankle strip sequence. → Leads to [[Rear Triangle]]
-- **Opponent traps your free arm during posture attempt, transitioning to crucifix** (Effectiveness: High) - Your Response: Keep your free elbow tight to your body and avoid reaching across your centerline where it can be trapped. If you feel the opponent controlling your free wrist, immediately retract the arm and reset your posture defense approach from a safer arm position. → Leads to [[Crucifix]]
-- **Opponent pulls head forward with hands to re-break posture during recovery** (Effectiveness: Medium) - Your Response: Use your free hand to strip the opponent's grip on your forehead or chin. Combine the grip strip with continued shoulder drive backward. If they commit both hands to pulling your head, their triangle control loosens, creating an opportunity for more aggressive ankle stripping. → Leads to [[Rear Triangle]]
+- **Opponent squeezes knees together and tightens triangle lock during posture attempt** (Effectiveness: High) - Your Response: Accelerate the ankle strip before they can fully compress. If the lock retightens, return to chin protection and wait for them to adjust before attempting again. Do not fight a fully compressed triangle with posture alone. → Leads to [[Positions/Triangle Control/Rear Triangle]]
+- **Opponent attacks rear naked choke with free hands while you focus on posture recovery** (Effectiveness: Medium) - Your Response: Immediately shift your free hand from the ankle to defend the choking arm using two-on-one grip control. Neck defense always takes priority over posture recovery. Re-establish chin protection before resuming the ankle strip sequence. → Leads to [[Positions/Triangle Control/Rear Triangle]]
+- **Opponent traps your free arm during posture attempt, transitioning to crucifix** (Effectiveness: High) - Your Response: Keep your free elbow tight to your body and avoid reaching across your centerline where it can be trapped. If you feel the opponent controlling your free wrist, immediately retract the arm and reset your posture defense approach from a safer arm position. → Leads to [[Positions/Crucifix]]
+- **Opponent pulls head forward with hands to re-break posture during recovery** (Effectiveness: Medium) - Your Response: Use your free hand to strip the opponent's grip on your forehead or chin. Combine the grip strip with continued shoulder drive backward. If they commit both hands to pulling your head, their triangle control loosens, creating an opportunity for more aggressive ankle stripping. → Leads to [[Positions/Triangle Control/Rear Triangle]]
 
 
 </section>

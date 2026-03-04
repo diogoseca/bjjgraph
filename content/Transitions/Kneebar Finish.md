@@ -21,7 +21,7 @@ From the Carni position, the kneebar becomes available when the opponent extends
 
 What makes this finish particularly effective from Carni is the element of surprise. Most opponents in Carni are primarily defending the heel hook, keeping their knee bent and heel protected. When they momentarily straighten the leg, they expose themselves to a completely different submission angle that many practitioners fail to defend. This creates the classic dilemma system where defending one attack opens vulnerability to another.
 
-**From Position**: [[Carni]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Carni]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -33,8 +33,8 @@ What makes this finish particularly effective from Carni is the element of surpr
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Carni]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Rubber Guard/Carni]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -185,25 +185,25 @@ The Kneebar Finish integrates into the Carni attack system as the complementary 
 ## Related Techniques
 
 
-- [[Carni]] - Starting position from which the kneebar opportunity arises
+- [[Positions/Rubber Guard/Carni]] - Starting position from which the kneebar opportunity arises
 
-- [[Inside Heel Hook]] - Primary alternative submission creating the bent-knee/straight-knee dilemma
+- [[Submissions/Inside Heel Hook]] - Primary alternative submission creating the bent-knee/straight-knee dilemma
 
-- [[Kneebar Control]] - Control position if unable to finish immediately, maintains submission threat
+- [[Positions/Kneebar Control]] - Control position if unable to finish immediately, maintains submission threat
 
-- [[Calf Slicer]] - Chain attack when opponent bends knee to defend the kneebar hyperextension
+- [[Transitions/Calf Slicer]] - Chain attack when opponent bends knee to defend the kneebar hyperextension
 
-- [[Ashi Garami]] - Parent leg entanglement system from which Carni derives
+- [[Positions/Ashi Garami]] - Parent leg entanglement system from which Carni derives
 
-- [[Saddle]] - Alternative control position accessible from Carni when heel hook is defended
+- [[Positions/Ashi Garami/Saddle]] - Alternative control position accessible from Carni when heel hook is defended
 
-- [[Game Over]] - Terminal state reached upon successful kneebar tap
+- [[Positions/Game Over]] - Terminal state reached upon successful kneebar tap
 
-- [[Half Guard]] - Common recovery position for defender after successful counter-escape
+- [[Positions/Half Guard]] - Common recovery position for defender after successful counter-escape
 
-- [[Heel Hook]] - Primary Carni submission that creates the dilemma enabling kneebar opportunities
+- [[Transitions/Heel Hook]] - Primary Carni submission that creates the dilemma enabling kneebar opportunities
 
-- [[Kneebar]] - Parent submission category covering kneebar mechanics across all positions
+- [[Transitions/Kneebar]] - Parent submission category covering kneebar mechanics across all positions
 
 
 </section>

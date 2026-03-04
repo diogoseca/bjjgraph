@@ -180,7 +180,7 @@ description: "Learn to execute the Sweep from Diamond Guard in BJJ. Step-by-step
 
 Executing the Sweep from Diamond Guard requires coordinating hip angle, sit-up timing, and frame management into a single explosive motion. The sweep exploits the structural imbalance created by the diamond frame — one of the opponent's arms is trapped by the overhook, and their posture is broken by head control. Unlike standard hip bump sweeps where the opponent has two arms to post, the diamond configuration eliminates one posting option entirely, transforming this from a timing-dependent technique into a mechanically advantaged one. The key is recognizing when the opponent's weight shifts forward enough to become sweepable, then committing fully to the sit-up motion while maintaining frame control throughout the transition to mount.
 
-**From Position**: [[Diamond Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard/Diamond Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Sweep from Diamond Guard requires coordinating hip angle, sit-up t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 45% |
-| Failure | [[Diamond Guard]] | 35% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Mount]] | 45% |
+| Failure | [[Positions/Closed Guard/Diamond Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Sweep from Diamond Guard requires coordinating hip angle, sit-up t
 
 ## Opponent Counters
 
-- **Opponent posts free hand wide on the mat to brace against the sweep rotation** (Effectiveness: High) - Your Response: Switch immediately to triangle entry by releasing head control and shooting legs up, or attack the posted arm with a kimura since it is now extended and isolated → Leads to [[Diamond Guard]]
-- **Opponent drops weight backward and sits on heels to deny forward momentum** (Effectiveness: Medium) - Your Response: Follow their backward motion with the pendulum kick variation for added momentum, or return to submission attacks since their extended posture opens triangle and omoplata entries → Leads to [[Diamond Guard]]
-- **Opponent strips the overhook by circling their trapped arm downward and pulling free** (Effectiveness: High) - Your Response: Abandon the sweep and immediately re-establish the diamond frame or transition to standard closed guard attacks before the opponent can fully posture and begin passing → Leads to [[Diamond Guard]]
-- **Opponent sprawls legs back and drives aggressive crossface to flatten guard player during the sit-up** (Effectiveness: Medium) - Your Response: Use their forward drive as momentum for the sweep by timing the sit-up to coincide with their pressure, or transition to submission entries that exploit their committed forward weight → Leads to [[Side Control]]
+- **Opponent posts free hand wide on the mat to brace against the sweep rotation** (Effectiveness: High) - Your Response: Switch immediately to triangle entry by releasing head control and shooting legs up, or attack the posted arm with a kimura since it is now extended and isolated → Leads to [[Positions/Closed Guard/Diamond Guard]]
+- **Opponent drops weight backward and sits on heels to deny forward momentum** (Effectiveness: Medium) - Your Response: Follow their backward motion with the pendulum kick variation for added momentum, or return to submission attacks since their extended posture opens triangle and omoplata entries → Leads to [[Positions/Closed Guard/Diamond Guard]]
+- **Opponent strips the overhook by circling their trapped arm downward and pulling free** (Effectiveness: High) - Your Response: Abandon the sweep and immediately re-establish the diamond frame or transition to standard closed guard attacks before the opponent can fully posture and begin passing → Leads to [[Positions/Closed Guard/Diamond Guard]]
+- **Opponent sprawls legs back and drives aggressive crossface to flatten guard player during the sit-up** (Effectiveness: Medium) - Your Response: Use their forward drive as momentum for the sweep by timing the sit-up to coincide with their pressure, or transition to submission entries that exploit their committed forward weight → Leads to [[Positions/Side Control]]
 
 
 </section>

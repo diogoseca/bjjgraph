@@ -154,7 +154,7 @@ description: "Defend against Reverse Half Guard passing in BJJ. Recognition cues
 
 As the defender against Pass Reverse Half, you are in reverse half guard bottom—an inherently disadvantaged position where the top player has circled behind your half guard retention and is working to extract their trapped leg to complete the pass to side control. Your primary objectives are to either recover your standard half guard defensive structure by turning to face the opponent, or to capitalize on their passing movements to initiate sweeps and reversals. The critical insight is that you must act immediately—the reverse half guard bottom is not a sustainable holding position. Every second spent passively allows the top player to establish deeper controls that progressively eliminate your defensive and offensive options. Your trapped leg clamp is your lifeline; losing it means immediate pass completion. Combine leg retention with active upper body framing and hip movement to create the space needed for guard recovery or sweep execution.
 
-**Opponent's Starting Position**: [[Reverse Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Reverse Half Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against Pass Reverse Half, you are in reverse half guard bottom�
 ### 1. Shrimp hips away and recover knee shield before extraction completes
 
 - **When to use**: When you feel the opponent begin their hip switch but before full extraction—the window is narrow, requiring immediate reaction to their hip movement
-- **Targets**: [[Reverse Half Guard]]
+- **Targets**: [[Positions/Half Guard/Reverse Half Guard]]
 - **If successful**: Reestablish knee shield half guard structure with frames, converting reverse half guard into a more defensible standard guard configuration
 - **Risk**: If shrimp is too slow, you create space that accelerates the pass without recovering your knee shield, ending in side control
 
 ### 2. Bridge explosively and turn to face opponent during their weight shift
 
 - **When to use**: When the opponent commits weight to the hip switch, momentarily lightening their upper body pressure and creating an opportunity to rotate underneath
-- **Targets**: [[Reverse Half Guard]]
+- **Targets**: [[Positions/Half Guard/Reverse Half Guard]]
 - **If successful**: Recover facing position and standard half guard defensive structure with underhook access and frame options
 - **Risk**: If the opponent reads the bridge, they follow your rotation and take your back with hooks, putting you in a worse position
 
 ### 3. Invert underneath opponent and recover full guard or initiate sweep
 
 - **When to use**: When you have sufficient hip mobility and the opponent's weight is committed forward, allowing you to rotate underneath them for guard recovery
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover full guard position or sweep the opponent as they lose balance during your inversion, potentially reversing to top position
 - **Risk**: Failed inversion can expose your back further and leave you in a worse position with the opponent already past your legs
 
 ### 4. Time a sweep during the opponent's hip switch when their base is compromised
 
 - **When to use**: When the opponent lifts their hips during the hip switch extraction, temporarily compromising their base and creating a sweep window
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Reverse the position entirely—sweep the opponent to achieve top position with them in half guard bottom
 - **Risk**: Mistimed sweep attempt fails against stable base, expending energy and potentially accelerating the pass if you lose leg clamp tension
 
@@ -225,11 +225,11 @@ As the defender against Pass Reverse Half, you are in reverse half guard bottom�
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a sweep during the opponent's hip switch when their base is most compromised. Use their extraction momentum against them by redirecting their weight laterally while they are mid-transition between reverse half guard and side control.
 
-### → [[Reverse Half Guard]]
+### → [[Positions/Half Guard/Reverse Half Guard]]
 
 Shrimp and recover knee shield or standard half guard frames before the extraction completes. React immediately to the opponent's hip switch by driving your far hip away and inserting your knee between your bodies to reestablish guard structure.
 

@@ -21,7 +21,7 @@ This technique employs an exaggerated long step to change the passing angle dram
 
 Strategically, this pass is most effective when you recognize that direct clearing of the ringworm configuration would require excessive energy expenditure. Rather than engaging in a prolonged grip-fighting battle to remove multiple lapel wraps, the long step accepts the configuration's existence and navigates around it. This approach preserves energy and catches opponents who have invested heavily in establishing complex lapel systems, as they often don't anticipate passes that simply bypass their control structure.
 
-**From Position**: [[Lapel Guard]] (Top)
+**From Position**: [[Positions/Lapel Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, this pass is most effective when you recognize that direct cleari
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Success | [[Half Guard]] | 10% |
-| Failure | [[Lapel Guard]] | 20% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Success | [[Positions/Half Guard]] | 10% |
+| Failure | [[Positions/Lapel Guard]] | 20% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -190,25 +190,25 @@ The Long Step Around Ringworm occupies a specific niche within the guard passing
 ## Related Techniques
 
 
-- [[Lapel Guard]] - Starting position requiring this specialized passing solution
+- [[Positions/Lapel Guard]] - Starting position requiring this specialized passing solution
 
-- [[Backstep Around Worm Guard]] - Related lapel guard pass using similar direction-change principle
+- [[Transitions/Backstep Around Worm Guard]] - Related lapel guard pass using similar direction-change principle
 
-- [[Side Control]] - Primary destination position after successful pass completion
+- [[Positions/Side Control]] - Primary destination position after successful pass completion
 
-- [[Half Guard]] - Common intermediate position if pass is only partially successful
+- [[Positions/Half Guard]] - Common intermediate position if pass is only partially successful
 
-- [[Back Control]] - Counter position opponent may achieve if hip control fails
+- [[Positions/Back Control]] - Counter position opponent may achieve if hip control fails
 
-- [[Leg Drag Pass]] - Alternative finish option that combines well with long step mechanics
+- [[Transitions/Leg Drag Pass]] - Alternative finish option that combines well with long step mechanics
 
-- [[Knee on Belly]] - Alternative consolidation position after successful pass
+- [[Positions/Knee on Belly]] - Alternative consolidation position after successful pass
 
-- [[Lapel Clear to Toreando Pass]] - Alternative approach when direct lapel clearing is viable
+- [[Transitions/Lapel Clear to Toreando Pass]] - Alternative approach when direct lapel clearing is viable
 
-- [[De La Riva Guard]] - Position opponent may transition to if long step is too narrow
+- [[Positions/De La Riva Guard]] - Position opponent may transition to if long step is too narrow
 
-- [[Ringworm Guard]] - The specific lapel guard variation this technique is designed to defeat
+- [[Positions/Ringworm Guard]] - The specific lapel guard variation this technique is designed to defeat
 
 
 </section>

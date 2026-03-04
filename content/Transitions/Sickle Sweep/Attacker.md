@@ -178,7 +178,7 @@ This sweep is particularly effective against opponents who are standing or have 
 
 The Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard systems and chains naturally with other attacks including back takes, leg entanglements, and submission attempts. Understanding this sweep provides essential insight into how the De La Riva hook functions as an offensive weapon rather than just a defensive control mechanism.
 
-**From Position**: [[De La Riva Guard]] (Bottom)
+**From Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -231,10 +231,10 @@ The Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard sy
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 50% |
-| Success | [[Side Control]] | 15% |
-| Failure | [[De La Riva Guard]] | 25% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Mount]] | 50% |
+| Success | [[Positions/Side Control]] | 15% |
+| Failure | [[Positions/De La Riva Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard sy
 
 ## Opponent Counters
 
-- **Opponent posts hand on mat to prevent being swept backward** (Effectiveness: Medium) - Your Response: Switch to taking the back by following their posted arm and climbing up their body, or transition to an omoplata attack on the posted arm → Leads to [[De La Riva Guard]]
-- **Opponent steps back with far leg to widen base and resist the diagonal sweep** (Effectiveness: High) - Your Response: Immediately transition to X-Guard or Single Leg X-Guard by collecting the near leg with your bottom leg and adjusting your hook position under their hips → Leads to [[De La Riva Guard]]
-- **Opponent drops weight down and pressures forward into you to flatten your hips** (Effectiveness: Medium) - Your Response: Switch to Kiss of the Dragon by inverting under them while maintaining your hook, or transition to Reverse De La Riva Guard and attack the back from underneath → Leads to [[Open Guard]]
-- **Opponent grabs your pants at the hooking leg to strip the De La Riva hook** (Effectiveness: Low) - Your Response: Use the grip to load them more onto that leg, making the sweep even more effective, or transition to berimbolo by inverting toward the grip side → Leads to [[De La Riva Guard]]
+- **Opponent posts hand on mat to prevent being swept backward** (Effectiveness: Medium) - Your Response: Switch to taking the back by following their posted arm and climbing up their body, or transition to an omoplata attack on the posted arm → Leads to [[Positions/De La Riva Guard]]
+- **Opponent steps back with far leg to widen base and resist the diagonal sweep** (Effectiveness: High) - Your Response: Immediately transition to X-Guard or Single Leg X-Guard by collecting the near leg with your bottom leg and adjusting your hook position under their hips → Leads to [[Positions/De La Riva Guard]]
+- **Opponent drops weight down and pressures forward into you to flatten your hips** (Effectiveness: Medium) - Your Response: Switch to Kiss of the Dragon by inverting under them while maintaining your hook, or transition to Reverse De La Riva Guard and attack the back from underneath → Leads to [[Positions/Open Guard]]
+- **Opponent grabs your pants at the hooking leg to strip the De La Riva hook** (Effectiveness: Low) - Your Response: Use the grip to load them more onto that leg, making the sweep even more effective, or transition to berimbolo by inverting toward the grip side → Leads to [[Positions/De La Riva Guard]]
 
 
 </section>

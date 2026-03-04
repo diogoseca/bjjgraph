@@ -21,7 +21,7 @@ The key biomechanical challenge stems from the top player's weight distribution 
 
 This escape serves as a foundational defensive tool that creates the space necessary for transitioning to half guard or closed guard. While lower percentage than bridging from standard mount due to the positional asymmetry, the bridge remains essential because technical mount threatens immediate armbar and triangle submissions. The escape must be followed immediately by hip escape movement—the bridge alone rarely completes the positional recovery. Practitioners who master the timing and directional components of this technique gain a reliable defensive option that converts the top player's offensive commitment into escape opportunities.
 
-**From Position**: [[Technical Mount]] (Bottom)
+**From Position**: [[Positions/Mount/Technical Mount]] (Bottom)
 **Success Rate**: 35%
 
 </section>
@@ -32,10 +32,10 @@ This escape serves as a foundational defensive tool that creates the space neces
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 25% |
-| Success | [[Closed Guard]] | 10% |
-| Failure | [[Technical Mount]] | 40% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 25% |
+| Success | [[Positions/Closed Guard]] | 10% |
+| Failure | [[Positions/Mount/Technical Mount]] | 40% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -192,23 +192,23 @@ The bridge from technical mount occupies a critical role in the mount escape hie
 ## Related Techniques
 
 
-- [[Technical Mount]] - Source position—the mount variation this bridge escape is executed from
+- [[Positions/Mount/Technical Mount]] - Source position—the mount variation this bridge escape is executed from
 
-- [[Half Guard]] - Primary escape destination when bridge creates space for knee shield insertion
+- [[Positions/Half Guard]] - Primary escape destination when bridge creates space for knee shield insertion
 
-- [[Closed Guard]] - Secondary escape destination through full guard recovery after successful bridge and hip escape
+- [[Positions/Closed Guard]] - Secondary escape destination through full guard recovery after successful bridge and hip escape
 
-- [[Back Control]] - Counter risk position—opponent may take back if bridge turning motion is not followed by proper guard recovery
+- [[Positions/Back Control]] - Counter risk position—opponent may take back if bridge turning motion is not followed by proper guard recovery
 
-- [[Back Turn from Technical Mount]] - Alternative escape technique from the same starting position involving turning away rather than bridging
+- [[Transitions/Back Turn from Technical Mount]] - Alternative escape technique from the same starting position involving turning away rather than bridging
 
-- [[Bridge Escape from S Mount]] - Related bridge escape from a similar asymmetric mount variation sharing directional bridge mechanics
+- [[Transitions/Bridge Escape from S Mount]] - Related bridge escape from a similar asymmetric mount variation sharing directional bridge mechanics
 
-- [[Bridge Escape from 3-4 Mount]] - Related bridge escape from standard mount offering comparison of bridging angles and success rates
+- [[Transitions/Bridge Escape from 3-4 Mount]] - Related bridge escape from standard mount offering comparison of bridging angles and success rates
 
-- [[Mount]] - Parent position family—technical mount is a specialized variation of standard mount
+- [[Positions/Mount]] - Parent position family—technical mount is a specialized variation of standard mount
 
-- [[S Mount]] - Closely related mount variation sharing similar asymmetric leg positioning and escape challenges
+- [[Positions/Mount/S Mount]] - Closely related mount variation sharing similar asymmetric leg positioning and escape challenges
 
 
 </section>

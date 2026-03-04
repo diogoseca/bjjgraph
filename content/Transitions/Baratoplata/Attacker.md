@@ -184,7 +184,7 @@ The finish requires precise control of three mechanical elements: the arm weave 
 
 Strategically, the Baratoplata serves as the terminal attack in a chain that typically begins from Mission Control or Meathook positions. When opponents successfully defend Gogoplata and Triangle attempts, their defensive arm positioning often creates the ideal setup for the Baratoplata. This makes the technique a natural counter to intelligent guard defense, punishing the very movements that escape other rubber guard attacks.
 
-**From Position**: [[Omoplata Control]] (Top)
+**From Position**: [[Positions/Omoplata Control]] (Top)
 
 </section>
 
@@ -239,8 +239,8 @@ Strategically, the Baratoplata serves as the terminal attack in a chain that typ
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Omoplata Control]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Omoplata Control]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -249,9 +249,9 @@ Strategically, the Baratoplata serves as the terminal attack in a chain that typ
 
 ## Opponent Counters
 
-- **Posture recovery by driving forward into attacker** (Effectiveness: High) - Your Response: Increase downward leg pressure immediately or transition to Gogoplata as their forward drive brings neck into range → Leads to [[Omoplata Control]]
-- **Rolling forward to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Follow the roll maintaining arm weave control - this often improves your finishing angle or opens Back Control transition → Leads to [[Omoplata Control]]
-- **Straightening trapped arm to change attack angle** (Effectiveness: Medium) - Your Response: A straightened arm opens Armbar from Guard - release weave and transition to standard armbar mechanics immediately → Leads to [[Closed Guard]]
+- **Posture recovery by driving forward into attacker** (Effectiveness: High) - Your Response: Increase downward leg pressure immediately or transition to Gogoplata as their forward drive brings neck into range → Leads to [[Positions/Omoplata Control]]
+- **Rolling forward to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Follow the roll maintaining arm weave control - this often improves your finishing angle or opens Back Control transition → Leads to [[Positions/Omoplata Control]]
+- **Straightening trapped arm to change attack angle** (Effectiveness: Medium) - Your Response: A straightened arm opens Armbar from Guard - release weave and transition to standard armbar mechanics immediately → Leads to [[Positions/Closed Guard]]
 - **Grip fighting to strip the arm weave with free hand** (Effectiveness: Low) - Your Response: Tighten weave by pulling shin closer to body and accelerate hip extension to finish before weave breaks → Leads to [[game-over]]
 
 

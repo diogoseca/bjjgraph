@@ -186,7 +186,7 @@ description: "Master the offensive counter-entanglement from Outside Ashi-Garami
 
 As the attacker executing the Saddle Entry from Outside Ashi, you begin in a disadvantageous defensive position with your leg trapped in your opponent's outside ashi-garami. Your objective is to convert this defensive scenario into an offensive advantage by establishing your own saddle position on your opponent's leg through a precise counter-rotation. This requires protecting your heel throughout the transition, controlling your opponent's foot to prevent them from finishing a submission during the exchange, and executing a technically precise backstep or rotation that threads your legs into saddle configuration around their leg. The transition demands composure under submission threat, awareness of timing windows created by opponent's grip adjustments, and confident commitment to the rotation once initiated.
 
-**From Position**: [[Outside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 
 </section>
 
@@ -240,9 +240,9 @@ As the attacker executing the Saddle Entry from Outside Ashi, you begin in a dis
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Saddle]] | 55% |
-| Failure | [[Outside Ashi-Garami]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Saddle]] | 55% |
+| Failure | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the attacker executing the Saddle Entry from Outside Ashi, you begin in a dis
 
 ## Opponent Counters
 
-- **Opponent tightens triangle and pulls back to prevent rotation** (Effectiveness: High) - Your Response: If the triangle is too tight for rotation, abort the entry attempt and return to heel protection and escape protocols. Reattempt when they loosen the triangle to adjust grips. Alternatively, switch to an incremental leg pummeling approach that uses gradual positioning rather than one decisive backstep. → Leads to [[Outside Ashi-Garami]]
-- **Opponent attacks heel hook during the rotation when heel becomes momentarily exposed** (Effectiveness: High) - Your Response: Maintain heel protection grip on your own ankle throughout the rotation as primary safety measure. If they catch the heel mid-rotation, complete the rotation faster to break their angle or immediately abort and address the heel hook threat. Never pause mid-rotation with an exposed heel. → Leads to [[Outside Ashi-Garami]]
-- **Opponent hip escapes and recovers guard during the transition** (Effectiveness: Medium) - Your Response: If opponent creates distance during your rotation, continue the backstep but redirect to a passing position rather than insisting on saddle. You may land in a top position depending on how far they have escaped. Accept the positional improvement over insisting on the saddle entry. → Leads to [[Half Guard]]
-- **Opponent straightens legs and bridges to prevent you from threading into saddle** (Effectiveness: Medium) - Your Response: Use their extended leg as leverage for your own entry by hooking behind their knee with your inside leg. Their straight leg actually makes it easier to establish inside position. Apply downward pressure on their thigh to collapse the bridge and complete the saddle entry. → Leads to [[Outside Ashi-Garami]]
+- **Opponent tightens triangle and pulls back to prevent rotation** (Effectiveness: High) - Your Response: If the triangle is too tight for rotation, abort the entry attempt and return to heel protection and escape protocols. Reattempt when they loosen the triangle to adjust grips. Alternatively, switch to an incremental leg pummeling approach that uses gradual positioning rather than one decisive backstep. → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Opponent attacks heel hook during the rotation when heel becomes momentarily exposed** (Effectiveness: High) - Your Response: Maintain heel protection grip on your own ankle throughout the rotation as primary safety measure. If they catch the heel mid-rotation, complete the rotation faster to break their angle or immediately abort and address the heel hook threat. Never pause mid-rotation with an exposed heel. → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Opponent hip escapes and recovers guard during the transition** (Effectiveness: Medium) - Your Response: If opponent creates distance during your rotation, continue the backstep but redirect to a passing position rather than insisting on saddle. You may land in a top position depending on how far they have escaped. Accept the positional improvement over insisting on the saddle entry. → Leads to [[Positions/Half Guard]]
+- **Opponent straightens legs and bridges to prevent you from threading into saddle** (Effectiveness: Medium) - Your Response: Use their extended leg as leverage for your own entry by hooking behind their knee with your inside leg. Their straight leg actually makes it easier to establish inside position. Apply downward pressure on their thigh to collapse the bridge and complete the saddle entry. → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 
 </section>

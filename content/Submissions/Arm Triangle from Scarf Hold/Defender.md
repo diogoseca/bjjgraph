@@ -156,7 +156,7 @@ description: "Defend and escape the Arm Triangle from Scarf Hold. Recognition cu
 
 Defending the Arm Triangle from Scarf Hold requires recognizing the submission threat before the grip connection is sealed. The critical defensive window occurs when the attacker begins driving your arm across your neck—once the figure-four grip is connected and the hip switch is complete, defensive options narrow dramatically. The defender must prioritize preventing arm isolation across the neck, maintaining a protective arm position, and timing explosive escapes to coincide with the attacker's grip transitions rather than fighting against the completed choking structure. Early intervention at the arm drive phase has the highest success rate, while late-stage defense against a fully locked arm triangle requires either finding micro-space to maintain blood flow or tapping before unconsciousness. Understanding the sequential progression of this choke allows the defender to intervene at the optimal point rather than reacting to the finished position.
 
-**Opponent's Starting Position**: [[Scarf Hold Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Scarf Hold Position]] (Top)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the Arm Triangle from Scarf Hold requires recognizing the submission t
 ### 1. Retract the trapped arm by pulling your elbow back toward your own ribs before the arm crosses your centerline
 
 - **When to use**: Immediately upon feeling the opponent driving your arm across your face—this is the earliest and highest-percentage defensive window before any grip is threatened
-- **Targets**: [[Scarf Hold Position]]
+- **Targets**: [[Positions/Side Control/Scarf Hold Position]]
 - **If successful**: Opponent fails to position your arm for the choke and must either re-attempt the arm drive or return to standard scarf hold control
 - **Risk**: If you fail to retract the arm, the opponent may accelerate the arm drive using increased chest pressure while you are actively resisting
 
 ### 2. Bridge explosively toward the opponent during the moment they modify their head wrap to thread the choking arm around your head
 
 - **When to use**: When you feel the head control change as the opponent begins the arm triangle grip transition—this brief window of modified control creates the best escape opportunity
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The bridge disrupts opponent's base during their most vulnerable transition moment, creating space for hip escape and guard recovery to half guard
 - **Risk**: If the bridge is poorly timed or weak, the opponent absorbs it and completes the grip connection while you are fatigued from the explosive effort
 
 ### 3. Turn into the opponent and attempt to reach turtle position during the grip transition before the hip switch is completed
 
 - **When to use**: When the opponent is threading the grip but has not yet completed the hip switch—turning into them before chest-to-chest alignment prevents the optimal choking angle
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Reaching turtle position breaks the choking angle and may allow back escape or guard recovery from the turtle position
 - **Risk**: Turning into the opponent with the grip partially connected may tighten the choke temporarily—abandon the turn immediately if you feel increased neck compression
 
 ### 4. Frame against the opponent's hip with your free arm and hip escape away to create distance that breaks the choking structure
 
 - **When to use**: When the grip is connected but the hip switch is not yet complete—the perpendicular angle provides enough space to hip escape if timed with a strong frame
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creating distance through the hip escape separates the compression structure and allows knee insertion for half guard recovery
 - **Risk**: Hip escaping too slowly allows the opponent to follow with the hip switch, re-establishing the choking position from a potentially worse angle
 
@@ -239,11 +239,11 @@ Defending the Arm Triangle from Scarf Hold requires recognizing the submission t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a bridge-and-hip-escape during the grip transition moment when the attacker modifies head control to thread the choking arm, exploiting the brief window of reduced positional control to insert your knee and recover half guard
 
-### → [[Scarf Hold Position]]
+### → [[Positions/Side Control/Scarf Hold Position]]
 
 Successfully retract the trapped arm before it crosses the centerline, preventing the choke from being established and forcing the attacker to return to standard scarf hold control
 

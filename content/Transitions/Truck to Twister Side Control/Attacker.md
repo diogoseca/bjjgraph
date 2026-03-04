@@ -180,7 +180,7 @@ description: "Master the Truck to Twister Side Control transition as the attacki
 
 Executing the Transition to Twister Side Control requires converting your perpendicular truck alignment into lateral chest-to-side pressure while preserving the leg entanglement that anchors your control. The attacker must walk their upper body around the opponent's head, adjust the leg hook from a vertical to lateral configuration, and establish shoulder-to-mat pressure that pins the opponent's near shoulder. This is a deliberate, controlled transition that rewards patience and precise body mechanics over speed. The transition succeeds when the attacker arrives in a position where their chest drives the opponent's shoulder into the mat while the leg entanglement restricts hip mobility, creating the dual-control structure that makes Twister Side Control so dangerous offensively.
 
-**From Position**: [[Truck]] (Top)
+**From Position**: [[Positions/Twister Control/Truck]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ Executing the Transition to Twister Side Control requires converting your perpen
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Twister Side Control]] | 70% |
-| Failure | [[Truck]] | 20% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Twister Control/Twister Side Control]] | 70% |
+| Failure | [[Positions/Twister Control/Truck]] | 20% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -244,10 +244,10 @@ Executing the Transition to Twister Side Control requires converting your perpen
 
 ## Opponent Counters
 
-- **Opponent frames against your shoulder during walk-around to block rotation path** (Effectiveness: High) - Your Response: Use your posted hand to strip their frame before continuing the rotation, or switch to a roll-through entry that goes over their frame rather than through it. If the frame is too strong, return to truck attacks that punish their arm extension. → Leads to [[Truck]]
-- **Opponent executes granby roll during the transition to escape to turtle or guard** (Effectiveness: Medium) - Your Response: Follow the granby roll with your leg entanglement, converting their roll momentum into a back take or re-establishing truck position. The leg hook should prevent a clean granby escape if maintained throughout the rotation. → Leads to [[Half Guard]]
-- **Opponent straightens trapped leg and hip escapes to extract from leg entanglement** (Effectiveness: Medium) - Your Response: If you feel the leg hook loosening, immediately abort the walk-around and re-secure the entanglement from truck. Alternatively, if you are already partially rotated, commit fully to side control without the leg entanglement and consolidate from standard side control. → Leads to [[Half Guard]]
-- **Opponent bridges explosively during the rotation to create scramble** (Effectiveness: Low) - Your Response: Post your outside hand wide to absorb the bridge force and use your body weight to ride the bridge back down. The leg entanglement limits the effectiveness of bridging, so this counter typically fails if your hooks are maintained. Continue the rotation once the bridge subsides. → Leads to [[Truck]]
+- **Opponent frames against your shoulder during walk-around to block rotation path** (Effectiveness: High) - Your Response: Use your posted hand to strip their frame before continuing the rotation, or switch to a roll-through entry that goes over their frame rather than through it. If the frame is too strong, return to truck attacks that punish their arm extension. → Leads to [[Positions/Twister Control/Truck]]
+- **Opponent executes granby roll during the transition to escape to turtle or guard** (Effectiveness: Medium) - Your Response: Follow the granby roll with your leg entanglement, converting their roll momentum into a back take or re-establishing truck position. The leg hook should prevent a clean granby escape if maintained throughout the rotation. → Leads to [[Positions/Half Guard]]
+- **Opponent straightens trapped leg and hip escapes to extract from leg entanglement** (Effectiveness: Medium) - Your Response: If you feel the leg hook loosening, immediately abort the walk-around and re-secure the entanglement from truck. Alternatively, if you are already partially rotated, commit fully to side control without the leg entanglement and consolidate from standard side control. → Leads to [[Positions/Half Guard]]
+- **Opponent bridges explosively during the rotation to create scramble** (Effectiveness: Low) - Your Response: Post your outside hand wide to absorb the bridge force and use your body weight to ride the bridge back down. The leg entanglement limits the effectiveness of bridging, so this counter typically fails if your hooks are maintained. Continue the rotation once the bridge subsides. → Leads to [[Positions/Twister Control/Truck]]
 
 
 </section>

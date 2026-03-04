@@ -21,7 +21,7 @@ Strategically, the Baratoplata Setup exploits the fundamental weakness of Meatho
 
 The technique requires precise timing and mechanical understanding. Unlike straight armlocks that attack the elbow through hyperextension, the Baratoplata attacks the shoulder through internal rotation combined with extension. This creates a submission that is difficult to defend through strength alone, as the rotational component bypasses the larger muscle groups that typically protect against arm attacks. For purple and brown belt practitioners, the Baratoplata represents an evolution beyond basic Rubber Guard attacks into the system's deeper submission chains.
 
-**From Position**: [[Meathook]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 55% |
-| Failure | [[Meathook]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Armbar Control]] | 55% |
+| Failure | [[Positions/Rubber Guard/Meathook]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -187,23 +187,23 @@ The Baratoplata Setup represents the third layer of the Meathook attack system w
 ## Related Techniques
 
 
-- [[Meathook]] - Starting position providing arm isolation and broken posture required for entry
+- [[Positions/Rubber Guard/Meathook]] - Starting position providing arm isolation and broken posture required for entry
 
-- [[Baratoplata]] - Finishing submission reached through this setup transition
+- [[Transitions/Baratoplata]] - Finishing submission reached through this setup transition
 
-- [[Armbar from Guard]] - Alternative attack when opponent straightens arm to defend figure-four
+- [[Submissions/Armbar from Guard]] - Alternative attack when opponent straightens arm to defend figure-four
 
-- [[Armbar Control]] - Success outcome position where figure-four shoulder lock is secured
+- [[Positions/Armbar Control]] - Success outcome position where figure-four shoulder lock is secured
 
-- [[Gogoplata Control]] - Alternative attack when opponent stacks forward into Meathook
+- [[Positions/Gogoplata Control]] - Alternative attack when opponent stacks forward into Meathook
 
-- [[Closed Guard to Omoplata]] - Chain attack when Baratoplata is defended by arm straightening
+- [[Transitions/Closed Guard to Omoplata]] - Chain attack when Baratoplata is defended by arm straightening
 
-- [[Mission Control]] - Prerequisite Rubber Guard position that feeds into Meathook
+- [[Positions/Rubber Guard/Mission Control]] - Prerequisite Rubber Guard position that feeds into Meathook
 
-- [[Omoplata Control]] - Related shoulder attack system sharing similar arm isolation mechanics
+- [[Positions/Omoplata Control]] - Related shoulder attack system sharing similar arm isolation mechanics
 
-- [[Closed Guard]] - Counter outcome position when opponent successfully escapes Meathook control
+- [[Positions/Closed Guard]] - Counter outcome position when opponent successfully escapes Meathook control
 
 
 </section>

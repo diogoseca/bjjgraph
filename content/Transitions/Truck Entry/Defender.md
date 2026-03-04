@@ -154,7 +154,7 @@ description: "How to defend against Truck Entry in BJJ. Recognition cues, defens
 
 Defending the Truck Entry requires early recognition and immediate hip management from turtle bottom. The defender must prevent the attacker from threading their leg hook under the hips while simultaneously protecting against the upper body control that makes the roll to Truck possible. The critical defensive window is narrow: once the hook is deep and the seatbelt is locked, the roll to Truck becomes very difficult to stop. Effective defense therefore focuses on denying the entry conditions rather than escaping after the Truck is established. The defender should prioritize keeping hips low and tight to deny threading space, fighting hand grips before they consolidate into seatbelt control, and creating motion that disrupts the attacker's perpendicular angle. Understanding the attacker's sequencing allows you to identify and exploit the moments of vulnerability during their entry attempt.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the Truck Entry requires early recognition and immediate hip managemen
 ### 1. Sit back to guard immediately when you feel perpendicular angle being established
 
 - **When to use**: Early in the entry sequence before the leg hook is threaded, when you recognize the attacker shifting to perpendicular position
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You recover to closed guard or half guard, completely denying the Truck Entry and forcing the attacker to restart their passing sequence
 - **Risk**: If timed too late, the attacker may follow your backward motion and establish the hook during your transition
 
 ### 2. Flatten hips to the mat to deny leg hook threading space
 
 - **When to use**: When you feel the attacker lifting your far hip or beginning to thread their leg underneath your body
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: The attacker cannot complete the hook threading and must abandon the Truck Entry attempt, returning to standard turtle top attacks
 - **Risk**: Flattening exposes you to alternative attacks like Crucifix entries and makes it harder to recover guard from the prone position
 
 ### 3. Granby roll away from the hooking side to create separation
 
 - **When to use**: When the hook is partially threaded but the attacker has not yet secured upper body control, and their weight is committed forward
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You escape the partial hook and recover to turtle or guard position, creating distance from the attacker
 - **Risk**: If the attacker follows the granby with their hook maintained, they may complete the Truck Entry using your rolling momentum
 
 ### 4. Strip the threading leg with your hands before it passes your centerline
 
 - **When to use**: In the moment the attacker's leg begins threading under your hips, before the foot emerges on the far side
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You prevent the hook from establishing and the attacker must reset their entry attempt from scratch
 - **Risk**: Using your hands to strip the leg temporarily removes them from defending your upper body, opening collar and choke attacks
 
@@ -226,11 +226,11 @@ Defending the Truck Entry requires early recognition and immediate hip managemen
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Deny the entry early by sitting back to guard, flattening hips, or stripping the threading leg before it establishes. This returns the exchange to a standard turtle top versus turtle bottom scenario where the attacker must find a new attack.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Execute a granby roll or explosive hip escape when the attacker commits to the entry, using their forward weight commitment against them to create separation. Time the escape for the moment they release base hand pressure to begin threading.
 

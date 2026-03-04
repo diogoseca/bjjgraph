@@ -184,7 +184,7 @@ The technique exploits a fundamental vulnerability in front headlock control: th
 
 Strategically, the arm drag escape is most effective when your opponent commits their weight forward into head control rather than sprawling back. This forward commitment gives you the leverage needed to redirect their arm. The technique pairs naturally with other front headlock escapes—if you threaten the arm drag, your opponent must adjust their arm position, which can open pathways for technical standup or granby roll escapes. This makes it an essential component of a complete front headlock defense system.
 
-**From Position**: [[Front Headlock]] (Bottom)
+**From Position**: [[Positions/Front Headlock]] (Bottom)
 
 </section>
 
@@ -237,10 +237,10 @@ Strategically, the arm drag escape is most effective when your opponent commits 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Success | [[Turtle]] | 10% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Success | [[Positions/Turtle]] | 10% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -249,10 +249,10 @@ Strategically, the arm drag escape is most effective when your opponent commits 
 
 ## Opponent Counters
 
-- **Opponent sprawls hips back and tightens choking arm when they feel the two-on-one grip being established** (Effectiveness: High) - Your Response: Switch to a technical standup or granby roll escape since their sprawl reduces forward pressure—the arm drag threat forced them to change position, opening other escape paths → Leads to [[Front Headlock]]
-- **Opponent switches from headlock to guillotine grip during the drag attempt, tightening around the neck as you try to circle your head** (Effectiveness: High) - Your Response: If guillotine locks before head clears, immediately posture into the opponent with shoulder pressure, tuck chin deeper, and work standard guillotine defense. The arm drag attempt is abandoned in favor of survival priorities → Leads to [[Front Headlock]]
-- **Opponent releases head control and spins to take the back as you commit to the lateral drag movement** (Effectiveness: Medium) - Your Response: Maintain control of the dragged arm and immediately turn to face them rather than continuing lateral movement. The two-on-one grip prevents them from securing seat belt control if you keep pulling their arm across your body while turning → Leads to [[Back Control]]
-- **Opponent posts their free hand on the mat and drives forward, smashing you flat before you can complete the drag** (Effectiveness: Medium) - Your Response: If being flattened, abandon the arm drag and immediately work to get your knees back under you. Use the grip you have on their arm as a frame to create enough space to reset to turtle before reattempting the escape → Leads to [[Front Headlock]]
+- **Opponent sprawls hips back and tightens choking arm when they feel the two-on-one grip being established** (Effectiveness: High) - Your Response: Switch to a technical standup or granby roll escape since their sprawl reduces forward pressure—the arm drag threat forced them to change position, opening other escape paths → Leads to [[Positions/Front Headlock]]
+- **Opponent switches from headlock to guillotine grip during the drag attempt, tightening around the neck as you try to circle your head** (Effectiveness: High) - Your Response: If guillotine locks before head clears, immediately posture into the opponent with shoulder pressure, tuck chin deeper, and work standard guillotine defense. The arm drag attempt is abandoned in favor of survival priorities → Leads to [[Positions/Front Headlock]]
+- **Opponent releases head control and spins to take the back as you commit to the lateral drag movement** (Effectiveness: Medium) - Your Response: Maintain control of the dragged arm and immediately turn to face them rather than continuing lateral movement. The two-on-one grip prevents them from securing seat belt control if you keep pulling their arm across your body while turning → Leads to [[Positions/Back Control]]
+- **Opponent posts their free hand on the mat and drives forward, smashing you flat before you can complete the drag** (Effectiveness: Medium) - Your Response: If being flattened, abandon the arm drag and immediately work to get your knees back under you. Use the grip you have on their arm as a frame to create enough space to reset to turtle before reattempting the escape → Leads to [[Positions/Front Headlock]]
 
 
 </section>

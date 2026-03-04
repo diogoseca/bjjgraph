@@ -21,7 +21,7 @@ The transition addresses a fundamental problem in leg lock exchanges: when oppon
 
 Strategically, this transition represents a positional improvement rather than a direct submission attempt. While ushiro offers attack opportunities, outside ashi-garami provides superior hip control, clearer heel exposure, and better transition options to saddle or honey hole. Advanced practitioners recognize when maintaining ushiro is disadvantageous and proactively return to outside ashi before losing control entirely. The technique requires understanding both leg entanglement configurations and the biomechanical principles that make outside ashi preferable for most finishing sequences.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition represents a positional improvement rather than a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Outside Ashi-Garami]] | 65% |
-| Failure | [[Ushiro Ashi-Garami]] | 25% |
-| Counter | [[50-50 Guard]] | 10% |
+| Success | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 65% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 25% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 10% |
 
 
 </section>
@@ -180,25 +180,25 @@ Return to Outside Ashi functions as a positional recovery tool within the compre
 ## Related Techniques
 
 
-- [[Outside Ashi-Garami]] - Target position after successful transition
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Target position after successful transition
 
-- [[Ushiro Ashi-Garami]] - Starting position where this transition initiates
+- [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Starting position where this transition initiates
 
-- [[Inside Ashi-Garami]] - Alternative standard configuration with similar mechanics
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative standard configuration with similar mechanics
 
-- [[Saddle]] - Alternative transition target when outside ashi is blocked
+- [[Positions/Ashi Garami/Saddle]] - Alternative transition target when outside ashi is blocked
 
-- [[50-50 Guard]] - Common counter position opponent may achieve
+- [[Positions/Ashi Garami/50-50 Guard]] - Common counter position opponent may achieve
 
-- [[Back Control]] - Alternative follow when opponent commits to turtle
+- [[Positions/Back Control]] - Alternative follow when opponent commits to turtle
 
-- [[Honey Hole]] - High-control position accessible from outside ashi
+- [[Positions/Ashi Garami/Honey Hole]] - High-control position accessible from outside ashi
 
-- [[Heel Hook]] - Primary submission from the target outside ashi position
+- [[Transitions/Heel Hook]] - Primary submission from the target outside ashi position
 
-- [[Kneebar from Ushiro]] - Alternative attack if transition is not viable
+- [[Transitions/Kneebar from Ushiro]] - Alternative attack if transition is not viable
 
-- [[Cross Ashi-Garami]] - Related entanglement accessible during transition scrambles
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Related entanglement accessible during transition scrambles
 
 
 </section>

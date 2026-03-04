@@ -21,7 +21,7 @@ Mechanically, the transition requires the top player to walk their hips forward 
 
 Strategically, this transition is most commonly executed when the bottom player begins exploiting Kesa Gatame's back exposure, when the top player wants to access different submission angles, or when the top player recognizes that the opponent is too skilled to hold in traditional Kesa Gatame long-term. The Modified Scarf Hold destination offers better energy efficiency for the top player and significantly higher submission rates through americana, kimura, and arm triangle chains. Understanding when and how to make this shift separates intermediate practitioners who get stuck in Kesa Gatame from advanced players who flow through the entire scarf hold family.
 
-**From Position**: [[Kesa Gatame]] (Top)
+**From Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
 **Success Rate**: 70%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition is most commonly executed when the bottom player 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Modified Scarf Hold]] | 70% |
-| Failure | [[Kesa Gatame]] | 20% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control/Modified Scarf Hold]] | 70% |
+| Failure | [[Positions/Side Control/Kesa Gatame]] | 20% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -189,27 +189,27 @@ This transition sits at the center of the scarf hold positional family, connecti
 ## Related Techniques
 
 
-- [[Kesa Gatame]] - Starting position for this transition
+- [[Positions/Side Control/Kesa Gatame]] - Starting position for this transition
 
-- [[Modified Scarf Hold]] - Target position achieved on success
+- [[Positions/Side Control/Modified Scarf Hold]] - Target position achieved on success
 
-- [[Side Control]] - Parent positional family
+- [[Positions/Side Control]] - Parent positional family
 
-- [[Side Control to Kesa Gatame]] - Preceding transition in the scarf hold chain
+- [[Transitions/Side Control to Kesa Gatame]] - Preceding transition in the scarf hold chain
 
-- [[Kesa Gatame to Reverse Kesa-Gatame]] - Alternative transition from the same starting position
+- [[Transitions/Kesa Gatame to Reverse Kesa-Gatame]] - Alternative transition from the same starting position
 
-- [[Americana]] - Primary submission threat during and after transition
+- [[Transitions/Americana]] - Primary submission threat during and after transition
 
-- [[Kimura]] - High-percentage submission available from target position
+- [[Transitions/Kimura]] - High-percentage submission available from target position
 
-- [[Arm Triangle]] - Choke option enabled by chest-to-chest pressure in target position
+- [[Transitions/Arm Triangle]] - Choke option enabled by chest-to-chest pressure in target position
 
-- [[Side Control to Mount]] - Advancement option from the target Modified Scarf Hold
+- [[Transitions/Side Control to Mount]] - Advancement option from the target Modified Scarf Hold
 
-- [[Side Control to North-South]] - Alternative transition available from target position
+- [[Transitions/Side Control to North-South]] - Alternative transition available from target position
 
-- [[Half Guard]] - Counter outcome position if bottom player recovers guard
+- [[Positions/Half Guard]] - Counter outcome position if bottom player recovers guard
 
 
 </section>

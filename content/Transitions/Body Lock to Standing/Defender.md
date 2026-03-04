@@ -146,7 +146,7 @@ description: "Learn to defend and capitalize on the Body Lock to Standing transi
 
 From the defender's perspective, the opponent's decision to release body lock control represents both a positional improvement and a counter-attack opportunity. While returning to neutral standing is inherently better than remaining trapped in body lock bottom, the real value lies in capitalizing on the brief transition window when the opponent has abandoned their grip control but has not yet created safe distance. This window, lasting less than one second, provides an opportunity for takedowns, re-clinching on favorable terms, or guard pulls that can reverse the positional dynamic entirely. Understanding the recognition cues and training automatic counter-attack responses transforms this moment from passive relief into an active offensive advantage that can shift match momentum decisively in your favor.
 
-**Opponent's Starting Position**: [[Body Lock]] (Top)
+**Opponent's Starting Position**: [[Positions/Body Lock]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ From the defender's perspective, the opponent's decision to release body lock co
 ### 1. Time double leg or single leg takedown during the grip release window
 
 - **When to use**: When you feel the opponent's grip loosening and their chest separating from your back, creating the control gap before their hip frames are fully established
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You score a takedown and establish top position while opponent ends up in half guard bottom, converting their tactical reset into your decisive positional advantage
 - **Risk**: If the shot is poorly timed, you may run into their push-off frames and end up in a worse standing position or absorb a sprawl
 
 ### 2. Establish your own clinch grips during the release to maintain connection and prevent clean separation
 
 - **When to use**: When the opponent begins transitioning their grip but has not yet executed the explosive push-off, allowing you to grab their wrists, secure collar tie, or establish an underhook
-- **Targets**: [[Body Lock]]
+- **Targets**: [[Positions/Body Lock]]
 - **If successful**: You prevent the clean separation and force the exchange to continue in close range where you can work your own clinch offense or fight for neutral position
 - **Risk**: If the opponent executes a strong push-off despite your grips, you may be pulled off balance or have your grips broken by the explosive force
 
 ### 3. Accept the disengage and immediately establish dominant standing grips before opponent resets
 
 - **When to use**: When the opponent's push-off is too explosive to counter with a shot or clinch and the separation is happening regardless of your defensive efforts
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You return to neutral standing with grip advantage because you anticipated the reset while the opponent is still transitioning to their fighting stance
 - **Risk**: Minimal risk as you are accepting the inherent positional improvement from body lock bottom to neutral standing
 
 ### 4. Pull guard during the transition to establish your preferred ground position on your terms
 
 - **When to use**: When you prefer ground engagement over standing exchange and the opponent's release provides an opportunity to sit to guard with control grips already established
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You dictate where the match goes rather than accepting the opponent's preferred standing reset, establishing your guard game before they can initiate standing offense
 - **Risk**: Poor guard pull timing during the transition can result in being passed immediately or ending up in a compromised ground position without proper guard structure
 
@@ -217,11 +217,11 @@ From the defender's perspective, the opponent's decision to release body lock co
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a takedown attempt during the grip release window when the opponent has neither locked grip control nor sufficient distance for defensive sprawl. Attack the moment their hands transition from lock to frames, exploiting the control vacuum before they can establish hip frame contact and execute the push-off.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Accept the separation but immediately close distance with your own grip fighting sequence before the opponent can fully reset their stance. Rush forward as they push off, establishing collar tie or underhook control while they are still transitioning to their fighting stance, seizing initiative in the new standing exchange.
 

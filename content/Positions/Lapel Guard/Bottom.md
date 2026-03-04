@@ -214,27 +214,27 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 
 ## Available Escapes
 
-### [[Worm Guard Entry]] (16% of attempts)
+### [[Transitions/Worm Guard Entry]] (16% of attempts)
 
-### [[Squid Guard Entry]] (12% of attempts)
+### [[Transitions/Squid Guard Entry]] (12% of attempts)
 
-### [[Ringworm Guard Entry]] (5% of attempts)
+### [[Transitions/Ringworm Guard Entry]] (5% of attempts)
 
-### [[Lapel Sweep to Back]] (22% of attempts)
+### [[Transitions/Lapel Sweep to Back]] (22% of attempts)
 
-### [[Lapel Omoplata Entry]] (8% of attempts)
+### [[Transitions/Lapel Omoplata Entry]] (8% of attempts)
 
-### [[Lapel Triangle Setup]] (6% of attempts)
+### [[Transitions/Lapel Triangle Setup]] (6% of attempts)
 
-### [[Lapel to Lasso Guard]] (7% of attempts)
+### [[Transitions/Lapel to Lasso Guard]] (7% of attempts)
 
-### [[Lapel to Spider Guard]] (7% of attempts)
+### [[Transitions/Lapel to Spider Guard]] (7% of attempts)
 
-### [[Lapel to De La Riva]] (7% of attempts)
+### [[Transitions/Lapel to De La Riva]] (7% of attempts)
 
-### [[Lapel Elevator Sweep]] (8% of attempts)
+### [[Transitions/Lapel Elevator Sweep]] (8% of attempts)
 
-### [[Lapel Guard to Piranha Guard]] (2% of attempts)
+### [[Transitions/Lapel Guard to Piranha Guard]] (2% of attempts)
 
 
 
@@ -245,23 +245,23 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 ## Decision Making from This Position
 
 **If opponent stands with upright posture and attempts to create distance:**
-- Execute **[[Worm Guard Entry]]** → [[Worm Guard]] (Probability: 70%)
-- Execute **[[Lapel to De La Riva]]** → [[De La Riva Guard]] (Probability: 60%)
+- Execute **[[Transitions/Worm Guard Entry]]** → [[Positions/Worm Guard]] (Probability: 70%)
+- Execute **[[Transitions/Lapel to De La Riva]]** → [[Positions/De La Riva Guard]] (Probability: 60%)
 
 
 **If opponent attempts pressure pass with low posture driving forward:**
-- Execute **[[Squid Guard Entry]]** → [[Squid Guard]] (Probability: 65%)
-- Execute **[[Lapel Triangle Setup]]** → [[Triangle Control]] (Probability: 50%)
+- Execute **[[Transitions/Squid Guard Entry]]** → [[Positions/Squid Guard]] (Probability: 65%)
+- Execute **[[Transitions/Lapel Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 50%)
 
 
 **If opponent posts hand to base while attempting to clear lapel:**
-- Execute **[[Lapel Omoplata Entry]]** → [[Omoplata Control]] (Probability: 55%)
-- Execute **[[Lapel Sweep to Back]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Lapel Omoplata Entry]]** → [[Positions/Omoplata Control]] (Probability: 55%)
+- Execute **[[Transitions/Lapel Sweep to Back]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent successfully strips primary lapel grip:**
-- Execute **[[Lapel to Spider Guard]]** → [[Spider Guard]] (Probability: 65%)
-- Execute **[[Lapel to Lasso Guard]]** → [[Lasso Guard]] (Probability: 60%)
+- Execute **[[Transitions/Lapel to Spider Guard]]** → [[Positions/Spider Guard]] (Probability: 65%)
+- Execute **[[Transitions/Lapel to Lasso Guard]]** → [[Positions/Lasso Guard]] (Probability: 60%)
 
 
 
@@ -395,16 +395,16 @@ From established lapel guard, partner defends first submission attempt (triangle
 
 ## Related Positions and Techniques
 
-- **[[Worm Guard]]** - Primary variation with lapel wrapped around opponent's leg
-- **[[Squid Guard]]** - Arm control variation complementing worm guard
-- **[[Ringworm Guard]]** - Advanced configuration combining multiple lapel wraps
-- **[[Spider Guard]]** - Traditional guard that combines well with lapel grips
-- **[[Lasso Guard]]** - Shares control principles and can be combined with lapel control
-- **[[De La Riva Guard]]** - Common entry position for establishing lapel configurations
-- **[[Collar Sleeve Guard]]** - Traditional guard that transitions naturally to lapel variations
-- **[[Triangle Control]]** - Common submission finish from lapel guard setups
-- **[[Omoplata Control]]** - Shoulder lock option from squid guard configurations
-- **[[Back Control]]** - High-percentage destination from lapel guard back takes
+- **[[Positions/Worm Guard]]** - Primary variation with lapel wrapped around opponent's leg
+- **[[Positions/Squid Guard]]** - Arm control variation complementing worm guard
+- **[[Positions/Ringworm Guard]]** - Advanced configuration combining multiple lapel wraps
+- **[[Positions/Spider Guard]]** - Traditional guard that combines well with lapel grips
+- **[[Positions/Lasso Guard]]** - Shares control principles and can be combined with lapel control
+- **[[Positions/De La Riva Guard]]** - Common entry position for establishing lapel configurations
+- **[[Positions/Collar Sleeve Guard]]** - Traditional guard that transitions naturally to lapel variations
+- **[[Positions/Triangle Control]]** - Common submission finish from lapel guard setups
+- **[[Positions/Omoplata Control]]** - Shoulder lock option from squid guard configurations
+- **[[Positions/Back Control]]** - High-percentage destination from lapel guard back takes
 
 
 </section>

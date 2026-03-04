@@ -21,7 +21,7 @@ The rolling escape requires precise timing and directional awareness. The bottom
 
 This technique occupies a specific niche in the turtle escape hierarchy. It carries higher risk than incremental guard recovery methods like the sit-through or technical stand-up, but offers faster positional improvement when executed with proper timing. The primary danger is back exposure during the rotation phase, as an opponent who reads the roll can follow the movement and establish hooks. Practitioners should develop this escape as a complement to more conservative methods, deploying it when clear rolling opportunities present themselves rather than forcing it against settled pressure.
 
-**From Position**: [[Rodeo Ride]] (Bottom)
+**From Position**: [[Positions/Rodeo Ride]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ This technique occupies a specific niche in the turtle escape hierarchy. It carr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Open Guard]] | 10% |
-| Failure | [[Rodeo Ride]] | 30% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Rodeo Ride]] | 30% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -192,25 +192,25 @@ The Roll from Rodeo Ride integrates into the broader turtle escape system as a m
 ## Related Techniques
 
 
-- [[Rodeo Ride]] - Starting position from which this rolling escape is executed
+- [[Positions/Rodeo Ride]] - Starting position from which this rolling escape is executed
 
-- [[Half Guard]] - Primary guard recovery target after successful roll completion
+- [[Positions/Half Guard]] - Primary guard recovery target after successful roll completion
 
-- [[Back Control]] - Counter position the opponent may achieve if they follow the roll and insert hooks
+- [[Positions/Back Control]] - Counter position the opponent may achieve if they follow the roll and insert hooks
 
-- [[Turtle]] - Related defensive base position underlying the Rodeo Ride control
+- [[Positions/Turtle]] - Related defensive base position underlying the Rodeo Ride control
 
-- [[Open Guard]] - Alternative guard recovery target from a clean, fully-separated roll
+- [[Positions/Open Guard]] - Alternative guard recovery target from a clean, fully-separated roll
 
-- [[Escape from Rodeo Ride]] - Related escape technique from the same starting position that leads to side control top
+- [[Transitions/Escape from Rodeo Ride]] - Related escape technique from the same starting position that leads to side control top
 
-- [[Rodeo Ride to Back Control]] - Opponent's primary counter transition when they follow the roll and capitalize on back exposure
+- [[Transitions/Rodeo Ride to Back Control]] - Opponent's primary counter transition when they follow the roll and capitalize on back exposure
 
-- [[Calf Slicer from Rodeo Ride]] - Submission threat from Rodeo Ride that motivates attempting this escape
+- [[Submissions/Calf Slicer from Rodeo Ride]] - Submission threat from Rodeo Ride that motivates attempting this escape
 
-- [[Rear Naked Choke from Rodeo]] - Back control submission threat that escalates if the roll fails into back control
+- [[Submissions/Rear Naked Choke from Rodeo]] - Back control submission threat that escalates if the roll fails into back control
 
-- [[Roll Escape from Russian Cowboy]] - Similar rolling escape technique from a related riding control position
+- [[Transitions/Roll Escape from Russian Cowboy]] - Similar rolling escape technique from a related riding control position
 
 
 </section>

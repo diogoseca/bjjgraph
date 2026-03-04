@@ -180,7 +180,7 @@ description: "How to execute Turtle to Truck in BJJ. Attacking perspective with 
 
 The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jitsu system and modern no-gi grappling. When an opponent assumes the turtle position, the Truck offers a devastating alternative to traditional back takes, providing access to the Twister submission, various calf slicers, and back control options. The Truck position involves controlling the opponent's leg while maintaining a specific body configuration that creates the signature "truck" shape - hence the name. This transition is particularly effective because it exploits the turtle position's inherent vulnerability to leg attacks while the opponent focuses on defending their neck and preventing traditional back takes. The Truck serves as a gateway position within the larger Twister system, allowing the attacker to create multiple submission threats simultaneously. What makes this transition especially valuable is its ability to bypass traditional back defense protocols, as most practitioners are conditioned to defend against seat belt control rather than leg-based attacks from turtle. The success of this transition relies on timing, understanding weight distribution, and the ability to coordinate upper and lower body control simultaneously.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -235,9 +235,9 @@ The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jit
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Truck]] | 70% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Twister Control/Truck]] | 70% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -246,11 +246,11 @@ The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jit
 
 ## Opponent Counters
 
-- **Opponent sits back aggressively, trying to sit into you before you secure the leg** (Effectiveness: High) - Your Response: Abandon the Truck entry and transition to back control with seat belt grip. Use their backward momentum to take their back traditionally. Alternatively, switch to a Crab Ride position if they sit partially. → Leads to [[Turtle]]
-- **Opponent stands up explosively before you can triangle your legs** (Effectiveness: Medium) - Your Response: Maintain your grip on their far leg and use it to trip them back down to turtle, or transition to a single leg takedown if they fully stand. Don't release the leg grip until you've reestablished positional control. → Leads to [[Turtle]]
-- **Opponent rolls forward into you, attempting to crush your leg hook** (Effectiveness: Medium) - Your Response: Follow their roll and use the momentum to complete the Truck entry from the opposite angle. Your leg position actually improves as they roll. Alternatively, release and take their back as they roll through. → Leads to [[Truck]]
-- **Opponent pulls their trapped leg out before you lock the triangle** (Effectiveness: High) - Your Response: Immediately switch to traditional back attack sequences - climb to seat belt control and secure hooks. The failed Truck attempt has already compromised their turtle structure, making back control easier. → Leads to [[Turtle]]
-- **Opponent grabs your leg and attempts to straighten it to escape the triangle** (Effectiveness: Low) - Your Response: Tighten your triangle immediately and extend their trapped leg while pulling them. Their grip on your leg actually prevents them from defending the more dangerous Twister attack. Transition directly to submission. → Leads to [[Truck]]
+- **Opponent sits back aggressively, trying to sit into you before you secure the leg** (Effectiveness: High) - Your Response: Abandon the Truck entry and transition to back control with seat belt grip. Use their backward momentum to take their back traditionally. Alternatively, switch to a Crab Ride position if they sit partially. → Leads to [[Positions/Turtle]]
+- **Opponent stands up explosively before you can triangle your legs** (Effectiveness: Medium) - Your Response: Maintain your grip on their far leg and use it to trip them back down to turtle, or transition to a single leg takedown if they fully stand. Don't release the leg grip until you've reestablished positional control. → Leads to [[Positions/Turtle]]
+- **Opponent rolls forward into you, attempting to crush your leg hook** (Effectiveness: Medium) - Your Response: Follow their roll and use the momentum to complete the Truck entry from the opposite angle. Your leg position actually improves as they roll. Alternatively, release and take their back as they roll through. → Leads to [[Positions/Twister Control/Truck]]
+- **Opponent pulls their trapped leg out before you lock the triangle** (Effectiveness: High) - Your Response: Immediately switch to traditional back attack sequences - climb to seat belt control and secure hooks. The failed Truck attempt has already compromised their turtle structure, making back control easier. → Leads to [[Positions/Turtle]]
+- **Opponent grabs your leg and attempts to straighten it to escape the triangle** (Effectiveness: Low) - Your Response: Tighten your triangle immediately and extend their trapped leg while pulling them. Their grip on your leg actually prevents them from defending the more dangerous Twister attack. Transition directly to submission. → Leads to [[Positions/Twister Control/Truck]]
 
 
 </section>

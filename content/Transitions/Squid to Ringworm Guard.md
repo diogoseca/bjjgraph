@@ -21,7 +21,7 @@ The strategic value of this transition lies in disrupting the top player's adapt
 
 Timing is the critical factor in this reconfiguration. The lapel must be momentarily loosened and rethreaded through a different path around the opponent's leg, creating a brief vulnerability window where the bottom player lacks full guard control. Maintaining at least one secondary control point—typically a sleeve grip or active leg frame—throughout the reconfiguration prevents the opponent from capitalizing on this transitional gap. Advanced practitioners integrate this transition into a broader lapel guard cycling system, moving fluidly between Squid, Ringworm, and Worm Guard to keep opponents perpetually adjusting their defensive responses.
 
-**From Position**: [[Squid Guard]] (Bottom)
+**From Position**: [[Positions/Squid Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Timing is the critical factor in this reconfiguration. The lapel must be momenta
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Ringworm Guard]] | 55% |
-| Failure | [[Squid Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Ringworm Guard]] | 55% |
+| Failure | [[Positions/Squid Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -193,23 +193,23 @@ The Squid to Ringworm Guard transition sits at the heart of the modern lapel gua
 ## Related Techniques
 
 
-- [[Squid Guard]] - Source position - the starting guard configuration for this transition
+- [[Positions/Squid Guard]] - Source position - the starting guard configuration for this transition
 
-- [[Ringworm Guard]] - Target position - the guard configuration achieved after successful execution
+- [[Positions/Ringworm Guard]] - Target position - the guard configuration achieved after successful execution
 
-- [[Worm Guard]] - Related lapel guard that Ringworm frequently transitions to, forming a three-guard cycling system
+- [[Positions/Worm Guard]] - Related lapel guard that Ringworm frequently transitions to, forming a three-guard cycling system
 
-- [[Lapel Guard]] - Parent guard category encompassing both Squid and Ringworm configurations
+- [[Positions/Lapel Guard]] - Parent guard category encompassing both Squid and Ringworm configurations
 
-- [[De La Riva Guard]] - Shares hook mechanics used in the Squid Guard setup that precedes this transition
+- [[Positions/De La Riva Guard]] - Shares hook mechanics used in the Squid Guard setup that precedes this transition
 
-- [[Spider Guard]] - Alternative guard system to transition into if lapel control degrades during reconfiguration
+- [[Positions/Spider Guard]] - Alternative guard system to transition into if lapel control degrades during reconfiguration
 
-- [[Open Guard]] - Fallback position when lapel structure is completely lost during the transition
+- [[Positions/Open Guard]] - Fallback position when lapel structure is completely lost during the transition
 
-- [[Back Control]] - Strategic advancement target reachable from both source and target guard systems
+- [[Positions/Back Control]] - Strategic advancement target reachable from both source and target guard systems
 
-- [[Piranha Guard]] - Related advanced lapel guard variation within the same guard ecosystem
+- [[Positions/Piranha Guard]] - Related advanced lapel guard variation within the same guard ecosystem
 
 
 </section>

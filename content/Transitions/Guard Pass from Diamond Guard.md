@@ -21,7 +21,7 @@ The central challenge is that diamond guard's two control points protect each ot
 
 Timing is critical throughout this transition. The guard player's counter-attack threats peak during the grip-stripping phase when the passer's weight distribution shifts. The hip bump sweep becomes particularly dangerous when the passer shifts weight backward during posture recovery. Successful passers maintain heavy hips throughout and only commit to standing or knee-based guard opening after the diamond frame has been sufficiently degraded.
 
-**From Position**: [[Diamond Guard]] (Top)
+**From Position**: [[Positions/Closed Guard/Diamond Guard]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Timing is critical throughout this transition. The guard player's counter-attack
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Diamond Guard]] | 30% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Closed Guard/Diamond Guard]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ Guard Pass from Diamond Guard occupies a critical role in the passing hierarchy 
 ## Related Techniques
 
 
-- [[Diamond Guard]] - Source position where this transition begins — the passer must understand diamond guard's submission threats to pass safely
+- [[Positions/Closed Guard/Diamond Guard]] - Source position where this transition begins — the passer must understand diamond guard's submission threats to pass safely
 
-- [[Side Control]] - Primary target position after successful guard pass completion
+- [[Positions/Side Control]] - Primary target position after successful guard pass completion
 
-- [[Mount]] - Counter outcome position when the guard player executes a hip bump sweep during the pass attempt
+- [[Positions/Mount]] - Counter outcome position when the guard player executes a hip bump sweep during the pass attempt
 
-- [[Closed Guard]] - Parent guard position with shared passing concepts and fundamental mechanics
+- [[Positions/Closed Guard]] - Parent guard position with shared passing concepts and fundamental mechanics
 
-- [[Half Guard]] - Common intermediate position if the pass is only partially completed before the guard player recovers
+- [[Positions/Half Guard]] - Common intermediate position if the pass is only partially completed before the guard player recovers
 
-- [[Headquarters Position]] - Optimal passing stance achieved after opening the diamond guard, providing multiple passing options
+- [[Positions/Headquarters Position]] - Optimal passing stance achieved after opening the diamond guard, providing multiple passing options
 
-- [[Open Guard]] - Fallback guard position if the diamond frame breaks but the guard player retains open guard
+- [[Positions/Open Guard]] - Fallback guard position if the diamond frame breaks but the guard player retains open guard
 
-- [[Hip Bump Sweep]] - Primary counter-sweep threat from diamond guard that punishes weight shifts during the passing sequence
+- [[Transitions/Hip Bump Sweep]] - Primary counter-sweep threat from diamond guard that punishes weight shifts during the passing sequence
 
-- [[Body Lock Pass]] - Related pressure passing technique applicable after breaking the diamond frame and opening the guard
+- [[Transitions/Body Lock Pass]] - Related pressure passing technique applicable after breaking the diamond frame and opening the guard
 
-- [[Combat Base]] - Posture recovery base used during the initial phase of neutralizing the diamond controls
+- [[Positions/Combat Base]] - Posture recovery base used during the initial phase of neutralizing the diamond controls
 
 
 </section>

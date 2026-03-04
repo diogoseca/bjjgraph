@@ -154,7 +154,7 @@ description: "Guide to maintaining body triangle control when opponent attempts 
 
 As the defender against this escape, you are the back controller with body triangle locked and must prevent your opponent from clearing the figure-four lock and turning to side control. Your position is one of the strongest in Brazilian Jiu-Jitsu, but it requires active maintenance and tactical awareness to prevent systematic clearing attempts. The key defensive principle is creating dilemmas where the opponent must choose between defending their neck and clearing the triangle, ensuring that any attention directed at the lock creates submission opportunities that force them back to defensive priorities. Skilled defenders treat escape attempts as offensive opportunities rather than positional threats.
 
-**Opponent's Starting Position**: [[Body Triangle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against this escape, you are the back controller with body trian
 ### 1. Tighten squeeze and increase pressure when opponent begins hip shifting
 
 - **When to use**: Immediately upon feeling opponent's hips begin to move toward the triangle side
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: Opponent is forced to stop hip movement and return to survival mode, resetting their escape progress
 - **Risk**: Sustained maximum squeeze drains your own leg energy, potentially loosening the lock over time
 
 ### 2. Attack neck aggressively when opponent's hand leaves defense for clearing attempt
 
 - **When to use**: The moment you feel one of the opponent's hands release from your choking arm to reach toward your legs
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: Opponent must abandon clearing attempt and return both hands to neck defense, or submit to the choke
 - **Risk**: Aggressive neck attack may momentarily loosen your own upper body control if not coordinated properly
 
 ### 3. Transition to standard back control hooks if triangle lock is compromised
 
 - **When to use**: When you feel the figure-four beginning to loosen and re-establishment is not immediately possible
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Maintain back control with hooks while working to re-establish body triangle from the hooks position
 - **Risk**: Standard hooks are easier for opponent to clear, so you must quickly work to re-lock triangle or advance attacks
 
 ### 4. Follow hip movement and adjust angle to maintain alignment behind opponent
 
 - **When to use**: When opponent uses incremental hip shifts to create angle for escape without immediately attacking the lock
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: Opponent's positioning work is negated, forcing them to restart their escape sequence from the beginning
 - **Risk**: Constant adjustment may create momentary looseness in the triangle that a quick opponent can exploit
 
@@ -225,11 +225,11 @@ As the defender against this escape, you are the back controller with body trian
 
 ## Best-Case Outcomes for Defender
 
-### → [[Body Triangle]]
+### → [[Positions/Back Control/Body Triangle]]
 
 Maintain tight figure-four lock and punish every clearing attempt with aggressive neck attacks that force the opponent to prioritize survival over escape. Follow their hip movement to maintain alignment and use squeeze pulses to prevent settling.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 If the triangle begins to loosen, immediately transition to standard hooks before losing back control entirely. Insert hooks deep inside the opponent's thighs and re-establish seatbelt control. Work to re-lock the body triangle once hooks are secured and the escape attempt has been disrupted.
 

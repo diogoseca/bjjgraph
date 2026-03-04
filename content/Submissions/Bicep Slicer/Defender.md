@@ -194,21 +194,21 @@ Defending the Bicep Slicer requires early recognition and decisive action, as th
 ### 1. Forcefully straighten the trapped arm by driving the elbow toward extension before the fulcrum is fully seated
 
 - **When to use**: As soon as you recognize shin placement behind the elbow and before the attacker secures tight wrist control. This is the highest-percentage defense and must be attempted immediately.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Eliminates the compression mechanism entirely, forcing the attacker to reset or transition to a different attack. Creates an opportunity to escape the underlying position.
 - **Risk**: If the attacker has already secured deep wrist control, the straightening attempt may fail and expend energy. The extending motion may also expose the arm to armbar attacks.
 
 ### 2. Use free hand to push attacker's shin away from behind the elbow, breaking the fulcrum connection
 
 - **When to use**: When the shin is partially seated behind the elbow but not yet fully locked in position. Most effective when the attacker has not yet controlled the free arm.
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Displaces the fulcrum, removing the compression threat. Attacker must reposition their leg to reattempt, buying time for positional escape.
 - **Risk**: Reaching across to push the shin may expose the free arm to control, potentially worsening the overall position if the attacker captures both arms.
 
 ### 3. Roll toward the attacker while pulling the trapped arm free during the positional scramble
 
 - **When to use**: When positional control begins to loosen during the submission attempt, particularly when the attacker commits weight to the compression and reduces their base stability.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates a scramble that disrupts both the submission and the dominant position, potentially recovering to half guard or turtle.
 - **Risk**: Rolling incorrectly can tighten the submission. If the attacker follows the roll and maintains shin-elbow connection, the bicep slicer may finish in the new position.
 
@@ -238,11 +238,11 @@ Defending the Bicep Slicer requires early recognition and decisive action, as th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Crucifix]]
+### → [[Positions/Crucifix]]
 
 Successfully displace the attacker's shin from behind the elbow using the free hand while maintaining composure, forcing them to abandon the submission and return to positional control where further escape opportunities exist
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Straighten the trapped arm decisively before the fulcrum is fully seated, then use the momentum and space created to shrimp and insert a knee shield, recovering to half guard where the bicep slicer is no longer available
 

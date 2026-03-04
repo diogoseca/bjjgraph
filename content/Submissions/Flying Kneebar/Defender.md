@@ -156,7 +156,7 @@ description: "How to defend against Flying Kneebar in BJJ. Recognition, escape p
 
 Defending the Flying Kneebar requires a two-phase approach: pre-contact recognition and prevention, followed by post-contact escape mechanics. The flying entry provides a narrow but critical window for defense before the attacker establishes position. Because the technique relies on surprise and commitment, early recognition of the setup cues - the attacker's angle change, penetration step, and hand positioning toward your lead leg - gives you the best opportunity to shut down the attack entirely by pulling your leg back or changing stance before they leave the ground. Once the attacker has committed to the jump and secured your ankle, the defensive priorities shift to preventing them from completing the rotation and consolidating kneebar position. The most dangerous moment for the defender is the 1-2 seconds after landing when the attacker is adjusting hip position and leg configuration - this is when escape attempts have the highest success rate. After the attacker locks their legs together and establishes proper hip alignment behind your knee, escape becomes exponentially more difficult and the priority shifts to tapping early to protect your knee. Understanding the biomechanics of the kneebar finish - specifically that extension comes from their hip drive, not their arm pull - informs which escape directions are viable and which defensive grips actually prevent the finish versus merely delaying it.
 
-**Opponent's Starting Position**: [[Standing Position]] ()
+**Opponent's Starting Position**: [[Positions/Standing Position]] ()
 
 
 </section>
@@ -194,28 +194,28 @@ Defending the Flying Kneebar requires a two-phase approach: pre-contact recognit
 ### 1. Pull targeted leg back and change stance immediately upon recognizing the setup angle and penetration step
 
 - **When to use**: During pre-contact phase when you recognize the attacker's angle change and hand positioning before they jump - this is the highest-percentage defense
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Attacker lands without securing your leg, resetting to neutral standing where you maintain top position advantage
 - **Risk**: Low - simply repositioning your stance carries minimal risk and completely denies the entry
 
 ### 2. Turn into the kneebar by rotating your body toward your trapped leg while bending your knee maximally and clasping hands behind your hamstring
 
 - **When to use**: After the attacker has landed and established initial kneebar position but before they lock their legs together and establish hip alignment - the first 1-2 seconds after landing
-- **Targets**: [[Standing Guard]]
+- **Targets**: [[Positions/Standing Guard]]
 - **If successful**: Rotation removes kneebar angle, and continued turning allows you to face the attacker and begin extracting your leg to recover standing position or top control
 - **Risk**: Medium - turning exposes your heel to heel hook transition if the attacker is experienced with leg lock chains
 
 ### 3. Drive forward and stack the attacker by pushing your weight over their head while simultaneously bending your trapped knee and fighting their ankle grip
 
 - **When to use**: Immediately after landing when the attacker is still consolidating position and their outside leg has not yet locked across your torso - you must act before they secure leg configuration
-- **Targets**: [[Standing Guard]]
+- **Targets**: [[Positions/Standing Guard]]
 - **If successful**: Forward pressure collapses their finishing structure, and combined with grip fighting on your trapped ankle, allows full leg extraction and return to top position
 - **Risk**: Medium - if the attacker has strong outside leg control, driving forward can actually deepen their kneebar position
 
 ### 4. Grab the attacker's outside leg (over your torso) with both hands and push it toward your feet while simultaneously sitting up and rotating
 
 - **When to use**: When the attacker has established position but you can still move your upper body - effective when their leg configuration is imperfect with loose outside leg control
-- **Targets**: [[Standing Guard]]
+- **Targets**: [[Positions/Standing Guard]]
 - **If successful**: Removing their outside leg eliminates half their control structure, allowing you to step over their body and extract your trapped leg to recover standing or top position
 - **Risk**: Medium - requires releasing any defensive grips on your own knee, briefly exposing you to the finish if the leg removal fails
 
@@ -238,11 +238,11 @@ Defending the Flying Kneebar requires a two-phase approach: pre-contact recognit
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Recognize the setup early and pull your targeted leg back before the attacker commits to the jump, resetting to neutral standing position with no positional disadvantage
 
-### → [[Standing Guard]]
+### → [[Positions/Standing Guard]]
 
 After being caught, turn into the kneebar and use the rotation to face the attacker, then drive forward to establish top position as they attempt to retain guard from their back
 

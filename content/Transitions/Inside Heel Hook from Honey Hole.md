@@ -21,7 +21,7 @@ The finishing mechanics demand precise grip configuration and hip-driven breakin
 
 Strategically, the inside heel hook serves as the primary threat that validates the entire Honey Hole position. The mere threat of this finish forces defensive reactions that open secondary attacks including kneebars, toe holds, and transitions to back control. Understanding both the offensive finishing mechanics and defensive survival protocols is essential for any serious no-gi practitioner training at purple belt and above, as the consequences of poor technique on either side range from lost positions to career-threatening knee injuries.
 
-**From Position**: [[Honey Hole]] (Top)
+**From Position**: [[Positions/Ashi Garami/Honey Hole]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -33,8 +33,8 @@ Strategically, the inside heel hook serves as the primary threat that validates 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Honey Hole]] | 30% |
-| Counter | [[50-50 Guard]] | 20% |
+| Failure | [[Positions/Ashi Garami/Honey Hole]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 20% |
 
 
 </section>
@@ -197,27 +197,27 @@ The inside heel hook from Honey Hole sits at the apex of the modern leg lock sys
 ## Related Techniques
 
 
-- [[Honey Hole]] - Source position providing the inside leg triangle control that enables this submission
+- [[Positions/Ashi Garami/Honey Hole]] - Source position providing the inside leg triangle control that enables this submission
 
-- [[Saddle]] - Alternative terminology for the same leg entanglement position used in different instructional systems
+- [[Positions/Ashi Garami/Saddle]] - Alternative terminology for the same leg entanglement position used in different instructional systems
 
-- [[Inside Ashi-Garami]] - Foundational entry position that precedes full Honey Hole establishment
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Foundational entry position that precedes full Honey Hole establishment
 
-- [[Inside Heel Hook]] - Generic inside heel hook submission technique applicable across multiple leg entanglements
+- [[Submissions/Inside Heel Hook]] - Generic inside heel hook submission technique applicable across multiple leg entanglements
 
-- [[Heel Hook from Saddle]] - Equivalent finishing technique from the same position under alternative naming convention
+- [[Transitions/Heel Hook from Saddle]] - Equivalent finishing technique from the same position under alternative naming convention
 
-- [[Inside Sankaku Heel Hook Finish]] - Related finishing sequence from inside sankaku configuration
+- [[Submissions/Inside Sankaku Heel Hook Finish]] - Related finishing sequence from inside sankaku configuration
 
-- [[50-50 Guard]] - Primary counter-entanglement escape target for defenders during heel hook attempts
+- [[Positions/Ashi Garami/50-50 Guard]] - Primary counter-entanglement escape target for defenders during heel hook attempts
 
-- [[Kneebar Control]] - Alternative attack position when heel is defended and kneebar becomes accessible
+- [[Positions/Kneebar Control]] - Alternative attack position when heel is defended and kneebar becomes accessible
 
-- [[Backside 50-50]] - Related leg entanglement offering outside heel hook access within the leg lock system
+- [[Positions/Ashi Garami/Backside 50-50]] - Related leg entanglement offering outside heel hook access within the leg lock system
 
-- [[Boot Scoot Escape from Saddle]] - Primary defensive escape technique used against this submission
+- [[Transitions/Boot Scoot Escape from Saddle]] - Primary defensive escape technique used against this submission
 
-- [[Counter Entangle to 50-50 from Ashi]] - Key defensive transition used to neutralize the inside entanglement advantage
+- [[Transitions/Counter Entangle to 50-50 from Ashi]] - Key defensive transition used to neutralize the inside entanglement advantage
 
 
 </section>

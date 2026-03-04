@@ -21,7 +21,7 @@ Strategically, this transition embodies the dilemma-based attacking philosophy c
 
 The mechanical execution requires maintaining hip pressure against the opponent's calf throughout the grip change, ensuring the leg remains isolated while the hands transition from the Estima Lock configuration to the toe hold wrap. The finish applies inward rotational force to the foot, stressing the ankle joint, surrounding ligaments, and potentially the knee through the connected kinetic chain. Understanding this complementary relationship between the Estima Lock and toe hold transforms a single-threat position into a dynamic submission system.
 
-**From Position**: [[Estima Lock]] (Top)
+**From Position**: [[Positions/Estima Lock]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -33,8 +33,8 @@ The mechanical execution requires maintaining hip pressure against the opponent'
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Estima Lock]] | 35% |
-| Counter | [[Open Guard]] | 20% |
+| Failure | [[Positions/Estima Lock]] | 35% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -189,23 +189,23 @@ The Toe Hold from Estima Lock functions as a critical secondary attack within mo
 ## Related Techniques
 
 
-- [[Estima Lock]] - Source position providing the established foot control from which this transition originates
+- [[Positions/Estima Lock]] - Source position providing the established foot control from which this transition originates
 
-- [[Toe Hold Control]] - Related control position for extended toe hold attacks when immediate finish is unavailable
+- [[Positions/Toe Hold Control]] - Related control position for extended toe hold attacks when immediate finish is unavailable
 
-- [[Estima Lock Finish]] - Primary submission from the source position that this transition complements as a chain attack
+- [[Submissions/Estima Lock Finish]] - Primary submission from the source position that this transition complements as a chain attack
 
-- [[Kneebar from Estima Lock]] - Alternative chain attack from same position targeting the knee rather than the ankle
+- [[Transitions/Kneebar from Estima Lock]] - Alternative chain attack from same position targeting the knee rather than the ankle
 
-- [[Counter from Estima Lock]] - Defensive counter transition that opponents may attempt during the grip change window
+- [[Transitions/Counter from Estima Lock]] - Defensive counter transition that opponents may attempt during the grip change window
 
-- [[Toe Hold from Outside Ashi]] - Related toe hold variation from a different leg entanglement with similar finishing mechanics
+- [[Transitions/Toe Hold from Outside Ashi]] - Related toe hold variation from a different leg entanglement with similar finishing mechanics
 
-- [[Ashi Garami]] - Parent leg entanglement system that the Estima Lock position belongs to
+- [[Positions/Ashi Garami]] - Parent leg entanglement system that the Estima Lock position belongs to
 
-- [[50-50 Guard]] - Common preceding position where Estima Lock entries develop during leg exchanges
+- [[Positions/Ashi Garami/50-50 Guard]] - Common preceding position where Estima Lock entries develop during leg exchanges
 
-- [[Saddle]] - Advanced leg entanglement accessible through Estima Lock grip transitions when toe hold is defended
+- [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement accessible through Estima Lock grip transitions when toe hold is defended
 
 
 </section>

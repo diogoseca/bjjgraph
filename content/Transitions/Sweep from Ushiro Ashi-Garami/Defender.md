@@ -146,7 +146,7 @@ description: "Defend against the sweep from Ushiro Ashi-Garami top. Learn to mai
 
 Defending the Sweep from Ushiro Ashi-Garami requires maintaining base integrity while simultaneously pursuing heel hook or ankle lock finishes from the reversed leg entanglement. The top player faces a fundamental dilemma: committing weight forward for submission finishes creates sweep vulnerability, while sitting back to maintain base reduces finishing effectiveness and may allow the bottom player to escape entirely. Effective defense centers on recognizing the sweep initiation cues—grip fighting on the posting hand, hip angle changes beneath you, and free leg repositioning for a mat post—and responding with appropriate base adjustments, posting, or positional transitions to saddle. Understanding the sweep's mechanical requirements allows the top player to systematically remove prerequisites rather than simply resisting the sweeping force, maintaining offensive initiative throughout the exchange without sacrificing base stability.
 
-**Opponent's Starting Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Sweep from Ushiro Ashi-Garami requires maintaining base integrity 
 ### 1. Maintain far-side posting hand free and ready to post on the mat
 
 - **When to use**: Continuously during all heel hook finishing attempts from ushiro ashi-garami top position
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Sweep is completely negated because the opponent cannot generate sufficient off-balance without controlling the posting hand, and you maintain top attacking position
 - **Risk**: Keeping one hand free for posting reduces the grip options available for heel hook finishing, potentially lowering submission success rate
 
 ### 2. Sit hips back to withdraw weight when sweep initiation is detected
 
 - **When to use**: When you feel the opponent's hips angle toward you and their free leg begins repositioning for a mat post
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Eliminates the forward weight commitment the sweep requires, forcing the opponent to abandon the sweep attempt and choose a different escape strategy
 - **Risk**: Sitting back creates space that may allow the opponent to complete a standard escape to turtle or extract their legs entirely
 
 ### 3. Transition to saddle by stepping outside leg through during opponent's sweep initiation
 
 - **When to use**: When you detect the sweep attempt early and can redirect your movement into a positional upgrade before the sweep gains momentum
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Convert the opponent's sweep attempt into a transition to a more dominant leg entanglement position, dramatically worsening their situation
 - **Risk**: Mistiming the saddle transition during active sweep rotation can result in losing leg entanglement entirely if the step-through is incomplete
 
 ### 4. Accelerate heel hook finish during the sweep rotation window
 
 - **When to use**: When the opponent commits to the sweep but their heel becomes momentarily exposed during the rotational movement
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Catch the heel hook during the sweep rotation when the opponent's defensive attention is focused on sweeping rather than heel protection, finishing the submission
 - **Risk**: If the heel hook is not tight enough and the sweep completes, you end up on bottom with a compromised attacking grip
 
@@ -217,11 +217,11 @@ Defending the Sweep from Ushiro Ashi-Garami requires maintaining base integrity 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ushiro Ashi-Garami]]
+### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Maintain far-side posting hand availability throughout all finishing attempts. When the sweep is initiated, immediately post the free hand on the mat and distribute weight away from the tipping point. The opponent's sweep attempt fails and they remain trapped in ushiro ashi-garami bottom.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 When the sweep attempt is detected early through recognition cues, redirect your movement by stepping your outside leg through to establish saddle configuration. The opponent's sweep momentum actually assists your transition by creating the rotational movement needed for your leg to clear into saddle position. This converts their offensive attempt into a worse position for them.
 

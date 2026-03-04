@@ -158,7 +158,7 @@ Successful defense hinges on three interconnected elements: aggressive hand figh
 
 The defender's strategic mindset should treat crackhead control as an urgent but not yet critical situation. While the position is disadvantageous, it offers significantly more defensive options than established back control. Every second the attacker spends establishing the prerequisites for the back take is a second the defender can use for grip fighting, hip movement, and escape attempts. The defender should maintain constant activity rather than waiting for the back take to happen and then trying to escape from an even worse position.
 
-**Opponent's Starting Position**: [[Crackhead Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The defender's strategic mindset should treat crackhead control as an urgent but
 ### 1. Explosive sit-through toward the attacker's rotation direction, turning your hips to face them and pulling your knees toward your chest to deny hook insertion while stripping the seatbelt with both hands
 
 - **When to use**: As soon as you feel the attacker shift weight forward off your hips to initiate the rotation - the brief moment when their hip pressure lightens is the optimal window
-- **Targets**: [[Crackhead Control]]
+- **Targets**: [[Positions/Crackhead Control]]
 - **If successful**: Resets the position to crackhead control by preventing the rotation from completing, forcing the attacker to re-establish the chair-sit and restart their back take sequence
 - **Risk**: If poorly timed, the sit-through exposes your back further and the attacker can follow your movement to accelerate their rotation to back control
 
 ### 2. Granby roll forward and away from the attacker, using explosive hip elevation and shoulder roll to invert and face the attacker, breaking their chest-to-back connection and creating space for guard recovery
 
 - **When to use**: When the attacker commits weight heavily forward onto your upper back during the rotation setup phase, creating the momentum you can redirect into your forward roll
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Creates enough separation to recover turtle with better defensive positioning or transition to a guard position, breaking the attacker's control sequence
 - **Risk**: Attacker follows the roll and transitions to truck position by controlling your near leg, converting your escape into a different attacking pathway
 
 ### 3. Explosive standup by posting both hands wide, driving your hips up and forward while simultaneously stripping the attacker's grips through upward extension and shoulder shrugging
 
 - **When to use**: When the attacker has not yet secured the seatbelt grip and their hip control has loosened during the transition between chair-sit and rotation phases
-- **Targets**: [[Crackhead Control]]
+- **Targets**: [[Positions/Crackhead Control]]
 - **If successful**: Breaks the attacker's positional control entirely by creating standing separation, forcing a reset to neutral standing or clinch position
 - **Risk**: If the attacker maintains seatbelt grip during your standup attempt, they can jump hooks in from standing and achieve back control at a higher elevation with greater submission threat
 
 ### 4. Turn into the attacker by rotating your hips toward them aggressively while framing on their shoulder and hip, converting back exposure into a front-facing scramble position
 
 - **When to use**: During the mid-rotation phase when the attacker has begun rotating but has not yet inserted the first hook, exploiting the moment when they are between crackhead control and back control
-- **Targets**: [[Crackhead Control]]
+- **Targets**: [[Positions/Crackhead Control]]
 - **If successful**: Converts the back take attempt into a front-facing scramble where you can recover guard, establish half guard, or reach a neutral position
 - **Risk**: If the attacker anticipates your turn, they can use your rotation momentum against you to accelerate their own rotation and complete the back take faster
 
@@ -228,11 +228,11 @@ The defender's strategic mindset should treat crackhead control as an urgent but
 
 ## Best-Case Outcomes for Defender
 
-### → [[Crackhead Control]]
+### → [[Positions/Crackhead Control]]
 
 Strip the seatbelt grip with aggressive two-on-one hand fighting before the attacker can clasp hands. Combine grip stripping with explosive hip movement - sit through or turn into the attacker during the weight transfer phase when they shift from chair-sit to rotation. The goal is to reset the position so the attacker must re-establish the prerequisites for the back take, buying time and burning their energy on repeated failed attempts.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Execute a granby roll or explosive forward roll when the attacker commits weight forward for the rotation, using their momentum against them to create separation and break chest-to-back connection. While turtle bottom is still disadvantageous, it represents a reset from the imminent back take and provides a wider range of defensive options including guard recovery, technical standup, and re-turtling with better defensive structure than during the mid-rotation scramble.
 

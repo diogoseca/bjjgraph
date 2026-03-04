@@ -174,7 +174,7 @@ description: "How to execute Inversion Escape from Honey Hole in BJJ. Complete a
 
 The Inversion Escape is executed by the person trapped in Honey Hole bottom position, using explosive rotational movement to change the angle of their trapped leg relative to the opponent's inside leg triangle. The technique exploits the brief window between triangle establishment and heel hook grip, requiring committed, all-or-nothing explosive force from the posted free leg combined with precise shoulder roll mechanics. The attacker (escaping player) must maintain grips on the opponent's legs throughout the inversion to prevent them from following the rotation, and must immediately establish open guard frames upon extraction to prevent re-entanglement. Success depends entirely on timing - initiating within the first 1-2 seconds before the opponent settles weight and secures the heel.
 
-**From Position**: [[Honey Hole]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Honey Hole]] (Bottom)
 
 </section>
 
@@ -226,9 +226,9 @@ The Inversion Escape is executed by the person trapped in Honey Hole bottom posi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Success | [[50-50 Guard]] | 15% |
-| Failure | [[Honey Hole]] | 20% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami/Honey Hole]] | 20% |
 | Counter | [[game-over]] | 10% |
 
 
@@ -238,10 +238,10 @@ The Inversion Escape is executed by the person trapped in Honey Hole bottom posi
 
 ## Opponent Counters
 
-- **Opponent follows rotation and maintains inside position by driving hips forward during your inversion attempt** (Effectiveness: High) - Your Response: If opponent follows aggressively, use their forward momentum to transition directly into 50-50 guard rather than completing to open guard → Leads to [[50-50 Guard]]
+- **Opponent follows rotation and maintains inside position by driving hips forward during your inversion attempt** (Effectiveness: High) - Your Response: If opponent follows aggressively, use their forward momentum to transition directly into 50-50 guard rather than completing to open guard → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 - **Opponent secures heel grip before or during your inversion attempt** (Effectiveness: High) - Your Response: If heel is secured, abort inversion immediately and transition to grip fighting defense while protecting knee alignment - do not invert with heel grip established → Leads to [[game-over]]
-- **Opponent posts hand on mat to prevent your rotation and maintains base** (Effectiveness: Medium) - Your Response: Target their posting arm with your grips to remove base, or change inversion direction to roll away from their post → Leads to [[Honey Hole]]
-- **Opponent transitions to kneebar as you invert, changing attack angle** (Effectiveness: Medium) - Your Response: Complete inversion faster and pull knee tight to chest; the kneebar requires extension which your curled position denies → Leads to [[Honey Hole]]
+- **Opponent posts hand on mat to prevent your rotation and maintains base** (Effectiveness: Medium) - Your Response: Target their posting arm with your grips to remove base, or change inversion direction to roll away from their post → Leads to [[Positions/Ashi Garami/Honey Hole]]
+- **Opponent transitions to kneebar as you invert, changing attack angle** (Effectiveness: Medium) - Your Response: Complete inversion faster and pull knee tight to chest; the kneebar requires extension which your curled position denies → Leads to [[Positions/Ashi Garami/Honey Hole]]
 
 
 </section>

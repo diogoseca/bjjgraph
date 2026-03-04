@@ -180,7 +180,7 @@ description: "Learn to execute the Counter Leg Hook from bottom position. Strip 
 
 As the attacker executing the Counter Leg Hook, you are the bottom player actively disrupting the top player's leg hook control during their half guard passing sequence. Your goal is to strip or neutralize the hook and transition to either turtle position or half guard recovery before the pass completes to side control. This requires reading the top player's weight distribution, timing your explosive movement to coincide with their weight commitment, and maintaining defensive frames throughout the transition to prevent them from simply following your movement and re-establishing control. The counter demands a willingness to accept turtle as a valid defensive position rather than clinging to a deteriorating half guard.
 
-**From Position**: [[Leg Hook]] (Bottom)
+**From Position**: [[Positions/Leg Hook]] (Bottom)
 
 </section>
 
@@ -232,10 +232,10 @@ As the attacker executing the Counter Leg Hook, you are the bottom player active
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 35% |
-| Success | [[Half Guard]] | 20% |
-| Failure | [[Leg Hook]] | 25% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Turtle]] | 35% |
+| Success | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/Leg Hook]] | 25% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the Counter Leg Hook, you are the bottom player active
 
 ## Opponent Counters
 
-- **Top player follows the hip escape and re-establishes the hook before turtle is reached** (Effectiveness: High) - Your Response: Chain immediately into a second hip escape in the opposite direction or transition to deep half guard entry using their forward momentum → Leads to [[Leg Hook]]
-- **Top player drops weight and sprawls to prevent the turn to turtle** (Effectiveness: Medium) - Your Response: Use the sprawl pressure as an opportunity to scoot hips away and re-insert a knee shield or butterfly hook for half guard recovery instead → Leads to [[Half Guard]]
-- **Top player transitions to side control during the turning movement** (Effectiveness: High) - Your Response: If they achieve side control, immediately begin framing and hip escape sequences rather than trying to return to half guard; accept the position change and work escapes → Leads to [[Side Control]]
-- **Top player maintains crossface control throughout the counter attempt** (Effectiveness: Medium) - Your Response: Fight the crossface hand first before attempting the counter; use two-on-one grip fighting to strip the crossface, then immediately initiate the counter before they re-establish → Leads to [[Leg Hook]]
+- **Top player follows the hip escape and re-establishes the hook before turtle is reached** (Effectiveness: High) - Your Response: Chain immediately into a second hip escape in the opposite direction or transition to deep half guard entry using their forward momentum → Leads to [[Positions/Leg Hook]]
+- **Top player drops weight and sprawls to prevent the turn to turtle** (Effectiveness: Medium) - Your Response: Use the sprawl pressure as an opportunity to scoot hips away and re-insert a knee shield or butterfly hook for half guard recovery instead → Leads to [[Positions/Half Guard]]
+- **Top player transitions to side control during the turning movement** (Effectiveness: High) - Your Response: If they achieve side control, immediately begin framing and hip escape sequences rather than trying to return to half guard; accept the position change and work escapes → Leads to [[Positions/Side Control]]
+- **Top player maintains crossface control throughout the counter attempt** (Effectiveness: Medium) - Your Response: Fight the crossface hand first before attempting the counter; use two-on-one grip fighting to strip the crossface, then immediately initiate the counter before they re-establish → Leads to [[Positions/Leg Hook]]
 
 
 </section>

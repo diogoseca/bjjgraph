@@ -195,28 +195,28 @@ Defending the monoplata requires early recognition and decisive action before th
 ### 1. Posture aggressively and strip overhook before leg threading begins
 
 - **When to use**: Early stage when opponent is breaking posture and attempting to secure overhook control in closed guard, before any leg has been threaded
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Return to neutral closed guard top with posture restored and no arm isolation
 - **Risk**: If opponent has already secured deep overhook, posturing can expose your arm further and accelerate their setup
 
 ### 2. Drive forward with stacking pressure to collapse opponent's hip elevation and prevent angle adjustment
 
 - **When to use**: Mid-stage when opponent has begun threading their leg but has not yet locked the figure-four or established perpendicular angle
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Collapse their guard structure and return to closed guard top or transition to half guard passing
 - **Risk**: Forward pressure can be redirected into sweep if opponent has good hip control; must maintain wide base
 
 ### 3. Extract trapped arm by circling elbow down and pulling arm back while preventing figure-four lock completion
 
 - **When to use**: When figure-four is partially established but not fully tight, and you can feel slack in the leg configuration around your arm
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Free the trapped arm and recover to standard closed guard top position with defensive grips
 - **Risk**: Arm extraction attempt can trigger transition to omoplata or triangle if legs are not addressed simultaneously
 
 ### 4. Roll forward over the trapped shoulder to relieve rotational pressure and scramble to top position
 
 - **When to use**: Last resort when figure-four is locked and finishing pressure is beginning, but opponent's free leg control over your head is not yet established
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Relieve shoulder pressure and scramble to top position, potentially ending in half guard or side control
 - **Risk**: Opponent can follow the roll and take your back or establish crucifix if they anticipate the escape
 
@@ -240,11 +240,11 @@ Defending the monoplata requires early recognition and decisive action before th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Strip the overhook early and recover posture before any leg threading occurs, or extract arm and stack weight to collapse guard structure back to neutral position
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Roll forward over the trapped shoulder when finishing pressure begins but free leg control is absent, then scramble past opponent's guard into half guard top position
 

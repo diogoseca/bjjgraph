@@ -21,7 +21,7 @@ The technical key to this pass lies in controlled leg circulation rather than ex
 
 This pass represents the definitive answer to lockdown-based half guard systems. Practitioners who develop proficiency in clearing the Vaporizer effectively neutralize one of the most potent weapons in no-gi bottom game, forcing lockdown players to abandon their primary control strategy and fight from less favorable positions.
 
-**From Position**: [[Vaporizer]] (Top)
+**From Position**: [[Positions/Vaporizer]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,10 +32,10 @@ This pass represents the definitive answer to lockdown-based half guard systems.
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Half Guard]] | 20% |
-| Failure | [[Vaporizer]] | 15% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/Vaporizer]] | 15% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -192,25 +192,25 @@ The Pass Vaporizer Position sits at the intersection of half guard passing and 1
 ## Related Techniques
 
 
-- [[Vaporizer]] - Starting position this pass escapes from
+- [[Positions/Vaporizer]] - Starting position this pass escapes from
 
-- [[Side Control]] - Primary target position upon successful pass completion
+- [[Positions/Side Control]] - Primary target position upon successful pass completion
 
-- [[Half Guard]] - Intermediate position reached on partial pass or counter
+- [[Positions/Half Guard]] - Intermediate position reached on partial pass or counter
 
-- [[Lockdown]] - Core control mechanism that must be cleared during this pass
+- [[Positions/Half Guard/Lockdown]] - Core control mechanism that must be cleared during this pass
 
-- [[Defend Vaporizer Sweep]] - Complementary defensive technique protecting against sweep during pass attempt
+- [[Transitions/Defend Vaporizer Sweep]] - Complementary defensive technique protecting against sweep during pass attempt
 
-- [[Escape Vaporizer]] - Alternative escape approach from the bottom player's Vaporizer position
+- [[Transitions/Escape Vaporizer]] - Alternative escape approach from the bottom player's Vaporizer position
 
-- [[Lockdown Whizzer Pass]] - Related passing technique using whizzer control against lockdown
+- [[Transitions/Lockdown Whizzer Pass]] - Related passing technique using whizzer control against lockdown
 
-- [[Electric Chair]] - Submission threat that punishes failed pass attempts
+- [[Positions/Half Guard/Electric Chair]] - Submission threat that punishes failed pass attempts
 
-- [[Combat Base]] - Intermediate recovery position during pass sequence
+- [[Positions/Combat Base]] - Intermediate recovery position during pass sequence
 
-- [[Old School Sweep]] - Primary sweep threat bottom player uses to counter this pass
+- [[Transitions/Old School Sweep]] - Primary sweep threat bottom player uses to counter this pass
 
 
 </section>

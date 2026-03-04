@@ -212,35 +212,35 @@ Mastering front headlock top requires understanding both the technical details o
 
 ## Available Attacks
 
-### [[Guillotine Setup]] (13% of attempts)
+### [[Transitions/Guillotine Setup]] (13% of attempts)
 
-### [[Anaconda Setup]] (12% of attempts)
+### [[Transitions/Anaconda Setup]] (12% of attempts)
 
-### [[Darce Setup]] (12% of attempts)
+### [[Transitions/Darce Setup]] (12% of attempts)
 
-### [[Front Headlock to Back]] (12% of attempts)
+### [[Transitions/Front Headlock to Back]] (12% of attempts)
 
-### [[Arm Triangle from Front Headlock]] (6% of attempts)
+### [[Transitions/Arm Triangle from Front Headlock]] (6% of attempts)
 
-### [[Japanese Necktie Setup]] (7% of attempts)
+### [[Transitions/Japanese Necktie Setup]] (7% of attempts)
 
-### [[Peruvian Necktie Setup]] (7% of attempts)
+### [[Transitions/Peruvian Necktie Setup]] (7% of attempts)
 
-### [[Step Over to Mount]] (5% of attempts)
+### [[Transitions/Step Over to Mount]] (5% of attempts)
 
-### [[Turtle Flatten to Side Control]] (7% of attempts)
+### [[Transitions/Turtle Flatten to Side Control]] (7% of attempts)
 
-### [[Snap Down to Front Headlock]] (5% of attempts)
+### [[Transitions/Snap Down to Front Headlock]] (5% of attempts)
 
-### [[Crucifix from Turtle]] (4% of attempts)
+### [[Transitions/Crucifix from Turtle]] (4% of attempts)
 
-### [[Kimura]] (4% of attempts)
+### [[Transitions/Kimura]] (4% of attempts)
 
-### [[Brabo Choke]] (2% of attempts)
+### [[Submissions/Brabo Choke]] (2% of attempts)
 
-### [[Chin Strap Guillotine]] (2% of attempts)
+### [[Submissions/Chin Strap Guillotine]] (2% of attempts)
 
-### [[Peruvian Necktie]] (2% of attempts)
+### [[Submissions/Peruvian Necktie]] (2% of attempts)
 
 
 
@@ -251,29 +251,29 @@ Mastering front headlock top requires understanding both the technical details o
 ## Decision Making from This Position
 
 **If opponent keeps head low and stays tight in turtle with arms protected:**
-- Execute **[[Anaconda Setup]]** → [[Anaconda Control]] (Probability: 60%)
-- Execute **[[Darce Setup]]** → [[Darce Control]] (Probability: 55%)
-- Execute **[[Force Flatten to Side Control]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Anaconda Setup]]** → [[Positions/Anaconda Control]] (Probability: 60%)
+- Execute **[[Transitions/Darce Setup]]** → [[Positions/Darce Control]] (Probability: 55%)
+- Execute **[[Force Flatten to Side Control]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent attempts to stand up or lift their head while you have front headlock:**
-- Execute **[[Guillotine Setup]]** → [[Guillotine Control]] (Probability: 70%)
-- Execute **[[Snap Down and Resettle]]** → [[Front Headlock]] (Probability: 60%)
+- Execute **[[Transitions/Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 70%)
+- Execute **[[Snap Down and Resettle]]** → [[Positions/Front Headlock]] (Probability: 60%)
 
 
 **If opponent circles or turns their body to escape laterally:**
-- Execute **[[Front Headlock to Back]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Step Over to Mount]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Transitions/Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Step Over to Mount]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent attempts forward roll or granby roll escape:**
-- Execute **[[Follow to Crucifix]]** → [[Crucifix]] (Probability: 50%)
-- Execute **[[Maintain Control and Resettle]]** → [[Front Headlock]] (Probability: 60%)
+- Execute **[[Follow to Crucifix]]** → [[Positions/Crucifix]] (Probability: 50%)
+- Execute **[[Maintain Control and Resettle]]** → [[Positions/Front Headlock]] (Probability: 60%)
 
 
 **If opponent successfully defends neck by tucking chin but remains in position:**
-- Execute **[[Switch to Kimura]]** → [[Kimura Trap]] (Probability: 55%)
-- Execute **[[Force to Side Control]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Switch to Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
+- Execute **[[Force to Side Control]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 
@@ -419,16 +419,16 @@ Establish front headlock, partner attempts to circle away to escape. You practic
 
 ## Related Positions and Techniques
 
-- **[[Turtle]]** - Primary attack target - front headlock is main offensive position against turtle
-- **[[Guillotine Control]]** - Primary submission option - front headlock naturally transitions to guillotine
-- **[[Anaconda Control]]** - Arm-in submission option - front headlock converts to anaconda with arm trap
-- **[[Darce Control]]** - Arm-in submission option - front headlock converts to darce with underhook
-- **[[Back Control]]** - Positional advancement - front headlock transitions to back when opponent circles
-- **[[Front Headlock to Guillotine]]** - Primary transition pathway to guillotine submission from front headlock control
-- **[[Snap Down to Front Headlock]]** - Primary entry method from standing - snap opponent's head down to establish control
-- **[[Guillotine Choke]]** - Primary submission finish from front headlock position
-- **[[Anaconda Choke]]** - Arm-in choke finish available from front headlock
-- **[[Darce Choke]]** - Arm-in choke finish available from front headlock
+- **[[Positions/Turtle]]** - Primary attack target - front headlock is main offensive position against turtle
+- **[[Positions/Guillotine Control]]** - Primary submission option - front headlock naturally transitions to guillotine
+- **[[Positions/Anaconda Control]]** - Arm-in submission option - front headlock converts to anaconda with arm trap
+- **[[Positions/Darce Control]]** - Arm-in submission option - front headlock converts to darce with underhook
+- **[[Positions/Back Control]]** - Positional advancement - front headlock transitions to back when opponent circles
+- **[[Transitions/Front Headlock to Guillotine]]** - Primary transition pathway to guillotine submission from front headlock control
+- **[[Transitions/Snap Down to Front Headlock]]** - Primary entry method from standing - snap opponent's head down to establish control
+- **[[Transitions/Guillotine Choke]]** - Primary submission finish from front headlock position
+- **[[Transitions/Anaconda Choke]]** - Arm-in choke finish available from front headlock
+- **[[Transitions/Darce Choke]]** - Arm-in choke finish available from front headlock
 
 
 </section>

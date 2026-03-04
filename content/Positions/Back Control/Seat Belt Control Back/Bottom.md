@@ -210,25 +210,25 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 
 ## Available Escapes
 
-### [[Hand Fighting from Back]] (45% of attempts)
+### [[Transitions/Hand Fighting from Back]] (45% of attempts)
 
-### [[Back Door Escape]] (12% of attempts)
+### [[Transitions/Back Door Escape]] (12% of attempts)
 
-### [[Granby Roll to Guard]] (2% of attempts)
+### [[Transitions/Granby Roll to Guard]] (2% of attempts)
 
-### [[Elbow Escape to Remove Hooks]] (19% of attempts)
+### [[Transitions/Elbow Escape to Remove Hooks]] (19% of attempts)
 
-### [[Hip Escape to Turtle]] (15% of attempts)
+### [[Transitions/Hip Escape to Turtle]] (15% of attempts)
 
-### [[Standing up in Base]] (2% of attempts)
+### [[Transitions/Standing up in Base]] (2% of attempts)
 
-### [[Turn In and Face]] (4% of attempts)
+### [[Transitions/Turn In and Face]] (4% of attempts)
 
-### [[Escape Seat Belt Control]] (0% of attempts)
+### [[Transitions/Escape Seat Belt Control]] (0% of attempts)
 
-### [[Hand Fight from Seat Belt Control]] (0% of attempts)
+### [[Transitions/Hand Fight from Seat Belt Control]] (0% of attempts)
 
-### [[Seat Belt Peel Escape]] (1% of attempts)
+### [[Transitions/Seat Belt Peel Escape]] (1% of attempts)
 
 
 
@@ -239,23 +239,23 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 ## Decision Making from This Position
 
 **If opponent has seat belt grip but no hooks established yet:**
-- Execute **[[Hip Escape to Turtle]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Standing up in Base]]** → [[Clinch]] (Probability: 30%)
+- Execute **[[Transitions/Hip Escape to Turtle]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Clinch]] (Probability: 30%)
 
 
 **If opponent has both hooks and seat belt with choking hand near neck:**
-- Execute **[[Hand Fighting from Back]]** → [[Seat Belt Control Back]] (Probability: 60%)
-- Execute **[[Elbow Escape to Remove Hooks]]** → [[Turtle]] (Probability: 40%)
+- Execute **[[Transitions/Hand Fighting from Back]]** → [[Positions/Back Control/Seat Belt Control Back]] (Probability: 60%)
+- Execute **[[Transitions/Elbow Escape to Remove Hooks]]** → [[Positions/Turtle]] (Probability: 40%)
 
 
 **If opponent's over-shoulder grip is loose or broken temporarily:**
-- Execute **[[Back Door Escape]]** → [[Turtle]] (Probability: 55%)
-- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Back Door Escape]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
 
 
 **If opponent is high on your back with weight forward and hooks shallow:**
-- Execute **[[Hip Escape to Turtle]]** → [[Turtle]] (Probability: 45%)
-- Execute **[[Elbow Escape to Remove Hooks]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Hip Escape to Turtle]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape to Remove Hooks]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 
@@ -389,14 +389,14 @@ Start in seat belt control bottom position. Execute hip escapes repeatedly to cr
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Parent position - seat belt back bottom is a specific configuration within back control defense
-- **[[Turtle]]** - Primary escape target position when successfully breaking free from back control
-- **[[Half Guard]]** - Transitional defensive state during escape attempts when partially recovering guard
-- **[[Rear Naked Choke]]** - Primary submission threat from this position requiring constant defensive awareness
-- **[[Hand Fighting from Back]]** - Essential defensive transition for grip management from bottom back control
-- **[[Elbow Escape to Remove Hooks]]** - Critical escape technique for removing hooks and beginning escape sequence
-- **[[Closed Guard]]** - Alternative escape target position when rolling through to face opponent
-- **[[Back Door Escape]]** - Key escape transition when opponent's grip is compromised
+- **[[Positions/Back Control]]** - Parent position - seat belt back bottom is a specific configuration within back control defense
+- **[[Positions/Turtle]]** - Primary escape target position when successfully breaking free from back control
+- **[[Positions/Half Guard]]** - Transitional defensive state during escape attempts when partially recovering guard
+- **[[Transitions/Rear Naked Choke]]** - Primary submission threat from this position requiring constant defensive awareness
+- **[[Transitions/Hand Fighting from Back]]** - Essential defensive transition for grip management from bottom back control
+- **[[Transitions/Elbow Escape to Remove Hooks]]** - Critical escape technique for removing hooks and beginning escape sequence
+- **[[Positions/Closed Guard]]** - Alternative escape target position when rolling through to face opponent
+- **[[Transitions/Back Door Escape]]** - Key escape transition when opponent's grip is compromised
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Defend and counter the Double Sleeve to De La Riva transition. Rec
 
 As the defender (top player), your objective is to prevent the bottom player from converting their bilateral sleeve control into the far more dangerous De La Riva Guard. The critical defensive insight is that this transition has a vulnerability window during the grip conversion: the moment the bottom player releases one sleeve grip to grab your ankle is when you have the best opportunity to strip grips, retract your lead leg, or initiate a pass. Understanding the sequence of the transition allows you to recognize it before the DLR hook is fully established and respond during the window where the bottom player's control is weakest. Prevention is far easier than dealing with an established DLR guard, so early recognition and immediate response are paramount.
 
-**Opponent's Starting Position**: [[Double Sleeve Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender (top player), your objective is to prevent the bottom player fro
 ### 1. Retract lead leg and square up
 
 - **When to use**: As soon as you feel the hip angle change and before the DLR hook threads around your leg. The earlier you react, the more effective this defense.
-- **Targets**: [[Double Sleeve Guard]]
+- **Targets**: [[Positions/Double Sleeve Guard]]
 - **If successful**: Returns to neutral double sleeve guard position where the bottom player must attempt the transition again, and you can address their sleeve grips
 - **Risk**: Retracting too aggressively can cause you to lose balance backward, potentially allowing a push sweep from double sleeve
 
 ### 2. Strip the near-side sleeve grip during conversion
 
 - **When to use**: When you detect the bottom player releasing their near sleeve to grab your ankle. Their hand is momentarily free and their control is at its weakest.
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Bottom player loses one grip and has an incomplete DLR setup. You can establish your own grip on their leg and begin passing with grip advantage.
 - **Risk**: If you reach for the grip strip and miss, you may lean forward into their remaining control, making sweeps easier
 
 ### 3. Backstep over the hooking leg
 
 - **When to use**: When the DLR hook has partially threaded but is not yet deep. Step your hooked leg backward and over their hooking shin to clear the hook while maintaining connection.
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Clears the DLR hook and puts you in a position to initiate a backstep pass or leg drag, converting their offensive transition into your passing opportunity.
 - **Risk**: If the hook is already deep, backstepping can expose your back or create a leg entanglement the bottom player can exploit
 
 ### 4. Drive forward with heavy pressure to flatten their hips
 
 - **When to use**: When the bottom player begins the hip rotation but has not yet inserted the hook. Driving forward pins their hips flat and eliminates the angle needed for DLR.
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Flattens the bottom player's guard, prevents DLR establishment, and creates opportunity to initiate a pressure pass or smash pass from a dominant angle.
 - **Risk**: If they have already inserted the hook and converted grips, your forward pressure loads them perfectly for berimbolo or forward DLR sweep
 
@@ -217,7 +217,7 @@ As the defender (top player), your objective is to prevent the bottom player fro
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip the near-side sleeve grip during the conversion window when the bottom player's hand is releasing the sleeve to grab your ankle. With only one sleeve grip remaining and no DLR hook, initiate an immediate toreando or leg drag pass before they can re-establish double sleeve control. Speed is critical because any hesitation allows them to re-grip.
 

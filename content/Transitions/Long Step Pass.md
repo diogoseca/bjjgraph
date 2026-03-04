@@ -21,7 +21,7 @@ The Long Step Pass exemplifies the principle of pressure over speed, using super
 
 What makes the Long Step Pass particularly effective at the purple and brown belt level is its ability to shut down sophisticated guard retention sequences. The combination of grip control, strategic stepping, and pressure application forces the bottom player into increasingly defensive positions until the pass is complete. The pass also creates a natural chain with other techniques - if the initial long step is defended, the passer can immediately transition to knee slice, leg drag, or smash pass variations without losing positional pressure.
 
-**From Position**: [[Open Guard]] (Top)
+**From Position**: [[Positions/Open Guard]] (Top)
 **Success Rate**: 68%
 
 </section>
@@ -32,9 +32,9 @@ What makes the Long Step Pass particularly effective at the purple and brown bel
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 68% |
-| Failure | [[Open Guard]] | 20% |
-| Counter | [[Open Guard]] | 12% |
+| Success | [[Positions/Side Control]] | 68% |
+| Failure | [[Positions/Open Guard]] | 20% |
+| Counter | [[Positions/Open Guard]] | 12% |
 
 
 </section>
@@ -199,29 +199,29 @@ The Long Step Pass is a cornerstone technique in the guard passing hierarchy and
 ## Related Techniques
 
 
-- [[Knee Slice Pass]] - Primary follow-up when opponent creates knee shield against long step
+- [[Transitions/Knee Slice Pass]] - Primary follow-up when opponent creates knee shield against long step
 
-- [[Toreando Pass]] - Alternative lateral passing approach using similar angle creation principles
+- [[Transitions/Toreando Pass]] - Alternative lateral passing approach using similar angle creation principles
 
-- [[Over-Under Pass]] - Connected pressure pass using underhook instead of crossface for upper body control
+- [[Transitions/Over-Under Pass]] - Connected pressure pass using underhook instead of crossface for upper body control
 
-- [[Smash Pass]] - Follow-up from long step position when opponent attempts to recover guard
+- [[Transitions/Smash Pass]] - Follow-up from long step position when opponent attempts to recover guard
 
-- [[Headquarters Pass]] - Preparatory position often used before initiating long step
+- [[Transitions/Headquarters Pass]] - Preparatory position often used before initiating long step
 
-- [[Side Control]] - Primary ending position and consolidation point after successful pass
+- [[Positions/Side Control]] - Primary ending position and consolidation point after successful pass
 
-- [[Crossface Pass]] - Related technique emphasizing crossface control mechanism used in long step
+- [[Transitions/Crossface Pass]] - Related technique emphasizing crossface control mechanism used in long step
 
-- [[Underhook Pass]] - Alternative using underhook instead of crossface for upper body control
+- [[Transitions/Underhook Pass]] - Alternative using underhook instead of crossface for upper body control
 
-- [[Body Lock Pass]] - Alternative pressure pass with body lock control instead of crossface
+- [[Transitions/Body Lock Pass]] - Alternative pressure pass with body lock control instead of crossface
 
-- [[Pressure Pass]] - Related pressure-based passing approach sharing fundamental principles
+- [[Transitions/Pressure Pass]] - Related pressure-based passing approach sharing fundamental principles
 
-- [[Leg Drag Pass]] - Complementary pass that can be chained when long step angle is blocked
+- [[Transitions/Leg Drag Pass]] - Complementary pass that can be chained when long step angle is blocked
 
-- [[Open Guard]] - Starting position where this pass is initiated from top
+- [[Positions/Open Guard]] - Starting position where this pass is initiated from top
 
 
 </section>

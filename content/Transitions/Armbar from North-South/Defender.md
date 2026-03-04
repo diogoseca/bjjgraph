@@ -166,7 +166,7 @@ The defensive strategy operates on two timelines: prevention and escape. Prevent
 
 The most dangerous moment for the defender is during the attacker's hip rotation, when the position transitions from a pin to a submission threat. Recognizing the grip changes and weight shifts that precede this rotation is essential. A defender who reacts at the first sign of arm isolation—before the rotation begins—has significantly higher escape rates than one who waits until the armbar is fully locked in.
 
-**Opponent's Starting Position**: [[North-South]] (Top)
+**Opponent's Starting Position**: [[Positions/North-South]] (Top)
 
 </section>
 
@@ -203,28 +203,28 @@ The most dangerous moment for the defender is during the attacker's hip rotation
 ### 1. Clamp elbows tight to ribs and clasp hands together to prevent arm isolation before the rotation begins
 
 - **When to use**: As soon as you feel the attacker gripping your wrist or underhooking your elbow—this is the highest-percentage prevention window
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: Attacker cannot isolate the arm and must abandon the armbar attempt, returning to standard North-South control where you resume your escape sequence
 - **Risk**: Clasping hands commits both arms to defense, temporarily preventing you from creating frames for North-South escape
 
 ### 2. Bridge explosively toward the attacker's rotating side and insert your near-side knee between your bodies during their hip rotation
 
 - **When to use**: During the attacker's hip rotation when their weight is shifting and base is momentarily compromised—timing is critical as this window lasts less than one second
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your knee insertion establishes half guard, converting the submission threat into a guard retention scenario where you have established offensive options
 - **Risk**: Mistiming the bridge allows the attacker to complete the rotation with your knee trapped awkwardly, potentially worsening your position
 
 ### 3. Bend the attacked arm forcefully, rotate thumb toward the ceiling, and use your free hand to grip the attacker's leg across your face and push it away
 
 - **When to use**: When the attacker has completed their rotation and you are in the armbar position but the arm is not yet fully extended—this is your last-resort defense
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: Creating space between the attacker's legs and controlling their leg allows you to turn into the attacker and recover to a scramble or return to North-South bottom
 - **Risk**: If the attacker has strong leg control and your arm is already partially extended, this defense may not generate enough space before they finish
 
 ### 4. Hitchhiker escape by rotating your thumb toward your own head and turning your body away from the attacker while sliding your elbow across their hips
 
 - **When to use**: When the attacker has established the armbar position but their legs are not tightly clamped—the escape requires enough space to rotate your elbow through
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: You extract your arm completely and can turn to turtle or recover to a neutral position, resetting the exchange entirely
 - **Risk**: Experienced attackers follow your rotation and transition to belly-down armbar or back take, which can be worse than the original armbar
 
@@ -236,11 +236,11 @@ The most dangerous moment for the defender is during the attacker's hip rotation
 
 ## Best-Case Outcomes for Defender
 
-### → [[North-South]]
+### → [[Positions/North-South]]
 
 Prevent arm isolation by keeping elbows tight and fighting grips early, or successfully escape the armbar through hitchhiker escape or arm extraction, returning to North-South bottom where you can resume standard escape sequences
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Insert your knee between your bodies during the attacker's rotation phase by timing a bridge when their weight shifts. The knee creates a frame that converts the submission attempt into a guard retention battle where you have sweeping and back-taking options
 

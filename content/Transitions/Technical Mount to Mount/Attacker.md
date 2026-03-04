@@ -182,7 +182,7 @@ From the attacker's perspective, the Technical Mount to Mount transition is a st
 
 Successful execution depends on three sequential priorities: establishing upper body control before moving the legs, committing forward hip pressure to pin the opponent's torso during the retraction, and immediately settling into a consolidated mount base upon completion. The entire transition should take less than two seconds, with the period of reduced control compressed to a fraction of that time. The attacker must read the defender's energy and defensive posture before initiating—if the defender is actively fighting, a slower pressure-based retraction is safer, while a passive or exhausted defender permits a quicker switch.
 
-**From Position**: [[Technical Mount]] (Top)
+**From Position**: [[Positions/Mount/Technical Mount]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ Successful execution depends on three sequential priorities: establishing upper 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Technical Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Mount/Technical Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ Successful execution depends on three sequential priorities: establishing upper 
 
 ## Opponent Counters
 
-- **Hip escape during leg retraction—defender times a shrimp to the weight shift moment, inserting knee before mount settles** (Effectiveness: High) - Your Response: Commit heavier forward pressure before initiating retraction. If you feel their hips moving during the slide, immediately follow their hip direction with your inside knee and re-center your weight. Consider aborting the consolidation and returning to technical mount if the escape is well-timed. → Leads to [[Half Guard]]
-- **Bridge during weight transition—defender explosively bridges as weight shifts from posted leg to inside knee, disrupting balance** (Effectiveness: Medium) - Your Response: Ride the bridge by spreading your base wider and lowering your center of gravity. Use the bridge momentum to accelerate your leg retraction rather than fighting it. Post your hands briefly if needed to maintain top position, then immediately re-settle heavy hips. → Leads to [[Technical Mount]]
-- **Knee shield insertion—defender quickly inserts their knee between your bodies during the brief gap created by leg movement** (Effectiveness: High) - Your Response: Drive your hips low and pinch your knees together as the posted leg arrives at mount position. If the knee begins entering, use your inside elbow to pin their thigh down and complete the pass over their knee shield before it fully establishes. → Leads to [[Half Guard]]
-- **Frame and turn—defender uses the transition moment to establish frames on your hips and begin turning to their side for guard recovery** (Effectiveness: Medium) - Your Response: Maintain the crossface throughout the transition to prevent turning. If they begin framing, immediately settle heavy on the completed mount and attack the framing arms with Americana or use the frames as an opportunity to advance to high mount instead. → Leads to [[Half Guard]]
+- **Hip escape during leg retraction—defender times a shrimp to the weight shift moment, inserting knee before mount settles** (Effectiveness: High) - Your Response: Commit heavier forward pressure before initiating retraction. If you feel their hips moving during the slide, immediately follow their hip direction with your inside knee and re-center your weight. Consider aborting the consolidation and returning to technical mount if the escape is well-timed. → Leads to [[Positions/Half Guard]]
+- **Bridge during weight transition—defender explosively bridges as weight shifts from posted leg to inside knee, disrupting balance** (Effectiveness: Medium) - Your Response: Ride the bridge by spreading your base wider and lowering your center of gravity. Use the bridge momentum to accelerate your leg retraction rather than fighting it. Post your hands briefly if needed to maintain top position, then immediately re-settle heavy hips. → Leads to [[Positions/Mount/Technical Mount]]
+- **Knee shield insertion—defender quickly inserts their knee between your bodies during the brief gap created by leg movement** (Effectiveness: High) - Your Response: Drive your hips low and pinch your knees together as the posted leg arrives at mount position. If the knee begins entering, use your inside elbow to pin their thigh down and complete the pass over their knee shield before it fully establishes. → Leads to [[Positions/Half Guard]]
+- **Frame and turn—defender uses the transition moment to establish frames on your hips and begin turning to their side for guard recovery** (Effectiveness: Medium) - Your Response: Maintain the crossface throughout the transition to prevent turning. If they begin framing, immediately settle heavy on the completed mount and attack the framing arms with Americana or use the frames as an opportunity to advance to high mount instead. → Leads to [[Positions/Half Guard]]
 
 
 </section>

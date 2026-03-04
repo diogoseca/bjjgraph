@@ -156,7 +156,7 @@ Defending the Outside Ashi Entry requires a combination of early recognition, pr
 
 Successful defense relies on understanding that the attacker needs three things simultaneously: connection to your leg, proper head position on the outside, and sufficient rotation to achieve a perpendicular angle. Disrupting any one of these elements collapses the entire entry sequence. The most effective defenses address the entry at its earliest stages - denying the initial grip or punishing the level change - rather than attempting to extract your leg after the entanglement is established. Practitioners who develop sensitivity to the pre-entry cues (grip attempts on the lower leg, subtle weight shifts, head positioning changes) gain the reaction time needed to implement effective defensive responses before the attacker commits.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful defense relies on understanding that the attacker needs three things 
 ### 1. Sprawl and withdraw the lead leg by driving hips down and pulling your ankle back behind your hip line while posting your hands on opponent's head and shoulders
 
 - **When to use**: As soon as you feel the level change beginning and before the attacker secures a tight grip on your lower leg - this is the highest-percentage window
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Attacker's entry is denied and you remain standing with potential to establish front headlock or top pressure
 - **Risk**: If timed too late, the attacker may already have sufficient grip to pull your leg with them during the sprawl
 
 ### 2. Step your lead leg over the attacker's head and body as they begin the rotation, circling your foot over and behind their shoulder to extract from the entry angle
 
 - **When to use**: When the attacker has secured a grip on your leg and begun their rotation but has not yet dropped their hip to the mat - the rotation creates the space to step over
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You escape the entanglement angle entirely and end up behind or beside the attacker with potential to establish back control or top position
 - **Risk**: If the attacker anticipates the step-over, they can switch to inside ashi entry or accelerate the rotation to complete the entry before your foot clears
 
 ### 3. Attack the front headlock or guillotine by snapping down on the attacker's head as they drop their level, securing a collar tie or chin strap grip to threaten the neck
 
 - **When to use**: When the attacker drops level with their head exposed and you can reach their neck before they complete the rotation - particularly effective when their head passes close to your centerline
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Attacker must abandon the leg entry to address the neck threat, and you may secure a front headlock or guillotine position
 - **Risk**: If the attacker keeps their head on the outside and accelerates through the entry, you may lose positional advantage by reaching for a headlock that never materializes
 
 ### 4. Post your free hand on the attacker's far shoulder and drive your hip forward while pulling your trapped knee upward to strip their grip before the figure-four locks in
 
 - **When to use**: When the attacker has dropped their hip but their leg triangle is not yet locked - there is a brief window before the figure-four tightens where grip stripping is viable
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You extract your leg from the incomplete entanglement and maintain standing position with the attacker on the mat below you
 - **Risk**: If the figure-four is already locked, attempting to pull the knee upward can expose your heel and accelerate their submission setup
 
@@ -228,11 +228,11 @@ Successful defense relies on understanding that the attacker needs three things 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Deny the initial grip through active hand fighting, sprawl immediately on the level change to stuff the entry, then withdraw your lead leg behind your hip line. Alternatively, step over the attacker's body during their rotation phase before the hip drop completes. Maintain strong posture throughout and resist the urge to reach down, which compromises your base.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Counter the attacker's level change by snapping down on their head to establish a front headlock or guillotine threat. As they commit to the leg entry, their neck becomes exposed - secure a collar tie or chin strap grip and drive downward pressure. This forces the attacker to abandon the leg entry to address the immediate neck threat, though you may end up in a scramble rather than clean standing position.
 

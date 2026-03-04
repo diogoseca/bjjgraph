@@ -21,7 +21,7 @@ This transition exploits the fundamental defensive dilemma created by buggy chok
 
 Strategically, this transition transforms failed submission attempts into continued offensive pressure. Rather than viewing defensive success as a reset, skilled practitioners chain the buggy choke to front headlock as part of a systematic turtle attack flowchart where every defensive response opens different offensive opportunities. This reflects advanced positional thinking where submissions are entry points to position, and positions are entry points to submissions.
 
-**From Position**: [[Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition transforms failed submission attempts into contin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 65% |
-| Failure | [[Buggy Choke]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Front Headlock]] | 65% |
+| Failure | [[Positions/Buggy Choke]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Buggy Choke to Front Headlock transition exemplifies systematic turtle attac
 ## Related Techniques
 
 
-- [[Buggy Choke]] - Starting position - the control configuration from which this transition initiates
+- [[Positions/Buggy Choke]] - Starting position - the control configuration from which this transition initiates
 
-- [[Front Headlock]] - Target position - the control established upon successful transition completion
+- [[Positions/Front Headlock]] - Target position - the control established upon successful transition completion
 
-- [[Front Headlock to Guillotine]] - Common follow-up submission attack from the resulting front headlock position
+- [[Transitions/Front Headlock to Guillotine]] - Common follow-up submission attack from the resulting front headlock position
 
-- [[Front Headlock to Darce]] - Alternative submission pathway available after establishing front headlock
+- [[Transitions/Front Headlock to Darce]] - Alternative submission pathway available after establishing front headlock
 
-- [[Front Headlock to Anaconda]] - Secondary submission option from the front headlock position
+- [[Transitions/Front Headlock to Anaconda]] - Secondary submission option from the front headlock position
 
-- [[Front Headlock to Back]] - Positional advancement option when submissions are defended from front headlock
+- [[Transitions/Front Headlock to Back]] - Positional advancement option when submissions are defended from front headlock
 
-- [[Turtle]] - Original position where the buggy choke attack initiated before this transition
+- [[Positions/Turtle]] - Original position where the buggy choke attack initiated before this transition
 
-- [[Crucifix]] - Alternative attack when opponent posts far arm during the transition
+- [[Positions/Crucifix]] - Alternative attack when opponent posts far arm during the transition
 
-- [[Guillotine Control]] - Related head control position with overlapping submission threats
+- [[Positions/Guillotine Control]] - Related head control position with overlapping submission threats
 
-- [[Anaconda Control]] - Related front headlock variant with rolling finish mechanics
+- [[Positions/Anaconda Control]] - Related front headlock variant with rolling finish mechanics
 
 
 </section>

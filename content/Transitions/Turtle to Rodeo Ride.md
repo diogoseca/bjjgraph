@@ -21,7 +21,7 @@ The key mechanical distinction is the shift from bilateral to unilateral pressur
 
 This transition is particularly valuable because it converts a position with limited direct submission threat (standard turtle top) into one with immediate access to clock chokes, crucifix entries, crab ride transitions, and systematic back takes. The transition requires sensitivity to opponent weight distribution and timing—entering too early before establishing initial control risks the opponent creating a scramble, while waiting too long allows them to solidify their defensive turtle and begin their own escape sequences.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ This transition is particularly valuable because it converts a position with lim
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Rodeo Ride]] | 60% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Rodeo Ride]] | 60% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -196,29 +196,29 @@ The Transition to Rodeo Ride occupies a critical position in the turtle attack d
 ## Related Techniques
 
 
-- [[Rodeo Ride]] - Target position reached on successful execution
+- [[Positions/Rodeo Ride]] - Target position reached on successful execution
 
-- [[Turtle]] - Starting position from which this transition initiates
+- [[Positions/Turtle]] - Starting position from which this transition initiates
 
-- [[Back Control]] - Primary advancement target from Rodeo Ride after entry
+- [[Positions/Back Control]] - Primary advancement target from Rodeo Ride after entry
 
-- [[Crab Ride]] - Related turtle attack position accessible from Rodeo Ride
+- [[Positions/Crab Ride]] - Related turtle attack position accessible from Rodeo Ride
 
-- [[Crucifix]] - Submission position accessible when opponent extends arm during entry
+- [[Positions/Crucifix]] - Submission position accessible when opponent extends arm during entry
 
-- [[Crab Ride to Back]] - Follow-up transition from Rodeo Ride to back control
+- [[Transitions/Crab Ride to Back]] - Follow-up transition from Rodeo Ride to back control
 
-- [[Turtle to Back Control]] - Alternative turtle attack transition bypassing Rodeo Ride
+- [[Transitions/Turtle to Back Control]] - Alternative turtle attack transition bypassing Rodeo Ride
 
-- [[Clock Choke]] - Direct submission threat available from Rodeo Ride
+- [[Transitions/Clock Choke]] - Direct submission threat available from Rodeo Ride
 
-- [[Crucifix from Turtle]] - Alternative attack path when opponent posts arm during entry
+- [[Transitions/Crucifix from Turtle]] - Alternative attack path when opponent posts arm during entry
 
-- [[Front Headlock]] - Alternative control position that can transition into Rodeo Ride via spiral
+- [[Positions/Front Headlock]] - Alternative control position that can transition into Rodeo Ride via spiral
 
-- [[Side Control]] - Alternative positional outcome if opponent flattens during entry
+- [[Positions/Side Control]] - Alternative positional outcome if opponent flattens during entry
 
-- [[Darce from Turtle]] - Submission option from turtle that complements Rodeo Ride attacks
+- [[Transitions/Darce from Turtle]] - Submission option from turtle that complements Rodeo Ride attacks
 
 
 </section>

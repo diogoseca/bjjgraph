@@ -21,7 +21,7 @@ The strategic logic is straightforward: Cross Ashi-Garami bottom places you unde
 
 Timing is the critical variable. Attempting the counter-entangle while the opponent has tight cross ashi control invites them to capitalize on your leg movement and advance to Honey Hole. The technique requires patience to identify the correct window—typically when the opponent loosens their outside leg cross to adjust heel grips or transition—and decisive execution once that window appears. Failed attempts that telegraph your intentions allow skilled opponents to preemptively tighten control or accelerate their submission chain.
 
-**From Position**: [[Cross Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Timing is the critical variable. Attempting the counter-entangle while the oppon
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 40% |
-| Failure | [[Cross Ashi-Garami]] | 40% |
-| Counter | [[Honey Hole]] | 20% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 40% |
+| Failure | [[Positions/Ashi Garami/Cross Ashi-Garami]] | 40% |
+| Counter | [[Positions/Ashi Garami/Honey Hole]] | 20% |
 
 
 </section>
@@ -187,25 +187,25 @@ Counter Entangle from Cross Ashi occupies a critical niche in the modern leg loc
 ## Related Techniques
 
 
-- [[Cross Ashi-Garami]] - Source position - the disadvantageous entanglement you are escaping from
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Source position - the disadvantageous entanglement you are escaping from
 
-- [[50-50 Guard]] - Target position - the neutral entanglement you are threading into
+- [[Positions/Ashi Garami/50-50 Guard]] - Target position - the neutral entanglement you are threading into
 
-- [[Honey Hole]] - Risk position - where opponent may advance if counter-entangle fails or is exploited
+- [[Positions/Ashi Garami/Honey Hole]] - Risk position - where opponent may advance if counter-entangle fails or is exploited
 
-- [[Ashi Garami]] - Parent position concept - fundamental leg entanglement underlying both cross ashi and 50-50
+- [[Positions/Ashi Garami]] - Parent position concept - fundamental leg entanglement underlying both cross ashi and 50-50
 
-- [[Inside Ashi-Garami]] - Alternative entanglement target - sometimes accessible during failed counter-entangle attempts
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative entanglement target - sometimes accessible during failed counter-entangle attempts
 
-- [[Backside 50-50]] - Related leg entanglement - alternative counter-entangle target with different hip orientation
+- [[Positions/Ashi Garami/Backside 50-50]] - Related leg entanglement - alternative counter-entangle target with different hip orientation
 
-- [[Ashi Garami Escape]] - Alternative defensive option - clean extraction rather than counter-entangling
+- [[Transitions/Ashi Garami Escape]] - Alternative defensive option - clean extraction rather than counter-entangling
 
-- [[Leg Entanglement]] - Fundamental concept - the entanglement mechanics that govern this transition
+- [[Positions/Leg Entanglement]] - Fundamental concept - the entanglement mechanics that govern this transition
 
-- [[Outside Heel Hook from Cross Ashi]] - Primary submission threat motivating the escape from Cross Ashi-Garami bottom
+- [[Transitions/Outside Heel Hook from Cross Ashi]] - Primary submission threat motivating the escape from Cross Ashi-Garami bottom
 
-- [[Backside 50-50 Entry from Ashi]] - Related transition - similar leg threading mechanics from a different starting entanglement
+- [[Transitions/Backside 50-50 Entry from Ashi]] - Related transition - similar leg threading mechanics from a different starting entanglement
 
 
 </section>

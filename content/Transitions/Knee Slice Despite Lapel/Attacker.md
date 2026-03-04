@@ -178,7 +178,7 @@ The technique operates on the principle that lapel configurations create directi
 
 Strategically, this pass is most effective when combined with systematic lapel clearing sequences. Rather than fighting directly against the lapel barrier, you partially clear the obstruction, initiate the knee slice during the transition window, and complete the pass before the opponent can re-establish their configuration. The timing window is narrow, making this a technically demanding but highly effective solution for gi competition where lapel guards are prevalent.
 
-**From Position**: [[Lapel Guard]] (Top)
+**From Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
 
@@ -230,10 +230,10 @@ Strategically, this pass is most effective when combined with systematic lapel c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Success | [[Knee on Belly]] | 15% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 50% |
+| Success | [[Positions/Knee on Belly]] | 15% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ Strategically, this pass is most effective when combined with systematic lapel c
 
 ## Opponent Counters
 
-- **Opponent sits up aggressively during slice to pursue back take** (Effectiveness: High) - Your Response: Increase cross-face pressure and switch hips to face them directly. If they continue sitting up, use their momentum to transition to front headlock position rather than fighting the back take from compromised angle. → Leads to [[Lapel Guard]]
-- **Opponent reconfigures lapel around your slicing leg mid-pass** (Effectiveness: Medium) - Your Response: Commit harder to the slice rather than stopping—the momentum often carries you through before the new configuration tightens. Alternatively, switch to pressure passing by abandoning the slice and smashing through the half-established grip. → Leads to [[Lapel Guard]]
-- **Opponent frames on your hip to create distance and prevent slice completion** (Effectiveness: Medium) - Your Response: Control their framing arm at the elbow with your free hand, pinning it to their body. This eliminates the frame while opening kimura opportunities if they persist in extending the arm. → Leads to [[Lapel Guard]]
-- **Opponent recovers quarter guard or half guard by trapping slicing leg** (Effectiveness: Low) - Your Response: Continue forward pressure from half guard position. The partial pass still represents significant advancement from lapel guard. Use standard half guard passing to complete from the improved position. → Leads to [[Half Guard]]
+- **Opponent sits up aggressively during slice to pursue back take** (Effectiveness: High) - Your Response: Increase cross-face pressure and switch hips to face them directly. If they continue sitting up, use their momentum to transition to front headlock position rather than fighting the back take from compromised angle. → Leads to [[Positions/Lapel Guard]]
+- **Opponent reconfigures lapel around your slicing leg mid-pass** (Effectiveness: Medium) - Your Response: Commit harder to the slice rather than stopping—the momentum often carries you through before the new configuration tightens. Alternatively, switch to pressure passing by abandoning the slice and smashing through the half-established grip. → Leads to [[Positions/Lapel Guard]]
+- **Opponent frames on your hip to create distance and prevent slice completion** (Effectiveness: Medium) - Your Response: Control their framing arm at the elbow with your free hand, pinning it to their body. This eliminates the frame while opening kimura opportunities if they persist in extending the arm. → Leads to [[Positions/Lapel Guard]]
+- **Opponent recovers quarter guard or half guard by trapping slicing leg** (Effectiveness: Low) - Your Response: Continue forward pressure from half guard position. The partial pass still represents significant advancement from lapel guard. Use standard half guard passing to complete from the improved position. → Leads to [[Positions/Half Guard]]
 
 
 </section>

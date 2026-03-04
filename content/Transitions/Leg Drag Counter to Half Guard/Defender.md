@@ -150,7 +150,7 @@ As the top player maintaining leg drag control, your opponent will inevitably at
 
 The critical defensive principle is that leg drag control is inherently transitional. If you stall, you create the very weight shifts and grip adjustments that the bottom player exploits. Your defense against this counter is not passive retention of leg drag—it is active advancement toward side control, mount, or back take before the bottom player can establish frames and begin the escape sequence. Recognizing the early signs of the counter (hip escape motion, frame placement at your shoulder, circular knee withdrawal) allows you to preempt the escape with increased pressure or immediate position advancement.
 
-**Opponent's Starting Position**: [[Leg Drag Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
 
@@ -186,21 +186,21 @@ The critical defensive principle is that leg drag control is inherently transiti
 ### 1. Increase hip pressure and re-secure leg drag grip immediately upon feeling their hip escape
 
 - **When to use**: At the earliest sign of their shrimping motion, before they create significant space or begin leg extraction
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: Bottom player's escape attempt is smothered and they remain in leg drag control with their energy depleted from the failed attempt
 - **Risk**: If you over-commit weight forward to pressure, they may use your momentum to accelerate their hip escape and create more space
 
 ### 2. Abandon leg drag and immediately transition to side control consolidation before they can lock half guard
 
 - **When to use**: When their leg extraction is partially successful and you feel your grip on the dragged leg weakening beyond recovery
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You bypass the half guard recovery entirely by releasing the leg and driving into side control before they can triangle their legs around yours
 - **Risk**: If your side control transition is slow, they insert a knee shield or lock half guard during the transition, achieving their escape goal
 
 ### 3. Switch angle and pursue back take by following their turning motion rather than fighting the escape head-on
 
 - **When to use**: When the bottom player creates significant hip separation and you can no longer maintain frontal leg drag pressure
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: Their escape attempt becomes your back take entry as you follow their hip movement and secure hooks before they can lock half guard
 - **Risk**: If they stay flat and do not turn, you lose your leg drag control during the angle change and they recover guard
 
@@ -212,11 +212,11 @@ The critical defensive principle is that leg drag control is inherently transiti
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Drag Control]]
+### → [[Positions/Leg Drag Control]]
 
 Maintain constant hip pressure and tight grip on dragged leg. When you feel the bottom player begin to hip escape, immediately drive your chest into their near hip and re-secure your controlling grips. Prevent frame establishment by keeping shoulder pressure tight. The key is reacting within the first half-second of their escape attempt before they build momentum.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the bottom player partially frees their leg and half guard lock becomes likely, immediately release your leg drag grip and drive laterally into side control. Establish crossface and hip control before they can complete the half guard lock. This concedes the leg drag but secures a consolidated dominant position, which is preferable to fighting a contested half guard.
 

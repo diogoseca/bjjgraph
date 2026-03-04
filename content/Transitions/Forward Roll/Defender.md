@@ -154,7 +154,7 @@ description: "How to counter the Forward Roll escape from turtle in BJJ. Recogni
 
 As the defender (turtle top player), your goal when the bottom player attempts a forward roll is to either prevent the roll from initiating, follow through the roll to maintain back control, or capitalize on the rolling motion to advance to side control. The forward roll creates a brief window of vulnerability as the bottom player commits their weight forward and temporarily loses their defensive shell. Recognizing the setup cues early gives you the ability to either shut down the attempt before it begins or position yourself to follow the motion and maintain dominant control. The key defensive principle is maintaining chest-to-back connection throughout the opponent's rolling motion rather than letting them roll away from you. If you cannot prevent the roll, your secondary objective is to follow their hips and arrive in a controlling position as they complete the rotation, denying them the seated guard recovery they are seeking.
 
-**Opponent's Starting Position**: [[Turtle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender (turtle top player), your goal when the bottom player attempts a
 ### 1. Drive hips heavy onto opponent's lower back and sprawl to flatten their turtle
 
 - **When to use**: When you feel opponent loading their legs and shifting weight forward in preparation for the roll, before they initiate the actual rolling motion
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Opponent's roll is prevented entirely and they remain in turtle with your weight flattening their base, often transitioning them toward a flattened turtle where back take becomes easier
 - **Risk**: If your sprawl timing is late and they have already begun rolling, your forward hip pressure can add momentum to their roll and accelerate their escape
 
 ### 2. Follow the roll by maintaining seatbelt grip and riding through the rotation to re-establish back control
 
 - **When to use**: When the roll has already been initiated and you have seatbelt or harness control established, making prevention impossible but following feasible
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You arrive with your opponent on their back with your seatbelt still intact, often in a better back control position than before the roll since they are now flat rather than in defensive turtle
 - **Risk**: If your grip breaks during the rotation, opponent escapes to seated guard and you lose all control, ending up in their guard rather than maintaining back control
 
 ### 3. Release back control and circle to side control as opponent rolls through
 
 - **When to use**: When opponent initiates the roll and you do not have sufficient grip control to follow through the rotation, but can redirect laterally to establish side control
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You establish side control as opponent completes the roll, converting their escape attempt into a position advancement for you since side control offers submissions and point scoring
 - **Risk**: If you release too early or circle too slowly, opponent completes the roll to seated guard before you can establish side pressure, and you end up in their open guard
 
 ### 4. Snap opponent's hips backward and re-turtle them by pulling their waist toward you
 
 - **When to use**: At the earliest sign of forward weight shift, before opponent has committed momentum to the roll and while their hands are still transitioning to posting position
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Opponent's roll attempt is aborted and they return to defensive turtle with disrupted timing, giving you a window to improve your control grips or insert hooks
 - **Risk**: If opponent has already generated significant forward momentum, pulling their hips may not overcome their inertia and you waste energy on a failed prevention
 
@@ -225,11 +225,11 @@ As the defender (turtle top player), your goal when the bottom player attempts a
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Prevent the roll entirely by maintaining heavy hip pressure on opponent's lower back and sprawling when you detect the forward weight shift. Alternatively, follow through the rotation with seatbelt grip intact to arrive with opponent on their back with your control still established. Both approaches require early recognition of the roll attempt and committed reaction before opponent generates full momentum.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When opponent commits fully to the roll and you cannot maintain back control through the rotation, release your back grips and circle laterally to meet them as they complete the roll. Drive your shoulder into their chest as they land and establish crossface before they can sit up into seated guard. This converts their escape into a positional change that still favors you with side control pressure and submission opportunities.
 

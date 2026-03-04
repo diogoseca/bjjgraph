@@ -154,7 +154,7 @@ description: "Defend against the Pocket Half Guard pass in BJJ. Recognition cues
 
 Defending the Pocket Half Guard pass requires early recognition and proactive disruption before the top player establishes complete flattening control. The defender's primary objective is maintaining the pocket space created by their hip frame and deep underhook, as losing either of these structural elements cascades into a compromised position where the pass becomes nearly inevitable. Active hip movement, frame reinforcement, and timely transitions to alternative guard configurations provide defensive pathways when the top player begins their passing sequence. The defender must balance between maintaining pocket half guard retention and threatening sweeps or transitions that force the passer into defensive reactions, disrupting their systematic passing progression.
 
-**Opponent's Starting Position**: [[Pocket Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Pocket Half Guard]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the Pocket Half Guard pass requires early recognition and proactive di
 ### 1. Reinforce pocket frame by driving bottom foot harder into opponent's hip while pulling with underhook to maintain angle
 
 - **When to use**: Early in the pass attempt when you still have active hip mobility and the pocket space has not been fully collapsed
-- **Targets**: [[Pocket Half Guard]]
+- **Targets**: [[Positions/Half Guard/Pocket Half Guard]]
 - **If successful**: Top player's pass stalls and they must restart the flattening sequence, buying you time and costing them energy
 - **Risk**: If your hip frame is already significantly compromised, this defense may fail and waste energy that could be used for transitional escapes
 
 ### 2. Transition to deep half guard by scooting hips underneath the opponent when you feel their weight shift forward during extraction
 
 - **When to use**: When the top player begins the extraction phase and their hips rise slightly or shift forward, creating space underneath them
-- **Targets**: [[Pocket Half Guard]]
+- **Targets**: [[Positions/Half Guard/Pocket Half Guard]]
 - **If successful**: You enter deep half guard with superior sweeping angles and the opponent must abandon their pass to address the new positional threat
 - **Risk**: If the opponent reads the deep half entry, they can sprawl and drive hips back down, flattening you further than your original position
 
 ### 3. Execute Old School sweep by pulling opponent's far shoulder down with underhook while posting on your free arm to come on top
 
 - **When to use**: During the extraction phase when the opponent's base is compromised by their focus on freeing the trapped leg
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You sweep the opponent and end up in a dominant top position, completely reversing the positional exchange
 - **Risk**: If the sweep is scouted, the opponent can post wide and use your committed movement to accelerate their pass completion
 
 ### 4. Insert knee shield by retracting bottom leg and placing shin across opponent's torso to create distance and structural barrier
 
 - **When to use**: When the pocket frame has been collapsed but before the opponent achieves full flattening, allowing a guard transition
-- **Targets**: [[Pocket Half Guard]]
+- **Targets**: [[Positions/Half Guard/Pocket Half Guard]]
 - **If successful**: You recover to knee shield half guard which provides a fresh defensive structure with different offensive threats
 - **Risk**: If the opponent has already achieved significant flattening, inserting the knee shield may be too late and they can smash through the partial frame
 
@@ -224,11 +224,11 @@ Defending the Pocket Half Guard pass requires early recognition and proactive di
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Execute a sweep during the opponent's extraction phase when their base is most compromised. The Old School sweep is highest percentage—pull their far shoulder down with your underhook while their trapped knee is partially extracted and their weight is transitioning forward. Time the sweep for the moment their free leg lifts or shifts to complete extraction.
 
-### → [[Pocket Half Guard]]
+### → [[Positions/Half Guard/Pocket Half Guard]]
 
 Prevent the pass by maintaining active pocket frame pressure and threatening sweeps that force the passer to reset. Reinforce your bottom foot against their hip, keep your underhook deep, and stay on your side with active hip movement. If they begin extraction, increase leg entanglement or transition to deep half guard to force them to abandon the pass attempt.
 

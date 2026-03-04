@@ -21,7 +21,7 @@ This transition exploits a fundamental defensive dilemma: the actions the defend
 
 The technical execution requires precise hip placement perpendicular to the opponent's thigh, maintaining continuous leg isolation throughout the transition, and understanding the biomechanical relationship between ankle defense and knee vulnerability. This technique exemplifies the dilemma-based approach to submission grappling where each defensive action opens a new offensive pathway, forcing the defender to address multiple threats simultaneously rather than solving a single problem. Proficiency in this transition transforms the Estima Lock from a single-threat position into a multi-layered attack system.
 
-**From Position**: [[Estima Lock]] (Top)
+**From Position**: [[Positions/Estima Lock]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ The technical execution requires precise hip placement perpendicular to the oppo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kneebar Control]] | 50% |
-| Failure | [[Estima Lock]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Kneebar Control]] | 50% |
+| Failure | [[Positions/Estima Lock]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -195,27 +195,27 @@ The Kneebar from Estima Lock occupies a pivotal position within modern leg lock 
 ## Related Techniques
 
 
-- [[Estima Lock]] - Source position from which this kneebar transition initiates
+- [[Positions/Estima Lock]] - Source position from which this kneebar transition initiates
 
-- [[Kneebar Control]] - Target position reached on successful transition completion
+- [[Positions/Kneebar Control]] - Target position reached on successful transition completion
 
-- [[Kneebar Control Maintenance]] - Follow-up technique for maintaining control after successful entry
+- [[Transitions/Kneebar Control Maintenance]] - Follow-up technique for maintaining control after successful entry
 
-- [[Estima Lock Finish]] - Primary submission from source position that this chain attack complements
+- [[Submissions/Estima Lock Finish]] - Primary submission from source position that this chain attack complements
 
-- [[Toe Hold from Estima Lock]] - Alternative chain attack from same position targeting the foot instead of knee
+- [[Transitions/Toe Hold from Estima Lock]] - Alternative chain attack from same position targeting the foot instead of knee
 
-- [[Counter from Estima Lock]] - Defensive transition the opponent attempts that creates kneebar opportunities
+- [[Transitions/Counter from Estima Lock]] - Defensive transition the opponent attempts that creates kneebar opportunities
 
-- [[Estima Lock Counter Roll]] - Opponent's rolling defense that may expose or prevent kneebar entry
+- [[Transitions/Estima Lock Counter Roll]] - Opponent's rolling defense that may expose or prevent kneebar entry
 
-- [[Ashi Garami]] - Related leg entanglement system with overlapping control principles
+- [[Positions/Ashi Garami]] - Related leg entanglement system with overlapping control principles
 
-- [[Saddle]] - Alternative leg entanglement target accessible from similar transitional positions
+- [[Positions/Ashi Garami/Saddle]] - Alternative leg entanglement target accessible from similar transitional positions
 
-- [[Open Guard]] - Position reached when opponent successfully counters the transition
+- [[Positions/Open Guard]] - Position reached when opponent successfully counters the transition
 
-- [[50-50 Guard]] - Common entry position leading to Estima Lock where this chain develops
+- [[Positions/Ashi Garami/50-50 Guard]] - Common entry position leading to Estima Lock where this chain develops
 
 
 </section>

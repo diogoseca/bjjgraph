@@ -24,8 +24,8 @@ The submission works exceptionally well in no-gi situations where collar grips a
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and windpipe
-**Starting Position**: [[Front Headlock]]
-**From Position**: [[Front Headlock]] (Top)
+**Starting Position**: [[Positions/Front Headlock]]
+**From Position**: [[Positions/Front Headlock]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -80,8 +80,8 @@ The submission works exceptionally well in no-gi situations where collar grips a
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Front Headlock]] | 27% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Front Headlock]] | 27% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -236,16 +236,16 @@ The submission works exceptionally well in no-gi situations where collar grips a
 
 ## From Which Positions?
 
-- [[Front Headlock]]
-- [[Guillotine Control]]
-- [[Closed Guard]]
-- [[Half Guard]]
-- [[Turtle]]
-- [[Standing Position]]
-- [[Clinch]]
-- [[Open Guard]]
-- [[Butterfly Guard]]
-- [[North-South]]
+- [[Positions/Front Headlock]]
+- [[Positions/Guillotine Control]]
+- [[Positions/Closed Guard]]
+- [[Positions/Half Guard]]
+- [[Positions/Turtle]]
+- [[Positions/Standing Position]]
+- [[Positions/Clinch]]
+- [[Positions/Open Guard]]
+- [[Positions/Butterfly Guard]]
+- [[Positions/North-South]]
 
 
 </section>
@@ -254,17 +254,17 @@ The submission works exceptionally well in no-gi situations where collar grips a
 
 ## Related Submissions
 
-- [[Guillotine Choke]]
-- [[High Elbow Guillotine]]
-- [[Arm in Guillotine]]
-- [[Ten Finger Guillotine]]
-- [[Darce Choke]]
-- [[Anaconda Choke]]
-- [[Rear Naked Choke]]
-- [[Arm Triangle]]
-- [[Von Flue Choke]]
-- [[North-South Choke]]
-- [[Brabo Choke]]
+- [[Transitions/Guillotine Choke]]
+- [[Submissions/High Elbow Guillotine]]
+- [[Submissions/Arm in Guillotine]]
+- [[Submissions/Ten Finger Guillotine]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Anaconda Choke]]
+- [[Transitions/Rear Naked Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Von Flue Choke]]
+- [[Transitions/North-South Choke]]
+- [[Submissions/Brabo Choke]]
 
 
 </section>
@@ -273,15 +273,15 @@ The submission works exceptionally well in no-gi situations where collar grips a
 
 ## Additional Related Content
 
-- [[Guillotine Setup]] - Primary entry transition for establishing chin strap position
-- [[Front Headlock]] - Broader control system containing chin strap as one finishing option
-- [[Guillotine Defense]] - Defensive counters that opponent may use against chin strap attacks
-- [[Darce Control]] - Alternative front headlock attack if chin strap is defended
-- [[Anaconda Control]] - Alternative front headlock attack if chin strap angle is unavailable
-- [[Guillotine Choke]] - Chain of guillotine variations including chin strap as progression
-- [[Front Headlock to Guillotine]] - Entry transition directly into chin strap setup
-- [[Turtle]] - Common entry position for attacking with chin strap guillotine
-- [[Guillotine Control]] - Broader guillotine control position from which chin strap is applied
+- [[Transitions/Guillotine Setup]] - Primary entry transition for establishing chin strap position
+- [[Positions/Front Headlock]] - Broader control system containing chin strap as one finishing option
+- [[Transitions/Guillotine Defense]] - Defensive counters that opponent may use against chin strap attacks
+- [[Positions/Darce Control]] - Alternative front headlock attack if chin strap is defended
+- [[Positions/Anaconda Control]] - Alternative front headlock attack if chin strap angle is unavailable
+- [[Transitions/Guillotine Choke]] - Chain of guillotine variations including chin strap as progression
+- [[Transitions/Front Headlock to Guillotine]] - Entry transition directly into chin strap setup
+- [[Positions/Turtle]] - Common entry position for attacking with chin strap guillotine
+- [[Positions/Guillotine Control]] - Broader guillotine control position from which chin strap is applied
 
 
 </section>

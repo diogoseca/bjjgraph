@@ -154,7 +154,7 @@ description: "Complete defender guide for preventing the knee slice pass from de
 
 As the deep half guard bottom player facing a knee slice pass attempt, your primary advantage is the powerful sweep leverage created by your deep positioning underneath the opponent's center of gravity. Your deep underhook on their far leg and your head/shoulder wedge under their hip give you mechanical tools to counter the pass, but only if you recognize the knee slice setup early and respond with the correct timing. The key defensive principle is that the moment the top player lifts their knee to slice, they create a brief window of instability that you can exploit with sweeps, guard transitions, or underhook retention. Your defense should focus on maintaining your deep underhook, recognizing the crossface pressure that precedes the pass, and timing your counters for the transitional moment when the passer is most vulnerable.
 
-**Opponent's Starting Position**: [[Deep Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Deep Half Guard]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ As the deep half guard bottom player facing a knee slice pass attempt, your prim
 ### 1. Maintain tight underhook and block knee path with hip frame
 
 - **When to use**: Early in the pass attempt when you feel the crossface settling and the knee beginning to angle. Frame your free hand against their hip to physically block the knee slice path.
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: Pass attempt stalls and you maintain deep half guard with all your sweep options intact
 - **Risk**: If your frame is stripped or swum through, the pass proceeds with less time for other defenses
 
 ### 2. Execute Homer Simpson sweep as the knee lifts off the mat
 
 - **When to use**: The moment you feel their knee lift to begin the slice. Their base is momentarily compromised and their weight is shifting forward, creating the perfect conditions for this sweep.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You sweep the opponent and come up in a dominant top position, completely reversing the positional hierarchy
 - **Risk**: If your timing is off or their base is too wide, you expend energy without completing the sweep and may lose your deep position
 
 ### 3. Transition to X-Guard or Single Leg X by hooking their posted leg
 
 - **When to use**: When the knee slice is too advanced to block directly but the opponent's posted leg is within hooking range. Abandon deep half and transition to a new guard before the pass completes.
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: You establish a new guard position with sweep options, preventing the pass from completing even though deep half was compromised
 - **Risk**: Transitional moment between guards creates vulnerability to the pass completing if hooks are not established quickly
 
 ### 4. Elevate hips into waiter sweep during forward pressure
 
 - **When to use**: When the opponent drives heavy forward pressure with the crossface during the knee slice, loading their weight onto your upper body and creating conditions for the waiter sweep.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent's forward drive is redirected into a sweep that puts you on top
 - **Risk**: If the opponent recognizes the waiter setup and drops their hips, you may end up flattened with compromised positioning
 
@@ -226,11 +226,11 @@ As the deep half guard bottom player facing a knee slice pass attempt, your prim
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a sweep (Homer Simpson or waiter) during the knee slice's transitional moment when the opponent's base is compromised. Use your deep underhook leverage and hip elevation to reverse the position while their knee is off the mat.
 
-### → [[Deep Half Guard]]
+### → [[Positions/Half Guard/Deep Half Guard]]
 
 Maintain tight underhook control and frame against the opponent's hip to prevent the knee from completing its path. Combined with active hip movement and head positioning below their hip line, this stalls the pass and preserves all your offensive options.
 

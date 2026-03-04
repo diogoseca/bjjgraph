@@ -146,7 +146,7 @@ description: "Defend against the Deep Half to X-Guard transition with early reco
 
 Defending the Deep Half to X-Guard transition requires recognizing the early signs of the bottom player's repositioning and acting before the X-Guard hooks can be established. The critical window for defense occurs when the bottom player releases or loosens their deep underhook — this is simultaneously the moment of transition and the moment of their greatest vulnerability. Your defensive strategy should focus on preventing the hook threading by maintaining heavy crossface pressure, extracting your leg with speed and purpose during the release window, and flattening the bottom player's hips to eliminate the rotation they need. Understanding that this transition is often triggered by your own escape attempts from deep half creates a key strategic insight: extract with purpose and pressure rather than simply pulling away, which actually feeds the bottom player's entry mechanics.
 
-**Opponent's Starting Position**: [[Deep Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Deep Half to X-Guard transition requires recognizing the early sig
 ### 1. Drive crossface and sprawl to flatten bottom player's upper body and hips
 
 - **When to use**: Early in the transition when the bottom player first begins hip rotation and before any hooks are established
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: Bottom player is flattened and forced to re-establish deep half positioning or lose guard entirely
 - **Risk**: If applied too late after hooks are already threading, your forward drive feeds directly into their X-Guard elevation sweep
 
 ### 2. Quick leg extraction with circular knee motion up, back, then down and out
 
 - **When to use**: When you feel the underhook loosening and before the inside hook threads fully behind your knee
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You free your leg completely and establish dominant half guard top position or transition directly to a guard pass
 - **Risk**: If extraction is incomplete, bottom player can chase your retreating leg into Single Leg X-Guard
 
 ### 3. Step over bottom player's body with your free leg to change the angle entirely
 
 - **When to use**: When bottom player commits to hip rotation and is partially inverted with their legs exposed
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You clear the X-Guard configuration and establish a passing position on the opposite side
 - **Risk**: Step-over creates rolling back take opportunity for the bottom player if they maintain any underhook contact
 
 ### 4. Backstep into leg entanglement position using their exposed legs
 
 - **When to use**: When bottom player's legs are spread and exposed during the hook reconfiguration phase
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You enter a leg entanglement position from top, converting their guard transition into your offensive attack
 - **Risk**: Requires technical proficiency in leg lock entries; may expose your own legs to entanglement if executed poorly
 
@@ -217,11 +217,11 @@ Defending the Deep Half to X-Guard transition requires recognizing the early sig
 
 ## Best-Case Outcomes for Defender
 
-### → [[Deep Half Guard]]
+### → [[Positions/Half Guard/Deep Half Guard]]
 
 Apply immediate forward crossface pressure when you detect the underhook loosening. Sprawl your hips while driving your shoulder into the bottom player's jaw to flatten their upper body. This prevents the hip rotation needed for X-Guard entry and forces them back into deep half where they must re-establish their underhook and positioning before attempting any further transition.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When you feel the underhook releasing, immediately extract your far leg using a circular knee motion while maintaining crossface pressure. Drive your freed leg past the bottom player's guard and establish dominant half guard top with heavy shoulder pressure, eliminating their deep positioning entirely and putting them in a defensive half guard where your passing options are significantly better.
 

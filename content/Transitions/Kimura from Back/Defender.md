@@ -158,7 +158,7 @@ The defensive strategy centers on preventing the attacker from establishing the 
 
 Advanced defenders recognize that the best defense begins before the kimura is fully established. Identifying the grip attempt early and fighting the wrist control prevents the attacker from ever reaching the figure-four. If caught deeper, the defender must combine grip fighting with rotational escapes that exploit moments when the attacker's hands are occupied with the kimura rather than maintaining the triangle. The goal is to either strip the kimura grip and return to standard rear triangle defense, or use the attacker's submission focus to create enough space to escape the triangle entirely.
 
-**Opponent's Starting Position**: [[Rear Triangle]] (Top)
+**Opponent's Starting Position**: [[Positions/Triangle Control/Rear Triangle]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Advanced defenders recognize that the best defense begins before the kimura is f
 ### 1. Strip wrist control early by using your free hand to peel the attacker's C-grip off your trapped wrist before the figure-four connects
 
 - **When to use**: As soon as you feel the attacker's hand reaching for your trapped arm wrist, before the figure-four is established
-- **Targets**: [[Rear Triangle]]
+- **Targets**: [[Positions/Triangle Control/Rear Triangle]]
 - **If successful**: Returns to standard rear triangle position where you defend the choke without the additional kimura threat
 - **Risk**: Using your free hand to strip grips leaves your neck temporarily less defended, potentially allowing the attacker to switch back to the triangle choke
 
 ### 2. Pin your own elbow to your ribcage and grab your own lapel, belt, or waistband to anchor your trapped arm against rotation
 
 - **When to use**: When the attacker has established the figure-four grip but has not yet begun rotating your shoulder
-- **Targets**: [[Rear Triangle]]
+- **Targets**: [[Positions/Triangle Control/Rear Triangle]]
 - **If successful**: Prevents the kimura finish by anchoring your arm, buying time to work grip strips or positional escapes
 - **Risk**: Static anchoring eventually fails against persistent pressure; you must combine this with active escape attempts rather than just holding
 
 ### 3. Rotate your body toward the attacker, turning into them to reduce shoulder torque while working to extract your trapped arm from the triangle
 
 - **When to use**: When the kimura pressure is building and you need to relieve shoulder stress while creating escape opportunity
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Reduces kimura effectiveness and may create enough space to extract trapped arm, transitioning to standard back control defense
 - **Risk**: Rotation can tighten the triangle choke if the attacker adjusts their hip angle to follow your movement
 
 ### 4. Bridge explosively while simultaneously pulling your trapped arm toward your centerline to disrupt the attacker's grip structure
 
 - **When to use**: When the attacker commits both hands to the kimura grip, momentarily reducing their positional control through the triangle
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Creates enough space to break the figure-four or extract the trapped arm, potentially disrupting the triangle lock
 - **Risk**: Failed bridge wastes significant energy and the attacker can tighten control after you settle back down
 
@@ -228,11 +228,11 @@ Advanced defenders recognize that the best defense begins before the kimura is f
 
 ## Best-Case Outcomes for Defender
 
-### → [[Rear Triangle]]
+### → [[Positions/Triangle Control/Rear Triangle]]
 
 Strip the attacker's kimura grip before they can establish the figure-four or begin rotation. Use your free hand to peel their wrist control while keeping your elbow tight. Once the kimura grip is broken, return to standard rear triangle defense focusing on chin protection and arm extraction.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Rotate into the attacker while they are focused on the kimura grip rather than maintaining the triangle structure. Their hands being occupied with the figure-four means the triangle may loosen during your rotation. Use the rotation to extract your trapped arm from the triangle and transition to standard back control bottom, which is significantly less dangerous than the rear triangle.
 

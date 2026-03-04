@@ -156,7 +156,7 @@ As the Twister Control top player, your goal when the bottom player attempts the
 
 The critical insight for the defender is that the Defensive Roll requires specific conditions to work - a momentary loosening of leg control, a free posting arm, and committed hip drive in the rolling direction. By denying any one of these conditions, you can shut down the escape before it begins. Tight leg control through the Truck configuration prevents the bottom player from generating enough rolling momentum, while controlling their posting arm eliminates their ability to guide the roll. The most effective strategy is proactive: finish the Twister or transition to alternative attacks before the bottom player can identify and exploit the timing window for the Defensive Roll.
 
-**Opponent's Starting Position**: [[Twister Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Twister Control]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The critical insight for the defender is that the Defensive Roll requires specif
 ### 1. Tighten leg entanglement and increase rotational pressure immediately upon sensing roll preparation
 
 - **When to use**: When you feel the bottom player loading their hips or planting their posting arm before the roll begins
-- **Targets**: [[Twister Control]]
+- **Targets**: [[Positions/Twister Control]]
 - **If successful**: Bottom player cannot generate enough momentum for the roll and remains in Twister Control, allowing you to continue hunting the finish
 - **Risk**: Over-committing to leg tightening may create space in upper body control that allows alternative escapes
 
 ### 2. Control the bottom player's free posting arm by pinning their wrist or securing an overhook to eliminate roll guidance
 
 - **When to use**: When you notice the bottom player's arm reaching toward the mat to establish a posting base for the roll
-- **Targets**: [[Twister Control]]
+- **Targets**: [[Positions/Twister Control]]
 - **If successful**: Without a posting arm, the bottom player cannot control roll direction or generate sufficient momentum, keeping them trapped
 - **Risk**: Releasing upper body control to chase the arm may give them enough space to turn and face you
 
 ### 3. Follow the roll and transition to back control by riding the rolling momentum and inserting hooks
 
 - **When to use**: When the roll has already been initiated and you cannot prevent it, ride the movement rather than fighting it
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You transition from Twister Control to conventional back control with hooks, maintaining a dominant position with rear naked choke threats
 - **Risk**: Bottom player may create enough separation during the roll to establish Turtle defense before you can secure hooks
 
 ### 4. Sprawl your hips back and flatten the bottom player to eliminate their hip drive capability
 
 - **When to use**: When you feel the bottom player beginning to load their hips for the roll but before they have committed momentum
-- **Targets**: [[Twister Control]]
+- **Targets**: [[Positions/Twister Control]]
 - **If successful**: Flattening removes the hip elevation needed for rolling momentum, keeping the bottom player pinned in Twister Control
 - **Risk**: Sprawling may reduce your own rotational pressure, giving the bottom player time to hand fight and work incremental escapes
 
@@ -227,11 +227,11 @@ The critical insight for the defender is that the Defensive Roll requires specif
 
 ## Best-Case Outcomes for Defender
 
-### → [[Twister Control]]
+### → [[Positions/Twister Control]]
 
 Prevent the roll entirely by maintaining tight leg entanglement and controlling the posting arm. Recognize preparation cues early and tighten your controls before the bottom player can commit to the rolling motion. Keep constant rotational pressure so they never find the timing window.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 If the roll initiates, ride the momentum by keeping chest-to-back connection throughout. As the bottom player completes the roll into Turtle, immediately insert your hooks and secure a seatbelt harness. Transition your attack from Twister to conventional back control submissions.
 

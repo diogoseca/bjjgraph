@@ -180,7 +180,7 @@ description: "Execute the Guillotine Escape to Von Flue choke. Step-by-step guid
 
 As the attacker in the Guillotine Escape to Von Flue, you are the practitioner caught in a guillotine from the bottom player's guard who transforms this defensive crisis into a submission opportunity. Your objective is to methodically pass to side control on the choking arm side while your opponent maintains their guillotine grip. Once you establish side control, your shoulder drives directly into the exposed side of their neck—the same side their own arm is compressing from the opposite direction. This bilateral compression creates an extremely efficient blood choke that can produce unconsciousness within seconds. The technique demands precise understanding of passing angles, shoulder placement, and composure under pressure, as you must remain calm while being actively choked during the initial passing phase. Mastery of this counter fundamentally changes how opponents approach guillotine attacks against you, creating a deterrent that improves your entire front headlock defense.
 
-**From Position**: [[Guillotine Control]] (Bottom)
+**From Position**: [[Positions/Guillotine Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker in the Guillotine Escape to Von Flue, you are the practitioner c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Guillotine Control]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Guillotine Control]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker in the Guillotine Escape to Von Flue, you are the practitioner c
 
 ## Opponent Counters
 
-- **Opponent releases guillotine grip before Von Flue is established and immediately frames for guard recovery** (Effectiveness: High) - Your Response: Immediately consolidate side control with crossface and hip control before they can create distance. Their grip release removes the Von Flue opportunity but gives you dominant side control position—transition to standard top attacks. → Leads to [[Open Guard]]
-- **Opponent closes guard tightly around your waist to prevent the lateral passing sequence** (Effectiveness: High) - Your Response: Use standard guard opening techniques—drive knee into their tailbone, posture with both hands on their hips, and work to create the space needed to resume the lateral pass. The Von Flue requires passing their guard first. → Leads to [[Guillotine Control]]
-- **Opponent transitions to high elbow guillotine during your pass attempt, increasing choke danger** (Effectiveness: Medium) - Your Response: Accelerate the passing speed and commit fully to reaching side control. The high elbow guillotine is more dangerous but requires specific body positioning that becomes harder to maintain as you drive laterally past their guard legs. → Leads to [[Guillotine Control]]
-- **Opponent swings legs up for high guard or triangle configuration to prevent lateral pass completion** (Effectiveness: Medium) - Your Response: Posture hard and drive your trapped arm elbow toward their hip to break the high guard angle. Use your free arm to push their leg off your shoulder before they can lock the triangle position. → Leads to [[Guillotine Control]]
+- **Opponent releases guillotine grip before Von Flue is established and immediately frames for guard recovery** (Effectiveness: High) - Your Response: Immediately consolidate side control with crossface and hip control before they can create distance. Their grip release removes the Von Flue opportunity but gives you dominant side control position—transition to standard top attacks. → Leads to [[Positions/Open Guard]]
+- **Opponent closes guard tightly around your waist to prevent the lateral passing sequence** (Effectiveness: High) - Your Response: Use standard guard opening techniques—drive knee into their tailbone, posture with both hands on their hips, and work to create the space needed to resume the lateral pass. The Von Flue requires passing their guard first. → Leads to [[Positions/Guillotine Control]]
+- **Opponent transitions to high elbow guillotine during your pass attempt, increasing choke danger** (Effectiveness: Medium) - Your Response: Accelerate the passing speed and commit fully to reaching side control. The high elbow guillotine is more dangerous but requires specific body positioning that becomes harder to maintain as you drive laterally past their guard legs. → Leads to [[Positions/Guillotine Control]]
+- **Opponent swings legs up for high guard or triangle configuration to prevent lateral pass completion** (Effectiveness: Medium) - Your Response: Posture hard and drive your trapped arm elbow toward their hip to break the high guard angle. Use your free arm to push their leg off your shoulder before they can lock the triangle position. → Leads to [[Positions/Guillotine Control]]
 
 
 </section>

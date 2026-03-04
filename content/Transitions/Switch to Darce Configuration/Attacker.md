@@ -184,7 +184,7 @@ The darce configuration is mechanically distinct from the anaconda because the c
 
 This transition is a critical branch in the buggy choke attack tree. Opponents who turn in to defend the collar grip inadvertently create the head-and-arm angle required for both darce and anaconda attacks. Choosing the darce over the anaconda depends on arm positioning and the specific angle of the opponent's rotation. The darce configuration offers a powerful finishing position because the choking arm's blade sits directly across the carotid with the opponent's own trapped shoulder acting as the secondary compression point. Once the figure-four locks, the top player sprawls and walks hips toward the head to generate finishing pressure through body mechanics rather than arm strength.
 
-**From Position**: [[Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
 
@@ -237,9 +237,9 @@ This transition is a critical branch in the buggy choke attack tree. Opponents w
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 55% |
-| Failure | [[Buggy Choke]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Darce Control]] | 55% |
+| Failure | [[Positions/Buggy Choke]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ This transition is a critical branch in the buggy choke attack tree. Opponents w
 
 ## Opponent Counters
 
-- **Opponent tucks chin hard and clamps far elbow tight to ribs, denying the armpit threading path during the redirect phase** (Effectiveness: High) - Your Response: If the far armpit is blocked, abandon the darce switch and either return to the original buggy choke collar grip or switch to the anaconda configuration which threads around the neck first and does not require far armpit access → Leads to [[Buggy Choke]]
-- **Opponent extracts their near arm from the trapped position before the figure-four grip is secured, eliminating the compression fulcrum** (Effectiveness: High) - Your Response: Without the trapped arm, switch to a guillotine configuration since you already have neck access, or disengage the neck and transition to back control by hooking the near leg as they posture to escape → Leads to [[Buggy Choke]]
-- **Opponent sits to guard explosively during the grip transition window when control is momentarily loosened** (Effectiveness: Medium) - Your Response: Follow the sitting motion and use the partial neck wrap to establish a front headlock or arm-in guillotine from the new angle. Maintain head control throughout the transition to prevent full guard recovery → Leads to [[Half Guard]]
-- **Opponent drives forward aggressively and re-turtles tightly, collapsing the space needed for the darce arm to thread** (Effectiveness: Medium) - Your Response: Use a snapdown to break their forward drive and re-expose the neck. If they maintain a tight turtle, reset to buggy choke control and wait for the next rotation trigger before reattempting → Leads to [[Buggy Choke]]
+- **Opponent tucks chin hard and clamps far elbow tight to ribs, denying the armpit threading path during the redirect phase** (Effectiveness: High) - Your Response: If the far armpit is blocked, abandon the darce switch and either return to the original buggy choke collar grip or switch to the anaconda configuration which threads around the neck first and does not require far armpit access → Leads to [[Positions/Buggy Choke]]
+- **Opponent extracts their near arm from the trapped position before the figure-four grip is secured, eliminating the compression fulcrum** (Effectiveness: High) - Your Response: Without the trapped arm, switch to a guillotine configuration since you already have neck access, or disengage the neck and transition to back control by hooking the near leg as they posture to escape → Leads to [[Positions/Buggy Choke]]
+- **Opponent sits to guard explosively during the grip transition window when control is momentarily loosened** (Effectiveness: Medium) - Your Response: Follow the sitting motion and use the partial neck wrap to establish a front headlock or arm-in guillotine from the new angle. Maintain head control throughout the transition to prevent full guard recovery → Leads to [[Positions/Half Guard]]
+- **Opponent drives forward aggressively and re-turtles tightly, collapsing the space needed for the darce arm to thread** (Effectiveness: Medium) - Your Response: Use a snapdown to break their forward drive and re-expose the neck. If they maintain a tight turtle, reset to buggy choke control and wait for the next rotation trigger before reattempting → Leads to [[Positions/Buggy Choke]]
 
 
 </section>

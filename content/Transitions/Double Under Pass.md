@@ -21,7 +21,7 @@ Historically favored by top-position specialists and pressure passers, the Doubl
 
 The Double Under Pass is particularly effective in gi grappling where grips can be used to enhance control, though it remains highly viable in no-gi competition. Advanced practitioners use this pass as part of a comprehensive passing system, often combining it with headquarters position, knee slice variations, and other pressure-based attacks to create multiple layers of offensive threat. The technique's reliability stems from its fundamental soundness—when executed correctly, the opponent must defend against immense pressure while having limited mechanical advantages to create distance or recover guard.
 
-**From Position**: [[Open Guard]] (Top)
+**From Position**: [[Positions/Open Guard]] (Top)
 **Success Rate**: 68%
 
 </section>
@@ -32,9 +32,9 @@ The Double Under Pass is particularly effective in gi grappling where grips can 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 75% |
-| Failure | [[Open Guard]] | 15% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 75% |
+| Failure | [[Positions/Open Guard]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -196,29 +196,29 @@ The double under pass is a cornerstone technique within the pressure passing sys
 ## Related Techniques
 
 
-- [[Headquarters Position]] - Common entry position with single underhook established
+- [[Positions/Headquarters Position]] - Common entry position with single underhook established
 
-- [[Over-Under Pass]] - Similar pressure passing technique with different grip configuration
+- [[Transitions/Over-Under Pass]] - Similar pressure passing technique with different grip configuration
 
-- [[Body Lock Pass]] - No-gi variation using similar pressure principles
+- [[Transitions/Body Lock Pass]] - No-gi variation using similar pressure principles
 
-- [[Side Control]] - Primary ending position after successful pass completion
+- [[Positions/Side Control]] - Primary ending position after successful pass completion
 
-- [[Kimura]] - Natural submission transition available after establishing side control
+- [[Transitions/Kimura]] - Natural submission transition available after establishing side control
 
-- [[Mount]] - Natural positional progression from side control after pass
+- [[Positions/Mount]] - Natural positional progression from side control after pass
 
-- [[Knee Slice Pass]] - Alternative pass that chains well with double under system
+- [[Transitions/Knee Slice Pass]] - Alternative pass that chains well with double under system
 
-- [[Butterfly Guard]] - Common starting guard that double under pass effectively neutralizes
+- [[Positions/Butterfly Guard]] - Common starting guard that double under pass effectively neutralizes
 
-- [[De La Riva Guard]] - Starting position where double under can be applied
+- [[Positions/De La Riva Guard]] - Starting position where double under can be applied
 
-- [[Half Guard]] - Common defensive recovery position opponent may achieve during pass
+- [[Positions/Half Guard]] - Common defensive recovery position opponent may achieve during pass
 
-- [[Double Under Pass]] - Related passing technique from similar position configuration
+- [[Transitions/Double Under Pass]] - Related passing technique from similar position configuration
 
-- [[Closed Guard]] - Guard position opponent may recover to counter the pass attempt
+- [[Positions/Closed Guard]] - Guard position opponent may recover to counter the pass attempt
 
 
 </section>

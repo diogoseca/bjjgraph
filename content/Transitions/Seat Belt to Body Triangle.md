@@ -21,7 +21,7 @@ Strategically, this transition is most effective when the attacker has already s
 
 The timing and leg selection are critical. Threading the leg across the defender's centerline requires momentary space creation, and choosing the correct side—typically the side where your hips are positioned on the mat—determines the squeeze angle and effectiveness. Elite practitioners treat this not as an isolated technique but as a positional upgrade within a broader back attack system, where the body triangle serves as a platform for sustained pressure and methodical submission hunting.
 
-**From Position**: [[Seat Belt Control Back]] (Top)
+**From Position**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The timing and leg selection are critical. Threading the leg across the defender
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Body Triangle]] | 55% |
-| Failure | [[Seat Belt Control Back]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control/Body Triangle]] | 55% |
+| Failure | [[Positions/Back Control/Seat Belt Control Back]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Seat Belt to Body Triangle transition occupies a pivotal role within the bac
 ## Related Techniques
 
 
-- [[Seat Belt Control Back]] - Starting position — seat belt with hooks provides the foundation from which body triangle is established
+- [[Positions/Back Control/Seat Belt Control Back]] - Starting position — seat belt with hooks provides the foundation from which body triangle is established
 
-- [[Body Triangle]] - Target position — successful completion establishes the figure-four leg lock around defender's torso
+- [[Positions/Back Control/Body Triangle]] - Target position — successful completion establishes the figure-four leg lock around defender's torso
 
-- [[Back Control]] - Parent position category — both seat belt and body triangle are configurations within back control
+- [[Positions/Back Control]] - Parent position category — both seat belt and body triangle are configurations within back control
 
-- [[Body Triangle Squeeze]] - Follow-up submission — body triangle compression can be used as a direct finishing technique once established
+- [[Transitions/Body Triangle Squeeze]] - Follow-up submission — body triangle compression can be used as a direct finishing technique once established
 
-- [[Body Triangle RNC]] - Primary submission chain — body triangle platform enables high-percentage rear naked choke finishing
+- [[Submissions/Body Triangle RNC]] - Primary submission chain — body triangle platform enables high-percentage rear naked choke finishing
 
-- [[Half Guard]] - Counter outcome — defender may recover half guard if they exploit the hook release during transition
+- [[Positions/Half Guard]] - Counter outcome — defender may recover half guard if they exploit the hook release during transition
 
-- [[Back Control Maintenance]] - Alternative strategy — maintaining hooks rather than upgrading to body triangle when transition risk is too high
+- [[Transitions/Back Control Maintenance]] - Alternative strategy — maintaining hooks rather than upgrading to body triangle when transition risk is too high
 
-- [[Rear Naked Choke]] - Primary attack from destination — body triangle amplifies RNC effectiveness through breathing restriction
+- [[Transitions/Rear Naked Choke]] - Primary attack from destination — body triangle amplifies RNC effectiveness through breathing restriction
 
-- [[Bow and Arrow from Seat Belt]] - Alternative attack — gi-specific submission available from seat belt that may be preferred over positional upgrade
+- [[Submissions/Bow and Arrow from Seat Belt]] - Alternative attack — gi-specific submission available from seat belt that may be preferred over positional upgrade
 
-- [[Escape Seat Belt Control]] - Defensive context — understanding defender's escape options informs optimal timing for the transition
+- [[Transitions/Escape Seat Belt Control]] - Defensive context — understanding defender's escape options informs optimal timing for the transition
 
 
 </section>

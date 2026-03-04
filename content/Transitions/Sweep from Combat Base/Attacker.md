@@ -180,7 +180,7 @@ description: "Master offensive sweeps against Combat Base in BJJ. Step-by-step g
 
 As the attacker executing the sweep from combat base, your primary task is converting the opponent's asymmetric stance into a vulnerability. Combat base provides strong forward-backward resistance but creates a diagonal line of weakness from the posted knee to the planted foot. Your systematic approach involves three phases: establishing grip control and hook placement to create connection, generating an off-balancing angle through hip escape and weight loading, and executing the sweep by elevating the hook while directing the opponent's upper body along their weakest structural line. The entire sequence depends on timing your attack to moments when the opponent's weight shifts forward during passing attempts or grip fighting, as a settled, weight-back combat base is significantly harder to sweep. Reading weight distribution through your hook contact is the critical skill that separates successful sweeps from wasted energy.
 
-**From Position**: [[Combat Base]] (Bottom)
+**From Position**: [[Positions/Combat Base]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ As the attacker executing the sweep from combat base, your primary task is conve
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 42% |
-| Failure | [[Combat Base]] | 35% |
-| Counter | [[Side Control]] | 23% |
+| Success | [[Positions/Mount]] | 42% |
+| Failure | [[Positions/Combat Base]] | 35% |
+| Counter | [[Positions/Side Control]] | 23% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the sweep from combat base, your primary task is conve
 
 ## Opponent Counters
 
-- **Opponent posts their far hand on the mat to block the sweep direction and re-establish base** (Effectiveness: High) - Your Response: Redirect the sweep angle by pulling their posting arm across their body with your sleeve grip, or switch to the opposite-side sweep by retracting the hook and inserting on the other side to attack the now-exposed planted foot side → Leads to [[Combat Base]]
-- **Opponent backsteps and disengages their posted knee from the hook by stepping back to standing position** (Effectiveness: High) - Your Response: Follow their retreat with hip extension and immediately transition to a shin-to-shin or single leg X entry on their retreating leg, or use the space created to re-establish your preferred open guard position → Leads to [[Combat Base]]
-- **Opponent drives forward aggressively to flatten your hook and smash pass through the sweep attempt** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by converting to a pendulum-style sweep or collar drag, pulling them over your head. Their forward drive actually aids the sweep if you redirect it with your grips rather than trying to hold your original position → Leads to [[Side Control]]
-- **Opponent strips your sleeve grip and controls your wrist to prevent upper body redirection during the sweep** (Effectiveness: Medium) - Your Response: Immediately re-grip on the collar or switch to an underhook on the same side. If both grips are stripped, abort the sweep and re-establish guard engagement before attempting again rather than sweeping without upper body control → Leads to [[Combat Base]]
+- **Opponent posts their far hand on the mat to block the sweep direction and re-establish base** (Effectiveness: High) - Your Response: Redirect the sweep angle by pulling their posting arm across their body with your sleeve grip, or switch to the opposite-side sweep by retracting the hook and inserting on the other side to attack the now-exposed planted foot side → Leads to [[Positions/Combat Base]]
+- **Opponent backsteps and disengages their posted knee from the hook by stepping back to standing position** (Effectiveness: High) - Your Response: Follow their retreat with hip extension and immediately transition to a shin-to-shin or single leg X entry on their retreating leg, or use the space created to re-establish your preferred open guard position → Leads to [[Positions/Combat Base]]
+- **Opponent drives forward aggressively to flatten your hook and smash pass through the sweep attempt** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by converting to a pendulum-style sweep or collar drag, pulling them over your head. Their forward drive actually aids the sweep if you redirect it with your grips rather than trying to hold your original position → Leads to [[Positions/Side Control]]
+- **Opponent strips your sleeve grip and controls your wrist to prevent upper body redirection during the sweep** (Effectiveness: Medium) - Your Response: Immediately re-grip on the collar or switch to an underhook on the same side. If both grips are stripped, abort the sweep and re-establish guard engagement before attempting again rather than sweeping without upper body control → Leads to [[Positions/Combat Base]]
 
 
 </section>

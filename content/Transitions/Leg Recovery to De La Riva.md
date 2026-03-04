@@ -21,7 +21,7 @@ The fundamental challenge of leg drag recovery lies in the mechanical disadvanta
 
 Strategically, this transition exploits a fundamental vulnerability in the leg drag position: the opponent must maintain forward pressure while controlling both your leg and upper body. When they adjust their weight or reach for new grips, windows open for leg extraction. The key insight is recognizing that you are not escaping to a neutral position—you are transitioning directly to an attacking guard that gives you immediate sweep and submission threats. This mindset shift from defense to offense is what separates successful recoveries from those that merely delay the inevitable pass.
 
-**From Position**: [[Leg Drag Control]] (Bottom)
+**From Position**: [[Positions/Leg Drag Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition exploits a fundamental vulnerability in the leg d
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[De La Riva Guard]] | 58% |
-| Failure | [[Leg Drag Control]] | 30% |
-| Counter | [[Side Control]] | 12% |
+| Success | [[Positions/De La Riva Guard]] | 58% |
+| Failure | [[Positions/Leg Drag Control]] | 30% |
+| Counter | [[Positions/Side Control]] | 12% |
 
 
 </section>
@@ -185,25 +185,25 @@ Leg Recovery to De La Riva fits within the broader guard retention and recovery 
 ## Related Techniques
 
 
-- [[Leg Drag Control]] - Starting position where opponent controls your leg across your body
+- [[Positions/Leg Drag Control]] - Starting position where opponent controls your leg across your body
 
-- [[De La Riva Guard]] - Target position upon successful recovery with full DLR attack system
+- [[Positions/De La Riva Guard]] - Target position upon successful recovery with full DLR attack system
 
-- [[Leg Drag Counter to Half Guard]] - Alternative escape from same starting position when DLR hook is unavailable
+- [[Transitions/Leg Drag Counter to Half Guard]] - Alternative escape from same starting position when DLR hook is unavailable
 
-- [[Reverse De La Riva Guard]] - Variant recovery when opponent retreats or squares stance during extraction
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Variant recovery when opponent retreats or squares stance during extraction
 
-- [[Single Leg X-Guard]] - Variant recovery when opponent drops weight low during extraction
+- [[Positions/X-Guard/Single Leg X-Guard]] - Variant recovery when opponent drops weight low during extraction
 
-- [[Berimbolo Entry]] - Primary follow-up attack from established DLR guard
+- [[Transitions/Berimbolo Entry]] - Primary follow-up attack from established DLR guard
 
-- [[Back Take from Bottom]] - Follow-up attack chain from DLR guard via inversion or berimbolo
+- [[Transitions/Back Take from Bottom]] - Follow-up attack chain from DLR guard via inversion or berimbolo
 
-- [[De La Riva Sweep]] - Immediate sweep option once DLR guard is established
+- [[Transitions/De La Riva Sweep]] - Immediate sweep option once DLR guard is established
 
-- [[Leg Drag Escape to Closed Guard]] - Alternative escape path from leg drag bottom
+- [[Transitions/Leg Drag Escape to Closed Guard]] - Alternative escape path from leg drag bottom
 
-- [[K-Guard]] - Advanced variant recovery using outside leg thread for leg entanglement entries
+- [[Positions/K-Guard]] - Advanced variant recovery using outside leg thread for leg entanglement entries
 
 
 </section>

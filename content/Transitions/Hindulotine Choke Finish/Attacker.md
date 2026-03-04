@@ -180,7 +180,7 @@ description: "Complete guide to executing the Hindulotine Choke Finish. Learn ro
 
 The Hindulotine Choke Finish from the attacker's perspective centers on converting established Hindulotine control into a tap through precise mechanical optimization. The attacker has already secured the guillotine grip and established hip angle during the control phase. The finish requires systematically tightening the system by walking the grip higher under the chin, increasing hip rotation to amplify rotational torque, and eliminating all remaining defensive space. Success depends on understanding that the finish is a gradual mechanical compression rather than an explosive muscular squeeze. The attacker must coordinate grip pressure, hip angle, leg control, and weight distribution simultaneously to close all escape routes while maximizing carotid compression. Patience and mechanical precision distinguish reliable finishers from practitioners who burn out their grips chasing the tap.
 
-**From Position**: [[Hindulotine]] (Top)
+**From Position**: [[Positions/Hindulotine]] (Top)
 
 </section>
 
@@ -234,8 +234,8 @@ The Hindulotine Choke Finish from the attacker's perspective centers on converti
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Hindulotine]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Hindulotine]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ The Hindulotine Choke Finish from the attacker's perspective centers on converti
 
 ## Opponent Counters
 
-- **Opponent tucks chin deeply and turns head toward the choking arm to wedge space under the grip** (Effectiveness: High) - Your Response: Walk grip higher above the chin tuck using incremental adjustments without releasing baseline pressure. Increase hip angle to create rotational torque that works around the chin defense. If deeply tucked, the rotational mechanic of the Hindulotine is specifically designed to overcome this defense where linear guillotines fail. → Leads to [[Hindulotine]]
-- **Opponent frames with both hands against your hips to create distance and disrupt the finishing angle** (Effectiveness: Medium) - Your Response: Use your legs to collapse the frame by driving your hips into their shoulders. The frame creates an opportunity for arm-in variation by trapping their near arm inside the choke. Alternatively, if their frame creates space on the near side, consider threading deeper for a Darce transition. → Leads to [[Hindulotine]]
-- **Opponent explosively bridges and attempts to roll you over to escape the top choke position** (Effectiveness: Medium) - Your Response: Maintain a wide tripod base with one leg posted far to the side the opponent wants to roll toward. If the roll succeeds, maintain grip integrity through the transition and shift to bottom Hindulotine finishing mechanics with closed guard. A maintained grip through a roll simply changes the angle but does not break the choke. → Leads to [[Half Guard]]
-- **Opponent circles their body to change the perpendicular angle and relieve rotational pressure** (Effectiveness: High) - Your Response: Follow the circular movement with your legs and hips to maintain the perpendicular angle relationship. If they create significant angle change, their rotation exposes their back for a back take transition. Use hooks to track their hip movement and either maintain the finishing angle or flow to back control. → Leads to [[Hindulotine]]
+- **Opponent tucks chin deeply and turns head toward the choking arm to wedge space under the grip** (Effectiveness: High) - Your Response: Walk grip higher above the chin tuck using incremental adjustments without releasing baseline pressure. Increase hip angle to create rotational torque that works around the chin defense. If deeply tucked, the rotational mechanic of the Hindulotine is specifically designed to overcome this defense where linear guillotines fail. → Leads to [[Positions/Hindulotine]]
+- **Opponent frames with both hands against your hips to create distance and disrupt the finishing angle** (Effectiveness: Medium) - Your Response: Use your legs to collapse the frame by driving your hips into their shoulders. The frame creates an opportunity for arm-in variation by trapping their near arm inside the choke. Alternatively, if their frame creates space on the near side, consider threading deeper for a Darce transition. → Leads to [[Positions/Hindulotine]]
+- **Opponent explosively bridges and attempts to roll you over to escape the top choke position** (Effectiveness: Medium) - Your Response: Maintain a wide tripod base with one leg posted far to the side the opponent wants to roll toward. If the roll succeeds, maintain grip integrity through the transition and shift to bottom Hindulotine finishing mechanics with closed guard. A maintained grip through a roll simply changes the angle but does not break the choke. → Leads to [[Positions/Half Guard]]
+- **Opponent circles their body to change the perpendicular angle and relieve rotational pressure** (Effectiveness: High) - Your Response: Follow the circular movement with your legs and hips to maintain the perpendicular angle relationship. If they create significant angle change, their rotation exposes their back for a back take transition. Use hooks to track their hip movement and either maintain the finishing angle or flow to back control. → Leads to [[Positions/Hindulotine]]
 
 
 </section>

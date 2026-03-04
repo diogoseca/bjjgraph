@@ -148,7 +148,7 @@ description: "Defend the pressure pass from Shin-to-Shin Guard bottom. Learn rec
 
 Defending the pressure pass from Shin-to-Shin Guard bottom requires the guard player to recognize the early signs of committed forward pressure and respond with appropriate counter-measures before the shin connection is degraded beyond recovery. The defender's primary advantage lies in the fact that forward pressure from the top player creates the exact conditions needed for powerful counter-entries to Single Leg X-Guard, butterfly guard, and leg entanglement positions. The key challenge is distinguishing between pressure that can be absorbed and redirected versus pressure that will collapse the guard structure, making timely transition decisions that convert defensive situations into offensive opportunities rather than fighting a losing battle to maintain a deteriorating connection.
 
-**Opponent's Starting Position**: [[Shin-to-Shin Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Shin-to-Shin Guard]] (Top)
 
 </section>
 
@@ -186,21 +186,21 @@ Defending the pressure pass from Shin-to-Shin Guard bottom requires the guard pl
 ### 1. Elevate hips and thread leg underneath for Single Leg X-Guard entry using the attacker's forward pressure as elevation platform
 
 - **When to use**: When forward pressure is moderate to heavy and the attacker's weight is committed forward, creating the ideal conditions for using their momentum to fuel your elevation and leg threading
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: Establish Single Leg X-Guard with superior sweeping position and immediate access to leg entanglement entries
 - **Risk**: If the attacker recognizes the elevation early and backsteps, you may lose the shin connection entirely without establishing the new position
 
 ### 2. Insert butterfly hook under the attacker's thigh as they drop level, converting their forward weight into upward sweeping leverage
 
 - **When to use**: When the attacker drops to combat base level or commits weight downward through your structure, creating space for hook insertion under their thigh
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Transition to butterfly guard with immediate sweep threat using the attacker's already-committed forward weight
 - **Risk**: If the hook is shallow or the attacker sprawls hips back quickly, they may flatten the hook and continue pressure with improved position
 
 ### 3. Frame on shoulders and hip escape to re-angle, re-establishing perpendicular shin connection with fresh structural integrity
 
 - **When to use**: When pressure is still in early stages and has not yet degraded the shin angle significantly, allowing recovery through positional adjustment rather than requiring full transition
-- **Targets**: [[Shin-to-Shin Guard]]
+- **Targets**: [[Positions/Shin-to-Shin Guard]]
 - **If successful**: Maintain shin-to-shin guard with restored perpendicular angle and opportunity to re-engage with offensive threats
 - **Risk**: If the attacker follows your hip movement and maintains pressure through the re-angling attempt, you may lose more structure than you recover
 
@@ -212,15 +212,15 @@ Defending the pressure pass from Shin-to-Shin Guard bottom requires the guard pl
 
 ## Best-Case Outcomes for Defender
 
-### → [[Single Leg X-Guard]]
+### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 Time your hip elevation to coincide with the attacker's heaviest forward pressure commitment, using their weight as the platform for threading your outside leg underneath their base. Grip their ankle with both hands and extend your hips to complete the entry before they can retract their weight.
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 As the attacker drops level for pressure application, quickly pummel your foot to their inner thigh to establish a butterfly hook. Combine the hook with upper body grip control to create immediate off-balancing threat, converting their descent into your sweeping opportunity.
 
-### → [[Shin-to-Shin Guard]]
+### → [[Positions/Shin-to-Shin Guard]]
 
 Maintain active hip mobility and constant angle adjustment throughout the pressure sequence. Use frames to redirect pressure laterally rather than absorbing it directly, and continuously re-establish perpendicular shin angle through hip movement. Force the attacker to reset their pressure approach repeatedly.
 

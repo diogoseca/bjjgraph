@@ -154,7 +154,7 @@ description: "How to defend against Kouchi Gari in BJJ. Recognition cues, defens
 
 Defending Kouchi Gari requires understanding that the throw's power comes primarily from upper body kuzushi, not the reaping leg. As the defender, your priority is to deny the diagonal off-balance by maintaining strong posture, active grip fighting, and awareness of your weight distribution. The moment you feel your collar being pulled diagonally and sense a foot approaching your ankle, you must react immediately—Kouchi Gari's window of execution is extremely short, and late reactions result in clean takedowns. Effective defense combines pre-emptive grip denial, reactive footwork, and the ability to convert failed Kouchi Gari attempts into your own offensive opportunities through counter throws or level changes.
 
-**Opponent's Starting Position**: [[Clinch]] (Top)
+**Opponent's Starting Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
@@ -190,28 +190,28 @@ Defending Kouchi Gari requires understanding that the throw's power comes primar
 ### 1. Retract the targeted leg by stepping it back quickly while simultaneously pushing opponent's shoulder to break their grip angle
 
 - **When to use**: As soon as you recognize the diagonal pull and feel the opponent's base leg stepping in, before the reap makes contact
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: You maintain standing position with neutral or superior grip positioning, and opponent has committed forward without completing the throw
 - **Risk**: If you step back too late, the reap catches your ankle mid-step and the throw lands with even more force due to your backward momentum
 
 ### 2. Widen stance and drop hips low while breaking the collar grip with your free hand to deny the off-balance
 
 - **When to use**: When you feel the initial diagonal pull but before the opponent has stepped in with their base leg
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: You neutralize the kuzushi entirely, forcing opponent to abandon the throw attempt and reset their attack strategy
 - **Risk**: The wide, low stance makes you vulnerable to Uchi Mata, snap downs, and other techniques that exploit a widened base
 
 ### 3. Counter with your own Kouchi Gari or Kosoto Gari on the opponent's base leg as they commit to the throw
 
 - **When to use**: When opponent has fully committed to the reap with their attacking leg, leaving their base leg momentarily loaded and stationary
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: You reverse the throw, landing the attacker on the mat and potentially establishing top position yourself
 - **Risk**: Mistiming the counter results in both legs being attacked simultaneously, causing a hard fall with no control over landing
 
 ### 4. Circle aggressively toward the attacking side while pulling opponent off their angle with your grips
 
 - **When to use**: When you detect the opponent setting up the angle and diagonal pull before they have committed their base leg step
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: You destroy the angle needed for Kouchi Gari, force the opponent to reset, and potentially create your own offensive angle
 - **Risk**: If your footwork is slow, the circle feeds directly into the diagonal kuzushi the opponent is already generating
 
@@ -223,11 +223,11 @@ Defending Kouchi Gari requires understanding that the throw's power comes primar
 
 ## Best-Case Outcomes for Defender
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Deny the kuzushi through active grip fighting and postural control, then capitalize on the opponent's failed throw attempt to establish your own dominant grips. When they miss the reap, they are momentarily off-balance forward—use this window to pummel for underhooks or initiate your own takedown entry.
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Time a counter throw (Kouchi Gari, Kosoto Gari, or Tani Otoshi) against the opponent's base leg at the exact moment they commit their weight to the attacking leg. Their forward commitment and single-leg balance make them extremely vulnerable to any technique that attacks the remaining support leg.
 

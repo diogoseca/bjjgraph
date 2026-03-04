@@ -196,21 +196,21 @@ Effective heel hook defense operates on a hierarchical timeline: prevent the leg
 ### 1. Boot and rotate: drive your free foot into attacker's hip while rotating your trapped knee inward to hide heel
 
 - **When to use**: Early stage when attacker has leg entanglement but has not yet secured heel grip or achieved perpendicular alignment
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Creates space to begin systematic leg extraction or transition to counter-entanglement
 - **Risk**: If rotation is incomplete, may expose ankle to straight ankle lock threat while partially protecting heel
 
 ### 2. Counter-entangle to 50-50: thread your free leg through to establish mirror leg entanglement, creating bilateral threat scenario
 
 - **When to use**: When attacker has inside position but has not yet secured heel grip - your free leg is still mobile enough to enter their leg configuration
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Neutralizes their positional advantage by creating mutual submission threat where both practitioners can attack
 - **Risk**: Entering 50-50 against a superior leg locker may worsen your situation if they have better heel hook finishing skills
 
 ### 3. Grip fight and strip: use both hands to systematically break attacker's heel grip by attacking at the thumb/wrist while maintaining knee rotation defense
 
 - **When to use**: When attacker has secured heel grip but has not yet achieved full perpendicular alignment or removed all slack from the system
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Removes immediate finishing threat and creates window for positional escape or guard recovery
 - **Risk**: Hand fighting for grips temporarily prevents you from framing on their hip, which may allow them to improve perpendicular positioning
 
@@ -240,11 +240,11 @@ Effective heel hook defense operates on a hierarchical timeline: prevent the leg
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ashi Garami]]
+### → [[Positions/Ashi Garami]]
 
 Successfully strip attacker's heel grip through systematic hand fighting, then clear their hip pressure with free leg frame, and extract your trapped leg by moving your body toward them while maintaining knee protection throughout the extraction sequence
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Thread your free leg into attacker's leg configuration before they secure heel grip, establishing mirror entanglement that neutralizes their positional advantage and creates a bilateral threat scenario where both practitioners must address mutual submission danger
 

@@ -180,7 +180,7 @@ description: "Learn to execute the Body Lock to Standing transition. Tactical gu
 
 From the attacker's perspective, the Body Lock to Standing transition is a calculated tactical decision to release dominant clinch control and return to neutral standing. This transition is rarely the first choice because body lock provides such significant offensive advantages, but it becomes the correct tactical option when all primary attacks have been defended and continued holding wastes energy or risks stalling penalties. The key technical challenge is executing the separation without exposing yourself to counter-attacks during the brief window when you have released your grip but have not yet established distance. Mastering this transition gives you the freedom to commit fully to body lock attacks knowing you have a safe exit strategy when they fail, and allows you to re-enter from a completely new angle.
 
-**From Position**: [[Body Lock]] (Top)
+**From Position**: [[Positions/Body Lock]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ From the attacker's perspective, the Body Lock to Standing transition is a calcu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Body Lock]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Body Lock]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ From the attacker's perspective, the Body Lock to Standing transition is a calcu
 
 ## Opponent Counters
 
-- **Opponent shoots double leg takedown during grip release window** (Effectiveness: High) - Your Response: Maintain chest connection longer than expected, then use a short sharp push-kick to the hip creating distance before the shot can develop fully. If the shot lands, immediately sprawl and work to front headlock control. → Leads to [[Half Guard]]
-- **Opponent wraps their own clinch grip to maintain connection and prevent clean separation** (Effectiveness: Medium) - Your Response: Use short explosive hip bump to break their connection angle, then immediately post both hands on their hips and drive backward with full leg extension before they can re-establish their grip or lock hands. → Leads to [[Body Lock]]
-- **Opponent pulls guard during the disengagement transition to establish ground control** (Effectiveness: Medium) - Your Response: Anticipate the guard pull by keeping hips back and backstep immediately when you feel their weight dropping. If they successfully pull guard, begin immediate guard passing sequence rather than attempting to re-stand. → Leads to [[Half Guard]]
-- **Opponent level changes for single leg attack as hands separate during grip transition** (Effectiveness: High) - Your Response: Maintain downward chest pressure throughout the transition and sprawl hips explosively backward if you feel the level change. Use the sprawl momentum to create the separation distance you intended from the disengage. → Leads to [[Half Guard]]
+- **Opponent shoots double leg takedown during grip release window** (Effectiveness: High) - Your Response: Maintain chest connection longer than expected, then use a short sharp push-kick to the hip creating distance before the shot can develop fully. If the shot lands, immediately sprawl and work to front headlock control. → Leads to [[Positions/Half Guard]]
+- **Opponent wraps their own clinch grip to maintain connection and prevent clean separation** (Effectiveness: Medium) - Your Response: Use short explosive hip bump to break their connection angle, then immediately post both hands on their hips and drive backward with full leg extension before they can re-establish their grip or lock hands. → Leads to [[Positions/Body Lock]]
+- **Opponent pulls guard during the disengagement transition to establish ground control** (Effectiveness: Medium) - Your Response: Anticipate the guard pull by keeping hips back and backstep immediately when you feel their weight dropping. If they successfully pull guard, begin immediate guard passing sequence rather than attempting to re-stand. → Leads to [[Positions/Half Guard]]
+- **Opponent level changes for single leg attack as hands separate during grip transition** (Effectiveness: High) - Your Response: Maintain downward chest pressure throughout the transition and sprawl hips explosively backward if you feel the level change. Use the sprawl momentum to create the separation distance you intended from the disengage. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -164,7 +164,7 @@ description: "Learn to survive and escape the Body Triangle RNC in BJJ. Defensiv
 
 Defending the Body Triangle RNC is one of the most challenging scenarios in Brazilian Jiu-Jitsu because you face simultaneous attacks on both your respiratory and circulatory systems. The body triangle restricts your breathing by compressing the lower ribs and diaphragm while the rear naked choke threatens blood flow to your brain, creating compounding pressure that severely limits your defensive time window. Your survival depends on strict prioritization: protect the neck first and address the body triangle second. The choke can render you unconscious in seconds while the body triangle compression, though extremely uncomfortable, is survivable for minutes. Maintain calm breathing discipline, fight the choking arm with technical precision rather than explosive strength, and work systematically through escape protocols. Panicking accelerates energy depletion under already restricted breathing conditions and typically creates the exact openings your opponent needs to finish the choke.
 
-**Opponent's Starting Position**: [[Body Triangle]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Top)
 
 
 </section>
@@ -204,28 +204,28 @@ Defending the Body Triangle RNC is one of the most challenging scenarios in Braz
 ### 1. Chin tuck with two-on-one grip control on the choking arm wrist
 
 - **When to use**: Immediately when you feel the choking arm begin to advance toward your neck from the seat belt position
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: Prevents the RNC from being established, forcing the attacker to restart their grip-breaking and choking sequence
 - **Risk**: Both hands committed to the choking arm leaves you unable to address the body triangle, but the choke is the immediate lethal threat
 
 ### 2. Hip escape and turn toward attacker while defending neck
 
 - **When to use**: When you have successfully neutralized the immediate choke threat and can begin working to change the angle against the body triangle
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough rotation to begin escaping back control entirely, potentially recovering to half guard or turtle
 - **Risk**: Turning motion can expose the far-side neck to the choking arm if neck defense is not maintained throughout the rotation
 
 ### 3. Attack body triangle figure-four lock by targeting the foot behind the knee
 
 - **When to use**: When the choke is fully defended and you need to address the breathing restriction and create escape opportunities by clearing the triangle
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Breaks the body triangle lock, forcing attacker back to standard hooks which offer significantly more escape options
 - **Risk**: Hands moving to attack the triangle foot may expose your neck if the attacker capitalizes on the reduced neck defense
 
 ### 4. Bridge explosively while stripping seat belt grip during choke transition
 
 - **When to use**: When attacker breaks seat belt connection to transition to the RNC, creating a brief window where their positional control is compromised
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Exploits the momentary control gap to create space and begin turning sequence toward the attacker for guard recovery
 - **Risk**: Failed bridge wastes significant energy under breathing restriction and may accelerate the choke if the attacker capitalizes on the movement
 
@@ -248,11 +248,11 @@ Defending the Body Triangle RNC is one of the most challenging scenarios in Braz
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Successfully defend the choke while systematically clearing the body triangle lock through foot attacks, then hip escape to recover half guard where you have significantly more defensive and offensive options
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Defend the choke and attack the body triangle figure-four lock, forcing the attacker back to standard hook-based back control where more established escape sequences are available and breathing restriction is eliminated
 

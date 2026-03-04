@@ -180,7 +180,7 @@ description: "Master the attacker perspective for stack defense from omoplata. L
 
 As the attacker executing the stack defense, you are the practitioner who has established omoplata control from bottom and must now address your opponent's stacking attempt. Your primary objective is to redirect their forward momentum laterally while maintaining shoulder isolation, converting their escape attempt into a sweeping opportunity. The stack is predictable in its direction—forward and downward—which allows you to prepare your defensive framework before it develops fully. The key to successful stack defense is proactive hip angle management combined with strategic grip placement on the opponent's hip or belt. Rather than fighting the stack directly with muscular effort, you use positional adjustments that increase your mechanical advantage while decreasing the opponent's ability to compress you. This transforms a defensive situation into an offensive one, exemplifying the concept that the best defense creates attacking opportunities.
 
-**From Position**: [[Omoplata Control]] (Bottom)
+**From Position**: [[Positions/Omoplata Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the stack defense, you are the practitioner who has es
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Omoplata Control]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Omoplata Control]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the stack defense, you are the practitioner who has es
 
 ## Opponent Counters
 
-- **Opponent widens base by posting free hand on mat to prevent lateral sweep** (Effectiveness: Medium) - Your Response: Attack the posting arm by gripping their wrist to remove the post, or increase your pull on their belt to break the connection between their hand and the mat before completing the sweep → Leads to [[Half Guard]]
-- **Opponent abandons the stack and transitions to arm extraction during your angle adjustment** (Effectiveness: High) - Your Response: Immediately increase shin pressure across their back and pull your hips closer to their shoulder to re-tighten the omoplata before they can fully extract the arm → Leads to [[Open Guard]]
-- **Opponent switches to forward roll escape during the redirection phase** (Effectiveness: Medium) - Your Response: Follow the rolling momentum while maintaining shin pressure and belt grip, transitioning to a back take as they complete the roll rather than insisting on the lateral sweep → Leads to [[Omoplata Control]]
-- **Opponent explosively drives through before angle adjustment is complete** (Effectiveness: High) - Your Response: If the angle is not yet established, abandon the lateral defense and use your free leg to hook their hip, creating a pendulum-style sweep using their forward momentum against them → Leads to [[Open Guard]]
+- **Opponent widens base by posting free hand on mat to prevent lateral sweep** (Effectiveness: Medium) - Your Response: Attack the posting arm by gripping their wrist to remove the post, or increase your pull on their belt to break the connection between their hand and the mat before completing the sweep → Leads to [[Positions/Half Guard]]
+- **Opponent abandons the stack and transitions to arm extraction during your angle adjustment** (Effectiveness: High) - Your Response: Immediately increase shin pressure across their back and pull your hips closer to their shoulder to re-tighten the omoplata before they can fully extract the arm → Leads to [[Positions/Open Guard]]
+- **Opponent switches to forward roll escape during the redirection phase** (Effectiveness: Medium) - Your Response: Follow the rolling momentum while maintaining shin pressure and belt grip, transitioning to a back take as they complete the roll rather than insisting on the lateral sweep → Leads to [[Positions/Omoplata Control]]
+- **Opponent explosively drives through before angle adjustment is complete** (Effectiveness: High) - Your Response: If the angle is not yet established, abandon the lateral defense and use your free leg to hook their hip, creating a pendulum-style sweep using their forward momentum against them → Leads to [[Positions/Open Guard]]
 
 
 </section>

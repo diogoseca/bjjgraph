@@ -174,7 +174,7 @@ description: "How to execute Darce Setup in BJJ. Attacking perspective with setu
 
 The Darce Setup is a crucial transitional technique that transforms front headlock control into one of Brazilian Jiu-Jitsu's most effective submission positions. Named after Joe D'Arce, this setup exploits opponent posture and creates the distinctive arm-in configuration that defines the Darce choke system. The technique is particularly effective when opponents attempt to defend turtle position or when transitioning from scrambles, making it an essential weapon for modern grapplers. Understanding proper hand positioning, angle creation, and body weight distribution during the setup phase dramatically increases finishing rates. The Darce setup requires precise timing and technical execution rather than pure strength, making it accessible to practitioners of all sizes when properly understood. This technique serves as a gateway to multiple submission opportunities including the Darce choke, Anaconda choke, and various transitions to back control or mount positions.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -228,9 +228,9 @@ The Darce Setup is a crucial transitional technique that transforms front headlo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 60% |
-| Failure | [[Front Headlock]] | 30% |
-| Counter | [[Front Headlock]] | 10% |
+| Success | [[Positions/Darce Control]] | 60% |
+| Failure | [[Positions/Front Headlock]] | 30% |
+| Counter | [[Positions/Front Headlock]] | 10% |
 
 
 </section>
@@ -239,11 +239,11 @@ The Darce Setup is a crucial transitional technique that transforms front headlo
 
 ## Opponent Counters
 
-- **Opponent turns into you and establishes closed guard** (Effectiveness: Medium) - Your Response: Maintain grip and transition to modified Darce from guard, or switch to guillotine if they fully turn in. Keep heavy shoulder pressure throughout their movement attempt. → Leads to [[Front Headlock]]
-- **Opponent rolls through to escape the front headlock** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining grip, often ending in Darce from top position. Alternatively, transition to Anaconda configuration if the roll creates better angle for that submission. → Leads to [[Darce Control]]
-- **Opponent grabs your threading arm and prevents deep penetration** (Effectiveness: High) - Your Response: Switch to Anaconda setup by adjusting grip, or transition to crucifix position by controlling their defending arm. Can also use their grip to create opening for back take. → Leads to [[Front Headlock]]
-- **Opponent posts hard with near arm and creates space** (Effectiveness: High) - Your Response: Circle toward their posted arm while maintaining head control, or attack the posted arm with kimura grip to restore control. Never allow them to create significant distance. → Leads to [[Front Headlock]]
-- **Opponent turtles tighter and hides their neck** (Effectiveness: Low) - Your Response: Use shoulder pressure to crack their defensive shell, or transition to alternative attacks like back take or crucifix. Patient pressure breaks most defensive postures. → Leads to [[Front Headlock]]
+- **Opponent turns into you and establishes closed guard** (Effectiveness: Medium) - Your Response: Maintain grip and transition to modified Darce from guard, or switch to guillotine if they fully turn in. Keep heavy shoulder pressure throughout their movement attempt. → Leads to [[Positions/Front Headlock]]
+- **Opponent rolls through to escape the front headlock** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining grip, often ending in Darce from top position. Alternatively, transition to Anaconda configuration if the roll creates better angle for that submission. → Leads to [[Positions/Darce Control]]
+- **Opponent grabs your threading arm and prevents deep penetration** (Effectiveness: High) - Your Response: Switch to Anaconda setup by adjusting grip, or transition to crucifix position by controlling their defending arm. Can also use their grip to create opening for back take. → Leads to [[Positions/Front Headlock]]
+- **Opponent posts hard with near arm and creates space** (Effectiveness: High) - Your Response: Circle toward their posted arm while maintaining head control, or attack the posted arm with kimura grip to restore control. Never allow them to create significant distance. → Leads to [[Positions/Front Headlock]]
+- **Opponent turtles tighter and hides their neck** (Effectiveness: Low) - Your Response: Use shoulder pressure to crack their defensive shell, or transition to alternative attacks like back take or crucifix. Patient pressure breaks most defensive postures. → Leads to [[Positions/Front Headlock]]
 
 
 </section>

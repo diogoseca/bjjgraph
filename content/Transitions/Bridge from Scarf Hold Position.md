@@ -21,7 +21,7 @@ The bridge-and-roll reversal carries higher risk than partial escape methods bec
 
 Within the scarf hold escape hierarchy, the bridge-and-roll reversal occupies the high-risk, high-reward tier below systematic frame-based escapes and ghost escapes in frequency but above them in positional gain when successful. The technique integrates with the broader bridge-and-roll family used across mount escapes and other pin escapes, sharing core mechanics of arm trapping, leg hooking, and explosive hip extension. Even when the full reversal fails, the explosive bridge disrupts the top player's control enough to create follow-up opportunities for alternative escapes.
 
-**From Position**: [[Scarf Hold Position]] (Bottom)
+**From Position**: [[Positions/Side Control/Scarf Hold Position]] (Bottom)
 **Success Rate**: 30%
 
 </section>
@@ -32,9 +32,9 @@ Within the scarf hold escape hierarchy, the bridge-and-roll reversal occupies th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 30% |
-| Failure | [[Scarf Hold Position]] | 45% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Closed Guard]] | 30% |
+| Failure | [[Positions/Side Control/Scarf Hold Position]] | 45% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -191,25 +191,25 @@ The bridge from scarf hold sits within the scarf hold bottom escape hierarchy as
 ## Related Techniques
 
 
-- [[Scarf Hold Position]] - Starting position where this reversal is initiated from the bottom role
+- [[Positions/Side Control/Scarf Hold Position]] - Starting position where this reversal is initiated from the bottom role
 
-- [[Closed Guard]] - Primary target position after successful bridge-and-roll reversal completes
+- [[Positions/Closed Guard]] - Primary target position after successful bridge-and-roll reversal completes
 
-- [[Mount]] - Counter outcome position if opponent steps over during failed bridge attempt
+- [[Positions/Mount]] - Counter outcome position if opponent steps over during failed bridge attempt
 
-- [[Bridge Escape from Scarf Hold]] - Related bridge escape targeting half guard recovery rather than full reversal
+- [[Transitions/Bridge Escape from Scarf Hold]] - Related bridge escape targeting half guard recovery rather than full reversal
 
-- [[Bridge Escape from Kesa Gatame]] - Closely related bridge escape from the traditional judo kesa gatame variant
+- [[Transitions/Bridge Escape from Kesa Gatame]] - Closely related bridge escape from the traditional judo kesa gatame variant
 
-- [[Bridge Escape from Modified Scarf Hold]] - Similar bridge mechanics applied to modified scarf hold configuration
+- [[Transitions/Bridge Escape from Modified Scarf Hold]] - Similar bridge mechanics applied to modified scarf hold configuration
 
-- [[Kesa Gatame]] - Traditional judo variant of scarf hold with identical reversal mechanics
+- [[Positions/Side Control/Kesa Gatame]] - Traditional judo variant of scarf hold with identical reversal mechanics
 
-- [[Modified Scarf Hold]] - Related position variant requiring adjusted arm trap for bridge reversal
+- [[Positions/Side Control/Modified Scarf Hold]] - Related position variant requiring adjusted arm trap for bridge reversal
 
-- [[Americana from Kesa Gatame]] - Submission threat that creates timing windows for the bridge reversal when opponent attacks
+- [[Submissions/Americana from Kesa Gatame]] - Submission threat that creates timing windows for the bridge reversal when opponent attacks
 
-- [[Arm Triangle from Scarf Hold]] - Submission threat motivating urgency to execute bridge reversal before attack develops
+- [[Submissions/Arm Triangle from Scarf Hold]] - Submission threat motivating urgency to execute bridge reversal before attack develops
 
 
 </section>

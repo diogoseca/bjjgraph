@@ -154,7 +154,7 @@ The defensive framework centers on three time-dependent phases. In the early pha
 
 Successful defense requires understanding that the monoplata becomes exponentially harder to escape at each stage of completion. Prevention is worth ten times more than late-stage escape. Defenders who recognize the setup indicators early—arm isolation attempts, high mount advancement, and the distinctive leg swing—can interrupt the attack before it reaches the danger zone. Training should emphasize recognition speed and early-stage prevention over desperate late-stage escapes, while maintaining the composure needed to execute technical defense under the pressure of bottom mount.
 
-**Opponent's Starting Position**: [[Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 
 </section>
@@ -190,21 +190,21 @@ Successful defense requires understanding that the monoplata becomes exponential
 ### 1. Grab the threading leg with your free hand and block the figure-four from closing
 
 - **When to use**: The moment the attacker begins swinging their leg over your head, before the foot passes your far shoulder
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Prevents the submission entirely and forces attacker to abandon the attempt, typically returning to standard mount control
 - **Risk**: If your free arm is already controlled, you cannot reach the leg. Attacker may strip your grip and continue the attack or switch to armbar on the grabbing arm
 
 ### 2. Explosive bridge toward the side of the trapped arm during the leg threading transition
 
 - **When to use**: When attacker lifts their leg to swing over your head, creating a momentary base imbalance as their weight shifts
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Disrupts the attacker's balance during the most unstable phase of the technique, potentially reversing to guard or forcing them to abandon the submission and re-establish mount
 - **Risk**: If bridge timing is off, you waste energy without disrupting the attacker. If you bridge after the figure-four is partially established, you may increase shoulder pressure
 
 ### 3. Turn toward the trapped arm and clasp both hands together to prevent arm extension
 
 - **When to use**: When the figure-four is partially or fully closed and you cannot prevent the lock from forming—this is your last-resort defense
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Prevents the attacker from extending your arm and applying full rotational pressure. Creates a stalemate where attacker must break your grip before finishing, buying time for further escape attempts
 - **Risk**: The attacker can use hip pressure and leg squeeze to gradually break the grip. This defense only delays the submission rather than escaping it. You must transition to a positional escape while maintaining the grip
 
@@ -227,11 +227,11 @@ Successful defense requires understanding that the monoplata becomes exponential
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Prevent the monoplata setup entirely by grabbing the threading leg before the figure-four closes, forcing the attacker to return to standard mount without the submission threat. This is the most common defensive success and resets the exchange to a mount defense scenario.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time an explosive bridge during the attacker's leg threading transition to disrupt their balance and create enough space to recover guard. The attacker's compromised base during the leg swing creates a narrow but exploitable window for reversal to closed guard.
 

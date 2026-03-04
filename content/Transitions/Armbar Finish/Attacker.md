@@ -184,7 +184,7 @@ Strategically, the Armbar Finish operates as the highest-percentage terminal opt
 
 The finish itself requires coordinated opposing vectors: hips drive toward the ceiling using the glutes and core while both hands pull the wrist toward the sternum. The elbow joint, trapped between the thighs with the blade of the forearm pressed against the pubic bone, receives the combined force of these two movements. Advanced practitioners learn to micro-adjust the angle of hip elevation to target the weakest plane of the opponent's elbow based on their forearm rotation, making the submission effective even against strong grip-fighting defense.
 
-**From Position**: [[Armbar Control]] (Top)
+**From Position**: [[Positions/Armbar Control]] (Top)
 
 </section>
 
@@ -239,8 +239,8 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Armbar Control]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Failure | [[Positions/Armbar Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -249,11 +249,11 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 
 ## Opponent Counters
 
-- **Hitchhiker escape: opponent rotates thumb toward their own head and slides elbow across your body while turning to turtle** (Effectiveness: High) - Your Response: Clamp the top leg tighter across their face to block rotation. If they begin turning, follow with your hips and transition to belly-down armbar or switch to triangle by swinging your leg over their head. → Leads to [[Closed Guard]]
-- **Stacking defense: opponent drives forward into you, folding your body and compromising your hip angle** (Effectiveness: High) - Your Response: Use your top leg as a frame against their neck to prevent forward drive. If stacking succeeds, immediately transition to triangle by swinging the chest leg over their head, as their forward posture facilitates this entry. → Leads to [[Closed Guard]]
-- **Grip fighting: opponent clasps hands together (palm-to-palm or S-grip) to prevent arm extension** (Effectiveness: Medium) - Your Response: Attack the grip with figure-four wrist control, peel fingers with one hand while maintaining hip pressure, or apply progressive hip bridge to exhaust their grip strength. Alternatively, switch to a bicep slicer by driving your wrist into their forearm crease. → Leads to [[Armbar Control]]
-- **Arm extraction: opponent pulls elbow tight to their ribcage and slides the arm back toward their body** (Effectiveness: Medium) - Your Response: Re-grip higher toward the elbow immediately and scoot hips closer to their shoulder. If significant arm length is lost, transition to omoplata by threading your leg over their bent arm and rotating to face their feet. → Leads to [[Armbar Control]]
-- **Bridge and roll: opponent bridges explosively toward the trapped arm side to roll through and land in top position** (Effectiveness: Low) - Your Response: Maintain knee pinch and follow the roll without releasing grip. You end up in belly-down armbar position which is often a stronger finishing configuration. Continue the submission from the new angle. → Leads to [[Closed Guard]]
+- **Hitchhiker escape: opponent rotates thumb toward their own head and slides elbow across your body while turning to turtle** (Effectiveness: High) - Your Response: Clamp the top leg tighter across their face to block rotation. If they begin turning, follow with your hips and transition to belly-down armbar or switch to triangle by swinging your leg over their head. → Leads to [[Positions/Closed Guard]]
+- **Stacking defense: opponent drives forward into you, folding your body and compromising your hip angle** (Effectiveness: High) - Your Response: Use your top leg as a frame against their neck to prevent forward drive. If stacking succeeds, immediately transition to triangle by swinging the chest leg over their head, as their forward posture facilitates this entry. → Leads to [[Positions/Closed Guard]]
+- **Grip fighting: opponent clasps hands together (palm-to-palm or S-grip) to prevent arm extension** (Effectiveness: Medium) - Your Response: Attack the grip with figure-four wrist control, peel fingers with one hand while maintaining hip pressure, or apply progressive hip bridge to exhaust their grip strength. Alternatively, switch to a bicep slicer by driving your wrist into their forearm crease. → Leads to [[Positions/Armbar Control]]
+- **Arm extraction: opponent pulls elbow tight to their ribcage and slides the arm back toward their body** (Effectiveness: Medium) - Your Response: Re-grip higher toward the elbow immediately and scoot hips closer to their shoulder. If significant arm length is lost, transition to omoplata by threading your leg over their bent arm and rotating to face their feet. → Leads to [[Positions/Armbar Control]]
+- **Bridge and roll: opponent bridges explosively toward the trapped arm side to roll through and land in top position** (Effectiveness: Low) - Your Response: Maintain knee pinch and follow the roll without releasing grip. You end up in belly-down armbar position which is often a stronger finishing configuration. Continue the submission from the new angle. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

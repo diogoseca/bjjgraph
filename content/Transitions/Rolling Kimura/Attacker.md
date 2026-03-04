@@ -182,7 +182,7 @@ The Rolling Kimura from turtle top combines sweeping mechanics with submission t
 
 The rolling motion amplifies your leverage far beyond what arm strength alone produces, making this technique effective against larger opponents when executed with proper timing. The key mechanical insight is that your entire body weight drives the rotation through the opponent's trapped shoulder, while their defensive options are limited by the figure-four grip configuration. When the roll completes successfully, you land in either back control with hooks available, kimura trap control for direct submission, or crucifix position with both arms trapped. Each finishing position represents a significant positional advantage that chains into high-percentage submissions.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -236,10 +236,10 @@ The rolling motion amplifies your leverage far beyond what arm strength alone pr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Success | [[Kimura Trap]] | 15% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control]] | 55% |
+| Success | [[Positions/Kimura Trap]] | 15% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -248,11 +248,11 @@ The rolling motion amplifies your leverage far beyond what arm strength alone pr
 
 ## Opponent Counters
 
-- **Opponent grabs their own belt or pants to prevent arm isolation** (Effectiveness: Medium) - Your Response: Break the grip by using your body weight to pry the arm away while posting with your free hand. Alternatively, switch to attacking the near arm or transition to crucifix entry by trapping the gripping arm between your legs. → Leads to [[Turtle]]
-- **Opponent rolls with you to prevent the sweep and recover guard** (Effectiveness: High) - Your Response: Maintain the kimura grip throughout their counter-roll and use their momentum to establish the submission finish from top position. If they overcommit to the counter-roll, transition to armbar by extending their arm as they rotate past neutral. → Leads to [[Turtle]]
-- **Opponent postures up and stands to escape the roll** (Effectiveness: Medium) - Your Response: If they stand before you commit to the roll, abandon the rolling kimura and transition to standing back take or single leg takedown using the kimura grip to control their posture and break their balance forward. → Leads to [[Turtle]]
-- **Opponent drops their trapped shoulder to the mat to relieve pressure** (Effectiveness: Low) - Your Response: This actually facilitates the roll. Follow their shoulder to the mat and continue the rolling motion. Their defensive movement helps complete your technique and often exposes their back more readily for hook insertion. → Leads to [[Back Control]]
-- **Opponent uses their free arm to frame against your hip or shoulder to block rotation** (Effectiveness: Medium) - Your Response: Use your chest weight to collapse their frame before initiating the roll. Alternatively, trap their free arm with your leg to establish crucifix position, then proceed with the roll having control of both arms. → Leads to [[Turtle]]
+- **Opponent grabs their own belt or pants to prevent arm isolation** (Effectiveness: Medium) - Your Response: Break the grip by using your body weight to pry the arm away while posting with your free hand. Alternatively, switch to attacking the near arm or transition to crucifix entry by trapping the gripping arm between your legs. → Leads to [[Positions/Turtle]]
+- **Opponent rolls with you to prevent the sweep and recover guard** (Effectiveness: High) - Your Response: Maintain the kimura grip throughout their counter-roll and use their momentum to establish the submission finish from top position. If they overcommit to the counter-roll, transition to armbar by extending their arm as they rotate past neutral. → Leads to [[Positions/Turtle]]
+- **Opponent postures up and stands to escape the roll** (Effectiveness: Medium) - Your Response: If they stand before you commit to the roll, abandon the rolling kimura and transition to standing back take or single leg takedown using the kimura grip to control their posture and break their balance forward. → Leads to [[Positions/Turtle]]
+- **Opponent drops their trapped shoulder to the mat to relieve pressure** (Effectiveness: Low) - Your Response: This actually facilitates the roll. Follow their shoulder to the mat and continue the rolling motion. Their defensive movement helps complete your technique and often exposes their back more readily for hook insertion. → Leads to [[Positions/Back Control]]
+- **Opponent uses their free arm to frame against your hip or shoulder to block rotation** (Effectiveness: Medium) - Your Response: Use your chest weight to collapse their frame before initiating the roll. Alternatively, trap their free arm with your leg to establish crucifix position, then proceed with the roll having control of both arms. → Leads to [[Positions/Turtle]]
 
 
 </section>

@@ -186,7 +186,7 @@ description: "Learn to execute the Re-flatten from Dogfight as the top player. D
 
 As the top player in the dogfight, your primary objective with the re-flatten is to systematically dismantle the bottom player's elevated posture and return them to a flattened half guard where your passing options multiply. The technique requires winning three simultaneous battles: the head position fight through crossface placement, the underhook contest through whizzer torque, and the base war through directed hip pressure. Success depends not on explosive power but on methodical application of overlapping pressures that progressively compromise the bottom player's structural integrity. The re-flatten is most effective when the bottom player's underhook is shallow or their posting points are compromised, making timing and recognition of opportunity windows essential skills for consistent execution.
 
-**From Position**: [[Dogfight Position]] (Top)
+**From Position**: [[Positions/Dogfight Position]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ As the top player in the dogfight, your primary objective with the re-flatten is
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Dogfight Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Dogfight Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the top player in the dogfight, your primary objective with the re-flatten is
 
 ## Opponent Counters
 
-- **Opponent deepens underhook and drives forward explosively before crossface is established** (Effectiveness: High) - Your Response: If the underhook is too deep for effective whizzer control, switch to sprawling your hips back momentarily to create separation, then reset with renewed crossface pressure from a wider angle → Leads to [[Dogfight Position]]
-- **Opponent drops level and enters deep half guard to avoid the flattening pressure** (Effectiveness: Medium) - Your Response: Anticipate the level drop by maintaining tight chest-to-chest connection and following their downward movement, using your whizzer arm to prevent them from threading underneath your hips → Leads to [[Dogfight Position]]
-- **Opponent redirects the forward driving pressure into a sweep by channeling your momentum laterally** (Effectiveness: High) - Your Response: Maintain wide base with your free leg and avoid overcommitting weight forward beyond your balance point, keeping your center of gravity over your knees rather than projecting past them → Leads to [[Half Guard]]
-- **Opponent posts their outside hand and circles away from the crossface to maintain base** (Effectiveness: Medium) - Your Response: Follow the circling movement by adjusting your crossface angle and using your whizzer to prevent the opponent from completing their rotation, cutting the angle before they re-establish posture → Leads to [[Dogfight Position]]
+- **Opponent deepens underhook and drives forward explosively before crossface is established** (Effectiveness: High) - Your Response: If the underhook is too deep for effective whizzer control, switch to sprawling your hips back momentarily to create separation, then reset with renewed crossface pressure from a wider angle → Leads to [[Positions/Dogfight Position]]
+- **Opponent drops level and enters deep half guard to avoid the flattening pressure** (Effectiveness: Medium) - Your Response: Anticipate the level drop by maintaining tight chest-to-chest connection and following their downward movement, using your whizzer arm to prevent them from threading underneath your hips → Leads to [[Positions/Dogfight Position]]
+- **Opponent redirects the forward driving pressure into a sweep by channeling your momentum laterally** (Effectiveness: High) - Your Response: Maintain wide base with your free leg and avoid overcommitting weight forward beyond your balance point, keeping your center of gravity over your knees rather than projecting past them → Leads to [[Positions/Half Guard]]
+- **Opponent posts their outside hand and circles away from the crossface to maintain base** (Effectiveness: Medium) - Your Response: Follow the circling movement by adjusting your crossface angle and using your whizzer to prevent the opponent from completing their rotation, cutting the angle before they re-establish posture → Leads to [[Positions/Dogfight Position]]
 
 
 </section>

@@ -21,7 +21,7 @@ The Shake Off is most effective when the rider has not yet fully settled their w
 
 This technique occupies a specific role in the turtle escape hierarchy as the lowest-commitment escape option. It does not require rolling through vulnerable back-exposure angles or committing to a full positional change. Instead, it resets the situation to an uncontrolled turtle position where both practitioners restart the engagement. The trade-off is that the positional gain is modest—you remain in bottom turtle rather than achieving guard or top position—but the risk is correspondingly lower than higher-reward escapes. Advanced practitioners use the Shake Off as a disruption tool that creates the chaos and separation needed to chain into more decisive escapes like the sit-through or technical stand-up.
 
-**From Position**: [[Rodeo Ride]] (Bottom)
+**From Position**: [[Positions/Rodeo Ride]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ This technique occupies a specific role in the turtle escape hierarchy as the lo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 35% |
-| Success | [[Standing Position]] | 10% |
-| Failure | [[Rodeo Ride]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Turtle]] | 35% |
+| Success | [[Positions/Standing Position]] | 10% |
+| Failure | [[Positions/Rodeo Ride]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -192,25 +192,25 @@ The Shake Off Rodeo Ride functions as the entry-level disruption tool in the tur
 ## Related Techniques
 
 
-- [[Rodeo Ride]] - Starting control position from which this escape is executed
+- [[Positions/Rodeo Ride]] - Starting control position from which this escape is executed
 
-- [[Turtle]] - Primary recovery target after successfully dislodging the rider
+- [[Positions/Turtle]] - Primary recovery target after successfully dislodging the rider
 
-- [[Back Control]] - Counter position the opponent may achieve if they capitalize on failed shake-off
+- [[Positions/Back Control]] - Counter position the opponent may achieve if they capitalize on failed shake-off
 
-- [[Escape from Rodeo Ride]] - Higher-reward escape from the same position that targets side control top
+- [[Transitions/Escape from Rodeo Ride]] - Higher-reward escape from the same position that targets side control top
 
-- [[Roll from Rodeo Ride]] - Alternative rolling escape from Rodeo Ride that targets half guard recovery
+- [[Transitions/Roll from Rodeo Ride]] - Alternative rolling escape from Rodeo Ride that targets half guard recovery
 
-- [[Calf Slicer from Rodeo Ride]] - Submission threat from Rodeo Ride that motivates attempting this escape
+- [[Submissions/Calf Slicer from Rodeo Ride]] - Submission threat from Rodeo Ride that motivates attempting this escape
 
-- [[Rodeo Ride to Back Control]] - Primary threat transition the top player attempts from Rodeo Ride
+- [[Transitions/Rodeo Ride to Back Control]] - Primary threat transition the top player attempts from Rodeo Ride
 
-- [[Crab Ride]] - Related turtle attack position sharing similar disruption escape mechanics
+- [[Positions/Crab Ride]] - Related turtle attack position sharing similar disruption escape mechanics
 
-- [[Standing Position]] - Alternative escape outcome achievable through the stand-up variant
+- [[Positions/Standing Position]] - Alternative escape outcome achievable through the stand-up variant
 
-- [[Granby Roll to Guard]] - Follow-up escape technique available after recovering clean turtle
+- [[Transitions/Granby Roll to Guard]] - Follow-up escape technique available after recovering clean turtle
 
 
 </section>

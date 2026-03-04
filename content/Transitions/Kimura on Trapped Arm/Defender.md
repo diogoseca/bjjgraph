@@ -150,7 +150,7 @@ Defending the Kimura on Trapped Arm is one of the most challenging defensive sce
 
 The critical defensive window occurs during the transition from Gift Wrap to Kimura grip. Once the figure-four is locked with proper elbow control and hip positioning, defensive success rates drop dramatically. Your highest-percentage defensive strategy is preventing the Kimura grip from being established by straightening the trapped arm during the transition or by addressing the underlying Gift Wrap control before the shoulder lock is even attempted. If the Kimura grip is already secured, your defensive focus shifts to grip defense, creating space through hip movement, and escaping the back control position entirely rather than fighting the submission directly.
 
-**Opponent's Starting Position**: [[Gift Wrap]] (Top)
+**Opponent's Starting Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
 
@@ -185,21 +185,21 @@ The critical defensive window occurs during the transition from Gift Wrap to Kim
 ### 1. Straighten the trapped arm explosively during the grip transition, driving your hand toward your own hip to remove the bent-elbow fulcrum before the figure-four locks
 
 - **When to use**: Immediately when you feel the attacker's free hand reaching over your trapped arm to establish the Kimura grip - this window is brief
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Returns to standard Gift Wrap position where you retain defensive options and the Kimura threat is neutralized, though you remain in Gift Wrap bottom
 - **Risk**: If the arm extension fails and attacker maintains the bent elbow, you have spent energy and the Kimura grip may now be tighter due to your movement
 
 ### 2. Grip your own belt, pants, or opposite lapel with the trapped hand to create an anchor that prevents the attacker from isolating your wrist for rotational pressure
 
 - **When to use**: When the attacker has established the figure-four grip but has not yet begun applying rotational pressure - stall the finish to buy time for positional escape
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Stalls the Kimura finish indefinitely, forcing the attacker to either break your grip (costing time and energy) or abandon the Kimura for another attack, returning to Gift Wrap control
 - **Risk**: Both arms are now occupied with grip defense, leaving your neck completely undefended against choke transitions while the attacker maintains dominant position
 
 ### 3. Explosively bridge and rotate your entire body toward the attacker, turning to face them while they focus on establishing or finishing the Kimura grip
 
 - **When to use**: When the attacker commits hip movement toward the Kimura side, creating a momentary weight shift that can be exploited for rotation
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Escapes the Gift Wrap arm trap entirely by turning to face the attacker, recovering to a standard back escape or guard recovery position
 - **Risk**: If rotation is incomplete, the attacker follows the turn into mounted Kimura position which may be even more dangerous than the original back attack angle
 
@@ -211,11 +211,11 @@ The critical defensive window occurs during the transition from Gift Wrap to Kim
 
 ## Best-Case Outcomes for Defender
 
-### → [[Gift Wrap]]
+### → [[Positions/Gift Wrap]]
 
 Straighten the trapped arm during the grip transition window or establish a strong defensive grip on your own clothing to prevent wrist isolation. Either approach forces the attacker to abandon the Kimura attempt and return to standard Gift Wrap attacks, buying you time and resetting the submission threat.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Time an explosive bridge and full-body rotation to coincide with the attacker's hip shift toward the Kimura side. Their lateral weight distribution creates an opening to turn your hips and shoulders, breaking the Gift Wrap arm trap and recovering to standard back control bottom where both arms are available for defense.
 

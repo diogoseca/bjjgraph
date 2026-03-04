@@ -152,7 +152,7 @@ The key defensive insight is that the transition creates a brief vulnerability i
 
 Defenders who wait passively through the transition typically find themselves in a worse position than the original Estima Lock, because ashi garami offers the attacker heel hook access that the footlock did not. Early recognition and immediate action during the grip change phase offer the highest probability of successful defense and potential guard recovery.
 
-**Opponent's Starting Position**: [[Estima Lock]] (Top)
+**Opponent's Starting Position**: [[Positions/Estima Lock]] (Top)
 
 </section>
 
@@ -188,21 +188,21 @@ Defenders who wait passively through the transition typically find themselves in
 ### 1. Knee retraction—immediately pull your trapped knee to your chest while posting on your free hand to sit up, preventing the attacker from threading their inside leg deep enough to complete the ashi garami triangle
 
 - **When to use**: As soon as you feel the attacker's hips shifting laterally and their Estima Lock pressure decreasing, before the inside leg thread begins or during its early phase
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You extract your leg from the entanglement entirely and recover to open guard with both legs free, resetting the engagement from a neutral position
 - **Risk**: If the retraction is too slow, the attacker follows your knee with their hips and secures 50-50 guard instead of ashi garami, maintaining leg entanglement
 
 ### 2. Hip push escape—use your free leg to push forcefully against the attacker's far hip while turning your body away, creating distance that prevents them from closing the leg triangle around your trapped leg
 
 - **When to use**: When the attacker has begun threading their inside leg but has not yet positioned their outside leg to complete the triangle—your free leg must reach their hip before they lock the position
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The distance created by the hip push allows you to slide your trapped leg free from the incomplete entanglement and recover guard with defensive frames established
 - **Risk**: If the push is misdirected or the attacker has already secured the outside leg, your free leg becomes trapped as well, potentially worsening the entanglement
 
 ### 3. Sit-up frame defense—sit up aggressively and post both hands on the attacker's shoulders or chest, driving them backward to prevent the forward weight commitment required for ashi garami consolidation while keeping your trapped leg bent
 
 - **When to use**: During the grip change phase when the attacker releases Estima Lock grips to re-grip for ashi garami, exploiting the moment of reduced hand control on your foot
-- **Targets**: [[Estima Lock]]
+- **Targets**: [[Positions/Estima Lock]]
 - **If successful**: Your frames prevent the attacker from consolidating ashi garami, stalling the transition and potentially allowing you to re-address the original Estima Lock position from a stronger defensive posture with frames established
 - **Risk**: Sitting up exposes your upper body to potential guillotine or front headlock attacks if the attacker abandons the leg transition and changes to upper body control
 
@@ -214,11 +214,11 @@ Defenders who wait passively through the transition typically find themselves in
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Extract your trapped leg during the transitional gap by pulling your knee to your chest while the attacker's grips are in flux between Estima Lock and ashi garami configurations. Combine knee retraction with free leg hip push and immediate guard recovery to establish open guard with both legs free and defensive frames in place.
 
-### → [[Estima Lock]]
+### → [[Positions/Estima Lock]]
 
 Disrupt the transition early by sitting up with strong frames on the attacker's shoulders before they can complete the leg thread. This stalls the transition and returns the exchange to the original Estima Lock dynamic where your established defenses (counter-rotation, heel hiding) remain effective and the attacker must restart their offensive sequence.
 

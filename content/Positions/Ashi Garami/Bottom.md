@@ -208,31 +208,31 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 
 ## Available Escapes
 
-### [[Inside Ashi Entry]] (62% of attempts)
+### [[Transitions/Inside Ashi Entry]] (62% of attempts)
 
-### [[Cross Ashi Transition]] (7% of attempts)
+### [[Transitions/Cross Ashi Transition]] (7% of attempts)
 
-### [[Heel Hook]] (4% of attempts)
+### [[Transitions/Heel Hook]] (4% of attempts)
 
-### [[Straight Ankle Lock Entry]] (12% of attempts)
+### [[Transitions/Straight Ankle Lock Entry]] (12% of attempts)
 
-### [[50-50 Entry]] (5% of attempts)
+### [[Transitions/50-50 Entry]] (5% of attempts)
 
-### [[Toe Hold]] (5% of attempts)
+### [[Transitions/Toe Hold]] (5% of attempts)
 
-### [[Kneebar Setup]] (2% of attempts)
+### [[Transitions/Kneebar Setup]] (2% of attempts)
 
-### [[Single Leg X Transition]] (1% of attempts)
+### [[Transitions/Single Leg X Transition]] (1% of attempts)
 
-### [[Backside 50-50 Entry from Ashi]] (1% of attempts)
+### [[Transitions/Backside 50-50 Entry from Ashi]] (1% of attempts)
 
-### [[Back Take from Ashi]] (0% of attempts)
+### [[Transitions/Back Take from Ashi]] (0% of attempts)
 
-### [[Ashi Garami Maintenance]] (0% of attempts)
+### [[Transitions/Ashi Garami Maintenance]] (0% of attempts)
 
-### [[Heel Strip from Ashi Garami]] (0% of attempts)
+### [[Transitions/Heel Strip from Ashi Garami]] (0% of attempts)
 
-### [[Standing Up from Ashi Garami]] (1% of attempts)
+### [[Transitions/Standing Up from Ashi Garami]] (1% of attempts)
 
 
 
@@ -243,34 +243,34 @@ Bottom Ashi Garami mastery requires extensive drilling of fundamental mechanics 
 ## Decision Making from This Position
 
 **If opponent maintains strong defensive leg positioning protecting heel with straight alignment:**
-- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 55%)
-- Execute **[[Cross Ashi Transition]]** → [[Cross Ashi-Garami]] (Probability: 45%)
+- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Cross Ashi Transition]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 45%)
 
 
 **If opponent exposes heel through poor positioning, grip failure, or defensive extraction error:**
-- Execute **[[Heel Hook]]** → [[Game Over]] (Probability: 60%)
-- Execute **[[Inside Ashi-Garami to Honey Hole]]** → [[Saddle]] (Probability: 40%)
+- Execute **[[Transitions/Heel Hook]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Inside Ashi-Garami to Honey Hole]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 40%)
 
 
 **If opponent establishes reciprocal leg entanglement creating bilateral 50-50 configuration:**
-- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 50%)
-- Execute **[[50-50 Entry from Standing]]** → [[50-50 Guard]] (Probability: 50%)
+- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
+- Execute **[[Transitions/50-50 Entry from Standing]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 50%)
 
 
 **If opponent attempts standing extraction or explosive base recovery from entanglement:**
-- Execute **[[X-Guard to Ashi Transition]]** → [[Single Leg X-Guard]] (Probability: 50%)
-- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 50%)
+- Execute **[[X-Guard to Ashi Transition]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 50%)
+- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
 
 
 **If you have achieved Inside Ashi with good inside space control and stable connection points:**
-- Execute **[[Inside Ashi-Garami to Cross Ashi]]** → [[Cross Ashi-Garami]] (Probability: 45%)
-- Execute **[[Inside Ashi-Garami to Honey Hole]]** → [[Saddle]] (Probability: 35%)
-- Execute **[[Heel Hook]]** → [[Game Over]] (Probability: 20%)
+- Execute **[[Transitions/Inside Ashi-Garami to Cross Ashi]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 45%)
+- Execute **[[Transitions/Inside Ashi-Garami to Honey Hole]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 35%)
+- Execute **[[Transitions/Heel Hook]]** → [[Positions/Game Over]] (Probability: 20%)
 
 
 **If opponent's base collapses and they fall flat with limited hip mobility during extraction:**
-- Execute **[[Straight Ankle Lock Entry]]** → [[Game Over]] (Probability: 45%)
-- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Straight Ankle Lock Entry]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 55%)
 
 
 
@@ -379,13 +379,13 @@ Partner aggressively attempts leg extraction from your Outside or Inside Ashi co
 
 ## Related Positions and Techniques
 
-- **[[Single Leg X-Guard]]** - Primary entry position for Outside Ashi where single leg control precedes double leg entanglement
-- **[[De La Riva Guard]]** - Hook-based guard providing technical entries into outside Ashi positions through leg drag mechanics
-- **[[X-Guard]]** - Shares leg hooking principles and serves as transitional position between traditional guards and leg entanglements
-- **[[Saddle]]** - Apex of leg entanglement hierarchy and primary finishing position for heel hook attacks from bottom
-- **[[Inside Ashi-Garami]]** - First major advancement from Outside Ashi providing superior control and finishing angles for submissions
-- **[[Heel Hook]]** - Primary submission threat from advanced Ashi Garami positions when proper heel exposure is achieved
-- **[[K-Guard]]** - Modern guard system designed for direct entries into various Ashi Garami configurations
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Primary entry position for Outside Ashi where single leg control precedes double leg entanglement
+- **[[Positions/De La Riva Guard]]** - Hook-based guard providing technical entries into outside Ashi positions through leg drag mechanics
+- **[[Positions/X-Guard]]** - Shares leg hooking principles and serves as transitional position between traditional guards and leg entanglements
+- **[[Positions/Ashi Garami/Saddle]]** - Apex of leg entanglement hierarchy and primary finishing position for heel hook attacks from bottom
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - First major advancement from Outside Ashi providing superior control and finishing angles for submissions
+- **[[Transitions/Heel Hook]]** - Primary submission threat from advanced Ashi Garami positions when proper heel exposure is achieved
+- **[[Positions/K-Guard]]** - Modern guard system designed for direct entries into various Ashi Garami configurations
 
 
 </section>

@@ -188,7 +188,7 @@ As the attacker executing the Sweep from Z-Lock Half Guard, your objective is to
 
 Success depends on reading the opponent's weight distribution and selecting the appropriate moment to fire. The ideal window opens when the opponent drives forward to establish crossface pressure, loading their weight onto your chest. At this moment, the lockdown whip pulls their base out from under them while the butterfly hook provides the upward force needed to complete the rotation.
 
-**From Position**: [[Z-Lock Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Bottom)
 
 </section>
 
@@ -242,9 +242,9 @@ Success depends on reading the opponent's weight distribution and selecting the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Z-Lock Half Guard]] | 35% |
-| Counter | [[Flattened Half Guard]] | 25% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Half Guard/Z-Lock Half Guard]] | 35% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 25% |
 
 
 </section>
@@ -253,10 +253,10 @@ Success depends on reading the opponent's weight distribution and selecting the 
 
 ## Opponent Counters
 
-- **Opponent posts far hand wide on the mat in the direction of the sweep to create a structural brace preventing rotation** (Effectiveness: High) - Your Response: Switch to a kimura grip on the posted arm, stripping the post and creating a submission threat that either completes the sweep or transitions to kimura control → Leads to [[Z-Lock Half Guard]]
-- **Opponent drives heavy crossface and flattens your shoulders to the mat, removing your hip angle and neutralizing butterfly hook power** (Effectiveness: High) - Your Response: Frame against their crossface arm to recover hip angle, or abandon the sweep and transition to deep half guard entry by ducking under their pressure → Leads to [[Flattened Half Guard]]
-- **Opponent sits weight back onto heels to remove forward pressure, denying the weight commitment your sweep requires** (Effectiveness: Medium) - Your Response: Use the space created by their retreat to come up to dogfight position via underhook drive, or transition to butterfly sweep using the elevation already available → Leads to [[Z-Lock Half Guard]]
-- **Opponent strips the lockdown by straightening and circling their trapped leg free before the sweep fires** (Effectiveness: Medium) - Your Response: Immediately convert to butterfly half guard sweep using the remaining butterfly hook, or re-establish lockdown before they can fully extract their leg → Leads to [[Z-Lock Half Guard]]
+- **Opponent posts far hand wide on the mat in the direction of the sweep to create a structural brace preventing rotation** (Effectiveness: High) - Your Response: Switch to a kimura grip on the posted arm, stripping the post and creating a submission threat that either completes the sweep or transitions to kimura control → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
+- **Opponent drives heavy crossface and flattens your shoulders to the mat, removing your hip angle and neutralizing butterfly hook power** (Effectiveness: High) - Your Response: Frame against their crossface arm to recover hip angle, or abandon the sweep and transition to deep half guard entry by ducking under their pressure → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent sits weight back onto heels to remove forward pressure, denying the weight commitment your sweep requires** (Effectiveness: Medium) - Your Response: Use the space created by their retreat to come up to dogfight position via underhook drive, or transition to butterfly sweep using the elevation already available → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
+- **Opponent strips the lockdown by straightening and circling their trapped leg free before the sweep fires** (Effectiveness: Medium) - Your Response: Immediately convert to butterfly half guard sweep using the remaining butterfly hook, or re-establish lockdown before they can fully extract their leg → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
 
 
 </section>

@@ -174,7 +174,7 @@ description: "How to execute the Transition to Old School from half guard bottom
 
 Executing the Transition to Old School requires methodical establishment of three interlocking controls from half guard bottom. The attacker (bottom player) must secure the lockdown on the trapped leg, win the underhook battle on the near side, and establish head control with the far arm. This sequence creates the complete Old School position from which high-percentage sweeps and submissions become immediately available. The transition rewards patience and technical precision over explosive movement, as each control element must be secured before advancing to the next. Rushing the sequence, particularly attempting the underhook before the lockdown is tight, exposes the bottom player to crossface pressure that flattens them and kills offensive potential.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -226,9 +226,9 @@ Executing the Transition to Old School requires methodical establishment of thre
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Old School]] | 55% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Flattened Half Guard]] | 20% |
+| Success | [[Positions/Half Guard/Old School]] | 55% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 20% |
 
 
 </section>
@@ -237,10 +237,10 @@ Executing the Transition to Old School requires methodical establishment of thre
 
 ## Opponent Counters
 
-- **Top player establishes deep whizzer before underhook is secured** (Effectiveness: High) - Your Response: Maintain lockdown and pump aggressively to create forward weight shifts. If whizzer is too deep, abandon the underhook attempt temporarily and transition to Deep Half Entry instead, diving under their hips using the lockdown extension as the entry mechanism. → Leads to [[Half Guard]]
-- **Top player drives heavy crossface to flatten bottom player onto their back** (Effectiveness: High) - Your Response: Frame against the crossface shoulder with your far arm while pumping lockdown to maintain hip angle. If flattened, immediately re-engage lockdown extension and hip escape to re-establish side angle before re-attempting the underhook. Do not fight for the underhook while flat. → Leads to [[Flattened Half Guard]]
-- **Top player posts free leg wide and drops weight to prevent lockdown extension** (Effectiveness: Medium) - Your Response: Switch from full extension pumps to short, sharp lockdown jolts that catch them off-rhythm. The shorter pumps are harder to read and still create enough disruption for underhook entry. Alternatively, use the stability of their wide base to thread the underhook while they are committed to low posture. → Leads to [[Half Guard]]
-- **Top player strips head control by posturing up explosively** (Effectiveness: Medium) - Your Response: If underhook is still secured, immediately transition to the sweep by using their upward posture motion as momentum for the Old School Sweep. Their posture recovery actually feeds sweep mechanics. If both controls are lost, return to lockdown retention and restart the sequence. → Leads to [[Old School]]
+- **Top player establishes deep whizzer before underhook is secured** (Effectiveness: High) - Your Response: Maintain lockdown and pump aggressively to create forward weight shifts. If whizzer is too deep, abandon the underhook attempt temporarily and transition to Deep Half Entry instead, diving under their hips using the lockdown extension as the entry mechanism. → Leads to [[Positions/Half Guard]]
+- **Top player drives heavy crossface to flatten bottom player onto their back** (Effectiveness: High) - Your Response: Frame against the crossface shoulder with your far arm while pumping lockdown to maintain hip angle. If flattened, immediately re-engage lockdown extension and hip escape to re-establish side angle before re-attempting the underhook. Do not fight for the underhook while flat. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Top player posts free leg wide and drops weight to prevent lockdown extension** (Effectiveness: Medium) - Your Response: Switch from full extension pumps to short, sharp lockdown jolts that catch them off-rhythm. The shorter pumps are harder to read and still create enough disruption for underhook entry. Alternatively, use the stability of their wide base to thread the underhook while they are committed to low posture. → Leads to [[Positions/Half Guard]]
+- **Top player strips head control by posturing up explosively** (Effectiveness: Medium) - Your Response: If underhook is still secured, immediately transition to the sweep by using their upward posture motion as momentum for the Old School Sweep. Their posture recovery actually feeds sweep mechanics. If both controls are lost, return to lockdown retention and restart the sequence. → Leads to [[Positions/Half Guard/Old School]]
 
 
 </section>

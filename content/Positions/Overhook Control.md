@@ -95,25 +95,25 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 ### Available Transitions
 
 
-- **[[Arm Drag to Back]]** (11% of attempts)
+- **[[Transitions/Arm Drag to Back]]** (11% of attempts)
 
-- **[[Overhook Sweep]]** (22% of attempts)
+- **[[Transitions/Overhook Sweep]]** (22% of attempts)
 
-- **[[Butterfly Sweep]]** (11% of attempts)
+- **[[Transitions/Butterfly Sweep]]** (11% of attempts)
 
-- **[[Triangle Setup]]** (10% of attempts)
+- **[[Transitions/Triangle Setup]]** (10% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (9% of attempts)
+- **[[Transitions/Closed Guard to Omoplata]]** (9% of attempts)
 
-- **[[Guillotine Setup]]** (10% of attempts)
+- **[[Transitions/Guillotine Setup]]** (10% of attempts)
 
-- **[[Elevator Sweep]]** (11% of attempts)
+- **[[Transitions/Elevator Sweep]]** (11% of attempts)
 
-- **[[Old School Sweep]]** (10% of attempts)
+- **[[Transitions/Old School Sweep]]** (10% of attempts)
 
-- **[[Overhook Control Sweep]]** (4% of attempts)
+- **[[Transitions/Overhook Control Sweep]]** (4% of attempts)
 
-- **[[Overhook to Half Guard]]** (2% of attempts)
+- **[[Transitions/Overhook to Half Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -170,25 +170,25 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 ### Available Transitions
 
 
-- **[[Kimura]]** (16% of attempts)
+- **[[Transitions/Kimura]]** (16% of attempts)
 
-- **[[Darce Choke]]** (10% of attempts)
+- **[[Transitions/Darce Choke]]** (10% of attempts)
 
-- **[[Anaconda Choke]]** (9% of attempts)
+- **[[Transitions/Anaconda Choke]]** (9% of attempts)
 
-- **[[Arm Drag to Back]]** (11% of attempts)
+- **[[Transitions/Arm Drag to Back]]** (11% of attempts)
 
-- **[[Two-on-One to Back Take]]** (10% of attempts)
+- **[[Transitions/Two-on-One to Back Take]]** (10% of attempts)
 
-- **[[Snap Down to Front Headlock]]** (11% of attempts)
+- **[[Transitions/Snap Down to Front Headlock]]** (11% of attempts)
 
-- **[[Crab Ride to Back]]** (10% of attempts)
+- **[[Transitions/Crab Ride to Back]]** (10% of attempts)
 
-- **[[Crucifix from Turtle]]** (8% of attempts)
+- **[[Transitions/Crucifix from Turtle]]** (8% of attempts)
 
-- **[[Side Control to Mount]]** (11% of attempts)
+- **[[Transitions/Side Control to Mount]]** (11% of attempts)
 
-- **[[Overhook Pass to Side Control]]** (4% of attempts)
+- **[[Transitions/Overhook Pass to Side Control]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -227,25 +227,25 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 ## Related Positions
 
 
-- **[[Front Headlock]]** - Commonly combined with overhook for complete upper body control and front headlock submission entries
+- **[[Positions/Front Headlock]]** - Commonly combined with overhook for complete upper body control and front headlock submission entries
 
-- **[[Back Control]]** - Primary positional advancement target accessed via arm drags, two-on-one grips, and crab ride entries from overhook
+- **[[Positions/Back Control]]** - Primary positional advancement target accessed via arm drags, two-on-one grips, and crab ride entries from overhook
 
-- **[[Kimura Trap]]** - Direct submission control position accessed when opponent pulls their arm back against overhook pressure
+- **[[Positions/Kimura Trap]]** - Direct submission control position accessed when opponent pulls their arm back against overhook pressure
 
-- **[[Darce Control]]** - Front headlock submission position entered when opponent drives forward into overhook control
+- **[[Positions/Darce Control]]** - Front headlock submission position entered when opponent drives forward into overhook control
 
-- **[[Clinch]]** - Standing position where overhook control is frequently established during initial grip fighting exchanges
+- **[[Positions/Clinch]]** - Standing position where overhook control is frequently established during initial grip fighting exchanges
 
-- **[[Turtle]]** - Common position where top player uses overhook to control bottom player and set up back takes or submissions
+- **[[Positions/Turtle]]** - Common position where top player uses overhook to control bottom player and set up back takes or submissions
 
-- **[[Half Guard]]** - Guard position where both top and bottom players frequently battle for overhook vs underhook control
+- **[[Positions/Half Guard]]** - Guard position where both top and bottom players frequently battle for overhook vs underhook control
 
-- **[[Crab Ride]]** - Transitional attacking position accessed from overhook when opponent turns away to defend
+- **[[Positions/Crab Ride]]** - Transitional attacking position accessed from overhook when opponent turns away to defend
 
-- **[[Crucifix]]** - Advanced control position accessible from overhook on turtle through proper rolling mechanics
+- **[[Positions/Crucifix]]** - Advanced control position accessible from overhook on turtle through proper rolling mechanics
 
-- **[[Overhook Guard]]** - Guard variation built around the overhook grip as the primary control mechanism
+- **[[Positions/Overhook Guard]]** - Guard variation built around the overhook grip as the primary control mechanism
 
 
 </section>

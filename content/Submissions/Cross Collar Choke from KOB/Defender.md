@@ -156,7 +156,7 @@ description: "Defend the Cross Collar Choke from Knee on Belly. Recognition cues
 
 Defending the Cross Collar Choke from Knee on Belly requires immediate recognition and proactive grip fighting before the attacker establishes deep collar control. The primary danger lies in the compounding pressure — KOB creates breathing difficulty while the collar grips threaten a blood choke, forcing you to address two problems simultaneously with limited mobility. Successful defense prioritizes early grip prevention over late-stage choke defense, as once both grips are deep with elbows pinned to your chest, escape becomes extremely difficult. Understanding the attacker's grip sequence and timing your defensive actions to disrupt their setup before the second hand enters the collar is the critical skill that separates effective defense from reactive panic. The window for successful defense narrows rapidly at each stage of the attacker's progression.
 
-**Opponent's Starting Position**: [[Knee on Belly]] (Top)
+**Opponent's Starting Position**: [[Positions/Knee on Belly]] (Top)
 
 
 </section>
@@ -194,28 +194,28 @@ Defending the Cross Collar Choke from Knee on Belly requires immediate recogniti
 ### 1. Two-on-one grip strip on the first collar grip before the second hand is established
 
 - **When to use**: Immediately upon recognizing the first hand entering your collar — this is the highest-percentage defensive window before the choke is set
-- **Targets**: [[Knee on Belly]]
+- **Targets**: [[Positions/Knee on Belly]]
 - **If successful**: Attacker's choke is neutralized and they must restart the grip sequence, giving you time to address KOB escape
 - **Risk**: Both hands committed to grip fighting leaves your body unprotected from KOB pressure and potential armbar on extended arms
 
 ### 2. Bridge and hip escape to change angle while one hand defends collar and the other frames on attacker's hip
 
 - **When to use**: When the attacker is transitioning between first and second grip — the moment of grip adjustment is when their base is least stable
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Escape KOB entirely and recover half guard, nullifying both the positional pressure and the choke threat
 - **Risk**: If bridge timing is poor, the attacker may ride the bridge and use the movement to deepen their second grip
 
 ### 3. Push knee off with near-side frame while far hand defends collar, then immediately shrimp to create space
 
 - **When to use**: When the attacker commits weight forward to establish grips and their base becomes compromised by the reaching motion
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Attacker loses KOB and must settle for side control, where the cross collar choke is more difficult to maintain and finish
 - **Risk**: Pushing the knee with one arm while the other defends collar splits your defensive attention and may be insufficient for either task
 
 ### 4. Turn into the attacker while establishing an underhook to prevent choke angle and begin guard recovery
 
 - **When to use**: As a last resort when both grips are partially established but not yet deep — turning changes the choke angle and may reduce effectiveness
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Choke angle is disrupted by the turn, and the underhook creates guard recovery opportunity through standard side control escapes
 - **Risk**: Turning exposes the back and the attacker may abandon the choke to take back control
 
@@ -238,11 +238,11 @@ Defending the Cross Collar Choke from Knee on Belly requires immediate recogniti
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Strip collar grips early using two-on-one defense, then bridge and hip escape during the attacker's grip re-establishment window to recover half guard
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Push the knee off with a strong near-side frame while defending collar with the far hand, converting KOB to side control where the choke is far less threatening
 

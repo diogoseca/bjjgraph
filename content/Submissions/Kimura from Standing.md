@@ -22,8 +22,8 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint, rotator cuff, and posterior shoulder capsule
-**Starting Position**: [[Standing Position]]
-**From Position**: [[Standing Position]] (Top)
+**Starting Position**: [[Positions/Standing Position]]
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -81,8 +81,8 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -234,15 +234,15 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 ## From Which Positions?
 
-- [[Standing Position]]
-- [[Clinch]]
-- [[Overhook Control]]
-- [[Front Headlock]]
-- [[Turtle]]
-- [[Scramble Position]]
-- [[Combat Base]]
-- [[Standing Rear Clinch]]
-- [[Body Lock]]
+- [[Positions/Standing Position]]
+- [[Positions/Clinch]]
+- [[Positions/Overhook Control]]
+- [[Positions/Front Headlock]]
+- [[Positions/Turtle]]
+- [[Positions/Scramble Position]]
+- [[Positions/Combat Base]]
+- [[Positions/Standing Rear Clinch]]
+- [[Positions/Body Lock]]
 
 
 </section>
@@ -251,18 +251,18 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 ## Related Submissions
 
-- [[Kimura]]
-- [[Kimura from Guard]]
-- [[Kimura from Side Control]]
-- [[Kimura from Mount]]
-- [[Kimura from Half Guard]]
-- [[Kimura from Turtle]]
-- [[Kimura from North-South]]
-- [[Reverse Kimura]]
-- [[Americana]]
-- [[Omoplata]]
-- [[Guillotine Choke]]
-- [[Armbar from Guard]]
+- [[Transitions/Kimura]]
+- [[Submissions/Kimura from Guard]]
+- [[Submissions/Kimura from Side Control]]
+- [[Submissions/Kimura from Mount]]
+- [[Transitions/Kimura from Half Guard]]
+- [[Submissions/Kimura from Turtle]]
+- [[Submissions/Kimura from North-South]]
+- [[Submissions/Reverse Kimura]]
+- [[Transitions/Americana]]
+- [[Transitions/Omoplata]]
+- [[Transitions/Guillotine Choke]]
+- [[Submissions/Armbar from Guard]]
 
 
 </section>
@@ -271,16 +271,16 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 ## Additional Related Content
 
-- [[Kimura Trap]] - Primary control position when opponent counter-rotates to defend standing Kimura
-- [[Rolling Kimura]] - Ground-based variation using similar shoulder lock mechanics with rotational entry
-- [[Single Leg Entry]] - Failed single leg defense creates high-percentage standing Kimura opportunity
-- [[Single Leg Takedown]] - Standing Kimura can force opponent into defending single leg attacks
-- [[Snap Down to Front Headlock]] - Snap down to front headlock creates arm isolation for Kimura entry
-- [[Side Control]] - Common landing position after standing Kimura takedown with grip maintained
-- [[North-South]] - Alternative landing position for standing Kimura with superior finishing leverage
-- [[Back Control]] - Back take opportunity when opponent counter-rotates defensively
-- [[Gift Wrap]] - Control position that can transition from standing Kimura grip on the ground
-- [[Overhook Control]] - Overhook provides entry for Kimura setup in clinch battles
+- [[Positions/Kimura Trap]] - Primary control position when opponent counter-rotates to defend standing Kimura
+- [[Transitions/Rolling Kimura]] - Ground-based variation using similar shoulder lock mechanics with rotational entry
+- [[Transitions/Single Leg Entry]] - Failed single leg defense creates high-percentage standing Kimura opportunity
+- [[Transitions/Single Leg Takedown]] - Standing Kimura can force opponent into defending single leg attacks
+- [[Transitions/Snap Down to Front Headlock]] - Snap down to front headlock creates arm isolation for Kimura entry
+- [[Positions/Side Control]] - Common landing position after standing Kimura takedown with grip maintained
+- [[Positions/North-South]] - Alternative landing position for standing Kimura with superior finishing leverage
+- [[Positions/Back Control]] - Back take opportunity when opponent counter-rotates defensively
+- [[Positions/Gift Wrap]] - Control position that can transition from standing Kimura grip on the ground
+- [[Positions/Overhook Control]] - Overhook provides entry for Kimura setup in clinch battles
 
 
 </section>

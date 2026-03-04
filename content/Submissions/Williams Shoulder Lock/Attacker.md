@@ -182,7 +182,7 @@ description: "How to execute Williams Shoulder Lock in BJJ. Attacking perspectiv
 
 The Williams Shoulder Lock is an advanced shoulder submission primarily executed from the Williams Guard position, utilizing an overhook control to isolate and attack the shoulder joint. This technique targets the glenohumeral joint and rotator cuff through a combination of lateral pressure and rotation, creating significant torque on the shoulder capsule. Named after its innovator, the Williams Shoulder Lock represents a sophisticated application of leverage principles where the attacker uses their entire body to control the opponent's arm while applying controlled rotational force. The submission is particularly effective against opponents who defend traditional armlocks by keeping their elbows tight, as it attacks a different plane of movement. The technique requires precise positioning and exceptional body awareness, making it a favorite among advanced practitioners who appreciate technical submissions over brute force applications. Due to the complexity of shoulder anatomy and the potential for serious injury, this submission demands careful study and controlled practice progression.
 
-**From Position**: [[Williams Guard]] (Bottom)
+**From Position**: [[Positions/Williams Guard]] (Bottom)
 
 
 </section>
@@ -239,8 +239,8 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Williams Guard]] | 25% |
-| Counter | [[Closed Guard]] | 20% |
+| Failure | [[Positions/Williams Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -249,11 +249,11 @@ The Williams Shoulder Lock is an advanced shoulder submission primarily executed
 
 ## Opponent Defenses
 
-- **Grabbing their own gi or belt (defensive grip)** (Effectiveness: Medium) - Your Response: Break their defensive grip by increasing hip angle and using your wrist control to prevent them from maintaining the grip. Alternatively, attack their opposite arm or transition to different submission. → Leads to [[Williams Guard]]
-- **Attempting to roll toward the trapped arm to relieve pressure** (Effectiveness: Low) - Your Response: Use your leg hooks to prevent the roll. If they commit to the roll, you can follow through and often end up in a more dominant position such as mount or back control while maintaining the overhook. → Leads to [[Williams Guard]]
-- **Posturing up aggressively to create space** (Effectiveness: Medium) - Your Response: Your leg control should prevent effective posturing. If they begin to posture, immediately adjust your top leg to their neck or shoulder, pulling them back down while maintaining overhook control. → Leads to [[Williams Guard]]
-- **Pulling their arm straight to extract from overhook** (Effectiveness: High) - Your Response: This is the most effective defense if allowed to develop. Prevent by establishing wrist control early and keeping your overhook deep. If they begin extracting, transition to triangle, omoplata, or sweep rather than forcing the shoulder lock. → Leads to [[Closed Guard]]
-- **Stacking by driving weight forward over your body** (Effectiveness: Medium) - Your Response: Use your hip angle and leg positioning to prevent effective stacking. If they commit to the stack, shrimp your hips out further to relieve the stack pressure while maintaining arm control, or transition to alternative attacks. → Leads to [[Closed Guard]]
+- **Grabbing their own gi or belt (defensive grip)** (Effectiveness: Medium) - Your Response: Break their defensive grip by increasing hip angle and using your wrist control to prevent them from maintaining the grip. Alternatively, attack their opposite arm or transition to different submission. → Leads to [[Positions/Williams Guard]]
+- **Attempting to roll toward the trapped arm to relieve pressure** (Effectiveness: Low) - Your Response: Use your leg hooks to prevent the roll. If they commit to the roll, you can follow through and often end up in a more dominant position such as mount or back control while maintaining the overhook. → Leads to [[Positions/Williams Guard]]
+- **Posturing up aggressively to create space** (Effectiveness: Medium) - Your Response: Your leg control should prevent effective posturing. If they begin to posture, immediately adjust your top leg to their neck or shoulder, pulling them back down while maintaining overhook control. → Leads to [[Positions/Williams Guard]]
+- **Pulling their arm straight to extract from overhook** (Effectiveness: High) - Your Response: This is the most effective defense if allowed to develop. Prevent by establishing wrist control early and keeping your overhook deep. If they begin extracting, transition to triangle, omoplata, or sweep rather than forcing the shoulder lock. → Leads to [[Positions/Closed Guard]]
+- **Stacking by driving weight forward over your body** (Effectiveness: Medium) - Your Response: Use your hip angle and leg positioning to prevent effective stacking. If they commit to the stack, shrimp your hips out further to relieve the stack pressure while maintaining arm control, or transition to alternative attacks. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

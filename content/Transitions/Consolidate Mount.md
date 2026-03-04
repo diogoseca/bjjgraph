@@ -21,7 +21,7 @@ By patiently consolidating first, you create a stable attacking platform while s
 
 This methodical approach transforms a fleeting positional achievement into a suffocating dominant position where submissions become inevitable rather than hopeful. Competition data consistently shows that practitioners who spend 5-10 seconds consolidating before attacking have dramatically higher submission rates from mount than those who immediately hunt for finishes.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This methodical approach transforms a fleeting positional achievement into a suf
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[High Mount]] | 50% |
-| Failure | [[Mount]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Mount/High Mount]] | 50% |
+| Failure | [[Positions/Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -185,27 +185,27 @@ Consolidate Mount bridges the gap between achieving mount and launching effectiv
 ## Related Techniques
 
 
-- [[Mount]] - Starting position where consolidation begins
+- [[Positions/Mount]] - Starting position where consolidation begins
 
-- [[High Mount]] - Primary consolidation target and optimal attacking platform
+- [[Positions/Mount/High Mount]] - Primary consolidation target and optimal attacking platform
 
-- [[Technical Mount]] - Alternative consolidation path when opponent defends high mount advancement
+- [[Positions/Mount/Technical Mount]] - Alternative consolidation path when opponent defends high mount advancement
 
-- [[Americana from Mount]] - Follow-up submission available after consolidation
+- [[Submissions/Americana from Mount]] - Follow-up submission available after consolidation
 
-- [[Armbar from Mount]] - Follow-up submission enabled by stable high mount platform
+- [[Submissions/Armbar from Mount]] - Follow-up submission enabled by stable high mount platform
 
-- [[Gift Wrap]] - Arm control variation used during consolidation to eliminate frames
+- [[Positions/Gift Wrap]] - Arm control variation used during consolidation to eliminate frames
 
-- [[S Mount]] - Advanced mount variation accessible after full consolidation
+- [[Positions/Mount/S Mount]] - Advanced mount variation accessible after full consolidation
 
-- [[Mounted Triangle]] - Advanced position reachable after consolidation when arms are isolated
+- [[Positions/Mount/Mounted Triangle]] - Advanced position reachable after consolidation when arms are isolated
 
-- [[Half Guard]] - Common escape destination if consolidation fails
+- [[Positions/Half Guard]] - Common escape destination if consolidation fails
 
-- [[Elbow Escape to Guard]] - Primary escape technique the defender uses against consolidation
+- [[Transitions/Elbow Escape to Guard]] - Primary escape technique the defender uses against consolidation
 
-- [[Bridge and Roll]] - Counter technique used during early consolidation phase
+- [[Transitions/Bridge and Roll]] - Counter technique used during early consolidation phase
 
 
 </section>

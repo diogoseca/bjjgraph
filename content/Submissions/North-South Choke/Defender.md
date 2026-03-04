@@ -156,7 +156,7 @@ description: "How to defend against North-South Choke in BJJ. Recognition, escap
 
 Defending the North-South Choke requires early recognition and immediate action, because once the attacker locks the bicep and shoulder compression around your neck, escape becomes exponentially more difficult. The choke is uniquely deceptive—the pressure builds gradually through positional weight rather than obvious arm cranking, meaning many defenders don't recognize the danger until blood flow is already significantly restricted. Your defensive window is largest during the attacker's setup phase when they're threading their arm and establishing grips, and shrinks rapidly once they commit their body weight to the compression. The primary defensive strategy centers on preventing the attacker from establishing both compression surfaces simultaneously: denying the arm thread under your neck, maintaining strong frames against their chest to create distance, and using hip movement to change the angle and prevent the shoulder from seating against your neck. When caught in a locked North-South Choke, your options narrow to explosive bridging to disrupt the attacker's base or turning into them to recover guard before unconsciousness sets in. Understanding the choke's mechanics from the defender's perspective—particularly that it attacks the carotid arteries laterally rather than the trachea from the front—informs every defensive decision and helps you allocate your defensive resources to the correct targets.
 
-**Opponent's Starting Position**: [[North-South]] (Top)
+**Opponent's Starting Position**: [[Positions/North-South]] (Top)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the North-South Choke requires early recognition and immediate action,
 ### 1. Frame against attacker's hips with both forearms and shrimp your hips away to create distance before the arm is threaded
 
 - **When to use**: Early in the setup when the attacker is transitioning from standard North-South to choke position and has not yet threaded their arm under your neck
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough space to insert a knee and recover to half guard or open guard, completely nullifying the choke threat
 - **Risk**: If frames are weak or attacker strips them, you've used energy without escaping and may be in worse position with arms extended
 
 ### 2. Fight the threading arm by tucking your chin to one side, getting your near hand on their bicep, and pushing the arm away before it seats under your neck
 
 - **When to use**: When you feel the attacker beginning to slide their arm under your neck—this is the critical moment where prevention is far easier than escape
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: Prevents the choke from being established, forcing attacker to either re-attempt the setup or abandon the choke for a different attack
 - **Risk**: Focusing only on the arm fight may leave your hips static, allowing attacker to consolidate position even if the choke is temporarily denied
 
 ### 3. Bridge explosively and turn into the attacker toward their legs, driving your shoulder into their chest to disrupt their base and recover guard
 
 - **When to use**: When the choke is partially set but not yet fully locked—the attacker has threaded the arm but hasn't committed full compression, or during the grip-setting phase
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Disrupts the attacker's perpendicular alignment and creates opportunity to recover guard or at minimum return to a standard North-South escape sequence
 - **Risk**: If the choke is already locked, turning can inadvertently tighten the compression by driving your neck deeper into the attacker's shoulder
 
 ### 4. Grab the attacker's choking arm with both hands and pull it away from your neck while simultaneously hip escaping to create angle
 
 - **When to use**: When the arm is threaded but the grip is not yet locked—there's a brief window where two-on-one grip fighting can extract the arm before the structural frame is completed
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: Strips the arm thread entirely, resetting the attacker back to standard North-South where the choke cannot be applied
 - **Risk**: Committing both hands to the arm fight eliminates your framing ability, and if the grip strip fails, you're in a worse defensive position
 
@@ -239,11 +239,11 @@ Defending the North-South Choke requires early recognition and immediate action,
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Create frames against the attacker's chest during setup, hip escape to create angle, and insert your knee between your bodies to establish half guard before the choke structure is completed
 
-### → [[North-South]]
+### → [[Positions/North-South]]
 
 Deny the arm thread through early grip fighting and maintain strong frames to prevent the attacker from establishing either compression surface, forcing them to abandon the choke and remain in standard North-South
 

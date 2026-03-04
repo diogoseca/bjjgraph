@@ -154,7 +154,7 @@ description: "How to defend against Kosoto Gari in BJJ. Recognition cues, defens
 
 Defending Kosoto Gari requires a combination of early recognition, proper weight distribution management, and prepared counter-responses. The technique's effectiveness depends on catching your weight committed to the rear leg while your upper body is pulled off-balance, so defensive strategy centers on denying these two conditions simultaneously. As the defender, your primary objective is to recognize the attack in its setup phase - before the reap contacts your heel - and execute one of several defensive responses that either neutralize the throw completely or convert it into a counter-opportunity. The most dangerous moment is when your opponent has established grips, created the initial forward-then-backward kuzushi sequence, and stepped to the 45-degree angle beside your weighted leg. Understanding the biomechanics of the attack allows you to identify the optimal defensive window, which exists between their angle adjustment and the coordinated pull-sweep execution. Skilled defenders do not merely block Kosoto Gari but use the attacker's commitment against them, creating opportunities for counter-throws, takedowns, or at minimum a return to neutral standing engagement. The key defensive principle is maintaining dynamic weight distribution that never allows both feet to become statically loaded, combined with active grip fighting that denies the opponent the collar control necessary for effective kuzushi.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending Kosoto Gari requires a combination of early recognition, proper weight
 ### 1. Step back with the attacked leg before the sweep makes contact, removing the target and forcing opponent to reset
 
 - **When to use**: When you recognize the angle step and feel the initial pull toward your rear corner before the sweep reaches your heel
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Return to neutral standing position with opponent's attack neutralized and their base potentially compromised from the missed sweep
 - **Risk**: Stepping back loads weight onto your other leg, making you vulnerable to Kouchi Gari or Deashi Harai follow-ups if opponent chains attacks
 
 ### 2. Drive forward aggressively into opponent's chest, stuffing the backward pull and compromising their base for the sweep
 
 - **When to use**: When opponent begins the pulling action but has not yet initiated the foot sweep, timing the forward drive to beat the coordinated attack
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent is driven backward off their base foot, neutralizing the sweep and potentially creating your own offensive opportunity for a forward throw or takedown
 - **Risk**: If mistimed and opponent adjusts to your forward momentum, they can redirect into Tai Otoshi or similar forward throw using your energy
 
 ### 3. Circle away from the sweep direction while breaking the collar grip with a two-on-one peel, removing both the pulling power and the angle needed for the reap
 
 - **When to use**: Early in the sequence when opponent is establishing grips and beginning the kuzushi pattern but before full commitment to the throw
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Reset to neutral standing with opponent's primary grip broken, forcing them to re-establish control before attacking again
 - **Risk**: If grip break fails, you have used energy and time without improving position, and opponent may accelerate the throw while you are focused on hands
 
 ### 4. Execute counter Kosoto Gari or Osoto Gari to opponent's base leg while they are committed to the sweep and standing on one foot
 
 - **When to use**: When opponent has fully committed to the sweep and their weight is entirely on their base foot, creating the window for a counter-throw
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You counter-throw the opponent, reversing the exchange and landing in top position with the scoring advantage
 - **Risk**: Requires precise timing and if too early, you may both fall in a scramble; if too late, you absorb the original throw before executing the counter
 
@@ -225,11 +225,11 @@ Defending Kosoto Gari requires a combination of early recognition, proper weight
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Defend the sweep by stepping back with the attacked leg, driving forward to stuff the pull, or breaking the collar grip early. Any of these responses return you to neutral standing where you can re-engage on your terms. The key is early recognition and immediate response before the coordinated pull-sweep reaches full commitment.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Time a counter-throw (Osoto Gari, Kouchi Gari, or counter Kosoto Gari) to opponent's base leg while they are standing on one foot during the sweep attempt. This requires allowing the attack to develop enough that opponent commits their weight, then exploiting the single-leg base. Success turns the exchange entirely in your favor with a scoring throw.
 

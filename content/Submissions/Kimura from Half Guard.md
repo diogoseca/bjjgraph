@@ -22,7 +22,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Half Guard]]
+**Starting Position**: [[Positions/Half Guard]]
 **Success Rate**: 62%
 
 </section>
@@ -75,8 +75,8 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -227,13 +227,13 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 ## From Which Positions?
 
-- [[Half Guard]]
-- [[Knee Shield Half Guard]]
-- [[Deep Half Guard]]
-- [[Lockdown]]
-- [[Z-Guard]]
-- [[Butterfly Half Guard]]
-- [[Dogfight Position]]
+- [[Positions/Half Guard]]
+- [[Positions/Half Guard/Knee Shield Half Guard]]
+- [[Positions/Half Guard/Deep Half Guard]]
+- [[Positions/Half Guard/Lockdown]]
+- [[Positions/Z-Guard]]
+- [[Positions/Half Guard/Butterfly Half Guard]]
+- [[Positions/Dogfight Position]]
 
 
 </section>
@@ -242,20 +242,20 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 ## Related Submissions
 
-- [[Kimura]]
-- [[Kimura from Guard]]
-- [[Kimura from Side Control]]
-- [[Kimura from Mount]]
-- [[Kimura from Turtle]]
-- [[Kimura from North-South]]
-- [[Reverse Kimura]]
-- [[Americana]]
-- [[Armbar from Guard]]
-- [[Omoplata]]
-- [[Triangle Choke]]
-- [[Guillotine Choke]]
-- [[Darce Choke]]
-- [[Anaconda Choke]]
+- [[Transitions/Kimura]]
+- [[Submissions/Kimura from Guard]]
+- [[Submissions/Kimura from Side Control]]
+- [[Submissions/Kimura from Mount]]
+- [[Submissions/Kimura from Turtle]]
+- [[Submissions/Kimura from North-South]]
+- [[Submissions/Reverse Kimura]]
+- [[Transitions/Americana]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Omoplata]]
+- [[Transitions/Triangle Choke]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Anaconda Choke]]
 
 
 </section>
@@ -264,17 +264,17 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 ## Additional Related Content
 
-- [[Old School Sweep]] - Alternative half guard bottom attack using similar positional control and angle creation
-- [[Lockdown]] - Complementary half guard control system that can set up Kimura opportunities
-- [[Kimura Trap]] - Related position using figure-four grip to control opponent from various positions
-- [[Back Control]] - Common finishing position after successful Kimura to back take transition
-- [[Side Control]] - Position achieved after successful Kimura sweep from half guard bottom
-- [[Crucifix]] - Advanced transition available from Kimura back take when opponent defends poorly
-- [[Half Guard]] - Parent position category from which this submission originates
-- [[Deep Half Guard]] - Alternative half guard position that can transition to Kimura opportunities
-- [[Armbar from Guard]] - Chain submission when opponent straightens arm defending Kimura
-- [[Omoplata]] - Alternative shoulder attack available from similar half guard positioning
-- [[Closed Guard]] - Counter position defender may recover to when escaping Kimura attempt
+- [[Transitions/Old School Sweep]] - Alternative half guard bottom attack using similar positional control and angle creation
+- [[Positions/Half Guard/Lockdown]] - Complementary half guard control system that can set up Kimura opportunities
+- [[Positions/Kimura Trap]] - Related position using figure-four grip to control opponent from various positions
+- [[Positions/Back Control]] - Common finishing position after successful Kimura to back take transition
+- [[Positions/Side Control]] - Position achieved after successful Kimura sweep from half guard bottom
+- [[Positions/Crucifix]] - Advanced transition available from Kimura back take when opponent defends poorly
+- [[Positions/Half Guard]] - Parent position category from which this submission originates
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative half guard position that can transition to Kimura opportunities
+- [[Submissions/Armbar from Guard]] - Chain submission when opponent straightens arm defending Kimura
+- [[Transitions/Omoplata]] - Alternative shoulder attack available from similar half guard positioning
+- [[Positions/Closed Guard]] - Counter position defender may recover to when escaping Kimura attempt
 
 
 </section>

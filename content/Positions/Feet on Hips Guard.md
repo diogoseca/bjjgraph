@@ -95,35 +95,35 @@ The position excels against standing and combat base opponents, using leg extens
 ### Available Transitions
 
 
-- **[[Tripod Sweep]]** (53% of attempts)
+- **[[Transitions/Tripod Sweep]]** (53% of attempts)
 
-- **[[Sickle Sweep]]** (14% of attempts)
+- **[[Transitions/Sickle Sweep]]** (14% of attempts)
 
-- **[[Tomoe Nage]]** (8% of attempts)
+- **[[Transitions/Tomoe Nage]]** (8% of attempts)
 
-- **[[Lumberjack Sweep]]** (6% of attempts)
+- **[[Transitions/Lumberjack Sweep]]** (6% of attempts)
 
-- **[[Push Sweep from Feet on Hips]]** (5% of attempts)
+- **[[Transitions/Push Sweep from Feet on Hips]]** (5% of attempts)
 
-- **[[Single Leg X Sweep]]** (3% of attempts)
+- **[[Transitions/Single Leg X Sweep]]** (3% of attempts)
 
-- **[[De La Riva Sweep]]** (3% of attempts)
+- **[[Transitions/De La Riva Sweep]]** (3% of attempts)
 
-- **[[Arm Drag Sweep]]** (2% of attempts)
+- **[[Transitions/Arm Drag Sweep]]** (2% of attempts)
 
-- **[[Balloon Sweep]]** (2% of attempts)
+- **[[Transitions/Balloon Sweep]]** (2% of attempts)
 
-- **[[Elevator Sweep]]** (2% of attempts)
+- **[[Transitions/Elevator Sweep]]** (2% of attempts)
 
-- **[[X-Guard Sweep]]** (1% of attempts)
+- **[[Transitions/X-Guard Sweep]]** (1% of attempts)
 
-- **[[Feet on Hips to De La Riva]]** (0% of attempts)
+- **[[Transitions/Feet on Hips to De La Riva]]** (0% of attempts)
 
-- **[[Guard Pull]]** (0% of attempts)
+- **[[Transitions/Guard Pull]]** (0% of attempts)
 
-- **[[Feet on Hips Sickle Sweep]]** (0% of attempts)
+- **[[Transitions/Feet on Hips Sickle Sweep]]** (0% of attempts)
 
-- **[[Feet on Hips Tripod Sweep]]** (1% of attempts)
+- **[[Transitions/Feet on Hips Tripod Sweep]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -188,29 +188,29 @@ The position excels against standing and combat base opponents, using leg extens
 ### Available Transitions
 
 
-- **[[Toreando Pass]]** (37% of attempts)
+- **[[Transitions/Toreando Pass]]** (37% of attempts)
 
-- **[[Knee Cut Pass]]** (11% of attempts)
+- **[[Transitions/Knee Cut Pass]]** (11% of attempts)
 
-- **[[Leg Drag Pass]]** (10% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (10% of attempts)
 
-- **[[Double Under Pass]]** (3% of attempts)
+- **[[Transitions/Double Under Pass]]** (3% of attempts)
 
-- **[[Long Step Pass]]** (8% of attempts)
+- **[[Transitions/Long Step Pass]]** (8% of attempts)
 
-- **[[X Pass]]** (8% of attempts)
+- **[[Transitions/X Pass]]** (8% of attempts)
 
-- **[[Stack Pass]]** (5% of attempts)
+- **[[Transitions/Stack Pass]]** (5% of attempts)
 
-- **[[Body Lock Pass]]** (5% of attempts)
+- **[[Transitions/Body Lock Pass]]** (5% of attempts)
 
-- **[[Smash Pass]]** (6% of attempts)
+- **[[Transitions/Smash Pass]]** (6% of attempts)
 
-- **[[Leg Weave Pass]]** (5% of attempts)
+- **[[Transitions/Leg Weave Pass]]** (5% of attempts)
 
-- **[[Knee Cut from Feet on Hips]]** (1% of attempts)
+- **[[Transitions/Knee Cut from Feet on Hips]]** (1% of attempts)
 
-- **[[Pass Feet on Hips Guard]]** (1% of attempts)
+- **[[Transitions/Pass Feet on Hips Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -253,29 +253,29 @@ The position excels against standing and combat base opponents, using leg extens
 ## Related Positions
 
 
-- **[[Open Guard]]** - Parent category - feet on hips is fundamental open guard variation
+- **[[Positions/Open Guard]]** - Parent category - feet on hips is fundamental open guard variation
 
-- **[[Spider Guard]]** - Natural progression when sleeve grips are established from feet-on-hips
+- **[[Positions/Spider Guard]]** - Natural progression when sleeve grips are established from feet-on-hips
 
-- **[[De La Riva Guard]]** - Common transition when opponent advances one leg or attempts lateral pass
+- **[[Positions/De La Riva Guard]]** - Common transition when opponent advances one leg or attempts lateral pass
 
-- **[[X-Guard]]** - Transition target when opponent steps close or attempts ankle control
+- **[[Positions/X-Guard]]** - Transition target when opponent steps close or attempts ankle control
 
-- **[[Butterfly Guard]]** - Alternative configuration when opponent drops to combat base between legs
+- **[[Positions/Butterfly Guard]]** - Alternative configuration when opponent drops to combat base between legs
 
-- **[[Closed Guard]]** - Recovery position when opponent drives forward into guard or distance collapses
+- **[[Positions/Closed Guard]]** - Recovery position when opponent drives forward into guard or distance collapses
 
-- **[[Triangle Control]]** - Primary submission threat when opponent reaches forward with extended arms
+- **[[Positions/Triangle Control]]** - Primary submission threat when opponent reaches forward with extended arms
 
-- **[[Lasso Guard]]** - Advanced variation adding lasso hook to feet-on-hips frame structure
+- **[[Positions/Lasso Guard]]** - Advanced variation adding lasso hook to feet-on-hips frame structure
 
-- **[[Collar Sleeve Guard]]** - Grip variation adding upper body control to foot frames
+- **[[Positions/Collar Sleeve Guard]]** - Grip variation adding upper body control to foot frames
 
-- **[[Double Sleeve Guard]]** - Alternative grip configuration maintaining same distance management concept
+- **[[Positions/Double Sleeve Guard]]** - Alternative grip configuration maintaining same distance management concept
 
-- **[[Combat Base]]** - Common opponent posture when facing feet-on-hips frames
+- **[[Positions/Combat Base]]** - Common opponent posture when facing feet-on-hips frames
 
-- **[[Standing Position]]** - Alternative opponent posture requiring different distance management
+- **[[Positions/Standing Position]]** - Alternative opponent posture requiring different distance management
 
 
 </section>

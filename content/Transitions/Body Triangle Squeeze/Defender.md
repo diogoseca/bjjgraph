@@ -156,7 +156,7 @@ As the defender trapped in a body triangle, recognizing when your opponent trans
 
 Unlike defending a choke where the threat is binary, defending the squeeze requires managing progressive discomfort while executing systematic escape sequences. The squeeze degrades your cardiovascular capacity with every second under compression, creating urgency to escape before your defensive ability is eroded below the threshold needed for technical escape execution. Understanding the mechanics of how the triangle generates pressure allows you to find structural weaknesses in the lock and work toward breaking the figure-four configuration while protecting against the combined choke-squeeze threat.
 
-**Opponent's Starting Position**: [[Body Triangle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ Unlike defending a choke where the threat is binary, defending the squeeze requi
 ### 1. Turn torso toward triangle leg to reduce squeeze angle
 
 - **When to use**: Immediately upon recognizing the transition from control to active squeeze, before maximum compression is established
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: Reduces compression surface area and squeeze effectiveness, buying time to work on clearing the figure-four lock or forcing opponent to readjust angle
 - **Risk**: Turning may create neck exposure for choke if you do not maintain hand protection throughout the rotation
 
 ### 2. Attack the locked foot behind opponent's knee to break figure-four
 
 - **When to use**: When you have created enough space through hip movement or angle change to reach the locked foot with your hand
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Breaks the figure-four triangle lock entirely, downgrading opponent from body triangle to standard back control with hooks which is significantly easier to escape
 - **Risk**: Committing a hand to attack the foot means one less hand defending your neck, creating a window for choke attacks during the clearing attempt
 
 ### 3. Bridge and create space to relieve compression pressure
 
 - **When to use**: When squeeze pressure is building and you need immediate relief before working on clearing the triangle lock
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: Creates temporary space between your torso and opponent's legs, reducing compression and allowing a recovery breath before executing escape technique
 - **Risk**: Bridging consumes energy under restricted breathing, and if opponent follows the bridge with maintained connection the relief may be insufficient to create meaningful escape opportunity
 
 ### 4. Tuck elbows against ribs and manage breathing to outlast the squeeze
 
 - **When to use**: When you cannot immediately clear the triangle and need to survive the squeeze while waiting for an opening to escape or for opponent's legs to fatigue
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: Elbows create structural support absorbing compression pressure while controlled breathing maintains oxygen supply, allowing you to outlast the squeeze attempt until opponent transitions to a different attack
 - **Risk**: Passive survival without active escape attempts allows opponent to maintain dominant position indefinitely and attempt multiple finishing sequences
 
@@ -227,11 +227,11 @@ Unlike defending a choke where the threat is binary, defending the squeeze requi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Attack the foot locked behind opponent's knee by creating space through hip movement first, then using your hand to push the ankle out of the figure-four configuration. Once the triangle breaks, immediately insert your elbow between your body and their legs to prevent re-establishment. This downgrades their control from body triangle to standard back control, eliminating the breathing restriction and opening standard back escape pathways.
 
-### → [[Body Triangle]]
+### → [[Positions/Back Control/Body Triangle]]
 
 Survive the active squeeze attempt by managing breathing with shallow chest breaths, turning toward the triangle leg to reduce compression angle, and tucking elbows against ribs for structural defense. The opponent will eventually abandon the squeeze due to leg fatigue or opportunity for a different attack. Although you remain in body triangle, the immediate submission threat passes and you reset to defending standard back control attacks.
 

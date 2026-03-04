@@ -154,7 +154,7 @@ description: "How to counter the sprawl in BJJ. Strategies for completing takedo
 
 As the person shooting the takedown, having your attack met with a sprawl is one of the most common and dangerous defensive scenarios you will face. The sprawl defender's objective is to flatten you to the mat, establish front headlock control, and transition to submissions or dominant position. Your task is to prevent this sequence from completing by maintaining your base, protecting your neck, and either finishing the original takedown or recovering to a safe standing position. Understanding the sprawl from the receiving end is critical because nearly every serious takedown attempt will be met with some form of sprawl defense. The ability to work through an opponent's sprawl separates competent grapplers from elite ones. When an opponent sprawls, they are committing their weight forward and downward - this creates specific vulnerabilities you can exploit if you maintain composure and execute proper technique. The key principle is never to accept the flattened position passively. Every moment you spend flattened under a sprawl brings you closer to front headlock submissions or positional loss. Instead, maintain active hips, protect your neck, and work systematically toward either completing your takedown or recovering to neutral standing.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the person shooting the takedown, having your attack met with a sprawl is one
 ### 1. Switch to single leg by securing one leg tight to your chest and driving laterally
 
 - **When to use**: When the sprawl is partially successful but you still have contact with at least one of opponent's legs and your hips are not yet fully flattened
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Convert the failed double leg into a single leg finish by running the pipe or tripping opponent to the mat, returning you to top position
 - **Risk**: If the single leg fails, opponent secures deeper front headlock control and you are in worse position than before
 
 ### 2. Re-circle hips underneath and drive forward to finish the original takedown
 
 - **When to use**: When opponent's sprawl is shallow and their hips have not fully driven your hips to the mat - you still have base under you
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Complete the takedown by getting your hips back underneath, lifting opponent, and driving through to finish on top
 - **Risk**: If the re-drive fails, you have spent additional energy and opponent may transition to guillotine as you drive your head forward
 
 ### 3. Release the takedown attempt, protect neck, and work back to standing position
 
 - **When to use**: When opponent has fully sprawled with heavy hips and is beginning to establish front headlock control - the takedown is no longer viable
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Return to neutral standing position with both practitioners on their feet, resetting the exchange
 - **Risk**: Opponent may follow you up with the front headlock, maintaining head control as you try to stand, transitioning to standing guillotine
 
 ### 4. Sit through to guard by pulling opponent forward and sitting to butterfly or half guard
 
 - **When to use**: When fully flattened and unable to stand, but before opponent secures submission grips - use their forward pressure against them
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Recover to a guard position where you can work sweeps and submissions rather than remaining in the dangerous front headlock bottom
 - **Risk**: If poorly timed, opponent passes your guard attempt and establishes side control or maintains front headlock
 
@@ -225,11 +225,11 @@ As the person shooting the takedown, having your attack met with a sprawl is one
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Release the failed takedown, fight the cross-face and head control grips, post on opponent's hips to create space, then explosively stand up while keeping chin tucked. Circle away from their pressure side as you rise to break their grip entirely and return to neutral standing.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 If unable to return to standing cleanly, sit through to a guard position by pulling opponent's weight forward and inserting butterfly hooks or recovering half guard. From guard, you have sweeps and submissions available rather than being stuck under front headlock pressure where the opponent has all the offensive options.
 

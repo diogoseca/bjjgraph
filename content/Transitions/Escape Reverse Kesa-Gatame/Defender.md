@@ -146,7 +146,7 @@ description: "Defend against the hip escape from Reverse Kesa-Gatame. Learn to r
 
 Defending against the hip escape from Reverse Kesa-Gatame requires the top player to maintain constant chest-to-chest pressure, follow the bottom player's hip movement, and capitalize on escape attempts to advance position. The primary defensive strategy centers on anticipating the shrimping direction and driving forward to close any space the bottom player creates. Unlike defending against the bridge escape—which demands sprawling and base width—defending the hip escape requires forward pressure and the ability to follow the bottom player's lateral movement while maintaining arm control. Understanding the escape's sequential nature allows the top player to intervene at multiple points: before the frame is established, during the hip turn, or before the knee can be inserted.
 
-**Opponent's Starting Position**: [[Reverse Kesa-Gatame]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ Defending against the hip escape from Reverse Kesa-Gatame requires the top playe
 ### 1. Drive chest weight forward and follow the shrimping direction to re-close space
 
 - **When to use**: Immediately upon feeling the bottom player's hips begin to move away. The earlier you follow, the less space accumulates from each shrimp.
-- **Targets**: [[Reverse Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Reverse Kesa-Gatame]]
 - **If successful**: Escape is neutralized and you maintain Reverse Kesa-Gatame with the bottom player having expended energy on failed shrimping
 - **Risk**: Following too aggressively may shift your weight high enough to create a bridging opportunity
 
 ### 2. Step over to mount as the bottom player shrimps away, exploiting the gap they create
 
 - **When to use**: When the bottom player has created significant lateral space through shrimping but has not yet inserted a knee shield. The gap between your bodies provides the pathway for the mount transition.
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You advance from Reverse Kesa-Gatame to mount, gaining a superior position with scoring and submission opportunities
 - **Risk**: If the bottom player inserts the knee shield before you complete the step-over, you end up in half guard top
 
 ### 3. Attack the trapped arm with Americana or Kimura when the bottom player commits to shrimping
 
 - **When to use**: When the bottom player focuses entirely on the hip escape and relaxes the trapped arm's defensive posture. Their attention to shrimping mechanics often creates a submission window.
-- **Targets**: [[Reverse Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Reverse Kesa-Gatame]]
 - **If successful**: The submission threat forces the bottom player to abandon the escape and defend, resetting their escape progress
 - **Risk**: Committing to the submission may reduce your chest pressure enough to accelerate the escape
 
 ### 4. Control the free arm to eliminate the frame before the escape sequence begins
 
 - **When to use**: When you detect the bottom player positioning their free arm for a frame. Trapping both arms removes the primary escape tool.
-- **Targets**: [[Reverse Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Reverse Kesa-Gatame]]
 - **If successful**: Bottom player cannot establish the frame needed for the hip escape, forcing them to attempt the riskier bridge escape instead
 - **Risk**: Reaching for the far arm may shift your weight and create momentary space
 
@@ -216,11 +216,11 @@ Defending against the hip escape from Reverse Kesa-Gatame requires the top playe
 
 ## Best-Case Outcomes for Defender
 
-### → [[Reverse Kesa-Gatame]]
+### → [[Positions/Side Control/Reverse Kesa-Gatame]]
 
 Follow the bottom player's shrimping movement by driving your hips forward, maintaining chest-to-chest pressure throughout. Close any space created by their hip escapes before they can insert a knee shield. Reconsolidate arm control after each failed escape attempt.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the bottom player creates lateral space through committed shrimping, use the gap to step your far leg over their body into mount. Time the transition for when they are mid-shrimp and their near knee has not yet risen to block. Their shrimping direction actually assists the mount transition by moving their body under your stepping leg.
 

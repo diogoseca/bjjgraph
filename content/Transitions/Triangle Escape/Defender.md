@@ -154,7 +154,7 @@ description: "How to defend against Triangle Escape in BJJ. Recognition cues, de
 
 The Triangle Escape Defender perspective covers the bottom player's strategy for maintaining triangle control when the trapped opponent initiates escape sequences. As the person holding the triangle, your objective is to recognize escape attempts early and counter them before they develop momentum. The defender in this context is the triangle holder who must protect their submission position against systematic posture recovery, stacking pressure, and circular movement. Successful triangle retention requires active hip management, constant angle adjustment, and the ability to transition to secondary attacks when the primary choke is compromised. Understanding the escaper's sequence allows you to anticipate each step and insert defensive counters at the most effective moments, transforming failed escape attempts into deeper submission threats or transition opportunities to armbar, omoplata, or back control.
 
-**Opponent's Starting Position**: [[Triangle Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Triangle Control]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ The Triangle Escape Defender perspective covers the bottom player's strategy for
 ### 1. Pull head down and re-break posture by gripping behind the skull and curling them forward while extending hips upward
 
 - **When to use**: As soon as the escaper begins driving their head up to recover posture, before they establish full spinal alignment
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Escaper's posture collapses back into the triangle, restoring full choking pressure and resetting the submission sequence
 - **Risk**: If the escaper has already established strong posture with posted arm, your pulling grip may be insufficient and you waste energy fighting their structural base
 
 ### 2. Transition to armbar by swinging the leg across their face and isolating the trapped arm as they attempt to posture
 
 - **When to use**: When the escaper commits to posture recovery and begins pulling their head upward, exposing the trapped arm for isolation
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: You secure armbar control with the escaper's arm isolated across your hips, transitioning from a deteriorating triangle into a high-percentage submission
 - **Risk**: If you release the triangle lock prematurely and the armbar transition is incomplete, the escaper may stack through and pass to side control
 
 ### 3. Pivot hips to maintain perpendicular angle by scooting and re-angling as the escaper circles toward their trapped arm side
 
 - **When to use**: When the escaper begins circular movement to weaken the triangle configuration, typically stepping laterally while driving forward
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Your angle adjustment neutralizes their circular escape, maintaining the choking geometry and forcing them to restart the escape sequence
 - **Risk**: Excessive pivoting can loosen the triangle lock if legs disengage during the adjustment, potentially opening space for the escaper to extract their head
 
 ### 4. Transition to omoplata by pivoting under the escaper's arm and attacking the shoulder when they circle predictably
 
 - **When to use**: When the escaper commits heavily to circling toward the trapped arm side, rotating their shoulder forward and exposing it for isolation
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: You catch the escaper in an omoplata position as their circling motion feeds their arm into the shoulder lock, creating a new submission threat
 - **Risk**: If the omoplata transition is too slow, the escaper can posture out and potentially complete their circular escape while you are mid-transition
 
@@ -224,11 +224,11 @@ The Triangle Escape Defender perspective covers the bottom player's strategy for
 
 ## Best-Case Outcomes for Defender
 
-### → [[Triangle Control]]
+### → [[Positions/Triangle Control]]
 
 Maintain constant head control by gripping behind the skull and pulling down. Actively adjust hip angle to stay perpendicular as the escaper moves. Extend hips upward to increase choking pressure whenever they attempt to posture. Keep the trapped arm pulled across their neck. Every time they reset, re-tighten the triangle lock and re-establish optimal angle before they can build momentum for another escape attempt.
 
-### → [[Armbar Control]]
+### → [[Positions/Armbar Control]]
 
 When the escaper commits to posturing up, use that upward movement to swing your leg across their face while maintaining grip on the trapped arm. Their posture recovery actually assists the armbar transition by creating the space needed to reposition your legs. Secure both hands on their wrist, pinch knees together, and elevate hips to finish. This is the highest-percentage counter-attack from triangle control.
 

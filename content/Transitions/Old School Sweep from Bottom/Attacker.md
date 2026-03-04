@@ -186,7 +186,7 @@ description: "Master executing the Old School Sweep from half guard bottom. Step
 
 As the attacker executing the Old School Sweep, your objective is to systematically break down the top player's base through coordinated upper and lower body controls, then capitalize on a moment of compromised balance to execute a powerful rotational sweep. The technique demands patience in establishing the proper grip sequence: lockdown first for base control, underhook second for sweeping leverage, head control third for posture destruction. Once all three controls are in place, you create an unsolvable dilemma where forward pressure feeds the sweep and backward retreat opens Electric Chair attacks. Success comes from reading the opponent's weight distribution and timing the explosive sweep during their forward commitment, ensuring that structural mechanics do the work rather than raw strength.
 
-**From Position**: [[Old School]] (Bottom)
+**From Position**: [[Positions/Half Guard/Old School]] (Bottom)
 
 </section>
 
@@ -239,10 +239,10 @@ As the attacker executing the Old School Sweep, your objective is to systematica
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 35% |
-| Success | [[Side Control]] | 20% |
-| Failure | [[Old School]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 35% |
+| Success | [[Positions/Side Control]] | 20% |
+| Failure | [[Positions/Half Guard/Old School]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the attacker executing the Old School Sweep, your objective is to systematica
 
 ## Opponent Counters
 
-- **Opponent establishes deep whizzer and clamps elbow tight to control underhook arm** (Effectiveness: High) - Your Response: If the whizzer is set before you initiate, transition to Electric Chair by diving under their hips. If you feel the whizzer setting during the sweep, increase lockdown pump and pull head control harder to break their structure before the whizzer fully sets. → Leads to [[Old School]]
-- **Opponent drives heavy crossface pressure to flatten bottom player onto their back** (Effectiveness: High) - Your Response: Pump the lockdown aggressively to create space and prevent flattening. If partially flattened, transition to deep half guard entry by diving under their hips rather than fighting to re-establish the Old School angle. → Leads to [[Half Guard]]
-- **Opponent posts free hand on the mat to create a wide base against the rotational sweep** (Effectiveness: Medium) - Your Response: Redirect sweep angle away from the posted hand by adjusting the direction of your bridge. Alternatively, release head control momentarily to swim under the posted arm, removing their base post before re-initiating the sweep. → Leads to [[Old School]]
-- **Opponent sprawls hips back and away to remove weight from sweeping angle** (Effectiveness: Medium) - Your Response: The sprawl creates the space needed for Electric Chair entry. As their hips move back, use the lockdown to pull their leg through and rotate under for the Electric Chair position. Their defensive sprawl directly feeds this chain attack. → Leads to [[Old School]]
+- **Opponent establishes deep whizzer and clamps elbow tight to control underhook arm** (Effectiveness: High) - Your Response: If the whizzer is set before you initiate, transition to Electric Chair by diving under their hips. If you feel the whizzer setting during the sweep, increase lockdown pump and pull head control harder to break their structure before the whizzer fully sets. → Leads to [[Positions/Half Guard/Old School]]
+- **Opponent drives heavy crossface pressure to flatten bottom player onto their back** (Effectiveness: High) - Your Response: Pump the lockdown aggressively to create space and prevent flattening. If partially flattened, transition to deep half guard entry by diving under their hips rather than fighting to re-establish the Old School angle. → Leads to [[Positions/Half Guard]]
+- **Opponent posts free hand on the mat to create a wide base against the rotational sweep** (Effectiveness: Medium) - Your Response: Redirect sweep angle away from the posted hand by adjusting the direction of your bridge. Alternatively, release head control momentarily to swim under the posted arm, removing their base post before re-initiating the sweep. → Leads to [[Positions/Half Guard/Old School]]
+- **Opponent sprawls hips back and away to remove weight from sweeping angle** (Effectiveness: Medium) - Your Response: The sprawl creates the space needed for Electric Chair entry. As their hips move back, use the lockdown to pull their leg through and rotate under for the Electric Chair position. Their defensive sprawl directly feeds this chain attack. → Leads to [[Positions/Half Guard/Old School]]
 
 
 </section>

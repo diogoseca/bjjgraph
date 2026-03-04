@@ -180,7 +180,7 @@ description: "Complete guide to executing the Suplex from Rear Clinch. Covers gr
 
 As the attacker executing the Suplex from Rear Clinch, your objective is to convert superior standing back control into dominant ground position through explosive lifting and controlled landing mechanics. This technique requires precise sequencing of grip tightening, level change, hip drive, and directional control to safely arc your opponent from standing to the mat while maintaining your own positional advantage throughout the throw. The suplex rewards committed execution—half-measures result in failed attempts or worse, counters that leave you in inferior position. Understanding the biomechanical chain from grip to lift to landing is essential for both effectiveness and safety.
 
-**From Position**: [[Standing Rear Clinch]] (Top)
+**From Position**: [[Positions/Standing Rear Clinch]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Suplex from Rear Clinch, your objective is to conv
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Standing Rear Clinch]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Standing Rear Clinch]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,11 +243,11 @@ As the attacker executing the Suplex from Rear Clinch, your objective is to conv
 
 ## Opponent Counters
 
-- **Opponent drops weight and widens base before lift initiates** (Effectiveness: High) - Your Response: Switch to a lateral suplay variation that uses their lowered center of gravity against them, or abandon the suplex and transition to a mat return or body lock takedown that works better against a lowered base → Leads to [[Standing Rear Clinch]]
-- **Opponent hooks your leg with their foot during the lift attempt** (Effectiveness: High) - Your Response: If you feel the hook before committing, abort the lift and re-establish position. If already mid-lift, drive through the hook by committing to a lateral direction that neutralizes the leg entanglement, accepting potential scramble → Leads to [[Half Guard]]
-- **Opponent peels your grip open during the setup phase** (Effectiveness: Medium) - Your Response: Immediately re-establish the grip in a different configuration—switch from body lock to seatbelt or vice versa. Use the grip fighting exchange to create a timing window when they relax after breaking the grip, then re-lock and initiate the lift during that momentary relaxation → Leads to [[Standing Rear Clinch]]
-- **Opponent executes a standing switch to reverse the rear clinch position** (Effectiveness: Medium) - Your Response: Maintain forward pressure and circle away from the switch direction. If the switch is already in progress, release the suplex attempt and re-pummel for inside position or drop to a single leg as they rotate through the switch → Leads to [[Standing Rear Clinch]]
-- **Opponent sits out and drops to guard during the lift attempt** (Effectiveness: Medium) - Your Response: Follow them to the ground maintaining the body lock, converting directly to a body lock pass or guard bypass. Use the momentum of their sit to drive through into a passing position rather than fighting the guard pull → Leads to [[Side Control]]
+- **Opponent drops weight and widens base before lift initiates** (Effectiveness: High) - Your Response: Switch to a lateral suplay variation that uses their lowered center of gravity against them, or abandon the suplex and transition to a mat return or body lock takedown that works better against a lowered base → Leads to [[Positions/Standing Rear Clinch]]
+- **Opponent hooks your leg with their foot during the lift attempt** (Effectiveness: High) - Your Response: If you feel the hook before committing, abort the lift and re-establish position. If already mid-lift, drive through the hook by committing to a lateral direction that neutralizes the leg entanglement, accepting potential scramble → Leads to [[Positions/Half Guard]]
+- **Opponent peels your grip open during the setup phase** (Effectiveness: Medium) - Your Response: Immediately re-establish the grip in a different configuration—switch from body lock to seatbelt or vice versa. Use the grip fighting exchange to create a timing window when they relax after breaking the grip, then re-lock and initiate the lift during that momentary relaxation → Leads to [[Positions/Standing Rear Clinch]]
+- **Opponent executes a standing switch to reverse the rear clinch position** (Effectiveness: Medium) - Your Response: Maintain forward pressure and circle away from the switch direction. If the switch is already in progress, release the suplex attempt and re-pummel for inside position or drop to a single leg as they rotate through the switch → Leads to [[Positions/Standing Rear Clinch]]
+- **Opponent sits out and drops to guard during the lift attempt** (Effectiveness: Medium) - Your Response: Follow them to the ground maintaining the body lock, converting directly to a body lock pass or guard bypass. Use the momentum of their sit to drive through into a passing position rather than fighting the guard pull → Leads to [[Positions/Side Control]]
 
 
 </section>

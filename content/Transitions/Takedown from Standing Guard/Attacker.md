@@ -186,7 +186,7 @@ description: "Execute the Takedown from Standing Guard in BJJ. Level changes, pe
 
 As the attacker executing the Takedown from Standing Guard, your primary objective is converting the standing grip fighting exchange into a dominant ground position through explosive level changes and committed drive-through mechanics. The standing guard context presents unique challenges compared to pure wrestling: your opponent may threaten guillotine chokes during level changes, pull guard reactively to negate your takedown scoring, or use gi grips to stall your forward drive and create counter-offensive opportunities. Success demands integrating wrestling penetration mechanics with BJJ-specific grip management, timing entries to exploit momentary weight distribution shifts or grip transitions, and committing fully to the finish while maintaining head position awareness against front headlock and guillotine counters throughout the entire sequence.
 
-**From Position**: [[Standing Guard]] (Top)
+**From Position**: [[Positions/Standing Guard]] (Top)
 
 </section>
 
@@ -240,10 +240,10 @@ As the attacker executing the Takedown from Standing Guard, your primary objecti
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 20% |
-| Success | [[Half Guard]] | 35% |
-| Failure | [[Standing Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Failure | [[Positions/Standing Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -252,10 +252,10 @@ As the attacker executing the Takedown from Standing Guard, your primary objecti
 
 ## Opponent Counters
 
-- **Sprawl and crossface defense—opponent drops hips to mat, extends legs back, and drives shoulder pressure into your head and shoulders** (Effectiveness: High) - Your Response: If sprawl is early, immediately switch to a single leg by securing one leg and driving laterally. If sprawl is late, power through with leg drive and angle change before their hips fully drop to the mat. → Leads to [[Standing Guard]]
-- **Guillotine counter—opponent wraps your head and neck during the level change before you establish inside head position** (Effectiveness: Medium) - Your Response: Drive your head to the inside of their hip immediately, using your free hand to peel their choking arm while continuing forward drive. If the grip is deep, abort the shot and posture up rather than completing the takedown into their guillotine. → Leads to [[Half Guard]]
-- **Reactive guard pull—opponent sits to guard as you initiate the takedown, controlling the transition to ground fighting on their terms** (Effectiveness: Low) - Your Response: Continue forward pressure as they sit, immediately establishing passing grips on their legs before their guard structure solidifies. Their seated position actually gives you passing initiative if you react quickly to control their legs. → Leads to [[Half Guard]]
-- **Wizzer and hip rotation—opponent establishes deep overhook on your attacking arm and rotates hips away from your driving direction** (Effectiveness: Medium) - Your Response: Counter the wizzer by driving your trapped arm elbow to the mat while switching your head position to the opposite side. Alternatively, release the blocked side and transition to a body lock takedown entry from the clinch position the wizzer creates. → Leads to [[Standing Guard]]
+- **Sprawl and crossface defense—opponent drops hips to mat, extends legs back, and drives shoulder pressure into your head and shoulders** (Effectiveness: High) - Your Response: If sprawl is early, immediately switch to a single leg by securing one leg and driving laterally. If sprawl is late, power through with leg drive and angle change before their hips fully drop to the mat. → Leads to [[Positions/Standing Guard]]
+- **Guillotine counter—opponent wraps your head and neck during the level change before you establish inside head position** (Effectiveness: Medium) - Your Response: Drive your head to the inside of their hip immediately, using your free hand to peel their choking arm while continuing forward drive. If the grip is deep, abort the shot and posture up rather than completing the takedown into their guillotine. → Leads to [[Positions/Half Guard]]
+- **Reactive guard pull—opponent sits to guard as you initiate the takedown, controlling the transition to ground fighting on their terms** (Effectiveness: Low) - Your Response: Continue forward pressure as they sit, immediately establishing passing grips on their legs before their guard structure solidifies. Their seated position actually gives you passing initiative if you react quickly to control their legs. → Leads to [[Positions/Half Guard]]
+- **Wizzer and hip rotation—opponent establishes deep overhook on your attacking arm and rotates hips away from your driving direction** (Effectiveness: Medium) - Your Response: Counter the wizzer by driving your trapped arm elbow to the mat while switching your head position to the opposite side. Alternatively, release the blocked side and transition to a body lock takedown entry from the clinch position the wizzer creates. → Leads to [[Positions/Standing Guard]]
 
 
 </section>

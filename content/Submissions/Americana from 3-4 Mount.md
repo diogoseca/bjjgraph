@@ -26,8 +26,8 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (rotator cuff and glenohumeral complex)
-**Starting Position**: [[3-4 Mount]]
-**From Position**: [[3-4 Mount]] (Top)
+**Starting Position**: [[Positions/Mount/3-4 Mount]]
+**From Position**: [[Positions/Mount/3-4 Mount]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -81,9 +81,9 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[3-4 Mount]] | 30% |
-| Failure | [[Mount]] | 15% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Mount/3-4 Mount]] | 30% |
+| Failure | [[Positions/Mount]] | 15% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -229,10 +229,10 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 
 ## From Which Positions?
 
-- [[3-4 Mount]]
-- [[Mount]]
-- [[Modified Mount]]
-- [[Technical Mount]]
+- [[Positions/Mount/3-4 Mount]]
+- [[Positions/Mount]]
+- [[Positions/Mount/Modified Mount]]
+- [[Positions/Mount/Technical Mount]]
 
 
 </section>
@@ -241,14 +241,14 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 
 ## Related Submissions
 
-- [[Americana from Mount]]
-- [[Americana from Side Control]]
-- [[Americana from Technical Mount]]
-- [[Americana from Kesa Gatame]]
-- [[Americana from Reverse Kesa]]
-- [[Armbar from Mount]]
-- [[Armbar from High Mount]]
-- [[Armbar from S Mount]]
+- [[Submissions/Americana from Mount]]
+- [[Submissions/Americana from Side Control]]
+- [[Submissions/Americana from Technical Mount]]
+- [[Submissions/Americana from Kesa Gatame]]
+- [[Submissions/Americana from Reverse Kesa]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Armbar from High Mount]]
+- [[Submissions/Armbar from S Mount]]
 
 
 </section>
@@ -257,13 +257,13 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 
 ## Additional Related Content
 
-- [[3-4 Mount]] - Starting position providing asymmetric base for this submission
-- [[Mount]] - Parent position family from which 3-4 Mount derives
-- [[Technical Mount]] - Related mount variation with similar arm isolation opportunities for shoulder locks
-- [[Americana from Mount]] - Standard Americana variation from symmetric mount—shares grip mechanics and finishing sequence
-- [[Kimura Trap]] - Complementary control position when opponent inverts the grip or straightens their arm during defense
-- [[Armbar from Mount]] - Primary alternative submission when Americana defense creates arm extension
-- [[S Mount]] - Related asymmetric mount variation providing submission angles complementary to 3-4 Mount
+- [[Positions/Mount/3-4 Mount]] - Starting position providing asymmetric base for this submission
+- [[Positions/Mount]] - Parent position family from which 3-4 Mount derives
+- [[Positions/Mount/Technical Mount]] - Related mount variation with similar arm isolation opportunities for shoulder locks
+- [[Submissions/Americana from Mount]] - Standard Americana variation from symmetric mount—shares grip mechanics and finishing sequence
+- [[Positions/Kimura Trap]] - Complementary control position when opponent inverts the grip or straightens their arm during defense
+- [[Submissions/Armbar from Mount]] - Primary alternative submission when Americana defense creates arm extension
+- [[Positions/Mount/S Mount]] - Related asymmetric mount variation providing submission angles complementary to 3-4 Mount
 
 
 </section>

@@ -21,7 +21,7 @@ The technique centers on using skeletal structure and frame-based leverage rathe
 
 The timing window for effective posture defense is narrow and position-dependent. Best results occur before the triangle is fully locked and the opponent has optimized their hip angle toward the trapped arm side. Once full lock is established with compressed knees and angled hips, pure posture defense becomes significantly harder and must be combined with grip fighting and rotational escape elements to create viable escape opportunities.
 
-**From Position**: [[Rear Triangle]] (Bottom)
+**From Position**: [[Positions/Triangle Control/Rear Triangle]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ The timing window for effective posture defense is narrow and position-dependent
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 40% |
-| Failure | [[Rear Triangle]] | 40% |
-| Counter | [[Crucifix]] | 20% |
+| Success | [[Positions/Back Control]] | 40% |
+| Failure | [[Positions/Triangle Control/Rear Triangle]] | 40% |
+| Counter | [[Positions/Crucifix]] | 20% |
 
 
 </section>
@@ -195,27 +195,27 @@ Posture defense from the rear triangle occupies a critical junction in the BJJ d
 ## Related Techniques
 
 
-- [[Rear Triangle]] - Source position from which this defensive escape is attempted
+- [[Positions/Triangle Control/Rear Triangle]] - Source position from which this defensive escape is attempted
 
-- [[Back Control]] - Primary target position after successful posture defense and triangle escape
+- [[Positions/Back Control]] - Primary target position after successful posture defense and triangle escape
 
-- [[Grip Fight Escape from Rear Triangle]] - Complementary escape technique focusing on grip manipulation rather than posture
+- [[Transitions/Grip Fight Escape from Rear Triangle]] - Complementary escape technique focusing on grip manipulation rather than posture
 
-- [[Arm Extraction]] - Follow-up technique after posture recovery to free trapped arm from triangle
+- [[Transitions/Arm Extraction]] - Follow-up technique after posture recovery to free trapped arm from triangle
 
-- [[Hand Fight to Turtle from Back]] - Related escape pathway from back control that may follow successful posture defense
+- [[Transitions/Hand Fight to Turtle from Back]] - Related escape pathway from back control that may follow successful posture defense
 
-- [[Crucifix]] - Counter-risk position if opponent traps free arm during escape attempt
+- [[Positions/Crucifix]] - Counter-risk position if opponent traps free arm during escape attempt
 
-- [[Hip Escape from Back Control]] - Follow-up escape used after transitioning from rear triangle to standard back control
+- [[Transitions/Hip Escape from Back Control]] - Follow-up escape used after transitioning from rear triangle to standard back control
 
-- [[Seat Belt Control Back]] - Intermediate control position often reached when triangle is broken but back control maintained
+- [[Positions/Back Control/Seat Belt Control Back]] - Intermediate control position often reached when triangle is broken but back control maintained
 
-- [[Turtle]] - Alternative escape target reachable after posture recovery and positional transition
+- [[Positions/Turtle]] - Alternative escape target reachable after posture recovery and positional transition
 
-- [[Escape Seat Belt Control]] - Subsequent escape technique used after successfully reducing rear triangle to seat belt control
+- [[Transitions/Escape Seat Belt Control]] - Subsequent escape technique used after successfully reducing rear triangle to seat belt control
 
-- [[Elbow Escape from Back]] - Complementary escape method from back control that integrates with posture defense
+- [[Transitions/Elbow Escape from Back]] - Complementary escape method from back control that integrates with posture defense
 
 
 </section>

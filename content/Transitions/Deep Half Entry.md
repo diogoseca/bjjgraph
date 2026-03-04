@@ -21,7 +21,7 @@ The position works by getting underneath your opponent's center of gravity, usin
 
 When executed correctly, the deep half entry transforms a potentially defensive situation into an offensive opportunity, allowing the practitioner to attack with various sweep options including the waiter sweep, Homer Simpson sweep, and electric chair variations. The entry is particularly effective against pressure-based top players who commit their weight forward, as their own momentum and weight distribution become the primary tools used against them.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ When executed correctly, the deep half entry transforms a potentially defensive 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Deep Half Guard]] | 60% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard/Deep Half Guard]] | 60% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -196,33 +196,33 @@ The deep half entry represents a critical junction in the half guard bottom game
 ## Related Techniques
 
 
-- [[Half Guard]] - Starting position for entry
+- [[Positions/Half Guard]] - Starting position for entry
 
-- [[Deep Half Guard]] - Resulting position after successful entry
+- [[Positions/Half Guard/Deep Half Guard]] - Resulting position after successful entry
 
-- [[Waiter Sweep]] - Primary sweep option from deep half
+- [[Transitions/Waiter Sweep]] - Primary sweep option from deep half
 
-- [[Old School Sweep]] - Alternative sweep when deep half entry is countered
+- [[Transitions/Old School Sweep]] - Alternative sweep when deep half entry is countered
 
-- [[Lockdown]] - Alternative entry path and recovery option
+- [[Positions/Half Guard/Lockdown]] - Alternative entry path and recovery option
 
-- [[Knee Shield Half Guard]] - Alternative entry starting position
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative entry starting position
 
-- [[Electric Chair]] - Advanced sweep and submission option from deep half
+- [[Positions/Half Guard/Electric Chair]] - Advanced sweep and submission option from deep half
 
-- [[Butterfly Guard]] - Alternative guard recovery option if deep half is denied
+- [[Positions/Butterfly Guard]] - Alternative guard recovery option if deep half is denied
 
-- [[Single Leg X-Guard]] - Follow-up position option when opponent extracts leg
+- [[Positions/X-Guard/Single Leg X-Guard]] - Follow-up position option when opponent extracts leg
 
-- [[Dogfight Position]] - Alternative entry starting point during scrambles
+- [[Positions/Dogfight Position]] - Alternative entry starting point during scrambles
 
-- [[Guard Recovery]] - Overall defensive system that deep half entry supports
+- [[Principles/Guard Recovery]] - Overall defensive system that deep half entry supports
 
-- [[Underhook Sweep from Half]] - Related half guard sweep option
+- [[Transitions/Underhook Sweep from Half]] - Related half guard sweep option
 
-- [[Reverse Half Guard]] - Alternative half guard variation with different entry angles
+- [[Positions/Half Guard/Reverse Half Guard]] - Alternative half guard variation with different entry angles
 
-- [[Rolling Back Take]] - High-percentage follow-up attack from established deep half
+- [[Transitions/Rolling Back Take]] - High-percentage follow-up attack from established deep half
 
 
 </section>

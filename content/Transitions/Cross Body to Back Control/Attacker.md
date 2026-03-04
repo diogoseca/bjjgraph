@@ -186,7 +186,7 @@ description: "Master the attacker perspective for Cross Body to Back Control. Le
 
 As the attacker executing Cross Body to Back Control, your objective is to convert the perpendicular pressure of the cross body ride into the most dominant position in grappling—full back control with hooks and seatbelt. The transition requires you to rotate your body from a perpendicular angle to a parallel position behind the opponent while maintaining crushing chest-to-back pressure throughout. The critical skill is threading hooks and grips without ever creating space that allows your opponent to escape. You must treat this as a continuous compression sequence where your weight never lifts, your chest never separates, and your grips never release until all control points of back control are fully established.
 
-**From Position**: [[Cross Body Ride]] (Top)
+**From Position**: [[Positions/Cross Body Ride]] (Top)
 
 </section>
 
@@ -240,9 +240,9 @@ As the attacker executing Cross Body to Back Control, your objective is to conve
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Cross Body Ride]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Cross Body Ride]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -251,11 +251,11 @@ As the attacker executing Cross Body to Back Control, your objective is to conve
 
 ## Opponent Counters
 
-- **Opponent tucks elbows tight to ribs and balls up defensively, denying seatbelt establishment** (Effectiveness: High) - Your Response: Maintain heavy perpendicular pressure and threaten crucifix entries to force them to post an arm. When they extend even slightly to prevent flattening, immediately thread the seatbelt through the gap created. → Leads to [[Cross Body Ride]]
-- **Opponent executes explosive granby roll during the rotation phase when pressure momentarily shifts** (Effectiveness: High) - Your Response: Follow the roll direction with your chest, using the seatbelt to stay connected. If they complete the roll, you may end up in front headlock or scramble position. Prevent the granby by keeping weight extremely heavy and forward during rotation. → Leads to [[Half Guard]]
-- **Opponent sits through toward your hips during rotation, attempting to recover guard** (Effectiveness: Medium) - Your Response: When you feel the sit-through attempt, immediately switch your hip angle to follow them. Drive your near hook deeper and use the seatbelt to pull their upper body back toward you. The sit-through often exposes their back more if you stay attached. → Leads to [[Half Guard]]
-- **Opponent stands up explosively before rotation is complete, using their legs to create distance** (Effectiveness: Medium) - Your Response: If they stand, transition to standing back control by maintaining seatbelt and riding their hips upward. Insert hooks from standing position or use a mat return to bring them back down with you attached. Never release the seatbelt during their stand attempt. → Leads to [[Cross Body Ride]]
-- **Opponent peels the first hook before the second hook can be inserted, preventing full back control** (Effectiveness: Medium) - Your Response: Re-insert the cleared hook immediately while increasing seatbelt pressure. If they continue clearing hooks, switch to a body triangle lock with your legs which is harder to strip than individual hooks. Alternatively, return to cross body ride and reset the transition. → Leads to [[Cross Body Ride]]
+- **Opponent tucks elbows tight to ribs and balls up defensively, denying seatbelt establishment** (Effectiveness: High) - Your Response: Maintain heavy perpendicular pressure and threaten crucifix entries to force them to post an arm. When they extend even slightly to prevent flattening, immediately thread the seatbelt through the gap created. → Leads to [[Positions/Cross Body Ride]]
+- **Opponent executes explosive granby roll during the rotation phase when pressure momentarily shifts** (Effectiveness: High) - Your Response: Follow the roll direction with your chest, using the seatbelt to stay connected. If they complete the roll, you may end up in front headlock or scramble position. Prevent the granby by keeping weight extremely heavy and forward during rotation. → Leads to [[Positions/Half Guard]]
+- **Opponent sits through toward your hips during rotation, attempting to recover guard** (Effectiveness: Medium) - Your Response: When you feel the sit-through attempt, immediately switch your hip angle to follow them. Drive your near hook deeper and use the seatbelt to pull their upper body back toward you. The sit-through often exposes their back more if you stay attached. → Leads to [[Positions/Half Guard]]
+- **Opponent stands up explosively before rotation is complete, using their legs to create distance** (Effectiveness: Medium) - Your Response: If they stand, transition to standing back control by maintaining seatbelt and riding their hips upward. Insert hooks from standing position or use a mat return to bring them back down with you attached. Never release the seatbelt during their stand attempt. → Leads to [[Positions/Cross Body Ride]]
+- **Opponent peels the first hook before the second hook can be inserted, preventing full back control** (Effectiveness: Medium) - Your Response: Re-insert the cleared hook immediately while increasing seatbelt pressure. If they continue clearing hooks, switch to a body triangle lock with your legs which is harder to strip than individual hooks. Alternatively, return to cross body ride and reset the transition. → Leads to [[Positions/Cross Body Ride]]
 
 
 </section>

@@ -21,7 +21,7 @@ The strategic significance of this escape lies in its effectiveness against heav
 
 This escape functions as a cornerstone of any scarf hold defense system, typically paired with frame-based hip escapes and ghost escapes to create a multi-layered defensive approach. The bridge escape serves as both a standalone technique and a setup tool, as even failed bridge attempts create space and positional disruption that enable follow-up escape chains. Practitioners should develop both the explosive bridge-and-roll finish and the ability to transition seamlessly to guard recovery when the full roll is defended.
 
-**From Position**: [[Scarf Hold Position]] (Bottom)
+**From Position**: [[Positions/Side Control/Scarf Hold Position]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ This escape functions as a cornerstone of any scarf hold defense system, typical
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Scarf Hold Position]] | 35% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Side Control/Scarf Hold Position]] | 35% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -191,25 +191,25 @@ The bridge escape from scarf hold sits within the broader scarf hold bottom defe
 ## Related Techniques
 
 
-- [[Scarf Hold Position]] - Starting position where this escape is initiated from the bottom role
+- [[Positions/Side Control/Scarf Hold Position]] - Starting position where this escape is initiated from the bottom role
 
-- [[Half Guard]] - Primary target position on successful escape through bridge and guard recovery
+- [[Positions/Half Guard]] - Primary target position on successful escape through bridge and guard recovery
 
-- [[Mount]] - Counter outcome position if escape fails and top player advances
+- [[Positions/Mount]] - Counter outcome position if escape fails and top player advances
 
-- [[Bridge Escape from Kesa Gatame]] - Closely related bridge escape from the traditional judo kesa gatame variant
+- [[Transitions/Bridge Escape from Kesa Gatame]] - Closely related bridge escape from the traditional judo kesa gatame variant
 
-- [[Bridge Escape from Modified Scarf Hold]] - Similar bridge escape mechanics applied to modified scarf hold configuration
+- [[Transitions/Bridge Escape from Modified Scarf Hold]] - Similar bridge escape mechanics applied to modified scarf hold configuration
 
-- [[Bridge Escape from Reverse Scarf Hold]] - Related bridge escape requiring adjusted angle for reverse-facing scarf hold
+- [[Transitions/Bridge Escape from Reverse Scarf Hold]] - Related bridge escape requiring adjusted angle for reverse-facing scarf hold
 
-- [[Side Control]] - Parent positional family with related but distinct escape mechanics
+- [[Positions/Side Control]] - Parent positional family with related but distinct escape mechanics
 
-- [[Kesa Gatame]] - Traditional judo variant of the scarf hold position with similar escape principles
+- [[Positions/Side Control/Kesa Gatame]] - Traditional judo variant of the scarf hold position with similar escape principles
 
-- [[Americana from Kesa Gatame]] - Submission threat from scarf hold that creates escape windows when opponent attacks
+- [[Submissions/Americana from Kesa Gatame]] - Submission threat from scarf hold that creates escape windows when opponent attacks
 
-- [[Arm Triangle from Scarf Hold]] - Submission threat motivating urgency to escape scarf hold control
+- [[Submissions/Arm Triangle from Scarf Hold]] - Submission threat motivating urgency to escape scarf hold control
 
 
 </section>

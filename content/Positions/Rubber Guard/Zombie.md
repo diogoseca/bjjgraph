@@ -93,27 +93,27 @@ Understanding both perspectives of the Zombie position is essential for modern n
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (35% of attempts)
+- **[[Transitions/Old School Sweep]]** (35% of attempts)
 
-- **[[Electric Chair Transition]]** (11% of attempts)
+- **[[Transitions/Electric Chair Transition]]** (11% of attempts)
 
-- **[[Lockdown Recovery]]** (10% of attempts)
+- **[[Transitions/Lockdown Recovery]]** (10% of attempts)
 
-- **[[Guard Recovery from Zombie]]** (13% of attempts)
+- **[[Transitions/Guard Recovery from Zombie]]** (13% of attempts)
 
-- **[[Granby Roll to Guard]]** (9% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (9% of attempts)
 
-- **[[Rolling Back Take]]** (7% of attempts)
+- **[[Transitions/Rolling Back Take]]** (7% of attempts)
 
-- **[[Roll to Truck]]** (6% of attempts)
+- **[[Transitions/Roll to Truck]]** (6% of attempts)
 
-- **[[Deep Half Entry]]** (5% of attempts)
+- **[[Transitions/Deep Half Entry]]** (5% of attempts)
 
-- **[[Escape Zombie Control]]** (2% of attempts)
+- **[[Transitions/Escape Zombie Control]]** (2% of attempts)
 
-- **[[Turn to Face from Zombie]]** (1% of attempts)
+- **[[Transitions/Turn to Face from Zombie]]** (1% of attempts)
 
-- **[[Sweep from Zombie Guard]]** (1% of attempts)
+- **[[Transitions/Sweep from Zombie Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -178,27 +178,27 @@ Understanding both perspectives of the Zombie position is essential for modern n
 ### Available Transitions
 
 
-- **[[Crossface Pass]]** (27% of attempts)
+- **[[Transitions/Crossface Pass]]** (27% of attempts)
 
-- **[[Leg Weave Pass]]** (10% of attempts)
+- **[[Transitions/Leg Weave Pass]]** (10% of attempts)
 
-- **[[Knee Slice Pass]]** (11% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (11% of attempts)
 
-- **[[Smash Pass]]** (9% of attempts)
+- **[[Transitions/Smash Pass]]** (9% of attempts)
 
-- **[[Turtle to Back Take]]** (12% of attempts)
+- **[[Transitions/Turtle to Back Take]]** (12% of attempts)
 
-- **[[Crab Ride to Back]]** (10% of attempts)
+- **[[Transitions/Crab Ride to Back]]** (10% of attempts)
 
-- **[[Anaconda from Turtle]]** (8% of attempts)
+- **[[Transitions/Anaconda from Turtle]]** (8% of attempts)
 
-- **[[Darce from Turtle]]** (6% of attempts)
+- **[[Transitions/Darce from Turtle]]** (6% of attempts)
 
-- **[[Back Take]]** (4% of attempts)
+- **[[Transitions/Back Take]]** (4% of attempts)
 
-- **[[Posture Recovery from Zombie]]** (2% of attempts)
+- **[[Transitions/Posture Recovery from Zombie]]** (2% of attempts)
 
-- **[[Strip Grip from Zombie]]** (1% of attempts)
+- **[[Transitions/Strip Grip from Zombie]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -241,25 +241,25 @@ Understanding both perspectives of the Zombie position is essential for modern n
 ## Related Positions
 
 
-- **[[Lockdown]]** - Core mechanic - Zombie utilizes lockdown as primary control mechanism
+- **[[Positions/Half Guard/Lockdown]]** - Core mechanic - Zombie utilizes lockdown as primary control mechanism
 
-- **[[Half Guard]]** - Parent category - Zombie is specialized half guard variation
+- **[[Positions/Half Guard]]** - Parent category - Zombie is specialized half guard variation
 
-- **[[Turtle]]** - Related defensive structure - traditional turtle without lockdown
+- **[[Positions/Turtle]]** - Related defensive structure - traditional turtle without lockdown
 
-- **[[Deep Half Guard]]** - Common transition target from Zombie position
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common transition target from Zombie position
 
-- **[[Electric Chair]]** - Primary submission threat from Zombie bottom
+- **[[Positions/Half Guard/Electric Chair]]** - Primary submission threat from Zombie bottom
 
-- **[[Old School]]** - Primary sweep from Zombie position
+- **[[Positions/Half Guard/Old School]]** - Primary sweep from Zombie position
 
-- **[[Truck]]** - Advanced variation with similar defensive structure
+- **[[Positions/Twister Control/Truck]]** - Advanced variation with similar defensive structure
 
-- **[[Back Control]]** - High-value transition target for both top and bottom players
+- **[[Positions/Back Control]]** - High-value transition target for both top and bottom players
 
-- **[[Side Control]]** - Common target position for successful pass from Zombie Top
+- **[[Positions/Side Control]]** - Common target position for successful pass from Zombie Top
 
-- **[[Rubber Guard]]** - Related 10th Planet position - shares systematic philosophy
+- **[[Positions/Rubber Guard]]** - Related 10th Planet position - shares systematic philosophy
 
 
 </section>

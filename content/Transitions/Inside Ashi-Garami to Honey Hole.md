@@ -21,7 +21,7 @@ Strategically, this transition should be attempted when opponent defends your in
 
 The timing window for this transition typically opens when opponent commits weight to defend one attack, creating the momentary looseness in their defensive posture that allows your leg to thread through. Masters of this transition recognize that it functions as part of an attack chain: threatening straight ankle lock forces defensive posture that opens Honey Hole entry, and vice versa. The position after successful transition places you in arguably the most dominant leg entanglement in grappling.
 
-**From Position**: [[Inside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The timing window for this transition typically opens when opponent commits weig
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Honey Hole]] | 58% |
-| Failure | [[Inside Ashi-Garami]] | 30% |
-| Counter | [[50-50 Guard]] | 12% |
+| Success | [[Positions/Ashi Garami/Honey Hole]] | 58% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 12% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Inside Ashi-Garami to Honey Hole transition occupies a critical junction in 
 ## Related Techniques
 
 
-- [[Inside Ashi-Garami]] - Starting position - foundational leg entanglement this transition originates from
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Starting position - foundational leg entanglement this transition originates from
 
-- [[Honey Hole]] - Target position - dominant saddle configuration achieved upon successful transition
+- [[Positions/Ashi Garami/Honey Hole]] - Target position - dominant saddle configuration achieved upon successful transition
 
-- [[Saddle]] - Alternative name - Honey Hole and Saddle refer to the same position configuration
+- [[Positions/Ashi Garami/Saddle]] - Alternative name - Honey Hole and Saddle refer to the same position configuration
 
-- [[Inside Heel Hook]] - Primary submission - high-percentage finish available from Honey Hole position
+- [[Submissions/Inside Heel Hook]] - Primary submission - high-percentage finish available from Honey Hole position
 
-- [[Straight Ankle Lock]] - Setup threat - ankle lock attacks from Inside Ashi create defensive reactions that open transition
+- [[Submissions/Straight Ankle Lock]] - Setup threat - ankle lock attacks from Inside Ashi create defensive reactions that open transition
 
-- [[Outside Ashi-Garami]] - Alternative target - transition option when opponent rotates away from Honey Hole entry
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative target - transition option when opponent rotates away from Honey Hole entry
 
-- [[50-50 Guard]] - Counter position - where opponent may arrive if they successfully counter-thread during transition
+- [[Positions/Ashi Garami/50-50 Guard]] - Counter position - where opponent may arrive if they successfully counter-thread during transition
 
-- [[Kneebar Finish]] - Alternative attack - available when opponent straightens leg to prevent threading
+- [[Transitions/Kneebar Finish]] - Alternative attack - available when opponent straightens leg to prevent threading
 
-- [[Cross Ashi-Garami]] - Related entanglement - alternative leg lock configuration within ashi garami system
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Related entanglement - alternative leg lock configuration within ashi garami system
 
-- [[Leg Entanglement]] - Conceptual framework - fundamental system governing all leg lock positions and transitions
+- [[Positions/Leg Entanglement]] - Conceptual framework - fundamental system governing all leg lock positions and transitions
 
-- [[Heel Hook]] - Primary submission chain - heel hook attacks become dramatically higher percentage after completing this transition
+- [[Transitions/Heel Hook]] - Primary submission chain - heel hook attacks become dramatically higher percentage after completing this transition
 
 
 </section>

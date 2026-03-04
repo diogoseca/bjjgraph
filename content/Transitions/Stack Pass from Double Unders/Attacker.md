@@ -180,7 +180,7 @@ description: "Learn to execute the Stack Pass from Double Unders in BJJ. Step-by
 
 The Stack Pass from Double Unders represents one of the most dominant pressure passing finishes available from bilateral underhook control. As the attacker, your objective is to convert horizontal chest pressure into vertical stacking force, folding the opponent's body onto their shoulders until their hip mobility is completely eliminated. The technique rewards patience and progressive pressure over explosive movement, making it a reliable option against opponents who maintain defensive composure under standard double unders pressure. Success hinges on maintaining tight grip connection behind the opponent's back while walking your knees forward incrementally, building unstoppable compression that forces the pass completion without requiring speed or athleticism.
 
-**From Position**: [[Double Unders]] (Top)
+**From Position**: [[Positions/Double Unders]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ The Stack Pass from Double Unders represents one of the most dominant pressure p
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Double Unders]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Double Unders]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ The Stack Pass from Double Unders represents one of the most dominant pressure p
 
 ## Opponent Counters
 
-- **Opponent frames on hips with both hands and extends legs explosively to break stacking pressure before compression is complete** (Effectiveness: Medium) - Your Response: Drive chest deeper into their thighs and accelerate knee walking to collapse their frames under increasing body weight. Their frame strength diminishes as the stack angle increases, so continued forward pressure overcomes hip frames without needing to strip them. → Leads to [[Double Unders]]
-- **Opponent dives to deep half guard by threading under your near leg as you begin the stacking progression, using your forward pressure as entry momentum** (Effectiveness: High) - Your Response: Keep hips low and connected to their body rather than creating space underneath during the stack. When you sense the dive attempt, immediately sprawl your hips back while maintaining underhook control to flatten them back out. Walk knees forward faster to pin their hips before the rotation completes. → Leads to [[Double Unders]]
-- **Opponent executes a granby roll using your forward stacking momentum to rotate over their shoulder toward turtle or guard recovery** (Effectiveness: Medium) - Your Response: Recognize the rotation initiation by feeling their shoulders turning and immediately stop forward progression. Drop your weight down onto their hips rather than continuing forward, which feeds the roll. Circle toward their back as they rotate to transition to a back take opportunity rather than chasing the guard recovery. → Leads to [[Open Guard]]
-- **Opponent bridges explosively and turns to one side during the stack, creating an angle that prevents complete compression and opens escape pathways** (Effectiveness: Medium) - Your Response: Follow the direction of their turn with your own body, maintaining chest pressure throughout their rotation. If they turn away from your head position, use the angle they create to accelerate the pass to that side. If they turn toward your head, reset head position and continue stacking from the new angle. → Leads to [[Double Unders]]
+- **Opponent frames on hips with both hands and extends legs explosively to break stacking pressure before compression is complete** (Effectiveness: Medium) - Your Response: Drive chest deeper into their thighs and accelerate knee walking to collapse their frames under increasing body weight. Their frame strength diminishes as the stack angle increases, so continued forward pressure overcomes hip frames without needing to strip them. → Leads to [[Positions/Double Unders]]
+- **Opponent dives to deep half guard by threading under your near leg as you begin the stacking progression, using your forward pressure as entry momentum** (Effectiveness: High) - Your Response: Keep hips low and connected to their body rather than creating space underneath during the stack. When you sense the dive attempt, immediately sprawl your hips back while maintaining underhook control to flatten them back out. Walk knees forward faster to pin their hips before the rotation completes. → Leads to [[Positions/Double Unders]]
+- **Opponent executes a granby roll using your forward stacking momentum to rotate over their shoulder toward turtle or guard recovery** (Effectiveness: Medium) - Your Response: Recognize the rotation initiation by feeling their shoulders turning and immediately stop forward progression. Drop your weight down onto their hips rather than continuing forward, which feeds the roll. Circle toward their back as they rotate to transition to a back take opportunity rather than chasing the guard recovery. → Leads to [[Positions/Open Guard]]
+- **Opponent bridges explosively and turns to one side during the stack, creating an angle that prevents complete compression and opens escape pathways** (Effectiveness: Medium) - Your Response: Follow the direction of their turn with your own body, maintaining chest pressure throughout their rotation. If they turn away from your head position, use the angle they create to accelerate the pass to that side. If they turn toward your head, reset head position and continue stacking from the new angle. → Leads to [[Positions/Double Unders]]
 
 
 </section>

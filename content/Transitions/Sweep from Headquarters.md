@@ -21,7 +21,7 @@ The primary sweep mechanics leverage the asymmetric weight distribution of headq
 
 This technique functions as both a direct positional reversal and a strategic deterrent within the guard passing exchange. When the top player recognizes the sweep threat, they must widen their base or reduce trapped-leg pressure, both of which create opportunities for guard recovery or reguarding. Even failed sweep attempts that disrupt the passer's rhythm serve a strategic purpose by preventing the systematic decision-making that makes headquarters passing so effective, forcing the top player to address the sweep threat before continuing their pass.
 
-**From Position**: [[Headquarters Position]] (Bottom)
+**From Position**: [[Positions/Headquarters Position]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ This technique functions as both a direct positional reversal and a strategic de
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Headquarters Position]] | 38% |
-| Counter | [[Mount]] | 22% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Headquarters Position]] | 38% |
+| Counter | [[Positions/Mount]] | 22% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Sweep from Headquarters occupies a pivotal role in the guard retention and r
 ## Related Techniques
 
 
-- [[Headquarters Position]] - Starting position where this sweep is initiated from the bottom role
+- [[Positions/Headquarters Position]] - Starting position where this sweep is initiated from the bottom role
 
-- [[Side Control]] - Primary target position achieved upon successful sweep completion
+- [[Positions/Side Control]] - Primary target position achieved upon successful sweep completion
 
-- [[Mount]] - Counter outcome position if opponent capitalizes on failed sweep attempt
+- [[Positions/Mount]] - Counter outcome position if opponent capitalizes on failed sweep attempt
 
-- [[Shin-to-Shin from Headquarters]] - Related transition establishing shin-to-shin contact from same starting position
+- [[Transitions/Shin-to-Shin from Headquarters]] - Related transition establishing shin-to-shin contact from same starting position
 
-- [[Inversion from Headquarters]] - Alternative offensive option from headquarters bottom using inversion mechanics
+- [[Transitions/Inversion from Headquarters]] - Alternative offensive option from headquarters bottom using inversion mechanics
 
-- [[Knee Cut from Headquarters]] - Opponent's primary passing attack that must be disrupted by sweep threat
+- [[Transitions/Knee Cut from Headquarters]] - Opponent's primary passing attack that must be disrupted by sweep threat
 
-- [[Deep Half Guard]] - Alternative guard recovery option from headquarters bottom position
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative guard recovery option from headquarters bottom position
 
-- [[Butterfly Guard]] - Related guard position utilizing similar hook-based sweep mechanics
+- [[Positions/Butterfly Guard]] - Related guard position utilizing similar hook-based sweep mechanics
 
-- [[Half Guard]] - Common intermediate position reached during contested headquarters exchanges
+- [[Positions/Half Guard]] - Common intermediate position reached during contested headquarters exchanges
 
-- [[Dogfight Position]] - Scramble position that may result from partially successful sweep attempts
+- [[Positions/Dogfight Position]] - Scramble position that may result from partially successful sweep attempts
 
-- [[Combat Base]] - Position opponent may retreat to when threatened by sweep from headquarters
+- [[Positions/Combat Base]] - Position opponent may retreat to when threatened by sweep from headquarters
 
-- [[Butterfly Hook Sweep]] - Related sweep technique sharing similar butterfly hook mechanics and principles
+- [[Transitions/Butterfly Hook Sweep]] - Related sweep technique sharing similar butterfly hook mechanics and principles
 
 
 </section>

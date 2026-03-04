@@ -146,7 +146,7 @@ description: "Master defending the K-Guard Sweep in BJJ. Recognition cues, defen
 
 Defending the K-Guard Sweep requires understanding the mechanical sequence that powers it - coordinated inverted hook pull and butterfly hook elevation - and disrupting that sequence before the compound off-balance becomes irresistible. The defender must recognize the loading phase when the bottom player tensions both hooks and either deny the forward pressure that feeds the sweep or preemptively neutralize the hook system through grip fighting and positional adjustments. Successful defense creates immediate opportunities to advance position through passing, as the bottom player's sweep attempt necessarily opens gaps in their K-Guard retention structure that the top player can exploit with systematic pressure.
 
-**Opponent's Starting Position**: [[K-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/K-Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the K-Guard Sweep requires understanding the mechanical sequence that 
 ### 1. Widen base and drop hips low to deny the elevation needed for the sweep
 
 - **When to use**: When you feel both hooks tensioning simultaneously and the opponent beginning to load the sweep with forward pressure exploitation
-- **Targets**: [[K-Guard]]
+- **Targets**: [[Positions/K-Guard]]
 - **If successful**: Opponent retains K-Guard position but cannot generate sufficient off-balance to complete the sweep, creating opportunity to pass
 - **Risk**: If base is too wide, opponent transitions to Single Leg X-Guard or X-Guard entries exploiting the space created between your legs
 
 ### 2. Backstep the trapped leg out of the inverted hook system entirely to remove the sweep fulcrum
 
 - **When to use**: When the inverted hook begins pulling your trapped leg across centerline and you cannot resist the lateral force through base alone
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Completely removes the sweep mechanism by eliminating the inverted hook fulcrum, forcing opponent to re-establish guard from scratch
 - **Risk**: Momentary loss of pressure contact may allow opponent to recover full guard structure or re-establish K-Guard hooks before you can pass
 
 ### 3. Drive crossface pressure and flatten the bottom player's spine to kill hook tension before sweep loads
 
 - **When to use**: Proactively when you recognize the K-Guard configuration being established, before the sweep loading phase begins
-- **Targets**: [[K-Guard]]
+- **Targets**: [[Positions/K-Guard]]
 - **If successful**: Eliminates bottom player's hip mobility and hook tension entirely, preventing sweep initiation and opening systematic passing opportunities
 - **Risk**: Committing forward chest pressure can feed directly into the sweep if your timing is wrong and hooks are already loaded with tension
 
 ### 4. Post hand on the mat on the sweep-side to create a third base point and prevent the topple
 
 - **When to use**: As emergency defense when the sweep has already been initiated and you feel yourself being off-balanced past the point of base recovery
-- **Targets**: [[K-Guard]]
+- **Targets**: [[Positions/K-Guard]]
 - **If successful**: Prevents the completion of the sweep by establishing a third support point that arrests the toppling momentum
 - **Risk**: Exposes you to immediate back take as the opponent can swim their underhook under your posted arm and circle behind you
 
@@ -217,11 +217,11 @@ Defending the K-Guard Sweep requires understanding the mechanical sequence that 
 
 ## Best-Case Outcomes for Defender
 
-### → [[K-Guard]]
+### → [[Positions/K-Guard]]
 
 Neutralize the sweep attempt by widening base, dropping hips low, and controlling the bottom player's far hip to prevent rotational force generation. Maintain dominant grips and immediately begin systematic passing sequences while their guard structure is weakened from the failed offensive attempt.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Force the bottom player out of K-Guard entirely by backstepping the trapped leg, stripping their hooks through systematic pressure, and creating disengagement distance. Immediately establish passing grips on their legs and advance while they are in the weaker generic open guard without their specialized hook configuration.
 

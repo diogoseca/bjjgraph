@@ -178,7 +178,7 @@ The technique requires understanding how the reversed orientation changes both s
 
 Strategically, this escape represents the completion phase of a defensive inversion sequence. Practitioners who stall halfway through inversion find themselves in the worst possible configuration—inverted yet fully entangled. The escape must be executed with commitment and proper sequencing: protect the heel first, control the opponent's inside knee second, clear the outside leg third, and extract the trapped leg last. Understanding when to accept transitional positions like turtle or deep half guard rather than forcing complete extraction against deep control is equally important for defensive success across all skill levels.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -231,10 +231,10 @@ Strategically, this escape represents the completion phase of a defensive invers
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Success | [[Turtle]] | 10% |
-| Failure | [[Ushiro Ashi-Garami]] | 25% |
-| Counter | [[Saddle]] | 10% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Success | [[Positions/Turtle]] | 10% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 25% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 10% |
 
 
 </section>
@@ -243,10 +243,10 @@ Strategically, this escape represents the completion phase of a defensive invers
 
 ## Opponent Counters
 
-- **Opponent accelerates heel hook attempt during your extraction sequence, attacking exposed heel during leg clearing** (Effectiveness: High) - Your Response: Intensify dorsiflexion and use both hands to strip their heel grip before continuing extraction. If grip is deep, accept turtle position by continuing rotation rather than fighting the grip in place → Leads to [[Ushiro Ashi-Garami]]
-- **Opponent transitions to saddle by stepping the inside leg through as you clear the outside leg** (Effectiveness: High) - Your Response: Maintain inside knee control throughout the entire clearing sequence. If they begin stepping through, immediately redirect to Granby roll escape to turtle rather than fighting the saddle entry → Leads to [[Saddle]]
-- **Opponent re-establishes outside leg cross after initial clearing by chasing your knee with their leg** (Effectiveness: Medium) - Your Response: Keep pushing frame active on their hip and angle your knee inward toward your centerline to deny the re-cross. Accelerate extraction timing before they can re-establish the figure-four → Leads to [[Ushiro Ashi-Garami]]
-- **Opponent follows your extraction with immediate leg drag or passing attempt as you reach open guard** (Effectiveness: Medium) - Your Response: Establish grips on their wrists or collar immediately upon extraction and use feet on hips to control distance. Transition to de la riva or butterfly hooks to prevent passing momentum → Leads to [[Open Guard]]
+- **Opponent accelerates heel hook attempt during your extraction sequence, attacking exposed heel during leg clearing** (Effectiveness: High) - Your Response: Intensify dorsiflexion and use both hands to strip their heel grip before continuing extraction. If grip is deep, accept turtle position by continuing rotation rather than fighting the grip in place → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Opponent transitions to saddle by stepping the inside leg through as you clear the outside leg** (Effectiveness: High) - Your Response: Maintain inside knee control throughout the entire clearing sequence. If they begin stepping through, immediately redirect to Granby roll escape to turtle rather than fighting the saddle entry → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent re-establishes outside leg cross after initial clearing by chasing your knee with their leg** (Effectiveness: Medium) - Your Response: Keep pushing frame active on their hip and angle your knee inward toward your centerline to deny the re-cross. Accelerate extraction timing before they can re-establish the figure-four → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Opponent follows your extraction with immediate leg drag or passing attempt as you reach open guard** (Effectiveness: Medium) - Your Response: Establish grips on their wrists or collar immediately upon extraction and use feet on hips to control distance. Transition to de la riva or butterfly hooks to prevent passing momentum → Leads to [[Positions/Open Guard]]
 
 
 </section>

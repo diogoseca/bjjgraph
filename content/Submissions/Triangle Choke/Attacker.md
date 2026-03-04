@@ -186,7 +186,7 @@ Historically developed from judo's sankaku-jime, the triangle choke has become a
 
 The triangle choke's strategic value extends beyond its finishing potential—it serves as a gateway to multiple transitions including armbars, omoplatas, and sweeps. High-level practitioners use the triangle position as a control platform, maintaining the configuration while attacking multiple submissions in sequence. This makes the triangle one of the most versatile offensive tools in BJJ, equally effective in both training and competition contexts across all skill levels.
 
-**From Position**: [[Triangle Control]] (Top)
+**From Position**: [[Positions/Triangle Control]] (Top)
 
 
 </section>
@@ -242,8 +242,8 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Triangle Control]] | 27% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Triangle Control]] | 27% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -252,10 +252,10 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 ## Opponent Defenses
 
-- **Posture up aggressively before triangle is locked** (Effectiveness: High) - Your Response: Pull down harder on collar/head while locking legs faster. If they escape, transition to omoplata or armbar from the same position. → Leads to [[Triangle Control]]
-- **Stack you by driving forward and lifting your hips** (Effectiveness: Medium) - Your Response: Cut angle further (more perpendicular), grab their far leg to prevent forward drive, or transition to armbar by swinging opposite leg over their head. → Leads to [[Triangle Control]]
-- **Pull trapped arm free by yanking it back across centerline** (Effectiveness: Medium) - Your Response: Immediately transition to armbar on the escaping arm, or switch to triangle on opposite side if you have time to reconfigure. → Leads to [[Closed Guard]]
-- **Stand up and attempt to pass while you're in triangle configuration** (Effectiveness: Low) - Your Response: Maintain triangle lock, cut angle even further, and use your free hand to off-balance them or grab their far leg to prevent passing. → Leads to [[Triangle Control]]
+- **Posture up aggressively before triangle is locked** (Effectiveness: High) - Your Response: Pull down harder on collar/head while locking legs faster. If they escape, transition to omoplata or armbar from the same position. → Leads to [[Positions/Triangle Control]]
+- **Stack you by driving forward and lifting your hips** (Effectiveness: Medium) - Your Response: Cut angle further (more perpendicular), grab their far leg to prevent forward drive, or transition to armbar by swinging opposite leg over their head. → Leads to [[Positions/Triangle Control]]
+- **Pull trapped arm free by yanking it back across centerline** (Effectiveness: Medium) - Your Response: Immediately transition to armbar on the escaping arm, or switch to triangle on opposite side if you have time to reconfigure. → Leads to [[Positions/Closed Guard]]
+- **Stand up and attempt to pass while you're in triangle configuration** (Effectiveness: Low) - Your Response: Maintain triangle lock, cut angle even further, and use your free hand to off-balance them or grab their far leg to prevent passing. → Leads to [[Positions/Triangle Control]]
 
 
 </section>

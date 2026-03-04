@@ -21,7 +21,7 @@ Strategically, this transition embodies a core principle of advanced jiu-jitsu: 
 
 This transition is particularly valuable in competition contexts where maintaining top pressure scores advantages and creates cumulative fatigue. Rather than burning energy on a stalled choke attempt, converting to north-south allows the top player to recover stamina while maintaining offensive control, setting up north-south specific submissions like the north-south choke, kimura, or armbar. The transition also chains naturally into mount transitions, side control switches, and back takes depending on the bottom player's defensive reactions once north-south is established.
 
-**From Position**: [[Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition is particularly valuable in competition contexts where maintaini
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[North-South]] | 55% |
-| Failure | [[Buggy Choke]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/North-South]] | 55% |
+| Failure | [[Positions/Buggy Choke]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Buggy Choke to North-South transition serves as a critical branching point i
 ## Related Techniques
 
 
-- [[Buggy Choke]] - Source position where this transition initiates from stalled choke control
+- [[Positions/Buggy Choke]] - Source position where this transition initiates from stalled choke control
 
-- [[North-South]] - Target position establishing dominant perpendicular pin after successful transition
+- [[Positions/North-South]] - Target position establishing dominant perpendicular pin after successful transition
 
-- [[Half Guard]] - Counter outcome position when defender successfully recovers guard during transition
+- [[Positions/Half Guard]] - Counter outcome position when defender successfully recovers guard during transition
 
-- [[Turtle]] - Underlying defensive posture that the buggy choke attacks and this transition further degrades
+- [[Positions/Turtle]] - Underlying defensive posture that the buggy choke attacks and this transition further degrades
 
-- [[Side Control]] - Alternative control position accessible from north-south or during transition
+- [[Positions/Side Control]] - Alternative control position accessible from north-south or during transition
 
-- [[Buggy Choke Finish]] - Primary submission alternative if choke is progressing rather than stalling
+- [[Submissions/Buggy Choke Finish]] - Primary submission alternative if choke is progressing rather than stalling
 
-- [[North-South Choke]] - High-percentage submission available immediately after establishing north-south from this transition
+- [[Transitions/North-South Choke]] - High-percentage submission available immediately after establishing north-south from this transition
 
-- [[Back Control]] - Alternative transition target from buggy choke when opponent sits to guard instead
+- [[Positions/Back Control]] - Alternative transition target from buggy choke when opponent sits to guard instead
 
-- [[Front Headlock]] - Related turtle control position with similar pressure and transition principles
+- [[Positions/Front Headlock]] - Related turtle control position with similar pressure and transition principles
 
-- [[Crucifix]] - Alternative buggy choke transition when opponent extends arm defensively
+- [[Positions/Crucifix]] - Alternative buggy choke transition when opponent extends arm defensively
 
 
 </section>

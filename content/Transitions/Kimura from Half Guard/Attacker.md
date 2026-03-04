@@ -180,7 +180,7 @@ description: "Complete guide to attacking the Kimura from Half Guard Bottom. Mas
 
 As the attacker from half guard bottom, your objective is to identify arm exposure from the top player and convert it into a Kimura grip that establishes the Kimura Trap control system. This transition requires precise timing, proper body angle, and coordinated grip mechanics that transform your defensive half guard position into an offensive platform. The attack begins with recognizing when the top player's arm becomes vulnerable—typically when they post for base, reach for crossface, or extend during passing attempts—and executing a rapid sequence of wrist control, arm threading, and figure-four grip establishment that captures their shoulder before they can retract. Success depends on maintaining your side angle, keeping the half guard leg entanglement as an anchor, and driving the captured arm across the opponent's centerline to disrupt their base and enter the full Kimura Trap system.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker from half guard bottom, your objective is to identify arm exposu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kimura Trap]] | 40% |
-| Failure | [[Half Guard]] | 40% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Kimura Trap]] | 40% |
+| Failure | [[Positions/Half Guard]] | 40% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker from half guard bottom, your objective is to identify arm exposu
 
 ## Opponent Counters
 
-- **Opponent pulls arm back forcefully before figure-four is completed** (Effectiveness: High) - Your Response: Maintain wrist control with your outside hand and follow the retracting arm by scooting your hips closer. If the arm is fully retracted, transition to underhook and continue half guard offense rather than chasing the grip. → Leads to [[Half Guard]]
-- **Opponent drives chest forward aggressively to flatten your hips and neutralize the angle** (Effectiveness: Medium) - Your Response: Use their forward momentum to accelerate the arm thread and grip completion. Their forward drive brings their tricep closer to your inside hand. Once the grip locks, redirect their forward pressure into a rolling Kimura sweep. → Leads to [[Side Control]]
-- **Opponent executes a quick knee slice pass while your hands are committed to the Kimura grip** (Effectiveness: High) - Your Response: Maintain the Kimura grip as your anchor even if they begin passing. The grip prevents them from consolidating side control because their arm is compromised. Use the grip to pull yourself back to half guard or initiate Kimura attacks from the new position. → Leads to [[Side Control]]
-- **Opponent circles their elbow inward and rotates arm to break the figure-four configuration** (Effectiveness: Medium) - Your Response: Tighten the grip by pulling elbows closer to your body and increasing inward pressure. If they begin breaking the grip, switch to an overhook on the same arm and threaten sweeps from overhook half guard, maintaining offensive pressure. → Leads to [[Half Guard]]
+- **Opponent pulls arm back forcefully before figure-four is completed** (Effectiveness: High) - Your Response: Maintain wrist control with your outside hand and follow the retracting arm by scooting your hips closer. If the arm is fully retracted, transition to underhook and continue half guard offense rather than chasing the grip. → Leads to [[Positions/Half Guard]]
+- **Opponent drives chest forward aggressively to flatten your hips and neutralize the angle** (Effectiveness: Medium) - Your Response: Use their forward momentum to accelerate the arm thread and grip completion. Their forward drive brings their tricep closer to your inside hand. Once the grip locks, redirect their forward pressure into a rolling Kimura sweep. → Leads to [[Positions/Side Control]]
+- **Opponent executes a quick knee slice pass while your hands are committed to the Kimura grip** (Effectiveness: High) - Your Response: Maintain the Kimura grip as your anchor even if they begin passing. The grip prevents them from consolidating side control because their arm is compromised. Use the grip to pull yourself back to half guard or initiate Kimura attacks from the new position. → Leads to [[Positions/Side Control]]
+- **Opponent circles their elbow inward and rotates arm to break the figure-four configuration** (Effectiveness: Medium) - Your Response: Tighten the grip by pulling elbows closer to your body and increasing inward pressure. If they begin breaking the grip, switch to an overhook on the same arm and threaten sweeps from overhook half guard, maintaining offensive pressure. → Leads to [[Positions/Half Guard]]
 
 
 </section>

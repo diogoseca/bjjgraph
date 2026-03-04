@@ -26,8 +26,8 @@ The position operates on the principle that the figure-four grip isolates the sh
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Closed Guard]]
-**From Position**: [[Closed Guard]] (Bottom)
+**Starting Position**: [[Positions/Closed Guard]]
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -82,8 +82,8 @@ The position operates on the principle that the figure-four grip isolates the sh
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -239,14 +239,14 @@ The position operates on the principle that the figure-four grip isolates the sh
 
 ## From Which Positions?
 
-- [[Closed Guard]]
-- [[Butterfly Guard]]
-- [[Half Guard]]
-- [[Open Guard]]
-- [[Spider Guard]]
-- [[De La Riva Guard]]
-- [[Rubber Guard]]
-- [[Lasso Guard]]
+- [[Positions/Closed Guard]]
+- [[Positions/Butterfly Guard]]
+- [[Positions/Half Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/Spider Guard]]
+- [[Positions/De La Riva Guard]]
+- [[Positions/Rubber Guard]]
+- [[Positions/Lasso Guard]]
 
 
 </section>
@@ -255,17 +255,17 @@ The position operates on the principle that the figure-four grip isolates the sh
 
 ## Related Submissions
 
-- [[Kimura]]
-- [[Kimura from Half Guard]]
-- [[Kimura from Side Control]]
-- [[Kimura from Mount]]
-- [[Kimura from Turtle]]
-- [[Triangle from Closed Guard]]
-- [[Armbar from Guard]]
-- [[Omoplata from Guard]]
-- [[Americana]]
-- [[Baratoplata]]
-- [[Reverse Kimura]]
+- [[Transitions/Kimura]]
+- [[Transitions/Kimura from Half Guard]]
+- [[Submissions/Kimura from Side Control]]
+- [[Submissions/Kimura from Mount]]
+- [[Submissions/Kimura from Turtle]]
+- [[Submissions/Triangle from Closed Guard]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Omoplata from Guard]]
+- [[Transitions/Americana]]
+- [[Transitions/Baratoplata]]
+- [[Submissions/Reverse Kimura]]
 
 
 </section>
@@ -274,16 +274,16 @@ The position operates on the principle that the figure-four grip isolates the sh
 
 ## Additional Related Content
 
-- [[Kimura Trap]] - Control position that enables this submission and multiple transitions
-- [[Kimura to Back Take]] - Primary transition when opponent defends by rolling forward
-- [[Hip Bump Sweep]] - Sweep that creates Kimura opportunity when opponent posts to defend
-- [[Triangle Choke]] - Alternative submission when opponent defends Kimura by pulling arm back
-- [[Omoplata]] - Related shoulder attack that can be chained with Kimura attempts
-- [[Closed Guard]] - Primary starting position for this submission variation
-- [[Armbar from Guard]] - Alternative finish when opponent straightens arm defending Kimura
-- [[Butterfly Guard]] - Alternative guard position for Kimura application with dynamic hooks
-- [[Half Guard]] - Related guard position where Kimura can be effectively applied
-- [[Back Control]] - Common transition destination when opponent rolls to defend Kimura
+- [[Positions/Kimura Trap]] - Control position that enables this submission and multiple transitions
+- [[Transitions/Kimura to Back Take]] - Primary transition when opponent defends by rolling forward
+- [[Transitions/Hip Bump Sweep]] - Sweep that creates Kimura opportunity when opponent posts to defend
+- [[Transitions/Triangle Choke]] - Alternative submission when opponent defends Kimura by pulling arm back
+- [[Transitions/Omoplata]] - Related shoulder attack that can be chained with Kimura attempts
+- [[Positions/Closed Guard]] - Primary starting position for this submission variation
+- [[Submissions/Armbar from Guard]] - Alternative finish when opponent straightens arm defending Kimura
+- [[Positions/Butterfly Guard]] - Alternative guard position for Kimura application with dynamic hooks
+- [[Positions/Half Guard]] - Related guard position where Kimura can be effectively applied
+- [[Positions/Back Control]] - Common transition destination when opponent rolls to defend Kimura
 
 
 </section>

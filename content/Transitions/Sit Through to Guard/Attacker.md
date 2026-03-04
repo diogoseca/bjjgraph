@@ -174,7 +174,7 @@ description: "How to execute Sit Through to Guard in BJJ. Attacking perspective 
 
 The Sit Through to Guard is a fundamental turtle escape that converts a vulnerable bottom position into an offensive guard. Unlike rolling escapes that rely on momentum, the sit through uses lateral hip movement and precise timing to thread one leg through while creating a frame against the opponent's advancing pressure. This technique excels when the opponent commits weight forward for front headlock attacks or back takes, as their forward pressure can be redirected into your guard recovery. The sit through creates a dilemma for the attacker: commit to following the movement and risk ending up in your closed guard, or disengage and allow a clean escape. For practitioners who prefer systematic, controlled escapes over explosive scrambles, the sit through offers a methodical path from turtle to a dominant guard position where you can begin attacking.
 
-**From Position**: [[Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
@@ -226,10 +226,10 @@ The Sit Through to Guard is a fundamental turtle escape that converts a vulnerab
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Success | [[Closed Guard]] | 20% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Success | [[Positions/Closed Guard]] | 20% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -238,10 +238,10 @@ The Sit Through to Guard is a fundamental turtle escape that converts a vulnerab
 
 ## Opponent Counters
 
-- **Opponent follows rotation and establishes front headlock** (Effectiveness: High) - Your Response: Keep chin tucked throughout and frame with your elbow against their choking arm. If they secure the headlock, work standard front headlock escapes by circling away from the choking arm. → Leads to [[Turtle]]
-- **Opponent sprawls back and re-circles to take back** (Effectiveness: Medium) - Your Response: If they disengage, immediately continue rotating to face them or chain into a technical standup. Their sprawl creates space you can use to complete your guard recovery or stand. → Leads to [[Back Control]]
-- **Opponent drops weight and flattens you mid-transition** (Effectiveness: Medium) - Your Response: If flattened before completing the sit through, use your posting arm to re-turtle or chain into a granby roll using their downward pressure as momentum for your escape. → Leads to [[Turtle]]
-- **Opponent secures far-side underhook preventing rotation** (Effectiveness: High) - Your Response: The underhook must be cleared before attempting sit through. Use your far arm to pummel for inside position or switch to a granby roll escape which works better against underhook control. → Leads to [[Back Control]]
+- **Opponent follows rotation and establishes front headlock** (Effectiveness: High) - Your Response: Keep chin tucked throughout and frame with your elbow against their choking arm. If they secure the headlock, work standard front headlock escapes by circling away from the choking arm. → Leads to [[Positions/Turtle]]
+- **Opponent sprawls back and re-circles to take back** (Effectiveness: Medium) - Your Response: If they disengage, immediately continue rotating to face them or chain into a technical standup. Their sprawl creates space you can use to complete your guard recovery or stand. → Leads to [[Positions/Back Control]]
+- **Opponent drops weight and flattens you mid-transition** (Effectiveness: Medium) - Your Response: If flattened before completing the sit through, use your posting arm to re-turtle or chain into a granby roll using their downward pressure as momentum for your escape. → Leads to [[Positions/Turtle]]
+- **Opponent secures far-side underhook preventing rotation** (Effectiveness: High) - Your Response: The underhook must be cleared before attempting sit through. Use your far arm to pummel for inside position or switch to a granby roll escape which works better against underhook control. → Leads to [[Positions/Back Control]]
 
 
 </section>

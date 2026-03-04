@@ -176,7 +176,7 @@ As the person executing Hip Rotation Defense, you are caught in your opponent's 
 
 The execution demands reading your opponent's leg configuration before committing to a rotation direction. Rotating the wrong way feeds directly into their transition game, advancing them to inside or outside ashi garami where heel hooks become available. Correct direction assessment followed by controlled rotation, simultaneous grip fighting, and immediate follow-through to knee extraction and guard recovery form the complete defensive sequence. Every component must work together - rotation without grip fighting fails, grip fighting without rotation fails, and either without follow-through to guard recovery leaves you in the same danger.
 
-**From Position**: [[Straight Ankle Lock Control]] (Top)
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The execution demands reading your opponent's leg configuration before committin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Failure | [[Straight Ankle Lock Control]] | 35% |
-| Counter | [[Inside Ashi-Garami]] | 15% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Failure | [[Positions/Straight Ankle Lock Control]] | 35% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
 
 
 </section>
@@ -238,10 +238,10 @@ The execution demands reading your opponent's leg configuration before committin
 
 ## Opponent Counters
 
-- **Attacker follows rotation and transitions to inside ashi garami** (Effectiveness: High) - Your Response: If you feel them threading their leg through during your rotation, immediately reverse direction and establish frames on their hip to prevent the transition. Consider counter-entangling their far leg for 50-50. → Leads to [[Inside Ashi-Garami]]
-- **Attacker tightens leg triangle to prevent hip rotation entirely** (Effectiveness: High) - Your Response: Address the leg control before attempting rotation. Use your free leg to kick down on their bottom leg, breaking the triangle configuration. Only then initiate hip rotation. → Leads to [[Straight Ankle Lock Control]]
-- **Attacker commits to rapid finishing attempt during your rotation** (Effectiveness: Medium) - Your Response: Their commitment to the finish often sacrifices leg control. Continue rotation while accelerating knee extraction. Their finishing posture typically opens better escape angles. → Leads to [[Straight Ankle Lock Control]]
-- **Attacker transitions to outside ashi when you rotate toward them** (Effectiveness: Medium) - Your Response: Recognize their hip following yours and immediately reverse rotation while posting your free foot on their hip to create separation and prevent their leg from getting outside position. → Leads to [[Inside Ashi-Garami]]
+- **Attacker follows rotation and transitions to inside ashi garami** (Effectiveness: High) - Your Response: If you feel them threading their leg through during your rotation, immediately reverse direction and establish frames on their hip to prevent the transition. Consider counter-entangling their far leg for 50-50. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Attacker tightens leg triangle to prevent hip rotation entirely** (Effectiveness: High) - Your Response: Address the leg control before attempting rotation. Use your free leg to kick down on their bottom leg, breaking the triangle configuration. Only then initiate hip rotation. → Leads to [[Positions/Straight Ankle Lock Control]]
+- **Attacker commits to rapid finishing attempt during your rotation** (Effectiveness: Medium) - Your Response: Their commitment to the finish often sacrifices leg control. Continue rotation while accelerating knee extraction. Their finishing posture typically opens better escape angles. → Leads to [[Positions/Straight Ankle Lock Control]]
+- **Attacker transitions to outside ashi when you rotate toward them** (Effectiveness: Medium) - Your Response: Recognize their hip following yours and immediately reverse rotation while posting your free foot on their hip to create separation and prevent their leg from getting outside position. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 </section>

@@ -193,28 +193,28 @@ Defending the arm triangle requires early recognition and immediate action, as t
 ### 1. Frame with trapped arm against attacker's neck and jaw
 
 - **When to use**: Immediately when you feel your arm being driven across your neck and before the attacker locks their grip. Most effective in the first 2-3 seconds of the setup.
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Prevents the choke from being locked and forces attacker to abandon the submission attempt, returning to standard side control position
 - **Risk**: If the frame collapses under sustained pressure, you lose your last defensive barrier and the choke locks in deeper than if you had attempted a different escape
 
 ### 2. Turn into attacker to recover closed guard
 
 - **When to use**: When the attacker begins their angle adjustment toward modified mount or north-south. The weight shift during angle change creates a window for rotation before the choke is fully sealed.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Recover to closed guard by turning into the attacker, using their angle change momentum to create space for hip movement and leg insertion
 - **Risk**: If the turn is incomplete, you may expose your back to the attacker who can transition to back control instead of finishing the arm triangle
 
 ### 3. Bridge explosively toward trapped arm side and roll
 
 - **When to use**: When the attacker has locked the grip but has not yet completed the angle adjustment. Their base is most vulnerable during the transition between side control and modified mount positions.
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Reverses the position entirely, ending in top position as the attacker's committed arm position prevents them from posting to stop the roll
 - **Risk**: Requires significant explosive power and precise timing. If the bridge fails, you exhaust energy reserves needed for subsequent escape attempts
 
 ### 4. Grab choking arm wrist with free hand and pull downward
 
 - **When to use**: During the threading phase before the attacker locks their hands together. Once both hands are locked, this defense becomes ineffective against proper technique.
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Prevents the attacker from achieving sufficient depth with the choking arm, making the triangle structure too loose to generate finishing pressure
 - **Risk**: Commits your free arm to a single defensive task, reducing your ability to frame or create space with that hand if the grip fight is lost
 
@@ -237,11 +237,11 @@ Defending the arm triangle requires early recognition and immediate action, as t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Bridge and roll toward the trapped arm side during the attacker's angle adjustment phase when their base is compromised by the transition. The attacker's arm commitment prevents them from posting to stop the reversal, allowing you to end in top side control.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Turn into the attacker before the choke is fully sealed by using your hips to rotate toward them during their angle change. Insert your legs around their waist as you turn, recovering full closed guard and neutralizing the submission threat entirely.
 

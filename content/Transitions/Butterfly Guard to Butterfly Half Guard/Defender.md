@@ -148,7 +148,7 @@ As the defender in this scenario, you are the bottom butterfly guard player whos
 
 The defensive framework operates on three levels: prevention through active hook pressure and upper body control that makes clearing difficult, reaction through immediate hook re-insertion when a clear is partially successful, and counter-offense through sweep attempts and guard transitions that capitalize on the opponent's shifting weight distribution during their clearing sequences. The best defenders combine all three levels, creating a layered defensive system where preventing the clear is the first priority, recovering is the backup, and counter-attacking is the reward for the opponent's failed attempt.
 
-**Opponent's Starting Position**: [[Butterfly Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Top)
 
 </section>
 
@@ -186,28 +186,28 @@ The defensive framework operates on three levels: prevention through active hook
 ### 1. Active hook retention through hip rotation and following movement
 
 - **When to use**: As soon as you feel the opponent attempting to compress or clear either hook through knee pinching or hip pressure
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Maintain full butterfly guard with both hooks active and reset to neutral position with offensive options preserved
 - **Risk**: If you focus too much on retention without counter-attacking, the opponent will repeatedly attempt clearing until successful
 
 ### 2. Counter-sweep during opponent's weight commitment to clearing side
 
 - **When to use**: When the opponent shifts weight toward one hook for clearing, creating an imbalance that can be exploited with a sweep in the opposite direction
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Sweep the opponent and establish top position, completely reversing the positional hierarchy
 - **Risk**: Failed sweep attempt may leave you in a worse position with compromised hooks and broken posture
 
 ### 3. Transition to X-Guard or single leg X when hook is partially cleared
 
 - **When to use**: When one hook is being successfully cleared and retention is failing, use the remaining hook to enter X-Guard before the opponent settles into butterfly half guard
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Establish X-Guard which offers superior sweeping mechanics and additional guard options from a new angle
 - **Risk**: Requires giving up the half guard trap on the cleared leg, committing fully to an open guard transition
 
 ### 4. Underhook fight to prevent crossface establishment
 
 - **When to use**: When opponent begins grip fighting for crossface position, which is the prerequisite for most hook clearing sequences
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Maintain upright posture with dominant underhook, preventing the upper body control the opponent needs to clear hooks
 - **Risk**: Intense grip fighting can fatigue your arms and leave you reactive rather than proactive with sweep attempts
 
@@ -219,11 +219,11 @@ The defensive framework operates on three levels: prevention through active hook
 
 ## Best-Case Outcomes for Defender
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 Maintain active hook pressure with constant upward drive through both hooks, fight for underhook control to prevent crossface, and follow the opponent's hip movement with your corresponding hook to prevent clearing. Stay seated with strong posture to keep the structural connection between your grips and hooks intact.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the opponent commits weight to one side for hook clearing, immediately drive a butterfly sweep in the opposite direction using their weight shift as the catalyst. Coordinate your hook drive with an upper body pull toward the sweep direction, capitalizing on their compromised base during the clearing attempt.
 

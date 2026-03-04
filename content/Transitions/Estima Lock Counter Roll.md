@@ -21,7 +21,7 @@ The counter roll functions by aligning body rotation with the lock's pressure ve
 
 Success with the Estima Lock Counter Roll depends on three factors: early recognition of the lock before it tightens beyond the escape window, proper directional commitment in the roll to avoid increasing ankle torque, and immediate positional control upon completing the rotation. When executed correctly, the roll sweeps past the attacker's base and lands the practitioner in half guard top, completely reversing the positional dynamic. Failed attempts typically result from late timing, incorrect roll direction, or insufficient hip engagement, leaving the practitioner in the same or worse leg entanglement. The technique carries inherent risk—rolling while caught in an active submission demands trust in mechanical understanding and split-second decision-making.
 
-**From Position**: [[Estima Lock]] (Bottom)
+**From Position**: [[Positions/Estima Lock]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Success with the Estima Lock Counter Roll depends on three factors: early recogn
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Estima Lock]] | 30% |
-| Counter | [[Saddle]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Estima Lock]] | 30% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 20% |
 
 
 </section>
@@ -195,23 +195,23 @@ The Estima Lock Counter Roll integrates into the broader leg lock defense system
 ## Related Techniques
 
 
-- [[Estima Lock]] - Source position from which this counter roll escape is executed
+- [[Positions/Estima Lock]] - Source position from which this counter roll escape is executed
 
-- [[Half Guard]] - Primary target position upon successful counter roll completion
+- [[Positions/Half Guard]] - Primary target position upon successful counter roll completion
 
-- [[Saddle]] - Dangerous counter outcome position when opponent follows the roll into deeper entanglement
+- [[Positions/Ashi Garami/Saddle]] - Dangerous counter outcome position when opponent follows the roll into deeper entanglement
 
-- [[Counter from Estima Lock]] - Related counter technique from the same defensive position
+- [[Transitions/Counter from Estima Lock]] - Related counter technique from the same defensive position
 
-- [[Ashi Garami Escape]] - Alternative leg entanglement escape sharing similar defensive principles
+- [[Transitions/Ashi Garami Escape]] - Alternative leg entanglement escape sharing similar defensive principles
 
-- [[Estima Lock Finish]] - The submission this counter roll technique is designed to escape
+- [[Submissions/Estima Lock Finish]] - The submission this counter roll technique is designed to escape
 
-- [[50-50 Guard]] - Related leg entanglement position that commonly precedes Estima Lock situations
+- [[Positions/Ashi Garami/50-50 Guard]] - Related leg entanglement position that commonly precedes Estima Lock situations
 
-- [[Boot Scoot Escape from Saddle]] - Follow-up escape technique needed if counter roll is countered into saddle position
+- [[Transitions/Boot Scoot Escape from Saddle]] - Follow-up escape technique needed if counter roll is countered into saddle position
 
-- [[Open Guard]] - Alternative recovery position accessible through conventional Estima Lock escapes
+- [[Positions/Open Guard]] - Alternative recovery position accessible through conventional Estima Lock escapes
 
 
 </section>

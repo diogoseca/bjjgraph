@@ -140,7 +140,7 @@ description: "Defend against the bridge escape from Reverse Kesa-Gatame. Learn t
 
 Defending against the bridge escape from Reverse Kesa-Gatame requires the top player to recognize early bridge indicators and maintain optimal weight distribution to nullify the bottom player's explosive hip extension. The key defensive principles revolve around keeping hips low and heavy, maintaining structural integrity of the pin, and being prepared to capitalize on failed bridge attempts by advancing to mount or reconsolidating pressure. Understanding the mechanics of the bridge allows the defender to position their base proactively, sprawling legs wide and driving chest weight downward to absorb the bridge force before it can generate meaningful displacement.
 
-**Opponent's Starting Position**: [[Reverse Kesa-Gatame]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Bottom)
 
 </section>
 
@@ -177,21 +177,21 @@ Defending against the bridge escape from Reverse Kesa-Gatame requires the top pl
 ### 1. Sprawl hips low and drive chest weight downward to absorb the bridge force
 
 - **When to use**: As soon as you feel the opponent planting their feet or tensioning their core in preparation for a bridge. Preemptive sprawling is far more effective than reacting after the bridge is launched.
-- **Targets**: [[Reverse Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Reverse Kesa-Gatame]]
 - **If successful**: Bridge is neutralized and you maintain dominant Reverse Kesa-Gatame control with the opportunity to reconsolidate pressure
 - **Risk**: If you sprawl too aggressively you may create space that allows the opponent to execute a shrimp escape instead
 
 ### 2. Ride the bridge momentum and step far leg over to transition to mount
 
 - **When to use**: When the opponent commits fully to the bridge and elevates their hips significantly, creating a pathway for your leg to step over their body into mount position.
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You advance from Reverse Kesa-Gatame to mount, gaining a more dominant position and additional points in competition
 - **Risk**: If the step-over timing is off, the opponent may complete their turn to turtle before you can establish mount control
 
 ### 3. Intensify chest pressure and widen base while maintaining arm control
 
 - **When to use**: When you detect early bridge indicators but the opponent has not yet committed to the explosive movement. Proactive base widening and pressure increase can prevent the bridge from launching.
-- **Targets**: [[Reverse Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Reverse Kesa-Gatame]]
 - **If successful**: The bridge attempt is smothered before it begins, demoralizing the bottom player and draining their energy from the loaded position
 - **Risk**: Widening base may reduce submission threat effectiveness if you were mid-attack when the bridge was detected
 
@@ -203,11 +203,11 @@ Defending against the bridge escape from Reverse Kesa-Gatame requires the top pl
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the bottom player bridges explosively, ride their hip elevation and immediately step your far leg over their body. Their elevated hips actually assist the mount transition by creating space for your leg. Time the step-over for the peak of the bridge before they can turn.
 
-### → [[Reverse Kesa-Gatame]]
+### → [[Positions/Side Control/Reverse Kesa-Gatame]]
 
 Sprawl your hips low and drive chest pressure downward through your sternum to collapse the bridge at its initiation. Widen your far leg base and maintain your armpit clamp on the trapped arm. After the failed bridge, immediately reconsolidate pressure while the opponent has expended energy.
 

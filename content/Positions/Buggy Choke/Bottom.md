@@ -210,21 +210,21 @@ Successful defense requires abandoning the mindset of maintaining turtle as a sa
 
 ## Available Escapes
 
-### [[Sit to Half Guard]] (25% of attempts)
+### [[Transitions/Sit to Half Guard]] (25% of attempts)
 
-### [[Granby Roll to Guard]] (5% of attempts)
+### [[Transitions/Granby Roll to Guard]] (5% of attempts)
 
-### [[Technical Stand-up]] (6% of attempts)
+### [[Transitions/Technical Stand-up]] (6% of attempts)
 
-### [[Turn In and Face]] (14% of attempts)
+### [[Transitions/Turn In and Face]] (14% of attempts)
 
-### [[Turtle to Guard]] (12% of attempts)
+### [[Transitions/Turtle to Guard]] (12% of attempts)
 
-### [[Back Door Escape]] (13% of attempts)
+### [[Transitions/Back Door Escape]] (13% of attempts)
 
-### [[Roll to Deep Half Guard]] (7% of attempts)
+### [[Transitions/Roll to Deep Half Guard]] (7% of attempts)
 
-### [[Turtle to Back Control]] (18% of attempts)
+### [[Transitions/Turtle to Back Control]] (18% of attempts)
 
 
 
@@ -235,27 +235,27 @@ Successful defense requires abandoning the mindset of maintaining turtle as a sa
 ## Decision Making from This Position
 
 **If opponent is threading arm but second grip not yet secured:**
-- Execute **[[Strip threading arm aggressively]]** → [[Turtle]] (Probability: 45%)
-- Execute **[[Sit to half guard immediately]]** → [[Half Guard]] (Probability: 35%)
-- Execute **[[Turn in and face opponent]]** → [[Open Guard]] (Probability: 20%)
+- Execute **[[Strip threading arm aggressively]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Sit to half guard immediately]]** → [[Positions/Half Guard]] (Probability: 35%)
+- Execute **[[Turn in and face opponent]]** → [[Positions/Open Guard]] (Probability: 20%)
 
 
 **If both grips are secured but no significant body pressure yet:**
-- Execute **[[Explosive granby roll away]]** → [[Closed Guard]] (Probability: 35%)
-- Execute **[[Technical stand up urgently]]** → [[Standing Position]] (Probability: 25%)
-- Execute **[[Accept back control]]** → [[Back Control]] (Probability: 40%)
+- Execute **[[Explosive granby roll away]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Technical stand up urgently]]** → [[Positions/Standing Position]] (Probability: 25%)
+- Execute **[[Accept back control]]** → [[Positions/Back Control]] (Probability: 40%)
 
 
 **If full buggy choke control is established with body pressure:**
 - Execute **[[Fight hands to delay choke]]** → [[Buggy Choke Bottom]] (Probability: 30%)
-- Execute **[[Accept back control transition]]** → [[Back Control]] (Probability: 45%)
+- Execute **[[Accept back control transition]]** → [[Positions/Back Control]] (Probability: 45%)
 - Execute **[[Tap to avoid injury]]** → [[game-over]] (Probability: 25%)
 
 
 **If opponent is attempting to flatten but grips are shallow:**
-- Execute **[[Drive posture up aggressively]]** → [[Turtle]] (Probability: 40%)
-- Execute **[[Sit to half guard]]** → [[Half Guard]] (Probability: 35%)
-- Execute **[[Roll to deep half]]** → [[Deep Half Guard]] (Probability: 25%)
+- Execute **[[Drive posture up aggressively]]** → [[Positions/Turtle]] (Probability: 40%)
+- Execute **[[Sit to half guard]]** → [[Positions/Half Guard]] (Probability: 35%)
+- Execute **[[Roll to deep half]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 25%)
 
 
 
@@ -377,11 +377,11 @@ Partner attacks with buggy choke using graduated resistance levels: 25%, 50%, 75
 
 ## Related Positions and Techniques
 
-- **[[Turtle]]** - Starting defensive position where buggy choke attacks develop
-- **[[Back Control]]** - Common result when buggy choke defense fails and opponent transitions
-- **[[Half Guard]]** - Primary escape destination through sitting defense from buggy choke
-- **[[Deep Half Guard]]** - Alternative escape target when rolling away from buggy choke pressure
-- **[[Closed Guard]]** - Escape destination via granby roll or turning into opponent
+- **[[Positions/Turtle]]** - Starting defensive position where buggy choke attacks develop
+- **[[Positions/Back Control]]** - Common result when buggy choke defense fails and opponent transitions
+- **[[Positions/Half Guard]]** - Primary escape destination through sitting defense from buggy choke
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative escape target when rolling away from buggy choke pressure
+- **[[Positions/Closed Guard]]** - Escape destination via granby roll or turning into opponent
 
 
 </section>

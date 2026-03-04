@@ -146,7 +146,7 @@ description: "Master defending the level change takedown in BJJ. Recognition cue
 
 Defending the level change takedown requires early recognition of the attack followed by immediate, decisive defensive action. The defender must read the cues that precede a shot entry - the forward weight shift, the eyes dropping to leg level, and the initial hip drop - then respond with the appropriate counter before the attacker completes the penetration step. The primary defensive tool is the sprawl, but effective defense extends beyond merely sprawling. It encompasses grip fighting to prevent clean entries, post-sprawl offense from front headlock position, and counter-attacks that punish failed shot attempts. At higher levels, the defender uses the attacker's forward commitment to create opportunities for guillotines, front headlock series, and go-behind counters that convert defensive moments into dominant offensive positions.
 
-**Opponent's Starting Position**: [[Standing Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the level change takedown requires early recognition of the attack fol
 ### 1. Sprawl by driving hips back and down while posting hands on attacker's head and shoulders to kill forward momentum
 
 - **When to use**: Immediately upon recognizing the level change, before the penetration step connects with your legs
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Stuff the shot and establish front headlock position with opportunity for snap down attacks, guillotine, or go-behind
 - **Risk**: If sprawl timing is late, attacker may already have leg control and can finish through your sprawl attempt
 
 ### 2. Guillotine counter by wrapping attacker's neck as they shoot with head exposed on the outside
 
 - **When to use**: When attacker's head drops below your chest level with exposed neck and poor head position during the shot entry
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Establish guillotine control that forces attacker to defend the choke rather than complete the takedown
 - **Risk**: If grip is shallow or attacker drives through to side control, the guillotine becomes ineffective and you concede position
 
 ### 3. Crossface and hip check to redirect the shot angle and prevent clean leg contact
 
 - **When to use**: When attacker begins the penetration step but has not yet established full contact with your legs
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Redirect attacker's momentum past you, preventing the takedown and creating counter-offense opportunity from superior angle
 - **Risk**: If crossface is applied too high, attacker can duck under and finish the shot with inside head position
 
 ### 4. Tactical guard pull to closed or butterfly guard when the shot is unavoidable and sprawl timing is missed
 
 - **When to use**: When takedown is imminent because the attacker has secured leg contact and forward drive is overwhelming
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Establish a controlled guard position rather than being taken down to side control where opponent scores and has dominant position
 - **Risk**: Concedes takedown points if scored before guard is established, and places you on bottom where you must work to escape
 
@@ -217,11 +217,11 @@ Defending the level change takedown requires early recognition of the attack fol
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Sprawl immediately upon recognizing the level change, driving your hips back and down while posting on the attacker's head. Once their shot is stuffed, circle toward their head to establish front headlock or spin behind for a back take rather than simply returning to neutral standing where they can shoot again.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 If the shot connects but you can wrap a guillotine around the attacker's neck as they shoot with exposed head position, pull guard with the guillotine established. This converts their offensive shot into a defensive crisis where they must address the choke before attempting to pass, giving you immediate offensive initiative from bottom position.
 

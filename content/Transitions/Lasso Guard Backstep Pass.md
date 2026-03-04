@@ -21,7 +21,7 @@ Execution requires precise coordination between grip management and rotational m
 
 The backstep integrates effectively into a multi-directional lasso guard passing system. When combined with stack passes, knee cuts, and toreando variations, it creates angular threats that prevent the guard player from committing fully to any single defensive pattern. The backstep is particularly effective as a secondary option after a direct passing attempt has been defended, as the guard player's defensive adjustments often create the momentary grip relaxation and shifted weight distribution that favor rotational entry.
 
-**From Position**: [[Lasso Guard]] (Top)
+**From Position**: [[Positions/Lasso Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ The backstep integrates effectively into a multi-directional lasso guard passing
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Success | [[Headquarters Position]] | 10% |
-| Failure | [[Lasso Guard]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Side Control]] | 45% |
+| Success | [[Positions/Headquarters Position]] | 10% |
+| Failure | [[Positions/Lasso Guard]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -192,23 +192,23 @@ The Lasso Guard Backstep Pass connects directly to the lasso guard passing syste
 ## Related Techniques
 
 
-- [[Lasso Guard]] - Source position where the backstep pass is initiated from top against opponent's lasso control
+- [[Positions/Lasso Guard]] - Source position where the backstep pass is initiated from top against opponent's lasso control
 
-- [[Side Control]] - Primary target position after successful backstep pass completion and consolidation
+- [[Positions/Side Control]] - Primary target position after successful backstep pass completion and consolidation
 
-- [[Headquarters Position]] - Secondary success outcome when backstep clears lasso but full pass is not yet consolidated
+- [[Positions/Headquarters Position]] - Secondary success outcome when backstep clears lasso but full pass is not yet consolidated
 
-- [[Back Control]] - Counter outcome position if opponent follows backstep rotation and takes the back
+- [[Positions/Back Control]] - Counter outcome position if opponent follows backstep rotation and takes the back
 
-- [[Backstep from De La Riva]] - Shares core backstep rotational mechanics applied against a different open guard system
+- [[Transitions/Backstep from De La Riva]] - Shares core backstep rotational mechanics applied against a different open guard system
 
-- [[Backstep from Single Leg X]] - Related backstep concept from another leg entanglement position with similar rotation principles
+- [[Transitions/Backstep from Single Leg X]] - Related backstep concept from another leg entanglement position with similar rotation principles
 
-- [[De La Riva Guard]] - Guard position opponent may transition to during failed backstep if non-lasso leg is uncontrolled
+- [[Positions/De La Riva Guard]] - Guard position opponent may transition to during failed backstep if non-lasso leg is uncontrolled
 
-- [[Spider Guard]] - Related open guard sharing sleeve control mechanics with lasso, requiring similar angular passing concepts
+- [[Positions/Spider Guard]] - Related open guard sharing sleeve control mechanics with lasso, requiring similar angular passing concepts
 
-- [[Combat Base]] - Foundational posture used to establish base before initiating backstep rotation from lasso guard top
+- [[Positions/Combat Base]] - Foundational posture used to establish base before initiating backstep rotation from lasso guard top
 
 
 </section>

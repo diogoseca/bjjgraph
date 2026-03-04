@@ -154,7 +154,7 @@ description: "Learn to defend the Inside Ashi-Garami to Ushiro Ashi transition. 
 
 The defender in the Inside Ashi-Garami to Ushiro Ashi transition faces a critical decision point during their escape from standard inside ashi-garami. The rotation or inversion that initiates this transition is typically a deliberate defensive choice by the trapped person, but when the attacker follows the rotation successfully, the defender ends up in the reversed ushiro entanglement rather than completing their escape. Understanding how to prevent the attacker from establishing ushiro ashi, or how to continue escaping through the reversed position, is essential for any practitioner who uses inversion as a leg lock escape method. The defender must balance the speed of their rotation with awareness of the attacker's follow-through, maintaining heel protection throughout while working systematically to clear the entanglement.
 
-**Opponent's Starting Position**: [[Inside Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ The defender in the Inside Ashi-Garami to Ushiro Ashi transition faces a critica
 ### 1. Accelerate rotation speed to complete escape before ushiro is established
 
 - **When to use**: Early in the rotation before the attacker has repositioned their outside leg over your knee line. Most effective when you have significant rotational momentum and the attacker is slow to follow.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You complete the rotation to turtle or standing, clearing the leg entanglement entirely and forcing the attacker to pursue from behind
 - **Risk**: If acceleration fails and you run out of momentum, you are in deep ushiro with the attacker fully consolidated behind your movement
 
 ### 2. Reverse rotation direction suddenly to collapse back to standard inside ashi position
 
 - **When to use**: When you recognize the attacker is committed to following your rotation. The sudden direction change catches them mid-transition with their legs in an awkward intermediate configuration.
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You return to standard inside ashi-garami where you can attempt different escape methods that do not involve rotation
 - **Risk**: The direction change can momentarily expose your heel if not accompanied by strong hand defense on the attacker's grip
 
 ### 3. Post free leg firmly and drive to standing during transitional phase
 
 - **When to use**: When the attacker's leg configuration is in transition between inside ashi and ushiro, creating a brief window where entanglement control is weakest. Most effective for athletic defenders with strong posting ability.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You stand up and disengage from the leg entanglement entirely, resetting to standing or achieving dominant top position
 - **Risk**: If the attacker maintains heel control while you stand, your body weight drives the heel hook deeper, potentially creating a more dangerous submission angle
 
 ### 4. Strip the attacker's heel grip using both hands during the rotation
 
 - **When to use**: When the attacker's grip is not fully consolidated and you can access their controlling hands during the transitional movement. Focus on peeling fingers from the heel one hand at a time.
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Without heel control, the attacker cannot threaten submissions from either inside ashi or ushiro, reducing the entanglement to a positional control problem
 - **Risk**: Using both hands for grip fighting removes your ability to post or frame, potentially allowing the attacker to flatten you during the transition
 
@@ -224,11 +224,11 @@ The defender in the Inside Ashi-Garami to Ushiro Ashi transition faces a critica
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Complete the rotation to turtle or standing before the attacker establishes ushiro ashi. Commit fully to the inversion with maximum speed, maintaining heel protection through dorsiflexion. Use the free leg to post and drive away from the attacker's control. Once legs are cleared, immediately establish guard or scramble to top position.
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Reverse rotation direction when you recognize the attacker is following, collapsing back to standard inside ashi-garami. Simultaneously strip the attacker's heel grip during the direction change. This returns you to the original position where you can attempt alternative escape methods such as leg extraction, standing, or counter-entanglement.
 

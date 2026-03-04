@@ -21,7 +21,7 @@ The technique leverages the inherent transitional nature of reverse mount rather
 
 The armbar from reverse mount integrates naturally into the reverse mount offensive decision tree, creating a three-way dilemma system. When the opponent defends the standard mount conversion by keeping their body flat, or prevents the back take by hiding their shoulders, they often expose arms that become armbar targets. Conversely, defending the armbar by keeping arms tight makes mount conversion and back takes easier. This interconnected threat matrix forces the opponent to prioritize between protecting their back, preventing the mount transition, and keeping their arms safe from isolation, with no single defensive posture covering all three threats simultaneously.
 
-**From Position**: [[Reverse Mount]] (Top)
+**From Position**: [[Positions/Reverse Mount]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ The armbar from reverse mount integrates naturally into the reverse mount offens
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 50% |
-| Failure | [[Reverse Mount]] | 35% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Armbar Control]] | 50% |
+| Failure | [[Positions/Reverse Mount]] | 35% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The armbar from reverse mount occupies a critical node in the reverse mount deci
 ## Related Techniques
 
 
-- [[Reverse Mount]] - Source position where this technique originates
+- [[Positions/Reverse Mount]] - Source position where this technique originates
 
-- [[Armbar Control]] - Target control position on successful arm isolation and pivot
+- [[Positions/Armbar Control]] - Target control position on successful arm isolation and pivot
 
-- [[Armbar Finish]] - Follow-up transition from armbar control to complete the submission
+- [[Transitions/Armbar Finish]] - Follow-up transition from armbar control to complete the submission
 
-- [[Back Take]] - Primary alternative transition from reverse mount creating dilemma system
+- [[Transitions/Back Take]] - Primary alternative transition from reverse mount creating dilemma system
 
-- [[Closed Guard]] - Counter outcome position when opponent successfully reguards
+- [[Positions/Closed Guard]] - Counter outcome position when opponent successfully reguards
 
-- [[Mount]] - Related dominant position and primary alternative conversion from reverse mount
+- [[Positions/Mount]] - Related dominant position and primary alternative conversion from reverse mount
 
-- [[Armbar from S Mount]] - Similar armbar setup from nearby mount variant with comparable pivot mechanics
+- [[Submissions/Armbar from S Mount]] - Similar armbar setup from nearby mount variant with comparable pivot mechanics
 
-- [[Belly Down Armbar Transition]] - Related armbar pathway for maintaining top pressure through the finish
+- [[Transitions/Belly Down Armbar Transition]] - Related armbar pathway for maintaining top pressure through the finish
 
-- [[S Mount]] - Related mount position commonly used for armbar setups with similar arm access
+- [[Positions/Mount/S Mount]] - Related mount position commonly used for armbar setups with similar arm access
 
-- [[Armbar from Technical Mount]] - Similar armbar from mount family with different entry angle and arm access pattern
+- [[Submissions/Armbar from Technical Mount]] - Similar armbar from mount family with different entry angle and arm access pattern
 
 
 </section>

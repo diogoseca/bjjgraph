@@ -180,7 +180,7 @@ description: "Complete guide to executing the bridge escape from Modified Scarf 
 
 Executing the bridge escape from Modified Scarf Hold requires precise coordination of explosive hip extension, directional force application, and immediate follow-up movement to recover guard before the top player can resettle their weight. The bottom player must overcome concentrated chest-to-chest pressure that restricts breathing and limits mobility, making proper setup and timing far more important than raw explosive power. Success depends on identifying the narrow windows where the top player's base is compromised and committing fully to the directional bridge with an immediate transition to half guard or turtle. The technique rewards practitioners who develop sensitivity to weight distribution shifts and can execute the bridge-to-guard-recovery sequence as a single fluid movement rather than disconnected steps.
 
-**From Position**: [[Modified Scarf Hold]] (Bottom)
+**From Position**: [[Positions/Side Control/Modified Scarf Hold]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the bridge escape from Modified Scarf Hold requires precise coordinati
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Modified Scarf Hold]] | 35% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Side Control/Modified Scarf Hold]] | 35% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the bridge escape from Modified Scarf Hold requires precise coordinati
 
 ## Opponent Counters
 
-- **Opponent sprawls hips and drives chest pressure forward during bridge** (Effectiveness: High) - Your Response: If you feel the opponent sprawling into the bridge, abandon the upward drive and immediately switch to a hip escape in the opposite direction, using the opponent's forward momentum to create lateral space instead → Leads to [[Modified Scarf Hold]]
-- **Opponent steps over to mount transition during the bridge** (Effectiveness: Medium) - Your Response: The moment you feel the opponent's knee lifting to step over, immediately turn your hips toward them aggressively and shoot your near knee across their path to block the mount. If the step-over is too advanced, switch immediately to mount escape protocols rather than trying to recover scarf hold defense → Leads to [[Mount]]
-- **Opponent deepens near-arm control and tightens grip during setup** (Effectiveness: High) - Your Response: If the opponent reads your bridge setup and tightens arm control, switch to a turtle escape by bridging and turning to all fours rather than attempting knee insertion, since the trapped arm makes guard recovery nearly impossible → Leads to [[Modified Scarf Hold]]
-- **Opponent posts far hand wide to absorb bridge force** (Effectiveness: Medium) - Your Response: When the opponent posts wide, they sacrifice chest pressure for stability. Use this opportunity to hip escape laterally rather than bridge upward, as their wide post creates space on the side they posted away from → Leads to [[Modified Scarf Hold]]
+- **Opponent sprawls hips and drives chest pressure forward during bridge** (Effectiveness: High) - Your Response: If you feel the opponent sprawling into the bridge, abandon the upward drive and immediately switch to a hip escape in the opposite direction, using the opponent's forward momentum to create lateral space instead → Leads to [[Positions/Side Control/Modified Scarf Hold]]
+- **Opponent steps over to mount transition during the bridge** (Effectiveness: Medium) - Your Response: The moment you feel the opponent's knee lifting to step over, immediately turn your hips toward them aggressively and shoot your near knee across their path to block the mount. If the step-over is too advanced, switch immediately to mount escape protocols rather than trying to recover scarf hold defense → Leads to [[Positions/Mount]]
+- **Opponent deepens near-arm control and tightens grip during setup** (Effectiveness: High) - Your Response: If the opponent reads your bridge setup and tightens arm control, switch to a turtle escape by bridging and turning to all fours rather than attempting knee insertion, since the trapped arm makes guard recovery nearly impossible → Leads to [[Positions/Side Control/Modified Scarf Hold]]
+- **Opponent posts far hand wide to absorb bridge force** (Effectiveness: Medium) - Your Response: When the opponent posts wide, they sacrifice chest pressure for stability. Use this opportunity to hip escape laterally rather than bridge upward, as their wide post creates space on the side they posted away from → Leads to [[Positions/Side Control/Modified Scarf Hold]]
 
 
 </section>

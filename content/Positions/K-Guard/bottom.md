@@ -208,27 +208,27 @@ The position excels as both a retention platform and an offensive launching poin
 
 ## Available Escapes
 
-### [[X-Guard Sweep]] (10% of attempts)
+### [[Transitions/X-Guard Sweep]] (10% of attempts)
 
-### [[Single Leg X Sweep]] (11% of attempts)
+### [[Transitions/Single Leg X Sweep]] (11% of attempts)
 
-### [[Deep Half Entry]] (29% of attempts)
+### [[Transitions/Deep Half Entry]] (29% of attempts)
 
-### [[Old School Sweep]] (8% of attempts)
+### [[Transitions/Old School Sweep]] (8% of attempts)
 
-### [[Waiter Sweep]] (7% of attempts)
+### [[Transitions/Waiter Sweep]] (7% of attempts)
 
-### [[Half Guard to Back Take]] (12% of attempts)
+### [[Transitions/Half Guard to Back Take]] (12% of attempts)
 
-### [[Butterfly Sweep]] (10% of attempts)
+### [[Transitions/Butterfly Sweep]] (10% of attempts)
 
-### [[50-50 Entry]] (6% of attempts)
+### [[Transitions/50-50 Entry]] (6% of attempts)
 
-### [[Butterfly Hook Recovery]] (4% of attempts)
+### [[Transitions/Butterfly Hook Recovery]] (4% of attempts)
 
-### [[K-Guard Sweep]] (2% of attempts)
+### [[Transitions/K-Guard Sweep]] (2% of attempts)
 
-### [[K-Guard to Single Leg X]] (1% of attempts)
+### [[Transitions/K-Guard to Single Leg X]] (1% of attempts)
 
 
 
@@ -239,23 +239,23 @@ The position excels as both a retention platform and an offensive launching poin
 ## Decision Making from This Position
 
 **If opponent drives forward pressure attempting to flatten and smash through position:**
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 65%)
-- Execute **[[Old School Sweep]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent maintains upright posture and attempts to free trapped leg with backward movement:**
-- Execute **[[Single Leg X Sweep]]** → [[Single Leg X-Guard]] (Probability: 70%)
-- Execute **[[X-Guard Sweep]]** → [[X-Guard]] (Probability: 65%)
+- Execute **[[Transitions/Single Leg X Sweep]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 70%)
+- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 65%)
 
 
 **If opponent commits weight to one side attempting crossface or underhook control:**
-- Execute **[[Half Guard to Back Take]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Waiter Sweep]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Waiter Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent establishes strong crossface and begins knee slice pressure to flatten hooks:**
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 65%)
-- Execute **[[Guard Replacement]]** → [[Butterfly Guard]] (Probability: 45%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
+- Execute **[[Guard Replacement]]** → [[Positions/Butterfly Guard]] (Probability: 45%)
 
 
 
@@ -389,16 +389,16 @@ Partner commits weight forward attempting various passing grips while bottom pra
 
 ## Related Positions and Techniques
 
-- **[[Deep Half Guard]]** - Natural transition target from K-Guard when opponent drives forward pressure
-- **[[X-Guard]]** - Common sweep destination utilizing similar hook mechanics with different angle
-- **[[Single Leg X-Guard]]** - Alternative sweep position accessed when opponent attempts to extract trapped leg
-- **[[Butterfly Guard]]** - Recovery position when K-Guard hooks are compromised but butterfly hook remains
-- **[[Half Guard]]** - Parent position family with shared concepts of trapped leg control and angle creation
-- **[[Lockdown]]** - Alternative half guard retention system with different leg configuration mechanics
-- **[[Z-Guard]]** - Related half guard variation using knee shield instead of inverted hook structure
-- **[[Old School Sweep]]** - High-percentage sweep technique directly from K-Guard hook configuration
-- **[[Waiter Sweep]]** - Butterfly-based sweep utilizing K-Guard's outside hook for elevation
-- **[[Half Guard to Back Take]]** - Primary back attack entry when opponent commits forward pressure
+- **[[Positions/Half Guard/Deep Half Guard]]** - Natural transition target from K-Guard when opponent drives forward pressure
+- **[[Positions/X-Guard]]** - Common sweep destination utilizing similar hook mechanics with different angle
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Alternative sweep position accessed when opponent attempts to extract trapped leg
+- **[[Positions/Butterfly Guard]]** - Recovery position when K-Guard hooks are compromised but butterfly hook remains
+- **[[Positions/Half Guard]]** - Parent position family with shared concepts of trapped leg control and angle creation
+- **[[Positions/Half Guard/Lockdown]]** - Alternative half guard retention system with different leg configuration mechanics
+- **[[Positions/Z-Guard]]** - Related half guard variation using knee shield instead of inverted hook structure
+- **[[Transitions/Old School Sweep]]** - High-percentage sweep technique directly from K-Guard hook configuration
+- **[[Transitions/Waiter Sweep]]** - Butterfly-based sweep utilizing K-Guard's outside hook for elevation
+- **[[Transitions/Half Guard to Back Take]]** - Primary back attack entry when opponent commits forward pressure
 
 
 </section>

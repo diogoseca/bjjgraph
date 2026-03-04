@@ -21,7 +21,7 @@ The mechanical challenge centers on a coordinated sequence: maintaining the knee
 
 This technique occupies an important role in the half guard retention system, serving as the primary path to closed guard when the bottom player determines that sweeping from knee shield is not viable. Advanced practitioners use the threat of this recovery to force passing reactions from the top player, creating a dilemma where addressing the guard closure attempt opens opportunities for sweeps and back takes. Understanding when to commit to closed guard recovery versus maintaining knee shield for offensive opportunities is a key strategic decision that reflects positional maturity in the half guard game.
 
-**From Position**: [[Knee Shield Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This technique occupies an important role in the half guard retention system, se
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Knee Shield Half Guard]] | 30% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Knee Shield Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -191,21 +191,21 @@ The Knee Shield to Closed Guard transition occupies a critical junction in the h
 ## Related Techniques
 
 
-- [[Knee Shield Half Guard]] - Source position—knee shield frame provides the distance and structure enabling this recovery
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Source position—knee shield frame provides the distance and structure enabling this recovery
 
-- [[Closed Guard]] - Target position—successful extraction establishes full closed guard control circuit
+- [[Positions/Closed Guard]] - Target position—successful extraction establishes full closed guard control circuit
 
-- [[Half Guard]] - Parent position family—knee shield is a specialized variant within the half guard system
+- [[Positions/Half Guard]] - Parent position family—knee shield is a specialized variant within the half guard system
 
-- [[Flattened Half Guard]] - Counter outcome—failed extraction can result in opponent flattening the position
+- [[Positions/Half Guard/Flattened Half Guard]] - Counter outcome—failed extraction can result in opponent flattening the position
 
-- [[Deep Half Guard]] - Alternative recovery path when knee shield to closed guard is not available
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative recovery path when knee shield to closed guard is not available
 
-- [[Open Guard]] - Related guard system—if guard closure fails, may transition to open guard retention
+- [[Positions/Open Guard]] - Related guard system—if guard closure fails, may transition to open guard retention
 
-- [[Butterfly Guard]] - Alternative guard system accessible during half guard transitions
+- [[Positions/Butterfly Guard]] - Alternative guard system accessible during half guard transitions
 
-- [[Back Door Escape from Half Guard]] - Related leg extraction technique using similar hip escape mechanics from half guard
+- [[Transitions/Back Door Escape from Half Guard]] - Related leg extraction technique using similar hip escape mechanics from half guard
 
 
 </section>

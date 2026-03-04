@@ -209,23 +209,23 @@ Success in this position relies on understanding the mechanical principles of ba
 
 ## Available Escapes
 
-### [[Hip Escape to Turtle]] (10% of attempts)
+### [[Transitions/Hip Escape to Turtle]] (10% of attempts)
 
-### [[Rolling to Guard]] (6% of attempts)
+### [[Transitions/Rolling to Guard]] (6% of attempts)
 
-### [[Granby Roll to Guard]] (5% of attempts)
+### [[Transitions/Granby Roll to Guard]] (5% of attempts)
 
-### [[Grip Break and Face]] (13% of attempts)
+### [[Transitions/Grip Break and Face]] (13% of attempts)
 
-### [[Controlled Descent]] (30% of attempts)
+### [[Transitions/Controlled Descent]] (30% of attempts)
 
-### [[Explosive Forward Roll]] (4% of attempts)
+### [[Transitions/Explosive Forward Roll]] (4% of attempts)
 
-### [[Turn In and Face]] (15% of attempts)
+### [[Transitions/Turn In and Face]] (15% of attempts)
 
-### [[Arm Drag Escape]] (7% of attempts)
+### [[Transitions/Arm Drag Escape]] (7% of attempts)
 
-### [[Standing up in Base]] (10% of attempts)
+### [[Transitions/Standing up in Base]] (10% of attempts)
 
 
 
@@ -236,29 +236,29 @@ Success in this position relies on understanding the mechanical principles of ba
 ## Decision Making from This Position
 
 **If opponent has locked rear naked choke grip (hand on bicep, choking arm under chin):**
-- Execute **[[Chin tuck and two-on-one grip break]]** → [[Standing Back Control]] (Probability: 55%)
-- Execute **[[Drop to Turtle immediately]]** → [[Turtle]] (Probability: 40%)
+- Execute **[[Chin tuck and two-on-one grip break]]** → [[Positions/Back Control/Standing Back Control]] (Probability: 55%)
+- Execute **[[Drop to Turtle immediately]]** → [[Positions/Turtle]] (Probability: 40%)
 
 
 **If opponent has harness control but no immediate choke threat:**
-- Execute **[[Hip Escape to create angle]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Standing up in Base with grip breaks]]** → [[Standing Position]] (Probability: 40%)
-- Execute **[[Rolling to Guard with hip turn]]** → [[Closed Guard]] (Probability: 45%)
+- Execute **[[Hip Escape to create angle]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Standing up in Base with grip breaks]]** → [[Positions/Standing Position]] (Probability: 40%)
+- Execute **[[Rolling to Guard with hip turn]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
 **If opponent has body triangle locked or both hooks in deep:**
-- Execute **[[Controlled descent to ground position]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Granby Roll to invert position]]** → [[Open Guard]] (Probability: 35%)
+- Execute **[[Controlled descent to ground position]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Granby Roll to invert position]]** → [[Positions/Open Guard]] (Probability: 35%)
 
 
 **If opponent has one hook or no hooks secured yet:**
-- Execute **[[Immediate hip turn and face opponent]]** → [[Clinch]] (Probability: 55%)
-- Execute **[[Standing up in Base with hand fighting]]** → [[Standing Position]] (Probability: 45%)
+- Execute **[[Immediate hip turn and face opponent]]** → [[Positions/Clinch]] (Probability: 55%)
+- Execute **[[Standing up in Base with hand fighting]]** → [[Positions/Standing Position]] (Probability: 45%)
 
 
 **If opponent is attempting to drag you backward or off-balance:**
-- Execute **[[Drop weight and transition to Turtle]]** → [[Turtle]] (Probability: 60%)
-- Execute **[[Explosive forward roll to Guard]]** → [[Half Guard]] (Probability: 35%)
+- Execute **[[Drop weight and transition to Turtle]]** → [[Positions/Turtle]] (Probability: 60%)
+- Execute **[[Explosive forward roll to Guard]]** → [[Positions/Half Guard]] (Probability: 35%)
 
 
 
@@ -392,14 +392,14 @@ Partner has standing back control. Practice all major escape paths: hip escape t
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Grounded version - often the result if standing escape fails or opponent successfully takes you down
-- **[[Turtle]]** - Common transition target for defensive recovery, offers more defensive options than standing back exposure
-- **[[Rear Naked Choke]]** - Primary submission threat to defend against from this position
-- **[[Standing up in Base]]** - Key escape technique to return to standing neutral position
-- **[[Hip Escape to Turtle]]** - Fundamental escape movement for creating angles and reaching turtle position
-- **[[Grip Break and Face]]** - Essential technique for defeating harness control and preventing chokes
-- **[[Clinch]]** - Neutral recovery position when escape through facing opponent is successful
-- **[[Seat Belt Control Back]]** - Specific grip configuration opponent uses to maintain control, must be defeated
+- **[[Positions/Back Control]]** - Grounded version - often the result if standing escape fails or opponent successfully takes you down
+- **[[Positions/Turtle]]** - Common transition target for defensive recovery, offers more defensive options than standing back exposure
+- **[[Transitions/Rear Naked Choke]]** - Primary submission threat to defend against from this position
+- **[[Transitions/Standing up in Base]]** - Key escape technique to return to standing neutral position
+- **[[Transitions/Hip Escape to Turtle]]** - Fundamental escape movement for creating angles and reaching turtle position
+- **[[Transitions/Grip Break and Face]]** - Essential technique for defeating harness control and preventing chokes
+- **[[Positions/Clinch]]** - Neutral recovery position when escape through facing opponent is successful
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Specific grip configuration opponent uses to maintain control, must be defeated
 
 
 </section>

@@ -154,7 +154,7 @@ description: "How to defend against the Ghost Escape from side control top in BJ
 
 Defending the Ghost Escape means maintaining side control when the bottom player attempts a rotational escape to turtle. As the top player, your primary advantage is that the ghost escape requires specific conditions to work: the bottom player needs frames, a timing window, and enough hip space to initiate rotation. Your defensive strategy centers on denying these conditions through heavy hip-to-hip pressure, strong crossface control, and immediate recognition of the rotational movement pattern. When you feel the bottom player begin to turn their hips away from you in a circular motion rather than shrimping linearly, you must react within the first fraction of a second. The most effective responses are sprawling your hips back to flatten them, stepping over to mount as they expose their hips, or following the rotation to establish back control. Understanding the Ghost Escape mechanics allows you to anticipate the movement and shut it down before it develops momentum, which is the key to effective defense since the escape becomes increasingly difficult to stop once the rotation is underway.
 
-**Opponent's Starting Position**: [[Side Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Ghost Escape means maintaining side control when the bottom player
 ### 1. Sprawl hips back and drive chest weight down to flatten the bottom player before rotation develops
 
 - **When to use**: At the earliest recognition of hip rotation, before the bottom player's hips have turned more than 45 degrees
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Bottom player is flattened back to original position with their escape attempt neutralized and energy wasted
 - **Risk**: If you sprawl too aggressively you may end up too far from their hips, creating space for a standard hip escape
 
 ### 2. Step over to mount as the bottom player rotates onto their side and exposes their hips
 
 - **When to use**: When the bottom player has committed to the rotation and their hips are turning but they have not yet completed the roll to turtle
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You advance to mount, converting their escape attempt into a worse position for them with additional points scored
 - **Risk**: If the bottom player keeps their knee tight to chest during rotation, your stepping leg can be caught in half guard
 
 ### 3. Follow the rotation and secure seatbelt control to transition to back control as they complete the escape to turtle
 
 - **When to use**: When the rotation has progressed too far to stop and the bottom player is completing the roll to turtle position
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You transition from side control to a back attack position with seatbelt control established before they can defend
 - **Risk**: If you are too slow following the rotation, the bottom player reaches turtle with space to recover guard or stand
 
 ### 4. Secure a front headlock or guillotine grip as the bottom player's head becomes accessible during rotation
 
 - **When to use**: When the bottom player lifts their chin or fails to keep their head protected during the rotational movement
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You stop the escape and establish a dominant front headlock position with submission threats
 - **Risk**: Reaching for the head may compromise your base and hip pressure, accelerating their escape if you miss the grip
 
@@ -225,11 +225,11 @@ Defending the Ghost Escape means maintaining side control when the bottom player
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Recognize the escape attempt early and sprawl your hips back while driving crossface pressure down to flatten the bottom player before their rotation develops momentum. Resettle heavy hip-to-hip contact and re-establish crossface control.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 As the bottom player commits to the rotation and their hips turn away from you, step your far leg over their body to mount. Their rotation exposes their hips and they cannot block your leg from crossing over while mid-rotation. Time the step-over to when their hips are approximately 90 degrees rotated.
 

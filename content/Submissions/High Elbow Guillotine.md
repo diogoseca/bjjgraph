@@ -22,7 +22,7 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Front Headlock]]
+**Starting Position**: [[Positions/Front Headlock]]
 **Success Rate**: 58%
 
 </section>
@@ -77,8 +77,8 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -232,13 +232,13 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 ## From Which Positions?
 
-- [[Front Headlock]]
-- [[Guillotine Control]]
-- [[Standing Position]]
-- [[Closed Guard]]
-- [[Half Guard]]
-- [[Turtle]]
-- [[Clinch]]
+- [[Positions/Front Headlock]]
+- [[Positions/Guillotine Control]]
+- [[Positions/Standing Position]]
+- [[Positions/Closed Guard]]
+- [[Positions/Half Guard]]
+- [[Positions/Turtle]]
+- [[Positions/Clinch]]
 
 
 </section>
@@ -247,16 +247,16 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 ## Related Submissions
 
-- [[Guillotine Choke]]
-- [[Arm in Guillotine]]
-- [[Ten Finger Guillotine]]
-- [[Chin Strap Guillotine]]
-- [[Darce Choke]]
-- [[Anaconda Choke]]
-- [[Japanese Necktie]]
-- [[Peruvian Necktie]]
-- [[Arm Triangle]]
-- [[Von Flue Choke]]
+- [[Transitions/Guillotine Choke]]
+- [[Submissions/Arm in Guillotine]]
+- [[Submissions/Ten Finger Guillotine]]
+- [[Submissions/Chin Strap Guillotine]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Anaconda Choke]]
+- [[Submissions/Japanese Necktie]]
+- [[Submissions/Peruvian Necktie]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Von Flue Choke]]
 
 
 </section>
@@ -265,17 +265,17 @@ The High Elbow Guillotine is a devastating blood choke that targets the carotid 
 
 ## Additional Related Content
 
-- [[Guillotine Setup]] - Primary entry transition - establishes the front headlock control needed for high elbow guillotine
-- [[Front Headlock]] - Parent control position - high elbow guillotine is one option within the broader front headlock attack system
-- [[Guillotine Defense]] - Defensive counter - understanding common defenses improves your ability to maintain the submission
-- [[Guillotine Counter]] - Defensive study - knowing how opponents counter helps you prevent escapes
-- [[Front Headlock to Guillotine]] - Direct transition - moving from control position to submission attempt
-- [[Snap Down to Front Headlock]] - Setup sequence - creating the initial front headlock control from standing
-- [[Guard Pull]] - Finishing position entry - common method of securing submission from standing
-- [[Darce Control]] - Alternative attack - transition option when opponent defends high elbow by turning in
-- [[Anaconda Control]] - Alternative attack - related front headlock submission with similar entries
-- [[Closed Guard]] - Finishing position - common guard configuration for completing the high elbow guillotine
-- [[Turtle]] - Entry position - attacking turtle with high elbow variation when darce/anaconda unavailable
+- [[Transitions/Guillotine Setup]] - Primary entry transition - establishes the front headlock control needed for high elbow guillotine
+- [[Positions/Front Headlock]] - Parent control position - high elbow guillotine is one option within the broader front headlock attack system
+- [[Transitions/Guillotine Defense]] - Defensive counter - understanding common defenses improves your ability to maintain the submission
+- [[Transitions/Guillotine Counter]] - Defensive study - knowing how opponents counter helps you prevent escapes
+- [[Transitions/Front Headlock to Guillotine]] - Direct transition - moving from control position to submission attempt
+- [[Transitions/Snap Down to Front Headlock]] - Setup sequence - creating the initial front headlock control from standing
+- [[Transitions/Guard Pull]] - Finishing position entry - common method of securing submission from standing
+- [[Positions/Darce Control]] - Alternative attack - transition option when opponent defends high elbow by turning in
+- [[Positions/Anaconda Control]] - Alternative attack - related front headlock submission with similar entries
+- [[Positions/Closed Guard]] - Finishing position - common guard configuration for completing the high elbow guillotine
+- [[Positions/Turtle]] - Entry position - attacking turtle with high elbow variation when darce/anaconda unavailable
 
 
 </section>

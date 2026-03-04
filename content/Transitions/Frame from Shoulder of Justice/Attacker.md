@@ -180,7 +180,7 @@ description: "Execute the Frame from Shoulder of Justice as the bottom player. S
 
 As the bottom player executing the Frame from Shoulder of Justice, your immediate objective is not a full escape but a positional degradation: converting the specialized Shoulder of Justice pressure into standard side control where you have more escape options. The concentrated jaw pressure creates a specific dilemma system that punishes standard escape mechanics, but by inserting forearm wedges that disrupt the 45-degree pressure angle, you can neutralize what makes this variant uniquely oppressive. This technique demands composure, precise forearm placement against structural targets, and the discipline to accept a partial positional improvement rather than forcing a complete escape from a position that punishes overcommitment.
 
-**From Position**: [[Shoulder of Justice]] (Bottom)
+**From Position**: [[Positions/Shoulder of Justice]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ As the bottom player executing the Frame from Shoulder of Justice, your immediat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Shoulder of Justice]] | 40% |
-| Counter | [[Kimura Trap]] | 20% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Shoulder of Justice]] | 40% |
+| Counter | [[Positions/Kimura Trap]] | 20% |
 
 
 </section>
@@ -242,10 +242,10 @@ As the bottom player executing the Frame from Shoulder of Justice, your immediat
 
 ## Opponent Counters
 
-- **Opponent collapses the frame by driving body weight through shoulder and reconnecting hip-to-hip pressure** (Effectiveness: High) - Your Response: Maintain the frame through skeletal alignment rather than muscular resistance. If the frame collapses fully, reset by tucking the arm tight and waiting for the next micro-adjustment to re-insert the wedge. Do not escalate to arm extension. → Leads to [[Shoulder of Justice]]
-- **Opponent catches the near arm in a kimura grip when the forearm separates from the body during frame insertion** (Effectiveness: High) - Your Response: Immediately retract the arm to your ribcage, clamp the elbow tight, and grip your own shorts or belt to prevent isolation. Abandon the frame attempt and reset. The kimura window is brief if you react quickly to the grip attempt. → Leads to [[Kimura Trap]]
-- **Opponent adjusts shoulder pressure angle to bypass the frame and re-establish jaw contact from a different direction** (Effectiveness: Medium) - Your Response: Follow the opponent's shoulder angle adjustment with your frame, repositioning the wedge to continue disrupting their new pressure vector. The opponent's adjustment itself is a weight shift that may create additional escape opportunities. → Leads to [[Shoulder of Justice]]
-- **Opponent transitions to mount when the frame creates any separation between bodies** (Effectiveness: Medium) - Your Response: If you feel the opponent's leg stepping over, immediately use your frame arm to block their knee and your far knee to prevent the mount entry. Accept returning to Shoulder of Justice rather than allowing the mount advancement. → Leads to [[Side Control]]
+- **Opponent collapses the frame by driving body weight through shoulder and reconnecting hip-to-hip pressure** (Effectiveness: High) - Your Response: Maintain the frame through skeletal alignment rather than muscular resistance. If the frame collapses fully, reset by tucking the arm tight and waiting for the next micro-adjustment to re-insert the wedge. Do not escalate to arm extension. → Leads to [[Positions/Shoulder of Justice]]
+- **Opponent catches the near arm in a kimura grip when the forearm separates from the body during frame insertion** (Effectiveness: High) - Your Response: Immediately retract the arm to your ribcage, clamp the elbow tight, and grip your own shorts or belt to prevent isolation. Abandon the frame attempt and reset. The kimura window is brief if you react quickly to the grip attempt. → Leads to [[Positions/Kimura Trap]]
+- **Opponent adjusts shoulder pressure angle to bypass the frame and re-establish jaw contact from a different direction** (Effectiveness: Medium) - Your Response: Follow the opponent's shoulder angle adjustment with your frame, repositioning the wedge to continue disrupting their new pressure vector. The opponent's adjustment itself is a weight shift that may create additional escape opportunities. → Leads to [[Positions/Shoulder of Justice]]
+- **Opponent transitions to mount when the frame creates any separation between bodies** (Effectiveness: Medium) - Your Response: If you feel the opponent's leg stepping over, immediately use your frame arm to block their knee and your far knee to prevent the mount entry. Accept returning to Shoulder of Justice rather than allowing the mount advancement. → Leads to [[Positions/Side Control]]
 
 
 </section>

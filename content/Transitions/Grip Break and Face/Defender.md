@@ -150,7 +150,7 @@ The key to defending this escape is recognizing the early stages of the grip bre
 
 Advanced defenders treat the Grip Break and Face attempt as a predictable sequence that opens counter-attacking opportunities. Rather than simply fighting to maintain static control, skilled practitioners use the opponent's escape movements to transition between different control configurations, switching from harness to body lock, inserting hooks during the disruption, or converting the partial rotation into front headlock or takedown entries.
 
-**Opponent's Starting Position**: [[Standing Back Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control/Standing Back Control]] (Bottom)
 
 </section>
 
@@ -187,28 +187,28 @@ Advanced defenders treat the Grip Break and Face attempt as a predictable sequen
 ### 1. Drop hooks immediately upon sensing two-on-one grip fighting on your choking arm
 
 - **When to use**: Early in the escape attempt, before the opponent has stripped your harness grip - inserting hooks prevents hip rotation entirely
-- **Targets**: [[Standing Back Control]]
+- **Targets**: [[Positions/Back Control/Standing Back Control]]
 - **If successful**: Opponent cannot rotate with hooks controlling their hips, forcing them to abandon this escape and switch to a different pathway like turtle descent
 - **Risk**: If hooks are shallow or poorly timed, opponent may still complete rotation while you've committed weight to hook insertion
 
 ### 2. Circle with their rotation to maintain back exposure while re-establishing harness grip
 
 - **When to use**: When the opponent has already begun rotating but has not yet completed the full turn - match their movement rather than fighting against it
-- **Targets**: [[Standing Back Control]]
+- **Targets**: [[Positions/Back Control/Standing Back Control]]
 - **If successful**: You maintain back exposure throughout their rotation attempt, keeping chest-to-back connection and re-establishing grips from the new angle
 - **Risk**: If you cannot match their speed, you may end up in neutral clinch or lose contact entirely
 
 ### 3. Transition to front headlock as opponent completes partial rotation toward you
 
 - **When to use**: When the opponent has successfully broken your harness and completed roughly 90-120 degrees of rotation but has not yet established clinch control
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You convert their partial escape into a front headlock position where you control their head, maintaining offensive advantage despite losing back control
 - **Risk**: If opponent completes full rotation before you secure the head, you end up in neutral clinch with no control advantage
 
 ### 4. Switch from harness to body lock control when you feel the seatbelt being stripped
 
 - **When to use**: At the moment the opponent begins peeling your choking arm away - release the seatbelt and immediately lock body lock around their torso
-- **Targets**: [[Standing Back Control]]
+- **Targets**: [[Positions/Back Control/Standing Back Control]]
 - **If successful**: Body lock control is harder to strip with two-on-one mechanics and maintains your back exposure while negating their grip break sequence
 - **Risk**: Momentary loss of control during the grip switch may give them the window to rotate
 
@@ -220,11 +220,11 @@ Advanced defenders treat the Grip Break and Face attempt as a predictable sequen
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Back Control]]
+### → [[Positions/Back Control/Standing Back Control]]
 
 Insert hooks early when you recognize the two-on-one grip fighting, preventing hip rotation. Alternatively, switch to body lock when seatbelt is being stripped, or circle with their rotation to maintain chest-to-back connection and re-establish harness from the new angle.
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 When the opponent has broken your harness and committed to rotation, do not desperately chase back control. Instead, as they turn past 90 degrees, snap down on their head and secure front headlock control. Their forward-leaning rotation posture makes the head accessible, and you convert a lost back control into a strong offensive position with multiple submission options.
 

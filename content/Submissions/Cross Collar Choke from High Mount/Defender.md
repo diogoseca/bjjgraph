@@ -156,7 +156,7 @@ description: "Defend the Cross Collar Choke from High Mount in BJJ. Recognition 
 
 Defending the Cross Collar Choke from High Mount requires early recognition, disciplined hand fighting, and strategic escape timing. The defender faces a compounding problem: every second the attacker spends in high mount brings them closer to deep collar grips, and once both grips are established past the midline, escape becomes exponentially more difficult. The defensive priority hierarchy is clear—prevent grip establishment first, strip existing grips second, and escape the position third. Attempting to escape high mount while ignoring the collar grips accelerates the choke, while focusing exclusively on grip defense without escaping ensures the attacker eventually wins the grip fight through positional advantage and gravity.
 
-**Opponent's Starting Position**: [[High Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/High Mount]] (Top)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the Cross Collar Choke from High Mount requires early recognition, dis
 ### 1. Two-on-one grip strip on the first collar grip before second grip is established
 
 - **When to use**: Immediately when you detect the first hand entering your collar—this is the highest-percentage defensive window
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Resets the attacker's grip sequence, forcing them to restart while preserving your defensive posture
 - **Risk**: Both hands committed to grip stripping exposes your arms to isolation and armbar attack
 
 ### 2. Explosive bridge toward attacker's posting side during second grip insertion
 
 - **When to use**: When attacker commits second hand to collar, removing it from posting position and compromising their base
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Displaces attacker from high mount, potentially recovering to standard mount or initiating guard recovery
 - **Risk**: Failed bridge wastes energy and may tighten the partially established choke
 
 ### 3. Insert both hands between attacker's forearms and your neck as a barrier wedge
 
 - **When to use**: When both grips are established but the choke has not yet been fully tightened—last-resort defensive posture
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Creates a physical barrier preventing the choking pressure from reaching your carotid arteries, buying time for escape
 - **Risk**: Both arms are now committed to neck defense, leaving you vulnerable to the attacker switching to armbar
 
 ### 4. Frame on hips and hip escape during attacker's grip transition
 
 - **When to use**: When attacker shifts weight to work grips and their knee pressure near armpits momentarily decreases
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Creates enough space to drop attacker from high mount to regular mount where choke grips are less effective
 - **Risk**: Framing on hips extends your arms, potentially exposing them to armbar if attacker abandons choke
 
@@ -239,11 +239,11 @@ Defending the Cross Collar Choke from High Mount requires early recognition, dis
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Time an explosive bridge during the attacker's second grip insertion when their posting hand is committed to the collar, displacing them from high mount back to standard mount where the choke grips are less effective
 
-### → [[High Mount]]
+### → [[Positions/Mount/High Mount]]
 
 Strip the first collar grip before the second is established using two-on-one wrist control, forcing the attacker to restart their grip sequence while you maintain defensive posture
 

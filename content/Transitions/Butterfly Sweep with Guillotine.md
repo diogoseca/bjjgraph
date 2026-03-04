@@ -21,7 +21,7 @@ From the Hindulotine bottom position, the practitioner establishes butterfly hoo
 
 The strategic brilliance of this combination lies in its offensive layering. The opponent faces a no-win scenario: defending the sweep by posting wide opens the guillotine finish, while driving forward to escape the choke enables the sweep. This dilemma-based approach represents modern submission grappling at its highest level, where every defensive action opens a new offensive opportunity.
 
-**From Position**: [[Hindulotine]] (Bottom)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The strategic brilliance of this combination lies in its offensive layering. The
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 58% |
-| Failure | [[Hindulotine]] | 27% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Mount]] | 58% |
+| Failure | [[Positions/Hindulotine]] | 27% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Butterfly Sweep with Guillotine serves as the primary sweep option from Hind
 ## Related Techniques
 
 
-- [[Hindulotine]] - Starting position providing the guillotine grip and butterfly hooks needed for sweep execution
+- [[Positions/Hindulotine]] - Starting position providing the guillotine grip and butterfly hooks needed for sweep execution
 
-- [[Mount]] - Primary target position where successful sweep lands with active submission threat
+- [[Positions/Mount]] - Primary target position where successful sweep lands with active submission threat
 
-- [[Butterfly Sweep]] - Related technique whose standard butterfly sweep mechanics form the positional base
+- [[Transitions/Butterfly Sweep]] - Related technique whose standard butterfly sweep mechanics form the positional base
 
-- [[Guillotine Control]] - Parent submission system whose guillotine mechanics drive the submission threat throughout
+- [[Positions/Guillotine Control]] - Parent submission system whose guillotine mechanics drive the submission threat throughout
 
-- [[Back Take from Bottom]] - Alternative transition available when opponent turns to escape during sweep attempt
+- [[Transitions/Back Take from Bottom]] - Alternative transition available when opponent turns to escape during sweep attempt
 
-- [[Hindulotine to Darce Choke]] - Alternative attack chain available if guillotine angle is lost during or after sweep
+- [[Transitions/Hindulotine to Darce Choke]] - Alternative attack chain available if guillotine angle is lost during or after sweep
 
-- [[Butterfly Guard]] - Guard system providing the butterfly hook mechanics essential for sweep execution
+- [[Positions/Butterfly Guard]] - Guard system providing the butterfly hook mechanics essential for sweep execution
 
-- [[Closed Guard]] - Recovery option available if opponent retreats from sweep threat or successfully counters
+- [[Positions/Closed Guard]] - Recovery option available if opponent retreats from sweep threat or successfully counters
 
-- [[Hindulotine to Anaconda Choke]] - Alternative submission chain when opponent frames and creates near-side space
+- [[Transitions/Hindulotine to Anaconda Choke]] - Alternative submission chain when opponent frames and creates near-side space
 
-- [[Guillotine Choke]] - Direct finish option when opponent posts wide to defend sweep, breaking their posture
+- [[Transitions/Guillotine Choke]] - Direct finish option when opponent posts wide to defend sweep, breaking their posture
 
 
 </section>

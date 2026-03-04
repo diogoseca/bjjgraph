@@ -21,7 +21,7 @@ Strategically, the Elevation Sweep represents the highest-reward option from Rev
 
 This sweep integrates naturally into the Reverse X-Guard attack system, functioning as the primary direct sweep when the opponent fails to widen their base or drop their hips defensively. When the opponent defends by widening stance or lowering weight, alternative attacks like the Reverse X-Guard Sweep (technical sweep) or transitions to Single Leg X-Guard become available, creating an offensive system where each defense opens new attack vectors.
 
-**From Position**: [[Reverse X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This sweep integrates naturally into the Reverse X-Guard attack system, function
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 65% |
-| Failure | [[Reverse X-Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount]] | 65% |
+| Failure | [[Positions/X-Guard/Reverse X-Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Elevation Sweep to Mount occupies a central position within the Reverse X-Gu
 ## Related Techniques
 
 
-- [[Reverse X-Guard]] - Starting position
+- [[Positions/X-Guard/Reverse X-Guard]] - Starting position
 
-- [[Mount]] - Target position on successful sweep
+- [[Positions/Mount]] - Target position on successful sweep
 
-- [[Reverse X-Guard Sweep]] - Alternative sweep when opponent widens base
+- [[Transitions/Reverse X-Guard Sweep]] - Alternative sweep when opponent widens base
 
-- [[Single Leg X-Guard]] - Transition when hooks slip or opponent disengages
+- [[Positions/X-Guard/Single Leg X-Guard]] - Transition when hooks slip or opponent disengages
 
-- [[Ashi Garami]] - Leg entanglement transition option
+- [[Positions/Ashi Garami]] - Leg entanglement transition option
 
-- [[X-Guard]] - Related guard position with similar elevation mechanics
+- [[Positions/X-Guard]] - Related guard position with similar elevation mechanics
 
-- [[Deep Half Guard]] - Recovery position when opponent sprawls
+- [[Positions/Half Guard/Deep Half Guard]] - Recovery position when opponent sprawls
 
-- [[Armbar from Mount]] - Follow-up submission from achieved position
+- [[Submissions/Armbar from Mount]] - Follow-up submission from achieved position
 
-- [[Americana from Mount]] - Follow-up submission from achieved position
+- [[Submissions/Americana from Mount]] - Follow-up submission from achieved position
 
-- [[Back Take from Top]] - Alternative advancement from mount
+- [[Transitions/Back Take from Top]] - Alternative advancement from mount
 
 
 </section>

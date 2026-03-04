@@ -186,7 +186,7 @@ description: "Execute the sweep from Ushiro Ashi-Garami bottom to achieve mount.
 
 Executing the Sweep from Ushiro Ashi-Garami demands precise timing to exploit the narrow window when the top player's weight shifts forward during heel hook finishing attempts. The sweeper must coordinate grip control, hip drive, and rotational mechanics simultaneously—controlling the opponent's posting hand while generating sufficient off-balancing force through hip extension and free leg posting. Success requires comfort with inverted body mechanics and the ability to transition seamlessly from defensive heel protection to offensive sweeping motion. The technique rewards practitioners who maintain composure under active submission threat, transforming the opponent's aggressive weight commitment into the very leverage needed for the reversal. Understanding when to attempt this sweep versus safer escape options like turtle recovery is the strategic decision that separates effective ushiro defense from predictable play.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Sweep from Ushiro Ashi-Garami demands precise timing to exploit th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 30% |
-| Failure | [[Ushiro Ashi-Garami]] | 45% |
-| Counter | [[Saddle]] | 25% |
+| Success | [[Positions/Mount]] | 30% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 45% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 25% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Sweep from Ushiro Ashi-Garami demands precise timing to exploit th
 
 ## Opponent Counters
 
-- **Opponent posts far hand to maintain base during sweep initiation** (Effectiveness: High) - Your Response: If the posting hand was not controlled before initiating, abort the sweep attempt and re-establish grip control. Alternatively, redirect to an inside hook elevation sweep that generates upward force independent of their posting. Never continue forcing a sweep against a posted base. → Leads to [[Ushiro Ashi-Garami]]
-- **Opponent sits back and withdraws weight to eliminate forward commitment** (Effectiveness: High) - Your Response: When the opponent sits back, the sweep window closes but escape opportunities improve. Immediately transition to turtle recovery or leg extraction since their withdrawn weight reduces control depth. Use the space created by their retreat to clear your legs entirely. → Leads to [[Ushiro Ashi-Garami]]
-- **Opponent transitions to saddle by stepping their outside leg through during the sweep attempt** (Effectiveness: High) - Your Response: Recognize the saddle transition early by monitoring their outside leg movement. If they begin stepping through, immediately abandon the sweep and switch to saddle-specific defense, controlling their inside knee to prevent full saddle establishment. Boot defense and hip positioning become priority over sweeping. → Leads to [[Saddle]]
-- **Opponent accelerates heel hook finish during the sweep rotation to catch you mid-movement** (Effectiveness: Medium) - Your Response: Maintain dorsiflexion throughout the entire sweep rotation to deny finishing leverage. If you feel the heel hook tighten significantly during the sweep, tap immediately rather than continuing the rotation with a compromised knee. Prevention through grip stripping before sweep initiation is the best defense. → Leads to [[Ushiro Ashi-Garami]]
+- **Opponent posts far hand to maintain base during sweep initiation** (Effectiveness: High) - Your Response: If the posting hand was not controlled before initiating, abort the sweep attempt and re-establish grip control. Alternatively, redirect to an inside hook elevation sweep that generates upward force independent of their posting. Never continue forcing a sweep against a posted base. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Opponent sits back and withdraws weight to eliminate forward commitment** (Effectiveness: High) - Your Response: When the opponent sits back, the sweep window closes but escape opportunities improve. Immediately transition to turtle recovery or leg extraction since their withdrawn weight reduces control depth. Use the space created by their retreat to clear your legs entirely. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Opponent transitions to saddle by stepping their outside leg through during the sweep attempt** (Effectiveness: High) - Your Response: Recognize the saddle transition early by monitoring their outside leg movement. If they begin stepping through, immediately abandon the sweep and switch to saddle-specific defense, controlling their inside knee to prevent full saddle establishment. Boot defense and hip positioning become priority over sweeping. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent accelerates heel hook finish during the sweep rotation to catch you mid-movement** (Effectiveness: Medium) - Your Response: Maintain dorsiflexion throughout the entire sweep rotation to deny finishing leverage. If you feel the heel hook tighten significantly during the sweep, tap immediately rather than continuing the rotation with a compromised knee. Prevention through grip stripping before sweep initiation is the best defense. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 
 </section>

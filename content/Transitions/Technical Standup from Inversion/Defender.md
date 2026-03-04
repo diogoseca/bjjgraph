@@ -158,7 +158,7 @@ The defender's strategic advantage lies in recognizing the standup attempt early
 
 The key defensive principle is maintaining forward pressure readiness without overcommitting. If you rush too early, the bottom player can convert your momentum into a sweep or guard recovery through Granby mechanics. If you wait too long, they complete the standup cleanly. Reading the disengagement of their legs from your base is the primary trigger for your defensive response, as this signals the standup attempt has begun.
 
-**Opponent's Starting Position**: [[Grasshopper Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ The key defensive principle is maintaining forward pressure readiness without ov
 ### 1. Drive forward with controlled pressure pass as the hip rotation begins, using your bodyweight to flatten their rotating hips back to the mat before they can establish the posting base
 
 - **When to use**: When you recognize the leg retraction and early hip rotation phase - you must commit before their posting hand reaches the mat
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: You flatten them mid-rotation into a compromised position and can establish headquarters or side control, as they have abandoned their guard structure during the standup attempt
 - **Risk**: If you drive too aggressively and they abort into a Granby roll, your forward momentum can be redirected into a sweep or guard pull that puts you in their closed guard
 
 ### 2. Grab the near ankle or foot as their legs retract, preventing them from planting the base needed to complete the standup while maintaining your standing position
 
 - **When to use**: When their legs disengage from your base and move into the compact retracted position - the ankle is exposed during the transition between leg configurations
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: The ankle control prevents them from completing the standup and forces them to either re-engage the inversion or attempt to strip the grip, both of which keep them on the ground in their guard where you maintain top position
 - **Risk**: A skilled opponent will convert the ankle grip into a leg entanglement entry by using the trapped leg as a hook to pull into inside ashi-garami or single leg X
 
 ### 3. Circle to the back side during their hip rotation, exploiting the moment when their shoulders transition from mat contact to upright and their back is briefly exposed
 
 - **When to use**: When the rotation is already underway and a direct forward drive would arrive too late - circling capitalizes on their committed directional movement
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: You arrive behind their rotating body and can establish a back take or at minimum a dominant angle that forces them into turtle rather than completing the standup to open guard
 - **Risk**: If they detect the circling early, they can accelerate the rotation to face you and complete the standup, or worse, use the angular momentum to sweep you as you circle
 
 ### 4. Sprawl heavily on their hips during the drive-to-standing phase, driving your weight downward through their center of mass as they attempt the explosive standup
 
 - **When to use**: When they have completed the rotation and planted their posting hand but have not yet driven to full standing - this is the moment of maximum structural vulnerability
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Your sprawl pressure collapses their posting structure and drives them back to the mat in a flattened position where you can immediately advance to headquarters or side control
 - **Risk**: If your sprawl misses or is poorly timed, they may complete the standup underneath you, or convert the pressure into a sit-through that creates back take opportunities
 
@@ -229,11 +229,11 @@ The key defensive principle is maintaining forward pressure readiness without ov
 
 ## Best-Case Outcomes for Defender
 
-### → [[Grasshopper Guard]]
+### → [[Positions/Grasshopper Guard]]
 
 Grab the near ankle during the leg retraction phase before the hip rotation begins. This prevents the standup while keeping them grounded. Maintain the ankle grip and begin your own passing sequence, or use the grip to initiate a leg drag that advances you past their guard. The ankle control forces them back into the inversion where their energy expenditure continues.
 
-### → [[Headquarters Position]]
+### → [[Positions/Headquarters Position]]
 
 Time a controlled forward pressure drive to coincide with the mid-rotation phase when their hips are transitioning and their posting hand has not yet established structural support. Drive your weight through their hips to flatten the rotation, then immediately establish knee-line control on their near leg and transition into headquarters position. The key is arriving during the brief window when they have abandoned the inversion defenses but have not yet built the standup structure.
 

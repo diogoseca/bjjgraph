@@ -21,7 +21,7 @@ The technique requires precise timing and awareness of the bottom player's defen
 
 Understanding when to transition from submission attempt to positional control distinguishes advanced practitioners from those who chase submissions at the expense of position. The grip strip from buggy choke embodies this strategic awareness, teaching practitioners to read defensive reactions, recognize stalled attacks, and flow to the next advantageous position without returning to neutral or conceding positional gains.
 
-**From Position**: [[Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Understanding when to transition from submission attempt to positional control d
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Buggy Choke]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Buggy Choke]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Grip Strip from Buggy Choke serves as the primary escape valve in the turtle
 ## Related Techniques
 
 
-- [[Buggy Choke]] - Source position where this transition initiates from stalled choke control
+- [[Positions/Buggy Choke]] - Source position where this transition initiates from stalled choke control
 
-- [[Side Control]] - Primary target position on successful grip strip and transition
+- [[Positions/Side Control]] - Primary target position on successful grip strip and transition
 
-- [[Half Guard]] - Counter outcome position when the bottom player exploits the transitional gap
+- [[Positions/Half Guard]] - Counter outcome position when the bottom player exploits the transitional gap
 
-- [[Turtle]] - Base position in the turtle attack system where buggy choke attacks originate
+- [[Positions/Turtle]] - Base position in the turtle attack system where buggy choke attacks originate
 
-- [[North-South]] - Alternative positional target available through the spin variant of the grip strip
+- [[Positions/North-South]] - Alternative positional target available through the spin variant of the grip strip
 
-- [[Knee on Belly]] - Advanced positional target accessible through the progressive peel variant
+- [[Positions/Knee on Belly]] - Advanced positional target accessible through the progressive peel variant
 
-- [[Buggy Choke Finish]] - Primary submission alternative when the choke is progressing rather than stalling
+- [[Submissions/Buggy Choke Finish]] - Primary submission alternative when the choke is progressing rather than stalling
 
-- [[Back Control]] - Alternative transition from buggy choke when the bottom player sits to guard
+- [[Positions/Back Control]] - Alternative transition from buggy choke when the bottom player sits to guard
 
-- [[Crucifix]] - Alternative attack from turtle top when the bottom player extends an arm during grip defense
+- [[Positions/Crucifix]] - Alternative attack from turtle top when the bottom player extends an arm during grip defense
 
-- [[Front Headlock]] - Related turtle attack position with overlapping control and transition pathways
+- [[Positions/Front Headlock]] - Related turtle attack position with overlapping control and transition pathways
 
 
 </section>

@@ -21,7 +21,7 @@ This transition represents a significant upgrade in control hierarchy. While the
 
 From a strategic perspective, the Body Triangle Lock transition is particularly valuable because it converts a moderately sustainable position (Gift Wrap with hooks) into a highly sustainable dominant position. The body triangle requires minimal energy to maintain once established, allowing the top player to wait patiently for submission opportunities while their opponent exhausts themselves attempting to escape. This position exemplifies the principle of using positional dominance to create submission openings rather than forcing techniques against active defense.
 
-**From Position**: [[Gift Wrap]] (Top)
+**From Position**: [[Positions/Gift Wrap]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic perspective, the Body Triangle Lock transition is particularly 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Body Triangle]] | 65% |
-| Failure | [[Gift Wrap]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Back Control/Body Triangle]] | 65% |
+| Failure | [[Positions/Gift Wrap]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -183,21 +183,21 @@ Body Triangle Lock serves as a critical transition within the back attack system
 ## Related Techniques
 
 
-- [[Gift Wrap]] - Starting position - transition begins from established Gift Wrap control
+- [[Positions/Gift Wrap]] - Starting position - transition begins from established Gift Wrap control
 
-- [[Body Triangle]] - Target position - successful transition establishes body triangle leg configuration
+- [[Positions/Back Control/Body Triangle]] - Target position - successful transition establishes body triangle leg configuration
 
-- [[Back Control]] - Parent position system - Body Triangle Lock is part of back control methodology
+- [[Positions/Back Control]] - Parent position system - Body Triangle Lock is part of back control methodology
 
-- [[Rear Naked Choke]] - Primary follow-up - body triangle creates optimal RNC finishing conditions
+- [[Transitions/Rear Naked Choke]] - Primary follow-up - body triangle creates optimal RNC finishing conditions
 
-- [[Crucifix]] - Alternative advancement - can transition to crucifix if opponent attempts belly-down escape
+- [[Positions/Crucifix]] - Alternative advancement - can transition to crucifix if opponent attempts belly-down escape
 
-- [[Back Take from Top]] - Entry pathway - common method of reaching Gift Wrap before body triangle
+- [[Transitions/Back Take from Top]] - Entry pathway - common method of reaching Gift Wrap before body triangle
 
-- [[Back Door Escape]] - Defensive counter-system - understanding escapes improves offensive application
+- [[Transitions/Back Door Escape]] - Defensive counter-system - understanding escapes improves offensive application
 
-- [[Technical Mount]] - Alternative advancement - can follow opponent to mount if body triangle is blocked
+- [[Positions/Mount/Technical Mount]] - Alternative advancement - can follow opponent to mount if body triangle is blocked
 
 
 </section>

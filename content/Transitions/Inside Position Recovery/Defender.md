@@ -156,7 +156,7 @@ As the defender against Inside Position Recovery, you are the top player in leg 
 
 Your defensive strategy centers on constant forward pressure through your shoulder into their hip, heavy crossface or head control to prevent them from creating the structural frames needed for hip escape, and maintaining tight leg control that eliminates the space needed for extraction. When you feel your opponent begin framing against your shoulder, you must immediately increase pressure and advance your position rather than fighting statically against their frames. The leg drag is inherently transitional—if you treat it as a resting position, your opponent will eventually recover. Your best defense is a relentless offense, constantly threatening advancement to side control, mount, or back take, which forces your opponent to address new threats rather than executing their recovery sequence.
 
-**Opponent's Starting Position**: [[Leg Drag Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ Your defensive strategy centers on constant forward pressure through your should
 ### 1. Drive shoulder pressure forward and sprawl hips into opponent's hip line when you feel them establish a frame
 
 - **When to use**: Immediately when you detect the opponent's far-side forearm pressing against your shoulder—this is the earliest and most effective intervention point
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: Opponent's frame collapses under your pressure, they remain flat and trapped in leg drag control with no space to hip escape
 - **Risk**: If you overcommit forward, opponent may use your momentum for a technical standup or granby roll
 
 ### 2. Backstep and re-angle your leg control when opponent creates hip space, switching your hips to follow their movement
 
 - **When to use**: When opponent has already created some hip angle through a successful partial hip escape but has not yet extracted their leg
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: Your re-angled position eliminates the space they created, and your adjusted leg control traps their leg at the new angle
 - **Risk**: Backstepping momentarily lightens your pressure, and a well-timed opponent may accelerate their extraction during the transition
 
 ### 3. Release leg drag control and immediately transition to back take as opponent moves their hips
 
 - **When to use**: When opponent has created significant hip angle and leg extraction appears imminent—converting your control to a back take before they establish hooks
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You secure back control with hooks before opponent can turn to face you, converting their escape attempt into a worse position for them
 - **Risk**: If opponent reads the back take attempt and fights for underhook, you may lose both the leg drag and the back take, ending in a scramble
 
 ### 4. Consolidate immediately to side control by driving crossface and pinning their far shoulder as they begin hip movement
 
 - **When to use**: When you feel their recovery is likely to succeed and maintaining leg drag is no longer viable—better to consolidate to side control than lose position entirely
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You achieve side control before they can insert butterfly hooks, trading leg drag for a consolidated dominant position
 - **Risk**: Rushing to side control without proper crossface may leave space for opponent to insert a knee shield or recover half guard
 
@@ -227,11 +227,11 @@ Your defensive strategy centers on constant forward pressure through your should
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Drag Control]]
+### → [[Positions/Leg Drag Control]]
 
 Shut down the recovery at the frame stage by driving heavy shoulder pressure forward the moment you feel their forearm against your shoulder. Keep your hips low and heavy on their hip line, denying the space needed for hip escape. Maintain tight grip on their trapped leg and constantly threaten advancement to keep them defensive.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the opponent creates sufficient angle that leg drag retention becomes difficult, immediately consolidate to side control by establishing a deep crossface and driving your chest across their torso. Pin their far shoulder to the mat before they can sit up or insert butterfly hooks. This converts your transitional leg drag into a stable dominant position.
 

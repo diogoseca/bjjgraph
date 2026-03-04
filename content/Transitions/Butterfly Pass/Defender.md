@@ -146,7 +146,7 @@ description: "How to defend against Butterfly Pass in BJJ. Recognition cues, def
 
 Defending the butterfly pass requires understanding the passer's sequential pressure system and disrupting it before hooks are neutralized. As the butterfly guard player, your defensive framework centers on maintaining upright posture, keeping hooks active with constant elevator pressure, and controlling the passer's upper body to prevent them from establishing the forward pressure that enables hook clearing. The defender holds a significant structural advantage when butterfly guard is properly maintained - inside position via hooks, superior leverage geometry, and multiple offensive threats that force the passer to divide attention between passing and defending sweeps. Effective defense is not purely reactive. The best butterfly guard retention combines proactive grip fighting to prevent the passer from establishing dominant controls with immediate counter-attacks whenever the passer commits weight to clearing a hook. Each passing attempt creates a brief window where the passer's base is compromised by the weight shift required to flatten a hook, and a prepared defender can exploit these windows with sweeps, back takes, or transitions to X-Guard and deep half guard. The goal is to make the passer pay a positional cost for every passing attempt, creating a dilemma where committing to the pass exposes them to counter-attacks.
 
-**Opponent's Starting Position**: [[Butterfly Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Top)
 
 </section>
 
@@ -185,28 +185,28 @@ Defending the butterfly pass requires understanding the passer's sequential pres
 ### 1. Sit up explosively and re-establish dominant grips while driving hooks deeper under opponent's thighs to restore full butterfly guard elevation
 
 - **When to use**: Early in the passing sequence when passer begins applying forward pressure but before they have committed weight to clearing a specific hook
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Fully resets the guard position, forces passer to restart their approach, and creates immediate sweep opportunity from re-established posture
 - **Risk**: If passer has already secured strong collar control, sitting up into their pressure may allow them to drive you back down more forcefully
 
 ### 2. Execute butterfly sweep toward the side where passer has shifted weight to flatten your hook, using their committed weight against them
 
 - **When to use**: When passer shifts weight laterally to address one hook, momentarily compromising their base on the opposite side
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Reverses the position entirely, sweeping passer to their back and achieving top position with points scored
 - **Risk**: If sweep is not timed precisely with the weight shift, passer can use the wide base to resist and accelerate their passing progression
 
 ### 3. Transition to deep half guard by scooping the near leg as passer clears your primary hook, establishing a new guard configuration before the pass completes
 
 - **When to use**: When first hook has been partially cleared and passer is driving crossface pressure, making butterfly guard recovery unlikely
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Establishes deep half guard position with sweep opportunities, denying side control and creating a new guard system to work from
 - **Risk**: If transition is too slow, passer may already have sufficient upper body control to prevent deep half establishment and complete the pass
 
 ### 4. Execute arm drag to opponent's back as they reach forward for grips or crossface, converting their forward pressure into a back exposure
 
 - **When to use**: When passer extends an arm to establish collar grip, crossface, or underhook during the passing sequence
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Takes opponent's back, achieving the most dominant position in BJJ and completely negating their passing attempt
 - **Risk**: Failed arm drag can leave you flat with one arm committed, potentially accelerating the pass if passer maintains base
 
@@ -218,11 +218,11 @@ Defending the butterfly pass requires understanding the passer's sequential pres
 
 ## Best-Case Outcomes for Defender
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 Maintain active hooks and strong upper body grips to prevent the passer from establishing the forward pressure and base width needed for systematic hook clearing. Fight every grip break, immediately re-pummell for underhooks, and use constant hook elevation to keep the passer reactive. When they attempt to flatten a hook, use the window to re-insert the hook or transition to an alternative guard before they can secure control.
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 Time a butterfly sweep to coincide with the passer's lateral weight shift during hook clearing. As they commit their hip downward to flatten one hook, their base is momentarily compromised on the opposite side. Drive your hook on the open side upward while pulling their upper body in the same direction with your grips. The combination of their committed weight and your coordinated elevation-pull creates the off-balance needed for a clean sweep to top position.
 

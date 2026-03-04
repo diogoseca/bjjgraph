@@ -188,7 +188,7 @@ As the person executing the leg extraction from truck, your objective is to free
 
 Your extraction mechanics must work against the opponent's hook configuration while avoiding the common trap of pulling straight back against the strongest axis of their control. Circular and rotational movements exploit gaps in the entanglement that linear force cannot access. Timing the extraction to coincide with the opponent's weight shifts during submission transitions dramatically increases success rate.
 
-**From Position**: [[Truck]] (Bottom)
+**From Position**: [[Positions/Twister Control/Truck]] (Bottom)
 
 </section>
 
@@ -241,9 +241,9 @@ Your extraction mechanics must work against the opponent's hook configuration wh
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 38% |
-| Failure | [[Truck]] | 40% |
-| Counter | [[Back Control]] | 22% |
+| Success | [[Positions/Turtle]] | 38% |
+| Failure | [[Positions/Twister Control/Truck]] | 40% |
+| Counter | [[Positions/Back Control]] | 22% |
 
 
 </section>
@@ -252,10 +252,10 @@ Your extraction mechanics must work against the opponent's hook configuration wh
 
 ## Opponent Counters
 
-- **Opponent tightens figure-four entanglement and squeezes hooks when they feel ankle rotation beginning** (Effectiveness: High) - Your Response: Pause extraction, return to fighting boot pressure, and attempt from a different angle once the opponent relaxes. Alternatively, use the ankle rotation as a feint and chain into a granby roll while their attention is focused on maintaining leg control. → Leads to [[Truck]]
-- **Opponent attacks calf slicer by extending your leg during the extraction attempt** (Effectiveness: Medium) - Your Response: Immediately bend the knee sharply to reduce compression on the joint. The calf slicer attack often loosens the figure-four configuration, so use the changed geometry to accelerate extraction through the new angle. Tap immediately if compression becomes dangerous. → Leads to [[Truck]]
-- **Opponent transitions to back control by inserting hooks as the leg comes free from the entanglement** (Effectiveness: Medium) - Your Response: Speed up the turtle-up sequence and immediately address any hooks being inserted. Kick your legs back to strip shallow hooks before they set. If back control is established, transition to standard back defense protocol. → Leads to [[Back Control]]
-- **Opponent increases chest pressure and flattens you to prevent the hip rotation needed for extraction** (Effectiveness: High) - Your Response: Use elbow frames against their chest to create enough separation for hip movement. If flattening is complete, switch to granby roll or hip escape variant rather than continuing extraction from a flattened position where hip rotation is impossible. → Leads to [[Truck]]
+- **Opponent tightens figure-four entanglement and squeezes hooks when they feel ankle rotation beginning** (Effectiveness: High) - Your Response: Pause extraction, return to fighting boot pressure, and attempt from a different angle once the opponent relaxes. Alternatively, use the ankle rotation as a feint and chain into a granby roll while their attention is focused on maintaining leg control. → Leads to [[Positions/Twister Control/Truck]]
+- **Opponent attacks calf slicer by extending your leg during the extraction attempt** (Effectiveness: Medium) - Your Response: Immediately bend the knee sharply to reduce compression on the joint. The calf slicer attack often loosens the figure-four configuration, so use the changed geometry to accelerate extraction through the new angle. Tap immediately if compression becomes dangerous. → Leads to [[Positions/Twister Control/Truck]]
+- **Opponent transitions to back control by inserting hooks as the leg comes free from the entanglement** (Effectiveness: Medium) - Your Response: Speed up the turtle-up sequence and immediately address any hooks being inserted. Kick your legs back to strip shallow hooks before they set. If back control is established, transition to standard back defense protocol. → Leads to [[Positions/Back Control]]
+- **Opponent increases chest pressure and flattens you to prevent the hip rotation needed for extraction** (Effectiveness: High) - Your Response: Use elbow frames against their chest to create enough separation for hip movement. If flattening is complete, switch to granby roll or hip escape variant rather than continuing extraction from a flattened position where hip rotation is impossible. → Leads to [[Positions/Twister Control/Truck]]
 
 
 </section>

@@ -21,7 +21,7 @@ The mechanics of the Short Choke differ from traditional rear naked chokes in th
 
 Strategically, the Short Choke represents the most direct submission threat from Gift Wrap and should be viewed as the primary attack from this position. When the opponent defends the Short Choke by tucking their chin or using their free hand, this creates openings for secondary attacks including armbar on the free arm, transition to crucifix, or advancement to mounted positions. Understanding this attack tree transforms the Gift Wrap into a systematic submission hunting position rather than a static control.
 
-**From Position**: [[Gift Wrap]] (Top)
+**From Position**: [[Positions/Gift Wrap]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -33,8 +33,8 @@ Strategically, the Short Choke represents the most direct submission threat from
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Gift Wrap]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Failure | [[Positions/Gift Wrap]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -193,21 +193,21 @@ The Short Choke Attack occupies a central position within the Gift Wrap attack s
 ## Related Techniques
 
 
-- [[Gift Wrap]] - Starting position - Short Choke is primary attack from this control
+- [[Positions/Gift Wrap]] - Starting position - Short Choke is primary attack from this control
 
-- [[Rear Naked Choke]] - Alternative choke - standard RNC if Short Choke entry is blocked
+- [[Transitions/Rear Naked Choke]] - Alternative choke - standard RNC if Short Choke entry is blocked
 
-- [[Armbar from Back]] - Chain attack - available when opponent uses free arm to defend choke
+- [[Submissions/Armbar from Back]] - Chain attack - available when opponent uses free arm to defend choke
 
-- [[Crucifix Transition]] - Positional advancement - accessible when opponent defends choke by turning away
+- [[Transitions/Crucifix Transition]] - Positional advancement - accessible when opponent defends choke by turning away
 
-- [[Gift Wrap to Technical Mount]] - Positional chain - advancement option maintaining arm control
+- [[Transitions/Gift Wrap to Technical Mount]] - Positional chain - advancement option maintaining arm control
 
-- [[Back Control]] - Parent position system - Short Choke is part of comprehensive back attacks
+- [[Positions/Back Control]] - Parent position system - Short Choke is part of comprehensive back attacks
 
-- [[Body Triangle Lock]] - Control enhancement - stabilizes position for cleaner choke attempts
+- [[Transitions/Body Triangle Lock]] - Control enhancement - stabilizes position for cleaner choke attempts
 
-- [[Bow and Arrow Choke]] - Alternative attack - available in gi from similar control position
+- [[Transitions/Bow and Arrow Choke]] - Alternative attack - available in gi from similar control position
 
 
 </section>

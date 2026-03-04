@@ -154,7 +154,7 @@ description: "Defend and counter the toreando pass from inverted guard. Recognit
 
 As the inverted guard player facing a toreando pass attempt, your primary challenge is tracking the passer's lateral movement with your hips while maintaining grip connections that prevent them from clearing your legs. The toreando threatens to bypass your entire inversion system by redirecting your legs to one side, eliminating the rotational angles you depend on for berimbolo entries, back takes, and leg entanglements. Successful defense requires recognizing the toreando setup early — bilateral leg grips combined with lateral stance shift — and immediately engaging your hip rotation and foot placement to prevent the passer from circling past your hip line. Your defensive hierarchy prioritizes maintaining the inverted guard position first and exploiting counter-attack opportunities second.
 
-**Opponent's Starting Position**: [[Inverted Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Inverted Guard]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ As the inverted guard player facing a toreando pass attempt, your primary challe
 ### 1. Aggressive hip rotation to track the passer's lateral movement, keeping legs oriented toward them throughout the circling attempt
 
 - **When to use**: As soon as you feel bilateral leg grips and lateral pressure beginning, before the passer gains momentum in their circling movement
-- **Targets**: [[Inverted Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: Passer cannot clear your hip line and must either abandon the toreando attempt or try a different passing approach
 - **Risk**: If hip rotation is too slow, the passer clears your hips and establishes side control before you can recover
 
 ### 2. Foot on hip placement to create an anchor point that blocks the passer's lateral circle and maintains distance control
 
 - **When to use**: When the passer begins circling but has not yet cleared your hip line, insert your near foot onto their lead hip to create a frame
-- **Targets**: [[Inverted Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: The foot-on-hip frame prevents the passer from completing their circle and gives you a platform to re-engage your guard position
 - **Risk**: If the passer strips the foot and continues circling, you lose both the frame and the time spent establishing it
 
 ### 3. Grip break on at least one pant grip followed by immediate hook re-engagement to recover guard structure
 
 - **When to use**: When the passer has both legs gripped but has not yet begun the lateral redirection, stripping one grip removes their bilateral control
-- **Targets**: [[Inverted Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: Breaking one grip prevents the coordinated lateral redirection, allowing you to re-engage with the freed leg through a hook or foot placement
 - **Risk**: The grip fighting window is brief — if you fail to break grips before the lateral movement begins, the momentum makes breaking grips significantly harder
 
 ### 4. Berimbolo counter-entry using the passer's forward weight commitment during the toreando to spin underneath for a back take
 
 - **When to use**: Only when the passer over-commits their weight forward during the lateral movement and you have a secure far hip or belt grip established
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You spin underneath the passer using their own forward momentum, achieving back control or a sweep to top position
 - **Risk**: If the passer maintains a low wide base without forward weight commitment, the berimbolo fails and you end up flattened with your back exposed
 
@@ -224,11 +224,11 @@ As the inverted guard player facing a toreando pass attempt, your primary challe
 
 ## Best-Case Outcomes for Defender
 
-### → [[Inverted Guard]]
+### → [[Positions/Inverted Guard]]
 
 Track the passer's lateral movement with aggressive hip rotation, maintaining your legs oriented toward them throughout the toreando attempt. Combine hip tracking with at least one anchor grip and foot-on-hip framing to prevent them from clearing your hip line and completing the pass.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the passer's forward weight commitment during the toreando by entering a berimbolo counter. Use their lateral momentum to spin underneath with a far hip or belt grip, achieving a sweep or back take that places them in half guard bottom or worse.
 

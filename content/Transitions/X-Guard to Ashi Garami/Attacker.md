@@ -186,7 +186,7 @@ description: "How to execute X-Guard to Ashi Transition in BJJ. Attacking perspe
 
 The X-Guard to Ashi Garami transition represents a fundamental connection between traditional sweeping systems and modern leg entanglement attacks. This transition exploits the inherent vulnerability of the standing opponent's near leg while maintaining the control framework established in X-Guard. The technique creates a seamless progression from a sweep-oriented position into a submission-focused leg entanglement, forcing opponents into a defensive dilemma where defending the sweep opens the leg lock, and defending the leg opens the sweep. This dual-threat system exemplifies modern no-gi grappling's evolution toward integrated positional systems. The transition requires precise timing, as the window of opportunity opens when the opponent attempts to disengage from X-Guard by pulling their trapped leg backward. Success depends on maintaining hip connection throughout the transition while simultaneously transitioning grip configurations from sweep-oriented controls to leg entanglement frames. Mastery of this transition fundamentally changes the threat landscape from X-Guard, transforming it from a purely sweeping position into a submission entry system.
 
-**From Position**: [[X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard]] (Bottom)
 
 </section>
 
@@ -242,9 +242,9 @@ The X-Guard to Ashi Garami transition represents a fundamental connection betwee
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 65% |
-| Failure | [[X-Guard]] | 25% |
-| Counter | [[X-Guard]] | 10% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 65% |
+| Failure | [[Positions/X-Guard]] | 25% |
+| Counter | [[Positions/X-Guard]] | 10% |
 
 
 </section>
@@ -253,11 +253,11 @@ The X-Guard to Ashi Garami transition represents a fundamental connection betwee
 
 ## Opponent Counters
 
-- **Opponent immediately pulls their leg back explosively when transition begins** (Effectiveness: Medium) - Your Response: Follow their backward movement with your hips, maintaining hook pressure and accelerating your transition. Use their backward momentum to facilitate your hip escape and angle creation. Commit fully to the leg entanglement rather than trying to retain X-Guard. → Leads to [[Inside Ashi-Garami]]
-- **Opponent steps over your bottom leg to prevent inside position establishment** (Effectiveness: High) - Your Response: If they successfully step over, immediately switch to outside Ashi Garami configuration or transition to single leg X-Guard. Alternatively, use their step-over movement to enter into a deep half guard position or kiss of the dragon back take. → Leads to [[X-Guard]]
-- **Opponent drops their weight forward, smashing into you during transition** (Effectiveness: Medium) - Your Response: Accept the forward pressure by going to your back while maintaining leg entanglement. Transition to a supine Ashi position or 50-50 guard configuration. Use the forward pressure to facilitate heel exposure and grip security. → Leads to [[Inside Ashi-Garami]]
-- **Opponent clears their trapped leg's knee line by limp-legging out** (Effectiveness: Low) - Your Response: Anticipate the limp leg escape by pre-emptively tightening your top hook and following their leg's movement. Maintain heel control throughout and adjust your angle to stay perpendicular to their hip. If necessary, transition to straight ankle lock position. → Leads to [[X-Guard]]
-- **Opponent turns away toward their trapped leg side** (Effectiveness: High) - Your Response: Your inside leg position is specifically designed to prevent this rotation. If they begin turning, drive your inside knee harder into their far hip and use your heel control to pull their leg back toward centerline. If rotation continues, follow them into outside Ashi or saddle position. → Leads to [[X-Guard]]
+- **Opponent immediately pulls their leg back explosively when transition begins** (Effectiveness: Medium) - Your Response: Follow their backward movement with your hips, maintaining hook pressure and accelerating your transition. Use their backward momentum to facilitate your hip escape and angle creation. Commit fully to the leg entanglement rather than trying to retain X-Guard. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent steps over your bottom leg to prevent inside position establishment** (Effectiveness: High) - Your Response: If they successfully step over, immediately switch to outside Ashi Garami configuration or transition to single leg X-Guard. Alternatively, use their step-over movement to enter into a deep half guard position or kiss of the dragon back take. → Leads to [[Positions/X-Guard]]
+- **Opponent drops their weight forward, smashing into you during transition** (Effectiveness: Medium) - Your Response: Accept the forward pressure by going to your back while maintaining leg entanglement. Transition to a supine Ashi position or 50-50 guard configuration. Use the forward pressure to facilitate heel exposure and grip security. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent clears their trapped leg's knee line by limp-legging out** (Effectiveness: Low) - Your Response: Anticipate the limp leg escape by pre-emptively tightening your top hook and following their leg's movement. Maintain heel control throughout and adjust your angle to stay perpendicular to their hip. If necessary, transition to straight ankle lock position. → Leads to [[Positions/X-Guard]]
+- **Opponent turns away toward their trapped leg side** (Effectiveness: High) - Your Response: Your inside leg position is specifically designed to prevent this rotation. If they begin turning, drive your inside knee harder into their far hip and use your heel control to pull their leg back toward centerline. If rotation continues, follow them into outside Ashi or saddle position. → Leads to [[Positions/X-Guard]]
 
 
 </section>

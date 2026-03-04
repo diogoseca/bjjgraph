@@ -156,7 +156,7 @@ description: "Defend the toe hold from Outside Ashi-Garami in BJJ. Recognition c
 
 Defending the toe hold from Outside Ashi-Garami requires immediate recognition of the opponent's grip change and rapid defensive response to prevent rotational damage to the ankle and knee. When controlling a leg entanglement from the bottom position, your feet are inherently vulnerable to counter-attacks from the top player, particularly when your hands are committed to your own offensive attacks. The defender must balance maintaining their offensive leg entanglement while protecting their feet from figure-four toe hold grips. Successful defense relies on early recognition—identifying the opponent's hand movement toward your foot before the figure-four is established—combined with systematic grip stripping and foot extraction techniques. At the highest level, skilled defenders transform the opponent's toe hold attempt into a positional advancement opportunity by exploiting the window created when the top player removes their hands from defensive positioning to reach for the foot.
 
-**Opponent's Starting Position**: [[Outside Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the toe hold from Outside Ashi-Garami requires immediate recognition o
 ### 1. Strip the figure-four grip before rotation begins using two-on-one hand fighting
 
 - **When to use**: Immediately upon recognizing the opponent's hand moving toward your foot or feeling initial grip contact on your toes
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: Position resets completely and you maintain your offensive leg entanglement with both hands free to resume attacks
 - **Risk**: Low—if the initial grip strip fails, you still have time for secondary defenses before rotation begins
 
 ### 2. Rotate hips in the direction of the twist to collapse rotational angle and relieve ankle pressure
 
 - **When to use**: When the figure-four is established but rotational pressure has not yet reached dangerous angles and you need immediate pressure relief
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: Neutralizes rotational force on ankle and knee, creates window to retract foot or strip grip while pressure is relieved
 - **Risk**: Medium—excessive rolling may compromise your leg entanglement position and hooks
 
 ### 3. Advance to Inside Ashi-Garami by threading your inside leg deeper while opponent's hands are occupied on the toe hold
 
 - **When to use**: When opponent commits both hands to the toe hold grip, removing their hands from defensive hip positioning and creating space for advancement
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You advance to a more dominant entanglement position while opponent is forced to abandon their counter-attack to address the worsening positional threat
 - **Risk**: Medium—requires precise timing and may briefly expose your foot further during the transition
 
 ### 4. Retract foot explosively by straightening leg before the figure-four grip fully locks
 
 - **When to use**: In the brief window between initial grip contact and figure-four completion, when the grip structure is not yet rigid
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: Foot extraction breaks the toe hold setup completely before it becomes mechanically threatening
 - **Risk**: Medium—if the grip holds, your now-extended leg may be more vulnerable to the rotational force
 
@@ -239,11 +239,11 @@ Defending the toe hold from Outside Ashi-Garami requires immediate recognition o
 
 ## Best-Case Outcomes for Defender
 
-### → [[Outside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 Strip the toe hold grip early through two-on-one hand fighting and foot retraction, maintaining your offensive leg entanglement position with no positional loss
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Capitalize on the opponent's commitment to the toe hold by advancing your entanglement through the inside space while their hands are occupied, transforming their counter-attack into your positional improvement
 

@@ -154,7 +154,7 @@ description: "Master defensive strategies against the Back Take from Anaconda. L
 
 Defending the Back Take from Anaconda requires the defender to recognize the transition moment and act decisively within a narrow window. The critical insight is that the attacker's grip transition from anaconda to seatbelt creates a brief vulnerability where neither grip is fully established. The defender who recognizes this window and immediately turns to face the attacker, establishes frames, or drives their hips away can prevent the back take and potentially improve their position. Conversely, the defender who fails to recognize the transition and continues defending the now-absent choke gives the attacker free passage to back control. Understanding the attacker's mechanics and timing is essential for mounting an effective defense, as the defender must differentiate between continued choke pressure and the shift toward positional advancement.
 
-**Opponent's Starting Position**: [[Anaconda Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Anaconda Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Back Take from Anaconda requires the defender to recognize the tra
 ### 1. Turn immediately to face the attacker during grip transition
 
 - **When to use**: The instant you feel the anaconda grip release or loosen, before the seatbelt is established
-- **Targets**: [[Anaconda Control]]
+- **Targets**: [[Positions/Anaconda Control]]
 - **If successful**: You face the attacker and can re-establish guard, recover to front headlock defense, or scramble to neutral position
 - **Risk**: If too slow, the attacker completes the seatbelt and you turn directly into their hooks, worsening your position
 
 ### 2. Drop hips flat to mat and sprawl legs backward to deny hook insertion
 
 - **When to use**: When the attacker has established seatbelt but has not yet inserted hooks, typically in the first second after grip transition
-- **Targets**: [[Anaconda Control]]
+- **Targets**: [[Positions/Anaconda Control]]
 - **If successful**: Attacker cannot insert hooks and must either release seatbelt to reposition or accept a stalled back take attempt without leg control
 - **Risk**: Sprawling while seatbelt is locked may allow attacker to use upper body control to drag you into hooks from a different angle
 
 ### 3. Hip switch and sit through to recover half guard
 
 - **When to use**: When the attacker has committed their weight behind you but has only one hook or no hooks established yet
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You rotate through the attacker's position and end up in half guard top, completely negating the back take and reversing positional advantage
 - **Risk**: If the attacker reads the sit-through, they can follow your hips and maintain back control through the rotation
 
 ### 4. Two-on-one grip fight on the seatbelt overhook arm to strip control
 
 - **When to use**: When the seatbelt is established but hooks are not yet secure, and you cannot turn to face due to chest pressure
-- **Targets**: [[Anaconda Control]]
+- **Targets**: [[Positions/Anaconda Control]]
 - **If successful**: Stripping the overhook arm breaks the seatbelt structure and forces the attacker to re-establish upper body control, creating another defensive window
 - **Risk**: Committing both hands to grip fighting the overhook leaves your neck momentarily exposed if the attacker transitions back to choke
 
@@ -225,7 +225,7 @@ Defending the Back Take from Anaconda requires the defender to recognize the tra
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Execute a hip switch and sit-through during the attacker's grip transition window, rotating your hips through their position to end up in half guard top. Time the sit-through when you feel the anaconda release but before hooks are inserted, using the brief moment of reduced control to generate the hip movement needed for the rotation.
 

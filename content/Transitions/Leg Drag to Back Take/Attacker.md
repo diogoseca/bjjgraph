@@ -184,7 +184,7 @@ The strategic value of this technique lies in its reliability and the dominant p
 
 Execution requires maintaining constant pressure and connection throughout the transition. The moment you feel your opponent begin to rotate away, you must immediately abandon your leg drag grip priorities and shift to back control grips. Your underhook on the near side becomes your seatbelt grip, while your other arm reaches over their back for the far hip or establishes harness control. The bottom hook inserts first as their hip turns, followed by the top hook once you have secured upper body control. Timing is critical—hesitation allows them to complete their escape to turtle, while premature movement telegraphs your intention.
 
-**From Position**: [[Leg Drag Control]] (Top)
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
 
@@ -237,9 +237,9 @@ Execution requires maintaining constant pressure and connection throughout the t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -248,10 +248,10 @@ Execution requires maintaining constant pressure and connection throughout the t
 
 ## Opponent Counters
 
-- **Opponent turns into you instead of away, fighting for underhook and attempting to face you** (Effectiveness: High) - Your Response: If they turn into you, abandon the back take and secure side control or mount instead. Use their momentum against them by driving them flat to the mat. → Leads to [[Leg Drag Control]]
-- **Opponent posts their far hand and attempts to sit up or technical standup during your transition** (Effectiveness: Medium) - Your Response: Increase your forward pressure and drive your shoulder into their back. Control their posting arm with your seatbelt grip or transition to a crucifix if they extend the arm. → Leads to [[Leg Drag Control]]
-- **Opponent turtles tightly before you can insert hooks, denying access to their hips** (Effectiveness: Medium) - Your Response: Maintain chest-to-back connection on the turtle and work your standard turtle attack sequences. Consider spiral riding or seat belt control to eventually get hooks. → Leads to [[Leg Drag Control]]
-- **Opponent clears the bottom hook before you secure the second hook using their hands** (Effectiveness: Medium) - Your Response: Immediately re-insert the hook or transition to body triangle if they continue defending hooks. Maintain seatbelt control throughout and be patient with hook insertion. → Leads to [[Leg Drag Control]]
+- **Opponent turns into you instead of away, fighting for underhook and attempting to face you** (Effectiveness: High) - Your Response: If they turn into you, abandon the back take and secure side control or mount instead. Use their momentum against them by driving them flat to the mat. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent posts their far hand and attempts to sit up or technical standup during your transition** (Effectiveness: Medium) - Your Response: Increase your forward pressure and drive your shoulder into their back. Control their posting arm with your seatbelt grip or transition to a crucifix if they extend the arm. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent turtles tightly before you can insert hooks, denying access to their hips** (Effectiveness: Medium) - Your Response: Maintain chest-to-back connection on the turtle and work your standard turtle attack sequences. Consider spiral riding or seat belt control to eventually get hooks. → Leads to [[Positions/Leg Drag Control]]
+- **Opponent clears the bottom hook before you secure the second hook using their hands** (Effectiveness: Medium) - Your Response: Immediately re-insert the hook or transition to body triangle if they continue defending hooks. Maintain seatbelt control throughout and be patient with hook insertion. → Leads to [[Positions/Leg Drag Control]]
 
 
 </section>

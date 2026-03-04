@@ -180,7 +180,7 @@ description: "Master executing counter throws from standing rear clinch bottom p
 
 As the attacker executing the counter throw, you are the bottom player in the standing rear clinch who converts a defensive position into an offensive reversal. Your primary advantage is that the opponent's committed forward pressure and locked grip structure create the very mechanical conditions that make throws possible. Their weight loaded onto your back becomes the force you redirect through hip rotation, level change, and directional commitment. Success requires reading the opponent's grip configuration and weight distribution to select the appropriate throw variant, then committing fully to execution with explosive timing. Half-measures result in the worst possible outcome: accelerated transition to ground-based back control where your opponent's advantages compound significantly.
 
-**From Position**: [[Standing Rear Clinch]] (Bottom)
+**From Position**: [[Positions/Standing Rear Clinch]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ As the attacker executing the counter throw, you are the bottom player in the st
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 35% |
-| Failure | [[Standing Rear Clinch]] | 38% |
-| Counter | [[Back Control]] | 27% |
+| Success | [[Positions/Mount]] | 35% |
+| Failure | [[Positions/Standing Rear Clinch]] | 38% |
+| Counter | [[Positions/Back Control]] | 27% |
 
 
 </section>
@@ -245,11 +245,11 @@ As the attacker executing the counter throw, you are the bottom player in the st
 
 ## Opponent Counters
 
-- **Opponent drops their weight and sits back on their hips when they feel level change** (Effectiveness: High) - Your Response: If the opponent removes their forward pressure before you can complete the level change, abort the throw attempt and transition to a standing switch or grip fighting escape instead. Do not force a throw against an opponent who has sat their weight back, as the required momentum is no longer available. → Leads to [[Standing Rear Clinch]]
-- **Opponent releases one grip to post their hand during the throwing rotation** (Effectiveness: Medium) - Your Response: If the opponent posts a hand during rotation, capitalize on the broken grip by immediately switching to a grip fighting escape sequence. The posted hand means they have voluntarily released control of your upper body. Strip the remaining grip and create separation to face them, or continue the rotation into a modified takedown targeting the posted arm. → Leads to [[Standing Rear Clinch]]
-- **Opponent sprawls their hips backward and drives their weight down on your back during level change** (Effectiveness: High) - Your Response: The sprawl counter is particularly dangerous as it can drive you to the mat in a front headlock or turtle position. If you feel the opponent sprawling during your level change, immediately abandon the throw and post your hands to prevent being driven facedown. Switch to a sit-out or Peterson roll escape to recover position rather than fighting the sprawl pressure. → Leads to [[Back Control]]
-- **Opponent steps around to the side during hip throw rotation, maintaining back angle** (Effectiveness: Medium) - Your Response: If the opponent circles to maintain their back angle during your rotation, they neutralize the hip throw but create an opportunity for the sacrifice throw variant. Drop immediately into tani otoshi by sitting to the side they are circling toward, using their own circular momentum against them. Alternatively, complete the full 360-degree rotation to re-face them and disengage to neutral standing. → Leads to [[Standing Rear Clinch]]
-- **Opponent locks body triangle or tightens body lock squeeze during throw attempt to maintain connection** (Effectiveness: Medium) - Your Response: A tightened body lock during the throw actually increases the throwing potential if you can complete the rotation, as the opponent is now permanently connected to your throwing arc. Increase your commitment to the throw rather than trying to escape the tightened grip. The locked connection means they cannot post or separate, making the throw more likely to succeed if you generate sufficient rotational force. → Leads to [[Mount]]
+- **Opponent drops their weight and sits back on their hips when they feel level change** (Effectiveness: High) - Your Response: If the opponent removes their forward pressure before you can complete the level change, abort the throw attempt and transition to a standing switch or grip fighting escape instead. Do not force a throw against an opponent who has sat their weight back, as the required momentum is no longer available. → Leads to [[Positions/Standing Rear Clinch]]
+- **Opponent releases one grip to post their hand during the throwing rotation** (Effectiveness: Medium) - Your Response: If the opponent posts a hand during rotation, capitalize on the broken grip by immediately switching to a grip fighting escape sequence. The posted hand means they have voluntarily released control of your upper body. Strip the remaining grip and create separation to face them, or continue the rotation into a modified takedown targeting the posted arm. → Leads to [[Positions/Standing Rear Clinch]]
+- **Opponent sprawls their hips backward and drives their weight down on your back during level change** (Effectiveness: High) - Your Response: The sprawl counter is particularly dangerous as it can drive you to the mat in a front headlock or turtle position. If you feel the opponent sprawling during your level change, immediately abandon the throw and post your hands to prevent being driven facedown. Switch to a sit-out or Peterson roll escape to recover position rather than fighting the sprawl pressure. → Leads to [[Positions/Back Control]]
+- **Opponent steps around to the side during hip throw rotation, maintaining back angle** (Effectiveness: Medium) - Your Response: If the opponent circles to maintain their back angle during your rotation, they neutralize the hip throw but create an opportunity for the sacrifice throw variant. Drop immediately into tani otoshi by sitting to the side they are circling toward, using their own circular momentum against them. Alternatively, complete the full 360-degree rotation to re-face them and disengage to neutral standing. → Leads to [[Positions/Standing Rear Clinch]]
+- **Opponent locks body triangle or tightens body lock squeeze during throw attempt to maintain connection** (Effectiveness: Medium) - Your Response: A tightened body lock during the throw actually increases the throwing potential if you can complete the rotation, as the opponent is now permanently connected to your throwing arc. Increase your commitment to the throw rather than trying to escape the tightened grip. The locked connection means they cannot post or separate, making the throw more likely to succeed if you generate sufficient rotational force. → Leads to [[Positions/Mount]]
 
 
 </section>

@@ -19,7 +19,7 @@ The Guillotine Setup represents one of the most fundamental and highest-percenta
 
 What makes this setup particularly valuable is its versatility across multiple contexts—it can be executed from standing exchanges, scrambles, failed takedown attempts, or ground transitions, making it an essential tool for practitioners at all levels. The guillotine setup embodies the principle of capitalizing on opponent mistakes, as it most commonly presents itself when an opponent shoots for a takedown, turtles defensively, or attempts to pass guard with poor posture. Understanding the nuances of grip configuration, head positioning, and hip placement during the setup phase dramatically increases the success rate of the subsequent choke, as a properly established guillotine is extraordinarily difficult to defend once locked in place.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -30,9 +30,9 @@ What makes this setup particularly valuable is its versatility across multiple c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Guillotine Control]] | 60% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Front Headlock]] | 15% |
+| Success | [[Positions/Guillotine Control]] | 60% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Front Headlock]] | 15% |
 
 
 </section>
@@ -196,29 +196,29 @@ The guillotine setup occupies a critical junction point in the BJJ positional hi
 ## Related Techniques
 
 
-- [[Front Headlock to Guillotine]] - Direct follow-up transition from front headlock to guillotine finish
+- [[Transitions/Front Headlock to Guillotine]] - Direct follow-up transition from front headlock to guillotine finish
 
-- [[Guillotine Choke]] - Primary submission finish after successful guillotine setup
+- [[Transitions/Guillotine Choke]] - Primary submission finish after successful guillotine setup
 
-- [[High Elbow Guillotine]] - Submission variation using elevated elbow mechanics
+- [[Submissions/High Elbow Guillotine]] - Submission variation using elevated elbow mechanics
 
-- [[Front Headlock to Anaconda]] - Alternative attack from same starting position
+- [[Transitions/Front Headlock to Anaconda]] - Alternative attack from same starting position
 
-- [[Front Headlock to Darce]] - Alternative attack from same starting position
+- [[Transitions/Front Headlock to Darce]] - Alternative attack from same starting position
 
-- [[Snap Down to Front Headlock]] - Entry method to establish the starting position
+- [[Transitions/Snap Down to Front Headlock]] - Entry method to establish the starting position
 
-- [[Guillotine from Turtle]] - Alternative entry when opponent turtles
+- [[Transitions/Guillotine from Turtle]] - Alternative entry when opponent turtles
 
-- [[Arm in Guillotine]] - Submission variation with trapped arm
+- [[Submissions/Arm in Guillotine]] - Submission variation with trapped arm
 
-- [[Ten Finger Guillotine]] - Grip variation for the finish
+- [[Submissions/Ten Finger Guillotine]] - Grip variation for the finish
 
-- [[Guillotine Defense]] - Counter-perspective showing opponent's defensive options
+- [[Transitions/Guillotine Defense]] - Counter-perspective showing opponent's defensive options
 
-- [[Front Headlock to Back]] - Alternative positional advancement from same control
+- [[Transitions/Front Headlock to Back]] - Alternative positional advancement from same control
 
-- [[Chin Strap Guillotine]] - Submission variation with chin strap grip
+- [[Submissions/Chin Strap Guillotine]] - Submission variation with chin strap grip
 
 
 </section>

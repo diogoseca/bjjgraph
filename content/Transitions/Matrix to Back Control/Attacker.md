@@ -180,7 +180,7 @@ description: "Execute the Matrix to Back Control counter from top position. Step
 
 As the attacker executing this counter, you are the top player who recognizes the opponent's Matrix rolling back take attempt and converts their rotation into your own back control. Your role requires reading the entry indicators, making the split-second decision to follow rather than resist the rotation, and maintaining connection throughout the dynamic movement to arrive in dominant back control. This is an advanced counter-attack that rewards pattern recognition, spatial awareness, and the ability to move fluidly with an opponent's momentum rather than against it. The technique fundamentally changes the risk-reward calculation of the Matrix for your opponents once they know you possess this counter.
 
-**From Position**: [[Matrix]] (Top)
+**From Position**: [[Positions/Matrix]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing this counter, you are the top player who recognizes th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Matrix]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Matrix]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing this counter, you are the top player who recognizes th
 
 ## Opponent Counters
 
-- **Bottom player aborts Matrix mid-rotation and returns to turtle** (Effectiveness: High) - Your Response: If they abort early, immediately switch to conventional turtle attacks such as seatbelt establishment, hook insertion from standard turtle top, or front headlock transitions. Their aborted rotation often leaves them in a compromised turtle with reduced base. → Leads to [[Matrix]]
-- **Bottom player accelerates rotation to complete Matrix before you can follow** (Effectiveness: Medium) - Your Response: Match their acceleration by driving forward explosively and prioritizing chest contact over hook insertion. Even if they complete the roll first, arriving at their back within one second still allows hook establishment before they can face you. → Leads to [[Back Control]]
-- **Bottom player redirects rotation into guard recovery rather than completing back take** (Effectiveness: Medium) - Your Response: When they shift from back take to guard recovery, immediately switch from following the rotation to passing. Their guard recovery from a failed Matrix typically leaves them in half guard with compromised frames. Transition to your passing game. → Leads to [[Half Guard]]
-- **Bottom player uses grips to pull you into an off-balance position during the follow** (Effectiveness: Medium) - Your Response: Maintain strong posture through your core and keep your base wide during the follow. If pulled off-balance, post with your free hand and prioritize chest contact over hook insertion. Re-establish balance before committing to hook placement. → Leads to [[Matrix]]
+- **Bottom player aborts Matrix mid-rotation and returns to turtle** (Effectiveness: High) - Your Response: If they abort early, immediately switch to conventional turtle attacks such as seatbelt establishment, hook insertion from standard turtle top, or front headlock transitions. Their aborted rotation often leaves them in a compromised turtle with reduced base. → Leads to [[Positions/Matrix]]
+- **Bottom player accelerates rotation to complete Matrix before you can follow** (Effectiveness: Medium) - Your Response: Match their acceleration by driving forward explosively and prioritizing chest contact over hook insertion. Even if they complete the roll first, arriving at their back within one second still allows hook establishment before they can face you. → Leads to [[Positions/Back Control]]
+- **Bottom player redirects rotation into guard recovery rather than completing back take** (Effectiveness: Medium) - Your Response: When they shift from back take to guard recovery, immediately switch from following the rotation to passing. Their guard recovery from a failed Matrix typically leaves them in half guard with compromised frames. Transition to your passing game. → Leads to [[Positions/Half Guard]]
+- **Bottom player uses grips to pull you into an off-balance position during the follow** (Effectiveness: Medium) - Your Response: Maintain strong posture through your core and keep your base wide during the follow. If pulled off-balance, post with your free hand and prioritize chest contact over hook insertion. Re-establish balance before committing to hook placement. → Leads to [[Positions/Matrix]]
 
 
 </section>

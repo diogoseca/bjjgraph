@@ -158,7 +158,7 @@ The critical defensive window exists before the passer achieves full spinal comp
 
 Successful defense requires recognizing the stack attempt early through tactile cues—the passer lowering their level, shoulder contact on your thighs, and the forward walking motion that signals committed pressure. Early recognition allows proactive frame establishment before the compression wave arrives, rather than reactive defense under full weight. The defender who waits until they are folded to begin defending has already lost the critical window.
 
-**Opponent's Starting Position**: [[Lapel Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful defense requires recognizing the stack attempt early through tactile 
 ### 1. Frame on shoulder and create hip angle before compression completes
 
 - **When to use**: Early in the stack attempt when you feel the passer lower their level and begin driving forward but before your knees reach your chest
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Stalls the stack at an incomplete compression level where your hip mobility is preserved, allowing you to re-establish lapel guard distance or reconfigure your grips for sweep attacks
 - **Risk**: If frames are weak or late, the passer collapses through them and achieves full compression with you already partially folded
 
 ### 2. Sit-up back take by following the passer's forward momentum and coming up behind them
 
 - **When to use**: When the passer commits fully to the forward drive with their weight over their toes and their back exposed, particularly if their head control is not yet established
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: You come up to a sitting position behind the passer, using their forward momentum against them to recover guard or threaten back control
 - **Risk**: If the passer has already established crossface or head control, the sit-up attempt fails and you end up more compressed with wasted energy
 
 ### 3. Lock closed guard around their waist as they enter compression range
 
 - **When to use**: When the passer's hips are close enough to lock your ankles behind their back but before they clear your legs to the side, typically during the transition from drive to hip-clearing phase
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You neutralize the stack pass entirely by establishing closed guard, removing the lapel entanglement problem and resetting to a fundamentally different positional exchange
 - **Risk**: Locking closed guard abandons your lapel configuration and the passer may have already achieved enough compression to make closed guard uncomfortable with your knees near your face
 
 ### 4. Release lapel grip and transition to spider or lasso guard using passer's forward commitment
 
 - **When to use**: When the stack pressure is building but not yet at full compression, and you recognize your lapel configuration cannot survive the pressure—typically mid-drive when frames are barely holding
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: You transition to a guard system that functions better under forward pressure, using bicep control and leg frames to manage the passer's committed weight
 - **Risk**: The guard transition creates a brief moment with no established control where the passer can accelerate through to complete the pass
 
@@ -228,11 +228,11 @@ Successful defense requires recognizing the stack attempt early through tactile 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lapel Guard]]
+### → [[Positions/Lapel Guard]]
 
 Establish strong shoulder frames the moment you feel the passer lower their level and begin driving. Use your frame hand on their lead shoulder to stall the forward drive while simultaneously rotating your hips to a 45-degree angle. From this angled position, use your lapel grip to pull them laterally off-balance, disrupting their straight-line compression. If successful, you restore the distance and hip mobility needed for your lapel guard to function, and the passer must restart their approach.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time the guard lock during the transition between the passer's forward drive and their attempt to walk hips around your legs. As they commit their weight forward and their hips enter range, uncross your legs from lapel guard configuration and lock your ankles behind their lower back. Pull them into your guard with your heels while simultaneously releasing the lapel grip. This converts a losing exchange into a neutral position where you can work standard closed guard offense without the lapel entanglement complicating the situation.
 

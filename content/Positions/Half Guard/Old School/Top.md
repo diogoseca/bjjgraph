@@ -210,21 +210,21 @@ From Old School Top, the practitioner can transition to passing positions like s
 
 ## Available Attacks
 
-### [[Half Guard Pass]] (33% of attempts)
+### [[Transitions/Half Guard Pass]] (33% of attempts)
 
-### [[Knee Slice Pass]] (17% of attempts)
+### [[Transitions/Knee Slice Pass]] (17% of attempts)
 
-### [[Crossface Pass]] (21% of attempts)
+### [[Transitions/Crossface Pass]] (21% of attempts)
 
-### [[Lockdown Break and Pass]] (17% of attempts)
+### [[Transitions/Lockdown Break and Pass]] (17% of attempts)
 
-### [[Darce from Lockdown Counter]] (7% of attempts)
+### [[Transitions/Darce from Lockdown Counter]] (7% of attempts)
 
-### [[Crossface from Old School]] (3% of attempts)
+### [[Transitions/Crossface from Old School]] (3% of attempts)
 
-### [[Defend Old School Sweep]] (1% of attempts)
+### [[Transitions/Defend Old School Sweep]] (1% of attempts)
 
-### [[Old School Pass]] (1% of attempts)
+### [[Transitions/Old School Pass]] (1% of attempts)
 
 
 
@@ -235,23 +235,23 @@ From Old School Top, the practitioner can transition to passing positions like s
 ## Decision Making from This Position
 
 **If opponent maintains tight lockdown and attempts Old School Sweep with underhook:**
-- Execute **[[Heavy crossface and whizzer pressure]]** → [[Old School]] (Probability: 70%)
-- Execute **[[Sprawl hips back and post free leg]]** → [[Old School]] (Probability: 60%)
+- Execute **[[Heavy crossface and whizzer pressure]]** → [[Positions/Half Guard/Old School]] (Probability: 70%)
+- Execute **[[Sprawl hips back and post free leg]]** → [[Positions/Half Guard/Old School]] (Probability: 60%)
 
 
 **If opponent releases lockdown to transition to different guard:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent attempts to come up to dogfight position:**
-- Execute **[[Whizzer control to back take]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Sprawl and guillotine attack]]** → [[Guillotine Control]] (Probability: 45%)
+- Execute **[[Whizzer control to back take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Sprawl and guillotine attack]]** → [[Positions/Guillotine Control]] (Probability: 45%)
 
 
 **If opponent extends whizzered arm to create frames:**
-- Execute **[[Kimura on Trapped Arm]]** → [[Kimura Trap]] (Probability: 50%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 40%)
+- Execute **[[Transitions/Kimura on Trapped Arm]]** → [[Positions/Kimura Trap]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 40%)
 
 
 
@@ -385,15 +385,15 @@ Bottom player attempts Old School Sweep or Electric Chair entries while top play
 
 ## Related Positions and Techniques
 
-- **[[Lockdown]]** - Complementary position - what opponent is attempting from bottom
-- **[[Old School]]** - Opposite perspective - defending against this position
-- **[[Half Guard]]** - Parent position category
-- **[[Electric Chair]]** - Primary submission threat to defend against
-- **[[Dogfight Position]]** - Transitional position when opponent comes up on underhook
-- **[[Old School Sweep]]** - Primary sweep threat to defend against
-- **[[Half Guard Pass]]** - Primary offensive transition goal
-- **[[Deep Half Guard]]** - Position opponent may transition to if smash fails
-- **[[Kimura Trap]]** - Submission opportunity when opponent frames with whizzered arm
+- **[[Positions/Half Guard/Lockdown]]** - Complementary position - what opponent is attempting from bottom
+- **[[Positions/Half Guard/Old School]]** - Opposite perspective - defending against this position
+- **[[Positions/Half Guard]]** - Parent position category
+- **[[Positions/Half Guard/Electric Chair]]** - Primary submission threat to defend against
+- **[[Positions/Dogfight Position]]** - Transitional position when opponent comes up on underhook
+- **[[Transitions/Old School Sweep]]** - Primary sweep threat to defend against
+- **[[Transitions/Half Guard Pass]]** - Primary offensive transition goal
+- **[[Positions/Half Guard/Deep Half Guard]]** - Position opponent may transition to if smash fails
+- **[[Positions/Kimura Trap]]** - Submission opportunity when opponent frames with whizzered arm
 
 
 </section>

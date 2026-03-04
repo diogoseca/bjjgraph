@@ -210,19 +210,19 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 
 ## Available Escapes
 
-### [[Jailbreak to Turtle]] (22% of attempts)
+### [[Transitions/Jailbreak to Turtle]] (22% of attempts)
 
-### [[Jailbreak to Back Take]] (14% of attempts)
+### [[Transitions/Jailbreak to Back Take]] (14% of attempts)
 
-### [[Jailbreak to Deep Half Entry]] (15% of attempts)
+### [[Transitions/Jailbreak to Deep Half Entry]] (15% of attempts)
 
-### [[Guard Recovery from Jailbreak]] (15% of attempts)
+### [[Transitions/Guard Recovery from Jailbreak]] (15% of attempts)
 
-### [[Old School Sweep]] (12% of attempts)
+### [[Transitions/Old School Sweep]] (12% of attempts)
 
-### [[Lockdown Recovery]] (12% of attempts)
+### [[Transitions/Lockdown Recovery]] (12% of attempts)
 
-### [[Electric Chair Transition]] (10% of attempts)
+### [[Transitions/Electric Chair Transition]] (10% of attempts)
 
 
 
@@ -233,23 +233,23 @@ The biomechanical principle underlying the Jailbreak involves converting the opp
 ## Decision Making from This Position
 
 **If top player has heavy crossface pressure and is driving forward with weight committed:**
-- Execute **[[Explosive Jailbreak Roll]]** → [[Turtle]] (Probability: 65%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 55%)
+- Execute **[[Explosive Jailbreak Roll]]** → [[Positions/Turtle]] (Probability: 65%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
 
 
 **If top player bases out wide to prevent roll and underhook remains secure:**
-- Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 50%)
-- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 60%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 60%)
 
 
 **If top player follows the jailbreak roll motion attempting to maintain control:**
-- Execute **[[Continue Roll to Back Take]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Granby to Re-Guard]]** → [[Half Guard]] (Probability: 65%)
+- Execute **[[Continue Roll to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Granby to Re-Guard]]** → [[Positions/Half Guard]] (Probability: 65%)
 
 
 **If underhook is lost during escape attempt:**
-- Execute **[[Frame and Shrimp Recovery]]** → [[Half Guard]] (Probability: 40%)
-- Execute **[[Emergency Turtle]]** → [[Turtle]] (Probability: 50%)
+- Execute **[[Frame and Shrimp Recovery]]** → [[Positions/Half Guard]] (Probability: 40%)
+- Execute **[[Emergency Turtle]]** → [[Positions/Turtle]] (Probability: 50%)
 
 
 
@@ -383,14 +383,14 @@ Bottom player executes jailbreak while top player intentionally follows the roll
 
 ## Related Positions and Techniques
 
-- **[[Lockdown]]** - Preceding position - often used before attempting jailbreak escape
-- **[[Half Guard]]** - Parent position - jailbreak is escape option from this position
-- **[[Deep Half Guard]]** - Alternative transition target when jailbreak roll is defended
-- **[[Turtle]]** - Primary transition target - most common jailbreak destination
-- **[[Old School]]** - Related technique - uses similar underhook mechanics
-- **[[Electric Chair]]** - Related system - jailbreak often used when electric chair is defended
-- **[[Back Control]]** - Advanced transition target - achieved when opponent follows roll
-- **[[Flattened Half Guard]]** - Position to escape from - jailbreak addresses being flattened
+- **[[Positions/Half Guard/Lockdown]]** - Preceding position - often used before attempting jailbreak escape
+- **[[Positions/Half Guard]]** - Parent position - jailbreak is escape option from this position
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative transition target when jailbreak roll is defended
+- **[[Positions/Turtle]]** - Primary transition target - most common jailbreak destination
+- **[[Positions/Half Guard/Old School]]** - Related technique - uses similar underhook mechanics
+- **[[Positions/Half Guard/Electric Chair]]** - Related system - jailbreak often used when electric chair is defended
+- **[[Positions/Back Control]]** - Advanced transition target - achieved when opponent follows roll
+- **[[Positions/Half Guard/Flattened Half Guard]]** - Position to escape from - jailbreak addresses being flattened
 
 
 </section>

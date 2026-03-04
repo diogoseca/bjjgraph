@@ -180,7 +180,7 @@ description: "Learn to execute the Turn to Turtle escape from Knee on Belly. Ste
 
 As the bottom player under Knee on Belly, executing the Turn to Turtle requires precise timing, explosive rotation, and immediate defensive structure upon reaching turtle. This escape trades the suffocating diaphragm pressure of KOB for the back exposure of turtle — a calculated risk that demands you chain immediately into guard recovery. The attacker perspective focuses on creating the initial disruption through frames or bridges, executing the rotation with full commitment, and establishing an impenetrable turtle shell before the opponent can capitalize on the exposed back. Success depends not on reaching turtle but on what you do in the two seconds after arriving there.
 
-**From Position**: [[Knee on Belly]] (Bottom)
+**From Position**: [[Positions/Knee on Belly]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player under Knee on Belly, executing the Turn to Turtle requires 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 45% |
-| Failure | [[Knee on Belly]] | 30% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Turtle]] | 45% |
+| Failure | [[Positions/Knee on Belly]] | 30% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -243,9 +243,9 @@ As the bottom player under Knee on Belly, executing the Turn to Turtle requires 
 
 ## Opponent Counters
 
-- **Opponent follows the turn with chest pressure and immediately establishes seatbelt grip for back control** (Effectiveness: High) - Your Response: Accelerate your guard recovery sequence — execute an immediate sit-out or granby roll before they can insert hooks. The seatbelt without hooks is still escapable if you act within the first two seconds. Strip the choking arm with both hands while keeping elbows tight. → Leads to [[Back Control]]
-- **Opponent drives knee pressure deeper and crossfaces to pin head, preventing rotation from starting** (Effectiveness: High) - Your Response: Abandon the turn attempt and switch to an alternative escape. Use their forward pressure commitment against them by threading an underhook for half guard recovery or bridging into them to create space for a frame-and-shrimp escape. → Leads to [[Knee on Belly]]
-- **Opponent sprawls weight onto your back mid-rotation, flattening you before turtle can be established** (Effectiveness: Medium) - Your Response: If flattened mid-turn, immediately work to get your knees back underneath you by driving your hips upward. Use your elbows and forearms to create space between your torso and the mat. Alternatively, continue the rotation further to reach a full turtle even under their sprawl pressure. → Leads to [[Knee on Belly]]
+- **Opponent follows the turn with chest pressure and immediately establishes seatbelt grip for back control** (Effectiveness: High) - Your Response: Accelerate your guard recovery sequence — execute an immediate sit-out or granby roll before they can insert hooks. The seatbelt without hooks is still escapable if you act within the first two seconds. Strip the choking arm with both hands while keeping elbows tight. → Leads to [[Positions/Back Control]]
+- **Opponent drives knee pressure deeper and crossfaces to pin head, preventing rotation from starting** (Effectiveness: High) - Your Response: Abandon the turn attempt and switch to an alternative escape. Use their forward pressure commitment against them by threading an underhook for half guard recovery or bridging into them to create space for a frame-and-shrimp escape. → Leads to [[Positions/Knee on Belly]]
+- **Opponent sprawls weight onto your back mid-rotation, flattening you before turtle can be established** (Effectiveness: Medium) - Your Response: If flattened mid-turn, immediately work to get your knees back underneath you by driving your hips upward. Use your elbows and forearms to create space between your torso and the mat. Alternatively, continue the rotation further to reach a full turtle even under their sprawl pressure. → Leads to [[Positions/Knee on Belly]]
 
 
 </section>

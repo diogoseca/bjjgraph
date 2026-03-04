@@ -21,7 +21,7 @@ Defending the switch requires immediate recognition of the opponent's initial hi
 
 This technique sits at the intersection of wrestling defensive awareness and grappling control retention, representing an essential skill for any practitioner who relies on standing rear clinch as a primary control platform. Failure to develop reliable switch defense forces grapplers to abandon rear clinch positions prematurely or avoid them entirely, eliminating one of the highest-percentage standing control positions available for both takedowns and back takes in competition.
 
-**From Position**: [[Standing Rear Clinch]] (Top)
+**From Position**: [[Positions/Standing Rear Clinch]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This technique sits at the intersection of wrestling defensive awareness and gra
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Standing Rear Clinch]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Standing Rear Clinch]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Standing Switch Defense is a critical retention skill within the standing re
 ## Related Techniques
 
 
-- [[Standing Rear Clinch]] - Source position from which this defense operates when opponent attempts switch escape
+- [[Positions/Standing Rear Clinch]] - Source position from which this defense operates when opponent attempts switch escape
 
-- [[Standing Position]] - Target position upon successful defense when both practitioners disengage to neutral standing
+- [[Positions/Standing Position]] - Target position upon successful defense when both practitioners disengage to neutral standing
 
-- [[Half Guard]] - Counter outcome position if opponent completes the switch and takes controller down
+- [[Positions/Half Guard]] - Counter outcome position if opponent completes the switch and takes controller down
 
-- [[Counter Throw from Standing Rear Clinch]] - Related counter-technique from the same rear clinch position addressing different escape attempts
+- [[Transitions/Counter Throw from Standing Rear Clinch]] - Related counter-technique from the same rear clinch position addressing different escape attempts
 
-- [[Mat Return from Standing Rear Clinch]] - Primary offensive option that becomes available when switch defense maintains rear clinch control
+- [[Transitions/Mat Return from Standing Rear Clinch]] - Primary offensive option that becomes available when switch defense maintains rear clinch control
 
-- [[Clinch]] - Alternative standing control position if defense results in face-to-face engagement
+- [[Positions/Clinch]] - Alternative standing control position if defense results in face-to-face engagement
 
-- [[Back Control]] - High-value position accessible through mat return after successful switch defense
+- [[Positions/Back Control]] - High-value position accessible through mat return after successful switch defense
 
-- [[Body Lock Takedown]] - Alternative takedown option available after defending the switch while maintaining bodylock grip
+- [[Transitions/Body Lock Takedown]] - Alternative takedown option available after defending the switch while maintaining bodylock grip
 
-- [[Rear Clinch to Body Lock]] - Grip transition that strengthens switch defense by converting to bodylock configuration
+- [[Transitions/Rear Clinch to Body Lock]] - Grip transition that strengthens switch defense by converting to bodylock configuration
 
-- [[Standing Back Control]] - Related standing control position with different grip configuration and control emphasis
+- [[Positions/Back Control/Standing Back Control]] - Related standing control position with different grip configuration and control emphasis
 
 
 </section>

@@ -180,7 +180,7 @@ description: "How to execute the Upa Escape from bottom mount in BJJ. Step-by-st
 
 The Upa Escape from the attacker's perspective is the art of converting the most disadvantageous ground position into an immediate reversal through precise biomechanics and timing. As the person executing the escape, you must identify the correct side to attack based on your opponent's weight distribution, secure simultaneous arm and leg traps that eliminate their posting ability, then deliver an explosive rotational bridge that converts your hip extension power into angular momentum sufficient to roll them over your shoulder. The technique rewards practitioners who develop sensitivity to weight shifts and commitment patterns from the mounted opponent, allowing them to time the explosion for the precise moment when the opponent's base is weakest — typically when they reach forward for grips or submissions. Mastery of the upa requires developing explosive hip power through drilling, understanding the 45-degree bridge angle that prevents posting, and maintaining tight body-to-body connection throughout the roll to prevent the opponent from disengaging or taking the back during the transition.
 
-**From Position**: [[Mount]] (Bottom)
+**From Position**: [[Positions/Mount]] (Bottom)
 
 </section>
 
@@ -235,9 +235,9 @@ The Upa Escape from the attacker's perspective is the art of converting the most
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Mount]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Mount]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -246,11 +246,11 @@ The Upa Escape from the attacker's perspective is the art of converting the most
 
 ## Opponent Counters
 
-- **Opponent posts with free hand wide to establish base and prevent roll** (Effectiveness: High) - Your Response: Time the escape when their posting hand is committed elsewhere — reaching for submission grips, establishing collar control, or adjusting position. Alternatively, fake the upa to one side to draw their base shift, then execute to the opposite side. If they consistently post, switch to elbow escape which exploits their wide base. → Leads to [[Mount]]
-- **Opponent sits back on their heels in high mount to avoid forward weight shift** (Effectiveness: High) - Your Response: High mount with rearward weight makes upa nearly impossible. Switch to elbow escape or hip escape, which are more effective against rearward posture. Force their weight forward by framing against their hips and threatening to create space, then execute upa when they pressure back down to re-establish low mount. → Leads to [[Mount]]
-- **Opponent switches hips and takes back as you attempt to roll** (Effectiveness: Medium) - Your Response: Maintain extremely tight chest-to-chest connection during the roll — any gap allows hip switching. If you feel them beginning to take back, immediately abandon the upa and turn into them rather than completing the roll. Fight their hooks before they can establish back control with seatbelt grip. Prevention is key: the tighter your connection, the less room they have to switch. → Leads to [[Back Control]]
-- **Opponent grapevines your legs preventing foot trap and bridge power** (Effectiveness: Medium) - Your Response: Do not attempt upa with grapevined legs as you lack the necessary foot trap and bridging power. Focus on clearing the grapevine first by extending your legs forcefully and shrimping your hips side to side to break the hook. Once legs are free, immediately set foot trap and execute upa before they can re-establish the grapevine. → Leads to [[Mount]]
-- **Opponent secures crossface and collar grips preventing head turn and bridge angle** (Effectiveness: Low) - Your Response: Address the collar grip first by framing against their choking arm and stripping the grip. The head turn is helpful but not absolutely essential — you can still bridge effectively over your shoulder with limited head rotation by focusing on hip explosion and proper 45-degree angle. Prioritize the arm trap and foot trap over perfect head positioning. → Leads to [[Mount]]
+- **Opponent posts with free hand wide to establish base and prevent roll** (Effectiveness: High) - Your Response: Time the escape when their posting hand is committed elsewhere — reaching for submission grips, establishing collar control, or adjusting position. Alternatively, fake the upa to one side to draw their base shift, then execute to the opposite side. If they consistently post, switch to elbow escape which exploits their wide base. → Leads to [[Positions/Mount]]
+- **Opponent sits back on their heels in high mount to avoid forward weight shift** (Effectiveness: High) - Your Response: High mount with rearward weight makes upa nearly impossible. Switch to elbow escape or hip escape, which are more effective against rearward posture. Force their weight forward by framing against their hips and threatening to create space, then execute upa when they pressure back down to re-establish low mount. → Leads to [[Positions/Mount]]
+- **Opponent switches hips and takes back as you attempt to roll** (Effectiveness: Medium) - Your Response: Maintain extremely tight chest-to-chest connection during the roll — any gap allows hip switching. If you feel them beginning to take back, immediately abandon the upa and turn into them rather than completing the roll. Fight their hooks before they can establish back control with seatbelt grip. Prevention is key: the tighter your connection, the less room they have to switch. → Leads to [[Positions/Back Control]]
+- **Opponent grapevines your legs preventing foot trap and bridge power** (Effectiveness: Medium) - Your Response: Do not attempt upa with grapevined legs as you lack the necessary foot trap and bridging power. Focus on clearing the grapevine first by extending your legs forcefully and shrimping your hips side to side to break the hook. Once legs are free, immediately set foot trap and execute upa before they can re-establish the grapevine. → Leads to [[Positions/Mount]]
+- **Opponent secures crossface and collar grips preventing head turn and bridge angle** (Effectiveness: Low) - Your Response: Address the collar grip first by framing against their choking arm and stripping the grip. The head turn is helpful but not absolutely essential — you can still bridge effectively over your shoulder with limited head rotation by focusing on hip explosion and proper 45-degree angle. Prioritize the arm trap and foot trap over perfect head positioning. → Leads to [[Positions/Mount]]
 
 
 </section>

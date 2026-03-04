@@ -209,25 +209,25 @@ From a competitive perspective, mastering leg drag control has become essential 
 
 ## Available Attacks
 
-### [[Leg Drag Pass to Side Control]] (22% of attempts)
+### [[Transitions/Leg Drag Pass to Side Control]] (22% of attempts)
 
-### [[Leg Drag to Back Take]] (20% of attempts)
+### [[Transitions/Leg Drag to Back Take]] (20% of attempts)
 
-### [[Leg Drag to Mount]] (12% of attempts)
+### [[Transitions/Leg Drag to Mount]] (12% of attempts)
 
-### [[Leg Drag to Knee on Belly]] (12% of attempts)
+### [[Transitions/Leg Drag to Knee on Belly]] (12% of attempts)
 
-### [[Leg Drag to North-South]] (7% of attempts)
+### [[Transitions/Leg Drag to North-South]] (7% of attempts)
 
-### [[Leg Drag to Crucifix]] (4% of attempts)
+### [[Transitions/Leg Drag to Crucifix]] (4% of attempts)
 
-### [[Leg Drag to Inside Ashi]] (6% of attempts)
+### [[Transitions/Leg Drag to Inside Ashi]] (6% of attempts)
 
-### [[Leg Drag to Technical Mount]] (8% of attempts)
+### [[Transitions/Leg Drag to Technical Mount]] (8% of attempts)
 
-### [[Leg Drag to Darce Setup]] (7% of attempts)
+### [[Transitions/Leg Drag to Darce Setup]] (7% of attempts)
 
-### [[Darce from Leg Drag]] (2% of attempts)
+### [[Submissions/Darce from Leg Drag]] (2% of attempts)
 
 
 
@@ -238,28 +238,28 @@ From a competitive perspective, mastering leg drag control has become essential 
 ## Decision Making from This Position
 
 **If opponent turns away to protect guard and exposes back:**
-- Execute **[[Leg Drag to Back Take]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Leg Drag to Technical Mount]]** → [[Technical Mount]] (Probability: 25%)
+- Execute **[[Transitions/Leg Drag to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Leg Drag to Technical Mount]]** → [[Positions/Mount/Technical Mount]] (Probability: 25%)
 
 
 **If opponent stays flat on back and fights upper body control:**
-- Execute **[[Leg Drag to Mount]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Leg Drag Pass to Side Control]]** → [[Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Leg Drag to Mount]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Leg Drag Pass to Side Control]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If opponent attempts to sit up or turn into you:**
-- Execute **[[Leg Drag to Crucifix]]** → [[Crucifix]] (Probability: 50%)
-- Execute **[[Leg Drag to North-South]]** → [[North-South]] (Probability: 50%)
+- Execute **[[Transitions/Leg Drag to Crucifix]]** → [[Positions/Crucifix]] (Probability: 50%)
+- Execute **[[Transitions/Leg Drag to North-South]]** → [[Positions/North-South]] (Probability: 50%)
 
 
 **If opponent rolls to turtle to escape:**
-- Execute **[[Leg Drag to Darce Setup]]** → [[Darce Control]] (Probability: 55%)
-- Execute **[[Follow to Back Control]]** → [[Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Leg Drag to Darce Setup]]** → [[Positions/Darce Control]] (Probability: 55%)
+- Execute **[[Transitions/Follow to Back Control]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 **If opponent defends upper body strongly but you maintain leg control:**
-- Execute **[[Leg Drag to Inside Ashi]]** → [[Inside Ashi-Garami]] (Probability: 65%)
-- Execute **[[Leg Drag to Knee on Belly]]** → [[Knee on Belly]] (Probability: 35%)
+- Execute **[[Transitions/Leg Drag to Inside Ashi]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Transitions/Leg Drag to Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 35%)
 
 
 
@@ -393,16 +393,16 @@ Partner randomly performs one of four defensive reactions (turn away, stay flat,
 
 ## Related Positions and Techniques
 
-- **[[Side Control]]** - Primary consolidation target from successful leg drag pass
-- **[[Back Control]]** - High-percentage transition when opponent defends by turning away
-- **[[Mount]]** - Alternative consolidation when opponent stays flat
-- **[[Knee on Belly]]** - Quick pressure position to force opponent's reaction
-- **[[Leg Drag Pass]]** - The technique used to enter this control position
-- **[[Crucifix]]** - Advanced position available when opponent sits up from leg drag
-- **[[Inside Ashi-Garami]]** - Leg entanglement option when opponent defends upper body
-- **[[Darce Control]]** - Choking position available when opponent turtles
-- **[[Technical Mount]]** - Alternative to full mount when opponent is partially turned
-- **[[North-South]]** - Control option when opponent blocks mount transition
+- **[[Positions/Side Control]]** - Primary consolidation target from successful leg drag pass
+- **[[Positions/Back Control]]** - High-percentage transition when opponent defends by turning away
+- **[[Positions/Mount]]** - Alternative consolidation when opponent stays flat
+- **[[Positions/Knee on Belly]]** - Quick pressure position to force opponent's reaction
+- **[[Transitions/Leg Drag Pass]]** - The technique used to enter this control position
+- **[[Positions/Crucifix]]** - Advanced position available when opponent sits up from leg drag
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Leg entanglement option when opponent defends upper body
+- **[[Positions/Darce Control]]** - Choking position available when opponent turtles
+- **[[Positions/Mount/Technical Mount]]** - Alternative to full mount when opponent is partially turned
+- **[[Positions/North-South]]** - Control option when opponent blocks mount transition
 
 
 </section>

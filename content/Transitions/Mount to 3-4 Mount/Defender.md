@@ -138,7 +138,7 @@ description: "Complete defensive guide against the Transition to 3-4 Mount. Lear
 
 Defending the Transition to 3-4 Mount requires recognizing the setup cues before the leg extraction begins and exploiting the brief window of reduced base stability during the transition. The defender's primary advantage is that any base change from the top player temporarily reduces their contact points and control pressure—this is the moment where defensive action has the highest success rate. The key defensive insight is that prevention is far easier than escape: stopping the transition before it completes requires significantly less energy and technical precision than escaping settled 3-4 Mount after the top player consolidates. Effective defense begins with reading the weight shift that precedes the extraction, then immediately attacking that moment with frames, hip escape, or knee insertion before the asymmetric base is established.
 
-**Opponent's Starting Position**: [[Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -176,28 +176,28 @@ Defending the Transition to 3-4 Mount requires recognizing the setup cues before
 ### 1. Frame and hip escape toward the extracting leg side during the transition window
 
 - **When to use**: The moment you feel the opponent's leg begin to slide outward—this is the highest-percentage defensive window
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Insert knee shield on the extraction side and recover to half guard before the 3-4 Mount is consolidated
 - **Risk**: If timed too late, the opponent's posted foot is already established and your frame is met with consolidated asymmetric pressure
 
 ### 2. Explosive bridge toward the mounted side when weight shifts laterally
 
 - **When to use**: When you detect the weight loading phase before extraction begins—the pre-committed weight shift makes the opponent vulnerable to directional bridging
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Disrupts the transition timing and forces the opponent to re-settle standard mount, resetting the position
 - **Risk**: If the opponent has already posted the leg, the bridge drives into their strongest base point and wastes energy
 
 ### 3. Grip the extracting leg and prevent it from posting
 
 - **When to use**: When you detect the knee extraction beginning and can reach the leg before it clears your body
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Forces the opponent to abandon the transition and return to standard mount, preventing the positional adjustment entirely
 - **Risk**: Extending your arm to grip the leg exposes it to Americana or wrist control attacks if the grip fails
 
 ### 4. Turn into the extraction side and fight for underhook
 
 - **When to use**: When the leg extraction creates enough space for you to turn your shoulders and fight for inside position on the lighter side
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Establish underhook position that prevents mount reconsolidation and creates pathway to half guard or turtle
 - **Risk**: Turning exposes your back if the opponent is already in 3-4 position and can immediately transition to technical mount
 
@@ -209,11 +209,11 @@ Defending the Transition to 3-4 Mount requires recognizing the setup cues before
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Insert knee shield on the extraction side during the transition window when the opponent's base is temporarily reduced. Use the frame and hip escape combination timed to the leg extraction movement. Once the knee is inside, consolidate half guard grips immediately to prevent the opponent from re-passing.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Disrupt the transition before it completes by bridging explosively toward the mounted side during the weight shift phase. The opponent's committed lateral weight makes them vulnerable to a well-timed directional bridge that either reverses the position or forces them to abandon the transition and re-settle standard mount. This outcome requires detecting the transition early—before the leg extraction begins.
 

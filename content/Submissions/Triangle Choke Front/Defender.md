@@ -198,28 +198,28 @@ Once the triangle is fully locked and the attacker has angled off, your defensiv
 ### 1. Posture up and stack defense - drive your weight forward onto the attacker while posting your free hand on the mat beside their hip, then walk your knees forward to stack them onto their shoulders
 
 - **When to use**: Immediately when you feel the triangle being locked but before the attacker has fully angled off - most effective in the first 2-3 seconds after the lock is applied
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Relieves pressure on carotid arteries and creates space to begin extracting your head or inserting your second arm to neutralize the choke
 - **Risk**: If attacker has already angled off significantly, stacking can be redirected into an omoplata attempt by the attacker
 
 ### 2. Two-arm-in defense - immediately insert your free arm inside the triangle alongside your trapped arm, clasping your hands together and driving both forearms into their hip to create a frame
 
 - **When to use**: When the leg comes over your shoulder but before the triangle is fully locked - you have approximately 1-2 seconds to get the second arm inside
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Neutralizes the choke completely since both shoulders are inside and cannot compress the carotids - converts the position back to a standard guard scenario
 - **Risk**: Requires giving up posting arm which may expose you to sweeps if you lose base during the insertion
 
 ### 3. Stand up and posture defense - drive to your feet while keeping your back straight and use your elevated position to create downward pressure that prevents the attacker from maintaining angle control
 
 - **When to use**: When the triangle is partially locked but you still have reasonable posture and base - particularly effective against smaller or lighter attackers
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Creates significant distance and angle disruption, allowing you to begin working the head extraction or slam defense positioning
 - **Risk**: Standing with a triangle locked exposes you to armbar transition if attacker releases the triangle, and falling creates slam injury risk in training
 
 ### 4. Shoulder walk escape - turn your trapped shoulder toward the attacker's centerline while walking your body around toward their head, progressively creating space in the triangle
 
 - **When to use**: When the triangle is fully locked and you cannot immediately posture or stack - this is the primary late-stage escape when other options have been denied
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Creates enough space between your neck and their legs to extract your head or relieve carotid pressure, returning to guard
 - **Risk**: Slow escape that requires patience - if you rush the shoulder walk you may expose your back or create armbar opportunities
 
@@ -243,11 +243,11 @@ Once the triangle is fully locked and the attacker has angled off, your defensiv
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Successfully defend the triangle by stacking, inserting the second arm, or extracting your head, returning to standard closed guard top position where you can resume posture maintenance and guard passing
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Stand up during the triangle defense and use your elevated position to break free of the leg configuration, transitioning to open guard top where you have passing opportunities
 

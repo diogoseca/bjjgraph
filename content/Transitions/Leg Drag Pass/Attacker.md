@@ -174,7 +174,7 @@ description: "How to execute Leg Drag Pass in BJJ. Attacking perspective with se
 
 The Leg Drag Pass is one of the most fundamental and high-percentage guard passing techniques in modern Brazilian Jiu-Jitsu. This pass works by controlling the opponent's legs and dragging them across their body, creating an angle that eliminates their guard retention capabilities while establishing dominant control. The technique is particularly effective against seated guards, butterfly guard, and various open guard positions where the opponent's legs are extended or not locked together. What makes the leg drag so powerful is its ability to simultaneously shut down the opponent's offensive options while creating a clear path to side control or back control. The pass requires precise timing, proper weight distribution, and the ability to anticipate and counter common guard retention tactics. When executed correctly, the leg drag creates a positional hierarchy shift where the passer moves from a neutral or slightly disadvantaged position directly into a dominant control position. This makes it a cornerstone technique for competitive grapplers at all levels.
 
-**From Position**: [[Open Guard]] (Top)
+**From Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 
@@ -227,10 +227,10 @@ The Leg Drag Pass is one of the most fundamental and high-percentage guard passi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Success | [[Back Control]] | 10% |
-| Failure | [[Open Guard]] | 12% |
-| Counter | [[Half Guard]] | 8% |
+| Success | [[Positions/Side Control]] | 70% |
+| Success | [[Positions/Back Control]] | 10% |
+| Failure | [[Positions/Open Guard]] | 12% |
+| Counter | [[Positions/Half Guard]] | 8% |
 
 
 </section>
@@ -239,11 +239,11 @@ The Leg Drag Pass is one of the most fundamental and high-percentage guard passi
 
 ## Opponent Counters
 
-- **Opponent frames on your head/face to prevent chest connection** (Effectiveness: High) - Your Response: Swim your head under their frame while maintaining the leg drag control, or transition to a knee slice variation by cutting your knee across their bottom leg instead of maintaining the drag position → Leads to [[Open Guard]]
-- **Opponent establishes butterfly hook on dragged side to prevent pass completion** (Effectiveness: Medium) - Your Response: Address the butterfly hook immediately by using your free hand to strip it while increasing pressure on the trapped leg, or transition to a smash pass by flattening the butterfly hook with your shin and pressure → Leads to [[Open Guard]]
-- **Opponent turns away to turtle or gives their back defensively** (Effectiveness: Low) - Your Response: Accept the back exposure and transition directly to back control by establishing seat belt grips and inserting hooks. This is often considered a successful outcome as back control is superior to side control → Leads to [[Back Control]]
-- **Opponent locks their legs around your waist during the drag** (Effectiveness: Medium) - Your Response: Immediately posture up and begin standard closed guard breaking sequence, or if partially through the pass, drive your shoulder into their locked ankles while maintaining forward pressure to force them to unlock → Leads to [[Open Guard]]
-- **Opponent grabs your belt or gi pants to prevent forward momentum** (Effectiveness: Medium) - Your Response: Use your free hand to immediately strip the grip while maintaining the drag control with your primary arm. Continue circling motion to off-balance them and make the grip less effective → Leads to [[Open Guard]]
+- **Opponent frames on your head/face to prevent chest connection** (Effectiveness: High) - Your Response: Swim your head under their frame while maintaining the leg drag control, or transition to a knee slice variation by cutting your knee across their bottom leg instead of maintaining the drag position → Leads to [[Positions/Open Guard]]
+- **Opponent establishes butterfly hook on dragged side to prevent pass completion** (Effectiveness: Medium) - Your Response: Address the butterfly hook immediately by using your free hand to strip it while increasing pressure on the trapped leg, or transition to a smash pass by flattening the butterfly hook with your shin and pressure → Leads to [[Positions/Open Guard]]
+- **Opponent turns away to turtle or gives their back defensively** (Effectiveness: Low) - Your Response: Accept the back exposure and transition directly to back control by establishing seat belt grips and inserting hooks. This is often considered a successful outcome as back control is superior to side control → Leads to [[Positions/Back Control]]
+- **Opponent locks their legs around your waist during the drag** (Effectiveness: Medium) - Your Response: Immediately posture up and begin standard closed guard breaking sequence, or if partially through the pass, drive your shoulder into their locked ankles while maintaining forward pressure to force them to unlock → Leads to [[Positions/Open Guard]]
+- **Opponent grabs your belt or gi pants to prevent forward momentum** (Effectiveness: Medium) - Your Response: Use your free hand to immediately strip the grip while maintaining the drag control with your primary arm. Continue circling motion to off-balance them and make the grip less effective → Leads to [[Positions/Open Guard]]
 
 
 </section>

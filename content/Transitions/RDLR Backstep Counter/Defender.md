@@ -154,7 +154,7 @@ description: "Defend against the RDLR Backstep Counter in BJJ. Learn recognition
 
 Defending against the RDLR Backstep Counter requires early recognition of the top player's weight shift and stepping intention, followed by immediate action to either retain the Reverse De La Riva hook or capitalize on the backstep momentum for a sweep. The defender's primary advantage is that the backstep creates a moment of single-leg balance for the top player, providing a window for counter-attacks through inversions, guard transitions, or sweep entries. Success depends on maintaining ankle grip control as the primary steering tool, tracking the stepping leg with active hip rotation, and having pre-planned responses for each phase of the backstep sequence rather than passively allowing the hook to be cleared.
 
-**Opponent's Starting Position**: [[Reverse De La Riva Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against the RDLR Backstep Counter requires early recognition of the to
 ### 1. Reinforce ankle grip and follow the backstep with hip rotation, re-hooking the leg as it attempts to clear
 
 - **When to use**: Immediately upon sensing the backstep initiation—when the top player's hooked leg begins unloading weight and moving backward
-- **Targets**: [[Reverse De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 - **If successful**: RDLR guard is retained with the hook re-established, often at a deeper level than before the backstep attempt, putting you in a stronger guard position
 - **Risk**: If the top player's backstep arc is too wide to follow, you may overextend your hook and lose the position entirely, allowing them to establish Headquarters cleanly
 
 ### 2. Invert underneath the backstep, rotating shoulders toward the mat to initiate berimbolo or crab ride entry for back take or sweep
 
 - **When to use**: When the backstep creates space underneath the top player and their upper body control is loose enough to allow shoulder rotation toward the mat
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You invert underneath the top player and come up on top, establishing top position in half guard or progressing to back control through the berimbolo rotation
 - **Risk**: If the top player recognizes the inversion and drives chest down with body lock or cross-face, you may get flattened in a compromised position underneath their weight
 
 ### 3. Transition to Single Leg X or X-Guard by repositioning feet on the top player's hips as the backstep creates distance
 
 - **When to use**: When the backstep has partially cleared your hook but created enough space to insert feet on hips before Headquarters is established
-- **Targets**: [[Reverse De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 - **If successful**: You establish an alternative guard position with dual hip control, maintaining offensive guard options and preventing the pass from completing
 - **Risk**: If the top player strips your foot placement quickly, you end up in a neutral open guard with diminished control and no established hook structure
 
 ### 4. Use the backstep momentum to execute a technical standup, coming to feet before the top player can consolidate Headquarters
 
 - **When to use**: When the backstep creates enough separation that the top player's upper body control weakens, typically when they release the cross-face to manage the stepping leg
-- **Targets**: [[Reverse De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 - **If successful**: You return to standing position and can re-engage with your preferred guard pull or establish grips for a new guard entry from neutral
 - **Risk**: If the top player maintains upper body control during the standup, they may convert to a front headlock or snapdown, putting you in a worse position than the original RDLR
 
@@ -225,11 +225,11 @@ Defending against the RDLR Backstep Counter requires early recognition of the to
 
 ## Best-Case Outcomes for Defender
 
-### → [[Reverse De La Riva Guard]]
+### → [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 
 Track the backstep with active hip rotation and maintain your ankle grip throughout the stepping motion. As the top player's leg moves backward, follow with your hook by rotating your hips in the same direction, re-establishing the hook before they can settle into Headquarters. The key is recognizing the backstep early and matching their movement rather than holding a static hook position.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Capitalize on the single-leg balance moment during the backstep by inverting underneath the top player. As their hooked leg lifts and moves backward, use the space created to rotate your shoulders toward the mat and initiate a berimbolo entry. Time the inversion to coincide with the moment their weight is most committed to the posting leg, when their ability to drive forward and counter is most compromised.
 

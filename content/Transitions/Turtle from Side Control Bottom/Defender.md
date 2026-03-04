@@ -146,7 +146,7 @@ description: "Learn to prevent the turtle turn escape from side control top. Com
 
 As the top player in side control, preventing the bottom player's turtle turn is essential for maintaining your dominant position and continuing your offensive game plan. The turtle turn represents one of the most common escape attempts from side control bottom, and your ability to recognize and counter it directly impacts your positional control retention rate. Understanding the bottom player's mechanics allows you to position your weight and grips to either block the turn entirely, follow it to establish back control, or use their movement to advance to mount. The defender must balance between applying heavy pressure to prevent the turn and maintaining enough mobility to follow the bottom player's movement if the turn develops past the blocking point. Recognizing the turn early in its development gives you the greatest number of counter-options and the highest probability of maintaining or improving your position.
 
-**Opponent's Starting Position**: [[Side Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the top player in side control, preventing the bottom player's turtle turn is
 ### 1. Drive heavy crossface and re-settle hip pressure to block the turn before it develops
 
 - **When to use**: When you feel the initial frame being established against your hip or the first subtle hip rotation beginning
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Bottom player is re-pinned in side control with their escape attempt exhausted and energy spent on the failed turn
 - **Risk**: If crossface drive is too aggressive and unbalanced, it may create momentum the bottom player redirects into the turn
 
 ### 2. Follow the turn and immediately establish seatbelt control with hook insertion for back control
 
 - **When to use**: When the turn has already progressed past the blocking point and the bottom player is actively rotating to their knees
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You transition from side control top directly to back control with seatbelt grip and hooks, upgrading your position
 - **Risk**: If you follow too slowly, the bottom player completes their escape from turtle before you can establish control points
 
 ### 3. Control the near-side arm to prevent frame establishment before the turn can be initiated
 
 - **When to use**: Proactively when you anticipate the turn attempt based on the opponent's body positioning and grip fighting patterns
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Bottom player cannot establish the frame needed to create separation, shutting down the turn at its earliest stage
 - **Risk**: Focusing on arm control may reduce your crossface pressure, opening alternative escape routes like hip escape to guard
 
 ### 4. Re-settle weight and eliminate created space after a partial or failed turn attempt
 
 - **When to use**: When the bottom player's turn attempt stalls mid-rotation and they begin returning to their back
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Side control is re-established with the bottom player more fatigued and with fewer escape options remaining
 - **Risk**: Minimal risk if executed promptly, but delay allows the bottom player to re-establish frames for a second attempt
 
@@ -217,11 +217,11 @@ As the top player in side control, preventing the bottom player's turtle turn is
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Maintain heavy crossface with near-side hip blocking throughout. Keep chest pressure distributed across the opponent's torso and immediately re-settle weight after any escape attempt. Control the near-side arm to prevent frame establishment that precedes every turtle turn.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Allow the turn to develop past the blocking point, then follow the rotation with your chest staying connected to their back. Establish the seatbelt grip as they rotate by threading your choking arm over their shoulder and your underhook arm under their armpit. Insert your bottom hook before they can complete a defensive turtle shell.
 

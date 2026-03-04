@@ -180,7 +180,7 @@ description: "Execute the Mission Control entry from Rubber Guard with precise g
 
 From the attacker's perspective, entering Mission Control from Rubber Guard is about converting a controlling but limited position into a full offensive platform. The bottom player already has the essential elements in place: a high guard with the leg across the opponent's back, broken posture, and a trapped arm. The challenge is completing the structural lock by securing the shin with the overhook hand. This grip transition is the most technically demanding moment in the entire rubber guard entry sequence because it requires temporarily releasing one control point to establish a more dominant one. The attacker must manage this vulnerability window through precise timing, hip elevation, and maintained pressure with the remaining grip. Once the shin is secured and Mission Control is locked, the attacker transitions from a practitioner holding a guard position to one controlling a systematic submission platform.
 
-**From Position**: [[Rubber Guard]] (Bottom)
+**From Position**: [[Positions/Rubber Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ From the attacker's perspective, entering Mission Control from Rubber Guard is a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mission Control]] | 55% |
-| Failure | [[Rubber Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Mission Control]] | 55% |
+| Failure | [[Positions/Rubber Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ From the attacker's perspective, entering Mission Control from Rubber Guard is a
 
 ## Opponent Counters
 
-- **Opponent drives backward to recover posture before shin grip is secured** (Effectiveness: High) - Your Response: Follow their backward movement with your hips, maintaining hip elevation and pulling pressure. If posture recovery is imminent, abort the transition and return to standard rubber guard head control rather than fighting for a compromised Mission Control. → Leads to [[Rubber Guard]]
-- **Opponent extracts trapped arm during the grip transition vulnerability window** (Effectiveness: Medium) - Your Response: If the arm begins slipping free, immediately transition to triangle entry by bringing the outside leg across their face. Their arm extraction creates the exact space needed for the triangle lock. Use the arm movement as your trigger rather than fighting to retain it. → Leads to [[Open Guard]]
-- **Opponent drives forward with stacking pressure to collapse hip elevation and prevent threading** (Effectiveness: Medium) - Your Response: Accept their forward pressure and use it to deepen the posture break. Drive your hips away from them while maintaining the high guard. Their forward drive actually loads more weight onto the trapped shoulder, making Mission Control stronger once you complete the grip transition. → Leads to [[Rubber Guard]]
-- **Opponent uses free hand to strip the shin grip before it is locked** (Effectiveness: Low) - Your Response: If they reach for your gripping hand, they remove their last defensive frame. Immediately deepen the overhook and pull the shin tighter. Their free hand reaching across their body compromises their base and opens sweep opportunities. If they persist, transition to Crackhead Control which traps that reaching arm. → Leads to [[Rubber Guard]]
+- **Opponent drives backward to recover posture before shin grip is secured** (Effectiveness: High) - Your Response: Follow their backward movement with your hips, maintaining hip elevation and pulling pressure. If posture recovery is imminent, abort the transition and return to standard rubber guard head control rather than fighting for a compromised Mission Control. → Leads to [[Positions/Rubber Guard]]
+- **Opponent extracts trapped arm during the grip transition vulnerability window** (Effectiveness: Medium) - Your Response: If the arm begins slipping free, immediately transition to triangle entry by bringing the outside leg across their face. Their arm extraction creates the exact space needed for the triangle lock. Use the arm movement as your trigger rather than fighting to retain it. → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward with stacking pressure to collapse hip elevation and prevent threading** (Effectiveness: Medium) - Your Response: Accept their forward pressure and use it to deepen the posture break. Drive your hips away from them while maintaining the high guard. Their forward drive actually loads more weight onto the trapped shoulder, making Mission Control stronger once you complete the grip transition. → Leads to [[Positions/Rubber Guard]]
+- **Opponent uses free hand to strip the shin grip before it is locked** (Effectiveness: Low) - Your Response: If they reach for your gripping hand, they remove their last defensive frame. Immediately deepen the overhook and pull the shin tighter. Their free hand reaching across their body compromises their base and opens sweep opportunities. If they persist, transition to Crackhead Control which traps that reaching arm. → Leads to [[Positions/Rubber Guard]]
 
 
 </section>

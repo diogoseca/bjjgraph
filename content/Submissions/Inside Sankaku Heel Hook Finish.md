@@ -26,8 +26,8 @@ Safety awareness is paramount when training and applying this technique. The ins
 **Category**: Joint Lock
 **Type**: Heel Hook
 **Target Area**: Knee ligaments (MCL, ACL, meniscus) via rotational heel manipulation
-**Starting Position**: [[Inside Sankaku]]
-**From Position**: [[Inside Sankaku]] (Top)
+**Starting Position**: [[Positions/Inside Sankaku]]
+**From Position**: [[Positions/Inside Sankaku]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -81,8 +81,8 @@ Safety awareness is paramount when training and applying this technique. The ins
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Inside Sankaku]] | 30% |
-| Counter | [[50-50 Guard]] | 20% |
+| Failure | [[Positions/Inside Sankaku]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 20% |
 
 
 </section>
@@ -232,10 +232,10 @@ Safety awareness is paramount when training and applying this technique. The ins
 
 ## From Which Positions?
 
-- [[Inside Sankaku]]
-- [[Honey Hole]]
-- [[Saddle]]
-- [[Cross Ashi-Garami]]
+- [[Positions/Inside Sankaku]]
+- [[Positions/Ashi Garami/Honey Hole]]
+- [[Positions/Ashi Garami/Saddle]]
+- [[Positions/Ashi Garami/Cross Ashi-Garami]]
 
 
 </section>
@@ -244,14 +244,14 @@ Safety awareness is paramount when training and applying this technique. The ins
 
 ## Related Submissions
 
-- [[Inside Heel Hook]]
-- [[Inside Heel Hook from Honey Hole]]
-- [[Heel Hook from Saddle]]
-- [[Heel Hook from Ushiro Ashi]]
-- [[Aoki Lock Finish]]
-- [[Estima Lock Finish]]
-- [[Calf Slicer from 50-50]]
-- [[Ankle Lock from X-Guard]]
+- [[Submissions/Inside Heel Hook]]
+- [[Transitions/Inside Heel Hook from Honey Hole]]
+- [[Transitions/Heel Hook from Saddle]]
+- [[Submissions/Heel Hook from Ushiro Ashi]]
+- [[Transitions/Aoki Lock Finish]]
+- [[Submissions/Estima Lock Finish]]
+- [[Submissions/Calf Slicer from 50-50]]
+- [[Submissions/Ankle Lock from X-Guard]]
 
 
 </section>
@@ -260,14 +260,14 @@ Safety awareness is paramount when training and applying this technique. The ins
 
 ## Additional Related Content
 
-- [[Inside Sankaku]] - Primary control position from which this heel hook finish is executed
-- [[Honey Hole]] - Alternative name for Inside Sankaku - same position with 10th Planet terminology
-- [[Saddle]] - Related dominant leg entanglement with similar heel hook finishing mechanics
-- [[Inside Heel Hook]] - General inside heel hook submission - this finish is the specific application from Inside Sankaku
-- [[50-50 Guard]] - Common counter-entanglement position that opponent may escape to during heel hook attempt
-- [[Ashi Garami]] - Parent category of leg entanglement positions that feeds into Inside Sankaku
-- [[Kneebar Control]] - Alternative submission target when opponent defends the heel hook by hiding the heel
-- [[Cross Ashi-Garami]] - Related leg entanglement offering different heel exposure angles
+- [[Positions/Inside Sankaku]] - Primary control position from which this heel hook finish is executed
+- [[Positions/Ashi Garami/Honey Hole]] - Alternative name for Inside Sankaku - same position with 10th Planet terminology
+- [[Positions/Ashi Garami/Saddle]] - Related dominant leg entanglement with similar heel hook finishing mechanics
+- [[Submissions/Inside Heel Hook]] - General inside heel hook submission - this finish is the specific application from Inside Sankaku
+- [[Positions/Ashi Garami/50-50 Guard]] - Common counter-entanglement position that opponent may escape to during heel hook attempt
+- [[Positions/Ashi Garami]] - Parent category of leg entanglement positions that feeds into Inside Sankaku
+- [[Positions/Kneebar Control]] - Alternative submission target when opponent defends the heel hook by hiding the heel
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Related leg entanglement offering different heel exposure angles
 
 
 </section>

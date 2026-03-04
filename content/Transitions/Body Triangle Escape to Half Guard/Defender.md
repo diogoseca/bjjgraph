@@ -154,7 +154,7 @@ description: "Defend against the body triangle escape in BJJ. Learn to maintain 
 
 As the defender in the Body Triangle Escape to Half Guard, you are the back controller working to prevent your opponent from dismantling your body triangle and recovering guard. Your primary tools are squeeze maintenance, neck attacks that punish escape attempts, and positional adjustments that address clearing mechanics. The key defensive principle is creating a double threat – every escape attempt your opponent makes should expose them to a submission counter, forcing them to choose between escaping the triangle and defending their neck. When the triangle lock is genuinely threatened beyond recovery, transitioning swiftly to standard hooks preserves back control even if the triangle configuration is lost.
 
-**Opponent's Starting Position**: [[Body Triangle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ As the defender in the Body Triangle Escape to Half Guard, you are the back cont
 ### 1. Increase triangle squeeze and pull opponent's torso back flat with seatbelt
 
 - **When to use**: When opponent begins turning toward the triangle leg side, before they access the lock point
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: Opponent is flattened back to neutral defensive position with full triangle pressure restored and escape progress reset
 - **Risk**: If squeeze timing is late and opponent has already turned sufficiently, increased pressure may not prevent access to the lock point
 
 ### 2. Attack rear naked choke by driving choking arm under chin during hand redirection
 
 - **When to use**: When opponent redirects one or both hands from neck defense to attack the triangle lock point, creating a neck defense gap
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: Forces opponent to abandon clearing attempt and return both hands to neck defense, completely resetting their escape progress
 - **Risk**: If choke attempt fails to penetrate, opponent retains brief window with loosened upper body control to resume the clearing attempt
 
 ### 3. Transition to standard hooks by unlocking triangle and inserting both feet as hooks inside thighs
 
 - **When to use**: When triangle is partially cleared with foot dislodged from behind knee and no immediate re-lock is available
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Maintains dominant back control position with hooks, preventing opponent from reaching half guard despite losing the body triangle configuration
 - **Risk**: Standard hooks are substantially easier for the opponent to clear than body triangle, opening new escape pathways
 
 ### 4. Re-drive foot behind knee to re-lock triangle before opponent establishes blocking frame
 
 - **When to use**: Immediately after opponent partially clears the ankle but before they wedge an elbow or forearm into the space
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: Full body triangle control restored, requiring opponent to restart the entire escape sequence under increased fatigue
 - **Risk**: If opponent has already inserted a frame, the re-lock attempt will fail and you lose the initiative to transition to alternative control
 
@@ -224,11 +224,11 @@ As the defender in the Body Triangle Escape to Half Guard, you are the back cont
 
 ## Best-Case Outcomes for Defender
 
-### → [[Body Triangle]]
+### → [[Positions/Back Control/Body Triangle]]
 
 Immediately punish any clearing attempt with neck attacks, forcing opponent to repeatedly abandon escape progress and return to defensive hand fighting. Maintain deep foot lock behind your knee, follow the opponent's turning attempts with hip adjustments, and modulate squeeze pressure to deplete their energy reserves.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the triangle lock is partially cleared and re-locking is not viable, swiftly transition to standard hooks before the opponent can thread legs for half guard. Insert both feet as hooks inside their thighs while maintaining seatbelt control, preserving the dominant back position even though the breathing pressure of the triangle is lost.
 

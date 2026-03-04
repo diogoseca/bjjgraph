@@ -204,21 +204,21 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 
 ## Available Escapes
 
-### [[Williams Shoulder Lock]] (13% of attempts)
+### [[Transitions/Williams Shoulder Lock]] (13% of attempts)
 
-### [[Omoplata Sweep]] (15% of attempts)
+### [[Transitions/Omoplata Sweep]] (15% of attempts)
 
-### [[Triangle Setup]] (12% of attempts)
+### [[Transitions/Triangle Setup]] (12% of attempts)
 
-### [[Closed Guard to Omoplata]] (18% of attempts)
+### [[Transitions/Closed Guard to Omoplata]] (18% of attempts)
 
-### [[Back Take from Bottom]] (11% of attempts)
+### [[Transitions/Back Take from Bottom]] (11% of attempts)
 
-### [[Kimura to Back Take]] (12% of attempts)
+### [[Transitions/Kimura to Back Take]] (12% of attempts)
 
-### [[Armbar Finish]] (13% of attempts)
+### [[Transitions/Armbar Finish]] (13% of attempts)
 
-### [[Williams Guard Sweep]] (6% of attempts)
+### [[Transitions/Williams Guard Sweep]] (6% of attempts)
 
 
 
@@ -229,23 +229,23 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 ## Decision Making from This Position
 
 **If opponent defends shoulder lock by pulling arm back aggressively:**
-- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 60%)
-- Execute **[[Omoplata Sweep]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 60%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **Else if opponent drives forward to pressure and escape shoulder lock:**
-- Execute **[[Omoplata to Back]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 50%)
+- Execute **[[Transitions/Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 50%)
 
 
 **Else if opponent posts free hand on mat to create base:**
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 70%)
-- Execute **[[Kimura to Back Take]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 70%)
+- Execute **[[Transitions/Kimura to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **Else if opponent attempts to circle away from controlled arm:**
-- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 75%)
-- Execute **[[Back Take from Bottom]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 75%)
+- Execute **[[Transitions/Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 
@@ -379,16 +379,16 @@ Flow drill connecting Williams shoulder lock to omoplata to triangle to armbar. 
 
 ## Related Positions and Techniques
 
-- **[[Williams Guard]]** - Parent position hub
-- **[[Omoplata Control]]** - Primary transition target from shoulder lock
-- **[[Triangle Control]]** - Alternative submission control from guard
-- **[[Open Guard]]** - General guard category
-- **[[Rubber Guard]]** - Similar arm control guard concept
-- **[[Overhook Guard]]** - Similar arm isolation principle
-- **[[Williams Shoulder Lock]]** - Primary submission threat
-- **[[Omoplata]]** - Common submission transition
-- **[[Triangle Choke]]** - Alternative submission when opponent defends shoulder lock
-- **[[Back Control]]** - High-value position from transitions
+- **[[Positions/Williams Guard]]** - Parent position hub
+- **[[Positions/Omoplata Control]]** - Primary transition target from shoulder lock
+- **[[Positions/Triangle Control]]** - Alternative submission control from guard
+- **[[Positions/Open Guard]]** - General guard category
+- **[[Positions/Rubber Guard]]** - Similar arm control guard concept
+- **[[Positions/Overhook Guard]]** - Similar arm isolation principle
+- **[[Transitions/Williams Shoulder Lock]]** - Primary submission threat
+- **[[Transitions/Omoplata]]** - Common submission transition
+- **[[Transitions/Triangle Choke]]** - Alternative submission when opponent defends shoulder lock
+- **[[Positions/Back Control]]** - High-value position from transitions
 
 
 </section>

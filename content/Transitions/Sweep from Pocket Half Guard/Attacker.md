@@ -180,7 +180,7 @@ description: "Execute the Sweep from Pocket Half Guard as the bottom player. Dee
 
 As the attacker executing this sweep, you are the bottom player in pocket half guard with a deep underhook and active pocket frame. Your goal is to use the underhook as a lever and your hip bridge as the power source to rotate the opponent laterally off their base and come to top position in side control. The sweep demands precise timing—ideally catching the opponent as they shift weight forward—combined with coordinated underhook pull, hip bridge, and pocket frame pressure that together create a rotational force the top player cannot resist. Success requires reading the opponent's weight distribution and committing fully to the sweep when the timing window opens, as half-measures allow the top player to re-base and counter with flattening pressure.
 
-**From Position**: [[Pocket Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Pocket Half Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing this sweep, you are the bottom player in pocket half g
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 48% |
-| Failure | [[Pocket Half Guard]] | 32% |
-| Counter | [[Flattened Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 48% |
+| Failure | [[Positions/Half Guard/Pocket Half Guard]] | 32% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing this sweep, you are the bottom player in pocket half g
 
 ## Opponent Counters
 
-- **Opponent posts far hand wide on the mat to base out against the sweep direction** (Effectiveness: High) - Your Response: Redirect the sweep angle or abandon and immediately threaten Old School by reaching under their far leg, forcing them to retract the posted hand to defend → Leads to [[Pocket Half Guard]]
-- **Opponent drops hips low and drives crossface pressure to flatten you before the sweep initiates** (Effectiveness: High) - Your Response: If flattened before sweep initiation, abandon the sweep and transition to Deep Half Guard entry by scooting hips underneath the opponent, using their forward pressure as entry momentum → Leads to [[Flattened Half Guard]]
-- **Opponent circles hips away from underhook side to neutralize the rotational force** (Effectiveness: Medium) - Your Response: Follow their hip movement by adjusting your angle and re-threatening the sweep from the new position, or transition to a back take as their hip rotation exposes their back → Leads to [[Pocket Half Guard]]
-- **Opponent strips the underhook by swimming their arm through and re-pummeling to establish their own underhook** (Effectiveness: High) - Your Response: If underhook is lost, immediately transition to Knee Shield Half Guard to reestablish a defensive frame before attempting to repummel for the underhook → Leads to [[Pocket Half Guard]]
+- **Opponent posts far hand wide on the mat to base out against the sweep direction** (Effectiveness: High) - Your Response: Redirect the sweep angle or abandon and immediately threaten Old School by reaching under their far leg, forcing them to retract the posted hand to defend → Leads to [[Positions/Half Guard/Pocket Half Guard]]
+- **Opponent drops hips low and drives crossface pressure to flatten you before the sweep initiates** (Effectiveness: High) - Your Response: If flattened before sweep initiation, abandon the sweep and transition to Deep Half Guard entry by scooting hips underneath the opponent, using their forward pressure as entry momentum → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent circles hips away from underhook side to neutralize the rotational force** (Effectiveness: Medium) - Your Response: Follow their hip movement by adjusting your angle and re-threatening the sweep from the new position, or transition to a back take as their hip rotation exposes their back → Leads to [[Positions/Half Guard/Pocket Half Guard]]
+- **Opponent strips the underhook by swimming their arm through and re-pummeling to establish their own underhook** (Effectiveness: High) - Your Response: If underhook is lost, immediately transition to Knee Shield Half Guard to reestablish a defensive frame before attempting to repummel for the underhook → Leads to [[Positions/Half Guard/Pocket Half Guard]]
 
 
 </section>

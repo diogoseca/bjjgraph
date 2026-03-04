@@ -154,7 +154,7 @@ description: "How to defend against Back Step in BJJ. Recognition cues, defensiv
 
 Defending the back step requires the bottom player to recognize early that their opponent is abandoning the leg entanglement in favor of a pressure pass. As the person playing outside ashi-garami bottom, your leg attacks rely on maintaining the entanglement structure - once the opponent begins driving forward with chest pressure and clearing your top leg, your offensive position is rapidly deteriorating. The defensive priority shifts from finishing your leg attack to retaining your guard structure, recovering leg entanglement, or at minimum preventing the pass to side control. Successful defense against the back step centers on three principles: maintaining your seated posture against forward pressure, keeping your leg configuration tight so the opponent cannot free their trapped leg, and having a contingency plan for guard recovery if the entanglement is broken. The timing window for defense is narrow - once the opponent's leg clears over your body and their shoulder drives into your chest, recovery becomes exponentially more difficult. Early recognition and immediate response are essential.
 
-**Opponent's Starting Position**: [[Outside Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the back step requires the bottom player to recognize early that their
 ### 1. Tighten leg triangle and threaten heel hook to force opponent to address submission before passing
 
 - **When to use**: Early stage when opponent begins driving forward pressure but has not yet cleared your top leg or freed their trapped leg
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: Opponent must abandon pass attempt and return to defending the heel hook, restoring your offensive position in outside ashi-garami
 - **Risk**: If opponent has already cleared your top leg, tightening the triangle alone will not be sufficient and you waste time that should be spent on guard recovery
 
 ### 2. Sit up aggressively and post on your far hand while maintaining leg entanglement with strong hip angle
 
 - **When to use**: When opponent begins driving chest pressure forward but before they have controlled your near arm or cleared your top leg
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: You maintain upright posture which preserves your leg entanglement structure and forces opponent to restart their passing sequence from the beginning
 - **Risk**: If your leg triangle is already compromised, sitting up without leg control leaves you in a scramble where the opponent's forward momentum gives them an advantage
 
 ### 3. Transition to butterfly guard or half guard recovery as the opponent's leg clears over your body
 
 - **When to use**: When the back step is already in progress and your leg entanglement has been broken - the opponent's leg is clearing or has cleared over your body
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: You establish a new guard position that prevents the pass from completing to side control, giving you a fresh defensive framework to work from
 - **Risk**: Late guard recovery attempts against committed back step pressure often fail, resulting in the opponent establishing side control anyway
 
 ### 4. Counter-roll underneath the opponent as they step over, following their momentum to invert and recover leg entanglement
 
 - **When to use**: When the opponent commits fully to the back step with aggressive forward momentum, creating an opportunity to use their weight and direction against them
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: You end up underneath the opponent with a fresh leg entanglement from a different angle, reversing the dynamic and establishing yourself as the new attacker
 - **Risk**: Failed inversion under a heavy opponent results in being flattened with their full weight on top, making the subsequent side control even harder to escape
 
@@ -224,11 +224,11 @@ Defending the back step requires the bottom player to recognize early that their
 
 ## Best-Case Outcomes for Defender
 
-### → [[Outside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 Maintain your seated posture and tight leg triangle throughout the opponent's back step attempt. Use frames against their shoulders to prevent chest pressure from flattening you. If they begin clearing your top leg, immediately threaten heel hook to force them back into defending the submission. The key is early recognition and immediate offensive response rather than passive defense.
 
-### → [[Outside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 If the back step is already in progress and your original entanglement is broken, use the opponent's forward momentum to invert underneath them and re-establish a leg entanglement from the opposite side. As they step over, follow their leg with your own legs and re-triangle around their now-exposed leg. This requires good inversion skills and timing but converts their pass attempt into your offensive position.
 

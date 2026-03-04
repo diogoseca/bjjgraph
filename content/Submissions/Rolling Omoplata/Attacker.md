@@ -176,7 +176,7 @@ description: "How to execute Rolling Omoplata in BJJ. Attacking perspective with
 
 The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on momentum and transition phases during scrambles, failed sweeps, or guard recovery situations. Unlike the traditional static omoplata from closed or open guard, this variation involves a rolling motion that allows the practitioner to capture the opponent's shoulder joint while both grapplers are in movement. This technique is particularly effective when transitioning from failed sweep attempts, inverting under pressure, or recovering guard against aggressive passing attempts. The rolling motion generates unexpected leverage on the shoulder while simultaneously off-balancing the opponent, making it difficult to defend once initiated. The technique requires excellent timing, spatial awareness, and flexibility, as the practitioner must coordinate their hip rotation with leg positioning while maintaining control of the opponent's trapped arm throughout the roll. The Rolling Omoplata represents modern BJJ's evolution toward dynamic, flow-based submissions that blur the lines between offense and defense, making it a favorite among competitors who emphasize movement-based games.
 
-**From Position**: [[Scramble Position]] (Bottom)
+**From Position**: [[Positions/Scramble Position]] (Bottom)
 
 
 </section>
@@ -232,8 +232,8 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Scramble Position]] | 25% |
-| Counter | [[Closed Guard]] | 20% |
+| Failure | [[Positions/Scramble Position]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -242,11 +242,11 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 
 ## Opponent Defenses
 
-- **Rolling through to escape (forward roll)** (Effectiveness: Medium) - Your Response: Immediately post your outside hand on the mat and distribute your weight to block their forward momentum. Follow their roll by adjusting your leg position and maintaining hip pressure on the shoulder. Transition to back control if they complete the roll. → Leads to [[Scramble Position]]
-- **Grabbing their own belt or gi pants to prevent arm extension** (Effectiveness: High) - Your Response: Use your leg across their head to break their posture and prevent them from maintaining the defensive grip. Alternatively, transition to a triangle choke or switch to back-take as they defend. Apply pressure with your hips to make the defensive position uncomfortable. → Leads to [[Scramble Position]]
-- **Pulling arm back toward their body** (Effectiveness: High) - Your Response: Anticipate this defense during the setup phase. Secure wrist control before initiating the roll, or use your legs to hook their arm and prevent retraction. If they succeed in pulling the arm back, immediately transition to triangle control or back-take opportunities. → Leads to [[Scramble Position]]
+- **Rolling through to escape (forward roll)** (Effectiveness: Medium) - Your Response: Immediately post your outside hand on the mat and distribute your weight to block their forward momentum. Follow their roll by adjusting your leg position and maintaining hip pressure on the shoulder. Transition to back control if they complete the roll. → Leads to [[Positions/Scramble Position]]
+- **Grabbing their own belt or gi pants to prevent arm extension** (Effectiveness: High) - Your Response: Use your leg across their head to break their posture and prevent them from maintaining the defensive grip. Alternatively, transition to a triangle choke or switch to back-take as they defend. Apply pressure with your hips to make the defensive position uncomfortable. → Leads to [[Positions/Scramble Position]]
+- **Pulling arm back toward their body** (Effectiveness: High) - Your Response: Anticipate this defense during the setup phase. Secure wrist control before initiating the roll, or use your legs to hook their arm and prevent retraction. If they succeed in pulling the arm back, immediately transition to triangle control or back-take opportunities. → Leads to [[Positions/Scramble Position]]
 - **Stacking and driving forward pressure** (Effectiveness: Low) - Your Response: Your inverted position and rolling momentum naturally counter stacking pressure. As they drive forward, use their momentum to complete the roll more easily. Once inverted with legs positioned, stacking becomes ineffective as you're already past their pressure line. → Leads to [[game-over]]
-- **Turning into the submission (internal rotation)** (Effectiveness: Medium) - Your Response: Use your leg across their head to control their ability to turn. If they begin turning in, adjust your hip angle to maintain perpendicular pressure on the shoulder. Alternatively, transition to a triangle choke as they turn their body toward you. → Leads to [[Closed Guard]]
+- **Turning into the submission (internal rotation)** (Effectiveness: Medium) - Your Response: Use your leg across their head to control their ability to turn. If they begin turning in, adjust your hip angle to maintain perpendicular pressure on the shoulder. Alternatively, transition to a triangle choke as they turn their body toward you. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

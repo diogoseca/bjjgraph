@@ -156,7 +156,7 @@ description: "How to defend against Triangle from De La Riva in BJJ. Recognition
 
 Defending the Triangle from De La Riva requires understanding the attack's progression from open guard to closed triangle configuration. The defense operates across three distinct windows: pre-entry (while still in De La Riva guard), mid-transition (as the leg swims over your shoulder), and post-lock (once the triangle is secured). Each window demands different defensive priorities and techniques. The most effective defense occurs in the earliest window, preventing the attacker from ever achieving the leg-over-shoulder position. Once the triangle is fully locked with proper angle and arm control, defensive options narrow significantly and the risk of unconsciousness increases. Defenders must develop the sensitivity to recognize the attack's setup cues and respond with immediate posture recovery or guard passing pressure rather than allowing the attacker to complete the multi-step entry sequence from De La Riva.
 
-**Opponent's Starting Position**: [[De La Riva Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 
 </section>
@@ -196,28 +196,28 @@ Defending the Triangle from De La Riva requires understanding the attack's progr
 ### 1. Posture up and strip the De La Riva hook before the leg swim
 
 - **When to use**: Early stage - when you feel collar grip pulling your head down and their free leg begins to lift off your hip
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Return to standard De La Riva Guard top position with posture intact and ability to initiate passing
 - **Risk**: Low risk if executed early, but requires recognizing the setup before the leg clears your shoulder
 
 ### 2. Stack and drive forward to compress the triangle and create a guard passing angle
 
 - **When to use**: Mid-stage - when the triangle is partially locked but attacker has not yet achieved perpendicular angle or full arm control
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Break free of the triangle by stacking and passing to side control or at minimum resetting to open guard top
 - **Risk**: Medium risk - if stacking fails and you remain bent forward, attacker can adjust angle and finish from underneath your stack
 
 ### 3. Extract trapped arm while maintaining strong posture to deny the cross-neck choke mechanism
 
 - **When to use**: Post-lock stage - when triangle is locked but you still have posture and the arm is not yet fully pulled across your centerline
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Denying the arm-across-neck position eliminates the primary choking mechanism and forces attacker to readjust or abandon
 - **Risk**: Medium risk - attempting to extract arm while posture is broken accelerates the choke rather than defending it
 
 ### 4. Stand up explosively and use height to remove attacker's angle and hip connection
 
 - **When to use**: Any stage before full angle and head control are established - particularly effective when attacker's grips behind your head are not yet secure
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Standing removes the attacker's ability to create perpendicular angle and can lead to slam-pass or stack-pass opportunities to escape
 - **Risk**: High risk in competition if attacker maintains locked triangle during standing - potential slam penalties and gravity assists the choke if you fall
 
@@ -240,11 +240,11 @@ Defending the Triangle from De La Riva requires understanding the attack's progr
 
 ## Best-Case Outcomes for Defender
 
-### → [[De La Riva Guard]]
+### → [[Positions/De La Riva Guard]]
 
 Maintain strong posture throughout the exchange, strip the DLR hook early, and prevent the leg from clearing your shoulder by keeping elbows tight and posture upright
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 If caught in the triangle, use explosive standing combined with stacking pressure to break the attacker's angle and pass their guard during the escape sequence
 

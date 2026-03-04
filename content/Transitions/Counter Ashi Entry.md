@@ -21,7 +21,7 @@ The technique exploits the inherent vulnerability in leg entanglement exchangesâ
 
 Strategically, Counter Ashi Entry represents the counter-attacking philosophy within the leg lock game. Rather than purely defensive extraction, it embraces the bilateral nature of leg entanglements and seeks to gain superior position within the exchange. Success requires understanding positional hierarchy, recognizing optimal entry timing, and maintaining awareness of both offensive opportunities and defensive vulnerabilities throughout the transition.
 
-**From Position**: [[Ashi Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, Counter Ashi Entry represents the counter-attacking philosophy wi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Outside Ashi-Garami]] | 65% |
-| Failure | [[Ashi Garami]] | 25% |
-| Counter | [[Inside Ashi-Garami]] | 10% |
+| Success | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 65% |
+| Failure | [[Positions/Ashi Garami]] | 25% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 10% |
 
 
 </section>
@@ -189,25 +189,25 @@ Counter Ashi Entry represents the counter-attacking layer of the leg lock system
 ## Related Techniques
 
 
-- [[Ashi Garami]] - Starting position family
+- [[Positions/Ashi Garami]] - Starting position family
 
-- [[Outside Ashi-Garami]] - Primary success outcome
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Primary success outcome
 
-- [[Inside Ashi-Garami]] - Follow-up advancement position and counter outcome
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Follow-up advancement position and counter outcome
 
-- [[Ashi Garami Escape]] - Alternative defensive option from same starting position
+- [[Transitions/Ashi Garami Escape]] - Alternative defensive option from same starting position
 
-- [[Heel Hook]] - Primary submission threat during bilateral exchange
+- [[Transitions/Heel Hook]] - Primary submission threat during bilateral exchange
 
-- [[Straight Ankle Lock]] - Immediate follow-up submission from established Outside Ashi
+- [[Submissions/Straight Ankle Lock]] - Immediate follow-up submission from established Outside Ashi
 
-- [[50-50 Guard]] - Possible resulting position from bilateral exchange
+- [[Positions/Ashi Garami/50-50 Guard]] - Possible resulting position from bilateral exchange
 
-- [[Saddle]] - Ultimate advancement goal after establishing Outside Ashi
+- [[Positions/Ashi Garami/Saddle]] - Ultimate advancement goal after establishing Outside Ashi
 
-- [[Cross Ashi-Garami]] - Alternative entanglement accessible through cross-body counter entry variant
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Alternative entanglement accessible through cross-body counter entry variant
 
-- [[Counter Entry to Opponent's Leg]] - Related counter-offensive technique from leg entanglement
+- [[Transitions/Counter Entry to Opponent's Leg]] - Related counter-offensive technique from leg entanglement
 
 
 </section>

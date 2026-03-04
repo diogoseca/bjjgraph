@@ -186,7 +186,7 @@ description: "Execute the Double Sleeve to Spider Guard transition in BJJ. Step-
 
 Executing the Double Sleeve to Spider Guard transition requires the bottom player to reposition their feet from the opponent's hips to their biceps while maintaining uninterrupted sleeve tension throughout the movement. The transition leverages existing cuff grips as the constant anchor point while the legs do the repositioning work, upgrading from passive distance management to active postural manipulation. The attacker must coordinate the pulling action of their arms with the pushing placement of their feet, creating the opposing forces that define spider guard control. Success depends on recognizing the timing window when the opponent's arms are extended and exploiting it before they can retract or strip grips.
 
-**From Position**: [[Double Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Double Sleeve to Spider Guard transition requires the bottom playe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Spider Guard]] | 55% |
-| Failure | [[Double Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Spider Guard]] | 55% |
+| Failure | [[Positions/Double Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Double Sleeve to Spider Guard transition requires the bottom playe
 
 ## Opponent Counters
 
-- **Opponent strips one or both sleeve grips during the foot transition window using wrist rotation or two-on-one breaks** (Effectiveness: High) - Your Response: If one grip is stripped, immediately abort the transition and re-establish the grip from double sleeve guard before reattempting. If both grips are lost, use feet on hips to push the opponent away and recover grips before they can establish passing position. → Leads to [[Open Guard]]
-- **Opponent retracts arms tight to their chest, denying bicep access and preventing foot placement** (Effectiveness: Medium) - Your Response: Increase pulling tension on sleeves to draw their arms back out, or change strategy to attempt a sweep from double sleeve guard that punishes their retracted arm position. Their retracted posture may also open lasso entry opportunities. → Leads to [[Double Sleeve Guard]]
-- **Opponent drives forward explosively to collapse the guard structure during the transition when feet are between hips and biceps** (Effectiveness: High) - Your Response: Immediately return the transitioning foot to the hip to reestablish the distance frame. If they achieve forward momentum, use their energy for a balloon sweep or transition to closed guard if they close distance completely. → Leads to [[Open Guard]]
-- **Opponent circles laterally to create an angle that prevents clean bilateral foot placement on biceps** (Effectiveness: Medium) - Your Response: Follow their lateral movement with your hips to maintain perpendicular orientation. Consider transitioning to lasso guard on the side they are circling toward, or use the angled position for a De La Riva hook entry instead of forcing bilateral spider guard. → Leads to [[Double Sleeve Guard]]
+- **Opponent strips one or both sleeve grips during the foot transition window using wrist rotation or two-on-one breaks** (Effectiveness: High) - Your Response: If one grip is stripped, immediately abort the transition and re-establish the grip from double sleeve guard before reattempting. If both grips are lost, use feet on hips to push the opponent away and recover grips before they can establish passing position. → Leads to [[Positions/Open Guard]]
+- **Opponent retracts arms tight to their chest, denying bicep access and preventing foot placement** (Effectiveness: Medium) - Your Response: Increase pulling tension on sleeves to draw their arms back out, or change strategy to attempt a sweep from double sleeve guard that punishes their retracted arm position. Their retracted posture may also open lasso entry opportunities. → Leads to [[Positions/Double Sleeve Guard]]
+- **Opponent drives forward explosively to collapse the guard structure during the transition when feet are between hips and biceps** (Effectiveness: High) - Your Response: Immediately return the transitioning foot to the hip to reestablish the distance frame. If they achieve forward momentum, use their energy for a balloon sweep or transition to closed guard if they close distance completely. → Leads to [[Positions/Open Guard]]
+- **Opponent circles laterally to create an angle that prevents clean bilateral foot placement on biceps** (Effectiveness: Medium) - Your Response: Follow their lateral movement with your hips to maintain perpendicular orientation. Consider transitioning to lasso guard on the side they are circling toward, or use the angled position for a De La Riva hook entry instead of forcing bilateral spider guard. → Leads to [[Positions/Double Sleeve Guard]]
 
 
 </section>

@@ -21,7 +21,7 @@ The technique prioritizes systematic extraction over explosive movement. Rather 
 
 Strategically, Head Extraction to Posture represents more than simple survival. Successfully completing this escape returns you to closed guard with posture, meaning you can immediately begin your passing sequences. The technique also teaches broader principles about defending unorthodox submissions by understanding their mechanical requirements and systematically dismantling them rather than fighting the symptoms.
 
-**From Position**: [[Gogoplata Control]] (Top)
+**From Position**: [[Positions/Gogoplata Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, Head Extraction to Posture represents more than simple survival. 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Gogoplata Control]] | 30% |
-| Counter | [[Triangle Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Gogoplata Control]] | 30% |
+| Counter | [[Positions/Triangle Control]] | 15% |
 
 
 </section>
@@ -185,23 +185,23 @@ Head Extraction to Posture is a critical defensive skill within the rubber guard
 ## Related Techniques
 
 
-- [[Gogoplata Control]] - Starting position requiring this escape
+- [[Positions/Gogoplata Control]] - Starting position requiring this escape
 
-- [[Closed Guard]] - Target position after successful escape
+- [[Positions/Closed Guard]] - Target position after successful escape
 
-- [[Triangle Control]] - Counter threat if escape is imperfect
+- [[Positions/Triangle Control]] - Counter threat if escape is imperfect
 
-- [[Omoplata Control]] - Counter threat if turning toward attacking leg
+- [[Positions/Omoplata Control]] - Counter threat if turning toward attacking leg
 
-- [[Rubber Guard]] - System that leads to gogoplata requiring this defense
+- [[Positions/Rubber Guard]] - System that leads to gogoplata requiring this defense
 
-- [[Mission Control]] - Preceding position in gogoplata attack chain
+- [[Positions/Rubber Guard/Mission Control]] - Preceding position in gogoplata attack chain
 
-- [[Turtle]] - Emergency escape destination requiring follow-up defense
+- [[Positions/Turtle]] - Emergency escape destination requiring follow-up defense
 
-- [[Back Control]] - Risk position if emergency roll is countered
+- [[Positions/Back Control]] - Risk position if emergency roll is countered
 
-- [[Half Guard]] - Alternative escape target through lateral movement
+- [[Positions/Half Guard]] - Alternative escape target through lateral movement
 
 
 </section>

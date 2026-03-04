@@ -176,7 +176,7 @@ Executing the Knee on Belly transition from Side Control requires precise coordi
 
 The transition's value extends beyond the points scored. Knee on Belly serves as an offensive accelerator that transforms a controlled Side Control into an active hunting position. The mobility advantage over static pins allows you to follow the opponent's escape attempts, chain submissions across multiple angles, and maintain offensive momentum that prevents methodical defense. Mastery requires developing automatic responses to each common defensive reaction so the position becomes a flowing attack system rather than a static hold.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -226,9 +226,9 @@ The transition's value extends beyond the points scored. Knee on Belly serves as
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Knee on Belly]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Knee on Belly]] | 60% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -237,10 +237,10 @@ The transition's value extends beyond the points scored. Knee on Belly serves as
 
 ## Opponent Counters
 
-- **Bottom player shrimps away and attempts to insert knee shield or recover guard** (Effectiveness: High) - Your Response: Follow the hip movement, maintaining knee pressure while transitioning back to Side Control or pursuing mount as they create space → Leads to [[Half Guard]]
-- **Bottom player pushes against the knee with both hands to create space** (Effectiveness: Medium) - Your Response: Immediately attack the near arm with armbar or Kimura as their hands are occupied and extended - this is your primary submission entry → Leads to [[Side Control]]
-- **Bottom player explosively bridges to destabilize your base** (Effectiveness: Medium) - Your Response: Post with your far foot and ride the bridge, maintaining knee connection. As they return to mat, increase pressure or transition to mount during their recovery → Leads to [[Side Control]]
-- **Bottom player turns into you, diving underneath to recover half guard** (Effectiveness: Low) - Your Response: Sprawl hip pressure to flatten them, then backstep to re-establish Side Control or transition to North-South if they expose the far arm → Leads to [[Half Guard]]
+- **Bottom player shrimps away and attempts to insert knee shield or recover guard** (Effectiveness: High) - Your Response: Follow the hip movement, maintaining knee pressure while transitioning back to Side Control or pursuing mount as they create space → Leads to [[Positions/Half Guard]]
+- **Bottom player pushes against the knee with both hands to create space** (Effectiveness: Medium) - Your Response: Immediately attack the near arm with armbar or Kimura as their hands are occupied and extended - this is your primary submission entry → Leads to [[Positions/Side Control]]
+- **Bottom player explosively bridges to destabilize your base** (Effectiveness: Medium) - Your Response: Post with your far foot and ride the bridge, maintaining knee connection. As they return to mat, increase pressure or transition to mount during their recovery → Leads to [[Positions/Side Control]]
+- **Bottom player turns into you, diving underneath to recover half guard** (Effectiveness: Low) - Your Response: Sprawl hip pressure to flatten them, then backstep to re-establish Side Control or transition to North-South if they expose the far arm → Leads to [[Positions/Half Guard]]
 
 
 </section>

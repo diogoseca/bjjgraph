@@ -243,8 +243,8 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Inside Ashi-Garami]] | 25% |
-| Counter | [[Open Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -253,12 +253,12 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 
 ## Opponent Defenses
 
-- **Gripping their own foot with both hands to prevent figure-four grip establishment** (Effectiveness: High) - Your Response: Focus on stripping one grip at a time using circular hand motions, or attack the heel hook temporarily to force them to release their defensive grips and defend the more dangerous attack, then transition back to the toe hold when their hands are occupied → Leads to [[Inside Ashi-Garami]]
+- **Gripping their own foot with both hands to prevent figure-four grip establishment** (Effectiveness: High) - Your Response: Focus on stripping one grip at a time using circular hand motions, or attack the heel hook temporarily to force them to release their defensive grips and defend the more dangerous attack, then transition back to the toe hold when their hands are occupied → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **Rolling toward the toe hold direction to relieve rotational pressure** (Effectiveness: Medium) - Your Response: Maintain tight hip connection and follow their roll while keeping the figure-four grip locked. Often their roll will actually increase the pressure if you maintain control. Alternatively, transition to heel hook as they expose it during the roll → Leads to [[game-over]]
-- **Pulling their trapped leg out by extending their hip and retracting their knee** (Effectiveness: Medium) - Your Response: Tighten your knee clamp immediately and pull your hips closer to theirs to eliminate the space needed for leg extraction. If they create significant distance, transition to attacking their other leg or adjust to a different leg entanglement position → Leads to [[Open Guard]]
-- **Sitting up and attacking your upper body with collar grips or guillotine attempts** (Effectiveness: Low) - Your Response: Maintain elevated posture with head and shoulders high, making it difficult for them to reach your upper body. Use your free hand to frame against their chest or control their collar to prevent them from closing distance. The toe hold works effectively even if they sit up partially → Leads to [[Inside Ashi-Garami]]
-- **Using their free leg to push on your hip or shoulder to create distance** (Effectiveness: High) - Your Response: Triangle your legs tighter and drive your hips forward to counteract their pushing pressure. You can also temporarily release one arm from the figure-four to push their free leg away or control it, then re-establish the toe hold grip once the threat is neutralized → Leads to [[Open Guard]]
-- **Externally rotating their foot before you can apply internal rotation pressure** (Effectiveness: Medium) - Your Response: If they beat you to the rotation, you can either follow their rotation and increase it beyond their comfortable range, or transition to straight ankle lock by adjusting your grip position to the Achilles tendon instead of maintaining the figure-four on the foot → Leads to [[Inside Ashi-Garami]]
+- **Pulling their trapped leg out by extending their hip and retracting their knee** (Effectiveness: Medium) - Your Response: Tighten your knee clamp immediately and pull your hips closer to theirs to eliminate the space needed for leg extraction. If they create significant distance, transition to attacking their other leg or adjust to a different leg entanglement position → Leads to [[Positions/Open Guard]]
+- **Sitting up and attacking your upper body with collar grips or guillotine attempts** (Effectiveness: Low) - Your Response: Maintain elevated posture with head and shoulders high, making it difficult for them to reach your upper body. Use your free hand to frame against their chest or control their collar to prevent them from closing distance. The toe hold works effectively even if they sit up partially → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Using their free leg to push on your hip or shoulder to create distance** (Effectiveness: High) - Your Response: Triangle your legs tighter and drive your hips forward to counteract their pushing pressure. You can also temporarily release one arm from the figure-four to push their free leg away or control it, then re-establish the toe hold grip once the threat is neutralized → Leads to [[Positions/Open Guard]]
+- **Externally rotating their foot before you can apply internal rotation pressure** (Effectiveness: Medium) - Your Response: If they beat you to the rotation, you can either follow their rotation and increase it beyond their comfortable range, or transition to straight ankle lock by adjusting your grip position to the Achilles tendon instead of maintaining the figure-four on the foot → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 </section>

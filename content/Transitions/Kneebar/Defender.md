@@ -156,7 +156,7 @@ Defending the kneebar from Backside 50-50 requires immediate recognition and dis
 
 The defender must understand that kneebar defense operates on a timeline: the earlier you react, the higher your success rate. During the attacker's rotation phase, before they establish their leg triangle and fulcrum position, simple knee bending and hip rotation can nullify the attack entirely. Once the attacker has secured your leg across their hips with a proper triangle and fulcrum, your defensive options narrow dramatically and the risk of injury increases. Training yourself to recognize the earliest possible cues and respond with automatic defensive patterns is the foundation of surviving leg lock exchanges in modern grappling.
 
-**Opponent's Starting Position**: [[Backside 50-50]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ The defender must understand that kneebar defense operates on a timeline: the ea
 ### 1. Immediate knee bend and hip rotation - sharply bend your knee and rotate your hip toward the attacker to prevent them from establishing the hyperextension angle
 
 - **When to use**: As soon as you feel the attacker begin rotating perpendicular to your leg or pinning your hip - this is the highest-percentage defense when applied early
-- **Targets**: [[Backside 50-50]]
+- **Targets**: [[Positions/Ashi Garami/Backside 50-50]]
 - **If successful**: You return to Backside 50-50 entanglement with your knee bent, nullifying the kneebar threat and forcing the attacker to either re-establish position or switch attacks
 - **Risk**: If you over-rotate your hip, you may expose your heel for a heel hook counter-attack. Keep rotation controlled and maintain heel protection awareness
 
 ### 2. Boot and push escape - straighten your free leg and drive it into the attacker's hip or shoulder to create separation and extract your trapped leg
 
 - **When to use**: When the attacker has begun establishing position but has not yet secured the leg triangle around your thigh - works best with explosive timing
-- **Targets**: [[Backside 50-50]]
+- **Targets**: [[Positions/Ashi Garami/Backside 50-50]]
 - **If successful**: You create enough distance to extract your leg and return to Backside 50-50 or recover to a neutral leg entanglement where neither player has dominant position
 - **Risk**: If the push fails and you overextend, you waste energy and may end up with your free leg compromised as well. The attacker may also use your push momentum against you
 
 ### 3. Roll toward the attacker - roll your body into the attacker to align your leg with their extension force, eliminating the hyperextension angle
 
 - **When to use**: When the attacker has already established strong leg triangle and fulcrum position, making knee bend alone insufficient to escape
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You neutralize the hyperextension pressure and may scramble to a 50-50 configuration or standing position. The roll can also create back exposure for the attacker
 - **Risk**: If the attacker follows the roll with a belly-down finish, you may end up in a worse position with gravity working against you. Commit fully or do not roll at all
 
 ### 4. Grip fight and ankle strip - attack the attacker's hand grips on your ankle to remove their ability to anchor the finish, then extract while their control is compromised
 
 - **When to use**: When the attacker has position but has not yet applied significant breaking pressure - use the window between control establishment and finish commitment
-- **Targets**: [[Backside 50-50]]
+- **Targets**: [[Positions/Ashi Garami/Backside 50-50]]
 - **If successful**: Without ankle control, the attacker cannot maintain the lever needed to finish. You extract your leg and return to entanglement with the kneebar threat removed
 - **Risk**: Grip fighting uses your hands, leaving you unable to frame or post. If the attacker finishes with hip pressure alone despite stripped grips, you have no backup defense
 
@@ -226,11 +226,11 @@ The defender must understand that kneebar defense operates on a timeline: the ea
 
 ## Best-Case Outcomes for Defender
 
-### → [[Backside 50-50]]
+### → [[Positions/Ashi Garami/Backside 50-50]]
 
 Bend your knee immediately when you feel the attacker rotating perpendicular. Rotate your hip toward them to close the extension angle. Strip their ankle grip with your hands while using your free leg to push their hip away. Once your knee is bent past 90 degrees and the attacker cannot straighten it, you have returned to Backside 50-50 where you can re-establish chest pressure and restart your own offensive sequences.
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 When the attacker has deep control and knee bend alone is insufficient, roll your body toward them to neutralize the hyperextension angle. As you roll, use the momentum to scramble and face them, re-establishing the symmetrical 50-50 leg entanglement. While 50-50 Bottom is not ideal, it removes the immediate kneebar threat and provides counter-attacking opportunities through your own heel hook and sweep attempts.
 

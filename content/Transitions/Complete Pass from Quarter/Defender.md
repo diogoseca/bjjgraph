@@ -156,7 +156,7 @@ Defending the complete pass from quarter guard demands immediate recognition and
 
 Success in this defensive position requires understanding that passivity guarantees failure. Every second spent absorbing pressure without counter-action allows the passer to eliminate your remaining defensive structures and complete the pass at their leisure. Your defensive hierarchy should prioritize maintaining your underhook as the primary offensive anchor, using your free leg actively for frames or hooks, and committing to either guard recovery or sweep within the first three seconds of recognizing the pass attempt.
 
-**Opponent's Starting Position**: [[Quarter Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Quarter Guard]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Success in this defensive position requires understanding that passivity guarant
 ### 1. Recover knee shield by inserting knee between bodies and establishing shin frame across opponent's chest
 
 - **When to use**: When you detect the pass attempt early and still have enough space to insert your knee before the passer eliminates the gap. Most effective when your hips have not been completely flattened and you can create a small angle with hip escape.
-- **Targets**: [[Quarter Guard]]
+- **Targets**: [[Positions/Quarter Guard]]
 - **If successful**: Prevents pass completion and resets the position to contested quarter guard with improved defensive structure, buying time for further guard recovery or sweep development
 - **Risk**: If the knee insertion is too slow or shallow, the passer can smash it down and use the attempted frame as additional leverage to complete the pass
 
 ### 2. Hip escape and re-guard to recover full half guard engagement with both legs trapping opponent's leg
 
 - **When to use**: When your underhook is compromised and you cannot generate sweep leverage, but your hips still have mobility. Execute the hip escape away from the passing direction to create the angle needed for full leg re-engagement.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recovers full half guard with improved defensive position, resetting the passing sequence and forcing opponent to restart their advance from half guard top
 - **Risk**: Hip escape creates momentary space that an alert passer may use to accelerate their extraction and complete the pass before you can re-engage your legs
 
 ### 3. Underhook sweep timed to the extraction moment when passer's base narrows and weight shifts forward
 
 - **When to use**: When you have a deep underhook with elbow pointing toward ceiling and the passer commits weight forward during the extraction phase. The sweep exploits the brief instability when their trapped leg is in transit and their base is reduced to one posting leg.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Reverses the position entirely, sweeping the passer and achieving top position while they recover from the reversal
 - **Risk**: Failed sweep attempt leaves you more flattened and vulnerable, potentially accelerating the pass if the passer maintains base through the sweep attempt
 
 ### 4. Deep half guard entry by getting underneath opponent's weight as they commit forward pressure for extraction
 
 - **When to use**: When the passer drives heavy forward pressure and your remaining hook cannot prevent the pass through direct resistance. Use their forward commitment against them by diving underneath to establish deep half guard position.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Transitions to deep half guard where you have superior sweeping mechanics and the passer must restart their passing approach from a new position
 - **Risk**: If the entry is too slow or the passer recognizes it early, they can sprawl their hips back and flatten you, completing the pass from an even more compromised defensive position
 
@@ -226,11 +226,11 @@ Success in this defensive position requires understanding that passivity guarant
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your defensive response to the extraction moment when the passer's base is narrowest. Use either a strong hip escape to re-engage your legs in full half guard, or exploit the passer's forward commitment with an underhook sweep that reverses the position. The key is committing to your chosen response within two seconds of recognizing the extraction and executing explosively rather than gradually.
 
-### → [[Quarter Guard]]
+### → [[Positions/Quarter Guard]]
 
 Recover your knee shield before the passer can eliminate the remaining space between your bodies. As soon as you feel increased crossface pressure or their hand targeting your hook, immediately insert your knee between your bodies and drive your shin across their chest to create a frame. Combine the knee insertion with a sharp hip escape to create the angle needed for the shield to hold against their forward pressure.
 

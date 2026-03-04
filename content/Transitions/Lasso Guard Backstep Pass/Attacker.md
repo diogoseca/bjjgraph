@@ -180,7 +180,7 @@ description: "Learn to execute the Lasso Guard Backstep Pass. Complete guide cov
 
 Executing the Lasso Guard Backstep Pass requires understanding rotational mechanics and precise timing. As the passer, your objective is to exploit the lasso's directional limitation by stepping your free leg behind you and rotating away from the lasso entanglement. This removes the perpendicular angle that gives the lasso its control power. The primary challenge is managing the transition period where your weight shifts during the backstep—this is when you are most vulnerable to sweeps and back takes. Success depends on coordinating grip management with the rotational movement, ensuring that your trapped arm slides free as your body turns rather than getting locked tighter into the lasso. Initiating the backstep without adequate grip preparation is the most common cause of failure.
 
-**From Position**: [[Lasso Guard]] (Top)
+**From Position**: [[Positions/Lasso Guard]] (Top)
 
 </section>
 
@@ -232,10 +232,10 @@ Executing the Lasso Guard Backstep Pass requires understanding rotational mechan
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Success | [[Headquarters Position]] | 10% |
-| Failure | [[Lasso Guard]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Side Control]] | 45% |
+| Success | [[Positions/Headquarters Position]] | 10% |
+| Failure | [[Positions/Lasso Guard]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ Executing the Lasso Guard Backstep Pass requires understanding rotational mechan
 
 ## Opponent Counters
 
-- **Guard player pulls sleeve grip tight and extends lasso leg during backstep, re-locking the arm before rotation completes** (Effectiveness: High) - Your Response: Commit to a stronger initial grip break before backstep or use a pummel motion to circle your arm free during rotation rather than pulling linearly → Leads to [[Lasso Guard]]
-- **Guard player follows your rotation with hip movement and inserts a De La Riva hook on the stepping leg** (Effectiveness: Medium) - Your Response: Control non-lasso leg firmly before initiating backstep or accelerate the rotation to complete the pass before the hook can be established → Leads to [[Lasso Guard]]
-- **Guard player inverts and takes the back during the mid-rotation phase when your base is narrowest** (Effectiveness: High) - Your Response: Keep hips low and maintain forward pressure throughout rotation—do not allow weight to shift backward during the step—and use free hand to block hip inversion → Leads to [[Back Control]]
-- **Guard player releases lasso voluntarily and immediately reguards to closed guard or butterfly before consolidation** (Effectiveness: Medium) - Your Response: Accelerate consolidation to side control the moment the lasso releases, driving crossface immediately rather than completing a now-unnecessary full rotation → Leads to [[Lasso Guard]]
+- **Guard player pulls sleeve grip tight and extends lasso leg during backstep, re-locking the arm before rotation completes** (Effectiveness: High) - Your Response: Commit to a stronger initial grip break before backstep or use a pummel motion to circle your arm free during rotation rather than pulling linearly → Leads to [[Positions/Lasso Guard]]
+- **Guard player follows your rotation with hip movement and inserts a De La Riva hook on the stepping leg** (Effectiveness: Medium) - Your Response: Control non-lasso leg firmly before initiating backstep or accelerate the rotation to complete the pass before the hook can be established → Leads to [[Positions/Lasso Guard]]
+- **Guard player inverts and takes the back during the mid-rotation phase when your base is narrowest** (Effectiveness: High) - Your Response: Keep hips low and maintain forward pressure throughout rotation—do not allow weight to shift backward during the step—and use free hand to block hip inversion → Leads to [[Positions/Back Control]]
+- **Guard player releases lasso voluntarily and immediately reguards to closed guard or butterfly before consolidation** (Effectiveness: Medium) - Your Response: Accelerate consolidation to side control the moment the lasso releases, driving crossface immediately rather than completing a now-unnecessary full rotation → Leads to [[Positions/Lasso Guard]]
 
 
 </section>

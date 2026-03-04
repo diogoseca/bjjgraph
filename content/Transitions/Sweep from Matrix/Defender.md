@@ -154,7 +154,7 @@ description: "Defend and counter the Sweep from Matrix in BJJ. Learn recognition
 
 From the defender perspective, recognizing and countering the Sweep from Matrix is essential for maintaining top position against Matrix-proficient opponents. The sweep begins with the bottom player elevating hips and pulling on your belt or hips, attempting to break your base and rotate you into a disadvantaged position where they establish back control. Defending requires immediate base widening, weight shifting against the sweep direction, and active grip fighting to break the connections that load your weight onto the opponent's sweeping structure. Understanding the sweep mechanics allows you to not only maintain top control but also exploit failed sweep attempts as opportunities for passing or submission attacks, converting their offensive effort into your positional advantage.
 
-**Opponent's Starting Position**: [[Matrix]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Matrix]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ From the defender perspective, recognizing and countering the Sweep from Matrix 
 ### 1. Widen base and drop hips to maximize support polygon against sweeping force
 
 - **When to use**: When you feel the bottom player beginning to elevate hips and tighten grips, before the sweep develops meaningful momentum
-- **Targets**: [[Matrix]]
+- **Targets**: [[Positions/Matrix]]
 - **If successful**: Sweep is neutralized due to insufficient leverage against your widened base, bottom player remains stuck in Matrix with wasted energy and potentially broken grips
 - **Risk**: Excessively wide base may create openings for Matrix back take if legs spread too far laterally, exposing rotational vulnerability
 
 ### 2. Strip grips on belt and hips to break the sweeping connection before force develops
 
 - **When to use**: Early in the sweep setup when you detect grip tightening on your belt, pants, or hips indicating sweep preparation phase
-- **Targets**: [[Matrix]]
+- **Targets**: [[Positions/Matrix]]
 - **If successful**: Without grip connection, the sweep becomes isolated rotation that fails to displace your body, leaving the bottom player rotating without effect
 - **Risk**: Using both hands for grip fighting temporarily compromises your own base and top control, creating a brief window for other attacks
 
 ### 3. Drive weight forward and sprawl to flatten opponent's hip elevation
 
 - **When to use**: When the bottom player has already begun hip elevation and the sweep is developing momentum that base adjustment alone cannot neutralize
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Flattening their hips removes the fulcrum point required for sweep mechanics, allowing you to consolidate pressure and advance toward side control
 - **Risk**: Overcommitting forward drive may be redirected by the bottom player into a granby roll or guard recovery using your own momentum against you
 
 ### 4. Counter-rotate in opposite direction to neutralize sweeping angular momentum
 
 - **When to use**: When the sweep has begun but you still maintain sufficient base to generate counter-rotational force without losing structural integrity
-- **Targets**: [[Matrix]]
+- **Targets**: [[Positions/Matrix]]
 - **If successful**: Your counter-rotation neutralizes their sweeping momentum, leaving them stuck in Matrix bottom with compromised grips and exhausted energy
 - **Risk**: Mistiming the counter-rotation can accelerate the sweep by adding angular momentum in the wrong direction, completing the sweep faster
 
@@ -225,11 +225,11 @@ From the defender perspective, recognizing and countering the Sweep from Matrix 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the sweep attempt fails due to your forward driving pressure, follow through aggressively to consolidate side control. Use the opponent's compromised structure and wasted energy from the failed sweep to establish crossface and hip control, converting their offensive attempt into your dominant position.
 
-### → [[Matrix]]
+### → [[Positions/Matrix]]
 
 Neutralize the sweep by widening base, stripping grips, or counter-rotating before the sweep develops sufficient momentum. The bottom player remains stuck in Matrix with depleted energy and potentially broken grip connections, allowing you to reassert top control and advance your own offensive game plan.
 

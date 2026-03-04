@@ -180,7 +180,7 @@ description: "How to execute the Balloon Sweep from Closed Guard in BJJ. Attacki
 
 The Balloon Sweep is executed from closed guard bottom by combining an explosive upward hip extension with a coordinated upper body pull to vertically displace and sweep the opponent to mount. The technique exploits the opponent's forward pressure by loading their weight onto a butterfly hook or posting foot, then launching them over your center line with a synchronized lift-and-pull motion. Unlike lateral sweeps that require angular hip movement, the Balloon Sweep uses vertical displacement as its primary off-balancing mechanism, making it uniquely effective against opponents who maintain strong low bases and resist traditional sweep directions. Mastery of this technique requires developing sensitivity to weight distribution, precise timing of the explosive phase, and the ability to maintain upper body control throughout the entire sweeping arc into the mount transition.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -235,9 +235,9 @@ The Balloon Sweep is executed from closed guard bottom by combining an explosive
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 58% |
-| Failure | [[Closed Guard]] | 27% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Mount]] | 58% |
+| Failure | [[Positions/Closed Guard]] | 27% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -246,10 +246,10 @@ The Balloon Sweep is executed from closed guard bottom by combining an explosive
 
 ## Opponent Counters
 
-- **Opponent posts their far leg wide to create a stable triangulated base** (Effectiveness: High) - Your Response: Switch to attacking the posted side with a Scissor Sweep cutting into their widened base, or abandon the sweep direction and attack their posted arm with an armbar since their weight is committed to the posting leg → Leads to [[Closed Guard]]
-- **Opponent pulls their hips back and stands up to relieve forward pressure** (Effectiveness: Medium) - Your Response: Follow their backward movement by maintaining sleeve control and transitioning to open guard attacks such as collar-sleeve pulling guard or single leg X entry, or sit up for a technical standup if they create sufficient distance → Leads to [[Closed Guard]]
-- **Opponent drives forward hard to flatten you and prevent the lift** (Effectiveness: Medium) - Your Response: Use their forward momentum to enhance the sweep by timing the lift to their drive, converting their energy into sweeping power, or redirect to Pendulum Sweep which specifically exploits forward over-commitment → Leads to [[Closed Guard]]
-- **Opponent posts their free arm wide on the mat to prevent rotation** (Effectiveness: Low) - Your Response: Attack the posted arm directly with armbar from guard since the arm is extended and isolated, or use the posting commitment to take their back as they become structurally exposed on the posting side → Leads to [[Closed Guard]]
+- **Opponent posts their far leg wide to create a stable triangulated base** (Effectiveness: High) - Your Response: Switch to attacking the posted side with a Scissor Sweep cutting into their widened base, or abandon the sweep direction and attack their posted arm with an armbar since their weight is committed to the posting leg → Leads to [[Positions/Closed Guard]]
+- **Opponent pulls their hips back and stands up to relieve forward pressure** (Effectiveness: Medium) - Your Response: Follow their backward movement by maintaining sleeve control and transitioning to open guard attacks such as collar-sleeve pulling guard or single leg X entry, or sit up for a technical standup if they create sufficient distance → Leads to [[Positions/Closed Guard]]
+- **Opponent drives forward hard to flatten you and prevent the lift** (Effectiveness: Medium) - Your Response: Use their forward momentum to enhance the sweep by timing the lift to their drive, converting their energy into sweeping power, or redirect to Pendulum Sweep which specifically exploits forward over-commitment → Leads to [[Positions/Closed Guard]]
+- **Opponent posts their free arm wide on the mat to prevent rotation** (Effectiveness: Low) - Your Response: Attack the posted arm directly with armbar from guard since the arm is extended and isolated, or use the posting commitment to take their back as they become structurally exposed on the posting side → Leads to [[Positions/Closed Guard]]
 
 
 </section>

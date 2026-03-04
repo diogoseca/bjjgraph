@@ -182,7 +182,7 @@ description: "Master attacking the Short Choke from Cross Body Ride. Step-by-ste
 
 Executing the Short Choke from Cross Body requires precise arm threading under the opponent's chin, optimal weight distribution through perpendicular chest-to-back contact, and systematic grip fighting to clear the opponent's defensive hands from the neck. The attacker must maintain heavy cross body pressure throughout the entire submission sequence, using their perpendicular angle to drive the choking forearm into the carotid arteries. Success depends on patience in establishing the choking grip and progressive incremental pressure application rather than relying on explosive force that can be resisted or escaped. The cross body angle provides a unique mechanical advantage where your entire body weight amplifies the forearm compression, making this choke effective even when fatigued or against physically stronger opponents.
 
-**From Position**: [[Cross Body Ride]] (Top)
+**From Position**: [[Positions/Cross Body Ride]] (Top)
 
 
 </section>
@@ -237,8 +237,8 @@ Executing the Short Choke from Cross Body requires precise arm threading under t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Cross Body Ride]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Cross Body Ride]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -247,10 +247,10 @@ Executing the Short Choke from Cross Body requires precise arm threading under t
 
 ## Opponent Defenses
 
-- **Opponent tucks chin tightly to chest preventing forearm from reaching the neck** (Effectiveness: High) - Your Response: Establish aggressive crossface to forcefully turn their head away, or use near-side arm to physically pry their chin up before rethreading the choking arm → Leads to [[Cross Body Ride]]
-- **Opponent uses two-on-one grip fighting to control and strip the choking arm** (Effectiveness: Medium) - Your Response: Threaten crucifix entry on the near-side arm to force them to release one hand for defense, then immediately advance the choking arm during their grip transition → Leads to [[Cross Body Ride]]
-- **Opponent frames with arms and hip escapes to create distance and recover guard** (Effectiveness: Medium) - Your Response: Follow their hip movement by adjusting your cross body angle and increase chest pressure to prevent space creation; if guard recovery begins, transition to passing rather than forcing the choke → Leads to [[Half Guard]]
-- **Opponent executes explosive granby roll during arm threading to escape position entirely** (Effectiveness: Low) - Your Response: Maintain heavy chest pressure and follow their rotation direction, using their rolling momentum to accelerate your transition to back control or re-establish cross body ride → Leads to [[Half Guard]]
+- **Opponent tucks chin tightly to chest preventing forearm from reaching the neck** (Effectiveness: High) - Your Response: Establish aggressive crossface to forcefully turn their head away, or use near-side arm to physically pry their chin up before rethreading the choking arm → Leads to [[Positions/Cross Body Ride]]
+- **Opponent uses two-on-one grip fighting to control and strip the choking arm** (Effectiveness: Medium) - Your Response: Threaten crucifix entry on the near-side arm to force them to release one hand for defense, then immediately advance the choking arm during their grip transition → Leads to [[Positions/Cross Body Ride]]
+- **Opponent frames with arms and hip escapes to create distance and recover guard** (Effectiveness: Medium) - Your Response: Follow their hip movement by adjusting your cross body angle and increase chest pressure to prevent space creation; if guard recovery begins, transition to passing rather than forcing the choke → Leads to [[Positions/Half Guard]]
+- **Opponent executes explosive granby roll during arm threading to escape position entirely** (Effectiveness: Low) - Your Response: Maintain heavy chest pressure and follow their rotation direction, using their rolling momentum to accelerate your transition to back control or re-establish cross body ride → Leads to [[Positions/Half Guard]]
 
 
 </section>

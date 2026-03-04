@@ -154,7 +154,7 @@ description: "How to defend against Lasso Guard Pass in BJJ. Recognition cues, d
 
 Defending the Lasso Guard Pass means you are the lasso guard player whose guard is being passed. Your primary objective is maintaining the structural integrity of your lasso control while recognizing and countering the passer's systematic attempts to dismantle it. The defender holds a significant mechanical advantage through the lasso hook and sleeve grip, but this advantage erodes rapidly once the passer establishes proper angles and begins clearing the hook. Effective defense requires proactive grip management, hip mobility, and the ability to threaten sweeps and submissions that punish the passer for committing to the pass. Understanding the passer's step-by-step sequence allows you to identify which phase they are in and apply the appropriate counter at each stage, turning their passing attempt into your attacking opportunity.
 
-**Opponent's Starting Position**: [[Lasso Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Lasso Guard]] (Top)
 
 </section>
 
@@ -190,28 +190,28 @@ Defending the Lasso Guard Pass means you are the lasso guard player whose guard 
 ### 1. Re-extend the lasso and pull the sleeve grip tight while posting your free foot on the passer's hip to re-establish distance
 
 - **When to use**: Early in the pass when the passer is standing up but has not yet stepped outside your lasso leg
-- **Targets**: [[Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard]]
 - **If successful**: Passer is pushed back to starting position with full lasso control restored, forced to restart the passing sequence
 - **Risk**: If the passer maintains strong sleeve control, your re-extension may be blocked and you waste energy without changing the position
 
 ### 2. Follow the passer's angle change with a hip switch, turning to face them as they step outside, and immediately attack with a sickle sweep or hook sweep using your free leg
 
 - **When to use**: When the passer steps outside your lasso leg but before they clear the hook, exploiting their weight shift during the angle change
-- **Targets**: [[Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard]]
 - **If successful**: Passer is swept to their back and you achieve top position with the lasso still partially engaged, scoring sweep points
 - **Risk**: If the passer has strong base and anticipates the sweep, they may use the momentum to accelerate their pass and clear the hook faster
 
 ### 3. Transition to De La Riva guard or spider guard with the non-lasso leg as the passer begins to neutralize the lasso
 
 - **When to use**: When you feel the lasso control deteriorating and the passer is successfully creating angles that weaken your hook
-- **Targets**: [[Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard]]
 - **If successful**: You establish a new guard configuration that forces the passer to restart their passing strategy against a different guard system
 - **Risk**: The transition moment leaves a brief window where neither guard is fully established, allowing the passer to accelerate through to side control
 
 ### 4. Sit up aggressively and re-thread the lasso deeper while pulling the sleeve grip tight, re-establishing the full lasso position
 
 - **When to use**: When the passer is standing but has not yet committed to the angle change, and their sleeve grip is not yet fully controlling your arm
-- **Targets**: [[Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard]]
 - **If successful**: Full lasso control is re-established with even deeper hook placement, making the passer's next attempt more difficult
 - **Risk**: If the passer posts on your shoulder or drives forward, your sit-up attempt can be stuffed and you end up flat on your back with less control
 
@@ -223,11 +223,11 @@ Defending the Lasso Guard Pass means you are the lasso guard player whose guard 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lasso Guard]]
+### → [[Positions/Lasso Guard]]
 
 Maintain sleeve grip tension and lasso extension throughout the passer's attempts. When they step outside, follow with your hips and re-angle perpendicular to them. Use your free foot on their hip to push them back to the starting position. Threaten sweeps to force them to abandon the pass and reset.
 
-### → [[Lasso Guard]]
+### → [[Positions/Lasso Guard]]
 
 Time a sweep attempt to coincide with the passer's weight shift during their angle change. As they step outside the lasso leg, their weight transfers to the outside foot, creating vulnerability. Attack with a sickle sweep using your free leg to hook behind their far ankle while pulling the lasso to off-balance them forward and over.
 

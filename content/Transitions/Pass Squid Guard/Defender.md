@@ -148,7 +148,7 @@ As the Squid Guard player defending against pass attempts, your primary objectiv
 
 The most effective defensive mindset is proactive rather than reactive. Rather than passively waiting for the passer to strip your lapel, use their clearing attempts as triggers for your own offensive sequences. When they reach to strip, their posture shifts and their base narrows, creating the exact conditions needed for inversions, sweeps, and back takes. The defender who treats the passer's clearing attempts as attack opportunities will convert many pass attempts into dominant positions.
 
-**Opponent's Starting Position**: [[Squid Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Squid Guard]] (Top)
 
 </section>
 
@@ -187,28 +187,28 @@ The most effective defensive mindset is proactive rather than reactive. Rather t
 ### 1. Deepen the lapel wrap and reinforce grips when passer begins strip attempt
 
 - **When to use**: Early in the clearing sequence when the passer first reaches for the lapel or your free hand, before they have established dominant grip control
-- **Targets**: [[Squid Guard]]
+- **Targets**: [[Positions/Squid Guard]]
 - **If successful**: The passer's clearing attempt fails and they must restart the sequence against a deeper, more secure entanglement
 - **Risk**: If the passer controls your free hand first, you cannot reinforce and may lose the grip entirely
 
 ### 2. Invert toward the passer's back when they commit weight forward during the strip
 
 - **When to use**: When the passer leans forward or narrows their base during the lapel clearing phase, compromising their ability to prevent your rotation
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You complete the inversion and establish back control, converting their pass attempt into your dominant position
 - **Risk**: If the passer sprawls effectively, you may end up flattened in a worse guard position with reduced control
 
 ### 3. Use threading hook elevation to sweep when passer stands on narrow base
 
 - **When to use**: When the passer stands tall with straight legs or shifts their weight to one leg during the clearing attempt
-- **Targets**: [[Squid Guard]]
+- **Targets**: [[Positions/Squid Guard]]
 - **If successful**: The passer is swept or forced to reset their base entirely, returning to the starting position where you retain full guard control
 - **Risk**: If the sweep fails and the passer maintains balance, they may use your extension to accelerate the lapel strip
 
 ### 4. Transition to De La Riva or Spider Guard when lapel is partially stripped
 
 - **When to use**: When the lapel entanglement is compromised beyond recovery but you still retain your threading hook and upper body grips
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish a secondary guard that prevents the complete pass and maintains a viable defensive position
 - **Risk**: The transition window is narrow and a decisive passer can complete the pass during your guard change
 
@@ -220,11 +220,11 @@ The most effective defensive mindset is proactive rather than reactive. Rather t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Initiate inversion as the passer commits to the lapel strip, using their forward weight shift and narrowed base as the trigger. Thread under their body using your threading hook for leverage and complete the rotation to back control before they can sprawl.
 
-### → [[Squid Guard]]
+### → [[Positions/Squid Guard]]
 
 Actively fight to maintain and deepen the lapel wrap throughout the passer's clearing attempts. Use your free hand to re-grip whenever they create slack, and use hook elevation to disrupt their base and force them to restart the clearing sequence.
 

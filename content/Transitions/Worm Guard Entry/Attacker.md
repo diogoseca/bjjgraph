@@ -184,7 +184,7 @@ The entry requires precise timing and lapel management. The bottom player must m
 
 Strategically, completing the Worm Guard Entry represents a significant positional upgrade. While basic Lapel Guard offers control, the Worm Guard configuration locks the opponent's lead leg in place, severely limiting their passing options and loading powerful sweep mechanics. The position creates true dilemmas where defending the sweep exposes the back, and defending the back take opens sweep opportunities. For gi competitors, this entry is a gateway to an entire attacking subsystem that rewards technical precision over athleticism.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -236,9 +236,9 @@ Strategically, completing the Worm Guard Entry represents a significant position
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Worm Guard]] | 60% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Worm Guard]] | 60% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -247,10 +247,10 @@ Strategically, completing the Worm Guard Entry represents a significant position
 
 ## Opponent Counters
 
-- **Opponent strips the lapel from your grip during the threading window before the weave is complete** (Effectiveness: High) - Your Response: Minimize the threading window by drilling rapid feed-through mechanics. Maintain strong secondary grip on their sleeve to restrict their hand movement. If stripped, immediately re-extract the lapel or transition to Spider Guard or Lasso Guard to maintain guard integrity → Leads to [[Lapel Guard]]
-- **Opponent backsteps and circles away from the threading side, removing their lead leg from range** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own hip escape to maintain alignment. Use your framing leg to track their lead hip and prevent full disengagement. If they commit to circling, transition to De La Riva Guard on the new lead leg → Leads to [[Open Guard]]
-- **Opponent drives forward with heavy pressure to collapse distance and prevent the lapel feed** (Effectiveness: Medium) - Your Response: Use the existing lapel grip and your leg frames to redirect their forward pressure into off-balancing momentum. Frame strongly on their shoulder or collar to maintain space. Their forward commitment can be converted into sweep attempts even without complete Worm Guard → Leads to [[Lapel Guard]]
-- **Opponent posts their hands on your hips or knees to create a barrier preventing the threading angle** (Effectiveness: Low) - Your Response: Their hands posting on your lower body removes grip threats and opens their collar and sleeves for attacks. Use collar drag or arm drag to break their posting structure, which simultaneously creates the angle needed to complete the thread → Leads to [[Lapel Guard]]
+- **Opponent strips the lapel from your grip during the threading window before the weave is complete** (Effectiveness: High) - Your Response: Minimize the threading window by drilling rapid feed-through mechanics. Maintain strong secondary grip on their sleeve to restrict their hand movement. If stripped, immediately re-extract the lapel or transition to Spider Guard or Lasso Guard to maintain guard integrity → Leads to [[Positions/Lapel Guard]]
+- **Opponent backsteps and circles away from the threading side, removing their lead leg from range** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own hip escape to maintain alignment. Use your framing leg to track their lead hip and prevent full disengagement. If they commit to circling, transition to De La Riva Guard on the new lead leg → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward with heavy pressure to collapse distance and prevent the lapel feed** (Effectiveness: Medium) - Your Response: Use the existing lapel grip and your leg frames to redirect their forward pressure into off-balancing momentum. Frame strongly on their shoulder or collar to maintain space. Their forward commitment can be converted into sweep attempts even without complete Worm Guard → Leads to [[Positions/Lapel Guard]]
+- **Opponent posts their hands on your hips or knees to create a barrier preventing the threading angle** (Effectiveness: Low) - Your Response: Their hands posting on your lower body removes grip threats and opens their collar and sleeves for attacks. Use collar drag or arm drag to break their posting structure, which simultaneously creates the angle needed to complete the thread → Leads to [[Positions/Lapel Guard]]
 
 
 </section>

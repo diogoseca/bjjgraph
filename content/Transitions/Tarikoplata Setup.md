@@ -21,7 +21,7 @@ Strategically, the Tarikoplata Setup occupies a unique position in the Meathook 
 
 The technique requires precise sequencing: the shin must clear the shoulder line, the hip pivot must create omoplata angle, and the wrist grip must be established before releasing any Meathook control. Rushing any phase collapses the attack. For purple and brown belt practitioners, the Tarikoplata represents the deeper submission layer of Rubber Guard—where basic position chains evolve into compound locks that attack multiple joint structures simultaneously.
 
-**From Position**: [[Meathook]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique requires precise sequencing: the shin must clear the shoulder line
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Omoplata Control]] | 55% |
-| Failure | [[Meathook]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Omoplata Control]] | 55% |
+| Failure | [[Positions/Rubber Guard/Meathook]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -193,23 +193,23 @@ The Tarikoplata Setup represents the compound-lock layer of the Meathook attack 
 ## Related Techniques
 
 
-- [[Meathook]] - Starting position—Tarikoplata Setup initiates from Meathook Bottom arm isolation
+- [[Positions/Rubber Guard/Meathook]] - Starting position—Tarikoplata Setup initiates from Meathook Bottom arm isolation
 
-- [[Tarikoplata]] - Finishing submission—the compound shoulder lock that this setup establishes
+- [[Submissions/Tarikoplata]] - Finishing submission—the compound shoulder lock that this setup establishes
 
-- [[Omoplata Control]] - Target control position on successful setup—Tarikoplata finishes from omoplata configuration
+- [[Positions/Omoplata Control]] - Target control position on successful setup—Tarikoplata finishes from omoplata configuration
 
-- [[Baratoplata Setup]] - Alternative Meathook attack—punishes backward arm extraction while Tarikoplata exploits static defense
+- [[Transitions/Baratoplata Setup]] - Alternative Meathook attack—punishes backward arm extraction while Tarikoplata exploits static defense
 
-- [[Meathook to Gogoplata Control]] - Alternative Meathook attack—punishes forward pressure
+- [[Transitions/Meathook to Gogoplata Control]] - Alternative Meathook attack—punishes forward pressure
 
-- [[Closed Guard to Omoplata]] - Related omoplata entry from standard guard without Meathook prerequisites
+- [[Transitions/Closed Guard to Omoplata]] - Related omoplata entry from standard guard without Meathook prerequisites
 
-- [[Triangle Setup]] - Chain attack when opponent postures to defend Tarikoplata
+- [[Transitions/Triangle Setup]] - Chain attack when opponent postures to defend Tarikoplata
 
-- [[Armbar from Guard]] - Chain attack when opponent straightens arm to defend omoplata angle
+- [[Submissions/Armbar from Guard]] - Chain attack when opponent straightens arm to defend omoplata angle
 
-- [[Mission Control]] - Prerequisite Rubber Guard position that precedes Meathook in the system progression
+- [[Positions/Rubber Guard/Mission Control]] - Prerequisite Rubber Guard position that precedes Meathook in the system progression
 
 
 </section>

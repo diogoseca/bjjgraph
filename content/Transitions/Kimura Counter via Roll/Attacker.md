@@ -180,7 +180,7 @@ description: "Execute the Kimura Counter via Roll from bottom. Step-by-step roll
 
 As the attacker executing the Kimura Counter via Roll, your objective is to convert a deteriorating Kimura Trap position into a sustainable closed guard before the opponent fully extracts their arm and advances past your guard. This requires precise timing—you must recognize the moment when maintaining the Kimura grip transitions from viable offense to diminishing returns, then redirect the remaining grip leverage into rotational momentum. The roll is not a concession of defeat but a tactical repositioning that preserves your offensive capabilities. Your success depends on reading your opponent's escape patterns, maintaining hip mobility under pressure, and executing a smooth transition that denies them the positional advancement they expect when they feel the Kimura weakening. The best practitioners make this transition seamlessly, arriving in closed guard with posture-breaking grips already established before the opponent realizes the Kimura threat has ended.
 
-**From Position**: [[Kimura Trap]] (Bottom)
+**From Position**: [[Positions/Kimura Trap]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Kimura Counter via Roll, your objective is to conv
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Kimura Trap]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Kimura Trap]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Kimura Counter via Roll, your objective is to conv
 
 ## Opponent Counters
 
-- **Opponent bases out wide and posts free hand to resist the rolling force** (Effectiveness: High) - Your Response: Abandon the roll attempt and immediately re-engage the Kimura grip if still available, or transition to an underhook sweep from half guard. Their wide base often exposes them to Old School Sweep mechanics. → Leads to [[Kimura Trap]]
-- **Opponent drives forward aggressively to flatten your hips before the roll initiates** (Effectiveness: High) - Your Response: Use their forward pressure to fuel a Rolling Kimura instead, which converts their drive into sweeping momentum. Alternatively, frame on their shoulder and re-establish hip angle before reattempting. → Leads to [[Kimura Trap]]
-- **Opponent strips the Kimura grip during the rolling transition before closed guard is established** (Effectiveness: Medium) - Your Response: Immediately transition to half guard retention by inserting your knee shield and establishing frames. Prioritize preventing the pass rather than completing the roll to closed guard. → Leads to [[Half Guard]]
-- **Opponent sprawls hips back and pressures down through crossface to kill the rotational momentum** (Effectiveness: Medium) - Your Response: Convert the roll attempt into a deep half guard entry by sliding underneath their sprawled hips. Their backward hip movement creates the space needed for a deep half entry. → Leads to [[Kimura Trap]]
+- **Opponent bases out wide and posts free hand to resist the rolling force** (Effectiveness: High) - Your Response: Abandon the roll attempt and immediately re-engage the Kimura grip if still available, or transition to an underhook sweep from half guard. Their wide base often exposes them to Old School Sweep mechanics. → Leads to [[Positions/Kimura Trap]]
+- **Opponent drives forward aggressively to flatten your hips before the roll initiates** (Effectiveness: High) - Your Response: Use their forward pressure to fuel a Rolling Kimura instead, which converts their drive into sweeping momentum. Alternatively, frame on their shoulder and re-establish hip angle before reattempting. → Leads to [[Positions/Kimura Trap]]
+- **Opponent strips the Kimura grip during the rolling transition before closed guard is established** (Effectiveness: Medium) - Your Response: Immediately transition to half guard retention by inserting your knee shield and establishing frames. Prioritize preventing the pass rather than completing the roll to closed guard. → Leads to [[Positions/Half Guard]]
+- **Opponent sprawls hips back and pressures down through crossface to kill the rotational momentum** (Effectiveness: Medium) - Your Response: Convert the roll attempt into a deep half guard entry by sliding underneath their sprawled hips. Their backward hip movement creates the space needed for a deep half entry. → Leads to [[Positions/Kimura Trap]]
 
 
 </section>

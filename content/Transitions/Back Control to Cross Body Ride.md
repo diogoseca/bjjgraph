@@ -21,7 +21,7 @@ The strategic value of this transition lies in its ability to maintain offensive
 
 Execution requires precise timing and weight distribution awareness. The top player must commit to the lateral shift at the exact moment the opponent's defensive movement creates the angle, maintaining harness or seatbelt grip throughout the transition to prevent any separation. The chest must stay glued to the opponent's back as the hips rotate from behind to beside, with the near-side knee driving into the opponent's hip to prevent guard recovery. This transition exemplifies the principle that positional control is maintained through continuous adaptation rather than static holding.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -32,9 +32,9 @@ Execution requires precise timing and weight distribution awareness. The top pla
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Cross Body Ride]] | 65% |
-| Failure | [[Back Control]] | 20% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Cross Body Ride]] | 65% |
+| Failure | [[Positions/Back Control]] | 20% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Transition to Cross Body Ride serves as a critical link between back control
 ## Related Techniques
 
 
-- [[Back Control]] - Starting position for this transition when opponent begins defensive turtling
+- [[Positions/Back Control]] - Starting position for this transition when opponent begins defensive turtling
 
-- [[Cross Body Ride]] - Target position achieved upon successful execution of this transition
+- [[Positions/Cross Body Ride]] - Target position achieved upon successful execution of this transition
 
-- [[Turtle]] - Opponent's defensive position that creates the angle for cross body ride entry
+- [[Positions/Turtle]] - Opponent's defensive position that creates the angle for cross body ride entry
 
-- [[Crab Ride]] - Alternative lateral control position accessible from similar transitional moments
+- [[Positions/Crab Ride]] - Alternative lateral control position accessible from similar transitional moments
 
-- [[Crucifix]] - Advanced follow-up position available after establishing cross body ride control
+- [[Positions/Crucifix]] - Advanced follow-up position available after establishing cross body ride control
 
-- [[Back Control Maintenance]] - Alternative strategy of re-establishing hooks rather than transitioning to cross body ride
+- [[Transitions/Back Control Maintenance]] - Alternative strategy of re-establishing hooks rather than transitioning to cross body ride
 
-- [[Body Triangle]] - Alternative hook defense response that maintains parallel back control alignment
+- [[Positions/Back Control/Body Triangle]] - Alternative hook defense response that maintains parallel back control alignment
 
-- [[Harness]] - Upper body grip configuration maintained throughout the transition
+- [[Positions/Harness]] - Upper body grip configuration maintained throughout the transition
 
-- [[Twister]] - Submission pathway opened by establishing cross body ride position
+- [[Submissions/Twister]] - Submission pathway opened by establishing cross body ride position
 
-- [[Rear Naked Choke]] - Primary back control submission that may be abandoned in favor of this transition
+- [[Transitions/Rear Naked Choke]] - Primary back control submission that may be abandoned in favor of this transition
 
 
 </section>

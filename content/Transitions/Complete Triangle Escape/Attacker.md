@@ -186,7 +186,7 @@ description: "Execute the complete triangle escape as the trapped practitioner. 
 
 As the person executing the Complete Triangle Escape, your objective is converting established defensive posture into full positional extraction from the triangle choke. You have already survived the initial danger phase by establishing posture and defensive frames, and now must systematically dismantle the triangle structure through coordinated stacking pressure, directional stepping, and controlled arm extraction. Your success depends on precise sequencing of these mechanics rather than explosive force, as each phase creates the conditions necessary for the next. The escape culminates in clean transition to closed guard top where you immediately shift from defensive survival to offensive guard passing, preventing your opponent from re-establishing any triangle threat. Every movement must account for the constant secondary threat of armbar transitions on your trapped arm, requiring disciplined elbow positioning throughout the extraction sequence.
 
-**From Position**: [[Triangle Escape Position]] (Bottom)
+**From Position**: [[Positions/Triangle Escape Position]] (Bottom)
 
 </section>
 
@@ -241,9 +241,9 @@ As the person executing the Complete Triangle Escape, your objective is converti
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Failure | [[Triangle Escape Position]] | 30% |
-| Counter | [[Armbar Control]] | 20% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Failure | [[Positions/Triangle Escape Position]] | 30% |
+| Counter | [[Positions/Armbar Control]] | 20% |
 
 
 </section>
@@ -252,11 +252,11 @@ As the person executing the Complete Triangle Escape, your objective is converti
 
 ## Opponent Counters
 
-- **Opponent re-locks triangle tighter by pulling head down and readjusting figure-four during circular step** (Effectiveness: High) - Your Response: Immediately halt circular stepping, re-establish maximum forward stack pressure, and wait for opponent to loosen for readjustment before resuming escape sequence. Do not fight the re-lock with force. → Leads to [[Triangle Escape Position]]
-- **Opponent transitions to armbar on trapped arm by uncrossing legs and pivoting hips for arm isolation** (Effectiveness: High) - Your Response: Turn sharply toward the trapped arm side, pin elbow tight, and stack weight aggressively forward onto their hips. Follow their rotation rather than pulling away, using forward pressure to prevent arm extension. → Leads to [[Armbar Control]]
-- **Opponent adjusts angle by scooting hips to match your circular step direction, maintaining optimal choking position** (Effectiveness: Medium) - Your Response: Increase stacking pressure while continuing to circle. The opponent cannot maintain both hip elevation for choking power and lateral hip movement for angle matching simultaneously. Force them to choose between angle and power. → Leads to [[Triangle Escape Position]]
-- **Opponent attempts omoplata transition by releasing triangle lock and swinging leg over trapped shoulder** (Effectiveness: Medium) - Your Response: Use the momentary release of triangle pressure to immediately posture up and extract your arm. The omoplata transition requires the opponent to sacrifice the triangle, creating the exact opening your escape needs. Drive forward and cartwheel if necessary. → Leads to [[Closed Guard]]
-- **Opponent grabs posturing arm with both hands to prevent stacking and maintain broken posture** (Effectiveness: Low) - Your Response: Since opponent has released their own leg control to grab your arm, their triangle structure is weakened. Continue circular stepping with increased tempo while using your trapped arm to swim inside their grip. → Leads to [[Triangle Escape Position]]
+- **Opponent re-locks triangle tighter by pulling head down and readjusting figure-four during circular step** (Effectiveness: High) - Your Response: Immediately halt circular stepping, re-establish maximum forward stack pressure, and wait for opponent to loosen for readjustment before resuming escape sequence. Do not fight the re-lock with force. → Leads to [[Positions/Triangle Escape Position]]
+- **Opponent transitions to armbar on trapped arm by uncrossing legs and pivoting hips for arm isolation** (Effectiveness: High) - Your Response: Turn sharply toward the trapped arm side, pin elbow tight, and stack weight aggressively forward onto their hips. Follow their rotation rather than pulling away, using forward pressure to prevent arm extension. → Leads to [[Positions/Armbar Control]]
+- **Opponent adjusts angle by scooting hips to match your circular step direction, maintaining optimal choking position** (Effectiveness: Medium) - Your Response: Increase stacking pressure while continuing to circle. The opponent cannot maintain both hip elevation for choking power and lateral hip movement for angle matching simultaneously. Force them to choose between angle and power. → Leads to [[Positions/Triangle Escape Position]]
+- **Opponent attempts omoplata transition by releasing triangle lock and swinging leg over trapped shoulder** (Effectiveness: Medium) - Your Response: Use the momentary release of triangle pressure to immediately posture up and extract your arm. The omoplata transition requires the opponent to sacrifice the triangle, creating the exact opening your escape needs. Drive forward and cartwheel if necessary. → Leads to [[Positions/Closed Guard]]
+- **Opponent grabs posturing arm with both hands to prevent stacking and maintain broken posture** (Effectiveness: Low) - Your Response: Since opponent has released their own leg control to grab your arm, their triangle structure is weakened. Continue circular stepping with increased tempo while using your trapped arm to swim inside their grip. → Leads to [[Positions/Triangle Escape Position]]
 
 
 </section>

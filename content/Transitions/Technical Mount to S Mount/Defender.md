@@ -154,7 +154,7 @@ description: "Defend against the Technical Mount to S Mount transition in BJJ. L
 
 Defending the Technical Mount to S Mount transition requires recognizing the opponent's rotational intent and acting during the narrow window when their weight shifts during the movement. From the bottom of Technical Mount, you are already in a highly disadvantageous position with one arm isolated and controlled. The opponent's transition to S Mount represents a significant escalation of danger—S Mount provides even better armbar mechanics and eliminates many of the escape options available from Technical Mount. Your defensive priority is preventing the perpendicular body angle from being established, either by retracting the isolated arm before the rotation completes, disrupting the rotation with timed bridging or hip escapes, or exploiting the momentary instability of the mid-rotation weight shift to reverse position entirely. Understanding the specific moments during the transition where the opponent is most vulnerable gives you the tactical knowledge to time your defensive actions for maximum effectiveness.
 
-**Opponent's Starting Position**: [[Technical Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/Technical Mount]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Technical Mount to S Mount transition requires recognizing the opp
 ### 1. Explosive arm retraction—bend elbow forcefully and pull arm tight to chest, gripping own collar
 
 - **When to use**: Immediately upon recognizing the rotation initiation, before the opponent's body reaches perpendicular alignment and the S-shape legs trap the arm
-- **Targets**: [[Technical Mount]]
+- **Targets**: [[Positions/Mount/Technical Mount]]
 - **If successful**: Opponent cannot complete S Mount without arm isolation and must either return to Technical Mount to re-isolate the arm or abandon to standard mount
 - **Risk**: If arm retraction fails and opponent maintains grip, energy is wasted and the opponent may have pulled into tighter control
 
 ### 2. Timed bridge during mid-rotation weight shift to displace the opponent and reverse position
 
 - **When to use**: When the opponent is mid-rotation with weight transitioning between Technical Mount and S Mount base, creating a moment of compromised balance
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent loses top position during the unstable mid-rotation phase, allowing recovery to half guard or potentially achieving full reversal
 - **Risk**: If bridge is mistimed or insufficient, the opponent uses the upward momentum to accelerate their rotation and may reach S Mount faster
 
 ### 3. Hip escape toward the opponent's legs to create distance preventing the perpendicular angle from completing
 
 - **When to use**: When the opponent begins the rotation and their weight shifts off the hips, creating momentary freedom for hip movement
-- **Targets**: [[Technical Mount]]
+- **Targets**: [[Positions/Mount/Technical Mount]]
 - **If successful**: Distance created by the hip escape makes the perpendicular angle unreachable, forcing the opponent to reset in Technical Mount and close the distance before re-attempting
 - **Risk**: If the hip escape is shallow, the opponent follows the movement and completes the rotation despite the attempted escape
 
 ### 4. Free arm frame against opponent's rotating hip to physically obstruct the rotation path
 
 - **When to use**: As soon as the opponent begins to rotate, place forearm against their near hip with elbow bent to block the rotational movement
-- **Targets**: [[Technical Mount]]
+- **Targets**: [[Positions/Mount/Technical Mount]]
 - **If successful**: The frame prevents the hips from completing the rotation, stalling the transition and keeping the opponent in Technical Mount where more escape options exist
 - **Risk**: Committing the free arm to framing exposes it to potential attack if the opponent strips the frame and isolates both arms
 
@@ -225,11 +225,11 @@ Defending the Technical Mount to S Mount transition requires recognizing the opp
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive bridge to coincide with the opponent's mid-rotation weight shift. As their balance is compromised between Technical Mount and S Mount base positions, drive hips upward and toward their posted leg side to displace them. Follow the bridge by immediately hip escaping and inserting a knee to recover half guard.
 
-### → [[Technical Mount]]
+### → [[Positions/Mount/Technical Mount]]
 
 Retract the isolated arm before the rotation completes by explosively bending the elbow and gripping own collar. Combined with a frame against the opponent's hip using the free arm, this prevents the S Mount transition and forces the opponent to remain in Technical Mount, where relatively better escape options exist than S Mount bottom.
 

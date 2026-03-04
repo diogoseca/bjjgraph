@@ -180,7 +180,7 @@ description: "Execute the Backside 50-50 Entry from Inside Ashi Garami with prec
 
 As the attacker executing the Backside 50-50 Entry, your objective is to transition from Inside Ashi-Garami to the dominant Backside 50-50 position by rotating your body behind your opponent while maintaining continuous leg entanglement. This transition exploits gaps in the opponent's heel defense by changing the entire positional dynamic rather than forcing submissions against well-defended legs. The entry requires coordinating hip rotation, leg threading, and upper body positioning in a fluid sequence that prevents the opponent from reacting effectively. Success depends on maintaining constant connection through the entangled legs while your body circles behind the opponent, ultimately establishing the chest-to-back pressure that defines Backside 50-50 dominance.
 
-**From Position**: [[Inside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Backside 50-50 Entry, your objective is to transit
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Backside 50-50]] | 55% |
-| Failure | [[Inside Ashi-Garami]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Backside 50-50]] | 55% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Backside 50-50 Entry, your objective is to transit
 
 ## Opponent Counters
 
-- **Opponent rotates to face you during the transition, turning into the rotation to prevent backside angle** (Effectiveness: High) - Your Response: If they turn early, abort the transition and return to Inside Ashi-Garami with renewed heel control. If they turn late when you are partially behind them, accelerate your rotation and use chest pressure to push through their turn. Their rotation often exposes the heel briefly - attack if it appears. → Leads to [[Inside Ashi-Garami]]
-- **Opponent posts with arms and creates frames to block your hip rotation path** (Effectiveness: Medium) - Your Response: Switch to the rolling inversion entry variant which goes underneath their frames rather than around them. Alternatively, strip their posting arm with your free hand before continuing the walk-around rotation. If frames are too strong, attack their heel from current angle rather than forcing the transition. → Leads to [[Inside Ashi-Garami]]
-- **Opponent explosively extracts their leg during the transition when your inside leg is removed from their hip** (Effectiveness: High) - Your Response: Immediately pursue with your hips rather than reaching with arms. If they fully extract, follow them to establish half guard top or re-engage from open guard. The vulnerable window is brief - moving decisively through the inside leg removal phase makes this counter much less effective. Maintain outside leg hook pressure throughout. → Leads to [[Half Guard]]
-- **Opponent counter-rotates in the same direction to maintain facing position and prevent backside angle** (Effectiveness: Medium) - Your Response: Use their rotation momentum against them by suddenly reversing your rotation direction, catching them off-balance. Alternatively, accelerate your rotation faster than they can counter-rotate by driving aggressively with your hips. If they successfully match your rotation, you may end up in standard 50-50 instead, which remains a viable attacking position. → Leads to [[Inside Ashi-Garami]]
+- **Opponent rotates to face you during the transition, turning into the rotation to prevent backside angle** (Effectiveness: High) - Your Response: If they turn early, abort the transition and return to Inside Ashi-Garami with renewed heel control. If they turn late when you are partially behind them, accelerate your rotation and use chest pressure to push through their turn. Their rotation often exposes the heel briefly - attack if it appears. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent posts with arms and creates frames to block your hip rotation path** (Effectiveness: Medium) - Your Response: Switch to the rolling inversion entry variant which goes underneath their frames rather than around them. Alternatively, strip their posting arm with your free hand before continuing the walk-around rotation. If frames are too strong, attack their heel from current angle rather than forcing the transition. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent explosively extracts their leg during the transition when your inside leg is removed from their hip** (Effectiveness: High) - Your Response: Immediately pursue with your hips rather than reaching with arms. If they fully extract, follow them to establish half guard top or re-engage from open guard. The vulnerable window is brief - moving decisively through the inside leg removal phase makes this counter much less effective. Maintain outside leg hook pressure throughout. → Leads to [[Positions/Half Guard]]
+- **Opponent counter-rotates in the same direction to maintain facing position and prevent backside angle** (Effectiveness: Medium) - Your Response: Use their rotation momentum against them by suddenly reversing your rotation direction, catching them off-balance. Alternatively, accelerate your rotation faster than they can counter-rotate by driving aggressively with your hips. If they successfully match your rotation, you may end up in standard 50-50 instead, which remains a viable attacking position. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 </section>

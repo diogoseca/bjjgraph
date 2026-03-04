@@ -158,7 +158,7 @@ Your primary tools for preventing extraction are hip pressure consolidation agai
 
 Advanced defense against Leg Extraction involves recognizing which phase the opponent has reached and selecting the appropriate counter. Early-phase counters focus on re-establishing hip pressure and grip consolidation. Mid-phase counters involve following their hip escape to maintain angle. Late-phase counters require transitioning to alternative submissions like toe hold or saddle entry when extraction becomes likely, converting their escape energy into new attacking opportunities rather than fighting a losing positional battle.
 
-**Opponent's Starting Position**: [[Estima Lock]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Estima Lock]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Advanced defense against Leg Extraction involves recognizing which phase the opp
 ### 1. Drive hips forward and increase rotational pressure to re-consolidate Estima Lock control before extraction progresses
 
 - **When to use**: Early phase when opponent has just begun counter-rotating their ankle and establishing frames but has not yet hip escaped
-- **Targets**: [[Estima Lock]]
+- **Targets**: [[Positions/Estima Lock]]
 - **If successful**: Opponent's escape resets completely, you maintain full submission threat with consolidated grip and hip pressure
 - **Risk**: Over-committing forward pressure without grip security can allow opponent to use your momentum for sweep or accelerated extraction
 
 ### 2. Follow opponent's hip escape by adjusting your body angle and maintaining pressure vector on the trapped leg
 
 - **When to use**: Mid phase when opponent has begun hip escaping and creating angular separation but has not yet retracted their knee
-- **Targets**: [[Estima Lock]]
+- **Targets**: [[Positions/Estima Lock]]
 - **If successful**: Neutralizes the space created by hip escape, maintains submission angle despite positional adjustment
 - **Risk**: Following too aggressively without maintaining base can expose you to butterfly hook elevation or rolling back take
 
 ### 3. Transition grip to toe hold or backstep to saddle position when extraction becomes likely
 
 - **When to use**: Late phase when opponent has created significant space and knee retraction has begun, making Estima Lock completion unlikely
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Converts failing Estima Lock into new submission threat, maintains offensive initiative despite opponent's escape progress
 - **Risk**: Grip transition creates momentary vulnerability window that skilled opponents exploit for accelerated extraction
 
 ### 4. Control opponent's free leg by trapping it with your legs or pinning it with body weight to eliminate their primary escape lever
 
 - **When to use**: Any phase when opponent's free leg becomes active and begins creating push-off leverage against your hips or body
-- **Targets**: [[Estima Lock]]
+- **Targets**: [[Positions/Estima Lock]]
 - **If successful**: Removes opponent's most important escape tool, dramatically reducing extraction success probability and buying time to finish
 - **Risk**: Diverting attention to free leg control may loosen primary grip on trapped foot if not executed with proper body positioning
 
@@ -229,11 +229,11 @@ Advanced defense against Leg Extraction involves recognizing which phase the opp
 
 ## Best-Case Outcomes for Defender
 
-### → [[Estima Lock]]
+### → [[Positions/Estima Lock]]
 
 Re-consolidate grip and hip pressure during early escape phases by driving forward, adjusting forearm placement across the top of the foot, and following the opponent's hip movement to maintain your submission angle. Address their counter-rotation by increasing rotational pressure and pinning their free leg when possible.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 When extraction becomes likely in late phases, backstep while maintaining leg control to enter saddle position. Use the opponent's hip escape momentum to facilitate your own positional transition. The key timing is when their knee begins retracting—release the Estima Lock grip and immediately secure inside position on their leg before they complete extraction.
 

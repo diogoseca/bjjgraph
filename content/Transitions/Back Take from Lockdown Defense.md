@@ -21,7 +21,7 @@ This transition represents a paradigm shift in lockdown defense philosophy. Inst
 
 From a tactical perspective, this technique punishes overly aggressive lockdown attacks. When the bottom player fully commits to the Electric Chair extension, they sacrifice the ability to quickly recover guard position. The top player capitalizes on this commitment by timing the backstep precisely when the opponent's hips are maximally extended. This creates a powerful dilemma for lockdown players: commit fully and risk the back take, or hold back and reduce the effectiveness of their sweep and submission attempts.
 
-**From Position**: [[Electric Chair]] (Top)
+**From Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 58% |
-| Failure | [[Electric Chair]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 58% |
+| Failure | [[Positions/Half Guard/Electric Chair]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ Back Take from Lockdown Defense fits into the broader half guard top game as a c
 ## Related Techniques
 
 
-- [[Electric Chair]] - Starting position - this transition counters the Electric Chair attack
+- [[Positions/Half Guard/Electric Chair]] - Starting position - this transition counters the Electric Chair attack
 
-- [[Back Control]] - Target position - successful execution establishes back control
+- [[Positions/Back Control]] - Target position - successful execution establishes back control
 
-- [[Lockdown]] - Related position - lockdown is the foundational control for Electric Chair
+- [[Positions/Half Guard/Lockdown]] - Related position - lockdown is the foundational control for Electric Chair
 
-- [[Truck]] - Alternative target - crab ride variant leads to Truck position
+- [[Positions/Twister Control/Truck]] - Alternative target - crab ride variant leads to Truck position
 
-- [[Half Guard]] - Recovery position if transition fails or opponent counters
+- [[Positions/Half Guard]] - Recovery position if transition fails or opponent counters
 
-- [[Rear Naked Choke]] - Primary follow-up submission from back control
+- [[Transitions/Rear Naked Choke]] - Primary follow-up submission from back control
 
-- [[Back Step Pass]] - Related technique - shares similar backstep mechanics
+- [[Transitions/Back Step Pass]] - Related technique - shares similar backstep mechanics
 
-- [[Twister Control]] - Alternative position via crab ride variant
+- [[Positions/Twister Control]] - Alternative position via crab ride variant
 
-- [[Knee Slice Pass]] - Alternative follow-up if opponent releases lockdown early
+- [[Transitions/Knee Slice Pass]] - Alternative follow-up if opponent releases lockdown early
 
-- [[Limp Leg Escape to Pass]] - Complementary technique - alternative lockdown defense option
+- [[Transitions/Limp Leg Escape to Pass]] - Complementary technique - alternative lockdown defense option
 
 
 </section>

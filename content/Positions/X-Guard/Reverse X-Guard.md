@@ -95,19 +95,19 @@ Reverse X-Guard has gained prominence in modern competition BJJ as athletes like
 ### Available Transitions
 
 
-- **[[Reverse X-Guard Sweep]]** (15% of attempts)
+- **[[Transitions/Reverse X-Guard Sweep]]** (15% of attempts)
 
-- **[[Elevation Sweep to Mount]]** (14% of attempts)
+- **[[Transitions/Elevation Sweep to Mount]]** (14% of attempts)
 
-- **[[Reverse X to Back Take]]** (12% of attempts)
+- **[[Transitions/Reverse X to Back Take]]** (12% of attempts)
 
-- **[[Reverse X-Guard to Standard X-Guard]]** (18% of attempts)
+- **[[Transitions/Reverse X-Guard to Standard X-Guard]]** (18% of attempts)
 
-- **[[Reverse X to Single Leg X Entry]]** (15% of attempts)
+- **[[Transitions/Reverse X to Single Leg X Entry]]** (15% of attempts)
 
-- **[[Reverse X to Ashi Garami Entry]]** (13% of attempts)
+- **[[Transitions/Reverse X to Ashi Garami Entry]]** (13% of attempts)
 
-- **[[Technical Stand-up]]** (13% of attempts)
+- **[[Transitions/Technical Stand-up]]** (13% of attempts)
 
 
 ### Common Mistakes
@@ -168,23 +168,23 @@ Reverse X-Guard has gained prominence in modern competition BJJ as athletes like
 ### Available Transitions
 
 
-- **[[Smash Pass]]** (30% of attempts)
+- **[[Transitions/Smash Pass]]** (30% of attempts)
 
-- **[[Knee Slice Pass]]** (13% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (13% of attempts)
 
-- **[[Long Step Pass]]** (11% of attempts)
+- **[[Transitions/Long Step Pass]]** (11% of attempts)
 
-- **[[Leg Drag Pass]]** (13% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (13% of attempts)
 
-- **[[Butterfly Pass]]** (14% of attempts)
+- **[[Transitions/Butterfly Pass]]** (14% of attempts)
 
-- **[[Back Step]]** (11% of attempts)
+- **[[Transitions/Back Step]]** (11% of attempts)
 
-- **[[Backstep Pass from Reverse X-Guard]]** (5% of attempts)
+- **[[Transitions/Backstep Pass from Reverse X-Guard]]** (5% of attempts)
 
-- **[[Knee Slice from Reverse X-Guard]]** (2% of attempts)
+- **[[Transitions/Knee Slice from Reverse X-Guard]]** (2% of attempts)
 
-- **[[Standing Escape from Reverse X-Guard]]** (1% of attempts)
+- **[[Transitions/Standing Escape from Reverse X-Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -223,23 +223,23 @@ Reverse X-Guard has gained prominence in modern competition BJJ as athletes like
 ## Related Positions
 
 
-- **[[X-Guard]]** - Parent position - Reverse X is inverted variation
+- **[[Positions/X-Guard]]** - Parent position - Reverse X is inverted variation
 
-- **[[Single Leg X-Guard]]** - Common transition target - simplified leg control
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Common transition target - simplified leg control
 
-- **[[Deep Half Guard]]** - Defensive transition when hooks are compromised
+- **[[Positions/Half Guard/Deep Half Guard]]** - Defensive transition when hooks are compromised
 
-- **[[De La Riva Guard]]** - Common entry position for Reverse X establishment
+- **[[Positions/De La Riva Guard]]** - Common entry position for Reverse X establishment
 
-- **[[Ashi Garami]]** - Leg entanglement transition for submission attacks
+- **[[Positions/Ashi Garami]]** - Leg entanglement transition for submission attacks
 
-- **[[Back Control]]** - High-percentage advancement when opponent disengages
+- **[[Positions/Back Control]]** - High-percentage advancement when opponent disengages
 
-- **[[Open Guard]]** - Recovery position if Reverse X is broken
+- **[[Positions/Open Guard]]** - Recovery position if Reverse X is broken
 
-- **[[Butterfly Guard]]** - Related elevation-based guard with similar mechanics
+- **[[Positions/Butterfly Guard]]** - Related elevation-based guard with similar mechanics
 
-- **[[K-Guard]]** - Modern leg entanglement guard with complementary entries
+- **[[Positions/K-Guard]]** - Modern leg entanglement guard with complementary entries
 
 
 </section>

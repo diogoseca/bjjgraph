@@ -186,7 +186,7 @@ description: "Complete guide to executing the Inside Ashi to Outside Ashi transi
 
 As the attacker executing this transition, you are reconfiguring your leg entanglement from inside ashi-garami to outside ashi-garami to access a different set of submission angles. This reconfiguration is triggered by the opponent's defensive reactions—particularly when they rotate their knee outward to defend inside heel hooks or when they successfully defend your primary attack angle. The transition requires precise timing and continuous heel control to prevent the opponent from escaping during the brief window when your leg triangle is being repositioned. Success depends on reading the opponent's defensive movement and using that momentum to facilitate the switch rather than forcing the reconfiguration against static resistance.
 
-**From Position**: [[Inside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
 
@@ -240,9 +240,9 @@ As the attacker executing this transition, you are reconfiguring your leg entang
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Outside Ashi-Garami]] | 55% |
-| Failure | [[Inside Ashi-Garami]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 55% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the attacker executing this transition, you are reconfiguring your leg entang
 
 ## Opponent Counters
 
-- **Opponent retracts leg and strips heel grip during the transition window** (Effectiveness: High) - Your Response: If heel grip is lost during transition, immediately abort the outside ashi attempt and re-establish inside ashi control. Clamp legs tight and pull opponent's leg back toward your chest. If they have created significant distance, pursue with hip movement rather than reaching with arms alone. → Leads to [[Inside Ashi-Garami]]
-- **Opponent uses free leg to frame against your hip and push away during reconfiguration** (Effectiveness: Medium) - Your Response: Address the frame by controlling their free leg with your near-side hand while maintaining heel grip with the other hand. Alternatively, use your hip rotation momentum to move past the frame angle before it can generate enough force to push you away. The frame is less effective if you complete the transition quickly. → Leads to [[Inside Ashi-Garami]]
-- **Opponent stands up explosively during the brief moment of loosened leg control** (Effectiveness: High) - Your Response: If opponent achieves standing posture during transition, immediately convert to a sweep attempt or single leg X-guard entry rather than fighting to complete the outside ashi. Their standing creates vulnerability to ankle lock finishes if you maintain heel control. Alternatively, abandon transition and pursue guard recovery. → Leads to [[Half Guard]]
-- **Opponent rotates their knee back inward to prevent outside ashi establishment** (Effectiveness: Medium) - Your Response: Their inward knee rotation re-exposes them to inside ashi attacks from an improved angle. Recognize this as an opportunity to reverse the transition and attack from the original inside angle with improved positioning. The oscillation between inside and outside defense creates submission windows on each direction change. → Leads to [[Inside Ashi-Garami]]
+- **Opponent retracts leg and strips heel grip during the transition window** (Effectiveness: High) - Your Response: If heel grip is lost during transition, immediately abort the outside ashi attempt and re-establish inside ashi control. Clamp legs tight and pull opponent's leg back toward your chest. If they have created significant distance, pursue with hip movement rather than reaching with arms alone. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent uses free leg to frame against your hip and push away during reconfiguration** (Effectiveness: Medium) - Your Response: Address the frame by controlling their free leg with your near-side hand while maintaining heel grip with the other hand. Alternatively, use your hip rotation momentum to move past the frame angle before it can generate enough force to push you away. The frame is less effective if you complete the transition quickly. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent stands up explosively during the brief moment of loosened leg control** (Effectiveness: High) - Your Response: If opponent achieves standing posture during transition, immediately convert to a sweep attempt or single leg X-guard entry rather than fighting to complete the outside ashi. Their standing creates vulnerability to ankle lock finishes if you maintain heel control. Alternatively, abandon transition and pursue guard recovery. → Leads to [[Positions/Half Guard]]
+- **Opponent rotates their knee back inward to prevent outside ashi establishment** (Effectiveness: Medium) - Your Response: Their inward knee rotation re-exposes them to inside ashi attacks from an improved angle. Recognize this as an opportunity to reverse the transition and attack from the original inside angle with improved positioning. The oscillation between inside and outside defense creates submission windows on each direction change. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 </section>

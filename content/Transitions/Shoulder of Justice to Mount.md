@@ -21,7 +21,7 @@ Strategically, this transition is most effective after sustained Shoulder of Jus
 
 The transition follows a systematic progression: consolidate control, neutralize the near arm, walk the base into position, execute the step-over while driving hip pressure through the shoulder contact point, and settle into mount without creating escape windows. Mastery of this transition transforms the Shoulder of Justice from a static pressure platform into a dynamic positional advancement tool that threatens both submission and mount progression simultaneously, forcing the bottom player into an unsolvable dilemma.
 
-**From Position**: [[Shoulder of Justice]] (Top)
+**From Position**: [[Positions/Shoulder of Justice]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The transition follows a systematic progression: consolidate control, neutralize
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Shoulder of Justice]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Shoulder of Justice]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Shoulder of Justice to Mount transition occupies a critical node in the side
 ## Related Techniques
 
 
-- [[Shoulder of Justice]] - Source position — this transition starts from Shoulder of Justice top control
+- [[Positions/Shoulder of Justice]] - Source position — this transition starts from Shoulder of Justice top control
 
-- [[Mount]] - Target position — successful completion achieves full mount
+- [[Positions/Mount]] - Target position — successful completion achieves full mount
 
-- [[Half Guard]] - Counter outcome — opponent may recover half guard during failed transition attempt
+- [[Positions/Half Guard]] - Counter outcome — opponent may recover half guard during failed transition attempt
 
-- [[Side Control]] - Parent position category — Shoulder of Justice is a specialized side control variation
+- [[Positions/Side Control]] - Parent position category — Shoulder of Justice is a specialized side control variation
 
-- [[Consolidation to Mount]] - Related transition — alternative mount advancement pathway from standard side control
+- [[Transitions/Consolidation to Mount]] - Related transition — alternative mount advancement pathway from standard side control
 
-- [[Shoulder of Justice Kimura Setup]] - Complementary attack — kimura threat creates submission dilemma that opens the mount transition
+- [[Transitions/Shoulder of Justice Kimura Setup]] - Complementary attack — kimura threat creates submission dilemma that opens the mount transition
 
-- [[Escape Shoulder of Justice]] - Defensive counter — opponent's primary escape attempt from the starting position
+- [[Transitions/Escape Shoulder of Justice]] - Defensive counter — opponent's primary escape attempt from the starting position
 
-- [[Frame from Shoulder of Justice]] - Defensive response — opponent's frame creation that can block the mount step-over
+- [[Transitions/Frame from Shoulder of Justice]] - Defensive response — opponent's frame creation that can block the mount step-over
 
-- [[Knee on Belly]] - Alternative advancement — intermediate position accessible when direct mount path is blocked
+- [[Positions/Knee on Belly]] - Alternative advancement — intermediate position accessible when direct mount path is blocked
 
-- [[KOB to Mount]] - Related chain — alternative path to mount through knee-on-belly intermediate step
+- [[Transitions/KOB to Mount]] - Related chain — alternative path to mount through knee-on-belly intermediate step
 
 
 </section>

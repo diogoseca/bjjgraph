@@ -146,7 +146,7 @@ description: "Defend against the Technical Stand Up from Ground in BJJ. Recognit
 
 From the defender's perspective, preventing the Technical Stand Up from Ground requires maintaining constant forward pressure and grip control to deny the bottom player the space needed to initiate the movement. The defender must recognize the early preparatory cues that signal an imminent stand up attempt and time their response to catch the opponent during the most vulnerable phase of the transition. Effective defense involves either preventing the initial distance creation through pressure maintenance, attacking the posting structures during the transition, or timing offensive entries like takedowns to capitalize on the opponent's compromised balance during the stand up sequence. Understanding the stand up mechanics allows the defender to predict each phase and apply targeted counters at the optimal moment.
 
-**Opponent's Starting Position**: [[Standing Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Standing Guard]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ From the defender's perspective, preventing the Technical Stand Up from Ground r
 ### 1. Drive forward with heavy chest pressure to collapse their frames before they can establish a post
 
 - **When to use**: As soon as you feel the opponent begin pushing for distance with their hands, before they can plant the posting hand
-- **Targets**: [[Standing Guard]]
+- **Targets**: [[Positions/Standing Guard]]
 - **If successful**: Opponent's frames collapse and they are forced back to seated position, denying the stand up attempt entirely
 - **Risk**: If you drive too aggressively and they time a guard pull, you may end up in their closed guard with poor posture
 
 ### 2. Shoot for a takedown as the opponent enters the kick-through phase with compromised base
 
 - **When to use**: When the opponent has committed to the stand up and is in the mid-transition phase with weight divided between posting hand and one foot
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You catch the opponent mid-transition and drive them back to the ground, establishing top position in their open guard
 - **Risk**: If mistimed, the opponent may already be standing and can sprawl or redirect your takedown attempt
 
 ### 3. Grab the posting-side ankle or foot to prevent hip elevation and block the kick-through motion
 
 - **When to use**: When you can reach the posting-side leg as the opponent begins shifting weight to that foot before the kick-through
-- **Targets**: [[Standing Guard]]
+- **Targets**: [[Positions/Standing Guard]]
 - **If successful**: Opponent cannot complete the elevation phase and is forced to return to seated position or switch to a different escape
 - **Risk**: Reaching for the ankle may compromise your own base and open passing opportunities if the opponent redirects
 
 ### 4. Apply snap-down pressure on the head or collar as the opponent rises through the transition
 
 - **When to use**: When the opponent begins removing their posting hand from the mat and rising to standing, creating a window for downward pressure
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Opponent is driven back to the ground from the rising phase and you establish front headlock or top position
 - **Risk**: If the opponent has strong defensive frames, the snap-down may not generate enough force to bring them back down
 
@@ -216,11 +216,11 @@ From the defender's perspective, preventing the Technical Stand Up from Ground r
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Guard]]
+### → [[Positions/Standing Guard]]
 
 Maintain persistent forward pressure and grip control to deny the bottom player space for framing and posting. Immediately re-close distance any time they push you away, and control their sleeves or collar to prevent the posting hand from reaching the mat.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Time a takedown or snap-down during the kick-through phase when the opponent's base is most compromised. Drive forward explosively as they commit to the transition, catching them in a position where they cannot effectively defend or abort back to guard.
 

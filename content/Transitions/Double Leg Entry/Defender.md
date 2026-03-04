@@ -156,7 +156,7 @@ Defending the double leg entry requires a layered defensive system that begins w
 
 Once the shot is initiated, the defender's response must be immediate and mechanically sound. The sprawl remains the highest-percentage defensive response, but it must be complemented by hand positioning that controls the attacker's head and shoulders, denying them the structural connection needed to complete the entry. The defender who understands that the double leg requires continuous forward momentum can exploit this commitment by redirecting the attacker's energy rather than simply resisting it. Counter-offensive opportunities arise naturally from successful defense - the sprawl creates front headlock positioning, the guillotine threatens during poor head placement, and guard pulling converts a failed defense into a controlled ground position. Understanding these counter-pathways transforms defense from survival into strategic advantage.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Once the shot is initiated, the defender's response must be immediate and mechan
 ### 1. Sprawl defense by explosively driving hips backward and downward while extending legs behind you, dropping your weight onto the attacker's head and upper back to flatten their penetration and kill forward momentum
 
 - **When to use**: As soon as you recognize the level change and penetration step beginning - the earlier the sprawl initiates, the more effective it becomes. Ideal timing is when their lead foot leaves the ground for the penetration step.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Attacker is flattened with no forward drive, you establish front headlock control or disengage to reset standing position with significant positional advantage
 - **Risk**: Late sprawl allows attacker to get deep penetration, making it difficult to withdraw your legs from their grip and potentially ending up in a scramble
 
 ### 2. Guillotine counter by securing a front headlock grip as the attacker's head comes forward, wrapping your arm under their chin and locking a guillotine grip while pulling guard or sprawling to finish the choke
 
 - **When to use**: When the attacker drops their head below your hips or places it inside rather than on the centerline during their entry, exposing their neck to the choke. Most effective when their head position is poor.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You establish guillotine control that either forces immediate submission or transitions to closed guard with a dominant attacking grip already locked
 - **Risk**: If the attacker completes the takedown before you secure the choke, you end up on your back with a loose grip that they can escape. Guillotine attempts that fail leave you in bottom position without guard established.
 
 ### 3. Guard pull by sitting down and establishing closed guard as the attacker drives forward, converting their takedown momentum into your guard game on your own terms rather than being taken down to a disadvantageous position
 
 - **When to use**: When the attacker's penetration is too deep to sprawl effectively and you cannot stop the takedown, or when you prefer to fight from guard rather than risk being taken down to side control or half guard
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You establish closed guard with grips already in place, converting a potential defensive crisis into a familiar offensive position where you control the distance and tempo
 - **Risk**: Gives up takedown points in competition and concedes top position. If guard pull timing is poor, you may end up in half guard or open guard rather than closed guard.
 
 ### 4. Crossface and circle away by placing your forearm across the attacker's face while circling your hips away from their penetration angle, denying them the centerline access needed to secure both legs
 
 - **When to use**: When the attacker's penetration is moderate and you have time to redirect their angle rather than sprawling. Particularly effective against entries that come from the side or when you have a strong collar tie position.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You deflect the entry and return to neutral standing position with positional advantage, as the attacker has committed energy and positioning to a failed attempt
 - **Risk**: If the crossface is too high or you circle into their drive rather than away from it, the attacker can still complete the entry despite the frame
 
@@ -228,11 +228,11 @@ Once the shot is initiated, the defender's response must be immediate and mechan
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Execute an early sprawl that completely stuffs the entry before the attacker can secure leg grips. Drive your hips down and back while controlling their head with both hands, then circle away to disengage and return to neutral standing position. The key is early recognition and explosive hip withdrawal that removes your legs from the attacker's reach entirely. Once you feel their drive die, disengage from the front headlock and re-establish standing posture with inside hand position.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the takedown is inevitable because penetration is too deep to sprawl, proactively sit to guard by wrapping your legs around the attacker's waist before they can complete the takedown to side control. Secure collar and sleeve grips as you sit, ensuring you enter closed guard with offensive grips already established rather than being dumped into a defensive scramble. Time the guard pull to the moment you recognize the sprawl will fail, converting their forward momentum into your guard positioning.
 

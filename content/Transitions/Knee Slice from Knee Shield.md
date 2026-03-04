@@ -21,7 +21,7 @@ The pass works by converting the opponent's horizontal shin frame into a managea
 
 At the competitive level, the knee slice from knee shield has become a cornerstone of modern passing systems because it directly addresses the most common defensive half guard structure. The technique's effectiveness lies in its directness and the difficulty of defending once crossface and ankle control are established simultaneously. The passer can apply overwhelming forward pressure while the bottom player's primary defensive tool has been compromised. Chaining this pass with smash pass and long step variations creates a passing system that covers all defensive reactions from the knee shield position.
 
-**From Position**: [[Knee Shield Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ At the competitive level, the knee slice from knee shield has become a cornersto
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Knee Shield Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Knee Shield Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,29 +193,29 @@ The knee slice from knee shield is a critical link in the guard passing chain, c
 ## Related Techniques
 
 
-- [[Knee Shield Half Guard]] - Starting position where this technique is initiated from the top role
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Starting position where this technique is initiated from the top role
 
-- [[Side Control]] - Primary target position achieved upon successful completion of the pass
+- [[Positions/Side Control]] - Primary target position achieved upon successful completion of the pass
 
-- [[Half Guard]] - Parent guard category containing the knee shield variation
+- [[Positions/Half Guard]] - Parent guard category containing the knee shield variation
 
-- [[Knee Slice from Half]] - Related knee slice variation from standard flat half guard without knee shield
+- [[Transitions/Knee Slice from Half]] - Related knee slice variation from standard flat half guard without knee shield
 
-- [[Smash Pass]] - Chain pass option when knee slice is blocked and opponent flattens
+- [[Transitions/Smash Pass]] - Chain pass option when knee slice is blocked and opponent flattens
 
-- [[Long Step Pass]] - Alternative pass when opponent hip escapes during knee slice attempt
+- [[Transitions/Long Step Pass]] - Alternative pass when opponent hip escapes during knee slice attempt
 
-- [[Crossface Pass]] - Complementary pass using crossface pressure to flatten and advance
+- [[Transitions/Crossface Pass]] - Complementary pass using crossface pressure to flatten and advance
 
-- [[Deep Half Guard]] - Common defensive transition the bottom player attempts during the pass
+- [[Positions/Half Guard/Deep Half Guard]] - Common defensive transition the bottom player attempts during the pass
 
-- [[Flattened Half Guard]] - Intermediate position when knee shield collapses but pass is not yet complete
+- [[Positions/Half Guard/Flattened Half Guard]] - Intermediate position when knee shield collapses but pass is not yet complete
 
-- [[Headquarters Position]] - Related passing position with similar mechanics and grip requirements
+- [[Positions/Headquarters Position]] - Related passing position with similar mechanics and grip requirements
 
-- [[Back Step Pass]] - Alternative passing approach when direct knee slice is defended
+- [[Transitions/Back Step Pass]] - Alternative passing approach when direct knee slice is defended
 
-- [[Knee on Belly]] - Alternative consolidation position if side control is not immediately available
+- [[Positions/Knee on Belly]] - Alternative consolidation position if side control is not immediately available
 
 
 </section>

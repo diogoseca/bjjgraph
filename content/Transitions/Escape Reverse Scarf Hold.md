@@ -21,7 +21,7 @@ The primary escape pathway involves establishing a far-side frame against the to
 
 Strategically, this escape complements the bridge escape from reverse scarf hold to form a dual-threat system. When the top player sprawls low to prevent bridges, hip escape pathways open. When they sit higher to prevent shrimping, bridging opportunities emerge. This complementary relationship creates a defensive dilemma that forces the top player into reactive positioning, systematically degrading their control until one escape method succeeds. The technique rewards patience, precise frame placement, and incremental execution over raw athleticism.
 
-**From Position**: [[Reverse Scarf Hold]] (Bottom)
+**From Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, this escape complements the bridge escape from reverse scarf hold
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Success | [[Closed Guard]] | 10% |
-| Failure | [[Reverse Scarf Hold]] | 25% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Success | [[Positions/Closed Guard]] | 10% |
+| Failure | [[Positions/Side Control/Reverse Scarf Hold]] | 25% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -192,25 +192,25 @@ The Escape from Reverse Scarf Hold occupies a critical position within the pin e
 ## Related Techniques
 
 
-- [[Reverse Scarf Hold]] - Source position from which this escape is initiated
+- [[Positions/Side Control/Reverse Scarf Hold]] - Source position from which this escape is initiated
 
-- [[Half Guard]] - Primary recovery position after successful escape execution
+- [[Positions/Half Guard]] - Primary recovery position after successful escape execution
 
-- [[Closed Guard]] - Secondary recovery position when full guard recovery is achieved
+- [[Positions/Closed Guard]] - Secondary recovery position when full guard recovery is achieved
 
-- [[Mount]] - Counter outcome when top player capitalizes on failed escape attempt
+- [[Positions/Mount]] - Counter outcome when top player capitalizes on failed escape attempt
 
-- [[Bridge Escape from Reverse Scarf Hold]] - Complementary bridge-based escape forming dual-threat system with this technique
+- [[Transitions/Bridge Escape from Reverse Scarf Hold]] - Complementary bridge-based escape forming dual-threat system with this technique
 
-- [[Escape Reverse Kesa-Gatame]] - Similar hip escape technique from closely related reverse kesa gatame position
+- [[Transitions/Escape Reverse Kesa-Gatame]] - Similar hip escape technique from closely related reverse kesa gatame position
 
-- [[Kesa Gatame]] - Related scarf hold position with transferable escape mechanics
+- [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position with transferable escape mechanics
 
-- [[Bridge Escape from Scarf Hold]] - Similar escape pattern from traditional scarf hold position
+- [[Transitions/Bridge Escape from Scarf Hold]] - Similar escape pattern from traditional scarf hold position
 
-- [[Side Control]] - Related pin position sharing core hip escape principles
+- [[Positions/Side Control]] - Related pin position sharing core hip escape principles
 
-- [[Reverse Kesa-Gatame]] - Closely related pin position with similar escape challenges
+- [[Positions/Side Control/Reverse Kesa-Gatame]] - Closely related pin position with similar escape challenges
 
 
 </section>

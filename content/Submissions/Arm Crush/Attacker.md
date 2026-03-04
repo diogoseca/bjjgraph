@@ -176,7 +176,7 @@ description: "How to execute Arm Crush in BJJ. Attacking perspective with setup,
 
 The Arm Crush is a powerful shoulder lock submission that combines crushing pressure with rotational torque on the opponent's shoulder joint. Unlike traditional shoulder locks that isolate the joint through leverage alone, the Arm Crush uses body weight and positional pressure to compress the shoulder while simultaneously applying a twisting motion. This submission is most commonly executed from side control positions, particularly when the opponent's arm is trapped between their body and yours. The technique targets the rotator cuff muscles and shoulder capsule, creating intense pressure that forces a quick tap. The Arm Crush is especially effective against defensive opponents who keep their elbows tight to their body, as this defensive posture actually creates the necessary configuration for the submission. The finish combines elements of the Americana and Kimura while adding a unique crushing component that makes it extremely difficult to defend once properly applied.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -231,8 +231,8 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -241,9 +241,9 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 ## Opponent Defenses
 
-- **Pulling trapped elbow out and away from body** (Effectiveness: Medium) - Your Response: Increase chest pressure immediately and use your near-side cross-face to drive opponent's head away, which makes pulling the elbow out biomechanically difficult. If they begin to extract the arm, quickly transition to Americana or Kimura. → Leads to [[Side Control]]
-- **Bridging explosively to create space** (Effectiveness: Medium) - Your Response: Anticipate the bridge by keeping your base wide and hips low. As they bridge, maintain your grip and ride the movement, then increase pressure as they return to the mat. The bridge often makes their arm more vulnerable by straightening it slightly. → Leads to [[Side Control]]
-- **Turning toward you to escape side control** (Effectiveness: High) - Your Response: This is the most effective defense. Counter by using your far arm control on their far shoulder to prevent the turn. If they begin turning successfully, abandon the Arm Crush and transition to taking their back or moving to north-south position. → Leads to [[Half Guard]]
+- **Pulling trapped elbow out and away from body** (Effectiveness: Medium) - Your Response: Increase chest pressure immediately and use your near-side cross-face to drive opponent's head away, which makes pulling the elbow out biomechanically difficult. If they begin to extract the arm, quickly transition to Americana or Kimura. → Leads to [[Positions/Side Control]]
+- **Bridging explosively to create space** (Effectiveness: Medium) - Your Response: Anticipate the bridge by keeping your base wide and hips low. As they bridge, maintain your grip and ride the movement, then increase pressure as they return to the mat. The bridge often makes their arm more vulnerable by straightening it slightly. → Leads to [[Positions/Side Control]]
+- **Turning toward you to escape side control** (Effectiveness: High) - Your Response: This is the most effective defense. Counter by using your far arm control on their far shoulder to prevent the turn. If they begin turning successfully, abandon the Arm Crush and transition to taking their back or moving to north-south position. → Leads to [[Positions/Half Guard]]
 - **Straightening the trapped arm completely** (Effectiveness: Low) - Your Response: If they straighten their arm, this actually opens up the Americana finish. Simply adjust your figure-four grip to control their wrist instead of their elbow, then apply the Americana by rotating their forearm toward their head while maintaining chest pressure. → Leads to [[game-over]]
 
 

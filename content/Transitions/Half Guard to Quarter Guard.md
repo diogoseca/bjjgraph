@@ -21,7 +21,7 @@ Strategically, the Transition to Quarter Guard serves as the bridge between the 
 
 This transition appears constantly in high-level competition because half guard is one of the most common defensive positions encountered during guard passing. Practitioners who master this systematic progression develop the ability to consistently advance through half guard rather than stalling in extended passing battles. The technique chains naturally into knee slice passes, smash passes, and crossface passes once quarter guard is established, making it a cornerstone of any pressure passing system.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 70%
 
 </section>
@@ -32,9 +32,9 @@ This transition appears constantly in high-level competition because half guard 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Quarter Guard]] | 70% |
-| Failure | [[Half Guard]] | 20% |
-| Counter | [[Deep Half Guard]] | 10% |
+| Success | [[Positions/Quarter Guard]] | 70% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 10% |
 
 
 </section>
@@ -193,29 +193,29 @@ The Transition to Quarter Guard occupies a pivotal position in the guard passing
 ## Related Techniques
 
 
-- [[Half Guard]] - Starting position from which this transition is initiated by the top player
+- [[Positions/Half Guard]] - Starting position from which this transition is initiated by the top player
 
-- [[Quarter Guard]] - Target position achieved upon successful completion of this transition
+- [[Positions/Quarter Guard]] - Target position achieved upon successful completion of this transition
 
-- [[Knee Slice Pass]] - Primary follow-up technique once quarter guard is established
+- [[Transitions/Knee Slice Pass]] - Primary follow-up technique once quarter guard is established
 
-- [[Smash Pass]] - Alternative passing completion from established quarter guard position
+- [[Transitions/Smash Pass]] - Alternative passing completion from established quarter guard position
 
-- [[Crossface Pass]] - Complementary passing technique using similar pressure mechanics
+- [[Transitions/Crossface Pass]] - Complementary passing technique using similar pressure mechanics
 
-- [[Deep Half Guard]] - Counter position bottom player may achieve if transition is executed poorly
+- [[Positions/Half Guard/Deep Half Guard]] - Counter position bottom player may achieve if transition is executed poorly
 
-- [[Side Control]] - Ultimate target position following quarter guard pass completion
+- [[Positions/Side Control]] - Ultimate target position following quarter guard pass completion
 
-- [[Knee Shield Half Guard]] - Defensive structure that must be eliminated before initiating this transition
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive structure that must be eliminated before initiating this transition
 
-- [[Lockdown]] - Leg entanglement that prevents this transition and requires specific counters
+- [[Positions/Half Guard/Lockdown]] - Leg entanglement that prevents this transition and requires specific counters
 
-- [[Headquarters Position]] - Related passing position that can precede or follow quarter guard establishment
+- [[Positions/Headquarters Position]] - Related passing position that can precede or follow quarter guard establishment
 
-- [[Darce Choke]] - Submission opportunity that opens when bottom player turns during transition
+- [[Transitions/Darce Choke]] - Submission opportunity that opens when bottom player turns during transition
 
-- [[Kimura]] - Submission threat available when bottom player overcommits to underhook recovery
+- [[Transitions/Kimura]] - Submission threat available when bottom player overcommits to underhook recovery
 
 
 </section>

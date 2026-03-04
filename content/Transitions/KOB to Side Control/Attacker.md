@@ -180,7 +180,7 @@ description: "Master executing the KOB to Side Control consolidation. Learn grip
 
 From the attacker's perspective, the KOB to Side Control transition requires precise sequencing of grips, pressure, and body positioning to maintain continuous control throughout the movement. The central principle is that pressure must never decrease during the transition — it transforms from vertical knee pressure into horizontal chest pressure with no gap between the two. The attacker must establish upper body control before initiating the drop, block the far hip to prevent guard recovery, and drive their chest into perpendicular alignment as the knee slides off the belly. Success is measured not by speed but by the absence of any exploitable space during the movement.
 
-**From Position**: [[Knee on Belly]] (Top)
+**From Position**: [[Positions/Knee on Belly]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ From the attacker's perspective, the KOB to Side Control transition requires pre
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Knee on Belly]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Knee on Belly]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ From the attacker's perspective, the KOB to Side Control transition requires pre
 
 ## Opponent Counters
 
-- **Opponent frames against hip and shrimps during the knee drop to create space for guard recovery** (Effectiveness: High) - Your Response: Follow their hip movement with your body, maintain chest contact, and drive crossface pressure to flatten them before they complete the shrimp. If they create significant space, consider re-establishing KOB rather than forcing a compromised side control. → Leads to [[Half Guard]]
-- **Opponent inserts knee shield as your knee lifts off their belly, blocking your chest drop** (Effectiveness: High) - Your Response: Drive your shoulder into their knee shield while blocking their far hip. Use a knee slice motion to cut through the shield, or backstep to clear the knee before re-engaging with chest pressure from the opposite angle. → Leads to [[Half Guard]]
-- **Opponent pushes your hip with both hands to prevent you from settling into side control** (Effectiveness: Medium) - Your Response: Their extended arms create submission opportunities. Attack the near arm with a kimura or americana, or simply drive through their frames using shoulder pressure and crossface to collapse their defensive structure. Extended arms cannot generate the lateral force needed to prevent your weight settling. → Leads to [[Knee on Belly]]
-- **Opponent attempts sit-up escape during the brief weight redistribution phase** (Effectiveness: Low) - Your Response: Drive immediate crossface pressure to flatten them back to the mat. The sit-up requires space that should not exist if your transition maintains continuous pressure. Use your sprawled base to resist their upward momentum and convert their movement into deeper crossface control. → Leads to [[Knee on Belly]]
+- **Opponent frames against hip and shrimps during the knee drop to create space for guard recovery** (Effectiveness: High) - Your Response: Follow their hip movement with your body, maintain chest contact, and drive crossface pressure to flatten them before they complete the shrimp. If they create significant space, consider re-establishing KOB rather than forcing a compromised side control. → Leads to [[Positions/Half Guard]]
+- **Opponent inserts knee shield as your knee lifts off their belly, blocking your chest drop** (Effectiveness: High) - Your Response: Drive your shoulder into their knee shield while blocking their far hip. Use a knee slice motion to cut through the shield, or backstep to clear the knee before re-engaging with chest pressure from the opposite angle. → Leads to [[Positions/Half Guard]]
+- **Opponent pushes your hip with both hands to prevent you from settling into side control** (Effectiveness: Medium) - Your Response: Their extended arms create submission opportunities. Attack the near arm with a kimura or americana, or simply drive through their frames using shoulder pressure and crossface to collapse their defensive structure. Extended arms cannot generate the lateral force needed to prevent your weight settling. → Leads to [[Positions/Knee on Belly]]
+- **Opponent attempts sit-up escape during the brief weight redistribution phase** (Effectiveness: Low) - Your Response: Drive immediate crossface pressure to flatten them back to the mat. The sit-up requires space that should not exist if your transition maintains continuous pressure. Use your sprawled base to resist their upward momentum and convert their movement into deeper crossface control. → Leads to [[Positions/Knee on Belly]]
 
 
 </section>

@@ -178,7 +178,7 @@ The transition addresses a fundamental problem in leg lock exchanges: when oppon
 
 Strategically, this transition represents a positional improvement rather than a direct submission attempt. While ushiro offers attack opportunities, outside ashi-garami provides superior hip control, clearer heel exposure, and better transition options to saddle or honey hole. Advanced practitioners recognize when maintaining ushiro is disadvantageous and proactively return to outside ashi before losing control entirely. The technique requires understanding both leg entanglement configurations and the biomechanical principles that make outside ashi preferable for most finishing sequences.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ Strategically, this transition represents a positional improvement rather than a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Outside Ashi-Garami]] | 65% |
-| Failure | [[Ushiro Ashi-Garami]] | 25% |
-| Counter | [[50-50 Guard]] | 10% |
+| Success | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 65% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 25% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 10% |
 
 
 </section>
@@ -238,9 +238,9 @@ Strategically, this transition represents a positional improvement rather than a
 
 ## Opponent Counters
 
-- **Opponent accelerates rotation to turtle before you can reverse their hips** (Effectiveness: High) - Your Response: Follow to back control instead of fighting the rotation. If they commit fully to turtle, the back take becomes higher percentage than forcing outside ashi re-establishment. → Leads to [[Ushiro Ashi-Garami]]
-- **Opponent uses free leg to post and resist hip reversal** (Effectiveness: Medium) - Your Response: Attack the posting leg with your outside leg by hooking behind their knee. Convert their post into a trapped second leg and consider transitioning to saddle instead of outside ashi. → Leads to [[Ushiro Ashi-Garami]]
-- **Opponent counter-rotates into 50-50 guard during the transition** (Effectiveness: Medium) - Your Response: Accept 50-50 as a neutral position and work standard 50-50 escapes or attacks. The 50-50 is preferable to losing control entirely during a failed transition attempt. → Leads to [[50-50 Guard]]
+- **Opponent accelerates rotation to turtle before you can reverse their hips** (Effectiveness: High) - Your Response: Follow to back control instead of fighting the rotation. If they commit fully to turtle, the back take becomes higher percentage than forcing outside ashi re-establishment. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Opponent uses free leg to post and resist hip reversal** (Effectiveness: Medium) - Your Response: Attack the posting leg with your outside leg by hooking behind their knee. Convert their post into a trapped second leg and consider transitioning to saddle instead of outside ashi. → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Opponent counter-rotates into 50-50 guard during the transition** (Effectiveness: Medium) - Your Response: Accept 50-50 as a neutral position and work standard 50-50 escapes or attacks. The 50-50 is preferable to losing control entirely during a failed transition attempt. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 
 
 </section>

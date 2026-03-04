@@ -146,7 +146,7 @@ description: "Learn to defend against the push knee reguard escape from Knee on 
 
 As the top player defending against the Push Knee and Reguard escape, your objective is maintaining knee on belly control or advancing position when the bottom player attempts to push your knee off their torso. Recognizing the escape attempt early allows you to either re-commit pressure before the escape completes, transition to mount during the moment of space creation, or attack the opponent's extended pushing arms. Understanding the mechanics of this escape from the defender's perspective transforms a potential position loss into an advancement opportunity, particularly the mount transition that becomes available when the opponent creates space by pushing. The most skilled defenders use this escape attempt as a trigger for positional advancement rather than simply fighting to maintain the current position.
 
-**Opponent's Starting Position**: [[Knee on Belly]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Knee on Belly]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ As the top player defending against the Push Knee and Reguard escape, your objec
 ### 1. Drive knee back down to torso with increased forward pressure
 
 - **When to use**: When you feel the push beginning but the opponent has not completed the hip escape yet
-- **Targets**: [[Knee on Belly]]
+- **Targets**: [[Positions/Knee on Belly]]
 - **If successful**: Re-establish full knee on belly control with opponent having wasted energy on failed escape attempt
 - **Risk**: If opponent's push is strong enough, fighting it directly may result in losing balance and allowing escape
 
 ### 2. Slide knee across opponent's torso to mount as they push
 
 - **When to use**: When opponent creates space by pushing your knee and their hips begin moving away creating an opening
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Advance to mount position, converting their escape attempt into positional advancement and scoring opportunity
 - **Risk**: If timing is off, opponent may establish half guard or knee shield during the transition
 
 ### 3. Attack the extended pushing arm with armbar or americana setup
 
 - **When to use**: When opponent extends their arms to push your knee, creating arm isolation opportunity with elbows away from body
-- **Targets**: [[Knee on Belly]]
+- **Targets**: [[Positions/Knee on Belly]]
 - **If successful**: Force opponent to retract arms defensively, maintaining your knee on belly control and discouraging further push attempts
 - **Risk**: Committing to arm attack may compromise knee pressure momentarily and allow escape through other means
 
 ### 4. Circle to opposite side and re-establish knee on belly from new angle
 
 - **When to use**: When opponent successfully pushes your knee off but has not yet completed guard recovery with legs inserted
-- **Targets**: [[Knee on Belly]]
+- **Targets**: [[Positions/Knee on Belly]]
 - **If successful**: Re-establish control from unexpected angle, disorienting opponent and requiring them to readjust their entire defensive strategy
 - **Risk**: Momentary loss of pressure and control during the circling transition may allow guard recovery to complete
 
@@ -216,11 +216,11 @@ As the top player defending against the Push Knee and Reguard escape, your objec
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 As the opponent pushes your knee and creates space, use the momentum to slide your knee across their torso directly to mount. Their push actually assists your transition by creating the opening you need to clear their hip line. Time the mount transition to coincide with their hip escape — as their hips move away, your knee slides across the gap.
 
-### → [[Knee on Belly]]
+### → [[Positions/Knee on Belly]]
 
 Immediately drive your knee back to their solar plexus before the hip escape completes, using your far-side grip on their collar or belt to limit their range of movement. The re-establishment of pressure after a failed escape attempt is psychologically demoralizing and compounds the energy deficit the bottom player accumulates with each failed attempt.
 

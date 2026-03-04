@@ -21,7 +21,7 @@ Strategically, this escape prioritizes extracting yourself from immediate submis
 
 The technique requires precise timing and total commitment - half-hearted attempts fail and waste energy. Ideally executed when the opponent shifts weight to set up submissions, the explosive bridge catches them off-balance and creates the rotational momentum needed to free trapped arms and complete the turn to turtle. Understanding this escape's place in the defensive hierarchy is crucial: it represents a calculated retreat to a recoverable position rather than a reversal attempt.
 
-**From Position**: [[Mounted Crucifix]] (Bottom)
+**From Position**: [[Positions/Mount/Mounted Crucifix]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The technique requires precise timing and total commitment - half-hearted attemp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 65% |
-| Failure | [[Mounted Crucifix]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Turtle]] | 65% |
+| Failure | [[Positions/Mount/Mounted Crucifix]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -189,27 +189,27 @@ The Explosive Bridge to Turtle fits into the bottom game as an emergency escape 
 ## Related Techniques
 
 
-- [[Mounted Crucifix]] - Starting position - the dangerous control position this technique escapes
+- [[Positions/Mount/Mounted Crucifix]] - Starting position - the dangerous control position this technique escapes
 
-- [[Turtle]] - Target position - the recovery position achieved by successful execution
+- [[Positions/Turtle]] - Target position - the recovery position achieved by successful execution
 
-- [[Bridge and Roll]] - Related technique - shares bridging mechanics but different application context
+- [[Transitions/Bridge and Roll]] - Related technique - shares bridging mechanics but different application context
 
-- [[Back Door Escape]] - Follow-up - often needed when opponent takes back during escape attempt
+- [[Transitions/Back Door Escape]] - Follow-up - often needed when opponent takes back during escape attempt
 
-- [[Arm Extraction]] - Component technique - arm extraction is critical element of this escape sequence
+- [[Transitions/Arm Extraction]] - Component technique - arm extraction is critical element of this escape sequence
 
-- [[Guard Recovery]] - Follow-up option - can transition from turtle to guard after successful escape
+- [[Principles/Guard Recovery]] - Follow-up option - can transition from turtle to guard after successful escape
 
-- [[Crucifix]] - Related position - shares arm-trapping mechanics with mounted crucifix
+- [[Positions/Crucifix]] - Related position - shares arm-trapping mechanics with mounted crucifix
 
-- [[Elbow Escape to Guard]] - Alternative escape - different escape path from mount-related positions
+- [[Transitions/Elbow Escape to Guard]] - Alternative escape - different escape path from mount-related positions
 
-- [[Back Control]] - Common counter destination - where opponent often transitions when escape partially succeeds
+- [[Positions/Back Control]] - Common counter destination - where opponent often transitions when escape partially succeeds
 
-- [[Granby Roll to Guard]] - Follow-up from turtle - primary guard recovery method after reaching turtle
+- [[Transitions/Granby Roll to Guard]] - Follow-up from turtle - primary guard recovery method after reaching turtle
 
-- [[Bridge and Turn to Turtle]] - Related escape - similar bridge-to-turtle mechanics from different starting positions
+- [[Transitions/Bridge and Turn to Turtle]] - Related escape - similar bridge-to-turtle mechanics from different starting positions
 
 
 </section>

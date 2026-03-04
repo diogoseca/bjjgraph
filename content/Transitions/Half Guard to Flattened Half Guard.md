@@ -21,7 +21,7 @@ The technique begins with winning the upper body control battle, specifically es
 
 From a strategic perspective, this transition represents the critical bridge between contested half guard and completed guard passes. Skilled bottom players with active half guards are difficult to pass directly, but once flattened, their escape options narrow dramatically. The flattened position creates a pressure laboratory where the top player can methodically work through knee slice, crossface pass, or underhook pass sequences against compromised defensive structures. Understanding this transition is essential for any pressure-based passing game, as it converts positional scrambles into controlled passing sequences.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic perspective, this transition represents the critical bridge bet
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Flattened Half Guard]] | 65% |
-| Failure | [[Half Guard]] | 20% |
-| Counter | [[Knee Shield Half Guard]] | 15% |
+| Success | [[Positions/Half Guard/Flattened Half Guard]] | 65% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Counter | [[Positions/Half Guard/Knee Shield Half Guard]] | 15% |
 
 
 </section>
@@ -194,29 +194,29 @@ This transition occupies a critical position in the half guard passing hierarchy
 ## Related Techniques
 
 
-- [[Half Guard]] - Starting position where the flattening sequence begins against active bottom player
+- [[Positions/Half Guard]] - Starting position where the flattening sequence begins against active bottom player
 
-- [[Flattened Half Guard]] - Target position achieved upon successful completion of the flattening transition
+- [[Positions/Half Guard/Flattened Half Guard]] - Target position achieved upon successful completion of the flattening transition
 
-- [[Knee Shield Half Guard]] - Primary defensive structure that must be collapsed to achieve the flattening
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Primary defensive structure that must be collapsed to achieve the flattening
 
-- [[Crossface Pass]] - High-percentage follow-up pass from the flattened position using crossface pressure
+- [[Transitions/Crossface Pass]] - High-percentage follow-up pass from the flattened position using crossface pressure
 
-- [[Knee Slice from Half]] - Primary passing technique executed after successfully flattening the bottom player
+- [[Transitions/Knee Slice from Half]] - Primary passing technique executed after successfully flattening the bottom player
 
-- [[Smash Pass]] - Related pressure-based passing technique that shares flattening mechanics
+- [[Transitions/Smash Pass]] - Related pressure-based passing technique that shares flattening mechanics
 
-- [[Body Lock Pass]] - Alternative passing approach that naturally incorporates flattening as an intermediate step
+- [[Transitions/Body Lock Pass]] - Alternative passing approach that naturally incorporates flattening as an intermediate step
 
-- [[Deep Half Guard]] - Defensive counter position bottom player may achieve if flattening attempt is poorly timed
+- [[Positions/Half Guard/Deep Half Guard]] - Defensive counter position bottom player may achieve if flattening attempt is poorly timed
 
-- [[Kimura]] - Submission opportunity arising when bottom player reaches for underhook during flattening
+- [[Transitions/Kimura]] - Submission opportunity arising when bottom player reaches for underhook during flattening
 
-- [[Darce Choke]] - Submission threat created when bottom player turns into the crossface during the transition
+- [[Transitions/Darce Choke]] - Submission threat created when bottom player turns into the crossface during the transition
 
-- [[Lockdown]] - Leg entanglement defense that can stall the flattening progression
+- [[Positions/Half Guard/Lockdown]] - Leg entanglement defense that can stall the flattening progression
 
-- [[Underhook Pass]] - Follow-up passing technique available after securing dominant upper body control
+- [[Transitions/Underhook Pass]] - Follow-up passing technique available after securing dominant upper body control
 
 
 </section>

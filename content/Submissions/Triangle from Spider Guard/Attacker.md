@@ -238,8 +238,8 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Spider Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Spider Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -248,11 +248,11 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 ## Opponent Defenses
 
-- **Posturing up aggressively to prevent triangle lock** (Effectiveness: Medium) - Your Response: Use spider guard feet to kick their arms out and break posture back down before they can establish strong base. If already postured, transition to sweep or different attack rather than forcing a weak triangle. → Leads to [[Spider Guard]]
-- **Pulling trapped arm out of triangle space** (Effectiveness: High) - Your Response: Immediately hug their arm across your body with both hands and pull it toward your opposite hip. Lock your legs tighter and adjust angle to prevent them from creating the space needed to extract their arm. → Leads to [[Spider Guard]]
-- **Stacking forward to put weight on your shoulders** (Effectiveness: Medium) - Your Response: Bring your knees to your chest and use your leg strength to pull opponent's posture back down. If stack is successful, transition to omoplata or sweep. Never fight a lost position—better to transition than get passed. → Leads to [[Side Control]]
-- **Creating defensive frame with free hand on hip** (Effectiveness: Low) - Your Response: Ignore the frame and focus on angle and head control. A proper triangle with good angle cannot be defended with a hip frame. Ensure your hips are angled and you're pulling their head down—the frame becomes irrelevant. → Leads to [[Spider Guard]]
-- **Standing up to slam or stack more violently** (Effectiveness: High) - Your Response: In competition, this is dangerous. Immediately transition to armbar on the trapped arm or release and re-guard. In training, if partner stands, release immediately—this indicates they are in panic mode and safety is compromised. → Leads to [[Side Control]]
+- **Posturing up aggressively to prevent triangle lock** (Effectiveness: Medium) - Your Response: Use spider guard feet to kick their arms out and break posture back down before they can establish strong base. If already postured, transition to sweep or different attack rather than forcing a weak triangle. → Leads to [[Positions/Spider Guard]]
+- **Pulling trapped arm out of triangle space** (Effectiveness: High) - Your Response: Immediately hug their arm across your body with both hands and pull it toward your opposite hip. Lock your legs tighter and adjust angle to prevent them from creating the space needed to extract their arm. → Leads to [[Positions/Spider Guard]]
+- **Stacking forward to put weight on your shoulders** (Effectiveness: Medium) - Your Response: Bring your knees to your chest and use your leg strength to pull opponent's posture back down. If stack is successful, transition to omoplata or sweep. Never fight a lost position—better to transition than get passed. → Leads to [[Positions/Side Control]]
+- **Creating defensive frame with free hand on hip** (Effectiveness: Low) - Your Response: Ignore the frame and focus on angle and head control. A proper triangle with good angle cannot be defended with a hip frame. Ensure your hips are angled and you're pulling their head down—the frame becomes irrelevant. → Leads to [[Positions/Spider Guard]]
+- **Standing up to slam or stack more violently** (Effectiveness: High) - Your Response: In competition, this is dangerous. Immediately transition to armbar on the trapped arm or release and re-guard. In training, if partner stands, release immediately—this indicates they are in panic mode and safety is compromised. → Leads to [[Positions/Side Control]]
 
 
 </section>

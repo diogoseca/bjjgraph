@@ -158,7 +158,7 @@ The defender's primary challenge is managing the dual threat of the choke alongs
 
 Successful defense requires recognizing the specific cues that indicate a Paper Cutter attempt - the reaching hand, the collar manipulation, the elbow trajectory - and responding immediately with the appropriate counter. The defender who waits until feeling neck pressure has already lost the exchange. Training defensive reactions to be automatic rather than analytical is essential, as the speed of the choke leaves no time for deliberation once the attack is in motion.
 
-**Opponent's Starting Position**: [[Kuzure Kesa-Gatame]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Successful defense requires recognizing the specific cues that indicate a Paper 
 ### 1. Strip the collar grip at the wrist before fingers set deep - use your free hand to peel their gripping hand off the lapel by attacking the wrist and thumb side of their grip
 
 - **When to use**: Immediately when you detect their hand reaching for your far-side collar, before the grip is fully established
-- **Targets**: [[Kuzure Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Kuzure Kesa-Gatame]]
 - **If successful**: Attacker returns to positional control without choke threat, buying you time to work standard Kesa-Gatame escapes
 - **Risk**: Extending your free arm to strip the grip may expose it to armbar or kimura if the attacker abandons the choke attempt
 
 ### 2. Turn your chin sharply toward the attacker and tuck it into their armpit, denying the blade angle across your far-side carotid artery
 
 - **When to use**: When the collar grip is already established and you cannot strip it - this prevents the choke from being effective even with the grip in place
-- **Targets**: [[Kuzure Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Kuzure Kesa-Gatame]]
 - **If successful**: Choke angle is blocked; attacker must either release grip and try again or switch to different attack, giving you defensive reset
 - **Risk**: Turning chin toward attacker exposes your near arm and may open americana or near-side breadcutter choke opportunities
 
 ### 3. Bridge explosively toward the attacker's posting leg and hip escape in the opposite direction while their weight is shifted toward the choke setup
 
 - **When to use**: When attacker commits weight forward to pin your head and establish the finishing position, momentarily reducing hip pressure
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Create enough space to insert knee shield or recover half guard, escaping both the choke and the Kesa-Gatame control
 - **Risk**: Failed bridge wastes energy and may allow attacker to re-consolidate with even heavier pressure before next attempt
 
 ### 4. Frame against attacker's choking arm with your free hand, blocking the elbow from dropping toward your far hip and preventing the cutting angle
 
 - **When to use**: When grip is established but elbow drop has not yet completed - a narrow timing window during the transition from grip to finish
-- **Targets**: [[Kuzure Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Kuzure Kesa-Gatame]]
 - **If successful**: Elbow is blocked high, preventing the rotation needed for the blade angle; attacker cannot finish without overcoming your frame
 - **Risk**: Committing your free arm to blocking the elbow removes it from framing for positional escapes and may expose it to submission
 
@@ -229,11 +229,11 @@ Successful defense requires recognizing the specific cues that indicate a Paper 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Kuzure Kesa-Gatame]]
+### → [[Positions/Side Control/Kuzure Kesa-Gatame]]
 
 Strip the collar grip early before it sets deep, or turn chin to deny the blade angle. Both defensive actions force the attacker to abandon the choke and return to positional control, resetting the exchange. From here you can work standard Kesa-Gatame bottom escapes without the immediate choke threat.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your bridge and hip escape to the moment the attacker shifts weight forward for the head pin or finishing squeeze. Their weight commitment to the choke mechanics reduces hip pressure enough for you to create space, insert your knee, and recover half guard. This removes you from both the choke and the Kesa-Gatame control entirely.
 

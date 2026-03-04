@@ -180,7 +180,7 @@ description: "Execute the Twister Side Control to Back Take with systematic prec
 
 Executing the Twister Side Control to Back Take requires recognizing the precise moment when the bottom player's defensive movement creates back exposure and converting lateral control into rear body control. The transition leverages the existing leg entanglement and shoulder pressure as a launching platform, converting twister mechanics into the seatbelt and hook configuration that defines back control. The attacker must maintain continuous chest contact throughout the rotation, ensuring no gaps in control that would allow the defender to insert frames or recover guard. Successful execution demands coordinated release of twister leg hooks and simultaneous establishment of back control points, with the seatbelt grip preceding hook insertion to maintain upper body dominance during the most vulnerable phase of the transition. The technique rewards patient practitioners who read defensive movement accurately and time their commitment to coincide with maximum back exposure.
 
-**From Position**: [[Twister Side Control]] (Top)
+**From Position**: [[Positions/Twister Control/Twister Side Control]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ Executing the Twister Side Control to Back Take requires recognizing the precise
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Twister Side Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Twister Control/Twister Side Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ Executing the Twister Side Control to Back Take requires recognizing the precise
 
 ## Opponent Counters
 
-- **Defensive turn toward attacker to prevent back exposure and re-face the threat** (Effectiveness: High) - Your Response: If the defender turns into you early, abandon the back take and return to twister side control pressure. If they turn late during transition, follow their turn with a modified arm drag to continue circling to the back, or transition to a front headlock if their neck becomes exposed during the turn. → Leads to [[Twister Side Control]]
-- **Hip escape with frame creation to generate distance and deny hook insertion space** (Effectiveness: Medium) - Your Response: Drive forward aggressively with chest pressure to collapse their frames before they create sufficient distance. If frames are established, shift to a heavy top pressure passing approach or re-engage the leg entanglement to return to twister side control rather than fighting compromised frames. → Leads to [[Half Guard]]
-- **Explosive bridge and shoulder roll during the hook insertion phase to reverse position** (Effectiveness: Medium) - Your Response: Post your outside hand on the mat to absorb the bridge force and maintain your balance. Widen your base by extending the posted leg and ride the bridge without releasing the seatbelt grip. Once the bridge subsides, immediately resume hook insertion before the defender can reset their defensive posture. → Leads to [[Twister Side Control]]
-- **Two-on-one grip control on the seatbelt arm to strip upper body control and prevent choke threats** (Effectiveness: Low) - Your Response: The two-on-one defense occupies both of the defender's hands on your choking arm, leaving their body undefended. Use this window to accelerate hook insertion since they cannot simultaneously fight your arm and prevent your legs from establishing control. Once hooks are in, address the grip fight from secured back control. → Leads to [[Twister Side Control]]
+- **Defensive turn toward attacker to prevent back exposure and re-face the threat** (Effectiveness: High) - Your Response: If the defender turns into you early, abandon the back take and return to twister side control pressure. If they turn late during transition, follow their turn with a modified arm drag to continue circling to the back, or transition to a front headlock if their neck becomes exposed during the turn. → Leads to [[Positions/Twister Control/Twister Side Control]]
+- **Hip escape with frame creation to generate distance and deny hook insertion space** (Effectiveness: Medium) - Your Response: Drive forward aggressively with chest pressure to collapse their frames before they create sufficient distance. If frames are established, shift to a heavy top pressure passing approach or re-engage the leg entanglement to return to twister side control rather than fighting compromised frames. → Leads to [[Positions/Half Guard]]
+- **Explosive bridge and shoulder roll during the hook insertion phase to reverse position** (Effectiveness: Medium) - Your Response: Post your outside hand on the mat to absorb the bridge force and maintain your balance. Widen your base by extending the posted leg and ride the bridge without releasing the seatbelt grip. Once the bridge subsides, immediately resume hook insertion before the defender can reset their defensive posture. → Leads to [[Positions/Twister Control/Twister Side Control]]
+- **Two-on-one grip control on the seatbelt arm to strip upper body control and prevent choke threats** (Effectiveness: Low) - Your Response: The two-on-one defense occupies both of the defender's hands on your choking arm, leaving their body undefended. Use this window to accelerate hook insertion since they cannot simultaneously fight your arm and prevent your legs from establishing control. Once hooks are in, address the grip fight from secured back control. → Leads to [[Positions/Twister Control/Twister Side Control]]
 
 
 </section>

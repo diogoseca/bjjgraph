@@ -184,7 +184,7 @@ Strategically, the Kimura Sweep creates a dilemma for the opponent: defend the K
 
 At higher levels, the Kimura Sweep integrates into broader attacking systems where the initial grip threat forces reactions that open pathways to back takes, hip bumps, or direct submission finishes. Understanding when to commit to the sweep versus when to maintain grip pressure for other attacks distinguishes intermediate from advanced practitioners.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -237,9 +237,9 @@ At higher levels, the Kimura Sweep integrates into broader attacking systems whe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 58% |
-| Failure | [[Closed Guard]] | 30% |
-| Counter | [[Side Control]] | 12% |
+| Success | [[Positions/Mount]] | 58% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 12% |
 
 
 </section>
@@ -248,11 +248,11 @@ At higher levels, the Kimura Sweep integrates into broader attacking systems whe
 
 ## Opponent Counters
 
-- **Opponent straightens trapped arm to break grip connection** (Effectiveness: High) - Your Response: Transition to straight armlock on the extended arm, or use their focus on the arm to switch to hip bump sweep while their base is compromised → Leads to [[Closed Guard]]
-- **Opponent drops weight and flattens to prevent the roll** (Effectiveness: Medium) - Your Response: Abandon sweep and attack with Kimura submission directly since their flat position exposes the shoulder, or transition to back take as they turn → Leads to [[Closed Guard]]
-- **Opponent posts free hand wide to maintain base during sweep attempt** (Effectiveness: Medium) - Your Response: Use the posting hand as opportunity for armbar setup on the extended arm, or increase hip drive explosiveness to power through their weakened base → Leads to [[Closed Guard]]
-- **Opponent stacks forward into your guard to nullify hip escape angle** (Effectiveness: Low) - Your Response: Switch to pendulum sweep or elevator sweep using their forward momentum against them, or retain guard and reset the attack sequence → Leads to [[Closed Guard]]
-- **Opponent strips wrist grip by pulling elbow sharply back before figure-four locks** (Effectiveness: High) - Your Response: Immediately transition to overhook control on the same arm to maintain upper body connection, then reattempt Kimura grip or switch to triangle setup → Leads to [[Closed Guard]]
+- **Opponent straightens trapped arm to break grip connection** (Effectiveness: High) - Your Response: Transition to straight armlock on the extended arm, or use their focus on the arm to switch to hip bump sweep while their base is compromised → Leads to [[Positions/Closed Guard]]
+- **Opponent drops weight and flattens to prevent the roll** (Effectiveness: Medium) - Your Response: Abandon sweep and attack with Kimura submission directly since their flat position exposes the shoulder, or transition to back take as they turn → Leads to [[Positions/Closed Guard]]
+- **Opponent posts free hand wide to maintain base during sweep attempt** (Effectiveness: Medium) - Your Response: Use the posting hand as opportunity for armbar setup on the extended arm, or increase hip drive explosiveness to power through their weakened base → Leads to [[Positions/Closed Guard]]
+- **Opponent stacks forward into your guard to nullify hip escape angle** (Effectiveness: Low) - Your Response: Switch to pendulum sweep or elevator sweep using their forward momentum against them, or retain guard and reset the attack sequence → Leads to [[Positions/Closed Guard]]
+- **Opponent strips wrist grip by pulling elbow sharply back before figure-four locks** (Effectiveness: High) - Your Response: Immediately transition to overhook control on the same arm to maintain upper body connection, then reattempt Kimura grip or switch to triangle setup → Leads to [[Positions/Closed Guard]]
 
 
 </section>

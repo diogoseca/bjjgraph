@@ -21,7 +21,7 @@ The technical foundation of this reversal rests on winning the underhook battle 
 
 This reversal occupies a critical decision point in the flattened half guard game tree. Attempting the reversal too early without establishing the underhook risks immediate pass completion. Attempting it too late, after the top player has begun extracting the trapped leg, eliminates the leverage needed to complete the sweep. The optimal timing window occurs when the top player is focused on maintaining crossface pressure and has not yet committed to a specific passing sequence, creating a brief moment where their weight distribution is static and predictable. Advanced practitioners chain this reversal with frame recovery attempts, using the threat of one to create openings for the other.
 
-**From Position**: [[Flattened Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ This reversal occupies a critical decision point in the flattened half guard gam
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Flattened Half Guard]] | 38% |
-| Counter | [[Mount]] | 22% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 38% |
+| Counter | [[Positions/Mount]] | 22% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Reversal from Flattened Half Guard sits at a critical fork in the bottom hal
 ## Related Techniques
 
 
-- [[Flattened Half Guard]] - Starting position where the bottom player initiates this reversal
+- [[Positions/Half Guard/Flattened Half Guard]] - Starting position where the bottom player initiates this reversal
 
-- [[Side Control]] - Target dominant position achieved on successful reversal
+- [[Positions/Side Control]] - Target dominant position achieved on successful reversal
 
-- [[Mount]] - Worst-case counter outcome when top player capitalizes on failed reversal
+- [[Positions/Mount]] - Worst-case counter outcome when top player capitalizes on failed reversal
 
-- [[Half Guard]] - Parent position system that the flattened variation degrades from
+- [[Positions/Half Guard]] - Parent position system that the flattened variation degrades from
 
-- [[Recover Knee Shield from Flattened Half]] - Alternative defensive approach from same starting position focused on frame recovery
+- [[Transitions/Recover Knee Shield from Flattened Half]] - Alternative defensive approach from same starting position focused on frame recovery
 
-- [[Deep Half Entry from Flattened]] - Alternative offensive option from flattened half guard that changes the angle
+- [[Transitions/Deep Half Entry from Flattened]] - Alternative offensive option from flattened half guard that changes the angle
 
-- [[Old School Sweep]] - Related underhook-based sweep sharing similar mechanical principles from half guard
+- [[Transitions/Old School Sweep]] - Related underhook-based sweep sharing similar mechanical principles from half guard
 
-- [[Dogfight Sweep]] - Follow-up sweep option if the reversal stalls in a Dogfight scramble
+- [[Transitions/Dogfight Sweep]] - Follow-up sweep option if the reversal stalls in a Dogfight scramble
 
-- [[Lockdown]] - Leg control system that can enhance reversal effectiveness from flattened position
+- [[Positions/Half Guard/Lockdown]] - Leg control system that can enhance reversal effectiveness from flattened position
 
-- [[Complete Pass from Flattened Half]] - The top player's primary objective that this reversal aims to preempt
+- [[Transitions/Complete Pass from Flattened Half]] - The top player's primary objective that this reversal aims to preempt
 
-- [[Knee Slide from Flattened Half]] - Common top player passing technique that creates the urgency for reversal timing
+- [[Transitions/Knee Slide from Flattened Half]] - Common top player passing technique that creates the urgency for reversal timing
 
-- [[Elbow Escape from Flattened Half]] - Defensive escape option that can be chained with reversal threats
+- [[Transitions/Elbow Escape from Flattened Half]] - Defensive escape option that can be chained with reversal threats
 
 
 </section>

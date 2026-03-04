@@ -21,7 +21,7 @@ The biomechanical foundation of this escape relies on maintaining underhook conn
 
 From a game theory perspective, Jailbreak to Turtle creates a strategic dilemma for the top player. Driving forward pressure to complete the pass opens vulnerability to the rolling escape, while backing off to prevent the roll allows the bottom player to recover guard frames. This technique chains naturally into turtle attacks and back takes, making it both a defensive escape and an offensive transition when the opponent follows the roll.
 
-**From Position**: [[Jailbreak]] (Bottom)
+**From Position**: [[Positions/Jailbreak]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ From a game theory perspective, Jailbreak to Turtle creates a strategic dilemma 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Jailbreak]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Jailbreak]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -189,23 +189,23 @@ Jailbreak to Turtle serves as a critical escape valve in the half guard bottom s
 ## Related Techniques
 
 
-- [[Jailbreak]] - Starting position - escape originates from jailbreak bottom half guard state
+- [[Positions/Jailbreak]] - Starting position - escape originates from jailbreak bottom half guard state
 
-- [[Turtle]] - Primary destination - successful escape establishes turtle position
+- [[Positions/Turtle]] - Primary destination - successful escape establishes turtle position
 
-- [[Half Guard]] - Parent position - jailbreak occurs from half guard bottom when pressure compromises retention
+- [[Positions/Half Guard]] - Parent position - jailbreak occurs from half guard bottom when pressure compromises retention
 
-- [[Deep Half Guard]] - Alternative transition - used when opponent bases wide to prevent jailbreak roll
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition - used when opponent bases wide to prevent jailbreak roll
 
-- [[Lockdown]] - Setup option - lockdown control often precedes jailbreak attempts
+- [[Positions/Half Guard/Lockdown]] - Setup option - lockdown control often precedes jailbreak attempts
 
-- [[Back Control]] - Chain destination - achieved when opponent follows the roll
+- [[Positions/Back Control]] - Chain destination - achieved when opponent follows the roll
 
-- [[Old School Sweep]] - Related technique - uses similar underhook mechanics from half guard
+- [[Transitions/Old School Sweep]] - Related technique - uses similar underhook mechanics from half guard
 
-- [[Granby Roll to Guard]] - Related movement - shares inversion mechanics with jailbreak
+- [[Transitions/Granby Roll to Guard]] - Related movement - shares inversion mechanics with jailbreak
 
-- [[Guard Recovery]] - Follow-up option - common chain from turtle after jailbreak escape
+- [[Principles/Guard Recovery]] - Follow-up option - common chain from turtle after jailbreak escape
 
 
 </section>

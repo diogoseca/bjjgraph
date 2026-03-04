@@ -21,7 +21,7 @@ Strategically, the sit out occupies a unique niche in the turtle escape hierarch
 
 The sit out pairs effectively with other turtle escapes in a chain attack system. When the opponent defends the granby roll by driving forward, the sit out becomes available because their weight has shifted precisely where it needs to be for the technique to succeed. Conversely, threatening the sit out forces the opponent to shift their weight back, opening the granby roll. This complementary relationship makes the sit out an essential component of any complete turtle escape system rather than a standalone technique.
 
-**From Position**: [[Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ The sit out pairs effectively with other turtle escapes in a chain attack system
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Open Guard]] | 10% |
-| Failure | [[Turtle]] | 30% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Turtle]] | 30% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -194,25 +194,25 @@ The sit out from turtle serves as a critical link between defensive turtle posit
 ## Related Techniques
 
 
-- [[Turtle]] - Source position from which the sit out is executed
+- [[Positions/Turtle]] - Source position from which the sit out is executed
 
-- [[Half Guard]] - Primary guard recovery target after successful sit out
+- [[Positions/Half Guard]] - Primary guard recovery target after successful sit out
 
-- [[Open Guard]] - Alternative guard recovery outcome when sit out creates distance
+- [[Positions/Open Guard]] - Alternative guard recovery outcome when sit out creates distance
 
-- [[Side Control]] - Counter outcome when opponent capitalizes on exposed hips during sit out
+- [[Positions/Side Control]] - Counter outcome when opponent capitalizes on exposed hips during sit out
 
-- [[Back Control]] - Primary threat position if sit out fails and opponent establishes hooks
+- [[Positions/Back Control]] - Primary threat position if sit out fails and opponent establishes hooks
 
-- [[Front Headlock]] - Opponent attack position when snap down counters the posting hand
+- [[Positions/Front Headlock]] - Opponent attack position when snap down counters the posting hand
 
-- [[Scramble Position]] - Common transitional state during contested sit out attempts
+- [[Positions/Scramble Position]] - Common transitional state during contested sit out attempts
 
-- [[Back Door Escape from Half Guard]] - Complementary escape technique sharing similar hip rotation mechanics
+- [[Transitions/Back Door Escape from Half Guard]] - Complementary escape technique sharing similar hip rotation mechanics
 
-- [[Hip Escape from Front Headlock]] - Related escape technique using similar hip rotation and facing mechanics
+- [[Transitions/Hip Escape from Front Headlock]] - Related escape technique using similar hip rotation and facing mechanics
 
-- [[Deep Half Entry from Half Guard]] - Alternative deep entry option from turtle using similar threading mechanics
+- [[Transitions/Deep Half Entry from Half Guard]] - Alternative deep entry option from turtle using similar threading mechanics
 
 
 </section>

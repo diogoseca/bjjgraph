@@ -22,8 +22,8 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Side Control]]
-**From Position**: [[Side Control]] (Top)
+**Starting Position**: [[Positions/Side Control]]
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 52%
 
 </section>
@@ -77,8 +77,8 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -222,13 +222,13 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 ## From Which Positions?
 
-- [[Side Control]]
-- [[North-South]]
-- [[Knee on Belly]]
-- [[Kuzure Kesa-Gatame]]
-- [[Modified Scarf Hold]]
-- [[Kesa Gatame]]
-- [[Shoulder of Justice]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
+- [[Positions/Knee on Belly]]
+- [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Shoulder of Justice]]
 
 
 </section>
@@ -237,12 +237,12 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 ## Related Submissions
 
-- [[Americana]]
-- [[Kimura]]
-- [[Kimura from Side Control]]
-- [[Americana from Side Control]]
-- [[Armbar from Side Control]]
-- [[Bicep Slicer]]
+- [[Transitions/Americana]]
+- [[Transitions/Kimura]]
+- [[Submissions/Kimura from Side Control]]
+- [[Submissions/Americana from Side Control]]
+- [[Submissions/Armbar from Side Control]]
+- [[Submissions/Bicep Slicer]]
 
 
 </section>
@@ -251,14 +251,14 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 ## Additional Related Content
 
-- [[Side Control]] - Primary attacking position - establishes the control needed for submission setup
-- [[Americana]] - Alternative finish - if opponent straightens arm during Arm Crush defense
-- [[Kimura]] - Alternative finish - if opponent pulls elbow away from body during defense
-- [[Kuzure Kesa-Gatame]] - Ideal setup position - arm is already trapped in perfect configuration
-- [[North-South]] - Alternative position - allows Arm Crush variation from opposite angle
-- [[Side Control to North-South]] - Position change - if opponent begins escaping side control
-- [[Kimura Trap]] - Related system - Arm Crush can be integrated into Kimura-based attack sequences
-- [[Kesa Gatame]] - Related control position with similar arm trapping opportunities
+- [[Positions/Side Control]] - Primary attacking position - establishes the control needed for submission setup
+- [[Transitions/Americana]] - Alternative finish - if opponent straightens arm during Arm Crush defense
+- [[Transitions/Kimura]] - Alternative finish - if opponent pulls elbow away from body during defense
+- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Ideal setup position - arm is already trapped in perfect configuration
+- [[Positions/North-South]] - Alternative position - allows Arm Crush variation from opposite angle
+- [[Transitions/Side Control to North-South]] - Position change - if opponent begins escaping side control
+- [[Positions/Kimura Trap]] - Related system - Arm Crush can be integrated into Kimura-based attack sequences
+- [[Positions/Side Control/Kesa Gatame]] - Related control position with similar arm trapping opportunities
 
 
 </section>

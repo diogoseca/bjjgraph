@@ -21,7 +21,7 @@ The strategic value of this technique lies in its simplicity and reliability aga
 
 Understanding when to apply the smash versus other passing approaches from half butterfly is critical. The smash works best when the top player has already established solid upper body control and the bottom player is attempting to maintain the hook through positioning rather than actively sweeping. If the bottom player is actively elevating and attacking, the top player may need to address the sweep threat first before committing to the smash sequence.
 
-**From Position**: [[Half Butterfly]] (Top)
+**From Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Understanding when to apply the smash versus other passing approaches from half 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Half Butterfly]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Butterfly Guard/Half Butterfly]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,27 +189,27 @@ The Smash Half Butterfly occupies a critical role in the guard passing hierarchy
 ## Related Techniques
 
 
-- [[Half Butterfly]] - Source position where this transition originates
+- [[Positions/Butterfly Guard/Half Butterfly]] - Source position where this transition originates
 
-- [[Half Guard]] - Target position reached upon successful smash completion
+- [[Positions/Half Guard]] - Target position reached upon successful smash completion
 
-- [[Pass Half Butterfly]] - Alternative passing approach from the same starting position
+- [[Transitions/Pass Half Butterfly]] - Alternative passing approach from the same starting position
 
-- [[Butterfly Guard]] - Related guard family sharing butterfly hook mechanics
+- [[Positions/Butterfly Guard]] - Related guard family sharing butterfly hook mechanics
 
-- [[Deep Half Guard]] - Common escape route for the bottom player when smash is partially applied
+- [[Positions/Half Guard/Deep Half Guard]] - Common escape route for the bottom player when smash is partially applied
 
-- [[Flattened Half Guard]] - Intermediate position that may result from successful flattening during the smash
+- [[Positions/Half Guard/Flattened Half Guard]] - Intermediate position that may result from successful flattening during the smash
 
-- [[Half Butterfly Sweep]] - Primary counter-technique the bottom player threatens during the smash attempt
+- [[Transitions/Half Butterfly Sweep]] - Primary counter-technique the bottom player threatens during the smash attempt
 
-- [[Half Butterfly to Dogfight]] - Alternative outcome when bottom player fights up with underhook during smash
+- [[Transitions/Half Butterfly to Dogfight]] - Alternative outcome when bottom player fights up with underhook during smash
 
-- [[Body Lock Pass]] - Alternative pressure passing approach that chains from failed smash attempts
+- [[Transitions/Body Lock Pass]] - Alternative pressure passing approach that chains from failed smash attempts
 
-- [[Reguard from Half Butterfly]] - Defensive recovery technique the bottom player uses to retain butterfly hook
+- [[Transitions/Reguard from Half Butterfly]] - Defensive recovery technique the bottom player uses to retain butterfly hook
 
-- [[Side Control]] - Ultimate passing target after consolidating half guard top from successful smash
+- [[Positions/Side Control]] - Ultimate passing target after consolidating half guard top from successful smash
 
 
 </section>

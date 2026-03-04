@@ -180,7 +180,7 @@ description: "How to execute Guillotine Defense in BJJ. Complete guide to escapi
 
 As the person executing the Guillotine Defense, you are caught in a guillotine choke and must systematically dismantle the submission mechanics to escape to a dominant position. This requires addressing the choking pressure at its source - the fulcrum point where opponent's wrist or forearm contacts your neck - while simultaneously creating the structural conditions (hip distance, posture, angle) that make the choke mechanically unsustainable. The defense is not a single explosive movement but a sequential process: first protect, then control the fulcrum, then create distance, then circle and extract. Each step builds on the previous one, and skipping steps leads to failed escapes or tightened chokes. Your goal is not merely survival but conversion to side control top, transforming a defensive crisis into offensive dominance. The best guillotine defenders treat every escape as an opportunity to improve position, driving forward through the defense into an immediate passing sequence.
 
-**From Position**: [[Front Headlock]] (Bottom)
+**From Position**: [[Positions/Front Headlock]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ As the person executing the Guillotine Defense, you are caught in a guillotine c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Front Headlock]] | 30% |
-| Counter | [[Guillotine Control]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Front Headlock]] | 30% |
+| Counter | [[Positions/Guillotine Control]] | 15% |
 
 
 </section>
@@ -245,11 +245,11 @@ As the person executing the Guillotine Defense, you are caught in a guillotine c
 
 ## Opponent Counters
 
-- **Opponent switches to high-elbow guillotine configuration mid-defense** (Effectiveness: High) - Your Response: Immediately adjust your frame to address the new fulcrum point at their elbow rather than wrist. Increase forward pressure and accelerate your circular motion toward the choking side. The high-elbow variation requires their arm to be more extended, which you can exploit by driving forward aggressively to collapse the angle their elbow creates. → Leads to [[Front Headlock]]
-- **Opponent pulls guard to secure guillotine from closed guard bottom** (Effectiveness: High) - Your Response: Do not follow them to the ground in their closed guard. Maintain standing posture, keep hips far away, and use gravity to your advantage by staying heavy on top. Stack them by driving your weight forward while maintaining your defensive frames. Work to open their guard before completing head extraction. If they close guard, the defense shifts to a passing-based escape. → Leads to [[Guillotine Control]]
-- **Opponent transitions to arm-in guillotine trapping your defending arm** (Effectiveness: Medium) - Your Response: Recognize that arm-in guillotines change the defensive requirements. Focus on posture even more critically, keep your trapped elbow tight to your ribs, and drive your shoulder into their sternum. Circle away from the trapped arm side (opposite of standard defense direction). The arm-in variation is often less effective if you maintain rigid posture and prevent them from breaking you down. → Leads to [[Front Headlock]]
-- **Opponent uses closed guard or half guard legs to prevent hip distance creation** (Effectiveness: Medium) - Your Response: If in half guard or full guard preventing distance, shift focus to hand fighting and angle creation. Work to clear their legs by stepping over into mount position while maintaining defensive frames on the neck. Use your free hand to strip their guard grips and create the distance you need. Forward pressure and stacking becomes even more critical when their legs are involved. → Leads to [[Front Headlock]]
-- **Opponent cranks neck violently attempting to finish before escape completes** (Effectiveness: Low) - Your Response: Maintain calm and technical precision. Violent cranking often sacrifices proper choking mechanics, giving you opportunity to escape if you do not panic. Strengthen your frames, continue systematic defensive steps, and tap if necessary. Never sacrifice safety trying to escape an aggressive finish - protect your cervical spine by tapping when the crank transitions from choke to neck compression. → Leads to [[Guillotine Control]]
+- **Opponent switches to high-elbow guillotine configuration mid-defense** (Effectiveness: High) - Your Response: Immediately adjust your frame to address the new fulcrum point at their elbow rather than wrist. Increase forward pressure and accelerate your circular motion toward the choking side. The high-elbow variation requires their arm to be more extended, which you can exploit by driving forward aggressively to collapse the angle their elbow creates. → Leads to [[Positions/Front Headlock]]
+- **Opponent pulls guard to secure guillotine from closed guard bottom** (Effectiveness: High) - Your Response: Do not follow them to the ground in their closed guard. Maintain standing posture, keep hips far away, and use gravity to your advantage by staying heavy on top. Stack them by driving your weight forward while maintaining your defensive frames. Work to open their guard before completing head extraction. If they close guard, the defense shifts to a passing-based escape. → Leads to [[Positions/Guillotine Control]]
+- **Opponent transitions to arm-in guillotine trapping your defending arm** (Effectiveness: Medium) - Your Response: Recognize that arm-in guillotines change the defensive requirements. Focus on posture even more critically, keep your trapped elbow tight to your ribs, and drive your shoulder into their sternum. Circle away from the trapped arm side (opposite of standard defense direction). The arm-in variation is often less effective if you maintain rigid posture and prevent them from breaking you down. → Leads to [[Positions/Front Headlock]]
+- **Opponent uses closed guard or half guard legs to prevent hip distance creation** (Effectiveness: Medium) - Your Response: If in half guard or full guard preventing distance, shift focus to hand fighting and angle creation. Work to clear their legs by stepping over into mount position while maintaining defensive frames on the neck. Use your free hand to strip their guard grips and create the distance you need. Forward pressure and stacking becomes even more critical when their legs are involved. → Leads to [[Positions/Front Headlock]]
+- **Opponent cranks neck violently attempting to finish before escape completes** (Effectiveness: Low) - Your Response: Maintain calm and technical precision. Violent cranking often sacrifices proper choking mechanics, giving you opportunity to escape if you do not panic. Strengthen your frames, continue systematic defensive steps, and tap if necessary. Never sacrifice safety trying to escape an aggressive finish - protect your cervical spine by tapping when the crank transitions from choke to neck compression. → Leads to [[Positions/Guillotine Control]]
 
 
 </section>

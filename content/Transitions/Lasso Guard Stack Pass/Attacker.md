@@ -186,7 +186,7 @@ description: "Master executing the Lasso Guard Stack Pass. Step-by-step guide to
 
 The Lasso Guard Stack Pass represents the most direct pressure-based approach to defeating established lasso guard control. As the attacker, you abandon the conventional strategy of stripping grips or disengaging the lasso, instead choosing to compress the guard player's body by driving their hips over their shoulders. This stacking action fundamentally changes the biomechanical relationship between the lasso leg and your trapped arm, degrading the lever system that makes lasso guard effective. The technique rewards committed forward pressure and patience, requiring you to systematically progress through the stack, walk around the compressed guard player, and establish side control through methodical leg clearing and weight settlement. Mastery demands understanding of weight distribution during the forward drive, the ability to maintain compression while moving laterally, and the timing to transition from stack to crossface control as you complete the pass.
 
-**From Position**: [[Lasso Guard]] (Top)
+**From Position**: [[Positions/Lasso Guard]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ The Lasso Guard Stack Pass represents the most direct pressure-based approach to
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Lasso Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Lasso Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ The Lasso Guard Stack Pass represents the most direct pressure-based approach to
 
 ## Opponent Counters
 
-- **Bottom player hip escapes laterally before the stack fully compresses, recovering perpendicular angle and lasso leverage** (Effectiveness: High) - Your Response: Anticipate the hip escape by controlling the far hip with your pant grip hand. If they begin escaping, follow their hips with your pressure rather than trying to stack through empty space. Redirect into a knee cut or toreando pass using their lateral movement. → Leads to [[Lasso Guard]]
-- **Bottom player posts free hand on the mat to brace against the stacking pressure, preventing their hips from folding over** (Effectiveness: Medium) - Your Response: Strip the posting hand by controlling their wrist or sleeve with your free hand, or redirect your stacking angle slightly to the side where they are posting, using their own arm as a fulcrum point to complete the fold. → Leads to [[Lasso Guard]]
-- **Bottom player times a sweep using your forward momentum, extending the lasso leg and pulling you over their body** (Effectiveness: High) - Your Response: Maintain wide base with your rear foot throughout the forward drive to resist being tipped. If you feel the sweep initiating, pause the stack and reset your base before continuing. Consider switching to a backstep pass if momentum-based sweeps are repeatedly threatening. → Leads to [[Half Guard]]
-- **Bottom player abandons the lasso and transitions to closed guard or collar sleeve guard during the forward drive** (Effectiveness: Medium) - Your Response: If the lasso is abandoned, immediately posture up and address the new guard configuration. The guard transition creates a window where neither the old lasso nor the new guard is fully established, which you can exploit with quick passing pressure. → Leads to [[Lasso Guard]]
+- **Bottom player hip escapes laterally before the stack fully compresses, recovering perpendicular angle and lasso leverage** (Effectiveness: High) - Your Response: Anticipate the hip escape by controlling the far hip with your pant grip hand. If they begin escaping, follow their hips with your pressure rather than trying to stack through empty space. Redirect into a knee cut or toreando pass using their lateral movement. → Leads to [[Positions/Lasso Guard]]
+- **Bottom player posts free hand on the mat to brace against the stacking pressure, preventing their hips from folding over** (Effectiveness: Medium) - Your Response: Strip the posting hand by controlling their wrist or sleeve with your free hand, or redirect your stacking angle slightly to the side where they are posting, using their own arm as a fulcrum point to complete the fold. → Leads to [[Positions/Lasso Guard]]
+- **Bottom player times a sweep using your forward momentum, extending the lasso leg and pulling you over their body** (Effectiveness: High) - Your Response: Maintain wide base with your rear foot throughout the forward drive to resist being tipped. If you feel the sweep initiating, pause the stack and reset your base before continuing. Consider switching to a backstep pass if momentum-based sweeps are repeatedly threatening. → Leads to [[Positions/Half Guard]]
+- **Bottom player abandons the lasso and transitions to closed guard or collar sleeve guard during the forward drive** (Effectiveness: Medium) - Your Response: If the lasso is abandoned, immediately posture up and address the new guard configuration. The guard transition creates a window where neither the old lasso nor the new guard is fully established, which you can exploit with quick passing pressure. → Leads to [[Positions/Lasso Guard]]
 
 
 </section>

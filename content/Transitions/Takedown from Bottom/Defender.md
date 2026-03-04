@@ -154,7 +154,7 @@ description: "Defend takedown attempts from standing in BJJ. Complete guide cove
 
 Defending a takedown attempt from a standing opponent requires early recognition of the level change, immediate sprawl mechanics, and controlled weight distribution to stuff the shot before it develops into a completed takedown. The defender's primary objective is to prevent the attacker from completing the penetration step and establishing inside position around the legs. When the sprawl successfully stops forward momentum, the defender must immediately transition to an advantageous position such as front headlock control rather than simply returning to neutral standing where the attacker can re-shoot. Reading the attacker's setup cues and denying the initial angle through proactive hip positioning and frame management creates the foundation for successful takedown defense at all levels of competition.
 
-**Opponent's Starting Position**: [[Standing Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending a takedown attempt from a standing opponent requires early recognition
 ### 1. Execute a hard sprawl by driving hips backward and downward while dropping chest weight onto the attacker's upper back and neck
 
 - **When to use**: Immediately upon recognizing the level change and penetration step entry, before the attacker establishes inside control around your legs
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Attacker is driven flat to the mat with their shot completely stuffed, allowing transition to front headlock control or guillotine attack
 - **Risk**: Late sprawl allows attacker to complete the penetration step and secure leg control, making the takedown likely despite defensive effort
 
 ### 2. Pull guard by sitting down and wrapping legs around the attacker's waist during their forward drive, using their momentum to establish closed guard
 
 - **When to use**: When the sprawl timing is missed and the attacker has already established inside position with their penetration step reaching your legs
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Converts the takedown attempt into a guard position where you have full control with closed legs, denying the attacker side control
 - **Risk**: Poor guard pull timing may result in the attacker passing directly to side control or landing in a dominant position above your incomplete guard
 
 ### 3. Crossface and whizzer defense by driving forearm across attacker's face while securing an overhook on their inside arm to redirect their angle
 
 - **When to use**: When the attacker has made contact with your legs but has not yet completed the finish, allowing you to redirect their driving angle before they turn the corner
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Redirects the attacker's driving angle away from the finish, forces them to reset and re-establish position, returning both to neutral standing
 - **Risk**: If the attacker switches to the opposite side or drops to a single leg, the whizzer loses effectiveness and may assist their angle change
 
 ### 4. Underhook and circle away by securing an underhook on the attacker's near arm and circling hips away from their driving direction to deny the finish angle
 
 - **When to use**: When the attacker's initial penetration step is shallow and they have not yet secured deep inside control around both legs
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Denies the attacker the angle needed to complete the finish, forcing them to abandon the shot or transition to a lower-percentage attack
 - **Risk**: Circling too aggressively may expose your back if the attacker transitions to a body lock or back take from the failed shot
 
@@ -225,11 +225,11 @@ Defending a takedown attempt from a standing opponent requires early recognition
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Execute a decisive sprawl that drives the attacker flat to the mat, then immediately transition to front headlock control by circling toward their head and securing a crossface or chin strap grip. The sprawl must be timed within the first beat of the attacker's penetration step to maximize effectiveness.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Stuff the shot early by defending the penetration step with hip pressure and crossface before the attacker establishes inside control. Disengage cleanly and re-establish distance and grips to return to neutral standing with the attacker still at a disadvantage.
 

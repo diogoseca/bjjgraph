@@ -182,7 +182,7 @@ As the attacker executing Hip Escape to Turtle, you are the person trapped in bo
 
 The key insight is that the body triangle has a specific structural weakness at the figure-four lock point where the foot tucks behind the knee. By turning toward the triangle leg and creating space through controlled hip escapes, you position yourself to attack this weakness. The escape is iterative rather than explosive - you alternate between defending your neck and clearing the triangle, making incremental progress each cycle until you break free and establish turtle position.
 
-**From Position**: [[Body Triangle]] (Top)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
 
 </section>
 
@@ -235,9 +235,9 @@ The key insight is that the body triangle has a specific structural weakness at 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Body Triangle]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Back Control/Body Triangle]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -246,10 +246,10 @@ The key insight is that the body triangle has a specific structural weakness at 
 
 ## Opponent Counters
 
-- **Opponent increases squeeze pressure when you turn toward the triangle leg, crushing your ribs harder** (Effectiveness: High) - Your Response: Pause the escape attempt and focus on breathing management. Wait for them to adjust their grip or relax slightly before continuing. The increased squeeze is metabolically costly for them and cannot be maintained at maximum indefinitely. → Leads to [[Body Triangle]]
-- **Opponent attacks your neck aggressively as soon as you redirect attention to clearing the triangle** (Effectiveness: High) - Your Response: Immediately return to neck defense with chin tucked and hands protecting. Accept that escapes from body triangle require iterative attempts - defend the choke first, then resume triangle clearing work when the neck threat is neutralized. → Leads to [[Body Triangle]]
-- **Opponent follows your hip escape by adjusting their hip position to maintain optimal squeezing angle** (Effectiveness: Medium) - Your Response: Continue hip escaping in the same direction - they cannot follow indefinitely without compromising their own base and chest-to-back connection. Each adjustment they make creates micro-opportunities and fatigues their positioning. → Leads to [[Body Triangle]]
-- **Opponent transitions to standard hooks when they feel the triangle failing, maintaining back control** (Effectiveness: Medium) - Your Response: Accept the transition to hooks as a partial victory - hooks are significantly easier to clear than body triangle. Continue your escape to turtle and immediately begin working standard back escape sequences with higher success probability. → Leads to [[Back Control]]
+- **Opponent increases squeeze pressure when you turn toward the triangle leg, crushing your ribs harder** (Effectiveness: High) - Your Response: Pause the escape attempt and focus on breathing management. Wait for them to adjust their grip or relax slightly before continuing. The increased squeeze is metabolically costly for them and cannot be maintained at maximum indefinitely. → Leads to [[Positions/Back Control/Body Triangle]]
+- **Opponent attacks your neck aggressively as soon as you redirect attention to clearing the triangle** (Effectiveness: High) - Your Response: Immediately return to neck defense with chin tucked and hands protecting. Accept that escapes from body triangle require iterative attempts - defend the choke first, then resume triangle clearing work when the neck threat is neutralized. → Leads to [[Positions/Back Control/Body Triangle]]
+- **Opponent follows your hip escape by adjusting their hip position to maintain optimal squeezing angle** (Effectiveness: Medium) - Your Response: Continue hip escaping in the same direction - they cannot follow indefinitely without compromising their own base and chest-to-back connection. Each adjustment they make creates micro-opportunities and fatigues their positioning. → Leads to [[Positions/Back Control/Body Triangle]]
+- **Opponent transitions to standard hooks when they feel the triangle failing, maintaining back control** (Effectiveness: Medium) - Your Response: Accept the transition to hooks as a partial victory - hooks are significantly easier to clear than body triangle. Continue your escape to turtle and immediately begin working standard back escape sequences with higher success probability. → Leads to [[Positions/Back Control]]
 
 
 </section>

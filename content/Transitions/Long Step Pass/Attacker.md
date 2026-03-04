@@ -184,7 +184,7 @@ The Long Step Pass exemplifies the principle of pressure over speed, using super
 
 What makes the Long Step Pass particularly effective is its ability to shut down the opponent's ability to create space or re-guard. The combination of grip control, strategic stepping, and pressure application forces the bottom player into increasingly defensive positions until the pass is complete. This makes it one of the highest-percentage passes in both gi and no-gi grappling.
 
-**From Position**: [[Open Guard]] (Top)
+**From Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ What makes the Long Step Pass particularly effective is its ability to shut down
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 68% |
-| Failure | [[Open Guard]] | 20% |
-| Counter | [[Open Guard]] | 12% |
+| Success | [[Positions/Side Control]] | 68% |
+| Failure | [[Positions/Open Guard]] | 20% |
+| Counter | [[Positions/Open Guard]] | 12% |
 
 
 </section>
@@ -250,11 +250,11 @@ What makes the Long Step Pass particularly effective is its ability to shut down
 
 ## Opponent Counters
 
-- **Opponent creates knee shield or frames before long step completes** (Effectiveness: High) - Your Response: Switch to Knee Slice Pass or use underhook to flatten opponent and continue passing sequence with modified angle → Leads to [[Open Guard]]
-- **Opponent sits up aggressively and attempts to take your back during the pass** (Effectiveness: Medium) - Your Response: Sprawl your hips back immediately while maintaining upper body control, then circle to dominant position or front headlock → Leads to [[Open Guard]]
-- **Opponent uses butterfly hooks to elevate and sweep as you commit to the pass** (Effectiveness: Medium) - Your Response: Keep hips low and base wide, drive weight forward to prevent elevation, and clear hooks with leg control before continuing pass → Leads to [[Open Guard]]
-- **Opponent grabs your belt or pants to prevent forward pressure and create distance** (Effectiveness: Low) - Your Response: Break grips systematically while maintaining posture, use leg pressure to keep opponent's hips pinned to the mat → Leads to [[Open Guard]]
-- **Opponent inverts or goes upside down to avoid the pass and recover guard** (Effectiveness: Low) - Your Response: Follow the inversion while maintaining leg control, drive opponent to their back and continue passing sequence or transition to turtle control → Leads to [[Open Guard]]
+- **Opponent creates knee shield or frames before long step completes** (Effectiveness: High) - Your Response: Switch to Knee Slice Pass or use underhook to flatten opponent and continue passing sequence with modified angle → Leads to [[Positions/Open Guard]]
+- **Opponent sits up aggressively and attempts to take your back during the pass** (Effectiveness: Medium) - Your Response: Sprawl your hips back immediately while maintaining upper body control, then circle to dominant position or front headlock → Leads to [[Positions/Open Guard]]
+- **Opponent uses butterfly hooks to elevate and sweep as you commit to the pass** (Effectiveness: Medium) - Your Response: Keep hips low and base wide, drive weight forward to prevent elevation, and clear hooks with leg control before continuing pass → Leads to [[Positions/Open Guard]]
+- **Opponent grabs your belt or pants to prevent forward pressure and create distance** (Effectiveness: Low) - Your Response: Break grips systematically while maintaining posture, use leg pressure to keep opponent's hips pinned to the mat → Leads to [[Positions/Open Guard]]
+- **Opponent inverts or goes upside down to avoid the pass and recover guard** (Effectiveness: Low) - Your Response: Follow the inversion while maintaining leg control, drive opponent to their back and continue passing sequence or transition to turtle control → Leads to [[Positions/Open Guard]]
 
 
 </section>

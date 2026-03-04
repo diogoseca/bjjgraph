@@ -210,29 +210,29 @@ The key distinction from half guard top is that the bottom player's defensive ca
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (28% of attempts)
+### [[Transitions/Knee Slice Pass]] (28% of attempts)
 
-### [[Smash Pass]] (10% of attempts)
+### [[Transitions/Smash Pass]] (10% of attempts)
 
-### [[Crossface Pass]] (10% of attempts)
+### [[Transitions/Crossface Pass]] (10% of attempts)
 
-### [[Underhook Pass]] (9% of attempts)
+### [[Transitions/Underhook Pass]] (9% of attempts)
 
-### [[Long Step Pass]] (8% of attempts)
+### [[Transitions/Long Step Pass]] (8% of attempts)
 
-### [[Half Guard to Back Take]] (6% of attempts)
+### [[Transitions/Half Guard to Back Take]] (6% of attempts)
 
-### [[Side Control to Mount]] (7% of attempts)
+### [[Transitions/Side Control to Mount]] (7% of attempts)
 
-### [[Side Control to North-South]] (8% of attempts)
+### [[Transitions/Side Control to North-South]] (8% of attempts)
 
-### [[Kimura]] (6% of attempts)
+### [[Transitions/Kimura]] (6% of attempts)
 
-### [[Darce Setup]] (5% of attempts)
+### [[Transitions/Darce Setup]] (5% of attempts)
 
-### [[Complete Pass from Quarter]] (2% of attempts)
+### [[Transitions/Complete Pass from Quarter]] (2% of attempts)
 
-### [[Knee Through from Quarter]] (1% of attempts)
+### [[Transitions/Knee Through from Quarter]] (1% of attempts)
 
 
 
@@ -243,28 +243,28 @@ The key distinction from half guard top is that the bottom player's defensive ca
 ## Decision Making from This Position
 
 **If opponent maintains weak knee shield but cannot generate frames or hip mobility for defense:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent attempts to turn away from crossface or create distance for escape:**
-- Execute **[[Half Guard to Back Take]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 50%)
+- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 50%)
 
 
 **If opponent flattens completely and loses all leg control and defensive structures:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 75%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 75%)
 
 
 **If opponent creates underhook on near side but remains flat without mobility:**
-- Execute **[[Underhook Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Underhook Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent exposes arm attempting to frame or recover guard structure:**
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 45%)
-- Execute **[[Darce Setup]]** → [[Darce Control]] (Probability: 40%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Transitions/Darce Setup]]** → [[Positions/Darce Control]] (Probability: 40%)
 
 
 
@@ -405,18 +405,18 @@ Flow rolling from quarter guard top where partner randomly varies their defensiv
 
 ## Related Positions and Techniques
 
-- **[[Half Guard]]** - Parent position from which quarter guard top commonly emerges during systematic passing sequences
-- **[[Knee Shield Half Guard]]** - Defensive position opponent is attempting to recover when defending from quarter guard bottom
-- **[[Headquarters Position]]** - Connected passing position for pressure reset and pass initiation before quarter guard
-- **[[Side Control]]** - Primary target position when completing passes successfully from quarter guard top
-- **[[Smash Pass]]** - Related passing technique using similar pressure and crossface mechanics for completion
-- **[[Deep Half Guard]]** - Defensive position opponent may attempt to recover from quarter guard bottom during scrambles
-- **[[Lockdown]]** - Alternative defensive structure opponent may seek when quarter guard defense fails
-- **[[Combat Base]]** - Foundational posture for maintaining quarter guard top with proper pressure and base
-- **[[Knee Slice Pass]]** - Primary finishing technique from quarter guard top position when knee shield drops
-- **[[Crossface Pass]]** - Alternative finishing technique emphasizing upper body control and shoulder pressure
-- **[[Back Control]]** - Alternative target when opponent turns away from crossface pressure during pass
-- **[[Mount]]** - Direct advancement target when opponent's legs are completely cleared during pass
+- **[[Positions/Half Guard]]** - Parent position from which quarter guard top commonly emerges during systematic passing sequences
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Defensive position opponent is attempting to recover when defending from quarter guard bottom
+- **[[Positions/Headquarters Position]]** - Connected passing position for pressure reset and pass initiation before quarter guard
+- **[[Positions/Side Control]]** - Primary target position when completing passes successfully from quarter guard top
+- **[[Transitions/Smash Pass]]** - Related passing technique using similar pressure and crossface mechanics for completion
+- **[[Positions/Half Guard/Deep Half Guard]]** - Defensive position opponent may attempt to recover from quarter guard bottom during scrambles
+- **[[Positions/Half Guard/Lockdown]]** - Alternative defensive structure opponent may seek when quarter guard defense fails
+- **[[Positions/Combat Base]]** - Foundational posture for maintaining quarter guard top with proper pressure and base
+- **[[Transitions/Knee Slice Pass]]** - Primary finishing technique from quarter guard top position when knee shield drops
+- **[[Transitions/Crossface Pass]]** - Alternative finishing technique emphasizing upper body control and shoulder pressure
+- **[[Positions/Back Control]]** - Alternative target when opponent turns away from crossface pressure during pass
+- **[[Positions/Mount]]** - Direct advancement target when opponent's legs are completely cleared during pass
 
 
 </section>

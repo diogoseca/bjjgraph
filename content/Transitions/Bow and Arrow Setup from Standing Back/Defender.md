@@ -154,7 +154,7 @@ description: "Learn to defend and escape the Bow and Arrow Setup from Standing B
 
 Defending the Bow and Arrow Setup from Standing Back Control requires recognizing the attack early and acting decisively during the narrow windows where the attacker is most vulnerable. The critical defensive moment occurs when the attacker releases their seat belt to reach for the collar—this is the single moment when their upper body control is weakest. A defender who recognizes this grip change and acts immediately can strip the collar grip, turn to face the attacker, or exploit the reduced control to escape back exposure entirely. The defense follows a strict priority hierarchy: prevent the collar grip from being established, resist the takedown if the grip is obtained, and address the collar grip before hooks are consolidated if taken to the ground. Defenders who allow the attacker to complete the full sequence—collar grip, controlled takedown, grounded hooks, and pant leg control—face an extremely difficult escape situation with low probability of success.
 
-**Opponent's Starting Position**: [[Standing Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Bow and Arrow Setup from Standing Back Control requires recognizin
 ### 1. Two-on-one grip strip on the collar hand the instant it reaches for the collar
 
 - **When to use**: Immediately when you feel the attacker release the seat belt and reach toward your collar—this is the highest-percentage defensive window
-- **Targets**: [[Standing Back Control]]
+- **Targets**: [[Positions/Back Control/Standing Back Control]]
 - **If successful**: Attacker fails to obtain collar grip and must return to seat belt control, resetting the attack sequence and maintaining standing back control
 - **Risk**: If grip stripping fails or is late, the attacker secures a deep collar grip and proceeds with the takedown from a stronger position
 
 ### 2. Drop weight and widen base to resist the sit-down takedown
 
 - **When to use**: When the attacker has secured the collar grip and begins initiating the sit-down by shifting weight to one hip
-- **Targets**: [[Standing Back Control]]
+- **Targets**: [[Positions/Back Control/Standing Back Control]]
 - **If successful**: Attacker cannot complete the takedown and remains in standing back control without ground advantage, forced to either re-attempt or abandon the setup
 - **Risk**: Wide base while standing can expose the collar to deeper gripping if the attacker adjusts, and the low posture can make other escape options more difficult
 
 ### 3. Turn explosively into the attacker during the descent to the ground, fighting to face them
 
 - **When to use**: During the takedown transition when the attacker is between standing and grounded positions and their control is most compromised
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Defender escapes back exposure by turning to face the attacker, potentially recovering to half guard top or closed guard and neutralizing the bow and arrow threat
 - **Risk**: If the turn is incomplete, the attacker may tighten the collar grip and use the rotation to deepen the choke angle
 
 ### 4. Strip collar grip on the ground before pant leg is secured
 
 - **When to use**: After being taken down but before the attacker obtains the pant leg grip that completes the bow and arrow configuration
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Collar grip is removed, reducing the threat to standard grounded back control without bow and arrow configuration which is significantly more survivable
 - **Risk**: Focusing on the collar grip may allow the attacker to deepen hooks or transition to a rear naked choke attempt instead
 
@@ -225,11 +225,11 @@ Defending the Bow and Arrow Setup from Standing Back Control requires recognizin
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Turn explosively into the attacker during the mid-transition phase when they are between standing and grounded positions. Time the hip escape to coincide with the moment they commit to sitting down, using their downward momentum against them. As you turn, insert your knee between their legs and establish half guard top position, breaking the back exposure entirely.
 
-### → [[Standing Back Control]]
+### → [[Positions/Back Control/Standing Back Control]]
 
 Strip the collar grip immediately with aggressive two-on-one hand fighting the instant you feel the attacker's fingers reaching for your collar. By defeating the collar grip, you prevent the setup from progressing while the attacker is forced to re-establish the seat belt, buying time and maintaining the relatively more escapable standing back control position.
 

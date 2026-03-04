@@ -146,7 +146,7 @@ description: "Master defending against the Reverse Kesa to Side Control transiti
 
 As the bottom player defending against the Reverse Kesa to Side Control transition, your primary objective is exploiting the momentary instability created when the top player rotates from reverse scarf hold to standard side control. The transition window — the period where the top player is neither fully in reverse kesa nor fully established in side control — represents your best opportunity to insert frames, recover guard, or create a scramble. Recognizing the early cues that the transition is beginning allows you to time defensive actions precisely when the top player is most vulnerable. If the transition completes successfully, you face the challenging task of escaping standard side control, so disrupting the rotation before it consolidates is far preferable to defending from an established position.
 
-**Opponent's Starting Position**: [[Reverse Kesa-Gatame]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the bottom player defending against the Reverse Kesa to Side Control transiti
 ### 1. Bridge explosively when the top player reaches the midpoint of the rotation and their base is narrowest
 
 - **When to use**: When you feel the top player's weight shift and their legs are in transition between reverse kesa and side control base positions
-- **Targets**: [[Reverse Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Reverse Kesa-Gatame]]
 - **If successful**: Disrupts the transition and forces the top player to re-settle in reverse kesa-gatame, buying time and potentially creating space for escape
 - **Risk**: If mistimed, the bridge energy is wasted and you may end up flattened with the top player in a stronger position
 
 ### 2. Insert near knee across the top player's hip line during the rotation gap to recover half guard
 
 - **When to use**: When the top player's hip slides away from your hip line during the rotation, creating a momentary gap
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover half guard position with the top player's leg trapped, transforming a bad position into one with offensive opportunities
 - **Risk**: If the top player blocks your knee with their own knee slide, you may end up more flattened with less space
 
 ### 3. Frame against the incoming crossface before it establishes, using forearm against the top player's neck or shoulder
 
 - **When to use**: As the top player reaches perpendicular orientation and begins sliding their arm under your head for crossface
-- **Targets**: [[Reverse Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Reverse Kesa-Gatame]]
 - **If successful**: Prevents crossface establishment, denying the top player their primary side control anchor and stalling the transition
 - **Risk**: Extended arm may be vulnerable to arm attacks if the top player redirects to a submission instead of completing the transition
 
 ### 4. Shrimp hips away during the rotation to create distance and recover open guard
 
 - **When to use**: When the top player's arm control loosens during the grip transition from arm trap to crossface
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Create enough distance to insert both knees and recover a functional guard position before the opponent can consolidate side control
 - **Risk**: If the top player follows your hip movement, you may end up in a worse version of side control with less space than before
 
@@ -217,7 +217,7 @@ As the bottom player defending against the Reverse Kesa to Side Control transiti
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Insert your near knee across the top player's hip line during the rotation gap when their hip momentarily lifts or shifts. Time the knee insertion for the midpoint of the rotation when the top player's base is narrowest and their attention is divided between completing the transition and maintaining control.
 

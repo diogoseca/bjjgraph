@@ -178,7 +178,7 @@ This technique employs an exaggerated long step to change the passing angle dram
 
 Strategically, this pass is most effective when you recognize that direct clearing of the ringworm configuration would require excessive energy expenditure. Rather than engaging in a prolonged grip-fighting battle to remove multiple lapel wraps, the long step accepts the configuration's existence and navigates around it. This approach preserves energy and catches opponents who have invested heavily in establishing complex lapel systems, as they often don't anticipate passes that simply bypass their control structure.
 
-**From Position**: [[Lapel Guard]] (Top)
+**From Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
 
@@ -231,10 +231,10 @@ Strategically, this pass is most effective when you recognize that direct cleari
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Success | [[Half Guard]] | 10% |
-| Failure | [[Lapel Guard]] | 20% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Success | [[Positions/Half Guard]] | 10% |
+| Failure | [[Positions/Lapel Guard]] | 20% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Strategically, this pass is most effective when you recognize that direct cleari
 
 ## Opponent Counters
 
-- **Hip chase—opponent rotates their hips to follow your movement and re-establish guard angle** (Effectiveness: High) - Your Response: Maintain strong far hip control throughout the step and increase forward pressure to pin their hip to the mat → Leads to [[Lapel Guard]]
-- **Sit-up to back take—opponent releases lapel grips and pursues your back as you step around** (Effectiveness: High) - Your Response: Drive shoulder pressure immediately upon landing and keep your elbow tight to prevent them from getting under your arm → Leads to [[Back Control]]
-- **Leg pummeling—opponent attempts to reinsert guard hooks as you pass around** (Effectiveness: Medium) - Your Response: Step completely past their hip before consolidating, and use knee pressure to block hook reinsertion → Leads to [[Half Guard]]
-- **Lapel reconfiguration—opponent adjusts the lapel wrap to the new passing angle** (Effectiveness: Medium) - Your Response: Move faster than they can reconfigure—the long step should be explosive and continuous, not allowing adjustment time → Leads to [[Lapel Guard]]
+- **Hip chase—opponent rotates their hips to follow your movement and re-establish guard angle** (Effectiveness: High) - Your Response: Maintain strong far hip control throughout the step and increase forward pressure to pin their hip to the mat → Leads to [[Positions/Lapel Guard]]
+- **Sit-up to back take—opponent releases lapel grips and pursues your back as you step around** (Effectiveness: High) - Your Response: Drive shoulder pressure immediately upon landing and keep your elbow tight to prevent them from getting under your arm → Leads to [[Positions/Back Control]]
+- **Leg pummeling—opponent attempts to reinsert guard hooks as you pass around** (Effectiveness: Medium) - Your Response: Step completely past their hip before consolidating, and use knee pressure to block hook reinsertion → Leads to [[Positions/Half Guard]]
+- **Lapel reconfiguration—opponent adjusts the lapel wrap to the new passing angle** (Effectiveness: Medium) - Your Response: Move faster than they can reconfigure—the long step should be explosive and continuous, not allowing adjustment time → Leads to [[Positions/Lapel Guard]]
 
 
 </section>

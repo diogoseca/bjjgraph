@@ -180,7 +180,7 @@ description: "Complete guide to executing the New York Control Escape from top p
 
 Executing the New York Control Escape requires the top player to override natural instincts that worsen the position and instead follow a disciplined sequential protocol. The attacker must resist the urge to drive forward or posture up vertically, as both movements feed into the bottom player's submission chains. Instead, the escape relies on patient overhook extraction through shoulder rotation and angle creation, followed by systematic leg control removal once the arm is freed. The entire sequence demands awareness of submission threats at every stage while maintaining enough base to prevent sweeps during transitional moments. Success produces open guard top position where the top player immediately gains access to standard passing sequences.
 
-**From Position**: [[New York Control]] (Top)
+**From Position**: [[Positions/Rubber Guard/New York Control]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ Executing the New York Control Escape requires the top player to override natura
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[New York Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Rubber Guard/New York Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ Executing the New York Control Escape requires the top player to override natura
 
 ## Opponent Counters
 
-- **Bottom player deepens overhook and re-engages arm control during extraction attempt** (Effectiveness: High) - Your Response: Reset to defensive base position and wait for the next grip adjustment window. Attempting to force the extraction against a freshly deepened overhook wastes energy and increases submission exposure. Look for the bottom player to transition between attacks as this creates momentary looseness. → Leads to [[New York Control]]
-- **Bottom player initiates triangle setup by shooting leg around neck during arm extraction** (Effectiveness: High) - Your Response: Immediately retract your arm and tuck chin to chest while pinching elbows tight to ribs. If the leg has crossed your neck, drive your head into their hip and work to posture through the partially locked triangle before it tightens. Prevent the ankle from locking behind their knee. → Leads to [[New York Control]]
-- **Bottom player uses hip bump or overhook leverage to sweep during lateral angle creation** (Effectiveness: Medium) - Your Response: Post your free hand wide to the mat on the opposite side of the sweep direction while driving your hip weight downward. If the sweep begins to succeed, immediately abandon the escape attempt and focus on base recovery. Consider a controlled transition to half guard rather than being fully swept to mount. → Leads to [[Half Guard]]
-- **Bottom player transitions to gogoplata by shooting shin across throat as space is created** (Effectiveness: Medium) - Your Response: Tuck chin aggressively to chest and drive your head toward the mat on the side away from the incoming shin. If possible, stack their hips by driving forward to compress the shin angle. Standing up explosively can also create enough distance to clear the shin before it settles across the throat. → Leads to [[New York Control]]
+- **Bottom player deepens overhook and re-engages arm control during extraction attempt** (Effectiveness: High) - Your Response: Reset to defensive base position and wait for the next grip adjustment window. Attempting to force the extraction against a freshly deepened overhook wastes energy and increases submission exposure. Look for the bottom player to transition between attacks as this creates momentary looseness. → Leads to [[Positions/Rubber Guard/New York Control]]
+- **Bottom player initiates triangle setup by shooting leg around neck during arm extraction** (Effectiveness: High) - Your Response: Immediately retract your arm and tuck chin to chest while pinching elbows tight to ribs. If the leg has crossed your neck, drive your head into their hip and work to posture through the partially locked triangle before it tightens. Prevent the ankle from locking behind their knee. → Leads to [[Positions/Rubber Guard/New York Control]]
+- **Bottom player uses hip bump or overhook leverage to sweep during lateral angle creation** (Effectiveness: Medium) - Your Response: Post your free hand wide to the mat on the opposite side of the sweep direction while driving your hip weight downward. If the sweep begins to succeed, immediately abandon the escape attempt and focus on base recovery. Consider a controlled transition to half guard rather than being fully swept to mount. → Leads to [[Positions/Half Guard]]
+- **Bottom player transitions to gogoplata by shooting shin across throat as space is created** (Effectiveness: Medium) - Your Response: Tuck chin aggressively to chest and drive your head toward the mat on the side away from the incoming shin. If possible, stack their hips by driving forward to compress the shin angle. Standing up explosively can also create enough distance to clear the shin before it settles across the throat. → Leads to [[Positions/Rubber Guard/New York Control]]
 
 
 </section>

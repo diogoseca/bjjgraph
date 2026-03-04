@@ -21,7 +21,7 @@ From an established lapel guard position, the practitioner uses the wrapped lape
 
 Strategically, this setup creates a powerful dilemma system. Opponents who posture aggressively to avoid the triangle expose themselves to sweeps from the lapel configuration. Those who stay low and heavy to prevent sweeping find their arm increasingly isolated and vulnerable to the triangle threat. This forced-choice dynamic makes the Lapel Triangle Setup a high-percentage attack against experienced practitioners who understand they cannot defend both options simultaneously.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this setup creates a powerful dilemma system. Opponents who postu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Control]] | 55% |
-| Failure | [[Lapel Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Triangle Control]] | 55% |
+| Failure | [[Positions/Lapel Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Lapel Triangle Setup functions as a primary submission threat within the lap
 ## Related Techniques
 
 
-- [[Lapel Guard]] - Starting position from which this technique is executed
+- [[Positions/Lapel Guard]] - Starting position from which this technique is executed
 
-- [[Triangle Control]] - Primary outcome position when setup succeeds
+- [[Positions/Triangle Control]] - Primary outcome position when setup succeeds
 
-- [[Worm Guard]] - Lapel guard variation that enables this triangle entry with leg wrap
+- [[Positions/Worm Guard]] - Lapel guard variation that enables this triangle entry with leg wrap
 
-- [[Squid Guard]] - Lapel guard variation with pre-established arm isolation for faster setup
+- [[Positions/Squid Guard]] - Lapel guard variation with pre-established arm isolation for faster setup
 
-- [[Lapel Omoplata Entry]] - Chain attack when opponent defends triangle by stacking
+- [[Transitions/Lapel Omoplata Entry]] - Chain attack when opponent defends triangle by stacking
 
-- [[Lapel Sweep to Back]] - Alternative attack when triangle is defended with low posture
+- [[Transitions/Lapel Sweep to Back]] - Alternative attack when triangle is defended with low posture
 
-- [[Spider Guard]] - Fallback position when lapel grip is stripped during setup
+- [[Positions/Spider Guard]] - Fallback position when lapel grip is stripped during setup
 
-- [[Lasso Guard]] - Alternative guard transition when triangle entry is blocked
+- [[Positions/Lasso Guard]] - Alternative guard transition when triangle entry is blocked
 
-- [[Inverted Triangle]] - Variation when opponent successfully postures against standard entry
+- [[Transitions/Inverted Triangle]] - Variation when opponent successfully postures against standard entry
 
-- [[Closed Guard to Omoplata]] - Related technique sharing similar arm isolation principles
+- [[Transitions/Closed Guard to Omoplata]] - Related technique sharing similar arm isolation principles
 
 
 </section>

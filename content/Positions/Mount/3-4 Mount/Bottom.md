@@ -209,21 +209,21 @@ From a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensi
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (24% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (24% of attempts)
 
-### [[Bridge and Roll]] (13% of attempts)
+### [[Transitions/Bridge and Roll]] (13% of attempts)
 
-### [[Upa Escape]] (17% of attempts)
+### [[Transitions/Upa Escape]] (17% of attempts)
 
-### [[Explosive Bridge to Turtle]] (10% of attempts)
+### [[Transitions/Explosive Bridge to Turtle]] (10% of attempts)
 
-### [[Frame and Shrimp to Guard]] (13% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (13% of attempts)
 
-### [[Half Guard Recovery]] (15% of attempts)
+### [[Transitions/Half Guard Recovery]] (15% of attempts)
 
-### [[Bridge Escape from 3-4 Mount]] (5% of attempts)
+### [[Transitions/Bridge Escape from 3-4 Mount]] (5% of attempts)
 
-### [[Elbow Escape from 3-4 Mount]] (3% of attempts)
+### [[Transitions/Elbow Escape from 3-4 Mount]] (3% of attempts)
 
 
 
@@ -234,23 +234,23 @@ From a positional hierarchy perspective, 3-4 Mount Bottom is a high-risk defensi
 ## Decision Making from This Position
 
 **If opponent has asymmetric base with clear weight distribution to one side and hands are posted high:**
-- Execute **[[Bridge and Roll]]** → [[Mount]] (Probability: 45%)
-- Execute **[[Upa Escape]]** → [[Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Mount]] (Probability: 45%)
+- Execute **[[Transitions/Upa Escape]]** → [[Positions/Closed Guard]] (Probability: 40%)
 
 
 **If opponent drops weight low with chest pressure but maintains 3-4 configuration:**
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Shrimp Escape]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If opponent attempts to transition to traditional mount or high mount:**
-- Execute **[[Frame and Shrimp to Guard]]** → [[Half Guard]] (Probability: 48%)
-- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 42%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 48%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 42%)
 
 
 **If opponent isolates one arm for submission attempt:**
-- Execute **[[Bridge and Roll]]** → [[Closed Guard]] (Probability: 35%)
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 
@@ -384,15 +384,15 @@ Timed rounds starting from 3-4 mount bottom position. Bottom player scores point
 
 ## Related Positions and Techniques
 
-- **[[Mount]]** - Parent position - traditional mount bottom from which 3-4 variation derives
-- **[[3-4 Mount]]** - Hub page - containing both top and bottom perspectives
-- **[[High Mount]]** - Related defensive position - similar escape principles with different opponent positioning
-- **[[S Mount]]** - Related defensive position - advanced mount variation requiring adapted escape techniques
-- **[[Half Guard]]** - Common transition target - primary escape destination from 3-4 mount bottom
-- **[[Closed Guard]]** - Guard recovery goal - full guard position after successful escape sequence
-- **[[Open Guard]]** - Transition target - intermediate position during escape sequences
-- **[[Knee Shield Half Guard]]** - Common escape destination - using knee shield to prevent re-mounting
-- **[[Elbow Escape to Guard]]** - Primary escape technique - shrimp-based movement to recover guard
+- **[[Positions/Mount]]** - Parent position - traditional mount bottom from which 3-4 variation derives
+- **[[Positions/Mount/3-4 Mount]]** - Hub page - containing both top and bottom perspectives
+- **[[Positions/Mount/High Mount]]** - Related defensive position - similar escape principles with different opponent positioning
+- **[[Positions/Mount/S Mount]]** - Related defensive position - advanced mount variation requiring adapted escape techniques
+- **[[Positions/Half Guard]]** - Common transition target - primary escape destination from 3-4 mount bottom
+- **[[Positions/Closed Guard]]** - Guard recovery goal - full guard position after successful escape sequence
+- **[[Positions/Open Guard]]** - Transition target - intermediate position during escape sequences
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Common escape destination - using knee shield to prevent re-mounting
+- **[[Transitions/Elbow Escape to Guard]]** - Primary escape technique - shrimp-based movement to recover guard
 
 
 </section>

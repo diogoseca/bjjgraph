@@ -21,7 +21,7 @@ The double leg entry requires precise timing, explosive movement, and tactical d
 
 Mastery of the double leg entry provides a reliable method for taking the fight to the ground on your terms, establishing top position, and controlling the pace of engagement from the opening exchange. The technique chains naturally with front headlock control when the opponent sprawls, single leg conversions when only one leg is captured, and various guard passing sequences when the opponent pulls guard during the entry.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ Mastery of the double leg entry provides a reliable method for taking the fight 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 60% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Front Headlock]] | 60% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -199,25 +199,25 @@ The double leg entry serves as a foundational transition from standing engagemen
 ## Related Techniques
 
 
-- [[Double Leg Setup]] - Prerequisite technique - establishes grips and positioning before entry
+- [[Transitions/Double Leg Setup]] - Prerequisite technique - establishes grips and positioning before entry
 
-- [[Double Leg Finish]] - Follow-up technique - completes the takedown after successful entry
+- [[Transitions/Double Leg Finish]] - Follow-up technique - completes the takedown after successful entry
 
-- [[Single Leg Entry]] - Alternative attack - similar entry mechanics but targets one leg
+- [[Transitions/Single Leg Entry]] - Alternative attack - similar entry mechanics but targets one leg
 
-- [[High Crotch]] - Complementary technique - can chain together or convert between them
+- [[Transitions/High Crotch]] - Complementary technique - can chain together or convert between them
 
-- [[Sprawl]] - Primary counter - understanding defense improves attack timing
+- [[Transitions/Sprawl]] - Primary counter - understanding defense improves attack timing
 
-- [[Guillotine Setup]] - Counter risk - opponent's submission option if entry fails
+- [[Transitions/Guillotine Setup]] - Counter risk - opponent's submission option if entry fails
 
-- [[Body Lock Pass]] - Follow-up option - transition if opponent pulls guard during entry
+- [[Transitions/Body Lock Pass]] - Follow-up option - transition if opponent pulls guard during entry
 
-- [[Snap Down to Front Headlock]] - Setup technique - creates forward pressure that facilitates entry
+- [[Transitions/Snap Down to Front Headlock]] - Setup technique - creates forward pressure that facilitates entry
 
-- [[Ankle Pick]] - Alternative attack - lower-risk entry option that chains well
+- [[Transitions/Ankle Pick]] - Alternative attack - lower-risk entry option that chains well
 
-- [[Front Headlock]] - Target position - primary success outcome of the entry
+- [[Positions/Front Headlock]] - Target position - primary success outcome of the entry
 
 
 </section>

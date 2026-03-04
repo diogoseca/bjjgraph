@@ -23,7 +23,7 @@ Strategically, this recovery transforms the rubber guard system from a single-at
 
 The execution requires precise timing and understanding of weight distribution. The bottom player must recognize when the gogoplata is failing before fully committing, withdraw the shin from the throat while maintaining hip control, and immediately secure the overhook that defines Mission Control. This sequence must happen faster than the opponent can exploit the transition.
 
-**From Position**: [[Gogoplata Control]] (Bottom)
+**From Position**: [[Positions/Gogoplata Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -34,9 +34,9 @@ The execution requires precise timing and understanding of weight distribution. 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mission Control]] | 65% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Rubber Guard/Mission Control]] | 65% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -189,25 +189,25 @@ Mission Control Recovery is the essential link that makes the rubber guard syste
 ## Related Techniques
 
 
-- [[Gogoplata Control]] - Starting position from which recovery is initiated
+- [[Positions/Gogoplata Control]] - Starting position from which recovery is initiated
 
-- [[Mission Control]] - Target position after successful recovery
+- [[Positions/Rubber Guard/Mission Control]] - Target position after successful recovery
 
-- [[Rubber Guard]] - Parent guard system containing both positions
+- [[Positions/Rubber Guard]] - Parent guard system containing both positions
 
-- [[Closed Guard to Omoplata]] - Alternative attack chain from recovered Mission Control
+- [[Transitions/Closed Guard to Omoplata]] - Alternative attack chain from recovered Mission Control
 
-- [[Triangle Choke]] - Alternative submission threat from recovered Mission Control
+- [[Transitions/Triangle Choke]] - Alternative submission threat from recovered Mission Control
 
-- [[Gogoplata]] - Submission that can be re-attempted after recovery
+- [[Transitions/Gogoplata]] - Submission that can be re-attempted after recovery
 
-- [[Armbar from Guard]] - Alternative attack available from Mission Control
+- [[Submissions/Armbar from Guard]] - Alternative attack available from Mission Control
 
-- [[Back Take from Bottom]] - Transition option if opponent turtles during recovery
+- [[Transitions/Back Take from Bottom]] - Transition option if opponent turtles during recovery
 
-- [[Closed Guard]] - Fallback position if Mission Control recovery fails
+- [[Positions/Closed Guard]] - Fallback position if Mission Control recovery fails
 
-- [[Half Guard]] - Worst-case outcome when opponent counters the recovery
+- [[Positions/Half Guard]] - Worst-case outcome when opponent counters the recovery
 
 
 </section>

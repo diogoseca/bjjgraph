@@ -158,7 +158,7 @@ The defender must simultaneously manage two competing priorities: maintaining st
 
 If the hook does thread and the figure-four begins to lock, the defender's priorities shift immediately to preventing full spinal rotation and working to extract the trapped leg before the entanglement consolidates. At this stage, turning into the attacker to align the spine becomes the highest-priority escape, even if it means conceding a less dominant position like half guard. The Twister system carries genuine spinal injury risk, so the defender must maintain awareness of when continued resistance becomes dangerous and tapping is the correct decision for long-term training safety.
 
-**Opponent's Starting Position**: [[Cross Body Ride]] (Top)
+**Opponent's Starting Position**: [[Positions/Cross Body Ride]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ If the hook does thread and the figure-four begins to lock, the defender's prior
 ### 1. Clamp knees together and drive hips backward away from the attacker's threading leg while maintaining tight turtle posture
 
 - **When to use**: At the earliest recognition that the attacker is positioning for the Twister entry, before any hook contact is made between your thighs
-- **Targets**: [[Cross Body Ride]]
+- **Targets**: [[Positions/Cross Body Ride]]
 - **If successful**: Attacker's hook cannot penetrate and they remain in cross body ride without advancing to Twister Control, forced to reset or switch to alternative attacks
 - **Risk**: Driving hips backward can expose your back further if the attacker adjusts to a standard back take instead of pursuing the Twister
 
 ### 2. Explosive sit-through toward the attacker's legs, turning your hips to face them and recovering to half guard before the hook anchors
 
 - **When to use**: When you feel the initial hook contact between your thighs but before it crosses your centerline and the figure-four begins
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You escape the turtle-bottom position entirely and recover to half guard where you have established defensive and offensive options against the now-top player
 - **Risk**: Failed sit-through with partial hook insertion can accelerate the Twister entry if the attacker follows your rotation and the hook deepens during your turn
 
 ### 3. Straighten the near-side leg forcefully to clear the hook before the figure-four locks, using hip extension to push the attacker's shin out from between your thighs
 
 - **When to use**: When the initial hook has threaded but the figure-four is not yet completed — there is a brief window where a single hook can be cleared by leg extension
-- **Targets**: [[Cross Body Ride]]
+- **Targets**: [[Positions/Cross Body Ride]]
 - **If successful**: The single hook is ejected and the attacker must restart the entire threading sequence, returning to standard cross body ride control
 - **Risk**: If the figure-four is already partially locked, straightening your leg increases the rotational force on your spine rather than clearing the entanglement
 
 ### 4. Turn into the attacker by rotating your entire body toward them, aligning your spine to eliminate rotation and working to insert a knee shield for half guard recovery
 
 - **When to use**: When the figure-four is locked and spinal rotation has begun — this is the last-resort escape before the position becomes fully consolidated
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Spinal rotation is neutralized by turning to face the attacker, and you recover to half guard or open guard where the Twister threat is eliminated
 - **Risk**: Turning into the attacker while the figure-four is locked can expose your neck to guillotine or front headlock attacks from the new angle
 
@@ -227,11 +227,11 @@ If the hook does thread and the figure-four begins to lock, the defender's prior
 
 ## Best-Case Outcomes for Defender
 
-### → [[Cross Body Ride]]
+### → [[Positions/Cross Body Ride]]
 
 Prevent the hook from threading by clamping knees together early and maintaining tight turtle structure. If the initial hook enters but the figure-four is not yet locked, use explosive leg straightening to eject the single hook before it anchors. Combine knee clamping with backward hip drive to deny the attacker the threading angle they need. Success here returns the exchange to standard cross body ride where you have more defensive options available.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Execute an explosive sit-through toward the attacker's legs as soon as you recognize the Twister entry attempt, turning your hips to face them before the hook penetrates deep enough for the figure-four. Alternatively, if the figure-four is partially established, turn your entire body into the attacker to eliminate spinal rotation and work a knee shield between your bodies to establish half guard. Half guard recovery is the preferred outcome when the hook has already threaded, as it completely removes you from the Twister system and places you in a position with established offensive and defensive pathways.
 

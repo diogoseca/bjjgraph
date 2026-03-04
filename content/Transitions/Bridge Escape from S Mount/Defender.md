@@ -146,7 +146,7 @@ description: "Maintain S Mount control against bridge escapes in BJJ. Counter-te
 
 As the S Mount top player, defending against bridge escape attempts requires reading the bottom player's setup cues and adjusting your weight distribution and control mechanics to absorb or capitalize on their explosive movement. The bridge escape threatens to displace your hip-to-shoulder connection and create space for arm retraction, so your defensive strategy revolves around maintaining that critical connection point while being prepared to transition to armbar completion if the bridge exposes the trapped arm. Understanding the mechanics of the bridge escape from the top perspective transforms your opponent's escape attempt into a submission opportunity, making S Mount progressively more dangerous as the bottom player expends energy on failed escapes.
 
-**Opponent's Starting Position**: [[S Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount/S Mount]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ As the S Mount top player, defending against bridge escape attempts requires rea
 ### 1. Drop hips and sprawl weight into the shoulder connection to absorb bridge force
 
 - **When to use**: When you feel the bottom player plant their feet and tense their hips indicating imminent bridge attempt
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: Bridge is completely absorbed, opponent remains trapped in S Mount with reduced energy from failed escape
 - **Risk**: Dropping weight too early telegraphs your awareness and may cause opponent to switch to frame-and-shrimp escape
 
 ### 2. Capitalize on bridge momentum to extend the trapped arm and transition to full armbar
 
 - **When to use**: When the bridge creates any arm exposure or loosens the opponent's collar grip on their trapped hand
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: Bridge escape converts directly into armbar submission, punishing the escape attempt with a finish
 - **Risk**: Committing to armbar during active bridge may result in losing S Mount if the bridge is powerful and arm extraction succeeds
 
 ### 3. Redirect bridge momentum by shifting your weight laterally and re-establishing perpendicular control
 
 - **When to use**: When the bridge partially displaces your position but you maintain arm control
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: S Mount is re-established from a different angle with opponent's energy depleted from the failed escape
 - **Risk**: If redirection is too slow, opponent may complete hip escape and begin guard recovery
 
 ### 4. Transition to back take if opponent turns away during bridge to protect trapped arm
 
 - **When to use**: When the bridge causes the opponent to roll partially onto their side, exposing their back
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: Convert the failed bridge into back control, maintaining dominant position
 - **Risk**: Releasing S Mount to take the back may allow opponent to recover to turtle if transition is not immediate
 
@@ -218,11 +218,11 @@ As the S Mount top player, defending against bridge escape attempts requires rea
 
 ## Best-Case Outcomes for Defender
 
-### → [[S Mount]]
+### → [[Positions/Mount/S Mount]]
 
 Anticipate the bridge by reading foot placement and breathing cues, then drop your hips and drive your weight into the shoulder connection before the bridge generates full power. A pre-emptive weight drop absorbs the bridge force and leaves the opponent trapped with less energy.
 
-### → [[Armbar Control]]
+### → [[Positions/Armbar Control]]
 
 When the bridge creates any looseness in the opponent's collar grip or arm protection, immediately attack the arm by pulling the wrist toward your chest while leaning back and pinching your knees. The bridge itself often provides the force vector needed to extend the arm into armbar position.
 

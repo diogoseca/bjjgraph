@@ -188,7 +188,7 @@ description: "Master attacking with the toe hold from Outside Ashi-Garami. Figur
 
 Attacking with the toe hold from Outside Ashi-Garami transforms a defensive leg entanglement position into an immediate submission threat. As the top player whose leg is trapped in the opponent's entanglement, you exploit the accessibility of their hooking foot—the foot that forms part of their ashi garami configuration near your body. By securing a figure-four grip and applying controlled rotational pressure, you create a powerful dilemma: your opponent must abandon their offensive leg attack to defend their foot, or risk a forced tap from the rotational stress on their ankle and knee structures. The toe hold is particularly effective when timed against the opponent's offensive commitment, catching them with both hands occupied on a heel hook attempt while their own feet remain unprotected. Success requires precise grip placement, patient pressure application, and the discipline to maintain your leg entanglement control throughout the finishing sequence.
 
-**From Position**: [[Outside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 
 
 </section>
@@ -243,8 +243,8 @@ Attacking with the toe hold from Outside Ashi-Garami transforms a defensive leg 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Outside Ashi-Garami]] | 35% |
-| Counter | [[Inside Ashi-Garami]] | 25% |
+| Failure | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 35% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 25% |
 
 
 </section>
@@ -253,10 +253,10 @@ Attacking with the toe hold from Outside Ashi-Garami transforms a defensive leg 
 
 ## Opponent Defenses
 
-- **Opponent straightens their leg and pulls foot back to hide it behind your body** (Effectiveness: High) - Your Response: Release the toe hold attempt and immediately transition to an outside heel hook or kneebar setup while their leg is extended, exploiting the straightened limb for alternative submissions → Leads to [[Outside Ashi-Garami]]
-- **Opponent rolls or spins in the direction of the rotational twist to relieve ankle pressure** (Effectiveness: Medium) - Your Response: Follow their rotation and maintain the figure-four grip throughout their spin, using their momentum to increase rotational force rather than fighting against it → Leads to [[Outside Ashi-Garami]]
-- **Opponent counter-attacks your trapped leg with a heel hook while your hands are committed to the toe hold** (Effectiveness: High) - Your Response: Assess whether your toe hold is closer to finishing than their heel hook—if not, immediately abandon the toe hold and prioritize defending your own leg before structural damage occurs → Leads to [[Inside Ashi-Garami]]
-- **Opponent strips your cupping hand grip with two-on-one hand fighting before the figure-four is established** (Effectiveness: Medium) - Your Response: Immediately re-grip or transition to an ankle lock entry while their foot is still partially accessible, maintaining offensive pressure rather than resetting to a neutral position → Leads to [[Outside Ashi-Garami]]
+- **Opponent straightens their leg and pulls foot back to hide it behind your body** (Effectiveness: High) - Your Response: Release the toe hold attempt and immediately transition to an outside heel hook or kneebar setup while their leg is extended, exploiting the straightened limb for alternative submissions → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Opponent rolls or spins in the direction of the rotational twist to relieve ankle pressure** (Effectiveness: Medium) - Your Response: Follow their rotation and maintain the figure-four grip throughout their spin, using their momentum to increase rotational force rather than fighting against it → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Opponent counter-attacks your trapped leg with a heel hook while your hands are committed to the toe hold** (Effectiveness: High) - Your Response: Assess whether your toe hold is closer to finishing than their heel hook—if not, immediately abandon the toe hold and prioritize defending your own leg before structural damage occurs → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent strips your cupping hand grip with two-on-one hand fighting before the figure-four is established** (Effectiveness: Medium) - Your Response: Immediately re-grip or transition to an ankle lock entry while their foot is still partially accessible, maintaining offensive pressure rather than resetting to a neutral position → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 
 </section>

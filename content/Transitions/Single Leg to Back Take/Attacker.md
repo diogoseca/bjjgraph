@@ -182,7 +182,7 @@ The Single Leg to Back Take from the attacker's perspective requires precise rea
 
 The attacker must understand that this is not a forced technique but an opportunistic one. You cannot make the opponent turn away; you must wait for them to choose that defense and then exploit it. The transition window is brief, typically lasting only one to two seconds as the opponent rotates. During that window, you must release the leg, insert your first hook, establish chest-to-back connection, and begin working toward seat belt control. Each of these actions flows into the next without pause. The entire sequence succeeds or fails based on whether you maintain unbroken physical connection to the opponent throughout the positional change.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -236,10 +236,10 @@ The attacker must understand that this is not a forced technique but an opportun
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Standing Position]] | 10% |
-| Success | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Standing Position]] | 10% |
+| Success | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -248,10 +248,10 @@ The attacker must understand that this is not a forced technique but an opportun
 
 ## Opponent Counters
 
-- **Opponent sits back heavily to crush you before hooks are established** (Effectiveness: High) - Your Response: Immediately frame with your near-side knee against their hip and transition to a modified back position or single leg X-guard. Do not accept being flattened under their weight. If they sit fully, abandon the back take and look for a sweep or leg attack from underneath. → Leads to [[Standing Position]]
-- **Opponent reaches back and grabs your head to prevent seat belt control** (Effectiveness: Medium) - Your Response: Use your free hand to peel their grip off your head while simultaneously driving your first hook deeper. Focus on getting your chest flat against their back—the grip on your head is less effective once you have solid torso connection. Once your hook is secure, their hand behind your head actually weakens their posture. → Leads to [[Back Control]]
-- **Opponent performs a Granby roll or forward roll as you attempt to climb** (Effectiveness: Medium) - Your Response: Follow their roll by maintaining chest connection and adjusting your hook position mid-roll. If they roll completely through, you may end up in turtle top position where you can re-attack the back. Do not release your connection during their rolling defense—stay attached and take whatever control you end up with. → Leads to [[Turtle]]
-- **Opponent squares up and faces you before you can transition off the leg** (Effectiveness: High) - Your Response: If they successfully square their hips to you, the back take window has closed. Maintain your single leg control and look for the traditional single leg finish, an ankle pick, or transition to a body lock takedown. Do not force the back take once the angle has been neutralized—reset and attack the next opening. → Leads to [[Standing Position]]
+- **Opponent sits back heavily to crush you before hooks are established** (Effectiveness: High) - Your Response: Immediately frame with your near-side knee against their hip and transition to a modified back position or single leg X-guard. Do not accept being flattened under their weight. If they sit fully, abandon the back take and look for a sweep or leg attack from underneath. → Leads to [[Positions/Standing Position]]
+- **Opponent reaches back and grabs your head to prevent seat belt control** (Effectiveness: Medium) - Your Response: Use your free hand to peel their grip off your head while simultaneously driving your first hook deeper. Focus on getting your chest flat against their back—the grip on your head is less effective once you have solid torso connection. Once your hook is secure, their hand behind your head actually weakens their posture. → Leads to [[Positions/Back Control]]
+- **Opponent performs a Granby roll or forward roll as you attempt to climb** (Effectiveness: Medium) - Your Response: Follow their roll by maintaining chest connection and adjusting your hook position mid-roll. If they roll completely through, you may end up in turtle top position where you can re-attack the back. Do not release your connection during their rolling defense—stay attached and take whatever control you end up with. → Leads to [[Positions/Turtle]]
+- **Opponent squares up and faces you before you can transition off the leg** (Effectiveness: High) - Your Response: If they successfully square their hips to you, the back take window has closed. Maintain your single leg control and look for the traditional single leg finish, an ankle pick, or transition to a body lock takedown. Do not force the back take once the angle has been neutralized—reset and attack the next opening. → Leads to [[Positions/Standing Position]]
 
 
 </section>

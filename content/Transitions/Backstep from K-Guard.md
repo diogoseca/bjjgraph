@@ -21,7 +21,7 @@ The technique exploits a fundamental vulnerability in K-Guard's architecture: th
 
 Strategically, the backstep serves as a pressure-release valve within the K-Guard passing system. When the bottom player has established strong hook tension and active frames that prevent forward-pressure passes, the backstep changes the angle of engagement entirely. The technique chains naturally with knee slice and smash pass attempts, as the bottom player's defensive adjustments to prevent those passes can create the openings needed for a successful backstep extraction.
 
-**From Position**: [[K-Guard]] (Top)
+**From Position**: [[Positions/K-Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, the backstep serves as a pressure-release valve within the K-Guar
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Success | [[Headquarters Position]] | 15% |
-| Failure | [[K-Guard]] | 25% |
-| Counter | [[Single Leg X-Guard]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Success | [[Positions/Headquarters Position]] | 15% |
+| Failure | [[Positions/K-Guard]] | 25% |
+| Counter | [[Positions/X-Guard/Single Leg X-Guard]] | 20% |
 
 
 </section>
@@ -192,27 +192,27 @@ The Backstep from K-Guard integrates into the broader guard passing system as a 
 ## Related Techniques
 
 
-- [[K-Guard]] - Source position where this technique initiates from the top player's perspective
+- [[Positions/K-Guard]] - Source position where this technique initiates from the top player's perspective
 
-- [[Half Guard]] - Primary success destination after clearing K-Guard hooks through backstep
+- [[Positions/Half Guard]] - Primary success destination after clearing K-Guard hooks through backstep
 
-- [[Headquarters Position]] - Secondary success destination when backstep fully clears all hooks
+- [[Positions/Headquarters Position]] - Secondary success destination when backstep fully clears all hooks
 
-- [[Single Leg X-Guard]] - Counter position the bottom player can establish during a failed backstep
+- [[Positions/X-Guard/Single Leg X-Guard]] - Counter position the bottom player can establish during a failed backstep
 
-- [[Backstep from De La Riva]] - Related backstep technique from De La Riva Guard using similar extraction mechanics
+- [[Transitions/Backstep from De La Riva]] - Related backstep technique from De La Riva Guard using similar extraction mechanics
 
-- [[Backstep from Deep Half]] - Related backstep technique from Deep Half Guard with analogous directional change
+- [[Transitions/Backstep from Deep Half]] - Related backstep technique from Deep Half Guard with analogous directional change
 
-- [[Backstep from Single Leg X]] - Related backstep technique from Single Leg X with comparable leg extraction pattern
+- [[Transitions/Backstep from Single Leg X]] - Related backstep technique from Single Leg X with comparable leg extraction pattern
 
-- [[Knee Slice Pass]] - Complementary passing technique that chains with backstep from K-Guard top
+- [[Transitions/Knee Slice Pass]] - Complementary passing technique that chains with backstep from K-Guard top
 
-- [[Smash Pass]] - Alternative forward-pressure pass from K-Guard that the backstep complements
+- [[Transitions/Smash Pass]] - Alternative forward-pressure pass from K-Guard that the backstep complements
 
-- [[Half Guard Pass]] - Follow-up passing technique after successful backstep to half guard top
+- [[Transitions/Half Guard Pass]] - Follow-up passing technique after successful backstep to half guard top
 
-- [[Back Step Pass]] - General backstep passing concept that this K-Guard-specific application builds upon
+- [[Transitions/Back Step Pass]] - General backstep passing concept that this K-Guard-specific application builds upon
 
 
 </section>

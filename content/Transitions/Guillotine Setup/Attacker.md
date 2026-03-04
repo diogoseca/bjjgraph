@@ -180,7 +180,7 @@ description: "How to execute Guillotine Setup in BJJ. Attacking perspective with
 
 The Guillotine Setup from the attacker's perspective is a systematic process of converting front headlock control into an established guillotine choke configuration. This transition requires precise coordination of arm threading, grip selection, angle creation, and head pinning to build a choking structure that the opponent cannot easily dismantle. The attacker must maintain continuous pressure throughout the transition, never allowing a gap in control where the opponent could posture up or escape. The key differentiator between a successful and failed guillotine setup lies in the depth of the choking arm and the angle of the body—shallow placement and squared-up positioning are the two most common reasons this setup fails at intermediate levels. Mastering this transition means understanding that you are building a structural cage around the opponent's neck, not simply wrapping your arm and squeezing.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The Guillotine Setup from the attacker's perspective is a systematic process of 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Guillotine Control]] | 60% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Front Headlock]] | 15% |
+| Success | [[Positions/Guillotine Control]] | 60% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Front Headlock]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ The Guillotine Setup from the attacker's perspective is a systematic process of 
 
 ## Opponent Counters
 
-- **Opponent drives forward aggressively to stack you** (Effectiveness: High) - Your Response: Pull guard immediately and use your legs to break their posture while maintaining the choke. Alternatively, step back and use their forward momentum to finish the standing guillotine by dropping your weight. → Leads to [[Front Headlock]]
-- **Opponent tucks chin and creates frame with near arm** (Effectiveness: Medium) - Your Response: Switch to a high elbow guillotine variation by raising your choking elbow higher, or transition to an anaconda or darce choke where the chin tuck actually helps the submission. You can also use your free hand to strip their defensive frame. → Leads to [[Front Headlock]]
-- **Opponent circles away from your choking arm side** (Effectiveness: Medium) - Your Response: Follow their movement by stepping with them to maintain the angle. If they successfully create distance, transition to a snap down and re-establish front headlock control, or switch to an arm-in guillotine configuration. → Leads to [[Front Headlock]]
-- **Opponent grabs your leg to prevent guard pull** (Effectiveness: Low) - Your Response: This often indicates they are worried about the choke, confirming your setup is solid. Finish from standing position by dropping your weight and arching back, or use their leg grab against them by transitioning to a knee tap takedown while maintaining the choke. → Leads to [[Guillotine Control]]
+- **Opponent drives forward aggressively to stack you** (Effectiveness: High) - Your Response: Pull guard immediately and use your legs to break their posture while maintaining the choke. Alternatively, step back and use their forward momentum to finish the standing guillotine by dropping your weight. → Leads to [[Positions/Front Headlock]]
+- **Opponent tucks chin and creates frame with near arm** (Effectiveness: Medium) - Your Response: Switch to a high elbow guillotine variation by raising your choking elbow higher, or transition to an anaconda or darce choke where the chin tuck actually helps the submission. You can also use your free hand to strip their defensive frame. → Leads to [[Positions/Front Headlock]]
+- **Opponent circles away from your choking arm side** (Effectiveness: Medium) - Your Response: Follow their movement by stepping with them to maintain the angle. If they successfully create distance, transition to a snap down and re-establish front headlock control, or switch to an arm-in guillotine configuration. → Leads to [[Positions/Front Headlock]]
+- **Opponent grabs your leg to prevent guard pull** (Effectiveness: Low) - Your Response: This often indicates they are worried about the choke, confirming your setup is solid. Finish from standing position by dropping your weight and arching back, or use their leg grab against them by transitioning to a knee tap takedown while maintaining the choke. → Leads to [[Positions/Guillotine Control]]
 
 
 </section>

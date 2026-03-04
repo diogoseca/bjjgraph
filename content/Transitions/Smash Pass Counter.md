@@ -21,7 +21,7 @@ This technique is particularly effective against guard players who rely heavily 
 
 Strategically, this pass represents the aggressive response to Ringworm Guard and works best when the opponent has already committed to the lapel wrap but hasn't yet established secondary controls on your upper body. The timing window is narrow - attempt this too early and the guard isn't established enough to pass, too late and the opponent has too many control points for smash passing to succeed.
 
-**From Position**: [[Ringworm Guard]] (Top)
+**From Position**: [[Positions/Ringworm Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this pass represents the aggressive response to Ringworm Guard an
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Ringworm Guard]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Ringworm Guard]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -185,25 +185,25 @@ Smash Pass Counter fits within the broader passing framework as the pressure-bas
 ## Related Techniques
 
 
-- [[Ringworm Guard]] - Starting position - the lapel guard configuration this pass defeats
+- [[Positions/Ringworm Guard]] - Starting position - the lapel guard configuration this pass defeats
 
-- [[Side Control]] - Target position upon successful execution
+- [[Positions/Side Control]] - Target position upon successful execution
 
-- [[Worm Guard]] - Related guard in the lapel system requiring similar pressure responses
+- [[Positions/Worm Guard]] - Related guard in the lapel system requiring similar pressure responses
 
-- [[Knee Slice from Half]] - Alternative passing finish when opponent creates distance during extraction
+- [[Transitions/Knee Slice from Half]] - Alternative passing finish when opponent creates distance during extraction
 
-- [[Backstep Around Worm Guard]] - Alternative passing method for similar lapel guard configurations
+- [[Transitions/Backstep Around Worm Guard]] - Alternative passing method for similar lapel guard configurations
 
-- [[Leg Drag Pass]] - Follow-up option if side control proves difficult to consolidate
+- [[Transitions/Leg Drag Pass]] - Follow-up option if side control proves difficult to consolidate
 
-- [[Back Control]] - Risk position if crossface fails and opponent turns during collapse
+- [[Positions/Back Control]] - Risk position if crossface fails and opponent turns during collapse
 
-- [[Double Under Pass]] - Related pressure passing concept using forward drive rather than distance
+- [[Transitions/Double Under Pass]] - Related pressure passing concept using forward drive rather than distance
 
-- [[Pressure Pass]] - Parent concept sharing the forward-drive passing philosophy
+- [[Transitions/Pressure Pass]] - Parent concept sharing the forward-drive passing philosophy
 
-- [[Squid Guard]] - Sister lapel guard position where similar smash passing principles apply
+- [[Positions/Squid Guard]] - Sister lapel guard position where similar smash passing principles apply
 
 
 </section>

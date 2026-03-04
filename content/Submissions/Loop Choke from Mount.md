@@ -22,8 +22,8 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Mount]]
-**From Position**: [[Mount]] (Top)
+**Starting Position**: [[Positions/Mount]]
+**From Position**: [[Positions/Mount]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -74,8 +74,8 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -226,13 +226,13 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 ## From Which Positions?
 
-- [[Mount]]
-- [[High Mount]]
-- [[S Mount]]
-- [[Technical Mount]]
-- [[Modified Mount]]
-- [[Mounted Crucifix]]
-- [[Gift Wrap]]
+- [[Positions/Mount]]
+- [[Positions/Mount/High Mount]]
+- [[Positions/Mount/S Mount]]
+- [[Positions/Mount/Technical Mount]]
+- [[Positions/Mount/Modified Mount]]
+- [[Positions/Mount/Mounted Crucifix]]
+- [[Positions/Gift Wrap]]
 
 
 </section>
@@ -241,15 +241,15 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 ## Related Submissions
 
-- [[Loop Choke]]
-- [[Cross Collar Choke]]
-- [[Ezekiel Choke]]
-- [[Ezekiel from Mount]]
-- [[Armbar from Mount]]
-- [[Americana from Mount]]
-- [[Arm Triangle]]
-- [[Bow and Arrow Choke]]
-- [[Baseball Bat Choke]]
+- [[Submissions/Loop Choke]]
+- [[Transitions/Cross Collar Choke]]
+- [[Submissions/Ezekiel Choke]]
+- [[Submissions/Ezekiel from Mount]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Americana from Mount]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Transitions/Baseball Bat Choke]]
 
 
 </section>
@@ -258,16 +258,16 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 ## Additional Related Content
 
-- [[Mount]] - Primary starting position providing control and weight distribution for collar attacks
-- [[High Mount]] - Advanced variation position offering enhanced collar access and submission control
-- [[Gift Wrap]] - Control position that facilitates deep collar grip by limiting opponent's defensive capability
-- [[Cross Collar Choke]] - Complementary attack that sets up loop choke when defended
-- [[Armbar from Mount]] - Alternative submission to threaten when opponent defends collar, creating reactions
-- [[Americana from Mount]] - Arm attack that can be used to force opponent to expose collar while defending
-- [[Technical Mount]] - Modified position that can enhance loop choke finishing mechanics through improved angle
-- [[Ezekiel from Mount]] - Alternative mount choke useful against opponents who defend their collar differently
-- [[Side Control]] - Common transition destination if opponent turns during loop choke attempt
-- [[Back Control]] - Alternative position to transition to when opponent turns away during choke attempt
+- [[Positions/Mount]] - Primary starting position providing control and weight distribution for collar attacks
+- [[Positions/Mount/High Mount]] - Advanced variation position offering enhanced collar access and submission control
+- [[Positions/Gift Wrap]] - Control position that facilitates deep collar grip by limiting opponent's defensive capability
+- [[Transitions/Cross Collar Choke]] - Complementary attack that sets up loop choke when defended
+- [[Submissions/Armbar from Mount]] - Alternative submission to threaten when opponent defends collar, creating reactions
+- [[Submissions/Americana from Mount]] - Arm attack that can be used to force opponent to expose collar while defending
+- [[Positions/Mount/Technical Mount]] - Modified position that can enhance loop choke finishing mechanics through improved angle
+- [[Submissions/Ezekiel from Mount]] - Alternative mount choke useful against opponents who defend their collar differently
+- [[Positions/Side Control]] - Common transition destination if opponent turns during loop choke attempt
+- [[Positions/Back Control]] - Alternative position to transition to when opponent turns away during choke attempt
 
 
 </section>

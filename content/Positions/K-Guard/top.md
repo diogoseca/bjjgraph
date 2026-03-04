@@ -210,23 +210,23 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (25% of attempts)
+### [[Transitions/Knee Slice Pass]] (25% of attempts)
 
-### [[Smash Pass]] (14% of attempts)
+### [[Transitions/Smash Pass]] (14% of attempts)
 
-### [[Leg Drag Pass]] (12% of attempts)
+### [[Transitions/Leg Drag Pass]] (12% of attempts)
 
-### [[Half Guard Pass]] (16% of attempts)
+### [[Transitions/Half Guard Pass]] (16% of attempts)
 
-### [[Underhook Pass]] (12% of attempts)
+### [[Transitions/Underhook Pass]] (12% of attempts)
 
-### [[Kimura from Half Guard]] (10% of attempts)
+### [[Transitions/Kimura from Half Guard]] (10% of attempts)
 
-### [[Guillotine Setup]] (6% of attempts)
+### [[Transitions/Guillotine Setup]] (6% of attempts)
 
-### [[Backstep from K-Guard]] (3% of attempts)
+### [[Transitions/Backstep from K-Guard]] (3% of attempts)
 
-### [[Pass K-Guard]] (2% of attempts)
+### [[Transitions/Pass K-Guard]] (2% of attempts)
 
 
 
@@ -237,23 +237,23 @@ Strategically, K-Guard Top represents a transitional position where the top play
 ## Decision Making from This Position
 
 **If bottom player maintains strong hook tension and active frames with good hip mobility:**
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If bottom player loses hook tension or flattens out to back:**
-- Execute **[[Half Guard Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If bottom player attempts underhook or reaches for back take:**
-- Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 45%)
-- Execute **[[Underhook Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Kimura from Half Guard]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Transitions/Underhook Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If bottom player turns away or attempts to recover guard:**
-- Execute **[[Leg Drag Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 40%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Back Take Generic]]** → [[Positions/Back Control]] (Probability: 40%)
 
 
 
@@ -399,17 +399,17 @@ Start in K-Guard Top position. Top player's goal is to advance to side control o
 
 ## Related Positions and Techniques
 
-- **[[Half Guard]]** - Parent position - K-Guard is a specialized variation of half guard top
-- **[[K-Guard]]** - Hub page - overview of both perspectives
-- **[[Knee Shield Half Guard]]** - Similar position - closely related defensive structure
-- **[[Lockdown]]** - Related half guard variation - different leg configuration
-- **[[Z-Guard]]** - Related half guard variation - similar defensive structure
-- **[[Side Control]]** - Common transition target - primary passing objective
-- **[[Smash Pass]]** - Primary passing technique - common approach from K-Guard
-- **[[Headquarters Position]]** - Related passing position - systematic passing framework
-- **[[Half Guard Pass]]** - Primary technique - essential passing method
-- **[[Knee Slice Pass]]** - High-percentage pass - effective against K-Guard retention
-- **[[Leg Drag Pass]]** - Alternative pass - useful when hooks extend
+- **[[Positions/Half Guard]]** - Parent position - K-Guard is a specialized variation of half guard top
+- **[[Positions/K-Guard]]** - Hub page - overview of both perspectives
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Similar position - closely related defensive structure
+- **[[Positions/Half Guard/Lockdown]]** - Related half guard variation - different leg configuration
+- **[[Positions/Z-Guard]]** - Related half guard variation - similar defensive structure
+- **[[Positions/Side Control]]** - Common transition target - primary passing objective
+- **[[Transitions/Smash Pass]]** - Primary passing technique - common approach from K-Guard
+- **[[Positions/Headquarters Position]]** - Related passing position - systematic passing framework
+- **[[Transitions/Half Guard Pass]]** - Primary technique - essential passing method
+- **[[Transitions/Knee Slice Pass]]** - High-percentage pass - effective against K-Guard retention
+- **[[Transitions/Leg Drag Pass]]** - Alternative pass - useful when hooks extend
 
 
 </section>

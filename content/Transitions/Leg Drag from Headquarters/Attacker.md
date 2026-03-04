@@ -182,7 +182,7 @@ Executing the leg drag from headquarters requires converting your existing knee-
 
 From the attacker's perspective, the leg drag from headquarters is most effective when used as a reaction-based technique rather than a forced entry. Reading the opponent's defensive patterns from headquarters, specifically when they straighten their controlled leg, push with foot-on-hip frames, or create distance with arm frames, provides the optimal timing window. The extended leg is significantly easier to drag than a bent leg because the straight limb provides a longer lever arm and the opponent cannot generate the hip rotation needed to resist the lateral pull. Patience in headquarters to provoke these reactions, followed by explosive execution of the drag, produces the highest success rates.
 
-**From Position**: [[Headquarters Position]] (Top)
+**From Position**: [[Positions/Headquarters Position]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ From the attacker's perspective, the leg drag from headquarters is most effectiv
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Leg Drag Control]] | 55% |
-| Failure | [[Headquarters Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Leg Drag Control]] | 55% |
+| Failure | [[Positions/Headquarters Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ From the attacker's perspective, the leg drag from headquarters is most effectiv
 
 ## Opponent Counters
 
-- **Opponent pummel-kicks the dragged leg free before pin is established** (Effectiveness: High) - Your Response: Maintain grip on the ankle and immediately re-attempt the drag with a tighter hip connection, or transition to a knee cut if the leg retraction creates an inward turning reaction → Leads to [[Headquarters Position]]
-- **Opponent frames on shoulder and hip escapes away to create distance during the drag** (Effectiveness: Medium) - Your Response: Follow the hip escape by advancing your chest pressure laterally, collapsing their frames with your bodyweight. If the frames are too strong, abandon the drag and reset to headquarters for another passing attempt → Leads to [[Headquarters Position]]
-- **Opponent underhooks your far arm during the drag transition and initiates a sweep** (Effectiveness: High) - Your Response: Immediately whizzer the underhook and sprawl your hips back to kill the sweep angle. Use the whizzer to re-establish upper body control before continuing the drag sequence → Leads to [[Half Guard]]
-- **Opponent inverts and recovers guard by threading legs inside during the consolidation phase** (Effectiveness: Medium) - Your Response: Increase downward hip pressure on the pinned leg and drive your upper body control forward to prevent the inversion from generating enough space. If the inversion succeeds, immediately backstep to address the new guard configuration → Leads to [[Headquarters Position]]
+- **Opponent pummel-kicks the dragged leg free before pin is established** (Effectiveness: High) - Your Response: Maintain grip on the ankle and immediately re-attempt the drag with a tighter hip connection, or transition to a knee cut if the leg retraction creates an inward turning reaction → Leads to [[Positions/Headquarters Position]]
+- **Opponent frames on shoulder and hip escapes away to create distance during the drag** (Effectiveness: Medium) - Your Response: Follow the hip escape by advancing your chest pressure laterally, collapsing their frames with your bodyweight. If the frames are too strong, abandon the drag and reset to headquarters for another passing attempt → Leads to [[Positions/Headquarters Position]]
+- **Opponent underhooks your far arm during the drag transition and initiates a sweep** (Effectiveness: High) - Your Response: Immediately whizzer the underhook and sprawl your hips back to kill the sweep angle. Use the whizzer to re-establish upper body control before continuing the drag sequence → Leads to [[Positions/Half Guard]]
+- **Opponent inverts and recovers guard by threading legs inside during the consolidation phase** (Effectiveness: Medium) - Your Response: Increase downward hip pressure on the pinned leg and drive your upper body control forward to prevent the inversion from generating enough space. If the inversion succeeds, immediately backstep to address the new guard configuration → Leads to [[Positions/Headquarters Position]]
 
 
 </section>

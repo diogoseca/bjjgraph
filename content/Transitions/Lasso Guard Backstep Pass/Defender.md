@@ -146,7 +146,7 @@ description: "Learn to defend the Lasso Guard Backstep Pass. Recognition cues, t
 
 Defending the Lasso Guard Backstep Pass from the bottom lasso guard position requires recognizing the early indicators of the backstep and responding before the rotation clears your lasso control. The backstep targets the fundamental mechanism of your guard—the perpendicular angle of your shin against the passer's arm—by rotating away from it. Your primary defensive priority is maintaining sleeve grip tension and following the passer's rotation with your hips to preserve your control angle. Early recognition is critical because once the backstep rotation builds momentum, recovering the lasso becomes far more difficult than preventing the rotation from starting. If the backstep progresses past the point of recovery, your priority shifts immediately to establishing an alternative guard before the passer can consolidate into side control.
 
-**Opponent's Starting Position**: [[Lasso Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Lasso Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Lasso Guard Backstep Pass from the bottom lasso guard position req
 ### 1. Tighten sleeve grip and extend lasso leg to re-lock the arm before rotation completes
 
 - **When to use**: Early in the backstep when passer has begun weight shift but has not built full rotational momentum
-- **Targets**: [[Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard]]
 - **If successful**: Passer's arm re-locks in the lasso and you maintain full guard control with potential to initiate sweeps
 - **Risk**: If timed late, extending into a weakened angle may allow the passer to use your commitment to accelerate their rotation
 
 ### 2. Follow the rotation with hip movement and insert a De La Riva or butterfly hook on the stepping leg
 
 - **When to use**: When the passer has committed to the backstep and your lasso angle is beginning to deteriorate
-- **Targets**: [[Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard]]
 - **If successful**: You transition to a secondary guard that maintains leg entanglement despite the lasso being partially cleared
 - **Risk**: If the passer has already controlled your non-lasso leg, you cannot follow the rotation and lose position entirely
 
 ### 3. Invert under the backstep and take the back as the passer rotates away
 
 - **When to use**: When the passer is mid-rotation with their back partially exposed and their attention focused on clearing the arm
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You capitalize on the passer's exposed back during rotation and establish hooks for back control
 - **Risk**: Inversion requires significant hip mobility and mistiming leaves you flattened underneath the passer's weight
 
 ### 4. Release lasso voluntarily and immediately reguard to closed guard or butterfly guard
 
 - **When to use**: When the backstep has progressed too far to maintain the lasso and continued grip retention creates vulnerability
-- **Targets**: [[Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard]]
 - **If successful**: You establish a new guard position before the passer can consolidate, maintaining defensive engagement
 - **Risk**: Brief moment without established guard where passer may accelerate and complete the pass to side control
 
@@ -217,11 +217,11 @@ Defending the Lasso Guard Backstep Pass from the bottom lasso guard position req
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Invert under the passer during mid-backstep rotation when their back is exposed. Thread your hooks as they rotate away from you, converting their passing attempt into a back take opportunity.
 
-### → [[Lasso Guard]]
+### → [[Positions/Lasso Guard]]
 
 Maintain tight sleeve grip and follow the passer's rotation with active hip movement to preserve the lasso's perpendicular control angle. Use non-lasso leg to obstruct the backstep path at the earliest recognition of the passing attempt.
 

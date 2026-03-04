@@ -154,7 +154,7 @@ description: "Defend against ankle lock counter attempts. Recognition cues, grip
 
 As the person applying the straight ankle lock, defending against your opponent's counter requires maintaining offensive pressure while reading their defensive patterns to choose optimal responses. When your opponent establishes boot defense and initiates grip fighting, you face a critical decision: commit harder to the finish before they neutralize it, transition to a more dominant leg entanglement like inside ashi-garami that capitalizes on their forward drive, or adjust your control points to maintain the current position. The key principle is that once the opponent establishes boot defense and begins driving forward, your straight ankle lock finishing window is closing rapidly. Skilled leg lock attackers recognize this closing window and redirect into transitions that exploit the opponent's counter-movements rather than fighting a deteriorating grip battle. Your opponent's forward pressure, intended to stack your hips, can be redirected into inside ashi-garami entry by threading your inside leg behind their knee as they drive. Their grip fighting commitment can open opportunities to switch to outside ashi-garami or kneebar attacks. Every defensive movement your opponent makes reveals specific offensive transitions if you are prepared to read and exploit them.
 
-**Opponent's Starting Position**: [[Straight Ankle Lock Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
 
@@ -199,14 +199,14 @@ As the person applying the straight ankle lock, defending against your opponent'
 ### 2. Thread inside leg behind opponent's knee to enter inside ashi-garami as they drive forward
 
 - **When to use**: When the opponent begins forward stacking pressure and their hip is driving toward you, creating the angle needed for inside leg entry
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You advance to a more dominant leg entanglement where heel hook threats emerge and the opponent faces a worse defensive problem
 - **Risk**: If the opponent reads the transition and redirects their hip angle laterally, you may lose both the ankle lock and the inside ashi entry
 
 ### 3. Re-guard with active leg hooks and return to neutral ankle lock control
 
 - **When to use**: When your grip is partially stripped but leg positioning is still intact, and the opponent has not yet committed fully to the forward pass
-- **Targets**: [[Straight Ankle Lock Control]]
+- **Targets**: [[Positions/Straight Ankle Lock Control]]
 - **If successful**: You maintain the ankle lock control position with opportunity to reset grips and attempt the finish again or transition
 - **Risk**: The opponent may immediately re-initiate the counter with improved timing, and your grip security will likely be weaker on the second attempt
 
@@ -229,11 +229,11 @@ As the person applying the straight ankle lock, defending against your opponent'
 
 Commit to finishing the ankle lock in the first 2-3 seconds before boot defense completes, or switch to a kneebar attack when the opponent extends their leg during the forward stacking phase. The key is decisiveness: finish before the counter develops or exploit the new angles created by their counter movements.
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Thread your inside leg behind the opponent's knee as they drive forward with stacking pressure. Their forward momentum actually facilitates your transition by bringing their hip toward you. The inside ashi entry converts their counter-attempt into an advancement to a position where heel hooks become available.
 
-### → [[Straight Ankle Lock Control]]
+### → [[Positions/Straight Ankle Lock Control]]
 
 Re-guard with active leg hooks before the opponent completes the pass, re-establish grip security on the ankle, and return to the attacking position with another opportunity to finish or transition. Requires reading the opponent's grip fighting pattern and resetting control during brief pauses in their counter sequence.
 

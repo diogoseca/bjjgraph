@@ -178,7 +178,7 @@ From the Carni position, the kneebar becomes available when the opponent extends
 
 What makes this finish particularly effective from Carni is the element of surprise. Most opponents in Carni are primarily defending the heel hook, keeping their knee bent and heel protected. When they momentarily straighten the leg, they expose themselves to a completely different submission angle that many practitioners fail to defend. This creates the classic dilemma system where defending one attack opens vulnerability to another.
 
-**From Position**: [[Carni]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Carni]] (Bottom)
 
 </section>
 
@@ -231,8 +231,8 @@ What makes this finish particularly effective from Carni is the element of surpr
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Carni]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Rubber Guard/Carni]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ What makes this finish particularly effective from Carni is the element of surpr
 
 ## Opponent Counters
 
-- **Immediate knee bend to remove hyperextension angle** (Effectiveness: High) - Your Response: Pinch knees tighter around their thigh and pull ankle harder while extending hips simultaneously to prevent bend → Leads to [[Carni]]
-- **Rolling toward you to relieve pressure on knee** (Effectiveness: Medium) - Your Response: Follow their roll while maintaining leg control, transitioning to belly-down kneebar or back to heel hook position → Leads to [[Carni]]
-- **Kicking free leg at your face or body to create separation** (Effectiveness: Medium) - Your Response: Tuck chin and use shoulder to deflect kicks while maintaining tight hip position on their trapped knee → Leads to [[Carni]]
-- **Sitting up and reaching to control your legs to dismantle entanglement** (Effectiveness: Low) - Your Response: Extend hips faster to finish before they can establish control, or transition back to Carni heel hook threat → Leads to [[Half Guard]]
+- **Immediate knee bend to remove hyperextension angle** (Effectiveness: High) - Your Response: Pinch knees tighter around their thigh and pull ankle harder while extending hips simultaneously to prevent bend → Leads to [[Positions/Rubber Guard/Carni]]
+- **Rolling toward you to relieve pressure on knee** (Effectiveness: Medium) - Your Response: Follow their roll while maintaining leg control, transitioning to belly-down kneebar or back to heel hook position → Leads to [[Positions/Rubber Guard/Carni]]
+- **Kicking free leg at your face or body to create separation** (Effectiveness: Medium) - Your Response: Tuck chin and use shoulder to deflect kicks while maintaining tight hip position on their trapped knee → Leads to [[Positions/Rubber Guard/Carni]]
+- **Sitting up and reaching to control your legs to dismantle entanglement** (Effectiveness: Low) - Your Response: Extend hips faster to finish before they can establish control, or transition back to Carni heel hook threat → Leads to [[Positions/Half Guard]]
 
 
 </section>

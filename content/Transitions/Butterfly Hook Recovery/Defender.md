@@ -150,7 +150,7 @@ As the top player in double unders, your opponent's butterfly hook recovery repr
 
 Successful defense against hook recovery demands constant awareness of your own weight distribution and pressure consistency. Every time you pause to adjust grips, shift weight to advance the pass, or momentarily lighten pressure, you create the exact window your opponent needs. Elite passers learn to make micro-adjustments without creating exploitable gaps, maintaining forward drive even during transitions between grip configurations. The key tactical principle is that preventing the frame is far easier than fighting a seated hook - if you allow your opponent to establish the frame and create space, the subsequent hook insertion becomes exponentially harder to stop.
 
-**Opponent's Starting Position**: [[Double Unders]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Double Unders]] (Bottom)
 
 </section>
 
@@ -187,21 +187,21 @@ Successful defense against hook recovery demands constant awareness of your own 
 ### 1. Drive forward explosively to re-smash when you feel the frame being established, collapsing the space before the hook can enter
 
 - **When to use**: Immediately upon feeling opponent's forearm pressing against your face or neck - the earliest recognition cue before hip escape begins
-- **Targets**: [[Double Unders]]
+- **Targets**: [[Positions/Double Unders]]
 - **If successful**: Opponent's frame collapses under your renewed forward drive, they return to flat position with no hook inserted, and you maintain full double unders control
 - **Risk**: If opponent has already inserted the hook when you drive, your forward momentum feeds directly into their elevation sweep
 
 ### 2. Release double unders grip and backstep to headquarters or knee slice position, abandoning the current passing angle for a fresh one
 
 - **When to use**: When you feel the hook beginning to seat and continued forward pressure will not prevent its establishment - typically when opponent has achieved frame plus hip escape
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: You transition to a different passing configuration where the inserted hook becomes less effective, maintaining top position with new passing options available
 - **Risk**: Bottom player follows your retreat and establishes full butterfly guard or transitions to de la riva, gaining an offensive guard position
 
 ### 3. Walk knees forward past opponent's hips to complete the pass before hook recovery can finish, converting to side control through acceleration
 
 - **When to use**: When opponent commits both hands to the recovery attempt, temporarily weakening their ability to block your hip advancement
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Pass completes to side control before hook is fully seated, converting their partial recovery attempt into a worse position than double unders bottom
 - **Risk**: If timing is off and hook seats as you advance, you may end up in a compromised position between passing and being swept
 
@@ -213,11 +213,11 @@ Successful defense against hook recovery demands constant awareness of your own 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Double Unders]]
+### → [[Positions/Double Unders]]
 
 Maintain relentless forward pressure without creating timing windows. When you feel frame establishment beginning, immediately re-smash by dropping chest weight and driving forward. Follow every hip escape with lateral movement to re-center your chest over their hips. Deny the space needed for hook entry by keeping your elbows pinched and hips heavy.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When opponent commits to the recovery attempt with both hands working on hook insertion or upper body grips, exploit their reduced ability to block hip advancement. Walk your knees forward rapidly past their hip line, release one underhook to establish crossface, and slide into side control. Their focus on hook recovery leaves them vulnerable to accelerated pass completion.
 

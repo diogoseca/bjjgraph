@@ -178,7 +178,7 @@ From the bottom 50-50 position, you use hip movement and leg control to isolate 
 
 This entry is particularly effective against opponents who focus entirely on heel defense by hiding their heel or rotating their knee inward. Their defensive posture actually facilitates the kneebar entry by presenting their leg in an extended position. The transition also serves as an excellent chain attack when heel hooks are stalled, creating offensive pressure that prevents opponents from establishing comfortable defensive positions.
 
-**From Position**: [[50-50 Guard]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ This entry is particularly effective against opponents who focus entirely on hee
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kneebar Control]] | 55% |
-| Failure | [[50-50 Guard]] | 30% |
-| Counter | [[50-50 Guard]] | 15% |
+| Success | [[Positions/Kneebar Control]] | 55% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ This entry is particularly effective against opponents who focus entirely on hee
 
 ## Opponent Counters
 
-- **Opponent bends knee and pulls leg back before you secure thigh control** (Effectiveness: High) - Your Response: Maintain tight ankle grip and follow their leg retraction with hip movement, or transition back to heel hook attempt as they expose their heel while retracting → Leads to [[50-50 Guard]]
-- **Opponent turns toward you and comes on top to smash the kneebar attempt** (Effectiveness: Medium) - Your Response: Use your inside leg hook to prevent their turn, or accept the scramble and work for back take as they rotate toward you → Leads to [[50-50 Guard]]
-- **Opponent straightens their leg completely and drives forward to stack you** (Effectiveness: Medium) - Your Response: A fully straightened leg actually facilitates the kneebar - secure thigh control and bridge immediately before they can retract → Leads to [[Kneebar Control]]
-- **Opponent strips your ankle grip and extracts their leg** (Effectiveness: High) - Your Response: Maintain secondary control with your legs around their thigh; if grip breaks, immediately transition to Single Leg X-Guard or stand up → Leads to [[50-50 Guard]]
+- **Opponent bends knee and pulls leg back before you secure thigh control** (Effectiveness: High) - Your Response: Maintain tight ankle grip and follow their leg retraction with hip movement, or transition back to heel hook attempt as they expose their heel while retracting → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent turns toward you and comes on top to smash the kneebar attempt** (Effectiveness: Medium) - Your Response: Use your inside leg hook to prevent their turn, or accept the scramble and work for back take as they rotate toward you → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent straightens their leg completely and drives forward to stack you** (Effectiveness: Medium) - Your Response: A fully straightened leg actually facilitates the kneebar - secure thigh control and bridge immediately before they can retract → Leads to [[Positions/Kneebar Control]]
+- **Opponent strips your ankle grip and extracts their leg** (Effectiveness: High) - Your Response: Maintain secondary control with your legs around their thigh; if grip breaks, immediately transition to Single Leg X-Guard or stand up → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 
 
 </section>

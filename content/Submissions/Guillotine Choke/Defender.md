@@ -156,7 +156,7 @@ description: "How to defend against Guillotine Choke in BJJ. Recognition, escape
 
 Defending the guillotine choke requires immediate recognition and decisive action, as the submission can finish within seconds once fully locked. The defender's primary challenge is that the guillotine attacks during transitions - failed takedowns, guard passing, and scrambles - meaning you must defend while already in a compromised position. Successful guillotine defense operates on a timeline: early-stage defense before the grip is locked is dramatically easier than late-stage escape after full control is established. The defensive hierarchy prioritizes posture recovery and chin protection first, grip stripping second, and positional escape third. Understanding which guillotine variation you're caught in (standard, arm-in, high elbow, mounted) dictates your specific escape pathway, as the wrong defense for a given variation can actually accelerate the finish. Developing reliable guillotine defense is essential for any practitioner who shoots takedowns, plays guard passing games, or engages in scrambles, as all of these activities naturally expose the neck to guillotine entries.
 
-**Opponent's Starting Position**: [[Guillotine Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Guillotine Control]] (Top)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the guillotine choke requires immediate recognition and decisive actio
 ### 1. Von Flue counter - drive forward through the choke, pass guard to side control, and apply shoulder pressure into their choking arm to reverse the choke on them
 
 - **When to use**: When you are in top position and opponent has guillotine from closed or open guard. Works best when their guard is open or you can force it open while maintaining forward pressure
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You pass guard to side control and can apply the Von Flue choke counter-submission, completely reversing the attacking dynamic
 - **Risk**: If their guard stays closed and grip is deep, driving forward can actually tighten the choke before you complete the pass
 
 ### 2. Posture recovery and grip strip - stack your weight forward, walk hands up opponent's body, strip the choking grip using two-on-one hand fighting, and recover upright posture
 
 - **When to use**: When caught in guillotine from closed or half guard before the grip is fully locked. Most effective in early stages when opponent's hands haven't fully connected
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: You break the guillotine grip, recover posture, and remain in their guard with the submission threat neutralized
 - **Risk**: Opponent may transition to triangle or other submissions if your arms extend during the grip strip attempt
 
 ### 3. Circle toward the choking arm and take the back or establish side control - walk your body toward the choking arm side while keeping chin tucked, sliding your head free as the angle becomes impossible for them to maintain
 
 - **When to use**: When caught in standing guillotine or when you have one leg free to step and circle. Particularly effective against standard guillotine where both your arms are outside
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: You escape the choke angle and can end up in side control or take the back depending on how far you circle
 - **Risk**: Opponent may follow your movement and transition to mounted guillotine if you don't complete the circle quickly enough
 
 ### 4. Shoulder of justice defense - drive your shoulder on the choking arm side deep into their neck while turning your head away, using your shoulder as a wedge to create space and relieve pressure on your carotid arteries
 
 - **When to use**: When guillotine is locked and you cannot strip the grip, particularly from top half guard or side control positions where you have weight advantage
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Creates enough space to breathe and work your head free over several seconds, ultimately neutralizing the choke
 - **Risk**: Requires patience and composure as the choke may still feel tight during the escape process
 
@@ -240,11 +240,11 @@ Defending the guillotine choke requires immediate recognition and decisive actio
 
 ## Best-Case Outcomes for Defender
 
-### → [[Guillotine Control]]
+### → [[Positions/Guillotine Control]]
 
 Strip the choking grip through two-on-one wrist fighting while stacking forward, breaking their hand connection and recovering posture inside their guard
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Drive forward through the choke to pass guard, using shoulder pressure to neutralize the choke and establish side control with Von Flue counter-pressure
 

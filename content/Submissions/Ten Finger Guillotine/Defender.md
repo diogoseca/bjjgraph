@@ -195,28 +195,28 @@ Defending the Ten Finger Guillotine requires immediate recognition and a systema
 ### 1. Posture up aggressively by framing both hands on opponent's hips and driving upward while walking feet forward to create space and extract head
 
 - **When to use**: Immediately upon recognizing the guillotine attempt, before the attacker has fully locked the ten finger grip and engaged their shoulder elevation. Most effective from standing or when attacker is still establishing control.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You recover posture and return to neutral front headlock position where the choke threat is neutralized and you can address the remaining head control
 - **Risk**: If you posture too late after grip is locked, the upward movement can actually tighten the choke by extending your neck into the compression
 
 ### 2. Drive forward through opponent while turning your body to face the same direction, using the inside turn to slip your head free from the choking arm
 
 - **When to use**: When attacker has established the grip but has not yet pulled guard or fully committed their weight. Particularly effective from standing when you can use your legs to generate forward drive and rotational force.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You clear your head from the choking arm and end up in a scramble position or with opponent in your guard where the guillotine threat is eliminated
 - **Risk**: If the turn is incomplete, attacker can transition to anaconda or darce choke which may be even more dangerous than the original guillotine
 
 ### 3. Shoot a deep double leg or single leg takedown while tucking chin and driving shoulder into opponent's hip to change the angle and alleviate neck pressure
 
 - **When to use**: When attacker has the grip locked from standing but has not yet pulled guard. The takedown changes the angle dramatically and can break the choking mechanics if you land in side control rather than inside their guard.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You complete the takedown to side control where the guillotine becomes extremely difficult to finish and may open the attacker to Von Flue choke counter
 - **Risk**: If you land inside their closed guard rather than passing, the guillotine often tightens significantly and you may be worse off than before the takedown attempt
 
 ### 4. Two-on-one grip break targeting the attacker's choking wrist, peeling it away from the neck while simultaneously tucking chin and circling away from the choking arm side
 
 - **When to use**: When the ten finger grip is still loose or when attacker's elbows have flared, creating space to insert your hands. Less effective once the grip is fully locked and elbows are tight to ribs.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You break the choking connection and can work to recover posture, returning to neutral front headlock engagement where you can address remaining grips
 - **Risk**: Focusing both hands on grip breaking leaves your posture undefended and if you fail to break the grip, the attacker can capitalize on your compromised position
 
@@ -240,11 +240,11 @@ Defending the Ten Finger Guillotine requires immediate recognition and a systema
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Recover posture by framing on attacker's hips and driving upward while hand fighting the choking wrist. Walk feet forward to create space and extract head from the grip. Once posture is recovered, the choke threat is neutralized and you return to a neutral front headlock engagement where you can work standard escapes.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Execute inside turn to face the same direction as the attacker, slipping your head free during the rotation. Use forward drive and shoulder positioning to clear the choking arm. The scramble that results from the turn often leads to you ending up in the attacker's guard without the choke, or in a neutral position where you can reset. While being in someone's closed guard is not ideal, it is vastly preferable to being caught in a locked guillotine.
 

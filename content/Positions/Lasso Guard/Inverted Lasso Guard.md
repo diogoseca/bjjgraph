@@ -99,27 +99,27 @@ Inverted lasso guard fits into broader guard systems as a transitional position 
 ### Available Transitions
 
 
-- **[[Berimbolo Entry]]** (37% of attempts)
+- **[[Transitions/Berimbolo Entry]]** (37% of attempts)
 
-- **[[Kiss of the Dragon]]** (11% of attempts)
+- **[[Transitions/Kiss of the Dragon]]** (11% of attempts)
 
-- **[[Triangle Setup]]** (6% of attempts)
+- **[[Transitions/Triangle Setup]]** (6% of attempts)
 
-- **[[Omoplata Sweep]]** (8% of attempts)
+- **[[Transitions/Omoplata Sweep]]** (8% of attempts)
 
-- **[[Sickle Sweep]]** (4% of attempts)
+- **[[Transitions/Sickle Sweep]]** (4% of attempts)
 
-- **[[Single Leg X Entry]]** (8% of attempts)
+- **[[Transitions/Single Leg X Entry]]** (8% of attempts)
 
-- **[[De La Riva Sweep]]** (6% of attempts)
+- **[[Transitions/De La Riva Sweep]]** (6% of attempts)
 
-- **[[Balloon Sweep]]** (12% of attempts)
+- **[[Transitions/Balloon Sweep]]** (12% of attempts)
 
-- **[[Tomoe Nage]]** (5% of attempts)
+- **[[Transitions/Tomoe Nage]]** (5% of attempts)
 
-- **[[Inverted Lasso Sweep]]** (2% of attempts)
+- **[[Transitions/Inverted Lasso Sweep]]** (2% of attempts)
 
-- **[[Inverted Lasso to Lasso Guard]]** (1% of attempts)
+- **[[Transitions/Inverted Lasso to Lasso Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -184,25 +184,25 @@ Inverted lasso guard fits into broader guard systems as a transitional position 
 ### Available Transitions
 
 
-- **[[Lasso Guard Pass]]** (11% of attempts)
+- **[[Transitions/Lasso Guard Pass]]** (11% of attempts)
 
-- **[[Stack Pass]]** (11% of attempts)
+- **[[Transitions/Stack Pass]]** (11% of attempts)
 
-- **[[Arm Extraction]]** (22% of attempts)
+- **[[Transitions/Arm Extraction]]** (22% of attempts)
 
-- **[[Cartwheel Pass]]** (11% of attempts)
+- **[[Transitions/Cartwheel Pass]]** (11% of attempts)
 
-- **[[Pressure Pass]]** (10% of attempts)
+- **[[Transitions/Pressure Pass]]** (10% of attempts)
 
-- **[[Knee Cut Pass]]** (8% of attempts)
+- **[[Transitions/Knee Cut Pass]]** (8% of attempts)
 
-- **[[Smash Pass]]** (9% of attempts)
+- **[[Transitions/Smash Pass]]** (9% of attempts)
 
-- **[[Back Step Pass]]** (12% of attempts)
+- **[[Transitions/Back Step Pass]]** (12% of attempts)
 
-- **[[Pass Inverted Lasso Guard]]** (4% of attempts)
+- **[[Transitions/Pass Inverted Lasso Guard]]** (4% of attempts)
 
-- **[[Stack from Inverted Lasso]]** (2% of attempts)
+- **[[Transitions/Stack from Inverted Lasso]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -245,23 +245,23 @@ Inverted lasso guard fits into broader guard systems as a transitional position 
 ## Related Positions
 
 
-- **[[Lasso Guard]]** - Parent position - inverted lasso is a dynamic variation of traditional lasso
+- **[[Positions/Lasso Guard]]** - Parent position - inverted lasso is a dynamic variation of traditional lasso
 
-- **[[Spider Guard]]** - Common entry point - spider guard often transitions to inverted lasso
+- **[[Positions/Spider Guard]]** - Common entry point - spider guard often transitions to inverted lasso
 
-- **[[De La Riva Guard]]** - Adjacent guard system - shares similar hip positioning and sweep mechanics
+- **[[Positions/De La Riva Guard]]** - Adjacent guard system - shares similar hip positioning and sweep mechanics
 
-- **[[Inverted Guard]]** - Related inverted position - shares body mechanics and spatial requirements
+- **[[Positions/Inverted Guard]]** - Related inverted position - shares body mechanics and spatial requirements
 
-- **[[Reverse De La Riva Guard]]** - Complementary guard - often combined in sequences
+- **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Complementary guard - often combined in sequences
 
-- **[[X-Guard]]** - Sweep destination - many inverted lasso sweeps finish in X-guard
+- **[[Positions/X-Guard]]** - Sweep destination - many inverted lasso sweeps finish in X-guard
 
-- **[[Back Control]]** - Offensive target - kiss of the dragon and berimbolo lead to back
+- **[[Positions/Back Control]]** - Offensive target - kiss of the dragon and berimbolo lead to back
 
-- **[[Triangle Control]]** - Submission option - inverted position enables overhead triangle entries
+- **[[Positions/Triangle Control]]** - Submission option - inverted position enables overhead triangle entries
 
-- **[[Omoplata Control]]** - Submission threat - natural shoulder lock entries from inverted position
+- **[[Positions/Omoplata Control]]** - Submission threat - natural shoulder lock entries from inverted position
 
 
 </section>

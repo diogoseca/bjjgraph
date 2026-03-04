@@ -26,8 +26,8 @@ Strategically, the heel hook from saddle functions as the terminal threat within
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Knee and ankle joint
-**Starting Position**: [[Saddle]]
-**From Position**: [[Saddle]] (Top)
+**Starting Position**: [[Positions/Ashi Garami/Saddle]]
+**From Position**: [[Positions/Ashi Garami/Saddle]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -81,8 +81,8 @@ Strategically, the heel hook from saddle functions as the terminal threat within
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Saddle]] | 30% |
-| Counter | [[50-50 Guard]] | 20% |
+| Failure | [[Positions/Ashi Garami/Saddle]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 20% |
 
 
 </section>
@@ -230,9 +230,9 @@ Strategically, the heel hook from saddle functions as the terminal threat within
 
 ## From Which Positions?
 
-- [[Saddle]]
-- [[Honey Hole]]
-- [[Inside Sankaku]]
+- [[Positions/Ashi Garami/Saddle]]
+- [[Positions/Ashi Garami/Honey Hole]]
+- [[Positions/Inside Sankaku]]
 
 
 </section>
@@ -241,11 +241,11 @@ Strategically, the heel hook from saddle functions as the terminal threat within
 
 ## Related Submissions
 
-- [[Aoki Lock Finish]]
-- [[Calf Slicer from 50-50]]
-- [[Ankle Lock from X-Guard]]
-- [[Estima Lock Finish]]
-- [[Calf Slicer]]
+- [[Transitions/Aoki Lock Finish]]
+- [[Submissions/Calf Slicer from 50-50]]
+- [[Submissions/Ankle Lock from X-Guard]]
+- [[Submissions/Estima Lock Finish]]
+- [[Transitions/Calf Slicer]]
 
 
 </section>
@@ -254,14 +254,14 @@ Strategically, the heel hook from saddle functions as the terminal threat within
 
 ## Additional Related Content
 
-- [[Saddle]] - Primary starting position providing optimal control for heel hook finish
-- [[Honey Hole]] - Alternative terminology for the saddle position from which this submission is executed
-- [[Inside Sankaku]] - Alternative terminology emphasizing the inside leg triangle configuration
-- [[Inside Ashi-Garami]] - Common fallback position when saddle control is partially lost during heel hook attempt
-- [[50-50 Guard]] - Counter-entanglement position opponents may reach when escaping heel hook
-- [[Kneebar Control]] - Alternative submission target from same position when heel is defended
-- [[Ashi Garami]] - Parent positional system encompassing all leg entanglement variations
-- [[Leg Entanglement]] - Core conceptual framework governing control mechanics and submission chains
+- [[Positions/Ashi Garami/Saddle]] - Primary starting position providing optimal control for heel hook finish
+- [[Positions/Ashi Garami/Honey Hole]] - Alternative terminology for the saddle position from which this submission is executed
+- [[Positions/Inside Sankaku]] - Alternative terminology emphasizing the inside leg triangle configuration
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Common fallback position when saddle control is partially lost during heel hook attempt
+- [[Positions/Ashi Garami/50-50 Guard]] - Counter-entanglement position opponents may reach when escaping heel hook
+- [[Positions/Kneebar Control]] - Alternative submission target from same position when heel is defended
+- [[Positions/Ashi Garami]] - Parent positional system encompassing all leg entanglement variations
+- [[Positions/Leg Entanglement]] - Core conceptual framework governing control mechanics and submission chains
 
 
 </section>

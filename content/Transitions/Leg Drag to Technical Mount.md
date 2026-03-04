@@ -21,7 +21,7 @@ This transition capitalizes on the leg drag's inherent mechanics: when you contr
 
 The strategic value lies in maintaining offensive pressure throughout the transition. Many practitioners lose submissions attempting to consolidate full mount from leg drag, giving opponents time to recover guard. Technical mount eliminates this gap—you arrive with arm triangles, mounted triangles, and armbars immediately available. The position also prevents common mount escapes like the upa because the opponent cannot generate leverage from their side.
 
-**From Position**: [[Leg Drag Control]] (Top)
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The strategic value lies in maintaining offensive pressure throughout the transi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Technical Mount]] | 65% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount/Technical Mount]] | 65% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -191,25 +191,25 @@ From technical mount, you have direct chains to arm triangles, mounted triangles
 ## Related Techniques
 
 
-- [[Leg Drag Control]] - Starting position for this transition
+- [[Positions/Leg Drag Control]] - Starting position for this transition
 
-- [[Technical Mount]] - Target position upon successful completion
+- [[Positions/Mount/Technical Mount]] - Target position upon successful completion
 
-- [[Leg Drag to Back Take]] - Alternative transition when opponent turns away
+- [[Transitions/Leg Drag to Back Take]] - Alternative transition when opponent turns away
 
-- [[Leg Drag to Mount]] - Alternative when opponent stays flat on back
+- [[Transitions/Leg Drag to Mount]] - Alternative when opponent stays flat on back
 
-- [[Arm Triangle]] - Primary submission threat from technical mount
+- [[Transitions/Arm Triangle]] - Primary submission threat from technical mount
 
-- [[Armbar from Mount]] - Secondary submission threat from technical mount
+- [[Submissions/Armbar from Mount]] - Secondary submission threat from technical mount
 
-- [[Leg Drag Pass]] - Entry technique to the starting position
+- [[Transitions/Leg Drag Pass]] - Entry technique to the starting position
 
-- [[Gift Wrap]] - Control option during transition when opponent frames
+- [[Positions/Gift Wrap]] - Control option during transition when opponent frames
 
-- [[Back Control]] - Alternative endpoint if opponent turtles during transition
+- [[Positions/Back Control]] - Alternative endpoint if opponent turtles during transition
 
-- [[Half Guard]] - Common counter position if transition fails
+- [[Positions/Half Guard]] - Common counter position if transition fails
 
 
 </section>

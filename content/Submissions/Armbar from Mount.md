@@ -26,8 +26,8 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint
-**Starting Position**: [[Mount]]
-**From Position**: [[Mount]] (Top)
+**Starting Position**: [[Positions/Mount]]
+**From Position**: [[Positions/Mount]] (Top)
 **Success Rate**: 68%
 
 </section>
@@ -81,8 +81,8 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -235,14 +235,14 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 
 ## From Which Positions?
 
-- [[Mount]]
-- [[High Mount]]
-- [[S Mount]]
-- [[Modified Mount]]
-- [[Technical Mount]]
-- [[Side Control]]
-- [[Knee on Belly]]
-- [[North-South]]
+- [[Positions/Mount]]
+- [[Positions/Mount/High Mount]]
+- [[Positions/Mount/S Mount]]
+- [[Positions/Mount/Modified Mount]]
+- [[Positions/Mount/Technical Mount]]
+- [[Positions/Side Control]]
+- [[Positions/Knee on Belly]]
+- [[Positions/North-South]]
 
 
 </section>
@@ -251,15 +251,15 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 
 ## Related Submissions
 
-- [[Triangle Choke]]
-- [[Americana from Mount]]
-- [[Ezekiel Choke]]
-- [[Kimura]]
-- [[Armbar from Guard]]
-- [[Armbar from Side Control]]
-- [[Armbar from Back]]
-- [[Far Side Armbar]]
-- [[Belly Down Armbar]]
+- [[Transitions/Triangle Choke]]
+- [[Submissions/Americana from Mount]]
+- [[Submissions/Ezekiel Choke]]
+- [[Transitions/Kimura]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Armbar from Side Control]]
+- [[Submissions/Armbar from Back]]
+- [[Submissions/Far Side Armbar]]
+- [[Submissions/Belly Down Armbar]]
 
 
 </section>
@@ -268,16 +268,16 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 
 ## Additional Related Content
 
-- [[Mount]] - Primary starting position for this submission
-- [[High Mount]] - Advanced variation providing better armbar setup
-- [[S Mount]] - Transitional position offering excellent armbar control
-- [[Triangle Control]] - Alternative submission when armbar is defended
-- [[Mounted Triangle]] - Submission chain option from mount attacks
-- [[Kimura Trap]] - Alternative submission targeting opposite arm
-- [[Americana]] - Lower-risk joint lock alternative from mount
-- [[Armbar Control]] - Control position for finishing the armbar
-- [[Technical Mount]] - Transitional position for armbar setup
-- [[Back Control]] - Alternative position when opponent turns during armbar
+- [[Positions/Mount]] - Primary starting position for this submission
+- [[Positions/Mount/High Mount]] - Advanced variation providing better armbar setup
+- [[Positions/Mount/S Mount]] - Transitional position offering excellent armbar control
+- [[Positions/Triangle Control]] - Alternative submission when armbar is defended
+- [[Positions/Mount/Mounted Triangle]] - Submission chain option from mount attacks
+- [[Positions/Kimura Trap]] - Alternative submission targeting opposite arm
+- [[Transitions/Americana]] - Lower-risk joint lock alternative from mount
+- [[Positions/Armbar Control]] - Control position for finishing the armbar
+- [[Positions/Mount/Technical Mount]] - Transitional position for armbar setup
+- [[Positions/Back Control]] - Alternative position when opponent turns during armbar
 
 
 </section>

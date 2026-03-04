@@ -21,7 +21,7 @@ The technical core of this transition lies in the grip sequencing hierarchy: the
 
 Strategically, this transition represents a critical decision point in open guard play. Rather than remaining in a generic open guard where neither player has established dominant grips, the bottom player proactively builds a specific guard system that immediately creates offensive threats. The transition is most effective against opponents who are methodical passers, as the grip establishment disrupts their passing setup before it develops. Against explosive passers, the transition must be executed during the brief windows between passing attempts when the opponent resets their grips and base.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 **Success Rate**: 65%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition represents a critical decision point in open guar
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Collar Sleeve Guard]] | 65% |
-| Failure | [[Open Guard]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Collar Sleeve Guard]] | 65% |
+| Failure | [[Positions/Open Guard]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,27 +189,27 @@ Transition to Collar Sleeve Guard sits at the intersection of general open guard
 ## Related Techniques
 
 
-- [[Collar Sleeve Guard]] - Target position - the guard system being established through this transition
+- [[Positions/Collar Sleeve Guard]] - Target position - the guard system being established through this transition
 
-- [[Open Guard]] - Starting position - generic open guard before specific grip establishment
+- [[Positions/Open Guard]] - Starting position - generic open guard before specific grip establishment
 
-- [[Closed Guard]] - Common prior position - collar sleeve often established when closed guard is broken
+- [[Positions/Closed Guard]] - Common prior position - collar sleeve often established when closed guard is broken
 
-- [[Spider Guard]] - Alternative guard system - can transition to spider if sleeve grip is strong but collar is stripped
+- [[Positions/Spider Guard]] - Alternative guard system - can transition to spider if sleeve grip is strong but collar is stripped
 
-- [[Lasso Guard]] - Alternative guard system - lasso entry available when sleeve arm is captured deeply
+- [[Positions/Lasso Guard]] - Alternative guard system - lasso entry available when sleeve arm is captured deeply
 
-- [[De La Riva Guard]] - Complementary guard - DLR hook can combine with collar sleeve grips against standing opponents
+- [[Positions/De La Riva Guard]] - Complementary guard - DLR hook can combine with collar sleeve grips against standing opponents
 
-- [[Pendulum Sweep]] - Primary sweep attack available immediately after establishing collar sleeve guard
+- [[Transitions/Pendulum Sweep]] - Primary sweep attack available immediately after establishing collar sleeve guard
 
-- [[Scissor Sweep]] - Fundamental sweep from collar sleeve control using knee across opponent's centerline
+- [[Transitions/Scissor Sweep]] - Fundamental sweep from collar sleeve control using knee across opponent's centerline
 
-- [[Triangle Setup]] - Primary submission path from collar sleeve when opponent posts free hand
+- [[Transitions/Triangle Setup]] - Primary submission path from collar sleeve when opponent posts free hand
 
-- [[Grip Break]] - Opponent's primary defensive tool against collar sleeve establishment
+- [[Transitions/Grip Break]] - Opponent's primary defensive tool against collar sleeve establishment
 
-- [[Double Sleeve Guard]] - Related guard variation using bilateral sleeve control instead of collar-sleeve asymmetry
+- [[Positions/Double Sleeve Guard]] - Related guard variation using bilateral sleeve control instead of collar-sleeve asymmetry
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Defend the guard pass from flattened half guard. Recognition cues,
 
 As the defender against the Complete Pass from Flattened Half Guard, you are in one of the most challenging defensive scenarios in Brazilian Jiu-Jitsu. Your frames have been collapsed, your back is flat on the mat, and your opponent is working to extract the one remaining barrier that prevents them from achieving full side control. Your defensive strategy must operate on two simultaneous tracks: maintaining the half guard hook that prevents the pass while systematically working to recover frames and escape the flattened position. The critical insight is that simply holding the hook is a losing strategy over time, as a skilled top player will eventually find the angle to extract their leg. Your defense must be active, combining hook retention with frame recovery attempts that force the top player to choose between maintaining their pressure and completing the extraction.
 
-**Opponent's Starting Position**: [[Flattened Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Flattened Half Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the Complete Pass from Flattened Half Guard, you are in 
 ### 1. Hip escape toward the trapped leg side at the moment of extraction to recover knee shield or half guard frames
 
 - **When to use**: When you feel the opponent begin their hip shift or knee drive indicating extraction is starting, and you have enough space to shrimp
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover active half guard with frames re-established, resetting the entire passing sequence and forcing them to start over
 - **Risk**: If mistimed, the shrimp can accelerate the pass if the opponent rides your movement to complete the extraction
 
 ### 2. Clamp the hook tighter by squeezing your knees together and turning your hips to face your opponent during the extraction
 
 - **When to use**: When the opponent begins the knee slice and you need to buy time to set up a more complete defensive response
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: The extraction fails and the opponent remains in flattened half guard, giving you more time to work on frame recovery
 - **Risk**: Only delays the pass rather than improving your position, and burns energy in the legs that could be used for recovery
 
 ### 3. Insert elbow frame during the moment of extraction when the opponent's pressure necessarily shifts
 
 - **When to use**: When the opponent lifts their chest even slightly during the extraction attempt or shifts their weight to drive the knee through
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Frame creates space for full knee shield recovery or return to active half guard with offensive capabilities restored
 - **Risk**: Extending the arm for the frame can expose it to Kimura or Americana attacks if the extraction succeeds despite your defense
 
 ### 4. Thread underneath for deep half guard entry during the opponent's extraction movement
 
 - **When to use**: When the opponent's hips rise above your hip line during the extraction attempt, creating enough space to dive underneath
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You achieve deep half guard which completely reverses the passing dynamic and gives you strong sweeping options
 - **Risk**: If the opponent recognizes the entry and sprawls, you may end up in a worse flattened position with less defensive structure
 
@@ -217,7 +217,7 @@ As the defender against the Complete Pass from Flattened Half Guard, you are in 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your hip escape to coincide with the opponent's extraction attempt. As they shift their hips to create the extraction angle, shrimp toward the trapped leg side and immediately insert your knee as a frame. The opponent's divided attention between maintaining pressure and extracting the leg creates the window you need to recover frames and return to active half guard.
 

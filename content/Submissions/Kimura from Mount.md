@@ -22,8 +22,8 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (glenohumeral joint, rotator cuff)
-**Starting Position**: [[Mount]]
-**From Position**: [[Mount]] (Top)
+**Starting Position**: [[Positions/Mount]]
+**From Position**: [[Positions/Mount]] (Top)
 **Success Rate**: 72%
 
 </section>
@@ -79,8 +79,8 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -231,14 +231,14 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 ## From Which Positions?
 
-- [[Mount]]
-- [[High Mount]]
-- [[S Mount]]
-- [[Technical Mount]]
-- [[Modified Mount]]
-- [[3-4 Mount]]
-- [[Knee on Belly]]
-- [[Side Control]]
+- [[Positions/Mount]]
+- [[Positions/Mount/High Mount]]
+- [[Positions/Mount/S Mount]]
+- [[Positions/Mount/Technical Mount]]
+- [[Positions/Mount/Modified Mount]]
+- [[Positions/Mount/3-4 Mount]]
+- [[Positions/Knee on Belly]]
+- [[Positions/Side Control]]
 
 
 </section>
@@ -247,16 +247,16 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 ## Related Submissions
 
-- [[Kimura]]
-- [[Americana from Mount]]
-- [[Armbar from Mount]]
-- [[Ezekiel from Mount]]
-- [[Cross Collar Choke]]
-- [[Arm Triangle]]
-- [[Kimura from Side Control]]
-- [[Armbar from Guard]]
-- [[Americana]]
-- [[Americana from Side Control]]
+- [[Transitions/Kimura]]
+- [[Submissions/Americana from Mount]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Ezekiel from Mount]]
+- [[Transitions/Cross Collar Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Kimura from Side Control]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Americana]]
+- [[Submissions/Americana from Side Control]]
 
 
 </section>
@@ -265,17 +265,17 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 ## Additional Related Content
 
-- [[Mount]] - Primary starting position - mount control must be established before attempting submission
-- [[High Mount]] - Optimal setup position - provides chest pressure and arm isolation opportunities
-- [[S Mount]] - Enhanced control variation - prevents rolling defenses more effectively
-- [[Kimura Trap]] - Positional control state achieved once figure-four grip is secured with systematic follow-up options
-- [[Back Control]] - Common transition target when opponent rolls to defend Kimura
-- [[Armbar from Mount]] - Alternative submission when opponent straightens arm to defend Kimura
-- [[Side Control]] - Alternative starting position for Kimura attacks with similar mechanics
-- [[Crucifix]] - Advanced control position accessible via Kimura grip when opponent defends
-- [[Gift Wrap]] - Control position that can transition to Kimura setup from mount
-- [[Technical Mount]] - Mount variation allowing Kimura attacks with enhanced head control
-- [[Americana]] - Related shoulder lock submission sharing similar mechanics from mount
+- [[Positions/Mount]] - Primary starting position - mount control must be established before attempting submission
+- [[Positions/Mount/High Mount]] - Optimal setup position - provides chest pressure and arm isolation opportunities
+- [[Positions/Mount/S Mount]] - Enhanced control variation - prevents rolling defenses more effectively
+- [[Positions/Kimura Trap]] - Positional control state achieved once figure-four grip is secured with systematic follow-up options
+- [[Positions/Back Control]] - Common transition target when opponent rolls to defend Kimura
+- [[Submissions/Armbar from Mount]] - Alternative submission when opponent straightens arm to defend Kimura
+- [[Positions/Side Control]] - Alternative starting position for Kimura attacks with similar mechanics
+- [[Positions/Crucifix]] - Advanced control position accessible via Kimura grip when opponent defends
+- [[Positions/Gift Wrap]] - Control position that can transition to Kimura setup from mount
+- [[Positions/Mount/Technical Mount]] - Mount variation allowing Kimura attacks with enhanced head control
+- [[Transitions/Americana]] - Related shoulder lock submission sharing similar mechanics from mount
 
 
 </section>

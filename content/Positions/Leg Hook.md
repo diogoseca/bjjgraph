@@ -91,27 +91,27 @@ This position requires precise understanding of weight distribution, hip positio
 ### Available Transitions
 
 
-- **[[Deep Half Entry]]** (34% of attempts)
+- **[[Transitions/Deep Half Entry]]** (34% of attempts)
 
-- **[[Old School Sweep]]** (9% of attempts)
+- **[[Transitions/Old School Sweep]]** (9% of attempts)
 
-- **[[Underhook Sweep from Half]]** (7% of attempts)
+- **[[Transitions/Underhook Sweep from Half]]** (7% of attempts)
 
-- **[[Shin Shield Recovery]]** (15% of attempts)
+- **[[Transitions/Shin Shield Recovery]]** (15% of attempts)
 
-- **[[Half Guard Recovery]]** (9% of attempts)
+- **[[Transitions/Half Guard Recovery]]** (9% of attempts)
 
-- **[[Hip Escape to Guard]]** (7% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (7% of attempts)
 
-- **[[Butterfly Hook Recovery]]** (7% of attempts)
+- **[[Transitions/Butterfly Hook Recovery]]** (7% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (7% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (7% of attempts)
 
-- **[[Counter Leg Hook]]** (3% of attempts)
+- **[[Transitions/Counter Leg Hook]]** (3% of attempts)
 
-- **[[Escape Leg Hook]]** (1% of attempts)
+- **[[Transitions/Escape Leg Hook]]** (1% of attempts)
 
-- **[[Sweep from Leg Hook]]** (1% of attempts)
+- **[[Transitions/Sweep from Leg Hook]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -172,21 +172,21 @@ This position requires precise understanding of weight distribution, hip positio
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (29% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (29% of attempts)
 
-- **[[Leg Weave Pass]]** (18% of attempts)
+- **[[Transitions/Leg Weave Pass]]** (18% of attempts)
 
-- **[[Smash Pass]]** (16% of attempts)
+- **[[Transitions/Smash Pass]]** (16% of attempts)
 
-- **[[Half Guard Pass]]** (13% of attempts)
+- **[[Transitions/Half Guard Pass]]** (13% of attempts)
 
-- **[[Pressure Pass]]** (10% of attempts)
+- **[[Transitions/Pressure Pass]]** (10% of attempts)
 
-- **[[Back Step Pass]]** (8% of attempts)
+- **[[Transitions/Back Step Pass]]** (8% of attempts)
 
-- **[[Leg Hook to Half Guard]]** (4% of attempts)
+- **[[Transitions/Leg Hook to Half Guard]]** (4% of attempts)
 
-- **[[Leg Hook to Side Control]]** (2% of attempts)
+- **[[Transitions/Leg Hook to Side Control]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -229,21 +229,21 @@ This position requires precise understanding of weight distribution, hip positio
 ## Related Positions
 
 
-- **[[Half Guard]]** - Parent position - Leg Hook is dynamic variation within half guard family
+- **[[Positions/Half Guard]]** - Parent position - Leg Hook is dynamic variation within half guard family
 
-- **[[Deep Half Guard]]** - Common transition target from leg hook when opponent drives forward
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common transition target from leg hook when opponent drives forward
 
-- **[[Lockdown]]** - Related position using different leg entanglement mechanics
+- **[[Positions/Half Guard/Lockdown]]** - Related position using different leg entanglement mechanics
 
-- **[[X-Guard]]** - Transition target when opponent stands or disengages
+- **[[Positions/X-Guard]]** - Transition target when opponent stands or disengages
 
-- **[[Single Leg X-Guard]]** - Alternative leg entanglement accessible from hook control
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Alternative leg entanglement accessible from hook control
 
-- **[[Ashi Garami]]** - Leg attack position reachable via leg hook transitions
+- **[[Positions/Ashi Garami]]** - Leg attack position reachable via leg hook transitions
 
-- **[[Knee Shield Half Guard]]** - Alternative half guard variation with different defensive structure
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Alternative half guard variation with different defensive structure
 
-- **[[Side Control]]** - Common passing target from leg hook top position
+- **[[Positions/Side Control]]** - Common passing target from leg hook top position
 
 
 </section>

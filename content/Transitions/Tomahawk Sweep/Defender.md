@@ -146,7 +146,7 @@ description: "How to defend against Tomahawk Sweep in BJJ. Recognition cues, def
 
 Defending the Tomahawk Sweep requires understanding the specific mechanics that distinguish it from standard X-Guard sweeps. The sweep relies on a diagonal chopping motion combined with angular hip positioning, meaning traditional base-widening defenses that work against vertical elevation sweeps may be insufficient. The defender must recognize the angular setup early and address it before the rotational force becomes irresistible. The primary defensive framework involves denying the attacker the 30-45 degree hip angle they need, stripping the top hook that generates the chopping motion, and controlling the grip that prevents posting. Successful defense requires proactive disruption of the setup rather than reactive resistance once the sweep is initiated, because the combined scissoring action of both hooks creates force that exceeds what a single arm post can overcome. The defender should prioritize removing the top hook or collapsing the angular structure before the attacker can synchronize their chopping motion with their grip pull.
 
-**Opponent's Starting Position**: [[X-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/X-Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Tomahawk Sweep requires understanding the specific mechanics that 
 ### 1. Strip the top hook by pushing the knee outward and stepping your trapped leg backward to break the X-configuration
 
 - **When to use**: Early in the setup phase before the attacker has synchronized their grip pull with the hook extension, ideally when you feel the hip angle beginning to form
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: Collapses the X-Guard structure into single leg X or open guard, removing the chopping mechanic entirely and allowing you to begin passing
 - **Risk**: If timed poorly, the hook stripping motion can be used by the attacker to accelerate their rotation and enter Ashi Garami positions
 
 ### 2. Drive hips forward and down with heavy pressure to flatten attacker's hips to the mat, eliminating their angular setup
 
 - **When to use**: When you feel the attacker beginning to create the 30-45 degree angle but before the chopping motion is initiated
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: Neutralizes the sweep by removing the attacker's hip elevation and rotational capability, creating passing opportunities through smash pass or knee slice
 - **Risk**: Over-committing forward pressure can be used against you if the attacker switches to an elevation sweep or technical standup
 
 ### 3. Post the free hand wide on the mat toward the sweep direction and sprawl hips backward to lower center of gravity
 
 - **When to use**: As an emergency defense when the sweep has already been initiated and rotational force is building
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: Arrests the sweep momentum and allows you to reset base, potentially extracting your leg from the X-Guard configuration entirely
 - **Risk**: The posted hand may be targeted by the attacker's grip, and the sprawl backward may expose your legs to Ashi Garami entries
 
 ### 4. Backstep around the X-Guard to the opposite side, using their angular commitment against them to pass to side control
 
 - **When to use**: When the attacker has committed heavily to one sweep direction and their hooks are shallow on the backstep side
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: Converts the defensive situation into a passing opportunity, potentially reaching side control or back control as the attacker's committed angle leaves them exposed
 - **Risk**: Failed backstep can accelerate the sweep if hooks are not properly cleared, ending in an even worse positional outcome
 
@@ -217,11 +217,11 @@ Defending the Tomahawk Sweep requires understanding the specific mechanics that 
 
 ## Best-Case Outcomes for Defender
 
-### → [[X-Guard]]
+### → [[Positions/X-Guard]]
 
 Strip the top hook early in the setup phase by pushing the knee outward while simultaneously driving your hips forward to flatten the attacker's angular structure. Once the top hook is removed, the Tomahawk Sweep is mechanically impossible and you can begin systematic X-Guard passing sequences.
 
-### → [[X-Guard]]
+### → [[Positions/X-Guard]]
 
 Time a backstep around the committed sweep angle when the attacker overcommits to one direction. As they load their hooks for the chopping motion, step around to the opposite side, clearing hooks and establishing top passing position or entering a leg entanglement counter from the dominant angle.
 

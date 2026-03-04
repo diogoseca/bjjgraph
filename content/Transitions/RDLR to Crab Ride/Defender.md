@@ -154,7 +154,7 @@ description: "Master the defensive perspective against RDLR to Crab Ride in BJJ.
 
 Defending against RDLR to Crab Ride requires recognizing inversion attempts early and implementing preemptive positioning to prevent the bottom player from threading underneath you. The primary challenge is maintaining base integrity while the RDLR player generates rotational pressure through their inverted hook and ankle control. Successful defense demands keen awareness of weight distribution—keeping your center of gravity low and hips back prevents the elevation the attacker needs to initiate inversion. Once the inversion begins, defensive options narrow rapidly, making early recognition and immediate reaction essential for preventing crab ride establishment. The defender must balance between addressing the RDLR hook structure and preparing for the inversion, as over-committing to hook removal can create the exact angle the attacker exploits for the transition.
 
-**Opponent's Starting Position**: [[Reverse De La Riva Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending against RDLR to Crab Ride requires recognizing inversion attempts earl
 ### 1. Sprawl hips to the mat and drive forward pressure to flatten the RDLR player
 
 - **When to use**: As soon as you recognize hip elevation and shoulder rotation indicating inversion initiation, before the attacker threads underneath
-- **Targets**: [[Reverse De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 - **If successful**: Attacker's inversion is stuffed and they remain in RDLR bottom with compromised guard structure, opening passing opportunities
 - **Risk**: Over-committing to the sprawl with weight too far forward can feed into waiter sweep mechanics if the attacker redirects
 
 ### 2. Strip the ankle grip using a two-on-one break before the inversion starts
 
 - **When to use**: When you recognize the ankle grip tightening and pulling across the attacker's centerline, before they elevate their hips fully
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Removes the steering mechanism for the inversion, forcing the attacker to re-establish grips and allowing you to advance to a passing position
 - **Risk**: Focusing both hands on the grip strip temporarily reduces your posting ability, creating vulnerability to other RDLR attacks
 
 ### 3. Backstep away from the RDLR hook and circle laterally to disengage
 
 - **When to use**: When the attacker begins loading your weight but hasn't initiated shoulder rotation yet, giving you time to change direction
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Creates distance that neutralizes the RDLR structure and allows you to re-engage from a safe passing position
 - **Risk**: Backstepping can open transitions to X-Guard or Single Leg X if the attacker follows your retreating movement with their hooks
 
 ### 4. Crossface to block shoulder rotation while maintaining heavy hip pressure
 
 - **When to use**: When you detect shoulder rotation beginning but the full inversion hasn't committed, allowing you to pin their upper body to prevent threading
-- **Targets**: [[Reverse De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 - **If successful**: Blocks the rotational mechanics at the source, preventing the inversion and keeping the attacker flat with compromised offensive options
 - **Risk**: Crossfacing requires driving your weight forward, which can be redirected into sweep attempts if the attacker times a hip bump
 
@@ -224,11 +224,11 @@ Defending against RDLR to Crab Ride requires recognizing inversion attempts earl
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip the ankle grip early using a two-on-one break while backstepping away from the RDLR hook. This dismantles the guard structure entirely, leaving the opponent in open guard where you have immediate passing opportunities. Combine the grip strip with lateral movement to prevent re-establishment of the RDLR configuration.
 
-### → [[Reverse De La Riva Guard]]
+### → [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 
 Sprawl your hips to the mat when you detect hip elevation and shoulder rotation, driving forward pressure to flatten the attacker before the inversion develops. While this keeps the opponent in RDLR, their compromised guard structure after a stuffed inversion creates an immediate window for guard passing with reduced defensive resistance.
 

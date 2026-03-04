@@ -21,7 +21,7 @@ The finishing sequence requires mastery of the hip walking mechanics specific to
 
 This transition occupies a unique position in the front headlock submission hierarchy because it bridges the gap between positional control and submission completion. Practitioners who master this finish gain the ability to control timing in one of the most dominant upper body control positions in grappling, choosing when to convert sustained pressure into a fight-ending choke based on real-time assessment of defensive deterioration. The dead orchard philosophy of patient pressure application means that by the time the finish is initiated, the opponent has already expended significant defensive energy, making the completion substantially higher percentage than rushed anaconda attempts from scramble positions.
 
-**From Position**: [[Dead Orchard Control]] (Top)
+**From Position**: [[Positions/Dead Orchard Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -33,8 +33,8 @@ This transition occupies a unique position in the front headlock submission hier
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Dead Orchard Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Dead Orchard Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Dead Orchard to Anaconda Finish serves as the terminal offensive option with
 ## Related Techniques
 
 
-- [[Dead Orchard Control]] - Source position - the established control state from which this finish is attempted
+- [[Positions/Dead Orchard Control]] - Source position - the established control state from which this finish is attempted
 
-- [[Anaconda Finish from Dead Orchard]] - Corresponding submission - the specific submission technique being completed by this transition
+- [[Submissions/Anaconda Finish from Dead Orchard]] - Corresponding submission - the specific submission technique being completed by this transition
 
-- [[Anaconda Control]] - Parent control position - standard anaconda from which dead orchard derives its grip configuration
+- [[Positions/Anaconda Control]] - Parent control position - standard anaconda from which dead orchard derives its grip configuration
 
-- [[Anaconda Choke]] - Related transition - standard anaconda finish from front headlock without dead orchard specific mechanics
+- [[Transitions/Anaconda Choke]] - Related transition - standard anaconda finish from front headlock without dead orchard specific mechanics
 
-- [[Darce to Anaconda Switch]] - Setup transition - converting darce grip to anaconda as an entry pathway to dead orchard
+- [[Transitions/Darce to Anaconda Switch]] - Setup transition - converting darce grip to anaconda as an entry pathway to dead orchard
 
-- [[Anaconda Control to Dead Orchard Control]] - Prerequisite transition - establishing dead orchard from standard anaconda control position
+- [[Transitions/Anaconda Control to Dead Orchard Control]] - Prerequisite transition - establishing dead orchard from standard anaconda control position
 
-- [[Front Headlock]] - Entry position - common starting point for the anaconda and dead orchard system
+- [[Positions/Front Headlock]] - Entry position - common starting point for the anaconda and dead orchard system
 
-- [[Turtle]] - Opponent state - common defensive position where the dead orchard system is initially established
+- [[Positions/Turtle]] - Opponent state - common defensive position where the dead orchard system is initially established
 
-- [[Anaconda Setup]] - Initial setup - first step in the anaconda to dead orchard chain
+- [[Transitions/Anaconda Setup]] - Initial setup - first step in the anaconda to dead orchard chain
 
-- [[Darce Control]] - Sister position - alternative arm-in choke control accessible when opponent creates space
+- [[Positions/Darce Control]] - Sister position - alternative arm-in choke control accessible when opponent creates space
 
 
 </section>

@@ -180,7 +180,7 @@ description: "How to execute Fireman's Carry in BJJ. Attacking perspective with 
 
 The Fireman's Carry is a classical wrestling takedown that has found valuable application in Brazilian Jiu-Jitsu, particularly in no-gi and MMA contexts. This technique involves using a combination of off-balancing, level change, and explosive lifting to elevate your opponent onto your shoulders before driving them to the mat. The Fireman's Carry is particularly effective against opponents who maintain an upright posture in the clinch, as it exploits their high center of gravity and creates a sudden positional reversal. Unlike many BJJ takedowns that rely on pulling or tripping, the Fireman's Carry demonstrates the principle of lifting and redirecting an opponent's weight, making it an excellent complement to guard pulling and other ground-focused entries. The technique requires precise timing, proper body mechanics, and the ability to coordinate multiple movements simultaneously - the level change, arm control, penetration step, and lifting motion must all flow together seamlessly. When executed correctly, the Fireman's Carry not only achieves the takedown but also places you in an advantageous top position, often side control or modified mount, allowing for immediate passing or submission attempts. This makes it a high-percentage technique for competitors who want to establish top control early in a match.
 
-**From Position**: [[Clinch]] (Top)
+**From Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
@@ -235,9 +235,9 @@ The Fireman's Carry is a classical wrestling takedown that has found valuable ap
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Failure | [[Clinch]] | 20% |
-| Counter | [[Clinch]] | 10% |
+| Success | [[Positions/Side Control]] | 70% |
+| Failure | [[Positions/Clinch]] | 20% |
+| Counter | [[Positions/Clinch]] | 10% |
 
 
 </section>
@@ -246,12 +246,12 @@ The Fireman's Carry is a classical wrestling takedown that has found valuable ap
 
 ## Opponent Counters
 
-- **Opponent sprawls and drives weight backward** (Effectiveness: High) - Your Response: If they sprawl early before you establish the carry position, immediately switch to a single leg or double leg finish, or transition to front headlock control. The key is recognizing the sprawl quickly and adapting rather than fighting through it. → Leads to [[Clinch]]
-- **Opponent whizzers the lifting arm** (Effectiveness: Medium) - Your Response: If they establish a strong whizzer (overhook) on your lifting arm, you can continue the technique by adjusting your grip lower on their leg and driving harder with your hips forward. Alternatively, use the whizzer position to transition to a duck under or back take. → Leads to [[Clinch]]
-- **Opponent posts their free hand on the ground** (Effectiveness: Medium) - Your Response: If they post during the descent phase, maintain control of their other arm and leg, then circle away from the posted hand while driving your shoulder into them. You can also attack the posted arm with a kimura grip as they try to base. → Leads to [[Clinch]]
-- **Opponent drops their weight and lowers their hips** (Effectiveness: High) - Your Response: If they successfully lower their hips and base out before you can establish the carry, transition to alternative takedowns like ankle picks, snap downs to front headlock, or switch to pulling guard. Fighting against a well-defended lower base is inefficient. → Leads to [[Clinch]]
-- **Opponent grabs your leg during the lift** (Effectiveness: Low) - Your Response: If they grab your leg while you have them elevated, continue with the throw but prepare to pass their guard after landing. Their leg grab will be less effective once they're being driven to the mat. Focus on maintaining the rotational momentum. → Leads to [[Side Control]]
-- **Opponent hip switches and takes your back during level change** (Effectiveness: Medium) - Your Response: If the opponent circles behind you during your level change, immediately square your hips back toward them, establish a whizzer on the near side, and stand up into the clinch to reset. Keeping your head up and hips underneath you prevents the back take from completing. → Leads to [[Clinch]]
+- **Opponent sprawls and drives weight backward** (Effectiveness: High) - Your Response: If they sprawl early before you establish the carry position, immediately switch to a single leg or double leg finish, or transition to front headlock control. The key is recognizing the sprawl quickly and adapting rather than fighting through it. → Leads to [[Positions/Clinch]]
+- **Opponent whizzers the lifting arm** (Effectiveness: Medium) - Your Response: If they establish a strong whizzer (overhook) on your lifting arm, you can continue the technique by adjusting your grip lower on their leg and driving harder with your hips forward. Alternatively, use the whizzer position to transition to a duck under or back take. → Leads to [[Positions/Clinch]]
+- **Opponent posts their free hand on the ground** (Effectiveness: Medium) - Your Response: If they post during the descent phase, maintain control of their other arm and leg, then circle away from the posted hand while driving your shoulder into them. You can also attack the posted arm with a kimura grip as they try to base. → Leads to [[Positions/Clinch]]
+- **Opponent drops their weight and lowers their hips** (Effectiveness: High) - Your Response: If they successfully lower their hips and base out before you can establish the carry, transition to alternative takedowns like ankle picks, snap downs to front headlock, or switch to pulling guard. Fighting against a well-defended lower base is inefficient. → Leads to [[Positions/Clinch]]
+- **Opponent grabs your leg during the lift** (Effectiveness: Low) - Your Response: If they grab your leg while you have them elevated, continue with the throw but prepare to pass their guard after landing. Their leg grab will be less effective once they're being driven to the mat. Focus on maintaining the rotational momentum. → Leads to [[Positions/Side Control]]
+- **Opponent hip switches and takes your back during level change** (Effectiveness: Medium) - Your Response: If the opponent circles behind you during your level change, immediately square your hips back toward them, establish a whizzer on the near side, and stand up into the clinch to reset. Keeping your head up and hips underneath you prevents the back take from completing. → Leads to [[Positions/Clinch]]
 
 
 </section>

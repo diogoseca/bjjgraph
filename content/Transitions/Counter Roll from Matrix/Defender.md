@@ -146,7 +146,7 @@ description: "Defend against Counter Roll from Matrix attempts. Learn recognitio
 
 The Counter Roll from Matrix defender is the top player who has successfully blocked the initial Matrix back take and must now prevent the bottom player from salvaging the position through a counter roll to half guard. When the Matrix rotation is stuffed, skilled opponents immediately redirect their momentum toward leg capture rather than accepting a compromised turtle position. The defender must recognize this redirect in real-time and respond with counter-measures that prevent half guard establishment while capitalizing on the bottom player's transitional vulnerability. The defender's advantage lies in having already won the initial positional exchange—the counter roll represents the bottom player's backup plan, and the defender must ensure this fallback also fails, converting two consecutive defensive wins into a dominant top position.
 
-**Opponent's Starting Position**: [[Matrix]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Matrix]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ The Counter Roll from Matrix defender is the top player who has successfully blo
 ### 1. Sprawl and drive weight down on the redirecting opponent to flatten the rolling attempt
 
 - **When to use**: When you feel the Matrix rotation stalling and the opponent's legs begin changing direction toward your legs
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Bottom player is flattened in turtle with no leg entanglement established, allowing you to attack with back takes, chokes, or flatten-and-pass sequences
 - **Risk**: If executed too slowly, opponent captures your leg before sprawl pressure takes full effect and establishes half guard
 
 ### 2. Hip switch past the capturing legs and establish crossface to pass directly to side control
 
 - **When to use**: When opponent has committed to the redirect and their legs are in transit between the Matrix arc and the leg-capture path
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You pass directly to side control, converting the defended Matrix and counter roll into a complete positional victory with dominant top control
 - **Risk**: If mistimed, you step directly into the half guard entanglement the opponent is creating and give them exactly what they want
 
 ### 3. Backstep to clear legs entirely from the entanglement zone before capture is established
 
 - **When to use**: When opponent's legs are beginning to wrap around your near thigh but have not yet secured the full half guard entanglement
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You clear your legs from danger zone and can immediately begin guard passing or establishing dominant top control from a clean position
 - **Risk**: Creates space that the opponent might use for guard recovery to open guard or closed guard instead of half guard
 
 ### 4. Drive forward with crossface pressure while opponent is mid-redirect to pin them flat
 
 - **When to use**: When the opponent is transitioning between the Matrix arc and counter roll direction, creating a momentary structural weakness in their positioning
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent is pinned on their back with crossface pressure, unable to complete leg capture or establish defensive frames for guard recovery
 - **Risk**: If opponent maintains strong rolling momentum, your forward drive can be redirected and used against you to complete the leg capture
 
@@ -216,11 +216,11 @@ The Counter Roll from Matrix defender is the top player who has successfully blo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Capitalize on the transitional vulnerability during the counter roll redirect by hip switching past the capturing legs and immediately establishing crossface and underhook control to consolidate side control before the bottom player can recover any guard structure
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Drive sprawl pressure down on the opponent as they redirect their rotation, flattening their rolling attempt and keeping them in turtle position where you can attack with darce chokes, anaconda chokes, back takes, or systematic flatten-and-pass sequences
 

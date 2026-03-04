@@ -21,7 +21,7 @@ Developed through innovation in no-gi grappling, the Rolling Kimura represents m
 
 The Rolling Kimura works in both gi and no-gi contexts, though the mechanics differ slightly. In gi, additional grip options using the opponent's clothing supplement the kimura grip, while in no-gi, the technique relies more heavily on wrist and arm control with tighter body connection. The rolling motion itself generates leverage that arm strength alone cannot produce, making this technique effective regardless of size differential when executed with proper timing and mechanics.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,10 +32,10 @@ The Rolling Kimura works in both gi and no-gi contexts, though the mechanics dif
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Success | [[Kimura Trap]] | 15% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control]] | 55% |
+| Success | [[Positions/Kimura Trap]] | 15% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -199,31 +199,31 @@ The Rolling Kimura is an essential component of a comprehensive turtle top attac
 ## Related Techniques
 
 
-- [[Kimura]] - Core submission that the rolling kimura sets up as a direct finish
+- [[Transitions/Kimura]] - Core submission that the rolling kimura sets up as a direct finish
 
-- [[Kimura to Back Take]] - Follow-up technique when opponent defends the roll but not the positional transition
+- [[Transitions/Kimura to Back Take]] - Follow-up technique when opponent defends the roll but not the positional transition
 
-- [[Crucifix]] - Alternative finish position achieved by trapping both arms during the roll
+- [[Positions/Crucifix]] - Alternative finish position achieved by trapping both arms during the roll
 
-- [[Back Take from Top]] - Alternative turtle attack to chain with rolling kimura
+- [[Transitions/Back Take from Top]] - Alternative turtle attack to chain with rolling kimura
 
-- [[Darce Choke]] - Complementary turtle attack targeting opposite arm configuration
+- [[Transitions/Darce Choke]] - Complementary turtle attack targeting opposite arm configuration
 
-- [[Anaconda Choke]] - Alternative choke attack from turtle creating dilemma with kimura threats
+- [[Transitions/Anaconda Choke]] - Alternative choke attack from turtle creating dilemma with kimura threats
 
-- [[Back Attack System]] - Systematic framework that rolling kimura feeds into upon successful back take
+- [[Systems/Back Attack System]] - Systematic framework that rolling kimura feeds into upon successful back take
 
-- [[Kimura Trap]] - Control position established when roll secures kimura grip dominance without full back take
+- [[Positions/Kimura Trap]] - Control position established when roll secures kimura grip dominance without full back take
 
-- [[Reverse Kimura]] - Related shoulder lock with similar mechanics from different angle
+- [[Submissions/Reverse Kimura]] - Related shoulder lock with similar mechanics from different angle
 
-- [[Armbar from Back]] - Submission option from back control achieved via rolling kimura
+- [[Submissions/Armbar from Back]] - Submission option from back control achieved via rolling kimura
 
-- [[Rolling Kimura Escape]] - Defensive counter technique from bottom perspective
+- [[Transitions/Rolling Kimura Escape]] - Defensive counter technique from bottom perspective
 
-- [[Kimura Defense]] - Understanding defense improves offensive application of the rolling kimura
+- [[Transitions/Kimura Defense]] - Understanding defense improves offensive application of the rolling kimura
 
-- [[Crucifix from Turtle]] - Alternative turtle top attack with overlapping arm trap mechanics
+- [[Transitions/Crucifix from Turtle]] - Alternative turtle top attack with overlapping arm trap mechanics
 
 
 </section>

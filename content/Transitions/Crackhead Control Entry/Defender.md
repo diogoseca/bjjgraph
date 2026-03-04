@@ -154,7 +154,7 @@ description: "Defend against Crackhead Control Entry from Rubber Guard top. Lear
 
 Defending the Crackhead Control Entry requires the top player to recognize the transition early and act decisively before the bottom player secures deeper arm isolation. The defender's primary objective is preventing their trapped arm from being pulled across their own centerline, because once cross-body isolation is achieved, escape options narrow dramatically and submission threats multiply. The critical defensive window occurs during the grip transfer phase when the bottom player momentarily adjusts their hand positioning from shin control to wrist control—this brief reduction in overall control is the defender's best opportunity to recover posture or extract the trapped arm. Successful defense requires understanding the entry's mechanical sequence to disrupt the appropriate step proactively rather than fighting the final locked position, which is extremely difficult to escape once fully established.
 
-**Opponent's Starting Position**: [[Rubber Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the Crackhead Control Entry requires the top player to recognize the t
 ### 1. Explosive posture recovery by driving upward with both arms while pushing hips back to break posture control
 
 - **When to use**: During the grip transfer phase when the bottom player releases their initial foot control to reposition their grip to your wrist
-- **Targets**: [[Rubber Guard]]
+- **Targets**: [[Positions/Rubber Guard]]
 - **If successful**: Bottom player's Rubber Guard is disrupted, potentially breaking down to closed guard or requiring them to re-establish Mission Control from scratch
 - **Risk**: If timed poorly or the bottom player maintains wrist control, the explosive upward movement may feed directly into a triangle setup by creating space
 
 ### 2. Circular arm extraction by rotating your trapped elbow outward and downward while driving your shoulder into the bottom player's chest
 
 - **When to use**: When you feel the wrist grip being established but before the arm has been pulled past your own centerline into cross-body isolation
-- **Targets**: [[Rubber Guard]]
+- **Targets**: [[Positions/Rubber Guard]]
 - **If successful**: Trapped arm returns to neutral position against your body, reducing bottom player's control to standard Mission Control or less and requiring them to restart the entry
 - **Risk**: The circular arm movement can create space between your elbow and body that the bottom player converts into a triangle entry if they release the wrist
 
 ### 3. Stack and smash defense by driving forward aggressively with shoulder pressure while walking feet toward the bottom player's head
 
 - **When to use**: When the bottom player commits to the hip angle shift and their guard configuration becomes asymmetric and vulnerable to compression
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Bottom player is compressed and forced to release Rubber Guard control entirely, opening the guard and allowing the top player to begin passing
 - **Risk**: Forward pressure can be redirected into an omoplata entry if the bottom player is skilled at using stacking momentum for rotational submissions
 
 ### 4. Immediate grip strip on the bottom player's new wrist grip using your free hand while posting your other hand on the mat
 
 - **When to use**: The instant you feel the wrist grip being applied, before the cross-body pull begins and while the bottom player is between control configurations
-- **Targets**: [[Rubber Guard]]
+- **Targets**: [[Positions/Rubber Guard]]
 - **If successful**: Disrupts the entry sequence entirely, forcing the bottom player to release their wrist attempt and re-establish Mission Control positioning before reattempting
 - **Risk**: Committing your free hand to grip stripping reduces your available posting and framing options, potentially compromising your base if the strip fails
 
@@ -226,11 +226,11 @@ Defending the Crackhead Control Entry requires the top player to recognize the t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Execute explosive posture recovery during the grip transfer phase, breaking the bottom player's leg control entirely. Drive hips back while lifting head to create maximum distance and disrupt the Rubber Guard configuration completely, forcing a reset to open guard.
 
-### → [[Rubber Guard]]
+### → [[Positions/Rubber Guard]]
 
 Strip the wrist grip before cross-body arm isolation is completed, forcing the bottom player to remain in standard Rubber Guard without advancing to the more dangerous Crackhead Control. Maintain aggressive hand fighting to prevent re-attempts of the entry.
 

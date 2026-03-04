@@ -91,33 +91,33 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 ### Available Transitions
 
 
-- **[[Tripod Sweep]]** (69% of attempts)
+- **[[Transitions/Tripod Sweep]]** (69% of attempts)
 
-- **[[Omoplata Sweep]]** (4% of attempts)
+- **[[Transitions/Omoplata Sweep]]** (4% of attempts)
 
-- **[[Triangle Setup]]** (8% of attempts)
+- **[[Transitions/Triangle Setup]]** (8% of attempts)
 
-- **[[Omoplata]]** (4% of attempts)
+- **[[Transitions/Omoplata]]** (4% of attempts)
 
-- **[[Guard Recovery from Double Sleeve Guard]]** (4% of attempts)
+- **[[Transitions/Guard Recovery from Double Sleeve Guard]]** (4% of attempts)
 
-- **[[Sickle Sweep]]** (6% of attempts)
+- **[[Transitions/Sickle Sweep]]** (6% of attempts)
 
-- **[[Flower Sweep]]** (2% of attempts)
+- **[[Transitions/Flower Sweep]]** (2% of attempts)
 
-- **[[Pendulum Sweep]]** (2% of attempts)
+- **[[Transitions/Pendulum Sweep]]** (2% of attempts)
 
-- **[[Armbar Setup from Double Sleeve]]** (0% of attempts)
+- **[[Transitions/Armbar Setup from Double Sleeve]]** (0% of attempts)
 
-- **[[Double Sleeve Sweep]]** (0% of attempts)
+- **[[Transitions/Double Sleeve Sweep]]** (0% of attempts)
 
-- **[[Double Sleeve to De La Riva]]** (0% of attempts)
+- **[[Transitions/Double Sleeve to De La Riva]]** (0% of attempts)
 
-- **[[Double Sleeve to Lasso]]** (0% of attempts)
+- **[[Transitions/Double Sleeve to Lasso]]** (0% of attempts)
 
-- **[[Double Sleeve to Spider]]** (0% of attempts)
+- **[[Transitions/Double Sleeve to Spider]]** (0% of attempts)
 
-- **[[Double Sleeve to Spider Guard]]** (1% of attempts)
+- **[[Transitions/Double Sleeve to Spider Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -178,25 +178,25 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 ### Available Transitions
 
 
-- **[[Toreando Pass]]** (10% of attempts)
+- **[[Transitions/Toreando Pass]]** (10% of attempts)
 
-- **[[Knee Slice Pass]]** (10% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (10% of attempts)
 
-- **[[Leg Drag Pass]]** (10% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (10% of attempts)
 
-- **[[Long Step Pass]]** (8% of attempts)
+- **[[Transitions/Long Step Pass]]** (8% of attempts)
 
-- **[[X Pass]]** (8% of attempts)
+- **[[Transitions/X Pass]]** (8% of attempts)
 
-- **[[Double Under Pass]]** (6% of attempts)
+- **[[Transitions/Double Under Pass]]** (6% of attempts)
 
-- **[[Grip Break]]** (35% of attempts)
+- **[[Transitions/Grip Break]]** (35% of attempts)
 
-- **[[Stack Pass]]** (8% of attempts)
+- **[[Transitions/Stack Pass]]** (8% of attempts)
 
-- **[[Pass Double Sleeve Guard]]** (3% of attempts)
+- **[[Transitions/Pass Double Sleeve Guard]]** (3% of attempts)
 
-- **[[Toreando from Double Sleeve]]** (2% of attempts)
+- **[[Transitions/Toreando from Double Sleeve]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -235,25 +235,25 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 ## Related Positions
 
 
-- **[[Spider Guard]]** - Natural transition when opponent stands or extends arms with feet in sleeves
+- **[[Positions/Spider Guard]]** - Natural transition when opponent stands or extends arms with feet in sleeves
 
-- **[[Lasso Guard]]** - Common transition when opponent circles to one side with threading variation
+- **[[Positions/Lasso Guard]]** - Common transition when opponent circles to one side with threading variation
 
-- **[[Collar Sleeve Guard]]** - Hybrid guard using one sleeve and one collar grip for mixed control
+- **[[Positions/Collar Sleeve Guard]]** - Hybrid guard using one sleeve and one collar grip for mixed control
 
-- **[[De La Riva Guard]]** - Advanced guard transition when opponent attempts to step around for passing
+- **[[Positions/De La Riva Guard]]** - Advanced guard transition when opponent attempts to step around for passing
 
-- **[[Closed Guard]]** - Can transition by closing legs if opponent closes distance
+- **[[Positions/Closed Guard]]** - Can transition by closing legs if opponent closes distance
 
-- **[[Open Guard]]** - Parent category position encompassing double sleeve variations
+- **[[Positions/Open Guard]]** - Parent category position encompassing double sleeve variations
 
-- **[[Seated Guard]]** - Alternative open guard posture with similar grip strategies
+- **[[Positions/Seated Guard]]** - Alternative open guard posture with similar grip strategies
 
-- **[[Feet on Hips Guard]]** - Related guard emphasizing distance management with leg frames
+- **[[Positions/Feet on Hips Guard]]** - Related guard emphasizing distance management with leg frames
 
-- **[[Combat Base]]** - Common top player posture when facing double sleeve control
+- **[[Positions/Combat Base]]** - Common top player posture when facing double sleeve control
 
-- **[[Triangle Control]]** - Primary submission entry from broken posture scenarios
+- **[[Positions/Triangle Control]]** - Primary submission entry from broken posture scenarios
 
 
 </section>

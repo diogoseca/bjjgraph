@@ -156,7 +156,7 @@ The Defender perspective of the Step Over Escape covers the Darce Control top pl
 
 The core defensive challenge is that the step over exploits the moment when your weight is committed low and your head is accessible. If the bottom player gets their far leg arcing over your head, the rotational momentum will break the choke angle regardless of grip strength. Your defensive strategy must therefore focus on controlling the space above your head, maintaining heavy shoulder pressure that pins the bottom player flat, and recognizing the telltale signs of the escape attempt before it generates momentum. When prevention fails, you must have immediate contingency transitions to maintain positional dominance even if the Darce grip is compromised.
 
-**Opponent's Starting Position**: [[Darce Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Darce Control]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ The core defensive challenge is that the step over exploits the moment when your
 ### 1. Sprawl hips back and drive shoulder pressure forward the instant you feel the bridge and hip elevation, blocking the leg from clearing over your head by removing the clearance space
 
 - **When to use**: As soon as you feel the bottom player bridge upward or see the far leg begin to lift, before it gains arc momentum
-- **Targets**: [[Darce Control]]
+- **Targets**: [[Positions/Darce Control]]
 - **If successful**: Bottom player's leg cannot clear your head, their bridge collapses, and you maintain full Darce control with the option to tighten the choke during their recovery
 - **Risk**: If you sprawl too aggressively you may create space under your chest that allows arm extraction as an alternative escape
 
 ### 2. Chase the rotation by walking your hips in the same direction as the step over, maintaining chest-to-back connection and the perpendicular choking angle throughout the positional change
 
 - **When to use**: When the leg has already begun clearing and you cannot prevent it, but the bottom player has not yet completed the full rotation or extracted the trapped arm
-- **Targets**: [[Darce Control]]
+- **Targets**: [[Positions/Darce Control]]
 - **If successful**: You maintain the Darce grip despite the leg clearing by following the rotation and re-establishing the finishing angle from the new position, denying the angle change that would break the choke
 - **Risk**: If you chase too slowly the bottom player completes the rotation and extracts their arm, if too fast you may overcommit and lose base
 
 ### 3. Release the Darce grip and immediately transition to side control, mount, or front headlock before the bottom player can establish guard frames
 
 - **When to use**: When the step over has progressed past the point of recovery and continuing to hold the Darce will result in losing both the choke and positional control
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You lose the submission but maintain dominant top position, preventing the bottom player from recovering to a functional guard and retaining the ability to re-attack
 - **Risk**: Releasing the Darce voluntarily gives up the submission threat entirely and the bottom player may establish guard before you consolidate the new position
 
 ### 4. Block the stepping leg with your free arm by catching it against your body or hooking under the knee before it completes the arc over your head
 
 - **When to use**: When you detect the leg swinging but cannot sprawl in time, using your free hand to physically intercept the leg mid-arc
-- **Targets**: [[Darce Control]]
+- **Targets**: [[Positions/Darce Control]]
 - **If successful**: The leg is trapped before completing the step over, maintaining the choke angle and denying the rotational escape, with the option to use the trapped leg to advance to mount
 - **Risk**: Using your free hand to block the leg temporarily weakens your grip structure and the bottom player may use the distraction to extract their trapped arm
 
@@ -226,11 +226,11 @@ The core defensive challenge is that the step over exploits the moment when your
 
 ## Best-Case Outcomes for Defender
 
-### → [[Darce Control]]
+### → [[Positions/Darce Control]]
 
 Sprawl your hips back immediately upon feeling the bridge, driving your shoulder forward and down into the side of opponent's head to collapse the space needed for the leg to clear. Pin their far hip with your free hand to prevent the elevation. Once the step over attempt fails, immediately re-tighten the Darce grip and walk your own hips to the finishing angle while the bottom player is recovering from the failed escape.
 
-### → [[Darce Control]]
+### → [[Positions/Darce Control]]
 
 When the step over begins, chase the rotation by walking your hips in the same direction as their leg swing, maintaining your chest connection to their back throughout the positional change. Keep your elbows pinched and your grip locked so that even as the body angles shift, the choking structure travels with the movement. Re-establish the perpendicular finishing angle from the new position before they can extract the trapped arm.
 

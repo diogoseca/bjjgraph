@@ -21,7 +21,7 @@ Strategic timing is essential. The ideal moment to transition occurs when the bo
 
 The transition requires coordinated grip management, hip control, and base awareness. Maintaining downward pressure throughout the movement prevents the bottom player from exploiting the momentary instability inherent in any positional shift. Understanding when to commit to the mount entry versus maintaining KOB pressure or attacking submissions is a key decision point that separates methodical top players from those who lose position by rushing transitions.
 
-**From Position**: [[Knee on Belly]] (Top)
+**From Position**: [[Positions/Knee on Belly]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The transition requires coordinated grip management, hip control, and base aware
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Knee on Belly]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Knee on Belly]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,23 +193,23 @@ This transition is a critical node in the top-position advancement chain, connec
 ## Related Techniques
 
 
-- [[Knee on Belly]] - Source position - transition begins from established Knee on Belly top control
+- [[Positions/Knee on Belly]] - Source position - transition begins from established Knee on Belly top control
 
-- [[Mount]] - Target position - successful transition establishes full mount for maximum control and submission access
+- [[Positions/Mount]] - Target position - successful transition establishes full mount for maximum control and submission access
 
-- [[Half Guard]] - Counter outcome destination - bottom player may recover half guard during a failed transition attempt
+- [[Positions/Half Guard]] - Counter outcome destination - bottom player may recover half guard during a failed transition attempt
 
-- [[Side Control]] - Adjacent control position frequently used before establishing KOB and as fallback if transition fails
+- [[Positions/Side Control]] - Adjacent control position frequently used before establishing KOB and as fallback if transition fails
 
-- [[S Mount]] - Alternative mount variation accessible from KOB that shares similar weight transfer mechanics
+- [[Positions/Mount/S Mount]] - Alternative mount variation accessible from KOB that shares similar weight transfer mechanics
 
-- [[Far Side Armbar from KOB]] - Alternative attack from Knee on Belly that creates the submission dilemma enabling this mount transition
+- [[Transitions/Far Side Armbar from KOB]] - Alternative attack from Knee on Belly that creates the submission dilemma enabling this mount transition
 
-- [[Elbow Escape from Mount]] - Primary escape the bottom player will attempt once mount is established after this transition
+- [[Transitions/Elbow Escape from Mount]] - Primary escape the bottom player will attempt once mount is established after this transition
 
-- [[Frame and Shrimp from Knee on Belly]] - Primary defensive technique the bottom player uses to prevent this transition from succeeding
+- [[Transitions/Frame and Shrimp from Knee on Belly]] - Primary defensive technique the bottom player uses to prevent this transition from succeeding
 
-- [[Consolidation to Mount]] - Alternative mount entry from side control that shares similar principles of weight transfer and control
+- [[Transitions/Consolidation to Mount]] - Alternative mount entry from side control that shares similar principles of weight transfer and control
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Master the attacker perspective for transitioning from Inside Sank
 
 From the attacker perspective, the Inside Sankaku to Saddle transition represents the upgrade from a strong but defensible leg entanglement to the most dominant control configuration in the modern leg lock game. The attacker must recognize specific defensive reactions that create transition opportunities, execute precise hip switching mechanics to achieve perpendicular alignment, and maintain continuous control of the trapped leg throughout the reconfiguration. The transition demands sensitivity to opponent movement rather than brute force application. When the defender commits to a specific escape direction, the attacker redirects that energy into the Saddle entry, making the opponent's own defensive effort the catalyst for positional advancement. Mastering this transition transforms Inside Sankaku from a position where you hunt submissions into a launching platform for the highest-percentage finishing position in leg lock systems.
 
-**From Position**: [[Inside Sankaku]] (Top)
+**From Position**: [[Positions/Inside Sankaku]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ From the attacker perspective, the Inside Sankaku to Saddle transition represent
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Saddle]] | 55% |
-| Failure | [[Inside Sankaku]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Saddle]] | 55% |
+| Failure | [[Positions/Inside Sankaku]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ From the attacker perspective, the Inside Sankaku to Saddle transition represent
 
 ## Opponent Counters
 
-- **Opponent frames on your hip during reconfiguration to prevent perpendicular alignment** (Effectiveness: High) - Your Response: Use your free hand to strip the frame at the wrist or elbow before continuing the hip switch. If the frame is too strong, abort the transition and return to Inside Sankaku control to attack from there instead of fighting through a strong frame. → Leads to [[Inside Sankaku]]
-- **Opponent hip escapes away explosively during the figure-four release to extract trapped leg** (Effectiveness: Medium) - Your Response: Follow their hip escape by driving your own hips forward to maintain connection. If they create significant distance, your inside leg hook should maintain enough control to prevent full extraction. Re-engage the figure-four if necessary and reset for another attempt. → Leads to [[Inside Sankaku]]
-- **Opponent posts on the mat and stands up through the transition, pulling their leg free** (Effectiveness: Medium) - Your Response: Transition to Single Leg X-Guard or elevate into a sweep attempt as they stand. Their standing posture changes the dynamic but creates sweeping opportunities if you maintain any leg entanglement during their stand-up. → Leads to [[Half Guard]]
-- **Opponent uses free leg to pummel inside and counter-entangle before Saddle is established** (Effectiveness: Low) - Your Response: Control their free leg with your top leg by pinning it to the mat or hooking it during the transition. If they achieve counter-entanglement, you may end up in a scramble but your superior hip positioning from the transition attempt gives you the advantage in re-establishing control. → Leads to [[Inside Sankaku]]
+- **Opponent frames on your hip during reconfiguration to prevent perpendicular alignment** (Effectiveness: High) - Your Response: Use your free hand to strip the frame at the wrist or elbow before continuing the hip switch. If the frame is too strong, abort the transition and return to Inside Sankaku control to attack from there instead of fighting through a strong frame. → Leads to [[Positions/Inside Sankaku]]
+- **Opponent hip escapes away explosively during the figure-four release to extract trapped leg** (Effectiveness: Medium) - Your Response: Follow their hip escape by driving your own hips forward to maintain connection. If they create significant distance, your inside leg hook should maintain enough control to prevent full extraction. Re-engage the figure-four if necessary and reset for another attempt. → Leads to [[Positions/Inside Sankaku]]
+- **Opponent posts on the mat and stands up through the transition, pulling their leg free** (Effectiveness: Medium) - Your Response: Transition to Single Leg X-Guard or elevate into a sweep attempt as they stand. Their standing posture changes the dynamic but creates sweeping opportunities if you maintain any leg entanglement during their stand-up. → Leads to [[Positions/Half Guard]]
+- **Opponent uses free leg to pummel inside and counter-entangle before Saddle is established** (Effectiveness: Low) - Your Response: Control their free leg with your top leg by pinning it to the mat or hooking it during the transition. If they achieve counter-entanglement, you may end up in a scramble but your superior hip positioning from the transition attempt gives you the advantage in re-establishing control. → Leads to [[Positions/Inside Sankaku]]
 
 
 </section>

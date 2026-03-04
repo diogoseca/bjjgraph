@@ -21,7 +21,7 @@ Strategically, this reguard occupies an important role in the butterfly half gua
 
 The mechanical execution centers on hip escape mechanics to create an angle that allows the trapped knee to pummel through, followed by immediate redirection of the freed leg into a butterfly hook position. The entire sequence must flow as one continuous movement rather than discrete steps, as any pause between leg extraction and hook insertion creates vulnerability. Upper body control through the existing underhook or frames must be maintained throughout to prevent the opponent from collapsing the space or advancing position during the transition.
 
-**From Position**: [[Butterfly Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Butterfly Half Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The mechanical execution centers on hip escape mechanics to create an angle that
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Butterfly Guard]] | 55% |
-| Failure | [[Butterfly Half Guard]] | 25% |
-| Counter | [[Flattened Half Guard]] | 20% |
+| Success | [[Positions/Butterfly Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Butterfly Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 20% |
 
 
 </section>
@@ -191,23 +191,23 @@ The Reguard from Butterfly Half Guard serves as a critical reset mechanism withi
 ## Related Techniques
 
 
-- [[Butterfly Guard]] - Target position when reguard succeeds, providing dual-hook sweeping platform
+- [[Positions/Butterfly Guard]] - Target position when reguard succeeds, providing dual-hook sweeping platform
 
-- [[Butterfly Half Guard]] - Source position where the technique begins
+- [[Positions/Half Guard/Butterfly Half Guard]] - Source position where the technique begins
 
-- [[Half Guard]] - Parent position family sharing leg entanglement mechanics
+- [[Positions/Half Guard]] - Parent position family sharing leg entanglement mechanics
 
-- [[Flattened Half Guard]] - Counter outcome when opponent capitalizes on space during extraction
+- [[Positions/Half Guard/Flattened Half Guard]] - Counter outcome when opponent capitalizes on space during extraction
 
-- [[Deep Half Guard]] - Alternative transition from butterfly half when reguard is not viable
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition from butterfly half when reguard is not viable
 
-- [[Butterfly Half Guard Sweep]] - Primary offensive technique from same starting position
+- [[Transitions/Butterfly Half Guard Sweep]] - Primary offensive technique from same starting position
 
-- [[100% Sweep]] - High-percentage attack from butterfly half whose defense can set up reguard timing
+- [[Transitions/100% Sweep]] - High-percentage attack from butterfly half whose defense can set up reguard timing
 
-- [[Recover Knee Shield from Flattened Half]] - Similar guard recovery concept from a worse starting position
+- [[Transitions/Recover Knee Shield from Flattened Half]] - Similar guard recovery concept from a worse starting position
 
-- [[Knee Shield Half Guard]] - Alternative guard frame to recover if butterfly hook is compromised
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative guard frame to recover if butterfly hook is compromised
 
 
 </section>

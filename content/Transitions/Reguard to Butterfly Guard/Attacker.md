@@ -186,7 +186,7 @@ description: "Master the Reguard to Butterfly Guard from the attacker perspectiv
 
 As the attacker executing the reguard to butterfly guard, your objective is to systematically rebuild a fully functional butterfly guard from a compromised hook control position. This means restoring three critical elements in sequence: deep hook placement, upright seated posture, and controlling upper body grips. The technique demands precise timing because every moment spent in a degraded position gives the top player opportunities to advance their pass. You must recognize the signs of position compromise immediately—shallow hooks, broken posture, or lost grips—and initiate the recovery before the top player can capitalize. The reguard is not a single explosive movement but a coordinated sequence that uses frames and hip escapes to create space, then fills that space with properly positioned hooks and posture. Success depends on maintaining at least one connection point throughout the transition while systematically rebuilding the others.
 
-**From Position**: [[Butterfly Hook Control]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the attacker executing the reguard to butterfly guard, your objective is to s
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Butterfly Guard]] | 55% |
-| Failure | [[Butterfly Hook Control]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Butterfly Guard]] | 55% |
+| Failure | [[Positions/Butterfly Guard/Butterfly Hook Control]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the attacker executing the reguard to butterfly guard, your objective is to s
 
 ## Opponent Counters
 
-- **Opponent drives heavy crossface pressure to prevent hip escape and flatten posture** (Effectiveness: High) - Your Response: Frame on the crossface arm with your near forearm while hip escaping in the opposite direction. If crossface is too strong, turn into it and establish an underhook on the crossface side, converting their pressure into your recovery tool. → Leads to [[Butterfly Hook Control]]
-- **Opponent drives knee through center to split hooks and prevent reinsertion** (Effectiveness: High) - Your Response: Remove the threatened hook preemptively and transition to half butterfly or half guard rather than fighting the knee drive. Use the remaining hook as an anchor while recovering secondary position. → Leads to [[Open Guard]]
-- **Opponent stands up to disengage from hooks entirely and reset distance** (Effectiveness: Medium) - Your Response: Follow the opponent's rise by transitioning to X-guard or single leg X-guard entries. Their standing creates opportunities for under-the-leg entries rather than the standard butterfly reguard. → Leads to [[Open Guard]]
-- **Opponent secures underhook and drives shoulder into your chest to flatten and deny posture** (Effectiveness: Medium) - Your Response: Pummel for your own underhook while hip escaping away from the pressure side. If the underhook battle is lost, transition to overhook control and use the opponent's forward drive as momentum for an overhook sweep. → Leads to [[Butterfly Hook Control]]
+- **Opponent drives heavy crossface pressure to prevent hip escape and flatten posture** (Effectiveness: High) - Your Response: Frame on the crossface arm with your near forearm while hip escaping in the opposite direction. If crossface is too strong, turn into it and establish an underhook on the crossface side, converting their pressure into your recovery tool. → Leads to [[Positions/Butterfly Guard/Butterfly Hook Control]]
+- **Opponent drives knee through center to split hooks and prevent reinsertion** (Effectiveness: High) - Your Response: Remove the threatened hook preemptively and transition to half butterfly or half guard rather than fighting the knee drive. Use the remaining hook as an anchor while recovering secondary position. → Leads to [[Positions/Open Guard]]
+- **Opponent stands up to disengage from hooks entirely and reset distance** (Effectiveness: Medium) - Your Response: Follow the opponent's rise by transitioning to X-guard or single leg X-guard entries. Their standing creates opportunities for under-the-leg entries rather than the standard butterfly reguard. → Leads to [[Positions/Open Guard]]
+- **Opponent secures underhook and drives shoulder into your chest to flatten and deny posture** (Effectiveness: Medium) - Your Response: Pummel for your own underhook while hip escaping away from the pressure side. If the underhook battle is lost, transition to overhook control and use the opponent's forward drive as momentum for an overhook sweep. → Leads to [[Positions/Butterfly Guard/Butterfly Hook Control]]
 
 
 </section>

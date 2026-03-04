@@ -22,8 +22,8 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Knee joint and posterior cruciate ligament
-**Starting Position**: [[Half Guard]]
-**From Position**: [[Half Guard]] (Bottom)
+**Starting Position**: [[Positions/Half Guard]]
+**From Position**: [[Positions/Half Guard]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -75,8 +75,8 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -218,12 +218,12 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 ## From Which Positions?
 
-- [[Half Guard]]
-- [[Knee Shield Half Guard]]
-- [[Lockdown]]
-- [[Deep Half Guard]]
-- [[Z-Guard]]
-- [[Butterfly Half Guard]]
+- [[Positions/Half Guard]]
+- [[Positions/Half Guard/Knee Shield Half Guard]]
+- [[Positions/Half Guard/Lockdown]]
+- [[Positions/Half Guard/Deep Half Guard]]
+- [[Positions/Z-Guard]]
+- [[Positions/Half Guard/Butterfly Half Guard]]
 
 
 </section>
@@ -232,12 +232,12 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 ## Related Submissions
 
-- [[Toe Hold]]
-- [[Heel Hook]]
-- [[Achilles Lock]]
-- [[Calf Slicer]]
-- [[Banana Split]]
-- [[Estima Lock]]
+- [[Transitions/Toe Hold]]
+- [[Transitions/Heel Hook]]
+- [[Submissions/Achilles Lock]]
+- [[Transitions/Calf Slicer]]
+- [[Submissions/Banana Split]]
+- [[Positions/Estima Lock]]
 
 
 </section>
@@ -246,15 +246,15 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 ## Additional Related Content
 
-- [[Half Guard]] - Primary starting position for this submission—understanding half guard structure and controls is prerequisite
-- [[Old School Sweep]] - Complementary technique from half guard that creates kneebar opportunity when defended
-- [[Lockdown]] - Leg entanglement that enhances control during transition to kneebar position
-- [[Inside Ashi-Garami]] - Alternative leg entanglement position that shares similar kneebar finishing mechanics
-- [[50-50 Guard]] - Common transition target if opponent defends kneebar by sitting back
-- [[Truck]] - Advanced position accessible if opponent rolls during kneebar defense
-- [[Leg Entanglement]] - Foundational principle for understanding control mechanics in this submission
-- [[Kneebar Control]] - Control position that precedes the finish when kneebar is not immediately available
-- [[Deep Half Guard]] - Alternative half guard position with direct rolling kneebar entry
+- [[Positions/Half Guard]] - Primary starting position for this submission—understanding half guard structure and controls is prerequisite
+- [[Transitions/Old School Sweep]] - Complementary technique from half guard that creates kneebar opportunity when defended
+- [[Positions/Half Guard/Lockdown]] - Leg entanglement that enhances control during transition to kneebar position
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative leg entanglement position that shares similar kneebar finishing mechanics
+- [[Positions/Ashi Garami/50-50 Guard]] - Common transition target if opponent defends kneebar by sitting back
+- [[Positions/Twister Control/Truck]] - Advanced position accessible if opponent rolls during kneebar defense
+- [[Positions/Leg Entanglement]] - Foundational principle for understanding control mechanics in this submission
+- [[Positions/Kneebar Control]] - Control position that precedes the finish when kneebar is not immediately available
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative half guard position with direct rolling kneebar entry
 
 
 </section>

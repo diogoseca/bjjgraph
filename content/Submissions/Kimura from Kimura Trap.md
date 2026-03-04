@@ -26,8 +26,8 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (glenohumeral) and elbow
-**Starting Position**: [[Kimura Trap]]
-**From Position**: [[Kimura Trap]] (Top)
+**Starting Position**: [[Positions/Kimura Trap]]
+**From Position**: [[Positions/Kimura Trap]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -77,8 +77,8 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Kimura Trap]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Kimura Trap]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -222,10 +222,10 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 
 ## From Which Positions?
 
-- [[Kimura Trap]]
-- [[Half Guard]]
-- [[Side Control]]
-- [[North-South]]
+- [[Positions/Kimura Trap]]
+- [[Positions/Half Guard]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
 
 
 </section>
@@ -234,11 +234,11 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 
 ## Related Submissions
 
-- [[Americana]]
-- [[Americana from Side Control]]
-- [[Arm Triangle]]
-- [[Armbar from Side Control]]
-- [[Bow and Arrow from Seat Belt]]
+- [[Transitions/Americana]]
+- [[Submissions/Americana from Side Control]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Armbar from Side Control]]
+- [[Submissions/Bow and Arrow from Seat Belt]]
 
 
 </section>
@@ -247,13 +247,13 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 
 ## Additional Related Content
 
-- [[Kimura Trap]] - Primary starting position providing the grip control infrastructure for the finish
-- [[Half Guard]] - Common entry point where Kimura grip is established before transitioning to Kimura Trap
-- [[Side Control]] - Alternative entry position where the Kimura grip can be secured on an exposed arm
-- [[Back Control]] - Transition target when opponent rolls to defend the Kimura finish
-- [[North-South]] - Alternative finishing platform providing different rotational angle on the shoulder
-- [[Americana]] - Related shoulder lock from the same positional family with reversed rotational direction
-- [[Arm Triangle]] - Chain submission available when opponent defends Kimura by bringing arm across their neck
+- [[Positions/Kimura Trap]] - Primary starting position providing the grip control infrastructure for the finish
+- [[Positions/Half Guard]] - Common entry point where Kimura grip is established before transitioning to Kimura Trap
+- [[Positions/Side Control]] - Alternative entry position where the Kimura grip can be secured on an exposed arm
+- [[Positions/Back Control]] - Transition target when opponent rolls to defend the Kimura finish
+- [[Positions/North-South]] - Alternative finishing platform providing different rotational angle on the shoulder
+- [[Transitions/Americana]] - Related shoulder lock from the same positional family with reversed rotational direction
+- [[Transitions/Arm Triangle]] - Chain submission available when opponent defends Kimura by bringing arm across their neck
 
 
 </section>

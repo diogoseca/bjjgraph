@@ -158,7 +158,7 @@ The critical defensive window occurs during the attacker's hip transition phase,
 
 From a strategic perspective, the defender must choose between two competing priorities: protecting the far arm from capture (preventing the upgrade) versus extracting the near arm from the existing leg entanglement (escaping the current position). The optimal approach is to address the most immediate threat first—if the attacker is reaching for the far arm, withdraw it; if the leg entanglement loosens during their adjustment, extract the near arm. Reading the attacker's movement and responding to the actual threat rather than anticipating creates higher escape percentages than committing to a single defensive plan.
 
-**Opponent's Starting Position**: [[Aoki Lock]] (Top)
+**Opponent's Starting Position**: [[Positions/Aoki Lock]] (Top)
 
 </section>
 
@@ -197,28 +197,28 @@ From a strategic perspective, the defender must choose between two competing pri
 ### 1. Tuck far arm tight to body and turn toward the attacker, denying the arm capture while creating escape angle
 
 - **When to use**: As soon as you feel the attacker release one hand from hip control or reach toward your far arm
-- **Targets**: [[Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock]]
 - **If successful**: Attacker cannot complete crucifix transition and must revert to Aoki Lock or abandon the attempt
 - **Risk**: Turning toward attacker may increase shoulder pressure temporarily; manage by keeping shoulder internally rotated
 
 ### 2. Extract near arm during hip transition phase when leg entanglement loosens
 
 - **When to use**: When you feel the attacker's legs shift or loosen during their hip rotation from Aoki Lock angle to crucifix alignment
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You escape the leg entanglement entirely and recover to turtle position, eliminating both Aoki Lock and crucifix threat
 - **Risk**: If extraction fails, attacker re-tightens leg entanglement in crucifix configuration which is harder to escape than Aoki Lock
 
 ### 3. Forward roll through the transition using the attacker's weight shift to generate escape momentum
 
 - **When to use**: When attacker commits weight forward during hip transition and their base becomes compromised
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Creates scramble that disrupts the transition completely; often recovers to turtle or guard position
 - **Risk**: If attacker follows the roll with arm control intact, you may end up in crucifix from a different angle
 
 ### 4. Post and create base to prevent the attacker's hip transition while maintaining far arm protection
 
 - **When to use**: When attacker begins hip rotation but has not yet captured the far arm
-- **Targets**: [[Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock]]
 - **If successful**: Strong base prevents hip transition and forces attacker to remain in Aoki Lock configuration
 - **Risk**: Posting arm may become the target for crucifix capture; must be ready to withdraw instantly if attacker redirects
 
@@ -230,11 +230,11 @@ From a strategic perspective, the defender must choose between two competing pri
 
 ## Best-Case Outcomes for Defender
 
-### → [[Aoki Lock]]
+### → [[Positions/Aoki Lock]]
 
 Deny the far arm capture by keeping it tucked tight to your body and turning toward the attacker. This forces them to revert to the original Aoki Lock position, which has known escape routes. From here you can work standard Aoki Lock escapes including rolling toward the trapped arm and attacking their posted leg base.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Time your near arm extraction to the attacker's hip transition phase when their leg entanglement loosens momentarily. Explosively pull the trapped arm free while simultaneously shrimping your hips away and tucking into turtle position. While turtle is still vulnerable, it is vastly preferable to crucifix and offers multiple guard recovery pathways.
 

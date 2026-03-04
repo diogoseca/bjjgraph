@@ -146,7 +146,7 @@ description: "Defend against the Standing Escape from SLX by maintaining hooks, 
 
 As the defender in the Standing Escape from SLX, you are the bottom player working to maintain your Single Leg X-Guard position against a top player who is attempting to stand up and disengage. Your goal is to prevent the escape by maintaining your controlling hooks, re-establishing any hooks that are cleared, and exploiting the balance vulnerabilities that the escape attempt creates. The escape process forces the top player through several transitional moments where their weight distribution shifts and their base narrows, providing windows for sweeps and transitions to deeper entanglements. Your primary tools are active hook management, grip control on the upper body to enhance pulling leverage, and the ability to follow the retreating opponent with hip mobility to maintain connection. The strongest defensive approach combines prevention of the escape with punishment when the attempt is made, creating a lose-lose scenario for the top player.
 
-**Opponent's Starting Position**: [[Single Leg X-Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender in the Standing Escape from SLX, you are the bottom player worki
 ### 1. Aggressively re-hook the hip each time the top player clears it, using rapid foot replacement
 
 - **When to use**: As soon as you feel the top player pushing your top foot off their hip, immediately replace it by re-inserting the hook from a different angle before they can address the bottom wrap
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: The escape sequence resets to the beginning, forcing the top player to expend additional energy clearing the hook again while you maintain full positional control
 - **Risk**: If your re-hooking timing is slow, the top player may clear both hooks in rapid succession and extract before you can re-establish
 
 ### 2. Time a directional sweep as the top player shifts weight during hook clearing
 
 - **When to use**: When the top player reaches down to clear your top hook, their posture changes and weight distribution shifts - extend your legs forcefully in the direction opposite to their posted free leg
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The top player is swept to their back, and you come up to top position in half guard or potentially mount depending on sweep angle
 - **Risk**: If the sweep fails, the momentum may carry you past the optimal hook position, making it easier for the top player to complete the extraction
 
 ### 3. Transition to Ashi Garami or deeper leg entanglement when hooks are partially cleared
 
 - **When to use**: When the top player successfully clears your top hip hook but your bottom ankle wrap remains, redirect your free leg into an inside or outside ashi configuration rather than fighting to restore SLX
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: You transition from a deteriorating SLX position into a fresh leg entanglement with active submission threats, forcing the top player to deal with a new defensive problem
 - **Risk**: The transition requires releasing some SLX control, and if the timing is off, the top player may complete their extraction during the positional change
 
 ### 4. Sit up and grab the ankle or pants cuff during extraction to prevent leg withdrawal
 
 - **When to use**: When both hooks have been cleared and the top player begins stepping the trapped leg backward, immediately sit up and grip their ankle, heel, or pants cuff to prevent complete disengagement
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: You arrest the extraction mid-motion and can re-insert hooks from the ankle grip, recovering full SLX or transitioning to a seated guard with leg control
 - **Risk**: Sitting up removes your hip-based leverage and if the top player pushes you back down you lose both the grip and your guard structure
 
@@ -217,11 +217,11 @@ As the defender in the Standing Escape from SLX, you are the bottom player worki
 
 ## Best-Case Outcomes for Defender
 
-### → [[Single Leg X-Guard]]
+### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 Prevent the escape entirely by maintaining active hooks that re-insert faster than the top player can clear them. Combine aggressive re-hooking with strong upper body grips that deny them the hand freedom needed to address your hooks. Force them to abandon the escape attempt and return to dealing with your sweeping and submission threats from SLX.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a sweep during the escape attempt by exploiting the transitional balance vulnerabilities. When the top player shifts weight to their free leg and reaches down to clear hooks, extend your legs explosively in the direction away from their posted foot. Their narrowed base and forward-leaning posture during hook clearing create optimal sweep conditions that would not exist during normal SLX engagement.
 

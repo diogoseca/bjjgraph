@@ -178,7 +178,7 @@ The mechanics rely on maintaining your underhook throughout the entire rolling s
 
 This transition exemplifies the principle of using opponent reactions to your advantage. The standard jailbreak already threatens turtle escape. When opponents learn to follow the roll to prevent this, they expose themselves to the back take. Training both options creates a true dilemma for the top player: disengage and allow the turtle escape, or follow and risk giving up their back.
 
-**From Position**: [[Jailbreak]] (Bottom)
+**From Position**: [[Positions/Jailbreak]] (Bottom)
 
 </section>
 
@@ -230,9 +230,9 @@ This transition exemplifies the principle of using opponent reactions to your ad
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Jailbreak]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Jailbreak]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ This transition exemplifies the principle of using opponent reactions to your ad
 
 ## Opponent Counters
 
-- **Top player disengages and resets rather than following the jailbreak roll** (Effectiveness: High) - Your Response: Settle into turtle position and work turtle escapes, or re-engage half guard. The disengage still represents positional improvement for you. → Leads to [[Jailbreak]]
-- **Top player drives hard to flatten you before roll gains momentum** (Effectiveness: High) - Your Response: Focus on maintaining underhook and creating small frames. Wait for weight shift forward before attempting escape, or switch to deep half entry. → Leads to [[Half Guard]]
-- **Top player posts arm or hip wide to base out against the rolling momentum** (Effectiveness: Medium) - Your Response: Use their wide base as opportunity to come underneath for deep half guard entry, or settle for standard turtle escape. → Leads to [[Jailbreak]]
-- **Top player strips underhook during escape attempt** (Effectiveness: High) - Your Response: Abort back take attempt immediately. Transition to defensive turtle or attempt to re-establish half guard frames. → Leads to [[Half Guard]]
+- **Top player disengages and resets rather than following the jailbreak roll** (Effectiveness: High) - Your Response: Settle into turtle position and work turtle escapes, or re-engage half guard. The disengage still represents positional improvement for you. → Leads to [[Positions/Jailbreak]]
+- **Top player drives hard to flatten you before roll gains momentum** (Effectiveness: High) - Your Response: Focus on maintaining underhook and creating small frames. Wait for weight shift forward before attempting escape, or switch to deep half entry. → Leads to [[Positions/Half Guard]]
+- **Top player posts arm or hip wide to base out against the rolling momentum** (Effectiveness: Medium) - Your Response: Use their wide base as opportunity to come underneath for deep half guard entry, or settle for standard turtle escape. → Leads to [[Positions/Jailbreak]]
+- **Top player strips underhook during escape attempt** (Effectiveness: High) - Your Response: Abort back take attempt immediately. Transition to defensive turtle or attempt to re-establish half guard frames. → Leads to [[Positions/Half Guard]]
 
 
 </section>

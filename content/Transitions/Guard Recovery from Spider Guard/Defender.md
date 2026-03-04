@@ -154,7 +154,7 @@ description: "Prevent guard recovery from Spider Guard as the top player in BJJ.
 
 As the top player passing spider guard, the bottom player's attempt to close guard represents a strategic pivot from their distance-based game to a tight-range game. Your objective is to prevent this pivot by either maintaining distance that makes guard closure impossible, driving a knee through their centerline to establish combat base, or stripping the collar grip they need to pull you into closure range. Understanding that spider guard recovery relies on using your forward momentum against you allows you to modulate your pressure—sometimes creating distance is better than driving forward, because the bottom player needs you close to close their guard. The critical decision is whether to back away to deny closure range or drive through to establish a passing position.
 
-**Opponent's Starting Position**: [[Spider Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
 
@@ -190,28 +190,28 @@ As the top player passing spider guard, the bottom player's attempt to close gua
 ### 1. Stand up and create maximum vertical distance when you feel the bottom player retracting their legs, denying the close range needed for guard closure around your torso
 
 - **When to use**: When the bottom player releases feet from your biceps and begins retracting legs, before they can wrap around your torso
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Bottom player is forced to recompose an open guard at standing distance rather than closing guard, giving you superior passing options from height
 - **Risk**: If you stand too late, the bottom player may already have legs partially wrapped and can use your upward motion to accelerate guard closure
 
 ### 2. Drive a knee through the bottom player's centerline into combat base position during their leg retraction, splitting their guard before it can close
 
 - **When to use**: When the bottom player's legs retract through the neutral zone between spider and closed guard positions
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: You establish combat base with knee splitting their guard, creating immediate passing opportunities before they can recompose any guard
 - **Risk**: If mistimed, your forward drive provides the momentum the bottom player needs to pull you into closed guard
 
 ### 3. Strip the bottom player's collar grip to remove the pulling handle they need to accelerate guard closure, then immediately establish passing grips on their legs
 
 - **When to use**: When the bottom player secures a collar grip and you feel the pulling force that precedes guard closure attempt
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: Without the collar grip, the bottom player cannot generate the pull needed to close distance, forcing them to reestablish spider guard or find alternative grips
 - **Risk**: During the grip strip, the bottom player may use your hand movement to create an opening for leg wrap
 
 ### 4. Control one of the bottom player's legs at the knee or ankle during retraction, preventing the wrapping arc and redirecting their leg to one side for a leg drag or toreando pass
 
 - **When to use**: When you can intercept the bottom player's leg during the retraction arc before it completes the wrap behind your back
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: You convert the guard recovery attempt into a passing opportunity by controlling the redirected leg for leg drag or toreando
 - **Risk**: If you only control one leg and the other completes the wrap, you may end up in half guard rather than preventing guard closure entirely
 
@@ -223,11 +223,11 @@ As the top player passing spider guard, the bottom player's attempt to close gua
 
 ## Best-Case Outcomes for Defender
 
-### → [[Combat Base]]
+### → [[Positions/Combat Base]]
 
 Drive a knee through the bottom player's centerline during the leg retraction gap, establishing combat base with passing grips before their legs can complete the guard wrap around your torso
 
-### → [[Spider Guard]]
+### → [[Positions/Spider Guard]]
 
 Strip the collar grip and create distance by standing, resetting the engagement at a range where you can re-engage with passing strategy rather than being pulled into closed guard
 

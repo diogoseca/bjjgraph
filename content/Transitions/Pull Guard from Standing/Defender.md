@@ -154,7 +154,7 @@ description: "Defend the guard pull from standing in BJJ. Recognition cues, spra
 
 As the defender against a guard pull from standing, your primary objective is to either prevent the pull entirely by stripping grips and maintaining the standing exchange, or capitalize on the transitional vulnerability to establish an immediate dominant passing position. The guard pull creates a brief but exploitable window of vulnerability where your opponent's legs are not yet locked and their base is compromised during the descent from standing to seated. Recognizing guard pull cues early — within the first half-second of initiation — allows you to sprawl, strip grips, or drive forward to deny closed guard establishment. Successful defense transforms what your opponent intended as an aggressive tactical choice into a positional advantage for you, either maintaining the standing fight or immediately entering a passing sequence against an incomplete guard structure.
 
-**Opponent's Starting Position**: [[Standing Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against a guard pull from standing, your primary objective is to
 ### 1. Sprawl hips back and drive weight away immediately upon recognizing the pull initiation cues
 
 - **When to use**: When you recognize the guard pull cues early, before the opponent has committed to the descent and before their hips pass the point of no return
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Guard pull is denied entirely, fight remains standing where you maintain tactical advantage and the opponent must restart their guard pull setup from scratch
 - **Risk**: If the sprawl is timed too late and opponent has already committed to sitting, you may end up stretched out with poor base as they complete the pull from distance
 
 ### 2. Drive a knee through the centerline during the transition gap before opponent's legs close around your waist
 
 - **When to use**: When opponent has committed to sitting and you cannot prevent the descent — target the narrow window between their hip touching the mat and their ankles locking
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish an immediate passing position with your knee inside their guard before closure, converting their guard pull into a half guard passing opportunity
 - **Risk**: If timing is off and opponent closes guard around your advancing knee, you may end up deep inside closed guard with compromised posture and their legs already controlling your torso
 
 ### 3. Strip controlling grips using two-on-one breaks before the opponent can initiate the sitting phase
 
 - **When to use**: When you notice the opponent transitioning from active grip fighting to committed guard pull grip configurations on your collar and sleeve
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent cannot execute a controlled guard pull without anchor grips, forcing them to either re-establish grips or abandon the pull attempt entirely to resume standing engagement
 - **Risk**: Grip fighting creates brief openings the opponent may exploit for a faster less controlled guard pull while your attention is focused on hand fighting rather than their body movement
 
 ### 4. Circle laterally to take an angle as the opponent begins their descent, threatening to arrive at their hip before guard closure
 
 - **When to use**: When opponent commits to the sit but you have enough grip freedom and mobility to move laterally rather than driving straight forward into their closing guard
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You arrive at opponent's hip at an angle that makes closed guard closure extremely difficult and gives immediate passing access to their open side
 - **Risk**: Lateral movement may create scramble situations where positional control is contested rather than clearly established in your favor
 
@@ -225,11 +225,11 @@ As the defender against a guard pull from standing, your primary objective is to
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Deny the guard pull entirely through early sprawl reaction, aggressive grip stripping, or maintaining strong upright posture that resists the downward pulling force. React within the first half-second of recognizing pull cues to prevent your opponent from committing their hips to the descent. Any decisive defensive action in this window is exponentially more effective than the same action taken one second later.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Capitalize on the transition gap by driving a knee through the centerline as their hips contact the mat but before their ankles lock behind your back. Time your forward knee drive to arrive during the narrow window between the sit and the guard closure, establishing an immediate passing position from inside their open guard before they can consolidate into closed guard.
 

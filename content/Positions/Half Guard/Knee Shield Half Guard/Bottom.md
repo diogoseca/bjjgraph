@@ -209,31 +209,31 @@ The knee shield half guard has become a cornerstone position in modern competiti
 
 ## Available Escapes
 
-### [[Old School Sweep]] (9% of attempts)
+### [[Transitions/Old School Sweep]] (9% of attempts)
 
-### [[Underhook Sweep from Half]] (6% of attempts)
+### [[Transitions/Underhook Sweep from Half]] (6% of attempts)
 
-### [[Deep Half Entry]] (8% of attempts)
+### [[Transitions/Deep Half Entry]] (8% of attempts)
 
-### [[Half Guard to Back Take]] (5% of attempts)
+### [[Transitions/Half Guard to Back Take]] (5% of attempts)
 
-### [[Single Leg X Entry]] (6% of attempts)
+### [[Transitions/Single Leg X Entry]] (6% of attempts)
 
-### [[Lumberjack Sweep]] (5% of attempts)
+### [[Transitions/Lumberjack Sweep]] (5% of attempts)
 
-### [[Kimura]] (4% of attempts)
+### [[Transitions/Kimura]] (4% of attempts)
 
-### [[Knee Shield Retention]] (51% of attempts)
+### [[Transitions/Knee Shield Retention]] (51% of attempts)
 
-### [[Elevator Sweep]] (4% of attempts)
+### [[Transitions/Elevator Sweep]] (4% of attempts)
 
-### [[Knee Shield Half Guard to Z-Guard]] (1% of attempts)
+### [[Transitions/Knee Shield Half Guard to Z-Guard]] (1% of attempts)
 
-### [[Knee Shield to Closed Guard]] (0% of attempts)
+### [[Transitions/Knee Shield to Closed Guard]] (0% of attempts)
 
-### [[Underhook from Knee Shield]] (0% of attempts)
+### [[Transitions/Underhook from Knee Shield]] (0% of attempts)
 
-### [[Sweep from Knee Shield]] (1% of attempts)
+### [[Transitions/Sweep from Knee Shield]] (1% of attempts)
 
 
 
@@ -244,23 +244,23 @@ The knee shield half guard has become a cornerstone position in modern competiti
 ## Decision Making from This Position
 
 **If opponent attempts to smash knee shield down and flatten position with heavy pressure:**
-- Execute **[[Knee Shield Retention]]** → [[Knee Shield Half Guard]] (Probability: 60%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Knee Shield Retention]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
 
 
 **If opponent stands up to create passing angles or attempt standing passes:**
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 65%)
-- Execute **[[Butterfly Guard to X-Guard]]** → [[X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
+- Execute **[[Transitions/Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 55%)
 
 
 **If opponent commits to knee slice or attempts to step over knee shield:**
-- Execute **[[Old School Sweep]]** → [[Side Control]] (Probability: 52%)
-- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Side Control]] (Probability: 52%)
+- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 48%)
 
 
 **If opponent establishes underhook and attempts to consolidate position:**
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 45%)
-- Execute **[[Half Guard to Back Take]]** → [[Back Control]] (Probability: 42%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 42%)
 
 
 
@@ -394,15 +394,15 @@ From knee shield, practice flowing between deep half, x-guard, and standard half
 
 ## Related Positions and Techniques
 
-- **[[Knee Shield Half Guard]]** - Hub position—this is the bottom perspective
-- **[[Half Guard]]** - Parent position—knee shield is specialized variant
-- **[[Deep Half Guard]]** - Common transition target from knee shield
-- **[[Lockdown]]** - Alternative half guard control method
-- **[[X-Guard]]** - Transition target when opponent stands
-- **[[Overhook Guard]]** - Related grip fighting concept for retention
-- **[[Old School Sweep]]** - Primary offensive technique from position
-- **[[Knee Slice from Half]]** - Most common passing threat to defend
-- **[[Flattened Half Guard]]** - Degraded position to avoid through active shield management
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Hub position—this is the bottom perspective
+- **[[Positions/Half Guard]]** - Parent position—knee shield is specialized variant
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common transition target from knee shield
+- **[[Positions/Half Guard/Lockdown]]** - Alternative half guard control method
+- **[[Positions/X-Guard]]** - Transition target when opponent stands
+- **[[Positions/Overhook Guard]]** - Related grip fighting concept for retention
+- **[[Transitions/Old School Sweep]]** - Primary offensive technique from position
+- **[[Transitions/Knee Slice from Half]]** - Most common passing threat to defend
+- **[[Positions/Half Guard/Flattened Half Guard]]** - Degraded position to avoid through active shield management
 
 
 </section>

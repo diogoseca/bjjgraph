@@ -186,7 +186,7 @@ description: "Master attacking the Sweep from Inside Sankaku. Learn hip mechanic
 
 As the attacker executing the Sweep from Inside Sankaku, you are the bottom player whose leg is trapped in the opponent's figure-four entanglement. Your objective is to exploit the mechanical connection of the entanglement itself as a lever to off-balance and reverse your opponent, landing in mount. This requires a disciplined sequence: first neutralize the submission threat by hiding your heel, then establish upper body connections, read the opponent's weight distribution, and execute the sweep at the precise moment their base is compromised. The technique demands patience, accurate timing, and commitment to the sweep direction once initiated, as half-measures result in energy loss and increased submission exposure.
 
-**From Position**: [[Inside Sankaku]] (Bottom)
+**From Position**: [[Positions/Inside Sankaku]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ As the attacker executing the Sweep from Inside Sankaku, you are the bottom play
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 30% |
-| Failure | [[Inside Sankaku]] | 45% |
-| Counter | [[Saddle]] | 25% |
+| Success | [[Positions/Mount]] | 30% |
+| Failure | [[Positions/Inside Sankaku]] | 45% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 25% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the attacker executing the Sweep from Inside Sankaku, you are the bottom play
 
 ## Opponent Counters
 
-- **Opponent maintains heavy hip pressure and stays low, preventing bridge elevation** (Effectiveness: High) - Your Response: Switch to alternative escapes such as hip shrimping or counter-entanglement to 50-50 rather than forcing a bridge against well-distributed weight. The sweep requires elevation that heavy hips deny. → Leads to [[Inside Sankaku]]
-- **Opponent posts their far hand when sensing the sweep direction, maintaining base** (Effectiveness: High) - Your Response: Grip fight more aggressively to eliminate the posting hand before re-attempting. If the post is strong, use the moment to hip escape in the opposite direction as they are now committed to one side for base. → Leads to [[Inside Sankaku]]
-- **Opponent transitions to Saddle by bringing their far leg across during your bridge attempt** (Effectiveness: Medium) - Your Response: Immediately abandon the sweep and address the new entanglement. The Saddle is a more dangerous position than Inside Sankaku, so heel protection and positional defense must take priority over any continued sweep attempt. → Leads to [[Saddle]]
-- **Opponent attacks the heel hook aggressively during the sweep setup, exploiting brief heel exposure** (Effectiveness: High) - Your Response: Abort the sweep immediately and return to full heel protection. Re-hide the heel against your hip and reset the defensive position. Never trade a heel hook finish for a sweep attempt, as the submission risk far outweighs the positional gain. → Leads to [[Inside Sankaku]]
+- **Opponent maintains heavy hip pressure and stays low, preventing bridge elevation** (Effectiveness: High) - Your Response: Switch to alternative escapes such as hip shrimping or counter-entanglement to 50-50 rather than forcing a bridge against well-distributed weight. The sweep requires elevation that heavy hips deny. → Leads to [[Positions/Inside Sankaku]]
+- **Opponent posts their far hand when sensing the sweep direction, maintaining base** (Effectiveness: High) - Your Response: Grip fight more aggressively to eliminate the posting hand before re-attempting. If the post is strong, use the moment to hip escape in the opposite direction as they are now committed to one side for base. → Leads to [[Positions/Inside Sankaku]]
+- **Opponent transitions to Saddle by bringing their far leg across during your bridge attempt** (Effectiveness: Medium) - Your Response: Immediately abandon the sweep and address the new entanglement. The Saddle is a more dangerous position than Inside Sankaku, so heel protection and positional defense must take priority over any continued sweep attempt. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent attacks the heel hook aggressively during the sweep setup, exploiting brief heel exposure** (Effectiveness: High) - Your Response: Abort the sweep immediately and return to full heel protection. Re-hide the heel against your hip and reset the defensive position. Never trade a heel hook finish for a sweep attempt, as the submission risk far outweighs the positional gain. → Leads to [[Positions/Inside Sankaku]]
 
 
 </section>

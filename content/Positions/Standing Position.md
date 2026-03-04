@@ -89,21 +89,21 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 ### Available Transitions
 
 
-- **[[Pull Guard from Standing]]** (20% of attempts)
+- **[[Transitions/Pull Guard from Standing]]** (20% of attempts)
 
-- **[[Standing Guard Pull]]** (18% of attempts)
+- **[[Transitions/Standing Guard Pull]]** (18% of attempts)
 
-- **[[Butterfly Guard Pull]]** (15% of attempts)
+- **[[Transitions/Butterfly Guard Pull]]** (15% of attempts)
 
-- **[[Sprawl Defense from Standing]]** (15% of attempts)
+- **[[Transitions/Sprawl Defense from Standing]]** (15% of attempts)
 
-- **[[Arm Drag from Standing]]** (10% of attempts)
+- **[[Transitions/Arm Drag from Standing]]** (10% of attempts)
 
-- **[[Level Change Takedown]]** (8% of attempts)
+- **[[Transitions/Level Change Takedown]]** (8% of attempts)
 
-- **[[Takedown from Bottom]]** (7% of attempts)
+- **[[Transitions/Takedown from Bottom]]** (7% of attempts)
 
-- **[[Snap Down from Standing]]** (7% of attempts)
+- **[[Transitions/Snap Down from Standing]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -168,63 +168,63 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 ### Available Transitions
 
 
-- **[[Guard Pull]]** (17% of attempts)
+- **[[Transitions/Guard Pull]]** (17% of attempts)
 
-- **[[Double Leg Setup]]** (8% of attempts)
+- **[[Transitions/Double Leg Setup]]** (8% of attempts)
 
-- **[[Single Leg Entry]]** (8% of attempts)
+- **[[Transitions/Single Leg Entry]]** (8% of attempts)
 
-- **[[Sprawl]]** (8% of attempts)
+- **[[Transitions/Sprawl]]** (8% of attempts)
 
-- **[[Double Leg Entry]]** (5% of attempts)
+- **[[Transitions/Double Leg Entry]]** (5% of attempts)
 
-- **[[Snap Down to Front Headlock]]** (5% of attempts)
+- **[[Transitions/Snap Down to Front Headlock]]** (5% of attempts)
 
-- **[[Arm Drag]]** (5% of attempts)
+- **[[Transitions/Arm Drag]]** (5% of attempts)
 
-- **[[Ankle Pick]]** (3% of attempts)
+- **[[Transitions/Ankle Pick]]** (3% of attempts)
 
-- **[[Arm Drag to Back]]** (3% of attempts)
+- **[[Transitions/Arm Drag to Back]]** (3% of attempts)
 
-- **[[Body Lock Takedown]]** (3% of attempts)
+- **[[Transitions/Body Lock Takedown]]** (3% of attempts)
 
-- **[[Jumping Guard]]** (3% of attempts)
+- **[[Transitions/Jumping Guard]]** (3% of attempts)
 
-- **[[Osoto Gari]]** (3% of attempts)
+- **[[Transitions/Osoto Gari]]** (3% of attempts)
 
-- **[[Ouchi Gari]]** (3% of attempts)
+- **[[Transitions/Ouchi Gari]]** (3% of attempts)
 
-- **[[Tomoe Nage]]** (3% of attempts)
+- **[[Transitions/Tomoe Nage]]** (3% of attempts)
 
-- **[[Deashi Harai]]** (2% of attempts)
+- **[[Transitions/Deashi Harai]]** (2% of attempts)
 
-- **[[Harai Goshi]]** (2% of attempts)
+- **[[Transitions/Harai Goshi]]** (2% of attempts)
 
-- **[[Ippon Seoi Nage]]** (2% of attempts)
+- **[[Transitions/Ippon Seoi Nage]]** (2% of attempts)
 
-- **[[Russian Tie to Back Take]]** (2% of attempts)
+- **[[Transitions/Russian Tie to Back Take]]** (2% of attempts)
 
-- **[[Sumi Gaeshi]]** (2% of attempts)
+- **[[Transitions/Sumi Gaeshi]]** (2% of attempts)
 
-- **[[Tani Otoshi]]** (2% of attempts)
+- **[[Transitions/Tani Otoshi]]** (2% of attempts)
 
-- **[[50-50 Entry from Standing]]** (1% of attempts)
+- **[[Transitions/50-50 Entry from Standing]]** (1% of attempts)
 
-- **[[Body Lock Pass]]** (1% of attempts)
+- **[[Transitions/Body Lock Pass]]** (1% of attempts)
 
-- **[[Kosoto Gake]]** (1% of attempts)
+- **[[Transitions/Kosoto Gake]]** (1% of attempts)
 
-- **[[Kosoto Gari]]** (1% of attempts)
+- **[[Transitions/Kosoto Gari]]** (1% of attempts)
 
-- **[[Morote Seoi Nage]]** (1% of attempts)
+- **[[Transitions/Morote Seoi Nage]]** (1% of attempts)
 
-- **[[Sasae Tsurikomi Ashi]]** (1% of attempts)
+- **[[Transitions/Sasae Tsurikomi Ashi]]** (1% of attempts)
 
-- **[[Tai Otoshi]]** (1% of attempts)
+- **[[Transitions/Tai Otoshi]]** (1% of attempts)
 
-- **[[Flying Kneebar]]** (2% of attempts)
+- **[[Submissions/Flying Kneebar]]** (2% of attempts)
 
-- **[[Kimura from Standing]]** (2% of attempts)
+- **[[Submissions/Kimura from Standing]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -267,27 +267,27 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 ## Related Positions
 
 
-- **[[Clinch]]** - Natural progression from standing with established grips and collar tie control
+- **[[Positions/Clinch]]** - Natural progression from standing with established grips and collar tie control
 
-- **[[Front Headlock]]** - Common transition target from snapdowns and failed shot defense
+- **[[Positions/Front Headlock]]** - Common transition target from snapdowns and failed shot defense
 
-- **[[Closed Guard]]** - Primary guard pull destination from standing engagement
+- **[[Positions/Closed Guard]]** - Primary guard pull destination from standing engagement
 
-- **[[Combat Base]]** - Standing variation of defensive base concepts shared with ground positions
+- **[[Positions/Combat Base]]** - Standing variation of defensive base concepts shared with ground positions
 
-- **[[Guard Pull]]** - Key offensive transition from standing to ground game
+- **[[Transitions/Guard Pull]]** - Key offensive transition from standing to ground game
 
-- **[[Double Leg Entry]]** - Primary takedown technique from this position
+- **[[Transitions/Double Leg Entry]]** - Primary takedown technique from this position
 
-- **[[Single Leg Entry]]** - High-percentage takedown option from standing
+- **[[Transitions/Single Leg Entry]]** - High-percentage takedown option from standing
 
-- **[[Sprawl]]** - Essential defensive response to leg attacks
+- **[[Transitions/Sprawl]]** - Essential defensive response to leg attacks
 
-- **[[De La Riva Guard]]** - Rolling guard pull destination with leg entanglement options
+- **[[Positions/De La Riva Guard]]** - Rolling guard pull destination with leg entanglement options
 
-- **[[Back Control]]** - High-value target from standing arm drags and back takes
+- **[[Positions/Back Control]]** - High-value target from standing arm drags and back takes
 
-- **[[Snap Down to Front Headlock]]** - Primary snapdown transition to establish front headlock control
+- **[[Transitions/Snap Down to Front Headlock]]** - Primary snapdown transition to establish front headlock control
 
 
 </section>

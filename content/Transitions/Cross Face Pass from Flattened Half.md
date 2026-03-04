@@ -21,7 +21,7 @@ The technique's effectiveness stems from the mechanical advantage created by dri
 
 Strategically, the cross face pass represents the natural completion of a pressure passing sequence. Once the top player has collapsed the bottom player's frames and established the flattened position, this pass provides the most direct path to side control without creating the space that would allow frame recovery. The technique rewards patience and incremental advancement over explosive movement, making it particularly effective against opponents with strong defensive half guard retention who can exploit any gap in pressure to re-establish their guard structure.
 
-**From Position**: [[Flattened Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Top)
 **Success Rate**: 52%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the cross face pass represents the natural completion of a pressu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 52% |
-| Failure | [[Flattened Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 18% |
+| Success | [[Positions/Side Control]] | 52% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 18% |
 
 
 </section>
@@ -191,25 +191,25 @@ The cross face pass from flattened half guard occupies a critical position in th
 ## Related Techniques
 
 
-- [[Flattened Half Guard]] - Source position where the pass is initiated after flattening the bottom player
+- [[Positions/Half Guard/Flattened Half Guard]] - Source position where the pass is initiated after flattening the bottom player
 
-- [[Side Control]] - Target position achieved upon successful completion of the pass
+- [[Positions/Side Control]] - Target position achieved upon successful completion of the pass
 
-- [[Half Guard]] - Parent guard position and counter outcome if defender recovers active guard
+- [[Positions/Half Guard]] - Parent guard position and counter outcome if defender recovers active guard
 
-- [[Complete Pass from Flattened Half]] - Related passing technique from the same starting position with different mechanics
+- [[Transitions/Complete Pass from Flattened Half]] - Related passing technique from the same starting position with different mechanics
 
-- [[Knee Shield Half Guard]] - Position the defender attempts to recover to when crossface pressure is insufficient
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Position the defender attempts to recover to when crossface pressure is insufficient
 
-- [[Deep Half Guard]] - Defensive transition available to the bottom player if they dive under during the pass
+- [[Positions/Half Guard/Deep Half Guard]] - Defensive transition available to the bottom player if they dive under during the pass
 
-- [[Back Take]] - Alternative transition if the defender turns away during the crossface pass attempt
+- [[Transitions/Back Take]] - Alternative transition if the defender turns away during the crossface pass attempt
 
-- [[Arm Triangle Setup]] - Submission threat available when defender crosses their arm across their neck during defense
+- [[Transitions/Arm Triangle Setup]] - Submission threat available when defender crosses their arm across their neck during defense
 
-- [[Lockdown]] - Leg control system the defender may employ to prevent leg extraction during the pass
+- [[Positions/Half Guard/Lockdown]] - Leg control system the defender may employ to prevent leg extraction during the pass
 
-- [[Americana]] - Submission opportunity when defender extends arm to fight the crossface during pass attempt
+- [[Transitions/Americana]] - Submission opportunity when defender extends arm to fight the crossface during pass attempt
 
 
 </section>

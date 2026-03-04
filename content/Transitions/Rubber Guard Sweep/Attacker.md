@@ -180,7 +180,7 @@ description: "Learn to execute the Rubber Guard Sweep with precise hip mechanics
 
 Executing the Rubber Guard Sweep requires precise timing and coordination between your rubber guard control mechanics and hip elevation. As the attacker, your primary advantage is the structural control that rubber guard provides: your opponent's posture is broken, one arm is trapped, and their base is compromised on one side. The sweep converts this control advantage into a complete positional reversal by exploiting the moment your opponent attempts to recover posture. Your execution must be decisive and well-timed, capitalizing on the brief window when your opponent shifts weight backward during their escape attempt. The key mechanical insight is that the rubber guard leg across the back functions as a lever amplifying your hip bridge force, while the arm trap removes the opponent's primary posting defense. Success depends on maintaining rubber guard tension through the sweep motion, directing bridge force at a 45-degree angle toward the trapped-arm side, and immediately transitioning to mount consolidation upon completion without creating gaps for guard recovery.
 
-**From Position**: [[Rubber Guard]] (Bottom)
+**From Position**: [[Positions/Rubber Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Rubber Guard Sweep requires precise timing and coordination betwee
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Rubber Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Rubber Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Rubber Guard Sweep requires precise timing and coordination betwee
 
 ## Opponent Counters
 
-- **Opponent bases wide with free hand and drops weight forward to prevent hip bridge from generating sufficient elevation for the sweep** (Effectiveness: High) - Your Response: Switch to a submission attack. The wide base and dropped weight bring their head closer, opening triangle and gogoplata pathways. Use the sweep fake to create the reaction that sets up New York entry or direct triangle setup from the arm isolation. → Leads to [[Rubber Guard]]
-- **Opponent extracts trapped arm during the sweep attempt by circling or explosively pulling free, removing the base weakness the sweep relies on** (Effectiveness: High) - Your Response: Immediately transition to triangle setup as the arm extraction creates the exact space needed for your leg to cross their shoulder line. The freed arm paradoxically opens your highest-percentage submission pathway from rubber guard. → Leads to [[Rubber Guard]]
-- **Opponent drives forward aggressively to flatten bottom player and prevent hip bridge initiation through sustained chest pressure** (Effectiveness: Medium) - Your Response: Accept the forward pressure and redirect it into an omoplata entry from New York position, or use the forward commitment to set up a back take by shooting your hips out laterally and threading for hooks as they overcommit. → Leads to [[Rubber Guard]]
-- **Opponent posts head on the mat during sweep to create a tripod base that resists the rotational force of the bridge** (Effectiveness: Medium) - Your Response: Use the head post as an anchor point and switch sweep direction to the opposite side, or transition to Invisible Collar position using the opponent's lowered head position to advance through the rubber guard hierarchy toward choke entries. → Leads to [[Rubber Guard]]
+- **Opponent bases wide with free hand and drops weight forward to prevent hip bridge from generating sufficient elevation for the sweep** (Effectiveness: High) - Your Response: Switch to a submission attack. The wide base and dropped weight bring their head closer, opening triangle and gogoplata pathways. Use the sweep fake to create the reaction that sets up New York entry or direct triangle setup from the arm isolation. → Leads to [[Positions/Rubber Guard]]
+- **Opponent extracts trapped arm during the sweep attempt by circling or explosively pulling free, removing the base weakness the sweep relies on** (Effectiveness: High) - Your Response: Immediately transition to triangle setup as the arm extraction creates the exact space needed for your leg to cross their shoulder line. The freed arm paradoxically opens your highest-percentage submission pathway from rubber guard. → Leads to [[Positions/Rubber Guard]]
+- **Opponent drives forward aggressively to flatten bottom player and prevent hip bridge initiation through sustained chest pressure** (Effectiveness: Medium) - Your Response: Accept the forward pressure and redirect it into an omoplata entry from New York position, or use the forward commitment to set up a back take by shooting your hips out laterally and threading for hooks as they overcommit. → Leads to [[Positions/Rubber Guard]]
+- **Opponent posts head on the mat during sweep to create a tripod base that resists the rotational force of the bridge** (Effectiveness: Medium) - Your Response: Use the head post as an anchor point and switch sweep direction to the opposite side, or transition to Invisible Collar position using the opponent's lowered head position to advance through the rubber guard hierarchy toward choke entries. → Leads to [[Positions/Rubber Guard]]
 
 
 </section>

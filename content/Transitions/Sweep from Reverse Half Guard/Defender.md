@@ -146,7 +146,7 @@ description: "Master defending the Sweep from Reverse Half Guard. Recognition cu
 
 Defending the Sweep from Reverse Half Guard requires the top player to recognize the sweep setup early and deny the mechanical conditions that make it work. The sweep relies on forward pressure commitment and rotational mechanics, so the defense centers on weight management, base control, and preventing the bottom player from generating rotational force. The defender must understand that their own forward pressure is the fuel for this sweep—the more aggressively they drive forward without awareness, the more they enable the reversal. Effective defense balances maintaining passing pressure with denying the specific weight distribution that the sweep exploits, creating a nuanced positional chess match where the top player must advance without overcommitting.
 
-**Opponent's Starting Position**: [[Reverse Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Reverse Half Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Sweep from Reverse Half Guard requires the top player to recognize
 ### 1. Post hand wide on the sweep side to create a base that stops the rotation
 
 - **When to use**: As soon as you feel the rotational force initiating—the earlier you post, the easier it is to stop the sweep
-- **Targets**: [[Reverse Half Guard]]
+- **Targets**: [[Positions/Half Guard/Reverse Half Guard]]
 - **If successful**: Sweep is completely stopped and you maintain top position in reverse half guard with opportunity to continue passing
 - **Risk**: Your posting arm may be vulnerable to the underhook elevation variant or the bottom player may redirect the sweep to the opposite direction
 
 ### 2. Sit back and withdraw forward pressure to remove the sweep's force vector
 
 - **When to use**: When you feel the bottom player tightening their leg clamp and preparing to initiate the sweep before they begin rotation
-- **Targets**: [[Reverse Half Guard]]
+- **Targets**: [[Positions/Half Guard/Reverse Half Guard]]
 - **If successful**: Denies the sweep entirely by removing the forward momentum it requires, keeping you in top position
 - **Risk**: Creates space that the bottom player can use to transition to deep half guard, back take, or standard half guard recovery
 
 ### 3. Drive crossface pressure and sprawl to flatten the bottom player before they can rotate
 
 - **When to use**: When the sweep attempt is in early stages and the bottom player has not yet generated significant rotational momentum
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Flattens the bottom player and may allow you to complete the pass to side control, converting their offensive attempt into your advancement
 - **Risk**: If your sprawl is too aggressive, it may feed additional forward pressure into the sweep if the bottom player has already initiated rotation
 
 ### 4. Extract trapped leg from the entanglement during the sweep initiation
 
 - **When to use**: When you feel the sweep setup beginning and have enough hip mobility to pull your leg free from the clamping pressure
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Completely removes the sweep mechanism and allows immediate guard pass completion to side control
 - **Risk**: If extraction fails, you may be caught in an even tighter entanglement with worse positioning for the next sweep attempt
 
@@ -217,11 +217,11 @@ Defending the Sweep from Reverse Half Guard requires the top player to recognize
 
 ## Best-Case Outcomes for Defender
 
-### → [[Reverse Half Guard]]
+### → [[Positions/Half Guard/Reverse Half Guard]]
 
 Post a hand wide on the sweep side the moment you feel rotational force. Maintain a wide base with hips heavy and avoid overcommitting forward pressure. This stops the sweep while keeping you in top position to continue your passing sequence.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Counter the sweep attempt by sprawling aggressively and driving crossface pressure to flatten the bottom player. Simultaneously work to extract your trapped leg from the entanglement. If you time the sprawl with their sweep initiation, their compromised positioning during the failed sweep creates a direct passing opportunity to side control.
 

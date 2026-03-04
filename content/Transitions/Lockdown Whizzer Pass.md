@@ -21,7 +21,7 @@ The strategic logic exploits a fundamental lockdown dynamic: the bottom player's
 
 Execution requires patience and precise sequencing. The top player must fully commit to flattening the opponent through whizzer pressure before attempting leg extraction, as premature attempts against an active lockdown will fail and may expose sweep opportunities. Once the bottom player is sufficiently flattened with their underhook neutralized, the top player uses hip pressure combined with circular knee motion to free the trapped leg and slide through to side control.
 
-**From Position**: [[Lockdown]] (Top)
+**From Position**: [[Positions/Half Guard/Lockdown]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Execution requires patience and precise sequencing. The top player must fully co
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Lockdown]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,21 +189,21 @@ The Lockdown Whizzer Pass occupies a specific tactical niche within the half gua
 ## Related Techniques
 
 
-- [[Lockdown]] - Starting position - the lockdown half guard configuration that this pass specifically counters
+- [[Positions/Half Guard/Lockdown]] - Starting position - the lockdown half guard configuration that this pass specifically counters
 
-- [[Side Control]] - Target position on successful pass completion
+- [[Positions/Side Control]] - Target position on successful pass completion
 
-- [[Half Guard]] - Parent position system - lockdown is a half guard variation
+- [[Positions/Half Guard]] - Parent position system - lockdown is a half guard variation
 
-- [[Dogfight Position]] - Common scramble position if whizzer control slips and bottom player comes up
+- [[Positions/Dogfight Position]] - Common scramble position if whizzer control slips and bottom player comes up
 
-- [[Deep Half Guard]] - Alternative position bottom player may transition to when whizzer pressure forces them to abandon underhook
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative position bottom player may transition to when whizzer pressure forces them to abandon underhook
 
-- [[Flattened Half Guard]] - Intermediate state created by successful whizzer pressure before leg extraction
+- [[Positions/Half Guard/Flattened Half Guard]] - Intermediate state created by successful whizzer pressure before leg extraction
 
-- [[Electric Chair]] - Primary lockdown threat that the whizzer pass neutralizes by flattening the bottom player
+- [[Positions/Half Guard/Electric Chair]] - Primary lockdown threat that the whizzer pass neutralizes by flattening the bottom player
 
-- [[Knee Shield Half Guard]] - Alternative half guard variation that bottom player may attempt to recover if lockdown breaks
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative half guard variation that bottom player may attempt to recover if lockdown breaks
 
 
 </section>

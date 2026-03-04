@@ -214,27 +214,27 @@ The position also provides important lessons about submission defense principles
 
 ## Available Attacks
 
-### [[Head Extraction to Posture]] (32% of attempts)
+### [[Transitions/Head Extraction to Posture]] (32% of attempts)
 
-### [[Shin Removal to Pass]] (3% of attempts)
+### [[Transitions/Shin Removal to Pass]] (3% of attempts)
 
-### [[Leg Extraction Escape]] (3% of attempts)
+### [[Transitions/Leg Extraction Escape]] (3% of attempts)
 
-### [[Stack Defense]] (8% of attempts)
+### [[Transitions/Stack Defense]] (8% of attempts)
 
-### [[Angle Change Escape]] (13% of attempts)
+### [[Transitions/Angle Change Escape]] (13% of attempts)
 
-### [[Hand Control to Extract]] (10% of attempts)
+### [[Transitions/Hand Control to Extract]] (10% of attempts)
 
-### [[Roll to Turtle]] (13% of attempts)
+### [[Transitions/Roll to Turtle]] (13% of attempts)
 
-### [[Explosive Bridge to Guard Recovery]] (6% of attempts)
+### [[Transitions/Explosive Bridge to Guard Recovery]] (6% of attempts)
 
-### [[Posture Recovery]] (10% of attempts)
+### [[Transitions/Posture Recovery]] (10% of attempts)
 
-### [[Gogoplata to Armbar]] (1% of attempts)
+### [[Transitions/Gogoplata to Armbar]] (1% of attempts)
 
-### [[Posture Up from Gogoplata]] (1% of attempts)
+### [[Transitions/Posture Up from Gogoplata]] (1% of attempts)
 
 
 
@@ -245,23 +245,23 @@ The position also provides important lessons about submission defense principles
 ## Decision Making from This Position
 
 **If gogoplata is fully locked with deep foot position and strong shin compression making breathing difficult:**
-- Execute **[[Emergency Tuck and Roll]]** → [[Turtle]] (Probability: 40%)
+- Execute **[[Emergency Tuck and Roll]]** → [[Positions/Turtle]] (Probability: 40%)
 - Execute **[[Tap for Safety]]** → [[game-over]] (Probability: 60%)
 
 
 **If shin is across throat but foot position behind head is shallow or hip elevation is inconsistent:**
-- Execute **[[Systematic Head Extraction]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Angle Change to Remove Pressure]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Systematic Head Extraction]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Angle Change to Remove Pressure]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 **If bottom player attempts to tighten submission by pulling foot deeper behind head:**
-- Execute **[[Hand Fighting Foot Position]]** → [[Open Guard]] (Probability: 45%)
-- Execute **[[Posture Recovery]]** → [[Closed Guard]] (Probability: 40%)
+- Execute **[[Hand Fighting Foot Position]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 40%)
 
 
 **If bottom player's hips drop to mat during control maintenance:**
-- Execute **[[Immediate Stack Pressure]]** → [[Half Guard]] (Probability: 65%)
-- Execute **[[Head Extraction]]** → [[Closed Guard]] (Probability: 60%)
+- Execute **[[Immediate Stack Pressure]]** → [[Positions/Half Guard]] (Probability: 65%)
+- Execute **[[Head Extraction]]** → [[Positions/Closed Guard]] (Probability: 60%)
 
 
 
@@ -395,14 +395,14 @@ Partner locks gogoplata at 80% tightness requiring immediate explosive escape at
 
 ## Related Positions and Techniques
 
-- **[[Rubber Guard]]** - Primary position from which gogoplata control is established
-- **[[Triangle Control]]** - Alternative submission when top player defends gogoplata imperfectly
-- **[[Closed Guard]]** - Target position after successful escape from gogoplata control
-- **[[Half Guard]]** - Alternative escape target position using lateral movement
-- **[[Omoplata Control]]** - Position defender must avoid when escaping gogoplata through turning movements
-- **[[Mission Control]]** - Rubber guard control position that precedes gogoplata setup
-- **[[Back Control]]** - Position exposure risk if forward roll escape is attempted
-- **[[Turtle]]** - Emergency escape destination when immediate extraction required
+- **[[Positions/Rubber Guard]]** - Primary position from which gogoplata control is established
+- **[[Positions/Triangle Control]]** - Alternative submission when top player defends gogoplata imperfectly
+- **[[Positions/Closed Guard]]** - Target position after successful escape from gogoplata control
+- **[[Positions/Half Guard]]** - Alternative escape target position using lateral movement
+- **[[Positions/Omoplata Control]]** - Position defender must avoid when escaping gogoplata through turning movements
+- **[[Positions/Rubber Guard/Mission Control]]** - Rubber guard control position that precedes gogoplata setup
+- **[[Positions/Back Control]]** - Position exposure risk if forward roll escape is attempted
+- **[[Positions/Turtle]]** - Emergency escape destination when immediate extraction required
 
 
 </section>

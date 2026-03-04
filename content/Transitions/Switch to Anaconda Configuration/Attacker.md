@@ -184,7 +184,7 @@ This transition exemplifies the principle that sophisticated turtle attack syste
 
 The anaconda configuration offers a distinct advantage over maintaining the buggy choke because the grip structure is inherently more stable and allows the gator roll finishing mechanic. Once the anaconda grip locks, the top player can roll the opponent to their back, eliminating the turtle base entirely and consolidating a finishing position that is extremely difficult to escape. This makes the transition particularly valuable in competition where opponents are adept at surviving turtle attacks but less prepared for the dynamic grip change to anaconda control.
 
-**From Position**: [[Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
 
@@ -237,9 +237,9 @@ The anaconda configuration offers a distinct advantage over maintaining the bugg
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Anaconda Control]] | 60% |
-| Failure | [[Buggy Choke]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Anaconda Control]] | 60% |
+| Failure | [[Positions/Buggy Choke]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ The anaconda configuration offers a distinct advantage over maintaining the bugg
 
 ## Opponent Counters
 
-- **Opponent tucks chin and drives forward aggressively to prevent neck encirclement during the arm redirect phase** (Effectiveness: High) - Your Response: If the neck is blocked, abandon the anaconda and immediately return to buggy choke collar grip or switch to a front headlock snapdown to break their forward drive and re-expose the neck → Leads to [[Buggy Choke]]
-- **Opponent pulls trapped arm free before the figure-four grip is secured, eliminating the head-and-arm compression** (Effectiveness: High) - Your Response: Without the trapped arm, switch to a guillotine configuration since you already have neck access, or release and transition to back control by hooking the near leg as they posture → Leads to [[Buggy Choke]]
-- **Opponent sits to guard explosively during the grip transition window when control is momentarily loose** (Effectiveness: Medium) - Your Response: Follow the sitting motion and use the partial neck grip to establish a front headlock or guillotine from the new angle. If they achieve full guard, consolidate top position and reset → Leads to [[Half Guard]]
-- **Opponent posts far arm wide and drives into you to prevent the support arm from threading under the far armpit** (Effectiveness: Medium) - Your Response: The posted arm creates a direct crucifix opportunity. Trap the extended arm with your legs while maintaining the neck grip, converting to a crucifix position with superior control → Leads to [[Buggy Choke]]
+- **Opponent tucks chin and drives forward aggressively to prevent neck encirclement during the arm redirect phase** (Effectiveness: High) - Your Response: If the neck is blocked, abandon the anaconda and immediately return to buggy choke collar grip or switch to a front headlock snapdown to break their forward drive and re-expose the neck → Leads to [[Positions/Buggy Choke]]
+- **Opponent pulls trapped arm free before the figure-four grip is secured, eliminating the head-and-arm compression** (Effectiveness: High) - Your Response: Without the trapped arm, switch to a guillotine configuration since you already have neck access, or release and transition to back control by hooking the near leg as they posture → Leads to [[Positions/Buggy Choke]]
+- **Opponent sits to guard explosively during the grip transition window when control is momentarily loose** (Effectiveness: Medium) - Your Response: Follow the sitting motion and use the partial neck grip to establish a front headlock or guillotine from the new angle. If they achieve full guard, consolidate top position and reset → Leads to [[Positions/Half Guard]]
+- **Opponent posts far arm wide and drives into you to prevent the support arm from threading under the far armpit** (Effectiveness: Medium) - Your Response: The posted arm creates a direct crucifix opportunity. Trap the extended arm with your legs while maintaining the neck grip, converting to a crucifix position with superior control → Leads to [[Positions/Buggy Choke]]
 
 
 </section>

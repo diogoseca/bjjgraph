@@ -19,7 +19,7 @@ The Darce Setup is a crucial transitional technique that transforms front headlo
 
 The Darce setup requires precise timing and technical execution rather than pure strength, making it accessible to practitioners of all sizes when properly understood. This technique serves as a gateway to multiple submission opportunities including the Darce choke, Anaconda choke, and various transitions to back control or mount positions. The setup phase is where most attempts succeed or fail — a shallow threading arm or incorrect angle dooms the finish before it begins. Mastering the mechanical details of the setup converts front headlock from a holding position into a genuine submission threat that forces opponents into increasingly desperate defensive reactions.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 **Success Rate**: 52%
 
 </section>
@@ -30,9 +30,9 @@ The Darce setup requires precise timing and technical execution rather than pure
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 60% |
-| Failure | [[Front Headlock]] | 30% |
-| Counter | [[Front Headlock]] | 10% |
+| Success | [[Positions/Darce Control]] | 60% |
+| Failure | [[Positions/Front Headlock]] | 30% |
+| Counter | [[Positions/Front Headlock]] | 10% |
 
 
 </section>
@@ -190,27 +190,27 @@ The Darce Setup serves as a critical bridge in the front headlock submission sys
 ## Related Techniques
 
 
-- [[Darce Choke]] - Direct finish from established Darce Control
+- [[Transitions/Darce Choke]] - Direct finish from established Darce Control
 
-- [[Front Headlock to Darce]] - Alternative entry pathway from front headlock
+- [[Transitions/Front Headlock to Darce]] - Alternative entry pathway from front headlock
 
-- [[Darce from Turtle]] - Parallel technique targeting turtle defense
+- [[Transitions/Darce from Turtle]] - Parallel technique targeting turtle defense
 
-- [[Anaconda from Turtle]] - Alternative arm-in choke from same position
+- [[Transitions/Anaconda from Turtle]] - Alternative arm-in choke from same position
 
-- [[Front Headlock to Anaconda]] - Sister setup with opposite arm threading
+- [[Transitions/Front Headlock to Anaconda]] - Sister setup with opposite arm threading
 
-- [[Anaconda Setup]] - Complementary setup sharing same entries
+- [[Transitions/Anaconda Setup]] - Complementary setup sharing same entries
 
-- [[Guillotine from Turtle]] - Alternative neck attack from front headlock
+- [[Transitions/Guillotine from Turtle]] - Alternative neck attack from front headlock
 
-- [[Front Headlock to Guillotine]] - Backup submission when Darce is defended
+- [[Transitions/Front Headlock to Guillotine]] - Backup submission when Darce is defended
 
-- [[Snap Down to Front Headlock]] - Primary entry to establish front headlock control
+- [[Transitions/Snap Down to Front Headlock]] - Primary entry to establish front headlock control
 
-- [[Crucifix from Turtle]] - Alternative transition when arm control is available
+- [[Transitions/Crucifix from Turtle]] - Alternative transition when arm control is available
 
-- [[Arm Triangle from Turtle]] - Related arm-in choke from similar position
+- [[Transitions/Arm Triangle from Turtle]] - Related arm-in choke from similar position
 
 
 </section>

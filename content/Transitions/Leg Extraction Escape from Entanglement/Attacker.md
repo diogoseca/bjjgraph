@@ -186,7 +186,7 @@ description: "Master the Leg Extraction Escape execution from leg entanglements.
 
 As the person executing the Leg Extraction Escape, your objective is to systematically dismantle the opponent's leg entanglement structure by clearing each connection point in sequence, then withdrawing your trapped leg to recover a safe guard position. The escape demands precise hand fighting to address the opponent's grips on your foot and hooks behind your knee, combined with coordinated hip movement to create extraction angles. Success requires recognizing the specific entanglement configuration you are trapped in, identifying which connection points are weakest, and attacking those first to create a cascading failure in the opponent's control structure. The attacker must maintain heel protection throughout the entire extraction sequence, as any moment where the heel becomes exposed during the escape creates a finishing opportunity for the opponent that is far more dangerous than the original entanglement.
 
-**From Position**: [[Leg Entanglement]] (Bottom)
+**From Position**: [[Positions/Leg Entanglement]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the person executing the Leg Extraction Escape, your objective is to systemat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 45% |
-| Failure | [[Leg Entanglement]] | 35% |
-| Counter | [[Ashi Garami]] | 20% |
+| Success | [[Positions/Open Guard]] | 45% |
+| Failure | [[Positions/Leg Entanglement]] | 35% |
+| Counter | [[Positions/Ashi Garami]] | 20% |
 
 
 </section>
@@ -250,11 +250,11 @@ As the person executing the Leg Extraction Escape, your objective is to systemat
 
 ## Opponent Counters
 
-- **Opponent follows hip retreat and re-establishes the inside hook before extraction completes** (Effectiveness: High) - Your Response: If they follow your hips, switch to an angular extraction by changing direction mid-escape. Combine with a collar drag or arm drag to redirect their momentum past you, then complete the extraction while they recover balance. → Leads to [[Leg Entanglement]]
-- **Opponent transitions to a deeper entanglement (inside ashi or saddle) during your extraction attempt** (Effectiveness: High) - Your Response: Abort the extraction immediately and address the new entanglement configuration. If they advance to saddle, transition to boot scoot escape. If they achieve inside ashi, reset your connection point clearing sequence for the new configuration before attempting extraction again. → Leads to [[Ashi Garami]]
-- **Opponent grabs the heel during extraction when foot passes through exposed angle** (Effectiveness: High) - Your Response: Immediately straighten the leg and begin heel strip defense using two-on-one wrist control. Do not continue the extraction with their hand on your heel. The heel strip must be completed before resuming any extraction movement to prevent submission during the escape. → Leads to [[Ashi Garami]]
-- **Opponent uses upper body grips to prevent you from establishing the base needed for extraction** (Effectiveness: Medium) - Your Response: Address the upper body grips first with standard grip breaks before returning to the entanglement. If they control your collar or lapel, strip it with a two-on-one break. If they control your sleeve, circle your wrist free. Upper body freedom is a prerequisite for successful extraction. → Leads to [[Leg Entanglement]]
-- **Opponent cross-grips your extracting hand to prevent you from clearing their hooks** (Effectiveness: Medium) - Your Response: Use your free hand to break their cross-grip while maintaining knee-to-chest positioning on the trapped leg. If both hands are occupied, use your free leg to push-kick their grip hand away or transition to a pummel sequence to free your hands one at a time. → Leads to [[Leg Entanglement]]
+- **Opponent follows hip retreat and re-establishes the inside hook before extraction completes** (Effectiveness: High) - Your Response: If they follow your hips, switch to an angular extraction by changing direction mid-escape. Combine with a collar drag or arm drag to redirect their momentum past you, then complete the extraction while they recover balance. → Leads to [[Positions/Leg Entanglement]]
+- **Opponent transitions to a deeper entanglement (inside ashi or saddle) during your extraction attempt** (Effectiveness: High) - Your Response: Abort the extraction immediately and address the new entanglement configuration. If they advance to saddle, transition to boot scoot escape. If they achieve inside ashi, reset your connection point clearing sequence for the new configuration before attempting extraction again. → Leads to [[Positions/Ashi Garami]]
+- **Opponent grabs the heel during extraction when foot passes through exposed angle** (Effectiveness: High) - Your Response: Immediately straighten the leg and begin heel strip defense using two-on-one wrist control. Do not continue the extraction with their hand on your heel. The heel strip must be completed before resuming any extraction movement to prevent submission during the escape. → Leads to [[Positions/Ashi Garami]]
+- **Opponent uses upper body grips to prevent you from establishing the base needed for extraction** (Effectiveness: Medium) - Your Response: Address the upper body grips first with standard grip breaks before returning to the entanglement. If they control your collar or lapel, strip it with a two-on-one break. If they control your sleeve, circle your wrist free. Upper body freedom is a prerequisite for successful extraction. → Leads to [[Positions/Leg Entanglement]]
+- **Opponent cross-grips your extracting hand to prevent you from clearing their hooks** (Effectiveness: Medium) - Your Response: Use your free hand to break their cross-grip while maintaining knee-to-chest positioning on the trapped leg. If both hands are occupied, use your free leg to push-kick their grip hand away or transition to a pummel sequence to free your hands one at a time. → Leads to [[Positions/Leg Entanglement]]
 
 
 </section>

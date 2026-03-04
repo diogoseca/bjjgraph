@@ -21,7 +21,7 @@ The strategic value of the collar drag lies in its efficiency as a position-reve
 
 The collar drag integrates into modern open guard systems as both a primary attack and a secondary option that punishes forward pressure. It chains naturally with arm drags, sit-up attacks, and various guard transitions, creating a comprehensive off-balancing system that forces the passer to respect multiple threats simultaneously. At the competition level, the collar drag remains one of the most energy-efficient paths from bottom to top position, requiring precise timing rather than superior athleticism. The resulting front headlock provides immediate access to guillotine, anaconda, darce, and back take systems, making the collar drag a gateway technique to multiple high-percentage finishing sequences.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The collar drag integrates into modern open guard systems as both a primary atta
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 55% |
-| Failure | [[Open Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Front Headlock]] | 55% |
+| Failure | [[Positions/Open Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The collar drag from open guard serves as a critical bridge between bottom guard
 ## Related Techniques
 
 
-- [[Open Guard]] - Starting position from which the collar drag is initiated
+- [[Positions/Open Guard]] - Starting position from which the collar drag is initiated
 
-- [[Front Headlock]] - Primary target position achieved on successful collar drag execution
+- [[Positions/Front Headlock]] - Primary target position achieved on successful collar drag execution
 
-- [[Arm Drag]] - Complementary off-balancing technique creating similar angle opportunities from guard
+- [[Transitions/Arm Drag]] - Complementary off-balancing technique creating similar angle opportunities from guard
 
-- [[Guillotine Setup]] - Follow-up submission attack available from front headlock after successful drag
+- [[Transitions/Guillotine Setup]] - Follow-up submission attack available from front headlock after successful drag
 
-- [[Anaconda Setup]] - Alternative submission pathway from front headlock after collar drag success
+- [[Transitions/Anaconda Setup]] - Alternative submission pathway from front headlock after collar drag success
 
-- [[Front Headlock to Back]] - Positional advancement option from front headlock achieved via collar drag
+- [[Transitions/Front Headlock to Back]] - Positional advancement option from front headlock achieved via collar drag
 
-- [[Snap Down to Front Headlock]] - Standing equivalent that creates the same front headlock position through similar mechanics
+- [[Transitions/Snap Down to Front Headlock]] - Standing equivalent that creates the same front headlock position through similar mechanics
 
-- [[Butterfly Guard]] - Complementary guard position offering similar sit-up attack opportunities
+- [[Positions/Butterfly Guard]] - Complementary guard position offering similar sit-up attack opportunities
 
-- [[Back Control]] - High-value advancement position accessible through front headlock chain
+- [[Positions/Back Control]] - High-value advancement position accessible through front headlock chain
 
-- [[Collar Sleeve Guard]] - Related guard variation using collar grip control for offensive attacks
+- [[Positions/Collar Sleeve Guard]] - Related guard variation using collar grip control for offensive attacks
 
 
 </section>

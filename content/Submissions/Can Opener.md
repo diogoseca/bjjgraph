@@ -22,8 +22,8 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 **Category**: Compression
 **Type**: Neck Crank
 **Target Area**: Cervical spine and neck muscles
-**Starting Position**: [[Closed Guard]]
-**From Position**: [[Closed Guard]] (Top)
+**Starting Position**: [[Positions/Closed Guard]]
+**From Position**: [[Positions/Closed Guard]] (Top)
 **Success Rate**: 30%
 
 </section>
@@ -80,8 +80,8 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Open Guard]] | 20% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -229,11 +229,11 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 ## From Which Positions?
 
-- [[Closed Guard]]
-- [[Half Guard]]
-- [[Butterfly Guard]]
-- [[Rubber Guard]]
-- [[De La Riva Guard]]
+- [[Positions/Closed Guard]]
+- [[Positions/Half Guard]]
+- [[Positions/Butterfly Guard]]
+- [[Positions/Rubber Guard]]
+- [[Positions/De La Riva Guard]]
 
 
 </section>
@@ -242,14 +242,14 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 ## Related Submissions
 
-- [[Guillotine Choke]]
-- [[Darce Choke]]
-- [[Anaconda Choke]]
-- [[Rear Naked Choke]]
-- [[Arm Triangle]]
-- [[Ezekiel Choke]]
-- [[North-South Choke]]
-- [[Cross Collar Choke]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Anaconda Choke]]
+- [[Transitions/Rear Naked Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Ezekiel Choke]]
+- [[Transitions/North-South Choke]]
+- [[Transitions/Cross Collar Choke]]
 
 
 </section>
@@ -258,16 +258,16 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 ## Additional Related Content
 
-- [[Closed Guard]] - Primary position where Can Opener is attempted as guard-breaking mechanism
-- [[Guillotine Choke]] - Legal alternative submission attack from similar hand positioning that targets safely
-- [[Half Guard]] - Alternative position where Can Opener variation can be attempted with similar risks
-- [[Butterfly Guard]] - Open guard position defender may transition to when opening guard to escape Can Opener
-- [[Turtle]] - Position defender may transition to when escaping Can Opener attempt
-- [[Combat Base]] - Proper posture position for guard passing that prevents dangerous neck attack setups
-- [[Open Guard]] - Alternative guard position defender transitions to when voluntarily opening guard
-- [[De La Riva Guard]] - Open guard option for defender after escaping Can Opener pressure
-- [[Darce Choke]] - Legal neck attack alternative that uses blood choke mechanics rather than spinal compression
-- [[Anaconda Choke]] - Legal neck attack alternative focusing on carotid compression rather than cervical pressure
+- [[Positions/Closed Guard]] - Primary position where Can Opener is attempted as guard-breaking mechanism
+- [[Transitions/Guillotine Choke]] - Legal alternative submission attack from similar hand positioning that targets safely
+- [[Positions/Half Guard]] - Alternative position where Can Opener variation can be attempted with similar risks
+- [[Positions/Butterfly Guard]] - Open guard position defender may transition to when opening guard to escape Can Opener
+- [[Positions/Turtle]] - Position defender may transition to when escaping Can Opener attempt
+- [[Positions/Combat Base]] - Proper posture position for guard passing that prevents dangerous neck attack setups
+- [[Positions/Open Guard]] - Alternative guard position defender transitions to when voluntarily opening guard
+- [[Positions/De La Riva Guard]] - Open guard option for defender after escaping Can Opener pressure
+- [[Transitions/Darce Choke]] - Legal neck attack alternative that uses blood choke mechanics rather than spinal compression
+- [[Transitions/Anaconda Choke]] - Legal neck attack alternative focusing on carotid compression rather than cervical pressure
 
 
 </section>

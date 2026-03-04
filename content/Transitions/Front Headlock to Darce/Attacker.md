@@ -184,7 +184,7 @@ The effectiveness of this transition lies in its seamless flow from control to s
 
 This transition is fundamental to modern no-gi grappling and represents a cornerstone of systematic front headlock attack systems. It combines well with other front headlock finishes, creating a web of attacks that force opponents into submission dilemmas. Mastery of this technique provides both a high-percentage finishing option and a powerful position from which to chain multiple submission attempts.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -238,9 +238,9 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 55% |
-| Failure | [[Front Headlock]] | 30% |
-| Counter | [[Front Headlock]] | 15% |
+| Success | [[Positions/Darce Control]] | 55% |
+| Failure | [[Positions/Front Headlock]] | 30% |
+| Counter | [[Positions/Front Headlock]] | 15% |
 
 
 </section>
@@ -249,12 +249,12 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 
 ## Opponent Counters
 
-- **Opponent grabs your leg and drives forward to prevent the circle** (Effectiveness: High) - Your Response: Switch to anaconda choke by adjusting arm position, or transition to guillotine if they drive their head up. Maintain downward head pressure and sprawl your hips back to counter their forward drive. → Leads to [[Front Headlock]]
-- **Opponent performs granby roll before you establish hip control** (Effectiveness: High) - Your Response: Follow their roll and maintain the front headlock, resetting to either continue the Darce attempt or transition to back control as they roll through. Keep your choking arm connection tight throughout the roll. → Leads to [[Front Headlock]]
-- **Opponent gets their trapped arm free before you complete the circle** (Effectiveness: Medium) - Your Response: Abandon the Darce and transition to guillotine or anaconda choke, or return to front headlock control to reset. Do not force a compromised Darce position as it becomes ineffective without proper arm trapping. → Leads to [[Front Headlock]]
-- **Opponent postures up and stands to escape the control** (Effectiveness: Medium) - Your Response: Follow them up while maintaining the front headlock, then either complete the Darce from standing or use their upward movement to snap them back down into the finishing position. Transition to guillotine if neck becomes exposed during their standup attempt. → Leads to [[Front Headlock]]
-- **Opponent tucks their chin and defends the neck while circling into you** (Effectiveness: Low) - Your Response: The Darce attacks the blood vessels on the sides of the neck rather than the windpipe, so chin defense is less effective. Continue circling and tightening the figure-four while driving your shoulder into the back of their head to complete the choke despite chin defense. → Leads to [[Darce Control]]
-- **Opponent explosively shoots in on a single leg or double leg to reverse position** (Effectiveness: High) - Your Response: Sprawl immediately while maintaining the choking arm connection. If they get underneath you, switch to a guillotine or redirect them to the mat with a snap down. Their forward drive actually deepens your arm position if you maintain the grip and sprawl correctly. → Leads to [[Front Headlock]]
+- **Opponent grabs your leg and drives forward to prevent the circle** (Effectiveness: High) - Your Response: Switch to anaconda choke by adjusting arm position, or transition to guillotine if they drive their head up. Maintain downward head pressure and sprawl your hips back to counter their forward drive. → Leads to [[Positions/Front Headlock]]
+- **Opponent performs granby roll before you establish hip control** (Effectiveness: High) - Your Response: Follow their roll and maintain the front headlock, resetting to either continue the Darce attempt or transition to back control as they roll through. Keep your choking arm connection tight throughout the roll. → Leads to [[Positions/Front Headlock]]
+- **Opponent gets their trapped arm free before you complete the circle** (Effectiveness: Medium) - Your Response: Abandon the Darce and transition to guillotine or anaconda choke, or return to front headlock control to reset. Do not force a compromised Darce position as it becomes ineffective without proper arm trapping. → Leads to [[Positions/Front Headlock]]
+- **Opponent postures up and stands to escape the control** (Effectiveness: Medium) - Your Response: Follow them up while maintaining the front headlock, then either complete the Darce from standing or use their upward movement to snap them back down into the finishing position. Transition to guillotine if neck becomes exposed during their standup attempt. → Leads to [[Positions/Front Headlock]]
+- **Opponent tucks their chin and defends the neck while circling into you** (Effectiveness: Low) - Your Response: The Darce attacks the blood vessels on the sides of the neck rather than the windpipe, so chin defense is less effective. Continue circling and tightening the figure-four while driving your shoulder into the back of their head to complete the choke despite chin defense. → Leads to [[Positions/Darce Control]]
+- **Opponent explosively shoots in on a single leg or double leg to reverse position** (Effectiveness: High) - Your Response: Sprawl immediately while maintaining the choking arm connection. If they get underneath you, switch to a guillotine or redirect them to the mat with a snap down. Their forward drive actually deepens your arm position if you maintain the grip and sprawl correctly. → Leads to [[Positions/Front Headlock]]
 
 
 </section>

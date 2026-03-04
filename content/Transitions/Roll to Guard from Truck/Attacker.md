@@ -186,7 +186,7 @@ description: "Complete guide to executing the Roll to Guard escape from Truck bo
 
 As the attacker executing the Roll to Guard, you are the bottom player in the truck position working to escape a highly dangerous leg entanglement. Your primary objective is to use a controlled forward rolling motion to extract your trapped leg from the opponent's figure-four configuration and recover an established guard position. Success requires reading your opponent's weight distribution, timing the roll to their forward commitment, and maintaining defensive awareness throughout the transition. The technique converts defensive survival energy into offensive guard recovery by channeling the opponent's rotational pressure into escape momentum.
 
-**From Position**: [[Truck]] (Bottom)
+**From Position**: [[Positions/Twister Control/Truck]] (Bottom)
 
 </section>
 
@@ -239,10 +239,10 @@ As the attacker executing the Roll to Guard, you are the bottom player in the tr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Open Guard]] | 10% |
-| Failure | [[Truck]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Twister Control/Truck]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the attacker executing the Roll to Guard, you are the bottom player in the tr
 
 ## Opponent Counters
 
-- **Opponent follows the roll and maintains back attachment, transitioning to standard back control with hooks** (Effectiveness: High) - Your Response: If you feel the opponent following your roll, abort the guard recovery and immediately address the back control by fighting hooks and establishing hand defense on your neck. Alternatively, accelerate the roll to create enough separation that they cannot insert hooks before you face them. → Leads to [[Back Control]]
-- **Opponent increases boot pressure and sprawls their weight back to prevent rotation from initiating** (Effectiveness: High) - Your Response: Switch to an alternative escape such as hip escape or granby roll. If the opponent sprawls back heavily, their upper body control loosens, which may open a window for the granby roll in the opposite direction or a leg extraction escape. → Leads to [[Truck]]
-- **Opponent secures far arm control or deep collar grip preventing the posting hand needed to initiate the roll** (Effectiveness: Medium) - Your Response: Fight the grip first by stripping their control on your far arm before attempting the roll. Use elbow pumping motion to break wrist grips. If they maintain the grip, redirect to hip escape or leg extraction instead of forcing the roll without a posting hand. → Leads to [[Truck]]
-- **Opponent releases upper body control and re-engages legs to reset the truck entanglement during your roll attempt** (Effectiveness: Medium) - Your Response: If opponent releases upper body to re-engage legs, use that moment of reduced upper body control to accelerate through the roll before they can reset the figure-four. Their leg re-engagement takes longer than completing a committed roll. → Leads to [[Truck]]
+- **Opponent follows the roll and maintains back attachment, transitioning to standard back control with hooks** (Effectiveness: High) - Your Response: If you feel the opponent following your roll, abort the guard recovery and immediately address the back control by fighting hooks and establishing hand defense on your neck. Alternatively, accelerate the roll to create enough separation that they cannot insert hooks before you face them. → Leads to [[Positions/Back Control]]
+- **Opponent increases boot pressure and sprawls their weight back to prevent rotation from initiating** (Effectiveness: High) - Your Response: Switch to an alternative escape such as hip escape or granby roll. If the opponent sprawls back heavily, their upper body control loosens, which may open a window for the granby roll in the opposite direction or a leg extraction escape. → Leads to [[Positions/Twister Control/Truck]]
+- **Opponent secures far arm control or deep collar grip preventing the posting hand needed to initiate the roll** (Effectiveness: Medium) - Your Response: Fight the grip first by stripping their control on your far arm before attempting the roll. Use elbow pumping motion to break wrist grips. If they maintain the grip, redirect to hip escape or leg extraction instead of forcing the roll without a posting hand. → Leads to [[Positions/Twister Control/Truck]]
+- **Opponent releases upper body control and re-engages legs to reset the truck entanglement during your roll attempt** (Effectiveness: Medium) - Your Response: If opponent releases upper body to re-engage legs, use that moment of reduced upper body control to accelerate through the roll before they can reset the figure-four. Their leg re-engagement takes longer than completing a committed roll. → Leads to [[Positions/Twister Control/Truck]]
 
 
 </section>

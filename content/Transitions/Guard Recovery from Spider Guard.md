@@ -17,7 +17,7 @@ description: "Master guard recovery from Spider Guard to closed guard in BJJ. St
 
 Guard Recovery from Spider Guard is a defensive transition where the bottom player closes distance and reestablishes closed guard when the Spider Guard position becomes compromised. When the opponent successfully breaks sleeve grips or begins collapsing the guard structure through pressure or grip fighting, the bottom player must transition from the open guard distance game to a tighter closed guard configuration. This recovery involves releasing foot-on-bicep controls, retracting legs to wrap around the opponent's torso, and closing the guard before the opponent can establish dominant passing grips or advance to combat base.
 
-**From Position**: [[Spider Guard]] (Bottom)
+**From Position**: [[Positions/Spider Guard]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -28,9 +28,9 @@ Guard Recovery from Spider Guard is a defensive transition where the bottom play
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Failure | [[Spider Guard]] | 30% |
-| Counter | [[Combat Base]] | 20% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Failure | [[Positions/Spider Guard]] | 30% |
+| Counter | [[Positions/Combat Base]] | 20% |
 
 
 </section>
@@ -182,29 +182,29 @@ Guard Recovery from Spider Guard occupies a critical defensive node in the open 
 ## Related Techniques
 
 
-- [[Spider Guard]] - Source position - the compromised spider guard from which closed guard recovery is initiated
+- [[Positions/Spider Guard]] - Source position - the compromised spider guard from which closed guard recovery is initiated
 
-- [[Closed Guard]] - Primary recovery target - full guard closure with offensive submissions and sweeps available
+- [[Positions/Closed Guard]] - Primary recovery target - full guard closure with offensive submissions and sweeps available
 
-- [[Combat Base]] - Counter outcome position when top player establishes asymmetric base during guard recovery attempt
+- [[Positions/Combat Base]] - Counter outcome position when top player establishes asymmetric base during guard recovery attempt
 
-- [[Open Guard]] - Parent guard system - spider guard is an open guard variation with specific grip and foot placement
+- [[Positions/Open Guard]] - Parent guard system - spider guard is an open guard variation with specific grip and foot placement
 
-- [[Lasso Guard]] - Alternative guard transition when one spider hook can be converted to a lasso wrap during grip collapse
+- [[Positions/Lasso Guard]] - Alternative guard transition when one spider hook can be converted to a lasso wrap during grip collapse
 
-- [[De La Riva Guard]] - Alternative open guard recovery option when opponent stands and creates leg hooking distance
+- [[Positions/De La Riva Guard]] - Alternative open guard recovery option when opponent stands and creates leg hooking distance
 
-- [[Collar Sleeve Guard]] - Alternative guard variation accessible when one sleeve grip is maintained during spider guard collapse
+- [[Positions/Collar Sleeve Guard]] - Alternative guard variation accessible when one sleeve grip is maintained during spider guard collapse
 
-- [[Half Guard]] - Fallback guard position when only one leg can wrap the opponent during the closing attempt
+- [[Positions/Half Guard]] - Fallback guard position when only one leg can wrap the opponent during the closing attempt
 
-- [[Spider Guard Pass]] - Opponent's passing technique that triggers the need for guard recovery from spider guard
+- [[Transitions/Spider Guard Pass]] - Opponent's passing technique that triggers the need for guard recovery from spider guard
 
-- [[Spider Sweep]] - Offensive sweep option to attempt before committing to guard recovery from spider guard
+- [[Transitions/Spider Sweep]] - Offensive sweep option to attempt before committing to guard recovery from spider guard
 
-- [[Stack Pass from Spider]] - Opponent's stacking pass that collapses spider guard distance and may trigger closed guard recovery
+- [[Transitions/Stack Pass from Spider]] - Opponent's stacking pass that collapses spider guard distance and may trigger closed guard recovery
 
-- [[Butterfly Guard]] - Alternative close-range guard recovery when opponent collapses distance before closed guard can be established
+- [[Positions/Butterfly Guard]] - Alternative close-range guard recovery when opponent collapses distance before closed guard can be established
 
 
 </section>

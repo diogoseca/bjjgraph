@@ -21,7 +21,7 @@ The technique centers on redirecting chest pressure to collapse the pocket space
 
 Strategically, the Smash Pocket Half serves as a critical link in pressure-passing chains from half guard. When the bottom player establishes a strong pocket position that resists conventional knee slice or underhook passes, the smash provides an alternative pathway that uses overwhelming pressure to reset the positional dynamic. Advanced practitioners use this technique as a setup for subsequent passes by first removing the pocket advantages before transitioning to their preferred passing sequence from the resulting flattened position.
 
-**From Position**: [[Pocket Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Pocket Half Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Smash Pocket Half serves as a critical link in pressure-passi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Flattened Half Guard]] | 55% |
-| Failure | [[Pocket Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard/Flattened Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Pocket Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Smash Pocket Half occupies a specialized niche in the half guard passing hie
 ## Related Techniques
 
 
-- [[Pocket Half Guard]] - Source position - the pocket configuration this technique targets
+- [[Positions/Half Guard/Pocket Half Guard]] - Source position - the pocket configuration this technique targets
 
-- [[Flattened Half Guard]] - Target position on success - pocket collapsed into flattened configuration
+- [[Positions/Half Guard/Flattened Half Guard]] - Target position on success - pocket collapsed into flattened configuration
 
-- [[Half Guard]] - Parent position category for both source and target positions
+- [[Positions/Half Guard]] - Parent position category for both source and target positions
 
-- [[Side Control]] - Ultimate passing target after completing subsequent pass from flattened position
+- [[Positions/Side Control]] - Ultimate passing target after completing subsequent pass from flattened position
 
-- [[Deep Half Guard]] - Common counter-transition the bottom player may attempt during the smash
+- [[Positions/Half Guard/Deep Half Guard]] - Common counter-transition the bottom player may attempt during the smash
 
-- [[Pocket Half Pass]] - Alternative passing technique from the same starting position
+- [[Transitions/Pocket Half Pass]] - Alternative passing technique from the same starting position
 
-- [[Pass Pocket Half]] - Related passing approach that addresses pocket half guard differently
+- [[Transitions/Pass Pocket Half]] - Related passing approach that addresses pocket half guard differently
 
-- [[Complete Pass from Flattened Half]] - Follow-up technique to complete the pass after successful smash
+- [[Transitions/Complete Pass from Flattened Half]] - Follow-up technique to complete the pass after successful smash
 
-- [[Cross Face Pass from Flattened Half]] - Alternative follow-up pass using crossface from the flattened position
+- [[Transitions/Cross Face Pass from Flattened Half]] - Alternative follow-up pass using crossface from the flattened position
 
-- [[Smash Pass from Knee Shield]] - Related smash technique applied to different half guard variation
+- [[Transitions/Smash Pass from Knee Shield]] - Related smash technique applied to different half guard variation
 
-- [[Knee Shield Half Guard]] - Position the bottom player may recover to if pocket is partially neutralized
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Position the bottom player may recover to if pocket is partially neutralized
 
 
 </section>

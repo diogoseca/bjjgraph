@@ -17,7 +17,7 @@ description: "Master Ouchi Gari inner reap takedown in BJJ. Step-by-step executi
 
 Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has become an essential tool in Brazilian Jiu-Jitsu's standing game. The technique involves reaping the opponent's lead leg from the inside while simultaneously breaking their posture and balance to the rear corner. Unlike pure throwing arts where the goal is a clean ippon, BJJ practitioners use Ouchi Gari both as a takedown to achieve dominant top position and as a setup for other attacks when the opponent defends. The technique's effectiveness lies in its ability to capitalize on natural standing posture—most grapplers stand with weight distributed between both legs, making them vulnerable to this inside leg attack. When executed properly, Ouchi Gari creates a powerful combination of off-balancing, sweeping action, and forward pressure that makes it extremely difficult for the opponent to maintain their base. The technique integrates seamlessly with BJJ's ground game, as a successful Ouchi Gari typically lands the practitioner in side control or a transitional position from which mount or back control can be achieved. Its versatility makes it valuable across all rulesets, from IBJJF competition to no-gi grappling and MMA applications.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -28,9 +28,9 @@ Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Failure | [[Standing Position]] | 20% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Side Control]] | 70% |
+| Failure | [[Positions/Standing Position]] | 20% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -195,29 +195,29 @@ Ouchi Gari serves as a fundamental bridge between BJJ's standing game and ground
 ## Related Techniques
 
 
-- [[Osoto Gari]] - Complementary technique - attacks outside leg instead of inside, used in combination when opponent circles away from Ouchi Gari
+- [[Transitions/Osoto Gari]] - Complementary technique - attacks outside leg instead of inside, used in combination when opponent circles away from Ouchi Gari
 
-- [[Kouchi Gari]] - Follow-up technique - most common combination when opponent steps back to defend Ouchi Gari
+- [[Transitions/Kouchi Gari]] - Follow-up technique - most common combination when opponent steps back to defend Ouchi Gari
 
-- [[Kosoto Gari]] - Alternative technique - minor outer reap that can be used when Ouchi Gari is defended or as part of combination attack
+- [[Transitions/Kosoto Gari]] - Alternative technique - minor outer reap that can be used when Ouchi Gari is defended or as part of combination attack
 
-- [[Uchi Mata]] - Advanced variation - inner thigh throw that shares kuzushi principles with Ouchi Gari but targets higher on the leg
+- [[Transitions/Uchi Mata]] - Advanced variation - inner thigh throw that shares kuzushi principles with Ouchi Gari but targets higher on the leg
 
-- [[Ippon Seoi Nage]] - Combination technique - forward throw that can be entered when opponent sprawls or pulls back from Ouchi Gari attempt
+- [[Transitions/Ippon Seoi Nage]] - Combination technique - forward throw that can be entered when opponent sprawls or pulls back from Ouchi Gari attempt
 
-- [[Side Control]] - Common ending position - typical landing position after successful Ouchi Gari execution
+- [[Positions/Side Control]] - Common ending position - typical landing position after successful Ouchi Gari execution
 
-- [[Front Headlock]] - Backup position - transitional position when opponent sprawls to defend Ouchi Gari
+- [[Positions/Front Headlock]] - Backup position - transitional position when opponent sprawls to defend Ouchi Gari
 
-- [[Single Leg Entry]] - Alternative attack - can be entered when Ouchi Gari is partially successful but doesn't complete the throw
+- [[Transitions/Single Leg Entry]] - Alternative attack - can be entered when Ouchi Gari is partially successful but doesn't complete the throw
 
-- [[Standing Position]] - Starting position - neutral standing position from which Ouchi Gari is initiated
+- [[Positions/Standing Position]] - Starting position - neutral standing position from which Ouchi Gari is initiated
 
-- [[Clinch]] - Setup position - grip fighting and clinch work that creates opportunities for Ouchi Gari
+- [[Positions/Clinch]] - Setup position - grip fighting and clinch work that creates opportunities for Ouchi Gari
 
-- [[Sprawl]] - Common counter - primary defensive response opponent uses against Ouchi Gari that must be addressed
+- [[Transitions/Sprawl]] - Common counter - primary defensive response opponent uses against Ouchi Gari that must be addressed
 
-- [[Deashi Harai]] - Alternative technique - advanced foot sweep that can be used in combination with Ouchi Gari
+- [[Transitions/Deashi Harai]] - Alternative technique - advanced foot sweep that can be used in combination with Ouchi Gari
 
 
 </section>

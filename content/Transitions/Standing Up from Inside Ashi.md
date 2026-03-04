@@ -21,7 +21,7 @@ The standup requires careful balance management during the intermediate phase wh
 
 This technique serves as an important but underutilized exit strategy within modern leg lock systems. Most ashi garami instruction focuses exclusively on submission chains and position advancements, yet the ability to stand provides a crucial alternative pathway that prevents stalling and connects ground-based leg attacks with standing grappling. Competition practitioners who integrate this transition demonstrate greater positional versatility and avoid situations where stalemate ashi positions drain the clock without productive exchanges.
 
-**From Position**: [[Inside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This technique serves as an important but underutilized exit strategy within mod
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Inside Ashi-Garami]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,23 +191,23 @@ Standing Up from Inside Ashi-Garami connects the ground-based leg lock system wi
 ## Related Techniques
 
 
-- [[Inside Ashi-Garami]] - Starting position for this transition providing the leg entanglement base
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Starting position for this transition providing the leg entanglement base
 
-- [[Standing Position]] - Primary success outcome when the standup completes successfully
+- [[Positions/Standing Position]] - Primary success outcome when the standup completes successfully
 
-- [[Open Guard]] - Counter outcome position when opponent establishes guard during the transition
+- [[Positions/Open Guard]] - Counter outcome position when opponent establishes guard during the transition
 
-- [[Ashi Garami]] - Parent position family encompassing all ashi garami variations
+- [[Positions/Ashi Garami]] - Parent position family encompassing all ashi garami variations
 
-- [[Straight Ankle Lock Control]] - Alternative submission pathway available from ashi that the standup may convert to standing finish
+- [[Positions/Straight Ankle Lock Control]] - Alternative submission pathway available from ashi that the standup may convert to standing finish
 
-- [[Ankle Lock Escape to Standing]] - Related defensive standup concept from ankle lock control
+- [[Transitions/Ankle Lock Escape to Standing]] - Related defensive standup concept from ankle lock control
 
-- [[Leg Extraction from Inside Ashi]] - Alternative disengagement method from inside ashi garami
+- [[Transitions/Leg Extraction from Inside Ashi]] - Alternative disengagement method from inside ashi garami
 
-- [[Outside Ashi-Garami]] - Neighboring leg entanglement that may develop during failed standup attempts
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Neighboring leg entanglement that may develop during failed standup attempts
 
-- [[Heel Strip from Ashi Garami]] - Defensive technique the opponent may use to free their heel during the transition
+- [[Transitions/Heel Strip from Ashi Garami]] - Defensive technique the opponent may use to free their heel during the transition
 
 
 </section>

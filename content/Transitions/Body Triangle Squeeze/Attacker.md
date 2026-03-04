@@ -180,7 +180,7 @@ description: "Complete guide to executing the body triangle squeeze submission i
 
 From the attacker's perspective, the Body Triangle Squeeze transforms a dominant control position into an active submission attempt. Your locked legs are not merely holding the opponent in place but actively compressing their ribcage to force a tap. The transition from passive control to active finishing requires specific mechanical engagement of your posterior chain, strategic angle adjustment, and coordination with upper body threats. Success depends on understanding that the squeeze works through accumulated pressure rather than explosive force, demanding patience and precise body mechanics to convert positional dominance into a submission finish. The squeeze creates a unique dynamic where time is your ally and your opponent's enemy, as every second under compression degrades their respiratory capacity and defensive willpower.
 
-**From Position**: [[Body Triangle]] (Bottom)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
 
@@ -233,8 +233,8 @@ From the attacker's perspective, the Body Triangle Squeeze transforms a dominant
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 35% |
-| Failure | [[Body Triangle]] | 45% |
-| Counter | [[Back Control]] | 20% |
+| Failure | [[Positions/Back Control/Body Triangle]] | 45% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ From the attacker's perspective, the Body Triangle Squeeze transforms a dominant
 
 ## Opponent Counters
 
-- **Opponent turns torso toward triangle leg side to reduce squeeze angle and compression surface area** (Effectiveness: Medium) - Your Response: Follow their rotation with your hips to maintain optimal squeeze angle. Use seatbelt grip to pull them back flat. If they persist in turning, the rotation often exposes their neck for choke entry, converting their defensive movement into a submission opportunity. → Leads to [[Body Triangle]]
-- **Opponent attacks the locked foot behind your knee, attempting to pry it free and break the figure-four configuration** (Effectiveness: High) - Your Response: Squeeze tighter momentarily to make the foot harder to access, then transition to crucifix or armbar setup since their hands reaching for your foot means hands not protecting their neck. If they partially dislodge the foot, use your free hand to re-secure it immediately. → Leads to [[Back Control]]
-- **Opponent bridges aggressively and creates space between their torso and your legs to relieve compression** (Effectiveness: Medium) - Your Response: Follow the bridge by maintaining chest-to-back connection and tightening your seatbelt grip. Use the bridge momentum to adjust your hip position and re-establish optimal compression angle. Their bridging effort consumes energy under restricted breathing, accelerating their fatigue. → Leads to [[Body Triangle]]
-- **Opponent tucks elbows tight against ribs to create structural defense absorbing squeeze pressure** (Effectiveness: Medium) - Your Response: Angle your squeeze to target the side without elbow protection, or use your upper body to strip their arms away from their torso. With their hands occupied defending the squeeze rather than protecting their neck, transition to choke attacks to exploit the opening. → Leads to [[Body Triangle]]
+- **Opponent turns torso toward triangle leg side to reduce squeeze angle and compression surface area** (Effectiveness: Medium) - Your Response: Follow their rotation with your hips to maintain optimal squeeze angle. Use seatbelt grip to pull them back flat. If they persist in turning, the rotation often exposes their neck for choke entry, converting their defensive movement into a submission opportunity. → Leads to [[Positions/Back Control/Body Triangle]]
+- **Opponent attacks the locked foot behind your knee, attempting to pry it free and break the figure-four configuration** (Effectiveness: High) - Your Response: Squeeze tighter momentarily to make the foot harder to access, then transition to crucifix or armbar setup since their hands reaching for your foot means hands not protecting their neck. If they partially dislodge the foot, use your free hand to re-secure it immediately. → Leads to [[Positions/Back Control]]
+- **Opponent bridges aggressively and creates space between their torso and your legs to relieve compression** (Effectiveness: Medium) - Your Response: Follow the bridge by maintaining chest-to-back connection and tightening your seatbelt grip. Use the bridge momentum to adjust your hip position and re-establish optimal compression angle. Their bridging effort consumes energy under restricted breathing, accelerating their fatigue. → Leads to [[Positions/Back Control/Body Triangle]]
+- **Opponent tucks elbows tight against ribs to create structural defense absorbing squeeze pressure** (Effectiveness: Medium) - Your Response: Angle your squeeze to target the side without elbow protection, or use your upper body to strip their arms away from their torso. With their hands occupied defending the squeeze rather than protecting their neck, transition to choke attacks to exploit the opening. → Leads to [[Positions/Back Control/Body Triangle]]
 
 
 </section>

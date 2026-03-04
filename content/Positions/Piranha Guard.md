@@ -93,25 +93,25 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 ### Available Transitions
 
 
-- **[[Pendulum Sweep]]** (21% of attempts)
+- **[[Transitions/Pendulum Sweep]]** (21% of attempts)
 
-- **[[Collar Drag]]** (10% of attempts)
+- **[[Transitions/Collar Drag]]** (10% of attempts)
 
-- **[[Triangle Setup]]** (10% of attempts)
+- **[[Transitions/Triangle Setup]]** (10% of attempts)
 
-- **[[Omoplata Sweep]]** (10% of attempts)
+- **[[Transitions/Omoplata Sweep]]** (10% of attempts)
 
-- **[[De La Riva Sweep]]** (10% of attempts)
+- **[[Transitions/De La Riva Sweep]]** (10% of attempts)
 
-- **[[Berimbolo Entry]]** (10% of attempts)
+- **[[Transitions/Berimbolo Entry]]** (10% of attempts)
 
-- **[[Flower Sweep]]** (11% of attempts)
+- **[[Transitions/Flower Sweep]]** (11% of attempts)
 
-- **[[Armbar from Guard]]** (10% of attempts)
+- **[[Submissions/Armbar from Guard]]** (10% of attempts)
 
-- **[[Piranha Guard Sweep]]** (5% of attempts)
+- **[[Transitions/Piranha Guard Sweep]]** (5% of attempts)
 
-- **[[Piranha to Worm Guard]]** (3% of attempts)
+- **[[Transitions/Piranha to Worm Guard]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -176,23 +176,23 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 ### Available Transitions
 
 
-- **[[Toreando Pass]]** (20% of attempts)
+- **[[Transitions/Toreando Pass]]** (20% of attempts)
 
-- **[[Knee Slice Pass]]** (13% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (13% of attempts)
 
-- **[[Long Step Pass]]** (11% of attempts)
+- **[[Transitions/Long Step Pass]]** (11% of attempts)
 
-- **[[Stack Pass]]** (10% of attempts)
+- **[[Transitions/Stack Pass]]** (10% of attempts)
 
-- **[[Leg Drag Pass]]** (13% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (13% of attempts)
 
-- **[[Pressure Pass]]** (14% of attempts)
+- **[[Transitions/Pressure Pass]]** (14% of attempts)
 
-- **[[X Pass]]** (11% of attempts)
+- **[[Transitions/X Pass]]** (11% of attempts)
 
-- **[[Pass Piranha Guard]]** (5% of attempts)
+- **[[Transitions/Pass Piranha Guard]]** (5% of attempts)
 
-- **[[Strip Lapel from Piranha]]** (3% of attempts)
+- **[[Transitions/Strip Lapel from Piranha]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -235,27 +235,27 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 ## Related Positions
 
 
-- **[[Worm Guard]]** - Sister lapel guard system sharing similar control principles and transition pathways
+- **[[Positions/Worm Guard]]** - Sister lapel guard system sharing similar control principles and transition pathways
 
-- **[[Squid Guard]]** - Alternative lapel guard variation with related entry mechanics and attacking angles
+- **[[Positions/Squid Guard]]** - Alternative lapel guard variation with related entry mechanics and attacking angles
 
-- **[[Lapel Guard]]** - Parent category encompassing all lapel-based guard systems including Piranha variations
+- **[[Positions/Lapel Guard]]** - Parent category encompassing all lapel-based guard systems including Piranha variations
 
-- **[[De La Riva Guard]]** - Foundational guard position sharing hooking concepts and can serve as entry point to Piranha Guard
+- **[[Positions/De La Riva Guard]]** - Foundational guard position sharing hooking concepts and can serve as entry point to Piranha Guard
 
-- **[[Lasso Guard]]** - Complementary guard system with similar sweeping mechanics and angular attacks
+- **[[Positions/Lasso Guard]]** - Complementary guard system with similar sweeping mechanics and angular attacks
 
-- **[[Spider Guard]]** - Alternative open guard that can be integrated with Piranha Guard concepts
+- **[[Positions/Spider Guard]]** - Alternative open guard that can be integrated with Piranha Guard concepts
 
-- **[[Collar Sleeve Guard]]** - Simplified fallback position when lapel configuration is compromised
+- **[[Positions/Collar Sleeve Guard]]** - Simplified fallback position when lapel configuration is compromised
 
-- **[[Open Guard]]** - Position category within which Piranha Guard exists as specialized variation
+- **[[Positions/Open Guard]]** - Position category within which Piranha Guard exists as specialized variation
 
-- **[[Triangle Control]]** - Common submission position accessed through Piranha Guard triangle setups
+- **[[Positions/Triangle Control]]** - Common submission position accessed through Piranha Guard triangle setups
 
-- **[[Omoplata Control]]** - Primary submission target from Piranha Guard when opponent posts arm defensively
+- **[[Positions/Omoplata Control]]** - Primary submission target from Piranha Guard when opponent posts arm defensively
 
-- **[[Back Control]]** - Dominant position accessed via berimbolo and collar drag transitions from Piranha Guard
+- **[[Positions/Back Control]]** - Dominant position accessed via berimbolo and collar drag transitions from Piranha Guard
 
 
 </section>

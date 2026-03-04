@@ -21,7 +21,7 @@ Strategically, this transition serves multiple purposes in your passing game. Kn
 
 The biomechanical advantage of this transition lies in the leg drag's control over the opponent's hips. With their leg dragged across their body, the opponent cannot effectively bridge or create the hip movement necessary to prevent your knee placement. Your existing shoulder control from the leg drag position provides the upper body dominance needed to safely release the leg and transition your knee to their midsection. Understanding this connection between leg drag mechanics and knee on belly establishment is essential for high-percentage execution.
 
-**From Position**: [[Leg Drag Control]] (Top)
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 **Success Rate**: 78%
 
 </section>
@@ -32,9 +32,9 @@ The biomechanical advantage of this transition lies in the leg drag's control ov
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Knee on Belly]] | 65% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Knee on Belly]] | 65% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Leg Drag to Knee on Belly transition sits at a critical junction in the pres
 ## Related Techniques
 
 
-- [[Leg Drag Control]] - Starting position
+- [[Positions/Leg Drag Control]] - Starting position
 
-- [[Knee on Belly]] - Target position
+- [[Positions/Knee on Belly]] - Target position
 
-- [[Leg Drag Pass to Side Control]] - Alternative transition from same position
+- [[Transitions/Leg Drag Pass to Side Control]] - Alternative transition from same position
 
-- [[Leg Drag to Back Take]] - Alternative when opponent turns away
+- [[Transitions/Leg Drag to Back Take]] - Alternative when opponent turns away
 
-- [[Leg Drag to Mount]] - Alternative advancement option
+- [[Transitions/Leg Drag to Mount]] - Alternative advancement option
 
-- [[Baseball Bat Choke]] - Follow-up submission from knee on belly
+- [[Transitions/Baseball Bat Choke]] - Follow-up submission from knee on belly
 
-- [[Armbar from Side Control]] - Follow-up attack from knee on belly
+- [[Submissions/Armbar from Side Control]] - Follow-up attack from knee on belly
 
-- [[Cross Collar Choke]] - Follow-up submission from knee on belly
+- [[Transitions/Cross Collar Choke]] - Follow-up submission from knee on belly
 
-- [[Half Guard]] - Common recovery position if transition fails
+- [[Positions/Half Guard]] - Common recovery position if transition fails
 
-- [[Side Control]] - Alternative consolidation from knee on belly
+- [[Positions/Side Control]] - Alternative consolidation from knee on belly
 
 
 </section>

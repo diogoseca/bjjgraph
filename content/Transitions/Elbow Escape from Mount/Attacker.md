@@ -180,7 +180,7 @@ description: "Execute the Elbow Escape from Mount with systematic hip movement, 
 
 Executing the Elbow Escape from Mount requires systematic coordination of framing, hip movement, and knee insertion against an opponent applying heavy top pressure. The attacker (bottom player) must create and preserve incremental space through lateral hip escapes while maintaining defensive frames that prevent the top player from following and re-centering. Success demands patience, precise timing of each movement phase, and the discipline to chain small movements rather than relying on explosive strength. The fundamental sequence involves establishing a frame on the opponent's hip or thigh, executing a hip escape to create space, inserting the knee as a wedge, and recovering to half guard where offensive options become available. The escape rewards practitioners who treat each phase as a discrete checkpoint rather than rushing through a single continuous motion.
 
-**From Position**: [[Mount]] (Bottom)
+**From Position**: [[Positions/Mount]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ Executing the Elbow Escape from Mount requires systematic coordination of framin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Mount]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Mount]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ Executing the Elbow Escape from Mount requires systematic coordination of framin
 
 ## Opponent Counters
 
-- **Top player follows hip escape and immediately re-centers weight over your torso** (Effectiveness: High) - Your Response: Chain a second immediate hip escape in the same direction before they fully settle, or switch escape direction if they overcommit to following one side → Leads to [[Mount]]
-- **Top player drives knee over your inserted knee to re-establish full mount** (Effectiveness: Medium) - Your Response: Maintain strong knee shield frame angle and use your underhook to prevent flattening, threaten underhook sweep if they drive their weight forward to pass → Leads to [[Mount]]
-- **Top player inserts far hook and transitions to back control as you turn to your side** (Effectiveness: High) - Your Response: Keep elbow tight to hip during the turn to block hook insertion, maintain frame connection with opponent's hip, and immediately turn back toward them if you feel a hook entering → Leads to [[Back Control]]
-- **Top player isolates your framing arm and attacks with Americana** (Effectiveness: Medium) - Your Response: Keep framing elbow pinned tight to your body and immediately withdraw arm while hip escaping in the opposite direction to create a new escape angle → Leads to [[Mount]]
+- **Top player follows hip escape and immediately re-centers weight over your torso** (Effectiveness: High) - Your Response: Chain a second immediate hip escape in the same direction before they fully settle, or switch escape direction if they overcommit to following one side → Leads to [[Positions/Mount]]
+- **Top player drives knee over your inserted knee to re-establish full mount** (Effectiveness: Medium) - Your Response: Maintain strong knee shield frame angle and use your underhook to prevent flattening, threaten underhook sweep if they drive their weight forward to pass → Leads to [[Positions/Mount]]
+- **Top player inserts far hook and transitions to back control as you turn to your side** (Effectiveness: High) - Your Response: Keep elbow tight to hip during the turn to block hook insertion, maintain frame connection with opponent's hip, and immediately turn back toward them if you feel a hook entering → Leads to [[Positions/Back Control]]
+- **Top player isolates your framing arm and attacks with Americana** (Effectiveness: Medium) - Your Response: Keep framing elbow pinned tight to your body and immediately withdraw arm while hip escaping in the opposite direction to create a new escape angle → Leads to [[Positions/Mount]]
 
 
 </section>

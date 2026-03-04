@@ -154,7 +154,7 @@ description: "How to defend against the Over-Under Pass in BJJ. Recognition cues
 
 Defending the Over-Under Pass requires early recognition of the passer's grip configuration and immediate disruption before the stacking pressure consolidates. The bottom player's primary defensive window occurs before the opponent establishes both the under-hook and over-hook simultaneously - once both grips are secured and the stack is loaded, defensive options narrow dramatically. Effective defense centers on three pillars: preventing the initial grip establishment through proactive framing and hip movement, disrupting the stacking angle through hip escapes and leg pummeling when grips are partially established, and executing last-resort recoveries through inversion or turtle transitions when the pass is nearly complete. Understanding the biomechanics of the Over-Under Pass from the defender's perspective reveals that the passer relies on eliminating hip mobility through the stack and controlling lateral movement through the over-hook. Your defensive strategy must target these two control points by fighting to keep your hips mobile and your legs free to re-establish guard structure.
 
-**Opponent's Starting Position**: [[Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Over-Under Pass requires early recognition of the passer's grip co
 ### 1. Establish knee shield and frame against opponent's shoulder before they secure the over-hook, then hip escape to create angle for guard recovery
 
 - **When to use**: Early phase - when you feel the opponent beginning to thread the under-hook but before they have secured the over-hook on your far leg
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to a strong half guard position with knee shield, preventing the over-under configuration from being established and maintaining offensive guard options
 - **Risk**: If the opponent powers through your knee shield with heavy pressure, you may end up flattened with both grips established, making subsequent defense harder
 
 ### 2. Pummel your far leg free from the over-hook by pushing against opponent's hip with your foot and circling your knee out, then re-establish butterfly hook or closed guard
 
 - **When to use**: Middle phase - when the opponent has the under-hook but their over-hook grip on your far leg is not yet fully secured or is shallow
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You free your far leg and can re-insert it as a butterfly hook or recover to closed guard, completely negating the over-under pass attempt
 - **Risk**: The leg pummeling motion can open space for the opponent to advance the pass more quickly if your timing is off or if you lose your frames during the attempt
 
 ### 3. Execute a strong hip escape toward the over-hook side while bridging to off-load the stack, then turn into the opponent to recover guard or execute a sweep reversal
 
 - **When to use**: Late phase - when the stack is partially loaded but the opponent has not yet begun hip circulation, and you still have some hip mobility remaining
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You break the stacking angle and create enough space to recover half guard with proper frames, or in the best case reverse the position through a well-timed sweep
 - **Risk**: A poorly timed bridge can accelerate the pass if the opponent is already circling, and turning toward them can expose your back if they follow the rotation
 
 ### 4. Accept the pass is completing and turn to turtle position, establishing strong defensive posture with elbows tight and chin tucked before opponent settles side control
 
 - **When to use**: Emergency phase - when the opponent's hips have cleared your legs and side control is imminent, making guard recovery impossible
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You avoid the side control pin and establish turtle, which gives you opportunities to re-guard through sit-outs or granby rolls before the opponent can secure back control
 - **Risk**: Turning to turtle exposes you to back takes, front headlock attacks, and crucifix entries if the opponent follows your rotation with maintained grips
 
@@ -225,11 +225,11 @@ Defending the Over-Under Pass requires early recognition of the passer's grip co
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Deny the over-under grip configuration early by maintaining an active knee shield that blocks the under-hook arm from threading under your thigh. Frame against the opponent's shoulder to prevent chest pressure from collapsing your guard structure. Use hip escape to re-establish proper half guard positioning with frames and distance.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If the stack has partially loaded, execute a well-timed bridge and hip escape toward the over-hook side to break the stacking angle. As the opponent's pressure shifts, pummel your far leg free and re-insert it as a knee shield or butterfly hook. Even recovering to a neutral half guard position with your frames intact is a successful defensive outcome that resets the passing exchange.
 

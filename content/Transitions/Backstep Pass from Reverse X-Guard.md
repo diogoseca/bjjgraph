@@ -21,7 +21,7 @@ The backstep pass is particularly effective when the opponent commits strongly t
 
 This technique has become a staple in modern passing systems against inverted guards and leg entanglement positions. Its value lies in its directness: rather than attempting to fight through hooks or disengage entirely, the backstep converts the opponent's leg control into a passing angle. The primary risk is the opponent following the rotation with an inversion to take the back, making upper body control and rotation speed essential components of successful execution.
 
-**From Position**: [[Reverse X-Guard]] (Top)
+**From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ This technique has become a staple in modern passing systems against inverted gu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Success | [[Half Guard]] | 10% |
-| Failure | [[Reverse X-Guard]] | 25% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Side Control]] | 50% |
+| Success | [[Positions/Half Guard]] | 10% |
+| Failure | [[Positions/X-Guard/Reverse X-Guard]] | 25% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -192,27 +192,27 @@ The Backstep Pass from Reverse X-Guard occupies a critical node in the modern pa
 ## Related Techniques
 
 
-- [[Reverse X-Guard]] - Source position where the pass initiates
+- [[Positions/X-Guard/Reverse X-Guard]] - Source position where the pass initiates
 
-- [[Side Control]] - Primary target position upon successful pass
+- [[Positions/Side Control]] - Primary target position upon successful pass
 
-- [[Half Guard]] - Secondary outcome when pass is partially completed
+- [[Positions/Half Guard]] - Secondary outcome when pass is partially completed
 
-- [[Back Control]] - Counter outcome if opponent inverts during backstep
+- [[Positions/Back Control]] - Counter outcome if opponent inverts during backstep
 
-- [[Back Step Pass]] - Related fundamental backstep passing technique
+- [[Transitions/Back Step Pass]] - Related fundamental backstep passing technique
 
-- [[Backstep from Single Leg X]] - Similar backstep pass from related leg entanglement guard
+- [[Transitions/Backstep from Single Leg X]] - Similar backstep pass from related leg entanglement guard
 
-- [[Backstep from De La Riva]] - Similar backstep pass from DLR guard
+- [[Transitions/Backstep from De La Riva]] - Similar backstep pass from DLR guard
 
-- [[Backstep from Deep Half]] - Backstep pass from another bottom-side guard
+- [[Transitions/Backstep from Deep Half]] - Backstep pass from another bottom-side guard
 
-- [[X-Guard]] - Related guard position with similar hook structures
+- [[Positions/X-Guard]] - Related guard position with similar hook structures
 
-- [[Single Leg X-Guard]] - Guard the opponent may transition to during failed pass
+- [[Positions/X-Guard/Single Leg X-Guard]] - Guard the opponent may transition to during failed pass
 
-- [[Headquarters Position]] - Alternative neutral passing position if backstep stalls
+- [[Positions/Headquarters Position]] - Alternative neutral passing position if backstep stalls
 
 
 </section>

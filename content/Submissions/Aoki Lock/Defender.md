@@ -194,28 +194,28 @@ Defending the Aoki Lock requires understanding the unique compression mechanics 
 ### 1. Extract trapped leg before figure-four completion by pulling knee to chest and rotating hip internally
 
 - **When to use**: As soon as you recognize the inside leg threading motion beginning - this is the highest-percentage defense window before the closed loop is established
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Return to neutral ashi garami position where you can work standard leg lock defense or attempt guard passing
 - **Risk**: If extraction fails midway, you may expose your heel to traditional heel hook attack as a backup threat
 
 ### 2. Sit up aggressively and drive forward to collapse the attacker's hip extension and break the figure-four structure
 
 - **When to use**: When the figure-four is partially locked but compression has not yet been applied - your forward pressure disrupts their hip mechanics and creates structural weakness in the lock
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Break the figure-four configuration and transition to top position or guard passing opportunity with their guard compromised
 - **Risk**: If attacker maintains lock during your sit-up, you may drive yourself deeper into the compression by closing distance
 
 ### 3. Rotate trapped leg externally and pull foot into maximum dorsiflexion to prevent foot from seating in compression pocket
 
 - **When to use**: When the figure-four is being established and your foot is being guided into plantar flexion - fighting the foot position delays or prevents effective lock engagement
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Prevent the Aoki Lock from achieving proper foot position, forcing attacker to abandon the setup or transition to alternative attack
 - **Risk**: External rotation may expose your knee to heel hook if attacker switches attacks mid-sequence
 
 ### 4. Stand up explosively while driving trapped leg's knee forward to break ashi garami frame and figure-four simultaneously
 
 - **When to use**: When you have sufficient base with your free leg and the lock is not yet fully engaged - standing creates structural advantages that make the compression angle ineffective
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Break free from leg entanglement entirely and return to standing or establish top passing position
 - **Risk**: If the lock is already engaged, standing may increase compression on your shin and accelerate the submission
 
@@ -238,11 +238,11 @@ Defending the Aoki Lock requires understanding the unique compression mechanics 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ashi Garami]]
+### → [[Positions/Ashi Garami]]
 
 Extract trapped leg during the figure-four threading phase before the lock is completed, using internal hip rotation and knee retraction to clear the entanglement and return to standard ashi garami top position
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Collapse the attacker's structure through aggressive forward posturing or standing, breaking the figure-four and passing to a dominant top position or guard passing scenario
 

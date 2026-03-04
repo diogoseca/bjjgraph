@@ -146,7 +146,7 @@ description: "Counter the hip scoot escape from back control. Learn to maintain 
 
 As the back controller, your opponent's hip scoot escape represents one of the most common threats to your dominant position. Recognizing the early signs of this escape and responding with immediate hook adjustment, hip following, and submission pressure is essential for maintaining back control. The hip scoot becomes dangerous when you allow incremental hip movement without matching it, creating cumulative distance that eventually drops their hips below your hooks. Your primary defense involves maintaining tight chest-to-back connection while actively following any downward hip movement with your own hip adjustment, preventing the gap between your hooks and their hips from ever widening beyond recoverable distance.
 
-**Opponent's Starting Position**: [[Back Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the back controller, your opponent's hip scoot escape represents one of the m
 ### 1. Follow hip movement with your own body, scooting your hips to match their downward movement and maintaining hook depth
 
 - **When to use**: As soon as you detect any downward hip shifting or shoulder walking motion from the opponent
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Maintain full back control with hooks deep and chest-to-back connection preserved
 - **Risk**: Slight loosening of upper body control during body adjustment may create brief window for opponent hand fighting
 
 ### 2. Attack the neck with immediate choke attempt when opponent's hands leave defensive position to initiate scooting
 
 - **When to use**: When opponent shifts hands away from chin defense toward hooks or begins shoulder walking
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Forces opponent to abort escape and return to full neck defense, resetting the escape sequence entirely
 - **Risk**: Overcommitting to choke may loosen hook control if opponent uses the moment to clear hooks while you chase the neck
 
 ### 3. Transition to body triangle by locking your legs in triangle configuration around opponent's waist
 
 - **When to use**: When repeated scooting attempts indicate your hooks are vulnerable to being cleared through hip movement
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Eliminates the scooting escape entirely as body triangle cannot be cleared through downward hip movement
 - **Risk**: Brief vulnerability during transition from hooks to body triangle may allow opponent to escape in that moment
 
 ### 4. Follow opponent's rotation and transition to mount by sliding over their hips as they attempt to turn and face you
 
 - **When to use**: When opponent has cleared your hooks and begins turning to establish guard recovery
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Convert opponent's escape attempt into dominant mount position rather than losing control entirely
 - **Risk**: Mistimed mount transition may result in ending up in opponent's half guard or open guard
 
@@ -217,11 +217,11 @@ As the back controller, your opponent's hip scoot escape represents one of the m
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Follow all hip movement immediately by scooting your own body to match, maintaining hook depth and chest-to-back connection throughout the opponent's escape attempt
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When opponent successfully clears hooks and begins to turn, follow their rotation over their hips and establish mount before they can insert their knee for half guard
 

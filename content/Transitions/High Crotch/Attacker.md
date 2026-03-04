@@ -176,7 +176,7 @@ The High Crotch from the attacker's perspective is a systematic takedown built o
 
 The finishing phase offers multiple options depending on the opponent's defensive reaction, making the high crotch a branching attack rather than a single-path technique. Whether you run the pipe, lift and return, trip the far leg, or transition to a double leg, each finish exploits a specific defensive posture. Reading which finish to apply in real time is the skill that separates advanced practitioners from intermediate ones.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ The finishing phase offers multiple options depending on the opponent's defensiv
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 60% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Standing Position]] | 15% |
+| Success | [[Positions/Side Control]] | 60% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ The finishing phase offers multiple options depending on the opponent's defensiv
 
 ## Opponent Counters
 
-- **Sprawl defense with hips back and weight down on your upper back** (Effectiveness: High) - Your Response: Adjust to a low single leg variation or transition to a different takedown. If they sprawl hard, you can run around to their back by circling to the outside of the captured leg while keeping your grip tight. Alternatively, elevate the captured leg higher and switch to a double leg finish by capturing both legs. → Leads to [[Standing Position]]
-- **Guillotine choke attempt as you change levels for the shot** (Effectiveness: Medium) - Your Response: Maintain proper head position on the outside of their captured leg throughout the technique. If they start to secure a guillotine grip, immediately adjust your head position lower and tighter to their hip, making it difficult for them to get under your chin. Continue driving forward aggressively to complete the takedown before they can lock in the choke, as completing the takedown typically breaks their grip structure. → Leads to [[Standing Position]]
-- **Whizzer overhook on your near arm to kill your forward drive** (Effectiveness: Medium) - Your Response: Do not fight the whizzer directly. Instead, use it to your advantage by continuing to drive forward and slightly in the direction of the whizzer. You can transition to running the pipe finish or switch to a fireman's carry by ducking under their whizzer arm. Another option is to release the whizzer side temporarily and transition to a low single leg finish on the same leg. → Leads to [[Standing Position]]
-- **Limp leg defense where opponent extracts their leg by pulling it straight back** (Effectiveness: Low) - Your Response: Anticipate the leg pull by maintaining continuous forward pressure and high shoulder position. As they try to extract their leg, follow it aggressively while driving your shoulder through their hips. You can also switch to a double leg by quickly capturing both legs, or transition to a single leg finish by adjusting your grip and running around to their back side. → Leads to [[Standing Position]]
+- **Sprawl defense with hips back and weight down on your upper back** (Effectiveness: High) - Your Response: Adjust to a low single leg variation or transition to a different takedown. If they sprawl hard, you can run around to their back by circling to the outside of the captured leg while keeping your grip tight. Alternatively, elevate the captured leg higher and switch to a double leg finish by capturing both legs. → Leads to [[Positions/Standing Position]]
+- **Guillotine choke attempt as you change levels for the shot** (Effectiveness: Medium) - Your Response: Maintain proper head position on the outside of their captured leg throughout the technique. If they start to secure a guillotine grip, immediately adjust your head position lower and tighter to their hip, making it difficult for them to get under your chin. Continue driving forward aggressively to complete the takedown before they can lock in the choke, as completing the takedown typically breaks their grip structure. → Leads to [[Positions/Standing Position]]
+- **Whizzer overhook on your near arm to kill your forward drive** (Effectiveness: Medium) - Your Response: Do not fight the whizzer directly. Instead, use it to your advantage by continuing to drive forward and slightly in the direction of the whizzer. You can transition to running the pipe finish or switch to a fireman's carry by ducking under their whizzer arm. Another option is to release the whizzer side temporarily and transition to a low single leg finish on the same leg. → Leads to [[Positions/Standing Position]]
+- **Limp leg defense where opponent extracts their leg by pulling it straight back** (Effectiveness: Low) - Your Response: Anticipate the leg pull by maintaining continuous forward pressure and high shoulder position. As they try to extract their leg, follow it aggressively while driving your shoulder through their hips. You can also switch to a double leg by quickly capturing both legs, or transition to a single leg finish by adjusting your grip and running around to their back side. → Leads to [[Positions/Standing Position]]
 
 
 </section>

@@ -21,7 +21,7 @@ The fundamental mechanics involve first establishing a wide, stable base to resi
 
 Strategically, this pass is most effective when the bottom player has committed to static New York control rather than actively transitioning to more advanced positions like Invisible Collar or Zombie. The pass exploits moments when the bottom player's shin grip weakens or when they initiate offensive transitions that momentarily compromise their structural control. The 55% success rate reflects the technical difficulty of escaping an established rubber guard but increases substantially when the passer maintains methodical execution and avoids the common error of rushing the arm extraction before securing adequate posture.
 
-**From Position**: [[New York]] (Top)
+**From Position**: [[Positions/Rubber Guard/New York]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this pass is most effective when the bottom player has committed 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[New York]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Rubber Guard/New York]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ The New York Pass to Side Control occupies a critical role in the defensive tool
 ## Related Techniques
 
 
-- [[New York]] - Source position where the pass begins with the passer trapped in rubber guard control
+- [[Positions/Rubber Guard/New York]] - Source position where the pass begins with the passer trapped in rubber guard control
 
-- [[Side Control]] - Target position achieved on successful completion of the pass
+- [[Positions/Side Control]] - Target position achieved on successful completion of the pass
 
-- [[Half Guard]] - Counter outcome position if the bottom player recovers guard during the pass
+- [[Positions/Half Guard]] - Counter outcome position if the bottom player recovers guard during the pass
 
-- [[Rubber Guard]] - Parent guard system containing New York and related positions
+- [[Positions/Rubber Guard]] - Parent guard system containing New York and related positions
 
-- [[Mission Control]] - Related rubber guard position that precedes New York in the system progression
+- [[Positions/Rubber Guard/Mission Control]] - Related rubber guard position that precedes New York in the system progression
 
-- [[Guard Pass from New York Control]] - Alternative passing technique from the same trapped position
+- [[Transitions/Guard Pass from New York Control]] - Alternative passing technique from the same trapped position
 
-- [[New York Control Escape]] - Related escape that returns to closed guard rather than passing to side control
+- [[Transitions/New York Control Escape]] - Related escape that returns to closed guard rather than passing to side control
 
-- [[Invisible Collar]] - Advanced rubber guard position the bottom player may transition to during pass attempt
+- [[Positions/Rubber Guard/Invisible Collar]] - Advanced rubber guard position the bottom player may transition to during pass attempt
 
-- [[Combat Base]] - Intermediate posture position achieved during the passing sequence
+- [[Positions/Combat Base]] - Intermediate posture position achieved during the passing sequence
 
-- [[Closed Guard]] - Fallback position if pass stalls but posture is partially recovered
+- [[Positions/Closed Guard]] - Fallback position if pass stalls but posture is partially recovered
 
 
 </section>

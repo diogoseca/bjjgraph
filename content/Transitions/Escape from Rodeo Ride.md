@@ -21,7 +21,7 @@ The escape operates on a fundamental principle: the rider's mobility advantage i
 
 Successful execution requires combining grip fighting to address the near-arm control, hip movement to disrupt the rider's base, and explosive rotation at the precise moment when the rider's weight shifts during an attack attempt or positional adjustment. The escape integrates naturally with the broader turtle defense system and shares mechanical principles with guard recovery and technical stand-up sequences.
 
-**From Position**: [[Rodeo Ride]] (Bottom)
+**From Position**: [[Positions/Rodeo Ride]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Successful execution requires combining grip fighting to address the near-arm co
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Rodeo Ride]] | 35% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Rodeo Ride]] | 35% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -191,21 +191,21 @@ The Escape from Rodeo Ride sits at a critical junction in the turtle defense sys
 ## Related Techniques
 
 
-- [[Side Control]] - Primary escape target position achieved through successful rotation
+- [[Positions/Side Control]] - Primary escape target position achieved through successful rotation
 
-- [[Back Control]] - Counter outcome when rider capitalizes on escape attempt to insert hooks
+- [[Positions/Back Control]] - Counter outcome when rider capitalizes on escape attempt to insert hooks
 
-- [[Turtle]] - Starting defensive position from which Rodeo Ride control develops
+- [[Positions/Turtle]] - Starting defensive position from which Rodeo Ride control develops
 
-- [[Crab Ride]] - Related turtle attack position sharing similar escape mechanics and principles
+- [[Positions/Crab Ride]] - Related turtle attack position sharing similar escape mechanics and principles
 
-- [[Calf Slicer from Rodeo Ride]] - Submission threat from Rodeo Ride that motivates escape urgency
+- [[Submissions/Calf Slicer from Rodeo Ride]] - Submission threat from Rodeo Ride that motivates escape urgency
 
-- [[Half Guard]] - Alternative escape target via sit-back guard recovery variant
+- [[Positions/Half Guard]] - Alternative escape target via sit-back guard recovery variant
 
-- [[Granby Roll to Guard]] - Related inversion-based escape technique used in the granby roll variant
+- [[Transitions/Granby Roll to Guard]] - Related inversion-based escape technique used in the granby roll variant
 
-- [[Crab Ride Escape to Guard]] - Related turtle escape sharing grip fighting and rotation principles
+- [[Transitions/Crab Ride Escape to Guard]] - Related turtle escape sharing grip fighting and rotation principles
 
 
 </section>

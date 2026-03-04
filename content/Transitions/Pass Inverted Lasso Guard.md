@@ -21,7 +21,7 @@ The primary passing approaches fall into three categories: stack passing, which 
 
 Understanding when to employ each strategy separates competent passers from those who get repeatedly swept. The critical recognition skill is reading the opponent's hip angle and free leg positioning to determine their intended attack, then selecting the appropriate counter before they generate momentum. Delayed responses allow the inverted player to establish dominant angles from which passing becomes exponentially more difficult. The position also presents a unique dilemma for the passer: defending the overhead sweep by retreating weight opens berimbolo entries, while driving forward to prevent berimbolo feeds the sweep mechanics. Threading this needle requires maintaining a controlled neutral weight distribution while systematically dismantling the guard's structural elements.
 
-**From Position**: [[Inverted Lasso Guard]] (Top)
+**From Position**: [[Positions/Lasso Guard/Inverted Lasso Guard]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ Understanding when to employ each strategy separates competent passers from thos
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Failure | [[Half Guard]] | 20% |
-| Failure | [[Inverted Lasso Guard]] | 20% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Side Control]] | 45% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/Lasso Guard/Inverted Lasso Guard]] | 20% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -194,27 +194,27 @@ Passing the inverted lasso guard connects directly to the broader lasso guard pa
 ## Related Techniques
 
 
-- [[Inverted Lasso Guard]] - Source position where the technique begins with the passer trapped in inverted lasso control
+- [[Positions/Lasso Guard/Inverted Lasso Guard]] - Source position where the technique begins with the passer trapped in inverted lasso control
 
-- [[Side Control]] - Primary target position achieved upon successful completion of the guard pass
+- [[Positions/Side Control]] - Primary target position achieved upon successful completion of the guard pass
 
-- [[Lasso Guard]] - Parent guard system providing the foundational lasso mechanics that the inverted variation builds upon
+- [[Positions/Lasso Guard]] - Parent guard system providing the foundational lasso mechanics that the inverted variation builds upon
 
-- [[Half Guard]] - Failure outcome position when the pass stalls and the bottom player retains partial guard
+- [[Positions/Half Guard]] - Failure outcome position when the pass stalls and the bottom player retains partial guard
 
-- [[Back Control]] - Counter outcome when the guard player executes a successful berimbolo during the pass attempt
+- [[Positions/Back Control]] - Counter outcome when the guard player executes a successful berimbolo during the pass attempt
 
-- [[Lasso Guard Stack Pass]] - Related technique sharing stacking principles applied to standard lasso guard
+- [[Transitions/Lasso Guard Stack Pass]] - Related technique sharing stacking principles applied to standard lasso guard
 
-- [[Lasso Guard Backstep Pass]] - Complementary passing approach using angles rather than direct pressure against lasso systems
+- [[Transitions/Lasso Guard Backstep Pass]] - Complementary passing approach using angles rather than direct pressure against lasso systems
 
-- [[Inverted Lasso Sweep]] - Primary offensive threat from the guard player that the passer must neutralize
+- [[Transitions/Inverted Lasso Sweep]] - Primary offensive threat from the guard player that the passer must neutralize
 
-- [[Inverted Lasso to Lasso Guard]] - Guard transition the bottom player may attempt when the pass threatens their inverted position
+- [[Transitions/Inverted Lasso to Lasso Guard]] - Guard transition the bottom player may attempt when the pass threatens their inverted position
 
-- [[De La Riva Guard]] - Adjacent guard system sharing inversion mechanics and similar passing concepts
+- [[Positions/De La Riva Guard]] - Adjacent guard system sharing inversion mechanics and similar passing concepts
 
-- [[Inverted Guard]] - Related inverted body positioning sharing defensive strategies and counter-techniques
+- [[Positions/Inverted Guard]] - Related inverted body positioning sharing defensive strategies and counter-techniques
 
 
 </section>

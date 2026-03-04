@@ -176,7 +176,7 @@ The Double Leg Entry from the attacker's perspective is about creating the condi
 
 Successful attackers develop an acute sense of timing that allows them to recognize the micro-windows when an opponent's weight shifts forward, their hands are occupied, or their attention is directed elsewhere. These windows are often created deliberately through grip fighting, feints, and upper body attacks that force defensive reactions. The attacker who can manufacture these openings rather than waiting for them becomes dangerous from any standing engagement.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -230,9 +230,9 @@ Successful attackers develop an acute sense of timing that allows them to recogn
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 60% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Front Headlock]] | 60% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -241,11 +241,11 @@ Successful attackers develop an acute sense of timing that allows them to recogn
 
 ## Opponent Counters
 
-- **Sprawl Defense - opponent drives hips back and down while pushing head to mat** (Effectiveness: High) - Your Response: Maintain head position and hand control, switch to single leg finish or transition to front headlock position if sprawl is successful. Can also circle out and re-attack or convert to ankle pick. → Leads to [[Standing Position]]
-- **Guillotine Choke - opponent secures front headlock grip during entry** (Effectiveness: High) - Your Response: Keep head position high and outside, complete the takedown rapidly before guillotine can be locked in, or immediately abandon attack and defend guillotine if head gets trapped low and inside. → Leads to [[Closed Guard]]
-- **Wizard/Whizzer Overhook - opponent secures deep overhook on attacking arm** (Effectiveness: Medium) - Your Response: Continue driving forward with one-armed finish, or switch to high crotch position using the trapped arm as a post. Can also step around to opponent's back using the whizzer as a pivot point. → Leads to [[Standing Position]]
-- **Crossface and Hip Withdrawal - opponent pushes face away while pulling hips back** (Effectiveness: Medium) - Your Response: Fight through the crossface by maintaining forward pressure, or abandon the double leg and transition to upper body takedown or re-engage from standing position. → Leads to [[Standing Position]]
-- **Knee Block - opponent brings knee up to block penetration** (Effectiveness: Low) - Your Response: Continue driving through the knee barrier or switch to single leg by securing the blocking leg. The knee block only works if penetration is shallow. → Leads to [[Standing Position]]
+- **Sprawl Defense - opponent drives hips back and down while pushing head to mat** (Effectiveness: High) - Your Response: Maintain head position and hand control, switch to single leg finish or transition to front headlock position if sprawl is successful. Can also circle out and re-attack or convert to ankle pick. → Leads to [[Positions/Standing Position]]
+- **Guillotine Choke - opponent secures front headlock grip during entry** (Effectiveness: High) - Your Response: Keep head position high and outside, complete the takedown rapidly before guillotine can be locked in, or immediately abandon attack and defend guillotine if head gets trapped low and inside. → Leads to [[Positions/Closed Guard]]
+- **Wizard/Whizzer Overhook - opponent secures deep overhook on attacking arm** (Effectiveness: Medium) - Your Response: Continue driving forward with one-armed finish, or switch to high crotch position using the trapped arm as a post. Can also step around to opponent's back using the whizzer as a pivot point. → Leads to [[Positions/Standing Position]]
+- **Crossface and Hip Withdrawal - opponent pushes face away while pulling hips back** (Effectiveness: Medium) - Your Response: Fight through the crossface by maintaining forward pressure, or abandon the double leg and transition to upper body takedown or re-engage from standing position. → Leads to [[Positions/Standing Position]]
+- **Knee Block - opponent brings knee up to block penetration** (Effectiveness: Low) - Your Response: Continue driving through the knee barrier or switch to single leg by securing the blocking leg. The knee block only works if penetration is shallow. → Leads to [[Positions/Standing Position]]
 
 
 </section>

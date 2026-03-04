@@ -180,7 +180,7 @@ description: "Execute the complete bridge-and-roll reversal from scarf hold bott
 
 The bridge-and-roll reversal from scarf hold bottom is executed by the bottom player who must coordinate three control points before committing to an all-or-nothing explosive bridge. The attacker's challenge is overcoming the perpendicular weight distribution of kesa gatame, which eliminates lateral shrimping as a viable escape method. Instead, the bottom player systematically compromises the top player's base by trapping their head-wrapping arm across the chest, hooking their near leg at the ankle, and then generating maximum hip extension at a 45-degree angle toward the top player's back. Unlike the partial bridge escape that targets guard recovery, this technique aims for a complete position reversal, rolling the opponent entirely over their shoulder and following through to land inside their closed guard on top. Success demands patience in establishing control points, recognition of optimal timing windows, and total commitment to the explosive bridge without hesitation.
 
-**From Position**: [[Scarf Hold Position]] (Bottom)
+**From Position**: [[Positions/Side Control/Scarf Hold Position]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The bridge-and-roll reversal from scarf hold bottom is executed by the bottom pl
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 30% |
-| Failure | [[Scarf Hold Position]] | 45% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Closed Guard]] | 30% |
+| Failure | [[Positions/Side Control/Scarf Hold Position]] | 45% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ The bridge-and-roll reversal from scarf hold bottom is executed by the bottom pl
 
 ## Opponent Counters
 
-- **Opponent widens base by posting far arm wide and extending back leg to create a structural triangle that resists rotational force** (Effectiveness: High) - Your Response: If the full roll is blocked by wide posting, convert the bridge into a hip escape. Use the vertical space created by the upward bridge to shrimp your hips away and insert your knee for half guard. The wide base that blocks the roll actually creates more space for the hip escape follow-up. → Leads to [[Scarf Hold Position]]
-- **Opponent steps near leg over your body to transition to mount as your hips elevate during the bridge** (Effectiveness: High) - Your Response: If you feel the leg stepping over, immediately abandon the bridge and clamp your elbows tight to your sides while bringing your knees up to block mount consolidation. Redirect to elbow-knee escape frames to prevent the mount from settling. This is why the leg hook is critical to establish before bridging. → Leads to [[Mount]]
-- **Opponent drives hip pressure deeper and tightens head control to smother the bridge before it can develop full power** (Effectiveness: Medium) - Your Response: When the opponent preemptively smothers, use the increased pressure to load a deeper bridge by walking feet even closer. Wait for the natural weight shift when they relax or transition to attack, then execute the bridge during the pressure decrease. Their heavy commitment forward also opens backdoor escape options. → Leads to [[Scarf Hold Position]]
-- **Opponent circles head-wrapping arm free when you attempt to trap it, maintaining their posting ability throughout** (Effectiveness: Medium) - Your Response: If they free the arm, immediately regrip at a different control point such as the elbow crease, tricep, or gi collar. If regripping fails, abandon the full reversal and transition to the frame bridge hip escape variant for half guard recovery rather than attempting a postless roll that cannot succeed. → Leads to [[Scarf Hold Position]]
+- **Opponent widens base by posting far arm wide and extending back leg to create a structural triangle that resists rotational force** (Effectiveness: High) - Your Response: If the full roll is blocked by wide posting, convert the bridge into a hip escape. Use the vertical space created by the upward bridge to shrimp your hips away and insert your knee for half guard. The wide base that blocks the roll actually creates more space for the hip escape follow-up. → Leads to [[Positions/Side Control/Scarf Hold Position]]
+- **Opponent steps near leg over your body to transition to mount as your hips elevate during the bridge** (Effectiveness: High) - Your Response: If you feel the leg stepping over, immediately abandon the bridge and clamp your elbows tight to your sides while bringing your knees up to block mount consolidation. Redirect to elbow-knee escape frames to prevent the mount from settling. This is why the leg hook is critical to establish before bridging. → Leads to [[Positions/Mount]]
+- **Opponent drives hip pressure deeper and tightens head control to smother the bridge before it can develop full power** (Effectiveness: Medium) - Your Response: When the opponent preemptively smothers, use the increased pressure to load a deeper bridge by walking feet even closer. Wait for the natural weight shift when they relax or transition to attack, then execute the bridge during the pressure decrease. Their heavy commitment forward also opens backdoor escape options. → Leads to [[Positions/Side Control/Scarf Hold Position]]
+- **Opponent circles head-wrapping arm free when you attempt to trap it, maintaining their posting ability throughout** (Effectiveness: Medium) - Your Response: If they free the arm, immediately regrip at a different control point such as the elbow crease, tricep, or gi collar. If regripping fails, abandon the full reversal and transition to the frame bridge hip escape variant for half guard recovery rather than attempting a postless roll that cannot succeed. → Leads to [[Positions/Side Control/Scarf Hold Position]]
 
 
 </section>

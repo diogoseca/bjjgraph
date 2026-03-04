@@ -180,7 +180,7 @@ Strategically, this recovery transforms the rubber guard system from a single-at
 
 The execution requires precise timing and understanding of weight distribution. The bottom player must recognize when the gogoplata is failing before fully committing, withdraw the shin from the throat while maintaining hip control, and immediately secure the overhook that defines Mission Control. This sequence must happen faster than the opponent can exploit the transition.
 
-**From Position**: [[Gogoplata Control]] (Bottom)
+**From Position**: [[Positions/Gogoplata Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The execution requires precise timing and understanding of weight distribution. 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mission Control]] | 65% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Rubber Guard/Mission Control]] | 65% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -243,10 +243,10 @@ The execution requires precise timing and understanding of weight distribution. 
 
 ## Opponent Counters
 
-- **Opponent drives forward immediately as you withdraw the shin, attempting to smash pass** (Effectiveness: High) - Your Response: Use the overhook to redirect their forward momentum laterally, transitioning to omoplata setup rather than fighting directly against the pressure → Leads to [[Closed Guard]]
-- **Opponent frames on your hip and creates distance before you can re-establish Mission Control** (Effectiveness: Medium) - Your Response: Switch to standard closed guard recovery by crossing ankles behind their back before they can fully posture, preserving guard even if Mission Control is lost → Leads to [[Closed Guard]]
-- **Opponent strips the overhook during the transition window** (Effectiveness: Medium) - Your Response: Immediately grab their wrist on the freed arm and threaten armbar or triangle, using the arm exposure that overhook stripping creates → Leads to [[Half Guard]]
-- **Opponent turns into turtle to escape the re-established Mission Control** (Effectiveness: Low) - Your Response: Follow them with back take attempt, using the overhook to ride their turn and establish hooks as they turtle → Leads to [[Mission Control]]
+- **Opponent drives forward immediately as you withdraw the shin, attempting to smash pass** (Effectiveness: High) - Your Response: Use the overhook to redirect their forward momentum laterally, transitioning to omoplata setup rather than fighting directly against the pressure → Leads to [[Positions/Closed Guard]]
+- **Opponent frames on your hip and creates distance before you can re-establish Mission Control** (Effectiveness: Medium) - Your Response: Switch to standard closed guard recovery by crossing ankles behind their back before they can fully posture, preserving guard even if Mission Control is lost → Leads to [[Positions/Closed Guard]]
+- **Opponent strips the overhook during the transition window** (Effectiveness: Medium) - Your Response: Immediately grab their wrist on the freed arm and threaten armbar or triangle, using the arm exposure that overhook stripping creates → Leads to [[Positions/Half Guard]]
+- **Opponent turns into turtle to escape the re-established Mission Control** (Effectiveness: Low) - Your Response: Follow them with back take attempt, using the overhook to ride their turn and establish hooks as they turtle → Leads to [[Positions/Rubber Guard/Mission Control]]
 
 
 </section>

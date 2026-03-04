@@ -146,7 +146,7 @@ description: "Complete guide to defending the rotation from 50-50 Guard to Backs
 
 As the defender against the Transition to Backside 50-50, your primary objective is to prevent your opponent from rotating behind you while you remain in the standard 50-50 entanglement. Allowing the transition to complete places you in Backside 50-50 Bottom, one of the worst positions in the leg entanglement hierarchy, where you face simultaneous heel hook and back control threats with limited visual awareness and reduced hip mobility. Defense starts with recognizing the early warning signs of the rotation attempt and responding before your opponent completes even half the arc. Your best outcomes are either preventing the rotation entirely to maintain standard 50-50 or converting their rotational attempt into a sweep or counter-entanglement that improves your own position.
 
-**Opponent's Starting Position**: [[50-50 Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
 
@@ -183,28 +183,28 @@ As the defender against the Transition to Backside 50-50, your primary objective
 ### 1. Match the rotation by turning your body in the same direction opponent is moving, keeping your chest oriented toward them
 
 - **When to use**: As soon as you detect the initial lateral hip movement, before they complete more than a quarter of the arc
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You maintain standard 50-50 orientation, preventing the Backside angle from being established. Opponent returns to standard 50-50 top with no positional gain.
 - **Risk**: If opponent reverses rotation direction quickly, your matching spin creates momentum that carries you further, potentially making the second attempt easier for them
 
 ### 2. Strip the anchor grip on your ankle or heel by using both hands to break their controlling hand, removing the foundation of their rotation
 
 - **When to use**: When you feel them secure a strong grip on your far ankle or heel and their free hand posts for the rotation
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Without the anchor grip, opponent cannot prevent you from spinning to match their rotation. Their transition stalls and they must re-establish grip control before attempting again.
 - **Risk**: Using both hands for grip fighting temporarily removes your frames, allowing opponent to increase top pressure if the grip break fails
 
 ### 3. Bridge explosively toward the opponent during their rotation to disrupt their base and attempt a sweep reversal
 
 - **When to use**: When opponent is mid-rotation with their base temporarily compromised by the lateral hip movement
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: The bridge catches them off-balance during the transition, sweeping them and potentially reversing to 50-50 top or creating enough scramble to disengage from the entanglement entirely.
 - **Risk**: If the bridge is poorly timed or underpowered, opponent absorbs it and uses the space created to accelerate their rotation, arriving in Backside 50-50 faster
 
 ### 4. Attack their exposed heel as a counter-submission when their focus shifts to rotation mechanics and away from heel defense
 
 - **When to use**: When opponent releases defensive hand positioning to post for the rotation, creating momentary heel exposure
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Counter heel hook forces opponent to abandon the rotation and defend the submission, resetting to standard 50-50 with you now holding offensive initiative.
 - **Risk**: Committing to the heel attack while opponent is rotating can place you deeper into Backside 50-50 if the submission does not immediately threaten a finish
 
@@ -216,11 +216,11 @@ As the defender against the Transition to Backside 50-50, your primary objective
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Prevent the rotation entirely by matching their movement with your own hip turn, keeping your chest facing them at all times. Alternatively, strip their anchor grip to remove the mechanical foundation of the rotation. The goal is to deny the back-facing angle and maintain standard 50-50 orientation where the position is closer to equal.
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Bridge explosively during the opponent's rotation when their base is compromised by the lateral movement. Time the bridge for the moment they have committed weight to the arc but have not yet established chest pressure on your back. The sweep reversal requires aggressive hip elevation combined with directional force toward the side they are rotating from.
 

@@ -146,7 +146,7 @@ description: "Defend the Toe Hold from Estima Lock in BJJ. Recognition cues, esc
 
 Defending the Toe Hold from Estima Lock requires recognizing the grip change from the Estima Lock configuration to the toe hold wrap and responding before the new submission mechanics consolidate. The transition creates a brief vulnerability window during the grip switch, which represents the defender's best opportunity for foot extraction or positional escape. As the attacker releases their Estima Lock forearm position, the momentary reduction in control pressure provides an opening for boot defense, knee retraction, or free leg push escapes. Understanding the rotational mechanics of the toe hold allows the defender to position their foot to minimize submission pressure while working systematic escape sequences that target complete disengagement rather than simply switching between defensive positions.
 
-**Opponent's Starting Position**: [[Estima Lock]] (Top)
+**Opponent's Starting Position**: [[Positions/Estima Lock]] (Top)
 
 </section>
 
@@ -183,28 +183,28 @@ Defending the Toe Hold from Estima Lock requires recognizing the grip change fro
 ### 1. Execute boot defense by actively pointing toes and plantar flexing the foot to eliminate grip angle
 
 - **When to use**: During the grip transition before the opponent establishes the full toe hold wrap and figure-four reinforcement
-- **Targets**: [[Estima Lock]]
+- **Targets**: [[Positions/Estima Lock]]
 - **If successful**: Opponent cannot establish rotational grip angle for the toe hold and must either abandon the attempt or revert to the Estima Lock
 - **Risk**: If opponent adjusts and finds grip despite boot defense, the delayed escape attempt may leave you in a worse position
 
 ### 2. Pull knee aggressively toward chest during the grip change window to create slack and extract the leg
 
 - **When to use**: Immediately when you feel the Estima Lock forearm release from the top of your foot and before the toe hold grip is established
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Complete leg extraction from the entanglement, recovering to open guard with both legs free from submission threat
 - **Risk**: If timing is off, opponent drives hips forward and re-establishes control with the toe hold grip fully consolidated
 
 ### 3. Counter-rotate foot outward while simultaneously framing on opponent's hips to create space
 
 - **When to use**: After the toe hold grip is partially established but before the full figure-four is locked and rotational pressure begins
-- **Targets**: [[Estima Lock]]
+- **Targets**: [[Positions/Estima Lock]]
 - **If successful**: Opponent's rotational leverage is neutralized as your counter-rotation cancels their force vector
 - **Risk**: Counter-rotation toward the Estima Lock angle may reopen the original submission threat if you do not simultaneously work on extraction
 
 ### 4. Push opponent's hips with free leg while extracting the trapped foot through the created space
 
 - **When to use**: When opponent's hip pressure loosens during the grip transition or when frames have created sufficient distance
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Break distance between your trapped leg and opponent's body, enabling full leg extraction from the entanglement
 - **Risk**: Opponent may follow the pressure and transition to a passing position rather than losing control entirely
 
@@ -216,11 +216,11 @@ Defending the Toe Hold from Estima Lock requires recognizing the grip change fro
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Exploit the grip transition window by aggressively pulling your knee toward your chest while pushing the opponent's hips with your free leg. The brief moment of reduced control during the grip change from Estima Lock to toe hold is the optimal extraction opportunity—act decisively before the new grip consolidates.
 
-### → [[Estima Lock]]
+### → [[Positions/Estima Lock]]
 
 Execute boot defense or counter-rotation to neutralize the toe hold angle and force the attacker back to the Estima Lock position. While returning to Estima Lock is still a defensive position, it prevents the more immediate toe hold threat and resets the attacking sequence, buying time for further escape attempts.
 

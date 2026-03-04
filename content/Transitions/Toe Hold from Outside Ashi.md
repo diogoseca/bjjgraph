@@ -21,7 +21,7 @@ The submission generates significant torque through the ankle joint and can tran
 
 Strategically, the toe hold functions as a force multiplier within the leg lock chain system. When opponents employ boot defense or heel hiding to neutralize heel hook threats, the toe hold becomes immediately available. Additionally, defensive reactions to the toe hold frequently re-expose the heel for heel hook re-entry or create openings for transitions to more dominant positions like saddle or inside ashi-garami, making it an essential tool for maintaining offensive pressure from leg entanglements.
 
-**From Position**: [[Outside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -33,8 +33,8 @@ Strategically, the toe hold functions as a force multiplier within the leg lock 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Outside Ashi-Garami]] | 35% |
-| Counter | [[Standing Position]] | 25% |
+| Failure | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 35% |
+| Counter | [[Positions/Standing Position]] | 25% |
 
 
 </section>
@@ -191,27 +191,27 @@ The toe hold from outside ashi-garami occupies a critical position in the modern
 ## Related Techniques
 
 
-- [[Outside Ashi-Garami]] - Source position from which the toe hold is attacked
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Source position from which the toe hold is attacked
 
-- [[Toe Hold Control]] - Extended control position for sustained toe hold finishing
+- [[Positions/Toe Hold Control]] - Extended control position for sustained toe hold finishing
 
-- [[Outside Heel Hook]] - Primary attack from same position and chain partner with toe hold
+- [[Transitions/Outside Heel Hook]] - Primary attack from same position and chain partner with toe hold
 
-- [[Inside Ashi-Garami]] - More dominant leg entanglement reached via transitions from toe hold defense
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - More dominant leg entanglement reached via transitions from toe hold defense
 
-- [[Saddle]] - Advanced entanglement position accessible when toe hold defense creates openings
+- [[Positions/Ashi Garami/Saddle]] - Advanced entanglement position accessible when toe hold defense creates openings
 
-- [[Straight Ankle Lock Control]] - Alternative lower-risk foot lock from the same entanglement
+- [[Positions/Straight Ankle Lock Control]] - Alternative lower-risk foot lock from the same entanglement
 
-- [[Kneebar Control]] - Alternative leg submission accessible from outside ashi transitions
+- [[Positions/Kneebar Control]] - Alternative leg submission accessible from outside ashi transitions
 
-- [[Counter Rotation from Toe Hold]] - Primary defensive counter to toe hold application
+- [[Transitions/Counter Rotation from Toe Hold]] - Primary defensive counter to toe hold application
 
-- [[Boot Defense from Toe Hold]] - Key defensive response that prevents toe hold grip establishment
+- [[Transitions/Boot Defense from Toe Hold]] - Key defensive response that prevents toe hold grip establishment
 
-- [[Ashi Garami]] - Parent position family encompassing all ashi variations
+- [[Positions/Ashi Garami]] - Parent position family encompassing all ashi variations
 
-- [[Cross Ashi-Garami]] - Related entanglement offering different toe hold angles
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Related entanglement offering different toe hold angles
 
 
 </section>

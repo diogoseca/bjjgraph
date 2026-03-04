@@ -180,7 +180,7 @@ description: "Master the Chill Dog hip escape to half guard. Learn timing, hip m
 
 As the attacker executing this escape, you are the bottom player in Chill Dog turtle defense, working to recover half guard through a coordinated hip escape and leg insertion sequence. Your success depends on maintaining your defensive frame until the precise moment when your opponent's weight shifts or pressure creates an opening, then explosively executing the escape before they can readjust. The technique requires you to transition from a four-point turtle base to a side-facing half guard position, fundamentally changing your orientation relative to your opponent. This demands excellent body awareness, timing, and the ability to execute multiple movements in rapid sequence: hip escape, leg thread, upper body turn, and guard consolidation.
 
-**From Position**: [[Chill Dog]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Chill Dog]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing this escape, you are the bottom player in Chill Dog tu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Chill Dog]] | 25% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Rubber Guard/Chill Dog]] | 25% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing this escape, you are the bottom player in Chill Dog tu
 
 ## Opponent Counters
 
-- **Opponent follows hip escape and re-establishes chest pressure before leg insertion completes** (Effectiveness: High) - Your Response: If they follow your hip escape before you complete the leg thread, immediately switch to a Granby roll in the direction of your hip escape, using the momentum you already created. The key is not stopping your movement - redirect it into a roll rather than trying to re-insert the leg against their pressure. → Leads to [[Chill Dog]]
-- **Opponent capitalizes on the turn by inserting hooks during the rotation from turtle to guard** (Effectiveness: High) - Your Response: If you feel hooks being inserted during the rotation, immediately stop the turn and address the hooks before they establish back control. Use your inside hand to strip the near hook while keeping your elbow tight to prevent the seatbelt grip. If one hook is in, transition to back escape protocols rather than continuing the half guard recovery. → Leads to [[Back Control]]
-- **Opponent snaps down to front headlock as bottom player lifts head during escape transition** (Effectiveness: Medium) - Your Response: Keep your head tucked and chin protected throughout the escape. If they do secure a front headlock, immediately sit through to guard rather than trying to complete the half guard recovery. The front headlock from this angle is dangerous - prioritize head extraction over position improvement. → Leads to [[Chill Dog]]
-- **Opponent sprawls and drives hips forward to flatten turtle before escape initiates** (Effectiveness: Medium) - Your Response: If flattened before the escape begins, use the bottom arm to post and create a frame while hip escaping toward the posting side. Even from a flattened position, the hip escape to half guard is possible if you can create enough lateral movement to thread the leg. Time the escape to coincide with their next weight adjustment. → Leads to [[Chill Dog]]
+- **Opponent follows hip escape and re-establishes chest pressure before leg insertion completes** (Effectiveness: High) - Your Response: If they follow your hip escape before you complete the leg thread, immediately switch to a Granby roll in the direction of your hip escape, using the momentum you already created. The key is not stopping your movement - redirect it into a roll rather than trying to re-insert the leg against their pressure. → Leads to [[Positions/Rubber Guard/Chill Dog]]
+- **Opponent capitalizes on the turn by inserting hooks during the rotation from turtle to guard** (Effectiveness: High) - Your Response: If you feel hooks being inserted during the rotation, immediately stop the turn and address the hooks before they establish back control. Use your inside hand to strip the near hook while keeping your elbow tight to prevent the seatbelt grip. If one hook is in, transition to back escape protocols rather than continuing the half guard recovery. → Leads to [[Positions/Back Control]]
+- **Opponent snaps down to front headlock as bottom player lifts head during escape transition** (Effectiveness: Medium) - Your Response: Keep your head tucked and chin protected throughout the escape. If they do secure a front headlock, immediately sit through to guard rather than trying to complete the half guard recovery. The front headlock from this angle is dangerous - prioritize head extraction over position improvement. → Leads to [[Positions/Rubber Guard/Chill Dog]]
+- **Opponent sprawls and drives hips forward to flatten turtle before escape initiates** (Effectiveness: Medium) - Your Response: If flattened before the escape begins, use the bottom arm to post and create a frame while hip escaping toward the posting side. Even from a flattened position, the hip escape to half guard is possible if you can create enough lateral movement to thread the leg. Time the escape to coincide with their next weight adjustment. → Leads to [[Positions/Rubber Guard/Chill Dog]]
 
 
 </section>

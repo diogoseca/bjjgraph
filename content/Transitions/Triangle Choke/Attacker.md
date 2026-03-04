@@ -180,7 +180,7 @@ description: "Master the triangle choke finish from mounted triangle. Complete g
 
 Finishing the triangle choke from mounted triangle demands precise coordination of angle, pressure, and timing rather than raw squeezing power. The attacker's primary advantage is gravitational assistance and positional dominance, meaning the opponent cannot stack, posture, or use standard triangle defense effectively. The finish begins with confirming the figure-four lock integrity, progresses through angle optimization and head control, and culminates in sustained bilateral carotid compression through combined hip elevation and adductor squeeze. The attacker must remain alert to chain attack opportunities throughout the finishing sequence, as the opponent's defensive reactions to the choke consistently expose armbar and back take openings.
 
-**From Position**: [[Mounted Triangle]] (Top)
+**From Position**: [[Positions/Mount/Mounted Triangle]] (Top)
 
 </section>
 
@@ -233,8 +233,8 @@ Finishing the triangle choke from mounted triangle demands precise coordination 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Mounted Triangle]] | 25% |
-| Counter | [[Mount]] | 10% |
+| Failure | [[Positions/Mount/Mounted Triangle]] | 25% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -243,10 +243,10 @@ Finishing the triangle choke from mounted triangle demands precise coordination 
 
 ## Opponent Counters
 
-- **Chin tuck and head turn to reduce carotid exposure** (Effectiveness: Medium) - Your Response: Pull head more aggressively toward trapped arm side while deepening the perpendicular angle. The chin tuck delays but cannot prevent a properly angled triangle from compressing the arteries. Increase hip elevation to change the pressure vector. → Leads to [[Mounted Triangle]]
-- **Trapped arm extraction by straightening and pulling arm free** (Effectiveness: High) - Your Response: Immediately transition to armbar by controlling the extending arm at wrist and elbow while pivoting hips to armbar angle. The arm extraction attempt leaves the arm vulnerable and extended. If too late to catch the arm, the freed arm typically opens space for remount. → Leads to [[Mount]]
-- **Explosive bridge toward the locking leg side to disrupt base** (Effectiveness: Medium) - Your Response: Post your bottom leg wide on the bridge side to absorb the momentum while maintaining the triangle lock. If the bridge is powerful enough to threaten position, release triangle temporarily and remount to high mount rather than losing position entirely. → Leads to [[Mount]]
-- **Frame creation with free arm against hip to prevent angle cutting** (Effectiveness: Low) - Your Response: Strip the frame by swimming your arm inside their elbow or use your body weight to collapse the frame. The single free arm cannot generate sufficient structural resistance to prevent a committed angle cut when the attacker uses proper body mechanics rather than fighting arm-to-arm. → Leads to [[Mounted Triangle]]
+- **Chin tuck and head turn to reduce carotid exposure** (Effectiveness: Medium) - Your Response: Pull head more aggressively toward trapped arm side while deepening the perpendicular angle. The chin tuck delays but cannot prevent a properly angled triangle from compressing the arteries. Increase hip elevation to change the pressure vector. → Leads to [[Positions/Mount/Mounted Triangle]]
+- **Trapped arm extraction by straightening and pulling arm free** (Effectiveness: High) - Your Response: Immediately transition to armbar by controlling the extending arm at wrist and elbow while pivoting hips to armbar angle. The arm extraction attempt leaves the arm vulnerable and extended. If too late to catch the arm, the freed arm typically opens space for remount. → Leads to [[Positions/Mount]]
+- **Explosive bridge toward the locking leg side to disrupt base** (Effectiveness: Medium) - Your Response: Post your bottom leg wide on the bridge side to absorb the momentum while maintaining the triangle lock. If the bridge is powerful enough to threaten position, release triangle temporarily and remount to high mount rather than losing position entirely. → Leads to [[Positions/Mount]]
+- **Frame creation with free arm against hip to prevent angle cutting** (Effectiveness: Low) - Your Response: Strip the frame by swimming your arm inside their elbow or use your body weight to collapse the frame. The single free arm cannot generate sufficient structural resistance to prevent a committed angle cut when the attacker uses proper body mechanics rather than fighting arm-to-arm. → Leads to [[Positions/Mount/Mounted Triangle]]
 
 
 </section>

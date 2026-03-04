@@ -21,7 +21,7 @@ From headquarters specifically, the knee cut benefits from pre-established leg c
 
 The technique's effectiveness at all levels stems from its direct biomechanical advantage: the passer's entire body weight channels through the cutting knee, creating a wedge that separates the opponent's legs regardless of defensive framing. When combined with proper crossface control and hip pressure, the knee cut creates a passing sequence that is mechanically difficult to defend without conceding position elsewhere, forcing the bottom player into reactive choices that open alternative passing lanes if the knee cut itself is blocked.
 
-**From Position**: [[Headquarters Position]] (Top)
+**From Position**: [[Positions/Headquarters Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique's effectiveness at all levels stems from its direct biomechanical 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Headquarters Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Headquarters Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Knee Cut from Headquarters occupies the central offensive role in systematic
 ## Related Techniques
 
 
-- [[Headquarters Position]] - Source position from which the knee cut is initiated, providing the trapped leg control and base structure
+- [[Positions/Headquarters Position]] - Source position from which the knee cut is initiated, providing the trapped leg control and base structure
 
-- [[Side Control]] - Primary target position achieved upon successful completion of the knee cut pass
+- [[Positions/Side Control]] - Primary target position achieved upon successful completion of the knee cut pass
 
-- [[Half Guard]] - Position the opponent may recover if they catch the cutting leg during the pass attempt
+- [[Positions/Half Guard]] - Position the opponent may recover if they catch the cutting leg during the pass attempt
 
-- [[Toreando from Headquarters]] - Alternative pass from headquarters that chains naturally when the knee cut is blocked by frames
+- [[Transitions/Toreando from Headquarters]] - Alternative pass from headquarters that chains naturally when the knee cut is blocked by frames
 
-- [[Leg Drag from Headquarters]] - Complementary pass option when opponent straightens their leg to create distance against the knee cut
+- [[Transitions/Leg Drag from Headquarters]] - Complementary pass option when opponent straightens their leg to create distance against the knee cut
 
-- [[Back Step Pass]] - Alternative passing direction when opponent attempts deep half or underhook against the knee cut
+- [[Transitions/Back Step Pass]] - Alternative passing direction when opponent attempts deep half or underhook against the knee cut
 
-- [[Body Lock Pass]] - Pressure-based alternative when opponent maintains strong defensive frames against all cutting passes
+- [[Transitions/Body Lock Pass]] - Pressure-based alternative when opponent maintains strong defensive frames against all cutting passes
 
-- [[Knee Shield Half Guard]] - Primary defensive structure opponents use to block the knee cut from entering the thigh line
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Primary defensive structure opponents use to block the knee cut from entering the thigh line
 
-- [[Deep Half Guard]] - Defensive entry opponents may attempt when the knee cut pressure drives them to go underneath
+- [[Positions/Half Guard/Deep Half Guard]] - Defensive entry opponents may attempt when the knee cut pressure drives them to go underneath
 
-- [[Combat Base]] - Preceding position often used to establish headquarters before initiating the knee cut sequence
+- [[Positions/Combat Base]] - Preceding position often used to establish headquarters before initiating the knee cut sequence
 
-- [[Knee Slice Pass]] - Related passing technique using similar mechanics from half guard top rather than headquarters
+- [[Transitions/Knee Slice Pass]] - Related passing technique using similar mechanics from half guard top rather than headquarters
 
-- [[Dogfight Position]] - Scramble position that can develop if the bottom player achieves an underhook during the knee cut
+- [[Positions/Dogfight Position]] - Scramble position that can develop if the bottom player achieves an underhook during the knee cut
 
 
 </section>

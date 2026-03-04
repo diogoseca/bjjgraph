@@ -184,7 +184,7 @@ This technique functions as a Type A direct submission where a successful applic
 
 The Estima Lock integrates into comprehensive leg attack chains where defending one submission opens vulnerability to another. When the opponent counter-rotates to defeat the lock, toe hold opportunities appear. When they sit up and frame, backstep transitions to saddle become available. This chain attack philosophy means the Estima Lock functions both as a terminal threat and as a positional lever that forces defensive reactions you can exploit.
 
-**From Position**: [[Estima Lock]] (Top)
+**From Position**: [[Positions/Estima Lock]] (Top)
 
 </section>
 
@@ -239,8 +239,8 @@ The Estima Lock integrates into comprehensive leg attack chains where defending 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Estima Lock]] | 27% |
-| Counter | [[50-50 Guard]] | 15% |
+| Failure | [[Positions/Estima Lock]] | 27% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -249,10 +249,10 @@ The Estima Lock integrates into comprehensive leg attack chains where defending 
 
 ## Opponent Counters
 
-- **Opponent counter-rotates ankle and turns foot away from lock angle to reduce rotational pressure** (Effectiveness: High) - Your Response: When they turn the foot away, immediately transition to toe hold attack since their toes are now exposed and accessible for the alternative submission grip → Leads to [[Estima Lock]]
-- **Opponent sits up and establishes frames on your hips to create space and reduce hip pressure fulcrum** (Effectiveness: Medium) - Your Response: Drive forward to flatten them back down or transition to saddle position through backstep if they create significant space and you cannot maintain hip pressure → Leads to [[Estima Lock]]
-- **Opponent uses free leg to push your hips away and create distance for leg extraction** (Effectiveness: Medium) - Your Response: Use your legs to control their free leg mobility or transition to ashi garami where you can triangle their legs together and neutralize the pushing threat → Leads to [[50-50 Guard]]
-- **Opponent grabs your hands or forearm attempting to strip the figure-four grip configuration** (Effectiveness: Low) - Your Response: Maintain hip pressure and continue submission pressure since grip fighting rarely succeeds when positional control is established—their energy expenditure favors you → Leads to [[Estima Lock]]
+- **Opponent counter-rotates ankle and turns foot away from lock angle to reduce rotational pressure** (Effectiveness: High) - Your Response: When they turn the foot away, immediately transition to toe hold attack since their toes are now exposed and accessible for the alternative submission grip → Leads to [[Positions/Estima Lock]]
+- **Opponent sits up and establishes frames on your hips to create space and reduce hip pressure fulcrum** (Effectiveness: Medium) - Your Response: Drive forward to flatten them back down or transition to saddle position through backstep if they create significant space and you cannot maintain hip pressure → Leads to [[Positions/Estima Lock]]
+- **Opponent uses free leg to push your hips away and create distance for leg extraction** (Effectiveness: Medium) - Your Response: Use your legs to control their free leg mobility or transition to ashi garami where you can triangle their legs together and neutralize the pushing threat → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent grabs your hands or forearm attempting to strip the figure-four grip configuration** (Effectiveness: Low) - Your Response: Maintain hip pressure and continue submission pressure since grip fighting rarely succeeds when positional control is established—their energy expenditure favors you → Leads to [[Positions/Estima Lock]]
 
 
 </section>

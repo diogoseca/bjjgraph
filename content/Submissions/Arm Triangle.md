@@ -22,7 +22,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries (compressed by opponent's own shoulder and your arm)
-**Starting Position**: [[Side Control]]
+**Starting Position**: [[Positions/Side Control]]
 **Success Rate**: 62%
 
 </section>
@@ -75,8 +75,8 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -223,15 +223,15 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 ## From Which Positions?
 
-- [[Side Control]]
-- [[Mount]]
-- [[High Mount]]
-- [[Modified Mount]]
-- [[North-South]]
-- [[Kesa Gatame]]
-- [[Turtle]]
-- [[Half Guard]]
-- [[Knee on Belly]]
+- [[Positions/Side Control]]
+- [[Positions/Mount]]
+- [[Positions/Mount/High Mount]]
+- [[Positions/Mount/Modified Mount]]
+- [[Positions/North-South]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Turtle]]
+- [[Positions/Half Guard]]
+- [[Positions/Knee on Belly]]
 
 
 </section>
@@ -240,15 +240,15 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 ## Related Submissions
 
-- [[Darce Choke]]
-- [[Anaconda Choke]]
-- [[North-South Choke]]
-- [[Guillotine Choke]]
-- [[Rear Naked Choke]]
-- [[Ezekiel Choke]]
-- [[Clock Choke]]
-- [[Brabo Choke]]
-- [[Marce Choke]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Anaconda Choke]]
+- [[Transitions/North-South Choke]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Rear Naked Choke]]
+- [[Submissions/Ezekiel Choke]]
+- [[Transitions/Clock Choke]]
+- [[Submissions/Brabo Choke]]
+- [[Submissions/Marce Choke]]
 
 
 </section>
@@ -257,18 +257,18 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 ## Additional Related Content
 
-- [[Side Control Consolidation]] - Primary setup position requiring tight control
-- [[Mount]] - Alternative setup position when opponent frames
-- [[Kuzure Kesa-Gatame]] - Modified scarf hold position allows similar setup
-- [[Modified Scarf Hold]] - Body positioning allows similar mechanics
-- [[North-South]] - Finishing position variation with downward pressure
-- [[Technical Mount]] - Alternative finishing position with leg control
-- [[S Mount]] - Modified mount finish provides excellent angle
-- [[Darce Choke]] - Related head and arm choke with similar mechanics
-- [[Anaconda Choke]] - Sister submission with opposite arm threading direction
-- [[Half Guard]] - Can set up arm triangle during top pressure passing
-- [[Turtle]] - Common setup position when opponent turtles defensively
-- [[Back Control]] - Alternative target when opponent turns during arm triangle defense
+- [[Positions/Side Control/Side Control Consolidation]] - Primary setup position requiring tight control
+- [[Positions/Mount]] - Alternative setup position when opponent frames
+- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Modified scarf hold position allows similar setup
+- [[Positions/Side Control/Modified Scarf Hold]] - Body positioning allows similar mechanics
+- [[Positions/North-South]] - Finishing position variation with downward pressure
+- [[Positions/Mount/Technical Mount]] - Alternative finishing position with leg control
+- [[Positions/Mount/S Mount]] - Modified mount finish provides excellent angle
+- [[Transitions/Darce Choke]] - Related head and arm choke with similar mechanics
+- [[Transitions/Anaconda Choke]] - Sister submission with opposite arm threading direction
+- [[Positions/Half Guard]] - Can set up arm triangle during top pressure passing
+- [[Positions/Turtle]] - Common setup position when opponent turtles defensively
+- [[Positions/Back Control]] - Alternative target when opponent turns during arm triangle defense
 
 
 </section>

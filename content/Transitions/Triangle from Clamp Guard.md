@@ -21,7 +21,7 @@ This technique is classified as a submission setup rather than a direct finish b
 
 Strategically, the Triangle from Clamp Guard creates a powerful dilemma within the clamp guard attack system. If the opponent keeps their arm still to prevent the triangle, the armbar from clamp guard becomes increasingly available as the clamp deepens. If they move their arm to escape the clamp, the triangle window opens. This offensive fork forces the opponent to choose between two deteriorating options, which is the hallmark of effective guard play at the purple belt level and above. Advanced practitioners never telegraph the triangle — they maintain clamp pressure and react to the opponent's extraction direction, allowing the defense to select the attack.
 
-**From Position**: [[Clamp Guard]] (Bottom)
+**From Position**: [[Positions/Clamp Guard]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Triangle from Clamp Guard creates a powerful dilemma within t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Control]] | 45% |
-| Failure | [[Clamp Guard]] | 35% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Triangle Control]] | 45% |
+| Failure | [[Positions/Clamp Guard]] | 35% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Triangle from Clamp Guard functions as the primary submission-entry pathway 
 ## Related Techniques
 
 
-- [[Clamp Guard]] - Source position — the arm isolation foundation that enables this triangle entry
+- [[Positions/Clamp Guard]] - Source position — the arm isolation foundation that enables this triangle entry
 
-- [[Triangle Control]] - Target position on success — the control platform for finishing the triangle choke
+- [[Positions/Triangle Control]] - Target position on success — the control platform for finishing the triangle choke
 
-- [[Open Guard]] - Counter outcome position when opponent disrupts the clamp during the transition
+- [[Positions/Open Guard]] - Counter outcome position when opponent disrupts the clamp during the transition
 
-- [[Armbar from Clamp Guard]] - Primary alternative attack from the same position — forms the dilemma pair with this technique
+- [[Transitions/Armbar from Clamp Guard]] - Primary alternative attack from the same position — forms the dilemma pair with this technique
 
-- [[Arm Extraction from Clamp Guard]] - Opponent's escape that can trigger the triangle window when the arm circles outward
+- [[Transitions/Arm Extraction from Clamp Guard]] - Opponent's escape that can trigger the triangle window when the arm circles outward
 
-- [[Sweep from Clamp Guard]] - Alternative offensive option when opponent bases heavily to prevent submission entries
+- [[Transitions/Sweep from Clamp Guard]] - Alternative offensive option when opponent bases heavily to prevent submission entries
 
-- [[Omoplata Control]] - Tertiary submission target when opponent's arm position favors shoulder rotation over neck compression
+- [[Positions/Omoplata Control]] - Tertiary submission target when opponent's arm position favors shoulder rotation over neck compression
 
-- [[Closed Guard]] - Fallback guard position if the clamp is lost before the triangle can be established
+- [[Positions/Closed Guard]] - Fallback guard position if the clamp is lost before the triangle can be established
 
-- [[Spider Guard]] - Related guard system sharing shin-on-arm mechanics with different control configuration
+- [[Positions/Spider Guard]] - Related guard system sharing shin-on-arm mechanics with different control configuration
 
-- [[Triangle from Open Guard]] - Alternative triangle entry from less controlled open guard position for comparison
+- [[Submissions/Triangle from Open Guard]] - Alternative triangle entry from less controlled open guard position for comparison
 
 
 </section>

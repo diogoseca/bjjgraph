@@ -180,7 +180,7 @@ description: "Master the attacking mechanics of the Anaconda to Side Control gat
 
 As the attacker executing the Anaconda to Side Control transition, your objective is to convert the anaconda grip control into dominant side control through a committed forward roll or walk-around. The transition requires precise hip positioning, full commitment to the rolling motion, and continuous grip maintenance throughout the rotation. The gator roll works by using your body weight and momentum to carry the opponent underneath you, arriving in side control with your chest perpendicular to their torso. Success depends on breaking the opponent's base before initiating the roll, maintaining the constricting grip throughout the rotation, and immediately consolidating side control upon landing. The key decision upon arrival is whether to maintain the anaconda grip for continued choke threat or release to standard side control control points based on grip tightness and the opponent's defensive positioning.
 
-**From Position**: [[Anaconda Control]] (Top)
+**From Position**: [[Positions/Anaconda Control]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Anaconda to Side Control transition, your objectiv
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Anaconda Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Anaconda Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Anaconda to Side Control transition, your objectiv
 
 ## Opponent Counters
 
-- **Opponent posts far hand firmly on the mat to block the roll** (Effectiveness: High) - Your Response: Strip the posting hand by reaching under with your free hand and pulling their wrist toward you, or redirect your pressure to collapse their posting arm before re-attempting the roll. Alternatively, switch to the walk-around variant if the post is too strong to break. → Leads to [[Anaconda Control]]
-- **Opponent sprawls legs back and drives hips away during the step-over** (Effectiveness: Medium) - Your Response: Follow their hip movement by walking your own hips further to maintain the rolling angle. Their sprawl actually compromises their base forward, so use the momentum shift to snap them down and re-attempt the roll from a flatter position. Maintain continuous chest pressure throughout. → Leads to [[Anaconda Control]]
-- **Opponent times the roll and scrambles to top position during the rotation** (Effectiveness: High) - Your Response: If you feel the opponent gaining top position during the roll, immediately release the anaconda grip and establish defensive frames to prevent being pinned. Work to insert a knee shield and recover half guard. Prevention is better — only initiate the roll when their base is fully compromised. → Leads to [[Half Guard]]
-- **Opponent breaks the anaconda grip during the rolling transition by fighting wrists** (Effectiveness: Medium) - Your Response: If grip breaks mid-roll, immediately transition to standard front headlock control or switch to a darce grip if the arm position allows. Complete the roll regardless and establish side control even without the anaconda grip, using standard crossface and underhook controls. → Leads to [[Anaconda Control]]
+- **Opponent posts far hand firmly on the mat to block the roll** (Effectiveness: High) - Your Response: Strip the posting hand by reaching under with your free hand and pulling their wrist toward you, or redirect your pressure to collapse their posting arm before re-attempting the roll. Alternatively, switch to the walk-around variant if the post is too strong to break. → Leads to [[Positions/Anaconda Control]]
+- **Opponent sprawls legs back and drives hips away during the step-over** (Effectiveness: Medium) - Your Response: Follow their hip movement by walking your own hips further to maintain the rolling angle. Their sprawl actually compromises their base forward, so use the momentum shift to snap them down and re-attempt the roll from a flatter position. Maintain continuous chest pressure throughout. → Leads to [[Positions/Anaconda Control]]
+- **Opponent times the roll and scrambles to top position during the rotation** (Effectiveness: High) - Your Response: If you feel the opponent gaining top position during the roll, immediately release the anaconda grip and establish defensive frames to prevent being pinned. Work to insert a knee shield and recover half guard. Prevention is better — only initiate the roll when their base is fully compromised. → Leads to [[Positions/Half Guard]]
+- **Opponent breaks the anaconda grip during the rolling transition by fighting wrists** (Effectiveness: Medium) - Your Response: If grip breaks mid-roll, immediately transition to standard front headlock control or switch to a darce grip if the arm position allows. Complete the roll regardless and establish side control even without the anaconda grip, using standard crossface and underhook controls. → Leads to [[Positions/Anaconda Control]]
 
 
 </section>

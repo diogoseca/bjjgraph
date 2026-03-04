@@ -21,7 +21,7 @@ Mechanically, this transition requires the attacker to release the triangle lock
 
 Strategically, this transition serves as a cornerstone of the rear triangle attack system. Opponents who learn to defend the rear triangle choke by tucking their chin and protecting the neck become vulnerable to this armbar pivot. This creates a genuine submission dilemma: defend the choke and expose the arm, or defend the arm and get choked. Advanced practitioners chain between the choke and armbar attempts multiple times within a single exchange, breaking down defensive layers progressively until one attack succeeds.
 
-**From Position**: [[Rear Triangle]] (Top)
+**From Position**: [[Positions/Triangle Control/Rear Triangle]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition serves as a cornerstone of the rear triangle atta
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 55% |
-| Failure | [[Rear Triangle]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Armbar Control]] | 55% |
+| Failure | [[Positions/Triangle Control/Rear Triangle]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Rear Triangle to Armbar transition sits at the center of the rear triangle a
 ## Related Techniques
 
 
-- [[Rear Triangle]] - Starting position providing the trapped arm and initial control structure
+- [[Positions/Triangle Control/Rear Triangle]] - Starting position providing the trapped arm and initial control structure
 
-- [[Armbar Control]] - Target position where the armbar is secured and finished
+- [[Positions/Armbar Control]] - Target position where the armbar is secured and finished
 
-- [[Back Control]] - Parent positional family from which rear triangle is entered
+- [[Positions/Back Control]] - Parent positional family from which rear triangle is entered
 
-- [[Half Guard]] - Counter outcome position when defender escapes during transition
+- [[Positions/Half Guard]] - Counter outcome position when defender escapes during transition
 
-- [[Rear Triangle Choke Finish]] - Alternative finishing attack from the same starting position
+- [[Transitions/Rear Triangle Choke Finish]] - Alternative finishing attack from the same starting position
 
-- [[Armbar Finish]] - Follow-up submission finish from the resulting armbar control
+- [[Transitions/Armbar Finish]] - Follow-up submission finish from the resulting armbar control
 
-- [[Hitchhiker Escape from Armbar]] - Primary defensive escape the opponent attempts once armbar control is established
+- [[Transitions/Hitchhiker Escape from Armbar]] - Primary defensive escape the opponent attempts once armbar control is established
 
-- [[Gift Wrap]] - Alternative arm control from back that facilitates the armbar transition
+- [[Positions/Gift Wrap]] - Alternative arm control from back that facilitates the armbar transition
 
-- [[Grip Fight Escape from Rear Triangle]] - Defensive technique defenders use that can trigger this armbar transition
+- [[Transitions/Grip Fight Escape from Rear Triangle]] - Defensive technique defenders use that can trigger this armbar transition
 
-- [[Belly Down Armbar Transition]] - Follow-up transition if opponent rolls during the armbar attempt
+- [[Transitions/Belly Down Armbar Transition]] - Follow-up transition if opponent rolls during the armbar attempt
 
 
 </section>

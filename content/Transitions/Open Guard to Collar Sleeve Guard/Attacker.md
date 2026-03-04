@@ -180,7 +180,7 @@ description: "Master the grip sequencing, timing, and foot placement needed to e
 
 As the attacker executing this transition, your objective is to convert a generic open guard position into the structured collar sleeve guard by winning the initial grip fighting exchange. The transition demands a specific grip sequencing hierarchy where the cross-collar grip is established first to anchor your control over the opponent's posture, followed by the same-side sleeve grip that prevents posting and completes the guard's asymmetric structure. Your legs play a critical supporting role throughout: feet on hips create distance that buys time for grip establishment, while the foot on the sleeve-grip side transitions to the opponent's bicep or hip to create the frame that defines the guard's geometry. The entire sequence must be executed proactively during windows when the opponent is resetting their passing grips or transitioning between stances, rather than reactively after they have already established dominant control.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing this transition, your objective is to convert a generi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Collar Sleeve Guard]] | 65% |
-| Failure | [[Open Guard]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Collar Sleeve Guard]] | 65% |
+| Failure | [[Positions/Open Guard]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing this transition, your objective is to convert a generi
 
 ## Opponent Counters
 
-- **Opponent strips collar grip using two-on-one grip break before sleeve is captured** (Effectiveness: High) - Your Response: Re-establish collar grip immediately using opposite hand or transition to sleeve-only guards like spider guard or lasso guard rather than fighting to re-secure a contested collar → Leads to [[Open Guard]]
-- **Opponent drives forward with heavy pressure to collapse distance before grips are complete** (Effectiveness: Medium) - Your Response: Use feet on hips to maintain distance and absorb the pressure drive. If distance collapses, transition to closed guard or butterfly guard hooks rather than forcing collar sleeve from too close range → Leads to [[Open Guard]]
-- **Opponent grabs your pants at the knees and initiates toreando pass before you establish grips** (Effectiveness: High) - Your Response: Prioritize addressing the pant grips with your feet by pushing their hands off your knees, or hip escape to create angle that defeats the lateral passing motion. Establish collar grip as counter-offensive during their pass attempt → Leads to [[Half Guard]]
-- **Opponent backsteps and disengages to standing position out of collar grip range** (Effectiveness: Medium) - Your Response: Sit up and scoot forward to close distance while maintaining foot frames on their shins. Alternatively transition to De La Riva guard which is more effective against standing opponents at longer range → Leads to [[Open Guard]]
+- **Opponent strips collar grip using two-on-one grip break before sleeve is captured** (Effectiveness: High) - Your Response: Re-establish collar grip immediately using opposite hand or transition to sleeve-only guards like spider guard or lasso guard rather than fighting to re-secure a contested collar → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward with heavy pressure to collapse distance before grips are complete** (Effectiveness: Medium) - Your Response: Use feet on hips to maintain distance and absorb the pressure drive. If distance collapses, transition to closed guard or butterfly guard hooks rather than forcing collar sleeve from too close range → Leads to [[Positions/Open Guard]]
+- **Opponent grabs your pants at the knees and initiates toreando pass before you establish grips** (Effectiveness: High) - Your Response: Prioritize addressing the pant grips with your feet by pushing their hands off your knees, or hip escape to create angle that defeats the lateral passing motion. Establish collar grip as counter-offensive during their pass attempt → Leads to [[Positions/Half Guard]]
+- **Opponent backsteps and disengages to standing position out of collar grip range** (Effectiveness: Medium) - Your Response: Sit up and scoot forward to close distance while maintaining foot frames on their shins. Alternatively transition to De La Riva guard which is more effective against standing opponents at longer range → Leads to [[Positions/Open Guard]]
 
 
 </section>

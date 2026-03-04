@@ -154,7 +154,7 @@ description: "Complete guide to defending the Knee Cut from Headquarters in BJJ.
 
 Defending the Knee Cut from Headquarters requires early recognition of the pass attempt and immediate defensive action before the passer establishes the cutting angle across your thigh line. Your primary goal is preventing the knee from crossing by maintaining frames, controlling the passer's hip, and keeping your own hips mobile and angled rather than flat on the mat. The knee cut becomes exponentially harder to defend once the cutting knee crosses the thigh line and the passer drops their hip, so all defensive effort should focus on early intervention during the setup phase. If the knee cut advances past initial defense, transitioning to half guard recovery or using the passer's committed weight against them for sweep opportunities becomes the secondary defensive strategy, turning their offensive commitment into a vulnerability.
 
-**Opponent's Starting Position**: [[Headquarters Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Headquarters Position]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Knee Cut from Headquarters requires early recognition of the pass 
 ### 1. Insert knee shield before the cut develops by placing your shin across the passer's hip line and framing on their shoulder with your top hand
 
 - **When to use**: At the earliest recognition of the knee cut setup, before the passer commits weight to the cutting direction and while their knee is still in headquarters position
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: The knee shield blocks the cutting knee from crossing your thigh, forcing the passer back to headquarters to reconsider their passing approach or chain to an alternative pass
 - **Risk**: If the knee shield is established too late, the passer can smash through it by collapsing their weight laterally, potentially achieving an even stronger passing position
 
 ### 2. Secure deep underhook on the cutting side and sit up aggressively into the passer's body, threatening a sweep or back take as they commit weight forward
 
 - **When to use**: When the passer commits to the knee cut and shifts their weight forward, creating the opportunity to get underneath their center of gravity with the underhook
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The underhook combined with the passer's forward commitment allows you to sweep them to half guard bottom or take their back as their base is compromised by the cutting motion
 - **Risk**: If the passer recognizes the underhook early, they can apply a whizzer or darce choke that punishes your attempt to come underneath, or increase crossface pressure to flatten you before the underhook becomes effective
 
 ### 3. Frame on the passer's hip with your near hand while hip escaping away from the cutting direction to create distance and recover guard structure
 
 - **When to use**: When the passer's knee begins crossing but has not yet reached the critical point past your thigh line, and you have enough space to create a hip frame
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: The hip frame combined with the hip escape creates enough distance to recover your legs into a guard position, either half guard with knee shield or full closed guard
 - **Risk**: If the frame is weak or poorly positioned, the passer strips it easily and accelerates the pass with the momentum of your hip escape working against your own defensive structure
 
 ### 4. Lock legs around the cutting shin to recover half guard if the knee crosses the thigh line, preventing the complete pass to side control
 
 - **When to use**: As a last-resort defense when the cutting knee has already crossed your thigh line and the primary defenses have been bypassed, catching the shin before full extraction
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: You recover half guard position with the passer's leg trapped, resetting the exchange to a half guard battle rather than conceding the full pass to side control
 - **Risk**: The passer may use the half guard position to transition to a standard knee slice pass or backstep, and you have lost the advantageous headquarters bottom position
 
@@ -225,11 +225,11 @@ Defending the Knee Cut from Headquarters requires early recognition of the pass 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time the underhook as the passer commits their weight to the knee cut. As their base shifts forward and laterally, use the underhook to get underneath their center of gravity and execute a sweep using their own forward momentum against them. The key is catching the transition moment when their weight is committed to the cut but the pass is not yet complete.
 
-### → [[Headquarters Position]]
+### → [[Positions/Headquarters Position]]
 
 Establish knee shield early in the cut sequence before the passer can develop full momentum. Frame on their shoulder and hip simultaneously to create multi-point distance that prevents the knee from advancing. Combine the frames with an active hip escape that creates enough angle to re-insert your legs into guard position, forcing the passer to restart from headquarters.
 

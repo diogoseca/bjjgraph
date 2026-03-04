@@ -188,7 +188,7 @@ The Knee Slice Pass from the attacker's perspective is a systematic process of b
 
 The critical insight for the attacker is that the knee slice is not a single explosive movement but rather a continuous pressure sequence with distinct phases: grip establishment, frame neutralization, knee insertion, hip drive, and consolidation. Rushing any phase creates gaps the defender can exploit. The passer who understands the sequential nature of the technique and applies patient, relentless forward pressure will complete the pass far more consistently than one who relies on speed or athleticism alone.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -244,9 +244,9 @@ The critical insight for the attacker is that the knee slice is not a single exp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 68% |
-| Failure | [[Half Guard]] | 20% |
-| Counter | [[Half Guard]] | 12% |
+| Success | [[Positions/Side Control]] | 68% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>
@@ -255,10 +255,10 @@ The critical insight for the attacker is that the knee slice is not a single exp
 
 ## Opponent Counters
 
-- **Opponent establishes a strong knee shield frame before the slice begins** (Effectiveness: High) - Your Response: Switch to a long step pass around the frame, or smash the knee shield by driving your shoulder into their knee while controlling the far hip, then continue the slice once the frame collapses. Do not try to force the slice through an established knee shield. → Leads to [[Half Guard]]
-- **Opponent turns to their knees during the slice to escape to turtle** (Effectiveness: Medium) - Your Response: Follow them immediately and secure a seatbelt grip under their far armpit. Establish back control hooks or use a mat return to flatten them back down. Never allow them to complete the turtle and stand up. The turn itself can be an opportunity for a back take. → Leads to [[Half Guard]]
-- **Opponent recovers full guard by re-inserting their knee during the slice** (Effectiveness: Medium) - Your Response: Prevent this by maintaining constant forward pressure and far hip control throughout the slice. If they begin recovering, immediately switch to a backstep pass or stack pass to restart from a different angle rather than forcing the original slice against a re-established guard. → Leads to [[Half Guard]]
-- **Opponent underhooks your slicing leg and attempts a deep half sweep** (Effectiveness: Low) - Your Response: Keep your base wide and hips low to prevent the underhook from generating sweep leverage. If they secure the underhook on your leg, immediately shift your weight over their head and consider a whizzer on their underhooking arm or transition to a crossface pass that neutralizes their leverage angle. → Leads to [[Half Guard]]
+- **Opponent establishes a strong knee shield frame before the slice begins** (Effectiveness: High) - Your Response: Switch to a long step pass around the frame, or smash the knee shield by driving your shoulder into their knee while controlling the far hip, then continue the slice once the frame collapses. Do not try to force the slice through an established knee shield. → Leads to [[Positions/Half Guard]]
+- **Opponent turns to their knees during the slice to escape to turtle** (Effectiveness: Medium) - Your Response: Follow them immediately and secure a seatbelt grip under their far armpit. Establish back control hooks or use a mat return to flatten them back down. Never allow them to complete the turtle and stand up. The turn itself can be an opportunity for a back take. → Leads to [[Positions/Half Guard]]
+- **Opponent recovers full guard by re-inserting their knee during the slice** (Effectiveness: Medium) - Your Response: Prevent this by maintaining constant forward pressure and far hip control throughout the slice. If they begin recovering, immediately switch to a backstep pass or stack pass to restart from a different angle rather than forcing the original slice against a re-established guard. → Leads to [[Positions/Half Guard]]
+- **Opponent underhooks your slicing leg and attempts a deep half sweep** (Effectiveness: Low) - Your Response: Keep your base wide and hips low to prevent the underhook from generating sweep leverage. If they secure the underhook on your leg, immediately shift your weight over their head and consider a whizzer on their underhooking arm or transition to a crossface pass that neutralizes their leverage angle. → Leads to [[Positions/Half Guard]]
 
 
 </section>

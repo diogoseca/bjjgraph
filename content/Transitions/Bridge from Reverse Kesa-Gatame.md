@@ -21,7 +21,7 @@ The technique works best when the top player commits their weight too far forwar
 
 Strategically, the bridge from Reverse Kesa-Gatame creates a binary risk-reward profile: either significant positional improvement to turtle or half guard, or potential worsening if the top player rides the bridge to mount. This makes proper timing and setup essential. The technique chains naturally with other escape methods—a bridge attempt that fails to fully displace the top player still disrupts their weight distribution, making subsequent shrimp or elbow escapes significantly more effective. For this reason, the bridge often functions as the opening salvo in a multi-escape sequence rather than a standalone technique.
 
-**From Position**: [[Reverse Kesa-Gatame]] (Bottom)
+**From Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, the bridge from Reverse Kesa-Gatame creates a binary risk-reward 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 35% |
-| Success | [[Half Guard]] | 10% |
-| Failure | [[Reverse Kesa-Gatame]] | 35% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Turtle]] | 35% |
+| Success | [[Positions/Half Guard]] | 10% |
+| Failure | [[Positions/Side Control/Reverse Kesa-Gatame]] | 35% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -190,25 +190,25 @@ The bridge from Reverse Kesa-Gatame integrates into the broader escape hierarchy
 ## Related Techniques
 
 
-- [[Reverse Kesa-Gatame]] - Starting position for this escape technique
+- [[Positions/Side Control/Reverse Kesa-Gatame]] - Starting position for this escape technique
 
-- [[Turtle]] - Primary escape destination after successful bridge and turn
+- [[Positions/Turtle]] - Primary escape destination after successful bridge and turn
 
-- [[Half Guard]] - Alternative escape destination via knee insertion during bridge
+- [[Positions/Half Guard]] - Alternative escape destination via knee insertion during bridge
 
-- [[Mount]] - Counter position opponent can achieve by riding the bridge
+- [[Positions/Mount]] - Counter position opponent can achieve by riding the bridge
 
-- [[Kesa Gatame]] - Related scarf hold position with analogous bridge escape mechanics
+- [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position with analogous bridge escape mechanics
 
-- [[Bridge Escape from Kesa Gatame]] - Similar bridge escape technique from traditional scarf hold
+- [[Transitions/Bridge Escape from Kesa Gatame]] - Similar bridge escape technique from traditional scarf hold
 
-- [[Bridge Escape from Scarf Hold]] - Related bridge escape from scarf hold family
+- [[Transitions/Bridge Escape from Scarf Hold]] - Related bridge escape from scarf hold family
 
-- [[Bridge Escape from Reverse Scarf Hold]] - Closely related bridge escape from reverse scarf hold variant
+- [[Transitions/Bridge Escape from Reverse Scarf Hold]] - Closely related bridge escape from reverse scarf hold variant
 
-- [[Side Control]] - Parent position category for pinning escapes
+- [[Positions/Side Control]] - Parent position category for pinning escapes
 
-- [[North-South]] - Position opponent may transition to if bridge is anticipated
+- [[Positions/North-South]] - Position opponent may transition to if bridge is anticipated
 
 
 </section>

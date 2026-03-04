@@ -21,7 +21,7 @@ This transition most commonly occurs when the opponent's defensive reactions to 
 
 The primary technical challenge lies in maintaining heel exposure and continuous leg control throughout the reconfiguration phase. Any momentary lapse during the transition creates escape windows that skilled defenders will exploit immediately. Mastery requires understanding the precise mechanical relationship between Inside Sankaku and Saddle, specifically how hip angle changes, leg repositioning, and weight transfer work together to achieve deeper entanglement without sacrificing existing control. Elite practitioners make this transition feel seamless because they time it to the opponent's defensive movement rather than forcing it against static resistance.
 
-**From Position**: [[Inside Sankaku]] (Top)
+**From Position**: [[Positions/Inside Sankaku]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The primary technical challenge lies in maintaining heel exposure and continuous
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Saddle]] | 55% |
-| Failure | [[Inside Sankaku]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Saddle]] | 55% |
+| Failure | [[Positions/Inside Sankaku]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Inside Sankaku to Saddle transition serves as the primary positional upgrade
 ## Related Techniques
 
 
-- [[Inside Sankaku]] - Source position - the starting leg entanglement from which this transition originates
+- [[Positions/Inside Sankaku]] - Source position - the starting leg entanglement from which this transition originates
 
-- [[Saddle]] - Target position - the dominant perpendicular leg entanglement achieved on success
+- [[Positions/Ashi Garami/Saddle]] - Target position - the dominant perpendicular leg entanglement achieved on success
 
-- [[Half Guard]] - Counter outcome position - where attacker ends up if defender successfully escapes during transition
+- [[Positions/Half Guard]] - Counter outcome position - where attacker ends up if defender successfully escapes during transition
 
-- [[Honey Hole]] - Alternative terminology for Inside Sankaku in 10th Planet system
+- [[Positions/Ashi Garami/Honey Hole]] - Alternative terminology for Inside Sankaku in 10th Planet system
 
-- [[Inside Sankaku Heel Hook]] - Primary submission attack from the source position that this transition complements
+- [[Transitions/Inside Sankaku Heel Hook]] - Primary submission attack from the source position that this transition complements
 
-- [[Heel Hook from Saddle]] - Primary submission attack available from the target position after successful transition
+- [[Transitions/Heel Hook from Saddle]] - Primary submission attack available from the target position after successful transition
 
-- [[Inside Ashi-Garami]] - Fallback position if transition fails and figure-four configuration loosens
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Fallback position if transition fails and figure-four configuration loosens
 
-- [[Outside Ashi-Garami]] - Alternative leg entanglement accessible through different hip angle from same starting position
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative leg entanglement accessible through different hip angle from same starting position
 
-- [[Ashi Garami Escape]] - Defender's primary escape technique that this transition must account for
+- [[Transitions/Ashi Garami Escape]] - Defender's primary escape technique that this transition must account for
 
-- [[Fallback to Inside Ashi-Garami]] - Recovery transition when Saddle entry fails and control degrades below Inside Sankaku level
+- [[Transitions/Fallback to Inside Ashi-Garami]] - Recovery transition when Saddle entry fails and control degrades below Inside Sankaku level
 
 
 </section>

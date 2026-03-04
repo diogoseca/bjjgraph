@@ -21,7 +21,7 @@ The sweep functions as the positional advancement layer within the Hindulotine a
 
 Strategically, this technique bridges the gap between bottom guard attacking and top mount finishing. Landing in mount with residual guillotine control gives you immediate offensive options - you can finish the mounted guillotine, transition to standard mount attacks, or use the neck control to set up high mount advancement. The sweep is most effective against opponents who commit their weight forward or laterally while attempting to neutralize the Hindulotine grip, making their base structurally vulnerable to directional force application.
 
-**From Position**: [[Hindulotine]] (Bottom)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this technique bridges the gap between bottom guard attacking and
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 65% |
-| Failure | [[Hindulotine]] | 25% |
-| Counter | [[Hindulotine]] | 10% |
+| Success | [[Positions/Mount]] | 65% |
+| Failure | [[Positions/Hindulotine]] | 25% |
+| Counter | [[Positions/Hindulotine]] | 10% |
 
 
 </section>
@@ -195,27 +195,27 @@ The Sweep to Mount occupies a critical role in the Hindulotine bottom attack sys
 ## Related Techniques
 
 
-- [[Hindulotine]] - Starting position providing the guillotine grip and body positioning for sweep initiation
+- [[Positions/Hindulotine]] - Starting position providing the guillotine grip and body positioning for sweep initiation
 
-- [[Mount]] - Target position upon successful sweep completion
+- [[Positions/Mount]] - Target position upon successful sweep completion
 
-- [[Butterfly Sweep with Guillotine]] - Alternative sweep using butterfly hooks from the same Hindulotine bottom position
+- [[Transitions/Butterfly Sweep with Guillotine]] - Alternative sweep using butterfly hooks from the same Hindulotine bottom position
 
-- [[Guillotine Choke]] - Direct submission option when sweep defense opens the choke finish
+- [[Transitions/Guillotine Choke]] - Direct submission option when sweep defense opens the choke finish
 
-- [[Hindulotine to Darce Choke]] - Alternative attack when opponent creates frames while defending sweep
+- [[Transitions/Hindulotine to Darce Choke]] - Alternative attack when opponent creates frames while defending sweep
 
-- [[Hindulotine to Anaconda Choke]] - Alternative submission transition from the same starting position
+- [[Transitions/Hindulotine to Anaconda Choke]] - Alternative submission transition from the same starting position
 
-- [[Back Take from Bottom]] - Alternative transition when opponent turns away during sweep defense
+- [[Transitions/Back Take from Bottom]] - Alternative transition when opponent turns away during sweep defense
 
-- [[High Elbow Guillotine Variation]] - Related finishing option that can be applied after landing in mount
+- [[Transitions/High Elbow Guillotine Variation]] - Related finishing option that can be applied after landing in mount
 
-- [[Consolidate Mount]] - Follow-up technique to establish control after landing in mount from the sweep
+- [[Transitions/Consolidate Mount]] - Follow-up technique to establish control after landing in mount from the sweep
 
-- [[Armbar from Mount]] - Follow-up submission option after releasing guillotine in mount
+- [[Submissions/Armbar from Mount]] - Follow-up submission option after releasing guillotine in mount
 
-- [[Guillotine Control]] - Parent submission system providing the grip mechanics used in this sweep
+- [[Positions/Guillotine Control]] - Parent submission system providing the grip mechanics used in this sweep
 
 
 </section>

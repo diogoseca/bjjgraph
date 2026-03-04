@@ -186,7 +186,7 @@ description: "Master the hand fight from seat belt back control bottom position.
 
 The hand fight from seat belt back control is the bottom player's most essential defensive tool for initiating any escape from one of BJJ's most dangerous positions. As the attacker executing this hand fight, your objective is to systematically dismantle the opponent's diagonal over-under grip configuration that provides their primary control structure and choking platform. This requires disciplined two-on-one grip fighting methodology where you address one arm at a time while maintaining constant neck protection, coordinating grip breaks with hip movement to mechanically weaken the seat belt structure, and capitalizing on each successful strip to transition toward escape positions. The hand fight is not a strength contest - it is a technical sequence of wrist manipulation, leverage application, and positional adjustment that converts the opponent's controlling advantage into manageable defensive situations from which full escape becomes possible.
 
-**From Position**: [[Seat Belt Control Back]] (Bottom)
+**From Position**: [[Positions/Back Control/Seat Belt Control Back]] (Bottom)
 
 </section>
 
@@ -240,10 +240,10 @@ The hand fight from seat belt back control is the bottom player's most essential
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 35% |
-| Success | [[Turtle]] | 10% |
-| Failure | [[Seat Belt Control Back]] | 40% |
-| Counter | [[Seat Belt Control Back]] | 15% |
+| Success | [[Positions/Back Control]] | 35% |
+| Success | [[Positions/Turtle]] | 10% |
+| Failure | [[Positions/Back Control/Seat Belt Control Back]] | 40% |
+| Counter | [[Positions/Back Control/Seat Belt Control Back]] | 15% |
 
 
 </section>
@@ -252,10 +252,10 @@ The hand fight from seat belt back control is the bottom player's most essential
 
 ## Opponent Counters
 
-- **Opponent immediately re-grips after partial strip by switching to gable grip or wrist-on-wrist connection before you can pin the arm** (Effectiveness: High) - Your Response: Maintain constant downward pressure on the stripped arm rather than releasing to address the second arm. Keep the broken grip pinned while working continuous strip attempts, and coordinate hip escapes to prevent opponent from settling into the new grip. → Leads to [[Seat Belt Control Back]]
-- **Opponent advances choking arm toward neck during the grip fight window when your hands leave neck defense to strip grips** (Effectiveness: High) - Your Response: Immediately abandon grip break and return both hands to neck defense, re-establishing chin tuck and collar line protection. The hand fight can always be restarted, but allowing a choke to lock during grip fighting ends the match. → Leads to [[Seat Belt Control Back]]
-- **Opponent switches to alternative grip configuration such as gift wrap or double underhooks when seat belt is compromised** (Effectiveness: Medium) - Your Response: Recognize the grip transition as a window of reduced control. Use the moment when opponent releases one configuration to establish another as your primary escape opportunity, since their positional control is weakest during the switch. → Leads to [[Back Control]]
-- **Opponent increases chest pressure and deepens hooks to maintain positional dominance while absorbing grip attacks on the seat belt** (Effectiveness: Medium) - Your Response: Integrate hip escapes and bridges with hand fighting to disrupt opponent's weight distribution. Increased chest pressure means more of their control relies on body positioning rather than grip, making the grip itself easier to strip once angles are created through hip movement. → Leads to [[Seat Belt Control Back]]
+- **Opponent immediately re-grips after partial strip by switching to gable grip or wrist-on-wrist connection before you can pin the arm** (Effectiveness: High) - Your Response: Maintain constant downward pressure on the stripped arm rather than releasing to address the second arm. Keep the broken grip pinned while working continuous strip attempts, and coordinate hip escapes to prevent opponent from settling into the new grip. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
+- **Opponent advances choking arm toward neck during the grip fight window when your hands leave neck defense to strip grips** (Effectiveness: High) - Your Response: Immediately abandon grip break and return both hands to neck defense, re-establishing chin tuck and collar line protection. The hand fight can always be restarted, but allowing a choke to lock during grip fighting ends the match. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
+- **Opponent switches to alternative grip configuration such as gift wrap or double underhooks when seat belt is compromised** (Effectiveness: Medium) - Your Response: Recognize the grip transition as a window of reduced control. Use the moment when opponent releases one configuration to establish another as your primary escape opportunity, since their positional control is weakest during the switch. → Leads to [[Positions/Back Control]]
+- **Opponent increases chest pressure and deepens hooks to maintain positional dominance while absorbing grip attacks on the seat belt** (Effectiveness: Medium) - Your Response: Integrate hip escapes and bridges with hand fighting to disrupt opponent's weight distribution. Increased chest pressure means more of their control relies on body positioning rather than grip, making the grip itself easier to strip once angles are created through hip movement. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
 
 
 </section>

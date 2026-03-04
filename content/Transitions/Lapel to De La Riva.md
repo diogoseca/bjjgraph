@@ -21,7 +21,7 @@ The mechanical foundation of this transition lies in using the lapel grip as an 
 
 Strategically, this transition is most valuable against opponents who have learned to address worm guard or squid guard configurations but may be less prepared for the angle changes and inversion threats of De La Riva. The transition also opens pathways to X-Guard, Single Leg X, and berimbolo entries that are difficult to access from pure lapel guard. Advanced practitioners use this as part of a flowing guard system where they move between lapel, DLR, and other open guards based on opponent reactions, creating a constantly evolving puzzle that frustrates passing attempts.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition is most valuable against opponents who have learn
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[De La Riva Guard]] | 60% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/De La Riva Guard]] | 60% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,29 +189,29 @@ The Lapel to De La Riva transition functions as a critical bridge between two po
 ## Related Techniques
 
 
-- [[Lapel Guard]] - Starting position for this transition
+- [[Positions/Lapel Guard]] - Starting position for this transition
 
-- [[De La Riva Guard]] - Target position upon successful completion
+- [[Positions/De La Riva Guard]] - Target position upon successful completion
 
-- [[Worm Guard]] - Primary lapel variation from which this transition initiates
+- [[Positions/Worm Guard]] - Primary lapel variation from which this transition initiates
 
-- [[Berimbolo Entry]] - Primary follow-up attack from DLR after transition
+- [[Transitions/Berimbolo Entry]] - Primary follow-up attack from DLR after transition
 
-- [[De La Riva to X-Guard Transition]] - Chain transition available after completing DLR entry
+- [[Transitions/De La Riva to X-Guard Transition]] - Chain transition available after completing DLR entry
 
-- [[Reverse De La Riva Guard]] - Alternative when opponent circles away from standard DLR
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Alternative when opponent circles away from standard DLR
 
-- [[Lapel to Lasso Guard]] - Alternative guard transition from same starting position
+- [[Transitions/Lapel to Lasso Guard]] - Alternative guard transition from same starting position
 
-- [[Lapel to Spider Guard]] - Alternative guard transition maintaining similar distance
+- [[Transitions/Lapel to Spider Guard]] - Alternative guard transition maintaining similar distance
 
-- [[X-Guard]] - Secondary transition target through DLR
+- [[Positions/X-Guard]] - Secondary transition target through DLR
 
-- [[Back Control]] - Ultimate target position via DLR berimbolo system
+- [[Positions/Back Control]] - Ultimate target position via DLR berimbolo system
 
-- [[Half Guard]] - Position reached if opponent counters during transition
+- [[Positions/Half Guard]] - Position reached if opponent counters during transition
 
-- [[Squid Guard]] - Alternative lapel variation that can initiate this transition
+- [[Positions/Squid Guard]] - Alternative lapel variation that can initiate this transition
 
 
 </section>

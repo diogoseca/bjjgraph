@@ -158,7 +158,7 @@ The most critical defensive window occurs during the hook threading phase. At th
 
 From a strategic standpoint, the best defense is prevention through early lapel grip clearing and sustained forward pressure that denies the hip angle needed for hook insertion. However, if the transition is already in progress, the defender must choose between stepping back to deny the hook (risking the attacker retreating to solid lapel guard) or driving forward aggressively to smash through the transition (risking berimbolo exposure). Understanding which response is appropriate depends on reading the attacker's hip position and grip configuration at the moment of the attempt.
 
-**Opponent's Starting Position**: [[Lapel Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ From a strategic standpoint, the best defense is prevention through early lapel 
 ### 1. Step your lead leg back and out of threading range while maintaining base and posture, removing the target leg from the hook insertion path
 
 - **When to use**: When you detect the hip rotation and leg swing beginning but before the foot passes behind your knee—the earlier you act, the more effective this defense becomes
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Bottom player's DLR attempt fails and they retain lapel guard but without the added DLR control—you can then address the lapel configuration directly
 - **Risk**: Stepping back repeatedly without clearing the lapel just resets the exchange, allowing them to re-attempt the transition from the same starting position
 
 ### 2. Drive heavy forward pressure with your hips low and chest connected to opponent, smashing through the transition before the DLR hook can be consolidated
 
 - **When to use**: When the bottom player has already begun threading but hasn't yet pulled the hook tight—your forward pressure denies them the space to consolidate
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Flatten the bottom player's guard structure and advance to half guard or side control, bypassing both the lapel and DLR configurations
 - **Risk**: Aggressive forward pressure against a prepared opponent can be converted into berimbolo or kiss of the dragon entries that give them your back
 
 ### 3. Circle away from the hooking leg side while stripping the lapel configuration, removing both the hook angle and the lapel anchor simultaneously
 
 - **When to use**: When you have the space and mobility to circle—works best from a standing position rather than kneeling in their guard
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Deny the DLR entry angle and potentially clear the lapel configuration entirely, forcing bottom player to re-establish their guard from scratch
 - **Risk**: Circling exposes you to reverse De La Riva entries on the opposite side if you fail to clear the lapel grip during the movement
 
 ### 4. Backstep over the threading leg, rotating 180 degrees to face away while posting your far leg behind their guard structure
 
 - **When to use**: When the DLR hook is partially established but not yet consolidated—the backstep removes your leg from their hook path entirely
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Pass directly to side control or knee on belly by navigating behind the guard structure, converting their transition attempt into your passing opportunity
 - **Risk**: If executed too late with the hook already deep, the backstep can expose your back or allow them to enter leg entanglements
 
@@ -228,11 +228,11 @@ From a strategic standpoint, the best defense is prevention through early lapel 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lapel Guard]]
+### → [[Positions/Lapel Guard]]
 
 Step your lead leg back during the hook threading phase while maintaining your posture and base. The attacker retains their lapel guard but fails to add the DLR hook, giving you an opportunity to address the lapel configuration directly without the added complexity of DLR control.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Drive aggressive forward pressure through the transition attempt to flatten the bottom player's guard structure. Close the distance by dropping your hips and connecting chest-to-chest, denying the space needed for both the DLR hook and the lapel lever. From half guard, you have established passing sequences available.
 

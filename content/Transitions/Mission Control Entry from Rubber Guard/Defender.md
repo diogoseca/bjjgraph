@@ -146,7 +146,7 @@ description: "Defend and counter the Mission Control entry from Rubber Guard. Le
 
 From the defender's (top player's) perspective, the Mission Control entry represents the critical moment where rubber guard transitions from uncomfortable but manageable to genuinely dangerous. Before the shin grip is secured, the top player faces a controllable high guard situation with viable escape routes. Once Mission Control locks in, escape difficulty increases dramatically and submission threats multiply. The defender's primary strategic goal is recognizing the entry attempt during the grip transition vulnerability window and exploiting that momentary gap to either recover posture, extract the trapped arm, or clear the rubber guard entirely. Understanding that the grip switch creates a brief period where the bottom player has reduced control is essential: this window, typically lasting one to two seconds, is the defender's best opportunity to escape before the system fully engages. Defenders who learn to read the tactile and visual cues signaling the entry attempt gain a decisive advantage, as preemptive defense during the transition is far more effective than reactive escape after Mission Control is established.
 
-**Opponent's Starting Position**: [[Rubber Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ From the defender's (top player's) perspective, the Mission Control entry repres
 ### 1. Posture recovery during grip transition
 
 - **When to use**: The moment you feel the bottom player release one grip from your head to reach for their shin, immediately drive your head upward and shift weight backward
-- **Targets**: [[Rubber Guard]]
+- **Targets**: [[Positions/Rubber Guard]]
 - **If successful**: Bottom player cannot complete the shin grip and remains in basic rubber guard with partially recovered posture. You can then work systematic rubber guard escapes from a stronger defensive position.
 - **Risk**: If the bottom player has already secured the shin grip, aggressive posturing feeds directly into triangle choke entry as your upward movement helps their leg cross your face
 
 ### 2. Arm extraction during vulnerability window
 
 - **When to use**: When you feel the elevated leg lighten during the hip pop or sense the bottom player's arm threading under the leg. Pull your trapped arm out using a circular motion toward your hip rather than straight back.
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You free the trapped arm eliminating the shoulder isolation that powers Mission Control. The bottom player loses rubber guard structure entirely and must rebuild guard from open guard.
 - **Risk**: Pulling the arm straight back without circular motion opens direct path to triangle choke. The arm extraction must be smooth and deliberate, not explosive and linear.
 
 ### 3. Stack forward to collapse hip elevation
 
 - **When to use**: When you feel the bottom player's hips elevate for the hip pop that precedes the arm threading. Drive your weight forward and down to flatten their hips back to the mat.
-- **Targets**: [[Rubber Guard]]
+- **Targets**: [[Positions/Rubber Guard]]
 - **If successful**: Collapsing hip elevation prevents the clearance space needed to thread the overhook arm. Bottom player cannot complete the transition and must rebuild hip elevation before reattempting.
 - **Risk**: Forward stacking into rubber guard creates omoplata vulnerability. The bottom player can redirect your forward momentum into an omoplata rotation. Only use controlled stacking, not an explosive dive.
 
 ### 4. Grip strip on the shin before lock completes
 
 - **When to use**: If you detect the arm threading early and the shin grip is not yet secured. Use your free hand to grab the bottom player's wrist and pull it away from their own shin.
-- **Targets**: [[Rubber Guard]]
+- **Targets**: [[Positions/Rubber Guard]]
 - **If successful**: You prevent the Mission Control lock from completing. The bottom player's arm is displaced and they must retract and reattempt the entire threading sequence.
 - **Risk**: Reaching across your body to strip the grip compromises your base and removes your free hand from defensive framing. If the strip fails, you are in worse position with less defensive structure.
 
@@ -217,11 +217,11 @@ From the defender's (top player's) perspective, the Mission Control entry repres
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Time your arm extraction to coincide with the grip transition vulnerability window. When the bottom player releases head control to reach for their shin, use a circular arm pull toward your hip while simultaneously posting your free hand on their opposite hip. Drive backward to create distance as the arm clears the leg. The combined arm extraction and posture recovery should break the rubber guard structure entirely.
 
-### → [[Rubber Guard]]
+### → [[Positions/Rubber Guard]]
 
 Prevent the Mission Control lock by maintaining aggressive posture recovery pressure throughout. Keep your trapped elbow tight to your body so it cannot be easily isolated. When you sense the grip transition beginning, immediately drive your head upward with controlled force while shifting weight slightly backward. Even if you remain in rubber guard, preventing the advancement to Mission Control significantly limits the opponent's offensive options.
 

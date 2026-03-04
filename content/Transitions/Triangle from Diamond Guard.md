@@ -21,7 +21,7 @@ Strategically, this transition represents the primary submission threat from Dia
 
 Advanced practitioners chain this triangle entry with omoplata and kimura threats from the same diamond configuration, creating a three-directional attack system where defending the triangle exposes the opponent to shoulder locks, and defending shoulder locks opens the triangle. This interconnected threat network makes Diamond Guard one of the most dangerous closed guard variations for practitioners who invest in mastering the grip transition mechanics.
 
-**From Position**: [[Diamond Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard/Diamond Guard]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Advanced practitioners chain this triangle entry with omoplata and kimura threat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Control]] | 50% |
-| Failure | [[Diamond Guard]] | 30% |
-| Counter | [[Closed Guard]] | 20% |
+| Success | [[Positions/Triangle Control]] | 50% |
+| Failure | [[Positions/Closed Guard/Diamond Guard]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -189,25 +189,25 @@ The triangle from Diamond Guard occupies a central position within the closed gu
 ## Related Techniques
 
 
-- [[Diamond Guard]] - Source position providing the overhook and head control framework for triangle entry
+- [[Positions/Closed Guard/Diamond Guard]] - Source position providing the overhook and head control framework for triangle entry
 
-- [[Triangle Control]] - Target position reached upon successful triangle lock establishment
+- [[Positions/Triangle Control]] - Target position reached upon successful triangle lock establishment
 
-- [[Closed Guard]] - Fallback position if opponent breaks the diamond frame during triangle attempt
+- [[Positions/Closed Guard]] - Fallback position if opponent breaks the diamond frame during triangle attempt
 
-- [[Omoplata Control]] - Alternative submission destination from diamond guard when triangle is defended
+- [[Positions/Omoplata Control]] - Alternative submission destination from diamond guard when triangle is defended
 
-- [[Kimura Trap]] - Complementary attack from diamond guard creating three-way submission dilemma
+- [[Positions/Kimura Trap]] - Complementary attack from diamond guard creating three-way submission dilemma
 
-- [[Overhook Guard]] - Related guard system sharing the overhook control that enables triangle setups
+- [[Positions/Overhook Guard]] - Related guard system sharing the overhook control that enables triangle setups
 
-- [[Armbar Control]] - Secondary transition available from triangle control if choke is defended
+- [[Positions/Armbar Control]] - Secondary transition available from triangle control if choke is defended
 
-- [[Rubber Guard]] - Alternative guard system using leg flexibility for similar head control and triangle access
+- [[Positions/Rubber Guard]] - Alternative guard system using leg flexibility for similar head control and triangle access
 
-- [[Mission Control]] - Related rubber guard position achieving similar posture break for triangle entries
+- [[Positions/Rubber Guard/Mission Control]] - Related rubber guard position achieving similar posture break for triangle entries
 
-- [[Mount]] - Alternative destination from diamond guard via hip bump sweep when triangle is unavailable
+- [[Positions/Mount]] - Alternative destination from diamond guard via hip bump sweep when triangle is unavailable
 
 
 </section>

@@ -176,7 +176,7 @@ description: "How to execute Banana Split in BJJ. Attacking perspective with set
 
 The Banana Split attack requires establishing opposing forces on the opponent's legs to create splitting pressure through their groin and hip adductors. From the bottom position in deep half guard or lockdown, the attacker uses their lockdown to control one leg while isolating and pulling the far leg in the opposite direction. From the truck, the twister hook controls one leg while hands control the other. The attacker's body serves as a wedge between the opponent's legs, and hip extension amplifies the splitting force. This submission is uniquely dangerous because it attacks muscle groups with no clear structural stopping point - adductors simply tear when overstretched. The attacker must combine precise leg isolation, upper body control to prevent escape, and progressive pressure application. The banana split integrates naturally into the lockdown and truck attacking systems, creating dilemmas where defending the split opens electric chair sweeps, back takes, and twister entries.
 
-**From Position**: [[Truck]] (Top)
+**From Position**: [[Positions/Twister Control/Truck]] (Top)
 
 
 </section>
@@ -232,8 +232,8 @@ The Banana Split attack requires establishing opposing forces on the opponent's 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 48% |
-| Failure | [[Deep Half Guard]] | 30% |
-| Counter | [[Back Control]] | 22% |
+| Failure | [[Positions/Half Guard/Deep Half Guard]] | 30% |
+| Counter | [[Positions/Back Control]] | 22% |
 
 
 </section>
@@ -242,10 +242,10 @@ The Banana Split attack requires establishing opposing forces on the opponent's 
 
 ## Opponent Defenses
 
-- **Drive forward with pressure to collapse bottom player's structure** (Effectiveness: Medium) - Your Response: Maintain strong shoulder frame under hips and increase upper body control. Use your lockdown to prevent forward movement and redirect their pressure sideways. If they flatten you, consider transitioning to electric chair sweep using their forward momentum. → Leads to [[Deep Half Guard]]
-- **Attempt to free the trapped leg by pulling knee toward chest** (Effectiveness: High) - Your Response: Tighten lockdown immediately and establish secondary control on the far leg before they create defensive structure. If they escape the lockdown, transition to electric chair or deep half sweeps rather than chasing a compromised split. → Leads to [[Deep Half Guard]]
-- **Roll forward or cartwheel over to escape leg control and take back** (Effectiveness: Medium) - Your Response: Use upper body control to prevent the roll. If they commit to the roll, follow them to maintain leg control or transition to back control yourself. Do not release the far leg prematurely as this grants them the escape for free. → Leads to [[Back Control]]
-- **Widen base and post far leg to prevent isolation before split is loaded** (Effectiveness: High) - Your Response: Work to isolate the far leg before fully committing to the split. Use sweeps or other attacks from deep half to force reactions that compromise their base, then return to banana split mechanics once their posting leg is disrupted. → Leads to [[Deep Half Guard]]
+- **Drive forward with pressure to collapse bottom player's structure** (Effectiveness: Medium) - Your Response: Maintain strong shoulder frame under hips and increase upper body control. Use your lockdown to prevent forward movement and redirect their pressure sideways. If they flatten you, consider transitioning to electric chair sweep using their forward momentum. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Attempt to free the trapped leg by pulling knee toward chest** (Effectiveness: High) - Your Response: Tighten lockdown immediately and establish secondary control on the far leg before they create defensive structure. If they escape the lockdown, transition to electric chair or deep half sweeps rather than chasing a compromised split. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Roll forward or cartwheel over to escape leg control and take back** (Effectiveness: Medium) - Your Response: Use upper body control to prevent the roll. If they commit to the roll, follow them to maintain leg control or transition to back control yourself. Do not release the far leg prematurely as this grants them the escape for free. → Leads to [[Positions/Back Control]]
+- **Widen base and post far leg to prevent isolation before split is loaded** (Effectiveness: High) - Your Response: Work to isolate the far leg before fully committing to the split. Use sweeps or other attacks from deep half to force reactions that compromise their base, then return to banana split mechanics once their posting leg is disrupted. → Leads to [[Positions/Half Guard/Deep Half Guard]]
 
 
 </section>

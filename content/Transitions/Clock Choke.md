@@ -21,7 +21,7 @@ Strategically, the Clock Choke serves as a primary threat against turtle positio
 
 The rotational finishing mechanic distinguishes the Clock Choke from static collar chokes. Rather than simply pulling on the collar, the attacker creates pressure by walking their body perpendicular to the opponent while sprawling their hips down, using body weight and leverage rather than arm strength alone. This makes the technique sustainable and difficult to defend once properly established, as the defender must address both the grip and the positional pressure simultaneously.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -33,8 +33,8 @@ The rotational finishing mechanic distinguishes the Clock Choke from static coll
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Turtle]] | 30% |
-| Counter | [[Half Guard]] | 12% |
+| Failure | [[Positions/Turtle]] | 30% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Clock Choke is a cornerstone submission for the turtle attack system, workin
 ## Related Techniques
 
 
-- [[Turtle]] - Starting position where Clock Choke is initiated from top
+- [[Positions/Turtle]] - Starting position where Clock Choke is initiated from top
 
-- [[Back Control]] - Alternative attack path when opponent defends by sitting back
+- [[Positions/Back Control]] - Alternative attack path when opponent defends by sitting back
 
-- [[Crucifix]] - Transition option against flattened or arm-exposing opponent
+- [[Positions/Crucifix]] - Transition option against flattened or arm-exposing opponent
 
-- [[Front Headlock]] - Related control position with similar collar and neck threats
+- [[Positions/Front Headlock]] - Related control position with similar collar and neck threats
 
-- [[Bow and Arrow Choke]] - Alternative gi choke sharing collar grip mechanics
+- [[Transitions/Bow and Arrow Choke]] - Alternative gi choke sharing collar grip mechanics
 
-- [[Cross Collar Choke]] - Related collar choke with different finishing mechanics
+- [[Transitions/Cross Collar Choke]] - Related collar choke with different finishing mechanics
 
-- [[Side Control]] - Position reached when opponent rolls through the choke attempt
+- [[Positions/Side Control]] - Position reached when opponent rolls through the choke attempt
 
-- [[Half Guard]] - Counter outcome position when opponent recovers guard during attempt
+- [[Positions/Half Guard]] - Counter outcome position when opponent recovers guard during attempt
 
-- [[Anaconda Choke]] - Alternative turtle attack using arm-in head-and-arm control
+- [[Transitions/Anaconda Choke]] - Alternative turtle attack using arm-in head-and-arm control
 
-- [[Guillotine Choke]] - Alternative neck attack when opponent lifts head defending clock rotation
+- [[Transitions/Guillotine Choke]] - Alternative neck attack when opponent lifts head defending clock rotation
 
 
 </section>

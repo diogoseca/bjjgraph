@@ -17,7 +17,7 @@ description: "Master Osoto Gari, the fundamental judo throw adapted for BJJ. Ste
 
 Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successfully integrated into Brazilian Jiu-Jitsu as a high-percentage standing technique. This technique involves reaping your opponent's weight-bearing leg from the outside while simultaneously driving their upper body backward, creating a powerful off-balancing motion that results in a controlled takedown. The beauty of Osoto Gari lies in its simplicity and effectiveness - it requires minimal setup compared to other throws and can be executed from various gripping configurations. In the BJJ context, Osoto Gari is particularly valuable because it allows the practitioner to maintain upper body control throughout the throw, often landing directly in dominant positions such as Side Control or Scarf Hold (Kesa Gatame). The technique capitalizes on fundamental principles of off-balancing and leverage, making it accessible to practitioners of all levels while remaining effective at the highest levels of competition. Unlike many judo throws that require extensive kuzushi (off-balancing) preparation, Osoto Gari can be executed explosively when the opponent is slightly forward-weighted, making it an excellent counter-attacking technique.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -28,9 +28,9 @@ Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successf
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 75% |
-| Failure | [[Standing Position]] | 15% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Side Control]] | 75% |
+| Failure | [[Positions/Standing Position]] | 15% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -192,29 +192,29 @@ Osoto Gari occupies a critical position in the BJJ takedown hierarchy as a funda
 ## Related Techniques
 
 
-- [[Kouchi Gari]] - Combination Setup - Initial inside attack creates reaction that sets up Osoto Gari
+- [[Transitions/Kouchi Gari]] - Combination Setup - Initial inside attack creates reaction that sets up Osoto Gari
 
-- [[Ouchi Gari]] - Alternative - Similar mechanics but attacks inside of leg rather than outside
+- [[Transitions/Ouchi Gari]] - Alternative - Similar mechanics but attacks inside of leg rather than outside
 
-- [[Deashi Harai]] - Combination Attack - Forward foot sweep that can transition to Osoto Gari
+- [[Transitions/Deashi Harai]] - Combination Attack - Forward foot sweep that can transition to Osoto Gari
 
-- [[Tai Otoshi]] - Alternative - Different throwing direction using similar upper body control
+- [[Transitions/Tai Otoshi]] - Alternative - Different throwing direction using similar upper body control
 
-- [[Harai Goshi]] - Advanced Variation - Hip-based throw using similar off-balancing direction
+- [[Transitions/Harai Goshi]] - Advanced Variation - Hip-based throw using similar off-balancing direction
 
-- [[Side Control]] - Primary Landing Position - Most common position achieved after successful throw
+- [[Positions/Side Control]] - Primary Landing Position - Most common position achieved after successful throw
 
-- [[Kesa Gatame]] - Alternative Landing Position - Scarf hold variation when throw finishes with head control
+- [[Positions/Side Control/Kesa Gatame]] - Alternative Landing Position - Scarf hold variation when throw finishes with head control
 
-- [[Standing Back Control]] - Counter Response - Position to establish if opponent turns into the throw
+- [[Positions/Back Control/Standing Back Control]] - Counter Response - Position to establish if opponent turns into the throw
 
-- [[Kimura from Standing]] - Follow-up Attack - Submission option when opponent posts defensively
+- [[Submissions/Kimura from Standing]] - Follow-up Attack - Submission option when opponent posts defensively
 
-- [[Standing Position]] - Starting Position - Neutral standing state from which Osoto Gari is initiated
+- [[Positions/Standing Position]] - Starting Position - Neutral standing state from which Osoto Gari is initiated
 
-- [[Grip Fighting]] - Setup Requirement - Essential skill for establishing advantageous grips for the throw
+- [[Principles/Grip Fighting]] - Setup Requirement - Essential skill for establishing advantageous grips for the throw
 
-- [[Takedown Entry]] - Strategic Context - Osoto Gari as primary entry in complete takedown system
+- [[Principles/Takedown Entry]] - Strategic Context - Osoto Gari as primary entry in complete takedown system
 
 
 </section>

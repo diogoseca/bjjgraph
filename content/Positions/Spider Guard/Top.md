@@ -205,23 +205,23 @@ Spider Guard Top is the position where the top player is standing or on their kn
 
 ## Available Attacks
 
-### [[Toreando Pass]] (22% of attempts)
+### [[Transitions/Toreando Pass]] (22% of attempts)
 
-### [[Leg Drag Pass]] (13% of attempts)
+### [[Transitions/Leg Drag Pass]] (13% of attempts)
 
-### [[Knee Slice Pass]] (13% of attempts)
+### [[Transitions/Knee Slice Pass]] (13% of attempts)
 
-### [[Long Step Pass]] (12% of attempts)
+### [[Transitions/Long Step Pass]] (12% of attempts)
 
-### [[Double Under Pass]] (11% of attempts)
+### [[Transitions/Double Under Pass]] (11% of attempts)
 
-### [[Leg Weave Pass]] (11% of attempts)
+### [[Transitions/Leg Weave Pass]] (11% of attempts)
 
-### [[Grip Break]] (10% of attempts)
+### [[Transitions/Grip Break]] (10% of attempts)
 
-### [[Spider Guard Pass]] (5% of attempts)
+### [[Transitions/Spider Guard Pass]] (5% of attempts)
 
-### [[Stack Pass from Spider]] (3% of attempts)
+### [[Transitions/Stack Pass from Spider]] (3% of attempts)
 
 
 
@@ -232,29 +232,29 @@ Spider Guard Top is the position where the top player is standing or on their kn
 ## Decision Making from This Position
 
 **If bottom player has double sleeve grips with both feet on biceps in classic Spider Guard:**
-- Execute **[[Grip Break]]** → [[Combat Base]] (Probability: 60%)
-- Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Grip Break]]** → [[Positions/Combat Base]] (Probability: 60%)
+- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **Else if bottom player transitions to Lasso Guard on one side while maintaining Spider Guard on other:**
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Back Step]]** → [[Leg Drag Control]] (Probability: 35%)
-- Execute **[[X Pass]]** → [[Side Control]] (Probability: 15%)
+- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Back Step]]** → [[Positions/Leg Drag Control]] (Probability: 35%)
+- Execute **[[Transitions/X Pass]]** → [[Positions/Side Control]] (Probability: 15%)
 
 
 **Else if bottom player has single-side Spider Guard with free hand controlling collar or lapel:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Long Step Pass]]** → [[Headquarters Position]] (Probability: 45%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Headquarters Position]] (Probability: 45%)
 
 
 **Else if bottom player commits to triangle or omoplata entry, releasing foot pressure:**
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Leg Drag Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **Else if grips are broken and bottom player has not yet re-established guard structure:**
-- Execute **[[Double Under Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Double Under Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 
@@ -393,16 +393,16 @@ Bottom player starts in Spider Guard and attempts to transition one hook to lass
 
 ## Related Positions and Techniques
 
-- **[[Spider Guard]]** - Opposite position - understanding bottom perspective improves passing
-- **[[Combat Base]]** - Transitional position for grip fighting and passing setup
-- **[[Toreando Pass]]** - Primary passing technique from Spider Guard Top
-- **[[Lasso Guard]]** - Common variation when bottom player transitions from Spider Guard
-- **[[Leg Drag Pass]]** - High-percentage passing option from Spider Guard Top
-- **[[Open Guard]]** - Parent category of guard passing positions
-- **[[Knee Slice Pass]]** - Complementary passing technique for single-side Spider Guard
-- **[[Side Control]]** - Primary target position after successful pass
-- **[[Headquarters Position]]** - Intermediate passing position when pass is partially successful
-- **[[Leg Weave Pass]]** - Effective passing technique against double-bicep Spider Guard
+- **[[Positions/Spider Guard]]** - Opposite position - understanding bottom perspective improves passing
+- **[[Positions/Combat Base]]** - Transitional position for grip fighting and passing setup
+- **[[Transitions/Toreando Pass]]** - Primary passing technique from Spider Guard Top
+- **[[Positions/Lasso Guard]]** - Common variation when bottom player transitions from Spider Guard
+- **[[Transitions/Leg Drag Pass]]** - High-percentage passing option from Spider Guard Top
+- **[[Positions/Open Guard]]** - Parent category of guard passing positions
+- **[[Transitions/Knee Slice Pass]]** - Complementary passing technique for single-side Spider Guard
+- **[[Positions/Side Control]]** - Primary target position after successful pass
+- **[[Positions/Headquarters Position]]** - Intermediate passing position when pass is partially successful
+- **[[Transitions/Leg Weave Pass]]** - Effective passing technique against double-bicep Spider Guard
 
 
 </section>

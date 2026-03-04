@@ -21,7 +21,7 @@ The strategic importance of this transition lies in recovering a neutral or adva
 
 Timing is paramount for this technique. The optimal window occurs when your opponent is adjusting grips or transitioning between submission attempts, creating momentary lapses in leg control. Executing during these windows dramatically increases success rates across all skill levels. Conversely, attempting extraction against deep, consolidated control typically results in either failed escape or submission finish during the extraction attempt.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Timing is paramount for this technique. The optimal window occurs when your oppo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Success | [[Closed Guard]] | 10% |
-| Failure | [[Ushiro Ashi-Garami]] | 25% |
-| Counter | [[Saddle]] | 10% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Success | [[Positions/Closed Guard]] | 10% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 25% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 10% |
 
 
 </section>
@@ -190,25 +190,25 @@ Leg Extraction to Guard serves as the primary positive-outcome escape from ushir
 ## Related Techniques
 
 
-- [[Ushiro Ashi-Garami]] - Starting position for this escape technique
+- [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Starting position for this escape technique
 
-- [[Open Guard]] - Primary target position after successful extraction
+- [[Positions/Open Guard]] - Primary target position after successful extraction
 
-- [[Closed Guard]] - Alternative target when opponent is close enough to close legs
+- [[Positions/Closed Guard]] - Alternative target when opponent is close enough to close legs
 
-- [[Saddle]] - Position opponent may counter into if inside knee control is lost
+- [[Positions/Ashi Garami/Saddle]] - Position opponent may counter into if inside knee control is lost
 
-- [[Turtle]] - Alternative escape when extraction is not viable due to deep control
+- [[Positions/Turtle]] - Alternative escape when extraction is not viable due to deep control
 
-- [[Granby Roll to Guard]] - Related escape using rolling motion to clear entanglement
+- [[Transitions/Granby Roll to Guard]] - Related escape using rolling motion to clear entanglement
 
-- [[Ashi Garami Escape]] - Parent escape system that includes this technique
+- [[Transitions/Ashi Garami Escape]] - Parent escape system that includes this technique
 
-- [[Inside Heel Hook]] - Primary submission threat during failed extraction attempts
+- [[Submissions/Inside Heel Hook]] - Primary submission threat during failed extraction attempts
 
-- [[Deep Half Guard]] - Alternative recovery position accessible during partial extraction
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative recovery position accessible during partial extraction
 
-- [[Honey Hole]] - Higher-control entanglement opponent may transition to during failed extraction
+- [[Positions/Ashi Garami/Honey Hole]] - Higher-control entanglement opponent may transition to during failed extraction
 
 
 </section>

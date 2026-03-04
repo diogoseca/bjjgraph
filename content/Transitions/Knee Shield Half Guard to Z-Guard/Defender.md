@@ -146,7 +146,7 @@ description: "How to prevent and counter the Transition to Z-Guard from top posi
 
 As the defender (top player in Knee Shield Half Guard), your goal is to prevent the bottom player from upgrading their standard knee shield to the more dangerous Z-Guard position. The Z-Guard elevation gives the bottom player superior framing, better sweep angles, and direct access to back takes, so stopping this transition is a critical priority for maintaining your passing advantage. Defense centers on recognizing the early indicators of the elevation attempt and applying precisely timed pressure or grip control to stuff the knee before it reaches the shoulder. Understanding the bottom player's mechanical requirements for the transition allows you to systematically deny the conditions they need to succeed.
 
-**Opponent's Starting Position**: [[Knee Shield Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ As the defender (top player in Knee Shield Half Guard), your goal is to prevent 
 ### 1. Drive immediate forward pressure surge when you feel the bridge or hip movement beginning
 
 - **When to use**: The instant you feel the bottom player's hips begin to elevate or escape laterally, before the knee has started to travel
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: The knee shield stays at its current height and the bottom player must absorb your pressure or try again later
 - **Risk**: If the pressure surge is too aggressive without proper base, the bottom player can redirect your momentum into a sweep
 
 ### 2. Grab the knee shield leg at the knee or ankle to physically block upward movement
 
 - **When to use**: When you see the knee beginning to slide upward along your torso, indicating the elevation has already started
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: The knee shield is pinned at its current height and the bottom player cannot achieve the Z-Guard frame without first breaking your grip
 - **Risk**: Using a hand to control the leg temporarily removes it from the upper body grip battle, potentially allowing the bottom player to establish an underhook
 
 ### 3. Establish deep crossface and shoulder pressure to flatten the bottom player before they complete the elevation
 
 - **When to use**: When the bottom player is adjusting grips in preparation for the transition and has momentarily released upper body control
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: The bottom player is flattened onto their back, losing both the knee shield elevation and their offensive capabilities from half guard
 - **Risk**: Committing to crossface requires driving forward, which the bottom player may use for a well-timed sweep if they read the pressure
 
 ### 4. Strip the underhook during the transition to remove the upper body support structure
 
 - **When to use**: When the bottom player has already begun the elevation but has not yet consolidated the Z-Guard position
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: Without the underhook support, the elevated knee shield lacks structural integrity and can be collapsed with moderate pressure
 - **Risk**: If the bottom player re-establishes the underhook quickly, you may have lost position while fighting for grips
 
@@ -216,11 +216,11 @@ As the defender (top player in Knee Shield Half Guard), your goal is to prevent 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Capitalize on the momentary instability during the bottom player's elevation attempt by driving heavy crossface pressure and shoulder weight into them as their knee shield is in transition between positions. The frame is weakest during movement, and a well-timed pressure surge can collapse it completely into flattened half guard.
 
-### → [[Knee Shield Half Guard]]
+### → [[Positions/Half Guard/Knee Shield Half Guard]]
 
 Control the knee shield leg at the knee or ankle before it reaches shoulder height, pinning it at its current position. Combine with upper body pressure to force the bottom player to abandon the elevation and reset to standard knee shield, where your passing game has better options.
 

@@ -178,7 +178,7 @@ This transition exploits the defender's compromised hip mobility when one arm is
 
 Strategically, this transition is particularly valuable when rear naked choke attempts have been defended or when the opponent demonstrates excellent hand fighting ability. By advancing to technical mount with the Gift Wrap intact, the attacker gains access to mounted submission chains including the mounted triangle, armbar transitions, and collar attacks in gi competition. The technical mount position also eliminates the footlock danger present in standard back control, making it a safer advancement path against leg attack specialists.
 
-**From Position**: [[Gift Wrap]] (Top)
+**From Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
 
@@ -230,9 +230,9 @@ Strategically, this transition is particularly valuable when rear naked choke at
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Technical Mount]] | 65% |
-| Failure | [[Gift Wrap]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount/Technical Mount]] | 65% |
+| Failure | [[Positions/Gift Wrap]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ Strategically, this transition is particularly valuable when rear naked choke at
 
 ## Opponent Counters
 
-- **Opponent frames with free arm against transitioning knee to prevent mount establishment** (Effectiveness: Medium) - Your Response: Drive knee through the frame using hip pressure while maintaining Gift Wrap tightness. The single arm frame lacks the structural integrity to stop committed knee drive. If blocked, immediately threaten armbar on the framing arm. → Leads to [[Gift Wrap]]
-- **Opponent attempts to continue rolling past mount toward guard recovery** (Effectiveness: High) - Your Response: Post your far foot firmly and drop your weight low. Use the Gift Wrap arm to anchor their upper body rotation while your posted leg stops hip rotation. If they persist, follow to technical mount on opposite side. → Leads to [[Half Guard]]
-- **Opponent stiffens and refuses to rotate, denying the transition trigger** (Effectiveness: Medium) - Your Response: Return to rear naked choke attacks to force defensive movement. The threat of the choke typically generates the rotation you need. Alternatively, use body triangle pressure to make their position uncomfortable until they move. → Leads to [[Gift Wrap]]
-- **Opponent extracts trapped arm during the transition chaos** (Effectiveness: High) - Your Response: If arm recovery is partial, immediately reinforce Gift Wrap before completing mount. If full recovery occurs, complete the mount transition anyway and establish standard mount control - you have still advanced position significantly. → Leads to [[Technical Mount]]
+- **Opponent frames with free arm against transitioning knee to prevent mount establishment** (Effectiveness: Medium) - Your Response: Drive knee through the frame using hip pressure while maintaining Gift Wrap tightness. The single arm frame lacks the structural integrity to stop committed knee drive. If blocked, immediately threaten armbar on the framing arm. → Leads to [[Positions/Gift Wrap]]
+- **Opponent attempts to continue rolling past mount toward guard recovery** (Effectiveness: High) - Your Response: Post your far foot firmly and drop your weight low. Use the Gift Wrap arm to anchor their upper body rotation while your posted leg stops hip rotation. If they persist, follow to technical mount on opposite side. → Leads to [[Positions/Half Guard]]
+- **Opponent stiffens and refuses to rotate, denying the transition trigger** (Effectiveness: Medium) - Your Response: Return to rear naked choke attacks to force defensive movement. The threat of the choke typically generates the rotation you need. Alternatively, use body triangle pressure to make their position uncomfortable until they move. → Leads to [[Positions/Gift Wrap]]
+- **Opponent extracts trapped arm during the transition chaos** (Effectiveness: High) - Your Response: If arm recovery is partial, immediately reinforce Gift Wrap before completing mount. If full recovery occurs, complete the mount transition anyway and establish standard mount control - you have still advanced position significantly. → Leads to [[Positions/Mount/Technical Mount]]
 
 
 </section>

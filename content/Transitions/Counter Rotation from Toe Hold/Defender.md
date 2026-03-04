@@ -140,7 +140,7 @@ description: "Defend against the Counter Rotation from Toe Hold escape. Recognit
 
 As the defender in this scenario, you are the practitioner who has established Toe Hold Control Top and must now deal with your opponent initiating a counter rotation to escape your submission. Your primary objectives are recognizing the rotation attempt early, maintaining grip integrity through the dynamic movement, and either preserving your toe hold control or transitioning to a superior entanglement position like the saddle. The counter rotation is one of the more challenging escapes to defend against because it uses your own rotational force to facilitate the escape, requiring you to adapt your control strategy in real time rather than simply tightening your existing grips.
 
-**Opponent's Starting Position**: [[Toe Hold Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Toe Hold Control]] (Bottom)
 
 </section>
 
@@ -178,21 +178,21 @@ As the defender in this scenario, you are the practitioner who has established T
 ### 1. Follow the rotation while maintaining toe hold grip, rotating your own body to match their movement and preserve angular torque on the ankle
 
 - **When to use**: When you recognize the rotation early and your grip is strong enough to maintain through dynamic movement, keeping the submission threat intact
-- **Targets**: [[Toe Hold Control]]
+- **Targets**: [[Positions/Toe Hold Control]]
 - **If successful**: You maintain toe hold control despite their rotation attempt, arriving in a similar control position from a slightly different angle
 - **Risk**: If you follow too slowly, the rotation neutralizes your torque and they establish 50-50 before you can re-apply pressure
 
 ### 2. Release toe hold and immediately transition to saddle by threading your far leg across their hip line as they rotate
 
 - **When to use**: When you feel the rotation is going to successfully neutralize your toe hold grip and you need to capitalize on their movement to achieve a deeper entanglement
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: You achieve saddle position which offers inside heel hook access, a significantly more dangerous entanglement than the original toe hold
 - **Risk**: If the opponent recognizes the transition and blocks your far hook, you may lose all entanglement and end up in neutral position
 
 ### 3. Block the rotation by posting your free hand on their hip or knee to prevent their body from turning
 
 - **When to use**: When you recognize the rotation initiation in its earliest phase before momentum has built, using your free hand to physically prevent the hip rotation
-- **Targets**: [[Toe Hold Control]]
+- **Targets**: [[Positions/Toe Hold Control]]
 - **If successful**: You shut down the counter rotation before it begins and maintain your original toe hold control position with the submission still threatening
 - **Risk**: If they strip your blocking hand or redirect their rotation through a different plane, you have temporarily removed one hand from your toe hold grip
 
@@ -204,11 +204,11 @@ As the defender in this scenario, you are the practitioner who has established T
 
 ## Best-Case Outcomes for Defender
 
-### → [[Toe Hold Control]]
+### → [[Positions/Toe Hold Control]]
 
 Follow the rotation with your own body while maintaining tight figure-four grip, or block the rotation early with your free hand to prevent it from developing. Re-apply toe hold pressure once the rotation is stopped or you have matched their new angle.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 When the rotation is successfully neutralizing your toe hold, release the grip and immediately thread your far leg across their hip line to establish saddle position. Their rotation actually facilitates your leg threading if timed correctly, converting their escape into a worse position for them.
 

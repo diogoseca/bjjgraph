@@ -21,7 +21,7 @@ The effectiveness of this technique lies in its sequential approach to dismantli
 
 What makes this pass particularly valuable in competition is its role as a chain-passing hub. Failed knee slice attempts naturally flow into backstep passes, leg drags, and toreando sequences, making it an excellent first option in a multi-directional passing system. Conversely, other passes that partially break down the DLR structure feed directly into the knee slice as a finishing technique. This dual function as both primary attack and chain-passing connector makes the Knee Slice from DLR an essential technique for any serious guard passer facing modern De La Riva players.
 
-**From Position**: [[De La Riva Guard]] (Top)
+**From Position**: [[Positions/De La Riva Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ What makes this pass particularly valuable in competition is its role as a chain
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[De La Riva Guard]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Side Control]] | 40% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/De La Riva Guard]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -194,25 +194,25 @@ The Knee Slice from DLR occupies a central position in the guard passing hierarc
 ## Related Techniques
 
 
-- [[De La Riva Guard]] - Source position where this transition begins, with the passer facing active DLR hooks and grips
+- [[Positions/De La Riva Guard]] - Source position where this transition begins, with the passer facing active DLR hooks and grips
 
-- [[Half Guard]] - Common landing position when the knee slice partially completes but the bottom player retains leg entanglement
+- [[Positions/Half Guard]] - Common landing position when the knee slice partially completes but the bottom player retains leg entanglement
 
-- [[Side Control]] - Primary target position after a clean knee slice pass completion
+- [[Positions/Side Control]] - Primary target position after a clean knee slice pass completion
 
-- [[Back Control]] - Counter outcome position when the DLR player successfully executes berimbolo or inversion during the pass
+- [[Positions/Back Control]] - Counter outcome position when the DLR player successfully executes berimbolo or inversion during the pass
 
-- [[Headquarters Position]] - Intermediate passing position reached when the DLR hook is cleared but the knee slice has not yet been initiated
+- [[Positions/Headquarters Position]] - Intermediate passing position reached when the DLR hook is cleared but the knee slice has not yet been initiated
 
-- [[Knee Slice Pass]] - General knee slice technique that this DLR-specific variation is derived from
+- [[Transitions/Knee Slice Pass]] - General knee slice technique that this DLR-specific variation is derived from
 
-- [[Backstep from De La Riva]] - Alternative passing approach and chain-passing option when the knee slice is defended
+- [[Transitions/Backstep from De La Riva]] - Alternative passing approach and chain-passing option when the knee slice is defended
 
-- [[Back Step Pass]] - Complementary passing technique that chains directly from failed knee slice attempts
+- [[Transitions/Back Step Pass]] - Complementary passing technique that chains directly from failed knee slice attempts
 
-- [[Berimbolo Entry]] - Primary counter-technique the DLR player uses against the knee slice, requiring specific defensive awareness
+- [[Transitions/Berimbolo Entry]] - Primary counter-technique the DLR player uses against the knee slice, requiring specific defensive awareness
 
-- [[Reverse De La Riva Guard]] - Guard recovery option the bottom player may transition to when the DLR hook is partially compromised
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Guard recovery option the bottom player may transition to when the DLR hook is partially compromised
 
 
 </section>

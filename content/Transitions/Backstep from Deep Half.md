@@ -21,7 +21,7 @@ Strategically, the backstep represents a high-reward alternative to traditional 
 
 The backstep from deep half requires precise timing, proper base management during the stepping phase, and immediate hook insertion upon completion. The transition is most effective when initiated before the bottom player commits fully to a sweep attempt, as the momentary weight shift required creates a brief window of vulnerability. Advanced practitioners integrate this technique into their deep half guard passing system as a surprise option that keeps the bottom player guessing about the direction of the pass, preventing them from committing fully to sweep setups designed to counter forward passing pressure.
 
-**From Position**: [[Deep Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Deep Half Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The backstep from deep half requires precise timing, proper base management duri
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Deep Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Half Guard/Deep Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The backstep from deep half guard occupies a unique tactical niche in the BJJ po
 ## Related Techniques
 
 
-- [[Deep Half Guard]] - Starting position where this transition initiates from the top player perspective
+- [[Positions/Half Guard/Deep Half Guard]] - Starting position where this transition initiates from the top player perspective
 
-- [[Back Control]] - Primary target position achieved through successful backstep execution
+- [[Positions/Back Control]] - Primary target position achieved through successful backstep execution
 
-- [[Half Guard]] - Counter outcome position when bottom player successfully defends the backstep
+- [[Positions/Half Guard]] - Counter outcome position when bottom player successfully defends the backstep
 
-- [[Backstep from De La Riva]] - Conceptually similar backstep technique applied from a different guard position
+- [[Transitions/Backstep from De La Riva]] - Conceptually similar backstep technique applied from a different guard position
 
-- [[Back Step Pass]] - Related passing technique using similar backstep mechanics from different contexts
+- [[Transitions/Back Step Pass]] - Related passing technique using similar backstep mechanics from different contexts
 
-- [[Crossface Pass]] - Alternative forward passing option available from deep half guard top
+- [[Transitions/Crossface Pass]] - Alternative forward passing option available from deep half guard top
 
-- [[Turtle]] - Intermediate position bottom player may reach when scrambling during backstep
+- [[Positions/Turtle]] - Intermediate position bottom player may reach when scrambling during backstep
 
-- [[Crab Ride]] - Alternative back control entry point accessible during backstep rotation
+- [[Positions/Crab Ride]] - Alternative back control entry point accessible during backstep rotation
 
-- [[Seat Belt Control Back]] - Control configuration established immediately after successful backstep to back
+- [[Positions/Back Control/Seat Belt Control Back]] - Control configuration established immediately after successful backstep to back
 
-- [[Smash Pass]] - Alternative pressure-based passing approach from deep half guard top
+- [[Transitions/Smash Pass]] - Alternative pressure-based passing approach from deep half guard top
 
 
 </section>

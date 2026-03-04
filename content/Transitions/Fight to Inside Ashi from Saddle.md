@@ -21,7 +21,7 @@ The transition operates on the principle of incremental positional improvement. 
 
 This approach has gained prominence through high-level competition, where practitioners recognize that surviving dangerous leg entanglements requires patience and technical precision rather than panic-driven escape attempts. The fight to Inside Ashi represents the first gate in a defensive hierarchy: from Saddle, degrade to Inside Ashi; from Inside Ashi, work toward full escape or counter-attack. Understanding this progression transforms leg lock defense from a desperate scramble into a methodical process with clear intermediate objectives.
 
-**From Position**: [[Saddle]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This approach has gained prominence through high-level competition, where practi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 55% |
-| Failure | [[Saddle]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 55% |
+| Failure | [[Positions/Ashi Garami/Saddle]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -195,29 +195,29 @@ The fight from Saddle to Inside Ashi-Garami occupies a critical position in the 
 ## Related Techniques
 
 
-- [[Saddle]] - Starting position for this defensive transition
+- [[Positions/Ashi Garami/Saddle]] - Starting position for this defensive transition
 
-- [[Inside Ashi-Garami]] - Target position after successful entanglement degradation
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Target position after successful entanglement degradation
 
-- [[Open Guard]] - Outcome position if entanglement is fully cleared during scramble
+- [[Positions/Open Guard]] - Outcome position if entanglement is fully cleared during scramble
 
-- [[Ashi Garami Escape]] - Follow-up escape technique from Inside Ashi-Garami after degradation
+- [[Transitions/Ashi Garami Escape]] - Follow-up escape technique from Inside Ashi-Garami after degradation
 
-- [[Boot Scoot Escape from Saddle]] - Alternative escape technique from the same starting position
+- [[Transitions/Boot Scoot Escape from Saddle]] - Alternative escape technique from the same starting position
 
-- [[Fallback to Inside Ashi-Garami]] - Related concept of controlled positional degradation in leg entanglements
+- [[Transitions/Fallback to Inside Ashi-Garami]] - Related concept of controlled positional degradation in leg entanglements
 
-- [[Honey Hole]] - Alternative name for Saddle position in some systems
+- [[Positions/Ashi Garami/Honey Hole]] - Alternative name for Saddle position in some systems
 
-- [[Heel Hook from Saddle]] - Primary submission threat being defended against during this transition
+- [[Transitions/Heel Hook from Saddle]] - Primary submission threat being defended against during this transition
 
-- [[Inside Heel Hook]] - Submission that makes the Saddle position so dangerous to defend
+- [[Submissions/Inside Heel Hook]] - Submission that makes the Saddle position so dangerous to defend
 
-- [[Leg Entanglement]] - Conceptual framework for understanding the entanglement hierarchy
+- [[Positions/Leg Entanglement]] - Conceptual framework for understanding the entanglement hierarchy
 
-- [[Outside Ashi-Garami]] - Alternative intermediate position in the escape progression
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative intermediate position in the escape progression
 
-- [[Ashi Garami]] - Parent position family encompassing all ashi variations
+- [[Positions/Ashi Garami]] - Parent position family encompassing all ashi variations
 
 
 </section>

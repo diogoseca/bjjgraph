@@ -21,7 +21,7 @@ The technique exists in two primary variations: the inside heel hook (attacking 
 
 Strategically, the heel hook represents the finishing sequence of the modern leg lock game. Practitioners must first establish dominant leg entanglement positions (Saddle, Inside Ashi, or Cross Ashi) before attempting the finish. The submission's effectiveness at competition's highest levels has made leg lock defense and Ashi Garami understanding mandatory skills for serious practitioners.
 
-**From Position**: [[Ashi Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -33,8 +33,8 @@ Strategically, the heel hook represents the finishing sequence of the modern leg
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Ashi Garami]] | 30% |
-| Counter | [[50-50 Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -192,29 +192,29 @@ The Heel Hook represents the apex finishing technique of the modern Ashi Garami 
 ## Related Techniques
 
 
-- [[Ashi Garami]] - Parent position family—all heel hooks require Ashi Garami establishment
+- [[Positions/Ashi Garami]] - Parent position family—all heel hooks require Ashi Garami establishment
 
-- [[Saddle]] - Apex position for heel hook finishing—highest percentage Ashi variation
+- [[Positions/Ashi Garami/Saddle]] - Apex position for heel hook finishing—highest percentage Ashi variation
 
-- [[Inside Ashi-Garami]] - Key advancement position providing inside heel exposure for finishing
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Key advancement position providing inside heel exposure for finishing
 
-- [[Cross Ashi-Garami]] - Alternative high-control position for heel hook attacks
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Alternative high-control position for heel hook attacks
 
-- [[50-50 Guard]] - Bilateral entanglement where heel hooks are available to both practitioners
+- [[Positions/Ashi Garami/50-50 Guard]] - Bilateral entanglement where heel hooks are available to both practitioners
 
-- [[Outside Ashi-Garami]] - Entry-level Ashi position—advance before heel hook attempts
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Entry-level Ashi position—advance before heel hook attempts
 
-- [[Single Leg X-Guard]] - Primary entry position for Ashi Garami system
+- [[Positions/X-Guard/Single Leg X-Guard]] - Primary entry position for Ashi Garami system
 
-- [[Straight Ankle Lock]] - Alternative finish when heel hook is defended via boot defense
+- [[Submissions/Straight Ankle Lock]] - Alternative finish when heel hook is defended via boot defense
 
-- [[Calf Slicer]] - Chain attack when heel hook defense exposes the knee
+- [[Transitions/Calf Slicer]] - Chain attack when heel hook defense exposes the knee
 
-- [[Kneebar Control]] - Alternative leg attack from similar entanglement positions
+- [[Positions/Kneebar Control]] - Alternative leg attack from similar entanglement positions
 
-- [[Inside Heel Hook]] - Primary inside rotation variation targeting ACL and medial knee structures
+- [[Submissions/Inside Heel Hook]] - Primary inside rotation variation targeting ACL and medial knee structures
 
-- [[Outside Heel Hook]] - Outside rotation variation targeting lateral knee structures from 50-50 and Outside Ashi
+- [[Transitions/Outside Heel Hook]] - Outside rotation variation targeting lateral knee structures from 50-50 and Outside Ashi
 
 
 </section>

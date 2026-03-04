@@ -103,27 +103,27 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 ### Available Transitions
 
 
-- **[[New York to Invisible Collar]]** (10% of attempts)
+- **[[Transitions/New York to Invisible Collar]]** (10% of attempts)
 
-- **[[Progression to Zombie]]** (10% of attempts)
+- **[[Transitions/Progression to Zombie]]** (10% of attempts)
 
-- **[[Advance to Chill Dog]]** (8% of attempts)
+- **[[Transitions/Advance to Chill Dog]]** (8% of attempts)
 
-- **[[Rotate to Carni]]** (9% of attempts)
+- **[[Transitions/Rotate to Carni]]** (9% of attempts)
 
-- **[[Triangle Setup]]** (18% of attempts)
+- **[[Transitions/Triangle Setup]]** (18% of attempts)
 
-- **[[Omoplata Sweep]]** (7% of attempts)
+- **[[Transitions/Omoplata Sweep]]** (7% of attempts)
 
-- **[[Gogoplata]]** (6% of attempts)
+- **[[Transitions/Gogoplata]]** (6% of attempts)
 
-- **[[Armbar Finish]]** (10% of attempts)
+- **[[Transitions/Armbar Finish]]** (10% of attempts)
 
-- **[[Hip Bump Sweep]]** (10% of attempts)
+- **[[Transitions/Hip Bump Sweep]]** (10% of attempts)
 
-- **[[Omoplata to Back]]** (9% of attempts)
+- **[[Transitions/Omoplata to Back]]** (9% of attempts)
 
-- **[[Sweep from New York]]** (3% of attempts)
+- **[[Transitions/Sweep from New York]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -188,19 +188,19 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 ### Available Transitions
 
 
-- **[[Posture Recovery]]** (19% of attempts)
+- **[[Transitions/Posture Recovery]]** (19% of attempts)
 
-- **[[Overhook Extraction]]** (19% of attempts)
+- **[[Transitions/Overhook Extraction]]** (19% of attempts)
 
-- **[[Guard Opening Sequence]]** (14% of attempts)
+- **[[Transitions/Guard Opening Sequence]]** (14% of attempts)
 
-- **[[Stack Defense]]** (25% of attempts)
+- **[[Transitions/Stack Defense]]** (25% of attempts)
 
-- **[[Pressure Pass]]** (9% of attempts)
+- **[[Transitions/Pressure Pass]]** (9% of attempts)
 
-- **[[Posture Recovery to Closed Guard]]** (9% of attempts)
+- **[[Transitions/Posture Recovery to Closed Guard]]** (9% of attempts)
 
-- **[[New York Pass to Side Control]]** (5% of attempts)
+- **[[Transitions/New York Pass to Side Control]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -243,23 +243,23 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 ## Related Positions
 
 
-- **[[Mission Control]]** - Primary entry point to New York - establishes initial rubber guard control
+- **[[Positions/Rubber Guard/Mission Control]]** - Primary entry point to New York - establishes initial rubber guard control
 
-- **[[Invisible Collar]]** - Advanced progression from New York - deeper attacking position
+- **[[Positions/Rubber Guard/Invisible Collar]]** - Advanced progression from New York - deeper attacking position
 
-- **[[Zombie]]** - Alternative progression - maintains overhook while deepening leg control
+- **[[Positions/Rubber Guard/Zombie]]** - Alternative progression - maintains overhook while deepening leg control
 
-- **[[Chill Dog]]** - Finishing position accessed from New York via specific leg threading
+- **[[Positions/Rubber Guard/Chill Dog]]** - Finishing position accessed from New York via specific leg threading
 
-- **[[Carni]]** - Shoulder attack position reached by rotating from New York control
+- **[[Positions/Rubber Guard/Carni]]** - Shoulder attack position reached by rotating from New York control
 
-- **[[Closed Guard]]** - Fallback position if New York cannot be maintained
+- **[[Positions/Closed Guard]]** - Fallback position if New York cannot be maintained
 
-- **[[Rubber Guard]]** - Parent system encompassing New York and all related positions
+- **[[Positions/Rubber Guard]]** - Parent system encompassing New York and all related positions
 
-- **[[Triangle Control]]** - Alternative attack pathway if overhook is compromised
+- **[[Positions/Triangle Control]]** - Alternative attack pathway if overhook is compromised
 
-- **[[Omoplata Control]]** - Submission control available from New York via Carni pathway
+- **[[Positions/Omoplata Control]]** - Submission control available from New York via Carni pathway
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Learn to execute the Sweep from Zombie Guard in BJJ. Step-by-step 
 
 Executing the Sweep from Zombie Guard requires coordinating three mechanical systems simultaneously: the lockdown stretch that compromises the opponent's base, the underhook that creates the rotational axis for the reversal, and the hip drive that generates sufficient force to complete the positional change. The sweep is most effective when timed with the opponent's weight shifts or passing attempts, as their forward commitment provides additional momentum for the reversal. Mastery of this technique transforms the Zombie bottom from a survival position into a genuine offensive threat that forces constant defensive awareness from the top player, creating the cascading dilemmas that define high-level lockdown half guard play.
 
-**From Position**: [[Zombie]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Zombie]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Sweep from Zombie Guard requires coordinating three mechanical sys
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 45% |
-| Failure | [[Zombie]] | 35% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Mount]] | 45% |
+| Failure | [[Positions/Rubber Guard/Zombie]] | 35% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Sweep from Zombie Guard requires coordinating three mechanical sys
 
 ## Opponent Counters
 
-- **Opponent drives heavy crossface pressure to flatten the bottom player before the sweep angle develops** (Effectiveness: High) - Your Response: Frame with your far hand on their shoulder or bicep to prevent the crossface from settling against your jaw. If the crossface establishes successfully, transition to Deep Half Guard entry rather than forcing the sweep against flattened positioning where you lack the hip angle for force generation. → Leads to [[Zombie]]
-- **Opponent posts their free leg wide and drops their hip to create a triangular base resistant to the sweep direction** (Effectiveness: Medium) - Your Response: Increase lockdown stretch intensity to pull their posted leg off its base alignment, or transition to Electric Chair attack by splitting their legs through the opening their wide base creates. The wide post that defeats the sweep is precisely the leg position that exposes them to the Electric Chair. → Leads to [[Zombie]]
-- **Opponent establishes a deep whizzer on the underhook arm to neutralize the rotational axis** (Effectiveness: High) - Your Response: Swim your underhook deeper past the whizzer by circling your hand and re-threading under their armpit, or abandon the underhook temporarily and switch to an overhook grip that allows a modified sweep angle using lockdown tension as the primary force vector rather than the underhook rotation. → Leads to [[Zombie]]
-- **Opponent strips the lockdown by posting on their trapped knee and systematically pulling their leg free** (Effectiveness: Medium) - Your Response: If you feel the lockdown weakening, immediately attempt the sweep before it breaks completely using whatever tension remains. If the lockdown fully breaks, transition to standard half guard recovery with knee shield insertion to prevent the pass rather than attempting the sweep without your primary control mechanism. → Leads to [[Open Guard]]
+- **Opponent drives heavy crossface pressure to flatten the bottom player before the sweep angle develops** (Effectiveness: High) - Your Response: Frame with your far hand on their shoulder or bicep to prevent the crossface from settling against your jaw. If the crossface establishes successfully, transition to Deep Half Guard entry rather than forcing the sweep against flattened positioning where you lack the hip angle for force generation. → Leads to [[Positions/Rubber Guard/Zombie]]
+- **Opponent posts their free leg wide and drops their hip to create a triangular base resistant to the sweep direction** (Effectiveness: Medium) - Your Response: Increase lockdown stretch intensity to pull their posted leg off its base alignment, or transition to Electric Chair attack by splitting their legs through the opening their wide base creates. The wide post that defeats the sweep is precisely the leg position that exposes them to the Electric Chair. → Leads to [[Positions/Rubber Guard/Zombie]]
+- **Opponent establishes a deep whizzer on the underhook arm to neutralize the rotational axis** (Effectiveness: High) - Your Response: Swim your underhook deeper past the whizzer by circling your hand and re-threading under their armpit, or abandon the underhook temporarily and switch to an overhook grip that allows a modified sweep angle using lockdown tension as the primary force vector rather than the underhook rotation. → Leads to [[Positions/Rubber Guard/Zombie]]
+- **Opponent strips the lockdown by posting on their trapped knee and systematically pulling their leg free** (Effectiveness: Medium) - Your Response: If you feel the lockdown weakening, immediately attempt the sweep before it breaks completely using whatever tension remains. If the lockdown fully breaks, transition to standard half guard recovery with knee shield insertion to prevent the pass rather than attempting the sweep without your primary control mechanism. → Leads to [[Positions/Open Guard]]
 
 
 </section>

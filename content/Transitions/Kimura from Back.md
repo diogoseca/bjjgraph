@@ -21,7 +21,7 @@ From a strategic perspective, the Kimura from Back serves dual purposes as both 
 
 The technique exemplifies the principle of systematic attack chains from back control. Rather than abandoning position when the choke is defended, the practitioner transitions smoothly to the kimura while maintaining all back control elements. This cycling between attacks—triangle choke to kimura to armbar—overwhelms the opponent's defensive capacity and eventually creates finishing opportunities through accumulated defensive fatigue.
 
-**From Position**: [[Rear Triangle]] (Top)
+**From Position**: [[Positions/Triangle Control/Rear Triangle]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The technique exemplifies the principle of systematic attack chains from back co
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kimura Trap]] | 55% |
-| Failure | [[Rear Triangle]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Kimura Trap]] | 55% |
+| Failure | [[Positions/Triangle Control/Rear Triangle]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ Kimura from Back occupies a central role in the rear triangle attack system, ser
 ## Related Techniques
 
 
-- [[Rear Triangle]] - Starting position from which this technique is initiated
+- [[Positions/Triangle Control/Rear Triangle]] - Starting position from which this technique is initiated
 
-- [[Kimura Trap]] - Primary success outcome position where kimura control is established
+- [[Positions/Kimura Trap]] - Primary success outcome position where kimura control is established
 
-- [[Back Control]] - Alternative outcome when opponent successfully counters and escapes triangle
+- [[Positions/Back Control]] - Alternative outcome when opponent successfully counters and escapes triangle
 
-- [[Armbar from Back with Legs]] - Chain attack when opponent straightens arm to defend kimura
+- [[Submissions/Armbar from Back with Legs]] - Chain attack when opponent straightens arm to defend kimura
 
-- [[Triangle Choke Back]] - Primary attack that sets up kimura opportunity through choke defense
+- [[Submissions/Triangle Choke Back]] - Primary attack that sets up kimura opportunity through choke defense
 
-- [[Kimura Sweep]] - Related technique using same figure-four grip mechanics
+- [[Transitions/Kimura Sweep]] - Related technique using same figure-four grip mechanics
 
-- [[Kimura Switch]] - Transition option when position changes during kimura attempt
+- [[Transitions/Kimura Switch]] - Transition option when position changes during kimura attempt
 
-- [[Gift Wrap]] - Alternative arm control from back position
+- [[Positions/Gift Wrap]] - Alternative arm control from back position
 
-- [[Crucifix]] - Transition target if opponent rotates during attack
+- [[Positions/Crucifix]] - Transition target if opponent rotates during attack
 
-- [[Body Triangle]] - Alternative back control leg configuration
+- [[Positions/Back Control/Body Triangle]] - Alternative back control leg configuration
 
 
 </section>

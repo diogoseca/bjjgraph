@@ -21,7 +21,7 @@ The technique's effectiveness stems from its mechanical simplicity combined with
 
 Strategically, the rear naked choke serves as the primary threat from back control, forcing opponents to defend their neck continuously. This defensive commitment creates opportunities for alternative attacks including armbar variations, bow and arrow choke, and crucifix transitions. The submission's reliability across all experience levels makes it a foundational technique that every practitioner must master both offensively and defensively.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -33,8 +33,8 @@ Strategically, the rear naked choke serves as the primary threat from back contr
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Turtle]] | 12% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Turtle]] | 12% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Rear Naked Choke is the primary submission threat from back control and the 
 ## Related Techniques
 
 
-- [[Back Control]] - Starting position - the RNC is executed from back control with hooks or body triangle
+- [[Positions/Back Control]] - Starting position - the RNC is executed from back control with hooks or body triangle
 
-- [[Bow and Arrow Choke]] - Alternative choke - gi-based choke from back that creates submission chain with RNC
+- [[Transitions/Bow and Arrow Choke]] - Alternative choke - gi-based choke from back that creates submission chain with RNC
 
-- [[Armbar from Back]] - Chain attack - arm attack when opponent commits hands to neck defense
+- [[Submissions/Armbar from Back]] - Chain attack - arm attack when opponent commits hands to neck defense
 
-- [[Crucifix]] - Transitional position - traps both arms allowing undefended RNC entry
+- [[Positions/Crucifix]] - Transitional position - traps both arms allowing undefended RNC entry
 
-- [[Body Triangle]] - Control variation - leg control that enhances RNC finishing position
+- [[Positions/Back Control/Body Triangle]] - Control variation - leg control that enhances RNC finishing position
 
-- [[Gift Wrap]] - Arm trap - isolates one arm reducing opponent's defensive options for RNC
+- [[Positions/Gift Wrap]] - Arm trap - isolates one arm reducing opponent's defensive options for RNC
 
-- [[Back Take]] - Entry transition - methods for reaching back control where RNC becomes available
+- [[Transitions/Back Take]] - Entry transition - methods for reaching back control where RNC becomes available
 
-- [[Turtle]] - Escape position - common outcome when opponent partially defends and escapes back control
+- [[Positions/Turtle]] - Escape position - common outcome when opponent partially defends and escapes back control
 
-- [[Hand Fighting from Back]] - Setup technique - hand fighting methodology that creates RNC entry opportunities
+- [[Transitions/Hand Fighting from Back]] - Setup technique - hand fighting methodology that creates RNC entry opportunities
 
-- [[Back Door Escape]] - Defensive counter - understanding escapes informs how to prevent them during RNC attempts
+- [[Transitions/Back Door Escape]] - Defensive counter - understanding escapes informs how to prevent them during RNC attempts
 
-- [[Short Choke]] - Variant finish - palm-to-palm alternative when full figure-four grip is unavailable
+- [[Transitions/Short Choke]] - Variant finish - palm-to-palm alternative when full figure-four grip is unavailable
 
 
 </section>

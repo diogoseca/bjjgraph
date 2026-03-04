@@ -95,23 +95,23 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 ### Available Transitions
 
 
-- **[[Stack Pass]]** (30% of attempts)
+- **[[Transitions/Stack Pass]]** (30% of attempts)
 
-- **[[Triangle Escape]]** (17% of attempts)
+- **[[Transitions/Triangle Escape]]** (17% of attempts)
 
-- **[[Posture Recovery]]** (17% of attempts)
+- **[[Transitions/Posture Recovery]]** (17% of attempts)
 
-- **[[Pass to Side Control]]** (7% of attempts)
+- **[[Transitions/Pass to Side Control]]** (7% of attempts)
 
-- **[[Arm Extraction]]** (13% of attempts)
+- **[[Transitions/Arm Extraction]]** (13% of attempts)
 
-- **[[Standing up in Base]]** (11% of attempts)
+- **[[Transitions/Standing up in Base]]** (11% of attempts)
 
-- **[[Complete Triangle Escape]]** (3% of attempts)
+- **[[Transitions/Complete Triangle Escape]]** (3% of attempts)
 
-- **[[Posture in Triangle Escape]]** (1% of attempts)
+- **[[Transitions/Posture in Triangle Escape]]** (1% of attempts)
 
-- **[[Reversal from Triangle Escape]]** (1% of attempts)
+- **[[Transitions/Reversal from Triangle Escape]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -172,23 +172,23 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 ### Available Transitions
 
 
-- **[[Stack Pass]]** (17% of attempts)
+- **[[Transitions/Stack Pass]]** (17% of attempts)
 
-- **[[Posture Recovery]]** (33% of attempts)
+- **[[Transitions/Posture Recovery]]** (33% of attempts)
 
-- **[[Triangle Escape]]** (17% of attempts)
+- **[[Transitions/Triangle Escape]]** (17% of attempts)
 
-- **[[Arm Extraction]]** (12% of attempts)
+- **[[Transitions/Arm Extraction]]** (12% of attempts)
 
-- **[[Pass to Side Control]]** (5% of attempts)
+- **[[Transitions/Pass to Side Control]]** (5% of attempts)
 
-- **[[Standing up in Base]]** (12% of attempts)
+- **[[Transitions/Standing up in Base]]** (12% of attempts)
 
-- **[[Complete Triangle Escape from Top]]** (2% of attempts)
+- **[[Transitions/Complete Triangle Escape from Top]]** (2% of attempts)
 
-- **[[Posture in Triangle]]** (1% of attempts)
+- **[[Transitions/Posture in Triangle]]** (1% of attempts)
 
-- **[[Guard Pass from Triangle Escape]]** (1% of attempts)
+- **[[Transitions/Guard Pass from Triangle Escape]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -227,21 +227,21 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 ## Related Positions
 
 
-- **[[Triangle Control]]** - Opponent's attacking position - understanding their mechanics is essential for effective defense
+- **[[Positions/Triangle Control]]** - Opponent's attacking position - understanding their mechanics is essential for effective defense
 
-- **[[Closed Guard]]** - Common pre-triangle position and target position after successful escape
+- **[[Positions/Closed Guard]]** - Common pre-triangle position and target position after successful escape
 
-- **[[Combat Base]]** - Critical intermediate position for posture recovery during triangle escapes
+- **[[Positions/Combat Base]]** - Critical intermediate position for posture recovery during triangle escapes
 
-- **[[Armbar Control]]** - Common transition threat when opponent reacts to triangle escape attempts
+- **[[Positions/Armbar Control]]** - Common transition threat when opponent reacts to triangle escape attempts
 
-- **[[Omoplata Control]]** - Secondary submission opponent may attempt when triangle is defended
+- **[[Positions/Omoplata Control]]** - Secondary submission opponent may attempt when triangle is defended
 
-- **[[Side Control]]** - Target position when successfully executing stack pass escape variations
+- **[[Positions/Side Control]]** - Target position when successfully executing stack pass escape variations
 
-- **[[Open Guard]]** - Transitional position achieved during certain escape sequences
+- **[[Positions/Open Guard]]** - Transitional position achieved during certain escape sequences
 
-- **[[Half Guard]]** - Alternative recovery position when full guard escape is blocked
+- **[[Positions/Half Guard]]** - Alternative recovery position when full guard escape is blocked
 
 
 </section>

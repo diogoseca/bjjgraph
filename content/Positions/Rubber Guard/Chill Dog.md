@@ -95,23 +95,23 @@ In the 10th Planet system, Chill Dog serves as a critical defensive position tha
 ### Available Transitions
 
 
-- **[[Granby Roll to Guard]]** (14% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (14% of attempts)
 
-- **[[Granby to Closed Guard]]** (11% of attempts)
+- **[[Transitions/Granby to Closed Guard]]** (11% of attempts)
 
-- **[[Technical Stand-up]]** (32% of attempts)
+- **[[Transitions/Technical Stand-up]]** (32% of attempts)
 
-- **[[Rolling to Guard]]** (11% of attempts)
+- **[[Transitions/Rolling to Guard]]** (11% of attempts)
 
-- **[[Turtle to Guard]]** (13% of attempts)
+- **[[Transitions/Turtle to Guard]]** (13% of attempts)
 
-- **[[Hip Escape to Guard]]** (11% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (11% of attempts)
 
-- **[[Escape Chill Dog]]** (5% of attempts)
+- **[[Transitions/Escape Chill Dog]]** (5% of attempts)
 
-- **[[Roll from Chill Dog]]** (2% of attempts)
+- **[[Transitions/Roll from Chill Dog]]** (2% of attempts)
 
-- **[[Sweep from Chill Dog]]** (1% of attempts)
+- **[[Transitions/Sweep from Chill Dog]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -176,25 +176,25 @@ In the 10th Planet system, Chill Dog serves as a critical defensive position tha
 ### Available Transitions
 
 
-- **[[Turtle to Back Control]]** (31% of attempts)
+- **[[Transitions/Turtle to Back Control]]** (31% of attempts)
 
-- **[[Crucifix from Turtle]]** (12% of attempts)
+- **[[Transitions/Crucifix from Turtle]]** (12% of attempts)
 
-- **[[Darce Setup]]** (10% of attempts)
+- **[[Transitions/Darce Setup]]** (10% of attempts)
 
-- **[[Anaconda Setup]]** (9% of attempts)
+- **[[Transitions/Anaconda Setup]]** (9% of attempts)
 
-- **[[Front Headlock to Back]]** (12% of attempts)
+- **[[Transitions/Front Headlock to Back]]** (12% of attempts)
 
-- **[[Truck Entry]]** (10% of attempts)
+- **[[Transitions/Truck Entry]]** (10% of attempts)
 
-- **[[Guillotine Setup]]** (9% of attempts)
+- **[[Transitions/Guillotine Setup]]** (9% of attempts)
 
-- **[[Posture from Chill Dog]]** (4% of attempts)
+- **[[Transitions/Posture from Chill Dog]]** (4% of attempts)
 
-- **[[Stack from Chill Dog]]** (2% of attempts)
+- **[[Transitions/Stack from Chill Dog]]** (2% of attempts)
 
-- **[[Guard Pass from Chill Dog]]** (1% of attempts)
+- **[[Transitions/Guard Pass from Chill Dog]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -237,21 +237,21 @@ In the 10th Planet system, Chill Dog serves as a critical defensive position tha
 ## Related Positions
 
 
-- **[[Turtle]]** - Parent position - Chill Dog is a specific defensive variant
+- **[[Positions/Turtle]]** - Parent position - Chill Dog is a specific defensive variant
 
-- **[[Closed Guard]]** - Primary target position after Granby roll escape
+- **[[Positions/Closed Guard]]** - Primary target position after Granby roll escape
 
-- **[[Half Guard]]** - Common intermediate position during escape sequences
+- **[[Positions/Half Guard]]** - Common intermediate position during escape sequences
 
-- **[[Back Control]]** - Primary opponent objective if defensive frame breaks
+- **[[Positions/Back Control]]** - Primary opponent objective if defensive frame breaks
 
-- **[[Crucifix]]** - Opponent attack if arm isolation occurs
+- **[[Positions/Crucifix]]** - Opponent attack if arm isolation occurs
 
-- **[[Front Headlock]]** - Common opponent attack requiring technical stand-up escape
+- **[[Positions/Front Headlock]]** - Common opponent attack requiring technical stand-up escape
 
-- **[[Butterfly Guard]]** - Escape option when sitting back from compact posture
+- **[[Positions/Butterfly Guard]]** - Escape option when sitting back from compact posture
 
-- **[[Lockdown]]** - 10th Planet half guard option after escape sequence
+- **[[Positions/Half Guard/Lockdown]]** - 10th Planet half guard option after escape sequence
 
 
 </section>

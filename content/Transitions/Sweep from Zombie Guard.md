@@ -21,7 +21,7 @@ The sweep mechanics center on three simultaneous forces working in coordination:
 
 Within the broader Zombie offensive system, this sweep functions as the primary reversal threat that forces the top player into a defensive posture, opening secondary attacks like the Electric Chair submission or Deep Half Guard entries. The constant threat of the sweep creates the dilemma-based offense central to the 10th Planet methodology, where every defensive adjustment the top player makes to prevent the sweep creates vulnerability to alternative attacks. This dynamic makes the Zombie bottom position far more dangerous than a standard half guard recovery.
 
-**From Position**: [[Zombie]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Zombie]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Within the broader Zombie offensive system, this sweep functions as the primary 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 45% |
-| Failure | [[Zombie]] | 35% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Mount]] | 45% |
+| Failure | [[Positions/Rubber Guard/Zombie]] | 35% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -191,23 +191,23 @@ The Sweep from Zombie Guard occupies a central role in the 10th Planet half guar
 ## Related Techniques
 
 
-- [[Lockdown]] - Core control mechanism providing the primary sweep leverage through leg entanglement
+- [[Positions/Half Guard/Lockdown]] - Core control mechanism providing the primary sweep leverage through leg entanglement
 
-- [[Old School]] - Related sweep position sharing similar mechanics from the lockdown half guard system
+- [[Positions/Half Guard/Old School]] - Related sweep position sharing similar mechanics from the lockdown half guard system
 
-- [[Electric Chair]] - Primary chain attack when the sweep is defended with wide base posting
+- [[Positions/Half Guard/Electric Chair]] - Primary chain attack when the sweep is defended with wide base posting
 
-- [[Mount]] - Target position achieved on successful sweep completion
+- [[Positions/Mount]] - Target position achieved on successful sweep completion
 
-- [[Half Guard]] - Parent guard family from which the Zombie position derives
+- [[Positions/Half Guard]] - Parent guard family from which the Zombie position derives
 
-- [[Deep Half Guard]] - Alternative transition available when sweep creates space beneath the opponent
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition available when sweep creates space beneath the opponent
 
-- [[Open Guard]] - Counter outcome position when the Zombie structure is broken during the sweep attempt
+- [[Positions/Open Guard]] - Counter outcome position when the Zombie structure is broken during the sweep attempt
 
-- [[Dogfight Position]] - Related half guard transition hub offering alternative offensive pathways
+- [[Positions/Dogfight Position]] - Related half guard transition hub offering alternative offensive pathways
 
-- [[Rubber Guard]] - Related 10th Planet system sharing the dilemma-based offensive philosophy
+- [[Positions/Rubber Guard]] - Related 10th Planet system sharing the dilemma-based offensive philosophy
 
 
 </section>

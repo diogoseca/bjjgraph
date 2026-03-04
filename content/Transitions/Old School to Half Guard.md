@@ -21,7 +21,7 @@ The mechanics center on safely releasing the lockdown figure-four configuration 
 
 Successful execution demands reading the positional dynamics accurately. When the opponent has established deep whizzer control, heavy crossface, and a wide base that neutralizes Old School sweep attempts, continuing to fight from a compromised lockdown position burns energy without productive return. The transition to half guard opens access to knee shield retention, deep half entries, butterfly half hooks, and standard underhook sweeps that present entirely different problems for the top player to solve.
 
-**From Position**: [[Old School]] (Bottom)
+**From Position**: [[Positions/Half Guard/Old School]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Successful execution demands reading the positional dynamics accurately. When th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Old School]] | 30% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Old School]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Old School to Half Guard transition serves as a critical reset mechanism wit
 ## Related Techniques
 
 
-- [[Old School]] - Source position from which this transition initiates
+- [[Positions/Half Guard/Old School]] - Source position from which this transition initiates
 
-- [[Half Guard]] - Target position family providing broader offensive options after reset
+- [[Positions/Half Guard]] - Target position family providing broader offensive options after reset
 
-- [[Lockdown]] - Control mechanism being released during the transition
+- [[Positions/Half Guard/Lockdown]] - Control mechanism being released during the transition
 
-- [[Knee Shield Half Guard]] - Primary target variation after successful transition to half guard
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Primary target variation after successful transition to half guard
 
-- [[Flattened Half Guard]] - Risk position if top player capitalizes on transition window
+- [[Positions/Half Guard/Flattened Half Guard]] - Risk position if top player capitalizes on transition window
 
-- [[Old School Sweep]] - Primary attack that may have been defended, prompting this reset
+- [[Transitions/Old School Sweep]] - Primary attack that may have been defended, prompting this reset
 
-- [[Deep Half Entry from Half Guard]] - Follow-up offensive option available from recovered half guard
+- [[Transitions/Deep Half Entry from Half Guard]] - Follow-up offensive option available from recovered half guard
 
-- [[Half Guard to X-Guard]] - Alternative follow-up transition available from standard half guard
+- [[Transitions/Half Guard to X-Guard]] - Alternative follow-up transition available from standard half guard
 
-- [[Dogfight Position]] - Alternative transition from Old School when coming up on underhook
+- [[Positions/Dogfight Position]] - Alternative transition from Old School when coming up on underhook
 
-- [[Back Door Escape from Half Guard]] - Escape option available from recovered half guard position
+- [[Transitions/Back Door Escape from Half Guard]] - Escape option available from recovered half guard position
 
-- [[Deep Half Guard]] - Alternative recovery destination through deep half bail variant
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative recovery destination through deep half bail variant
 
 
 </section>

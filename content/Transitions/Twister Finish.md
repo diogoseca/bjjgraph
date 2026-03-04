@@ -21,7 +21,7 @@ Strategically, the Twister Finish from Russian Cowboy represents a high-commitme
 
 The submission's danger profile demands extreme caution in training. The spinal compression created by opposing the locked hips against the rotating shoulders can cause serious cervical and thoracic injury if applied too quickly. Progressive pressure over a minimum of five to seven seconds is mandatory, and both training partners must have established clear communication protocols before attempting this technique. The Twister Finish is most effective when the opponent has already exhausted their primary escape options from Russian Cowboy and is committed to a defensive posture that exposes their spine to rotational attack.
 
-**From Position**: [[Russian Cowboy]] (Top)
+**From Position**: [[Positions/Russian Cowboy]] (Top)
 **Success Rate**: 40%
 
 </section>
@@ -33,8 +33,8 @@ The submission's danger profile demands extreme caution in training. The spinal 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Russian Cowboy]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Russian Cowboy]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Twister Finish from Russian Cowboy represents the terminal submission pathwa
 ## Related Techniques
 
 
-- [[Russian Cowboy]] - Starting position providing the single-hook back control foundation
+- [[Positions/Russian Cowboy]] - Starting position providing the single-hook back control foundation
 
-- [[Twister Control]] - Comprehensive control system containing the Twister as primary finish
+- [[Positions/Twister Control]] - Comprehensive control system containing the Twister as primary finish
 
-- [[Truck]] - Intermediate control position reached during figure-four conversion
+- [[Positions/Twister Control/Truck]] - Intermediate control position reached during figure-four conversion
 
-- [[Calf Slicer from Truck]] - Alternative submission when Twister head control is denied
+- [[Submissions/Calf Slicer from Truck]] - Alternative submission when Twister head control is denied
 
-- [[Banana Split]] - Alternative submission from the same figure-four leg position
+- [[Submissions/Banana Split]] - Alternative submission from the same figure-four leg position
 
-- [[Back Take]] - Positional alternative when Twister defense is too strong
+- [[Transitions/Back Take]] - Positional alternative when Twister defense is too strong
 
-- [[Electric Chair Finish]] - Related 10th Planet system submission from similar leg entanglement
+- [[Submissions/Electric Chair Finish]] - Related 10th Planet system submission from similar leg entanglement
 
-- [[Russian Cowboy RNC]] - Alternative high-percentage finish from Russian Cowboy back control
+- [[Submissions/Russian Cowboy RNC]] - Alternative high-percentage finish from Russian Cowboy back control
 
-- [[Lockdown]] - Bottom half guard position that feeds into the Twister system
+- [[Positions/Half Guard/Lockdown]] - Bottom half guard position that feeds into the Twister system
 
-- [[Twister from Twister SC]] - Parent submission that this transition finishes
+- [[Submissions/Twister from Twister SC]] - Parent submission that this transition finishes
 
 
 </section>

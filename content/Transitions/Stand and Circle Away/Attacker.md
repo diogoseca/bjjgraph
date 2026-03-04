@@ -184,7 +184,7 @@ Strategically, the Stand and Circle Away occupies a unique niche among front hea
 
 The mechanical foundation relies on posting, driving upward through the legs while maintaining chin protection, and then immediately circling away from the opponent's choking arm side. The circling component is critical because simply standing straight up into the front headlock plays directly into guillotine mechanics. By combining vertical drive with lateral movement, you create a vector that is perpendicular to the opponent's control axis, making their grip progressively weaker with each step around.
 
-**From Position**: [[Front Headlock]] (Bottom)
+**From Position**: [[Positions/Front Headlock]] (Bottom)
 
 </section>
 
@@ -237,9 +237,9 @@ The mechanical foundation relies on posting, driving upward through the legs whi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -248,10 +248,10 @@ The mechanical foundation relies on posting, driving upward through the legs whi
 
 ## Opponent Counters
 
-- **Opponent sprawls heavy and re-snaps your head down as you attempt to stand, driving their hips back and chest weight forward to collapse your posture back to the mat** (Effectiveness: High) - Your Response: If re-snapped, immediately transition to a Granby Roll or guard pull rather than attempting to stand again into their prepared defense. Alternatively, use the forward momentum of their snap to shoot a single leg on their posted leg. → Leads to [[Front Headlock]]
-- **Opponent transitions to guillotine grip during your standing motion, exploiting the moment your neck extends as you drive upward to lock a standing guillotine** (Effectiveness: High) - Your Response: Keep chin aggressively tucked and choking arm controlled throughout the stand. If guillotine locks, immediately circle to the choking arm side and drop your weight to pull guard into half guard on the guillotine side, where the choke is weakest. → Leads to [[Front Headlock]]
-- **Opponent releases headlock and takes your back as you circle, capitalizing on the angle you create to secure a rear body lock or seat belt grip** (Effectiveness: Medium) - Your Response: Maintain awareness of opponent's hand position during the circle. If you feel them releasing the headlock and reaching for your waist, immediately turn to face them and establish collar tie or double underhooks. Never circle with your back exposed — keep squaring up as you move. → Leads to [[Back Control]]
-- **Opponent follows your circle and maintains head control by stepping with you, not allowing the angle change to weaken their grip** (Effectiveness: Medium) - Your Response: If they match your circular movement, abruptly change direction and circle the opposite way. The direction change breaks their momentum and briefly weakens their grip. Combine the direction change with an aggressive grip strip on the choking arm. → Leads to [[Front Headlock]]
+- **Opponent sprawls heavy and re-snaps your head down as you attempt to stand, driving their hips back and chest weight forward to collapse your posture back to the mat** (Effectiveness: High) - Your Response: If re-snapped, immediately transition to a Granby Roll or guard pull rather than attempting to stand again into their prepared defense. Alternatively, use the forward momentum of their snap to shoot a single leg on their posted leg. → Leads to [[Positions/Front Headlock]]
+- **Opponent transitions to guillotine grip during your standing motion, exploiting the moment your neck extends as you drive upward to lock a standing guillotine** (Effectiveness: High) - Your Response: Keep chin aggressively tucked and choking arm controlled throughout the stand. If guillotine locks, immediately circle to the choking arm side and drop your weight to pull guard into half guard on the guillotine side, where the choke is weakest. → Leads to [[Positions/Front Headlock]]
+- **Opponent releases headlock and takes your back as you circle, capitalizing on the angle you create to secure a rear body lock or seat belt grip** (Effectiveness: Medium) - Your Response: Maintain awareness of opponent's hand position during the circle. If you feel them releasing the headlock and reaching for your waist, immediately turn to face them and establish collar tie or double underhooks. Never circle with your back exposed — keep squaring up as you move. → Leads to [[Positions/Back Control]]
+- **Opponent follows your circle and maintains head control by stepping with you, not allowing the angle change to weaken their grip** (Effectiveness: Medium) - Your Response: If they match your circular movement, abruptly change direction and circle the opposite way. The direction change breaks their momentum and briefly weakens their grip. Combine the direction change with an aggressive grip strip on the choking arm. → Leads to [[Positions/Front Headlock]]
 
 
 </section>

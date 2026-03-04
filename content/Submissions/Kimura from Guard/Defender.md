@@ -160,7 +160,7 @@ The Kimura defense hierarchy follows a clear priority sequence: first, prevent t
 
 A critical defensive principle is recognizing that the Kimura grip creates a control position beyond just the submission threat. Even if you successfully defend the shoulder lock finish, the attacker can use the grip to sweep you, take your back, or transition to other submissions. Effective defense therefore requires not just surviving the immediate submission but actively working to break the grip entirely and recover your posture and base. The defender must balance urgency in escaping with the awareness that panicked, explosive movements can accelerate shoulder damage if the submission is partially locked.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 
 </section>
@@ -200,28 +200,28 @@ A critical defensive principle is recognizing that the Kimura grip creates a con
 ### 1. Posture recovery and arm extraction - drive hips back, straighten spine, and pull trapped arm free before figure-four is completed
 
 - **When to use**: Early phase defense when opponent has wrist control but has not yet completed the figure-four grip; highest percentage window for escape
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Return to standard closed guard top position with posture restored and no submission threat
 - **Risk**: Low risk if executed early; attempting arm extraction after figure-four is locked may expose elbow to additional leverage
 
 ### 2. Stack and drive forward - press your weight forward into opponent's chest while clasping your hands together or grabbing your own thigh to prevent rotation
 
 - **When to use**: Mid-phase defense when figure-four grip is partially or fully established but opponent has not yet created the perpendicular hip angle
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Neutralize the angle needed for finishing pressure and create opportunity to break the grip through forward pressure and weight
 - **Risk**: Medium risk; if you drive forward without controlling your arm position, opponent may use your momentum to sweep to mount while maintaining Kimura grip
 
 ### 3. Roll through and posture - roll forward over the trapped shoulder in the direction of the submission pressure to relieve rotational stress, then immediately establish top position
 
 - **When to use**: Late-phase emergency defense when figure-four is locked and angle is established but rotation has not yet passed the critical 45-degree threshold
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Relieve shoulder pressure through the roll and potentially end up in top position; however, opponent may follow the roll to take the back
 - **Risk**: High risk; if opponent follows the roll they achieve back control with Kimura grip intact, and the roll itself may accelerate shoulder damage if timed poorly
 
 ### 4. Stand up in base and create distance - post your free hand, establish base, and stand to break the closed guard and create distance that compromises the Kimura angle
 
 - **When to use**: When opponent's guard is open or partially open during the Kimura setup; standing changes the leverage dynamics and can force grip release
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Break free from guard entirely and establish passing position with submission threat neutralized
 - **Risk**: Medium risk; standing with one arm controlled leaves you vulnerable to sweeps and the opponent may transition to alternative attacks during your stand-up
 
@@ -245,11 +245,11 @@ A critical defensive principle is recognizing that the Kimura grip creates a con
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Recover posture and strip the Kimura grip early in the attack sequence before the figure-four is fully established, returning to standard closed guard top position with no immediate submission threat
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Use the forward roll escape to relieve shoulder pressure and scramble past the guard, or stand and break free from the guard entirely to establish a dominant passing position above the attacker
 

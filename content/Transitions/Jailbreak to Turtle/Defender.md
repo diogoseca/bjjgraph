@@ -154,7 +154,7 @@ description: "How to defend against Jailbreak to Turtle in BJJ. Recognition cues
 
 Defending the Jailbreak to Turtle requires the top player to recognize early warning signs of the inversion attempt and respond with precise base adjustments and grip control. As the half guard top player, you are driving forward pressure to complete the pass, which is exactly the energy the bottom player needs for the jailbreak roll. The defensive challenge is maintaining enough forward pressure to prevent guard recovery while avoiding the over-commitment that enables the rolling escape. Successful defense relies on reading the bottom player's hip angle, underhook depth, and free leg positioning to anticipate the escape before it launches. When you identify jailbreak setup indicators, the priority shifts from completing the pass to neutralizing the escape mechanics—primarily by widening your base, controlling the underhook arm, and managing your weight distribution to stay behind your hips rather than loading forward onto the bottom player's chest.
 
-**Opponent's Starting Position**: [[Jailbreak]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Jailbreak]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Jailbreak to Turtle requires the top player to recognize early war
 ### 1. Sprawl hips back and widen base laterally to remove forward weight commitment that powers the roll
 
 - **When to use**: When you sense the bottom player's hips turning and underhook deepening—the earliest recognition cue before the roll initiates
-- **Targets**: [[Jailbreak]]
+- **Targets**: [[Positions/Jailbreak]]
 - **If successful**: Bottom player cannot generate sufficient rotational momentum, stalling the escape and allowing you to re-engage passing pressure from a safer base position
 - **Risk**: Backing off pressure may allow bottom player to recover half guard frames or transition to deep half entry
 
 ### 2. Strip or whizzer the underhook arm by driving your overhook deep and circling your elbow inside to break the structural connection
 
 - **When to use**: When you feel the underhook locking in with elbow-to-hip tightness but before the bottom player initiates the explosive roll
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Without the underhook, the jailbreak mechanics collapse completely—continue driving forward to complete the pass to side control
 - **Risk**: Fighting for the underhook strip can temporarily reduce your passing pressure, opening other escape paths
 
 ### 3. Block the free leg by pinning it to the mat with your near knee or hand, eliminating the push-off propulsion source
 
 - **When to use**: When you see the bottom player posting their free leg against the mat in preparation for the explosive push-off phase
-- **Targets**: [[Jailbreak]]
+- **Targets**: [[Positions/Jailbreak]]
 - **If successful**: Without free leg propulsion, the bottom player lacks the explosive force to complete the inversion and remains stuck in compressed half guard
 - **Risk**: Shifting attention to leg control may loosen your crossface or upper body pressure, allowing frame recovery
 
 ### 4. Follow the roll with chest pressure maintained, immediately establishing front headlock or back control as they complete to turtle
 
 - **When to use**: When the roll has already initiated and cannot be stopped—commit to following rather than fighting the momentum
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You arrive at turtle top with immediate attacking position, converting their escape into your offensive opportunity with front headlock or back take
 - **Risk**: If bottom player continues momentum into back take chain, you may end up giving up back control
 
@@ -225,11 +225,11 @@ Defending the Jailbreak to Turtle requires the top player to recognize early war
 
 ## Best-Case Outcomes for Defender
 
-### → [[Jailbreak]]
+### → [[Positions/Jailbreak]]
 
 Sprawl hips back and widen your base the moment you feel the bottom player's hips turning and underhook deepening. Remove your forward weight commitment that powers the roll while maintaining crossface control. This stalls the escape and forces them to re-engage from a neutral jailbreak position where you can resume passing.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Strip the underhook by driving a deep whizzer and circling your elbow inside to break the structural connection. Once the underhook is defeated, immediately drive forward pressure to flatten the bottom player and complete the pass to side control. The underhook strip must happen before the roll initiates—once they are mid-inversion with underhook intact, this option is gone.
 

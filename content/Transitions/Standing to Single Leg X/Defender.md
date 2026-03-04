@@ -154,7 +154,7 @@ description: "How to defend against Standing to Single Leg X in BJJ. Recognition
 
 Defending the Standing to Single Leg X entry requires early recognition and decisive action before the bottom player can establish their hooks and begin sweeping. As the standing player, your primary advantage is mobility and the ability to disengage before the entanglement is locked in. The critical defensive window occurs between the moment the opponent initiates their level change and the moment they secure their inside hook behind your knee. Once the full Single Leg X position is established with both hooks active, defensive options narrow significantly and you are primarily reacting to sweep and leg attack threats. Effective defense therefore depends on recognizing pre-entry cues, maintaining strong posture and base, and executing immediate counters during the transition phase rather than after the position is consolidated. Understanding the attacker's grip requirements and timing dependencies reveals specific vulnerabilities you can exploit to shut down the entry entirely.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the Standing to Single Leg X entry requires early recognition and deci
 ### 1. Sprawl hips back and strip grips immediately upon recognizing level change
 
 - **When to use**: As soon as you detect the opponent dropping their hips or stepping in for the entry, before any hooks are inserted
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent falls to seated position with no control, allowing you to advance to top position or maintain standing dominance
 - **Risk**: If you sprawl too late, opponent may already have inside hook established and your backward motion can actually help them lock the position
 
 ### 2. Drive forward with heavy pressure and crossface to smash the entry
 
 - **When to use**: When opponent has partially sat but has not yet established the outside foot on your hip, and their inside hook is shallow
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You flatten the opponent and pass directly to side control or leg drag position, converting their guard pull into your top control
 - **Risk**: If opponent has strong outside foot frame established, your forward drive gets redirected and can accelerate their sweep attempt
 
 ### 3. Circle laterally and change angle to deny the hook insertion
 
 - **When to use**: When opponent is initiating the level change but has not yet committed to sitting, and you can still move your lead leg freely
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Your angle change removes the targeted leg from the path of their hook insertion, forcing them to abort or attempt from a disadvantaged angle
 - **Risk**: Circling too slowly may simply give them a different angle to work with, and excessive lateral movement can expose your back
 
 ### 4. Post on opponent's head or shoulder and backstep the trapped leg free
 
 - **When to use**: When the inside hook is partially established but not yet locked tightly behind your knee, and you still have upper body posting ability
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Your leg extraction combined with head pressure drops them to seated guard with no entanglement, giving you passing initiative
 - **Risk**: If the hook is already deep and locked, backstep attempts can off-balance you and create sweep opportunities for the bottom player
 
@@ -226,11 +226,11 @@ Defending the Standing to Single Leg X entry requires early recognition and deci
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Strip opponent's grips early and sprawl hips back before hooks are inserted. Maintain strong posture and circle away from their entry angle. Breaking their sleeve or wrist grip removes the connection they need to pull you into the position. Once grips are broken and you maintain distance, they must restart the entire entry sequence.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 If opponent has partially entered but their hooks are loose, drive forward aggressively with a crossface and heavy chest pressure to flatten them before they can establish the outside foot frame. Use your forward momentum to smash through their developing guard structure and advance to a dominant passing position above them.
 

@@ -154,7 +154,7 @@ description: "Master defending the smash pass from butterfly half guard. Learn t
 
 The defender in the Smash from Butterfly Half is the bottom player in butterfly half guard who must prevent the top player from killing the butterfly hook and completing the pass to side control. Defense begins with early recognition of the smash attempt through tactile and visual cues, followed by immediate proactive responses that either prevent the hook from being neutralized or transition to alternative guard positions before the smash sequence can progress. The defender must understand that passive hook maintenance will fail against committed smash pressure. Instead, the butterfly hook must be used actively as an offensive weapon, threatening sweeps and elevation to prevent the top player from committing the downward weight necessary for the smash. Creating offensive dilemmas is the best defense, as a top player who fears being swept cannot fully commit to the smash sequence.
 
-**Opponent's Starting Position**: [[Butterfly Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Butterfly Half Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ The defender in the Smash from Butterfly Half is the bottom player in butterfly 
 ### 1. Elevate with the butterfly hook and threaten a sweep before the smash pressure fully develops
 
 - **When to use**: At the earliest recognition cues when the top player begins settling weight but has not yet established full crossface control or committed their hips downward
-- **Targets**: [[Butterfly Half Guard]]
+- **Targets**: [[Positions/Half Guard/Butterfly Half Guard]]
 - **If successful**: The sweep threat forces the top player to post their hand or shift their weight upward, breaking the smash sequence and returning to a neutral butterfly half guard exchange
 - **Risk**: If your timing is off and the top player has already established stable base with crossface, the failed sweep attempt gives them additional forward momentum for the smash
 
 ### 2. Frame against the top player's shoulder and hip escape to create distance and re-establish guard structure
 
 - **When to use**: When the top player has started applying forward pressure but has not yet pinned the butterfly hook, and you still have sufficient hip mobility to shrimp
-- **Targets**: [[Butterfly Half Guard]]
+- **Targets**: [[Positions/Half Guard/Butterfly Half Guard]]
 - **If successful**: The framing and hip escape creates enough space to maintain the butterfly hook's lifting capacity and prevents the chest-to-chest connection needed for the smash to progress
 - **Risk**: Extended arms during framing can expose you to arm isolation attacks if the top player strips the frame and secures a kimura or americana grip
 
 ### 3. Secure a deep underhook on the butterfly hook side and come up to dogfight position to threaten a sweep reversal
 
 - **When to use**: When the top player commits weight forward for the smash and their upper body control is not dominant enough to prevent you from threading an underhook underneath
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Coming up to dogfight with the underhook reverses the positional dynamic and threatens sweeps that put the top player on bottom, forcing them to abandon the smash entirely
 - **Risk**: If the top player counters with a whizzer and sprawl, you may end up flattened in a worse position with your underhook trapped and no butterfly hook
 
 ### 4. Transition to deep half guard by releasing the butterfly hook and diving underneath the top player's hips before the smash fully develops
 
 - **When to use**: When the crossface pressure is too strong to maintain upright posture and the butterfly hook is being progressively crushed, but you still retain half guard control
-- **Targets**: [[Butterfly Half Guard]]
+- **Targets**: [[Positions/Half Guard/Butterfly Half Guard]]
 - **If successful**: Deep half guard provides a completely different sweeping platform where the smash pressure is nullified because you are underneath rather than in front of the top player
 - **Risk**: If the deep half entry is shallow or poorly timed, the top player can follow your movement and establish a flattened half guard pass or take back control
 
@@ -225,11 +225,11 @@ The defender in the Smash from Butterfly Half is the bottom player in butterfly 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Butterfly Half Guard]]
+### → [[Positions/Half Guard/Butterfly Half Guard]]
 
 Prevent the smash from progressing by maintaining active butterfly hook pressure and threatening sweeps that force the top player to post and abandon their downward pressure commitment. Fight for underhook or collar tie control to prevent crossface establishment, and use hip mobility to create angles that keep the hook's elevation capacity intact.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Counter the smash by timing an underhook entry as the top player commits weight forward, using their own smash momentum to fuel a dogfight scramble or sweep. Alternatively, use the butterfly hook elevation at the moment they shift weight forward to off-balance and roll them, landing in top half guard or scrambling to a neutral position where you can re-establish guard.
 

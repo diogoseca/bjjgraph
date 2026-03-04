@@ -21,7 +21,7 @@ Unlike the traditional guillotine where the elbow remains relatively low and pre
 
 The strategic timing for this variation is critical. The high elbow configuration is most effective when your opponent's posture is broken and their defensive frames are neutralized. Attempting the high elbow position against a postured opponent allows them to stack and potentially pass. However, when properly timed against a broken-down opponent, the finish comes rapidly, often within seconds of achieving the correct elbow angle. This makes it an ideal finishing sequence when you've established solid Hindulotine control and your opponent is committed to defending at close range.
 
-**From Position**: [[Hindulotine]] (Bottom)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -33,8 +33,8 @@ The strategic timing for this variation is critical. The high elbow configuratio
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Hindulotine]] | 27% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Hindulotine]] | 27% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -193,27 +193,27 @@ The High Elbow Guillotine Variation serves as the primary finishing mechanism fr
 ## Related Techniques
 
 
-- [[Hindulotine]] - Starting position providing base control for the high elbow finish
+- [[Positions/Hindulotine]] - Starting position providing base control for the high elbow finish
 
-- [[Guillotine Control]] - Parent position family sharing core grip mechanics
+- [[Positions/Guillotine Control]] - Parent position family sharing core grip mechanics
 
-- [[Guillotine Choke]] - Base submission from which high elbow variation is derived
+- [[Transitions/Guillotine Choke]] - Base submission from which high elbow variation is derived
 
-- [[High Elbow Guillotine]] - Related submission sharing the same finishing mechanic
+- [[Submissions/High Elbow Guillotine]] - Related submission sharing the same finishing mechanic
 
-- [[Darce Control]] - Transition target when opponent creates near-side space defending the choke
+- [[Positions/Darce Control]] - Transition target when opponent creates near-side space defending the choke
 
-- [[Anaconda Control]] - Alternative control position when opponent rolls to defend
+- [[Positions/Anaconda Control]] - Alternative control position when opponent rolls to defend
 
-- [[Back Take from Bottom]] - Chain transition when opponent turns away to relieve choking pressure
+- [[Transitions/Back Take from Bottom]] - Chain transition when opponent turns away to relieve choking pressure
 
-- [[Arm in Guillotine]] - Alternative grip configuration trapping opponent's arm inside the choke
+- [[Submissions/Arm in Guillotine]] - Alternative grip configuration trapping opponent's arm inside the choke
 
-- [[Front Headlock]] - Related control position sharing head control principles
+- [[Positions/Front Headlock]] - Related control position sharing head control principles
 
-- [[Closed Guard]] - Leg control configuration used to prevent opponent from posturing during finish
+- [[Positions/Closed Guard]] - Leg control configuration used to prevent opponent from posturing during finish
 
-- [[Butterfly Guard]] - Sweep integration position when opponent stacks forward against the choke
+- [[Positions/Butterfly Guard]] - Sweep integration position when opponent stacks forward against the choke
 
 
 </section>

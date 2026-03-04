@@ -26,8 +26,8 @@ Modern competition has elevated the Omoplata from a low-percentage novelty to a 
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (rotator cuff, capsule, AC joint)
-**Starting Position**: [[Closed Guard]]
-**From Position**: [[Omoplata Control]] (Top)
+**Starting Position**: [[Positions/Closed Guard]]
+**From Position**: [[Positions/Omoplata Control]] (Top)
 **Success Rate**: 52%
 
 </section>
@@ -82,8 +82,8 @@ Modern competition has elevated the Omoplata from a low-percentage novelty to a 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Omoplata Control]] | 40% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Omoplata Control]] | 40% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -244,17 +244,17 @@ Modern competition has elevated the Omoplata from a low-percentage novelty to a 
 
 ## From Which Positions?
 
-- [[Closed Guard]]
-- [[Open Guard]]
-- [[Spider Guard]]
-- [[Lasso Guard]]
-- [[Triangle Control]]
-- [[Rubber Guard]]
-- [[De La Riva Guard]]
-- [[Collar Sleeve Guard]]
-- [[Butterfly Guard]]
-- [[Seated Guard]]
-- [[Omoplata Control]]
+- [[Positions/Closed Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/Spider Guard]]
+- [[Positions/Lasso Guard]]
+- [[Positions/Triangle Control]]
+- [[Positions/Rubber Guard]]
+- [[Positions/De La Riva Guard]]
+- [[Positions/Collar Sleeve Guard]]
+- [[Positions/Butterfly Guard]]
+- [[Positions/Seated Guard]]
+- [[Positions/Omoplata Control]]
 
 
 </section>
@@ -263,16 +263,16 @@ Modern competition has elevated the Omoplata from a low-percentage novelty to a 
 
 ## Related Submissions
 
-- [[Triangle Choke]]
-- [[Armbar from Guard]]
-- [[Kimura]]
-- [[Kimura from Guard]]
-- [[Baratoplata]]
-- [[Gogoplata]]
-- [[Americana]]
-- [[Kimura from Side Control]]
-- [[Armbar from Mount]]
-- [[Triangle from Closed Guard]]
+- [[Transitions/Triangle Choke]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Kimura]]
+- [[Submissions/Kimura from Guard]]
+- [[Transitions/Baratoplata]]
+- [[Transitions/Gogoplata]]
+- [[Transitions/Americana]]
+- [[Submissions/Kimura from Side Control]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Triangle from Closed Guard]]
 
 
 </section>
@@ -281,18 +281,18 @@ Modern competition has elevated the Omoplata from a low-percentage novelty to a 
 
 ## Additional Related Content
 
-- [[Omoplata Sweep]] - Primary sweep option when submission is defended
-- [[Omoplata to Back]] - Transition when opponent rolls forward to escape
-- [[Triangle to Omoplata]] - Common transition when triangle is defended
-- [[Spider Guard to Omoplata]] - High-percentage entry from spider guard control
-- [[Omoplata Control]] - Position that provides control before finishing
-- [[Mission Control]] - Rubber guard position that creates omoplata entries
-- [[Worm Guard]] - Modern guard system with omoplata finishing options
-- [[Crucifix]] - Alternative arm trap position with similar control principles
-- [[Closed Guard]] - Primary starting position for omoplata setups
-- [[Triangle Control]] - Complementary attack that chains with omoplata attempts
-- [[Back Control]] - Common transition target when omoplata finish is defended
-- [[Armbar Control]] - Alternative submission when opponent defends omoplata by posturing
+- [[Transitions/Omoplata Sweep]] - Primary sweep option when submission is defended
+- [[Transitions/Omoplata to Back]] - Transition when opponent rolls forward to escape
+- [[Transitions/Triangle to Omoplata]] - Common transition when triangle is defended
+- [[Transitions/Spider Guard to Omoplata]] - High-percentage entry from spider guard control
+- [[Positions/Omoplata Control]] - Position that provides control before finishing
+- [[Positions/Rubber Guard/Mission Control]] - Rubber guard position that creates omoplata entries
+- [[Positions/Worm Guard]] - Modern guard system with omoplata finishing options
+- [[Positions/Crucifix]] - Alternative arm trap position with similar control principles
+- [[Positions/Closed Guard]] - Primary starting position for omoplata setups
+- [[Positions/Triangle Control]] - Complementary attack that chains with omoplata attempts
+- [[Positions/Back Control]] - Common transition target when omoplata finish is defended
+- [[Positions/Armbar Control]] - Alternative submission when opponent defends omoplata by posturing
 
 
 </section>

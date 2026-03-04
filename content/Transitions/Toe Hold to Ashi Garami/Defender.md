@@ -154,7 +154,7 @@ description: "Defend against the Toe Hold to Ashi Garami transition. Recognition
 
 The defender in the Toe Hold to Ashi Garami transition occupies a critical window of opportunity that many practitioners fail to exploit. When the opponent releases their toe hold grip to reposition for ashi garami, they create a momentary vulnerability in their control structure that the defender must recognize and capitalize upon immediately. This grip change window represents the best escape opportunity the defender may encounter during the entire leg entanglement exchange, as the attacker's hands are transitioning between configurations and their legs are repositioning rather than applying maximum clamping pressure. The defender who recognizes the transition cues and acts decisively during this window can escape the leg entanglement entirely, recovering to half guard or better. Conversely, the defender who fails to recognize the transition allows the attacker to upgrade from a single-attack position to a multi-threat platform, dramatically worsening the defensive situation.
 
-**Opponent's Starting Position**: [[Toe Hold Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Toe Hold Control]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ The defender in the Toe Hold to Ashi Garami transition occupies a critical windo
 ### 1. Explosive heel extraction during grip release
 
 - **When to use**: The instant you feel the figure-four grip loosening and before the attacker establishes C-grip heel control in the new ashi garami configuration
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Complete escape from leg entanglement with recovery to half guard or better defensive position free from submission threat
 - **Risk**: If extraction fails, the attacker may establish ashi garami with tighter control due to your extended leg position
 
 ### 2. Hip escape and inside leg block
 
 - **When to use**: When the attacker begins threading their inside leg across your hip, use hip escape to create distance and forearm frame to prevent leg placement
-- **Targets**: [[Toe Hold Control]]
+- **Targets**: [[Positions/Toe Hold Control]]
 - **If successful**: Prevents the attacker from completing the transition, forcing them back to the deteriorating toe hold position where your defense was already succeeding
 - **Risk**: If the hip escape is insufficient, you may end up in a worse angle for the resulting ashi garami defense
 
 ### 3. Counter-entangle with free leg during repositioning
 
 - **When to use**: When the attacker's legs are actively repositioning and their clamping pressure is reduced, use your free leg to hook behind their knee or establish your own entanglement
-- **Targets**: [[Toe Hold Control]]
+- **Targets**: [[Positions/Toe Hold Control]]
 - **If successful**: Creates mutual entanglement that prevents the attacker from completing the transition and may open counter-attack opportunities
 - **Risk**: Committing your free leg to entanglement may reduce your escape options if the counter-entangle fails
 
 ### 4. Sit up and establish grips during vulnerability window
 
 - **When to use**: During the brief moment when the attacker's hands are transitioning between grip configurations and cannot effectively control your upper body posture
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates postural advantage that enables systematic leg extraction through hip extension and angular movement away from entanglement
 - **Risk**: If the attacker completes the transition to ashi garami while you are sitting up, they may use your upright posture to advance to saddle position
 
@@ -224,7 +224,7 @@ The defender in the Toe Hold to Ashi Garami transition occupies a critical windo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the grip change vulnerability window by immediately extracting your heel when the figure-four releases, using your free leg to push on the attacker's hips to create separation distance, and recovering half guard through hip escape and leg insertion before they can re-establish any form of leg entanglement control.
 

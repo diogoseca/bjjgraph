@@ -186,7 +186,7 @@ description: "Execute the S Mount Armbar Setup in BJJ. Step-by-step guide coveri
 
 The S Mount Armbar Setup from the attacker's perspective is about converting superior positional control into a high-percentage submission opportunity. As the attacker, you have already achieved S Mount - one of BJJ's most dominant positions - and your objective is to transition into armbar control while maintaining continuous arm isolation and pressure. The key challenge is committing to the fall-back without creating escape windows. This setup rewards patience and precision: rushing the transition creates space for escape, while methodical execution makes the armbar nearly inevitable. The attacker must coordinate wrist control, hip pressure, knee pinch, and weight transfer as a unified sequence rather than isolated steps.
 
-**From Position**: [[S Mount]] (Top)
+**From Position**: [[Positions/Mount/S Mount]] (Top)
 
 </section>
 
@@ -240,9 +240,9 @@ The S Mount Armbar Setup from the attacker's perspective is about converting sup
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 55% |
-| Failure | [[S Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Armbar Control]] | 55% |
+| Failure | [[Positions/Mount/S Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ The S Mount Armbar Setup from the attacker's perspective is about converting sup
 
 ## Opponent Counters
 
-- **Opponent bends trapped arm and grips own collar or lapel to prevent extension** (Effectiveness: High) - Your Response: Break the grip by prying fingers from collar one at a time, or wedge your forearm under their wrist to lever the grip open. If grip is unbreakable, transition to mounted triangle by threading your leg under their chin. → Leads to [[S Mount]]
-- **Opponent bridges explosively and hip escapes during the fall-back transition window** (Effectiveness: Medium) - Your Response: Follow their hip movement while maintaining wrist control and complete the armbar from the adjusted angle. If they create too much space, abandon the attempt and recover mount position immediately. → Leads to [[Half Guard]]
-- **Opponent turns into you and attempts to come to knees during the transition** (Effectiveness: Medium) - Your Response: Use your leg over their head to block the turn, driving your shin across their face to prevent rotation. If they successfully turn, transition to back take as their turning movement exposes the back. → Leads to [[S Mount]]
-- **Opponent pushes your near leg off their head with their free hand during setup** (Effectiveness: Low) - Your Response: Immediately re-step the leg over their head while maintaining wrist control. The brief disruption is insufficient for escape if two-on-one arm control remains intact throughout their defensive attempt. → Leads to [[S Mount]]
+- **Opponent bends trapped arm and grips own collar or lapel to prevent extension** (Effectiveness: High) - Your Response: Break the grip by prying fingers from collar one at a time, or wedge your forearm under their wrist to lever the grip open. If grip is unbreakable, transition to mounted triangle by threading your leg under their chin. → Leads to [[Positions/Mount/S Mount]]
+- **Opponent bridges explosively and hip escapes during the fall-back transition window** (Effectiveness: Medium) - Your Response: Follow their hip movement while maintaining wrist control and complete the armbar from the adjusted angle. If they create too much space, abandon the attempt and recover mount position immediately. → Leads to [[Positions/Half Guard]]
+- **Opponent turns into you and attempts to come to knees during the transition** (Effectiveness: Medium) - Your Response: Use your leg over their head to block the turn, driving your shin across their face to prevent rotation. If they successfully turn, transition to back take as their turning movement exposes the back. → Leads to [[Positions/Mount/S Mount]]
+- **Opponent pushes your near leg off their head with their free hand during setup** (Effectiveness: Low) - Your Response: Immediately re-step the leg over their head while maintaining wrist control. The brief disruption is insufficient for escape if two-on-one arm control remains intact throughout their defensive attempt. → Leads to [[Positions/Mount/S Mount]]
 
 
 </section>

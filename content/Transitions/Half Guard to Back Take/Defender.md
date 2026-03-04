@@ -154,7 +154,7 @@ description: "How to defend against Half Guard to Back Take in BJJ. Recognition 
 
 Defending the half guard to back take requires the top player to recognize early warning signs and address the bottom player's offensive structure before the perpendicular angle is established. The primary defensive goal is to prevent the underhook from becoming deep enough to generate rotational leverage, or failing that, to deny the angle creation that precedes the climb. Top players who understand the mechanics of this transition can shut it down at multiple stages: during underhook establishment through crossface and shoulder pressure, during angle creation through hip positioning and base adjustments, or during the climb itself through turning into the bottom player and recovering guard position. The key defensive principle is that prevention is far more effective than reaction - once the bottom player achieves a perpendicular angle with a deep underhook and hip block in place, the back take becomes extremely difficult to stop. Effective defense therefore focuses on controlling the positional hierarchy early, winning the underhook battle or neutralizing it with a whizzer, and maintaining heavy forward pressure that prevents the bottom player from rotating to their side.
 
-**Opponent's Starting Position**: [[Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the half guard to back take requires the top player to recognize early
 ### 1. Drive heavy crossface and shoulder pressure to flatten opponent back to the mat, killing their side angle and underhook leverage
 
 - **When to use**: As soon as you feel the underhook being established or the opponent beginning to rotate to their side - this is the highest-percentage defense when applied early
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent is flattened on their back with underhook neutralized, returning to standard half guard top where you can resume passing
 - **Risk**: If opponent has already achieved deep angle, driving forward may accelerate their back take by loading your weight onto their structure
 
 ### 2. Apply strong whizzer overhook on the underhook arm while driving your hip into their chest to deny rotation
 
 - **When to use**: When opponent has already secured underhook too deep for crossface alone to remove, but has not yet created full perpendicular angle
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent's underhook is controlled and their rotation is stalled, allowing you to work the whizzer into a pass or reestablish crossface control
 - **Risk**: Skilled opponents can use the whizzer as an anchor point and circle underneath it to complete the back take
 
 ### 3. Turn into opponent and drive through to recover inside position, accepting guard recovery over back exposure
 
 - **When to use**: When opponent has achieved perpendicular angle and begun climbing - this is the emergency defense when prevention has failed
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You face the opponent directly, denying the back take entirely and potentially passing to a dominant top position through the scramble
 - **Risk**: If you turn too slowly or without controlling their underhook, you may expose your back further during the rotation attempt
 
 ### 4. Base out wide with far hand posted and sprawl hips away to create distance and deny the climb
 
 - **When to use**: When opponent has underhook and angle but has not yet released the half guard lock or inserted hooks
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough distance and base stability that opponent cannot climb effectively, forcing them to reset their attack or switch to a sweep attempt
 - **Risk**: Wide base with posted hand removes your crossface control and may expose you to Old School sweep or kimura grip attacks
 
@@ -225,11 +225,11 @@ Defending the half guard to back take requires the top player to recognize early
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Flatten the bottom player using crossface and shoulder pressure before they achieve perpendicular angle. Drive your weight through your chest into their face and shoulder, collapsing their side angle back to flat on the mat. Once flattened, reestablish crossface dominance and resume your half guard passing sequence.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the back take attempt has progressed past prevention, turn aggressively into the bottom player by rotating your torso toward them and driving through with your chest. Use the momentum of their failed back take to advance your position, passing through the scramble to reestablish top control or even advance past half guard entirely.
 

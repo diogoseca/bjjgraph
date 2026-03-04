@@ -237,8 +237,8 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -247,11 +247,11 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 ## Opponent Defenses
 
-- **Grabbing your bottom leg and attempting to pass it over their head** (Effectiveness: High) - Your Response: Immediately hook your bottom leg's foot behind their shoulder or under their armpit. Use this hook to break their posture down while maintaining the figure-four. If necessary, transition to standard triangle by inverting back. → Leads to [[Closed Guard]]
-- **Turning into the choke to relieve pressure on carotid arteries** (Effectiveness: Medium) - Your Response: Use your hands to control their head and prevent rotation. If they successfully turn, adjust your hip angle to follow their movement and maintain perpendicular pressure. Consider transitioning to armbar if they fully commit to turning. → Leads to [[Closed Guard]]
-- **Standing up to create vertical distance and slam threat** (Effectiveness: High) - Your Response: Immediately release the submission or accept a potential slam in competition. In training, do not allow them to lift you. Maintain connection and break their posture back down before they can fully stand. → Leads to [[Side Control]]
-- **Creating a frame with free hand against your hip to prevent angle adjustment** (Effectiveness: Medium) - Your Response: Use your hands to strip the defensive frame, swim over their arm, or control their wrist. Alternatively, use the frame as a pivot point to rotate your hips even more perpendicular, turning their defensive structure into your leverage point. → Leads to [[Closed Guard]]
-- **Stacking your body weight back over your head to reduce leg effectiveness** (Effectiveness: Low) - Your Response: Accept the stack temporarily and maintain your grips. Use the stack pressure to help you rotate further, using their forward pressure against them. As they commit to the stack, extend your hips explosively to break their base. → Leads to [[Closed Guard]]
+- **Grabbing your bottom leg and attempting to pass it over their head** (Effectiveness: High) - Your Response: Immediately hook your bottom leg's foot behind their shoulder or under their armpit. Use this hook to break their posture down while maintaining the figure-four. If necessary, transition to standard triangle by inverting back. → Leads to [[Positions/Closed Guard]]
+- **Turning into the choke to relieve pressure on carotid arteries** (Effectiveness: Medium) - Your Response: Use your hands to control their head and prevent rotation. If they successfully turn, adjust your hip angle to follow their movement and maintain perpendicular pressure. Consider transitioning to armbar if they fully commit to turning. → Leads to [[Positions/Closed Guard]]
+- **Standing up to create vertical distance and slam threat** (Effectiveness: High) - Your Response: Immediately release the submission or accept a potential slam in competition. In training, do not allow them to lift you. Maintain connection and break their posture back down before they can fully stand. → Leads to [[Positions/Side Control]]
+- **Creating a frame with free hand against your hip to prevent angle adjustment** (Effectiveness: Medium) - Your Response: Use your hands to strip the defensive frame, swim over their arm, or control their wrist. Alternatively, use the frame as a pivot point to rotate your hips even more perpendicular, turning their defensive structure into your leverage point. → Leads to [[Positions/Closed Guard]]
+- **Stacking your body weight back over your head to reduce leg effectiveness** (Effectiveness: Low) - Your Response: Accept the stack temporarily and maintain your grips. Use the stack pressure to help you rotate further, using their forward pressure against them. As they commit to the stack, extend your hips explosively to break their base. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

@@ -208,23 +208,23 @@ The fundamental challenge of Cross Body Ride Bottom is that passive defense guar
 
 ## Available Escapes
 
-### [[Rolling to Guard]] (15% of attempts)
+### [[Transitions/Rolling to Guard]] (15% of attempts)
 
-### [[Turtle to Guard]] (38% of attempts)
+### [[Transitions/Turtle to Guard]] (38% of attempts)
 
-### [[Turtle to Standing]] (15% of attempts)
+### [[Transitions/Turtle to Standing]] (15% of attempts)
 
-### [[Sit Through to Guard]] (13% of attempts)
+### [[Transitions/Sit Through to Guard]] (13% of attempts)
 
-### [[Peterson Roll]] (7% of attempts)
+### [[Transitions/Peterson Roll]] (7% of attempts)
 
-### [[Hip Escape to Guard]] (7% of attempts)
+### [[Transitions/Hip Escape to Guard]] (7% of attempts)
 
-### [[Hip Escape from Cross Body Ride]] (3% of attempts)
+### [[Transitions/Hip Escape from Cross Body Ride]] (3% of attempts)
 
-### [[Roll Escape from Cross Body Ride]] (1% of attempts)
+### [[Transitions/Roll Escape from Cross Body Ride]] (1% of attempts)
 
-### [[Escape from Cross Body Ride]] (1% of attempts)
+### [[Transitions/Escape from Cross Body Ride]] (1% of attempts)
 
 
 
@@ -235,23 +235,23 @@ The fundamental challenge of Cross Body Ride Bottom is that passive defense guar
 ## Decision Making from This Position
 
 **If opponent is high on back with hooks threatening but not yet established:**
-- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 45%)
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If opponent is controlling one arm and attempting crucifix entry:**
-- Execute **[[Rolling to Guard]]** → [[Open Guard]] (Probability: 50%)
-- Execute **[[Frame and Shrimp to Guard]]** → [[Deep Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 35%)
 
 
 **If opponent has heavy cross-body pressure but limited control of arms:**
-- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 42%)
-- Execute **[[Shrimp Escape]]** → [[Closed Guard]] (Probability: 38%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 42%)
+- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Closed Guard]] (Probability: 38%)
 
 
 **If opponent is attempting to flatten you completely to mat:**
-- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 40%)
-- Execute **[[Turtle to Guard]]** → [[Butterfly Guard]] (Probability: 35%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Turtle to Guard]]** → [[Positions/Butterfly Guard]] (Probability: 35%)
 
 
 
@@ -385,15 +385,15 @@ Start in cross body ride bottom position. Bottom player scores points for succes
 
 ## Related Positions and Techniques
 
-- **[[Cross Body Ride]]** - Hub position - top and bottom perspectives share this parent
-- **[[Turtle]]** - Parent position - more general defensive turtle position
-- **[[Back Control]]** - Common transition target when escape fails
-- **[[Crucifix]]** - Common transition target from arm isolation
-- **[[Crab Ride]]** - Similar defensive position with different top control angle
-- **[[Granby Roll to Guard]]** - Primary escape technique from this position
-- **[[Hip Escape to Guard]]** - Essential escape technique for re-guarding
-- **[[Half Guard]]** - Common escape destination from turtle
-- **[[Shrimp Escape]]** - Fundamental escape movement for creating space
+- **[[Positions/Cross Body Ride]]** - Hub position - top and bottom perspectives share this parent
+- **[[Positions/Turtle]]** - Parent position - more general defensive turtle position
+- **[[Positions/Back Control]]** - Common transition target when escape fails
+- **[[Positions/Crucifix]]** - Common transition target from arm isolation
+- **[[Positions/Crab Ride]]** - Similar defensive position with different top control angle
+- **[[Transitions/Granby Roll to Guard]]** - Primary escape technique from this position
+- **[[Transitions/Hip Escape to Guard]]** - Essential escape technique for re-guarding
+- **[[Positions/Half Guard]]** - Common escape destination from turtle
+- **[[Transitions/Shrimp Escape]]** - Fundamental escape movement for creating space
 
 
 </section>

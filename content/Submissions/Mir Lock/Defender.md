@@ -156,7 +156,7 @@ description: "How to defend against Mir Lock in BJJ. Recognition, escape paths, 
 
 Defending the Mir Lock requires early recognition and immediate preventive action, because this shoulder lock reaches a point of no return faster than most joint attacks due to the straight-arm mechanics and the attacker's body weight driving the hyperextension. Unlike the standard Americana where bending the arm deeper can buy time, the Mir Lock's extended-arm configuration means that once the elbow is elevated and the figure-four grip is locked, your defensive window shrinks rapidly. The critical defensive principle is preventing arm isolation in the first place by maintaining tight elbows and active hand fighting from bottom side control. If the arm is captured, your priority shifts to breaking the figure-four grip or creating enough body rotation to reduce the hyperextension angle before the attacker can apply finishing pressure. Bridge timing, grip fighting, and the ability to turn into the attacker are your primary survival tools. Successful defense often results in half guard recovery or, if timed with the attacker's weight commitment, a reversal back to a neutral position.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -196,28 +196,28 @@ Defending the Mir Lock requires early recognition and immediate preventive actio
 ### 1. Grip your own belt, gi lapel, or pants to prevent arm extension and create a defensive anchor
 
 - **When to use**: As soon as you feel the attacker isolating your arm and before they establish the figure-four grip
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Attacker cannot complete the figure-four grip and must either break your grip (wasting energy and time) or abandon the submission and return to positional control
 - **Risk**: Low risk if grip is established early; if late, attacker may break the grip and complete the submission
 
 ### 2. Explosive bridge toward the trapped arm while turning your body into the attacker to close the hyperextension angle
 
 - **When to use**: When the attacker commits their weight forward to apply finishing pressure, creating a momentary balance vulnerability
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The bridge disrupts the attacker's base and the body turn reduces the shoulder angle, allowing you to extract your arm and recover half guard or close guard
 - **Risk**: Medium risk - if mistimed, the bridge can actually accelerate the submission by driving your shoulder further into the lock
 
 ### 3. Frame against the attacker's hip with your free hand and shrimp away to create distance and extract the trapped arm
 
 - **When to use**: When the attacker's figure-four grip is not yet fully locked or when they lift their hips slightly during the submission attempt
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The hip frame creates enough space to slide your trapped arm free and immediately insert your knee for half guard recovery
 - **Risk**: Medium risk - the free arm creating the frame may itself become vulnerable to arm attacks if the shrimp fails
 
 ### 4. Roll toward the trapped arm to invert the shoulder angle and reduce hyperextension pressure
 
 - **When to use**: When the lock is partially applied and you cannot break the grip - this is an emergency defense to buy time
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Rolling inverts the mechanical angle and can cause the attacker to lose their figure-four grip, potentially allowing you to come to top position
 - **Risk**: High risk - if the attacker follows the roll while maintaining grip, the submission can be finished from the new angle
 
@@ -240,11 +240,11 @@ Defending the Mir Lock requires early recognition and immediate preventive actio
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive bridge during the attacker's weight commitment, turn into them to close the shoulder angle, extract the trapped arm, and immediately insert your knee to establish half guard with knee shield before they can re-isolate the arm
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the attacker overcommits their weight forward during the finishing sequence, use a perfectly timed bridge and roll toward the trapped arm to reverse position, coming to top as the attacker loses their grip during the scramble
 

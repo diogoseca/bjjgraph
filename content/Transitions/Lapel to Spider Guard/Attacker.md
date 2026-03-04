@@ -180,7 +180,7 @@ The biomechanics favor the bottom player because the opponent's clearing motion 
 
 This transition is particularly valuable in competition where opponents train specific lapel guard counters. Rather than engaging in a grip fight you may lose, flowing to spider guard maintains offensive pressure and keeps the opponent reacting to you rather than executing their passing sequence.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -230,9 +230,9 @@ This transition is particularly valuable in competition where opponents train sp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Spider Guard]] | 60% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Spider Guard]] | 60% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ This transition is particularly valuable in competition where opponents train sp
 
 ## Opponent Counters
 
-- **Immediate pressure pass before spider guard establishes** (Effectiveness: High) - Your Response: If they drive forward before you establish spider guard, use the momentum for a balloon sweep or transition to lasso guard with the closer leg → Leads to [[Half Guard]]
-- **Stripping sleeve grips during transition** (Effectiveness: Medium) - Your Response: Maintain at least one sleeve grip at all costs; if both are stripped, immediately recover to seated guard and re-engage grips before they advance → Leads to [[Lapel Guard]]
-- **Standing tall and creating distance to disengage** (Effectiveness: Medium) - Your Response: Use your feet on biceps to maintain connection; if they successfully create distance, convert to collar-sleeve guard or return to seated guard for re-engagement → Leads to [[Lapel Guard]]
-- **Collapsing forward to smash spider guard flat** (Effectiveness: Low) - Your Response: Their forward collapse loads sweep mechanics—use their momentum for triangle setup or overhead sweep, converting their pressure into your offense → Leads to [[Spider Guard]]
+- **Immediate pressure pass before spider guard establishes** (Effectiveness: High) - Your Response: If they drive forward before you establish spider guard, use the momentum for a balloon sweep or transition to lasso guard with the closer leg → Leads to [[Positions/Half Guard]]
+- **Stripping sleeve grips during transition** (Effectiveness: Medium) - Your Response: Maintain at least one sleeve grip at all costs; if both are stripped, immediately recover to seated guard and re-engage grips before they advance → Leads to [[Positions/Lapel Guard]]
+- **Standing tall and creating distance to disengage** (Effectiveness: Medium) - Your Response: Use your feet on biceps to maintain connection; if they successfully create distance, convert to collar-sleeve guard or return to seated guard for re-engagement → Leads to [[Positions/Lapel Guard]]
+- **Collapsing forward to smash spider guard flat** (Effectiveness: Low) - Your Response: Their forward collapse loads sweep mechanics—use their momentum for triangle setup or overhead sweep, converting their pressure into your offense → Leads to [[Positions/Spider Guard]]
 
 
 </section>

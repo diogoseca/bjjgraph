@@ -21,7 +21,7 @@ The timing of this transition is critical and depends on reading the opponent's 
 
 This guard change serves as a gateway transition in the broader open guard ecosystem. Once De La Riva is established, the bottom player gains access to berimbolo entries, single leg X transitions, X-Guard entries, and a wide array of sweeps that are not available from the basic feet-on-hips configuration. Understanding this transition is essential for any serious guard player because it bridges the gap between fundamental distance management and advanced positional attacking.
 
-**From Position**: [[Feet on Hips Guard]] (Bottom)
+**From Position**: [[Positions/Feet on Hips Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This guard change serves as a gateway transition in the broader open guard ecosy
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[De La Riva Guard]] | 55% |
-| Failure | [[Feet on Hips Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/De La Riva Guard]] | 55% |
+| Failure | [[Positions/Feet on Hips Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Feet on Hips to De La Riva transition occupies a critical junction in the op
 ## Related Techniques
 
 
-- [[Feet on Hips Guard]] - Source position from which this transition initiates
+- [[Positions/Feet on Hips Guard]] - Source position from which this transition initiates
 
-- [[De La Riva Guard]] - Target position established upon successful transition
+- [[Positions/De La Riva Guard]] - Target position established upon successful transition
 
-- [[Open Guard]] - Parent guard system containing both source and target positions
+- [[Positions/Open Guard]] - Parent guard system containing both source and target positions
 
-- [[Spider Guard]] - Alternative guard transition from feet on hips using sleeve control instead of leg hook
+- [[Positions/Spider Guard]] - Alternative guard transition from feet on hips using sleeve control instead of leg hook
 
-- [[Collar Sleeve Guard]] - Alternative guard transition requiring different grip configuration from same starting position
+- [[Positions/Collar Sleeve Guard]] - Alternative guard transition requiring different grip configuration from same starting position
 
-- [[X-Guard]] - Follow-up transition target from established De La Riva position
+- [[Positions/X-Guard]] - Follow-up transition target from established De La Riva position
 
-- [[Single Leg X-Guard]] - Alternative transition from feet on hips bypassing DLR entry
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative transition from feet on hips bypassing DLR entry
 
-- [[Reverse De La Riva Guard]] - Complementary guard to DLR using inside hook instead of outside hook
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Complementary guard to DLR using inside hook instead of outside hook
 
-- [[De La Riva Sweep]] - Primary sweep available after establishing De La Riva guard
+- [[Transitions/De La Riva Sweep]] - Primary sweep available after establishing De La Riva guard
 
-- [[Berimbolo Entry]] - Advanced attack chain accessible from established De La Riva position
+- [[Transitions/Berimbolo Entry]] - Advanced attack chain accessible from established De La Riva position
 
-- [[Tripod Sweep]] - Alternative sweep from feet on hips that does not require DLR transition
+- [[Transitions/Tripod Sweep]] - Alternative sweep from feet on hips that does not require DLR transition
 
 
 </section>

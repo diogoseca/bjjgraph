@@ -180,7 +180,7 @@ description: "Master executing the Sweep from Reverse Half Guard. Step-by-step m
 
 Executing the Sweep from Reverse Half Guard requires precise timing and body coordination to convert the opponent's forward pressure into a complete positional reversal. The attacker must maintain secure leg entanglement throughout the sweep while generating rotational force through their hips and core. Unlike strength-based sweeps, this technique is fundamentally timing-dependent—the sweep works because the opponent's committed weight becomes the force that completes the reversal. The attacker's role is to redirect that force rather than overpower it, making technical precision far more important than physical attributes. Success depends on reading the opponent's weight distribution, choosing the correct moment to initiate, and maintaining leg control through the entire transition to land in a consolidated mount position.
 
-**From Position**: [[Reverse Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Reverse Half Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Sweep from Reverse Half Guard requires precise timing and body coo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 40% |
-| Failure | [[Reverse Half Guard]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Mount]] | 40% |
+| Failure | [[Positions/Half Guard/Reverse Half Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Sweep from Reverse Half Guard requires precise timing and body coo
 
 ## Opponent Counters
 
-- **Opponent bases out with hand post to prevent the roll** (Effectiveness: High) - Your Response: Switch to underhook elevation variant or use their posted arm as leverage for a different sweep angle. Their posted hand creates a new off-balance point you can attack from the opposite direction. → Leads to [[Reverse Half Guard]]
-- **Opponent sits back to remove forward pressure** (Effectiveness: High) - Your Response: Abandon the sweep attempt and transition to deep half guard entry or standard half guard recovery. Without forward pressure, the sweep lacks the necessary force vector. Use their withdrawal to create space for alternative positions. → Leads to [[Reverse Half Guard]]
-- **Opponent sprawls and drives crossface to flatten you** (Effectiveness: Medium) - Your Response: Use the crossface pressure to fuel a different sweep direction. Their sprawl commitment can be redirected if you time a secondary rotation. Alternatively, use the flattening to transition to an inversion entry or turtle recovery. → Leads to [[Side Control]]
-- **Opponent extracts trapped leg during sweep initiation** (Effectiveness: High) - Your Response: Immediately recover guard position by inserting butterfly hooks or recovering to closed guard before they can establish passing position. Leg extraction during the sweep is the most dangerous counter because it removes your primary control mechanism. → Leads to [[Side Control]]
+- **Opponent bases out with hand post to prevent the roll** (Effectiveness: High) - Your Response: Switch to underhook elevation variant or use their posted arm as leverage for a different sweep angle. Their posted hand creates a new off-balance point you can attack from the opposite direction. → Leads to [[Positions/Half Guard/Reverse Half Guard]]
+- **Opponent sits back to remove forward pressure** (Effectiveness: High) - Your Response: Abandon the sweep attempt and transition to deep half guard entry or standard half guard recovery. Without forward pressure, the sweep lacks the necessary force vector. Use their withdrawal to create space for alternative positions. → Leads to [[Positions/Half Guard/Reverse Half Guard]]
+- **Opponent sprawls and drives crossface to flatten you** (Effectiveness: Medium) - Your Response: Use the crossface pressure to fuel a different sweep direction. Their sprawl commitment can be redirected if you time a secondary rotation. Alternatively, use the flattening to transition to an inversion entry or turtle recovery. → Leads to [[Positions/Side Control]]
+- **Opponent extracts trapped leg during sweep initiation** (Effectiveness: High) - Your Response: Immediately recover guard position by inserting butterfly hooks or recovering to closed guard before they can establish passing position. Leg extraction during the sweep is the most dangerous counter because it removes your primary control mechanism. → Leads to [[Positions/Side Control]]
 
 
 </section>

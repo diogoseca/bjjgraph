@@ -180,7 +180,7 @@ description: "How to execute the Omoplata Sweep in BJJ. Attacking perspective wi
 
 The Omoplata Sweep attacks from closed guard by threatening the omoplata shoulder lock and converting the opponent's defensive reaction into a sweep to mount. The technique is fundamentally reaction-based rather than force-based, meaning it relies on creating genuine submission pressure that forces a defensive commitment, then redirecting that energy into positional reversal. Your perpendicular body angle relative to the opponent creates mechanical advantage where hip rotation and leg leverage do the work rather than upper body strength. The trapped arm eliminates their primary base recovery tool, while your hooking right leg prevents backward retreat. Mastery of this sweep requires understanding the timing window between the opponent recognizing the omoplata threat and committing to their defensive pattern. The sweep is most effective when you can read whether they will drive forward, attempt to roll, or try to posture, and match your sweep timing to the moment their weight shifts off their base.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ The Omoplata Sweep attacks from closed guard by threatening the omoplata shoulde
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Closed Guard]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -245,11 +245,11 @@ The Omoplata Sweep attacks from closed guard by threatening the omoplata shoulde
 
 ## Opponent Counters
 
-- **Opponent pulls their arm free before leg swings over shoulder** (Effectiveness: High) - Your Response: Maintain tighter two-on-one sleeve control from the start and break posture more aggressively before attempting the leg swing. If they pull free, immediately transition to triangle setup by shooting your hips high and cutting the angle, or switch to hip bump sweep while their posture is still compromised. → Leads to [[Closed Guard]]
-- **Opponent rolls forward aggressively with the omoplata to escape shoulder pressure** (Effectiveness: Medium) - Your Response: Anticipate the roll and use their forward momentum to accelerate the sweep. Follow their roll and establish mount as they come face-up. Alternatively, if they roll past the sweep point, maintain arm and leg control to take their back as they expose it during the roll. → Leads to [[Mount]]
-- **Opponent posts their free hand on the mat to prevent being swept over** (Effectiveness: Medium) - Your Response: Attack the posting arm immediately. Control their wrist with your free hand and threaten a kimura on the posted arm, or simply trap it against the mat. This creates a new dilemma that forces them to abandon the post. You can also adjust the sweep angle to go over the posted arm rather than into it. → Leads to [[Closed Guard]]
-- **Opponent backs away explosively to create distance and extract their arm** (Effectiveness: Low) - Your Response: Use your right leg hook aggressively to prevent backward movement. If they create significant distance, transition to open guard immediately rather than chasing the omoplata. Establish collar-sleeve or De La Riva grips as they disengage to maintain offensive initiative. → Leads to [[Closed Guard]]
-- **Opponent grabs your belt or pants with free hand to anchor their base against the sweep** (Effectiveness: Medium) - Your Response: Break their grip by driving your hips forward explosively, which generates more force than their static grip can absorb. Alternatively, use the grip against them by changing the sweep angle to go diagonally rather than straight over. Their anchoring hand becomes a liability when the sweep direction changes. → Leads to [[Closed Guard]]
+- **Opponent pulls their arm free before leg swings over shoulder** (Effectiveness: High) - Your Response: Maintain tighter two-on-one sleeve control from the start and break posture more aggressively before attempting the leg swing. If they pull free, immediately transition to triangle setup by shooting your hips high and cutting the angle, or switch to hip bump sweep while their posture is still compromised. → Leads to [[Positions/Closed Guard]]
+- **Opponent rolls forward aggressively with the omoplata to escape shoulder pressure** (Effectiveness: Medium) - Your Response: Anticipate the roll and use their forward momentum to accelerate the sweep. Follow their roll and establish mount as they come face-up. Alternatively, if they roll past the sweep point, maintain arm and leg control to take their back as they expose it during the roll. → Leads to [[Positions/Mount]]
+- **Opponent posts their free hand on the mat to prevent being swept over** (Effectiveness: Medium) - Your Response: Attack the posting arm immediately. Control their wrist with your free hand and threaten a kimura on the posted arm, or simply trap it against the mat. This creates a new dilemma that forces them to abandon the post. You can also adjust the sweep angle to go over the posted arm rather than into it. → Leads to [[Positions/Closed Guard]]
+- **Opponent backs away explosively to create distance and extract their arm** (Effectiveness: Low) - Your Response: Use your right leg hook aggressively to prevent backward movement. If they create significant distance, transition to open guard immediately rather than chasing the omoplata. Establish collar-sleeve or De La Riva grips as they disengage to maintain offensive initiative. → Leads to [[Positions/Closed Guard]]
+- **Opponent grabs your belt or pants with free hand to anchor their base against the sweep** (Effectiveness: Medium) - Your Response: Break their grip by driving your hips forward explosively, which generates more force than their static grip can absorb. Alternatively, use the grip against them by changing the sweep angle to go diagonally rather than straight over. Their anchoring hand becomes a liability when the sweep direction changes. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

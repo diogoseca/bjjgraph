@@ -146,7 +146,7 @@ description: "Learn to defend against the Sweep from Quarter Guard as the top pl
 
 As the defender in the Sweep from Quarter Guard, you are the top player who has nearly completed a guard pass and must prevent the bottom player from reversing your positional advantage. Your primary objective is to recognize sweep setup indicators early and neutralize them before the bottom player can generate sufficient momentum for the reversal. Defense requires maintaining proper weight distribution and base while continuing pass progression—purely defensive play allows the bottom player time to recover guard. The most effective defense combines early recognition of the underhook-driven sweep setup with immediate counter-pressure that flattens the bottom player and eliminates their offensive angle.
 
-**Opponent's Starting Position**: [[Quarter Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Quarter Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender in the Sweep from Quarter Guard, you are the top player who has 
 ### 1. Sprawl hips backward and drive crossface shoulder into opponent's neck to flatten their angle completely
 
 - **When to use**: When you feel the underhook deepening and opponent's hips beginning to escape away from you creating sweep angle
-- **Targets**: [[Quarter Guard]]
+- **Targets**: [[Positions/Quarter Guard]]
 - **If successful**: Opponent is flattened back to the mat, underhook leverage is neutralized, and you can resume pass completion from dominant angle
 - **Risk**: If sprawl response is late, opponent may have already committed enough momentum to complete the sweep reversal
 
 ### 2. Post far hand wide on mat creating defensive tripod base to absorb sweep force
 
 - **When to use**: When opponent initiates the sweep drive and you feel upward pressure through the underhook lifting your weight
-- **Targets**: [[Quarter Guard]]
+- **Targets**: [[Positions/Quarter Guard]]
 - **If successful**: Sweep force is absorbed by your wide base, allowing you to settle weight back down and continue systematic passing
 - **Risk**: Posted hand removes one control point from the pass, potentially allowing opponent to attack your exposed back
 
 ### 3. Overhook opponent's underhook arm and drive their elbow toward the mat to strip their primary sweep lever
 
 - **When to use**: When opponent's underhook is still developing and has not achieved full depth or ceiling-pointing elbow position
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Removing the underhook eliminates all sweep options and allows immediate pass completion to established side control
 - **Risk**: Early commitment to overhook may allow opponent to switch to alternative attacks like deep half guard entry
 
 ### 4. Drive crossface through aggressively and complete pass immediately rather than defending sweep position
 
 - **When to use**: When you recognize sweep setup indicators but still have clear passing lane to complete the pass before sweep can be initiated
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Pass is completed before sweep can develop, achieving the original objective of establishing dominant side control top
 - **Risk**: If pass commitment is premature, the opponent's sweep may catch you during transition with compromised base
 
@@ -217,11 +217,11 @@ As the defender in the Sweep from Quarter Guard, you are the top player who has 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Quarter Guard]]
+### → [[Positions/Quarter Guard]]
 
 Maintain constant crossface pressure and wide base to neutralize underhook leverage, then continue systematic pass progression by eliminating remaining defensive frames and leg engagement before completing the pass
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Recognize sweep setup as signal to immediately commit to pass completion, driving crossface through while stripping underhook and sliding hips past opponent's centerline to establish side control before sweep develops
 

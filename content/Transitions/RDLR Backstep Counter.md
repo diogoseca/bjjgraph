@@ -21,7 +21,7 @@ The technique operates on the principle that lateral and backward movement neutr
 
 Strategically, the RDLR Backstep Counter serves as a cornerstone of systematic RDLR passing methodology. It complements direct passing approaches like leg drags and smash passes by providing an alternative pathway when the bottom player's hook is too deep for direct neutralization. The technique's effectiveness increases when combined with upper body pressure that limits the bottom player's rotation capacity, creating a unified passing system that addresses RDLR from multiple angles while maintaining safe base positioning throughout.
 
-**From Position**: [[Reverse De La Riva Guard]] (Top)
+**From Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the RDLR Backstep Counter serves as a cornerstone of systematic R
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Headquarters Position]] | 55% |
-| Failure | [[Reverse De La Riva Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Headquarters Position]] | 55% |
+| Failure | [[Positions/De La Riva Guard/Reverse De La Riva Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The RDLR Backstep Counter connects the defensive challenge of facing Reverse De 
 ## Related Techniques
 
 
-- [[Reverse De La Riva Guard]] - Source position—the guard being countered by the backstep technique
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Source position—the guard being countered by the backstep technique
 
-- [[Headquarters Position]] - Primary target position reached after successful backstep and hook clearance
+- [[Positions/Headquarters Position]] - Primary target position reached after successful backstep and hook clearance
 
-- [[Half Guard]] - Counter outcome position when bottom player successfully sweeps during the backstep
+- [[Positions/Half Guard]] - Counter outcome position when bottom player successfully sweeps during the backstep
 
-- [[Back Step]] - Related technique sharing the same fundamental backstep mechanics for guard passing
+- [[Transitions/Back Step]] - Related technique sharing the same fundamental backstep mechanics for guard passing
 
-- [[Back Step Pass]] - Extended passing sequence that builds on the backstep movement to complete a full guard pass
+- [[Transitions/Back Step Pass]] - Extended passing sequence that builds on the backstep movement to complete a full guard pass
 
-- [[RDLR Pass]] - Alternative RDLR passing technique using direct pressure rather than backstep withdrawal
+- [[Transitions/RDLR Pass]] - Alternative RDLR passing technique using direct pressure rather than backstep withdrawal
 
-- [[Knee Cut from Headquarters]] - Primary follow-up technique available from Headquarters after successful backstep
+- [[Transitions/Knee Cut from Headquarters]] - Primary follow-up technique available from Headquarters after successful backstep
 
-- [[Leg Drag from Headquarters]] - Follow-up passing option from Headquarters that addresses the freed leg laterally
+- [[Transitions/Leg Drag from Headquarters]] - Follow-up passing option from Headquarters that addresses the freed leg laterally
 
-- [[Kiss of the Dragon from RDLR]] - Primary counter-technique the bottom player threatens if backstep timing is poor
+- [[Transitions/Kiss of the Dragon from RDLR]] - Primary counter-technique the bottom player threatens if backstep timing is poor
 
-- [[Berimbolo Entry]] - Bottom player's follow-up technique if they track the backstep with inversion
+- [[Transitions/Berimbolo Entry]] - Bottom player's follow-up technique if they track the backstep with inversion
 
-- [[De La Riva Guard]] - Related guard position sharing similar hook mechanics that require different backstep angles
+- [[Positions/De La Riva Guard]] - Related guard position sharing similar hook mechanics that require different backstep angles
 
-- [[Single Leg X-Guard]] - Guard transition the bottom player may attempt during incomplete backstep execution
+- [[Positions/X-Guard/Single Leg X-Guard]] - Guard transition the bottom player may attempt during incomplete backstep execution
 
 
 </section>

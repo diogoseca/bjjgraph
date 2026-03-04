@@ -93,23 +93,23 @@ Scarf Hold Position represents a transitional control platform rather than purel
 ### Available Transitions
 
 
-- **[[Bridge and Roll]]** (12% of attempts)
+- **[[Transitions/Bridge and Roll]]** (12% of attempts)
 
-- **[[Elbow Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (14% of attempts)
 
-- **[[Hip Escape to Guard]]** (11% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (11% of attempts)
 
-- **[[Ghost Escape]]** (12% of attempts)
+- **[[Transitions/Ghost Escape]]** (12% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (12% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (12% of attempts)
 
-- **[[Arm Extraction to Turtle]]** (31% of attempts)
+- **[[Transitions/Arm Extraction to Turtle]]** (31% of attempts)
 
-- **[[Bridge from Scarf Hold Position]]** (5% of attempts)
+- **[[Transitions/Bridge from Scarf Hold Position]]** (5% of attempts)
 
-- **[[Escape Scarf Hold Position]]** (2% of attempts)
+- **[[Transitions/Escape Scarf Hold Position]]** (2% of attempts)
 
-- **[[Bridge Escape from Scarf Hold]]** (1% of attempts)
+- **[[Transitions/Bridge Escape from Scarf Hold]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -164,23 +164,23 @@ Scarf Hold Position represents a transitional control platform rather than purel
 ### Available Transitions
 
 
-- **[[Americana]]** (14% of attempts)
+- **[[Transitions/Americana]]** (14% of attempts)
 
-- **[[Kimura]]** (12% of attempts)
+- **[[Transitions/Kimura]]** (12% of attempts)
 
-- **[[Side Control to Mount]]** (15% of attempts)
+- **[[Transitions/Side Control to Mount]]** (15% of attempts)
 
-- **[[Side Control to North-South]]** (24% of attempts)
+- **[[Transitions/Side Control to North-South]]** (24% of attempts)
 
-- **[[Armbar Finish]]** (11% of attempts)
+- **[[Transitions/Armbar Finish]]** (11% of attempts)
 
-- **[[Arm Triangle]]** (14% of attempts)
+- **[[Transitions/Arm Triangle]]** (14% of attempts)
 
-- **[[Scarf Hold to Mount]]** (5% of attempts)
+- **[[Transitions/Scarf Hold to Mount]]** (5% of attempts)
 
-- **[[Scarf Hold to Side Control]]** (3% of attempts)
+- **[[Transitions/Scarf Hold to Side Control]]** (3% of attempts)
 
-- **[[Arm Triangle from Scarf Hold]]** (2% of attempts)
+- **[[Submissions/Arm Triangle from Scarf Hold]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -215,25 +215,25 @@ Scarf Hold Position represents a transitional control platform rather than purel
 ## Related Positions
 
 
-- **[[Side Control]]** - Parent position family - scarf hold is perpendicular variation of side control pinning
+- **[[Positions/Side Control]]** - Parent position family - scarf hold is perpendicular variation of side control pinning
 
-- **[[Kesa Gatame]]** - Traditional judo terminology for scarf hold position
+- **[[Positions/Side Control/Kesa Gatame]]** - Traditional judo terminology for scarf hold position
 
-- **[[Modified Scarf Hold]]** - Variation with different arm control configuration using underhook
+- **[[Positions/Side Control/Modified Scarf Hold]]** - Variation with different arm control configuration using underhook
 
-- **[[Reverse Kesa-Gatame]]** - Opposite-facing variation with reversed perpendicular angle
+- **[[Positions/Side Control/Reverse Kesa-Gatame]]** - Opposite-facing variation with reversed perpendicular angle
 
-- **[[Kuzure Kesa-Gatame]]** - Modified variation with arm underhook instead of trap
+- **[[Positions/Side Control/Kuzure Kesa-Gatame]]** - Modified variation with arm underhook instead of trap
 
-- **[[North-South]]** - Common transition target from scarf hold for both top and bottom players
+- **[[Positions/North-South]]** - Common transition target from scarf hold for both top and bottom players
 
-- **[[Mount]]** - Advancement position when bottom player creates space or turns away
+- **[[Positions/Mount]]** - Advancement position when bottom player creates space or turns away
 
-- **[[Turtle]]** - Common escape destination for bottom player through backdoor escape
+- **[[Positions/Turtle]]** - Common escape destination for bottom player through backdoor escape
 
-- **[[Half Guard]]** - Intermediate guard recovery position for bottom player escapes
+- **[[Positions/Half Guard]]** - Intermediate guard recovery position for bottom player escapes
 
-- **[[Scramble Position]]** - Result of successful bridge-and-roll escape creating 50-50 situation
+- **[[Positions/Scramble Position]]** - Result of successful bridge-and-roll escape creating 50-50 situation
 
 
 </section>

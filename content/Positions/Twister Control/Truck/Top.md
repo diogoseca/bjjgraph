@@ -210,31 +210,31 @@ Advanced practitioners use the truck as a transitional position, flowing between
 
 ## Available Attacks
 
-### [[Twister Entry]] (14% of attempts)
+### [[Transitions/Twister Entry]] (14% of attempts)
 
-### [[Calf Slicer]] (12% of attempts)
+### [[Transitions/Calf Slicer]] (12% of attempts)
 
-### [[Roll to Truck]] (5% of attempts)
+### [[Transitions/Roll to Truck]] (5% of attempts)
 
-### [[Rolling Back Take]] (22% of attempts)
+### [[Transitions/Rolling Back Take]] (22% of attempts)
 
-### [[Bow and Arrow Choke]] (8% of attempts)
+### [[Transitions/Bow and Arrow Choke]] (8% of attempts)
 
-### [[Crab Ride to Back]] (8% of attempts)
+### [[Transitions/Crab Ride to Back]] (8% of attempts)
 
-### [[Crucifix from Turtle]] (7% of attempts)
+### [[Transitions/Crucifix from Turtle]] (7% of attempts)
 
-### [[Back Take from Top]] (12% of attempts)
+### [[Transitions/Back Take from Top]] (12% of attempts)
 
-### [[Truck Maintenance]] (3% of attempts)
+### [[Transitions/Truck Maintenance]] (3% of attempts)
 
-### [[Truck to Back Control]] (2% of attempts)
+### [[Transitions/Truck to Back Control]] (2% of attempts)
 
-### [[Truck to Twister Side Control]] (3% of attempts)
+### [[Transitions/Truck to Twister Side Control]] (3% of attempts)
 
-### [[Banana Split]] (2% of attempts)
+### [[Submissions/Banana Split]] (2% of attempts)
 
-### [[Calf Slicer from Truck]] (2% of attempts)
+### [[Submissions/Calf Slicer from Truck]] (2% of attempts)
 
 
 
@@ -245,28 +245,28 @@ Advanced practitioners use the truck as a transitional position, flowing between
 ## Decision Making from This Position
 
 **If opponent defends upper body by hiding arms and protecting neck:**
-- Execute **[[Calf Slicer]]** → [[Game Over]] (Probability: 55%)
-- Execute **[[Banana Split]]** → [[Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Calf Slicer]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Submissions/Banana Split]]** → [[Positions/Game Over]] (Probability: 45%)
 
 
 **Else if opponent defends lower body by straightening legs or clearing hooks:**
-- Execute **[[Twister Entry]]** → [[Twister Control]] (Probability: 50%)
-- Execute **[[Bow and Arrow Choke]]** → [[Game Over]] (Probability: 50%)
+- Execute **[[Transitions/Twister Entry]]** → [[Positions/Twister Control]] (Probability: 50%)
+- Execute **[[Transitions/Bow and Arrow Choke]]** → [[Positions/Game Over]] (Probability: 50%)
 
 
 **Else if opponent attempts to roll through or forward roll escape:**
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Crucifix from Turtle]]** → [[Crucifix]] (Probability: 45%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 45%)
 
 
 **Else if opponent clears boot pressure and begins to escape leg entanglement:**
-- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Consolidate Mount]]** → [[Mount]] (Probability: 45%)
+- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Consolidate Mount]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 **Else if opponent turtles up or attempts to stand:**
-- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Kimura from Back]]** → [[Kimura Trap]] (Probability: 40%)
+- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Kimura from Back]]** → [[Positions/Kimura Trap]] (Probability: 40%)
 
 
 
@@ -400,16 +400,16 @@ Start in established truck position. Top player works for submissions and positi
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Primary transition target - traditional back control
-- **[[Crab Ride]]** - Entry position - common path to truck
-- **[[Turtle]]** - Entry position - turtle attacks lead to truck
-- **[[Twister Control]]** - Submission position - primary attack from truck
-- **[[Crucifix]]** - Transition target - alternative control position
-- **[[Calf Slicer from Truck]]** - Secondary submission attacking trapped leg
-- **[[Banana Split]]** - Alternative submission from truck position
-- **[[Rolling Back Take]]** - Transition technique when opponent rolls
-- **[[Lockdown]]** - 10th Planet position feeding into truck system
-- **[[Electric Chair]]** - Related leg entanglement in 10th Planet system
+- **[[Positions/Back Control]]** - Primary transition target - traditional back control
+- **[[Positions/Crab Ride]]** - Entry position - common path to truck
+- **[[Positions/Turtle]]** - Entry position - turtle attacks lead to truck
+- **[[Positions/Twister Control]]** - Submission position - primary attack from truck
+- **[[Positions/Crucifix]]** - Transition target - alternative control position
+- **[[Submissions/Calf Slicer from Truck]]** - Secondary submission attacking trapped leg
+- **[[Submissions/Banana Split]]** - Alternative submission from truck position
+- **[[Transitions/Rolling Back Take]]** - Transition technique when opponent rolls
+- **[[Positions/Half Guard/Lockdown]]** - 10th Planet position feeding into truck system
+- **[[Positions/Half Guard/Electric Chair]]** - Related leg entanglement in 10th Planet system
 
 
 </section>

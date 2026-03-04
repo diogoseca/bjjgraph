@@ -146,7 +146,7 @@ description: "Defend the Guard Pass from Leg Entanglement in BJJ. Recognition cu
 
 As the defender against the Guard Pass from Leg Entanglement, you are the bottom player fighting to maintain your leg entanglement control while your opponent attempts to extract and pass to side control. Your primary objectives are threefold: prevent the pass by maintaining your hooks and control structures, threaten submissions that discourage extraction attempts and slow the passing sequence, and capitalize on moments of imbalance during the drive-through phase to sweep to a dominant position. Successful defense requires active hook maintenance with immediate re-pummeling when any hook is stripped, grip fighting on the opponent's foot and ankle to prevent clean extraction, and the tactical awareness to transition between entanglement variants when one configuration is compromised. The bottom player holds a significant advantage in that re-establishing a single hook is easier than completing the full extraction and pass, meaning persistent defensive activity eventually exhausts the passer's extraction efforts.
 
-**Opponent's Starting Position**: [[Leg Entanglement]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Entanglement]] (Top)
 
 </section>
 
@@ -183,28 +183,28 @@ As the defender against the Guard Pass from Leg Entanglement, you are the bottom
 ### 1. Re-pummel hooks immediately after each strip by circling your foot back inside and re-establishing the hook behind their knee or across their hip
 
 - **When to use**: Within the first one to two seconds of any hook being stripped, before the opponent can occupy the space with their wedging knee or advance to the next extraction phase
-- **Targets**: [[Leg Entanglement]]
+- **Targets**: [[Positions/Leg Entanglement]]
 - **If successful**: Returns the entanglement to its previous or improved configuration, forcing the passer to restart the extraction sequence and expend additional energy
 - **Risk**: Repeated failed re-pummeling burns energy progressively, and if the opponent has established a wedge in the space, your foot may get caught in a compromised position
 
 ### 2. Attack a heel hook or ankle lock on the opponent's exposed foot during the extraction window to force them to abort the pass
 
 - **When to use**: When the opponent's heel crosses their centerline or becomes exposed during the hook stripping and extraction process, particularly during the transition between stripping primary and secondary hooks
-- **Targets**: [[Leg Entanglement]]
+- **Targets**: [[Positions/Leg Entanglement]]
 - **If successful**: The passer must abandon extraction entirely and address the submission threat, returning to the leg entanglement exchange on your terms
 - **Risk**: Over-committing to the submission with both hands may compromise your hook maintenance, allowing the passer to strip your remaining controls while you chase the finish
 
 ### 3. Execute a sweep during the drive-through phase by hooking the passer's posted leg and redirecting their forward momentum
 
 - **When to use**: During the final drive-through phase when the passer commits their weight forward to pass your leg line, compromising their base in the process
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You reverse the passer to bottom position, ending up in top half guard or side control with a significant positional advantage
 - **Risk**: If the sweep fails, you have likely used your remaining hooks offensively rather than defensively, accelerating the pass completion
 
 ### 4. Transition to a more dominant entanglement variant by stepping over to saddle or threading into inside ashi as the passer disrupts your current configuration
 
 - **When to use**: When your current entanglement is deteriorating under the passer's extraction efforts but their leg is still accessible for a different control configuration
-- **Targets**: [[Leg Entanglement]]
+- **Targets**: [[Positions/Leg Entanglement]]
 - **If successful**: You advance to a superior entanglement position that makes the pass more difficult and creates new submission threats that demand the passer's attention
 - **Risk**: The transition between configurations creates a brief window where neither entanglement is fully established, which a fast passer can exploit to complete the extraction
 
@@ -216,11 +216,11 @@ As the defender against the Guard Pass from Leg Entanglement, you are the bottom
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Entanglement]]
+### → [[Positions/Leg Entanglement]]
 
 Maintain entanglement control through persistent hook re-pummeling, active grip fighting on the opponent's foot, and submission threats that slow the extraction sequence. Each time the passer strips a hook, immediately re-enter with the same or an alternative hook before they can advance to the next extraction phase. Force them into a cycle of strip-and-re-pummel that eventually exhausts their passing effort.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a sweep during the drive-through phase when the passer commits their weight forward over a narrow base. Hook their posted leg with your free foot or shin, then redirect their forward momentum laterally or overhead using the entangled leg as a fulcrum. The passer's commitment to the drive-through compromises their ability to post and recover, making this window the highest-percentage sweep opportunity in the entire exchange.
 

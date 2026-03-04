@@ -178,7 +178,7 @@ From S Mount, the gift wrap becomes particularly powerful because you already ha
 
 The strategic value of this transition lies in its forcing function—the opponent must choose between defending the arm attack (which exposes the back) or preventing the back take (which exposes the arm). This dilemma creation is fundamental to high-level positional grappling. The gift wrap control also travels with you during the transition, providing continuous control through the movement rather than requiring you to release and re-establish grips.
 
-**From Position**: [[S Mount]] (Top)
+**From Position**: [[Positions/Mount/S Mount]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ The strategic value of this transition lies in its forcing function—the oppone
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[S Mount]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Mount/S Mount]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -240,11 +240,11 @@ The strategic value of this transition lies in its forcing function—the oppone
 
 ## Opponent Counters
 
-- **Opponent keeps elbow tight and refuses to let arm cross centerline** (Effectiveness: High) - Your Response: Maintain S Mount pressure and attack armbar instead. Their tight elbow defense actually facilitates arm isolation for submission. → Leads to [[S Mount]]
-- **Opponent turns into you explosively before gift wrap is secured** (Effectiveness: Medium) - Your Response: Abandon the gift wrap attempt and secure standard mount. Reset your position and wait for another opportunity when they turn away again. → Leads to [[S Mount]]
-- **Opponent posts their far arm to prevent rotation around their head** (Effectiveness: Medium) - Your Response: Attack the posted arm with kimura grip or switch to technical mount. Their posting arm is now extended and vulnerable. → Leads to [[S Mount]]
-- **Opponent rolls toward you during transition to prevent back exposure** (Effectiveness: Low) - Your Response: Follow their roll and end up in mount on the other side with the gift wrap still intact. Repeat the back take attempt from the new angle. → Leads to [[S Mount]]
-- **Opponent bridges explosively during rotation to create space and recover half guard** (Effectiveness: Medium) - Your Response: If you lose hip contact, immediately drop your weight and secure side control or re-establish mount rather than chasing the back take from a compromised position. → Leads to [[Half Guard]]
+- **Opponent keeps elbow tight and refuses to let arm cross centerline** (Effectiveness: High) - Your Response: Maintain S Mount pressure and attack armbar instead. Their tight elbow defense actually facilitates arm isolation for submission. → Leads to [[Positions/Mount/S Mount]]
+- **Opponent turns into you explosively before gift wrap is secured** (Effectiveness: Medium) - Your Response: Abandon the gift wrap attempt and secure standard mount. Reset your position and wait for another opportunity when they turn away again. → Leads to [[Positions/Mount/S Mount]]
+- **Opponent posts their far arm to prevent rotation around their head** (Effectiveness: Medium) - Your Response: Attack the posted arm with kimura grip or switch to technical mount. Their posting arm is now extended and vulnerable. → Leads to [[Positions/Mount/S Mount]]
+- **Opponent rolls toward you during transition to prevent back exposure** (Effectiveness: Low) - Your Response: Follow their roll and end up in mount on the other side with the gift wrap still intact. Repeat the back take attempt from the new angle. → Leads to [[Positions/Mount/S Mount]]
+- **Opponent bridges explosively during rotation to create space and recover half guard** (Effectiveness: Medium) - Your Response: If you lose hip contact, immediately drop your weight and secure side control or re-establish mount rather than chasing the back take from a compromised position. → Leads to [[Positions/Half Guard]]
 
 
 </section>

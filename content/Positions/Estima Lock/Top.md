@@ -209,21 +209,21 @@ Success from the top position requires precise technical execution including pro
 
 ## Available Attacks
 
-### [[Estima Lock]] (35% of attempts)
+### [[Positions/Estima Lock]] (35% of attempts)
 
-### [[Toe Hold]] (18% of attempts)
+### [[Transitions/Toe Hold]] (18% of attempts)
 
-### [[Estima Lock to Saddle]] (13% of attempts)
+### [[Transitions/Estima Lock to Saddle]] (13% of attempts)
 
-### [[Kneebar]] (8% of attempts)
+### [[Transitions/Kneebar]] (8% of attempts)
 
-### [[Estima Lock to Ashi Garami]] (18% of attempts)
+### [[Transitions/Estima Lock to Ashi Garami]] (18% of attempts)
 
-### [[Kneebar from Estima Lock]] (4% of attempts)
+### [[Transitions/Kneebar from Estima Lock]] (4% of attempts)
 
-### [[Toe Hold from Estima Lock]] (2% of attempts)
+### [[Transitions/Toe Hold from Estima Lock]] (2% of attempts)
 
-### [[Estima Lock Finish]] (2% of attempts)
+### [[Submissions/Estima Lock Finish]] (2% of attempts)
 
 
 
@@ -234,23 +234,23 @@ Success from the top position requires precise technical execution including pro
 ## Decision Making from This Position
 
 **If opponent's foot is fully isolated and they are flat on their back:**
-- Execute **[[Estima Lock]]** → [[Game Over]] (Probability: 50%)
-- Execute **[[Toe Hold]]** → [[Game Over]] (Probability: 50%)
+- Execute **[[Positions/Estima Lock]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Transitions/Toe Hold]]** → [[Positions/Game Over]] (Probability: 50%)
 
 
 **If opponent begins sitting up or establishing frames with their free leg:**
-- Execute **[[Estima Lock to Ashi Garami]]** → [[Ashi Garami]] (Probability: 55%)
-- Execute **[[Estima Lock to Saddle]]** → [[Saddle]] (Probability: 45%)
+- Execute **[[Transitions/Estima Lock to Ashi Garami]]** → [[Positions/Ashi Garami]] (Probability: 55%)
+- Execute **[[Transitions/Estima Lock to Saddle]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 45%)
 
 
 **If opponent successfully extracts their foot or creates significant space:**
-- Execute **[[Leg Drag Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Standing Escape]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Standing Escape]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If opponent attempts to counter with their own leg attack:**
-- Execute **[[Counter Leg Attack]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[50-50 Entry]]** → [[50-50 Guard]] (Probability: 50%)
+- Execute **[[Transitions/Counter Leg Attack]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/50-50 Entry]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 50%)
 
 
 
@@ -384,16 +384,16 @@ Start from established Estima Lock Top Position. Bottom player works to escape u
 
 ## Related Positions and Techniques
 
-- **[[Estima Lock]]** - Primary submission technique from this position
-- **[[Toe Hold]]** - Alternative leg attack transition with natural grip changes
-- **[[Ashi Garami]]** - Common transition target offering expanded submission options
-- **[[Saddle]]** - Related leg entanglement position accessible through backstep
-- **[[50-50 Guard]]** - Common entry position for establishing Estima Lock control
-- **[[Single Leg X-Guard]]** - Common entry position offering direct foot control opportunities
-- **[[Leg Entanglement]]** - Core conceptual framework for understanding position in broader context
-- **[[Ankle Lock Finish]]** - Related footlock transition with similar finishing mechanics
-- **[[Inside Ashi-Garami]]** - Alternative leg entanglement with heel hook opportunities
-- **[[Outside Ashi-Garami]]** - Related ashi configuration with different attack angles
+- **[[Positions/Estima Lock]]** - Primary submission technique from this position
+- **[[Transitions/Toe Hold]]** - Alternative leg attack transition with natural grip changes
+- **[[Positions/Ashi Garami]]** - Common transition target offering expanded submission options
+- **[[Positions/Ashi Garami/Saddle]]** - Related leg entanglement position accessible through backstep
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Common entry position for establishing Estima Lock control
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Common entry position offering direct foot control opportunities
+- **[[Positions/Leg Entanglement]]** - Core conceptual framework for understanding position in broader context
+- **[[Transitions/Ankle Lock Finish]]** - Related footlock transition with similar finishing mechanics
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Alternative leg entanglement with heel hook opportunities
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Related ashi configuration with different attack angles
 
 
 </section>

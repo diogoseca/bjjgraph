@@ -154,7 +154,7 @@ description: "How to defend against Two-on-One to Back Take in BJJ. Recognition 
 
 Defending the two-on-one to back take requires immediate recognition that your arm has been isolated and your opponent now holds a significant mechanical advantage. The moment both of their hands control one of your arms, you are in a deteriorating position where every second of inaction allows them to improve their angle and access your back. Your defensive priorities must follow a strict hierarchy: first strip or neutralize the controlling grips before they can generate the cross-body pull, then re-square your hips to face them directly, and finally re-establish your own clinch grips to return to a neutral exchange. The critical understanding is that once the cross-body pull has rotated your shoulders, defensive options diminish rapidly, making early recognition and immediate grip fighting the most important defensive skill. Passive defense or delayed reactions consistently result in back exposure.
 
-**Opponent's Starting Position**: [[Clinch]] (Top)
+**Opponent's Starting Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the two-on-one to back take requires immediate recognition that your a
 ### 1. Immediate wrist grip strip using your free hand to peel their lead hand off your wrist while simultaneously re-squaring your hips
 
 - **When to use**: As soon as you recognize the two-on-one has been established, before the cross-body pull rotates your shoulders
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Returns to neutral clinch position where you can re-establish your own grips and resume hand fighting from even terms
 - **Risk**: If the strip fails or is too slow, the attacker uses your reaching free hand against you by proceeding with the back take while your free arm is occupied
 
 ### 2. Drop level and shoot a single or double leg takedown using your free arm while the opponent's hands are committed to arm control
 
 - **When to use**: When the opponent has committed both hands to the two-on-one and cannot sprawl effectively because their grip prevents them from posting
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Reverses the positional dynamic completely, putting you on top in a dominant position while the attacker must abandon their back take attempt
 - **Risk**: If the shot is stuffed, the opponent already has superior grip positioning and can accelerate the back take using your failed level change
 
 ### 3. Circle aggressively toward the controlled arm side while pulling your elbow tight to your ribs to deny the cross-body pull
 
 - **When to use**: When the cross-body pull has started but your shoulders have not yet rotated past 30 degrees and you still have base underneath you
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Closes the angle the attacker is trying to create, re-squares your hips, and forces them back to your centerline where the two-on-one is less effective
 - **Risk**: If you circle too late after significant shoulder rotation, the circling motion can actually accelerate the back exposure on the opposite side
 
 ### 4. Post your free hand on opponent's hip and drive your hips forward while pulling your controlled arm back forcefully
 
 - **When to use**: When the opponent has established the angle but has not yet cleared their head past your arm for the step-behind or duck-under
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Creates separation and prevents the opponent from completing the back access pathway, forcing a clinch reset
 - **Risk**: Hip posting commits your free arm, and if the opponent redirects to a snap-down while your arm is extended to their hip, you may end up in front headlock
 
@@ -226,11 +226,11 @@ Defending the two-on-one to back take requires immediate recognition that your a
 
 ## Best-Case Outcomes for Defender
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Strip the wrist grip immediately upon recognition using your free hand, then re-square your hips and re-establish your own clinch grips before the opponent can re-attack. The key is speed of recognition combined with aggressive grip fighting to return to neutral clinch engagement.
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Exploit the opponent's hand commitment to the two-on-one by dropping level and shooting a takedown with your free arm. Their hands are occupied controlling your arm, limiting their ability to sprawl or post effectively. Time the shot when they begin the cross-body pull, using their pulling energy to help your level change.
 

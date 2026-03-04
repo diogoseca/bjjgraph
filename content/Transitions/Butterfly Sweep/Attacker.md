@@ -174,7 +174,7 @@ description: "How to execute Butterfly Sweep in BJJ. Attacking perspective with 
 
 The Butterfly Sweep is a fundamental attacking technique from butterfly guard that exploits opponent's weight distribution and base. By using butterfly hooks (feet positioned on opponent's inner thighs) combined with precise hip movement and off-balancing mechanics, the practitioner elevates and destabilizes the opponent, reversing position from bottom to top. This sweep is particularly effective when the opponent commits their weight forward or attempts to pass, creating the perfect opportunity for the guard player to capitalize on compromised balance. The technique exemplifies efficient use of leverage over strength, making it accessible to practitioners of all sizes and suitable against larger opponents. The butterfly sweep serves as a cornerstone technique in modern Brazilian Jiu-Jitsu, forming the foundation for numerous guard systems and serving as a gateway to more advanced butterfly guard attacks.
 
-**From Position**: [[Butterfly Guard]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
 
@@ -227,9 +227,9 @@ The Butterfly Sweep is a fundamental attacking technique from butterfly guard th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 70% |
-| Failure | [[Butterfly Guard]] | 20% |
-| Counter | [[Butterfly Guard]] | 10% |
+| Success | [[Positions/Mount]] | 70% |
+| Failure | [[Positions/Butterfly Guard]] | 20% |
+| Counter | [[Positions/Butterfly Guard]] | 10% |
 
 
 </section>
@@ -238,11 +238,11 @@ The Butterfly Sweep is a fundamental attacking technique from butterfly guard th
 
 ## Opponent Counters
 
-- **Opponent posts hand to mat on the sweep side, creating a strong base to prevent being rolled** (Effectiveness: High) - Your Response: Switch to attacking the posted arm with a Kimura grip or redirect sweep to the opposite side, exploiting their committed weight distribution. Alternatively, transition to X-Guard by adjusting your hooks. → Leads to [[Butterfly Guard]]
-- **Opponent sprawls backward, removing weight from your hooks and sitting back on their heels** (Effectiveness: High) - Your Response: Follow opponent's backward movement by transitioning to Deep Half Guard or Single Leg X-Guard. Alternatively, stand up using Technical Standup and pursue takedown opportunities or re-engage guard. → Leads to [[Butterfly Guard]]
-- **Opponent crossfaces heavily, driving their forearm across your face to break your posture and control** (Effectiveness: Medium) - Your Response: Address the crossface by framing against it with your near arm while maintaining hooks. Transition to outside position by switching grips, or attack the exposed arm with Kimura or Guillotine entries. → Leads to [[Butterfly Guard]]
-- **Opponent widens their base by stepping one leg out wide, creating a tripod stance** (Effectiveness: Medium) - Your Response: Target the remaining near leg with both hooks, concentrating your elevation on one side. Alternatively, transition to Single Leg X-Guard by adjusting your hook position to control the extended leg. → Leads to [[Butterfly Guard]]
-- **Opponent stands up completely, removing all weight from hooks and attempting to disengage or pass standing** (Effectiveness: Medium) - Your Response: Maintain grip control and transition to standing guard options like De La Riva or Shin-to-Shin. Use your hooks to off-balance opponent as they stand, potentially setting up sacrifice throws or back take entries. → Leads to [[Butterfly Guard]]
+- **Opponent posts hand to mat on the sweep side, creating a strong base to prevent being rolled** (Effectiveness: High) - Your Response: Switch to attacking the posted arm with a Kimura grip or redirect sweep to the opposite side, exploiting their committed weight distribution. Alternatively, transition to X-Guard by adjusting your hooks. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent sprawls backward, removing weight from your hooks and sitting back on their heels** (Effectiveness: High) - Your Response: Follow opponent's backward movement by transitioning to Deep Half Guard or Single Leg X-Guard. Alternatively, stand up using Technical Standup and pursue takedown opportunities or re-engage guard. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent crossfaces heavily, driving their forearm across your face to break your posture and control** (Effectiveness: Medium) - Your Response: Address the crossface by framing against it with your near arm while maintaining hooks. Transition to outside position by switching grips, or attack the exposed arm with Kimura or Guillotine entries. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent widens their base by stepping one leg out wide, creating a tripod stance** (Effectiveness: Medium) - Your Response: Target the remaining near leg with both hooks, concentrating your elevation on one side. Alternatively, transition to Single Leg X-Guard by adjusting your hook position to control the extended leg. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent stands up completely, removing all weight from hooks and attempting to disengage or pass standing** (Effectiveness: Medium) - Your Response: Maintain grip control and transition to standing guard options like De La Riva or Shin-to-Shin. Use your hooks to off-balance opponent as they stand, potentially setting up sacrifice throws or back take entries. → Leads to [[Positions/Butterfly Guard]]
 
 
 </section>

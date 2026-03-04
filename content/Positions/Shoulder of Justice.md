@@ -91,23 +91,23 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 ### Available Transitions
 
 
-- **[[Shrimp Escape]]** (36% of attempts)
+- **[[Transitions/Shrimp Escape]]** (36% of attempts)
 
-- **[[Elbow Escape to Guard]]** (18% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (18% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (15% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (15% of attempts)
 
-- **[[Bridge and Roll]]** (10% of attempts)
+- **[[Transitions/Bridge and Roll]]** (10% of attempts)
 
-- **[[Technical Stand-up]]** (9% of attempts)
+- **[[Transitions/Technical Stand-up]]** (9% of attempts)
 
-- **[[Hip Escape to Guard]]** (7% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (7% of attempts)
 
-- **[[Escape Shoulder of Justice]]** (3% of attempts)
+- **[[Transitions/Escape Shoulder of Justice]]** (3% of attempts)
 
-- **[[Frame from Shoulder of Justice]]** (1% of attempts)
+- **[[Transitions/Frame from Shoulder of Justice]]** (1% of attempts)
 
-- **[[Frame Escape from Shoulder of Justice]]** (1% of attempts)
+- **[[Transitions/Frame Escape from Shoulder of Justice]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -172,25 +172,25 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 ### Available Transitions
 
 
-- **[[Kimura]]** (18% of attempts)
+- **[[Transitions/Kimura]]** (18% of attempts)
 
-- **[[Americana]]** (12% of attempts)
+- **[[Transitions/Americana]]** (12% of attempts)
 
-- **[[Side Control to Mount]]** (13% of attempts)
+- **[[Transitions/Side Control to Mount]]** (13% of attempts)
 
-- **[[Side Control to North-South]]** (13% of attempts)
+- **[[Transitions/Side Control to North-South]]** (13% of attempts)
 
-- **[[Arm Triangle]]** (11% of attempts)
+- **[[Transitions/Arm Triangle]]** (11% of attempts)
 
-- **[[North-South Choke]]** (10% of attempts)
+- **[[Transitions/North-South Choke]]** (10% of attempts)
 
-- **[[Knee on Belly]]** (13% of attempts)
+- **[[Positions/Knee on Belly]]** (13% of attempts)
 
-- **[[Shoulder of Justice Kimura Setup]]** (5% of attempts)
+- **[[Transitions/Shoulder of Justice Kimura Setup]]** (5% of attempts)
 
-- **[[Shoulder of Justice to Mount]]** (3% of attempts)
+- **[[Transitions/Shoulder of Justice to Mount]]** (3% of attempts)
 
-- **[[Kimura from Shoulder of Justice]]** (2% of attempts)
+- **[[Submissions/Kimura from Shoulder of Justice]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -237,21 +237,21 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 ## Related Positions
 
 
-- **[[Side Control]]** - Parent position - Shoulder of Justice is specialized high-pressure variation
+- **[[Positions/Side Control]]** - Parent position - Shoulder of Justice is specialized high-pressure variation
 
-- **[[Kesa Gatame]]** - Similar position with related cross-face control and shoulder pressure concepts
+- **[[Positions/Side Control/Kesa Gatame]]** - Similar position with related cross-face control and shoulder pressure concepts
 
-- **[[North-South]]** - Common transition target from pressure-induced reactions
+- **[[Positions/North-South]]** - Common transition target from pressure-induced reactions
 
-- **[[Mount]]** - Position advancement target when opponent shrimps or turns defensively
+- **[[Positions/Mount]]** - Position advancement target when opponent shrimps or turns defensively
 
-- **[[Kimura Trap]]** - Primary submission control when opponent frames with near arm
+- **[[Positions/Kimura Trap]]** - Primary submission control when opponent frames with near arm
 
-- **[[Knee on Belly]]** - Transition option when opponent creates space while shrimping
+- **[[Positions/Knee on Belly]]** - Transition option when opponent creates space while shrimping
 
-- **[[Kuzure Kesa-Gatame]]** - Alternative pressure position with similar control objectives
+- **[[Positions/Side Control/Kuzure Kesa-Gatame]]** - Alternative pressure position with similar control objectives
 
-- **[[Half Guard]]** - Common escape target for bottom player attempting guard recovery
+- **[[Positions/Half Guard]]** - Common escape target for bottom player attempting guard recovery
 
 
 </section>

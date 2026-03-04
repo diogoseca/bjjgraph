@@ -156,7 +156,7 @@ description: "How to defend against Kimura from Side Control in BJJ. Recognition
 
 Defending the Kimura from Side Control requires immediate recognition and proactive countermeasures, as the submission can be secured rapidly once the figure-four grip is established. The bottom player faces a compounding problem: the dominant side control position already restricts movement, and the Kimura grip adds a direct joint attack on top of positional disadvantage. Successful defense demands understanding the sequential stages of the attack, because each stage has different defensive priorities and escape windows. Early-stage defense focuses on preventing arm isolation and grip establishment through elbow connection and hand fighting. Mid-stage defense involves breaking the figure-four grip or preventing elevation through body positioning and grip defense. Late-stage defense requires emergency measures including turning into the attacker, rolling with the submission, or tapping before injury occurs. The defender must internalize that passive resistance leads to submission - active defense with systematic grip fighting and body movement is essential. The Kimura defense is also deeply connected to side control escape fundamentals, as many successful defenses transition directly into guard recovery or positional reversals.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the Kimura from Side Control requires immediate recognition and proact
 ### 1. Grip your own belt, pants, or clasp hands together to prevent arm isolation
 
 - **When to use**: Early stage when opponent begins reaching for your near arm but has not yet secured the figure-four grip
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent cannot establish the figure-four grip and must either abandon the attack or spend time breaking your defensive grip, creating opportunities for side control escape
 - **Risk**: If you focus too much on gripping, you may neglect hip escape opportunities and remain pinned under side control
 
 ### 2. Turn into the attacker by driving your hips toward their legs and rotating your body to face them
 
 - **When to use**: Mid to late stage when the figure-four grip is secured but elevation has not yet begun - this is the highest-percentage escape
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Reduces rotational pressure on the shoulder, potentially allowing guard recovery or creating a scramble where you can disengage the grip entirely
 - **Risk**: If the attacker anticipates the turn and blocks with their knee, you may end up worse with the grip still secured and your movement options reduced
 
 ### 3. Straighten your arm explosively to break the figure-four structure before elevation begins
 
 - **When to use**: Immediately after the figure-four grip is secured but before the attacker has pinched their elbows tight - there is a brief window where extension can break the grip
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Breaks the figure-four structure and forces the attacker to re-establish the grip from scratch, giving you time to reconnect your elbow to your ribs
 - **Risk**: If the attacker transitions to an armbar on the straightened arm, you have traded a Kimura defense for an armbar attack
 
 ### 4. Bridge and roll toward the Kimura side to reverse position
 
 - **When to use**: When the attacker commits their weight to the arm attack and sacrifices their side control base, creating vulnerability to the bridge and roll reversal
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Reverses the position entirely, potentially ending in top position or at minimum recovering guard while the attacker loses their grip
 - **Risk**: If the bridge is weak or poorly timed, the attacker can ride it out and use the momentum to accelerate the submission finish
 
@@ -239,11 +239,11 @@ Defending the Kimura from Side Control requires immediate recognition and proact
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Turn aggressively into the attacker as they attempt elevation, using the rotation to create space for knee insertion and guard recovery while the Kimura grip loosens during the positional transition
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Prevent the figure-four grip from being established through persistent hand fighting and elbow connection, forcing the attacker to abandon the submission and return to positional control where you can resume standard side control escapes
 

@@ -21,7 +21,7 @@ Understanding spider guard mechanics reveals that the guard's strength lies in c
 
 Success requires patience in grip fighting exchanges, explosive movement during passing windows, and technical precision in controlling the opponent's hips during the final consolidation phase. At higher levels, the pass becomes part of a chain: if the guard player transitions to De La Riva, lasso, or collar-sleeve during your grip break, you must recognize the switch and flow to the appropriate passing sequence without resetting.
 
-**From Position**: [[Spider Guard]] (Top)
+**From Position**: [[Positions/Spider Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Success requires patience in grip fighting exchanges, explosive movement during 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 58% |
-| Failure | [[Spider Guard]] | 30% |
-| Counter | [[Spider Guard]] | 12% |
+| Success | [[Positions/Side Control]] | 58% |
+| Failure | [[Positions/Spider Guard]] | 30% |
+| Counter | [[Positions/Spider Guard]] | 12% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Spider Guard Pass is a fundamental component of any comprehensive guard pass
 ## Related Techniques
 
 
-- [[Spider Guard]] - Starting position being passed
+- [[Positions/Spider Guard]] - Starting position being passed
 
-- [[Side Control]] - Primary ending position after successful pass
+- [[Positions/Side Control]] - Primary ending position after successful pass
 
-- [[Toreando Pass]] - Alternative open guard passing approach that chains with spider pass
+- [[Transitions/Toreando Pass]] - Alternative open guard passing approach that chains with spider pass
 
-- [[Knee Cut Pass]] - Follow-up pass if spider guard transitions to half guard
+- [[Transitions/Knee Cut Pass]] - Follow-up pass if spider guard transitions to half guard
 
-- [[Long Step Pass]] - Related passing variation with similar grip breaking sequence
+- [[Transitions/Long Step Pass]] - Related passing variation with similar grip breaking sequence
 
-- [[Leg Drag Pass]] - High-percentage pass when opponent releases foot pressure for attacks
+- [[Transitions/Leg Drag Pass]] - High-percentage pass when opponent releases foot pressure for attacks
 
-- [[Bullfighter Pass]] - Complementary toreando-style pass used after grip breaks
+- [[Transitions/Bullfighter Pass]] - Complementary toreando-style pass used after grip breaks
 
-- [[De La Riva Guard]] - Common guard transition opponent may attempt during grip break
+- [[Positions/De La Riva Guard]] - Common guard transition opponent may attempt during grip break
 
-- [[Lasso Guard]] - Related guard variation requiring similar passing approach
+- [[Positions/Lasso Guard]] - Related guard variation requiring similar passing approach
 
-- [[Collar Sleeve Guard]] - Related guard system with similar grip patterns
+- [[Positions/Collar Sleeve Guard]] - Related guard system with similar grip patterns
 
-- [[Half Guard]] - Intermediate position if pass is partially defended
+- [[Positions/Half Guard]] - Intermediate position if pass is partially defended
 
-- [[Open Guard]] - Parent guard category that spider guard belongs to
+- [[Positions/Open Guard]] - Parent guard category that spider guard belongs to
 
 
 </section>

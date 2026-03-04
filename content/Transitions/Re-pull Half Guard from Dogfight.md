@@ -21,7 +21,7 @@ This transition occupies a critical role in modern half guard systems as a press
 
 Strategically, the re-pull serves a dual purpose: it preserves energy for future offensive cycles and resets the positional exchange to a configuration where the bottom player has multiple guard variation options available. A well-executed re-pull into knee shield half guard, for instance, provides immediate distance management and creates a platform to re-enter dogfight, transition to deep half, or pursue alternative sweeping pathways. The willingness to retreat intelligently—rather than stubbornly fighting a lost exchange—separates experienced half guard players from those who exhaust themselves in unwinnable dogfights.
 
-**From Position**: [[Dogfight Position]] (Bottom)
+**From Position**: [[Positions/Dogfight Position]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the re-pull serves a dual purpose: it preserves energy for future
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Flattened Half Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Re-pull Half Guard from Dogfight serves as a critical connector in the half 
 ## Related Techniques
 
 
-- [[Dogfight Position]] - Starting position - the elevated kneeling half guard exchange from which this retreat is executed
+- [[Positions/Dogfight Position]] - Starting position - the elevated kneeling half guard exchange from which this retreat is executed
 
-- [[Half Guard]] - Primary target position - the structured guard position re-established after successful retreat
+- [[Positions/Half Guard]] - Primary target position - the structured guard position re-established after successful retreat
 
-- [[Knee Shield Half Guard]] - Preferred landing configuration providing immediate distance management and offensive frames
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Preferred landing configuration providing immediate distance management and offensive frames
 
-- [[Flattened Half Guard]] - Negative outcome when retreat is poorly executed and opponent drives you flat without frames
+- [[Positions/Half Guard/Flattened Half Guard]] - Negative outcome when retreat is poorly executed and opponent drives you flat without frames
 
-- [[Deep Half Guard]] - Alternative retreat destination when opponent commits heavy forward pressure during re-pull
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative retreat destination when opponent commits heavy forward pressure during re-pull
 
-- [[Re-flatten from Dogfight]] - Opposing transition - top player's technique to flatten bottom player, which the re-pull aims to preempt
+- [[Transitions/Re-flatten from Dogfight]] - Opposing transition - top player's technique to flatten bottom player, which the re-pull aims to preempt
 
-- [[Dogfight Sweep]] - Offensive alternative - sweep attempt that should be tried before committing to retreat
+- [[Transitions/Dogfight Sweep]] - Offensive alternative - sweep attempt that should be tried before committing to retreat
 
-- [[Forward Drive Sweep from Dogfight]] - Offensive alternative chained before or after re-pull attempts
+- [[Transitions/Forward Drive Sweep from Dogfight]] - Offensive alternative chained before or after re-pull attempts
 
-- [[Crossface from Dogfight]] - Top player's technique that often forces the need for the re-pull retreat
+- [[Transitions/Crossface from Dogfight]] - Top player's technique that often forces the need for the re-pull retreat
 
-- [[Lockdown]] - Alternative half guard variation accessible after re-pull for posture control
+- [[Positions/Half Guard/Lockdown]] - Alternative half guard variation accessible after re-pull for posture control
 
-- [[Back Door Escape from Half Guard]] - Secondary escape option from half guard if re-pull lands in compromised position
+- [[Transitions/Back Door Escape from Half Guard]] - Secondary escape option from half guard if re-pull lands in compromised position
 
 
 </section>

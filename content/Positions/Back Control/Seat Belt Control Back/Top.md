@@ -210,35 +210,35 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (35% of attempts)
+### [[Transitions/Rear Naked Choke]] (35% of attempts)
 
-### [[Armbar from Back Transition]] (10% of attempts)
+### [[Transitions/Armbar from Back Transition]] (10% of attempts)
 
-### [[Bow and Arrow Choke]] (6% of attempts)
+### [[Transitions/Bow and Arrow Choke]] (6% of attempts)
 
-### [[Back Control to Crucifix]] (6% of attempts)
+### [[Transitions/Back Control to Crucifix]] (6% of attempts)
 
-### [[Short Choke]] (5% of attempts)
+### [[Transitions/Short Choke]] (5% of attempts)
 
-### [[Back Control Maintenance]] (12% of attempts)
+### [[Transitions/Back Control Maintenance]] (12% of attempts)
 
-### [[Body Triangle Lock]] (6% of attempts)
+### [[Transitions/Body Triangle Lock]] (6% of attempts)
 
-### [[Kimura from Back]] (3% of attempts)
+### [[Transitions/Kimura from Back]] (3% of attempts)
 
-### [[Triangle from Back]] (3% of attempts)
+### [[Transitions/Triangle from Back]] (3% of attempts)
 
-### [[Roll to Truck]] (3% of attempts)
+### [[Transitions/Roll to Truck]] (3% of attempts)
 
-### [[Gift Wrap]] (5% of attempts)
+### [[Positions/Gift Wrap]] (5% of attempts)
 
-### [[Seat Belt to Body Triangle]] (1% of attempts)
+### [[Transitions/Seat Belt to Body Triangle]] (1% of attempts)
 
-### [[Seat Belt to Full Back Control]] (1% of attempts)
+### [[Transitions/Seat Belt to Full Back Control]] (1% of attempts)
 
-### [[Bow and Arrow from Seat Belt]] (2% of attempts)
+### [[Submissions/Bow and Arrow from Seat Belt]] (2% of attempts)
 
-### [[RNC from Seat Belt]] (2% of attempts)
+### [[Submissions/RNC from Seat Belt]] (2% of attempts)
 
 
 
@@ -249,28 +249,28 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 ## Decision Making from This Position
 
 **If opponent's hands move high to defend neck or break seat belt grip at chest level:**
-- Execute **[[Rear Naked Choke]]** → [[Game Over]] (Probability: 65%)
-- Execute **[[Short Choke]]** → [[Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 65%)
+- Execute **[[Transitions/Short Choke]]** → [[Positions/Game Over]] (Probability: 45%)
 
 
 **If opponent tucks chin and defends neck with hands protecting throat area:**
-- Execute **[[Armbar from Back Transition]]** → [[Armbar Control]] (Probability: 55%)
-- Execute **[[Armbar Finish]]** → [[Game Over]] (Probability: 50%)
+- Execute **[[Transitions/Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Game Over]] (Probability: 50%)
 
 
 **If opponent turns toward you attempting to face guard and escape hooks:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 70%)
-- Execute **[[Back Control to Crucifix]]** → [[Crucifix]] (Probability: 45%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 45%)
 
 
 **If opponent extends arms attempting to base or post for escape leverage:**
-- Execute **[[Back Control to Crucifix]]** → [[Crucifix]] (Probability: 60%)
-- Execute **[[Kimura from Back]]** → [[Game Over]] (Probability: 40%)
+- Execute **[[Transitions/Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 60%)
+- Execute **[[Transitions/Kimura from Back]]** → [[Positions/Game Over]] (Probability: 40%)
 
 
 **If opponent turns away and attempts to remove bottom hook by hip movement:**
-- Execute **[[Bow and Arrow Choke]]** → [[Game Over]] (Probability: 55%)
-- Execute **[[Roll to Truck]]** → [[Truck]] (Probability: 50%)
+- Execute **[[Transitions/Bow and Arrow Choke]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Transitions/Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
 
 
 
@@ -416,16 +416,16 @@ Start from turtle position. Practice taking back, establishing seat belt control
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Parent position - Seat belt is the optimal grip configuration within general back control
-- **[[Body Triangle]]** - Variation - Alternative hook configuration using body triangle instead of traditional hooks
-- **[[Crucifix]]** - Advancement - Superior control position accessed when opponent makes positional errors from seat belt
-- **[[Mount]]** - Transition target - Common position reached when opponent turns into you during escape attempts
-- **[[Gift Wrap]]** - Alternative control - Different upper body control configuration from back position
-- **[[Truck]]** - Transition target - Accessed when opponent turns away during escape attempts
-- **[[Turtle]]** - Common entry position - Frequently transition to seat belt from turtle via back take
-- **[[Technical Mount]]** - Alternative advancement - Position accessed when opponent partially escapes hooks
-- **[[Harness]]** - Related grip concept - Shares upper body control mechanics with seat belt configuration
-- **[[Rear Naked Choke]]** - Primary submission threat - Highest percentage finish from seat belt back control
+- **[[Positions/Back Control]]** - Parent position - Seat belt is the optimal grip configuration within general back control
+- **[[Positions/Back Control/Body Triangle]]** - Variation - Alternative hook configuration using body triangle instead of traditional hooks
+- **[[Positions/Crucifix]]** - Advancement - Superior control position accessed when opponent makes positional errors from seat belt
+- **[[Positions/Mount]]** - Transition target - Common position reached when opponent turns into you during escape attempts
+- **[[Positions/Gift Wrap]]** - Alternative control - Different upper body control configuration from back position
+- **[[Positions/Twister Control/Truck]]** - Transition target - Accessed when opponent turns away during escape attempts
+- **[[Positions/Turtle]]** - Common entry position - Frequently transition to seat belt from turtle via back take
+- **[[Positions/Mount/Technical Mount]]** - Alternative advancement - Position accessed when opponent partially escapes hooks
+- **[[Positions/Harness]]** - Related grip concept - Shares upper body control mechanics with seat belt configuration
+- **[[Transitions/Rear Naked Choke]]** - Primary submission threat - Highest percentage finish from seat belt back control
 
 
 </section>

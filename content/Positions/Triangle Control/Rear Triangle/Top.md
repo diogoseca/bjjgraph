@@ -207,23 +207,23 @@ Rear Triangle Top is an advanced back control variation where the top practition
 
 ## Available Attacks
 
-### [[Rear Triangle Choke Finish]] (22% of attempts)
+### [[Transitions/Rear Triangle Choke Finish]] (22% of attempts)
 
-### [[Armbar from Back Transition]] (14% of attempts)
+### [[Transitions/Armbar from Back Transition]] (14% of attempts)
 
-### [[Rear Naked Choke]] (16% of attempts)
+### [[Transitions/Rear Naked Choke]] (16% of attempts)
 
-### [[Aoki Lock to Crucifix]] (13% of attempts)
+### [[Transitions/Aoki Lock to Crucifix]] (13% of attempts)
 
-### [[Bow and Arrow Choke]] (12% of attempts)
+### [[Transitions/Bow and Arrow Choke]] (12% of attempts)
 
-### [[Kimura from Back]] (12% of attempts)
+### [[Transitions/Kimura from Back]] (12% of attempts)
 
-### [[Rear Triangle to Armbar]] (6% of attempts)
+### [[Transitions/Rear Triangle to Armbar]] (6% of attempts)
 
-### [[Back Control to Crucifix]] (3% of attempts)
+### [[Transitions/Back Control to Crucifix]] (3% of attempts)
 
-### [[Rear Triangle Choke]] (2% of attempts)
+### [[Submissions/Rear Triangle Choke]] (2% of attempts)
 
 
 
@@ -234,23 +234,23 @@ Rear Triangle Top is an advanced back control variation where the top practition
 ## Decision Making from This Position
 
 **If opponent tucks chin and defends choke primarily:**
-- Execute **[[Armbar from Back Transition]]** → [[Armbar Control]] (Probability: 65%)
-- Execute **[[Kimura from Back]]** → [[Kimura Trap]] (Probability: 45%)
+- Execute **[[Transitions/Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 65%)
+- Execute **[[Transitions/Kimura from Back]]** → [[Positions/Kimura Trap]] (Probability: 45%)
 
 
 **Else if opponent attempts to pull trapped arm free:**
-- Execute **[[Tighten Triangle Lock]]** → [[Rear Triangle]] (Probability: 70%)
-- Execute **[[Rear Triangle Choke Finish]]** → [[Game Over]] (Probability: 60%)
+- Execute **[[Tighten Triangle Lock]]** → [[Positions/Triangle Control/Rear Triangle]] (Probability: 70%)
+- Execute **[[Transitions/Rear Triangle Choke Finish]]** → [[Positions/Game Over]] (Probability: 60%)
 
 
 **Else if opponent turns into triangle attempting escape:**
-- Execute **[[Extend Hips and Finish Triangle]]** → [[Game Over]] (Probability: 55%)
-- Execute **[[Aoki Lock to Crucifix]]** → [[Crucifix]] (Probability: 50%)
+- Execute **[[Extend Hips and Finish Triangle]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Transitions/Aoki Lock to Crucifix]]** → [[Positions/Crucifix]] (Probability: 50%)
 
 
 **Else if opponent creates space by posting free arm:**
-- Execute **[[Rear Naked Choke]]** → [[Game Over]] (Probability: 65%)
-- Execute **[[Attack Free Arm for Control]]** → [[Gift Wrap]] (Probability: 50%)
+- Execute **[[Transitions/Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 65%)
+- Execute **[[Attack Free Arm for Control]]** → [[Positions/Gift Wrap]] (Probability: 50%)
 
 
 
@@ -384,16 +384,16 @@ Establish rear triangle position with compliant partner. Practice the following 
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Parent position - standard back control from which rear triangle is often entered
-- **[[Triangle Control]]** - Similar triangle mechanics applied from different angle and entry
-- **[[Body Triangle]]** - Alternative leg configuration for back control with different control mechanics
-- **[[Crucifix]]** - Common transition target when opponent defends triangle by turning in
-- **[[Seat Belt Control Back]]** - Traditional back control variation that precedes rear triangle entry
-- **[[Rear Triangle Choke Finish]]** - Primary submission finish from this position
-- **[[Armbar from Back Transition]]** - Alternative submission when opponent defends the choke
-- **[[Mounted Triangle]]** - Similar triangle control mechanics from mount position instead of back
-- **[[Gift Wrap]]** - Alternative arm trap control from back that can transition to rear triangle
-- **[[Crab Ride]]** - Leg entanglement position that shares back exposure control principles with rear triangle
+- **[[Positions/Back Control]]** - Parent position - standard back control from which rear triangle is often entered
+- **[[Positions/Triangle Control]]** - Similar triangle mechanics applied from different angle and entry
+- **[[Positions/Back Control/Body Triangle]]** - Alternative leg configuration for back control with different control mechanics
+- **[[Positions/Crucifix]]** - Common transition target when opponent defends triangle by turning in
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Traditional back control variation that precedes rear triangle entry
+- **[[Transitions/Rear Triangle Choke Finish]]** - Primary submission finish from this position
+- **[[Transitions/Armbar from Back Transition]]** - Alternative submission when opponent defends the choke
+- **[[Positions/Mount/Mounted Triangle]]** - Similar triangle control mechanics from mount position instead of back
+- **[[Positions/Gift Wrap]]** - Alternative arm trap control from back that can transition to rear triangle
+- **[[Positions/Crab Ride]]** - Leg entanglement position that shares back exposure control principles with rear triangle
 
 
 </section>

@@ -24,8 +24,8 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 **Category**: Compression
 **Type**: Groin Compression
 **Target Area**: Hip flexors, groin muscles, and inner thigh adductors
-**Starting Position**: [[Lockdown]]
-**From Position**: [[Lockdown]] (Bottom)
+**Starting Position**: [[Positions/Half Guard/Lockdown]]
+**From Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 **Success Rate**: 42%
 
 </section>
@@ -79,8 +79,8 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Lockdown]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -222,11 +222,11 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 
 ## From Which Positions?
 
-- [[Lockdown]]
-- [[Half Guard]]
-- [[Deep Half Guard]]
-- [[Butterfly Half Guard]]
-- [[Quarter Guard]]
+- [[Positions/Half Guard/Lockdown]]
+- [[Positions/Half Guard]]
+- [[Positions/Half Guard/Deep Half Guard]]
+- [[Positions/Half Guard/Butterfly Half Guard]]
+- [[Positions/Quarter Guard]]
 
 
 </section>
@@ -235,16 +235,16 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 
 ## Related Submissions
 
-- [[Electric Chair Submission]]
-- [[Banana Split]]
-- [[Boston Crab]]
-- [[Twister]]
-- [[Toe Hold]]
-- [[Kneebar]]
-- [[Kimura]]
-- [[Guillotine Choke]]
-- [[Straight Ankle Lock]]
-- [[Calf Slicer]]
+- [[Submissions/Electric Chair Submission]]
+- [[Submissions/Banana Split]]
+- [[Submissions/Boston Crab]]
+- [[Submissions/Twister]]
+- [[Transitions/Toe Hold]]
+- [[Transitions/Kneebar]]
+- [[Transitions/Kimura]]
+- [[Transitions/Guillotine Choke]]
+- [[Submissions/Straight Ankle Lock]]
+- [[Transitions/Calf Slicer]]
 
 
 </section>
@@ -253,14 +253,14 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 
 ## Additional Related Content
 
-- [[Lockdown]] - Primary position where Crotch Ripper is executed - lockdown control is prerequisite
-- [[Electric Chair]] - Primary combination sweep when Crotch Ripper is defended - creates submission/sweep dilemma
-- [[Old School]] - Alternative lockdown attack when angle for Crotch Ripper is not available
-- [[Truck]] - Advanced position that can be entered from lockdown system, shares leg entanglement principles
-- [[Half Guard]] - Parent guard position from which lockdown and Crotch Ripper are developed
-- [[Leg Entanglement]] - Fundamental principle underlying all lockdown-based attacks including Crotch Ripper
-- [[Deep Half Guard]] - Related half guard variation that shares lockdown system entries
-- [[Twister Control]] - Advanced 10th Planet position accessible from lockdown system
+- [[Positions/Half Guard/Lockdown]] - Primary position where Crotch Ripper is executed - lockdown control is prerequisite
+- [[Positions/Half Guard/Electric Chair]] - Primary combination sweep when Crotch Ripper is defended - creates submission/sweep dilemma
+- [[Positions/Half Guard/Old School]] - Alternative lockdown attack when angle for Crotch Ripper is not available
+- [[Positions/Twister Control/Truck]] - Advanced position that can be entered from lockdown system, shares leg entanglement principles
+- [[Positions/Half Guard]] - Parent guard position from which lockdown and Crotch Ripper are developed
+- [[Positions/Leg Entanglement]] - Fundamental principle underlying all lockdown-based attacks including Crotch Ripper
+- [[Positions/Half Guard/Deep Half Guard]] - Related half guard variation that shares lockdown system entries
+- [[Positions/Twister Control]] - Advanced 10th Planet position accessible from lockdown system
 
 
 </section>

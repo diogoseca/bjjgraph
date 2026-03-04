@@ -146,7 +146,7 @@ description: "How to defend the Omoplata Sweep in BJJ. Recognition cues, defensi
 
 Defending the omoplata sweep requires recognizing the attack early and understanding that it is fundamentally a reaction-based technique. The attacker needs your defensive movement to generate sweep momentum, which means controlled, measured responses beat panicked reactions. Your primary defensive tools are posture maintenance, arm extraction, and base management. The critical insight is that the omoplata sweep only works when your arm is trapped and your base is compromised, so addressing either of these factors neutralizes the technique. Early recognition gives you time to extract your arm before the position is fully locked. If the position is established, maintaining heavy base and refusing to commit weight forward denies the attacker the reaction they need. Advanced defenders learn to use the omoplata position against the attacker by timing their counter-movements to pass the guard or reverse the position entirely.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the omoplata sweep requires recognizing the attack early and understan
 ### 1. Extract trapped arm before omoplata position is consolidated by pulling elbow tight and circling arm out
 
 - **When to use**: Early stage, as soon as you feel your arm being pulled across and before the leg fully crosses your back
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Return to standard closed guard top position with posture recovered and no submission threat
 - **Risk**: If extraction fails mid-attempt, you may expose your back or create space that accelerates the omoplata entry
 
 ### 2. Posture up explosively and stack opponent by driving forward and lifting their hips with your trapped arm still bent
 
 - **When to use**: When the omoplata position is partially established but opponent has not yet sat up or applied full shoulder pressure
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You end up in top position inside their guard with the omoplata threat neutralized and potential to pass
 - **Risk**: Driving forward feeds sweep momentum if opponent has already committed to the sweep rather than the submission
 
 ### 3. Roll forward over your trapped shoulder to relieve pressure and scramble to top position
 
 - **When to use**: When omoplata is fully locked and shoulder pressure is significant, making arm extraction impossible
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You roll through the omoplata, ending up facing opponent with guard to pass and submission threat neutralized
 - **Risk**: Experienced attackers anticipate the roll and follow to take your back or adjust the omoplata angle to finish during the roll
 
 ### 4. Base wide and refuse to commit weight forward, denying the sweep reaction while working arm free incrementally
 
 - **When to use**: When you recognize the sweep is reaction-based and the attacker is waiting for your forward movement to complete the sweep
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You stall the sweep by denying momentum, then extract your arm or work to pass from the stalled position
 - **Risk**: If you remain too static, the attacker can finish the omoplata submission instead of sweeping
 
@@ -217,11 +217,11 @@ Defending the omoplata sweep requires recognizing the attack early and understan
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Extract your trapped arm early by pulling your elbow tight to your ribs and circling it out before the opponent consolidates the omoplata position. Immediately re-establish posture and strong hand positioning on their hips once freed.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 If the omoplata is fully locked, roll forward over your trapped shoulder to relieve pressure. As you roll, tuck your chin and protect your neck. End facing the opponent and immediately work to establish top control in their guard. Experienced practitioners can time this roll to land directly in passing position.
 

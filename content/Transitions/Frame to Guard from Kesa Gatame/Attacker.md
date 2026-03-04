@@ -180,7 +180,7 @@ description: "Master the frame to guard escape from Kesa Gatame bottom. Step-by-
 
 As the bottom player in Kesa Gatame, your primary objective with the frame to guard escape is to create structural barriers using your forearms against the opponent's neck and shoulder, generate enough space through hip escape mechanics, and insert your knee shield to recover a guard position. This escape prioritizes methodical space creation over explosive movement, making it sustainable even against larger opponents who apply heavy chest pressure. The technique requires understanding skeletal frame alignment where bone structure resists force rather than muscles, timing your hip escape with the opponent's weight shifts or submission attempts, and committing decisively to the guard recovery once space exists rather than retreating to a flat defensive position.
 
-**From Position**: [[Kesa Gatame]] (Bottom)
+**From Position**: [[Positions/Side Control/Kesa Gatame]] (Bottom)
 
 </section>
 
@@ -232,10 +232,10 @@ As the bottom player in Kesa Gatame, your primary objective with the frame to gu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 35% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Kesa Gatame]] | 35% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Open Guard]] | 35% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Side Control/Kesa Gatame]] | 35% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -244,9 +244,9 @@ As the bottom player in Kesa Gatame, your primary objective with the frame to gu
 
 ## Opponent Counters
 
-- **Opponent collapses frames by driving chest forward with increased pressure and head drive** (Effectiveness: High) - Your Response: Re-establish frames by repositioning forearm higher on their jawline with renewed skeletal alignment. If frames collapse completely, immediately redirect to a bridge-and-roll escape that capitalizes on their committed forward weight distribution. → Leads to [[Kesa Gatame]]
-- **Opponent transitions to mount by stepping over as hip escape creates space between bodies** (Effectiveness: Medium) - Your Response: Anticipate the mount transition by keeping your near-side knee active as a barrier. The instant they begin stepping over, insert your knee shield to recover half guard rather than allowing full mount establishment. Your hip escape creates space they need to step through, so use that same space for your knee. → Leads to [[Mount]]
-- **Opponent re-pins near arm and tightens head control when framing attempt is detected early** (Effectiveness: High) - Your Response: Switch to attacking their far posting arm with your free hand to compromise their base before re-attempting frames, or redirect to a ghost escape by sliding your hips away from them rather than pushing through their tightened control. Use their commitment to re-pinning as an opportunity for a different escape vector. → Leads to [[Kesa Gatame]]
+- **Opponent collapses frames by driving chest forward with increased pressure and head drive** (Effectiveness: High) - Your Response: Re-establish frames by repositioning forearm higher on their jawline with renewed skeletal alignment. If frames collapse completely, immediately redirect to a bridge-and-roll escape that capitalizes on their committed forward weight distribution. → Leads to [[Positions/Side Control/Kesa Gatame]]
+- **Opponent transitions to mount by stepping over as hip escape creates space between bodies** (Effectiveness: Medium) - Your Response: Anticipate the mount transition by keeping your near-side knee active as a barrier. The instant they begin stepping over, insert your knee shield to recover half guard rather than allowing full mount establishment. Your hip escape creates space they need to step through, so use that same space for your knee. → Leads to [[Positions/Mount]]
+- **Opponent re-pins near arm and tightens head control when framing attempt is detected early** (Effectiveness: High) - Your Response: Switch to attacking their far posting arm with your free hand to compromise their base before re-attempting frames, or redirect to a ghost escape by sliding your hips away from them rather than pushing through their tightened control. Use their commitment to re-pinning as an opportunity for a different escape vector. → Leads to [[Positions/Side Control/Kesa Gatame]]
 
 
 </section>

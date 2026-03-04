@@ -158,7 +158,7 @@ The defender in this scenario faces a critical decision point: continue racing t
 
 Strategically, the best defense against a counter heel hook begins before it happens - maintaining heel awareness even while attacking. Elite competitors keep their heel tucked or their knee rotated defensively throughout their own offensive sequences. When the counter does materialize, speed of recognition and willingness to abandon your attack determine whether you escape cleanly or find yourself in a submission race where both knees are at risk.
 
-**Opponent's Starting Position**: [[50-50 Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Strategically, the best defense against a counter heel hook begins before it hap
 ### 1. Immediately rotate your knee inward and strip opponent's heel grip with two-on-one hand fighting before they establish figure-four configuration
 
 - **When to use**: As soon as you feel opponent's hand contact your heel or Achilles area, before they secure their secondary grip
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You neutralize the counter and return to neutral 50-50 position where you can re-establish your own attack or disengage
 - **Risk**: If grip strip fails, opponent may advance to deeper heel control while you've abandoned your original attack
 
 ### 2. Abandon your heel hook attack entirely and extract your heel by straightening your leg and pulling back while tucking your heel behind your opposite knee
 
 - **When to use**: When opponent has already secured primary grip on your heel and is working to establish figure-four - full defensive commitment required
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Your heel becomes inaccessible, neutralizing the counter completely and allowing you to reset or transition to passing
 - **Risk**: Straightening your leg to extract exposes you to kneebar if opponent recognizes the opening and transitions
 
 ### 3. Transition to belly-down position by rotating your entire body away from opponent's counter grips while maintaining your own offensive control
 
 - **When to use**: When opponent has partial grips but hasn't established full breaking angle - your rotation prevents them from completing the counter while potentially improving your own attack
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You remove your heel from danger while creating a stronger finishing angle for your own attack from belly-down
 - **Risk**: If rotation is incomplete, opponent can follow your movement and establish even deeper control on your heel
 
 ### 4. Accelerate your own heel hook finish to beat the counter, committing fully to finishing before opponent can apply their breaking pressure
 
 - **When to use**: Only when you have significantly deeper grips than opponent and are confident you can finish 2-3 seconds before their counter reaches breaking pressure
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: You finish your submission before counter becomes dangerous, ending the exchange on your terms
 - **Risk**: Highest risk option - if you misjudge grip depth, both practitioners apply simultaneous breaking pressure with catastrophic knee injury potential for both
 
@@ -229,11 +229,11 @@ Strategically, the best defense against a counter heel hook begins before it hap
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Strip opponent's heel grips through aggressive two-on-one grip fighting combined with knee rotation. Once their counter grips are broken, you return to neutral 50-50 where you can reset your offense, attempt a different attack, or extract to standing. Key is prioritizing grip strips over maintaining your own attack.
 
-### → [[Ashi Garami]]
+### → [[Positions/Ashi Garami]]
 
 If opponent commits heavily to the counter and shifts their body position, use their positional change to extract from the 50-50 entanglement entirely. Their focus on securing your heel creates space for leg extraction. Transition to ashi garami where the entanglement dynamics reset and you may have better defensive positioning.
 

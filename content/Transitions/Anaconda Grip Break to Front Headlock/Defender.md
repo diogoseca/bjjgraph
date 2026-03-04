@@ -146,7 +146,7 @@ description: "Defend against anaconda grip break attempts from top position. Mai
 
 As the top player maintaining anaconda control, defending against the bottom player's grip break attempts requires vigilant grip maintenance, reactive pressure adjustment, and the ability to transition to alternative attacks when the anaconda grip is compromised. Your primary objective is maintaining the constricting loop around the opponent's neck and trapped arm while they actively work to dismantle your grip configuration. When defense of the anaconda grip becomes untenable, you must flow to alternative submissions or positional advancements rather than fighting a losing grip battle. Understanding the mechanics of common grip break methods allows you to preemptively counter them and maintain offensive pressure throughout the exchange.
 
-**Opponent's Starting Position**: [[Anaconda Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Anaconda Control]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the top player maintaining anaconda control, defending against the bottom pla
 ### 1. Squeeze elbows together and drive chest deeper into trapped shoulder to counter-tighten
 
 - **When to use**: When you feel the bottom player's free hand beginning to attack your grip junction or creating initial slack
-- **Targets**: [[Anaconda Control]]
+- **Targets**: [[Positions/Anaconda Control]]
 - **If successful**: Maintains anaconda control with increased choking pressure, potentially forcing the tap before grip break progresses
 - **Risk**: If grip is already significantly compromised, tightening alone may not be sufficient and delays transition to alternative attacks
 
 ### 2. Transition to darce configuration by releasing anaconda and threading arm deeper across neck
 
 - **When to use**: When the bottom player has created meaningful slack in the anaconda grip and re-tightening is unlikely to succeed
-- **Targets**: [[Darce Control]]
+- **Targets**: [[Positions/Darce Control]]
 - **If successful**: Establishes darce choke control which may be tighter than the compromised anaconda and catches opponent mid-escape
 - **Risk**: The transition moment creates a brief window where opponent can extract their head entirely and escape to guard
 
 ### 3. Initiate roll-through finish before grip break completes
 
 - **When to use**: When the bottom player is focused on hand fighting at the grip and their base is compromised from hip movement
-- **Targets**: [[Anaconda Control]]
+- **Targets**: [[Positions/Anaconda Control]]
 - **If successful**: The roll-through achieves dominant finishing angle while opponent is occupied with grip fighting rather than roll defense
 - **Risk**: If the grip is already loose, the roll may complete without sufficient choking pressure, resulting in a scramble
 
 ### 4. Step over opponent's head to secure dominant finishing angle
 
 - **When to use**: When bottom player's grip break movement pulls their posture in a direction that exposes the step-over angle
-- **Targets**: [[Anaconda Control]]
+- **Targets**: [[Positions/Anaconda Control]]
 - **If successful**: Achieves dominant finishing angle with body weight driving the choke regardless of partial grip compromise
 - **Risk**: Bottom player may post on your hip to block the step-over and use the momentary weight shift to accelerate their escape
 
@@ -217,11 +217,11 @@ As the top player maintaining anaconda control, defending against the bottom pla
 
 ## Best-Case Outcomes for Defender
 
-### → [[Anaconda Control]]
+### → [[Positions/Anaconda Control]]
 
 Immediately squeeze elbows together and drive chest deeper into opponent's trapped shoulder when you detect grip break initiation. Preemptive tightening before they create meaningful slack shuts down most grip break methods and increases submission pressure.
 
-### → [[Darce Control]]
+### → [[Positions/Darce Control]]
 
 When the anaconda grip becomes untenable, release your bottom hand and immediately thread your choking arm deeper across opponent's neck toward the far shoulder. Lock the darce grip before they can extract their head from the new configuration, converting their partial escape into a new submission threat.
 

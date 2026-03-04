@@ -21,7 +21,7 @@ Strategically, the stack represents the most direct response to Williams Guard w
 
 The technique requires precise weight distribution and progressive pressure application to avoid triggering sweep counters. Rushing the stack allows the bottom player to use the forward momentum for sweeps or omoplata transitions, while methodical pressure neutralizes these threats by keeping the bottom player's hips elevated and their base compromised. Success depends on controlling the bottom player's hip angle throughout the stacking sequence while maintaining sufficient base to resist being rolled through.
 
-**From Position**: [[Williams Guard]] (Top)
+**From Position**: [[Positions/Williams Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique requires precise weight distribution and progressive pressure appl
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Williams Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Williams Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,21 +191,21 @@ The Stack from Williams Guard occupies a critical role in the guard passing hier
 ## Related Techniques
 
 
-- [[Williams Guard]] - Source position where this transition originates
+- [[Positions/Williams Guard]] - Source position where this transition originates
 
-- [[Half Guard]] - Primary target position upon successful stack completion
+- [[Positions/Half Guard]] - Primary target position upon successful stack completion
 
-- [[Side Control]] - Advanced passing destination after consolidating half guard top
+- [[Positions/Side Control]] - Advanced passing destination after consolidating half guard top
 
-- [[Combat Base]] - Recovery position if stack fails and arm extraction is needed
+- [[Positions/Combat Base]] - Recovery position if stack fails and arm extraction is needed
 
-- [[Closed Guard]] - Guard the defender may recover to if stack pressure is incomplete
+- [[Positions/Closed Guard]] - Guard the defender may recover to if stack pressure is incomplete
 
-- [[Knee Shield Half Guard]] - Intermediate defensive position the bottom player may establish during stack
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Intermediate defensive position the bottom player may establish during stack
 
-- [[Open Guard]] - Broader guard category containing Williams Guard
+- [[Positions/Open Guard]] - Broader guard category containing Williams Guard
 
-- [[Omoplata Control]] - Primary counter-attack threat the defender may transition to during stack
+- [[Positions/Omoplata Control]] - Primary counter-attack threat the defender may transition to during stack
 
 
 </section>

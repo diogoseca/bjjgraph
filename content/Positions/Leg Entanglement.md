@@ -89,13 +89,13 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 ### Available Transitions
 
 
-- **[[Leg Extraction Escape from Entanglement]]** (30% of attempts)
+- **[[Transitions/Leg Extraction Escape from Entanglement]]** (30% of attempts)
 
-- **[[Guard Recovery from Leg Entanglement]]** (28% of attempts)
+- **[[Transitions/Guard Recovery from Leg Entanglement]]** (28% of attempts)
 
-- **[[Inversion Escape from Leg Entanglement]]** (22% of attempts)
+- **[[Transitions/Inversion Escape from Leg Entanglement]]** (22% of attempts)
 
-- **[[Counter Sweep from Leg Entanglement]]** (20% of attempts)
+- **[[Transitions/Counter Sweep from Leg Entanglement]]** (20% of attempts)
 
 
 ### Common Mistakes
@@ -164,29 +164,29 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 ### Available Transitions
 
 
-- **[[Kneebar]]** (13% of attempts)
+- **[[Transitions/Kneebar]]** (13% of attempts)
 
-- **[[Outside Heel Hook]]** (12% of attempts)
+- **[[Transitions/Outside Heel Hook]]** (12% of attempts)
 
-- **[[Ankle Lock Finish]]** (12% of attempts)
+- **[[Transitions/Ankle Lock Finish]]** (12% of attempts)
 
-- **[[Inside Ashi Entry]]** (10% of attempts)
+- **[[Transitions/Inside Ashi Entry]]** (10% of attempts)
 
-- **[[Outside Ashi Entry]]** (10% of attempts)
+- **[[Transitions/Outside Ashi Entry]]** (10% of attempts)
 
-- **[[Toe Hold]]** (8% of attempts)
+- **[[Transitions/Toe Hold]]** (8% of attempts)
 
-- **[[Saddle Entry from Top]]** (7% of attempts)
+- **[[Transitions/Saddle Entry from Top]]** (7% of attempts)
 
-- **[[Back Take from Ashi]]** (7% of attempts)
+- **[[Transitions/Back Take from Ashi]]** (7% of attempts)
 
-- **[[50-50 Entry]]** (6% of attempts)
+- **[[Transitions/50-50 Entry]]** (6% of attempts)
 
-- **[[Ashi Entry from Leg Entanglement]]** (5% of attempts)
+- **[[Transitions/Ashi Entry from Leg Entanglement]]** (5% of attempts)
 
-- **[[Leg Extraction Pass]]** (5% of attempts)
+- **[[Transitions/Leg Extraction Pass]]** (5% of attempts)
 
-- **[[Guard Pass from Leg Entanglement]]** (5% of attempts)
+- **[[Transitions/Guard Pass from Leg Entanglement]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -233,29 +233,29 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 ## Related Positions
 
 
-- **[[Ashi Garami]]** - Primary child variant - standard leg entanglement configuration and foundational position
+- **[[Positions/Ashi Garami]]** - Primary child variant - standard leg entanglement configuration and foundational position
 
-- **[[Inside Ashi-Garami]]** - Child variant - inside heel hook specialization with superior control mechanics
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Child variant - inside heel hook specialization with superior control mechanics
 
-- **[[Outside Ashi-Garami]]** - Child variant - outside heel hook and kneebar attacks with different angle of control
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Child variant - outside heel hook and kneebar attacks with different angle of control
 
-- **[[Cross Ashi-Garami]]** - Child variant - cross-body entanglement with unique submission angles and control dynamics
+- **[[Positions/Ashi Garami/Cross Ashi-Garami]]** - Child variant - cross-body entanglement with unique submission angles and control dynamics
 
-- **[[Saddle]]** - Child variant - most dominant leg entanglement position with multiple submission pathways
+- **[[Positions/Ashi Garami/Saddle]]** - Child variant - most dominant leg entanglement position with multiple submission pathways
 
-- **[[50-50 Guard]]** - Child variant - bilateral leg entanglement creating neutral exchange with both sides attacking
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Child variant - bilateral leg entanglement creating neutral exchange with both sides attacking
 
-- **[[Backside 50-50]]** - Child variant - rear-facing 50-50 configuration with different attacking and escaping dynamics
+- **[[Positions/Ashi Garami/Backside 50-50]]** - Child variant - rear-facing 50-50 configuration with different attacking and escaping dynamics
 
-- **[[Honey Hole]]** - Alternative name for saddle position used in some systematic approaches
+- **[[Positions/Ashi Garami/Honey Hole]]** - Alternative name for saddle position used in some systematic approaches
 
-- **[[Kneebar Control]]** - Submission control position reached from extended leg entanglements
+- **[[Positions/Kneebar Control]]** - Submission control position reached from extended leg entanglements
 
-- **[[Headquarters Position]]** - Common entry position before establishing leg entanglement from top passing
+- **[[Positions/Headquarters Position]]** - Common entry position before establishing leg entanglement from top passing
 
-- **[[Back Control]]** - Alternative dominant position when opponent gives up back to escape leg attacks
+- **[[Positions/Back Control]]** - Alternative dominant position when opponent gives up back to escape leg attacks
 
-- **[[Inside Sankaku]]** - Related entanglement configuration using triangle leg control around opponent's leg
+- **[[Positions/Inside Sankaku]]** - Related entanglement configuration using triangle leg control around opponent's leg
 
 
 </section>

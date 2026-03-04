@@ -21,7 +21,7 @@ The defensive urgency cannot be overstated. Once an invisible collar grip achiev
 
 Strategically, this technique serves as the gateway to all other back control escapes. Without first neutralizing the collar threat, hip escapes and hook removal become futile—the attacker simply finishes the choke while you work. Mastering this hand fighting sequence transforms a desperate survival situation into a systematic defensive framework where each successful grip break creates windows for positional improvement.
 
-**From Position**: [[Invisible Collar]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,8 +32,8 @@ Strategically, this technique serves as the gateway to all other back control es
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Invisible Collar]] | 30% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Rubber Guard/Invisible Collar]] | 30% |
 | Counter | [[game-over]] | 15% |
 
 
@@ -193,25 +193,25 @@ Hand Fighting to Remove Collar Grip serves as the essential first step in all ba
 ## Related Techniques
 
 
-- [[Invisible Collar]] - Starting position being defended against
+- [[Positions/Rubber Guard/Invisible Collar]] - Starting position being defended against
 
-- [[Back Control]] - Position reached after successful grip removal
+- [[Positions/Back Control]] - Position reached after successful grip removal
 
-- [[Back Door Escape]] - Follow-up escape sequence after grip removal
+- [[Transitions/Back Door Escape]] - Follow-up escape sequence after grip removal
 
-- [[Hip Escape to Guard]] - Common escape chain after neutralizing collar threat
+- [[Transitions/Hip Escape to Guard]] - Common escape chain after neutralizing collar threat
 
-- [[Rear Naked Choke]] - Alternative attack opponent may switch to during defense
+- [[Transitions/Rear Naked Choke]] - Alternative attack opponent may switch to during defense
 
-- [[Granby Roll to Guard]] - Alternative escape option once hooks are addressed
+- [[Transitions/Granby Roll to Guard]] - Alternative escape option once hooks are addressed
 
-- [[Elbow Escape to Remove Hooks]] - Follow-up technique after grip removal
+- [[Transitions/Elbow Escape to Remove Hooks]] - Follow-up technique after grip removal
 
-- [[Turtle]] - Transitional position during escape sequence
+- [[Positions/Turtle]] - Transitional position during escape sequence
 
-- [[Hand Fighting from Back]] - Related grip fighting concept from standard back control
+- [[Transitions/Hand Fighting from Back]] - Related grip fighting concept from standard back control
 
-- [[Seat Belt Control Back]] - Grip structure opponent may revert to after collar removal
+- [[Positions/Back Control/Seat Belt Control Back]] - Grip structure opponent may revert to after collar removal
 
 
 </section>

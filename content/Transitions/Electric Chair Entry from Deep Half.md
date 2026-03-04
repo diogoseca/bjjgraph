@@ -21,7 +21,7 @@ The entry relies on precise timing and coordination between the lockdown establi
 
 What makes this entry especially dangerous is that the top player is already contending with deep half sweep threats. Adding the lockdown creates an entirely new dimension of control that forces the opponent to defend both the original deep half attacks and the Electric Chair simultaneously. The transition exemplifies the principle of layered attacks from bottom position, building progressively stronger control until the top player's defensive structure collapses entirely.
 
-**From Position**: [[Deep Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ What makes this entry especially dangerous is that the top player is already con
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Electric Chair]] | 55% |
-| Failure | [[Deep Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard/Electric Chair]] | 55% |
+| Failure | [[Positions/Half Guard/Deep Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Electric Chair Entry from Deep Half sits at the intersection of two major bo
 ## Related Techniques
 
 
-- [[Deep Half Guard]] - Source position from which this transition initiates
+- [[Positions/Half Guard/Deep Half Guard]] - Source position from which this transition initiates
 
-- [[Electric Chair]] - Target position reached on successful entry
+- [[Positions/Half Guard/Electric Chair]] - Target position reached on successful entry
 
-- [[Lockdown]] - Prerequisite leg configuration that enables the Electric Chair mechanics
+- [[Positions/Half Guard/Lockdown]] - Prerequisite leg configuration that enables the Electric Chair mechanics
 
-- [[Half Guard]] - Parent guard system encompassing both deep half and lockdown
+- [[Positions/Half Guard]] - Parent guard system encompassing both deep half and lockdown
 
-- [[Electric Chair Finish]] - Primary submission available from the target Electric Chair position
+- [[Submissions/Electric Chair Finish]] - Primary submission available from the target Electric Chair position
 
-- [[Truck]] - Alternative follow-up position when opponent defends the Electric Chair sweep
+- [[Positions/Twister Control/Truck]] - Alternative follow-up position when opponent defends the Electric Chair sweep
 
-- [[Old School]] - Complementary sweep that chains with Electric Chair from deep half
+- [[Positions/Half Guard/Old School]] - Complementary sweep that chains with Electric Chair from deep half
 
-- [[Back Control]] - Alternative high-value target available from deep half if Electric Chair is defended
+- [[Positions/Back Control]] - Alternative high-value target available from deep half if Electric Chair is defended
 
-- [[Deep Half Sweep]] - Alternative sweep technique from the same starting position
+- [[Transitions/Deep Half Sweep]] - Alternative sweep technique from the same starting position
 
-- [[Banana Split]] - Related submission threat available from Electric Chair position
+- [[Submissions/Banana Split]] - Related submission threat available from Electric Chair position
 
-- [[Dogfight Position]] - Alternative transition when lockdown is compromised but underhook remains
+- [[Positions/Dogfight Position]] - Alternative transition when lockdown is compromised but underhook remains
 
 
 </section>

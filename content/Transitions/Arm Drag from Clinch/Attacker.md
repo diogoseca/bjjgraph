@@ -180,7 +180,7 @@ description: "Learn to execute the arm drag from clinch with precise grip mechan
 
 From the attacker's perspective, the arm drag from clinch is a high-efficiency technique that converts neutral standing engagement into dominant rear control through precise timing and angular movement. The technique demands disciplined grip acquisition disguised within normal hand fighting, explosive hip rotation to power the drag, and immediate chest-to-back connection to prevent the opponent from turning back in. Success depends on reading the opponent's weight distribution and arm extension patterns to identify the optimal moment for execution. The attacker must commit fully once initiated, treating the grip-pull-step sequence as one coordinated burst rather than discrete phases, because any hesitation allows the opponent to pummel back in or counter with a snap down.
 
-**From Position**: [[Clinch]] (Bottom)
+**From Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ From the attacker's perspective, the arm drag from clinch is a high-efficiency t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Rear Clinch]] | 55% |
-| Failure | [[Clinch]] | 30% |
-| Counter | [[Front Headlock]] | 15% |
+| Success | [[Positions/Standing Rear Clinch]] | 55% |
+| Failure | [[Positions/Clinch]] | 30% |
+| Counter | [[Positions/Front Headlock]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ From the attacker's perspective, the arm drag from clinch is a high-efficiency t
 
 ## Opponent Counters
 
-- **Opponent pummels underhook on drag side to deny back access** (Effectiveness: High) - Your Response: Release the drag immediately and re-engage grip fighting from the clinch, or switch to a duck under on the opposite side using their pummel momentum against them → Leads to [[Clinch]]
-- **Opponent snaps your head down during the drag as your posture breaks** (Effectiveness: Medium) - Your Response: Maintain posture by keeping chin tucked and head up during the drag. If caught, pummel inside immediately and circle toward their legs to prevent guillotine or front headlock establishment → Leads to [[Front Headlock]]
-- **Opponent circles away from the drag direction to deny the angle** (Effectiveness: Medium) - Your Response: Follow their circle with your feet, maintaining the grip connection. Convert the chase into a snap down or ankle pick opportunity if they over-rotate away from you → Leads to [[Clinch]]
-- **Opponent posts their free arm as a frame on your shoulder to create distance** (Effectiveness: Low) - Your Response: Continue driving through the frame by keeping low and accelerating the lateral step. The posted arm lacks leverage once you clear their shoulder line and can become a drag target itself → Leads to [[Clinch]]
+- **Opponent pummels underhook on drag side to deny back access** (Effectiveness: High) - Your Response: Release the drag immediately and re-engage grip fighting from the clinch, or switch to a duck under on the opposite side using their pummel momentum against them → Leads to [[Positions/Clinch]]
+- **Opponent snaps your head down during the drag as your posture breaks** (Effectiveness: Medium) - Your Response: Maintain posture by keeping chin tucked and head up during the drag. If caught, pummel inside immediately and circle toward their legs to prevent guillotine or front headlock establishment → Leads to [[Positions/Front Headlock]]
+- **Opponent circles away from the drag direction to deny the angle** (Effectiveness: Medium) - Your Response: Follow their circle with your feet, maintaining the grip connection. Convert the chase into a snap down or ankle pick opportunity if they over-rotate away from you → Leads to [[Positions/Clinch]]
+- **Opponent posts their free arm as a frame on your shoulder to create distance** (Effectiveness: Low) - Your Response: Continue driving through the frame by keeping low and accelerating the lateral step. The posted arm lacks leverage once you clear their shoulder line and can become a drag target itself → Leads to [[Positions/Clinch]]
 
 
 </section>

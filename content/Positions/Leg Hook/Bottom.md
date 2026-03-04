@@ -206,27 +206,27 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 
 ## Available Escapes
 
-### [[Deep Half Entry]] (34% of attempts)
+### [[Transitions/Deep Half Entry]] (34% of attempts)
 
-### [[Old School Sweep]] (9% of attempts)
+### [[Transitions/Old School Sweep]] (9% of attempts)
 
-### [[Underhook Sweep from Half]] (7% of attempts)
+### [[Transitions/Underhook Sweep from Half]] (7% of attempts)
 
-### [[Shin Shield Recovery]] (15% of attempts)
+### [[Transitions/Shin Shield Recovery]] (15% of attempts)
 
-### [[Half Guard Recovery]] (9% of attempts)
+### [[Transitions/Half Guard Recovery]] (9% of attempts)
 
-### [[Hip Escape to Guard]] (7% of attempts)
+### [[Transitions/Hip Escape to Guard]] (7% of attempts)
 
-### [[Butterfly Hook Recovery]] (7% of attempts)
+### [[Transitions/Butterfly Hook Recovery]] (7% of attempts)
 
-### [[Frame and Shrimp to Guard]] (7% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (7% of attempts)
 
-### [[Counter Leg Hook]] (3% of attempts)
+### [[Transitions/Counter Leg Hook]] (3% of attempts)
 
-### [[Escape Leg Hook]] (1% of attempts)
+### [[Transitions/Escape Leg Hook]] (1% of attempts)
 
-### [[Sweep from Leg Hook]] (1% of attempts)
+### [[Transitions/Sweep from Leg Hook]] (1% of attempts)
 
 
 
@@ -237,23 +237,23 @@ Leg Hook Bottom Position represents a critical transitional state within the hal
 ## Decision Making from This Position
 
 **If opponent drives forward with heavy pressure attempting to flatten you:**
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 60%)
-- Execute **[[Frame and Shrimp to Guard]]** → [[Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
 
 
 **Else if opponent attempts to extract their trapped leg by stepping back or standing:**
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 65%)
-- Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **Else if opponent establishes strong crossface and tries to flatten you completely:**
-- Execute **[[Lockdown Recovery]]** → [[Lockdown]] (Probability: 50%)
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 50%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 **Else if opponent maintains good posture but doesn't drive forward aggressively:**
-- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Shin Shield Recovery]]** → [[Knee Shield Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Shin Shield Recovery]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 65%)
 
 
 
@@ -387,16 +387,16 @@ Isolate the old school sweep from leg hook position with partner providing gradu
 
 ## Related Positions and Techniques
 
-- **[[Half Guard]]** - Parent category - broader half guard family
-- **[[Deep Half Guard]]** - Common transition target from leg hook position
-- **[[Single Leg X-Guard]]** - Alternative transition when opponent stands or steps back
-- **[[Knee Shield Half Guard]]** - Alternative half guard variation with different control method
-- **[[Lockdown]]** - Variation using different leg entanglement method
-- **[[Old School Sweep]]** - High-percentage sweep from this position
-- **[[Deep Half Entry]]** - Primary offensive transition option
-- **[[Underhook Sweep from Half]]** - Critical sweep option using underhook control
-- **[[X-Guard]]** - Systematic approach incorporating leg hook variations
-- **[[Butterfly Guard]]** - Related guard with complementary hook mechanics
+- **[[Positions/Half Guard]]** - Parent category - broader half guard family
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common transition target from leg hook position
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Alternative transition when opponent stands or steps back
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Alternative half guard variation with different control method
+- **[[Positions/Half Guard/Lockdown]]** - Variation using different leg entanglement method
+- **[[Transitions/Old School Sweep]]** - High-percentage sweep from this position
+- **[[Transitions/Deep Half Entry]]** - Primary offensive transition option
+- **[[Transitions/Underhook Sweep from Half]]** - Critical sweep option using underhook control
+- **[[Positions/X-Guard]]** - Systematic approach incorporating leg hook variations
+- **[[Positions/Butterfly Guard]]** - Related guard with complementary hook mechanics
 
 
 </section>

@@ -22,8 +22,8 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries
-**Starting Position**: [[Back Control]]
-**From Position**: [[Back Control]] (Top)
+**Starting Position**: [[Positions/Back Control]]
+**From Position**: [[Positions/Back Control]] (Top)
 **Success Rate**: 62%
 
 </section>
@@ -78,8 +78,8 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -268,14 +268,14 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 
 ## From Which Positions?
 
-- [[Back Control]]
-- [[Seat Belt Control Back]]
-- [[Mount]]
-- [[Technical Mount]]
-- [[Side Control]]
-- [[Turtle]]
-- [[Gift Wrap]]
-- [[Body Triangle]]
+- [[Positions/Back Control]]
+- [[Positions/Back Control/Seat Belt Control Back]]
+- [[Positions/Mount]]
+- [[Positions/Mount/Technical Mount]]
+- [[Positions/Side Control]]
+- [[Positions/Turtle]]
+- [[Positions/Gift Wrap]]
+- [[Positions/Back Control/Body Triangle]]
 
 
 </section>
@@ -284,16 +284,16 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 
 ## Related Submissions
 
-- [[Rear Naked Choke]]
-- [[Clock Choke]]
-- [[Short Choke]]
-- [[Paper Cutter Choke]]
-- [[Armbar from Back]]
-- [[Baseball Bat Choke]]
-- [[Loop Choke]]
-- [[Cross Collar Choke]]
-- [[Armbar from Back with Legs]]
-- [[Triangle Choke Back]]
+- [[Transitions/Rear Naked Choke]]
+- [[Transitions/Clock Choke]]
+- [[Transitions/Short Choke]]
+- [[Transitions/Paper Cutter Choke]]
+- [[Submissions/Armbar from Back]]
+- [[Transitions/Baseball Bat Choke]]
+- [[Submissions/Loop Choke]]
+- [[Transitions/Cross Collar Choke]]
+- [[Submissions/Armbar from Back with Legs]]
+- [[Submissions/Triangle Choke Back]]
 
 
 </section>
@@ -302,16 +302,16 @@ The Bow and Arrow Choke is a highly effective gi-based blood choke executed from
 
 ## Additional Related Content
 
-- [[Back Control]] - Primary starting position for bow and arrow choke entry
-- [[Seat Belt Control Back]] - Fundamental back control configuration before transitioning to bow and arrow
-- [[Turtle]] - Alternative entry position via turtle breakdown with collar grip
-- [[Rear Naked Choke]] - Primary attack that creates bow and arrow opportunities when defended
-- [[Clock Choke]] - Chains into bow and arrow when opponent rolls defensively
-- [[Crucifix]] - Alternative control position when bow and arrow entry is denied
-- [[Gift Wrap]] - Alternative arm control that can set up bow and arrow entry
-- [[Technical Mount]] - Transitional position for back control and bow and arrow entries
-- [[Short Choke]] - Alternative back choke when bow and arrow grip is defended
-- [[Body Triangle]] - Back control variation that can transition to bow and arrow
+- [[Positions/Back Control]] - Primary starting position for bow and arrow choke entry
+- [[Positions/Back Control/Seat Belt Control Back]] - Fundamental back control configuration before transitioning to bow and arrow
+- [[Positions/Turtle]] - Alternative entry position via turtle breakdown with collar grip
+- [[Transitions/Rear Naked Choke]] - Primary attack that creates bow and arrow opportunities when defended
+- [[Transitions/Clock Choke]] - Chains into bow and arrow when opponent rolls defensively
+- [[Positions/Crucifix]] - Alternative control position when bow and arrow entry is denied
+- [[Positions/Gift Wrap]] - Alternative arm control that can set up bow and arrow entry
+- [[Positions/Mount/Technical Mount]] - Transitional position for back control and bow and arrow entries
+- [[Transitions/Short Choke]] - Alternative back choke when bow and arrow grip is defended
+- [[Positions/Back Control/Body Triangle]] - Back control variation that can transition to bow and arrow
 
 
 </section>

@@ -21,7 +21,7 @@ The mechanics of this choke create a unilateral blood restriction by driving the
 
 Strategically, the Paper Cutter serves as an excellent complement to arm attacks from Kesa-Gatame. When opponents defend americana and armbar threats by keeping their elbows tight and chin tucked, they often inadvertently create the collar access needed for this choke. The threat of the Paper Cutter forces opponents to choose between protecting their neck (which opens arm attacks) or protecting their arms (which exposes the choke), creating a classic submission dilemma that characterizes effective top-side control offense.
 
-**From Position**: [[Kuzure Kesa-Gatame]] (Top)
+**From Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -33,8 +33,8 @@ Strategically, the Paper Cutter serves as an excellent complement to arm attacks
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Kuzure Kesa-Gatame]] | 30% |
-| Counter | [[Half Guard]] | 12% |
+| Failure | [[Positions/Side Control/Kuzure Kesa-Gatame]] | 30% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Paper Cutter Choke functions as a key submission within the Kuzure Kesa-Gata
 ## Related Techniques
 
 
-- [[Kuzure Kesa-Gatame]] - Starting position - all setup and pressure mechanics originate here
+- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Starting position - all setup and pressure mechanics originate here
 
-- [[Breadcutter Choke]] - Near-side choke alternative when opponent defends Paper Cutter by tucking chin
+- [[Transitions/Breadcutter Choke]] - Near-side choke alternative when opponent defends Paper Cutter by tucking chin
 
-- [[Americana from Side Control]] - Complementary arm attack - opponent defending choke exposes the arm
+- [[Submissions/Americana from Side Control]] - Complementary arm attack - opponent defending choke exposes the arm
 
-- [[Armbar from Side Control]] - Complementary attack when opponent extends arms to defend choke
+- [[Submissions/Armbar from Side Control]] - Complementary attack when opponent extends arms to defend choke
 
-- [[Kimura from Side Control]] - Alternative shoulder lock when arm positioning allows grip acquisition
+- [[Submissions/Kimura from Side Control]] - Alternative shoulder lock when arm positioning allows grip acquisition
 
-- [[Baseball Bat Choke]] - Related gi choke sharing similar collar grip mechanics and angles
+- [[Transitions/Baseball Bat Choke]] - Related gi choke sharing similar collar grip mechanics and angles
 
-- [[Side Control]] - Parent position family with shared control and pressure principles
+- [[Positions/Side Control]] - Parent position family with shared control and pressure principles
 
-- [[Mount]] - Advancement option via step-over Paper Cutter variant
+- [[Positions/Mount]] - Advancement option via step-over Paper Cutter variant
 
-- [[Kesa Gatame]] - Traditional scarf hold variant sharing pressure mechanics foundation
+- [[Positions/Side Control/Kesa Gatame]] - Traditional scarf hold variant sharing pressure mechanics foundation
 
-- [[Cross Collar Choke]] - Related collar choke sharing grip insertion fundamentals
+- [[Transitions/Cross Collar Choke]] - Related collar choke sharing grip insertion fundamentals
 
 
 </section>

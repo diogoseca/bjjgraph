@@ -154,7 +154,7 @@ description: "How to defend against Uchi Mata in BJJ. Recognition cues, defensiv
 
 Defending Uchi Mata requires early recognition and decisive action because once the thrower commits to full rotation with proper kuzushi, the throw becomes extremely difficult to stop. The defender's primary goal is to prevent the attacker from achieving the conditions necessary for the throw: close hip contact, forward off-balancing, and the inner thigh sweep. Effective defense begins long before the throw itself, starting with grip fighting to deny dominant grips and maintaining a posture that keeps your center of gravity low and your hips away from the attacker's hip line. Understanding the mechanical requirements of Uchi Mata allows you to systematically remove each element the attacker needs. If you can deny hip contact, the throw has no fulcrum. If you can prevent forward kuzushi, there is no weight to sweep. If you can read the entry early enough, you can counter-attack before the rotation develops. The most dangerous moment is when the attacker has already stepped in and begun rotating. At this stage, your options narrow to sprawling, posting, or attempting a counter-throw. Developing the ability to recognize Uchi Mata entries early, ideally during the kuzushi phase before the step-in, gives you the maximum number of defensive options and the best chance of maintaining or improving your position.
 
-**Opponent's Starting Position**: [[Clinch]] (Top)
+**Opponent's Starting Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending Uchi Mata requires early recognition and decisive action because once 
 ### 1. Hip sprawl - drive your hips backward and away from the attacker the moment you feel the entry step
 
 - **When to use**: As soon as you recognize the attacker stepping in or feel their hip approaching yours. This is the highest-percentage defense when timed early.
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Attacker's throw fails because they cannot make hip contact. You maintain clinch position with potential to counter-attack from the sprawl.
 - **Risk**: If you sprawl too late or too weakly, the attacker may still complete the throw or switch to a different attack like a snap down to front headlock.
 
 ### 2. Post wide with your outside leg and circle away from the throwing direction to remove the target leg from the sweep path
 
 - **When to use**: When you feel the kuzushi pulling you forward but the attacker has not yet made full hip contact. Step your outside leg wide and circle away from their rotation.
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: The wide base prevents the sweep from lifting your supporting leg. You maintain standing position and can reset the clinch exchange.
 - **Risk**: If the attacker reads your post and switches to Harai Goshi or Osoto Gari targeting your posted leg, you may be thrown in a different direction.
 
 ### 3. Counter-throw with Uchi Mata Sukashi (void throw) by pulling your target leg back and redirecting the attacker's momentum
 
 - **When to use**: When the attacker is mid-rotation and has committed to the throw but has not yet made strong contact with your inner thigh. Requires precise timing.
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: The attacker throws themselves due to their own committed momentum. You end up in top position with the attacker on their back.
 - **Risk**: Mistiming the sukashi can result in the original throw succeeding. If the attacker has strong grips and good rotation, the counter may fail and you get thrown harder.
 
 ### 4. Block the sweeping leg by pressing your knee inward and lowering your base to prevent the lift
 
 - **When to use**: When the attacker's leg makes contact with your inner thigh but the throw is not yet fully loaded. Squeeze your knees together and drop your weight.
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: The sweep cannot generate enough lift to complete the throw. Both players remain standing and you can work to break grips and reset.
 - **Risk**: If the attacker has already generated significant rotational momentum, simply blocking the leg may not be enough and you could still be thrown off balance.
 
@@ -225,11 +225,11 @@ Defending Uchi Mata requires early recognition and decisive action because once 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Sprawl early and decisively when you recognize the entry step. Drive your hips back and down while maintaining your grips on the attacker. As their throw fails, use the positional advantage of their compromised posture to establish dominant grips or initiate your own takedown attempt. The failed throw leaves them extended and off-balance, creating openings for snap downs, go-behinds, or counter-takedowns.
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Execute Uchi Mata Sukashi or a counter-throw when the attacker over-commits to their rotation. As they turn their back and lift their sweeping leg, pull your target leg back while redirecting their forward momentum downward. Step around their rotating body and guide them to the mat using their own momentum. This requires precise timing during the transition between their entry and full rotation, and strong grip control to redirect their trajectory.
 

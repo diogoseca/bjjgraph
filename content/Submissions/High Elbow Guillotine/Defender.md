@@ -194,28 +194,28 @@ Defending against the High Elbow Guillotine requires a systematic approach that 
 ### 1. Turn into the attacker by rotating your body to face them, driving your near shoulder into their chest to eliminate the non-choking shoulder pressure on your neck
 
 - **When to use**: As soon as you recognize the high elbow position being established, before the grip is fully consolidated and guard is closed. Most effective in the first 2-3 seconds of the attack.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Eliminates the shoulder pressure that creates the bilateral choke, reducing the attack to a much less effective single-side pressure that can be defended with hand fighting and posture recovery
 - **Risk**: If you turn but fail to eliminate the shoulder pressure completely, the attacker may transition to darce or anaconda choke which exploit your turned position
 
 ### 2. Two-on-one grip fight on the choking wrist while simultaneously pushing the attacker's elbow down below your shoulder line to destroy the high elbow angle
 
 - **When to use**: When the attacker has established the grip but has not yet closed guard or connected hips. Your hands must be free to fight the grip before they are trapped.
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Breaking the grip or lowering the elbow converts the attack back to a standard guillotine that is far easier to defend with chin tuck and posture recovery
 - **Risk**: Committing both hands to grip fighting leaves you unable to post or frame, making you vulnerable to being swept or pulled into guard if the attacker adjusts
 
 ### 3. Create maximum hip distance by pushing off attacker's hips with both hands while driving your hips backward, then circle to the side and recover posture
 
 - **When to use**: When the attacker has the grip locked but guard is not yet closed. Most effective from standing where you can step backward and circle. Also effective in half guard where you can use knee shield to maintain distance.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Separating hips removes the lower body connection that gives the choke its finishing power, allowing you to work head extraction and posture recovery from a safer distance
 - **Risk**: If the attacker follows your hip movement and closes guard during your retreat, you may end up in a worse position with the choke still locked and now in closed guard
 
 ### 4. Posture explosively by driving your hips forward and lifting your head while controlling the attacker's choking arm at the elbow, using your whole body to break the structure
 
 - **When to use**: When caught in closed guard with the choke partially locked. Must be executed with full commitment and immediately followed by guard passing attempts or further distance creation.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Breaking the attacker's posture control allows you to begin extracting your head and transitioning to a passing position where the choke loses all effectiveness
 - **Risk**: The posturing motion can momentarily tighten the choke before you break free. If you posture half-heartedly and fail, you will have wasted energy and the attacker will retighten
 
@@ -238,11 +238,11 @@ Defending against the High Elbow Guillotine requires a systematic approach that 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Successfully turn into the attacker early to eliminate shoulder pressure, then hand fight the choking wrist free while maintaining posture. Once the grip breaks, immediately establish your own front headlock control or recover to standing neutral position.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Create enough hip distance and posture recovery that the attacker's guillotine loses finishing power. Extract your head by circling to the side while controlling their elbow. End up in their closed guard with your head free and posture recovered, which is a fundamentally safe position.
 

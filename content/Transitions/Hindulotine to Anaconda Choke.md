@@ -21,7 +21,7 @@ This transition is particularly effective from the bottom Hindulotine position b
 
 Strategically, threatening this transition forces opponents into a dilemma: maintain tight defensive posture and remain vulnerable to the guillotine, or create space to relieve pressure and expose themselves to the anaconda. Advanced practitioners use this dynamic to control the pace of engagement, keeping opponents reactive rather than allowing them to establish settled defensive positions.
 
-**From Position**: [[Hindulotine]] (Bottom)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, threatening this transition forces opponents into a dilemma: main
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Anaconda Control]] | 65% |
-| Failure | [[Hindulotine]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Anaconda Control]] | 65% |
+| Failure | [[Positions/Hindulotine]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Hindulotine to Anaconda transition fits within the broader front headlock at
 ## Related Techniques
 
 
-- [[Hindulotine]] - Starting position
+- [[Positions/Hindulotine]] - Starting position
 
-- [[Anaconda Control]] - Target position on success
+- [[Positions/Anaconda Control]] - Target position on success
 
-- [[Anaconda Choke]] - Follow-up submission
+- [[Transitions/Anaconda Choke]] - Follow-up submission
 
-- [[Hindulotine to Darce Choke]] - Alternative transition when opponent turns shoulder in
+- [[Transitions/Hindulotine to Darce Choke]] - Alternative transition when opponent turns shoulder in
 
-- [[Darce Choke]] - Alternative submission from same system
+- [[Transitions/Darce Choke]] - Alternative submission from same system
 
-- [[Guillotine Choke]] - Related attack from same position
+- [[Transitions/Guillotine Choke]] - Related attack from same position
 
-- [[Back Take from Bottom]] - Alternative if opponent turns too far
+- [[Transitions/Back Take from Bottom]] - Alternative if opponent turns too far
 
-- [[Front Headlock]] - Parent control system
+- [[Positions/Front Headlock]] - Parent control system
 
-- [[Closed Guard]] - Recovery position if transition fails
+- [[Positions/Closed Guard]] - Recovery position if transition fails
 
-- [[High Elbow Guillotine]] - Alternative finish option from Hindulotine
+- [[Submissions/High Elbow Guillotine]] - Alternative finish option from Hindulotine
 
 
 </section>

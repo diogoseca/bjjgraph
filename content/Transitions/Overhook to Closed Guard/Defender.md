@@ -154,7 +154,7 @@ description: "Complete guide to defending against Overhook to Closed Guard trans
 
 As the defender against the Overhook to Closed Guard transition, you are the top player working to prevent the bottom player from consolidating their guard by locking their ankles behind your back. Your primary objective is to maintain enough posture and hip distance to keep their legs from wrapping around your waist, while simultaneously working to strip the overhook and establish a passing position. Early recognition is critical because once the ankles are locked, you transition from defending a closure attempt to the significantly more difficult task of opening an established closed guard. Prevention is far easier than the cure, making your ability to read the bottom player's hip movement and grip adjustments the most important defensive skill in this exchange.
 
-**Opponent's Starting Position**: [[Overhook Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Overhook Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the Overhook to Closed Guard transition, you are the top
 ### 1. Explosive posture recovery by driving hips back and straightening spine
 
 - **When to use**: As soon as you feel the bottom player walking their hips upward toward your waist or increasing overhook pull
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Creates enough distance to prevent guard closure and may strip the overhook entirely, transitioning to open guard passing position
 - **Risk**: If the overhook is deep and your posture break fails, you may exhaust energy without creating meaningful distance
 
 ### 2. Circular arm extraction to strip the overhook grip
 
 - **When to use**: When the bottom player loosens overhook tension momentarily to adjust their leg position or shift grips during hip walking
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Freed arm allows full posture recovery and immediate guard passing initiation without overhook restriction
 - **Risk**: Momentary loss of base during arm extraction may allow the bottom player to execute a sweep if timed poorly
 
 ### 3. Drive hips back and widen base to create distance preventing ankle crossing
 
 - **When to use**: Before the bottom player can walk their hips close enough to lock ankles, as a preemptive distance maintenance response
-- **Targets**: [[Overhook Guard]]
+- **Targets**: [[Positions/Overhook Guard]]
 - **If successful**: Maintains sufficient hip distance that the bottom player cannot reach to wrap legs, keeping you in overhook guard top where you continue working your passing game
 - **Risk**: Driving hips back while overhook is maintained may open space for hip bump sweep if the bottom player redirects your backward momentum
 
 ### 4. Insert knee or elbow between their legs and your torso as a wedge
 
 - **When to use**: When the bottom player's legs begin wrapping around your waist but ankles are not yet crossed
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Physical wedge prevents ankle crossing and creates a lever to pry legs open, transitioning to an open guard passing position
 - **Risk**: Inserting limbs between guard legs can expose them to triangle or armbar setups if positioning is poor
 
@@ -225,11 +225,11 @@ As the defender against the Overhook to Closed Guard transition, you are the top
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip the overhook during the bottom player's transition attempt using circular arm extraction when they loosen grip tension to adjust legs. Combined with explosive posture recovery and hip distance creation, this forces the bottom player into open guard where they lack both the overhook control and closed guard security.
 
-### → [[Overhook Guard]]
+### → [[Positions/Overhook Guard]]
 
 Prevent the closure by maintaining strong posture and hip distance throughout the attempt. Even though you remain in overhook guard, successfully defending the closure means you maintain the status quo where you are actively working your passing game rather than being stuck inside a newly locked closed guard.
 

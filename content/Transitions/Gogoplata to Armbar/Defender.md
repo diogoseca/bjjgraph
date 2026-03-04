@@ -146,7 +146,7 @@ description: "Defend against the gogoplata to armbar chain attack. Learn recogni
 
 Defending the gogoplata to armbar transition requires awareness of the chain attack concept and the ability to recognize the switch point between submissions. The defender, trapped in gogoplata control, must balance between defending the primary choke threat and protecting against the armbar transition. The critical defensive window occurs during the attacker's hip pivot phase, where the transition between gogoplata and armbar creates a brief moment of reduced control. Defenders who recognize this window and react with proper posture recovery or arm protection can prevent the armbar from establishing while potentially escaping the submission chain entirely. Understanding that every gogoplata defense carries armbar risk fundamentally changes defensive strategy from isolated submission defense to comprehensive chain awareness.
 
-**Opponent's Starting Position**: [[Gogoplata Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the gogoplata to armbar transition requires awareness of the chain att
 ### 1. Tuck arm tight against body and deny wrist control before the transition initiates
 
 - **When to use**: Immediately when you feel the attacker searching for wrist control while still maintaining gogoplata position, before they have secured a firm grip
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Attacker cannot initiate the armbar transition and must continue with gogoplata pressure or attempt a different chain attack pathway
 - **Risk**: Keeping arms tucked may increase vulnerability to the gogoplata itself if the attacker re-tightens shin pressure and deepens foot position behind head
 
 ### 2. Stack forward aggressively during the hip pivot phase to collapse the armbar angle
 
 - **When to use**: The moment you feel the attacker's foot release from behind your head and sense their hips beginning to rotate beneath you
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Forward pressure breaks the attacker's hip alignment, compromises the armbar angle, and creates opportunity to pass toward half guard or side control top
 - **Risk**: If the attacker has already secured strong wrist control, stacking may inadvertently accelerate the armbar by driving your own arm into extension against their hips
 
 ### 3. Posture explosively and extract head during the transition gap between submissions
 
 - **When to use**: During the narrow transition moment when the gogoplata foot is released but before the armbar leg has swung over your head
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Complete escape from the entire submission chain, establishing top position in half guard with the attacker's offensive structure dismantled
 - **Risk**: If timing is slightly late, you may end up in a worse armbar position with the leg already over your head and no defensive structure established
 
 ### 4. Bridge and turn into the attacker to disrupt the armbar pivot angle
 
 - **When to use**: Once the armbar leg begins swinging over your head but before full armbar control with pinched knees is established
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Disrupts the armbar perpendicular angle and returns position to a gogoplata scramble where standard gogoplata defenses can be applied
 - **Risk**: Turning into the attacker may expose your back if the attacker abandons the armbar and flows to a back take instead
 
@@ -217,7 +217,7 @@ Defending the gogoplata to armbar transition requires awareness of the chain att
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your posture recovery for the exact moment the attacker releases the gogoplata foot from behind your head. This is the weakest point in the chain where neither the gogoplata nor the armbar is fully controlling your posture. Drive forward explosively with your legs while pulling your head upward and back, clearing the submission chain and establishing top position in half guard where you have legitimate passing options.
 

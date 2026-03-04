@@ -21,7 +21,7 @@ This movement represents a critical skill for modern guard players facing system
 
 Timing is paramount for successful execution. The inversion must be initiated during a transitional moment, typically when the passer shifts weight to begin a passing sequence like a knee cut or toreando. Attempting the inversion against a settled, heavy headquarters position dramatically reduces success rates and increases the risk of being caught mid-roll in an exposed position. Advanced practitioners learn to bait specific passing reactions that create the weight-shift windows necessary for clean inversions, transforming the passer's aggression into their own escape opportunity.
 
-**From Position**: [[Headquarters Position]] (Bottom)
+**From Position**: [[Positions/Headquarters Position]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Timing is paramount for successful execution. The inversion must be initiated du
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[De La Riva Guard]] | 50% |
-| Failure | [[Headquarters Position]] | 30% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/De La Riva Guard]] | 50% |
+| Failure | [[Positions/Headquarters Position]] | 30% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -193,23 +193,23 @@ The Inversion from Headquarters serves as a critical bridge between defensive gu
 ## Related Techniques
 
 
-- [[Headquarters Position]] - Starting position where the technique is initiated from the bottom player's perspective
+- [[Positions/Headquarters Position]] - Starting position where the technique is initiated from the bottom player's perspective
 
-- [[De La Riva Guard]] - Primary target guard position after successful inversion recovery
+- [[Positions/De La Riva Guard]] - Primary target guard position after successful inversion recovery
 
-- [[Inverted Guard]] - Transitional position passed through during the inversion movement
+- [[Positions/Inverted Guard]] - Transitional position passed through during the inversion movement
 
-- [[K-Guard]] - Alternative guard recovery accessible during the inversion if DLR hook cannot be established
+- [[Positions/K-Guard]] - Alternative guard recovery accessible during the inversion if DLR hook cannot be established
 
-- [[Berimbolo Entry]] - Related inversion-based technique sharing similar shoulder roll mechanics and timing principles
+- [[Transitions/Berimbolo Entry]] - Related inversion-based technique sharing similar shoulder roll mechanics and timing principles
 
-- [[Single Leg X-Guard]] - Alternative guard recovery target when passer backsteps during the inversion
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative guard recovery target when passer backsteps during the inversion
 
-- [[Reverse De La Riva Guard]] - Alternative guard recovery option if the inversion angle is redirected by passer movement
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Alternative guard recovery option if the inversion angle is redirected by passer movement
 
-- [[Back Step Pass]] - Common passer counter-response that creates a different passing angle during the inversion
+- [[Transitions/Back Step Pass]] - Common passer counter-response that creates a different passing angle during the inversion
 
-- [[Side Control]] - Position the passer achieves if the inversion is caught and exploited during execution
+- [[Positions/Side Control]] - Position the passer achieves if the inversion is caught and exploited during execution
 
 
 </section>

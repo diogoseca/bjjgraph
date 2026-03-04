@@ -158,7 +158,7 @@ The key defensive principle is denying the attacker's access to your lead leg. W
 
 Strategically, understanding when opponents are likely to attempt this entry - typically after grip breaks, during forward pressure exchanges, or when they establish a low collar tie - allows you to preemptively adjust your stance and weight distribution to make the entry significantly harder. Experienced defenders bait the entry attempt to capitalize on the attacker's commitment for counter-offense.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Strategically, understanding when opponents are likely to attempt this entry - t
 ### 1. Sprawl and circle away
 
 - **When to use**: As soon as you detect the opponent reaching for your lead leg or beginning their descent to the mat
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You remain standing while opponent is on their seat without a controlling grip on your leg, giving you a dominant standing position to re-engage or pursue top control
 - **Risk**: If you sprawl too late after they have secured the ankle grip, you may end up in a scramble with them pulling you into a compromised position
 
 ### 2. Backstep the lead leg and re-angle
 
 - **When to use**: When opponent has established a grip on your upper body but has not yet secured your lead ankle or shin
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You remove the target leg from their reach while maintaining your standing base, forcing them to abandon the entry or accept an inferior guard position
 - **Risk**: Stepping back without breaking their upper body grip can pull you off balance if they redirect to a different guard pull
 
 ### 3. Drive forward with knee slice pressure
 
 - **When to use**: When opponent has already begun sitting but has not fully configured their leg hooks around your leg
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You smash through their incomplete guard structure and achieve a passing position with your knee across their thigh, putting them in open guard bottom rather than 50-50
 - **Risk**: If their hooks are more established than you realized, driving forward can actually help them complete the entanglement with your added momentum
 
 ### 4. Strip ankle grip and disengage to standing reset
 
 - **When to use**: When opponent has secured your ankle but has not yet sat down or configured their legs
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You break the critical connection point that enables the entire entry, resetting to neutral standing where you can re-engage on your terms
 - **Risk**: Focusing on the grip strip while opponent is already descending can leave you caught in an awkward half-entanglement if the strip fails
 
@@ -229,11 +229,11 @@ Strategically, understanding when opponents are likely to attempt this entry - t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Deny the entry entirely through early recognition and sprawling, backstep defense, or grip stripping before the opponent can establish the leg entanglement. The most reliable path is recognizing the entry in its earliest phase - when opponent reaches for your ankle - and immediately pulling your lead leg back while driving your hips away. Maintain your grips to prevent them from following you.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 If the opponent manages to sit but you prevent the full 50-50 configuration by extracting your knee past their hip line, you end up in their open guard rather than the entanglement. Drive forward pressure through a knee slice or smash pass while their legs are not yet properly configured. This outcome is less favorable than remaining standing but significantly better than being caught in 50-50 where they have inside position advantage.
 

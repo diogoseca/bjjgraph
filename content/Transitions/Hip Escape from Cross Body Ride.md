@@ -21,7 +21,7 @@ Strategically, this escape functions as a first-line defensive option when the b
 
 The technique is most effective when initiated during moments of weight transition—when the top player adjusts grips, shifts pressure, or begins setting up their own transitions. Reading these micro-adjustments and timing the explosive hip movement accordingly transforms a moderate-percentage escape into a high-reliability defensive tool. Advanced practitioners chain the hip escape with sit-outs, granby rolls, and guard recovery sequences to create multi-layered escape systems that prevent the top player from settling into any single control configuration.
 
-**From Position**: [[Cross Body Ride]] (Bottom)
+**From Position**: [[Positions/Cross Body Ride]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,10 +32,10 @@ The technique is most effective when initiated during moments of weight transiti
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 40% |
-| Success | [[Half Guard]] | 10% |
-| Failure | [[Cross Body Ride]] | 30% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Turtle]] | 40% |
+| Success | [[Positions/Half Guard]] | 10% |
+| Failure | [[Positions/Cross Body Ride]] | 30% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -194,25 +194,25 @@ The Hip Escape from Cross Body Ride occupies a critical position within the turt
 ## Related Techniques
 
 
-- [[Cross Body Ride]] - Starting position where the escape is initiated from bottom
+- [[Positions/Cross Body Ride]] - Starting position where the escape is initiated from bottom
 
-- [[Turtle]] - Primary success outcome—recovering neutral turtle removes the ride pressure
+- [[Positions/Turtle]] - Primary success outcome—recovering neutral turtle removes the ride pressure
 
-- [[Half Guard]] - Secondary success outcome—turning in to recover half guard from the escape
+- [[Positions/Half Guard]] - Secondary success outcome—turning in to recover half guard from the escape
 
-- [[Back Control]] - Counter outcome—opponent capitalizes on escape movement to secure back control
+- [[Positions/Back Control]] - Counter outcome—opponent capitalizes on escape movement to secure back control
 
-- [[Escape from Cross Body Ride]] - Related escape family encompassing various methods of escaping the ride
+- [[Transitions/Escape from Cross Body Ride]] - Related escape family encompassing various methods of escaping the ride
 
-- [[Roll Escape from Cross Body Ride]] - Alternative escape using rolling mechanics rather than lateral displacement
+- [[Transitions/Roll Escape from Cross Body Ride]] - Alternative escape using rolling mechanics rather than lateral displacement
 
-- [[Turtle to Guard]] - Follow-up technique from turtle recovery after successful escape
+- [[Transitions/Turtle to Guard]] - Follow-up technique from turtle recovery after successful escape
 
-- [[Hip Escape to Guard]] - Related hip escape technique targeting direct guard recovery
+- [[Transitions/Hip Escape to Guard]] - Related hip escape technique targeting direct guard recovery
 
-- [[Crab Ride]] - Adjacent controlling position the top player may transition to if ride is compromised
+- [[Positions/Crab Ride]] - Adjacent controlling position the top player may transition to if ride is compromised
 
-- [[Peterson Roll]] - Alternative rolling escape technique from similar turtle-bottom situations
+- [[Transitions/Peterson Roll]] - Alternative rolling escape technique from similar turtle-bottom situations
 
 
 </section>

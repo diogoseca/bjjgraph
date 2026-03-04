@@ -186,7 +186,7 @@ description: "Master executing the hip escape from back control bottom in BJJ. D
 
 As the bottom player executing the hip escape from back control, your primary objective is to systematically dismantle the opponent's three-layered control system: neck threats through chin protection and hand fighting, upper body grips through seatbelt stripping, and leg hooks through hip scooting and rotation. The technique requires patience and methodical execution rather than explosive movement. You must complete each defensive phase before progressing to the next, as skipping steps such as fighting hooks before securing neck defense consistently results in submission. The hip escape rewards practitioners who maintain composure under pressure and execute incremental positional improvements rather than gambling on explosive escapes that expose the neck.
 
-**From Position**: [[Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
 
@@ -238,9 +238,9 @@ As the bottom player executing the hip escape from back control, your primary ob
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Back Control]] | 35% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Back Control]] | 35% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -249,10 +249,10 @@ As the bottom player executing the hip escape from back control, your primary ob
 
 ## Opponent Counters
 
-- **Opponent tightens hooks and follows hip scooting by driving hips forward to maintain chest-to-back connection** (Effectiveness: High) - Your Response: Increase frame pressure against their hip and use a quick angle change rather than continued linear scooting. Switch to the back door escape if they successfully follow three consecutive scoots. → Leads to [[Back Control]]
-- **Opponent transitions to mount by following your rotation and swinging their leg over as you turn to face them** (Effectiveness: High) - Your Response: Pause the rotation when you feel their weight shifting forward over your hip. Block their leg from crossing over with your forearm frame and knee, or accept half guard by trapping their leg early before they complete the mount transition. → Leads to [[Mount]]
-- **Opponent re-establishes seatbelt grip during hip escape by threading their arm back across your neck when your hands leave their wrist** (Effectiveness: Medium) - Your Response: Maintain chin tuck throughout the entire escape. Keep at least one hand controlling their choking arm until hooks are cleared. If seatbelt is re-established, return to step one and restart the grip stripping sequence before continuing hip movement. → Leads to [[Back Control]]
-- **Opponent attacks rear naked choke aggressively during the transition between seatbelt strip and hip scoot phases** (Effectiveness: Medium) - Your Response: Immediately abandon the escape and return to full neck defense with two-on-one grip. The choke threat takes absolute priority over escape progress. Wait for the attack to subside before resuming the escape sequence from the beginning. → Leads to [[Back Control]]
+- **Opponent tightens hooks and follows hip scooting by driving hips forward to maintain chest-to-back connection** (Effectiveness: High) - Your Response: Increase frame pressure against their hip and use a quick angle change rather than continued linear scooting. Switch to the back door escape if they successfully follow three consecutive scoots. → Leads to [[Positions/Back Control]]
+- **Opponent transitions to mount by following your rotation and swinging their leg over as you turn to face them** (Effectiveness: High) - Your Response: Pause the rotation when you feel their weight shifting forward over your hip. Block their leg from crossing over with your forearm frame and knee, or accept half guard by trapping their leg early before they complete the mount transition. → Leads to [[Positions/Mount]]
+- **Opponent re-establishes seatbelt grip during hip escape by threading their arm back across your neck when your hands leave their wrist** (Effectiveness: Medium) - Your Response: Maintain chin tuck throughout the entire escape. Keep at least one hand controlling their choking arm until hooks are cleared. If seatbelt is re-established, return to step one and restart the grip stripping sequence before continuing hip movement. → Leads to [[Positions/Back Control]]
+- **Opponent attacks rear naked choke aggressively during the transition between seatbelt strip and hip scoot phases** (Effectiveness: Medium) - Your Response: Immediately abandon the escape and return to full neck defense with two-on-one grip. The choke threat takes absolute priority over escape progress. Wait for the attack to subside before resuming the escape sequence from the beginning. → Leads to [[Positions/Back Control]]
 
 
 </section>

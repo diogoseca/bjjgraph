@@ -146,7 +146,7 @@ description: "Defend against the Standing Switch from Rear Clinch. Recognition c
 
 As the defender against the Standing Switch, your objective is to maintain your established standing rear clinch control and prevent the bottom player from executing the hip pivot that reverses your dominant position. The switch is one of the most dangerous threats from this position because a successful reversal completely inverts the control dynamic, putting you in the exact disadvantageous position you previously held your opponent in. Your defense relies on early recognition of the switch setup cues, maintaining proper weight distribution and grip pressure to prevent the pivot, and having trained counters that capitalize on the opponent's switch attempt when it fails. The most effective defense is prevention through proper position maintenance rather than reactive countering after the pivot has begun.
 
-**Opponent's Starting Position**: [[Standing Rear Clinch]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Standing Rear Clinch]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the Standing Switch, your objective is to maintain your 
 ### 1. Drive hips forward and re-square your position when you feel the opponent begin to rotate
 
 - **When to use**: At the earliest sign of the switch initiation, before the opponent has completed any significant rotation
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: Kills the pivot by removing the rotational space and re-establishes full rear clinch control with tight grips
 - **Risk**: If timed too late, the opponent may use your forward drive to accelerate their rotation through the switch
 
 ### 2. Execute an immediate mat return takedown as the opponent commits to the switch
 
 - **When to use**: When you feel the opponent's weight shifting for the pivot but before they complete the rotation, using their compromised base against them
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Converts the escape attempt into a takedown to ground back control, severely punishing the switch attempt
 - **Risk**: If the mat return is too slow, the opponent completes the switch during your takedown and ends up behind you on the ground
 
 ### 3. Widen stance and lower base to create structural barrier against the pivot rotation
 
 - **When to use**: When you anticipate the switch from the opponent's feinting patterns or preparatory hip movements
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: Your wide base and low posture make the hip pivot mechanically impossible for the opponent to complete
 - **Risk**: An overly wide stance can compromise your ability to follow other escape movements and may open you to different escape techniques
 
 ### 4. Lift and arch the opponent slightly off balance backward during the switch attempt
 
 - **When to use**: When you have a strong bodylock and feel the opponent dropping their level for the switch initiation
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: Taking the opponent's feet off the mat eliminates their ability to generate the rotational force needed for the switch
 - **Risk**: Lifting requires significant energy expenditure and may compromise your own base if the opponent is heavy or resists effectively
 
@@ -217,11 +217,11 @@ As the defender against the Standing Switch, your objective is to maintain your 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Rear Clinch]]
+### → [[Positions/Standing Rear Clinch]]
 
 Prevent the switch entirely by maintaining tight grip pressure, even weight distribution, and immediate hip re-squaring at the first sign of rotation. This preserves your dominant control position unchanged and forces the opponent to try alternative escapes.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Capitalize on the opponent's switch attempt by executing a mat return the moment they compromise their base for the pivot. Their lowered hips and rotational momentum make them vulnerable to being driven to the mat where you establish ground back control with hooks.
 

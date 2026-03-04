@@ -142,7 +142,7 @@ description: "Master defending the armbar from knee on belly. Recognition cues, 
 
 Defending the armbar from knee on belly requires understanding the attack's trigger mechanism: your own push against the opponent's knee. The most effective defense starts before the submission is initiated by managing how you address the knee pressure without exposing your arms. Once the armbar transition begins, defensive options narrow rapidly, making early recognition and immediate response essential. The defender must recognize the moment between the wrist capture and the leg swing as the critical window where defense is still viable — once the attacker's leg clears your head and they sit back with tight hips, escape becomes extremely difficult. Defensive strategy prioritizes arm retraction and posture recovery in the early phases, transitioning to grip defense and positional escape if the attacker reaches the finishing position. Understanding when to tap is equally important, as the elbow joint provides minimal warning before structural failure.
 
-**Opponent's Starting Position**: [[Knee on Belly]] (Top)
+**Opponent's Starting Position**: [[Positions/Knee on Belly]] (Top)
 
 
 </section>
@@ -181,21 +181,21 @@ Defending the armbar from knee on belly requires understanding the attack's trig
 ### 1. Retract the arm immediately by bending the elbow and pulling toward your centerline before the leg swing begins
 
 - **When to use**: The moment you feel a two-on-one grip on your wrist — this is the highest-percentage defense but only available in the first 1-2 seconds
-- **Targets**: [[Knee on Belly]]
+- **Targets**: [[Positions/Knee on Belly]]
 - **If successful**: You remain under knee on belly but deny the submission entry, forcing the opponent to re-establish pressure and wait for another opening
 - **Risk**: Low — simply denies the submission without exposing new vulnerabilities
 
 ### 2. Clasp hands together in a defensive grip and turn your body toward the attacker to prevent arm extension
 
 - **When to use**: When the attacker has completed the leg swing and is sitting back — clasping prevents the finish and turning reduces the extension angle
-- **Targets**: [[Knee on Belly]]
+- **Targets**: [[Positions/Knee on Belly]]
 - **If successful**: You stall the submission and create time to work an escape by turning and extracting your elbow past their hip line
 - **Risk**: Medium — the attacker can break the grip or transition to belly-down armbar, so this is a temporary defense
 
 ### 3. Bridge toward the attacker and stack your weight forward while the arm is still controlled to create a scramble
 
 - **When to use**: When the attacker sits back but their hips are not yet tight to your shoulder — the gap allows you to bridge and begin stacking
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover to a neutral position, typically in the attacker's closed guard, completely negating the submission attempt
 - **Risk**: High — if the attacker's hips are tight, bridging accelerates the extension and can cause injury
 
@@ -218,11 +218,11 @@ Defending the armbar from knee on belly requires understanding the attack's trig
 
 ## Best-Case Outcomes for Defender
 
-### → [[Knee on Belly]]
+### → [[Positions/Knee on Belly]]
 
 Retract the arm before the leg swing completes or break free after clasping and turning in, returning to the standard knee on belly defensive position
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Successfully stack the attacker during the finishing phase, collapsing their armbar structure and recovering to a neutral guard position
 

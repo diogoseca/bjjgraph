@@ -180,7 +180,7 @@ description: "Execute the North-South Recovery from Jailbreak in BJJ. Step-by-st
 
 Executing the North-South Recovery from Jailbreak requires the top player to recognize when forward passing has stalled and redirect their energy into a circular walk-around that establishes perpendicular alignment. The technique demands constant chest pressure throughout the transition to prevent the bottom player from retracting their legs or recovering guard. Success depends on secure upper body control, patient footwork, and the ability to consolidate the North-South pin immediately upon arrival. This transition transforms a passing stalemate into one of the most dominant control positions in BJJ, rewarding the methodical passer who reads defensive commitment and adapts their angle of attack accordingly.
 
-**From Position**: [[Jailbreak]] (Top)
+**From Position**: [[Positions/Jailbreak]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the North-South Recovery from Jailbreak requires the top player to rec
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[North-South]] | 55% |
-| Failure | [[Jailbreak]] | 25% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/North-South]] | 55% |
+| Failure | [[Positions/Jailbreak]] | 25% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -243,9 +243,9 @@ Executing the North-South Recovery from Jailbreak requires the top player to rec
 
 ## Opponent Counters
 
-- **Bottom player retracts extended legs and inserts knee shield during the transition** (Effectiveness: High) - Your Response: Accelerate the walk-around before the knee shield is fully established, or redirect to a knee slice pass since their leg retraction opens forward passing lanes that were previously blocked. → Leads to [[Half Guard]]
-- **Bottom player hip escapes to follow your circular movement and maintain frontal alignment** (Effectiveness: Medium) - Your Response: Increase crossface pressure to restrict their hip mobility and drive your weight down harder to pin their shoulders, preventing their hips from following your movement direction. → Leads to [[Jailbreak]]
-- **Bottom player creates structural forearm frames against your chest during the walk-around phase** (Effectiveness: Medium) - Your Response: Collapse frames by angling your shoulders to slip past their forearms, or isolate the extended arms for submission setups since frames create arm exposure. → Leads to [[Half Guard]]
+- **Bottom player retracts extended legs and inserts knee shield during the transition** (Effectiveness: High) - Your Response: Accelerate the walk-around before the knee shield is fully established, or redirect to a knee slice pass since their leg retraction opens forward passing lanes that were previously blocked. → Leads to [[Positions/Half Guard]]
+- **Bottom player hip escapes to follow your circular movement and maintain frontal alignment** (Effectiveness: Medium) - Your Response: Increase crossface pressure to restrict their hip mobility and drive your weight down harder to pin their shoulders, preventing their hips from following your movement direction. → Leads to [[Positions/Jailbreak]]
+- **Bottom player creates structural forearm frames against your chest during the walk-around phase** (Effectiveness: Medium) - Your Response: Collapse frames by angling your shoulders to slip past their forearms, or isolate the extended arms for submission setups since frames create arm exposure. → Leads to [[Positions/Half Guard]]
 
 
 </section>

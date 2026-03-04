@@ -154,7 +154,7 @@ description: "Defend against the Kimura Counter via Roll. Recognition cues, defe
 
 As the defender against the Kimura Counter via Roll, you are the top player in a Kimura Trap position who has been working to extract your arm or advance past the bottom player's guard. When the bottom player recognizes their Kimura grip is failing, they will attempt to roll into closed guard rather than simply lose position. Your objective is either to prevent the roll entirely, keeping them in the deteriorating Kimura Trap where you can continue extracting your arm, or to capitalize on the rolling motion to advance your position beyond what the Kimura Trap normally allows. Understanding this technique's mechanics allows you to read the setup, time your defensive response, and convert the bottom player's transitional vulnerability into positional advancement. The roll creates a brief window where the bottom player's legs are neither in half guard nor closed guard—exploiting this window is the key to successful defense.
 
-**Opponent's Starting Position**: [[Kimura Trap]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ As the defender against the Kimura Counter via Roll, you are the top player in a
 ### 1. Post free hand wide and sprawl hips back to kill rotational momentum
 
 - **When to use**: When you feel the first signs of lateral grip redirection and hip loading before the roll fully initiates
-- **Targets**: [[Kimura Trap]]
+- **Targets**: [[Positions/Kimura Trap]]
 - **If successful**: Roll attempt is stuffed and bottom player remains in Kimura Trap with a now-weaker grip, allowing continued arm extraction or guard passing
 - **Risk**: If you post too wide, you may expose your back to a back take if they redirect to a different Kimura Trap technique
 
 ### 2. Drive forward with heavy crossface pressure to flatten their hips and deny bridging space
 
 - **When to use**: When bottom player begins loading their hips for the bridge that powers the roll
-- **Targets**: [[Kimura Trap]]
+- **Targets**: [[Positions/Kimura Trap]]
 - **If successful**: Bottom player's hips are flattened, eliminating the space needed for any rolling or sweeping motion from the Kimura Trap
 - **Risk**: Excessive forward drive can be redirected into a Rolling Kimura sweep if the bottom player maintains strong grip
 
 ### 3. Strip the Kimura grip during the transition window when hands are changing configuration
 
 - **When to use**: During the brief moment when the bottom player begins releasing the Kimura grip to transition to closed guard grips
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Bottom player loses both Kimura control and fails to establish closed guard, leaving them in half guard without offensive grips
 - **Risk**: Timing must be precise—attempting too early when grip is still strong wastes your extraction effort
 
 ### 4. Backstep over their legs during the roll to prevent closed guard establishment and advance to side control
 
 - **When to use**: When the roll is already in motion and prevention is no longer possible, capitalize on their legs being in transition
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You bypass the closed guard entirely and land in half guard top or side control, converting their recovery attempt into position loss
 - **Risk**: Mistimed backstep can result in you falling into their closed guard with poor posture, worsening your position
 
@@ -224,11 +224,11 @@ As the defender against the Kimura Counter via Roll, you are the top player in a
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Capitalize on the transition window when the bottom player's legs are releasing from half guard hooks but have not yet closed around your waist. Strip the weakening Kimura grip with a sharp two-on-one break, then immediately drive your knee across their thigh line to establish half guard top before their legs can reconnect. Use your freed arm to crossface and flatten them, consolidating half guard top where the failed roll has left them without grips or defensive structure.
 
-### → [[Kimura Trap]]
+### → [[Positions/Kimura Trap]]
 
 Prevent the roll entirely by recognizing the setup cues and immediately sprawling your hips back while posting your free hand wide. Drive heavy shoulder pressure into their chest to flatten their hips against the mat, eliminating the bridge space needed to generate roll momentum. Maintain forward crossface pressure and continue methodically extracting your arm from the now-weakened Kimura grip.
 

@@ -180,7 +180,7 @@ description: "Execute the bridge escape from Kesa Gatame to recover half guard. 
 
 As the bottom player executing the bridge escape from Kesa Gatame, your objective is to generate explosive upward displacement that disrupts the top player's base, create space through hip rotation, and recover half guard by inserting your knee before the opponent can re-consolidate control. The escape requires systematic preparation—controlling the opponent's far arm, planting feet optimally, and identifying the correct timing window—before committing to the explosive bridge. Success depends on treating this as a coordinated sequence rather than a single explosive movement, with each preparatory step increasing the probability of the bridge generating enough displacement for guard recovery.
 
-**From Position**: [[Kesa Gatame]] (Bottom)
+**From Position**: [[Positions/Side Control/Kesa Gatame]] (Bottom)
 
 </section>
 
@@ -232,10 +232,10 @@ As the bottom player executing the bridge escape from Kesa Gatame, your objectiv
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Kesa Gatame]] | 35% |
-| Counter | [[Mount]] | 15% |
-| Counter | [[North-South]] | 10% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Side Control/Kesa Gatame]] | 35% |
+| Counter | [[Positions/Mount]] | 15% |
+| Counter | [[Positions/North-South]] | 10% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the bottom player executing the bridge escape from Kesa Gatame, your objectiv
 
 ## Opponent Counters
 
-- **Opponent drops hips and widens base when feeling feet plant** (Effectiveness: High) - Your Response: If the opponent preemptively widens their base, the bridge becomes less effective. Chain to a ghost escape or back take attempt instead, as their widened base exposes their back. Alternatively, wait for them to narrow their base again before reattempting. → Leads to [[Kesa Gatame]]
-- **Opponent steps over to mount during the bridge rotation** (Effectiveness: Medium) - Your Response: Use your inside leg to hook their near leg as you bridge, creating a barrier that prevents them from stepping over. If they begin the mount transition, immediately redirect your knee insertion to block their leg and recover half guard rather than allowing full mount. → Leads to [[Mount]]
-- **Opponent floats to north-south position as bridge creates space** (Effectiveness: Medium) - Your Response: If the opponent releases Kesa Gatame and circles toward your head during the bridge, immediately follow them with your hips and work to insert frames before they can settle north-south. Turn to face them and get your arms inside to create distance for guard recovery. → Leads to [[North-South]]
-- **Opponent pulls their far arm free from your grip before you bridge** (Effectiveness: High) - Your Response: Without controlling their posting arm, the bridge is significantly weakened. Immediately re-fight for the grip or transition to the bridge-to-turtle variation where far arm control is less critical. You can also use a two-on-one grip on their far arm for stronger retention. → Leads to [[Kesa Gatame]]
+- **Opponent drops hips and widens base when feeling feet plant** (Effectiveness: High) - Your Response: If the opponent preemptively widens their base, the bridge becomes less effective. Chain to a ghost escape or back take attempt instead, as their widened base exposes their back. Alternatively, wait for them to narrow their base again before reattempting. → Leads to [[Positions/Side Control/Kesa Gatame]]
+- **Opponent steps over to mount during the bridge rotation** (Effectiveness: Medium) - Your Response: Use your inside leg to hook their near leg as you bridge, creating a barrier that prevents them from stepping over. If they begin the mount transition, immediately redirect your knee insertion to block their leg and recover half guard rather than allowing full mount. → Leads to [[Positions/Mount]]
+- **Opponent floats to north-south position as bridge creates space** (Effectiveness: Medium) - Your Response: If the opponent releases Kesa Gatame and circles toward your head during the bridge, immediately follow them with your hips and work to insert frames before they can settle north-south. Turn to face them and get your arms inside to create distance for guard recovery. → Leads to [[Positions/North-South]]
+- **Opponent pulls their far arm free from your grip before you bridge** (Effectiveness: High) - Your Response: Without controlling their posting arm, the bridge is significantly weakened. Immediately re-fight for the grip or transition to the bridge-to-turtle variation where far arm control is less critical. You can also use a two-on-one grip on their far arm for stronger retention. → Leads to [[Positions/Side Control/Kesa Gatame]]
 
 
 </section>

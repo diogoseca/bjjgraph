@@ -21,7 +21,7 @@ What makes this throw particularly valuable in BJJ is its seamless transition po
 
 Strategically, Tani Otoshi fits into a broader standing game as a counter-offensive weapon. It punishes opponents who drive forward aggressively, circle into your preferred angle, or overcommit to grip fighting. The technique chains naturally with other judo-derived throws: if your opponent defends by stepping back, Osoto Gari becomes available; if they circle away, Tai Otoshi opens up. This makes Tani Otoshi not just a standalone technique but a central node in a standing attack system.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, Tani Otoshi fits into a broader standing game as a counter-offens
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Standing Position]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -196,29 +196,29 @@ Tani Otoshi serves as a critical bridge between standing grappling and ground fi
 ## Related Techniques
 
 
-- [[Tai Otoshi]] - Complementary throw - works when Tani Otoshi is defended by opponent circling
+- [[Transitions/Tai Otoshi]] - Complementary throw - works when Tani Otoshi is defended by opponent circling
 
-- [[Osoto Gari]] - Follow-up attack when opponent steps back to defend Tani Otoshi
+- [[Transitions/Osoto Gari]] - Follow-up attack when opponent steps back to defend Tani Otoshi
 
-- [[Kouchi Gari]] - Setup technique - creates forward weight shift that opens Tani Otoshi
+- [[Transitions/Kouchi Gari]] - Setup technique - creates forward weight shift that opens Tani Otoshi
 
-- [[Ippon Seoi Nage]] - Alternative forward throw from similar gripping positions
+- [[Transitions/Ippon Seoi Nage]] - Alternative forward throw from similar gripping positions
 
-- [[Side Control]] - Primary ending position after successful throw execution
+- [[Positions/Side Control]] - Primary ending position after successful throw execution
 
-- [[Knee on Belly]] - Alternative landing position when throw rotation is maximal
+- [[Positions/Knee on Belly]] - Alternative landing position when throw rotation is maximal
 
-- [[Butterfly Guard]] - Recovery position if throw is defended and you remain seated
+- [[Positions/Butterfly Guard]] - Recovery position if throw is defended and you remain seated
 
-- [[Standing Position]] - Starting position and reset point if throw fails cleanly
+- [[Positions/Standing Position]] - Starting position and reset point if throw fails cleanly
 
-- [[Sumi Gaeshi]] - Related sacrifice throw that shares the principle of dropping base to generate leverage
+- [[Transitions/Sumi Gaeshi]] - Related sacrifice throw that shares the principle of dropping base to generate leverage
 
-- [[Tomoe Nage]] - Alternative sacrifice throw from standing with different directional mechanics
+- [[Transitions/Tomoe Nage]] - Alternative sacrifice throw from standing with different directional mechanics
 
-- [[Guard Pull]] - Alternative strategy that Tani Otoshi can disguise or replace
+- [[Transitions/Guard Pull]] - Alternative strategy that Tani Otoshi can disguise or replace
 
-- [[Kosoto Gari]] - Chain attack when opponent circles away from your Tani Otoshi angle
+- [[Transitions/Kosoto Gari]] - Chain attack when opponent circles away from your Tani Otoshi angle
 
 
 </section>

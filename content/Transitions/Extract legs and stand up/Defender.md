@@ -158,7 +158,7 @@ When your opponent initiates extraction, they create predictable movement patter
 
 The strategic calculus is straightforward: if you can prevent the extraction, you maintain a position where your leg lock offense operates with full capability. Every second your opponent spends in bottom 50-50 against your superior position drains their defensive energy and increases your submission probability. Your primary objective is maintaining the entanglement, with offensive finishing as the secondary reward when their escape attempts create openings.
 
-**Opponent's Starting Position**: [[50-50 Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ The strategic calculus is straightforward: if you can prevent the extraction, yo
 ### 1. Deepen heel grip and attack heel hook during their grip fighting phase
 
 - **When to use**: When opponent begins two-on-one grip breaks on your heel control, creating a race between their grip break and your submission finish
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Opponent must abandon extraction and return to full defensive mode, resetting their escape attempt from zero
 - **Risk**: If your heel hook attempt fails and they complete the grip break simultaneously, you lose both offensive position and grip control
 
 ### 2. Follow their hip escape with your own hip drive to close the space they create
 
 - **When to use**: Immediately when you feel opponent shrimping away, before they achieve the 6-12 inches of separation needed for extraction
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Space is denied, opponent remains trapped in 50-50 with reduced energy from failed escape attempt, and you maintain all control points
 - **Risk**: Aggressive hip following can compromise your own base if opponent uses your forward momentum to sweep
 
 ### 3. Transition to Inside Ashi-Garami or Saddle as they begin creating space
 
 - **When to use**: When you sense extraction is likely to succeed and maintaining 50-50 is becoming untenable, use their movement to advance your own position
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: You achieve a superior leg entanglement position with better control and submission percentage than 50-50, converting their escape energy into your advancement
 - **Risk**: Transitional movement creates a window where both your control and their extraction could succeed, potentially resulting in complete disengagement
 
 ### 4. Shoot for single leg takedown as they complete the standing motion
 
 - **When to use**: When extraction succeeds and opponent reaches standing position, immediately close distance before they establish defensive athletic stance
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You take opponent down and establish top position, converting their successful extraction into your own offensive opportunity
 - **Risk**: Opponent may sprawl effectively and establish front headlock or use your forward momentum to snap you down
 
@@ -228,11 +228,11 @@ The strategic calculus is straightforward: if you can prevent the extraction, yo
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Maintain heel and ankle grips through aggressive re-gripping whenever opponent strips control. Follow their hip escape with your own hip drive to deny space. Keep constant submission pressure to force them into defensive mode rather than extraction mode. The longer they remain in bottom 50-50 against your superior control, the more their defensive energy depletes.
 
-### → [[Ashi Garami]]
+### → [[Positions/Ashi Garami]]
 
 When 50-50 retention becomes difficult, use opponent's extraction movement to transition to Inside Ashi-Garami or Saddle. As they create space by shrimping, reposition your inside hook deeper and rotate your hips to achieve cross-body control. Their extraction momentum actually assists your positional advancement if you redirect it into a superior entanglement rather than fighting to maintain 50-50.
 

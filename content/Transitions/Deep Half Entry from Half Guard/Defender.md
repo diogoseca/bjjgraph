@@ -146,7 +146,7 @@ description: "Defend and counter the Deep Half Entry from Half Guard. Learn reco
 
 As the defender against the Deep Half Entry, you are the top player in half guard who must prevent the bottom player from sliding underneath your center of gravity to establish deep half guard. Your primary defensive objective is to maintain upper body control through crossface and pressure while managing your weight distribution to eliminate the space needed for the entry. Recognizing the entry attempt early is critical because once the bottom player completes the transition to deep half, they gain significant mechanical advantage for sweeps. Effective defense requires understanding the entry mechanics from the bottom player's perspective so you can shut down each phase before it develops into a fully established deep half guard position.
 
-**Opponent's Starting Position**: [[Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ As the defender against the Deep Half Entry, you are the top player in half guar
 ### 1. Drive crossface and flatten bottom player with heavy shoulder pressure
 
 - **When to use**: At the first sign of hip escape angle creation, before the head threading begins
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Bottom player is pinned flat on their back with no angle for the entry, allowing you to proceed with half guard passing
 - **Risk**: Committing too much forward pressure can be redirected into the deep half entry if timing is wrong
 
 ### 2. Hip switch and backstep to change angle and extract trapped leg
 
 - **When to use**: When bottom player has already created the entry angle and is beginning to thread underneath
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: You change the angle of engagement, removing the entry pathway and potentially extracting your trapped leg for a complete pass
 - **Risk**: Failed backstep can expose your back or create scramble situations
 
 ### 3. Whizzer on the underhook arm to prevent deep positioning
 
 - **When to use**: When bottom player establishes the underhook but has not yet begun the dive underneath
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Neutralizes the underhook control mechanism that powers the entry, returning to neutral half guard battle
 - **Risk**: Bottom player may use the whizzer pressure to assist their entry if the dive timing is correct
 
 ### 4. Post free leg wide and lower hips to eliminate entry space
 
 - **When to use**: When you feel the bottom player beginning to create space underneath your hips for the entry
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Removes the space needed for the head to thread underneath, stalling the entry and maintaining standard half guard top
 - **Risk**: Wide base can be attacked through leg positioning adjustments or lockdown entries
 
@@ -218,11 +218,11 @@ As the defender against the Deep Half Entry, you are the top player in half guar
 
 ## Best-Case Outcomes for Defender
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Drive strong crossface pressure and sprawl your hips back at the first sign of entry. Pin the bottom player's shoulders flat to the mat, eliminating the angle they need. Maintain heavy shoulder pressure while working to extract your trapped leg for a complete pass.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Contest the underhook battle aggressively with whizzer control or by fighting for your own underhook. Maintain even weight distribution and constant chest-to-chest connection to prevent the separation needed for the entry. Keep the engagement in standard half guard territory where your top pressure is most effective.
 

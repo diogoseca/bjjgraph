@@ -180,7 +180,7 @@ description: "How to execute Rolling Back Take in BJJ. Attacking perspective wit
 
 The Rolling Back Take is a dynamic and highly effective transition from top turtle position to back control. This technique exploits the opponent's defensive posture by using momentum and timing to roll over their shoulder, landing directly on their back with control. Unlike static back takes that rely on breaking down the turtle position incrementally, the rolling back take uses explosive movement to bypass defensive frames entirely. This technique is particularly valuable when the opponent maintains a strong defensive turtle with their elbows tight to their knees, making traditional hook insertions difficult. The rolling back take requires precise timing, spatial awareness, and the ability to maintain connection throughout the roll. When executed correctly, it provides immediate access to high-value control positions and submission opportunities, making it a favorite among competitors at all levels.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The Rolling Back Take is a dynamic and highly effective transition from top turt
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 75% |
-| Failure | [[Turtle]] | 15% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control]] | 75% |
+| Failure | [[Positions/Turtle]] | 15% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -245,10 +245,10 @@ The Rolling Back Take is a dynamic and highly effective transition from top turt
 
 ## Opponent Counters
 
-- **Opponent posts their far arm wide to prevent the roll** (Effectiveness: High) - Your Response: Switch to a traditional back take by removing their posted arm and inserting your near hook, or use their extended arm as an opportunity to transition to an armbar or crucifix position → Leads to [[Turtle]]
-- **Opponent turns into you during the roll to reestablish guard** (Effectiveness: Medium) - Your Response: Maintain tight shoulder control and redirect to a scramble position or mount if they turn. Use your momentum to stay on top of the rotation and prevent them from recovering guard → Leads to [[Turtle]]
-- **Opponent bases out with their head to stop the rotation** (Effectiveness: Medium) - Your Response: If they prevent the roll, immediately transition to a crucifix position by controlling their posted arm, or switch to a traditional turtle breakdown by removing their posting base → Leads to [[Turtle]]
-- **Opponent sprawls backward as you initiate the roll** (Effectiveness: Low) - Your Response: Use their backward momentum to accelerate your roll, pulling them over with you. Their sprawl actually aids your rotation if you maintain upper body connection → Leads to [[Back Control]]
+- **Opponent posts their far arm wide to prevent the roll** (Effectiveness: High) - Your Response: Switch to a traditional back take by removing their posted arm and inserting your near hook, or use their extended arm as an opportunity to transition to an armbar or crucifix position → Leads to [[Positions/Turtle]]
+- **Opponent turns into you during the roll to reestablish guard** (Effectiveness: Medium) - Your Response: Maintain tight shoulder control and redirect to a scramble position or mount if they turn. Use your momentum to stay on top of the rotation and prevent them from recovering guard → Leads to [[Positions/Turtle]]
+- **Opponent bases out with their head to stop the rotation** (Effectiveness: Medium) - Your Response: If they prevent the roll, immediately transition to a crucifix position by controlling their posted arm, or switch to a traditional turtle breakdown by removing their posting base → Leads to [[Positions/Turtle]]
+- **Opponent sprawls backward as you initiate the roll** (Effectiveness: Low) - Your Response: Use their backward momentum to accelerate your roll, pulling them over with you. Their sprawl actually aids your rotation if you maintain upper body connection → Leads to [[Positions/Back Control]]
 
 
 </section>

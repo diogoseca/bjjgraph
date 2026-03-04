@@ -210,21 +210,21 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (8% of attempts)
+### [[Transitions/Rear Naked Choke]] (8% of attempts)
 
-### [[Kimura]] (6% of attempts)
+### [[Transitions/Kimura]] (6% of attempts)
 
-### [[Back Control Maintenance]] (19% of attempts)
+### [[Transitions/Back Control Maintenance]] (19% of attempts)
 
-### [[Choke from Crucifix]] (40% of attempts)
+### [[Transitions/Choke from Crucifix]] (40% of attempts)
 
-### [[Armbar from Crucifix]] (16% of attempts)
+### [[Transitions/Armbar from Crucifix]] (16% of attempts)
 
-### [[Side Control to Mount]] (6% of attempts)
+### [[Transitions/Side Control to Mount]] (6% of attempts)
 
-### [[Crucifix Maintenance]] (3% of attempts)
+### [[Transitions/Crucifix Maintenance]] (3% of attempts)
 
-### [[Crucifix to Mount]] (2% of attempts)
+### [[Transitions/Crucifix to Mount]] (2% of attempts)
 
 
 
@@ -235,23 +235,23 @@ Mastery of Crucifix Top requires understanding precise weight distribution to pr
 ## Decision Making from This Position
 
 **If opponent is flat on back with both arms fully controlled and neck exposed:**
-- Execute **[[Rear Naked Choke]]** → [[Game Over]] (Probability: 85%)
-- Execute **[[Neck Crank]]** → [[Game Over]] (Probability: 80%)
+- Execute **[[Transitions/Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 85%)
+- Execute **[[Transitions/Neck Crank]]** → [[Positions/Game Over]] (Probability: 80%)
 
 
 **If opponent tucks chin and defends neck aggressively:**
-- Execute **[[Armbar on Free Arm]]** → [[Game Over]] (Probability: 75%)
-- Execute **[[Kimura]]** → [[Game Over]] (Probability: 70%)
+- Execute **[[Transitions/Armbar on Free Arm]]** → [[Positions/Game Over]] (Probability: 75%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Game Over]] (Probability: 70%)
 
 
 **If opponent creates space and begins to extract trapped arm:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 80%)
-- Execute **[[Back Control Maintenance]]** → [[Back Control]] (Probability: 85%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 80%)
+- Execute **[[Transitions/Back Control Maintenance]]** → [[Positions/Back Control]] (Probability: 85%)
 
 
 **If opponent attempts to roll or bridge explosively:**
-- Execute **[[Rear Naked Choke]]** → [[Game Over]] (Probability: 70%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 75%)
+- Execute **[[Transitions/Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 75%)
 
 
 
@@ -385,16 +385,16 @@ Bottom player knows specific escape they will attempt (arm extraction, rolling e
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Primary entry position—crucifix often develops from back control
-- **[[Turtle]]** - Alternative entry position—crucifix can be attacked from turtle top
-- **[[Mount]]** - Transition target—common progression when opponent defends crucifix
-- **[[Gift Wrap]]** - Similar control concept—arm trapping from top position
-- **[[Choke from Crucifix]]** - Primary submission—highest percentage attack from this position
-- **[[Armbar from Crucifix]]** - Alternative submission—secondary attack when choke is defended
-- **[[Back Control to Crucifix]]** - Entry transition—technical path to establish position
-- **[[Crucifix from Turtle]]** - Entry transition—alternative path to establish position
-- **[[Mounted Crucifix]]** - Related variant—combines mount pressure with arm trapping
-- **[[Seat Belt Control Back]]** - Related back control—used to set up arm isolation
+- **[[Positions/Back Control]]** - Primary entry position—crucifix often develops from back control
+- **[[Positions/Turtle]]** - Alternative entry position—crucifix can be attacked from turtle top
+- **[[Positions/Mount]]** - Transition target—common progression when opponent defends crucifix
+- **[[Positions/Gift Wrap]]** - Similar control concept—arm trapping from top position
+- **[[Transitions/Choke from Crucifix]]** - Primary submission—highest percentage attack from this position
+- **[[Transitions/Armbar from Crucifix]]** - Alternative submission—secondary attack when choke is defended
+- **[[Transitions/Back Control to Crucifix]]** - Entry transition—technical path to establish position
+- **[[Transitions/Crucifix from Turtle]]** - Entry transition—alternative path to establish position
+- **[[Positions/Mount/Mounted Crucifix]]** - Related variant—combines mount pressure with arm trapping
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Related back control—used to set up arm isolation
 
 
 </section>

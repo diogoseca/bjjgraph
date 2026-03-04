@@ -21,7 +21,7 @@ The technique requires understanding the mechanical principles of how the lapel 
 
 Strategically, this extraction must be completed before attempting any guard passing sequences. The lapel wrap converts your forward pressure and explosive movements into sweeping momentum for the bottom player, making aggressive passing attempts counterproductive. Master this extraction to neutralize modern lapel guard systems and restore your ability to implement your preferred passing game.
 
-**From Position**: [[Ringworm Guard]] (Top)
+**From Position**: [[Positions/Ringworm Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, this extraction must be completed before attempting any guard pas
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Combat Base]] | 50% |
-| Success | [[Open Guard]] | 15% |
-| Failure | [[Ringworm Guard]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Combat Base]] | 50% |
+| Success | [[Positions/Open Guard]] | 15% |
+| Failure | [[Positions/Ringworm Guard]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -190,25 +190,25 @@ Leg Extraction from Lapel Wrap is an essential defensive skill within the modern
 ## Related Techniques
 
 
-- [[Ringworm Guard]] - Starting position - the guard you are escaping from
+- [[Positions/Ringworm Guard]] - Starting position - the guard you are escaping from
 
-- [[Combat Base]] - Primary target position after successful extraction
+- [[Positions/Combat Base]] - Primary target position after successful extraction
 
-- [[Headquarters Position]] - Alternative target position for passing initiation
+- [[Positions/Headquarters Position]] - Alternative target position for passing initiation
 
-- [[Worm Guard]] - Related lapel guard requiring similar extraction principles
+- [[Positions/Worm Guard]] - Related lapel guard requiring similar extraction principles
 
-- [[Lapel Guard]] - General category of guards this technique counters
+- [[Positions/Lapel Guard]] - General category of guards this technique counters
 
-- [[Open Guard]] - Neutral position reached after extraction
+- [[Positions/Open Guard]] - Neutral position reached after extraction
 
-- [[Back Control]] - Position to defend against during extraction
+- [[Positions/Back Control]] - Position to defend against during extraction
 
-- [[Squid Guard]] - Related lapel guard the opponent may transition to during extraction
+- [[Positions/Squid Guard]] - Related lapel guard the opponent may transition to during extraction
 
-- [[Backstep Around Worm Guard]] - Alternative lapel guard counter using backstep mechanics
+- [[Transitions/Backstep Around Worm Guard]] - Alternative lapel guard counter using backstep mechanics
 
-- [[Lapel Grip Break and Posture Recovery]] - Complementary grip-breaking technique often used in sequence
+- [[Transitions/Lapel Grip Break and Posture Recovery]] - Complementary grip-breaking technique often used in sequence
 
 
 </section>

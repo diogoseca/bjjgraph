@@ -146,7 +146,7 @@ description: "Defend the Sweep from New York in BJJ. Learn recognition cues, bas
 
 Defending the Sweep from New York requires the top player to address a fundamental positional dilemma: the very actions needed to escape New York control—posture recovery and weight shifting—create the timing windows the bottom player needs to execute the sweep. The defender must learn to recover posture and escape without generating the upward or backward momentum that triggers the sweep. This demands precise understanding of when the sweep threat is highest and how to move defensively without creating openings. The key insight is that base width and hip positioning are more important than explosive movement for preventing this sweep, and that patience in systematically dismantling New York control is far more effective than urgently attempting to power out of the position.
 
-**Opponent's Starting Position**: [[New York]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Sweep from New York requires the top player to address a fundament
 ### 1. Widen base and drop hips before the bridge completes
 
 - **When to use**: When you feel the shin grip release and recognize the sweep is about to be attempted
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: The widened base removes the sweep angle and prevents the bridge from generating enough rotational force to complete the reversal, keeping you in top position
 - **Risk**: Widening base may compromise your ability to pressure pass and can open paths to Carni or omoplata attacks if the bottom player reads your base adjustment
 
 ### 2. Post free hand firmly on the mat toward the overhook side
 
 - **When to use**: The instant you feel bridge initiation or see the bottom player plant their feet
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: The post provides structural resistance to the rotational force, allowing you to ride out the bridge attempt and maintain top position
 - **Risk**: If the bottom player attacks the posting wrist with their free hand, you lose your only remaining structural support against the sweep
 
 ### 3. Drive forward aggressively to flatten the bottom player
 
 - **When to use**: Preemptively, when you sense the bottom player is loading the sweep rather than advancing submissions
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: Forward pressure pins the bottom player's hips to the mat, eliminating the space needed to generate an effective bridge
 - **Risk**: Forward drive assists transitions to Chill Dog and Invisible Collar, potentially trading sweep defense for submission vulnerability
 
 ### 4. Extract overhook arm during the sweep attempt to disrupt mechanics
 
 - **When to use**: When the bottom player releases shin grip to plant feet, creating a momentary reduction in overall control
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Without the overhook, the sweep loses its primary mechanism and the entire New York control structure collapses, allowing you to recover to open guard top
 - **Risk**: Arm extraction during an active sweep attempt can result in the arm crossing the body awkwardly, opening triangle or armbar opportunities
 
@@ -217,11 +217,11 @@ Defending the Sweep from New York requires the top player to address a fundament
 
 ## Best-Case Outcomes for Defender
 
-### → [[New York]]
+### → [[Positions/Rubber Guard/New York]]
 
 Widen base immediately when you recognize the shin grip release. Drop your hips low and heavy while posting with your free hand on the mat toward the overhook side. Avoid sudden upward or backward movement that would trigger the sweep. Work incrementally to restore posture from this stable, widened base position.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Use the momentary reduction in control during the sweep attempt (when the bottom player releases shin grip) to explosively extract the trapped overhook arm. Pull your elbow toward your hip in a corkscrew motion while the bottom player is focused on executing the bridge rather than maintaining the overhook. Once the arm is free, the entire New York structure collapses and you can disengage to open guard top.
 

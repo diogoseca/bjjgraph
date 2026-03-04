@@ -21,7 +21,7 @@ The technique requires precise sequencing of leg extraction, frame establishment
 
 Mastery of this escape is essential for any practitioner who incorporates double jump entries into their half guard game. Without a reliable retreat option, the inherent risk of the double jump entry becomes unjustifiable at higher levels of competition where opponents capitalize on failed entries. The escape creates the strategic foundation that makes aggressive double jump attempts viable by ensuring you can return to a playable position when the entry is defended.
 
-**From Position**: [[Double Jump]] (Bottom)
+**From Position**: [[Positions/Double Jump]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ Mastery of this escape is essential for any practitioner who incorporates double
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Success | [[Knee Shield Half Guard]] | 10% |
-| Failure | [[Flattened Half Guard]] | 25% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Success | [[Positions/Half Guard/Knee Shield Half Guard]] | 10% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -192,23 +192,23 @@ Escape Double Jump occupies a critical role within the double jump and deep half
 ## Related Techniques
 
 
-- [[Double Jump]] - Source position from which this escape retreats
+- [[Positions/Double Jump]] - Source position from which this escape retreats
 
-- [[Half Guard]] - Primary destination for successful escape
+- [[Positions/Half Guard]] - Primary destination for successful escape
 
-- [[Knee Shield Half Guard]] - Alternative success destination with stronger defensive frames
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative success destination with stronger defensive frames
 
-- [[Flattened Half Guard]] - Compromised outcome when escape execution is poor
+- [[Positions/Half Guard/Flattened Half Guard]] - Compromised outcome when escape execution is poor
 
-- [[Side Control]] - Counter outcome when opponent capitalizes during retreat
+- [[Positions/Side Control]] - Counter outcome when opponent capitalizes during retreat
 
-- [[Deep Half Guard]] - Original target of the double jump entry that prompted this escape
+- [[Positions/Half Guard/Deep Half Guard]] - Original target of the double jump entry that prompted this escape
 
-- [[Lockdown]] - Alternative recovery position accessible during escape sequence
+- [[Positions/Half Guard/Lockdown]] - Alternative recovery position accessible during escape sequence
 
-- [[Back Door Escape from Half Guard]] - Similar retreat concept from compromised bottom position
+- [[Transitions/Back Door Escape from Half Guard]] - Similar retreat concept from compromised bottom position
 
-- [[Butterfly Guard]] - Alternative guard recovery option when escape creates sufficient space
+- [[Positions/Butterfly Guard]] - Alternative guard recovery option when escape creates sufficient space
 
 
 </section>

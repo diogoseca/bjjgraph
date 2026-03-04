@@ -158,7 +158,7 @@ The key defensive insight is that the opponent is most vulnerable during the tra
 
 Your defensive priorities follow a clear hierarchy: first, prevent the stand by maintaining secondary controls and loading their weight forward. If they achieve standing, immediately follow with hip elevation and guard reconfiguration to maintain offensive threats. If extraction begins, transition to the highest-value counter available, whether that is a back take during their rotation, a sweep during their weight shift, or at minimum a guard transition that preserves meaningful control rather than allowing a clean reset to open guard.
 
-**Opponent's Starting Position**: [[Ringworm Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Your defensive priorities follow a clear hierarchy: first, prevent the stand by 
 ### 1. Pull collar and lapel simultaneously while driving your feet into their hips to load their weight forward, preventing them from achieving full standing height
 
 - **When to use**: The moment you feel their free leg post and weight begin to shift upward, before they achieve full extension. This is most effective in the first half-second of the standing attempt.
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: Opponent collapses back into the Ringworm Guard configuration where your full offensive system is available including sweeps, back takes, and submissions
 - **Risk**: If your collar grip is insufficient, you expend energy pulling without effect and the opponent continues standing with momentum, making subsequent defensive actions harder
 
 ### 2. Follow the stand with hip elevation and inversion, threading your legs to re-establish the lapel wrap or transition to a back-take angle as they rotate during extraction
 
 - **When to use**: After the opponent has achieved standing height and begins the circular extraction sequence, when their back angle becomes exposed during the stepping motion
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You secure back control or at minimum force the opponent to abandon the extraction to defend the back take, returning them to the Ringworm Guard engagement
 - **Risk**: Inversion exposes you to stack passes if the opponent recognizes the movement early and drives forward rather than continuing the extraction
 
 ### 3. Release the failing lapel grip and immediately establish De La Riva or Collar Sleeve guard configuration before the opponent can secure passing grips
 
 - **When to use**: When the extraction is nearly complete and the lapel wrap has loosened beyond the point where re-securing is viable, typically when the circular stepping has unwound most of the friction
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You maintain a meaningful guard position with established grips rather than allowing a clean reset where the opponent dictates the passing engagement
 - **Risk**: Transition timing is critical. Releasing the lapel too early wastes remaining control, while releasing too late leaves you gripless as they complete the extraction
 
 ### 4. Attack a single leg or ankle pick during the standing transition while the opponent's base is narrowed to one leg and their hands are occupied with rising
 
 - **When to use**: During the first two seconds of the standing attempt while the opponent is transitioning from combat base to full standing, when their weight distribution is most unstable
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: You collapse the opponent back to the ground with the lapel wrap still intact, often landing in an improved Ringworm Guard position with additional control from the takedown scramble
 - **Risk**: A poorly timed single leg leaves you extended and vulnerable to the opponent sprawling and accelerating their extraction from the new angle
 
@@ -228,11 +228,11 @@ Your defensive priorities follow a clear hierarchy: first, prevent the stand by 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ringworm Guard]]
+### → [[Positions/Ringworm Guard]]
 
 Prevent the stand entirely by maintaining multiple secondary controls (collar grip, shin-on-hip, sleeve grip) combined with the lapel wrap. Load the opponent's weight forward the moment you feel their free leg post. If they partially stand, attack with a single leg or pull them back down with the collar. The goal is to deny them the elevation that simplifies the extraction.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Allow the stand but follow with hip elevation and use the opponent's circular extraction stepping as your entry angle. When they rotate away from your strong side during extraction, their far-side back angle opens. Thread your hook behind their far knee and use the remaining lapel tension to pull yourself to the back angle. The rotation they use for extraction is the same rotation that exposes their back.
 

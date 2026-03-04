@@ -186,7 +186,7 @@ description: "Learn to execute posture recovery from Mission Control as the top 
 
 Executing posture recovery from Mission Control requires understanding that this is a process of gradual structural degradation, not a single explosive escape. The top player must progress through defined phases - immediate threat management, grip fighting, progressive posture improvement, and arm extraction - while defending against the bottom player's submission attempts and positional transitions throughout. Success depends on patience, precise grip fighting, and recognizing the micro-windows where the bottom player's control momentarily weakens due to grip fatigue or dropped hip elevation. The technique rewards disciplined practitioners who resist the urge to explode out of the position and instead commit to the systematic process of dismantling the rubber guard's control structure piece by piece.
 
-**From Position**: [[Mission Control]] (Top)
+**From Position**: [[Positions/Rubber Guard/Mission Control]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing posture recovery from Mission Control requires understanding that this
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Failure | [[Mission Control]] | 35% |
-| Counter | [[New York]] | 20% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Failure | [[Positions/Rubber Guard/Mission Control]] | 35% |
+| Counter | [[Positions/Rubber Guard/New York]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing posture recovery from Mission Control requires understanding that this
 
 ## Opponent Counters
 
-- **Bottom player re-pulls head control with renewed grip and re-establishes full posture break** (Effectiveness: High) - Your Response: Immediately re-strip the grip with your free hand. If they achieve deep two-handed head control, restart the grip fighting sequence entirely before attempting further posture recovery. Persistence wins this grip battle over time. → Leads to [[Mission Control]]
-- **Bottom player transitions to New York control using backward movement slack on the trapped arm** (Effectiveness: Medium) - Your Response: Drive your trapped elbow tight to your body and fight the deeper underhook that New York requires. If the New York transition begins, pause posture recovery and address the arm position first. Preventing the transition takes absolute priority. → Leads to [[New York]]
-- **Bottom player elevates hips higher and tightens high guard leg position across the back** (Effectiveness: High) - Your Response: Use your near-side hand to push down on their hip to reduce elevation. If their hips are fully re-elevated, focus on weight redistribution and grip fighting rather than direct posture change until their hip engagement fatigues. → Leads to [[Mission Control]]
-- **Bottom player overhooks the posturing arm to trap it and prevent frame establishment** (Effectiveness: Medium) - Your Response: Circle the trapped hand toward your own hip to strip the overhook rather than pulling directly backward. Use your other hand to continue grip fighting their head control while working the arm free through rotational extraction. → Leads to [[Mission Control]]
+- **Bottom player re-pulls head control with renewed grip and re-establishes full posture break** (Effectiveness: High) - Your Response: Immediately re-strip the grip with your free hand. If they achieve deep two-handed head control, restart the grip fighting sequence entirely before attempting further posture recovery. Persistence wins this grip battle over time. → Leads to [[Positions/Rubber Guard/Mission Control]]
+- **Bottom player transitions to New York control using backward movement slack on the trapped arm** (Effectiveness: Medium) - Your Response: Drive your trapped elbow tight to your body and fight the deeper underhook that New York requires. If the New York transition begins, pause posture recovery and address the arm position first. Preventing the transition takes absolute priority. → Leads to [[Positions/Rubber Guard/New York]]
+- **Bottom player elevates hips higher and tightens high guard leg position across the back** (Effectiveness: High) - Your Response: Use your near-side hand to push down on their hip to reduce elevation. If their hips are fully re-elevated, focus on weight redistribution and grip fighting rather than direct posture change until their hip engagement fatigues. → Leads to [[Positions/Rubber Guard/Mission Control]]
+- **Bottom player overhooks the posturing arm to trap it and prevent frame establishment** (Effectiveness: Medium) - Your Response: Circle the trapped hand toward your own hip to strip the overhook rather than pulling directly backward. Use your other hand to continue grip fighting their head control while working the arm free through rotational extraction. → Leads to [[Positions/Rubber Guard/Mission Control]]
 
 
 </section>

@@ -21,7 +21,7 @@ The mechanics center on releasing the shin grip at the precise moment you genera
 
 Strategically, the Sweep from New York creates a critical dilemma within the Rubber Guard decision tree. If the opponent remains passive to avoid the sweep, they remain trapped in New York where the bottom player can advance to Invisible Collar, Zombie, or Chill Dog for submission attacks. If they actively attempt to escape by posturing, they expose themselves to this sweep. This binary forces the top player into a lose-lose scenario where both defensive and offensive movement carry significant risk, making New York one of the most oppressive bottom positions in no-gi grappling when the sweep threat is credible.
 
-**From Position**: [[New York]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 **Success Rate**: 43%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Sweep from New York creates a critical dilemma within the Rub
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 43% |
-| Failure | [[New York]] | 37% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Mount]] | 43% |
+| Failure | [[Positions/Rubber Guard/New York]] | 37% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Sweep from New York occupies a critical branch point in the Rubber Guard att
 ## Related Techniques
 
 
-- [[New York]] - Source position from which this sweep is executed
+- [[Positions/Rubber Guard/New York]] - Source position from which this sweep is executed
 
-- [[Mount]] - Target position achieved on successful sweep completion
+- [[Positions/Mount]] - Target position achieved on successful sweep completion
 
-- [[Open Guard]] - Fallback position if opponent successfully counters the sweep
+- [[Positions/Open Guard]] - Fallback position if opponent successfully counters the sweep
 
-- [[Rubber Guard]] - Parent guard system containing New York and its sweep options
+- [[Positions/Rubber Guard]] - Parent guard system containing New York and its sweep options
 
-- [[Mission Control]] - Primary entry point to New York from which sweep becomes available
+- [[Positions/Rubber Guard/Mission Control]] - Primary entry point to New York from which sweep becomes available
 
-- [[Rubber Guard Sweep]] - Related sweep from earlier in the Rubber Guard progression with similar mechanics
+- [[Transitions/Rubber Guard Sweep]] - Related sweep from earlier in the Rubber Guard progression with similar mechanics
 
-- [[New York Entry from Rubber Guard]] - Transition that establishes New York position before sweep attempt
+- [[Transitions/New York Entry from Rubber Guard]] - Transition that establishes New York position before sweep attempt
 
-- [[New York Control to Invisible Collar]] - Alternative attacking path from New York creating sweep-or-submit dilemma
+- [[Transitions/New York Control to Invisible Collar]] - Alternative attacking path from New York creating sweep-or-submit dilemma
 
-- [[Invisible Collar]] - Advanced attacking position accessible if sweep is not attempted
+- [[Positions/Rubber Guard/Invisible Collar]] - Advanced attacking position accessible if sweep is not attempted
 
-- [[Closed Guard]] - Fallback position if New York control degrades before sweep attempt
+- [[Positions/Closed Guard]] - Fallback position if New York control degrades before sweep attempt
 
 
 </section>

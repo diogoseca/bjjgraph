@@ -180,7 +180,7 @@ description: "Complete guide to executing the Backstep from Worm Guard pass. Lea
 
 As the top player executing the backstep from worm guard, your primary objective is to exploit the directional weakness of the lapel wrap by redirecting your trapped leg behind the bottom player's guard structure rather than fighting through the front. The worm guard lapel creates a powerful one-way control mechanism that resists forward extraction but cannot follow backward rotation. Your backstep leverages this asymmetry by stepping in the one direction the wrap cannot track. Success depends on combining upper body control with the stepping motion to prevent the bottom player from chasing your hips and re-establishing tension from a new angle. The key technical challenge is committing fully to the rotation while maintaining enough upper body connection to prevent the back take that becomes available when you turn away from your opponent.
 
-**From Position**: [[Worm Guard]] (Top)
+**From Position**: [[Positions/Worm Guard]] (Top)
 
 </section>
 
@@ -232,10 +232,10 @@ As the top player executing the backstep from worm guard, your primary objective
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Failure | [[Worm Guard]] | 25% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Side Control]] | 45% |
+| Failure | [[Positions/Worm Guard]] | 25% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the top player executing the backstep from worm guard, your primary objective
 
 ## Opponent Counters
 
-- **Bottom player chases your hip rotation with their own hip adjustment, maintaining lapel tension throughout the backstep** (Effectiveness: High) - Your Response: Increase pressure on the far hip block to pin their hips to the mat. If they continue tracking, pause the backstep, re-establish your base, and consider switching to a direct lapel strip or alternative passing approach. → Leads to [[Worm Guard]]
-- **Bottom player releases worm guard grips and immediately shoots for a back take as you rotate and expose your back during the backstep** (Effectiveness: Medium) - Your Response: Keep your elbow tight to your body and maintain collar grip throughout the rotation. If you feel them climbing your back, immediately sit back into them to flatten them and deny hooks. Abort the pass if back exposure becomes critical. → Leads to [[Back Control]]
-- **Bottom player inserts a knee shield or frames during the backstep transition before you can settle into side control** (Effectiveness: Medium) - Your Response: Drive immediate pressure through the knee shield using a smash passing approach. Alternatively, switch to a knee slice or leg weave to address the newly inserted frames rather than trying to force through them. → Leads to [[Half Guard]]
-- **Bottom player pulls you forward using remaining grips during your weight transfer phase, disrupting your balance before the backstep begins** (Effectiveness: Low) - Your Response: Maintain a wide base with hips back during the weight transfer. If pulled forward, use the momentum to convert into a stack pass or pressure pass rather than fighting back to the backstep setup. → Leads to [[Worm Guard]]
+- **Bottom player chases your hip rotation with their own hip adjustment, maintaining lapel tension throughout the backstep** (Effectiveness: High) - Your Response: Increase pressure on the far hip block to pin their hips to the mat. If they continue tracking, pause the backstep, re-establish your base, and consider switching to a direct lapel strip or alternative passing approach. → Leads to [[Positions/Worm Guard]]
+- **Bottom player releases worm guard grips and immediately shoots for a back take as you rotate and expose your back during the backstep** (Effectiveness: Medium) - Your Response: Keep your elbow tight to your body and maintain collar grip throughout the rotation. If you feel them climbing your back, immediately sit back into them to flatten them and deny hooks. Abort the pass if back exposure becomes critical. → Leads to [[Positions/Back Control]]
+- **Bottom player inserts a knee shield or frames during the backstep transition before you can settle into side control** (Effectiveness: Medium) - Your Response: Drive immediate pressure through the knee shield using a smash passing approach. Alternatively, switch to a knee slice or leg weave to address the newly inserted frames rather than trying to force through them. → Leads to [[Positions/Half Guard]]
+- **Bottom player pulls you forward using remaining grips during your weight transfer phase, disrupting your balance before the backstep begins** (Effectiveness: Low) - Your Response: Maintain a wide base with hips back during the weight transfer. If pulled forward, use the momentum to convert into a stack pass or pressure pass rather than fighting back to the backstep setup. → Leads to [[Positions/Worm Guard]]
 
 
 </section>

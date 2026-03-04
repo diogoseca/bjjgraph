@@ -208,29 +208,29 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 
 ## Available Attacks
 
-### [[Heel Hook]] (40% of attempts)
+### [[Transitions/Heel Hook]] (40% of attempts)
 
-### [[Toe Hold]] (10% of attempts)
+### [[Transitions/Toe Hold]] (10% of attempts)
 
-### [[Outside Ashi Entry]] (8% of attempts)
+### [[Transitions/Outside Ashi Entry]] (8% of attempts)
 
-### [[Saddle Entry from Top]] (8% of attempts)
+### [[Transitions/Saddle Entry from Top]] (8% of attempts)
 
-### [[50-50 Entry]] (3% of attempts)
+### [[Transitions/50-50 Entry]] (3% of attempts)
 
-### [[Kneebar Finish]] (8% of attempts)
+### [[Transitions/Kneebar Finish]] (8% of attempts)
 
-### [[Calf Slicer]] (3% of attempts)
+### [[Transitions/Calf Slicer]] (3% of attempts)
 
-### [[Rolling Back Take]] (10% of attempts)
+### [[Transitions/Rolling Back Take]] (10% of attempts)
 
-### [[Inside Ashi-Garami to Honey Hole]] (6% of attempts)
+### [[Transitions/Inside Ashi-Garami to Honey Hole]] (6% of attempts)
 
-### [[Inside Sankaku Heel Hook]] (1% of attempts)
+### [[Transitions/Inside Sankaku Heel Hook]] (1% of attempts)
 
-### [[Inside Sankaku to Saddle]] (1% of attempts)
+### [[Transitions/Inside Sankaku to Saddle]] (1% of attempts)
 
-### [[Inside Sankaku Heel Hook Finish]] (2% of attempts)
+### [[Submissions/Inside Sankaku Heel Hook Finish]] (2% of attempts)
 
 
 
@@ -241,27 +241,27 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 ## Decision Making from This Position
 
 **If opponent maintains defensive posture and protects heel by keeping it hidden:**
-- Execute **[[Hip pressure application]]** → [[Inside Sankaku]] (Probability: 70%)
+- Execute **[[Hip pressure application]]** → [[Positions/Inside Sankaku]] (Probability: 70%)
 - Execute **[[Toe Hold transition]]** → [[game-over]] (Probability: 60%)
 - Execute **[[Kneebar attack]]** → [[game-over]] (Probability: 55%)
 
 
 **If opponent attempts to clear knee line by rotating away from you:**
-- Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 65%)
-- Execute **[[Position maintenance with leg adjustment]]** → [[Inside Sankaku]] (Probability: 60%)
-- Execute **[[Outside Heel Hook]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Position maintenance with leg adjustment]]** → [[Positions/Inside Sankaku]] (Probability: 60%)
+- Execute **[[Transitions/Outside Heel Hook]]** → [[game-over]] (Probability: 50%)
 
 
 **If opponent turns into you attempting to pass knee line and stack:**
-- Execute **[[Saddle Entry]]** → [[Saddle]] (Probability: 70%)
-- Execute **[[Leg position adjustment]]** → [[Inside Sankaku]] (Probability: 60%)
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Saddle Entry]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
+- Execute **[[Leg position adjustment]]** → [[Positions/Inside Sankaku]] (Probability: 60%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent attempts to stand up or create vertical distance:**
-- Execute **[[Hip elevation and entanglement maintenance]]** → [[Inside Sankaku]] (Probability: 65%)
-- Execute **[[Single Leg X-Guard transition]]** → [[Single Leg X-Guard]] (Probability: 55%)
-- Execute **[[Sweep to top position]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Hip elevation and entanglement maintenance]]** → [[Positions/Inside Sankaku]] (Probability: 65%)
+- Execute **[[Single Leg X-Guard transition]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
+- Execute **[[Sweep to top position]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent exposes heel and you have optimal submission angle established:**
@@ -412,16 +412,16 @@ Start in established Inside Sankaku position. Top player works to maintain posit
 
 ## Related Positions and Techniques
 
-- **[[Outside Ashi-Garami]]** - Common entry position - frequently transitioned from to enter Inside Sankaku
-- **[[Saddle]]** - Related leg entanglement - similar control concepts with different angle and both legs trapped
-- **[[50-50 Guard]]** - Alternative leg entanglement - can transition between positions based on opponent defense
-- **[[Single Leg X-Guard]]** - Entry position - common pathway to Inside Sankaku from standing or guard
-- **[[Inside Heel Hook]]** - Primary submission - the main finishing technique from this position
-- **[[Toe Hold]]** - Alternative submission - attacked when heel is hidden or defended
-- **[[Cross Ashi-Garami]]** - Related position - similar leg configuration with different attacking opportunities
-- **[[Back Control]]** - Transition target - available when opponent gives back defending leg attack
-- **[[Honey Hole]]** - Alternative name for Inside Sankaku - same position with different terminology
-- **[[Kneebar Control]]** - Alternative finishing position when heel hook defenses are effective
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Common entry position - frequently transitioned from to enter Inside Sankaku
+- **[[Positions/Ashi Garami/Saddle]]** - Related leg entanglement - similar control concepts with different angle and both legs trapped
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Alternative leg entanglement - can transition between positions based on opponent defense
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Entry position - common pathway to Inside Sankaku from standing or guard
+- **[[Submissions/Inside Heel Hook]]** - Primary submission - the main finishing technique from this position
+- **[[Transitions/Toe Hold]]** - Alternative submission - attacked when heel is hidden or defended
+- **[[Positions/Ashi Garami/Cross Ashi-Garami]]** - Related position - similar leg configuration with different attacking opportunities
+- **[[Positions/Back Control]]** - Transition target - available when opponent gives back defending leg attack
+- **[[Positions/Ashi Garami/Honey Hole]]** - Alternative name for Inside Sankaku - same position with different terminology
+- **[[Positions/Kneebar Control]]** - Alternative finishing position when heel hook defenses are effective
 
 
 </section>

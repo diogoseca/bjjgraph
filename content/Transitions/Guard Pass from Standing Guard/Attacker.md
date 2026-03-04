@@ -180,7 +180,7 @@ description: "Complete attacker guide to the standing guard pass in BJJ. Master 
 
 Executing the standing guard pass requires systematic progression through four distinct phases: grip neutralization, leg control establishment, directional commitment, and position consolidation. The passer must maintain an athletic upright stance with weight distributed through the balls of their feet while fighting for dominant grips on the guard player's legs, pants, or hips. The critical skill is reading the guard player's defensive structure to identify which side presents the weakest retention, then committing decisively to that direction with enough speed and pressure to overwhelm their adjustment capacity. Throughout the pass, the attacker must maintain awareness of sweep threats and adjust weight distribution to prevent being off-balanced during the commitment phase. Mastery comes from developing the ability to chain directional changes and passing styles together, creating cascading dilemmas that force the guard player into increasingly compromised defensive positions.
 
-**From Position**: [[Standing Guard]] (Top)
+**From Position**: [[Positions/Standing Guard]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ Executing the standing guard pass requires systematic progression through four d
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Standing Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Standing Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ Executing the standing guard pass requires systematic progression through four d
 
 ## Opponent Counters
 
-- **Opponent inserts shin shield or knee frame during pass attempt blocking lateral movement** (Effectiveness: High) - Your Response: Immediately redirect to the opposite side of the shin shield using quick directional change, or apply downward pressure on the shin and pass over it using smash pass mechanics → Leads to [[Standing Guard]]
-- **Opponent grips your sleeve and collar to pull you off balance during directional commitment** (Effectiveness: Medium) - Your Response: Strip the collar grip immediately using two-on-one break, maintain low center of gravity with hips back, then either continue the pass through remaining grips or reset to standing position → Leads to [[Standing Guard]]
-- **Opponent hip-escapes and re-establishes guard hooks during your directional commitment phase** (Effectiveness: High) - Your Response: Follow their hip movement with your own hips maintaining pressure and connection rather than allowing space to develop, then chain to a secondary pass in the new direction their hips created → Leads to [[Standing Guard]]
-- **Opponent hooks your lead leg and executes a sweep during the forward commitment of the pass** (Effectiveness: Medium) - Your Response: Post your hand on the mat and widen your base to resist the sweep, or bail on the pass and reset to standing before the sweep completes to avoid full reversal → Leads to [[Half Guard]]
+- **Opponent inserts shin shield or knee frame during pass attempt blocking lateral movement** (Effectiveness: High) - Your Response: Immediately redirect to the opposite side of the shin shield using quick directional change, or apply downward pressure on the shin and pass over it using smash pass mechanics → Leads to [[Positions/Standing Guard]]
+- **Opponent grips your sleeve and collar to pull you off balance during directional commitment** (Effectiveness: Medium) - Your Response: Strip the collar grip immediately using two-on-one break, maintain low center of gravity with hips back, then either continue the pass through remaining grips or reset to standing position → Leads to [[Positions/Standing Guard]]
+- **Opponent hip-escapes and re-establishes guard hooks during your directional commitment phase** (Effectiveness: High) - Your Response: Follow their hip movement with your own hips maintaining pressure and connection rather than allowing space to develop, then chain to a secondary pass in the new direction their hips created → Leads to [[Positions/Standing Guard]]
+- **Opponent hooks your lead leg and executes a sweep during the forward commitment of the pass** (Effectiveness: Medium) - Your Response: Post your hand on the mat and widen your base to resist the sweep, or bail on the pass and reset to standing before the sweep completes to avoid full reversal → Leads to [[Positions/Half Guard]]
 
 
 </section>

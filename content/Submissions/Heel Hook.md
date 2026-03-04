@@ -26,7 +26,7 @@ Successful heel hook application demands mastery of positional control, understa
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Ankle joint, knee ligaments (ACL/MCL/LCL), and lower leg structural integrity
-**Starting Position**: [[Ashi Garami]]
+**Starting Position**: [[Positions/Ashi Garami]]
 **Success Rate**: 45%
 
 </section>
@@ -86,8 +86,8 @@ Successful heel hook application demands mastery of positional control, understa
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Ashi Garami]] | 25% |
-| Counter | [[50-50 Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami]] | 25% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -242,15 +242,15 @@ Successful heel hook application demands mastery of positional control, understa
 
 ## From Which Positions?
 
-- [[Ashi Garami]]
-- [[Saddle]]
-- [[Inside Ashi-Garami]]
-- [[Outside Ashi-Garami]]
-- [[50-50 Guard]]
-- [[Honey Hole]]
-- [[Cross Ashi-Garami]]
-- [[Single Leg X-Guard]]
-- [[Backside 50-50]]
+- [[Positions/Ashi Garami]]
+- [[Positions/Ashi Garami/Saddle]]
+- [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- [[Positions/Ashi Garami/50-50 Guard]]
+- [[Positions/Ashi Garami/Honey Hole]]
+- [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- [[Positions/X-Guard/Single Leg X-Guard]]
+- [[Positions/Ashi Garami/Backside 50-50]]
 
 
 </section>
@@ -259,14 +259,14 @@ Successful heel hook application demands mastery of positional control, understa
 
 ## Related Submissions
 
-- [[Inside Heel Hook]]
-- [[Outside Heel Hook]]
-- [[Kneebar]]
-- [[Toe Hold]]
-- [[Straight Ankle Lock]]
-- [[Calf Slicer]]
-- [[Estima Lock]]
-- [[Achilles Lock]]
+- [[Submissions/Inside Heel Hook]]
+- [[Transitions/Outside Heel Hook]]
+- [[Transitions/Kneebar]]
+- [[Transitions/Toe Hold]]
+- [[Submissions/Straight Ankle Lock]]
+- [[Transitions/Calf Slicer]]
+- [[Positions/Estima Lock]]
+- [[Submissions/Achilles Lock]]
 
 
 </section>
@@ -275,16 +275,16 @@ Successful heel hook application demands mastery of positional control, understa
 
 ## Additional Related Content
 
-- [[Leg Entanglement]] - Foundational principle governing all heel hook positions and control mechanics
-- [[X-Guard]] - Common entry position for leg entanglements leading to heel hook opportunities
-- [[Deep Half Guard]] - Guard position that can transition to leg entanglements and heel hook attacks
-- [[Twister Control]] - Back attack position that transitions to heel hooks when opponent defends twister
-- [[Kneebar Control]] - Alternative leg lock control position that shares leg entanglement principles
-- [[Turtle]] - Defensive position where opponent may expose legs to heel hook entries during scrambles
-- [[De La Riva Guard]] - Guard variation that can create single leg X-guard and subsequent heel hook entries
-- [[Open Guard]] - General category including multiple guards that facilitate leg entanglement entries
-- [[Half Guard]] - Position from which leg entanglements can be entered when opponent attempts to pass
-- [[Straight Ankle Lock Control]] - Related finishing position with different mechanics but similar leg control requirements
+- [[Positions/Leg Entanglement]] - Foundational principle governing all heel hook positions and control mechanics
+- [[Positions/X-Guard]] - Common entry position for leg entanglements leading to heel hook opportunities
+- [[Positions/Half Guard/Deep Half Guard]] - Guard position that can transition to leg entanglements and heel hook attacks
+- [[Positions/Twister Control]] - Back attack position that transitions to heel hooks when opponent defends twister
+- [[Positions/Kneebar Control]] - Alternative leg lock control position that shares leg entanglement principles
+- [[Positions/Turtle]] - Defensive position where opponent may expose legs to heel hook entries during scrambles
+- [[Positions/De La Riva Guard]] - Guard variation that can create single leg X-guard and subsequent heel hook entries
+- [[Positions/Open Guard]] - General category including multiple guards that facilitate leg entanglement entries
+- [[Positions/Half Guard]] - Position from which leg entanglements can be entered when opponent attempts to pass
+- [[Positions/Straight Ankle Lock Control]] - Related finishing position with different mechanics but similar leg control requirements
 
 
 </section>

@@ -218,29 +218,29 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 
 ## Available Attacks
 
-### [[Headquarters Pass]] (30% of attempts)
+### [[Transitions/Headquarters Pass]] (30% of attempts)
 
-### [[Grip Break]] (12% of attempts)
+### [[Transitions/Grip Break]] (12% of attempts)
 
-### [[Knee Cut Pass]] (10% of attempts)
+### [[Transitions/Knee Cut Pass]] (10% of attempts)
 
-### [[Toreando Pass]] (8% of attempts)
+### [[Transitions/Toreando Pass]] (8% of attempts)
 
-### [[Stack Pass]] (8% of attempts)
+### [[Transitions/Stack Pass]] (8% of attempts)
 
-### [[Leg Drag Pass]] (8% of attempts)
+### [[Transitions/Leg Drag Pass]] (8% of attempts)
 
-### [[X Pass]] (8% of attempts)
+### [[Transitions/X Pass]] (8% of attempts)
 
-### [[Pressure Pass]] (7% of attempts)
+### [[Transitions/Pressure Pass]] (7% of attempts)
 
-### [[Long Step Pass]] (4% of attempts)
+### [[Transitions/Long Step Pass]] (4% of attempts)
 
-### [[Double Under Pass]] (3% of attempts)
+### [[Transitions/Double Under Pass]] (3% of attempts)
 
-### [[Bull Pass from Collar Sleeve]] (1% of attempts)
+### [[Transitions/Bull Pass from Collar Sleeve]] (1% of attempts)
 
-### [[Pass Collar Sleeve Guard]] (1% of attempts)
+### [[Transitions/Pass Collar Sleeve Guard]] (1% of attempts)
 
 
 
@@ -251,28 +251,28 @@ Transitioning to dominant positions occurs when you successfully clear the guard
 ## Decision Making from This Position
 
 **If opponent has established both collar and sleeve grips with strong tension:**
-- Execute **[[Grip Break]]** → [[Collar Sleeve Guard Top]] (Probability: 70%)
-- Execute **[[Headquarters Pass]]** → [[Headquarters Position]] (Probability: 60%)
+- Execute **[[Transitions/Grip Break]]** → [[Collar Sleeve Guard Top]] (Probability: 70%)
+- Execute **[[Transitions/Headquarters Pass]]** → [[Positions/Headquarters Position]] (Probability: 60%)
 
 
 **If opponent commits to pendulum or flower sweep with extended legs:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Knee Cut Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent shoots triangle by bringing leg high around your neck:**
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Posture Recovery]]** → [[Collar Sleeve Guard Top]] (Probability: 70%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Collar Sleeve Guard Top]] (Probability: 70%)
 
 
 **If opponent maintains distance with extended legs and frames:**
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Leg Drag Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent's grips are weak or you have established counter-grips:**
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Double Under Pass]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Double Under Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 
@@ -406,14 +406,14 @@ Partner plays collar sleeve guard with graded resistance: Round 1 (30% resistanc
 
 ## Related Positions and Techniques
 
-- **[[Side Control]]** - Primary target position after successful guard pass
-- **[[Headquarters Position]]** - Transitional position when passing around legs
-- **[[Toreando Pass]]** - High-percentage distance passing technique against collar sleeve
-- **[[Stack Pass]]** - Pressure passing option when opponent brings knees high
-- **[[Knee Cut Pass]]** - Effective counter when opponent commits to sweeps
-- **[[Knee on Belly]]** - Intermediate control position when transitioning past guard
-- **[[Combat Base]]** - Starting stance for initiating passes against collar sleeve
-- **[[Double Under Pass]]** - Pressure passing option when opponent's grips are compromised
+- **[[Positions/Side Control]]** - Primary target position after successful guard pass
+- **[[Positions/Headquarters Position]]** - Transitional position when passing around legs
+- **[[Transitions/Toreando Pass]]** - High-percentage distance passing technique against collar sleeve
+- **[[Transitions/Stack Pass]]** - Pressure passing option when opponent brings knees high
+- **[[Transitions/Knee Cut Pass]]** - Effective counter when opponent commits to sweeps
+- **[[Positions/Knee on Belly]]** - Intermediate control position when transitioning past guard
+- **[[Positions/Combat Base]]** - Starting stance for initiating passes against collar sleeve
+- **[[Transitions/Double Under Pass]]** - Pressure passing option when opponent's grips are compromised
 
 
 </section>

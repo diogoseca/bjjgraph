@@ -162,7 +162,7 @@ description: "Learn to defend and counter the knee slice pass from closed guard 
 
 Defending the knee slice from closed guard requires recognizing the pass attempt early and responding during the narrow window between guard opening and knee insertion. As the bottom player, your closed guard is your primary offensive platform, and you must fight aggressively to prevent the transition from guard opening into an immediate passing sequence. Your defensive toolkit includes re-closing the guard before the knee penetrates, establishing knee shield frames to block the slice path, and exploiting the attacker's forward commitment for counter-sweeps. Timing is critical because each defensive option has a specific window where it is most effective, and the correct response depends on how far the knee slice has progressed when you recognize it.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Top)
 
 </section>
 
@@ -200,28 +200,28 @@ Defending the knee slice from closed guard requires recognizing the pass attempt
 ### 1. Re-close guard by fighting to re-lock ankles before the knee crosses the thigh line
 
 - **When to use**: During the guard break phase when ankles have just separated but the opponent's knee has not yet begun to insert across your thigh
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Opponent remains trapped in closed guard top and you retain your offensive guard position with all sweep and submission options available
 - **Risk**: If you fail to re-lock in time, you waste energy and the opponent's knee may already be past the point of no return for guard closure
 
 ### 2. Insert knee shield across opponent's hip to structurally block the knee slice path
 
 - **When to use**: When the guard has opened and the opponent's knee is beginning to drive forward but has not yet crossed your centerline
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Knee shield creates a structural barrier that prevents the knee from crossing your thigh, allowing you to work back to closed guard or transition to knee shield half guard
 - **Risk**: If the opponent achieves crossface before your knee shield is established, they can smash the shield flat and continue the pass
 
 ### 3. Underhook on the near side and drive forward for a counter-sweep exploiting the attacker's forward commitment
 
 - **When to use**: When the opponent commits weight forward during the knee drive and their base is compromised by the passing attempt
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You sweep the opponent by using their forward momentum against them, ending up in half guard top or potentially a full reversal to top position
 - **Risk**: If the sweep fails, you have given up your frame and turned into the opponent, making it easier for them to flatten you with crossface and complete the pass
 
 ### 4. Frame on crossface shoulder and hip escape to create distance for full guard recovery
 
 - **When to use**: When the opponent has begun establishing crossface but the knee has not fully cleared your thigh line
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You create enough distance to re-establish leg control and recover to closed guard or transition to an open guard system with defensive frames intact
 - **Risk**: Shrimping away without controlling the opponent's leg may allow them to follow your hip escape and complete the pass with their momentum
 
@@ -233,11 +233,11 @@ Defending the knee slice from closed guard requires recognizing the pass attempt
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Fight the guard break aggressively by re-locking ankles, establishing knee shield, or hip escaping to create distance before the knee slice can progress past your centerline. The earlier you respond in the passing sequence, the higher your probability of returning to closed guard.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the attacker's forward commitment during the knee drive by securing an underhook on the near side and driving into them for a counter-sweep. Time the sweep attempt when their weight is most committed forward and their posting foot cannot provide adequate base to resist the reversal.
 

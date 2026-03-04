@@ -154,7 +154,7 @@ description: "Learn to maintain clamp guard and counter arm extraction attempts 
 
 As the bottom player maintaining clamp guard, your goal during the opponent's extraction attempt is to either retain the clamp or convert their escape effort into a submission entry. Every extraction method creates a specific vulnerability: linear pulling opens the armbar, outward circulation opens the triangle, and forward driving opens sweeps. Your defensive strategy is fundamentally offensive — you are not passively holding the clamp but actively reading the extraction direction and channeling it into your pre-loaded attacks. The longer you maintain the clamp and the more extraction attempts you force the opponent to make, the more fatigued their trapped arm becomes and the higher your submission conversion rate climbs with each failed extraction.
 
-**Opponent's Starting Position**: [[Clamp Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Clamp Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the bottom player maintaining clamp guard, your goal during the opponent's ex
 ### 1. Tighten clamp and re-angle hips to follow the opponent's lateral movement
 
 - **When to use**: When the opponent begins any angle change or weight shift during extraction setup, before they commit to the extraction motion
-- **Targets**: [[Clamp Guard]]
+- **Targets**: [[Positions/Clamp Guard]]
 - **If successful**: Opponent remains trapped in clamp guard with deepened control, forcing them to restart the entire extraction sequence from scratch
 - **Risk**: Over-committing to hip adjustment may create a momentary gap if timing is slightly off
 
 ### 2. Attack armbar by extending hips when opponent's arm straightens during backward extraction pull
 
 - **When to use**: When the opponent pulls their arm backward and their elbow begins to extend past 90 degrees, creating the hyperextension angle needed for the finish
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: Transition to armbar control with the isolated arm already partially extended, creating a high-percentage submission finish opportunity
 - **Risk**: If the opponent recognizes the armbar early and bends their elbow, you may lose clamp position entirely during the transition to armbar configuration
 
 ### 3. Re-grip the wrist immediately after opponent strips your grip to prevent rotational extraction
 
 - **When to use**: The instant you feel your wrist grip being broken — do not wait for the grip to fully separate before re-engaging with a fresh grip
-- **Targets**: [[Clamp Guard]]
+- **Targets**: [[Positions/Clamp Guard]]
 - **If successful**: Opponent must restart the grip-stripping process, buying time and fatiguing their free hand while you maintain the anchor point
 - **Risk**: Repeatedly re-gripping without attacking may allow the opponent to develop better extraction timing through repetition
 
 ### 4. Threaten triangle by shooting your leg over opponent's shoulder when they create outward angle
 
 - **When to use**: When the opponent circles their arm outward or creates significant lateral angle change, exposing their neck and shoulder line to your top leg
-- **Targets**: [[Clamp Guard]]
+- **Targets**: [[Positions/Clamp Guard]]
 - **If successful**: Enter triangle control with one arm already isolated, dramatically reducing the opponent's defensive options against the choke
 - **Risk**: The triangle attempt requires partially releasing the clamp — if the triangle is not secured, the opponent may escape to open guard entirely
 
@@ -225,11 +225,11 @@ As the bottom player maintaining clamp guard, your goal during the opponent's ex
 
 ## Best-Case Outcomes for Defender
 
-### → [[Clamp Guard]]
+### → [[Positions/Clamp Guard]]
 
 Maintain shin-on-bicep contact by following the opponent's arm with continuous hip angle adjustments. Re-establish wrist grip immediately whenever it is broken. Use your free hand to control posture and prevent the opponent from generating the upright position needed for extraction leverage. Each failed extraction attempt fatigues their arm and deepens your positional advantage.
 
-### → [[Armbar Control]]
+### → [[Positions/Armbar Control]]
 
 Read the opponent's extraction direction and attack the armbar when their arm extends during a backward pull. Elevate your hips against their shoulder as their arm straightens, and transition your leg control from clamp configuration to armbar configuration by shooting your top leg across their face while maintaining grip on the wrist.
 

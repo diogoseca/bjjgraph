@@ -182,7 +182,7 @@ Executing the 50-50 Guard to Single Leg X-Guard transition requires understandin
 
 The transition exploits a fundamental timing principle: opponent cannot simultaneously attack your heel and defend against positional change. When they commit focus to heel hook offense, their hip pressure and positional awareness decrease, creating the extraction window. Conversely, when they adjust grips or reposition for better control, their submission threat temporarily diminishes. Reading these commitment moments and executing during the correct window separates successful application from dangerous failed attempts that expose your knee to rotational force.
 
-**From Position**: [[50-50 Guard]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ The transition exploits a fundamental timing principle: opponent cannot simultan
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 55% |
-| Failure | [[50-50 Guard]] | 30% |
-| Counter | [[50-50 Guard]] | 15% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 55% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ The transition exploits a fundamental timing principle: opponent cannot simultan
 
 ## Opponent Counters
 
-- **Opponent drives hips forward aggressively to maintain 50-50 entanglement** (Effectiveness: High) - Your Response: Use their forward momentum to accelerate your hip escape and load their weight onto your establishing hooks for immediate sweep opportunity. Their drive actually assists the transition if you are mid-extraction. → Leads to [[50-50 Guard]]
-- **Opponent backsteps to disengage from entanglement entirely** (Effectiveness: Medium) - Your Response: Follow with technical stand-up since they have abandoned leg control. Maintain ankle grip and rise to standing passer position. Their disengagement concedes the positional battle. → Leads to [[Single Leg X-Guard]]
-- **Opponent attacks heel hook during mid-transition when defensive structure is compromised** (Effectiveness: High) - Your Response: Immediately abort the transition, pull extracting leg back into defensive position, rotate knee inward, and fight their grips with both hands. This is the most dangerous counter and underscores why timing is essential. → Leads to [[50-50 Guard]]
-- **Opponent posts hands on your hips to prevent hip escape repositioning** (Effectiveness: Medium) - Your Response: Use their extended arm as a lever for arm drag to off-balance them, or continue hip escape in opposite direction to create different extraction angle. Their hand posting sacrifices grip fighting on your ankle. → Leads to [[50-50 Guard]]
+- **Opponent drives hips forward aggressively to maintain 50-50 entanglement** (Effectiveness: High) - Your Response: Use their forward momentum to accelerate your hip escape and load their weight onto your establishing hooks for immediate sweep opportunity. Their drive actually assists the transition if you are mid-extraction. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent backsteps to disengage from entanglement entirely** (Effectiveness: Medium) - Your Response: Follow with technical stand-up since they have abandoned leg control. Maintain ankle grip and rise to standing passer position. Their disengagement concedes the positional battle. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Opponent attacks heel hook during mid-transition when defensive structure is compromised** (Effectiveness: High) - Your Response: Immediately abort the transition, pull extracting leg back into defensive position, rotate knee inward, and fight their grips with both hands. This is the most dangerous counter and underscores why timing is essential. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent posts hands on your hips to prevent hip escape repositioning** (Effectiveness: Medium) - Your Response: Use their extended arm as a lever for arm drag to off-balance them, or continue hip escape in opposite direction to create different extraction angle. Their hand posting sacrifices grip fighting on your ankle. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 
 
 </section>

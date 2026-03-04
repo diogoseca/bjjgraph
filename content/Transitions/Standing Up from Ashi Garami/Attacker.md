@@ -180,7 +180,7 @@ description: "Master the attacker's approach to standing up from Ashi Garami. St
 
 As the attacker executing Standing Up from Ashi Garami, you are the bottom player choosing to disengage from the leg entanglement and return to a standing position. This is a strategic decision requiring precise timing and mechanical understanding of how to safely release hooks, manage distance, and transition through the vulnerable standing phase without exposing yourself to sweeps or counter-attacks. Success depends on recognizing when the entanglement exchange has stalled and committing fully to the stand-up sequence rather than hesitating between maintaining ashi garami and standing. The transition demands sequential release of connection points, proper framing, and explosive hip drive to create the distance needed for a clean disengagement.
 
-**From Position**: [[Ashi Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing Standing Up from Ashi Garami, you are the bottom playe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Ashi Garami]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Ashi Garami]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing Standing Up from Ashi Garami, you are the bottom playe
 
 ## Opponent Counters
 
-- **Opponent tightens leg hooks and pulls hips in to prevent standing** (Effectiveness: High) - Your Response: Abandon the stand-up attempt early and immediately re-establish ashi garami control rather than fighting a losing battle against tightened hooks that will compromise your position → Leads to [[Ashi Garami]]
-- **Opponent uses standing momentum to invert and enter a new leg entanglement** (Effectiveness: Medium) - Your Response: Maintain strong frames during the stand-up and step laterally to deny the inversion angle, then continue the disengagement sequence with adjusted positioning → Leads to [[Ashi Garami]]
-- **Opponent releases defense and immediately attacks exposed leg during transition** (Effectiveness: High) - Your Response: Accelerate the stand-up by posting explosively and clearing the leg before they can establish finishing control on the newly exposed limb → Leads to [[Standing Position]]
-- **Opponent sits up and establishes open guard hooks on hips as you stand** (Effectiveness: Medium) - Your Response: Accept the open guard top position and transition to a passing sequence rather than trying to force complete disengagement against established hooks → Leads to [[Open Guard]]
+- **Opponent tightens leg hooks and pulls hips in to prevent standing** (Effectiveness: High) - Your Response: Abandon the stand-up attempt early and immediately re-establish ashi garami control rather than fighting a losing battle against tightened hooks that will compromise your position → Leads to [[Positions/Ashi Garami]]
+- **Opponent uses standing momentum to invert and enter a new leg entanglement** (Effectiveness: Medium) - Your Response: Maintain strong frames during the stand-up and step laterally to deny the inversion angle, then continue the disengagement sequence with adjusted positioning → Leads to [[Positions/Ashi Garami]]
+- **Opponent releases defense and immediately attacks exposed leg during transition** (Effectiveness: High) - Your Response: Accelerate the stand-up by posting explosively and clearing the leg before they can establish finishing control on the newly exposed limb → Leads to [[Positions/Standing Position]]
+- **Opponent sits up and establishes open guard hooks on hips as you stand** (Effectiveness: Medium) - Your Response: Accept the open guard top position and transition to a passing sequence rather than trying to force complete disengagement against established hooks → Leads to [[Positions/Open Guard]]
 
 
 </section>

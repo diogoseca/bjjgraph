@@ -209,21 +209,21 @@ The position demands mental toughness and technical precision. Panic and explosi
 
 ## Available Escapes
 
-### [[Elbow Escape to Guard]] (14% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (14% of attempts)
 
-### [[Bridge and Roll]] (12% of attempts)
+### [[Transitions/Bridge and Roll]] (12% of attempts)
 
-### [[Bridge and Turn to Turtle]] (17% of attempts)
+### [[Transitions/Bridge and Turn to Turtle]] (17% of attempts)
 
-### [[Hip Escape to Guard]] (14% of attempts)
+### [[Transitions/Hip Escape to Guard]] (14% of attempts)
 
-### [[North-South Escape]] (13% of attempts)
+### [[Transitions/North-South Escape]] (13% of attempts)
 
-### [[Frame and Shrimp to Guard]] (12% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (12% of attempts)
 
-### [[Granby Roll to Guard]] (11% of attempts)
+### [[Transitions/Granby Roll to Guard]] (11% of attempts)
 
-### [[Technical Stand-up]] (7% of attempts)
+### [[Transitions/Technical Stand-up]] (7% of attempts)
 
 
 
@@ -239,18 +239,18 @@ The position demands mental toughness and technical precision. Panic and explosi
 
 
 **If opponent attempts North-South choke:**
-- Execute **[[Frame against chest]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Hip escape to side]]** → [[Open Guard]] (Probability: 40%)
+- Execute **[[Frame against chest]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Hip escape to side]]** → [[Positions/Open Guard]] (Probability: 40%)
 
 
 **If opponent transitions toward mount:**
-- Execute **[[Insert knee shield]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Turn to turtle]]** → [[Turtle]] (Probability: 50%)
+- Execute **[[Insert knee shield]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Turn to turtle]]** → [[Positions/Turtle]] (Probability: 50%)
 
 
 **If opponent isolates one arm for kimura:**
-- Execute **[[Bridge and roll]]** → [[Side Control]] (Probability: 35%)
-- Execute **[[Defend grip and frame]]** → [[Closed Guard]] (Probability: 30%)
+- Execute **[[Bridge and roll]]** → [[Positions/Side Control]] (Probability: 35%)
+- Execute **[[Defend grip and frame]]** → [[Positions/Closed Guard]] (Probability: 30%)
 
 
 
@@ -389,14 +389,14 @@ Partner alternates between maintaining North-South control and setting up submis
 
 ## Related Positions and Techniques
 
-- **[[Side Control]]** - Adjacent pin position with similar escape principles
-- **[[Mount]]** - Common transition target from North-South for top player
-- **[[Turtle]]** - Common escape result when turning to knees
-- **[[Elbow Escape to Guard]]** - Primary escape technique to recover guard
-- **[[Hip Escape to Guard]]** - Fundamental movement for creating space and recovering guard
-- **[[Half Guard]]** - Common guard recovery position from escape
-- **[[Bridge and Roll]]** - Alternative escape technique using hip power
-- **[[Frame and Shrimp to Guard]]** - Combined technique for systematic escape to guard
+- **[[Positions/Side Control]]** - Adjacent pin position with similar escape principles
+- **[[Positions/Mount]]** - Common transition target from North-South for top player
+- **[[Positions/Turtle]]** - Common escape result when turning to knees
+- **[[Transitions/Elbow Escape to Guard]]** - Primary escape technique to recover guard
+- **[[Transitions/Hip Escape to Guard]]** - Fundamental movement for creating space and recovering guard
+- **[[Positions/Half Guard]]** - Common guard recovery position from escape
+- **[[Transitions/Bridge and Roll]]** - Alternative escape technique using hip power
+- **[[Transitions/Frame and Shrimp to Guard]]** - Combined technique for systematic escape to guard
 
 
 </section>

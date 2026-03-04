@@ -162,7 +162,7 @@ description: "How to defend against Double Leg Setup in BJJ. Recognition cues, d
 
 Defending the double leg setup requires recognizing pre-attack indicators and responding with structured defensive actions before the opponent completes their penetration step. The defender's primary objective is to deny the attacker the conditions they need for a successful entry: proximity, angle, and compromised posture. Early recognition transforms double leg defense from a reactive scramble into a proactive positional battle where the defender can dictate the exchange. The defensive framework operates on a timeline: the earliest interventions (grip denial, distance management, posture maintenance) are the highest percentage and lowest energy cost, while later-stage defenses (sprawling, guillotine counters, whizzer defense) become progressively more difficult and energy-intensive. Understanding this timeline allows the defender to invest their energy at the optimal point in the sequence. At the highest levels, effective double leg defense creates offensive opportunities - a well-timed sprawl leads to front headlock attacks, and a properly executed defensive frame can redirect the exchange into advantageous scrambles where the defender emerges on top.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -201,28 +201,28 @@ Defending the double leg setup requires recognizing pre-attack indicators and re
 ### 1. Sprawl defense by driving hips back and down while posting hands on opponent's head and shoulders to stuff the shot
 
 - **When to use**: When the opponent has already committed to the penetration step and their level has dropped below your hips - this is the primary defensive response once the shot is launched
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You end up in a dominant front headlock position with opponent's head trapped below you, creating opportunities for guillotine, anaconda, darce, or back take transitions
 - **Risk**: If your sprawl timing is late or your hips don't clear their entry, they can still drive through and complete the takedown to clinch or top position
 
 ### 2. Defensive frame and circle away by posting a stiff arm on opponent's shoulder or forehead while sidestepping laterally to deny the penetration angle
 
 - **When to use**: During the early setup phase when opponent is establishing grips and creating angles but has not yet committed to the level change - this preemptive defense is highest percentage
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You maintain standing position with distance re-established, opponent's setup is disrupted and they must restart their sequence from neutral
 - **Risk**: If the frame is weak or your footwork is slow, the opponent can collapse your arm and still execute their penetration step through the frame
 
 ### 3. Guillotine counter by wrapping arm around opponent's neck as they shoot low and pulling guard or remaining standing with head-and-arm control
 
 - **When to use**: When opponent's head position is poor during their penetration step - specifically when their head is in front of your centerline rather than tight to your hip, creating the neck exposure needed for the guillotine
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You establish guillotine control that threatens an immediate submission finish or creates a front headlock position where you control the exchange
 - **Risk**: If the guillotine grip is shallow or the opponent drives through before you can consolidate, you may end up on bottom with a loose grip that wastes energy without finishing
 
 ### 4. Snap down counter by pulling opponent's head toward the mat as they begin lowering their level, collapsing their posture before they can complete the penetration
 
 - **When to use**: When you have a collar tie established and feel the opponent loading their weight forward in preparation for the level change - the snap down exploits their forward commitment
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Opponent's hands hit the mat and their posture collapses, giving you a dominant front headlock or forcing them into turtle where you have top control
 - **Risk**: If the snap down fails to break their posture, you've released collar tie pressure and they may use the opening to complete their shot
 
@@ -234,11 +234,11 @@ Defending the double leg setup requires recognizing pre-attack indicators and re
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Deny the setup before the shot is launched by maintaining distance through active footwork, breaking opponent's grip configurations before they can complete the collar tie plus wrist control setup, and using lateral movement to prevent them from establishing the outside foot angle. This is the highest-percentage defensive outcome because it requires the least energy and keeps you in a neutral position to launch your own attacks.
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Execute a well-timed sprawl as the opponent commits to their penetration step, driving your hips back and down while your hands post on their head and shoulders. As their shot is stuffed, immediately transition to front headlock control by wrapping your arm around their neck and securing their far shoulder. From this position you can threaten guillotine, anaconda, darce, or transition to back control, converting their failed offensive into your dominant attacking position.
 

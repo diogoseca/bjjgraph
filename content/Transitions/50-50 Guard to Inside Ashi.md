@@ -21,7 +21,7 @@ The technique requires understanding the precise moment when your opponent's gri
 
 This transition is particularly valuable against opponents who play defensive 50-50, hiding their heel and refusing to engage. By converting to inside ashi, you gain superior heel access, better control over their hip movement, and a direct pathway to submissions like straight ankle locks and heel hooks. The position also opens transitions to more advanced entanglements like honey hole or saddle that are difficult to access from standard 50-50.
 
-**From Position**: [[50-50 Guard]] (Top)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This transition is particularly valuable against opponents who play defensive 50
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 65% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[50-50 Guard]] | 10% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 65% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 10% |
 
 
 </section>
@@ -187,25 +187,25 @@ The 50-50 Guard to Inside Ashi transition serves as a critical bridge between th
 ## Related Techniques
 
 
-- [[50-50 Guard]] - Starting position - symmetrical leg entanglement
+- [[Positions/Ashi Garami/50-50 Guard]] - Starting position - symmetrical leg entanglement
 
-- [[Inside Ashi-Garami]] - Target position - dominant leg entanglement with superior control
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Target position - dominant leg entanglement with superior control
 
-- [[Straight Ankle Lock]] - Primary submission from inside ashi after transition
+- [[Submissions/Straight Ankle Lock]] - Primary submission from inside ashi after transition
 
-- [[Inside Heel Hook]] - Advanced submission available from established inside ashi
+- [[Submissions/Inside Heel Hook]] - Advanced submission available from established inside ashi
 
-- [[Saddle]] - Position advancement target from inside ashi
+- [[Positions/Ashi Garami/Saddle]] - Position advancement target from inside ashi
 
-- [[Honey Hole]] - Alternative advancement position from inside ashi
+- [[Positions/Ashi Garami/Honey Hole]] - Alternative advancement position from inside ashi
 
-- [[50-50 Guard to Outside Ashi]] - Alternative transition when inside ashi is defended
+- [[Transitions/50-50 Guard to Outside Ashi]] - Alternative transition when inside ashi is defended
 
-- [[Back Take from 50-50]] - Alternative option when opponent counters inside ashi attempt
+- [[Transitions/Back Take from 50-50]] - Alternative option when opponent counters inside ashi attempt
 
-- [[Kneebar from 50-50]] - Secondary attack option from 50-50 top position
+- [[Submissions/Kneebar from 50-50]] - Secondary attack option from 50-50 top position
 
-- [[Leg Entanglement]] - Core conceptual framework governing all positions in this system
+- [[Positions/Leg Entanglement]] - Core conceptual framework governing all positions in this system
 
 
 </section>

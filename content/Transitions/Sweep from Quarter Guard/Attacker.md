@@ -180,7 +180,7 @@ description: "Learn to execute the Sweep from Quarter Guard as the bottom player
 
 As the attacker executing the Sweep from Quarter Guard, you are operating from a compromised defensive position where your guard has been nearly passed. Your success depends on aggressive offensive action using your underhook as the primary mechanical lever. The sweep requires precise timing—you must initiate during the narrow window when the top player's weight shifts forward during pass completion, before they establish settled side control. This technique transforms a defensive emergency into an offensive reversal, but demands full commitment and technical precision since failed attempts typically result in immediate pass completion to side control.
 
-**From Position**: [[Quarter Guard]] (Bottom)
+**From Position**: [[Positions/Quarter Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Sweep from Quarter Guard, you are operating from a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 42% |
-| Failure | [[Quarter Guard]] | 35% |
-| Counter | [[Side Control]] | 23% |
+| Success | [[Positions/Side Control]] | 42% |
+| Failure | [[Positions/Quarter Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 23% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Sweep from Quarter Guard, you are operating from a
 
 ## Opponent Counters
 
-- **Opponent sprawls hips backward and drives crossface to flatten your angle** (Effectiveness: High) - Your Response: Recognize sprawl immediately and transition to deep half guard entry by threading underneath their elevated hips, or recover knee shield if space between bodies permits insertion → Leads to [[Quarter Guard]]
-- **Opponent posts far hand wide on mat creating defensive tripod base** (Effectiveness: High) - Your Response: Redirect sweep angle toward their posted hand side using far hip control to pull them over the post, or abandon sweep and immediately attack back take since posted hand exposes their back → Leads to [[Quarter Guard]]
-- **Opponent strips underhook using overhook and heavy shoulder pressure** (Effectiveness: Medium) - Your Response: Re-fight for underhook depth by turning into opponent and driving elbow upward, or if strip is complete, immediately frame against neck and hip escape to recover knee shield before pass completes → Leads to [[Side Control]]
-- **Opponent drops weight and drives crossface through your neck to pin you completely flat** (Effectiveness: High) - Your Response: Use free leg to frame against their hip creating separation, then hip escape to restore angle before reattempting sweep or transitioning to guard recovery through knee shield insertion → Leads to [[Side Control]]
+- **Opponent sprawls hips backward and drives crossface to flatten your angle** (Effectiveness: High) - Your Response: Recognize sprawl immediately and transition to deep half guard entry by threading underneath their elevated hips, or recover knee shield if space between bodies permits insertion → Leads to [[Positions/Quarter Guard]]
+- **Opponent posts far hand wide on mat creating defensive tripod base** (Effectiveness: High) - Your Response: Redirect sweep angle toward their posted hand side using far hip control to pull them over the post, or abandon sweep and immediately attack back take since posted hand exposes their back → Leads to [[Positions/Quarter Guard]]
+- **Opponent strips underhook using overhook and heavy shoulder pressure** (Effectiveness: Medium) - Your Response: Re-fight for underhook depth by turning into opponent and driving elbow upward, or if strip is complete, immediately frame against neck and hip escape to recover knee shield before pass completes → Leads to [[Positions/Side Control]]
+- **Opponent drops weight and drives crossface through your neck to pin you completely flat** (Effectiveness: High) - Your Response: Use free leg to frame against their hip creating separation, then hip escape to restore angle before reattempting sweep or transitioning to guard recovery through knee shield insertion → Leads to [[Positions/Side Control]]
 
 
 </section>

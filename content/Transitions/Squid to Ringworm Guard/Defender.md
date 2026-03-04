@@ -154,7 +154,7 @@ description: "Learn to defend against the Squid to Ringworm Guard transition in 
 
 Defending the Squid to Ringworm Guard transition requires the top player to recognize the reconfiguration attempt early and exploit the brief vulnerability window where the bottom player's guard structure is compromised. During the transition, the bottom player must momentarily loosen their lapel control to reroute the fabric, creating a gap in their defensive structure that an alert defender can capitalize on. The defender's primary objectives are to either strip the lapel entirely during the reconfiguration window, drive pressure to prevent the guard change from completing, or disengage from the guard system altogether. Understanding the mechanical requirements of this transition allows the defender to identify the telltale grip adjustments and hip movements that signal the reconfiguration is beginning, enabling preemptive defensive responses rather than reactive ones.
 
-**Opponent's Starting Position**: [[Squid Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Squid Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Squid to Ringworm Guard transition requires the top player to reco
 ### 1. Strip the lapel grip aggressively with both hands during the reconfiguration window
 
 - **When to use**: When you detect the lapel tension dropping and the bottom player's grip hand begins sliding along the fabric to reroute it
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Bottom player loses all lapel control and is left in basic open guard without their specialized guard structure, making passing significantly easier
 - **Risk**: Committing both hands to the grip strip momentarily compromises your own base and leaves you vulnerable to a sweep if the strip fails
 
 ### 2. Drive forward with heavy pressure to flatten the bottom player and prevent the hip angle adjustment
 
 - **When to use**: When the bottom player begins rotating their hips for the new guard angle and their leg frame is not fully engaged
-- **Targets**: [[Squid Guard]]
+- **Targets**: [[Positions/Squid Guard]]
 - **If successful**: Bottom player is forced to abandon the reconfiguration and return to Squid Guard or accept being flattened, maintaining the status quo
 - **Risk**: If the bottom player has already partially completed the reconfiguration, your forward pressure may be redirected into a sweep from the partially established Ringworm Guard
 
 ### 3. Control the bottom player's free hand to prevent lapel rethreading assistance
 
 - **When to use**: When you see the bottom player's free hand releasing its grip on your sleeve or collar and moving toward the lapel area
-- **Targets**: [[Squid Guard]]
+- **Targets**: [[Positions/Squid Guard]]
 - **If successful**: Bottom player cannot complete the reconfiguration one-handed and must re-establish their secondary grip, buying you time to address the lapel or initiate a pass
 - **Risk**: Focusing on their free hand may distract you from a sweep setup that uses the partial reconfiguration as a feint
 
 ### 4. Backstep and disengage from the guard system entirely while they are focused on the reconfiguration
 
 - **When to use**: When the bottom player is deeply focused on the lapel manipulation and their leg engagement is at its weakest during the transition
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You create sufficient distance to reset to a neutral passing position outside the lapel guard range, forcing the bottom player to re-establish their guard from scratch
 - **Risk**: If the bottom player maintains lapel connection during your retreat, they can use the tension to pull you off balance or accelerate a sweep
 
@@ -225,11 +225,11 @@ Defending the Squid to Ringworm Guard transition requires the top player to reco
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Exploit the transitional vulnerability window to strip the lapel grip entirely with both hands, targeting the moment when the bottom player has loosened the wrap for rethreading. With the lapel completely stripped, their guard degrades to basic open guard without the mechanical advantages of the lapel system.
 
-### → [[Squid Guard]]
+### → [[Positions/Squid Guard]]
 
 Prevent the reconfiguration from completing through pressure or hand control, forcing the bottom player to remain in Squid Guard. While still a strong guard, keeping them in Squid Guard when they wanted to transition means your current defensive strategy remains effective and they cannot reset the offensive dynamic.
 

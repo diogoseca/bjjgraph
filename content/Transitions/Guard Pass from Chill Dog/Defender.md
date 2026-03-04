@@ -154,7 +154,7 @@ description: "Defend against the Guard Pass from Chill Dog. Recognition cues, de
 
 Defending the Guard Pass from Chill Dog requires maintaining your protective turtle frame while recognizing the specific pressure patterns that signal the pass attempt versus a back take. Your defensive priorities shift as the pass progresses: early in the sequence, re-establishing the elbow-knee connection is most effective, while later stages require explosive escape movements like Granby rolls or sit-throughs before your hips are flattened. Understanding the attacker's sequential approach allows you to identify the optimal timing window for each defensive response and prevents you from wasting energy on escapes that are no longer available at the current phase of the pass.
 
-**Opponent's Starting Position**: [[Chill Dog]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Chill Dog]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Guard Pass from Chill Dog requires maintaining your protective tur
 ### 1. Re-establish elbow-knee connection by driving elbow back to knee and tightening defensive frame
 
 - **When to use**: Early in the pass attempt when the attacker first begins prying the elbow-knee connection - most effective before crossface is established
-- **Targets**: [[Chill Dog]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: Pass attempt is reset and you maintain defensive Chill Dog position with intact frame
 - **Risk**: If the frame has already been broken significantly, the attempt to rebuild exposes you to deeper control as the attacker wedges into the gap
 
 ### 2. Execute Granby roll toward the open side when attacker commits weight forward for flattening
 
 - **When to use**: During the transition between frame breaking and flattening phases when the attacker's weight is committed forward and directional
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover to closed guard or open guard with the attacker now in your guard rather than behind you
 - **Risk**: If timed too late after hips are already flat, the roll lacks the base and momentum needed to complete. Attacker may follow and establish back control
 
 ### 3. Technical stand-up by clearing grips, creating separation, and standing with proper base
 
 - **When to use**: When attacker's weight shifts back momentarily or when their grips are loose enough to strip during any phase of the pass
-- **Targets**: [[Chill Dog]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: You return to standing position and can re-engage on your terms or pull guard to preferred position
 - **Risk**: Attacker may snap you back down to front headlock or follow the stand-up with a body lock takedown
 
 ### 4. Sit through to butterfly guard by turning into the attacker and sitting back to insert butterfly hooks
 
 - **When to use**: When attacker circles to your far side and their near-side control weakens, creating space to turn into them
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover to butterfly guard or half guard with immediate sweep threats available
 - **Risk**: Turning into the attacker can expose your back if the movement is not explosive enough or the attacker maintains upper body connection
 
@@ -225,7 +225,7 @@ Defending the Guard Pass from Chill Dog requires maintaining your protective tur
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Execute a well-timed Granby roll when the attacker overcommits their weight forward during the flattening phase. Use their forward momentum to generate your rolling motion, staying tight and controlled through the rotation to recover full closed guard with legs locked around their waist
 

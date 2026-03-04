@@ -21,7 +21,7 @@ The technique follows a systematic progression: first securing control of the no
 
 Strategically, the stack pass serves as a high-pressure complement to more technical passing approaches against lasso guard. When backstep passes or knee cuts are being effectively defended, the direct forward pressure of the stack changes the tactical equation entirely. The technique is particularly effective against flexible guard players who rely on distance and hip mobility, as the stack directly attacks both elements simultaneously. Competition-proven at the highest levels, the stack pass remains a fundamental tool in every serious guard passer's arsenal against lasso guard systems.
 
-**From Position**: [[Lasso Guard]] (Top)
+**From Position**: [[Positions/Lasso Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the stack pass serves as a high-pressure complement to more techn
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Lasso Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Lasso Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,23 +191,23 @@ The Lasso Guard Stack Pass integrates into the broader guard passing system as a
 ## Related Techniques
 
 
-- [[Lasso Guard]] - Source position where the technique begins, with the passer caught in the bottom player's lasso control
+- [[Positions/Lasso Guard]] - Source position where the technique begins, with the passer caught in the bottom player's lasso control
 
-- [[Side Control]] - Primary target position achieved upon successful completion of the stack pass
+- [[Positions/Side Control]] - Primary target position achieved upon successful completion of the stack pass
 
-- [[Half Guard]] - Counter outcome position if the bottom player sweeps during the stack attempt
+- [[Positions/Half Guard]] - Counter outcome position if the bottom player sweeps during the stack attempt
 
-- [[Lasso Guard Backstep Pass]] - Complementary passing technique from the same position using angles instead of pressure
+- [[Transitions/Lasso Guard Backstep Pass]] - Complementary passing technique from the same position using angles instead of pressure
 
-- [[Spider Guard]] - Related guard system sharing sleeve control mechanics that transitions to and from lasso guard
+- [[Positions/Spider Guard]] - Related guard system sharing sleeve control mechanics that transitions to and from lasso guard
 
-- [[Headquarters Position]] - Transitional passing position that can be used as a platform before committing to the stack
+- [[Positions/Headquarters Position]] - Transitional passing position that can be used as a platform before committing to the stack
 
-- [[De La Riva Guard]] - Guard system often combined with lasso on opposite leg requiring integrated passing approach
+- [[Positions/De La Riva Guard]] - Guard system often combined with lasso on opposite leg requiring integrated passing approach
 
-- [[Open Guard]] - Parent guard category providing foundational passing principles applicable to lasso situations
+- [[Positions/Open Guard]] - Parent guard category providing foundational passing principles applicable to lasso situations
 
-- [[Collar Sleeve Guard]] - Related guard position the bottom player may transition to if the lasso is neutralized before the pass completes
+- [[Positions/Collar Sleeve Guard]] - Related guard position the bottom player may transition to if the lasso is neutralized before the pass completes
 
 
 </section>

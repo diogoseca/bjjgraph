@@ -21,7 +21,7 @@ The technical foundation relies on timing the leg hook insertion precisely as th
 
 Strategically, this technique represents the positional advancement pathway within the buggy choke attack system. When opponents recognize the immediate choking threat and prioritize escaping to guard over remaining static, the Hook Leg and Take Back punishes this defensive choice with an even more dominant position. Understanding this transition elevates the buggy choke from a single-path attack to a branching system where the opponent's defensive selection determines which dominant outcome you achieve.
 
-**From Position**: [[Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this technique represents the positional advancement pathway with
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Buggy Choke]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Buggy Choke]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -187,25 +187,25 @@ Hook Leg and Take Back represents the positional advancement pathway within the 
 ## Related Techniques
 
 
-- [[Buggy Choke]] - Starting position for this back take transition
+- [[Positions/Buggy Choke]] - Starting position for this back take transition
 
-- [[Back Control]] - Primary target position achieved through successful execution
+- [[Positions/Back Control]] - Primary target position achieved through successful execution
 
-- [[Rear Naked Choke]] - High-percentage submission available after completing back take
+- [[Transitions/Rear Naked Choke]] - High-percentage submission available after completing back take
 
-- [[Body Triangle Lock]] - Alternative leg control when second hook is defended
+- [[Transitions/Body Triangle Lock]] - Alternative leg control when second hook is defended
 
-- [[Back Take]] - Related back take transition sharing similar positional concepts
+- [[Transitions/Back Take]] - Related back take transition sharing similar positional concepts
 
-- [[Gift Wrap]] - Alternative control when opponent's arm exposes during turn
+- [[Positions/Gift Wrap]] - Alternative control when opponent's arm exposes during turn
 
-- [[Turtle]] - Original position from which buggy choke develops
+- [[Positions/Turtle]] - Original position from which buggy choke develops
 
-- [[Harness]] - Critical grip structure maintained throughout transition
+- [[Positions/Harness]] - Critical grip structure maintained throughout transition
 
-- [[Crucifix]] - Alternative transition when opponent reclines backward defensively
+- [[Positions/Crucifix]] - Alternative transition when opponent reclines backward defensively
 
-- [[Darce Control]] - Switch option when opponent turns into the attack
+- [[Positions/Darce Control]] - Switch option when opponent turns into the attack
 
 
 </section>

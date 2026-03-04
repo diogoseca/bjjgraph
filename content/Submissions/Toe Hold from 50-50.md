@@ -26,8 +26,8 @@ The toe hold from 50-50 has gained significant prominence in modern no-gi compet
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Ankle, talocrural joint, and lateral ankle ligaments
-**Starting Position**: [[50-50 Guard]]
-**From Position**: [[50-50 Guard]] (Bottom)
+**Starting Position**: [[Positions/Ashi Garami/50-50 Guard]]
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -85,8 +85,8 @@ The toe hold from 50-50 has gained significant prominence in modern no-gi compet
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[Inside Ashi-Garami]] | 15% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
 
 
 </section>
@@ -238,12 +238,12 @@ The toe hold from 50-50 has gained significant prominence in modern no-gi compet
 
 ## From Which Positions?
 
-- [[50-50 Guard]]
-- [[Ashi Garami]]
-- [[Inside Ashi-Garami]]
-- [[Outside Ashi-Garami]]
-- [[Saddle]]
-- [[Honey Hole]]
+- [[Positions/Ashi Garami/50-50 Guard]]
+- [[Positions/Ashi Garami]]
+- [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- [[Positions/Ashi Garami/Saddle]]
+- [[Positions/Ashi Garami/Honey Hole]]
 
 
 </section>
@@ -252,15 +252,15 @@ The toe hold from 50-50 has gained significant prominence in modern no-gi compet
 
 ## Related Submissions
 
-- [[Toe Hold]]
-- [[Heel Hook]]
-- [[Inside Heel Hook]]
-- [[Outside Heel Hook]]
-- [[Straight Ankle Lock]]
-- [[Achilles Lock]]
-- [[Estima Lock]]
-- [[Calf Slicer from 50-50]]
-- [[Kneebar]]
+- [[Transitions/Toe Hold]]
+- [[Transitions/Heel Hook]]
+- [[Submissions/Inside Heel Hook]]
+- [[Transitions/Outside Heel Hook]]
+- [[Submissions/Straight Ankle Lock]]
+- [[Submissions/Achilles Lock]]
+- [[Positions/Estima Lock]]
+- [[Submissions/Calf Slicer from 50-50]]
+- [[Transitions/Kneebar]]
 
 
 </section>
@@ -269,15 +269,15 @@ The toe hold from 50-50 has gained significant prominence in modern no-gi compet
 
 ## Additional Related Content
 
-- [[50-50 Guard]] - Primary starting position for this submission - understanding 50-50 structure is prerequisite
-- [[Heel Hook]] - Primary alternative attack from 50-50 - creates dilemma when chained with toe hold
-- [[Inside Heel Hook]] - Natural transition when opponent defends toe hold by rotating with pressure
-- [[Toe Hold]] - General toe hold mechanics apply - this is the specific 50-50 variation
-- [[Straight Ankle Lock]] - Lower-risk leg lock alternative from 50-50 when toe hold is not available
-- [[Ashi Garami]] - Related leg entanglement position family with similar foot access mechanics
-- [[Outside Ashi-Garami]] - Transition position that can lead to 50-50 toe hold opportunities
-- [[Saddle]] - Advanced transition from 50-50 when toe hold is defended - escalates to saddle position
-- [[Inside Ashi-Garami]] - Related leg entanglement sharing similar control mechanics and submission entries
+- [[Positions/Ashi Garami/50-50 Guard]] - Primary starting position for this submission - understanding 50-50 structure is prerequisite
+- [[Transitions/Heel Hook]] - Primary alternative attack from 50-50 - creates dilemma when chained with toe hold
+- [[Submissions/Inside Heel Hook]] - Natural transition when opponent defends toe hold by rotating with pressure
+- [[Transitions/Toe Hold]] - General toe hold mechanics apply - this is the specific 50-50 variation
+- [[Submissions/Straight Ankle Lock]] - Lower-risk leg lock alternative from 50-50 when toe hold is not available
+- [[Positions/Ashi Garami]] - Related leg entanglement position family with similar foot access mechanics
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Transition position that can lead to 50-50 toe hold opportunities
+- [[Positions/Ashi Garami/Saddle]] - Advanced transition from 50-50 when toe hold is defended - escalates to saddle position
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement sharing similar control mechanics and submission entries
 
 
 </section>

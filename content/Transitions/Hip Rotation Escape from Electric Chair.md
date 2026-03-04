@@ -21,7 +21,7 @@ The mechanics involve releasing the lockdown configuration, using the underhook 
 
 From a systems perspective, the hip rotation escape connects the lockdown and electric chair attacking system with the turtle recovery system. While turtle is not an ideal final destination, it provides significantly more escape and recovery options than a broken-down electric chair position where the top player has begun to establish passing pressure. This technique is particularly valuable in competition settings where holding a failing position drains the shot clock and energy without generating scoring opportunities. At 8% attempt probability from electric chair bottom, this is a low-frequency but high-importance option that every lockdown player must have in their toolkit.
 
-**From Position**: [[Electric Chair]] (Bottom)
+**From Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ From a systems perspective, the hip rotation escape connects the lockdown and el
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 45% |
-| Failure | [[Half Guard]] | 35% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Turtle]] | 45% |
+| Failure | [[Positions/Half Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -189,25 +189,25 @@ The hip rotation escape sits at the intersection of the lockdown attacking syste
 ## Related Techniques
 
 
-- [[Electric Chair]] - Starting position where this transition originates
+- [[Positions/Half Guard/Electric Chair]] - Starting position where this transition originates
 
-- [[Turtle]] - Target position after successful hip rotation escape
+- [[Positions/Turtle]] - Target position after successful hip rotation escape
 
-- [[Lockdown]] - Parent control system from which electric chair develops
+- [[Positions/Half Guard/Lockdown]] - Parent control system from which electric chair develops
 
-- [[Half Guard]] - Base guard position underlying the lockdown system
+- [[Positions/Half Guard]] - Base guard position underlying the lockdown system
 
-- [[Deep Half Guard]] - Alternative bail-out destination from failed electric chair
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative bail-out destination from failed electric chair
 
-- [[Dogfight Position]] - Variant destination when underhook is strong enough to come up
+- [[Positions/Dogfight Position]] - Variant destination when underhook is strong enough to come up
 
-- [[Old School Sweep]] - Primary alternative transition from electric chair bottom
+- [[Transitions/Old School Sweep]] - Primary alternative transition from electric chair bottom
 
-- [[Granby Roll to Guard]] - Follow-up technique from turtle after successful escape
+- [[Transitions/Granby Roll to Guard]] - Follow-up technique from turtle after successful escape
 
-- [[Back Control]] - Risk position if opponent follows rotation to turtle
+- [[Positions/Back Control]] - Risk position if opponent follows rotation to turtle
 
-- [[Side Control]] - Opponent's target if they capitalize on the transition
+- [[Positions/Side Control]] - Opponent's target if they capitalize on the transition
 
 
 </section>

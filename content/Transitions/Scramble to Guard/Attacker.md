@@ -184,7 +184,7 @@ The technique operates on the principle that scrambles favor the person who init
 
 From a strategic perspective, this technique should be attempted before Twister Control is fully locked in or during the opponent's submission attempts when their focus shifts from control to finishing. The window for this escape narrows significantly once deep rotation is established, making timing recognition essential. Success requires maintaining composure despite the discomfort of the twisted position while waiting for or creating the optimal moment to explode into the scramble sequence.
 
-**From Position**: [[Twister Control]] (Bottom)
+**From Position**: [[Positions/Twister Control]] (Bottom)
 
 </section>
 
@@ -237,10 +237,10 @@ From a strategic perspective, this technique should be attempted before Twister 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Success | [[Half Guard]] | 20% |
-| Failure | [[Twister Control]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Success | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/Twister Control]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -249,10 +249,10 @@ From a strategic perspective, this technique should be attempted before Twister 
 
 ## Opponent Counters
 
-- **Opponent maintains tight leg control throughout your escape attempt, preventing hip rotation** (Effectiveness: High) - Your Response: Continue fighting for leg extraction with persistent small movements rather than committing to full explosive attempts. Use hand-fighting to strip their leg hooks before attempting the full scramble → Leads to [[Twister Control]]
-- **Opponent transitions to guillotine as you turn into them during the scramble** (Effectiveness: High) - Your Response: Keep chin tucked and maintain hand fighting throughout the turn. If they get head control, immediately address the guillotine grip before continuing guard recovery → Leads to [[Twister Control]]
-- **Opponent follows your movement and re-establishes back control rather than Twister Control** (Effectiveness: Medium) - Your Response: Continue the escape sequence using standard back escape principles. Back control is generally more escapable than Twister Control, so this represents an improvement in position → Leads to [[Back Control]]
-- **Opponent bases out wide and drives you flat to prevent the hip turn** (Effectiveness: Medium) - Your Response: Create frames and work hip escapes to create angle. You may need to accept turtle position first, then work from there to recover guard → Leads to [[Twister Control]]
+- **Opponent maintains tight leg control throughout your escape attempt, preventing hip rotation** (Effectiveness: High) - Your Response: Continue fighting for leg extraction with persistent small movements rather than committing to full explosive attempts. Use hand-fighting to strip their leg hooks before attempting the full scramble → Leads to [[Positions/Twister Control]]
+- **Opponent transitions to guillotine as you turn into them during the scramble** (Effectiveness: High) - Your Response: Keep chin tucked and maintain hand fighting throughout the turn. If they get head control, immediately address the guillotine grip before continuing guard recovery → Leads to [[Positions/Twister Control]]
+- **Opponent follows your movement and re-establishes back control rather than Twister Control** (Effectiveness: Medium) - Your Response: Continue the escape sequence using standard back escape principles. Back control is generally more escapable than Twister Control, so this represents an improvement in position → Leads to [[Positions/Back Control]]
+- **Opponent bases out wide and drives you flat to prevent the hip turn** (Effectiveness: Medium) - Your Response: Create frames and work hip escapes to create angle. You may need to accept turtle position first, then work from there to recover guard → Leads to [[Positions/Twister Control]]
 
 
 </section>

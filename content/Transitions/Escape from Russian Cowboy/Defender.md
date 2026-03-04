@@ -154,7 +154,7 @@ description: "Defensive guide to maintaining Russian Cowboy against escape attem
 
 As the Russian Cowboy top player defending against the escape, your objective is to maintain your asymmetric control structure while preventing the bottom player from creating the frames and space needed to turn or roll out of position. Your primary defensive tools are chest pressure maintenance, seatbelt grip retention, and hook depth management. When the escape begins, you must decide between re-consolidating Russian Cowboy control or advancing to full back control by inserting the second hook. The key is following the bottom player's movement rather than fighting it statically—use their escape momentum to either maintain position or transition to an even more dominant control configuration. Recognizing escape attempts early through tactile and visual cues allows you to preemptively adjust before the escape gains momentum.
 
-**Opponent's Starting Position**: [[Russian Cowboy]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Russian Cowboy]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the Russian Cowboy top player defending against the escape, your objective is
 ### 1. Drive chest forward and re-establish heavy seatbelt grip
 
 - **When to use**: When you detect early hand fighting on your seatbelt but the bottom player has not yet created frames or initiated hip movement
-- **Targets**: [[Russian Cowboy]]
+- **Targets**: [[Positions/Russian Cowboy]]
 - **If successful**: Shuts down the escape at the earliest phase, forcing the bottom player to restart their entire escape sequence from scratch
 - **Risk**: If chest pressure is excessive and your hook is shallow, the bottom player may use your forward momentum to execute a roll-under reversal
 
 ### 2. Insert second hook to transition to full back control
 
 - **When to use**: When the bottom player's escape creates space between your bodies that allows your free leg to thread inside their far-side thigh
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Advances to full back control with both hooks established, significantly reducing the bottom player's escape options and increasing submission accessibility
 - **Risk**: The transition requires momentarily loosening chest pressure, which may provide the escape window the bottom player needs if timed incorrectly
 
 ### 3. Follow hip movement and deepen hook while maintaining seatbelt
 
 - **When to use**: When the bottom player executes a hip escape but you maintain upper body control through the seatbelt grip
-- **Targets**: [[Russian Cowboy]]
+- **Targets**: [[Positions/Russian Cowboy]]
 - **If successful**: Negates the hip escape by riding the movement and re-establishing chest pressure from the adjusted angle, maintaining Russian Cowboy control
 - **Risk**: If you fail to track the hip movement quickly enough, the bottom player generates sufficient space to complete their turn or frame sequence
 
 ### 4. Attack rear naked choke to force return to hand fighting defense
 
 - **When to use**: When the bottom player abandons neck defense to focus on frame creation or hook extraction, creating an opening for the choking arm
-- **Targets**: [[Russian Cowboy]]
+- **Targets**: [[Positions/Russian Cowboy]]
 - **If successful**: Forces the bottom player to abandon their escape sequence and return to priority-one neck defense, resetting their escape progress entirely
 - **Risk**: Committing to the choke attack may require loosening your hook or shifting weight, which the bottom player can exploit if the choke does not threaten immediately
 
@@ -225,11 +225,11 @@ As the Russian Cowboy top player defending against the escape, your objective is
 
 ## Best-Case Outcomes for Defender
 
-### → [[Russian Cowboy]]
+### → [[Positions/Russian Cowboy]]
 
 Maintain constant chest-to-back pressure, follow the bottom player's hip movements with hook adjustments, and immediately re-establish seatbelt grip whenever it is stripped. Use submission threats to interrupt escape sequences and force the bottom player back into defensive hand fighting.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the bottom player's escape creates space between your bodies, capitalize on the gap by threading your free leg inside their far-side thigh to establish the second hook. Transition to full back control by maintaining seatbelt grip throughout the hook insertion and immediately tightening chest pressure once both hooks are established.
 

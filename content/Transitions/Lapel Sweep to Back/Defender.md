@@ -158,7 +158,7 @@ The critical defensive window exists before the sweep is fully loaded. Once the 
 
 From the defender's perspective, the most dangerous moment is the transition between sweep defense and back exposure. Many practitioners instinctively rotate away from the sweep direction, which is exactly what the attacker wants. Instead, the defender must learn to address the sweep threat without turning their back, using base widening, lapel grip breaking, and controlled weight distribution to neutralize the attack at its source.
 
-**Opponent's Starting Position**: [[Lapel Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ From the defender's perspective, the most dangerous moment is the transition bet
 ### 1. Strip the lapel grip by controlling attacker's gripping hand and systematically unwinding the fabric from your leg or arm
 
 - **When to use**: Early phase before sweep is loaded—ideally as soon as you recognize the lapel configuration being established
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Returns to neutral guard passing position without lapel obstruction; attacker must re-establish configuration from scratch
 - **Risk**: While focused on grip stripping you may be vulnerable to alternative attacks like omoplata or triangle if attacker anticipates the strip
 
 ### 2. Widen base and drop hips low while driving forward pressure to prevent the off-balancing needed to load the sweep
 
 - **When to use**: When attacker begins hip elevation and diagonal pulling—use your weight advantage from top to compress their guard and deny the sweep angle
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Neutralizes sweep threat and puts attacker on defensive; opens opportunity for pressure passing through the compressed guard
 - **Risk**: Forward pressure can be redirected into squid guard configuration or elevator sweep if attacker reads the weight commitment
 
 ### 3. Free your controlled sleeve by circling your wrist and immediately post your hand on the mat to establish an unbreakable base
 
 - **When to use**: When you feel the sleeve grip tighten and recognize the sweep is about to be initiated—the posting hand eliminates the back take pathway entirely
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: With a posted hand, you can base against the sweep and the attacker cannot follow your rotation to the back; the dilemma collapses
 - **Risk**: If the sleeve break fails or is too slow, you waste energy without improving position and the attacker proceeds with the technique
 
 ### 4. Face the attacker by turning toward them rather than away when you feel the sweep loading, accepting guard re-engagement over back exposure
 
 - **When to use**: Last resort when sweep is already loaded and back take is imminent—choose to give up the sweep points rather than concede back control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You may concede sweep to mount but avoid the far more dangerous back control position; mount escape is more survivable than back defense
 - **Risk**: Accepting the sweep means conceding points and ending in bottom mount, which carries its own submission dangers
 
@@ -228,11 +228,11 @@ From the defender's perspective, the most dangerous moment is the transition bet
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lapel Guard]]
+### → [[Positions/Lapel Guard]]
 
 Strip the lapel configuration early through systematic grip breaking, targeting the attacker's gripping hand first then unwinding the fabric. Alternatively, free your controlled sleeve and post immediately to collapse the dilemma before it develops. Both approaches return you to a neutral guard passing scenario.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If caught in the sweep, turn toward the attacker rather than away to prevent the back take, accepting half guard bottom as the recovery position. Use frames against their shoulder and hip during the sweep to insert a knee shield as you land, establishing half guard rather than conceding full mount or back control.
 

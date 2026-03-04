@@ -178,7 +178,7 @@ This reversal represents a high-risk, high-reward option in the back defense hie
 
 Strategically, this escape works best against opponents who squeeze aggressively with the body triangle while hunting for chokes. Their focus on the submission creates momentary lapses in base maintenance, providing the window needed to execute the roll. The technique is particularly effective in no-gi where friction is reduced and rolling mechanics are more fluid.
 
-**From Position**: [[Body Triangle]] (Top)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategically, this escape works best against opponents who squeeze aggressively
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Body Triangle]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Back Control/Body Triangle]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, this escape works best against opponents who squeeze aggressively
 
 ## Opponent Counters
 
-- **Opponent posts their free arm to stop the rolling momentum before it completes** (Effectiveness: High) - Your Response: Maintain tight two-on-one control on the choking arm and ensure you trap both arms before initiating. If they post, abort and return to standard escape attempts rather than forcing a failed roll. → Leads to [[Body Triangle]]
-- **Opponent releases body triangle during roll and scrambles to recover position** (Effectiveness: Medium) - Your Response: If they release the triangle, you've already improved your position. Continue the rotation into turtle and immediately work to face them or complete the back take if the momentum is there. → Leads to [[Back Control]]
-- **Opponent flattens you out and drives chest pressure before you can create hip angle** (Effectiveness: High) - Your Response: This technique requires some space to initiate. If opponent maintains crushing flat pressure, work standard hip escape and hook clearing sequences first to create the necessary angle before attempting the roll. → Leads to [[Body Triangle]]
-- **Opponent transitions to mount by releasing triangle and sliding over during your roll attempt** (Effectiveness: Medium) - Your Response: If you feel the opponent releasing legs and sliding to mount position, abort the roll and immediately frame against their hip to establish half guard before they consolidate the mount. → Leads to [[Mount]]
+- **Opponent posts their free arm to stop the rolling momentum before it completes** (Effectiveness: High) - Your Response: Maintain tight two-on-one control on the choking arm and ensure you trap both arms before initiating. If they post, abort and return to standard escape attempts rather than forcing a failed roll. → Leads to [[Positions/Back Control/Body Triangle]]
+- **Opponent releases body triangle during roll and scrambles to recover position** (Effectiveness: Medium) - Your Response: If they release the triangle, you've already improved your position. Continue the rotation into turtle and immediately work to face them or complete the back take if the momentum is there. → Leads to [[Positions/Back Control]]
+- **Opponent flattens you out and drives chest pressure before you can create hip angle** (Effectiveness: High) - Your Response: This technique requires some space to initiate. If opponent maintains crushing flat pressure, work standard hip escape and hook clearing sequences first to create the necessary angle before attempting the roll. → Leads to [[Positions/Back Control/Body Triangle]]
+- **Opponent transitions to mount by releasing triangle and sliding over during your roll attempt** (Effectiveness: Medium) - Your Response: If you feel the opponent releasing legs and sliding to mount position, abort the roll and immediately frame against their hip to establish half guard before they consolidate the mount. → Leads to [[Positions/Mount]]
 
 
 </section>

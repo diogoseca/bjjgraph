@@ -180,7 +180,7 @@ description: "Complete guide to executing the Turn In escape from Reverse Kesa-G
 
 As the attacker executing the Turn In, your objective is to rotate your body toward the top player, close the distance that allows their chest pressure to be effective, and thread a knee between your bodies to establish half guard. This escape exploits the fundamental weakness of the reverse orientation: the top player's control is strongest when you remain flat and perpendicular, but weakens significantly when you rotate to face them. The turn-in converts crushing vertical pressure into manageable lateral contact, and the knee insertion creates an irreversible structural barrier that prevents re-flattening. Success depends on proper bridge timing, committed hip rotation, and immediate knee shield establishment upon creating space.
 
-**From Position**: [[Reverse Kesa-Gatame]] (Bottom)
+**From Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Turn In, your objective is to rotate your body tow
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Reverse Kesa-Gatame]] | 40% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Side Control/Reverse Kesa-Gatame]] | 40% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Turn In, your objective is to rotate your body tow
 
 ## Opponent Counters
 
-- **Top player drives hips forward and re-flattens during rotation attempt** (Effectiveness: High) - Your Response: Accelerate the knee insertion before the hip drive reconnects. If caught mid-rotation, use the frame to create a secondary bridge and reattempt. Alternatively, abandon the turn-in and chain into a shrimp-away escape in the opposite direction. → Leads to [[Reverse Kesa-Gatame]]
-- **Top player steps over to mount as bottom player creates space with the bridge** (Effectiveness: High) - Your Response: Insert knee shield before the leg can clear your hip line. If the mount is partially established, immediately transition to elbow escape from mount. Prevention is key: commit to the rotation faster than they can step over. → Leads to [[Mount]]
-- **Top player switches to north-south when feeling the turn-in direction** (Effectiveness: Medium) - Your Response: Follow their movement with your hips and immediately work north-south escape frames. The transition to north-south actually relieves the reverse kesa pressure, so use the positional change to re-establish defensive frames in the new position. → Leads to [[Reverse Kesa-Gatame]]
-- **Top player traps the framing arm during the turn-in attempt** (Effectiveness: Medium) - Your Response: Switch to the bridge-and-turn variant using your far leg as the primary driver instead of relying on the arm frame. Alternatively, if the arm is trapped shallow, use the entanglement as an anchor point to pull yourself into the rotation rather than pushing. → Leads to [[Reverse Kesa-Gatame]]
+- **Top player drives hips forward and re-flattens during rotation attempt** (Effectiveness: High) - Your Response: Accelerate the knee insertion before the hip drive reconnects. If caught mid-rotation, use the frame to create a secondary bridge and reattempt. Alternatively, abandon the turn-in and chain into a shrimp-away escape in the opposite direction. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
+- **Top player steps over to mount as bottom player creates space with the bridge** (Effectiveness: High) - Your Response: Insert knee shield before the leg can clear your hip line. If the mount is partially established, immediately transition to elbow escape from mount. Prevention is key: commit to the rotation faster than they can step over. → Leads to [[Positions/Mount]]
+- **Top player switches to north-south when feeling the turn-in direction** (Effectiveness: Medium) - Your Response: Follow their movement with your hips and immediately work north-south escape frames. The transition to north-south actually relieves the reverse kesa pressure, so use the positional change to re-establish defensive frames in the new position. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
+- **Top player traps the framing arm during the turn-in attempt** (Effectiveness: Medium) - Your Response: Switch to the bridge-and-turn variant using your far leg as the primary driver instead of relying on the arm frame. Alternatively, if the arm is trapped shallow, use the entanglement as an anchor point to pull yourself into the rotation rather than pushing. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
 
 
 </section>

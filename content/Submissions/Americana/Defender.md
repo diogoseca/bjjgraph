@@ -198,28 +198,28 @@ From a strategic perspective, Americana defense integrates with overall bottom p
 ### 1. Retract arm to body and establish T-Rex arms (elbows tight, hands near chin)
 
 - **When to use**: Before the attacker establishes wrist control. This is the earliest and most effective defense - preventing the initial arm isolation entirely.
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Attacker cannot establish the figure-four grip and must abandon the Americana attempt, returning to positional control or seeking a different attack
 - **Risk**: Low - maintaining tight elbows is a strong defensive posture with no positional cost
 
 ### 2. Bridge explosively toward the trapped arm side while pulling elbow to hip
 
 - **When to use**: When the attacker has captured your wrist but has not yet fully pinned your elbow. The bridge disrupts their base while the arm retraction breaks the emerging figure-four structure.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: The bridge creates space to recover guard or reverse the position entirely, escaping both the submission and the dominant position
 - **Risk**: Medium - if the bridge fails, the attacker may advance to a tighter position or accelerate the submission
 
 ### 3. Straighten the trapped arm forcefully and turn elbow inward toward your own centerline
 
 - **When to use**: When the figure-four is partially established but the elbow is not yet fully pinned. Straightening the arm defeats the 90-degree angle requirement for the Americana's rotational mechanics.
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Breaks the Americana mechanics entirely, though the attacker may transition to armbar or Kimura on the now-extended arm
 - **Risk**: Medium - straightening the arm creates armbar vulnerability, so you must immediately re-bend and retract once the Americana grip is broken
 
 ### 4. Grab your own belt, gi pants, or clasp hands together to anchor the trapped arm
 
 - **When to use**: When the figure-four grip is established and you need to buy time to set up a positional escape. This creates a structural anchor that the attacker must break before finishing.
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Stalls the submission and forces the attacker to invest energy breaking your grip, creating windows for bridging or hip escape during their grip-breaking attempts
 - **Risk**: Low to Medium - effective stalling tactic, but does not create escape on its own and attacker can use weight and pressure to systematically strip the grip
 
@@ -242,11 +242,11 @@ From a strategic perspective, Americana defense integrates with overall bottom p
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time an explosive bridge with the attacker's weight shift during the Americana setup. As they commit both hands to the figure-four grip, they lose one point of base control. Bridge toward the trapped arm side and use the momentum to hip escape and insert your legs between your bodies, recovering to closed guard.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Execute a trap-and-roll reversal during the Americana attempt. When the attacker commits both hands to the figure-four, trap their same-side foot with yours and bridge explosively over the shoulder of the trapped arm. The attacker cannot post with their hands because they are committed to the grip, allowing you to complete the reversal to mount.
 

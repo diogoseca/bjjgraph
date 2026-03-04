@@ -21,7 +21,7 @@ Understanding when to abandon the Z-Lock and reset to standard Half Guard is a c
 
 This transition holds strategic importance because it preserves guard retention when the specialized Z-Lock system fails. Rather than fighting a losing battle in a compromised position, recognizing the moment to reset opens access to the broader half guard offensive system including underhook sweeps, deep half entries, knee shield retention, and back take sequences that may be inaccessible from a deteriorating Z-Lock configuration.
 
-**From Position**: [[Z-Lock Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ This transition holds strategic importance because it preserves guard retention 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Z-Lock Half Guard]] | 30% |
-| Counter | [[Flattened Half Guard]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Half Guard/Z-Lock Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Escape Z-Lock Half Guard serves as a critical pressure valve within the broa
 ## Related Techniques
 
 
-- [[Z-Lock Half Guard]] - Source position - the specialized guard configuration being escaped
+- [[Positions/Half Guard/Z-Lock Half Guard]] - Source position - the specialized guard configuration being escaped
 
-- [[Half Guard]] - Target position - the standard guard recovered after successful escape
+- [[Positions/Half Guard]] - Target position - the standard guard recovered after successful escape
 
-- [[Lockdown]] - Related guard variation sharing the lockdown component of Z-Lock
+- [[Positions/Half Guard/Lockdown]] - Related guard variation sharing the lockdown component of Z-Lock
 
-- [[Knee Shield Half Guard]] - Alternative defensive configuration accessible after recovering standard half guard
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative defensive configuration accessible after recovering standard half guard
 
-- [[Flattened Half Guard]] - Risk outcome if escape is poorly executed and top player capitalizes
+- [[Positions/Half Guard/Flattened Half Guard]] - Risk outcome if escape is poorly executed and top player capitalizes
 
-- [[Deep Half Guard]] - Alternative escape destination when forward pressure makes standard recovery dangerous
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative escape destination when forward pressure makes standard recovery dangerous
 
-- [[Deep Half Entry from Half Guard]] - Follow-up transition available once standard half guard is recovered
+- [[Transitions/Deep Half Entry from Half Guard]] - Follow-up transition available once standard half guard is recovered
 
-- [[Underhook Sweep from Half]] - Primary offensive option available from recovered standard half guard position
+- [[Transitions/Underhook Sweep from Half]] - Primary offensive option available from recovered standard half guard position
 
-- [[Dogfight Position]] - Potential scramble position arising during contested escape attempts
+- [[Positions/Dogfight Position]] - Potential scramble position arising during contested escape attempts
 
-- [[Butterfly Half Guard]] - Related hybrid guard sharing the butterfly hook element of Z-Lock
+- [[Positions/Half Guard/Butterfly Half Guard]] - Related hybrid guard sharing the butterfly hook element of Z-Lock
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Execute the Smash Half Butterfly pass with systematic pressure to 
 
 As the attacker executing the Smash Half Butterfly, your objective is to use heavy pressure and precise weight distribution to render the bottom player's butterfly hook mechanically ineffective. This approach prioritizes patient, grinding advancement over explosive movement. You must establish dominant upper body control first, then systematically drive your weight onto the hook side while maintaining base against sweep attempts. The technique demands understanding of how the butterfly hook generates leverage and how to position your body to negate that leverage through pressure angles and hip placement. Success comes from methodical progression through each phase rather than rushing to clear the hook.
 
-**From Position**: [[Half Butterfly]] (Top)
+**From Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Smash Half Butterfly, your objective is to use hea
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Half Butterfly]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Butterfly Guard/Half Butterfly]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Smash Half Butterfly, your objective is to use hea
 
 ## Opponent Counters
 
-- **Bottom player times butterfly hook elevation as you lower your hips, catching you in transition before pressure is established** (Effectiveness: High) - Your Response: Immediately widen your base and drive chest forward into their upper body. If they catch partial elevation, swim your arm under their hook-side leg and redirect the sweep momentum laterally rather than allowing straight-over elevation. → Leads to [[Half Guard]]
-- **Bottom player fights for underhook and attempts to come up to dogfight position before the smash flattens them** (Effectiveness: Medium) - Your Response: Counter with a deep overhook or whizzer on the underhook arm while maintaining crossface pressure. Drive their head away with your shoulder to weaken underhook leverage and flatten them back down before the dogfight develops. → Leads to [[Half Butterfly]]
-- **Bottom player hip escapes away and re-angles to maintain butterfly hook spacing after partial smash application** (Effectiveness: Medium) - Your Response: Follow their hip escape with your chest pressure, maintaining tight connection and preventing space creation. Use your inside knee to block hook reinsertion and reestablish diagonal driving pressure from the new angle. → Leads to [[Half Butterfly]]
-- **Bottom player abandons the hook and transitions to deep half guard by diving underneath before the smash completes** (Effectiveness: High) - Your Response: Sprawl your hips back immediately and drive weight onto their upper body to prevent them from completing the deep half entry. Block their outside arm from threading under your hips by pinning it with your near-side hand. → Leads to [[Half Butterfly]]
+- **Bottom player times butterfly hook elevation as you lower your hips, catching you in transition before pressure is established** (Effectiveness: High) - Your Response: Immediately widen your base and drive chest forward into their upper body. If they catch partial elevation, swim your arm under their hook-side leg and redirect the sweep momentum laterally rather than allowing straight-over elevation. → Leads to [[Positions/Half Guard]]
+- **Bottom player fights for underhook and attempts to come up to dogfight position before the smash flattens them** (Effectiveness: Medium) - Your Response: Counter with a deep overhook or whizzer on the underhook arm while maintaining crossface pressure. Drive their head away with your shoulder to weaken underhook leverage and flatten them back down before the dogfight develops. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
+- **Bottom player hip escapes away and re-angles to maintain butterfly hook spacing after partial smash application** (Effectiveness: Medium) - Your Response: Follow their hip escape with your chest pressure, maintaining tight connection and preventing space creation. Use your inside knee to block hook reinsertion and reestablish diagonal driving pressure from the new angle. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
+- **Bottom player abandons the hook and transitions to deep half guard by diving underneath before the smash completes** (Effectiveness: High) - Your Response: Sprawl your hips back immediately and drive weight onto their upper body to prevent them from completing the deep half entry. Block their outside arm from threading under your hips by pinning it with your near-side hand. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
 
 
 </section>

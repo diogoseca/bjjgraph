@@ -190,7 +190,7 @@ The elevator sweep is particularly effective against opponents who are sitting h
 
 Strategically, the elevator sweep serves as a cornerstone technique in the butterfly guard system, working in combination with other butterfly attacks like the basic butterfly sweep, arm drag to back takes, and guillotine attacks. The threat of the elevator sweep forces opponents to adjust their base and posture, creating opportunities for these complementary techniques. Mastering this sweep is essential for anyone looking to develop a dangerous butterfly guard game.
 
-**From Position**: [[Butterfly Guard]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
 
@@ -245,9 +245,9 @@ Strategically, the elevator sweep serves as a cornerstone technique in the butte
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 58% |
-| Failure | [[Butterfly Guard]] | 30% |
-| Counter | [[Butterfly Guard]] | 12% |
+| Success | [[Positions/Mount]] | 58% |
+| Failure | [[Positions/Butterfly Guard]] | 30% |
+| Counter | [[Positions/Butterfly Guard]] | 12% |
 
 
 </section>
@@ -256,11 +256,11 @@ Strategically, the elevator sweep serves as a cornerstone technique in the butte
 
 ## Opponent Counters
 
-- **Opponent posts far arm to the mat to block the sweep** (Effectiveness: Medium) - Your Response: Switch to arm drag on the posting arm, transitioning to back take or alternative sweep direction. Alternatively, trap the posting arm with your leg and continue the elevator sweep. → Leads to [[Butterfly Guard]]
-- **Opponent sprawls and bases back heavily, removing forward pressure** (Effectiveness: High) - Your Response: Immediately transition to shin-to-shin guard or single leg X guard as they sit back. You can also follow them backward into deep half guard or attempt a forward roll sweep if they overcommit backward. → Leads to [[Butterfly Guard]]
-- **Opponent whizzers your overhook, preventing the sweep rotation** (Effectiveness: Medium) - Your Response: Use the whizzer against them by switching to a shoulder lock attack or rolling under for an electric chair position. The whizzer actually limits their mobility and creates submission opportunities. → Leads to [[Butterfly Guard]]
-- **Opponent drives crossface on non-overhook side to flatten your posture** (Effectiveness: High) - Your Response: Accept the crossface but secure deep underhook on opposite side. Adjust angle more dramatically and sweep to the underhook side instead. The crossface actually loads their weight forward, making the sweep easier if you adapt the angle. → Leads to [[Butterfly Guard]]
-- **Opponent locks their hands together in front of your chest, creating a frame to prevent close contact** (Effectiveness: Low) - Your Response: Break their grip by expanding your chest and driving your head forward. Alternatively, switch to a different butterfly sweep variation like the basic butterfly sweep or arm drag to back. Their locked hands leave them vulnerable since both arms are occupied. → Leads to [[Butterfly Guard]]
+- **Opponent posts far arm to the mat to block the sweep** (Effectiveness: Medium) - Your Response: Switch to arm drag on the posting arm, transitioning to back take or alternative sweep direction. Alternatively, trap the posting arm with your leg and continue the elevator sweep. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent sprawls and bases back heavily, removing forward pressure** (Effectiveness: High) - Your Response: Immediately transition to shin-to-shin guard or single leg X guard as they sit back. You can also follow them backward into deep half guard or attempt a forward roll sweep if they overcommit backward. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent whizzers your overhook, preventing the sweep rotation** (Effectiveness: Medium) - Your Response: Use the whizzer against them by switching to a shoulder lock attack or rolling under for an electric chair position. The whizzer actually limits their mobility and creates submission opportunities. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent drives crossface on non-overhook side to flatten your posture** (Effectiveness: High) - Your Response: Accept the crossface but secure deep underhook on opposite side. Adjust angle more dramatically and sweep to the underhook side instead. The crossface actually loads their weight forward, making the sweep easier if you adapt the angle. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent locks their hands together in front of your chest, creating a frame to prevent close contact** (Effectiveness: Low) - Your Response: Break their grip by expanding your chest and driving your head forward. Alternatively, switch to a different butterfly sweep variation like the basic butterfly sweep or arm drag to back. Their locked hands leave them vulnerable since both arms are occupied. → Leads to [[Positions/Butterfly Guard]]
 
 
 </section>

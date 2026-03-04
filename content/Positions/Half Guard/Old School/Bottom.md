@@ -210,21 +210,21 @@ Old School Bottom is considered a transitional attacking position rather than a 
 
 ## Available Escapes
 
-### [[Old School Sweep]] (46% of attempts)
+### [[Transitions/Old School Sweep]] (46% of attempts)
 
-### [[Electric Chair Transition]] (14% of attempts)
+### [[Transitions/Electric Chair Transition]] (14% of attempts)
 
-### [[Half Guard to Back Take]] (12% of attempts)
+### [[Transitions/Half Guard to Back Take]] (12% of attempts)
 
-### [[Deep Half Entry]] (12% of attempts)
+### [[Transitions/Deep Half Entry]] (12% of attempts)
 
-### [[Dogfight Position]] (9% of attempts)
+### [[Positions/Dogfight Position]] (9% of attempts)
 
-### [[Old School Sweep from Bottom]] (4% of attempts)
+### [[Transitions/Old School Sweep from Bottom]] (4% of attempts)
 
-### [[Old School to Half Guard]] (2% of attempts)
+### [[Transitions/Old School to Half Guard]] (2% of attempts)
 
-### [[Old School Position Sweep]] (1% of attempts)
+### [[Transitions/Old School Position Sweep]] (1% of attempts)
 
 
 
@@ -235,23 +235,23 @@ Old School Bottom is considered a transitional attacking position rather than a 
 ## Decision Making from This Position
 
 **If opponent maintains low posture and drives weight forward with heavy shoulder pressure:**
-- Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 75%)
-- Execute **[[Old School Sweep]]** → [[Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 75%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Back Control]] (Probability: 70%)
 
 
 **If opponent extends their trapped leg to clear the lockdown while maintaining forward pressure:**
-- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 60%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 60%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
 
 
 **If opponent posts hand on mat or brings weight back to defend the sweep:**
-- Execute **[[Half Guard to Back Take]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent turns away from underhook or attempts to remove head control:**
-- Execute **[[Half Guard to Back Take]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Lockdown Recovery]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 
@@ -397,16 +397,16 @@ Start in Old School position with full controls established. Bottom player attem
 
 ## Related Positions and Techniques
 
-- **[[Old School]]** - Hub position - this is the bottom perspective
-- **[[Lockdown]]** - Prerequisite position - foundational control before establishing Old School setup
-- **[[Half Guard]]** - Parent category - broader positional family
-- **[[Electric Chair]]** - Common transition - natural follow-up when opponent defends sweep
-- **[[Deep Half Guard]]** - Alternative transition - option when opponent smashes forward
-- **[[Mount]]** - Primary target position - most common sweep destination
-- **[[Back Control]]** - Alternative target position - second sweep destination option
-- **[[Old School Sweep]]** - Primary technique - signature attack from this position
-- **[[Dogfight Position]]** - Transitional position when coming up on underhook
-- **[[Knee Shield Half Guard]]** - Alternative half guard variation if lockdown is broken
+- **[[Positions/Half Guard/Old School]]** - Hub position - this is the bottom perspective
+- **[[Positions/Half Guard/Lockdown]]** - Prerequisite position - foundational control before establishing Old School setup
+- **[[Positions/Half Guard]]** - Parent category - broader positional family
+- **[[Positions/Half Guard/Electric Chair]]** - Common transition - natural follow-up when opponent defends sweep
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative transition - option when opponent smashes forward
+- **[[Positions/Mount]]** - Primary target position - most common sweep destination
+- **[[Positions/Back Control]]** - Alternative target position - second sweep destination option
+- **[[Transitions/Old School Sweep]]** - Primary technique - signature attack from this position
+- **[[Positions/Dogfight Position]]** - Transitional position when coming up on underhook
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Alternative half guard variation if lockdown is broken
 
 
 </section>

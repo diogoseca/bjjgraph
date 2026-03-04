@@ -213,21 +213,21 @@ The most successful escapes from Carni involve recognizing the position early, b
 
 ## Available Attacks
 
-### [[Stack Defense]] (24% of attempts)
+### [[Transitions/Stack Defense]] (24% of attempts)
 
-### [[Rolling Kimura Escape]] (16% of attempts)
+### [[Transitions/Rolling Kimura Escape]] (16% of attempts)
 
-### [[Technical Stand-up]] (14% of attempts)
+### [[Transitions/Technical Stand-up]] (14% of attempts)
 
-### [[Leg Drag Pass]] (13% of attempts)
+### [[Transitions/Leg Drag Pass]] (13% of attempts)
 
-### [[Granby Roll to Guard]] (14% of attempts)
+### [[Transitions/Granby Roll to Guard]] (14% of attempts)
 
-### [[Knee Slice Pass]] (11% of attempts)
+### [[Transitions/Knee Slice Pass]] (11% of attempts)
 
-### [[Posture Recovery from Carni]] (5% of attempts)
+### [[Transitions/Posture Recovery from Carni]] (5% of attempts)
 
-### [[Stack Pass from Carni]] (3% of attempts)
+### [[Transitions/Stack Pass from Carni]] (3% of attempts)
 
 
 
@@ -242,18 +242,18 @@ The most successful escapes from Carni involve recognizing the position early, b
 
 
 **If bottom player has loose heel control but strong leg entanglement:**
-- Execute **[[Stack Defense]]** → [[Combat Base]] (Probability: 45%)
-- Execute **[[Rolling Kimura Escape]]** → [[Scramble Position]] (Probability: 40%)
+- Execute **[[Transitions/Stack Defense]]** → [[Positions/Combat Base]] (Probability: 45%)
+- Execute **[[Transitions/Rolling Kimura Escape]]** → [[Positions/Scramble Position]] (Probability: 40%)
 
 
 **If bottom player transitions toward saddle and temporarily loosens control:**
-- Execute **[[Leg Drag Pass]]** → [[Side Control]] (Probability: 35%)
-- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 40%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 35%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 40%)
 
 
 **If bottom player attempts to follow roll for back take:**
-- Execute **[[Granby Roll to Guard]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 40%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 40%)
 
 
 
@@ -399,16 +399,16 @@ Start with bottom player in established Carni position. Top player attempts safe
 
 ## Related Positions and Techniques
 
-- **[[Ashi Garami]]** - Related danger position - similar leg entanglement requiring defensive knowledge
-- **[[Saddle]]** - Common advancement - where bottom player transitions when heel is defended
-- **[[Truck]]** - Back exposure threat - position accessed when top player turns belly down
-- **[[Back Control]]** - Alternative threat - where bottom player goes when top player rolls to escape
-- **[[Combat Base]]** - Primary escape target - establishing safe base after extraction
-- **[[Heel Hook]]** - Primary submission threat - must defend against while escaping position
-- **[[Kneebar Control]]** - Secondary submission threat - alternative finish when heel is defended
-- **[[Outside Ashi-Garami]]** - Related entanglement - similar defensive principles apply
-- **[[Inside Ashi-Garami]]** - Related entanglement - shares leg lock defense requirements
-- **[[Honey Hole]]** - Alternative finishing position - bottom player may transition here
+- **[[Positions/Ashi Garami]]** - Related danger position - similar leg entanglement requiring defensive knowledge
+- **[[Positions/Ashi Garami/Saddle]]** - Common advancement - where bottom player transitions when heel is defended
+- **[[Positions/Twister Control/Truck]]** - Back exposure threat - position accessed when top player turns belly down
+- **[[Positions/Back Control]]** - Alternative threat - where bottom player goes when top player rolls to escape
+- **[[Positions/Combat Base]]** - Primary escape target - establishing safe base after extraction
+- **[[Transitions/Heel Hook]]** - Primary submission threat - must defend against while escaping position
+- **[[Positions/Kneebar Control]]** - Secondary submission threat - alternative finish when heel is defended
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Related entanglement - similar defensive principles apply
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Related entanglement - shares leg lock defense requirements
+- **[[Positions/Ashi Garami/Honey Hole]]** - Alternative finishing position - bottom player may transition here
 
 
 </section>

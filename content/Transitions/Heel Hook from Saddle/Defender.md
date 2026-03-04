@@ -162,7 +162,7 @@ description: "Defend the heel hook from saddle in BJJ. Recognition cues, grip fi
 
 Defending the heel hook from saddle is one of the most critical survival skills in modern no-gi grappling. The defender faces overwhelming mechanical disadvantage with their leg trapped in the opponent's saddle configuration and their heel exposed to rotational attack targeting the knee's ligamentous structures. The defensive hierarchy is absolute: protect the heel first by hiding it against your own hip, fight grips to prevent the finishing configuration from locking in, create hip mobility through framing with your free leg, and extract the trapped leg only when sufficient space has been created. Most critically, the defender must recognize when the submission is locked and tap immediately—the inside heel hook attacks structures with virtually no proprioceptive warning, meaning ligament damage can occur before pain is perceived. Every escape attempt must be weighed against the risk of catastrophic knee injury that could require surgical reconstruction and months of rehabilitation.
 
-**Opponent's Starting Position**: [[Saddle]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Saddle]] (Top)
 
 </section>
 
@@ -200,28 +200,28 @@ Defending the heel hook from saddle is one of the most critical survival skills 
 ### 1. Hide the heel by rotating knee inward and pressing heel against your own hip while gripping your own ankle
 
 - **When to use**: Immediately upon recognizing the attacker is transitioning from control grips to heel capture—this is your first and most critical defensive action before any escape attempt
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Prevents the attacker from establishing optimal heel hook angle, forcing them to either fatigue your hiding posture or switch to alternative submissions
 - **Risk**: Hiding the heel is a defensive stall that exposes your ankle to straight ankle lock and toe hold attacks—it buys time but does not escape the position
 
 ### 2. Two-on-one grip fighting to strip the attacker's heel grip at the wrist and thumb before the figure-four locks in
 
 - **When to use**: When the attacker has captured your heel but has not yet established the reinforced figure-four finishing grip—grip fighting is most effective in this transition window
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Forces the attacker to restart the grip sequence from ankle control, buying time for positional escape attempts
 - **Risk**: Both hands committed to grip fighting means you cannot simultaneously frame or create distance for escape
 
 ### 3. Frame on attacker's hips with free leg and initiate rotational escape moving body toward the attacker
 
 - **When to use**: When the attacker's saddle configuration has loosened during grip transitions or when you have successfully stripped their finishing grip and created momentary space
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Degrades attacker's control from dominant saddle to lesser inside ashi garami entanglement with more escape options
 - **Risk**: If the rotation is too slow or the attacker follows your movement, the escape fails and you may lose your framing position
 
 ### 4. Explosive counter-entanglement rotation toward the attacker's legs to enter 50-50 Guard
 
 - **When to use**: When the attacker loosens their leg triangle momentarily during grip adjustment and you can commit fully to explosive directional change—the window is 1-2 seconds maximum
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Neutralizes the attacker's dominant inside position by establishing symmetrical entanglement where neither player has clear advantage
 - **Risk**: Failed rotation can expose your heel further and tighten the saddle—this must be fully committed and explosive to succeed
 
@@ -233,15 +233,15 @@ Defending the heel hook from saddle is one of the most critical survival skills 
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Counter-entangle by explosively rotating toward the attacker's legs during their grip transition window. The rotation must be fully committed and timed to the moment their leg configuration loosens while adjusting grips. This establishes symmetrical 50-50 that eliminates their dominant inside control advantage.
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Force the attacker to lose saddle control by systematically stripping grips, framing on their hips, and using rotational movement to degrade the entanglement. The key is moving your body toward the attacker rather than pulling your leg away, changing the geometric relationship until the saddle configuration collapses to the lesser inside ashi garami.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 Survive the heel hook attempt by hiding the heel against your hip, fighting grips with two-on-one breaks, and preventing the attacker from establishing the figure-four finishing configuration. While you remain in the saddle, you have bought time and potentially fatigued the attacker's grip-fighting and submission attempts.
 

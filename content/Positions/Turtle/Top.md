@@ -204,35 +204,35 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 
 ## Available Attacks
 
-### [[Turtle to Back Control]] (61% of attempts)
+### [[Transitions/Turtle to Back Control]] (61% of attempts)
 
-### [[Front Headlock to Anaconda]] (5% of attempts)
+### [[Transitions/Front Headlock to Anaconda]] (5% of attempts)
 
-### [[Front Headlock to Darce]] (5% of attempts)
+### [[Transitions/Front Headlock to Darce]] (5% of attempts)
 
-### [[Crucifix from Turtle]] (3% of attempts)
+### [[Transitions/Crucifix from Turtle]] (3% of attempts)
 
-### [[Turtle Flatten to Side Control]] (7% of attempts)
+### [[Transitions/Turtle Flatten to Side Control]] (7% of attempts)
 
-### [[Turtle to Truck Entry]] (2% of attempts)
+### [[Transitions/Turtle to Truck Entry]] (2% of attempts)
 
-### [[Front Headlock to Guillotine]] (3% of attempts)
+### [[Transitions/Front Headlock to Guillotine]] (3% of attempts)
 
-### [[Kimura]] (2% of attempts)
+### [[Transitions/Kimura]] (2% of attempts)
 
-### [[Arm Triangle from Turtle]] (2% of attempts)
+### [[Transitions/Arm Triangle from Turtle]] (2% of attempts)
 
-### [[Turtle to Standing]] (3% of attempts)
+### [[Transitions/Turtle to Standing]] (3% of attempts)
 
-### [[Turtle Attack Sequence]] (1% of attempts)
+### [[Transitions/Turtle Attack Sequence]] (1% of attempts)
 
-### [[Turtle to Matrix]] (1% of attempts)
+### [[Transitions/Turtle to Matrix]] (1% of attempts)
 
-### [[Turtle to Rodeo Ride]] (1% of attempts)
+### [[Transitions/Turtle to Rodeo Ride]] (1% of attempts)
 
-### [[Belly Down Armbar]] (2% of attempts)
+### [[Submissions/Belly Down Armbar]] (2% of attempts)
 
-### [[Kimura from Turtle]] (2% of attempts)
+### [[Submissions/Kimura from Turtle]] (2% of attempts)
 
 
 
@@ -243,28 +243,28 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 ## Decision Making from This Position
 
 **If opponent maintains tight defensive structure with elbows to knees:**
-- Execute **[[Establish Seatbelt Control]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Circle to Front Headlock]]** → [[Front Headlock]] (Probability: 55%)
+- Execute **[[Establish Seatbelt Control]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Circle to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 55%)
 
 
 **If opponent begins forward roll or granby attempt:**
-- Execute **[[Follow Roll to Back]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Flatten to Side Control]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Follow Roll to Back]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Flatten to Side Control]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent lifts head or exposes neck:**
-- Execute **[[Front Headlock Attack]]** → [[Front Headlock]] (Probability: 70%)
-- Execute **[[Guillotine Setup]]** → [[Guillotine Control]] (Probability: 60%)
+- Execute **[[Front Headlock Attack]]** → [[Positions/Front Headlock]] (Probability: 70%)
+- Execute **[[Transitions/Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 60%)
 
 
 **If opponent extends arm for posting or defense:**
-- Execute **[[Crucifix Entry]]** → [[Crucifix]] (Probability: 55%)
-- Execute **[[Kimura Attack]]** → [[Kimura Trap]] (Probability: 50%)
+- Execute **[[Crucifix Entry]]** → [[Positions/Crucifix]] (Probability: 55%)
+- Execute **[[Kimura Attack]]** → [[Positions/Kimura Trap]] (Probability: 50%)
 
 
 **If opponent attempts to stand up explosively:**
-- Execute **[[Drag to Mat and Take Back]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Front Headlock Control]]** → [[Front Headlock]] (Probability: 65%)
+- Execute **[[Drag to Mat and Take Back]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Front Headlock Control]]** → [[Positions/Front Headlock]] (Probability: 65%)
 
 
 
@@ -398,16 +398,16 @@ Partner in turtle defends with various escape attempts (granby, standup, sit-thr
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Primary attacking target from turtle top
-- **[[Front Headlock]]** - Alternative attacking position from turtle top
-- **[[Crucifix]]** - Advanced attacking position accessible from turtle
-- **[[Anaconda Choke]]** - Direct submission option from turtle top
-- **[[Darce Choke]]** - Alternative front headlock submission
-- **[[Guillotine Choke]]** - Submission option when opponent lifts head
-- **[[Kimura]]** - Arm attack submission when opponent extends limb
-- **[[Truck]]** - Advanced back attack variation from turtle
-- **[[Side Control]]** - Alternative positional advancement from turtle
-- **[[Turtle to Back Control]]** - Primary transition for securing back control
+- **[[Positions/Back Control]]** - Primary attacking target from turtle top
+- **[[Positions/Front Headlock]]** - Alternative attacking position from turtle top
+- **[[Positions/Crucifix]]** - Advanced attacking position accessible from turtle
+- **[[Transitions/Anaconda Choke]]** - Direct submission option from turtle top
+- **[[Transitions/Darce Choke]]** - Alternative front headlock submission
+- **[[Transitions/Guillotine Choke]]** - Submission option when opponent lifts head
+- **[[Transitions/Kimura]]** - Arm attack submission when opponent extends limb
+- **[[Positions/Twister Control/Truck]]** - Advanced back attack variation from turtle
+- **[[Positions/Side Control]]** - Alternative positional advancement from turtle
+- **[[Transitions/Turtle to Back Control]]** - Primary transition for securing back control
 
 
 </section>

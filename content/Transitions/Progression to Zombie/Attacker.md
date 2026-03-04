@@ -178,7 +178,7 @@ The transition exploits a fundamental timing window in the opponent's defensive 
 
 Success depends on maintaining the overhook as an independent anchor throughout the entire transition. The overhook cannot be sacrificed or weakened during leg repositioning. This dual-task demand - keeping the anchor solid while moving the leg - is what makes the transition technically challenging but also what makes it effective, since the opponent cannot exploit the repositioning phase if overhook control remains constant.
 
-**From Position**: [[New York]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/New York]] (Bottom)
 
 </section>
 
@@ -230,9 +230,9 @@ Success depends on maintaining the overhook as an independent anchor throughout 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Zombie]] | 58% |
-| Failure | [[New York]] | 27% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Zombie]] | 58% |
+| Failure | [[Positions/Rubber Guard/New York]] | 27% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ Success depends on maintaining the overhook as an independent anchor throughout 
 
 ## Opponent Counters
 
-- **Posture explosion during transition - opponent drives hips forward and lifts head aggressively as leg moves** (Effectiveness: High) - Your Response: Abandon transition and return to New York control, using their forward drive momentum to set up Chill Dog or triangle instead → Leads to [[New York]]
-- **Overhook extraction attempt - opponent pulls trapped arm back toward their hip during leg repositioning** (Effectiveness: Medium) - Your Response: Tighten overhook grip and shoot leg over their shoulder for triangle setup, converting their extraction attempt into submission opportunity → Leads to [[Closed Guard]]
-- **Stack pressure - opponent drives weight forward to flatten your hips and prevent leg elevation** (Effectiveness: Medium) - Your Response: Accept stack momentarily and use momentum to sweep or transition to omoplata setup as their weight commits forward → Leads to [[New York]]
-- **Grip stripping - opponent uses free hand to peel your grip off your own shin during repositioning** (Effectiveness: Low) - Your Response: Maintain control with overhook while re-establishing shin grip, or transition to Invisible Collar using the free hand opportunity created by their grip fighting → Leads to [[New York]]
+- **Posture explosion during transition - opponent drives hips forward and lifts head aggressively as leg moves** (Effectiveness: High) - Your Response: Abandon transition and return to New York control, using their forward drive momentum to set up Chill Dog or triangle instead → Leads to [[Positions/Rubber Guard/New York]]
+- **Overhook extraction attempt - opponent pulls trapped arm back toward their hip during leg repositioning** (Effectiveness: Medium) - Your Response: Tighten overhook grip and shoot leg over their shoulder for triangle setup, converting their extraction attempt into submission opportunity → Leads to [[Positions/Closed Guard]]
+- **Stack pressure - opponent drives weight forward to flatten your hips and prevent leg elevation** (Effectiveness: Medium) - Your Response: Accept stack momentarily and use momentum to sweep or transition to omoplata setup as their weight commits forward → Leads to [[Positions/Rubber Guard/New York]]
+- **Grip stripping - opponent uses free hand to peel your grip off your own shin during repositioning** (Effectiveness: Low) - Your Response: Maintain control with overhook while re-establishing shin grip, or transition to Invisible Collar using the free hand opportunity created by their grip fighting → Leads to [[Positions/Rubber Guard/New York]]
 
 
 </section>

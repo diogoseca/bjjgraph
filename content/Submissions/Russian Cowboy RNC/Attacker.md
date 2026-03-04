@@ -184,7 +184,7 @@ Attacking the Russian Cowboy RNC requires leveraging the unique asymmetric contr
 
 The key attacking methodology involves using the positional threat cycle: tighten the hook to force the defender to address it, then use that moment to advance the choking arm. When the defender returns to neck defense, deepen the hook again. This oscillation systematically degrades the defender's ability to protect both threats and eventually creates the opening for the finish. The asymmetric position means the choking arm naturally aligns along the defender's neck when proper angle is maintained through chest-to-back connection and hip driving.
 
-**From Position**: [[Russian Cowboy]] (Top)
+**From Position**: [[Positions/Russian Cowboy]] (Top)
 
 
 </section>
@@ -238,8 +238,8 @@ The key attacking methodology involves using the positional threat cycle: tighte
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Russian Cowboy]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Russian Cowboy]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -248,10 +248,10 @@ The key attacking methodology involves using the positional threat cycle: tighte
 
 ## Opponent Defenses
 
-- **Defender tucks chin aggressively and uses two-on-one grip to fight the choking arm** (Effectiveness: High) - Your Response: Drive the hook harder to create rotational pressure that weakens the chin tuck, then use your underhook arm to peel their bottom defending hand away before re-attacking with the choking arm → Leads to [[Russian Cowboy]]
-- **Defender strips the hook by pushing the foot with their hands while sacrificing neck defense** (Effectiveness: Medium) - Your Response: Capitalize on the neck exposure immediately by sliding the choking arm under the chin while they focus on the hook - the choke may finish before they can complete the escape → Leads to [[Half Guard]]
-- **Defender turns their shoulders toward you and attempts to create a frame against your chest** (Effectiveness: Medium) - Your Response: Follow their turn with your chest maintaining connection - their turn actually aids choke insertion if you keep the seatbelt tight, so use the rotation to slide the choking arm under the exposed chin → Leads to [[Russian Cowboy]]
-- **Defender explosively shrimps hips away and attempts to recover half guard** (Effectiveness: High) - Your Response: Follow with your hook and chest pressure to maintain back exposure - if they create significant distance, transition to standard back control or ride the scramble rather than overcommitting to the choke on a moving target → Leads to [[Half Guard]]
+- **Defender tucks chin aggressively and uses two-on-one grip to fight the choking arm** (Effectiveness: High) - Your Response: Drive the hook harder to create rotational pressure that weakens the chin tuck, then use your underhook arm to peel their bottom defending hand away before re-attacking with the choking arm → Leads to [[Positions/Russian Cowboy]]
+- **Defender strips the hook by pushing the foot with their hands while sacrificing neck defense** (Effectiveness: Medium) - Your Response: Capitalize on the neck exposure immediately by sliding the choking arm under the chin while they focus on the hook - the choke may finish before they can complete the escape → Leads to [[Positions/Half Guard]]
+- **Defender turns their shoulders toward you and attempts to create a frame against your chest** (Effectiveness: Medium) - Your Response: Follow their turn with your chest maintaining connection - their turn actually aids choke insertion if you keep the seatbelt tight, so use the rotation to slide the choking arm under the exposed chin → Leads to [[Positions/Russian Cowboy]]
+- **Defender explosively shrimps hips away and attempts to recover half guard** (Effectiveness: High) - Your Response: Follow with your hook and chest pressure to maintain back exposure - if they create significant distance, transition to standard back control or ride the scramble rather than overcommitting to the choke on a moving target → Leads to [[Positions/Half Guard]]
 
 
 </section>

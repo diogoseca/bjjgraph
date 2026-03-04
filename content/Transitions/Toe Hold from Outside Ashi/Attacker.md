@@ -180,7 +180,7 @@ description: "Learn to execute the toe hold from outside ashi-garami. Step-by-st
 
 Attacking the toe hold from outside ashi-garami requires precise grip mechanics and an understanding of how this technique integrates with the broader leg lock chain. The attacker must transition from heel hook hunting to toe hold application when the opponent successfully defends their heel, using the figure-four kimura grip to create devastating rotational force through the ankle joint. Success depends on maintaining tight leg entanglement throughout the grip transition, proper wrist blade placement against the ball of the foot, and controlled rotational force application that generates maximum torque while allowing training partners time to tap safely.
 
-**From Position**: [[Outside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -233,8 +233,8 @@ Attacking the toe hold from outside ashi-garami requires precise grip mechanics 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Outside Ashi-Garami]] | 35% |
-| Counter | [[Standing Position]] | 25% |
+| Failure | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 35% |
+| Counter | [[Positions/Standing Position]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ Attacking the toe hold from outside ashi-garami requires precise grip mechanics 
 
 ## Opponent Counters
 
-- **Boot defense - opponent straightens and flexes foot to prevent kimura grip from wrapping around the ball of the foot** (Effectiveness: High) - Your Response: Apply stronger chest pressure on toes to overcome boot defense, or recognize that boot defense may expose the heel and transition immediately to outside heel hook → Leads to [[Outside Ashi-Garami]]
-- **Counter-rotation - opponent rolls their entire body in the direction of the toe hold rotation to neutralize ankle torque** (Effectiveness: Medium) - Your Response: Follow the roll maintaining grip throughout the rotation and adjust body position to preserve leverage. If they generate enough momentum to escape, transition to back take or leg drag from the scramble → Leads to [[Standing Position]]
-- **Grip stripping - opponent uses both hands to break the figure-four kimura grip before significant rotation is applied** (Effectiveness: High) - Your Response: Tighten elbows to body and reestablish grip immediately if stripped, or chain to straight ankle lock if the foot repositioning during grip fight creates ankle lock access → Leads to [[Outside Ashi-Garami]]
-- **Standing extraction - opponent stands up using free leg and height advantage to extract foot from entanglement using gravity** (Effectiveness: Medium) - Your Response: Increase leg squeeze to prevent standing, or if they achieve standing position, maintain grip and use hanging body weight to amplify toe hold rotational pressure before they fully extract → Leads to [[Standing Position]]
+- **Boot defense - opponent straightens and flexes foot to prevent kimura grip from wrapping around the ball of the foot** (Effectiveness: High) - Your Response: Apply stronger chest pressure on toes to overcome boot defense, or recognize that boot defense may expose the heel and transition immediately to outside heel hook → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Counter-rotation - opponent rolls their entire body in the direction of the toe hold rotation to neutralize ankle torque** (Effectiveness: Medium) - Your Response: Follow the roll maintaining grip throughout the rotation and adjust body position to preserve leverage. If they generate enough momentum to escape, transition to back take or leg drag from the scramble → Leads to [[Positions/Standing Position]]
+- **Grip stripping - opponent uses both hands to break the figure-four kimura grip before significant rotation is applied** (Effectiveness: High) - Your Response: Tighten elbows to body and reestablish grip immediately if stripped, or chain to straight ankle lock if the foot repositioning during grip fight creates ankle lock access → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Standing extraction - opponent stands up using free leg and height advantage to extract foot from entanglement using gravity** (Effectiveness: Medium) - Your Response: Increase leg squeeze to prevent standing, or if they achieve standing position, maintain grip and use hanging body weight to amplify toe hold rotational pressure before they fully extract → Leads to [[Positions/Standing Position]]
 
 
 </section>

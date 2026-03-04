@@ -21,7 +21,7 @@ The Arm Extraction serves as a critical gateway technique connecting bottom side
 
 This escape is particularly effective against pressure-based top players who prioritize chest pressure over weight distribution. The technique's success depends on proper frame placement, shoulder rotation mechanics, and the ability to maintain defensive posture throughout the extraction sequence. Mastery of arm extraction fundamentally improves survival rates under side control and provides essential defensive foundations for all skill levels.
 
-**From Position**: [[Side Control]] (Bottom)
+**From Position**: [[Positions/Side Control]] (Bottom)
 **Success Rate**: 68%
 
 </section>
@@ -32,10 +32,10 @@ This escape is particularly effective against pressure-based top players who pri
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Success | [[Closed Guard]] | 25% |
-| Failure | [[Side Control]] | 15% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Success | [[Positions/Closed Guard]] | 25% |
+| Failure | [[Positions/Side Control]] | 15% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -195,27 +195,27 @@ Arm extraction serves as a critical defensive connector in the BJJ positional hi
 ## Related Techniques
 
 
-- [[Elbow Escape to Guard]] - Alternative escape technique from side control focusing on elbow-knee connection and hip escape
+- [[Transitions/Elbow Escape to Guard]] - Alternative escape technique from side control focusing on elbow-knee connection and hip escape
 
-- [[Frame and Shrimp to Guard]] - Fundamental prerequisite—proper framing mechanics must be mastered before arm extraction
+- [[Transitions/Frame and Shrimp to Guard]] - Fundamental prerequisite—proper framing mechanics must be mastered before arm extraction
 
-- [[Bridge and Roll]] - Alternative escape option particularly effective when arm extraction is countered by increased pressure
+- [[Transitions/Bridge and Roll]] - Alternative escape option particularly effective when arm extraction is countered by increased pressure
 
-- [[Ghost Escape]] - Advanced alternative escape pathway from side control using different mechanics
+- [[Transitions/Ghost Escape]] - Advanced alternative escape pathway from side control using different mechanics
 
-- [[Knee Shield Half Guard]] - Common follow-up guard position after successful arm extraction
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Common follow-up guard position after successful arm extraction
 
-- [[Hip Escape to Guard]] - Fundamental movement pattern integrated throughout the arm extraction sequence
+- [[Transitions/Hip Escape to Guard]] - Fundamental movement pattern integrated throughout the arm extraction sequence
 
-- [[Half Guard]] - Primary guard recovery target after successful arm extraction
+- [[Positions/Half Guard]] - Primary guard recovery target after successful arm extraction
 
-- [[Closed Guard]] - Advanced guard recovery target requiring full knee insertion
+- [[Positions/Closed Guard]] - Advanced guard recovery target requiring full knee insertion
 
-- [[Butterfly Guard]] - Alternative guard recovery option especially effective in no-gi contexts
+- [[Positions/Butterfly Guard]] - Alternative guard recovery option especially effective in no-gi contexts
 
-- [[Deep Half Guard]] - Advanced guard recovery variant for practitioners with deep half expertise
+- [[Positions/Half Guard/Deep Half Guard]] - Advanced guard recovery variant for practitioners with deep half expertise
 
-- [[Side Control]] - Starting position from which arm extraction is executed
+- [[Positions/Side Control]] - Starting position from which arm extraction is executed
 
 
 </section>

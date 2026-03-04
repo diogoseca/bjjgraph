@@ -180,7 +180,7 @@ description: "Execute the Shoulder of Justice to Mount transition with precision
 
 The Shoulder of Justice to Mount transition from the attacker's perspective centers on maintaining devastating shoulder pressure while executing a controlled step-over to achieve full mount. This transition demands the ability to transfer weight seamlessly from a side-control pressure configuration to a mounted hip-pressure configuration without creating defensive windows. The attacker must read the bottom player's energy level and defensive posture to identify the optimal moment for the step-over, then execute the transition with precise mechanical control that keeps pressure constant throughout every phase of the movement. The transition rewards patience and timing over athleticism — forcing the step-over against active resistance reduces success rate significantly compared to waiting for pressure-induced defensive collapse.
 
-**From Position**: [[Shoulder of Justice]] (Top)
+**From Position**: [[Positions/Shoulder of Justice]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The Shoulder of Justice to Mount transition from the attacker's perspective cent
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Shoulder of Justice]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Shoulder of Justice]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Shoulder of Justice to Mount transition from the attacker's perspective cent
 
 ## Opponent Counters
 
-- **Opponent inserts near-side elbow frame between your chest and their body as your weight shifts during the step-over** (Effectiveness: High) - Your Response: Collapse the frame using chest weight and forward pressure before completing the step-over, or abandon the transition and re-consolidate Shoulder of Justice control to try again → Leads to [[Shoulder of Justice]]
-- **Opponent times a hip escape to create angle and attempts knee shield insertion as you commit weight forward for the step-over** (Effectiveness: High) - Your Response: Follow their hip movement with your own hips, driving your near knee into their hip line to prevent knee shield insertion and maintain the passing angle for the step-over → Leads to [[Shoulder of Justice]]
-- **Opponent bridges explosively as your far leg crosses their body, attempting to reverse the position before you can establish mount base** (Effectiveness: Medium) - Your Response: Post your far hand on the mat and drive your hips low to ride the bridge, using the forward momentum to accelerate your mount establishment rather than fighting against it → Leads to [[Half Guard]]
-- **Opponent pumps their near-side knee upward as your leg crosses, catching your stepping leg in half guard entanglement before you can settle** (Effectiveness: High) - Your Response: Drive your stepping knee past their knee line immediately using forward hip pressure to clear the obstruction, or switch to a knee slice pass to complete the transition from the half guard position → Leads to [[Shoulder of Justice]]
+- **Opponent inserts near-side elbow frame between your chest and their body as your weight shifts during the step-over** (Effectiveness: High) - Your Response: Collapse the frame using chest weight and forward pressure before completing the step-over, or abandon the transition and re-consolidate Shoulder of Justice control to try again → Leads to [[Positions/Shoulder of Justice]]
+- **Opponent times a hip escape to create angle and attempts knee shield insertion as you commit weight forward for the step-over** (Effectiveness: High) - Your Response: Follow their hip movement with your own hips, driving your near knee into their hip line to prevent knee shield insertion and maintain the passing angle for the step-over → Leads to [[Positions/Shoulder of Justice]]
+- **Opponent bridges explosively as your far leg crosses their body, attempting to reverse the position before you can establish mount base** (Effectiveness: Medium) - Your Response: Post your far hand on the mat and drive your hips low to ride the bridge, using the forward momentum to accelerate your mount establishment rather than fighting against it → Leads to [[Positions/Half Guard]]
+- **Opponent pumps their near-side knee upward as your leg crosses, catching your stepping leg in half guard entanglement before you can settle** (Effectiveness: High) - Your Response: Drive your stepping knee past their knee line immediately using forward hip pressure to clear the obstruction, or switch to a knee slice pass to complete the transition from the half guard position → Leads to [[Positions/Shoulder of Justice]]
 
 
 </section>

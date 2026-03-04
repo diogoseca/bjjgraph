@@ -101,25 +101,25 @@ The position also serves an important pedagogical function in teaching fundament
 ### Available Transitions
 
 
-- **[[Ankle Lock Finish]]** (31% of attempts)
+- **[[Transitions/Ankle Lock Finish]]** (31% of attempts)
 
-- **[[Inside Ashi Entry]]** (13% of attempts)
+- **[[Transitions/Inside Ashi Entry]]** (13% of attempts)
 
-- **[[Outside Ashi Entry]]** (11% of attempts)
+- **[[Transitions/Outside Ashi Entry]]** (11% of attempts)
 
-- **[[X-Guard to Ashi Garami]]** (6% of attempts)
+- **[[Transitions/X-Guard to Ashi Garami]]** (6% of attempts)
 
-- **[[50-50 Entry from Standing]]** (8% of attempts)
+- **[[Transitions/50-50 Entry from Standing]]** (8% of attempts)
 
-- **[[Single Leg X Entry]]** (10% of attempts)
+- **[[Transitions/Single Leg X Entry]]** (10% of attempts)
 
-- **[[Kneebar Finish]]** (8% of attempts)
+- **[[Transitions/Kneebar Finish]]** (8% of attempts)
 
-- **[[Ankle Pick Sweep]]** (8% of attempts)
+- **[[Transitions/Ankle Pick Sweep]]** (8% of attempts)
 
-- **[[Straight Footlock]]** (3% of attempts)
+- **[[Transitions/Straight Footlock]]** (3% of attempts)
 
-- **[[Ankle Lock Escape to Standing]]** (2% of attempts)
+- **[[Transitions/Ankle Lock Escape to Standing]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -180,23 +180,23 @@ The position also serves an important pedagogical function in teaching fundament
 ### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** (25% of attempts)
+- **[[Transitions/Ashi Garami Escape]]** (25% of attempts)
 
-- **[[Counter Entry to Opponent's Leg]]** (14% of attempts)
+- **[[Transitions/Counter Entry to Opponent's Leg]]** (14% of attempts)
 
-- **[[Hip Rotation Defense]]** (14% of attempts)
+- **[[Transitions/Hip Rotation Defense]]** (14% of attempts)
 
-- **[[Knee Extraction]]** (14% of attempts)
+- **[[Transitions/Knee Extraction]]** (14% of attempts)
 
-- **[[Frame and Distance Creation]]** (11% of attempts)
+- **[[Transitions/Frame and Distance Creation]]** (11% of attempts)
 
-- **[[Pass to Side Control]]** (7% of attempts)
+- **[[Transitions/Pass to Side Control]]** (7% of attempts)
 
-- **[[Counter-entangle to 50-50 Guard]]** (9% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard]]** (9% of attempts)
 
-- **[[Counter from Ankle Lock]]** (4% of attempts)
+- **[[Transitions/Counter from Ankle Lock]]** (4% of attempts)
 
-- **[[Straight Ankle Lock]]** (2% of attempts)
+- **[[Submissions/Straight Ankle Lock]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -235,21 +235,21 @@ The position also serves an important pedagogical function in teaching fundament
 ## Related Positions
 
 
-- **[[Inside Ashi-Garami]]** - Primary advancement position for securing leg triangle control
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Primary advancement position for securing leg triangle control
 
-- **[[Outside Ashi-Garami]]** - Alternative advancement when opponent turns into control
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Alternative advancement when opponent turns into control
 
-- **[[50-50 Guard]]** - Symmetrical entanglement that often results from failed ankle lock attempts
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Symmetrical entanglement that often results from failed ankle lock attempts
 
-- **[[Kneebar Control]]** - Alternative leg attack when opponent defends ankle by straightening leg
+- **[[Positions/Kneebar Control]]** - Alternative leg attack when opponent defends ankle by straightening leg
 
-- **[[Single Leg X-Guard]]** - Entry position that commonly transitions to ankle lock control
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Entry position that commonly transitions to ankle lock control
 
-- **[[X-Guard]]** - Guard position that provides controlled entries to straight ankle attacks
+- **[[Positions/X-Guard]]** - Guard position that provides controlled entries to straight ankle attacks
 
-- **[[Saddle]]** - Advanced leg entanglement accessible through strategic transitions
+- **[[Positions/Ashi Garami/Saddle]]** - Advanced leg entanglement accessible through strategic transitions
 
-- **[[Open Guard]]** - Position opponent seeks when successfully defending control
+- **[[Positions/Open Guard]]** - Position opponent seeks when successfully defending control
 
 
 </section>

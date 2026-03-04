@@ -21,7 +21,7 @@ This transition exploits a fundamental vulnerability in leg lock defense: when o
 
 The back take from ashi has become increasingly important in modern competition as leg lock defenses have improved. High-level practitioners use the threat of leg attacks to create back take opportunities, and the threat of back takes to create leg lock openings. This creates a systematic dilemma where defending one attack opens vulnerability to the other, embodying the interconnected nature of positional grappling at advanced levels.
 
-**From Position**: [[Inside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The back take from ashi has become increasingly important in modern competition 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Inside Ashi-Garami]] | 30% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -189,23 +189,23 @@ The Back Take from Ashi represents a critical branch point in the modern leg loc
 ## Related Techniques
 
 
-- [[Inside Ashi-Garami]] - Starting position for this transition
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Starting position for this transition
 
-- [[Back Control]] - Target position achieved on successful execution
+- [[Positions/Back Control]] - Target position achieved on successful execution
 
-- [[Rear Naked Choke]] - Primary follow-up submission after achieving back control
+- [[Transitions/Rear Naked Choke]] - Primary follow-up submission after achieving back control
 
-- [[Inside Heel Hook]] - Alternative attack when opponent does not create back exposure
+- [[Submissions/Inside Heel Hook]] - Alternative attack when opponent does not create back exposure
 
-- [[Straight Ankle Lock]] - Alternative submission threat that creates back take opportunity
+- [[Submissions/Straight Ankle Lock]] - Alternative submission threat that creates back take opportunity
 
-- [[Crab Ride]] - Related transitional position used in variant back take
+- [[Positions/Crab Ride]] - Related transitional position used in variant back take
 
-- [[Saddle]] - Alternative advancement when back take is not available
+- [[Positions/Ashi Garami/Saddle]] - Alternative advancement when back take is not available
 
-- [[Turtle]] - Common defensive position opponent may achieve if back take is incomplete
+- [[Positions/Turtle]] - Common defensive position opponent may achieve if back take is incomplete
 
-- [[Armbar from Back]] - Secondary submission option after achieving back control
+- [[Submissions/Armbar from Back]] - Secondary submission option after achieving back control
 
 
 </section>

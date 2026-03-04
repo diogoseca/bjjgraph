@@ -96,23 +96,23 @@ The position's effectiveness scales with skill level and understanding. Beginner
 ### Available Transitions
 
 
-- **[[Roll Through Escape]]** (15% of attempts)
+- **[[Transitions/Roll Through Escape]]** (15% of attempts)
 
-- **[[Hip Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Bridge and Turn to Turtle]]** (14% of attempts)
+- **[[Transitions/Bridge and Turn to Turtle]]** (14% of attempts)
 
-- **[[Leg Extraction]]** (12% of attempts)
+- **[[Transitions/Leg Extraction]]** (12% of attempts)
 
-- **[[Defensive Roll]]** (11% of attempts)
+- **[[Transitions/Defensive Roll]]** (11% of attempts)
 
-- **[[Frame and Turn]]** (10% of attempts)
+- **[[Transitions/Frame and Turn]]** (10% of attempts)
 
-- **[[Scramble to Guard]]** (10% of attempts)
+- **[[Transitions/Scramble to Guard]]** (10% of attempts)
 
-- **[[Shrimp Escape]]** (8% of attempts)
+- **[[Transitions/Shrimp Escape]]** (8% of attempts)
 
-- **[[Granby Roll to Guard]]** (6% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -169,17 +169,17 @@ The position's effectiveness scales with skill level and understanding. Beginner
 ### Available Transitions
 
 
-- **[[Twister Finish]]** (30% of attempts)
+- **[[Transitions/Twister Finish]]** (30% of attempts)
 
-- **[[Back Take]]** (23% of attempts)
+- **[[Transitions/Back Take]]** (23% of attempts)
 
-- **[[Guillotine Choke]]** (15% of attempts)
+- **[[Transitions/Guillotine Choke]]** (15% of attempts)
 
-- **[[Calf Slicer]]** (12% of attempts)
+- **[[Transitions/Calf Slicer]]** (12% of attempts)
 
-- **[[Neck Crank]]** (11% of attempts)
+- **[[Transitions/Neck Crank]]** (11% of attempts)
 
-- **[[Twister]]** (9% of attempts)
+- **[[Submissions/Twister]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -214,15 +214,15 @@ The position's effectiveness scales with skill level and understanding. Beginner
 ## Related Positions
 
 
-- **[[Back Control]]** - Alternative control position - can transition between these positions
+- **[[Positions/Back Control]]** - Alternative control position - can transition between these positions
 
-- **[[Crab Ride]]** - Related back exposure position with different control mechanics
+- **[[Positions/Crab Ride]]** - Related back exposure position with different control mechanics
 
-- **[[Lockdown]]** - Bottom position that can lead to truck and Twister Control entries
+- **[[Positions/Half Guard/Lockdown]]** - Bottom position that can lead to truck and Twister Control entries
 
-- **[[Half Guard]]** - Starting position for 10th Planet system leading to Twister Control
+- **[[Positions/Half Guard]]** - Starting position for 10th Planet system leading to Twister Control
 
-- **[[Crucifix]]** - Alternative arm control position from similar entries
+- **[[Positions/Crucifix]]** - Alternative arm control position from similar entries
 
 
 </section>

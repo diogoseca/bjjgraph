@@ -21,7 +21,7 @@ The scenario typically unfolds when the top player overcommits to a pass, loses 
 
 Success in this transition depends on early recognition and immediate defensive structure establishment. The faster the top player identifies the triangle threat and transitions to a proper escape position, the higher their probability of successfully escaping. Delayed reactions allow the bottom player to lock the triangle, optimize their angle, and begin finishing sequences that become exponentially harder to defend against with each passing second. This transition is fundamentally about converting a crisis moment into a structured defensive problem that can be solved through systematic technique.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ Success in this transition depends on early recognition and immediate defensive 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Escape Position]] | 60% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Triangle Control]] | 15% |
+| Success | [[Positions/Triangle Escape Position]] | 60% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Triangle Control]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ This transition occupies a critical defensive junction in the BJJ positional hie
 ## Related Techniques
 
 
-- [[Triangle Escape Position]] - Target position reached through successful execution of this defensive transition
+- [[Positions/Triangle Escape Position]] - Target position reached through successful execution of this defensive transition
 
-- [[Half Guard]] - Starting position from which the triangle threat develops during passing attempts
+- [[Positions/Half Guard]] - Starting position from which the triangle threat develops during passing attempts
 
-- [[Triangle Control]] - Opponent's attacking position that this transition defends against
+- [[Positions/Triangle Control]] - Opponent's attacking position that this transition defends against
 
-- [[Triangle Choke]] - Submission threat that motivates the urgent need for this defensive transition
+- [[Transitions/Triangle Choke]] - Submission threat that motivates the urgent need for this defensive transition
 
-- [[Knee Slice Pass]] - Common half guard pass that exposes the passer to triangle entries when executed improperly
+- [[Transitions/Knee Slice Pass]] - Common half guard pass that exposes the passer to triangle entries when executed improperly
 
-- [[Posture Recovery]] - Key defensive technique employed during the transition to establish escape structure
+- [[Transitions/Posture Recovery]] - Key defensive technique employed during the transition to establish escape structure
 
-- [[Stack Pass]] - Follow-up technique used after establishing escape position to convert defense into offense
+- [[Transitions/Stack Pass]] - Follow-up technique used after establishing escape position to convert defense into offense
 
-- [[Armbar Defense]] - Related defensive skill needed when opponent transitions from triangle to armbar during escape
+- [[Transitions/Armbar Defense]] - Related defensive skill needed when opponent transitions from triangle to armbar during escape
 
-- [[Closed Guard]] - Position the bottom player may recover if the triangle escape is partially successful
+- [[Positions/Closed Guard]] - Position the bottom player may recover if the triangle escape is partially successful
 
-- [[Side Control]] - Offensive target position achievable through successful triangle escape to pass sequence
+- [[Positions/Side Control]] - Offensive target position achievable through successful triangle escape to pass sequence
 
 
 </section>

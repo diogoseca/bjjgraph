@@ -21,7 +21,7 @@ The technique centers on creating space through structural frames rather than mu
 
 Successfully executing this escape requires coordinated movement across multiple planes simultaneously: lateral hip escape to create angle, vertical frame pressure to prevent flattening, and rotational knee insertion to re-establish the guard structure. The escape is most effective when chained with other defensive options from the leg weave bottom, creating a defensive system where each failed escape attempt flows naturally into an alternative recovery pathway such as deep half entry or dogfight transition.
 
-**From Position**: [[Leg Weave]] (Bottom)
+**From Position**: [[Positions/Leg Weave]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Successfully executing this escape requires coordinated movement across multiple
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Leg Weave]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Leg Weave]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Leg Weave Escape to Half Guard serves as the primary defensive link between 
 ## Related Techniques
 
 
-- [[Leg Weave]] - Starting position where this escape is initiated from the bottom
+- [[Positions/Leg Weave]] - Starting position where this escape is initiated from the bottom
 
-- [[Half Guard]] - Target position recovered after successful escape execution
+- [[Positions/Half Guard]] - Target position recovered after successful escape execution
 
-- [[Knee Shield Half Guard]] - Primary recovery target offering immediate distance management and offensive options
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Primary recovery target offering immediate distance management and offensive options
 
-- [[Deep Half Guard]] - Alternative escape destination when forward pressure is heavy
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative escape destination when forward pressure is heavy
 
-- [[Flattened Half Guard]] - Compromised position resulting from partial or failed escape attempts
+- [[Positions/Half Guard/Flattened Half Guard]] - Compromised position resulting from partial or failed escape attempts
 
-- [[Dogfight Position]] - Alternative recovery position when underhook is established during escape
+- [[Positions/Dogfight Position]] - Alternative recovery position when underhook is established during escape
 
-- [[Side Control]] - Worst-case outcome when escape fails and top player completes the pass
+- [[Positions/Side Control]] - Worst-case outcome when escape fails and top player completes the pass
 
-- [[Backstep from Leg Weave]] - Top player counter-technique that threatens during escape attempts
+- [[Transitions/Backstep from Leg Weave]] - Top player counter-technique that threatens during escape attempts
 
-- [[Complete Leg Weave Pass]] - Passing technique the escape aims to prevent
+- [[Transitions/Complete Leg Weave Pass]] - Passing technique the escape aims to prevent
 
-- [[Back Door Escape from Half Guard]] - Related defensive escape concept from similar pressure positions
+- [[Transitions/Back Door Escape from Half Guard]] - Related defensive escape concept from similar pressure positions
 
-- [[Lockdown]] - Alternative defensive strategy when half guard is recovered with leg entanglement
+- [[Positions/Half Guard/Lockdown]] - Alternative defensive strategy when half guard is recovered with leg entanglement
 
 
 </section>

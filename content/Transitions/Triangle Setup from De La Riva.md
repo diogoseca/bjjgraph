@@ -21,7 +21,7 @@ This setup is particularly effective because DLR already establishes the diagona
 
 The strategic value of the triangle threat from DLR extends beyond the submission itself. Simply threatening the triangle forces the opponent to keep their elbows tight and posture high, which paradoxically opens them to the very sweeps and back takes that DLR specializes in. This creates a layered dilemma structure where defending the triangle exposes sweep vulnerability, making the triangle a force multiplier for the entire DLR attack system even when it is not successfully completed.
 
-**From Position**: [[De La Riva Guard]] (Bottom)
+**From Position**: [[Positions/De La Riva Guard]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ The strategic value of the triangle threat from DLR extends beyond the submissio
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Control]] | 45% |
-| Failure | [[De La Riva Guard]] | 35% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Triangle Control]] | 45% |
+| Failure | [[Positions/De La Riva Guard]] | 35% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Triangle Setup from De La Riva integrates into the broader DLR attack system
 ## Related Techniques
 
 
-- [[De La Riva Guard]] - Starting position where the technique is initiated using DLR hooks and grips
+- [[Positions/De La Riva Guard]] - Starting position where the technique is initiated using DLR hooks and grips
 
-- [[Triangle Control]] - Target control position reached on successful triangle lock from DLR
+- [[Positions/Triangle Control]] - Target control position reached on successful triangle lock from DLR
 
-- [[Open Guard]] - Fallback position when triangle attempt is countered and DLR structure is disrupted
+- [[Positions/Open Guard]] - Fallback position when triangle attempt is countered and DLR structure is disrupted
 
-- [[Berimbolo Entry]] - Complementary DLR attack that chains with triangle threat to create multi-directional dilemmas
+- [[Transitions/Berimbolo Entry]] - Complementary DLR attack that chains with triangle threat to create multi-directional dilemmas
 
-- [[Single Leg X Entry]] - Alternative DLR transition when triangle is defended and opponent withdraws to standing posture
+- [[Transitions/Single Leg X Entry]] - Alternative DLR transition when triangle is defended and opponent withdraws to standing posture
 
-- [[Triangle Choke]] - Primary submission follow-up from the triangle control position this setup creates
+- [[Transitions/Triangle Choke]] - Primary submission follow-up from the triangle control position this setup creates
 
-- [[Kiss of the Dragon from RDLR]] - Related inversion-based back take from the DLR guard family sharing similar angular mechanics
+- [[Transitions/Kiss of the Dragon from RDLR]] - Related inversion-based back take from the DLR guard family sharing similar angular mechanics
 
-- [[Triangle from Open Guard]] - Similar triangle entry technique from a less structured open guard starting point
+- [[Submissions/Triangle from Open Guard]] - Similar triangle entry technique from a less structured open guard starting point
 
-- [[Collar Sleeve Guard]] - Related open guard system with strong triangle setup options sharing grip principles
+- [[Positions/Collar Sleeve Guard]] - Related open guard system with strong triangle setup options sharing grip principles
 
-- [[Omoplata from Lasso]] - Related submission attack using similar hip rotation mechanics from a complementary guard position
+- [[Transitions/Omoplata from Lasso]] - Related submission attack using similar hip rotation mechanics from a complementary guard position
 
 
 </section>

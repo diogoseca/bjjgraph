@@ -180,7 +180,7 @@ description: "Execute the Z-Guard sweep as the bottom player. Step-by-step guide
 
 As the attacker executing the Sweep from Z-Guard, your objective is to convert the defensive Z-Guard structure into an offensive sweeping platform that puts you on top in mount. The technique requires coordinating three simultaneous actions: extending the knee shield into the opponent's shoulder to displace their weight, pulling with the underhook to control their upper body trajectory, and driving your hips upward and laterally to complete the off-balancing. Success depends on reading the opponent's weight distribution and timing the sweep when their pressure is committed forward into your knee shield, transforming their own force into the energy that drives the sweep. The sweep is most effective as part of a systematic approach where you threaten multiple attacks from Z-Guard, forcing the opponent into predictable defensive patterns that open sweeping windows.
 
-**From Position**: [[Z-Guard]] (Bottom)
+**From Position**: [[Positions/Z-Guard]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ As the attacker executing the Sweep from Z-Guard, your objective is to convert t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 44% |
-| Failure | [[Z-Guard]] | 34% |
-| Counter | [[Side Control]] | 22% |
+| Success | [[Positions/Mount]] | 44% |
+| Failure | [[Positions/Z-Guard]] | 34% |
+| Counter | [[Positions/Side Control]] | 22% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the Sweep from Z-Guard, your objective is to convert t
 
 ## Opponent Counters
 
-- **Opponent widens base and drops hips low to resist lateral sweeping force** (Effectiveness: High) - Your Response: Switch to hip heist variation by first hip escaping to create sharper angle, or abandon sweep and transition to deep half guard entry using their lowered hips as an invitation to dive underneath → Leads to [[Z-Guard]]
-- **Opponent drives aggressive crossface to flatten you before sweep can develop** (Effectiveness: High) - Your Response: Use your far hand to frame against their crossface shoulder and maintain your angle. If flattened, transition to lockdown or deep half entry rather than fighting for the sweep from a compromised position → Leads to [[Side Control]]
-- **Opponent strips underhook and establishes whizzer or crossface control** (Effectiveness: Medium) - Your Response: Immediately switch to collar drag variation if in gi, or re-pummel for the underhook using your knee shield frame to create space. Consider transitioning to a different sweep that does not require the underhook → Leads to [[Z-Guard]]
-- **Opponent backsteps around knee shield to avoid sweep direction entirely** (Effectiveness: Medium) - Your Response: Follow their backstep rotation with a back take attempt, using your underhook to climb up their back as they circle. Their backstep actually creates the angle needed for back exposure if you react quickly → Leads to [[Z-Guard]]
+- **Opponent widens base and drops hips low to resist lateral sweeping force** (Effectiveness: High) - Your Response: Switch to hip heist variation by first hip escaping to create sharper angle, or abandon sweep and transition to deep half guard entry using their lowered hips as an invitation to dive underneath → Leads to [[Positions/Z-Guard]]
+- **Opponent drives aggressive crossface to flatten you before sweep can develop** (Effectiveness: High) - Your Response: Use your far hand to frame against their crossface shoulder and maintain your angle. If flattened, transition to lockdown or deep half entry rather than fighting for the sweep from a compromised position → Leads to [[Positions/Side Control]]
+- **Opponent strips underhook and establishes whizzer or crossface control** (Effectiveness: Medium) - Your Response: Immediately switch to collar drag variation if in gi, or re-pummel for the underhook using your knee shield frame to create space. Consider transitioning to a different sweep that does not require the underhook → Leads to [[Positions/Z-Guard]]
+- **Opponent backsteps around knee shield to avoid sweep direction entirely** (Effectiveness: Medium) - Your Response: Follow their backstep rotation with a back take attempt, using your underhook to climb up their back as they circle. Their backstep actually creates the angle needed for back exposure if you react quickly → Leads to [[Positions/Z-Guard]]
 
 
 </section>

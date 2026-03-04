@@ -19,7 +19,7 @@ Guard Recovery from Triangle Control is a defensive transition where the top pla
 
 This technique occupies a unique position in the guard recovery taxonomy because the practitioner is extracting from an active submission threat rather than simply reinserting legs or recomposing guard. The urgency imposed by the choke creates a tension between speed and precision that distinguishes this recovery from all others. Rushing triggers the bottom player's squeeze reflex and typically worsens the position, while excessive patience allows the choke to deepen. The recovery path runs through a narrow corridor of correct posture, deliberate rotation, and incremental arm extraction that must be executed under duress. Understanding the biomechanics of the triangle choke itself—particularly how the trapped shoulder compresses the carotid artery—is essential for identifying the specific movements that dismantle the choking mechanism rather than merely resisting it.
 
-**From Position**: [[Triangle Control]] (Top)
+**From Position**: [[Positions/Triangle Control]] (Top)
 **Success Rate**: 40%
 
 </section>
@@ -30,10 +30,10 @@ This technique occupies a unique position in the guard recovery taxonomy because
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 40% |
-| Failure | [[Triangle Control]] | 35% |
-| Counter | [[Armbar Control]] | 15% |
-| Counter | [[Omoplata Control]] | 10% |
+| Success | [[Positions/Closed Guard]] | 40% |
+| Failure | [[Positions/Triangle Control]] | 35% |
+| Counter | [[Positions/Armbar Control]] | 15% |
+| Counter | [[Positions/Omoplata Control]] | 10% |
 
 
 </section>
@@ -192,25 +192,25 @@ Guard recovery from triangle control integrates directly into the defensive side
 ## Related Techniques
 
 
-- [[Triangle Control]] - Source position - the triangle entanglement from which this recovery works to extract the trapped player
+- [[Positions/Triangle Control]] - Source position - the triangle entanglement from which this recovery works to extract the trapped player
 
-- [[Closed Guard]] - Primary recovery target - neutral guard position where the top player can reset and work to pass
+- [[Positions/Closed Guard]] - Primary recovery target - neutral guard position where the top player can reset and work to pass
 
-- [[Triangle Escape]] - Related escape technique used during partial triangle escape before full guard recovery
+- [[Transitions/Triangle Escape]] - Related escape technique used during partial triangle escape before full guard recovery
 
-- [[Open Guard]] - Alternative recovery outcome when full guard closure is not achieved but triangle is escaped
+- [[Positions/Open Guard]] - Alternative recovery outcome when full guard closure is not achieved but triangle is escaped
 
-- [[Half Guard]] - Alternative recovery position if the top player partially extracts but gets caught in half guard during escape
+- [[Positions/Half Guard]] - Alternative recovery position if the top player partially extracts but gets caught in half guard during escape
 
-- [[Combat Base]] - Desirable post-recovery stance if the top player can disengage from guard entirely after triangle escape
+- [[Positions/Combat Base]] - Desirable post-recovery stance if the top player can disengage from guard entirely after triangle escape
 
-- [[Armbar Control]] - Dangerous counter-transition threat from triangle control when the bottom player transitions to armbar during escape
+- [[Positions/Armbar Control]] - Dangerous counter-transition threat from triangle control when the bottom player transitions to armbar during escape
 
-- [[Omoplata Control]] - Alternative submission threat from triangle control that occurs when the bottom player pivots during recovery
+- [[Positions/Omoplata Control]] - Alternative submission threat from triangle control that occurs when the bottom player pivots during recovery
 
-- [[Mount]] - Position risk if bottom player converts failed triangle into a sweep during recovery attempt
+- [[Positions/Mount]] - Position risk if bottom player converts failed triangle into a sweep during recovery attempt
 
-- [[Stack Defense]] - Related defensive technique using forward pressure that shares mechanics with the stacking phase of this recovery
+- [[Transitions/Stack Defense]] - Related defensive technique using forward pressure that shares mechanics with the stacking phase of this recovery
 
 
 </section>

@@ -162,7 +162,7 @@ description: "Complete guide to defending against the New York pass from rubber 
 
 The defender in the New York Pass to Side Control is the bottom player maintaining New York rubber guard control while the top player attempts to escape and pass to side control. The defender's primary objective is to maintain the overhook and shin control that define the New York position, preventing posture recovery and arm extraction. Effective defense requires proactive grip maintenance, early recognition of passing attempts, and the ability to transition between offensive attacks that punish escape attempts. The defender holds a structural advantage since maintaining control requires less energy than escaping it, but must remain active because static defense eventually allows the top player to methodically dismantle each control point. The best defense from this position is a relentless offense that forces the top player to abandon their passing attempts and return to defending against submissions and sweeps.
 
-**Opponent's Starting Position**: [[New York]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/New York]] (Top)
 
 </section>
 
@@ -201,28 +201,28 @@ The defender in the New York Pass to Side Control is the bottom player maintaini
 ### 1. Re-grip and pull shin control deeper while engaging hip flexors to increase downward pressure on their back
 
 - **When to use**: As soon as you feel the top player's free hand attacking your shin grip or their posture beginning to straighten
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: Top player's posture collapses back to broken position and you maintain full New York control with the option to advance to offensive transitions
 - **Risk**: If you over-focus on the grip fight, you may miss the opportunity to transition to a higher-percentage attack
 
 ### 2. Shoot leg over their shoulder for triangle setup as their arm begins extracting from the overhook
 
 - **When to use**: When the top player's arm is partially extracted and positioned inside your guard creating the triangle angle
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: Triangle is locked or the threat forces them to abandon the arm extraction and reset, returning to full New York control
 - **Risk**: If the triangle attempt fails, the top player may use the space created by your leg movement to complete the pass
 
 ### 3. Time a hip bump sweep as the top player shifts their weight backward during posture recovery
 
 - **When to use**: When you feel the top player's weight shifting backward or upward during their posture recovery attempt
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Top player is swept to their back and you achieve a dominant top position, often landing in mount or side control
 - **Risk**: If the top player maintains their base, the hip bump wastes energy and may create space they can exploit to accelerate the pass
 
 ### 4. Transition to Invisible Collar by swimming free hand behind their head during their grip fighting distraction
 
 - **When to use**: When the top player commits both their attention and free hand to breaking your shin grip
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: Advance to deeper rubber guard control with additional choke threats, making their escape significantly more difficult
 - **Risk**: Releasing your shin grip to swim the hand may allow momentary posture recovery if the transition is not fast enough
 
@@ -234,11 +234,11 @@ The defender in the New York Pass to Side Control is the bottom player maintaini
 
 ## Best-Case Outcomes for Defender
 
-### → [[New York]]
+### → [[Positions/Rubber Guard/New York]]
 
 Maintain active shin grip and overhook pressure throughout the escape attempt. Re-grip immediately when you feel the shin being stripped. Deepen the overhook by driving your shoulder into their armpit whenever they attempt arm extraction. Cycle through offensive transitions to force them back into pure defense.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a hip bump sweep during the posture recovery phase when the top player's weight shifts backward. The passing attempt disrupts their base stability and creates the weight shift needed for the sweep. Alternatively, transition to an omoplata attempt that rolls them past your guard into an inferior position.
 

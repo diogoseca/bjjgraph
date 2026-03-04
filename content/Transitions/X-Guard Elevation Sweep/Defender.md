@@ -158,7 +158,7 @@ The defensive strategy centers on denying the attacker the conditions they need:
 
 The most effective defensive approach treats grasshopper guard as a time-limited threat. The inverted player cannot sustain their position indefinitely due to extreme core demands. Patient base management combined with active hook denial forces the attacker to either abandon the elevation attempt or commit to a compromised sweep that lacks the power to complete. Understanding when to disengage entirely versus when to pressure forward is critical, as forward pressure at the wrong moment feeds directly into the sweep mechanics.
 
-**Opponent's Starting Position**: [[Grasshopper Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ The most effective defensive approach treats grasshopper guard as a time-limited
 ### 1. Widen base and drop hips low immediately upon recognizing hook insertion attempt, removing vertical leverage by positioning your center of gravity below the attacker's hook platform
 
 - **When to use**: As soon as you feel the opponent's legs threading into X-Guard configuration beneath your hips, before they complete both hook placements
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: Attacker cannot generate sufficient upward force for the elevation, forcing them to abandon the sweep and transition to alternative attacks or reset to grasshopper guard
 - **Risk**: Lowered hips can expose your legs to Ashi Garami entries or Single Leg X-Guard transitions if the attacker reads your defensive posture and chains to leg entanglements
 
 ### 2. Step back explosively with the near leg to extract it from the knee hook while simultaneously breaking the controlling grip on your ankle or wrist
 
 - **When to use**: When the attacker has established one hook but has not yet loaded hips fully underneath your center of gravity - the earlier in the sequence, the more effective
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: Complete extraction from the X-Guard configuration resets the engagement to neutral standing versus grasshopper guard, denying the sweep entirely and forcing the attacker to re-initiate
 - **Risk**: If you step back without breaking the grip, the attacker can follow your retreat with inversion and reestablish contact, or transition to rolling kneebar entries on the retreating leg
 
 ### 3. Post hand firmly on the mat behind you as the elevation begins, creating a structural brace that arrests the backward toppling motion before it completes
 
 - **When to use**: When the elevation has already begun and you are partially lifted but have not yet lost balance completely - this is a late-stage emergency defense
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: Stops the sweep mid-execution and allows you to reset base, step around the attacker's hooks, or initiate a guard pass while they are committed to the failed elevation
 - **Risk**: Strong hand post can be broken by the attacker increasing their grip pull, and if the post collapses you fall with your arm extended behind you creating wrist or shoulder injury risk
 
 ### 4. Drive forward aggressively into a stack pass before hooks are fully set, using your weight to flatten the inverted guard player's shoulders and collapse their inverted structure
 
 - **When to use**: Only when the attacker is still in early grasshopper phase and has not yet threaded legs into X-Guard configuration - timing must be before hooks are loaded
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Collapses the grasshopper guard entirely, flattening the attacker and advancing to a passing position such as half guard top or side control
 - **Risk**: If hooks are already partially set, your forward pressure loads directly onto the attacker's platform and provides the momentum they need to complete the elevation sweep to mount
 
@@ -228,11 +228,11 @@ The most effective defensive approach treats grasshopper guard as a time-limited
 
 ## Best-Case Outcomes for Defender
 
-### → [[Grasshopper Guard]]
+### → [[Positions/Grasshopper Guard]]
 
 Deny the X-Guard hook insertion through base widening, leg extraction, or grip breaking before the attacker can load their hips underneath your center of gravity. Force the attacker to remain in unsustainable grasshopper guard without completing the transition to X-Guard, draining their energy while you maintain safe standing position. Patient circling and active leg movement prevent the attacker from threading hooks while their core fatigues.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the sweep partially succeeds but you manage to insert a knee during the transition, intercept the sweep arc by turning to your side and establishing half guard before the attacker can consolidate mount. This requires timing your hip turn during the fall to catch one of the attacker's legs between yours, converting what would have been a clean mount landing into a half guard recovery that gives you defensive options.
 

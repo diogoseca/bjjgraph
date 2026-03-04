@@ -22,7 +22,7 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Side Control]]
+**Starting Position**: [[Positions/Side Control]]
 **Success Rate**: 58%
 
 </section>
@@ -74,8 +74,8 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -242,14 +242,14 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 
 ## From Which Positions?
 
-- [[Side Control]]
-- [[North-South]]
-- [[Turtle]]
-- [[Kesa Gatame]]
-- [[Modified Mount]]
-- [[Half Guard]]
-- [[Scarf Hold Position]]
-- [[Combat Base]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
+- [[Positions/Turtle]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Mount/Modified Mount]]
+- [[Positions/Half Guard]]
+- [[Positions/Side Control/Scarf Hold Position]]
+- [[Positions/Combat Base]]
 
 
 </section>
@@ -258,15 +258,15 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 
 ## Related Submissions
 
-- [[Cross Collar Choke]]
-- [[Bow and Arrow Choke]]
-- [[Loop Choke]]
-- [[Ezekiel Choke]]
-- [[Clock Choke]]
-- [[Breadcutter Choke]]
-- [[North-South Choke]]
-- [[Rear Naked Choke]]
-- [[Arm Triangle]]
+- [[Transitions/Cross Collar Choke]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Submissions/Loop Choke]]
+- [[Submissions/Ezekiel Choke]]
+- [[Transitions/Clock Choke]]
+- [[Transitions/Breadcutter Choke]]
+- [[Transitions/North-South Choke]]
+- [[Transitions/Rear Naked Choke]]
+- [[Transitions/Arm Triangle]]
 
 
 </section>
@@ -275,18 +275,18 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 
 ## Additional Related Content
 
-- [[Side Control]] - Primary attacking position for establishing initial grips
-- [[Turtle]] - High-percentage position for baseball bat setup with easy collar access
-- [[North-South]] - Alternative attacking position with different finishing angle
-- [[Kesa Gatame]] - Related scarf hold position that can transition to baseball bat grips
-- [[Side Control to North-South]] - Common transition that creates baseball bat opportunities
-- [[North-South Choke]] - Related collar choke from similar position with different mechanics
-- [[Bow and Arrow Choke]] - Natural transition if baseball bat grips are secured but angle needs adjustment
-- [[Cross Collar Choke]] - Related collar submission using similar grip principles
-- [[Back Control]] - Baseball bat grips can facilitate back take if choke angle is not optimal
-- [[Clock Choke]] - Alternative collar choke from turtle top position
-- [[Mount]] - Position advancement option when opponent turns into the choke
-- [[Scarf Hold Position]] - Transitional position that can lead to baseball bat setup
+- [[Positions/Side Control]] - Primary attacking position for establishing initial grips
+- [[Positions/Turtle]] - High-percentage position for baseball bat setup with easy collar access
+- [[Positions/North-South]] - Alternative attacking position with different finishing angle
+- [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position that can transition to baseball bat grips
+- [[Transitions/Side Control to North-South]] - Common transition that creates baseball bat opportunities
+- [[Transitions/North-South Choke]] - Related collar choke from similar position with different mechanics
+- [[Transitions/Bow and Arrow Choke]] - Natural transition if baseball bat grips are secured but angle needs adjustment
+- [[Transitions/Cross Collar Choke]] - Related collar submission using similar grip principles
+- [[Positions/Back Control]] - Baseball bat grips can facilitate back take if choke angle is not optimal
+- [[Transitions/Clock Choke]] - Alternative collar choke from turtle top position
+- [[Positions/Mount]] - Position advancement option when opponent turns into the choke
+- [[Positions/Side Control/Scarf Hold Position]] - Transitional position that can lead to baseball bat setup
 
 
 </section>

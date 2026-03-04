@@ -146,7 +146,7 @@ description: "Defend the knee slice pass from seated guard in BJJ. Recognition c
 
 Defending the knee slice from seated guard requires early recognition and proactive frame management. As the bottom player in seated guard, your primary defensive advantage is distance. Once the passer closes that gap and lands their knee across your thigh, defensive options narrow significantly. Effective defense begins during the grip-fighting phase by preventing the passer from establishing the collar-and-pants combination that enables the slice entry. If grips are lost, the knee shield becomes your primary physical barrier against the slicing knee. Understanding the attacker's timing cues, particularly their weight shift to the lead leg before driving, provides the split-second window needed to deploy frames or initiate counter-attacks before the knee lands.
 
-**Opponent's Starting Position**: [[Seated Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Seated Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the knee slice from seated guard requires early recognition and proact
 ### 1. Insert knee shield across the passer's hip or chest before their knee lands across your thigh, creating a physical frame that blocks the slice angle
 
 - **When to use**: The moment you feel the passer close distance and begin to drive forward, before the knee reaches your thigh line
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: Passer's knee slice is blocked by the frame, forcing them to reset their approach or switch to an alternative pass
 - **Risk**: If the knee shield is deployed too late, the passer can smash through the shield with committed forward pressure
 
 ### 2. Pummel for the underhook on the trapped-leg side while hip escaping away to create sweep angle from half guard
 
 - **When to use**: When the passer's knee has already crossed your thigh but their crossface is not yet fully established
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish dominant underhook position in half guard with angle for sweeps, back takes, or dogfight entries
 - **Risk**: If the passer already has a strong crossface, the underhook attempt can expose your back to a back take
 
 ### 3. Execute a technical standup when you recognize the grip setup in its early phase, before the passer establishes full control
 
 - **When to use**: Early in the grip-fighting phase before the passer controls your collar and pants simultaneously
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: You reset to neutral standing position, completely eliminating the passing threat and forcing the passer to re-engage
 - **Risk**: Passer may snap you down into front headlock if your standup timing is late or posture is compromised
 
 ### 4. Insert a butterfly hook under the passer's thigh as they step inside and elevate to disrupt their base before the knee reaches the mat
 
 - **When to use**: When the passer steps their lead foot between your legs but before they commit their weight forward into the knee drop
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: Passer is elevated and off-balanced by the hook, forced to retract their entry and reset their passing approach
 - **Risk**: If the hook is too shallow or the passer drives through explosively, they can collapse the hook with forward pressure
 
@@ -217,11 +217,11 @@ Defending the knee slice from seated guard requires early recognition and proact
 
 ## Best-Case Outcomes for Defender
 
-### → [[Seated Guard]]
+### → [[Positions/Seated Guard]]
 
 Deploy early knee shield or execute technical standup before the passer commits their weight forward. Aggressive grip fighting to prevent the collar-pants setup is the highest-percentage path to retaining your guard position.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If the knee slice lands but the crossface is not established, immediately pummel for the underhook on the trapped-leg side and hip escape to create angle. Use the underhook to drive into the passer, establishing dogfight position from which you can complete the sweep to top.
 

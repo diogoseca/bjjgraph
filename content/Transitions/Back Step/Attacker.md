@@ -180,7 +180,7 @@ description: "How to execute Back Step in BJJ. Attacking perspective with setup,
 
 The Back Step is a fundamental leg entanglement escape and guard pass that creates immediate pressure passing opportunities when an opponent attempts to enter outside ashi-garami or other leg entanglement positions. By stepping the trapped leg backward over the opponent's body while maintaining heavy chest pressure, you simultaneously break their leg entanglement structure and establish dominant top position. This technique is essential in modern BJJ, particularly in no-gi competition where leg locks are prevalent. The back step exemplifies the principle of using aggressive forward movement to counter defensive guard retention, turning a potentially dangerous leg entanglement situation into a dominant passing position. When executed properly, the back step not only neutralizes the leg attack but also creates a direct path to side control or knee on belly, often catching opponents off-guard as they transition from offensive to defensive positioning.
 
-**From Position**: [[Outside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The Back Step is a fundamental leg entanglement escape and guard pass that creat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Outside Ashi-Garami]] | 25% |
-| Counter | [[Outside Ashi-Garami]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 25% |
+| Counter | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 10% |
 
 
 </section>
@@ -245,11 +245,11 @@ The Back Step is a fundamental leg entanglement escape and guard pass that creat
 
 ## Opponent Counters
 
-- **Opponent locks tight heel hook configuration before back step** (Effectiveness: High) - Your Response: Abandon back step attempt and focus on immediate heel hook defense by hiding your heel, turning your knee inward, and hand fighting to strip their grips before attempting any passing movements → Leads to [[Outside Ashi-Garami]]
-- **Opponent sits up and maintains upper body posture during entry** (Effectiveness: High) - Your Response: Increase chest pressure by lowering your level and driving forward harder. Consider alternative passes like knee slice or leg weave if they successfully maintain upright posture and strong leg control → Leads to [[Outside Ashi-Garami]]
-- **Opponent transitions to inside ashi or 50-50 as you clear their top leg** (Effectiveness: Medium) - Your Response: Recognize the position change immediately and adjust your passing strategy. In inside ashi, the back step is still viable but requires more careful execution. In 50-50, consider alternative escapes and passes specific to that entanglement → Leads to [[Outside Ashi-Garami]]
-- **Opponent creates strong far side frame to prevent shoulder pressure** (Effectiveness: Medium) - Your Response: Swim underneath their framing arm with your own arm, establishing an underhook on their far side before completing the back step. This removes their ability to frame and creates a more secure passing position → Leads to [[Outside Ashi-Garami]]
-- **Opponent recovers butterfly or closed guard as you pass** (Effectiveness: Low) - Your Response: This indicates insufficient pressure during the pass. Restart with more aggressive chest and shoulder pressure, and ensure you're blocking their hip movement with your own hip and knee positioning as you establish side control → Leads to [[Outside Ashi-Garami]]
+- **Opponent locks tight heel hook configuration before back step** (Effectiveness: High) - Your Response: Abandon back step attempt and focus on immediate heel hook defense by hiding your heel, turning your knee inward, and hand fighting to strip their grips before attempting any passing movements → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Opponent sits up and maintains upper body posture during entry** (Effectiveness: High) - Your Response: Increase chest pressure by lowering your level and driving forward harder. Consider alternative passes like knee slice or leg weave if they successfully maintain upright posture and strong leg control → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Opponent transitions to inside ashi or 50-50 as you clear their top leg** (Effectiveness: Medium) - Your Response: Recognize the position change immediately and adjust your passing strategy. In inside ashi, the back step is still viable but requires more careful execution. In 50-50, consider alternative escapes and passes specific to that entanglement → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Opponent creates strong far side frame to prevent shoulder pressure** (Effectiveness: Medium) - Your Response: Swim underneath their framing arm with your own arm, establishing an underhook on their far side before completing the back step. This removes their ability to frame and creates a more secure passing position → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Opponent recovers butterfly or closed guard as you pass** (Effectiveness: Low) - Your Response: This indicates insufficient pressure during the pass. Restart with more aggressive chest and shoulder pressure, and ensure you're blocking their hip movement with your own hip and knee positioning as you establish side control → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 
 </section>

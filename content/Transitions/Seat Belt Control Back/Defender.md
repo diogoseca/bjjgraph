@@ -158,7 +158,7 @@ Your defensive strategy centers on three priorities in sequence: first, prevent 
 
 The defender's primary advantage is that this transition requires the attacker to release their crucifix leg control to complete the back take. This release creates a brief but exploitable window where the attacker's lower body control is compromised. Timing your defensive explosion to coincide with this release maximizes your chance of recovering to half guard or forcing a scramble rather than conceding full back control.
 
-**Opponent's Starting Position**: [[Mounted Crucifix]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The defender's primary advantage is that this transition requires the attacker t
 ### 1. Tuck elbows tight and block over-arm threading by keeping your arm pressed against your neck and shoulder, denying the path across your chest
 
 - **When to use**: As soon as you feel the attacker's arm begin to reach over your shoulder - this is the earliest and most effective intervention point
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: Attacker cannot establish seat belt grip and must either attempt again or continue attacking from mounted crucifix, keeping you in the less dangerous starting position
 - **Risk**: If you focus too much on arm defense, you may neglect hip movement that could create escape opportunities during the disrupted transition
 
 ### 2. Bridge explosively and turn into the attacker during the moment they release crucifix leg control, aiming to face them and recover inside position
 
 - **When to use**: When you feel the attacker's legs releasing the crucifix entanglement and their weight shifting to one side for the hip slide
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You turn to face the attacker during their transition, recovering to half guard or closed guard rather than conceding back control
 - **Risk**: If your timing is off and the seat belt is already locked, turning into them may expose your neck to an immediate choke attempt
 
 ### 3. Frame against attacker's hip with your free arm to create a structural block preventing their hips from sliding behind yours
 
 - **When to use**: When the seat belt grip is established but the attacker has not yet completed the hip slide to your back
-- **Targets**: [[Mounted Crucifix]]
+- **Targets**: [[Positions/Mount/Mounted Crucifix]]
 - **If successful**: The hip frame prevents back take completion, stalling the attacker in an intermediate position where their crucifix is released but back control is not established
 - **Risk**: Attacker may use their knee to clear your framing arm, or tighten their seat belt to collapse your frame through grip compression
 
 ### 4. Immediately strip hooks by straightening legs and pushing feet away if attacker completes back position, focusing on bottom hook first
 
 - **When to use**: When back take has been completed and attacker is inserting hooks - immediate hook defense before they settle
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Removing hooks eliminates the attacker's hip control, allowing you to begin rotation escapes to recover guard despite the seat belt grip
 - **Risk**: Fighting hooks while ignoring the seat belt leaves your neck exposed to immediate rear naked choke attempts
 
@@ -228,11 +228,11 @@ The defender's primary advantage is that this transition requires the attacker t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mounted Crucifix]]
+### → [[Positions/Mount/Mounted Crucifix]]
 
 Block the seat belt grip establishment by keeping elbows tight and intercepting the over-arm. If the attacker cannot lock the seat belt, they remain in mounted crucifix where you have established defensive patterns. Time your arm defense with the moment their arm begins threading over your shoulder.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the moment when attacker releases crucifix leg control by bridging explosively and turning into them. Time your bridge to coincide with their leg release and hip shift. Drive your near-side knee between their legs as you turn to establish half guard entanglement before they can insert hooks from back control.
 

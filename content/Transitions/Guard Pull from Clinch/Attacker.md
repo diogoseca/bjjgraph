@@ -180,7 +180,7 @@ description: "Master the guard pull from clinch as the attacker. Step-by-step gr
 
 As the attacker executing the guard pull from clinch, your objective is to use your established grips to safely transition from standing to closed guard bottom, where you gain access to a complete offensive system of sweeps, submissions, and transitions. Success depends on grip security maintained throughout the descent, controlled hip placement that creates favorable angles, and immediate guard closure that denies your opponent any free passing opportunity during the transition. The guard pull is not a passive retreat to bottom position but an aggressive tactical choice to engage on your strongest terrain.
 
-**From Position**: [[Clinch]] (Bottom)
+**From Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the guard pull from clinch, your objective is to use y
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Clinch]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Clinch]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the guard pull from clinch, your objective is to use y
 
 ## Opponent Counters
 
-- **Opponent sprawls hips back and drives weight away as you begin sitting** (Effectiveness: High) - Your Response: If the sprawl is early, abort the pull by posting your foot and returning to standing. If mid-pull, accelerate your leg closure and use your collar grip to pull them forward over your center despite the sprawl. A strong collar grip makes pure sprawl defense insufficient. → Leads to [[Clinch]]
-- **Opponent drives a knee through the centerline during the transition before guard closure** (Effectiveness: High) - Your Response: Use your sleeve grip to stiff-arm their advancing knee while accelerating leg closure on the opposite side. If the knee gets through, transition immediately to half guard retention rather than fighting for closed guard, then work to recover full guard from the half guard position. → Leads to [[Open Guard]]
-- **Opponent strips your grips before you can complete the sit** (Effectiveness: Medium) - Your Response: Immediately re-establish contact with any available connection point — collar tie, overhook, two-on-one on remaining controlled arm. If both grips are stripped before you sit, abort the pull and return to standing clinch. Never sit to guard without at least one controlling grip. → Leads to [[Clinch]]
-- **Opponent circles laterally to take your back as you begin the descent** (Effectiveness: Medium) - Your Response: Follow their movement with your hips, turning to face them as you sit rather than allowing them behind you. Your sleeve grip should track their movement. If they achieve a significant angle, release the guard pull attempt and address the back exposure by turning in and re-engaging the clinch. → Leads to [[Clinch]]
+- **Opponent sprawls hips back and drives weight away as you begin sitting** (Effectiveness: High) - Your Response: If the sprawl is early, abort the pull by posting your foot and returning to standing. If mid-pull, accelerate your leg closure and use your collar grip to pull them forward over your center despite the sprawl. A strong collar grip makes pure sprawl defense insufficient. → Leads to [[Positions/Clinch]]
+- **Opponent drives a knee through the centerline during the transition before guard closure** (Effectiveness: High) - Your Response: Use your sleeve grip to stiff-arm their advancing knee while accelerating leg closure on the opposite side. If the knee gets through, transition immediately to half guard retention rather than fighting for closed guard, then work to recover full guard from the half guard position. → Leads to [[Positions/Open Guard]]
+- **Opponent strips your grips before you can complete the sit** (Effectiveness: Medium) - Your Response: Immediately re-establish contact with any available connection point — collar tie, overhook, two-on-one on remaining controlled arm. If both grips are stripped before you sit, abort the pull and return to standing clinch. Never sit to guard without at least one controlling grip. → Leads to [[Positions/Clinch]]
+- **Opponent circles laterally to take your back as you begin the descent** (Effectiveness: Medium) - Your Response: Follow their movement with your hips, turning to face them as you sit rather than allowing them behind you. Your sleeve grip should track their movement. If they achieve a significant angle, release the guard pull attempt and address the back exposure by turning in and re-engaging the clinch. → Leads to [[Positions/Clinch]]
 
 
 </section>

@@ -97,29 +97,29 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 ### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** (56% of attempts)
+- **[[Transitions/Ashi Garami Escape]]** (56% of attempts)
 
-- **[[Standing up in Base]]** (1% of attempts)
+- **[[Transitions/Standing up in Base]]** (1% of attempts)
 
-- **[[Guard Recovery from Leg Entanglement]]** (7% of attempts)
+- **[[Transitions/Guard Recovery from Leg Entanglement]]** (7% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (8% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (8% of attempts)
 
-- **[[Counter-entangle to 50-50 Guard]]** (10% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard]]** (10% of attempts)
 
-- **[[Inversion Escape]]** (11% of attempts)
+- **[[Transitions/Inversion Escape]]** (11% of attempts)
 
-- **[[Leg Extraction to Guard]]** (6% of attempts)
+- **[[Transitions/Leg Extraction to Guard]]** (6% of attempts)
 
-- **[[Boot Scoot Escape from Saddle]]** (0% of attempts)
+- **[[Transitions/Boot Scoot Escape from Saddle]]** (0% of attempts)
 
-- **[[Fight to Inside Ashi from Saddle]]** (0% of attempts)
+- **[[Transitions/Fight to Inside Ashi from Saddle]]** (0% of attempts)
 
-- **[[Forward Roll from Saddle]]** (0% of attempts)
+- **[[Transitions/Forward Roll from Saddle]]** (0% of attempts)
 
-- **[[Leg Pummeling from Saddle]]** (0% of attempts)
+- **[[Transitions/Leg Pummeling from Saddle]]** (0% of attempts)
 
-- **[[Sweep from Saddle]]** (1% of attempts)
+- **[[Transitions/Sweep from Saddle]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -176,31 +176,31 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 ### Available Transitions
 
 
-- **[[Heel Hook]]** (40% of attempts)
+- **[[Transitions/Heel Hook]]** (40% of attempts)
 
-- **[[Outside Heel Hook]]** (5% of attempts)
+- **[[Transitions/Outside Heel Hook]]** (5% of attempts)
 
-- **[[Straight Ankle Lock Entry]]** (10% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry]]** (10% of attempts)
 
-- **[[Toe Hold]]** (9% of attempts)
+- **[[Transitions/Toe Hold]]** (9% of attempts)
 
-- **[[Kneebar]]** (3% of attempts)
+- **[[Transitions/Kneebar]]** (3% of attempts)
 
-- **[[Back Take from Ashi]]** (10% of attempts)
+- **[[Transitions/Back Take from Ashi]]** (10% of attempts)
 
-- **[[Cross Ashi Transition]]** (6% of attempts)
+- **[[Transitions/Cross Ashi Transition]]** (6% of attempts)
 
-- **[[Backside 50-50 Entry from Ashi]]** (5% of attempts)
+- **[[Transitions/Backside 50-50 Entry from Ashi]]** (5% of attempts)
 
-- **[[Calf Slicer]]** (3% of attempts)
+- **[[Transitions/Calf Slicer]]** (3% of attempts)
 
-- **[[Estima Lock]]** (2% of attempts)
+- **[[Positions/Estima Lock]]** (2% of attempts)
 
-- **[[Fallback to Inside Ashi-Garami]]** (3% of attempts)
+- **[[Transitions/Fallback to Inside Ashi-Garami]]** (3% of attempts)
 
-- **[[Heel Hook from Saddle]]** (0% of attempts)
+- **[[Transitions/Heel Hook from Saddle]]** (0% of attempts)
 
-- **[[Saddle Fallback to Inside Ashi]]** (4% of attempts)
+- **[[Transitions/Saddle Fallback to Inside Ashi]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -235,21 +235,21 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 ## Related Positions
 
 
-- **[[Honey Hole]]** - Alternative name for the same position in 10th Planet system
+- **[[Positions/Ashi Garami/Honey Hole]]** - Alternative name for the same position in 10th Planet system
 
-- **[[Inside Ashi-Garami]]** - Common entry position and fallback when saddle is lost
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Common entry position and fallback when saddle is lost
 
-- **[[Outside Ashi-Garami]]** - Primary entry pathway through outside step and backside exposure
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Primary entry pathway through outside step and backside exposure
 
-- **[[50-50 Guard]]** - Bilateral leg entanglement with transition opportunities to saddle
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Bilateral leg entanglement with transition opportunities to saddle
 
-- **[[Single Leg X-Guard]]** - Entry position when opponent is standing or posting
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Entry position when opponent is standing or posting
 
-- **[[Ashi Garami]]** - Parent category of leg entanglement positions
+- **[[Positions/Ashi Garami]]** - Parent category of leg entanglement positions
 
-- **[[Cross Ashi-Garami]]** - Alternative entanglement with different mechanical properties
+- **[[Positions/Ashi Garami/Cross Ashi-Garami]]** - Alternative entanglement with different mechanical properties
 
-- **[[Backside 50-50]]** - Related entanglement offering outside heel hook opportunities
+- **[[Positions/Ashi Garami/Backside 50-50]]** - Related entanglement offering outside heel hook opportunities
 
 
 </section>

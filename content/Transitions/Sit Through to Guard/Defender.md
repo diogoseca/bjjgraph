@@ -154,7 +154,7 @@ description: "How to defend against Sit Through to Guard in BJJ. Recognition cue
 
 Defending the Sit Through to Guard requires the turtle top player to recognize early movement cues and prevent the bottom player from completing their hip rotation into guard recovery. The sit through is one of the most common turtle escapes, and allowing it to succeed means surrendering your attacking position and ending up inside your opponent's guard where they hold offensive advantage. Effective defense begins with proper weight distribution that denies the forward commitment the bottom player needs to initiate, combined with grip control that prevents the framing arm from creating separation. The defender must balance maintaining offensive pressure on the turtle with staying mobile enough to follow lateral movement, avoiding the common trap of overcommitting weight that actually enables the escape. Understanding the mechanical requirements of the sit through allows the top player to systematically deny each component: removing posting space, controlling the far arm, and maintaining hip-to-hip connection that prevents the rotation from completing.
 
-**Opponent's Starting Position**: [[Turtle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the Sit Through to Guard requires the turtle top player to recognize e
 ### 1. Drive chest pressure forward and sprawl hips back to flatten the posting arm
 
 - **When to use**: When you detect the posting arm being planted and the near knee lifting off the mat
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Bottom player's posting arm collapses under your pressure, aborting the sit through and returning them to turtle where you maintain attacking position
 - **Risk**: If you overcommit forward, the bottom player can redirect your momentum into a granby roll escape
 
 ### 2. Secure far-side underhook and drive shoulder into their back to prevent framing
 
 - **When to use**: Proactively before the sit through is initiated, or immediately when you feel the far arm beginning to frame
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: The underhook eliminates the framing arm entirely, making the sit through mechanically impossible and opening your own back take or flatten attacks
 - **Risk**: Reaching for the underhook momentarily loosens your chest pressure, which could allow a quick granby roll
 
 ### 3. Follow the rotation maintaining chest-to-back contact and circle to re-establish back position
 
 - **When to use**: When the sit through has already been initiated and the leg is mid-thread, making prevention too late
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You follow their movement, prevent guard establishment, and end up with back control or at minimum re-establish turtle top position
 - **Risk**: If you follow too slowly, they complete the guard recovery; if you follow too aggressively, they may use your momentum for a sweep
 
 ### 4. Transition to front headlock by circling toward their head as they rotate
 
 - **When to use**: When the bottom player has committed to the rotation and their head becomes accessible during the turning movement
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You establish front headlock control and can threaten guillotine, anaconda, or darce choke submissions from the new position
 - **Risk**: If their chin is well-tucked, the front headlock attempt may fail and they complete the guard recovery during your transition
 
@@ -226,11 +226,11 @@ Defending the Sit Through to Guard requires the turtle top player to recognize e
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Prevent the sit through entirely by maintaining balanced pressure, controlling the far-side arm with an underhook, and collapsing the posting arm when you detect the setup. Drive shoulder pressure into their back while keeping hips mobile to follow any lateral movement attempts.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 If the sit through is initiated, follow their rotation by maintaining chest-to-back connection and circling with them. As they rotate, insert your near-side hook before they can face you completely. Use the momentum of their movement to accelerate your own back take by threading your hooks during the transition window.
 

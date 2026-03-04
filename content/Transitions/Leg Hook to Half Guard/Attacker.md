@@ -180,7 +180,7 @@ description: "Learn to execute the Leg Hook to Half Guard consolidation from top
 
 As the top player executing this consolidation, your objective is to transition from the transient leg hook control to the more stable half guard top position without sacrificing positional advantage. The leg hook is a powerful passing tool but becomes a liability when contested—the bottom player's active resistance can transform your control point into a sweep vulnerability. By deliberately consolidating to half guard top, you preserve your dominant position while resetting the passing sequence from a proven platform. The critical challenge is maintaining continuous pressure and control during the leg repositioning phase, as any gap creates opportunities for the bottom player to disrupt, reverse, or recover guard.
 
-**From Position**: [[Leg Hook]] (Top)
+**From Position**: [[Positions/Leg Hook]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the top player executing this consolidation, your objective is to transition 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Leg Hook]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Leg Hook]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the top player executing this consolidation, your objective is to transition 
 
 ## Opponent Counters
 
-- **Bottom player fights aggressively for underhook during leg repositioning** (Effectiveness: High) - Your Response: Immediately apply heavy shoulder pressure through the crossface and use a whizzer to neutralize the underhook. If they win the underhook, switch to overhook control and drive your weight across to prevent them from establishing the offensive angle. → Leads to [[Leg Hook]]
-- **Bottom player attempts deep half guard entry during weight transfer** (Effectiveness: High) - Your Response: Drive hips forward and sprawl weight down to prevent them from getting underneath you. Use far hip control grip to stall their hip rotation. If they begin the entry, backstep immediately to prevent full deep half establishment and re-address from a standing position. → Leads to [[Half Guard]]
-- **Bottom player inserts knee shield during the consolidation gap** (Effectiveness: Medium) - Your Response: Keep hips driving forward throughout the transition to prevent space for knee insertion. If the shield gets established, treat it as a half guard top variation and apply appropriate passing strategy—smash pass or over-under technique to collapse the shield before continuing. → Leads to [[Leg Hook]]
-- **Bottom player uses the transition momentum to attempt an old school sweep** (Effectiveness: Medium) - Your Response: Maintain heavy chest pressure and widen your posted foot for base. The sweep relies on catching you light during the transition—keeping your weight low and distributed prevents the necessary elevation. Drive your crossface deeper to flatten them and remove the sweeping angle. → Leads to [[Half Guard]]
+- **Bottom player fights aggressively for underhook during leg repositioning** (Effectiveness: High) - Your Response: Immediately apply heavy shoulder pressure through the crossface and use a whizzer to neutralize the underhook. If they win the underhook, switch to overhook control and drive your weight across to prevent them from establishing the offensive angle. → Leads to [[Positions/Leg Hook]]
+- **Bottom player attempts deep half guard entry during weight transfer** (Effectiveness: High) - Your Response: Drive hips forward and sprawl weight down to prevent them from getting underneath you. Use far hip control grip to stall their hip rotation. If they begin the entry, backstep immediately to prevent full deep half establishment and re-address from a standing position. → Leads to [[Positions/Half Guard]]
+- **Bottom player inserts knee shield during the consolidation gap** (Effectiveness: Medium) - Your Response: Keep hips driving forward throughout the transition to prevent space for knee insertion. If the shield gets established, treat it as a half guard top variation and apply appropriate passing strategy—smash pass or over-under technique to collapse the shield before continuing. → Leads to [[Positions/Leg Hook]]
+- **Bottom player uses the transition momentum to attempt an old school sweep** (Effectiveness: Medium) - Your Response: Maintain heavy chest pressure and widen your posted foot for base. The sweep relies on catching you light during the transition—keeping your weight low and distributed prevents the necessary elevation. Drive your crossface deeper to flatten them and remove the sweeping angle. → Leads to [[Positions/Half Guard]]
 
 
 </section>

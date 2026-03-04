@@ -21,7 +21,7 @@ Strategically, this sweep represents the highest-reward option from grasshopper 
 
 The sweep integrates into the broader grasshopper guard offensive system as the primary direct sweep threat. When the opponent recognizes the elevation setup and widens their base or drops their hips, this reaction opens pathways to leg entanglements via Ashi Garami entries, Single Leg X-Guard transitions, or rolling kneebar attacks. The threat of being swept to mount forces defensive postures that compromise the opponent's ability to pass, creating the dilemma structure that makes grasshopper guard viable despite its high energy cost.
 
-**From Position**: [[Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The sweep integrates into the broader grasshopper guard offensive system as the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 65% |
-| Failure | [[Grasshopper Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount]] | 65% |
+| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -191,25 +191,25 @@ The X-Guard Elevation Sweep occupies a central role within the grasshopper guard
 ## Related Techniques
 
 
-- [[Grasshopper Guard]] - Starting position - inverted guard from which sweep is initiated
+- [[Positions/Grasshopper Guard]] - Starting position - inverted guard from which sweep is initiated
 
-- [[X-Guard]] - Hook configuration used during the sweep mechanics
+- [[Positions/X-Guard]] - Hook configuration used during the sweep mechanics
 
-- [[Mount]] - Target position on successful sweep completion
+- [[Positions/Mount]] - Target position on successful sweep completion
 
-- [[Grasshopper Sweep]] - Alternative sweep from same starting position
+- [[Transitions/Grasshopper Sweep]] - Alternative sweep from same starting position
 
-- [[Single Leg X Transition]] - Chain option when opponent widens base to defend elevation
+- [[Transitions/Single Leg X Transition]] - Chain option when opponent widens base to defend elevation
 
-- [[Elevation Sweep to Mount]] - Related elevation sweep from Reverse X-Guard with similar mechanics
+- [[Transitions/Elevation Sweep to Mount]] - Related elevation sweep from Reverse X-Guard with similar mechanics
 
-- [[Kneebar from Grasshopper]] - Alternative leg attack from grasshopper when sweep is defended
+- [[Transitions/Kneebar from Grasshopper]] - Alternative leg attack from grasshopper when sweep is defended
 
-- [[Ashi Garami]] - Leg entanglement destination when opponent defends by lowering hips
+- [[Positions/Ashi Garami]] - Leg entanglement destination when opponent defends by lowering hips
 
-- [[Armbar from Mount]] - Follow-up submission from achieved mount position
+- [[Submissions/Armbar from Mount]] - Follow-up submission from achieved mount position
 
-- [[Consolidate Mount]] - Control transition after landing in mount from the sweep
+- [[Transitions/Consolidate Mount]] - Control transition after landing in mount from the sweep
 
 
 </section>

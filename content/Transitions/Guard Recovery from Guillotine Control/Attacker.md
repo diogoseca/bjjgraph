@@ -180,7 +180,7 @@ description: "Learn to recover guard from guillotine control as the bottom playe
 
 As the bottom player releasing or losing guillotine control, your primary objective is to smoothly transition from head control into a functional open guard before the opponent capitalizes on the grip change to advance position. The critical challenge is that releasing the guillotine frees both your arms from head control but simultaneously removes the primary mechanism keeping the opponent's posture broken. You must immediately redirect your hands from choking grips into defensive frames and offensive guard grips while your legs work to reestablish hooks, feet-on-hips, or collar-sleeve distance management. The transition window is narrow—hesitation after releasing the guillotine invites the opponent to posture up and initiate passing sequences that lead to side control.
 
-**From Position**: [[Guillotine Control]] (Bottom)
+**From Position**: [[Positions/Guillotine Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player releasing or losing guillotine control, your primary object
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 45% |
-| Failure | [[Guillotine Control]] | 35% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Open Guard]] | 45% |
+| Failure | [[Positions/Guillotine Control]] | 35% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the bottom player releasing or losing guillotine control, your primary object
 
 ## Opponent Counters
 
-- **Opponent postures explosively the moment they feel the guillotine release, creating maximum distance and establishing passing grips on your legs** (Effectiveness: High) - Your Response: Chase with your feet on hips and maintain at least one collar or sleeve grip during the posture break to prevent free disengagement, immediately transitioning to long-range open guard → Leads to [[Guillotine Control]]
-- **Opponent drives forward with heavy shoulder pressure to pass directly to side control during the grip transition window** (Effectiveness: High) - Your Response: Use your feet-on-hips barrier to absorb the drive and redirect laterally with hip escape, converting the forward pressure into passing energy you can deflect past your centerline → Leads to [[Side Control]]
-- **Opponent strips your initial frames by swimming their arms under and establishing double underhooks for a stack pass** (Effectiveness: Medium) - Your Response: Immediately switch to butterfly hooks and overhook control, using the double underhook entry to set up butterfly sweep or transition to half guard with whizzer → Leads to [[Guillotine Control]]
-- **Opponent maintains head position low and drives a knee through your centerline into a knee slice passing position** (Effectiveness: Medium) - Your Response: Accept the knee penetration and transition to knee shield half guard rather than fighting for open guard, establishing underhook and knee shield to stabilize from half guard → Leads to [[Side Control]]
+- **Opponent postures explosively the moment they feel the guillotine release, creating maximum distance and establishing passing grips on your legs** (Effectiveness: High) - Your Response: Chase with your feet on hips and maintain at least one collar or sleeve grip during the posture break to prevent free disengagement, immediately transitioning to long-range open guard → Leads to [[Positions/Guillotine Control]]
+- **Opponent drives forward with heavy shoulder pressure to pass directly to side control during the grip transition window** (Effectiveness: High) - Your Response: Use your feet-on-hips barrier to absorb the drive and redirect laterally with hip escape, converting the forward pressure into passing energy you can deflect past your centerline → Leads to [[Positions/Side Control]]
+- **Opponent strips your initial frames by swimming their arms under and establishing double underhooks for a stack pass** (Effectiveness: Medium) - Your Response: Immediately switch to butterfly hooks and overhook control, using the double underhook entry to set up butterfly sweep or transition to half guard with whizzer → Leads to [[Positions/Guillotine Control]]
+- **Opponent maintains head position low and drives a knee through your centerline into a knee slice passing position** (Effectiveness: Medium) - Your Response: Accept the knee penetration and transition to knee shield half guard rather than fighting for open guard, establishing underhook and knee shield to stabilize from half guard → Leads to [[Positions/Side Control]]
 
 
 </section>

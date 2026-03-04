@@ -158,7 +158,7 @@ The most critical defensive principle is maintaining hip-to-hip connection and c
 
 Advanced defenders develop the ability to use the Granby roll attempt against the bottom player by following the rotation into back control or capitalizing on the momentary exposure to secure deeper hooks. Rather than simply preventing the roll, skilled top players learn to bait the Granby attempt and use the bottom player's commitment to the rotation as an entry point for back takes, front headlock attacks, or flattening sequences that worsen the bottom player's position.
 
-**Opponent's Starting Position**: [[Turtle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Advanced defenders develop the ability to use the Granby roll attempt against th
 ### 1. Sprawl and drive chest pressure down onto their upper back the moment you feel hip extension, pinning their shoulders to the mat and collapsing the space needed for rotation
 
 - **When to use**: At the earliest recognition of the Granby attempt, before rotation has begun, when you feel the initial hip extension creating space
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Bottom player is flattened back into turtle or driven to a flattened position where they must restart their escape sequence from a worse position
 - **Risk**: If your sprawl is too aggressive and you overcommit weight forward, a well-timed bottom player can use that momentum to accelerate their roll
 
 ### 2. Follow the rotation by circling your hips in the same direction as their roll while maintaining seatbelt grip, threading your near-side hook as they expose their back during the transition
 
 - **When to use**: When the roll has already initiated and cannot be stopped, use their rotation to establish deeper back control rather than fighting the momentum
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You convert their escape attempt into full back control with hooks in and harness grip, achieving a 4-point position from what was intended as their escape
 - **Risk**: If you fail to insert hooks during the rotation, the bottom player completes the roll and establishes guard, achieving their intended outcome
 
 ### 3. Block the inside shoulder by posting your near-side hand directly on their shoulder joint and driving it into the mat, preventing the diagonal drop that initiates the roll
 
 - **When to use**: When you detect the shoulder drop beginning but before full rotation commits, typically in the first quarter of the movement
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: The roll is mechanically blocked and the bottom player is forced to abandon the Granby attempt, returning to turtle where you maintain top control
 - **Risk**: Posting your hand on their shoulder temporarily reduces your upper body control and may allow them to change direction or attempt a sit-through escape instead
 
 ### 4. Transition to front headlock by circling toward the rolling direction and securing head and arm control as their shoulder drops, converting their roll attempt into a front headlock position
 
 - **When to use**: When you recognize the Granby initiation and can circle faster than they can rotate, particularly effective against slower or telegraphed attempts
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You establish front headlock control which offers immediate submission threats via guillotine, anaconda, or darce choke while denying guard recovery
 - **Risk**: If your circle is too slow, the bottom player completes the roll underneath you and you end up in their closed guard
 
@@ -228,11 +228,11 @@ Advanced defenders develop the ability to use the Granby roll attempt against th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Sprawl immediately when you feel the hip extension, driving your chest weight onto their upper back to collapse the space needed for rotation. Pin their inside shoulder with your hand or forearm to mechanically prevent the diagonal roll. Maintain constant forward pressure and reestablish your controlling grips once the escape attempt is abandoned.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Rather than fighting the rotation, follow it by circling your hips in the same direction while maintaining your seatbelt grip. As they rotate and expose their back during the transition, insert your near-side hook into their thigh. Use the momentum of their roll to end up behind them with deeper control than you had before the attempt. Their commitment to the roll makes it difficult for them to abort once you follow successfully.
 

@@ -21,7 +21,7 @@ Unlike generic half guard passes, this technique requires neutralizing the pocke
 
 Strategic timing is critical to this pass. The extraction phase creates a brief window where the top player's base is compromised, making it the most dangerous moment for sweep attempts and guard recoveries. Successful practitioners develop sensitivity to the bottom player's hip movement and frame adjustments, waiting for the optimal moment when defensive structures are weakest before committing to the extraction. Chaining this pass with knee slice and smash pass variations creates multi-threat pressure sequences that overwhelm defensive responses.
 
-**From Position**: [[Pocket Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Pocket Half Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategic timing is critical to this pass. The extraction phase creates a brief 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Pocket Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Pocket Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,23 +189,23 @@ The Pocket Half Guard pass sits at the critical junction between half guard cont
 ## Related Techniques
 
 
-- [[Pocket Half Guard]] - Source position where this pass begins from the top player's perspective
+- [[Positions/Half Guard/Pocket Half Guard]] - Source position where this pass begins from the top player's perspective
 
-- [[Side Control]] - Primary target position achieved upon successful pass completion
+- [[Positions/Side Control]] - Primary target position achieved upon successful pass completion
 
-- [[Half Guard]] - Parent guard category and counter outcome position when bottom player sweeps
+- [[Positions/Half Guard]] - Parent guard category and counter outcome position when bottom player sweeps
 
-- [[Flattened Half Guard]] - Related intermediate position often achieved before completing the pass
+- [[Positions/Half Guard/Flattened Half Guard]] - Related intermediate position often achieved before completing the pass
 
-- [[Deep Half Guard]] - Primary defensive transition the bottom player uses to counter this pass
+- [[Positions/Half Guard/Deep Half Guard]] - Primary defensive transition the bottom player uses to counter this pass
 
-- [[Knee Shield Half Guard]] - Guard recovery target for defender when pocket frame is reestablished with knee shield
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Guard recovery target for defender when pocket frame is reestablished with knee shield
 
-- [[Headquarters Position]] - Alternative passing position if underhook control is lost during extraction
+- [[Positions/Headquarters Position]] - Alternative passing position if underhook control is lost during extraction
 
-- [[Back Control]] - Threat position the bottom player can reach during failed extraction via back take
+- [[Positions/Back Control]] - Threat position the bottom player can reach during failed extraction via back take
 
-- [[North-South]] - Alternative advancement direction when direct side control completion is blocked
+- [[Positions/North-South]] - Alternative advancement direction when direct side control completion is blocked
 
 
 </section>

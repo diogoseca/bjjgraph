@@ -146,7 +146,7 @@ description: "Defend against the Crossface from Old School in BJJ. Recognition c
 
 As the defender against the Crossface from Old School, you are in Old School Bottom with lockdown, underhook, and head control established. Your opponent is applying systematic crossface pressure to flatten your posture, break your controls, and pass to side control. Your primary objectives are to maintain your sweeping angle by resisting the flattening effect of the crossface, protect your underhook depth, and either sustain the position for sweep opportunities or counter the crossface with timed offensive actions. Recognition of the crossface initiation is critical because early defensive action is far more effective than late recovery attempts. The key principle is that your angle is everything: as long as you remain on your side with structural controls intact, your sweep threats prevent the pass from completing.
 
-**Opponent's Starting Position**: [[Old School]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Old School]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the Crossface from Old School, you are in Old School Bot
 ### 1. Pump lockdown and maintain angle through active hip extension
 
 - **When to use**: Immediately upon recognizing crossface initiation, before significant flattening occurs
-- **Targets**: [[Old School]]
+- **Targets**: [[Positions/Half Guard/Old School]]
 - **If successful**: Prevents flattening, maintains Old School Bottom with full sweep threats intact
 - **Risk**: If pump timing is off, can accelerate the flattening if opponent sprawls against the extension
 
 ### 2. Time Old School Sweep during crossface weight shift forward
 
 - **When to use**: When opponent commits weight forward during crossface drive, momentarily compromising their base stability
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Sweeps opponent to bottom position, achieving mount or back control from the sweep completion
 - **Risk**: If sweep timing is wrong, you feed into the crossface by creating momentum in the wrong direction
 
 ### 3. Transition to deep half guard before flattening completes
 
 - **When to use**: When crossface has partially succeeded and maintaining Old School is no longer viable but you still have hip mobility
-- **Targets**: [[Old School]]
+- **Targets**: [[Positions/Half Guard/Old School]]
 - **If successful**: Escapes the crossface by changing the positional dynamic entirely, entering deep half with sweep options
 - **Risk**: Requires releasing lockdown and head control, and if deep half entry fails you end up flattened in half guard bottom
 
 ### 4. Frame against crossface shoulder and recover head position
 
 - **When to use**: When crossface has begun turning your head but your angle is not yet fully compromised
-- **Targets**: [[Old School]]
+- **Targets**: [[Positions/Half Guard/Old School]]
 - **If successful**: Stops the crossface progression and allows recovery of head control to restore full Old School position
 - **Risk**: Releasing head control to create the frame temporarily reduces your sweeping power and gives opponent a window to advance
 
@@ -217,11 +217,11 @@ As the defender against the Crossface from Old School, you are in Old School Bot
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time the Old School Sweep during the opponent's forward weight commitment for the crossface. Their crossface drive shifts their center of gravity forward, which is exactly the weight distribution that feeds the Old School Sweep mechanics. Wait for the heaviest moment of their drive and execute the sweep with maximum lockdown extension and underhook pull.
 
-### → [[Old School]]
+### → [[Positions/Half Guard/Old School]]
 
 Defend the crossface through active lockdown pumping, underhook maintenance, and timely framing. Keep your angle by staying on your side and using your head control to resist the head turn. If you survive the crossface attempt without being flattened, the opponent has expended significant energy and you retain all your offensive threats from Old School Bottom.
 

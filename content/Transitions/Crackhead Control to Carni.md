@@ -21,7 +21,7 @@ The mechanical foundation of this transition relies on recognizing when the top 
 
 This transition is particularly effective in no-gi competition where the top player lacks gi grips to anchor their position during the bottom player's explosive movement. The technique exemplifies the 10th Planet philosophy of turning defensive positions into immediate offensive threats. Success requires excellent timing, hip mobility, and the ability to maintain hand fighting intensity while simultaneously setting up the leg capture. Advanced practitioners can chain this transition with the standard Carni attack tree including heel hooks, saddle entries, and back takes.
 
-**From Position**: [[Crackhead Control]] (Bottom)
+**From Position**: [[Positions/Crackhead Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition is particularly effective in no-gi competition where the top pla
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Carni]] | 55% |
-| Failure | [[Crackhead Control]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Rubber Guard/Carni]] | 55% |
+| Failure | [[Positions/Crackhead Control]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -195,27 +195,27 @@ The Crackhead Control to Carni transition represents a critical link between the
 ## Related Techniques
 
 
-- [[Crackhead Control]] - Starting position - the defensive turtle control you transition from
+- [[Positions/Crackhead Control]] - Starting position - the defensive turtle control you transition from
 
-- [[Carni]] - Target position - the leg entanglement established upon successful completion
+- [[Positions/Rubber Guard/Carni]] - Target position - the leg entanglement established upon successful completion
 
-- [[Ashi Garami]] - Related system - carni is part of the broader ashi garami leg entanglement family
+- [[Positions/Ashi Garami]] - Related system - carni is part of the broader ashi garami leg entanglement family
 
-- [[Turtle to Guard]] - Alternative escape - standard guard recovery when carni is not available
+- [[Transitions/Turtle to Guard]] - Alternative escape - standard guard recovery when carni is not available
 
-- [[Granby Roll to Guard]] - Alternative technique - different inversion path from turtle defense
+- [[Transitions/Granby Roll to Guard]] - Alternative technique - different inversion path from turtle defense
 
-- [[Inside Heel Hook]] - Primary follow-up submission from established carni
+- [[Submissions/Inside Heel Hook]] - Primary follow-up submission from established carni
 
-- [[Saddle Entry from Top]] - Follow-up advancement when opponent defends initial heel hook threat
+- [[Transitions/Saddle Entry from Top]] - Follow-up advancement when opponent defends initial heel hook threat
 
-- [[Rolling Back Take]] - Chain attack available when opponent rolls to escape carni
+- [[Transitions/Rolling Back Take]] - Chain attack available when opponent rolls to escape carni
 
-- [[Single Leg X-Guard]] - Related position sharing entry mechanics and inside leg positioning
+- [[Positions/X-Guard/Single Leg X-Guard]] - Related position sharing entry mechanics and inside leg positioning
 
-- [[Honey Hole]] - Related entanglement - alternative finishing position from carni transitions
+- [[Positions/Ashi Garami/Honey Hole]] - Related entanglement - alternative finishing position from carni transitions
 
-- [[Back Control]] - Counter outcome - position opponent achieves if transition is poorly timed
+- [[Positions/Back Control]] - Counter outcome - position opponent achieves if transition is poorly timed
 
 
 </section>

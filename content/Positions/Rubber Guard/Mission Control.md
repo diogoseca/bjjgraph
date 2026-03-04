@@ -97,23 +97,23 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 ### Available Transitions
 
 
-- **[[Triangle Setup]]** (15% of attempts)
+- **[[Transitions/Triangle Setup]]** (15% of attempts)
 
-- **[[Omoplata to Sweep]]** (12% of attempts)
+- **[[Transitions/Omoplata to Sweep]]** (12% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (12% of attempts)
+- **[[Transitions/Closed Guard to Omoplata]]** (12% of attempts)
 
-- **[[Closed Guard to Triangle]]** (14% of attempts)
+- **[[Transitions/Closed Guard to Triangle]]** (14% of attempts)
 
-- **[[Armbar Finish]]** (10% of attempts)
+- **[[Transitions/Armbar Finish]]** (10% of attempts)
 
-- **[[Hip Bump Sweep]]** (10% of attempts)
+- **[[Transitions/Hip Bump Sweep]]** (10% of attempts)
 
-- **[[Omoplata Sweep]]** (10% of attempts)
+- **[[Transitions/Omoplata Sweep]]** (10% of attempts)
 
-- **[[Progression to Zombie]]** (8% of attempts)
+- **[[Transitions/Progression to Zombie]]** (8% of attempts)
 
-- **[[Advance to Chill Dog]]** (9% of attempts)
+- **[[Transitions/Advance to Chill Dog]]** (9% of attempts)
 
 
 ### Common Mistakes
@@ -178,23 +178,23 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 ### Available Transitions
 
 
-- **[[Posture Recovery]]** (15% of attempts)
+- **[[Transitions/Posture Recovery]]** (15% of attempts)
 
-- **[[Arm Extraction and Pass]]** (13% of attempts)
+- **[[Transitions/Arm Extraction and Pass]]** (13% of attempts)
 
-- **[[Stack Defense]]** (13% of attempts)
+- **[[Transitions/Stack Defense]]** (13% of attempts)
 
-- **[[Standing up in Base]]** (30% of attempts)
+- **[[Transitions/Standing up in Base]]** (30% of attempts)
 
-- **[[Arm Extraction]]** (12% of attempts)
+- **[[Transitions/Arm Extraction]]** (12% of attempts)
 
-- **[[Guard Opening Sequence]]** (10% of attempts)
+- **[[Transitions/Guard Opening Sequence]]** (10% of attempts)
 
-- **[[Posture Break from Mission Control]]** (4% of attempts)
+- **[[Transitions/Posture Break from Mission Control]]** (4% of attempts)
 
-- **[[Stack Pass from Mission Control]]** (2% of attempts)
+- **[[Transitions/Stack Pass from Mission Control]]** (2% of attempts)
 
-- **[[Posture Recovery from Mission Control]]** (1% of attempts)
+- **[[Transitions/Posture Recovery from Mission Control]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -237,27 +237,27 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 ## Related Positions
 
 
-- **[[Rubber Guard]]** - Parent position - Mission Control is the primary control within rubber guard system
+- **[[Positions/Rubber Guard]]** - Parent position - Mission Control is the primary control within rubber guard system
 
-- **[[Closed Guard]]** - Starting position - Mission Control is established from high guard in closed guard
+- **[[Positions/Closed Guard]]** - Starting position - Mission Control is established from high guard in closed guard
 
-- **[[New York]]** - Advanced control - transition from Mission Control when opponent defends
+- **[[Positions/Rubber Guard/New York]]** - Advanced control - transition from Mission Control when opponent defends
 
-- **[[Carni]]** - Alternative control - similar shoulder isolation with different leg configuration
+- **[[Positions/Rubber Guard/Carni]]** - Alternative control - similar shoulder isolation with different leg configuration
 
-- **[[Triangle Control]]** - Primary submission - Mission Control creates ideal triangle entry
+- **[[Positions/Triangle Control]]** - Primary submission - Mission Control creates ideal triangle entry
 
-- **[[Omoplata Control]]** - Secondary submission - direct path from Mission Control
+- **[[Positions/Omoplata Control]]** - Secondary submission - direct path from Mission Control
 
-- **[[Gogoplata Control]]** - Advanced submission - available when opponent's posture is fully broken
+- **[[Positions/Gogoplata Control]]** - Advanced submission - available when opponent's posture is fully broken
 
-- **[[Invisible Collar]]** - Transition control - used when opponent attempts to pull arm free
+- **[[Positions/Rubber Guard/Invisible Collar]]** - Transition control - used when opponent attempts to pull arm free
 
-- **[[Meathook]]** - Entry position - often used to establish Mission Control initially
+- **[[Positions/Rubber Guard/Meathook]]** - Entry position - often used to establish Mission Control initially
 
-- **[[Chill Dog]]** - Recovery position - fall back option if Mission Control is threatened
+- **[[Positions/Rubber Guard/Chill Dog]]** - Recovery position - fall back option if Mission Control is threatened
 
-- **[[Zombie]]** - Advanced variation - transition when opponent attempts to stack
+- **[[Positions/Rubber Guard/Zombie]]** - Advanced variation - transition when opponent attempts to stack
 
 
 </section>

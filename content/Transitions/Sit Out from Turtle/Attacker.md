@@ -186,7 +186,7 @@ description: "Learn to execute the sit out from turtle position in BJJ. Step-by-
 
 Executing the sit out from turtle requires explosive hip rotation through a stable posting hand pivot point. As the turtle bottom player, you must read your opponent's weight distribution to identify the optimal timing window, then commit fully to threading your far leg underneath your body and completing the 180-degree rotation to face the opponent. The sit out is most effective when your opponent's weight is committed forward on your shoulders, creating space at the hips for the rotation. Unlike rolling escapes that rely on momentum, the sit out uses a controlled posting-and-rotation mechanic that allows you to end up in a guard position facing your opponent. The technique demands full commitment once initiated, as half-hearted attempts leave your hips exposed in the worst possible orientation. Successful execution combines precise hand posting, explosive leg threading, complete hip rotation, and immediate guard establishment into one continuous movement chain.
 
-**From Position**: [[Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
@@ -239,10 +239,10 @@ Executing the sit out from turtle requires explosive hip rotation through a stab
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Open Guard]] | 10% |
-| Failure | [[Turtle]] | 30% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Turtle]] | 30% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -251,10 +251,10 @@ Executing the sit out from turtle requires explosive hip rotation through a stab
 
 ## Opponent Counters
 
-- **Opponent drives chest pressure forward and sprawls to flatten you before rotation completes** (Effectiveness: High) - Your Response: Accelerate the rotation using their forward momentum to complete the turn faster. If flattened, immediately frame on their shoulder and hip escape to create space for guard recovery. → Leads to [[Side Control]]
-- **Opponent follows hip rotation maintaining chest-to-back connection and stays behind you throughout the sit out** (Effectiveness: High) - Your Response: Chain immediately into a second escape such as a granby roll using generated momentum or an explosive standup. Never settle into a seated position with opponent behind you. → Leads to [[Turtle]]
-- **Opponent snaps head down toward the mat as posting hand is established, disrupting base before rotation begins** (Effectiveness: Medium) - Your Response: Keep chin tucked and circle away from the choking arm. If snap succeeds, transition to front headlock escape rather than continuing the sit out attempt. → Leads to [[Side Control]]
-- **Opponent backsteps around threading leg and cuts the angle to establish dominant passing position** (Effectiveness: Medium) - Your Response: Read the backstep early and adjust leg threading direction. If they cut the angle, immediately recover knee shield to prevent the pass and re-establish guard frames. → Leads to [[Turtle]]
+- **Opponent drives chest pressure forward and sprawls to flatten you before rotation completes** (Effectiveness: High) - Your Response: Accelerate the rotation using their forward momentum to complete the turn faster. If flattened, immediately frame on their shoulder and hip escape to create space for guard recovery. → Leads to [[Positions/Side Control]]
+- **Opponent follows hip rotation maintaining chest-to-back connection and stays behind you throughout the sit out** (Effectiveness: High) - Your Response: Chain immediately into a second escape such as a granby roll using generated momentum or an explosive standup. Never settle into a seated position with opponent behind you. → Leads to [[Positions/Turtle]]
+- **Opponent snaps head down toward the mat as posting hand is established, disrupting base before rotation begins** (Effectiveness: Medium) - Your Response: Keep chin tucked and circle away from the choking arm. If snap succeeds, transition to front headlock escape rather than continuing the sit out attempt. → Leads to [[Positions/Side Control]]
+- **Opponent backsteps around threading leg and cuts the angle to establish dominant passing position** (Effectiveness: Medium) - Your Response: Read the backstep early and adjust leg threading direction. If they cut the angle, immediately recover knee shield to prevent the pass and re-establish guard frames. → Leads to [[Positions/Turtle]]
 
 
 </section>

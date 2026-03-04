@@ -21,7 +21,7 @@ The technique centers on using an explosive directional bridge to momentarily di
 
 Success requires understanding that the bridge itself rarely completes the escape. Instead, it creates a brief window — typically less than one second — during which the bottom player must execute arm extraction and begin transitioning toward a recoverable position. The most common successful pathway leads to half guard, where the bottom player can establish frames and begin standard guard recovery sequences. Failed bridges result in energy depletion and often tighter control, making timing and full commitment essential rather than repeated desperate attempts.
 
-**From Position**: [[Mounted Crucifix]] (Bottom)
+**From Position**: [[Positions/Mount/Mounted Crucifix]] (Bottom)
 **Success Rate**: 30%
 
 </section>
@@ -32,9 +32,9 @@ Success requires understanding that the bridge itself rarely completes the escap
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 30% |
-| Failure | [[Mounted Crucifix]] | 45% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 30% |
+| Failure | [[Positions/Mount/Mounted Crucifix]] | 45% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -193,25 +193,25 @@ The bridge escape from mounted crucifix occupies a critical emergency position w
 ## Related Techniques
 
 
-- [[Mounted Crucifix]] - Source position from which this escape is attempted
+- [[Positions/Mount/Mounted Crucifix]] - Source position from which this escape is attempted
 
-- [[Half Guard]] - Primary successful escape destination providing guard recovery platform
+- [[Positions/Half Guard]] - Primary successful escape destination providing guard recovery platform
 
-- [[Mount]] - Counter outcome position when arms are freed but guard recovery is incomplete
+- [[Positions/Mount]] - Counter outcome position when arms are freed but guard recovery is incomplete
 
-- [[Crucifix]] - Related control position sharing arm-trapping mechanics relevant to understanding escape principles
+- [[Positions/Crucifix]] - Related control position sharing arm-trapping mechanics relevant to understanding escape principles
 
-- [[Arm Recovery from Crucifix]] - Complementary escape technique focusing on arm extraction without full positional change
+- [[Transitions/Arm Recovery from Crucifix]] - Complementary escape technique focusing on arm extraction without full positional change
 
-- [[Upa Escape]] - Related bridge-based escape mechanic used from standard mount bottom
+- [[Transitions/Upa Escape]] - Related bridge-based escape mechanic used from standard mount bottom
 
-- [[Elbow Escape to Guard]] - Follow-up escape technique used after recovering to mount bottom or half guard
+- [[Transitions/Elbow Escape to Guard]] - Follow-up escape technique used after recovering to mount bottom or half guard
 
-- [[Armbar from Crucifix]] - Primary submission threat the top player may attack during escape attempts
+- [[Transitions/Armbar from Crucifix]] - Primary submission threat the top player may attack during escape attempts
 
-- [[Choke from Crucifix]] - Neck submission threat requiring defensive priority before bridge attempt
+- [[Transitions/Choke from Crucifix]] - Neck submission threat requiring defensive priority before bridge attempt
 
-- [[Mounted Crucifix Armbar]] - Specific armbar variation threatening from mounted crucifix during escape
+- [[Submissions/Mounted Crucifix Armbar]] - Specific armbar variation threatening from mounted crucifix during escape
 
 
 </section>

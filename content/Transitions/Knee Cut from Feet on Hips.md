@@ -21,7 +21,7 @@ The effectiveness of this pass depends on proper sequencing: establishing pants 
 
 This pass is particularly effective against opponents who rely heavily on feet-on-hips distance management without developing secondary guard layers such as De La Riva hooks or lasso controls. The knee cut forces a positional transition that many guard players are unprepared for, especially when combined with grip fighting that prevents the switch to spider guard or lasso guard. However, the linear commitment required means that a failed knee cut can expose the passer to guard recovery, De La Riva hook entries, or leg entanglement threats if the bottom player reads the pass early.
 
-**From Position**: [[Feet on Hips Guard]] (Top)
+**From Position**: [[Positions/Feet on Hips Guard]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -32,11 +32,11 @@ This pass is particularly effective against opponents who rely heavily on feet-o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Side Control]] | 10% |
-| Failure | [[Feet on Hips Guard]] | 30% |
-| Counter | [[De La Riva Guard]] | 15% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Side Control]] | 10% |
+| Failure | [[Positions/Feet on Hips Guard]] | 30% |
+| Counter | [[Positions/De La Riva Guard]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -193,27 +193,27 @@ The knee cut from feet on hips serves as a critical bridge in the guard passing 
 ## Related Techniques
 
 
-- [[Feet on Hips Guard]] - Source position where this pass is initiated from top
+- [[Positions/Feet on Hips Guard]] - Source position where this pass is initiated from top
 
-- [[Half Guard]] - Most common successful outcome when knee cut is partially completed
+- [[Positions/Half Guard]] - Most common successful outcome when knee cut is partially completed
 
-- [[Side Control]] - Ideal outcome when knee cut completes cleanly past all frames
+- [[Positions/Side Control]] - Ideal outcome when knee cut completes cleanly past all frames
 
-- [[Knee Cut Pass]] - Parent technique category that this specific variation belongs to
+- [[Transitions/Knee Cut Pass]] - Parent technique category that this specific variation belongs to
 
-- [[Toreando Pass]] - Alternative pass from same position using lateral redirection instead of linear cut
+- [[Transitions/Toreando Pass]] - Alternative pass from same position using lateral redirection instead of linear cut
 
-- [[De La Riva Guard]] - Common counter position when bottom player hooks the cutting leg
+- [[Positions/De La Riva Guard]] - Common counter position when bottom player hooks the cutting leg
 
-- [[Leg Drag Pass]] - Chain pass option when knee cut is defended by lateral hip movement
+- [[Transitions/Leg Drag Pass]] - Chain pass option when knee cut is defended by lateral hip movement
 
-- [[Knee Shield Half Guard]] - Defensive half guard variation bottom player uses to stall the knee cut
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive half guard variation bottom player uses to stall the knee cut
 
-- [[Combat Base]] - Common starting posture for initiating the knee cut sequence
+- [[Positions/Combat Base]] - Common starting posture for initiating the knee cut sequence
 
-- [[Headquarters Position]] - Transitional position when knee cut stalls between open guard and half guard
+- [[Positions/Headquarters Position]] - Transitional position when knee cut stalls between open guard and half guard
 
-- [[Closed Guard]] - Counter outcome when bottom player closes guard during the transition
+- [[Positions/Closed Guard]] - Counter outcome when bottom player closes guard during the transition
 
 
 </section>

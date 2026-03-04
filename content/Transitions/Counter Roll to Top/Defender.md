@@ -156,7 +156,7 @@ As the defender against Counter Roll to Top, you are the Gift Wrap Top player wh
 
 The key defensive concept is weight management during transitions. Every time you shift weight to attack the neck, advance toward mount, or tighten the arm trap, you create the exact imbalance your opponent needs. Defending the Counter Roll does not mean becoming static, but rather maintaining awareness of your center of gravity and having immediate counter-responses ready when you feel the explosive bridge beneath you. The best defense is proactive: keep your hips heavy and sprawled, avoid over-committing to any single attack vector, and be prepared to post or flatten your weight at the first sign of upward bridging pressure.
 
-**Opponent's Starting Position**: [[Gift Wrap]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Gift Wrap]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The key defensive concept is weight management during transitions. Every time yo
 ### 1. Drop hips and sprawl weight flat onto opponent's back to kill bridge momentum
 
 - **When to use**: Immediately upon feeling upward bridging pressure or recognizing bridge loading cues
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Opponent's bridge is absorbed by your settled weight and the roll attempt fails completely, returning to Gift Wrap control
 - **Risk**: Briefly delays your own offensive progression but maintains dominant position
 
 ### 2. Post free hand on the mat toward the direction of the roll to create structural block
 
 - **When to use**: When the bridge has already begun and hip drop alone may not stop the rotation
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Your posted hand creates a structural barrier that prevents the roll from completing, stalling their momentum mid-rotation
 - **Risk**: Temporarily removes one hand from control, requiring quick recovery of grip after stopping the roll
 
 ### 3. Release Gift Wrap and transition to standard back control with seatbelt grip
 
 - **When to use**: When the roll has significant momentum and maintaining the arm trap risks being reversed entirely
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: You abandon the arm trap to maintain back control, preventing the reversal while keeping hooks and chest connection
 - **Risk**: Opponent recovers their trapped arm restoring full defensive capability, but you retain back control
 
 ### 4. Transition to body triangle to anchor hips and eliminate roll possibility
 
 - **When to use**: Proactively when you recognize opponent is a Counter Roll threat based on grip fighting patterns
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Body triangle locks your hips to opponent's waist making the roll mechanically impossible due to anchored lower body
 - **Risk**: Body triangle transition creates a brief window where hooks are unlocked before triangle is secured
 
@@ -227,11 +227,11 @@ The key defensive concept is weight management during transitions. Every time yo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Gift Wrap]]
+### → [[Positions/Gift Wrap]]
 
 Maintain heavy hip pressure and immediately drop weight when bridge is detected. Keep the arm trap tight while sprawling hips flat onto opponent's back. The settled weight makes the bridge insufficient to generate rotation. After stuffing the attempt, advance your own attacks while opponent has wasted energy.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 If the roll attempt creates genuine danger, release the Gift Wrap arm trap to free both hands for posting and base recovery. Maintain hooks and chest-to-back connection as you transition back to standard seatbelt back control. You lose the arm trap advantage but retain the dominant back position with 4 points of control.
 

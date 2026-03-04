@@ -148,7 +148,7 @@ description: "Defend and escape the Darce choke from leg drag position. Recognit
 
 Defending the Darce choke from leg drag requires understanding that your defensive reaction to the leg drag itself is what creates the submission opportunity. When you turn toward the passer to prevent the back take or recover guard, you inadvertently expose the neck-armpit channel that the Darce exploits. Effective defense starts with awareness of this trap and making calculated decisions about when and how to turn during leg drag escape attempts. The hierarchy of defense is clear: prevention before the arm threads is far easier than escaping after the grip locks. Once the figure-four is secured and hips are sprawled, escape becomes extremely difficult and energy-intensive. Your defensive strategy must prioritize keeping the chin tucked, maintaining frames against the threading arm, and controlling the distance between your shoulder and your neck to close the choking channel. If the choke locks, your best options involve creating space through body positioning and extracting the trapped arm, but these become progressively harder as the attacker adjusts their angle and increases pressure.
 
-**Opponent's Starting Position**: [[Leg Drag Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Top)
 
 
 </section>
@@ -187,28 +187,28 @@ Defending the Darce choke from leg drag requires understanding that your defensi
 ### 1. Chin tuck and shoulder shrug to block the arm thread before it passes the chin line
 
 - **When to use**: At the earliest recognition of the threading attempt, before the arm reaches past your chin. This is the highest-percentage defense and should be your first response.
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: Opponent's arm cannot penetrate past the chin, forcing them to abandon the Darce attempt and return to positional control
 - **Risk**: Low—this is a preventive defense that does not compromise your position
 
 ### 2. Frame against the threading shoulder with both hands to prevent the arm from advancing deep enough to lock
 
 - **When to use**: When the arm has begun threading but has not yet reached through the far armpit. Push against the opponent's shoulder to create space and prevent them from driving the arm deeper.
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: Creates enough space to extract your head from the partial thread and return to defensive position
 - **Risk**: Medium—extended arms may be vulnerable to grip strips or arm isolation if frames are not structurally sound
 
 ### 3. Posture up and create distance before the figure-four grip is completed
 
 - **When to use**: When the arm is through but the grip is not yet locked. Explosive posture and forward drive can create enough space to strip the grip before it closes.
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Breaks the submission sequence and may allow transition to a more neutral position or guard recovery
 - **Risk**: High—if the posture attempt fails, the opponent can use your forward momentum to tighten the grip
 
 ### 4. Extract the trapped arm from inside the choke to convert it to a loose headlock
 
 - **When to use**: When the grip is partially or fully locked but you still have some mobility in your trapped arm. Pull your elbow toward your hip to slide the arm free.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Removes the counter-pressure element that makes the Darce effective, reducing it to a weak headlock that you can escape
 - **Risk**: Medium—the extraction attempt is energy-intensive and may be impossible if the grip is fully locked with hip pressure applied
 
@@ -231,11 +231,11 @@ Defending the Darce choke from leg drag requires understanding that your defensi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Drag Control]]
+### → [[Positions/Leg Drag Control]]
 
 Defend the arm thread early through chin tuck and shoulder shrug, preventing the Darce from developing. Opponent returns to standard leg drag control, giving you another opportunity to escape through normal leg drag defense.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Use the space created during a failed Darce attempt to recover guard. As the opponent commits their arms to the choking grip, their lower body control weakens, allowing you to insert your legs for half guard recovery.
 

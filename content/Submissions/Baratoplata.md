@@ -24,8 +24,8 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Rubber Guard]]
-**From Position**: [[Rubber Guard]] (Bottom)
+**Starting Position**: [[Positions/Rubber Guard]]
+**From Position**: [[Positions/Rubber Guard]] (Bottom)
 **Success Rate**: 42%
 
 </section>
@@ -80,9 +80,9 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 42% |
-| Failure | [[Closed Guard]] | 28% |
-| Counter | [[Closed Guard]] | 18% |
-| Failure | [[Omoplata Control]] | 12% |
+| Failure | [[Positions/Closed Guard]] | 28% |
+| Counter | [[Positions/Closed Guard]] | 18% |
+| Failure | [[Positions/Omoplata Control]] | 12% |
 
 
 </section>
@@ -233,12 +233,12 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 
 ## From Which Positions?
 
-- [[Rubber Guard]]
-- [[Mission Control]]
-- [[New York]]
-- [[Closed Guard]]
-- [[Triangle Control]]
-- [[Omoplata Control]]
+- [[Positions/Rubber Guard]]
+- [[Positions/Rubber Guard/Mission Control]]
+- [[Positions/Rubber Guard/New York]]
+- [[Positions/Closed Guard]]
+- [[Positions/Triangle Control]]
+- [[Positions/Omoplata Control]]
 
 
 </section>
@@ -247,15 +247,15 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 
 ## Related Submissions
 
-- [[Omoplata]]
-- [[Gogoplata]]
-- [[Triangle Choke]]
-- [[Armbar from Guard]]
-- [[Kimura]]
-- [[Omoplata from Guard]]
-- [[Triangle from Closed Guard]]
-- [[Tarikoplata]]
-- [[Williams Shoulder Lock]]
+- [[Transitions/Omoplata]]
+- [[Transitions/Gogoplata]]
+- [[Transitions/Triangle Choke]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Kimura]]
+- [[Submissions/Omoplata from Guard]]
+- [[Submissions/Triangle from Closed Guard]]
+- [[Submissions/Tarikoplata]]
+- [[Transitions/Williams Shoulder Lock]]
 
 
 </section>
@@ -264,17 +264,17 @@ The technique exemplifies the innovation within modern no-gi grappling, offering
 
 ## Additional Related Content
 
-- [[Rubber Guard]] - Primary starting position and control structure
-- [[Mission Control]] - Initial rubber guard position for Baratoplata setup
-- [[New York]] - Transition position that creates angle for arm weave
-- [[Omoplata]] - Related shoulder lock sharing setup mechanics
-- [[Triangle Control]] - Alternative attack from same rubber guard control positions
-- [[Crucifix]] - Position that can result from opponent's forward roll defense
-- [[Back Control]] - Transition target when opponent defends Baratoplata aggressively
-- [[Meathook]] - Rubber guard position that can transition to Baratoplata
-- [[Carni]] - Alternative rubber guard position with similar arm isolation
-- [[Closed Guard]] - Foundation position from which rubber guard is established
-- [[Omoplata Control]] - Related control position for shoulder submissions
+- [[Positions/Rubber Guard]] - Primary starting position and control structure
+- [[Positions/Rubber Guard/Mission Control]] - Initial rubber guard position for Baratoplata setup
+- [[Positions/Rubber Guard/New York]] - Transition position that creates angle for arm weave
+- [[Transitions/Omoplata]] - Related shoulder lock sharing setup mechanics
+- [[Positions/Triangle Control]] - Alternative attack from same rubber guard control positions
+- [[Positions/Crucifix]] - Position that can result from opponent's forward roll defense
+- [[Positions/Back Control]] - Transition target when opponent defends Baratoplata aggressively
+- [[Positions/Rubber Guard/Meathook]] - Rubber guard position that can transition to Baratoplata
+- [[Positions/Rubber Guard/Carni]] - Alternative rubber guard position with similar arm isolation
+- [[Positions/Closed Guard]] - Foundation position from which rubber guard is established
+- [[Positions/Omoplata Control]] - Related control position for shoulder submissions
 
 
 </section>

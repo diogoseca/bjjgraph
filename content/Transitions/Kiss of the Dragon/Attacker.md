@@ -180,7 +180,7 @@ description: "How to execute Kiss of the Dragon in BJJ. Complete attacking guide
 
 The Kiss of the Dragon is an advanced rolling back take that allows the top player to bypass turtle defensive structure entirely through an inverted forward roll. Rather than fighting through hand fighting, frames, and seated guard transitions that characterize traditional back take attempts, this technique uses a controlled somersault underneath the opponent to arrive directly behind them. The practitioner maintains constant hip grip connection throughout the roll, emerging behind the turtle with chest-to-back proximity and immediate access to seatbelt and hooks. The technique is most effective when the opponent has committed weight forward into their defensive turtle shell, creating the space needed to insert your head and shoulders below their hip line. Threatening traditional back takes first forces this forward weight commitment, making the Kiss of the Dragon a powerful second-layer attack that punishes sound turtle defense.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The Kiss of the Dragon is an advanced rolling back take that allows the top play
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 50% |
-| Failure | [[Turtle]] | 35% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Back Control]] | 50% |
+| Failure | [[Positions/Turtle]] | 35% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ The Kiss of the Dragon is an advanced rolling back take that allows the top play
 
 ## Opponent Counters
 
-- **Opponent follows your roll by turning with you** (Effectiveness: Medium) - Your Response: If you recognize their turn early, accelerate your roll and rapidly transition grips to complete the technique before they fully track your movement. If they are successfully matching your rotation, abort the complete somersault and transition to a leg entanglement or scramble position rather than forcing a compromised back take. → Leads to [[Turtle]]
-- **Opponent sprawls weight back to prevent you from getting underneath** (Effectiveness: High) - Your Response: Abandon the technique and transition to traditional back take methods like the crab ride, seatbelt entry, or cross body ride. The Kiss of the Dragon requires forward weight commitment from the opponent, so when they shift backward, switch to attacks that exploit that rearward weight distribution instead. → Leads to [[Turtle]]
-- **Opponent sits to guard as you initiate the roll** (Effectiveness: Medium) - Your Response: Continue your roll and use your momentum to establish a leg entanglement position such as ashi garami or single leg X, converting your rolling motion into a sweep or leg attack entry. Your body positioning naturally favors lower body attacks when the back take is denied by guard recovery. → Leads to [[Turtle]]
-- **Opponent breaks your hip grip during the roll** (Effectiveness: High) - Your Response: If the grip breaks early in the roll, abort immediately and return to top turtle control to re-establish your attacking position. If it breaks late in the rotation when you are already behind them, complete the roll and immediately work to establish seatbelt or any upper body connection rather than trying to re-grip the hips. → Leads to [[Turtle]]
+- **Opponent follows your roll by turning with you** (Effectiveness: Medium) - Your Response: If you recognize their turn early, accelerate your roll and rapidly transition grips to complete the technique before they fully track your movement. If they are successfully matching your rotation, abort the complete somersault and transition to a leg entanglement or scramble position rather than forcing a compromised back take. → Leads to [[Positions/Turtle]]
+- **Opponent sprawls weight back to prevent you from getting underneath** (Effectiveness: High) - Your Response: Abandon the technique and transition to traditional back take methods like the crab ride, seatbelt entry, or cross body ride. The Kiss of the Dragon requires forward weight commitment from the opponent, so when they shift backward, switch to attacks that exploit that rearward weight distribution instead. → Leads to [[Positions/Turtle]]
+- **Opponent sits to guard as you initiate the roll** (Effectiveness: Medium) - Your Response: Continue your roll and use your momentum to establish a leg entanglement position such as ashi garami or single leg X, converting your rolling motion into a sweep or leg attack entry. Your body positioning naturally favors lower body attacks when the back take is denied by guard recovery. → Leads to [[Positions/Turtle]]
+- **Opponent breaks your hip grip during the roll** (Effectiveness: High) - Your Response: If the grip breaks early in the roll, abort immediately and return to top turtle control to re-establish your attacking position. If it breaks late in the rotation when you are already behind them, complete the roll and immediately work to establish seatbelt or any upper body connection rather than trying to re-grip the hips. → Leads to [[Positions/Turtle]]
 
 
 </section>

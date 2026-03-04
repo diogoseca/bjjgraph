@@ -150,7 +150,7 @@ As the leg lock attacker maintaining straight ankle lock control, your opponent'
 
 The critical window for countering Frame and Distance Creation occurs during the first 2-3 seconds of frame establishment. Once the escaping player achieves full arm extension with structural alignment, clearing their frames becomes exponentially harder. Early recognition of frame attempts and immediate counter-action determines whether you maintain control or lose the position entirely. Your leg wrap must remain active throughout, preventing the distance from translating into foot extraction even when frames partially succeed.
 
-**Opponent's Starting Position**: [[Straight Ankle Lock Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
 
@@ -187,21 +187,21 @@ The critical window for countering Frame and Distance Creation occurs during the
 ### 1. Swim inside frames and close distance
 
 - **When to use**: Immediately when opponent begins placing hands on your chest or shoulders, before full arm extension
-- **Targets**: [[Straight Ankle Lock Control]]
+- **Targets**: [[Positions/Straight Ankle Lock Control]]
 - **If successful**: Frames are neutralized, you maintain close proximity and ankle control with opportunity to tighten grips
 - **Risk**: If you fail to clear frames quickly, opponent achieves full extension and distance compounds rapidly
 
 ### 2. Transition to inside ashi-garami during framing attempt
 
 - **When to use**: When opponent commits both arms to framing and temporarily reduces their ability to address leg positioning changes
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You advance to a more dominant leg entanglement where control is maintained by leg triangle rather than proximity
 - **Risk**: Releasing ankle lock grip to transition may allow opponent to complete escape if transition is not smooth
 
 ### 3. Accelerate ankle lock finish before distance accumulates
 
 - **When to use**: When initial framing creates moderate distance but foot extraction has not yet occurred and grip remains secure
-- **Targets**: [[Straight Ankle Lock Control]]
+- **Targets**: [[Positions/Straight Ankle Lock Control]]
 - **If successful**: Opponent is forced to abandon framing to address immediate submission threat, resetting the escape attempt
 - **Risk**: Over-committing to finish sacrifices leg positioning and may open passing or standing escape opportunities for opponent
 
@@ -213,11 +213,11 @@ The critical window for countering Frame and Distance Creation occurs during the
 
 ## Best-Case Outcomes for Defender
 
-### → [[Straight Ankle Lock Control]]
+### → [[Positions/Straight Ankle Lock Control]]
 
 Clear frames early by swimming inside before full arm extension, then immediately retighten ankle grip and leg wrap. Pull opponent's leg back into your control zone while preventing re-establishment of frames.
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 When opponent commits both arms to framing and cannot address your leg positioning, thread your inside leg through to establish leg triangle around their trapped leg. Their framing focus creates the opening for positional advancement to a superior entanglement.
 

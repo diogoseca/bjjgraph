@@ -190,7 +190,7 @@ The core strategic principle is that the lapel wrap loses much of its sweeping a
 
 This pass is particularly effective against opponents who rely heavily on Keenan Cornelius-style lapel guard systems, as it addresses the root mechanical problem rather than trying to muscle through the wrap from a compromised kneeling position. The technique demands patience and disciplined posture maintenance, as premature passing attempts before the lapel is fully cleared will result in sweeps or re-entanglement. When executed correctly, the distance created during extraction leaves the bottom player in a weakened open guard with no grips, making the subsequent toreando or leg drag pass high-percentage.
 
-**From Position**: [[Ringworm Guard]] (Top)
+**From Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
 
@@ -243,11 +243,11 @@ This pass is particularly effective against opponents who rely heavily on Keenan
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Success | [[Headquarters Position]] | 10% |
-| Failure | [[Ringworm Guard]] | 20% |
-| Failure | [[Open Guard]] | 5% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Side Control]] | 55% |
+| Success | [[Positions/Headquarters Position]] | 10% |
+| Failure | [[Positions/Ringworm Guard]] | 20% |
+| Failure | [[Positions/Open Guard]] | 5% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -256,10 +256,10 @@ This pass is particularly effective against opponents who rely heavily on Keenan
 
 ## Opponent Counters
 
-- **Opponent pulls lapel tighter and hip escapes to load a sweep as you begin standing, using your upward momentum against you** (Effectiveness: High) - Your Response: Pause the standing motion and re-settle your base if you feel the sweep loading. Reset to combat base with hips heavy and address the tightened lapel before re-attempting the stand. Do not fight through the sweep momentum. → Leads to [[Ringworm Guard]]
-- **Opponent releases the lapel voluntarily and immediately reguards with collar-sleeve or De La Riva hooks as you stand, transitioning to a different guard system** (Effectiveness: Medium) - Your Response: Accept the position change as an improvement over Ringworm Guard and immediately address the new guard with appropriate passing techniques. Collar-sleeve and DLR are more neutral positions than Ringworm. → Leads to [[Open Guard]]
-- **Opponent uses the lapel tension to invert and attack with a berimbolo or back take attempt during the extraction process** (Effectiveness: High) - Your Response: Keep your hips back and low throughout extraction. If you feel the opponent inverting, immediately sprawl your hips back and use downward pressure on their hips to flatten them. Do not allow them to get underneath you. → Leads to [[Back Control]]
-- **Opponent establishes a secondary grip on your collar or sleeve with their free hand, creating a two-point control system that resists the standing extraction** (Effectiveness: Medium) - Your Response: Address the secondary grip before committing fully to the lapel extraction. Strip the collar grip with a sharp two-handed break, then return to the lapel extraction sequence. Removing secondary controls first makes the primary extraction significantly easier. → Leads to [[Ringworm Guard]]
+- **Opponent pulls lapel tighter and hip escapes to load a sweep as you begin standing, using your upward momentum against you** (Effectiveness: High) - Your Response: Pause the standing motion and re-settle your base if you feel the sweep loading. Reset to combat base with hips heavy and address the tightened lapel before re-attempting the stand. Do not fight through the sweep momentum. → Leads to [[Positions/Ringworm Guard]]
+- **Opponent releases the lapel voluntarily and immediately reguards with collar-sleeve or De La Riva hooks as you stand, transitioning to a different guard system** (Effectiveness: Medium) - Your Response: Accept the position change as an improvement over Ringworm Guard and immediately address the new guard with appropriate passing techniques. Collar-sleeve and DLR are more neutral positions than Ringworm. → Leads to [[Positions/Open Guard]]
+- **Opponent uses the lapel tension to invert and attack with a berimbolo or back take attempt during the extraction process** (Effectiveness: High) - Your Response: Keep your hips back and low throughout extraction. If you feel the opponent inverting, immediately sprawl your hips back and use downward pressure on their hips to flatten them. Do not allow them to get underneath you. → Leads to [[Positions/Back Control]]
+- **Opponent establishes a secondary grip on your collar or sleeve with their free hand, creating a two-point control system that resists the standing extraction** (Effectiveness: Medium) - Your Response: Address the secondary grip before committing fully to the lapel extraction. Strip the collar grip with a sharp two-handed break, then return to the lapel extraction sequence. Removing secondary controls first makes the primary extraction significantly easier. → Leads to [[Positions/Ringworm Guard]]
 
 
 </section>

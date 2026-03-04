@@ -212,21 +212,21 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 ## Available Attacks
 
-### [[Kneebar]] (25% of attempts)
+### [[Transitions/Kneebar]] (25% of attempts)
 
-### [[Kneebar Finish]] (25% of attempts)
+### [[Transitions/Kneebar Finish]] (25% of attempts)
 
-### [[Kneebar Control Maintenance]] (12% of attempts)
+### [[Transitions/Kneebar Control Maintenance]] (12% of attempts)
 
-### [[Ankle Lock Finish]] (10% of attempts)
+### [[Transitions/Ankle Lock Finish]] (10% of attempts)
 
-### [[Toe Hold]] (10% of attempts)
+### [[Transitions/Toe Hold]] (10% of attempts)
 
-### [[Knee on Belly]] (10% of attempts)
+### [[Positions/Knee on Belly]] (10% of attempts)
 
-### [[Kneebar to 50-50 Transition]] (4% of attempts)
+### [[Transitions/Kneebar to 50-50 Transition]] (4% of attempts)
 
-### [[Kneebar to Ashi Garami]] (4% of attempts)
+### [[Transitions/Kneebar to Ashi Garami]] (4% of attempts)
 
 
 
@@ -237,28 +237,28 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 ## Decision Making from This Position
 
 **If opponent's leg straightens and defensive posture collapses under top pressure:**
-- Execute **[[Kneebar Finish]]** → [[game-over]] (Probability: 55%)
-- Execute **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]] (Probability: 50%)
+- Execute **[[Transitions/Kneebar Finish]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Submissions/Straight Ankle Lock]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 50%)
 
 
 **If opponent maintains bent knee and creates strong defensive frames against finish:**
-- Execute **[[Knee Cut Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Half Guard Pass]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent attempts to recover guard by inserting frames or creating distance:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Knee on Belly]]** → [[Knee on Belly]] (Probability: 55%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Positions/Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 55%)
 
 
 **If opponent rotates foot or ankle defensively while maintaining knee protection:**
-- Execute **[[Toe Hold]]** → [[Toe Hold Control]] (Probability: 60%)
-- Execute **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]] (Probability: 65%)
+- Execute **[[Transitions/Toe Hold]]** → [[Positions/Toe Hold Control]] (Probability: 60%)
+- Execute **[[Submissions/Straight Ankle Lock]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 65%)
 
 
 **If opponent attempts explosive bridge or reversal during finish commitment:**
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 65%)
-- Execute **[[Knee Cut Pass]]** → [[Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 65%)
+- Execute **[[Transitions/Knee Cut Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 
@@ -397,15 +397,15 @@ Start with practitioner in top kneebar control against defending opponent. Attac
 
 ## Related Positions and Techniques
 
-- **[[Half Guard]]** - Common position from which top kneebar entries are initiated
-- **[[Headquarters Position]]** - Guard passing position offering kneebar attack opportunities
-- **[[Kneebar Finish]]** - Terminal submission technique from top kneebar control
-- **[[Side Control]]** - Positional advancement when kneebar finish is defended
-- **[[Turtle]]** - Defensive position where top kneebar entries frequently occur
-- **[[North-South]]** - Alternative top position accessible when transitioning from kneebar control
-- **[[Knee Cut Pass]]** - Passing technique used to advance when kneebar is defended
-- **[[Straight Ankle Lock Control]]** - Alternative leg attack when kneebar angle is unavailable
-- **[[Mount]]** - Dominant position accessible through positional advancement from kneebar control
+- **[[Positions/Half Guard]]** - Common position from which top kneebar entries are initiated
+- **[[Positions/Headquarters Position]]** - Guard passing position offering kneebar attack opportunities
+- **[[Transitions/Kneebar Finish]]** - Terminal submission technique from top kneebar control
+- **[[Positions/Side Control]]** - Positional advancement when kneebar finish is defended
+- **[[Positions/Turtle]]** - Defensive position where top kneebar entries frequently occur
+- **[[Positions/North-South]]** - Alternative top position accessible when transitioning from kneebar control
+- **[[Transitions/Knee Cut Pass]]** - Passing technique used to advance when kneebar is defended
+- **[[Positions/Straight Ankle Lock Control]]** - Alternative leg attack when kneebar angle is unavailable
+- **[[Positions/Mount]]** - Dominant position accessible through positional advancement from kneebar control
 
 
 </section>

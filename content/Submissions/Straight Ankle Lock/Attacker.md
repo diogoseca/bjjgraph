@@ -182,7 +182,7 @@ description: "How to execute Straight Ankle Lock in BJJ. Attacking perspective w
 
 The Straight Ankle Lock (also called Straight Footlock) is the most fundamental lower body submission in Brazilian Jiu-Jitsu, targeting the ankle joint through hyperextension while controlling the leg in Ashi Garami or similar entanglement positions. Unlike heel hooks which attack multiple planes, the straight ankle lock creates a single-axis pressure on the ankle, making it the safest entry point for leg lock training and the foundational technique from which all other lower body attacks develop. The submission works by securing the opponent's foot in your armpit, creating a fulcrum point with your forearm across the top of the foot, then extending your hips forward while pulling back on the foot to create hyperextension of the ankle. The straight ankle lock is legal at all belt levels in IBJJF competition (unlike heel hooks and most knee attacks), making it an essential tool for competitors and a critical defensive skill for all practitioners. When properly applied, the submission creates progressive pressure that allows training partners to recognize the danger and tap before injury occurs, though the ankle joint can be compromised rapidly if excessive force is applied. The technique's effectiveness lies in proper leg control, hip positioning, and the relationship between your chest and the opponent's knee line—control these elements and the finish becomes inevitable regardless of the opponent's defensive efforts.
 
-**From Position**: [[Straight Ankle Lock Control]] (Top)
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 
 </section>
@@ -239,8 +239,8 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Straight Ankle Lock Control]] | 45% |
-| Counter | [[Open Guard]] | 10% |
+| Failure | [[Positions/Straight Ankle Lock Control]] | 45% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -249,11 +249,11 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 
 ## Opponent Defenses
 
-- **Grabbing their own trapped leg with both hands to create a frame and prevent hip extension** (Effectiveness: High) - Your Response: Rather than fighting the grip, shift your angle more perpendicular to their leg, tighten your chest to their knee, and use small hip movements to maintain pressure. Often the grip fatigues and opens up transition to heel hook or back take if they turn away. → Leads to [[Straight Ankle Lock Control]]
-- **Turning their knee inward (internal rotation) to relieve pressure on the ankle** (Effectiveness: Medium) - Your Response: Allow the knee to turn slightly while maintaining foot control, then transition to figure-four grip variation or switch to toe hold which capitalizes on this defensive rotation. Do not fight the knee rotation directly—follow it to a better attack. → Leads to [[Straight Ankle Lock Control]]
-- **Sitting up and reaching for your head or collar to break your posture down** (Effectiveness: Medium) - Your Response: Use your free outside arm to frame against their reaching arm or shoulder, maintaining distance. Keep your head positioned on the outside of their knee where they cannot easily reach it. If they succeed in breaking you forward, transition to back take as they expose their back. → Leads to [[Straight Ankle Lock Control]]
-- **Extracting their heel from your armpit by pulling their leg back explosively** (Effectiveness: High) - Your Response: Anticipate this by keeping your elbow pinched tight and your grip strong before applying finishing pressure. If they succeed in extraction, do not chase the submission—return to Ashi Garami control and re-establish the setup properly. Chasing creates scrambles that favor the defender. → Leads to [[Open Guard]]
-- **Rolling or cartwheeling to relieve pressure and escape the leg entanglement** (Effectiveness: Low) - Your Response: Maintain your inside leg hook and chest connection to their knee—this prevents the roll from being effective. If they commit to the cartwheel, follow them over while maintaining control and often you will land in a more dominant position or with their back exposed. → Leads to [[Open Guard]]
+- **Grabbing their own trapped leg with both hands to create a frame and prevent hip extension** (Effectiveness: High) - Your Response: Rather than fighting the grip, shift your angle more perpendicular to their leg, tighten your chest to their knee, and use small hip movements to maintain pressure. Often the grip fatigues and opens up transition to heel hook or back take if they turn away. → Leads to [[Positions/Straight Ankle Lock Control]]
+- **Turning their knee inward (internal rotation) to relieve pressure on the ankle** (Effectiveness: Medium) - Your Response: Allow the knee to turn slightly while maintaining foot control, then transition to figure-four grip variation or switch to toe hold which capitalizes on this defensive rotation. Do not fight the knee rotation directly—follow it to a better attack. → Leads to [[Positions/Straight Ankle Lock Control]]
+- **Sitting up and reaching for your head or collar to break your posture down** (Effectiveness: Medium) - Your Response: Use your free outside arm to frame against their reaching arm or shoulder, maintaining distance. Keep your head positioned on the outside of their knee where they cannot easily reach it. If they succeed in breaking you forward, transition to back take as they expose their back. → Leads to [[Positions/Straight Ankle Lock Control]]
+- **Extracting their heel from your armpit by pulling their leg back explosively** (Effectiveness: High) - Your Response: Anticipate this by keeping your elbow pinched tight and your grip strong before applying finishing pressure. If they succeed in extraction, do not chase the submission—return to Ashi Garami control and re-establish the setup properly. Chasing creates scrambles that favor the defender. → Leads to [[Positions/Open Guard]]
+- **Rolling or cartwheeling to relieve pressure and escape the leg entanglement** (Effectiveness: Low) - Your Response: Maintain your inside leg hook and chest connection to their knee—this prevents the roll from being effective. If they commit to the cartwheel, follow them over while maintaining control and often you will land in a more dominant position or with their back exposed. → Leads to [[Positions/Open Guard]]
 
 
 </section>

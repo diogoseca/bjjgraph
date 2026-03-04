@@ -180,7 +180,7 @@ description: "Learn to execute the Frame Escape from Darce Control in BJJ. Step-
 
 The Frame Escape from Darce represents the primary systematic response when caught in Darce Control on the bottom. As the attacker executing this escape, your objective is to use structural frames—forearm and hand placements against your opponent's body—to create separation between the choking arm and your neck. This technique demands precise timing, calm composure under submission pressure, and a methodical approach to space creation that progresses from initial frame establishment through arm extraction to guard recovery. The escape leverages fundamental defensive principles: address the immediate threat first by protecting the neck, then systematically improve position through coordinated framing and hip movement. Success depends on understanding that the Darce choke requires your trapped shoulder pressed against your neck, and frames disrupt this compression mechanism.
 
-**From Position**: [[Darce Control]] (Bottom)
+**From Position**: [[Positions/Darce Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The Frame Escape from Darce represents the primary systematic response when caug
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Darce Control]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Darce Control]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Frame Escape from Darce represents the primary systematic response when caug
 
 ## Opponent Counters
 
-- **Opponent tightens grip and drives shoulder pressure deeper before frames are fully established** (Effectiveness: High) - Your Response: Accelerate chin tuck and use both hands to push against opponent's choking arm bicep to create emergency space before transitioning back to hip-based framing → Leads to [[Darce Control]]
-- **Opponent releases Darce grip and immediately transitions to crossface side control as space is created** (Effectiveness: Medium) - Your Response: Redirect frames to side control defense—frame against their far hip and begin standard hip escape to guard recovery before they consolidate side control → Leads to [[Side Control]]
-- **Opponent sprawls hips back and re-angles to maintain choking pressure despite frame placement** (Effectiveness: Medium) - Your Response: Shift frame target from hip to shoulder and combine with a hip switch to change escape angle, disrupting the new choking vector their sprawl created → Leads to [[Darce Control]]
-- **Opponent switches from Darce to anaconda grip configuration as you turn into the choke** (Effectiveness: Low) - Your Response: Continue turning motion which actually weakens the anaconda angle and exploit the grip transition moment to accelerate arm extraction while opponent adjusts hands → Leads to [[Darce Control]]
+- **Opponent tightens grip and drives shoulder pressure deeper before frames are fully established** (Effectiveness: High) - Your Response: Accelerate chin tuck and use both hands to push against opponent's choking arm bicep to create emergency space before transitioning back to hip-based framing → Leads to [[Positions/Darce Control]]
+- **Opponent releases Darce grip and immediately transitions to crossface side control as space is created** (Effectiveness: Medium) - Your Response: Redirect frames to side control defense—frame against their far hip and begin standard hip escape to guard recovery before they consolidate side control → Leads to [[Positions/Side Control]]
+- **Opponent sprawls hips back and re-angles to maintain choking pressure despite frame placement** (Effectiveness: Medium) - Your Response: Shift frame target from hip to shoulder and combine with a hip switch to change escape angle, disrupting the new choking vector their sprawl created → Leads to [[Positions/Darce Control]]
+- **Opponent switches from Darce to anaconda grip configuration as you turn into the choke** (Effectiveness: Low) - Your Response: Continue turning motion which actually weakens the anaconda angle and exploit the grip transition moment to accelerate arm extraction while opponent adjusts hands → Leads to [[Positions/Darce Control]]
 
 
 </section>

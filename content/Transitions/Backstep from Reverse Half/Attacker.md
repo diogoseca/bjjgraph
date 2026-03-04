@@ -186,7 +186,7 @@ description: "Master executing the backstep back take from reverse half guard. S
 
 From the attacker perspective, the backstep from reverse half guard represents a decisive transition point in the backstep passing chain where positional advantage converts into dominant back control. The top player has already achieved the difficult work of circling behind the bottom player's half guard, and the backstep completes this sequence by establishing hooks and full back control. Success requires maintaining continuous chest-to-back connection while executing a coordinated stepping motion, seatbelt grip management, and systematic hook insertion. The technique rewards patient setup and precise timing over explosive force, with the highest success rates occurring when the backstep is initiated during the opponent's defensive turning motion.
 
-**From Position**: [[Reverse Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Reverse Half Guard]] (Top)
 
 </section>
 
@@ -240,9 +240,9 @@ From the attacker perspective, the backstep from reverse half guard represents a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Reverse Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Half Guard/Reverse Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ From the attacker perspective, the backstep from reverse half guard represents a
 
 ## Opponent Counters
 
-- **Bottom player tucks elbows tight and blocks seatbelt grip establishment with defensive hand positioning** (Effectiveness: Medium) - Your Response: Use crossface pressure to drive their far arm away from their body, creating the gap needed for the underhook arm of the seatbelt. Alternatively, switch to double underhooks control which bypasses elbow defense. → Leads to [[Reverse Half Guard]]
-- **Bottom player bridges explosively and turns into the attacker during the backstep arc when the free leg is airborne** (Effectiveness: High) - Your Response: Do not fight the turn. Instead, follow the rotation with your seatbelt grip, staying glued to their back as they turn. If you maintain chest connection through the roll, you often end up in back control on the opposite side. → Leads to [[Half Guard]]
-- **Bottom player grabs the stepping leg with both hands to block the arc before it clears their body** (Effectiveness: Medium) - Your Response: Pull your stepping leg back and reset the attempt. Their hand commitment to your leg exposes their neck and upper body, so attack with crossface pressure or switch to a direct pass to side control using their compromised arm positioning. → Leads to [[Reverse Half Guard]]
-- **Bottom player hip escapes aggressively away to re-clamp the half guard and deny hook insertion space** (Effectiveness: Low) - Your Response: Follow their hip escape with your own hip movement, maintaining the seatbelt grip as your constant connection point. Their retreat actually helps your trapped leg extraction since they are moving away from the entanglement. → Leads to [[Reverse Half Guard]]
+- **Bottom player tucks elbows tight and blocks seatbelt grip establishment with defensive hand positioning** (Effectiveness: Medium) - Your Response: Use crossface pressure to drive their far arm away from their body, creating the gap needed for the underhook arm of the seatbelt. Alternatively, switch to double underhooks control which bypasses elbow defense. → Leads to [[Positions/Half Guard/Reverse Half Guard]]
+- **Bottom player bridges explosively and turns into the attacker during the backstep arc when the free leg is airborne** (Effectiveness: High) - Your Response: Do not fight the turn. Instead, follow the rotation with your seatbelt grip, staying glued to their back as they turn. If you maintain chest connection through the roll, you often end up in back control on the opposite side. → Leads to [[Positions/Half Guard]]
+- **Bottom player grabs the stepping leg with both hands to block the arc before it clears their body** (Effectiveness: Medium) - Your Response: Pull your stepping leg back and reset the attempt. Their hand commitment to your leg exposes their neck and upper body, so attack with crossface pressure or switch to a direct pass to side control using their compromised arm positioning. → Leads to [[Positions/Half Guard/Reverse Half Guard]]
+- **Bottom player hip escapes aggressively away to re-clamp the half guard and deny hook insertion space** (Effectiveness: Low) - Your Response: Follow their hip escape with your own hip movement, maintaining the seatbelt grip as your constant connection point. Their retreat actually helps your trapped leg extraction since they are moving away from the entanglement. → Leads to [[Positions/Half Guard/Reverse Half Guard]]
 
 
 </section>

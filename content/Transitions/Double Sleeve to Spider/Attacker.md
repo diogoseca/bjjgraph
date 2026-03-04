@@ -180,7 +180,7 @@ description: "Learn to execute the Double Sleeve to Spider Guard transition. Ste
 
 As the attacker executing the Double Sleeve to Spider transition, your primary objective is to upgrade your foot positioning from the opponent's hips to their biceps while maintaining your existing sleeve grips throughout. This transition converts your distance management guard into an active attacking platform with superior mechanical advantage. The key challenge is managing the transition window—the brief period where your feet leave the hips but have not yet established on the biceps. During this window, your sleeve grips become your primary line of defense, making grip quality and tension critical to success. Expert execution involves reading the opponent's weight distribution, selecting the correct foot to move first based on their posture, and using the transition itself as an offensive opportunity rather than a purely positional adjustment.
 
-**From Position**: [[Double Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Double Sleeve to Spider transition, your primary o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Spider Guard]] | 55% |
-| Failure | [[Double Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Spider Guard]] | 55% |
+| Failure | [[Positions/Double Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Double Sleeve to Spider transition, your primary o
 
 ## Opponent Counters
 
-- **Opponent strips one sleeve grip during foot transition** (Effectiveness: High) - Your Response: Immediately retract the transitioning foot back to their hip and use the remaining sleeve grip to pull them off-balance while re-establishing the broken grip. If re-gripping fails, transition to collar-sleeve or lasso guard using the remaining sleeve control. → Leads to [[Double Sleeve Guard]]
-- **Opponent drives forward aggressively to close distance before hooks are established** (Effectiveness: Medium) - Your Response: Use the forward momentum to load a sweep by pulling sleeves overhead while planting feet on their hips and extending. Their committed weight makes them vulnerable to elevation sweeps. Alternatively, close guard temporarily if they achieve chest-to-chest contact. → Leads to [[Double Sleeve Guard]]
-- **Opponent circles laterally to create angle and strip the bicep hook** (Effectiveness: Medium) - Your Response: Follow their circling movement with your hips, maintaining perpendicular alignment. On the side they circle toward, convert your spider hook into a lasso by threading your leg under their arm. Their lateral movement actually assists the lasso entry. → Leads to [[Spider Guard]]
-- **Opponent pulls arms back sharply to prevent foot placement on biceps** (Effectiveness: Low) - Your Response: Their backward pull compromises their base—sit up immediately following their arm retraction and use the momentum to enter a technical standup or directly attack with a tripod sweep. Their withdrawn arms cannot post to defend the sweep. → Leads to [[Open Guard]]
+- **Opponent strips one sleeve grip during foot transition** (Effectiveness: High) - Your Response: Immediately retract the transitioning foot back to their hip and use the remaining sleeve grip to pull them off-balance while re-establishing the broken grip. If re-gripping fails, transition to collar-sleeve or lasso guard using the remaining sleeve control. → Leads to [[Positions/Double Sleeve Guard]]
+- **Opponent drives forward aggressively to close distance before hooks are established** (Effectiveness: Medium) - Your Response: Use the forward momentum to load a sweep by pulling sleeves overhead while planting feet on their hips and extending. Their committed weight makes them vulnerable to elevation sweeps. Alternatively, close guard temporarily if they achieve chest-to-chest contact. → Leads to [[Positions/Double Sleeve Guard]]
+- **Opponent circles laterally to create angle and strip the bicep hook** (Effectiveness: Medium) - Your Response: Follow their circling movement with your hips, maintaining perpendicular alignment. On the side they circle toward, convert your spider hook into a lasso by threading your leg under their arm. Their lateral movement actually assists the lasso entry. → Leads to [[Positions/Spider Guard]]
+- **Opponent pulls arms back sharply to prevent foot placement on biceps** (Effectiveness: Low) - Your Response: Their backward pull compromises their base—sit up immediately following their arm retraction and use the momentum to enter a technical standup or directly attack with a tripod sweep. Their withdrawn arms cannot post to defend the sweep. → Leads to [[Positions/Open Guard]]
 
 
 </section>

@@ -154,7 +154,7 @@ description: "How to defend against North-South to Kimura in BJJ. Recognition cu
 
 Defending the North-South to Kimura transition requires early recognition and disciplined arm management from the bottom position. The defender faces a significant positional disadvantage: their shoulders are pinned under the attacker's perpendicular chest pressure, their hip mobility is restricted, and breathing is labored. The primary defensive strategy centers on preventing arm isolation before the Kimura grip is established, as once the figure-four is locked with proper depth, escape becomes exponentially more difficult. Defenders must understand the sequential nature of the attack - arm exposure, wrist control, cross-body feed, figure-four grip, angle adjustment - and interrupt the chain at the earliest possible stage. Keeping elbows pinched tight to the ribs, fighting for inside wrist control, and timing defensive movements to the attacker's weight shifts are the cornerstones of effective defense. When prevention fails and the grip is established, the defender must choose between turning into the attacker to relieve shoulder pressure (risking back exposure), bridging explosively during the attacker's angle adjustment phase, or inserting a knee to recover half guard. Each defensive option carries specific risks and rewards that must be weighed against the attacker's progression toward the finish.
 
-**Opponent's Starting Position**: [[North-South]] (Top)
+**Opponent's Starting Position**: [[Positions/North-South]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the North-South to Kimura transition requires early recognition and di
 ### 1. Grip your own belt, shorts, or clasp hands together to anchor your near-side arm and prevent cross-body feed
 
 - **When to use**: Immediately when you feel the attacker attempting to isolate your near-side arm by gripping your wrist or forearm
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: Attacker cannot complete the arm feed across your body and must abandon the Kimura attempt or switch attacks, allowing you to reset your defensive posture
 - **Risk**: Your defensive grip commits both arms, leaving you unable to frame or create escape space. The attacker may switch to a choke or far-side armbar to force you to release
 
 ### 2. Bridge explosively toward the attacker's Kimura side when they shift weight to establish the figure-four grip
 
 - **When to use**: During the attacker's grip transition phase when their weight momentarily shifts laterally and their base narrows as they reach for the figure-four
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: You disrupt their base and potentially create enough space to recover your arm or turn to your side, returning the position to neutral North-South control
 - **Risk**: If the bridge fails and the attacker rides it out, you expend significant energy and the attacker re-settles with an even more secure position and better angle
 
 ### 3. Turn into the attacker by hip escaping toward them and inserting your knee to recover half guard
 
 - **When to use**: When the attacker begins walking knees toward your head and their chest pressure shifts, creating a brief window where your hips have room to move
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard and remove the North-South angle that enables the Kimura, forcing the attacker to deal with your guard before re-attempting the submission
 - **Risk**: If the attacker maintains the Kimura grip while you turn, you may expose your back. The attacker can follow your rotation and transition to back control with the grip intact
 
 ### 4. Straighten your arm forcefully to prevent the figure-four grip from closing
 
 - **When to use**: When the attacker has wrist control but has not yet locked the figure-four - you feel them reaching over your arm with their far hand
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: The attacker cannot complete the figure-four configuration and must release or adjust, giving you time to retract your arm and re-establish elbows-tight defense
 - **Risk**: Your straight extended arm is now perfectly positioned for an armbar. The attacker can immediately switch to an armbar attack on your extended limb
 
@@ -224,11 +224,11 @@ Defending the North-South to Kimura transition requires early recognition and di
 
 ## Best-Case Outcomes for Defender
 
-### → [[North-South]]
+### → [[Positions/North-South]]
 
 Prevent arm isolation by keeping elbows pinched tight to ribs, fighting for inside wrist control, and gripping your own belt or shorts when you feel the attacker reaching for your arm. Bridge during their weight shifts to disrupt base. This returns the position to standard North-South where you can work your escape sequences without the Kimura threat.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a hip escape during the attacker's angle adjustment phase when they walk their knees toward your head and their chest pressure momentarily decreases. Turn into the attacker and insert your knee between your bodies to establish half guard. The knee acts as a frame that prevents them from re-establishing North-South pressure and removes the perpendicular angle needed for the Kimura.
 

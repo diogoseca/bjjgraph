@@ -21,7 +21,7 @@ The effectiveness of the double leg finish lies in its directness and mechanical
 
 Mastery of the double leg finish is essential for any grappler's takedown game, as the entry without a solid finish leaves the practitioner vulnerable to guillotine chokes, sprawls, and scrambles. The finish must be practiced with emphasis on maintaining connection throughout the motion, controlling the opponent's landing, and immediately transitioning to dominant position without allowing guard establishment or re-guarding opportunities.
 
-**From Position**: [[Clinch]] (Top)
+**From Position**: [[Positions/Clinch]] (Top)
 **Success Rate**: 82%
 
 </section>
@@ -32,9 +32,9 @@ Mastery of the double leg finish is essential for any grappler's takedown game, 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 75% |
-| Failure | [[Clinch]] | 15% |
-| Counter | [[Clinch]] | 10% |
+| Success | [[Positions/Side Control]] | 75% |
+| Failure | [[Positions/Clinch]] | 15% |
+| Counter | [[Positions/Clinch]] | 10% |
 
 
 </section>
@@ -199,29 +199,29 @@ The double leg finish also integrates defensively within the scrambling system. 
 ## Related Techniques
 
 
-- [[Double Leg Entry]] - Prerequisite technique - establishes the penetration position from which the finish is executed
+- [[Transitions/Double Leg Entry]] - Prerequisite technique - establishes the penetration position from which the finish is executed
 
-- [[Double Leg Setup]] - Prerequisite setup phase - creates the opportunity for entry and finish through grip fighting and angle creation
+- [[Transitions/Double Leg Setup]] - Prerequisite setup phase - creates the opportunity for entry and finish through grip fighting and angle creation
 
-- [[Single Leg Takedown]] - Alternative finishing technique - shares similar mechanical principles but from single leg rather than double leg structure
+- [[Transitions/Single Leg Takedown]] - Alternative finishing technique - shares similar mechanical principles but from single leg rather than double leg structure
 
-- [[High Crotch]] - Related entry variation - can transition to double leg finish mechanics with modified grip structure
+- [[Transitions/High Crotch]] - Related entry variation - can transition to double leg finish mechanics with modified grip structure
 
-- [[Body Lock Pass]] - Similar driving mechanics - uses comparable hip extension and forward pressure principles in different context
+- [[Transitions/Body Lock Pass]] - Similar driving mechanics - uses comparable hip extension and forward pressure principles in different context
 
-- [[Side Control to Mount]] - Follow-up transition - common positional advancement after establishing side control from the finish
+- [[Transitions/Side Control to Mount]] - Follow-up transition - common positional advancement after establishing side control from the finish
 
-- [[Break Clinch]] - Defensive clinch technique - understanding clinch escape mechanics helps time the finish before opponent can disengage
+- [[Transitions/Break Clinch]] - Defensive clinch technique - understanding clinch escape mechanics helps time the finish before opponent can disengage
 
-- [[Guillotine Choke]] - Common counter to defend against - requires awareness and technical adjustments during finish execution
+- [[Transitions/Guillotine Choke]] - Common counter to defend against - requires awareness and technical adjustments during finish execution
 
-- [[Guard Opening Sequence]] - Contingency technique - needed if opponent establishes guard during landing phase
+- [[Transitions/Guard Opening Sequence]] - Contingency technique - needed if opponent establishes guard during landing phase
 
-- [[Ankle Pick]] - Alternative technique - can be used as transition when double leg finish is compromised by defensive reactions
+- [[Transitions/Ankle Pick]] - Alternative technique - can be used as transition when double leg finish is compromised by defensive reactions
 
-- [[Standing Position]] - Starting context - the neutral standing position from which takedown sequences are initiated
+- [[Positions/Standing Position]] - Starting context - the neutral standing position from which takedown sequences are initiated
 
-- [[Side Control]] - Primary ending position - most common positional outcome of successful double leg finish
+- [[Positions/Side Control]] - Primary ending position - most common positional outcome of successful double leg finish
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Learn to defend the Sweep from Zombie Guard in BJJ. Recognition cu
 
 Defending the Sweep from Zombie Guard requires understanding the biomechanical vulnerabilities the lockdown system exploits and addressing them before the sweep reaches its mechanical tipping point. The defender occupying Zombie Top must prevent the three conditions that make the sweep sound: deep underhook connection, lateral lockdown stretch creating base disruption, and hip elevation generating rotational force. Effective defense prioritizes maintaining crossface control to flatten the bottom player's angle, neutralizing the underhook through whizzer or swim-through techniques, and keeping weight distributed low through the hips to resist elevation. Recognition of the sweep's setup phase is critical because once all three components align simultaneously, the sweep becomes extremely difficult to resist regardless of size or strength advantage.
 
-**Opponent's Starting Position**: [[Zombie]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Zombie]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Sweep from Zombie Guard requires understanding the biomechanical v
 ### 1. Drive heavy crossface and flatten the bottom player before the sweep angle develops
 
 - **When to use**: Early in the setup when you feel the bottom player beginning to walk their feet toward your hips and create the perpendicular angle
-- **Targets**: [[Zombie]]
+- **Targets**: [[Positions/Rubber Guard/Zombie]]
 - **If successful**: Bottom player is flattened on their back, losing the hip angle and underhook depth needed for the sweep entirely
 - **Risk**: Over-committing to crossface can expose your far arm to kimura attack or allow the bottom player to transition to Deep Half Guard entry
 
 ### 2. Establish a deep whizzer on the underhook arm and drive your hip into the bottom player's shoulder
 
 - **When to use**: When you feel the underhook deepening and the bottom player driving their shoulder into your chest with increasing pressure
-- **Targets**: [[Zombie]]
+- **Targets**: [[Positions/Rubber Guard/Zombie]]
 - **If successful**: Neutralizes the rotational axis of the sweep, preventing the bottom player from generating sufficient turning force for the reversal
 - **Risk**: Whizzer can be countered by the bottom player swimming their arm through for a deeper underhook or switching to an overhook sweep variation
 
 ### 3. Post your far leg wide and drop your hip to create a triangular base that absorbs sweep force
 
 - **When to use**: When you feel lockdown stretch and hip elevation beginning simultaneously, indicating the sweep execution has been initiated
-- **Targets**: [[Zombie]]
+- **Targets**: [[Positions/Rubber Guard/Zombie]]
 - **If successful**: Creates a wide triangular base that absorbs the sweep force without being overturned, allowing you to re-settle top pressure and resume passing
 - **Risk**: Wide base posting opens space for Electric Chair entry or allows transition to Deep Half Guard underneath your elevated hip
 
 ### 4. Strip the lockdown by posting on your trapped knee and pulling your leg free while maintaining upper body control
 
 - **When to use**: When the sweep is developing but not yet at full execution and you have sufficient base to dedicate effort toward leg extraction
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Removes the lockdown entanglement entirely, eliminating the primary sweep mechanic and reducing the bottom player to standard open guard
 - **Risk**: If you lose upper body control during leg extraction, the bottom player may use the transition moment to complete the sweep or recover a different guard
 
@@ -217,11 +217,11 @@ Defending the Sweep from Zombie Guard requires understanding the biomechanical v
 
 ## Best-Case Outcomes for Defender
 
-### → [[Zombie]]
+### → [[Positions/Rubber Guard/Zombie]]
 
 Maintain heavy crossface pressure combined with whizzer control to neutralize both the underhook axis and the angle creation simultaneously. Drive your weight diagonally forward to flatten the bottom player onto their back, removing their ability to generate the hip angle needed for elevation. Once flattened, work systematically to extract your leg from the lockdown and advance to side control through established passing sequences.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip the lockdown entanglement by posting on your trapped knee and methodically working your leg free while maintaining consistent chest pressure on the bottom player's upper body. Once the lockdown breaks, the bottom player loses their primary sweep mechanic and control structure, falling back to standard open guard where you have superior passing options and a significant positional advantage to exploit.
 

@@ -146,7 +146,7 @@ description: "Learn to counter the straighten leg kneebar defense in BJJ. Techni
 
 When your opponent begins straightening their leg against your kneebar control, you face a critical decision point that determines whether you maintain your attacking position, transition to an alternative submission, or lose the position entirely. As the kneebar attacker, your primary objective is to prevent the opponent from achieving full leg extension, which would eliminate your finishing leverage and create space for them to extract their leg. Recognizing the early indicators of this defense—quadriceps engagement, hip rotation, free foot posting—allows you to counter before the defense gains momentum. Your response options range from re-breaking the leg bend to maintain kneebar pressure, transitioning to alternative leg attacks like heel hooks or ankle locks that exploit the angles created by their defensive movement, or readjusting your control mechanics to shut down the escape before it develops fully.
 
-**Opponent's Starting Position**: [[Kneebar Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Kneebar Control]] (Bottom)
 
 </section>
 
@@ -182,7 +182,7 @@ When your opponent begins straightening their leg against your kneebar control, 
 ### 1. Sharply re-break the leg bend by driving hips forward and pulling the leg back to bent position with a quick two-arm pull
 
 - **When to use**: Early in the defense when the opponent has begun extending but has not yet reached past 50% extension
-- **Targets**: [[Kneebar Control]]
+- **Targets**: [[Positions/Kneebar Control]]
 - **If successful**: Kneebar control is fully re-established with the opponent's leg returned to bent position for finishing
 - **Risk**: If the re-break timing is off, the opponent may use your forward drive momentum to accelerate their extraction
 
@@ -196,7 +196,7 @@ When your opponent begins straightening their leg against your kneebar control, 
 ### 3. Readjust hip fulcrum by driving hips higher on the opponent's leg while squeezing elbows tighter to maintain grip despite extension pressure
 
 - **When to use**: When the opponent's extension is gradual and you have time to make positional adjustments rather than requiring urgent counter
-- **Targets**: [[Kneebar Control]]
+- **Targets**: [[Positions/Kneebar Control]]
 - **If successful**: Improved control position with stronger fulcrum angle that is more resistant to subsequent extension attempts
 - **Risk**: Hip adjustment may temporarily reduce pressure, creating a brief window for opponent to accelerate their defense
 
@@ -215,7 +215,7 @@ When your opponent begins straightening their leg against your kneebar control, 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Kneebar Control]]
+### → [[Positions/Kneebar Control]]
 
 Re-break the opponent's leg extension early by driving hips forward and sharply pulling the leg back to bent position with elbows squeezed tight, then immediately tighten all control points to prevent repeated defense attempts
 

@@ -95,29 +95,29 @@ Both perspectives share the common principle of using leg-based controls to crea
 ### Available Transitions
 
 
-- **[[Deep Half Entry]]** (48% of attempts)
+- **[[Transitions/Deep Half Entry]]** (48% of attempts)
 
-- **[[Old School Sweep]]** (12% of attempts)
+- **[[Transitions/Old School Sweep]]** (12% of attempts)
 
-- **[[Waiter Sweep]]** (8% of attempts)
+- **[[Transitions/Waiter Sweep]]** (8% of attempts)
 
-- **[[100% Sweep]]** (7% of attempts)
+- **[[Transitions/100% Sweep]]** (7% of attempts)
 
-- **[[Half Guard to Back Take]]** (7% of attempts)
+- **[[Transitions/Half Guard to Back Take]]** (7% of attempts)
 
-- **[[Electric Chair Transition]]** (4% of attempts)
+- **[[Transitions/Electric Chair Transition]]** (4% of attempts)
 
-- **[[Lockdown Recovery]]** (7% of attempts)
+- **[[Transitions/Lockdown Recovery]]** (7% of attempts)
 
-- **[[X-Guard Sweep]]** (2% of attempts)
+- **[[Transitions/X-Guard Sweep]]** (2% of attempts)
 
-- **[[Single Leg X Entry]]** (4% of attempts)
+- **[[Transitions/Single Leg X Entry]]** (4% of attempts)
 
-- **[[Escape Double Jump]]** (0% of attempts)
+- **[[Transitions/Escape Double Jump]]** (0% of attempts)
 
-- **[[Reguard from Double Jump]]** (0% of attempts)
+- **[[Transitions/Reguard from Double Jump]]** (0% of attempts)
 
-- **[[Sweep from Double Jump]]** (1% of attempts)
+- **[[Transitions/Sweep from Double Jump]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -182,21 +182,21 @@ Both perspectives share the common principle of using leg-based controls to crea
 ### Available Transitions
 
 
-- **[[Turtle to Back Control]]** (38% of attempts)
+- **[[Transitions/Turtle to Back Control]]** (38% of attempts)
 
-- **[[Crab Ride to Back]]** (20% of attempts)
+- **[[Transitions/Crab Ride to Back]]** (20% of attempts)
 
-- **[[Turtle to Truck]]** (13% of attempts)
+- **[[Transitions/Turtle to Truck]]** (13% of attempts)
 
-- **[[Rolling Back Take]]** (10% of attempts)
+- **[[Transitions/Rolling Back Take]]** (10% of attempts)
 
-- **[[Turtle to Rodeo Ride]]** (6% of attempts)
+- **[[Transitions/Turtle to Rodeo Ride]]** (6% of attempts)
 
-- **[[Sit to Half Guard]]** (8% of attempts)
+- **[[Transitions/Sit to Half Guard]]** (8% of attempts)
 
-- **[[Double Jump to Mount]]** (3% of attempts)
+- **[[Transitions/Double Jump to Mount]]** (3% of attempts)
 
-- **[[Double Jump to Side Control]]** (2% of attempts)
+- **[[Transitions/Double Jump to Side Control]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -235,25 +235,25 @@ Both perspectives share the common principle of using leg-based controls to crea
 ## Related Positions
 
 
-- **[[Deep Half Guard]]** - Primary target from bottom Double Jump - explosive entry destination
+- **[[Positions/Half Guard/Deep Half Guard]]** - Primary target from bottom Double Jump - explosive entry destination
 
-- **[[Lockdown]]** - Alternative bottom development when deep half entry is defended
+- **[[Positions/Half Guard/Lockdown]]** - Alternative bottom development when deep half entry is defended
 
-- **[[Turtle]]** - Starting position for top Double Jump attacks
+- **[[Positions/Turtle]]** - Starting position for top Double Jump attacks
 
-- **[[Back Control]]** - Primary advancement target from both Double Jump perspectives
+- **[[Positions/Back Control]]** - Primary advancement target from both Double Jump perspectives
 
-- **[[Crab Ride]]** - Alternative top control using similar leg hook mechanics
+- **[[Positions/Crab Ride]]** - Alternative top control using similar leg hook mechanics
 
-- **[[Truck]]** - Advanced leg entanglement accessible from top Double Jump
+- **[[Positions/Twister Control/Truck]]** - Advanced leg entanglement accessible from top Double Jump
 
-- **[[Electric Chair]]** - Submission threat from successful bottom Double Jump entry
+- **[[Positions/Half Guard/Electric Chair]]** - Submission threat from successful bottom Double Jump entry
 
-- **[[Half Guard]]** - Parent bottom position - Double Jump is advanced recovery technique
+- **[[Positions/Half Guard]]** - Parent bottom position - Double Jump is advanced recovery technique
 
-- **[[X-Guard]]** - Alternative guard when opponent stands from Double Jump bottom
+- **[[Positions/X-Guard]]** - Alternative guard when opponent stands from Double Jump bottom
 
-- **[[Twister Control]]** - System progression - top Double Jump serves as truck entry point
+- **[[Positions/Twister Control]]** - System progression - top Double Jump serves as truck entry point
 
 
 </section>

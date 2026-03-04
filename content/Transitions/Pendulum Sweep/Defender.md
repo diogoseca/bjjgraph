@@ -148,7 +148,7 @@ description: "How to defend against Pendulum Sweep in BJJ. Recognition cues, def
 
 Defending the Pendulum Sweep requires understanding its mechanical prerequisites and recognizing the setup before the sweeping motion begins, because once the pendulum leg is fully chambered and swinging, the technique becomes extremely difficult to stop. As the top player inside closed guard, your primary defensive tools are posture maintenance, grip fighting, and base awareness. The Pendulum Sweep exploits specific conditions: your opponent needs to establish controlling grips, create a hip angle perpendicular to your centerline, and chamber the pendulum leg high before executing the arc. Each of these prerequisites represents a defensive checkpoint where intervention is most effective. Your defense should focus on denying these conditions systematically rather than trying to resist the sweep after it has been initiated. Grip denial and base management are your highest-percentage defensive strategies, while reactive defenses like posting become necessary fallbacks when early prevention fails.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -183,21 +183,21 @@ Defending the Pendulum Sweep requires understanding its mechanical prerequisites
 ### 1. Strip the sleeve grip using a two-on-one break before opponent can establish full control, then immediately pin their hand to their chest or the mat
 
 - **When to use**: Early in the setup when opponent first grabs your sleeve and before they have created hip angle or chambered the pendulum leg
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Opponent loses the primary control grip needed for the sweep and must reset their attack from neutral closed guard
 - **Risk**: If grip break fails or is too slow, opponent may have already created sufficient angle and can proceed with the sweep using remaining collar control
 
 ### 2. Drive your hips forward and re-center your weight over opponent's torso while widening your knee base to resist the rotational force of the pendulum motion
 
 - **When to use**: When opponent has already created a hip angle and is beginning to chamber the pendulum leg, but has not yet initiated the downward swing
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Opponent's angle is neutralized, removing the mechanical advantage needed for the pendulum arc to generate sweeping force
 - **Risk**: Driving forward too aggressively without grip control may expose you to Hip Bump Sweep or Flower Sweep if opponent redirects
 
 ### 3. Post your far hand wide on the mat and drop your weight toward the sweeping direction while stepping your far knee out to create a tripod base
 
 - **When to use**: As a last-resort reactive defense when the pendulum leg is already swinging and sweep initiation is underway
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Your posted hand and wide base absorb the rotational force, preventing the sweep completion and potentially allowing you to pass if opponent's guard is open
 - **Risk**: The posted arm becomes vulnerable to Kimura, Omoplata, or Triangle attacks if the opponent transitions to follow-up submissions on your extended limb
 
@@ -209,11 +209,11 @@ Defending the Pendulum Sweep requires understanding its mechanical prerequisites
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Deny the sweep early by stripping grips and re-centering your base before the pendulum motion begins, forcing the opponent back to neutral closed guard position where they must rebuild their entire attack setup
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 If the sweep is partially defended but the opponent's guard has opened during the attempt, use the opening to initiate guard passing by controlling their legs and establishing passing grips before they can re-close their guard
 

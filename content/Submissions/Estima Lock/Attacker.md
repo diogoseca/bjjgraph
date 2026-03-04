@@ -186,7 +186,7 @@ What makes the Estima Lock particularly effective is its deceptive setup - it of
 
 The technique requires precise control and understanding of leg entanglement mechanics. Success depends on proper positioning of the attacking leg behind the opponent's knee, correct hand placement on the foot, and coordinated pressure application. When executed correctly, the Estima Lock can finish opponents quickly, but it also serves as an excellent sweeping mechanism and position advancement tool. The submission is particularly valuable in modern leg lock systems where transitions between different leg attacks create layered offensive threats.
 
-**From Position**: [[50-50 Guard]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 
 
 </section>
@@ -243,8 +243,8 @@ The technique requires precise control and understanding of leg entanglement mec
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Ashi Garami]] | 25% |
-| Counter | [[Standing Position]] | 15% |
+| Failure | [[Positions/Ashi Garami]] | 25% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -253,10 +253,10 @@ The technique requires precise control and understanding of leg entanglement mec
 
 ## Opponent Defenses
 
-- **Pull foot free from hand grip** (Effectiveness: Medium) - Your Response: Immediately switch to toe hold or outside heel hook as their foot movement creates openings for these attacks. Maintain leg entanglement throughout the transition. → Leads to [[Ashi Garami]]
-- **Straighten leg to remove knee bend** (Effectiveness: High) - Your Response: Use their leg straightening motion to sweep them backward or transition to straight ankle lock. Their force works against them when redirected. Maintain hand control on foot throughout. → Leads to [[Ashi Garami]]
-- **Clear attacking leg from behind knee** (Effectiveness: Medium) - Your Response: As they clear your leg, immediately reposition to inside position and switch to inside heel hook or kneebar. The leg clearing motion often exposes other submission opportunities. → Leads to [[Ashi Garami]]
-- **Create distance with hips and stand up** (Effectiveness: High) - Your Response: Follow their hip movement and use your free leg to re-close distance. If distance is created, abandon Estima Lock and switch to sweep or position advancement. Never chase a lost position. → Leads to [[Standing Position]]
+- **Pull foot free from hand grip** (Effectiveness: Medium) - Your Response: Immediately switch to toe hold or outside heel hook as their foot movement creates openings for these attacks. Maintain leg entanglement throughout the transition. → Leads to [[Positions/Ashi Garami]]
+- **Straighten leg to remove knee bend** (Effectiveness: High) - Your Response: Use their leg straightening motion to sweep them backward or transition to straight ankle lock. Their force works against them when redirected. Maintain hand control on foot throughout. → Leads to [[Positions/Ashi Garami]]
+- **Clear attacking leg from behind knee** (Effectiveness: Medium) - Your Response: As they clear your leg, immediately reposition to inside position and switch to inside heel hook or kneebar. The leg clearing motion often exposes other submission opportunities. → Leads to [[Positions/Ashi Garami]]
+- **Create distance with hips and stand up** (Effectiveness: High) - Your Response: Follow their hip movement and use your free leg to re-close distance. If distance is created, abandon Estima Lock and switch to sweep or position advancement. Never chase a lost position. → Leads to [[Positions/Standing Position]]
 - **Counter with their own foot attack** (Effectiveness: Low) - Your Response: Your position in 50-50 bottom often provides better angle for Estima Lock than their counter attacks. Maintain pressure and finish before they can establish their attack. Speed and commitment win simultaneous leg lock situations. → Leads to [[game-over]]
 
 

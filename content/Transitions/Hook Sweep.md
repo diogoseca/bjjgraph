@@ -21,7 +21,7 @@ The Hook Sweep is one of the most high-percentage sweeps from butterfly guard du
 
 The sweep can be executed from both seated and combat base butterfly positions, and its success depends on timing the lift with the opponent's forward weight commitment, maintaining deep hook placement under the thigh, and following through aggressively to secure side control. At the highest levels, the hook sweep becomes a forcing function that creates dilemmas: defending the sweep exposes the opponent to back takes, submissions on posted arms, and guard transitions that are equally dangerous.
 
-**From Position**: [[Butterfly Guard]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard]] (Bottom)
 **Success Rate**: 68%
 
 </section>
@@ -32,9 +32,9 @@ The sweep can be executed from both seated and combat base butterfly positions, 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 68% |
-| Failure | [[Butterfly Guard]] | 20% |
-| Counter | [[Butterfly Guard]] | 12% |
+| Success | [[Positions/Side Control]] | 68% |
+| Failure | [[Positions/Butterfly Guard]] | 20% |
+| Counter | [[Positions/Butterfly Guard]] | 12% |
 
 
 </section>
@@ -196,25 +196,25 @@ The hook sweep is a cornerstone technique within the butterfly guard system and 
 ## Related Techniques
 
 
-- [[Butterfly Sweep]] - Foundational technique - primary butterfly guard sweep sharing similar mechanics but different angle
+- [[Transitions/Butterfly Sweep]] - Foundational technique - primary butterfly guard sweep sharing similar mechanics but different angle
 
-- [[Elevator Sweep]] - Complementary technique - alternative butterfly sweep using different leverage and hook mechanics
+- [[Transitions/Elevator Sweep]] - Complementary technique - alternative butterfly sweep using different leverage and hook mechanics
 
-- [[Arm Drag to Back]] - Combination setup - arm drag creates entry angle and chains directly with hook sweep
+- [[Transitions/Arm Drag to Back]] - Combination setup - arm drag creates entry angle and chains directly with hook sweep
 
-- [[Kimura from Guard]] - Counter to defense - attacks posted arm when opponent defends sweep by posting
+- [[Submissions/Kimura from Guard]] - Counter to defense - attacks posted arm when opponent defends sweep by posting
 
-- [[Deep Half Guard]] - Transition option - entry when opponent sprawls hips back to defend hook sweep
+- [[Positions/Half Guard/Deep Half Guard]] - Transition option - entry when opponent sprawls hips back to defend hook sweep
 
-- [[Butterfly Guard]] - Starting position - foundational guard from which hook sweep is executed
+- [[Positions/Butterfly Guard]] - Starting position - foundational guard from which hook sweep is executed
 
-- [[Side Control]] - Ending position - primary finishing position after successful sweep
+- [[Positions/Side Control]] - Ending position - primary finishing position after successful sweep
 
-- [[Guillotine Choke]] - Submission threat - available when opponent drops head to defend sweep
+- [[Transitions/Guillotine Choke]] - Submission threat - available when opponent drops head to defend sweep
 
-- [[Butterfly Guard to X-Guard]] - Alternative transition - chain option when opponent stands or sprawls to defend
+- [[Transitions/Butterfly Guard to X-Guard]] - Alternative transition - chain option when opponent stands or sprawls to defend
 
-- [[Basic Butterfly Sweep]] - Related technique - simpler sweep variant sharing the same guard platform
+- [[Transitions/Basic Butterfly Sweep]] - Related technique - simpler sweep variant sharing the same guard platform
 
 
 </section>

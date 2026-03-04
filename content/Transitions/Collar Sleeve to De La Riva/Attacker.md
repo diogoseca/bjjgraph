@@ -180,7 +180,7 @@ description: "Execute the collar sleeve to De La Riva guard transition. Step-by-
 
 As the attacker executing this transition, your objective is to smoothly convert your collar sleeve guard structure into a fully functional De La Riva guard while maintaining continuous control over your opponent. The transition is triggered by the opponent standing or posturing up, which reduces the effectiveness of your collar pull but creates the standing posture that DLR exploits. Success depends on precise timing of the hook insertion, coordinated grip conversion, and maintaining at least one controlling connection throughout the switch. The goal is to arrive in DLR with immediate offensive options rather than needing to rebuild your guard from scratch.
 
-**From Position**: [[Collar Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Collar Sleeve Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing this transition, your objective is to smoothly convert
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[De La Riva Guard]] | 55% |
-| Failure | [[Collar Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/De La Riva Guard]] | 55% |
+| Failure | [[Positions/Collar Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing this transition, your objective is to smoothly convert
 
 ## Opponent Counters
 
-- **Opponent backsteps to extract the leg before the hook fully sets** (Effectiveness: High) - Your Response: Follow their backstep with your hips, maintaining collar or ankle contact. If the hook is partially cleared, immediately re-insert it or transition to reverse De La Riva on their other leg. The key is keeping at least one grip connected so they cannot fully disengage. → Leads to [[Collar Sleeve Guard]]
-- **Opponent drops knee to the mat and drives forward with heavy pressure before you can thread the hook** (Effectiveness: High) - Your Response: Abandon the DLR transition and revert to collar sleeve guard structure. Use your existing grips to frame and manage the pressure. The collar pull becomes effective again when they drop to their knees, so you return to your starting position with full attacking capability. → Leads to [[Collar Sleeve Guard]]
-- **Opponent strips the ankle grip during conversion and initiates a toreando or leg drag pass** (Effectiveness: Medium) - Your Response: If your hook is set even without the ankle grip, maintain hook tension and re-grip the ankle or pants immediately. If both hook and ankle grip are compromised, use your collar grip to pull them off-balance while recovering your feet to their hips to rebuild guard structure. → Leads to [[Open Guard]]
-- **Opponent circles away from the hooking leg to avoid the DLR insertion entirely** (Effectiveness: Medium) - Your Response: Use the collar grip to pull them back toward centerline and follow their lateral movement with hip escapes. If they create too much angle, switch to lasso guard or spider guard on the side they are circling toward, using their lateral movement against them. → Leads to [[Collar Sleeve Guard]]
+- **Opponent backsteps to extract the leg before the hook fully sets** (Effectiveness: High) - Your Response: Follow their backstep with your hips, maintaining collar or ankle contact. If the hook is partially cleared, immediately re-insert it or transition to reverse De La Riva on their other leg. The key is keeping at least one grip connected so they cannot fully disengage. → Leads to [[Positions/Collar Sleeve Guard]]
+- **Opponent drops knee to the mat and drives forward with heavy pressure before you can thread the hook** (Effectiveness: High) - Your Response: Abandon the DLR transition and revert to collar sleeve guard structure. Use your existing grips to frame and manage the pressure. The collar pull becomes effective again when they drop to their knees, so you return to your starting position with full attacking capability. → Leads to [[Positions/Collar Sleeve Guard]]
+- **Opponent strips the ankle grip during conversion and initiates a toreando or leg drag pass** (Effectiveness: Medium) - Your Response: If your hook is set even without the ankle grip, maintain hook tension and re-grip the ankle or pants immediately. If both hook and ankle grip are compromised, use your collar grip to pull them off-balance while recovering your feet to their hips to rebuild guard structure. → Leads to [[Positions/Open Guard]]
+- **Opponent circles away from the hooking leg to avoid the DLR insertion entirely** (Effectiveness: Medium) - Your Response: Use the collar grip to pull them back toward centerline and follow their lateral movement with hip escapes. If they create too much angle, switch to lasso guard or spider guard on the side they are circling toward, using their lateral movement against them. → Leads to [[Positions/Collar Sleeve Guard]]
 
 
 </section>

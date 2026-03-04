@@ -154,7 +154,7 @@ description: "Learn to defend the Dead Orchard to Darce Switch in BJJ. Recognize
 
 When your opponent attempts the Dead Orchard to Darce Switch, you face a critical defensive moment that offers both danger and opportunity. The transition between choke configurations creates a brief window where your opponent's control is weakened as they re-thread their grip from anaconda to darce. Recognizing this switch attempt immediately is essential, as the one-to-two second grip transition window represents your best escape opportunity from the front headlock exchange. Your defensive priority shifts from defending the anaconda compression to preventing the darce arm from threading under your armpit while simultaneously exploiting the momentary control gap to create distance or recover position. Understanding the switch mechanics allows you to turn your opponent's offensive chain into a defensive opportunity.
 
-**Opponent's Starting Position**: [[Dead Orchard Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Dead Orchard Control]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ When your opponent attempts the Dead Orchard to Darce Switch, you face a critica
 ### 1. Clamp elbow and close the threading gap by pulling your nearside elbow tight to your ribs and turning your shoulder inward to prevent the darce arm from passing under your armpit
 
 - **When to use**: Immediately when you feel the anaconda pressure change direction or release, before the opponent's arm has begun threading under your armpit
-- **Targets**: [[Dead Orchard Control]]
+- **Targets**: [[Positions/Dead Orchard Control]]
 - **If successful**: The darce threading is blocked and your opponent must either return to anaconda configuration or attempt a different transition, buying you time and maintaining the status quo
 - **Risk**: If your opponent has already begun threading the arm, clamping late may trap the arm in a position that actually assists the darce lock
 
 ### 2. Frame and hip escape during the grip switch window, using your free hand to push against your opponent's shoulder or hip while executing a hip escape to create distance
 
 - **When to use**: During the brief moment when your opponent has released the anaconda grip but has not yet secured the darce, creating a window of weakened control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough distance to escape the front headlock position entirely, recovering to half guard or open guard with your opponent losing top control
 - **Risk**: If the opponent maintains shoulder pressure despite the frame, your hip escape may stall and you end up with both the darce attempt continuing and reduced defensive positioning
 
 ### 3. Turn into your opponent and square your hips during the transition, establishing inside position and defensive frames to prevent both the darce threading and any positional advancement
 
 - **When to use**: When you feel the anaconda grip releasing and your opponent's weight shifts during the grip reconfiguration, using their movement focus against them
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish a guard position or create a scramble that removes you from the front headlock exchange entirely, denying both the anaconda and darce threats
 - **Risk**: Turning toward your opponent may expose your back if the turn is incomplete, potentially allowing a back take instead of the choke switch
 
 ### 4. Explosive stand-up attempt during the transition window, posting on your free hand and driving your hips up before the new grip is secured
 
 - **When to use**: When the opponent's grip is fully released during the switch and shoulder pressure momentarily lifts, providing the best opportunity for a powered escape
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You break free from the front headlock position entirely, returning to standing or establishing a guard position from the resulting scramble
 - **Risk**: If the opponent maintains chest connection during the stand-up attempt, they may ride your movement and re-establish control from a different angle
 
@@ -224,11 +224,11 @@ When your opponent attempts the Dead Orchard to Darce Switch, you face a critica
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the grip transition window by framing against your opponent's shoulder and executing a hip escape during the moment when neither the anaconda nor darce grip is fully secured. The momentary control gap allows you to create the distance needed to recover to half guard, forcing your opponent off their front headlock position entirely.
 
-### → [[Dead Orchard Control]]
+### → [[Positions/Dead Orchard Control]]
 
 Prevent the darce threading by clamping your elbow tight to your ribs and turning your shoulder inward the instant you feel the anaconda pressure change. Block the arm from passing under your armpit, forcing your opponent to abandon the switch and return to the original anaconda configuration where you can continue working your existing escape sequences.
 

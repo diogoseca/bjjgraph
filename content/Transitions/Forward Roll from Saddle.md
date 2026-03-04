@@ -21,7 +21,7 @@ This escape carries significant tactical risk. While the rolling motion can effe
 
 The forward roll demands precise timing and full commitment. Hesitation during execution allows the saddle player to adjust their hip pressure and tighten the entanglement, making subsequent escape attempts harder. Practitioners must identify the optimal moment—typically when the opponent shifts weight to adjust grips or begin a submission finish—and commit entirely to the rolling motion. Half-measures result in a tighter saddle with diminished defensive options and wasted energy.
 
-**From Position**: [[Saddle]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ The forward roll demands precise timing and full commitment. Hesitation during e
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 50% |
-| Failure | [[Saddle]] | 30% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Turtle]] | 50% |
+| Failure | [[Positions/Ashi Garami/Saddle]] | 30% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Forward Roll from Saddle occupies a critical role as a last-resort escape wi
 ## Related Techniques
 
 
-- [[Saddle]] - Source position for this escape technique
+- [[Positions/Ashi Garami/Saddle]] - Source position for this escape technique
 
-- [[Turtle]] - Primary success outcome position after completing the roll
+- [[Positions/Turtle]] - Primary success outcome position after completing the roll
 
-- [[Back Control]] - Counter outcome position if opponent follows the roll successfully
+- [[Positions/Back Control]] - Counter outcome position if opponent follows the roll successfully
 
-- [[Boot Scoot Escape from Saddle]] - Alternative incremental escape from the same starting position
+- [[Transitions/Boot Scoot Escape from Saddle]] - Alternative incremental escape from the same starting position
 
-- [[Fight to Inside Ashi from Saddle]] - Alternative escape that downgrades the entanglement rather than fully extracting
+- [[Transitions/Fight to Inside Ashi from Saddle]] - Alternative escape that downgrades the entanglement rather than fully extracting
 
-- [[Ashi Garami Escape]] - Related escape methodology from ashi garami family positions
+- [[Transitions/Ashi Garami Escape]] - Related escape methodology from ashi garami family positions
 
-- [[Honey Hole]] - Alternative nomenclature for the saddle position in 10th Planet system
+- [[Positions/Ashi Garami/Honey Hole]] - Alternative nomenclature for the saddle position in 10th Planet system
 
-- [[Inside Ashi-Garami]] - Related position in the leg entanglement hierarchy and common fallback
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related position in the leg entanglement hierarchy and common fallback
 
-- [[Open Guard]] - Recovery target after successful escape through turtle to guard transition
+- [[Positions/Open Guard]] - Recovery target after successful escape through turtle to guard transition
 
-- [[Leg Entanglement]] - Parent positional system containing the saddle configuration
+- [[Positions/Leg Entanglement]] - Parent positional system containing the saddle configuration
 
 
 </section>

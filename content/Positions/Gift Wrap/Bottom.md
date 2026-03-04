@@ -212,19 +212,19 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 
 ## Available Escapes
 
-### [[Gift Wrap Arm Recovery]] (28% of attempts)
+### [[Transitions/Gift Wrap Arm Recovery]] (28% of attempts)
 
-### [[Hip Escape to Guard]] (18% of attempts)
+### [[Transitions/Hip Escape to Guard]] (18% of attempts)
 
-### [[Roll to Turtle]] (15% of attempts)
+### [[Transitions/Roll to Turtle]] (15% of attempts)
 
-### [[Granby Roll to Guard]] (4% of attempts)
+### [[Transitions/Granby Roll to Guard]] (4% of attempts)
 
-### [[Shrimp Escape]] (15% of attempts)
+### [[Transitions/Shrimp Escape]] (15% of attempts)
 
-### [[Elbow Escape to Remove Hooks]] (12% of attempts)
+### [[Transitions/Elbow Escape to Remove Hooks]] (12% of attempts)
 
-### [[Back Door Escape]] (8% of attempts)
+### [[Transitions/Back Door Escape]] (8% of attempts)
 
 
 
@@ -235,27 +235,27 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 ## Decision Making from This Position
 
 **If opponent is actively attacking rear naked choke with choking arm deep:**
-- Execute **[[Two-on-One Hand Defense]]** → [[Gift Wrap]] (Probability: 40%)
-- Execute **[[Chin Tuck and Turn]]** → [[Gift Wrap]] (Probability: 35%)
-- Execute **[[Accept submission]]** → [[Game Over]] (Probability: 25%)
+- Execute **[[Two-on-One Hand Defense]]** → [[Positions/Gift Wrap]] (Probability: 40%)
+- Execute **[[Chin Tuck and Turn]]** → [[Positions/Gift Wrap]] (Probability: 35%)
+- Execute **[[Accept submission]]** → [[Positions/Game Over]] (Probability: 25%)
 
 
 **If opponent is consolidating Gift Wrap control without immediate submission attack:**
-- Execute **[[Trapped Arm Recovery Sequence]]** → [[Back Control]] (Probability: 35%)
-- Execute **[[Hip Escape Initiation]]** → [[Half Guard]] (Probability: 30%)
-- Execute **[[Roll to Turtle Position]]** → [[Turtle]] (Probability: 25%)
+- Execute **[[Trapped Arm Recovery Sequence]]** → [[Positions/Back Control]] (Probability: 35%)
+- Execute **[[Hip Escape Initiation]]** → [[Positions/Half Guard]] (Probability: 30%)
+- Execute **[[Roll to Turtle Position]]** → [[Positions/Turtle]] (Probability: 25%)
 
 
 **If opponent is transitioning to mounted position while maintaining Gift Wrap:**
-- Execute **[[Bridge and Roll Escape]]** → [[Turtle]] (Probability: 30%)
-- Execute **[[Shrimp Away from Mount]]** → [[Half Guard]] (Probability: 25%)
-- Execute **[[Opponent achieves mount]]** → [[Mount]] (Probability: 45%)
+- Execute **[[Bridge and Roll Escape]]** → [[Positions/Turtle]] (Probability: 30%)
+- Execute **[[Shrimp Away from Mount]]** → [[Positions/Half Guard]] (Probability: 25%)
+- Execute **[[Opponent achieves mount]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 **If opponent is isolating free arm for armbar attack:**
-- Execute **[[Defensive Arm Retraction]]** → [[Gift Wrap]] (Probability: 35%)
-- Execute **[[Roll Through Armbar]]** → [[Turtle]] (Probability: 25%)
-- Execute **[[Accept armbar position]]** → [[Armbar Control]] (Probability: 40%)
+- Execute **[[Defensive Arm Retraction]]** → [[Positions/Gift Wrap]] (Probability: 35%)
+- Execute **[[Roll Through Armbar]]** → [[Positions/Turtle]] (Probability: 25%)
+- Execute **[[Accept armbar position]]** → [[Positions/Armbar Control]] (Probability: 40%)
 
 
 
@@ -388,14 +388,14 @@ Start each round from Gift Wrap Bottom position. Defender's goal is to escape to
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Parent position that Gift Wrap evolves from
-- **[[Seat Belt Control Back]]** - Standard back control before arm trap is established
-- **[[Crucifix]]** - Common advancement if Gift Wrap escape fails
-- **[[Turtle]]** - Emergency escape target from Gift Wrap Bottom
-- **[[Half Guard]]** - Positional recovery target via hip escape
-- **[[Back Door Escape]]** - Broader escape system that includes Gift Wrap defense
-- **[[RNC Defense]]** - Critical defensive principle while trapped in Gift Wrap
-- **[[Shrimp Escape]]** - Essential movement mechanic for Gift Wrap Bottom escape
+- **[[Positions/Back Control]]** - Parent position that Gift Wrap evolves from
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Standard back control before arm trap is established
+- **[[Positions/Crucifix]]** - Common advancement if Gift Wrap escape fails
+- **[[Positions/Turtle]]** - Emergency escape target from Gift Wrap Bottom
+- **[[Positions/Half Guard]]** - Positional recovery target via hip escape
+- **[[Transitions/Back Door Escape]]** - Broader escape system that includes Gift Wrap defense
+- **[[Principles/RNC Defense]]** - Critical defensive principle while trapped in Gift Wrap
+- **[[Transitions/Shrimp Escape]]** - Essential movement mechanic for Gift Wrap Bottom escape
 
 
 </section>

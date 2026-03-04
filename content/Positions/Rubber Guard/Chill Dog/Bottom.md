@@ -215,23 +215,23 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 
 ## Available Escapes
 
-### [[Granby Roll to Guard]] (14% of attempts)
+### [[Transitions/Granby Roll to Guard]] (14% of attempts)
 
-### [[Granby to Closed Guard]] (11% of attempts)
+### [[Transitions/Granby to Closed Guard]] (11% of attempts)
 
-### [[Technical Stand-up]] (32% of attempts)
+### [[Transitions/Technical Stand-up]] (32% of attempts)
 
-### [[Rolling to Guard]] (11% of attempts)
+### [[Transitions/Rolling to Guard]] (11% of attempts)
 
-### [[Turtle to Guard]] (13% of attempts)
+### [[Transitions/Turtle to Guard]] (13% of attempts)
 
-### [[Hip Escape to Guard]] (11% of attempts)
+### [[Transitions/Hip Escape to Guard]] (11% of attempts)
 
-### [[Escape Chill Dog]] (5% of attempts)
+### [[Transitions/Escape Chill Dog]] (5% of attempts)
 
-### [[Roll from Chill Dog]] (2% of attempts)
+### [[Transitions/Roll from Chill Dog]] (2% of attempts)
 
-### [[Sweep from Chill Dog]] (1% of attempts)
+### [[Transitions/Sweep from Chill Dog]] (1% of attempts)
 
 
 
@@ -242,29 +242,29 @@ In the 10th Planet system, Chill Dog Bottom serves as a gateway back to offensiv
 ## Decision Making from This Position
 
 **If opponent establishes strong chest pressure and attempts to flatten turtle:**
-- Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 45%)
-- Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Granby Roll]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Hip Escape]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If opponent circles to attack back or attempts to establish hooks:**
-- Execute **[[Turn into opponent]]** → [[Butterfly Guard]] (Probability: 40%)
-- Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 35%)
-- Execute **[[Technical Stand-up]]** → [[Clinch]] (Probability: 50%)
+- Execute **[[Turn into opponent]]** → [[Positions/Butterfly Guard]] (Probability: 40%)
+- Execute **[[Granby Roll]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 50%)
 
 
 **If opponent attempts front headlock control or guillotine setup:**
-- Execute **[[Technical Stand-up]]** → [[Clinch]] (Probability: 55%)
-- Execute **[[Pull head free and sit to guard]]** → [[Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Clinch]] (Probability: 55%)
+- Execute **[[Pull head free and sit to guard]]** → [[Positions/Open Guard]] (Probability: 40%)
 
 
 **If opponent attempts to isolate arm for crucifix or kimura:**
-- Execute **[[Pull arm back and roll]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Post on isolated arm and stand]]** → [[Clinch]] (Probability: 40%)
+- Execute **[[Pull arm back and roll]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Post on isolated arm and stand]]** → [[Positions/Clinch]] (Probability: 40%)
 
 
 **If opponent attempts to establish truck or cross-body ride control:**
-- Execute **[[Rolling to Guard]]** → [[Open Guard]] (Probability: 50%)
-- Execute **[[Straighten bottom leg and turn in]]** → [[Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Straighten bottom leg and turn in]]** → [[Positions/Half Guard]] (Probability: 45%)
 
 
 
@@ -410,16 +410,16 @@ Start every round in Chill Dog with partner behind attempting any legal attack. 
 
 ## Related Positions and Techniques
 
-- **[[Turtle]]** - Parent position - Chill Dog is a specific variant of turtle
-- **[[Granby Roll to Guard]]** - Primary rolling escape technique from Chill Dog
-- **[[Granby to Closed Guard]]** - Specific Granby escape targeting closed guard recovery
-- **[[Technical Stand-up]]** - Alternative escape method when space is available
-- **[[Back Control]]** - Primary opponent objective from this position
-- **[[Crucifix]]** - Common opponent attack if arm is isolated
-- **[[Closed Guard]]** - Target position after successful Granby escape
-- **[[Half Guard]]** - Common intermediate position during escape sequences
-- **[[Lockdown]]** - 10th Planet half guard option after escape
-- **[[Advance to Chill Dog]]** - Entry transition into this defensive position
+- **[[Positions/Turtle]]** - Parent position - Chill Dog is a specific variant of turtle
+- **[[Transitions/Granby Roll to Guard]]** - Primary rolling escape technique from Chill Dog
+- **[[Transitions/Granby to Closed Guard]]** - Specific Granby escape targeting closed guard recovery
+- **[[Transitions/Technical Stand-up]]** - Alternative escape method when space is available
+- **[[Positions/Back Control]]** - Primary opponent objective from this position
+- **[[Positions/Crucifix]]** - Common opponent attack if arm is isolated
+- **[[Positions/Closed Guard]]** - Target position after successful Granby escape
+- **[[Positions/Half Guard]]** - Common intermediate position during escape sequences
+- **[[Positions/Half Guard/Lockdown]]** - 10th Planet half guard option after escape
+- **[[Transitions/Advance to Chill Dog]]** - Entry transition into this defensive position
 
 
 </section>

@@ -158,7 +158,7 @@ Defending the kneebar requires understanding the submission's mechanics in rever
 
 The primary defensive hierarchy follows a clear sequence: first, prevent the attacker from establishing perpendicular hip alignment by keeping your knee bent and pulling it toward your chest; second, deny the ankle-to-chest connection by fighting grips and creating rotational movement; third, use your free leg actively to create frames on their hips that prevent the hip extension needed to finish. If the kneebar is fully locked with proper positioning, the safest response in training is to tap immediately rather than risk ligament damage through explosive escape attempts. Understanding when to fight and when to tap is the most important defensive skill for any leg lock.
 
-**Opponent's Starting Position**: [[Kneebar Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Kneebar Control]] (Top)
 
 
 </section>
@@ -197,28 +197,28 @@ The primary defensive hierarchy follows a clear sequence: first, prevent the att
 ### 1. Bend knee and pull leg toward your chest to prevent hyperextension
 
 - **When to use**: Immediately upon recognizing kneebar attempt, before attacker establishes full position and hip contact
-- **Targets**: [[Kneebar Control]]
+- **Targets**: [[Positions/Kneebar Control]]
 - **If successful**: Prevents the submission by eliminating the extension angle, forcing attacker to re-establish position or transition to alternative attack
 - **Risk**: If attacker has strong ankle grip, bending alone may not be sufficient and you must combine with grip fighting
 
 ### 2. Frame with free leg on attacker's hip to block their hip extension
 
 - **When to use**: When attacker has established ankle grip but has not yet cleared your free leg, or when you need to create distance
-- **Targets**: [[Kneebar Control]]
+- **Targets**: [[Positions/Kneebar Control]]
 - **If successful**: Creates a structural block that prevents attacker from driving hips into the back of your knee, buying time for full escape
 - **Risk**: Attacker may transition to address your free leg, potentially moving to belly-down kneebar or heel hook if you expose the heel during framing
 
 ### 3. Roll toward trapped leg and extract by rotating through
 
 - **When to use**: When attacker's outside leg control is loose and you can generate rotational momentum to disrupt their position
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Reverses the position entirely, potentially establishing your own leg entanglement or achieving top position with leg free
 - **Risk**: If attacker follows the roll and maintains ankle control, you may end up in a worse position with them in belly-down kneebar
 
 ### 4. Strip ankle grip by two-on-one hand fighting while maintaining knee bend
 
 - **When to use**: When attacker has ankle grip but has not yet achieved perpendicular hip alignment, giving you time to address grips
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Breaking the ankle-to-chest connection removes the primary finishing mechanic, allowing full leg extraction
 - **Risk**: Requires committing both hands to grip fighting, temporarily reducing your ability to frame or post
 
@@ -242,15 +242,15 @@ The primary defensive hierarchy follows a clear sequence: first, prevent the att
 
 ## Best-Case Outcomes for Defender
 
-### → [[Kneebar Control]]
+### → [[Positions/Kneebar Control]]
 
 Bend knee and frame with free leg early before attacker establishes full position, then systematically strip grips and extract leg while maintaining knee flexion throughout
 
-### → [[Ashi Garami]]
+### → [[Positions/Ashi Garami]]
 
 Roll through toward trapped leg when attacker's control is loose, using the rotation to reverse positions and establish your own leg entanglement on their now-exposed legs
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip ankle grips with two-on-one hand fighting, retract leg while turning to face opponent, and re-establish open guard distance and framing
 

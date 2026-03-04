@@ -206,27 +206,27 @@ Open Guard Top is the fundamental position where the top player engages with an 
 
 ## Available Attacks
 
-### [[Toreando Pass]] (17% of attempts)
+### [[Transitions/Toreando Pass]] (17% of attempts)
 
-### [[Knee Slice Pass]] (9% of attempts)
+### [[Transitions/Knee Slice Pass]] (9% of attempts)
 
-### [[Leg Drag Pass]] (9% of attempts)
+### [[Transitions/Leg Drag Pass]] (9% of attempts)
 
-### [[Stack Pass]] (8% of attempts)
+### [[Transitions/Stack Pass]] (8% of attempts)
 
-### [[Long Step Pass]] (9% of attempts)
+### [[Transitions/Long Step Pass]] (9% of attempts)
 
-### [[X Pass]] (8% of attempts)
+### [[Transitions/X Pass]] (8% of attempts)
 
-### [[Smash Pass]] (9% of attempts)
+### [[Transitions/Smash Pass]] (9% of attempts)
 
-### [[Double Under Pass]] (9% of attempts)
+### [[Transitions/Double Under Pass]] (9% of attempts)
 
-### [[Pressure Pass]] (9% of attempts)
+### [[Transitions/Pressure Pass]] (9% of attempts)
 
-### [[Knee Cut Pass]] (9% of attempts)
+### [[Transitions/Knee Cut Pass]] (9% of attempts)
 
-### [[Float Passing]] (4% of attempts)
+### [[Transitions/Float Passing]] (4% of attempts)
 
 
 
@@ -237,28 +237,28 @@ Open Guard Top is the fundamental position where the top player engages with an 
 ## Decision Making from This Position
 
 **If opponent establishes De La Riva or Reverse De La Riva hook with active grip control:**
-- Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Leg Drag Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent creates strong collar and sleeve grips with Spider or Lasso guard configuration:**
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent uses butterfly hooks with underhook control:**
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Headquarters Pass]]** → [[Headquarters Position]] (Probability: 48%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Headquarters Pass]]** → [[Positions/Headquarters Position]] (Probability: 48%)
 
 
 **If opponent attempts to sit up or create upright seated guard position:**
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 52%)
-- Execute **[[Double Under Pass]]** → [[Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 52%)
+- Execute **[[Transitions/Double Under Pass]]** → [[Positions/Side Control]] (Probability: 48%)
 
 
 **If opponent extends legs to create distance with feet on hips:**
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[X Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/X Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 
@@ -397,14 +397,14 @@ Bottom player cycles through different guard types (Spider, De La Riva, Butterfl
 
 ## Related Positions and Techniques
 
-- **[[Side Control]]** - Primary advancement target from successful passes
-- **[[Headquarters Position]]** - Common transitional position during passing sequences
-- **[[Combat Base]]** - Fundamental posture variation within open guard top
-- **[[Leg Drag Control]]** - Controlling position during leg drag passing
-- **[[Closed Guard]]** - Related position with closed leg configuration
-- **[[Toreando Pass]]** - Fundamental lateral passing technique
-- **[[Knee Slice Pass]]** - Core pressure passing technique
-- **[[Leg Drag Pass]]** - High-percentage passing technique from standing
+- **[[Positions/Side Control]]** - Primary advancement target from successful passes
+- **[[Positions/Headquarters Position]]** - Common transitional position during passing sequences
+- **[[Positions/Combat Base]]** - Fundamental posture variation within open guard top
+- **[[Positions/Leg Drag Control]]** - Controlling position during leg drag passing
+- **[[Positions/Closed Guard]]** - Related position with closed leg configuration
+- **[[Transitions/Toreando Pass]]** - Fundamental lateral passing technique
+- **[[Transitions/Knee Slice Pass]]** - Core pressure passing technique
+- **[[Transitions/Leg Drag Pass]]** - High-percentage passing technique from standing
 
 
 </section>

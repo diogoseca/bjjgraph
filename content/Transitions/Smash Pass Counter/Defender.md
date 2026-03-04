@@ -158,7 +158,7 @@ The critical defensive window occurs during the passer's transition from upright
 
 The defender must balance between maintaining the lapel wrap tension that provides control and using their free limbs to create angles and secondary attacks. Over-commitment to the lapel grip at the expense of upper body defense allows the passer to establish crossface unopposed, while abandoning the grip prematurely surrenders the positional advantage that makes Ringworm Guard effective. The optimal defensive approach chains multiple responses together, using initial sweep threats to force the passer to address their base before transitioning to back-taking or guard recovery sequences.
 
-**Opponent's Starting Position**: [[Ringworm Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The defender must balance between maintaining the lapel wrap tension that provid
 ### 1. Elevate hips and load for sweep as passer commits weight forward, using butterfly hook or shin frame to redirect their momentum over your head
 
 - **When to use**: The moment you feel the passer's weight shifting forward before their crossface is established - this is the highest percentage window
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: Passer is swept or forced to reset their base, returning you to Ringworm Guard with re-established control and initiative
 - **Risk**: If the passer widens their base in time, you may exhaust your hips in a failed sweep attempt and be flattened under their pressure
 
 ### 2. Turn toward the passer aggressively, abandoning bottom guard position to initiate back take before crossface is secured, threading arm for underhook
 
 - **When to use**: When the passer collapses but fails to secure crossface as their first action, leaving a brief window to turn into them and attack the back
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You establish underhook and begin back take sequence, converting their passing attempt into your dominant position
 - **Risk**: If the passer drives crossface harder mid-turn, you may end up flattened in a worse position with your back partially exposed
 
 ### 3. Release lapel grip and immediately transition to collar grip, pulling the passer's posture down while inserting a knee shield to manage distance
 
 - **When to use**: When the passer has begun stripping your lapel grip and continued holding provides diminishing returns - transition to a new guard configuration before control is lost
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: You transition to a functional guard position such as knee shield half guard or collar-sleeve guard, maintaining defensive integrity despite losing lapel control
 - **Risk**: Releasing the lapel removes your primary mechanical advantage and may allow the passer to immediately complete the pass if your secondary guard is not established quickly enough
 
 ### 4. Frame against the passer's shoulder with your free arm while hip escaping away from the crossface side to create an angle for re-guarding or inverting
 
 - **When to use**: When the crossface is partially established but not fully consolidated, and you still have enough hip mobility to create lateral movement
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: You re-establish distance and angle, forcing the passer to restart their approach while you maintain or recover the Ringworm configuration
 - **Risk**: Extended arm used for framing may be targeted for kimura or americana if the passer capitalizes on arm exposure
 
@@ -227,11 +227,11 @@ The defender must balance between maintaining the lapel wrap tension that provid
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ringworm Guard]]
+### → [[Positions/Ringworm Guard]]
 
 Maintain lapel wrap tension and use hip elevation to disrupt the passer's forward drive before crossface is established. Frame with your free hand against their shoulder to prevent them from settling weight, then hip escape laterally to re-create the guard angle. Re-establish any secondary grips that were broken during the exchange.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Time your turn toward the passer during the moment they collapse forward but before crossface is secured. Thread your near-side underhook deep under their armpit while simultaneously turning your shoulders and hips toward them. Use the lapel wrap on their leg to prevent them from disengaging as you work to get your chest to their back and establish hooks.
 

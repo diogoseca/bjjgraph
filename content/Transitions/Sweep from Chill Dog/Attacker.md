@@ -180,7 +180,7 @@ description: "Learn to execute the Sweep from Chill Dog reversal to mount. Step-
 
 As the attacker executing this sweep, you are the bottom player in Chill Dog turtle defense who has identified an opportunity to reverse the top player and achieve mount. Unlike the purely defensive escapes from Chill Dog that target guard recovery, this sweep is an offensive reversal that punishes the opponent's forward pressure by using it against them. Your success depends on three elements: reading the opponent's weight commitment, controlling their posting ability, and executing an explosive sit-out or roll with full commitment. The sweep converts the compact Chill Dog posture from a defensive shell into a loaded launching platform, channeling stored tension into a coordinated reversal that deposits you directly in mount. This technique demands precise timing and total commitment - half-measures leave you in a worse position than where you started, but fully committed execution against a forward-weighted opponent produces one of the most dramatic positional reversals in grappling.
 
-**From Position**: [[Chill Dog]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Chill Dog]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing this sweep, you are the bottom player in Chill Dog tur
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 44% |
-| Failure | [[Chill Dog]] | 36% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Mount]] | 44% |
+| Failure | [[Positions/Rubber Guard/Chill Dog]] | 36% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing this sweep, you are the bottom player in Chill Dog tur
 
 ## Opponent Counters
 
-- **Opponent sprawls hips backward and drives weight down as they feel the sit-out initiate** (Effectiveness: High) - Your Response: If the sprawl is early enough to kill your momentum, abort the sweep and immediately chain to a Granby roll. The opponent's backward hip drive creates forward space that the Granby exploits. Do not force the sit-out against a successfully sprawled opponent. → Leads to [[Chill Dog]]
-- **Opponent posts their far hand wide to base out and prevent the reversal from completing** (Effectiveness: Medium) - Your Response: This is why controlling the far wrist is critical. If they free the arm and post, redirect into a hip escape to half guard rather than continuing the reversal against a posted arm. Alternatively, switch to an arm drag on the posted arm to re-create the imbalance. → Leads to [[Chill Dog]]
-- **Opponent circles away from the sit-out direction, disengaging from the reversal path** (Effectiveness: Medium) - Your Response: If the opponent disengages, you lose the chest-to-back connection needed for the reversal but gain space. Immediately transition to open guard by establishing feet-on-hips frames and upper body grips before they can re-engage on their terms. → Leads to [[Open Guard]]
-- **Opponent drives forward aggressively and flattens you before the sit-out leg can clear** (Effectiveness: High) - Your Response: If flattened before the leg kicks through, immediately re-establish the Chill Dog defensive frame. The opponent's aggressive forward drive actually improves your chances on the next attempt by making them more committed. Reset and wait for the next weight shift window. → Leads to [[Chill Dog]]
+- **Opponent sprawls hips backward and drives weight down as they feel the sit-out initiate** (Effectiveness: High) - Your Response: If the sprawl is early enough to kill your momentum, abort the sweep and immediately chain to a Granby roll. The opponent's backward hip drive creates forward space that the Granby exploits. Do not force the sit-out against a successfully sprawled opponent. → Leads to [[Positions/Rubber Guard/Chill Dog]]
+- **Opponent posts their far hand wide to base out and prevent the reversal from completing** (Effectiveness: Medium) - Your Response: This is why controlling the far wrist is critical. If they free the arm and post, redirect into a hip escape to half guard rather than continuing the reversal against a posted arm. Alternatively, switch to an arm drag on the posted arm to re-create the imbalance. → Leads to [[Positions/Rubber Guard/Chill Dog]]
+- **Opponent circles away from the sit-out direction, disengaging from the reversal path** (Effectiveness: Medium) - Your Response: If the opponent disengages, you lose the chest-to-back connection needed for the reversal but gain space. Immediately transition to open guard by establishing feet-on-hips frames and upper body grips before they can re-engage on their terms. → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward aggressively and flattens you before the sit-out leg can clear** (Effectiveness: High) - Your Response: If flattened before the leg kicks through, immediately re-establish the Chill Dog defensive frame. The opponent's aggressive forward drive actually improves your chances on the next attempt by making them more committed. Reset and wait for the next weight shift window. → Leads to [[Positions/Rubber Guard/Chill Dog]]
 
 
 </section>

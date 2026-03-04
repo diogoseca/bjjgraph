@@ -158,7 +158,7 @@ The defender's primary objective is to prevent the attacker from completing the 
 
 Understanding the attacker's mechanics is essential for timing defensive responses. The transition requires the attacker to release foot control, hip escape laterally, swing one leg over, and settle into mount. Each phase presents a different defensive opportunity. Early intervention during the foot release phase offers the best chance of returning to gogoplata control (which, while still dangerous, is better than conceding mount). Mid-transition intervention during the leg swing phase typically results in half guard recovery. Late intervention after mount is partially established requires full mount escape skills.
 
-**Opponent's Starting Position**: [[Gogoplata Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Understanding the attacker's mechanics is essential for timing defensive respons
 ### 1. Frame on attacker's hips with both hands during foot release phase to create distance and prevent leg swing completion
 
 - **When to use**: Immediately when you feel shin pressure decrease and the foot releases from behind your head
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Attacker cannot complete the leg swing and must either re-establish gogoplata or disengage to open guard
 - **Risk**: If frames are late or weak, attacker swims past them and establishes mount with your arms already extended
 
 ### 2. Close knees together and trap the attacker's swinging leg between your thighs to recover half guard
 
 - **When to use**: When the attacker's leg is mid-swing crossing your body and hip frames alone cannot stop the transition
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard top position which is vastly preferable to conceding high mount and offers legitimate passing opportunities
 - **Risk**: If you miss the leg, attacker clears to full mount with your legs already open and unable to generate bridge leverage
 
 ### 3. Explosive posture recovery by driving hips back and straightening arms the moment gogoplata pressure releases
 
 - **When to use**: When you detect the foot releasing from behind your head before the attacker secures alternative upper body control
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: You create enough distance to disengage from the entire gogoplata control system and potentially pass or reset to open guard top
 - **Risk**: If attacker has already secured collar or crossface grip, your posture attempt feeds their forward momentum for the mount
 
 ### 4. Turn to side and establish turtle position rather than accepting mount, protecting neck immediately
 
 - **When to use**: When the attacker has cleared the leg over your body and mount appears inevitable
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: You avoid the worst-case high mount scenario and enter turtle defense where you have established escape patterns
 - **Risk**: Attacker follows to back control with seatbelt grip, exchanging one bad position for another
 
@@ -228,11 +228,11 @@ Understanding the attacker's mechanics is essential for timing defensive respons
 
 ## Best-Case Outcomes for Defender
 
-### → [[Gogoplata Control]]
+### → [[Positions/Gogoplata Control]]
 
 Frame explosively on the attacker's hips the instant you feel the shin release from your throat. Push their hips away to prevent the lateral hip escape that initiates the mount transition. If successful, the attacker falls back to bottom position without mount and must re-establish gogoplata control or transition to a different attack.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the attacker's leg is mid-swing, close your knees together and trap their crossing leg between your thighs. Secure the trapped leg by pinching your knees and immediately establish crossface and underhook to begin half guard passing. Half guard top is a significant improvement over being mounted.
 

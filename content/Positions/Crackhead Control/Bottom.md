@@ -212,21 +212,21 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 
 ## Available Escapes
 
-### [[Granby Roll to Guard]] (14% of attempts)
+### [[Transitions/Granby Roll to Guard]] (14% of attempts)
 
-### [[Standing up in Base]] (12% of attempts)
+### [[Transitions/Standing up in Base]] (12% of attempts)
 
-### [[Sit Through Escape]] (26% of attempts)
+### [[Transitions/Sit Through Escape]] (26% of attempts)
 
-### [[Peterson Roll]] (12% of attempts)
+### [[Transitions/Peterson Roll]] (12% of attempts)
 
-### [[Crackhead Control to Carni]] (12% of attempts)
+### [[Transitions/Crackhead Control to Carni]] (12% of attempts)
 
-### [[Crackhead Control to Mission Control]] (10% of attempts)
+### [[Transitions/Crackhead Control to Mission Control]] (10% of attempts)
 
-### [[Crackhead Control to New York]] (8% of attempts)
+### [[Transitions/Crackhead Control to New York]] (8% of attempts)
 
-### [[Posture Recovery to Closed Guard]] (6% of attempts)
+### [[Transitions/Posture Recovery to Closed Guard]] (6% of attempts)
 
 
 
@@ -237,23 +237,23 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 ## Decision Making from This Position
 
 **If opponent attempts to secure seat belt control with both underhooks or cross-face:**
-- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 50%)
-- Execute **[[Sit Through Escape]]** → [[Dogfight Position]] (Probability: 45%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Sit Through Escape]]** → [[Positions/Dogfight Position]] (Probability: 45%)
 
 
 **If opponent commits heavy chest pressure attempting to flatten turtle:**
-- Execute **[[Hip Escape to Guard]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Standing up in Base]]** → [[Clinch]] (Probability: 40%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Clinch]] (Probability: 40%)
 
 
 **If opponent secures single underhook but maintains distance:**
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 60%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 35%)
 
 
 **If opponent attacks front headlock or guillotine position:**
-- Execute **[[Standing up in Base]]** → [[Clinch]] (Probability: 50%)
-- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Clinch]] (Probability: 50%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
 
 
 
@@ -388,14 +388,14 @@ Continuous flow drill alternating between turtle bottom and various guard positi
 ## Related Positions and Techniques
 
 - **[[Crackhead Control Top]]** - Opposite perspective - attacking position
-- **[[Turtle]]** - Parent traditional position - less dynamic variation
-- **[[Granby Roll to Guard]]** - Primary escape technique from turtle bottom
-- **[[Dogfight Position]]** - Common transition target for guard recovery
-- **[[Deep Half Guard]]** - Alternative guard recovery option
-- **[[Turtle to Guard]]** - Essential transition for position improvement
-- **[[Standing up in Base]]** - Standing escape option from turtle
-- **[[Closed Guard]]** - Primary guard recovery target
-- **[[Half Guard]]** - Alternative guard recovery target
+- **[[Positions/Turtle]]** - Parent traditional position - less dynamic variation
+- **[[Transitions/Granby Roll to Guard]]** - Primary escape technique from turtle bottom
+- **[[Positions/Dogfight Position]]** - Common transition target for guard recovery
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative guard recovery option
+- **[[Transitions/Turtle to Guard]]** - Essential transition for position improvement
+- **[[Transitions/Standing up in Base]]** - Standing escape option from turtle
+- **[[Positions/Closed Guard]]** - Primary guard recovery target
+- **[[Positions/Half Guard]]** - Alternative guard recovery target
 
 
 </section>

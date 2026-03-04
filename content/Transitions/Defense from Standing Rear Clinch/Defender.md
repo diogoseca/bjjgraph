@@ -146,7 +146,7 @@ description: "Master maintaining the standing rear clinch against escape attempt
 
 As the person maintaining the standing rear clinch, your role is to shut down the opponent's escape attempts while advancing to a more dominant position. When the opponent initiates their defense, you must recognize the escape type they are attempting and apply the appropriate counter: tightening grips against hand fighting, matching lateral movement against hip angle creation, and dragging to ground back control when the standing position becomes untenable. Your defensive strategy against their escape operates on three principles. First, maintain constant chest-to-back pressure so that every escape attempt requires the opponent to overcome your body weight rather than simply turning in space. Second, match their movement step-for-step rather than fighting it, which preserves your energy and maintains alignment. Third, be willing to transition to the ground by pulling them into back control when their standing defense becomes strong enough to threaten the clinch. Converting from standing rear clinch to ground back control with hooks is not a failure but rather a strategic advancement that takes the opponent to a position where escape is even more difficult.
 
-**Opponent's Starting Position**: [[Standing Rear Clinch]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Standing Rear Clinch]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ As the person maintaining the standing rear clinch, your role is to shut down th
 ### 1. Re-lock grip and increase forward pressure by driving chest into opponent's back and stepping your hips closer
 
 - **When to use**: When the opponent begins hand fighting but has not yet created significant separation in your grip or hip angle
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: Opponent's escape attempt stalls and they remain in the standing rear clinch, potentially with depleted energy from the failed escape effort
 - **Risk**: If opponent has already created significant hip angle, tightening the grip without matching their angle may accelerate their turn
 
 ### 2. Drag opponent to the ground by sitting your hips back and pulling them into seated back control, immediately inserting hooks
 
 - **When to use**: When the opponent's hand fighting is threatening your grip and maintaining the standing clinch is becoming unsustainable
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You transition to ground back control with hooks, a more stable and higher-scoring control position with better submission access
 - **Risk**: If the drag is poorly executed or the opponent sprawls, you may lose the clinch entirely and end up in a scramble
 
 ### 3. Match lateral step and circle behind opponent to maintain chest-to-back alignment as they attempt to create hip angle
 
 - **When to use**: When the opponent steps laterally and begins shifting their hips to create angle for a rotation escape
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: Opponent's hip angle is neutralized and they remain in the standing rear clinch with their escape direction revealed for future counters
 - **Risk**: If the opponent uses a change of direction feint, your step to match may create the angle they need on the opposite side
 
 ### 4. Execute a mat return by lifting and depositing the opponent to the ground while maintaining chest-to-back connection throughout
 
 - **When to use**: When the opponent straightens their legs or rises out of their lowered base, creating a window for you to load them for a controlled takedown
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Opponent is taken to the ground in back control where your hooks and upper body control are more difficult to escape than standing
 - **Risk**: Lifting attempts require significant energy and if the opponent hooks your leg during the lift, both players may fall in an uncontrolled manner
 
@@ -218,11 +218,11 @@ As the person maintaining the standing rear clinch, your role is to shut down th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the opponent's hand fighting threatens your standing grip, proactively drag them to the ground by sitting your hips back and pulling them down with you. Immediately insert hooks and establish seatbelt control as you descend. The transition from standing to ground back control should be seamless, maintaining chest-to-back connection throughout.
 
-### → [[Standing Rear Clinch]]
+### → [[Positions/Standing Rear Clinch]]
 
 Shut down escape attempts by maintaining locked grip configuration, matching the opponent's lateral movement step-for-step, and driving constant forward pressure through your chest. When they attempt grip breaks, immediately re-lock using an alternative grip configuration. When they attempt rotation, circle behind them to maintain alignment. Consistent pressure and grip retention exhausts the opponent's escape energy.
 

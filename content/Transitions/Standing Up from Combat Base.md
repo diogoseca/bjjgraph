@@ -21,7 +21,7 @@ The decision to stand typically arises when the bottom player establishes strong
 
 However, the transition carries inherent risk during the moment between kneeling and standing. This window of vulnerability allows the guard player to thread hooks such as De La Riva or shin-to-shin, establish entanglements, or use pulling grips to destabilize the passer's base before the standing position is fully consolidated. Grip management before initiating the stand, mechanical efficiency during the movement, and immediate posture establishment upon reaching the feet determine whether the passer achieves a dominant standing position or gets pulled into an inferior entanglement.
 
-**From Position**: [[Combat Base]] (Top)
+**From Position**: [[Positions/Combat Base]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ However, the transition carries inherent risk during the moment between kneeling
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Combat Base]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Combat Base]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ Standing Up from Combat Base occupies a critical junction in the guard passing d
 ## Related Techniques
 
 
-- [[Combat Base]] - Starting position from which the stand-up is initiated
+- [[Positions/Combat Base]] - Starting position from which the stand-up is initiated
 
-- [[Standing Position]] - Target position achieved upon successful completion of the stand-up
+- [[Positions/Standing Position]] - Target position achieved upon successful completion of the stand-up
 
-- [[Half Guard]] - Counter outcome position if opponent catches a leg during the transition
+- [[Positions/Half Guard]] - Counter outcome position if opponent catches a leg during the transition
 
-- [[Headquarters Position]] - Alternative advancement option from combat base instead of standing
+- [[Positions/Headquarters Position]] - Alternative advancement option from combat base instead of standing
 
-- [[Combat Base to Headquarters]] - Alternative transition from same starting position for kneeling pass entries
+- [[Transitions/Combat Base to Headquarters]] - Alternative transition from same starting position for kneeling pass entries
 
-- [[De La Riva Guard]] - Common guard the opponent establishes when passer reaches standing position
+- [[Positions/De La Riva Guard]] - Common guard the opponent establishes when passer reaches standing position
 
-- [[Open Guard]] - General guard category the bottom player transitions to when top player stands
+- [[Positions/Open Guard]] - General guard category the bottom player transitions to when top player stands
 
-- [[Collar Sleeve Guard]] - Distance guard commonly played against standing passers requiring specific passing responses
+- [[Positions/Collar Sleeve Guard]] - Distance guard commonly played against standing passers requiring specific passing responses
 
-- [[Feet on Hips Guard]] - Guard structure that often triggers the decision to stand up from combat base
+- [[Positions/Feet on Hips Guard]] - Guard structure that often triggers the decision to stand up from combat base
 
-- [[Butterfly Guard]] - Hook-based guard that can be established if stand-up timing is poor
+- [[Positions/Butterfly Guard]] - Hook-based guard that can be established if stand-up timing is poor
 
-- [[Stand Up in Closed Guard]] - Related standing technique used from inside closed guard before it is opened
+- [[Transitions/Stand Up in Closed Guard]] - Related standing technique used from inside closed guard before it is opened
 
 
 </section>

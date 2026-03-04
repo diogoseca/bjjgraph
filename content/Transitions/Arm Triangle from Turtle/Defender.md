@@ -166,7 +166,7 @@ The fundamental defensive framework centers on three priorities in strict order:
 
 Successful defense demands acute tactile awareness of the attacker's weight shifts and grip adjustments, combined with the discipline to execute technical escapes rather than panicked explosive movements that often accelerate the submission.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -205,28 +205,28 @@ Successful defense demands acute tactile awareness of the attacker's weight shif
 ### 1. Tuck elbows tight and turn into the attacker before arm isolation completes, driving your near shoulder into their chest to collapse the front headlock structure and deny separation
 
 - **When to use**: At the earliest stage when you feel the attacker beginning to wrap your head and drive your elbow away from your body - this is the highest-percentage defense window
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Attacker loses arm isolation and reverts to basic front headlock control, giving you opportunities to work standard turtle escapes or guard recovery
 - **Risk**: If you turn too aggressively without controlling their choking arm, you may expose your neck to a guillotine or anaconda variation instead
 
 ### 2. Post your free hand on the mat and hip escape laterally to prevent the perpendicular transition, then work to thread your trapped arm free while creating distance with frames
 
 - **When to use**: When the attacker has achieved the figure-four grip but has not yet completed the transition to perpendicular finishing angle
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You prevent the perpendicular angle that generates finishing pressure, create enough space to extract your trapped arm, and recover to half guard or scramble position
 - **Risk**: If posting arm is attacked with kimura or if the attacker uses your posting commitment to accelerate the perpendicular transition by sweeping your base
 
 ### 3. Bridge explosively toward the attacker's choking arm side while simultaneously pulling your chin down and fighting to create space in the grip, then shoot your hips through to recover closed guard
 
 - **When to use**: As a last resort when the arm triangle is nearly locked but the attacker has not yet fully settled into the perpendicular finishing position
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You break the compression angle, create enough space to pull your head free or recover your trapped arm, and establish closed guard where the arm triangle threat is neutralized
 - **Risk**: If the bridge fails to create sufficient space, you may accelerate the choke by driving yourself into the compression, and the energy expenditure from a failed explosive escape leaves you vulnerable
 
 ### 4. Sit through to the choking arm side, threading your near leg between the attacker's legs while using your free hand to frame against their hip, converting the position to a scramble
 
 - **When to use**: When the attacker is still behind you in turtle top and has begun the arm isolation but has not yet achieved deep shoulder penetration
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You escape the turtle bottom entirely, force a scramble, and recover to half guard or potentially reverse the position through the sit-through momentum
 - **Risk**: The sit-through temporarily exposes your back and neck - if the attacker reads the movement and follows, they may secure a tighter front headlock or transition to back control
 
@@ -238,15 +238,15 @@ Successful defense demands acute tactile awareness of the attacker's weight shif
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Turn into the attacker early during the arm isolation phase, driving your shoulder into their chest to collapse the choke structure. Fight their choking arm at the wrist or elbow while circling away from their pressure. This returns the position to a basic front headlock scenario where you have standard turtle escape options available including sit-throughs, granby rolls, and technical standups.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the attacker transitions to perpendicular position, use the weight shift to thread your near leg between their legs while framing against their hip. The perpendicular movement creates a momentary window where their legs are accessible. Alternatively, execute a sit-through during the early isolation phase, shooting your hips through to recover half guard. The key is timing the escape to the attacker's transitional movement rather than fighting against their settled control.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Bridge explosively toward the attacker's choking arm side during the perpendicular transition, using the momentum to create space and shoot your hips underneath them. Pull your trapped arm free as space opens and immediately close your guard around their waist. This requires precise timing - too early and they haven't committed to the perpendicular angle, too late and the compression is already locked. The bridge must be directed specifically toward their shoulder, not straight up.
 

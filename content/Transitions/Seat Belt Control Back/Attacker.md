@@ -184,7 +184,7 @@ This transition exploits the opponent's compromised defensive structure. With ar
 
 The seat belt grip configuration (one arm over the shoulder, one under the armpit, hands clasped at the sternum) provides the structural foundation for maintaining back control through opponent's escape attempts. Establishing this grip during the transition from mounted crucifix ensures you arrive at back control with immediate offensive potential rather than scrambling to establish control after the position change.
 
-**From Position**: [[Mounted Crucifix]] (Top)
+**From Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
 
 </section>
 
@@ -236,9 +236,9 @@ The seat belt grip configuration (one arm over the shoulder, one under the armpi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Mounted Crucifix]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Mount/Mounted Crucifix]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -247,10 +247,10 @@ The seat belt grip configuration (one arm over the shoulder, one under the armpi
 
 ## Opponent Counters
 
-- **Opponent immediately drops shoulder and rolls through before seat belt locks** (Effectiveness: High) - Your Response: Follow the roll maintaining chest contact and arrive in mount on the other side, or abandon back take and re-establish mount control → Leads to [[Mounted Crucifix]]
-- **Opponent frames on your hip with their free hand to prevent hip slide behind them** (Effectiveness: Medium) - Your Response: Use your knee to clear their framing hand while pulling seat belt grip tighter to collapse their structure before attempting hip slide → Leads to [[Back Control]]
-- **Opponent turns into you rather than away, attempting to face you during transition** (Effectiveness: Medium) - Your Response: Accept the turn but maintain seat belt grip, converting to front headlock or guillotine position since you still have upper body control, then re-circle to their back → Leads to [[Mounted Crucifix]]
-- **Opponent immediately attacks your choking arm with two-on-one grip to prevent seat belt completion** (Effectiveness: Low) - Your Response: Opponent's two-on-one focus on your arm leaves their hips undefended; prioritize inserting hooks to establish lower body control first, then address the grip fight from secured back control → Leads to [[Back Control]]
+- **Opponent immediately drops shoulder and rolls through before seat belt locks** (Effectiveness: High) - Your Response: Follow the roll maintaining chest contact and arrive in mount on the other side, or abandon back take and re-establish mount control → Leads to [[Positions/Mount/Mounted Crucifix]]
+- **Opponent frames on your hip with their free hand to prevent hip slide behind them** (Effectiveness: Medium) - Your Response: Use your knee to clear their framing hand while pulling seat belt grip tighter to collapse their structure before attempting hip slide → Leads to [[Positions/Back Control]]
+- **Opponent turns into you rather than away, attempting to face you during transition** (Effectiveness: Medium) - Your Response: Accept the turn but maintain seat belt grip, converting to front headlock or guillotine position since you still have upper body control, then re-circle to their back → Leads to [[Positions/Mount/Mounted Crucifix]]
+- **Opponent immediately attacks your choking arm with two-on-one grip to prevent seat belt completion** (Effectiveness: Low) - Your Response: Opponent's two-on-one focus on your arm leaves their hips undefended; prioritize inserting hooks to establish lower body control first, then address the grip fight from secured back control → Leads to [[Positions/Back Control]]
 
 
 </section>

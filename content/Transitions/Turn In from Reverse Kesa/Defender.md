@@ -132,7 +132,7 @@ description: "Learn to prevent and counter the Turn In escape from Reverse Kesa-
 
 As the defender (top player maintaining Reverse Kesa-Gatame), your goal is to prevent the bottom player from successfully rotating toward you and inserting a knee shield. The Turn In is one of the most common escape attempts from this pin, and your ability to recognize and counter it determines how long you can maintain the controlling position. The key defensive principle is maintaining hip pressure that prevents the initial bridge from creating rotation space, while having contingency transitions ready when the escape attempt begins. Skilled top players use the bottom player's turn-in attempt as a trigger for transitioning to mount, converting the escape attempt into a worse outcome for the bottom player.
 
-**Opponent's Starting Position**: [[Reverse Kesa-Gatame]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Bottom)
 
 </section>
 
@@ -170,21 +170,21 @@ As the defender (top player maintaining Reverse Kesa-Gatame), your goal is to pr
 ### 1. Drive hips forward and re-flatten before knee insertion
 
 - **When to use**: Immediately when you feel the bottom player begin to rotate toward you and before their knee clears your hip line
-- **Targets**: [[Reverse Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Reverse Kesa-Gatame]]
 - **If successful**: Bottom player is re-flattened in a potentially tighter reverse kesa configuration with their escape energy depleted
 - **Risk**: If you drive hips too aggressively, you may overcommit weight forward, allowing the bottom player to complete the rotation underneath you
 
 ### 2. Step over to mount during the rotation attempt
 
 - **When to use**: When the bottom player has created significant space with their bridge and committed to the turn-in, making re-flattening difficult
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You transition to mount position, converting their escape attempt into a worse positional outcome
 - **Risk**: If the step-over is too slow, the bottom player may insert the knee shield before your leg clears, resulting in half guard
 
 ### 3. Switch to north-south by circling toward their head
 
 - **When to use**: When the bottom player's rotation has disrupted your reverse kesa but they have not yet inserted the knee shield
-- **Targets**: [[Reverse Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Reverse Kesa-Gatame]]
 - **If successful**: You maintain a dominant pinning position from north-south, denying the half guard recovery entirely
 - **Risk**: The transition creates a momentary window where the bottom player may insert frames or complete the half guard recovery
 
@@ -196,11 +196,11 @@ As the defender (top player maintaining Reverse Kesa-Gatame), your goal is to pr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Reverse Kesa-Gatame]]
+### → [[Positions/Side Control/Reverse Kesa-Gatame]]
 
 Recognize the turn-in early through foot placement and hip angle cues, then drive your hips forward to re-flatten before the rotation generates momentum. Maintain heavy chest pressure throughout and keep the far arm trapped to eliminate the framing pivot point.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the bottom player creates space with their bridge and commits to the rotation, use the space they created to step your far leg over their body and transition to mount. Their rotation actually assists the mount transition by creating the space needed for your leg to clear. Time the step-over to land before their knee can insert across your hip line.
 

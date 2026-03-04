@@ -154,7 +154,7 @@ description: "Learn to defend and counter the Sweep from Leg Hook in BJJ. Recogn
 
 Defending the Sweep from Leg Hook requires the top player to recognize the setup cues early and address them before the sweep becomes loaded and inevitable. The defender's primary strategy centers on maintaining a centered base that resists lateral displacement, controlling the distance to prevent the bottom player from establishing the underhook depth needed for the sweep, and actively working to extract the hooked leg or neutralize its leverage. Understanding that the sweep requires coordinated upper and lower body connection from the bottom player reveals the defensive principle: disrupting either the underhook or the leg hook breaks the unified control system and prevents the sweep from generating sufficient force. Successful defense converts the opponent's sweep attempt into a passing opportunity by exploiting the space and angle changes they create during their setup.
 
-**Opponent's Starting Position**: [[Leg Hook]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Hook]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Sweep from Leg Hook requires the top player to recognize the setup
 ### 1. Drive heavy crossface and sprawl hips back to flatten the bottom player and deny the side angle
 
 - **When to use**: As soon as you feel the bottom player turn to their side and begin threading the underhook, before the sweep is loaded
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Bottom player is flattened with crossface pressure, opening opportunities to advance the guard pass to side control
 - **Risk**: If the bottom player anticipates the crossface, they can duck underneath into deep half guard using your forward pressure
 
 ### 2. Post far hand wide on the mat and re-center base to block the roll direction
 
 - **When to use**: When you feel the sweep being initiated and your weight beginning to shift, as an emergency base recovery
-- **Targets**: [[Leg Hook]]
+- **Targets**: [[Positions/Leg Hook]]
 - **If successful**: Sweep is blocked and you maintain top position with the opportunity to reset your base and continue passing
 - **Risk**: Posting hand is vulnerable to arm drags or wrist control, and the bottom player may use your post to set up a back take
 
 ### 3. Hip switch and backstep to extract the hooked leg, removing the primary sweep lever
 
 - **When to use**: When the bottom player is still in the setup phase and has not yet loaded your weight fully onto the hook
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Hooked leg is freed and you can advance to side control, knee on belly, or other dominant passing positions
 - **Risk**: The hip switch creates a brief moment of instability that the bottom player can exploit if they time their sweep to coincide with your weight shift
 
 ### 4. Swim inside arm to deny the underhook and establish your own underhook or crossface control
 
 - **When to use**: During the early setup phase when the bottom player is attempting to establish the underhook connection
-- **Targets**: [[Leg Hook]]
+- **Targets**: [[Positions/Leg Hook]]
 - **If successful**: Without the underhook, the sweep lacks the upper body control needed for completion, reducing it to an easily defended leg hook elevation only
 - **Risk**: The arm swim creates a brief opening where the bottom player may switch to an overhook variation or collar tie to maintain upper body connection
 
@@ -225,11 +225,11 @@ Defending the Sweep from Leg Hook requires the top player to recognize the setup
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Counter the sweep by sprawling hips back while driving heavy crossface pressure. Use the bottom player's side-angle positioning against them by completing a guard pass through their compromised defensive structure. Their sweep setup often opens the very space you need to clear your leg and finish the pass.
 
-### → [[Leg Hook]]
+### → [[Positions/Leg Hook]]
 
 Maintain heavy centered base and deny the underhook to stuff the sweep before it loads. Re-center your weight each time the bottom player attempts to shift it, and actively work to extract your hooked leg through hip switching. The failed sweep attempt wastes their energy while you conserve yours for continued passing.
 

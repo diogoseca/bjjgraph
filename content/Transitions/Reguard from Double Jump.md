@@ -21,7 +21,7 @@ Executing this reguard requires the bottom player to extract their legs from und
 
 This technique occupies an important but infrequent role in the bottom player's decision matrix from Double Jump, serving as the safety valve when higher-percentage offensive transitions like deep half entry or old school sweeps have been successfully defended. Unlike the Escape Double Jump which retreats to half guard, the reguard targets closed guard specifically, requiring greater hip mobility and more precise timing but yielding a more offensively advantageous recovery position. Understanding when to commit to reguarding versus continuing offensive chains separates experienced practitioners who manage energy and position strategically from those who exhaust themselves pursuing diminishing offensive returns.
 
-**From Position**: [[Double Jump]] (Bottom)
+**From Position**: [[Positions/Double Jump]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,10 +32,10 @@ This technique occupies an important but infrequent role in the bottom player's 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 40% |
-| Failure | [[Double Jump]] | 30% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 40% |
+| Failure | [[Positions/Double Jump]] | 30% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -192,21 +192,21 @@ Reguard from Double Jump connects the dynamic Double Jump bottom subsystem back 
 ## Related Techniques
 
 
-- [[Double Jump]] - Source position from which this reguard initiates
+- [[Positions/Double Jump]] - Source position from which this reguard initiates
 
-- [[Closed Guard]] - Target position upon successful reguard completion
+- [[Positions/Closed Guard]] - Target position upon successful reguard completion
 
-- [[Half Guard]] - Partial recovery outcome when full guard closure is not achieved
+- [[Positions/Half Guard]] - Partial recovery outcome when full guard closure is not achieved
 
-- [[Side Control]] - Counter outcome when opponent passes during reguard transition window
+- [[Positions/Side Control]] - Counter outcome when opponent passes during reguard transition window
 
-- [[Escape Double Jump]] - Alternative recovery technique from same position targeting half guard instead
+- [[Transitions/Escape Double Jump]] - Alternative recovery technique from same position targeting half guard instead
 
-- [[Deep Half Guard]] - Primary offensive target from Double Jump that this reguard supplements
+- [[Positions/Half Guard/Deep Half Guard]] - Primary offensive target from Double Jump that this reguard supplements
 
-- [[Guard Recovery from Double Unders]] - Related guard recovery concept using similar framing and hip escape principles
+- [[Transitions/Guard Recovery from Double Unders]] - Related guard recovery concept using similar framing and hip escape principles
 
-- [[Reguard from Butterfly Half Guard]] - Similar reguard technique from different compromised guard position
+- [[Transitions/Reguard from Butterfly Half Guard]] - Similar reguard technique from different compromised guard position
 
 
 </section>

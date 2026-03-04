@@ -210,23 +210,23 @@ The position is particularly relevant in modern no-gi competition where dynamic 
 
 ## Available Attacks
 
-### [[Leg Weave Pass]] (12% of attempts)
+### [[Transitions/Leg Weave Pass]] (12% of attempts)
 
-### [[Smash Pass]] (33% of attempts)
+### [[Transitions/Smash Pass]] (33% of attempts)
 
-### [[Knee Slice from Half]] (17% of attempts)
+### [[Transitions/Knee Slice from Half]] (17% of attempts)
 
-### [[Underhook Pass]] (17% of attempts)
+### [[Transitions/Underhook Pass]] (17% of attempts)
 
-### [[Darce Setup]] (9% of attempts)
+### [[Transitions/Darce Setup]] (9% of attempts)
 
-### [[Front Headlock to Back]] (7% of attempts)
+### [[Transitions/Front Headlock to Back]] (7% of attempts)
 
-### [[Knee Slide from Jailbreak]] (3% of attempts)
+### [[Transitions/Knee Slide from Jailbreak]] (3% of attempts)
 
-### [[North-South Recovery from Jailbreak]] (1% of attempts)
+### [[Transitions/North-South Recovery from Jailbreak]] (1% of attempts)
 
-### [[Reestablish Side Control from Jailbreak]] (1% of attempts)
+### [[Transitions/Reestablish Side Control from Jailbreak]] (1% of attempts)
 
 
 
@@ -237,28 +237,28 @@ The position is particularly relevant in modern no-gi competition where dynamic 
 ## Decision Making from This Position
 
 **If bottom player's legs are extended and static with minimal hip movement:**
-- Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If bottom player is actively moving hips and creating angles with leg positioning:**
-- Execute **[[Headquarters Pass]]** → [[Headquarters Position]] (Probability: 60%)
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Headquarters Pass]]** → [[Positions/Headquarters Position]] (Probability: 60%)
+- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If bottom player commits to deep underhook or attempts to come up on elbow:**
-- Execute **[[Back Step]]** → [[Outside Ashi-Garami]] (Probability: 65%)
-- Execute **[[Underhook Pass]]** → [[Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Back Step]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Transitions/Underhook Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 **If bottom player retracts legs quickly to recover closed guard or butterfly guard:**
-- Execute **[[Knee Slice from Half]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If bottom player attempts to turn to turtle or go belly down:**
-- Execute **[[Front Headlock to Back]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Front Headlock to Back]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 
@@ -397,16 +397,16 @@ Start from jailbreak top position. Top player wins by achieving side control or 
 
 ## Related Positions and Techniques
 
-- **[[Jailbreak]]** - Opposite perspective - bottom player's defensive position
-- **[[Half Guard]]** - Predecessor position - jailbreak occurs from half guard top passing attempts
-- **[[Lockdown]]** - Counter position - bottom player's alternative defensive structure
-- **[[Deep Half Guard]]** - Transition target - bottom player's recovery option from jailbreak
-- **[[Headquarters Position]]** - Related passing position - similar control structure with different leg configuration
-- **[[Smash Pass]]** - Primary passing technique - common completion from jailbreak top
-- **[[Leg Weave Pass]]** - Primary passing technique - high-percentage finish from jailbreak top
-- **[[Outside Ashi-Garami]]** - Leg entanglement option - backstep target from jailbreak top
-- **[[Side Control]]** - Primary pass completion target - standard destination after successful passing
-- **[[Knee Slice from Half]]** - Alternative passing option - effective when opponent retracts legs
+- **[[Positions/Jailbreak]]** - Opposite perspective - bottom player's defensive position
+- **[[Positions/Half Guard]]** - Predecessor position - jailbreak occurs from half guard top passing attempts
+- **[[Positions/Half Guard/Lockdown]]** - Counter position - bottom player's alternative defensive structure
+- **[[Positions/Half Guard/Deep Half Guard]]** - Transition target - bottom player's recovery option from jailbreak
+- **[[Positions/Headquarters Position]]** - Related passing position - similar control structure with different leg configuration
+- **[[Transitions/Smash Pass]]** - Primary passing technique - common completion from jailbreak top
+- **[[Transitions/Leg Weave Pass]]** - Primary passing technique - high-percentage finish from jailbreak top
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Leg entanglement option - backstep target from jailbreak top
+- **[[Positions/Side Control]]** - Primary pass completion target - standard destination after successful passing
+- **[[Transitions/Knee Slice from Half]]** - Alternative passing option - effective when opponent retracts legs
 
 
 </section>

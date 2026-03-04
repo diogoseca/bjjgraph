@@ -21,7 +21,7 @@ The sweep operates on a fundamental principle: combat base sacrifices lateral st
 
 This sweep family is essential for any guard player facing a disciplined passer who establishes combat base as their primary platform. Without reliable sweeps from this position, the guard player is forced to play reactively against passing attempts rather than creating offensive threats. The sweep also functions as a critical component of the guard retention chain: threatening the sweep forces the top player to defend, disrupting their passing rhythm and creating windows for guard re-establishment, leg entanglement entries, or back takes when they overreact to the sweep threat.
 
-**From Position**: [[Combat Base]] (Bottom)
+**From Position**: [[Positions/Combat Base]] (Bottom)
 **Success Rate**: 42%
 
 </section>
@@ -32,9 +32,9 @@ This sweep family is essential for any guard player facing a disciplined passer 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 42% |
-| Failure | [[Combat Base]] | 35% |
-| Counter | [[Side Control]] | 23% |
+| Success | [[Positions/Mount]] | 42% |
+| Failure | [[Positions/Combat Base]] | 35% |
+| Counter | [[Positions/Side Control]] | 23% |
 
 
 </section>
@@ -195,29 +195,29 @@ The Sweep from Combat Base sits at the intersection of guard retention and guard
 ## Related Techniques
 
 
-- [[Combat Base]] - Starting position for the top player that this sweep targets and exploits
+- [[Positions/Combat Base]] - Starting position for the top player that this sweep targets and exploits
 
-- [[Mount]] - Primary successful outcome position after completing the sweep
+- [[Positions/Mount]] - Primary successful outcome position after completing the sweep
 
-- [[Side Control]] - Counter outcome position where the top player passes during failed sweep attempt
+- [[Positions/Side Control]] - Counter outcome position where the top player passes during failed sweep attempt
 
-- [[Butterfly Guard]] - Related guard position providing hook-based sweeping mechanics applicable to combat base attacks
+- [[Positions/Butterfly Guard]] - Related guard position providing hook-based sweeping mechanics applicable to combat base attacks
 
-- [[Open Guard]] - Parent guard category from which sweeps against combat base are initiated
+- [[Positions/Open Guard]] - Parent guard category from which sweeps against combat base are initiated
 
-- [[Butterfly Hook Sweep]] - Closely related transition sharing hook elevation mechanics and sweep direction principles
+- [[Transitions/Butterfly Hook Sweep]] - Closely related transition sharing hook elevation mechanics and sweep direction principles
 
-- [[Guard Recovery from Combat Base]] - Complementary technique used when sweep fails but guard retention succeeds
+- [[Transitions/Guard Recovery from Combat Base]] - Complementary technique used when sweep fails but guard retention succeeds
 
-- [[Pull Guard from Combat Base]] - Alternative guard engagement strategy when sweep setup conditions are not met
+- [[Transitions/Pull Guard from Combat Base]] - Alternative guard engagement strategy when sweep setup conditions are not met
 
-- [[Combat Base to Headquarters]] - Opponent's advancement option that sweep attempts are designed to prevent
+- [[Transitions/Combat Base to Headquarters]] - Opponent's advancement option that sweep attempts are designed to prevent
 
-- [[Shin-to-Shin Sweep]] - Related sweep using shin-to-shin contact as an alternative entry against combat base
+- [[Transitions/Shin-to-Shin Sweep]] - Related sweep using shin-to-shin contact as an alternative entry against combat base
 
-- [[Homer Simpson Sweep]] - Creative sweep variant that can catch combat base players off-guard with unexpected angles
+- [[Transitions/Homer Simpson Sweep]] - Creative sweep variant that can catch combat base players off-guard with unexpected angles
 
-- [[De La Riva Guard]] - Alternative guard that targets the posted leg and chains with combat base sweep attempts
+- [[Positions/De La Riva Guard]] - Alternative guard that targets the posted leg and chains with combat base sweep attempts
 
 
 </section>

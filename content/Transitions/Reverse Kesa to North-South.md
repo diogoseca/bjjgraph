@@ -21,7 +21,7 @@ Strategically, this transition serves multiple purposes within the pinning hiera
 
 The critical technical challenge lies in maintaining pressure continuity during the rotation. Any gap in chest contact during the transition creates space for the bottom player to insert frames, recover half guard, or begin hip escape sequences. Arm control must transition smoothly from the reverse kesa far-arm trap to north-south underhooks as the body completes its arc, ensuring the bottom player never has both arms free simultaneously during the positional change.
 
-**From Position**: [[Reverse Kesa-Gatame]] (Top)
+**From Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The critical technical challenge lies in maintaining pressure continuity during 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[North-South]] | 55% |
-| Failure | [[Reverse Kesa-Gatame]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/North-South]] | 55% |
+| Failure | [[Positions/Side Control/Reverse Kesa-Gatame]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Reverse Kesa to North-South transition functions as a critical link in the p
 ## Related Techniques
 
 
-- [[Reverse Kesa-Gatame]] - Source position where this transition begins, providing the chest pressure foundation for the rotation
+- [[Positions/Side Control/Reverse Kesa-Gatame]] - Source position where this transition begins, providing the chest pressure foundation for the rotation
 
-- [[North-South]] - Target position upon successful completion, offering new submission and control opportunities
+- [[Positions/North-South]] - Target position upon successful completion, offering new submission and control opportunities
 
-- [[Half Guard]] - Counter outcome position if the bottom player recovers guard during the rotation
+- [[Positions/Half Guard]] - Counter outcome position if the bottom player recovers guard during the rotation
 
-- [[Side Control]] - Alternative pinning position in the same control hierarchy, common fallback if rotation stalls
+- [[Positions/Side Control]] - Alternative pinning position in the same control hierarchy, common fallback if rotation stalls
 
-- [[Side Control to North-South]] - Parallel transition from standard side control sharing similar rotational mechanics
+- [[Transitions/Side Control to North-South]] - Parallel transition from standard side control sharing similar rotational mechanics
 
-- [[Bridge from Reverse Kesa-Gatame]] - Bottom player's escape attempt that often triggers this transition reactively
+- [[Transitions/Bridge from Reverse Kesa-Gatame]] - Bottom player's escape attempt that often triggers this transition reactively
 
-- [[Escape Reverse Kesa-Gatame]] - Defensive techniques the bottom player may attempt during the transition window
+- [[Transitions/Escape Reverse Kesa-Gatame]] - Defensive techniques the bottom player may attempt during the transition window
 
-- [[Kesa Gatame]] - Related scarf hold position in the same pinning family with different rotational options
+- [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position in the same pinning family with different rotational options
 
-- [[Americana from Reverse Kesa]] - Submission threat from starting position that can set up the transition when defended
+- [[Submissions/Americana from Reverse Kesa]] - Submission threat from starting position that can set up the transition when defended
 
-- [[North-South Choke]] - Primary submission opportunity available after successful transition to north-south
+- [[Transitions/North-South Choke]] - Primary submission opportunity available after successful transition to north-south
 
 
 </section>

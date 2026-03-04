@@ -21,7 +21,7 @@ Strategically, this transition serves as a gateway to the mount variation hierar
 
 The transition is most effective when the opponent is actively defending submissions from standard mount, particularly when they bring elbows tight or begin framing on one side. Their defensive commitment creates predictable weight distribution that the top player exploits by shifting to the asymmetric configuration on the opposite side. Conversely, attempting this transition against a passive opponent who is not yet framing wastes the positional advantage of settled mount pressure. The key tactical decision is recognizing when the trade-off between standard mount stability and 3-4 Mount mobility favors the transition based on the opponent's current defensive posture.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -32,9 +32,9 @@ The transition is most effective when the opponent is actively defending submiss
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[3-4 Mount]] | 70% |
-| Failure | [[Mount]] | 20% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount/3-4 Mount]] | 70% |
+| Failure | [[Positions/Mount]] | 20% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Transition to 3-4 Mount occupies a critical junction in the mount variation 
 ## Related Techniques
 
 
-- [[Mount]] - Starting position from which 3-4 Mount transition is initiated
+- [[Positions/Mount]] - Starting position from which 3-4 Mount transition is initiated
 
-- [[3-4 Mount]] - Target position achieved on successful transition
+- [[Positions/Mount/3-4 Mount]] - Target position achieved on successful transition
 
-- [[S Mount]] - Common advancement from 3-4 Mount for armbar attacks
+- [[Positions/Mount/S Mount]] - Common advancement from 3-4 Mount for armbar attacks
 
-- [[Technical Mount]] - Alternative advancement when opponent turns away from 3-4 Mount pressure
+- [[Positions/Mount/Technical Mount]] - Alternative advancement when opponent turns away from 3-4 Mount pressure
 
-- [[High Mount]] - Alternative mount variation accessible from 3-4 configuration
+- [[Positions/Mount/High Mount]] - Alternative mount variation accessible from 3-4 configuration
 
-- [[S-Mount Transition]] - Follow-up transition from 3-4 Mount to armbar platform
+- [[Transitions/S-Mount Transition]] - Follow-up transition from 3-4 Mount to armbar platform
 
-- [[Consolidate Mount]] - Alternative when maintaining standard mount is more advantageous
+- [[Transitions/Consolidate Mount]] - Alternative when maintaining standard mount is more advantageous
 
-- [[Armbar from Mount]] - Primary submission threat that creates openings for 3-4 Mount entry
+- [[Submissions/Armbar from Mount]] - Primary submission threat that creates openings for 3-4 Mount entry
 
-- [[Half Guard]] - Counter outcome position when opponent recovers guard during transition
+- [[Positions/Half Guard]] - Counter outcome position when opponent recovers guard during transition
 
-- [[Back Control]] - Advanced position accessible through 3-4 Mount to technical mount chain
+- [[Positions/Back Control]] - Advanced position accessible through 3-4 Mount to technical mount chain
 
-- [[High Mount Transition]] - Related mount advancement transition using similar weight shifting mechanics
+- [[Transitions/High Mount Transition]] - Related mount advancement transition using similar weight shifting mechanics
 
 
 </section>

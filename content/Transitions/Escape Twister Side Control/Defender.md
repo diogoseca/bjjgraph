@@ -148,7 +148,7 @@ Defending against the escape from Twister Side Control means maintaining your to
 
 The most effective defensive strategy combines active maintenance of leg entanglement with responsive shoulder pressure adjustments. Rather than passively holding position, the top player should create offensive dilemmas that force the bottom player to choose between defending submissions and pursuing escapes. This dual-threat approach significantly reduces escape probability while creating submission opportunities when the bottom player diverts attention to escape mechanics.
 
-**Opponent's Starting Position**: [[Twister Side Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Twister Control/Twister Side Control]] (Bottom)
 
 </section>
 
@@ -186,28 +186,28 @@ The most effective defensive strategy combines active maintenance of leg entangl
 ### 1. Retighten leg entanglement by driving knee deeper behind opponent's knee and actively squeezing with both legs
 
 - **When to use**: When the bottom player begins hip extension or circular movement to extract their trapped leg
-- **Targets**: [[Twister Side Control]]
+- **Targets**: [[Positions/Twister Control/Twister Side Control]]
 - **If successful**: Bottom player's leg remains trapped and they must restart their escape sequence from an earlier stage
 - **Risk**: Focusing too much on leg control may allow upper body frames to solidify
 
 ### 2. Increase shoulder pressure and drive near shoulder to mat to collapse bottom player's frames
 
 - **When to use**: When the bottom player establishes structural frames against your shoulder or hip
-- **Targets**: [[Twister Side Control]]
+- **Targets**: [[Positions/Twister Control/Twister Side Control]]
 - **If successful**: Frames collapse and bottom player must rebuild them before leg extraction can proceed
 - **Risk**: Forward weight commitment for shoulder pressure may create opportunities for rolling escapes
 
 ### 3. Follow turning motion and transition to back control when bottom player exposes their back during escape
 
 - **When to use**: When the bottom player turns too quickly or loses frame contact during the transition to turtle
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You achieve back control with hooks, advancing to the most dominant control position in grappling
 - **Risk**: If the transition is not clean, the bottom player may complete their escape to turtle or guard
 
 ### 4. Attack twister submission or other submissions when bottom player removes hands from spine protection to create frames
 
 - **When to use**: When the bottom player transitions from spine protection to frame building, creating a window of spinal vulnerability
-- **Targets**: [[Twister Side Control]]
+- **Targets**: [[Positions/Twister Control/Twister Side Control]]
 - **If successful**: Bottom player must abandon escape and return to spine protection, resetting their progress entirely
 - **Risk**: Aggressive submission pursuit may compromise your positional control if the attempt fails
 
@@ -219,11 +219,11 @@ The most effective defensive strategy combines active maintenance of leg entangl
 
 ## Best-Case Outcomes for Defender
 
-### → [[Twister Side Control]]
+### → [[Positions/Twister Control/Twister Side Control]]
 
 Maintain active control by constantly adjusting leg entanglement and shoulder pressure to counter each stage of the escape sequence. Attack submissions whenever the bottom player diverts defensive resources toward escape, forcing them to constantly reset their progress.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Recognize when the bottom player exposes their back during the turning phase of the escape. Follow their hip movement closely and transition to back control with hooks before they can establish turtle defense. This is most available when the bottom player turns too quickly or loses frame contact.
 

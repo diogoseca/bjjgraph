@@ -148,7 +148,7 @@ description: "Defend the Outside to Ushiro Ashi-Garami transition. Learn to reco
 
 Defending against the Outside to Ushiro Ashi transition requires understanding that your inversion escape from Outside Ashi-Garami is being followed by an attacker maintaining leg entanglement. The primary defensive challenge is preventing the attacker from consolidating the reversed Ushiro configuration while completing your escape sequence. Success depends on creating sufficient separation during the rotation to extract your trapped leg, or committing fully to continued rotation into turtle position before the attacker can establish stable Ushiro control. Recognizing whether the attacker is following your movement early enough determines your available defensive options and the urgency of your response.
 
-**Opponent's Starting Position**: [[Outside Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -185,21 +185,21 @@ Defending against the Outside to Ushiro Ashi transition requires understanding t
 ### 1. Accelerate inversion to turtle position before attacker can consolidate Ushiro Ashi-Garami configuration
 
 - **When to use**: When attacker's follow is delayed or their figure-four shows any looseness during rotation, indicating they cannot match your speed
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Escape leg entanglement entirely by completing full rotation to turtle, then work to stand or reguard from safer position
 - **Risk**: If attacker follows to back control rather than maintaining leg entanglement, you may face back mount danger with hooks established
 
 ### 2. Frame on attacker's hips with both hands to create separation and prevent hip-to-thigh follow during rotation
 
 - **When to use**: Early in rotation before attacker's follow is established, when you first detect their hips beginning to rotate with your movement
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: Attacker cannot complete the follow and transition stalls, returning to original Outside Ashi-Garami position for another escape attempt
 - **Risk**: Pausing rotation to create frames may allow attacker to re-tighten their triangle in the original configuration with improved control
 
 ### 3. Strip attacker's inside leg hook using both hands during the transitional moment when their leg configuration is adjusting
 
 - **When to use**: Mid-rotation when attacker is repositioning their outside leg and the inside leg hook is most vulnerable to removal
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Removing the inside leg hook collapses the entire figure-four structure, allowing complete leg extraction and escape from entanglement
 - **Risk**: Using both hands to strip the inside leg temporarily removes heel protection, creating a window for attacker to secure finishing heel hook grip
 
@@ -211,11 +211,11 @@ Defending against the Outside to Ushiro Ashi transition requires understanding t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Complete your inversion fully and clear both of the attacker's legs before they can establish Ushiro configuration. Use aggressive hand fighting to break their inside leg hook during the rotation, then continue rotating to clear the entanglement entirely. Accelerate through the transition to reach turtle and then recover guard.
 
-### → [[Outside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 Prevent the transition from progressing by establishing strong frames on the attacker's hips early in the rotation, stopping their hip follow before it develops momentum. This keeps you in the original Outside Ashi defensive position where you can attempt alternative escape routes rather than facing the potentially more dangerous Ushiro configuration.
 

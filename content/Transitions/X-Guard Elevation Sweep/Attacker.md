@@ -184,7 +184,7 @@ Strategically, this sweep represents the highest-reward option from grasshopper 
 
 The sweep integrates into the broader grasshopper guard offensive system as the primary direct sweep threat. When the opponent recognizes the elevation setup and widens their base or drops their hips, this reaction opens pathways to leg entanglements via Ashi Garami entries, Single Leg X-Guard transitions, or rolling kneebar attacks. The threat of being swept to mount forces defensive postures that compromise the opponent's ability to pass, creating the dilemma structure that makes grasshopper guard viable despite its high energy cost.
 
-**From Position**: [[Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
 
@@ -237,9 +237,9 @@ The sweep integrates into the broader grasshopper guard offensive system as the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 65% |
-| Failure | [[Grasshopper Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount]] | 65% |
+| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -248,10 +248,10 @@ The sweep integrates into the broader grasshopper guard offensive system as the 
 
 ## Opponent Counters
 
-- **Widening base and dropping hips low to prevent elevation by removing vertical leverage** (Effectiveness: High) - Your Response: Abandon the elevation and transition to Single Leg X-Guard or Ashi Garami entry, exploiting their lowered posture for leg entanglements → Leads to [[Grasshopper Guard]]
-- **Stepping back quickly with the trapped leg to extract from hook configuration before elevation** (Effectiveness: Medium) - Your Response: Follow their retreat with inversion and re-engage through rolling kneebar entry or chase to re-establish grasshopper guard contact → Leads to [[Grasshopper Guard]]
-- **Posting hand on mat behind to arrest backward fall after partial elevation** (Effectiveness: Medium) - Your Response: Increase forward pull on controlling grip to break the post, or angle the sweep diagonally to sweep past the posting arm → Leads to [[Grasshopper Guard]]
-- **Sprawling forward aggressively to flatten the inverted guard player before hooks are set** (Effectiveness: Low) - Your Response: Convert their forward pressure directly into the sweep as their weight loads onto your hooks, or transition to Deep Half Guard entry → Leads to [[Half Guard]]
+- **Widening base and dropping hips low to prevent elevation by removing vertical leverage** (Effectiveness: High) - Your Response: Abandon the elevation and transition to Single Leg X-Guard or Ashi Garami entry, exploiting their lowered posture for leg entanglements → Leads to [[Positions/Grasshopper Guard]]
+- **Stepping back quickly with the trapped leg to extract from hook configuration before elevation** (Effectiveness: Medium) - Your Response: Follow their retreat with inversion and re-engage through rolling kneebar entry or chase to re-establish grasshopper guard contact → Leads to [[Positions/Grasshopper Guard]]
+- **Posting hand on mat behind to arrest backward fall after partial elevation** (Effectiveness: Medium) - Your Response: Increase forward pull on controlling grip to break the post, or angle the sweep diagonally to sweep past the posting arm → Leads to [[Positions/Grasshopper Guard]]
+- **Sprawling forward aggressively to flatten the inverted guard player before hooks are set** (Effectiveness: Low) - Your Response: Convert their forward pressure directly into the sweep as their weight loads onto your hooks, or transition to Deep Half Guard entry → Leads to [[Positions/Half Guard]]
 
 
 </section>

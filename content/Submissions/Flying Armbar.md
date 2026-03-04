@@ -26,7 +26,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint and shoulder
-**Starting Position**: [[Closed Guard]]
+**Starting Position**: [[Positions/Closed Guard]]
 **Success Rate**: 40%
 
 </section>
@@ -82,8 +82,8 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -236,15 +236,15 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 ## From Which Positions?
 
-- [[Closed Guard]]
-- [[Open Guard]]
-- [[Spider Guard]]
-- [[De La Riva Guard]]
-- [[Collar Sleeve Guard]]
-- [[Butterfly Guard]]
-- [[Rubber Guard]]
-- [[Lasso Guard]]
-- [[Inverted Guard]]
+- [[Positions/Closed Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/Spider Guard]]
+- [[Positions/De La Riva Guard]]
+- [[Positions/Collar Sleeve Guard]]
+- [[Positions/Butterfly Guard]]
+- [[Positions/Rubber Guard]]
+- [[Positions/Lasso Guard]]
+- [[Positions/Inverted Guard]]
 
 
 </section>
@@ -253,16 +253,16 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 ## Related Submissions
 
-- [[Armbar from Guard]]
-- [[Triangle Choke]]
-- [[Armbar from Mount]]
-- [[Omoplata]]
-- [[Flying Kneebar]]
-- [[Armbar from Back]]
-- [[Belly Down Armbar]]
-- [[Far Side Armbar]]
-- [[Kimura]]
-- [[Guillotine Choke]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Triangle Choke]]
+- [[Submissions/Armbar from Mount]]
+- [[Transitions/Omoplata]]
+- [[Submissions/Flying Kneebar]]
+- [[Submissions/Armbar from Back]]
+- [[Submissions/Belly Down Armbar]]
+- [[Submissions/Far Side Armbar]]
+- [[Transitions/Kimura]]
+- [[Transitions/Guillotine Choke]]
 
 
 </section>
@@ -271,16 +271,16 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 ## Additional Related Content
 
-- [[Armbar from Guard]] - Fundamental prerequisite - master static armbar before attempting flying version
-- [[Triangle Choke]] - Primary backup submission if flying armbar entry succeeds but arm escapes
-- [[Closed Guard]] - Common starting position for flying armbar setup
-- [[Spider Guard]] - Alternative guard position providing excellent flying armbar entries
-- [[Armbar from Mount]] - Understanding ground-based armbar mechanics helps refine flying version
-- [[Open Guard]] - Provides standing opponent scenarios ideal for flying armbar attempts
-- [[De La Riva Guard]] - Advanced guard position that can transition to flying submissions
-- [[Omoplata]] - Alternative shoulder attack from similar guard positions
-- [[Flying Kneebar]] - Related aerial leg lock requiring similar athletic ability and timing
-- [[Armbar Control]] - Control position established after successful aerial entry
+- [[Submissions/Armbar from Guard]] - Fundamental prerequisite - master static armbar before attempting flying version
+- [[Transitions/Triangle Choke]] - Primary backup submission if flying armbar entry succeeds but arm escapes
+- [[Positions/Closed Guard]] - Common starting position for flying armbar setup
+- [[Positions/Spider Guard]] - Alternative guard position providing excellent flying armbar entries
+- [[Submissions/Armbar from Mount]] - Understanding ground-based armbar mechanics helps refine flying version
+- [[Positions/Open Guard]] - Provides standing opponent scenarios ideal for flying armbar attempts
+- [[Positions/De La Riva Guard]] - Advanced guard position that can transition to flying submissions
+- [[Transitions/Omoplata]] - Alternative shoulder attack from similar guard positions
+- [[Submissions/Flying Kneebar]] - Related aerial leg lock requiring similar athletic ability and timing
+- [[Positions/Armbar Control]] - Control position established after successful aerial entry
 
 
 </section>

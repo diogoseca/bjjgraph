@@ -184,7 +184,7 @@ Strategically, this technique thrives on a predictable defensive reaction: when 
 
 The arm triangle from top integrates seamlessly with side control attacks. If the opponent defends the americana by bringing their elbow tight, they expose the arm triangle. If they frame against your neck to create escape space, they feed the configuration. This creates a submission chain where defending one attack opens the next, embodying the dilemma-based approach that characterizes high-level top control.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -238,8 +238,8 @@ The arm triangle from top integrates seamlessly with side control attacks. If th
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Side Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -248,9 +248,9 @@ The arm triangle from top integrates seamlessly with side control attacks. If th
 
 ## Opponent Counters
 
-- **Opponent frames with both arms against your chest and shrimps away before you lock the grip, creating enough space to extract the trapped arm and recover guard** (Effectiveness: High) - Your Response: Maintain heavy chest pressure and control the far hip with your free hand throughout setup. If they begin shrimping, switch to knee on belly or mount transition to capitalize on the space they create rather than chasing the arm triangle → Leads to [[Side Control]]
-- **Opponent clasps their hands together in a prayer grip or grabs their own collar to prevent their arm from being pushed across the centerline** (Effectiveness: Medium) - Your Response: Use your knee or hip to bump their elbow upward while driving your shoulder into the gap. Alternatively, switch to attacking the americana or kimura on the now-extended arm, forcing them to release the defensive grip → Leads to [[Side Control]]
-- **Opponent turns into you during the walk-around, getting to their knees or recovering half guard by inserting a knee before you complete the transition** (Effectiveness: Medium) - Your Response: If they turn in, immediately transition to a darce choke or guillotine as their neck becomes exposed during the turn. If they recover half guard, maintain the head-and-arm configuration and work the arm triangle finish from half guard top instead → Leads to [[Half Guard]]
+- **Opponent frames with both arms against your chest and shrimps away before you lock the grip, creating enough space to extract the trapped arm and recover guard** (Effectiveness: High) - Your Response: Maintain heavy chest pressure and control the far hip with your free hand throughout setup. If they begin shrimping, switch to knee on belly or mount transition to capitalize on the space they create rather than chasing the arm triangle → Leads to [[Positions/Side Control]]
+- **Opponent clasps their hands together in a prayer grip or grabs their own collar to prevent their arm from being pushed across the centerline** (Effectiveness: Medium) - Your Response: Use your knee or hip to bump their elbow upward while driving your shoulder into the gap. Alternatively, switch to attacking the americana or kimura on the now-extended arm, forcing them to release the defensive grip → Leads to [[Positions/Side Control]]
+- **Opponent turns into you during the walk-around, getting to their knees or recovering half guard by inserting a knee before you complete the transition** (Effectiveness: Medium) - Your Response: If they turn in, immediately transition to a darce choke or guillotine as their neck becomes exposed during the turn. If they recover half guard, maintain the head-and-arm configuration and work the arm triangle finish from half guard top instead → Leads to [[Positions/Half Guard]]
 - **Opponent bridges explosively toward the choking side during the finishing squeeze, creating space and disrupting your angle** (Effectiveness: Low) - Your Response: Absorb the bridge by widening your base and dropping your hips heavier. Their bridge actually helps tighten the choke if you maintain the configuration—ride the movement and increase your squeeze angle as they return to the mat → Leads to [[game-over]]
 
 

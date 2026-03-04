@@ -186,7 +186,7 @@ description: "Learn to execute the Knee Slice from De La Riva Guard as the passe
 
 The Knee Slice from DLR demands precise sequencing from the passer: strip the ankle grip, neutralize the DLR hook, establish the knee line, and drive through with crossface pressure. As the attacking practitioner, your success depends on understanding that each phase must be completed before advancing to the next. Rushing the knee slice without first addressing the hook structure is the single most common reason this pass fails at competitive levels. The technique rewards methodical execution combined with explosive commitment once the passing window opens—hesitate after clearing the hook and the guard player will re-establish their framework before you can complete the cut. Develop the sensitivity to feel when the hook tension drops and chain immediately into the forward drive.
 
-**From Position**: [[De La Riva Guard]] (Top)
+**From Position**: [[Positions/De La Riva Guard]] (Top)
 
 </section>
 
@@ -239,10 +239,10 @@ The Knee Slice from DLR demands precise sequencing from the passer: strip the an
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[De La Riva Guard]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Side Control]] | 40% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/De La Riva Guard]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ The Knee Slice from DLR demands precise sequencing from the passer: strip the an
 
 ## Opponent Counters
 
-- **Bottom player re-establishes DLR hook during grip fighting phase before knee slice initiates** (Effectiveness: High) - Your Response: Restart the grip strip sequence or switch to a toreando or backstep pass if they continue re-hooking. Chain multiple passing threats so they cannot simply reset the same defense repeatedly. → Leads to [[De La Riva Guard]]
-- **Bottom player inverts for berimbolo as passer commits forward during the knee slice drive** (Effectiveness: High) - Your Response: Stop forward movement immediately and drive your hips into their hips to prevent the inversion from completing. Use your crossface grip to pin their shoulders to the mat. If they have already started rotating, backstep and circle away from the inversion direction. → Leads to [[Back Control]]
-- **Bottom player inserts knee shield as the knee begins cutting across their thigh line** (Effectiveness: Medium) - Your Response: Switch to a smash pass approach by driving your shoulder into their shield knee, collapsing it toward their chest. Alternatively, backstep over the knee shield and complete the pass from the opposite angle using a long step or leg drag. → Leads to [[Half Guard]]
-- **Bottom player frames on collar and hip escapes to re-establish distance and re-insert DLR hook** (Effectiveness: Medium) - Your Response: Maintain your collar or lapel grip to prevent them from creating sufficient distance for hook re-insertion. Drive forward pressure immediately to keep them compressed and unable to re-establish the DLR framework. → Leads to [[De La Riva Guard]]
+- **Bottom player re-establishes DLR hook during grip fighting phase before knee slice initiates** (Effectiveness: High) - Your Response: Restart the grip strip sequence or switch to a toreando or backstep pass if they continue re-hooking. Chain multiple passing threats so they cannot simply reset the same defense repeatedly. → Leads to [[Positions/De La Riva Guard]]
+- **Bottom player inverts for berimbolo as passer commits forward during the knee slice drive** (Effectiveness: High) - Your Response: Stop forward movement immediately and drive your hips into their hips to prevent the inversion from completing. Use your crossface grip to pin their shoulders to the mat. If they have already started rotating, backstep and circle away from the inversion direction. → Leads to [[Positions/Back Control]]
+- **Bottom player inserts knee shield as the knee begins cutting across their thigh line** (Effectiveness: Medium) - Your Response: Switch to a smash pass approach by driving your shoulder into their shield knee, collapsing it toward their chest. Alternatively, backstep over the knee shield and complete the pass from the opposite angle using a long step or leg drag. → Leads to [[Positions/Half Guard]]
+- **Bottom player frames on collar and hip escapes to re-establish distance and re-insert DLR hook** (Effectiveness: Medium) - Your Response: Maintain your collar or lapel grip to prevent them from creating sufficient distance for hook re-insertion. Drive forward pressure immediately to keep them compressed and unable to re-establish the DLR framework. → Leads to [[Positions/De La Riva Guard]]
 
 
 </section>

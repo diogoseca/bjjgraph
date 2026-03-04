@@ -21,7 +21,7 @@ Executing a successful guard pull requires precise coordination between grip est
 
 Strategically, the guard pull occupies a central role in competition BJJ game planning. It allows practitioners to bypass the standing exchange entirely, conserving energy and avoiding unfavorable scrambles. However, it requires full commitment. A half-hearted pull results in a failed attempt that gives your opponent forward momentum and passing initiative. Understanding when to pull, which grips to prioritize, and which guard variation to land in transforms this fundamental transition from a simple descent into a sophisticated tactical weapon that dictates the trajectory of the entire match.
 
-**From Position**: [[Standing Position]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the guard pull occupies a central role in competition BJJ game pl
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -194,29 +194,29 @@ The Standing Guard Pull serves as the critical bridge between standing engagemen
 ## Related Techniques
 
 
-- [[Open Guard]] - Primary target position after successful guard pull establishment
+- [[Positions/Open Guard]] - Primary target position after successful guard pull establishment
 
-- [[Standing Position]] - Source position from which the guard pull is initiated
+- [[Positions/Standing Position]] - Source position from which the guard pull is initiated
 
-- [[Closed Guard]] - Alternative pull destination when jumping closed guard variant is used
+- [[Positions/Closed Guard]] - Alternative pull destination when jumping closed guard variant is used
 
-- [[De La Riva Guard]] - Specific guard system entered through rolling guard pull variant
+- [[Positions/De La Riva Guard]] - Specific guard system entered through rolling guard pull variant
 
-- [[Butterfly Guard]] - Common guard variation established after landing with butterfly hooks
+- [[Positions/Butterfly Guard]] - Common guard variation established after landing with butterfly hooks
 
-- [[Half Guard]] - Result position when guard pull is partially countered and opponent passes to half
+- [[Positions/Half Guard]] - Result position when guard pull is partially countered and opponent passes to half
 
-- [[Collar Sleeve Guard]] - Specific guard destination when pulling with collar and sleeve grip configuration
+- [[Positions/Collar Sleeve Guard]] - Specific guard destination when pulling with collar and sleeve grip configuration
 
-- [[Combat Base]] - Common opponent posture adopted in response to guard pull to begin passing
+- [[Positions/Combat Base]] - Common opponent posture adopted in response to guard pull to begin passing
 
-- [[Headquarters Position]] - Transitional passing platform opponent may establish after a partially successful pull
+- [[Positions/Headquarters Position]] - Transitional passing platform opponent may establish after a partially successful pull
 
-- [[Butterfly Guard Pull]] - Related guard pull technique specifically targeting butterfly guard entry
+- [[Transitions/Butterfly Guard Pull]] - Related guard pull technique specifically targeting butterfly guard entry
 
-- [[Single Leg Entry]] - Alternative standing technique the guard puller may face or choose instead of pulling
+- [[Transitions/Single Leg Entry]] - Alternative standing technique the guard puller may face or choose instead of pulling
 
-- [[Body Lock Takedown]] - Standing alternative that the opponent may attempt instead of engaging the guard pull
+- [[Transitions/Body Lock Takedown]] - Standing alternative that the opponent may attempt instead of engaging the guard pull
 
 
 </section>

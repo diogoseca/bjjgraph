@@ -180,7 +180,7 @@ description: "Learn to execute the Roll from Vaporizer in BJJ. Step-by-step guid
 
 As the attacker executing the Roll from Vaporizer, your objective is to transition from the Vaporizer lockdown position to turtle while maintaining offensive momentum. This technique is employed when your primary Vaporizer attacks—Electric Chair and Old School sweep—are being effectively defended and you need to change the angle of engagement rather than fighting for diminishing returns. The roll requires precise timing and coordination: you must release the lockdown at the correct moment while maintaining enough upper body connection to control the direction of the transition. Successfully completing this roll puts you in turtle where you can immediately pursue truck entries, crab ride, or back control sequences. The key is treating turtle not as a destination but as a brief waypoint in your offensive chain, moving through it with purpose rather than settling into a static defensive shell.
 
-**From Position**: [[Vaporizer]] (Bottom)
+**From Position**: [[Positions/Vaporizer]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Roll from Vaporizer, your objective is to transiti
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Vaporizer]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Vaporizer]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,9 +243,9 @@ As the attacker executing the Roll from Vaporizer, your objective is to transiti
 
 ## Opponent Counters
 
-- **Opponent sprawls and drives weight down during the roll initiation, compressing the bottom player and preventing rotational momentum** (Effectiveness: High) - Your Response: Time the roll for moments when the opponent's weight shifts forward or laterally rather than directly downward. If you feel the sprawl beginning, abort the roll early and re-engage with the lockdown while the configuration is still intact rather than fighting through a committed sprawl. → Leads to [[Vaporizer]]
-- **Opponent follows the roll tightly and immediately begins establishing back control hooks and seatbelt grip as the roller arrives in turtle** (Effectiveness: Medium) - Your Response: Complete the roll as quickly as possible and immediately begin hand fighting and escape sequences. Do not settle in turtle—continue your momentum into a crab ride or sit-out. If you feel them establishing control, turn into them rather than away to prevent hook insertion. → Leads to [[Turtle]]
-- **Opponent disengages entirely during the transition, creating distance and breaking all contact to reset the position to neutral open guard engagement** (Effectiveness: Medium) - Your Response: If you feel the opponent pulling away mid-roll, consider aborting and re-establishing the lockdown if possible. If the roll is already committed, accept the positional reset and immediately work to re-establish a guard configuration rather than chasing them from turtle. → Leads to [[Open Guard]]
+- **Opponent sprawls and drives weight down during the roll initiation, compressing the bottom player and preventing rotational momentum** (Effectiveness: High) - Your Response: Time the roll for moments when the opponent's weight shifts forward or laterally rather than directly downward. If you feel the sprawl beginning, abort the roll early and re-engage with the lockdown while the configuration is still intact rather than fighting through a committed sprawl. → Leads to [[Positions/Vaporizer]]
+- **Opponent follows the roll tightly and immediately begins establishing back control hooks and seatbelt grip as the roller arrives in turtle** (Effectiveness: Medium) - Your Response: Complete the roll as quickly as possible and immediately begin hand fighting and escape sequences. Do not settle in turtle—continue your momentum into a crab ride or sit-out. If you feel them establishing control, turn into them rather than away to prevent hook insertion. → Leads to [[Positions/Turtle]]
+- **Opponent disengages entirely during the transition, creating distance and breaking all contact to reset the position to neutral open guard engagement** (Effectiveness: Medium) - Your Response: If you feel the opponent pulling away mid-roll, consider aborting and re-establishing the lockdown if possible. If the roll is already committed, accept the positional reset and immediately work to re-establish a guard configuration rather than chasing them from turtle. → Leads to [[Positions/Open Guard]]
 
 
 </section>

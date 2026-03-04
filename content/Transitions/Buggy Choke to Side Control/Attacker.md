@@ -178,7 +178,7 @@ Strategically, this transition capitalizes on the opponent's defensive focus on 
 
 The transition also serves as a psychological tool—opponents who know you will advance to side control when they successfully defend the choke face a dilemma where both accepting the choke and defending it lead to disadvantageous outcomes. This dilemma creation is fundamental to high-level attacking systems and makes the buggy choke position significantly more threatening than if the choke were the only available attack.
 
-**From Position**: [[Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
 
@@ -230,9 +230,9 @@ The transition also serves as a psychological tool—opponents who know you will
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ The transition also serves as a psychological tool—opponents who know you will
 
 ## Opponent Counters
 
-- **Opponent sits to guard during grip transition** (Effectiveness: High) - Your Response: Follow their hip movement and convert to back take rather than forcing side control—their sitting motion creates optimal back exposure → Leads to [[Half Guard]]
-- **Opponent frames on hip and creates distance before side control consolidates** (Effectiveness: Medium) - Your Response: Maintain underhook control and use knee cut or leg weave technique to complete the pass through their frame → Leads to [[Half Guard]]
-- **Opponent granby rolls away when pressure releases during grip conversion** (Effectiveness: Medium) - Your Response: Anticipate rolling direction and redirect to truck position or follow roll to maintain top control in turtle → Leads to [[Turtle]]
-- **Opponent recovers full turtle posture and re-establishes defensive structure** (Effectiveness: Low) - Your Response: Reset to standard turtle top attacks including re-attempting buggy choke or transitioning to other attacks like clock choke or back take → Leads to [[Turtle]]
+- **Opponent sits to guard during grip transition** (Effectiveness: High) - Your Response: Follow their hip movement and convert to back take rather than forcing side control—their sitting motion creates optimal back exposure → Leads to [[Positions/Half Guard]]
+- **Opponent frames on hip and creates distance before side control consolidates** (Effectiveness: Medium) - Your Response: Maintain underhook control and use knee cut or leg weave technique to complete the pass through their frame → Leads to [[Positions/Half Guard]]
+- **Opponent granby rolls away when pressure releases during grip conversion** (Effectiveness: Medium) - Your Response: Anticipate rolling direction and redirect to truck position or follow roll to maintain top control in turtle → Leads to [[Positions/Turtle]]
+- **Opponent recovers full turtle posture and re-establishes defensive structure** (Effectiveness: Low) - Your Response: Reset to standard turtle top attacks including re-attempting buggy choke or transitioning to other attacks like clock choke or back take → Leads to [[Positions/Turtle]]
 
 
 </section>

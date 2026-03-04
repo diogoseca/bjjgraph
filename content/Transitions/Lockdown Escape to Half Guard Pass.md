@@ -21,7 +21,7 @@ The key insight is that the lockdown's power derives from the triangled leg conf
 
 Strategically, this technique transforms a defensive predicament into offensive momentum. By flowing directly from escape into a passing sequence, you capitalize on the momentary disruption caused by breaking the opponent's primary control structure. This prevents them from re-establishing the lockdown or transitioning to alternative guards, converting what could be an exhausting positional battle into efficient advancement to dominant position.
 
-**From Position**: [[Lockdown]] (Top)
+**From Position**: [[Positions/Half Guard/Lockdown]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this technique transforms a defensive predicament into offensive 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Lockdown]] | 25% |
-| Counter | [[Deep Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 25% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 10% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Lockdown Escape to Half Guard Pass represents the critical defensive respons
 ## Related Techniques
 
 
-- [[Lockdown]] - Starting position - the control structure being escaped
+- [[Positions/Half Guard/Lockdown]] - Starting position - the control structure being escaped
 
-- [[Side Control]] - Target position after successful pass
+- [[Positions/Side Control]] - Target position after successful pass
 
-- [[Half Guard]] - Parent position category containing lockdown variation
+- [[Positions/Half Guard]] - Parent position category containing lockdown variation
 
-- [[Knee Slice Pass]] - Primary passing option after leg extraction
+- [[Transitions/Knee Slice Pass]] - Primary passing option after leg extraction
 
-- [[Smash Pass]] - Alternative passing finish from extraction
+- [[Transitions/Smash Pass]] - Alternative passing finish from extraction
 
-- [[Deep Half Guard]] - Counter position opponent may transition to
+- [[Positions/Half Guard/Deep Half Guard]] - Counter position opponent may transition to
 
-- [[Electric Chair]] - Primary submission threat from lockdown requiring defense
+- [[Positions/Half Guard/Electric Chair]] - Primary submission threat from lockdown requiring defense
 
-- [[Old School Sweep]] - Sweep threat to defend against during extraction
+- [[Transitions/Old School Sweep]] - Sweep threat to defend against during extraction
 
-- [[Lockdown Break and Pass]] - Related technique with similar escape mechanics
+- [[Transitions/Lockdown Break and Pass]] - Related technique with similar escape mechanics
 
-- [[Crossface Pass]] - Upper body control method supporting extraction
+- [[Transitions/Crossface Pass]] - Upper body control method supporting extraction
 
-- [[Darce Choke]] - Submission opportunity during extraction sequence
+- [[Transitions/Darce Choke]] - Submission opportunity during extraction sequence
 
 
 </section>

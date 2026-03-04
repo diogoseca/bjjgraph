@@ -21,7 +21,7 @@ The fundamental challenge lies in the pulley-like control system the bottom play
 
 This technique represents a critical skill for gi competitors facing modern guard systems. The passing principles transfer directly to other lapel guard variations, making it a foundational technique in the anti-lapel-guard toolkit. Success requires patience during the grip-fighting phase, explosive timing when the passing window opens, and immediate consolidation to prevent guard recovery during the transition to side control.
 
-**From Position**: [[Piranha Guard]] (Top)
+**From Position**: [[Positions/Piranha Guard]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ This technique represents a critical skill for gi competitors facing modern guar
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Piranha Guard]] | 35% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Piranha Guard]] | 35% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ Pass Piranha Guard is a critical component of the modern gi guard passing system
 ## Related Techniques
 
 
-- [[Piranha Guard]] - Source position where this pass is initiated from the top player's perspective
+- [[Positions/Piranha Guard]] - Source position where this pass is initiated from the top player's perspective
 
-- [[Side Control]] - Primary target position reached upon successful completion of the pass
+- [[Positions/Side Control]] - Primary target position reached upon successful completion of the pass
 
-- [[Half Guard]] - Position reached if bottom player successfully counters the pass with a sweep
+- [[Positions/Half Guard]] - Position reached if bottom player successfully counters the pass with a sweep
 
-- [[Lapel Guard]] - Parent guard category sharing grip-clearing and passing principles
+- [[Positions/Lapel Guard]] - Parent guard category sharing grip-clearing and passing principles
 
-- [[De La Riva Guard]] - Related guard with similar hooking concepts that bottom player may transition to if lapel is cleared
+- [[Positions/De La Riva Guard]] - Related guard with similar hooking concepts that bottom player may transition to if lapel is cleared
 
-- [[Lasso Guard]] - Similar lapel-based guard where related grip-stripping methodology applies
+- [[Positions/Lasso Guard]] - Similar lapel-based guard where related grip-stripping methodology applies
 
-- [[Combat Base]] - Common posture used during the grip-fighting phase before committing to pass
+- [[Positions/Combat Base]] - Common posture used during the grip-fighting phase before committing to pass
 
-- [[Open Guard]] - Guard family that bottom player may recover to if lapel configuration is partially cleared
+- [[Positions/Open Guard]] - Guard family that bottom player may recover to if lapel configuration is partially cleared
 
-- [[Collar Sleeve Guard]] - Fallback guard the bottom player may transition to when Piranha configuration is compromised
+- [[Positions/Collar Sleeve Guard]] - Fallback guard the bottom player may transition to when Piranha configuration is compromised
 
-- [[Back Step Pass]] - Related passing technique that shares lateral clearing mechanics effective against lapel guards
+- [[Transitions/Back Step Pass]] - Related passing technique that shares lateral clearing mechanics effective against lapel guards
 
 
 </section>

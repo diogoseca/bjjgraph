@@ -146,7 +146,7 @@ description: "Complete defensive guide against the knee cut pass from feet on hi
 
 As the defender against the knee cut from feet on hips, your primary objective is to recognize the pass attempt early and either re-establish your feet-on-hips frames or transition to a more controlling guard before the passer's knee crosses your thigh line. The knee cut from this position follows a predictable sequence—grip establishment at the knees, frame clearance on one side, and knee insertion through the gap—giving you multiple windows to intervene. Your defensive success depends on maintaining active hip mobility, fighting grips aggressively to prevent bilateral knee control, and having rehearsed guard transitions ready for the moment your primary frame is broken. The worst outcome is allowing the passer to establish both the cutting knee and crossface control simultaneously, which collapses your defensive structure and leads to half guard or side control bottom.
 
-**Opponent's Starting Position**: [[Feet on Hips Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Feet on Hips Guard]] (Top)
 
 </section>
 
@@ -183,28 +183,28 @@ As the defender against the knee cut from feet on hips, your primary objective i
 ### 1. Re-establish foot frame on hip before knee enters gap
 
 - **When to use**: When the passer has just cleared one foot but has not yet committed their cutting knee past your thigh line—the earliest and highest-percentage defensive window
-- **Targets**: [[Feet on Hips Guard]]
+- **Targets**: [[Positions/Feet on Hips Guard]]
 - **If successful**: Returns to neutral feet-on-hips guard position with full distance management restored
 - **Risk**: If the passer maintains their grip and immediately re-clears the foot, you spend energy without changing the dynamic
 
 ### 2. Insert De La Riva hook on the cutting leg as it enters the gap
 
 - **When to use**: When the passer's knee begins crossing your thigh line but has not yet been accompanied by crossface control—hook the cutting leg before they establish upper body pressure
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Establishes De La Riva guard with hook on the cutting leg, creating sweep and back take threats that force the passer to address the hook before continuing
 - **Risk**: If the passer reads the hook attempt and backsteps, you may end up in a compromised position with one leg extended and no frame
 
 ### 3. Close guard by pulling the passer forward and locking ankles as distance collapses
 
 - **When to use**: When the passer commits their weight forward during the knee cut and their hips drop close enough for you to lock your ankles behind their back
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Establishes closed guard which neutralizes the passing threat and provides a stable offensive platform for sweeps and submissions
 - **Risk**: If your timing is off and the passer's knee is already past your thigh, you may lock guard on only one leg, resulting in a compromised half guard
 
 ### 4. Insert knee shield as the cutting knee crosses to catch half guard with frames
 
 - **When to use**: When the knee cut is too deep to prevent but you can still position your inside knee across the passer's hip line before they flatten you with the crossface
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Establishes knee shield half guard which maintains distance and provides a platform for sweeps and guard recovery from half guard bottom
 - **Risk**: If the passer drives through the knee shield with heavy crossface pressure, you may end up flattened in half guard bottom without frames
 
@@ -216,15 +216,15 @@ As the defender against the knee cut from feet on hips, your primary objective i
 
 ## Best-Case Outcomes for Defender
 
-### → [[Feet on Hips Guard]]
+### → [[Positions/Feet on Hips Guard]]
 
 React immediately when the first foot is cleared by retracting your hip and re-posting your foot on the passer's hip bone before their knee enters the gap. Fight their grip on your knee by circling your leg and re-establishing the pushing frame while your opposite foot maintains pressure.
 
-### → [[De La Riva Guard]]
+### → [[Positions/De La Riva Guard]]
 
 As the passer steps their knee forward to cut through, hook the outside of their cutting leg with your near-side foot, threading it behind their knee to establish a De La Riva hook. Simultaneously grip their far-side sleeve or ankle to prevent them from clearing the hook. This converts their forward momentum into vulnerability.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the passer's weight commits forward and their hips drop during the knee cut, pull them toward you with your grips while bringing both legs around their waist. Lock your ankles behind their back before the cutting knee separates your legs. This requires reading their forward weight commitment and timing the guard closure precisely.
 

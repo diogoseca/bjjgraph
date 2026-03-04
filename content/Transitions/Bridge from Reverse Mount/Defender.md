@@ -146,7 +146,7 @@ description: "Defend against the Bridge from Reverse Mount in BJJ. Learn to reco
 
 As the defender against the Bridge from Reverse Mount, you are the top player in reverse mount trying to maintain position and prevent the bottom player's bridge escape. Your primary objectives are to recognize bridge attempts before they develop full power, maintain heavy weight distribution that makes bridging ineffective, and capitalize on failed bridge attempts by advancing to back control or standard mount. The reverse mount is inherently transitional—your backward orientation provides less visual information about the bottom player's movements, so you must rely heavily on proprioception and tactile cues to detect escape attempts. Understanding the mechanics of the bridge escape allows you to position your weight and base preemptively, shutting down the escape before it generates meaningful displacement. When the bottom player does bridge, your response should convert their movement into an opportunity for positional advancement rather than simply trying to hold position.
 
-**Opponent's Starting Position**: [[Reverse Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Reverse Mount]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ As the defender against the Bridge from Reverse Mount, you are the top player in
 ### 1. Sink weight and widen base to absorb the bridge
 
 - **When to use**: When you feel the bottom player shift hips or plant feet—preemptive weight commitment before bridge executes
-- **Targets**: [[Reverse Mount]]
+- **Targets**: [[Positions/Reverse Mount]]
 - **If successful**: Bridge is absorbed with minimal displacement, allowing you to maintain reverse mount and continue working toward transition
 - **Risk**: Over-committing weight forward may open hip escape opportunities if the bridge was a feint
 
 ### 2. Insert hooks during the bridge transition to secure back control
 
 - **When to use**: When the bottom player commits to the bridge and begins turning toward turtle—capitalize on their movement
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Advance from reverse mount to full back control with hooks and harness, a superior attacking position worth 4 points
 - **Risk**: If hook insertion is too slow, the bottom player completes the turn to turtle and you must restart your attack sequence
 
 ### 3. Sprawl hips back and flatten the bottom player during bridge attempt
 
 - **When to use**: When you detect the bridge starting but before full power is generated—a preemptive sprawl kills the movement
-- **Targets**: [[Reverse Mount]]
+- **Targets**: [[Positions/Reverse Mount]]
 - **If successful**: Bottom player is flattened with reduced mobility, making subsequent escape attempts more difficult and giving you time to transition
 - **Risk**: Sprawling creates distance from their hips, potentially allowing a hip escape if you do not re-close immediately
 
 ### 4. Follow the turn and establish seatbelt control as they reach turtle
 
 - **When to use**: When the bridge successfully displaces you and the bottom player is actively turning to turtle
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You establish seatbelt harness control and begin back take sequence from turtle top, maintaining offensive initiative
 - **Risk**: If you are too slow establishing control, the bottom player can execute a turtle escape before you secure grips
 
@@ -218,11 +218,11 @@ As the defender against the Bridge from Reverse Mount, you are the top player in
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the bottom player bridges and begins turning, follow their rotation while inserting your near-side hook. Establish seatbelt control by threading one arm over their shoulder and the other under their armpit. Complete the back take by inserting the second hook as they reach turtle position. Their own bridge momentum assists your transition to back control.
 
-### → [[Reverse Mount]]
+### → [[Positions/Reverse Mount]]
 
 Maintain position by sinking your weight through your hips onto their sternum the moment you detect bridge preparation. Widen your knees for maximum base and post one hand on the mat on the side they are bridging toward. Ride the bridge by keeping your center of gravity low and allowing the movement to pass beneath you without displacement.
 

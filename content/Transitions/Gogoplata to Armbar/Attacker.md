@@ -180,7 +180,7 @@ description: "Execute the gogoplata to armbar chain attack from bottom position.
 
 The gogoplata to armbar transition exploits a fundamental defensive dilemma. When opponents defend the gogoplata by extending their arms or posturing up, they expose the very limbs that the bottom player can attack with an armbar. The attacker must develop sensitivity to recognize these defensive patterns and execute a precise hip pivot that transitions from shin-across-throat compression to perpendicular arm isolation. Success depends on securing wrist control before abandoning the gogoplata configuration, ensuring continuity of offensive pressure throughout the transition. The transition rewards patience and pattern recognition over explosive athleticism, as the correct timing window is created by the opponent's own defensive reactions rather than forced by the attacker.
 
-**From Position**: [[Gogoplata Control]] (Bottom)
+**From Position**: [[Positions/Gogoplata Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The gogoplata to armbar transition exploits a fundamental defensive dilemma. Whe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 55% |
-| Failure | [[Gogoplata Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Armbar Control]] | 55% |
+| Failure | [[Positions/Gogoplata Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The gogoplata to armbar transition exploits a fundamental defensive dilemma. Whe
 
 ## Opponent Counters
 
-- **Opponent tucks arm tight against their body and denies wrist control before the transition can begin** (Effectiveness: High) - Your Response: Return to gogoplata pressure and increase hip elevation to tighten the choke. The increased shin compression forces either a tap or an arm extension. Do not release the gogoplata without wrist control established. → Leads to [[Gogoplata Control]]
-- **Opponent stacks forward with heavy pressure during the hip pivot phase to collapse the armbar angle** (Effectiveness: Medium) - Your Response: If stacking pressure is strong, underhook their far leg and use their forward momentum to complete a sweep to top position. Alternatively, abandon the armbar and convert to triangle control by catching their head between your legs as their forward drive assists the triangle angle. → Leads to [[Gogoplata Control]]
-- **Opponent postures explosively and extracts head before the leg swings over to establish armbar control** (Effectiveness: Medium) - Your Response: Speed up the hip pivot and commit to the leg swing earlier in the sequence. If they create too much distance, immediately re-close your guard and work to re-establish rubber guard control for another chain attack attempt. → Leads to [[Half Guard]]
-- **Opponent rolls toward the controlled arm during the armbar setup to relieve pressure and escape** (Effectiveness: Low) - Your Response: Follow the roll and transition to belly-down armbar position while maintaining continuous wrist control. Their rolling motion actually assists your finishing mechanics as long as grip integrity is maintained throughout the rotation. → Leads to [[Armbar Control]]
+- **Opponent tucks arm tight against their body and denies wrist control before the transition can begin** (Effectiveness: High) - Your Response: Return to gogoplata pressure and increase hip elevation to tighten the choke. The increased shin compression forces either a tap or an arm extension. Do not release the gogoplata without wrist control established. → Leads to [[Positions/Gogoplata Control]]
+- **Opponent stacks forward with heavy pressure during the hip pivot phase to collapse the armbar angle** (Effectiveness: Medium) - Your Response: If stacking pressure is strong, underhook their far leg and use their forward momentum to complete a sweep to top position. Alternatively, abandon the armbar and convert to triangle control by catching their head between your legs as their forward drive assists the triangle angle. → Leads to [[Positions/Gogoplata Control]]
+- **Opponent postures explosively and extracts head before the leg swings over to establish armbar control** (Effectiveness: Medium) - Your Response: Speed up the hip pivot and commit to the leg swing earlier in the sequence. If they create too much distance, immediately re-close your guard and work to re-establish rubber guard control for another chain attack attempt. → Leads to [[Positions/Half Guard]]
+- **Opponent rolls toward the controlled arm during the armbar setup to relieve pressure and escape** (Effectiveness: Low) - Your Response: Follow the roll and transition to belly-down armbar position while maintaining continuous wrist control. Their rolling motion actually assists your finishing mechanics as long as grip integrity is maintained throughout the rotation. → Leads to [[Positions/Armbar Control]]
 
 
 </section>

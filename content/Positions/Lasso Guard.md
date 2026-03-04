@@ -90,31 +90,31 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 ### Available Transitions
 
 
-- **[[Sickle Sweep]]** (48% of attempts)
+- **[[Transitions/Sickle Sweep]]** (48% of attempts)
 
-- **[[Triangle Setup]]** (12% of attempts)
+- **[[Transitions/Triangle Setup]]** (12% of attempts)
 
-- **[[Omoplata Sweep]]** (8% of attempts)
+- **[[Transitions/Omoplata Sweep]]** (8% of attempts)
 
-- **[[De La Riva Sweep]]** (5% of attempts)
+- **[[Transitions/De La Riva Sweep]]** (5% of attempts)
 
-- **[[Omoplata from Lasso]]** (5% of attempts)
+- **[[Transitions/Omoplata from Lasso]]** (5% of attempts)
 
-- **[[Hook Sweep]]** (4% of attempts)
+- **[[Transitions/Hook Sweep]]** (4% of attempts)
 
-- **[[Lasso Sweep]]** (4% of attempts)
+- **[[Transitions/Lasso Sweep]]** (4% of attempts)
 
-- **[[X-Guard Sweep]]** (3% of attempts)
+- **[[Transitions/X-Guard Sweep]]** (3% of attempts)
 
-- **[[Berimbolo Entry]]** (3% of attempts)
+- **[[Transitions/Berimbolo Entry]]** (3% of attempts)
 
-- **[[Lasso Guard to Inverted Lasso Guard]]** (3% of attempts)
+- **[[Transitions/Lasso Guard to Inverted Lasso Guard]]** (3% of attempts)
 
-- **[[Armbar Finish]]** (2% of attempts)
+- **[[Transitions/Armbar Finish]]** (2% of attempts)
 
-- **[[Kimura Sweep]]** (2% of attempts)
+- **[[Transitions/Kimura Sweep]]** (2% of attempts)
 
-- **[[Lasso Guard to Russian Leg Lasso]]** (1% of attempts)
+- **[[Transitions/Lasso Guard to Russian Leg Lasso]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -173,29 +173,29 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 ### Available Transitions
 
 
-- **[[Lasso Guard Pass]]** (15% of attempts)
+- **[[Transitions/Lasso Guard Pass]]** (15% of attempts)
 
-- **[[Stack Pass]]** (10% of attempts)
+- **[[Transitions/Stack Pass]]** (10% of attempts)
 
-- **[[Knee Cut Pass]]** (34% of attempts)
+- **[[Transitions/Knee Cut Pass]]** (34% of attempts)
 
-- **[[Smash Pass]]** (8% of attempts)
+- **[[Transitions/Smash Pass]]** (8% of attempts)
 
-- **[[Toreando Pass]]** (8% of attempts)
+- **[[Transitions/Toreando Pass]]** (8% of attempts)
 
-- **[[Long Step Pass]]** (3% of attempts)
+- **[[Transitions/Long Step Pass]]** (3% of attempts)
 
-- **[[Leg Weave Pass]]** (8% of attempts)
+- **[[Transitions/Leg Weave Pass]]** (8% of attempts)
 
-- **[[Kimura]]** (3% of attempts)
+- **[[Transitions/Kimura]]** (3% of attempts)
 
-- **[[Body Lock Pass]]** (6% of attempts)
+- **[[Transitions/Body Lock Pass]]** (6% of attempts)
 
-- **[[Spider Guard Pass]]** (3% of attempts)
+- **[[Transitions/Spider Guard Pass]]** (3% of attempts)
 
-- **[[Lasso Guard Backstep Pass]]** (1% of attempts)
+- **[[Transitions/Lasso Guard Backstep Pass]]** (1% of attempts)
 
-- **[[Lasso Guard Stack Pass]]** (1% of attempts)
+- **[[Transitions/Lasso Guard Stack Pass]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -234,15 +234,15 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 ## Related Positions
 
 
-- **[[Spider Guard]]** - Shares similar sleeve control mechanics and distance management principles with foot-on-bicep positioning
+- **[[Positions/Spider Guard]]** - Shares similar sleeve control mechanics and distance management principles with foot-on-bicep positioning
 
-- **[[De La Riva Guard]]** - Can be combined with DLR hook on the opposite leg to create hybrid control systems
+- **[[Positions/De La Riva Guard]]** - Can be combined with DLR hook on the opposite leg to create hybrid control systems
 
-- **[[Collar Sleeve Guard]]** - Often transitions to lasso by threading the leg through the controlled arm while maintaining collar grip
+- **[[Positions/Collar Sleeve Guard]]** - Often transitions to lasso by threading the leg through the controlled arm while maintaining collar grip
 
-- **[[Single Leg X-Guard]]** - Common transition target when the opponent stands or attempts to pass around the lasso
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Common transition target when the opponent stands or attempts to pass around the lasso
 
-- **[[Triangle Control]]** - Natural submission progression when the opponent's posture breaks forward into the lasso
+- **[[Positions/Triangle Control]]** - Natural submission progression when the opponent's posture breaks forward into the lasso
 
 
 </section>

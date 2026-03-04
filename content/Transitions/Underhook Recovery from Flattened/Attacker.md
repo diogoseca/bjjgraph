@@ -186,7 +186,7 @@ description: "Learn to recover the underhook from flattened half guard bottom. S
 
 As the bottom player in flattened half guard, recovering the underhook is your highest-priority technical objective and the gateway to escaping this compromised position. Your back is flat, the opponent's chest pressure restricts your breathing, and their crossface turns your head away from the action. In this scenario, every movement must be purposeful and sequential. The underhook recovery follows a specific technical pipeline: create a preliminary frame, execute a measured hip escape to generate space, thread your arm deep under the opponent's far armpit, then use the underhook as a lever to rotate from flat on your back to your side. Each phase builds on the previous one, and attempting to skip ahead results in the top player collapsing whatever space you created. Patience and methodical execution under pressure define successful underhook recovery, distinguishing it from frantic escape attempts that waste energy without creating meaningful positional change.
 
-**From Position**: [[Flattened Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the bottom player in flattened half guard, recovering the underhook is your h
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Flattened Half Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the bottom player in flattened half guard, recovering the underhook is your h
 
 ## Opponent Counters
 
-- **Top player drives crossface harder and increases forward chest pressure to re-flatten bottom player** (Effectiveness: High) - Your Response: Accept the increased crossface rather than fighting it. Use the pressure wave to time your next hip escape, creating space as they commit weight forward. Redirect their pressure into your frame rather than absorbing it directly. → Leads to [[Flattened Half Guard]]
-- **Top player applies whizzer or overhook on the underhook arm to neutralize its leverage** (Effectiveness: High) - Your Response: Drive the underhook deeper before the whizzer locks. If the whizzer is established, use the connection to initiate a dogfight by coming up to your knees, or transition to an old school sweep by ducking under and using their whizzer commitment against them. → Leads to [[Half Guard]]
-- **Top player clamps their elbow tight to block the underhook insertion path before the arm threads through** (Effectiveness: Medium) - Your Response: Use your frame hand to push their elbow upward while simultaneously driving your underhook arm through the opened gap. Alternatively, switch to a deep half entry by diving your head and shoulders under their hips rather than fighting the blocked underhook path. → Leads to [[Flattened Half Guard]]
-- **Top player uses the bottom player's movement to extract their trapped leg and complete the pass to side control** (Effectiveness: Medium) - Your Response: Maintain your leg hook as the absolute highest priority throughout the recovery sequence. If you feel the leg beginning to slide free, immediately tighten your hook and abandon the underhook attempt to prevent the pass. Reset and retry when the hook is secure. → Leads to [[Side Control]]
+- **Top player drives crossface harder and increases forward chest pressure to re-flatten bottom player** (Effectiveness: High) - Your Response: Accept the increased crossface rather than fighting it. Use the pressure wave to time your next hip escape, creating space as they commit weight forward. Redirect their pressure into your frame rather than absorbing it directly. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Top player applies whizzer or overhook on the underhook arm to neutralize its leverage** (Effectiveness: High) - Your Response: Drive the underhook deeper before the whizzer locks. If the whizzer is established, use the connection to initiate a dogfight by coming up to your knees, or transition to an old school sweep by ducking under and using their whizzer commitment against them. → Leads to [[Positions/Half Guard]]
+- **Top player clamps their elbow tight to block the underhook insertion path before the arm threads through** (Effectiveness: Medium) - Your Response: Use your frame hand to push their elbow upward while simultaneously driving your underhook arm through the opened gap. Alternatively, switch to a deep half entry by diving your head and shoulders under their hips rather than fighting the blocked underhook path. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Top player uses the bottom player's movement to extract their trapped leg and complete the pass to side control** (Effectiveness: Medium) - Your Response: Maintain your leg hook as the absolute highest priority throughout the recovery sequence. If you feel the leg beginning to slide free, immediately tighten your hook and abandon the underhook attempt to prevent the pass. Reset and retry when the hook is secure. → Leads to [[Positions/Side Control]]
 
 
 </section>

@@ -178,7 +178,7 @@ From a tactical standpoint, reverse mount offers a unique combination of control
 
 The transition requires precise weight management and timing. Moving from North-South chest pressure to a seated position creates a vulnerability window where the opponent can escape if the transition is executed poorly. Success depends on maintaining continuous pressure throughout the movement, securing hip control before releasing chest pressure, and establishing the mounted position before the opponent can create defensive frames or hip escape.
 
-**From Position**: [[North-South]] (Top)
+**From Position**: [[Positions/North-South]] (Top)
 
 </section>
 
@@ -230,9 +230,9 @@ The transition requires precise weight management and timing. Moving from North-
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Reverse Mount]] | 58% |
-| Failure | [[North-South]] | 30% |
-| Counter | [[Half Guard]] | 12% |
+| Success | [[Positions/Reverse Mount]] | 58% |
+| Failure | [[Positions/North-South]] | 30% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>
@@ -241,10 +241,10 @@ The transition requires precise weight management and timing. Moving from North-
 
 ## Opponent Counters
 
-- **Bridge and hip escape during the spin: Opponent times their bridge to coincide with your weight shift, creating space to escape hips and recover half guard** (Effectiveness: High) - Your Response: Maintain heavy hip pressure throughout the transition. If they begin bridging, pause the spin and re-consolidate North-South before attempting again, or follow their movement to standard mount instead → Leads to [[Half Guard]]
-- **Frame establishment with arms: Opponent creates strong forearm frames against your hips as you transition, preventing you from completing the mount and maintaining distance** (Effectiveness: Medium) - Your Response: Control at least one arm before initiating the transition. During the spin, use your hands to actively strip frames and pin arms to the mat as you settle into position → Leads to [[North-South]]
-- **Sit-up escape: Opponent sits up explosively as you complete the spin, attempting to off-balance you forward or achieve a scramble position** (Effectiveness: Medium) - Your Response: Keep your legs tight against their shoulders and head to block the sit-up. Lean your weight forward and use your hands to push their chest back down if they begin sitting up → Leads to [[North-South]]
-- **Knee insertion to half guard: Opponent threads a knee between your bodies as you spin, catching your leg and recovering to half guard bottom** (Effectiveness: Medium) - Your Response: Keep your knees pinched tight against their torso throughout the spin. If they insert a knee, immediately switch to a half guard passing sequence rather than forcing the reverse mount completion → Leads to [[Half Guard]]
+- **Bridge and hip escape during the spin: Opponent times their bridge to coincide with your weight shift, creating space to escape hips and recover half guard** (Effectiveness: High) - Your Response: Maintain heavy hip pressure throughout the transition. If they begin bridging, pause the spin and re-consolidate North-South before attempting again, or follow their movement to standard mount instead → Leads to [[Positions/Half Guard]]
+- **Frame establishment with arms: Opponent creates strong forearm frames against your hips as you transition, preventing you from completing the mount and maintaining distance** (Effectiveness: Medium) - Your Response: Control at least one arm before initiating the transition. During the spin, use your hands to actively strip frames and pin arms to the mat as you settle into position → Leads to [[Positions/North-South]]
+- **Sit-up escape: Opponent sits up explosively as you complete the spin, attempting to off-balance you forward or achieve a scramble position** (Effectiveness: Medium) - Your Response: Keep your legs tight against their shoulders and head to block the sit-up. Lean your weight forward and use your hands to push their chest back down if they begin sitting up → Leads to [[Positions/North-South]]
+- **Knee insertion to half guard: Opponent threads a knee between your bodies as you spin, catching your leg and recovering to half guard bottom** (Effectiveness: Medium) - Your Response: Keep your knees pinched tight against their torso throughout the spin. If they insert a knee, immediately switch to a half guard passing sequence rather than forcing the reverse mount completion → Leads to [[Positions/Half Guard]]
 
 
 </section>

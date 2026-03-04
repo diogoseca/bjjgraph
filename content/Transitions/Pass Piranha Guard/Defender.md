@@ -154,7 +154,7 @@ description: "Defend against Piranha Guard passing in BJJ. Guard retention strat
 
 Defending against a Piranha Guard pass means you are the bottom player maintaining your Piranha Guard while the top player attempts to strip your lapel configuration and pass to side control. Your defensive strategy centers on making the grip-fighting phase as costly as possible for the passer while keeping your attack options active throughout the exchange. The strongest defense is a good offense—constantly threatening sweeps and submissions forces the passer to defend rather than strip grips, extending the engagement in your favor. When the passer does manage to clear your lapel, your recovery plan must activate immediately, transitioning to alternative guards before they can commit to a passing lane. Understanding the passer's grip-clearing hierarchy allows you to predict their next target and pre-position your defenses accordingly.
 
-**Opponent's Starting Position**: [[Piranha Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Piranha Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against a Piranha Guard pass means you are the bottom player maintaini
 ### 1. Re-feed the lapel through your legs immediately when you feel the grip being stripped
 
 - **When to use**: As soon as the passer begins stripping your primary lapel grip but before they fully extract the collar from between your legs
-- **Targets**: [[Piranha Guard]]
+- **Targets**: [[Positions/Piranha Guard]]
 - **If successful**: Passer's grip-stripping effort is negated and they must restart the clearing sequence from the beginning, wasting energy and time
 - **Risk**: If you focus too much on re-feeding rather than maintaining hooks, the passer may use the distraction to advance past your legs
 
 ### 2. Execute a pendulum or flower sweep timed with the passer's lateral commitment to a passing lane
 
 - **When to use**: When the passer steps laterally to create a passing angle after clearing or partially clearing your lapel, narrowing their base in one direction
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Passer is swept to bottom position, reversing the positional dynamic entirely and scoring sweep points
 - **Risk**: If the sweep fails, the passer's lateral momentum may carry them past your guard into a completed pass
 
 ### 3. Invert for berimbolo entry when the passer backsteps or creates lateral angle
 
 - **When to use**: When the passer commits to a lateral passing angle and you still have partial lapel control or collar grip to assist the inversion
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You take the passer's back or achieve a reversal, converting their passing attempt into a dominant position for you
 - **Risk**: Failed inversion with compromised grips can leave you in a stacked position vulnerable to immediate pass completion
 
 ### 4. Transition immediately to De La Riva, Collar Sleeve, or Lasso Guard when lapel configuration is compromised
 
 - **When to use**: When the passer successfully clears your primary lapel threading and you cannot re-feed before they establish a passing angle
-- **Targets**: [[Piranha Guard]]
+- **Targets**: [[Positions/Piranha Guard]]
 - **If successful**: You maintain a functional guard system that prevents the pass even though your Piranha Guard configuration was neutralized
 - **Risk**: The transition moment between guards is vulnerable to acceleration passes if the passer recognizes the guard change early
 
@@ -225,11 +225,11 @@ Defending against a Piranha Guard pass means you are the bottom player maintaini
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Execute a sweep during the passer's lateral commitment by timing a lapel pull with a hook extension as they step to create their passing angle. Their narrow base during lateral movement makes them vulnerable to directional sweeps perpendicular to their stepping direction.
 
-### → [[Piranha Guard]]
+### → [[Positions/Piranha Guard]]
 
 Maintain guard by actively re-feeding the lapel and re-establishing grips every time the passer strips them, while using sweep threats to interrupt their grip-clearing sequence. Keep hips active and angle constantly to prevent them from settling into a stable stripping position.
 

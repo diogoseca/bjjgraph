@@ -21,7 +21,7 @@ This sweep family represents one of the most important defensive tools against m
 
 Strategic timing separates successful sweep attempts from wasted energy. The optimal window occurs when the standing player shifts weight to initiate a passing sequence, momentarily committing their center of gravity away from neutral balance. Experienced practitioners read these micro-commitments through tactile feedback from feet on the opponent's hips and visual cues from shoulder movement. The sweep should be launched during the weight shift rather than before or after, as premature attempts telegraph intent while delayed attempts miss the balance disruption window. Following through immediately to establish top position is equally critical, as hesitation allows the opponent to recover and reguard.
 
-**From Position**: [[Standing Guard]] (Bottom)
+**From Position**: [[Positions/Standing Guard]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Strategic timing separates successful sweep attempts from wasted energy. The opt
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Standing Guard]] | 40% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Standing Guard]] | 40% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -196,25 +196,25 @@ The Sweep from Standing Guard integrates into the broader open guard retention a
 ## Related Techniques
 
 
-- [[Open Guard]] - Related guard position from which standing sweeps are initiated
+- [[Positions/Open Guard]] - Related guard position from which standing sweeps are initiated
 
-- [[Side Control]] - Primary target position achieved after successful sweep
+- [[Positions/Side Control]] - Primary target position achieved after successful sweep
 
-- [[De La Riva Guard]] - Alternative guard entry when sweep attempt fails and opponent steps back
+- [[Positions/De La Riva Guard]] - Alternative guard entry when sweep attempt fails and opponent steps back
 
-- [[Feet on Hips Tripod Sweep]] - Specific tripod sweep variant from feet-on-hips guard configuration
+- [[Transitions/Feet on Hips Tripod Sweep]] - Specific tripod sweep variant from feet-on-hips guard configuration
 
-- [[Feet on Hips Sickle Sweep]] - Specific sickle sweep variant from feet-on-hips guard configuration
+- [[Transitions/Feet on Hips Sickle Sweep]] - Specific sickle sweep variant from feet-on-hips guard configuration
 
-- [[Scissor Sweep from Open Guard]] - Related sweep technique from open guard position
+- [[Transitions/Scissor Sweep from Open Guard]] - Related sweep technique from open guard position
 
-- [[Ankle Pick]] - Alternative standup attack that can follow a failed sweep attempt
+- [[Transitions/Ankle Pick]] - Alternative standup attack that can follow a failed sweep attempt
 
-- [[Guard Pass from Standing Guard]] - Opponent's primary objective that the sweep aims to prevent
+- [[Transitions/Guard Pass from Standing Guard]] - Opponent's primary objective that the sweep aims to prevent
 
-- [[Collar Drag from Open Guard]] - Alternative off-balancing attack from similar guard position
+- [[Transitions/Collar Drag from Open Guard]] - Alternative off-balancing attack from similar guard position
 
-- [[Feet on Hips Guard]] - Guard configuration that serves as the primary launching platform for standing sweeps
+- [[Positions/Feet on Hips Guard]] - Guard configuration that serves as the primary launching platform for standing sweeps
 
 
 </section>

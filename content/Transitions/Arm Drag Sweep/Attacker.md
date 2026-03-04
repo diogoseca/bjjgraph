@@ -184,7 +184,7 @@ The technique exploits the opponent's forward pressure and arm positioning by re
 
 What makes the arm drag sweep particularly powerful in modern BJJ is its adaptability across gi and no-gi contexts, its effectiveness against both conservative and aggressive opponents, and its natural integration into submission chains. The technique serves as a gateway movement that opens multiple attacking sequences while maintaining offensive pressure throughout the transition.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -239,10 +239,10 @@ What makes the arm drag sweep particularly powerful in modern BJJ is its adaptab
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 45% |
-| Success | [[Side Control]] | 20% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 45% |
+| Success | [[Positions/Side Control]] | 20% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -251,10 +251,10 @@ What makes the arm drag sweep particularly powerful in modern BJJ is its adaptab
 
 ## Opponent Counters
 
-- **Opponent posts with free arm to prevent sweep completion** (Effectiveness: High) - Your Response: Immediately abandon the sweep and transition to back control by taking the path of least resistance. Their post creates space on the back-exposed side. Swim your inside arm around their waist, establish first hook, and work to back mount. Alternatively, attack the posted arm with a kimura or use it as a post to elevate yourself over their back. → Leads to [[Back Control]]
-- **Opponent circles their hips back toward you to face and recover guard** (Effectiveness: Medium) - Your Response: Prevent the hip circle by blocking their far leg with your outside leg or by driving your head and shoulder into their near hip. Maintain constant pressure on the dragged arm to prevent them from pulling it back. If they do manage to circle, immediately re-establish guard and prepare to repeat the arm drag or switch to alternative attacks like triangle or omoplata. → Leads to [[Closed Guard]]
-- **Opponent yanks their arm free before sweep completes** (Effectiveness: Medium) - Your Response: If they pull their arm free, they typically create space and expose other opportunities. Immediately transition to alternative attacks: if they pull back aggressively, shoot for deep half guard entry. If they pull up, attack with triangle or omoplata since their arm is elevated and exposed. Use their pulling motion to help you come up to combat base or transition to a different sweep. → Leads to [[Closed Guard]]
-- **Opponent sprawls and drives weight backward to counter the forward sweep** (Effectiveness: Low) - Your Response: If they sprawl backward, they're actually helping expose their back. Follow their momentum, release the sweep attempt, and aggressively pursue back control. Use the dragged arm as a handle to climb up their back while establishing your first hook. Their backward movement makes it difficult for them to defend the back take. → Leads to [[Back Control]]
+- **Opponent posts with free arm to prevent sweep completion** (Effectiveness: High) - Your Response: Immediately abandon the sweep and transition to back control by taking the path of least resistance. Their post creates space on the back-exposed side. Swim your inside arm around their waist, establish first hook, and work to back mount. Alternatively, attack the posted arm with a kimura or use it as a post to elevate yourself over their back. → Leads to [[Positions/Back Control]]
+- **Opponent circles their hips back toward you to face and recover guard** (Effectiveness: Medium) - Your Response: Prevent the hip circle by blocking their far leg with your outside leg or by driving your head and shoulder into their near hip. Maintain constant pressure on the dragged arm to prevent them from pulling it back. If they do manage to circle, immediately re-establish guard and prepare to repeat the arm drag or switch to alternative attacks like triangle or omoplata. → Leads to [[Positions/Closed Guard]]
+- **Opponent yanks their arm free before sweep completes** (Effectiveness: Medium) - Your Response: If they pull their arm free, they typically create space and expose other opportunities. Immediately transition to alternative attacks: if they pull back aggressively, shoot for deep half guard entry. If they pull up, attack with triangle or omoplata since their arm is elevated and exposed. Use their pulling motion to help you come up to combat base or transition to a different sweep. → Leads to [[Positions/Closed Guard]]
+- **Opponent sprawls and drives weight backward to counter the forward sweep** (Effectiveness: Low) - Your Response: If they sprawl backward, they're actually helping expose their back. Follow their momentum, release the sweep attempt, and aggressively pursue back control. Use the dragged arm as a handle to climb up their back while establishing your first hook. Their backward movement makes it difficult for them to defend the back take. → Leads to [[Positions/Back Control]]
 
 
 </section>

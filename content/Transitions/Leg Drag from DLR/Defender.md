@@ -146,7 +146,7 @@ description: "Defend the leg drag from De La Riva Guard. Recognition cues, timin
 
 Defending the leg drag from DLR requires early recognition and proactive prevention rather than reactive escaping. Once the leg is fully dragged across your body and the passer establishes hip pressure, recovery becomes exponentially difficult—making pre-emptive defense essential. The most effective defensive approach combines active grip fighting to deny the controlling grips, dynamic hip movement to prevent the cross-body angle, and immediate guard recovery attempts at the first sign of the drag. Understanding the passer's grip sequence and the specific timing windows where the drag is most vulnerable to disruption allows you to interrupt the technique before it reaches the point of no return, maintaining your DLR guard or transitioning to an alternative defensive structure.
 
-**Opponent's Starting Position**: [[De La Riva Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the leg drag from DLR requires early recognition and proactive prevent
 ### 1. Re-establish DLR hook by immediately re-threading your leg before the drag is completed
 
 - **When to use**: As soon as you feel the hook clearing but before your leg has been pulled across your centerline—the critical moment is when the passer's hip rotation begins
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: You maintain full DLR guard and can re-engage with offensive options including sweeps and transitions
 - **Risk**: If timed too late, the passer uses your re-hooking attempt to accelerate the drag by pulling the extended leg across
 
 ### 2. Hip escape in the direction of the drag and insert knee shield to block consolidation
 
 - **When to use**: When the leg is being dragged across but the passer has not yet established upper body crossface or shoulder control
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: You create enough space to recover a defensive guard structure, typically half guard with knee shield, preventing full leg drag consolidation
 - **Risk**: If you hip escape too late after upper body control is established, you may expose your back to the passer
 
 ### 3. Underhook the passer's near leg and drive forward for a sweep during their weight transition
 
 - **When to use**: When the passer over-commits their weight forward during the drag, creating a vulnerable base during the step-around
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You reverse the position entirely—the passer is swept and you achieve top position in half guard or side control
 - **Risk**: A failed sweep attempt can leave you flattened with the drag completed and the passer in full leg drag control
 
 ### 4. Transition to Single Leg X-Guard by threading free leg under the passer's base during the drag
 
 - **When to use**: When the passer lifts your leg high during the drag, creating space underneath their base that allows your free leg to thread through
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: You establish a new guard position that neutralizes the drag entirely and creates immediate sweep and leg attack threats
 - **Risk**: Requires precise timing—if the passer recognizes the threading attempt, they can backstep into a leg entanglement
 
@@ -217,11 +217,11 @@ Defending the leg drag from DLR requires early recognition and proactive prevent
 
 ## Best-Case Outcomes for Defender
 
-### → [[De La Riva Guard]]
+### → [[Positions/De La Riva Guard]]
 
 Maintain active grip fighting to deny the passer's controlling ankle or pants grips. Keep constant hook tension and threaten sweeps to make the drag risky. If the hook is stripped, immediately re-thread your foot behind their knee before the leg is redirected across your body.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a sweep during the passer's weight transition as they step around for the drag. Underhook their near leg and drive forward explosively as their weight shifts laterally during the step-around. Their momentary loss of base during the directional change is your highest-percentage sweep window.
 

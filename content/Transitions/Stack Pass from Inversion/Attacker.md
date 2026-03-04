@@ -178,7 +178,7 @@ This pass requires precise timing, as attempting to stack against a fully establ
 
 Strategically, the stack pass represents a commitment - once you drive forward, you cannot easily disengage without giving up position. This makes it critical to secure adequate leg control before initiating the stack. The technique works best as part of a pressure passing system where you've already forced the opponent to work hard maintaining their inversion, creating the fatigue that opens the stacking opportunity.
 
-**From Position**: [[Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Grasshopper Guard]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategically, the stack pass represents a commitment - once you drive forward, 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Grasshopper Guard]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, the stack pass represents a commitment - once you drive forward, 
 
 ## Opponent Counters
 
-- **Re-inverting and shooting legs through for leg entanglement before stack is complete** (Effectiveness: High) - Your Response: Maintain tight leg control throughout and do not release grip until you have cleared to side control → Leads to [[Grasshopper Guard]]
-- **Granby roll away from stacking pressure to reset guard** (Effectiveness: Medium) - Your Response: Follow their roll direction and transition to a leg drag or toreando pass as they turn → Leads to [[Closed Guard]]
-- **Posting on your hips with hands to prevent forward pressure** (Effectiveness: Medium) - Your Response: Strip their hand posts by circling your arms inside their frames and continue driving forward → Leads to [[Grasshopper Guard]]
-- **Technical standup using the stacking momentum to come up on top** (Effectiveness: Low) - Your Response: Drive your weight down and forward if they attempt to post - a fully committed stack prevents standing → Leads to [[Closed Guard]]
+- **Re-inverting and shooting legs through for leg entanglement before stack is complete** (Effectiveness: High) - Your Response: Maintain tight leg control throughout and do not release grip until you have cleared to side control → Leads to [[Positions/Grasshopper Guard]]
+- **Granby roll away from stacking pressure to reset guard** (Effectiveness: Medium) - Your Response: Follow their roll direction and transition to a leg drag or toreando pass as they turn → Leads to [[Positions/Closed Guard]]
+- **Posting on your hips with hands to prevent forward pressure** (Effectiveness: Medium) - Your Response: Strip their hand posts by circling your arms inside their frames and continue driving forward → Leads to [[Positions/Grasshopper Guard]]
+- **Technical standup using the stacking momentum to come up on top** (Effectiveness: Low) - Your Response: Drive your weight down and forward if they attempt to post - a fully committed stack prevents standing → Leads to [[Positions/Closed Guard]]
 
 
 </section>

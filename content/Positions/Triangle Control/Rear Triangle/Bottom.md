@@ -204,21 +204,21 @@ Rear Triangle Bottom is a highly compromised defensive position where the practi
 
 ## Available Escapes
 
-### [[Arm Extraction]] (25% of attempts)
+### [[Transitions/Arm Extraction]] (25% of attempts)
 
-### [[Triangle Escape]] (14% of attempts)
+### [[Transitions/Triangle Escape]] (14% of attempts)
 
-### [[Rolling Escape to Guard]] (12% of attempts)
+### [[Transitions/Rolling Escape to Guard]] (12% of attempts)
 
-### [[Stack Defense]] (13% of attempts)
+### [[Transitions/Stack Defense]] (13% of attempts)
 
-### [[Posture Recovery]] (12% of attempts)
+### [[Transitions/Posture Recovery]] (12% of attempts)
 
-### [[Hand Fighting from Back]] (15% of attempts)
+### [[Transitions/Hand Fighting from Back]] (15% of attempts)
 
-### [[Grip Fight Escape from Rear Triangle]] (6% of attempts)
+### [[Transitions/Grip Fight Escape from Rear Triangle]] (6% of attempts)
 
-### [[Posture Defense from Rear Triangle]] (3% of attempts)
+### [[Transitions/Posture Defense from Rear Triangle]] (3% of attempts)
 
 
 
@@ -229,27 +229,27 @@ Rear Triangle Bottom is a highly compromised defensive position where the practi
 ## Decision Making from This Position
 
 **If opponent's triangle is fully locked with ankle behind knee and tight pressure on carotid arteries:**
-- Execute **[[Triangle Escape]]** → [[Back Control]] (Probability: 25%)
-- Execute **[[Arm Extraction]]** → [[Turtle]] (Probability: 30%)
-- Execute **[[Tap Out]]** → [[Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Triangle Escape]]** → [[Positions/Back Control]] (Probability: 25%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Turtle]] (Probability: 30%)
+- Execute **[[Tap Out]]** → [[Positions/Game Over]] (Probability: 45%)
 
 
 **If triangle is locked but defender maintains some posture and trapped arm has mobility:**
-- Execute **[[Arm Extraction]]** → [[Back Control]] (Probability: 45%)
-- Execute **[[Posture Recovery]]** → [[Seat Belt Control Back]] (Probability: 35%)
-- Execute **[[Stack Defense]]** → [[Turtle]] (Probability: 20%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Back Control/Seat Belt Control Back]] (Probability: 35%)
+- Execute **[[Transitions/Stack Defense]]** → [[Positions/Turtle]] (Probability: 20%)
 
 
 **If opponent transitions to armbar or loosens triangle to adjust position:**
-- Execute **[[Rolling Escape to Guard]]** → [[Closed Guard]] (Probability: 40%)
-- Execute **[[Arm Extraction]]** → [[Back Control]] (Probability: 35%)
-- Execute **[[Hand Fighting from Back]]** → [[Turtle]] (Probability: 25%)
+- Execute **[[Transitions/Rolling Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Back Control]] (Probability: 35%)
+- Execute **[[Transitions/Hand Fighting from Back]]** → [[Positions/Turtle]] (Probability: 25%)
 
 
 **If defender successfully extracts trapped arm from triangle structure:**
-- Execute **[[Triangle Escape]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Rolling Escape to Guard]]** → [[Closed Guard]] (Probability: 30%)
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 20%)
+- Execute **[[Transitions/Triangle Escape]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Rolling Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 30%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 20%)
 
 
 
@@ -395,16 +395,16 @@ Start in fully locked rear triangle bottom position with defender earning 1 poin
 
 ## Related Positions and Techniques
 
-- **[[Triangle Control]]** - Opponent's position - top perspective of similar triangle configuration
-- **[[Back Control]]** - Common transition target after successful arm extraction
-- **[[Rear Triangle Choke Finish]]** - Primary submission threat from this position
-- **[[Armbar Control]]** - Common transition position when opponent switches from triangle
-- **[[Turtle]]** - Escape target position for defensive recovery
-- **[[Triangle Escape]]** - Primary escape technique from this position
-- **[[Arm Extraction]]** - Essential defensive technique for escaping this position
-- **[[Rear Naked Choke]]** - Secondary submission threat opponent may transition to
-- **[[Closed Guard]]** - Alternative escape target for positional reset
-- **[[Seat Belt Control Back]]** - Recovery position if triangle is broken but back control maintained
+- **[[Positions/Triangle Control]]** - Opponent's position - top perspective of similar triangle configuration
+- **[[Positions/Back Control]]** - Common transition target after successful arm extraction
+- **[[Transitions/Rear Triangle Choke Finish]]** - Primary submission threat from this position
+- **[[Positions/Armbar Control]]** - Common transition position when opponent switches from triangle
+- **[[Positions/Turtle]]** - Escape target position for defensive recovery
+- **[[Transitions/Triangle Escape]]** - Primary escape technique from this position
+- **[[Transitions/Arm Extraction]]** - Essential defensive technique for escaping this position
+- **[[Transitions/Rear Naked Choke]]** - Secondary submission threat opponent may transition to
+- **[[Positions/Closed Guard]]** - Alternative escape target for positional reset
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Recovery position if triangle is broken but back control maintained
 
 
 </section>

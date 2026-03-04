@@ -21,7 +21,7 @@ The technique relies on understanding the biomechanics of the lockdown: the figu
 
 This defense serves as a critical first-line response in the Electric Chair escape hierarchy. While more complex escapes like the limp leg technique or hip rotation escape exist, the straighten leg defense represents the most direct path to neutralizing the immediate submission threat. Timing is essential: executing the defense before the bottom player achieves full extension is significantly more effective than attempting to straighten against a fully locked-out Electric Chair, where the mechanical advantage has already shifted decisively to the bottom player.
 
-**From Position**: [[Electric Chair]] (Top)
+**From Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ This defense serves as a critical first-line response in the Electric Chair esca
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Electric Chair]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Half Guard/Electric Chair]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Straighten Leg Defense occupies a critical position in the Electric Chair es
 ## Related Techniques
 
 
-- [[Electric Chair]] - Source position where this defense is applied against the lockdown split
+- [[Positions/Half Guard/Electric Chair]] - Source position where this defense is applied against the lockdown split
 
-- [[Half Guard]] - Target position after successful defense and leg extraction
+- [[Positions/Half Guard]] - Target position after successful defense and leg extraction
 
-- [[Lockdown]] - Parent control mechanism that the straighten defense directly addresses
+- [[Positions/Half Guard/Lockdown]] - Parent control mechanism that the straighten defense directly addresses
 
-- [[Hip Rotation Escape from Electric Chair]] - Alternative escape technique when straighten defense fails
+- [[Transitions/Hip Rotation Escape from Electric Chair]] - Alternative escape technique when straighten defense fails
 
-- [[Old School Sweep]] - Primary sweep threat the bottom player can use during the defense attempt
+- [[Transitions/Old School Sweep]] - Primary sweep threat the bottom player can use during the defense attempt
 
-- [[Deep Half Guard]] - Position the bottom player may transition to if Electric Chair is neutralized
+- [[Positions/Half Guard/Deep Half Guard]] - Position the bottom player may transition to if Electric Chair is neutralized
 
-- [[Electric Chair Finish]] - Submission threat being defended against with this technique
+- [[Submissions/Electric Chair Finish]] - Submission threat being defended against with this technique
 
-- [[Truck]] - Position the bottom player may threaten if defense creates transitional openings
+- [[Positions/Twister Control/Truck]] - Position the bottom player may threaten if defense creates transitional openings
 
-- [[Dogfight Position]] - Possible transition point if both players lose primary controls during the exchange
+- [[Positions/Dogfight Position]] - Possible transition point if both players lose primary controls during the exchange
 
-- [[Body Triangle Escape to Half Guard]] - Analogous defensive concept of breaking leg entanglement through extension mechanics
+- [[Transitions/Body Triangle Escape to Half Guard]] - Analogous defensive concept of breaking leg entanglement through extension mechanics
 
 
 </section>

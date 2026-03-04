@@ -180,7 +180,7 @@ description: "Master the turtle turn execution from side control bottom. Learn f
 
 Executing the turtle turn from side control bottom requires precise timing, disciplined frame establishment, and controlled rotational mechanics. As the bottom player, your primary objective is to create enough separation from the opponent's chest pressure to initiate a turning motion toward your knees while maintaining a tight defensive structure throughout. The transition demands reading your opponent's weight distribution and capitalizing on momentary shifts in their pressure to execute the turn before they can follow and establish back control. Success depends on seamless integration of framing, hip movement, and the critical elbow-to-knee connection that protects against back exposure during the most vulnerable phase of the turn. This is not a desperation move but a calculated positional improvement that opens multiple subsequent escape pathways from the turtle position.
 
-**From Position**: [[Side Control]] (Bottom)
+**From Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the turtle turn from side control bottom requires precise timing, disc
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Side Control]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Side Control]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the turtle turn from side control bottom requires precise timing, disc
 
 ## Opponent Counters
 
-- **Opponent follows the turn and immediately establishes seatbelt control with hook insertion** (Effectiveness: High) - Your Response: Accelerate through turtle to guard recovery before hooks can be inserted. If seatbelt is established, immediately begin hand fighting to strip the choking hand while working a sit-through or forward roll escape before the second hook sets. → Leads to [[Back Control]]
-- **Opponent drives heavy crossface pressure to block the turning motion before it begins** (Effectiveness: High) - Your Response: Use a stronger bridge to create more vertical space before turning, or switch to a hip escape toward the opponent instead. If the crossface is extremely heavy, work to get your far-side underhook or threaten an alternative escape to force a reaction that lightens the crossface. → Leads to [[Side Control]]
-- **Opponent re-settles weight and re-establishes hip control after a partial turn attempt** (Effectiveness: Medium) - Your Response: If you are returned to side control after a partial turn, immediately re-establish your frames rather than resting. The failed attempt may have created a slightly different angle that opens a hip escape or a second turn attempt in the opposite direction. → Leads to [[Side Control]]
-- **Opponent sprawls their weight forward and flattens you belly-down during the turn** (Effectiveness: Medium) - Your Response: If flattened mid-turn, continue working to rebuild turtle structure from belly-down using your elbows and knees to create space incrementally. Use small hip movements to get your knees under you rather than attempting to explosively return to full turtle from a flattened position. → Leads to [[Side Control]]
+- **Opponent follows the turn and immediately establishes seatbelt control with hook insertion** (Effectiveness: High) - Your Response: Accelerate through turtle to guard recovery before hooks can be inserted. If seatbelt is established, immediately begin hand fighting to strip the choking hand while working a sit-through or forward roll escape before the second hook sets. → Leads to [[Positions/Back Control]]
+- **Opponent drives heavy crossface pressure to block the turning motion before it begins** (Effectiveness: High) - Your Response: Use a stronger bridge to create more vertical space before turning, or switch to a hip escape toward the opponent instead. If the crossface is extremely heavy, work to get your far-side underhook or threaten an alternative escape to force a reaction that lightens the crossface. → Leads to [[Positions/Side Control]]
+- **Opponent re-settles weight and re-establishes hip control after a partial turn attempt** (Effectiveness: Medium) - Your Response: If you are returned to side control after a partial turn, immediately re-establish your frames rather than resting. The failed attempt may have created a slightly different angle that opens a hip escape or a second turn attempt in the opposite direction. → Leads to [[Positions/Side Control]]
+- **Opponent sprawls their weight forward and flattens you belly-down during the turn** (Effectiveness: Medium) - Your Response: If flattened mid-turn, continue working to rebuild turtle structure from belly-down using your elbows and knees to create space incrementally. Use small hip movements to get your knees under you rather than attempting to explosively return to full turtle from a flattened position. → Leads to [[Positions/Side Control]]
 
 
 </section>

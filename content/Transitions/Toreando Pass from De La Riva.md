@@ -21,7 +21,7 @@ The technical challenge of executing the toreando from DLR lies in the sequencin
 
 At competitive levels, the toreando from DLR becomes most dangerous when integrated into a passing chain system. The initial toreando attempt forces the guard player to commit their legs defensively to one direction, which opens knee slice, leg drag, or backstep opportunities on the opposite side. This chain-passing methodology transforms the toreando from a single technique into a systematic tool for progressively dismantling DLR guard structure, creating compounding problems that even elite guard players struggle to solve simultaneously.
 
-**From Position**: [[De La Riva Guard]] (Top)
+**From Position**: [[Positions/De La Riva Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ At competitive levels, the toreando from DLR becomes most dangerous when integra
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[De La Riva Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/De La Riva Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Toreando Pass from De La Riva Guard occupies a central role in the DLR passi
 ## Related Techniques
 
 
-- [[De La Riva Guard]] - Source guard position that this pass is designed to defeat
+- [[Positions/De La Riva Guard]] - Source guard position that this pass is designed to defeat
 
-- [[Side Control]] - Primary target position achieved on successful pass completion
+- [[Positions/Side Control]] - Primary target position achieved on successful pass completion
 
-- [[Half Guard]] - Position reached when guard player counters with partial guard recovery during pass
+- [[Positions/Half Guard]] - Position reached when guard player counters with partial guard recovery during pass
 
-- [[Backstep from De La Riva]] - Alternative DLR passing technique that attacks in the opposite direction, creating chain-passing opportunities
+- [[Transitions/Backstep from De La Riva]] - Alternative DLR passing technique that attacks in the opposite direction, creating chain-passing opportunities
 
-- [[Knee Slice from DLR]] - Complementary pressure-based pass that pairs with toreando in passing chains
+- [[Transitions/Knee Slice from DLR]] - Complementary pressure-based pass that pairs with toreando in passing chains
 
-- [[Leg Drag from DLR]] - Follow-up passing option when toreando creates angular displacement of opponent's legs
+- [[Transitions/Leg Drag from DLR]] - Follow-up passing option when toreando creates angular displacement of opponent's legs
 
-- [[X-Guard]] - Guard transition the DLR player may attempt when hook is threatened, requiring awareness during pass execution
+- [[Positions/X-Guard]] - Guard transition the DLR player may attempt when hook is threatened, requiring awareness during pass execution
 
-- [[Single Leg X-Guard]] - Alternative guard the DLR player may transition to during hook removal phase
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative guard the DLR player may transition to during hook removal phase
 
-- [[Headquarters Position]] - Intermediate passing position reached when toreando partially neutralizes DLR but does not complete the pass
+- [[Positions/Headquarters Position]] - Intermediate passing position reached when toreando partially neutralizes DLR but does not complete the pass
 
-- [[Knee on Belly]] - Consolidation position available after explosive toreando completion as alternative to settling into side control
+- [[Positions/Knee on Belly]] - Consolidation position available after explosive toreando completion as alternative to settling into side control
 
 
 </section>

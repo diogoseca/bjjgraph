@@ -156,7 +156,7 @@ Defending the Single Leg X Sweep requires understanding the biomechanical princi
 
 The defender's strategic framework centers on base management, hook neutralization, and counterattack timing. Unlike defending against traditional sweeps where you can simply post a hand or widen your base, defending the Single Leg X Sweep demands systematic removal of the hooks that create the lever system. The bottom hook behind your knee is the primary threat, as it provides the elevation that makes all sweep variations possible. Addressing this hook first while maintaining upper body posture gives you the strongest defensive foundation. Experienced defenders also recognize that every defensive action creates offensive opportunity, as the sweeper must commit their body to the sweep motion, potentially exposing themselves to passing sequences or counter leg attacks.
 
-**Opponent's Starting Position**: [[Single Leg X-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ The defender's strategic framework centers on base management, hook neutralizati
 ### 1. Step captured leg back and circle away to disengage the X-frame
 
 - **When to use**: Early in the sweep attempt before opponent has generated significant elevation or rotational momentum
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: You break the X-frame structure, reset to a neutral standing position, and can re-engage on your terms or initiate a passing sequence
 - **Risk**: If opponent maintains bottom hook and scoots forward to follow, you remain in their guard with less base than before
 
 ### 2. Drive forward with heavy crossface pressure to flatten opponent and neutralize elevation
 
 - **When to use**: When opponent begins elevating but has not yet generated rotational force, and you have upper body control available
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: You collapse their guard structure, flatten their hips to the mat, and create passing opportunities through smash or leg weave mechanics
 - **Risk**: If opponent redirects your forward pressure laterally, they can use your momentum for an even more powerful sweep or inversion to back take
 
 ### 3. Post far hand on mat and lower base while stripping opponent's upper body grips
 
 - **When to use**: When sweep is already in motion and you need to prevent being toppled while working to recover position
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: You stabilize your base, prevent the sweep completion, and create time to systematically clear the hooks and pass
 - **Risk**: Posting hand creates an arm that opponent can attack or use as anchor point for waiter sweep variation
 
 ### 4. Counter-attack with kneebar or leg entanglement as opponent extends for sweep
 
 - **When to use**: When opponent fully extends their legs during sweep attempt, exposing their knee line and creating submission opportunity
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: You transition from defense to offense by attacking opponent's exposed legs, potentially securing a dominant leg entanglement or submission
 - **Risk**: Failed counter-attack leaves you off-balance and vulnerable to immediate sweep completion
 
@@ -228,11 +228,11 @@ The defender's strategic framework centers on base management, hook neutralizati
 
 ## Best-Case Outcomes for Defender
 
-### → [[Single Leg X-Guard]]
+### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 Step your captured leg back early while stripping opponent's upper body grips. Circle away from the sweep direction to break the X-frame angle. Follow by immediately re-engaging with a passing sequence before opponent can re-establish hooks.
 
-### → [[Single Leg X-Guard]]
+### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 Drive forward with crossface pressure to flatten opponent's guard while systematically clearing the bottom hook first. Use your free leg to base out wide and your hands to control their shoulders, then transition to a headquarters or leg weave passing position as you disengage from the entanglement.
 

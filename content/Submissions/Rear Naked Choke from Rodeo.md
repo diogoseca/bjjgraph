@@ -26,8 +26,8 @@ This submission represents a high-level integration of positional control and fi
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Neck
-**Starting Position**: [[Rodeo Ride]]
-**From Position**: [[Rodeo Ride]] (Top)
+**Starting Position**: [[Positions/Rodeo Ride]]
+**From Position**: [[Positions/Rodeo Ride]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -78,9 +78,9 @@ This submission represents a high-level integration of positional control and fi
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Rodeo Ride]] | 20% |
-| Failure | [[Back Control]] | 15% |
-| Counter | [[Turtle]] | 15% |
+| Failure | [[Positions/Rodeo Ride]] | 20% |
+| Failure | [[Positions/Back Control]] | 15% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -226,9 +226,9 @@ This submission represents a high-level integration of positional control and fi
 
 ## From Which Positions?
 
-- [[Rodeo Ride]]
-- [[Back Control]]
-- [[Standing Back Control]]
+- [[Positions/Rodeo Ride]]
+- [[Positions/Back Control]]
+- [[Positions/Back Control/Standing Back Control]]
 
 
 </section>
@@ -237,13 +237,13 @@ This submission represents a high-level integration of positional control and fi
 
 ## Related Submissions
 
-- [[RNC from Seat Belt]]
-- [[Body Triangle RNC]]
-- [[Calf Slicer from Rodeo Ride]]
-- [[Bow and Arrow from Seat Belt]]
-- [[Clock Choke]]
-- [[Armbar from Back]]
-- [[Choke from Crucifix]]
+- [[Submissions/RNC from Seat Belt]]
+- [[Submissions/Body Triangle RNC]]
+- [[Submissions/Calf Slicer from Rodeo Ride]]
+- [[Submissions/Bow and Arrow from Seat Belt]]
+- [[Transitions/Clock Choke]]
+- [[Submissions/Armbar from Back]]
+- [[Transitions/Choke from Crucifix]]
 
 
 </section>
@@ -252,14 +252,14 @@ This submission represents a high-level integration of positional control and fi
 
 ## Additional Related Content
 
-- [[Rodeo Ride]] - Primary starting position from which this choke is applied
-- [[Back Control]] - Related dominant position and common transition when choke fails but control is maintained
-- [[RNC from Seat Belt]] - Standard RNC variation from established back control with hooks and seat belt
-- [[Calf Slicer from Rodeo Ride]] - Alternative submission available from the same Rodeo Ride position
-- [[Turtle]] - Defensive position the opponent occupies and common escape target
-- [[Body Triangle RNC]] - Related RNC variation using body triangle for enhanced hip control
-- [[Standing Back Control]] - Alternative starting position where RNC can be initiated before transitioning to ground
-- [[Crab Ride]] - Related turtle attack position that can transition to Rodeo Ride and RNC opportunities
+- [[Positions/Rodeo Ride]] - Primary starting position from which this choke is applied
+- [[Positions/Back Control]] - Related dominant position and common transition when choke fails but control is maintained
+- [[Submissions/RNC from Seat Belt]] - Standard RNC variation from established back control with hooks and seat belt
+- [[Submissions/Calf Slicer from Rodeo Ride]] - Alternative submission available from the same Rodeo Ride position
+- [[Positions/Turtle]] - Defensive position the opponent occupies and common escape target
+- [[Submissions/Body Triangle RNC]] - Related RNC variation using body triangle for enhanced hip control
+- [[Positions/Back Control/Standing Back Control]] - Alternative starting position where RNC can be initiated before transitioning to ground
+- [[Positions/Crab Ride]] - Related turtle attack position that can transition to Rodeo Ride and RNC opportunities
 
 
 </section>

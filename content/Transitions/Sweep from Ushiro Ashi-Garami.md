@@ -21,7 +21,7 @@ This sweep becomes available when the top player shifts weight forward to establ
 
 The sweep integrates into a broader ushiro ashi-garami escape system where it functions as a high-reward option alongside more conservative escapes to turtle or deep half guard. While the success rate is moderate given the difficulty of sweeping from an inverted leg entanglement, the payoff of achieving mount from what was a severely disadvantaged position makes it a valuable weapon for practitioners who develop the timing and mechanical proficiency required. Competition footage from major no-gi events consistently shows this sweep catching experienced leg lock specialists who overcommit to finishes without maintaining adequate base.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 **Success Rate**: 30%
 
 </section>
@@ -32,9 +32,9 @@ The sweep integrates into a broader ushiro ashi-garami escape system where it fu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 30% |
-| Failure | [[Ushiro Ashi-Garami]] | 45% |
-| Counter | [[Saddle]] | 25% |
+| Success | [[Positions/Mount]] | 30% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 45% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 25% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Sweep from Ushiro Ashi-Garami occupies a critical role in the defensive leg 
 ## Related Techniques
 
 
-- [[Outside Ashi-Garami]] - Standard ashi-garami position that transitions to ushiro during inversion escapes, providing context for how ushiro bottom occurs
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Standard ashi-garami position that transitions to ushiro during inversion escapes, providing context for how ushiro bottom occurs
 
-- [[Inside Ashi-Garami]] - Alternative standard leg entanglement with comparable sweep mechanics from bottom position
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative standard leg entanglement with comparable sweep mechanics from bottom position
 
-- [[Saddle]] - Counter outcome position where opponent may transition during failed sweep attempt, representing worsened position
+- [[Positions/Ashi Garami/Saddle]] - Counter outcome position where opponent may transition during failed sweep attempt, representing worsened position
 
-- [[Mount]] - Target position achieved upon successful sweep completion, representing maximum positional improvement
+- [[Positions/Mount]] - Target position achieved upon successful sweep completion, representing maximum positional improvement
 
-- [[Sweep from Saddle]] - Analogous sweep from a different leg entanglement bottom position with similar mechanical principles
+- [[Transitions/Sweep from Saddle]] - Analogous sweep from a different leg entanglement bottom position with similar mechanical principles
 
-- [[Sweep from Honey Hole]] - Related sweep from another high-control entanglement, sharing timing and leverage concepts
+- [[Transitions/Sweep from Honey Hole]] - Related sweep from another high-control entanglement, sharing timing and leverage concepts
 
-- [[Honey Hole]] - Related high-control leg entanglement position with comparable bottom sweep options
+- [[Positions/Ashi Garami/Honey Hole]] - Related high-control leg entanglement position with comparable bottom sweep options
 
-- [[50-50 Guard]] - Neutral leg entanglement where similar sweep principles apply from bottom position
+- [[Positions/Ashi Garami/50-50 Guard]] - Neutral leg entanglement where similar sweep principles apply from bottom position
 
-- [[Leg Entanglement]] - Fundamental positional category governing all ashi-garami sweep and escape mechanics
+- [[Positions/Leg Entanglement]] - Fundamental positional category governing all ashi-garami sweep and escape mechanics
 
-- [[Heel Hook from Saddle]] - Primary submission threat that motivates the sweep attempt as a defensive counter-strategy
+- [[Transitions/Heel Hook from Saddle]] - Primary submission threat that motivates the sweep attempt as a defensive counter-strategy
 
-- [[Back Control]] - Alternative offensive target when sweep trajectory carries past mount into back exposure
+- [[Positions/Back Control]] - Alternative offensive target when sweep trajectory carries past mount into back exposure
 
 
 </section>

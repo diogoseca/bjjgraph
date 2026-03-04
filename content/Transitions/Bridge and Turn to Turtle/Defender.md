@@ -158,7 +158,7 @@ Your defensive strategy operates on two levels: prevention through proper weight
 
 Understanding the biomechanics of the escape allows you to anticipate and counter it. The bottom player needs planted feet, a free arm, and a weight shift to execute the bridge. Denying any one of these prerequisites significantly reduces their escape probability. Experienced top players learn to bait escape attempts by creating false weight shifts, then immediately punishing the bridge with base adjustments and back control transitions.
 
-**Opponent's Starting Position**: [[North-South]] (Bottom)
+**Opponent's Starting Position**: [[Positions/North-South]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Understanding the biomechanics of the escape allows you to anticipate and counte
 ### 1. Widen base and drop weight immediately when bridge initiates, sprawling hips back and driving chest pressure forward
 
 - **When to use**: As soon as you feel the opponent's hips begin to rise or their feet plant firmly, before they generate full bridge momentum
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: Opponent's bridge is absorbed by your widened base and increased pressure, they return flat and have wasted energy on the failed attempt
 - **Risk**: If you sprawl too late, the bridge has already created space and the turn may succeed despite your adjustment
 
 ### 2. Follow the turn and immediately transition to back control by inserting hooks and establishing seatbelt grip
 
 - **When to use**: When the bridge succeeds and the opponent has committed to the turn—rather than fighting to re-establish North-South, flow with their movement to a superior position
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You convert their escape attempt into back control—a worse position for them than North-South, scoring 4 points in competition
 - **Risk**: If you are slow to insert hooks, they establish a defensive turtle and you must work from turtle top without back control
 
 ### 3. Isolate the near arm as they begin the turn, preventing the rotational assist and trapping them mid-rotation
 
 - **When to use**: When you feel the opponent begin to rotate but they have not yet completed the turn—catch the arm early to stall the escape
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: Opponent is caught in a compromised position mid-turn with an isolated arm, creating kimura or armbar opportunities while they cannot complete the escape
 - **Risk**: Over-committing to the arm trap may cause you to lose chest pressure, allowing the opponent to complete the turn with their free arm
 
 ### 4. Transition to mount preemptively when you sense the bridge is imminent, stepping over before they commit to the escape
 
 - **When to use**: When you recognize escape preparation cues but want to maintain a dominant pin rather than risk the exchange—useful when leading on points
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: You score mount points and establish a position where bridge-and-turn is less effective, maintaining dominant control
 - **Risk**: The transition to mount creates the exact weight shift the opponent needs—if your timing is wrong, they bridge during your step-over
 
@@ -229,11 +229,11 @@ Understanding the biomechanics of the escape allows you to anticipate and counte
 
 ## Best-Case Outcomes for Defender
 
-### → [[North-South]]
+### → [[Positions/North-South]]
 
 Maintain heavy forward pressure with wide base, control at least one arm, and avoid creating weight shifts that open timing windows. When you feel the bridge attempt, immediately widen your base, sprawl your hips back, and drive your chest forward to absorb the force and re-establish the pin.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the bridge succeeds and the opponent commits to the turn, follow their rotation immediately rather than fighting to re-establish North-South. As they turn to all fours, secure the seatbelt grip over their shoulder and under the far armpit, then insert your near-side hook before they can establish a defensive turtle shell. Speed of hook insertion determines whether you achieve full back control or end up in turtle top.
 

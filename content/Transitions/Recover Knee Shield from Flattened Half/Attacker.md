@@ -186,7 +186,7 @@ description: "Learn to recover knee shield from flattened half guard as the bott
 
 As the bottom player executing this recovery, you are operating from one of the most disadvantaged positions in half guard. Your back is flat, breathing is compromised, and the opponent's weight is driving through your chest. The recovery demands a methodical approach: fighting for the underhook, executing incremental hip escapes, filling space with structural frames, and driving your knee across the opponent's hip line to establish the shield. Every movement must be purposeful and timed to exploit moments when the top player's pressure shifts, because explosive attempts against settled weight waste energy and telegraph your intentions. Success transforms a survival scenario into an active guard with sweeps, transitions, and offensive threats available.
 
-**From Position**: [[Flattened Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ As the bottom player executing this recovery, you are operating from one of the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Knee Shield Half Guard]] | 55% |
-| Failure | [[Flattened Half Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard/Knee Shield Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the bottom player executing this recovery, you are operating from one of the 
 
 ## Opponent Counters
 
-- **Opponent increases crossface pressure and drives shoulder into jaw to prevent hip escape** (Effectiveness: High) - Your Response: Accept the crossface and focus on maintaining your underhook rather than fighting the head position. Execute smaller hip escapes and time them to the opponent's breathing cycles when crossface pressure briefly reduces. The underhook prevents the crossface from completely pinning you flat. → Leads to [[Flattened Half Guard]]
-- **Opponent strips your underhook by swimming their arm through and establishing a whizzer** (Effectiveness: High) - Your Response: Immediately frame on their bicep with your freed arm and attempt to re-swim for the underhook. If the whizzer is deep, transition to lockdown with your legs to stabilize before reattempting the underhook. Without the underhook, pause hip escape attempts until structural support is re-established. → Leads to [[Flattened Half Guard]]
-- **Opponent times a knee slice through the space you create during hip escape** (Effectiveness: Medium) - Your Response: Press your recovering knee into their advancing knee as a block rather than trying to get the shield fully across. Tighten your bottom leg hook to prevent their leg from slicing through. If they commit to the slice, use the momentum change to dive to deep half guard underneath them. → Leads to [[Side Control]]
-- **Opponent sprawls hips back and re-flattens your partial recovery by driving weight forward** (Effectiveness: Medium) - Your Response: Keep your elbow wedge in place and wait for them to resettle before attempting the next hip escape increment. Their sprawl and drive forward actually creates a rhythm you can exploit - as they drive forward, their weight transfers onto your frames, and the subsequent settling creates a momentary lightening you can use. → Leads to [[Flattened Half Guard]]
+- **Opponent increases crossface pressure and drives shoulder into jaw to prevent hip escape** (Effectiveness: High) - Your Response: Accept the crossface and focus on maintaining your underhook rather than fighting the head position. Execute smaller hip escapes and time them to the opponent's breathing cycles when crossface pressure briefly reduces. The underhook prevents the crossface from completely pinning you flat. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent strips your underhook by swimming their arm through and establishing a whizzer** (Effectiveness: High) - Your Response: Immediately frame on their bicep with your freed arm and attempt to re-swim for the underhook. If the whizzer is deep, transition to lockdown with your legs to stabilize before reattempting the underhook. Without the underhook, pause hip escape attempts until structural support is re-established. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent times a knee slice through the space you create during hip escape** (Effectiveness: Medium) - Your Response: Press your recovering knee into their advancing knee as a block rather than trying to get the shield fully across. Tighten your bottom leg hook to prevent their leg from slicing through. If they commit to the slice, use the momentum change to dive to deep half guard underneath them. → Leads to [[Positions/Side Control]]
+- **Opponent sprawls hips back and re-flattens your partial recovery by driving weight forward** (Effectiveness: Medium) - Your Response: Keep your elbow wedge in place and wait for them to resettle before attempting the next hip escape increment. Their sprawl and drive forward actually creates a rhythm you can exploit - as they drive forward, their weight transfers onto your frames, and the subsequent settling creates a momentary lightening you can use. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 
 
 </section>

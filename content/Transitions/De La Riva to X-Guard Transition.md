@@ -21,7 +21,7 @@ The ability to flow between these positions transforms static guard retention in
 
 Understanding this transition requires mastery of hook mechanics, grip control transitions, and the ability to read opponent weight distribution in real-time. The DLR hook creates horizontal off-balancing forces while X-Guard hooks create vertical elevation forces. The transition bridges these two force systems seamlessly, maintaining continuous control throughout the reconfiguration of legs and grips.
 
-**From Position**: [[De La Riva Guard]] (Bottom)
+**From Position**: [[Positions/De La Riva Guard]] (Bottom)
 **Success Rate**: 65%
 
 </section>
@@ -32,9 +32,9 @@ Understanding this transition requires mastery of hook mechanics, grip control t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[X-Guard]] | 65% |
-| Failure | [[De La Riva Guard]] | 25% |
-| Counter | [[De La Riva Guard]] | 10% |
+| Success | [[Positions/X-Guard]] | 65% |
+| Failure | [[Positions/De La Riva Guard]] | 25% |
+| Counter | [[Positions/De La Riva Guard]] | 10% |
 
 
 </section>
@@ -193,25 +193,25 @@ The De La Riva to X-Guard transition represents a critical connection in modern 
 ## Related Techniques
 
 
-- [[De La Riva Sweep]] - Primary attacking option from starting position before transition
+- [[Transitions/De La Riva Sweep]] - Primary attacking option from starting position before transition
 
-- [[X-Guard Sweep]] - Immediate follow-up sweep after successful transition completion
+- [[Transitions/X-Guard Sweep]] - Immediate follow-up sweep after successful transition completion
 
-- [[Single Leg X Entry]] - Alternative transition when full X-Guard elevation is defended
+- [[Transitions/Single Leg X Entry]] - Alternative transition when full X-Guard elevation is defended
 
-- [[Single Leg X Sweep]] - Follow-up option when transitioning to Single Leg X variation
+- [[Transitions/Single Leg X Sweep]] - Follow-up option when transitioning to Single Leg X variation
 
-- [[Kiss of the Dragon]] - Advanced inversion variation for transitioning under heavy forward pressure
+- [[Transitions/Kiss of the Dragon]] - Advanced inversion variation for transitioning under heavy forward pressure
 
-- [[Reverse De La Riva Recovery]] - Alternative position when opponent circles away from X-Guard transition
+- [[Transitions/Reverse De La Riva Recovery]] - Alternative position when opponent circles away from X-Guard transition
 
-- [[Berimbolo Entry]] - Related inversion-based transition from DLR guard system
+- [[Transitions/Berimbolo Entry]] - Related inversion-based transition from DLR guard system
 
-- [[Kneebar from Guard]] - Submission threat available from X-Guard after transition
+- [[Submissions/Kneebar from Guard]] - Submission threat available from X-Guard after transition
 
-- [[Straight Ankle Lock]] - Leg attack option if opponent defends elevation poorly
+- [[Submissions/Straight Ankle Lock]] - Leg attack option if opponent defends elevation poorly
 
-- [[Butterfly Guard to X-Guard]] - Alternative X-Guard entry from different guard system sharing similar hook mechanics
+- [[Transitions/Butterfly Guard to X-Guard]] - Alternative X-Guard entry from different guard system sharing similar hook mechanics
 
 
 </section>

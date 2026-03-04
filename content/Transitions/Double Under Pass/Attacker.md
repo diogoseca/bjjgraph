@@ -184,7 +184,7 @@ Historically favored by top-position specialists and pressure passers, the Doubl
 
 The Double Under Pass is particularly effective in gi grappling where grips can be used to enhance control, though it remains highly viable in no-gi competition. Advanced practitioners use this pass as part of a comprehensive passing system, often combining it with headquarters position, knee slice variations, and other pressure-based attacks to create multiple layers of offensive threat. The technique's reliability stems from its fundamental soundness—when executed correctly, the opponent must defend against immense pressure while having limited mechanical advantages to create distance or recover guard.
 
-**From Position**: [[Open Guard]] (Top)
+**From Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 
@@ -238,9 +238,9 @@ The Double Under Pass is particularly effective in gi grappling where grips can 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 75% |
-| Failure | [[Open Guard]] | 15% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 75% |
+| Failure | [[Positions/Open Guard]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -249,11 +249,11 @@ The Double Under Pass is particularly effective in gi grappling where grips can 
 
 ## Opponent Counters
 
-- **Opponent frames on your head and neck to create distance** (Effectiveness: Medium) - Your Response: Drive through their frames by lowering your head position and increasing chest pressure while circling toward the side of the frame. Do not allow them to create vertical space—instead, keep your weight dropping down onto them continuously. → Leads to [[Open Guard]]
-- **Opponent grabs your belt or pants to prevent forward pressure** (Effectiveness: Medium) - Your Response: Circle your hips and use lateral movement to break the mechanical advantage of their grips. If they hold your belt, your lateral stepping will eventually force them to release or be pulled with you as you pass. Maintain underhook depth throughout. → Leads to [[Open Guard]]
-- **Opponent locks closed guard or half guard during the pass** (Effectiveness: High) - Your Response: If they achieve closed guard, you must break the guard before continuing. If they capture half guard, transition to a half guard passing sequence, maintaining your underhook control on the trapped leg side and working to clear the lockdown or hook. → Leads to [[Closed Guard]]
-- **Opponent sits up explosively or attempts to granby roll** (Effectiveness: Low) - Your Response: Your chest pressure and head position should prevent them from sitting up. If they attempt to granby or invert, follow their movement while maintaining your underhooks, potentially achieving back control or transitioning to a turtle attack. → Leads to [[Open Guard]]
-- **Opponent pushes on your hips to create space before underhooks are deep** (Effectiveness: High) - Your Response: If they successfully push your hips away, you may need to transition to a different passing approach. To prevent this, establish your first underhook deeply and immediately drop pressure before attempting the second underhook. → Leads to [[Open Guard]]
+- **Opponent frames on your head and neck to create distance** (Effectiveness: Medium) - Your Response: Drive through their frames by lowering your head position and increasing chest pressure while circling toward the side of the frame. Do not allow them to create vertical space—instead, keep your weight dropping down onto them continuously. → Leads to [[Positions/Open Guard]]
+- **Opponent grabs your belt or pants to prevent forward pressure** (Effectiveness: Medium) - Your Response: Circle your hips and use lateral movement to break the mechanical advantage of their grips. If they hold your belt, your lateral stepping will eventually force them to release or be pulled with you as you pass. Maintain underhook depth throughout. → Leads to [[Positions/Open Guard]]
+- **Opponent locks closed guard or half guard during the pass** (Effectiveness: High) - Your Response: If they achieve closed guard, you must break the guard before continuing. If they capture half guard, transition to a half guard passing sequence, maintaining your underhook control on the trapped leg side and working to clear the lockdown or hook. → Leads to [[Positions/Closed Guard]]
+- **Opponent sits up explosively or attempts to granby roll** (Effectiveness: Low) - Your Response: Your chest pressure and head position should prevent them from sitting up. If they attempt to granby or invert, follow their movement while maintaining your underhooks, potentially achieving back control or transitioning to a turtle attack. → Leads to [[Positions/Open Guard]]
+- **Opponent pushes on your hips to create space before underhooks are deep** (Effectiveness: High) - Your Response: If they successfully push your hips away, you may need to transition to a different passing approach. To prevent this, establish your first underhook deeply and immediately drop pressure before attempting the second underhook. → Leads to [[Positions/Open Guard]]
 
 
 </section>

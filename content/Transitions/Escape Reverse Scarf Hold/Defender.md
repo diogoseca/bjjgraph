@@ -138,7 +138,7 @@ description: "Defend against the Escape from Reverse Scarf Hold. Maintain pin co
 
 Defending against the hip escape from Reverse Scarf Hold requires the top player to maintain heavy pressure, control arm positioning, and recognize the bottom player's escape preparation before it generates meaningful space. The defender must distinguish between the hip escape setup and the bridge escape setup, as each requires a different counter-response. Against the hip escape specifically, the defender must prevent the bottom player from turning onto their side, collapse frames before they generate shrimping distance, and either maintain the reverse scarf hold or transition to a more dominant position when the escape attempt creates movement. The key defensive principle is proactive pressure management rather than reactive scrambling after space has already been created.
 
-**Opponent's Starting Position**: [[Reverse Scarf Hold]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Bottom)
 
 </section>
 
@@ -175,28 +175,28 @@ Defending against the hip escape from Reverse Scarf Hold requires the top player
 ### 1. Drive hip weight lower and collapse the far-side frame by turning into the framing arm
 
 - **When to use**: When you feel the opponent establishing a far-side frame against your body before they have turned onto their side for shrimping
-- **Targets**: [[Reverse Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Reverse Scarf Hold]]
 - **If successful**: Frame collapses before generating meaningful space, bottom player remains flat and controlled with escape progress reset to zero
 - **Risk**: Focusing on frame collapse may allow the near-side arm to drift free, creating submission defense opportunities for the bottom player
 
 ### 2. Transition to mount by stepping over when hip escape creates lateral space
 
 - **When to use**: When the opponent's shrimping creates space that makes reverse scarf hold difficult to maintain but their legs are not yet positioned to block mount entry
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Convert the escape attempt into positional advancement to mount, a more dominant position worth four points with superior submission opportunities
 - **Risk**: Mistiming the mount transition allows the opponent to insert a knee and recover half guard during the step-over
 
 ### 3. Re-secure near-side arm control and increase chest pressure between opponent's shrimps
 
 - **When to use**: When the opponent pauses between shrimps to reposition their feet, creating a brief window where they cannot generate hip escape movement
-- **Targets**: [[Reverse Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Reverse Scarf Hold]]
 - **If successful**: Pressure re-established between shrimps closes the space the opponent created, forcing them to restart the escape sequence from scratch
 - **Risk**: If the opponent chains shrimps without pausing, this window may not exist and attempting to re-settle may open space for further escape
 
 ### 4. Attack the near-side arm with americana or kimura when it drifts during shrimping
 
 - **When to use**: When the opponent's near-side elbow drifts away from their ribs during the hip escape movement, exposing the arm to isolation and submission attack
-- **Targets**: [[Reverse Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Reverse Scarf Hold]]
 - **If successful**: Bottom player must abort escape to defend submission, draining energy and resetting all escape progress while you maintain dominant control
 - **Risk**: Committing both hands to the submission temporarily reduces your base stability against potential bridge attempts
 
@@ -208,11 +208,11 @@ Defending against the hip escape from Reverse Scarf Hold requires the top player
 
 ## Best-Case Outcomes for Defender
 
-### → [[Reverse Scarf Hold]]
+### → [[Positions/Side Control/Reverse Scarf Hold]]
 
 Collapse the opponent's far-side frame before they can turn onto their side by driving your hip weight into the frame and turning your body to crush it. Re-settle full chest pressure and re-secure arm control before they can chain into a bridge escape. Use the windows between their shrimps to re-establish pressure.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the opponent's hip escapes create lateral space, use that space to step your far leg over their body into mount rather than fighting to maintain reverse scarf hold. Time the step-over for the moment after their shrimp when their hips are furthest from you and their legs have not yet repositioned to block the mount entry.
 

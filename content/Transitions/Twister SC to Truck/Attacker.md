@@ -180,7 +180,7 @@ description: "Execute the Twister Side Control to Truck transition with systemat
 
 From the attacker's perspective, the Twister Side Control to Truck transition is a deliberate positional escalation that converts partial lateral control into full perpendicular back attack dominance. The attacker already holds Twister Side Control with a leg hook and shoulder pressure, and seeks to deepen this control by threading a figure-four entanglement and rotating behind the opponent to achieve the truck's superior submission platform. The key challenge is executing this multi-phase transition without creating gaps in control that the defender can exploit. Every phase of the rotation must maintain or improve pressure on the opponent, treating the transition as a continuous tightening rather than a discrete positional jump. The attacker's sensitivity to the defender's weight distribution and leg positioning determines the optimal moment to initiate, and the ability to abort and return to TSC if resistance proves too strong distinguishes competent practitioners from those who lose position by overcommitting.
 
-**From Position**: [[Twister Side Control]] (Top)
+**From Position**: [[Positions/Twister Control/Twister Side Control]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ From the attacker's perspective, the Twister Side Control to Truck transition is
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Truck]] | 55% |
-| Failure | [[Twister Side Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Twister Control/Truck]] | 55% |
+| Failure | [[Positions/Twister Control/Twister Side Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ From the attacker's perspective, the Twister Side Control to Truck transition is
 
 ## Opponent Counters
 
-- **Opponent clears boot from hip before entanglement deepens, removing the primary torque mechanism** (Effectiveness: High) - Your Response: If boot is cleared early, immediately re-insert or abandon the truck attempt and consolidate back to full Twister Side Control rather than fighting for a compromised position. Re-establish shoulder pressure and leg hook before reattempting. → Leads to [[Twister Side Control]]
-- **Opponent executes granby roll during the rotation phase, using transitional instability to create distance and recover guard** (Effectiveness: Medium) - Your Response: Follow the roll by maintaining whatever leg control you have and immediately pursue back control rather than forcing the truck. If you lose leg contact entirely, be prepared to work from half guard top or scramble to re-engage. → Leads to [[Half Guard]]
-- **Opponent creates strong frames against your rotation to prevent perpendicular alignment, keeping you in lateral TSC** (Effectiveness: Medium) - Your Response: Do not force the rotation against strong frames. Instead, return to threatening the twister or darce from TSC, which will force the opponent to redirect their defensive frames away from blocking rotation and create a new window for the truck entry. → Leads to [[Twister Side Control]]
-- **Opponent straightens trapped leg during figure-four threading, preventing the entanglement from locking and creating space to extract the leg entirely** (Effectiveness: High) - Your Response: Attack the straightened leg with an immediate calf slicer or knee compression threat to force the opponent to re-bend, then capitalize on the bending motion to complete the figure-four thread. Alternatively, transition to a straight ankle lock position if the leg is fully extended. → Leads to [[Twister Side Control]]
+- **Opponent clears boot from hip before entanglement deepens, removing the primary torque mechanism** (Effectiveness: High) - Your Response: If boot is cleared early, immediately re-insert or abandon the truck attempt and consolidate back to full Twister Side Control rather than fighting for a compromised position. Re-establish shoulder pressure and leg hook before reattempting. → Leads to [[Positions/Twister Control/Twister Side Control]]
+- **Opponent executes granby roll during the rotation phase, using transitional instability to create distance and recover guard** (Effectiveness: Medium) - Your Response: Follow the roll by maintaining whatever leg control you have and immediately pursue back control rather than forcing the truck. If you lose leg contact entirely, be prepared to work from half guard top or scramble to re-engage. → Leads to [[Positions/Half Guard]]
+- **Opponent creates strong frames against your rotation to prevent perpendicular alignment, keeping you in lateral TSC** (Effectiveness: Medium) - Your Response: Do not force the rotation against strong frames. Instead, return to threatening the twister or darce from TSC, which will force the opponent to redirect their defensive frames away from blocking rotation and create a new window for the truck entry. → Leads to [[Positions/Twister Control/Twister Side Control]]
+- **Opponent straightens trapped leg during figure-four threading, preventing the entanglement from locking and creating space to extract the leg entirely** (Effectiveness: High) - Your Response: Attack the straightened leg with an immediate calf slicer or knee compression threat to force the opponent to re-bend, then capitalize on the bending motion to complete the figure-four thread. Alternatively, transition to a straight ankle lock position if the leg is fully extended. → Leads to [[Positions/Twister Control/Twister Side Control]]
 
 
 </section>

@@ -19,7 +19,7 @@ The Rubber Guard Top Posture Escape is a systematic defensive transition designe
 
 Strategically, this escape must be executed before the bottom player progresses from Mission Control to more advanced positions like New York, Invisible Collar, or Zombie, where submission threats multiply exponentially. The timing window narrows rapidly once the Rubber Guard is fully established, making early recognition and immediate defensive action critical. The escape integrates principles of pressure management, circular arm extraction rather than linear pulling, and controlled posture recovery that avoids triggering the submission chain reactions that punish common escape mistakes. Success requires understanding that the Rubber Guard system is designed to exploit predictable defensive reactions, so the escape must combine multiple defensive actions simultaneously rather than addressing threats sequentially.
 
-**From Position**: [[Rubber Guard]] (Top)
+**From Position**: [[Positions/Rubber Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -30,9 +30,9 @@ Strategically, this escape must be executed before the bottom player progresses 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Rubber Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Rubber Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,21 +189,21 @@ The Rubber Guard Top Posture Escape occupies a critical defensive node in the BJ
 ## Related Techniques
 
 
-- [[Rubber Guard]] - Source position from which this escape is executed
+- [[Positions/Rubber Guard]] - Source position from which this escape is executed
 
-- [[Open Guard]] - Primary target position after successful posture recovery
+- [[Positions/Open Guard]] - Primary target position after successful posture recovery
 
-- [[Half Guard]] - Counter outcome position if opponent sweeps during escape attempt
+- [[Positions/Half Guard]] - Counter outcome position if opponent sweeps during escape attempt
 
-- [[Posture Recovery]] - Related fundamental transition sharing posture recovery mechanics
+- [[Transitions/Posture Recovery]] - Related fundamental transition sharing posture recovery mechanics
 
-- [[Mission Control]] - Primary Rubber Guard sub-position this escape must neutralize
+- [[Positions/Rubber Guard/Mission Control]] - Primary Rubber Guard sub-position this escape must neutralize
 
-- [[Closed Guard]] - Foundation position from which Rubber Guard originates and potential fallback
+- [[Positions/Closed Guard]] - Foundation position from which Rubber Guard originates and potential fallback
 
-- [[Arm Extraction]] - Related transition sharing arm freeing mechanics from guard control
+- [[Transitions/Arm Extraction]] - Related transition sharing arm freeing mechanics from guard control
 
-- [[Combat Base]] - Stable position accessible after successful posture recovery from Rubber Guard
+- [[Positions/Combat Base]] - Stable position accessible after successful posture recovery from Rubber Guard
 
 
 </section>

@@ -156,7 +156,7 @@ Defending the Squid Guard Sweep requires the top player to address the unique co
 
 The defensive strategy centers on preventing the bottom player from completing the weight-loading phase that precedes the sweep rotation. By maintaining posture, keeping weight centered over the base, and actively working to strip the lapel wrap, the top player can deny the conditions necessary for the sweep to develop. When prevention fails and the sweep begins, the defender must choose between base recovery through posting and backstep, or accepting a controlled positional change to half guard rather than conceding mount. Understanding both prevention and damage control is essential for reliable defense against this technique.
 
-**Opponent's Starting Position**: [[Squid Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Squid Guard]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The defensive strategy centers on preventing the bottom player from completing t
 ### 1. Strip the lapel wrap before the sweep develops by using both hands to unwrap the fabric from your leg
 
 - **When to use**: Early in the engagement before the bottom player loads your weight — this is the highest-percentage prevention strategy
-- **Targets**: [[Squid Guard]]
+- **Targets**: [[Positions/Squid Guard]]
 - **If successful**: The Squid Guard loses its defining control element and degenerates into standard De La Riva or open guard, dramatically reducing sweep threat
 - **Risk**: Temporarily occupying both hands with lapel removal leaves your upper body undefended against collar drags or arm drags
 
 ### 2. Backstep the threading leg to extract it from the hook and disengage from the sweep angle entirely
 
 - **When to use**: When the bottom player begins creating the 45-degree hip angle that precedes the sweep — the backstep must occur before weight loading completes
-- **Targets**: [[Squid Guard]]
+- **Targets**: [[Positions/Squid Guard]]
 - **If successful**: You escape the sweep angle and can reset to a neutral passing position with the hook cleared
 - **Risk**: An aggressive backstep can expose your back to inversion-based attacks if the bottom player reads the movement and follows with a berimbolo
 
 ### 3. Drop your weight and sprawl your hips back while establishing crossface pressure to flatten the bottom player
 
 - **When to use**: When the sweep rotation has already started and posting alone is insufficient — use pressure to stall the rotation mid-execution
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You stall the sweep and can work to pass from the resulting scramble, potentially achieving half guard top or side control
 - **Risk**: If the bottom player maintains the lapel grip during your sprawl, they may redirect the downward energy into a different sweep angle
 
 ### 4. Post the free hand wide on the mat in the sweep direction and drive your weight over the posting arm to recover base
 
 - **When to use**: As an emergency recovery when the sweep catches you off-balance and the rotation has already begun
-- **Targets**: [[Squid Guard]]
+- **Targets**: [[Positions/Squid Guard]]
 - **If successful**: You arrest the sweep rotation and can reset to a balanced position, though you remain in Squid Guard engagement
 - **Risk**: The posted arm is vulnerable to wrist control or kimura attack from the bottom player if they abandon the sweep to attack the limb
 
@@ -227,11 +227,11 @@ The defensive strategy centers on preventing the bottom player from completing t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the sweep partially succeeds but you manage to insert a knee and recover to half guard top rather than conceding full mount. Use the backstep and posting mechanics to slow the sweep rotation enough to insert a defensive frame before mount is established. This is damage control rather than full prevention but is significantly better than conceding mount.
 
-### → [[Squid Guard]]
+### → [[Positions/Squid Guard]]
 
 Strip the lapel grip or extract the threading hook before the sweep develops, neutralizing the attack at its source. Maintain vertical posture and centered weight throughout the engagement to deny the weight-loading phase. Active grip fighting and systematic lapel clearing prevent the sweep from ever reaching the execution phase.
 

@@ -194,28 +194,28 @@ Defending the **Kimura from Half Guard** requires early recognition, disciplined
 ### 1. Grip strip and arm retraction - use your free hand to peel their grip on your wrist while pulling your elbow tight to your ribs
 
 - **When to use**: Early in the attack sequence when they have wrist control but before figure-four is completed. This is the highest-percentage defense window
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover your arm to a safe position and can resume your half guard passing sequence with improved awareness of the Kimura threat
 - **Risk**: Low risk - failing to strip the grip simply returns you to the same defensive situation without worsening your position
 
 ### 2. Drive forward with heavy crossface pressure to flatten the bottom player and eliminate the angle they need for rotation
 
 - **When to use**: When figure-four is being established but before they have created the perpendicular angle. Most effective against lighter opponents or when you have superior upper body strength
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Bottom player is flattened with your weight driving through their chest, removing their ability to create rotation. They must abandon the Kimura to re-establish frames
 - **Risk**: Medium risk - if they already have strong figure-four and angle, driving forward can feed into their sweep mechanics
 
 ### 3. Grab your own thigh or belt with your trapped hand to create a defensive anchor preventing figure-four completion or rotation
 
 - **When to use**: When you feel wrist control being established and cannot immediately retract your arm. Buys time while you work to improve position and break their control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Their rotation is blocked by your defensive grip, stalling the submission. You can then systematically work to break their figure-four while maintaining top pressure
 - **Risk**: Medium risk - experienced attackers know grip breaks for this defense and may switch to alternative attacks while you're anchored
 
 ### 4. Hip escape backward and circle away from the Kimura side to create distance and remove the angle
 
 - **When to use**: When the figure-four is locked but rotation has not yet begun. Works best when you still have base and mobility on your free side
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You extract your arm from the submission and recover to a neutral position, though you may concede guard recovery to the bottom player
 - **Risk**: Medium-high risk - retreating may allow the bottom player to follow you with the Kimura grip and transition to a sweep or back take
 
@@ -239,11 +239,11 @@ Defending the **Kimura from Half Guard** requires early recognition, disciplined
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Strip the figure-four grip early in the sequence before rotation begins. Break their wrist control with your free hand, retract your arm tight to your body, and immediately re-establish crossface pressure and heavy top control. This is the best-case outcome as you maintain your passing position with improved awareness of the Kimura threat.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the Kimura is deeply established and you cannot strip the grip, create distance by hip escaping backward while fighting the grip. The bottom player may release half guard control during the scramble, allowing you to extract your leg. You end up in their closed guard, losing your passing position but safely out of the submission threat. Reset and work to pass from closed guard.
 

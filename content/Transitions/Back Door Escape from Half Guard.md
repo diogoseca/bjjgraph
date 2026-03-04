@@ -21,7 +21,7 @@ Traditional half guard philosophy emphasizes fighting toward the opponent to est
 
 The back door escape carries inherent risk because turning away from the opponent momentarily exposes the back. Success depends on precise timing, explosive movement during transitional moments when the top player shifts weight, and immediate establishment of a solid turtle structure upon completion. The technique is most effective when combined with a systematic understanding of turtle escapes, as reaching turtle is only the first phase of a larger positional improvement sequence that continues with granby rolls, sit-throughs, or technical standups.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The back door escape carries inherent risk because turning away from the opponen
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Half Guard]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Half Guard]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Back Door Escape connects half guard bottom to the turtle position ecosystem
 ## Related Techniques
 
 
-- [[Half Guard]] - Starting position from which the back door escape is executed when bottom player is flattened
+- [[Positions/Half Guard]] - Starting position from which the back door escape is executed when bottom player is flattened
 
-- [[Turtle]] - Primary target position reached upon successful execution of the escape
+- [[Positions/Turtle]] - Primary target position reached upon successful execution of the escape
 
-- [[Back Control]] - Risk position if opponent capitalizes on exposed back during the turning motion
+- [[Positions/Back Control]] - Risk position if opponent capitalizes on exposed back during the turning motion
 
-- [[Flattened Half Guard]] - Half guard variation where the back door escape is most commonly needed due to top player dominance
+- [[Positions/Half Guard/Flattened Half Guard]] - Half guard variation where the back door escape is most commonly needed due to top player dominance
 
-- [[Deep Half Guard]] - Alternative escape route from similar compromised half guard positions when turning away is too risky
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative escape route from similar compromised half guard positions when turning away is too risky
 
-- [[Knee Shield Half Guard]] - Defensive half guard variation that can be recovered if back door escape is abandoned mid-attempt
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive half guard variation that can be recovered if back door escape is abandoned mid-attempt
 
-- [[Back Door Escape]] - General back door escape technique applicable from multiple positions sharing core turning mechanics
+- [[Transitions/Back Door Escape]] - General back door escape technique applicable from multiple positions sharing core turning mechanics
 
-- [[Side Control]] - Position opponent may achieve if escape is partially countered and they advance past half guard
+- [[Positions/Side Control]] - Position opponent may achieve if escape is partially countered and they advance past half guard
 
-- [[Dogfight Position]] - Scramble position that may arise when back door escape leads to a contested transition
+- [[Positions/Dogfight Position]] - Scramble position that may arise when back door escape leads to a contested transition
 
-- [[Lockdown]] - Alternative half guard variation that can set up back door escape timing through posture disruption
+- [[Positions/Half Guard/Lockdown]] - Alternative half guard variation that can set up back door escape timing through posture disruption
 
 
 </section>

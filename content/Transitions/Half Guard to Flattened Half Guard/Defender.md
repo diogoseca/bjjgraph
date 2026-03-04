@@ -160,7 +160,7 @@ description: "Defend against being flattened from half guard bottom. Learn frame
 
 As the bottom player in half guard, preventing your opponent from flattening you is arguably the single most important defensive skill in the position. Once your frames collapse and your back hits the mat with your opponent's chest on yours, your offensive options drop precipitously and your energy expenditure to recover skyrockets. The defense against flattening is not a single technique but a continuous process of frame maintenance, underhook fighting, and angle preservation that must be sustained throughout the entire half guard exchange. Understanding the top player's flattening sequence allows you to recognize the early warning signs and intervene before the process reaches the point of no return, where chest-to-chest contact eliminates your defensive structure.
 
-**Opponent's Starting Position**: [[Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -198,35 +198,35 @@ As the bottom player in half guard, preventing your opponent from flattening you
 ### 1. Maintain knee shield with active frame fighting to prevent crossface establishment
 
 - **When to use**: Early in the flattening attempt before the opponent has secured the crossface or collapsed your primary frame
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: You preserve distance and maintain active half guard with full offensive and defensive capabilities
 - **Risk**: If the opponent bypasses the knee shield through pressure or angle change, you may lose the frame without a backup plan
 
 ### 2. Win the underhook battle and turn to your side to establish sweeping angle
 
 - **When to use**: When the opponent is focused on crossface pressure and their far arm is available for you to establish the underhook
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish the primary offensive structure for sweeps and back takes, reversing the positional dynamic
 - **Risk**: Reaching for the underhook exposes your arm to Kimura attacks if the opponent reads your intention
 
 ### 3. Execute preemptive hip escape to create distance before frames collapse completely
 
 - **When to use**: When you feel the knee shield beginning to fold and the opponent's pressure is progressively increasing
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You re-establish distance, recover knee shield or insert new frames, and reset the half guard exchange
 - **Risk**: Poor timing allows the opponent to follow your movement and settle heavier on the new position
 
 ### 4. Transition to lockdown on the trapped leg to halt forward hip advancement
 
 - **When to use**: When the opponent's hips are advancing and you cannot maintain the knee shield but still have leg mobility
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The lockdown prevents further hip advancement and creates options for sweep sequences
 - **Risk**: Lockdown alone without upper body control can still result in being flattened from the waist up
 
 ### 5. Dive underneath for deep half guard entry before chest-to-chest contact is established
 
 - **When to use**: When the opponent commits heavy forward pressure and their weight is driving over your head
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You achieve deep half guard with superior sweeping angles underneath the opponent's center of gravity
 - **Risk**: Mistimed entry leaves you worse off with the opponent's weight on top and no defensive frames
 
@@ -238,11 +238,11 @@ As the bottom player in half guard, preventing your opponent from flattening you
 
 ## Best-Case Outcomes for Defender
 
-### → [[Knee Shield Half Guard]]
+### → [[Positions/Half Guard/Knee Shield Half Guard]]
 
 Maintain active knee shield by keeping your shin angled across their hip line with your foot hooked behind their far hip. Reinforce the shield with your near-side forearm framing on their bicep or shoulder. If the shield begins to fold, hip escape to re-establish distance before reinserting the knee across their body.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Win the underhook on the trapped leg side and use it to turn aggressively to your side, then chain into a sweep such as the underhook sweep or old school sweep. The underhook gives you the structural advantage to reverse the positional hierarchy and come on top.
 

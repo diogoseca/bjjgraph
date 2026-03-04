@@ -180,7 +180,7 @@ description: "Learn to execute the body lock takedown from clinch. Step-by-step 
 
 The body lock takedown from clinch is a power-based takedown that leverages your entire body as a unified driving system to bring the opponent to the mat. As the attacker, your primary objective is establishing a locked grip around the opponent's torso, loading your hips for explosive forward pressure, and driving at the correct angle to collapse their base. The technique rewards proper mechanics over raw strength, as the interlocked hands create a closed kinetic chain where your legs, hips, and upper body transfer force directly into the opponent's center of mass. Success depends on controlling the grip-fighting phase, committing decisively to the drive, and maintaining chest-to-chest connection throughout the entire sequence from standing to ground.
 
-**From Position**: [[Clinch]] (Top)
+**From Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ The body lock takedown from clinch is a power-based takedown that leverages your
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Clinch]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Clinch]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ The body lock takedown from clinch is a power-based takedown that leverages your
 
 ## Opponent Counters
 
-- **Opponent sprawls hips back and lowers level to resist the forward drive** (Effectiveness: High) - Your Response: If the sprawl prevents forward progress, immediately switch to a lateral drop variation by stepping to the side and pulling them across your hip, or release to a single leg by dropping your level and attacking their lead leg while they are weight-heavy on their heels. → Leads to [[Clinch]]
-- **Opponent pummels to deny the body lock closure by fighting for underhooks and maintaining hand fighting** (Effectiveness: High) - Your Response: Use misdirection by threatening snap downs or collar ties to force the opponent to address upper body threats, creating windows to swim your arms through for the body lock. Alternate between high attacks and body lock attempts to break their defensive timing. → Leads to [[Clinch]]
-- **Opponent establishes a deep whizzer on the drive side and hip-switches to redirect your momentum laterally** (Effectiveness: Medium) - Your Response: If you feel the whizzer bite, immediately switch your driving angle to the opposite side, using their committed whizzer as a pivot point. Alternatively, release the body lock on the whizzer side and transition to a single leg on their far leg while they are weight-committed to the whizzer defense. → Leads to [[Clinch]]
-- **Opponent hooks your lead leg during the drive and pulls guard, entangling your legs in half guard as you descend** (Effectiveness: Medium) - Your Response: Maintain the body lock through the descent and use the grip to immediately begin pressure passing from half guard top. The body lock grip translates directly to a passing configuration, so do not release it. Drive your crossface shoulder through and begin working a knee slice or smash pass sequence. → Leads to [[Half Guard]]
+- **Opponent sprawls hips back and lowers level to resist the forward drive** (Effectiveness: High) - Your Response: If the sprawl prevents forward progress, immediately switch to a lateral drop variation by stepping to the side and pulling them across your hip, or release to a single leg by dropping your level and attacking their lead leg while they are weight-heavy on their heels. → Leads to [[Positions/Clinch]]
+- **Opponent pummels to deny the body lock closure by fighting for underhooks and maintaining hand fighting** (Effectiveness: High) - Your Response: Use misdirection by threatening snap downs or collar ties to force the opponent to address upper body threats, creating windows to swim your arms through for the body lock. Alternate between high attacks and body lock attempts to break their defensive timing. → Leads to [[Positions/Clinch]]
+- **Opponent establishes a deep whizzer on the drive side and hip-switches to redirect your momentum laterally** (Effectiveness: Medium) - Your Response: If you feel the whizzer bite, immediately switch your driving angle to the opposite side, using their committed whizzer as a pivot point. Alternatively, release the body lock on the whizzer side and transition to a single leg on their far leg while they are weight-committed to the whizzer defense. → Leads to [[Positions/Clinch]]
+- **Opponent hooks your lead leg during the drive and pulls guard, entangling your legs in half guard as you descend** (Effectiveness: Medium) - Your Response: Maintain the body lock through the descent and use the grip to immediately begin pressure passing from half guard top. The body lock grip translates directly to a passing configuration, so do not release it. Drive your crossface shoulder through and begin working a knee slice or smash pass sequence. → Leads to [[Positions/Half Guard]]
 
 
 </section>

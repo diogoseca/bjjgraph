@@ -154,7 +154,7 @@ description: "Defensive guide for surviving and escaping the Gift Wrap from Back
 
 As the defender against the Gift Wrap from Back, you face a critical moment where your opponent is attempting to upgrade their back control by isolating one of your arms. If the gift wrap is completed, your defensive capabilities are cut roughly in half—you lose the ability to two-hand defend the choke, create frames with both arms, or execute full grip-fighting sequences. Your primary objective is to prevent the arm isolation from completing, and your secondary objective is to exploit the momentary grip disruption during the threading attempt to execute an escape. The defender must recognize the attack early through tactile and positional cues, as reacting after the gift wrap is fully established makes escape dramatically more difficult. Understanding that the attacker must briefly release their seatbelt grip during the transition provides the key defensive window—this is when their control is weakest and escape opportunities are greatest.
 
-**Opponent's Starting Position**: [[Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the Gift Wrap from Back, you face a critical moment wher
 ### 1. Pin elbow tight to ribs and rotate shoulder inward to close the armpit space
 
 - **When to use**: Immediately upon feeling wrist capture or sensing the seatbelt grip opening on one side, before the threading has begun
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Blocks the threading path completely, forcing the attacker to release wrist control and re-engage the seatbelt, returning to standard back control defense
 - **Risk**: If you focus too heavily on pinning the elbow, you may neglect neck defense and become vulnerable to a choke feint that transitions into the gift wrap on the opposite arm
 
 ### 2. Strip wrist control with the free hand by peeling attacker's grip from your forearm
 
 - **When to use**: When the attacker has captured your wrist but has not yet begun threading the arm under your armpit—the grip is established but the wrap is not progressing
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Breaks the initial capture and forces the attacker to restart the sequence, buying time and potentially disrupting their offensive rhythm
 - **Risk**: Using the free hand for grip stripping temporarily removes it from neck defense, creating a choke opportunity if the attacker switches to a rear naked choke attack
 
 ### 3. Explosive bridge and hip escape during the seatbelt release moment
 
 - **When to use**: When you feel the attacker's seatbelt grip open as they free the threading arm—this is the moment of weakest upper body control during the transition
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Exploits the momentary control gap to escape hips, remove a hook, and rotate to face the attacker, recovering to half guard or turtle position
 - **Risk**: If the bridge is mistimed and the attacker maintains hooks and seatbelt, the explosive movement wastes energy and may actually help the attacker complete the wrap by extending your arm
 
 ### 4. Turn aggressively toward the attacker during the threading to prevent arm from crossing the centerline
 
 - **When to use**: When the arm threading has begun but has not yet crossed your midline—the arm is partially through but the wrap is not locked
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your rotation toward the attacker shortens the threading path and may allow you to retract the arm while simultaneously beginning to face the attacker for guard recovery
 - **Risk**: Aggressive rotation can accelerate the attacker's transition to technical mount if they follow the rotation while maintaining the partial arm trap
 
@@ -225,11 +225,11 @@ As the defender against the Gift Wrap from Back, you face a critical moment wher
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your escape to coincide with the attacker's seatbelt release during the arm threading transition. Bridge explosively and rotate your hips toward the attacker, using the momentary loosened upper body control to insert a knee between your bodies and establish half guard. This works best when combined with hook removal on the same side as your hip escape.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Prevent the gift wrap from completing by pinning your elbow to your ribs immediately upon sensing the wrist capture, then strip the attacker's grip with your free hand before they can thread the arm. This returns the position to standard back control defense where you retain full two-handed defensive capability.
 

@@ -21,7 +21,7 @@ The mechanical foundation relies on isolating the opponent's arm through shoulde
 
 Strategically, this technique represents a critical bridge between the dynamic turtle attack system and the stable control offered by side control. While Crackhead Control provides excellent back take and submission opportunities, some opponents become highly defensive, denying hooks and protecting their neck. The Arm Extraction and Pass offers an alternative advancement path that trades submission opportunities for positional points and the extensive attack options available from side control. Advanced practitioners use this as part of a threat matrix: the opponent must defend back takes, truck entries, and chokes from Crackhead Control, but defensive postures that protect against these attacks often make the Arm Extraction and Pass easier to execute.
 
-**From Position**: [[Crackhead Control]] (Top)
+**From Position**: [[Positions/Crackhead Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this technique represents a critical bridge between the dynamic t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Crackhead Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Crackhead Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -185,25 +185,25 @@ Arm Extraction and Pass serves as a critical bridge between the 10th Planet turt
 ## Related Techniques
 
 
-- [[Crackhead Control]] - Starting position - this is the turtle attack platform from which extraction begins
+- [[Positions/Crackhead Control]] - Starting position - this is the turtle attack platform from which extraction begins
 
-- [[Side Control]] - Primary target position achieved upon successful execution
+- [[Positions/Side Control]] - Primary target position achieved upon successful execution
 
-- [[Back Take from Top]] - Alternative attack - threat of back take creates opening for arm extraction
+- [[Transitions/Back Take from Top]] - Alternative attack - threat of back take creates opening for arm extraction
 
-- [[Kimura from Side Control]] - Follow-up submission available when opponent posts arm during extraction
+- [[Submissions/Kimura from Side Control]] - Follow-up submission available when opponent posts arm during extraction
 
-- [[Arm Extraction to Turtle]] - Related technique for arm management in turtle positions
+- [[Transitions/Arm Extraction to Turtle]] - Related technique for arm management in turtle positions
 
-- [[Half Guard]] - Counter position opponent may achieve if extraction timing fails
+- [[Positions/Half Guard]] - Counter position opponent may achieve if extraction timing fails
 
-- [[Turtle to Truck]] - Alternative attack path from same starting position
+- [[Transitions/Turtle to Truck]] - Alternative attack path from same starting position
 
-- [[North-South]] - Alternative transition target when hip-side extraction is blocked
+- [[Positions/North-South]] - Alternative transition target when hip-side extraction is blocked
 
-- [[Crab Ride]] - Related turtle control with similar arm management challenges
+- [[Positions/Crab Ride]] - Related turtle control with similar arm management challenges
 
-- [[Crucifix from Turtle]] - Alternative advancement when opponent extends arms during defense
+- [[Transitions/Crucifix from Turtle]] - Alternative advancement when opponent extends arms during defense
 
 
 </section>

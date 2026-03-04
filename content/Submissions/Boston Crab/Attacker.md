@@ -238,8 +238,8 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Closed Guard]] | 20% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -248,10 +248,10 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 ## Opponent Defenses
 
-- **Keeping hips low and preventing leg control** (Effectiveness: High) - Your Response: Work to flatten opponent first from turtle using cross-face pressure or other back control techniques before attempting leg isolation. If opponent maintains strong turtle posture, consider alternative submissions. → Leads to [[Turtle]]
-- **Extracting one leg by pulling knee to chest** (Effectiveness: High) - Your Response: Anticipate leg extraction attempts and secure leg control with proper grips earlier in the sequence. If one leg escapes, transition to single-leg attacks like straight ankle lock or switch to alternative back attack submissions. → Leads to [[Turtle]]
-- **Rolling to guard or inverting to escape pressure** (Effectiveness: Medium) - Your Response: Maintain strong ankle control and control opponent's hip movement by keeping their legs elevated. If opponent begins rolling, be prepared to transition to leg entanglement positions or back control rather than forcing the Boston Crab. → Leads to [[Closed Guard]]
-- **Explosive bridging or pushing up to hands and knees** (Effectiveness: Low) - Your Response: Once leg control is established and you have stepped over, explosive bridging becomes difficult for opponent. However, if they generate upward movement, sit back more quickly to elevate their hips and prevent the escape. → Leads to [[Turtle]]
+- **Keeping hips low and preventing leg control** (Effectiveness: High) - Your Response: Work to flatten opponent first from turtle using cross-face pressure or other back control techniques before attempting leg isolation. If opponent maintains strong turtle posture, consider alternative submissions. → Leads to [[Positions/Turtle]]
+- **Extracting one leg by pulling knee to chest** (Effectiveness: High) - Your Response: Anticipate leg extraction attempts and secure leg control with proper grips earlier in the sequence. If one leg escapes, transition to single-leg attacks like straight ankle lock or switch to alternative back attack submissions. → Leads to [[Positions/Turtle]]
+- **Rolling to guard or inverting to escape pressure** (Effectiveness: Medium) - Your Response: Maintain strong ankle control and control opponent's hip movement by keeping their legs elevated. If opponent begins rolling, be prepared to transition to leg entanglement positions or back control rather than forcing the Boston Crab. → Leads to [[Positions/Closed Guard]]
+- **Explosive bridging or pushing up to hands and knees** (Effectiveness: Low) - Your Response: Once leg control is established and you have stepped over, explosive bridging becomes difficult for opponent. However, if they generate upward movement, sit back more quickly to elevate their hips and prevent the escape. → Leads to [[Positions/Turtle]]
 
 
 </section>

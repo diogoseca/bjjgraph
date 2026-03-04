@@ -174,7 +174,7 @@ description: "How to execute Shrimp Escape in BJJ. Attacking perspective with se
 
 The Shrimp Escape, also known as the hip escape, is one of the most fundamental and essential defensive movements in Brazilian Jiu-Jitsu. This technique allows a practitioner trapped in side control to create space, recover their guard, and neutralize their opponent's positional dominance. The shrimping motion involves a coordinated hip movement that generates distance between you and your opponent, enabling you to insert your knee shield or establish frames that prevent further advancement. The effectiveness of the shrimp escape lies in its mechanical efficiency—by bridging slightly and then explosively moving your hips away from your opponent while posting with your far leg, you create the angular space necessary for guard recovery. This technique is not merely an escape; it represents a fundamental principle of creating space under pressure that applies across countless defensive scenarios in BJJ. Mastery of the shrimp escape is essential for survival in bottom positions and serves as the foundation for more advanced escapes and recoveries throughout your jiu-jitsu journey.
 
-**From Position**: [[Side Control]] (Bottom)
+**From Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
 
@@ -227,10 +227,10 @@ The Shrimp Escape, also known as the hip escape, is one of the most fundamental 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Success | [[Knee Shield Half Guard]] | 20% |
-| Failure | [[Side Control]] | 20% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Success | [[Positions/Half Guard/Knee Shield Half Guard]] | 20% |
+| Failure | [[Positions/Side Control]] | 20% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -239,10 +239,10 @@ The Shrimp Escape, also known as the hip escape, is one of the most fundamental 
 
 ## Opponent Counters
 
-- **Opponent drives heavy shoulder pressure into your frames, collapsing your defensive structure** (Effectiveness: High) - Your Response: Switch to alternative frame angles, use elbow-to-knee connection for additional structural support, or time your escape for when opponent shifts weight to advance position → Leads to [[Side Control]]
-- **Opponent follows your hip movement, maintaining connection and pressure throughout your shrimp** (Effectiveness: High) - Your Response: Chain multiple shrimps together, create angle changes between repetitions, or switch to alternative escapes like the elbow escape or bridge-and-roll when opponent commits to following → Leads to [[Side Control]]
-- **Opponent blocks your knee insertion by driving their hip down as you create space** (Effectiveness: Medium) - Your Response: Use your frames to create a brief posting moment, shrimp again to create additional space, or switch to recovering to turtle position by continuing your rotation → Leads to [[Side Control]]
-- **Opponent times mount transition during your bridge, stepping knee over before you can turn** (Effectiveness: High) - Your Response: Keep bridges minimal (2-3 inches), immediately turn onto hip during bridge rather than bridging straight up, use near elbow and knee connection to block their knee from crossing over → Leads to [[Mount]]
+- **Opponent drives heavy shoulder pressure into your frames, collapsing your defensive structure** (Effectiveness: High) - Your Response: Switch to alternative frame angles, use elbow-to-knee connection for additional structural support, or time your escape for when opponent shifts weight to advance position → Leads to [[Positions/Side Control]]
+- **Opponent follows your hip movement, maintaining connection and pressure throughout your shrimp** (Effectiveness: High) - Your Response: Chain multiple shrimps together, create angle changes between repetitions, or switch to alternative escapes like the elbow escape or bridge-and-roll when opponent commits to following → Leads to [[Positions/Side Control]]
+- **Opponent blocks your knee insertion by driving their hip down as you create space** (Effectiveness: Medium) - Your Response: Use your frames to create a brief posting moment, shrimp again to create additional space, or switch to recovering to turtle position by continuing your rotation → Leads to [[Positions/Side Control]]
+- **Opponent times mount transition during your bridge, stepping knee over before you can turn** (Effectiveness: High) - Your Response: Keep bridges minimal (2-3 inches), immediately turn onto hip during bridge rather than bridging straight up, use near elbow and knee connection to block their knee from crossing over → Leads to [[Positions/Mount]]
 
 
 </section>

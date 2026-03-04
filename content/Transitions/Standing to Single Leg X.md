@@ -17,7 +17,7 @@ description: "Learn Standing to Single Leg X transition in BJJ. Step-by-step ent
 
 The Standing to Single Leg X transition is a fundamental guard pull entry that converts standing engagement into a powerful leg entanglement position. This technique allows the bottom player to bypass traditional guard establishment and immediately threaten sweeps and leg attacks from a mechanically advantageous position. The Single Leg X position provides superior control of one leg while maintaining distance management and sweep opportunities. Unlike traditional seated guard pulls, this entry creates immediate offensive pressure by compromising the opponent's base and posture simultaneously. The technique is particularly effective in no-gi grappling and modern sport BJJ competition, where dynamic guard pulling has become essential. Success depends on timing the entry during opponent movement, maintaining proper body positioning throughout the transition, and securing critical grips before the opponent can establish defensive posture. The entry functions as a gateway to the entire modern leg entanglement system, connecting standing exchanges directly to Ashi Garami variants, X-Guard sweeps, and direct submission threats like the Straight Ankle Lock.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -28,9 +28,9 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Standing Position]] | 15% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -192,33 +192,33 @@ The Standing to Single Leg X transition occupies a critical position in modern B
 ## Related Techniques
 
 
-- [[Single Leg X-Guard]] - Ending position - complete position guide for the destination guard
+- [[Positions/X-Guard/Single Leg X-Guard]] - Ending position - complete position guide for the destination guard
 
-- [[X-Guard]] - Related position - transition option by adding second hook
+- [[Positions/X-Guard]] - Related position - transition option by adding second hook
 
-- [[Single Leg X Sweep]] - Primary follow-up - main offensive sweep from established position
+- [[Transitions/Single Leg X Sweep]] - Primary follow-up - main offensive sweep from established position
 
-- [[De La Riva Guard]] - Alternative guard - backup position if entry is blocked
+- [[Positions/De La Riva Guard]] - Alternative guard - backup position if entry is blocked
 
-- [[Reverse De La Riva Guard]] - Alternative guard - conversion option if opponent sprawls
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Alternative guard - conversion option if opponent sprawls
 
-- [[Inside Ashi-Garami]] - Advanced transition - leg entanglement progression from SLX
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Advanced transition - leg entanglement progression from SLX
 
-- [[Ankle Pick Sweep]] - Alternative technique - backup entry if hook is denied
+- [[Transitions/Ankle Pick Sweep]] - Alternative technique - backup entry if hook is denied
 
-- [[Shin to Shin Pull]] - Related entry - alternative standing to ground transition
+- [[Transitions/Shin to Shin Pull]] - Related entry - alternative standing to ground transition
 
-- [[Guard Pull]] - Category technique - general guard pulling principles
+- [[Transitions/Guard Pull]] - Category technique - general guard pulling principles
 
-- [[Tripod Sweep]] - Alternative sweep - available from similar leg positioning
+- [[Transitions/Tripod Sweep]] - Alternative sweep - available from similar leg positioning
 
-- [[Sickle Sweep]] - Related sweep - similar leg control mechanics
+- [[Transitions/Sickle Sweep]] - Related sweep - similar leg control mechanics
 
-- [[Straight Ankle Lock]] - Submission option - direct finish from established SLX
+- [[Submissions/Straight Ankle Lock]] - Submission option - direct finish from established SLX
 
-- [[Kneebar from Guard]] - Submission option - leg attack from entanglement
+- [[Submissions/Kneebar from Guard]] - Submission option - leg attack from entanglement
 
-- [[Standing Position]] - Starting position - where the technique initiates
+- [[Positions/Standing Position]] - Starting position - where the technique initiates
 
 
 </section>

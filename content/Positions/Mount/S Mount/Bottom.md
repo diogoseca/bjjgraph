@@ -200,13 +200,13 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 
 ## Available Escapes
 
-### [[Trap and Roll from S Mount]] (30% of attempts)
+### [[Transitions/Trap and Roll from S Mount]] (30% of attempts)
 
-### [[Frame and Shrimp from S Mount]] (28% of attempts)
+### [[Transitions/Frame and Shrimp from S Mount]] (28% of attempts)
 
-### [[Bridge Escape from S Mount]] (25% of attempts)
+### [[Transitions/Bridge Escape from S Mount]] (25% of attempts)
 
-### [[Bridge and Roll]] (17% of attempts)
+### [[Transitions/Bridge and Roll]] (17% of attempts)
 
 
 
@@ -217,27 +217,27 @@ Mental composure under pressure is perhaps the most critical factor in S Mount b
 ## Decision Making from This Position
 
 **If opponent has full S Mount control with leg over head but arm is still bent and protected:**
-- Execute **[[Grip own collar and maintain bent arm defense]]** → [[S Mount]] (Probability: 90%)
-- Execute **[[Control opponent's leg with free hand]]** → [[S Mount]] (Probability: 85%)
-- Execute **[[Hip escape toward legs while protecting arm]]** → [[Half Guard]] (Probability: 30%)
+- Execute **[[Grip own collar and maintain bent arm defense]]** → [[Positions/Mount/S Mount]] (Probability: 90%)
+- Execute **[[Control opponent's leg with free hand]]** → [[Positions/Mount/S Mount]] (Probability: 85%)
+- Execute **[[Hip escape toward legs while protecting arm]]** → [[Positions/Half Guard]] (Probability: 30%)
 
 
 **If opponent is transitioning to S Mount but hasn't fully stepped over head yet:**
-- Execute **[[Frame against hips immediately to prevent step-over]]** → [[Mount]] (Probability: 45%)
-- Execute **[[Hook opponent's leg with free arm to block transition]]** → [[Mount]] (Probability: 40%)
-- Execute **[[Bridge explosively to disrupt transition]]** → [[Mount]] (Probability: 35%)
+- Execute **[[Frame against hips immediately to prevent step-over]]** → [[Positions/Mount]] (Probability: 45%)
+- Execute **[[Hook opponent's leg with free arm to block transition]]** → [[Positions/Mount]] (Probability: 40%)
+- Execute **[[Bridge explosively to disrupt transition]]** → [[Positions/Mount]] (Probability: 35%)
 
 
 **If arm is partially extended and opponent is securing armbar grip:**
-- Execute **[[Pull arm back aggressively and re-grip collar]]** → [[S Mount]] (Probability: 60%)
-- Execute **[[Roll toward opponent to relieve pressure]]** → [[Turtle]] (Probability: 40%)
-- Execute **[[Tap if full extension achieved with hips locked]]** → [[Game Over]] (Probability: 100%)
+- Execute **[[Pull arm back aggressively and re-grip collar]]** → [[Positions/Mount/S Mount]] (Probability: 60%)
+- Execute **[[Roll toward opponent to relieve pressure]]** → [[Positions/Turtle]] (Probability: 40%)
+- Execute **[[Tap if full extension achieved with hips locked]]** → [[Positions/Game Over]] (Probability: 100%)
 
 
 **If opponent adjusts position to attack other arm or transition to different submission:**
-- Execute **[[Explosive hip escape during adjustment window]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Establish frames and shrimp to create distance]]** → [[Open Guard]] (Probability: 45%)
-- Execute **[[Bridge and roll during positional instability]]** → [[Mount]] (Probability: 25%)
+- Execute **[[Explosive hip escape during adjustment window]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Establish frames and shrimp to create distance]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Bridge and roll during positional instability]]** → [[Positions/Mount]] (Probability: 25%)
 
 
 
@@ -371,13 +371,13 @@ Partner establishes S Mount, timer starts. Race to execute complete escape to gu
 
 ## Related Positions and Techniques
 
-- **[[Mount]]** - Position opponent is attacking from - understanding mount control helps anticipate S Mount transitions
-- **[[Armbar Control]]** - Primary threat from this position - studying armbar mechanics improves defensive understanding
-- **[[Half Guard]]** - Primary escape destination - most successful escapes lead to half guard position
-- **[[Closed Guard]]** - Alternative escape destination - recovery target when full escape is possible
-- **[[Trap and Roll from S Mount]]** - Primary reversal technique - explosive escape designed specifically for S Mount configuration
-- **[[Bridge Escape from S Mount]]** - Bridge-based escape - disrupts opponent's perpendicular control to create escape opportunity
-- **[[Turtle]]** - Emergency escape option - sometimes necessary to escape arm attack by rolling
+- **[[Positions/Mount]]** - Position opponent is attacking from - understanding mount control helps anticipate S Mount transitions
+- **[[Positions/Armbar Control]]** - Primary threat from this position - studying armbar mechanics improves defensive understanding
+- **[[Positions/Half Guard]]** - Primary escape destination - most successful escapes lead to half guard position
+- **[[Positions/Closed Guard]]** - Alternative escape destination - recovery target when full escape is possible
+- **[[Transitions/Trap and Roll from S Mount]]** - Primary reversal technique - explosive escape designed specifically for S Mount configuration
+- **[[Transitions/Bridge Escape from S Mount]]** - Bridge-based escape - disrupts opponent's perpendicular control to create escape opportunity
+- **[[Positions/Turtle]]** - Emergency escape option - sometimes necessary to escape arm attack by rolling
 
 
 </section>

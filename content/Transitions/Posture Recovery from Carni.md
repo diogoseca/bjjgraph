@@ -21,7 +21,7 @@ The key strategic insight behind this recovery is that the Carni position depend
 
 This technique is most effective when combined with grip breaking and upper body control. The top player must simultaneously address the heel exposure threat while generating sufficient forward drive to collapse the entanglement structure. Success requires patience and methodical execution rather than explosive movement, as rushing creates the angular changes that the bottom player needs to advance to the saddle or take the back.
 
-**From Position**: [[Carni]] (Top)
+**From Position**: [[Positions/Rubber Guard/Carni]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ This technique is most effective when combined with grip breaking and upper body
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Failure | [[Carni]] | 30% |
-| Counter | [[Saddle]] | 20% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Failure | [[Positions/Rubber Guard/Carni]] | 30% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 20% |
 
 
 </section>
@@ -191,23 +191,23 @@ Posture Recovery from Carni serves as a critical safety valve within the broader
 ## Related Techniques
 
 
-- [[Carni]] - Starting position - the leg entanglement this technique escapes from
+- [[Positions/Rubber Guard/Carni]] - Starting position - the leg entanglement this technique escapes from
 
-- [[Closed Guard]] - Target position - primary destination after successful posture recovery
+- [[Positions/Closed Guard]] - Target position - primary destination after successful posture recovery
 
-- [[Saddle]] - Counter threat - position opponent advances to if recovery is poorly timed
+- [[Positions/Ashi Garami/Saddle]] - Counter threat - position opponent advances to if recovery is poorly timed
 
-- [[Ashi Garami]] - Related entanglement family - similar defensive principles apply
+- [[Positions/Ashi Garami]] - Related entanglement family - similar defensive principles apply
 
-- [[Combat Base]] - Alternative recovery target - can establish stable base after extraction
+- [[Positions/Combat Base]] - Alternative recovery target - can establish stable base after extraction
 
-- [[Stack Pass from Carni]] - Alternative technique - uses similar forward pressure mechanics with passing intent
+- [[Transitions/Stack Pass from Carni]] - Alternative technique - uses similar forward pressure mechanics with passing intent
 
-- [[Inside Ashi-Garami]] - Related leg entanglement - recovery principles transfer between positions
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement - recovery principles transfer between positions
 
-- [[Heel Hook Defense Escape]] - Prerequisite skill - must protect heel while recovering posture
+- [[Transitions/Heel Hook Defense Escape]] - Prerequisite skill - must protect heel while recovering posture
 
-- [[Outside Ashi-Garami]] - Related entanglement position sharing defensive methodology
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related entanglement position sharing defensive methodology
 
 
 </section>

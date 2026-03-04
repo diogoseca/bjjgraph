@@ -208,29 +208,29 @@ Understanding the position's risks is equally important. The primary danger is n
 
 ## Available Escapes
 
-### [[Frame and Shrimp to Guard]] (68% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (68% of attempts)
 
-### [[Deep Half Entry]] (12% of attempts)
+### [[Transitions/Deep Half Entry]] (12% of attempts)
 
-### [[Elbow Escape to Guard]] (12% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (12% of attempts)
 
-### [[Lockdown Recovery]] (4% of attempts)
+### [[Transitions/Lockdown Recovery]] (4% of attempts)
 
-### [[Underhook Sweep from Half]] (2% of attempts)
+### [[Transitions/Underhook Sweep from Half]] (2% of attempts)
 
-### [[Old School Sweep]] (1% of attempts)
+### [[Transitions/Old School Sweep]] (1% of attempts)
 
-### [[Underhook Recovery from Flattened]] (0% of attempts)
+### [[Transitions/Underhook Recovery from Flattened]] (0% of attempts)
 
-### [[Granby Roll to Guard]] (0% of attempts)
+### [[Transitions/Granby Roll to Guard]] (0% of attempts)
 
-### [[Deep Half Entry from Flattened]] (0% of attempts)
+### [[Transitions/Deep Half Entry from Flattened]] (0% of attempts)
 
-### [[Elbow Escape from Flattened Half]] (0% of attempts)
+### [[Transitions/Elbow Escape from Flattened Half]] (0% of attempts)
 
-### [[Recover Knee Shield from Flattened Half]] (0% of attempts)
+### [[Transitions/Recover Knee Shield from Flattened Half]] (0% of attempts)
 
-### [[Reversal from Flattened Half Guard]] (1% of attempts)
+### [[Transitions/Reversal from Flattened Half Guard]] (1% of attempts)
 
 
 
@@ -241,18 +241,18 @@ Understanding the position's risks is equally important. The primary danger is n
 ## Decision Making from This Position
 
 **If opponent has crossface but you maintain underhook on far side:**
-- Execute **[[Frame and Shrimp to Guard]]** → [[Knee Shield Half Guard]] (Probability: 45%)
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If opponent controls both crossface and underhook with heavy chest pressure:**
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 30%)
-- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 35%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 30%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 35%)
 
 
 **If opponent posts hand or shifts weight to advance passing sequence:**
-- Execute **[[Elbow Escape to Guard]]** → [[Knee Shield Half Guard]] (Probability: 50%)
-- Execute **[[Frame and Shrimp to Guard]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 50%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 
@@ -374,13 +374,13 @@ Begin flattened with partner controlling crossface. Fight to establish underhook
 
 ## Related Positions and Techniques
 
-- **[[Half Guard]]** - Parent position with active frames that flattened half guard attempts to recover to
-- **[[Knee Shield Half Guard]]** - Primary target position for frame recovery from flattened half guard
-- **[[Deep Half Guard]]** - Alternative recovery position accessible by diving under opponent's hips when flattened
-- **[[Frame and Shrimp to Guard]]** - Fundamental movement technique enabling space creation while under pressure
-- **[[Elbow Escape to Guard]]** - Core defensive movement for re-establishing structure from collapsed positions
-- **[[Lockdown]]** - Leg control system that can stabilize flattened position and create sweep opportunities
-- **[[Old School Sweep]]** - Sweep option accessible when recovering underhook from flattened position
+- **[[Positions/Half Guard]]** - Parent position with active frames that flattened half guard attempts to recover to
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Primary target position for frame recovery from flattened half guard
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative recovery position accessible by diving under opponent's hips when flattened
+- **[[Transitions/Frame and Shrimp to Guard]]** - Fundamental movement technique enabling space creation while under pressure
+- **[[Transitions/Elbow Escape to Guard]]** - Core defensive movement for re-establishing structure from collapsed positions
+- **[[Positions/Half Guard/Lockdown]]** - Leg control system that can stabilize flattened position and create sweep opportunities
+- **[[Transitions/Old School Sweep]]** - Sweep option accessible when recovering underhook from flattened position
 
 
 </section>

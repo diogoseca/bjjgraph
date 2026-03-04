@@ -180,7 +180,7 @@ description: "How to execute Closed Guard to Omoplata in BJJ. Attacking perspect
 
 The transition to omoplata is a fundamental shoulder lock entry that exploits the opponent's defensive posture and arm positioning from guard. This technique combines elements of sweeping mechanics with submission attacks, creating a powerful dual threat that forces opponents into defensive dilemmas. The omoplata transition is particularly effective when opponents defend against triangle or armbar attempts, as their arm positioning naturally sets up the shoulder lock entry. The beauty of this transition lies in its versatility - it can be executed from closed guard, spider guard, rubber guard, and various open guard configurations, making it an essential component of any guard player's arsenal. The technique relies on controlling the opponent's arm at the shoulder and using leg positioning to create rotational pressure on the shoulder joint while simultaneously off-balancing them for potential sweeps.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Omoplata Control]] | 60% |
-| Failure | [[Closed Guard]] | 30% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Omoplata Control]] | 60% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -245,11 +245,11 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 
 ## Opponent Counters
 
-- **Opponent rolls forward to escape shoulder pressure** (Effectiveness: High) - Your Response: Follow their roll and take back control, securing seat belt grip as they give up their back. Alternatively, use their momentum to complete a sweep to mount position. → Leads to [[Omoplata Control]]
-- **Opponent withdraws their arm before leg is secured** (Effectiveness: High) - Your Response: Immediately transition to triangle setup by bringing your other leg across their face, or switch to arm drag and take their back. Their withdrawal creates space for alternative attacks. → Leads to [[Closed Guard]]
-- **Opponent maintains strong posture and prevents angle creation** (Effectiveness: Medium) - Your Response: Use grip breaks and hip bump movements to disrupt their base, then reestablish angle. Consider alternative attacks like hip bump sweep or kimura to force defensive reactions. → Leads to [[Closed Guard]]
-- **Opponent stacks you by driving forward** (Effectiveness: Medium) - Your Response: Invert and roll through to technical mount position, or release and use their forward pressure to execute pendulum sweep. Never allow yourself to be stacked completely flat. → Leads to [[Open Guard]]
-- **Opponent grabs their own gi or belt to prevent arm extension** (Effectiveness: Low) - Your Response: Focus on the sweep component rather than the submission, using hip rotation to off-balance them. Once on top, you can break their defensive grip and reattack the shoulder lock. → Leads to [[Omoplata Control]]
+- **Opponent rolls forward to escape shoulder pressure** (Effectiveness: High) - Your Response: Follow their roll and take back control, securing seat belt grip as they give up their back. Alternatively, use their momentum to complete a sweep to mount position. → Leads to [[Positions/Omoplata Control]]
+- **Opponent withdraws their arm before leg is secured** (Effectiveness: High) - Your Response: Immediately transition to triangle setup by bringing your other leg across their face, or switch to arm drag and take their back. Their withdrawal creates space for alternative attacks. → Leads to [[Positions/Closed Guard]]
+- **Opponent maintains strong posture and prevents angle creation** (Effectiveness: Medium) - Your Response: Use grip breaks and hip bump movements to disrupt their base, then reestablish angle. Consider alternative attacks like hip bump sweep or kimura to force defensive reactions. → Leads to [[Positions/Closed Guard]]
+- **Opponent stacks you by driving forward** (Effectiveness: Medium) - Your Response: Invert and roll through to technical mount position, or release and use their forward pressure to execute pendulum sweep. Never allow yourself to be stacked completely flat. → Leads to [[Positions/Open Guard]]
+- **Opponent grabs their own gi or belt to prevent arm extension** (Effectiveness: Low) - Your Response: Focus on the sweep component rather than the submission, using hip rotation to off-balance them. Once on top, you can break their defensive grip and reattack the shoulder lock. → Leads to [[Positions/Omoplata Control]]
 
 
 </section>

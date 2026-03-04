@@ -210,27 +210,27 @@ Mastery of Side Control Consolidation Top separates intermediate from advanced p
 
 ## Available Attacks
 
-### [[Side Control to Mount]] (31% of attempts)
+### [[Transitions/Side Control to Mount]] (31% of attempts)
 
-### [[Side Control to North-South]] (10% of attempts)
+### [[Transitions/Side Control to North-South]] (10% of attempts)
 
-### [[Knee on Belly]] (14% of attempts)
+### [[Positions/Knee on Belly]] (14% of attempts)
 
-### [[Kimura]] (9% of attempts)
+### [[Transitions/Kimura]] (9% of attempts)
 
-### [[Americana]] (8% of attempts)
+### [[Transitions/Americana]] (8% of attempts)
 
-### [[Arm Triangle]] (8% of attempts)
+### [[Transitions/Arm Triangle]] (8% of attempts)
 
-### [[Armbar Finish]] (7% of attempts)
+### [[Transitions/Armbar Finish]] (7% of attempts)
 
-### [[North-South Choke]] (6% of attempts)
+### [[Transitions/North-South Choke]] (6% of attempts)
 
-### [[Consolidation to Knee on Belly]] (3% of attempts)
+### [[Transitions/Consolidation to Knee on Belly]] (3% of attempts)
 
-### [[Consolidation to Mount]] (2% of attempts)
+### [[Transitions/Consolidation to Mount]] (2% of attempts)
 
-### [[Ezekiel from Side Control Consolidation]] (2% of attempts)
+### [[Submissions/Ezekiel from Side Control Consolidation]] (2% of attempts)
 
 
 
@@ -241,26 +241,26 @@ Mastery of Side Control Consolidation Top separates intermediate from advanced p
 ## Decision Making from This Position
 
 **If opponent maintains tight defensive posture with strong frames and active hip movement:**
-- Execute **[[Pressure Maintenance]]** → [[Side Control Consolidation]] (Probability: 70%)
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 60%)
-- Execute **[[Americana]]** → [[Americana]] (Probability: 45%)
+- Execute **[[Pressure Maintenance]]** → [[Positions/Side Control/Side Control Consolidation]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 60%)
+- Execute **[[Transitions/Americana]]** → [[Transitions/Americana]] (Probability: 45%)
 
 
 **If opponent begins to flatten and frames start collapsing from sustained pressure:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 75%)
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 65%)
-- Execute **[[Arm Triangle]]** → [[Arm Triangle]] (Probability: 60%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 75%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 65%)
+- Execute **[[Transitions/Arm Triangle]]** → [[Transitions/Arm Triangle]] (Probability: 60%)
 
 
 **If opponent turns into you attempting to recover guard position:**
-- Execute **[[Knee on Belly]]** → [[Knee on Belly]] (Probability: 80%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 70%)
+- Execute **[[Positions/Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 80%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
 
 
 **If opponent attempts explosive bridge or hip escape creating temporary space:**
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 85%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 85%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 
@@ -399,15 +399,15 @@ Start in early side control with opponent maintaining defensive posture. Top par
 
 ## Related Positions and Techniques
 
-- **[[Side Control]]** - Parent position - initial achievement before consolidation phase
-- **[[Mount]]** - Primary advancement target from consolidated side control
-- **[[North-South]]** - Alternative advancement maintaining pressure-based control
-- **[[Knee on Belly]]** - Dynamic transition option when opponent turns into you
-- **[[Kesa Gatame]]** - Alternative side control variation with head control
+- **[[Positions/Side Control]]** - Parent position - initial achievement before consolidation phase
+- **[[Positions/Mount]]** - Primary advancement target from consolidated side control
+- **[[Positions/North-South]]** - Alternative advancement maintaining pressure-based control
+- **[[Positions/Knee on Belly]]** - Dynamic transition option when opponent turns into you
+- **[[Positions/Side Control/Kesa Gatame]]** - Alternative side control variation with head control
 - **[[Side Control Consolidation Bottom]]** - Opposite perspective - defensive counterpart position
-- **[[Kimura Trap]]** - Primary submission control option from consolidated position
-- **[[Americana from Side Control]]** - High-percentage submission when near arm isolated
-- **[[Arm Triangle]]** - Choke attack when opponent brings arm across
+- **[[Positions/Kimura Trap]]** - Primary submission control option from consolidated position
+- **[[Submissions/Americana from Side Control]]** - High-percentage submission when near arm isolated
+- **[[Transitions/Arm Triangle]]** - Choke attack when opponent brings arm across
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Complete guide to executing the Crossface from Dogfight as the top
 
 As the attacker executing the Crossface from Dogfight, your primary objective is to use your shoulder and forearm as a wedge driven across the opponent's face to destroy their upright posture and flatten them back to the mat. This technique is your most direct tool against the dogfight position, converting an unstable scramble into a controlled passing sequence. The crossface works by attacking the opponent's head position—when the head turns, the body follows, and the underhook loses its structural power. Combined with whizzer control on the underhook arm and heavy hip pressure, the crossface creates a systematic breakdown that progresses from postural disruption to complete flattening to pass completion. Success requires commitment to forward pressure, proper timing, and the discipline to maintain the crossface throughout the entire sequence rather than abandoning it prematurely to chase the pass.
 
-**From Position**: [[Dogfight Position]] (Top)
+**From Position**: [[Positions/Dogfight Position]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Crossface from Dogfight, your primary objective is
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Dogfight Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Dogfight Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Crossface from Dogfight, your primary objective is
 
 ## Opponent Counters
 
-- **Opponent deepens underhook and drives forward explosively before crossface is established** (Effectiveness: High) - Your Response: If the opponent beats you to the forward drive, abandon the crossface attempt and focus on maintaining whizzer control. Post your free hand to prevent being swept and look to re-establish the crossface when their momentum stalls. → Leads to [[Dogfight Position]]
-- **Opponent ducks under the crossface and circles behind for a back take** (Effectiveness: High) - Your Response: If the opponent drops their level under your crossface, immediately sprawl your hips back and turn to face them. Pummel your arm inside to prevent the seatbelt grip and fight to re-square your hips before they can establish hooks. → Leads to [[Half Guard]]
-- **Opponent frames against your crossfacing shoulder with their free hand to create distance** (Effectiveness: Medium) - Your Response: Swim your crossface arm inside the opponent's frame to bypass the stiff arm. Alternatively, attack the framing arm with a kimura grip if it extends too far, converting their defensive reaction into a submission opportunity. → Leads to [[Dogfight Position]]
-- **Opponent sits back to knee shield or pulls half guard before crossface fully connects** (Effectiveness: Medium) - Your Response: Follow the opponent down immediately with heavy chest pressure. If they recover knee shield, transition to a smash pass or knee slice pass rather than attempting to re-establish dogfight. The partial crossface has already disrupted their posture. → Leads to [[Dogfight Position]]
+- **Opponent deepens underhook and drives forward explosively before crossface is established** (Effectiveness: High) - Your Response: If the opponent beats you to the forward drive, abandon the crossface attempt and focus on maintaining whizzer control. Post your free hand to prevent being swept and look to re-establish the crossface when their momentum stalls. → Leads to [[Positions/Dogfight Position]]
+- **Opponent ducks under the crossface and circles behind for a back take** (Effectiveness: High) - Your Response: If the opponent drops their level under your crossface, immediately sprawl your hips back and turn to face them. Pummel your arm inside to prevent the seatbelt grip and fight to re-square your hips before they can establish hooks. → Leads to [[Positions/Half Guard]]
+- **Opponent frames against your crossfacing shoulder with their free hand to create distance** (Effectiveness: Medium) - Your Response: Swim your crossface arm inside the opponent's frame to bypass the stiff arm. Alternatively, attack the framing arm with a kimura grip if it extends too far, converting their defensive reaction into a submission opportunity. → Leads to [[Positions/Dogfight Position]]
+- **Opponent sits back to knee shield or pulls half guard before crossface fully connects** (Effectiveness: Medium) - Your Response: Follow the opponent down immediately with heavy chest pressure. If they recover knee shield, transition to a smash pass or knee slice pass rather than attempting to re-establish dogfight. The partial crossface has already disrupted their posture. → Leads to [[Positions/Dogfight Position]]
 
 
 </section>

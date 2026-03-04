@@ -182,7 +182,7 @@ description: "Execute the Americana shoulder lock from Technical Mount. Step-by-
 
 The Americana from Technical Mount leverages the asymmetric leg positioning to create superior arm isolation and wrist pinning compared to standard mount attacks. The stepped leg pins the opponent's shoulder line while the attacker's weight naturally drives into the trapped arm side, making it significantly easier to establish and maintain the wrist-to-mat connection required for the figure-four grip. The posted leg provides base stability throughout the finishing sequence, allowing full commitment to the submission without risking position loss. This variation is most commonly available when the opponent bends their near arm defensively against armbar threats, making it the natural counterpart in the technical mount submission chain where extending the arm invites the armbar and bending it opens the Americana.
 
-**From Position**: [[Technical Mount]] (Top)
+**From Position**: [[Positions/Mount/Technical Mount]] (Top)
 
 
 </section>
@@ -236,9 +236,9 @@ The Americana from Technical Mount leverages the asymmetric leg positioning to c
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Technical Mount]] | 30% |
-| Failure | [[Mount]] | 15% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Mount/Technical Mount]] | 30% |
+| Failure | [[Positions/Mount]] | 15% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -247,10 +247,10 @@ The Americana from Technical Mount leverages the asymmetric leg positioning to c
 
 ## Opponent Defenses
 
-- **Opponent straightens arm to prevent figure-four establishment by extending the elbow** (Effectiveness: Medium) - Your Response: Immediately transition to armbar—the straightened arm is the exact configuration needed for the armbar from technical mount. Flow directly into the armbar setup without releasing wrist control. → Leads to [[Technical Mount]]
-- **Opponent grabs own belt, pants, or gi lapel to anchor the wrist and prevent rotation** (Effectiveness: High) - Your Response: Use your knee or shin to wedge between their gripping hand and the anchor point, breaking the defensive grip. Alternatively, switch to a high-elbow variation by driving their elbow higher before rotating to change the angle of attack. → Leads to [[Technical Mount]]
-- **Opponent bridges explosively toward the posted leg side to disrupt base and create space** (Effectiveness: Medium) - Your Response: Ride the bridge by staying heavy on your inside leg and maintaining wrist control. If the bridge is powerful enough to compromise your base, transition to standard mount while retaining the figure-four grip and continue the Americana from mount. → Leads to [[Mount]]
-- **Opponent turns to knees and attempts to scramble out during the grip transition** (Effectiveness: Medium) - Your Response: Follow the turn and immediately transition to back control, releasing the Americana grip in favor of establishing seat belt control and hooks. The opponent turning away from technical mount creates one of the highest percentage back take opportunities. → Leads to [[Half Guard]]
+- **Opponent straightens arm to prevent figure-four establishment by extending the elbow** (Effectiveness: Medium) - Your Response: Immediately transition to armbar—the straightened arm is the exact configuration needed for the armbar from technical mount. Flow directly into the armbar setup without releasing wrist control. → Leads to [[Positions/Mount/Technical Mount]]
+- **Opponent grabs own belt, pants, or gi lapel to anchor the wrist and prevent rotation** (Effectiveness: High) - Your Response: Use your knee or shin to wedge between their gripping hand and the anchor point, breaking the defensive grip. Alternatively, switch to a high-elbow variation by driving their elbow higher before rotating to change the angle of attack. → Leads to [[Positions/Mount/Technical Mount]]
+- **Opponent bridges explosively toward the posted leg side to disrupt base and create space** (Effectiveness: Medium) - Your Response: Ride the bridge by staying heavy on your inside leg and maintaining wrist control. If the bridge is powerful enough to compromise your base, transition to standard mount while retaining the figure-four grip and continue the Americana from mount. → Leads to [[Positions/Mount]]
+- **Opponent turns to knees and attempts to scramble out during the grip transition** (Effectiveness: Medium) - Your Response: Follow the turn and immediately transition to back control, releasing the Americana grip in favor of establishing seat belt control and hooks. The opponent turning away from technical mount creates one of the highest percentage back take opportunities. → Leads to [[Positions/Half Guard]]
 
 
 </section>

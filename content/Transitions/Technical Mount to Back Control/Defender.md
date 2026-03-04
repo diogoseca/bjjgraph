@@ -154,7 +154,7 @@ description: "Defend the Technical Mount to Back Control transition in BJJ. Reco
 
 From the defender's perspective, preventing the Technical Mount to Back Control transition is critical because back control represents the single most dangerous position in BJJ with the highest submission finishing rates. The primary challenge is that your natural instinct to turn away from the armbar threat in Technical Mount is exactly what your opponent needs to take your back. Effective defense requires understanding this dilemma and choosing defensive responses that address the armbar without blindly exposing your back. When the back take is already in progress, your defensive window is extremely narrow—you must act before hooks are inserted and seatbelt is fully established, focusing on preventing upper body control and creating scramble opportunities rather than passively accepting back control.
 
-**Opponent's Starting Position**: [[Technical Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/Technical Mount]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ From the defender's perspective, preventing the Technical Mount to Back Control 
 ### 1. Stop the turn and re-square shoulders to the mat immediately upon feeling the opponent begin to follow
 
 - **When to use**: As soon as you sense the opponent shifting from armbar attack to back take—before they have released arm control or begun hook conversion
-- **Targets**: [[Technical Mount]]
+- **Targets**: [[Positions/Mount/Technical Mount]]
 - **If successful**: Forces the opponent back into standard Technical Mount where you can resume normal escape protocols. The armbar threat returns but is preferable to giving up back control.
 - **Risk**: You remain in Technical Mount bottom with the arm still exposed to armbar attack. The opponent may simply re-threaten the armbar to force you to turn again.
 
 ### 2. Frame against opponent's hip with your free arm and execute explosive hip escape to create distance during the transition
 
 - **When to use**: When the opponent has committed to following your turn and their weight is shifting laterally, creating momentary instability in their base
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Create enough separation to insert your knee and recover half guard, reversing the positional exchange so the opponent falls to half guard bottom
 - **Risk**: If the frame fails or is too late, the opponent closes distance with seatbelt and your arm is now out of defensive position, accelerating the back take
 
 ### 3. Fight the seatbelt arm with two-on-one grip immediately upon feeling the arm thread over your shoulder
 
 - **When to use**: When the opponent has begun the seatbelt but has not yet clasped their hands or fully secured the grip
-- **Targets**: [[Technical Mount]]
+- **Targets**: [[Positions/Mount/Technical Mount]]
 - **If successful**: Prevents the seatbelt from locking, keeping the opponent's upper body control incomplete and making their back control unstable enough to escape or force a position reset
 - **Risk**: Both hands occupied on the seatbelt arm leaves your lower body undefended, allowing the opponent to secure deep hooks while you fight the upper body control
 
 ### 4. Turn aggressively all the way through to face the opponent before hooks and seatbelt are established
 
 - **When to use**: When the opponent is slow to follow your rotation or has not yet converted the posted leg to a hook, giving you time to complete a full turn
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You complete the rotation to face the opponent, denying back exposure entirely and recovering to half guard or closed guard with the ability to play an offensive guard game
 - **Risk**: If the opponent follows quickly with seatbelt, your aggressive turn accelerates the back take rather than preventing it. Only viable when there is a genuine speed advantage.
 
@@ -225,11 +225,11 @@ From the defender's perspective, preventing the Technical Mount to Back Control 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a hip escape or bridge during the opponent's rotation. As they commit to following your turn and lift their base to transition, the momentary instability creates an opening. Shrimp your hips hard away from them, insert your bottom knee between your bodies as a frame, and fight to recover half guard top position while they fall to half guard bottom. The key window is after they have abandoned Technical Mount base but before they have secured seatbelt and both hooks.
 
-### → [[Technical Mount]]
+### → [[Positions/Mount/Technical Mount]]
 
 Deny the back take by refusing to complete the turn that exposes your back. The moment you feel the opponent begin to follow your shoulder rotation, immediately stop turning and re-square your shoulders to the mat. Pull your elbows tight to your ribs and tuck your chin to the opposite shoulder. By refusing to complete the turn, you force the opponent back into Technical Mount where standard escape protocols apply. While Technical Mount bottom is still disadvantageous, it is significantly safer than back control.
 

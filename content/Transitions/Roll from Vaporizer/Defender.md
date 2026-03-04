@@ -140,7 +140,7 @@ description: "Learn to defend the Roll from Vaporizer in BJJ. Recognition cues, 
 
 As the defender—the top player in the Vaporizer—your goal is to prevent the bottom player from successfully rolling to turtle and continuing their offensive chain toward truck entries and back attacks. The Roll from Vaporizer is typically employed when you have successfully defended the primary Vaporizer attacks (Electric Chair and Old School sweep), making it a somewhat predictable transition. Recognizing the setup cues early allows you to shut down the roll before it develops, either maintaining the current Vaporizer configuration where you can continue working your lockdown escape, or capitalizing on the failed roll attempt to improve your own position significantly. The most effective defensive strategy combines early recognition with heavy weight distribution and underhook control rather than reactive scrambling after the roll is already in motion.
 
-**Opponent's Starting Position**: [[Vaporizer]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Vaporizer]] (Bottom)
 
 </section>
 
@@ -178,21 +178,21 @@ As the defender—the top player in the Vaporizer—your goal is to prevent the 
 ### 1. Sprawl and drive weight down to compress the opponent and prevent rotational momentum from developing
 
 - **When to use**: When you feel the lockdown loosening and the opponent's hips beginning to rotate forward in the earliest phase of the roll initiation
-- **Targets**: [[Vaporizer]]
+- **Targets**: [[Positions/Vaporizer]]
 - **If successful**: The roll stalls and the bottom player remains in Vaporizer position with a partially compromised lockdown, creating a window for you to advance your lockdown escape
 - **Risk**: If you sprawl too aggressively with forward-committed weight, you may actually fuel the roll by providing the exact forward momentum the bottom player needs
 
 ### 2. Follow the roll closely while establishing seatbelt control and preparing to insert hooks as the opponent arrives in turtle
 
 - **When to use**: When the roll is already in motion and past the point where sprawling can prevent it—the opponent has committed and has rotational momentum
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You arrive on the opponent's back as they complete the roll with seatbelt already established, converting their offensive transition into your back control opportunity
 - **Risk**: If you do not follow tightly enough, the opponent reaches turtle with space and time to continue their offensive chain toward crab ride or truck entries
 
 ### 3. Disengage completely by stripping the underhook and creating distance during the rolling transition to reset to neutral guard engagement
 
 - **When to use**: When you are partially caught in the roll but can extract your arm from their underhook and separate before they complete the transition
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You escape the Vaporizer entirely and re-engage from open guard top with full passing options, having completely neutralized the lockdown system
 - **Risk**: You surrender any guard passing progress you had established and must restart the entire passing sequence from neutral
 
@@ -204,11 +204,11 @@ As the defender—the top player in the Vaporizer—your goal is to prevent the 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Vaporizer]]
+### → [[Positions/Vaporizer]]
 
 Recognize the roll setup cues early—the lockdown loosening combined with underhook tightening—and immediately sprawl your weight downward while widening your base. Control their underhook arm with a whizzer or wrist grip to prevent them from generating rotational momentum. The earlier you detect the attempt, the easier it is to prevent and the more compromised their lockdown becomes afterward.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 If the roll is partially successful but you manage to strip their underhook grip and disengage, immediately create distance and establish open guard top stance. Strip any remaining grips, disengage your previously trapped leg from the loosened lockdown, and begin your passing sequence from a neutral position free of lockdown entanglement.
 

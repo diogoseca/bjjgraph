@@ -91,27 +91,27 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (10% of attempts)
+- **[[Transitions/Old School Sweep]]** (10% of attempts)
 
-- **[[Half Guard to Back Take]]** (9% of attempts)
+- **[[Transitions/Half Guard to Back Take]]** (9% of attempts)
 
-- **[[Underhook Sweep from Half]]** (10% of attempts)
+- **[[Transitions/Underhook Sweep from Half]]** (10% of attempts)
 
-- **[[Deep Half Entry]]** (11% of attempts)
+- **[[Transitions/Deep Half Entry]]** (11% of attempts)
 
-- **[[Rolling Back Take]]** (8% of attempts)
+- **[[Transitions/Rolling Back Take]]** (8% of attempts)
 
-- **[[Electric Chair Transition]]** (6% of attempts)
+- **[[Transitions/Electric Chair Transition]]** (6% of attempts)
 
-- **[[Knee Shield Retention]]** (33% of attempts)
+- **[[Transitions/Knee Shield Retention]]** (33% of attempts)
 
-- **[[Lockdown Recovery]]** (9% of attempts)
+- **[[Transitions/Lockdown Recovery]]** (9% of attempts)
 
-- **[[Knee Shield from Quarter Guard]]** (2% of attempts)
+- **[[Transitions/Knee Shield from Quarter Guard]]** (2% of attempts)
 
-- **[[Recover Full Guard from Quarter Guard]]** (1% of attempts)
+- **[[Transitions/Recover Full Guard from Quarter Guard]]** (1% of attempts)
 
-- **[[Sweep from Quarter Guard]]** (1% of attempts)
+- **[[Transitions/Sweep from Quarter Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -172,29 +172,29 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (28% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (28% of attempts)
 
-- **[[Smash Pass]]** (10% of attempts)
+- **[[Transitions/Smash Pass]]** (10% of attempts)
 
-- **[[Crossface Pass]]** (10% of attempts)
+- **[[Transitions/Crossface Pass]]** (10% of attempts)
 
-- **[[Underhook Pass]]** (9% of attempts)
+- **[[Transitions/Underhook Pass]]** (9% of attempts)
 
-- **[[Long Step Pass]]** (8% of attempts)
+- **[[Transitions/Long Step Pass]]** (8% of attempts)
 
-- **[[Half Guard to Back Take]]** (6% of attempts)
+- **[[Transitions/Half Guard to Back Take]]** (6% of attempts)
 
-- **[[Side Control to Mount]]** (7% of attempts)
+- **[[Transitions/Side Control to Mount]]** (7% of attempts)
 
-- **[[Side Control to North-South]]** (8% of attempts)
+- **[[Transitions/Side Control to North-South]]** (8% of attempts)
 
-- **[[Kimura]]** (6% of attempts)
+- **[[Transitions/Kimura]]** (6% of attempts)
 
-- **[[Darce Setup]]** (5% of attempts)
+- **[[Transitions/Darce Setup]]** (5% of attempts)
 
-- **[[Complete Pass from Quarter]]** (2% of attempts)
+- **[[Transitions/Complete Pass from Quarter]]** (2% of attempts)
 
-- **[[Knee Through from Quarter]]** (1% of attempts)
+- **[[Transitions/Knee Through from Quarter]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -233,25 +233,25 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 ## Related Positions
 
 
-- **[[Half Guard]]** - Parent position from which quarter guard emerges during passing sequences
+- **[[Positions/Half Guard]]** - Parent position from which quarter guard emerges during passing sequences
 
-- **[[Knee Shield Half Guard]]** - Common recovery target for bottom player or defensive structure being eliminated by top player
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Common recovery target for bottom player or defensive structure being eliminated by top player
 
-- **[[Deep Half Guard]]** - Alternative bottom player entry when opponent commits weight forward
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative bottom player entry when opponent commits weight forward
 
-- **[[Lockdown]]** - Alternative leg configuration offering submission threats from quarter guard
+- **[[Positions/Half Guard/Lockdown]]** - Alternative leg configuration offering submission threats from quarter guard
 
-- **[[Side Control]]** - Primary target position for top player when completing pass
+- **[[Positions/Side Control]]** - Primary target position for top player when completing pass
 
-- **[[Dogfight Position]]** - Similar asymmetric position with underhook emphasis but different leg configuration
+- **[[Positions/Dogfight Position]]** - Similar asymmetric position with underhook emphasis but different leg configuration
 
-- **[[Headquarters Position]]** - Related passing position where top player establishes pressure before advancing to quarter guard
+- **[[Positions/Headquarters Position]]** - Related passing position where top player establishes pressure before advancing to quarter guard
 
-- **[[Back Control]]** - High-value target for bottom player via back take sequences
+- **[[Positions/Back Control]]** - High-value target for bottom player via back take sequences
 
-- **[[Combat Base]]** - Foundational posture for top player maintaining pressure and base
+- **[[Positions/Combat Base]]** - Foundational posture for top player maintaining pressure and base
 
-- **[[Flattened Half Guard]]** - Adjacent half guard structure with similar defensive urgency for bottom player
+- **[[Positions/Half Guard/Flattened Half Guard]]** - Adjacent half guard structure with similar defensive urgency for bottom player
 
 
 </section>

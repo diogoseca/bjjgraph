@@ -178,7 +178,7 @@ The mechanical advantage of the omoplata comes from using your entire leg struct
 
 Strategically, the omoplata finish demands patience and proper setup. Rushing the submission allows opponents to roll through or posture out. The key is establishing complete control before applying finishing pressure - control their hip to prevent rolling, break their posture to prevent stacking, and create the proper perpendicular angle to maximize shoulder rotation. When all control points are secured, the finish becomes inevitable as there is no muscular defense against the rotational torque applied to the shoulder joint.
 
-**From Position**: [[Omoplata Control]] (Top)
+**From Position**: [[Positions/Omoplata Control]] (Top)
 
 </section>
 
@@ -230,8 +230,8 @@ Strategically, the omoplata finish demands patience and proper setup. Rushing th
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Omoplata Control]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Omoplata Control]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, the omoplata finish demands patience and proper setup. Rushing th
 
 ## Opponent Counters
 
-- **Forward roll before hip control is established** (Effectiveness: High) - Your Response: Follow their roll while maintaining upper body connection, transitioning to mount or back control as they rotate → Leads to [[Omoplata Control]]
-- **Posturing up strongly to relieve shoulder pressure** (Effectiveness: High) - Your Response: Increase leg pressure across their back, pull down on hip grip, or transition to omoplata sweep using their upward momentum → Leads to [[Omoplata Control]]
-- **Walking forward to stack and compress position** (Effectiveness: Medium) - Your Response: Angle your hips away from them as they stack, converting their forward pressure into increased rotational torque on the shoulder → Leads to [[Omoplata Control]]
-- **Extracting trapped arm by pulling elbow backward** (Effectiveness: Medium) - Your Response: Increase shin pressure on shoulder blade, tighten leg triangle, or transition immediately to triangle or armbar as arm begins to escape → Leads to [[Side Control]]
+- **Forward roll before hip control is established** (Effectiveness: High) - Your Response: Follow their roll while maintaining upper body connection, transitioning to mount or back control as they rotate → Leads to [[Positions/Omoplata Control]]
+- **Posturing up strongly to relieve shoulder pressure** (Effectiveness: High) - Your Response: Increase leg pressure across their back, pull down on hip grip, or transition to omoplata sweep using their upward momentum → Leads to [[Positions/Omoplata Control]]
+- **Walking forward to stack and compress position** (Effectiveness: Medium) - Your Response: Angle your hips away from them as they stack, converting their forward pressure into increased rotational torque on the shoulder → Leads to [[Positions/Omoplata Control]]
+- **Extracting trapped arm by pulling elbow backward** (Effectiveness: Medium) - Your Response: Increase shin pressure on shoulder blade, tighten leg triangle, or transition immediately to triangle or armbar as arm begins to escape → Leads to [[Positions/Side Control]]
 
 
 </section>

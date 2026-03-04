@@ -21,7 +21,7 @@ Execution requires systematic progression through several control checkpoints be
 
 The heel hook attacks the knee's ligaments through rotational force transmitted via the heel and ankle, making it one of the most dangerous techniques in grappling. The Inside Sankaku configuration provides superior breaking mechanics because the figure-four entanglement prevents the opponent from rotating with the applied force, amplifying effectiveness while limiting defensive options. This positional advantage is why Inside Sankaku remains the preferred finishing position for elite leg lock specialists in high-level competition.
 
-**From Position**: [[Inside Sankaku]] (Top)
+**From Position**: [[Positions/Inside Sankaku]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -33,8 +33,8 @@ The heel hook attacks the knee's ligaments through rotational force transmitted 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Inside Sankaku]] | 30% |
-| Counter | [[50-50 Guard]] | 20% |
+| Failure | [[Positions/Inside Sankaku]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 20% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Inside Sankaku Heel Hook sits at the apex of the modern leg lock system as t
 ## Related Techniques
 
 
-- [[Inside Sankaku]] - Source position from which this heel hook finish is executed
+- [[Positions/Inside Sankaku]] - Source position from which this heel hook finish is executed
 
-- [[Inside Heel Hook]] - The submission type being applied in this transition
+- [[Submissions/Inside Heel Hook]] - The submission type being applied in this transition
 
-- [[Inside Heel Hook from Honey Hole]] - Same submission from the alternative name position
+- [[Transitions/Inside Heel Hook from Honey Hole]] - Same submission from the alternative name position
 
-- [[Inside Sankaku Heel Hook Finish]] - Submission finish page for this technique
+- [[Submissions/Inside Sankaku Heel Hook Finish]] - Submission finish page for this technique
 
-- [[Honey Hole]] - Alternative name for the Inside Sankaku position
+- [[Positions/Ashi Garami/Honey Hole]] - Alternative name for the Inside Sankaku position
 
-- [[Saddle]] - Alternative leg entanglement for finishing when Inside Sankaku control is compromised
+- [[Positions/Ashi Garami/Saddle]] - Alternative leg entanglement for finishing when Inside Sankaku control is compromised
 
-- [[50-50 Guard]] - Counter-entangle destination when opponent successfully defends the heel hook
+- [[Positions/Ashi Garami/50-50 Guard]] - Counter-entangle destination when opponent successfully defends the heel hook
 
-- [[Heel Hook from Saddle]] - Related heel hook finish from a different leg entanglement position
+- [[Transitions/Heel Hook from Saddle]] - Related heel hook finish from a different leg entanglement position
 
-- [[Outside Heel Hook]] - Opposite heel hook variant accessible when opponent rotates defensively
+- [[Transitions/Outside Heel Hook]] - Opposite heel hook variant accessible when opponent rotates defensively
 
-- [[Outside Ashi-Garami]] - Transition target when opponent clears knee line during heel hook attempt
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Transition target when opponent clears knee line during heel hook attempt
 
-- [[Kneebar Control]] - Alternative submission option when heel remains defended
+- [[Positions/Kneebar Control]] - Alternative submission option when heel remains defended
 
 
 </section>

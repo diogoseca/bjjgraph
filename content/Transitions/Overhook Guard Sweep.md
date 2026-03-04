@@ -21,7 +21,7 @@ Strategically, the sweep functions as the primary positional threat from overhoo
 
 The technique's effectiveness relies on proper sequencing rather than explosive athleticism. The overhook must be deep before the sweep initiates, the free hand must control the opponent's opposite arm to eliminate both posting options, and the hips must create an angle before the sweeping motion begins. Practitioners who rush the sweep without completing these prerequisites consistently fail, while those who methodically establish each component achieve reliable results against resisting opponents of all sizes.
 
-**From Position**: [[Overhook Guard]] (Bottom)
+**From Position**: [[Positions/Overhook Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique's effectiveness relies on proper sequencing rather than explosive 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Overhook Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Overhook Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,23 +189,23 @@ The Overhook Guard Sweep sits at the center of the overhook guard offensive syst
 ## Related Techniques
 
 
-- [[Overhook Guard]] - Source position where the sweep is initiated from bottom guard
+- [[Positions/Overhook Guard]] - Source position where the sweep is initiated from bottom guard
 
-- [[Mount]] - Primary target position achieved on successful sweep execution
+- [[Positions/Mount]] - Primary target position achieved on successful sweep execution
 
-- [[Half Guard]] - Position reached when opponent counters sweep and partially passes guard
+- [[Positions/Half Guard]] - Position reached when opponent counters sweep and partially passes guard
 
-- [[Closed Guard]] - Parent guard system from which overhook is established
+- [[Positions/Closed Guard]] - Parent guard system from which overhook is established
 
-- [[Hip Bump Sweep]] - Complementary sweep from closed guard that chains with overhook sweep
+- [[Transitions/Hip Bump Sweep]] - Complementary sweep from closed guard that chains with overhook sweep
 
-- [[Triangle Setup]] - Chain attack when opponent posts hand to defend the sweep
+- [[Transitions/Triangle Setup]] - Chain attack when opponent posts hand to defend the sweep
 
-- [[Omoplata from Guard]] - Alternative attack accessible from the same overhook angle
+- [[Submissions/Omoplata from Guard]] - Alternative attack accessible from the same overhook angle
 
-- [[Kimura Trap]] - Related control position when overhook converts to kimura grip
+- [[Positions/Kimura Trap]] - Related control position when overhook converts to kimura grip
 
-- [[Back Control]] - Alternative target when opponent turns away during sweep defense
+- [[Positions/Back Control]] - Alternative target when opponent turns away during sweep defense
 
 
 </section>

@@ -21,7 +21,7 @@ The fundamental premise is recognizing when an opponent's inversion has progress
 
 This technique embodies a core principle of positional BJJ: accepting what the opponent gives rather than forcing techniques against strong defensive structures. An opponent who commits fully to escaping leg entanglements via inversion makes a calculated trade—they accept back exposure to eliminate leg attack danger. The practitioner who can smoothly transition to back control punishes this defensive choice with a dominant position offering numerous submission threats including rear naked choke, bow and arrow variations, and armbar attacks.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This technique embodies a core principle of positional BJJ: accepting what the o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Ushiro Ashi-Garami]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -191,25 +191,25 @@ Follow to Back Control represents a critical junction in the modern leg lock gam
 ## Related Techniques
 
 
-- [[Ushiro Ashi-Garami]] - Starting position for this transition
+- [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Starting position for this transition
 
-- [[Back Control]] - Target position upon successful completion
+- [[Positions/Back Control]] - Target position upon successful completion
 
-- [[Turtle]] - Alternative outcome if opponent completes rotation before grip establishment
+- [[Positions/Turtle]] - Alternative outcome if opponent completes rotation before grip establishment
 
-- [[Crab Ride]] - Variant approach using hip control before upper body grips
+- [[Positions/Crab Ride]] - Variant approach using hip control before upper body grips
 
-- [[Saddle]] - Alternative transition when opponent's rotation is shallow
+- [[Positions/Ashi Garami/Saddle]] - Alternative transition when opponent's rotation is shallow
 
-- [[Outside Ashi-Garami]] - Position that often precedes Ushiro Ashi-Garami in leg attack sequences
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Position that often precedes Ushiro Ashi-Garami in leg attack sequences
 
-- [[Rear Naked Choke]] - Primary submission available from established back control
+- [[Transitions/Rear Naked Choke]] - Primary submission available from established back control
 
-- [[Body Triangle Lock]] - Control consolidation option after establishing back control
+- [[Transitions/Body Triangle Lock]] - Control consolidation option after establishing back control
 
-- [[Crab Ride to Back]] - Related transition using crab ride as intermediate control
+- [[Transitions/Crab Ride to Back]] - Related transition using crab ride as intermediate control
 
-- [[Back Take from Ashi]] - Related back take transition from different ashi-garami configurations
+- [[Transitions/Back Take from Ashi]] - Related back take transition from different ashi-garami configurations
 
 
 </section>

@@ -21,7 +21,7 @@ Strategically, mastering the New York entry unlocks the entire upper chain of th
 
 The entry demands precise timing and coordination between the overhook threading motion and the maintenance of shin control. There is an inherent vulnerability during the transition when one hand must release the shin to swim the overhook, creating a brief window where the opponent can potentially escape. Managing this window through proper hip engagement, posture breaking, and timing is what separates reliable entries from failed attempts that result in complete guard loss.
 
-**From Position**: [[Rubber Guard]] (Bottom)
+**From Position**: [[Positions/Rubber Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The entry demands precise timing and coordination between the overhook threading
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[New York]] | 55% |
-| Failure | [[Rubber Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/New York]] | 55% |
+| Failure | [[Positions/Rubber Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -193,29 +193,29 @@ The New York Entry from Rubber Guard occupies a pivotal position in the 10th Pla
 ## Related Techniques
 
 
-- [[Rubber Guard]] - Source position from which this transition begins
+- [[Positions/Rubber Guard]] - Source position from which this transition begins
 
-- [[New York]] - Target position reached on successful entry
+- [[Positions/Rubber Guard/New York]] - Target position reached on successful entry
 
-- [[Mission Control]] - Primary sub-position from which overhook threading initiates
+- [[Positions/Rubber Guard/Mission Control]] - Primary sub-position from which overhook threading initiates
 
-- [[Mission Control Entry from Rubber Guard]] - Related transition that establishes the prerequisite position for New York entry
+- [[Transitions/Mission Control Entry from Rubber Guard]] - Related transition that establishes the prerequisite position for New York entry
 
-- [[New York to Invisible Collar]] - Primary follow-up transition from the target position
+- [[Transitions/New York to Invisible Collar]] - Primary follow-up transition from the target position
 
-- [[Invisible Collar]] - Advanced choke setup position accessible after reaching New York
+- [[Positions/Rubber Guard/Invisible Collar]] - Advanced choke setup position accessible after reaching New York
 
-- [[Carni]] - Omoplata attack position accessible through New York rotation
+- [[Positions/Rubber Guard/Carni]] - Omoplata attack position accessible through New York rotation
 
-- [[Chill Dog]] - Gogoplata finishing position accessible through New York progression
+- [[Positions/Rubber Guard/Chill Dog]] - Gogoplata finishing position accessible through New York progression
 
-- [[Crackhead Control Entry]] - Alternative Rubber Guard progression path from Mission Control
+- [[Transitions/Crackhead Control Entry]] - Alternative Rubber Guard progression path from Mission Control
 
-- [[Closed Guard]] - Fallback position if Rubber Guard is lost during entry attempt
+- [[Positions/Closed Guard]] - Fallback position if Rubber Guard is lost during entry attempt
 
-- [[Triangle Control]] - Submission opportunity created when overhook attempt draws arm free
+- [[Positions/Triangle Control]] - Submission opportunity created when overhook attempt draws arm free
 
-- [[Omoplata Control]] - Alternative submission pathway accessible from New York system
+- [[Positions/Omoplata Control]] - Alternative submission pathway accessible from New York system
 
 
 </section>

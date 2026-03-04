@@ -186,7 +186,7 @@ description: "Execute the snap down from standing in BJJ. Step-by-step guide to 
 
 Executing the snap down from standing requires precise timing, proper grip placement, and coordinated body mechanics to break the opponent's posture and immediately secure front headlock control. The attacker must read the opponent's weight distribution and capitalize on forward momentum, combining a sharp downward pull with a retreating step to multiply the force generated. Success depends not on raw strength but on recognizing the optimal timing window when the opponent's head extends past their base, making the snap down virtually irresistible regardless of size or strength differences. The technique rewards patience in the grip fighting phase and explosive commitment once the proper moment arrives.
 
-**From Position**: [[Standing Position]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ Executing the snap down from standing requires precise timing, proper grip place
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Front Headlock]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ Executing the snap down from standing requires precise timing, proper grip place
 
 ## Opponent Counters
 
-- **Opponent maintains strong posture and actively circles away from the pull direction** (Effectiveness: High) - Your Response: Follow their circular movement and re-establish the collar tie from the new angle. Chain to a secondary attack such as an arm drag or level change for an ankle pick, using their lateral movement against them. → Leads to [[Standing Position]]
-- **Opponent level changes and shoots a takedown underneath the snap attempt** (Effectiveness: Medium) - Your Response: Sprawl immediately by driving your hips down and back to stuff the shot. Use the existing head control to redirect their shot offline and re-establish front headlock control from the sprawl position. → Leads to [[Open Guard]]
-- **Opponent posts a hand firmly on your hip or chest and frames to resist the posture break** (Effectiveness: High) - Your Response: Strip the posting hand with your free hand using a sharp wrist peel, or redirect the snap angle diagonally rather than straight down to bypass their frame. Alternatively, use the post as leverage to circle to their back. → Leads to [[Standing Position]]
-- **Opponent sits to guard preemptively when they feel the initial snap pressure** (Effectiveness: Low) - Your Response: Follow them down immediately and work to secure front headlock control before they fully establish guard grips. Their sitting motion gives you a momentary window to establish head control as they transition from standing to seated. → Leads to [[Open Guard]]
+- **Opponent maintains strong posture and actively circles away from the pull direction** (Effectiveness: High) - Your Response: Follow their circular movement and re-establish the collar tie from the new angle. Chain to a secondary attack such as an arm drag or level change for an ankle pick, using their lateral movement against them. → Leads to [[Positions/Standing Position]]
+- **Opponent level changes and shoots a takedown underneath the snap attempt** (Effectiveness: Medium) - Your Response: Sprawl immediately by driving your hips down and back to stuff the shot. Use the existing head control to redirect their shot offline and re-establish front headlock control from the sprawl position. → Leads to [[Positions/Open Guard]]
+- **Opponent posts a hand firmly on your hip or chest and frames to resist the posture break** (Effectiveness: High) - Your Response: Strip the posting hand with your free hand using a sharp wrist peel, or redirect the snap angle diagonally rather than straight down to bypass their frame. Alternatively, use the post as leverage to circle to their back. → Leads to [[Positions/Standing Position]]
+- **Opponent sits to guard preemptively when they feel the initial snap pressure** (Effectiveness: Low) - Your Response: Follow them down immediately and work to secure front headlock control before they fully establish guard grips. Their sitting motion gives you a momentary window to establish head control as they transition from standing to seated. → Leads to [[Positions/Open Guard]]
 
 
 </section>

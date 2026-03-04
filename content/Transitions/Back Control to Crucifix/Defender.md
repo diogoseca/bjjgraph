@@ -156,7 +156,7 @@ Defending the back control to crucifix transition requires early recognition and
 
 The defensive framework operates on three principles: deny the arm extension that enables entry, prevent the knee from crossing over the arm, and extract the trapped arm before the far arm is captured. Defenders who keep their elbows tight to their body and avoid overcommitting both hands to choke defense significantly reduce the attacker's crucifix opportunities. When the entry has already begun, explosive hip movement and immediate arm retraction represent the last reliable escape windows before full consolidation makes escape primarily a matter of incremental micro-adjustments rather than decisive positional recovery.
 
-**Opponent's Starting Position**: [[Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The defensive framework operates on three principles: deny the arm extension tha
 ### 1. Clamp elbow tight to ribcage and tuck arm before knee can cross over
 
 - **When to use**: Immediately when you feel the top hook being removed or the knee rising toward your shoulder
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Attacker cannot insert knee over the arm and must return to standard back control with hooks, resetting the attack
 - **Risk**: If you commit both hands to blocking the knee, your neck becomes exposed to immediate choke attack
 
 ### 2. Bridge and roll toward the side where the top hook was removed, turning into the attacker
 
 - **When to use**: During the transition phase when attacker has removed the top hook but has not yet secured the shin across the arm
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You face the attacker and can begin working to recover guard or at minimum prevent crucifix consolidation
 - **Risk**: If bottom hook is deep, the roll may fail and you expose your back further while wasting energy
 
 ### 3. Explosive hip escape away from the trapping knee combined with immediate arm retraction
 
 - **When to use**: When the shin has begun to cross but has not fully settled and locked into the figure-four configuration
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: The arm slides free from the partially established shin trap and you return to standard back control bottom position
 - **Risk**: Explosive movement may tire you quickly if unsuccessful, and the attacker may use the space to secure the far arm faster
 
 ### 4. Use free hand to push against attacker's trapping knee, creating space to withdraw the near arm
 
 - **When to use**: When the shin is across the arm but the far arm has not yet been captured, and you still have one hand available
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Near arm slides free from the weakened shin trap and you return to defending standard back control
 - **Risk**: Removing your hand from neck defense to push the knee exposes you to immediate choke if attacker adjusts
 
@@ -227,11 +227,11 @@ The defensive framework operates on three principles: deny the arm extension tha
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Prevent crucifix consolidation by keeping elbows tight, denying knee insertion, or extracting the trapped arm before the far arm is captured. Any successful disruption of the crucifix sequence returns you to standard back control bottom, which is still a bad position but has significantly more escape options and lower submission rates than established crucifix.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 If the crucifix is partially established but you manage to reverse or roll to a position where the attacker loses their back angle, you may end up on top in back control or in a scramble. This requires explosive movement during the transition phase when the attacker's base is compromised from hook removal and weight shifting.
 

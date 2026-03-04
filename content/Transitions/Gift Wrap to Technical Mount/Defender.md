@@ -158,7 +158,7 @@ The critical defensive window occurs during the rotation phase, before the attac
 
 The most favorable defensive outcomes involve either preventing the mount transition entirely (staying in Gift Wrap back control where escape sequences remain available) or intercepting the knee with a half guard hook to recover a guard position. Even achieving half guard with one arm trapped represents a significant defensive success, as the guard framework provides sweep and recovery options that mount does not. Defenders must accept that the arm trap may persist through the defense and focus on preventing the positional advancement rather than simultaneously recovering the arm.
 
-**Opponent's Starting Position**: [[Gift Wrap]] (Top)
+**Opponent's Starting Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ The most favorable defensive outcomes involve either preventing the mount transi
 ### 1. Frame with free arm and knee against the transitioning knee to block hip clearance
 
 - **When to use**: As soon as the far hook disengages and you feel the attacker beginning to guide rotation toward mount
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Attacker cannot clear knee past hip line and must reset to Gift Wrap back control position
 - **Risk**: Extended framing arm becomes vulnerable to armbar if attacker abandons mount transition and attacks the frame
 
 ### 2. Insert bottom knee as a shield across the attacker's hip to recover half guard
 
 - **When to use**: During the rotation phase when attacker's knee is approaching but has not yet fully cleared your hip line
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover half guard position where sweep and escape options become available despite arm trap
 - **Risk**: If timing is late, the knee insertion fails and attacker consolidates full technical mount with arm trap intact
 
 ### 3. Explosively bridge and shrimp away during hook removal to create separation before mount
 
 - **When to use**: The instant the far hook releases, before the attacker can guide rotation - this is the moment of weakest lower body control
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Create enough distance to prevent mount transition and force attacker to re-establish hooks from back control
 - **Risk**: Explosive bridging while Gift Wrap is tight can strain the trapped shoulder if movement is uncontrolled
 
 ### 4. Turn aggressively into the attacker to prevent being guided onto your back and turtle up
 
 - **When to use**: When you feel the rotation being guided and cannot prevent being turned, redirect into turtle rather than flat on back
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Achieve turtle position which provides better defensive structure than being mounted with arm trapped
 - **Risk**: Turning into attacker can accelerate the mount transition if they are ready for it and redirect your movement
 
@@ -229,11 +229,11 @@ The most favorable defensive outcomes involve either preventing the mount transi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Gift Wrap]]
+### → [[Positions/Gift Wrap]]
 
 Prevent the mount transition by framing against the transitioning knee with your free arm and leg, forcing the attacker to reset to back control. Time your defensive frame to coincide with hook removal when their control is weakest. From Gift Wrap back control, standard back escape sequences remain available.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Insert your bottom knee across the attacker's hip line as a shield during the rotation phase, before their knee fully clears. Even with one arm trapped, half guard provides sweep mechanics through the trapped leg and the ability to create angles for further guard recovery. This is the most realistic favorable outcome when the transition is already in progress.
 

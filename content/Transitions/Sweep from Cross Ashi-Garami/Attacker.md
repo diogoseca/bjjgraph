@@ -180,7 +180,7 @@ description: "Master executing the Sweep from Cross Ashi-Garami. Step-by-step gu
 
 As the attacker executing the Sweep from Cross Ashi-Garami, you are the bottom player trapped in a cross ashi leg entanglement seeking to reverse the position entirely. Your goal is to exploit the structural weakness of your opponent's seated base—both their legs are committed to controlling your trapped limb and their hands are occupied with heel or ankle grips. By establishing upper body control and timing a powerful hip bridge or sit-up motion, you can topple the seated opponent and come up into Side Control. The key to success is patience and reading your opponent's weight distribution. Forcing the sweep against a settled, well-based opponent will fail and potentially expose your heel to finishing mechanics. Wait for moments when they transition grips, adjust position, or overcommit their weight forward to attack, then strike decisively with full commitment to the sweep motion.
 
-**From Position**: [[Cross Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ As the attacker executing the Sweep from Cross Ashi-Garami, you are the bottom p
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 30% |
-| Failure | [[Cross Ashi-Garami]] | 45% |
-| Counter | [[Saddle]] | 25% |
+| Success | [[Positions/Side Control]] | 30% |
+| Failure | [[Positions/Ashi Garami/Cross Ashi-Garami]] | 45% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 25% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the Sweep from Cross Ashi-Garami, you are the bottom p
 
 ## Opponent Counters
 
-- **Opponent posts their free hand on the mat to maintain seated base when they feel the sweep initiation** (Effectiveness: High) - Your Response: If the opponent posts, they must release one hand from heel control. Immediately strip the remaining grip and work to extract the trapped leg while they are occupied with base recovery. Transition to leg extraction or counter-entanglement rather than continuing the sweep. → Leads to [[Cross Ashi-Garami]]
-- **Opponent attacks heel hook aggressively during the sweep attempt, using your rotational motion to enhance the submission** (Effectiveness: High) - Your Response: If you feel heel hook rotation beginning during the sweep, abandon the sweep immediately and address the heel hook threat first. Straighten the trapped leg, fight grips, and rotate your body to align with the rotational force rather than against it. Never continue a sweep into an active heel hook application. → Leads to [[Saddle]]
-- **Opponent threads their legs deeper into Saddle configuration as you bridge, using your upward hip motion to advance the entanglement** (Effectiveness: Medium) - Your Response: If you feel the opponent transitioning to Saddle during the sweep, redirect your energy toward preventing the Saddle completion. Pull your knee toward your chest and fight to keep your legs uncrossed. If Saddle is established, switch to Saddle-specific escape protocols rather than continuing the sweep. → Leads to [[Saddle]]
-- **Opponent drops their weight backward and widens their base by extending legs, absorbing the sweep force** (Effectiveness: Medium) - Your Response: When the opponent widens their base backward, their leg control loosens. Use this as an opportunity to switch from sweep to leg extraction—their extended posture creates space between their legs that the trapped leg can be withdrawn through. Alternatively, their backward lean may expose sit-up sweep angles. → Leads to [[Cross Ashi-Garami]]
+- **Opponent posts their free hand on the mat to maintain seated base when they feel the sweep initiation** (Effectiveness: High) - Your Response: If the opponent posts, they must release one hand from heel control. Immediately strip the remaining grip and work to extract the trapped leg while they are occupied with base recovery. Transition to leg extraction or counter-entanglement rather than continuing the sweep. → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- **Opponent attacks heel hook aggressively during the sweep attempt, using your rotational motion to enhance the submission** (Effectiveness: High) - Your Response: If you feel heel hook rotation beginning during the sweep, abandon the sweep immediately and address the heel hook threat first. Straighten the trapped leg, fight grips, and rotate your body to align with the rotational force rather than against it. Never continue a sweep into an active heel hook application. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent threads their legs deeper into Saddle configuration as you bridge, using your upward hip motion to advance the entanglement** (Effectiveness: Medium) - Your Response: If you feel the opponent transitioning to Saddle during the sweep, redirect your energy toward preventing the Saddle completion. Pull your knee toward your chest and fight to keep your legs uncrossed. If Saddle is established, switch to Saddle-specific escape protocols rather than continuing the sweep. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent drops their weight backward and widens their base by extending legs, absorbing the sweep force** (Effectiveness: Medium) - Your Response: When the opponent widens their base backward, their leg control loosens. Use this as an opportunity to switch from sweep to leg extraction—their extended posture creates space between their legs that the trapped leg can be withdrawn through. Alternatively, their backward lean may expose sit-up sweep angles. → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
 
 
 </section>

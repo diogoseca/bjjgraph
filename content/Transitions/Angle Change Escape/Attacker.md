@@ -184,7 +184,7 @@ This escape capitalizes on the geometric reality that the gogoplata's effectiven
 
 Strategically, the Angle Change Escape serves as a medium-resistance pathway between emergency explosive escapes and systematic technical extraction. It provides a reliable option when the defender has time to work methodically but faces a competent bottom player who maintains hip elevation and foot-behind-head control. The escape naturally transitions to half guard when successful, providing the defender an opportunity to recover and reset rather than remaining in immediate submission danger.
 
-**From Position**: [[Gogoplata Control]] (Top)
+**From Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
 
@@ -236,9 +236,9 @@ Strategically, the Angle Change Escape serves as a medium-resistance pathway bet
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 65% |
-| Failure | [[Gogoplata Control]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Half Guard]] | 65% |
+| Failure | [[Positions/Gogoplata Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -247,10 +247,10 @@ Strategically, the Angle Change Escape serves as a medium-resistance pathway bet
 
 ## Opponent Counters
 
-- **Hip elevation and angle following - opponent elevates hips and rotates to maintain perpendicular shin alignment during your lateral movement** (Effectiveness: High) - Your Response: Increase downward pressure on controlling hip hand and accelerate lateral movement to outpace their adjustment; if they successfully follow, reset and try opposite direction → Leads to [[Gogoplata Control]]
-- **Triangle transition - opponent releases gogoplata and switches to triangle configuration as you change angles** (Effectiveness: Medium) - Your Response: Keep near-side arm tight to body throughout escape to prevent it from being isolated; if triangle begins to form, posture immediately and address triangle defense → Leads to [[Closed Guard]]
-- **Armbar attack - opponent releases gogoplata and attacks near-side arm during angle change when posture is compromised** (Effectiveness: Medium) - Your Response: Maintain tight elbow connection to torso throughout movement; if arm is isolated, stack forward rather than pulling back to defend armbar → Leads to [[Closed Guard]]
-- **Omoplata transition - opponent uses your angle change to rotate into omoplata position on far-side shoulder** (Effectiveness: Low) - Your Response: Keep shoulders square and move body as a unit; if omoplata begins, immediately roll forward through the position before they can control your hips → Leads to [[Closed Guard]]
+- **Hip elevation and angle following - opponent elevates hips and rotates to maintain perpendicular shin alignment during your lateral movement** (Effectiveness: High) - Your Response: Increase downward pressure on controlling hip hand and accelerate lateral movement to outpace their adjustment; if they successfully follow, reset and try opposite direction → Leads to [[Positions/Gogoplata Control]]
+- **Triangle transition - opponent releases gogoplata and switches to triangle configuration as you change angles** (Effectiveness: Medium) - Your Response: Keep near-side arm tight to body throughout escape to prevent it from being isolated; if triangle begins to form, posture immediately and address triangle defense → Leads to [[Positions/Closed Guard]]
+- **Armbar attack - opponent releases gogoplata and attacks near-side arm during angle change when posture is compromised** (Effectiveness: Medium) - Your Response: Maintain tight elbow connection to torso throughout movement; if arm is isolated, stack forward rather than pulling back to defend armbar → Leads to [[Positions/Closed Guard]]
+- **Omoplata transition - opponent uses your angle change to rotate into omoplata position on far-side shoulder** (Effectiveness: Low) - Your Response: Keep shoulders square and move body as a unit; if omoplata begins, immediately roll forward through the position before they can control your hips → Leads to [[Positions/Closed Guard]]
 
 
 </section>

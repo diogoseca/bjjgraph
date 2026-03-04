@@ -210,23 +210,23 @@ Successful navigation of this position requires understanding the systematic nat
 
 ## Available Attacks
 
-### [[Half Guard Pass]] (27% of attempts)
+### [[Transitions/Half Guard Pass]] (27% of attempts)
 
-### [[Knee Slice Pass]] (14% of attempts)
+### [[Transitions/Knee Slice Pass]] (14% of attempts)
 
-### [[Smash Pass]] (12% of attempts)
+### [[Transitions/Smash Pass]] (12% of attempts)
 
-### [[Pressure Pass]] (12% of attempts)
+### [[Transitions/Pressure Pass]] (12% of attempts)
 
-### [[Lockdown Escape to Half Guard Pass]] (12% of attempts)
+### [[Transitions/Lockdown Escape to Half Guard Pass]] (12% of attempts)
 
-### [[Whizzer]] (12% of attempts)
+### [[Transitions/Whizzer]] (12% of attempts)
 
-### [[Defend Vaporizer Sweep]] (6% of attempts)
+### [[Transitions/Defend Vaporizer Sweep]] (6% of attempts)
 
-### [[Pass Vaporizer Position]] (3% of attempts)
+### [[Transitions/Pass Vaporizer Position]] (3% of attempts)
 
-### [[Escape from Vaporizer]] (2% of attempts)
+### [[Transitions/Escape from Vaporizer]] (2% of attempts)
 
 
 
@@ -237,23 +237,23 @@ Successful navigation of this position requires understanding the systematic nat
 ## Decision Making from This Position
 
 **If opponent has deep underhook and is creating strong whip-up pressure:**
-- Execute **[[Whizzer]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Lockdown Break and Pass]]** → [[Combat Base]] (Probability: 45%)
+- Execute **[[Transitions/Whizzer]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Lockdown Break and Pass]]** → [[Positions/Combat Base]] (Probability: 45%)
 
 
 **If lockdown is tight but upper body control is weak:**
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent is threatening Electric Chair or attempting to roll to Truck:**
-- Execute **[[Lockdown Break and Pass]]** → [[Combat Base]] (Probability: 60%)
-- Execute **[[Half Guard Pass]]** → [[Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Lockdown Break and Pass]]** → [[Positions/Combat Base]] (Probability: 60%)
+- Execute **[[Transitions/Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If lockdown pressure decreases or opponent adjusts grip:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Half Guard Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 
@@ -392,15 +392,15 @@ From Vaporizer top position, practice recognizing specific bottom player attacks
 
 ## Related Positions and Techniques
 
-- **[[Vaporizer]]** - Parent position hub
+- **[[Positions/Vaporizer]]** - Parent position hub
 - **[[Vaporizer Bottom]]** - Opponent's attacking perspective
-- **[[Half Guard]]** - Target escape position
-- **[[Lockdown]]** - Control mechanism to escape
-- **[[Electric Chair]]** - Submission threat to defend
-- **[[Combat Base]]** - Defensive stability position
-- **[[Half Guard Pass]]** - Primary escape technique
-- **[[Smash Pass]]** - Pressure passing escape option
-- **[[Knee Slice Pass]]** - Technical escape technique
+- **[[Positions/Half Guard]]** - Target escape position
+- **[[Positions/Half Guard/Lockdown]]** - Control mechanism to escape
+- **[[Positions/Half Guard/Electric Chair]]** - Submission threat to defend
+- **[[Positions/Combat Base]]** - Defensive stability position
+- **[[Transitions/Half Guard Pass]]** - Primary escape technique
+- **[[Transitions/Smash Pass]]** - Pressure passing escape option
+- **[[Transitions/Knee Slice Pass]]** - Technical escape technique
 
 
 </section>

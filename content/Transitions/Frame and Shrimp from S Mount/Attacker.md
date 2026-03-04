@@ -186,7 +186,7 @@ description: "Execute the Frame and Shrimp escape from S Mount bottom. Master fr
 
 Executing the Frame and Shrimp from S Mount requires combining disciplined arm protection with aggressive lateral hip movement to create enough space for guard recovery. As the bottom practitioner trapped in S Mount, you face immediate armbar threat from the opponent's perpendicular positioning with their leg over your head isolating your near arm. Your primary objective is to establish strong structural frames against the opponent's hips, use explosive shrimping to create lateral distance, and insert your knee to recover half guard before the opponent can re-establish dominant control or finish the submission. The technique demands calm execution under extreme pressure, precise timing during the opponent's adjustment windows, and the discipline to maintain trapped arm protection throughout the entire escape sequence without exception.
 
-**From Position**: [[S Mount]] (Bottom)
+**From Position**: [[Positions/Mount/S Mount]] (Bottom)
 
 </section>
 
@@ -238,9 +238,9 @@ Executing the Frame and Shrimp from S Mount requires combining disciplined arm p
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Failure | [[S Mount]] | 35% |
-| Counter | [[Armbar Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Failure | [[Positions/Mount/S Mount]] | 35% |
+| Counter | [[Positions/Armbar Control]] | 20% |
 
 
 </section>
@@ -249,10 +249,10 @@ Executing the Frame and Shrimp from S Mount requires combining disciplined arm p
 
 ## Opponent Counters
 
-- **Opponent drives hip-to-shoulder pressure down preemptively when sensing frame attempt** (Effectiveness: High) - Your Response: Use a micro-bridge to create momentary lift before framing rather than trying to frame through settled weight. The bridge creates a split-second gap that your frame hand can fill before the pressure returns. → Leads to [[S Mount]]
-- **Opponent immediately attacks armbar when you commit free hand to framing against their hip** (Effectiveness: Medium) - Your Response: Ensure collar grip is ironclad before moving free hand to frame. Only frame after confirming the trapped arm cannot be extended. If opponent accelerates armbar during frame, retract free hand and re-secure arm defense immediately. → Leads to [[Armbar Control]]
-- **Opponent follows your hip movement by scooting laterally to maintain perpendicular angle** (Effectiveness: High) - Your Response: Chain three or more rapid shrimps without pausing, creating cumulative distance faster than they can follow from their narrow perpendicular base. Their following movement compromises their own stability, potentially opening bridge escape opportunities. → Leads to [[S Mount]]
-- **Opponent widens base by posting legs farther apart to resist frame pressure** (Effectiveness: Medium) - Your Response: Exploit the wider base by targeting the increased space between their legs for knee insertion. A wider base means less concentrated pressure on your shoulder, making the shrimp more effective even against a stable frame defense. → Leads to [[S Mount]]
+- **Opponent drives hip-to-shoulder pressure down preemptively when sensing frame attempt** (Effectiveness: High) - Your Response: Use a micro-bridge to create momentary lift before framing rather than trying to frame through settled weight. The bridge creates a split-second gap that your frame hand can fill before the pressure returns. → Leads to [[Positions/Mount/S Mount]]
+- **Opponent immediately attacks armbar when you commit free hand to framing against their hip** (Effectiveness: Medium) - Your Response: Ensure collar grip is ironclad before moving free hand to frame. Only frame after confirming the trapped arm cannot be extended. If opponent accelerates armbar during frame, retract free hand and re-secure arm defense immediately. → Leads to [[Positions/Armbar Control]]
+- **Opponent follows your hip movement by scooting laterally to maintain perpendicular angle** (Effectiveness: High) - Your Response: Chain three or more rapid shrimps without pausing, creating cumulative distance faster than they can follow from their narrow perpendicular base. Their following movement compromises their own stability, potentially opening bridge escape opportunities. → Leads to [[Positions/Mount/S Mount]]
+- **Opponent widens base by posting legs farther apart to resist frame pressure** (Effectiveness: Medium) - Your Response: Exploit the wider base by targeting the increased space between their legs for knee insertion. A wider base means less concentrated pressure on your shoulder, making the shrimp more effective even against a stable frame defense. → Leads to [[Positions/Mount/S Mount]]
 
 
 </section>

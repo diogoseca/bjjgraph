@@ -158,7 +158,7 @@ Successful defense begins before the transition starts, at the Kimura grip itsel
 
 The defender must also recognize that panic rolling or explosive uncontrolled movement is the attacker's ideal scenario. Measured, deliberate defensive actions that address each control point systematically yield far better results than desperate attempts to rip free of the grip.
 
-**Opponent's Starting Position**: [[Kimura Trap]] (Top)
+**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Top)
 
 </section>
 
@@ -197,28 +197,28 @@ The defender must also recognize that panic rolling or explosive uncontrolled mo
 ### 1. Two-on-one grip strip on the Kimura figure-four before pressure escalates
 
 - **When to use**: Early in the sequence before the attacker applies significant shoulder pressure or begins following your movement
-- **Targets**: [[Kimura Trap]]
+- **Targets**: [[Positions/Kimura Trap]]
 - **If successful**: Breaks the Kimura grip entirely, eliminating both the submission threat and the back take pathway, allowing you to work standard side control or half guard escapes
 - **Risk**: If grip strip fails, you have momentarily stopped defending other threats and the attacker may increase pressure or adjust angle
 
 ### 2. Turn into the attacker by rotating your body to face them during the roll, establishing frames on their shoulder and hip
 
 - **When to use**: During the rolling phase when you must move but can choose the direction of your rotation
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You face the attacker and recover half guard or closed guard, completely negating the back take while the Kimura grip becomes less effective from inside guard
 - **Risk**: If you turn too slowly or without frames, the attacker can follow your turn and still establish back control or mount
 
 ### 3. Turtle tight with elbows pinched and deny hooks by keeping knees together and hips low to the mat
 
 - **When to use**: When the roll has already occurred and you cannot turn to face the attacker, as a damage control measure to prevent hook insertion
-- **Targets**: [[Kimura Trap]]
+- **Targets**: [[Positions/Kimura Trap]]
 - **If successful**: You prevent hooks from being inserted and create a stalemate where you can work to strip the Kimura grip from turtle or sit out to recover guard
 - **Risk**: The attacker maintains the Kimura grip and can continue applying pressure, transition to other turtle attacks, or patiently work to insert hooks
 
 ### 4. Grab your own wrist or belt with the trapped hand to prevent arm isolation and Kimura pressure escalation
 
 - **When to use**: Immediately when you feel the Kimura grip being established, before significant pressure is applied
-- **Targets**: [[Kimura Trap]]
+- **Targets**: [[Positions/Kimura Trap]]
 - **If successful**: Prevents the attacker from generating enough shoulder pressure to force your roll, buying time to work grip strips or positional escapes
 - **Risk**: Creates a static defensive posture that the attacker can work around through angle changes, and your defensive grip will eventually fatigue
 
@@ -230,11 +230,11 @@ The defender must also recognize that panic rolling or explosive uncontrolled mo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Kimura Trap]]
+### → [[Positions/Kimura Trap]]
 
 Strip the Kimura grip through two-on-one fighting or wrist peel before the attacker can apply enough pressure to force your roll. Alternatively, turtle defensively with tight elbows to deny hooks and patiently work to strip the grip from the stalled position. The attacker remains in Kimura Trap Top but without the back take pathway.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 During the rolling phase, direct your rotation toward the attacker rather than away from them. Establish frames on their shoulder and hip as you turn, insert your knee shield or half guard hook on their trapped leg, and recover to a standard half guard position. The Kimura grip becomes significantly less dangerous from inside your guard, and you can work standard grip strips and sweeps.
 

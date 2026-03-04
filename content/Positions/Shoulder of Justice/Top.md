@@ -209,25 +209,25 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 ## Available Attacks
 
-### [[Kimura]] (18% of attempts)
+### [[Transitions/Kimura]] (18% of attempts)
 
-### [[Americana]] (12% of attempts)
+### [[Transitions/Americana]] (12% of attempts)
 
-### [[Side Control to Mount]] (13% of attempts)
+### [[Transitions/Side Control to Mount]] (13% of attempts)
 
-### [[Side Control to North-South]] (13% of attempts)
+### [[Transitions/Side Control to North-South]] (13% of attempts)
 
-### [[Arm Triangle]] (11% of attempts)
+### [[Transitions/Arm Triangle]] (11% of attempts)
 
-### [[North-South Choke]] (10% of attempts)
+### [[Transitions/North-South Choke]] (10% of attempts)
 
-### [[Knee on Belly]] (13% of attempts)
+### [[Positions/Knee on Belly]] (13% of attempts)
 
-### [[Shoulder of Justice Kimura Setup]] (5% of attempts)
+### [[Transitions/Shoulder of Justice Kimura Setup]] (5% of attempts)
 
-### [[Shoulder of Justice to Mount]] (3% of attempts)
+### [[Transitions/Shoulder of Justice to Mount]] (3% of attempts)
 
-### [[Kimura from Shoulder of Justice]] (2% of attempts)
+### [[Submissions/Kimura from Shoulder of Justice]] (2% of attempts)
 
 
 
@@ -238,28 +238,28 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 ## Decision Making from This Position
 
 **If opponent attempts to create frames or push away with near-side arm to relieve pressure:**
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 72%)
-- Execute **[[Americana]]** → [[Armbar Control]] (Probability: 67%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 72%)
+- Execute **[[Transitions/Americana]]** → [[Positions/Armbar Control]] (Probability: 67%)
 
 
 **If opponent shrimps away or attempts to recover guard by creating distance:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 77%)
-- Execute **[[Knee on Belly]]** → [[Knee on Belly]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 77%)
+- Execute **[[Positions/Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 70%)
 
 
 **If opponent turns toward you to escape shoulder pressure or go to turtle:**
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 82%)
-- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 74%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 82%)
+- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 74%)
 
 
 **If opponent brings far arm across to defend face from shoulder pressure:**
-- Execute **[[Arm Triangle]]** → [[Armbar Control]] (Probability: 65%)
-- Execute **[[North-South Choke]]** → [[North-South]] (Probability: 58%)
+- Execute **[[Transitions/Arm Triangle]]** → [[Positions/Armbar Control]] (Probability: 65%)
+- Execute **[[Transitions/North-South Choke]]** → [[Positions/North-South]] (Probability: 58%)
 
 
 **If opponent flattens out completely and stops resisting to conserve energy:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 80%)
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 68%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 80%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 68%)
 
 
 
@@ -410,14 +410,14 @@ Partner in bottom position actively moves their head to different defensive posi
 
 ## Related Positions and Techniques
 
-- **[[Shoulder of Justice]]** - Parent position - this is the top perspective of the parent position
-- **[[Side Control]]** - Parent category - Shoulder of Justice Top is specialized variation of side control
-- **[[Kesa Gatame]]** - Similar position - related cross-face control and shoulder pressure concepts
-- **[[North-South]]** - Common transition target from pressure-induced turning reactions
-- **[[Kimura Trap]]** - Primary submission control when opponent frames with near arm
-- **[[Mount]]** - Position advancement target when opponent turns or shrimps away
-- **[[Kimura]]** - Primary offensive technique - highest percentage submission from this position
-- **[[Americana]]** - Secondary submission option when near arm is isolated and trapped
+- **[[Positions/Shoulder of Justice]]** - Parent position - this is the top perspective of the parent position
+- **[[Positions/Side Control]]** - Parent category - Shoulder of Justice Top is specialized variation of side control
+- **[[Positions/Side Control/Kesa Gatame]]** - Similar position - related cross-face control and shoulder pressure concepts
+- **[[Positions/North-South]]** - Common transition target from pressure-induced turning reactions
+- **[[Positions/Kimura Trap]]** - Primary submission control when opponent frames with near arm
+- **[[Positions/Mount]]** - Position advancement target when opponent turns or shrimps away
+- **[[Transitions/Kimura]]** - Primary offensive technique - highest percentage submission from this position
+- **[[Transitions/Americana]]** - Secondary submission option when near arm is isolated and trapped
 
 
 </section>

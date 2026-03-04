@@ -206,21 +206,21 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 
 ## Available Escapes
 
-### [[Angle Change Escape]] (25% of attempts)
+### [[Transitions/Angle Change Escape]] (25% of attempts)
 
-### [[Ashi Garami Escape]] (15% of attempts)
+### [[Transitions/Ashi Garami Escape]] (15% of attempts)
 
-### [[Inside Ashi Entry]] (14% of attempts)
+### [[Transitions/Inside Ashi Entry]] (14% of attempts)
 
-### [[Counter-entangle to 50-50 Guard]] (12% of attempts)
+### [[Transitions/Counter-entangle to 50-50 Guard]] (12% of attempts)
 
-### [[Guard Recovery from Leg Entanglement]] (13% of attempts)
+### [[Transitions/Guard Recovery from Leg Entanglement]] (13% of attempts)
 
-### [[Deep Half Entry]] (12% of attempts)
+### [[Transitions/Deep Half Entry]] (12% of attempts)
 
-### [[Boot Defense from Toe Hold]] (6% of attempts)
+### [[Transitions/Boot Defense from Toe Hold]] (6% of attempts)
 
-### [[Counter Rotation from Toe Hold]] (3% of attempts)
+### [[Transitions/Counter Rotation from Toe Hold]] (3% of attempts)
 
 
 
@@ -231,25 +231,25 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 ## Decision Making from This Position
 
 **If opponent has completed full toe hold grip with figure-four and begins rotating ankle with significant pressure:**
-- Execute **[[Tap Out]]** → [[Game Over]] (Probability: 95%)
-- Execute **[[Explosive wrist control and internal rotation escape]]** → [[Ashi Garami]] (Probability: 5%)
+- Execute **[[Tap Out]]** → [[Positions/Game Over]] (Probability: 95%)
+- Execute **[[Explosive wrist control and internal rotation escape]]** → [[Positions/Ashi Garami]] (Probability: 5%)
 
 
 **If opponent has toe hold grip but has not yet applied full rotational pressure and wrists are accessible:**
-- Execute **[[Angle Change Escape]]** → [[Ashi Garami]] (Probability: 55%)
-- Execute **[[Ashi Garami Escape]]** → [[Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Angle Change Escape]]** → [[Positions/Ashi Garami]] (Probability: 55%)
+- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Half Guard]] (Probability: 45%)
 
 
 **If opponent transitions from toe hold to heel hook attempt creating momentary grip loosening:**
-- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 50%)
-- Execute **[[Guard Recovery from Leg Entanglement]]** → [[Open Guard]] (Probability: 40%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 10%)
+- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 50%)
+- Execute **[[Transitions/Guard Recovery from Leg Entanglement]]** → [[Positions/Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 10%)
 
 
 **If free leg creates successful frame on opponent's hips breaking their forward pressure:**
-- Execute **[[Counter-entangle to 50-50 Guard]]** → [[50-50 Guard]] (Probability: 45%)
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 35%)
-- Execute **[[Ashi Garami Escape]]** → [[Half Guard]] (Probability: 20%)
+- Execute **[[Transitions/Counter-entangle to 50-50 Guard]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 45%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 35%)
+- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Half Guard]] (Probability: 20%)
 
 
 
@@ -389,14 +389,14 @@ From toe hold control bottom, practice using free leg to create multiple defensi
 ## Related Positions and Techniques
 
 - **[[Toe Hold Control Top]]** - Sibling variant representing opposing perspective of same position
-- **[[Ashi Garami]]** - Common transition target representing safer leg entanglement position after escape
-- **[[Saddle]]** - Worse position representing common progression if toe hold defense fails
-- **[[Outside Ashi-Garami]]** - Related leg entanglement where similar defensive principles apply
-- **[[Toe Hold]]** - Primary submission threat from this position
-- **[[Inside Heel Hook]]** - Common follow-up attack if opponent transitions from toe hold
-- **[[Angle Change Escape]]** - Primary defensive transition technique for escaping toe hold control through angle adjustment
-- **[[Ashi Garami Escape]]** - Key escape pathway to safer positions
-- **[[Leg Entanglement]]** - Fundamental concept underlying principles of position
+- **[[Positions/Ashi Garami]]** - Common transition target representing safer leg entanglement position after escape
+- **[[Positions/Ashi Garami/Saddle]]** - Worse position representing common progression if toe hold defense fails
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Related leg entanglement where similar defensive principles apply
+- **[[Transitions/Toe Hold]]** - Primary submission threat from this position
+- **[[Submissions/Inside Heel Hook]]** - Common follow-up attack if opponent transitions from toe hold
+- **[[Transitions/Angle Change Escape]]** - Primary defensive transition technique for escaping toe hold control through angle adjustment
+- **[[Transitions/Ashi Garami Escape]]** - Key escape pathway to safer positions
+- **[[Positions/Leg Entanglement]]** - Fundamental concept underlying principles of position
 
 
 </section>

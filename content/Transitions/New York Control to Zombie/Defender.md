@@ -158,7 +158,7 @@ The critical defensive insight is that your greatest vulnerability occurs in the
 
 The most effective defensive strategy combines aggressive posture recovery with immediate passing threats. Rather than simply escaping and resettling, use your extraction momentum to drive into a passing sequence that denies the bottom player time to organize their lockdown and underhook. Establish crossface pressure immediately upon extraction to flatten them before they can turn to their side, which is essential for Zombie function. If lockdown establishes despite your efforts, the defensive priorities shift to neutralizing the underhook battle and preventing the Old School Sweep and Electric Chair threats that make Zombie dangerous.
 
-**Opponent's Starting Position**: [[New York Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/New York Control]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ The most effective defensive strategy combines aggressive posture recovery with 
 ### 1. Drive forward with immediate crossface pressure upon extraction, flattening the bottom player before they can turn to their side and establish lockdown structure
 
 - **When to use**: Immediately upon completing shoulder extraction when bottom player begins leg repositioning but has not yet established lockdown
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Bottom player is flattened on their back in compromised half guard without lockdown, allowing you to proceed with standard half guard passing sequences
 - **Risk**: If bottom player frames effectively, driving forward can create momentum they redirect into a sweep or back take
 
 ### 2. Post on far hip and backstep to extract your leg entirely from their entanglement before lockdown solidifies, creating distance and denying the trapped leg
 
 - **When to use**: When you feel their legs beginning to triangle around your leg but the lockdown has not yet fully tightened
-- **Targets**: [[New York Control]]
+- **Targets**: [[Positions/Rubber Guard/New York Control]]
 - **If successful**: You achieve full leg extraction and recover to open guard top position, forcing bottom player to re-engage from neutral guard rather than advantageous Zombie
 - **Risk**: Backstepping creates space that bottom player may use to recover full guard or re-establish rubber guard entries
 
 ### 3. Control their top knee with your free hand and pin it to the mat while driving your trapped leg straight to prevent the lockdown triangle from closing
 
 - **When to use**: During the transition moment when their leg is dropping from your shoulder but has not yet hooked behind your calf
-- **Targets**: [[New York Control]]
+- **Targets**: [[Positions/Rubber Guard/New York Control]]
 - **If successful**: Lockdown is denied and you maintain dominant top position in standard half guard or open guard with passing opportunities
 - **Risk**: Reaching for their knee can compromise your posture and open space for them to re-establish rubber guard controls
 
 ### 4. Stand up explosively during extraction, pulling your trapped leg free while establishing standing base over their guard
 
 - **When to use**: When the bottom player's grip structure is weakest during the transition - after overhook releases but before lockdown establishes
-- **Targets**: [[New York Control]]
+- **Targets**: [[Positions/Rubber Guard/New York Control]]
 - **If successful**: You achieve full standing posture with both legs free, forcing a complete guard re-engagement from bottom player without any entanglement advantage
 - **Risk**: Standing creates distance that allows guard recovery, and if lockdown catches during the stand-up, you lose base and become vulnerable to sweeps
 
@@ -228,11 +228,11 @@ The most effective defensive strategy combines aggressive posture recovery with 
 
 ## Best-Case Outcomes for Defender
 
-### → [[New York Control]]
+### → [[Positions/Rubber Guard/New York Control]]
 
 Complete extraction aggressively and either backstep to free your leg entirely or establish immediate crossface pressure that prevents lockdown. The key is eliminating the transition window by moving through it decisively rather than pausing in the vulnerable phase. Control their top knee during extraction to mechanically prevent the lockdown triangle from forming.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If lockdown partially establishes, immediately drive heavy crossface pressure to flatten the bottom player onto their back. A flat lockdown without side positioning is a compromised half guard that you can systematically pass. Deny the underhook by keeping your shoulder pressure forward and your elbow tight. From flattened half guard, work standard leg extraction and knee slice or smash pass sequences.
 

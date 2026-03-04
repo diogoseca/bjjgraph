@@ -180,7 +180,7 @@ description: "Execute the Ringworm to Spider Guard transition. Step-by-step guid
 
 Executing the Ringworm to Spider Guard transition requires precise timing and grip sequencing to convert lapel control into sleeve control without creating a gap in your guard structure. The attacker must recognize when the Ringworm Guard is being compromised or when Spider Guard offers superior attacking options, then proactively initiate the transition rather than waiting until lapel control is fully lost. Success depends on securing at least one sleeve grip before releasing the lapel, then immediately establishing feet on biceps to create the characteristic Spider Guard pushing pressure that prevents the opponent from advancing. The grip exchange window is narrow, typically lasting one to two seconds, making fluid hand coordination and practiced timing essential for reliable execution.
 
-**From Position**: [[Ringworm Guard]] (Bottom)
+**From Position**: [[Positions/Ringworm Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Ringworm to Spider Guard transition requires precise timing and gr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Spider Guard]] | 55% |
-| Failure | [[Ringworm Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Spider Guard]] | 55% |
+| Failure | [[Positions/Ringworm Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Ringworm to Spider Guard transition requires precise timing and gr
 
 ## Opponent Counters
 
-- **Opponent strips the attempted sleeve grip during the transition by pulling their arm back sharply** (Effectiveness: High) - Your Response: Immediately retighten the lapel wrap with your free hand and reset the Ringworm Guard configuration rather than chasing the sleeve with an exposed position. Wait for the next opening to reattempt. → Leads to [[Ringworm Guard]]
-- **Opponent drives forward aggressively during the lapel release moment to collapse distance and smash past the guard** (Effectiveness: Medium) - Your Response: Use the already-established spider hook to push them back while framing with your free hand. Convert the forward pressure into a sweep attempt or use butterfly hook recovery to maintain guard. → Leads to [[Open Guard]]
-- **Opponent withdraws both arms simultaneously and postures tall to deny sleeve access entirely** (Effectiveness: Medium) - Your Response: Place feet on their hips for distance control and transition to a feet-on-hips guard configuration. Use a sit-up motion to chase their arms and re-establish contact. Do not release the lapel until you have reconnected with their upper body. → Leads to [[Open Guard]]
-- **Opponent grabs your pants at the knees during the transition to pin your legs and prevent foot placement on biceps** (Effectiveness: Low) - Your Response: Use sleeve grips to strip their pant grips by pulling their arms away, then quickly reposition feet to biceps. Their pant grips sacrifice their arm defense, making sleeve capture easier on the next attempt. → Leads to [[Ringworm Guard]]
+- **Opponent strips the attempted sleeve grip during the transition by pulling their arm back sharply** (Effectiveness: High) - Your Response: Immediately retighten the lapel wrap with your free hand and reset the Ringworm Guard configuration rather than chasing the sleeve with an exposed position. Wait for the next opening to reattempt. → Leads to [[Positions/Ringworm Guard]]
+- **Opponent drives forward aggressively during the lapel release moment to collapse distance and smash past the guard** (Effectiveness: Medium) - Your Response: Use the already-established spider hook to push them back while framing with your free hand. Convert the forward pressure into a sweep attempt or use butterfly hook recovery to maintain guard. → Leads to [[Positions/Open Guard]]
+- **Opponent withdraws both arms simultaneously and postures tall to deny sleeve access entirely** (Effectiveness: Medium) - Your Response: Place feet on their hips for distance control and transition to a feet-on-hips guard configuration. Use a sit-up motion to chase their arms and re-establish contact. Do not release the lapel until you have reconnected with their upper body. → Leads to [[Positions/Open Guard]]
+- **Opponent grabs your pants at the knees during the transition to pin your legs and prevent foot placement on biceps** (Effectiveness: Low) - Your Response: Use sleeve grips to strip their pant grips by pulling their arms away, then quickly reposition feet to biceps. Their pant grips sacrifice their arm defense, making sleeve capture easier on the next attempt. → Leads to [[Positions/Ringworm Guard]]
 
 
 </section>

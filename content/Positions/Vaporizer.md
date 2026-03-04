@@ -91,21 +91,21 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (26% of attempts)
+- **[[Transitions/Old School Sweep]]** (26% of attempts)
 
-- **[[Turtle to Truck]]** (16% of attempts)
+- **[[Transitions/Turtle to Truck]]** (16% of attempts)
 
-- **[[Electric Chair Transition]]** (18% of attempts)
+- **[[Transitions/Electric Chair Transition]]** (18% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (8% of attempts)
+- **[[Transitions/Closed Guard to Omoplata]]** (8% of attempts)
 
-- **[[Half Guard to Back Take]]** (13% of attempts)
+- **[[Transitions/Half Guard to Back Take]]** (13% of attempts)
 
-- **[[Lockdown Recovery]]** (13% of attempts)
+- **[[Transitions/Lockdown Recovery]]** (13% of attempts)
 
-- **[[Escape Vaporizer]]** (4% of attempts)
+- **[[Transitions/Escape Vaporizer]]** (4% of attempts)
 
-- **[[Roll from Vaporizer]]** (2% of attempts)
+- **[[Transitions/Roll from Vaporizer]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -166,23 +166,23 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 ### Available Transitions
 
 
-- **[[Half Guard Pass]]** (27% of attempts)
+- **[[Transitions/Half Guard Pass]]** (27% of attempts)
 
-- **[[Knee Slice Pass]]** (14% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (14% of attempts)
 
-- **[[Smash Pass]]** (12% of attempts)
+- **[[Transitions/Smash Pass]]** (12% of attempts)
 
-- **[[Pressure Pass]]** (12% of attempts)
+- **[[Transitions/Pressure Pass]]** (12% of attempts)
 
-- **[[Lockdown Escape to Half Guard Pass]]** (12% of attempts)
+- **[[Transitions/Lockdown Escape to Half Guard Pass]]** (12% of attempts)
 
-- **[[Whizzer]]** (12% of attempts)
+- **[[Transitions/Whizzer]]** (12% of attempts)
 
-- **[[Defend Vaporizer Sweep]]** (6% of attempts)
+- **[[Transitions/Defend Vaporizer Sweep]]** (6% of attempts)
 
-- **[[Pass Vaporizer Position]]** (3% of attempts)
+- **[[Transitions/Pass Vaporizer Position]]** (3% of attempts)
 
-- **[[Escape from Vaporizer]]** (2% of attempts)
+- **[[Transitions/Escape from Vaporizer]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -225,21 +225,21 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 ## Related Positions
 
 
-- **[[Lockdown]]** - Parent position providing foundational control mechanism
+- **[[Positions/Half Guard/Lockdown]]** - Parent position providing foundational control mechanism
 
-- **[[Electric Chair]]** - Primary submission target from Vaporizer control
+- **[[Positions/Half Guard/Electric Chair]]** - Primary submission target from Vaporizer control
 
-- **[[Twister Control]]** - Advanced positional transition for back attack sequences
+- **[[Positions/Twister Control]]** - Advanced positional transition for back attack sequences
 
-- **[[Half Guard]]** - Base position from which Vaporizer is established
+- **[[Positions/Half Guard]]** - Base position from which Vaporizer is established
 
-- **[[Old School]]** - Traditional sweep variation from lockdown position
+- **[[Positions/Half Guard/Old School]]** - Traditional sweep variation from lockdown position
 
-- **[[Rubber Guard]]** - Related 10th Planet guard system with similar control philosophy
+- **[[Positions/Rubber Guard]]** - Related 10th Planet guard system with similar control philosophy
 
-- **[[Deep Half Guard]]** - Alternative half guard control approach
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative half guard control approach
 
-- **[[Z-Lock Half Guard]]** - Related half guard variant with leg control emphasis
+- **[[Positions/Half Guard/Z-Lock Half Guard]]** - Related half guard variant with leg control emphasis
 
 
 </section>

@@ -95,33 +95,33 @@ Both bottom and top perspectives of butterfly half guard require distinct strate
 ### Available Transitions
 
 
-- **[[100% Sweep]]** (33% of attempts)
+- **[[Transitions/100% Sweep]]** (33% of attempts)
 
-- **[[Old School Sweep]]** (10% of attempts)
+- **[[Transitions/Old School Sweep]]** (10% of attempts)
 
-- **[[Butterfly Sweep]]** (6% of attempts)
+- **[[Transitions/Butterfly Sweep]]** (6% of attempts)
 
-- **[[Deep Half Entry]]** (8% of attempts)
+- **[[Transitions/Deep Half Entry]]** (8% of attempts)
 
-- **[[Waiter Sweep]]** (4% of attempts)
+- **[[Transitions/Waiter Sweep]]** (4% of attempts)
 
-- **[[Underhook Sweep from Half]]** (6% of attempts)
+- **[[Transitions/Underhook Sweep from Half]]** (6% of attempts)
 
-- **[[Knee Tap]]** (5% of attempts)
+- **[[Transitions/Knee Tap]]** (5% of attempts)
 
-- **[[Half Guard to Back Take]]** (6% of attempts)
+- **[[Transitions/Half Guard to Back Take]]** (6% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** (4% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard]]** (4% of attempts)
 
-- **[[Lockdown Recovery]]** (4% of attempts)
+- **[[Transitions/Lockdown Recovery]]** (4% of attempts)
 
-- **[[Kimura Sweep]]** (6% of attempts)
+- **[[Transitions/Kimura Sweep]]** (6% of attempts)
 
-- **[[Electric Chair Transition]]** (5% of attempts)
+- **[[Transitions/Electric Chair Transition]]** (5% of attempts)
 
-- **[[Butterfly Half Guard Sweep]]** (2% of attempts)
+- **[[Transitions/Butterfly Half Guard Sweep]]** (2% of attempts)
 
-- **[[Reguard from Butterfly Half Guard]]** (1% of attempts)
+- **[[Transitions/Reguard from Butterfly Half Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -186,25 +186,25 @@ Both bottom and top perspectives of butterfly half guard require distinct strate
 ### Available Transitions
 
 
-- **[[Half Guard Pass]]** (10% of attempts)
+- **[[Transitions/Half Guard Pass]]** (10% of attempts)
 
-- **[[Knee Slice Pass]]** (10% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (10% of attempts)
 
-- **[[Smash Pass]]** (23% of attempts)
+- **[[Transitions/Smash Pass]]** (23% of attempts)
 
-- **[[Underhook Pass]]** (11% of attempts)
+- **[[Transitions/Underhook Pass]]** (11% of attempts)
 
-- **[[Long Step Pass]]** (10% of attempts)
+- **[[Transitions/Long Step Pass]]** (10% of attempts)
 
-- **[[Pressure Pass]]** (8% of attempts)
+- **[[Transitions/Pressure Pass]]** (8% of attempts)
 
-- **[[Back Step Pass]]** (12% of attempts)
+- **[[Transitions/Back Step Pass]]** (12% of attempts)
 
-- **[[Half Guard to Flattened Half Guard]]** (10% of attempts)
+- **[[Transitions/Half Guard to Flattened Half Guard]]** (10% of attempts)
 
-- **[[Knee Slice from Butterfly Half]]** (4% of attempts)
+- **[[Transitions/Knee Slice from Butterfly Half]]** (4% of attempts)
 
-- **[[Smash from Butterfly Half]]** (2% of attempts)
+- **[[Transitions/Smash from Butterfly Half]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -239,25 +239,25 @@ Both bottom and top perspectives of butterfly half guard require distinct strate
 ## Related Positions
 
 
-- **[[Butterfly Guard]]** - Parent position providing butterfly hook mechanics and elevation concepts
+- **[[Positions/Butterfly Guard]]** - Parent position providing butterfly hook mechanics and elevation concepts
 
-- **[[Half Guard]]** - Parent position providing leg entanglement control and defensive structure
+- **[[Positions/Half Guard]]** - Parent position providing leg entanglement control and defensive structure
 
-- **[[Deep Half Guard]]** - Common transition target when opponent applies forward pressure or establishes strong crossface
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common transition target when opponent applies forward pressure or establishes strong crossface
 
-- **[[X-Guard]]** - Advanced transition option when opponent stands tall or attempts to step over trapped leg
+- **[[Positions/X-Guard]]** - Advanced transition option when opponent stands tall or attempts to step over trapped leg
 
-- **[[Single Leg X-Guard]]** - Alternative transition when converting butterfly hook to leg control
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Alternative transition when converting butterfly hook to leg control
 
-- **[[Lockdown]]** - Defensive variation when being flattened, transitioning to 10th Planet system
+- **[[Positions/Half Guard/Lockdown]]** - Defensive variation when being flattened, transitioning to 10th Planet system
 
-- **[[Knee Shield Half Guard]]** - Alternative half guard frame when butterfly hook is compromised
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Alternative half guard frame when butterfly hook is compromised
 
-- **[[Back Control]]** - Primary submission target when opponent defends sweeps incorrectly
+- **[[Positions/Back Control]]** - Primary submission target when opponent defends sweeps incorrectly
 
-- **[[Dogfight Position]]** - Transitional scramble position during sweep execution
+- **[[Positions/Dogfight Position]]** - Transitional scramble position during sweep execution
 
-- **[[Overhook Control]]** - Essential upper body control mechanism for maintaining offensive advantage
+- **[[Positions/Overhook Control]]** - Essential upper body control mechanism for maintaining offensive advantage
 
 
 </section>

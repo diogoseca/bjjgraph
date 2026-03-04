@@ -21,7 +21,7 @@ Strategically, this reguard functions as a positional circuit breaker within the
 
 The mechanical challenge lies in releasing the deep underhook—the defining feature of pocket half guard—and transitioning to frame-based distance management without creating a passing window. The underhook must be abandoned in favor of a forearm frame on the opponent's shoulder or bicep, while simultaneously inserting a knee shield to create the structural barrier that standard half guard depends on. This exchange of control mechanisms must happen fluidly, as any gap between releasing the underhook and establishing the frame leaves the bottom player without upper body control and vulnerable to immediate passing.
 
-**From Position**: [[Pocket Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Pocket Half Guard]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ The mechanical challenge lies in releasing the deep underhook—the defining fea
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Pocket Half Guard]] | 30% |
-| Counter | [[Flattened Half Guard]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Half Guard/Pocket Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Reguard from Pocket Half Guard occupies a critical defensive node in the hal
 ## Related Techniques
 
 
-- [[Pocket Half Guard]] - Source position where the technique begins
+- [[Positions/Half Guard/Pocket Half Guard]] - Source position where the technique begins
 
-- [[Half Guard]] - Target position providing standard frames and distance management upon successful reguard
+- [[Positions/Half Guard]] - Target position providing standard frames and distance management upon successful reguard
 
-- [[Flattened Half Guard]] - Counter outcome when opponent capitalizes on underhook release to flatten bottom player
+- [[Positions/Half Guard/Flattened Half Guard]] - Counter outcome when opponent capitalizes on underhook release to flatten bottom player
 
-- [[Knee Shield Half Guard]] - Primary structural element inserted during reguard to establish distance and defensive framing
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Primary structural element inserted during reguard to establish distance and defensive framing
 
-- [[Deep Half Guard]] - Alternative transition from pocket half guard when forward pressure makes reguard impractical
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition from pocket half guard when forward pressure makes reguard impractical
 
-- [[Old School Sweep]] - Primary offensive technique from pocket half guard whose failure may trigger reguard decision
+- [[Transitions/Old School Sweep]] - Primary offensive technique from pocket half guard whose failure may trigger reguard decision
 
-- [[Pass Pocket Half]] - Opponent's primary goal that the reguard aims to prevent
+- [[Transitions/Pass Pocket Half]] - Opponent's primary goal that the reguard aims to prevent
 
-- [[Recover Knee Shield from Flattened Half]] - Similar guard recovery concept from a worse starting position
+- [[Transitions/Recover Knee Shield from Flattened Half]] - Similar guard recovery concept from a worse starting position
 
-- [[Reguard from Half Butterfly]] - Analogous reguard technique from a different half guard variation
+- [[Transitions/Reguard from Half Butterfly]] - Analogous reguard technique from a different half guard variation
 
-- [[Back Control]] - Alternative advancement from pocket half guard when offensive options remain viable
+- [[Positions/Back Control]] - Alternative advancement from pocket half guard when offensive options remain viable
 
 
 </section>

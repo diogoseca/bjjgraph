@@ -21,7 +21,7 @@ The technique addresses a fundamental challenge of Kesa Gatame bottom: the crush
 
 Strategically, this escape works best when the top player commits weight forward onto the bottom player's chest or releases one control point to attempt a submission. The frame-to-guard pathway offers moderate success probability with relatively low risk of position deterioration compared to more aggressive escapes like the back take, making it an excellent foundational option. When executed properly, it transitions the bottom player from a defensive pin into an offensive guard position where they can immediately threaten sweeps and submissions, fundamentally changing the positional dynamic.
 
-**From Position**: [[Kesa Gatame]] (Bottom)
+**From Position**: [[Positions/Side Control/Kesa Gatame]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, this escape works best when the top player commits weight forward
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 35% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Kesa Gatame]] | 35% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Open Guard]] | 35% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Side Control/Kesa Gatame]] | 35% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -192,25 +192,25 @@ The frame to guard escape integrates into the complete Kesa Gatame bottom escape
 ## Related Techniques
 
 
-- [[Kesa Gatame]] - Source position from which this escape is executed
+- [[Positions/Side Control/Kesa Gatame]] - Source position from which this escape is executed
 
-- [[Open Guard]] - Primary target position after successful guard recovery
+- [[Positions/Open Guard]] - Primary target position after successful guard recovery
 
-- [[Half Guard]] - Secondary target position after partial guard recovery
+- [[Positions/Half Guard]] - Secondary target position after partial guard recovery
 
-- [[Bridge Escape from Kesa Gatame]] - Alternative escape from same starting position using explosive bridge mechanics
+- [[Transitions/Bridge Escape from Kesa Gatame]] - Alternative escape from same starting position using explosive bridge mechanics
 
-- [[Back Take from Kesa Gatame]] - Alternative escape exploiting the exposed back unique to Kesa Gatame geometry
+- [[Transitions/Back Take from Kesa Gatame]] - Alternative escape exploiting the exposed back unique to Kesa Gatame geometry
 
-- [[Frame Escape from Kuzure Kesa]] - Similar frame-based escape from the related modified scarf hold position
+- [[Transitions/Frame Escape from Kuzure Kesa]] - Similar frame-based escape from the related modified scarf hold position
 
-- [[Side Control]] - Parent category of the Kesa Gatame position family
+- [[Positions/Side Control]] - Parent category of the Kesa Gatame position family
 
-- [[Knee Shield Half Guard]] - Intermediate recovery position during guard re-establishment phase
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Intermediate recovery position during guard re-establishment phase
 
-- [[Mount]] - Counter risk position if opponent capitalizes on escape movement to advance
+- [[Positions/Mount]] - Counter risk position if opponent capitalizes on escape movement to advance
 
-- [[Frame from Reverse Scarf Hold]] - Similar frame escape technique applied from the reverse scarf hold variation
+- [[Transitions/Frame from Reverse Scarf Hold]] - Similar frame escape technique applied from the reverse scarf hold variation
 
 
 </section>

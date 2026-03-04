@@ -146,7 +146,7 @@ description: "Learn to defend against an opponent standing up from Ashi Garami. 
 
 As the defender against Standing Up from Ashi Garami, you are the top player in the ashi garami exchange—the person whose leg was being controlled by the bottom player's entanglement. When your opponent attempts to stand up, you face a tactical decision: allow the disengagement which returns both of you to neutral standing, try to maintain the entanglement to preserve your own counter-attack opportunities, or capitalize on the transitional moment to improve your own position by establishing guard or achieving top control. Your response depends on whether the current entanglement favors you, whether you have viable counter-attack opportunities, and whether you can exploit the opponent's vulnerable transitional phase to achieve a positional advantage.
 
-**Opponent's Starting Position**: [[Ashi Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against Standing Up from Ashi Garami, you are the top player in 
 ### 1. Tighten hooks and pull opponent's hips back into entanglement
 
 - **When to use**: Early in the stand-up attempt, before opponent has established frames or created meaningful distance
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Opponent remains trapped in ashi garami bottom, forced to continue the leg lock exchange on your terms
 - **Risk**: If opponent has already created significant distance, pulling may overextend your own legs and compromise your defensive positioning
 
 ### 2. Sit up and establish open guard hooks on opponent's hips as they stand
 
 - **When to use**: When opponent has committed to standing and pulling them back into entanglement is no longer viable
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You transition to open guard bottom with hooks established, preventing complete disengagement and maintaining connection
 - **Risk**: Poor timing allows opponent to complete the stand-up and fully disengage before you can establish meaningful guard hooks
 
 ### 3. Follow the stand-up and return to standing position with grip advantage
 
 - **When to use**: When you prefer standing engagement over continued ground leg lock exchange and can match opponent's standing speed
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Both return to standing but you establish grips during the transition, gaining initiative in the new standing exchange
 - **Risk**: If opponent stands faster than you, they may establish dominant standing position or grips first
 
 ### 4. Use opponent's standing momentum to invert and re-enter a new leg entanglement
 
 - **When to use**: When opponent lifts their hips high during the stand-up, creating space underneath for your inversion entry
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: You re-establish leg entanglement from a different angle, potentially catching opponent off-guard during their transition
 - **Risk**: Failed inversion leaves you in a scramble with the opponent already on their feet and potentially in a dominant passing position
 
@@ -217,11 +217,11 @@ As the defender against Standing Up from Ashi Garami, you are the top player in 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Allow the clean disengagement while preparing to immediately return to standing yourself with advantageous grips. This returns you to neutral standing where you are no longer under leg lock threat—a significant improvement from the defensive ashi garami top position.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Capitalize on the opponent's standing attempt by quickly sitting up and establishing open guard hooks on their hips as they rise. This prevents complete disengagement and transitions the exchange into an open guard scenario where the opponent must now pass your guard rather than attack your legs.
 

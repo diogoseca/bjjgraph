@@ -206,25 +206,25 @@ Lockdown Top represents the defensive perspective against 10th Planet's signatur
 
 ## Available Attacks
 
-### [[Half Guard Pass]] (6% of attempts)
+### [[Transitions/Half Guard Pass]] (6% of attempts)
 
-### [[Knee Slice from Half]] (9% of attempts)
+### [[Transitions/Knee Slice from Half]] (9% of attempts)
 
-### [[Smash Pass]] (8% of attempts)
+### [[Transitions/Smash Pass]] (8% of attempts)
 
-### [[Underhook Pass]] (8% of attempts)
+### [[Transitions/Underhook Pass]] (8% of attempts)
 
-### [[Crossface Pass]] (9% of attempts)
+### [[Transitions/Crossface Pass]] (9% of attempts)
 
-### [[Leg Extraction to Combat Base]] (37% of attempts)
+### [[Transitions/Leg Extraction to Combat Base]] (37% of attempts)
 
-### [[Lockdown to Z-Lock Half Guard]] (9% of attempts)
+### [[Transitions/Lockdown to Z-Lock Half Guard]] (9% of attempts)
 
-### [[Lockdown Break and Pass]] (10% of attempts)
+### [[Transitions/Lockdown Break and Pass]] (10% of attempts)
 
-### [[Darce from Lockdown Counter]] (3% of attempts)
+### [[Transitions/Darce from Lockdown Counter]] (3% of attempts)
 
-### [[Lockdown Whizzer Pass]] (1% of attempts)
+### [[Transitions/Lockdown Whizzer Pass]] (1% of attempts)
 
 
 
@@ -235,23 +235,23 @@ Lockdown Top represents the defensive perspective against 10th Planet's signatur
 ## Decision Making from This Position
 
 **If bottom player has strong underhook and is attempting Old School sweep:**
-- Execute **[[Crossface Control]]** → [[Lockdown]] (Probability: 60%)
-- Execute **[[Post Hand Far Side]]** → [[Lockdown]] (Probability: 55%)
+- Execute **[[Crossface Control]]** → [[Positions/Half Guard/Lockdown]] (Probability: 60%)
+- Execute **[[Post Hand Far Side]]** → [[Positions/Half Guard/Lockdown]] (Probability: 55%)
 
 
 **If bottom player extends lockdown aggressively for Electric Chair:**
-- Execute **[[Drive Forward Pressure]]** → [[Lockdown]] (Probability: 65%)
-- Execute **[[Extract Leg with Hip Pressure]]** → [[Combat Base]] (Probability: 50%)
+- Execute **[[Drive Forward Pressure]]** → [[Positions/Half Guard/Lockdown]] (Probability: 65%)
+- Execute **[[Extract Leg with Hip Pressure]]** → [[Positions/Combat Base]] (Probability: 50%)
 
 
 **If bottom player is attempting whip-up with upper body control:**
-- Execute **[[Heavy Shoulder Pressure]]** → [[Lockdown]] (Probability: 60%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Heavy Shoulder Pressure]]** → [[Positions/Half Guard/Lockdown]] (Probability: 60%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If lockdown pressure is moderate and bottom player adjusting position:**
-- Execute **[[Leg Extraction Sequence]]** → [[Combat Base]] (Probability: 65%)
-- Execute **[[Knee Slice from Half]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Leg Extraction Sequence]]** → [[Positions/Combat Base]] (Probability: 65%)
+- Execute **[[Transitions/Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 
@@ -385,14 +385,14 @@ Top player starts trapped in lockdown, bottom player works for sweeps and submis
 
 ## Related Positions and Techniques
 
-- **[[Half Guard]]** - Parent position - traditional top half guard without lockdown
-- **[[Combat Base]]** - Position goal after leg extraction from lockdown
-- **[[Side Control]]** - Common passing target after escaping lockdown
-- **[[Knee Shield Half Guard]]** - Related half guard top position with different challenges
-- **[[Deep Half Guard]]** - Alternative half guard top situation requiring different defense
-- **[[Half Guard Pass]]** - Primary technique goal after neutralizing lockdown
-- **[[Crossface Pass]]** - Effective passing method against lockdown retention
-- **[[Smash Pass]]** - Pressure-based passing option from lockdown top
+- **[[Positions/Half Guard]]** - Parent position - traditional top half guard without lockdown
+- **[[Positions/Combat Base]]** - Position goal after leg extraction from lockdown
+- **[[Positions/Side Control]]** - Common passing target after escaping lockdown
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Related half guard top position with different challenges
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative half guard top situation requiring different defense
+- **[[Transitions/Half Guard Pass]]** - Primary technique goal after neutralizing lockdown
+- **[[Transitions/Crossface Pass]]** - Effective passing method against lockdown retention
+- **[[Transitions/Smash Pass]]** - Pressure-based passing option from lockdown top
 
 
 </section>

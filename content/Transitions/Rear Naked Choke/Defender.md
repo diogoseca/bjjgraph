@@ -158,7 +158,7 @@ The fundamental defensive posture combines chin protection through aggressive tu
 
 Advanced defense integrates neck protection with active escape attempts, using the opponent's commitment to the choke as a window for positional improvement. When an attacker reaches aggressively for the choke, their weight shifts and hook pressure changes, creating opportunities for hip escapes, turns to turtle, or full guard recovery if you can time your movement with their offensive commitment.
 
-**Opponent's Starting Position**: [[Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Advanced defense integrates neck protection with active escape attempts, using t
 ### 1. Two-on-one wrist control - grab the choking wrist with both hands and pull it down to your chest while tucking your chin aggressively
 
 - **When to use**: Immediately when you feel the opponent's arm begin to move toward your neck from the seatbelt position, before the forearm clears your chin line
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Opponent's choking arm is trapped at your chest level, preventing choke entry and forcing them to hand fight or switch attacks, buying time for escape
 - **Risk**: Both your hands are committed to the wrist, leaving you unable to address hooks or begin escape sequences until you neutralize the choking threat
 
 ### 2. Hip escape to turtle - strip the bottom hook by kicking your leg free while maintaining neck defense, then turn to turtle position
 
 - **When to use**: After successfully neutralizing the immediate choke threat through two-on-one control, when you can safely address hooks without exposing the neck
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You escape back control to turtle position where you face significantly less submission danger and can work toward guard recovery or standing
 - **Risk**: If you release neck defense prematurely to fight hooks, opponent can immediately sink the choke while you are mid-escape
 
 ### 3. Turn into opponent - rotate your shoulders toward the choking arm side while framing on their hip, working to face them and establish guard
 
 - **When to use**: When opponent's hook control is compromised or when they overcommit to the choke by loosening their leg control to focus on the upper body attack
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You face your opponent and can establish closed guard or half guard, completely eliminating the RNC threat and resetting to a neutral or advantageous position
 - **Risk**: Turning exposes your back further if you cannot complete the rotation, and opponent may follow your turn to maintain back control or transition to mount
 
 ### 4. Grip strip and arm peel - systematically peel the choking arm off your neck starting from the wrist if the forearm has already crossed your chin
 
 - **When to use**: Emergency defense when the choking arm has passed the chin but the figure-four grip has not yet been secured, giving you a brief window to strip the arm
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You pull the choking arm back below chin level and return to the two-on-one defensive position, resetting the attacker's progress
 - **Risk**: If the figure-four is already locked, grip stripping becomes extremely difficult and attempting it may waste the final seconds before unconsciousness
 
@@ -229,11 +229,11 @@ Advanced defense integrates neck protection with active escape attempts, using t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Neutralize the choke through two-on-one wrist control and chin tuck, then systematically strip hooks and turn to face opponent establishing guard. This returns you to back control bottom without the immediate choke threat, giving you time to execute a full back escape sequence.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 After defending the choke with two-on-one control, kick free from the bottom hook while maintaining neck defense, then hip escape and turn to turtle. Turtle is a significant positional improvement from back control with active RNC threat, as you can work granby rolls, sit-outs, and stand-ups.
 

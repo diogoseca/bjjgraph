@@ -17,7 +17,7 @@ description: "Master the Butterfly Sweep in BJJ. Complete guide covering setup, 
 
 The Butterfly Sweep is a fundamental attacking technique from butterfly guard that exploits opponent's weight distribution and base. By using butterfly hooks (feet positioned on opponent's inner thighs) combined with precise hip movement and off-balancing mechanics, the practitioner elevates and destabilizes the opponent, reversing position from bottom to top. This sweep is particularly effective when the opponent commits their weight forward or attempts to pass, creating the perfect opportunity for the guard player to capitalize on compromised balance. The technique exemplifies efficient use of leverage over strength, making it accessible to practitioners of all sizes and suitable against larger opponents. The butterfly sweep serves as a cornerstone technique in modern Brazilian Jiu-Jitsu, forming the foundation for numerous guard systems and serving as a gateway to more advanced butterfly guard attacks.
 
-**From Position**: [[Butterfly Guard]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard]] (Bottom)
 **Success Rate**: 62%
 
 </section>
@@ -28,9 +28,9 @@ The Butterfly Sweep is a fundamental attacking technique from butterfly guard th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 70% |
-| Failure | [[Butterfly Guard]] | 20% |
-| Counter | [[Butterfly Guard]] | 10% |
+| Success | [[Positions/Mount]] | 70% |
+| Failure | [[Positions/Butterfly Guard]] | 20% |
+| Counter | [[Positions/Butterfly Guard]] | 10% |
 
 
 </section>
@@ -193,33 +193,33 @@ The butterfly sweep serves as a cornerstone technique in modern Brazilian Jiu-Ji
 ## Related Techniques
 
 
-- [[Butterfly Guard]] - Starting Position - foundation position for this sweep
+- [[Positions/Butterfly Guard]] - Starting Position - foundation position for this sweep
 
-- [[Butterfly Hook Control]] - Core Principle - hook control mechanics essential for sweep
+- [[Positions/Butterfly Guard/Butterfly Hook Control]] - Core Principle - hook control mechanics essential for sweep
 
-- [[Elevator Sweep]] - Related Technique - similar mechanics with different angle
+- [[Transitions/Elevator Sweep]] - Related Technique - similar mechanics with different angle
 
-- [[Hook Sweep]] - Variation - alternative butterfly guard sweep
+- [[Transitions/Hook Sweep]] - Variation - alternative butterfly guard sweep
 
-- [[Arm Drag to Back]] - Combination Attack - chains well when sweep is defended
+- [[Transitions/Arm Drag to Back]] - Combination Attack - chains well when sweep is defended
 
-- [[Guillotine Setup]] - Combination Attack - threatens when opponent postures to defend sweep
+- [[Transitions/Guillotine Setup]] - Combination Attack - threatens when opponent postures to defend sweep
 
-- [[X-Guard]] - Alternative Position - transition option when sweep is countered
+- [[Positions/X-Guard]] - Alternative Position - transition option when sweep is countered
 
-- [[Deep Half Guard]] - Alternative Position - transition when opponent removes weight
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative Position - transition when opponent removes weight
 
-- [[Kimura from Guard]] - Counter to Defense - attacks posted arm
+- [[Submissions/Kimura from Guard]] - Counter to Defense - attacks posted arm
 
-- [[Marcelo Garcia Butterfly Guard System]] - System Integration - part of comprehensive butterfly guard framework
+- [[Systems/Marcelo Garcia Butterfly Guard System]] - System Integration - part of comprehensive butterfly guard framework
 
-- [[Mount]] - Ending Position - primary finishing position for sweep
+- [[Positions/Mount]] - Ending Position - primary finishing position for sweep
 
-- [[Side Control]] - Alternative Ending - secondary finishing position
+- [[Positions/Side Control]] - Alternative Ending - secondary finishing position
 
-- [[Butterfly Guard to X-Guard]] - Chain Transition - common follow-up when opponent defends sweep by standing
+- [[Transitions/Butterfly Guard to X-Guard]] - Chain Transition - common follow-up when opponent defends sweep by standing
 
-- [[Basic Butterfly Sweep]] - Simplified Variation - fundamental version with minimal grips
+- [[Transitions/Basic Butterfly Sweep]] - Simplified Variation - fundamental version with minimal grips
 
 
 </section>

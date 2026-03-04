@@ -21,7 +21,7 @@ What makes the Ezekiel from closed guard top uniquely effective is its exploitat
 
 The primary risk lies in voluntarily breaking your own posture. To execute the Ezekiel, you must lean forward and commit both arms to the choke, temporarily abandoning your defensive base and structural integrity. This creates significant vulnerability to sweeps, triangles, and armbars if the bottom player recognizes the attack early. The decision to attempt the Ezekiel must therefore be calculated, factoring in the opponent's attentiveness, current grip situation, and your ability to recover posture if the choke fails. When timed correctly against a distracted or complacent guard player, the Ezekiel from closed guard is a devastatingly effective finish.
 
-**From Position**: [[Closed Guard]] (Top)
+**From Position**: [[Positions/Closed Guard]] (Top)
 **Success Rate**: 30%
 
 </section>
@@ -33,8 +33,8 @@ The primary risk lies in voluntarily breaking your own posture. To execute the E
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 30% |
-| Failure | [[Closed Guard]] | 45% |
-| Counter | [[Mount]] | 25% |
+| Failure | [[Positions/Closed Guard]] | 45% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Ezekiel from closed guard top occupies a unique niche in the BJJ positional 
 ## Related Techniques
 
 
-- [[Closed Guard]] - Source position where this technique is initiated from the top player perspective
+- [[Positions/Closed Guard]] - Source position where this technique is initiated from the top player perspective
 
-- [[Ezekiel from Mount]] - Same choke applied from the dominant mount position with significantly higher success rate
+- [[Submissions/Ezekiel from Mount]] - Same choke applied from the dominant mount position with significantly higher success rate
 
-- [[Ezekiel from Side Control Consolidation]] - Positional variant applying the same choking mechanism from side control
+- [[Submissions/Ezekiel from Side Control Consolidation]] - Positional variant applying the same choking mechanism from side control
 
-- [[Triangle Setup]] - Primary counter-submission threat from bottom player when attacker commits arms forward
+- [[Transitions/Triangle Setup]] - Primary counter-submission threat from bottom player when attacker commits arms forward
 
-- [[Armbar from Guard]] - Counter-submission available to defender when attacker breaks posture for the Ezekiel
+- [[Submissions/Armbar from Guard]] - Counter-submission available to defender when attacker breaks posture for the Ezekiel
 
-- [[Hip Bump Sweep]] - High-percentage counter sweep available when attacker's weight shifts forward during attempt
+- [[Transitions/Hip Bump Sweep]] - High-percentage counter sweep available when attacker's weight shifts forward during attempt
 
-- [[Mount]] - Position defender achieves on successful counter sweep during failed Ezekiel attempt
+- [[Positions/Mount]] - Position defender achieves on successful counter sweep during failed Ezekiel attempt
 
-- [[Guard Opening Sequence]] - Alternative strategic approach from closed guard top when Ezekiel opportunity is absent
+- [[Transitions/Guard Opening Sequence]] - Alternative strategic approach from closed guard top when Ezekiel opportunity is absent
 
-- [[Posture Recovery]] - Critical recovery technique needed after a failed Ezekiel attempt to restore defensive base
+- [[Transitions/Posture Recovery]] - Critical recovery technique needed after a failed Ezekiel attempt to restore defensive base
 
-- [[Cross Collar Choke]] - Related gi choke sharing similar positional requirements and deceptive setup methodology
+- [[Transitions/Cross Collar Choke]] - Related gi choke sharing similar positional requirements and deceptive setup methodology
 
 
 </section>

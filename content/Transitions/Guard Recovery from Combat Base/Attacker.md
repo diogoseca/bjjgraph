@@ -180,7 +180,7 @@ description: "Learn to recover guard from combat base as the bottom player in BJ
 
 As the bottom player under combat base, your primary objective is to systematically dismantle the passer's positional advantage by creating frames, generating hip escape angles, and reattaching your legs to close the guard circuit. Guard recovery requires patience and precise timing—you must resist the urge to bridge wildly or reach for legs, instead following a methodical sequence that prioritizes structural frames before explosive hip movement. Your success depends on reading the passer's weight distribution and acting during their transitional moments when they shift between passing options, creating windows where your frames are most effective and your hip escapes generate maximum distance.
 
-**From Position**: [[Combat Base]] (Bottom)
+**From Position**: [[Positions/Combat Base]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player under combat base, your primary objective is to systematica
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Failure | [[Combat Base]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Failure | [[Positions/Combat Base]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the bottom player under combat base, your primary objective is to systematica
 
 ## Opponent Counters
 
-- **Opponent drives heavy forward pressure with crossface to flatten your frames and pin your shoulders to the mat** (Effectiveness: High) - Your Response: Redirect their pressure past your centerline using your frame as a deflection point rather than a wall, then hip escape in the direction their weight carries them → Leads to [[Combat Base]]
-- **Opponent advances knee through during your hip escape, sliding past your shin frame into half guard passing position** (Effectiveness: High) - Your Response: If knee penetrates past your shin, immediately transition to knee shield half guard retention rather than fighting for closed guard—secure the underhook and work half guard recovery → Leads to [[Half Guard]]
-- **Opponent stands up from combat base to disengage your leg reattachment and resets from a standing position** (Effectiveness: Medium) - Your Response: Immediately establish feet on hips and grip collar or sleeves to prevent free disengagement, transitioning to open guard with active leg pummeling to maintain connection → Leads to [[Combat Base]]
-- **Opponent strips your primary frame by swimming their arm under and establishing an underhook on your near side** (Effectiveness: Medium) - Your Response: Switch to a cross-body frame with your other arm while pummel fighting to recover the underhook or establish a whizzer to prevent them from closing distance on your frame side → Leads to [[Combat Base]]
+- **Opponent drives heavy forward pressure with crossface to flatten your frames and pin your shoulders to the mat** (Effectiveness: High) - Your Response: Redirect their pressure past your centerline using your frame as a deflection point rather than a wall, then hip escape in the direction their weight carries them → Leads to [[Positions/Combat Base]]
+- **Opponent advances knee through during your hip escape, sliding past your shin frame into half guard passing position** (Effectiveness: High) - Your Response: If knee penetrates past your shin, immediately transition to knee shield half guard retention rather than fighting for closed guard—secure the underhook and work half guard recovery → Leads to [[Positions/Half Guard]]
+- **Opponent stands up from combat base to disengage your leg reattachment and resets from a standing position** (Effectiveness: Medium) - Your Response: Immediately establish feet on hips and grip collar or sleeves to prevent free disengagement, transitioning to open guard with active leg pummeling to maintain connection → Leads to [[Positions/Combat Base]]
+- **Opponent strips your primary frame by swimming their arm under and establishing an underhook on your near side** (Effectiveness: Medium) - Your Response: Switch to a cross-body frame with your other arm while pummel fighting to recover the underhook or establish a whizzer to prevent them from closing distance on your frame side → Leads to [[Positions/Combat Base]]
 
 
 </section>

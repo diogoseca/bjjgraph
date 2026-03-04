@@ -158,7 +158,7 @@ The primary defensive challenge is the narrow window between recognizing the fin
 
 Defensive strategies fall into three categories: preventing the finish by disrupting the attacker's base and hip alignment, extracting the trapped arm by addressing the leg entanglement before full pressure builds, and rolling with the pressure to convert the position into a scramble. Each approach carries different risk profiles, and the defender must read the attacker's control quality to select the appropriate response. Training these defenses requires progressive resistance drilling with strict safety protocols due to the serious injury potential of this submission.
 
-**Opponent's Starting Position**: [[Aoki Lock]] (Top)
+**Opponent's Starting Position**: [[Positions/Aoki Lock]] (Top)
 
 </section>
 
@@ -195,21 +195,21 @@ Defensive strategies fall into three categories: preventing the finish by disrup
 ### 1. Roll toward trapped arm following the pressure direction to relieve shoulder torque and create a scramble
 
 - **When to use**: Immediately when you feel initial hip pressure shift before full commitment - the earlier the better
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Relieves shoulder pressure, disrupts attacker's position, and may create enough space to extract arm and recover open guard
 - **Risk**: If attacker follows the roll maintaining entanglement, you may end up in back control or a deeper submission position
 
 ### 2. Attack attacker's posted leg base with your free hand to destabilize their hip pressure platform
 
 - **When to use**: When attacker's posted leg is accessible and not too close to their body, creating a target for disruption
-- **Targets**: [[Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock]]
 - **If successful**: Destabilizes attacker's base preventing full pressure application, creating windows for arm extraction or position change
 - **Risk**: If you commit your free hand to the base attack and fail, you lose your primary defensive tool and attacker can re-establish with better control
 
 ### 3. Bend trapped elbow and internally rotate shoulder while hip escaping to reduce pressure angle
 
 - **When to use**: When leg entanglement has slight slack and you can still manipulate your trapped arm position before full lock
-- **Targets**: [[Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock]]
 - **If successful**: Changes the shoulder alignment making the submission less effective, buying time for further escape attempts or forcing attacker to readjust
 - **Risk**: If entanglement is already tight, bending the elbow may not be possible and the attempt wastes precious escape time
 
@@ -228,11 +228,11 @@ Defensive strategies fall into three categories: preventing the finish by disrup
 
 ## Best-Case Outcomes for Defender
 
-### → [[Aoki Lock]]
+### → [[Positions/Aoki Lock]]
 
 Disrupt the attacker's finish attempt by attacking their posted leg base or bending your trapped elbow to change shoulder alignment. This forces them back to maintaining the control position rather than finishing, buying time for further escape attempts or forcing a transition.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Roll toward your trapped arm following the path of least resistance while the attacker commits to hip pressure. Time the roll to coincide with their forward drive, using their momentum to assist your escape. Extract your arm during the scramble and immediately establish foot and hand frames to recover open guard.
 

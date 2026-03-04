@@ -22,8 +22,8 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (glenohumeral joint)
-**Starting Position**: [[Side Control]]
-**From Position**: [[Side Control]] (Top)
+**Starting Position**: [[Positions/Side Control]]
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -80,8 +80,8 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Side Control]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -234,13 +234,13 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 ## From Which Positions?
 
-- [[Side Control]]
-- [[North-South]]
-- [[Kesa Gatame]]
-- [[Modified Mount]]
-- [[Reverse Kesa-Gatame]]
-- [[Knee on Belly]]
-- [[Modified Scarf Hold]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Mount/Modified Mount]]
+- [[Positions/Side Control/Reverse Kesa-Gatame]]
+- [[Positions/Knee on Belly]]
+- [[Positions/Side Control/Modified Scarf Hold]]
 
 
 </section>
@@ -249,16 +249,16 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 ## Related Submissions
 
-- [[Americana]]
-- [[Kimura]]
-- [[Americana from Side Control]]
-- [[Kimura from Side Control]]
-- [[Kimura from North-South]]
-- [[Americana from Mount]]
-- [[Reverse Kimura]]
-- [[Omoplata]]
-- [[Armbar from Side Control]]
-- [[Armbar from Mount]]
+- [[Transitions/Americana]]
+- [[Transitions/Kimura]]
+- [[Submissions/Americana from Side Control]]
+- [[Submissions/Kimura from Side Control]]
+- [[Submissions/Kimura from North-South]]
+- [[Submissions/Americana from Mount]]
+- [[Submissions/Reverse Kimura]]
+- [[Transitions/Omoplata]]
+- [[Submissions/Armbar from Side Control]]
+- [[Submissions/Armbar from Mount]]
 
 
 </section>
@@ -267,15 +267,15 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 ## Additional Related Content
 
-- [[Kimura Trap]] - Control position for isolating the arm with similar shoulder lock mechanics and grip configurations
-- [[Americana]] - Traditional shoulder lock using figure-four mechanics with bent-arm positioning rather than straight-arm hyperextension
-- [[Side Control]] - Primary starting position for applying the Mir Lock with dominant control
-- [[North-South]] - Alternative top position offering excellent Mir Lock opportunities with limited escape options
-- [[Mount]] - Top position that can transition to Mir Lock when opponent turns to side defensively
-- [[Kimura to Back Take]] - Alternative transition if opponent defends the shoulder lock by rolling
-- [[Kimura]] - Related shoulder lock with internal rotation mechanics that chains well with Mir Lock attacks
-- [[Kimura from Side Control]] - Sister submission from the same position targeting the shoulder with different rotation
-- [[Americana from Side Control]] - Traditional shoulder lock from same position using bent-arm configuration
+- [[Positions/Kimura Trap]] - Control position for isolating the arm with similar shoulder lock mechanics and grip configurations
+- [[Transitions/Americana]] - Traditional shoulder lock using figure-four mechanics with bent-arm positioning rather than straight-arm hyperextension
+- [[Positions/Side Control]] - Primary starting position for applying the Mir Lock with dominant control
+- [[Positions/North-South]] - Alternative top position offering excellent Mir Lock opportunities with limited escape options
+- [[Positions/Mount]] - Top position that can transition to Mir Lock when opponent turns to side defensively
+- [[Transitions/Kimura to Back Take]] - Alternative transition if opponent defends the shoulder lock by rolling
+- [[Transitions/Kimura]] - Related shoulder lock with internal rotation mechanics that chains well with Mir Lock attacks
+- [[Submissions/Kimura from Side Control]] - Sister submission from the same position targeting the shoulder with different rotation
+- [[Submissions/Americana from Side Control]] - Traditional shoulder lock from same position using bent-arm configuration
 
 
 </section>

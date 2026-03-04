@@ -178,7 +178,7 @@ The effectiveness of this transition lies in its ability to capitalize on the op
 
 This technique serves as a cornerstone of modern no-gi grappling and has proven equally effective in gi competition. Its prevalence in high-level competition stems from its reliability and the difficulty opponents face in defending it once proper front headlock control is established. The transition connects seamlessly with submission attacks including the rear naked choke, making it both a positional advancement and a direct path to fight-ending submissions.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 68% |
-| Failure | [[Front Headlock]] | 20% |
-| Counter | [[Front Headlock]] | 12% |
+| Success | [[Positions/Back Control]] | 68% |
+| Failure | [[Positions/Front Headlock]] | 20% |
+| Counter | [[Positions/Front Headlock]] | 12% |
 
 
 </section>
@@ -242,10 +242,10 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 
 ## Opponent Counters
 
-- **Opponent sits back into guard before hooks are established** (Effectiveness: High) - Your Response: Maintain front headlock control and use their backward movement to transition to guillotine choke or anaconda choke. Alternatively, step over into crucifix position if they expose their arm during the sit-back movement. → Leads to [[Front Headlock]]
-- **Opponent rolls through the front headlock toward the choking arm** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining head control, transitioning to guillotine or anaconda choke during the roll. Use your body weight to control the direction of the roll and prevent them from coming on top. Land in closed guard with front headlock control maintained. → Leads to [[Front Headlock]]
-- **Opponent stands up explosively before back control is established** (Effectiveness: Medium) - Your Response: Maintain front headlock grip and use their upward movement to establish standing back control or transition to standing guillotine. If one hook is already in, use it to climb onto their back in a standing position. Alternatively, use the standing position to set up snap-down opportunities to reset the front headlock. → Leads to [[Front Headlock]]
-- **Opponent hip escapes away as you attempt to insert first hook** (Effectiveness: Low) - Your Response: Follow their hip movement while maintaining front headlock control. Reset your angle by circling further in the direction of your choking arm. Use their movement to transition to alternative attacks like the anaconda or darce choke if they create space near their neck and shoulder. → Leads to [[Front Headlock]]
+- **Opponent sits back into guard before hooks are established** (Effectiveness: High) - Your Response: Maintain front headlock control and use their backward movement to transition to guillotine choke or anaconda choke. Alternatively, step over into crucifix position if they expose their arm during the sit-back movement. → Leads to [[Positions/Front Headlock]]
+- **Opponent rolls through the front headlock toward the choking arm** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining head control, transitioning to guillotine or anaconda choke during the roll. Use your body weight to control the direction of the roll and prevent them from coming on top. Land in closed guard with front headlock control maintained. → Leads to [[Positions/Front Headlock]]
+- **Opponent stands up explosively before back control is established** (Effectiveness: Medium) - Your Response: Maintain front headlock grip and use their upward movement to establish standing back control or transition to standing guillotine. If one hook is already in, use it to climb onto their back in a standing position. Alternatively, use the standing position to set up snap-down opportunities to reset the front headlock. → Leads to [[Positions/Front Headlock]]
+- **Opponent hip escapes away as you attempt to insert first hook** (Effectiveness: Low) - Your Response: Follow their hip movement while maintaining front headlock control. Reset your angle by circling further in the direction of your choking arm. Use their movement to transition to alternative attacks like the anaconda or darce choke if they create space near their neck and shoulder. → Leads to [[Positions/Front Headlock]]
 
 
 </section>

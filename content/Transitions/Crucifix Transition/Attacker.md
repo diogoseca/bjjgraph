@@ -184,7 +184,7 @@ Strategically, this transition punishes opponents who prioritize grip fighting o
 
 The transition requires precise timing and commitment. You must recognize when the opponent's arm is sufficiently extended during their defensive movement, then explosively capture it while maintaining your chest-to-back connection. The standing nature of this entry often flows naturally into a mat return where you secure the legs and complete the crucifix position on the ground. Advanced practitioners use this as a reliable chain attack when initial choke attempts are successfully defended.
 
-**From Position**: [[Standing Back Control]] (Top)
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
 
@@ -235,9 +235,9 @@ The transition requires precise timing and commitment. You must recognize when t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Crucifix]] | 55% |
-| Failure | [[Standing Back Control]] | 30% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Crucifix]] | 55% |
+| Failure | [[Positions/Back Control/Standing Back Control]] | 30% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -246,10 +246,10 @@ The transition requires precise timing and commitment. You must recognize when t
 
 ## Opponent Counters
 
-- **Opponent keeps elbow tight and refuses to extend arm during grip fighting, denying the capture opportunity** (Effectiveness: High) - Your Response: Attack the neck directly since they are not defending it, or use their tight arm position to break them down to grounded back control → Leads to [[Standing Back Control]]
-- **Opponent drops weight explosively when they feel the arm capture beginning, pulling you down before you can consolidate** (Effectiveness: Medium) - Your Response: Follow them down and transition to truck position or standard back control, using their descent to establish hooks → Leads to [[Turtle]]
-- **Opponent turns aggressively into you during the transition, attempting to face you and escape back exposure** (Effectiveness: Medium) - Your Response: Maintain the arm trap and follow their rotation, converting to mounted crucifix or transitioning to armbar if they complete the turn → Leads to [[Turtle]]
-- **Opponent posts their free hand on the ground and widens base to resist the mat return** (Effectiveness: Medium) - Your Response: Use their posted arm as a second target - attack the kimura on the posting arm or sweep their posting hand to complete the takedown → Leads to [[Standing Back Control]]
+- **Opponent keeps elbow tight and refuses to extend arm during grip fighting, denying the capture opportunity** (Effectiveness: High) - Your Response: Attack the neck directly since they are not defending it, or use their tight arm position to break them down to grounded back control → Leads to [[Positions/Back Control/Standing Back Control]]
+- **Opponent drops weight explosively when they feel the arm capture beginning, pulling you down before you can consolidate** (Effectiveness: Medium) - Your Response: Follow them down and transition to truck position or standard back control, using their descent to establish hooks → Leads to [[Positions/Turtle]]
+- **Opponent turns aggressively into you during the transition, attempting to face you and escape back exposure** (Effectiveness: Medium) - Your Response: Maintain the arm trap and follow their rotation, converting to mounted crucifix or transitioning to armbar if they complete the turn → Leads to [[Positions/Turtle]]
+- **Opponent posts their free hand on the ground and widens base to resist the mat return** (Effectiveness: Medium) - Your Response: Use their posted arm as a second target - attack the kimura on the posting arm or sweep their posting hand to complete the takedown → Leads to [[Positions/Back Control/Standing Back Control]]
 
 
 </section>

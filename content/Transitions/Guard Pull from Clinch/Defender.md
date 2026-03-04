@@ -154,7 +154,7 @@ description: "Defend the guard pull from clinch in BJJ. Recognition cues, sprawl
 
 As the defender against a guard pull from clinch, your primary objective is to either prevent the guard pull entirely by maintaining the standing exchange or capitalize on the transition moment to establish an immediate dominant passing position. The guard pull creates a brief but exploitable window of vulnerability where your opponent's legs are not yet locked and their base is compromised during the descent from standing to seated. Recognizing guard pull cues early — within the first half-second — allows you to sprawl, strip grips, or drive forward to establish a dominant top position before closed guard is established. Successful defense transforms what your opponent intended as an aggressive tactical choice into a positional disaster for them.
 
-**Opponent's Starting Position**: [[Clinch]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against a guard pull from clinch, your primary objective is to e
 ### 1. Sprawl hips back and drive weight away immediately upon recognizing the pull attempt
 
 - **When to use**: When you recognize the guard pull cues early, before opponent has committed to the descent. Most effective in the first half-second of the pull attempt.
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Guard pull is denied entirely, fight remains standing in clinch or returns to neutral standing position where you maintain tactical advantage
 - **Risk**: If sprawl is too late and opponent has already committed to sitting, you may end up stretched out with poor base as they complete the guard pull from distance
 
 ### 2. Drive a knee through the centerline during the transition gap before opponent's legs close
 
 - **When to use**: When opponent has committed to sitting and you cannot prevent the descent. Target the window between their hip touching the mat and their ankles locking.
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You establish an immediate passing position — knee slide or headquarters — before closed guard is locked, converting their guard pull into a free passing opportunity
 - **Risk**: If timing is off and opponent closes guard around your advancing knee, you may end up deep inside closed guard with compromised posture
 
 ### 3. Strip grips aggressively using two-on-one breaks before opponent can initiate the sit
 
 - **When to use**: When you notice opponent transitioning from wrestling grips to guard pull grips. Address grips before they are fully established rather than after.
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Opponent cannot execute controlled guard pull without anchor grips, forcing them to either re-establish grips or abandon the pull attempt entirely
 - **Risk**: Grip fighting creates brief openings that the opponent may exploit for a faster, less controlled guard pull while you are focused on hand fighting
 
 ### 4. Circle laterally to take angle as opponent begins descent, threatening back exposure
 
 - **When to use**: When opponent commits to the sit but you have enough grip freedom to move laterally rather than driving straight forward into their guard.
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You arrive at opponent's hip at an angle that makes closed guard closure extremely difficult and gives immediate passing access to their side
 - **Risk**: Lateral movement while opponent pulls guard may create scramble situations where position is contested rather than clearly established
 
@@ -225,11 +225,11 @@ As the defender against a guard pull from clinch, your primary objective is to e
 
 ## Best-Case Outcomes for Defender
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Deny the guard pull entirely through early sprawl reaction, aggressive grip stripping, or maintaining strong upright posture that resists the pulling force. React within the first half-second of recognizing pull cues to prevent your opponent from committing to the descent.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Capitalize on the transition gap by driving a knee through the centerline or circling to an angle before opponent can lock closed guard. Time your forward drive to arrive as their hip touches the mat but before their legs close, establishing an immediate dominant passing position.
 

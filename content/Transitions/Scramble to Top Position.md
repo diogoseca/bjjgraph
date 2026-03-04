@@ -21,7 +21,7 @@ The core mechanic revolves around establishing a wider, lower base than your opp
 
 Strategically, this transition is most effective when initiated within the first three to five seconds of a scramble, before both practitioners settle into a neutral clinch battle where cardio and size begin to dominate over timing and technique. The practitioner who commits to the top position pathway first holds the initiative, forcing the opponent into a reactive mode where they must defend multiple vectors of advancement simultaneously. At higher levels, the scramble to top position integrates seamlessly with back take attempts, front headlock entries, and leg entanglement setups, creating a branching decision tree that makes the scramble practitioner extremely difficult to contain.
 
-**From Position**: [[Scramble Position]] (Top)
+**From Position**: [[Positions/Scramble Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,11 +32,11 @@ Strategically, this transition is most effective when initiated within the first
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 45% |
-| Success | [[Side Control]] | 10% |
-| Failure | [[Scramble Position]] | 25% |
-| Counter | [[Half Guard]] | 12% |
-| Counter | [[Closed Guard]] | 8% |
+| Success | [[Positions/Standing Position]] | 45% |
+| Success | [[Positions/Side Control]] | 10% |
+| Failure | [[Positions/Scramble Position]] | 25% |
+| Counter | [[Positions/Half Guard]] | 12% |
+| Counter | [[Positions/Closed Guard]] | 8% |
 
 
 </section>
@@ -196,29 +196,29 @@ Scramble to Top Position serves as the primary resolution pathway from the inher
 ## Related Techniques
 
 
-- [[Scramble Position]] - Starting position where this transition begins during chaotic positional exchanges
+- [[Positions/Scramble Position]] - Starting position where this transition begins during chaotic positional exchanges
 
-- [[Standing Position]] - Primary success outcome when converting scramble to established standing top
+- [[Positions/Standing Position]] - Primary success outcome when converting scramble to established standing top
 
-- [[Side Control]] - Alternative success outcome when scramble resolves directly to ground top control
+- [[Positions/Side Control]] - Alternative success outcome when scramble resolves directly to ground top control
 
-- [[Half Guard]] - Counter outcome when opponent catches a leg during the scramble transition
+- [[Positions/Half Guard]] - Counter outcome when opponent catches a leg during the scramble transition
 
-- [[Closed Guard]] - Counter outcome when opponent pulls guard during the scramble exchange
+- [[Positions/Closed Guard]] - Counter outcome when opponent pulls guard during the scramble exchange
 
-- [[Scramble from Failed Sweep]] - Related transition that often creates the scramble conditions preceding this technique
+- [[Transitions/Scramble from Failed Sweep]] - Related transition that often creates the scramble conditions preceding this technique
 
-- [[Front Headlock]] - Alternative top position reachable via snap-down variant during scramble
+- [[Positions/Front Headlock]] - Alternative top position reachable via snap-down variant during scramble
 
-- [[Back Control]] - High-value target accessible when opponent turns away during scramble
+- [[Positions/Back Control]] - High-value target accessible when opponent turns away during scramble
 
-- [[Turtle]] - Intermediate position that often features in scramble exchanges before resolution
+- [[Positions/Turtle]] - Intermediate position that often features in scramble exchanges before resolution
 
-- [[Dogfight Position]] - Related scramble sub-position where underhook battles determine who achieves top
+- [[Positions/Dogfight Position]] - Related scramble sub-position where underhook battles determine who achieves top
 
-- [[Knee on Belly]] - Advanced consolidation position reachable from successful scramble to top
+- [[Positions/Knee on Belly]] - Advanced consolidation position reachable from successful scramble to top
 
-- [[Combat Base]] - Stable positional platform that can serve as a consolidation point after winning the scramble
+- [[Positions/Combat Base]] - Stable positional platform that can serve as a consolidation point after winning the scramble
 
 
 </section>

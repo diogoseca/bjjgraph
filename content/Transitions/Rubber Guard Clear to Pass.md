@@ -21,7 +21,7 @@ Success depends on understanding that aggressive pulling of the trapped arm trig
 
 This technique is essential for any practitioner facing opponents with flexible guard systems, particularly in no-gi and MMA contexts where the Rubber Guard system has proven highly effective.
 
-**From Position**: [[Rubber Guard]] (Top)
+**From Position**: [[Positions/Rubber Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This technique is essential for any practitioner facing opponents with flexible 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Rubber Guard]] | 25% |
-| Counter | [[Triangle Control]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Rubber Guard]] | 25% |
+| Counter | [[Positions/Triangle Control]] | 10% |
 
 
 </section>
@@ -191,25 +191,25 @@ Rubber Guard Clear to Pass is the essential defensive technique for top players 
 ## Related Techniques
 
 
-- [[Rubber Guard]] - Starting position this technique counters
+- [[Positions/Rubber Guard]] - Starting position this technique counters
 
-- [[Mission Control]] - Primary Rubber Guard variation this escape addresses
+- [[Positions/Rubber Guard/Mission Control]] - Primary Rubber Guard variation this escape addresses
 
-- [[Side Control]] - Target position upon successful completion
+- [[Positions/Side Control]] - Target position upon successful completion
 
-- [[Triangle Control]] - Primary submission threat during escape that must be defended
+- [[Positions/Triangle Control]] - Primary submission threat during escape that must be defended
 
-- [[Omoplata Control]] - Secondary submission threat when creating distance incorrectly
+- [[Positions/Omoplata Control]] - Secondary submission threat when creating distance incorrectly
 
-- [[Stack Pass]] - Alternative passing approach that can be combined with this escape
+- [[Transitions/Stack Pass]] - Alternative passing approach that can be combined with this escape
 
-- [[Closed Guard]] - Intermediate position that may be reached during escape sequence
+- [[Positions/Closed Guard]] - Intermediate position that may be reached during escape sequence
 
-- [[New York Control]] - Advanced Rubber Guard variation this technique also addresses
+- [[Positions/Rubber Guard/New York Control]] - Advanced Rubber Guard variation this technique also addresses
 
-- [[Invisible Collar]] - Submission setup position within Rubber Guard requiring awareness
+- [[Positions/Rubber Guard/Invisible Collar]] - Submission setup position within Rubber Guard requiring awareness
 
-- [[Arm Extraction]] - Core mechanical component of this escape technique
+- [[Transitions/Arm Extraction]] - Core mechanical component of this escape technique
 
 
 </section>

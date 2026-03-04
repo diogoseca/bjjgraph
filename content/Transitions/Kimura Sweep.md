@@ -21,7 +21,7 @@ Strategically, the Kimura Sweep creates a dilemma for the opponent: defend the K
 
 At higher levels, the Kimura Sweep integrates into broader attacking systems where the initial grip threat forces reactions that open pathways to back takes, hip bumps, or direct submission finishes. Understanding when to commit to the sweep versus when to maintain grip pressure for other attacks distinguishes intermediate from advanced practitioners.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ At higher levels, the Kimura Sweep integrates into broader attacking systems whe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 58% |
-| Failure | [[Closed Guard]] | 30% |
-| Counter | [[Side Control]] | 12% |
+| Success | [[Positions/Mount]] | 58% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 12% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Kimura Sweep occupies a central position in the Closed Guard attacking syste
 ## Related Techniques
 
 
-- [[Kimura Trap]] - Control position that can set up sweep
+- [[Positions/Kimura Trap]] - Control position that can set up sweep
 
-- [[Hip Bump Sweep]] - Combination attack that sets up Kimura grip when opponent posts
+- [[Transitions/Hip Bump Sweep]] - Combination attack that sets up Kimura grip when opponent posts
 
-- [[Mount]] - Primary target position after successful sweep
+- [[Positions/Mount]] - Primary target position after successful sweep
 
-- [[Closed Guard]] - Starting position for this technique
+- [[Positions/Closed Guard]] - Starting position for this technique
 
-- [[Armbar from Guard]] - Alternative attack when opponent straightens arm defending Kimura
+- [[Submissions/Armbar from Guard]] - Alternative attack when opponent straightens arm defending Kimura
 
-- [[Back Take from Bottom]] - Follow-up when opponent turns to resist sweep
+- [[Transitions/Back Take from Bottom]] - Follow-up when opponent turns to resist sweep
 
-- [[Guillotine Choke]] - Chain attack when opponent postures to escape grip
+- [[Transitions/Guillotine Choke]] - Chain attack when opponent postures to escape grip
 
-- [[Scissor Sweep]] - Alternative sweep from similar guard position
+- [[Transitions/Scissor Sweep]] - Alternative sweep from similar guard position
 
-- [[Kimura]] - Direct submission alternative when opponent flattens to defend sweep
+- [[Transitions/Kimura]] - Direct submission alternative when opponent flattens to defend sweep
 
-- [[Pendulum Sweep]] - Chain sweep option when opponent stacks forward to counter
+- [[Transitions/Pendulum Sweep]] - Chain sweep option when opponent stacks forward to counter
 
 
 </section>

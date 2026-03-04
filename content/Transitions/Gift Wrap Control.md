@@ -21,7 +21,7 @@ The strategic value of the Gift Wrap lies in its dual function as both a control
 
 In competition and training contexts, the Gift Wrap serves as a transitional hub position. From here, you can advance to mount with virtually no resistance, take the back by rolling the opponent toward their trapped arm, or finish with collar chokes and arm attacks. Understanding when and how to establish this control—particularly reading the opponent's defensive arm positioning—separates intermediate practitioners from advanced ones who can systematically shut down escape attempts.
 
-**From Position**: [[Kuzure Kesa-Gatame]] (Top)
+**From Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ In competition and training contexts, the Gift Wrap serves as a transitional hub
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Gift Wrap]] | 65% |
-| Failure | [[Kuzure Kesa-Gatame]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Gift Wrap]] | 65% |
+| Failure | [[Positions/Side Control/Kuzure Kesa-Gatame]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -189,23 +189,23 @@ Gift Wrap Control functions as a transitional hub within the side control and mo
 ## Related Techniques
 
 
-- [[Kuzure Kesa-Gatame]] - Starting position—Gift Wrap is established from this modified scarf hold
+- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Starting position—Gift Wrap is established from this modified scarf hold
 
-- [[Gift Wrap]] - Target position—the control configuration achieved by this transition
+- [[Positions/Gift Wrap]] - Target position—the control configuration achieved by this transition
 
-- [[Mount]] - Common follow-up—Gift Wrap facilitates low-resistance mount transition
+- [[Positions/Mount]] - Common follow-up—Gift Wrap facilitates low-resistance mount transition
 
-- [[Back Take from Top]] - Chain attack—opponent turning away from Gift Wrap exposes back
+- [[Transitions/Back Take from Top]] - Chain attack—opponent turning away from Gift Wrap exposes back
 
-- [[Side Control to Mount]] - Alternative transition—used when Gift Wrap is not available
+- [[Transitions/Side Control to Mount]] - Alternative transition—used when Gift Wrap is not available
 
-- [[Arm Triangle]] - Submission option—wrapped arm position can set up arm triangle
+- [[Transitions/Arm Triangle]] - Submission option—wrapped arm position can set up arm triangle
 
-- [[Kimura from Side Control]] - Alternative attack—used when arm extends during wrap attempt
+- [[Submissions/Kimura from Side Control]] - Alternative attack—used when arm extends during wrap attempt
 
-- [[Americana from Side Control]] - Alternative attack—available when opponent posts defensively
+- [[Submissions/Americana from Side Control]] - Alternative attack—available when opponent posts defensively
 
-- [[Cross Collar Choke]] - Submission from Gift Wrap—wrapped arm assists collar control
+- [[Transitions/Cross Collar Choke]] - Submission from Gift Wrap—wrapped arm assists collar control
 
 
 </section>

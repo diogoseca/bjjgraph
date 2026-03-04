@@ -180,7 +180,7 @@ description: "Master the attacker perspective for Technical Stand Up from Open G
 
 As the attacker executing the Technical Stand Up from Open Guard, your objective is to safely transition from your seated or supine open guard position to a fully standing position while maintaining defensive integrity throughout the movement. This requires coordinating your posting hand, base foot, and defensive frames in a specific sequence that prevents your opponent from capitalizing on the transitional vulnerability inherent in any standing motion. The key challenge is managing the moment of commitment where you shift from a guard-based defensive structure to a standing posture, as this transition point creates a brief window where you are neither fully in guard nor fully standing. Mastery of this technique transforms your open guard game by adding a credible standing threat that forces your opponent to maintain engagement, opening up sweep and submission opportunities from guard.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Technical Stand Up from Open Guard, your objective
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Open Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Open Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Technical Stand Up from Open Guard, your objective
 
 ## Opponent Counters
 
-- **Opponent rushes forward with pressure as you begin posting your hand behind your hip** (Effectiveness: High) - Your Response: Abandon the stand-up attempt early and use the posting hand to push their head down while re-establishing guard hooks. Alternatively, convert their forward momentum into a sweep by loading them onto butterfly hooks or collar dragging them past you. → Leads to [[Open Guard]]
-- **Opponent grabs your ankle or pant leg as you elevate your hips to prevent the base foot from setting** (Effectiveness: Medium) - Your Response: Kick the controlled leg free by circling your foot outward and pulling sharply. If the grip persists, use your free foot to push on their gripping-side shoulder to create enough separation to extract your leg. Do not attempt to stand with a controlled leg. → Leads to [[Open Guard]]
-- **Opponent shoots a takedown as you reach the final standing phase with feet coming together** (Effectiveness: High) - Your Response: Immediately sprawl by driving your hips back and down while posting both hands on their head and shoulders. If the sprawl fails or is too late, sit back and pull guard rather than getting taken down to a compromised position. Decisive commitment to sprawl or guard pull is critical. → Leads to [[Half Guard]]
-- **Opponent circles laterally to cut off your angle and re-establish a passing position during the stand-up** (Effectiveness: Medium) - Your Response: Adjust your posting angle to match their movement and keep your distance-controlling foot tracking their hips. If they gain a significant angle, abort the stand-up and re-establish guard facing them directly before reattempting from a better position. → Leads to [[Open Guard]]
+- **Opponent rushes forward with pressure as you begin posting your hand behind your hip** (Effectiveness: High) - Your Response: Abandon the stand-up attempt early and use the posting hand to push their head down while re-establishing guard hooks. Alternatively, convert their forward momentum into a sweep by loading them onto butterfly hooks or collar dragging them past you. → Leads to [[Positions/Open Guard]]
+- **Opponent grabs your ankle or pant leg as you elevate your hips to prevent the base foot from setting** (Effectiveness: Medium) - Your Response: Kick the controlled leg free by circling your foot outward and pulling sharply. If the grip persists, use your free foot to push on their gripping-side shoulder to create enough separation to extract your leg. Do not attempt to stand with a controlled leg. → Leads to [[Positions/Open Guard]]
+- **Opponent shoots a takedown as you reach the final standing phase with feet coming together** (Effectiveness: High) - Your Response: Immediately sprawl by driving your hips back and down while posting both hands on their head and shoulders. If the sprawl fails or is too late, sit back and pull guard rather than getting taken down to a compromised position. Decisive commitment to sprawl or guard pull is critical. → Leads to [[Positions/Half Guard]]
+- **Opponent circles laterally to cut off your angle and re-establish a passing position during the stand-up** (Effectiveness: Medium) - Your Response: Adjust your posting angle to match their movement and keep your distance-controlling foot tracking their hips. If they gain a significant angle, abort the stand-up and re-establish guard facing them directly before reattempting from a better position. → Leads to [[Positions/Open Guard]]
 
 
 </section>

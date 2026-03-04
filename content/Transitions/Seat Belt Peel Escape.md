@@ -21,7 +21,7 @@ Strategically, the Seat Belt Peel Escape occupies a specific niche within the ba
 
 The technique requires patience and precise hand mechanics rather than explosive athleticism. The peeling motion works by isolating the opponent's over-arm (the arm draped over your shoulder) and using both hands in a coordinated stripping action that pulls their hand toward your hip while your body creates rotational torque through hip escape. The success rate of 30% reflects the difficulty of breaking a well-established seat belt against a skilled opponent, but the technique's value extends beyond its direct success rate. Even partially successful peel attempts degrade the opponent's grip quality, create micro-spaces that accumulate over multiple attempts, and force the opponent to expend energy reinforcing their connection rather than progressing toward submissions.
 
-**From Position**: [[Seat Belt Control Back]] (Bottom)
+**From Position**: [[Positions/Back Control/Seat Belt Control Back]] (Bottom)
 **Success Rate**: 30%
 
 </section>
@@ -32,9 +32,9 @@ The technique requires patience and precise hand mechanics rather than explosive
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 30% |
-| Failure | [[Seat Belt Control Back]] | 45% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 30% |
+| Failure | [[Positions/Back Control/Seat Belt Control Back]] | 45% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Seat Belt Peel Escape integrates into the broader back escape system as a gr
 ## Related Techniques
 
 
-- [[Seat Belt Control Back]] - Source position - the specific back control configuration this escape targets
+- [[Positions/Back Control/Seat Belt Control Back]] - Source position - the specific back control configuration this escape targets
 
-- [[Half Guard]] - Primary escape destination when grip break enables hip escape and guard recovery
+- [[Positions/Half Guard]] - Primary escape destination when grip break enables hip escape and guard recovery
 
-- [[Back Control]] - Counter outcome position when opponent adjusts to standard back control during escape attempt
+- [[Positions/Back Control]] - Counter outcome position when opponent adjusts to standard back control during escape attempt
 
-- [[Escape Seat Belt Control]] - Related broader escape system that includes grip breaks as one component of full escape sequence
+- [[Transitions/Escape Seat Belt Control]] - Related broader escape system that includes grip breaks as one component of full escape sequence
 
-- [[Hand Fight from Seat Belt Control]] - Complementary hand fighting transition that often precedes or follows peel escape attempts
+- [[Transitions/Hand Fight from Seat Belt Control]] - Complementary hand fighting transition that often precedes or follows peel escape attempts
 
-- [[Hip Escape from Back Control]] - Follow-up escape technique executed after successful grip separation to complete positional recovery
+- [[Transitions/Hip Escape from Back Control]] - Follow-up escape technique executed after successful grip separation to complete positional recovery
 
-- [[Elbow Escape from Back]] - Alternative escape method that addresses hooks rather than grips as primary target
+- [[Transitions/Elbow Escape from Back]] - Alternative escape method that addresses hooks rather than grips as primary target
 
-- [[Back Door Escape]] - Alternative escape pathway using different mechanics to escape back control
+- [[Transitions/Back Door Escape]] - Alternative escape pathway using different mechanics to escape back control
 
-- [[Turtle]] - Alternative escape target position when half guard recovery is not available
+- [[Positions/Turtle]] - Alternative escape target position when half guard recovery is not available
 
-- [[Rear Naked Choke]] - Primary submission threat that must be defended before attempting grip peel
+- [[Transitions/Rear Naked Choke]] - Primary submission threat that must be defended before attempting grip peel
 
-- [[Body Triangle]] - Back control variation where peel escape becomes more difficult due to enhanced lower body control
+- [[Positions/Back Control/Body Triangle]] - Back control variation where peel escape becomes more difficult due to enhanced lower body control
 
 
 </section>

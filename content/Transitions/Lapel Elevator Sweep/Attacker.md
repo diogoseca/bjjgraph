@@ -178,7 +178,7 @@ The sweep works by combining a butterfly hook elevation with the pulling tension
 
 Strategically, the Lapel Elevator Sweep fits into the broader lapel guard attack system as a primary sweeping threat that creates dilemmas. Opponents who defend the sweep by keeping heavy base expose themselves to back takes and omoplata entries. Those who try to clear the lapel configuration first open windows for the sweep execution. This technique rewards patience and positional awareness over explosive athleticism.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategically, the Lapel Elevator Sweep fits into the broader lapel guard attack
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 65% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount]] | 65% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, the Lapel Elevator Sweep fits into the broader lapel guard attack
 
 ## Opponent Counters
 
-- **Opponent postures up and creates distance to reduce lapel tension** (Effectiveness: High) - Your Response: Follow their posture with your hips, sitting up aggressively to maintain lapel tension and threaten back take or collar drag → Leads to [[Lapel Guard]]
-- **Opponent posts their free hand wide to base out against the sweep direction** (Effectiveness: Medium) - Your Response: Switch to omoplata entry on the posting arm—their base post becomes the setup for shoulder lock control → Leads to [[Lapel Guard]]
-- **Opponent drops weight and drives forward to pressure pass through your guard** (Effectiveness: Medium) - Your Response: This actually loads the sweep—time your elevation to catch their forward momentum and redirect it into the sweep → Leads to [[Half Guard]]
-- **Opponent strips the lapel grip by pulling fabric back aggressively** (Effectiveness: Medium) - Your Response: Transition immediately to spider or lasso guard using the momentum of their grip strip to establish new control points → Leads to [[Lapel Guard]]
+- **Opponent postures up and creates distance to reduce lapel tension** (Effectiveness: High) - Your Response: Follow their posture with your hips, sitting up aggressively to maintain lapel tension and threaten back take or collar drag → Leads to [[Positions/Lapel Guard]]
+- **Opponent posts their free hand wide to base out against the sweep direction** (Effectiveness: Medium) - Your Response: Switch to omoplata entry on the posting arm—their base post becomes the setup for shoulder lock control → Leads to [[Positions/Lapel Guard]]
+- **Opponent drops weight and drives forward to pressure pass through your guard** (Effectiveness: Medium) - Your Response: This actually loads the sweep—time your elevation to catch their forward momentum and redirect it into the sweep → Leads to [[Positions/Half Guard]]
+- **Opponent strips the lapel grip by pulling fabric back aggressively** (Effectiveness: Medium) - Your Response: Transition immediately to spider or lasso guard using the momentum of their grip strip to establish new control points → Leads to [[Positions/Lapel Guard]]
 
 
 </section>

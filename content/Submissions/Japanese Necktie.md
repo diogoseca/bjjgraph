@@ -22,7 +22,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Front Headlock]]
+**Starting Position**: [[Positions/Front Headlock]]
 **Success Rate**: 58%
 
 </section>
@@ -78,8 +78,8 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -226,14 +226,14 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 ## From Which Positions?
 
-- [[Front Headlock]]
-- [[Turtle]]
-- [[Combat Base]]
-- [[Scramble Position]]
-- [[Clinch]]
-- [[Kesa Gatame]]
-- [[Side Control]]
-- [[North-South]]
+- [[Positions/Front Headlock]]
+- [[Positions/Turtle]]
+- [[Positions/Combat Base]]
+- [[Positions/Scramble Position]]
+- [[Positions/Clinch]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
 
 
 </section>
@@ -242,17 +242,17 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 ## Related Submissions
 
-- [[Guillotine Choke]]
-- [[Anaconda Choke]]
-- [[Darce Choke]]
-- [[Peruvian Necktie]]
-- [[Arm Triangle]]
-- [[Rear Naked Choke]]
-- [[High Elbow Guillotine]]
-- [[Arm in Guillotine]]
-- [[North-South Choke]]
-- [[Baseball Bat Choke]]
-- [[Brabo Choke]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Anaconda Choke]]
+- [[Transitions/Darce Choke]]
+- [[Submissions/Peruvian Necktie]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/Rear Naked Choke]]
+- [[Submissions/High Elbow Guillotine]]
+- [[Submissions/Arm in Guillotine]]
+- [[Transitions/North-South Choke]]
+- [[Transitions/Baseball Bat Choke]]
+- [[Submissions/Brabo Choke]]
 
 
 </section>
@@ -261,16 +261,16 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 ## Additional Related Content
 
-- [[Front Headlock]] - Primary position for Japanese Necktie setups and entries
-- [[Guillotine Setup]] - Alternative finish from similar front headlock control
-- [[Anaconda Setup]] - Common chain attack when Japanese Necktie arm trap fails
-- [[Darce Setup]] - Alternative front headlock submission using opposite arm configuration
-- [[Front Headlock to Anaconda]] - Transition path when opponent defends Japanese Necktie by extracting trapped arm
-- [[Front Headlock to Darce]] - Alternative attack from same starting position
-- [[Turtle]] - Primary defensive position where Japanese Necktie opportunities arise
-- [[Closed Guard]] - Position reached if opponent turns into you during finish attempt
-- [[Half Guard]] - Position where reverse variation can be applied from bottom
-- [[Crucifix]] - Alternative arm trap position from turtle top
+- [[Positions/Front Headlock]] - Primary position for Japanese Necktie setups and entries
+- [[Transitions/Guillotine Setup]] - Alternative finish from similar front headlock control
+- [[Transitions/Anaconda Setup]] - Common chain attack when Japanese Necktie arm trap fails
+- [[Transitions/Darce Setup]] - Alternative front headlock submission using opposite arm configuration
+- [[Transitions/Front Headlock to Anaconda]] - Transition path when opponent defends Japanese Necktie by extracting trapped arm
+- [[Transitions/Front Headlock to Darce]] - Alternative attack from same starting position
+- [[Positions/Turtle]] - Primary defensive position where Japanese Necktie opportunities arise
+- [[Positions/Closed Guard]] - Position reached if opponent turns into you during finish attempt
+- [[Positions/Half Guard]] - Position where reverse variation can be applied from bottom
+- [[Positions/Crucifix]] - Alternative arm trap position from turtle top
 
 
 </section>

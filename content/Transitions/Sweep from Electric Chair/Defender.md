@@ -154,7 +154,7 @@ description: "Defend and counter the Sweep from Electric Chair in BJJ. Recogniti
 
 Defending the Sweep from Electric Chair requires early recognition of the lockdown setup and systematic counter-measures targeting the three control points that make the sweep possible. As the defender in the top position, you face the dual threat of submission and sweep, making prioritization critical. Your primary objectives are to neutralize the splitting pressure, prevent the underhook from reaching optimal depth, and work systematically to extract your trapped leg from the lockdown configuration. Success demands patience, proper forward weight distribution, and understanding that rushing the escape with explosive movements often creates worse positions than the one you are currently defending. The key insight is that every element of the Electric Chair depends on the lockdown remaining intact, so methodical lockdown breaking is your most reliable defensive strategy.
 
-**Opponent's Starting Position**: [[Electric Chair]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Sweep from Electric Chair requires early recognition of the lockdo
 ### 1. Drive weight forward with heavy chest pressure while posting far hand on mat for tripod base
 
 - **When to use**: When opponent begins the sweep motion and you feel your base being compromised by the splitting pressure
-- **Targets**: [[Electric Chair]]
+- **Targets**: [[Positions/Half Guard/Electric Chair]]
 - **If successful**: Sweep is stopped and opponent remains in Electric Chair bottom, allowing you to begin systematic lockdown escape
 - **Risk**: If opponent redirects to Old School sweep using your forward momentum, you may be swept in a different direction
 
 ### 2. Establish deep crossface and whizzer on underhooking arm while maintaining forward pressure
 
 - **When to use**: When opponent is establishing the underhook but has not yet secured ankle control for the split
-- **Targets**: [[Electric Chair]]
+- **Targets**: [[Positions/Half Guard/Electric Chair]]
 - **If successful**: Underhook is neutralized and opponent loses the primary sweeping lever, reducing sweep percentage significantly
 - **Risk**: Excessive focus on the whizzer can divide attention from lockdown escape and sweep defense simultaneously
 
 ### 3. Break lockdown by addressing foot triangle and extracting trapped leg systematically
 
 - **When to use**: When opponent pauses between attacks or reduces lockdown tension during grip adjustments
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You pass to side control or recover to half guard top where the Electric Chair threat is completely eliminated
 - **Risk**: Failed extraction attempts increase torque on trapped knee joint and may tighten the lockdown further
 
 ### 4. Strip opponent's ankle grip with near hand before they establish the splitting action
 
 - **When to use**: The moment opponent reaches for your ankle, before they secure the grip and begin pulling
-- **Targets**: [[Electric Chair]]
+- **Targets**: [[Positions/Half Guard/Electric Chair]]
 - **If successful**: Without ankle control, opponent cannot generate the splitting pressure needed for either sweep or submission
 - **Risk**: Reaching for the ankle grip can temporarily compromise your crossface control
 
@@ -225,11 +225,11 @@ Defending the Sweep from Electric Chair requires early recognition of the lockdo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Break the lockdown configuration by addressing the foot triangle with knee pressure and hand separation, then use your freed leg to immediately pass to side control. Time the pass during opponent's grip adjustments or when they momentarily reduce lockdown tension to re-grip.
 
-### → [[Electric Chair]]
+### → [[Positions/Half Guard/Electric Chair]]
 
 Shut down the sweep by driving forward pressure with your chest and establishing crossface control. Once the immediate sweep threat is neutralized, work systematically to break the lockdown. Maintaining this position buys time to address the lockdown without conceding the sweep.
 

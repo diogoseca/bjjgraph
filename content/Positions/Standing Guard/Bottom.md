@@ -210,31 +210,31 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 
 ## Available Escapes
 
-### [[Pull guard]] (36% of attempts)
+### [[Transitions/Pull guard]] (36% of attempts)
 
-### [[Sitting Guard Pull]] (10% of attempts)
+### [[Transitions/Sitting Guard Pull]] (10% of attempts)
 
-### [[Shin to Shin Pull]] (8% of attempts)
+### [[Transitions/Shin to Shin Pull]] (8% of attempts)
 
-### [[Standing to Single Leg X]] (7% of attempts)
+### [[Transitions/Standing to Single Leg X]] (7% of attempts)
 
-### [[Ankle Pick]] (7% of attempts)
+### [[Transitions/Ankle Pick]] (7% of attempts)
 
-### [[Arm Drag to Back]] (6% of attempts)
+### [[Transitions/Arm Drag to Back]] (6% of attempts)
 
-### [[Rolling Guard Pull]] (5% of attempts)
+### [[Transitions/Rolling Guard Pull]] (5% of attempts)
 
-### [[Double Leg Entry]] (6% of attempts)
+### [[Transitions/Double Leg Entry]] (6% of attempts)
 
-### [[Single Leg Entry]] (6% of attempts)
+### [[Transitions/Single Leg Entry]] (6% of attempts)
 
-### [[Snap Down to Front Headlock]] (5% of attempts)
+### [[Transitions/Snap Down to Front Headlock]] (5% of attempts)
 
-### [[Pull Guard from Ground]] (2% of attempts)
+### [[Transitions/Pull Guard from Ground]] (2% of attempts)
 
-### [[Technical Stand Up from Ground]] (1% of attempts)
+### [[Transitions/Technical Stand Up from Ground]] (1% of attempts)
 
-### [[Sweep from Standing Guard]] (1% of attempts)
+### [[Transitions/Sweep from Standing Guard]] (1% of attempts)
 
 
 
@@ -245,33 +245,33 @@ Modern guard players use Standing Guard Bottom as a tactical platform for enteri
 ## Decision Making from This Position
 
 **If opponent drives forward aggressively trying to close distance:**
-- Execute **[[Pull guard]]** → [[Closed Guard]] (Probability: 65%)
-- Execute **[[Sitting Guard Pull]]** → [[Seated Guard]] (Probability: 55%)
-- Execute **[[Circular footwork retreat]]** → [[Standing Guard]] (Probability: 70%)
+- Execute **[[Transitions/Pull guard]]** → [[Positions/Closed Guard]] (Probability: 65%)
+- Execute **[[Transitions/Sitting Guard Pull]]** → [[Positions/Seated Guard]] (Probability: 55%)
+- Execute **[[Circular footwork retreat]]** → [[Positions/Standing Guard]] (Probability: 70%)
 
 
 **If opponent establishes collar and sleeve grips in gi:**
-- Execute **[[Grip Break]]** → [[Standing Guard]] (Probability: 60%)
-- Execute **[[Collar Drag]]** → [[Back Control]] (Probability: 45%)
-- Execute **[[Pull guard]]** → [[Closed Guard]] (Probability: 70%)
+- Execute **[[Transitions/Grip Break]]** → [[Positions/Standing Guard]] (Probability: 60%)
+- Execute **[[Transitions/Collar Drag]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Pull guard]]** → [[Positions/Closed Guard]] (Probability: 70%)
 
 
 **If opponent shoots for single or double leg takedown:**
-- Execute **[[Sprawl Defense]]** → [[Front Headlock]] (Probability: 55%)
-- Execute **[[Guillotine Setup]]** → [[Guillotine Control]] (Probability: 40%)
-- Execute **[[Wizzer defense]]** → [[Standing Guard]] (Probability: 50%)
+- Execute **[[Transitions/Sprawl Defense]]** → [[Positions/Front Headlock]] (Probability: 55%)
+- Execute **[[Transitions/Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 40%)
+- Execute **[[Wizzer defense]]** → [[Positions/Standing Guard]] (Probability: 50%)
 
 
 **If opponent attempts snap-down or front headlock control:**
-- Execute **[[Posture Up]]** → [[Standing Guard]] (Probability: 65%)
-- Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 45%)
-- Execute **[[Pull guard]]** → [[Closed Guard]] (Probability: 60%)
+- Execute **[[Principles/Posture Up]]** → [[Positions/Standing Guard]] (Probability: 65%)
+- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Pull guard]]** → [[Positions/Closed Guard]] (Probability: 60%)
 
 
 **If opponent is passive or maintaining distance defensively:**
-- Execute **[[Ankle Pick]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Single Leg Entry]]** → [[Side Control]] (Probability: 48%)
-- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 42%)
+- Execute **[[Transitions/Ankle Pick]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Single Leg Entry]]** → [[Positions/Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 42%)
 
 
 
@@ -417,15 +417,15 @@ Start standing with grips engaged. Bottom player must successfully pull guard to
 
 ## Related Positions and Techniques
 
-- **[[Standing Position]]** - Base standing posture before establishing defensive structure
-- **[[Closed Guard]]** - Common transition target via guard pull
-- **[[Seated Guard]]** - Alternative guard pull target position
-- **[[Combat Base]]** - Related standing defensive posture concept
-- **[[Butterfly Guard]]** - Common guard type accessed from sitting pull
-- **[[De La Riva Guard]]** - Advanced guard entry from standing
-- **[[Pull guard]]** - Primary transition technique from this position
-- **[[Sitting Guard Pull]]** - Essential transition to seated guard positions
-- **[[Front Headlock]]** - Position to achieve after successful snap-down
+- **[[Positions/Standing Position]]** - Base standing posture before establishing defensive structure
+- **[[Positions/Closed Guard]]** - Common transition target via guard pull
+- **[[Positions/Seated Guard]]** - Alternative guard pull target position
+- **[[Positions/Combat Base]]** - Related standing defensive posture concept
+- **[[Positions/Butterfly Guard]]** - Common guard type accessed from sitting pull
+- **[[Positions/De La Riva Guard]]** - Advanced guard entry from standing
+- **[[Transitions/Pull guard]]** - Primary transition technique from this position
+- **[[Transitions/Sitting Guard Pull]]** - Essential transition to seated guard positions
+- **[[Positions/Front Headlock]]** - Position to achieve after successful snap-down
 
 
 </section>

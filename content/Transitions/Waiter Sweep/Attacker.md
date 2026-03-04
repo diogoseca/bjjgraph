@@ -174,7 +174,7 @@ description: "How to execute the Waiter Sweep from Butterfly Guard in BJJ. Step-
 
 The Waiter Sweep is a fundamental butterfly guard technique that derives its name from the characteristic hand position resembling a waiter carrying a tray. This sweep capitalizes on creating an asymmetrical control structure—combining an underhook on one side with an overhook or collar grip on the other—that severely compromises the opponent's base and posture. The technique works by using butterfly hooks to elevate the opponent while simultaneously using grips to break their posting ability, creating a clean sweep to side control or mount. Unlike pure lifting sweeps that rely heavily on strength, the Waiter Sweep uses leverage and timing to redirect the opponent's weight, making it accessible to practitioners of all sizes and strength levels. The sweep is effective in both gi and no-gi contexts, though the grip variations differ slightly between formats. Its high success rate across skill levels stems from its fundamental reliance on destroying base and creating directional momentum rather than explosive power.
 
-**From Position**: [[Butterfly Guard]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
 
@@ -226,9 +226,9 @@ The Waiter Sweep is a fundamental butterfly guard technique that derives its nam
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 68% |
-| Failure | [[Butterfly Guard]] | 20% |
-| Counter | [[Butterfly Guard]] | 12% |
+| Success | [[Positions/Side Control]] | 68% |
+| Failure | [[Positions/Butterfly Guard]] | 20% |
+| Counter | [[Positions/Butterfly Guard]] | 12% |
 
 
 </section>
@@ -237,10 +237,10 @@ The Waiter Sweep is a fundamental butterfly guard technique that derives its nam
 
 ## Opponent Counters
 
-- **Opponent posts with far arm to prevent sweep completion** (Effectiveness: High) - Your Response: Switch to back take by releasing overhook and swimming your arm around their back as they post. Their extended arm exposes the back. Alternatively, transition to the opposite-side sweep using their posted arm as a lever. → Leads to [[Butterfly Guard]]
-- **Opponent sprawls legs back to remove butterfly hook leverage** (Effectiveness: Medium) - Your Response: Follow their backward momentum by transitioning to single leg X-guard or deep half guard. If one hook remains, convert to half butterfly and reset sweep attempts from the new configuration. → Leads to [[Butterfly Guard]]
-- **Opponent counters with strong whizzer on underhook side** (Effectiveness: Medium) - Your Response: Use the whizzer pressure to assist a roll underneath for a back take, or release the underhook entirely and re-pummel to a different grip configuration for an alternative sweep angle. → Leads to [[Butterfly Guard]]
-- **Opponent bases wide with legs to increase lateral stability against the rotational sweep** (Effectiveness: Low) - Your Response: A wide base creates vulnerability to directional changes and forward/backward attacks. Switch sweep direction, attack with guillotine as their head drops, or enter X-guard between the widened legs. → Leads to [[Butterfly Guard]]
+- **Opponent posts with far arm to prevent sweep completion** (Effectiveness: High) - Your Response: Switch to back take by releasing overhook and swimming your arm around their back as they post. Their extended arm exposes the back. Alternatively, transition to the opposite-side sweep using their posted arm as a lever. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent sprawls legs back to remove butterfly hook leverage** (Effectiveness: Medium) - Your Response: Follow their backward momentum by transitioning to single leg X-guard or deep half guard. If one hook remains, convert to half butterfly and reset sweep attempts from the new configuration. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent counters with strong whizzer on underhook side** (Effectiveness: Medium) - Your Response: Use the whizzer pressure to assist a roll underneath for a back take, or release the underhook entirely and re-pummel to a different grip configuration for an alternative sweep angle. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent bases wide with legs to increase lateral stability against the rotational sweep** (Effectiveness: Low) - Your Response: A wide base creates vulnerability to directional changes and forward/backward attacks. Switch sweep direction, attack with guillotine as their head drops, or enter X-guard between the widened legs. → Leads to [[Positions/Butterfly Guard]]
 
 
 </section>

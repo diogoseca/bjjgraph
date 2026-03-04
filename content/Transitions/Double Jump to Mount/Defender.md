@@ -156,7 +156,7 @@ Defending the Double Jump to Mount transition requires recognizing the critical 
 
 The defender must understand that passive resistance from a flattened belly-down position is precisely what makes this transition viable for the attacker. Active defensive engagement requires rebuilding base, creating angles through hip movement, and turning to face the opponent during the transition rather than remaining prone. The mechanical sequence of the step-over creates predictable weight shifts that an aware defender can anticipate and exploit, using the attacker's own transitional movement as the trigger for defensive actions that are most effective when the attacker's control is at its weakest point between two stable positions.
 
-**Opponent's Starting Position**: [[Double Jump]] (Top)
+**Opponent's Starting Position**: [[Positions/Double Jump]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The defender must understand that passive resistance from a flattened belly-down
 ### 1. Turn into opponent and recover half guard during hook extraction
 
 - **When to use**: When the first hook is extracted and control is transitionally weakened, immediately hip escape and turn to face the attacker
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover to half guard top position, reversing the positional hierarchy and neutralizing the mount threat entirely
 - **Risk**: If timing is late, the attacker may follow your turn to take the back instead of completing the mount
 
 ### 2. Rebuild turtle base and recover active defensive posture
 
 - **When to use**: When the attacker begins extracting hooks but has not yet initiated the step-over, immediately drive up to hands and knees
-- **Targets**: [[Double Jump]]
+- **Targets**: [[Positions/Double Jump]]
 - **If successful**: Prevent mount advancement and force attacker to re-establish hooks or pursue alternative attacks from turtle top
 - **Risk**: If base recovery is incomplete, attacker may re-establish hooks with improved control or redirect to back take
 
 ### 3. Time bridge during step-over to exploit asymmetric weight distribution
 
 - **When to use**: During the step-over phase when the attacker's weight is shifting to one side and their balance is most compromised
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Bridge creates enough disruption to prevent mount settlement, creating opportunity to insert knee and recover half guard
 - **Risk**: Mistimed bridge wastes energy without preventing mount and may accelerate the attacker's weight drop into established mount
 
 ### 4. Hip escape and insert knee shield as mount begins settling
 
 - **When to use**: In the final phase when the step-over is completing but mount weight has not fully settled, shrimp away and insert knee
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Knee insertion prevents full mount establishment and creates half guard recovery or open guard distance
 - **Risk**: Late execution allows mount to consolidate before knee insertion, making escape significantly more difficult
 
@@ -227,7 +227,7 @@ The defender must understand that passive resistance from a flattened belly-down
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your hip escape during the hook extraction phase when the attacker's lower body control is at its weakest. Turn your body to face the opponent while inserting your knee across their hip line to prevent the step-over from completing. The most effective timing is the moment between first hook extraction and the step-over initiation.
 

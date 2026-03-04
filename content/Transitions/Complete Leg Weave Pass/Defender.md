@@ -154,7 +154,7 @@ description: "Defend and counter the Complete Leg Weave Pass in BJJ. Recognition
 
 Defending the Complete Leg Weave Pass requires understanding the critical window between established leg weave control and completed side control. As the defender, you face a narrowing set of options as the passer progresses through the extraction sequence—the earlier you intervene in the pass completion, the higher your success rate. The primary defensive strategy centers on maintaining your remaining half guard hook while creating frames that prevent the passer from anchoring their upper body for the extraction. Secondary strategies involve counter-attacks that exploit the passer's weight shift during leg extraction, including deep half guard entries, underhook scrambles, and knee shield re-insertions. The defender who reads the passer's intention and acts before the extraction begins has dramatically better outcomes than one who reacts after the leg is already clearing. Timing, frame discipline, and commitment to a specific defensive pathway are the defining factors of successful defense against this pass.
 
-**Opponent's Starting Position**: [[Leg Weave]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Weave]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Complete Leg Weave Pass requires understanding the critical window
 ### 1. Frame against passer's shoulder and hip escape to re-insert knee shield
 
 - **When to use**: When you detect the passer consolidating upper body pressure but before leg extraction begins. Your frames must be established before their weight fully settles.
-- **Targets**: [[Leg Weave]]
+- **Targets**: [[Positions/Leg Weave]]
 - **If successful**: Knee shield re-insertion disrupts the weave structure and forces the passer to address your defensive frame before reattempting the pass, resetting the position.
 - **Risk**: If your frame is too weak or late, the passer drives through it and uses your hip movement to accelerate the extraction.
 
 ### 2. Dive for deep half guard entry during weight transfer phase
 
 - **When to use**: When the passer shifts weight to their upper body for extraction, momentarily lightening their hip pressure. This creates the space needed to shoot underneath them.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Deep half guard entry reverses the positional advantage and gives you sweep options from underneath the passer's base.
 - **Risk**: If the passer reads the entry and sprawls, you end up flattened with reduced defensive options and the pass becomes easier to complete.
 
 ### 3. Bridge and re-engage half guard hook during extraction movement
 
 - **When to use**: When you feel the passer's leg beginning to rotate free. An explosive bridge disrupts their balance during the mechanically vulnerable extraction phase.
-- **Targets**: [[Leg Weave]]
+- **Targets**: [[Positions/Leg Weave]]
 - **If successful**: The bridge forces the passer to reset their base and abandon the extraction attempt, returning to the leg weave position where you have defensive options.
 - **Risk**: If the bridge is absorbed, you have spent significant energy without changing position, and the passer can time their next extraction between your recovery breaths.
 
 ### 4. Secure underhook and fight to dogfight position
 
 - **When to use**: When the passer's crossface loosens during the transition between extraction and side control establishment. This brief window allows you to come up on your elbow and fight for the underhook.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Establishing the underhook and coming to your knees transitions you to dogfight position where you have sweep and back take options.
 - **Risk**: If the passer maintains strong crossface during the transition, your underhook attempt exposes your back to potential back takes.
 
@@ -225,11 +225,11 @@ Defending the Complete Leg Weave Pass requires understanding the critical window
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your counter-attack to the passer's weight transfer phase. As they shift weight to their upper body for extraction, either dive for deep half guard entry underneath their elevated hips, or secure an underhook and fight to dogfight position. Both options exploit the momentary reduction in hip pressure that the extraction requires.
 
-### → [[Leg Weave]]
+### → [[Positions/Leg Weave]]
 
 Maintain active frames against the passer's shoulder and hip while preserving your half guard hook. Use constant hip movement to prevent the passer from settling the upper body anchor needed for extraction. If the extraction begins, bridge explosively to disrupt their balance and force a position reset. While still disadvantageous, preventing the pass completion preserves your defensive options.
 

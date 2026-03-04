@@ -178,7 +178,7 @@ Strategically, this transition exploits the opponent's moment of success—when 
 
 The transition also serves as intelligent position management within gi-based guard systems. Both lapel guard and lasso guard share sleeve control as a foundation, making the transition mechanically intuitive once drilled. Advanced practitioners treat these positions as interconnected systems rather than isolated guards, flowing between them based on opponent reactions. Mastering this transition transforms potential guard recovery situations into offensive opportunities, maintaining constant pressure even when your primary guard is threatened.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ The transition also serves as intelligent position management within gi-based gu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Lasso Guard]] | 65% |
-| Failure | [[Lapel Guard]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Lasso Guard]] | 65% |
+| Failure | [[Positions/Lapel Guard]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -240,9 +240,9 @@ The transition also serves as intelligent position management within gi-based gu
 
 ## Opponent Counters
 
-- **Opponent immediately steps over your threading leg before lasso is established, preventing the shin from crossing their arm** (Effectiveness: High) - Your Response: If they step over, immediately transition to De La Riva guard using the same leg, hooking their lead leg from outside while maintaining sleeve control → Leads to [[Lapel Guard]]
-- **Opponent drives aggressive forward pressure through your transition attempt, smashing your hips flat and preventing angle creation** (Effectiveness: Medium) - Your Response: Accept the pressure and transition to closed guard or butterfly guard instead, using their forward momentum to establish hooks under their thighs → Leads to [[Half Guard]]
-- **Opponent strips sleeve grip during the transition moment when you're between positions and control is weakest** (Effectiveness: Medium) - Your Response: Immediately pummel for collar grip with both hands and frame against their shoulders, creating space to re-establish open guard controls or retreat to closed guard → Leads to [[Lapel Guard]]
+- **Opponent immediately steps over your threading leg before lasso is established, preventing the shin from crossing their arm** (Effectiveness: High) - Your Response: If they step over, immediately transition to De La Riva guard using the same leg, hooking their lead leg from outside while maintaining sleeve control → Leads to [[Positions/Lapel Guard]]
+- **Opponent drives aggressive forward pressure through your transition attempt, smashing your hips flat and preventing angle creation** (Effectiveness: Medium) - Your Response: Accept the pressure and transition to closed guard or butterfly guard instead, using their forward momentum to establish hooks under their thighs → Leads to [[Positions/Half Guard]]
+- **Opponent strips sleeve grip during the transition moment when you're between positions and control is weakest** (Effectiveness: Medium) - Your Response: Immediately pummel for collar grip with both hands and frame against their shoulders, creating space to re-establish open guard controls or retreat to closed guard → Leads to [[Positions/Lapel Guard]]
 
 
 </section>

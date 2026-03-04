@@ -180,7 +180,7 @@ description: "Execute the Ghost Escape from Side Control to open guard. Step-by-
 
 Executing the Ghost Escape from Side Control to open guard requires coordinating the standard ghost escape rotation with a precisely timed knee insertion that establishes a guard barrier before you complete the turn. The critical distinction from the standard ghost escape is that your near knee must thread between your body and the opponent during the rotation rather than after it. This simultaneous turn-and-insert mechanic demands more precise hip control and timing than the standard ghost escape but rewards you with immediate guard recovery instead of the vulnerable turtle position. The technique works because the turning motion creates a momentary gap between your midsection and the opponent's chest, and the knee insertion exploits this gap before it closes. Success depends on reading the opponent's weight distribution, timing the turn with a moment of reduced hip pressure, and committing to the knee drive with enough conviction to establish the barrier before the opponent can settle chest-to-chest contact again.
 
-**From Position**: [[Side Control]] (Bottom)
+**From Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Ghost Escape from Side Control to open guard requires coordinating
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Side Control]] | 30% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Side Control]] | 30% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Ghost Escape from Side Control to open guard requires coordinating
 
 ## Opponent Counters
 
-- **Opponent drives hips low and sprawls weight to prevent the initial turn** (Effectiveness: High) - Your Response: Abandon the ghost escape and switch to a standard hip escape or elbow escape while their hips are committed low. Their sprawl creates upper body space that traditional escapes can exploit. → Leads to [[Side Control]]
-- **Opponent follows the turn closely and prevents knee insertion by maintaining chest contact throughout** (Effectiveness: High) - Your Response: Accept the turtle position and immediately work guard recovery from turtle via sit-through or granby roll. The turn itself is still valuable even without the knee thread. → Leads to [[Turtle]]
-- **Opponent transitions to north-south when they feel you beginning to angle your hips away** (Effectiveness: Medium) - Your Response: Abort the ghost escape and switch to north-south escape sequences. The angle change means their pressure is no longer suited for the crossface-based setup this technique requires. → Leads to [[Side Control]]
-- **Opponent steps over to mount as you expose your hips during the turning phase** (Effectiveness: Medium) - Your Response: Keep the near knee tight to your chest to block the mount transition. If the knee thread is already in progress, accelerate the insertion to establish guard before mount is completed. → Leads to [[Side Control]]
+- **Opponent drives hips low and sprawls weight to prevent the initial turn** (Effectiveness: High) - Your Response: Abandon the ghost escape and switch to a standard hip escape or elbow escape while their hips are committed low. Their sprawl creates upper body space that traditional escapes can exploit. → Leads to [[Positions/Side Control]]
+- **Opponent follows the turn closely and prevents knee insertion by maintaining chest contact throughout** (Effectiveness: High) - Your Response: Accept the turtle position and immediately work guard recovery from turtle via sit-through or granby roll. The turn itself is still valuable even without the knee thread. → Leads to [[Positions/Turtle]]
+- **Opponent transitions to north-south when they feel you beginning to angle your hips away** (Effectiveness: Medium) - Your Response: Abort the ghost escape and switch to north-south escape sequences. The angle change means their pressure is no longer suited for the crossface-based setup this technique requires. → Leads to [[Positions/Side Control]]
+- **Opponent steps over to mount as you expose your hips during the turning phase** (Effectiveness: Medium) - Your Response: Keep the near knee tight to your chest to block the mount transition. If the knee thread is already in progress, accelerate the insertion to establish guard before mount is completed. → Leads to [[Positions/Side Control]]
 
 
 </section>

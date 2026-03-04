@@ -21,7 +21,7 @@ The technique exploits a core vulnerability inherent to lasso guard: the trapped
 
 Strategically, the Lasso Sweep serves as a constant background threat that shapes the entire lasso guard interaction. The top player must always respect the sweep possibility, which restricts their movement options and creates openings for complementary attacks. When the opponent adjusts their base to defend the sweep, they often expose themselves to triangle entries, omoplata setups, or other sweep variations. This makes the Lasso Sweep not just a standalone technique but a central piece in the lasso guard attacking system.
 
-**From Position**: [[Lasso Guard]] (Bottom)
+**From Position**: [[Positions/Lasso Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Lasso Sweep serves as a constant background threat that shape
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Lasso Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Lasso Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Lasso Sweep occupies a central role in the lasso guard offensive system, fun
 ## Related Techniques
 
 
-- [[Lasso Guard]] - Starting position providing the foundational shin-across-arm control for this sweep
+- [[Positions/Lasso Guard]] - Starting position providing the foundational shin-across-arm control for this sweep
 
-- [[Mount]] - Target position achieved on successful sweep completion
+- [[Positions/Mount]] - Target position achieved on successful sweep completion
 
-- [[Sickle Sweep]] - Primary complementary sweep from lasso guard targeting the opposite sweep direction
+- [[Transitions/Sickle Sweep]] - Primary complementary sweep from lasso guard targeting the opposite sweep direction
 
-- [[Omoplata Sweep]] - Alternative sweep option when opponent drives forward to defend the Lasso Sweep
+- [[Transitions/Omoplata Sweep]] - Alternative sweep option when opponent drives forward to defend the Lasso Sweep
 
-- [[Triangle Setup]] - Chain attack available when opponent posts hand to defend sweep, exposing arm across centerline
+- [[Transitions/Triangle Setup]] - Chain attack available when opponent posts hand to defend sweep, exposing arm across centerline
 
-- [[Spider Guard]] - Related guard system sharing sleeve control mechanics that frequently transitions to lasso
+- [[Positions/Spider Guard]] - Related guard system sharing sleeve control mechanics that frequently transitions to lasso
 
-- [[De La Riva Guard]] - Complementary guard position that can combine with lasso for hybrid sweep attacks
+- [[Positions/De La Riva Guard]] - Complementary guard position that can combine with lasso for hybrid sweep attacks
 
-- [[Lasso Guard Backstep Pass]] - Common passing counter the defender may use, requiring sweep timing awareness from attacker
+- [[Transitions/Lasso Guard Backstep Pass]] - Common passing counter the defender may use, requiring sweep timing awareness from attacker
 
-- [[Collar Sleeve Guard]] - Entry guard that frequently transitions into lasso guard for sweep attempts
+- [[Positions/Collar Sleeve Guard]] - Entry guard that frequently transitions into lasso guard for sweep attempts
 
-- [[Inverted Lasso Sweep]] - Related sweep from the inverted lasso variation using similar lasso control principles
+- [[Transitions/Inverted Lasso Sweep]] - Related sweep from the inverted lasso variation using similar lasso control principles
 
 
 </section>

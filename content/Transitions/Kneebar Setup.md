@@ -21,7 +21,7 @@ The setup requires transitioning from the standard outside ashi figure-4 configu
 
 This transition is particularly effective because it punishes one of the most common escape attempts from outside ashi—forward pressure to stack. Rather than fighting the stack directly, you redirect their momentum into a submission threat. The kneebar also serves as an excellent chain attack when heel hook attempts are defended, as opponents often straighten their leg to prevent heel exposure, inadvertently setting up the kneebar.
 
-**From Position**: [[Outside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This transition is particularly effective because it punishes one of the most co
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kneebar Control]] | 58% |
-| Failure | [[Outside Ashi-Garami]] | 30% |
-| Counter | [[Half Guard]] | 12% |
+| Success | [[Positions/Kneebar Control]] | 58% |
+| Failure | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Kneebar Setup represents a critical branch in the leg lock system tree from 
 ## Related Techniques
 
 
-- [[Outside Ashi-Garami]] - Starting position for this technique
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Starting position for this technique
 
-- [[Kneebar Control]] - Target position after successful setup
+- [[Positions/Kneebar Control]] - Target position after successful setup
 
-- [[Kneebar Finish]] - Follow-up submission from control position
+- [[Transitions/Kneebar Finish]] - Follow-up submission from control position
 
-- [[Outside Heel Hook]] - Primary alternative attack from same position
+- [[Transitions/Outside Heel Hook]] - Primary alternative attack from same position
 
-- [[Inside Heel Hook]] - Chain attack when opponent defends kneebar by rotating
+- [[Submissions/Inside Heel Hook]] - Chain attack when opponent defends kneebar by rotating
 
-- [[Calf Slicer]] - Alternative when opponent bends knee to defend
+- [[Transitions/Calf Slicer]] - Alternative when opponent bends knee to defend
 
-- [[Saddle]] - Alternative advancement from outside ashi
+- [[Positions/Ashi Garami/Saddle]] - Alternative advancement from outside ashi
 
-- [[Inside Ashi-Garami]] - Related leg entanglement with different kneebar angle
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement with different kneebar angle
 
-- [[Straight Ankle Lock]] - Lower-risk alternative from same position
+- [[Submissions/Straight Ankle Lock]] - Lower-risk alternative from same position
 
-- [[Ashi Garami Escape]] - Opponent's primary defensive response to understand
+- [[Transitions/Ashi Garami Escape]] - Opponent's primary defensive response to understand
 
 
 </section>

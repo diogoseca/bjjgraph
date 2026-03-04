@@ -174,7 +174,7 @@ description: "How to execute the Underhook Sweep from Half Guard in BJJ. Attacki
 
 The Underhook Sweep is a fundamental offensive technique from half guard bottom that exploits the powerful mechanical advantage of the underhook grip. This sweep operates on the principle of controlling your opponent's center of gravity while simultaneously removing their base, creating an inevitable off-balancing moment that allows you to reverse position. The underhook provides crucial control of the opponent's shoulder and upper body, preventing them from establishing effective crossface pressure and creating the angle necessary for the sweep. This technique is particularly effective against opponents who commit their weight forward while passing, as it redirects their momentum against them. The sweep can be executed from various half guard configurations including traditional half guard, deep half guard, and knee shield variations, making it a versatile tool in your bottom game arsenal. Understanding the timing and mechanical principles of this sweep is essential for developing a complete half guard game, as it creates offensive threats that force opponents into defensive reactions, opening pathways to other attacks and transitions.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -227,9 +227,9 @@ The Underhook Sweep is a fundamental offensive technique from half guard bottom 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Flattened Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 20% |
 
 
 </section>
@@ -238,11 +238,11 @@ The Underhook Sweep is a fundamental offensive technique from half guard bottom 
 
 ## Opponent Counters
 
-- **Opponent establishes strong crossface and flattens you to the mat** (Effectiveness: High) - Your Response: Frame against their hip with your bottom hand and use shrimping motion to recover space. Transition to deep half guard where the underhook remains effective even when flattened, or re-establish knee shield to create distance and re-fight for the underhook angle. → Leads to [[Flattened Half Guard]]
-- **Opponent posts their far leg out wide and bases strongly to resist the sweep direction** (Effectiveness: Medium) - Your Response: Switch your sweep direction to the other side using the old school sweep by rolling backward over your outside shoulder and hooking their posted leg. Alternatively, use their wide base commitment to come up to the dogfight position and transition to a back take. → Leads to [[Half Guard]]
-- **Opponent whizzers your underhook arm and drives it to the mat with overhook pressure** (Effectiveness: Medium) - Your Response: Accept the whizzer and transition to the old school sweep by rolling backward over your shoulder, using their whizzer pressure to assist the backward roll. Alternatively, use the whizzer to facilitate a back take by extending your legs and coming up behind them through the dogfight position. → Leads to [[Half Guard]]
-- **Opponent shifts weight backward and disengages from forward pressure to deny sweep timing** (Effectiveness: Low) - Your Response: Follow their backward movement by extending your half guard to maintain connection, or transition to butterfly guard as they create distance. Their backward retreat also opens opportunities for kimura grip attacks on their near arm as it becomes exposed. → Leads to [[Half Guard]]
-- **Opponent switches hips and attempts to free their trapped leg while sprawling** (Effectiveness: Low) - Your Response: Use their leg extraction attempt as the timing for your sweep - as they pull their leg free, they become vulnerable to being swept in that direction due to single-base instability. Alternatively, transition to butterfly guard or deep half guard as the half guard structure opens. → Leads to [[Flattened Half Guard]]
+- **Opponent establishes strong crossface and flattens you to the mat** (Effectiveness: High) - Your Response: Frame against their hip with your bottom hand and use shrimping motion to recover space. Transition to deep half guard where the underhook remains effective even when flattened, or re-establish knee shield to create distance and re-fight for the underhook angle. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent posts their far leg out wide and bases strongly to resist the sweep direction** (Effectiveness: Medium) - Your Response: Switch your sweep direction to the other side using the old school sweep by rolling backward over your outside shoulder and hooking their posted leg. Alternatively, use their wide base commitment to come up to the dogfight position and transition to a back take. → Leads to [[Positions/Half Guard]]
+- **Opponent whizzers your underhook arm and drives it to the mat with overhook pressure** (Effectiveness: Medium) - Your Response: Accept the whizzer and transition to the old school sweep by rolling backward over your shoulder, using their whizzer pressure to assist the backward roll. Alternatively, use the whizzer to facilitate a back take by extending your legs and coming up behind them through the dogfight position. → Leads to [[Positions/Half Guard]]
+- **Opponent shifts weight backward and disengages from forward pressure to deny sweep timing** (Effectiveness: Low) - Your Response: Follow their backward movement by extending your half guard to maintain connection, or transition to butterfly guard as they create distance. Their backward retreat also opens opportunities for kimura grip attacks on their near arm as it becomes exposed. → Leads to [[Positions/Half Guard]]
+- **Opponent switches hips and attempts to free their trapped leg while sprawling** (Effectiveness: Low) - Your Response: Use their leg extraction attempt as the timing for your sweep - as they pull their leg free, they become vulnerable to being swept in that direction due to single-base instability. Alternatively, transition to butterfly guard or deep half guard as the half guard structure opens. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 
 
 </section>

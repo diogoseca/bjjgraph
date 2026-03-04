@@ -21,7 +21,7 @@ Strategically, the duck under serves as a high-percentage answer to opponents wh
 
 The duck under carries significant tactical value in competition, where establishing the Standing Rear Clinch creates immediate scoring opportunities through takedowns and back exposure. In no-gi grappling and MMA, the duck under remains one of the most reliable methods for transitioning from a neutral clinch to a dominant position, making it an essential tool for any serious practitioner's standing game.
 
-**From Position**: [[Clinch]] (Bottom)
+**From Position**: [[Positions/Clinch]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The duck under carries significant tactical value in competition, where establis
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Rear Clinch]] | 55% |
-| Failure | [[Clinch]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Standing Rear Clinch]] | 55% |
+| Failure | [[Positions/Clinch]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Duck Under from Clinch serves as a critical bridge between neutral standing 
 ## Related Techniques
 
 
-- [[Clinch]] - Starting position from which the duck under is initiated
+- [[Positions/Clinch]] - Starting position from which the duck under is initiated
 
-- [[Standing Rear Clinch]] - Primary destination upon successful completion of the duck under
+- [[Positions/Standing Rear Clinch]] - Primary destination upon successful completion of the duck under
 
-- [[Back Control]] - Ultimate positional goal following Standing Rear Clinch establishment via takedown
+- [[Positions/Back Control]] - Ultimate positional goal following Standing Rear Clinch establishment via takedown
 
-- [[Arm Drag from Clinch]] - Complementary clinch technique that chains with duck under in offensive sequences
+- [[Transitions/Arm Drag from Clinch]] - Complementary clinch technique that chains with duck under in offensive sequences
 
-- [[Single Leg Takedown]] - Chain attack option when duck under is stuffed and opponent sprawls
+- [[Transitions/Single Leg Takedown]] - Chain attack option when duck under is stuffed and opponent sprawls
 
-- [[Body Lock Takedown from Clinch]] - Alternative clinch takedown that targets the same positional advancement
+- [[Transitions/Body Lock Takedown from Clinch]] - Alternative clinch takedown that targets the same positional advancement
 
-- [[Front Headlock]] - Counter position the opponent may establish if duck under exposes the head
+- [[Positions/Front Headlock]] - Counter position the opponent may establish if duck under exposes the head
 
-- [[Snap Down to Front Headlock]] - Alternative clinch attack that chains with the duck under as part of level change combinations
+- [[Transitions/Snap Down to Front Headlock]] - Alternative clinch attack that chains with the duck under as part of level change combinations
 
-- [[Body Lock]] - Grip configuration used to secure control after completing the duck under
+- [[Positions/Body Lock]] - Grip configuration used to secure control after completing the duck under
 
-- [[Double Leg Entry]] - Related level change technique from clinch that shares similar setup mechanics
+- [[Transitions/Double Leg Entry]] - Related level change technique from clinch that shares similar setup mechanics
 
-- [[Open Guard]] - Potential counter outcome position when duck under leads to scramble and guard pull
+- [[Positions/Open Guard]] - Potential counter outcome position when duck under leads to scramble and guard pull
 
 
 </section>

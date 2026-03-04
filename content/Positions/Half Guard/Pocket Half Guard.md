@@ -93,23 +93,23 @@ From the top perspective, Pocket Half Guard Top represents a dominant pressure-p
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (43% of attempts)
+- **[[Transitions/Old School Sweep]]** (43% of attempts)
 
-- **[[Deep Half Entry]]** (17% of attempts)
+- **[[Transitions/Deep Half Entry]]** (17% of attempts)
 
-- **[[Half Guard to Back Take]]** (15% of attempts)
+- **[[Transitions/Half Guard to Back Take]]** (15% of attempts)
 
-- **[[Underhook Sweep from Half]]** (12% of attempts)
+- **[[Transitions/Underhook Sweep from Half]]** (12% of attempts)
 
-- **[[Electric Chair Transition]]** (7% of attempts)
+- **[[Transitions/Electric Chair Transition]]** (7% of attempts)
 
-- **[[Roll to Truck]]** (4% of attempts)
+- **[[Transitions/Roll to Truck]]** (4% of attempts)
 
-- **[[Reguard from Pocket Half Guard]]** (1% of attempts)
+- **[[Transitions/Reguard from Pocket Half Guard]]** (1% of attempts)
 
-- **[[Sweep from Pocket Half Guard]]** (0% of attempts)
+- **[[Transitions/Sweep from Pocket Half Guard]]** (0% of attempts)
 
-- **[[Underhook Sweep from Pocket Half]]** (1% of attempts)
+- **[[Transitions/Underhook Sweep from Pocket Half]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -168,23 +168,23 @@ From the top perspective, Pocket Half Guard Top represents a dominant pressure-p
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (45% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (45% of attempts)
 
-- **[[Smash Pass]]** (12% of attempts)
+- **[[Transitions/Smash Pass]]** (12% of attempts)
 
-- **[[Underhook Pass]]** (12% of attempts)
+- **[[Transitions/Underhook Pass]]** (12% of attempts)
 
-- **[[Back Step Pass]]** (12% of attempts)
+- **[[Transitions/Back Step Pass]]** (12% of attempts)
 
-- **[[Darce Setup]]** (7% of attempts)
+- **[[Transitions/Darce Setup]]** (7% of attempts)
 
-- **[[Half Guard to Flattened Half Guard]]** (7% of attempts)
+- **[[Transitions/Half Guard to Flattened Half Guard]]** (7% of attempts)
 
-- **[[Pass Pocket Half]]** (3% of attempts)
+- **[[Transitions/Pass Pocket Half]]** (3% of attempts)
 
-- **[[Smash Pocket Half]]** (1% of attempts)
+- **[[Transitions/Smash Pocket Half]]** (1% of attempts)
 
-- **[[Pocket Half Pass]]** (1% of attempts)
+- **[[Transitions/Pocket Half Pass]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -223,25 +223,25 @@ From the top perspective, Pocket Half Guard Top represents a dominant pressure-p
 ## Related Positions
 
 
-- **[[Half Guard]]** - Parent position - Pocket Half Guard is specialized variation
+- **[[Positions/Half Guard]]** - Parent position - Pocket Half Guard is specialized variation
 
-- **[[Deep Half Guard]]** - Common transition target when opponent drives forward pressure
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common transition target when opponent drives forward pressure
 
-- **[[Knee Shield Half Guard]]** - Alternative half guard variation with different control strategy
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Alternative half guard variation with different control strategy
 
-- **[[Lockdown]]** - Can be combined with Pocket Half Guard for additional leg control
+- **[[Positions/Half Guard/Lockdown]]** - Can be combined with Pocket Half Guard for additional leg control
 
-- **[[Old School]]** - Primary offensive position from Pocket Half Guard Bottom
+- **[[Positions/Half Guard/Old School]]** - Primary offensive position from Pocket Half Guard Bottom
 
-- **[[Electric Chair]]** - Submission opportunity when opponent extends trapped leg from bottom
+- **[[Positions/Half Guard/Electric Chair]]** - Submission opportunity when opponent extends trapped leg from bottom
 
-- **[[Side Control]]** - Primary advancement target from successful top passing
+- **[[Positions/Side Control]]** - Primary advancement target from successful top passing
 
-- **[[Back Control]]** - Common advancement target via back-take from bottom underhook
+- **[[Positions/Back Control]]** - Common advancement target via back-take from bottom underhook
 
-- **[[Overhook Control]]** - Alternative control concept when underhook is lost
+- **[[Positions/Overhook Control]]** - Alternative control concept when underhook is lost
 
-- **[[Combat Base]]** - Position opponent uses to defend against pocket half guard attacks
+- **[[Positions/Combat Base]]** - Position opponent uses to defend against pocket half guard attacks
 
 
 </section>

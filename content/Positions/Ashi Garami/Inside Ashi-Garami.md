@@ -91,33 +91,33 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 ### Available Transitions
 
 
-- **[[Heel Hook]]** (5% of attempts)
+- **[[Transitions/Heel Hook]]** (5% of attempts)
 
-- **[[Straight Ankle Lock Entry]]** (38% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry]]** (38% of attempts)
 
-- **[[Saddle Entry from Top]]** (12% of attempts)
+- **[[Transitions/Saddle Entry from Top]]** (12% of attempts)
 
-- **[[Outside Ashi Entry]]** (7% of attempts)
+- **[[Transitions/Outside Ashi Entry]]** (7% of attempts)
 
-- **[[Kneebar Finish]]** (4% of attempts)
+- **[[Transitions/Kneebar Finish]]** (4% of attempts)
 
-- **[[Toe Hold]]** (6% of attempts)
+- **[[Transitions/Toe Hold]]** (6% of attempts)
 
-- **[[50-50 Entry]]** (4% of attempts)
+- **[[Transitions/50-50 Entry]]** (4% of attempts)
 
-- **[[Inside Ashi-Garami to Honey Hole]]** (9% of attempts)
+- **[[Transitions/Inside Ashi-Garami to Honey Hole]]** (9% of attempts)
 
-- **[[Inside Ashi-Garami to Cross Ashi]]** (4% of attempts)
+- **[[Transitions/Inside Ashi-Garami to Cross Ashi]]** (4% of attempts)
 
-- **[[Guard Recovery from Inside Ashi-Garami]]** (6% of attempts)
+- **[[Transitions/Guard Recovery from Inside Ashi-Garami]]** (6% of attempts)
 
-- **[[Counter Entangle to 50-50 from Ashi]]** (1% of attempts)
+- **[[Transitions/Counter Entangle to 50-50 from Ashi]]** (1% of attempts)
 
-- **[[Leg Extraction from Inside Ashi]]** (1% of attempts)
+- **[[Transitions/Leg Extraction from Inside Ashi]]** (1% of attempts)
 
-- **[[Standing Up from Inside Ashi]]** (1% of attempts)
+- **[[Transitions/Standing Up from Inside Ashi]]** (1% of attempts)
 
-- **[[Achilles Lock]]** (2% of attempts)
+- **[[Submissions/Achilles Lock]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -176,31 +176,31 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 ### Available Transitions
 
 
-- **[[Straight Ankle Lock Entry]]** (43% of attempts)
+- **[[Transitions/Straight Ankle Lock Entry]]** (43% of attempts)
 
-- **[[Heel Hook]]** (6% of attempts)
+- **[[Transitions/Heel Hook]]** (6% of attempts)
 
-- **[[Toe Hold]]** (9% of attempts)
+- **[[Transitions/Toe Hold]]** (9% of attempts)
 
-- **[[Kneebar Finish]]** (4% of attempts)
+- **[[Transitions/Kneebar Finish]]** (4% of attempts)
 
-- **[[Inside Ashi-Garami to Honey Hole]]** (9% of attempts)
+- **[[Transitions/Inside Ashi-Garami to Honey Hole]]** (9% of attempts)
 
-- **[[Back Take from Ashi]]** (2% of attempts)
+- **[[Transitions/Back Take from Ashi]]** (2% of attempts)
 
-- **[[Inside Ashi-Garami to Cross Ashi]]** (5% of attempts)
+- **[[Transitions/Inside Ashi-Garami to Cross Ashi]]** (5% of attempts)
 
-- **[[Outside Ashi Entry]]** (9% of attempts)
+- **[[Transitions/Outside Ashi Entry]]** (9% of attempts)
 
-- **[[Saddle Entry from Top]]** (9% of attempts)
+- **[[Transitions/Saddle Entry from Top]]** (9% of attempts)
 
-- **[[50-50 Entry]]** (3% of attempts)
+- **[[Transitions/50-50 Entry]]** (3% of attempts)
 
-- **[[Backside 50-50 Entry from Ashi]]** (0% of attempts)
+- **[[Transitions/Backside 50-50 Entry from Ashi]]** (0% of attempts)
 
-- **[[Inside Ashi to Outside Ashi]]** (0% of attempts)
+- **[[Transitions/Inside Ashi to Outside Ashi]]** (0% of attempts)
 
-- **[[Inside Ashi-Garami to Ushiro Ashi]]** (1% of attempts)
+- **[[Transitions/Inside Ashi-Garami to Ushiro Ashi]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -239,21 +239,21 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 ## Related Positions
 
 
-- **[[Saddle]]** - Primary advancement target offering superior heel control and finishing position
+- **[[Positions/Ashi Garami/Saddle]]** - Primary advancement target offering superior heel control and finishing position
 
-- **[[Honey Hole]]** - Advanced entanglement accessed when opponent defends inside heel
+- **[[Positions/Ashi Garami/Honey Hole]]** - Advanced entanglement accessed when opponent defends inside heel
 
-- **[[Outside Ashi-Garami]]** - Alternative configuration when inside position is compromised
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Alternative configuration when inside position is compromised
 
-- **[[Cross Ashi-Garami]]** - Variation position for different angle attacks
+- **[[Positions/Ashi Garami/Cross Ashi-Garami]]** - Variation position for different angle attacks
 
-- **[[50-50 Guard]]** - Mirror entanglement that can develop from ashi positions
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Mirror entanglement that can develop from ashi positions
 
-- **[[Single Leg X-Guard]]** - Related leg control position with different strategic emphasis
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Related leg control position with different strategic emphasis
 
-- **[[Ashi Garami]]** - Parent position family encompassing all ashi variations
+- **[[Positions/Ashi Garami]]** - Parent position family encompassing all ashi variations
 
-- **[[Leg Entanglement]]** - Core conceptual framework governing all leg lock positions
+- **[[Positions/Leg Entanglement]]** - Core conceptual framework governing all leg lock positions
 
 
 </section>

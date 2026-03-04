@@ -21,7 +21,7 @@ The biomechanical foundation of this escape relies on timing the roll precisely 
 
 Strategically, Roll to Guard represents a high-risk, high-reward escape option that should be employed when more conservative escape methods have stalled or when the opponent presents a timing window. Unlike methodical escapes that chip away at control incrementally, this technique aims to completely reverse the positional hierarchy in a single explosive movement. It pairs particularly well with grip fighting that baits the opponent into adjusting their seat belt configuration.
 
-**From Position**: [[Harness]] (Bottom)
+**From Position**: [[Positions/Harness]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, Roll to Guard represents a high-risk, high-reward escape option t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Success | [[Open Guard]] | 15% |
-| Failure | [[Harness]] | 20% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Success | [[Positions/Open Guard]] | 15% |
+| Failure | [[Positions/Harness]] | 20% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -196,25 +196,25 @@ Roll to Guard functions as a dynamic escape option within the back control defen
 ## Related Techniques
 
 
-- [[Harness]] - Starting position
+- [[Positions/Harness]] - Starting position
 
-- [[Closed Guard]] - Primary success outcome
+- [[Positions/Closed Guard]] - Primary success outcome
 
-- [[Open Guard]] - Alternative success outcome
+- [[Positions/Open Guard]] - Alternative success outcome
 
-- [[Back Control]] - Position to escape from and counter outcome
+- [[Positions/Back Control]] - Position to escape from and counter outcome
 
-- [[Granby Roll to Guard]] - Alternative rolling escape technique using inverted shoulder roll
+- [[Transitions/Granby Roll to Guard]] - Alternative rolling escape technique using inverted shoulder roll
 
-- [[Hip Escape to Guard]] - Complementary methodical escape option
+- [[Transitions/Hip Escape to Guard]] - Complementary methodical escape option
 
-- [[Elbow Escape to Guard]] - Complementary escape using elbow frames
+- [[Transitions/Elbow Escape to Guard]] - Complementary escape using elbow frames
 
-- [[Back Door Escape]] - Parent escape system
+- [[Transitions/Back Door Escape]] - Parent escape system
 
-- [[Turtle]] - Alternative escape destination
+- [[Positions/Turtle]] - Alternative escape destination
 
-- [[Front Headlock]] - Position opponent may counter to during roll
+- [[Positions/Front Headlock]] - Position opponent may counter to during roll
 
 
 </section>

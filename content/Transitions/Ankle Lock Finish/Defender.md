@@ -158,7 +158,7 @@ The critical defensive window is narrow. Once the attacker establishes their for
 
 Your best strategic outcomes involve either completing your original inversion escape to clear the entanglement entirely, or reversing the positional dynamic so that you regain top control in the ushiro configuration. Both require understanding how your defensive movements interact with the attacker's leg control and grip mechanics, and recognizing when to commit to escape versus when to accept a transitional position like turtle that removes the immediate submission threat.
 
-**Opponent's Starting Position**: [[Ushiro Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Your best strategic outcomes involve either completing your original inversion e
 ### 1. Two-on-one grip fight on attacker's wrist to prevent Achilles contact and strip emerging grip
 
 - **When to use**: Immediately when you feel the attacker's forearm moving toward your Achilles tendon, before they cup your heel with the second hand
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Attacker's grip is stripped and you maintain the window to continue your inversion escape or establish counter-control
 - **Risk**: If grip fighting fails, you have committed both hands to defense rather than controlling the attacker's legs, potentially allowing them to deepen entanglement
 
 ### 2. Hip rotation toward attacker combined with knee bend to collapse finishing space and deny extension leverage
 
 - **When to use**: When the attacker has established their grip but has not yet committed to the full arch and hip extension for the finish
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: The collapsed angle eliminates the attacker's ability to generate breaking pressure, forcing them to reset their position or transition
 - **Risk**: Rotating toward the attacker may expose your heel from a different angle if their grip is deep, and can improve their outside ashi-garami positioning
 
 ### 3. Complete inversion to turtle by committing fully to the rotational escape and pulling trapped leg through
 
 - **When to use**: When the attacker's leg control has loosened during their grip transition and you have sufficient momentum to complete the rotation before the finish lands
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: You clear the leg entanglement entirely and arrive in turtle where the ankle lock threat is eliminated, though back exposure becomes the new concern
 - **Risk**: If the attacker maintains ankle grip during your rotation, the twisting force on your ankle increases significantly and may cause injury
 
 ### 4. Boot defense by aggressively dorsiflexing foot and curling toes while pulling knee to chest to retract the ankle
 
 - **When to use**: As a last-resort defensive layer when grip has been established and breaking pressure is beginning to be applied
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Dorsiflexion prevents the ankle from being extended into the vulnerable position needed for the finish, buying time for grip stripping or hip rotation
 - **Risk**: Boot defense alone cannot prevent the finish indefinitely - the attacker can switch to Estima Lock grip or increase pressure to overcome muscular resistance
 
@@ -229,11 +229,11 @@ Your best strategic outcomes involve either completing your original inversion e
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ushiro Ashi-Garami]]
+### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Strip the attacker's grip through two-on-one hand fighting on their wrist before they establish the full finishing configuration. Once their grip is broken, immediately use your freed hands to control their inside knee and begin systematic leg clearing to complete your original inversion escape or reverse to top position in the entanglement.
 
-### → [[Ushiro Ashi-Garami]]
+### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Commit fully to completing the inversion rotation during the window when the attacker loosens their figure-four leg control to transition their grips for the finish. Pull your trapped leg through while rotating toward turtle, using the momentum to clear the entanglement. Accept the brief back exposure of turtle as preferable to the imminent ankle lock threat.
 

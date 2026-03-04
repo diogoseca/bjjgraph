@@ -146,7 +146,7 @@ description: "How to maintain and complete your stack pass against an opponent's
 
 As the top player attempting to complete a stack pass against an opponent who is implementing stack defense, your challenge is to maintain forward pressure, neutralize their frames, prevent their hip escapes, and consolidate a passing position. The stack passer must understand that the guard player's defensive sequence follows a predictable pattern: frames first, then hip escape, then guard recovery. By disrupting any link in this chain, you can complete your pass. Your primary weapons are sustained pressure to limit their mobility, grip control to prevent frame establishment, and directional changes to exploit the angles they create during hip escapes. Understanding the defender's perspective means recognizing their defensive patterns and having prepared counters for each stage of their escape sequence.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the top player attempting to complete a stack pass against an opponent who is
 ### 1. Swim through frames by collapsing elbows inside opponent's arm frames and driving chest-to-chest
 
 - **When to use**: When opponent establishes straight-arm frames on your hips or shoulders early in the stack defense sequence
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Eliminates the space their frames created and allows you to re-establish full stacking pressure for pass completion
 - **Risk**: If you swim through poorly, you may expose your neck to guillotine or your arm to overhook attacks
 
 ### 2. Transition to knee cut pass by redirecting laterally when opponent hip escapes to create angle
 
 - **When to use**: When opponent successfully hip escapes to one side during stack defense, creating a lateral angle
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Converts their defensive angle into a passing lane, using their own hip escape direction as the pathway for your knee slice
 - **Risk**: Opponent may establish knee shield or half guard if your transition is too slow
 
 ### 3. Secure double ankle or pant grips to anchor their lower body and prevent hip escape entirely
 
 - **When to use**: Before opponent begins their hip escape sequence, when you feel them loading their hips for lateral movement
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Eliminates the hip escape that is the cornerstone of their defense, allowing you to complete the stack pass with only upper body frames to overcome
 - **Risk**: Releasing upper body control to grab ankles may allow them to sit up or establish offensive grips
 
 ### 4. Switch to leg drag by redirecting opponent's legs across their body when they create hip escape angle
 
 - **When to use**: When opponent has successfully created a lateral angle with their hip escape and you cannot re-establish the stack
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Uses their hip escape angle against them by pinning their legs to one side and passing to the opposite side
 - **Risk**: Opponent may establish reverse De La Riva or come up to their knees if the transition is not controlled
 
@@ -217,11 +217,11 @@ As the top player attempting to complete a stack pass against an opponent who is
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Complete the stack pass by maintaining forward pressure through their frames, controlling their hips to prevent escape, and consolidating side control once you clear their legs. Swim through their frames early and drive your shoulder into their chest as you walk around their guard.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 If the opponent's stack defense creates significant spinal compression and they flatten out, step over directly to mount rather than settling for side control. This occurs when their hip escape fails completely and their legs are pinned below your hips during the pass completion.
 

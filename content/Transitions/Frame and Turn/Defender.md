@@ -158,7 +158,7 @@ The Frame and Turn escape follows a predictable sequence: frame creation, leg ex
 
 Successful defense against Frame and Turn requires constant pressure adjustment and the ability to read the bottom player's escape timeline. Early intervention during the framing phase is far more effective than attempting to recapture control after the turn has begun. The top player should maintain offensive pressure throughout, forcing the bottom player to choose between defending submissions and executing their escape, creating the dilemma-based control that characterizes elite Twister Control play.
 
-**Opponent's Starting Position**: [[Twister Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Twister Control]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful defense against Frame and Turn requires constant pressure adjustment 
 ### 1. Increase rotational pressure and deepen leg control when opponent begins framing
 
 - **When to use**: As soon as you feel opponent posting their forearm against your neck or shoulder to create a frame
-- **Targets**: [[Twister Control]]
+- **Targets**: [[Positions/Twister Control]]
 - **If successful**: Opponent's frame collapses under increased pressure, resetting them to pure survival mode and preventing escape progression
 - **Risk**: Overcommitting to rotational pressure may open space for opponent to extract their leg if your hook is shallow
 
 ### 2. Recapture leg control with reinforced hook and hip squeeze when opponent works leg extraction
 
 - **When to use**: When you feel opponent's trapped leg creating space or their knee angling outward against your controlling hook
-- **Targets**: [[Twister Control]]
+- **Targets**: [[Positions/Twister Control]]
 - **If successful**: Trapped leg is re-secured and opponent must restart the entire escape sequence from the beginning
 - **Risk**: Focusing on leg recapture may release upper body pressure allowing opponent to create frames more effectively
 
 ### 3. Transition to guillotine or neck attack as opponent turns into you
 
 - **When to use**: When opponent commits to the turning motion and begins rotating their hips toward you, exposing their neck during the transition
-- **Targets**: [[Twister Control]]
+- **Targets**: [[Positions/Twister Control]]
 - **If successful**: Submission attempt forces opponent to abort the turn and return to defensive posture, or leads to a finish
 - **Risk**: If guillotine attempt fails, opponent completes the turn and recovers to Turtle or Half Guard
 
 ### 4. Follow the turn and transition to back control with hooks
 
 - **When to use**: When opponent has committed to the turn and you cannot prevent it, but you maintain upper body connection throughout their rotation
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You maintain a dominant control position with back control, trading rotational control for hook-based back control
 - **Risk**: Opponent may continue turning through back control to recover Half Guard if you are slow to establish hooks
 
@@ -228,11 +228,11 @@ Successful defense against Frame and Turn requires constant pressure adjustment 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Twister Control]]
+### → [[Positions/Twister Control]]
 
 Shut down the escape early by maintaining heavy chest pressure and reinforcing leg control as soon as framing begins. Increase rotational pressure to collapse their frame before they can begin the turning phase. Recapture any leg space immediately with reinforced hooks.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 If the turn cannot be prevented, follow the rotation and transition to back control by maintaining chest-to-back connection throughout their turn. Insert hooks as they arrive in Turtle position. While this sacrifices the Twister threat, back control maintains offensive dominance.
 

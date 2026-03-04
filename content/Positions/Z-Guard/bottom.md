@@ -211,27 +211,27 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 
 ## Available Escapes
 
-### [[Old School Sweep]] (30% of attempts)
+### [[Transitions/Old School Sweep]] (30% of attempts)
 
-### [[Underhook Sweep from Half]] (11% of attempts)
+### [[Transitions/Underhook Sweep from Half]] (11% of attempts)
 
-### [[Deep Half Entry]] (10% of attempts)
+### [[Transitions/Deep Half Entry]] (10% of attempts)
 
-### [[Back Take from Bottom]] (9% of attempts)
+### [[Transitions/Back Take from Bottom]] (9% of attempts)
 
-### [[Turtle to Truck]] (8% of attempts)
+### [[Transitions/Turtle to Truck]] (8% of attempts)
 
-### [[X-Guard Sweep]] (10% of attempts)
+### [[Transitions/X-Guard Sweep]] (10% of attempts)
 
-### [[Lockdown Recovery]] (9% of attempts)
+### [[Transitions/Lockdown Recovery]] (9% of attempts)
 
-### [[Electric Chair Transition]] (8% of attempts)
+### [[Transitions/Electric Chair Transition]] (8% of attempts)
 
-### [[Z-Guard Sweep]] (3% of attempts)
+### [[Transitions/Z-Guard Sweep]] (3% of attempts)
 
-### [[Z-Guard to Half Guard]] (1% of attempts)
+### [[Transitions/Z-Guard to Half Guard]] (1% of attempts)
 
-### [[Sweep from Z-Guard]] (1% of attempts)
+### [[Transitions/Sweep from Z-Guard]] (1% of attempts)
 
 
 
@@ -242,29 +242,29 @@ From a strategic perspective, Z-Guard Bottom represents a critical position in t
 ## Decision Making from This Position
 
 **If opponent drives heavy forward pressure attempting to collapse knee shield and flatten you to back:**
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 65%)
-- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent posts hand on mat near your head or attempts to establish crossface control:**
-- Execute **[[Old School Sweep]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent attempts to circle around knee shield toward backstep position:**
-- Execute **[[Back Take from Bottom]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 50%)
-- Execute **[[Turtle to Truck]]** → [[Twister Control]] (Probability: 55%)
+- Execute **[[Transitions/Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 50%)
+- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control]] (Probability: 55%)
 
 
 **If opponent successfully collapses knee shield but has not yet established full passing pressure:**
-- Execute **[[Lockdown Recovery]]** → [[Lockdown]] (Probability: 60%)
-- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Half Guard/Lockdown]] (Probability: 60%)
+- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent maintains distance and good base, preventing sweep entries:**
-- Execute **[[X-Guard Sweep]]** → [[X-Guard]] (Probability: 55%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 60%)
 
 
 
@@ -411,14 +411,14 @@ Start from flattened half guard or nearly-passed position. Bottom player must re
 ## Related Positions and Techniques
 
 - **[[Z-Guard Top]]** - Opponent's perspective - understanding top game helps improve bottom defense
-- **[[Deep Half Guard]]** - Primary transition when knee shield is collapsed - critical backup position
-- **[[Lockdown]]** - Alternative half guard retention system when Z-Guard is compromised
-- **[[Half Guard]]** - Parent position category - Z-Guard is specialized variation
-- **[[Knee Shield Half Guard]]** - Closely related position with similar mechanics but lower knee placement
-- **[[Electric Chair]]** - Submission position accessed when opponent attempts backstep
-- **[[Dogfight Position]]** - Common scramble position after partial sweep success
-- **[[X-Guard]]** - Transition option when opponent maintains distance
-- **[[Back Control]]** - Offensive target when opponent circles around knee shield
+- **[[Positions/Half Guard/Deep Half Guard]]** - Primary transition when knee shield is collapsed - critical backup position
+- **[[Positions/Half Guard/Lockdown]]** - Alternative half guard retention system when Z-Guard is compromised
+- **[[Positions/Half Guard]]** - Parent position category - Z-Guard is specialized variation
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Closely related position with similar mechanics but lower knee placement
+- **[[Positions/Half Guard/Electric Chair]]** - Submission position accessed when opponent attempts backstep
+- **[[Positions/Dogfight Position]]** - Common scramble position after partial sweep success
+- **[[Positions/X-Guard]]** - Transition option when opponent maintains distance
+- **[[Positions/Back Control]]** - Offensive target when opponent circles around knee shield
 
 
 </section>

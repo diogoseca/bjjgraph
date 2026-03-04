@@ -178,7 +178,7 @@ The strategic importance of this transition lies in recovering a neutral or adva
 
 Timing is paramount for this technique. The optimal window occurs when your opponent is adjusting grips or transitioning between submission attempts, creating momentary lapses in leg control. Executing during these windows dramatically increases success rates across all skill levels. Conversely, attempting extraction against deep, consolidated control typically results in either failed escape or submission finish during the extraction attempt.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -230,10 +230,10 @@ Timing is paramount for this technique. The optimal window occurs when your oppo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Success | [[Closed Guard]] | 10% |
-| Failure | [[Ushiro Ashi-Garami]] | 25% |
-| Counter | [[Saddle]] | 10% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Success | [[Positions/Closed Guard]] | 10% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 25% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ Timing is paramount for this technique. The optimal window occurs when your oppo
 
 ## Opponent Counters
 
-- **Opponent steps inside leg through to saddle during extraction attempt** (Effectiveness: High) - Your Response: Accelerate inside knee control and consider accepting turtle if saddle transition is inevitable → Leads to [[Saddle]]
-- **Opponent secures heel grip during leg movement and attempts immediate finish** (Effectiveness: High) - Your Response: Abort extraction and focus entirely on heel protection and grip fighting before reattempting → Leads to [[Ushiro Ashi-Garami]]
-- **Opponent pulls you back into deep entanglement using belt or hip grip** (Effectiveness: Medium) - Your Response: Strip the pulling grip before continuing extraction, using your free hand to break their control → Leads to [[Ushiro Ashi-Garami]]
-- **Opponent transitions to ankle lock during extraction movement** (Effectiveness: Medium) - Your Response: Continue extraction with urgency as ankle lock finish is less immediate than heel hook threat → Leads to [[Ushiro Ashi-Garami]]
+- **Opponent steps inside leg through to saddle during extraction attempt** (Effectiveness: High) - Your Response: Accelerate inside knee control and consider accepting turtle if saddle transition is inevitable → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent secures heel grip during leg movement and attempts immediate finish** (Effectiveness: High) - Your Response: Abort extraction and focus entirely on heel protection and grip fighting before reattempting → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Opponent pulls you back into deep entanglement using belt or hip grip** (Effectiveness: Medium) - Your Response: Strip the pulling grip before continuing extraction, using your free hand to break their control → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Opponent transitions to ankle lock during extraction movement** (Effectiveness: Medium) - Your Response: Continue extraction with urgency as ankle lock finish is less immediate than heel hook threat → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 
 </section>

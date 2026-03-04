@@ -214,31 +214,31 @@ Competition application demonstrates particular effectiveness in no-gi contexts 
 
 ## Available Escapes
 
-### [[Gogoplata]] (6% of attempts)
+### [[Transitions/Gogoplata]] (6% of attempts)
 
-### [[Triangle Setup]] (18% of attempts)
+### [[Transitions/Triangle Setup]] (18% of attempts)
 
-### [[Omoplata Sweep]] (8% of attempts)
+### [[Transitions/Omoplata Sweep]] (8% of attempts)
 
-### [[Triangle to Omoplata]] (7% of attempts)
+### [[Transitions/Triangle to Omoplata]] (7% of attempts)
 
-### [[Omoplata to Back]] (6% of attempts)
+### [[Transitions/Omoplata to Back]] (6% of attempts)
 
-### [[Triangle to Back]] (7% of attempts)
+### [[Transitions/Triangle to Back]] (7% of attempts)
 
-### [[Crackhead Control to Mission Control]] (9% of attempts)
+### [[Transitions/Crackhead Control to Mission Control]] (9% of attempts)
 
-### [[New York to Invisible Collar]] (9% of attempts)
+### [[Transitions/New York to Invisible Collar]] (9% of attempts)
 
-### [[New York Control to Zombie]] (8% of attempts)
+### [[Transitions/New York Control to Zombie]] (8% of attempts)
 
-### [[Armbar Finish]] (6% of attempts)
+### [[Transitions/Armbar Finish]] (6% of attempts)
 
-### [[Kimura]] (6% of attempts)
+### [[Transitions/Kimura]] (6% of attempts)
 
-### [[Hip Bump Sweep]] (7% of attempts)
+### [[Transitions/Hip Bump Sweep]] (7% of attempts)
 
-### [[New York Control to Invisible Collar]] (3% of attempts)
+### [[Transitions/New York Control to Invisible Collar]] (3% of attempts)
 
 
 
@@ -249,28 +249,28 @@ Competition application demonstrates particular effectiveness in no-gi contexts 
 ## Decision Making from This Position
 
 **If opponent maintains strong defensive posture with chin tucked and elbows tight to body:**
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 60%)
-- Execute **[[Gogoplata]]** → [[Gogoplata Control]] (Probability: 45%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 60%)
+- Execute **[[Transitions/Gogoplata]]** → [[Positions/Gogoplata Control]] (Probability: 45%)
 
 
 **If opponent attempts to create distance by pulling back and widening base:**
-- Execute **[[Omoplata Sweep]]** → [[Omoplata Control]] (Probability: 65%)
-- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 65%)
+- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent drives forward with pressure attempting to stack or pass:**
-- Execute **[[Triangle to Back]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Omoplata to Back]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Triangle to Back]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent successfully escapes overhook but leg control remains intact:**
-- Execute **[[Crackhead Control to Mission Control]]** → [[Mission Control]] (Probability: 70%)
-- Execute **[[New York to Invisible Collar]]** → [[Invisible Collar]] (Probability: 65%)
+- Execute **[[Transitions/Crackhead Control to Mission Control]]** → [[Positions/Rubber Guard/Mission Control]] (Probability: 70%)
+- Execute **[[Transitions/New York to Invisible Collar]]** → [[Positions/Rubber Guard/Invisible Collar]] (Probability: 65%)
 
 
 **If opponent begins extracting leg from shoulder control:**
-- Execute **[[New York Control to Zombie]]** → [[Zombie]] (Probability: 60%)
-- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 50%)
+- Execute **[[Transitions/New York Control to Zombie]]** → [[Positions/Rubber Guard/Zombie]] (Probability: 60%)
+- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 
@@ -404,14 +404,14 @@ Dedicated stretching routine focusing on hip external rotation, hamstring flexib
 
 ## Related Positions and Techniques
 
-- **[[Mission Control]]** - Primary entry position and alternative control configuration
-- **[[Invisible Collar]]** - Related rubber guard position for systematic transitions
-- **[[Zombie]]** - Advanced rubber guard position for continued offense
-- **[[Triangle Control]]** - Primary submission position from New York transitions
-- **[[Omoplata Control]]** - High-percentage attack and sweep option
-- **[[Gogoplata Control]]** - Signature submission finish from New York position
-- **[[Back Control]]** - Common transition target when opponent defends submissions
-- **[[Closed Guard]]** - Recovery position and rubber guard entry point
+- **[[Positions/Rubber Guard/Mission Control]]** - Primary entry position and alternative control configuration
+- **[[Positions/Rubber Guard/Invisible Collar]]** - Related rubber guard position for systematic transitions
+- **[[Positions/Rubber Guard/Zombie]]** - Advanced rubber guard position for continued offense
+- **[[Positions/Triangle Control]]** - Primary submission position from New York transitions
+- **[[Positions/Omoplata Control]]** - High-percentage attack and sweep option
+- **[[Positions/Gogoplata Control]]** - Signature submission finish from New York position
+- **[[Positions/Back Control]]** - Common transition target when opponent defends submissions
+- **[[Positions/Closed Guard]]** - Recovery position and rubber guard entry point
 
 
 </section>

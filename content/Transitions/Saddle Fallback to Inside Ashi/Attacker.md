@@ -180,7 +180,7 @@ description: "Master the controlled positional retreat from Saddle to Inside Ash
 
 The attacker executing the Saddle Fallback to Inside Ashi is making a calculated tactical decision to exchange positional dominance for positional sustainability. This transition reflects the critical systems principle that maintaining any leg entanglement is vastly superior to losing control entirely. The attacker must identify the precise moment when saddle control becomes unviable—when the opponent clears hip pressure, establishes strong frames, or begins extracting the heel—and execute a smooth withdrawal to inside ashi before the window closes. The defining skill is not mechanical complexity, which is relatively straightforward, but the timing awareness and pattern recognition required to initiate the fallback at the optimal moment: late enough that genuine saddle attacking options have been exhausted, but early enough that sufficient control remains to establish clean inside ashi-garami.
 
-**From Position**: [[Saddle]] (Top)
+**From Position**: [[Positions/Ashi Garami/Saddle]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ The attacker executing the Saddle Fallback to Inside Ashi is making a calculated
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 55% |
-| Failure | [[Saddle]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 55% |
+| Failure | [[Positions/Ashi Garami/Saddle]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ The attacker executing the Saddle Fallback to Inside Ashi is making a calculated
 
 ## Opponent Counters
 
-- **Explosive hip escape during leg reconfiguration to extract trapped leg completely** (Effectiveness: High) - Your Response: Maintain constant leg-to-leg contact and follow their hip movement by scooting your hips toward them. If extraction begins, immediately clamp both legs and abort the transition to retain any control. Consider using an emergency ankle grip to maintain connection even if leg positioning is lost temporarily. → Leads to [[Half Guard]]
-- **Free leg pummel to prevent inside leg from crossing hip during transition** (Effectiveness: Medium) - Your Response: Drive your inside leg across their hip using full hip extension rather than just knee movement. If the pummel succeeds, attempt to re-enter saddle using whatever deeper entanglement partially remains, or redirect to outside ashi-garami where their pummeling may have exposed a different entry angle. → Leads to [[Saddle]]
-- **Frame on hips and straighten body to create maximum distance during control changeover** (Effectiveness: Medium) - Your Response: Follow their body movement by scooting your hips toward them aggressively rather than reaching with arms. Use the transitional ankle grip to prevent their leg from fully extending away. If significant distance forms, prioritize clamping any remaining leg control and accept a loose ashi that requires subsequent consolidation. → Leads to [[Half Guard]]
-- **Reach for opponent's far leg to disrupt base and attempt counter-entanglement** (Effectiveness: Low) - Your Response: Strip their grip on your far leg with your free hand while continuing the transition. Their reaching for your leg often compromises their own defensive frames, which can accelerate your establishment of inside ashi. If any counter-entanglement develops, address it immediately before consolidating. → Leads to [[Inside Ashi-Garami]]
+- **Explosive hip escape during leg reconfiguration to extract trapped leg completely** (Effectiveness: High) - Your Response: Maintain constant leg-to-leg contact and follow their hip movement by scooting your hips toward them. If extraction begins, immediately clamp both legs and abort the transition to retain any control. Consider using an emergency ankle grip to maintain connection even if leg positioning is lost temporarily. → Leads to [[Positions/Half Guard]]
+- **Free leg pummel to prevent inside leg from crossing hip during transition** (Effectiveness: Medium) - Your Response: Drive your inside leg across their hip using full hip extension rather than just knee movement. If the pummel succeeds, attempt to re-enter saddle using whatever deeper entanglement partially remains, or redirect to outside ashi-garami where their pummeling may have exposed a different entry angle. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Frame on hips and straighten body to create maximum distance during control changeover** (Effectiveness: Medium) - Your Response: Follow their body movement by scooting your hips toward them aggressively rather than reaching with arms. Use the transitional ankle grip to prevent their leg from fully extending away. If significant distance forms, prioritize clamping any remaining leg control and accept a loose ashi that requires subsequent consolidation. → Leads to [[Positions/Half Guard]]
+- **Reach for opponent's far leg to disrupt base and attempt counter-entanglement** (Effectiveness: Low) - Your Response: Strip their grip on your far leg with your free hand while continuing the transition. Their reaching for your leg often compromises their own defensive frames, which can accelerate your establishment of inside ashi. If any counter-entanglement develops, address it immediately before consolidating. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 </section>

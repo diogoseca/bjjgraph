@@ -184,7 +184,7 @@ The pass operates on the principle that stacking the bottom player's hips over t
 
 Strategically, this technique is most effective when the bottom player commits to an aggressive sweeping motion, because their own momentum can be redirected into the stack. It pairs naturally with other Ringworm Guard counters such as the Smash Pass Counter and Lapel Grip Break and Posture Recovery, creating a multi-threat passing system that forces the bottom player to choose between defending the stack and maintaining their lapel configuration. The pass requires significant forward pressure and hip drive, making it physically demanding but highly effective when the timing is correct.
 
-**From Position**: [[Ringworm Guard]] (Top)
+**From Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
 
@@ -238,9 +238,9 @@ Strategically, this technique is most effective when the bottom player commits t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Ringworm Guard]] | 25% |
-| Counter | [[Ringworm Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Ringworm Guard]] | 25% |
+| Counter | [[Positions/Ringworm Guard]] | 10% |
 
 
 </section>
@@ -249,11 +249,11 @@ Strategically, this technique is most effective when the bottom player commits t
 
 ## Opponent Counters
 
-- **Opponent hip escapes during the stack to create angle and re-tension the lapel wrap before you can strip it** (Effectiveness: High) - Your Response: Follow their hip escape by adjusting your driving angle to match their new position. Redirect your stack toward their centerline rather than fighting the angle. If they create too much space, disengage and reset to a standing extraction attempt rather than forcing the stack from a compromised angle. → Leads to [[Ringworm Guard]]
-- **Opponent switches to a different lapel guard configuration like Squid Guard or Worm Guard as you begin driving forward** (Effectiveness: Medium) - Your Response: Continue the stacking pressure regardless of the specific lapel configuration change. The compression mechanics work against all lapel guards because the fundamental geometry of shortening the wrap distance applies universally. Adjust your grip break technique to match the new lapel routing. → Leads to [[Ringworm Guard]]
-- **Opponent frames against your shoulder with their free hand to prevent the stack from fully compressing** (Effectiveness: Medium) - Your Response: Swim your head underneath their framing arm and continue driving forward, converting their straight-arm frame into a bent position that collapses under your pressure. Alternatively, control their framing wrist with your free hand and pin it before resuming the stack. → Leads to [[Ringworm Guard]]
-- **Opponent attempts a triangle or omoplata setup as you drive forward by catching your head or arm** (Effectiveness: Medium) - Your Response: Keep your elbows tight to your body and your posture compacted throughout the stack. If they attempt a triangle, immediately posture up and back out of the stack, using the disruption to strip the lapel grip while they are mid-transition and their control is momentarily compromised. → Leads to [[Ringworm Guard]]
-- **Opponent re-grips the lapel immediately after you strip it, restoring the Ringworm configuration before you can extract your leg** (Effectiveness: High) - Your Response: After stripping the lapel, immediately stuff the loose lapel tail under the opponent's body or behind their back where they cannot reach it. Control their grip-fighting hand with your stripping hand for 1-2 seconds while you complete the leg extraction with the other hand assisting if needed. → Leads to [[Ringworm Guard]]
+- **Opponent hip escapes during the stack to create angle and re-tension the lapel wrap before you can strip it** (Effectiveness: High) - Your Response: Follow their hip escape by adjusting your driving angle to match their new position. Redirect your stack toward their centerline rather than fighting the angle. If they create too much space, disengage and reset to a standing extraction attempt rather than forcing the stack from a compromised angle. → Leads to [[Positions/Ringworm Guard]]
+- **Opponent switches to a different lapel guard configuration like Squid Guard or Worm Guard as you begin driving forward** (Effectiveness: Medium) - Your Response: Continue the stacking pressure regardless of the specific lapel configuration change. The compression mechanics work against all lapel guards because the fundamental geometry of shortening the wrap distance applies universally. Adjust your grip break technique to match the new lapel routing. → Leads to [[Positions/Ringworm Guard]]
+- **Opponent frames against your shoulder with their free hand to prevent the stack from fully compressing** (Effectiveness: Medium) - Your Response: Swim your head underneath their framing arm and continue driving forward, converting their straight-arm frame into a bent position that collapses under your pressure. Alternatively, control their framing wrist with your free hand and pin it before resuming the stack. → Leads to [[Positions/Ringworm Guard]]
+- **Opponent attempts a triangle or omoplata setup as you drive forward by catching your head or arm** (Effectiveness: Medium) - Your Response: Keep your elbows tight to your body and your posture compacted throughout the stack. If they attempt a triangle, immediately posture up and back out of the stack, using the disruption to strip the lapel grip while they are mid-transition and their control is momentarily compromised. → Leads to [[Positions/Ringworm Guard]]
+- **Opponent re-grips the lapel immediately after you strip it, restoring the Ringworm configuration before you can extract your leg** (Effectiveness: High) - Your Response: After stripping the lapel, immediately stuff the loose lapel tail under the opponent's body or behind their back where they cannot reach it. Control their grip-fighting hand with your stripping hand for 1-2 seconds while you complete the leg extraction with the other hand assisting if needed. → Leads to [[Positions/Ringworm Guard]]
 
 
 </section>

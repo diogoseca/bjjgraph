@@ -156,7 +156,7 @@ Defending the stack pass requires early recognition and proactive response befor
 
 The defender must understand the three critical windows for defense: before the guard is broken (maintaining closure and grip control), during the initial driving phase (creating frames and angles before hips leave the mat), and during the stacking phase itself (threatening submissions and using inversion to create scrambles). Each window requires different technical responses, and the defender must develop the ability to recognize which phase they are in and apply the appropriate defensive strategy without hesitation.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The defender must understand the three critical windows for defense: before the 
 ### 1. Frame on the passer's hips with both hands and shrimp your hips away to create distance before the stack is established
 
 - **When to use**: Early in the stack attempt when you first feel forward pressure and your hips have not yet left the mat
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Creates enough distance to re-close your guard or transition to an active open guard like collar-sleeve or spider guard
 - **Risk**: If frames collapse, you lose your last opportunity to create space before full compression, and the passer advances with additional momentum
 
 ### 2. Secure a guillotine grip around the passer's neck as they drive forward, threatening the choke to halt their advance
 
 - **When to use**: When the passer drives forward with their head positioned in your centerline or transitions between head positions during the stack
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Forces the passer to abandon the stack pass to defend the choke, resetting to guard position or finishing the submission
 - **Risk**: If the guillotine grip is not deep enough, the passer can posture through it and use your arm commitment to accelerate the pass with less resistance
 
 ### 3. Shoot for a triangle choke by controlling one of the passer's arms and cutting an angle with your hips to lock the triangle from the stacked position
 
 - **When to use**: When the passer has one arm inside your guard and one outside, creating the arm isolation needed for the triangle entry
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Catches the passer in a submission from their own passing attempt, forcing them to defend or tap
 - **Risk**: If the triangle is not locked tightly, the increased stacking pressure from the passer's defense can crush the triangle and accelerate the pass
 
 ### 4. Granby roll or inversion to create a scramble and recover guard from underneath the stack
 
 - **When to use**: When fully stacked with hips elevated and static defense is no longer viable, as a last-resort dynamic escape
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Resets position to open guard or creates a scramble where you can recover to a neutral position
 - **Risk**: Failed inversion can expose your back or leave you in an even worse position if the passer follows your roll and secures back control
 
@@ -228,11 +228,11 @@ The defender must understand the three critical windows for defense: before the 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Create strong frames on the passer's hips early in the stack attempt and shrimp your hips laterally to break their forward pressure angle. Once distance is created, immediately re-close your guard by locking your ankles behind their back, or transition to an active open guard if re-closing is not possible. The key is acting before your hips leave the mat.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Threaten a guillotine choke or triangle submission as the passer drives forward, forcing them to abandon the stack pass and retreat to a defensive posture. The guillotine threat is most effective when the passer's head is centered, while the triangle requires isolating one of their arms inside your guard. Either counter resets the exchange to your offensive closed guard position.
 

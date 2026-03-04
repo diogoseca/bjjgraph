@@ -186,7 +186,7 @@ description: "Complete guide to executing the hip scoot escape from back control
 
 As the bottom player in back control, executing the hip scoot escape requires systematic methodology that prioritizes neck defense before hip movement. Your goal is to lower your center of mass below your opponent's hooks through controlled scooting, then capitalize on the freed hip space to turn and face them in half guard. This escape demands patience during the hand fighting phase and decisive action during the scooting phase. The technique works by exploiting the fundamental vulnerability of standard back control: hooks can only control hips that remain within their range, and by sliding your hips below that range, you remove the opponent's primary control mechanism. Mastering this escape transforms back control from a panic-inducing position into a solvable problem with clear mechanical steps.
 
-**From Position**: [[Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the bottom player in back control, executing the hip scoot escape requires sy
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the bottom player in back control, executing the hip scoot escape requires sy
 
 ## Opponent Counters
 
-- **Opponent tightens hooks and follows hip movement downward to maintain hook position on inner thighs** (Effectiveness: High) - Your Response: Switch to alternating the scooting direction with small lateral hip movements, or chain into a different escape direction such as turning to turtle → Leads to [[Back Control]]
-- **Opponent attacks neck immediately when hands shift from neck defense to initiate scooting motion** (Effectiveness: High) - Your Response: Abort the scoot attempt and return to two-on-one neck defense before reattempting when hand fighting position is more secure → Leads to [[Back Control]]
-- **Opponent transitions to body triangle when sensing downward hip movement to eliminate scooting possibility** (Effectiveness: Medium) - Your Response: If body triangle locks before escape completes, address body triangle first by turning toward the triangle lock side before reattempting hip movement → Leads to [[Back Control]]
-- **Opponent follows rotation and transitions to mount when you turn to face them after clearing hooks** (Effectiveness: Medium) - Your Response: Frame on their hip with your inside hand during the turn and immediately insert your knee to prevent mount establishment, prioritizing leg insertion speed → Leads to [[Mount]]
+- **Opponent tightens hooks and follows hip movement downward to maintain hook position on inner thighs** (Effectiveness: High) - Your Response: Switch to alternating the scooting direction with small lateral hip movements, or chain into a different escape direction such as turning to turtle → Leads to [[Positions/Back Control]]
+- **Opponent attacks neck immediately when hands shift from neck defense to initiate scooting motion** (Effectiveness: High) - Your Response: Abort the scoot attempt and return to two-on-one neck defense before reattempting when hand fighting position is more secure → Leads to [[Positions/Back Control]]
+- **Opponent transitions to body triangle when sensing downward hip movement to eliminate scooting possibility** (Effectiveness: Medium) - Your Response: If body triangle locks before escape completes, address body triangle first by turning toward the triangle lock side before reattempting hip movement → Leads to [[Positions/Back Control]]
+- **Opponent follows rotation and transitions to mount when you turn to face them after clearing hooks** (Effectiveness: Medium) - Your Response: Frame on their hip with your inside hand during the turn and immediately insert your knee to prevent mount establishment, prioritizing leg insertion speed → Leads to [[Positions/Mount]]
 
 
 </section>

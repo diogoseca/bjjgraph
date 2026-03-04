@@ -21,7 +21,7 @@ The transition exploits the natural defensive reactions of the trapped opponent.
 
 Successful execution requires maintaining continuous heel control throughout the reconfiguration phase. The critical vulnerability occurs during the brief moment when legs are being repositioned and the figure-four triangle is temporarily loosened. Advanced practitioners minimize this exposure window through precise timing, maintaining upper body grips on the heel throughout, and using hip movement to facilitate the leg switch rather than releasing control entirely. The transition integrates seamlessly into leg lock chain attacks, providing the practitioner with multiple submission angles from a single leg entanglement.
 
-**From Position**: [[Inside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Successful execution requires maintaining continuous heel control throughout the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Outside Ashi-Garami]] | 55% |
-| Failure | [[Inside Ashi-Garami]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 55% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -197,27 +197,27 @@ Inside Ashi to Outside Ashi serves as a critical link in the leg lock positional
 ## Related Techniques
 
 
-- [[Inside Ashi-Garami]] - Starting position for this transition, foundational leg entanglement
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Starting position for this transition, foundational leg entanglement
 
-- [[Outside Ashi-Garami]] - Target position providing outside angle heel hook and ankle lock access
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Target position providing outside angle heel hook and ankle lock access
 
-- [[Saddle]] - Alternative advancement target from inside ashi offering superior control
+- [[Positions/Ashi Garami/Saddle]] - Alternative advancement target from inside ashi offering superior control
 
-- [[Honey Hole]] - Advanced entanglement accessible when outside ashi is established
+- [[Positions/Ashi Garami/Honey Hole]] - Advanced entanglement accessible when outside ashi is established
 
-- [[Cross Ashi-Garami]] - Related lateral transition offering perpendicular attack angles
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Related lateral transition offering perpendicular attack angles
 
-- [[50-50 Guard]] - Mutual entanglement that can develop during ashi transitions
+- [[Positions/Ashi Garami/50-50 Guard]] - Mutual entanglement that can develop during ashi transitions
 
-- [[Straight Ankle Lock Control]] - Submission control position accessible from both inside and outside ashi
+- [[Positions/Straight Ankle Lock Control]] - Submission control position accessible from both inside and outside ashi
 
-- [[Kneebar Control]] - Alternative submission target during leg reconfiguration
+- [[Positions/Kneebar Control]] - Alternative submission target during leg reconfiguration
 
-- [[Half Guard]] - Potential counter outcome if opponent escapes entanglement during transition
+- [[Positions/Half Guard]] - Potential counter outcome if opponent escapes entanglement during transition
 
-- [[Ashi Garami]] - Parent position family governing all ashi garami variations and transitions
+- [[Positions/Ashi Garami]] - Parent position family governing all ashi garami variations and transitions
 
-- [[Leg Entanglement]] - Core conceptual framework for understanding leg lock positional hierarchy
+- [[Positions/Leg Entanglement]] - Core conceptual framework for understanding leg lock positional hierarchy
 
 
 </section>

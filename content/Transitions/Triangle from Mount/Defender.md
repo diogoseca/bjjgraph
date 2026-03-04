@@ -158,7 +158,7 @@ The defender's strategic framework centers on three priorities in order: prevent
 
 At competition level, defending the mounted triangle demands composure under extreme pressure. Panic responses—thrashing, extending arms, or bridging without direction—accelerate the attacker's finishing sequence. The defender who stays calm, protects the trapped arm, maintains chin tuck, and times explosive movement to the attacker's commitment points has realistic escape pathways even from deeply locked positions. The goal is never to simply survive but to convert defensive crisis into positional recovery, ideally returning to closed guard where the positional dynamic resets entirely.
 
-**Opponent's Starting Position**: [[3-4 Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/3-4 Mount]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ At competition level, defending the mounted triangle demands composure under ext
 ### 1. Explosive bridge toward the swinging leg side during the leg transition, driving your hips upward and toward the attacker's compromised base
 
 - **When to use**: The moment you feel the attacker's posted leg lift off the mat or begin swinging over your shoulder—their base is at its weakest during this transition and a well-timed bridge can topple them or force them to abandon the triangle and resettle mount
-- **Targets**: [[3-4 Mount]]
+- **Targets**: [[Positions/Mount/3-4 Mount]]
 - **If successful**: Attacker abandons the triangle attempt and must resettle into 3-4 Mount, resetting the attack sequence. In the best case, the bridge disrupts their position enough for you to recover half guard or begin an escape sequence
 - **Risk**: If the bridge is mistimed or insufficient, you expend energy without disrupting their position and they complete the leg swing with your hips already elevated, potentially accelerating the triangle lock
 
 ### 2. Withdraw the targeted arm by pulling your elbow sharply back to your ribs and turning your body toward the trapped arm side before the attacker secures wrist control
 
 - **When to use**: When you feel the attacker beginning to isolate one arm through cross-face pressure or wrist gripping—this must be done before the arm-in/arm-out configuration is established, as early prevention is far more effective than late extraction
-- **Targets**: [[3-4 Mount]]
+- **Targets**: [[Positions/Mount/3-4 Mount]]
 - **If successful**: Prevents the arm isolation entirely, denying the attacker the prerequisite configuration for the triangle. They must restart their setup sequence or switch to a different attack, keeping you in standard mount defense rather than triangle defense
 - **Risk**: Pulling your arm back aggressively may create space that the attacker exploits for a different attack line such as Americana on the opposite arm or advancing to high mount
 
 ### 3. Hip escape toward the side of the attacker's swinging leg while framing against their hip with your free arm, working to insert your knee between your bodies
 
 - **When to use**: When the attacker has begun the leg swing but has not yet locked the triangle—the partial triangle configuration creates enough space on the swinging leg side for hip escape movement that would not be available under consolidated mount pressure
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You create enough space to insert your knee as a shield and begin recovering guard. The attacker's commitment to the triangle position means they have sacrificed some mount stability, making the hip escape more viable than from standard mount
 - **Risk**: If the hip escape is too slow, the attacker locks the triangle while you are mid-movement, catching you in a worse angle. The escape attempt may also expose your back if you turn too far
 
 ### 4. Two-on-one grip on the attacker's controlling wrist, stripping their wrist pin while keeping both your arms inside the triangle space to deny the arm-in/arm-out configuration
 
 - **When to use**: When the attacker has gripped your wrist but has not yet begun the leg swing—this is the setup phase where grip fighting can prevent the entire sequence from developing
-- **Targets**: [[3-4 Mount]]
+- **Targets**: [[Positions/Mount/3-4 Mount]]
 - **If successful**: Breaking the wrist control eliminates the attacker's ability to maintain arm isolation, forcing them to re-establish the grip or abandon the triangle setup entirely. Both your arms remain symmetrically positioned, denying the arm separation they need
 - **Risk**: Committing both hands to grip fighting momentarily reduces your framing ability, potentially allowing the attacker to drive chest pressure and advance position if they abandon the triangle for a different attack
 
@@ -229,11 +229,11 @@ At competition level, defending the mounted triangle demands composure under ext
 
 ## Best-Case Outcomes for Defender
 
-### → [[3-4 Mount]]
+### → [[Positions/Mount/3-4 Mount]]
 
 Disrupt the triangle setup before it locks by denying arm isolation through tight elbows, breaking wrist control with two-on-one grips, or bridging explosively during the leg swing when the attacker's base is compromised. The attacker fails to complete the transition and must resettle into standard 3-4 Mount, returning you to the mount escape framework where you have more defensive options than inside a locked triangle.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Exploit the attacker's commitment to the triangle by hip escaping during the leg transition when their mount stability is reduced. As they swing their leg over your shoulder, frame against their hip and shrimp toward the swinging leg side to create space. Insert your knee between your bodies and work to recover closed guard. The attacker's triangle commitment creates positional instability that makes guard recovery more achievable than from consolidated mount.
 

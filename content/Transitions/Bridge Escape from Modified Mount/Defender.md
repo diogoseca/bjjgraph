@@ -154,7 +154,7 @@ description: "Defend against the bridge escape from Modified Mount. Learn recogn
 
 Defending against the bridge escape from Modified Mount requires anticipating the directional attack on your posted leg and maintaining structural integrity through proactive base adjustments and weight distribution management. As the defender maintaining top position, you must recognize the early signs of a bridge attempt including feet positioning near hips, frames appearing on your hips, and subtle hip shifting toward your posted leg side. The primary defensive strategy involves absorbing bridge energy through your posted foot while maintaining control through the across-body knee, though you should also be prepared to transition to submission threats or tighter mount variations when the bottom practitioner commits to escape attempts. Understanding that your posted leg is the structural weakness being targeted allows you to proactively manage its positioning, keeping it close enough for stability without overextending, and to threaten submissions that punish bridge attempts before they develop momentum.
 
-**Opponent's Starting Position**: [[Modified Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount/Modified Mount]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against the bridge escape from Modified Mount requires anticipating th
 ### 1. Drive posted foot into mat and widen base to absorb bridge energy while increasing pressure through across-body knee
 
 - **When to use**: When you feel the bottom player's hips beginning to activate or their feet repositioning for bridge power
-- **Targets**: [[Modified Mount]]
+- **Targets**: [[Positions/Mount/Modified Mount]]
 - **If successful**: Bridge is absorbed without position change, maintaining Modified Mount control and potentially exhausting the bottom player's energy
 - **Risk**: Widening the posted leg too far may create additional space that a skilled opponent exploits with a follow-up hip escape
 
 ### 2. Immediately threaten armbar on the near-side arm as the bottom player commits to the bridge, forcing them to abandon the escape for arm defense
 
 - **When to use**: When the bottom player's near-side arm becomes even slightly exposed during bridge preparation or execution
-- **Targets**: [[Modified Mount]]
+- **Targets**: [[Positions/Mount/Modified Mount]]
 - **If successful**: Bottom player abandons bridge escape to defend the armbar, resetting to defensive posture in Modified Mount
 - **Risk**: Over-committing to the armbar attempt may shift your weight and actually facilitate the bridge if the arm attack fails
 
 ### 3. Withdraw posted leg and consolidate to standard mount during the bridge attempt, removing the directional vulnerability entirely
 
 - **When to use**: When the bottom player has strong bridge mechanics and repeated attempts are difficult to absorb consistently
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Position improves from Modified Mount to full standard mount with even weight distribution, eliminating the directional weakness
 - **Risk**: Brief transition window during leg withdrawal may allow the bottom player to capture the leg and recover half guard
 
 ### 4. Drive heavy crossface pressure and chest-to-chest connection to prevent the bottom player from generating bridge amplitude
 
 - **When to use**: Preemptively when you recognize bridge preparation cues before the bottom player can execute the full movement
-- **Targets**: [[Modified Mount]]
+- **Targets**: [[Positions/Mount/Modified Mount]]
 - **If successful**: Crossface pins the bottom player's head and prevents the hip rotation needed for directional bridging, neutralizing the escape
 - **Risk**: Committing upper body forward for crossface may reduce your base stability if the bottom player times a bridge during your weight shift
 
@@ -225,11 +225,11 @@ Defending against the bridge escape from Modified Mount requires anticipating th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Use the bridge attempt as an opportunity to withdraw your posted leg and consolidate to standard mount with even weight distribution. As the bottom player commits force toward the posted leg side, pull the leg inward while settling your weight centrally, eliminating the directional vulnerability they were targeting.
 
-### → [[Modified Mount]]
+### → [[Positions/Mount/Modified Mount]]
 
 Absorb the bridge energy by driving your posted foot firmly into the mat and increasing downward pressure through the across-body knee. Once the bridge collapses, immediately re-establish controlling grips and threaten a submission to discourage follow-up escape attempts.
 

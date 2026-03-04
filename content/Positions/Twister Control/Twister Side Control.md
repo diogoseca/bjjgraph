@@ -103,23 +103,23 @@ The learning curve for Twister Side Control is significant, requiring practition
 ### Available Transitions
 
 
-- **[[Granby Roll to Guard]]** (12% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Technical Stand-up]]** (10% of attempts)
+- **[[Transitions/Technical Stand-up]]** (10% of attempts)
 
-- **[[Hip Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (13% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (14% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (14% of attempts)
 
-- **[[Arm Extraction to Turtle]]** (31% of attempts)
+- **[[Transitions/Arm Extraction to Turtle]]** (31% of attempts)
 
-- **[[Rolling to Guard]]** (13% of attempts)
+- **[[Transitions/Rolling to Guard]]** (13% of attempts)
 
-- **[[Escape Twister Side Control]]** (4% of attempts)
+- **[[Transitions/Escape Twister Side Control]]** (4% of attempts)
 
-- **[[Frame from Twister Side Control]]** (2% of attempts)
+- **[[Transitions/Frame from Twister Side Control]]** (2% of attempts)
 
-- **[[Turn In from Twister Side Control]]** (1% of attempts)
+- **[[Transitions/Turn In from Twister Side Control]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -180,31 +180,31 @@ The learning curve for Twister Side Control is significant, requiring practition
 ### Available Transitions
 
 
-- **[[Twister Finish]]** (12% of attempts)
+- **[[Transitions/Twister Finish]]** (12% of attempts)
 
-- **[[Back Take]]** (12% of attempts)
+- **[[Transitions/Back Take]]** (12% of attempts)
 
-- **[[Darce Choke]]** (10% of attempts)
+- **[[Transitions/Darce Choke]]** (10% of attempts)
 
-- **[[Kimura]]** (10% of attempts)
+- **[[Transitions/Kimura]]** (10% of attempts)
 
-- **[[Side Control to North-South]]** (12% of attempts)
+- **[[Transitions/Side Control to North-South]]** (12% of attempts)
 
-- **[[Anaconda Choke]]** (8% of attempts)
+- **[[Transitions/Anaconda Choke]]** (8% of attempts)
 
-- **[[Arm Triangle]]** (7% of attempts)
+- **[[Transitions/Arm Triangle]]** (7% of attempts)
 
-- **[[Side Control to Mount]]** (8% of attempts)
+- **[[Transitions/Side Control to Mount]]** (8% of attempts)
 
-- **[[Turtle to Truck]]** (7% of attempts)
+- **[[Transitions/Turtle to Truck]]** (7% of attempts)
 
-- **[[Calf Slicer]]** (5% of attempts)
+- **[[Transitions/Calf Slicer]]** (5% of attempts)
 
-- **[[Twister SC to Back Take]]** (4% of attempts)
+- **[[Transitions/Twister SC to Back Take]]** (4% of attempts)
 
-- **[[Twister SC to Truck]]** (3% of attempts)
+- **[[Transitions/Twister SC to Truck]]** (3% of attempts)
 
-- **[[Twister from Twister SC]]** (2% of attempts)
+- **[[Submissions/Twister from Twister SC]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -243,21 +243,21 @@ The learning curve for Twister Side Control is significant, requiring practition
 ## Related Positions
 
 
-- **[[Truck]]** - Primary entry position and foundational structure for twister attacks
+- **[[Positions/Twister Control/Truck]]** - Primary entry position and foundational structure for twister attacks
 
-- **[[Twister Control]]** - Direct progression when achieving full twister setup from side control
+- **[[Positions/Twister Control]]** - Direct progression when achieving full twister setup from side control
 
-- **[[Back Control]]** - Alternative advancement option when defender exposes back during escape attempts
+- **[[Positions/Back Control]]** - Alternative advancement option when defender exposes back during escape attempts
 
-- **[[Side Control]]** - Traditional variant that prioritizes pressure over submission proximity
+- **[[Positions/Side Control]]** - Traditional variant that prioritizes pressure over submission proximity
 
-- **[[Turtle]]** - Common defensive position that bottom player may achieve during escape sequences
+- **[[Positions/Turtle]]** - Common defensive position that bottom player may achieve during escape sequences
 
-- **[[North-South]]** - Transitional position when top player loses leg entanglement but maintains upper body control
+- **[[Positions/North-South]]** - Transitional position when top player loses leg entanglement but maintains upper body control
 
-- **[[Crucifix]]** - Alternative arm control position accessible when defender's near arm becomes trapped
+- **[[Positions/Crucifix]]** - Alternative arm control position accessible when defender's near arm becomes trapped
 
-- **[[Lockdown]]** - Related leg entanglement system from 10th Planet methodology
+- **[[Positions/Half Guard/Lockdown]]** - Related leg entanglement system from 10th Planet methodology
 
 
 </section>

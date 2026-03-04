@@ -186,7 +186,7 @@ description: "Master executing the Sweep from Electric Chair in BJJ. Step-by-ste
 
 The Sweep from Electric Chair is executed from bottom lockdown half guard, using the Electric Chair position's splitting pressure to create an irrecoverable off-balance that rolls the opponent directly into mount. As the attacker, your primary weapons are the coordinated lockdown tension, deep underhook leverage, and ankle control that together create a sweeping mechanism the opponent cannot resist once fully committed. Success depends on establishing all three control points before committing to the sweep, then executing a powerful hip extension that converts submission pressure into sweeping momentum. The technique rewards patience in setup and explosive commitment in execution.
 
-**From Position**: [[Electric Chair]] (Bottom)
+**From Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ The Sweep from Electric Chair is executed from bottom lockdown half guard, using
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 48% |
-| Failure | [[Electric Chair]] | 32% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Mount]] | 48% |
+| Failure | [[Positions/Half Guard/Electric Chair]] | 32% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ The Sweep from Electric Chair is executed from bottom lockdown half guard, using
 
 ## Opponent Counters
 
-- **Opponent drives weight aggressively forward to flatten bottom player and prevent hip extension** (Effectiveness: High) - Your Response: Use opponent's forward momentum to redirect into Old School sweep variation, or transition to Truck entry as their forward drive exposes the back → Leads to [[Electric Chair]]
-- **Opponent posts far hand on the mat to create a tripod base preventing the roll** (Effectiveness: Medium) - Your Response: Increase splitting pressure to force them to retract the posting hand for defense, or attack the Banana Split submission since their posting removes upper body protection → Leads to [[Electric Chair]]
-- **Opponent begins extracting trapped leg using limp leg technique and systematic lockdown breaking** (Effectiveness: High) - Your Response: Immediately tighten lockdown tension and increase ankle pull. If extraction is imminent, transition to Deep Half Guard entry before losing control entirely → Leads to [[Electric Chair]]
-- **Opponent establishes crossface and whizzer simultaneously to shut down underhook leverage** (Effectiveness: High) - Your Response: Release ankle to fight the crossface first and re-establish underhook depth. If whizzer is dominant, transition to Dogfight position where the underhook battle continues from a more neutral stance → Leads to [[Side Control]]
+- **Opponent drives weight aggressively forward to flatten bottom player and prevent hip extension** (Effectiveness: High) - Your Response: Use opponent's forward momentum to redirect into Old School sweep variation, or transition to Truck entry as their forward drive exposes the back → Leads to [[Positions/Half Guard/Electric Chair]]
+- **Opponent posts far hand on the mat to create a tripod base preventing the roll** (Effectiveness: Medium) - Your Response: Increase splitting pressure to force them to retract the posting hand for defense, or attack the Banana Split submission since their posting removes upper body protection → Leads to [[Positions/Half Guard/Electric Chair]]
+- **Opponent begins extracting trapped leg using limp leg technique and systematic lockdown breaking** (Effectiveness: High) - Your Response: Immediately tighten lockdown tension and increase ankle pull. If extraction is imminent, transition to Deep Half Guard entry before losing control entirely → Leads to [[Positions/Half Guard/Electric Chair]]
+- **Opponent establishes crossface and whizzer simultaneously to shut down underhook leverage** (Effectiveness: High) - Your Response: Release ankle to fight the crossface first and re-establish underhook depth. If whizzer is dominant, transition to Dogfight position where the underhook battle continues from a more neutral stance → Leads to [[Positions/Side Control]]
 
 
 </section>

@@ -158,7 +158,7 @@ The critical defensive window exists during the opponent's leg insertion phase, 
 
 Understanding when the top player is likely to attempt Counter Ashi Entry allows you to preemptively close defensive gaps. The technique is most commonly attempted during grip adjustments, positional transitions, or when you pause offensive pressure—recognizing these windows lets you either tighten your position preemptively or accelerate your own attack to remove the counter-entry opportunity entirely.
 
-**Opponent's Starting Position**: [[Ashi Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Understanding when the top player is likely to attempt Counter Ashi Entry allows
 ### 1. Close inside space by squeezing knees together and hip escaping away to eliminate the corridor between your thighs
 
 - **When to use**: As soon as you recognize opponent lifting their free leg or angling their knee inward toward your inside space
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Opponent's insertion attempt is blocked, they remain in defensive Ashi Garami top position, and you maintain offensive advantage with your original entanglement intact
 - **Risk**: Hip escaping to close space may momentarily weaken your leg triangle control, creating a brief extraction window for the opponent
 
 ### 2. Accelerate heel hook or ankle lock attempt to force opponent to abort counter entry and prioritize heel defense
 
 - **When to use**: When opponent commits weight forward and begins upper body connection, which typically creates momentary heel exposure on their trapped leg
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: Opponent must abandon counter entry entirely to address immediate submission threat, often giving you time to advance to superior entanglement position
 - **Risk**: If your submission attempt fails while opponent completes their entry, you may end up in a bilateral exchange from an inferior angle
 
 ### 3. Frame on opponent's inserting knee with your hand and redirect it outward while advancing your own hips into their space
 
 - **When to use**: When opponent's free leg is already partially inserted but has not yet achieved inside space control or secured foot hook behind your hip
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Opponent's partially inserted leg is redirected outside your hip line, their entry collapses, and you can re-tighten your original Ashi Garami control
 - **Risk**: Using a hand to frame on their knee temporarily removes one grip from controlling their trapped leg, potentially weakening your submission setup
 
 ### 4. Advance immediately to Inside Ashi-Garami or Cross Ashi-Garami to gain superior hierarchy position before counter entry completes
 
 - **When to use**: When you detect early signs of counter entry and have sufficient control to advance rather than defend
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You achieve a hierarchically superior position where your inside space control and submission angles override their counter-entanglement attempt
 - **Risk**: Rushing advancement may create gaps in your control that actually facilitate their counter entry
 
@@ -228,11 +228,11 @@ Understanding when the top player is likely to attempt Counter Ashi Entry allows
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ashi Garami]]
+### → [[Positions/Ashi Garami]]
 
 Close inside space preemptively by squeezing knees together and maintaining tight hip-to-hip distance. Frame on opponent's inserting knee to redirect it outside your hip line. Keep constant submission pressure to deny them the composure needed for counter entry. Re-tighten your leg triangle after each defensive adjustment.
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Use the opponent's forward weight shift during counter entry attempt as an opportunity to advance your own position. As they drive their hips forward to insert their free leg, thread your inside leg deeper across their hip and rotate toward Inside Ashi-Garami. Their forward commitment makes it harder for them to resist your advancement while simultaneously attempting counter entry.
 

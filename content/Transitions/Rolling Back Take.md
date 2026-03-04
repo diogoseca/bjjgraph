@@ -17,7 +17,7 @@ description: "Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle
 
 The Rolling Back Take is a dynamic and highly effective transition from top turtle position to back control. This technique exploits the opponent's defensive posture by using momentum and timing to roll over their shoulder, landing directly on their back with control. Unlike static back takes that rely on breaking down the turtle position incrementally, the rolling back take uses explosive movement to bypass defensive frames entirely. This technique is particularly valuable when the opponent maintains a strong defensive turtle with their elbows tight to their knees, making traditional hook insertions difficult. The rolling back take requires precise timing, spatial awareness, and the ability to maintain connection throughout the roll. When executed correctly, it provides immediate access to high-value control positions and submission opportunities, making it a favorite among competitors at all levels.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 72%
 
 </section>
@@ -28,9 +28,9 @@ The Rolling Back Take is a dynamic and highly effective transition from top turt
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 75% |
-| Failure | [[Turtle]] | 15% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control]] | 75% |
+| Failure | [[Positions/Turtle]] | 15% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -192,27 +192,27 @@ The Rolling Back Take is a fundamental component of the top turtle attack system
 ## Related Techniques
 
 
-- [[Turtle]] - Starting position for the technique
+- [[Positions/Turtle]] - Starting position for the technique
 
-- [[Back Control]] - Ending position and objective of the technique
+- [[Positions/Back Control]] - Ending position and objective of the technique
 
-- [[Seat Belt Control Back]] - Primary control configuration after completing the roll
+- [[Positions/Back Control/Seat Belt Control Back]] - Primary control configuration after completing the roll
 
-- [[Rear Naked Choke]] - Primary submission from resulting back control position
+- [[Transitions/Rear Naked Choke]] - Primary submission from resulting back control position
 
-- [[Bow and Arrow Choke]] - Alternative submission after establishing back control
+- [[Transitions/Bow and Arrow Choke]] - Alternative submission after establishing back control
 
-- [[Crucifix]] - Alternative when opponent defends roll by posting arm
+- [[Positions/Crucifix]] - Alternative when opponent defends roll by posting arm
 
-- [[Matrix Back Take]] - Related dynamic back take technique with similar principles
+- [[Transitions/Matrix Back Take]] - Related dynamic back take technique with similar principles
 
-- [[Berimbolo Entry]] - Alternative dynamic back take from different starting position
+- [[Transitions/Berimbolo Entry]] - Alternative dynamic back take from different starting position
 
-- [[Armbar from Back]] - Submission option from achieved back control
+- [[Submissions/Armbar from Back]] - Submission option from achieved back control
 
-- [[Gift Wrap]] - Alternative control position if arm is captured during roll
+- [[Positions/Gift Wrap]] - Alternative control position if arm is captured during roll
 
-- [[Crucifix from Turtle]] - Alternative turtle top attack when rolling back take is denied
+- [[Transitions/Crucifix from Turtle]] - Alternative turtle top attack when rolling back take is denied
 
 
 </section>

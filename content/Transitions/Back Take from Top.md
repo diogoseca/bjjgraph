@@ -21,7 +21,7 @@ The mechanical beauty of this transition lies in using the opponent's own escape
 
 Strategically, the back take option makes your Hindulotine attacks significantly more dangerous. Opponents who know you will take their back if they turn become hesitant to execute the primary escape, allowing more finishing opportunities on the guillotine itself. The mere threat of this transition improves your overall submission percentage from the position.
 
-**From Position**: [[Hindulotine]] (Top)
+**From Position**: [[Positions/Hindulotine]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the back take option makes your Hindulotine attacks significantly
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Hindulotine]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Hindulotine]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Back Take from Hindulotine is a critical component of the front headlock att
 ## Related Techniques
 
 
-- [[Hindulotine]] - Starting position for this transition
+- [[Positions/Hindulotine]] - Starting position for this transition
 
-- [[Back Control]] - Target position after successful execution
+- [[Positions/Back Control]] - Target position after successful execution
 
-- [[Rear Naked Choke]] - Primary submission from resulting back control
+- [[Transitions/Rear Naked Choke]] - Primary submission from resulting back control
 
-- [[Front Headlock]] - Parent position system for Hindulotine attacks
+- [[Positions/Front Headlock]] - Parent position system for Hindulotine attacks
 
-- [[Guillotine Control]] - Related position with similar back take opportunities
+- [[Positions/Guillotine Control]] - Related position with similar back take opportunities
 
-- [[Back Take from Bottom]] - Alternative back take from bottom Hindulotine
+- [[Transitions/Back Take from Bottom]] - Alternative back take from bottom Hindulotine
 
-- [[Hindulotine to Darce Choke]] - Alternative attack when opponent frames instead of turns
+- [[Transitions/Hindulotine to Darce Choke]] - Alternative attack when opponent frames instead of turns
 
-- [[Hindulotine to Anaconda Choke]] - Alternative attack from same control position
+- [[Transitions/Hindulotine to Anaconda Choke]] - Alternative attack from same control position
 
-- [[Turtle]] - Common intermediate position during transition
+- [[Positions/Turtle]] - Common intermediate position during transition
 
-- [[Crucifix]] - Advanced follow-up position from back control
+- [[Positions/Crucifix]] - Advanced follow-up position from back control
 
 
 </section>

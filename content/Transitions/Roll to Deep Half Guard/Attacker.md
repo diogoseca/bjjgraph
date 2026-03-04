@@ -182,7 +182,7 @@ The Roll to Deep Half Guard is executed by the bottom player caught in a buggy c
 
 Unlike sitting to half guard or granby rolling to closed guard, the deep half entry creates immediate offensive opportunities upon completion. The bottom player transitions from pure defense to a position with sweeping potential and leg entanglement options. This transition is particularly valuable when the buggy choke grips are established but body pressure hasn't fully consolidated, punishing overly aggressive finishing attempts with a counterattacking escape.
 
-**From Position**: [[Buggy Choke]] (Bottom)
+**From Position**: [[Positions/Buggy Choke]] (Bottom)
 
 </section>
 
@@ -236,9 +236,9 @@ Unlike sitting to half guard or granby rolling to closed guard, the deep half en
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Deep Half Guard]] | 55% |
-| Failure | [[Buggy Choke]] | 25% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Half Guard/Deep Half Guard]] | 55% |
+| Failure | [[Positions/Buggy Choke]] | 25% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -247,10 +247,10 @@ Unlike sitting to half guard or granby rolling to closed guard, the deep half en
 
 ## Opponent Counters
 
-- **Sprawl and flatten before roll completes** (Effectiveness: High) - Your Response: Recognize early sprawl attempt and abort to alternative escape like sitting to half guard. Once opponent sprawls, the rolling angle becomes blocked and attempting to force the roll exposes your back. → Leads to [[Buggy Choke]]
-- **Release choke grips and take back during roll** (Effectiveness: High) - Your Response: Accept that skilled opponents may transition to back control. Prepare defensive grips during roll to address back take. Sometimes accepting back take is preferable to choke completion—you can escape backs, you cannot escape finished chokes. → Leads to [[Back Control]]
-- **Post far leg wide to prevent deep half entry** (Effectiveness: Medium) - Your Response: If opponent posts wide, redirect your roll toward single leg x-guard or standard half guard instead of forcing deep half. The wide post creates different opportunities that should be exploited rather than fought against. → Leads to [[Buggy Choke]]
-- **Drive knee through during roll to establish knee slice passing position** (Effectiveness: Medium) - Your Response: Maintain strong frames and immediately address the knee slice by recovering knee shield or transitioning to quarter guard retention. The key is preventing the knee from completely clearing your hip line. → Leads to [[Buggy Choke]]
+- **Sprawl and flatten before roll completes** (Effectiveness: High) - Your Response: Recognize early sprawl attempt and abort to alternative escape like sitting to half guard. Once opponent sprawls, the rolling angle becomes blocked and attempting to force the roll exposes your back. → Leads to [[Positions/Buggy Choke]]
+- **Release choke grips and take back during roll** (Effectiveness: High) - Your Response: Accept that skilled opponents may transition to back control. Prepare defensive grips during roll to address back take. Sometimes accepting back take is preferable to choke completion—you can escape backs, you cannot escape finished chokes. → Leads to [[Positions/Back Control]]
+- **Post far leg wide to prevent deep half entry** (Effectiveness: Medium) - Your Response: If opponent posts wide, redirect your roll toward single leg x-guard or standard half guard instead of forcing deep half. The wide post creates different opportunities that should be exploited rather than fought against. → Leads to [[Positions/Buggy Choke]]
+- **Drive knee through during roll to establish knee slice passing position** (Effectiveness: Medium) - Your Response: Maintain strong frames and immediately address the knee slice by recovering knee shield or transitioning to quarter guard retention. The key is preventing the knee from completely clearing your hip line. → Leads to [[Positions/Buggy Choke]]
 
 
 </section>

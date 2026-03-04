@@ -193,28 +193,28 @@ Defending the arm-in guillotine requires immediate recognition and disciplined d
 ### 1. Von Flue defense - drive shoulder into opponent's neck while stacking weight forward and walking hips to choking-arm side to create pressure reversal
 
 - **When to use**: When opponent pulls guard with the arm-in guillotine and you end up in their closed guard with the choke still applied but not yet fully tight
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Opponent is forced to release the guillotine to defend the Von Flue counter-choke pressure, returning you to top position in their guard or half guard
 - **Risk**: If opponent has the choke locked deep before you can apply Von Flue pressure, you may lose consciousness before the counter takes effect
 
 ### 2. Arm extraction by turning toward choking arm and circling hips to create extraction angle while posting free hand on their hip for base
 
 - **When to use**: During the early setup phase when the grip is not yet fully locked and your trapped arm still has some mobility inside the choking loop
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Trapped arm comes free, converting the position to a standard guillotine which has more escape options, or fully clearing the head and returning to neutral front headlock battle
 - **Risk**: If you turn too aggressively toward the choking arm, you may expose your back and give up back control
 
 ### 3. Posture up explosively while driving trapped-arm-side shoulder into opponent's chest to break the grip connection and create space
 
 - **When to use**: When the opponent has not yet pulled guard and is attempting to finish from standing or from front headlock position with their hips forward
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Breaking their grip connection neutralizes the immediate choke threat and allows you to recover posture, potentially ending up in their closed guard as they fall back
 - **Risk**: If opponent jumps to guard during your posture attempt, the momentum change can actually tighten the choke during the transition
 
 ### 4. Stack and pass - drive forward aggressively, stacking opponent's hips over their head while walking to the side to create passing angle and pressure on the choke grip
 
 - **When to use**: When opponent has pulled closed guard with the arm-in guillotine and is attempting to finish from bottom position
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Stacking pressure breaks opponent's body alignment needed for the choke, forces them to open guard to reposition, and creates passing opportunities as the choke loosens
 - **Risk**: If you stack without proper head position, opponent can readjust the choke angle while you carry their weight, making the choke tighter during the stack
 
@@ -238,11 +238,11 @@ Defending the arm-in guillotine requires immediate recognition and disciplined d
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Extract trapped arm through circling and angle changes while recovering posture, neutralizing the choke threat and returning to a neutral front headlock exchange where you can work your own attacks
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Survive the initial guillotine attempt by tucking chin and applying Von Flue pressure or stacking, forcing opponent to release the choke and revert to closed guard position where you can begin systematic guard opening
 

@@ -140,7 +140,7 @@ description: "Defend and counter the Stack Pass from Clamp Guard in BJJ. Recogni
 
 Defending the Stack Pass from Clamp Guard requires recognizing the opponent's forward drive intention before they achieve full stack compression on your spine. Once your hips are folded past your shoulders, defensive options diminish rapidly as leg mobility is neutralized and the clamp structure collapses under compression. The defender must choose between early triangle counter-attack during the drive phase when the passer's head enters leg territory, defensive framing to maintain hip angles and clamp integrity, or strategic reguarding when the clamp can no longer be maintained. The critical defensive skill is reading the passer's intent before they commit — distinguishing between arm extraction attempts and stack pass setups determines which defensive response will be effective, and this recognition must happen in the first second of the passer's movement.
 
-**Opponent's Starting Position**: [[Clamp Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Clamp Guard]] (Top)
 
 </section>
 
@@ -178,21 +178,21 @@ Defending the Stack Pass from Clamp Guard requires recognizing the opponent's fo
 ### 1. Shoot triangle by swinging leg over the passer's neck as they drive forward into your guard territory
 
 - **When to use**: During the initial forward drive phase when the passer's head enters your leg territory but before full stack compression is established — the first two seconds of their drive
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Lock triangle choke on the passer, converting their forward commitment into a dominant submission position with immediate finishing threat
 - **Risk**: If the triangle lock fails to set properly, you end up partially stacked with compromised hip position, reduced clamp integrity, and the passer in an advantageous position to complete the pass
 
 ### 2. Frame against the passer's shoulders with both hands and actively angle your hips away to prevent stack compression from establishing
 
 - **When to use**: When the opponent begins the forward drive but has not yet achieved full hip elevation — your legs still have sufficient mobility to maintain clamp angles
-- **Targets**: [[Clamp Guard]]
+- **Targets**: [[Positions/Clamp Guard]]
 - **If successful**: Redirect the passer's forward drive laterally, maintaining hip angle and clamp guard with full offensive options including armbar, triangle, and sweep threats intact
 - **Risk**: Frames may be overpowered by a fully committed stack drive, resulting in compressed position with weakened defensive structure and partially collapsed clamp
 
 ### 3. Push on the passer's hips with feet or hands to create distance and disengage the stack before compression establishes
 
 - **When to use**: When stack pressure is building beyond your ability to maintain clamp structure and offensive options are no longer available from the compressed position
-- **Targets**: [[Clamp Guard]]
+- **Targets**: [[Positions/Clamp Guard]]
 - **If successful**: Break the passer's forward pressure chain and re-establish guard distance, recovering clamp guard or transitioning to alternative open guard with space to work
 - **Risk**: Releasing clamp control to push with legs may give the passer the arm extraction they could not achieve through the clamp, enabling alternative passing approaches
 
@@ -204,11 +204,11 @@ Defending the Stack Pass from Clamp Guard requires recognizing the opponent's fo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Clamp Guard]]
+### → [[Positions/Clamp Guard]]
 
 Maintain your guard by framing against the stack drive early with both hands on the passer's shoulders, keeping your hips angled away to prevent compression. Active hip adjustment and frame strength in the first second of the drive prevent the stack from reaching the compression depth needed to neutralize your guard.
 
-### → [[Triangle Control]]
+### → [[Positions/Triangle Control]]
 
 Convert the passer's forward drive into a triangle by shooting your top leg over their neck as they commit their head and shoulders into your guard territory. The passer's own forward momentum carries them into the triangle position — time the leg swing to the moment their weight shifts forward past their knees and they cannot retreat.
 

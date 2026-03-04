@@ -99,21 +99,21 @@ Understanding Mount from both perspectives is essential for complete grappling d
 ### Available Transitions
 
 
-- **[[Elbow Escape from Mount]]** (35% of attempts)
+- **[[Transitions/Elbow Escape from Mount]]** (35% of attempts)
 
-- **[[Upa Escape]]** (22% of attempts)
+- **[[Transitions/Upa Escape]]** (22% of attempts)
 
-- **[[Explosive Bridge to Guard Recovery]]** (15% of attempts)
+- **[[Transitions/Explosive Bridge to Guard Recovery]]** (15% of attempts)
 
-- **[[Trap and Roll from Mount]]** (10% of attempts)
+- **[[Transitions/Trap and Roll from Mount]]** (10% of attempts)
 
-- **[[Heel Drag Escape]]** (7% of attempts)
+- **[[Transitions/Heel Drag Escape]]** (7% of attempts)
 
-- **[[Explosive Bridge to Turtle]]** (5% of attempts)
+- **[[Transitions/Explosive Bridge to Turtle]]** (5% of attempts)
 
-- **[[Bridge and Roll]]** (4% of attempts)
+- **[[Transitions/Bridge and Roll]]** (4% of attempts)
 
-- **[[Mount Escape to Half Guard Back Take]]** (2% of attempts)
+- **[[Transitions/Mount Escape to Half Guard Back Take]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -178,45 +178,45 @@ Understanding Mount from both perspectives is essential for complete grappling d
 ### Available Transitions
 
 
-- **[[Mount to Armbar]]** (7% of attempts)
+- **[[Transitions/Mount to Armbar]]** (7% of attempts)
 
-- **[[Americana]]** (4% of attempts)
+- **[[Transitions/Americana]]** (4% of attempts)
 
-- **[[Cross Collar Choke]]** (4% of attempts)
+- **[[Transitions/Cross Collar Choke]]** (4% of attempts)
 
-- **[[Gift Wrap to Technical Mount]]** (4% of attempts)
+- **[[Transitions/Gift Wrap to Technical Mount]]** (4% of attempts)
 
-- **[[S-Mount Transition]]** (3% of attempts)
+- **[[Transitions/S-Mount Transition]]** (3% of attempts)
 
-- **[[High Mount Transition]]** (6% of attempts)
+- **[[Transitions/High Mount Transition]]** (6% of attempts)
 
-- **[[Mounted Triangle]]** (3% of attempts)
+- **[[Positions/Mount/Mounted Triangle]]** (3% of attempts)
 
-- **[[Consolidate Mount]]** (41% of attempts)
+- **[[Transitions/Consolidate Mount]]** (41% of attempts)
 
-- **[[Mount Control]]** (3% of attempts)
+- **[[Transitions/Mount Control]]** (3% of attempts)
 
-- **[[Mount to 3-4 Mount]]** (3% of attempts)
+- **[[Transitions/Mount to 3-4 Mount]]** (3% of attempts)
 
-- **[[Mount to Knee on Belly]]** (3% of attempts)
+- **[[Transitions/Mount to Knee on Belly]]** (3% of attempts)
 
-- **[[Mount to Technical Mount]]** (3% of attempts)
+- **[[Transitions/Mount to Technical Mount]]** (3% of attempts)
 
-- **[[Americana from Mount]]** (2% of attempts)
+- **[[Submissions/Americana from Mount]]** (2% of attempts)
 
-- **[[Armbar from Mount]]** (2% of attempts)
+- **[[Submissions/Armbar from Mount]]** (2% of attempts)
 
-- **[[Ezekiel Choke]]** (2% of attempts)
+- **[[Submissions/Ezekiel Choke]]** (2% of attempts)
 
-- **[[Ezekiel from Mount]]** (2% of attempts)
+- **[[Submissions/Ezekiel from Mount]]** (2% of attempts)
 
-- **[[Kimura from Mount]]** (2% of attempts)
+- **[[Submissions/Kimura from Mount]]** (2% of attempts)
 
-- **[[Loop Choke]]** (2% of attempts)
+- **[[Submissions/Loop Choke]]** (2% of attempts)
 
-- **[[Loop Choke from Mount]]** (2% of attempts)
+- **[[Submissions/Loop Choke from Mount]]** (2% of attempts)
 
-- **[[Monoplata from Mount]]** (2% of attempts)
+- **[[Submissions/Monoplata from Mount]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -259,17 +259,17 @@ Understanding Mount from both perspectives is essential for complete grappling d
 ## Related Positions
 
 
-- **[[Side Control]]** - Common transition to mount via knee slide or step-over from side control
+- **[[Positions/Side Control]]** - Common transition to mount via knee slide or step-over from side control
 
-- **[[Back Control]]** - Technical mount serves as a bridge position between mount and back control
+- **[[Positions/Back Control]]** - Technical mount serves as a bridge position between mount and back control
 
-- **[[Knee on Belly]]** - Alternative dominant position often used to set up mount entry or as transitional control
+- **[[Positions/Knee on Belly]]** - Alternative dominant position often used to set up mount entry or as transitional control
 
-- **[[North-South]]** - Transitional position accessed when opponent turns during mount escape attempts
+- **[[Positions/North-South]]** - Transitional position accessed when opponent turns during mount escape attempts
 
-- **[[Closed Guard]]** - Primary target position for bottom mount escapes via upa or hip escape
+- **[[Positions/Closed Guard]]** - Primary target position for bottom mount escapes via upa or hip escape
 
-- **[[Half Guard]]** - Intermediate recovery position during mount escape sequences before full guard
+- **[[Positions/Half Guard]]** - Intermediate recovery position during mount escape sequences before full guard
 
 
 </section>

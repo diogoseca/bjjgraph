@@ -21,7 +21,7 @@ The technique exploits high mount's primary structural trade-off: the top player
 
 Strategic context is essential for understanding this technique's value within the broader escape hierarchy. From high mount bottom, submission danger is extreme and traditional escape mechanisms are mechanically compromised by the elevated knee positioning. The bridge to mount serves as a damage-control tool that buys time and creates subsequent escape opportunities from regular mount, where bridge-and-roll and elbow escape mechanics become viable. Experienced practitioners recognize that partial defensive wins—regressing the opponent's position rather than fully escaping—are often the optimal strategy from severely disadvantaged positions.
 
-**From Position**: [[High Mount]] (Bottom)
+**From Position**: [[Positions/Mount/High Mount]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategic context is essential for understanding this technique's value within t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[High Mount]] | 30% |
-| Counter | [[S Mount]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Mount/High Mount]] | 30% |
+| Counter | [[Positions/Mount/S Mount]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Bridge to Mount from High Mount occupies a critical role in the mount escape
 ## Related Techniques
 
 
-- [[High Mount]] - Source position from which the bridge technique is initiated by the bottom player
+- [[Positions/Mount/High Mount]] - Source position from which the bridge technique is initiated by the bottom player
 
-- [[Mount]] - Target position after successful bridge displaces opponent's knees from high mount to standard mount
+- [[Positions/Mount]] - Target position after successful bridge displaces opponent's knees from high mount to standard mount
 
-- [[S Mount]] - Counter outcome position where opponent capitalizes on bridge attempt to advance rather than regress
+- [[Positions/Mount/S Mount]] - Counter outcome position where opponent capitalizes on bridge attempt to advance rather than regress
 
-- [[Upa Escape]] - Primary follow-up escape technique once opponent is regressed to regular mount position
+- [[Transitions/Upa Escape]] - Primary follow-up escape technique once opponent is regressed to regular mount position
 
-- [[Elbow Escape to Guard]] - Secondary follow-up escape from regular mount that becomes viable after successful bridge
+- [[Transitions/Elbow Escape to Guard]] - Secondary follow-up escape from regular mount that becomes viable after successful bridge
 
-- [[Bridge Escape from S Mount]] - Related bridge escape technique from similar dominant position with shared mechanics
+- [[Transitions/Bridge Escape from S Mount]] - Related bridge escape technique from similar dominant position with shared mechanics
 
-- [[Hip Escape to Guard]] - Complementary escape technique in the mount escape chain following position regression
+- [[Transitions/Hip Escape to Guard]] - Complementary escape technique in the mount escape chain following position regression
 
-- [[Half Guard]] - Common recovery position in the complete escape sequence after bridge and mount escape
+- [[Positions/Half Guard]] - Common recovery position in the complete escape sequence after bridge and mount escape
 
-- [[Technical Mount]] - Related mount variation that may result from failed bridge attempts with side turning
+- [[Positions/Mount/Technical Mount]] - Related mount variation that may result from failed bridge attempts with side turning
 
-- [[Shrimp Escape]] - Alternative escape movement that complements bridge mechanics in the escape hierarchy
+- [[Transitions/Shrimp Escape]] - Alternative escape movement that complements bridge mechanics in the escape hierarchy
 
 
 </section>

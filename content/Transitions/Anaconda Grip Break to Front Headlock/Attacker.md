@@ -180,7 +180,7 @@ description: "Learn to execute the anaconda grip break from bottom position. Sys
 
 Executing the anaconda grip break requires calm, systematic hand fighting under extreme pressure. As the bottom player in anaconda control, your immediate priority is preventing the choke from reaching submission depth while simultaneously attacking the opponent's grip configuration. The technique demands precise coordination between your free hand's grip-fighting actions and your lower body's hip movement to create the angular displacement necessary for breaking the constricting loop around your neck and trapped arm. Success depends on targeting the weakest point of the opponent's grip rather than attempting to power through the strongest structural elements of their control. The grip break is a staged process—create slack, attack the junction, extract—not a single explosive movement.
 
-**From Position**: [[Anaconda Control]] (Bottom)
+**From Position**: [[Positions/Anaconda Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the anaconda grip break requires calm, systematic hand fighting under 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 55% |
-| Failure | [[Anaconda Control]] | 30% |
-| Counter | [[Darce Control]] | 15% |
+| Success | [[Positions/Front Headlock]] | 55% |
+| Failure | [[Positions/Anaconda Control]] | 30% |
+| Counter | [[Positions/Darce Control]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the anaconda grip break requires calm, systematic hand fighting under 
 
 ## Opponent Counters
 
-- **Opponent tightens grip and drives chest deeper into trapped shoulder before grip break progresses** (Effectiveness: High) - Your Response: Immediately increase hip movement away from pressure to reduce their mechanical advantage, then resume grip attack from the new angle created by the hip escape → Leads to [[Anaconda Control]]
-- **Opponent releases anaconda grip and transitions to darce configuration by threading arm deeper across neck** (Effectiveness: Medium) - Your Response: Recognize the transition immediately and circle away from the darce side while your arm is momentarily free, working to recover guard before the new grip locks → Leads to [[Darce Control]]
-- **Opponent initiates roll-through finish before grip break is completed, using your focus on hand fighting against you** (Effectiveness: High) - Your Response: Post your free hand on the mat and sprawl your legs backward to resist the roll, then resume grip attack once the roll attempt stalls and opponent must resettle → Leads to [[Anaconda Control]]
-- **Opponent adjusts grip from gable to figure-four configuration making junction harder to peel** (Effectiveness: Medium) - Your Response: Shift attack point from the grip junction to the opponent's elbow angle, pushing their choking elbow away from your neck to create space in the loop for extraction → Leads to [[Anaconda Control]]
+- **Opponent tightens grip and drives chest deeper into trapped shoulder before grip break progresses** (Effectiveness: High) - Your Response: Immediately increase hip movement away from pressure to reduce their mechanical advantage, then resume grip attack from the new angle created by the hip escape → Leads to [[Positions/Anaconda Control]]
+- **Opponent releases anaconda grip and transitions to darce configuration by threading arm deeper across neck** (Effectiveness: Medium) - Your Response: Recognize the transition immediately and circle away from the darce side while your arm is momentarily free, working to recover guard before the new grip locks → Leads to [[Positions/Darce Control]]
+- **Opponent initiates roll-through finish before grip break is completed, using your focus on hand fighting against you** (Effectiveness: High) - Your Response: Post your free hand on the mat and sprawl your legs backward to resist the roll, then resume grip attack once the roll attempt stalls and opponent must resettle → Leads to [[Positions/Anaconda Control]]
+- **Opponent adjusts grip from gable to figure-four configuration making junction harder to peel** (Effectiveness: Medium) - Your Response: Shift attack point from the grip junction to the opponent's elbow angle, pushing their choking elbow away from your neck to create space in the loop for extraction → Leads to [[Positions/Anaconda Control]]
 
 
 </section>

@@ -21,7 +21,7 @@ The technique centers on a sequential process of framing, hip escaping, and leg 
 
 Guard recovery from combat base integrates directly into the broader guard retention system, connecting the open guard defensive network with closed guard's offensive platform. When full closed guard recovery is not achievable, the same mechanical principles drive transitions into half guard retention, butterfly guard recomposition, or open guard distance management. Mastery of this recovery makes your entire bottom game more resilient by ensuring that a momentary guard opening does not cascade into a complete positional loss.
 
-**From Position**: [[Combat Base]] (Bottom)
+**From Position**: [[Positions/Combat Base]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Guard recovery from combat base integrates directly into the broader guard reten
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Failure | [[Combat Base]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Failure | [[Positions/Combat Base]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -193,25 +193,25 @@ Guard Recovery from Combat Base occupies a critical defensive role within the BJ
 ## Related Techniques
 
 
-- [[Combat Base]] - Source position - opponent's established stance that this recovery works against
+- [[Positions/Combat Base]] - Source position - opponent's established stance that this recovery works against
 
-- [[Closed Guard]] - Primary recovery target - full guard reestablishment with offensive options
+- [[Positions/Closed Guard]] - Primary recovery target - full guard reestablishment with offensive options
 
-- [[Half Guard]] - Counter outcome position when top player advances during recovery attempt
+- [[Positions/Half Guard]] - Counter outcome position when top player advances during recovery attempt
 
-- [[Open Guard]] - Parent guard system - guard recovery often begins from open guard frames
+- [[Positions/Open Guard]] - Parent guard system - guard recovery often begins from open guard frames
 
-- [[Knee Shield Half Guard]] - Alternative recovery destination using shin frame as intermediate position
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative recovery destination using shin frame as intermediate position
 
-- [[Butterfly Guard]] - Alternative guard recovery option using butterfly hooks instead of closed guard
+- [[Positions/Butterfly Guard]] - Alternative guard recovery option using butterfly hooks instead of closed guard
 
-- [[Headquarters Position]] - Advanced combat base variation that may require different recovery mechanics
+- [[Positions/Headquarters Position]] - Advanced combat base variation that may require different recovery mechanics
 
-- [[Knee Slide from Combat Base]] - Primary passing threat that guard recovery must address and prevent
+- [[Transitions/Knee Slide from Combat Base]] - Primary passing threat that guard recovery must address and prevent
 
-- [[Toreando Pass]] - Dynamic passing threat from combat base that pressures guard recovery timing
+- [[Transitions/Toreando Pass]] - Dynamic passing threat from combat base that pressures guard recovery timing
 
-- [[Hip Bump Sweep]] - High-percentage follow-up technique available after successful guard recovery
+- [[Transitions/Hip Bump Sweep]] - High-percentage follow-up technique available after successful guard recovery
 
 
 </section>

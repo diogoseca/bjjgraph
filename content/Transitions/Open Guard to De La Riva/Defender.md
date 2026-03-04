@@ -154,7 +154,7 @@ description: "Defend against the Open Guard to De La Riva transition as the top 
 
 As the top player facing an opponent attempting to establish De La Riva guard from open guard, your primary objective is to deny the hook-grip combination before it develops into a complete control system. Recognizing the early cues of DLR entry allows you to react with immediate backstep, grip stripping, or forward pressure that either maintains your current passing position or capitalizes on the transition attempt to advance past their guard. Early intervention is critical because once the DLR hook is fully seated with complementary grips, dismantling the position becomes significantly more energy-intensive and exposes you to sweep and back take threats. The key strategic insight is that prevention requires far less effort than cure—denying the hook at the ankle-grip stage costs almost nothing, while removing an established DLR costs substantial energy and time.
 
-**Opponent's Starting Position**: [[Open Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the top player facing an opponent attempting to establish De La Riva guard fr
 ### 1. Backstep the hooked leg to extract it before the hook fully seats behind the knee
 
 - **When to use**: As soon as you feel the opponent's leg beginning to wrap around the outside of your lead leg
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: DLR hook denied completely, you maintain open guard top with full passing initiative and opponent must restart their guard upgrade attempt
 - **Risk**: Opponent transitions to Reverse De La Riva if your backstep carries your leg behind their hip line
 
 ### 2. Strip the ankle grip immediately using a two-on-one break or sharp leg retraction
 
 - **When to use**: When you feel the opponent's hand grip your ankle or pant leg before they begin threading the hook
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Remove the anchor that holds your leg in place during hook threading, preventing the DLR entry at its earliest and least costly intervention point
 - **Risk**: Brief moment of vulnerability while both hands are occupied with the grip strip
 
 ### 3. Drive forward with heavy pressure to flatten the opponent's hips and collapse their angled structure
 
 - **When to use**: When opponent has angled their hips but has not yet fully threaded the hook or established the cross grip
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Flatten their guard structure and advance past their legs to establish top half guard or further passing position
 - **Risk**: If the hook is partially set, your forward pressure feeds directly into berimbolo and inversion entries
 
 ### 4. Circle laterally away from the hooking side to deny the threading angle
 
 - **When to use**: Early in the attempt when opponent has gripped your ankle but has not yet begun the leg swing
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Create lateral distance that breaks the angular relationship needed for the hook and may strip the ankle grip through movement
 - **Risk**: Opponent follows your movement with hip adjustment and may catch the hook during your lateral step
 
@@ -225,11 +225,11 @@ As the top player facing an opponent attempting to establish De La Riva guard fr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip the ankle grip before the hook can be threaded and maintain distance control to keep passing initiative. React within the first second of recognizing the entry attempt.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Capitalize on the opponent's exposed legs during their hook threading attempt by driving forward with heavy pressure. Their perpendicular hip angle creates vulnerability to smash passing when the hook is not yet fully established.
 

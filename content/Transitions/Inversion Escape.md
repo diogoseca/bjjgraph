@@ -21,7 +21,7 @@ Strategically, the Inversion Escape represents a high-risk, high-reward defensiv
 
 This technique requires significant hip mobility, spatial awareness while inverted, and precise timing. The inversion must be committed and explosive - half-measures result in wasted energy and improved position for the attacker. When executed correctly, you can escape to open guard or even counter-entangle into 50-50 guard, neutralizing the positional disadvantage.
 
-**From Position**: [[Honey Hole]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Honey Hole]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This technique requires significant hip mobility, spatial awareness while invert
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Success | [[50-50 Guard]] | 15% |
-| Failure | [[Honey Hole]] | 20% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami/Honey Hole]] | 20% |
 | Counter | [[game-over]] | 10% |
 
 
@@ -190,27 +190,27 @@ The Inversion Escape is a critical component of any modern leg lock defense syst
 ## Related Techniques
 
 
-- [[Honey Hole]] - Starting position - the dangerous entanglement you're escaping from
+- [[Positions/Ashi Garami/Honey Hole]] - Starting position - the dangerous entanglement you're escaping from
 
-- [[Open Guard]] - Primary escape target upon successful leg extraction
+- [[Positions/Open Guard]] - Primary escape target upon successful leg extraction
 
-- [[50-50 Guard]] - Alternative escape target via counter-entanglement variation
+- [[Positions/Ashi Garami/50-50 Guard]] - Alternative escape target via counter-entanglement variation
 
-- [[Inside Heel Hook]] - Primary submission threat you're escaping - understanding it improves escape timing
+- [[Submissions/Inside Heel Hook]] - Primary submission threat you're escaping - understanding it improves escape timing
 
-- [[Ashi Garami Escape]] - Related escape concept for broader leg entanglement defense
+- [[Transitions/Ashi Garami Escape]] - Related escape concept for broader leg entanglement defense
 
-- [[Hip Escape to Guard]] - Alternative escape option when inversion not available
+- [[Transitions/Hip Escape to Guard]] - Alternative escape option when inversion not available
 
-- [[Granby Roll to Guard]] - Related inversion technique with similar mechanics
+- [[Transitions/Granby Roll to Guard]] - Related inversion technique with similar mechanics
 
-- [[Counter Sweep]] - Alternative defensive response using opponent's momentum
+- [[Transitions/Counter Sweep]] - Alternative defensive response using opponent's momentum
 
-- [[Reverse the entanglement to Outside Ashi]] - Complementary defensive technique converting position to less dangerous entanglement
+- [[Transitions/Reverse the entanglement to Outside Ashi]] - Complementary defensive technique converting position to less dangerous entanglement
 
-- [[Inside Ashi-Garami]] - Related leg entanglement position in the ashi garami family
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement position in the ashi garami family
 
-- [[Counter-entangle to 50-50 Guard]] - Alternative escape path creating symmetrical entanglement from Honey Hole bottom
+- [[Transitions/Counter-entangle to 50-50 Guard]] - Alternative escape path creating symmetrical entanglement from Honey Hole bottom
 
 
 </section>

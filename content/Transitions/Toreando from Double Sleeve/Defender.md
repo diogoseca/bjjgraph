@@ -146,7 +146,7 @@ description: "Defend the Toreando pass from Double Sleeve Guard. Recognition cue
 
 As the defender against the Toreando from Double Sleeve, your primary objective is maintaining your double sleeve guard structure while preventing the opponent from converting their grip-fighting position into a lateral pass. The critical defensive window occurs during the grip transition phase—when the top player breaks your sleeve grips and attempts to secure pants control. Early recognition of the toreando setup allows you to employ preemptive defenses including regripping, foot framing, and guard transitions that neutralize the pass before it develops momentum. If the lateral swing has already been initiated, your focus shifts to hip movement, guard recovery, and preventing the opponent from circling past your legs to establish side control.
 
-**Opponent's Starting Position**: [[Double Sleeve Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Double Sleeve Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the Toreando from Double Sleeve, your primary objective 
 ### 1. Immediately regrip sleeves when broken using the same hand or cross-gripping to the opposite sleeve
 
 - **When to use**: As soon as you feel the opponent's grip break succeed, before their hand reaches your pants. This is the highest-priority defense.
-- **Targets**: [[Double Sleeve Guard]]
+- **Targets**: [[Positions/Double Sleeve Guard]]
 - **If successful**: Opponent returns to neutral double sleeve guard position and must restart their grip-breaking sequence
 - **Risk**: If you over-commit to regripping and miss, the opponent secures pants control with both hands and initiates the pass with a timing advantage
 
 ### 2. Insert foot on hip as a frame to maintain distance and block the lateral passing arc
 
 - **When to use**: When the opponent has broken one or both sleeve grips and you cannot immediately regrip. The foot frame prevents them from closing distance for the toreando swing.
-- **Targets**: [[Double Sleeve Guard]]
+- **Targets**: [[Positions/Double Sleeve Guard]]
 - **If successful**: Creates a defensive barrier that prevents the pass and allows you to regrip or transition to a different guard like spider or lasso
 - **Risk**: Opponent may swim past your foot frame if it is not deeply posted, or use the foot as a handle to initiate a different pass like leg drag
 
 ### 3. Close guard by pulling opponent forward with remaining sleeve grip and wrapping legs around their waist
 
 - **When to use**: When the opponent leans forward during grip transition and is within range for guard closure. Best used as an emergency defense when other options have failed.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Transitions to closed guard which neutralizes the toreando threat entirely and provides a strong defensive platform with sweep and submission options
 - **Risk**: If the opponent maintains upright posture and prevents guard closure, you may end up with legs extended and no grips, creating an easy passing lane
 
 ### 4. Hip escape in the opposite direction of the toreando swing while creating frames with arms against the opponent's shoulders
 
 - **When to use**: When the lateral toreando swing has already been initiated and your legs are being moved to one side. Move your hips away from the pass direction to create distance.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough distance to insert a knee shield or recover half guard, preventing the complete pass to side control
 - **Risk**: If hip movement is too slow or opponent maintains strong leg control, you end up in side control with limited defensive structures established
 
@@ -217,11 +217,11 @@ As the defender against the Toreando from Double Sleeve, your primary objective 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Double Sleeve Guard]]
+### → [[Positions/Double Sleeve Guard]]
 
 Regrip sleeves immediately when broken, maintaining constant tension and distance with active feet. Prioritize re-establishing bilateral sleeve control before the opponent can secure pants grips. Use the moment of failed pass to pull the opponent off-balance and set up sweep counters.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the opponent compromises their posture during grip transitions by leaning forward, pull them into range with any remaining sleeve grip and close your legs around their waist. This converts the open guard exchange into a closed guard position where toreando is no longer possible.
 

@@ -21,7 +21,7 @@ This transition exemplifies the principle of reading defensive reactions and ada
 
 The primary risk during this transition occurs in the brief window when the triangle lock is released and the legs are being repositioned. An alert defender can exploit this moment to bridge, extract the trapped arm, or hip escape to half guard. Maintaining continuous wrist control on the isolated arm throughout the entire transition is the non-negotiable requirement that prevents defensive recovery. Practitioners who master this transition add a powerful chain attack that punishes opponents who successfully defend the mounted triangle choke.
 
-**From Position**: [[Mounted Triangle]] (Top)
+**From Position**: [[Positions/Mount/Mounted Triangle]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The primary risk during this transition occurs in the brief window when the tria
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[S Mount]] | 55% |
-| Failure | [[Mounted Triangle]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/S Mount]] | 55% |
+| Failure | [[Positions/Mount/Mounted Triangle]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,27 +195,27 @@ The mounted triangle to S mount transition sits within the broader mount attack 
 ## Related Techniques
 
 
-- [[Mounted Triangle]] - Source position where the triangle configuration provides the starting leg positioning for this transition
+- [[Positions/Mount/Mounted Triangle]] - Source position where the triangle configuration provides the starting leg positioning for this transition
 
-- [[S Mount]] - Target position offering perpendicular armbar mechanics and superior arm isolation control
+- [[Positions/Mount/S Mount]] - Target position offering perpendicular armbar mechanics and superior arm isolation control
 
-- [[Half Guard]] - Counter outcome position where defender escapes during the transition window
+- [[Positions/Half Guard]] - Counter outcome position where defender escapes during the transition window
 
-- [[Armbar from S Mount]] - Primary submission threat available immediately upon completing this transition
+- [[Submissions/Armbar from S Mount]] - Primary submission threat available immediately upon completing this transition
 
-- [[Mounted Triangle Squeeze]] - Alternative finish attempt from the source position instead of transitioning
+- [[Transitions/Mounted Triangle Squeeze]] - Alternative finish attempt from the source position instead of transitioning
 
-- [[3-4 Mount to S Mount]] - Related S mount entry from a different mount variation with similar leg mechanics
+- [[Transitions/3-4 Mount to S Mount]] - Related S mount entry from a different mount variation with similar leg mechanics
 
-- [[High Mount]] - Common intermediate position during mount-based transitions and a fallback if transition fails
+- [[Positions/Mount/High Mount]] - Common intermediate position during mount-based transitions and a fallback if transition fails
 
-- [[Armbar Control]] - Submission control position that S mount is specifically designed to access
+- [[Positions/Armbar Control]] - Submission control position that S mount is specifically designed to access
 
-- [[Back Control]] - Alternative transition from mounted triangle when opponent turns away during the switch
+- [[Positions/Back Control]] - Alternative transition from mounted triangle when opponent turns away during the switch
 
-- [[Frame and Escape Mounted Triangle]] - Defensive technique the opponent may attempt during the transition window
+- [[Transitions/Frame and Escape Mounted Triangle]] - Defensive technique the opponent may attempt during the transition window
 
-- [[Bridge Defense from Mounted Triangle]] - Defensive escape that becomes available when the triangle lock is released during transition
+- [[Transitions/Bridge Defense from Mounted Triangle]] - Defensive escape that becomes available when the triangle lock is released during transition
 
 
 </section>

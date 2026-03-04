@@ -184,7 +184,7 @@ Strategically, this transition becomes essential when your Reverse X-Guard sweep
 
 The transition requires precise timing and coordinated hook movement to prevent the opponent from capitalizing on the brief moment of reduced control. Advanced practitioners use this transition fluidly as part of a continuous threat cycle, forcing opponents to defend multiple angles simultaneously. The key is maintaining constant connection with at least one hook throughout the reconfiguration while your grips keep the opponent's posture compromised.
 
-**From Position**: [[Reverse X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
 
@@ -237,9 +237,9 @@ The transition requires precise timing and coordinated hook movement to prevent 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[X-Guard]] | 58% |
-| Failure | [[Reverse X-Guard]] | 27% |
-| Counter | [[Headquarters Position]] | 15% |
+| Success | [[Positions/X-Guard]] | 58% |
+| Failure | [[Positions/X-Guard/Reverse X-Guard]] | 27% |
+| Counter | [[Positions/Headquarters Position]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ The transition requires precise timing and coordinated hook movement to prevent 
 
 ## Opponent Counters
 
-- **Backstep during hook transition to disengage leg and establish passing angle** (Effectiveness: High) - Your Response: Accelerate your transition and follow their movement, converting to Single Leg X if they backstep before you complete the reconfiguration → Leads to [[Headquarters Position]]
-- **Drop weight and smash forward during the brief moment of reduced hook pressure** (Effectiveness: Medium) - Your Response: If you feel them dropping weight, abort the transition and return to solid Reverse X-Guard or convert directly to Deep Half Guard → Leads to [[Reverse X-Guard]]
-- **Strip sleeve grip and establish cross-face control during transition** (Effectiveness: Medium) - Your Response: Maintain secondary grip on belt or far collar and complete transition quickly, then re-establish sleeve control from X-Guard → Leads to [[Headquarters Position]]
-- **Step over bottom leg during hook exchange to clear entanglement entirely** (Effectiveness: High) - Your Response: Use sleeve grip to pull them off-balance as they step, and immediately re-hook the stepping leg to recover guard or transition to butterfly guard retention → Leads to [[Headquarters Position]]
+- **Backstep during hook transition to disengage leg and establish passing angle** (Effectiveness: High) - Your Response: Accelerate your transition and follow their movement, converting to Single Leg X if they backstep before you complete the reconfiguration → Leads to [[Positions/Headquarters Position]]
+- **Drop weight and smash forward during the brief moment of reduced hook pressure** (Effectiveness: Medium) - Your Response: If you feel them dropping weight, abort the transition and return to solid Reverse X-Guard or convert directly to Deep Half Guard → Leads to [[Positions/X-Guard/Reverse X-Guard]]
+- **Strip sleeve grip and establish cross-face control during transition** (Effectiveness: Medium) - Your Response: Maintain secondary grip on belt or far collar and complete transition quickly, then re-establish sleeve control from X-Guard → Leads to [[Positions/Headquarters Position]]
+- **Step over bottom leg during hook exchange to clear entanglement entirely** (Effectiveness: High) - Your Response: Use sleeve grip to pull them off-balance as they step, and immediately re-hook the stepping leg to recover guard or transition to butterfly guard retention → Leads to [[Positions/Headquarters Position]]
 
 
 </section>

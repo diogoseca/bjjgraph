@@ -21,7 +21,7 @@ The maintenance phase occupies a critical strategic role in the leg lock game. W
 
 Successful Ashi Garami Maintenance requires simultaneous management of multiple connection points including the inside leg hook, outside leg clamp, hip-to-hip pressure, and upper body grips. Each connection point serves a specific function in preventing different escape vectors, and the practitioner must recognize which connections are under immediate threat and prioritize re-establishing them before the opponent chains multiple extractions together. This defensive awareness within an offensive position distinguishes competition-level leg lock players from casual practitioners who treat leg entanglements as static positions rather than dynamic control exchanges.
 
-**From Position**: [[Ashi Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Successful Ashi Garami Maintenance requires simultaneous management of multiple 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Ashi Garami]] | 55% |
-| Failure | [[Open Guard]] | 30% |
-| Counter | [[Ashi Garami]] | 15% |
+| Success | [[Positions/Ashi Garami]] | 55% |
+| Failure | [[Positions/Open Guard]] | 30% |
+| Counter | [[Positions/Ashi Garami]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ Ashi Garami Maintenance occupies a critical junction in the modern leg lock syst
 ## Related Techniques
 
 
-- [[Ashi Garami]] - Source position family; maintenance preserves this leg entanglement control against extraction
+- [[Positions/Ashi Garami]] - Source position family; maintenance preserves this leg entanglement control against extraction
 
-- [[Ashi Garami Escape]] - Primary counter-transition the defender attempts during maintenance exchanges
+- [[Transitions/Ashi Garami Escape]] - Primary counter-transition the defender attempts during maintenance exchanges
 
-- [[Ashi Garami to Leg Entanglement]] - Advancement transition enabled by successful position maintenance and inside space dominance
+- [[Transitions/Ashi Garami to Leg Entanglement]] - Advancement transition enabled by successful position maintenance and inside space dominance
 
-- [[Inside Ashi-Garami]] - Key advancement target; maintained Outside Ashi enables progression to Inside Ashi control
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Key advancement target; maintained Outside Ashi enables progression to Inside Ashi control
 
-- [[Cross Ashi-Garami]] - Advanced hierarchy position accessible through systematic maintenance and stepwise advancement
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Advanced hierarchy position accessible through systematic maintenance and stepwise advancement
 
-- [[Saddle]] - Apex finishing position; reliable maintenance creates the pathway toward Saddle control
+- [[Positions/Ashi Garami/Saddle]] - Apex finishing position; reliable maintenance creates the pathway toward Saddle control
 
-- [[Single Leg X-Guard]] - Re-entry position when partial control loss requires resetting the entanglement from scratch
+- [[Positions/X-Guard/Single Leg X-Guard]] - Re-entry position when partial control loss requires resetting the entanglement from scratch
 
-- [[50-50 Guard]] - Common bilateral outcome during competitive maintenance exchanges when both players entangle
+- [[Positions/Ashi Garami/50-50 Guard]] - Common bilateral outcome during competitive maintenance exchanges when both players entangle
 
-- [[Back Take from Ashi]] - Alternative offensive pathway available during maintenance when opponent creates back exposure
+- [[Transitions/Back Take from Ashi]] - Alternative offensive pathway available during maintenance when opponent creates back exposure
 
-- [[Open Guard]] - Position reached when maintenance fails and the leg entanglement is fully cleared by defender
+- [[Positions/Open Guard]] - Position reached when maintenance fails and the leg entanglement is fully cleared by defender
 
 
 </section>

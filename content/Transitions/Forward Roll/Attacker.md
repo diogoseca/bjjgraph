@@ -180,7 +180,7 @@ description: "How to execute the Forward Roll escape from turtle in BJJ. Step-by
 
 The Forward Roll from the attacker (executor) perspective is a dynamic escape technique initiated from turtle bottom position. Your goal is to use rolling momentum to transition past your opponent's control and recover to seated guard. The technique exploits windows where the opponent has not fully consolidated back control, using the diagonal rolling path across your shoulder and back to move through their control zone faster than they can follow. Timing is critical: the roll must be initiated when opponent's weight is committed forward or during a grip transition, as rolling against a fully settled opponent with hooks and harness will fail. The forward roll demands precise body mechanics including chin tuck, tight ball position, and explosive leg drive to generate sufficient momentum for a complete rotation. Upon completion, immediate guard establishment with active feet and defensive frames determines whether the escape succeeds or the opponent simply follows through to re-establish control.
 
-**From Position**: [[Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ The Forward Roll from the attacker (executor) perspective is a dynamic escape te
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Seated Guard]] | 70% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Side Control]] | 10% |
+| Success | [[Positions/Seated Guard]] | 70% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -245,10 +245,10 @@ The Forward Roll from the attacker (executor) perspective is a dynamic escape te
 
 ## Opponent Counters
 
-- **Opponent follows the roll maintaining chest-to-back pressure throughout** (Effectiveness: High) - Your Response: As you complete the roll, immediately establish feet on hips in seated guard and use your legs to frame and push opponent away. If they maintain heavy pressure through the roll, continue momentum into a second roll or transition to technical stand-up rather than accepting bottom position under pressure. → Leads to [[Turtle]]
-- **Opponent grabs your legs or hips during mid-roll to stall rotation** (Effectiveness: Medium) - Your Response: Accelerate the roll using momentum already generated and use your hands to strip opponent's grips on your legs. If caught mid-roll, immediately transition to defensive guard position using whatever angle you achieved rather than trying to complete the full roll. Establish frames and work guard recovery from the partial escape position. → Leads to [[Side Control]]
-- **Opponent reads the roll early and steps around to the side** (Effectiveness: Medium) - Your Response: If you detect opponent beginning to circle before you commit to the roll, abort and switch to a different escape such as granby roll in the opposite direction or sit-through to half guard. If already mid-roll when they move laterally, use the forward momentum to angle your roll toward the direction they vacated rather than completing the original path. → Leads to [[Side Control]]
-- **Opponent posts hands heavily on your hips to flatten you and prevent the roll initiation** (Effectiveness: Low) - Your Response: Use opponent's posted hands as leverage points. Their weight commitment to your hips means their upper body control is lighter. Pull yourself forward under and through their base, or switch to a sit-through escape since their hip pressure creates space on the opposite side. Alternatively, use a granby roll in the opposite direction where their hip pressure cannot follow. → Leads to [[Seated Guard]]
+- **Opponent follows the roll maintaining chest-to-back pressure throughout** (Effectiveness: High) - Your Response: As you complete the roll, immediately establish feet on hips in seated guard and use your legs to frame and push opponent away. If they maintain heavy pressure through the roll, continue momentum into a second roll or transition to technical stand-up rather than accepting bottom position under pressure. → Leads to [[Positions/Turtle]]
+- **Opponent grabs your legs or hips during mid-roll to stall rotation** (Effectiveness: Medium) - Your Response: Accelerate the roll using momentum already generated and use your hands to strip opponent's grips on your legs. If caught mid-roll, immediately transition to defensive guard position using whatever angle you achieved rather than trying to complete the full roll. Establish frames and work guard recovery from the partial escape position. → Leads to [[Positions/Side Control]]
+- **Opponent reads the roll early and steps around to the side** (Effectiveness: Medium) - Your Response: If you detect opponent beginning to circle before you commit to the roll, abort and switch to a different escape such as granby roll in the opposite direction or sit-through to half guard. If already mid-roll when they move laterally, use the forward momentum to angle your roll toward the direction they vacated rather than completing the original path. → Leads to [[Positions/Side Control]]
+- **Opponent posts hands heavily on your hips to flatten you and prevent the roll initiation** (Effectiveness: Low) - Your Response: Use opponent's posted hands as leverage points. Their weight commitment to your hips means their upper body control is lighter. Pull yourself forward under and through their base, or switch to a sit-through escape since their hip pressure creates space on the opposite side. Alternatively, use a granby roll in the opposite direction where their hip pressure cannot follow. → Leads to [[Positions/Seated Guard]]
 
 
 </section>

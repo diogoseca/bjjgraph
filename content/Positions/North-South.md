@@ -97,21 +97,21 @@ The position demands different strategic approaches based on whether you're esta
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (14% of attempts)
 
-- **[[Bridge and Roll]]** (12% of attempts)
+- **[[Transitions/Bridge and Roll]]** (12% of attempts)
 
-- **[[Bridge and Turn to Turtle]]** (17% of attempts)
+- **[[Transitions/Bridge and Turn to Turtle]]** (17% of attempts)
 
-- **[[Hip Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (14% of attempts)
 
-- **[[North-South Escape]]** (13% of attempts)
+- **[[Transitions/North-South Escape]]** (13% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (12% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (12% of attempts)
 
-- **[[Granby Roll to Guard]]** (11% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (11% of attempts)
 
-- **[[Technical Stand-up]]** (7% of attempts)
+- **[[Transitions/Technical Stand-up]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -176,25 +176,25 @@ The position demands different strategic approaches based on whether you're esta
 ### Available Transitions
 
 
-- **[[North-South Choke]]** (14% of attempts)
+- **[[Transitions/North-South Choke]]** (14% of attempts)
 
-- **[[Side Control to Mount]]** (12% of attempts)
+- **[[Transitions/Side Control to Mount]]** (12% of attempts)
 
-- **[[North-South to Kimura]]** (14% of attempts)
+- **[[Transitions/North-South to Kimura]]** (14% of attempts)
 
-- **[[Armbar from North-South]]** (12% of attempts)
+- **[[Transitions/Armbar from North-South]]** (12% of attempts)
 
-- **[[Side Control to North-South]]** (8% of attempts)
+- **[[Transitions/Side Control to North-South]]** (8% of attempts)
 
-- **[[Americana]]** (10% of attempts)
+- **[[Transitions/Americana]]** (10% of attempts)
 
-- **[[Knee on Belly]]** (8% of attempts)
+- **[[Positions/Knee on Belly]]** (8% of attempts)
 
-- **[[Arm Triangle Setup]]** (8% of attempts)
+- **[[Transitions/Arm Triangle Setup]]** (8% of attempts)
 
-- **[[Reverse Mount Transition]]** (7% of attempts)
+- **[[Transitions/Reverse Mount Transition]]** (7% of attempts)
 
-- **[[Back Take from Top]]** (7% of attempts)
+- **[[Transitions/Back Take from Top]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -237,23 +237,23 @@ The position demands different strategic approaches based on whether you're esta
 ## Related Positions
 
 
-- **[[Side Control]]** - Common entry position and parallel control alternative
+- **[[Positions/Side Control]]** - Common entry position and parallel control alternative
 
-- **[[Mount]]** - Alternative dominant position accessible via transition
+- **[[Positions/Mount]]** - Alternative dominant position accessible via transition
 
-- **[[Knee on Belly]]** - Alternative control position with different pressure dynamics
+- **[[Positions/Knee on Belly]]** - Alternative control position with different pressure dynamics
 
-- **[[Kimura Trap]]** - Submission control position accessible from North-South
+- **[[Positions/Kimura Trap]]** - Submission control position accessible from North-South
 
-- **[[Turtle]]** - Common escape result when bottom player turns to knees
+- **[[Positions/Turtle]]** - Common escape result when bottom player turns to knees
 
-- **[[Closed Guard]]** - Target recovery position for bottom player escapes
+- **[[Positions/Closed Guard]]** - Target recovery position for bottom player escapes
 
-- **[[Kesa Gatame]]** - Alternative scarf hold pin with different control mechanics
+- **[[Positions/Side Control/Kesa Gatame]]** - Alternative scarf hold pin with different control mechanics
 
-- **[[Reverse Kesa-Gatame]]** - Reverse scarf hold variation with inverted alignment
+- **[[Positions/Side Control/Reverse Kesa-Gatame]]** - Reverse scarf hold variation with inverted alignment
 
-- **[[Crucifix]]** - Advanced control position with superior arm isolation
+- **[[Positions/Crucifix]]** - Advanced control position with superior arm isolation
 
 
 </section>

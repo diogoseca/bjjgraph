@@ -158,7 +158,7 @@ The darce switch defense differs from standard darce defense because the attack 
 
 Successful defense requires a layered approach: prevent the threading entirely if possible, deny depth if the arm begins threading, extract the trapped near arm if the darce begins to lock, and finally sit to half guard as a last-resort positional escape when the darce control consolidates. Each layer becomes progressively harder to execute as the attacker advances through the transition, making early recognition and immediate response critical. Defenders who wait until the figure-four is locked face submission-level danger with minimal escape options, while defenders who act during the collar-release phase can frequently deny the attack entirely and force the attacker back to the buggy choke or a less threatening position.
 
-**Opponent's Starting Position**: [[Buggy Choke]] (Top)
+**Opponent's Starting Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful defense requires a layered approach: prevent the threading entirely i
 ### 1. Clamp far elbow tight to ribs and tuck chin to deny the armpit threading path during the attacker's arm redirect phase
 
 - **When to use**: Immediately upon feeling the collar grip release and the threading arm begin traveling across your back toward the far armpit. This is the highest-percentage defense when executed within the first second of the grip change
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: The attacker cannot thread under the far armpit and must either return to the buggy choke collar grip, attempt the anaconda instead, or transition to front headlock. You remain in buggy choke bottom which is less dangerous than darce control
 - **Risk**: If the elbow clamp is late or the attacker has already achieved partial threading, the defense fails and you may be worse off than if you had chosen to sit to guard during the transition window
 
 ### 2. Sit to half guard explosively during the grip transition window when the attacker's control is momentarily reduced between buggy choke and darce grips
 
 - **When to use**: When you feel the collar release and recognize you cannot prevent the threading because the far arm is already elevated or the attacker's redirect is too fast for the elbow clamp to work
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You escape the turtle-based attack entirely and establish half guard bottom, which offers significantly better defensive and offensive options than defending a locked darce from turtle
 - **Risk**: If the attacker follows the sit and maintains partial neck control, they may establish a front headlock or arm-in guillotine from the new angle. Incomplete guard recovery leaves you in a worse scramble position
 
 ### 3. Extract the trapped near arm by gripping your own wrist with your free hand and pulling the arm out of the darce channel before the figure-four locks
 
 - **When to use**: When the attacker has already threaded under the far armpit but has not yet locked the figure-four grip. This is the last high-percentage defensive window before the darce fully consolidates
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: Removing the trapped arm eliminates the compression fulcrum that makes the darce choke functional. The attacker loses the arm-in configuration and must reset to a different attack or control position
 - **Risk**: The extraction attempt requires committing both hands to the trapped arm, temporarily removing all frames and leaving you vulnerable to being flattened. If the attacker locks the figure-four before extraction completes, you have wasted your defensive window
 
 ### 4. Turn into the attacker by rotating your torso toward the darce arm and driving your near shoulder into their chest to collapse the choking angle
 
 - **When to use**: When the darce grip is partially locked but not yet fully consolidated with the sprawl and hip walk. This counter-intuitive movement reduces the perpendicular angle the attacker needs for effective bilateral compression
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Turning into the attacker collapses the space between your neck and their choking arm, reducing carotid compression. From this angle you can work to sit to guard, recover half guard, or create enough space to extract the trapped arm
 - **Risk**: If timed incorrectly, turning in can actually tighten the choke by driving your neck deeper into the figure-four. Only effective before the attacker fully sprawls and establishes perpendicular angle pressure
 
@@ -228,11 +228,11 @@ Successful defense requires a layered approach: prevent the threading entirely i
 
 ## Best-Case Outcomes for Defender
 
-### → [[Buggy Choke]]
+### → [[Positions/Buggy Choke]]
 
 Deny the darce threading path by clamping the far elbow tight to your ribs immediately upon sensing the collar release. Maintain tight turtle posture with chin tucked. If the threading is blocked, the attacker is forced back to the buggy choke position or must attempt an alternative transition, returning you to the original defensive scenario which is less dangerous than darce control.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the grip transition window by sitting to guard explosively as the attacker releases the collar and begins redirecting the threading arm. Drive your hips backward and turn to face the attacker, inserting your legs between your bodies to establish half guard. The momentary control reduction during the grip change creates a window where the attacker cannot prevent the guard recovery if you commit fully and immediately.
 

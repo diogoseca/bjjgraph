@@ -134,7 +134,7 @@ description: "How to defend against Kneebar from Half Guard in BJJ. Recognition,
 
 Defending the kneebar from half guard requires early recognition and decisive action before the attacker completes their perpendicular rotation and establishes leg isolation. The defender's primary advantage is that they start in top half guard—a position of relative superiority—and the attacker must execute a multi-step transition to reach the kneebar. Every phase of that transition presents defensive windows. The critical defensive principle is preventing the attacker from achieving perpendicular alignment and controlling your hip. Once full leg isolation and hip control are established, escape becomes exponentially more difficult and injury risk increases significantly. Early-stage defense focuses on posture maintenance, base recovery, and preventing the hip rotation that initiates the kneebar sequence. Late-stage defense shifts to knee rotation, grip fighting against the fulcrum, and controlled extraction of the trapped leg. Understanding the attacker's mechanical requirements—perpendicular angle, centerline fulcrum, hip control—allows the defender to systematically deny each element and force the attacker back to guard retention.
 
-**Opponent's Starting Position**: [[Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 
 </section>
@@ -172,21 +172,21 @@ Defending the kneebar from half guard requires early recognition and decisive ac
 ### 1. Drive forward pressure and re-establish crossface before attacker completes rotation
 
 - **When to use**: Early-stage defense when you recognize the hip rotation beginning but attacker has not yet achieved perpendicular alignment or leg isolation
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You flatten the attacker back to bottom half guard, denying the perpendicular angle needed for the kneebar, and resume your passing sequence from top position
 - **Risk**: If you drive forward too aggressively without controlling their top leg, they may use your momentum to complete the rotation faster
 
 ### 2. Rotate trapped knee inward and bend leg to deny hyperextension angle
 
 - **When to use**: Mid-to-late stage defense when attacker has achieved partial or full leg isolation but has not yet applied finishing pressure to the knee joint
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Knee rotation eliminates the hyperextension angle, buying time to fight grips and extract your leg back to top half guard position
 - **Risk**: If attacker catches your rotating foot, they can transition to a toe hold submission instead of the kneebar
 
 ### 3. Step over attacker's body with free leg and drive hips forward to extract trapped leg while establishing top control
 
 - **When to use**: When attacker has partial leg isolation but weak hip control—particularly effective when their hands are still transitioning from upper body grips to hip control
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You pass the attacker's guard entirely by stepping over their body and extracting your leg, landing in side control or a dominant top position
 - **Risk**: Requires committing your base forward—if attacker maintains strong leg hooks, stepping over can expose you to being rolled into an inferior position
 
@@ -208,11 +208,11 @@ Defending the kneebar from half guard requires early recognition and decisive ac
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Deny the attacker's perpendicular rotation through early crossface pressure and forward drive, then resume top half guard passing sequence with your leg re-established between their guard
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When attacker commits to the leg attack and releases upper body control, step over their body with your free leg while extracting the trapped leg to advance directly to side control
 

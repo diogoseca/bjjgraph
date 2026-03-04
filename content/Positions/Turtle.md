@@ -89,19 +89,19 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 ### Available Transitions
 
 
-- **[[Granby Roll to Guard]]** (15% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (15% of attempts)
 
-- **[[Technical Stand-up]]** (16% of attempts)
+- **[[Transitions/Technical Stand-up]]** (16% of attempts)
 
-- **[[Rolling to Guard]]** (21% of attempts)
+- **[[Transitions/Rolling to Guard]]** (21% of attempts)
 
-- **[[Deep Half Entry]]** (14% of attempts)
+- **[[Transitions/Deep Half Entry]]** (14% of attempts)
 
-- **[[Sit Through to Guard]]** (16% of attempts)
+- **[[Transitions/Sit Through to Guard]]** (16% of attempts)
 
-- **[[Peterson Roll]]** (12% of attempts)
+- **[[Transitions/Peterson Roll]]** (12% of attempts)
 
-- **[[Sit Out from Turtle]]** (6% of attempts)
+- **[[Transitions/Sit Out from Turtle]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -162,35 +162,35 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 ### Available Transitions
 
 
-- **[[Turtle to Back Control]]** (61% of attempts)
+- **[[Transitions/Turtle to Back Control]]** (61% of attempts)
 
-- **[[Front Headlock to Anaconda]]** (5% of attempts)
+- **[[Transitions/Front Headlock to Anaconda]]** (5% of attempts)
 
-- **[[Front Headlock to Darce]]** (5% of attempts)
+- **[[Transitions/Front Headlock to Darce]]** (5% of attempts)
 
-- **[[Crucifix from Turtle]]** (3% of attempts)
+- **[[Transitions/Crucifix from Turtle]]** (3% of attempts)
 
-- **[[Turtle Flatten to Side Control]]** (7% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control]]** (7% of attempts)
 
-- **[[Turtle to Truck Entry]]** (2% of attempts)
+- **[[Transitions/Turtle to Truck Entry]]** (2% of attempts)
 
-- **[[Front Headlock to Guillotine]]** (3% of attempts)
+- **[[Transitions/Front Headlock to Guillotine]]** (3% of attempts)
 
-- **[[Kimura]]** (2% of attempts)
+- **[[Transitions/Kimura]]** (2% of attempts)
 
-- **[[Arm Triangle from Turtle]]** (2% of attempts)
+- **[[Transitions/Arm Triangle from Turtle]]** (2% of attempts)
 
-- **[[Turtle to Standing]]** (3% of attempts)
+- **[[Transitions/Turtle to Standing]]** (3% of attempts)
 
-- **[[Turtle Attack Sequence]]** (1% of attempts)
+- **[[Transitions/Turtle Attack Sequence]]** (1% of attempts)
 
-- **[[Turtle to Matrix]]** (1% of attempts)
+- **[[Transitions/Turtle to Matrix]]** (1% of attempts)
 
-- **[[Turtle to Rodeo Ride]]** (1% of attempts)
+- **[[Transitions/Turtle to Rodeo Ride]]** (1% of attempts)
 
-- **[[Belly Down Armbar]]** (2% of attempts)
+- **[[Submissions/Belly Down Armbar]]** (2% of attempts)
 
-- **[[Kimura from Turtle]]** (2% of attempts)
+- **[[Submissions/Kimura from Turtle]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -229,25 +229,25 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 ## Related Positions
 
 
-- **[[Back Control]]** - Primary attacking target from turtle top perspective
+- **[[Positions/Back Control]]** - Primary attacking target from turtle top perspective
 
-- **[[Front Headlock]]** - Common attacking position when opponent turtles
+- **[[Positions/Front Headlock]]** - Common attacking position when opponent turtles
 
-- **[[Closed Guard]]** - Primary recovery target from turtle bottom
+- **[[Positions/Closed Guard]]** - Primary recovery target from turtle bottom
 
-- **[[Half Guard]]** - Alternative guard recovery option from turtle
+- **[[Positions/Half Guard]]** - Alternative guard recovery option from turtle
 
-- **[[Crucifix]]** - Advanced attacking position from turtle top
+- **[[Positions/Crucifix]]** - Advanced attacking position from turtle top
 
-- **[[Scramble Position]]** - Escape target via technical standup from turtle bottom
+- **[[Positions/Scramble Position]]** - Escape target via technical standup from turtle bottom
 
-- **[[Truck]]** - Advanced back attack variation accessible from turtle
+- **[[Positions/Twister Control/Truck]]** - Advanced back attack variation accessible from turtle
 
-- **[[Anaconda Control]]** - Front headlock submission option from turtle top
+- **[[Positions/Anaconda Control]]** - Front headlock submission option from turtle top
 
-- **[[Darce Control]]** - Alternative front headlock attack from turtle top
+- **[[Positions/Darce Control]]** - Alternative front headlock attack from turtle top
 
-- **[[Deep Half Guard]]** - Recovery option via sit-through from turtle bottom
+- **[[Positions/Half Guard/Deep Half Guard]]** - Recovery option via sit-through from turtle bottom
 
 
 </section>

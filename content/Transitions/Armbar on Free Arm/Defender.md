@@ -158,7 +158,7 @@ The defender must prioritize arm retraction and elbow protection above all else 
 
 From a strategic perspective, the best defense begins before the armbar is attempted. Managing the free arm position, keeping it close to the body rather than extended, and working the Gift Wrap arm recovery sequence all reduce the attacker's opportunities. When the armbar is initiated, the defender must act decisively during the transition rather than waiting until the armbar position is fully established, as escape difficulty increases dramatically once the attacker's legs are clamped and hips are perpendicular.
 
-**Opponent's Starting Position**: [[Gift Wrap]] (Top)
+**Opponent's Starting Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ From a strategic perspective, the best defense begins before the armbar is attem
 ### 1. Immediate arm retraction and elbow clamp - pull free arm tight to ribs with elbow bent, grip your own gi or body to anchor
 
 - **When to use**: As soon as you feel the attacker grab your free arm's wrist or begin the hip pivot rotation
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Attacker cannot extend your arm and must abandon the armbar, returning to Gift Wrap choking position
 - **Risk**: Retracting the arm removes neck defense, temporarily exposing you to choke attacks
 
 ### 2. Bridge and turn into attacker during hip pivot - explosively bridge toward the side the attacker is rotating to, turning your shoulders to face them
 
 - **When to use**: During the attacker's hip pivot when their hooks are loosening and weight is shifting laterally
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Disrupts the armbar transition and may allow you to clear hooks and recover to turtle or half guard
 - **Risk**: If timed poorly, the attacker may already have legs clamped and your bridge feeds directly into the armbar extension
 
 ### 3. Hitchhiker escape - rotate toward trapped arm side while keeping attacked arm bent, spinning underneath the attacker's leg control
 
 - **When to use**: When the attacker has established the armbar position but has not yet achieved full arm extension
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Extracts the arm from the armbar position and returns you to Gift Wrap bottom where further escape can continue
 - **Risk**: Attacker may follow rotation into belly-down armbar, or the rotation may tighten their Gift Wrap control
 
 ### 4. Stack defense - drive hips and weight forward into the attacker while keeping arm bent, compressing their legs and removing finishing space
 
 - **When to use**: When the attacker has secured armbar position but their leg across your face is not deep enough to prevent forward movement
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Collapses the armbar position and forces attacker to release legs or accept compressed position without finish
 - **Risk**: If the attacker has deep leg control, stacking is ineffective and wastes energy
 
@@ -229,11 +229,11 @@ From a strategic perspective, the best defense begins before the armbar is attem
 
 ## Best-Case Outcomes for Defender
 
-### → [[Gift Wrap]]
+### → [[Positions/Gift Wrap]]
 
 Successfully retract the free arm before the attacker can establish the armbar position, forcing them to abandon the attempt and return to Gift Wrap control. Keep elbow bent and tight to ribs, grip your own body to anchor the arm. The attacker must reset to choking threats, giving you time to work on Gift Wrap arm recovery.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Exploit the attacker's hip pivot rotation to clear one or both hooks, turning into them before they complete the armbar transition. Bridge explosively during the rotation phase when their weight shifts laterally and hook control weakens. Even reaching standard back control bottom is an improvement since you regain better defensive framing options without the immediate armbar threat.
 

@@ -21,7 +21,7 @@ The transition is mechanically straightforward but demands precise timing and gr
 
 Strategically, this transition serves as the gateway to the entire hierarchical leg entanglement system. Once Inside Ashi-Garami is established, the attacker gains access to straight ankle locks, toe holds, and the ability to advance to more dominant entanglements such as Saddle, Honey Hole, and Outside Ashi-Garami. The transition's value extends beyond the immediate positional change—it represents a philosophical shift from positional guard play to submission-oriented leg attack systems, making it essential for any practitioner building a modern no-gi game.
 
-**From Position**: [[Single Leg X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition serves as the gateway to the entire hierarchical 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 55% |
-| Failure | [[Single Leg X-Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 55% |
+| Failure | [[Positions/X-Guard/Single Leg X-Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -193,31 +193,31 @@ The SLX to Ashi Garami transition occupies a critical junction in the modern leg
 ## Related Techniques
 
 
-- [[Single Leg X-Guard]] - Starting position from which this transition initiates
+- [[Positions/X-Guard/Single Leg X-Guard]] - Starting position from which this transition initiates
 
-- [[Inside Ashi-Garami]] - Primary target position achieved on successful transition
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary target position achieved on successful transition
 
-- [[Open Guard]] - Position reached when opponent successfully counters the transition
+- [[Positions/Open Guard]] - Position reached when opponent successfully counters the transition
 
-- [[Ashi Garami]] - Parent position family encompassing all ashi variations including the target
+- [[Positions/Ashi Garami]] - Parent position family encompassing all ashi variations including the target
 
-- [[Outside Ashi-Garami]] - Alternative leg entanglement accessible if inside position is blocked during transition
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative leg entanglement accessible if inside position is blocked during transition
 
-- [[Saddle]] - Advanced entanglement reachable through progression after establishing ashi garami
+- [[Positions/Ashi Garami/Saddle]] - Advanced entanglement reachable through progression after establishing ashi garami
 
-- [[Honey Hole]] - Dominant leg entanglement accessible from inside ashi after this transition
+- [[Positions/Ashi Garami/Honey Hole]] - Dominant leg entanglement accessible from inside ashi after this transition
 
-- [[Straight Ankle Lock Entry]] - Primary submission follow-up available immediately after achieving inside ashi
+- [[Transitions/Straight Ankle Lock Entry]] - Primary submission follow-up available immediately after achieving inside ashi
 
-- [[Heel Hook]] - Advanced submission threat available from inside ashi position after transition
+- [[Transitions/Heel Hook]] - Advanced submission threat available from inside ashi position after transition
 
-- [[Backstep from Single Leg X]] - Alternative technique the opponent may attempt from SLX top during transition
+- [[Transitions/Backstep from Single Leg X]] - Alternative technique the opponent may attempt from SLX top during transition
 
-- [[Inside Ashi Entry]] - Related entry to inside ashi from different starting positions
+- [[Transitions/Inside Ashi Entry]] - Related entry to inside ashi from different starting positions
 
-- [[Leg Entanglement]] - Core conceptual framework governing all leg lock positions including the target
+- [[Positions/Leg Entanglement]] - Core conceptual framework governing all leg lock positions including the target
 
-- [[Kneebar Control]] - Alternative submission position accessible from ashi garami after transition
+- [[Positions/Kneebar Control]] - Alternative submission position accessible from ashi garami after transition
 
 
 </section>

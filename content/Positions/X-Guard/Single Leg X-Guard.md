@@ -89,29 +89,29 @@ Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom 
 ### Available Transitions
 
 
-- **[[Single Leg X Sweep]]** (22% of attempts)
+- **[[Transitions/Single Leg X Sweep]]** (22% of attempts)
 
-- **[[Ashi Entry from Leg Entanglement]]** (12% of attempts)
+- **[[Transitions/Ashi Entry from Leg Entanglement]]** (12% of attempts)
 
-- **[[Single Leg X Entry]]** (3% of attempts)
+- **[[Transitions/Single Leg X Entry]]** (3% of attempts)
 
-- **[[Technical Stand Up to Single Leg]]** (10% of attempts)
+- **[[Transitions/Technical Stand Up to Single Leg]]** (10% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** (5% of attempts)
+- **[[Transitions/Butterfly Guard to X-Guard]]** (5% of attempts)
 
-- **[[De La Riva to X-Guard Transition]]** (3% of attempts)
+- **[[Transitions/De La Riva to X-Guard Transition]]** (3% of attempts)
 
-- **[[Ankle Pick Sweep]]** (10% of attempts)
+- **[[Transitions/Ankle Pick Sweep]]** (10% of attempts)
 
-- **[[Inside Ashi Entry]]** (8% of attempts)
+- **[[Transitions/Inside Ashi Entry]]** (8% of attempts)
 
-- **[[Standing to Single Leg X]]** (2% of attempts)
+- **[[Transitions/Standing to Single Leg X]]** (2% of attempts)
 
-- **[[Heel Grab Sweep]]** (10% of attempts)
+- **[[Transitions/Heel Grab Sweep]]** (10% of attempts)
 
-- **[[SLX to Ashi Garami]]** (10% of attempts)
+- **[[Transitions/SLX to Ashi Garami]]** (10% of attempts)
 
-- **[[SLX to X-Guard]]** (5% of attempts)
+- **[[Transitions/SLX to X-Guard]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -176,21 +176,21 @@ Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom 
 ### Available Transitions
 
 
-- **[[Headquarters Pass]]** (14% of attempts)
+- **[[Transitions/Headquarters Pass]]** (14% of attempts)
 
-- **[[Knee Slice Pass]]** (13% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (13% of attempts)
 
-- **[[Leg Weave Pass]]** (12% of attempts)
+- **[[Transitions/Leg Weave Pass]]** (12% of attempts)
 
-- **[[Standing up in Base]]** (27% of attempts)
+- **[[Transitions/Standing up in Base]]** (27% of attempts)
 
-- **[[Smash Pass]]** (10% of attempts)
+- **[[Transitions/Smash Pass]]** (10% of attempts)
 
-- **[[Kneebar]]** (10% of attempts)
+- **[[Transitions/Kneebar]]** (10% of attempts)
 
-- **[[Backstep from Single Leg X]]** (8% of attempts)
+- **[[Transitions/Backstep from Single Leg X]]** (8% of attempts)
 
-- **[[Standing Escape from SLX]]** (6% of attempts)
+- **[[Transitions/Standing Escape from SLX]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -229,25 +229,25 @@ Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom 
 ## Related Positions
 
 
-- **[[X-Guard]]** - Parent position - SLX is a variation that controls one leg while X-Guard controls both
+- **[[Positions/X-Guard]]** - Parent position - SLX is a variation that controls one leg while X-Guard controls both
 
-- **[[Ashi Garami]]** - Primary transition target for leg lock entries from SLX
+- **[[Positions/Ashi Garami]]** - Primary transition target for leg lock entries from SLX
 
-- **[[Outside Ashi-Garami]]** - Direct leg entanglement entry from SLX with leg isolation
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Direct leg entanglement entry from SLX with leg isolation
 
-- **[[Inside Ashi-Garami]]** - Alternative leg entanglement configuration accessible from SLX
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Alternative leg entanglement configuration accessible from SLX
 
-- **[[Butterfly Guard]]** - Related open guard position that shares similar sweeping mechanics
+- **[[Positions/Butterfly Guard]]** - Related open guard position that shares similar sweeping mechanics
 
-- **[[De La Riva Guard]]** - Common entry position into SLX using similar leg hooking concepts
+- **[[Positions/De La Riva Guard]]** - Common entry position into SLX using similar leg hooking concepts
 
-- **[[Reverse De La Riva Guard]]** - Alternative entry position with similar leg control principles
+- **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Alternative entry position with similar leg control principles
 
-- **[[Deep Half Guard]]** - Related guard position with similar off-balancing mechanics
+- **[[Positions/Half Guard/Deep Half Guard]]** - Related guard position with similar off-balancing mechanics
 
-- **[[Saddle]]** - Advanced leg entanglement accessible through SLX transitions
+- **[[Positions/Ashi Garami/Saddle]]** - Advanced leg entanglement accessible through SLX transitions
 
-- **[[50-50 Guard]]** - Related leg entanglement position with different control dynamics
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Related leg entanglement position with different control dynamics
 
 
 </section>

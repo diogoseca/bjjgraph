@@ -154,7 +154,7 @@ description: "Defend the S Mount Armbar Setup in BJJ. Recognition cues, escape t
 
 Defending the S Mount Armbar Setup requires recognizing the transition from positional control to submission attack and disrupting it during the narrow window of opportunity. As the defender, you are already in S Mount bottom - one of BJJ's most compromised positions - and your opponent is now converting that positional dominance into a direct armbar threat. The critical defensive insight is that the transition from S Mount to armbar control creates a brief moment of reduced stability as the attacker shifts weight and commits to the fall-back. This window is your primary escape opportunity. Successful defense demands keeping the trapped arm bent, timing defensive actions to the transition moment, and creating enough disruption to prevent the attacker from establishing full armbar control.
 
-**Opponent's Starting Position**: [[S Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/S Mount]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the S Mount Armbar Setup requires recognizing the transition from posi
 ### 1. Bend trapped arm and grip own collar or lapel tightly to prevent extension
 
 - **When to use**: Immediately upon recognizing the attacker securing two-on-one wrist control for armbar setup
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: Attacker cannot complete armbar setup and must either break your grip or abandon the attempt to try another attack
 - **Risk**: Attacker may transition to mounted triangle or switch to opposite arm attack
 
 ### 2. Explosive bridge and hip escape toward attacker's legs during fall-back transition
 
 - **When to use**: The moment the attacker begins leaning backward and their weight shifts off your torso
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough space to extract your arm and recover to half guard or open guard position
 - **Risk**: If poorly timed, the bridge may extend your arm and accelerate the armbar finish
 
 ### 3. Frame against attacker's hips with free arm to prevent them from falling back fully
 
 - **When to use**: When you feel the attacker begin to shift weight backward into armbar position
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: Attacker cannot complete the transition to armbar control and must reset from S Mount
 - **Risk**: Using the free arm for framing temporarily removes it from controlling the attacker's leg over your head
 
 ### 4. Turn into the attacker and come to knees during transition window
 
 - **When to use**: When attacker's leg over head loosens during positional adjustment or weight transfer
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You escape the supine position entirely and recover to turtle or half guard
 - **Risk**: Attacker may take your back if the turn is not explosive enough to clear their legs
 
@@ -226,11 +226,11 @@ Defending the S Mount Armbar Setup requires recognizing the transition from posi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive bridge and hip escape to coincide with the attacker's fall-back transition when their stability is reduced. Maintain arm protection throughout the escape and immediately recover guard position once space is created.
 
-### → [[S Mount]]
+### → [[Positions/Mount/S Mount]]
 
 Establish and maintain a collar grip on the trapped arm that the attacker cannot break. Frame against their hips with the free hand while controlling their near leg. The attacker will eventually need to abandon the armbar attempt and reset from S Mount.
 

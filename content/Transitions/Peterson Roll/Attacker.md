@@ -174,7 +174,7 @@ description: "How to execute Peterson Roll in BJJ. Attacking perspective with se
 
 The Peterson Roll is a fundamental wrestling-based reversal adapted for BJJ that allows the bottom turtle player to reverse position and come out on top. Named after wrestler John Peterson, this technique exploits the opponent's weight commitment when they drive into you from behind. The roll uses the opponent's forward pressure against them, channeling their momentum into a rolling reversal that lands you in a dominant top position, typically side control or half guard top. The Peterson Roll is particularly effective against opponents who over-commit their weight forward while attempting to break down your turtle or establish back control. Unlike the granby roll which aims primarily for guard recovery, the Peterson Roll is an offensive reversal that puts you directly into a scoring position. The technique requires precise timing, proper arm positioning to capture the opponent's attacking limb, and explosive hip movement to generate the rotation needed to complete the roll. It forms an essential part of any complete turtle defense system, giving you a legitimate threatening option that forces opponents to respect your ability to reverse position rather than simply attacking freely.
 
-**From Position**: [[Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
@@ -225,10 +225,10 @@ The Peterson Roll is a fundamental wrestling-based reversal adapted for BJJ that
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Side Control]] | 55% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -237,10 +237,10 @@ The Peterson Roll is a fundamental wrestling-based reversal adapted for BJJ that
 
 ## Opponent Counters
 
-- **Opponent posts with free hand to stop rolling momentum before you complete the rotation** (Effectiveness: High) - Your Response: Switch to granby roll in the opposite direction or immediately attempt technical standup while opponent is off-balance from defending → Leads to [[Turtle]]
-- **Opponent sprawls hips back and removes forward pressure, eliminating the momentum needed for the roll** (Effectiveness: High) - Your Response: If opponent removes pressure, immediately transition to technical standup or sit-through since their weight is no longer pinning you → Leads to [[Turtle]]
-- **Opponent circles toward your back as you initiate, maintaining back position despite the roll attempt** (Effectiveness: Medium) - Your Response: Chain immediately into a second roll in the same direction or hip escape to create separation for guard recovery → Leads to [[Back Control]]
-- **Opponent maintains tight seatbelt control and follows the roll, ending up in mounted back control** (Effectiveness: Medium) - Your Response: If opponent follows, continue rolling momentum and use the inertia to create a scramble rather than settling into bottom position → Leads to [[Back Control]]
+- **Opponent posts with free hand to stop rolling momentum before you complete the rotation** (Effectiveness: High) - Your Response: Switch to granby roll in the opposite direction or immediately attempt technical standup while opponent is off-balance from defending → Leads to [[Positions/Turtle]]
+- **Opponent sprawls hips back and removes forward pressure, eliminating the momentum needed for the roll** (Effectiveness: High) - Your Response: If opponent removes pressure, immediately transition to technical standup or sit-through since their weight is no longer pinning you → Leads to [[Positions/Turtle]]
+- **Opponent circles toward your back as you initiate, maintaining back position despite the roll attempt** (Effectiveness: Medium) - Your Response: Chain immediately into a second roll in the same direction or hip escape to create separation for guard recovery → Leads to [[Positions/Back Control]]
+- **Opponent maintains tight seatbelt control and follows the roll, ending up in mounted back control** (Effectiveness: Medium) - Your Response: If opponent follows, continue rolling momentum and use the inertia to create a scramble rather than settling into bottom position → Leads to [[Positions/Back Control]]
 
 
 </section>

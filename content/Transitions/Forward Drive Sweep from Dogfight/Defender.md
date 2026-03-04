@@ -146,7 +146,7 @@ description: "Learn to defend the Forward Drive Sweep from Dogfight in BJJ. Reco
 
 Defending the Forward Drive Sweep requires the top player to recognize the sweep setup early and deploy specific base-preservation techniques before the bottom player generates momentum. The defender's primary tools are the whizzer (overhook), crossface pressure, and active base management through far-leg posting. Understanding the attacker's mechanical requirements - deep underhook, far-side control, and diagonal drive angle - allows the defender to systematically deny these prerequisites. Early recognition and immediate defensive response are far more effective than attempting to resist the sweep once full forward momentum has been established.
 
-**Opponent's Starting Position**: [[Dogfight Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Dogfight Position]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ Defending the Forward Drive Sweep requires the top player to recognize the sweep
 ### 1. Sprawl hips back and drive whizzer pressure downward to kill forward momentum
 
 - **When to use**: As soon as you feel the opponent loading forward pressure through their underhook before they generate full drive momentum
-- **Targets**: [[Dogfight Position]]
+- **Targets**: [[Positions/Dogfight Position]]
 - **If successful**: The sweep attempt stalls and you maintain Dogfight position with opportunity to counter-attack during their recovery
 - **Risk**: If you sprawl too aggressively, your weight shifts behind you and the opponent can redirect to a back take
 
 ### 2. Establish crossface with free hand and drive opponent's head sideways to redirect driving force
 
 - **When to use**: When the opponent commits to the forward drive and you need to redirect their force vector away from your base rather than absorb it directly
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: The opponent's drive is redirected laterally, they lose forward momentum, and you can flatten them back to half guard bottom
 - **Risk**: Committing your free hand to the crossface removes your ability to post for base if the opponent changes sweep direction
 
 ### 3. Post far leg wide and drop your base low to create a stable tripod
 
 - **When to use**: When the opponent has already initiated the drive and you need immediate base stability to prevent toppling backward
-- **Targets**: [[Dogfight Position]]
+- **Targets**: [[Positions/Dogfight Position]]
 - **If successful**: You absorb the forward pressure and maintain your position, though the opponent may chain to a different sweep targeting your now-extended leg
 - **Risk**: Wide far leg post exposes you to the Dogfight Sweep and potentially creates back exposure if the opponent redirects
 
 ### 4. Strip the underhook by swimming your arm inside and re-pummeling to inside position
 
 - **When to use**: During the setup phase before the opponent has loaded forward pressure, when you detect them deepening their underhook toward your far shoulder
-- **Targets**: [[Dogfight Position]]
+- **Targets**: [[Positions/Dogfight Position]]
 - **If successful**: Without the deep underhook, the forward drive has no mechanical foundation and you can begin re-flattening the opponent or attacking their now-exposed position
 - **Risk**: Failed re-pummel attempt leaves you momentarily without whizzer control, creating a window for the opponent to attack
 
@@ -218,11 +218,11 @@ Defending the Forward Drive Sweep requires the top player to recognize the sweep
 
 ## Best-Case Outcomes for Defender
 
-### → [[Dogfight Position]]
+### → [[Positions/Dogfight Position]]
 
 Use whizzer pressure and base to absorb the forward drive, then immediately counter-attack during the opponent's recovery phase by re-flattening them with crossface or attempting to pass their half guard.
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Establish a strong crossface during the sweep attempt and use the opponent's forward commitment to drive them back to the mat. As they fall backward from the failed sweep, follow with heavy crossface pressure to flatten them completely in half guard, eliminating their Dogfight structure.
 

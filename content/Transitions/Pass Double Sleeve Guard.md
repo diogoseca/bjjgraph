@@ -21,7 +21,7 @@ The pass typically proceeds through a sequence of grip break, leg control, and a
 
 At the competition level, double sleeve guard is one of the most frequently encountered open guard configurations in gi jiu-jitsu. Developing a reliable passing methodology against this guard is essential for any serious competitor. The pass rewards patience and technical precision over athleticism, making it accessible to practitioners of all body types when the fundamental mechanics are properly understood and drilled.
 
-**From Position**: [[Double Sleeve Guard]] (Top)
+**From Position**: [[Positions/Double Sleeve Guard]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ At the competition level, double sleeve guard is one of the most frequently enco
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Failure | [[Half Guard]] | 15% |
-| Failure | [[Double Sleeve Guard]] | 25% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 45% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Double Sleeve Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -196,25 +196,25 @@ Pass Double Sleeve Guard connects the open guard passing game to the side contro
 ## Related Techniques
 
 
-- [[Double Sleeve Guard]] - Source position where this pass is initiated
+- [[Positions/Double Sleeve Guard]] - Source position where this pass is initiated
 
-- [[Side Control]] - Primary destination after successful pass completion
+- [[Positions/Side Control]] - Primary destination after successful pass completion
 
-- [[Half Guard]] - Common outcome when pass is partially completed
+- [[Positions/Half Guard]] - Common outcome when pass is partially completed
 
-- [[Spider Guard]] - Guard the opponent may transition to if pass is telegraphed
+- [[Positions/Spider Guard]] - Guard the opponent may transition to if pass is telegraphed
 
-- [[Lasso Guard]] - Alternative guard opponent may establish during pass attempt
+- [[Positions/Lasso Guard]] - Alternative guard opponent may establish during pass attempt
 
-- [[Pass Collar Sleeve Guard]] - Similar passing technique against related grip configuration
+- [[Transitions/Pass Collar Sleeve Guard]] - Similar passing technique against related grip configuration
 
-- [[Double Sleeve Sweep]] - Opponent's primary offensive threat during pass attempt
+- [[Transitions/Double Sleeve Sweep]] - Opponent's primary offensive threat during pass attempt
 
-- [[Combat Base]] - Alternative starting posture for initiating the pass
+- [[Positions/Combat Base]] - Alternative starting posture for initiating the pass
 
-- [[Collar Sleeve Guard]] - Related guard position with similar passing principles
+- [[Positions/Collar Sleeve Guard]] - Related guard position with similar passing principles
 
-- [[Double Sleeve to Spider Guard]] - Guard transition to recognize and prevent during passing
+- [[Transitions/Double Sleeve to Spider Guard]] - Guard transition to recognize and prevent during passing
 
 
 </section>

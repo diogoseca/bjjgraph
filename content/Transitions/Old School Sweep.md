@@ -21,7 +21,7 @@ The mechanical foundation of the Old School Sweep lies in the coordination of th
 
 Strategically, the Old School Sweep creates a genuine dilemma for the top player. Defending the sweep by driving crossface pressure feeds into the lockdown's control mechanism, while posting high to resist creates vulnerability to the Electric Chair transition. This binary forces the top player into a lose-lose situation where their defensive choices open alternative offensive pathways, embodying the principle of dilemma creation that defines high-level positional grappling from half guard bottom.
 
-**From Position**: [[Old School]] (Bottom)
+**From Position**: [[Positions/Half Guard/Old School]] (Bottom)
 **Success Rate**: 46%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Old School Sweep creates a genuine dilemma for the top player
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 46% |
-| Failure | [[Old School]] | 32% |
-| Counter | [[Side Control]] | 22% |
+| Success | [[Positions/Mount]] | 46% |
+| Failure | [[Positions/Half Guard/Old School]] | 32% |
+| Counter | [[Positions/Side Control]] | 22% |
 
 
 </section>
@@ -193,29 +193,29 @@ The Old School Sweep sits at the heart of the 10th Planet half guard system, fun
 ## Related Techniques
 
 
-- [[Old School]] - Starting position from which this sweep is executed
+- [[Positions/Half Guard/Old School]] - Starting position from which this sweep is executed
 
-- [[Mount]] - Primary target position upon successful sweep completion
+- [[Positions/Mount]] - Primary target position upon successful sweep completion
 
-- [[Side Control]] - Counter outcome position when opponent successfully defends and advances
+- [[Positions/Side Control]] - Counter outcome position when opponent successfully defends and advances
 
-- [[Half Guard]] - Parent position family containing the Old School variant
+- [[Positions/Half Guard]] - Parent position family containing the Old School variant
 
-- [[Lockdown]] - Prerequisite control mechanism that enables the sweep mechanics
+- [[Positions/Half Guard/Lockdown]] - Prerequisite control mechanism that enables the sweep mechanics
 
-- [[Deep Half Guard]] - Alternative transition when sweep is defended and bottom player dives under
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition when sweep is defended and bottom player dives under
 
-- [[Electric Chair]] - Complementary attack creating dilemma when opponent defends this sweep
+- [[Positions/Half Guard/Electric Chair]] - Complementary attack creating dilemma when opponent defends this sweep
 
-- [[Dogfight Position]] - Alternative pathway when bottom player comes up on underhook instead of sweeping
+- [[Positions/Dogfight Position]] - Alternative pathway when bottom player comes up on underhook instead of sweeping
 
-- [[Back Control]] - Alternative sweep destination when opponent turns during rotation
+- [[Positions/Back Control]] - Alternative sweep destination when opponent turns during rotation
 
-- [[Defend Old School Sweep]] - Counter-technique used by top player to resist this sweep
+- [[Transitions/Defend Old School Sweep]] - Counter-technique used by top player to resist this sweep
 
-- [[Crossface from Old School]] - Top player's primary defensive counter using shoulder pressure
+- [[Transitions/Crossface from Old School]] - Top player's primary defensive counter using shoulder pressure
 
-- [[Homer Simpson Sweep]] - Related lockdown-based sweep with different rotational mechanics
+- [[Transitions/Homer Simpson Sweep]] - Related lockdown-based sweep with different rotational mechanics
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Learn to recover guard from Hindulotine as the bottom player in BJ
 
 As the bottom player abandoning Hindulotine control, your primary challenge is the angular hip displacement that the Hindulotine position creates. Unlike a standard guillotine recovery where your hips are relatively square, the Hindulotine's rotational mechanics leave your hips turned at an angle with your body partially exposed on one side. Before you can establish a functional open guard, you must first realign your hips to face the opponent while simultaneously converting your choking grips into defensive frames. The recovery sequence is more complex than standard guillotine recovery because you are managing hip rotation, grip transition, and leg repositioning simultaneously, with the opponent positioned at an angle that favors their passing to your exposed back side.
 
-**From Position**: [[Hindulotine]] (Bottom)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player abandoning Hindulotine control, your primary challenge is t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 40% |
-| Failure | [[Hindulotine]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Open Guard]] | 40% |
+| Failure | [[Positions/Hindulotine]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -243,9 +243,9 @@ As the bottom player abandoning Hindulotine control, your primary challenge is t
 
 ## Opponent Counters
 
-- **Opponent circles to the exposed back side during hip realignment, taking advantage of the angular position to advance behind your guard** (Effectiveness: High) - Your Response: Prioritize the near-side knee shield on the exposed side before beginning hip rotation, and use your overhook grip to prevent the opponent from circling past your shoulder line → Leads to [[Side Control]]
-- **Opponent drives heavy forward pressure to flatten you during the grip transition, collapsing your frames before hip realignment completes** (Effectiveness: High) - Your Response: Use the knee shield and frame together to absorb the pressure, and if flattened, immediately work to regain lateral position through small incremental hip escapes rather than attempting one large recovery movement → Leads to [[Hindulotine]]
-- **Opponent strips the overhook conversion and postures up aggressively to create maximum distance before you can recompose guard** (Effectiveness: Medium) - Your Response: Chase with feet on hips immediately upon losing upper body control, and secure sleeve or collar grip with your free hand to maintain connection at range → Leads to [[Hindulotine]]
+- **Opponent circles to the exposed back side during hip realignment, taking advantage of the angular position to advance behind your guard** (Effectiveness: High) - Your Response: Prioritize the near-side knee shield on the exposed side before beginning hip rotation, and use your overhook grip to prevent the opponent from circling past your shoulder line → Leads to [[Positions/Side Control]]
+- **Opponent drives heavy forward pressure to flatten you during the grip transition, collapsing your frames before hip realignment completes** (Effectiveness: High) - Your Response: Use the knee shield and frame together to absorb the pressure, and if flattened, immediately work to regain lateral position through small incremental hip escapes rather than attempting one large recovery movement → Leads to [[Positions/Hindulotine]]
+- **Opponent strips the overhook conversion and postures up aggressively to create maximum distance before you can recompose guard** (Effectiveness: Medium) - Your Response: Chase with feet on hips immediately upon losing upper body control, and secure sleeve or collar grip with your free hand to maintain connection at range → Leads to [[Positions/Hindulotine]]
 
 
 </section>

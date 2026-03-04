@@ -176,7 +176,7 @@ description: "How to execute Armbar from Crucifix in BJJ. Attacking perspective 
 
 The Armbar from Crucifix represents one of the most dominant finishing positions in Brazilian Jiu-Jitsu, combining the extreme control of the crucifix position with the high-percentage mechanics of the armbar submission. From the crucifix, the opponent's arms are isolated and controlled, with one arm typically trapped by your legs while the other becomes vulnerable to the armbar attack. This submission exemplifies the principle of position before submission, as the crucifix itself provides such overwhelming control that the opponent has severely limited defensive options. The armbar from this position is particularly effective because the opponent cannot use their trapped arm to defend, cannot effectively bridge or roll, and has minimal ability to grip fight or create defensive frames. This submission is commonly accessed from back control transitions, turtle attacks, or crucifix entries from side control. The technical execution requires careful attention to arm isolation, hip positioning, and maintaining crucifix control throughout the finishing sequence. Understanding the biomechanics of the elbow joint and the proper angle of attack is crucial for safe and effective application. The armbar from crucifix is a staple technique in both gi and no-gi grappling, with applications in competition, MMA, and self-defense contexts.
 
-**From Position**: [[Crucifix]] (Top)
+**From Position**: [[Positions/Crucifix]] (Top)
 
 
 </section>
@@ -232,8 +232,8 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Crucifix]] | 25% |
-| Counter | [[Back Control]] | 15% |
+| Failure | [[Positions/Crucifix]] | 25% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -242,11 +242,11 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 
 ## Opponent Defenses
 
-- **Attempting to pull the attacked arm back toward their body** (Effectiveness: Low) - Your Response: Maintain tight wrist control with both hands and keep your hips pressured into their shoulder. The crucifix position makes this defense very difficult as they lack the leverage to pull their arm free. If they attempt this, simply tighten your grip and maintain hip pressure. → Leads to [[Crucifix]]
-- **Trying to turn into you or roll to escape the crucifix** (Effectiveness: Low) - Your Response: Use your chest pressure and leg control to prevent rotation. Your top leg across their face and bottom leg hooking their armpit should make turning impossible. If they attempt to roll, follow their movement while maintaining the arm isolation and finish the armbar as they complete the roll. → Leads to [[Crucifix]]
-- **Grabbing their own gi or belt with their free hand to create a defensive grip** (Effectiveness: Medium) - Your Response: This defense is only available in the early stages before you fully isolate the arm. Break any grips by controlling above their grip point (wrist or forearm) and extending their arm away from their body. Once their arm is extended, they cannot re-establish this defensive grip. → Leads to [[Crucifix]]
-- **Attempting to bridge or elevate their hips to relieve pressure** (Effectiveness: Low) - Your Response: The crucifix position limits bridging options significantly. If they attempt to bridge, maintain your chest pressure on their back and use your leg control to keep them flattened. Their trapped arm prevents them from generating effective bridging power. → Leads to [[Crucifix]]
-- **Explosive hip escape creating enough space to extract trapped arm and turn to guard** (Effectiveness: Medium) - Your Response: If the opponent times a hip escape during your transition to the armbar, immediately abandon the armbar attempt and re-consolidate crucifix control. Use your leg that was threading across their face to re-hook their armpit. Follow their hip movement and maintain chest-to-back connection. If they successfully extract one arm, transition to back control before they can fully recover guard. → Leads to [[Back Control]]
+- **Attempting to pull the attacked arm back toward their body** (Effectiveness: Low) - Your Response: Maintain tight wrist control with both hands and keep your hips pressured into their shoulder. The crucifix position makes this defense very difficult as they lack the leverage to pull their arm free. If they attempt this, simply tighten your grip and maintain hip pressure. → Leads to [[Positions/Crucifix]]
+- **Trying to turn into you or roll to escape the crucifix** (Effectiveness: Low) - Your Response: Use your chest pressure and leg control to prevent rotation. Your top leg across their face and bottom leg hooking their armpit should make turning impossible. If they attempt to roll, follow their movement while maintaining the arm isolation and finish the armbar as they complete the roll. → Leads to [[Positions/Crucifix]]
+- **Grabbing their own gi or belt with their free hand to create a defensive grip** (Effectiveness: Medium) - Your Response: This defense is only available in the early stages before you fully isolate the arm. Break any grips by controlling above their grip point (wrist or forearm) and extending their arm away from their body. Once their arm is extended, they cannot re-establish this defensive grip. → Leads to [[Positions/Crucifix]]
+- **Attempting to bridge or elevate their hips to relieve pressure** (Effectiveness: Low) - Your Response: The crucifix position limits bridging options significantly. If they attempt to bridge, maintain your chest pressure on their back and use your leg control to keep them flattened. Their trapped arm prevents them from generating effective bridging power. → Leads to [[Positions/Crucifix]]
+- **Explosive hip escape creating enough space to extract trapped arm and turn to guard** (Effectiveness: Medium) - Your Response: If the opponent times a hip escape during your transition to the armbar, immediately abandon the armbar attempt and re-consolidate crucifix control. Use your leg that was threading across their face to re-hook their armpit. Follow their hip movement and maintain chest-to-back connection. If they successfully extract one arm, transition to back control before they can fully recover guard. → Leads to [[Positions/Back Control]]
 
 
 </section>

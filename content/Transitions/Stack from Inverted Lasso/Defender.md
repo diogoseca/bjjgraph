@@ -146,7 +146,7 @@ description: "Defend against the stack pass from inverted lasso guard. Recogniti
 
 Defending the stack from inverted lasso guard requires early recognition of the compression threat and immediate deployment of frame-based or momentum-based defensive strategies before the top player establishes full compressive control. The stack targets the inverted player's fundamental structural vulnerability — elevated hips supported by the spine and shoulders — making frame placement and hip escape timing critical for survival. When frames prove insufficient, the defender must understand how to redirect the stacking pressure into counter-sweeps rather than passively absorbing the compression. Successful defense either preserves the inverted lasso guard position for continued offensive play or converts the opponent's aggressive forward commitment into a sweeping opportunity that reverses the positional hierarchy entirely.
 
-**Opponent's Starting Position**: [[Inverted Lasso Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Lasso Guard/Inverted Lasso Guard]] (Top)
 
 </section>
 
@@ -185,28 +185,28 @@ Defending the stack from inverted lasso guard requires early recognition of the 
 ### 1. Frame against the opponent's shoulders with both arms to create a structural barrier preventing their shoulder from reaching your midsection
 
 - **When to use**: Immediately upon recognizing the forward weight shift, before compression is established — frames must be proactive not reactive
-- **Targets**: [[Inverted Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard/Inverted Lasso Guard]]
 - **If successful**: The stack is prevented from establishing compression, and you maintain your inverted lasso guard position with full offensive capability intact
 - **Risk**: If frames are bypassed or collapsed, you absorb the compression without the structural barrier and end up folded with limited options
 
 ### 2. Extend the lasso hook forcefully and redirect stacking pressure into an overhead sweep by pulling with sleeve grip and elevating with the lassoed leg
 
 - **When to use**: When the opponent commits forward past their balance point and their hips rise above their shoulders — timing the sweep to match their maximum forward commitment
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: The opponent's forward momentum is converted into rotational force that sweeps them over your body, and you follow through to mount or top position
 - **Risk**: If mistimed, the extension creates space for arm extraction without generating sufficient sweep force, losing the lasso without gaining the sweep
 
 ### 3. Hip escape laterally to change the angle of the compression, preventing direct spinal folding by rotating your body axis away from the pressure line
 
 - **When to use**: When frames alone cannot stop the compression and you need to redirect the force vector rather than absorb it directly
-- **Targets**: [[Inverted Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard/Inverted Lasso Guard]]
 - **If successful**: The angle change dissipates the compressive force, and you re-establish your inverted position from a new angle with maintained lasso control
 - **Risk**: Excessive hip escape may loosen the lasso hook if not carefully managed, potentially enabling arm extraction during the positional adjustment
 
 ### 4. Abandon the inversion by rolling back to upright lasso guard while maintaining the lasso hook and sleeve grip throughout the transition
 
 - **When to use**: When the stack is establishing and neither frames nor counter-sweep are viable — cut your losses and recover to a more defensible guard position
-- **Targets**: [[Inverted Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard/Inverted Lasso Guard]]
 - **If successful**: You preserve the lasso connection and return to standard lasso guard where the stack threat is eliminated and you retain offensive options
 - **Risk**: The transition back to upright creates a momentary vulnerability window where the opponent can accelerate their pass if they read the recovery
 
@@ -218,11 +218,11 @@ Defending the stack from inverted lasso guard requires early recognition of the 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Inverted Lasso Guard]]
+### → [[Positions/Lasso Guard/Inverted Lasso Guard]]
 
 Deploy proactive frames against the opponent's shoulders immediately upon recognizing the stack initiation, then hip escape to re-establish your attacking angle. Maintain lasso hook tension throughout to preserve position and keep all offensive options available.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Time the overhead sweep precisely as the opponent commits their weight past the balance point during the stack. Extend the lasso hook while pulling strongly with the sleeve grip, using their forward momentum to generate the rotational force that completes the sweep to mount.
 

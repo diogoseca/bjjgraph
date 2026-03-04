@@ -21,7 +21,7 @@ The fundamental challenge in this transition lies in the brief but critical mome
 
 Strategically, mastering this transition transforms consolidated side control from a static holding position into a launching pad for an entire offensive system. The ability to threaten the knee on belly transition forces the bottom player to defend preemptively, which in turn creates openings for alternative attacks and transitions directly from side control. This dilemma-based approach exemplifies the principle that positional advancement threats are often as valuable as the advancements themselves.
 
-**From Position**: [[Side Control Consolidation]] (Top)
+**From Position**: [[Positions/Side Control/Side Control Consolidation]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, mastering this transition transforms consolidated side control fr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Knee on Belly]] | 55% |
-| Failure | [[Side Control Consolidation]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Knee on Belly]] | 55% |
+| Failure | [[Positions/Side Control/Side Control Consolidation]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ This transition serves as the primary gateway between the consolidation phase of
 ## Related Techniques
 
 
-- [[Side Control Consolidation]] - Source position from which this transition originates after establishing dominant control
+- [[Positions/Side Control/Side Control Consolidation]] - Source position from which this transition originates after establishing dominant control
 
-- [[Knee on Belly]] - Target position achieved upon successful transition, providing dynamic attacking platform
+- [[Positions/Knee on Belly]] - Target position achieved upon successful transition, providing dynamic attacking platform
 
-- [[Half Guard]] - Counter outcome position where the bottom player recovers guard during the transition window
+- [[Positions/Half Guard]] - Counter outcome position where the bottom player recovers guard during the transition window
 
-- [[Side Control]] - Parent position category encompassing the consolidation phase where this transition begins
+- [[Positions/Side Control]] - Parent position category encompassing the consolidation phase where this transition begins
 
-- [[Mount]] - Alternative positional advancement from side control and common follow-up from knee on belly
+- [[Positions/Mount]] - Alternative positional advancement from side control and common follow-up from knee on belly
 
-- [[North-South]] - Alternative advancement option when knee on belly transition is not available due to opponent positioning
+- [[Positions/North-South]] - Alternative advancement option when knee on belly transition is not available due to opponent positioning
 
-- [[Armbar from Knee on Belly]] - High-percentage submission attack available immediately after achieving knee on belly position
+- [[Submissions/Armbar from Knee on Belly]] - High-percentage submission attack available immediately after achieving knee on belly position
 
-- [[Cross Collar Choke from KOB]] - Primary gi choke threat from knee on belly that punishes passive defense under pressure
+- [[Submissions/Cross Collar Choke from KOB]] - Primary gi choke threat from knee on belly that punishes passive defense under pressure
 
-- [[Baseball Bat Choke]] - Powerful submission accessible from knee on belly that capitalizes on collar grip established during transition
+- [[Transitions/Baseball Bat Choke]] - Powerful submission accessible from knee on belly that capitalizes on collar grip established during transition
 
-- [[Kesa Gatame]] - Alternative side control variation that offers different transition pathways when standard knee on belly entry is blocked
+- [[Positions/Side Control/Kesa Gatame]] - Alternative side control variation that offers different transition pathways when standard knee on belly entry is blocked
 
 
 </section>

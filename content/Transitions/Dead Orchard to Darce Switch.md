@@ -21,7 +21,7 @@ The transition requires precise timing and understanding of both choke architect
 
 Strategically, this switch transforms a potentially stalling defensive situation into a renewed submission threat. Opponents who have partially defended the Dead Orchard control often relax momentarily when they feel anaconda pressure release, creating a critical window for darce grip establishment. This chain attack philosophy exemplifies the modern front headlock game where each defensive reaction opens a new offensive pathway, systematically overwhelming the defender with cascading threats that make sustained defense increasingly difficult.
 
-**From Position**: [[Dead Orchard Control]] (Top)
+**From Position**: [[Positions/Dead Orchard Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this switch transforms a potentially stalling defensive situation
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 55% |
-| Failure | [[Dead Orchard Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Darce Control]] | 55% |
+| Failure | [[Positions/Dead Orchard Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Dead Orchard to Darce Switch occupies a critical position within the front h
 ## Related Techniques
 
 
-- [[Dead Orchard Control]] - Source position - anaconda-style control from which the switch is initiated
+- [[Positions/Dead Orchard Control]] - Source position - anaconda-style control from which the switch is initiated
 
-- [[Darce Control]] - Target position - darce choke control established upon successful switch
+- [[Positions/Darce Control]] - Target position - darce choke control established upon successful switch
 
-- [[Anaconda Control]] - Parent choke family sharing similar front headlock mechanics
+- [[Positions/Anaconda Control]] - Parent choke family sharing similar front headlock mechanics
 
-- [[Darce to Anaconda Switch]] - Reverse direction grip switch - complementary technique in opposite direction
+- [[Transitions/Darce to Anaconda Switch]] - Reverse direction grip switch - complementary technique in opposite direction
 
-- [[Dead Orchard to Anaconda Finish]] - Alternative offensive path from the same starting position
+- [[Transitions/Dead Orchard to Anaconda Finish]] - Alternative offensive path from the same starting position
 
-- [[Darce Control Maintenance]] - Follow-up technique for maintaining darce position after successful switch
+- [[Transitions/Darce Control Maintenance]] - Follow-up technique for maintaining darce position after successful switch
 
-- [[Front Headlock]] - Common entry position for both anaconda and darce choke families
+- [[Positions/Front Headlock]] - Common entry position for both anaconda and darce choke families
 
-- [[Anaconda Choke]] - Alternative submission path available before committing to the switch
+- [[Transitions/Anaconda Choke]] - Alternative submission path available before committing to the switch
 
-- [[Half Guard]] - Counter outcome position when switch fails and opponent escapes
+- [[Positions/Half Guard]] - Counter outcome position when switch fails and opponent escapes
 
-- [[Anaconda Setup]] - Related entry technique establishing the initial dead orchard position
+- [[Transitions/Anaconda Setup]] - Related entry technique establishing the initial dead orchard position
 
 
 </section>

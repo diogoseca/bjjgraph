@@ -26,8 +26,8 @@ From a competitive standpoint, the Americana from Kesa Gatame is particularly ef
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (glenohumeral)
-**Starting Position**: [[Kesa Gatame]]
-**From Position**: [[Kesa Gatame]] (Top)
+**Starting Position**: [[Positions/Side Control/Kesa Gatame]]
+**From Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -77,8 +77,8 @@ From a competitive standpoint, the Americana from Kesa Gatame is particularly ef
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Kesa Gatame]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Side Control/Kesa Gatame]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -224,9 +224,9 @@ From a competitive standpoint, the Americana from Kesa Gatame is particularly ef
 
 ## From Which Positions?
 
-- [[Kesa Gatame]]
-- [[Kuzure Kesa-Gatame]]
-- [[Side Control]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- [[Positions/Side Control]]
 
 
 </section>
@@ -235,12 +235,12 @@ From a competitive standpoint, the Americana from Kesa Gatame is particularly ef
 
 ## Related Submissions
 
-- [[Americana from Side Control]]
-- [[Americana from Mount]]
-- [[Americana from Reverse Kesa]]
-- [[Americana from Technical Mount]]
-- [[Arm Triangle from Scarf Hold]]
-- [[Armbar from Side Control]]
+- [[Submissions/Americana from Side Control]]
+- [[Submissions/Americana from Mount]]
+- [[Submissions/Americana from Reverse Kesa]]
+- [[Submissions/Americana from Technical Mount]]
+- [[Submissions/Arm Triangle from Scarf Hold]]
+- [[Submissions/Armbar from Side Control]]
 
 
 </section>
@@ -249,13 +249,13 @@ From a competitive standpoint, the Americana from Kesa Gatame is particularly ef
 
 ## Additional Related Content
 
-- [[Kesa Gatame]] - Primary source position providing the arm isolation and chest pressure foundation for this submission
-- [[Kuzure Kesa-Gatame]] - Modified scarf hold variant offering alternative arm isolation entry to the Americana
-- [[Side Control]] - Parent position family sharing lateral control principles and submission chains
-- [[Americana]] - Base transition technique—the core Americana movement pattern applied from this specific position
-- [[Kimura Trap]] - Alternative shoulder lock control accessible when opponent rotates arm inward to defend Americana
-- [[North-South]] - Transition option when Americana fails and opponent creates space, maintaining top control
-- [[Arm Triangle from Scarf Hold]] - Chain submission from same starting position, often set up as a follow-up when Americana defense exposes the neck
+- [[Positions/Side Control/Kesa Gatame]] - Primary source position providing the arm isolation and chest pressure foundation for this submission
+- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Modified scarf hold variant offering alternative arm isolation entry to the Americana
+- [[Positions/Side Control]] - Parent position family sharing lateral control principles and submission chains
+- [[Transitions/Americana]] - Base transition technique—the core Americana movement pattern applied from this specific position
+- [[Positions/Kimura Trap]] - Alternative shoulder lock control accessible when opponent rotates arm inward to defend Americana
+- [[Positions/North-South]] - Transition option when Americana fails and opponent creates space, maintaining top control
+- [[Submissions/Arm Triangle from Scarf Hold]] - Chain submission from same starting position, often set up as a follow-up when Americana defense exposes the neck
 
 
 </section>

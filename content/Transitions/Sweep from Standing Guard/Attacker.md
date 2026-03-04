@@ -186,7 +186,7 @@ description: "Complete attacker guide for executing sweeps from Standing Guard i
 
 Executing sweeps from Standing Guard requires understanding the biomechanical vulnerabilities of a standing opponent and the coordinated push-pull mechanics needed to exploit them. The attacker operates from a supine position with feet placed on the opponent's hips, using this connection as both a distance management tool and the primary lever for generating sweeping force. The fundamental principle is asymmetric force application: the feet push the opponent's hips in one direction while the hands pull their upper body or ankles in the opposing direction, creating a rotational force that overcomes their base. Mastery requires developing sensitivity to weight shifts through foot contact, precise timing of the sweep launch, and immediate follow-through to top position before the opponent can recover. The attacker must also maintain contingency plans for failed attempts, flowing seamlessly into alternative guard positions rather than remaining in a compromised posture.
 
-**From Position**: [[Standing Guard]] (Bottom)
+**From Position**: [[Positions/Standing Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing sweeps from Standing Guard requires understanding the biomechanical vu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Standing Guard]] | 40% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Standing Guard]] | 40% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing sweeps from Standing Guard requires understanding the biomechanical vu
 
 ## Opponent Counters
 
-- **Opponent posts their hand on the mat behind them to prevent falling backward** (Effectiveness: High) - Your Response: When the opponent posts, immediately switch to attacking the posted arm with a grip change or transition to a collar drag that exploits their compromised posture. Alternatively, increase the sweeping force angle to go around their post by redirecting the sweep laterally. → Leads to [[Standing Guard]]
-- **Opponent backsteps or hops over the ankle hook to remove the sweeping leverage** (Effectiveness: Medium) - Your Response: Follow their retreating legs with your hips and immediately re-establish feet on hips. Use the backstep momentum to enter De La Riva Guard on their retreating leg or transition to Collar Sleeve Guard to maintain offensive pressure from a new angle. → Leads to [[Standing Guard]]
-- **Opponent drives forward aggressively through the sweep attempt to smash pass** (Effectiveness: Medium) - Your Response: If the opponent drives forward, redirect their momentum by pulling them past you with collar or sleeve grips while inserting butterfly hooks or transitioning to closed guard. Their forward commitment can be used against them for alternative sweeps or back takes. → Leads to [[Side Control]]
-- **Opponent strips your ankle grip and immediately initiates a fast toreando pass** (Effectiveness: High) - Your Response: If grips are stripped, immediately recover feet to hips to re-establish distance control before they complete the pass. Use the remaining sleeve or collar grip to slow their passing momentum while recomposing guard. Prioritize guard retention over re-attempting the sweep. → Leads to [[Side Control]]
+- **Opponent posts their hand on the mat behind them to prevent falling backward** (Effectiveness: High) - Your Response: When the opponent posts, immediately switch to attacking the posted arm with a grip change or transition to a collar drag that exploits their compromised posture. Alternatively, increase the sweeping force angle to go around their post by redirecting the sweep laterally. → Leads to [[Positions/Standing Guard]]
+- **Opponent backsteps or hops over the ankle hook to remove the sweeping leverage** (Effectiveness: Medium) - Your Response: Follow their retreating legs with your hips and immediately re-establish feet on hips. Use the backstep momentum to enter De La Riva Guard on their retreating leg or transition to Collar Sleeve Guard to maintain offensive pressure from a new angle. → Leads to [[Positions/Standing Guard]]
+- **Opponent drives forward aggressively through the sweep attempt to smash pass** (Effectiveness: Medium) - Your Response: If the opponent drives forward, redirect their momentum by pulling them past you with collar or sleeve grips while inserting butterfly hooks or transitioning to closed guard. Their forward commitment can be used against them for alternative sweeps or back takes. → Leads to [[Positions/Side Control]]
+- **Opponent strips your ankle grip and immediately initiates a fast toreando pass** (Effectiveness: High) - Your Response: If grips are stripped, immediately recover feet to hips to re-establish distance control before they complete the pass. Use the remaining sleeve or collar grip to slow their passing momentum while recomposing guard. Prioritize guard retention over re-attempting the sweep. → Leads to [[Positions/Side Control]]
 
 
 </section>

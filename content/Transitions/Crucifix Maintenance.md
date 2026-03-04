@@ -21,7 +21,7 @@ The maintenance game centers on three interconnected control points: the figure-
 
 Strategic crucifix maintenance serves dual purposes—it preserves the dominant position for submission attacks while simultaneously draining the opponent's energy and psychological resolve. Each failed escape attempt depletes the bottom player's reserves and reinforces positional despair, making subsequent submission attempts higher percentage. Elite practitioners view maintenance not as passive holding but as active positional improvement, continuously refining controls while setting up finishing sequences through chokes, armbars, and arm attacks.
 
-**From Position**: [[Crucifix]] (Top)
+**From Position**: [[Positions/Crucifix]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -32,9 +32,9 @@ Strategic crucifix maintenance serves dual purposes—it preserves the dominant 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Crucifix]] | 65% |
-| Failure | [[Back Control]] | 20% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Crucifix]] | 65% |
+| Failure | [[Positions/Back Control]] | 20% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ Crucifix Maintenance sits at the critical junction between achieving the crucifi
 ## Related Techniques
 
 
-- [[Crucifix]] - Source position—the state being maintained through this transition
+- [[Positions/Crucifix]] - Source position—the state being maintained through this transition
 
-- [[Back Control]] - Fallback position when crucifix maintenance fails and opponent partially escapes
+- [[Positions/Back Control]] - Fallback position when crucifix maintenance fails and opponent partially escapes
 
-- [[Side Control]] - Secondary fallback when opponent escapes crucifix more completely
+- [[Positions/Side Control]] - Secondary fallback when opponent escapes crucifix more completely
 
-- [[Choke from Crucifix]] - Primary submission attack enabled by successful crucifix maintenance
+- [[Transitions/Choke from Crucifix]] - Primary submission attack enabled by successful crucifix maintenance
 
-- [[Armbar from Crucifix]] - Secondary submission attack accessible from maintained crucifix control
+- [[Transitions/Armbar from Crucifix]] - Secondary submission attack accessible from maintained crucifix control
 
-- [[Arm Recovery from Crucifix]] - Opponent's primary escape technique that maintenance must counter
+- [[Transitions/Arm Recovery from Crucifix]] - Opponent's primary escape technique that maintenance must counter
 
-- [[Crucifix Choke Defense]] - Defensive transition from opponent's perspective during maintenance
+- [[Transitions/Crucifix Choke Defense]] - Defensive transition from opponent's perspective during maintenance
 
-- [[Back Control Maintenance]] - Analogous maintenance concept for the related back control position
+- [[Transitions/Back Control Maintenance]] - Analogous maintenance concept for the related back control position
 
-- [[Mounted Crucifix]] - Related variant position accessible as alternative control platform
+- [[Positions/Mount/Mounted Crucifix]] - Related variant position accessible as alternative control platform
 
-- [[Gift Wrap]] - Similar arm isolation control concept using different trapping mechanism
+- [[Positions/Gift Wrap]] - Similar arm isolation control concept using different trapping mechanism
 
-- [[Seat Belt Control Back]] - Related back control grip system used in crucifix entry sequences
+- [[Positions/Back Control/Seat Belt Control Back]] - Related back control grip system used in crucifix entry sequences
 
 
 </section>

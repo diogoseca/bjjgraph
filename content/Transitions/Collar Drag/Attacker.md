@@ -174,7 +174,7 @@ description: "How to execute Collar Drag in BJJ. Attacking perspective with setu
 
 The Collar Drag from the attacker's perspective is about converting grip advantages into dominant angles. Your objective is to use the collar or neck grip as a steering wheel that rotates the opponent's upper body while your footwork carries you past their defensive structure to their exposed back. The technique demands commitment—half-measures result in neutral resets or worse. The attacker must coordinate grip pull, hip rotation, and lateral footwork into a single explosive action that overwhelms the opponent's ability to square up and face you. Success depends on disguising your intention through grip fighting, loading tension before the drag, and immediately chaining to back control, single leg, or guard pull based on the opponent's defensive reaction. The collar drag rewards practitioners who understand that standing grappling is about angles, not strength.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The Collar Drag from the attacker's perspective is about converting grip advanta
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Standing Position]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Standing Position]] | 15% |
 
 
 </section>
@@ -238,10 +238,10 @@ The Collar Drag from the attacker's perspective is about converting grip advanta
 
 ## Opponent Counters
 
-- **Opponent pulls their collar-side elbow tight to their body and squares their hips to face you, preventing the rotation** (Effectiveness: High) - Your Response: Switch to Russian tie or two-on-one on the arm you control, then transition to arm drag or single leg attack. Alternatively, use their defensive posture to set up opposite-side attacks. → Leads to [[Standing Position]]
-- **Opponent circles away from the drag direction, maintaining squared stance and using footwork to stay aligned** (Effectiveness: Medium) - Your Response: Change direction mid-drag and collar drag to the opposite side, or use their backward movement to snap them down into front headlock position. Their defensive circling creates forward momentum you can redirect. → Leads to [[Standing Position]]
-- **Opponent immediately grips your collar or head when they feel the drag starting, attempting to control your posture** (Effectiveness: Medium) - Your Response: Commit harder to the angle change and duck under their grip attempt, accelerating your circle to their back. Their arm reaching for you opens their back exposure. Can also transition to duck-under if they over-commit to controlling your head. → Leads to [[Standing Position]]
-- **Opponent drops their weight and sprawls backward, trying to create distance and disengage from your grips** (Effectiveness: Low) - Your Response: Follow them down while maintaining collar control, transitioning to top turtle position, front headlock, or forcing guard pull with you on top. Their backward movement actually helps you achieve top position if you stay connected. → Leads to [[Standing Position]]
+- **Opponent pulls their collar-side elbow tight to their body and squares their hips to face you, preventing the rotation** (Effectiveness: High) - Your Response: Switch to Russian tie or two-on-one on the arm you control, then transition to arm drag or single leg attack. Alternatively, use their defensive posture to set up opposite-side attacks. → Leads to [[Positions/Standing Position]]
+- **Opponent circles away from the drag direction, maintaining squared stance and using footwork to stay aligned** (Effectiveness: Medium) - Your Response: Change direction mid-drag and collar drag to the opposite side, or use their backward movement to snap them down into front headlock position. Their defensive circling creates forward momentum you can redirect. → Leads to [[Positions/Standing Position]]
+- **Opponent immediately grips your collar or head when they feel the drag starting, attempting to control your posture** (Effectiveness: Medium) - Your Response: Commit harder to the angle change and duck under their grip attempt, accelerating your circle to their back. Their arm reaching for you opens their back exposure. Can also transition to duck-under if they over-commit to controlling your head. → Leads to [[Positions/Standing Position]]
+- **Opponent drops their weight and sprawls backward, trying to create distance and disengage from your grips** (Effectiveness: Low) - Your Response: Follow them down while maintaining collar control, transitioning to top turtle position, front headlock, or forcing guard pull with you on top. Their backward movement actually helps you achieve top position if you stay connected. → Leads to [[Positions/Standing Position]]
 
 
 </section>

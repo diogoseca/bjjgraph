@@ -154,7 +154,7 @@ description: "Defend the triangle setup from Diamond Guard. Recognition cues, de
 
 Defending the triangle from Diamond Guard requires understanding that your defensive window is narrow and occurs primarily during the attacker's grip switch from head control to wrist control. This is the moment when one of the two diamond control points is temporarily released, creating a brief opportunity to recover posture, extract the trapped arm, or break the guard. Once the attacker successfully switches to wrist control and shoots the choking leg over your neck, defensive options diminish rapidly. Effective defense begins with recognizing the attack initiation — specifically the release of head control and the accompanying hip angle creation — and responding with immediate posture recovery or arm extraction before the transition window closes.
 
-**Opponent's Starting Position**: [[Diamond Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard/Diamond Guard]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the triangle from Diamond Guard requires understanding that your defen
 ### 1. Posture recovery during grip switch
 
 - **When to use**: Immediately when you feel head control release — this is the primary defensive window before wrist control is established
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover posture and create enough space to begin stripping the overhook, breaking the diamond frame and returning to standard closed guard
 - **Risk**: If posture recovery is too slow and wrist control is already established, the forward drive exposes your neck for the leg shoot
 
 ### 2. Trapped arm extraction via elbow pull and hip drive
 
 - **When to use**: When you feel the attacker switching from head control to wrist control — pull your trapped arm backward while driving your hips back simultaneously
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: The trapped arm comes free, breaking both the diamond frame and the arm isolation needed for the triangle, reverting to closed guard
 - **Risk**: Aggressive arm pulling without addressing the overhook can open space for an omoplata entry if the attacker redirects
 
 ### 3. Shoulder turn and chin tuck during leg shoot
 
 - **When to use**: When you feel the attacker's leg beginning to travel toward your neck — turn your choking-side shoulder inward and tuck your chin to block the leg from crossing
-- **Targets**: [[Diamond Guard]]
+- **Targets**: [[Positions/Closed Guard/Diamond Guard]]
 - **If successful**: The choking leg cannot fully cross behind your neck, preventing the triangle lock and keeping you in diamond guard where you can continue working to escape
 - **Risk**: If the shoulder turn is too aggressive, it can expose your back and create a back take opportunity for the attacker
 
 ### 4. Stack and drive forward through the triangle attempt
 
 - **When to use**: If the triangle is partially locked but not yet tightened — drive your weight forward into the attacker's hips to compress their guard structure
-- **Targets**: [[Diamond Guard]]
+- **Targets**: [[Positions/Closed Guard/Diamond Guard]]
 - **If successful**: Forward pressure prevents the attacker from establishing proper finishing angle and creates space to begin systematic escape from the loose triangle
 - **Risk**: Stacking into a well-established triangle can increase choking pressure if the attacker adjusts angle, and forward drive exposes you to omoplata transitions
 
@@ -224,11 +224,11 @@ Defending the triangle from Diamond Guard requires understanding that your defen
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time your posture recovery for the exact moment head control is released. Drive hips backward explosively while straightening your spine, creating enough space to strip the overhook with your free hand. Once the diamond frame is broken, the attacker falls back to standard closed guard without the enhanced controls. Focus on addressing the grip switch window within the first half-second of head control release.
 
-### → [[Diamond Guard]]
+### → [[Positions/Closed Guard/Diamond Guard]]
 
 If you cannot fully escape the diamond, preventing the triangle lock is still a favorable outcome. Tuck your chin and turn your shoulder inward to block the leg shoot, keeping the position in diamond guard where you can continue working systematic escape. A failed triangle attempt often leaves the attacker with a compromised overhook or wrist position that creates new escape opportunities.
 

@@ -156,7 +156,7 @@ Defending the Butterfly Hook Sweep requires understanding the three mechanical e
 
 Recognizing the early warning signs of the sweep setup is critical because the technique has a clear point of no return—once your weight is loaded forward and the angle is established, even expert defenders will be swept by a well-timed execution. Your defensive strategy should prioritize prevention over reaction, denying the setup conditions rather than trying to counter the sweep mid-flight. This means constant attention to your weight distribution, proactive grip fighting, and disciplined base positioning that removes the forward-loaded weight the sweep requires.
 
-**Opponent's Starting Position**: [[Butterfly Hook Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ Recognizing the early warning signs of the sweep setup is critical because the t
 ### 1. Post near hand wide to create tripod base against the sweep direction
 
 - **When to use**: When you feel initial elevation beginning and your weight starting to shift laterally
-- **Targets**: [[Butterfly Hook Control]]
+- **Targets**: [[Positions/Butterfly Guard/Butterfly Hook Control]]
 - **If successful**: Sweep is stopped, you maintain top position and can begin resetting grips for passing
 - **Risk**: Extended posting arm becomes isolated from your body, exposing it to kimura attacks or arm drag to back take
 
 ### 2. Stand up explosively to remove hooks and disengage from butterfly guard entirely
 
 - **When to use**: When opponent establishes strong grips and angle making the sweep difficult to resist from kneeling
-- **Targets**: [[Butterfly Hook Control]]
+- **Targets**: [[Positions/Butterfly Guard/Butterfly Hook Control]]
 - **If successful**: Hooks disengage as you rise above their range, resetting to a standing passing position
 - **Risk**: Opponent follows your hips upward and transitions to X-Guard or Single Leg X-Guard before you fully disengage
 
 ### 3. Drive crossface pressure and shoulder weight forward to flatten opponent's posture backward
 
 - **When to use**: Before opponent creates angle, as early prevention when you sense them beginning to establish sweep grips
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent is driven flat, losing the upright posture and hook leverage needed for the sweep
 - **Risk**: Over-committing forward pressure with weight over hooks feeds directly into the sweep if mistimed
 
 ### 4. Backstep past hooking leg and initiate knee slice pass during opponent's elevation attempt
 
 - **When to use**: During sweep attempt when opponent commits to elevation and their defensive guard structure opens
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You begin passing as opponent's sweep fails, transitioning the exchange from defense to offense
 - **Risk**: Incomplete backstep allows opponent to recover hooks and immediately re-attack with a second sweep attempt
 
@@ -227,11 +227,11 @@ Recognizing the early warning signs of the sweep setup is critical because the t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Butterfly Hook Control]]
+### → [[Positions/Butterfly Guard/Butterfly Hook Control]]
 
 Deny all three sweep requirements by keeping base wide and low, fighting grips before they establish directional control, and preventing angle creation by following opponent's hip movement. Post proactively on any elevation attempt to create an immediate tripod that the sweep cannot overcome.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When opponent over-commits to the sweep elevation, use their momentum shift and opened guard structure to backstep past their hooking leg and begin knee slice pass into half guard top position. Their commitment to the sweep creates the opening you need to advance past the guard.
 

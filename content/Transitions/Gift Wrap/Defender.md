@@ -158,7 +158,7 @@ The defender's strategy operates on a timeline of decreasing options. During the
 
 The defender must also recognize that the Gift Wrap is a gateway position—the attacker will use it to advance to back control, Technical Mount, or direct submission attacks. Defensive priorities therefore extend beyond simply freeing the arm: preventing the attacker from using the wrap to transition to an even worse position is equally important. Maintaining hip positioning, preventing the turn that leads to back exposure, and keeping frames active with the free arm are all concurrent defensive tasks that must be managed alongside arm recovery attempts.
 
-**Opponent's Starting Position**: [[Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ The defender must also recognize that the Gift Wrap is a gateway position—the 
 ### 1. Retract arm explosively by pulling elbow tight to ribs and rotating shoulder inward before the threading arm connects
 
 - **When to use**: During the initial wrist control phase before the attacker has threaded their arm under your armpit—this is the highest-percentage window for prevention
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You deny the Gift Wrap entry entirely and return to standard mount defense with both arms available for framing and escape
 - **Risk**: If the retraction fails and the attacker maintains wrist control, you have expended energy without escaping and the wrap continues
 
 ### 2. Bridge explosively toward the side of the trapped arm to disrupt the attacker's base and threading angle during the wrap attempt
 
 - **When to use**: When the attacker commits weight forward during the threading motion—their forward lean creates vulnerability to lateral bridging
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: The bridge disrupts the threading motion and may create enough space for arm retraction or a full mount escape to guard recovery
 - **Risk**: Failed bridge wastes energy and the attacker may use the settling phase to complete the wrap while you are flat on your back
 
 ### 3. Hip escape toward the trapped arm side while framing with free arm on attacker's hip to create distance for knee insertion
 
 - **When to use**: When the Gift Wrap is partially or fully established and arm recovery is no longer viable—shift priority from arm recovery to positional escape
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard with one arm still trapped but have regained leg entanglement that prevents further positional advancement
 - **Risk**: The hip escape may expose your back if the attacker follows your hip movement and converts to back control during the escape
 
 ### 4. Two-on-one grip fight the attacker's threading wrist with your free hand while rotating trapped shoulder forward to strip the wrap
 
 - **When to use**: When the attacker has threaded under the armpit but has not yet completed the grip transfer to lock the wrap—target the transitional grip moment
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You break the wrap at its weakest structural point and recover the trapped arm to restore full defensive capability from mount bottom
 - **Risk**: Using your free hand for grip fighting removes it from neck defense, creating a momentary window for the attacker to attack the choke
 
@@ -229,11 +229,11 @@ The defender must also recognize that the Gift Wrap is a gateway position—the 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Deny the Gift Wrap entry entirely by retracting the targeted arm during the initial wrist control phase. Keep elbows pinched tight to ribs and immediately grip-fight any wrist control attempt. Time a strong bridge during the attacker's forward lean to disrupt threading. The goal is to return to standard mount bottom defense with both arms available.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the Gift Wrap is partially or fully established and arm recovery is not immediately possible, shift to positional escape. Frame on the attacker's hip with your free arm, hip escape toward the trapped arm side, and insert your knee to recover half guard. Accept the trapped arm temporarily and focus on regaining leg entanglement that prevents back take or further advancement.
 

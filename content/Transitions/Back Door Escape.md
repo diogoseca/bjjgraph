@@ -21,7 +21,7 @@ The technique works by recognizing that the Darce choke requires the attacker to
 
 Strategically, the Back Door Escape represents a last-resort option when arm extraction and other primary escapes have failed. Its success depends heavily on timing—attempting this escape too early wastes energy on a complex movement when simpler options remain, while attempting it too late puts you in an even worse position as the choke tightens. Advanced practitioners develop sensitivity to the precise moment when the back door becomes the highest-percentage option based on the attacker's grip depth and hip position.
 
-**From Position**: [[Darce Control]] (Bottom)
+**From Position**: [[Positions/Darce Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, the Back Door Escape represents a last-resort option when arm ext
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Success | [[Turtle]] | 15% |
-| Failure | [[Darce Control]] | 20% |
-| Counter | [[North-South]] | 10% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Success | [[Positions/Turtle]] | 15% |
+| Failure | [[Positions/Darce Control]] | 20% |
+| Counter | [[Positions/North-South]] | 10% |
 
 
 </section>
@@ -188,23 +188,23 @@ The Back Door Escape fits into the Darce defense system as a secondary option af
 ## Related Techniques
 
 
-- [[Darce Control]] - Starting position
+- [[Positions/Darce Control]] - Starting position
 
-- [[Arm Extraction]] - Primary alternative escape
+- [[Transitions/Arm Extraction]] - Primary alternative escape
 
-- [[Granby Roll to Guard]] - Related escape movement pattern
+- [[Transitions/Granby Roll to Guard]] - Related escape movement pattern
 
-- [[Open Guard]] - Primary recovery position
+- [[Positions/Open Guard]] - Primary recovery position
 
-- [[Turtle]] - Alternative recovery position
+- [[Positions/Turtle]] - Alternative recovery position
 
-- [[Darce Choke]] - Submission being escaped
+- [[Transitions/Darce Choke]] - Submission being escaped
 
-- [[Anaconda Control]] - Related choke position with similar escape principles
+- [[Positions/Anaconda Control]] - Related choke position with similar escape principles
 
-- [[Front Headlock]] - Parent position family
+- [[Positions/Front Headlock]] - Parent position family
 
-- [[Rolling to Guard]] - Alternative escape option
+- [[Transitions/Rolling to Guard]] - Alternative escape option
 
 
 </section>

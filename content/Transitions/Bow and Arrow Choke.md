@@ -21,7 +21,7 @@ This choke works by applying pressure to the carotid arteries through the gi col
 
 Strategically, the Bow and Arrow Choke represents the primary collar attack from back control in gi grappling. It chains naturally with other back attacks—opponents defending the Bow and Arrow often expose their arms for armbar attacks or create space that allows transition to rear naked choke attempts. Understanding this submission's mechanics and entries is essential for any serious gi competitor, as it accounts for a significant percentage of submission victories at the highest levels of competition.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -33,8 +33,8 @@ Strategically, the Bow and Arrow Choke represents the primary collar attack from
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -189,21 +189,21 @@ The Bow and Arrow Choke is the premier collar submission from back control in gi
 ## Related Techniques
 
 
-- [[Back Control]] - Starting position providing the control base for bow and arrow entry
+- [[Positions/Back Control]] - Starting position providing the control base for bow and arrow entry
 
-- [[Rear Naked Choke]] - Primary alternative submission that chains with bow and arrow in back attack system
+- [[Transitions/Rear Naked Choke]] - Primary alternative submission that chains with bow and arrow in back attack system
 
-- [[Armbar from Back]] - Arm attack option when opponent over-defends collar and neck threats
+- [[Submissions/Armbar from Back]] - Arm attack option when opponent over-defends collar and neck threats
 
-- [[Clock Choke]] - Transition option when opponent escapes to turtle while collar grip is maintained
+- [[Transitions/Clock Choke]] - Transition option when opponent escapes to turtle while collar grip is maintained
 
-- [[Crucifix]] - Control position reached through specific transitions when opponent defends bow and arrow
+- [[Positions/Crucifix]] - Control position reached through specific transitions when opponent defends bow and arrow
 
-- [[Body Triangle]] - Back control variation providing stable platform for bow and arrow attacks
+- [[Positions/Back Control/Body Triangle]] - Back control variation providing stable platform for bow and arrow attacks
 
-- [[Cross Collar Choke]] - Related collar choke using similar grip mechanics from different positions
+- [[Transitions/Cross Collar Choke]] - Related collar choke using similar grip mechanics from different positions
 
-- [[Armbar from Back with Legs]] - Alternative finish when bow and arrow defense creates arm exposure
+- [[Submissions/Armbar from Back with Legs]] - Alternative finish when bow and arrow defense creates arm exposure
 
 
 </section>

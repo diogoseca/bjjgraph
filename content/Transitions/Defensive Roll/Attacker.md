@@ -184,7 +184,7 @@ From a biomechanical perspective, the Defensive Roll works by accepting and then
 
 Strategically, this escape must be initiated at the correct moment in the Twister Control sequence. Attempting the roll too early, before the opponent has committed to their controls, allows them to easily readjust. Waiting too long means the spinal rotation is too severe and the escape window has closed. The ideal timing is when the opponent is transitioning their grip to hunt for the Twister finish, as this creates a brief window where their leg control may momentarily weaken. Success requires commitment to the rolling direction and immediate follow-through to a defensive position such as Turtle or Half Guard retention.
 
-**From Position**: [[Twister Control]] (Bottom)
+**From Position**: [[Positions/Twister Control]] (Bottom)
 
 </section>
 
@@ -237,10 +237,10 @@ Strategically, this escape must be initiated at the correct moment in the Twiste
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 45% |
-| Success | [[Half Guard]] | 20% |
-| Failure | [[Twister Control]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Turtle]] | 45% |
+| Success | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/Twister Control]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -249,10 +249,10 @@ Strategically, this escape must be initiated at the correct moment in the Twiste
 
 ## Opponent Counters
 
-- **Opponent rides the roll and maintains back exposure, transitioning to conventional back control** (Effectiveness: High) - Your Response: Post strongly with both hands upon completing the roll and immediately sit through to guard before they can secure hooks → Leads to [[Back Control]]
-- **Opponent anticipates the roll and tightens leg control, preventing the escape** (Effectiveness: High) - Your Response: Abort the roll attempt and return to hand fighting and incremental leg extraction before reattempting → Leads to [[Twister Control]]
-- **Opponent transitions to guillotine as you expose your neck during the roll** (Effectiveness: Medium) - Your Response: Maintain chin tuck throughout and use your posting arm to create a frame against their choking arm → Leads to [[Twister Control]]
-- **Opponent switches to Crab Ride control as you roll, maintaining back exposure** (Effectiveness: Medium) - Your Response: Continue the roll momentum and immediately address the Crab Ride position with standard escapes → Leads to [[Back Control]]
+- **Opponent rides the roll and maintains back exposure, transitioning to conventional back control** (Effectiveness: High) - Your Response: Post strongly with both hands upon completing the roll and immediately sit through to guard before they can secure hooks → Leads to [[Positions/Back Control]]
+- **Opponent anticipates the roll and tightens leg control, preventing the escape** (Effectiveness: High) - Your Response: Abort the roll attempt and return to hand fighting and incremental leg extraction before reattempting → Leads to [[Positions/Twister Control]]
+- **Opponent transitions to guillotine as you expose your neck during the roll** (Effectiveness: Medium) - Your Response: Maintain chin tuck throughout and use your posting arm to create a frame against their choking arm → Leads to [[Positions/Twister Control]]
+- **Opponent switches to Crab Ride control as you roll, maintaining back exposure** (Effectiveness: Medium) - Your Response: Continue the roll momentum and immediately address the Crab Ride position with standard escapes → Leads to [[Positions/Back Control]]
 
 
 </section>

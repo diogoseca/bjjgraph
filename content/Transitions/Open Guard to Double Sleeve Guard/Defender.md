@@ -146,7 +146,7 @@ description: "How to defend the Transition to Double Sleeve Guard in BJJ. Grip p
 
 As the defender facing an opponent attempting to establish double sleeve guard, your primary objective is to prevent bilateral sleeve grip acquisition while maintaining passing posture and creating advancement opportunities. The critical window for defense is during the grip-fighting phase before both sleeves are secured, as double sleeve guard becomes significantly harder to dismantle once fully established. Your defensive strategy centers on three pillars: grip prevention through arm retraction and wrist rotation, posture maintenance to keep your arms out of gripping range, and capitalizing on the bottom player's grip-focused attention to advance your passing position. Understanding this defense is essential for any passer facing gi-based guard players, as double sleeve guard is one of the most commonly attempted guard establishments in competitive BJJ.
 
-**Opponent's Starting Position**: [[Open Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ As the defender facing an opponent attempting to establish double sleeve guard, 
 ### 1. Strip the first sleeve grip immediately using wrist rotation toward the thumb and hip movement
 
 - **When to use**: As soon as opponent secures initial sleeve grip before they can manipulate your posture for the second grip
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Bottom player returns to neutral open guard without any sleeve control, allowing you to re-establish passing grips
 - **Risk**: If the strip fails, opponent uses the resistance to pull you forward into triangle or omoplata range
 
 ### 2. Drive forward with heavy pressure to collapse the distance before both grips are established
 
 - **When to use**: When bottom player removes a foot from your hip to reach for a sleeve, creating a temporary gap in their distance frame
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Distance collapses past the effective range for sleeve gripping, converting the position into a pressure passing scenario
 - **Risk**: If bottom player maintains the foot frame and you overcommit forward, you may be swept or pulled into a triangle
 
 ### 3. Retract arms to body and initiate immediate toreando pass by controlling opponent's knees
 
 - **When to use**: When opponent is reaching with both hands for sleeves and their legs are momentarily uncommitted to framing
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You bypass the grip-fighting exchange entirely and convert directly to a passing sequence with leg control
 - **Risk**: If your timing is off and they secure one sleeve during the transition, you may end up in lasso or spider guard
 
 ### 4. Establish your own grips on opponent's pants at the knees before they secure sleeve control
 
 - **When to use**: Proactively at the start of the open guard engagement before opponent begins grip-fighting for sleeves
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Pants control prevents opponent from extending their legs for distance framing and gives you passing initiative
 - **Risk**: Reaching for pants grips may extend your arms into sleeve-gripping range if timing is poor
 
@@ -216,11 +216,11 @@ As the defender facing an opponent attempting to establish double sleeve guard, 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip sleeve grips using proper wrist rotation breaks (turn toward opponent's thumb) combined with hip movement. After breaking grips, immediately establish your own control on their legs or belt to prevent re-gripping. The goal is to force them back to neutral open guard where you hold the grip advantage.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Collapse distance during the grip-fighting phase by driving forward when opponent removes a foot to reach for your sleeve. Use your body weight and forward momentum to pass their foot frame and establish smash pressure. Even arriving in half guard is favorable because it removes the distance needed for double sleeve guard to function.
 

@@ -156,7 +156,7 @@ Defending the Finish from Hindulotine requires understanding the unique rotation
 
 The defender's strategic priorities are layered: first prevent the finish through grip defense and body alignment, then create conditions for escape through hand fighting and positional movement. The rotational nature of the Hindulotine means that standard guillotine defenses like driving forward may be less effective, as the attacker uses your forward pressure to increase their rotational advantage. Instead, the defender must focus on aligning their spine to reduce the perpendicular angle that generates torque, while simultaneously working to weaken the grip and create opportunities for positional escape to Half Guard or neutral positions.
 
-**Opponent's Starting Position**: [[Hindulotine]] (Top)
+**Opponent's Starting Position**: [[Positions/Hindulotine]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The defender's strategic priorities are layered: first prevent the finish throug
 ### 1. Insert hands into choking grip as a wedge and fight to break the lock
 
 - **When to use**: Immediately upon recognizing increased choking pressure indicating transition to active finish
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: Reduces choking pressure by 40-60% and creates space to work additional defenses or force the attacker to readjust their grip
 - **Risk**: If grip fight fails, hands may become trapped inside the choke configuration, worsening the compression and accelerating the finish
 
 ### 2. Bridge at an angle and turn toward the choking arm to align spine with attacker's rotation
 
 - **When to use**: When attacker commits hip rotation for the finish and their weight shifts forward through the choking arm
-- **Targets**: [[Hindulotine]]
+- **Targets**: [[Positions/Hindulotine]]
 - **If successful**: Eliminates the perpendicular angle that generates rotational torque, neutralizing the primary finishing mechanic and reducing the choke to manageable pressure
 - **Risk**: Over-rotation exposes your back for a potential back take transition if the attacker reads the movement and releases the choke
 
 ### 3. Hip escape with leg hook to establish Half Guard
 
 - **When to use**: When the choking grip has been partially loosened through hand fighting and the attacker momentarily readjusts their positioning
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Complete escape from the choke with favorable Half Guard top position, eliminating the submission threat entirely
 - **Risk**: If the hip escape is too slow, the attacker can tighten the grip during your movement and finish the choke while your defensive structure is compromised
 
 ### 4. Stack and drive upward to posture through the choke
 
 - **When to use**: Early in the finishing attempt before the attacker establishes a strong perpendicular hip angle and deep weight commitment
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Posturing breaks the mechanical advantage of rotational pressure and creates space to extract your head from the grip entirely
 - **Risk**: If posture attempt fails against an established finishing angle, the attacker uses your upward momentum to drive you back down with increased pressure and a deeper grip
 
@@ -227,11 +227,11 @@ The defender's strategic priorities are layered: first prevent the finish throug
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Break the choking grip through persistent hand fighting to create a wedge, then execute a timed hip escape while hooking the attacker's near leg to establish Half Guard. The key is timing the escape during the attacker's grip readjustment rather than fighting against full finishing pressure. Once the leg is hooked and the grip is broken, immediately establish frames to prevent the attacker from reapplying the choke.
 
-### → [[Hindulotine]]
+### → [[Positions/Hindulotine]]
 
 Neutralize the finishing attempt by tucking your chin firmly, inserting hands into the grip to create a wedge, and aligning your body to eliminate rotational torque. While this leaves you in a disadvantageous control position, surviving the finish attempt buys time for subsequent escape strategies. The attacker's grip fatigue from the failed finish attempt weakens their overall control, creating opportunities for more complete escapes on subsequent attempts.
 

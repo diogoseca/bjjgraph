@@ -194,28 +194,28 @@ Defending the armbar from guard requires understanding the attacker's sequential
 ### 1. Posture recovery and arm extraction
 
 - **When to use**: Early stage—when opponent has broken your posture and begun isolating your arm but has not yet established leg position over your head
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Return to neutral closed guard top position with posture intact, denying all submission entries
 - **Risk**: Low risk if executed before opponent's legs are positioned. If too late, you expose yourself to triangle as you pull the arm back
 
 ### 2. Stack defense by driving weight forward and standing up
 
 - **When to use**: Mid-stage—when opponent has begun rotating and positioning legs but has not yet locked hips tight to your shoulder
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Nullify the armbar by compressing attacker's hips and removing their extension space, then pass to side control as they open their guard
 - **Risk**: Medium risk—if the attacker has deep hip-to-shoulder connection, stacking may not relieve pressure and can actually tighten the armbar
 
 ### 3. Hitchhiker escape by rotating thumb down and walking toward opponent's head
 
 - **When to use**: Late stage—when armbar is nearly locked and you cannot stack or extract your arm, but opponent has not yet achieved full hip extension
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Rotate your arm out of the hyperextension plane and extract it by walking your body toward opponent's head, returning to top position
 - **Risk**: Medium-high risk—requires precise timing and if the attacker squeezes knees or transitions to belly-down armbar, escape becomes much harder
 
 ### 4. Grip defense with hand clasp and forward pressure
 
 - **When to use**: Emergency defense—when arm is fully extended between opponent's legs and finishing pressure is imminent, buying time to set up a proper escape
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Prevent immediate finish and create window to stack, hitchhike, or extract the arm while opponent works to break your grip
 - **Risk**: High risk—this is a temporary measure only. Sustained hip pressure will eventually break any grip, and you are burning energy while the attacker conserves theirs
 
@@ -238,11 +238,11 @@ Defending the armbar from guard requires understanding the attacker's sequential
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Recover posture early in the armbar sequence by stripping the collar grip and driving your chest upward while keeping elbows tight, or complete the hitchhiker escape to return to closed guard top with arm safely extracted
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Execute a successful stack defense that compresses the attacker's guard structure, then circle past their legs as they open guard to relieve pressure, consolidating into side control
 

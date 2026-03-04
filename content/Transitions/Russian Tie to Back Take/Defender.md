@@ -158,7 +158,7 @@ Defensive success depends on understanding that the attacker's power comes from 
 
 The defender must avoid passive reactions like simply trying to pull the arm back, which feeds directly into the attacker's chain-attack system. Instead, active defensive strategies that create counter-offensive threats force the attacker to defend while attacking, disrupting their systematic circling progression.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ The defender must avoid passive reactions like simply trying to pull the arm bac
 ### 1. Aggressive turn-in with free arm underhook or body lock
 
 - **When to use**: Immediately upon recognizing the Russian Tie grip, before the attacker has begun significant lateral movement. Most effective in the first 2-3 seconds.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You square up to the attacker, nullify their angle, and potentially establish your own dominant grip or body lock for a takedown
 - **Risk**: If the turn-in is too slow or shallow, the attacker can use your forward momentum to accelerate their circle. Overcommitting forward can expose you to snap downs.
 
 ### 2. Strip the wrist grip with free hand using two-on-one peel
 
 - **When to use**: When the attacker has established the Russian Tie but has not yet cleared your hip line. Your free hand attacks their grip on your wrist by peeling fingers or using a circular break.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Breaking the wrist grip removes the primary control point and allows you to recover your arm, resetting to neutral standing with grip advantage
 - **Risk**: Reaching across to strip the grip can expose your back momentarily. If the strip fails, your free arm is now committed and the attacker may accelerate the circle.
 
 ### 3. Sprawl and drive hips back while circling to face attacker
 
 - **When to use**: When the attacker has begun circling and you cannot immediately turn in. Drop your hips back to create distance while rotating your feet to track the attacker's movement.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You create enough distance to break the head pressure on your bicep and rotate to face the attacker, resetting to neutral standing position
 - **Risk**: If you sprawl without rotating your feet, the attacker uses your heavy hips against you since you cannot turn from a deep sprawl. Must combine sprawl with active foot movement.
 
 ### 4. Sit to guard to deny the standing back take
 
 - **When to use**: As a last resort when the attacker has nearly cleared your hip and the standing back take is imminent. Sitting down removes the standing dynamic and allows guard recovery.
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You transition to a seated guard position rather than conceding standing back control, forcing the attacker to pass guard instead of attacking from back mount
 - **Risk**: You concede top position and potentially advantage points. The attacker may follow your sit with continued arm control and take the back anyway if your guard pull is not clean.
 
@@ -229,11 +229,11 @@ The defender must avoid passive reactions like simply trying to pull the arm bac
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Strip the Russian Tie grip early by attacking the wrist control with your free hand, then immediately square your hips to face the attacker and re-engage grip fighting from neutral. Alternatively, turn aggressively into the attacker with an underhook or body lock, converting their offensive attempt into your own takedown opportunity.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 If the back take is imminent and you cannot strip grips or turn in, sit to guard by dropping your hips and pulling the attacker into your closed guard or De La Riva guard. This sacrifices top position but denies the 4-point back control, which is a significantly worse outcome. Time the sit before the attacker's hip clears yours.
 

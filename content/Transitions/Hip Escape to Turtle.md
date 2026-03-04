@@ -21,7 +21,7 @@ The technique exploits a mechanical weakness in the body triangle: the attacker'
 
 This escape is particularly effective because turtle, while not an ideal position, offers significantly more mobility and escape options than remaining trapped in body triangle. From turtle, you can work toward guard recovery, technical standup, or granby roll sequences. The transition also temporarily removes the neck attack threat, giving you breathing room to reassess and continue your escape sequence.
 
-**From Position**: [[Body Triangle]] (Top)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This escape is particularly effective because turtle, while not an ideal positio
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Body Triangle]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Back Control/Body Triangle]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -193,23 +193,23 @@ Hip Escape to Turtle is the primary escape pathway from body triangle, one of th
 ## Related Techniques
 
 
-- [[Body Triangle]] - Starting position - the dominant control you are escaping from
+- [[Positions/Back Control/Body Triangle]] - Starting position - the dominant control you are escaping from
 
-- [[Turtle]] - Target position - destination after successful escape
+- [[Positions/Turtle]] - Target position - destination after successful escape
 
-- [[Back Control]] - Related position - opponent may transition to hooks if triangle fails
+- [[Positions/Back Control]] - Related position - opponent may transition to hooks if triangle fails
 
-- [[Granby Roll to Guard]] - Alternative escape - different pathway from body triangle
+- [[Transitions/Granby Roll to Guard]] - Alternative escape - different pathway from body triangle
 
-- [[Back Door Escape]] - Follow-up system - continue escaping from turtle or hooks
+- [[Transitions/Back Door Escape]] - Follow-up system - continue escaping from turtle or hooks
 
-- [[Rear Naked Choke]] - Primary threat - main submission danger during escape
+- [[Transitions/Rear Naked Choke]] - Primary threat - main submission danger during escape
 
-- [[Half Guard]] - Alternative destination - can reach through frame and slide variant
+- [[Positions/Half Guard]] - Alternative destination - can reach through frame and slide variant
 
-- [[Hand Fighting from Back]] - Prerequisite skill - grip fighting needed before clearing triangle
+- [[Transitions/Hand Fighting from Back]] - Prerequisite skill - grip fighting needed before clearing triangle
 
-- [[Frame and Shrimp to Guard]] - Related escape movement - shares hip escape mechanics
+- [[Transitions/Frame and Shrimp to Guard]] - Related escape movement - shares hip escape mechanics
 
 
 </section>

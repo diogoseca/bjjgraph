@@ -158,7 +158,7 @@ Effective response to hand fighting requires understanding the grip hierarchy fr
 
 Advanced back controllers use hand fighting exchanges as opportunities rather than obstacles. Each time the bottom player commits both hands to one arm, their body becomes more vulnerable to positional adjustments, gift wrap entries, and alternative submission angles. By threatening multiple attacks and forcing the bottom player to constantly redirect their hand fighting, you drain their grip endurance and mental energy until defensive errors create finishing opportunities.
 
-**Opponent's Starting Position**: [[Back Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Bottom)
 
 </section>
 
@@ -201,7 +201,7 @@ Advanced back controllers use hand fighting exchanges as opportunities rather th
 ### 2. Abandon choke attempt temporarily and transition to gift wrap control by trapping opponent's near arm across their body using your control arm
 
 - **When to use**: When opponent's two-on-one defense is too strong to overcome through grip fighting and they are focused exclusively on your choking arm
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Traps one of their defensive arms, breaking the two-on-one structure and opening clear path to choke or armbar with reduced defensive capability
 - **Risk**: Requires releasing choking arm pressure briefly to establish gift wrap, which opponent may use to initiate hip escape
 
@@ -215,7 +215,7 @@ Advanced back controllers use hand fighting exchanges as opportunities rather th
 ### 4. Tighten hooks or body triangle squeeze while maintaining seatbelt to exhaust opponent's grip endurance through sustained compression
 
 - **When to use**: When opponent has strong hand fighting but you have secure lower body control with body triangle or deep hooks
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Opponent's grip strength deteriorates over 30-60 seconds of sustained squeeze pressure, eventually allowing your choking arm to advance past weakened defense
 - **Risk**: Extended squeezing also fatigues your legs and core, and patient opponents may use the time to work incremental escape positioning
 
@@ -227,7 +227,7 @@ Advanced back controllers use hand fighting exchanges as opportunities rather th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Maintain hooks and harness control while defeating hand fighting through arm switches, re-pummel sequences, and grip fighting. Use body compression to fatigue opponent's grip endurance. Cycle between choking arm attacks and positional adjustments to keep opponent reactive and prevent them from building escape momentum.
 

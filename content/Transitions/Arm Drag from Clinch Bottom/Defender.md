@@ -146,7 +146,7 @@ description: "Complete guide to defending the arm drag from clinch. Recognition 
 
 As the defender against the arm drag from clinch bottom, your primary objective is to prevent the attacker from accessing your back by maintaining arm discipline, hip alignment, and reactive footwork. The arm drag is dangerous because it converts a single moment of arm extension into a complete positional reversal, taking you from a dominant or neutral clinch position to giving up back control. Your defense operates on multiple layers: first, preventing the grip establishment by maintaining disciplined arm positioning; second, breaking the two-on-one grip immediately if established; third, re-squaring your hips through footwork if the attacker clears your centerline; and fourth, executing counter-attacks if the defender overcommits to the drag. Understanding when and how the arm drag is initiated allows you to shut it down at the earliest possible stage, where defense requires the least effort and carries the lowest risk.
 
-**Opponent's Starting Position**: [[Clinch]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the arm drag from clinch bottom, your primary objective 
 ### 1. Immediate arm retraction and grip strip
 
 - **When to use**: The moment you feel both of the opponent's hands controlling your arm in a two-on-one configuration, before the pull has fully developed
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Resets to neutral clinch with the opponent having wasted their setup, often giving you a momentary grip fighting advantage
 - **Risk**: If the retraction is too slow, the opponent will have already initiated the pull and step, making retraction ineffective
 
 ### 2. Hip re-squaring with footwork to face opponent
 
 - **When to use**: When the opponent has initiated the pull and begun stepping laterally, but has not yet established chest-to-back contact
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: You face the opponent directly, nullifying their angular advantage and resetting the clinch engagement
 - **Risk**: If too slow, the opponent clears your back line before you can re-square, and the footwork chase accelerates their access to your back
 
 ### 3. Counter takedown into the drag direction
 
 - **When to use**: When the opponent overcommits to the lateral step and their hips are exposed during the transition phase of the drag
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You achieve a takedown by shooting into the opponent's exposed hip as they step laterally, landing in top position
 - **Risk**: If the opponent reads the counter shot, they can sprawl and complete the back take more easily since your level drop assists their angle change
 
 ### 4. Arm circle and underhook recovery
 
 - **When to use**: When the opponent has a two-on-one grip but has not yet begun the pull, giving you a brief window to rotate your controlled arm in a circular motion to break their grip
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Breaks the two-on-one grip and can establish an underhook on the side where you freed your arm, giving you inside position
 - **Risk**: If the circle is incomplete, the opponent adjusts their grip and initiates the drag with your arm partially extended from the failed circle
 
@@ -217,11 +217,11 @@ As the defender against the arm drag from clinch bottom, your primary objective 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Prevent the drag from developing by maintaining arm discipline with elbows tight, stripping two-on-one grips immediately upon recognition, and re-squaring your hips through reactive footwork whenever the opponent moves laterally. Return to neutral clinch grip fighting with the advantage of knowing the opponent's preferred attack.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 While this outcome is listed as a counter from the attacker's perspective, it represents you achieving a takedown on the overcommitting attacker. When the opponent loads their weight onto the lateral step during the drag, shoot a single leg or double leg into their exposed near hip. Their commitment to the lateral movement makes them vulnerable to being taken down in the direction they are already moving.
 

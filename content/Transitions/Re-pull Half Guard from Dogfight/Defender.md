@@ -138,7 +138,7 @@ description: "Defend against the Re-pull Half Guard from Dogfight. Learn to capi
 
 As the top player in dogfight, your opponent's attempt to re-pull half guard represents a critical window of opportunity. During the transition from kneeling to supine, the bottom player is temporarily between positions—too committed to maintain dogfight pressure and not yet settled in organized half guard. Your objective is to either prevent the clean re-establishment of half guard by following them down with heavy pressure before frames solidify, or capitalize on the transitional chaos to advance your position toward side control. Recognizing the re-pull early and responding immediately is essential, as a clean re-pull that lands in knee shield half guard resets the positional exchange and forces you to restart your passing sequence from scratch. The best defense against the re-pull is actually preventing the conditions that trigger it—maintaining such dominant pressure that the bottom player cannot execute a controlled retreat.
 
-**Opponent's Starting Position**: [[Dogfight Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Dogfight Position]] (Bottom)
 
 </section>
 
@@ -176,28 +176,28 @@ As the top player in dogfight, your opponent's attempt to re-pull half guard rep
 ### 1. Drive forward through the frame attempt with chest and shoulder pressure, preventing knee shield deployment
 
 - **When to use**: Immediately when you detect the re-pull initiation, before the knee shield is fully inserted and the bottom player has posted their hand
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Bottom player lands flat on their back without frames, giving you dominant half guard top with crossface and passing opportunities
 - **Risk**: If they successfully redirect your forward energy, you may overcommit and expose yourself to a deep half entry or sweep
 
 ### 2. Strip the knee shield by swimming your arm inside and driving the knee to the mat while closing distance
 
 - **When to use**: When the bottom player has managed to insert the knee shield but has not yet completed the descent or established their full grip sequence
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: You remove the primary frame and can establish chest-to-chest pressure in a dominant top half guard position
 - **Risk**: The frame-stripping movement may create space for the bottom player to re-insert the shield or transition to a different guard variation
 
 ### 3. Circle the trapped leg free during the transitional moment when the leg entanglement loosens
 
 - **When to use**: During the mid-descent phase when the bottom player's squeeze pressure on your trapped leg naturally decreases as their body configuration changes from kneeling to supine
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Complete guard pass to side control by extracting the trapped leg before the bottom player can re-establish the entanglement
 - **Risk**: If the extraction attempt fails, you may end up in a worse passing position with the bottom player's guard now organized
 
 ### 4. Maintain crossface and whizzer control while hip-switching to a knee slice passing angle as they descend
 
 - **When to use**: When you have dominant upper body control and the bottom player is descending despite your pressure, allowing you to convert their retreat into a passing opportunity
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You complete a knee slice pass using the momentum of their retreat combined with your maintained upper body control
 - **Risk**: The angle change may allow the bottom player to recover an underhook or insert frames from the new configuration
 
@@ -209,11 +209,11 @@ As the top player in dogfight, your opponent's attempt to re-pull half guard rep
 
 ## Best-Case Outcomes for Defender
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Follow the bottom player's descent immediately with chest and shoulder pressure before they can insert knee shield or establish side angle. Drive your crossface shoulder into their jaw while sinking your weight through your hips into their torso, pinning them flat on their back without defensive frames.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Capitalize on the transitional loosening of the leg entanglement during the descent by circling your trapped leg free. Combine the extraction with maintained upper body control to complete the pass before the bottom player can re-establish any guard configuration.
 

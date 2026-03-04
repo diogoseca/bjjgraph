@@ -26,8 +26,8 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint
-**Starting Position**: [[Gift Wrap]]
-**From Position**: [[Gift Wrap]] (Top)
+**Starting Position**: [[Positions/Gift Wrap]]
+**From Position**: [[Positions/Gift Wrap]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -77,8 +77,8 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Gift Wrap]] | 30% |
-| Counter | [[Closed Guard]] | 20% |
+| Failure | [[Positions/Gift Wrap]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -224,10 +224,10 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 
 ## From Which Positions?
 
-- [[Gift Wrap]]
-- [[Mount]]
-- [[Back Control]]
-- [[Technical Mount]]
+- [[Positions/Gift Wrap]]
+- [[Positions/Mount]]
+- [[Positions/Back Control]]
+- [[Positions/Mount/Technical Mount]]
 
 
 </section>
@@ -236,14 +236,14 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 
 ## Related Submissions
 
-- [[Armbar from Mount]]
-- [[Armbar from Back]]
-- [[Armbar from Technical Mount]]
-- [[Armbar from S Mount]]
-- [[Armbar from Crucifix]]
-- [[Americana]]
-- [[Bow and Arrow from Seat Belt]]
-- [[Choke from Crucifix]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Armbar from Back]]
+- [[Submissions/Armbar from Technical Mount]]
+- [[Submissions/Armbar from S Mount]]
+- [[Transitions/Armbar from Crucifix]]
+- [[Transitions/Americana]]
+- [[Submissions/Bow and Arrow from Seat Belt]]
+- [[Transitions/Choke from Crucifix]]
 
 
 </section>
@@ -252,14 +252,14 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 
 ## Additional Related Content
 
-- [[Gift Wrap]] - Primary source position providing the arm trap control that enables this submission
-- [[Back Control]] - Parent position from which gift wrap control is most commonly established
-- [[Mount]] - Alternative base position for executing the gift wrap armbar after positional advancement
-- [[Technical Mount]] - Transitional position that facilitates the hip angle change needed for armbar entry
-- [[Armbar from Mount]] - Related armbar technique sharing similar finishing mechanics from a mounted position
-- [[Armbar from Back]] - Related armbar from back control that chains with gift wrap when arm trap is available
-- [[Crucifix]] - Alternative arm control position that creates similar isolation for armbar attacks
-- [[Armbar Control]] - Control position reached during execution when the armbar is partially locked but not yet finished
+- [[Positions/Gift Wrap]] - Primary source position providing the arm trap control that enables this submission
+- [[Positions/Back Control]] - Parent position from which gift wrap control is most commonly established
+- [[Positions/Mount]] - Alternative base position for executing the gift wrap armbar after positional advancement
+- [[Positions/Mount/Technical Mount]] - Transitional position that facilitates the hip angle change needed for armbar entry
+- [[Submissions/Armbar from Mount]] - Related armbar technique sharing similar finishing mechanics from a mounted position
+- [[Submissions/Armbar from Back]] - Related armbar from back control that chains with gift wrap when arm trap is available
+- [[Positions/Crucifix]] - Alternative arm control position that creates similar isolation for armbar attacks
+- [[Positions/Armbar Control]] - Control position reached during execution when the armbar is partially locked but not yet finished
 
 
 </section>

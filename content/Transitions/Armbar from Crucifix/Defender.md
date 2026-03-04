@@ -154,7 +154,7 @@ description: "Defend the Armbar from Crucifix in BJJ. Complete defensive guide c
 
 Defending the armbar from crucifix requires immediate recognition of the transition from choke threat to arm attack and decisive protective action before the arm is fully isolated. As the defender, your primary challenge is that one arm is already trapped in the opponent's leg configuration, severely limiting your ability to use both hands for defense. When the attacker shifts from threatening the neck to attacking your free arm, you must recognize the change in threat vector and adjust your defensive priorities accordingly. The critical window for successful defense occurs during the attacker's transition—while they reposition their body and adjust their grip from choke setup to armbar configuration, their control briefly loosens, creating your best opportunity to retract the arm or disrupt the position. Defense follows a strict hierarchy: prevent arm isolation first, break grips if captured, resist extension if the armbar is established, and accept positional regression to back control if the crucifix armbar becomes untenable rather than allowing the submission to complete.
 
-**Opponent's Starting Position**: [[Crucifix]] (Top)
+**Opponent's Starting Position**: [[Positions/Crucifix]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the armbar from crucifix requires immediate recognition of the transit
 ### 1. Immediately retract free arm and clasp hands together in a ball defense
 
 - **When to use**: At the first recognition cue that the attacker is transitioning from choke to armbar—before wrist control is established
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Armbar attempt is denied as the arm cannot be isolated; attacker must return to choke threat or attempt grip break, buying time
 - **Risk**: If the clasp is broken, the arm may end up in a worse position than the original neck defense posture
 
 ### 2. Bridge and roll toward the trapped arm side during attacker's hip repositioning
 
 - **When to use**: During the attacker's transition phase when they are walking their hips and have reduced weight commitment to control
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Disrupts the crucifix configuration entirely, forcing the attacker back to standard back control where both your arms are free to defend
 - **Risk**: If the bridge fails, the attacker may use the momentum to advance the armbar position further
 
 ### 3. Turn into the attacker and extract trapped arm during armbar transition
 
 - **When to use**: When the attacker commits heavily to the armbar angle and loosens their leg triangle to reposition
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Breaks the crucifix entirely as the turn disrupts both the leg triangle and the armbar angle, reverting to back control
 - **Risk**: If the turn is incomplete, the attacker may transition to a mounted armbar with even stronger finishing leverage
 
 ### 4. Grip fight on captured wrist to prevent arm straightening and maintain bent elbow
 
 - **When to use**: When the attacker has wrist control but has not yet fully extended the arm or secured the leg-over-face position
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Prevents the armbar finish by keeping the elbow bent; attacker cannot apply hyperextension without a straight arm
 - **Risk**: Energy-intensive defense that delays but may not prevent the armbar if the attacker has superior grip strength
 
@@ -225,7 +225,7 @@ Defending the armbar from crucifix requires immediate recognition of the transit
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Time a bridge and hip bump during the attacker's transition phase when they are repositioning their hips for the armbar angle. The hip walk loosens the leg triangle momentarily—use this window to turn toward the attacker and extract the trapped arm, collapsing the crucifix into standard back control where both arms are available for defense.
 

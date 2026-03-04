@@ -21,7 +21,7 @@ The technique's strategic value lies in its ability to bypass the guard player's
 
 However, the backstep carries inherent risk that distinguishes it from safer passing options. The rotational movement temporarily exposes the passer's back to the guard player, creating a window for back takes through inversion or hip-following mechanics. This risk-reward dynamic makes timing and full commitment critical: a half-committed backstep is substantially more dangerous than no backstep at all, as it creates the exposure without achieving the hook clearance. Additionally, alert guard players will transition to Reverse De La Riva during the backstep, inserting an opposite-side hook that must be addressed before the pass can be completed. Successful backstep passers develop precise timing, explosive hip rotation, immediate positional consolidation, and contingency plans for RDLR transitions to minimize the vulnerability window and capitalize on the hook clearance.
 
-**From Position**: [[De La Riva Guard]] (Top)
+**From Position**: [[Positions/De La Riva Guard]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ However, the backstep carries inherent risk that distinguishes it from safer pas
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Headquarters Position]] | 45% |
-| Failure | [[De La Riva Guard]] | 25% |
-| Failure | [[Reverse De La Riva Guard]] | 15% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Headquarters Position]] | 45% |
+| Failure | [[Positions/De La Riva Guard]] | 25% |
+| Failure | [[Positions/De La Riva Guard/Reverse De La Riva Guard]] | 15% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -190,25 +190,25 @@ The backstep from De La Riva integrates into the broader DLR passing system as a
 ## Related Techniques
 
 
-- [[De La Riva Guard]] - Source position where this transition initiates, with the passer facing an established DLR hook and grip system
+- [[Positions/De La Riva Guard]] - Source position where this transition initiates, with the passer facing an established DLR hook and grip system
 
-- [[Headquarters Position]] - Primary success destination after clearing the DLR hook, providing a neutral platform for follow-up passing
+- [[Positions/Headquarters Position]] - Primary success destination after clearing the DLR hook, providing a neutral platform for follow-up passing
 
-- [[Reverse De La Riva Guard]] - Common guard transition when the backstep is partially defended and the guard player inserts an opposite-side hook
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Common guard transition when the backstep is partially defended and the guard player inserts an opposite-side hook
 
-- [[Back Control]] - Counter outcome when the guard player capitalizes on the rotational exposure to take the passer's back
+- [[Positions/Back Control]] - Counter outcome when the guard player capitalizes on the rotational exposure to take the passer's back
 
-- [[Back Step Pass]] - Parent passing concept sharing the same fundamental backstep rotational mechanic applied across guard positions
+- [[Transitions/Back Step Pass]] - Parent passing concept sharing the same fundamental backstep rotational mechanic applied across guard positions
 
-- [[Toreando Pass]] - Complementary DLR passing technique creating a two-directional threat when combined with the backstep
+- [[Transitions/Toreando Pass]] - Complementary DLR passing technique creating a two-directional threat when combined with the backstep
 
-- [[Leg Drag Pass]] - Follow-up passing option from headquarters after a successful backstep, or direct variant combining backstep with leg drag grip
+- [[Transitions/Leg Drag Pass]] - Follow-up passing option from headquarters after a successful backstep, or direct variant combining backstep with leg drag grip
 
-- [[Knee Slice Pass]] - Follow-up passing technique from headquarters position after the backstep clears the DLR hook
+- [[Transitions/Knee Slice Pass]] - Follow-up passing technique from headquarters position after the backstep clears the DLR hook
 
-- [[Berimbolo Entry]] - Primary counter-attack threat from the DLR guard player during backstep rotation, requiring awareness and defense
+- [[Transitions/Berimbolo Entry]] - Primary counter-attack threat from the DLR guard player during backstep rotation, requiring awareness and defense
 
-- [[Backstep from Deep Half]] - Related backstep variation from a different guard position sharing the same rotational passing mechanics
+- [[Transitions/Backstep from Deep Half]] - Related backstep variation from a different guard position sharing the same rotational passing mechanics
 
 
 </section>

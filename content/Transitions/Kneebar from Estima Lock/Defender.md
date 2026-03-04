@@ -154,7 +154,7 @@ description: "Defend the Kneebar from Estima Lock transition in BJJ. Recognition
 
 As the defender against the Kneebar from Estima Lock, you are already in a compromised leg entanglement position and must now address a threat vector change from your ankle to your knee. The critical defensive window occurs during the attacker's transition—the grip change and hip switch—when their control is momentarily less consolidated than in either the Estima Lock or the completed kneebar. Your primary objective is to prevent the attacker from establishing their hips across your knee joint by using your free leg, hip movement, and grip fighting to disrupt the transition before consolidation. If the attacker completes the kneebar entry, your defensive options narrow significantly and the focus shifts to preventing hyperextension through knee bending, rotation, and systematic escape. Understanding the transition mechanics from the attacker's perspective allows you to identify precise windows where defensive actions are most effective and where attempting to defend is futile—requiring immediate tap to preserve joint health.
 
-**Opponent's Starting Position**: [[Estima Lock]] (Top)
+**Opponent's Starting Position**: [[Positions/Estima Lock]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ As the defender against the Kneebar from Estima Lock, you are already in a compr
 ### 1. Post free leg on attacker's hip during the grip change to prevent hip switch completion
 
 - **When to use**: Immediately upon recognizing the foot grip release—this is the highest-percentage defensive window before the attacker establishes thigh control
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Attacker cannot complete the hip switch and you create enough distance to extract your leg and recover to open guard
 - **Risk**: If the attacker traps your free leg or works around the post, you may end up with both legs controlled in a worse position
 
 ### 2. Bend knee aggressively and turn toward the attacker to eliminate hyperextension angle
 
 - **When to use**: When the attacker has already arrived at the knee but has not yet fully clamped their legs around your leg
-- **Targets**: [[Estima Lock]]
+- **Targets**: [[Positions/Estima Lock]]
 - **If successful**: The bent knee prevents submission completion and your rotation creates a scramble where the attacker may revert to Estima Lock control or lose leg control entirely
 - **Risk**: If you rotate into the attacker's leg clamp, you may tighten their kneebar control rather than escaping it
 
 ### 3. Grab attacker's top leg and pry it over your hip to break the leg clamp while scooting hips away
 
 - **When to use**: When the attacker has established kneebar position but their leg clamp is not yet fully consolidated
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Breaking the leg clamp removes the primary control mechanism and allows you to extract your leg from the kneebar position entirely
 - **Risk**: Focusing on the leg clamp while the attacker bridges may result in taking hyperextension pressure before completing the escape
 
 ### 4. Sit up and establish grips on the attacker's body during the transition window
 
 - **When to use**: During the grip change when the attacker releases your foot and before they complete the hip switch
-- **Targets**: [[Estima Lock]]
+- **Targets**: [[Positions/Estima Lock]]
 - **If successful**: Your grips on the attacker's gi or body slow the transition and allow you to pull your leg free or re-enter a less dangerous position
 - **Risk**: If the attacker completes the hip switch despite your grips, you may be in a seated position with a completed kneebar, making the tap more urgent
 
@@ -226,11 +226,11 @@ As the defender against the Kneebar from Estima Lock, you are already in a compr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Post your free leg on the attacker's hip immediately when you feel the foot grip release, push forcefully to create distance, and extract your trapped leg before the attacker can establish thigh control. Follow with guard recovery to open guard.
 
-### → [[Estima Lock]]
+### → [[Positions/Estima Lock]]
 
 Bend your knee aggressively and rotate toward the attacker during the hip switch to prevent hyperextension angle establishment. The attacker may revert to Estima Lock control, which is a less immediately dangerous position than completed kneebar control.
 

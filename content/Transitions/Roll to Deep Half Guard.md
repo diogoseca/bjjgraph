@@ -21,7 +21,7 @@ Unlike sitting to half guard or granby rolling to closed guard, the deep half en
 
 This transition is particularly valuable when the buggy choke grips are established but body pressure hasn't fully consolidated. The attacker's commitment to finishing the choke creates windows for explosive rotational escapes that would not exist against a more positionally-focused opponent. Mastering this technique adds a counterattacking dimension to buggy choke defense, punishing overly aggressive finishing attempts.
 
-**From Position**: [[Buggy Choke]] (Bottom)
+**From Position**: [[Positions/Buggy Choke]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition is particularly valuable when the buggy choke grips are establis
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Deep Half Guard]] | 55% |
-| Failure | [[Buggy Choke]] | 25% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Half Guard/Deep Half Guard]] | 55% |
+| Failure | [[Positions/Buggy Choke]] | 25% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Roll to Deep Half Guard connects the defensive turtle and buggy choke system
 ## Related Techniques
 
 
-- [[Buggy Choke]] - Starting position - the attack being escaped
+- [[Positions/Buggy Choke]] - Starting position - the attack being escaped
 
-- [[Deep Half Guard]] - Target position - successful escape destination with sweep opportunities
+- [[Positions/Half Guard/Deep Half Guard]] - Target position - successful escape destination with sweep opportunities
 
-- [[Turtle]] - Related defensive position where buggy choke attacks typically initiate
+- [[Positions/Turtle]] - Related defensive position where buggy choke attacks typically initiate
 
-- [[Back Control]] - Counter position if opponent releases choke and takes back during roll
+- [[Positions/Back Control]] - Counter position if opponent releases choke and takes back during roll
 
-- [[Half Guard]] - Alternative escape destination with shallow roll variant
+- [[Positions/Half Guard]] - Alternative escape destination with shallow roll variant
 
-- [[Single Leg X-Guard]] - Alternative target when opponent posts wide to prevent deep half entry
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative target when opponent posts wide to prevent deep half entry
 
-- [[Waiter Sweep]] - Follow-up sweep option from deep half guard after successful entry
+- [[Transitions/Waiter Sweep]] - Follow-up sweep option from deep half guard after successful entry
 
-- [[Granby Roll to Guard]] - Alternative rolling escape from buggy choke bottom position
+- [[Transitions/Granby Roll to Guard]] - Alternative rolling escape from buggy choke bottom position
 
-- [[Sit to Half Guard]] - Alternative escape option when rolling angle is not available
+- [[Transitions/Sit to Half Guard]] - Alternative escape option when rolling angle is not available
 
-- [[Old School Sweep]] - Classic deep half sweep available after successful entry
+- [[Transitions/Old School Sweep]] - Classic deep half sweep available after successful entry
 
 
 </section>

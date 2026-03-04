@@ -154,7 +154,7 @@ description: "Learn to prevent and counter the top player's posture recovery fro
 
 As the defender against Posture Recovery from Zombie, you are the Zombie bottom player working to maintain your hard-won positional control against the top player's systematic recovery attempts. Your lockdown and underhook have broken the opponent's posture, and your goal is to keep them broken down while threatening sweeps and submissions that punish recovery attempts. Effective defense requires recognizing the early stages of posture recovery and immediately countering with increased lockdown tension, grip adjustments, and offensive threats that force the top player to abandon their recovery and address immediate dangers. The defender who remains passive during the top player's recovery will inevitably lose position, but the defender who actively threatens during recovery attempts creates the dilemmas that make the Zombie system so effective.
 
-**Opponent's Starting Position**: [[Zombie]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Zombie]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against Posture Recovery from Zombie, you are the Zombie bottom 
 ### 1. Increase lockdown stretch and initiate Old School Sweep
 
 - **When to use**: When you feel the top player beginning to extend their spine or post their free leg wide, indicating the start of posture recovery
-- **Targets**: [[Zombie]]
+- **Targets**: [[Positions/Rubber Guard/Zombie]]
 - **If successful**: Sweeps the top player or forces them to abandon recovery and fight the sweep, resetting to broken posture in Zombie
 - **Risk**: If the sweep fails and you have extended your lockdown fully, you may create space that helps their recovery
 
 ### 2. Deepen underhook and pull opponent's chest to yours while tightening lockdown
 
 - **When to use**: When the top player first begins establishing crossface, before they have settled their weight forward
-- **Targets**: [[Zombie]]
+- **Targets**: [[Positions/Rubber Guard/Zombie]]
 - **If successful**: Re-breaks the opponent's posture and maintains the lockdown control position with dominant grips
 - **Risk**: If their crossface is already deep, pulling into it may worsen your head position
 
 ### 3. Release lockdown and shoot hips back to recover closed guard
 
 - **When to use**: When you feel the lockdown losing effectiveness and the opponent's posture recovery is well advanced, making continued lockdown defense futile
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Transitions to closed guard where you have familiar offensive options rather than fighting a losing lockdown battle
 - **Risk**: If the opponent reads the transition, they may immediately pass before you can close your guard
 
 ### 4. Transition to Electric Chair attack by threading arm between opponent's legs
 
 - **When to use**: When the top player creates space between their legs during recovery, particularly during the spine extension phase
-- **Targets**: [[Zombie]]
+- **Targets**: [[Positions/Rubber Guard/Zombie]]
 - **If successful**: Forces the top player to completely abandon recovery to defend the submission threat, maintaining your positional advantage
 - **Risk**: Requires releasing some upper body control to attack the legs, potentially accelerating their posture recovery if the attack fails
 
@@ -225,11 +225,11 @@ As the defender against Posture Recovery from Zombie, you are the Zombie bottom 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Zombie]]
+### → [[Positions/Rubber Guard/Zombie]]
 
 Maintain aggressive lockdown tension while threatening sweeps whenever the top player shifts weight for recovery. Use the underhook to re-break their posture each time they begin extending. The combination of lockdown stretch, underhook pull, and sweep threats creates a system that forces the top player back to broken posture.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the lockdown becomes untenable because the top player has advanced their recovery significantly, strategically release the lockdown and immediately shoot your hips back to wrap your legs around their waist. Time this release with a hip bump or push from your frames to create the space needed to close your guard before they can react.
 

@@ -146,7 +146,7 @@ description: "Master defending the Consolidation to Knee on Belly transition. Le
 
 Defending the Consolidation to Knee on Belly transition requires recognizing the brief moment when the top player sacrifices chest pressure to elevate their hips for knee insertion. This transitional window is paradoxically both the most dangerous moment and the best escape opportunity: if the defender misses it, they end up under the crushing concentrated pressure of knee on belly, but the top player's control is momentarily weakened during the movement. The defender must develop sensitivity to the attacker's weight shifts, breathing patterns, and grip adjustments that signal the impending transition, then execute practiced defensive responses that exploit the inherent vulnerability of positional advancement. Success requires proactive frame creation before the knee lands rather than reactive escape attempts after the position is established.
 
-**Opponent's Starting Position**: [[Side Control Consolidation]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Side Control Consolidation]] (Top)
 
 </section>
 
@@ -183,28 +183,28 @@ Defending the Consolidation to Knee on Belly transition requires recognizing the
 ### 1. Insert near-side elbow frame between bodies during the hip elevation phase
 
 - **When to use**: The instant you feel the opponent's chest lift off your torso as they begin elevating their hips for knee insertion
-- **Targets**: [[Side Control Consolidation]]
+- **Targets**: [[Positions/Side Control/Side Control Consolidation]]
 - **If successful**: Prevents the knee from landing cleanly on your torso and forces the opponent back to side control consolidation, buying time and resetting the sequence
 - **Risk**: If mistimed or the frame is weak, the knee drives through the frame and the arm becomes trapped under the knee, worsening your position
 
 ### 2. Hip escape and insert knee shield during the transition window
 
 - **When to use**: During the brief gap between chest lift and knee placement when overall pressure is at its lowest point in the sequence
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover to half guard with knee shield established, significantly improving defensive position and creating offensive sweep and back take options
 - **Risk**: Failed hip escape with hips exposed and no guard structure may accelerate a mount transition instead of knee on belly
 
 ### 3. Push knee laterally off hip line with far-side frame immediately after placement
 
 - **When to use**: Immediately after the knee lands on your torso, before the opponent can fully establish wide base and dual grip control
-- **Targets**: [[Side Control Consolidation]]
+- **Targets**: [[Positions/Side Control/Side Control Consolidation]]
 - **If successful**: Displaces the knee from your torso and forces the opponent to settle back to side control or waste time attempting re-insertion
 - **Risk**: Extended pushing arm becomes vulnerable to armbar or kimura if the opponent captures your wrist instead of recovering position
 
 ### 4. Bridge and turn toward the opponent to prevent knee from settling with full weight
 
 - **When to use**: As soon as the knee contacts your torso, before the opponent establishes the wide base leg and secures their collar and pants grips
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough space and body angle to insert a knee between your bodies and recover half guard before the opponent can stabilize
 - **Risk**: If the opponent maintains knee position and follows your turning momentum, they may transition directly to mount or expose your back
 
@@ -216,11 +216,11 @@ Defending the Consolidation to Knee on Belly transition requires recognizing the
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your hip escape to the exact moment the top player lifts their chest to insert the knee. Bridge toward them to create an angle, then shrimp your hips away and insert your near-side knee between your bodies. Immediately establish a knee shield to prevent re-passing. This exploits the transition's inherent vulnerability: the brief moment when neither chest pressure nor knee pressure is fully established.
 
-### → [[Side Control Consolidation]]
+### → [[Positions/Side Control/Side Control Consolidation]]
 
 Create a strong near-side elbow frame the instant you detect the opponent's hip elevation. The frame prevents clean knee insertion, and combined with turning your body slightly away, forces the opponent to abandon the transition attempt and re-settle into side control. While this returns you to a disadvantageous position, you have successfully prevented the positional upgrade and can continue working your side control escape plan.
 

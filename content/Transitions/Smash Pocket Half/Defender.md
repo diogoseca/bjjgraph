@@ -146,7 +146,7 @@ description: "Learn to defend the Smash Pocket Half in BJJ. Recognition cues, es
 
 Defending the Smash Pocket Half requires understanding the sequential nature of the attack and intervening at the earliest possible stage. As the bottom player in Pocket Half Guard, your pocket structure is your primary offensive weapon - the deep underhook and hip frame create sweeping leverage and prevent the top player from advancing. When the top player initiates the smash, your defensive priority is maintaining the integrity of the pocket structure by preserving your hip frame and underhook depth. Early recognition of the smash attempt allows you to counter before the progressive compression takes effect, either by threatening sweeps to force the top player to abandon pressure or by transitioning to alternative guard positions that nullify the smash approach.
 
-**Opponent's Starting Position**: [[Pocket Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Pocket Half Guard]] (Top)
 
 </section>
 
@@ -183,28 +183,28 @@ Defending the Smash Pocket Half requires understanding the sequential nature of 
 ### 1. Threaten the Old School sweep by pulling with underhook and coming up to elbow
 
 - **When to use**: Early in the smash sequence before chest pressure becomes fully committed and while your hip frame is still intact
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Top player must widen base and lift pressure to defend the sweep, abandoning the smash and potentially getting swept
 - **Risk**: If the sweep attempt fails and top player maintains pressure, you may lose the underhook position during the attempt
 
 ### 2. Scoot hips underneath for Deep Half Guard entry using the forward pressure
 
 - **When to use**: When the top player commits heavy forward pressure during the smash, redirecting their weight over your body
-- **Targets**: [[Pocket Half Guard]]
+- **Targets**: [[Positions/Half Guard/Pocket Half Guard]]
 - **If successful**: Transition to Deep Half Guard neutralizes the smash and establishes a new offensive position with strong sweeping options
 - **Risk**: If the entry is scouted, top player can sprawl and flatten you further, accelerating the smash completion
 
 ### 3. Reinforce underhook with head pressure and increase bottom leg frame resistance
 
 - **When to use**: When the smash is in its early stages and you still have sufficient pocket space and underhook depth to contest
-- **Targets**: [[Pocket Half Guard]]
+- **Targets**: [[Positions/Half Guard/Pocket Half Guard]]
 - **If successful**: Maintain pocket structure and force the top player to abandon the smash, returning to neutral Pocket Half Guard engagement
 - **Risk**: Energy-intensive approach that may eventually fail against persistent pressure, leaving you fatigued in a compromised position
 
 ### 4. Bridge explosively and recover angle before pocket collapses
 
 - **When to use**: When your hip frame is partially collapsed but you still have underhook control and bridging ability
-- **Targets**: [[Pocket Half Guard]]
+- **Targets**: [[Positions/Half Guard/Pocket Half Guard]]
 - **If successful**: Creates space to re-establish hip frame and pocket distance, resetting the position to your preferred engagement
 - **Risk**: Bridges are energetically expensive and if the top player rides it effectively, you waste energy without meaningful position recovery
 
@@ -216,11 +216,11 @@ Defending the Smash Pocket Half requires understanding the sequential nature of 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your Old School sweep threat when the top player commits their weight forward for the smash. Use their forward momentum against them by pulling with the underhook while posting your free hand and coming up to your elbow. The top player's smash commitment makes them vulnerable to being swept because their weight is already moving in the direction you need for the sweep.
 
-### → [[Pocket Half Guard]]
+### → [[Positions/Half Guard/Pocket Half Guard]]
 
 Defend the smash in its early stages by reinforcing your underhook depth and maintaining aggressive hip frame pressure. Use head pressure against the opponent's ribs combined with constant pulling on the underhook to prevent them from establishing the crossface and collapsing the pocket. If you can stall their progression through the first two steps, most opponents will abandon the smash and return to other passing approaches.
 

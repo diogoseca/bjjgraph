@@ -158,7 +158,7 @@ Defending the Breadcutter Choke requires early recognition and immediate action,
 
 When the grip has already been secured, the defender must address both the collar pressure and the attacker's body positioning simultaneously. Simply pulling at the choking hand without disrupting the attacker's hip angle and chest pressure will fail, as the body weight driving the choke is far stronger than arm-versus-arm grip fighting. Successful defense requires creating space, disrupting the attacker's angle, and transitioning to a position where the collar no longer has effective cutting pressure across the neck. The defender should chain defensive actions rather than committing to a single escape attempt, using the attacker's adjustments as windows for secondary escape directions.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 
 </section>
@@ -197,28 +197,28 @@ When the grip has already been secured, the defender must address both the colla
 ### 1. Strip the collar grip with two-on-one hand fighting before the choke is set
 
 - **When to use**: As soon as you feel opponent's fingers entering your collar, before they can feed the collar across your neck and establish body angle
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Attacker loses submission threat and must re-establish grip or transition to different attack, giving you time to escape turtle
 - **Risk**: If you commit both hands to grip stripping, you temporarily lose base and may be flattened or have your back taken
 
 ### 2. Roll toward the choking side while controlling the attacker's far arm to prevent them following
 
 - **When to use**: When the collar grip is partially established but the attacker has not yet secured far-side control with their non-choking hand
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You end up facing the attacker with collar grip neutralized, recovering to guard position
 - **Risk**: If attacker has far-side control established, the roll is blocked and you may tighten the choke by rolling into it
 
 ### 3. Sit back explosively toward guard while pulling the collar away from your neck with both hands
 
 - **When to use**: When attacker is committed to the choke from behind but has not locked body triangle or established hooks to prevent your hip movement
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover to guard position where the Breadcutter grip loses its finishing angle and effectiveness
 - **Risk**: Attacker may follow your sit-back and transition to full back control with hooks if you fail to establish guard frames
 
 ### 4. Turn into the attacker and drive forward to break the choking angle while establishing an underhook
 
 - **When to use**: When you can feel the attacker's weight committed to one side and their balance is compromised by their hip walk
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: The underhook disrupts the attacker's chest connection and collar angle, forcing them to reset or transition
 - **Risk**: Turning into the attacker may expose your neck further if the collar grip is already deeply set
 
@@ -242,11 +242,11 @@ When the grip has already been secured, the defender must address both the colla
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Strip the collar grip early before the choke is established, forcing the attacker to reset their attack and giving you time to improve position from turtle
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Roll toward the choking side or sit back into guard while stripping the collar, recovering to a neutral guard position where the Breadcutter is no longer effective
 

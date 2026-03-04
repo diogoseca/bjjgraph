@@ -21,7 +21,7 @@ Unlike explosive escape attempts that waste energy and often expose the neck to 
 
 The hip escape integrates into the broader back escape system as a medium-risk, medium-reward option that works reliably across all skill levels and body types. It complements other escape methods like the back door escape and turtle transitions, and can be chained with guard recovery techniques when the initial escape creates sufficient separation from the opponent's control. The technique is particularly effective against opponents who prioritize hook control over submission attacks, as the sequential hip scooting motion directly addresses the hook placement that anchors the back control position.
 
-**From Position**: [[Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ The hip escape integrates into the broader back escape system as a medium-risk, 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Back Control]] | 35% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Back Control]] | 35% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -191,25 +191,25 @@ The hip escape from back control occupies a central role in the defensive escape
 ## Related Techniques
 
 
-- [[Back Control]] - Starting position that this escape addresses, understanding its control layers is essential for systematic escape
+- [[Positions/Back Control]] - Starting position that this escape addresses, understanding its control layers is essential for systematic escape
 
-- [[Half Guard]] - Primary target position on successful escape, providing guard recovery and offensive options
+- [[Positions/Half Guard]] - Primary target position on successful escape, providing guard recovery and offensive options
 
-- [[Mount]] - Counter outcome when opponent follows your turn and transitions from back to mount position
+- [[Positions/Mount]] - Counter outcome when opponent follows your turn and transitions from back to mount position
 
-- [[Back Door Escape]] - Complementary escape technique from back control that addresses different control configurations
+- [[Transitions/Back Door Escape]] - Complementary escape technique from back control that addresses different control configurations
 
-- [[Elbow Escape from Back]] - Alternative escape method that can be chained with hip escape when initial attempt creates partial space
+- [[Transitions/Elbow Escape from Back]] - Alternative escape method that can be chained with hip escape when initial attempt creates partial space
 
-- [[Hand Fight to Turtle from Back]] - Related escape pathway using hand fighting to transition through turtle position
+- [[Transitions/Hand Fight to Turtle from Back]] - Related escape pathway using hand fighting to transition through turtle position
 
-- [[Body Triangle Escape to Half Guard]] - Specialized escape variant required when opponent uses body triangle instead of standard hooks
+- [[Transitions/Body Triangle Escape to Half Guard]] - Specialized escape variant required when opponent uses body triangle instead of standard hooks
 
-- [[Turtle]] - Intermediate escape position often reached during hip escape when full guard recovery is blocked
+- [[Positions/Turtle]] - Intermediate escape position often reached during hip escape when full guard recovery is blocked
 
-- [[Harness Escape to Half Guard]] - Related escape technique targeting the harness grip control that precedes hook removal
+- [[Transitions/Harness Escape to Half Guard]] - Related escape technique targeting the harness grip control that precedes hook removal
 
-- [[Seat Belt Control Back]] - Specific back control grip variation that the hip escape must address during seatbelt stripping phase
+- [[Positions/Back Control/Seat Belt Control Back]] - Specific back control grip variation that the hip escape must address during seatbelt stripping phase
 
 
 </section>

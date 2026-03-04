@@ -21,7 +21,7 @@ Strategically, this transition serves as a critical component of the back attack
 
 The key to success lies in recognizing the correct timing window: when the opponent commits both hands to neck defense, their arm structure becomes vulnerable. You must transition decisively, maintaining control throughout the movement from back to armbar position. Hesitation allows the opponent to retract their arms, recover posture, or exploit the positional instability inherent in standing transitions. Advanced practitioners chain this attack with choke attempts, creating a dilemma where defending one threat opens vulnerability to the other.
 
-**From Position**: [[Standing Back Control]] (Top)
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The key to success lies in recognizing the correct timing window: when the oppon
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 65% |
-| Failure | [[Standing Back Control]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Armbar Control]] | 65% |
+| Failure | [[Positions/Back Control/Standing Back Control]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Armbar from Back Transition integrates into the back attack system as a seco
 ## Related Techniques
 
 
-- [[Standing Back Control]] - Starting position for this transition
+- [[Positions/Back Control/Standing Back Control]] - Starting position for this transition
 
-- [[Armbar Control]] - Target position on successful execution
+- [[Positions/Armbar Control]] - Target position on successful execution
 
-- [[Armbar Finish]] - Completion technique from armbar control position
+- [[Transitions/Armbar Finish]] - Completion technique from armbar control position
 
-- [[Rear Naked Choke]] - Primary choking attack that creates the defensive reaction exploited by this transition
+- [[Transitions/Rear Naked Choke]] - Primary choking attack that creates the defensive reaction exploited by this transition
 
-- [[Back Control]] - Grounded version of starting position with similar armbar options
+- [[Positions/Back Control]] - Grounded version of starting position with similar armbar options
 
-- [[Armbar from Back]] - Similar submission from grounded back control
+- [[Submissions/Armbar from Back]] - Similar submission from grounded back control
 
-- [[Bow and Arrow Choke]] - Alternative submission threat from back control that chains with armbar
+- [[Transitions/Bow and Arrow Choke]] - Alternative submission threat from back control that chains with armbar
 
-- [[Turtle]] - Common result when opponent escapes during transition
+- [[Positions/Turtle]] - Common result when opponent escapes during transition
 
-- [[Belly Down Armbar]] - Variant finish when opponent stacks during transition
+- [[Submissions/Belly Down Armbar]] - Variant finish when opponent stacks during transition
 
-- [[Hitchhiker Escape]] - Primary escape the defender uses once armbar control is established
+- [[Transitions/Hitchhiker Escape]] - Primary escape the defender uses once armbar control is established
 
 
 </section>

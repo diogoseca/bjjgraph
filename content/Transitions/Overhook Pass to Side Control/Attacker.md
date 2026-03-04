@@ -180,7 +180,7 @@ description: "Master executing the Overhook Pass to Side Control. Systematic gui
 
 Executing the Overhook Pass to Side Control requires methodical progression through four distinct phases: maintaining the armpit seal, driving forward pressure to flatten the opponent, walking the hips around their guard structure, and consolidating into side control. The pass exploits the mechanical advantage of the overhook by keeping the opponent's arm trapped and elevated throughout the transition, denying them the frames and underhooks needed for effective guard retention. Unlike explosive passing attempts, this technique rewards patient pressure application and systematic positional improvement that gradually eliminates the opponent's defensive options until the pass becomes inevitable. The key insight is that the overhook has already done most of the work by removing one of the opponent's arms from the defensive equation, so the pass itself is about capitalizing on that structural advantage through correct hip positioning and weight distribution rather than speed or athleticism.
 
-**From Position**: [[Overhook Control]] (Top)
+**From Position**: [[Positions/Overhook Control]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Overhook Pass to Side Control requires methodical progression thro
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Overhook Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Overhook Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Overhook Pass to Side Control requires methodical progression thro
 
 ## Opponent Counters
 
-- **Opponent frames with free arm against your neck or shoulder to create distance and prevent flattening** (Effectiveness: High) - Your Response: Use your free hand to strip the frame by pulling their elbow toward their body, or swim your head under their arm to eliminate the frame. Increase hip pressure simultaneously to collapse their defensive structure before they can re-establish the frame. → Leads to [[Overhook Control]]
-- **Opponent hip escapes aggressively to create angle and recover guard before you can clear their legs** (Effectiveness: High) - Your Response: Follow their hip escape by adjusting your angle and maintaining the overhook seal. Use your free hand to block their far hip and prevent further shrimping. If they create significant angle, reset to overhook control and re-flatten them before attempting the pass again. → Leads to [[Overhook Control]]
-- **Opponent establishes an underhook on the non-overhook side and attempts to come up to dogfight position** (Effectiveness: Medium) - Your Response: Drive your shoulder weight down immediately to prevent them from sitting up. Use the overhook to pull their trapped arm across their body, disrupting their underhook leverage. If they achieve the underhook, transition to a crossface on that side or abandon the pass and work a Kimura on the trapped arm. → Leads to [[Overhook Control]]
-- **Opponent times a reversal by bridging into the overhook side during the passing transition when your base is narrow** (Effectiveness: Medium) - Your Response: Post your free hand on the mat immediately to prevent being rolled. Widen your base by stepping your far foot out during the passing sequence. If the reversal is well-timed, maintain the overhook even as you roll to prevent complete position loss and immediately work to re-establish top position. → Leads to [[Half Guard]]
+- **Opponent frames with free arm against your neck or shoulder to create distance and prevent flattening** (Effectiveness: High) - Your Response: Use your free hand to strip the frame by pulling their elbow toward their body, or swim your head under their arm to eliminate the frame. Increase hip pressure simultaneously to collapse their defensive structure before they can re-establish the frame. → Leads to [[Positions/Overhook Control]]
+- **Opponent hip escapes aggressively to create angle and recover guard before you can clear their legs** (Effectiveness: High) - Your Response: Follow their hip escape by adjusting your angle and maintaining the overhook seal. Use your free hand to block their far hip and prevent further shrimping. If they create significant angle, reset to overhook control and re-flatten them before attempting the pass again. → Leads to [[Positions/Overhook Control]]
+- **Opponent establishes an underhook on the non-overhook side and attempts to come up to dogfight position** (Effectiveness: Medium) - Your Response: Drive your shoulder weight down immediately to prevent them from sitting up. Use the overhook to pull their trapped arm across their body, disrupting their underhook leverage. If they achieve the underhook, transition to a crossface on that side or abandon the pass and work a Kimura on the trapped arm. → Leads to [[Positions/Overhook Control]]
+- **Opponent times a reversal by bridging into the overhook side during the passing transition when your base is narrow** (Effectiveness: Medium) - Your Response: Post your free hand on the mat immediately to prevent being rolled. Widen your base by stepping your far foot out during the passing sequence. If the reversal is well-timed, maintain the overhook even as you roll to prevent complete position loss and immediately work to re-establish top position. → Leads to [[Positions/Half Guard]]
 
 
 </section>

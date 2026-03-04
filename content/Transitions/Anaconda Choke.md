@@ -21,7 +21,7 @@ The technique typically emerges from front headlock positions, turtle attacks, o
 
 Strategically, the anaconda excels when opponents shoot takedowns or turn into you from turtle. The arm-in configuration makes the choke extremely difficult to defend once locked because the trapped arm actually reinforces the choking mechanism rather than creating space for escape. Understanding when to commit to the finish versus maintaining control position is crucial for high-percentage success.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the anaconda excels when opponents shoot takedowns or turn into y
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Anaconda Control]] | 60% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Anaconda Control]] | 60% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The anaconda choke sits at the intersection of front headlock control and submis
 ## Related Techniques
 
 
-- [[Anaconda Control]] - Control position achieved on successful entry, where finish is completed
+- [[Positions/Anaconda Control]] - Control position achieved on successful entry, where finish is completed
 
-- [[Front Headlock]] - Primary entry position for anaconda attacks
+- [[Positions/Front Headlock]] - Primary entry position for anaconda attacks
 
-- [[Darce Control]] - Sister control position with opposite arm threading direction
+- [[Positions/Darce Control]] - Sister control position with opposite arm threading direction
 
-- [[Darce Choke]] - Alternative submission when opponent pulls trapped arm free
+- [[Transitions/Darce Choke]] - Alternative submission when opponent pulls trapped arm free
 
-- [[Guillotine Choke]] - Alternative front headlock submission without arm-in configuration
+- [[Transitions/Guillotine Choke]] - Alternative front headlock submission without arm-in configuration
 
-- [[Turtle]] - Common entry position where anaconda attacks are initiated from top
+- [[Positions/Turtle]] - Common entry position where anaconda attacks are initiated from top
 
-- [[Anaconda Setup]] - Preparatory transition for establishing the anaconda grip
+- [[Transitions/Anaconda Setup]] - Preparatory transition for establishing the anaconda grip
 
-- [[Front Headlock to Anaconda]] - Direct transition pathway from front headlock to anaconda grip
+- [[Transitions/Front Headlock to Anaconda]] - Direct transition pathway from front headlock to anaconda grip
 
-- [[Side Control]] - Position achieved after successful gator roll-through
+- [[Positions/Side Control]] - Position achieved after successful gator roll-through
 
-- [[Back Control]] - Alternative advancement when opponent turns away from pressure
+- [[Positions/Back Control]] - Alternative advancement when opponent turns away from pressure
 
 
 </section>

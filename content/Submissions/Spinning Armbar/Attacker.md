@@ -176,7 +176,7 @@ description: "How to execute Spinning Armbar in BJJ. Attacking perspective with 
 
 The Spinning Armbar is a dynamic and versatile submission technique that targets the elbow joint through rotational movement. Unlike traditional static armbars, this technique involves spinning your entire body around the opponent's arm to create a finishing angle, making it particularly effective when standard armbar entries are defended or unavailable. The spinning motion generates momentum that can overcome defensive postures and creates multiple entry points from various positions including mount, guard, scrambles, and standing situations. This submission requires precise timing, spatial awareness, and fluid hip movement to execute successfully. The technique's effectiveness lies in its ability to catch opponents off-guard through the unexpected rotational attack vector, bypassing traditional armbar defenses that focus on preventing hip movement or protecting the arm statically. Mastery of the spinning armbar opens up offensive opportunities from seemingly neutral positions and creates a constant submission threat that keeps opponents defensive and reactive throughout the match.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 
 </section>
@@ -232,8 +232,8 @@ The Spinning Armbar is a dynamic and versatile submission technique that targets
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Mount]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -242,11 +242,11 @@ The Spinning Armbar is a dynamic and versatile submission technique that targets
 
 ## Opponent Defenses
 
-- **Opponent grabs their own gi or hand to create a defensive frame** (Effectiveness: High) - Your Response: Break the grip by prying their fingers apart before initiating the spin, or use the spin itself to break their grip through rotational force. Alternatively, attack the opposite arm or switch to a different submission. → Leads to [[Closed Guard]]
-- **Opponent follows your rotation by rolling with you** (Effectiveness: High) - Your Response: Increase the speed of your spin to outpace their roll, or use your free leg to create a barrier against their body rotation. You can also transition to a triangle or omoplata if they overcommit to following your movement. → Leads to [[Closed Guard]]
-- **Opponent stacks you during the spin by driving forward** (Effectiveness: Medium) - Your Response: Use the stacking pressure to accelerate your rotation in the opposite direction, or abandon the spin and transition to a different attack like a triangle or sweep. Keep your legs active to prevent them from consolidating the stack. → Leads to [[Closed Guard]]
-- **Opponent pulls their arm back aggressively during the spin** (Effectiveness: Medium) - Your Response: Tighten your grip and keep their arm glued to your chest throughout the rotation. Use your legs to push off their body for additional rotational speed, completing the spin before they can fully retract the arm. → Leads to [[Closed Guard]]
-- **Opponent postures up strongly and drives into you, reversing to top position** (Effectiveness: High) - Your Response: Use sweeps, off-balancing techniques, or transitions to break their posture first. Attack with different submissions to force reactions that compromise their posture, creating opportunities for the spinning armbar entry. → Leads to [[Mount]]
+- **Opponent grabs their own gi or hand to create a defensive frame** (Effectiveness: High) - Your Response: Break the grip by prying their fingers apart before initiating the spin, or use the spin itself to break their grip through rotational force. Alternatively, attack the opposite arm or switch to a different submission. → Leads to [[Positions/Closed Guard]]
+- **Opponent follows your rotation by rolling with you** (Effectiveness: High) - Your Response: Increase the speed of your spin to outpace their roll, or use your free leg to create a barrier against their body rotation. You can also transition to a triangle or omoplata if they overcommit to following your movement. → Leads to [[Positions/Closed Guard]]
+- **Opponent stacks you during the spin by driving forward** (Effectiveness: Medium) - Your Response: Use the stacking pressure to accelerate your rotation in the opposite direction, or abandon the spin and transition to a different attack like a triangle or sweep. Keep your legs active to prevent them from consolidating the stack. → Leads to [[Positions/Closed Guard]]
+- **Opponent pulls their arm back aggressively during the spin** (Effectiveness: Medium) - Your Response: Tighten your grip and keep their arm glued to your chest throughout the rotation. Use your legs to push off their body for additional rotational speed, completing the spin before they can fully retract the arm. → Leads to [[Positions/Closed Guard]]
+- **Opponent postures up strongly and drives into you, reversing to top position** (Effectiveness: High) - Your Response: Use sweeps, off-balancing techniques, or transitions to break their posture first. Attack with different submissions to force reactions that compromise their posture, creating opportunities for the spinning armbar entry. → Leads to [[Positions/Mount]]
 
 
 </section>

@@ -178,7 +178,7 @@ Strategically, the Granby Roll represents an aggressive defensive philosophy whe
 
 The technical demands of the Granby Roll require significant hip mobility, proprioceptive awareness, and precise timing. Executing the roll too early allows the opponent to follow and maintain control; executing too late means the position has already consolidated beyond the escape window. Mastery of this technique provides a reliable emergency exit from dangerous turtle scenarios while building the movement vocabulary necessary for advanced guard retention and recovery systems.
 
-**From Position**: [[Buggy Choke]] (Bottom)
+**From Position**: [[Positions/Buggy Choke]] (Bottom)
 
 </section>
 
@@ -230,10 +230,10 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Success | [[Open Guard]] | 15% |
-| Failure | [[Buggy Choke]] | 20% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Success | [[Positions/Open Guard]] | 15% |
+| Failure | [[Positions/Buggy Choke]] | 20% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 
 ## Opponent Counters
 
-- **Opponent follows the roll and takes back control** (Effectiveness: High) - Your Response: Complete the roll faster with more hip extension, or transition directly to deep half guard by underhooking opponent's leg as they follow → Leads to [[Back Control]]
-- **Opponent sprawls heavy and drives forward as you initiate** (Effectiveness: High) - Your Response: Abort the granby and switch to sitting to half guard, using their forward momentum to create space underneath → Leads to [[Buggy Choke]]
-- **Opponent maintains collar grip and follows to mounted position** (Effectiveness: Medium) - Your Response: Strip the collar grip during the roll using your far hand, or accept the collar grip and play collar defense from closed guard → Leads to [[Closed Guard]]
-- **Opponent angles perpendicular and blocks roll with knee pressure** (Effectiveness: Medium) - Your Response: Change direction mid-movement to granby to the opposite side, or use their knee as a pivot to sit directly to butterfly guard → Leads to [[Buggy Choke]]
+- **Opponent follows the roll and takes back control** (Effectiveness: High) - Your Response: Complete the roll faster with more hip extension, or transition directly to deep half guard by underhooking opponent's leg as they follow → Leads to [[Positions/Back Control]]
+- **Opponent sprawls heavy and drives forward as you initiate** (Effectiveness: High) - Your Response: Abort the granby and switch to sitting to half guard, using their forward momentum to create space underneath → Leads to [[Positions/Buggy Choke]]
+- **Opponent maintains collar grip and follows to mounted position** (Effectiveness: Medium) - Your Response: Strip the collar grip during the roll using your far hand, or accept the collar grip and play collar defense from closed guard → Leads to [[Positions/Closed Guard]]
+- **Opponent angles perpendicular and blocks roll with knee pressure** (Effectiveness: Medium) - Your Response: Change direction mid-movement to granby to the opposite side, or use their knee as a pivot to sit directly to butterfly guard → Leads to [[Positions/Buggy Choke]]
 
 
 </section>

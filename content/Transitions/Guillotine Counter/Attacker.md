@@ -180,7 +180,7 @@ description: "How to execute Guillotine Counter in BJJ. Attacking perspective wi
 
 The Guillotine Counter attacker is the practitioner caught in the guillotine who systematically works to neutralize the choke and advance to a dominant position. This requires immediate recognition of the threat, calm execution under pressure, and a precise sequence of posture management, hand control, forward pressure, and circular movement. The attacker must resist the instinct to pull away linearly and instead commit to driving into the opponent, using their own weight and structure to collapse the mechanics that make the guillotine effective. Success depends on maintaining composure while oxygen supply may be compromised, executing each defensive step in sequence, and completing the transition fully to side control rather than stopping once the choke pressure decreases. The technique rewards practitioners who drill it to automaticity, as the window for effective defense narrows rapidly once a guillotine is locked in.
 
-**From Position**: [[Guillotine Control]] (Top)
+**From Position**: [[Positions/Guillotine Control]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The Guillotine Counter attacker is the practitioner caught in the guillotine who
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 75% |
-| Failure | [[Guillotine Control]] | 15% |
-| Counter | [[Guillotine Control]] | 10% |
+| Success | [[Positions/Side Control]] | 75% |
+| Failure | [[Positions/Guillotine Control]] | 15% |
+| Counter | [[Positions/Guillotine Control]] | 10% |
 
 
 </section>
@@ -245,11 +245,11 @@ The Guillotine Counter attacker is the practitioner caught in the guillotine who
 
 ## Opponent Counters
 
-- **Opponent switches to high elbow guillotine variation for tighter finish** (Effectiveness: High) - Your Response: Immediately increase forward pressure and drive your shoulder deeper into their chest while maintaining hand control on their choking wrist. The high elbow variation requires them to maintain distance, which forward pressure negates. → Leads to [[Guillotine Control]]
-- **Opponent jumps to closed guard to add body weight to the choke** (Effectiveness: Medium) - Your Response: Widen your base, posture up aggressively, and use your free hand to break the guard open while maintaining head position on the safe side. Do not allow your posture to collapse. → Leads to [[Guillotine Control]]
-- **Opponent transitions to arm-in guillotine when you attempt hand control** (Effectiveness: Medium) - Your Response: Accept the arm-in position but maintain strong posture and continue driving forward pressure. The arm-in guillotine is generally less dangerous than the standard guillotine if proper posture is maintained. → Leads to [[Guillotine Control]]
-- **Opponent releases guillotine and re-pummel to secure deeper front headlock grip** (Effectiveness: Medium) - Your Response: Use the momentary release to immediately posture up and create distance. If they re-secure the grip, restart the defensive sequence from a stronger postural position. The brief release is your best window to extract your head entirely. → Leads to [[Guillotine Control]]
-- **Opponent uses free hand to push your head deeper into the choke** (Effectiveness: Low) - Your Response: Control their pushing hand with your own free hand, pin it to their body, and continue driving forward pressure. Their ability to push is limited when you are driving weight through their chest. → Leads to [[Guillotine Control]]
+- **Opponent switches to high elbow guillotine variation for tighter finish** (Effectiveness: High) - Your Response: Immediately increase forward pressure and drive your shoulder deeper into their chest while maintaining hand control on their choking wrist. The high elbow variation requires them to maintain distance, which forward pressure negates. → Leads to [[Positions/Guillotine Control]]
+- **Opponent jumps to closed guard to add body weight to the choke** (Effectiveness: Medium) - Your Response: Widen your base, posture up aggressively, and use your free hand to break the guard open while maintaining head position on the safe side. Do not allow your posture to collapse. → Leads to [[Positions/Guillotine Control]]
+- **Opponent transitions to arm-in guillotine when you attempt hand control** (Effectiveness: Medium) - Your Response: Accept the arm-in position but maintain strong posture and continue driving forward pressure. The arm-in guillotine is generally less dangerous than the standard guillotine if proper posture is maintained. → Leads to [[Positions/Guillotine Control]]
+- **Opponent releases guillotine and re-pummel to secure deeper front headlock grip** (Effectiveness: Medium) - Your Response: Use the momentary release to immediately posture up and create distance. If they re-secure the grip, restart the defensive sequence from a stronger postural position. The brief release is your best window to extract your head entirely. → Leads to [[Positions/Guillotine Control]]
+- **Opponent uses free hand to push your head deeper into the choke** (Effectiveness: Low) - Your Response: Control their pushing hand with your own free hand, pin it to their body, and continue driving forward pressure. Their ability to push is limited when you are driving weight through their chest. → Leads to [[Positions/Guillotine Control]]
 
 
 </section>

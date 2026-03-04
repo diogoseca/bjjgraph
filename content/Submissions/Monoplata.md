@@ -22,7 +22,7 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Closed Guard]]
+**Starting Position**: [[Positions/Closed Guard]]
 **Success Rate**: 45%
 
 </section>
@@ -76,8 +76,8 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -230,13 +230,13 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 
 ## From Which Positions?
 
-- [[Closed Guard]]
-- [[Rubber Guard]]
-- [[Mission Control]]
-- [[Open Guard]]
-- [[Triangle Control]]
-- [[Spider Guard]]
-- [[Overhook Guard]]
+- [[Positions/Closed Guard]]
+- [[Positions/Rubber Guard]]
+- [[Positions/Rubber Guard/Mission Control]]
+- [[Positions/Open Guard]]
+- [[Positions/Triangle Control]]
+- [[Positions/Spider Guard]]
+- [[Positions/Overhook Guard]]
 
 
 </section>
@@ -245,17 +245,17 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 
 ## Related Submissions
 
-- [[Omoplata]]
-- [[Omoplata from Guard]]
-- [[Triangle Choke]]
-- [[Gogoplata]]
-- [[Baratoplata]]
-- [[Tarikoplata]]
-- [[Armbar from Guard]]
-- [[Triangle from Closed Guard]]
-- [[Inverted Triangle]]
-- [[Monoplata from Guard]]
-- [[Monoplata from Mount]]
+- [[Transitions/Omoplata]]
+- [[Submissions/Omoplata from Guard]]
+- [[Transitions/Triangle Choke]]
+- [[Transitions/Gogoplata]]
+- [[Transitions/Baratoplata]]
+- [[Submissions/Tarikoplata]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Triangle from Closed Guard]]
+- [[Transitions/Inverted Triangle]]
+- [[Submissions/Monoplata from Guard]]
+- [[Submissions/Monoplata from Mount]]
 
 
 </section>
@@ -264,14 +264,14 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 
 ## Additional Related Content
 
-- [[Rubber Guard]] - Primary setup position providing control structure for monoplata entry
-- [[Mission Control]] - High-control rubber guard variation offering optimal monoplata setup angle
-- [[Omoplata Control]] - Related shoulder attack sharing similar body positioning and pressure mechanics
-- [[Triangle Control]] - Alternative finish when monoplata is defended; failed triangle can transition to monoplata
-- [[Closed Guard to Omoplata]] - Backup transition if figure-four configuration cannot be secured
-- [[Closed Guard to Triangle]] - Related attack chain sharing similar setup requirements and control principles
-- [[New York]] - Rubber guard position that can transition to monoplata when opponent defends traditional attacks
-- [[Spider Guard]] - Alternative entry position for dynamic monoplata setups against upright opponents
+- [[Positions/Rubber Guard]] - Primary setup position providing control structure for monoplata entry
+- [[Positions/Rubber Guard/Mission Control]] - High-control rubber guard variation offering optimal monoplata setup angle
+- [[Positions/Omoplata Control]] - Related shoulder attack sharing similar body positioning and pressure mechanics
+- [[Positions/Triangle Control]] - Alternative finish when monoplata is defended; failed triangle can transition to monoplata
+- [[Transitions/Closed Guard to Omoplata]] - Backup transition if figure-four configuration cannot be secured
+- [[Transitions/Closed Guard to Triangle]] - Related attack chain sharing similar setup requirements and control principles
+- [[Positions/Rubber Guard/New York]] - Rubber guard position that can transition to monoplata when opponent defends traditional attacks
+- [[Positions/Spider Guard]] - Alternative entry position for dynamic monoplata setups against upright opponents
 
 
 </section>

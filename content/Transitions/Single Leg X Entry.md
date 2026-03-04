@@ -21,7 +21,7 @@ Developed and popularized through modern competition grappling, the Single Leg X
 
 The Single Leg X position reached through this entry offers multiple offensive pathways including sweeps to top position, transitions to more complex leg entanglements like Ashi Garami or X-Guard, and direct submission attacks. Understanding this entry is crucial for developing a comprehensive modern guard game and building systematic attacking sequences from the bottom position.
 
-**From Position**: [[Seated Guard]] (Bottom)
+**From Position**: [[Positions/Seated Guard]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ The Single Leg X position reached through this entry offers multiple offensive p
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 60% |
-| Failure | [[Seated Guard]] | 25% |
-| Counter | [[Seated Guard]] | 15% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 60% |
+| Failure | [[Positions/Seated Guard]] | 25% |
+| Counter | [[Positions/Seated Guard]] | 15% |
 
 
 </section>
@@ -192,25 +192,25 @@ Single Leg X Entry serves as a crucial hub transition in modern guard systems, p
 ## Related Techniques
 
 
-- [[Single Leg X Sweep]] - Primary follow-up technique — immediate sweeping option after entry is established
+- [[Transitions/Single Leg X Sweep]] - Primary follow-up technique — immediate sweeping option after entry is established
 
-- [[Standing to Single Leg X]] - Alternative entry method — establishes same position from standing rather than seated
+- [[Transitions/Standing to Single Leg X]] - Alternative entry method — establishes same position from standing rather than seated
 
-- [[SLX to Ashi Garami]] - Connected transition — common path when opponent defends Single Leg X sweeps
+- [[Transitions/SLX to Ashi Garami]] - Connected transition — common path when opponent defends Single Leg X sweeps
 
-- [[De La Riva Sweep]] - Related guard attack — uses similar leg control principles from different guard structure
+- [[Transitions/De La Riva Sweep]] - Related guard attack — uses similar leg control principles from different guard structure
 
-- [[Outside Ashi Entry]] - Advanced transition — leg entanglement option when opponent blocks sweep attempts
+- [[Transitions/Outside Ashi Entry]] - Advanced transition — leg entanglement option when opponent blocks sweep attempts
 
-- [[Butterfly Guard to X-Guard]] - Alternative entry pathway — connects Butterfly system to X-Guard family positions
+- [[Transitions/Butterfly Guard to X-Guard]] - Alternative entry pathway — connects Butterfly system to X-Guard family positions
 
-- [[Technical Stand Up to Single Leg]] - Setup technique — uses technical stand-up movement to bait opponent into entry range
+- [[Transitions/Technical Stand Up to Single Leg]] - Setup technique — uses technical stand-up movement to bait opponent into entry range
 
-- [[Kneebar from Guard]] - Submission option — direct attack available from established Single Leg X position
+- [[Submissions/Kneebar from Guard]] - Submission option — direct attack available from established Single Leg X position
 
-- [[Elevator Sweep]] - Related sweep mechanics — similar off-balancing principles applied from different guard
+- [[Transitions/Elevator Sweep]] - Related sweep mechanics — similar off-balancing principles applied from different guard
 
-- [[Deep Half Entry]] - Defensive transition — option when opponent sprawls heavily on Single Leg X entry
+- [[Transitions/Deep Half Entry]] - Defensive transition — option when opponent sprawls heavily on Single Leg X entry
 
 
 </section>

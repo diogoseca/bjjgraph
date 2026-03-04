@@ -186,7 +186,7 @@ description: "Complete guide to executing leg pummeling escapes from saddle posi
 
 As the attacker executing leg pummeling from saddle, you are the practitioner whose leg is trapped in the opponent's saddle configuration. Your objective is not to fully escape the entanglement in a single motion but to systematically downgrade the position by replacing the opponent's dominant controlling legs with your own hooks, converting saddle into the less dangerous inside ashi-garami. This requires a precise combination of hip movement, timing, and incremental leg insertion while maintaining continuous heel protection throughout the sequence. The technique demands patience—rushing the pummel typically results in the opponent either re-locking their configuration or attacking during the transition. Successful execution depends on reading micro-movements in the opponent's leg tension and exploiting the brief windows when their controlling hooks shift weight or adjust position.
 
-**From Position**: [[Saddle]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Saddle]] (Bottom)
 
 </section>
 
@@ -238,9 +238,9 @@ As the attacker executing leg pummeling from saddle, you are the practitioner wh
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 55% |
-| Failure | [[Saddle]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 55% |
+| Failure | [[Positions/Ashi Garami/Saddle]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -249,10 +249,10 @@ As the attacker executing leg pummeling from saddle, you are the practitioner wh
 
 ## Opponent Counters
 
-- **Opponent immediately re-locks their figure-four or triangle configuration when they feel the pummeling attempt** (Effectiveness: High) - Your Response: Maintain your inserted leg position and continue framing rather than withdrawing. If they re-lock with your leg inside, you have actually improved your position. Use sustained hip pressure and frames to prevent a clean re-lock. If they do successfully re-lock, restart the sequence from the hip movement phase. → Leads to [[Saddle]]
-- **Opponent abandons positional control to immediately attack the heel hook during the transitional instability** (Effectiveness: High) - Your Response: If the opponent lunges for the heel during your pummel, immediately prioritize heel protection over completing the pummeling sequence. Retract your free leg to guard the heel if necessary. The momentary positional looseness that enables pummeling also makes the heel more vulnerable—never trade heel safety for positional progress. → Leads to [[Saddle]]
-- **Opponent uses your leg movement to completely disengage from the entanglement and transition to a passing position** (Effectiveness: Medium) - Your Response: If the opponent disengages during your pummel, immediately recover guard by establishing foot-on-hip frames and hand grips. While losing the entanglement entirely means they may pass, this outcome is preferable to remaining in saddle. Transition to open guard retention immediately. → Leads to [[Open Guard]]
-- **Opponent increases hip pressure and drives perpendicular to shut down the space needed for pummeling** (Effectiveness: High) - Your Response: When the opponent drives hip pressure to prevent pummeling, use the pressure against them by timing your hip escape to coincide with their drive. Their forward commitment creates a moment where you can angle off and create space on the opposite side. Alternatively, switch to a different escape pathway such as boot scoot or forward roll if pummeling is consistently denied. → Leads to [[Saddle]]
+- **Opponent immediately re-locks their figure-four or triangle configuration when they feel the pummeling attempt** (Effectiveness: High) - Your Response: Maintain your inserted leg position and continue framing rather than withdrawing. If they re-lock with your leg inside, you have actually improved your position. Use sustained hip pressure and frames to prevent a clean re-lock. If they do successfully re-lock, restart the sequence from the hip movement phase. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent abandons positional control to immediately attack the heel hook during the transitional instability** (Effectiveness: High) - Your Response: If the opponent lunges for the heel during your pummel, immediately prioritize heel protection over completing the pummeling sequence. Retract your free leg to guard the heel if necessary. The momentary positional looseness that enables pummeling also makes the heel more vulnerable—never trade heel safety for positional progress. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent uses your leg movement to completely disengage from the entanglement and transition to a passing position** (Effectiveness: Medium) - Your Response: If the opponent disengages during your pummel, immediately recover guard by establishing foot-on-hip frames and hand grips. While losing the entanglement entirely means they may pass, this outcome is preferable to remaining in saddle. Transition to open guard retention immediately. → Leads to [[Positions/Open Guard]]
+- **Opponent increases hip pressure and drives perpendicular to shut down the space needed for pummeling** (Effectiveness: High) - Your Response: When the opponent drives hip pressure to prevent pummeling, use the pressure against them by timing your hip escape to coincide with their drive. Their forward commitment creates a moment where you can angle off and create space on the opposite side. Alternatively, switch to a different escape pathway such as boot scoot or forward roll if pummeling is consistently denied. → Leads to [[Positions/Ashi Garami/Saddle]]
 
 
 </section>

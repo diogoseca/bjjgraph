@@ -180,7 +180,7 @@ description: "Master the Transition to Clamp Guard attack. Step-by-step guide to
 
 As the attacker executing the Transition to Clamp Guard, your objective is to intercept one of the opponent's arms as they reach inside your guard framework and trap it between your legs with your shin seated firmly across their bicep. The transition requires reading the opponent's hand movement, timing the interception precisely, and establishing structural bone-on-bone control before they can retract. The key insight is that you are not chasing the arm — you are creating conditions where the opponent extends their arm voluntarily (through feints, grip breaks, or positional threats), then capitalizing on that extension with a pre-loaded clamping motion.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Transition to Clamp Guard, your objective is to in
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Clamp Guard]] | 50% |
-| Failure | [[Open Guard]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Clamp Guard]] | 50% |
+| Failure | [[Positions/Open Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Transition to Clamp Guard, your objective is to in
 
 ## Opponent Counters
 
-- **Opponent retracts arm quickly before clamp closes** (Effectiveness: High) - Your Response: If you miss the timing, do not chase the arm. Return to open guard grips and recreate the extension opportunity through another feint or grip break cycle. Chasing a retracted arm exposes you to passes. → Leads to [[Open Guard]]
-- **Opponent drives forward aggressively to smash through the clamp attempt** (Effectiveness: Medium) - Your Response: Use the forward drive momentum against them. Frame on their shoulder with your free hand and redirect laterally. If the shin is already on the bicep, the forward drive actually helps seat the clamp deeper. Alternatively, abandon the clamp and transition to a butterfly hook sweep using their forward momentum. → Leads to [[Half Guard]]
-- **Opponent circles their arm outward to avoid the shin threading across the bicep** (Effectiveness: Medium) - Your Response: Follow the circular motion with your hip angle, keeping your shin tracking the bicep. If their arm circles completely past your shin, redirect to a triangle entry by shooting your leg over their shoulder instead of across their arm. The circular escape is the trigger for triangle transitions. → Leads to [[Open Guard]]
-- **Opponent posts their free hand and attempts to stand up during the entry** (Effectiveness: Medium) - Your Response: If one shin is already across the bicep, use your far leg to hook behind their posting knee to break their base. Combine this with a wrist pull on the trapped arm to prevent them from fully straightening. If they succeed in standing, transition to single leg X or feet-on-hips guard using the leg contact you already have. → Leads to [[Open Guard]]
+- **Opponent retracts arm quickly before clamp closes** (Effectiveness: High) - Your Response: If you miss the timing, do not chase the arm. Return to open guard grips and recreate the extension opportunity through another feint or grip break cycle. Chasing a retracted arm exposes you to passes. → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward aggressively to smash through the clamp attempt** (Effectiveness: Medium) - Your Response: Use the forward drive momentum against them. Frame on their shoulder with your free hand and redirect laterally. If the shin is already on the bicep, the forward drive actually helps seat the clamp deeper. Alternatively, abandon the clamp and transition to a butterfly hook sweep using their forward momentum. → Leads to [[Positions/Half Guard]]
+- **Opponent circles their arm outward to avoid the shin threading across the bicep** (Effectiveness: Medium) - Your Response: Follow the circular motion with your hip angle, keeping your shin tracking the bicep. If their arm circles completely past your shin, redirect to a triangle entry by shooting your leg over their shoulder instead of across their arm. The circular escape is the trigger for triangle transitions. → Leads to [[Positions/Open Guard]]
+- **Opponent posts their free hand and attempts to stand up during the entry** (Effectiveness: Medium) - Your Response: If one shin is already across the bicep, use your far leg to hook behind their posting knee to break their base. Combine this with a wrist pull on the trapped arm to prevent them from fully straightening. If they succeed in standing, transition to single leg X or feet-on-hips guard using the leg contact you already have. → Leads to [[Positions/Open Guard]]
 
 
 </section>

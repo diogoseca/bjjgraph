@@ -21,7 +21,7 @@ The maintenance phase is critical because small errors compound rapidly in darce
 
 From a strategic perspective, Darce Control Maintenance functions as the bridge between entry and finish. Many practitioners rush from entry to submission attempt, but skilled grapplers understand that investing time in the maintenance phase allows them to optimize grip depth, establish the ideal finishing angle, and exhaust the opponent's initial burst of defensive energy before committing to the choke or transitioning to mount, back control, or north-south.
 
-**From Position**: [[Darce Control]] (Top)
+**From Position**: [[Positions/Darce Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic perspective, Darce Control Maintenance functions as the bridge 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 55% |
-| Failure | [[Front Headlock]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Darce Control]] | 55% |
+| Failure | [[Positions/Front Headlock]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,21 +191,21 @@ Darce Control Maintenance sits at the intersection of front headlock control, su
 ## Related Techniques
 
 
-- [[Darce Control]] - Hub position that this maintenance transition operates within
+- [[Positions/Darce Control]] - Hub position that this maintenance transition operates within
 
-- [[Anaconda Control]] - Sister control position with similar maintenance mechanics but opposite arm threading
+- [[Positions/Anaconda Control]] - Sister control position with similar maintenance mechanics but opposite arm threading
 
-- [[Front Headlock]] - Fallback position when darce grip degrades during maintenance failure
+- [[Positions/Front Headlock]] - Fallback position when darce grip degrades during maintenance failure
 
-- [[Back Control]] - High-percentage transition target when opponent rolls during maintenance
+- [[Positions/Back Control]] - High-percentage transition target when opponent rolls during maintenance
 
-- [[North-South]] - Alternative advancement when darce maintenance stalls and opponent blocks the choke angle
+- [[Positions/North-South]] - Alternative advancement when darce maintenance stalls and opponent blocks the choke angle
 
-- [[Turtle]] - Common preceding position where darce control is initially established
+- [[Positions/Turtle]] - Common preceding position where darce control is initially established
 
-- [[Anaconda Choke]] - Related choke transition with overlapping grip maintenance principles
+- [[Transitions/Anaconda Choke]] - Related choke transition with overlapping grip maintenance principles
 
-- [[Half Guard]] - Recovery position opponent targets when escaping darce maintenance
+- [[Positions/Half Guard]] - Recovery position opponent targets when escaping darce maintenance
 
 
 </section>

@@ -209,25 +209,25 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 
 ## Available Attacks
 
-### [[Outside Heel Hook]] (12% of attempts)
+### [[Transitions/Outside Heel Hook]] (12% of attempts)
 
-### [[Heel Hook]] (42% of attempts)
+### [[Transitions/Heel Hook]] (42% of attempts)
 
-### [[Kneebar Finish]] (14% of attempts)
+### [[Transitions/Kneebar Finish]] (14% of attempts)
 
-### [[Toe Hold]] (8% of attempts)
+### [[Transitions/Toe Hold]] (8% of attempts)
 
-### [[Back Take from Ashi]] (14% of attempts)
+### [[Transitions/Back Take from Ashi]] (14% of attempts)
 
-### [[Estima Lock]] (3% of attempts)
+### [[Positions/Estima Lock]] (3% of attempts)
 
-### [[Backside 50-50 Entry from Ashi]] (3% of attempts)
+### [[Transitions/Backside 50-50 Entry from Ashi]] (3% of attempts)
 
-### [[Calf Slicer]] (2% of attempts)
+### [[Transitions/Calf Slicer]] (2% of attempts)
 
-### [[Honey Hole to Saddle]] (1% of attempts)
+### [[Transitions/Honey Hole to Saddle]] (1% of attempts)
 
-### [[Inside Heel Hook from Honey Hole]] (1% of attempts)
+### [[Transitions/Inside Heel Hook from Honey Hole]] (1% of attempts)
 
 
 
@@ -238,27 +238,27 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 ## Decision Making from This Position
 
 **If opponent attempts hip rotation to escape entanglement:**
-- Execute **[[Hip Pressure]]** → [[Honey Hole]] (Probability: 70%)
-- Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Outside Heel Hook]]** → [[Game Over]] (Probability: 75%)
+- Execute **[[Principles/Hip Pressure]]** → [[Positions/Ashi Garami/Honey Hole]] (Probability: 70%)
+- Execute **[[Transitions/Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Outside Heel Hook]]** → [[Positions/Game Over]] (Probability: 75%)
 
 
 **If opponent tries to extract trapped leg by pulling knee to chest:**
-- Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 80%)
-- Execute **[[Kneebar Finish]]** → [[Kneebar Control]] (Probability: 65%)
-- Execute **[[Heel Hook]]** → [[Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 80%)
+- Execute **[[Transitions/Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 65%)
+- Execute **[[Transitions/Heel Hook]]** → [[Positions/Game Over]] (Probability: 60%)
 
 
 **If opponent attempts to establish inside position for reversal:**
-- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 65%)
-- Execute **[[Outside Heel Hook]]** → [[Game Over]] (Probability: 70%)
-- Execute **[[50-50 Entry from Standing]]** → [[50-50 Guard]] (Probability: 50%)
+- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Transitions/Outside Heel Hook]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Transitions/50-50 Entry from Standing]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 50%)
 
 
 **If opponent defends heel by hiding foot deep in armpit:**
-- Execute **[[Kneebar Finish]]** → [[Kneebar Control]] (Probability: 75%)
-- Execute **[[Toe Hold]]** → [[Game Over]] (Probability: 60%)
-- Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 70%)
+- Execute **[[Transitions/Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 75%)
+- Execute **[[Transitions/Toe Hold]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
 
 
 
@@ -392,17 +392,17 @@ Partner in bottom position attempts one specific escape technique at 75% intensi
 
 ## Related Positions and Techniques
 
-- **[[Saddle]]** - Advanced variation with enhanced control through different leg configuration
-- **[[Inside Ashi-Garami]]** - Foundational leg entanglement that precedes honey hole entry
-- **[[Outside Ashi-Garami]]** - Alternative leg entanglement with different control mechanics
-- **[[Heel Hook]]** - Primary submission finish from this position
-- **[[Kneebar]]** - Secondary submission option when heel is defended
-- **[[Back Control]]** - Transition target when opponent turns away to escape
-- **[[50-50 Guard]]** - Related leg entanglement with different strategic purpose
-- **[[X-Guard]]** - Common entry position for establishing honey hole
-- **[[Single Leg X-Guard]]** - Frequent starting position for honey hole entries
-- **[[Leg Entanglement]]** - Core concept governing all aspects of position control
-- **[[Kneebar Control]]** - Transition position when switching to kneebar attacks
+- **[[Positions/Ashi Garami/Saddle]]** - Advanced variation with enhanced control through different leg configuration
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Foundational leg entanglement that precedes honey hole entry
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Alternative leg entanglement with different control mechanics
+- **[[Transitions/Heel Hook]]** - Primary submission finish from this position
+- **[[Transitions/Kneebar]]** - Secondary submission option when heel is defended
+- **[[Positions/Back Control]]** - Transition target when opponent turns away to escape
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Related leg entanglement with different strategic purpose
+- **[[Positions/X-Guard]]** - Common entry position for establishing honey hole
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Frequent starting position for honey hole entries
+- **[[Positions/Leg Entanglement]]** - Core concept governing all aspects of position control
+- **[[Positions/Kneebar Control]]** - Transition position when switching to kneebar attacks
 
 
 </section>

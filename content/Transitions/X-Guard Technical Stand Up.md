@@ -17,7 +17,7 @@ description: "Master the X-Guard Technical Stand Up in BJJ. Complete guide cover
 
 The X-Guard Technical Stand Up leverages the inherent mechanical advantage of X-Guard to transition safely from bottom position to dominant standing. Rather than committing to a traditional sweep that brings the opponent to the mat, this technique prioritizes reaching your feet while maintaining control of the opponent's trapped leg. The result is a standing position where you hold initiative, often with a single leg grip that creates immediate takedown or passing threats. This transition is particularly valuable in competition rulesets that reward top position and in no-gi grappling where extended X-Guard exchanges become energy-intensive. The technical stand up represents a lower-risk alternative to full sweeping attempts, making it an excellent secondary option when primary sweeps are being defended effectively. The opponent faces a dilemma: if they drive forward to prevent the stand-up, they expose themselves to elevation sweeps; if they stay neutral, the stand-up completes. The key mechanical principle involves using the X-Guard hooks to momentarily freeze the opponent's base while posting a hand behind you and driving your hips forward under your shoulders to stand. Timing is critical because the opponent must be sufficiently off-balanced that they cannot immediately punish the transition with a pass or counter-takedown. Advanced practitioners chain the technical stand up with X-Guard sweeps, creating a dual threat that forces defensive errors and makes the entire X-Guard bottom game significantly more dangerous.
 
-**From Position**: [[X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -28,9 +28,9 @@ The X-Guard Technical Stand Up leverages the inherent mechanical advantage of X-
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[X-Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/X-Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -187,25 +187,25 @@ The X-Guard Technical Stand Up integrates X-Guard into the broader BJJ positiona
 ## Related Techniques
 
 
-- [[X-Guard]] - Source position providing the hooks and leverage foundation for this transition
+- [[Positions/X-Guard]] - Source position providing the hooks and leverage foundation for this transition
 
-- [[Standing Position]] - Primary target position reached on successful completion of the stand-up
+- [[Positions/Standing Position]] - Primary target position reached on successful completion of the stand-up
 
-- [[Open Guard]] - Counter outcome position when opponent maintains guard engagement during stand-up
+- [[Positions/Open Guard]] - Counter outcome position when opponent maintains guard engagement during stand-up
 
-- [[Single Leg X-Guard]] - Related guard variation sharing similar stand-up mechanics and entry pathways
+- [[Positions/X-Guard/Single Leg X-Guard]] - Related guard variation sharing similar stand-up mechanics and entry pathways
 
-- [[Butterfly Guard]] - Common entry position leading to X-Guard where stand-up principles also apply
+- [[Positions/Butterfly Guard]] - Common entry position leading to X-Guard where stand-up principles also apply
 
-- [[Technical Stand Up from Open Guard]] - Related stand-up technique from a different guard position using similar posting mechanics
+- [[Transitions/Technical Stand Up from Open Guard]] - Related stand-up technique from a different guard position using similar posting mechanics
 
-- [[Single Leg Entry]] - Primary follow-up technique after reaching standing with opponent's leg controlled
+- [[Transitions/Single Leg Entry]] - Primary follow-up technique after reaching standing with opponent's leg controlled
 
-- [[Standing Escape from X-Guard]] - Opponent's counter-technique representing the defensive perspective against X-Guard attacks
+- [[Transitions/Standing Escape from X-Guard]] - Opponent's counter-technique representing the defensive perspective against X-Guard attacks
 
-- [[Half Guard to X-Guard]] - Entry transition that feeds into the X-Guard system where this stand-up becomes available
+- [[Transitions/Half Guard to X-Guard]] - Entry transition that feeds into the X-Guard system where this stand-up becomes available
 
-- [[Deep Half Guard]] - Alternative guard position serving as fallback when X-Guard structure collapses during stand-up attempt
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative guard position serving as fallback when X-Guard structure collapses during stand-up attempt
 
 
 </section>

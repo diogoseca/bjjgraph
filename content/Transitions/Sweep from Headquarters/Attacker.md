@@ -180,7 +180,7 @@ description: "Master executing the Sweep from Headquarters as the bottom player.
 
 As the bottom player in headquarters, your primary objective is to disrupt the passer's systematic decision-making by creating genuine sweep threats that force base adjustments. The sweep from headquarters requires precise timing, grip acquisition, and explosive hip mechanics to reverse a position where the top player holds significant structural advantages. Success depends on identifying the narrow windows when the passer's weight shifts during passing attempts and exploiting these moments with committed technique execution before the passer can reset their base. The sweep operates as both a direct reversal tool and a strategic weapon that degrades the quality of the opponent's passing game by forcing them to divide attention between offense and balance maintenance.
 
-**From Position**: [[Headquarters Position]] (Bottom)
+**From Position**: [[Positions/Headquarters Position]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player in headquarters, your primary objective is to disrupt the p
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Headquarters Position]] | 38% |
-| Counter | [[Mount]] | 22% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Headquarters Position]] | 38% |
+| Counter | [[Positions/Mount]] | 22% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the bottom player in headquarters, your primary objective is to disrupt the p
 
 ## Opponent Counters
 
-- **Opponent widens base and drops weight low to neutralize sweep angle** (Effectiveness: High) - Your Response: Switch to guard recovery since their wide base creates space for knee insertion and half guard recovery, or chain to deep half entry → Leads to [[Headquarters Position]]
-- **Opponent drives forward aggressively with crossface pressure to flatten you and pass** (Effectiveness: High) - Your Response: Use their forward momentum against them by timing the butterfly hook elevation as they drive in, converting their committed energy into sweep power → Leads to [[Mount]]
-- **Opponent backsteps away from the hook to avoid the sweep angle entirely** (Effectiveness: Medium) - Your Response: Follow their backstep with hip movement to maintain hook connection, or transition to shin-to-shin or De La Riva guard as they create distance → Leads to [[Headquarters Position]]
-- **Opponent posts their free hand on the mat to brace against the sweep direction** (Effectiveness: Medium) - Your Response: Attack the posting arm with a grip strip or redirect the sweep angle perpendicular to their post where the hand cannot provide effective base support → Leads to [[Headquarters Position]]
+- **Opponent widens base and drops weight low to neutralize sweep angle** (Effectiveness: High) - Your Response: Switch to guard recovery since their wide base creates space for knee insertion and half guard recovery, or chain to deep half entry → Leads to [[Positions/Headquarters Position]]
+- **Opponent drives forward aggressively with crossface pressure to flatten you and pass** (Effectiveness: High) - Your Response: Use their forward momentum against them by timing the butterfly hook elevation as they drive in, converting their committed energy into sweep power → Leads to [[Positions/Mount]]
+- **Opponent backsteps away from the hook to avoid the sweep angle entirely** (Effectiveness: Medium) - Your Response: Follow their backstep with hip movement to maintain hook connection, or transition to shin-to-shin or De La Riva guard as they create distance → Leads to [[Positions/Headquarters Position]]
+- **Opponent posts their free hand on the mat to brace against the sweep direction** (Effectiveness: Medium) - Your Response: Attack the posting arm with a grip strip or redirect the sweep angle perpendicular to their post where the hand cannot provide effective base support → Leads to [[Positions/Headquarters Position]]
 
 
 </section>

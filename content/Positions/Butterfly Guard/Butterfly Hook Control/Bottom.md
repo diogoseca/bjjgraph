@@ -208,39 +208,39 @@ The fundamental mechanics rely on creating a lever system where your hooks act a
 
 ## Available Escapes
 
-### [[Butterfly Sweep]] (42% of attempts)
+### [[Transitions/Butterfly Sweep]] (42% of attempts)
 
-### [[Arm Drag to Back]] (9% of attempts)
+### [[Transitions/Arm Drag to Back]] (9% of attempts)
 
-### [[Butterfly Guard to X-Guard]] (6% of attempts)
+### [[Transitions/Butterfly Guard to X-Guard]] (6% of attempts)
 
-### [[Hook Sweep]] (5% of attempts)
+### [[Transitions/Hook Sweep]] (5% of attempts)
 
-### [[Elevator Sweep]] (5% of attempts)
+### [[Transitions/Elevator Sweep]] (5% of attempts)
 
-### [[Guillotine Setup]] (5% of attempts)
+### [[Transitions/Guillotine Setup]] (5% of attempts)
 
-### [[Deep Half Entry]] (6% of attempts)
+### [[Transitions/Deep Half Entry]] (6% of attempts)
 
-### [[Single Leg X Entry]] (5% of attempts)
+### [[Transitions/Single Leg X Entry]] (5% of attempts)
 
-### [[Butterfly Sweep with Guillotine]] (2% of attempts)
+### [[Transitions/Butterfly Sweep with Guillotine]] (2% of attempts)
 
-### [[Butterfly Hook Recovery]] (3% of attempts)
+### [[Transitions/Butterfly Hook Recovery]] (3% of attempts)
 
-### [[Kimura Sweep]] (4% of attempts)
+### [[Transitions/Kimura Sweep]] (4% of attempts)
 
-### [[Collar Drag]] (1% of attempts)
+### [[Transitions/Collar Drag]] (1% of attempts)
 
-### [[John Wayne Sweep]] (1% of attempts)
+### [[Transitions/John Wayne Sweep]] (1% of attempts)
 
-### [[Sumi Gaeshi]] (3% of attempts)
+### [[Transitions/Sumi Gaeshi]] (3% of attempts)
 
-### [[Arm Drag Sweep]] (2% of attempts)
+### [[Transitions/Arm Drag Sweep]] (2% of attempts)
 
-### [[Butterfly Hook Sweep]] (0% of attempts)
+### [[Transitions/Butterfly Hook Sweep]] (0% of attempts)
 
-### [[Reguard to Butterfly Guard]] (1% of attempts)
+### [[Transitions/Reguard to Butterfly Guard]] (1% of attempts)
 
 
 
@@ -251,23 +251,23 @@ The fundamental mechanics rely on creating a lever system where your hooks act a
 ## Decision Making from This Position
 
 **If opponent maintains upright posture in combat base with strong base:**
-- Execute **[[Butterfly Sweep]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Hook Sweep]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Hook Sweep]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent leans forward or attempts to drive pressure through you:**
-- Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Guillotine Setup]]** → [[Guillotine Control]] (Probability: 50%)
+- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 50%)
 
 
 **If opponent stands up to escape hooks or create distance:**
-- Execute **[[Butterfly Guard to X-Guard]]** → [[X-Guard]] (Probability: 70%)
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 60%)
+- Execute **[[Transitions/Butterfly Guard to X-Guard]]** → [[Positions/X-Guard]] (Probability: 70%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 60%)
 
 
 **If opponent attempts to smash hooks by driving knee through center:**
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 65%)
-- Execute **[[Elevator Sweep]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Elevator Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 
@@ -401,18 +401,18 @@ Flow between butterfly guard and related positions: X-Guard, Deep Half, Back Tak
 
 ## Related Positions and Techniques
 
-- **[[Butterfly Guard]]** - Parent position - general butterfly guard framework
-- **[[X-Guard]]** - Common transition target when opponent stands
-- **[[Deep Half Guard]]** - Transition option when opponent smashes hooks
-- **[[Single Leg X-Guard]]** - Related guard variation with single hook control
-- **[[Back Control]]** - High-percentage transition target via arm drag
-- **[[Combat Base]]** - Common opponent position when facing butterfly hooks
-- **[[Butterfly Sweep]]** - Primary offensive technique from this position
-- **[[Arm Drag to Back]]** - Key back take technique from butterfly hooks
-- **[[Elevator Sweep]]** - Alternative sweep when opponent drives forward
-- **[[Hook Sweep]]** - Rotational sweep option against wide base
-- **[[Guillotine Choke]]** - Submission threat when opponent's head drops
-- **[[Mount]]** - Primary finishing position after successful sweeps
+- **[[Positions/Butterfly Guard]]** - Parent position - general butterfly guard framework
+- **[[Positions/X-Guard]]** - Common transition target when opponent stands
+- **[[Positions/Half Guard/Deep Half Guard]]** - Transition option when opponent smashes hooks
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Related guard variation with single hook control
+- **[[Positions/Back Control]]** - High-percentage transition target via arm drag
+- **[[Positions/Combat Base]]** - Common opponent position when facing butterfly hooks
+- **[[Transitions/Butterfly Sweep]]** - Primary offensive technique from this position
+- **[[Transitions/Arm Drag to Back]]** - Key back take technique from butterfly hooks
+- **[[Transitions/Elevator Sweep]]** - Alternative sweep when opponent drives forward
+- **[[Transitions/Hook Sweep]]** - Rotational sweep option against wide base
+- **[[Transitions/Guillotine Choke]]** - Submission threat when opponent's head drops
+- **[[Positions/Mount]]** - Primary finishing position after successful sweeps
 
 
 </section>

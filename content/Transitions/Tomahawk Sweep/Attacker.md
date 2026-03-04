@@ -180,7 +180,7 @@ description: "How to execute Tomahawk Sweep in BJJ. Attacking perspective with s
 
 The Tomahawk Sweep is a dynamic and powerful technique executed from X-Guard that capitalizes on hook leverage and angular momentum to sweep opponents directly to mount or side control. Named for its chopping motion that resembles a tomahawk strike, this sweep exemplifies the offensive potential of X-Guard positions. The technique combines precise hook placement, grip control, and explosive hip extension to destabilize even heavy opponents with superior base. Unlike traditional X-Guard sweeps that often result in scrambles or top position transitions, the Tomahawk Sweep creates a direct pathway to dominant positions when executed with proper timing and angle creation. This sweep is particularly effective against opponents who maintain upright posture while defending X-Guard, as their vertical base becomes a liability when the sweeping motion is initiated. The Tomahawk Sweep represents an essential component of modern guard retention and sweeping systems, offering practitioners a reliable method for reversing bottom positions into top control with minimal energy expenditure.
 
-**From Position**: [[X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard]] (Bottom)
 
 </section>
 
@@ -235,9 +235,9 @@ The Tomahawk Sweep is a dynamic and powerful technique executed from X-Guard tha
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 58% |
-| Failure | [[X-Guard]] | 30% |
-| Counter | [[X-Guard]] | 12% |
+| Success | [[Positions/Mount]] | 58% |
+| Failure | [[Positions/X-Guard]] | 30% |
+| Counter | [[Positions/X-Guard]] | 12% |
 
 
 </section>
@@ -246,10 +246,10 @@ The Tomahawk Sweep is a dynamic and powerful technique executed from X-Guard tha
 
 ## Opponent Counters
 
-- **Opponent bases out with free hand while maintaining wide stance to resist rotational force** (Effectiveness: High) - Your Response: Switch to alternative X-Guard sweep targeting the posted arm, or transition to single leg X-guard to attack the weighted leg. Can also use their posted hand as leverage point to increase sweep angle and overcome their base with adjusted mechanics. → Leads to [[X-Guard]]
-- **Opponent drops weight low and sprawls hips backward to lower center of gravity** (Effectiveness: Medium) - Your Response: Immediately transition to ankle lock or heel hook entries as their defensive posture creates leg entanglement opportunities. The sprawl backward exposes their legs. Alternatively, switch to technical standup and enter wrestling positions rather than forcing the sweep against heavy backward pressure. → Leads to [[X-Guard]]
-- **Opponent strips top hook before sweep can be initiated by pushing knee outward** (Effectiveness: High) - Your Response: Convert to single leg X-guard position and execute alternative sweeps from that structure. Can also use the hook stripping motion to time an entry into Ashi Garami positions for leg attack sequences, as their focus on the hook leaves their base vulnerable. → Leads to [[X-Guard]]
-- **Opponent rotates hips away from sweep direction and attempts to backstep pass** (Effectiveness: Medium) - Your Response: Follow their rotation and switch sweep direction to the opposite side, using their defensive rotation as momentum for the counter-sweep. Alternatively, if they commit too far, release hooks and transition to Reverse X-Guard to attack from the new angle they created. → Leads to [[X-Guard]]
+- **Opponent bases out with free hand while maintaining wide stance to resist rotational force** (Effectiveness: High) - Your Response: Switch to alternative X-Guard sweep targeting the posted arm, or transition to single leg X-guard to attack the weighted leg. Can also use their posted hand as leverage point to increase sweep angle and overcome their base with adjusted mechanics. → Leads to [[Positions/X-Guard]]
+- **Opponent drops weight low and sprawls hips backward to lower center of gravity** (Effectiveness: Medium) - Your Response: Immediately transition to ankle lock or heel hook entries as their defensive posture creates leg entanglement opportunities. The sprawl backward exposes their legs. Alternatively, switch to technical standup and enter wrestling positions rather than forcing the sweep against heavy backward pressure. → Leads to [[Positions/X-Guard]]
+- **Opponent strips top hook before sweep can be initiated by pushing knee outward** (Effectiveness: High) - Your Response: Convert to single leg X-guard position and execute alternative sweeps from that structure. Can also use the hook stripping motion to time an entry into Ashi Garami positions for leg attack sequences, as their focus on the hook leaves their base vulnerable. → Leads to [[Positions/X-Guard]]
+- **Opponent rotates hips away from sweep direction and attempts to backstep pass** (Effectiveness: Medium) - Your Response: Follow their rotation and switch sweep direction to the opposite side, using their defensive rotation as momentum for the counter-sweep. Alternatively, if they commit too far, release hooks and transition to Reverse X-Guard to attack from the new angle they created. → Leads to [[Positions/X-Guard]]
 
 
 </section>

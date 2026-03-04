@@ -21,7 +21,7 @@ The technique exploits the opponent's forward pressure and arm positioning by re
 
 What makes the arm drag sweep particularly powerful in modern BJJ is its adaptability across gi and no-gi contexts, its effectiveness against both conservative and aggressive opponents, and its natural integration into submission chains. The technique serves as a gateway movement that opens multiple attacking sequences while maintaining offensive pressure throughout the transition.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 65%
 
 </section>
@@ -32,10 +32,10 @@ What makes the arm drag sweep particularly powerful in modern BJJ is its adaptab
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 45% |
-| Success | [[Side Control]] | 20% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 45% |
+| Success | [[Positions/Side Control]] | 20% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -197,25 +197,25 @@ The arm drag sweep occupies a central position in the guard player's offensive s
 ## Related Techniques
 
 
-- [[Arm Drag to Back]] - Core variation sharing the same initial setup but committing to back control instead of sweep
+- [[Transitions/Arm Drag to Back]] - Core variation sharing the same initial setup but committing to back control instead of sweep
 
-- [[Hip Bump Sweep]] - Alternative guard sweep from closed guard that chains naturally with arm drag when opponent postures
+- [[Transitions/Hip Bump Sweep]] - Alternative guard sweep from closed guard that chains naturally with arm drag when opponent postures
 
-- [[Butterfly Sweep]] - Complementary sweep from butterfly guard using different off-balancing principles
+- [[Transitions/Butterfly Sweep]] - Complementary sweep from butterfly guard using different off-balancing principles
 
-- [[Scissor Sweep]] - Alternative closed guard sweep that can be chained when opponent defends arm drag
+- [[Transitions/Scissor Sweep]] - Alternative closed guard sweep that can be chained when opponent defends arm drag
 
-- [[Back Control]] - Primary destination position when opponent posts to defend the sweep
+- [[Positions/Back Control]] - Primary destination position when opponent posts to defend the sweep
 
-- [[Closed Guard]] - Starting position and reset position when technique fails
+- [[Positions/Closed Guard]] - Starting position and reset position when technique fails
 
-- [[Kimura from Guard]] - Submission attack available on opponent's posted arm when they defend the sweep
+- [[Submissions/Kimura from Guard]] - Submission attack available on opponent's posted arm when they defend the sweep
 
-- [[Arm Drag]] - Foundational grip and motion that underlies this sweep variation
+- [[Transitions/Arm Drag]] - Foundational grip and motion that underlies this sweep variation
 
-- [[Flower Sweep]] - Complementary closed guard sweep using opposite-direction off-balancing
+- [[Transitions/Flower Sweep]] - Complementary closed guard sweep using opposite-direction off-balancing
 
-- [[Pendulum Sweep]] - Alternative sweep available when opponent drives forward to counter arm drag angle
+- [[Transitions/Pendulum Sweep]] - Alternative sweep available when opponent drives forward to counter arm drag angle
 
 
 </section>

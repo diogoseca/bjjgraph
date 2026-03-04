@@ -21,7 +21,7 @@ The mechanics center on the bottom player's ability to rotate from the inverted 
 
 Strategically, this transition creates a powerful dilemma for the top player in deep half guard. If they maintain position, they face deep half sweeps like the waiter sweep and old school sweep. If they attempt to extract and disengage, they expose themselves to X-Guard entry and the powerful elevation sweeps that follow. This catch-22 dynamic makes the deep half to X-Guard chain one of the most effective bottom game systems in modern grappling, used extensively by elite competitors in both gi and no-gi competition.
 
-**From Position**: [[Deep Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition creates a powerful dilemma for the top player in 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[X-Guard]] | 55% |
-| Failure | [[Deep Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/X-Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Deep Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Deep Half to X-Guard transition serves as a critical link between two major 
 ## Related Techniques
 
 
-- [[Deep Half Guard]] - Source position from which this transition initiates
+- [[Positions/Half Guard/Deep Half Guard]] - Source position from which this transition initiates
 
-- [[X-Guard]] - Target position reached on successful transition
+- [[Positions/X-Guard]] - Target position reached on successful transition
 
-- [[Single Leg X-Guard]] - Alternative target when full X-Guard hooks cannot be established
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative target when full X-Guard hooks cannot be established
 
-- [[Half Guard]] - Parent guard system and fallback when transition is countered
+- [[Positions/Half Guard]] - Parent guard system and fallback when transition is countered
 
-- [[Butterfly Guard]] - Related guard sharing underhook and elevation mechanics
+- [[Positions/Butterfly Guard]] - Related guard sharing underhook and elevation mechanics
 
-- [[Deep Half Sweep]] - Alternative attack from same position that creates the dilemma enabling this transition
+- [[Transitions/Deep Half Sweep]] - Alternative attack from same position that creates the dilemma enabling this transition
 
-- [[X-Guard Sweep]] - Primary follow-up technique after successful transition to X-Guard
+- [[Transitions/X-Guard Sweep]] - Primary follow-up technique after successful transition to X-Guard
 
-- [[Single Leg X Entry]] - Related transition for when hooks become shallow during X-Guard entry
+- [[Transitions/Single Leg X Entry]] - Related transition for when hooks become shallow during X-Guard entry
 
-- [[Waiter Sweep]] - Complementary deep half attack that threatens when opponent resists X-Guard entry
+- [[Transitions/Waiter Sweep]] - Complementary deep half attack that threatens when opponent resists X-Guard entry
 
-- [[Backstep from Deep Half]] - Opponent's counter-technique that may trigger this transition as a defensive response
+- [[Transitions/Backstep from Deep Half]] - Opponent's counter-technique that may trigger this transition as a defensive response
 
 
 </section>

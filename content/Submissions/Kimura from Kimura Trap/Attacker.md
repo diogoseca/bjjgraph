@@ -182,7 +182,7 @@ description: "Learn to finish the Kimura from Kimura Trap as the attacker. Step-
 
 Executing the Kimura from Kimura Trap requires mastering the transition from positional control to active submission finishing. The attacker must recognize the precise moment when the opponent's defensive structure has deteriorated enough to begin the finishing sequence—attempting too early against intact defenses wastes energy and may compromise the grip. The process involves creating the proper finishing angle by walking feet toward the opponent's head in an arc, generating rotational force through hip positioning and body mechanics rather than arm strength alone, and maintaining heavy chest pressure throughout to prevent the opponent from creating escape space or rolling out of the submission. The key distinction from standard Kimura finishes is that the Kimura Trap system provides superior grip depth, sustained control, and multiple layers of positional dominance that enable a methodical, high-percentage finishing approach where the opponent's defensive options are systematically eliminated before the final rotational pressure is applied.
 
-**From Position**: [[Kimura Trap]] (Top)
+**From Position**: [[Positions/Kimura Trap]] (Top)
 
 
 </section>
@@ -236,8 +236,8 @@ Executing the Kimura from Kimura Trap requires mastering the transition from pos
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Kimura Trap]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Kimura Trap]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -246,10 +246,10 @@ Executing the Kimura from Kimura Trap requires mastering the transition from pos
 
 ## Opponent Defenses
 
-- **Opponent clasps hands together using gable grip or S-grip to prevent arm rotation** (Effectiveness: High) - Your Response: Use systematic grip breaks: insert knee between their hands, peel top hand with your free hand, or apply stepover pressure. If grip persists, walk angle further toward their head to increase baseline shoulder pressure even without rotation. → Leads to [[Kimura Trap]]
-- **Opponent straightens trapped arm and attempts to extract from figure-four grip** (Effectiveness: Medium) - Your Response: Maintain wrist control and immediately switch to armbar by swinging your leg over their face while keeping the wrist trapped. Their straightened arm actually facilitates the armbar transition. If armbar is not available, re-bend the arm and re-establish figure-four depth. → Leads to [[Half Guard]]
-- **Opponent bridges and rolls toward the Kimura side to relieve shoulder pressure and create scramble** (Effectiveness: Medium) - Your Response: Follow their roll by maintaining the Kimura grip and transitioning to back control as they expose their back. Use their rolling momentum to swing your top leg over and establish hooks. The grip ensures offensive threat throughout the transition. → Leads to [[Kimura Trap]]
-- **Opponent tucks elbow extremely tight to their ribcage preventing any finishing angle development** (Effectiveness: High) - Your Response: Walk feet further toward their head to create an even sharper angle that gradually pries the elbow away from the body. Alternatively, transition to north-south position where the different leverage angle often opens the elbow. Use the Kimura threat to advance position to mount if the finish stalls. → Leads to [[Kimura Trap]]
+- **Opponent clasps hands together using gable grip or S-grip to prevent arm rotation** (Effectiveness: High) - Your Response: Use systematic grip breaks: insert knee between their hands, peel top hand with your free hand, or apply stepover pressure. If grip persists, walk angle further toward their head to increase baseline shoulder pressure even without rotation. → Leads to [[Positions/Kimura Trap]]
+- **Opponent straightens trapped arm and attempts to extract from figure-four grip** (Effectiveness: Medium) - Your Response: Maintain wrist control and immediately switch to armbar by swinging your leg over their face while keeping the wrist trapped. Their straightened arm actually facilitates the armbar transition. If armbar is not available, re-bend the arm and re-establish figure-four depth. → Leads to [[Positions/Half Guard]]
+- **Opponent bridges and rolls toward the Kimura side to relieve shoulder pressure and create scramble** (Effectiveness: Medium) - Your Response: Follow their roll by maintaining the Kimura grip and transitioning to back control as they expose their back. Use their rolling momentum to swing your top leg over and establish hooks. The grip ensures offensive threat throughout the transition. → Leads to [[Positions/Kimura Trap]]
+- **Opponent tucks elbow extremely tight to their ribcage preventing any finishing angle development** (Effectiveness: High) - Your Response: Walk feet further toward their head to create an even sharper angle that gradually pries the elbow away from the body. Alternatively, transition to north-south position where the different leverage angle often opens the elbow. Use the Kimura threat to advance position to mount if the finish stalls. → Leads to [[Positions/Kimura Trap]]
 
 
 </section>

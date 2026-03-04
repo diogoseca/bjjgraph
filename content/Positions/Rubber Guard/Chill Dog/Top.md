@@ -215,25 +215,25 @@ In no-gi competition especially, Chill Dog Top tests your ability to maintain po
 
 ## Available Attacks
 
-### [[Turtle to Back Control]] (31% of attempts)
+### [[Transitions/Turtle to Back Control]] (31% of attempts)
 
-### [[Crucifix from Turtle]] (12% of attempts)
+### [[Transitions/Crucifix from Turtle]] (12% of attempts)
 
-### [[Darce Setup]] (10% of attempts)
+### [[Transitions/Darce Setup]] (10% of attempts)
 
-### [[Anaconda Setup]] (9% of attempts)
+### [[Transitions/Anaconda Setup]] (9% of attempts)
 
-### [[Front Headlock to Back]] (12% of attempts)
+### [[Transitions/Front Headlock to Back]] (12% of attempts)
 
-### [[Truck Entry]] (10% of attempts)
+### [[Transitions/Truck Entry]] (10% of attempts)
 
-### [[Guillotine Setup]] (9% of attempts)
+### [[Transitions/Guillotine Setup]] (9% of attempts)
 
-### [[Posture from Chill Dog]] (4% of attempts)
+### [[Transitions/Posture from Chill Dog]] (4% of attempts)
 
-### [[Stack from Chill Dog]] (2% of attempts)
+### [[Transitions/Stack from Chill Dog]] (2% of attempts)
 
-### [[Guard Pass from Chill Dog]] (1% of attempts)
+### [[Transitions/Guard Pass from Chill Dog]] (1% of attempts)
 
 
 
@@ -244,28 +244,28 @@ In no-gi competition especially, Chill Dog Top tests your ability to maintain po
 ## Decision Making from This Position
 
 **If bottom player maintains tight defensive frame with elbows to knees:**
-- Execute **[[Establish chest pressure and fight for hip control]]** → [[Back Control]] (Probability: 45%)
-- Execute **[[Circle to front headlock position]]** → [[Front Headlock]] (Probability: 40%)
+- Execute **[[Establish chest pressure and fight for hip control]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Circle to front headlock position]]** → [[Positions/Front Headlock]] (Probability: 40%)
 
 
 **If bottom player's elbow separates from knee on one side:**
-- Execute **[[Insert near hook and establish back control]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Trap arm for crucifix position]]** → [[Crucifix]] (Probability: 50%)
+- Execute **[[Insert near hook and establish back control]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Trap arm for crucifix position]]** → [[Positions/Crucifix]] (Probability: 50%)
 
 
 **If bottom player attempts Granby roll or forward roll escape:**
-- Execute **[[Follow roll and establish back control]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Intercept with front headlock]]** → [[Front Headlock]] (Probability: 45%)
+- Execute **[[Follow roll and establish back control]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Intercept with front headlock]]** → [[Positions/Front Headlock]] (Probability: 45%)
 
 
 **If bottom player attempts to stand up:**
-- Execute **[[Snap down to front headlock]]** → [[Front Headlock]] (Probability: 60%)
-- Execute **[[Establish standing back control]]** → [[Standing Back Control]] (Probability: 50%)
+- Execute **[[Snap down to front headlock]]** → [[Positions/Front Headlock]] (Probability: 60%)
+- Execute **[[Establish standing back control]]** → [[Positions/Back Control/Standing Back Control]] (Probability: 50%)
 
 
 **If bottom player's hips turn exposing near side:**
-- Execute **[[Establish truck position]]** → [[Cross Body Ride]] (Probability: 55%)
-- Execute **[[Insert near hook for back control]]** → [[Back Control]] (Probability: 50%)
+- Execute **[[Establish truck position]]** → [[Positions/Cross Body Ride]] (Probability: 55%)
+- Execute **[[Insert near hook for back control]]** → [[Positions/Back Control]] (Probability: 50%)
 
 
 
@@ -411,16 +411,16 @@ Start every round with partner in Chill Dog and you attacking from top. You scor
 
 ## Related Positions and Techniques
 
-- **[[Turtle]]** - Parent position - attacking opponent in turtle variant
-- **[[Back Control]]** - Primary objective when attacking Chill Dog
-- **[[Crucifix]]** - Alternative attack when arm is isolated
-- **[[Front Headlock]]** - Common control position when opponent lifts head or attempts stand-up
-- **[[Turtle to Back Control]]** - Primary transition technique from this position
-- **[[Crucifix from Turtle]]** - Arm isolation technique when defensive frame breaks
-- **[[Darce Setup]]** - Front headlock choke option when opponent turns into you
-- **[[Anaconda Setup]]** - Alternative front headlock choke when arm is trapped
-- **[[Rear Naked Choke]]** - Primary submission after establishing back control
-- **[[Truck Entry]]** - 10th Planet-specific attack when opponent's hips turn
+- **[[Positions/Turtle]]** - Parent position - attacking opponent in turtle variant
+- **[[Positions/Back Control]]** - Primary objective when attacking Chill Dog
+- **[[Positions/Crucifix]]** - Alternative attack when arm is isolated
+- **[[Positions/Front Headlock]]** - Common control position when opponent lifts head or attempts stand-up
+- **[[Transitions/Turtle to Back Control]]** - Primary transition technique from this position
+- **[[Transitions/Crucifix from Turtle]]** - Arm isolation technique when defensive frame breaks
+- **[[Transitions/Darce Setup]]** - Front headlock choke option when opponent turns into you
+- **[[Transitions/Anaconda Setup]]** - Alternative front headlock choke when arm is trapped
+- **[[Transitions/Rear Naked Choke]]** - Primary submission after establishing back control
+- **[[Transitions/Truck Entry]]** - 10th Planet-specific attack when opponent's hips turn
 
 
 </section>

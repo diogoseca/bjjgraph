@@ -158,7 +158,7 @@ The defensive window is narrowest during the leg swing phase, when the attacker 
 
 The key defensive principle is to prevent the conditions that enable the triangle: arm isolation and broken posture. Maintaining strong upright posture denies the hip angle the attacker needs, while keeping both arms either inside or outside the lapel wrap removes the one-in-one-out prerequisite. Experienced defenders also exploit the transition moment when the attacker must release the lapel to complete the lock—this brief window where control transfers from fabric to legs represents the best escape opportunity in the sequence.
 
-**Opponent's Starting Position**: [[Lapel Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ The key defensive principle is to prevent the conditions that enable the triangl
 ### 1. Strip lapel grip and recover posture immediately by pushing off opponent's hips while driving your spine upright
 
 - **When to use**: Early in the setup before opponent has created the perpendicular hip angle—the sooner you address the lapel, the easier the grip break
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Opponent loses arm isolation and must re-establish the lapel configuration from scratch, resetting to neutral lapel guard exchange
 - **Risk**: If grip strip fails, you've committed both hands to the lapel and temporarily abandoned posture control, potentially accelerating the triangle entry
 
 ### 2. Drive forward with strong posture, stacking opponent's hips over their shoulders while keeping your trapped arm tight to your body
 
 - **When to use**: When opponent has begun the hip angle but hasn't yet swung the leg over—your forward drive compresses their ability to create space for the leg swing
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Opponent's hip angle is neutralized, their leg swing is blocked, and you can work to pass from the compressed position
 - **Risk**: Over-committing to the stack can open omoplata or sweep opportunities if opponent redirects your forward momentum
 
 ### 3. Drive knee through center of opponent's guard to split their legs and prevent the triangle leg from reaching your neck
 
 - **When to use**: When opponent begins elevating the attacking leg—your knee insertion must beat their leg swing to be effective
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You split the guard structure and begin passing, typically reaching half guard or side control as the triangle entry is blocked
 - **Risk**: If the knee drive is late, you may end up with your head trapped and the triangle partially locked around your neck and knee
 
 ### 4. Circle away from the trapped-arm side while fighting to extract your arm from the lapel wrap
 
 - **When to use**: When the lapel grip is too deep to strip directly—lateral movement reduces the mechanical advantage of the wrap and creates slack in the fabric
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: The circling creates enough slack in the lapel configuration to extract your arm or at minimum prevents the perpendicular angle needed for triangle entry
 - **Risk**: Circling in the wrong direction (toward trapped arm) actually loads the sweep and accelerates the triangle entry angle
 
@@ -228,11 +228,11 @@ The key defensive principle is to prevent the conditions that enable the triangl
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lapel Guard]]
+### → [[Positions/Lapel Guard]]
 
 Strip the lapel grip early before arm isolation deepens, then recover posture and begin addressing the remaining lapel configuration. Prioritize removing the fabric from around your arm or leg before the opponent can re-establish the wrap. Once the lapel is cleared, initiate standard open guard passing.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the triangle entry is partially blocked through knee insertion or stacking, drive through to establish half guard top by pinning opponent's leg between yours. Use the failed triangle attempt as a passing opportunity—the opponent's commitment to the leg swing often leaves their lower body vulnerable to leg drag or knee slice entries.
 

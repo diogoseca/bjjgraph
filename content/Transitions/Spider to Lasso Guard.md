@@ -21,7 +21,7 @@ The critical timing window occurs when the bottom player releases foot pressure 
 
 Strategically, this transition is most effective when the opponent begins settling against spider guard or attempts to break foot-on-bicep pressure. Rather than fighting to maintain spider hooks against active grip-breaking, the bottom player converts the opponent's defensive action into an opportunity to establish superior control. Advanced practitioners use the Spider to Lasso transition reactively, converting to lasso on whichever side the opponent addresses, turning defensive grip fighting into offensive guard enhancement.
 
-**From Position**: [[Spider Guard]] (Bottom)
+**From Position**: [[Positions/Spider Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition is most effective when the opponent begins settli
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Lasso Guard]] | 55% |
-| Failure | [[Spider Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Lasso Guard]] | 55% |
+| Failure | [[Positions/Spider Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Spider to Lasso Guard transition occupies a central role in gi-based open gu
 ## Related Techniques
 
 
-- [[Spider Guard]] - Source position from which this transition initiates, providing the bilateral sleeve control foundation
+- [[Positions/Spider Guard]] - Source position from which this transition initiates, providing the bilateral sleeve control foundation
 
-- [[Lasso Guard]] - Target position achieved on success, providing asymmetric lever control and enhanced sweep options
+- [[Positions/Lasso Guard]] - Target position achieved on success, providing asymmetric lever control and enhanced sweep options
 
-- [[Open Guard]] - Parent guard category and fallback position if both spider and lasso controls are lost during transition
+- [[Positions/Open Guard]] - Parent guard category and fallback position if both spider and lasso controls are lost during transition
 
-- [[Lasso Sweep]] - Primary follow-up sweep technique available immediately after establishing lasso guard
+- [[Transitions/Lasso Sweep]] - Primary follow-up sweep technique available immediately after establishing lasso guard
 
-- [[Omoplata from Lasso]] - High-percentage submission entry from completed lasso guard when opponent drives forward
+- [[Transitions/Omoplata from Lasso]] - High-percentage submission entry from completed lasso guard when opponent drives forward
 
-- [[Spider Sweep]] - Alternative attack from spider guard if lasso transition is not available
+- [[Transitions/Spider Sweep]] - Alternative attack from spider guard if lasso transition is not available
 
-- [[De La Riva Guard]] - Complementary guard that combines with lasso on opposite side for hybrid control systems
+- [[Positions/De La Riva Guard]] - Complementary guard that combines with lasso on opposite side for hybrid control systems
 
-- [[Collar Sleeve Guard]] - Related guard position that can serve as intermediate entry point for the lasso transition
+- [[Positions/Collar Sleeve Guard]] - Related guard position that can serve as intermediate entry point for the lasso transition
 
-- [[Inverted Lasso Guard]] - Advanced lasso variation accessible after establishing standard lasso through this transition
+- [[Positions/Lasso Guard/Inverted Lasso Guard]] - Advanced lasso variation accessible after establishing standard lasso through this transition
 
-- [[Lasso Guard to Russian Leg Lasso]] - Follow-up transition to escalate lasso control by threading both legs through opponent's arms
+- [[Transitions/Lasso Guard to Russian Leg Lasso]] - Follow-up transition to escalate lasso control by threading both legs through opponent's arms
 
 
 </section>

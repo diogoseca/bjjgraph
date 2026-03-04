@@ -180,7 +180,7 @@ description: "Master the offensive execution of the Scissor Sweep from Open Guar
 
 Executing the Scissor Sweep from Open Guard requires precise coordination between grip establishment, hip positioning, and the timing of the scissoring leg action. The sweep's power comes from creating opposing rotational forces - your top shin drives laterally across the opponent's midsection while your bottom leg sweeps their near knee in the opposite direction, generating a torque that displaces their base. Success depends on breaking the opponent's posture with your collar grip before initiating the scissor, then committing fully to the directional sweep with explosive hip rotation. The technique rewards patience in setup and explosiveness in execution, making it a fundamental building block for any open guard sweep system. At the purple and brown belt level, the scissor sweep becomes a positional weapon not just for the sweep itself but for the reactions it forces, opening chains into triangles, collar drags, and armbar entries.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Scissor Sweep from Open Guard requires precise coordination betwee
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Open Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Open Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Scissor Sweep from Open Guard requires precise coordination betwee
 
 ## Opponent Counters
 
-- **Opponent posts their far hand wide and bases out laterally to resist the toppling force of the scissor** (Effectiveness: High) - Your Response: Switch to a collar drag using the established collar grip to pull them forward in the opposite direction, or transition to an arm drag on the posted arm to expose their back → Leads to [[Open Guard]]
-- **Opponent drives forward aggressively, stacking your hips and flattening your scissor angle before the sweep develops** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by transitioning to a butterfly hook elevation or pulling them into closed guard to set up a hip bump sweep from the committed forward pressure → Leads to [[Open Guard]]
-- **Opponent strips the sleeve grip and posts their hand, then uses the opening to backstep or pressure pass through the committed leg position** (Effectiveness: High) - Your Response: Immediately re-establish a control point on their posting arm or frame on their shoulder, then recover guard by inserting your knee shield before they complete the pass → Leads to [[Side Control]]
-- **Opponent stands up tall with strong posture, removing their weight entirely from the scissoring range** (Effectiveness: Medium) - Your Response: Transition to feet-on-hips guard using the existing collar grip, then work a tripod or sickle sweep combination designed for standing opponents where the collar grip provides the pull → Leads to [[Open Guard]]
+- **Opponent posts their far hand wide and bases out laterally to resist the toppling force of the scissor** (Effectiveness: High) - Your Response: Switch to a collar drag using the established collar grip to pull them forward in the opposite direction, or transition to an arm drag on the posted arm to expose their back → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward aggressively, stacking your hips and flattening your scissor angle before the sweep develops** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by transitioning to a butterfly hook elevation or pulling them into closed guard to set up a hip bump sweep from the committed forward pressure → Leads to [[Positions/Open Guard]]
+- **Opponent strips the sleeve grip and posts their hand, then uses the opening to backstep or pressure pass through the committed leg position** (Effectiveness: High) - Your Response: Immediately re-establish a control point on their posting arm or frame on their shoulder, then recover guard by inserting your knee shield before they complete the pass → Leads to [[Positions/Side Control]]
+- **Opponent stands up tall with strong posture, removing their weight entirely from the scissoring range** (Effectiveness: Medium) - Your Response: Transition to feet-on-hips guard using the existing collar grip, then work a tripod or sickle sweep combination designed for standing opponents where the collar grip provides the pull → Leads to [[Positions/Open Guard]]
 
 
 </section>

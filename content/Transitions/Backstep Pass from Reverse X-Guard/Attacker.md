@@ -180,7 +180,7 @@ description: "Complete guide to executing the Backstep Pass from Reverse X-Guard
 
 The attacker executing the Backstep Pass from Reverse X-Guard must combine precise timing with controlled rotational mechanics to clear the opponent's hook entanglement. The technique begins from the compromised position of Reverse X-Guard Top, where the opponent's hooks threaten sweeps and leg attacks. Rather than fighting directly against the hooks, the attacker uses the backstep rotation to redirect the opponent's control structure, converting their hook commitment into a passing angle. Success requires controlling the opponent's upper body throughout the rotation to prevent them from following the movement with an inversion, and immediately consolidating side control upon landing before the opponent can recover guard.
 
-**From Position**: [[Reverse X-Guard]] (Top)
+**From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Top)
 
 </section>
 
@@ -232,10 +232,10 @@ The attacker executing the Backstep Pass from Reverse X-Guard must combine preci
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Success | [[Half Guard]] | 10% |
-| Failure | [[Reverse X-Guard]] | 25% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Side Control]] | 50% |
+| Success | [[Positions/Half Guard]] | 10% |
+| Failure | [[Positions/X-Guard/Reverse X-Guard]] | 25% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ The attacker executing the Backstep Pass from Reverse X-Guard must combine preci
 
 ## Opponent Counters
 
-- **Opponent inverts and follows the backstep rotation to take the back** (Effectiveness: High) - Your Response: Accelerate the rotation speed and maintain strong upper body grip control to prevent the opponent from completing the inversion. If they begin inverting, immediately sit through and face them rather than completing the backstep with your back exposed. → Leads to [[Back Control]]
-- **Opponent extends hooks fully and resists rotation by stiffening legs** (Effectiveness: Medium) - Your Response: Use the hook extension against them by changing direction—instead of continuing the backstep, collapse forward into a smash pass over the extended legs. The stiffened legs become easier to control when you drive pressure downward. → Leads to [[Reverse X-Guard]]
-- **Opponent transitions to Single Leg X-Guard during the backstep by rethreading hooks** (Effectiveness: Medium) - Your Response: Recognize the guard change immediately and adjust your backstep angle. If they rethreaded hooks into Single Leg X, continue the backstep with a wider arc to clear the new hook configuration, or transition to a backstep from Single Leg X technique. → Leads to [[Reverse X-Guard]]
-- **Opponent grabs your ankle to prevent the backstep completion** (Effectiveness: Low) - Your Response: Strip the ankle grip with your free hand before or during the backstep rotation. If the grip is strong, use the rotation itself to torque against their grip angle, breaking it through angular pressure rather than direct pulling. → Leads to [[Reverse X-Guard]]
+- **Opponent inverts and follows the backstep rotation to take the back** (Effectiveness: High) - Your Response: Accelerate the rotation speed and maintain strong upper body grip control to prevent the opponent from completing the inversion. If they begin inverting, immediately sit through and face them rather than completing the backstep with your back exposed. → Leads to [[Positions/Back Control]]
+- **Opponent extends hooks fully and resists rotation by stiffening legs** (Effectiveness: Medium) - Your Response: Use the hook extension against them by changing direction—instead of continuing the backstep, collapse forward into a smash pass over the extended legs. The stiffened legs become easier to control when you drive pressure downward. → Leads to [[Positions/X-Guard/Reverse X-Guard]]
+- **Opponent transitions to Single Leg X-Guard during the backstep by rethreading hooks** (Effectiveness: Medium) - Your Response: Recognize the guard change immediately and adjust your backstep angle. If they rethreaded hooks into Single Leg X, continue the backstep with a wider arc to clear the new hook configuration, or transition to a backstep from Single Leg X technique. → Leads to [[Positions/X-Guard/Reverse X-Guard]]
+- **Opponent grabs your ankle to prevent the backstep completion** (Effectiveness: Low) - Your Response: Strip the ankle grip with your free hand before or during the backstep rotation. If the grip is strong, use the rotation itself to torque against their grip angle, breaking it through angular pressure rather than direct pulling. → Leads to [[Positions/X-Guard/Reverse X-Guard]]
 
 
 </section>

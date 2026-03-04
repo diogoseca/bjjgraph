@@ -21,7 +21,7 @@ What makes this pass particularly effective is its ability to shut down the bott
 
 This pass represents a cornerstone of modern guard passing systems because it works equally well in gi and no-gi, against all body types, and connects seamlessly to other passing options. When executed with proper timing and pressure, the knee slice becomes nearly unstoppable, forcing the opponent into increasingly desperate defensive reactions that open them up to back takes, mount transitions, or submission attacks.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 68%
 
 </section>
@@ -32,9 +32,9 @@ This pass represents a cornerstone of modern guard passing systems because it wo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 75% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Deep Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 75% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 10% |
 
 
 </section>
@@ -193,29 +193,29 @@ The Knee Slice from Half Guard serves as a central technique in virtually all mo
 ## Related Techniques
 
 
-- [[Knee Slice Pass]] - Parent technique covering all knee slice variations
+- [[Transitions/Knee Slice Pass]] - Parent technique covering all knee slice variations
 
-- [[Knee Cut Pass]] - Alternative pass from similar position with sharper angle
+- [[Transitions/Knee Cut Pass]] - Alternative pass from similar position with sharper angle
 
-- [[Long Step Pass]] - Follow-up when knee slice is defended
+- [[Transitions/Long Step Pass]] - Follow-up when knee slice is defended
 
-- [[Underhook Pass]] - Alternative when underhook is established
+- [[Transitions/Underhook Pass]] - Alternative when underhook is established
 
-- [[Leg Weave Pass]] - Counter to leg grab defense during knee slice
+- [[Transitions/Leg Weave Pass]] - Counter to leg grab defense during knee slice
 
-- [[Crossface Pass]] - Complementary technique emphasizing same upper body control
+- [[Transitions/Crossface Pass]] - Complementary technique emphasizing same upper body control
 
-- [[Side Control]] - Primary ending position after successful pass
+- [[Positions/Side Control]] - Primary ending position after successful pass
 
-- [[Knee on Belly]] - Alternative ending position for more dynamic control
+- [[Positions/Knee on Belly]] - Alternative ending position for more dynamic control
 
-- [[Kimura from Half Guard]] - Submission threat available during passing sequence
+- [[Transitions/Kimura from Half Guard]] - Submission threat available during passing sequence
 
-- [[Deep Half Guard]] - Common counter position when opponent goes underneath
+- [[Positions/Half Guard/Deep Half Guard]] - Common counter position when opponent goes underneath
 
-- [[Half Guard]] - Starting position for this pass
+- [[Positions/Half Guard]] - Starting position for this pass
 
-- [[Back Step Pass]] - Chain attack when knee slice is blocked
+- [[Transitions/Back Step Pass]] - Chain attack when knee slice is blocked
 
 
 </section>

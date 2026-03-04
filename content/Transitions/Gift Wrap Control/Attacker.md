@@ -178,7 +178,7 @@ The strategic value of the Gift Wrap lies in its dual function as both a control
 
 In competition and training contexts, the Gift Wrap serves as a transitional hub position. From here, you can advance to mount with virtually no resistance, take the back by rolling the opponent toward their trapped arm, or finish with collar chokes and arm attacks. Understanding when and how to establish this control—particularly reading the opponent's defensive arm positioning—separates intermediate practitioners from advanced ones who can systematically shut down escape attempts.
 
-**From Position**: [[Kuzure Kesa-Gatame]] (Top)
+**From Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ In competition and training contexts, the Gift Wrap serves as a transitional hub
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Gift Wrap]] | 65% |
-| Failure | [[Kuzure Kesa-Gatame]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Gift Wrap]] | 65% |
+| Failure | [[Positions/Side Control/Kuzure Kesa-Gatame]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ In competition and training contexts, the Gift Wrap serves as a transitional hub
 
 ## Opponent Counters
 
-- **Opponent straightens arm before wrap completes, preventing the fold** (Effectiveness: High) - Your Response: Abandon the wrap attempt and transition to armbar or americana on the extended arm—their defense creates a different submission opportunity → Leads to [[Kuzure Kesa-Gatame]]
-- **Opponent frames against your hip with far arm before you can secure wrist** (Effectiveness: High) - Your Response: Maintain Kuzure Kesa-Gatame pressure and wait for them to reach toward you or attempt escape before re-attempting the wrap → Leads to [[Kuzure Kesa-Gatame]]
-- **Opponent explosively bridges as you release wrist to secure wrap** (Effectiveness: Medium) - Your Response: Keep head position past their shoulder and widen base leg—their bridge without arm posting has minimal power and you can resettle → Leads to [[Half Guard]]
-- **Opponent turns aggressively into you during wrap transition** (Effectiveness: Medium) - Your Response: Their turn toward you opens mount transition—use their momentum to slide your knee across their belly while maintaining arm control → Leads to [[Kuzure Kesa-Gatame]]
+- **Opponent straightens arm before wrap completes, preventing the fold** (Effectiveness: High) - Your Response: Abandon the wrap attempt and transition to armbar or americana on the extended arm—their defense creates a different submission opportunity → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- **Opponent frames against your hip with far arm before you can secure wrist** (Effectiveness: High) - Your Response: Maintain Kuzure Kesa-Gatame pressure and wait for them to reach toward you or attempt escape before re-attempting the wrap → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- **Opponent explosively bridges as you release wrist to secure wrap** (Effectiveness: Medium) - Your Response: Keep head position past their shoulder and widen base leg—their bridge without arm posting has minimal power and you can resettle → Leads to [[Positions/Half Guard]]
+- **Opponent turns aggressively into you during wrap transition** (Effectiveness: Medium) - Your Response: Their turn toward you opens mount transition—use their momentum to slide your knee across their belly while maintaining arm control → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
 
 
 </section>

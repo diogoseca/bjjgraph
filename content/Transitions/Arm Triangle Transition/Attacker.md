@@ -184,7 +184,7 @@ Strategically, this transition punishes one of the most common Hindulotine defen
 
 The technique requires precise timing during the grip transition. Releasing the guillotine before the opponent's arm is fully trapped results in losing offensive position entirely. The sweep or reversal component is equally critical—the arm triangle finishes from side control, not from bottom position. Practitioners must combine upper body grip reconfiguration with lower body sweeping mechanics simultaneously, making this a high-level transition that rewards drilling and positional awareness.
 
-**From Position**: [[Hindulotine]] (Bottom)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -236,9 +236,9 @@ The technique requires precise timing during the grip transition. Releasing the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Closed Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -247,10 +247,10 @@ The technique requires precise timing during the grip transition. Releasing the 
 
 ## Opponent Counters
 
-- **Opponent retracts the framing arm before it can be trapped, denying the head-and-arm configuration** (Effectiveness: High) - Your Response: Return to the Hindulotine guillotine attack since their frame is gone—the arm retraction reopens the guillotine finish → Leads to [[Closed Guard]]
-- **Opponent drives forward with maximum pressure to flatten you before the sweep, using bodyweight to prevent elevation** (Effectiveness: Medium) - Your Response: Use the forward pressure as energy for the butterfly sweep—their drive forward loads your hooks perfectly for elevation → Leads to [[Side Control]]
-- **Opponent circles their hips away to create distance and extract their head during the grip transition** (Effectiveness: Medium) - Your Response: Follow the hip escape with your legs and transition to a back take as their turning motion exposes the back → Leads to [[Closed Guard]]
-- **Opponent posts their free hand on the mat to base out and resist the sweep attempt** (Effectiveness: Medium) - Your Response: Switch to a hip escape instead of a butterfly sweep—shrimp out and come up to side control rather than sweeping over the top → Leads to [[Half Guard]]
+- **Opponent retracts the framing arm before it can be trapped, denying the head-and-arm configuration** (Effectiveness: High) - Your Response: Return to the Hindulotine guillotine attack since their frame is gone—the arm retraction reopens the guillotine finish → Leads to [[Positions/Closed Guard]]
+- **Opponent drives forward with maximum pressure to flatten you before the sweep, using bodyweight to prevent elevation** (Effectiveness: Medium) - Your Response: Use the forward pressure as energy for the butterfly sweep—their drive forward loads your hooks perfectly for elevation → Leads to [[Positions/Side Control]]
+- **Opponent circles their hips away to create distance and extract their head during the grip transition** (Effectiveness: Medium) - Your Response: Follow the hip escape with your legs and transition to a back take as their turning motion exposes the back → Leads to [[Positions/Closed Guard]]
+- **Opponent posts their free hand on the mat to base out and resist the sweep attempt** (Effectiveness: Medium) - Your Response: Switch to a hip escape instead of a butterfly sweep—shrimp out and come up to side control rather than sweeping over the top → Leads to [[Positions/Half Guard]]
 
 
 </section>

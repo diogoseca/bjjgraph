@@ -21,7 +21,7 @@ The darce configuration is mechanically distinct from the anaconda because the c
 
 This transition is a critical branch in the buggy choke attack tree. Opponents who turn in to defend the collar grip inadvertently create the head-and-arm angle required for both darce and anaconda attacks. Choosing the darce over the anaconda depends on arm positioning and the specific angle of the opponent's rotation. The darce configuration offers a powerful finishing position because the choking arm's blade sits directly across the carotid with the opponent's own trapped shoulder acting as the secondary compression point. Once the figure-four locks, the top player sprawls and walks hips toward the head to generate finishing pressure through body mechanics rather than arm strength.
 
-**From Position**: [[Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This transition is a critical branch in the buggy choke attack tree. Opponents w
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 55% |
-| Failure | [[Buggy Choke]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Darce Control]] | 55% |
+| Failure | [[Positions/Buggy Choke]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Switch to Darce Configuration is a critical branch in the buggy choke attack
 ## Related Techniques
 
 
-- [[Buggy Choke]] - Starting position and control structure from which the darce switch initiates
+- [[Positions/Buggy Choke]] - Starting position and control structure from which the darce switch initiates
 
-- [[Darce Control]] - Target position achieved upon successful grip reconfiguration to darce
+- [[Positions/Darce Control]] - Target position achieved upon successful grip reconfiguration to darce
 
-- [[Darce Choke]] - Primary submission finish available from the darce control position
+- [[Transitions/Darce Choke]] - Primary submission finish available from the darce control position
 
-- [[Switch to Anaconda Configuration]] - Mirror sibling transition using opposite threading direction from same starting position
+- [[Transitions/Switch to Anaconda Configuration]] - Mirror sibling transition using opposite threading direction from same starting position
 
-- [[Anaconda Control]] - Alternative control position when anaconda angle is favored over darce
+- [[Positions/Anaconda Control]] - Alternative control position when anaconda angle is favored over darce
 
-- [[Buggy Choke to Front Headlock]] - Alternative transition when neither darce nor anaconda angle is available
+- [[Transitions/Buggy Choke to Front Headlock]] - Alternative transition when neither darce nor anaconda angle is available
 
-- [[Front Headlock]] - Fallback control position accessible during failed darce switch attempts
+- [[Positions/Front Headlock]] - Fallback control position accessible during failed darce switch attempts
 
-- [[Finish Buggy Choke]] - Alternative path when opponent remains static and original choke angle is maintained
+- [[Transitions/Finish Buggy Choke]] - Alternative path when opponent remains static and original choke angle is maintained
 
-- [[Darce from Turtle]] - Related darce entry from standard turtle top without buggy choke intermediate
+- [[Transitions/Darce from Turtle]] - Related darce entry from standard turtle top without buggy choke intermediate
 
-- [[Front Headlock to Darce]] - Related darce entry from front headlock for cross-reference
+- [[Transitions/Front Headlock to Darce]] - Related darce entry from front headlock for cross-reference
 
-- [[Arm in Guillotine]] - Alternative submission when darce grip fails but neck access is maintained
+- [[Submissions/Arm in Guillotine]] - Alternative submission when darce grip fails but neck access is maintained
 
-- [[Crucifix]] - Alternative transition when opponent posts far arm to defend the darce switch
+- [[Positions/Crucifix]] - Alternative transition when opponent posts far arm to defend the darce switch
 
 
 </section>

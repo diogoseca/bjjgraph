@@ -97,23 +97,23 @@ From the bottom, survival depends on understanding the same five-point control s
 ### Available Transitions
 
 
-- **[[Hip Escape to Guard]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (13% of attempts)
 
-- **[[Stack Defense]]** (13% of attempts)
+- **[[Transitions/Stack Defense]]** (13% of attempts)
 
-- **[[Arm Extraction]]** (11% of attempts)
+- **[[Transitions/Arm Extraction]]** (11% of attempts)
 
-- **[[Hitchhiker Escape]]** (23% of attempts)
+- **[[Transitions/Hitchhiker Escape]]** (23% of attempts)
 
-- **[[Bridge and Roll]]** (12% of attempts)
+- **[[Transitions/Bridge and Roll]]** (12% of attempts)
 
-- **[[Rolling Escape to Guard]]** (9% of attempts)
+- **[[Transitions/Rolling Escape to Guard]]** (9% of attempts)
 
-- **[[Hip Escape to Turtle]]** (8% of attempts)
+- **[[Transitions/Hip Escape to Turtle]]** (8% of attempts)
 
-- **[[Armbar Defense]]** (7% of attempts)
+- **[[Transitions/Armbar Defense]]** (7% of attempts)
 
-- **[[Hitchhiker Escape from Armbar]]** (4% of attempts)
+- **[[Transitions/Hitchhiker Escape from Armbar]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -174,23 +174,23 @@ From the bottom, survival depends on understanding the same five-point control s
 ### Available Transitions
 
 
-- **[[Armbar Finish]]** (51% of attempts)
+- **[[Transitions/Armbar Finish]]** (51% of attempts)
 
-- **[[Triangle Setup]]** (21% of attempts)
+- **[[Transitions/Triangle Setup]]** (21% of attempts)
 
-- **[[Omoplata]]** (7% of attempts)
+- **[[Transitions/Omoplata]]** (7% of attempts)
 
-- **[[Kimura]]** (7% of attempts)
+- **[[Transitions/Kimura]]** (7% of attempts)
 
-- **[[Straight Armbar]]** (7% of attempts)
+- **[[Transitions/Straight Armbar]]** (7% of attempts)
 
-- **[[Back Take from Armbar]]** (3% of attempts)
+- **[[Transitions/Back Take from Armbar]]** (3% of attempts)
 
-- **[[Belly Down Armbar Transition]]** (1% of attempts)
+- **[[Transitions/Belly Down Armbar Transition]]** (1% of attempts)
 
-- **[[Triangle from Armbar]]** (1% of attempts)
+- **[[Transitions/Triangle from Armbar]]** (1% of attempts)
 
-- **[[Belly Down Armbar Finish]]** (2% of attempts)
+- **[[Submissions/Belly Down Armbar Finish]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -233,23 +233,23 @@ From the bottom, survival depends on understanding the same five-point control s
 ## Related Positions
 
 
-- **[[Triangle Control]]** - Primary transition from armbar when opponent defends or stacks
+- **[[Positions/Triangle Control]]** - Primary transition from armbar when opponent defends or stacks
 
-- **[[Omoplata Control]]** - Alternative submission when opponent bends arm defensively
+- **[[Positions/Omoplata Control]]** - Alternative submission when opponent bends arm defensively
 
-- **[[Mount]]** - High-percentage entry position for offensive armbar attacks
+- **[[Positions/Mount]]** - High-percentage entry position for offensive armbar attacks
 
-- **[[Closed Guard]]** - Classic setup position for armbar from both top and bottom perspectives
+- **[[Positions/Closed Guard]]** - Classic setup position for armbar from both top and bottom perspectives
 
-- **[[Kimura Trap]]** - Related arm isolation position creating submission chain options
+- **[[Positions/Kimura Trap]]** - Related arm isolation position creating submission chain options
 
-- **[[Back Control]]** - Alternative dominant position offering armbar opportunities
+- **[[Positions/Back Control]]** - Alternative dominant position offering armbar opportunities
 
-- **[[Side Control]]** - Common entry point for armbar transitions
+- **[[Positions/Side Control]]** - Common entry point for armbar transitions
 
-- **[[High Mount]]** - Transitional mount variation facilitating armbar setup
+- **[[Positions/Mount/High Mount]]** - Transitional mount variation facilitating armbar setup
 
-- **[[Crucifix]]** - Alternative arm isolation control position
+- **[[Positions/Crucifix]]** - Alternative arm isolation control position
 
 
 </section>

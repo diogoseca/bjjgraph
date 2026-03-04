@@ -21,7 +21,7 @@ The transition works by converting the inverted inside hook of K-Guard into the 
 
 Strategically, this transition transforms a position with moderate sweeping leverage into one with significantly higher finishing rates and direct access to modern leg entanglement systems. Single Leg X offers cleaner sweeping paths through elevation mechanics and seamless entries into Ashi Garami, Inside Ashi, and other leg lock positions, making this transition a critical force multiplier in any modern bottom game built around the K-Guard system.
 
-**From Position**: [[K-Guard]] (Bottom)
+**From Position**: [[Positions/K-Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition transforms a position with moderate sweeping leve
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 55% |
-| Failure | [[K-Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 55% |
+| Failure | [[Positions/K-Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -195,29 +195,29 @@ The K-Guard to Single Leg X transition occupies a critical junction point in the
 ## Related Techniques
 
 
-- [[K-Guard]] - Source position - transition begins from K-Guard bottom hook configuration
+- [[Positions/K-Guard]] - Source position - transition begins from K-Guard bottom hook configuration
 
-- [[Single Leg X-Guard]] - Target position - successful transition destination with superior sweeping leverage
+- [[Positions/X-Guard/Single Leg X-Guard]] - Target position - successful transition destination with superior sweeping leverage
 
-- [[Open Guard]] - Counter outcome - position reached when defender successfully disengages hooks
+- [[Positions/Open Guard]] - Counter outcome - position reached when defender successfully disengages hooks
 
-- [[X-Guard]] - Related guard - shares similar elevation mechanics and can be reached from SLX
+- [[Positions/X-Guard]] - Related guard - shares similar elevation mechanics and can be reached from SLX
 
-- [[Deep Half Guard]] - Alternative transition from K-Guard when opponent drives forward instead of creating distance
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition from K-Guard when opponent drives forward instead of creating distance
 
-- [[Ashi Garami]] - Follow-up system - SLX provides direct entry into leg entanglement positions
+- [[Positions/Ashi Garami]] - Follow-up system - SLX provides direct entry into leg entanglement positions
 
-- [[K-Guard Sweep]] - Alternative attack - direct sweep from K-Guard that complements SLX transition threat
+- [[Transitions/K-Guard Sweep]] - Alternative attack - direct sweep from K-Guard that complements SLX transition threat
 
-- [[Backstep from K-Guard]] - Defender counter - top player's primary technique to prevent this transition
+- [[Transitions/Backstep from K-Guard]] - Defender counter - top player's primary technique to prevent this transition
 
-- [[Single Leg X Sweep]] - Primary follow-up - main sweeping technique available after successful transition
+- [[Transitions/Single Leg X Sweep]] - Primary follow-up - main sweeping technique available after successful transition
 
-- [[Backstep from Single Leg X]] - Defender response - top player's passing option once SLX is established
+- [[Transitions/Backstep from Single Leg X]] - Defender response - top player's passing option once SLX is established
 
-- [[Inside Ashi Entry]] - Leg lock chain - SLX provides clean entry into inside ashi for heel hook attacks
+- [[Transitions/Inside Ashi Entry]] - Leg lock chain - SLX provides clean entry into inside ashi for heel hook attacks
 
-- [[SLX to Ashi Garami]] - Leg lock transition - direct pathway from SLX into standard ashi garami position
+- [[Transitions/SLX to Ashi Garami]] - Leg lock transition - direct pathway from SLX into standard ashi garami position
 
 
 </section>

@@ -87,21 +87,21 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 ### Available Transitions
 
 
-- **[[Arm Extraction]]** (27% of attempts)
+- **[[Transitions/Arm Extraction]]** (27% of attempts)
 
-- **[[Granby Roll to Guard]]** (14% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (14% of attempts)
 
-- **[[Back Door Escape]]** (11% of attempts)
+- **[[Transitions/Back Door Escape]]** (11% of attempts)
 
-- **[[Counter Roll to Top]]** (7% of attempts)
+- **[[Transitions/Counter Roll to Top]]** (7% of attempts)
 
-- **[[Step Over Escape]]** (14% of attempts)
+- **[[Transitions/Step Over Escape]]** (14% of attempts)
 
-- **[[Hip Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (14% of attempts)
 
-- **[[Rolling to Guard]]** (9% of attempts)
+- **[[Transitions/Rolling to Guard]]** (9% of attempts)
 
-- **[[Frame Escape from Darce]]** (4% of attempts)
+- **[[Transitions/Frame Escape from Darce]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -154,19 +154,19 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 ### Available Transitions
 
 
-- **[[Darce Choke]]** (48% of attempts)
+- **[[Transitions/Darce Choke]]** (48% of attempts)
 
-- **[[Turtle to Back Take]]** (18% of attempts)
+- **[[Transitions/Turtle to Back Take]]** (18% of attempts)
 
-- **[[Switch to Anaconda Configuration]]** (13% of attempts)
+- **[[Transitions/Switch to Anaconda Configuration]]** (13% of attempts)
 
-- **[[Side Control to Mount]]** (10% of attempts)
+- **[[Transitions/Side Control to Mount]]** (10% of attempts)
 
-- **[[Side Control to North-South]]** (6% of attempts)
+- **[[Transitions/Side Control to North-South]]** (6% of attempts)
 
-- **[[Darce Control Maintenance]]** (3% of attempts)
+- **[[Transitions/Darce Control Maintenance]]** (3% of attempts)
 
-- **[[Darce to Anaconda Switch]]** (2% of attempts)
+- **[[Transitions/Darce to Anaconda Switch]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -201,19 +201,19 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 ## Related Positions
 
 
-- **[[Anaconda Control]]** - Sister technique with similar mechanics but opposite arm positioning
+- **[[Positions/Anaconda Control]]** - Sister technique with similar mechanics but opposite arm positioning
 
-- **[[Front Headlock]]** - Parent position and primary entry point for darce control
+- **[[Positions/Front Headlock]]** - Parent position and primary entry point for darce control
 
-- **[[Guillotine Control]]** - Alternative front headlock submission option with similar entries
+- **[[Positions/Guillotine Control]]** - Alternative front headlock submission option with similar entries
 
-- **[[Turtle]]** - Most common position from which darce control is entered
+- **[[Positions/Turtle]]** - Most common position from which darce control is entered
 
-- **[[North-South]]** - Common transition target when darce finish is defended
+- **[[Positions/North-South]]** - Common transition target when darce finish is defended
 
-- **[[Darce Choke]]** - Primary submission finish from this control position
+- **[[Transitions/Darce Choke]]** - Primary submission finish from this control position
 
-- **[[Back Control]]** - High-percentage transition when opponent rolls to escape
+- **[[Positions/Back Control]]** - High-percentage transition when opponent rolls to escape
 
 
 </section>

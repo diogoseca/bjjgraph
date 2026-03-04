@@ -156,7 +156,7 @@ Defending the Cartwheel Pass from bottom grasshopper guard requires early recogn
 
 The most effective defensive window occurs during the passer's setup phase, before they commit to the cartwheel rotation. During this phase, you can read their circling movement, adjust your inversion to follow, and extend legs to intercept their intended trajectory. If the cartwheel is already in motion, your best options shift to recovering closed guard by wrapping legs as they land, or Granby rolling underneath to reset the engagement entirely. Understanding which defensive response matches each phase of the pass is critical for consistent defense.
 
-**Opponent's Starting Position**: [[Grasshopper Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ The most effective defensive window occurs during the passer's setup phase, befo
 ### 1. Rotate your inversion to track the passer's lateral movement, extending both legs toward their new angle to block the cartwheel lane
 
 - **When to use**: As soon as you detect the passer circling laterally during the setup phase, before they plant their hand on the mat
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: Passer finds no clear lane and must abort the cartwheel attempt, returning to neutral standing position facing your guard
 - **Risk**: Over-rotation exposes the opposite side if passer feints and switches direction
 
 ### 2. Extend one leg directly into the passer's hip or shoulder line as they begin the cartwheel, creating a physical barrier they must navigate around or through
 
 - **When to use**: When the passer has already planted their lead hand and begun loading for the cartwheel rotation
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: Extended leg intercepts the passer's trajectory mid-rotation, disrupting the cartwheel and either stopping the pass or pulling them into your leg entanglement system
 - **Risk**: If the passer clears your extended leg with sufficient height, you have one less leg in position for guard recovery
 
 ### 3. Execute a Granby roll underneath the passer's aerial trajectory as they cartwheel over, rolling to face them and reestablishing guard contact as they land
 
 - **When to use**: When the cartwheel is already committed and airborne, making leg interception impossible
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: You escape underneath the pass entirely, resetting to a guard position facing the passer before they can consolidate side control
 - **Risk**: Mistiming the Granby roll can leave you flat on your back with the passer already in side control
 
 ### 4. Catch the passer's hips or legs with your own legs as they land, immediately wrapping closed guard before they can establish crossface and hip control
 
 - **When to use**: When the cartwheel has completed and the passer is landing beside you but has not yet consolidated side control pressure
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover closed guard despite the pass being completed, denying the passer any positional advantage and resetting the engagement
 - **Risk**: If the passer lands with heavy pressure and immediate crossface, your legs may be too late to close around their waist
 
@@ -225,11 +225,11 @@ The most effective defensive window occurs during the passer's setup phase, befo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Grasshopper Guard]]
+### → [[Positions/Grasshopper Guard]]
 
 Track the passer's lateral movement early by rotating your inversion angle to face them continuously. Extend at least one leg toward their circling path to deny the passing lane. If they plant a hand, immediately shoot your near leg into their hip line to intercept the rotation. The key is reacting during their setup phase - once you block the lane, they must disengage and reset, returning you to your original grasshopper guard position with full offensive capability.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 If the cartwheel is already in motion and cannot be stopped, immediately begin curling your body to face the direction they are landing. As they touch down, shoot both legs around their waist before they can sprawl their hips away or establish crossface. Your arms frame against their shoulder and hip to create enough space for your legs to close. This is damage control rather than prevention, but closed guard is a strong recovery position that denies them the side control advantage they were seeking.
 

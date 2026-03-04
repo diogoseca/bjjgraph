@@ -156,7 +156,7 @@ Defending the Whip-up Sweep requires understanding the lockdown system's core me
 
 The critical defensive window occurs during the opponent's transition from flat to elevated. Once they reach their elbow with the underhook secured and lockdown extended, the sweep becomes increasingly difficult to stop. Early recognition and intervention are essential. Your defensive toolkit includes crossface control to flatten the bottom player, weight distribution management to deny forward loading, whizzer control to counter the underhook, and systematic leg extraction to eliminate the lockdown entirely. The defender who understands the timing of the whip-up can shut it down before the explosive phase begins, forcing the bottom player into lower-percentage alternatives.
 
-**Opponent's Starting Position**: [[Lockdown]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The critical defensive window occurs during the opponent's transition from flat 
 ### 1. Establish heavy crossface and shoulder pressure to flatten the bottom player before they can initiate the whip-up, driving their head away and pinning their shoulders to the mat
 
 - **When to use**: Early defense before the bottom player secures the underhook or begins turning to their hip. Most effective when you can deny the underhook entirely
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Bottom player remains flat on their back unable to generate the upward momentum needed for the whip-up, forcing them to work from a compromised lockdown position
 - **Risk**: If you drive too aggressively forward with the crossface, you may load your weight exactly where the whip-up needs it, accelerating the sweep
 
 ### 2. Sit your weight back onto your heels and widen your free leg base to deny forward pressure, making the whip-up mechanically impossible by removing the weight the sweep needs to exploit
 
 - **When to use**: When you feel the lockdown extension pulling your trapped leg backward and sense the bottom player is loading for the whip-up by tightening their underhook
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Whip-up is neutralized because there is no forward momentum to exploit. Bottom player must switch to Old School or Electric Chair, giving you time to work leg extraction
 - **Risk**: Sitting back opens the Old School sweep and Electric Chair submission. You must be prepared to defend the counter-attack that sitting back invites
 
 ### 3. Swim your arm inside to strip the underhook and re-establish your own underhook or overhook control, removing the upper-body anchor the bottom player needs for the whip-up
 
 - **When to use**: When the bottom player has secured the underhook but has not yet begun the elevation sequence. Most effective during grip transitions when their underhook is shallow
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Without the underhook, the bottom player cannot generate directional upper-body drive and the whip-up becomes a pure leg extension with no sweep completion pathway
 - **Risk**: If the arm swim fails, you momentarily lose upper-body control and the bottom player may deepen their underhook during your recovery
 
 ### 4. Post your free hand far to the threatened side and sprawl your hips away when you feel the whip-up elevation beginning, using your posted hand as a tripod to prevent being swept over
 
 - **When to use**: Emergency defense when the whip-up is already in motion and the bottom player has reached elbow or hand post level. Last resort to prevent the sweep from completing
-- **Targets**: [[Dogfight Position]]
+- **Targets**: [[Positions/Dogfight Position]]
 - **If successful**: Sweep stalls at the dogfight position rather than completing to full reversal, giving you a neutral scramble where you can fight for position
 - **Risk**: Posting your hand wide exposes your back to a back take if the bottom player uses your posted hand as an anchor point to circle behind you
 
@@ -227,11 +227,11 @@ The critical defensive window occurs during the opponent's transition from flat 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lockdown]]
+### → [[Positions/Half Guard/Lockdown]]
 
 Flatten the bottom player with heavy crossface and shoulder pressure before they can secure the underhook and initiate the whip-up. Maintain weight distribution that denies forward loading while systematically working to extract your trapped leg from the lockdown configuration. Once flattened, the bottom player loses the hip angle needed to generate the sweep.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Successfully extract your trapped leg from the lockdown during the bottom player's whip-up attempt by using the upward motion to create space for leg extraction. As they commit to coming up, use circular hip motion to free your leg from the figure-four, transitioning the position from lockdown to standard half guard where you have superior passing options and the lockdown threat is eliminated.
 

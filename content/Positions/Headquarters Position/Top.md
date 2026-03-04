@@ -210,19 +210,19 @@ This position represents a fundamental evolution in guard passing theory, moving
 
 ## Available Attacks
 
-### [[Knee Cut from Headquarters]] (28% of attempts)
+### [[Transitions/Knee Cut from Headquarters]] (28% of attempts)
 
-### [[Toreando from Headquarters]] (18% of attempts)
+### [[Transitions/Toreando from Headquarters]] (18% of attempts)
 
-### [[Leg Drag from Headquarters]] (17% of attempts)
+### [[Transitions/Leg Drag from Headquarters]] (17% of attempts)
 
-### [[Back Step Pass]] (12% of attempts)
+### [[Transitions/Back Step Pass]] (12% of attempts)
 
-### [[Body Lock Pass]] (10% of attempts)
+### [[Transitions/Body Lock Pass]] (10% of attempts)
 
-### [[Headquarters Pass]] (10% of attempts)
+### [[Transitions/Headquarters Pass]] (10% of attempts)
 
-### [[Saddle Entry from Top]] (5% of attempts)
+### [[Transitions/Saddle Entry from Top]] (5% of attempts)
 
 
 
@@ -233,23 +233,23 @@ This position represents a fundamental evolution in guard passing theory, moving
 ## Decision Making from This Position
 
 **If opponent keeps leg straight and attempts to push knee line with foot on hip creating distance:**
-- Execute **[[Toreando from Headquarters]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Leg Drag from Headquarters]]** → [[Leg Drag Control]] (Probability: 60%)
+- Execute **[[Transitions/Toreando from Headquarters]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Leg Drag from Headquarters]]** → [[Positions/Leg Drag Control]] (Probability: 60%)
 
 
 **If opponent turns toward trapped leg attempting to recover half guard or full guard structures:**
-- Execute **[[Knee Cut from Headquarters]]** → [[Side Control]] (Probability: 75%)
-- Execute **[[Body Lock Pass]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Knee Cut from Headquarters]]** → [[Positions/Side Control]] (Probability: 75%)
+- Execute **[[Transitions/Body Lock Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent creates strong frames with hands on shoulder and hip attempting to maintain distance:**
-- Execute **[[Leg Drag from Headquarters]]** → [[Leg Drag Control]] (Probability: 80%)
-- Execute **[[Body Lock Pass]]** → [[Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Leg Drag from Headquarters]]** → [[Positions/Leg Drag Control]] (Probability: 80%)
+- Execute **[[Transitions/Body Lock Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 **If opponent attempts deep half guard entry or commits to underhook sweep mechanics:**
-- Execute **[[Back Step Pass]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Knee Cut from Headquarters]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Back Step Pass]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Knee Cut from Headquarters]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 
@@ -376,16 +376,16 @@ Start from compromised positions where opponent has frames, partial guard recove
 
 ## Related Positions and Techniques
 
-- **[[Combat Base]]** - Preceding position - often used to establish headquarters control from guard configurations
-- **[[Half Guard]]** - Common starting position from which headquarters is established during passing sequences
-- **[[Side Control]]** - Primary target position for most passing sequences initiated from headquarters
-- **[[Deep Half Guard]]** - Common defensive entry opponent attempts from headquarters pressure
-- **[[Knee Shield Half Guard]]** - Defensive guard structure opponent may attempt to establish against headquarters
-- **[[Knee Cut from Headquarters]]** - Primary offensive transition when opponent turns toward trapped leg
-- **[[Toreando from Headquarters]]** - Primary offensive transition when opponent extends leg to create distance
-- **[[Leg Drag from Headquarters]]** - Offensive transition when opponent creates strong frames or straightens leg
-- **[[Back Step Pass]]** - Counter transition when opponent attempts deep half or underhook attacks
-- **[[Mount]]** - Advanced target position achievable through progressive passing sequences
+- **[[Positions/Combat Base]]** - Preceding position - often used to establish headquarters control from guard configurations
+- **[[Positions/Half Guard]]** - Common starting position from which headquarters is established during passing sequences
+- **[[Positions/Side Control]]** - Primary target position for most passing sequences initiated from headquarters
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common defensive entry opponent attempts from headquarters pressure
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Defensive guard structure opponent may attempt to establish against headquarters
+- **[[Transitions/Knee Cut from Headquarters]]** - Primary offensive transition when opponent turns toward trapped leg
+- **[[Transitions/Toreando from Headquarters]]** - Primary offensive transition when opponent extends leg to create distance
+- **[[Transitions/Leg Drag from Headquarters]]** - Offensive transition when opponent creates strong frames or straightens leg
+- **[[Transitions/Back Step Pass]]** - Counter transition when opponent attempts deep half or underhook attacks
+- **[[Positions/Mount]]** - Advanced target position achievable through progressive passing sequences
 
 
 </section>

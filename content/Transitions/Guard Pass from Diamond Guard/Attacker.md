@@ -186,7 +186,7 @@ description: "Complete guide to passing diamond guard in BJJ. Learn the sequenti
 
 Passing diamond guard requires a methodical grip-stripping approach that differs fundamentally from standard closed guard passing. The dual-control structure of overhook plus head control creates a self-reinforcing frame where addressing either control point in isolation is insufficient. The passer must follow a strict sequence: neutralize head control through positional escape, strip the overhook using hip drive and arm rotation, then open the closed guard and execute a passing sequence. Throughout this process, maintaining heavy hips is essential to prevent the guard player from capitalizing on weight shifts with hip bump sweeps or submission entries. The passer who understands this sequential methodology can systematically dismantle the diamond and advance to side control without exposing themselves to the guard player's primary weapons.
 
-**From Position**: [[Diamond Guard]] (Top)
+**From Position**: [[Positions/Closed Guard/Diamond Guard]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ Passing diamond guard requires a methodical grip-stripping approach that differs
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Diamond Guard]] | 30% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Closed Guard/Diamond Guard]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ Passing diamond guard requires a methodical grip-stripping approach that differs
 
 ## Opponent Counters
 
-- **Hip bump sweep during posture recovery when the passer's weight shifts backward** (Effectiveness: High) - Your Response: Maintain heavy hips throughout posture recovery by driving forward rather than sitting back. Keep hands on opponent's hips to block their ability to sit up into the sweep. If they begin the hip bump motion, immediately drive your weight forward and down to flatten them back to the mat. → Leads to [[Mount]]
-- **Re-establishment of diamond frame by re-sinking the overhook and head control after partial stripping** (Effectiveness: High) - Your Response: Once you begin stripping a control point, commit to the full extraction rather than pausing halfway. If the guard player re-sinks the overhook, immediately re-address head control first before attempting the overhook strip again. Each re-establishment should be shallower than the last if you maintain forward pressure. → Leads to [[Diamond Guard]]
-- **Triangle attempt when the passer frees their head but the overhook remains, creating space for the guard player to angle their hips** (Effectiveness: Medium) - Your Response: Keep your freed head pressed tight to the opponent's chest rather than creating distance. Drive the shoulder on the overhook side into their chest to prevent them from creating the angle needed for triangle entry. If they begin opening their guard for the triangle, use the moment to strip the overhook and drive past. → Leads to [[Diamond Guard]]
-- **Underhook and sit-up sweep when the guard opens and the passer's base is momentarily high during standing** (Effectiveness: Medium) - Your Response: As you stand, keep one hand firmly on the opponent's hip to prevent them from sitting up. Post your lead foot wide to widen your base against the sweep direction. If they achieve the underhook, immediately lower your center of gravity by bending your knees and drive your hips into them to kill the sweep momentum. → Leads to [[Mount]]
+- **Hip bump sweep during posture recovery when the passer's weight shifts backward** (Effectiveness: High) - Your Response: Maintain heavy hips throughout posture recovery by driving forward rather than sitting back. Keep hands on opponent's hips to block their ability to sit up into the sweep. If they begin the hip bump motion, immediately drive your weight forward and down to flatten them back to the mat. → Leads to [[Positions/Mount]]
+- **Re-establishment of diamond frame by re-sinking the overhook and head control after partial stripping** (Effectiveness: High) - Your Response: Once you begin stripping a control point, commit to the full extraction rather than pausing halfway. If the guard player re-sinks the overhook, immediately re-address head control first before attempting the overhook strip again. Each re-establishment should be shallower than the last if you maintain forward pressure. → Leads to [[Positions/Closed Guard/Diamond Guard]]
+- **Triangle attempt when the passer frees their head but the overhook remains, creating space for the guard player to angle their hips** (Effectiveness: Medium) - Your Response: Keep your freed head pressed tight to the opponent's chest rather than creating distance. Drive the shoulder on the overhook side into their chest to prevent them from creating the angle needed for triangle entry. If they begin opening their guard for the triangle, use the moment to strip the overhook and drive past. → Leads to [[Positions/Closed Guard/Diamond Guard]]
+- **Underhook and sit-up sweep when the guard opens and the passer's base is momentarily high during standing** (Effectiveness: Medium) - Your Response: As you stand, keep one hand firmly on the opponent's hip to prevent them from sitting up. Post your lead foot wide to widen your base against the sweep direction. If they achieve the underhook, immediately lower your center of gravity by bending your knees and drive your hips into them to kill the sweep momentum. → Leads to [[Positions/Mount]]
 
 
 </section>

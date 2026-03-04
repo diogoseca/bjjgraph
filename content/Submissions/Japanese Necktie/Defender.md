@@ -194,28 +194,28 @@ The Japanese Necktie defense centers on three critical priorities: preventing th
 ### 1. Extract trapped arm by pushing attacker's elbow away and pulling arm toward your own head
 
 - **When to use**: As soon as you feel the overhook being established on your near arm, before the attacker locks their grip configuration and rotates to perpendicular position
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Removes your shoulder as a choking surface, converting the position into a standard front headlock that is much easier to escape or defend
 - **Risk**: If extraction fails, the aggressive movement may create space that the attacker uses to deepen the arm trap further
 
 ### 2. Turn into the attacker and sit to guard by rotating your body to face them while tucking chin
 
 - **When to use**: When the attacker begins rotating to perpendicular angle but has not yet locked their grip configuration, making their position unstable during the transition
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Forces the attacker into your closed guard where the Japanese Necktie angle is neutralized and you can work standard front headlock defense from guard
 - **Risk**: If the choke is already partially locked, turning into the attacker may actually tighten the compression as your weight loads into their shoulder
 
 ### 3. Drive forward explosively and stand up to break the perpendicular angle and create space
 
 - **When to use**: Early in the setup when the attacker has front headlock control but has not yet secured a deep arm trap or begun their rotation to perpendicular position
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Standing removes most of the attacker's leverage and mechanical advantage, converting the position to a standing front headlock scramble where Japanese Necktie is very difficult to finish
 - **Risk**: If the arm trap is already secure, standing may load your weight into the choke and accelerate unconsciousness rather than creating escape
 
 ### 4. Granby roll away from the trapped arm side to invert and recover guard
 
 - **When to use**: When the attacker commits their weight forward during the rotation and their hips are high, creating space underneath for the rolling escape
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Creates complete separation from the choking position and allows full guard recovery with the attacker's grips broken by the rotational momentum
 - **Risk**: If timing is off, the roll can expose your back further and the attacker may transition to back control instead of maintaining the choke attempt
 
@@ -238,11 +238,11 @@ The Japanese Necktie defense centers on three critical priorities: preventing th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Extract the trapped arm early before grip lock is established, then use the freed arm to post and create frames that allow you to stand up or circle away from the front headlock position entirely
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Turn into the attacker during their rotation phase and pull them into your closed guard, where the perpendicular angle required for the Japanese Necktie is impossible to achieve and you can work standard guard attacks
 

@@ -178,7 +178,7 @@ The strategic value of this escape lies in its reliability when the opponent has
 
 Timing is critical for this technique - the roll must be explosive enough to create separation but controlled enough to immediately establish the tight defensive turtle structure with elbows to knees and chin tucked. Executing this escape too slowly allows the opponent to follow and establish back control with hooks, negating the escape entirely.
 
-**From Position**: [[Side Control]] (Bottom)
+**From Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ Timing is critical for this technique - the roll must be explosive enough to cre
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -242,10 +242,10 @@ Timing is critical for this technique - the roll must be explosive enough to cre
 
 ## Opponent Counters
 
-- **Opponent follows the roll and establishes seatbelt control before you complete turtle structure** (Effectiveness: High) - Your Response: Continue movement into granby roll or sit-out rather than settling into static turtle, using their forward momentum against them → Leads to [[Back Control]]
-- **Opponent sprawls and flattens you during the rotation, preventing completion of turtle** (Effectiveness: High) - Your Response: If flattened, immediately protect neck and work to re-establish frames; consider ghost escape variation → Leads to [[Side Control]]
-- **Opponent transitions to north-south during your roll attempt** (Effectiveness: Medium) - Your Response: Use the space created during their transition to complete the turtle or immediately sit through to guard recovery → Leads to [[Side Control]]
-- **Opponent inserts hook during your rotation before you can close turtle structure** (Effectiveness: Medium) - Your Response: Strip the hook immediately with explosive leg kick and continue to granby roll to prevent second hook → Leads to [[Back Control]]
+- **Opponent follows the roll and establishes seatbelt control before you complete turtle structure** (Effectiveness: High) - Your Response: Continue movement into granby roll or sit-out rather than settling into static turtle, using their forward momentum against them → Leads to [[Positions/Back Control]]
+- **Opponent sprawls and flattens you during the rotation, preventing completion of turtle** (Effectiveness: High) - Your Response: If flattened, immediately protect neck and work to re-establish frames; consider ghost escape variation → Leads to [[Positions/Side Control]]
+- **Opponent transitions to north-south during your roll attempt** (Effectiveness: Medium) - Your Response: Use the space created during their transition to complete the turtle or immediately sit through to guard recovery → Leads to [[Positions/Side Control]]
+- **Opponent inserts hook during your rotation before you can close turtle structure** (Effectiveness: Medium) - Your Response: Strip the hook immediately with explosive leg kick and continue to granby roll to prevent second hook → Leads to [[Positions/Back Control]]
 
 
 </section>

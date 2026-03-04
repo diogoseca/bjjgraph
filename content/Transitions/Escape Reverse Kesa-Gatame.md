@@ -21,7 +21,7 @@ The escape follows a deliberate progression: establish a defensive frame with th
 
 Strategically, this escape integrates with the bridge escape to create a dual-threat system from Reverse Kesa-Gatame bottom. The bridge targets explosive displacement when the top player's weight is high, while the hip escape methodically creates space when the opponent maintains low, sprawled pressure. Combining both techniques forces the top player into a positional dilemma: sprawling low to stop bridges opens vulnerability to hip escapes, while sitting higher to prevent shrimping creates bridging opportunities. This complementary escape pairing is essential for reliable survival against skilled pin-maintenance practitioners.
 
-**From Position**: [[Reverse Kesa-Gatame]] (Bottom)
+**From Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, this escape integrates with the bridge escape to create a dual-th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Closed Guard]] | 10% |
-| Failure | [[Reverse Kesa-Gatame]] | 35% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Closed Guard]] | 10% |
+| Failure | [[Positions/Side Control/Reverse Kesa-Gatame]] | 35% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -192,29 +192,29 @@ The hip escape from Reverse Kesa-Gatame fits within the comprehensive pin escape
 ## Related Techniques
 
 
-- [[Reverse Kesa-Gatame]] - Starting position that this escape addresses
+- [[Positions/Side Control/Reverse Kesa-Gatame]] - Starting position that this escape addresses
 
-- [[Half Guard]] - Primary escape destination through knee insertion
+- [[Positions/Half Guard]] - Primary escape destination through knee insertion
 
-- [[Closed Guard]] - Full guard recovery destination when sufficient space is created
+- [[Positions/Closed Guard]] - Full guard recovery destination when sufficient space is created
 
-- [[Mount]] - Counter position opponent achieves if escape is poorly timed
+- [[Positions/Mount]] - Counter position opponent achieves if escape is poorly timed
 
-- [[Bridge from Reverse Kesa-Gatame]] - Complementary explosive escape that pairs with this hip escape to create dual-threat system
+- [[Transitions/Bridge from Reverse Kesa-Gatame]] - Complementary explosive escape that pairs with this hip escape to create dual-threat system
 
-- [[Escape Modified Scarf Hold]] - Analogous hip escape from related scarf hold variant with similar mechanics
+- [[Transitions/Escape Modified Scarf Hold]] - Analogous hip escape from related scarf hold variant with similar mechanics
 
-- [[Bridge Escape from Scarf Hold]] - Related bridge escape technique from scarf hold family
+- [[Transitions/Bridge Escape from Scarf Hold]] - Related bridge escape technique from scarf hold family
 
-- [[Bridge Escape from Reverse Scarf Hold]] - Related escape from reverse scarf hold variant
+- [[Transitions/Bridge Escape from Reverse Scarf Hold]] - Related escape from reverse scarf hold variant
 
-- [[Kesa Gatame]] - Traditional scarf hold with related escape principles
+- [[Positions/Side Control/Kesa Gatame]] - Traditional scarf hold with related escape principles
 
-- [[Side Control]] - Parent category of pinning positions with shared escape concepts
+- [[Positions/Side Control]] - Parent category of pinning positions with shared escape concepts
 
-- [[Knee Shield Half Guard]] - Preferred half guard variation to establish after successful escape
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Preferred half guard variation to establish after successful escape
 
-- [[North-South]] - Position opponent may transition to if hip escape is detected early
+- [[Positions/North-South]] - Position opponent may transition to if hip escape is detected early
 
 
 </section>

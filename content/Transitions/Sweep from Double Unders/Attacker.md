@@ -186,7 +186,7 @@ description: "Complete guide to executing the Sweep from Double Unders as the bo
 
 As the attacker executing the Sweep from Double Unders, you are the bottom player trapped under double underhook pressure who converts a desperate defensive position into an offensive reversal. Your primary weapon is the opponent's own committed forward energy, which you redirect through grip control and precisely timed hip mechanics. This position demands rapid assessment of the opponent's weight distribution, immediate grip acquisition, and total commitment to the sweep direction. Half-measures result in failed sweeps that can accelerate the pass completion, making decisiveness critical. The sweep requires reading which variant is available based on the opponent's pressure angle: overhead when they drive forward aggressively, lateral bridge when their weight is centered, or leg hook when you achieve partial leg freedom. Mastering the timing window between the opponent's pressure commitment and your explosive response is the defining skill of this technique.
 
-**From Position**: [[Double Unders]] (Bottom)
+**From Position**: [[Positions/Double Unders]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the attacker executing the Sweep from Double Unders, you are the bottom playe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Double Unders]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Double Unders]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the attacker executing the Sweep from Double Unders, you are the bottom playe
 
 ## Opponent Counters
 
-- **Opponent bases out with hands on the mat when feeling the sweep initiation** (Effectiveness: High) - Your Response: If they post a hand, they must release one underhook, which weakens their control. Immediately attack the opened side by inserting a knee shield or butterfly hook to recover guard, or switch to the lateral sweep variant targeting the side where their hand is posted. → Leads to [[Double Unders]]
-- **Opponent drives through aggressively, using your sweep attempt momentum to accelerate the guard pass** (Effectiveness: High) - Your Response: If they drive through your overhead attempt, immediately transition to deep half guard entry on the side they pass toward, using the momentum of their drive-through as your entry energy. Alternatively, granby roll away from the passing direction to recover turtle. → Leads to [[Side Control]]
-- **Opponent releases underhooks and backs away to reset when sensing the sweep setup** (Effectiveness: Medium) - Your Response: Their disengagement is actually favorable since it relieves the pressure and gives you space to recover guard. Immediately establish frames, insert butterfly hooks, or recover to open guard before they re-engage with a new passing approach. → Leads to [[Double Unders]]
-- **Opponent drops hips low and flattens you before you can generate sweep momentum** (Effectiveness: High) - Your Response: When they sprawl their hips to kill your sweep, their chest pressure necessarily lightens. Use this pressure shift to create frames on their shoulders and work hip escapes toward guard recovery rather than continuing the sweep attempt. The position change from stacking to sprawling opens different escape pathways. → Leads to [[Double Unders]]
+- **Opponent bases out with hands on the mat when feeling the sweep initiation** (Effectiveness: High) - Your Response: If they post a hand, they must release one underhook, which weakens their control. Immediately attack the opened side by inserting a knee shield or butterfly hook to recover guard, or switch to the lateral sweep variant targeting the side where their hand is posted. → Leads to [[Positions/Double Unders]]
+- **Opponent drives through aggressively, using your sweep attempt momentum to accelerate the guard pass** (Effectiveness: High) - Your Response: If they drive through your overhead attempt, immediately transition to deep half guard entry on the side they pass toward, using the momentum of their drive-through as your entry energy. Alternatively, granby roll away from the passing direction to recover turtle. → Leads to [[Positions/Side Control]]
+- **Opponent releases underhooks and backs away to reset when sensing the sweep setup** (Effectiveness: Medium) - Your Response: Their disengagement is actually favorable since it relieves the pressure and gives you space to recover guard. Immediately establish frames, insert butterfly hooks, or recover to open guard before they re-engage with a new passing approach. → Leads to [[Positions/Double Unders]]
+- **Opponent drops hips low and flattens you before you can generate sweep momentum** (Effectiveness: High) - Your Response: When they sprawl their hips to kill your sweep, their chest pressure necessarily lightens. Use this pressure shift to create frames on their shoulders and work hip escapes toward guard recovery rather than continuing the sweep attempt. The position change from stacking to sprawling opens different escape pathways. → Leads to [[Positions/Double Unders]]
 
 
 </section>

@@ -180,7 +180,7 @@ description: "How to execute 50-50 Pass in BJJ. Attacking perspective with setup
 
 The 50-50 Pass is a critical escape and passing sequence from one of Brazilian Jiu-Jitsu's most complex entanglement positions. When trapped in the 50-50 Guard, both practitioners have mirrored leg entanglements with similar attacking opportunities, creating a symmetrical dilemma. The pass requires systematic leg extraction, hip control, and pressure application to break the entanglement and establish top position. This technique is essential for modern no-gi competition where 50-50 entries are common from various guard positions. The 50-50 Pass emphasizes defensive leg lock awareness while simultaneously creating passing opportunities. Understanding this sequence is crucial because remaining static in 50-50 Guard exposes you to heel hooks, toe holds, and other leg attacks. The pass transitions you from a dangerous entanglement to a dominant passing position where you can attack or consolidate control.
 
-**From Position**: [[50-50 Guard]] (Top)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The 50-50 Pass is a critical escape and passing sequence from one of Brazilian J
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 58% |
-| Failure | [[50-50 Guard]] | 27% |
-| Counter | [[50-50 Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 58% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 27% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -245,11 +245,11 @@ The 50-50 Pass is a critical escape and passing sequence from one of Brazilian J
 
 ## Opponent Counters
 
-- **Opponent locks inside heel hook grip on your trapped foot** (Effectiveness: High) - Your Response: Break the grip immediately with both hands before attempting to pass. Strip the cupping hand first, then the controlling wrist. If grip is too strong, transition to defensive heel protection by rotating knee inward and wait for opponent to adjust before re-attempting. → Leads to [[50-50 Guard]]
-- **Opponent sits up and breaks your upper body control** (Effectiveness: High) - Your Response: Abandon the pass temporarily and return to neutral 50-50 position. Re-establish shoulder pressure and crossface before attempting the pass again. Do not force extraction without upper body control. → Leads to [[50-50 Guard]]
-- **Opponent follows your hip movement when you create space** (Effectiveness: Medium) - Your Response: Use a pumping motion - create space, extract slightly, then pressure back down. Repeat this cycle to progressively free your leg rather than one continuous movement. Each cycle gains a few inches of extraction. → Leads to [[50-50 Guard]]
-- **Opponent switches to outside heel hook as you extract** (Effectiveness: Medium) - Your Response: Recognize the switch immediately and adjust your heel protection. Turn your knee inward to hide the heel and continue extraction with increased urgency. The extraction itself removes the attacking angle. → Leads to [[50-50 Guard]]
-- **Opponent attempts sweep by elevating your hips during extraction** (Effectiveness: Low) - Your Response: Base wide with your free leg and post your hand on the mat. Lower your hips and increase forward pressure to counter the sweep attempt. Their elevation creates space that actually aids your leg extraction. → Leads to [[50-50 Guard]]
+- **Opponent locks inside heel hook grip on your trapped foot** (Effectiveness: High) - Your Response: Break the grip immediately with both hands before attempting to pass. Strip the cupping hand first, then the controlling wrist. If grip is too strong, transition to defensive heel protection by rotating knee inward and wait for opponent to adjust before re-attempting. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent sits up and breaks your upper body control** (Effectiveness: High) - Your Response: Abandon the pass temporarily and return to neutral 50-50 position. Re-establish shoulder pressure and crossface before attempting the pass again. Do not force extraction without upper body control. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent follows your hip movement when you create space** (Effectiveness: Medium) - Your Response: Use a pumping motion - create space, extract slightly, then pressure back down. Repeat this cycle to progressively free your leg rather than one continuous movement. Each cycle gains a few inches of extraction. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent switches to outside heel hook as you extract** (Effectiveness: Medium) - Your Response: Recognize the switch immediately and adjust your heel protection. Turn your knee inward to hide the heel and continue extraction with increased urgency. The extraction itself removes the attacking angle. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent attempts sweep by elevating your hips during extraction** (Effectiveness: Low) - Your Response: Base wide with your free leg and post your hand on the mat. Lower your hips and increase forward pressure to counter the sweep attempt. Their elevation creates space that actually aids your leg extraction. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 
 
 </section>

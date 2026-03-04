@@ -21,7 +21,7 @@ Understanding when to establish, maintain, and abandon the Whizzer separates com
 
 The Whizzer is inherently transitional. Holding it statically wastes energy and gives your opponent time to adapt. The highest-percentage application involves establishing the Whizzer, immediately breaking the opponent's posture with shoulder pressure and head control, reading their defensive reaction, and transitioning within three to five seconds to back control, kimura, or a reversal sweep based on their weight distribution and movement direction.
 
-**From Position**: [[Overhook Control]] (Top)
+**From Position**: [[Positions/Overhook Control]] (Top)
 **Success Rate**: 68%
 
 </section>
@@ -32,9 +32,9 @@ The Whizzer is inherently transitional. Holding it statically wastes energy and 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 75% |
-| Failure | [[Overhook Control]] | 15% |
-| Counter | [[Overhook Control]] | 10% |
+| Success | [[Positions/Back Control]] | 75% |
+| Failure | [[Positions/Overhook Control]] | 15% |
+| Counter | [[Positions/Overhook Control]] | 10% |
 
 
 </section>
@@ -192,29 +192,29 @@ The Whizzer functions as a critical connecting technique within the broader BJJ 
 ## Related Techniques
 
 
-- [[Kimura to Back Take]] - Common follow-up transition from Whizzer control when opponent pulls arm back
+- [[Transitions/Kimura to Back Take]] - Common follow-up transition from Whizzer control when opponent pulls arm back
 
-- [[Front Headlock to Back]] - Complementary control system often combined with Whizzer for complete upper body dominance
+- [[Transitions/Front Headlock to Back]] - Complementary control system often combined with Whizzer for complete upper body dominance
 
-- [[Turtle to Back Take]] - Primary defensive context where Whizzer is applied against turtle attacker
+- [[Transitions/Turtle to Back Take]] - Primary defensive context where Whizzer is applied against turtle attacker
 
-- [[Back Control]] - Primary target position after successful Whizzer transition
+- [[Positions/Back Control]] - Primary target position after successful Whizzer transition
 
-- [[Kimura Defense]] - Alternative defensive response in similar underhook battle scenarios
+- [[Transitions/Kimura Defense]] - Alternative defensive response in similar underhook battle scenarios
 
-- [[Arm Drag to Back]] - Alternative transition to back control when underhook battle is present
+- [[Transitions/Arm Drag to Back]] - Alternative transition to back control when underhook battle is present
 
-- [[Single Leg Takedown]] - Primary attack that the Whizzer defends against in standing exchanges
+- [[Transitions/Single Leg Takedown]] - Primary attack that the Whizzer defends against in standing exchanges
 
-- [[Overhook Control]] - Base position where Whizzer control is established before transitioning
+- [[Positions/Overhook Control]] - Base position where Whizzer control is established before transitioning
 
-- [[Guillotine Setup]] - Alternative attack when opponent counters Whizzer by ducking head
+- [[Transitions/Guillotine Setup]] - Alternative attack when opponent counters Whizzer by ducking head
 
-- [[Kimura]] - Direct submission transition from Whizzer when opponent retracts arm
+- [[Transitions/Kimura]] - Direct submission transition from Whizzer when opponent retracts arm
 
-- [[Darce Choke]] - Submission option when opponent drops head forward under Whizzer pressure
+- [[Transitions/Darce Choke]] - Submission option when opponent drops head forward under Whizzer pressure
 
-- [[Anaconda Choke]] - Submission option when transitioning from Whizzer to front headlock control
+- [[Transitions/Anaconda Choke]] - Submission option when transitioning from Whizzer to front headlock control
 
 
 </section>

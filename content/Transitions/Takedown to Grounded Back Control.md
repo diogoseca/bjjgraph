@@ -21,7 +21,7 @@ The technique operates on a simple mechanical principle: gravity is your ally wh
 
 Strategically, this transition should be attempted when the opponent demonstrates strong upright posture, active grip fighting that threatens your harness, or when they begin loading weight to attempt a throw or reversal. The decision to take the fight down rather than pursue standing submissions reflects a positional-dominance philosophy: grounded back control with hooks is statistically the highest-percentage finishing position in competition grappling. Converting standing back exposure to grounded back control is not merely a positional improvement; it is the single most important conversion in the back attack system.
 
-**From Position**: [[Standing Back Control]] (Top)
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, this transition should be attempted when the opponent demonstrate
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Standing Back Control]] | 15% |
-| Failure | [[Turtle]] | 10% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Back Control/Standing Back Control]] | 15% |
+| Failure | [[Positions/Turtle]] | 10% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -197,29 +197,29 @@ The Takedown to Grounded Back Control occupies a pivotal role in the back attack
 ## Related Techniques
 
 
-- [[Standing Back Control]] - Starting position - the standing back exposure that this transition converts to grounded control
+- [[Positions/Back Control/Standing Back Control]] - Starting position - the standing back exposure that this transition converts to grounded control
 
-- [[Back Control]] - Target position - the dominant grounded back control achieved upon successful completion
+- [[Positions/Back Control]] - Target position - the dominant grounded back control achieved upon successful completion
 
-- [[Mat Return to Back Mount]] - Alternative mat return variation that targets mount rather than standard back control
+- [[Transitions/Mat Return to Back Mount]] - Alternative mat return variation that targets mount rather than standard back control
 
-- [[Rear Naked Choke]] - Primary submission follow-up from the grounded back control achieved by this transition
+- [[Transitions/Rear Naked Choke]] - Primary submission follow-up from the grounded back control achieved by this transition
 
-- [[Body Triangle Lock]] - Follow-up control option - body triangle can be established during or immediately after the mat return
+- [[Transitions/Body Triangle Lock]] - Follow-up control option - body triangle can be established during or immediately after the mat return
 
-- [[Back Control Maintenance]] - Continuation technique - maintaining grounded back control once established by the mat return
+- [[Transitions/Back Control Maintenance]] - Continuation technique - maintaining grounded back control once established by the mat return
 
-- [[Bow and Arrow Choke]] - Gi-specific submission follow-up available from the grounded back control position
+- [[Transitions/Bow and Arrow Choke]] - Gi-specific submission follow-up available from the grounded back control position
 
-- [[Seat Belt Control Back]] - Grip configuration maintained throughout this transition and essential for its success
+- [[Positions/Back Control/Seat Belt Control Back]] - Grip configuration maintained throughout this transition and essential for its success
 
-- [[Controlled Descent]] - Counter technique - the bottom player's controlled drop to turtle to deny hooks
+- [[Transitions/Controlled Descent]] - Counter technique - the bottom player's controlled drop to turtle to deny hooks
 
-- [[Back Take]] - Prerequisite technique chain - back take leads to standing back control which leads to this mat return
+- [[Transitions/Back Take]] - Prerequisite technique chain - back take leads to standing back control which leads to this mat return
 
-- [[Armbar from Back]] - Alternative submission follow-up when opponent over-defends neck after grounded back control
+- [[Submissions/Armbar from Back]] - Alternative submission follow-up when opponent over-defends neck after grounded back control
 
-- [[Follow to Back Control]] - Related transition - following opponent to the ground when they voluntarily descend
+- [[Transitions/Follow to Back Control]] - Related transition - following opponent to the ground when they voluntarily descend
 
 
 </section>

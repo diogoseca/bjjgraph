@@ -19,7 +19,7 @@ The Truck Entry is a fundamental transition in modern no-gi grappling that trans
 
 The Truck Entry capitalizes on the turtle position's inherent vulnerability: while turtle protects against many traditional attacks, it exposes the legs and hips to creative entries. Modern competitors have elevated this transition into a high-percentage system, particularly in no-gi competition where the absence of gi grips makes traditional back-taking methods less reliable. The entry requires precise timing and spatial awareness to thread your leg hook while maintaining control of the opponent's upper body, creating a locked structure that prevents escape while opening submission opportunities including the Twister, Calf Slicer, Banana Split, and transitions to traditional back control.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -30,9 +30,9 @@ The Truck Entry capitalizes on the turtle position's inherent vulnerability: whi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Truck]] | 58% |
-| Failure | [[Turtle]] | 30% |
-| Counter | [[Turtle]] | 12% |
+| Success | [[Positions/Twister Control/Truck]] | 58% |
+| Failure | [[Positions/Turtle]] | 30% |
+| Counter | [[Positions/Turtle]] | 12% |
 
 
 </section>
@@ -196,29 +196,29 @@ Truck Entry serves as a critical gateway technique in modern back attack systems
 ## Related Techniques
 
 
-- [[Truck]] - Target position upon successful completion
+- [[Positions/Twister Control/Truck]] - Target position upon successful completion
 
-- [[Turtle]] - Starting position where entry is initiated
+- [[Positions/Turtle]] - Starting position where entry is initiated
 
-- [[Twister Control]] - Follow-up control position for spinal attacks
+- [[Positions/Twister Control]] - Follow-up control position for spinal attacks
 
-- [[Turtle to Back Take]] - Alternative transition from turtle top
+- [[Transitions/Turtle to Back Take]] - Alternative transition from turtle top
 
-- [[Crab Ride to Back]] - Related back attack entry from similar position
+- [[Transitions/Crab Ride to Back]] - Related back attack entry from similar position
 
-- [[Old School Sweep]] - Common preceding technique in 10th Planet system
+- [[Transitions/Old School Sweep]] - Common preceding technique in 10th Planet system
 
-- [[Lockdown Recovery]] - Chain link from Half Guard system to turtle scenarios
+- [[Transitions/Lockdown Recovery]] - Chain link from Half Guard system to turtle scenarios
 
-- [[Twister Finish]] - Primary submission follow-up from Truck
+- [[Transitions/Twister Finish]] - Primary submission follow-up from Truck
 
-- [[Calf Slicer from Truck]] - Alternative submission from Truck position
+- [[Submissions/Calf Slicer from Truck]] - Alternative submission from Truck position
 
-- [[Crucifix from Turtle]] - Alternative turtle attack when entry is blocked
+- [[Transitions/Crucifix from Turtle]] - Alternative turtle attack when entry is blocked
 
-- [[Front Headlock to Back]] - Alternative back attack pathway from turtle
+- [[Transitions/Front Headlock to Back]] - Alternative back attack pathway from turtle
 
-- [[Electric Chair Submission]] - Related 10th Planet system submission
+- [[Submissions/Electric Chair Submission]] - Related 10th Planet system submission
 
 
 </section>

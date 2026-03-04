@@ -190,21 +190,21 @@ Critical safety awareness is paramount when defending kneebars. If your opponent
 ### 1. Immediately sit up toward the attacker and drive your chest forward to close distance, using both hands to strip their heel grip by peeling fingers and pushing their arms away from your foot
 
 - **When to use**: As soon as you recognize the hip pivot beginning, before the attacker establishes a locked leg triangle. Most effective in the first 1-2 seconds of the entry attempt.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You regain top position inside their guard with your leg freed, returning to standard guard passing scenario
 - **Risk**: If you sit up too late after the leg triangle is locked, the attacker can use your forward momentum to tighten the kneebar and finish
 
 ### 2. Grab your own knee or shin with both hands in a defensive grip, pulling your trapped leg tight to your body to prevent the attacker from isolating it and establishing the figure-four leg triangle
 
 - **When to use**: When the attacker has achieved the perpendicular pivot but has not yet locked the leg triangle. This buys time to work toward a full escape.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: The attacker cannot finish the kneebar without breaking your defensive grip, giving you time to posture up and extract your leg
 - **Risk**: If you only use one hand or a weak grip, the attacker can use two-on-one grip breaking to strip your defense and proceed to the finish
 
 ### 3. Step your free leg over the attacker's head to establish a defensive hook behind their shoulder, then use this hook to turn your body toward them and begin extracting your trapped leg
 
 - **When to use**: When the attacker has begun leg isolation but has not fully secured upper body control with their free leg. Effective when you have mobility in your free leg.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The defensive hook disrupts the attacker's perpendicular angle and creates the space needed to extract your trapped leg and establish a passing position
 - **Risk**: Requires timing and hip mobility - if the attacker angles away from your stepping leg or has strong upper body control, the step-over may fail
 
@@ -227,11 +227,11 @@ Critical safety awareness is paramount when defending kneebars. If your opponent
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Strip the attacker's heel control by sitting up aggressively and using two-on-one grip breaks on their hands, then drive forward to re-establish posture inside their closed guard before they can re-attack
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Step your free leg over the attacker's head to establish a defensive hook, rotate to face them, and extract your trapped leg into a half guard passing position where you maintain top pressure
 

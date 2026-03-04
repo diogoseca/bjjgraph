@@ -180,7 +180,7 @@ description: "Complete guide to executing the Toreando pass from Headquarters Po
 
 The Toreando from Headquarters rewards the passer who can read distance-creation reactions and convert them into explosive lateral passing. From the established headquarters position with one leg already controlled, the passer transitions to bilateral leg grips and redirects the opponent's legs laterally while stepping around them to achieve side control. The technique demands coordinated timing between the leg push and the lateral hip movement, precise grip placement at the knee line, and immediate upper body consolidation upon clearing the legs. Unlike pressure passes that grind through defensive structures, the Toreando exploits the space the bottom player creates, making it the essential speed-pass complement in any systematic headquarters-based passing system.
 
-**From Position**: [[Headquarters Position]] (Top)
+**From Position**: [[Positions/Headquarters Position]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The Toreando from Headquarters rewards the passer who can read distance-creation
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Headquarters Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Headquarters Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Toreando from Headquarters rewards the passer who can read distance-creation
 
 ## Opponent Counters
 
-- **Opponent grabs collar or sleeve during lateral movement, anchoring passer and preventing hip clearance** (Effectiveness: High) - Your Response: Strip the grip before committing to the lateral step, or change direction and chain into a knee cut pass on the opposite side where the grip becomes a liability for the bottom player → Leads to [[Headquarters Position]]
-- **Opponent retracts both legs quickly, pulling knees to chest and recovering closed or butterfly guard structure** (Effectiveness: High) - Your Response: If legs retract before you step, return to headquarters and re-establish leg control rather than chasing retracted legs. If retraction happens mid-pass, convert to a body lock pass or stack pass by driving forward into the retracted legs → Leads to [[Headquarters Position]]
-- **Opponent hip escapes toward passing direction during lateral movement, creating angle and inserting knee for half guard** (Effectiveness: Medium) - Your Response: Accelerate the lateral step to beat the hip escape, or if they catch your leg, immediately establish crossface and underhook in half guard top and work a knee slice pass before they consolidate the half guard position → Leads to [[Half Guard]]
-- **Opponent posts foot on passer's hip on the passing side, creating a frame that blocks lateral movement and hip clearance** (Effectiveness: Medium) - Your Response: Grip the blocking foot at the ankle and push it past your hip line while continuing the lateral step, or switch to over-under toreando variation that lifts the blocking leg rather than fighting the hip frame directly → Leads to [[Headquarters Position]]
+- **Opponent grabs collar or sleeve during lateral movement, anchoring passer and preventing hip clearance** (Effectiveness: High) - Your Response: Strip the grip before committing to the lateral step, or change direction and chain into a knee cut pass on the opposite side where the grip becomes a liability for the bottom player → Leads to [[Positions/Headquarters Position]]
+- **Opponent retracts both legs quickly, pulling knees to chest and recovering closed or butterfly guard structure** (Effectiveness: High) - Your Response: If legs retract before you step, return to headquarters and re-establish leg control rather than chasing retracted legs. If retraction happens mid-pass, convert to a body lock pass or stack pass by driving forward into the retracted legs → Leads to [[Positions/Headquarters Position]]
+- **Opponent hip escapes toward passing direction during lateral movement, creating angle and inserting knee for half guard** (Effectiveness: Medium) - Your Response: Accelerate the lateral step to beat the hip escape, or if they catch your leg, immediately establish crossface and underhook in half guard top and work a knee slice pass before they consolidate the half guard position → Leads to [[Positions/Half Guard]]
+- **Opponent posts foot on passer's hip on the passing side, creating a frame that blocks lateral movement and hip clearance** (Effectiveness: Medium) - Your Response: Grip the blocking foot at the ankle and push it past your hip line while continuing the lateral step, or switch to over-under toreando variation that lifts the blocking leg rather than fighting the hip frame directly → Leads to [[Positions/Headquarters Position]]
 
 
 </section>

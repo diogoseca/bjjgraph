@@ -21,7 +21,7 @@ This transition represents the defensive backbone of the Gift Wrap system. Every
 
 Maintenance is not passive holding. It demands constant sensory feedback and responsive adjustment. The attacker reads the opponent's escape intentions through weight shifts, shoulder rotation, and hip movement, then applies targeted counter-pressure before those escape mechanics develop. The best Gift Wrap practitioners make maintenance appear effortless because they address problems at inception rather than after space has been created.
 
-**From Position**: [[Gift Wrap]] (Top)
+**From Position**: [[Positions/Gift Wrap]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ Maintenance is not passive holding. It demands constant sensory feedback and res
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Gift Wrap]] | 60% |
-| Failure | [[Seat Belt Control Back]] | 25% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Gift Wrap]] | 60% |
+| Failure | [[Positions/Back Control/Seat Belt Control Back]] | 25% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ Gift Wrap Maintenance functions as the retention mechanism within the broader Gi
 ## Related Techniques
 
 
-- [[Gift Wrap]] - Source position that this maintenance transition preserves
+- [[Positions/Gift Wrap]] - Source position that this maintenance transition preserves
 
-- [[Back Control]] - Parent back control system that Gift Wrap enhances
+- [[Positions/Back Control]] - Parent back control system that Gift Wrap enhances
 
-- [[Seat Belt Control Back]] - Degraded control state when arm trap is lost during maintenance failure
+- [[Positions/Back Control/Seat Belt Control Back]] - Degraded control state when arm trap is lost during maintenance failure
 
-- [[Gift Wrap RNC]] - Primary submission enabled by reliable Gift Wrap maintenance
+- [[Submissions/Gift Wrap RNC]] - Primary submission enabled by reliable Gift Wrap maintenance
 
-- [[Gift Wrap Armbar]] - Secondary submission targeting the free arm from maintained Gift Wrap
+- [[Submissions/Gift Wrap Armbar]] - Secondary submission targeting the free arm from maintained Gift Wrap
 
-- [[Crucifix]] - Positional advancement accessible from well-maintained Gift Wrap control
+- [[Positions/Crucifix]] - Positional advancement accessible from well-maintained Gift Wrap control
 
-- [[Technical Mount]] - Transition target when opponent turns during Gift Wrap maintenance
+- [[Positions/Mount/Technical Mount]] - Transition target when opponent turns during Gift Wrap maintenance
 
-- [[Body Triangle]] - Complementary leg control that enhances Gift Wrap maintenance
+- [[Positions/Back Control/Body Triangle]] - Complementary leg control that enhances Gift Wrap maintenance
 
-- [[Turtle]] - Counter outcome position when opponent escapes hooks during maintenance
+- [[Positions/Turtle]] - Counter outcome position when opponent escapes hooks during maintenance
 
-- [[Back Control Maintenance]] - Parallel maintenance concept for standard back control without arm trap
+- [[Transitions/Back Control Maintenance]] - Parallel maintenance concept for standard back control without arm trap
 
 
 </section>

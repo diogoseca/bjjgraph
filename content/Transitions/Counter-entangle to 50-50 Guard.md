@@ -21,7 +21,7 @@ The strategic value of this counter lies in its risk mitigation properties. When
 
 This technique requires precise timing and technical execution. Attempting the counter-entangle too early when the opponent has strong control results in accelerated positional deterioration. Waiting too long allows the opponent to consolidate into Saddle or Inside Ashi where counter-entanglement becomes impossible. The window of opportunity exists during transitional moments when the opponent is adjusting grips or attempting to advance their position.
 
-**From Position**: [[Leg Knot]] (Bottom)
+**From Position**: [[Positions/Leg Knot]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This technique requires precise timing and technical execution. Attempting the c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 65% |
-| Failure | [[Leg Knot]] | 25% |
-| Counter | [[Saddle]] | 10% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 65% |
+| Failure | [[Positions/Leg Knot]] | 25% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 10% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Counter-entangle to 50-50 Guard sits within the broader leg entanglement def
 ## Related Techniques
 
 
-- [[Leg Knot]] - Starting position
+- [[Positions/Leg Knot]] - Starting position
 
-- [[50-50 Guard]] - Target position upon successful execution
+- [[Positions/Ashi Garami/50-50 Guard]] - Target position upon successful execution
 
-- [[Saddle]] - Position opponent may achieve if counter fails
+- [[Positions/Ashi Garami/Saddle]] - Position opponent may achieve if counter fails
 
-- [[Inside Ashi-Garami]] - Related leg entanglement that counter-entangle prevents
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement that counter-entangle prevents
 
-- [[Heel Hook]] - Primary submission threat in both starting and ending positions
+- [[Transitions/Heel Hook]] - Primary submission threat in both starting and ending positions
 
-- [[Single Leg X-Guard]] - Alternative target position if 50-50 entry is blocked
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative target position if 50-50 entry is blocked
 
-- [[Ashi Garami Escape]] - Related defensive technique from leg entanglements
+- [[Transitions/Ashi Garami Escape]] - Related defensive technique from leg entanglements
 
-- [[50-50 Entry]] - Related entry technique to same target position
+- [[Transitions/50-50 Entry]] - Related entry technique to same target position
 
-- [[Half Guard]] - Alternative escape target for full leg extraction
+- [[Positions/Half Guard]] - Alternative escape target for full leg extraction
 
-- [[Granby Roll to Guard]] - Related escape that can be combined with reverse counter-entangle variant
+- [[Transitions/Granby Roll to Guard]] - Related escape that can be combined with reverse counter-entangle variant
 
 
 </section>

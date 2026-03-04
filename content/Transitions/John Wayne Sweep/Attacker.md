@@ -180,7 +180,7 @@ description: "How to execute John Wayne Sweep in BJJ. Attacking perspective with
 
 The John Wayne Sweep is a powerful offensive technique from half guard that capitalizes on opponent's forward pressure and poor base management. Named after the characteristic pistol-shooting motion used during the grip break, this sweep combines elements of traditional half guard underhook work with creative grip fighting. The technique exploits the moment when your opponent reaches for crossface control or attempts to flatten you, using their forward commitment against them. By establishing strong sleeve control from the underhook side, creating an angle with your hip movement, and utilizing the half guard hook effectively, you can off-balance your opponent and transition directly to mount. This sweep is particularly effective in gi grappling where grip control provides leverage advantages, though no-gi variations exist using wrist and tricep controls.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ The John Wayne Sweep is a powerful offensive technique from half guard that capi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 58% |
-| Failure | [[Half Guard]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 58% |
+| Failure | [[Positions/Half Guard]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ The John Wayne Sweep is a powerful offensive technique from half guard that capi
 
 ## Opponent Counters
 
-- **Opponent withdraws hips and creates distance when they feel the angle developing** (Effectiveness: High) - Your Response: Immediately transition to deep half guard entry by following their backward movement, or switch to a knee shield recovery to reset the half guard position and re-establish the underhook → Leads to [[Half Guard]]
-- **Opponent establishes strong crossface and drives forward with shoulder pressure to flatten you** (Effectiveness: Medium) - Your Response: Use their forward pressure to execute a standard underhook sweep to the opposite side, or transition to deep half guard by dropping under their weight and establishing deep half control → Leads to [[Half Guard]]
-- **Opponent posts free hand strongly and distributes weight over posted arm to prevent pistol break** (Effectiveness: Medium) - Your Response: Attack the posted arm with a kimura grip instead of breaking it, forcing them to defend the submission while you transition to a different sweep or back take opportunity → Leads to [[Half Guard]]
-- **Opponent sprawls legs back and flattens body weight down onto you to kill the sweep momentum** (Effectiveness: Low) - Your Response: Immediately re-establish knee shield to create distance, or transition to lockdown to control their leg and reset your half guard position rather than fighting from a flattened position → Leads to [[Half Guard]]
+- **Opponent withdraws hips and creates distance when they feel the angle developing** (Effectiveness: High) - Your Response: Immediately transition to deep half guard entry by following their backward movement, or switch to a knee shield recovery to reset the half guard position and re-establish the underhook → Leads to [[Positions/Half Guard]]
+- **Opponent establishes strong crossface and drives forward with shoulder pressure to flatten you** (Effectiveness: Medium) - Your Response: Use their forward pressure to execute a standard underhook sweep to the opposite side, or transition to deep half guard by dropping under their weight and establishing deep half control → Leads to [[Positions/Half Guard]]
+- **Opponent posts free hand strongly and distributes weight over posted arm to prevent pistol break** (Effectiveness: Medium) - Your Response: Attack the posted arm with a kimura grip instead of breaking it, forcing them to defend the submission while you transition to a different sweep or back take opportunity → Leads to [[Positions/Half Guard]]
+- **Opponent sprawls legs back and flattens body weight down onto you to kill the sweep momentum** (Effectiveness: Low) - Your Response: Immediately re-establish knee shield to create distance, or transition to lockdown to control their leg and reset your half guard position rather than fighting from a flattened position → Leads to [[Positions/Half Guard]]
 
 
 </section>

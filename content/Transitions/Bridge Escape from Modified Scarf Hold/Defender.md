@@ -140,7 +140,7 @@ description: "Learn to maintain Modified Scarf Hold against bridge escape attemp
 
 Defending against the bridge escape from Modified Scarf Hold requires the top player to develop sensitivity to the bottom player's setup cues and maintain dynamic pressure that adapts to explosive movement attempts. The fundamental defensive strategy centers on preventing the bridge from generating meaningful displacement by maintaining proper weight distribution and base positioning that absorbs directional force. When the bridge does create space, the defender must immediately choose between resettling into the pin or advancing to a superior position such as mount, rather than fighting to return to the exact same configuration. Understanding the bridge escape mechanics from the attacker's perspective allows the defender to preemptively neutralize setup attempts and maintain the crushing control that makes Modified Scarf Hold one of the most oppressive pins in grappling.
 
-**Opponent's Starting Position**: [[Modified Scarf Hold]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control/Modified Scarf Hold]] (Bottom)
 
 </section>
 
@@ -178,21 +178,21 @@ Defending against the bridge escape from Modified Scarf Hold requires the top pl
 ### 1. Sprawl hips forward and drive chest pressure downward at the moment the bridge initiates
 
 - **When to use**: When you detect the bridge setup cues and the bottom player begins the explosive hip extension, immediately sprawl your hips back and drive your sternum into their chest at a downward angle
-- **Targets**: [[Modified Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Modified Scarf Hold]]
 - **If successful**: Bridge is absorbed with minimal displacement and you maintain full scarf hold control with the opponent having expended significant energy
 - **Risk**: If mistimed, the sprawl can leave your hips light and actually assist the bridge by shifting weight forward
 
 ### 2. Step over to mount transition when the bridge creates space
 
 - **When to use**: When the bridge successfully lifts your chest and creates separation, ride the upward momentum by stepping your far knee over to the opposite side of the opponent's body and establishing mount
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You advance from Modified Scarf Hold to full mount, improving your position by gaining the highest-scoring pin in BJJ
 - **Risk**: If the opponent blocks the knee with a frame or turns during the step-over, you may end up in half guard or lose dominant position entirely
 
 ### 3. Deepen near-arm control and reset chest pressure after bridge peaks
 
 - **When to use**: When the bridge creates moderate space but not enough for the opponent to insert a knee, immediately drive your chest back down and tighten your grip on their near arm before they can establish frames
-- **Targets**: [[Modified Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Modified Scarf Hold]]
 - **If successful**: You reestablish the pin with even tighter control while the opponent has depleted energy on the failed escape attempt
 - **Risk**: Attempting to resettle gives the opponent a brief window to insert a knee or switch to a hip escape
 
@@ -204,11 +204,11 @@ Defending against the bridge escape from Modified Scarf Hold requires the top pl
 
 ## Best-Case Outcomes for Defender
 
-### → [[Modified Scarf Hold]]
+### → [[Positions/Side Control/Modified Scarf Hold]]
 
 Absorb the bridge by sprawling hips and maintaining chest pressure, then resettle with tighter arm control once the bridge peaks and the opponent's hips return to the mat. Focus on driving pressure at a downward angle that pins them flat rather than simply settling weight on top.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the bridge successfully creates space, convert the escape attempt into a positional advancement by stepping your far knee over to establish mount. Ride the bridge momentum upward and use the space created by the opponent's own escape attempt to swing your leg across their body. Immediately settle your weight into low mount before they can react.
 

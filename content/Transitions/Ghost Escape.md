@@ -21,7 +21,7 @@ The technique is most effective against opponents who maintain heavy chest-to-ch
 
 The Ghost Escape is particularly valuable in no-gi grappling where the absence of gi friction makes rotational movement faster and harder to stop. It connects directly to the turtle defense system, making strong turtle fundamentals a prerequisite. At the highest levels, practitioners chain the ghost rotation into immediate single leg attacks or guard recovery rather than settling into static turtle, transforming a defensive escape into an offensive transition.
 
-**From Position**: [[Side Control]] (Bottom)
+**From Position**: [[Positions/Side Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The Ghost Escape is particularly valuable in no-gi grappling where the absence o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Side Control]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Side Control]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -196,27 +196,27 @@ The Ghost Escape belongs to the modern side control escape system that prioritiz
 ## Related Techniques
 
 
-- [[Side Control Escape]] - Alternative escape option from same starting position
+- [[Transitions/Side Control Escape]] - Alternative escape option from same starting position
 
-- [[Shrimp Escape]] - Traditional linear escape that Ghost Escape complements when shut down
+- [[Transitions/Shrimp Escape]] - Traditional linear escape that Ghost Escape complements when shut down
 
-- [[Elbow Escape to Guard]] - Fundamental escape to use when Ghost Escape is not available
+- [[Transitions/Elbow Escape to Guard]] - Fundamental escape to use when Ghost Escape is not available
 
-- [[Hip Escape to Guard]] - Related escape using different movement pattern from same position
+- [[Transitions/Hip Escape to Guard]] - Related escape using different movement pattern from same position
 
-- [[Frame and Shrimp to Guard]] - Fundamental framing and movement pattern that sets up Ghost Escape
+- [[Transitions/Frame and Shrimp to Guard]] - Fundamental framing and movement pattern that sets up Ghost Escape
 
-- [[Granby Roll to Guard]] - Similar rotational mechanic used from turtle after Ghost Escape completes
+- [[Transitions/Granby Roll to Guard]] - Similar rotational mechanic used from turtle after Ghost Escape completes
 
-- [[Turtle to Guard]] - Follow-up guard recovery transition after completing Ghost Escape
+- [[Transitions/Turtle to Guard]] - Follow-up guard recovery transition after completing Ghost Escape
 
-- [[Technical Stand-up]] - Alternative escape option from turtle after Ghost Escape
+- [[Transitions/Technical Stand-up]] - Alternative escape option from turtle after Ghost Escape
 
-- [[Turtle to Back Control]] - Primary threat to defend against after completing Ghost Escape
+- [[Transitions/Turtle to Back Control]] - Primary threat to defend against after completing Ghost Escape
 
-- [[Bridge and Roll]] - Explosive escape alternative when opponent overcommits weight forward
+- [[Transitions/Bridge and Roll]] - Explosive escape alternative when opponent overcommits weight forward
 
-- [[Peterson Roll]] - Complementary rolling escape from turtle that chains with Ghost Escape
+- [[Transitions/Peterson Roll]] - Complementary rolling escape from turtle that chains with Ghost Escape
 
 
 </section>

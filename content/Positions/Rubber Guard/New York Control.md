@@ -99,31 +99,31 @@ Competition application demonstrates New York Control's effectiveness in both gi
 ### Available Transitions
 
 
-- **[[Gogoplata]]** (6% of attempts)
+- **[[Transitions/Gogoplata]]** (6% of attempts)
 
-- **[[Triangle Setup]]** (18% of attempts)
+- **[[Transitions/Triangle Setup]]** (18% of attempts)
 
-- **[[Omoplata Sweep]]** (8% of attempts)
+- **[[Transitions/Omoplata Sweep]]** (8% of attempts)
 
-- **[[Triangle to Omoplata]]** (7% of attempts)
+- **[[Transitions/Triangle to Omoplata]]** (7% of attempts)
 
-- **[[Omoplata to Back]]** (6% of attempts)
+- **[[Transitions/Omoplata to Back]]** (6% of attempts)
 
-- **[[Triangle to Back]]** (7% of attempts)
+- **[[Transitions/Triangle to Back]]** (7% of attempts)
 
-- **[[Crackhead Control to Mission Control]]** (9% of attempts)
+- **[[Transitions/Crackhead Control to Mission Control]]** (9% of attempts)
 
-- **[[New York to Invisible Collar]]** (9% of attempts)
+- **[[Transitions/New York to Invisible Collar]]** (9% of attempts)
 
-- **[[New York Control to Zombie]]** (8% of attempts)
+- **[[Transitions/New York Control to Zombie]]** (8% of attempts)
 
-- **[[Armbar Finish]]** (6% of attempts)
+- **[[Transitions/Armbar Finish]]** (6% of attempts)
 
-- **[[Kimura]]** (6% of attempts)
+- **[[Transitions/Kimura]]** (6% of attempts)
 
-- **[[Hip Bump Sweep]]** (7% of attempts)
+- **[[Transitions/Hip Bump Sweep]]** (7% of attempts)
 
-- **[[New York Control to Invisible Collar]]** (3% of attempts)
+- **[[Transitions/New York Control to Invisible Collar]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -184,21 +184,21 @@ Competition application demonstrates New York Control's effectiveness in both gi
 ### Available Transitions
 
 
-- **[[Overhook Escape]]** (15% of attempts)
+- **[[Transitions/Overhook Escape]]** (15% of attempts)
 
-- **[[Posture Recovery]]** (14% of attempts)
+- **[[Transitions/Posture Recovery]]** (14% of attempts)
 
-- **[[Crossface to Combat Base]]** (24% of attempts)
+- **[[Transitions/Crossface to Combat Base]]** (24% of attempts)
 
-- **[[Stack Pass]]** (11% of attempts)
+- **[[Transitions/Stack Pass]]** (11% of attempts)
 
-- **[[Leg Extraction]]** (15% of attempts)
+- **[[Transitions/Leg Extraction]]** (15% of attempts)
 
-- **[[Standing Escape]]** (13% of attempts)
+- **[[Transitions/Standing Escape]]** (13% of attempts)
 
-- **[[New York Control Escape]]** (5% of attempts)
+- **[[Transitions/New York Control Escape]]** (5% of attempts)
 
-- **[[Guard Pass from New York Control]]** (3% of attempts)
+- **[[Transitions/Guard Pass from New York Control]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -233,23 +233,23 @@ Competition application demonstrates New York Control's effectiveness in both gi
 ## Related Positions
 
 
-- **[[Mission Control]]** - Primary entry position from rubber guard system
+- **[[Positions/Rubber Guard/Mission Control]]** - Primary entry position from rubber guard system
 
-- **[[Invisible Collar]]** - Alternative rubber guard control position with similar flexibility requirements
+- **[[Positions/Rubber Guard/Invisible Collar]]** - Alternative rubber guard control position with similar flexibility requirements
 
-- **[[Zombie]]** - Advanced rubber guard position combining posture break with submission setup
+- **[[Positions/Rubber Guard/Zombie]]** - Advanced rubber guard position combining posture break with submission setup
 
-- **[[Chill Dog]]** - Rubber guard variation emphasizing shoulder control
+- **[[Positions/Rubber Guard/Chill Dog]]** - Rubber guard variation emphasizing shoulder control
 
-- **[[Triangle Control]]** - Common finishing position from New York transitions
+- **[[Positions/Triangle Control]]** - Common finishing position from New York transitions
 
-- **[[Omoplata Control]]** - High-percentage attack option from New York structure
+- **[[Positions/Omoplata Control]]** - High-percentage attack option from New York structure
 
-- **[[Gogoplata Control]]** - Signature submission finish utilizing New York positioning
+- **[[Positions/Gogoplata Control]]** - Signature submission finish utilizing New York positioning
 
-- **[[Closed Guard]]** - Traditional starting position before rubber guard entries
+- **[[Positions/Closed Guard]]** - Traditional starting position before rubber guard entries
 
-- **[[Overhook Guard]]** - Related control position utilizing similar arm control
+- **[[Positions/Overhook Guard]]** - Related control position utilizing similar arm control
 
 
 </section>

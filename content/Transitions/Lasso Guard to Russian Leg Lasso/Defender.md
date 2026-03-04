@@ -154,7 +154,7 @@ description: "How to defend the transition to Russian Leg Lasso. Recognition cue
 
 Defending the transition to Russian Leg Lasso requires recognizing the bottom player's intent to thread a second leg before the sleeve grip on your free arm is established. As the top player already caught in a single lasso, your primary vulnerability is the moment your free arm extends or commits to a task - the bottom player is specifically waiting for this exposure to capture the sleeve and begin threading. Once the second lasso locks in, your defensive options narrow dramatically because both arms become simultaneously restricted, eliminating effective posting, grip fighting, and base recovery. The defensive priority is maintaining awareness of your free arm's position at all times and recognizing the specific cues that indicate the bottom player is preparing to transition from single to double lasso. Early recognition allows simple arm retraction. Late recognition requires more aggressive counters. Once both lassos are established, your focus shifts entirely to extracting one arm before bilateral sweeps begin.
 
-**Opponent's Starting Position**: [[Lasso Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Lasso Guard]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the transition to Russian Leg Lasso requires recognizing the bottom pl
 ### 1. Retract free arm immediately and pin it against your body when you detect the collar grip release or sleeve grab attempt
 
 - **When to use**: The instant you feel the bottom player's non-lasso hand release your collar and move toward your free arm, before they establish the second sleeve grip
-- **Targets**: [[Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard]]
 - **If successful**: The transition fails entirely because there is no sleeve grip to guide the threading. Position reverts to standard single lasso guard where you can continue passing
 - **Risk**: Keeping the arm retracted limits your passing options and keeps you in single lasso guard without offensive tools
 
 ### 2. Strip the first sleeve grip aggressively during the transition window when the bottom player's non-lasso hand is off the collar and occupied with capturing your free sleeve
 
 - **When to use**: During the 1-2 second window when the bottom player's non-lasso hand has left the collar but not yet secured your free sleeve - their grip management is at its weakest
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Breaking the first sleeve grip collapses the entire lasso system. Without the anchor of the first lasso, the transition to Russian Leg Lasso becomes impossible and you face a weakened open guard
 - **Risk**: If the strip fails, you have used your free arm in a reaching motion that may get captured for the second sleeve grip, accelerating the very transition you were trying to prevent
 
 ### 3. Step over the first lasso leg to extract your trapped arm while the bottom player is focused on capturing the second sleeve
 
 - **When to use**: When the bottom player has committed to the second sleeve capture and their attention is divided between maintaining the first lasso and threading the second leg
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Extracting the first arm during the threading attempt collapses both the existing lasso and the transition simultaneously, returning to neutral open guard
 - **Risk**: The step-over removes one leg from base temporarily, and if the bottom player recognizes it early, they may abandon the second thread and sweep using the first lasso while your base is compromised
 
 ### 4. Drive forward pressure to flatten the opponent's hips and eliminate the angle they need for threading the second leg
 
 - **When to use**: When you detect the hip rotation that signals threading preparation but before the second sleeve grip is established
-- **Targets**: [[Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard]]
 - **If successful**: Flat hips prevent the threading motion because the second leg cannot curl across your arm without proper hip angle. The opponent remains in standard lasso with compromised offensive positioning
 - **Risk**: Forward pressure can be redirected into sweeps by skilled lasso players, particularly sickle sweeps and omoplata entries that exploit forward weight commitment
 
@@ -224,11 +224,11 @@ Defending the transition to Russian Leg Lasso requires recognizing the bottom pl
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lasso Guard]]
+### → [[Positions/Lasso Guard]]
 
 Immediately retract your free arm when you detect the collar grip release that signals the threading attempt. Keep the arm pinned to your body and use it to control the opponent's hip or pants rather than leaving it exposed. This denies the second sleeve grip entirely and forces the opponent to remain in single lasso guard where your passing options are stronger.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Target the first sleeve grip during the transition window when the bottom player's non-lasso hand has left the collar. Use a two-on-one grip break with both hands on the first sleeve while the opponent's attention is divided between grip management and threading. Breaking the first lasso during this distracted moment collapses the entire system and leaves them in open guard without their primary control.
 

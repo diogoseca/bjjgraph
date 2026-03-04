@@ -154,7 +154,7 @@ description: "How to defend against Pull guard in BJJ. Recognition cues, defensi
 
 Defending against a guard pull requires the standing player to recognize the attempt early and exploit the inherent vulnerability of the transition. When your opponent initiates a guard pull, they are temporarily surrendering top position, breaking their own base, and committing their weight backward — all of which create windows for you to establish dominant top position or deny their guard entirely. The defender's primary objective is to prevent the puller from establishing their preferred guard configuration and instead impose immediate passing pressure or complete disengagement that forces a standing reset. Effective guard pull defense transforms what the opponent intends as a controlled transition into a scramble that favors the standing player. This requires a combination of grip denial, posture maintenance, forward pressure timing, and immediate passing mechanics that capitalize on the brief moment when the puller is most vulnerable — during the descent itself and the first two seconds after landing before their guard structure solidifies.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending against a guard pull requires the standing player to recognize the att
 ### 1. Strip grips and disengage before opponent sits
 
 - **When to use**: When you recognize the pull attempt early during the grip establishment phase before opponent has committed their weight backward
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Opponent is forced to re-engage standing without their preferred grip configuration, resetting the exchange to neutral standing
 - **Risk**: If you strip grips too late, opponent may already be descending and you lose the window to apply immediate passing pressure
 
 ### 2. Drive forward with heavy chest pressure and sprawl hips during their descent
 
 - **When to use**: When opponent has already begun sitting and you cannot prevent the pull — commit forward immediately to deny them space to establish guard frames
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You flatten the opponent and arrive in a dominant top position before they can establish guard hooks, enabling immediate passing or pressure control
 - **Risk**: If opponent has strong grips and good timing, your forward drive may be redirected into a sweep or they may establish closed guard around your forward momentum
 
 ### 3. Backstep or circle laterally to deny guard establishment while maintaining connection
 
 - **When to use**: When opponent lands but has not yet locked ankles or established hooks — use lateral movement to deny their guard angle while staying connected for top pressure
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You arrive at an angle that bypasses their guard frames entirely, enabling leg drag, knee slice, or toreando passing entries from a position they did not plan for
 - **Risk**: Excessive lateral movement without maintaining connection allows opponent to recover and re-establish their preferred guard from a seated position
 
 ### 4. Immediately initiate toreando or leg drag pass as opponent lands
 
 - **When to use**: When opponent has landed but their ankles are not yet locked and legs are still organizing — the first two seconds after landing are the highest percentage passing window
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You pass directly to side control before opponent's guard system activates, converting their guard pull into an immediate positional loss
 - **Risk**: Rushing the pass without controlling their legs first may allow them to recover guard or establish a sweep using your passing momentum against you
 
@@ -224,11 +224,11 @@ Defending against a guard pull requires the standing player to recognize the att
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Strip opponent's grips using two-on-one grip breaks before they can commit to sitting. Step backward to create space while breaking grips, forcing them to re-engage standing. Maintain active hand fighting to deny re-establishment of pulling grips. This resets the exchange to neutral standing where you retain initiative.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 When opponent pulls and you cannot prevent the descent, use their downward momentum to drive forward aggressively and immediately initiate a passing sequence. Control their legs by gripping pants at the knees or cupping behind the knees, then use toreando or leg drag mechanics to pass before their guard solidifies. The goal is to convert their guard pull into an immediate pass, arriving in side control or knee on belly.
 

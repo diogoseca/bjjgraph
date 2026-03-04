@@ -158,7 +158,7 @@ The defender must understand that the stack pass works by changing the geometry 
 
 Strategically, the defender should view the opponent's stack attempt as a transition opportunity rather than purely a defensive crisis. The forward pressure required for the stack creates vulnerability to sweeps, back takes, and guard transitions. An opponent driving aggressively into the stack is committing their weight forward and reducing their ability to sprawl or disengage, which opens attacks that are unavailable when they maintain neutral posture. The best defenders convert stack attempts into offensive sequences rather than simply trying to retain the existing guard configuration.
 
-**Opponent's Starting Position**: [[Ringworm Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Strategically, the defender should view the opponent's stack attempt as a transi
 ### 1. Early hip escape to re-angle and restore lapel tension before the stack compresses fully
 
 - **When to use**: The moment you feel the opponent begin driving forward with their shoulder against your thigh, before your hips leave the mat
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: The stack fails because the angle change restores full tension on the lapel wrap, and you retain your Ringworm Guard with the opponent back in the original trapped position
 - **Risk**: If the hip escape is too late and the opponent has already achieved significant compression, the escape creates space that actually helps the opponent clear your legs
 
 ### 2. Frame against the passer's shoulder with your free leg to create a structural barrier preventing full compression
 
 - **When to use**: When the opponent has begun the stack but has not yet achieved full compression - your hips are rising but not yet over your shoulders
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: The frame prevents the stack from reaching the critical compression point where lapel slack develops, keeping your guard intact and forcing the opponent to either disengage or change their passing approach
 - **Risk**: The opponent may swim under your framing leg or control your ankle, removing the frame and continuing the stack with added momentum
 
 ### 3. Load a sweep using the opponent's forward momentum to reverse position as they commit to the stack
 
 - **When to use**: When the opponent is fully committed to the forward drive with their weight over your legs, typically mid-stack before they begin the grip strip
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: The opponent's forward commitment is redirected into a sweep, reversing the position and potentially landing you in mount or back control depending on the sweep angle
 - **Risk**: If the sweep attempt fails, you have used energy and may have compromised your lapel grip or framing structure, accelerating the pass completion
 
 ### 4. Invert and re-establish guard angle by rolling underneath the stack to create a new lapel wrap geometry
 
 - **When to use**: When the opponent has achieved significant compression and the lapel is losing tension but they have not yet begun the grip strip - a last-resort option
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: The inversion creates a completely new angle that restores lapel tension and places you in an inverted guard position from which you can re-establish Ringworm or transition to another lapel guard variant
 - **Risk**: Inversion under a heavy stacking opponent is physically demanding and dangerous for the neck and spine. Failed inversion can result in immediate pass to side control or worse
 
@@ -229,11 +229,11 @@ Strategically, the defender should view the opponent's stack attempt as a transi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ringworm Guard]]
+### → [[Positions/Ringworm Guard]]
 
 Hip escape early and aggressively the instant you feel the stack beginning. Re-angle your body to restore full lapel tension and prevent the compression from reaching the critical slack point. Use your free leg to frame against the opponent's shoulder as a secondary barrier. Once the stack attempt fails, re-establish your secondary grips and continue working from Ringworm Guard.
 
-### → [[Ringworm Guard]]
+### → [[Positions/Ringworm Guard]]
 
 Use the opponent's forward commitment during the stack as fuel for a sweep. As they drive their weight over your legs, redirect their momentum laterally using the lapel wrap as a steering mechanism combined with a far-side sleeve grip to prevent them from posting. Time the sweep for the moment of maximum forward commitment when the opponent's base is narrowest and their ability to recover is most compromised.
 

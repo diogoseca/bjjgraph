@@ -158,7 +158,7 @@ The defender in this scenario has already attempted an inversion escape from sta
 
 Successful defense requires layered responses: immediate heel protection through dorsiflexion and knee rotation, active grip fighting to prevent the attacker from establishing the torso-trapped heel position, and strategic decision-making about whether to continue escaping toward turtle or accept a transitional position like 50-50. Panicked reactions—especially extending the trapped leg or relaxing foot tension—convert survivable positions into immediate submission finishes.
 
-**Opponent's Starting Position**: [[Ushiro Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful defense requires layered responses: immediate heel protection through
 ### 1. Aggressive hand fighting to strip heel grip before attacker establishes torso trap
 
 - **When to use**: Immediately upon recognizing the attacker's hands moving toward your heel area, before they secure the cupping grip and clamp their elbows together
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: Attacker's submission attempt is neutralized, returning to standard ushiro ashi-garami position where you can resume your escape sequence
 - **Risk**: If grip stripping fails, you have delayed your positional escape and the attacker may now have a deeper grip than before your intervention
 
 ### 2. Continue rotation toward turtle to complete the escape and clear the entanglement entirely
 
 - **When to use**: When the attacker commits to the heel hook attempt and loosens their leg control to prioritize the finish, creating space for you to complete your inversion
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: You clear the leg entanglement entirely and arrive in turtle position, eliminating the heel hook threat and resetting the positional exchange
 - **Risk**: If rotation is too slow, the attacker may finish the heel hook during your movement, or follow your rotation to maintain entanglement from a new angle
 
 ### 3. Enter counter-entanglement by attacking the attacker's free leg with your own outside ashi-garami
 
 - **When to use**: When the attacker's leg control has loosened during their grip transition to heel hook setup, exposing their own legs to entanglement
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You establish mutual leg entanglement in 50-50, creating a symmetrical position that neutralizes their finishing advantage and gives you counter-attack options
 - **Risk**: Focusing on counter-entanglement diverts attention from heel protection, and if your counter fails while their heel hook grip is established, you face immediate submission
 
 ### 4. Boot out by forcefully straightening the trapped leg to deny the heel hook angle
 
 - **When to use**: When the attacker has partial grip but has not yet trapped the heel against their torso, and you have enough leg strength to extend against their control
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: The straightened leg removes the heel hook angle entirely, forcing the attacker to either re-bend your leg or transition to a different submission like kneebar or ankle lock
 - **Risk**: The straightened leg creates kneebar exposure and you may lose the ability to use knee rotation for defense if the extension fails and they re-capture the bend
 
@@ -228,11 +228,11 @@ Successful defense requires layered responses: immediate heel protection through
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ushiro Ashi-Garami]]
+### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Strip the attacker's heel grip through aggressive two-on-one hand fighting targeting the cupping hand first, then immediately resume your inversion escape sequence. Alternatively, time your rotation to turtle during the attacker's grip adjustment phase when their positional control is weakest. Maintain dorsiflexion throughout to deny re-grip opportunities.
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 When the attacker loosens leg control to pursue the heel hook, use your free leg to hook around their near leg and pull yourself into a symmetrical 50-50 entanglement. This neutralizes their finishing leverage by creating mutual vulnerability. From 50-50 you can fight for inside position to eventually reverse or counter-attack.
 

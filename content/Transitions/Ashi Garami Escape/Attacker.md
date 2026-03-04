@@ -182,7 +182,7 @@ The Ashi Garami escape from the attacker (escaping) perspective requires methodi
 
 The fundamental framework follows a strict hierarchy: address immediate submission threats first (grip fighting), then create structural advantages (frames and hip angle), then systematically dismantle the entanglement (clear bottom leg, clear top leg), and finally extract and create distance. This sequence mirrors defensive problem-solving across all of BJJ, where the most dangerous threat is neutralized before attempting positional improvement. Advanced practitioners learn to recognize windows where counter-attacks become available during the escape, transforming pure defense into offensive opportunity.
 
-**From Position**: [[Ashi Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami]] (Top)
 
 </section>
 
@@ -236,9 +236,9 @@ The fundamental framework follows a strict hierarchy: address immediate submissi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Ashi Garami]] | 30% |
-| Counter | [[Ashi Garami]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Ashi Garami]] | 30% |
+| Counter | [[Positions/Ashi Garami]] | 15% |
 
 
 </section>
@@ -247,11 +247,11 @@ The fundamental framework follows a strict hierarchy: address immediate submissi
 
 ## Opponent Counters
 
-- **Opponent transitions to inside sankaku or saddle as you attempt to clear legs** (Effectiveness: High) - Your Response: Abandon the extraction attempt and immediately defend the more dangerous position by addressing the new leg configuration. Focus on preventing the back step or leg triangle from completing by controlling opponent's free leg and denying inside space. → Leads to [[Ashi Garami]]
-- **Opponent secures heel hook grip during escape attempt** (Effectiveness: High) - Your Response: Stop all movement immediately and address the heel control with both hands using a two-on-one grip break. Break the grip completely before continuing the escape, as any movement with heel control secured creates catastrophic knee ligament injury risk. → Leads to [[Ashi Garami]]
-- **Opponent uses their free leg to hook your hip and pull you back into the entanglement** (Effectiveness: Medium) - Your Response: Maintain frames on opponent's hips and use your free hand to strip the hip hook before continuing leg clearance. May need to re-establish hip angle and address upper body control first before returning to the leg extraction sequence. → Leads to [[Ashi Garami]]
-- **Opponent switches to kneebar attack by turning belly-down as you create space** (Effectiveness: Medium) - Your Response: Recognize the transition early by feeling them rotate toward your knee line. Immediately bend your trapped leg and rotate the knee away from their chest to deny the extension. Keep the leg bent and address by pushing their hips away with frames. → Leads to [[Ashi Garami]]
-- **Opponent recomposes entanglement by re-triangling legs after you clear the bottom leg** (Effectiveness: Medium) - Your Response: Maintain constant downward pressure on cleared legs and accelerate the top leg clearance. Use your free leg to pin both of opponent's legs simultaneously if possible. If they fully recompose, restart the clearing sequence from grip fighting. → Leads to [[Ashi Garami]]
+- **Opponent transitions to inside sankaku or saddle as you attempt to clear legs** (Effectiveness: High) - Your Response: Abandon the extraction attempt and immediately defend the more dangerous position by addressing the new leg configuration. Focus on preventing the back step or leg triangle from completing by controlling opponent's free leg and denying inside space. → Leads to [[Positions/Ashi Garami]]
+- **Opponent secures heel hook grip during escape attempt** (Effectiveness: High) - Your Response: Stop all movement immediately and address the heel control with both hands using a two-on-one grip break. Break the grip completely before continuing the escape, as any movement with heel control secured creates catastrophic knee ligament injury risk. → Leads to [[Positions/Ashi Garami]]
+- **Opponent uses their free leg to hook your hip and pull you back into the entanglement** (Effectiveness: Medium) - Your Response: Maintain frames on opponent's hips and use your free hand to strip the hip hook before continuing leg clearance. May need to re-establish hip angle and address upper body control first before returning to the leg extraction sequence. → Leads to [[Positions/Ashi Garami]]
+- **Opponent switches to kneebar attack by turning belly-down as you create space** (Effectiveness: Medium) - Your Response: Recognize the transition early by feeling them rotate toward your knee line. Immediately bend your trapped leg and rotate the knee away from their chest to deny the extension. Keep the leg bent and address by pushing their hips away with frames. → Leads to [[Positions/Ashi Garami]]
+- **Opponent recomposes entanglement by re-triangling legs after you clear the bottom leg** (Effectiveness: Medium) - Your Response: Maintain constant downward pressure on cleared legs and accelerate the top leg clearance. Use your free leg to pin both of opponent's legs simultaneously if possible. If they fully recompose, restart the clearing sequence from grip fighting. → Leads to [[Positions/Ashi Garami]]
 
 
 </section>

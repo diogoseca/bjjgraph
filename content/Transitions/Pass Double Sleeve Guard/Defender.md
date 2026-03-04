@@ -146,7 +146,7 @@ description: "Complete defensive guide for retaining Double Sleeve Guard against
 
 As the defender in Double Sleeve Guard, your objective is to maintain your bilateral sleeve control and active foot positioning to prevent the top player from advancing to side control. Your guard structure depends on the integrated system of sleeve grips and foot frames working together — if either component is compromised, your defensive capability degrades rapidly. The key defensive principle is early recognition of the passer's intentions through their grip fighting patterns and body positioning. Every guard pass attempt creates an offensive opportunity for you, as the passer must commit weight and position to advance. By reading their passing direction early and maintaining grip tension, you can redirect their momentum into sweeps or transition to stronger guard configurations. Your primary weapons are grip retention, active feet that follow the passer's movement, and the ability to transition between double sleeve, spider guard, and lasso guard fluidly based on how the passer approaches.
 
-**Opponent's Starting Position**: [[Double Sleeve Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Double Sleeve Guard]] (Top)
 
 </section>
 
@@ -185,28 +185,28 @@ As the defender in Double Sleeve Guard, your objective is to maintain your bilat
 ### 1. Re-grip immediately after opponent breaks sleeve control
 
 - **When to use**: Within the first one to two seconds after a grip break, before the passer can establish their own control grip on your leg
-- **Targets**: [[Double Sleeve Guard]]
+- **Targets**: [[Positions/Double Sleeve Guard]]
 - **If successful**: Guard is fully re-established and passer must restart their passing sequence from scratch
 - **Risk**: If you chase the re-grip too aggressively, you may overextend your arm and create an opening for the passer to advance past your legs
 
 ### 2. Insert knee shield and retain remaining sleeve grip for half guard recovery
 
 - **When to use**: When one grip is broken and the passer has already established leg control, making re-gripping unlikely
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to a defensible half guard position with knee shield where you can rebuild your guard
 - **Risk**: If the knee shield insertion is too late, the passer may clear your leg entirely and complete the pass to side control
 
 ### 3. Execute sweep by redirecting the passer's forward momentum during their pass attempt
 
 - **When to use**: When the passer commits their weight forward or laterally during the pass, creating a window where their base is compromised
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You reverse the position entirely, ending up on top with the passer on their back
 - **Risk**: If the sweep attempt fails, you may lose your remaining grips and foot positioning, accelerating the pass completion
 
 ### 4. Transition to Spider Guard by inserting feet into bicep hooks
 
 - **When to use**: When the passer stands tall and creates space between their arms and body, allowing foot insertion on biceps
-- **Targets**: [[Double Sleeve Guard]]
+- **Targets**: [[Positions/Double Sleeve Guard]]
 - **If successful**: You establish a mechanically stronger guard configuration with feet on biceps reinforcing your sleeve control
 - **Risk**: During the transition, momentarily loosening sleeve tension may give the passer an opportunity to break through
 
@@ -218,11 +218,11 @@ As the defender in Double Sleeve Guard, your objective is to maintain your bilat
 
 ## Best-Case Outcomes for Defender
 
-### → [[Double Sleeve Guard]]
+### → [[Positions/Double Sleeve Guard]]
 
 Maintain constant bilateral grip tension with active feet that follow the passer's movement. Deepen grips at the cuff whenever possible, and counter each grip break attempt by pulling elbows to your ribs and curling wrists inward. Re-grip within one to two seconds of any break.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Time sweep attempts when the passer commits weight to a grip break or passing direction. Use push-pull mechanics with your remaining sleeve grip and feet to redirect their momentum. The scissor sweep and push sweep are highest percentage when the passer leans forward during grip fighting.
 

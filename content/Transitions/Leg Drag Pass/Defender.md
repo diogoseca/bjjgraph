@@ -160,7 +160,7 @@ description: "How to defend against Leg Drag Pass in BJJ. Recognition cues, defe
 
 Defending the leg drag pass requires early recognition and immediate action because this pass accelerates rapidly once the drag position is secured. The defender's primary challenge is that the leg drag removes one leg from the defensive equation by pinning it across the body, eliminating the guard retention structures that rely on bilateral leg coordination. Once the passer establishes chest pressure on the trapped leg and begins circling, escape becomes exponentially more difficult with each passing second. Effective defense therefore operates on a timeline: prevention before the drag is established, disruption during the drag motion, and recovery after the drag is partially or fully completed. The guard player must develop sensitivity to the early grip fighting sequences that precede a leg drag attempt and learn to address them before the passer commits to the drag. If prevention fails, the defender must immediately prioritize reconnecting their dragged leg to their centerline through hip movement, framing, and active foot positioning. The worst outcome is passively accepting the drag and allowing the passer to settle chest pressure without resistance. Even partial defensive success, such as inserting a knee shield to recover half guard, represents a significant positional improvement compared to conceding full side control or back exposure.
 
-**Opponent's Starting Position**: [[Open Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 
@@ -197,35 +197,35 @@ Defending the leg drag pass requires early recognition and immediate action beca
 ### 1. Strip the initial pant grip with a two-on-one break before the drag motion begins
 
 - **When to use**: As soon as you feel the passer establish a committed grip on your pant leg at the knee, before they initiate the lateral pull
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Passer returns to neutral open guard engagement without leg control, and you can re-establish your preferred guard grips
 - **Risk**: If you commit both hands to grip breaking, your upper body is temporarily unprotected and the passer may switch to a collar drag or snap-down
 
 ### 2. Establish a strong frame on the passer's near shoulder with your forearm while hip escaping away to prevent chest pressure on your dragged leg
 
 - **When to use**: During the drag motion when your leg has crossed the centerline but the passer has not yet established chest pressure or begun circling
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The frame prevents the passer from closing distance and settling weight, creating enough space to pull your dragged leg back to centerline and re-establish open guard
 - **Risk**: If the frame collapses under the passer's weight, you lose both the frame and the time window to recover your leg, resulting in a consolidated leg drag position
 
 ### 3. Insert your inside knee as a shield between your body and the passer's chest while they circle, recovering to half guard or knee shield position
 
 - **When to use**: When the drag is mostly completed and the passer is circling toward your back but has not yet established side control grips
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard with knee shield, which is a significantly better defensive position than conceding full side control
 - **Risk**: If timed too late, the passer may already have crossface established and can drive through the half-inserted knee to complete the pass to side control
 
 ### 4. Pummel your dragged leg back to centerline by bending your knee and driving it toward your own chest while simultaneously hip escaping away from the passer
 
 - **When to use**: Immediately after the drag begins but before chest pressure is fully settled on the trapped leg
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Your leg returns to a defensive position between you and the passer, allowing you to re-establish butterfly hooks, feet on hips, or another open guard configuration
 - **Risk**: Requires significant core and hip strength to execute under the passer's weight; if unsuccessful, the energy expenditure accelerates fatigue without improving position
 
 ### 5. Turn into the passer by rotating your torso toward them and establishing an underhook on their far arm before they complete the circling motion
 
 - **When to use**: When the passer overcommits to the circling motion and briefly lifts their chest pressure to transition toward side control grips
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The underhook prevents side control consolidation and gives you a strong recovery position in half guard or allows a scramble back to sitting guard
 - **Risk**: Turning into the passer when they maintain good chest contact can accelerate the pass or expose your back if they capitalize on your rotation
 
@@ -237,11 +237,11 @@ Defending the leg drag pass requires early recognition and immediate action beca
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip the passer's pant grip early using a two-on-one break, then immediately re-establish feet on hips or shin frames to create distance. Follow with collar or sleeve grips to prevent them from re-initiating the leg drag. The key is addressing the grip within the first two seconds before any lateral pulling begins.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If the drag has progressed past the point of full guard recovery, immediately focus on inserting your inside knee between your body and the passer's chest as they circle. Clamp your legs together to lock down their near leg in half guard. From here, establish knee shield and underhook to prevent the passer from completing to full side control. Half guard recovery is a strong defensive success against a committed leg drag.
 

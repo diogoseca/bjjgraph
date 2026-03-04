@@ -21,7 +21,7 @@ Success demands patience, energy management, and the ability to chain multiple e
 
 Modern scarf hold escape methodology integrates both classical judo bridge-and-roll concepts with contemporary guard recovery sequences from sport BJJ. Building a systematic escape progression from initial frame establishment through explosive escape execution and final guard recovery transforms this historically difficult position from a survival scenario into a manageable technical problem with multiple solution pathways.
 
-**From Position**: [[Scarf Hold Position]] (Bottom)
+**From Position**: [[Positions/Side Control/Scarf Hold Position]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ Modern scarf hold escape methodology integrates both classical judo bridge-and-r
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Turtle]] | 10% |
-| Failure | [[Scarf Hold Position]] | 40% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Turtle]] | 10% |
+| Failure | [[Positions/Side Control/Scarf Hold Position]] | 40% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ Escape Scarf Hold Position sits within the broader pin escape system, connecting
 ## Related Techniques
 
 
-- [[Scarf Hold Position]] - Source position being escaped from
+- [[Positions/Side Control/Scarf Hold Position]] - Source position being escaped from
 
-- [[Half Guard]] - Primary guard recovery target after successful escape
+- [[Positions/Half Guard]] - Primary guard recovery target after successful escape
 
-- [[Turtle]] - Secondary escape destination through backdoor escape mechanics
+- [[Positions/Turtle]] - Secondary escape destination through backdoor escape mechanics
 
-- [[Mount]] - Risk position if escape attempt is countered by top player advancing
+- [[Positions/Mount]] - Risk position if escape attempt is countered by top player advancing
 
-- [[Bridge from Scarf Hold Position]] - Related bridge-based escape from same starting position
+- [[Transitions/Bridge from Scarf Hold Position]] - Related bridge-based escape from same starting position
 
-- [[Bridge Escape from Scarf Hold]] - Bridge-and-roll escape variation targeting complete reversal
+- [[Transitions/Bridge Escape from Scarf Hold]] - Bridge-and-roll escape variation targeting complete reversal
 
-- [[Kesa Gatame]] - Traditional judo terminology for the controlling position being escaped
+- [[Positions/Side Control/Kesa Gatame]] - Traditional judo terminology for the controlling position being escaped
 
-- [[Modified Scarf Hold]] - Related pin with similar but modified escape requirements
+- [[Positions/Side Control/Modified Scarf Hold]] - Related pin with similar but modified escape requirements
 
-- [[Side Control]] - Related control position with different escape mechanics for comparison
+- [[Positions/Side Control]] - Related control position with different escape mechanics for comparison
 
-- [[Scramble Position]] - Possible outcome when escape creates contested 50-50 situation
+- [[Positions/Scramble Position]] - Possible outcome when escape creates contested 50-50 situation
 
 
 </section>

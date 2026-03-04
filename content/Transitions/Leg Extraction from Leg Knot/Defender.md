@@ -138,7 +138,7 @@ description: "Defend against Leg Extraction from Leg Knot in BJJ. Recognition cu
 
 As the defender against the Leg Extraction from Leg Knot, you occupy the bottom position in the entanglement and your primary objective is to prevent the top player from successfully freeing their leg and consolidating Half Guard Top. While Leg Knot Bottom is not your preferred position, it is significantly better than being stuck under a consolidated half guard pass where your submission threats from leg entanglement vanish entirely. Your defensive strategy follows a clear hierarchy: first, maintain the entanglement by re-hooking during extraction attempts; second, if the leg begins clearing, transition to counter-entanglement positions like 50-50 or Outside Ashi; third, if positional retention fails entirely, create maximum distance for full guard recovery. Early recognition that the opponent is choosing extraction over submission hunting is critical — the moment their focus shifts from heel grips to upper body pressure signals the extraction attempt.
 
-**Opponent's Starting Position**: [[Leg Knot]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Knot]] (Top)
 
 </section>
 
@@ -177,28 +177,28 @@ As the defender against the Leg Extraction from Leg Knot, you occupy the bottom 
 ### 1. Re-hook the extracting leg by chasing with your inside hook and clamping down at the ankle level
 
 - **When to use**: At the first sign of extraction when the opponent's ankle begins sliding past your hooks but has not cleared the knee level yet
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: Returns both players to the leg knot configuration with the entanglement intact, nullifying the extraction attempt
 - **Risk**: Chasing too aggressively can over-extend your own legs and create passing opportunities if the re-hook fails
 
 ### 2. Initiate counter-entanglement to 50-50 by triangling the opponent's partially extracted leg before it clears
 
 - **When to use**: When the opponent's leg is mid-extraction and partially clear of your hooks but not yet in half guard position
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: Transitions the exchange into 50-50 guard where you have equal entanglement control and can restart offensive leg lock attacks
 - **Risk**: Failed counter-entanglement may accelerate the extraction by opening space the opponent can use to clear entirely
 
 ### 3. Frame with both arms and hip escape to maximum distance for full open guard recovery
 
 - **When to use**: When the extraction is nearly complete and the opponent's leg has cleared your hooks but crossface has not been fully consolidated
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Creates enough distance to insert both feet on the opponent's hips and recover a full open guard position
 - **Risk**: If frames are too weak or hip escape is too slow, the opponent drives through to consolidated half guard or side control
 
 ### 4. Elevate hips and use butterfly hook to prevent forward pressure that enables extraction
 
 - **When to use**: When you recognize early extraction signals such as upper body weight shifting forward before the leg has begun sliding
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: Disrupts the forward pressure that is prerequisite for extraction, forcing the opponent to re-establish their base before trying again
 - **Risk**: The elevation may create space underneath that the opponent uses to change extraction angle
 
@@ -210,11 +210,11 @@ As the defender against the Leg Extraction from Leg Knot, you occupy the bottom 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Knot]]
+### → [[Positions/Leg Knot]]
 
 React immediately to extraction signals by re-hooking at the ankle level and clamping down with your inside hook. Chase the opponent's ankle with your own foot, maintaining redundant control through both leg hooks and hand grips on their foot. The earlier you catch the extraction attempt, the easier re-entanglement becomes.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 When the extraction progresses past the point of no return and the opponent's leg is clearing your hooks, immediately commit fully to guard recovery. Frame hard against both shoulders with your forearms, execute a strong hip escape away from the opponent, and insert both feet on their hips before they can drive crossface. Speed and full commitment are essential — half-efforts at both retention and recovery succeed at neither.
 

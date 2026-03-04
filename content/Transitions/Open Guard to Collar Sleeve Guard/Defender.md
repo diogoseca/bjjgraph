@@ -146,7 +146,7 @@ description: "Learn to prevent collar sleeve guard establishment from top positi
 
 As the defender (top player), your objective is to prevent the bottom player from converting their generic open guard into the structured collar sleeve guard system. Once collar sleeve guard is fully established, the bottom player gains access to a powerful network of sweeps, triangles, and omoplatas that significantly complicate your passing. Preventing the guard establishment is far more energy-efficient than trying to pass a fully built collar sleeve structure. Your defensive strategy centers on proactive grip fighting that denies the collar grip, maintaining posture that makes reaching the collar difficult, and initiating your own passing sequences that force the bottom player to defend rather than build grips. The critical window for defense is narrow: once the cross-collar grip is seated deeply, the bottom player's guard structure becomes significantly harder to dismantle.
 
-**Opponent's Starting Position**: [[Open Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ As the defender (top player), your objective is to prevent the bottom player fro
 ### 1. Strip the collar grip immediately using a two-on-one grip break before the sleeve grip is added
 
 - **When to use**: As soon as you feel or see their hand entering your collar. The window is largest before they secure the sleeve.
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Bottom player returns to generic open guard without structured grip control, resetting their guard-building sequence
 - **Risk**: If the grip break fails and they capture your sleeve during the attempt, their guard is fully established
 
 ### 2. Drive forward with pressure passing immediately when detecting the collar reach to collapse their guard structure
 
 - **When to use**: When the bottom player extends one hand toward your collar, leaving reduced defensive framing on that side
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You advance past their guard frames before collar sleeve structure is completed, reaching half guard or side control
 - **Risk**: If their feet are firmly on your hips, the forward drive stalls and they may capture the collar during your pressure attempt
 
 ### 3. Establish your own dominant pant grips on both knees and initiate toreando pass before they can grip your gi
 
 - **When to use**: At the beginning of the open guard engagement before either player has established grips
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You control the engagement pace with pant grips and bypass the grip fighting exchange entirely by passing before it develops
 - **Risk**: Reaching for pant grips requires bending forward, potentially bringing your collar into their reaching range
 
 ### 4. Backstep and create distance to reset the engagement outside their collar grip range
 
 - **When to use**: When the bottom player has secured one grip and is actively reaching for the second
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The distance breaks their collar grip tension and forces them to sit up or scoot forward to re-engage, giving you time to re-establish passing position
 - **Risk**: Disengaging allows the bottom player time to re-set their guard structure and prepare for your next approach
 
@@ -216,11 +216,11 @@ As the defender (top player), your objective is to prevent the bottom player fro
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip the collar grip early using a decisive two-on-one break before the sleeve grip completes the guard structure. Immediately establish your own grips on their pants to control the re-engagement and prevent them from simply re-reaching for your collar.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When you detect the collar reach, drive forward with a knee slice or pressure pass that advances past their open guard before the collar sleeve structure is completed. The guard player's reaching hand is occupied, reducing their defensive framing capacity and creating a passing window.
 

@@ -190,7 +190,7 @@ The execution requires disciplined sequencing: chin tuck first to buy survival t
 
 Advanced practitioners treat this grip removal as the trigger for immediate escape rather than an isolated defensive action. The moment the collar grip breaks, explosive hip movement begins simultaneously with arm trapping, creating a chain where successful defense flows directly into positional improvement without pause.
 
-**From Position**: [[Invisible Collar]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
 
 </section>
 
@@ -244,8 +244,8 @@ Advanced practitioners treat this grip removal as the trigger for immediate esca
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Invisible Collar]] | 30% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Rubber Guard/Invisible Collar]] | 30% |
 | Counter | [[game-over]] | 15% |
 
 
@@ -256,9 +256,9 @@ Advanced practitioners treat this grip removal as the trigger for immediate esca
 ## Opponent Counters
 
 - **Attacker switches to rear naked choke when you grab their wrist** (Effectiveness: High) - Your Response: Keep their wrist trapped against your chest with two-on-one control. If they try to swim their arm free, maintain the grip and use the transition moment to hip escape while they are uncommitted to either attack. → Leads to [[game-over]]
-- **Attacker deepens hooks and flattens you out to prevent bridging** (Effectiveness: Medium) - Your Response: Prioritize the grip removal even without the bridge. Use smaller hip bumps and continuous pulling pressure rather than one explosive attempt. The collar choke requires their arm free to apply pressure—keeping control of the wrist buys time. → Leads to [[Invisible Collar]]
-- **Attacker uses free arm to cross-face and turn your head away** (Effectiveness: Medium) - Your Response: Tuck chin tighter and accept the cross-face pressure temporarily. The cross-face does not finish the fight; the collar choke does. Maintain focus on wrist control and continue working the grip break despite the uncomfortable pressure. → Leads to [[Invisible Collar]]
-- **Attacker reinforces collar grip by grabbing their own wrist with free hand** (Effectiveness: High) - Your Response: Shift to controlling both their hands by expanding your grip to include the reinforcing hand. Alternatively, explosively hip escape toward the collar side during the moment they are committing their second hand, creating scramble opportunity. → Leads to [[Invisible Collar]]
+- **Attacker deepens hooks and flattens you out to prevent bridging** (Effectiveness: Medium) - Your Response: Prioritize the grip removal even without the bridge. Use smaller hip bumps and continuous pulling pressure rather than one explosive attempt. The collar choke requires their arm free to apply pressure—keeping control of the wrist buys time. → Leads to [[Positions/Rubber Guard/Invisible Collar]]
+- **Attacker uses free arm to cross-face and turn your head away** (Effectiveness: Medium) - Your Response: Tuck chin tighter and accept the cross-face pressure temporarily. The cross-face does not finish the fight; the collar choke does. Maintain focus on wrist control and continue working the grip break despite the uncomfortable pressure. → Leads to [[Positions/Rubber Guard/Invisible Collar]]
+- **Attacker reinforces collar grip by grabbing their own wrist with free hand** (Effectiveness: High) - Your Response: Shift to controlling both their hands by expanding your grip to include the reinforcing hand. Alternatively, explosively hip escape toward the collar side during the moment they are committing their second hand, creating scramble opportunity. → Leads to [[Positions/Rubber Guard/Invisible Collar]]
 
 
 </section>

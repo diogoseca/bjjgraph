@@ -176,7 +176,7 @@ The Americana attacks the shoulder joint through forced external rotation using 
 
 The Americana functions as both a direct finishing mechanism and a systematic forcing tool within top control offense. Every defensive reaction to the Americana exposes a different vulnerability: straightening the arm opens armbars, rolling toward the lock enables mount or back takes, grabbing the belt invites positional advancement. This creates a branching attack tree where the Americana serves as the root threat that drives all subsequent offensive development from side control and mount.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -230,8 +230,8 @@ The Americana functions as both a direct finishing mechanism and a systematic fo
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Side Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ The Americana functions as both a direct finishing mechanism and a systematic fo
 
 ## Opponent Counters
 
-- **Grabbing own belt or gi to prevent arm isolation** (Effectiveness: High) - Your Response: Increase cross-face pressure to make the grip uncomfortable, or threaten mount transition to force them to address the positional threat and release the defensive grip → Leads to [[Side Control]]
-- **Straightening the arm completely to prevent the elbow bend** (Effectiveness: Medium) - Your Response: Use body weight to collapse the straight arm, or transition to armbar attack while maintaining wrist control - the straight arm defense exposes them to the elbow lock → Leads to [[Side Control]]
-- **Rolling toward you to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Follow the roll and transition to mount or back control while maintaining the Americana grip, then finish from the new dominant position → Leads to [[Half Guard]]
-- **Bridging explosively to create escape space** (Effectiveness: Low) - Your Response: Maintain low hips and wide base to absorb the bridge. Their bridge actually assists the finish by driving their shoulder into the lock - continue steady rotational pressure → Leads to [[Side Control]]
+- **Grabbing own belt or gi to prevent arm isolation** (Effectiveness: High) - Your Response: Increase cross-face pressure to make the grip uncomfortable, or threaten mount transition to force them to address the positional threat and release the defensive grip → Leads to [[Positions/Side Control]]
+- **Straightening the arm completely to prevent the elbow bend** (Effectiveness: Medium) - Your Response: Use body weight to collapse the straight arm, or transition to armbar attack while maintaining wrist control - the straight arm defense exposes them to the elbow lock → Leads to [[Positions/Side Control]]
+- **Rolling toward you to relieve shoulder pressure** (Effectiveness: Medium) - Your Response: Follow the roll and transition to mount or back control while maintaining the Americana grip, then finish from the new dominant position → Leads to [[Positions/Half Guard]]
+- **Bridging explosively to create escape space** (Effectiveness: Low) - Your Response: Maintain low hips and wide base to absorb the bridge. Their bridge actually assists the finish by driving their shoulder into the lock - continue steady rotational pressure → Leads to [[Positions/Side Control]]
 
 
 </section>

@@ -21,7 +21,7 @@ The strategic value of this direct approach lies in its reliability against oppo
 
 Execution demands precise sequencing: posture establishment, two-on-one collar grip break, immediate wrist control to prevent re-gripping, sleeve grip strip while driving forward with chest pressure, and completion through crossface establishment as you clear the legs. The entire sequence requires seamless timing between grip breaks and forward pressure to prevent the guard player from re-establishing their grip structure during any momentary gap in your passing attack.
 
-**From Position**: [[Collar Sleeve Guard]] (Top)
+**From Position**: [[Positions/Collar Sleeve Guard]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,11 +32,11 @@ Execution demands precise sequencing: posture establishment, two-on-one collar g
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Half Guard]] | 10% |
-| Failure | [[Collar Sleeve Guard]] | 22% |
-| Counter | [[Closed Guard]] | 12% |
-| Counter | [[Mount]] | 6% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Half Guard]] | 10% |
+| Failure | [[Positions/Collar Sleeve Guard]] | 22% |
+| Counter | [[Positions/Closed Guard]] | 12% |
+| Counter | [[Positions/Mount]] | 6% |
 
 
 </section>
@@ -195,25 +195,25 @@ Passing the collar sleeve guard is a critical transitional skill that connects o
 ## Related Techniques
 
 
-- [[Collar Sleeve Guard]] - Source position where this pass initiates against established grips
+- [[Positions/Collar Sleeve Guard]] - Source position where this pass initiates against established grips
 
-- [[Side Control]] - Primary target position after successful pass completion
+- [[Positions/Side Control]] - Primary target position after successful pass completion
 
-- [[Half Guard]] - Common intermediate outcome when pass is partially completed
+- [[Positions/Half Guard]] - Common intermediate outcome when pass is partially completed
 
-- [[Headquarters Position]] - Related staging position for alternative passing approaches
+- [[Positions/Headquarters Position]] - Related staging position for alternative passing approaches
 
-- [[Combat Base]] - Starting posture used to initiate the passing sequence
+- [[Positions/Combat Base]] - Starting posture used to initiate the passing sequence
 
-- [[Bull Pass from Collar Sleeve]] - Alternative collar sleeve pass using different mechanics
+- [[Transitions/Bull Pass from Collar Sleeve]] - Alternative collar sleeve pass using different mechanics
 
-- [[Collar Sleeve Sweep]] - Primary counter-attack threat from the guard player
+- [[Transitions/Collar Sleeve Sweep]] - Primary counter-attack threat from the guard player
 
-- [[Collar Sleeve to De La Riva]] - Guard player's transition option when pass is initiated
+- [[Transitions/Collar Sleeve to De La Riva]] - Guard player's transition option when pass is initiated
 
-- [[Knee on Belly]] - Alternative consolidation position after passing the guard
+- [[Positions/Knee on Belly]] - Alternative consolidation position after passing the guard
 
-- [[Closed Guard]] - Counter outcome when guard player recovers during pass attempt
+- [[Positions/Closed Guard]] - Counter outcome when guard player recovers during pass attempt
 
 
 </section>

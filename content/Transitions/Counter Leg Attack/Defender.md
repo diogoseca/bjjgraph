@@ -156,7 +156,7 @@ As the defender against the Counter Leg Attack, you are the top player in Inside
 
 Defending this counter requires balancing two competing priorities: maintaining offensive pressure toward the heel hook finish and protecting your free leg from being entangled. The most effective defense is awareness - recognizing the counter-attack attempt early and addressing it before the opponent completes the leg thread. Once they establish a hook on your free leg, the position rapidly deteriorates toward 50-50 where your Inside Sankaku advantage is eliminated. Prevention through proper leg positioning, hip pressure, and strategic timing of your submission attempts is far superior to attempting to strip an established counter-entanglement.
 
-**Opponent's Starting Position**: [[Inside Sankaku]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Inside Sankaku]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ Defending this counter requires balancing two competing priorities: maintaining 
 ### 1. Retract free leg and drive knee toward your own chest to eliminate threading angle
 
 - **When to use**: As soon as you feel opponent's free leg probing toward your non-entangled leg or see their hips rotating toward it
-- **Targets**: [[Inside Sankaku]]
+- **Targets**: [[Positions/Inside Sankaku]]
 - **If successful**: Opponent's counter-attack is stuffed and they remain trapped in Inside Sankaku with no entanglement on your leg
 - **Risk**: Retracting your leg may temporarily reduce your hip pressure and base stability, creating a brief escape window
 
 ### 2. Accelerate heel hook finish to force a tap before counter-entanglement completes
 
 - **When to use**: When you already have strong heel grips and opponent is in early stages of counter-entry rather than already having an established hook
-- **Targets**: [[Inside Sankaku]]
+- **Targets**: [[Positions/Inside Sankaku]]
 - **If successful**: Opponent is forced to abandon counter-attack to address immediate submission danger or taps before completing the thread
 - **Risk**: Rushing the finish with poor mechanics may result in lost grips and wasted energy, giving opponent more time for the counter
 
 ### 3. Transition to Saddle by capturing opponent's threading leg to trap both their legs
 
 - **When to use**: When opponent has already begun threading their free leg and you can redirect it into a double leg entanglement rather than fighting the thread
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: You advance to Saddle position with both opponent's legs trapped, dramatically increasing your control and submission options
 - **Risk**: If the capture fails, you may end up in a worse scramble with no clear entanglement on either side
 
 ### 4. Post your free leg wide and drive hip pressure forward to flatten opponent and eliminate their hip angle
 
 - **When to use**: When opponent is in the early hip rotation phase before they have begun the actual leg threading motion
-- **Targets**: [[Inside Sankaku]]
+- **Targets**: [[Positions/Inside Sankaku]]
 - **If successful**: Opponent is flattened on their back with no hip angle to generate the threading motion, maintaining your dominant control
 - **Risk**: A posted free leg can be more accessible if opponent times their thread to catch the leg while it is extended
 
@@ -227,11 +227,11 @@ Defending this counter requires balancing two competing priorities: maintaining 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Inside Sankaku]]
+### → [[Positions/Inside Sankaku]]
 
 Recognize the counter-attack early through hip rotation and free leg activity cues. Retract your free leg immediately, drive hip pressure forward to flatten opponent, then resume systematic heel hook attack with your free leg tucked safely.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 When opponent commits their free leg to the threading motion, capture it by triangling your legs around both their legs simultaneously. Use the momentum of their counter-entry to pull their second leg into your entanglement structure, advancing from Inside Sankaku to the superior Saddle position.
 

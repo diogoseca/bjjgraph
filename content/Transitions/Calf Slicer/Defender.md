@@ -158,7 +158,7 @@ The key defensive insight is that the calf slicer becomes dangerous only when th
 
 Defenders must integrate calf slicer awareness into their overall Inside Sankaku escape strategy, understanding that heel hiding creates calf exposure and vice versa. The most effective defensive approach treats heel hook and calf slicer defense as a unified system rather than isolated problems.
 
-**Opponent's Starting Position**: [[Inside Sankaku]] (Top)
+**Opponent's Starting Position**: [[Positions/Inside Sankaku]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Defenders must integrate calf slicer awareness into their overall Inside Sankaku
 ### 1. Bend knee sharply to collapse the compression angle and remove the shin wedge fulcrum
 
 - **When to use**: Immediately upon feeling shin wedge positioning behind your knee, before attacker secures ankle control
-- **Targets**: [[Inside Sankaku]]
+- **Targets**: [[Positions/Inside Sankaku]]
 - **If successful**: Compression angle collapses, attacker's shin slides out from behind knee, returning to neutral Inside Sankaku position
 - **Risk**: Bending knee exposes your heel for inside heel hook attack as it moves away from hip hiding position
 
 ### 2. Rotate toward the attacker to stack and flatten the compression angle while preventing hip drive extension
 
 - **When to use**: When attacker has begun shin wedge positioning but has not yet secured strong ankle control or full hip drive
-- **Targets**: [[Inside Sankaku]]
+- **Targets**: [[Positions/Inside Sankaku]]
 - **If successful**: Stacking removes the angle needed for compression, neutralizes hip drive, and may create scramble opportunity
 - **Risk**: Rotation toward attacker can lead to Saddle entry if attacker adjusts leg configuration during your turn
 
 ### 3. Explosive hip escape backward to create distance and extract trapped leg from the entanglement entirely
 
 - **When to use**: When attacker momentarily loses hip-to-hip connection or loosens leg entanglement during the calf slicer setup transition
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Full leg extraction from entanglement, recover to Half Guard or Open Guard with no remaining submission threat
 - **Risk**: If hip escape fails and you remain in entanglement, you have expended energy and may be in worse position with attacker maintaining control
 
 ### 4. Fight ankle control by stripping attacker's grip on your ankle before they can secure two-handed control
 
 - **When to use**: When attacker is transitioning grip from heel hook position to ankle control for calf slicer
-- **Targets**: [[Inside Sankaku]]
+- **Targets**: [[Positions/Inside Sankaku]]
 - **If successful**: Without ankle control the attacker cannot generate opposing compression force, nullifying the calf slicer threat
 - **Risk**: Hand fighting for ankle control leaves your heel temporarily unprotected for heel hook re-entry
 
@@ -228,11 +228,11 @@ Defenders must integrate calf slicer awareness into their overall Inside Sankaku
 
 ## Best-Case Outcomes for Defender
 
-### → [[Inside Sankaku]]
+### → [[Positions/Inside Sankaku]]
 
 Bend knee immediately upon recognizing shin wedge to collapse compression angle, strip attacker's ankle grip, and return to standard Inside Sankaku defense where you resume heel hiding protocol
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Use explosive hip escape when attacker loses hip connection during calf slicer transition. Extract trapped leg fully from entanglement by pumping hips backward, establishing knee shield or butterfly hook, and recovering to Half Guard
 

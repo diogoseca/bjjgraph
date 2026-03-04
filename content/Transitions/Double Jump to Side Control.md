@@ -21,7 +21,7 @@ This transition typically arises when the bottom player maintains a tight defens
 
 Strategically, this transition functions as an essential safety valve within the Double Jump and turtle attack system. While back control remains the highest-percentage advancement from Double Jump, having a reliable lateral consolidation path to side control ensures that positional investment is never wasted against opponents with elite turtle defense. The existence of this pathway also creates a tactical dilemma for turtle defenders: opponents who commit entirely to sealing their back by tucking chin and clamping elbows expose themselves to the lateral hip-walk around to side control, while those who widen their base to prevent the side control transition open gaps for traditional back-take entries.
 
-**From Position**: [[Double Jump]] (Top)
+**From Position**: [[Positions/Double Jump]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition functions as an essential safety valve within the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Double Jump]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Double Jump]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,23 +193,23 @@ The Double Jump to Side Control transition connects the specialized turtle attac
 ## Related Techniques
 
 
-- [[Double Jump]] - Source position - bilateral leg hook control from turtle top serving as the transition starting point
+- [[Positions/Double Jump]] - Source position - bilateral leg hook control from turtle top serving as the transition starting point
 
-- [[Side Control]] - Target position - perpendicular dominant control established through lateral consolidation from hook control
+- [[Positions/Side Control]] - Target position - perpendicular dominant control established through lateral consolidation from hook control
 
-- [[Half Guard]] - Counter outcome position - reached when defender successfully reverses during the transition attempt
+- [[Positions/Half Guard]] - Counter outcome position - reached when defender successfully reverses during the transition attempt
 
-- [[Back Control]] - Primary alternative advancement - higher-percentage target from Double Jump when back is accessible
+- [[Positions/Back Control]] - Primary alternative advancement - higher-percentage target from Double Jump when back is accessible
 
-- [[Double Jump to Mount]] - Sister transition - alternative consolidation targeting mount when opponent flattens rather than maintaining active turtle
+- [[Transitions/Double Jump to Mount]] - Sister transition - alternative consolidation targeting mount when opponent flattens rather than maintaining active turtle
 
-- [[Turtle]] - Parent position context - Double Jump enters from turtle top attacks and this transition continues the attack chain
+- [[Positions/Turtle]] - Parent position context - Double Jump enters from turtle top attacks and this transition continues the attack chain
 
-- [[Crab Ride]] - Alternative lateral control option using similar leg-based mechanics with single hook emphasis
+- [[Positions/Crab Ride]] - Alternative lateral control option using similar leg-based mechanics with single hook emphasis
 
-- [[Knee on Belly]] - Follow-up advancement available after successful side control establishment from this transition
+- [[Positions/Knee on Belly]] - Follow-up advancement available after successful side control establishment from this transition
 
-- [[North-South]] - Alternative dominant position accessible from side control once lateral consolidation is complete
+- [[Positions/North-South]] - Alternative dominant position accessible from side control once lateral consolidation is complete
 
 
 </section>

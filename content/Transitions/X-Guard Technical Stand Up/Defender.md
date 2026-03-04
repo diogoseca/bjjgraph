@@ -146,7 +146,7 @@ description: "Learn to defend the X-Guard Technical Stand Up. Recognition cues, 
 
 Defending the X-Guard Technical Stand Up requires recognizing early warning signs and disrupting the bottom player's posting and hip drive mechanics before they establish a standing base. As the defender, your primary objective is maintaining forward pressure and connection that prevents the bottom player from creating the space needed to post and drive their hips to standing. The defense relies on understanding that the stand-up requires a sequential chain of actions: elevate, post, drive, stand. Disrupting any single link in this chain forces the bottom player back to guard. Your secondary objective is capitalizing on the momentary vulnerability created when the bottom player transitions from guard hooks to standing base, as their defensive structure is weakest during this changeover phase.
 
-**Opponent's Starting Position**: [[X-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/X-Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the X-Guard Technical Stand Up requires recognizing early warning sign
 ### 1. Drive forward with crossface pressure to flatten opponent back to the mat
 
 - **When to use**: At the first sign of posting hand movement or elevation preparation, before opponent commits to standing
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: Opponent is driven back to X-Guard bottom or loses hook structure entirely, creating a guard passing opportunity
 - **Risk**: If opponent times their elevation with your forward drive, they can use your own momentum to complete an elevation sweep
 
 ### 2. Strip opponent's posting hand by controlling their wrist or sleeve before it reaches the mat
 
 - **When to use**: When you identify the posting hand reaching behind their hip during the transition sequence
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: Without the posting base point, the stand-up becomes mechanically impossible and opponent falls back to X-Guard
 - **Risk**: Reaching for their posting hand may compromise your own base and weight distribution, opening you to alternative sweeps
 
 ### 3. Backstep and sit to open guard while establishing grips before opponent fully stands
 
 - **When to use**: When opponent has committed to standing and you cannot prevent the transition from completing
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You establish open guard grips and connection before opponent reaches full standing, maintaining engagement on your terms
 - **Risk**: If timed poorly, opponent achieves full standing position with your leg still controlled and immediate takedown pressure
 
 ### 4. Circle away from the controlled leg to extract it from the shallowing hooks
 
 - **When to use**: When opponent begins shallowing their inside hook to create space for the hip drive phase
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: Extracting the trapped leg collapses X-Guard entirely, allowing you to re-engage from a free standing position
 - **Risk**: Circling creates angular changes that may expose you to alternative sweep directions or leg entanglement entries
 
@@ -217,11 +217,11 @@ Defending the X-Guard Technical Stand Up requires recognizing early warning sign
 
 ## Best-Case Outcomes for Defender
 
-### → [[X-Guard]]
+### → [[Positions/X-Guard]]
 
 Drive forward pressure with crossface at the first sign of the posting hand, collapsing the opponent back to the mat before they can establish base. Maintain heavy hips and connected upper body control to deny the space needed for the stand-up sequence to initiate.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 When the stand-up cannot be fully prevented, immediately sit to guard and establish controlling grips on the opponent's legs or upper body, converting the situation into an open guard exchange where you retain engagement and can begin your guard passing sequence.
 

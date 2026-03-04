@@ -154,7 +154,7 @@ description: "Complete guide to defending against guard pass attempts from New Y
 
 Defending against the guard pass from New York Control requires understanding the sequential nature of the top player's escape and disrupting their process at each phase. The bottom player's primary advantage lies in the compound control structure where the overhook and leg wrap work together as an integrated system. As long as both remain engaged, submission threats stay active and the pass cannot succeed. Defensive strategy centers on preventing the overhook extraction that initiates the entire passing sequence, while maintaining active leg pressure that denies posture recovery. When the top player begins their extraction attempt, the defender must recognize the specific variant being used and deploy the appropriate counter, whether that means deepening the overhook, transitioning to an alternative rubber guard position, or launching a submission attack that punishes the extraction movement itself.
 
-**Opponent's Starting Position**: [[New York Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/New York Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against the guard pass from New York Control requires understanding th
 ### 1. Deepen overhook and launch submission attack when feeling extraction pressure
 
 - **When to use**: Early in the extraction attempt when the overhook is being compromised but not yet escaped, and you can still increase grip depth
-- **Targets**: [[New York Control]]
+- **Targets**: [[Positions/Rubber Guard/New York Control]]
 - **If successful**: Overhook extraction fails completely and you maintain full control with enhanced submission positioning for triangle or gogoplata
 - **Risk**: Over-committing to overhook depth can compromise hip position if the top player suddenly changes direction or stands
 
 ### 2. Transition to Mission Control, Invisible Collar, or Crackhead Control when overhook becomes unsustainable
 
 - **When to use**: When the top player has compromised overhook depth beyond recovery through sustained angular pressure
-- **Targets**: [[New York Control]]
+- **Targets**: [[Positions/Rubber Guard/New York Control]]
 - **If successful**: You retain guard control in a different rubber guard configuration with continued offensive capability and submission threats
 - **Risk**: The transition creates a brief window where the top player may accelerate their pass if your timing is imprecise
 
 ### 3. Launch triangle by shooting leg across neck during the arm extraction movement
 
 - **When to use**: When the top player creates arm separation from their body during extraction, providing the isolation needed for triangle entry
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You catch a triangle submission or force them back into a controlled guard position that denies the pass
 - **Risk**: Failed triangle attempt may accelerate their pass completion as you give up leg control for the submission attempt
 
 ### 4. Close guard recovery by withdrawing leg from shoulder and locking ankles behind waist
 
 - **When to use**: When both overhook and leg control are simultaneously compromised and the pass is imminent with no submission counter available
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You retain guard position and completely deny the pass, though in a less advantageous configuration than New York Control
 - **Risk**: Timing must be precise or the top player completes the pass to side control during your guard transition
 
@@ -225,11 +225,11 @@ Defending against the guard pass from New York Control requires understanding th
 
 ## Best-Case Outcomes for Defender
 
-### → [[New York Control]]
+### → [[Positions/Rubber Guard/New York Control]]
 
 Deepen the overhook and increase leg pressure the moment you sense the extraction attempt beginning. Time your counter-grip to coincide with their shoulder rotation, pulling their arm back into the overhook while driving your knee across their back to reset the position with enhanced control depth.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When rubber guard structure is compromised beyond recovery, transition smoothly to closed guard by withdrawing your leg from their shoulder and locking ankles behind their waist before they can advance past your legs. This denies the pass while preserving guard retention for future attack sequences.
 

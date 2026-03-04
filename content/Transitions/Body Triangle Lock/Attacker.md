@@ -178,7 +178,7 @@ This transition represents a significant upgrade in control hierarchy. While the
 
 From a strategic perspective, the Body Triangle Lock transition is particularly valuable because it converts a moderately sustainable position (Gift Wrap with hooks) into a highly sustainable dominant position. The body triangle requires minimal energy to maintain once established, allowing the top player to wait patiently for submission opportunities while their opponent exhausts themselves attempting to escape. This position exemplifies the principle of using positional dominance to create submission openings rather than forcing techniques against active defense.
 
-**From Position**: [[Gift Wrap]] (Top)
+**From Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ From a strategic perspective, the Body Triangle Lock transition is particularly 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Body Triangle]] | 65% |
-| Failure | [[Gift Wrap]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Back Control/Body Triangle]] | 65% |
+| Failure | [[Positions/Gift Wrap]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ From a strategic perspective, the Body Triangle Lock transition is particularly 
 
 ## Opponent Counters
 
-- **Opponent bridges explosively during leg thread to create space and potentially reverse position** (Effectiveness: Medium) - Your Response: Time your leg thread when opponent is exhaling or settled. If they bridge during thread, drive your hips forward into their lower back to flatten them and pause the transition until they resettle. → Leads to [[Gift Wrap]]
-- **Opponent turns toward you during leg transition to prevent the thread from reaching the far hip** (Effectiveness: High) - Your Response: Use your Gift Wrap arm control to prevent the turn by pulling their trapped shoulder back toward you. If they successfully turn, follow them to technical mount while maintaining the Gift Wrap rather than forcing the body triangle. → Leads to [[Half Guard]]
-- **Opponent hand fights your leg during the threading motion to block the triangle lock** (Effectiveness: Medium) - Your Response: Since their other arm is trapped in Gift Wrap, they only have one hand available for this defense. Attack the neck immediately when they commit their free hand to leg defense, as they cannot protect both simultaneously. → Leads to [[Gift Wrap]]
-- **Opponent pushes your locking ankle off before triangle is secured** (Effectiveness: Low) - Your Response: Keep your ankle tight to your attacking leg during the lock phase. If they manage to push the ankle, simply revert to standard hooks and reattempt when they fatigue from defensive efforts. → Leads to [[Gift Wrap]]
+- **Opponent bridges explosively during leg thread to create space and potentially reverse position** (Effectiveness: Medium) - Your Response: Time your leg thread when opponent is exhaling or settled. If they bridge during thread, drive your hips forward into their lower back to flatten them and pause the transition until they resettle. → Leads to [[Positions/Gift Wrap]]
+- **Opponent turns toward you during leg transition to prevent the thread from reaching the far hip** (Effectiveness: High) - Your Response: Use your Gift Wrap arm control to prevent the turn by pulling their trapped shoulder back toward you. If they successfully turn, follow them to technical mount while maintaining the Gift Wrap rather than forcing the body triangle. → Leads to [[Positions/Half Guard]]
+- **Opponent hand fights your leg during the threading motion to block the triangle lock** (Effectiveness: Medium) - Your Response: Since their other arm is trapped in Gift Wrap, they only have one hand available for this defense. Attack the neck immediately when they commit their free hand to leg defense, as they cannot protect both simultaneously. → Leads to [[Positions/Gift Wrap]]
+- **Opponent pushes your locking ankle off before triangle is secured** (Effectiveness: Low) - Your Response: Keep your ankle tight to your attacking leg during the lock phase. If they manage to push the ankle, simply revert to standard hooks and reattempt when they fatigue from defensive efforts. → Leads to [[Positions/Gift Wrap]]
 
 
 </section>

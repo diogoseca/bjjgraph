@@ -154,7 +154,7 @@ description: "Defend against Gift Wrap Maintenance in BJJ. Learn to recognize co
 
 Defending against Gift Wrap Maintenance requires patience, tactical awareness, and precise timing rather than explosive strength. The attacker is cycling through control adjustments designed to prevent escape, so the defender must identify brief windows during these adjustment phases when control temporarily loosens. Rather than fighting continuously against the arm trap, the defender preserves energy and waits for moments when the attacker shifts weight, adjusts grips, or initiates submission attempts—each of which creates a momentary reduction in overall control that can be exploited for arm recovery or positional escape. The defender who understands the attacker's maintenance cycle can predict these windows and prepare escape mechanics in advance, converting the attacker's systematic approach into a vulnerability.
 
-**Opponent's Starting Position**: [[Gift Wrap]] (Top)
+**Opponent's Starting Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against Gift Wrap Maintenance requires patience, tactical awareness, a
 ### 1. Shoulder rotation arm recovery: rotate trapped shoulder forward while shrimping hips in same direction to withdraw arm along threading path
 
 - **When to use**: When attacker shifts weight or adjusts grip, creating momentary slack in the arm threading angle
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Trapped arm is freed, restoring full defensive capability and reverting to standard back defense situation
 - **Risk**: If rotation fails, attacker re-tightens with better angle and may threaten choke during recovery attempt
 
 ### 2. Explosive bridge and hip escape combination to clear hooks and establish distance from attacker
 
 - **When to use**: When attacker shifts weight for hook adjustment or leans to one side for submission setup
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Bridge creates enough space to clear hooks and establish turtle position, escaping back control entirely
 - **Risk**: Failed bridge wastes significant energy and may flatten you to your back, worsening overall position
 
 ### 3. Free arm frame against attacker's head or neck combined with shrimp to create separation
 
 - **When to use**: When attacker threatens choke and removes chest pressure momentarily to reach for the neck
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Frame creates separation while shrimp clears hips from hooks, establishing distance for turtle
 - **Risk**: Framing arm becomes isolated and vulnerable to armbar attack if frame is extended too far from body
 
 ### 4. Roll toward attacker to disrupt the diagonal control angle of the arm trap
 
 - **When to use**: When attacker has shallow hooks and is focused primarily on arm trap grip adjustment
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Rotation breaks the diagonal arm trap angle and allows arm extraction during the positional scramble
 - **Risk**: If attacker follows the roll, may advance to mounted gift wrap which significantly worsens position
 
@@ -225,11 +225,11 @@ Defending against Gift Wrap Maintenance requires patience, tactical awareness, a
 
 ## Best-Case Outcomes for Defender
 
-### → [[Seat Belt Control Back]]
+### → [[Positions/Back Control/Seat Belt Control Back]]
 
 Time shoulder rotation during the attacker's grip adjustment phase. Rotate your trapped shoulder forward while shrimping your hips in the same direction. The key is exploiting the brief moment when the attacker loosens their wrist control to readjust—this window lasts less than a second but provides enough slack to withdraw the arm along its threading path.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Bridge explosively when the attacker shifts their weight for a hook adjustment or submission setup. Direct the bridge toward the side where their hooks are lightest. Immediately follow the bridge with a hip escape to clear the hooks and establish turtle. This requires committed explosive effort but only during the specific weight-shift window.
 

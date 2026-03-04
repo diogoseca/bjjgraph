@@ -193,28 +193,28 @@ Defending the Kimura requires early recognition and immediate action, as the sub
 ### 1. Straighten the arm explosively to remove the bend at the elbow, preventing shoulder rotation
 
 - **When to use**: Immediately when you feel the figure-four grip being established, before opponent secures elbow control. Most effective defense but must be done early.
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Completely neutralizes the Kimura mechanically, forcing opponent to release the grip or transition to a different attack. Returns you to the base positional exchange.
 - **Risk**: If opponent maintains wrist control during your straightening attempt, they may transition to a straight armbar or wrist lock on the extended arm.
 
 ### 2. Grab your own belt, gi pants, or opposite bicep with the attacked hand to create a secondary anchor preventing rotation
 
 - **When to use**: When the figure-four grip is already locked and arm straightening has failed. This is the primary stalling defense that buys time for positional escapes.
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Prevents the finish and forces opponent to either transition to other attacks or attempt to strip your defensive grip. Creates time for you to work positional escapes.
 - **Risk**: Experienced attackers will use the Kimura grip for transitions rather than fighting your belt grab. You must work to escape position, not merely stall.
 
 ### 3. Roll forward through the Kimura toward opponent, using momentum to relieve shoulder pressure and reverse position
 
 - **When to use**: When rotation has begun and static defenses have failed. The forward roll uses the direction of their pressure to create an escape vector and can lead to top position or guard recovery.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Relieves all rotational pressure on the shoulder and can reverse the position entirely, landing you in top position or recovering to guard.
 - **Risk**: A skilled attacker will follow your roll and take your back while maintaining the Kimura grip, potentially worsening your position.
 
 ### 4. Turn into the attacker and drive your shoulder toward the mat to eliminate the rotation angle
 
 - **When to use**: When opponent has established the grip from side control or north-south and is beginning rotation. Turning in reduces the effective range of motion available for the shoulder lock.
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Changes the angle sufficiently that the Kimura loses mechanical advantage. Can create scramble opportunities and guard recovery positions.
 - **Risk**: Turning too far exposes your back. Must be a controlled turn toward the attacker, not a panicked roll away.
 
@@ -238,11 +238,11 @@ Defending the Kimura requires early recognition and immediate action, as the sub
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Successfully strip the figure-four grip through arm straightening or grip fighting, then use frames and hip escapes to recover guard or reverse position during the transition
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Use the forward roll defense to relieve shoulder pressure and land in a position where you can close your guard around the attacker as they follow your roll, reestablishing the guard position
 

@@ -180,7 +180,7 @@ description: "Learn to systematically strip grips from the Zombie lockdown posit
 
 As the attacker executing the Strip Grip from Zombie, your objective is to methodically dismantle the bottom player's Zombie defensive structure by breaking their grip connections in priority order. The Zombie position relies on multiple interconnected grips — lockdown, underhook, and frames — that work together to create a resilient defensive system. Your approach must address each grip systematically rather than attempting to force past the structure. Success requires patience, proper weight distribution, and understanding which grip to attack first based on the opponent's current configuration. The key insight is that removing even one critical connection point causes the entire Zombie structure to collapse, opening standard passing opportunities.
 
-**From Position**: [[Zombie]] (Top)
+**From Position**: [[Positions/Rubber Guard/Zombie]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Strip Grip from Zombie, your objective is to metho
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Zombie]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Rubber Guard/Zombie]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Strip Grip from Zombie, your objective is to metho
 
 ## Opponent Counters
 
-- **Opponent re-pumps underhook during lockdown break attempt** (Effectiveness: High) - Your Response: Re-establish whizzer immediately and return to underhook neutralization — never advance to lockdown stripping without underhook control secured → Leads to [[Zombie]]
-- **Opponent attempts Old School Sweep during grip transition** (Effectiveness: Medium) - Your Response: Drop weight forward and drive crossface pressure to flatten them, preventing the posting motion required for the sweep completion → Leads to [[Half Guard]]
-- **Opponent releases lockdown voluntarily to recover full half guard or butterfly guard** (Effectiveness: Medium) - Your Response: Accept the improved position and transition directly to passing — this is a partial success as they have abandoned their strongest defensive tool → Leads to [[Open Guard]]
-- **Opponent switches to deep half guard entry during grip exchange** (Effectiveness: High) - Your Response: Sprawl hips back immediately and re-establish chest pressure to prevent them from getting underneath you — maintain hip distance and crossface control → Leads to [[Zombie]]
+- **Opponent re-pumps underhook during lockdown break attempt** (Effectiveness: High) - Your Response: Re-establish whizzer immediately and return to underhook neutralization — never advance to lockdown stripping without underhook control secured → Leads to [[Positions/Rubber Guard/Zombie]]
+- **Opponent attempts Old School Sweep during grip transition** (Effectiveness: Medium) - Your Response: Drop weight forward and drive crossface pressure to flatten them, preventing the posting motion required for the sweep completion → Leads to [[Positions/Half Guard]]
+- **Opponent releases lockdown voluntarily to recover full half guard or butterfly guard** (Effectiveness: Medium) - Your Response: Accept the improved position and transition directly to passing — this is a partial success as they have abandoned their strongest defensive tool → Leads to [[Positions/Open Guard]]
+- **Opponent switches to deep half guard entry during grip exchange** (Effectiveness: High) - Your Response: Sprawl hips back immediately and re-establish chest pressure to prevent them from getting underneath you — maintain hip distance and crossface control → Leads to [[Positions/Rubber Guard/Zombie]]
 
 
 </section>

@@ -21,7 +21,7 @@ The fundamental principle of stack defense centers on redirecting the opponent's
 
 Successful execution of the stack defense not only neutralizes the escape attempt but frequently results in a counter-sweep to top position, typically landing in half guard top or side control. The technique represents a high-level application of the principle that every defensive reaction from the opponent should create a new offensive opportunity, embodying the dilemma-based approach that makes omoplata control such a versatile attacking platform.
 
-**From Position**: [[Omoplata Control]] (Bottom)
+**From Position**: [[Positions/Omoplata Control]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Successful execution of the stack defense not only neutralizes the escape attemp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Omoplata Control]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Omoplata Control]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -189,23 +189,23 @@ The stack defense from omoplata occupies a critical position within the omoplata
 ## Related Techniques
 
 
-- [[Omoplata Control]] - Source position where this defensive technique is executed from bottom
+- [[Positions/Omoplata Control]] - Source position where this defensive technique is executed from bottom
 
-- [[Cartwheel Escape from Omoplata]] - Alternative escape pathway the opponent may use when the stack is defended
+- [[Transitions/Cartwheel Escape from Omoplata]] - Alternative escape pathway the opponent may use when the stack is defended
 
-- [[Roll Forward from Omoplata]] - Complementary escape technique often chained with stack attempts by the opponent
+- [[Transitions/Roll Forward from Omoplata]] - Complementary escape technique often chained with stack attempts by the opponent
 
-- [[Half Guard]] - Primary success outcome position after executing the counter-sweep
+- [[Positions/Half Guard]] - Primary success outcome position after executing the counter-sweep
 
-- [[Open Guard]] - Recovery position when the stack defense fails and omoplata control is lost
+- [[Positions/Open Guard]] - Recovery position when the stack defense fails and omoplata control is lost
 
-- [[Closed Guard]] - Guard recovery target if omoplata is lost during the scramble
+- [[Positions/Closed Guard]] - Guard recovery target if omoplata is lost during the scramble
 
-- [[Omoplata from Lasso]] - Entry transition that commonly leads to the omoplata control position
+- [[Transitions/Omoplata from Lasso]] - Entry transition that commonly leads to the omoplata control position
 
-- [[Rolling Omoplata]] - Related omoplata submission within the same attack system
+- [[Submissions/Rolling Omoplata]] - Related omoplata submission within the same attack system
 
-- [[Spider Guard]] - Common guard position for initiating omoplata setups that lead to this scenario
+- [[Positions/Spider Guard]] - Common guard position for initiating omoplata setups that lead to this scenario
 
 
 </section>

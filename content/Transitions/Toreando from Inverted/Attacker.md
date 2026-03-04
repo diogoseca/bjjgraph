@@ -180,7 +180,7 @@ description: "Master the toreando pass execution against inverted guard. Step-by
 
 As the passer facing inverted guard, the toreando provides a speed-based passing solution that bypasses the inverted player's rotational defense system. Your objective is to control both legs simultaneously, redirect them laterally, and circle to the opposite side to establish side control. This technique rewards decisive action and lateral athleticism over grinding pressure, making it ideal when stack passing creates too much engagement with the inverted player's offensive sequences. Timing your grip establishment and directional change before the opponent can set berimbolo grips is the critical success factor that separates effective toreando passing from failed attempts that feed the inverted player's counter-attack system.
 
-**From Position**: [[Inverted Guard]] (Top)
+**From Position**: [[Positions/Inverted Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the passer facing inverted guard, the toreando provides a speed-based passing
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Inverted Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Inverted Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the passer facing inverted guard, the toreando provides a speed-based passing
 
 ## Opponent Counters
 
-- **Hip rotation tracking — opponent rotates hips to follow the passer's lateral movement, keeping legs oriented toward the passer** (Effectiveness: High) - Your Response: Accelerate lateral movement and use a sharp directional change to the opposite side, or transition to a stack pass if they successfully track your initial direction → Leads to [[Inverted Guard]]
-- **Collar grip anchor — opponent grabs collar to pull passer back toward center, preventing lateral separation** (Effectiveness: Medium) - Your Response: Strip the collar grip before initiating lateral movement using a two-handed grip break, or power through with a fully committed lateral drive that breaks the grip through distance → Leads to [[Inverted Guard]]
-- **Leg hook insertion — opponent hooks passer's lead leg with their foot to prevent clearing the hip line** (Effectiveness: Medium) - Your Response: Step the hooked leg backward and re-establish stance, or switch to a backstep pass using the hook connection as a pivot point for the directional change → Leads to [[Inverted Guard]]
-- **Berimbolo entry — opponent uses the toreando's lateral momentum to spin underneath for a back take attempt** (Effectiveness: High) - Your Response: Maintain wide base and resist any forward pull on your upper body. Release leg grips and immediately backstep away if berimbolo rotation begins. Never lean forward into an opponent who has far hip or belt grip → Leads to [[Half Guard]]
+- **Hip rotation tracking — opponent rotates hips to follow the passer's lateral movement, keeping legs oriented toward the passer** (Effectiveness: High) - Your Response: Accelerate lateral movement and use a sharp directional change to the opposite side, or transition to a stack pass if they successfully track your initial direction → Leads to [[Positions/Inverted Guard]]
+- **Collar grip anchor — opponent grabs collar to pull passer back toward center, preventing lateral separation** (Effectiveness: Medium) - Your Response: Strip the collar grip before initiating lateral movement using a two-handed grip break, or power through with a fully committed lateral drive that breaks the grip through distance → Leads to [[Positions/Inverted Guard]]
+- **Leg hook insertion — opponent hooks passer's lead leg with their foot to prevent clearing the hip line** (Effectiveness: Medium) - Your Response: Step the hooked leg backward and re-establish stance, or switch to a backstep pass using the hook connection as a pivot point for the directional change → Leads to [[Positions/Inverted Guard]]
+- **Berimbolo entry — opponent uses the toreando's lateral momentum to spin underneath for a back take attempt** (Effectiveness: High) - Your Response: Maintain wide base and resist any forward pull on your upper body. Release leg grips and immediately backstep away if berimbolo rotation begins. Never lean forward into an opponent who has far hip or belt grip → Leads to [[Positions/Half Guard]]
 
 
 </section>

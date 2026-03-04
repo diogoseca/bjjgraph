@@ -158,7 +158,7 @@ The defensive hierarchy against the smash pass prioritizes maintaining your side
 
 Advanced defenders use the smash pass attempt as an opportunity rather than simply surviving it. When the top player commits weight forward for the crossface, they become vulnerable to specific sweeps and transitions. Understanding the attacker's progression stages allows the defender to time counter-movements at the moments of greatest vulnerability, transforming a defensive position into an offensive launching point.
 
-**Opponent's Starting Position**: [[Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Advanced defenders use the smash pass attempt as an opportunity rather than simp
 ### 1. Establish and maintain strong knee shield with forearm frame against opponent's neck
 
 - **When to use**: Early in the pass attempt before crossface is fully established, when you can still create distance with your shin across their torso
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Top player cannot establish crossface or flatten your posture, pass stalls and you retain full offensive options from knee shield half guard
 - **Risk**: If knee shield is cleared, you lose your primary distance management tool and must immediately transition to alternative defense
 
 ### 2. Fight for underhook on trapped leg side and turn to knees for dogfight position
 
 - **When to use**: When crossface is being established but not yet fully settled, and you can win the underhook battle to come up to a scramble position
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish dominant upper body control, threaten sweeps, back takes, and force the top player to defend rather than pass
 - **Risk**: If you lose the underhook battle while attempting to come up, the top player may use your momentum to flatten you more aggressively
 
 ### 3. Hip escape to create angle and recover full guard or transition to deep half guard
 
 - **When to use**: When opponent begins extracting their trapped leg and their weight shifts backward, creating a momentary gap in their pressure
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover a stronger guard position with better frames, nullifying the smash pass attempt and resetting the exchange
 - **Risk**: If timed poorly, the hip escape creates space that the top player uses to complete the pass more quickly
 
 ### 4. Initiate sweep attempt by hooking opponent's posting leg and bridging into their forward pressure
 
 - **When to use**: When top player is fully committed to forward crossface pressure and their base is narrow with hips high
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You reverse the position entirely, ending up in top half guard or side control with sweep points in competition
 - **Risk**: If the sweep fails, you may end up completely flattened with the top player in an even stronger smash position
 
@@ -229,11 +229,11 @@ Advanced defenders use the smash pass attempt as an opportunity rather than simp
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Maintain persistent frames and knee shield to stall the pass completely, then use the attacker's frustration or weight commitment to execute a sweep reversal. Time your hip escapes during their leg extraction attempts to recover stronger guard positioning.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Win the underhook battle early and use it to prevent flattening, then threaten back takes and sweeps that force the top player to abandon the smash pass and reset to neutral half guard positioning where your offensive options are restored.
 

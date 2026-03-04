@@ -26,8 +26,8 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 **Category**: Choke
 **Type**: Shin Choke
 **Target Area**: Trachea and carotid arteries
-**Starting Position**: [[Rubber Guard]]
-**From Position**: [[Gogoplata Control]] (Top)
+**Starting Position**: [[Positions/Rubber Guard]]
+**From Position**: [[Positions/Gogoplata Control]] (Top)
 **Success Rate**: 40%
 
 </section>
@@ -84,8 +84,8 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Gogoplata Control]] | 35% |
-| Counter | [[Closed Guard]] | 25% |
+| Failure | [[Positions/Gogoplata Control]] | 35% |
+| Counter | [[Positions/Closed Guard]] | 25% |
 
 
 </section>
@@ -238,13 +238,13 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 ## From Which Positions?
 
-- [[Rubber Guard]]
-- [[Mission Control]]
-- [[Closed Guard]]
-- [[High Mount]]
-- [[Open Guard]]
-- [[Inverted Guard]]
-- [[Gogoplata Control]]
+- [[Positions/Rubber Guard]]
+- [[Positions/Rubber Guard/Mission Control]]
+- [[Positions/Closed Guard]]
+- [[Positions/Mount/High Mount]]
+- [[Positions/Open Guard]]
+- [[Positions/Inverted Guard]]
+- [[Positions/Gogoplata Control]]
 
 
 </section>
@@ -253,13 +253,13 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 ## Related Submissions
 
-- [[Triangle Choke]]
-- [[Omoplata]]
-- [[Baratoplata]]
-- [[Armbar from Guard]]
-- [[Guillotine Choke]]
-- [[Armbar from Mount]]
-- [[Inverted Triangle]]
+- [[Transitions/Triangle Choke]]
+- [[Transitions/Omoplata]]
+- [[Transitions/Baratoplata]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Guillotine Choke]]
+- [[Submissions/Armbar from Mount]]
+- [[Transitions/Inverted Triangle]]
 
 
 </section>
@@ -268,17 +268,17 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 ## Additional Related Content
 
-- [[Rubber Guard]] - Primary position for gogoplata setup - provides the high guard control and broken posture necessary for successful execution
-- [[Mission Control]] - Optimal rubber guard configuration for gogoplata - arm trap and posture control create ideal conditions for shin placement
-- [[Triangle Choke]] - Complementary submission - failed triangle can transition to gogoplata, and vice versa. Both require broken posture and high guard control
-- [[Omoplata]] - Part of the rubber guard submission system - can chain together with gogoplata as opponent defends one attack
-- [[Baratoplata]] - Another shin-based submission from rubber guard - similar setup requirements and flexibility demands
-- [[Closed Guard]] - Starting position before establishing rubber guard - must transition through closed guard to access gogoplata setups
-- [[Mounted Triangle]] - Alternative finishing position - can transition from mount to gogoplata when flexibility allows
-- [[Inverted Guard]] - Advanced position allowing inverted gogoplata variations for extremely flexible practitioners
-- [[Armbar from Guard]] - Alternative submission from similar positions - if gogoplata is defended, armbar often becomes available
-- [[Gogoplata Control]] - Control position achieved before finishing the gogoplata submission
-- [[Triangle Control]] - Related control position - often transitions between triangle and gogoplata based on opponent defense
+- [[Positions/Rubber Guard]] - Primary position for gogoplata setup - provides the high guard control and broken posture necessary for successful execution
+- [[Positions/Rubber Guard/Mission Control]] - Optimal rubber guard configuration for gogoplata - arm trap and posture control create ideal conditions for shin placement
+- [[Transitions/Triangle Choke]] - Complementary submission - failed triangle can transition to gogoplata, and vice versa. Both require broken posture and high guard control
+- [[Transitions/Omoplata]] - Part of the rubber guard submission system - can chain together with gogoplata as opponent defends one attack
+- [[Transitions/Baratoplata]] - Another shin-based submission from rubber guard - similar setup requirements and flexibility demands
+- [[Positions/Closed Guard]] - Starting position before establishing rubber guard - must transition through closed guard to access gogoplata setups
+- [[Positions/Mount/Mounted Triangle]] - Alternative finishing position - can transition from mount to gogoplata when flexibility allows
+- [[Positions/Inverted Guard]] - Advanced position allowing inverted gogoplata variations for extremely flexible practitioners
+- [[Submissions/Armbar from Guard]] - Alternative submission from similar positions - if gogoplata is defended, armbar often becomes available
+- [[Positions/Gogoplata Control]] - Control position achieved before finishing the gogoplata submission
+- [[Positions/Triangle Control]] - Related control position - often transitions between triangle and gogoplata based on opponent defense
 
 
 </section>

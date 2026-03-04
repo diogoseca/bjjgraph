@@ -158,7 +158,7 @@ The key defensive insight is that the bottom player cannot simultaneously mainta
 
 Successful defense requires understanding the mechanical sequence the bottom player must execute - hip elevation, leg repositioning, overhook release, head control establishment - and identifying which step to disrupt for maximum effect. Each disruption point offers different escape pathways, from simple posture recovery to complete guard passing opportunities.
 
-**Opponent's Starting Position**: [[Crackhead Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Bottom)
 
 </section>
 
@@ -197,28 +197,28 @@ Successful defense requires understanding the mechanical sequence the bottom pla
 ### 1. Explosive posture recovery during overhook release
 
 - **When to use**: The instant you feel the overhook grip loosening and before head control is established - this is the primary escape window
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover full posture inside closed guard, breaking the rubber guard configuration entirely and returning to a neutral guard position where you can work standard guard opening
 - **Risk**: If timed poorly and bottom player maintains partial control, your upward movement can assist their triangle entry by creating the angle they need for the leg to cross your face
 
 ### 2. Arm extraction with simultaneous forward drive
 
 - **When to use**: During the brief moment when overhook releases and before the leg repositions high enough to trap the shoulder in Mission Control configuration
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Your trapped arm is freed, eliminating the shoulder isolation that makes Mission Control dangerous. You return to closed guard top with both arms available for guard opening and passing
 - **Risk**: If the bottom player follows your extracting arm into omoplata, you may end up in a worse position than either Crackhead Control or Mission Control
 
 ### 3. Drive shoulder forward to prevent leg repositioning
 
 - **When to use**: When you detect the leg beginning to slide higher on your back toward your shoulder blade during the transition phase
-- **Targets**: [[Crackhead Control]]
+- **Targets**: [[Positions/Crackhead Control]]
 - **If successful**: The leg cannot reach the high position required for Mission Control, forcing the bottom player to either abandon the transition and return to Crackhead Control or accept an inferior control position
 - **Risk**: Forward driving can be redirected by the bottom player into sweep momentum or used to assist Carni entry if they abandon the Mission Control attempt
 
 ### 4. Establish double underhooks during transition vulnerability
 
 - **When to use**: When both the overhook has released and the new head control has not yet been secured, creating a brief window where neither primary control is active
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Double underhooks give you dominant upper body control that prevents any rubber guard reestablishment. You can stack, pass, or recover full posture from this grip configuration
 - **Risk**: Reaching for underhooks while the leg is still high exposes your neck to guillotine or creates angles for triangle if the bottom player abandons the transition and attacks directly
 
@@ -230,11 +230,11 @@ Successful defense requires understanding the mechanical sequence the bottom pla
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time your posture recovery or arm extraction to the exact moment the overhook releases. Drive your head up and hips back simultaneously while stripping any emerging head control grips. The goal is to return to neutral closed guard where you have full posture and can work standard guard opening sequences.
 
-### → [[Crackhead Control]]
+### → [[Positions/Crackhead Control]]
 
 Prevent the leg from repositioning to Mission Control height by driving your shoulder forward into the bottom player's hip. This forces them to either abandon the transition attempt and return to Crackhead Control or lose control entirely. While returning to Crackhead Control is not ideal, it prevents the more dangerous Mission Control establishment and gives you another opportunity to escape on the next transition attempt.
 

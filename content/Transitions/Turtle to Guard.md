@@ -21,7 +21,7 @@ Success depends on timing, hip mobility, and understanding weight distribution p
 
 This transition represents a key defensive skill that prevents opponents from consolidating dominant positions while allowing the defender to return to offensive guard positions where they can threaten sweeps and submissions. At the highest levels, the guard recovery is pre-loaded and executed in a fraction of a second when the opponent's weight shifts, making the timing window the primary variable that separates successful from failed attempts.
 
-**From Position**: [[Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -32,10 +32,10 @@ This transition represents a key defensive skill that prevents opponents from co
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -197,31 +197,31 @@ The turtle to guard recovery is a critical link in the defensive chain, sitting 
 ## Related Techniques
 
 
-- [[Turtle]] - Starting position for this defensive transition
+- [[Positions/Turtle]] - Starting position for this defensive transition
 
-- [[Closed Guard]] - Primary target guard position after successful recovery
+- [[Positions/Closed Guard]] - Primary target guard position after successful recovery
 
-- [[Half Guard]] - Alternative guard recovery target when full rotation is blocked
+- [[Positions/Half Guard]] - Alternative guard recovery target when full rotation is blocked
 
-- [[Butterfly Guard]] - Alternative guard recovery with immediate sweep threats
+- [[Positions/Butterfly Guard]] - Alternative guard recovery with immediate sweep threats
 
-- [[Granby Roll to Guard]] - Alternative escape technique sharing similar hip rotation mechanics
+- [[Transitions/Granby Roll to Guard]] - Alternative escape technique sharing similar hip rotation mechanics
 
-- [[Hip Escape to Guard]] - Fundamental movement component used during rotation phase
+- [[Transitions/Hip Escape to Guard]] - Fundamental movement component used during rotation phase
 
-- [[Guard Recovery]] - Broader defensive concept this technique belongs to
+- [[Principles/Guard Recovery]] - Broader defensive concept this technique belongs to
 
-- [[Back Take from Top]] - Counter-technique opponent attempts during failed recovery
+- [[Transitions/Back Take from Top]] - Counter-technique opponent attempts during failed recovery
 
-- [[Back Control]] - Position being prevented by successful guard recovery
+- [[Positions/Back Control]] - Position being prevented by successful guard recovery
 
-- [[Guillotine from Turtle]] - Submission threat present in the starting position
+- [[Transitions/Guillotine from Turtle]] - Submission threat present in the starting position
 
-- [[Anaconda from Turtle]] - Submission threat present in the starting position
+- [[Transitions/Anaconda from Turtle]] - Submission threat present in the starting position
 
-- [[Darce from Turtle]] - Submission threat present in the starting position
+- [[Transitions/Darce from Turtle]] - Submission threat present in the starting position
 
-- [[Peterson Roll]] - Alternative rolling escape from turtle sharing tactical context
+- [[Transitions/Peterson Roll]] - Alternative rolling escape from turtle sharing tactical context
 
 
 </section>

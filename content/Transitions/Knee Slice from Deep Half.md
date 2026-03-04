@@ -21,7 +21,7 @@ Strategically, the knee slice is often the best option when the top player has m
 
 The technique demands precise timing because the moment you lift your knee to slice, you briefly reduce your base and create a window for the bottom player to execute sweeps. Successful execution requires committing to the pass with conviction while maintaining enough upper body pressure that the opponent cannot exploit the transitional instability. At higher levels, the knee slice from deep half becomes a chess match between the passer's pressure timing and the guard player's sweep timing.
 
-**From Position**: [[Deep Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Deep Half Guard]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ The technique demands precise timing because the moment you lift your knee to sl
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Deep Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Half Guard/Deep Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -195,25 +195,25 @@ The knee slice from deep half guard serves as a critical escape-to-offense tool 
 ## Related Techniques
 
 
-- [[Deep Half Guard]] - Source position where this technique originates
+- [[Positions/Half Guard/Deep Half Guard]] - Source position where this technique originates
 
-- [[Side Control]] - Primary target position upon successful completion
+- [[Positions/Side Control]] - Primary target position upon successful completion
 
-- [[Backstep from Deep Half]] - Alternative passing option from the same starting position
+- [[Transitions/Backstep from Deep Half]] - Alternative passing option from the same starting position
 
-- [[Deep Half Sweep]] - Primary sweep threat the bottom player uses during pass attempts
+- [[Transitions/Deep Half Sweep]] - Primary sweep threat the bottom player uses during pass attempts
 
-- [[Homer Simpson Sweep]] - Dangerous counter-sweep the bottom player can execute during knee slice
+- [[Transitions/Homer Simpson Sweep]] - Dangerous counter-sweep the bottom player can execute during knee slice
 
-- [[Knee Slice from DLR]] - Related knee slice variation from a different guard position
+- [[Transitions/Knee Slice from DLR]] - Related knee slice variation from a different guard position
 
-- [[Knee Slice from Butterfly Half]] - Related knee slice variation sharing similar mechanics
+- [[Transitions/Knee Slice from Butterfly Half]] - Related knee slice variation sharing similar mechanics
 
-- [[Knee Cut from Headquarters]] - Continuation technique if leg extraction transitions through headquarters
+- [[Transitions/Knee Cut from Headquarters]] - Continuation technique if leg extraction transitions through headquarters
 
-- [[Half Guard]] - Position that may result from incomplete pass or opponent's guard recovery
+- [[Positions/Half Guard]] - Position that may result from incomplete pass or opponent's guard recovery
 
-- [[Deep Half Entry from Half Guard]] - Transition the bottom player uses to re-enter deep half if pass stalls
+- [[Transitions/Deep Half Entry from Half Guard]] - Transition the bottom player uses to re-enter deep half if pass stalls
 
 
 </section>

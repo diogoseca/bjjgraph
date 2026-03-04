@@ -21,7 +21,7 @@ The mechanics rely on coordinating two primary force vectors: the underhook driv
 
 From a systems perspective, this transition connects the half butterfly guard system to the entire dogfight offensive chain. Once established in dogfight, the practitioner has access to sweeps, back takes, and deep half entries. Failing to complete the transition typically results in returning to half butterfly, while a strong counter by the top player can flatten the bottom player into a compromised half guard position where passing becomes significantly easier.
 
-**From Position**: [[Half Butterfly]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ From a systems perspective, this transition connects the half butterfly guard sy
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Dogfight Position]] | 55% |
-| Failure | [[Half Butterfly]] | 30% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Dogfight Position]] | 55% |
+| Failure | [[Positions/Butterfly Guard/Half Butterfly]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Half Butterfly to Dogfight transition sits at the critical junction between 
 ## Related Techniques
 
 
-- [[Half Butterfly]] - Source position - the hybrid guard from which this transition initiates
+- [[Positions/Butterfly Guard/Half Butterfly]] - Source position - the hybrid guard from which this transition initiates
 
-- [[Dogfight Position]] - Target position - the dynamic kneeling position reached on success
+- [[Positions/Dogfight Position]] - Target position - the dynamic kneeling position reached on success
 
-- [[Half Guard]] - Parent position family - dogfight is an elevated half guard variation
+- [[Positions/Half Guard]] - Parent position family - dogfight is an elevated half guard variation
 
-- [[Deep Half Guard]] - Alternative transition from half butterfly when opponent pressures too heavily to allow dogfight entry
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition from half butterfly when opponent pressures too heavily to allow dogfight entry
 
-- [[Butterfly Guard]] - Related guard system sharing the butterfly hook mechanics used in the elevation
+- [[Positions/Butterfly Guard]] - Related guard system sharing the butterfly hook mechanics used in the elevation
 
-- [[Dogfight Sweep]] - Primary follow-up technique once dogfight is established
+- [[Transitions/Dogfight Sweep]] - Primary follow-up technique once dogfight is established
 
-- [[Forward Drive Sweep from Dogfight]] - Follow-up sweep available after successful dogfight entry
+- [[Transitions/Forward Drive Sweep from Dogfight]] - Follow-up sweep available after successful dogfight entry
 
-- [[Back Take]] - High-value follow-up when opponent over-commits to whizzer defense in dogfight
+- [[Transitions/Back Take]] - High-value follow-up when opponent over-commits to whizzer defense in dogfight
 
-- [[Flattened Half Guard]] - Counter outcome position when top player successfully drives bottom player back down
+- [[Positions/Half Guard/Flattened Half Guard]] - Counter outcome position when top player successfully drives bottom player back down
 
-- [[Knee Shield Half Guard]] - Alternative half guard configuration that can also lead to dogfight entries
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative half guard configuration that can also lead to dogfight entries
 
 
 </section>

@@ -21,7 +21,7 @@ Strategically, the standing escape serves as a reset button in the modern leg en
 
 The critical challenge lies in the transition window between being trapped and fully disengaged. The bottom player's hooks create powerful mechanical leverage, and any misstep during extraction can result in an off-balance moment that the bottom player exploits for sweeps or transitions to deeper entanglements. Success requires patience, structural integrity through proper posture and base, and precise sequencing of hook removal before attempting to extract the trapped leg.
 
-**From Position**: [[Single Leg X-Guard]] (Top)
+**From Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The critical challenge lies in the transition window between being trapped and f
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Single Leg X-Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/X-Guard/Single Leg X-Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Standing Escape from SLX occupies a critical role in the top player's leg en
 ## Related Techniques
 
 
-- [[Single Leg X-Guard]] - Starting position from which this escape is executed
+- [[Positions/X-Guard/Single Leg X-Guard]] - Starting position from which this escape is executed
 
-- [[Standing Position]] - Primary target position reached upon successful escape
+- [[Positions/Standing Position]] - Primary target position reached upon successful escape
 
-- [[Half Guard]] - Counter outcome position if bottom player sweeps during escape attempt
+- [[Positions/Half Guard]] - Counter outcome position if bottom player sweeps during escape attempt
 
-- [[X-Guard]] - Related leg entanglement that bottom player may transition to if escape is partially successful
+- [[Positions/X-Guard]] - Related leg entanglement that bottom player may transition to if escape is partially successful
 
-- [[Ashi Garami]] - Deeper entanglement the bottom player may enter if escape timing is poor
+- [[Positions/Ashi Garami]] - Deeper entanglement the bottom player may enter if escape timing is poor
 
-- [[Backstep from Single Leg X]] - Alternative escape option that leads to passing rather than disengagement
+- [[Transitions/Backstep from Single Leg X]] - Alternative escape option that leads to passing rather than disengagement
 
-- [[SLX to Ashi Garami]] - Bottom player transition that threatens if escape is delayed
+- [[Transitions/SLX to Ashi Garami]] - Bottom player transition that threatens if escape is delayed
 
-- [[Single Leg X Sweep]] - Primary sweep threat the top player must defend during escape
+- [[Transitions/Single Leg X Sweep]] - Primary sweep threat the top player must defend during escape
 
-- [[Headquarters Position]] - Alternative passing position reachable if hooks are partially cleared
+- [[Positions/Headquarters Position]] - Alternative passing position reachable if hooks are partially cleared
 
-- [[Combat Base]] - Intermediate posture option during escape sequence before fully standing
+- [[Positions/Combat Base]] - Intermediate posture option during escape sequence before fully standing
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Learn to execute the Spider Sweep from Spider Guard. Step-by-step 
 
 The Spider Sweep attacker operates from Spider Guard Bottom with double sleeve grips and feet on biceps, using a coordinated pull-push scissoring action to collapse the opponent's base and sweep them to mount. The technique exploits the mechanical advantage of legs against arms, creating rotational force along a diagonal axis that is extremely difficult to resist once properly loaded. Success depends on creating the correct hip angle before initiating, maintaining grip integrity throughout the motion, and following through decisively to secure mount. The attacker must read the opponent's weight distribution and base width to select the optimal sweep direction and timing, then commit fully to the execution with coordinated upper and lower body mechanics.
 
-**From Position**: [[Spider Guard]] (Bottom)
+**From Position**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ The Spider Sweep attacker operates from Spider Guard Bottom with double sleeve g
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Spider Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Spider Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ The Spider Sweep attacker operates from Spider Guard Bottom with double sleeve g
 
 ## Opponent Counters
 
-- **Opponent posts their free hand on the mat to prevent being swept over** (Effectiveness: High) - Your Response: Immediately switch to a triangle entry by pulling the posted arm across your centerline while throwing your leg over their shoulder on the non-posted side, converting their posting reaction into a submission opportunity → Leads to [[Spider Guard]]
-- **Opponent strips one sleeve grip using a two-on-one break during the sweep attempt** (Effectiveness: High) - Your Response: Immediately transition to lasso guard on the remaining grip side by threading your foot under their arm, or recover the grip by using foot pressure on the freed bicep to prevent their arm from withdrawing completely → Leads to [[Open Guard]]
-- **Opponent widens base and lowers center of gravity to resist the rotational sweep force** (Effectiveness: Medium) - Your Response: Switch to the overhead balloon sweep variant by extending both legs upward to elevate them, or use the wide base opening to enter an omoplata by pivoting your hips toward the side with more space → Leads to [[Spider Guard]]
-- **Opponent steps backward quickly to remove foot pressure from their biceps** (Effectiveness: Medium) - Your Response: Follow their retreat by extending your legs to maintain foot contact on their biceps, or transition to feet-on-hips position and enter a different sweep such as tripod sweep or sickle sweep that works at longer range → Leads to [[Spider Guard]]
+- **Opponent posts their free hand on the mat to prevent being swept over** (Effectiveness: High) - Your Response: Immediately switch to a triangle entry by pulling the posted arm across your centerline while throwing your leg over their shoulder on the non-posted side, converting their posting reaction into a submission opportunity → Leads to [[Positions/Spider Guard]]
+- **Opponent strips one sleeve grip using a two-on-one break during the sweep attempt** (Effectiveness: High) - Your Response: Immediately transition to lasso guard on the remaining grip side by threading your foot under their arm, or recover the grip by using foot pressure on the freed bicep to prevent their arm from withdrawing completely → Leads to [[Positions/Open Guard]]
+- **Opponent widens base and lowers center of gravity to resist the rotational sweep force** (Effectiveness: Medium) - Your Response: Switch to the overhead balloon sweep variant by extending both legs upward to elevate them, or use the wide base opening to enter an omoplata by pivoting your hips toward the side with more space → Leads to [[Positions/Spider Guard]]
+- **Opponent steps backward quickly to remove foot pressure from their biceps** (Effectiveness: Medium) - Your Response: Follow their retreat by extending your legs to maintain foot contact on their biceps, or transition to feet-on-hips position and enter a different sweep such as tripod sweep or sickle sweep that works at longer range → Leads to [[Positions/Spider Guard]]
 
 
 </section>

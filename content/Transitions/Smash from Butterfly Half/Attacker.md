@@ -186,7 +186,7 @@ description: "Master the attacker's perspective for smashing through butterfly h
 
 The attacker in the Smash from Butterfly Half is the top player who must solve the dual problem of neutralizing an active butterfly hook while simultaneously managing a half guard leg trap. The approach demands disciplined sequencing rather than explosive movement. First establish dominant upper body control to prevent sweeps, then systematically crush the butterfly hook's lifting capacity through weight distribution and hip positioning, and finally extract the trapped leg to complete the pass to side control. The attacker must resist the temptation to rush directly to leg extraction, as the butterfly hook creates dangerous sweep opportunities whenever the top player's weight shifts upward or backward. Patience and progressive pressure application distinguish successful smash passers from those who get swept attempting to force the pass.
 
-**From Position**: [[Butterfly Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Butterfly Half Guard]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ The attacker in the Smash from Butterfly Half is the top player who must solve t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Butterfly Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Butterfly Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ The attacker in the Smash from Butterfly Half is the top player who must solve t
 
 ## Opponent Counters
 
-- **Bottom player re-inserts butterfly hook by hip escaping and threading foot back under the top player's thigh after it was partially killed** (Effectiveness: High) - Your Response: Immediately re-apply downward hip pressure and drive your weight back onto the hook. Ensure your chest stays connected to their upper body throughout. If the hook re-inserts repeatedly, switch to a hip switch pin variant where you rotate your hips laterally to trap the hook foot between your shin and the mat. → Leads to [[Butterfly Half Guard]]
-- **Bottom player frames with forearms against the top player's shoulder and neck to prevent chest-to-chest pressure application** (Effectiveness: Medium) - Your Response: Drive through the frames by walking your chest pressure forward while swimming your underhook deeper underneath their arm. Use your head position to create additional pressure that makes the frames unsustainable. Strip the frame-side arm by pushing their elbow past your head with your free hand. → Leads to [[Butterfly Half Guard]]
-- **Bottom player secures deep underhook and comes up to dogfight position during the smash attempt, threatening sweep** (Effectiveness: High) - Your Response: If they establish the underhook and come to their knees, immediately apply a heavy whizzer on the underhook arm and sprawl your hips back to flatten their angle. Drive your shoulder into their ear to break their posture back down. If the dogfight is fully established, transition to crossface and work to re-flatten before continuing the smash. → Leads to [[Half Guard]]
-- **Bottom player elevates with the hook as you commit weight forward, using your momentum for a butterfly sweep** (Effectiveness: Medium) - Your Response: Post your free hand wide on the mat immediately and drop your hips lower rather than fighting the elevation with upper body strength alone. Extend your base leg out further for stability. The sweep succeeds when you are top-heavy; it fails when your hips are lower than theirs. Widen base, drop hips, and restart the pressure sequence from a more stable platform. → Leads to [[Half Guard]]
+- **Bottom player re-inserts butterfly hook by hip escaping and threading foot back under the top player's thigh after it was partially killed** (Effectiveness: High) - Your Response: Immediately re-apply downward hip pressure and drive your weight back onto the hook. Ensure your chest stays connected to their upper body throughout. If the hook re-inserts repeatedly, switch to a hip switch pin variant where you rotate your hips laterally to trap the hook foot between your shin and the mat. → Leads to [[Positions/Half Guard/Butterfly Half Guard]]
+- **Bottom player frames with forearms against the top player's shoulder and neck to prevent chest-to-chest pressure application** (Effectiveness: Medium) - Your Response: Drive through the frames by walking your chest pressure forward while swimming your underhook deeper underneath their arm. Use your head position to create additional pressure that makes the frames unsustainable. Strip the frame-side arm by pushing their elbow past your head with your free hand. → Leads to [[Positions/Half Guard/Butterfly Half Guard]]
+- **Bottom player secures deep underhook and comes up to dogfight position during the smash attempt, threatening sweep** (Effectiveness: High) - Your Response: If they establish the underhook and come to their knees, immediately apply a heavy whizzer on the underhook arm and sprawl your hips back to flatten their angle. Drive your shoulder into their ear to break their posture back down. If the dogfight is fully established, transition to crossface and work to re-flatten before continuing the smash. → Leads to [[Positions/Half Guard]]
+- **Bottom player elevates with the hook as you commit weight forward, using your momentum for a butterfly sweep** (Effectiveness: Medium) - Your Response: Post your free hand wide on the mat immediately and drop your hips lower rather than fighting the elevation with upper body strength alone. Extend your base leg out further for stability. The sweep succeeds when you are top-heavy; it fails when your hips are lower than theirs. Widen base, drop hips, and restart the pressure sequence from a more stable platform. → Leads to [[Positions/Half Guard]]
 
 
 </section>

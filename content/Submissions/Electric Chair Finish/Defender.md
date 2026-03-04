@@ -156,7 +156,7 @@ description: "Defend against the Electric Chair Finish in BJJ. Recognition cues,
 
 Defending the Electric Chair Finish requires early recognition and immediate defensive action, as this submission becomes increasingly difficult to escape once the attacker establishes full splitting control. The defender occupies the top position in the Electric Chair, with one leg trapped in the opponent's lockdown while their groin and hip joint are threatened by progressive splitting pressure. Success in defense depends on preventing the attacker from achieving the perpendicular angle needed for maximum leverage, maintaining knee squeeze defense to resist the split, and systematically working to break the lockdown configuration before the submission can be completed. The defender must balance between resisting the immediate submission threat and working to extract their trapped leg, as over-committing to either priority creates openings for the attacker to exploit. Understanding the attacker's grip sequence and timing defensive responses to disrupt each phase is essential for consistent escape at higher levels of competition.
 
-**Opponent's Starting Position**: [[Electric Chair]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Electric Chair]] (Bottom)
 
 
 </section>
@@ -196,28 +196,28 @@ Defending the Electric Chair Finish requires early recognition and immediate def
 ### 1. Squeeze knees together tightly and drive chest weight forward onto opponent
 
 - **When to use**: As early defense when you first feel the split beginning, before the attacker achieves full perpendicular angle
-- **Targets**: [[Electric Chair]]
+- **Targets**: [[Positions/Half Guard/Electric Chair]]
 - **If successful**: Prevents the split from progressing and buys time to work on breaking the lockdown configuration
 - **Risk**: If unsuccessful, attacker may transition to Old School sweep while you are focused on knee defense
 
 ### 2. Post far hand and bridge toward attacker to collapse the splitting angle
 
 - **When to use**: When the attacker begins creating the perpendicular splitting angle with their hips
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Collapses the splitting mechanism and creates scramble opportunity to return to half guard
 - **Risk**: Bridging toward attacker may expose your back if timing is wrong or attacker anticipates the movement
 
 ### 3. Grab attacker's lockdown foot and pry apart the figure-four ankle configuration
 
 - **When to use**: When you have a free hand and can reach the lockdown configuration while maintaining some upper body base
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Breaking the lockdown eliminates the primary control mechanism and allows trapped leg extraction
 - **Risk**: Releasing upper body control to reach for foot may allow attacker to complete the Old School sweep
 
 ### 4. Turn hips and roll into attacker to neutralize the perpendicular split
 
 - **When to use**: When split pressure is building but has not yet reached maximum intensity
-- **Targets**: [[Electric Chair]]
+- **Targets**: [[Positions/Half Guard/Electric Chair]]
 - **If successful**: Reduces the effectiveness of the perpendicular splitting angle and limits submission pressure
 - **Risk**: May expose your back if attacker anticipates the roll and transitions to Truck position
 
@@ -240,7 +240,7 @@ Defending the Electric Chair Finish requires early recognition and immediate def
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Break the lockdown configuration by targeting the foot triangle, then extract trapped leg while maintaining forward top pressure to recover half guard top position
 

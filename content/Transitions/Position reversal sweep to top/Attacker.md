@@ -178,7 +178,7 @@ From the bottom 50-50 position, you face significant disadvantage due to your op
 
 This sweep integrates into the modern leg lock game as an essential defensive tool. Rather than simply extracting legs and disengaging, the reversal allows you to turn a bad position into an attacking platform. Once on top, you inherit all the offensive opportunities of top 50-50 including heel hooks, kneebars, and back takes. The sweep represents the principle that every defensive position should contain offensive counter-opportunities.
 
-**From Position**: [[50-50 Guard]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ This sweep integrates into the modern leg lock game as an essential defensive to
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 65% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[Inside Ashi-Garami]] | 10% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 65% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ This sweep integrates into the modern leg lock game as an essential defensive to
 
 ## Opponent Counters
 
-- **Opponent drops hips and widens base to prevent elevation** (Effectiveness: High) - Your Response: If opponent drops hips low, switch to leg extraction escape or transition to Single Leg X-Guard where their low base becomes vulnerability → Leads to [[50-50 Guard]]
-- **Opponent posts hand on mat to block rotation** (Effectiveness: Medium) - Your Response: Attack the posted arm by controlling wrist and continuing rotation—posted arm creates Kimura or armbar opportunity if trapped during sweep → Leads to [[50-50 Guard]]
-- **Opponent disengages legs to avoid being swept** (Effectiveness: Medium) - Your Response: If opponent extracts legs, immediately pursue standing position or re-guard—their disengagement eliminates their offensive threat as well → Leads to [[50-50 Guard]]
-- **Opponent counters with heel hook attack during your elevation, threatening submission mid-sweep** (Effectiveness: High) - Your Response: Immediately abort the sweep and prioritize heel defense by rotating your knee inward and stripping their grip with two-on-one hand fighting before reattempting → Leads to [[Inside Ashi-Garami]]
+- **Opponent drops hips and widens base to prevent elevation** (Effectiveness: High) - Your Response: If opponent drops hips low, switch to leg extraction escape or transition to Single Leg X-Guard where their low base becomes vulnerability → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent posts hand on mat to block rotation** (Effectiveness: Medium) - Your Response: Attack the posted arm by controlling wrist and continuing rotation—posted arm creates Kimura or armbar opportunity if trapped during sweep → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent disengages legs to avoid being swept** (Effectiveness: Medium) - Your Response: If opponent extracts legs, immediately pursue standing position or re-guard—their disengagement eliminates their offensive threat as well → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent counters with heel hook attack during your elevation, threatening submission mid-sweep** (Effectiveness: High) - Your Response: Immediately abort the sweep and prioritize heel defense by rotating your knee inward and stripping their grip with two-on-one hand fighting before reattempting → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 </section>

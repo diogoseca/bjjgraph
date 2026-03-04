@@ -158,7 +158,7 @@ The critical window for the defender occurs when the top player commits both han
 
 Defensive success depends on reading the top player's weight distribution and timing. When they shift weight to their free leg for base, their trapped leg becomes lighter and easier to manipulate. When they commit hands to stripping, their posture becomes vulnerable to off-balancing attacks. Each phase of their escape sequence presents a distinct counter-opportunity that the defender should be prepared to exploit.
 
-**Opponent's Starting Position**: [[Ringworm Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Ringworm Guard]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Defensive success depends on reading the top player's weight distribution and ti
 ### 1. Re-grip and retighten the lapel wrap while using free leg to create a butterfly hook under their thigh to prevent posture recovery
 
 - **When to use**: When the top player has partially loosened the lapel but has not yet secured the tail - immediately re-establish tension before they complete the break
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: You restore full Ringworm Guard control with the top player back in the compromised position, often with better grip positioning than before
 - **Risk**: If they have already stripped the grip completely, reaching back for the lapel exposes your arm to potential passing pressure
 
 ### 2. Initiate a sweep by elevating their trapped leg with your hooks while pulling the lapel to off-balance them during their grip break commitment
 
 - **When to use**: When the top player commits both hands to the grip strip, sacrificing their base and posting ability - this is the optimal sweep timing window
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You sweep the top player and achieve a top position, potentially landing in mount or side control depending on the sweep trajectory
 - **Risk**: If the sweep fails and they maintain base, you may lose lapel tension during the sweeping motion and end up in a worse guard position
 
 ### 3. Switch to Worm Guard or Squid Guard configuration by re-threading the lapel through a different pathway around their leg or body
 
 - **When to use**: When the Ringworm Guard grip is compromised beyond easy recovery but you still control the lapel tail - convert to a fresh guard configuration before losing all control
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: You establish a new lapel guard variation that the top player must now address from scratch, resetting their extraction progress entirely
 - **Risk**: The re-threading motion requires momentary loosening of tension, which the top player may exploit to complete their extraction during the transition
 
 ### 4. Grab their far sleeve with your free hand and insert a deep hook to threaten a back take as they focus on the grip break
 
 - **When to use**: When the top player turns slightly or shifts their shoulders during the extraction sequence, creating back exposure that you can exploit with your free limbs
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You take the back or achieve a dominant angle that forces them to completely abandon the grip break to defend, returning you to an attacking position
 - **Risk**: Committing to the back take means releasing secondary controls on the lapel, and if the back take fails you may lose both the guard and positional advantage
 
@@ -228,11 +228,11 @@ Defensive success depends on reading the top player's weight distribution and ti
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ringworm Guard]]
+### → [[Positions/Ringworm Guard]]
 
 Re-secure the lapel grip by immediately re-gripping the tail when the top player's strip attempt stalls or when they release momentarily to adjust hands. Simultaneously retighten by pulling the lapel toward your hip while re-engaging leg frames to restore the full guard configuration.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a sweep attempt when the top player commits both hands to the grip break. Use a combination of lapel tension and leg elevation to off-balance them toward their trapped side. Even if the sweep does not achieve full reversal, securing half guard with an underhook after losing the lapel creates a strong offensive recovery position.
 

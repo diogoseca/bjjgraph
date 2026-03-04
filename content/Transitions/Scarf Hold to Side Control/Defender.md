@@ -140,7 +140,7 @@ description: "Defend against the Scarf Hold to Side Control transition in BJJ. R
 
 As the defender against Scarf Hold to Side Control, you face a critical decision point: the transition creates brief windows of reduced control as the top player switches grips and rotates their hips. These windows represent your best escape opportunities from an otherwise strong pinning sequence. Your defensive strategy centers on recognizing the transition's initiation cues, immediately exploiting the grip changes with frames and hip movement, and capitalizing on the momentary instability before the top player consolidates side control. The transition from scarf hold to side control actually moves you from one bad position to another, but the transition itself is where you have the highest probability of recovery. If you fail to exploit the transition window, you end up in side control where escape mechanics differ significantly from scarf hold escapes, requiring an entirely different defensive toolset.
 
-**Opponent's Starting Position**: [[Scarf Hold Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Scarf Hold Position]] (Top)
 
 </section>
 
@@ -178,21 +178,21 @@ As the defender against Scarf Hold to Side Control, you face a critical decision
 ### 1. Insert knee shield during grip change window to recover half guard
 
 - **When to use**: When the top player releases the arm trap and their near hip lifts momentarily during rotation, creating space for knee insertion
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard with knee shield established, gaining access to sweeps, back takes, and guard recovery options
 - **Risk**: If your knee insertion is too slow, the top player blocks your hip and consolidates side control with your leg trapped outside
 
 ### 2. Bridge explosively during crossface transition to create scramble
 
 - **When to use**: The moment the top player's far arm releases the head wrap but has not yet fully established crossface, when head control is at its weakest
-- **Targets**: [[Scarf Hold Position]]
+- **Targets**: [[Positions/Side Control/Scarf Hold Position]]
 - **If successful**: You disrupt the transition entirely, potentially creating a scramble or forcing the top player to re-consolidate scarf hold where you can continue working escapes
 - **Risk**: If the bridge is poorly timed and the crossface is already established, you waste energy and end up in worse position
 
 ### 3. Turn into the top player and establish frames during rotational instability
 
 - **When to use**: During the mid-rotation phase when the top player is between scarf hold and side control angles, having neither position's full mechanical advantage
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your frames create space for hip escape and guard recovery, potentially recovering closed guard or establishing defensive half guard
 - **Risk**: Turning into them while they still have head control can result in deeper crossface pressure and accelerated side control consolidation
 
@@ -204,7 +204,7 @@ As the defender against Scarf Hold to Side Control, you face a critical decision
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your knee insertion to coincide with the top player's hip rotation. As their near-side pressure shifts during the turn, drive your inside knee between their legs and immediately establish knee shield. The rotation creates a brief gap in hip control that is your best opportunity for guard recovery throughout the entire sequence.
 

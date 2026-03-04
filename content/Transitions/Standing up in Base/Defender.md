@@ -154,7 +154,7 @@ description: "How to prevent and counter the technical standup from turtle top i
 
 As the top player in turtle, your primary objective when opponent attempts a technical standup is to prevent their return to standing by maintaining pressure, controlling their base points, and capitalizing on the vulnerability windows created during their movement sequence. The standup attempt actually presents significant offensive opportunities because the bottom player must temporarily sacrifice their tight defensive turtle structure to create posting base and hip elevation. Each phase of their standup opens specific attacking vectors: the posting hand creates an arm to attack, the hip elevation exposes the back for hook insertion, and the step-through phase creates opportunities for single leg entries or drag-backs. Understanding how to read and counter the standup transforms what appears to be a defensive escape into a high-percentage path to back control or dominant position advancement.
 
-**Opponent's Starting Position**: [[Turtle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ As the top player in turtle, your primary objective when opponent attempts a tec
 ### 1. Drive heavy chest pressure forward and down onto opponent's upper back while controlling their near hip with your hand, collapsing their posting base before they can elevate
 
 - **When to use**: Early in the standup attempt when opponent first posts their hand and before hip elevation begins. Most effective when you can get chest-to-back contact before they create framing distance.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Opponent's posting arm collapses under your weight, they return to flat turtle position, and you maintain dominant turtle top control with opportunity to advance to back control
 - **Risk**: If you overcommit forward weight, opponent can use your momentum for a sit-through escape to guard or pull you over their body
 
 ### 2. Secure seatbelt harness grip as opponent elevates hips, then insert near-side hook during their step-through phase when their hip is exposed and elevated
 
 - **When to use**: When opponent successfully begins hip elevation and you cannot prevent the initial standup motion. Use their upward movement to slide your arms into harness position and follow their hip elevation with hook insertion.
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You establish back control with at least one hook during their standup transition, converting their escape attempt into a worse position for them
 - **Risk**: If opponent completes standup before you secure the second hook, they may be able to fight your back control from standing position
 
 ### 3. Attack the posting arm with a kimura grip or wrist control, collapsing their primary base point and pulling them back to the mat while threatening the submission
 
 - **When to use**: When opponent commits their posting hand to the mat and you can reach it before they establish their frame. Particularly effective when they post on the side nearest to you.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Opponent loses their primary base point, collapses back to turtle, and you have an arm attack established that can transition to kimura trap or back take
 - **Risk**: Reaching for the arm requires releasing some upper body pressure, which may allow opponent to create enough space to complete standup on the opposite side
 
 ### 4. Circle aggressively to the side opponent is posting toward, maintaining hip control while repositioning to block their standup angle and threaten front headlock
 
 - **When to use**: When opponent has established their posting base and frame but has not yet completed hip elevation. Circling disrupts their planned standup direction and forces them to reset.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Opponent must abandon their current standup angle and reconfigure their base, buying you time to re-establish pressure and control points
 - **Risk**: Circling creates brief moments of reduced pressure where opponent could explosively complete the standup during your repositioning
 
@@ -226,11 +226,11 @@ As the top player in turtle, your primary objective when opponent attempts a tec
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Maintain heavy chest pressure and control at least one hip throughout the standup attempt. When opponent posts their hand, drive your weight forward to collapse the posting arm before hip elevation can begin. Keep your hips low and connected to their hips so they cannot create the space needed for the standup sequence. Address their framing arm by swimming inside it or redirecting it. The goal is to shut down the standup at the earliest possible phase.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 If opponent successfully begins the standup, use their movement as an opportunity to establish back control. As their hips elevate, slide your arms into seatbelt position and insert your near-side hook into the space created between their thigh and the mat. Follow their upward movement by climbing onto their back, establishing the second hook as they rise. Their standup actually assists your hook insertion because their hip elevation creates the space you need. Time your harness grip to coincide with their hip drive for maximum control.
 

@@ -174,7 +174,7 @@ description: "How to execute Bullfighter Pass in BJJ. Attacking perspective with
 
 The Bullfighter Pass is a dynamic standing guard pass that uses lateral movement and precise grip control to bypass the opponent's guard. The name comes from the bullfighting motion of moving to the side while controlling the opponent's legs, similar to a matador avoiding a charging bull. This pass is effective against various open guard configurations including Spider Guard, De La Riva Guard, and Collar Sleeve Guard. The technique relies on explosive footwork, proper weight distribution, and the ability to control the opponent's legs while maintaining balance. The Bullfighter Pass is particularly effective in no-gi grappling where leg grips are harder to maintain, but it remains highly useful in the gi when executed with proper timing. The pass creates significant pressure and forward momentum, making it difficult for the opponent to recover guard or establish defensive frames.
 
-**From Position**: [[Open Guard]] (Top)
+**From Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The Bullfighter Pass is a dynamic standing guard pass that uses lateral movement
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 68% |
-| Failure | [[Open Guard]] | 22% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 68% |
+| Failure | [[Positions/Open Guard]] | 22% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -238,11 +238,11 @@ The Bullfighter Pass is a dynamic standing guard pass that uses lateral movement
 
 ## Opponent Counters
 
-- **Opponent retains guard by following your movement with their hips** (Effectiveness: High) - Your Response: Chain multiple directional changes. As they follow your first movement, immediately reverse direction and pass to the opposite side. This overwhelms their ability to track and recover. → Leads to [[Open Guard]]
-- **Opponent grabs your gi or arms to prevent separation** (Effectiveness: Medium) - Your Response: Break grips aggressively by circling your arms or using sharp postural changes. Alternatively, use their grips against them by moving in the direction they're pulling, then quickly reversing. → Leads to [[Open Guard]]
-- **Opponent sits up and attempts to re-guard or stand** (Effectiveness: Medium) - Your Response: Time your pass for when they're extending their legs. If they sit up early, switch to a front headlock position or snap them back down before re-attempting the pass. → Leads to [[Open Guard]]
-- **Opponent hooks your leg with their foot during the pass** (Effectiveness: High) - Your Response: Ensure your legs are moving wider than their leg reach. If hooked, immediately shake the leg free while maintaining upper body pressure, or abandon the pass and reset position. → Leads to [[Open Guard]]
-- **Opponent inverts and establishes De La Riva or berimbolo position** (Effectiveness: Low) - Your Response: Follow their inversion and maintain heavy hip pressure on their legs. Do not allow them to complete the inversion. If they fully invert, backstep to threaten leg entanglements or circle to take their back. → Leads to [[Open Guard]]
+- **Opponent retains guard by following your movement with their hips** (Effectiveness: High) - Your Response: Chain multiple directional changes. As they follow your first movement, immediately reverse direction and pass to the opposite side. This overwhelms their ability to track and recover. → Leads to [[Positions/Open Guard]]
+- **Opponent grabs your gi or arms to prevent separation** (Effectiveness: Medium) - Your Response: Break grips aggressively by circling your arms or using sharp postural changes. Alternatively, use their grips against them by moving in the direction they're pulling, then quickly reversing. → Leads to [[Positions/Open Guard]]
+- **Opponent sits up and attempts to re-guard or stand** (Effectiveness: Medium) - Your Response: Time your pass for when they're extending their legs. If they sit up early, switch to a front headlock position or snap them back down before re-attempting the pass. → Leads to [[Positions/Open Guard]]
+- **Opponent hooks your leg with their foot during the pass** (Effectiveness: High) - Your Response: Ensure your legs are moving wider than their leg reach. If hooked, immediately shake the leg free while maintaining upper body pressure, or abandon the pass and reset position. → Leads to [[Positions/Open Guard]]
+- **Opponent inverts and establishes De La Riva or berimbolo position** (Effectiveness: Low) - Your Response: Follow their inversion and maintain heavy hip pressure on their legs. Do not allow them to complete the inversion. If they fully invert, backstep to threaten leg entanglements or circle to take their back. → Leads to [[Positions/Open Guard]]
 
 
 </section>

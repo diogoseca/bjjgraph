@@ -178,7 +178,7 @@ The strategic importance of this escape lies in its energy efficiency and reliab
 
 Advanced practitioners recognize this escape as part of a larger defensive system within leg entanglement warfare. The transition to Half Guard provides immediate safety from leg lock submissions while establishing a stable platform for guard recovery or offensive sweeps. The position choice is deliberate: Half Guard offers superior hip mobility and framing options compared to other escape destinations, while keeping one leg engaged to prevent immediate passing attempts.
 
-**From Position**: [[Leg Knot]] (Bottom)
+**From Position**: [[Positions/Leg Knot]] (Bottom)
 
 </section>
 
@@ -230,9 +230,9 @@ Advanced practitioners recognize this escape as part of a larger defensive syste
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Leg Knot]] | 30% |
-| Counter | [[Saddle]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Leg Knot]] | 30% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ Advanced practitioners recognize this escape as part of a larger defensive syste
 
 ## Opponent Counters
 
-- **Opponent follows the hip escape and maintains entanglement by moving with you** (Effectiveness: High) - Your Response: Use your free leg frame more aggressively to push them away as you escape, creating distance they cannot close. If they follow, transition to Single Leg X-Guard instead of Half Guard. → Leads to [[Leg Knot]]
-- **Opponent tightens grip anticipating extraction and secures deeper heel control** (Effectiveness: High) - Your Response: Abort the extraction attempt and address heel safety first. Hide the heel by turning into opponent before attempting extraction again. Consider Granby roll escape if heel is exposed. → Leads to [[Saddle]]
-- **Opponent transitions to Saddle position as you begin relaxing the leg** (Effectiveness: Medium) - Your Response: If Saddle is being established, stop extraction and immediately address knee line. Use your free leg to block their leg from crossing over. Counter-entangle to 50-50 if necessary. → Leads to [[Saddle]]
-- **Opponent stacks forward during extraction to maintain control** (Effectiveness: Medium) - Your Response: Use upper body frames to prevent stack. If stacking succeeds, the space created behind their hips becomes your escape route—hip escape out the back door while their weight is committed forward. → Leads to [[Leg Knot]]
+- **Opponent follows the hip escape and maintains entanglement by moving with you** (Effectiveness: High) - Your Response: Use your free leg frame more aggressively to push them away as you escape, creating distance they cannot close. If they follow, transition to Single Leg X-Guard instead of Half Guard. → Leads to [[Positions/Leg Knot]]
+- **Opponent tightens grip anticipating extraction and secures deeper heel control** (Effectiveness: High) - Your Response: Abort the extraction attempt and address heel safety first. Hide the heel by turning into opponent before attempting extraction again. Consider Granby roll escape if heel is exposed. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent transitions to Saddle position as you begin relaxing the leg** (Effectiveness: Medium) - Your Response: If Saddle is being established, stop extraction and immediately address knee line. Use your free leg to block their leg from crossing over. Counter-entangle to 50-50 if necessary. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent stacks forward during extraction to maintain control** (Effectiveness: Medium) - Your Response: Use upper body frames to prevent stack. If stacking succeeds, the space created behind their hips becomes your escape route—hip escape out the back door while their weight is committed forward. → Leads to [[Positions/Leg Knot]]
 
 
 </section>

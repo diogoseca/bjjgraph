@@ -184,7 +184,7 @@ Strategically, the Williams Shoulder Lock functions as the apex threat in the Wi
 
 The submission targets the rotator cuff complex and shoulder capsule through external rotation and abduction, making it one of the more dangerous joint locks in the BJJ arsenal. Due to the complexity of shoulder anatomy and the speed at which injury can occur, practitioners must develop exceptional sensitivity to their partner's defensive responses and maintain strict progressive pressure application. The finishing window is narrow — once the three-point control alignment is achieved (deep overhook, proper hip angle, active leg control), the opponent cannot mechanically escape, and patience becomes the primary finishing tool.
 
-**From Position**: [[Williams Guard]] (Bottom)
+**From Position**: [[Positions/Williams Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ The submission targets the rotator cuff complex and shoulder capsule through ext
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Williams Guard]] | 25% |
-| Failure | [[Open Guard]] | 10% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Williams Guard]] | 25% |
+| Failure | [[Positions/Open Guard]] | 10% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -250,11 +250,11 @@ The submission targets the rotator cuff complex and shoulder capsule through ext
 
 ## Opponent Counters
 
-- **Opponent pulls trapped arm straight back aggressively to extract from overhook** (Effectiveness: High) - Your Response: This is the most dangerous escape if allowed to develop. Prevent by maintaining wrist control and keeping overhook deep. If extraction begins, immediately transition to omoplata by swinging your leg over their shoulder, or attack the armbar as their elbow becomes exposed during extraction. → Leads to [[Williams Guard]]
-- **Opponent postures up forcefully to create space and reduce shoulder lock angle** (Effectiveness: Medium) - Your Response: Immediately adjust your top leg to their neck or near shoulder, pulling them back into broken posture. Drive heels into their lower back to prevent hip extension. If posture is fully recovered, transition to triangle setup as the space created during posturing exposes their neck. → Leads to [[Williams Guard]]
-- **Opponent rolls toward trapped arm to relieve rotational pressure on shoulder** (Effectiveness: Low) - Your Response: Use bottom leg hook on their far hip to prevent the roll. If they commit fully to the roll, follow through and take back control or consolidate mount while maintaining the overhook. Their rolling momentum actually aids your positional transition. → Leads to [[Open Guard]]
-- **Opponent grabs their own gi, belt, or shorts to create defensive anchor preventing rotation** (Effectiveness: Medium) - Your Response: Increase hip angle to amplify leverage advantage and use wrist control to systematically break their defensive grip through angle changes. Alternatively, abandon the shoulder lock and transition to omoplata or back take while they remain fixated on defending the grip break. → Leads to [[Williams Guard]]
-- **Opponent stacks forward driving weight over your body to collapse guard structure** (Effectiveness: Medium) - Your Response: Shrimp hips further out to relieve stacking pressure while maintaining arm control. Use your leg frames to prevent them from achieving full stack. If they commit heavily to the stack, their forward momentum can be redirected into a sweep to mount or transition to triangle from the angle created. → Leads to [[Half Guard]]
+- **Opponent pulls trapped arm straight back aggressively to extract from overhook** (Effectiveness: High) - Your Response: This is the most dangerous escape if allowed to develop. Prevent by maintaining wrist control and keeping overhook deep. If extraction begins, immediately transition to omoplata by swinging your leg over their shoulder, or attack the armbar as their elbow becomes exposed during extraction. → Leads to [[Positions/Williams Guard]]
+- **Opponent postures up forcefully to create space and reduce shoulder lock angle** (Effectiveness: Medium) - Your Response: Immediately adjust your top leg to their neck or near shoulder, pulling them back into broken posture. Drive heels into their lower back to prevent hip extension. If posture is fully recovered, transition to triangle setup as the space created during posturing exposes their neck. → Leads to [[Positions/Williams Guard]]
+- **Opponent rolls toward trapped arm to relieve rotational pressure on shoulder** (Effectiveness: Low) - Your Response: Use bottom leg hook on their far hip to prevent the roll. If they commit fully to the roll, follow through and take back control or consolidate mount while maintaining the overhook. Their rolling momentum actually aids your positional transition. → Leads to [[Positions/Open Guard]]
+- **Opponent grabs their own gi, belt, or shorts to create defensive anchor preventing rotation** (Effectiveness: Medium) - Your Response: Increase hip angle to amplify leverage advantage and use wrist control to systematically break their defensive grip through angle changes. Alternatively, abandon the shoulder lock and transition to omoplata or back take while they remain fixated on defending the grip break. → Leads to [[Positions/Williams Guard]]
+- **Opponent stacks forward driving weight over your body to collapse guard structure** (Effectiveness: Medium) - Your Response: Shrimp hips further out to relieve stacking pressure while maintaining arm control. Use your leg frames to prevent them from achieving full stack. If they commit heavily to the stack, their forward momentum can be redirected into a sweep to mount or transition to triangle from the angle created. → Leads to [[Positions/Half Guard]]
 
 
 </section>

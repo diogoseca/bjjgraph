@@ -184,7 +184,7 @@ From Guillotine Control Bottom, the finish requires precise coordination between
 
 Strategically, the Guillotine Choke creates a powerful dilemma for defenders: protecting the neck requires postural adjustments that often open sweep opportunities, while defending the sweep exposes the neck to tighter finishing pressure. This binary trap makes the guillotine particularly effective when integrated into a systematic guard attack framework that chains submissions with positional improvements.
 
-**From Position**: [[Guillotine Control]] (Bottom)
+**From Position**: [[Positions/Guillotine Control]] (Bottom)
 
 </section>
 
@@ -237,8 +237,8 @@ Strategically, the Guillotine Choke creates a powerful dilemma for defenders: pr
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Guillotine Control]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Guillotine Control]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -247,11 +247,11 @@ Strategically, the Guillotine Choke creates a powerful dilemma for defenders: pr
 
 ## Opponent Counters
 
-- **Posture up and hand fight to extract head by straightening spine and peeling grip** (Effectiveness: High) - Your Response: Close guard tighter and use legs to break posture before they can fully extend. If they begin posturing, immediately hip bump sweep or transition to high elbow variation → Leads to [[Guillotine Control]]
-- **Drive weight forward to flatten bottom player and relieve choke angle** (Effectiveness: Medium) - Your Response: Use their forward momentum for hip bump sweep to mount while maintaining guillotine grip, or angle hips away and use butterfly hooks to redirect their weight → Leads to [[Guillotine Control]]
-- **Von Flue choke counter by passing guard and shoulder-pressuring the choking arm** (Effectiveness: High) - Your Response: Never allow guard pass while holding guillotine. If they begin passing, either commit fully to finish or release and recover guard before they consolidate → Leads to [[Side Control]]
-- **Turn head and shoulders toward choking arm to relieve pressure on carotids** (Effectiveness: Medium) - Your Response: Transition to anaconda or darce choke setups which exploit this turning motion. Their turn actually exposes them to arm-triangle variations → Leads to [[Guillotine Control]]
-- **Tuck chin firmly and defend neck with hand fighting to prevent finishing pressure** (Effectiveness: Medium) - Your Response: Switch to high elbow guillotine which attacks behind the chin, or transition to triangle/omoplata as their arm positioning becomes compromised during neck defense → Leads to [[Guillotine Control]]
+- **Posture up and hand fight to extract head by straightening spine and peeling grip** (Effectiveness: High) - Your Response: Close guard tighter and use legs to break posture before they can fully extend. If they begin posturing, immediately hip bump sweep or transition to high elbow variation → Leads to [[Positions/Guillotine Control]]
+- **Drive weight forward to flatten bottom player and relieve choke angle** (Effectiveness: Medium) - Your Response: Use their forward momentum for hip bump sweep to mount while maintaining guillotine grip, or angle hips away and use butterfly hooks to redirect their weight → Leads to [[Positions/Guillotine Control]]
+- **Von Flue choke counter by passing guard and shoulder-pressuring the choking arm** (Effectiveness: High) - Your Response: Never allow guard pass while holding guillotine. If they begin passing, either commit fully to finish or release and recover guard before they consolidate → Leads to [[Positions/Side Control]]
+- **Turn head and shoulders toward choking arm to relieve pressure on carotids** (Effectiveness: Medium) - Your Response: Transition to anaconda or darce choke setups which exploit this turning motion. Their turn actually exposes them to arm-triangle variations → Leads to [[Positions/Guillotine Control]]
+- **Tuck chin firmly and defend neck with hand fighting to prevent finishing pressure** (Effectiveness: Medium) - Your Response: Switch to high elbow guillotine which attacks behind the chin, or transition to triangle/omoplata as their arm positioning becomes compromised during neck defense → Leads to [[Positions/Guillotine Control]]
 
 
 </section>

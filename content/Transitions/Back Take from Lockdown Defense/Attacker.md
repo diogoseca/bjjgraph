@@ -184,7 +184,7 @@ This transition represents a paradigm shift in lockdown defense philosophy. Inst
 
 From a tactical perspective, this technique punishes overly aggressive lockdown attacks. When the bottom player fully commits to the Electric Chair extension, they sacrifice the ability to quickly recover guard position. The top player capitalizes on this commitment by timing the backstep precisely when the opponent's hips are maximally extended. This creates a powerful dilemma for lockdown players: commit fully and risk the back take, or hold back and reduce the effectiveness of their sweep and submission attempts.
 
-**From Position**: [[Electric Chair]] (Top)
+**From Position**: [[Positions/Half Guard/Electric Chair]] (Top)
 
 </section>
 
@@ -237,9 +237,9 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 58% |
-| Failure | [[Electric Chair]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 58% |
+| Failure | [[Positions/Half Guard/Electric Chair]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 
 ## Opponent Counters
 
-- **Opponent releases lockdown early and recovers closed guard before backstep completes** (Effectiveness: High) - Your Response: If they release early, immediately pass to side control using your established upper body control. The lockdown release gives you a free pass opportunity. → Leads to [[Electric Chair]]
-- **Opponent turns into you during backstep and re-establishes half guard or full guard** (Effectiveness: Medium) - Your Response: Maintain constant crossface pressure throughout the backstep. If they begin turning, drive your shoulder harder into their jaw to prevent rotation and continue the backstep motion. → Leads to [[Half Guard]]
-- **Opponent abandons Electric Chair and transitions to deep half guard under your backstep** (Effectiveness: Medium) - Your Response: Sprawl your hips back and establish whizzer control. From here, look to pass with knee slice or smash pass rather than continuing the back take. → Leads to [[Half Guard]]
-- **Opponent elevates hips dramatically creating space to invert and recover guard** (Effectiveness: Low) - Your Response: Keep your weight low and connected. If they create elevation space, follow their hips with your weight rather than allowing separation. → Leads to [[Electric Chair]]
+- **Opponent releases lockdown early and recovers closed guard before backstep completes** (Effectiveness: High) - Your Response: If they release early, immediately pass to side control using your established upper body control. The lockdown release gives you a free pass opportunity. → Leads to [[Positions/Half Guard/Electric Chair]]
+- **Opponent turns into you during backstep and re-establishes half guard or full guard** (Effectiveness: Medium) - Your Response: Maintain constant crossface pressure throughout the backstep. If they begin turning, drive your shoulder harder into their jaw to prevent rotation and continue the backstep motion. → Leads to [[Positions/Half Guard]]
+- **Opponent abandons Electric Chair and transitions to deep half guard under your backstep** (Effectiveness: Medium) - Your Response: Sprawl your hips back and establish whizzer control. From here, look to pass with knee slice or smash pass rather than continuing the back take. → Leads to [[Positions/Half Guard]]
+- **Opponent elevates hips dramatically creating space to invert and recover guard** (Effectiveness: Low) - Your Response: Keep your weight low and connected. If they create elevation space, follow their hips with your weight rather than allowing separation. → Leads to [[Positions/Half Guard/Electric Chair]]
 
 
 </section>

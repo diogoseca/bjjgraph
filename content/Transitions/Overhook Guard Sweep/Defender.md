@@ -146,7 +146,7 @@ description: "Learn to defend and counter the Overhook Guard Sweep in BJJ. Recog
 
 Defending the Overhook Guard Sweep requires immediate recognition of the setup sequence and proactive disruption before the sweep reaches its execution phase. The top player must prevent the bottom player from establishing the combination of deep overhook, opposite arm control, and hip angle that makes this sweep mechanically unstoppable. Early intervention through posture recovery, grip stripping, and base maintenance is essential because once all three elements are in place, the sweep becomes extremely difficult to stop through reactive defense alone. Understanding which element of the setup is most vulnerable to disruption at each stage allows the defender to make efficient defensive choices rather than wasting energy on panic-driven reactions.
 
-**Opponent's Starting Position**: [[Overhook Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Overhook Guard]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ Defending the Overhook Guard Sweep requires immediate recognition of the setup s
 ### 1. Post free hand wide immediately when you feel the hip angle change
 
 - **When to use**: As soon as you detect the bottom player creating angle toward the overhook side, before they control your free arm
-- **Targets**: [[Overhook Guard]]
+- **Targets**: [[Positions/Overhook Guard]]
 - **If successful**: Sweep is stopped and you maintain top position with opportunity to strip the overhook and begin passing
 - **Risk**: Extended posting arm may be vulnerable to triangle attack if bottom player transitions quickly
 
 ### 2. Drive forward with heavy shoulder pressure into the overhook to flatten the bottom player
 
 - **When to use**: When the bottom player begins creating hip angle but has not yet planted their foot for the sweep drive
-- **Targets**: [[Overhook Guard]]
+- **Targets**: [[Positions/Overhook Guard]]
 - **If successful**: Bottom player is flattened with their angle eliminated, neutralizing the sweep and opening passing opportunities
 - **Risk**: Forward pressure can be redirected into omoplata or triangle if bottom player maintains composure
 
 ### 3. Strip the overhook by circling your trapped arm out and immediately re-establishing posture
 
 - **When to use**: When the overhook is shallow or the bottom player's elbow has loosened from their ribs, creating space for arm extraction
-- **Targets**: [[Overhook Guard]]
+- **Targets**: [[Positions/Overhook Guard]]
 - **If successful**: Primary control mechanism is removed and you can re-establish neutral posture in closed guard with passing options
 - **Risk**: The extraction motion may open armbar or triangle attacks if the bottom player reads the timing
 
 ### 4. Backstep and sprawl to break guard structure entirely
 
 - **When to use**: When the bottom player opens their guard to plant their sweeping foot, creating a momentary window before the sweep drive
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Guard is broken open and you can begin passing sequences from a standing or combat base position
 - **Risk**: If timed poorly, the backstep may accelerate the sweep if the bottom player catches your movement
 
@@ -216,11 +216,11 @@ Defending the Overhook Guard Sweep requires immediate recognition of the setup s
 
 ## Best-Case Outcomes for Defender
 
-### → [[Overhook Guard]]
+### → [[Positions/Overhook Guard]]
 
 Prevent the sweep by posting your free hand wide, driving forward with shoulder pressure, or stripping the overhook before the bottom player establishes all three setup elements. Maintain a wide base with hips low and centered over the bottom player to resist rotational force.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Use the bottom player's guard opening during the sweep setup as an opportunity to backstep, sprawl, and begin passing. When they plant their foot to drive the sweep, their guard structure is momentarily compromised, creating a window for leg extraction and guard pass initiation.
 

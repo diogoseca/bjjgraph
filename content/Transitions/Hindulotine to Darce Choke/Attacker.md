@@ -184,7 +184,7 @@ From the bottom Hindulotine position, the attacker recognizes the defensive fram
 
 Strategically, this transition exemplifies the modern submission hunting approach where attackers flow between related chokes based on defensive reactions. The Hindulotine and Darce share similar positional requirements and head control mechanics, making the transition natural once the pattern recognition develops. Advanced practitioners often set up this transition deliberately by applying guillotine pressure that they know will generate the defensive frame they need for the Darce entry.
 
-**From Position**: [[Hindulotine]] (Bottom)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -237,9 +237,9 @@ Strategically, this transition exemplifies the modern submission hunting approac
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 60% |
-| Failure | [[Hindulotine]] | 28% |
-| Counter | [[Closed Guard]] | 12% |
+| Success | [[Positions/Darce Control]] | 60% |
+| Failure | [[Positions/Hindulotine]] | 28% |
+| Counter | [[Positions/Closed Guard]] | 12% |
 
 
 </section>
@@ -248,10 +248,10 @@ Strategically, this transition exemplifies the modern submission hunting approac
 
 ## Opponent Counters
 
-- **Opponent immediately retracts defensive frame when sensing grip change** (Effectiveness: High) - Your Response: Immediately return to Hindulotine finish since their frame removal reopens the guillotine attack → Leads to [[Hindulotine]]
-- **Opponent turns into you and drives forward to flatten and pass** (Effectiveness: Medium) - Your Response: Use butterfly hooks to sweep them over while maintaining head control, or complete the Darce as they turn into the arm threading path → Leads to [[Closed Guard]]
-- **Opponent posts their free hand and creates distance to extract head** (Effectiveness: Medium) - Your Response: Follow their movement by hip escaping toward them while maintaining the grip, or transition to back take if they turn away exposing their back → Leads to [[Hindulotine]]
-- **Opponent drops their elbow tight to block arm threading** (Effectiveness: Low) - Your Response: Apply pressure on their elbow with your threading arm while maintaining head control, creating the space needed for penetration past the block → Leads to [[Hindulotine]]
+- **Opponent immediately retracts defensive frame when sensing grip change** (Effectiveness: High) - Your Response: Immediately return to Hindulotine finish since their frame removal reopens the guillotine attack → Leads to [[Positions/Hindulotine]]
+- **Opponent turns into you and drives forward to flatten and pass** (Effectiveness: Medium) - Your Response: Use butterfly hooks to sweep them over while maintaining head control, or complete the Darce as they turn into the arm threading path → Leads to [[Positions/Closed Guard]]
+- **Opponent posts their free hand and creates distance to extract head** (Effectiveness: Medium) - Your Response: Follow their movement by hip escaping toward them while maintaining the grip, or transition to back take if they turn away exposing their back → Leads to [[Positions/Hindulotine]]
+- **Opponent drops their elbow tight to block arm threading** (Effectiveness: Low) - Your Response: Apply pressure on their elbow with your threading arm while maintaining head control, creating the space needed for penetration past the block → Leads to [[Positions/Hindulotine]]
 
 
 </section>

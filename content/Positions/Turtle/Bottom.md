@@ -205,19 +205,19 @@ Turtle Bottom is a defensive position where the bottom practitioner is on their 
 
 ## Available Escapes
 
-### [[Granby Roll to Guard]] (15% of attempts)
+### [[Transitions/Granby Roll to Guard]] (15% of attempts)
 
-### [[Technical Stand-up]] (16% of attempts)
+### [[Transitions/Technical Stand-up]] (16% of attempts)
 
-### [[Rolling to Guard]] (21% of attempts)
+### [[Transitions/Rolling to Guard]] (21% of attempts)
 
-### [[Deep Half Entry]] (14% of attempts)
+### [[Transitions/Deep Half Entry]] (14% of attempts)
 
-### [[Sit Through to Guard]] (16% of attempts)
+### [[Transitions/Sit Through to Guard]] (16% of attempts)
 
-### [[Peterson Roll]] (12% of attempts)
+### [[Transitions/Peterson Roll]] (12% of attempts)
 
-### [[Sit Out from Turtle]] (6% of attempts)
+### [[Transitions/Sit Out from Turtle]] (6% of attempts)
 
 
 
@@ -228,28 +228,28 @@ Turtle Bottom is a defensive position where the bottom practitioner is on their 
 ## Decision Making from This Position
 
 **If opponent has seatbelt control but no hooks in:**
-- Execute **[[Hand Fighting]]** → [[Closed Guard]] (Probability: 50%)
-- Execute **[[Explosive Standup]]** → [[Scramble Position]] (Probability: 40%)
+- Execute **[[Principles/Hand Fighting]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Explosive Standup]]** → [[Positions/Scramble Position]] (Probability: 40%)
 
 
 **If opponent is attempting front headlock control:**
-- Execute **[[Circle Away from Choking Arm]]** → [[Closed Guard]] (Probability: 45%)
-- Execute **[[Sit Through to Half Guard]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Circle Away from Choking Arm]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Sit Through to Half Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 **If opponent's weight is high and forward:**
-- Execute **[[Granby Roll]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Peterson Roll]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Granby Roll]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Peterson Roll]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If opponent has one hook in but no harness control:**
-- Execute **[[Kick Back Hook Out]]** → [[Scramble Position]] (Probability: 45%)
-- Execute **[[Roll Over Hook Side]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Kick Back Hook Out]]** → [[Positions/Scramble Position]] (Probability: 45%)
+- Execute **[[Roll Over Hook Side]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 **If opponent is low and heavy with underhooks:**
-- Execute **[[Deep Half Escape]]** → [[Deep Half Guard]] (Probability: 40%)
-- Execute **[[Technical Standup]]** → [[Scramble Position]] (Probability: 35%)
+- Execute **[[Deep Half Escape]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 40%)
+- Execute **[[Technical Standup]]** → [[Positions/Scramble Position]] (Probability: 35%)
 
 
 
@@ -383,16 +383,16 @@ Partner attempts to establish harness control, underhooks, and dominant grips wh
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Common transition target if turtle defense fails
-- **[[Closed Guard]]** - Primary guard recovery goal from turtle bottom
-- **[[Deep Half Guard]]** - Alternative recovery position via sit-through or roll
-- **[[Granby Roll to Guard]]** - Primary escape technique from turtle bottom
-- **[[Technical Stand-up]]** - Alternative escape route to standing position
-- **[[Front Headlock]]** - Common attacking position opponent transitions to
-- **[[Anaconda Choke]]** - Submission threat when turtle defense fails
-- **[[Defensive Posture]]** - Fundamental concept for turtle bottom structure
-- **[[Rolling to Guard]]** - Key escape transition for guard recovery
-- **[[Hip Escape Mechanics]]** - Movement principle underlying turtle escapes
+- **[[Positions/Back Control]]** - Common transition target if turtle defense fails
+- **[[Positions/Closed Guard]]** - Primary guard recovery goal from turtle bottom
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative recovery position via sit-through or roll
+- **[[Transitions/Granby Roll to Guard]]** - Primary escape technique from turtle bottom
+- **[[Transitions/Technical Stand-up]]** - Alternative escape route to standing position
+- **[[Positions/Front Headlock]]** - Common attacking position opponent transitions to
+- **[[Transitions/Anaconda Choke]]** - Submission threat when turtle defense fails
+- **[[Principles/Defensive Posture]]** - Fundamental concept for turtle bottom structure
+- **[[Transitions/Rolling to Guard]]** - Key escape transition for guard recovery
+- **[[Principles/Hip Escape Mechanics]]** - Movement principle underlying turtle escapes
 
 
 </section>

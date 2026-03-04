@@ -21,7 +21,7 @@ The technique exploits a fundamental property of leg entanglements: the connecti
 
 Strategically, mastering this counter-entanglement makes you significantly more dangerous in leg lock exchanges. Opponents who recognize your ability to convert their outside ashi into your saddle will hesitate before committing fully to leg entanglement attacks, creating defensive uncertainty that benefits your overall game. This technique is essential for advanced no-gi competition, particularly in ADCC-style formats where extended leg lock exchanges determine matches and the ability to reverse entanglement positions provides decisive competitive advantage.
 
-**From Position**: [[Outside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, mastering this counter-entanglement makes you significantly more 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Saddle]] | 55% |
-| Failure | [[Outside Ashi-Garami]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Saddle]] | 55% |
+| Failure | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Saddle Entry from Outside Ashi represents a critical junction in the leg ent
 ## Related Techniques
 
 
-- [[Outside Ashi-Garami]] - Starting position where your leg is trapped in opponent's outside leg entanglement
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Starting position where your leg is trapped in opponent's outside leg entanglement
 
-- [[Saddle]] - Target position establishing dominant perpendicular leg entanglement control
+- [[Positions/Ashi Garami/Saddle]] - Target position establishing dominant perpendicular leg entanglement control
 
-- [[Inside Ashi-Garami]] - Alternative intermediate entanglement position accessible during entry attempts
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative intermediate entanglement position accessible during entry attempts
 
-- [[Honey Hole]] - Alternative name for the saddle target position in 10th Planet terminology
+- [[Positions/Ashi Garami/Honey Hole]] - Alternative name for the saddle target position in 10th Planet terminology
 
-- [[Ashi Garami Escape]] - Alternative defensive option from the same starting position favoring pure escape over counter-attack
+- [[Transitions/Ashi Garami Escape]] - Alternative defensive option from the same starting position favoring pure escape over counter-attack
 
-- [[Heel Hook from Saddle]] - Primary follow-up submission after successfully establishing saddle position
+- [[Transitions/Heel Hook from Saddle]] - Primary follow-up submission after successfully establishing saddle position
 
-- [[Inside Ashi Entry]] - Related leg entanglement advancement technique with different target position
+- [[Transitions/Inside Ashi Entry]] - Related leg entanglement advancement technique with different target position
 
-- [[Half Guard]] - Counter outcome position when entry attempt fails and opponent recovers guard
+- [[Positions/Half Guard]] - Counter outcome position when entry attempt fails and opponent recovers guard
 
-- [[Backside 50-50 Entry from Ashi]] - Alternative advancement pathway from ashi garami entanglements
+- [[Transitions/Backside 50-50 Entry from Ashi]] - Alternative advancement pathway from ashi garami entanglements
 
-- [[Leg Entanglement]] - Parent conceptual framework encompassing all ashi garami positions and transitions
+- [[Positions/Leg Entanglement]] - Parent conceptual framework encompassing all ashi garami positions and transitions
 
 
 </section>

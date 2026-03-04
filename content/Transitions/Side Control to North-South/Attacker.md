@@ -174,7 +174,7 @@ description: "How to execute Side Control to North-South in BJJ. Attacking persp
 
 The transition from Side Control to North-South is a fundamental positional advancement that creates new submission opportunities and eliminates defensive frames. This movement maintains maximum pressure while switching your position perpendicular to your opponent, placing your head near their hips and your hips near their head. The North-South position offers unique attacking angles for chokes, kimuras, and armbars while severely limiting your opponent's escape options. Unlike Side Control where opponents can create frames with their near-side arm, North-South removes this defensive tool entirely. The transition is highest percentage when executed as a response to specific defensive movements, particularly when opponents turn into you or attempt to recover guard. Understanding when to transition versus when to maintain Side Control is critical for strategic positional flow.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The transition from Side Control to North-South is a fundamental positional adva
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[North-South]] | 75% |
-| Failure | [[Side Control]] | 15% |
-| Counter | [[Side Control]] | 10% |
+| Success | [[Positions/North-South]] | 75% |
+| Failure | [[Positions/Side Control]] | 15% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -238,10 +238,10 @@ The transition from Side Control to North-South is a fundamental positional adva
 
 ## Opponent Counters
 
-- **Bridge and turn into you during transition** (Effectiveness: Medium) - Your Response: Anticipate the bridge by keeping your weight low and hips connected. Use their bridging momentum to accelerate your transition to North-South, letting their energy help you complete the circular movement faster. → Leads to [[Side Control]]
-- **Frame with far arm to create space during rotation** (Effectiveness: Low) - Your Response: Keep your chest tight to their torso throughout the transition. If they establish a frame, use your head position to collapse it as you move, or attack the extended arm with kimura grip since the frame exposes their limb. → Leads to [[Side Control]]
-- **Hip escape toward your legs during transition** (Effectiveness: Medium) - Your Response: Maintain hip-to-hip connection and walk your feet faster to stay ahead of their hip movement. If they create significant space, abandon the North-South transition and reestablish Side Control or transition to mount instead. → Leads to [[Side Control]]
-- **Underhook your far leg to prevent rotation completion** (Effectiveness: High) - Your Response: Keep your far leg out of reach by maintaining proper distance and angle during the walk. If they secure the underhook, immediately switch directions back to Side Control or transition to mount by stepping over their body with the hooked leg. → Leads to [[Side Control]]
+- **Bridge and turn into you during transition** (Effectiveness: Medium) - Your Response: Anticipate the bridge by keeping your weight low and hips connected. Use their bridging momentum to accelerate your transition to North-South, letting their energy help you complete the circular movement faster. → Leads to [[Positions/Side Control]]
+- **Frame with far arm to create space during rotation** (Effectiveness: Low) - Your Response: Keep your chest tight to their torso throughout the transition. If they establish a frame, use your head position to collapse it as you move, or attack the extended arm with kimura grip since the frame exposes their limb. → Leads to [[Positions/Side Control]]
+- **Hip escape toward your legs during transition** (Effectiveness: Medium) - Your Response: Maintain hip-to-hip connection and walk your feet faster to stay ahead of their hip movement. If they create significant space, abandon the North-South transition and reestablish Side Control or transition to mount instead. → Leads to [[Positions/Side Control]]
+- **Underhook your far leg to prevent rotation completion** (Effectiveness: High) - Your Response: Keep your far leg out of reach by maintaining proper distance and angle during the walk. If they secure the underhook, immediately switch directions back to Side Control or transition to mount by stepping over their body with the hooked leg. → Leads to [[Positions/Side Control]]
 
 
 </section>

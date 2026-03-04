@@ -158,7 +158,7 @@ The critical defensive insight is that the transition between clearing and passi
 
 Successful defense also requires contingency planning. If the lapel is cleared and the toreando is initiated, you must have rehearsed hip escape patterns, knee shield insertions, and inversion mechanics that function without the lapel as your primary control tool. Practitioners who rely exclusively on the lapel configuration without developing backup guard systems are particularly vulnerable to this pass.
 
-**Opponent's Starting Position**: [[Lapel Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful defense also requires contingency planning. If the lapel is cleared a
 ### 1. Aggressively re-grip the lapel from alternative angles each time the opponent strips your primary grip, using your free hand to re-feed the fabric while they work to clear it
 
 - **When to use**: During the clearing phase when the opponent is focused on unwinding the lapel and their passing posture is compromised by the clearing effort
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Opponent must restart the clearing sequence from scratch, depleting their grip endurance and frustrating their passing strategy
 - **Risk**: Over-committing to re-gripping can leave you vulnerable if they abandon the clear and initiate a different pass while your hands are occupied with the lapel
 
 ### 2. Sit up explosively and close the distance to establish closed guard the moment the lapel clears and before the toreando grips are secured
 
 - **When to use**: During the transition gap between clearing completion and toreando grip establishment—the 1-2 second window where they have neither lapel entanglement nor passing grips
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover closed guard with the opponent now trapped inside your legs, nullifying their passing sequence entirely and resetting to a strong offensive position
 - **Risk**: If the opponent anticipates the sit-up, they can stuff your head with collar pressure and accelerate the toreando while you are out of position with compromised base
 
 ### 3. Invert and granby roll toward the toreando direction to follow the opponent's lateral movement and recover guard on the other side
 
 - **When to use**: When the toreando has already initiated and your legs are being pushed to one side—use the momentum of the pass to fuel your inversion rather than fighting against it
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: You spin underneath the pass attempt and recover an open guard position facing the opponent, potentially re-extracting the lapel for a fresh configuration
 - **Risk**: Inversion against a heavy toreando with strong shoulder pressure can result in your back being taken if the opponent follows your rotation instead of completing the lateral pass
 
 ### 4. Insert a knee shield between your bodies as the toreando begins, blocking the pass and creating a frame that prevents chest-to-chest contact needed for side control
 
 - **When to use**: When the toreando is initiating but before the opponent achieves full lateral clearance of your legs—the earlier the knee shield enters, the more effective it is
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: The knee shield blocks the pass completion and creates enough space to recover half guard or re-establish an open guard configuration
 - **Risk**: A committed toreando with strong downward pressure can bypass the knee shield if it is inserted too late, and the opponent may immediately transition to knee slice passing against your half guard
 
@@ -228,11 +228,11 @@ Successful defense also requires contingency planning. If the lapel is cleared a
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lapel Guard]]
+### → [[Positions/Lapel Guard]]
 
 Maintain relentless re-gripping pressure on the lapel fabric throughout the clearing attempt, forcing the opponent to spend excessive energy and time on the clear. Use your free hand and feet to re-feed the lapel while they work. If they do clear, immediately re-extract and re-establish a fresh lapel configuration before they can secure toreando grips.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time your sit-up to coincide with the exact moment the lapel clears—as the opponent releases the fabric and reaches for your pants, shoot your hips forward and lock your ankles behind their back. Their posture is compromised from the clearing effort, making the guard closure easier than from a neutral position.
 

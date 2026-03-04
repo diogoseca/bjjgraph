@@ -21,7 +21,7 @@ The technique operates on a fundamental biomechanical principle: when the oppone
 
 This technique fits within the broader pressure passing system as a direct finishing mechanic from established double unders control. It chains naturally with the standard double under pass and toss pass as alternative pathways when the opponent's defensive reactions create different passing angles. Successful execution requires patience in building progressive pressure rather than explosive movements, making it energy-efficient and high-percentage at all levels of competition.
 
-**From Position**: [[Double Unders]] (Top)
+**From Position**: [[Positions/Double Unders]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ This technique fits within the broader pressure passing system as a direct finis
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Double Unders]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Double Unders]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Stack Pass from Double Unders occupies a central role in the pressure passin
 ## Related Techniques
 
 
-- [[Double Unders]] - Starting position providing bilateral underhook control required for stack pass entry
+- [[Positions/Double Unders]] - Starting position providing bilateral underhook control required for stack pass entry
 
-- [[Side Control]] - Primary target position reached upon successful pass completion
+- [[Positions/Side Control]] - Primary target position reached upon successful pass completion
 
-- [[Open Guard]] - Position the defender may recover to through successful counter or reversal
+- [[Positions/Open Guard]] - Position the defender may recover to through successful counter or reversal
 
-- [[Guard Recovery from Double Unders]] - Defensive transition opponent uses to escape before stack is fully established
+- [[Transitions/Guard Recovery from Double Unders]] - Defensive transition opponent uses to escape before stack is fully established
 
-- [[Half Guard]] - Intermediate position if opponent partially blocks the pass with knee insertion
+- [[Positions/Half Guard]] - Intermediate position if opponent partially blocks the pass with knee insertion
 
-- [[Deep Half Guard]] - Counter-position opponent seeks by diving underneath during stacking progression
+- [[Positions/Half Guard/Deep Half Guard]] - Counter-position opponent seeks by diving underneath during stacking progression
 
-- [[Headquarters Position]] - Related passing position from which double unders control is often initially established
+- [[Positions/Headquarters Position]] - Related passing position from which double unders control is often initially established
 
-- [[Body Lock Pass]] - Alternative pressure passing technique from similar underhook control configuration
+- [[Transitions/Body Lock Pass]] - Alternative pressure passing technique from similar underhook control configuration
 
-- [[Knee on Belly]] - Alternative target position when lateral space opens during stack attempt
+- [[Positions/Knee on Belly]] - Alternative target position when lateral space opens during stack attempt
 
-- [[Mount]] - Advanced target accessible when opponent's defense collapses completely during stack
+- [[Positions/Mount]] - Advanced target accessible when opponent's defense collapses completely during stack
 
 
 </section>

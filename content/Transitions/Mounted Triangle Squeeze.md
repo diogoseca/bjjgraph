@@ -21,7 +21,7 @@ The technique bridges the gap between triangle establishment and submission fini
 
 Strategically, the mounted triangle squeeze creates a compounding pressure scenario. Each incremental tightening reduces the defender's available space for frames and breathing, accelerating fatigue while preserving the attacker's energy. Skilled practitioners treat the squeeze as a deliberate process rather than a single explosive effort, methodically closing every gap until the finish becomes inevitable. The squeeze also serves as a diagnostic tool, revealing whether the triangle angle is correct and whether the opponent's defensive structure has been sufficiently compromised to attempt the final choke.
 
-**From Position**: [[Mounted Triangle]] (Top)
+**From Position**: [[Positions/Mount/Mounted Triangle]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the mounted triangle squeeze creates a compounding pressure scena
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mounted Triangle]] | 70% |
-| Failure | [[Mounted Triangle]] | 20% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Mount/Mounted Triangle]] | 70% |
+| Failure | [[Positions/Mount/Mounted Triangle]] | 20% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Mounted Triangle Squeeze occupies a critical intermediate role in the mounte
 ## Related Techniques
 
 
-- [[Mounted Triangle]] - Source position where the squeeze is applied
+- [[Positions/Mount/Mounted Triangle]] - Source position where the squeeze is applied
 
-- [[Mounted Triangle Finish]] - Terminal submission that follows successful squeeze consolidation
+- [[Submissions/Mounted Triangle Finish]] - Terminal submission that follows successful squeeze consolidation
 
-- [[Bridge Defense from Mounted Triangle]] - Primary defensive response the attacker must manage during squeeze
+- [[Transitions/Bridge Defense from Mounted Triangle]] - Primary defensive response the attacker must manage during squeeze
 
-- [[Frame and Escape Mounted Triangle]] - Frame-based escape the defender attempts to prevent squeeze tightening
+- [[Transitions/Frame and Escape Mounted Triangle]] - Frame-based escape the defender attempts to prevent squeeze tightening
 
-- [[High Mount]] - Common entry position that precedes mounted triangle establishment
+- [[Positions/Mount/High Mount]] - Common entry position that precedes mounted triangle establishment
 
-- [[S Mount]] - Alternative high mount variant that enables triangle entry and bail-out position
+- [[Positions/Mount/S Mount]] - Alternative high mount variant that enables triangle entry and bail-out position
 
-- [[Back Control]] - Transition available when squeeze forces opponent to turn during defense
+- [[Positions/Back Control]] - Transition available when squeeze forces opponent to turn during defense
 
-- [[Armbar Control]] - Transition target when opponent extracts arm during squeeze defense
+- [[Positions/Armbar Control]] - Transition target when opponent extracts arm during squeeze defense
 
-- [[Gift Wrap]] - Arm control position that facilitates tighter squeeze mechanics
+- [[Positions/Gift Wrap]] - Arm control position that facilitates tighter squeeze mechanics
 
-- [[Triangle Control]] - Related triangle squeeze mechanics from guard position for comparison
+- [[Positions/Triangle Control]] - Related triangle squeeze mechanics from guard position for comparison
 
 
 </section>

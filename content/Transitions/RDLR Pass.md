@@ -21,7 +21,7 @@ The RDLR pass is particularly relevant in modern no-gi competition, where the ab
 
 This passing sequence integrates seamlessly with other modern passing systems, including the long step pass, knee slice, and leg drag. The RDLR pass often serves as an entry point into these complementary techniques, creating a comprehensive passing game that keeps opponents constantly defending multiple threats.
 
-**From Position**: [[Reverse De La Riva Guard]] (Top)
+**From Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This passing sequence integrates seamlessly with other modern passing systems, i
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Reverse De La Riva Guard]] | 25% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/De La Riva Guard/Reverse De La Riva Guard]] | 25% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -198,27 +198,27 @@ The RDLR pass is a crucial component of modern guard passing systems, serving as
 ## Related Techniques
 
 
-- [[Reverse De La Riva Guard]] - Starting position - understanding RDLR structure from bottom perspective
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Starting position - understanding RDLR structure from bottom perspective
 
-- [[Toreando Pass]] - Complementary pass - alternative when RDLR hook is difficult to clear
+- [[Transitions/Toreando Pass]] - Complementary pass - alternative when RDLR hook is difficult to clear
 
-- [[Leg Drag Pass]] - Follow-up technique - natural continuation when dragging the hooking leg
+- [[Transitions/Leg Drag Pass]] - Follow-up technique - natural continuation when dragging the hooking leg
 
-- [[Knee Slice Pass]] - Variation - alternative finishing sequence after clearing RDLR hook
+- [[Transitions/Knee Slice Pass]] - Variation - alternative finishing sequence after clearing RDLR hook
 
-- [[Long Step Pass]] - Variation - directional passing option from RDLR clearing position
+- [[Transitions/Long Step Pass]] - Variation - directional passing option from RDLR clearing position
 
-- [[X-Guard]] - Common counter - opponent's defensive transition during the pass
+- [[Positions/X-Guard]] - Common counter - opponent's defensive transition during the pass
 
-- [[Single Leg X-Guard]] - Common counter - guard retention option opponents use when hook is cleared
+- [[Positions/X-Guard/Single Leg X-Guard]] - Common counter - guard retention option opponents use when hook is cleared
 
-- [[Side Control]] - Ending position - primary destination after successful pass completion
+- [[Positions/Side Control]] - Ending position - primary destination after successful pass completion
 
-- [[Back Control]] - Counter outcome - position opponent achieves if back take succeeds during pass
+- [[Positions/Back Control]] - Counter outcome - position opponent achieves if back take succeeds during pass
 
-- [[Grip Fighting]] - Prerequisite concept - essential for establishing passing grips
+- [[Principles/Grip Fighting]] - Prerequisite concept - essential for establishing passing grips
 
-- [[Back Step]] - Complementary technique - used to counter inversions and berimbolo attempts during pass
+- [[Transitions/Back Step]] - Complementary technique - used to counter inversions and berimbolo attempts during pass
 
 
 </section>

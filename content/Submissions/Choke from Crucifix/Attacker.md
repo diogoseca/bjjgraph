@@ -176,7 +176,7 @@ description: "How to execute Choke from Crucifix in BJJ. Attacking perspective w
 
 The Choke from Crucifix is a devastating finishing technique that capitalizes on one of the most dominant control positions in Brazilian Jiu-Jitsu. The crucifix position provides exceptional arm control, with both of the opponent's arms trapped and neutralized, leaving their neck completely exposed and defenseless. This submission represents the culmination of superior positional control, where the attacker has achieved near-total dominance over their opponent's ability to defend. The choke can be executed with multiple grips including rear naked choke mechanics, short chokes, or even gi-based attacks when wearing the kimono. What makes this submission particularly effective is the opponent's complete inability to defend their neck with their hands, as both arms are controlled by the attacker's legs and body positioning. The psychological pressure of the crucifix position often causes opponents to panic, making the finish easier to secure. This technique is commonly seen in high-level competition and represents excellent understanding of positional hierarchy in grappling.
 
-**From Position**: [[Crucifix]] (Top)
+**From Position**: [[Positions/Crucifix]] (Top)
 
 
 </section>
@@ -232,8 +232,8 @@ The Choke from Crucifix is a devastating finishing technique that capitalizes on
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Crucifix]] | 25% |
-| Counter | [[Back Control]] | 15% |
+| Failure | [[Positions/Crucifix]] | 25% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ The Choke from Crucifix is a devastating finishing technique that capitalizes on
 
 ## Opponent Defenses
 
-- **Tucking chin aggressively to protect neck** (Effectiveness: Low) - Your Response: With both arms trapped, they cannot maintain chin tuck under pressure. Flatten them more to expose the neck, or switch to jaw pressure temporarily to force chin up, then readjust to proper choke position. Patience defeats this defense. → Leads to [[Crucifix]]
-- **Attempting to roll forward through the crucifix** (Effectiveness: Medium) - Your Response: Widen your base, drop your hips to the mat, and use your legs to prevent the roll. If they commit hard to the roll, you can sometimes follow through and end up in mounted crucifix with even better control. Keep your chest heavy and your legs tight throughout. → Leads to [[Back Control]]
-- **Bridging explosively to create space** (Effectiveness: Low) - Your Response: Their bridge actually helps expose their neck further. Ride the bridge by staying heavy on their chest, then as they collapse back down, their neck is even more exposed. Use their own energy against them by timing your choke insertion for the moment after the bridge fails. → Leads to [[Crucifix]]
-- **Trying to free one arm to defend the choke** (Effectiveness: High) - Your Response: This is the most dangerous defense. Immediately reinforce your leg control on whichever arm they're attempting to free. If necessary, abandon the choke temporarily to re-secure the arm trap. The submission only works if positional control remains intact. Never sacrifice position for submission. → Leads to [[Back Control]]
+- **Tucking chin aggressively to protect neck** (Effectiveness: Low) - Your Response: With both arms trapped, they cannot maintain chin tuck under pressure. Flatten them more to expose the neck, or switch to jaw pressure temporarily to force chin up, then readjust to proper choke position. Patience defeats this defense. → Leads to [[Positions/Crucifix]]
+- **Attempting to roll forward through the crucifix** (Effectiveness: Medium) - Your Response: Widen your base, drop your hips to the mat, and use your legs to prevent the roll. If they commit hard to the roll, you can sometimes follow through and end up in mounted crucifix with even better control. Keep your chest heavy and your legs tight throughout. → Leads to [[Positions/Back Control]]
+- **Bridging explosively to create space** (Effectiveness: Low) - Your Response: Their bridge actually helps expose their neck further. Ride the bridge by staying heavy on their chest, then as they collapse back down, their neck is even more exposed. Use their own energy against them by timing your choke insertion for the moment after the bridge fails. → Leads to [[Positions/Crucifix]]
+- **Trying to free one arm to defend the choke** (Effectiveness: High) - Your Response: This is the most dangerous defense. Immediately reinforce your leg control on whichever arm they're attempting to free. If necessary, abandon the choke temporarily to re-secure the arm trap. The submission only works if positional control remains intact. Never sacrifice position for submission. → Leads to [[Positions/Back Control]]
 
 
 </section>

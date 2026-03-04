@@ -174,7 +174,7 @@ description: "How to execute Two-on-One to Back Take in BJJ. Attacking perspecti
 
 The Two-on-One to Back Take is a fundamental wrestling-based transition that exploits control of a single arm to access the opponent's back from standing positions. This technique leverages the asymmetrical control created when both hands control one of the opponent's arms, creating a mechanical disadvantage that prevents effective defense while opening pathways to superior positioning. The two-on-one grip, also known as a Russian tie in wrestling, is one of the most dominant control positions in standing grappling because it simultaneously neutralizes one of the opponent's primary defensive tools while creating clear paths to the back. The transition capitalizes on the opponent's inability to effectively defend their back when one arm is compromised and their body rotation is controlled. This technique represents a bridge between wrestling and Brazilian Jiu-Jitsu methodologies, combining upper body control with positional advancement principles. The back take can be executed through multiple pathways depending on opponent reactions, including stepping behind, duck-under variations, or arm drag mechanics, making it a versatile addition to any standing game.
 
-**From Position**: [[Clinch]] (Top)
+**From Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The Two-on-One to Back Take is a fundamental wrestling-based transition that exp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Clinch]] | 30% |
-| Counter | [[Clinch]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Clinch]] | 30% |
+| Counter | [[Positions/Clinch]] | 15% |
 
 
 </section>
@@ -238,11 +238,11 @@ The Two-on-One to Back Take is a fundamental wrestling-based transition that exp
 
 ## Opponent Counters
 
-- **Opponent pulls their controlled arm back forcefully to strip the grip** (Effectiveness: Medium) - Your Response: Follow their arm pull by stepping forward aggressively and transitioning to a front headlock position or arm drag, using their pulling energy to advance position rather than fighting the retraction → Leads to [[Clinch]]
-- **Opponent turns into you while you attempt to access the back** (Effectiveness: High) - Your Response: Accept the turn and redirect to a body lock, collar tie, or clinch position, or chain to opposite-side back take attempt by switching your angle and repeating the sequence from the new position → Leads to [[Clinch]]
-- **Opponent sprawls and drives their hips back to prevent back access** (Effectiveness: Medium) - Your Response: Follow their upper body collapse by maintaining grip and snapping downward, transitioning to front headlock position or using their forward weight commitment to redirect to a duck-under on the opposite side → Leads to [[Clinch]]
-- **Opponent grabs your head or neck to prevent the duck-under pathway** (Effectiveness: Low) - Your Response: This commits their free hand defensively, making the step-behind variation easier since they cannot use that hand for posting, framing, or hip blocking during your circling movement → Leads to [[Clinch]]
-- **Opponent drops level and shoots a single or double leg takedown to counter-attack** (Effectiveness: High) - Your Response: Use the two-on-one grip to sprawl and redirect their head to the mat while circling to front headlock position, or release and re-pummel to defensive underhook to stuff the shot → Leads to [[Clinch]]
+- **Opponent pulls their controlled arm back forcefully to strip the grip** (Effectiveness: Medium) - Your Response: Follow their arm pull by stepping forward aggressively and transitioning to a front headlock position or arm drag, using their pulling energy to advance position rather than fighting the retraction → Leads to [[Positions/Clinch]]
+- **Opponent turns into you while you attempt to access the back** (Effectiveness: High) - Your Response: Accept the turn and redirect to a body lock, collar tie, or clinch position, or chain to opposite-side back take attempt by switching your angle and repeating the sequence from the new position → Leads to [[Positions/Clinch]]
+- **Opponent sprawls and drives their hips back to prevent back access** (Effectiveness: Medium) - Your Response: Follow their upper body collapse by maintaining grip and snapping downward, transitioning to front headlock position or using their forward weight commitment to redirect to a duck-under on the opposite side → Leads to [[Positions/Clinch]]
+- **Opponent grabs your head or neck to prevent the duck-under pathway** (Effectiveness: Low) - Your Response: This commits their free hand defensively, making the step-behind variation easier since they cannot use that hand for posting, framing, or hip blocking during your circling movement → Leads to [[Positions/Clinch]]
+- **Opponent drops level and shoots a single or double leg takedown to counter-attack** (Effectiveness: High) - Your Response: Use the two-on-one grip to sprawl and redirect their head to the mat while circling to front headlock position, or release and re-pummel to defensive underhook to stuff the shot → Leads to [[Positions/Clinch]]
 
 
 </section>

@@ -156,7 +156,7 @@ Defending the Bolo Sweep requires the top player to recognize inversion setups e
 
 Effective Bolo defense transforms the attacker's commitment into your passing opportunity. When a Bolo attempt fails mid-rotation, the attacker is temporarily inverted with compromised guard structure, creating windows for smash passing, leg drag, or direct guard pass. The most successful defenders develop automatic responses to the feel of inversion initiation and chain their defensive reactions directly into passing sequences rather than simply resetting to neutral De La Riva engagement.
 
-**Opponent's Starting Position**: [[De La Riva Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ Effective Bolo defense transforms the attacker's commitment into your passing op
 ### 1. Sit your hips back and lower your base to deny forward weight commitment while stripping the collar or sleeve grip
 
 - **When to use**: Early recognition phase when you feel the combined hook-and-grip pull beginning to load your weight forward before the inversion starts
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: The attacker cannot initiate the inversion without your weight forward and returns to standard De La Riva guard. You can immediately begin your passing sequence from a neutral DLR engagement with improved grip position
 - **Risk**: Sitting too far back with weight on your heels can expose you to X-Guard or Single Leg X-Guard transitions if the attacker reads your rearward weight shift
 
 ### 2. Backstep over the De La Riva hook to remove it entirely and square your hips to face the opponent
 
 - **When to use**: When the DLR hook is deep and the attacker is loading up for inversion but has not yet begun rotating their shoulders under your leg
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Removes the DLR hook completely and puts you in a strong passing position such as headquarters or leg drag angle. The Bolo threat is entirely neutralized and you have immediate passing opportunities
 - **Risk**: A poorly timed backstep during an already-initiated rotation can expose your back if the attacker accelerates their inversion to catch you mid-transition
 
 ### 3. Drive forward with smash pressure to flatten the attacker's hips to the mat and collapse the inversion space while counter-rotating to follow their spin direction
 
 - **When to use**: When the attacker has already begun their inversion and you cannot retreat or strip grips in time to prevent the rotation
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Smashing pressure pins the attacker's shoulders to the mat with their hips flattened, creating an immediate guard passing opportunity from a dominant angle. Counter-rotation prevents back exposure during the pressure application
 - **Risk**: Driving forward into a well-timed Bolo can actually feed the attacker the weight they need if you mistakenly drive straight down rather than combining forward pressure with hip rotation to follow their spin
 
 ### 4. Step over the inverting body with your free leg to establish top position and begin passing from above the compromised guard
 
 - **When to use**: When the attacker is mid-rotation and committed to the inversion but your hooked leg is still relatively free
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: You establish top position above the partially inverted attacker whose guard structure is compromised. Immediate leg drag or toreando passing opportunities become available as they must recover from the failed inversion
 - **Risk**: The attacker may hook your stepping leg and convert to X-Guard or Single Leg X-Guard if you step without proper weight distribution
 
@@ -226,11 +226,11 @@ Effective Bolo defense transforms the attacker's commitment into your passing op
 
 ## Best-Case Outcomes for Defender
 
-### → [[De La Riva Guard]]
+### → [[Positions/De La Riva Guard]]
 
 Deny the inversion before it begins by sitting your hips back to prevent forward weight loading and stripping the collar or sleeve grip that powers the pulling force. This resets the attacker to standard De La Riva guard without the angular displacement needed for the Bolo, allowing you to resume your passing strategy from a neutral guard engagement.
 
-### → [[De La Riva Guard]]
+### → [[Positions/De La Riva Guard]]
 
 When the attacker commits to the inversion, drive forward with smash pressure while counter-rotating to follow their spin direction, flattening their rotation and pinning their shoulders. Alternatively, backstep to remove the DLR hook entirely, or step over the inverting body to establish dominant top position. All three approaches convert the attacker's failed Bolo into an immediate passing opportunity where their guard structure is compromised from the aborted or defended inversion.
 

@@ -186,7 +186,7 @@ What makes the Ezekiel from Mount particularly effective is its ability to circu
 
 Historically attributed to judoka Ezequiel Paraguassu who successfully used it in BJJ competition, this choke has become a staple of top game attacks. It works equally well from high mount, low mount, and even modified mount positions, making it an essential tool for maintaining offensive pressure while in dominant positions. The submission can be set up as a primary attack or used as part of a chain when opponents defend other mount submissions.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 
 
 </section>
@@ -243,8 +243,8 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -253,10 +253,10 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 ## Opponent Defenses
 
-- **Framing against the choking arm to prevent insertion** (Effectiveness: High) - Your Response: Use your free hand to clear their defensive frames by controlling their wrists or elbows. Alternatively, fake the Ezekiel entry to bait the frame, then attack with armbar or americana when their arms extend. Can also switch to opposite-side Ezekiel to circumvent the frame. → Leads to [[Mount]]
-- **Turning the head away from the choking arm** (Effectiveness: Medium) - Your Response: Use your chest and shoulder to control their head position, preventing rotation. Drive your weight forward to pin their head in place. If they successfully turn, adjust your angle and pursue the choke from the new orientation, or transition to a mounted triangle or back take. → Leads to [[Mount]]
-- **Bridging explosively to create space or escape mount** (Effectiveness: Medium) - Your Response: Keep your weight distributed forward with head over their head to minimize bridge effectiveness. Widen your base momentarily to absorb the bridge, then immediately return to tight mount. Post your free hand if necessary for balance while maintaining the sleeve grip for the choke. → Leads to [[Half Guard]]
-- **Grabbing and controlling the choking arm with both hands** (Effectiveness: Low) - Your Response: When they commit both hands to defending the Ezekiel, their body becomes vulnerable to other attacks. Transition immediately to armbar by isolating one of their defending arms, or switch to an americana on the extended arm. This is often a trap that high-level players set intentionally. → Leads to [[Mount]]
+- **Framing against the choking arm to prevent insertion** (Effectiveness: High) - Your Response: Use your free hand to clear their defensive frames by controlling their wrists or elbows. Alternatively, fake the Ezekiel entry to bait the frame, then attack with armbar or americana when their arms extend. Can also switch to opposite-side Ezekiel to circumvent the frame. → Leads to [[Positions/Mount]]
+- **Turning the head away from the choking arm** (Effectiveness: Medium) - Your Response: Use your chest and shoulder to control their head position, preventing rotation. Drive your weight forward to pin their head in place. If they successfully turn, adjust your angle and pursue the choke from the new orientation, or transition to a mounted triangle or back take. → Leads to [[Positions/Mount]]
+- **Bridging explosively to create space or escape mount** (Effectiveness: Medium) - Your Response: Keep your weight distributed forward with head over their head to minimize bridge effectiveness. Widen your base momentarily to absorb the bridge, then immediately return to tight mount. Post your free hand if necessary for balance while maintaining the sleeve grip for the choke. → Leads to [[Positions/Half Guard]]
+- **Grabbing and controlling the choking arm with both hands** (Effectiveness: Low) - Your Response: When they commit both hands to defending the Ezekiel, their body becomes vulnerable to other attacks. Transition immediately to armbar by isolating one of their defending arms, or switch to an americana on the extended arm. This is often a trap that high-level players set intentionally. → Leads to [[Positions/Mount]]
 - **Tucking the chin deeply to protect the neck** (Effectiveness: Low) - Your Response: The Ezekiel works through a tucked chin due to the bilateral pressure and the use of your own gi as leverage. Continue applying the choke with proper technique - the chin tuck may slow but won't prevent the submission. Adjust your blade angle slightly upward to get under the chin if needed. → Leads to [[game-over]]
 
 

@@ -89,23 +89,23 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 ### Available Transitions
 
 
-- **[[Hip Escape to Guard]]** (22% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (22% of attempts)
 
-- **[[Elbow Escape to Guard]]** (15% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (15% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (13% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (13% of attempts)
 
-- **[[Bridge and Roll]]** (9% of attempts)
+- **[[Transitions/Bridge and Roll]]** (9% of attempts)
 
-- **[[Upa Escape]]** (9% of attempts)
+- **[[Transitions/Upa Escape]]** (9% of attempts)
 
-- **[[Deep Half Entry]]** (9% of attempts)
+- **[[Transitions/Deep Half Entry]]** (9% of attempts)
 
-- **[[Lockdown Recovery]]** (9% of attempts)
+- **[[Transitions/Lockdown Recovery]]** (9% of attempts)
 
-- **[[Arm Extraction to Turtle]]** (9% of attempts)
+- **[[Transitions/Arm Extraction to Turtle]]** (9% of attempts)
 
-- **[[Bridge Escape from Modified Mount]]** (5% of attempts)
+- **[[Transitions/Bridge Escape from Modified Mount]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -166,25 +166,25 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 ### Available Transitions
 
 
-- **[[Mount to Armbar]]** (19% of attempts)
+- **[[Transitions/Mount to Armbar]]** (19% of attempts)
 
-- **[[S-Mount Transition]]** (11% of attempts)
+- **[[Transitions/S-Mount Transition]]** (11% of attempts)
 
-- **[[Mounted Triangle]]** (9% of attempts)
+- **[[Positions/Mount/Mounted Triangle]]** (9% of attempts)
 
-- **[[High Mount Transition]]** (12% of attempts)
+- **[[Transitions/High Mount Transition]]** (12% of attempts)
 
-- **[[Americana]]** (9% of attempts)
+- **[[Transitions/Americana]]** (9% of attempts)
 
-- **[[Cross Collar Choke]]** (9% of attempts)
+- **[[Transitions/Cross Collar Choke]]** (9% of attempts)
 
-- **[[Kimura]]** (7% of attempts)
+- **[[Transitions/Kimura]]** (7% of attempts)
 
-- **[[Gift Wrap Transition]]** (11% of attempts)
+- **[[Transitions/Gift Wrap Transition]]** (11% of attempts)
 
-- **[[Back Take from Top]]** (9% of attempts)
+- **[[Transitions/Back Take from Top]]** (9% of attempts)
 
-- **[[Americana from Modified Mount]]** (4% of attempts)
+- **[[Transitions/Americana from Modified Mount]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -223,21 +223,21 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 ## Related Positions
 
 
-- **[[Mount]]** - Parent position from which Modified Mount is established
+- **[[Positions/Mount]]** - Parent position from which Modified Mount is established
 
-- **[[S Mount]]** - Similar asymmetric structure but with more extreme positioning for armbar focus
+- **[[Positions/Mount/S Mount]]** - Similar asymmetric structure but with more extreme positioning for armbar focus
 
-- **[[Technical Mount]]** - Alternative asymmetric mount variation with hook insertion toward back control
+- **[[Positions/Mount/Technical Mount]]** - Alternative asymmetric mount variation with hook insertion toward back control
 
-- **[[High Mount]]** - Transition target when opponent creates frames from Modified Mount
+- **[[Positions/Mount/High Mount]]** - Transition target when opponent creates frames from Modified Mount
 
-- **[[Side Control]]** - Fallback position if Modified Mount control is compromised
+- **[[Positions/Side Control]]** - Fallback position if Modified Mount control is compromised
 
-- **[[Half Guard]]** - Common escape target for bottom practitioner attacking posted leg
+- **[[Positions/Half Guard]]** - Common escape target for bottom practitioner attacking posted leg
 
-- **[[Armbar Control]]** - Primary submission target from Modified Mount structure
+- **[[Positions/Armbar Control]]** - Primary submission target from Modified Mount structure
 
-- **[[Mounted Triangle]]** - Alternative finishing position accessible from Modified Mount
+- **[[Positions/Mount/Mounted Triangle]]** - Alternative finishing position accessible from Modified Mount
 
 
 </section>

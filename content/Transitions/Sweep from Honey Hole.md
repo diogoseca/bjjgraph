@@ -21,7 +21,7 @@ The fundamental strategic logic is that the Honey Hole connection is bidirection
 
 This sweep occupies a critical niche in the defensive leg lock hierarchy. While counter-entanglement to 50-50 guard is typically the primary escape strategy from Honey Hole bottom, the sweep offers an alternative path when counter-entanglement routes are blocked or when the opponent's upper body positioning creates a favorable angle for reversal. At approximately 30% overall success rate, it remains a low-percentage but high-reward option that experienced practitioners maintain in their defensive arsenal, deploying it when they recognize specific windows of vulnerability in their opponent's weight distribution and base.
 
-**From Position**: [[Honey Hole]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Honey Hole]] (Bottom)
 **Success Rate**: 30%
 
 </section>
@@ -32,9 +32,9 @@ This sweep occupies a critical niche in the defensive leg lock hierarchy. While 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 30% |
-| Failure | [[Honey Hole]] | 45% |
-| Counter | [[Honey Hole]] | 25% |
+| Success | [[Positions/Side Control]] | 30% |
+| Failure | [[Positions/Ashi Garami/Honey Hole]] | 45% |
+| Counter | [[Positions/Ashi Garami/Honey Hole]] | 25% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Sweep from Honey Hole sits within the defensive leg lock hierarchy as an alt
 ## Related Techniques
 
 
-- [[Honey Hole]] - Source position where sweep is initiated from bottom
+- [[Positions/Ashi Garami/Honey Hole]] - Source position where sweep is initiated from bottom
 
-- [[Side Control]] - Target position achieved upon successful sweep completion
+- [[Positions/Side Control]] - Target position achieved upon successful sweep completion
 
-- [[Inside Heel Hook from Honey Hole]] - Primary submission threat this sweep preempts by reversing before heel hook finish
+- [[Transitions/Inside Heel Hook from Honey Hole]] - Primary submission threat this sweep preempts by reversing before heel hook finish
 
-- [[Ashi Garami]] - Parent positional family encompassing all leg entanglement variations
+- [[Positions/Ashi Garami]] - Parent positional family encompassing all leg entanglement variations
 
-- [[50-50 Guard]] - Alternative escape destination via counter-entanglement when sweep is unavailable
+- [[Positions/Ashi Garami/50-50 Guard]] - Alternative escape destination via counter-entanglement when sweep is unavailable
 
-- [[Saddle]] - Closely related control position with similar entanglement mechanics
+- [[Positions/Ashi Garami/Saddle]] - Closely related control position with similar entanglement mechanics
 
-- [[Sweep from Cross Ashi-Garami]] - Analogous sweep technique from different leg entanglement configuration
+- [[Transitions/Sweep from Cross Ashi-Garami]] - Analogous sweep technique from different leg entanglement configuration
 
-- [[Inversion Escape from Leg Entanglement]] - Alternative escape method sharing inversion mechanics with sweep variant
+- [[Transitions/Inversion Escape from Leg Entanglement]] - Alternative escape method sharing inversion mechanics with sweep variant
 
-- [[Leg Entanglement]] - Conceptual framework governing all leg lock positions and transitions
+- [[Positions/Leg Entanglement]] - Conceptual framework governing all leg lock positions and transitions
 
-- [[Heel Hook from Saddle]] - Related submission threat from adjacent entanglement position
+- [[Transitions/Heel Hook from Saddle]] - Related submission threat from adjacent entanglement position
 
 
 </section>

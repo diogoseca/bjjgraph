@@ -180,7 +180,7 @@ description: "How to execute the Heel Grab Sweep from Single Leg X Guard. Attack
 
 The Heel Grab Sweep is executed from Single Leg X Guard by controlling the opponent's heel with both hands and using a coordinated leg extension combined with a heel pull to topple them backward. The technique exploits the fundamental vulnerability of standing on one leg while that leg is controlled at two points: the knee line by your X-hook and the heel by your hands. The sweeper creates a lever system where the legs drive the opponent's trapped leg upward and outward while the hands rotate and pull the heel backward, generating opposing forces that no single-base adjustment can neutralize. Success depends on timing the explosive coordinated motion for when the opponent's weight is forward or transitioning, creating a diagonal sweeping angle rather than sweeping straight backward, and immediately following through to top position. This sweep serves as the primary attacking threat from Single Leg X, with countered attempts flowing naturally into leg entanglements and alternative sweeps.
 
-**From Position**: [[Single Leg X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 
 </section>
 
@@ -235,9 +235,9 @@ The Heel Grab Sweep is executed from Single Leg X Guard by controlling the oppon
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 68% |
-| Failure | [[Single Leg X-Guard]] | 20% |
-| Counter | [[Single Leg X-Guard]] | 12% |
+| Success | [[Positions/Side Control]] | 68% |
+| Failure | [[Positions/X-Guard/Single Leg X-Guard]] | 20% |
+| Counter | [[Positions/X-Guard/Single Leg X-Guard]] | 12% |
 
 
 </section>
@@ -246,11 +246,11 @@ The Heel Grab Sweep is executed from Single Leg X Guard by controlling the oppon
 
 ## Opponent Counters
 
-- **Opponent steps their free leg back into a wide base, creating stability against the backward sweep** (Effectiveness: Medium) - Your Response: Switch to a Tripod Sweep by releasing the heel and attacking their standing leg, or redirect the sweep diagonally toward their widened base side where they are now overcommitted → Leads to [[Single Leg X-Guard]]
-- **Opponent sits to the mat quickly, nullifying the sweeping mechanics entirely** (Effectiveness: High) - Your Response: Immediately transition to Ashi Garami or Outside Ashi-Garami, maintaining control of their trapped leg and attacking with heel hooks or alternative sweeps from the seated entanglement → Leads to [[Single Leg X-Guard]]
-- **Opponent grabs your belt or gi pants to anchor themselves and prevent backward displacement** (Effectiveness: Medium) - Your Response: Use their grip commitment as an opening for alternative sweeps like the Sickle Sweep, or attack their now-exposed arm with a Kimura grip entry from your guard position → Leads to [[Single Leg X-Guard]]
-- **Opponent circles their trapped leg and extracts it from your X-hook before you can execute** (Effectiveness: Low) - Your Response: Follow their leg movement and immediately transition to De La Riva Guard or Reverse De La Riva Guard, maintaining leg contact and attacking with sweeps from the new guard configuration → Leads to [[Single Leg X-Guard]]
-- **Opponent posts their hand on the mat behind them to prevent falling backward from the sweep** (Effectiveness: Medium) - Your Response: Redirect the sweep toward the direction of their posted hand, using their post as a pivot point, or attack the posted arm with a Kimura grip since their hand is planted and vulnerable → Leads to [[Single Leg X-Guard]]
+- **Opponent steps their free leg back into a wide base, creating stability against the backward sweep** (Effectiveness: Medium) - Your Response: Switch to a Tripod Sweep by releasing the heel and attacking their standing leg, or redirect the sweep diagonally toward their widened base side where they are now overcommitted → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Opponent sits to the mat quickly, nullifying the sweeping mechanics entirely** (Effectiveness: High) - Your Response: Immediately transition to Ashi Garami or Outside Ashi-Garami, maintaining control of their trapped leg and attacking with heel hooks or alternative sweeps from the seated entanglement → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Opponent grabs your belt or gi pants to anchor themselves and prevent backward displacement** (Effectiveness: Medium) - Your Response: Use their grip commitment as an opening for alternative sweeps like the Sickle Sweep, or attack their now-exposed arm with a Kimura grip entry from your guard position → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Opponent circles their trapped leg and extracts it from your X-hook before you can execute** (Effectiveness: Low) - Your Response: Follow their leg movement and immediately transition to De La Riva Guard or Reverse De La Riva Guard, maintaining leg contact and attacking with sweeps from the new guard configuration → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Opponent posts their hand on the mat behind them to prevent falling backward from the sweep** (Effectiveness: Medium) - Your Response: Redirect the sweep toward the direction of their posted hand, using their post as a pivot point, or attack the posted arm with a Kimura grip since their hand is planted and vulnerable → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
 
 
 </section>

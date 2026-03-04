@@ -156,7 +156,7 @@ Defending the hip bump sweep from closed guard top requires understanding both t
 
 The critical defensive principle is that prevention is far more effective than reaction. Maintaining strong upright posture with your head over your hips denies the fundamental setup condition for the hip bump. When you feel your posture being pulled forward, immediate recovery through hip extension and chest elevation eliminates the sweep threat before it develops. However, if the sweep is already initiated, your defensive options shift to posting, sprawling, or driving your weight backward to counter the angular force. Each defensive response carries its own risk profile, as experienced guard players use your defensive reactions to transition into submission attacks, creating the classic sweep-to-submission dilemma that makes the hip bump such an effective hub technique in closed guard offense.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ The critical defensive principle is that prevention is far more effective than r
 ### 1. Post your free hand wide on the mat at a 45-degree angle behind you on the sweep side
 
 - **When to use**: When you feel the hip bump initiate and your arm is controlled on one side but your other hand is free
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Sweep is stopped and you maintain top position inside closed guard, ready to recover posture and resume passing
 - **Risk**: Posted arm is exposed to kimura attack if opponent transitions from sweep to submission, and you temporarily sacrifice posture
 
 ### 2. Drive hips backward and down while extending arms to re-establish posture and distance
 
 - **When to use**: Early in the sweep attempt before significant momentum builds, when you feel posture being broken and forward weight shift
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover strong posture and deny the sweep setup entirely, returning to neutral guard top position
 - **Risk**: If opponent has deep grips, they may follow your backward movement with a pendulum sweep or use your arm extension for armbar setup
 
 ### 3. Sprawl hips back and circle toward the non-sweep side to break the angle
 
 - **When to use**: When the sweep is mid-execution and posting alone may not be sufficient to stop the angular momentum
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You not only stop the sweep but potentially end up in a dominant passing position as their guard opens during the failed sweep attempt
 - **Risk**: Circling away may open space for opponent to re-close guard or transition to open guard attacks if you lose hip connection
 
 ### 4. Strip the wrist grip using a two-on-one break before the sweep develops
 
 - **When to use**: Proactively when you feel opponent establishing the wrist control that precedes the sweep, before they begin sitting up
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Denies the arm control prerequisite making the sweep mechanically impossible, and allows you to re-establish posture safely
 - **Risk**: Two-on-one grip break temporarily compromises your posture and may open triangle or armbar angles if opponent switches attacks
 
@@ -228,11 +228,11 @@ The critical defensive principle is that prevention is far more effective than r
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Maintain strong posture throughout the exchange by driving hips back and keeping head over hips. Fight grips proactively to deny arm control. When sweep is attempted, post wide to stop momentum and immediately return to posture recovery and guard passing sequence.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time a sprawl and hip circle precisely as opponent commits to the sweep, using their open guard and forward commitment to pass their legs and establish top position. This requires recognizing the sweep early and having enough base to redirect momentum laterally rather than absorbing it.
 

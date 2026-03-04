@@ -180,7 +180,7 @@ description: "Learn to escape twister side control using systematic framing tech
 
 The attacker in this context is the bottom player initiating the frame escape from twister side control. This is a defensive technique executed offensively, where the trapped practitioner systematically builds structural frames to create separation, dismantle the top player's control, and recover to half guard. The escape demands precise sequencing, beginning with spinal protection, progressing through frame establishment and leg extraction, and concluding with half guard recovery and retention grip establishment. Rushing any phase creates vulnerabilities that the top player will exploit through submission attempts or positional advancement. Success requires patience, structural understanding, and the ability to read the opponent's weight distribution to identify optimal timing windows for each phase of the escape.
 
-**From Position**: [[Twister Side Control]] (Bottom)
+**From Position**: [[Positions/Twister Control/Twister Side Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The attacker in this context is the bottom player initiating the frame escape fr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Twister Side Control]] | 35% |
-| Counter | [[Truck]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Twister Control/Twister Side Control]] | 35% |
+| Counter | [[Positions/Twister Control/Truck]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ The attacker in this context is the bottom player initiating the frame escape fr
 
 ## Opponent Counters
 
-- **Top player drives heavy shoulder pressure to collapse frames before they become structurally established** (Effectiveness: High) - Your Response: Switch to a tighter elbow-knee connection frame that sacrifices separation distance for structural resilience, or use the opponent's weight commitment to hip escape in the opposite direction → Leads to [[Twister Side Control]]
-- **Top player re-entangles legs into truck position when extraction creates space at the lower body** (Effectiveness: High) - Your Response: Immediately halt leg extraction and re-focus on upper body frames. Do not continue extraction until frames are re-secured. Consider abandoning extraction temporarily and resetting the escape sequence → Leads to [[Truck]]
-- **Top player attacks extended framing arm with kimura grip or wristlock when elbow straightens** (Effectiveness: Medium) - Your Response: Withdraw the endangered arm immediately by pulling the elbow tight to your body and tucking the hand against your chest. Re-establish a frame from the opposite side or use a shorter frame that does not expose the arm → Leads to [[Twister Side Control]]
-- **Top player transitions through truck to back take when separation creates space but legs remain partially entangled** (Effectiveness: Medium) - Your Response: Maintain facing toward the opponent during all frame movements and never allow back exposure. If you feel back exposure developing, halt the escape and re-orient your hips before continuing → Leads to [[Truck]]
+- **Top player drives heavy shoulder pressure to collapse frames before they become structurally established** (Effectiveness: High) - Your Response: Switch to a tighter elbow-knee connection frame that sacrifices separation distance for structural resilience, or use the opponent's weight commitment to hip escape in the opposite direction → Leads to [[Positions/Twister Control/Twister Side Control]]
+- **Top player re-entangles legs into truck position when extraction creates space at the lower body** (Effectiveness: High) - Your Response: Immediately halt leg extraction and re-focus on upper body frames. Do not continue extraction until frames are re-secured. Consider abandoning extraction temporarily and resetting the escape sequence → Leads to [[Positions/Twister Control/Truck]]
+- **Top player attacks extended framing arm with kimura grip or wristlock when elbow straightens** (Effectiveness: Medium) - Your Response: Withdraw the endangered arm immediately by pulling the elbow tight to your body and tucking the hand against your chest. Re-establish a frame from the opposite side or use a shorter frame that does not expose the arm → Leads to [[Positions/Twister Control/Twister Side Control]]
+- **Top player transitions through truck to back take when separation creates space but legs remain partially entangled** (Effectiveness: Medium) - Your Response: Maintain facing toward the opponent during all frame movements and never allow back exposure. If you feel back exposure developing, halt the escape and re-orient your hips before continuing → Leads to [[Positions/Twister Control/Truck]]
 
 
 </section>

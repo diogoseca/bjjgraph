@@ -184,7 +184,7 @@ Strategically, the Gift Wrap Transition serves as a gateway to multiple high-per
 
 The transition rewards patience and methodical execution. Rushing the arm isolation typically results in the opponent recovering their defensive posture, while careful setup and precise mechanics create an inescapable trap. Advanced practitioners use feints toward other submissions to bait defensive arm movements that facilitate the Gift Wrap entry, turning the opponent's defensive reactions into the mechanism of their own entrapment.
 
-**From Position**: [[High Mount]] (Top)
+**From Position**: [[Positions/Mount/High Mount]] (Top)
 
 </section>
 
@@ -238,9 +238,9 @@ The transition rewards patience and methodical execution. Rushing the arm isolat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Gift Wrap]] | 65% |
-| Failure | [[High Mount]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Gift Wrap]] | 65% |
+| Failure | [[Positions/Mount/High Mount]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -249,10 +249,10 @@ The transition rewards patience and methodical execution. Rushing the arm isolat
 
 ## Opponent Counters
 
-- **Opponent retracts arm before wrap is established by pulling elbow tight to ribs** (Effectiveness: High) - Your Response: Feint toward collar choke or Ezekiel to force them to extend arm defensively, then immediately attack the Gift Wrap entry on their defending arm → Leads to [[High Mount]]
-- **Opponent bridges explosively during transition to disrupt your base** (Effectiveness: Medium) - Your Response: Post with free hand toward their head, drive hips down to absorb bridge, and use their settling movement to complete the arm threading before they can bridge again → Leads to [[Half Guard]]
-- **Opponent rotates shoulder forward to slip out of the wrap** (Effectiveness: Medium) - Your Response: Keep pulling pressure constant on the trapped wrist while driving your chest forward - their rotation should actually help bring the arm across their body → Leads to [[High Mount]]
-- **Opponent uses free hand to grip-fight and prevent threading completion** (Effectiveness: Low) - Your Response: The free hand interference exposes their neck - threaten collar choke or Ezekiel forcing them to use both hands for defense, then re-attack Gift Wrap → Leads to [[High Mount]]
+- **Opponent retracts arm before wrap is established by pulling elbow tight to ribs** (Effectiveness: High) - Your Response: Feint toward collar choke or Ezekiel to force them to extend arm defensively, then immediately attack the Gift Wrap entry on their defending arm → Leads to [[Positions/Mount/High Mount]]
+- **Opponent bridges explosively during transition to disrupt your base** (Effectiveness: Medium) - Your Response: Post with free hand toward their head, drive hips down to absorb bridge, and use their settling movement to complete the arm threading before they can bridge again → Leads to [[Positions/Half Guard]]
+- **Opponent rotates shoulder forward to slip out of the wrap** (Effectiveness: Medium) - Your Response: Keep pulling pressure constant on the trapped wrist while driving your chest forward - their rotation should actually help bring the arm across their body → Leads to [[Positions/Mount/High Mount]]
+- **Opponent uses free hand to grip-fight and prevent threading completion** (Effectiveness: Low) - Your Response: The free hand interference exposes their neck - threaten collar choke or Ezekiel forcing them to use both hands for defense, then re-attack Gift Wrap → Leads to [[Positions/Mount/High Mount]]
 
 
 </section>

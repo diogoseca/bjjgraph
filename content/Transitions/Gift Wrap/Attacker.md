@@ -184,7 +184,7 @@ Strategically, the Gift Wrap serves as a critical transitional hub within the mo
 
 The key to successful Gift Wrap entries lies in understanding opponent reactions. When you threaten submissions from mount—armbars, collar chokes, or Ezekiels—the opponent naturally extends or repositions their arms defensively. These defensive movements create the arm isolation opportunities that facilitate the Gift Wrap entry. Patient practitioners who set up the wrap through positional pressure and submission threats achieve significantly higher success rates than those who attempt to force the arm across.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -236,9 +236,9 @@ The key to successful Gift Wrap entries lies in understanding opponent reactions
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Gift Wrap]] | 65% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Gift Wrap]] | 65% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -247,11 +247,11 @@ The key to successful Gift Wrap entries lies in understanding opponent reactions
 
 ## Opponent Counters
 
-- **Opponent retracts arm before wrap is established by pulling elbow tight to ribs and keeping arm close to centerline** (Effectiveness: High) - Your Response: Feint toward collar choke or Ezekiel to force defensive arm extension, then immediately attack the Gift Wrap entry on their extended defending arm → Leads to [[Mount]]
-- **Opponent bridges explosively during the arm threading to disrupt your base and create space** (Effectiveness: Medium) - Your Response: Post with free hand toward their head, drive hips down to absorb bridge, and use their settling movement to complete threading before they can bridge again → Leads to [[Mount]]
-- **Opponent rotates shoulder forward aggressively to slip out of the developing wrap before it locks** (Effectiveness: Medium) - Your Response: Keep constant pulling pressure on trapped wrist while driving chest forward—their rotation should actually help bring the arm across their body → Leads to [[Mount]]
-- **Opponent uses free hand to grip-fight your threading arm and prevent wrap completion** (Effectiveness: Low) - Your Response: Their free hand interference exposes their neck—threaten collar choke or Ezekiel forcing them to use both hands for defense, then re-attack Gift Wrap → Leads to [[Mount]]
-- **Opponent hip escapes during threading phase to insert knee and recover half guard** (Effectiveness: Medium) - Your Response: Drive your knee back across their thigh to re-center your mount before the escape completes, or abandon the wrap and address the positional threat first → Leads to [[Half Guard]]
+- **Opponent retracts arm before wrap is established by pulling elbow tight to ribs and keeping arm close to centerline** (Effectiveness: High) - Your Response: Feint toward collar choke or Ezekiel to force defensive arm extension, then immediately attack the Gift Wrap entry on their extended defending arm → Leads to [[Positions/Mount]]
+- **Opponent bridges explosively during the arm threading to disrupt your base and create space** (Effectiveness: Medium) - Your Response: Post with free hand toward their head, drive hips down to absorb bridge, and use their settling movement to complete threading before they can bridge again → Leads to [[Positions/Mount]]
+- **Opponent rotates shoulder forward aggressively to slip out of the developing wrap before it locks** (Effectiveness: Medium) - Your Response: Keep constant pulling pressure on trapped wrist while driving chest forward—their rotation should actually help bring the arm across their body → Leads to [[Positions/Mount]]
+- **Opponent uses free hand to grip-fight your threading arm and prevent wrap completion** (Effectiveness: Low) - Your Response: Their free hand interference exposes their neck—threaten collar choke or Ezekiel forcing them to use both hands for defense, then re-attack Gift Wrap → Leads to [[Positions/Mount]]
+- **Opponent hip escapes during threading phase to insert knee and recover half guard** (Effectiveness: Medium) - Your Response: Drive your knee back across their thigh to re-center your mount before the escape completes, or abandon the wrap and address the positional threat first → Leads to [[Positions/Half Guard]]
 
 
 </section>

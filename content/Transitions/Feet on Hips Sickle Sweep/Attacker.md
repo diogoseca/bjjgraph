@@ -180,7 +180,7 @@ description: "Execute the Feet on Hips Sickle Sweep with precision. Step-by-step
 
 The Feet on Hips Sickle Sweep Attacker perspective focuses on executing one of the most reliable open guard sweeps in Brazilian Jiu-Jitsu. As the guard player, you use the structural advantage of feet-on-hips framing to create a powerful lateral sweep by coordinating a pushing foot on the hip, a hooking leg behind the opponent's far ankle, and upper body grip pulls through the collar. Success demands precise timing—the sweep works best when the opponent commits weight forward or attempts to break your frames, creating the momentary weight shift that makes the off-balancing irresistible. Understanding grip hierarchy, foot placement precision, and the kinetic chain from hip extension through the hooking leg determines whether this sweep generates competition-ending power or gets stuffed before it develops. The sweep rewards patience in setup combined with explosiveness in execution.
 
-**From Position**: [[Feet on Hips Guard]] (Bottom)
+**From Position**: [[Positions/Feet on Hips Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The Feet on Hips Sickle Sweep Attacker perspective focuses on executing one of t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Feet on Hips Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Feet on Hips Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Feet on Hips Sickle Sweep Attacker perspective focuses on executing one of t
 
 ## Opponent Counters
 
-- **Opponent steps their far foot back beyond the hook range before the sickle motion initiates** (Effectiveness: High) - Your Response: Immediately switch to tripod sweep by placing both feet on hips and grabbing the near ankle, exploiting the wider stance they created by stepping back → Leads to [[Feet on Hips Guard]]
-- **Opponent posts their free hand on the mat in the sweep direction to create a base point** (Effectiveness: Medium) - Your Response: Increase pulling force on the sleeve grip to strip the posting hand, or transition to a triangle or armbar threat on the now-extended posting arm → Leads to [[Feet on Hips Guard]]
-- **Opponent drops their base low and drives weight forward into your pushing foot to flatten your guard** (Effectiveness: Medium) - Your Response: Use their forward pressure to load them onto your feet and switch to a balloon sweep or tomoe nage, converting their defensive forward pressure into sweep momentum → Leads to [[Feet on Hips Guard]]
-- **Opponent grabs your hooking leg at the ankle or pant cuff to block the sickle motion entirely** (Effectiveness: High) - Your Response: Retract the hooking leg and reset to feet on hips guard, then attack with a tripod sweep or switch the sickle to the opposite side if they overcommit grip to controlling one leg → Leads to [[Feet on Hips Guard]]
+- **Opponent steps their far foot back beyond the hook range before the sickle motion initiates** (Effectiveness: High) - Your Response: Immediately switch to tripod sweep by placing both feet on hips and grabbing the near ankle, exploiting the wider stance they created by stepping back → Leads to [[Positions/Feet on Hips Guard]]
+- **Opponent posts their free hand on the mat in the sweep direction to create a base point** (Effectiveness: Medium) - Your Response: Increase pulling force on the sleeve grip to strip the posting hand, or transition to a triangle or armbar threat on the now-extended posting arm → Leads to [[Positions/Feet on Hips Guard]]
+- **Opponent drops their base low and drives weight forward into your pushing foot to flatten your guard** (Effectiveness: Medium) - Your Response: Use their forward pressure to load them onto your feet and switch to a balloon sweep or tomoe nage, converting their defensive forward pressure into sweep momentum → Leads to [[Positions/Feet on Hips Guard]]
+- **Opponent grabs your hooking leg at the ankle or pant cuff to block the sickle motion entirely** (Effectiveness: High) - Your Response: Retract the hooking leg and reset to feet on hips guard, then attack with a tripod sweep or switch the sickle to the opposite side if they overcommit grip to controlling one leg → Leads to [[Positions/Feet on Hips Guard]]
 
 
 </section>

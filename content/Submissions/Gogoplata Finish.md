@@ -26,8 +26,8 @@ Strategically, the Gogoplata Finish occupies a specialist niche in the submissio
 **Category**: Choke
 **Type**: Tracheal Compression Choke
 **Target Area**: Neck/Trachea
-**Starting Position**: [[Gogoplata Control]]
-**From Position**: [[Gogoplata Control]] (Bottom)
+**Starting Position**: [[Positions/Gogoplata Control]]
+**From Position**: [[Positions/Gogoplata Control]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -79,9 +79,9 @@ Strategically, the Gogoplata Finish occupies a specialist niche in the submissio
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Gogoplata Control]] | 25% |
-| Counter | [[Closed Guard]] | 20% |
-| Counter | [[Open Guard]] | 10% |
+| Failure | [[Positions/Gogoplata Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 20% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -231,10 +231,10 @@ Strategically, the Gogoplata Finish occupies a specialist niche in the submissio
 
 ## From Which Positions?
 
-- [[Gogoplata Control]]
-- [[Rubber Guard]]
-- [[Mission Control]]
-- [[High Mount]]
+- [[Positions/Gogoplata Control]]
+- [[Positions/Rubber Guard]]
+- [[Positions/Rubber Guard/Mission Control]]
+- [[Positions/Mount/High Mount]]
 
 
 </section>
@@ -243,11 +243,11 @@ Strategically, the Gogoplata Finish occupies a specialist niche in the submissio
 
 ## Related Submissions
 
-- [[Armbar from Guard]]
-- [[Buggy Choke Finish]]
-- [[Arm Triangle]]
-- [[Arm in Guillotine]]
-- [[Anaconda Choke]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Buggy Choke Finish]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Arm in Guillotine]]
+- [[Transitions/Anaconda Choke]]
 
 
 </section>
@@ -256,13 +256,13 @@ Strategically, the Gogoplata Finish occupies a specialist niche in the submissio
 
 ## Additional Related Content
 
-- [[Gogoplata Control]] - Primary control position from which this finish is executed
-- [[Rubber Guard]] - Parent guard system providing the primary entry pathway to gogoplata
-- [[Mission Control]] - Rubber guard control position that facilitates gogoplata setup through posture breaking
-- [[Omoplata Control]] - Alternative submission when opponent defends gogoplata by turning their shoulder away
-- [[Closed Guard]] - Foundation guard from which rubber guard chain develops toward gogoplata
-- [[Back Control]] - Transition target when opponent rolls forward to escape shin pressure
-- [[High Mount]] - Alternative position from which mounted gogoplata variation can be attempted
+- [[Positions/Gogoplata Control]] - Primary control position from which this finish is executed
+- [[Positions/Rubber Guard]] - Parent guard system providing the primary entry pathway to gogoplata
+- [[Positions/Rubber Guard/Mission Control]] - Rubber guard control position that facilitates gogoplata setup through posture breaking
+- [[Positions/Omoplata Control]] - Alternative submission when opponent defends gogoplata by turning their shoulder away
+- [[Positions/Closed Guard]] - Foundation guard from which rubber guard chain develops toward gogoplata
+- [[Positions/Back Control]] - Transition target when opponent rolls forward to escape shin pressure
+- [[Positions/Mount/High Mount]] - Alternative position from which mounted gogoplata variation can be attempted
 
 
 </section>

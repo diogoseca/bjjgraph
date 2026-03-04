@@ -158,7 +158,7 @@ The biomechanical reality of your situation is that the crossed leg configuratio
 
 Successful defense requires proactive recognition of the back take attempt before it develops fully. Once your opponent has released their leg grip and begun transitioning to seatbelt configuration, your defensive options narrow dramatically. The most effective defenders address the threat at its earliest stage by fighting the initial rotation, contesting grip changes, and creating distance through explosive hip movement. Understanding the specific grip sequence your opponent needs—release leg, establish seatbelt, insert bottom hook, secure top hook—allows you to disrupt at each stage and create opportunities to recover position or force a scramble.
 
-**Opponent's Starting Position**: [[Leg Drag Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful defense requires proactive recognition of the back take attempt befor
 ### 1. Turn into opponent and fight for underhook to face them rather than giving your back
 
 - **When to use**: At the earliest sign of the back take attempt, before opponent establishes seatbelt or inserts first hook
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: You face your opponent and can work to recover half guard or establish frames for guard recovery, denying the back take entirely
 - **Risk**: If your turn is too slow, opponent may already have seatbelt established and your turn exposes you to arm triangle or front headlock attacks
 
 ### 2. Hip escape explosively away while framing on opponent's shoulder to create distance and extract trapped leg
 
 - **When to use**: When opponent releases leg grip to transition to seatbelt, creating a momentary gap in their control system
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough distance to recover half guard by recapturing their leg with yours, re-establishing a defensive guard position
 - **Risk**: If the hip escape is not explosive enough, opponent follows your movement and takes your back with even more space to work
 
 ### 3. Sit up aggressively and post on far hand while turning your shoulders toward opponent to deny back exposure
 
 - **When to use**: When opponent has begun the transition but has not yet secured seatbelt or bottom hook, and you have enough space to posture
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: You achieve a seated position facing your opponent, allowing you to re-engage guard or work a technical standup to neutral
 - **Risk**: Opponent drives you back down with increased forward pressure or capitalizes on your extended posting arm for submission
 
 ### 4. Pummel the near-side elbow inside to prevent seatbelt establishment while keeping hips square
 
 - **When to use**: When opponent's arm begins sliding under your armpit for seatbelt, you feel the arm threading before it clasps
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: You deny the seatbelt grip which is essential for back control, forcing opponent to reset their attack or settle for side control
 - **Risk**: Focusing on the arm pummel may take attention away from hip defense, allowing opponent to insert bottom hook before you address it
 
@@ -228,11 +228,11 @@ Successful defense requires proactive recognition of the back take attempt befor
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Drag Control]]
+### → [[Positions/Leg Drag Control]]
 
 Turn into your opponent aggressively at the first sign of the back take attempt. Fight for an underhook on the near side and drive your shoulder into them to face them directly. This forces the exchange back to leg drag control where you can work standard leg drag escapes rather than defending the far more dangerous back control.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When the opponent releases their leg drag grip to transition to seatbelt, exploit this momentary gap by executing an explosive hip escape away from them. Simultaneously pull your trapped knee to your chest and insert it between your bodies to recapture their leg in half guard. The key timing is the release moment—the grip change creates a brief window where neither leg drag control nor back control is fully established.
 

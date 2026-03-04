@@ -156,7 +156,7 @@ As the defender against the Stack from Chill Dog, you are in the Chill Dog turtl
 
 The stack attacks the fundamental structure of your Chill Dog defense by loading your weight forward past your hands. Understanding this mechanic is critical because your defensive responses must address the weight transfer rather than simply trying to resist the pressure with muscular effort. Successful defense requires redirecting the opponent's energy, timing your escape to their commitment, or preemptively transitioning before the stack reaches its tipping point. Staying calm under the building pressure and choosing the right moment to move is the difference between recovering guard and being flattened.
 
-**Opponent's Starting Position**: [[Chill Dog]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Chill Dog]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The stack attacks the fundamental structure of your Chill Dog defense by loading
 ### 1. Execute Granby roll using the opponent's forward pressure as momentum for the inversion
 
 - **When to use**: When the opponent's weight is heavily committed forward and their base is compromised by the stacking position. Best initiated before the frame fully breaks.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You invert under the opponent using their forward momentum and recover to closed guard or open guard, completely negating the stack attempt and returning to an offensive position.
 - **Risk**: If mistimed, the opponent follows the roll and establishes back control during the rotation, or you end up flattened on your back without guard recovery.
 
 ### 2. Sit through to butterfly guard by turning hips and establishing hooks before the frame collapses
 
 - **When to use**: When the opponent's pressure is building but the elbow-to-knee frame is still partially intact. Best when you can feel space on one side to turn into.
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You turn your hips to face the opponent and establish butterfly hooks or closed guard, converting the turtle engagement into a guard situation where you have offensive options.
 - **Risk**: The opponent may catch you mid-turn and establish side control or half guard top before you can fully establish your guard.
 
 ### 3. Widen base and post hands wide to resist the forward pressure and stall the stack
 
 - **When to use**: When you need to buy time and the stack is building but has not reached the tipping point. Use as a temporary measure while planning a more decisive escape.
-- **Targets**: [[Chill Dog]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: The widened base distributes the stacking pressure across a larger area, preventing the frame from collapsing and giving you time to execute a proper escape technique.
 - **Risk**: Widening your base breaks the elbow-to-knee connection, opening you to hook insertion and back take attempts. This should only be used temporarily.
 
 ### 4. Drive hips backward explosively to create separation and reset the Chill Dog position
 
 - **When to use**: Early in the stacking sequence before the opponent has walked their feet fully forward and established maximum pressure. Requires timing the push to when the opponent's grip is loosest.
-- **Targets**: [[Chill Dog]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: You push the opponent's weight back and re-establish proper Chill Dog defensive posture with forward weight distribution, resetting the engagement and forcing them to restart their attack.
 - **Risk**: If the opponent maintains hip control, the backward drive may be insufficient to create separation, and you waste energy without improving your position.
 
@@ -227,11 +227,11 @@ The stack attacks the fundamental structure of your Chill Dog defense by loading
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time a Granby roll or sit-through escape when the opponent's weight is most committed forward during the stack. Use their forward momentum to accelerate your inversion or hip turn, recovering to closed guard where you have full offensive capability. The key is initiating the escape before your frame breaks completely, while you still have structural integrity to generate the movement.
 
-### → [[Chill Dog]]
+### → [[Positions/Rubber Guard/Chill Dog]]
 
 Resist the stack through widened base posting or explosive backward hip drive early in the sequence before pressure builds to the breaking point. Successfully resisting the stack forces the opponent to abandon the technique and attempt a different attack, giving you time to execute your preferred escape from Chill Dog such as a technical stand-up or guard pull.
 

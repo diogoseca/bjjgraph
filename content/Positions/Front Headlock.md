@@ -99,23 +99,23 @@ Understanding the front headlock requires recognizing its role as a transitional
 ### Available Transitions
 
 
-- **[[Technical Stand-up]]** (19% of attempts)
+- **[[Transitions/Technical Stand-up]]** (19% of attempts)
 
-- **[[Granby Roll to Guard]]** (11% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (11% of attempts)
 
-- **[[Turtle to Guard]]** (13% of attempts)
+- **[[Transitions/Turtle to Guard]]** (13% of attempts)
 
-- **[[Stand and Circle Away]]** (15% of attempts)
+- **[[Transitions/Stand and Circle Away]]** (15% of attempts)
 
-- **[[Roll Through to Reversal]]** (13% of attempts)
+- **[[Transitions/Roll Through to Reversal]]** (13% of attempts)
 
-- **[[Arm Drag Escape]]** (9% of attempts)
+- **[[Transitions/Arm Drag Escape]]** (9% of attempts)
 
-- **[[Guillotine Defense]]** (9% of attempts)
+- **[[Transitions/Guillotine Defense]]** (9% of attempts)
 
-- **[[Sit Through to Guard]]** (7% of attempts)
+- **[[Transitions/Sit Through to Guard]]** (7% of attempts)
 
-- **[[Hip Escape from Front Headlock]]** (4% of attempts)
+- **[[Transitions/Hip Escape from Front Headlock]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -176,35 +176,35 @@ Understanding the front headlock requires recognizing its role as a transitional
 ### Available Transitions
 
 
-- **[[Guillotine Setup]]** (13% of attempts)
+- **[[Transitions/Guillotine Setup]]** (13% of attempts)
 
-- **[[Anaconda Setup]]** (12% of attempts)
+- **[[Transitions/Anaconda Setup]]** (12% of attempts)
 
-- **[[Darce Setup]]** (12% of attempts)
+- **[[Transitions/Darce Setup]]** (12% of attempts)
 
-- **[[Front Headlock to Back]]** (12% of attempts)
+- **[[Transitions/Front Headlock to Back]]** (12% of attempts)
 
-- **[[Arm Triangle from Front Headlock]]** (6% of attempts)
+- **[[Transitions/Arm Triangle from Front Headlock]]** (6% of attempts)
 
-- **[[Japanese Necktie Setup]]** (7% of attempts)
+- **[[Transitions/Japanese Necktie Setup]]** (7% of attempts)
 
-- **[[Peruvian Necktie Setup]]** (7% of attempts)
+- **[[Transitions/Peruvian Necktie Setup]]** (7% of attempts)
 
-- **[[Step Over to Mount]]** (5% of attempts)
+- **[[Transitions/Step Over to Mount]]** (5% of attempts)
 
-- **[[Turtle Flatten to Side Control]]** (7% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control]]** (7% of attempts)
 
-- **[[Snap Down to Front Headlock]]** (5% of attempts)
+- **[[Transitions/Snap Down to Front Headlock]]** (5% of attempts)
 
-- **[[Crucifix from Turtle]]** (4% of attempts)
+- **[[Transitions/Crucifix from Turtle]]** (4% of attempts)
 
-- **[[Kimura]]** (4% of attempts)
+- **[[Transitions/Kimura]]** (4% of attempts)
 
-- **[[Brabo Choke]]** (2% of attempts)
+- **[[Submissions/Brabo Choke]]** (2% of attempts)
 
-- **[[Chin Strap Guillotine]]** (2% of attempts)
+- **[[Submissions/Chin Strap Guillotine]]** (2% of attempts)
 
-- **[[Peruvian Necktie]]** (2% of attempts)
+- **[[Submissions/Peruvian Necktie]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -247,21 +247,21 @@ Understanding the front headlock requires recognizing its role as a transitional
 ## Related Positions
 
 
-- **[[Turtle]]** - Primary entry position - front headlock typically secured when opponent turtles defensively
+- **[[Positions/Turtle]]** - Primary entry position - front headlock typically secured when opponent turtles defensively
 
-- **[[Guillotine Control]]** - Direct submission transition - front headlock converts to guillotine when opponent stands or you adjust grip
+- **[[Positions/Guillotine Control]]** - Direct submission transition - front headlock converts to guillotine when opponent stands or you adjust grip
 
-- **[[Anaconda Control]]** - Submission control position - arm-in front headlock transitions to anaconda by threading arm and locking gable grip
+- **[[Positions/Anaconda Control]]** - Submission control position - arm-in front headlock transitions to anaconda by threading arm and locking gable grip
 
-- **[[Darce Control]]** - Submission control position - front headlock converts to darce by underhooking near arm and threading opposite arm
+- **[[Positions/Darce Control]]** - Submission control position - front headlock converts to darce by underhooking near arm and threading opposite arm
 
-- **[[Back Control]]** - High-value advancement - front headlock transitions to back when opponent tries escaping forward or to side
+- **[[Positions/Back Control]]** - High-value advancement - front headlock transitions to back when opponent tries escaping forward or to side
 
-- **[[Side Control]]** - Alternative advancement - can flatten opponent from front headlock into side control pinning position
+- **[[Positions/Side Control]]** - Alternative advancement - can flatten opponent from front headlock into side control pinning position
 
-- **[[Crucifix]]** - Alternative control - if opponent rolls through front headlock escape, can catch crucifix position
+- **[[Positions/Crucifix]]** - Alternative control - if opponent rolls through front headlock escape, can catch crucifix position
 
-- **[[Kimura Trap]]** - Alternative submission - if opponent defends chokes by freeing head, kimura on near arm becomes available
+- **[[Positions/Kimura Trap]]** - Alternative submission - if opponent defends chokes by freeing head, kimura on near arm becomes available
 
 
 </section>

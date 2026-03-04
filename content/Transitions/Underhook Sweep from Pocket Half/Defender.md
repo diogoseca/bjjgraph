@@ -154,7 +154,7 @@ description: "Complete defensive guide against the Underhook Sweep from Pocket H
 
 As the defender against the Underhook Sweep from Pocket Half Guard, you are in the top position and your objective is to prevent the bottom player from converting their deep underhook into a successful come-up sweep. Defense begins with prevention - denying the setup conditions that make the sweep viable. The primary defensive principles center on controlling the underhook battle, maintaining wide base, and managing your weight distribution to avoid feeding forward momentum into the sweep. When the sweep attempt begins, your responses must be immediate and decisive, as the come-up builds momentum rapidly and becomes exponentially harder to stop once the bottom player reaches their knees. Understanding the sweep's mechanical requirements allows you to systematically remove the conditions needed for success.
 
-**Opponent's Starting Position**: [[Pocket Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Pocket Half Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the Underhook Sweep from Pocket Half Guard, you are in t
 ### 1. Establish a deep whizzer on the underhook arm and sprawl hips back
 
 - **When to use**: As soon as you feel the initial hip escape and increased underhook pulling pressure, before the bottom player reaches their posting elbow
-- **Targets**: [[Pocket Half Guard]]
+- **Targets**: [[Positions/Half Guard/Pocket Half Guard]]
 - **If successful**: Neutralizes the underhook leverage and kills the sweep entirely, allowing you to re-settle your pressure and work toward passing
 - **Risk**: If the whizzer is shallow, the bottom player can power through with committed hip drive. Deep whizzer commitment also temporarily prevents you from using that arm for passing
 
 ### 2. Drive crossface pressure while stripping the underhook to flatten the bottom player
 
 - **When to use**: When you detect the underhook deepening but before the come-up angle is established, particularly effective when combined with dropping your hips
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Strips the primary attacking tool, flattens the opponent, and positions you to complete a pressure pass to side control
 - **Risk**: Requires momentarily shifting weight toward the opponent's head, which can be exploited if your timing is off
 
 ### 3. Base out wide and lower center of gravity to resist the toppling force
 
 - **When to use**: When the come-up is already in progress and the bottom player has reached at least the elbow post stage - too late for prevention, focus on resistance
-- **Targets**: [[Pocket Half Guard]]
+- **Targets**: [[Positions/Half Guard/Pocket Half Guard]]
 - **If successful**: Stops the sweep midway and forces the bottom player to either stall in dogfight or retreat back to pocket half guard
 - **Risk**: Wide base can create space for the bottom player to transition to deep half guard or change the sweep angle
 
 ### 4. Post far arm on the mat and redirect the sweep direction while extracting the trapped leg
 
 - **When to use**: When the sweep is nearly completing and you are being tipped, as a last-resort defensive measure to prevent landing on your back
-- **Targets**: [[Pocket Half Guard]]
+- **Targets**: [[Positions/Half Guard/Pocket Half Guard]]
 - **If successful**: Prevents the full sweep completion and allows you to recover base, potentially transitioning to combat base or reestablishing top pressure
 - **Risk**: If the post is chopped or the bottom player changes angle, you may still be swept. Posting also temporarily removes that arm from control duties
 
@@ -225,11 +225,11 @@ As the defender against the Underhook Sweep from Pocket Half Guard, you are in t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Pocket Half Guard]]
+### → [[Positions/Half Guard/Pocket Half Guard]]
 
 Establish a deep whizzer early when you feel the underhook deepening, then sprawl your hips back and flatten the opponent with chest pressure. The whizzer neutralizes the underhook pulling force while the sprawl removes the forward momentum needed for the come-up.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the bottom player attempts the hip escape to create their come-up angle, use aggressive crossface combined with underhook stripping to flatten them completely. Drive your hips through to complete the half guard pass while they are focused on generating sweep mechanics rather than guard retention.
 

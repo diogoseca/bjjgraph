@@ -21,7 +21,7 @@ The rolling mechanic relies on precise timing and coordinated body movement rath
 
 This technique exemplifies the offensive potential of hybrid guard positions, where combining half guard retention with butterfly hook dynamics creates unexpected attacking vectors that pure half guard or pure butterfly guard cannot achieve independently. The rolling back take punishes predictable defensive patterns and rewards practitioners who develop sensitivity to weight distribution shifts, making it a high-value addition to any half butterfly player's arsenal.
 
-**From Position**: [[Half Butterfly]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This technique exemplifies the offensive potential of hybrid guard positions, wh
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Half Butterfly]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Butterfly Guard/Half Butterfly]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Rolling Back Take from Half Butterfly occupies a unique tactical niche withi
 ## Related Techniques
 
 
-- [[Half Butterfly]] - Source position from which this rolling back take is initiated
+- [[Positions/Butterfly Guard/Half Butterfly]] - Source position from which this rolling back take is initiated
 
-- [[Back Control]] - Primary target position achieved upon successful completion of the roll
+- [[Positions/Back Control]] - Primary target position achieved upon successful completion of the roll
 
-- [[Side Control]] - Counter outcome position where opponent capitalizes on a failed rolling attempt
+- [[Positions/Side Control]] - Counter outcome position where opponent capitalizes on a failed rolling attempt
 
-- [[Half Butterfly Sweep]] - Complementary sweep that creates the defensive reactions exploited by the rolling back take
+- [[Transitions/Half Butterfly Sweep]] - Complementary sweep that creates the defensive reactions exploited by the rolling back take
 
-- [[Half Butterfly to Dogfight]] - Alternative transition from the same starting position with different positional target
+- [[Transitions/Half Butterfly to Dogfight]] - Alternative transition from the same starting position with different positional target
 
-- [[Back Take from Bottom]] - Related back take technique sharing similar strategic objectives from bottom position
+- [[Transitions/Back Take from Bottom]] - Related back take technique sharing similar strategic objectives from bottom position
 
-- [[Homer Simpson Sweep]] - Related rolling technique concept using similar momentum and rotational mechanics
+- [[Transitions/Homer Simpson Sweep]] - Related rolling technique concept using similar momentum and rotational mechanics
 
-- [[Seat Belt Control Back]] - Follow-up control position for consolidating back control after successful roll
+- [[Positions/Back Control/Seat Belt Control Back]] - Follow-up control position for consolidating back control after successful roll
 
-- [[Half Guard]] - Parent guard family from which half butterfly derives its leg control mechanics
+- [[Positions/Half Guard]] - Parent guard family from which half butterfly derives its leg control mechanics
 
-- [[Dogfight Position]] - Common intermediate position in the half guard system sharing tactical overlap
+- [[Positions/Dogfight Position]] - Common intermediate position in the half guard system sharing tactical overlap
 
 
 </section>

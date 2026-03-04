@@ -101,17 +101,17 @@ The position also demonstrates important principles about submission-based contr
 ### Available Transitions
 
 
-- **[[Gogoplata]]** (27% of attempts)
+- **[[Transitions/Gogoplata]]** (27% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (15% of attempts)
+- **[[Transitions/Closed Guard to Omoplata]]** (15% of attempts)
 
-- **[[Back Take]]** (14% of attempts)
+- **[[Transitions/Back Take]]** (14% of attempts)
 
-- **[[Mission Control Recovery]]** (24% of attempts)
+- **[[Transitions/Mission Control Recovery]]** (24% of attempts)
 
-- **[[Switch to Triangle]]** (18% of attempts)
+- **[[Transitions/Switch to Triangle]]** (18% of attempts)
 
-- **[[Gogoplata Finish]]** (2% of attempts)
+- **[[Submissions/Gogoplata Finish]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -172,27 +172,27 @@ The position also demonstrates important principles about submission-based contr
 ### Available Transitions
 
 
-- **[[Head Extraction to Posture]]** (32% of attempts)
+- **[[Transitions/Head Extraction to Posture]]** (32% of attempts)
 
-- **[[Shin Removal to Pass]]** (3% of attempts)
+- **[[Transitions/Shin Removal to Pass]]** (3% of attempts)
 
-- **[[Leg Extraction Escape]]** (3% of attempts)
+- **[[Transitions/Leg Extraction Escape]]** (3% of attempts)
 
-- **[[Stack Defense]]** (8% of attempts)
+- **[[Transitions/Stack Defense]]** (8% of attempts)
 
-- **[[Angle Change Escape]]** (13% of attempts)
+- **[[Transitions/Angle Change Escape]]** (13% of attempts)
 
-- **[[Hand Control to Extract]]** (10% of attempts)
+- **[[Transitions/Hand Control to Extract]]** (10% of attempts)
 
-- **[[Roll to Turtle]]** (13% of attempts)
+- **[[Transitions/Roll to Turtle]]** (13% of attempts)
 
-- **[[Explosive Bridge to Guard Recovery]]** (6% of attempts)
+- **[[Transitions/Explosive Bridge to Guard Recovery]]** (6% of attempts)
 
-- **[[Posture Recovery]]** (10% of attempts)
+- **[[Transitions/Posture Recovery]]** (10% of attempts)
 
-- **[[Gogoplata to Armbar]]** (1% of attempts)
+- **[[Transitions/Gogoplata to Armbar]]** (1% of attempts)
 
-- **[[Posture Up from Gogoplata]]** (1% of attempts)
+- **[[Transitions/Posture Up from Gogoplata]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -231,23 +231,23 @@ The position also demonstrates important principles about submission-based contr
 ## Related Positions
 
 
-- **[[Rubber Guard]]** - Common entry position providing necessary control and angle
+- **[[Positions/Rubber Guard]]** - Common entry position providing necessary control and angle
 
-- **[[Mission Control]]** - Rubber guard variation that facilitates gogoplata setup
+- **[[Positions/Rubber Guard/Mission Control]]** - Rubber guard variation that facilitates gogoplata setup
 
-- **[[High Mount]]** - Alternative position from which gogoplata can be attacked
+- **[[Positions/Mount/High Mount]]** - Alternative position from which gogoplata can be attacked
 
-- **[[Triangle Control]]** - Related leg-based control with similar defensive limitations
+- **[[Positions/Triangle Control]]** - Related leg-based control with similar defensive limitations
 
-- **[[Omoplata Control]]** - Transition option if opponent defends gogoplata mechanics
+- **[[Positions/Omoplata Control]]** - Transition option if opponent defends gogoplata mechanics
 
-- **[[Mounted Triangle]]** - Alternative finish sharing similar positional dominance
+- **[[Positions/Mount/Mounted Triangle]]** - Alternative finish sharing similar positional dominance
 
-- **[[Closed Guard]]** - Base position from which rubber guard and gogoplata chains develop
+- **[[Positions/Closed Guard]]** - Base position from which rubber guard and gogoplata chains develop
 
-- **[[Armbar Control]]** - Alternative submission control when gogoplata is defended
+- **[[Positions/Armbar Control]]** - Alternative submission control when gogoplata is defended
 
-- **[[Back Control]]** - Transition target if opponent rolls to escape shin pressure
+- **[[Positions/Back Control]]** - Transition target if opponent rolls to escape shin pressure
 
 - **[[game-over]]** - Terminal state when gogoplata submission is completed successfully
 

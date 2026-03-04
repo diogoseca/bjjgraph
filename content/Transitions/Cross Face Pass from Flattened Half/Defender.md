@@ -154,7 +154,7 @@ description: "Defend and escape the cross face pass from flattened half guard. R
 
 Defending the cross face pass from flattened half guard requires immediate recognition of the passing threat and systematic defensive action before the top player creates sufficient angle for leg extraction. The defender faces a significant positional disadvantage with their back flat on the mat, crossface pressure turning their head away, and limited frame options. Success depends on disrupting the passer's progression at each phase rather than attempting a single explosive escape. The primary defensive strategy centers on preventing the angle creation that enables leg extraction, either by recovering an underhook to create structural resistance or by initiating hip movement that disrupts the passer's base. Timing defensive actions to coincide with the passer's foot-walking movements creates the best opportunities, as the passer must sacrifice some pressure stability when shifting their weight laterally during the angle creation phase.
 
-**Opponent's Starting Position**: [[Flattened Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Flattened Half Guard]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the cross face pass from flattened half guard requires immediate recog
 ### 1. Recover underhook on far side and create defensive angle against the crossface
 
 - **When to use**: When opponent begins foot walking but has not yet established the full angle for leg extraction
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Prevents angle creation and forces passer to re-flatten you before reattempting, resetting the entire passing sequence
 - **Risk**: Extending arm for underhook may expose it to kimura or arm triangle if not combined with simultaneous hip movement
 
 ### 2. Execute hip escape toward trapped leg side to close the angle the passer is creating
 
 - **When to use**: When opponent shifts weight during foot-walking movements and their base is momentarily narrowed
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Disrupts the passer's angle and may create enough space to re-establish knee shield or active half guard frames
 - **Risk**: If timed poorly, the passer follows the hip escape and uses your movement momentum to accelerate their angle creation
 
 ### 3. Dive under opponent's hips for deep half guard entry to completely reverse the positional dynamic
 
 - **When to use**: When opponent commits weight forward during crossface pressure and creates space under their hips during the lean
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Reverses positional dynamic entirely by establishing deep half guard with immediate sweep opportunities from underneath
 - **Risk**: Failed deep half entry from flattened position can result in back exposure if opponent follows your rotation underneath
 
 ### 4. Bridge and re-center hips at the exact moment of leg extraction attempt
 
 - **When to use**: When opponent begins the windshield-wiper motion to extract their trapped leg from your hook
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Disrupts extraction timing and forces opponent to re-establish hip pressure and angle before reattempting the pass
 - **Risk**: Poorly timed bridge can accelerate the pass if the opponent uses your bridge momentum to complete the extraction
 
@@ -224,11 +224,11 @@ Defending the cross face pass from flattened half guard requires immediate recog
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a deep half guard entry or underhook sweep during the passer's angle creation phase when their weight shifts laterally and their base narrows. The foot-walking movement creates a window where their weight is transitioning between stable positions, making them vulnerable to being swept or displaced from top position.
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Recover underhook and fight to re-center your hips, preventing the passer from creating sufficient angle for leg extraction. Each successful frame recovery forces them to restart the passing sequence from the beginning, burning their energy and patience while you maintain the leg hook as the final barrier.
 

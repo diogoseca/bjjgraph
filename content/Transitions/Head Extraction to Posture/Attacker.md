@@ -178,7 +178,7 @@ The technique prioritizes systematic extraction over explosive movement. Rather 
 
 Strategically, Head Extraction to Posture represents more than simple survival. Successfully completing this escape returns you to closed guard with posture, meaning you can immediately begin your passing sequences. The technique also teaches broader principles about defending unorthodox submissions by understanding their mechanical requirements and systematically dismantling them rather than fighting the symptoms.
 
-**From Position**: [[Gogoplata Control]] (Top)
+**From Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
 
@@ -230,9 +230,9 @@ Strategically, Head Extraction to Posture represents more than simple survival. 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Gogoplata Control]] | 30% |
-| Counter | [[Triangle Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Gogoplata Control]] | 30% |
+| Counter | [[Positions/Triangle Control]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ Strategically, Head Extraction to Posture represents more than simple survival. 
 
 ## Opponent Counters
 
-- **Opponent elevates hips and pulls foot deeper as you begin extraction** (Effectiveness: High) - Your Response: Increase forward hip pressure before attempting foot removal; their elevation attempt is weaker when you are driving weight into them → Leads to [[Gogoplata Control]]
-- **Opponent transitions to triangle as shin slides off throat** (Effectiveness: High) - Your Response: Keep posture driving forward during extraction and immediately pull your elbow to your knee to prevent triangle lock; posture is your primary defense → Leads to [[Triangle Control]]
-- **Opponent switches to omoplata as you turn toward the attacking leg** (Effectiveness: Medium) - Your Response: Always turn away from the attacking leg when creating angles; if caught turning into the leg, drive shoulder down and roll through the omoplata → Leads to [[Gogoplata Control]]
-- **Opponent maintains shin pressure by controlling your head with hands** (Effectiveness: Medium) - Your Response: Hand fighting against their grip while maintaining hip control; their hands on your head means they cannot maintain the foot-behind-head configuration as effectively → Leads to [[Gogoplata Control]]
+- **Opponent elevates hips and pulls foot deeper as you begin extraction** (Effectiveness: High) - Your Response: Increase forward hip pressure before attempting foot removal; their elevation attempt is weaker when you are driving weight into them → Leads to [[Positions/Gogoplata Control]]
+- **Opponent transitions to triangle as shin slides off throat** (Effectiveness: High) - Your Response: Keep posture driving forward during extraction and immediately pull your elbow to your knee to prevent triangle lock; posture is your primary defense → Leads to [[Positions/Triangle Control]]
+- **Opponent switches to omoplata as you turn toward the attacking leg** (Effectiveness: Medium) - Your Response: Always turn away from the attacking leg when creating angles; if caught turning into the leg, drive shoulder down and roll through the omoplata → Leads to [[Positions/Gogoplata Control]]
+- **Opponent maintains shin pressure by controlling your head with hands** (Effectiveness: Medium) - Your Response: Hand fighting against their grip while maintaining hip control; their hands on your head means they cannot maintain the foot-behind-head configuration as effectively → Leads to [[Positions/Gogoplata Control]]
 
 
 </section>

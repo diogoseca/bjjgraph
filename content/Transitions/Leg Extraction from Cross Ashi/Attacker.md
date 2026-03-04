@@ -186,7 +186,7 @@ description: "Master Leg Extraction from Cross Ashi-Garami. Step-by-step guide t
 
 As the person executing the Leg Extraction from Cross Ashi, your objective is to systematically dismantle the opponent's crossed leg structure by clearing connection points in a specific sequence, then withdrawing your trapped leg to recover an active open guard. Cross ashi presents a unique extraction challenge because the crossed legs create a wedge effect that prevents simple linear withdrawal. The outside cross must be cleared first to break the geometric advantage, then the inside hook can be addressed. Throughout the escape, heel protection is paramount: cross ashi provides excellent finishing angles for heel hooks, and any extraction motion that bends the knee or exposes the heel creates a more dangerous situation than the original entanglement. Success requires recognizing the brief windows when the opponent adjusts their position or grip, then executing the clearing sequence decisively during that adjustment.
 
-**From Position**: [[Cross Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the person executing the Leg Extraction from Cross Ashi, your objective is to
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 45% |
-| Failure | [[Cross Ashi-Garami]] | 35% |
-| Counter | [[Saddle]] | 20% |
+| Success | [[Positions/Open Guard]] | 45% |
+| Failure | [[Positions/Ashi Garami/Cross Ashi-Garami]] | 35% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the person executing the Leg Extraction from Cross Ashi, your objective is to
 
 ## Opponent Counters
 
-- **Opponent follows hip retreat and re-establishes the outside cross before extraction completes** (Effectiveness: High) - Your Response: If they follow and re-cross, immediately switch to an angular extraction by changing hip direction mid-escape. Alternatively, abandon extraction and transition to Counter Entangle from Cross Ashi to enter 50-50 guard instead. → Leads to [[Cross Ashi-Garami]]
-- **Opponent advances to saddle by stepping over with their outside leg during the grip-stripping phase** (Effectiveness: High) - Your Response: Abort the extraction immediately and transition to Boot Scoot Escape from Saddle or Forward Roll from Saddle. The saddle configuration makes extraction nearly impossible, so recognizing this advancement early and switching escape methods is critical. → Leads to [[Saddle]]
-- **Opponent grabs the heel during extraction when foot passes through exposed angle** (Effectiveness: High) - Your Response: Halt all extraction movement immediately and address the heel grip with a two-on-one wrist strip. Never continue extraction with their hand on your heel. Straighten the leg fully and strip their grip before resuming any escape movement. → Leads to [[Cross Ashi-Garami]]
-- **Opponent controls your free leg to eliminate the push-kick force needed for final extraction** (Effectiveness: Medium) - Your Response: Use your free leg's knee to create a frame against their chest or shoulder instead of a foot-on-hip push-kick. If both legs are compromised, focus on upper body posting and seated hip scoops for distance creation rather than relying on the push-kick. → Leads to [[Cross Ashi-Garami]]
+- **Opponent follows hip retreat and re-establishes the outside cross before extraction completes** (Effectiveness: High) - Your Response: If they follow and re-cross, immediately switch to an angular extraction by changing hip direction mid-escape. Alternatively, abandon extraction and transition to Counter Entangle from Cross Ashi to enter 50-50 guard instead. → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- **Opponent advances to saddle by stepping over with their outside leg during the grip-stripping phase** (Effectiveness: High) - Your Response: Abort the extraction immediately and transition to Boot Scoot Escape from Saddle or Forward Roll from Saddle. The saddle configuration makes extraction nearly impossible, so recognizing this advancement early and switching escape methods is critical. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent grabs the heel during extraction when foot passes through exposed angle** (Effectiveness: High) - Your Response: Halt all extraction movement immediately and address the heel grip with a two-on-one wrist strip. Never continue extraction with their hand on your heel. Straighten the leg fully and strip their grip before resuming any escape movement. → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- **Opponent controls your free leg to eliminate the push-kick force needed for final extraction** (Effectiveness: Medium) - Your Response: Use your free leg's knee to create a frame against their chest or shoulder instead of a foot-on-hip push-kick. If both legs are compromised, focus on upper body posting and seated hip scoops for distance creation rather than relying on the push-kick. → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
 
 
 </section>

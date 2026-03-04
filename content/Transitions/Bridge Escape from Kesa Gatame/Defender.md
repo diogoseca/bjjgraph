@@ -146,7 +146,7 @@ description: "Defend against the bridge escape from Kesa Gatame. Learn to recogn
 
 As the top player defending against the bridge escape from Kesa Gatame, your objective is to recognize the escape setup early, maintain sufficient base to absorb the bridge force, and capitalize on the opponent's movement to advance your position or maintain control. The bridge escape is one of the most common escape attempts from Kesa Gatame, and experienced bottom players will disguise their preparation by fighting for grips and planting feet subtly. Your defensive awareness must begin before the explosive bridge—once a well-prepared bridge fires, reactive defense is significantly harder than proactive base adjustment. Understanding the mechanical requirements of the bridge escape allows you to systematically deny each prerequisite before the escape can develop.
 
-**Opponent's Starting Position**: [[Kesa Gatame]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control/Kesa Gatame]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the top player defending against the bridge escape from Kesa Gatame, your obj
 ### 1. Drop hips and widen base to absorb bridge force
 
 - **When to use**: As soon as you feel the opponent plant their feet or reach for your far arm—ideally before the bridge fires
-- **Targets**: [[Kesa Gatame]]
+- **Targets**: [[Positions/Side Control/Kesa Gatame]]
 - **If successful**: The bridge is absorbed by your wide base and low center of gravity, opponent exhausts energy without creating displacement
 - **Risk**: If you widen base too early and the opponent chains to a ghost escape, your back becomes more exposed
 
 ### 2. Transition to mount by stepping over as opponent bridges and turns
 
 - **When to use**: When the opponent's bridge creates rotation and they turn their hips toward you, use their momentum to advance
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You convert their escape attempt into a positional advancement to mount, scoring additional points in competition
 - **Risk**: If the opponent catches your leg during the transition, they may recover half guard or insert a knee shield
 
 ### 3. Float to north-south when bridge creates space
 
 - **When to use**: When the bridge lifts your weight and you feel your Kesa Gatame control compromised, circle toward their head
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: You maintain top control in north-south position, denying the escape while maintaining dominant pinning position
 - **Risk**: The transition creates a brief moment of reduced control where the opponent may insert frames or recover guard
 
 ### 4. Protect far arm by pinning it to your own hip
 
 - **When to use**: Preemptively when you feel the opponent's free hand searching for your far arm or wrist
-- **Targets**: [[Kesa Gatame]]
+- **Targets**: [[Positions/Side Control/Kesa Gatame]]
 - **If successful**: The opponent cannot control your posting arm, which dramatically reduces bridge escape effectiveness and forces them to seek alternative escapes
 - **Risk**: Pinning your own arm to your hip reduces your submission options from Kesa Gatame temporarily
 
@@ -217,11 +217,11 @@ As the top player defending against the bridge escape from Kesa Gatame, your obj
 
 ## Best-Case Outcomes for Defender
 
-### → [[Kesa Gatame]]
+### → [[Positions/Side Control/Kesa Gatame]]
 
 Preemptively deny the escape by keeping hips low, far leg posted wide, and protecting your far arm from being controlled. When the bridge fires without your posting arm controlled, simply post your hand and absorb the force.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the opponent bridges and turns toward you, use their rotation to step over into mount. As their hips come off the mat and they rotate, swing your far leg over their body and settle into mount before they can insert a knee shield. Their own bridge momentum assists your transition.
 

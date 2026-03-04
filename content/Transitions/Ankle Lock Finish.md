@@ -21,7 +21,7 @@ This transition capitalizes on the opponent's compromised defensive position dur
 
 Strategically, the Ankle Lock Finish serves as a high-percentage option when heel hook access is compromised by the opponent's defensive hand fighting or when ruleset restrictions limit heel hook application. The straight ankle lock provides a legal submission across all major competition formats while maintaining offensive pressure that prevents the opponent from completing their escape sequence. Success requires precise timing, proper grip establishment, and coordinated breaking mechanics that account for the reversed entanglement geometry.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Ankle Lock Finish serves as a high-percentage option when hee
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Straight Ankle Lock Control]] | 65% |
-| Failure | [[Ushiro Ashi-Garami]] | 25% |
-| Counter | [[Ushiro Ashi-Garami]] | 10% |
+| Success | [[Positions/Straight Ankle Lock Control]] | 65% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 25% |
+| Counter | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 10% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Ankle Lock Finish integrates into the modern leg lock system as a critical f
 ## Related Techniques
 
 
-- [[Ushiro Ashi-Garami]] - Starting position for this transition
+- [[Positions/Ashi Garami/Ushiro Ashi-Garami]] - Starting position for this transition
 
-- [[Straight Ankle Lock Control]] - Target control position on success
+- [[Positions/Straight Ankle Lock Control]] - Target control position on success
 
-- [[Inside Heel Hook from Ushiro]] - Alternative finish from same position
+- [[Transitions/Inside Heel Hook from Ushiro]] - Alternative finish from same position
 
-- [[Achilles Lock]] - Related submission technique with similar mechanics
+- [[Submissions/Achilles Lock]] - Related submission technique with similar mechanics
 
-- [[Saddle]] - Alternative advancement position from ushiro
+- [[Positions/Ashi Garami/Saddle]] - Alternative advancement position from ushiro
 
-- [[Back Control]] - Transition option if opponent continues inversion
+- [[Positions/Back Control]] - Transition option if opponent continues inversion
 
-- [[Kneebar from Ushiro]] - Chain attack when opponent straightens leg
+- [[Transitions/Kneebar from Ushiro]] - Chain attack when opponent straightens leg
 
-- [[Outside Ashi Entry]] - Related leg entanglement transition
+- [[Transitions/Outside Ashi Entry]] - Related leg entanglement transition
 
-- [[Estima Lock]] - Alternative grip when boot defense prevents standard finish
+- [[Positions/Estima Lock]] - Alternative grip when boot defense prevents standard finish
 
-- [[Straight Ankle Lock]] - Related submission with similar breaking mechanics
+- [[Submissions/Straight Ankle Lock]] - Related submission with similar breaking mechanics
 
 
 </section>

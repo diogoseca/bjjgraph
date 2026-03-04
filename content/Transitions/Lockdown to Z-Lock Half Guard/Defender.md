@@ -146,7 +146,7 @@ description: "Complete guide to defending against the Z-Lock Half Guard transiti
 
 As the defender in the Transition to Z-Lock Half Guard, you are the bottom player in lockdown whose primary control mechanism is being systematically dismantled. The top player is attempting to convert your lockdown - which gives you sweeps, back takes, and submission threats - into the Z-Lock Half Guard top, where they gain dominant pressure passing control and you lose nearly all offensive options. Your goal is to recognize the Z-Lock entry attempt early, maintain lockdown integrity through active leg tension, and either prevent the transition entirely or counter it with your lockdown offense. Understanding the attacker's sequencing is critical: they will first establish upper body pressure to suppress your attacks, then attempt to circle their trapped knee inward to break your figure-four. Disrupting either phase defeats the transition. The most important defensive principle is staying active - a passive lockdown player gives the top player unlimited time to work their Z-Lock entry.
 
-**Opponent's Starting Position**: [[Lockdown]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Lockdown]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender in the Transition to Z-Lock Half Guard, you are the bottom playe
 ### 1. Squeeze and extend lockdown forcefully when sensing knee rotation
 
 - **When to use**: The moment you feel the opponent's trapped knee beginning circular inward motion, before the figure-four breaks
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: The re-tightened lockdown prevents the knee from completing the circle, and the opponent returns to standard lockdown top with their timing disrupted
 - **Risk**: If mistimed or the lockdown is already broken, the squeeze catches nothing and the opponent completes the Z-Lock transition
 
 ### 2. Initiate whip-up sweep during the knee transition window
 
 - **When to use**: When the opponent begins shifting weight to circle their knee, creating a momentary balance vulnerability
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The sweep capitalizes on the opponent's weight shift during the transition, potentially reversing to top position or at minimum disrupting the Z-Lock attempt entirely
 - **Risk**: If the opponent maintains strong crossface during your whip-up, you may expend energy without completing the sweep and lose lockdown tension
 
 ### 3. Hip escape away while pulling lockdown to prevent Z-Lock angle
 
 - **When to use**: When the opponent's knee has partially crossed but the Z-Lock is not fully consolidated
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Shrimping away creates distance that prevents the knee from reaching the hip crease, and the pulling motion may re-engage the lockdown figure-four
 - **Risk**: Excessive shrimping without maintaining lockdown may allow the opponent to fully pass to side control instead
 
 ### 4. Establish underhook and come up to dogfight during transition
 
 - **When to use**: When the opponent loosens upper body control to focus on the knee reconfiguration
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Coming to dogfight position neutralizes the Z-Lock attempt entirely and creates a scramble where you have superior position from the underhook
 - **Risk**: If the opponent maintains crossface while transitioning, your underhook attempt fails and you lose lockdown position
 
@@ -217,11 +217,11 @@ As the defender in the Transition to Z-Lock Half Guard, you are the bottom playe
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lockdown]]
+### → [[Positions/Half Guard/Lockdown]]
 
 Maintain maximum lockdown tension through active ankle crossing and knee squeezing. The moment you feel the knee rotation attempt, extend your lockdown forcefully while pulling their heel toward your hip. Combine with underhook fighting to prevent the upper body pressure that enables the transition. A re-established lockdown after a failed Z-Lock attempt often leaves the top player fatigued and more vulnerable to your sweep attacks.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive whip-up or underhook-to-dogfight transition during the opponent's knee reconfiguration window. Their weight shift during the Z-Lock attempt creates a brief balance vulnerability. By coming up aggressively with an underhook during this window, you can reverse the situation to at least a neutral half guard scramble where their Z-Lock attempt is abandoned.
 

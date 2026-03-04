@@ -210,17 +210,17 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 
 ## Available Escapes
 
-### [[Reverse the entanglement to Outside Ashi]] (26% of attempts)
+### [[Transitions/Reverse the entanglement to Outside Ashi]] (26% of attempts)
 
-### [[Counter-entangle to 50-50 Guard]] (18% of attempts)
+### [[Transitions/Counter-entangle to 50-50 Guard]] (18% of attempts)
 
-### [[Extract leg and establish Single Leg X]] (18% of attempts)
+### [[Transitions/Extract leg and establish Single Leg X]] (18% of attempts)
 
-### [[Limp leg extraction to Half Guard]] (18% of attempts)
+### [[Transitions/Limp leg extraction to Half Guard]] (18% of attempts)
 
-### [[Clear leg and transition to X-Guard]] (13% of attempts)
+### [[Transitions/Clear leg and transition to X-Guard]] (13% of attempts)
 
-### [[Reversal from Leg Knot]] (7% of attempts)
+### [[Transitions/Reversal from Leg Knot]] (7% of attempts)
 
 
 
@@ -231,28 +231,28 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 ## Decision Making from This Position
 
 **If opponent secures heel grip and begins heel hook rotation:**
-- Execute **[[Immediate Granby roll escape]]** → [[Open Guard]] (Probability: 60%)
-- Execute **[[Hide heel and turn into opponent]]** → [[50-50 Guard]] (Probability: 30%)
+- Execute **[[Immediate Granby roll escape]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Hide heel and turn into opponent]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 30%)
 
 
 **If opponent transitions toward Inside Ashi configuration:**
-- Execute **[[Block with free leg and reverse to Outside Ashi]]** → [[Outside Ashi-Garami]] (Probability: 45%)
-- Execute **[[Clear leg and establish Single Leg X]]** → [[Single Leg X-Guard]] (Probability: 40%)
+- Execute **[[Block with free leg and reverse to Outside Ashi]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 45%)
+- Execute **[[Clear leg and establish Single Leg X]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 40%)
 
 
 **If opponent's grip loosens during transition:**
-- Execute **[[Extract leg immediately to Half Guard]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Sit up and establish open guard]]** → [[Open Guard]] (Probability: 35%)
+- Execute **[[Extract leg immediately to Half Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Sit up and establish open guard]]** → [[Positions/Open Guard]] (Probability: 35%)
 
 
 **If opponent establishes strong cross-body control:**
-- Execute **[[Granby roll to reverse position]]** → [[Outside Ashi-Garami]] (Probability: 40%)
-- Execute **[[Counter-entangle to 50-50]]** → [[50-50 Guard]] (Probability: 45%)
+- Execute **[[Granby roll to reverse position]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 40%)
+- Execute **[[Counter-entangle to 50-50]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 45%)
 
 
 **If opponent attempts to stack or drive forward:**
-- Execute **[[Hip escape to create space]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Use free leg to push and extract]]** → [[Single Leg X-Guard]] (Probability: 35%)
+- Execute **[[Hip escape to create space]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Use free leg to push and extract]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 35%)
 
 
 
@@ -398,16 +398,16 @@ Start in Leg Knot Bottom position with specific goals: bottom player escapes to 
 
 ## Related Positions and Techniques
 
-- **[[Leg Knot]]** - Parent position (neutral perspective)
-- **[[Saddle]]** - Common advancement if defense fails
-- **[[Outside Ashi-Garami]]** - Reversal target position
-- **[[Ashi Garami Escape]]** - Related escape technique
-- **[[Half Guard]]** - Common escape target position
-- **[[Single Leg X-Guard]]** - Offensive counter-position
-- **[[50-50 Guard]]** - Counter-entanglement option
-- **[[Inside Ashi-Garami]]** - Related leg entanglement threat
-- **[[Heel Hook from Saddle]]** - Primary submission threat to defend against from advanced entanglement
-- **[[Leg Entanglement]]** - Core conceptual framework
+- **[[Positions/Leg Knot]]** - Parent position (neutral perspective)
+- **[[Positions/Ashi Garami/Saddle]]** - Common advancement if defense fails
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Reversal target position
+- **[[Transitions/Ashi Garami Escape]]** - Related escape technique
+- **[[Positions/Half Guard]]** - Common escape target position
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Offensive counter-position
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Counter-entanglement option
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Related leg entanglement threat
+- **[[Transitions/Heel Hook from Saddle]]** - Primary submission threat to defend against from advanced entanglement
+- **[[Positions/Leg Entanglement]]** - Core conceptual framework
 
 
 </section>

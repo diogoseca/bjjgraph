@@ -186,7 +186,7 @@ description: "Master the attacker's approach to converting Reverse Mount into Si
 
 From reverse mount top, transitioning to side control requires a deliberate hip rotation that converts backward-facing dominance into the perpendicular alignment characteristic of standard side control. The attacker must manage weight distribution throughout the entire rotation arc, ensuring the opponent cannot exploit the transitional moment to insert frames, recover guard, or execute a bridge reversal. Success depends on pre-rotation hip blocking, smooth continuous rotation mechanics, and immediate crossface establishment as the rotation completes. This transition is the most conservative positional conversion available from reverse mount, offering the highest reliability and the most stable landing position among the three primary conversion options.
 
-**From Position**: [[Reverse Mount]] (Top)
+**From Position**: [[Positions/Reverse Mount]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ From reverse mount top, transitioning to side control requires a deliberate hip 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Reverse Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Reverse Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ From reverse mount top, transitioning to side control requires a deliberate hip 
 
 ## Opponent Counters
 
-- **Opponent times an explosive bridge during mid-rotation when attacker's base is compromised** (Effectiveness: High) - Your Response: Ride the bridge by staying heavy through your hips and widening your knees. If the bridge is strong enough to disrupt rotation, abandon the side control attempt and settle back into reverse mount to reset. Do not fight the bridge mid-rotation as this creates scramble opportunities. → Leads to [[Half Guard]]
-- **Opponent inserts near-side knee between bodies during rotation to recover half guard** (Effectiveness: High) - Your Response: Reinforce far hip blocking pressure before and during rotation. If knee insertion begins, drive your hip down aggressively to flatten their leg back to the mat. If half guard is established, immediately transition to half guard passing rather than forcing back to reverse mount. → Leads to [[Half Guard]]
-- **Opponent frames against your rotating shoulder or chest to create space during transition** (Effectiveness: Medium) - Your Response: Collapse the frame by driving your weight through it rather than around it. Maintain heavy chest pressure that makes the frame structurally insufficient. If the frame creates significant space, accelerate the rotation to reach side control before they can exploit the gap. → Leads to [[Reverse Mount]]
-- **Opponent turns away to turtle position during the rotation** (Effectiveness: Low) - Your Response: Follow their turn and transition to back control by inserting hooks rather than completing the side control conversion. Their turn actually creates a superior opportunity since back control is a more dominant position than the side control you were pursuing. → Leads to [[Reverse Mount]]
+- **Opponent times an explosive bridge during mid-rotation when attacker's base is compromised** (Effectiveness: High) - Your Response: Ride the bridge by staying heavy through your hips and widening your knees. If the bridge is strong enough to disrupt rotation, abandon the side control attempt and settle back into reverse mount to reset. Do not fight the bridge mid-rotation as this creates scramble opportunities. → Leads to [[Positions/Half Guard]]
+- **Opponent inserts near-side knee between bodies during rotation to recover half guard** (Effectiveness: High) - Your Response: Reinforce far hip blocking pressure before and during rotation. If knee insertion begins, drive your hip down aggressively to flatten their leg back to the mat. If half guard is established, immediately transition to half guard passing rather than forcing back to reverse mount. → Leads to [[Positions/Half Guard]]
+- **Opponent frames against your rotating shoulder or chest to create space during transition** (Effectiveness: Medium) - Your Response: Collapse the frame by driving your weight through it rather than around it. Maintain heavy chest pressure that makes the frame structurally insufficient. If the frame creates significant space, accelerate the rotation to reach side control before they can exploit the gap. → Leads to [[Positions/Reverse Mount]]
+- **Opponent turns away to turtle position during the rotation** (Effectiveness: Low) - Your Response: Follow their turn and transition to back control by inserting hooks rather than completing the side control conversion. Their turn actually creates a superior opportunity since back control is a more dominant position than the side control you were pursuing. → Leads to [[Positions/Reverse Mount]]
 
 
 </section>

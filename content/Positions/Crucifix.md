@@ -95,23 +95,23 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 ### Available Transitions
 
 
-- **[[Arm Extraction]]** (40% of attempts)
+- **[[Transitions/Arm Extraction]]** (40% of attempts)
 
-- **[[Shrimp Escape]]** (12% of attempts)
+- **[[Transitions/Shrimp Escape]]** (12% of attempts)
 
-- **[[Defensive Roll]]** (12% of attempts)
+- **[[Transitions/Defensive Roll]]** (12% of attempts)
 
-- **[[Explosive Bridge to Turtle]]** (15% of attempts)
+- **[[Transitions/Explosive Bridge to Turtle]]** (15% of attempts)
 
-- **[[Roll to Guard]]** (9% of attempts)
+- **[[Transitions/Roll to Guard]]** (9% of attempts)
 
-- **[[Hip Escape to Guard]]** (7% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (7% of attempts)
 
-- **[[Arm Recovery from Crucifix]]** (3% of attempts)
+- **[[Transitions/Arm Recovery from Crucifix]]** (3% of attempts)
 
-- **[[Crucifix Choke Defense]]** (1% of attempts)
+- **[[Transitions/Crucifix Choke Defense]]** (1% of attempts)
 
-- **[[Hip Escape from Crucifix]]** (1% of attempts)
+- **[[Transitions/Hip Escape from Crucifix]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -172,21 +172,21 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (8% of attempts)
+- **[[Transitions/Rear Naked Choke]]** (8% of attempts)
 
-- **[[Kimura]]** (6% of attempts)
+- **[[Transitions/Kimura]]** (6% of attempts)
 
-- **[[Back Control Maintenance]]** (19% of attempts)
+- **[[Transitions/Back Control Maintenance]]** (19% of attempts)
 
-- **[[Choke from Crucifix]]** (40% of attempts)
+- **[[Transitions/Choke from Crucifix]]** (40% of attempts)
 
-- **[[Armbar from Crucifix]]** (16% of attempts)
+- **[[Transitions/Armbar from Crucifix]]** (16% of attempts)
 
-- **[[Side Control to Mount]]** (6% of attempts)
+- **[[Transitions/Side Control to Mount]]** (6% of attempts)
 
-- **[[Crucifix Maintenance]]** (3% of attempts)
+- **[[Transitions/Crucifix Maintenance]]** (3% of attempts)
 
-- **[[Crucifix to Mount]]** (2% of attempts)
+- **[[Transitions/Crucifix to Mount]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -225,21 +225,21 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 ## Related Positions
 
 
-- **[[Back Control]]** - Primary entry position for crucifix establishment
+- **[[Positions/Back Control]]** - Primary entry position for crucifix establishment
 
-- **[[Turtle]]** - Common entry scenario when opponent defends back attacks
+- **[[Positions/Turtle]]** - Common entry scenario when opponent defends back attacks
 
-- **[[Mounted Crucifix]]** - Variation combining mount pressure with arm trapping
+- **[[Positions/Mount/Mounted Crucifix]]** - Variation combining mount pressure with arm trapping
 
-- **[[Gift Wrap]]** - Related arm isolation concept using different trapping mechanism
+- **[[Positions/Gift Wrap]]** - Related arm isolation concept using different trapping mechanism
 
-- **[[Seat Belt Control Back]]** - Back control variation used to set up arm isolation
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Back control variation used to set up arm isolation
 
-- **[[Side Control]]** - Alternative transition target when crucifix escapes occur
+- **[[Positions/Side Control]]** - Alternative transition target when crucifix escapes occur
 
-- **[[Mount]]** - Common transition when opponent attempts to roll from crucifix
+- **[[Positions/Mount]]** - Common transition when opponent attempts to roll from crucifix
 
-- **[[North-South]]** - Alternative dominant position accessible from crucifix transitions
+- **[[Positions/North-South]]** - Alternative dominant position accessible from crucifix transitions
 
 
 </section>

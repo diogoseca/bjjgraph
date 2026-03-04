@@ -180,7 +180,7 @@ description: "How to execute the transition from side control to Kesa Gatame in 
 
 Executing the transition to Kesa Gatame from side control requires a coordinated sequence of hip rotation, head control establishment, and arm trapping that must be performed while maintaining constant pressure on the opponent. The attacker's primary challenge is rotating their hips approximately 90 degrees from perpendicular alignment to face the opponent's head without creating space that allows guard recovery. This is accomplished through a systematic approach: first securing the head control by threading the arm under the opponent's neck, then isolating the near arm for trapping, and finally completing the hip rotation to establish the full scarf hold. The transition is most effective when the opponent's defensive attention is divided between multiple threats. By threatening submissions or mount transitions first, the attacker creates the defensive gaps necessary for the smooth rotation into Kesa Gatame. The position rewards practitioners who understand pressure distribution, as the scarf hold relies on chest and shoulder weight placed directly on the opponent's face and upper chest rather than the hip-to-hip connection that defines standard side control.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the transition to Kesa Gatame from side control requires a coordinated
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kesa Gatame]] | 70% |
-| Failure | [[Side Control]] | 20% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control/Kesa Gatame]] | 70% |
+| Failure | [[Positions/Side Control]] | 20% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the transition to Kesa Gatame from side control requires a coordinated
 
 ## Opponent Counters
 
-- **Opponent bridges explosively toward your posted leg attempting to roll you over** (Effectiveness: High) - Your Response: Immediately widen your posted leg and sprawl your hips back, driving more weight through your shoulder into their face. If the bridge is very strong, be ready to transition back to standard side control by rotating your hips back to perpendicular. A strong base with the far leg posted wide at 45 degrees prevents most bridge-and-roll attempts. → Leads to [[Side Control]]
-- **Opponent turns into you and begins to take your back by getting chest-to-chest** (Effectiveness: High) - Your Response: This is the primary vulnerability of Kesa Gatame. If you feel them turning in, immediately transition to mount by stepping your far leg over their body, using their own rotation to facilitate the mount. Alternatively, release the head wrap and rotate back to standard side control before they can establish back control. Never stay in compromised Kesa Gatame when they are actively turning in. → Leads to [[Side Control]]
-- **Opponent uses their free arm to push against your face or create frames on your shoulder** (Effectiveness: Medium) - Your Response: Control their free arm with your near leg by posting it across their body, or trap the arm using an overhook. If they extend the arm aggressively, switch to an americana attack on the free arm or transition to an arm triangle by walking your head control side toward their free arm to close the choking triangle. Their framing attempt becomes a submission opportunity. → Leads to [[Kesa Gatame]]
-- **Opponent shrimps their hips away from you and attempts guard recovery by inserting their knee** (Effectiveness: Medium) - Your Response: Follow their hip movement by adjusting your seated position to stay connected. Use your near leg to block their knee insertion by hooking or pressing against their far hip. If they create significant distance, transition to north-south rather than chasing the Kesa Gatame angle, as north-south naturally follows the direction of their hip escape. → Leads to [[Half Guard]]
+- **Opponent bridges explosively toward your posted leg attempting to roll you over** (Effectiveness: High) - Your Response: Immediately widen your posted leg and sprawl your hips back, driving more weight through your shoulder into their face. If the bridge is very strong, be ready to transition back to standard side control by rotating your hips back to perpendicular. A strong base with the far leg posted wide at 45 degrees prevents most bridge-and-roll attempts. → Leads to [[Positions/Side Control]]
+- **Opponent turns into you and begins to take your back by getting chest-to-chest** (Effectiveness: High) - Your Response: This is the primary vulnerability of Kesa Gatame. If you feel them turning in, immediately transition to mount by stepping your far leg over their body, using their own rotation to facilitate the mount. Alternatively, release the head wrap and rotate back to standard side control before they can establish back control. Never stay in compromised Kesa Gatame when they are actively turning in. → Leads to [[Positions/Side Control]]
+- **Opponent uses their free arm to push against your face or create frames on your shoulder** (Effectiveness: Medium) - Your Response: Control their free arm with your near leg by posting it across their body, or trap the arm using an overhook. If they extend the arm aggressively, switch to an americana attack on the free arm or transition to an arm triangle by walking your head control side toward their free arm to close the choking triangle. Their framing attempt becomes a submission opportunity. → Leads to [[Positions/Side Control/Kesa Gatame]]
+- **Opponent shrimps their hips away from you and attempts guard recovery by inserting their knee** (Effectiveness: Medium) - Your Response: Follow their hip movement by adjusting your seated position to stay connected. Use your near leg to block their knee insertion by hooking or pressing against their far hip. If they create significant distance, transition to north-south rather than chasing the Kesa Gatame angle, as north-south naturally follows the direction of their hip escape. → Leads to [[Positions/Half Guard]]
 
 
 </section>

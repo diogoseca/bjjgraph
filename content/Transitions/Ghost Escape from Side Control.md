@@ -21,7 +21,7 @@ The strategic value of this escape lies in its end position. Recovering to open 
 
 The primary difficulty is the precision required during the knee threading phase. The turning motion must create enough separation for the near knee to slide between your body and the opponent's chest, which demands precise timing and hip mechanics. If the knee insertion fails mid-turn, you end up in the standard ghost escape turtle position rather than guard, which is the most common counter outcome. The technique works best when the opponent's hip pressure is committed to one direction and their weight is concentrated on your upper body rather than your hips, giving your lower body the freedom needed to thread the knee barrier.
 
-**From Position**: [[Side Control]] (Bottom)
+**From Position**: [[Positions/Side Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The primary difficulty is the precision required during the knee threading phase
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Side Control]] | 30% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Side Control]] | 30% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Ghost Escape from Side Control occupies the advanced tier of the side contro
 ## Related Techniques
 
 
-- [[Side Control]] - Starting position from which this escape is initiated
+- [[Positions/Side Control]] - Starting position from which this escape is initiated
 
-- [[Open Guard]] - Primary target position upon successful completion of the escape
+- [[Positions/Open Guard]] - Primary target position upon successful completion of the escape
 
-- [[Turtle]] - Counter outcome position when opponent follows the turn and knee insertion fails
+- [[Positions/Turtle]] - Counter outcome position when opponent follows the turn and knee insertion fails
 
-- [[Ghost Escape]] - Standard ghost escape variant that targets turtle rather than direct guard recovery
+- [[Transitions/Ghost Escape]] - Standard ghost escape variant that targets turtle rather than direct guard recovery
 
-- [[Back Control]] - Risk position if opponent follows the turn and establishes hooks from turtle
+- [[Positions/Back Control]] - Risk position if opponent follows the turn and establishes hooks from turtle
 
-- [[Half Guard]] - Alternative guard recovery target from side control bottom
+- [[Positions/Half Guard]] - Alternative guard recovery target from side control bottom
 
-- [[Knee Shield Half Guard]] - Variant destination when full open guard recovery is not possible during the turn
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Variant destination when full open guard recovery is not possible during the turn
 
-- [[Bridge and Roll]] - Alternative explosive escape when opponent overcommits weight forward
+- [[Transitions/Bridge and Roll]] - Alternative explosive escape when opponent overcommits weight forward
 
-- [[North-South]] - Position opponent may transition to when recognizing the ghost escape setup
+- [[Positions/North-South]] - Position opponent may transition to when recognizing the ghost escape setup
 
-- [[Scramble Position]] - Dynamic state that can result from partially completed ghost escape with contested knee insertion
+- [[Positions/Scramble Position]] - Dynamic state that can result from partially completed ghost escape with contested knee insertion
 
 
 </section>

@@ -156,7 +156,7 @@ Defending the Position Reversal Sweep from 50-50 Guard Top requires understandin
 
 The most effective defensive approach is proactive rather than reactive. Maintaining heavy hip pressure and inside position control prevents the sweep conditions from developing in the first place. When you feel your opponent fighting for inside position or creating hip angle, immediately address these threats before they chain into the full sweep. Your weight distribution is your primary defensive weapon—keeping hips low and wide makes the elevation component mechanically impossible. Simultaneously, pursuing your own offensive submissions forces the bottom player to defend rather than initiate sweeps, creating a proactive defensive cycle where your offense is your best defense.
 
-**Opponent's Starting Position**: [[50-50 Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ The most effective defensive approach is proactive rather than reactive. Maintai
 ### 1. Drop hips low and widen base immediately upon feeling opponent create hip angle or fight for inside position
 
 - **When to use**: As soon as you recognize any of the sweep setup cues: inside position fight, hip angle creation, or grip fighting escalation
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Sweep attempt is denied entirely, opponent remains on bottom with no elevation possible, and you maintain top control with offensive initiative
 - **Risk**: Dropping hips low temporarily reduces your own submission leverage and may allow opponent to transition to Single Leg X-Guard if your weight commits too far forward
 
 ### 2. Post your hand on the mat on the side opponent is rotating toward to create structural block against the sweep direction
 
 - **When to use**: When opponent has already begun the rotation phase and hip elevation is in progress—this is a late-stage defensive reaction
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Rotation is physically blocked by your posted arm, sweep stalls, and you can reset to top position with hip pressure
 - **Risk**: Posted arm becomes vulnerable to Kimura or wrist control if opponent traps it during continued rotation attempt
 
 ### 3. Disengage legs entirely by extracting from the 50-50 entanglement and resetting to a neutral or passing position
 
 - **When to use**: When opponent has established strong inside position and hip angle making the sweep highly likely—sometimes the best defense is disengagement
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You escape the entanglement entirely and can re-engage from standing or pursue guard passing from a neutral position
 - **Risk**: Disengagement eliminates your own offensive position and heel hook opportunities, and opponent may also stand creating a neutral reset
 
 ### 4. Attack opponent's heel aggressively during their sweep setup to force them to abandon the sweep and defend the submission
 
 - **When to use**: When you recognize early sweep setup cues but still have heel access—forcing a defensive reaction interrupts their offensive sequence
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Opponent must abandon sweep setup to defend heel hook, potentially transitioning you into a more dominant leg entanglement as they scramble to protect their heel
 - **Risk**: Reaching forward for heel exposes your own base and may actually provide the timing window opponent needs if your attack is not committed enough
 
@@ -226,11 +226,11 @@ The most effective defensive approach is proactive rather than reactive. Maintai
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Deny the sweep entirely by maintaining heavy hip pressure, inside position control, and wide base. Address sweep setup cues immediately upon recognition—drop hips, widen base, and re-establish downward pressure before opponent can build elevation momentum. The goal is to return to status quo where you maintain top control.
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 When opponent commits heavily to the sweep and creates space in the entanglement, use their positional commitment against them by transitioning to Inside Ashi-Garami. As they rotate and shift weight for the sweep, disengage from 50-50 configuration and re-entangle their leg in Inside Ashi where you have superior submission access. Their sweep attempt created the opening you needed for a more dominant position.
 

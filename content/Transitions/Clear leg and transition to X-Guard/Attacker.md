@@ -178,7 +178,7 @@ The biomechanical foundation of this transition relies on understanding the rela
 
 Strategically, this transition exemplifies modern leg lock defense philosophy: never simply escape, but escape to a position of advantage. By establishing X-Guard rather than returning to neutral, practitioners maintain lower body control over their opponent while eliminating the immediate leg lock threats. The resulting X-Guard position offers immediate sweep opportunities and leg attack pathways of your own, effectively punishing the opponent for their failed leg entanglement attempt.
 
-**From Position**: [[Leg Knot]] (Bottom)
+**From Position**: [[Positions/Leg Knot]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategically, this transition exemplifies modern leg lock defense philosophy: n
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[X-Guard]] | 55% |
-| Failure | [[Leg Knot]] | 30% |
-| Counter | [[Saddle]] | 15% |
+| Success | [[Positions/X-Guard]] | 55% |
+| Failure | [[Positions/Leg Knot]] | 30% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, this transition exemplifies modern leg lock defense philosophy: n
 
 ## Opponent Counters
 
-- **Opponent backsteps away to disengage before hooks establish** (Effectiveness: High) - Your Response: Immediately pursue with a technical standup or follow into single leg X-Guard on the near leg rather than chasing the full X-Guard → Leads to [[Leg Knot]]
-- **Opponent drives forward and flattens you during the transition** (Effectiveness: Medium) - Your Response: Use the forward pressure to insert hooks and elevate—their forward drive actually loads weight onto your X-Guard structure for easier sweeping → Leads to [[X-Guard]]
-- **Opponent re-attacks the leg during clearing motion with fresh entanglement toward Saddle** (Effectiveness: Medium) - Your Response: Abort the X-Guard attempt and focus on completing the leg clear to neutral, then reassess—never force the transition against a re-established entanglement → Leads to [[Saddle]]
-- **Opponent posts hands and creates distance to prevent loading** (Effectiveness: Low) - Your Response: Use ankle grip to pull them back into range, or transition to technical standup while maintaining ankle control for wrestling-based attacks → Leads to [[Leg Knot]]
+- **Opponent backsteps away to disengage before hooks establish** (Effectiveness: High) - Your Response: Immediately pursue with a technical standup or follow into single leg X-Guard on the near leg rather than chasing the full X-Guard → Leads to [[Positions/Leg Knot]]
+- **Opponent drives forward and flattens you during the transition** (Effectiveness: Medium) - Your Response: Use the forward pressure to insert hooks and elevate—their forward drive actually loads weight onto your X-Guard structure for easier sweeping → Leads to [[Positions/X-Guard]]
+- **Opponent re-attacks the leg during clearing motion with fresh entanglement toward Saddle** (Effectiveness: Medium) - Your Response: Abort the X-Guard attempt and focus on completing the leg clear to neutral, then reassess—never force the transition against a re-established entanglement → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent posts hands and creates distance to prevent loading** (Effectiveness: Low) - Your Response: Use ankle grip to pull them back into range, or transition to technical standup while maintaining ankle control for wrestling-based attacks → Leads to [[Positions/Leg Knot]]
 
 
 </section>

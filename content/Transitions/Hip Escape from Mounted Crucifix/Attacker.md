@@ -180,7 +180,7 @@ description: "Execute the hip escape from mounted crucifix in BJJ. Step-by-step 
 
 Executing the hip escape from mounted crucifix requires coordinating explosive hip movement with precise timing to create the angular displacement necessary for arm extraction. The technique demands composure under extreme pressure, as panic-driven explosive movements waste energy without creating the specific angles needed to free trapped arms. The attacker must first establish defensive positioning to survive immediate submission threats, then generate lateral hip movement during windows created by the opponent's weight shifts or attack transitions. Success requires understanding that the escape is a sequential process: bridge to disrupt balance, hip escape to create angle, extract arms through the created space, then immediately transition to standard mount escape techniques.
 
-**From Position**: [[Mounted Crucifix]] (Bottom)
+**From Position**: [[Positions/Mount/Mounted Crucifix]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ Executing the hip escape from mounted crucifix requires coordinating explosive h
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Mounted Crucifix]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Mount/Mounted Crucifix]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ Executing the hip escape from mounted crucifix requires coordinating explosive h
 
 ## Opponent Counters
 
-- **Opponent squeezes knees tighter and re-centers weight during bridge attempt** (Effectiveness: High) - Your Response: Wait for the next weight shift rather than forcing through tight control. Use the bridge as a feint to draw the tightening response, then escape during the brief relaxation that follows their re-settling. → Leads to [[Mounted Crucifix]]
-- **Opponent transitions to back control during the hip escape movement** (Effectiveness: High) - Your Response: If you feel the opponent following your hip escape by inserting hooks, immediately abandon the lateral escape and turn back toward them to prevent full back exposure. Prioritize getting arms free even if position worsens temporarily. → Leads to [[Back Control]]
-- **Opponent posts hand on mat to maintain balance against the bridge** (Effectiveness: Medium) - Your Response: The posted hand means one less hand attacking you. Use this window to work on arm extraction while their base is supported by one hand rather than attacking your neck or controlling your arms. → Leads to [[Mount]]
-- **Opponent drives forward with chest pressure to flatten you after the bridge** (Effectiveness: Medium) - Your Response: Use their forward drive as the trigger for the hip escape - their commitment to forward pressure makes them vulnerable to lateral displacement. Their own momentum assists your angular change. → Leads to [[Mount]]
+- **Opponent squeezes knees tighter and re-centers weight during bridge attempt** (Effectiveness: High) - Your Response: Wait for the next weight shift rather than forcing through tight control. Use the bridge as a feint to draw the tightening response, then escape during the brief relaxation that follows their re-settling. → Leads to [[Positions/Mount/Mounted Crucifix]]
+- **Opponent transitions to back control during the hip escape movement** (Effectiveness: High) - Your Response: If you feel the opponent following your hip escape by inserting hooks, immediately abandon the lateral escape and turn back toward them to prevent full back exposure. Prioritize getting arms free even if position worsens temporarily. → Leads to [[Positions/Back Control]]
+- **Opponent posts hand on mat to maintain balance against the bridge** (Effectiveness: Medium) - Your Response: The posted hand means one less hand attacking you. Use this window to work on arm extraction while their base is supported by one hand rather than attacking your neck or controlling your arms. → Leads to [[Positions/Mount]]
+- **Opponent drives forward with chest pressure to flatten you after the bridge** (Effectiveness: Medium) - Your Response: Use their forward drive as the trigger for the hip escape - their commitment to forward pressure makes them vulnerable to lateral displacement. Their own momentum assists your angular change. → Leads to [[Positions/Mount]]
 
 
 </section>

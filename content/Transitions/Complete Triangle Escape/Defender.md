@@ -146,7 +146,7 @@ description: "Prevent the complete triangle escape as the attacking triangle hol
 
 As the person defending against the Complete Triangle Escape, you are the practitioner who has established the triangle choke and must now prevent your opponent from completing their extraction sequence. Your triangle has reached the phase where the trapped person has established defensive posture and is actively working to dismantle your submission, meaning your window for finishing the triangle through tightening alone is closing. Your defensive strategy shifts from pure finishing pressure to a combination of maintaining triangle integrity, disrupting escape mechanics at each phase, and threatening secondary attacks that punish escape attempts. Understanding the escape sequence your opponent is executing allows you to identify which phase they are in and apply the specific counter that disrupts that phase. The most effective defense combines active triangle maintenance with strategic transitions to armbar or omoplata when triangle integrity is compromised beyond recovery.
 
-**Opponent's Starting Position**: [[Triangle Escape Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Triangle Escape Position]] (Bottom)
 
 </section>
 
@@ -186,28 +186,28 @@ As the person defending against the Complete Triangle Escape, you are the practi
 ### 1. Re-lock and tighten triangle by pulling head down forcefully while squeezing legs and readjusting figure-four position
 
 - **When to use**: When you detect early stacking pressure increase or circular stepping initiation, before significant triangle looseness develops
-- **Targets**: [[Triangle Escape Position]]
+- **Targets**: [[Positions/Triangle Escape Position]]
 - **If successful**: Opponent's escape progress resets to zero, requiring them to re-establish defensive posture and restart the entire escape sequence
 - **Risk**: If re-locking fails, you may have temporarily loosened your own triangle during the readjustment, creating an extraction window
 
 ### 2. Transition to armbar by uncrossing legs and pivoting hips to isolate the trapped arm for extension
 
 - **When to use**: When opponent's trapped arm elbow separates from their ribs during extraction attempt, creating space for arm isolation
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: Opponent transitions from triangle defense to armbar defense, maintaining your offensive pressure with a different submission threat
 - **Risk**: Releasing the triangle removes the choking threat permanently. If the armbar transition fails, opponent may escape to closed guard top
 
 ### 3. Match opponent's circular step by scooting hips laterally to maintain perpendicular choking angle
 
 - **When to use**: When opponent begins circular stepping pattern and you have sufficient hip mobility to track their movement despite stacking pressure
-- **Targets**: [[Triangle Escape Position]]
+- **Targets**: [[Positions/Triangle Escape Position]]
 - **If successful**: Opponent's circular stepping fails to create angular change, preserving your triangle structure and forcing them to find alternative escape routes
 - **Risk**: Hip scooting under stacking pressure is energy-intensive and may compromise your hip elevation, reducing choking effectiveness
 
 ### 4. Attempt omoplata transition by releasing triangle lock and swinging choking leg over opponent's trapped shoulder
 
 - **When to use**: When triangle integrity is significantly compromised and opponent has created enough space that finishing the triangle is unlikely
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Transitions to omoplata control where you maintain offensive pressure through a different submission pathway
 - **Risk**: Releasing the triangle completely during omoplata transition may allow opponent to posture up and extract before the omoplata is established
 
@@ -219,11 +219,11 @@ As the person defending against the Complete Triangle Escape, you are the practi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Triangle Escape Position]]
+### → [[Positions/Triangle Escape Position]]
 
 Maintain active triangle pressure by constantly re-locking when looseness develops, matching opponent's circular stepping with hip angle adjustments, and pulling their head down to counter postural recovery. Force repeated escape attempt resets until opponent fatigues or makes an exploitable error.
 
-### → [[Armbar Control]]
+### → [[Positions/Armbar Control]]
 
 When opponent's trapped arm elbow separates from their ribs during extraction attempt, immediately pivot hips, uncross legs from triangle configuration, and isolate the arm for extension. The armbar transition is most effective when the opponent commits to arm extraction, as their rotational mechanic temporarily exposes the arm to isolation.
 

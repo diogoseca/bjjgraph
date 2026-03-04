@@ -21,7 +21,7 @@ The grip control established in the Kimura position provides exceptional leverag
 
 Understanding this transition fundamentally changes how practitioners approach the Kimura, transforming it from merely a submission attempt into a positional control system that offers multiple attacking pathways. The transition creates a classic dilemma: defend the shoulder lock and expose the back, or protect the back and risk the submission finish. This forced choice is what makes the Kimura to Back Take one of the most reliable positional advancement tools in the modern grappling arsenal.
 
-**From Position**: [[Kimura Trap]] (Top)
+**From Position**: [[Positions/Kimura Trap]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Understanding this transition fundamentally changes how practitioners approach t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 58% |
-| Failure | [[Kimura Trap]] | 30% |
-| Counter | [[Half Guard]] | 12% |
+| Success | [[Positions/Back Control]] | 58% |
+| Failure | [[Positions/Kimura Trap]] | 30% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>
@@ -194,29 +194,29 @@ The Kimura to Back Take is a cornerstone transition in modern Brazilian Jiu-Jits
 ## Related Techniques
 
 
-- [[Kimura Trap]] - Starting position - grip configuration and control preceding transition
+- [[Positions/Kimura Trap]] - Starting position - grip configuration and control preceding transition
 
-- [[Back Control]] - Ending position - destination of successful transition
+- [[Positions/Back Control]] - Ending position - destination of successful transition
 
-- [[Kimura]] - Submission threat that creates defensive reaction enabling transition
+- [[Transitions/Kimura]] - Submission threat that creates defensive reaction enabling transition
 
-- [[Kimura from Side Control]] - Common entry point - primary context for initiating transition
+- [[Submissions/Kimura from Side Control]] - Common entry point - primary context for initiating transition
 
-- [[Kimura from Turtle]] - Alternative entry - variation from top turtle position
+- [[Submissions/Kimura from Turtle]] - Alternative entry - variation from top turtle position
 
-- [[Rear Naked Choke]] - Follow-up attack - primary submission after establishing back control
+- [[Transitions/Rear Naked Choke]] - Follow-up attack - primary submission after establishing back control
 
-- [[Seat Belt Control Back]] - Follow-up position - control system established after transition
+- [[Positions/Back Control/Seat Belt Control Back]] - Follow-up position - control system established after transition
 
-- [[Armbar from Back]] - Alternative finish - submission option from achieved back position
+- [[Submissions/Armbar from Back]] - Alternative finish - submission option from achieved back position
 
-- [[Back Take]] - Related technique - alternative back take method from various positions
+- [[Transitions/Back Take]] - Related technique - alternative back take method from various positions
 
-- [[Gift Wrap]] - Alternative control - related arm control system from back position
+- [[Positions/Gift Wrap]] - Alternative control - related arm control system from back position
 
-- [[Side Control]] - Common starting position - often where Kimura grip is first established
+- [[Positions/Side Control]] - Common starting position - often where Kimura grip is first established
 
-- [[Half Guard]] - Counter outcome position - where defender may end up if counter-escape succeeds
+- [[Positions/Half Guard]] - Counter outcome position - where defender may end up if counter-escape succeeds
 
 
 </section>

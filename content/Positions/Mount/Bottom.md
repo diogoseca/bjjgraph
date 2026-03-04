@@ -215,21 +215,21 @@ Energy management is the hidden variable in mount defense. The top player expend
 
 ## Available Escapes
 
-### [[Elbow Escape from Mount]] (35% of attempts)
+### [[Transitions/Elbow Escape from Mount]] (35% of attempts)
 
-### [[Upa Escape]] (22% of attempts)
+### [[Transitions/Upa Escape]] (22% of attempts)
 
-### [[Explosive Bridge to Guard Recovery]] (15% of attempts)
+### [[Transitions/Explosive Bridge to Guard Recovery]] (15% of attempts)
 
-### [[Trap and Roll from Mount]] (10% of attempts)
+### [[Transitions/Trap and Roll from Mount]] (10% of attempts)
 
-### [[Heel Drag Escape]] (7% of attempts)
+### [[Transitions/Heel Drag Escape]] (7% of attempts)
 
-### [[Explosive Bridge to Turtle]] (5% of attempts)
+### [[Transitions/Explosive Bridge to Turtle]] (5% of attempts)
 
-### [[Bridge and Roll]] (4% of attempts)
+### [[Transitions/Bridge and Roll]] (4% of attempts)
 
-### [[Mount Escape to Half Guard Back Take]] (2% of attempts)
+### [[Transitions/Mount Escape to Half Guard Back Take]] (2% of attempts)
 
 
 
@@ -240,28 +240,28 @@ Energy management is the hidden variable in mount defense. The top player expend
 ## Decision Making from This Position
 
 **If opponent establishes high mount with knees near armpits limiting arm movement:**
-- Execute **[[Frame and Shrimp to Guard]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Elbow Escape from Mount]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Elbow Escape from Mount]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 **If opponent maintains low mount with heavy forward pressure on hips:**
-- Execute **[[Upa Escape]]** → [[Closed Guard]] (Probability: 45%)
-- Execute **[[Elbow Escape from Mount]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Transitions/Upa Escape]]** → [[Positions/Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Elbow Escape from Mount]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If opponent isolates one arm and begins submission attack sequence:**
-- Execute **[[Explosive Bridge to Guard Recovery]]** → [[Half Guard]] (Probability: 60%)
-- Execute **[[Bridge and Roll]]** → [[Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Explosive Bridge to Guard Recovery]]** → [[Positions/Half Guard]] (Probability: 60%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 35%)
 
 
 **If opponent transitions to technical mount inserting one hook:**
-- Execute **[[Hip Escape to Turtle]]** → [[Turtle]] (Probability: 50%)
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Hip Escape to Turtle]]** → [[Positions/Turtle]] (Probability: 50%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 35%)
 
 
 **If opponent reaches forward for collar grips with weight shifting to hands:**
-- Execute **[[Upa Escape]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Trap and Roll from Mount]]** → [[Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Upa Escape]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Trap and Roll from Mount]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
 
@@ -368,12 +368,12 @@ Partner in mount, bottom practitioner practices explosive bridges with proper sa
 
 ## Related Positions and Techniques
 
-- **[[Closed Guard]]** - Primary target position for successful mount escape via upa or complete hip escape
-- **[[Half Guard]]** - Common intermediate recovery position during hip escape sequence from mount
-- **[[Deep Half Guard]]** - Advanced recovery option from mount when standard escapes are unavailable
-- **[[Elbow Escape from Mount]]** - Primary technical escape using hip movement and knee shield insertion from mount
-- **[[Upa Escape]]** - Explosive bridge-and-roll reversal technique requiring arm and leg trap
-- **[[Bridge and Roll]]** - Fundamental bridge escape recovering guard through rotational momentum
+- **[[Positions/Closed Guard]]** - Primary target position for successful mount escape via upa or complete hip escape
+- **[[Positions/Half Guard]]** - Common intermediate recovery position during hip escape sequence from mount
+- **[[Positions/Half Guard/Deep Half Guard]]** - Advanced recovery option from mount when standard escapes are unavailable
+- **[[Transitions/Elbow Escape from Mount]]** - Primary technical escape using hip movement and knee shield insertion from mount
+- **[[Transitions/Upa Escape]]** - Explosive bridge-and-roll reversal technique requiring arm and leg trap
+- **[[Transitions/Bridge and Roll]]** - Fundamental bridge escape recovering guard through rotational momentum
 
 
 </section>

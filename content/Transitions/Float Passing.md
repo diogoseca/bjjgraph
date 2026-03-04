@@ -21,7 +21,7 @@ Float passing creates passing opportunities by forcing opponents to constantly a
 
 This approach requires excellent balance, timing, and the ability to read opponent reactions in real-time, making it a favorite among competitors who prefer speed and athleticism over grinding pressure. Float passing integrates naturally with toreando, leg drag, and backstep passing sequences, creating a comprehensive movement-based passing system that adapts to the opponent's guard style and retention patterns.
 
-**From Position**: [[Open Guard]] (Top)
+**From Position**: [[Positions/Open Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ This approach requires excellent balance, timing, and the ability to read oppone
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Success | [[Knee on Belly]] | 10% |
-| Failure | [[Open Guard]] | 25% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 55% |
+| Success | [[Positions/Knee on Belly]] | 10% |
+| Failure | [[Positions/Open Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -193,29 +193,29 @@ Float passing serves as a primary guard passing strategy that integrates seamles
 ## Related Techniques
 
 
-- [[Toreando Pass]] - Complementary technique sharing lateral movement concepts and grip configurations
+- [[Transitions/Toreando Pass]] - Complementary technique sharing lateral movement concepts and grip configurations
 
-- [[Leg Drag Pass]] - Follow-up option when floating creates leg drag opportunities
+- [[Transitions/Leg Drag Pass]] - Follow-up option when floating creates leg drag opportunities
 
-- [[Knee Slice Pass]] - Alternative pass when floating creates knee insertion windows
+- [[Transitions/Knee Slice Pass]] - Alternative pass when floating creates knee insertion windows
 
-- [[X Pass]] - Complementary technique using similar grip and movement principles
+- [[Transitions/X Pass]] - Complementary technique using similar grip and movement principles
 
-- [[Long Step Pass]] - Alternative approach using similar distance management
+- [[Transitions/Long Step Pass]] - Alternative approach using similar distance management
 
-- [[Headquarters Position]] - Transition position when opponent sits up during floating
+- [[Positions/Headquarters Position]] - Transition position when opponent sits up during floating
 
-- [[Combat Base]] - Alternative starting position for lower-level float passing
+- [[Positions/Combat Base]] - Alternative starting position for lower-level float passing
 
-- [[Side Control]] - Primary ending position after successful pass
+- [[Positions/Side Control]] - Primary ending position after successful pass
 
-- [[Knee on Belly]] - Alternative ending position for maintaining mobility after pass
+- [[Positions/Knee on Belly]] - Alternative ending position for maintaining mobility after pass
 
-- [[Open Guard]] - Starting position where float passing is initiated
+- [[Positions/Open Guard]] - Starting position where float passing is initiated
 
-- [[Bullfighter Pass]] - Related lateral passing technique with similar grip control principles
+- [[Transitions/Bullfighter Pass]] - Related lateral passing technique with similar grip control principles
 
-- [[Back Step Pass]] - Complementary technique using direction reversal during floating movement
+- [[Transitions/Back Step Pass]] - Complementary technique using direction reversal during floating movement
 
 
 </section>

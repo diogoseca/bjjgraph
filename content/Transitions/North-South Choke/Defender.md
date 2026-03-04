@@ -156,7 +156,7 @@ Defending the North-South Choke requires early recognition and immediate action,
 
 The critical defensive principle is preventing the arm from threading under your neck in the first place. This means maintaining active frames against the attacker's chest, keeping your chin tucked, and fighting any attempt to isolate your arms. If the arm does get partially threaded, the defender must act immediately to create space through bridging or hip escape before the attacker drops their ear to your chest and seals the compression. Understanding the attacker's progression sequence allows you to identify the exact moment where defensive intervention is most effective and least energy-intensive.
 
-**Opponent's Starting Position**: [[North-South]] (Top)
+**Opponent's Starting Position**: [[Positions/North-South]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The critical defensive principle is preventing the arm from threading under your
 ### 1. Frame against attacker's chest with both forearms and bridge to create space before arm threads deep
 
 - **When to use**: As soon as you feel the attacker begin sliding their arm under your neck during the initial threading phase
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: Attacker cannot complete the arm thread and must abandon the choke, returning to standard North-South control where you can continue working escapes
 - **Risk**: If the bridge is too late or too weak, the attacker may sprawl through it and complete the arm thread during your descent
 
 ### 2. Hip escape toward the choking arm side while framing against attacker's shoulder to create angle and recover guard
 
 - **When to use**: When the attacker commits weight to one side during the choke setup, creating a momentary gap on the choking arm side
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough angle to insert a knee and recover half guard, escaping the choke threat entirely
 - **Risk**: If the hip escape is incomplete, you may end up in a worse angle with the arm still partially threaded and your frames compromised
 
 ### 3. Tuck chin tight and fight the threading arm with both hands, stripping the grip before it seats under your neck
 
 - **When to use**: Early in the setup when the attacker's arm is not yet deep under your neck and you can still access it with your hands
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: The choking arm is pushed out and cannot reach deep enough for carotid compression, forcing the attacker to reset or change attacks
 - **Risk**: Using both hands to fight the arm leaves you without frames against the chest, and if the attacker switches to a Kimura your arms may be exposed
 
 ### 4. Turn into the attacker and get to your knees to turtle position before the choke is sealed
 
 - **When to use**: When the arm is partially threaded but the chest seal is not yet complete, and you have enough hip mobility to turn
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: You escape the choke entirely by changing the angle, though you may need to defend turtle position
 - **Risk**: Turning exposes your back and the attacker may transition to a front headlock, guillotine, or take your back if you turn too slowly
 
@@ -227,11 +227,11 @@ The critical defensive principle is preventing the arm from threading under your
 
 ## Best-Case Outcomes for Defender
 
-### → [[North-South]]
+### → [[Positions/North-South]]
 
 Create frames against attacker's chest early in the setup and use explosive bridging to prevent the arm from threading deep. Fight any attempt to isolate your arms while keeping your chin tucked. Force the attacker to abandon the choke and return to standard North-South control where you can continue systematic escape sequences.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 During the attacker's weight shift as they commit to threading the arm, hip escape toward the choking arm side and insert your knee between your bodies. The attacker's focus on the choke creates an opening for guard recovery because their arm positioning prioritizes the submission over maintaining the pin. Convert the space into half guard by trapping their leg with yours.
 

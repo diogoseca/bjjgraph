@@ -180,7 +180,7 @@ description: "Execute the Reverse Kesa to North-South transition. Step-by-step g
 
 Executing the Reverse Kesa to North-South transition requires maintaining continuous chest pressure while rotating your body approximately ninety degrees around your opponent's upper torso. The key lies in treating your chest as a rolling contact point that never lifts during the transition. Your starting position in reverse kesa already orients you facing the opponent's legs, so the rotation moves you toward their head until you achieve the characteristic perpendicular alignment of north-south. Throughout this arc, your primary concern is preventing any gap in pressure that would allow the bottom player to insert frames or begin hip escape sequences. The transition demands coordinated movement of your feet, hips, chest, and arms working in concert rather than sequential isolation of each element.
 
-**From Position**: [[Reverse Kesa-Gatame]] (Top)
+**From Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Reverse Kesa to North-South transition requires maintaining contin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[North-South]] | 55% |
-| Failure | [[Reverse Kesa-Gatame]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/North-South]] | 55% |
+| Failure | [[Positions/Side Control/Reverse Kesa-Gatame]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Reverse Kesa to North-South transition requires maintaining contin
 
 ## Opponent Counters
 
-- **Bridge and hip escape during the rotation midpoint when pressure is lightest** (Effectiveness: High) - Your Response: Anticipate the bridge by keeping hips low throughout the transition. If they bridge, ride it by staying connected rather than fighting the lift. Use their bridging momentum to accelerate your rotation past the vulnerable midpoint. If they create significant space, abort the transition and re-settle into reverse kesa before reattempting. → Leads to [[Half Guard]]
-- **Frame insertion with forearms as chest pressure shifts during rotation** (Effectiveness: Medium) - Your Response: Prevent frame insertion by maintaining constant downward chest pressure throughout the arc. If a frame is partially established, drive your shoulder into it to collapse the structure before it solidifies. Keep your chest heavy enough that there is no gap for forearms to enter between your torso and theirs. → Leads to [[Reverse Kesa-Gatame]]
-- **Grab the far leg during rotation to stall the transition and disrupt base** (Effectiveness: Medium) - Your Response: Keep your legs moving in small steps that are difficult to catch. If they grab a leg, use your free leg to post and continue the rotation by switching your base. Alternatively, use the arm that was controlling their far arm to strip their grip before they can establish a hold on your leg. → Leads to [[Reverse Kesa-Gatame]]
-- **Turn to side and attempt to recover half guard by inserting near knee during grip transition** (Effectiveness: High) - Your Response: This is the highest-percentage counter because it targets the grip transition moment when arm control is weakest. Minimize the window by pre-securing the north-south underhook before releasing the reverse kesa grip. If the knee enters, immediately shift to a half guard passing sequence rather than forcing the north-south completion. → Leads to [[Half Guard]]
+- **Bridge and hip escape during the rotation midpoint when pressure is lightest** (Effectiveness: High) - Your Response: Anticipate the bridge by keeping hips low throughout the transition. If they bridge, ride it by staying connected rather than fighting the lift. Use their bridging momentum to accelerate your rotation past the vulnerable midpoint. If they create significant space, abort the transition and re-settle into reverse kesa before reattempting. → Leads to [[Positions/Half Guard]]
+- **Frame insertion with forearms as chest pressure shifts during rotation** (Effectiveness: Medium) - Your Response: Prevent frame insertion by maintaining constant downward chest pressure throughout the arc. If a frame is partially established, drive your shoulder into it to collapse the structure before it solidifies. Keep your chest heavy enough that there is no gap for forearms to enter between your torso and theirs. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
+- **Grab the far leg during rotation to stall the transition and disrupt base** (Effectiveness: Medium) - Your Response: Keep your legs moving in small steps that are difficult to catch. If they grab a leg, use your free leg to post and continue the rotation by switching your base. Alternatively, use the arm that was controlling their far arm to strip their grip before they can establish a hold on your leg. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
+- **Turn to side and attempt to recover half guard by inserting near knee during grip transition** (Effectiveness: High) - Your Response: This is the highest-percentage counter because it targets the grip transition moment when arm control is weakest. Minimize the window by pre-securing the north-south underhook before releasing the reverse kesa grip. If the knee enters, immediately shift to a half guard passing sequence rather than forcing the north-south completion. → Leads to [[Positions/Half Guard]]
 
 
 </section>

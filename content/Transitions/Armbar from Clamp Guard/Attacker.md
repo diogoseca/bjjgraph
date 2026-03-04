@@ -186,7 +186,7 @@ description: "Learn to execute the armbar from clamp guard with precision. Step-
 
 The armbar from clamp guard is a high-percentage submission setup that capitalizes on the arm isolation already established by the clamp position. As the attacker, your shin-on-bicep control has accomplished the most difficult part of any armbar — separating the target arm from the opponent's body. The transition requires converting this bilateral leg clamp into the classic armbar configuration by swinging your outside leg over the opponent's head while maintaining wrist control throughout. The critical window of vulnerability occurs during the leg swing, when the clamp momentarily opens and the opponent has their best chance to extract. Mastering the timing and speed of this transition, combined with grip management and hip positioning, determines whether the clamp guard armbar becomes a reliable weapon or an inconsistent attempt that leaks position.
 
-**From Position**: [[Clamp Guard]] (Bottom)
+**From Position**: [[Positions/Clamp Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ The armbar from clamp guard is a high-percentage submission setup that capitaliz
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 50% |
-| Failure | [[Clamp Guard]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Armbar Control]] | 50% |
+| Failure | [[Positions/Clamp Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ The armbar from clamp guard is a high-percentage submission setup that capitaliz
 
 ## Opponent Counters
 
-- **Opponent clasps hands together to prevent arm extension** (Effectiveness: High) - Your Response: Attack the grip by wedging your forearm between their clasped hands and prying apart. Alternatively, transition to a triangle by shooting your outside leg under their chin, as their clasped hands remove one arm from defending the choke. You can also attack the kimura by controlling their wrist and rotating the trapped arm behind their back. → Leads to [[Clamp Guard]]
-- **Opponent stacks forward during or after the leg swing to compress your guard** (Effectiveness: Medium) - Your Response: Frame against their shoulder with your free hand and angle your body away from the stack. If stacking continues, transition to a triangle by swinging your leg over their head — their forward posture actually facilitates this entry. You can also underhook their far leg and sweep them over the top if their weight commits too far forward. → Leads to [[Clamp Guard]]
-- **Opponent explosively retracts arm during the leg swing transition window** (Effectiveness: High) - Your Response: If the arm is partially extracted, immediately re-establish clamp guard by clamping both legs back down on whatever portion of the arm remains accessible. If the arm is fully extracted, transition your legs to open guard frames on their hips and re-engage grip fighting to re-establish position rather than chasing the lost arm. → Leads to [[Open Guard]]
-- **Opponent turns their body into the armbar and attempts to sit up through the legs** (Effectiveness: Medium) - Your Response: Drive your leg across their face harder and scoot your hips away to maintain the perpendicular angle. If they continue turning, follow their rotation and consider transitioning to a belly-down armbar position by rolling over their trapped arm, which converts their defensive rotation into your advantage. → Leads to [[Clamp Guard]]
+- **Opponent clasps hands together to prevent arm extension** (Effectiveness: High) - Your Response: Attack the grip by wedging your forearm between their clasped hands and prying apart. Alternatively, transition to a triangle by shooting your outside leg under their chin, as their clasped hands remove one arm from defending the choke. You can also attack the kimura by controlling their wrist and rotating the trapped arm behind their back. → Leads to [[Positions/Clamp Guard]]
+- **Opponent stacks forward during or after the leg swing to compress your guard** (Effectiveness: Medium) - Your Response: Frame against their shoulder with your free hand and angle your body away from the stack. If stacking continues, transition to a triangle by swinging your leg over their head — their forward posture actually facilitates this entry. You can also underhook their far leg and sweep them over the top if their weight commits too far forward. → Leads to [[Positions/Clamp Guard]]
+- **Opponent explosively retracts arm during the leg swing transition window** (Effectiveness: High) - Your Response: If the arm is partially extracted, immediately re-establish clamp guard by clamping both legs back down on whatever portion of the arm remains accessible. If the arm is fully extracted, transition your legs to open guard frames on their hips and re-engage grip fighting to re-establish position rather than chasing the lost arm. → Leads to [[Positions/Open Guard]]
+- **Opponent turns their body into the armbar and attempts to sit up through the legs** (Effectiveness: Medium) - Your Response: Drive your leg across their face harder and scoot your hips away to maintain the perpendicular angle. If they continue turning, follow their rotation and consider transitioning to a belly-down armbar position by rolling over their trapped arm, which converts their defensive rotation into your advantage. → Leads to [[Positions/Clamp Guard]]
 
 
 </section>

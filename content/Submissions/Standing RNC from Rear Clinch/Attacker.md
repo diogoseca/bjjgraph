@@ -182,7 +182,7 @@ description: "Master the offensive Standing RNC from Rear Clinch. Learn seatbelt
 
 Executing the Standing RNC from Rear Clinch requires seamless transition from seatbelt control to the choking configuration while maintaining chest-to-back pressure and standing balance. The attacker must recognize when the opponent's neck defense weakens—typically during grip fighting, posture changes, or moments of panic—and commit decisively to the choke. Success depends on precise forearm placement across the carotid arteries, figure-four lock mechanics, and chest expansion to generate finishing pressure without relying on arm strength alone. The standing position demands a wider base and heavier forward pressure than the ground version to prevent the opponent from using movement and directional changes to escape. Advanced practitioners develop the ability to flow between the choke attempt and takedown options, using the submission threat to force defensive reactions that open up other attacks.
 
-**From Position**: [[Standing Rear Clinch]] (Top)
+**From Position**: [[Positions/Standing Rear Clinch]] (Top)
 
 
 </section>
@@ -236,9 +236,9 @@ Executing the Standing RNC from Rear Clinch requires seamless transition from se
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 35% |
-| Failure | [[Standing Rear Clinch]] | 35% |
-| Counter | [[Standing Position]] | 15% |
-| Counter | [[Clinch]] | 15% |
+| Failure | [[Positions/Standing Rear Clinch]] | 35% |
+| Counter | [[Positions/Standing Position]] | 15% |
+| Counter | [[Positions/Clinch]] | 15% |
 
 
 </section>
@@ -247,11 +247,11 @@ Executing the Standing RNC from Rear Clinch requires seamless transition from se
 
 ## Opponent Defenses
 
-- **Opponent tucks chin tightly to chest, blocking forearm entry under the jaw** (Effectiveness: High) - Your Response: Use your head to apply lateral pressure on opponent's jaw to pry chin up, or walk them backward to force posture extension. Alternatively, apply the choke over the chin as a jaw crush to force them to open, then slide under once they adjust. → Leads to [[Standing Rear Clinch]]
-- **Opponent grabs choking arm wrist with both hands in two-on-one grip strip defense** (Effectiveness: High) - Your Response: Immediately switch the attacking arm—release the choking attempt and re-establish seatbelt, then attack with the opposite arm while opponent's hands are committed to the wrong side. Alternatively, use the two-on-one engagement to transition to a takedown since their hands are occupied. → Leads to [[Standing Rear Clinch]]
-- **Opponent executes hip escape and turns to face attacker, recovering to clinch position** (Effectiveness: Medium) - Your Response: Follow their rotation by circling in the same direction, maintaining chest contact as a pivot point. If they complete partial rotation, transition to front headlock or snap down rather than fighting to regain back position against their momentum. → Leads to [[Clinch]]
-- **Opponent drops level suddenly to turtle or kneeling position to change the choke angle** (Effectiveness: Medium) - Your Response: Follow them to the ground immediately, maintaining the choking grip and transitioning to grounded back control with hooks. The descent often loosens their chin defense, creating a finishing opportunity during the transition. → Leads to [[Standing Rear Clinch]]
-- **Opponent executes standing switch or hip reversal to escape behind the attacker** (Effectiveness: Low) - Your Response: Prevent by maintaining heavy chest-to-back pressure with hips offset to one side. If they initiate the switch, use the choking arm to anchor their upper body and circle your hips to maintain position behind them. → Leads to [[Standing Position]]
+- **Opponent tucks chin tightly to chest, blocking forearm entry under the jaw** (Effectiveness: High) - Your Response: Use your head to apply lateral pressure on opponent's jaw to pry chin up, or walk them backward to force posture extension. Alternatively, apply the choke over the chin as a jaw crush to force them to open, then slide under once they adjust. → Leads to [[Positions/Standing Rear Clinch]]
+- **Opponent grabs choking arm wrist with both hands in two-on-one grip strip defense** (Effectiveness: High) - Your Response: Immediately switch the attacking arm—release the choking attempt and re-establish seatbelt, then attack with the opposite arm while opponent's hands are committed to the wrong side. Alternatively, use the two-on-one engagement to transition to a takedown since their hands are occupied. → Leads to [[Positions/Standing Rear Clinch]]
+- **Opponent executes hip escape and turns to face attacker, recovering to clinch position** (Effectiveness: Medium) - Your Response: Follow their rotation by circling in the same direction, maintaining chest contact as a pivot point. If they complete partial rotation, transition to front headlock or snap down rather than fighting to regain back position against their momentum. → Leads to [[Positions/Clinch]]
+- **Opponent drops level suddenly to turtle or kneeling position to change the choke angle** (Effectiveness: Medium) - Your Response: Follow them to the ground immediately, maintaining the choking grip and transitioning to grounded back control with hooks. The descent often loosens their chin defense, creating a finishing opportunity during the transition. → Leads to [[Positions/Standing Rear Clinch]]
+- **Opponent executes standing switch or hip reversal to escape behind the attacker** (Effectiveness: Low) - Your Response: Prevent by maintaining heavy chest-to-back pressure with hips offset to one side. If they initiate the switch, use the choking arm to anchor their upper body and circle your hips to maintain position behind them. → Leads to [[Positions/Standing Position]]
 
 
 </section>

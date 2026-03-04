@@ -186,7 +186,7 @@ description: "Learn to execute the inside heel hook from saddle position. Step-b
 
 Executing the heel hook from saddle requires systematic transition from positional control to finishing grip through a precise hierarchy of actions. The attacker must have established the saddle with perpendicular alignment, hip pressure, and inside position before committing to the heel hook finish. The critical insight separating successful finishers from those who lose position is patience—the finishing grip sequence follows a strict order: structural control grips, heel capture, figure-four reinforcement, and only then controlled rotational application. Rushing any stage telegraphs the attack and gives the defender time to hide the heel, strip grips, or initiate escape rotation. The entire finishing sequence should feel methodical and inevitable rather than explosive and opportunistic, with your body weight and structural mechanics doing the work rather than muscular effort.
 
-**From Position**: [[Saddle]] (Top)
+**From Position**: [[Positions/Ashi Garami/Saddle]] (Top)
 
 </section>
 
@@ -241,9 +241,9 @@ Executing the heel hook from saddle requires systematic transition from position
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Saddle]] | 25% |
-| Failure | [[Inside Ashi-Garami]] | 15% |
-| Counter | [[50-50 Guard]] | 10% |
+| Failure | [[Positions/Ashi Garami/Saddle]] | 25% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 10% |
 
 
 </section>
@@ -252,10 +252,10 @@ Executing the heel hook from saddle requires systematic transition from position
 
 ## Opponent Counters
 
-- **Opponent hides heel by rotating knee inward and pressing heel against their own hip** (Effectiveness: High) - Your Response: Maintain ankle control and apply sustained hip pressure forward while using your inside leg to elevate their knee slightly, fatiguing the heel-hiding posture. If the heel remains hidden, transition to straight ankle lock or toe hold attacking the exposed foot from the opposite angle, forcing a defensive dilemma that re-exposes the heel. → Leads to [[Saddle]]
-- **Opponent strips finishing grip with aggressive two-on-one grip fighting before figure-four is locked** (Effectiveness: High) - Your Response: Do not chase the heel. Return to positional control by re-establishing ankle grip and hip pressure. Wait for their grip-fighting hands to tire through repeated cycles of grip establishment and stripping. Each cycle favors the attacker because positional control is maintained while the defender expends energy on grip defense. → Leads to [[Saddle]]
-- **Opponent frames on hips with free leg and begins rotational escape to extract trapped leg** (Effectiveness: Medium) - Your Response: Follow their rotation by driving your hips forward and adjusting your angle to stay perpendicular. Hook or control their free leg to eliminate the push frame. If they create enough space to loosen your configuration, transition to inside ashi garami as a fallback and rebuild toward saddle. → Leads to [[Inside Ashi-Garami]]
-- **Opponent explosively counter-entangles by rotating toward your legs to enter 50-50 Guard** (Effectiveness: Medium) - Your Response: Tighten your leg configuration and drive hips forward the moment you feel rotational intent. If they commit fully and reach 50-50, accept the position change and immediately compete for heel exposure from the 50-50 configuration, which still offers finishing opportunities albeit from a less dominant platform. → Leads to [[50-50 Guard]]
+- **Opponent hides heel by rotating knee inward and pressing heel against their own hip** (Effectiveness: High) - Your Response: Maintain ankle control and apply sustained hip pressure forward while using your inside leg to elevate their knee slightly, fatiguing the heel-hiding posture. If the heel remains hidden, transition to straight ankle lock or toe hold attacking the exposed foot from the opposite angle, forcing a defensive dilemma that re-exposes the heel. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent strips finishing grip with aggressive two-on-one grip fighting before figure-four is locked** (Effectiveness: High) - Your Response: Do not chase the heel. Return to positional control by re-establishing ankle grip and hip pressure. Wait for their grip-fighting hands to tire through repeated cycles of grip establishment and stripping. Each cycle favors the attacker because positional control is maintained while the defender expends energy on grip defense. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent frames on hips with free leg and begins rotational escape to extract trapped leg** (Effectiveness: Medium) - Your Response: Follow their rotation by driving your hips forward and adjusting your angle to stay perpendicular. Hook or control their free leg to eliminate the push frame. If they create enough space to loosen your configuration, transition to inside ashi garami as a fallback and rebuild toward saddle. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent explosively counter-entangles by rotating toward your legs to enter 50-50 Guard** (Effectiveness: Medium) - Your Response: Tighten your leg configuration and drive hips forward the moment you feel rotational intent. If they commit fully and reach 50-50, accept the position change and immediately compete for heel exposure from the 50-50 configuration, which still offers finishing opportunities albeit from a less dominant platform. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 
 
 </section>

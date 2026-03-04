@@ -154,7 +154,7 @@ description: "Master defending the transition to Diamond Guard. Recognize overho
 
 As the defender against the Transition to Diamond Guard, your objective is to prevent the bottom player from establishing the combined overhook and head control that creates the diamond frame. Once the diamond is fully locked, your ability to recover posture and defend submissions diminishes significantly, making early recognition and proactive prevention critical to your defensive success. Your defensive priorities are maintaining strong upright posture, keeping your arms from being captured in overhook position by managing their placement, and being prepared to stand and break the guard if the bottom player begins establishing diamond grips. Understanding that the diamond requires a specific sequential setup — overhook first, then head control — gives you multiple intervention windows to disrupt the transition before it reaches completion.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ As the defender against the Transition to Diamond Guard, your objective is to pr
 ### 1. Pull your arm straight back before the overhook deepens past your tricep
 
 - **When to use**: Immediately when you feel the opponent's arm swimming over your bicep — the first two seconds are the critical window before the overhook locks
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: The diamond transition fails and you remain in standard closed guard with the ability to resume guard opening sequences
 - **Risk**: If the strip fails, your backward pulling motion may actually deepen the overhook by driving your arm further into the hook
 
 ### 2. Drive hips forward and walk hands back on the mat to recover full upright posture before head control is added
 
 - **When to use**: When the overhook is partially established but the opponent has not yet added head control — you have a window before the diamond completes
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Strong posture stretches the overhook and makes head control establishment significantly harder, often forcing the opponent to release and reset
 - **Risk**: If posture recovery is too slow, the opponent adds head control during your recovery attempt, completing the diamond while you are mid-transition
 
 ### 3. Stand up immediately to break the guard during the grip transition period
 
 - **When to use**: When you detect the bottom player releasing standard grips to begin the overhook sequence — the grip change momentarily weakens their leg squeeze
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Guard opens entirely, transitioning to open guard passing where the incomplete diamond grips provide significantly less control
 - **Risk**: If the bottom player has already secured the overhook, standing with a deep overhook can create awkward shoulder angles and sweep vulnerability
 
 ### 4. Circle your head to the outside and drive forward to collapse the diamond frame from within
 
 - **When to use**: When the diamond is partially or fully established and other options have failed — this is the last-resort escape from an established diamond
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Circling the head breaks the diamond geometry and allows you to re-establish posture with head positioning that denies the frame structure
 - **Risk**: Driving forward into the diamond can expose you to triangle entries if the opponent releases head control and shoots their leg across your neck
 
@@ -224,11 +224,11 @@ As the defender against the Transition to Diamond Guard, your objective is to pr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Strip the overhook early before head control is added by pulling your arm straight back and immediately establishing upright posture with both hands on the opponent's hips. The key is speed — react within the first two seconds of feeling the swimming motion over your bicep before the elbow clears your tricep and the overhook locks.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Stand up during the grip transition window when the opponent is adjusting from standard grips to the overhook configuration. Their momentary grip release weakens the leg squeeze, creating the opening to stand, break the guard at the ankles, and transition to open guard passing where you have significant initiative advantage.
 

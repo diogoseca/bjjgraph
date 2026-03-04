@@ -180,7 +180,7 @@ description: "Complete attacking guide for the Rolling Back Take from Half Butte
 
 Executing the Rolling Back Take from Half Butterfly requires establishing precise control prerequisites before committing to the roll. The attacker must secure a deep underhook reaching past the opponent's armpit, maintain active butterfly hook elevation, and recognize the specific weight distribution patterns that create the window for this technique. The roll itself is a commitment move with limited ability to abort once initiated, making proper setup identification the difference between landing in back control and being stuffed into a worse position. The attacker's primary challenge is threading the needle between sufficient setup depth and commitment timing, as hesitation allows the top player to recognize and counter the attempt while premature commitment without proper prerequisites leads to failed rolls and positional loss.
 
-**From Position**: [[Half Butterfly]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Rolling Back Take from Half Butterfly requires establishing precis
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Half Butterfly]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Butterfly Guard/Half Butterfly]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Rolling Back Take from Half Butterfly requires establishing precis
 
 ## Opponent Counters
 
-- **Opponent sprawls hips backward when detecting the rolling motion, dropping weight onto the attacker's upper body** (Effectiveness: High) - Your Response: If the sprawl is detected early before full commitment, abort the roll and recover half butterfly guard position. If the roll is past the point of no return, accelerate the rotation and aim for at minimum a crab ride or turtle top position rather than stalling mid-roll under their weight. → Leads to [[Side Control]]
-- **Opponent applies deep whizzer on the underhook arm to prevent rotational leverage and limit underhook depth** (Effectiveness: Medium) - Your Response: Redirect to a standard butterfly sweep toward the whizzer side, using the opponent's whizzer commitment against them since it removes their posting ability on that side. The whizzer creates the sweep opening that the rolling back take was designed to create through different mechanics. → Leads to [[Half Butterfly]]
-- **Opponent drives forward aggressively with crossface pressure to flatten the attacker and close the armpit space** (Effectiveness: Medium) - Your Response: Accept the forward pressure momentarily and transition to deep half guard by shooting your outside arm beneath their hips while using the butterfly hook to manage their weight. The forward drive creates deep half guard entry opportunities that can eventually lead to back takes through alternative pathways. → Leads to [[Half Butterfly]]
-- **Opponent posts hand wide and bases out with knees spread to resist the rolling momentum** (Effectiveness: Low) - Your Response: Exploit the wide base by attacking a standard half butterfly sweep to the posted side, as the widened stance reduces lateral stability. The wide post simultaneously creates more space under the armpit for the rolling back take, so the opponent faces a dilemma between sweep defense and roll defense. → Leads to [[Half Butterfly]]
+- **Opponent sprawls hips backward when detecting the rolling motion, dropping weight onto the attacker's upper body** (Effectiveness: High) - Your Response: If the sprawl is detected early before full commitment, abort the roll and recover half butterfly guard position. If the roll is past the point of no return, accelerate the rotation and aim for at minimum a crab ride or turtle top position rather than stalling mid-roll under their weight. → Leads to [[Positions/Side Control]]
+- **Opponent applies deep whizzer on the underhook arm to prevent rotational leverage and limit underhook depth** (Effectiveness: Medium) - Your Response: Redirect to a standard butterfly sweep toward the whizzer side, using the opponent's whizzer commitment against them since it removes their posting ability on that side. The whizzer creates the sweep opening that the rolling back take was designed to create through different mechanics. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
+- **Opponent drives forward aggressively with crossface pressure to flatten the attacker and close the armpit space** (Effectiveness: Medium) - Your Response: Accept the forward pressure momentarily and transition to deep half guard by shooting your outside arm beneath their hips while using the butterfly hook to manage their weight. The forward drive creates deep half guard entry opportunities that can eventually lead to back takes through alternative pathways. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
+- **Opponent posts hand wide and bases out with knees spread to resist the rolling momentum** (Effectiveness: Low) - Your Response: Exploit the wide base by attacking a standard half butterfly sweep to the posted side, as the widened stance reduces lateral stability. The wide post simultaneously creates more space under the armpit for the rolling back take, so the opponent faces a dilemma between sweep defense and roll defense. → Leads to [[Positions/Butterfly Guard/Half Butterfly]]
 
 
 </section>

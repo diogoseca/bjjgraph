@@ -231,8 +231,8 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -241,11 +241,11 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 ## Opponent Defenses
 
-- **Opponent grabs their own belt or gi pants to prevent figure-four completion** (Effectiveness: High) - Your Response: Control their wrist first with both hands, break the defensive grip by extending their arm away from their body, then quickly swim your figure-four through before they can re-grip → Leads to [[Half Guard]]
+- **Opponent grabs their own belt or gi pants to prevent figure-four completion** (Effectiveness: High) - Your Response: Control their wrist first with both hands, break the defensive grip by extending their arm away from their body, then quickly swim your figure-four through before they can re-grip → Leads to [[Positions/Half Guard]]
 - **Opponent rolls forward over their trapped shoulder to escape rotational pressure** (Effectiveness: Medium) - Your Response: Maintain figure-four grip throughout their roll, release half guard, and follow them to their back. You'll arrive in turtle or back control with Kimura grip still intact. This often leads to the back take or armbar transition → Leads to [[game-over]]
 - **Opponent posts free hand on mat and drives weight through it to prevent rotation** (Effectiveness: Low) - Your Response: Use their posted hand as a pivot point to execute the Kimura sweep. Hip escape to create angle, use your legs to elevate their trapped side, and sweep them over their posted arm to achieve top position while maintaining the Kimura grip → Leads to [[game-over]]
 - **Opponent pulls their elbow tight to their body and hunches forward to minimize rotation range** (Effectiveness: Medium) - Your Response: This defensive posture often exposes their back. Transition to the back take by releasing your half guard, getting your bottom hook in, and securing seat belt control. Alternatively, use the Kimura grip to off-balance them and set up alternative submissions → Leads to [[game-over]]
-- **Opponent explosively withdraws their arm before figure-four is secured** (Effectiveness: High) - Your Response: If they successfully pull their arm free early, transition immediately to alternative attacks like the guillotine (if their head is low) or re-establish half guard control and restart the sequence. Prevention is better: secure wrist control early and don't commit to figure-four until proper setup → Leads to [[Closed Guard]]
+- **Opponent explosively withdraws their arm before figure-four is secured** (Effectiveness: High) - Your Response: If they successfully pull their arm free early, transition immediately to alternative attacks like the guillotine (if their head is low) or re-establish half guard control and restart the sequence. Prevention is better: secure wrist control early and don't commit to figure-four until proper setup → Leads to [[Positions/Closed Guard]]
 
 
 </section>

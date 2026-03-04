@@ -21,7 +21,7 @@ When executed properly, the Basic Butterfly Sweep transitions smoothly into moun
 
 This is considered an essential technique for all BJJ practitioners and forms the foundation for more advanced butterfly guard sweeping systems. It serves as the entry point to understanding how inside position via hooks creates mechanical leverage, how grip control prevents defensive posting, and how timing with opponent weight shifts determines success rate. Mastery of the basic butterfly sweep unlocks the entire butterfly guard attacking system including back takes, leg entanglements, and submission chains.
 
-**From Position**: [[Butterfly Guard]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard]] (Bottom)
 **Success Rate**: 62%
 
 </section>
@@ -32,9 +32,9 @@ This is considered an essential technique for all BJJ practitioners and forms th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 62% |
-| Failure | [[Butterfly Guard]] | 25% |
-| Counter | [[Butterfly Guard]] | 13% |
+| Success | [[Positions/Mount]] | 62% |
+| Failure | [[Positions/Butterfly Guard]] | 25% |
+| Counter | [[Positions/Butterfly Guard]] | 13% |
 
 
 </section>
@@ -199,29 +199,29 @@ The Basic Butterfly Sweep is a cornerstone technique within the broader butterfl
 ## Related Techniques
 
 
-- [[Butterfly Guard]] - Starting Position - Primary position from which technique is executed
+- [[Positions/Butterfly Guard]] - Starting Position - Primary position from which technique is executed
 
-- [[Butterfly Hook Control]] - Core Principle - Essential hook control mechanism for sweep leverage
+- [[Positions/Butterfly Guard/Butterfly Hook Control]] - Core Principle - Essential hook control mechanism for sweep leverage
 
-- [[Mount]] - Ending Position - Primary finishing position after successful sweep
+- [[Positions/Mount]] - Ending Position - Primary finishing position after successful sweep
 
-- [[Elevator Sweep]] - Variation - Alternative butterfly sweep using vertical elevation mechanics
+- [[Transitions/Elevator Sweep]] - Variation - Alternative butterfly sweep using vertical elevation mechanics
 
-- [[Hook Sweep]] - Variation - One-sided butterfly sweep emphasizing asymmetric hook drive
+- [[Transitions/Hook Sweep]] - Variation - One-sided butterfly sweep emphasizing asymmetric hook drive
 
-- [[Arm Drag to Back]] - Setup Technique - Creates forward weight commitment that opens sweep
+- [[Transitions/Arm Drag to Back]] - Setup Technique - Creates forward weight commitment that opens sweep
 
-- [[Butterfly Guard to X-Guard]] - Alternative Transition - Option when sweep is defended by standing
+- [[Transitions/Butterfly Guard to X-Guard]] - Alternative Transition - Option when sweep is defended by standing
 
-- [[Single Leg X-Guard]] - Counter Option - Transition when opponent posts hand to defend sweep
+- [[Positions/X-Guard/Single Leg X-Guard]] - Counter Option - Transition when opponent posts hand to defend sweep
 
-- [[Deep Half Entry]] - Counter Option - Alternative when opponent sprawls hips back
+- [[Transitions/Deep Half Entry]] - Counter Option - Alternative when opponent sprawls hips back
 
-- [[Kimura from Guard]] - Submission Threat - Attack on posted arm during sweep defense
+- [[Submissions/Kimura from Guard]] - Submission Threat - Attack on posted arm during sweep defense
 
-- [[Guillotine Choke]] - Combination Attack - Submission threat from butterfly that facilitates sweep
+- [[Transitions/Guillotine Choke]] - Combination Attack - Submission threat from butterfly that facilitates sweep
 
-- [[Marcelo Garcia Butterfly Guard System]] - System Integration - Complete system built around butterfly sweeps
+- [[Systems/Marcelo Garcia Butterfly Guard System]] - System Integration - Complete system built around butterfly sweeps
 
 
 </section>

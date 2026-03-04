@@ -21,7 +21,7 @@ This technique is particularly valuable against experienced defenders who mainta
 
 In competition contexts, the Guard Pass from Chill Dog offers a time-efficient path to a scoring position. While back-take attempts from turtle can result in extended exchanges with uncertain outcomes, completing the pass to side control secures three points and immediately opens the full range of dominant position attacks including Americana, kimura, arm triangle, and mount transitions. This makes it an essential tool for practitioners who need to convert turtle control into tangible competitive advantage within the time constraints of a match.
 
-**From Position**: [[Chill Dog]] (Top)
+**From Position**: [[Positions/Rubber Guard/Chill Dog]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ In competition contexts, the Guard Pass from Chill Dog offers a time-efficient p
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Chill Dog]] | 32% |
-| Counter | [[Closed Guard]] | 18% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Rubber Guard/Chill Dog]] | 32% |
+| Counter | [[Positions/Closed Guard]] | 18% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Guard Pass from Chill Dog connects the turtle attacking system directly to t
 ## Related Techniques
 
 
-- [[Chill Dog]] - Starting position - technique initiates from top control of this defensive turtle variant
+- [[Positions/Rubber Guard/Chill Dog]] - Starting position - technique initiates from top control of this defensive turtle variant
 
-- [[Side Control]] - Target position on successful pass completion, opening submission and advancement chains
+- [[Positions/Side Control]] - Target position on successful pass completion, opening submission and advancement chains
 
-- [[Closed Guard]] - Counter outcome when defender successfully recovers guard during pass attempt
+- [[Positions/Closed Guard]] - Counter outcome when defender successfully recovers guard during pass attempt
 
-- [[Turtle]] - Parent position family - Chill Dog is a specific turtle variant
+- [[Positions/Turtle]] - Parent position family - Chill Dog is a specific turtle variant
 
-- [[Back Control]] - Alternative advancement path from Chill Dog top that creates passing dilemma
+- [[Positions/Back Control]] - Alternative advancement path from Chill Dog top that creates passing dilemma
 
-- [[Escape Chill Dog]] - Defender's primary escape transition that the pass must prevent
+- [[Transitions/Escape Chill Dog]] - Defender's primary escape transition that the pass must prevent
 
-- [[Anaconda from Turtle]] - Alternative submission attack available from similar turtle top position
+- [[Transitions/Anaconda from Turtle]] - Alternative submission attack available from similar turtle top position
 
-- [[Front Headlock]] - Alternative control position if opponent lifts head during pass attempt
+- [[Positions/Front Headlock]] - Alternative control position if opponent lifts head during pass attempt
 
-- [[Knee on Belly]] - Continuation option after establishing side control from successful pass
+- [[Positions/Knee on Belly]] - Continuation option after establishing side control from successful pass
 
-- [[Half Guard]] - Intermediate position defender may reach during partial escape from pass
+- [[Positions/Half Guard]] - Intermediate position defender may reach during partial escape from pass
 
 
 </section>

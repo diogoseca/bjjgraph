@@ -180,7 +180,7 @@ description: "How to execute Morote Seoi Nage in BJJ. Attacking perspective with
 
 Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo technique that has proven highly effective in Brazilian Jiu-Jitsu competition and self-defense scenarios. Unlike the single-handed Ippon Seoi Nage, this variation maintains grips on both sleeves or wrists throughout the throw, providing superior control and reducing the opponent's ability to counter. The technique exploits forward momentum or pressure, using a rotating entry to load the opponent onto your back before executing an explosive forward projection. This throw is particularly effective in gi competition where sleeve control is paramount, and it transitions seamlessly into dominant top positions like side control or mount. The Morote Seoi Nage requires precise timing, strong hip positioning, and excellent kuzushi (off-balancing) to execute successfully against resisting opponents. When mastered, it becomes a high-percentage technique that can score immediate points in competition while establishing superior position for submission attacks or control.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -235,9 +235,9 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Failure | [[Standing Position]] | 20% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Side Control]] | 70% |
+| Failure | [[Positions/Standing Position]] | 20% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -246,10 +246,10 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 
 ## Opponent Counters
 
-- **Sprawl and whizzer defense** (Effectiveness: Medium) - Your Response: If opponent sprawls early, immediately switch to single leg attack or snap down to front headlock. If they establish whizzer, continue rotation and use their resistance to complete throw in modified direction. → Leads to [[Standing Position]]
-- **Break grips and create distance** (Effectiveness: High) - Your Response: Prevent grip breaks by keeping elbows close to body and using circular motion rather than straight pulls. If grips are broken, immediately re-establish or transition to alternative takedown like arm drag or ankle pick. → Leads to [[Standing Position]]
-- **Post and spin to turtle** (Effectiveness: Medium) - Your Response: Maintain strong downward pull on arms throughout throw to prevent posting. If opponent manages to post, follow them to turtle position and immediately attack back control or front headlock position. → Leads to [[Side Control]]
-- **Counter-throw attempt** (Effectiveness: Low) - Your Response: Commit fully to your rotation and maintain low hip position. If opponent attempts counter, your momentum and positioning will typically override their attempt if entry is correct. Continue explosive upward drive with legs. → Leads to [[Standing Position]]
+- **Sprawl and whizzer defense** (Effectiveness: Medium) - Your Response: If opponent sprawls early, immediately switch to single leg attack or snap down to front headlock. If they establish whizzer, continue rotation and use their resistance to complete throw in modified direction. → Leads to [[Positions/Standing Position]]
+- **Break grips and create distance** (Effectiveness: High) - Your Response: Prevent grip breaks by keeping elbows close to body and using circular motion rather than straight pulls. If grips are broken, immediately re-establish or transition to alternative takedown like arm drag or ankle pick. → Leads to [[Positions/Standing Position]]
+- **Post and spin to turtle** (Effectiveness: Medium) - Your Response: Maintain strong downward pull on arms throughout throw to prevent posting. If opponent manages to post, follow them to turtle position and immediately attack back control or front headlock position. → Leads to [[Positions/Side Control]]
+- **Counter-throw attempt** (Effectiveness: Low) - Your Response: Commit fully to your rotation and maintain low hip position. If opponent attempts counter, your momentum and positioning will typically override their attempt if entry is correct. Continue explosive upward drive with legs. → Leads to [[Positions/Standing Position]]
 
 
 </section>

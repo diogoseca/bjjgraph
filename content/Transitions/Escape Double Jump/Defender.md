@@ -146,7 +146,7 @@ description: "Learn to defend against the Escape Double Jump as the top player. 
 
 The defender in Escape Double Jump is the top player who has successfully stopped the opponent's double jump guard entry and now seeks to prevent their safe retreat to half guard. Having already neutralized the bottom player's primary attack, the defender should capitalize on the transitional vulnerability created by the failed entry. The extraction phase creates brief windows of reduced leg control that present excellent passing opportunities. By driving crossface pressure, timing pass attempts during leg extraction, and chaining techniques against the retreating guard player, the top player can convert a defensive success into dominant positional advancement to side control or a flattened half guard.
 
-**Opponent's Starting Position**: [[Double Jump]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Double Jump]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ The defender in Escape Double Jump is the top player who has successfully stoppe
 ### 1. Drive heavy crossface and sprawl weight forward to flatten bottom player during extraction
 
 - **When to use**: As soon as you recognize the bottom player is beginning to retract their legs, before they establish forearm frames
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Bottom player ends up flat on their back in flattened half guard, giving you dominant upper body control and clear passing lane
 - **Risk**: If bottom player's frames are already established, your forward drive may be absorbed without achieving the flattening effect
 
 ### 2. Step over or backstep to pass during the leg extraction transition window
 
 - **When to use**: When the bottom player has extracted their inside leg but not yet inserted their knee shield—the brief gap in structural defense
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Complete the guard pass to side control by clearing their reorganizing legs during the vulnerable transition moment
 - **Risk**: If timed too early, bottom player may use your stepping motion to accelerate their guard recovery
 
 ### 3. Control the extracting leg and drive knee slice pass through the reorganizing guard
 
 - **When to use**: When the bottom player begins extracting their inside leg and there is a brief moment of reduced leg control and entanglement
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Convert the escape attempt into a complete guard pass by controlling the leg being extracted and slicing through to side control
 - **Risk**: Bottom player may switch to a different guard variation like lockdown if you commit to the knee slice too aggressively
 
 ### 4. Maintain heavy pressure and wait for the escape to stall, then advance systematic passing sequence
 
 - **When to use**: When the bottom player's frames are strong and immediate counters during extraction are not available
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Patient sustained pressure eventually degrades the bottom player's frames, leading to flattened position with passing opportunities
 - **Risk**: Gives the bottom player time to complete the escape and consolidate if your pressure is insufficient to prevent frame maintenance
 
@@ -217,11 +217,11 @@ The defender in Escape Double Jump is the top player who has successfully stoppe
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Time your pass attempt during the leg extraction phase when the bottom player has reduced leg control. Drive knee slice or backstep pass while they are focused on retreating rather than defending the pass. The transition window between inside leg extraction and knee shield insertion is the optimal moment to attack.
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Drive heavy crossface and hip pressure immediately when you recognize the escape beginning. Prevent the frame establishment that the escape depends on by keeping your chest connected to theirs, forcing the bottom player into a compromised flat position with no offensive capability.
 

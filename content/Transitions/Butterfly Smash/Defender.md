@@ -156,7 +156,7 @@ Defending the Butterfly Smash requires understanding the attacker's systematic p
 
 The defensive framework operates on a hierarchy: first, prevent the initial structure collapse by maintaining posture and active hooks; second, if posture is compromised, use frames and hip movement to create distance and recover seated position; third, if hooks are being cleared, transition to alternative guard positions like half guard, deep half guard, or X-guard rather than fighting to maintain a compromised butterfly guard. The most successful defenders combine active hook pressure with grip fighting to prevent the passer from establishing the control points needed to initiate the smash sequence.
 
-**Opponent's Starting Position**: [[Butterfly Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ The defensive framework operates on a hierarchy: first, prevent the initial stru
 ### 1. Pump hooks explosively while maintaining upright posture and pulling opponent forward with collar or underhook grip to execute a butterfly sweep
 
 - **When to use**: Early in the engagement before the passer establishes chest pressure and before your posture is broken. Most effective when passer leans forward committing weight
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: You sweep the opponent and achieve top position, completely negating their passing attempt
 - **Risk**: If the sweep fails, you may have used your explosive effort and the passer can capitalize on the momentary structural compromise to accelerate their smash
 
 ### 2. Execute an arm drag on the passer's lead arm to access their back, pulling their arm across your body while circling behind their shoulder line
 
 - **When to use**: When the passer reaches forward to establish collar or sleeve grips, creating the opportunity to redirect their arm. Most effective before they tighten elbows to body
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: You access the opponent's back or at minimum force them to reset their passing attempt entirely, returning to neutral engagement
 - **Risk**: If the arm drag fails and the passer recovers quickly, they will have inside position and can immediately re-initiate their pressure sequence with better control
 
 ### 3. Frame on the opponent's shoulders and biceps, shrimp your hips away to create distance, then re-establish seated posture with active hooks
 
 - **When to use**: When the passer has begun driving pressure and your posture is being compromised but hooks are still active. This is the primary recovery mechanism when the smash is in progress
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: You reset the distance and recover your seated butterfly guard posture, forcing the passer to restart their approach
 - **Risk**: Framing requires extending your arms, which can expose them to grip strips or allow the passer to secure underhooks during your recovery attempt
 
 ### 4. Transition to half guard by capturing one of the passer's legs between yours as they begin clearing your first hook, establishing knee shield immediately
 
 - **When to use**: When the first hook is being successfully cleared and you cannot prevent the collapse. This is a defensive retreat to a more sustainable guard position
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: You establish half guard with knee shield, denying the complete pass and maintaining a guard position with sweep and recovery options
 - **Risk**: If you transition too slowly, the passer may clear both hooks and achieve side control before you can establish the half guard lock
 
@@ -226,11 +226,11 @@ The defensive framework operates on a hierarchy: first, prevent the initial stru
 
 ## Best-Case Outcomes for Defender
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 Maintain aggressive hook pressure and upright posture throughout the engagement. Fight every grip the passer attempts and threaten constant sweeps to prevent them from settling into their pressure game. Use arm drags and collar pulls to keep them off-balance and reactive.
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 Execute a well-timed butterfly sweep when the passer commits their weight forward to initiate the smash. Coordinate upper body pulling with lower body elevation to convert their forward pressure into the momentum needed for the sweep reversal.
 

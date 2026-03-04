@@ -186,7 +186,7 @@ description: "Complete guide to executing the hip escape from Russian Cowboy bot
 
 Executing the hip escape from Russian Cowboy requires a disciplined, sequential approach that addresses each layer of the opponent's control system before committing to the escape movement. The bottom player must first neutralize immediate submission threats through hand fighting and chin protection, then establish structural frames against the opponent's body to create the space necessary for hip movement. The escape itself involves a coordinated lateral hip escape combined with active hook management, directing movement toward the opponent's free leg side to avoid feeding into truck position. Success depends on recognizing the precise moment when the opponent's control is weakest and executing the escape with commitment and proper direction.
 
-**From Position**: [[Russian Cowboy]] (Bottom)
+**From Position**: [[Positions/Russian Cowboy]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ Executing the hip escape from Russian Cowboy requires a disciplined, sequential 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Russian Cowboy]] | 40% |
-| Counter | [[Truck]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Russian Cowboy]] | 40% |
+| Counter | [[Positions/Twister Control/Truck]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ Executing the hip escape from Russian Cowboy requires a disciplined, sequential 
 
 ## Opponent Counters
 
-- **Opponent tightens seatbelt and drives chest forward to eliminate frame space** (Effectiveness: High) - Your Response: Abandon current escape timing and return to survival frames. Wait for next grip adjustment window before reattempting. Consider switching to gradual frame-and-escape variant that works incrementally rather than requiring a single large movement. → Leads to [[Russian Cowboy]]
-- **Opponent threads second hook during hip escape movement to advance to truck position** (Effectiveness: High) - Your Response: If you feel the second hook threading, immediately reverse your hip direction and close your knees together to block the second leg entry. Prioritize knee-together defense over completing the escape. If truck is established, switch to truck-specific escape protocols. → Leads to [[Truck]]
-- **Opponent follows hip escape by walking their hips to match your movement and re-establishing chest contact** (Effectiveness: Medium) - Your Response: Chain multiple hip escapes in sequence rather than relying on a single shrimp. Each hip escape should create incremental distance even if the opponent follows. Use the cumulative distance from two to three connected shrimps to eventually clear the hook. → Leads to [[Russian Cowboy]]
-- **Opponent attacks the neck during escape attempt when hands leave defensive position** (Effectiveness: Medium) - Your Response: If you feel the choke tightening, immediately abort the escape and return both hands to neck defense. Re-establish chin tuck and two-on-one control. Never continue an escape attempt while a choke is materializing as the escape movement accelerates the finish. → Leads to [[Russian Cowboy]]
+- **Opponent tightens seatbelt and drives chest forward to eliminate frame space** (Effectiveness: High) - Your Response: Abandon current escape timing and return to survival frames. Wait for next grip adjustment window before reattempting. Consider switching to gradual frame-and-escape variant that works incrementally rather than requiring a single large movement. → Leads to [[Positions/Russian Cowboy]]
+- **Opponent threads second hook during hip escape movement to advance to truck position** (Effectiveness: High) - Your Response: If you feel the second hook threading, immediately reverse your hip direction and close your knees together to block the second leg entry. Prioritize knee-together defense over completing the escape. If truck is established, switch to truck-specific escape protocols. → Leads to [[Positions/Twister Control/Truck]]
+- **Opponent follows hip escape by walking their hips to match your movement and re-establishing chest contact** (Effectiveness: Medium) - Your Response: Chain multiple hip escapes in sequence rather than relying on a single shrimp. Each hip escape should create incremental distance even if the opponent follows. Use the cumulative distance from two to three connected shrimps to eventually clear the hook. → Leads to [[Positions/Russian Cowboy]]
+- **Opponent attacks the neck during escape attempt when hands leave defensive position** (Effectiveness: Medium) - Your Response: If you feel the choke tightening, immediately abort the escape and return both hands to neck defense. Re-establish chin tuck and two-on-one control. Never continue an escape attempt while a choke is materializing as the escape movement accelerates the finish. → Leads to [[Positions/Russian Cowboy]]
 
 
 </section>

@@ -21,7 +21,7 @@ The core mechanical challenge lies in executing a controlled 90-degree hip rotat
 
 This transition is strategically chosen when the top player recognizes that side control offers a more stable attacking platform than attempting mount conversion or back take from reverse mount. It is particularly valuable against opponents who actively defend standard mount rotation by framing against the chest, or who present defensive postures that make hook insertion for back control impractical. The resulting side control position provides immediate access to americana, kimura, arm triangle, and north-south choke sequences from a consolidated base that can be maintained for extended periods with minimal energy expenditure.
 
-**From Position**: [[Reverse Mount]] (Top)
+**From Position**: [[Positions/Reverse Mount]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition is strategically chosen when the top player recognizes that side
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Reverse Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Reverse Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Reverse Mount to Side Control transition occupies a critical role in the top
 ## Related Techniques
 
 
-- [[Reverse Mount]] - Source position - the transitional dominant position from which this conversion initiates
+- [[Positions/Reverse Mount]] - Source position - the transitional dominant position from which this conversion initiates
 
-- [[Side Control]] - Target position on success - the stable dominant position achieved through this transition
+- [[Positions/Side Control]] - Target position on success - the stable dominant position achieved through this transition
 
-- [[Half Guard]] - Counter outcome position - opponent may recover half guard if rotation is poorly executed
+- [[Positions/Half Guard]] - Counter outcome position - opponent may recover half guard if rotation is poorly executed
 
-- [[Reverse Mount to Mount]] - Alternative transition from the same starting position, converting to standard mount instead of side control
+- [[Transitions/Reverse Mount to Mount]] - Alternative transition from the same starting position, converting to standard mount instead of side control
 
-- [[Bridge from Reverse Mount]] - Primary defensive counter the bottom player uses to disrupt this transition
+- [[Transitions/Bridge from Reverse Mount]] - Primary defensive counter the bottom player uses to disrupt this transition
 
-- [[Escape Reverse Mount]] - Defender's escape technique that the attacker must prevent before initiating rotation
+- [[Transitions/Escape Reverse Mount]] - Defender's escape technique that the attacker must prevent before initiating rotation
 
-- [[Mount]] - Alternative conversion target from reverse mount offering higher point value but less stability during transition
+- [[Positions/Mount]] - Alternative conversion target from reverse mount offering higher point value but less stability during transition
 
-- [[Back Control]] - Alternative progression from reverse mount offering superior control but requiring hook insertion
+- [[Positions/Back Control]] - Alternative progression from reverse mount offering superior control but requiring hook insertion
 
-- [[Armbar from Reverse Mount]] - Submission option from source position that may be attempted before deciding to convert to side control
+- [[Transitions/Armbar from Reverse Mount]] - Submission option from source position that may be attempted before deciding to convert to side control
 
-- [[North-South]] - Follow-up position accessible from side control after completing this transition
+- [[Positions/North-South]] - Follow-up position accessible from side control after completing this transition
 
 
 </section>

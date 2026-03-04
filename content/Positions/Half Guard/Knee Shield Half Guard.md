@@ -95,31 +95,31 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 ### Available Transitions
 
 
-- **[[Old School Sweep]]** (9% of attempts)
+- **[[Transitions/Old School Sweep]]** (9% of attempts)
 
-- **[[Underhook Sweep from Half]]** (6% of attempts)
+- **[[Transitions/Underhook Sweep from Half]]** (6% of attempts)
 
-- **[[Deep Half Entry]]** (8% of attempts)
+- **[[Transitions/Deep Half Entry]]** (8% of attempts)
 
-- **[[Half Guard to Back Take]]** (5% of attempts)
+- **[[Transitions/Half Guard to Back Take]]** (5% of attempts)
 
-- **[[Single Leg X Entry]]** (6% of attempts)
+- **[[Transitions/Single Leg X Entry]]** (6% of attempts)
 
-- **[[Lumberjack Sweep]]** (5% of attempts)
+- **[[Transitions/Lumberjack Sweep]]** (5% of attempts)
 
-- **[[Kimura]]** (4% of attempts)
+- **[[Transitions/Kimura]]** (4% of attempts)
 
-- **[[Knee Shield Retention]]** (51% of attempts)
+- **[[Transitions/Knee Shield Retention]]** (51% of attempts)
 
-- **[[Elevator Sweep]]** (4% of attempts)
+- **[[Transitions/Elevator Sweep]]** (4% of attempts)
 
-- **[[Knee Shield Half Guard to Z-Guard]]** (1% of attempts)
+- **[[Transitions/Knee Shield Half Guard to Z-Guard]]** (1% of attempts)
 
-- **[[Knee Shield to Closed Guard]]** (0% of attempts)
+- **[[Transitions/Knee Shield to Closed Guard]]** (0% of attempts)
 
-- **[[Underhook from Knee Shield]]** (0% of attempts)
+- **[[Transitions/Underhook from Knee Shield]]** (0% of attempts)
 
-- **[[Sweep from Knee Shield]]** (1% of attempts)
+- **[[Transitions/Sweep from Knee Shield]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -180,27 +180,27 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 ### Available Transitions
 
 
-- **[[Knee Slice from Half]]** (37% of attempts)
+- **[[Transitions/Knee Slice from Half]]** (37% of attempts)
 
-- **[[Smash Pass]]** (15% of attempts)
+- **[[Transitions/Smash Pass]]** (15% of attempts)
 
-- **[[Long Step Pass]]** (7% of attempts)
+- **[[Transitions/Long Step Pass]]** (7% of attempts)
 
-- **[[Underhook Pass]]** (6% of attempts)
+- **[[Transitions/Underhook Pass]]** (6% of attempts)
 
-- **[[Crossface Pass]]** (12% of attempts)
+- **[[Transitions/Crossface Pass]]** (12% of attempts)
 
-- **[[Leg Weave Pass]]** (5% of attempts)
+- **[[Transitions/Leg Weave Pass]]** (5% of attempts)
 
-- **[[Back Step Pass]]** (7% of attempts)
+- **[[Transitions/Back Step Pass]]** (7% of attempts)
 
-- **[[Body Lock Pass]]** (7% of attempts)
+- **[[Transitions/Body Lock Pass]]** (7% of attempts)
 
-- **[[Knee Slice from Knee Shield]]** (2% of attempts)
+- **[[Transitions/Knee Slice from Knee Shield]]** (2% of attempts)
 
-- **[[Smash from Knee Shield]]** (1% of attempts)
+- **[[Transitions/Smash from Knee Shield]]** (1% of attempts)
 
-- **[[Smash Pass from Knee Shield]]** (1% of attempts)
+- **[[Transitions/Smash Pass from Knee Shield]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -239,23 +239,23 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 ## Related Positions
 
 
-- **[[Half Guard]]** - Parent position—knee shield is specialized defensive variant
+- **[[Positions/Half Guard]]** - Parent position—knee shield is specialized defensive variant
 
-- **[[Deep Half Guard]]** - Common transition target when knee shield is compromised
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common transition target when knee shield is compromised
 
-- **[[Lockdown]]** - Alternative half guard control method using leg entanglement
+- **[[Positions/Half Guard/Lockdown]]** - Alternative half guard control method using leg entanglement
 
-- **[[X-Guard]]** - Transition target when opponent stands to pass
+- **[[Positions/X-Guard]]** - Transition target when opponent stands to pass
 
-- **[[Side Control]]** - Primary advancement target for successful top player
+- **[[Positions/Side Control]]** - Primary advancement target for successful top player
 
-- **[[Headquarters Position]]** - Related passing position with similar dynamics
+- **[[Positions/Headquarters Position]]** - Related passing position with similar dynamics
 
-- **[[Overhook Control]]** - Key grip battle scenario in position
+- **[[Positions/Overhook Control]]** - Key grip battle scenario in position
 
-- **[[Dogfight Position]]** - Common scramble when both players establish underhooks
+- **[[Positions/Dogfight Position]]** - Common scramble when both players establish underhooks
 
-- **[[Flattened Half Guard]]** - Degraded position when knee shield collapses under pressure
+- **[[Positions/Half Guard/Flattened Half Guard]]** - Degraded position when knee shield collapses under pressure
 
 
 </section>

@@ -160,7 +160,7 @@ The defensive hierarchy begins with prevention - keeping elbows tight to the bod
 
 From a positional standpoint, the defender must balance the urgency of Kimura defense against the broader challenge of escaping mount. Committing both hands to Kimura defense while remaining flat on the back creates a static target. The most effective defensive approach integrates Kimura defense with mount escape mechanics, using the attacker's commitment to the submission as an opportunity to create space, recover guard, or reverse position through the attacker's momentary base compromise.
 
-**Opponent's Starting Position**: [[Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 
 </section>
@@ -200,28 +200,28 @@ From a positional standpoint, the defender must balance the urgency of Kimura de
 ### 1. Grip your own belt, pants, or opposite wrist to create a connection that prevents arm rotation
 
 - **When to use**: Immediately after you feel the figure-four grip being established - this is your highest-percentage early defense
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Stalls the submission, forces attacker to spend energy breaking your grip, creates time to work mount escapes
 - **Risk**: If attacker breaks the grip while maintaining mount, you return to the same vulnerable position with less energy
 
 ### 2. Bridge explosively toward the trapped arm side while the attacker's base is compromised by the perpendicular angle
 
 - **When to use**: When attacker shifts to perpendicular angle and posts weight on the trapped arm side, reducing their base stability
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Reverses position or at minimum disrupts the submission setup, potentially landing in closed guard
 - **Risk**: Failed bridge wastes significant energy and may accelerate the submission if attacker adjusts base
 
 ### 3. Hip escape away from the trapped arm to collapse the attacker's perpendicular angle and recover half guard
 
 - **When to use**: When attacker commits to the submission angle and their far leg becomes light or elevated
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Recovers guard position, neutralizes the submission angle, and resets to a more defensible position
 - **Risk**: Requires precise timing - premature hip escape while attacker maintains strong base exposes the back
 
 ### 4. Roll toward the trapped arm to relieve rotational pressure and force a scramble
 
 - **When to use**: As a last resort when the submission is deep and grip defense has failed - the roll relieves shoulder pressure
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Relieves immediate submission danger, though attacker may follow to back control or maintain Kimura grip from top
 - **Risk**: Attacker follows the roll and takes back control with hooks, maintaining the Kimura grip for continued attack
 
@@ -244,11 +244,11 @@ From a positional standpoint, the defender must balance the urgency of Kimura de
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Successfully bridge toward the trapped arm side during the attacker's weight shift, or hip escape away from the trapped arm to recover guard position before the submission is completed
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Time an explosive bridge-and-roll reversal when the attacker overcommits to the perpendicular angle and loses base on the opposite side, trapping their posting arm and corresponding leg
 

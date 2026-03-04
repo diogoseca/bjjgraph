@@ -156,7 +156,7 @@ description: "Learn to defend the Gift Wrap Armbar in BJJ. Recognition cues, esc
 
 Defending the Gift Wrap Armbar requires recognizing the attack early and addressing multiple layers of control simultaneously. The defender faces the compounded challenge of an already compromised position—one arm trapped in the gift wrap—combined with an active armbar attempt on the remaining free arm. Successful defense prioritizes preventing arm isolation over attempting to free the trapped arm, since losing the free arm to an armbar while already gift-wrapped leaves zero defensive options. Understanding the timing windows during the attacker's transition from gift wrap control to armbar position is critical, as defense becomes exponentially harder once the legs are positioned and hips are beneath the elbow. Early recognition and immediate defensive action during the transition phase offer the highest probability of survival.
 
-**Opponent's Starting Position**: [[Gift Wrap]] (Top)
+**Opponent's Starting Position**: [[Positions/Gift Wrap]] (Top)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the Gift Wrap Armbar requires recognizing the attack early and address
 ### 1. Retract free arm and clasp hands or grip own lapel to prevent wrist isolation
 
 - **When to use**: As soon as you feel the attacker shifting toward the armbar setup or reaching for your free arm wrist
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Prevents the armbar from being established, forcing the attacker to either peel your grip or abandon the armbar attempt and return to choke attacks
 - **Risk**: Clasping hands leaves the neck momentarily undefended, which the attacker may exploit to switch back to choke attacks
 
 ### 2. Turn hips and shoulders toward the attacker during the transition to prevent the armbar angle
 
 - **When to use**: During the attacker's hip shift phase before the leg swings over your head—this is the critical timing window
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Blocks the armbar angle from being established, potentially allowing you to face the attacker and begin working to recover guard position
 - **Risk**: Turning aggressively may create space that the attacker uses to re-establish a deeper gift wrap or transition to mounted position
 
 ### 3. Hip escape away from the attacker and bridge to create distance during the armbar transition
 
 - **When to use**: When the attacker has committed to the armbar and their base has shifted away from back control maintenance
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Creates enough space to recover guard position as the attacker's back control deteriorates during the armbar attempt
 - **Risk**: If the attacker maintains wrist control during the hip escape, the distance may actually assist the arm extension
 
 ### 4. Stack forward by driving weight onto the attacker once the leg is over your head
 
 - **When to use**: After the attacker has swung the leg over but before they have elevated hips for the finish
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Compresses the attacker's hips and prevents the bridge needed for the finishing extension, potentially allowing you to work free
 - **Risk**: If the attacker angles away from the stack, your forward weight commitment can actually extend your arm further
 
@@ -239,11 +239,11 @@ Defending the Gift Wrap Armbar requires recognizing the attack early and address
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Use the attacker's commitment to the armbar transition as an opportunity to hip escape and recover guard. As their back control weakens during the rotation, exploit the space to insert a knee and establish closed guard before they can re-establish the gift wrap.
 
-### → [[Gift Wrap]]
+### → [[Positions/Gift Wrap]]
 
 Prevent the armbar from being established by immediately clasping hands or retracting the free arm when you recognize the setup. Force the attacker to abandon the armbar and return to gift wrap control, resetting the defensive situation.
 

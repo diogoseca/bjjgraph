@@ -21,7 +21,7 @@ The technique exploits a narrow timing window created by the opponent's grip-str
 
 This recovery is a foundational skill for any open guard player, as grip failure is inevitable against competent passers. The ability to smoothly transition from compromised open guard to secure closed guard provides a critical safety net that allows practitioners to play aggressive open guard games without fear of catastrophic guard loss. Without this recovery pathway, every grip break becomes a passing crisis rather than a manageable positional transition.
 
-**From Position**: [[Double Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ This recovery is a foundational skill for any open guard player, as grip failure
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Failure | [[Double Sleeve Guard]] | 35% |
-| Counter | [[Combat Base]] | 20% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Failure | [[Positions/Double Sleeve Guard]] | 35% |
+| Counter | [[Positions/Combat Base]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ Guard Recovery from Double Sleeve Guard serves as the critical safety valve with
 ## Related Techniques
 
 
-- [[Double Sleeve Guard]] - Source position - the open guard configuration from which this recovery initiates when grips are compromised
+- [[Positions/Double Sleeve Guard]] - Source position - the open guard configuration from which this recovery initiates when grips are compromised
 
-- [[Closed Guard]] - Primary recovery target - full guard reestablishment providing superior offensive options from bottom
+- [[Positions/Closed Guard]] - Primary recovery target - full guard reestablishment providing superior offensive options from bottom
 
-- [[Combat Base]] - Counter outcome position when top player establishes passing stance during recovery attempt
+- [[Positions/Combat Base]] - Counter outcome position when top player establishes passing stance during recovery attempt
 
-- [[Spider Guard]] - Related open guard system that shares bilateral grip mechanics and similar recovery pathways
+- [[Positions/Spider Guard]] - Related open guard system that shares bilateral grip mechanics and similar recovery pathways
 
-- [[Collar Sleeve Guard]] - Alternative open guard transition when only one sleeve grip is maintained during recovery
+- [[Positions/Collar Sleeve Guard]] - Alternative open guard transition when only one sleeve grip is maintained during recovery
 
-- [[Lasso Guard]] - Alternative guard composition using lasso entanglement when sleeve grip remains on one side
+- [[Positions/Lasso Guard]] - Alternative guard composition using lasso entanglement when sleeve grip remains on one side
 
-- [[Open Guard]] - Parent guard category - double sleeve guard is a subset of the broader open guard system
+- [[Positions/Open Guard]] - Parent guard category - double sleeve guard is a subset of the broader open guard system
 
-- [[Butterfly Guard]] - Alternative guard recovery option using butterfly hooks when legs retract from extended position
+- [[Positions/Butterfly Guard]] - Alternative guard recovery option using butterfly hooks when legs retract from extended position
 
-- [[De La Riva Guard]] - Alternative guard recomposition option when one leg can hook the opponent's lead leg during recovery
+- [[Positions/De La Riva Guard]] - Alternative guard recomposition option when one leg can hook the opponent's lead leg during recovery
 
-- [[Guard Recovery from Spider Guard]] - Closely related guard recovery technique from similar bilateral grip-based open guard position
+- [[Transitions/Guard Recovery from Spider Guard]] - Closely related guard recovery technique from similar bilateral grip-based open guard position
 
 
 </section>

@@ -182,7 +182,7 @@ As the attacker executing the Roll Through to Reversal, you are converting a def
 
 The execution demands a specific combination of timing, body mechanics, and grip management that distinguishes it from other rolling escapes. Unlike a Granby roll which aims to recover guard, the roll through specifically targets positional reversal by maintaining connection to the opponent throughout the rotation. Your arm control on their choking limb serves as the tether that keeps you connected and prevents them from disengaging during the roll. The technique rewards practitioners who develop sensitivity to weight shifts and the courage to commit fully once the window opens.
 
-**From Position**: [[Front Headlock]] (Bottom)
+**From Position**: [[Positions/Front Headlock]] (Bottom)
 
 </section>
 
@@ -235,9 +235,9 @@ The execution demands a specific combination of timing, body mechanics, and grip
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 55% |
-| Failure | [[Front Headlock]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Front Headlock]] | 55% |
+| Failure | [[Positions/Front Headlock]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -246,10 +246,10 @@ The execution demands a specific combination of timing, body mechanics, and grip
 
 ## Opponent Counters
 
-- **Sprawling hips back when sensing roll initiation to remove forward weight** (Effectiveness: High) - Your Response: If you feel them sprawl, abort the roll and immediately work technical standup since their weight is now moving backward → Leads to [[Front Headlock]]
-- **Widening base and posting with free hand to block the roll direction** (Effectiveness: High) - Your Response: Change roll direction to go the opposite way or transition to circling away escape → Leads to [[Front Headlock]]
-- **Tightening guillotine grip during roll attempt to threaten choke finish** (Effectiveness: Medium) - Your Response: Maintain firm chin tuck and keep pulling their choking arm—the roll motion itself helps break guillotine angle by changing pressure vectors → Leads to [[Front Headlock]]
-- **Following the roll and circling to take the back instead of being reversed** (Effectiveness: Medium) - Your Response: If they follow and circle, immediately turtle tight and work back escape protocols or continue rolling to create scramble → Leads to [[Back Control]]
+- **Sprawling hips back when sensing roll initiation to remove forward weight** (Effectiveness: High) - Your Response: If you feel them sprawl, abort the roll and immediately work technical standup since their weight is now moving backward → Leads to [[Positions/Front Headlock]]
+- **Widening base and posting with free hand to block the roll direction** (Effectiveness: High) - Your Response: Change roll direction to go the opposite way or transition to circling away escape → Leads to [[Positions/Front Headlock]]
+- **Tightening guillotine grip during roll attempt to threaten choke finish** (Effectiveness: Medium) - Your Response: Maintain firm chin tuck and keep pulling their choking arm—the roll motion itself helps break guillotine angle by changing pressure vectors → Leads to [[Positions/Front Headlock]]
+- **Following the roll and circling to take the back instead of being reversed** (Effectiveness: Medium) - Your Response: If they follow and circle, immediately turtle tight and work back escape protocols or continue rolling to create scramble → Leads to [[Positions/Back Control]]
 
 
 </section>

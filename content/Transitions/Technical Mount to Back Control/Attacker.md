@@ -186,7 +186,7 @@ description: "Learn to execute the Technical Mount to Back Control transition. C
 
 From the attacker's perspective, the Technical Mount to Back Control transition represents the highest-value positional upgrade available from mount. When your opponent turns away to defend the armbar threat inherent in Technical Mount, you follow their rotation with precise timing, converting your leg configuration into hooks and your arm control into seatbelt grip. The transition demands reading subtle cues in the opponent's shoulder and hip movement to time your commitment perfectly. Initiating too early telegraphs the attack, while hesitating allows the defender to complete their turn and recover guard. Mastery of this transition makes your entire Technical Mount offense more dangerous, as the opponent faces an unresolvable choice between exposing their arm to armbar or their back to control.
 
-**From Position**: [[Technical Mount]] (Top)
+**From Position**: [[Positions/Mount/Technical Mount]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ From the attacker's perspective, the Technical Mount to Back Control transition 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Technical Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Mount/Technical Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ From the attacker's perspective, the Technical Mount to Back Control transition 
 
 ## Opponent Counters
 
-- **Opponent stops turning and re-squares shoulders to mat, denying back exposure** (Effectiveness: High) - Your Response: If they stop the turn early, return to armbar attack since their arm is still exposed. The threat of the armbar is what forces the turn, so re-threatening it restarts the dilemma cycle. If they successfully re-square, consolidate Technical Mount and re-establish arm control before attempting again. → Leads to [[Technical Mount]]
-- **Opponent frames against hip and executes explosive hip escape during the rotation** (Effectiveness: Medium) - Your Response: Maintain seatbelt grip and follow their hip escape with your own hip adjustment. If they create significant distance, use your seatbelt control to pull them back or transition to a body triangle to prevent further hip movement. If the frame is strong enough to break your chest connection, you may need to disengage and work to recover top position. → Leads to [[Half Guard]]
-- **Opponent tucks chin and fights seatbelt arm with both hands immediately upon feeling the back take** (Effectiveness: Medium) - Your Response: Since both their hands are occupied fighting your seatbelt, their lower body is undefended. Focus on deepening your hooks and establishing dominant hip control. Once hooks are secure, use systematic hand fighting to break their grip on your seatbelt arm. Their two-on-one defense on the seatbelt arm exposes the other arm for gift wrap or armbar entries. → Leads to [[Technical Mount]]
-- **Opponent bridges explosively during the transition before hooks and seatbelt are established** (Effectiveness: High) - Your Response: Ride the bridge by maintaining whatever connection you have—even partial seatbelt or single hook. If the bridge creates enough separation to break all control points, disengage and work to re-establish mount or side control. Never fight a strong bridge from an unstable transitional position as it risks being reversed entirely. → Leads to [[Half Guard]]
+- **Opponent stops turning and re-squares shoulders to mat, denying back exposure** (Effectiveness: High) - Your Response: If they stop the turn early, return to armbar attack since their arm is still exposed. The threat of the armbar is what forces the turn, so re-threatening it restarts the dilemma cycle. If they successfully re-square, consolidate Technical Mount and re-establish arm control before attempting again. → Leads to [[Positions/Mount/Technical Mount]]
+- **Opponent frames against hip and executes explosive hip escape during the rotation** (Effectiveness: Medium) - Your Response: Maintain seatbelt grip and follow their hip escape with your own hip adjustment. If they create significant distance, use your seatbelt control to pull them back or transition to a body triangle to prevent further hip movement. If the frame is strong enough to break your chest connection, you may need to disengage and work to recover top position. → Leads to [[Positions/Half Guard]]
+- **Opponent tucks chin and fights seatbelt arm with both hands immediately upon feeling the back take** (Effectiveness: Medium) - Your Response: Since both their hands are occupied fighting your seatbelt, their lower body is undefended. Focus on deepening your hooks and establishing dominant hip control. Once hooks are secure, use systematic hand fighting to break their grip on your seatbelt arm. Their two-on-one defense on the seatbelt arm exposes the other arm for gift wrap or armbar entries. → Leads to [[Positions/Mount/Technical Mount]]
+- **Opponent bridges explosively during the transition before hooks and seatbelt are established** (Effectiveness: High) - Your Response: Ride the bridge by maintaining whatever connection you have—even partial seatbelt or single hook. If the bridge creates enough separation to break all control points, disengage and work to re-establish mount or side control. Never fight a strong bridge from an unstable transitional position as it risks being reversed entirely. → Leads to [[Positions/Half Guard]]
 
 
 </section>

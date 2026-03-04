@@ -140,7 +140,7 @@ description: "Defend against the Turn to Turtle escape from Knee on Belly. Learn
 
 When your opponent attempts to turn away from Knee on Belly toward turtle, you face a critical decision point: prevent the turn entirely by increasing pressure and hip control, or allow the turn and follow it directly into back control. Both responses require anticipation and preparation. Recognizing the early signs of the turn — hip loading, frame placement on your hip, and the opponent looking away — allows you to choose the optimal counter before the rotation begins. The top player who prepares for this common escape reaction transforms a defensive attempt into an offensive opportunity for positional advancement.
 
-**Opponent's Starting Position**: [[Knee on Belly]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Knee on Belly]] (Bottom)
 
 </section>
 
@@ -178,21 +178,21 @@ When your opponent attempts to turn away from Knee on Belly toward turtle, you f
 ### 1. Drive knee pressure deeper and crossface to pin head, preventing rotation
 
 - **When to use**: When you detect early signs of the turn before rotation has begun and you have strong near-side grip control
-- **Targets**: [[Knee on Belly]]
+- **Targets**: [[Positions/Knee on Belly]]
 - **If successful**: Bottom player remains pinned under Knee on Belly with reduced escape options and depleted energy from the failed attempt
 - **Risk**: Over-committing weight forward may open alternative escapes like underhook to half guard or frame-and-shrimp
 
 ### 2. Follow the turn with chest pressure and immediately establish seatbelt grip for back control
 
 - **When to use**: When the turn has already begun and committed past the point where stuffing is effective
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Convert the opponent's escape attempt into full back control with seatbelt and hooks
 - **Risk**: If you fall behind the rotation, opponent establishes tight turtle with good defensive structure and begins guard recovery
 
 ### 3. Sprawl weight and flatten opponent during the mid-turn phase
 
 - **When to use**: When opponent is midway through rotation and has not yet established a stable four-point turtle base
-- **Targets**: [[Knee on Belly]]
+- **Targets**: [[Positions/Knee on Belly]]
 - **If successful**: Flatten opponent back to mat and re-establish Knee on Belly or transition to side control
 - **Risk**: Sprawling weight too far forward may allow opponent to complete the turn underneath you or invert
 
@@ -204,11 +204,11 @@ When your opponent attempts to turn away from Knee on Belly toward turtle, you f
 
 ## Best-Case Outcomes for Defender
 
-### → [[Knee on Belly]]
+### → [[Positions/Knee on Belly]]
 
 Prevent the turn by maintaining strong crossface pressure and controlling the near-side hip. When you feel the bottom player loading their hip for rotation, drive your knee pressure deeper into their solar plexus and use your far-side grip to block hip rotation before it can generate momentum.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Allow the turn to initiate, then follow the rotation with your chest glued to their back. As they complete the turn to turtle, immediately establish seatbelt grip over the shoulder and under the armpit, then begin inserting your bottom hook. Stay connected throughout their rotation rather than chasing after the fact.
 

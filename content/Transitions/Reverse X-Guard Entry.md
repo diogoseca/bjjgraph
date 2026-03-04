@@ -21,7 +21,7 @@ The entry requires precise timing and hip mobility, as you must thread your legs
 
 This technique represents a sophisticated evolution in modern guard play, bridging inverted guard mobility with the powerful mechanical advantages of X-Guard systems. Practitioners who develop proficiency find it becomes a reliable pathway when standard berimbolo or back take entries are blocked.
 
-**From Position**: [[Inverted Guard]] (Bottom)
+**From Position**: [[Positions/Inverted Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This technique represents a sophisticated evolution in modern guard play, bridgi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Reverse X-Guard]] | 58% |
-| Failure | [[Inverted Guard]] | 27% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/X-Guard/Reverse X-Guard]] | 58% |
+| Failure | [[Positions/Inverted Guard]] | 27% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -185,25 +185,25 @@ Reverse X-Guard Entry serves as a critical bridge between inverted guard mobilit
 ## Related Techniques
 
 
-- [[Inverted Guard]] - Starting position for this technique
+- [[Positions/Inverted Guard]] - Starting position for this technique
 
-- [[Reverse X-Guard]] - Target position achieved upon successful entry
+- [[Positions/X-Guard/Reverse X-Guard]] - Target position achieved upon successful entry
 
-- [[X-Guard]] - Related position with similar mechanical principles and sweep options
+- [[Positions/X-Guard]] - Related position with similar mechanical principles and sweep options
 
-- [[Single Leg X-Guard]] - Alternative entry when opponent steps back to defend; shares leg control concepts
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative entry when opponent steps back to defend; shares leg control concepts
 
-- [[De La Riva Guard]] - Common entry point to inverted guard; can bypass directly to Reverse X-Guard
+- [[Positions/De La Riva Guard]] - Common entry point to inverted guard; can bypass directly to Reverse X-Guard
 
-- [[Berimbolo Entry]] - Alternative attack from same position; chains well when this entry is blocked
+- [[Transitions/Berimbolo Entry]] - Alternative attack from same position; chains well when this entry is blocked
 
-- [[Kiss of the Dragon]] - Can convert to back take using same initial motion when opponent defends strongly
+- [[Transitions/Kiss of the Dragon]] - Can convert to back take using same initial motion when opponent defends strongly
 
-- [[Granby Roll to Guard]] - Defensive escape when stack pressure prevents entry attempt
+- [[Transitions/Granby Roll to Guard]] - Defensive escape when stack pressure prevents entry attempt
 
-- [[Back Control]] - Potential outcome from Kiss of the Dragon conversion or Reverse X-Guard back take
+- [[Positions/Back Control]] - Potential outcome from Kiss of the Dragon conversion or Reverse X-Guard back take
 
-- [[Reverse De La Riva Guard]] - Connected guard with similar inversion mechanics and shared grip strategies
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Connected guard with similar inversion mechanics and shared grip strategies
 
 
 </section>

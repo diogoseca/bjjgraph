@@ -146,7 +146,7 @@ description: "Complete guide to defending the Roll Forward from Omoplata. Recogn
 
 As the defender against the Roll Forward from Omoplata, you are the person caught in omoplata control whose opponent is attempting to roll forward and sweep you into side control bottom. Your primary challenge is recognizing the roll initiation early enough to counter it while managing the continued pressure on your trapped shoulder. The defender must understand that the roll forward is one option in a system of attacks from omoplata control: the submission finish, the sweep, and the back take form an interconnected threat triangle. Effective defense requires addressing the specific mechanics of the roll while remaining aware that over-committing to any single defensive response opens alternative attacks. The keys to successful defense are maintaining a wide base with your free arm, preventing the opponent from securing a deep belt or hip grip, and recognizing when to prioritize base preservation over arm extraction. Early recognition of the roll setup is worth more than any reactive counter once the roll has begun.
 
-**Opponent's Starting Position**: [[Omoplata Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Omoplata Control]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ As the defender against the Roll Forward from Omoplata, you are the person caugh
 ### 1. Post free hand wide and sprawl hips back to resist the forward roll by creating a strong base that cannot be tipped
 
 - **When to use**: As soon as you feel the opponent loading their hips forward or increasing forward pressure on your back rather than rotational pressure on your shoulder
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: The roll is stalled against your base and you maintain your current defensive position with continued opportunity to work arm extraction or posture recovery
 - **Risk**: Over-committing to the backward sprawl can shift your weight distribution in a way that deepens the omoplata shoulder rotation, opening the submission finish
 
 ### 2. Strip the opponent's belt or hip grip with your free hand before they can consolidate it and execute the roll
 
 - **When to use**: When you feel the opponent adjusting their grip toward your belt or hip area, before they have fully secured the steering grip
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: Without the steering grip, the opponent cannot control the roll direction and the sweep technique becomes ineffective, forcing them to re-grip or abandon the roll attempt
 - **Risk**: Using your free hand to strip grips temporarily removes your posting base, creating a brief window where the opponent can initiate the roll against your reduced stability
 
 ### 3. Turn into the opponent and sit to your hip to change the rolling angle and prevent clean side control landing
 
 - **When to use**: When the roll has partially initiated and a backward sprawl defense is too late to stop the momentum
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You change the angle enough to prevent the opponent from landing in clean side control, creating a scramble where you can recover to open guard or half guard
 - **Risk**: Turning into the opponent can increase omoplata submission pressure on your shoulder if the roll attempt was a feint designed to bait this exact defensive reaction
 
 ### 4. Extract trapped arm by pulling elbow tight to your body and sitting back forcefully to remove the shoulder lock control
 
 - **When to use**: Before the roll begins, when you recognize the opponent is adjusting grips for the roll setup rather than actively finishing the omoplata
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Complete arm extraction eliminates both the omoplata threat and the roll forward option, allowing you to disengage and work to pass from a neutral open guard engagement
 - **Risk**: A failed extraction attempt that compromises your base can create the exact conditions the opponent needs to execute the roll, as your weight shifts forward during the extraction effort
 
@@ -218,11 +218,11 @@ As the defender against the Roll Forward from Omoplata, you are the person caugh
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Successfully counter the roll by stripping the opponent's belt grip and extracting your trapped arm during their setup phase. As the roll attempt fails and the opponent loses omoplata control, immediately establish distance and recover to open guard where you can work to pass without the submission threat on your shoulder.
 
-### → [[Omoplata Control]]
+### → [[Positions/Omoplata Control]]
 
 Prevent the roll through strong base maintenance with a wide post and hip sprawl while actively fighting the belt grip. Though still caught in the omoplata position, you have prevented the positional downgrade to side control bottom and can continue working systematic arm extraction while defending against the submission finish.
 

@@ -148,7 +148,7 @@ description: "Learn to defend against the Z-Guard to Half Guard transition as th
 
 As the top player defending against the Z-Guard to Half Guard transition, your primary objective is to either prevent the bottom player from successfully withdrawing their knee shield, or to capitalize on the vulnerability window created during the transition by driving forward with crossface pressure to flatten them. The moment the bottom player begins retracting their knee shield represents your best opportunity to advance position, as the primary defensive barrier is being voluntarily removed. Recognizing the early cues of this transition allows you to time your response perfectly, turning the bottom player's tactical shift into your passing advantage by establishing dominant half guard top or flattening them entirely.
 
-**Opponent's Starting Position**: [[Z-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Z-Guard]] (Bottom)
 
 </section>
 
@@ -186,21 +186,21 @@ As the top player defending against the Z-Guard to Half Guard transition, your p
 ### 1. Drive crossface and heavy shoulder pressure the moment the knee shield begins dropping to flatten the bottom player
 
 - **When to use**: As soon as you feel the knee shield pressure decrease or see the bottom player's knee begin to retract downward from your shoulder
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Bottom player is driven flat onto their back with your crossface controlling their head, establishing dominant half guard top with immediate passing opportunities
 - **Risk**: If bottom player has already secured a deep underhook, your forward drive loads their sweep and they may redirect your momentum into the old school sweep
 
 ### 2. Apply whizzer control to strip the underhook before the transition can complete safely
 
 - **When to use**: When you feel the bottom player beginning to deepen their underhook in preparation for the knee shield withdrawal
-- **Targets**: [[Z-Guard]]
+- **Targets**: [[Positions/Z-Guard]]
 - **If successful**: Bottom player loses the underhook that makes the transition safe, forcing them to maintain Z-Guard or attempt the transition without adequate offensive control
 - **Risk**: Committing to the whizzer can leave you vulnerable to deep half guard entries if the bottom player dives underneath rather than continuing to fight for the underhook
 
 ### 3. Maintain constant heavy forward pressure into the knee shield to prevent the bottom player from creating space to withdraw it
 
 - **When to use**: Proactively when you sense the bottom player preparing to transition through grip adjustments and angle changes
-- **Targets**: [[Z-Guard]]
+- **Targets**: [[Positions/Z-Guard]]
 - **If successful**: Bottom player cannot create the space needed to retract the knee shield and remains in Z-Guard where you can continue working your primary passing strategy
 - **Risk**: Heavy forward commitment can be redirected if the bottom player uses the pressure-timed withdrawal variant, turning your committed weight into their sweep setup
 
@@ -212,7 +212,7 @@ As the top player defending against the Z-Guard to Half Guard transition, your p
 
 ## Best-Case Outcomes for Defender
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Time your crossface drive to coincide with the exact moment the knee shield drops. Drive your shoulder into their jaw line while keeping your hips heavy and low. Secure your underhook or overhook on their far arm to prevent them from re-framing. The flattened position removes their hip mobility and makes passing significantly easier through knee slice, crossface pass, or systematic leg extraction.
 

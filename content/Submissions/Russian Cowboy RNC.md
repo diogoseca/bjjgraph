@@ -26,8 +26,8 @@ The finishing mechanics differ slightly from a standard RNC due to the asymmetri
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Neck
-**Starting Position**: [[Russian Cowboy]]
-**From Position**: [[Russian Cowboy]] (Top)
+**Starting Position**: [[Positions/Russian Cowboy]]
+**From Position**: [[Positions/Russian Cowboy]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -76,8 +76,8 @@ The finishing mechanics differ slightly from a standard RNC due to the asymmetri
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Russian Cowboy]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Russian Cowboy]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -204,9 +204,9 @@ The finishing mechanics differ slightly from a standard RNC due to the asymmetri
 
 ## From Which Positions?
 
-- [[Russian Cowboy]]
-- [[Back Control]]
-- [[Crab Ride]]
+- [[Positions/Russian Cowboy]]
+- [[Positions/Back Control]]
+- [[Positions/Crab Ride]]
 
 
 </section>
@@ -215,13 +215,13 @@ The finishing mechanics differ slightly from a standard RNC due to the asymmetri
 
 ## Related Submissions
 
-- [[RNC from Seat Belt]]
-- [[Body Triangle RNC]]
-- [[Rear Naked Choke from Rodeo]]
-- [[Bow and Arrow from Seat Belt]]
-- [[Gift Wrap RNC]]
-- [[Rear Triangle Choke]]
-- [[Arm Triangle from Scarf Hold]]
+- [[Submissions/RNC from Seat Belt]]
+- [[Submissions/Body Triangle RNC]]
+- [[Submissions/Rear Naked Choke from Rodeo]]
+- [[Submissions/Bow and Arrow from Seat Belt]]
+- [[Submissions/Gift Wrap RNC]]
+- [[Submissions/Rear Triangle Choke]]
+- [[Submissions/Arm Triangle from Scarf Hold]]
 
 
 </section>
@@ -230,14 +230,14 @@ The finishing mechanics differ slightly from a standard RNC due to the asymmetri
 
 ## Additional Related Content
 
-- [[Russian Cowboy]] - Primary starting position for this submission
-- [[Back Control]] - Related back control family sharing similar choke mechanics
-- [[Crab Ride]] - Alternative entry position with similar single-hook configuration
-- [[RNC from Seat Belt]] - Standard RNC variation with similar finishing mechanics
-- [[Body Triangle RNC]] - Related RNC variation from different back control configuration
-- [[Rear Naked Choke from Rodeo]] - Similar choke from related back riding position
-- [[Gift Wrap]] - Arm control position that facilitates RNC entry from back
-- [[Truck]] - Transition target when RNC defense opens leg entanglement
+- [[Positions/Russian Cowboy]] - Primary starting position for this submission
+- [[Positions/Back Control]] - Related back control family sharing similar choke mechanics
+- [[Positions/Crab Ride]] - Alternative entry position with similar single-hook configuration
+- [[Submissions/RNC from Seat Belt]] - Standard RNC variation with similar finishing mechanics
+- [[Submissions/Body Triangle RNC]] - Related RNC variation from different back control configuration
+- [[Submissions/Rear Naked Choke from Rodeo]] - Similar choke from related back riding position
+- [[Positions/Gift Wrap]] - Arm control position that facilitates RNC entry from back
+- [[Positions/Twister Control/Truck]] - Transition target when RNC defense opens leg entanglement
 
 
 </section>

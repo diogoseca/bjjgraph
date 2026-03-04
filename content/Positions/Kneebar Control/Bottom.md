@@ -212,33 +212,33 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 
 ## Available Escapes
 
-### [[Kneebar Finish]] (41% of attempts)
+### [[Transitions/Kneebar Finish]] (41% of attempts)
 
-### [[Heel Hook]] (11% of attempts)
+### [[Transitions/Heel Hook]] (11% of attempts)
 
-### [[Inside Ashi Entry]] (7% of attempts)
+### [[Transitions/Inside Ashi Entry]] (7% of attempts)
 
-### [[Ankle Lock Finish]] (7% of attempts)
+### [[Transitions/Ankle Lock Finish]] (7% of attempts)
 
-### [[Toe Hold]] (6% of attempts)
+### [[Transitions/Toe Hold]] (6% of attempts)
 
-### [[Backside 50-50 Entry from Ashi]] (6% of attempts)
+### [[Transitions/Backside 50-50 Entry from Ashi]] (6% of attempts)
 
-### [[Outside Ashi Entry]] (5% of attempts)
+### [[Transitions/Outside Ashi Entry]] (5% of attempts)
 
-### [[50-50 Entry from Standing]] (4% of attempts)
+### [[Transitions/50-50 Entry from Standing]] (4% of attempts)
 
-### [[Single Leg X Entry]] (4% of attempts)
+### [[Transitions/Single Leg X Entry]] (4% of attempts)
 
-### [[Ashi Garami Escape]] (4% of attempts)
+### [[Transitions/Ashi Garami Escape]] (4% of attempts)
 
-### [[X-Guard Sweep]] (2% of attempts)
+### [[Transitions/X-Guard Sweep]] (2% of attempts)
 
-### [[Straighten Leg Kneebar Defense]] (1% of attempts)
+### [[Transitions/Straighten Leg Kneebar Defense]] (1% of attempts)
 
-### [[Turn and Extract from Kneebar]] (1% of attempts)
+### [[Transitions/Turn and Extract from Kneebar]] (1% of attempts)
 
-### [[Reversal from Kneebar Control]] (1% of attempts)
+### [[Transitions/Reversal from Kneebar Control]] (1% of attempts)
 
 
 
@@ -249,28 +249,28 @@ Defensively, the bottom practitioner must be aware that committing to a kneebar 
 ## Decision Making from This Position
 
 **If opponent maintains strong defensive posture with knee bent and leg pressure resisting extension:**
-- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 60%)
-- Execute **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]] (Probability: 45%)
+- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 60%)
+- Execute **[[Submissions/Straight Ankle Lock]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 45%)
 
 
 **If opponent's leg becomes straightened and defensive posture breaks under pulling pressure:**
-- Execute **[[Kneebar Finish]]** → [[game-over]] (Probability: 50%)
-- Execute **[[Heel Hook]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Transitions/Kneebar Finish]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Transitions/Heel Hook]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent rotates hips away from kneebar pressure to defend knee joint:**
-- Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 55%)
-- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
+- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 65%)
 
 
 **If opponent attempts to step over entangled leg to clear knee line:**
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 65%)
-- Execute **[[X-Guard Sweep]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
+- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent creates significant distance and begins extracting leg from entanglement:**
-- Execute **[[50-50 Entry from Standing]]** → [[50-50 Guard]] (Probability: 55%)
-- Execute **[[Ashi Garami Escape]]** → [[Open Guard]] (Probability: 40%)
+- Execute **[[Transitions/50-50 Entry from Standing]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 55%)
+- Execute **[[Transitions/Ashi Garami Escape]]** → [[Positions/Open Guard]] (Probability: 40%)
 
 
 
@@ -409,15 +409,15 @@ Start with practitioner in bottom kneebar control against defending partner. Pra
 
 ## Related Positions and Techniques
 
-- **[[Inside Ashi-Garami]]** - Primary leg entanglement configuration for bottom kneebar control and transitions
-- **[[Saddle]]** - Advanced position accessible when opponent defends kneebar by rotating hips
-- **[[Kneebar Finish]]** - Terminal submission technique from this control position
-- **[[Straight Ankle Lock Control]]** - Alternative leg submission when kneebar angle is compromised
-- **[[50-50 Guard]]** - Symmetrical leg entanglement offering mutual kneebar threats
-- **[[Single Leg X-Guard]]** - Sweeping position accessible from kneebar control structure
-- **[[Ashi Garami]]** - Parent category encompassing all leg entanglement control positions
-- **[[Ashi Garami Escape]]** - Primary defensive transition opponent uses to escape bottom kneebar control
-- **[[Leg Entanglement]]** - Core principle governing all bottom kneebar control mechanics
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Primary leg entanglement configuration for bottom kneebar control and transitions
+- **[[Positions/Ashi Garami/Saddle]]** - Advanced position accessible when opponent defends kneebar by rotating hips
+- **[[Transitions/Kneebar Finish]]** - Terminal submission technique from this control position
+- **[[Positions/Straight Ankle Lock Control]]** - Alternative leg submission when kneebar angle is compromised
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Symmetrical leg entanglement offering mutual kneebar threats
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Sweeping position accessible from kneebar control structure
+- **[[Positions/Ashi Garami]]** - Parent category encompassing all leg entanglement control positions
+- **[[Transitions/Ashi Garami Escape]]** - Primary defensive transition opponent uses to escape bottom kneebar control
+- **[[Positions/Leg Entanglement]]** - Core principle governing all bottom kneebar control mechanics
 
 
 </section>

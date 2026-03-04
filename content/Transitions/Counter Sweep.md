@@ -19,7 +19,7 @@ Counter sweeping represents the critical defensive skill of neutralizing an oppo
 
 Against any sweep, the top player must recognize the early indicators: grip changes, hip movement, hook placement, and weight shifts that telegraph the sweep direction. By maintaining proper base principles while remaining mobile enough to follow your opponent's movement, you can either shut down the sweep entirely or use their momentum against them. From bottom position, counter sweeping involves recognizing when your opponent has committed to defending your initial sweep, creating a situation where you can chain to a secondary sweep or transition. This skill separates intermediate practitioners from advanced competitors, as it requires reading multiple layers of action and reaction simultaneously.
 
-**From Position**: [[Open Guard]] (Top)
+**From Position**: [[Positions/Open Guard]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -30,9 +30,9 @@ Against any sweep, the top player must recognize the early indicators: grip chan
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Open Guard]] | 30% |
-| Counter | [[Scramble Position]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Open Guard]] | 30% |
+| Counter | [[Positions/Scramble Position]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ Counter-sweep ability is fundamental to all top position work in BJJ and serves 
 ## Related Techniques
 
 
-- [[Butterfly Sweep]] - Primary technique to counter from top position
+- [[Transitions/Butterfly Sweep]] - Primary technique to counter from top position
 
-- [[Hip Bump Sweep]] - Common sweep requiring specific counter-pressure defense
+- [[Transitions/Hip Bump Sweep]] - Common sweep requiring specific counter-pressure defense
 
-- [[Scissor Sweep]] - Fundamental sweep with distinct counter mechanics
+- [[Transitions/Scissor Sweep]] - Fundamental sweep with distinct counter mechanics
 
-- [[De La Riva Guard]] - Advanced guard with sweeps requiring standing base defense
+- [[Positions/De La Riva Guard]] - Advanced guard with sweeps requiring standing base defense
 
-- [[X-Guard]] - Elevation-based guard countered with posture and pressure
+- [[Positions/X-Guard]] - Elevation-based guard countered with posture and pressure
 
-- [[Single Leg X-Guard]] - Leg entanglement position requiring specific leg extraction
+- [[Positions/X-Guard/Single Leg X-Guard]] - Leg entanglement position requiring specific leg extraction
 
-- [[Butterfly Pass]] - Passing technique that integrates sweep defense principles
+- [[Transitions/Butterfly Pass]] - Passing technique that integrates sweep defense principles
 
-- [[Combat Base]] - Fundamental stance for maintaining base during sweep defense
+- [[Positions/Combat Base]] - Fundamental stance for maintaining base during sweep defense
 
-- [[Leg Drag Pass]] - High-percentage pass after successful sweep defense
+- [[Transitions/Leg Drag Pass]] - High-percentage pass after successful sweep defense
 
-- [[Knee Cut Pass]] - Follow-up pass capitalizing on disrupted guard structure
+- [[Transitions/Knee Cut Pass]] - Follow-up pass capitalizing on disrupted guard structure
 
-- [[Open Guard]] - Starting position for many sweep attempts you must defend
+- [[Positions/Open Guard]] - Starting position for many sweep attempts you must defend
 
-- [[Scramble Position]] - Common result when counter sweep creates chaotic exchange
+- [[Positions/Scramble Position]] - Common result when counter sweep creates chaotic exchange
 
 
 </section>

@@ -26,8 +26,8 @@ This submission represents a high-percentage finishing option within the leg dra
 **Category**: Choke
 **Type**: Arm-Triangle Choke
 **Target Area**: Neck (Carotid Arteries)
-**Starting Position**: [[Leg Drag Control]]
-**From Position**: [[Leg Drag Control]] (Top)
+**Starting Position**: [[Positions/Leg Drag Control]]
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -81,9 +81,9 @@ This submission represents a high-percentage finishing option within the leg dra
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Failure | [[Side Control]] | 15% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Failure | [[Positions/Side Control]] | 15% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -229,11 +229,11 @@ This submission represents a high-percentage finishing option within the leg dra
 
 ## From Which Positions?
 
-- [[Leg Drag Control]]
-- [[Side Control]]
-- [[Half Guard]]
-- [[Front Headlock]]
-- [[Turtle]]
+- [[Positions/Leg Drag Control]]
+- [[Positions/Side Control]]
+- [[Positions/Half Guard]]
+- [[Positions/Front Headlock]]
+- [[Positions/Turtle]]
 
 
 </section>
@@ -242,12 +242,12 @@ This submission represents a high-percentage finishing option within the leg dra
 
 ## Related Submissions
 
-- [[Anaconda Choke]]
-- [[Arm Triangle]]
-- [[Brabo Choke]]
-- [[Arm Triangle from Scarf Hold]]
-- [[Arm in Guillotine]]
-- [[Chin Strap Guillotine]]
+- [[Transitions/Anaconda Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Brabo Choke]]
+- [[Submissions/Arm Triangle from Scarf Hold]]
+- [[Submissions/Arm in Guillotine]]
+- [[Submissions/Chin Strap Guillotine]]
 
 
 </section>
@@ -256,14 +256,14 @@ This submission represents a high-percentage finishing option within the leg dra
 
 ## Additional Related Content
 
-- [[Leg Drag Control]] - Primary starting position for this submission entry
-- [[Darce Control]] - Intermediate control position when Darce is locked but not yet finished
-- [[Side Control]] - Alternative consolidation if Darce attempt fails from leg drag
-- [[Half Guard]] - Position where similar Darce entries are available when opponent underhooks
-- [[Front Headlock]] - Related control position offering similar head-arm choke entries
-- [[Anaconda Choke]] - Sister submission using reverse arm threading direction from same family
-- [[Back Control]] - Alternative attack when opponent turns away from leg drag instead of into Darce
-- [[Turtle]] - Common transitional position where Darce becomes available during scrambles
+- [[Positions/Leg Drag Control]] - Primary starting position for this submission entry
+- [[Positions/Darce Control]] - Intermediate control position when Darce is locked but not yet finished
+- [[Positions/Side Control]] - Alternative consolidation if Darce attempt fails from leg drag
+- [[Positions/Half Guard]] - Position where similar Darce entries are available when opponent underhooks
+- [[Positions/Front Headlock]] - Related control position offering similar head-arm choke entries
+- [[Transitions/Anaconda Choke]] - Sister submission using reverse arm threading direction from same family
+- [[Positions/Back Control]] - Alternative attack when opponent turns away from leg drag instead of into Darce
+- [[Positions/Turtle]] - Common transitional position where Darce becomes available during scrambles
 
 
 </section>

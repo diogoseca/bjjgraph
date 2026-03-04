@@ -24,8 +24,8 @@ The technique has evolved significantly with modern leg lock systems, particular
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)
-**Starting Position**: [[Ashi Garami]]
-**From Position**: [[Kneebar Control]] (Top)
+**Starting Position**: [[Positions/Ashi Garami]]
+**From Position**: [[Positions/Kneebar Control]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -78,9 +78,9 @@ The technique has evolved significantly with modern leg lock systems, particular
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Kneebar Control]] | 30% |
-| Counter | [[Ashi Garami]] | 15% |
-| Counter | [[Open Guard]] | 10% |
+| Failure | [[Positions/Kneebar Control]] | 30% |
+| Counter | [[Positions/Ashi Garami]] | 15% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -249,17 +249,17 @@ The technique has evolved significantly with modern leg lock systems, particular
 
 ## From Which Positions?
 
-- [[Ashi Garami]]
-- [[Inside Ashi-Garami]]
-- [[Outside Ashi-Garami]]
-- [[50-50 Guard]]
-- [[Single Leg X-Guard]]
-- [[Closed Guard]]
-- [[Half Guard]]
-- [[Deep Half Guard]]
-- [[Butterfly Guard]]
-- [[Turtle]]
-- [[Kneebar Control]]
+- [[Positions/Ashi Garami]]
+- [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- [[Positions/Ashi Garami/50-50 Guard]]
+- [[Positions/X-Guard/Single Leg X-Guard]]
+- [[Positions/Closed Guard]]
+- [[Positions/Half Guard]]
+- [[Positions/Half Guard/Deep Half Guard]]
+- [[Positions/Butterfly Guard]]
+- [[Positions/Turtle]]
+- [[Positions/Kneebar Control]]
 
 
 </section>
@@ -268,15 +268,15 @@ The technique has evolved significantly with modern leg lock systems, particular
 
 ## Related Submissions
 
-- [[Heel Hook]]
-- [[Straight Ankle Lock]]
-- [[Toe Hold]]
-- [[Inside Heel Hook]]
-- [[Outside Heel Hook]]
-- [[Calf Slicer]]
-- [[Estima Lock]]
-- [[Achilles Lock]]
-- [[Calf Slicer from 50-50]]
+- [[Transitions/Heel Hook]]
+- [[Submissions/Straight Ankle Lock]]
+- [[Transitions/Toe Hold]]
+- [[Submissions/Inside Heel Hook]]
+- [[Transitions/Outside Heel Hook]]
+- [[Transitions/Calf Slicer]]
+- [[Positions/Estima Lock]]
+- [[Submissions/Achilles Lock]]
+- [[Submissions/Calf Slicer from 50-50]]
 
 
 </section>
@@ -285,15 +285,15 @@ The technique has evolved significantly with modern leg lock systems, particular
 
 ## Additional Related Content
 
-- [[Saddle]] - Primary control position for kneebar entries, offers transitions between kneebar and heel hook attacks
-- [[Honey Hole]] - Advanced leg entanglement position that creates kneebar opportunities while controlling both legs
-- [[Cross Ashi-Garami]] - Alternative leg entanglement with different angle, allows kneebar finish with modified mechanics
-- [[Kneebar Control]] - Specific control position optimized for kneebar finishing, emphasizes proper angle and hip placement
-- [[Leg Entanglement]] - Broader category of positions that includes all kneebar setups and control variations
-- [[De La Riva Guard]] - Guard with leg control hooks that can transition to kneebar attacks when opponent stands or passes
-- [[Inside Ashi-Garami]] - Foundation leg entanglement providing primary kneebar entries with inside position control
-- [[Outside Ashi-Garami]] - Alternative leg entanglement offering kneebar opportunities from outside angle
-- [[Ashi Garami]] - Parent position family encompassing the primary control positions for kneebar attacks
+- [[Positions/Ashi Garami/Saddle]] - Primary control position for kneebar entries, offers transitions between kneebar and heel hook attacks
+- [[Positions/Ashi Garami/Honey Hole]] - Advanced leg entanglement position that creates kneebar opportunities while controlling both legs
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Alternative leg entanglement with different angle, allows kneebar finish with modified mechanics
+- [[Positions/Kneebar Control]] - Specific control position optimized for kneebar finishing, emphasizes proper angle and hip placement
+- [[Positions/Leg Entanglement]] - Broader category of positions that includes all kneebar setups and control variations
+- [[Positions/De La Riva Guard]] - Guard with leg control hooks that can transition to kneebar attacks when opponent stands or passes
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Foundation leg entanglement providing primary kneebar entries with inside position control
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative leg entanglement offering kneebar opportunities from outside angle
+- [[Positions/Ashi Garami]] - Parent position family encompassing the primary control positions for kneebar attacks
 
 
 </section>

@@ -154,7 +154,7 @@ description: "Defend against the mounted triangle to S mount transition. Learn t
 
 As the defender, you are in an already precarious mounted triangle position and your opponent is attempting to make your situation worse by converting to S mount for a cleaner armbar. The critical insight is that the transition window - the moment when the attacker unlocks the triangle and repositions their legs - is your best opportunity to escape or at minimum prevent the position change. The attacker must temporarily sacrifice the triangle lock to achieve S mount, and this brief period of reduced control is where your defensive actions have the highest probability of success. Your defensive priorities are: first, prevent the transition from completing; second, extract the trapped arm during the repositioning gap; third, escape to half guard or a neutral position if possible.
 
-**Opponent's Starting Position**: [[Mounted Triangle]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/Mounted Triangle]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ As the defender, you are in an already precarious mounted triangle position and 
 ### 1. Explosive bridge timed to the triangle unlock moment
 
 - **When to use**: The instant you feel the triangle ankle lock release and the attacker's legs separate from the locked configuration
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The bridge disrupts the attacker's base during leg repositioning, creating enough space to insert a knee and recover half guard or potentially escape mount entirely
 - **Risk**: If mistimed or the attacker has already settled S mount, the bridge wastes energy and may extend the trapped arm into a more vulnerable position
 
 ### 2. Yank the trapped arm free during leg repositioning
 
 - **When to use**: When the triangle lock releases and the legs are moving, briefly reducing the clamping pressure on the trapped arm
-- **Targets**: [[Mounted Triangle]]
+- **Targets**: [[Positions/Mount/Mounted Triangle]]
 - **If successful**: Extracting the arm eliminates the primary submission threat. You return to a mounted triangle position without arm isolation, which is significantly more escapable
 - **Risk**: If the attacker has strong wrist control, the yanking motion may extend your arm further across their body, making the armbar from S mount even easier
 
 ### 3. Frame against the attacker's hip with free arm to prevent perpendicular settling
 
 - **When to use**: As soon as you recognize the transition is beginning, before the attacker completes the leg repositioning
-- **Targets**: [[Mounted Triangle]]
+- **Targets**: [[Positions/Mount/Mounted Triangle]]
 - **If successful**: The frame prevents the attacker from achieving the hip-to-shoulder connection needed for S mount, forcing them to either fight through the frame or abandon the transition and re-lock the triangle
 - **Risk**: Committing the free arm to framing leaves it potentially exposed to the attacker's control, risking a two-arm isolation scenario
 
 ### 4. Hip escape toward the attacker's repositioning legs during the transition window
 
 - **When to use**: Simultaneously with or immediately after the triangle unlock, moving hips away from the attacker's settling direction
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough distance to insert a knee shield and recover half guard before the attacker can consolidate S mount control
 - **Risk**: Hip escape without arm extraction may drag the trapped arm into a worse position, and insufficient distance risks the attacker following your movement and completing S mount anyway
 
@@ -226,11 +226,11 @@ As the defender, you are in an already precarious mounted triangle position and 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive bridge or hip escape to the precise moment the attacker unlocks the triangle and begins repositioning legs. The brief window of reduced control during leg movement allows you to create enough space to insert your knee between bodies and establish half guard. Combine the bridge with pulling the trapped arm back toward your body to maximize the disruption.
 
-### → [[Mounted Triangle]]
+### → [[Positions/Mount/Mounted Triangle]]
 
 Prevent the transition from completing by framing aggressively against the attacker's hip with your free arm and extracting the trapped arm during the triangle unlock window. If you can pull the arm free before S mount is established, the attacker returns to mounted triangle without arm isolation, which is a significantly better defensive position for you than S mount bottom.
 

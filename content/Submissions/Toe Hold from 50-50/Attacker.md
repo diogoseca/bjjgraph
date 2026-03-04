@@ -186,7 +186,7 @@ Within the context of the 50-50 Guard, the toe hold offers a strategic advantage
 
 The toe hold from 50-50 has gained significant prominence in modern no-gi competition, especially in submission-only formats where time limits necessitate aggressive finishing attempts. Understanding this submission is essential for any practitioner studying leg locks, as it forms a critical part of the leg entanglement ecosystem and creates powerful dilemmas when combined with other leg attacks. The technique requires precise control, patient setup, and careful application to avoid injury while maximizing effectiveness.
 
-**From Position**: [[50-50 Guard]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 
 
 </section>
@@ -242,8 +242,8 @@ The toe hold from 50-50 has gained significant prominence in modern no-gi compet
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[Inside Ashi-Garami]] | 15% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
 
 
 </section>
@@ -252,11 +252,11 @@ The toe hold from 50-50 has gained significant prominence in modern no-gi compet
 
 ## Opponent Defenses
 
-- **Foot yanking and explosive withdrawal attempt** (Effectiveness: Medium) - Your Response: Anticipate this by establishing the figure-four grip before they recognize the threat. Once figure-four is secured, their pulling actually assists your finish. Maintain chest-to-foot connection and follow their movement rather than resisting it. → Leads to [[50-50 Guard]]
-- **Rolling or spinning with the pressure to alleviate torque** (Effectiveness: High) - Your Response: This is the most effective defense. Counter by using your leg hooks to control their hip and prevent full rotation. If they begin to succeed, transition to heel hook or switch to attacking the opposite leg rather than fighting against their spin. → Leads to [[Inside Ashi-Garami]]
+- **Foot yanking and explosive withdrawal attempt** (Effectiveness: Medium) - Your Response: Anticipate this by establishing the figure-four grip before they recognize the threat. Once figure-four is secured, their pulling actually assists your finish. Maintain chest-to-foot connection and follow their movement rather than resisting it. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Rolling or spinning with the pressure to alleviate torque** (Effectiveness: High) - Your Response: This is the most effective defense. Counter by using your leg hooks to control their hip and prevent full rotation. If they begin to succeed, transition to heel hook or switch to attacking the opposite leg rather than fighting against their spin. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **Attacking your trapped leg with their own toe hold or straight ankle lock** (Effectiveness: Medium) - Your Response: Ensure your 50-50 structure is sound before committing fully to your attack. If they begin their attack first, you may need to abandon your finish and defend, or race to finish first if your control is superior. This is the primary risk in 50-50 exchanges. → Leads to [[game-over]]
-- **Crossing their free foot over their trapped knee to block access** (Effectiveness: High) - Your Response: Address this defense early by controlling their free leg with your outside leg. If they establish the cross, use your free hand to strip their foot away or transition to a different attack like outside heel hook from the available leg. → Leads to [[50-50 Guard]]
-- **Hand fighting to prevent figure-four grip establishment** (Effectiveness: Medium) - Your Response: Use your initial outside-arm grip on the toes as a distraction while your inside arm sneaks underneath for the figure-four. If they defend the inside arm, switch to a same-side toe hold configuration or use two-on-one grip control to overpower their hand fighting. → Leads to [[50-50 Guard]]
+- **Crossing their free foot over their trapped knee to block access** (Effectiveness: High) - Your Response: Address this defense early by controlling their free leg with your outside leg. If they establish the cross, use your free hand to strip their foot away or transition to a different attack like outside heel hook from the available leg. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Hand fighting to prevent figure-four grip establishment** (Effectiveness: Medium) - Your Response: Use your initial outside-arm grip on the toes as a distraction while your inside arm sneaks underneath for the figure-four. If they defend the inside arm, switch to a same-side toe hold configuration or use two-on-one grip control to overpower their hand fighting. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 
 
 </section>

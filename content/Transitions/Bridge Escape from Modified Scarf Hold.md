@@ -21,7 +21,7 @@ The technique operates on the principle that even the heaviest top pressure cann
 
 Strategic timing is essential. The bridge must coincide with moments when the top player's weight shifts, typically during grip adjustments, submission setups, or transition attempts. A well-timed bridge when the opponent reaches for a kimura or adjusts their head position catches them with compromised base and dramatically increases escape success probability. The technique integrates into a broader Modified Scarf Hold escape system that includes frame-based hip escapes and turtle transitions as complementary options, creating a layered escape methodology where each attempt sets up the next.
 
-**From Position**: [[Modified Scarf Hold]] (Bottom)
+**From Position**: [[Positions/Side Control/Modified Scarf Hold]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Strategic timing is essential. The bridge must coincide with moments when the to
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Modified Scarf Hold]] | 35% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Side Control/Modified Scarf Hold]] | 35% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Bridge Escape from Modified Scarf Hold connects directly to the half guard r
 ## Related Techniques
 
 
-- [[Modified Scarf Hold]] - Starting position - the oppressive pin this escape addresses
+- [[Positions/Side Control/Modified Scarf Hold]] - Starting position - the oppressive pin this escape addresses
 
-- [[Half Guard]] - Primary escape destination after successful bridge and knee insertion
+- [[Positions/Half Guard]] - Primary escape destination after successful bridge and knee insertion
 
-- [[Mount]] - Counter outcome position if top player rides the bridge and advances
+- [[Positions/Mount]] - Counter outcome position if top player rides the bridge and advances
 
-- [[Bridge Escape from Kesa Gatame]] - Related bridge escape from traditional scarf hold with similar mechanics
+- [[Transitions/Bridge Escape from Kesa Gatame]] - Related bridge escape from traditional scarf hold with similar mechanics
 
-- [[Bridge Escape from 3-4 Mount]] - Related bridge escape technique from another dominant top position
+- [[Transitions/Bridge Escape from 3-4 Mount]] - Related bridge escape technique from another dominant top position
 
-- [[Kesa Gatame]] - Related scarf hold position with similar escape principles
+- [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position with similar escape principles
 
-- [[Side Control]] - Parent position family sharing common escape frameworks
+- [[Positions/Side Control]] - Parent position family sharing common escape frameworks
 
-- [[Turtle]] - Alternative escape destination via bridge-to-turtle variant
+- [[Positions/Turtle]] - Alternative escape destination via bridge-to-turtle variant
 
-- [[Arm Extraction]] - Complementary escape technique often chained with bridge attempts
+- [[Transitions/Arm Extraction]] - Complementary escape technique often chained with bridge attempts
 
-- [[Knee Shield Half Guard]] - Preferred half guard variation to establish after successful escape
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Preferred half guard variation to establish after successful escape
 
 
 </section>

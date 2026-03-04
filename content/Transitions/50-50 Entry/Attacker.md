@@ -178,7 +178,7 @@ Strategically, the 50-50 Entry serves as both an offensive pathway to heel hook 
 
 From a systematic perspective, the 50-50 Entry functions as a gateway to the entire leg entanglement system. Once established, you gain access to heel hooks, toe holds, and various sweeping mechanics. The position also creates what practitioners call a "neutral leg lock position" where both players have equivalent attacking opportunities, making it crucial to understand both offensive and defensive applications from the moment of entry.
 
-**From Position**: [[Inverted Guard]] (Bottom)
+**From Position**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ From a systematic perspective, the 50-50 Entry functions as a gateway to the ent
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 65% |
-| Failure | [[Inverted Guard]] | 25% |
-| Counter | [[Side Control]] | 10% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 65% |
+| Failure | [[Positions/Inverted Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ From a systematic perspective, the 50-50 Entry functions as a gateway to the ent
 
 ## Opponent Counters
 
-- **Opponent backsteps and clears leg before thread completes** (Effectiveness: High) - Your Response: Follow with re-inversion and transition to outside ashi-garami or single leg X-guard instead → Leads to [[Inverted Guard]]
-- **Opponent drives forward with stack pressure during inversion** (Effectiveness: Medium) - Your Response: Use the forward momentum to accelerate your roll and complete entry faster, or granby roll to guard recovery → Leads to [[Side Control]]
-- **Opponent establishes strong collar tie or head control** (Effectiveness: Medium) - Your Response: Frame against their bicep or wrist while threading to maintain distance, or abort to closed guard → Leads to [[Inverted Guard]]
-- **Opponent steps over your threading leg to pass** (Effectiveness: Low) - Your Response: Continue the roll underneath them and transition to single leg X-guard from the opposite side → Leads to [[Side Control]]
+- **Opponent backsteps and clears leg before thread completes** (Effectiveness: High) - Your Response: Follow with re-inversion and transition to outside ashi-garami or single leg X-guard instead → Leads to [[Positions/Inverted Guard]]
+- **Opponent drives forward with stack pressure during inversion** (Effectiveness: Medium) - Your Response: Use the forward momentum to accelerate your roll and complete entry faster, or granby roll to guard recovery → Leads to [[Positions/Side Control]]
+- **Opponent establishes strong collar tie or head control** (Effectiveness: Medium) - Your Response: Frame against their bicep or wrist while threading to maintain distance, or abort to closed guard → Leads to [[Positions/Inverted Guard]]
+- **Opponent steps over your threading leg to pass** (Effectiveness: Low) - Your Response: Continue the roll underneath them and transition to single leg X-guard from the opposite side → Leads to [[Positions/Side Control]]
 
 
 </section>

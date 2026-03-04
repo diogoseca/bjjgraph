@@ -152,7 +152,7 @@ The critical defensive window exists between the moment your opponent releases t
 
 The defender must prioritize preventing the lock from completing while maintaining neck protection with their free arm. If the body triangle does lock, the defensive situation becomes significantly worse, as the combined Gift Wrap plus body triangle creates a near-inescapable configuration. Understanding the attacker's mechanics - specifically that they must release a hook, thread deep, and then lock the ankle - allows the defender to identify the optimal moment and method for disruption. The best defenders treat each phase of the attacker's sequence as a separate problem to solve rather than attempting a single explosive escape.
 
-**Opponent's Starting Position**: [[Gift Wrap]] (Top)
+**Opponent's Starting Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
 
@@ -187,21 +187,21 @@ The defender must prioritize preventing the lock from completing while maintaini
 ### 1. Explosive bridge and hip escape the moment you feel the hook release, driving your hips away from the threading leg to create distance that prevents the leg from reaching across your midsection
 
 - **When to use**: Immediately upon feeling the first hook disengage - this is the highest-percentage defensive window before the attacker commits to the thread
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Attacker fails to complete the thread and must re-establish the hook, returning to standard Gift Wrap with hooks position where you have more escape options
 - **Risk**: If the bridge is poorly timed or the attacker maintains tight chest connection, you waste energy without preventing the thread and may create space they exploit for neck attacks
 
 ### 2. Turn your hips and shoulders sharply toward the attacker during the leg transition, closing the space the threading leg needs to cross your body and threatening to face them
 
 - **When to use**: When the attacker has already begun threading but the leg has not yet reached the far hip - the turn prevents completion of the cross-body path
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The turn disrupts the body triangle entry and if you continue turning through, you may escape to half guard or force the attacker to follow you to technical mount where different escape options exist
 - **Risk**: If the Gift Wrap arm control is very tight, the turn may stall and the attacker can use the momentum of your turn to accelerate their own positional advancement
 
 ### 3. Use your free hand to push the attacker's threading ankle away from your far hip, preventing the foot from reaching the position needed to complete the figure-four lock
 
 - **When to use**: When the attacker's leg has crossed your midsection but the ankle lock has not yet been secured - this targets the final phase of the body triangle establishment
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: The attacker cannot complete the lock and must either withdraw the leg back to a hook position or continue fighting for the ankle position, buying you time and creating scramble opportunities
 - **Risk**: Committing your only free hand to the leg exposes your neck completely to rear naked choke attacks - the attacker may abandon the body triangle attempt and immediately attack the neck
 
@@ -213,11 +213,11 @@ The defender must prioritize preventing the lock from completing while maintaini
 
 ## Best-Case Outcomes for Defender
 
-### → [[Gift Wrap]]
+### → [[Positions/Gift Wrap]]
 
 Disrupt the body triangle threading sequence through explosive hip escape or ankle blocking before the lock completes, forcing the attacker back to standard Gift Wrap with hooks where you have greater hip mobility and more escape pathways available
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Turn sharply into the attacker during the leg transition phase, using the momentary instability from the released hook to drive through to a facing position. Continue the turn and hip escape to extract yourself from back control entirely, recovering half guard as the attacker loses chest-to-back connection
 

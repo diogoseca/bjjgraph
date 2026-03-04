@@ -146,7 +146,7 @@ description: "Prevent the Frame from Shoulder of Justice by maintaining pressure
 
 As the defender against the Frame from Shoulder of Justice, you are the top player maintaining Shoulder of Justice control and must prevent the bottom player from disrupting your shoulder pressure angle through forearm wedges. Your primary objective is to detect frame insertion attempts early and collapse them before the bottom player can redirect your shoulder vector away from their jaw. The Shoulder of Justice's effectiveness depends entirely on maintaining the precise 45-degree shoulder-to-jaw alignment, so frame attempts that target your shoulder junction represent the most direct threat to your positional advantage. Understanding how the bottom player constructs their frame allows you to preemptively deny wedge insertion points, capitalize on any arm exposure with kimura attacks, and convert disrupted pressure into mount advancement opportunities.
 
-**Opponent's Starting Position**: [[Shoulder of Justice]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Shoulder of Justice]] (Bottom)
 
 </section>
 
@@ -182,28 +182,28 @@ As the defender against the Frame from Shoulder of Justice, you are the top play
 ### 1. Drive body weight through shoulder and re-settle hips to collapse the frame before it achieves structural integrity
 
 - **When to use**: Immediately when you feel the bottom player's forearm rotating against your shoulder junction or creating a wedge contact point
-- **Targets**: [[Shoulder of Justice]]
+- **Targets**: [[Positions/Shoulder of Justice]]
 - **If successful**: Frame collapses back to the bottom player's body, and your Shoulder of Justice pressure angle is maintained with the opponent returning to full defensive position
 - **Risk**: Driving weight forward aggressively may create a momentary hip disconnection that the bottom player can exploit for a larger hip escape
 
 ### 2. Attack kimura on the near arm when forearm separation creates space between the elbow and their ribs
 
 - **When to use**: When the bottom player's frame attempt creates any visible gap between their near elbow and their ribcage, indicating the arm is outside the protected centerline
-- **Targets**: [[Kimura Trap]]
+- **Targets**: [[Positions/Kimura Trap]]
 - **If successful**: Opponent must abandon the frame to defend the kimura grip, and you transition to kimura trap control with the arm isolated
 - **Risk**: Reaching for the kimura momentarily reduces shoulder pressure and may give the bottom player a brief window to complete the frame
 
 ### 3. Adjust shoulder angle to bypass the frame entirely and re-establish jaw pressure from a different direction
 
 - **When to use**: When the frame is partially established and collapsing it directly would require excessive effort or hip disconnection
-- **Targets**: [[Shoulder of Justice]]
+- **Targets**: [[Positions/Shoulder of Justice]]
 - **If successful**: Re-establishes concentrated jaw pressure from a new angle that the existing frame does not address, negating the bottom player's frame work
 - **Risk**: The angle adjustment requires a momentary weight shift that the bottom player may use to execute a hip escape
 
 ### 4. Transition to mount when the frame creates enough positional disruption that re-establishing Shoulder of Justice is not efficient
 
 - **When to use**: When the bottom player has partially succeeded in disrupting your shoulder angle and the position is approaching standard side control
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You advance to mount, which is a superior position to side control and eliminates the framing problem entirely
 - **Risk**: If the bottom player blocks the mount transition with a knee, you may end up in half guard top rather than mount
 
@@ -215,11 +215,11 @@ As the defender against the Frame from Shoulder of Justice, you are the top play
 
 ## Best-Case Outcomes for Defender
 
-### → [[Shoulder of Justice]]
+### → [[Positions/Shoulder of Justice]]
 
 Detect frame insertion attempts through tactile sensitivity at your shoulder junction and immediately collapse them by driving body weight through the shoulder while re-settling hips heavier on the opponent's hip line. Minimize unnecessary adjustments that create weight shift timing windows the bottom player can exploit for frame insertion.
 
-### → [[Kimura Trap]]
+### → [[Positions/Kimura Trap]]
 
 When the bottom player's frame attempt creates separation between their near elbow and their ribs, immediately secure a two-on-one grip on their wrist and begin kimura mechanics. The frame attempt naturally moves the arm into a vulnerable position outside the body centerline, creating a high-percentage kimura opportunity that punishes the escape attempt.
 

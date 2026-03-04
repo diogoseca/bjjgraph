@@ -180,7 +180,7 @@ description: "How to execute the Kimura Trap to Reverse Scarf Hold transition in
 
 Executing the Transition to Reverse Scarf Hold from Kimura Trap Top requires precise coordination of hip rotation, continuous pressure application, and grip retention throughout the movement. The attacker leverages the existing Kimura grip as both a control anchor and a rotation pivot point, walking their feet in an arc while keeping their chest heavy on the opponent's torso. The critical insight is that this transition should feel like rotating around a fixed point (the grip) rather than lifting and repositioning. Every moment of the rotation must maintain crushing pressure on the opponent's chest to prevent frame insertion or guard recovery. The attacker who masters this transition gains the ability to chain the Kimura Trap into an endless cycle of positional threats that exhaust even the most technically proficient defenders.
 
-**From Position**: [[Kimura Trap]] (Top)
+**From Position**: [[Positions/Kimura Trap]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Transition to Reverse Scarf Hold from Kimura Trap Top requires pre
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Reverse Scarf Hold]] | 65% |
-| Failure | [[Kimura Trap]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control/Reverse Scarf Hold]] | 65% |
+| Failure | [[Positions/Kimura Trap]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Transition to Reverse Scarf Hold from Kimura Trap Top requires pre
 
 ## Opponent Counters
 
-- **Opponent inserts far-side frame against neck during rotation** (Effectiveness: High) - Your Response: Drive your shoulder into their frame to collapse it while continuing the rotation. If the frame is strong, abandon the Reverse Scarf Hold transition and use the frame-creation to advance to mount instead, stepping over their body as they commit to the frame. → Leads to [[Kimura Trap]]
-- **Opponent bridges explosively during the mid-rotation vulnerable phase** (Effectiveness: Medium) - Your Response: Ride the bridge by keeping your chest heavy and maintaining the grip. Use their upward momentum to complete the rotation faster, allowing their bridge to assist your hip switch. If they bridge strongly enough to compromise your base, settle back into Kimura Trap Top and reset. → Leads to [[Kimura Trap]]
-- **Opponent hip escapes and inserts knee during transition to recover half guard** (Effectiveness: High) - Your Response: If their knee enters before you complete the rotation, you must address the guard recovery immediately. Use the Kimura grip to control their arm while backstopping their knee insertion with your own hip. If half guard is recovered, transition to half guard top passing rather than forcing the Reverse Scarf Hold. → Leads to [[Half Guard]]
-- **Opponent releases Kimura defense and extends arm to push during rotation** (Effectiveness: Low) - Your Response: Their arm extension is a gift. Immediately re-engage the Kimura finish since their defensive posture has opened. The arm extension during your rotation gives you an improved submission angle. Tighten the figure-four and apply rotational shoulder pressure to finish the Kimura. → Leads to [[Kimura Trap]]
+- **Opponent inserts far-side frame against neck during rotation** (Effectiveness: High) - Your Response: Drive your shoulder into their frame to collapse it while continuing the rotation. If the frame is strong, abandon the Reverse Scarf Hold transition and use the frame-creation to advance to mount instead, stepping over their body as they commit to the frame. → Leads to [[Positions/Kimura Trap]]
+- **Opponent bridges explosively during the mid-rotation vulnerable phase** (Effectiveness: Medium) - Your Response: Ride the bridge by keeping your chest heavy and maintaining the grip. Use their upward momentum to complete the rotation faster, allowing their bridge to assist your hip switch. If they bridge strongly enough to compromise your base, settle back into Kimura Trap Top and reset. → Leads to [[Positions/Kimura Trap]]
+- **Opponent hip escapes and inserts knee during transition to recover half guard** (Effectiveness: High) - Your Response: If their knee enters before you complete the rotation, you must address the guard recovery immediately. Use the Kimura grip to control their arm while backstopping their knee insertion with your own hip. If half guard is recovered, transition to half guard top passing rather than forcing the Reverse Scarf Hold. → Leads to [[Positions/Half Guard]]
+- **Opponent releases Kimura defense and extends arm to push during rotation** (Effectiveness: Low) - Your Response: Their arm extension is a gift. Immediately re-engage the Kimura finish since their defensive posture has opened. The arm extension during your rotation gives you an improved submission angle. Tighten the figure-four and apply rotational shoulder pressure to finish the Kimura. → Leads to [[Positions/Kimura Trap]]
 
 
 </section>

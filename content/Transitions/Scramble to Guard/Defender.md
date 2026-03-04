@@ -150,7 +150,7 @@ As the Twister Control top player, your opponent's Scramble to Guard escape repr
 
 The key to shutting down the Scramble to Guard lies in maintaining the two pillars of Twister Control: leg entanglement integrity and upper body rotation pressure. When both systems are coordinated, the bottom player cannot generate the hip turn needed to face you. Your defensive strategy focuses on anticipating the scramble initiation, tightening control at the moment of their explosive movement, and having contingency positions ready if partial escape occurs. The best defense against the scramble is preventing the conditions that make it viable - maintaining deep leg hooks and constant rotational pressure so the bottom player never finds the window they need to initiate.
 
-**Opponent's Starting Position**: [[Twister Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Twister Control]] (Bottom)
 
 </section>
 
@@ -187,21 +187,21 @@ The key to shutting down the Scramble to Guard lies in maintaining the two pilla
 ### 1. Tighten leg entanglement and increase rotational pressure immediately upon recognizing scramble indicators
 
 - **When to use**: When you detect pre-scramble indicators such as hand-fighting on your leg hooks or controlled breathing reset - this is the proactive prevention window
-- **Targets**: [[Twister Control]]
+- **Targets**: [[Positions/Twister Control]]
 - **If successful**: Bottom player's escape attempt is shut down before it begins, they expend energy without result, and you maintain full Twister Control for continued submission hunting
 - **Risk**: Minimal risk - tightening control from an already dominant position has no significant downside
 
 ### 2. Transition to guillotine or front headlock as bottom player turns into you during the scramble
 
 - **When to use**: When the bottom player has partially freed their leg and is executing the hip turn toward you, exposing their neck during the rotation
-- **Targets**: [[Twister Control]]
+- **Targets**: [[Positions/Twister Control]]
 - **If successful**: You catch the bottom player in a guillotine control position or front headlock, converting their escape attempt into a new submission threat that is potentially higher percentage than the original Twister
 - **Risk**: If your guillotine grip is shallow, the bottom player may complete the turn and establish guard while you hold a non-threatening head position
 
 ### 3. Follow the scramble movement and transition to back control with hooks rather than fighting to maintain Twister rotation
 
 - **When to use**: When the bottom player has successfully freed their leg and reduced significant rotation, making Twister Control re-establishment impractical
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You maintain a dominant position with traditional back control hooks, preserving your offensive advantage and threatening rear naked choke while denying them guard recovery
 - **Risk**: During the transition to back control, the bottom player may complete their turn faster than you can establish hooks, resulting in them recovering guard
 
@@ -213,11 +213,11 @@ The key to shutting down the Scramble to Guard lies in maintaining the two pilla
 
 ## Best-Case Outcomes for Defender
 
-### → [[Twister Control]]
+### → [[Positions/Twister Control]]
 
 Maintain tight leg entanglement by constantly adjusting your hooks and squeezing your knees together to prevent leg extraction. When you feel the bottom player loading for the explosive hip turn, immediately increase rotational pressure through your upper body control while clamping down harder on the trapped leg. Anticipate the scramble timing by reading their breathing and hand-fighting patterns, and pre-emptively tighten before they can generate momentum.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the bottom player successfully frees their leg and begins the hip turn, do not fight to maintain the Twister rotation. Instead, immediately follow their turning movement and work to insert your hooks as they rotate toward you. Use the hand that was controlling their upper body to establish a seatbelt grip as they turn. Their momentum turning into you actually assists your transition to back control if you ride the movement rather than resisting it.
 

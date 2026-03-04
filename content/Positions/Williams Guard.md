@@ -93,21 +93,21 @@ From the top perspective, Williams Guard presents significant challenges requiri
 ### Available Transitions
 
 
-- **[[Williams Shoulder Lock]]** (13% of attempts)
+- **[[Transitions/Williams Shoulder Lock]]** (13% of attempts)
 
-- **[[Omoplata Sweep]]** (15% of attempts)
+- **[[Transitions/Omoplata Sweep]]** (15% of attempts)
 
-- **[[Triangle Setup]]** (12% of attempts)
+- **[[Transitions/Triangle Setup]]** (12% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (18% of attempts)
+- **[[Transitions/Closed Guard to Omoplata]]** (18% of attempts)
 
-- **[[Back Take from Bottom]]** (11% of attempts)
+- **[[Transitions/Back Take from Bottom]]** (11% of attempts)
 
-- **[[Kimura to Back Take]]** (12% of attempts)
+- **[[Transitions/Kimura to Back Take]]** (12% of attempts)
 
-- **[[Armbar Finish]]** (13% of attempts)
+- **[[Transitions/Armbar Finish]]** (13% of attempts)
 
-- **[[Williams Guard Sweep]]** (6% of attempts)
+- **[[Transitions/Williams Guard Sweep]]** (6% of attempts)
 
 
 ### Common Mistakes
@@ -168,23 +168,23 @@ From the top perspective, Williams Guard presents significant challenges requiri
 ### Available Transitions
 
 
-- **[[Arm Extraction]]** (14% of attempts)
+- **[[Transitions/Arm Extraction]]** (14% of attempts)
 
-- **[[Stack Pass]]** (12% of attempts)
+- **[[Transitions/Stack Pass]]** (12% of attempts)
 
-- **[[Pressure Pass]]** (11% of attempts)
+- **[[Transitions/Pressure Pass]]** (11% of attempts)
 
-- **[[Knee Cut Pass]]** (13% of attempts)
+- **[[Transitions/Knee Cut Pass]]** (13% of attempts)
 
-- **[[Posture Recovery]]** (30% of attempts)
+- **[[Transitions/Posture Recovery]]** (30% of attempts)
 
-- **[[Knee Slice Pass]]** (12% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (12% of attempts)
 
-- **[[Posture from Williams Guard]]** (5% of attempts)
+- **[[Transitions/Posture from Williams Guard]]** (5% of attempts)
 
-- **[[Stack from Williams Guard]]** (2% of attempts)
+- **[[Transitions/Stack from Williams Guard]]** (2% of attempts)
 
-- **[[Guard Pass from Williams Guard]]** (1% of attempts)
+- **[[Transitions/Guard Pass from Williams Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -227,25 +227,25 @@ From the top perspective, Williams Guard presents significant challenges requiri
 ## Related Positions
 
 
-- **[[Butterfly Guard]]** - Foundational position sharing hook-based control mechanics
+- **[[Positions/Butterfly Guard]]** - Foundational position sharing hook-based control mechanics
 
-- **[[Omoplata Control]]** - Primary transition target from shoulder lock control
+- **[[Positions/Omoplata Control]]** - Primary transition target from shoulder lock control
 
-- **[[Triangle Control]]** - Alternative submission control when opponent defends shoulder lock
+- **[[Positions/Triangle Control]]** - Alternative submission control when opponent defends shoulder lock
 
-- **[[Rubber Guard]]** - Similar arm control and isolation philosophy
+- **[[Positions/Rubber Guard]]** - Similar arm control and isolation philosophy
 
-- **[[Overhook Guard]]** - Related arm isolation and control principle
+- **[[Positions/Overhook Guard]]** - Related arm isolation and control principle
 
-- **[[X-Guard]]** - Common transition when opponent posts to defend
+- **[[Positions/X-Guard]]** - Common transition when opponent posts to defend
 
-- **[[Single Leg X-Guard]]** - Alternative transition when opponent creates distance
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Alternative transition when opponent creates distance
 
-- **[[Open Guard]]** - General guard category containing Williams Guard
+- **[[Positions/Open Guard]]** - General guard category containing Williams Guard
 
-- **[[Back Control]]** - High-value position accessible from Williams Guard transitions
+- **[[Positions/Back Control]]** - High-value position accessible from Williams Guard transitions
 
-- **[[Combat Base]]** - Target position after arm extraction from top
+- **[[Positions/Combat Base]]** - Target position after arm extraction from top
 
 
 </section>

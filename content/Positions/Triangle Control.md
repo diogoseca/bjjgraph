@@ -87,19 +87,19 @@ The triangle choke has evolved significantly since its popularization in competi
 ### Available Transitions
 
 
-- **[[Triangle Choke Front]]** (29% of attempts)
+- **[[Submissions/Triangle Choke Front]]** (29% of attempts)
 
-- **[[Triangle to Armbar]]** (22% of attempts)
+- **[[Transitions/Triangle to Armbar]]** (22% of attempts)
 
-- **[[Triangle to Omoplata]]** (13% of attempts)
+- **[[Transitions/Triangle to Omoplata]]** (13% of attempts)
 
-- **[[Triangle to Back]]** (9% of attempts)
+- **[[Transitions/Triangle to Back]]** (9% of attempts)
 
-- **[[Mounted Triangle]]** (7% of attempts)
+- **[[Positions/Mount/Mounted Triangle]]** (7% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (6% of attempts)
+- **[[Transitions/Closed Guard to Omoplata]]** (6% of attempts)
 
-- **[[Inverted Triangle]]** (14% of attempts)
+- **[[Transitions/Inverted Triangle]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -158,21 +158,21 @@ The triangle choke has evolved significantly since its popularization in competi
 ### Available Transitions
 
 
-- **[[Triangle Escape]]** (22% of attempts)
+- **[[Transitions/Triangle Escape]]** (22% of attempts)
 
-- **[[Posture Recovery]]** (16% of attempts)
+- **[[Transitions/Posture Recovery]]** (16% of attempts)
 
-- **[[Stack Defense]]** (12% of attempts)
+- **[[Transitions/Stack Defense]]** (12% of attempts)
 
-- **[[Guard Recovery from Triangle Control]]** (5% of attempts)
+- **[[Transitions/Guard Recovery from Triangle Control]]** (5% of attempts)
 
-- **[[Triangle Clear to Side]]** (5% of attempts)
+- **[[Transitions/Triangle Clear to Side]]** (5% of attempts)
 
-- **[[Triangle Choke]]** (37% of attempts)
+- **[[Transitions/Triangle Choke]]** (37% of attempts)
 
-- **[[Posture Up from Triangle]]** (2% of attempts)
+- **[[Transitions/Posture Up from Triangle]]** (2% of attempts)
 
-- **[[Stack Escape from Triangle]]** (1% of attempts)
+- **[[Transitions/Stack Escape from Triangle]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -211,17 +211,17 @@ The triangle choke has evolved significantly since its popularization in competi
 ## Related Positions
 
 
-- **[[Closed Guard]]** - Most common entry position for establishing triangle control from bottom
+- **[[Positions/Closed Guard]]** - Most common entry position for establishing triangle control from bottom
 
-- **[[Armbar Control]]** - Primary transition target when opponent defends triangle by posturing
+- **[[Positions/Armbar Control]]** - Primary transition target when opponent defends triangle by posturing
 
-- **[[Omoplata Control]]** - Secondary transition when opponent stacks or drives forward into triangle
+- **[[Positions/Omoplata Control]]** - Secondary transition when opponent stacks or drives forward into triangle
 
-- **[[Back Control]]** - Transition option when opponent turns away or extracts trapped arm
+- **[[Positions/Back Control]]** - Transition option when opponent turns away or extracts trapped arm
 
-- **[[Mounted Triangle]]** - Mounted variation achieved when opponent elevates during triangle
+- **[[Positions/Mount/Mounted Triangle]]** - Mounted variation achieved when opponent elevates during triangle
 
-- **[[Gogoplata Control]]** - Alternative submission control using shin across throat from similar configuration
+- **[[Positions/Gogoplata Control]]** - Alternative submission control using shin across throat from similar configuration
 
 
 </section>

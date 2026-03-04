@@ -186,7 +186,7 @@ description: "Learn to maintain the Truck position in BJJ with boot pressure ret
 
 Maintaining the Truck from the top requires continuous management of three interconnected control systems: boot pressure on the hip, leg entanglement restricting lower body mobility, and upper body connection preventing forward rolls or rotation. The attacker must treat maintenance not as a passive state but as an active process of reading escape attempts and adjusting control before gaps open. Every micro-adjustment in boot angle, leg hook depth, and chest pressure determines whether the position holds or collapses. The skilled maintenance player creates a sensation of inescapable pressure that drains the opponent's energy and morale, setting up submission attempts from a position of absolute control.
 
-**From Position**: [[Truck]] (Top)
+**From Position**: [[Positions/Twister Control/Truck]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ Maintaining the Truck from the top requires continuous management of three inter
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Truck]] | 55% |
-| Failure | [[Turtle]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Twister Control/Truck]] | 55% |
+| Failure | [[Positions/Turtle]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ Maintaining the Truck from the top requires continuous management of three inter
 
 ## Opponent Counters
 
-- **Opponent clears boot pressure through persistent hand fighting and hip rotation** (Effectiveness: High) - Your Response: Immediately re-angle boot deeper into hip crease before opponent capitalizes; if boot is fully cleared, transition to back control by inserting hooks before they can re-turtle → Leads to [[Turtle]]
-- **Opponent executes granby roll using forward momentum to break leg entanglement** (Effectiveness: Medium) - Your Response: Follow the direction of the roll and transition to back control by inserting hooks during their rotation, or catch the far arm for crucifix as they turn → Leads to [[Half Guard]]
-- **Opponent straightens trapped leg explosively to extract from entanglement** (Effectiveness: Medium) - Your Response: Attack the straightening leg immediately with calf slicer pressure using their extension against them, or deepen your hook behind the knee before full extension is achieved → Leads to [[Turtle]]
-- **Opponent creates strong upper body frames to prevent chest pressure and submission setups** (Effectiveness: Low) - Your Response: Collapse the frame by driving chest pressure down while simultaneously tightening leg entanglement; the frame only addresses upper body and leaves lower body submissions open → Leads to [[Truck]]
+- **Opponent clears boot pressure through persistent hand fighting and hip rotation** (Effectiveness: High) - Your Response: Immediately re-angle boot deeper into hip crease before opponent capitalizes; if boot is fully cleared, transition to back control by inserting hooks before they can re-turtle → Leads to [[Positions/Turtle]]
+- **Opponent executes granby roll using forward momentum to break leg entanglement** (Effectiveness: Medium) - Your Response: Follow the direction of the roll and transition to back control by inserting hooks during their rotation, or catch the far arm for crucifix as they turn → Leads to [[Positions/Half Guard]]
+- **Opponent straightens trapped leg explosively to extract from entanglement** (Effectiveness: Medium) - Your Response: Attack the straightening leg immediately with calf slicer pressure using their extension against them, or deepen your hook behind the knee before full extension is achieved → Leads to [[Positions/Turtle]]
+- **Opponent creates strong upper body frames to prevent chest pressure and submission setups** (Effectiveness: Low) - Your Response: Collapse the frame by driving chest pressure down while simultaneously tightening leg entanglement; the frame only addresses upper body and leaves lower body submissions open → Leads to [[Positions/Twister Control/Truck]]
 
 
 </section>

@@ -21,7 +21,7 @@ This pass is particularly effective against seated guard because the seated play
 
 Strategically, the toreando from seated guard serves as both a primary passing technique and a setup for other passes. When the opponent defends the toreando by pulling their legs back, they often create openings for knee slice passes, leg drags, or bodylock entries. This makes the toreando an essential component of a systematic passing game from standing, as it forces defensive reactions that open alternative passing lanes.
 
-**From Position**: [[Seated Guard]] (Top)
+**From Position**: [[Positions/Seated Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the toreando from seated guard serves as both a primary passing t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Seated Guard]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Seated Guard]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Toreando Pass from Seated Guard integrates into the broader guard passing sy
 ## Related Techniques
 
 
-- [[Side Control]] - Target position after successful completion of the toreando pass
+- [[Positions/Side Control]] - Target position after successful completion of the toreando pass
 
-- [[Seated Guard]] - Starting guard position that this pass is designed to defeat
+- [[Positions/Seated Guard]] - Starting guard position that this pass is designed to defeat
 
-- [[Headquarters Position]] - Intermediate control position reached during partial pass completion
+- [[Positions/Headquarters Position]] - Intermediate control position reached during partial pass completion
 
-- [[Combat Base]] - Kneeling stance from which the kneeling toreando variation is initiated
+- [[Positions/Combat Base]] - Kneeling stance from which the kneeling toreando variation is initiated
 
-- [[Butterfly Guard]] - Guard opponent may transition to if they insert hooks during pass attempt
+- [[Positions/Butterfly Guard]] - Guard opponent may transition to if they insert hooks during pass attempt
 
-- [[Closed Guard]] - Counter position opponent may achieve by closing guard during approach
+- [[Positions/Closed Guard]] - Counter position opponent may achieve by closing guard during approach
 
-- [[Half Guard]] - Position that may result if opponent catches a leg during the pass
+- [[Positions/Half Guard]] - Position that may result if opponent catches a leg during the pass
 
-- [[Open Guard]] - Parent guard category that seated guard belongs to
+- [[Positions/Open Guard]] - Parent guard category that seated guard belongs to
 
-- [[De La Riva Guard]] - Alternative guard opponent may enter if they hook your lead leg during approach
+- [[Positions/De La Riva Guard]] - Alternative guard opponent may enter if they hook your lead leg during approach
 
-- [[Knee on Belly]] - Advanced consolidation position accessible after completing the pass
+- [[Positions/Knee on Belly]] - Advanced consolidation position accessible after completing the pass
 
 
 </section>

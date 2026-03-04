@@ -19,7 +19,7 @@ Tomoe Nage, known as the circle throw or stomach throw, is a dynamic sacrifice t
 
 Modern BJJ has adapted this classical judo throw into a versatile entry system that can lead to sweeps, guard pulls, and submission setups. The technique's effectiveness lies in its ability to use the opponent's forward momentum and weight against them, requiring more timing and technical precision than raw strength. When executed with full follow-through, the thrower can achieve mount; when used as a controlled sacrifice, it establishes closed guard with broken posture. This dual-outcome nature makes it strategically valuable across multiple competition rulesets.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -30,10 +30,10 @@ Modern BJJ has adapted this classical judo throw into a versatile entry system t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 30% |
-| Success | [[Closed Guard]] | 30% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Mount]] | 30% |
+| Success | [[Positions/Closed Guard]] | 30% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -200,29 +200,29 @@ Tomoe Nage functions as a critical bridge between standing exchanges and guard-b
 ## Related Techniques
 
 
-- [[Sumi Gaeshi]] - Alternative sacrifice throw with inside leg placement on thigh
+- [[Transitions/Sumi Gaeshi]] - Alternative sacrifice throw with inside leg placement on thigh
 
-- [[Closed Guard]] - Primary landing position after controlled sacrifice throw
+- [[Positions/Closed Guard]] - Primary landing position after controlled sacrifice throw
 
-- [[Butterfly Guard]] - Backup guard option if throw is incomplete
+- [[Positions/Butterfly Guard]] - Backup guard option if throw is incomplete
 
-- [[Clinch]] - Standing grip fighting position that creates throw opportunities
+- [[Positions/Clinch]] - Standing grip fighting position that creates throw opportunities
 
-- [[Guard Pull]] - Competing guard establishment method from standing
+- [[Transitions/Guard Pull]] - Competing guard establishment method from standing
 
-- [[Balloon Sweep]] - Uses similar elevation mechanics from guard bottom
+- [[Transitions/Balloon Sweep]] - Uses similar elevation mechanics from guard bottom
 
-- [[Standing Position]] - Starting position for technique execution
+- [[Positions/Standing Position]] - Starting position for technique execution
 
-- [[De La Riva Guard]] - Alternative guard entry if throw attempt fails
+- [[Positions/De La Riva Guard]] - Alternative guard entry if throw attempt fails
 
-- [[Mount]] - Achievable top position with full follow-through on throw
+- [[Positions/Mount]] - Achievable top position with full follow-through on throw
 
-- [[Open Guard]] - Transitional guard if throw is countered
+- [[Positions/Open Guard]] - Transitional guard if throw is countered
 
-- [[Double Leg Entry]] - Competing takedown approach from standing
+- [[Transitions/Double Leg Entry]] - Competing takedown approach from standing
 
-- [[Tani Otoshi]] - Alternative sacrifice throw from similar grip configurations
+- [[Transitions/Tani Otoshi]] - Alternative sacrifice throw from similar grip configurations
 
 
 </section>

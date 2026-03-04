@@ -146,7 +146,7 @@ description: "Defend the Toss Pass from Double Unders in BJJ. Recognition cues, 
 
 Defending the Toss Pass from Double Unders requires the bottom player to recognize the subtle cues that differentiate an incoming toss from a standard stack pass, then rapidly adjust their defensive frame orientation from vertical resistance to lateral or diagonal coverage. The defender is already in a compromised double unders bottom position, making early recognition critical since reactive defense after the toss initiates is extremely difficult. The primary defensive strategy involves maintaining frames that resist force from multiple directions simultaneously, and if the toss initiates, immediately working to insert hooks or create frames on the landing side rather than attempting to resist the directional change. Successful defense typically results in guard recovery to half guard or open guard rather than a complete position reversal.
 
-**Opponent's Starting Position**: [[Double Unders]] (Top)
+**Opponent's Starting Position**: [[Positions/Double Unders]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Toss Pass from Double Unders requires the bottom player to recogni
 ### 1. Insert butterfly hook on the anticipated toss side before the toss initiates, blocking clean leg clearance
 
 - **When to use**: When you recognize pre-toss cues early, particularly the grip shift and head repositioning, before the explosive motion begins
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your hook prevents the opponent's legs from clearing completely, forcing them into a half guard top scenario where you have established defensive structure
 - **Risk**: If the toss is powerful enough, the hook may be cleared anyway, and your leg positioning may leave you more vulnerable than standard frames
 
 ### 2. Frame against opponent's shoulder and hip escape away during the toss motion, using the directional change to create separation distance
 
 - **When to use**: During the toss execution when the opponent's grip loosens momentarily as they redirect force from vertical to lateral
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You create enough distance to recover open guard with feet on hips or butterfly hooks before the opponent can follow through to side control
 - **Risk**: If your frames are insufficient, the hip escape may leave you flat on your back with the opponent passing directly into side control
 
 ### 3. Grip opponent's wrist or sleeve on the near side to prevent them from releasing underhook for crossface during follow-through
 
 - **When to use**: When the toss has already initiated and you cannot prevent the leg clearance, focus on preventing the side control consolidation
-- **Targets**: [[Double Unders]]
+- **Targets**: [[Positions/Double Unders]]
 - **If successful**: The opponent cannot establish crossface after the toss, giving you time to turn into them and re-establish guard before side control is consolidated
 - **Risk**: The grip may not hold against the explosive motion, and focusing on wrist control may distract from more effective hip movement and frame creation
 
 ### 4. Turn hips toward the toss direction and immediately establish knee shield on the landing side
 
 - **When to use**: During the toss when you feel your legs being redirected, accept the direction and use the momentum to establish defensive structure on the landing side
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish knee shield half guard before the opponent can consolidate side control, maintaining a strong defensive guard position
 - **Risk**: Turning too aggressively into the toss may expose your back if the opponent reads the turn and transitions to a back take
 
@@ -217,11 +217,11 @@ Defending the Toss Pass from Double Unders requires the bottom player to recogni
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Create maximum frames during the toss transition phase when the opponent's grip loosens. Hip escape aggressively during the directional change, using the brief moment of instability to create separation distance. Immediately establish feet on hips or butterfly hooks before the opponent can re-engage.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Insert a butterfly hook or knee shield on the toss side before or during the leg redirection. Accept the directional change rather than fighting it, and use the momentum to establish strong half guard retention with knee shield positioned across the opponent's hip line.
 

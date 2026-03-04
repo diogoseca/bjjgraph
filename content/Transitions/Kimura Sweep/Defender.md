@@ -158,7 +158,7 @@ Effective defense begins with posture and hand positioning. Keeping your elbows 
 
 At higher levels, skilled defenders learn to use the opponent's commitment to the Kimura grip as an opening for guard passing. When the bottom player invests in maintaining the grip, they often compromise their guard closure and hip positioning, creating passing opportunities that would not exist against a neutral guard player.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ At higher levels, skilled defenders learn to use the opponent's commitment to th
 ### 1. Strip the grip early by circling your trapped arm toward your own body and pulling your elbow back sharply to your hip
 
 - **When to use**: Immediately when you feel opponent grab your wrist before the figure-four is fully locked
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Return to standard Closed Guard top position with posture re-established and opponent's attack neutralized
 - **Risk**: If grip strip fails, opponent tightens the figure-four and you have expended energy without improving position
 
 ### 2. Flatten your weight forward onto opponent's chest while driving your hips down to deny the hip escape angle
 
 - **When to use**: When the Kimura grip is secured and opponent begins hip escaping to create sweep angle
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Opponent cannot generate the angular leverage needed for the sweep, grip becomes less threatening, and you can work to strip it from the flattened position
 - **Risk**: Flattening forward exposes you to the Kimura submission itself if opponent abandons sweep and attacks the shoulder directly
 
 ### 3. Post your free hand wide on the mat on the side opponent is trying to sweep you toward, creating a tripod base
 
 - **When to use**: When you feel the sweep motion beginning and cannot strip the grip in time
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Posted hand absorbs sweep momentum and prevents the roll, giving you time to work the grip strip or posture recovery
 - **Risk**: Extended posting arm becomes a target for armbar, and a strong opponent may power through the post with explosive hip drive
 
 ### 4. Stand up explosively to break the guard and create distance, taking the Kimura grip with you
 
 - **When to use**: When you recognize the grip early and still have good base before opponent creates significant angle
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Standing breaks the guard closure and eliminates the leg hook needed for sweep mechanics, allowing you to strip the grip from a standing position
 - **Risk**: If opponent maintains grip and pulls you back down, you may land in a worse angle than before the stand attempt
 
@@ -228,11 +228,11 @@ At higher levels, skilled defenders learn to use the opponent's commitment to th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Strip the Kimura grip early before the figure-four is consolidated by pulling your elbow sharply back to your hip and circling your wrist free. Re-establish posture with hands on opponent's hips to prevent re-engagement.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 If the sweep partially succeeds but you manage to disengage during the roll by posting and scrambling, you may end in a side control position. While not ideal, extracting from the Kimura grip during the scramble prevents the opponent from achieving full mount with arm control.
 

@@ -186,7 +186,7 @@ description: "Complete guide to executing the Leg Extraction Pass. Learn to syst
 
 As the attacker executing the Leg Extraction Pass, your objective is to dismantle the opponent's leg entanglement control structure while simultaneously advancing your hips past their guard to establish a dominant top position. This requires a methodical approach that addresses each component of their control — hooks, triangles, grips, and hip positioning — in the correct sequence. Rushing the extraction exposes your heel and knee to submission attacks, while being too passive allows the opponent to tighten their entanglement and set up finishes. The successful extraction balances urgency with technical precision, using forward pressure, leg straightening mechanics, and systematic hook clearing to convert a defensive situation into a passing opportunity. Your upper body must lead the extraction by establishing control points (crossface, underhook, or collar tie) that anchor your forward progress while your lower body works to clear the entanglement.
 
-**From Position**: [[Leg Entanglement]] (Top)
+**From Position**: [[Positions/Leg Entanglement]] (Top)
 
 </section>
 
@@ -240,10 +240,10 @@ As the attacker executing the Leg Extraction Pass, your objective is to dismantl
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Success | [[Side Control]] | 10% |
-| Failure | [[Leg Entanglement]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Success | [[Positions/Side Control]] | 10% |
+| Failure | [[Positions/Leg Entanglement]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -252,11 +252,11 @@ As the attacker executing the Leg Extraction Pass, your objective is to dismantl
 
 ## Opponent Counters
 
-- **Opponent re-pummels inside hook as you drive knee to mat** (Effectiveness: High) - Your Response: Pause the extraction, re-address the hook by driving your knee back to the mat with more angle, and use your free hand to physically block their foot from re-entering. If they consistently re-pummel, switch to the hip switch extraction variant which changes the angle of escape. → Leads to [[Leg Entanglement]]
-- **Opponent sits up and re-engages upper body control during extraction** (Effectiveness: Medium) - Your Response: Drive your crossface pressure harder to flatten them back down. If they achieve a seated position, switch to a stacking extraction by driving your weight forward to fold their legs toward their chest, compressing the entanglement space. Never allow them to achieve a seated position with grips on your leg. → Leads to [[Leg Entanglement]]
-- **Opponent sweeps during extraction by attacking your posted leg base** (Effectiveness: Medium) - Your Response: Widen your base post and shift weight distribution to maintain balance. If the sweep is initiated, abandon the extraction temporarily and re-post. It is better to reset the extraction from the same position than to be swept to bottom while partially extracted. → Leads to [[Half Guard]]
-- **Opponent transitions to different entanglement variant during your extraction** (Effectiveness: High) - Your Response: Recognize the transition early and address the new configuration before continuing extraction. If they shift from ashi to saddle, the extraction urgency increases dramatically — prioritize heel safety over positional advancement and restart the extraction sequence from step one against the new configuration. → Leads to [[Leg Entanglement]]
-- **Opponent recovers full closed guard as you clear the entanglement** (Effectiveness: Low) - Your Response: Accept the closed guard position as a better outcome than remaining in the leg entanglement. From closed guard top, you can begin standard guard passing without submission threat. To prevent this, drive your knee across their thigh immediately as hooks clear rather than allowing space for their legs to close around your waist. → Leads to [[Half Guard]]
+- **Opponent re-pummels inside hook as you drive knee to mat** (Effectiveness: High) - Your Response: Pause the extraction, re-address the hook by driving your knee back to the mat with more angle, and use your free hand to physically block their foot from re-entering. If they consistently re-pummel, switch to the hip switch extraction variant which changes the angle of escape. → Leads to [[Positions/Leg Entanglement]]
+- **Opponent sits up and re-engages upper body control during extraction** (Effectiveness: Medium) - Your Response: Drive your crossface pressure harder to flatten them back down. If they achieve a seated position, switch to a stacking extraction by driving your weight forward to fold their legs toward their chest, compressing the entanglement space. Never allow them to achieve a seated position with grips on your leg. → Leads to [[Positions/Leg Entanglement]]
+- **Opponent sweeps during extraction by attacking your posted leg base** (Effectiveness: Medium) - Your Response: Widen your base post and shift weight distribution to maintain balance. If the sweep is initiated, abandon the extraction temporarily and re-post. It is better to reset the extraction from the same position than to be swept to bottom while partially extracted. → Leads to [[Positions/Half Guard]]
+- **Opponent transitions to different entanglement variant during your extraction** (Effectiveness: High) - Your Response: Recognize the transition early and address the new configuration before continuing extraction. If they shift from ashi to saddle, the extraction urgency increases dramatically — prioritize heel safety over positional advancement and restart the extraction sequence from step one against the new configuration. → Leads to [[Positions/Leg Entanglement]]
+- **Opponent recovers full closed guard as you clear the entanglement** (Effectiveness: Low) - Your Response: Accept the closed guard position as a better outcome than remaining in the leg entanglement. From closed guard top, you can begin standard guard passing without submission threat. To prevent this, drive your knee across their thigh immediately as hooks clear rather than allowing space for their legs to close around your waist. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -182,7 +182,7 @@ The Rolling Escape to Guard is executed by the bottom player trapped in Aoki Loc
 
 Success depends on coordinating the roll direction with internal shoulder rotation throughout the entire movement. The escape must be initiated when the opponent commits to their hip drive for finishing pressure - at this moment their weight is forward and their structure is committed. Completing the roll to a functional guard position with immediate frame establishment is critical, as a partial escape invites back control or re-attack from your opponent.
 
-**From Position**: [[Aoki Lock]] (Bottom)
+**From Position**: [[Positions/Aoki Lock]] (Bottom)
 
 </section>
 
@@ -236,9 +236,9 @@ Success depends on coordinating the roll direction with internal shoulder rotati
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Aoki Lock]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Aoki Lock]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -247,10 +247,10 @@ Success depends on coordinating the roll direction with internal shoulder rotati
 
 ## Opponent Counters
 
-- **Opponent follows the roll to maintain back control** (Effectiveness: High) - Your Response: If opponent follows your roll, immediately establish turtle defense or continue the roll to seated guard position - do not stop mid-roll → Leads to [[Back Control]]
-- **Opponent tightens leg entanglement anticipating the roll** (Effectiveness: Medium) - Your Response: Attack their posted leg base before rolling to destabilize their structure, then initiate the roll when they adjust → Leads to [[Aoki Lock]]
-- **Opponent switches to back control instead of finishing shoulder lock** (Effectiveness: Medium) - Your Response: If you feel them transitioning to back control, use the opening to extract your arm and immediately establish guard rather than completing full roll → Leads to [[Back Control]]
-- **Opponent base posts and resists the roll direction** (Effectiveness: Low) - Your Response: Their resistance to the roll often loosens the leg entanglement - use this moment to extract arm and hip escape to guard instead → Leads to [[Aoki Lock]]
+- **Opponent follows the roll to maintain back control** (Effectiveness: High) - Your Response: If opponent follows your roll, immediately establish turtle defense or continue the roll to seated guard position - do not stop mid-roll → Leads to [[Positions/Back Control]]
+- **Opponent tightens leg entanglement anticipating the roll** (Effectiveness: Medium) - Your Response: Attack their posted leg base before rolling to destabilize their structure, then initiate the roll when they adjust → Leads to [[Positions/Aoki Lock]]
+- **Opponent switches to back control instead of finishing shoulder lock** (Effectiveness: Medium) - Your Response: If you feel them transitioning to back control, use the opening to extract your arm and immediately establish guard rather than completing full roll → Leads to [[Positions/Back Control]]
+- **Opponent base posts and resists the roll direction** (Effectiveness: Low) - Your Response: Their resistance to the roll often loosens the leg entanglement - use this moment to extract arm and hip escape to guard instead → Leads to [[Positions/Aoki Lock]]
 
 
 </section>

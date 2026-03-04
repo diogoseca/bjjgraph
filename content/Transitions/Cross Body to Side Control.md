@@ -21,7 +21,7 @@ The technique's strategic significance lies in providing a reliable alternative 
 
 Execution demands maintaining continuous chest-to-back connection throughout the transition. The critical mechanical principle is that pressure must precede movement: the top player drives heavy shoulder pressure to break the opponent's posting structure before sliding into the side control configuration. Attempting the positional change without first collapsing the turtle creates space that the opponent exploits for guard recovery, re-turtling, or a reversal that costs dominant position entirely.
 
-**From Position**: [[Cross Body Ride]] (Top)
+**From Position**: [[Positions/Cross Body Ride]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Execution demands maintaining continuous chest-to-back connection throughout the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Cross Body Ride]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Cross Body Ride]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ Cross Body to Side Control occupies a critical role in the turtle attack hierarc
 ## Related Techniques
 
 
-- [[Cross Body Ride]] - Source position from which this transition initiates
+- [[Positions/Cross Body Ride]] - Source position from which this transition initiates
 
-- [[Side Control]] - Target position achieved upon successful completion
+- [[Positions/Side Control]] - Target position achieved upon successful completion
 
-- [[Half Guard]] - Position the defender may recover to as a counter
+- [[Positions/Half Guard]] - Position the defender may recover to as a counter
 
-- [[Turtle]] - Underlying defensive position the opponent occupies during transition
+- [[Positions/Turtle]] - Underlying defensive position the opponent occupies during transition
 
-- [[Back Control]] - Alternative high-value transition from the same starting position
+- [[Positions/Back Control]] - Alternative high-value transition from the same starting position
 
-- [[Knee on Belly]] - Follow-up advancement option after establishing side control
+- [[Positions/Knee on Belly]] - Follow-up advancement option after establishing side control
 
-- [[Crucifix]] - Alternative turtle attack when opponent extends arms during transition
+- [[Positions/Crucifix]] - Alternative turtle attack when opponent extends arms during transition
 
-- [[Crab Ride]] - Related turtle control position with different attack vectors
+- [[Positions/Crab Ride]] - Related turtle control position with different attack vectors
 
-- [[North-South]] - Advanced position accessible after establishing side control
+- [[Positions/North-South]] - Advanced position accessible after establishing side control
 
-- [[Front Headlock]] - Alternative turtle control position when cross body ride is lost
+- [[Positions/Front Headlock]] - Alternative turtle control position when cross body ride is lost
 
 
 </section>

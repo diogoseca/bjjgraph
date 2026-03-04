@@ -186,7 +186,7 @@ description: "How to execute Chair Sit to Back in BJJ. Attacking perspective wit
 
 The Chair Sit to Back Take is a systematic transition from attacking turtle position to establishing dominant back control. The technique exploits the opponent's defensive turtle posture by controlling their hips and preventing forward movement while you climb onto their back through a controlled intermediate position. The chair sit creates a mechanical barrier with your leg across the opponent's thigh, preventing them from turning into you while you establish the seatbelt grip. This intermediate control station is what separates the chair sit from direct back climbing attempts that often fail against experienced defenders. The technique requires precise hip positioning, weight distribution, and grip sequencing to prevent common defensive reactions such as rolling or sitting through. When executed correctly, the chair sit creates a near-inescapable funnel toward back control or truck position.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -241,9 +241,9 @@ The Chair Sit to Back Take is a systematic transition from attacking turtle posi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 68% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Turtle]] | 12% |
+| Success | [[Positions/Back Control]] | 68% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Turtle]] | 12% |
 
 
 </section>
@@ -252,10 +252,10 @@ The Chair Sit to Back Take is a systematic transition from attacking turtle posi
 
 ## Opponent Counters
 
-- **Opponent sits through to blocking leg side, rotating their hips away** (Effectiveness: High) - Your Response: Maintain seatbelt grip and follow their rotation rather than fighting it. Thread your blocking leg through to establish truck position, which offers twister, calf slicer, and continued back take opportunities. → Leads to [[Turtle]]
-- **Opponent drives forward explosively to flatten you or escape** (Effectiveness: Medium) - Your Response: Use your blocking leg as a rudder to redirect their momentum laterally while maintaining chest contact. If seatbelt is established, their forward drive actually helps you climb onto their back as they extend. → Leads to [[Turtle]]
-- **Opponent rolls over their far shoulder attempting to invert and face you** (Effectiveness: Medium) - Your Response: Keep your base leg posted firmly and follow the roll, maintaining seatbelt control throughout. As they complete the rotation, you often end up in an improved back control position with hooks partially inserted. → Leads to [[Turtle]]
-- **Opponent grabs your blocking leg and attempts to strip it or execute a leg drag** (Effectiveness: Low) - Your Response: Their hands on your leg means their hands are not defending their neck or controlling your upper body. Immediately establish seatbelt grip if not already secured and use upper body dominance to complete the back take while they focus on your leg. → Leads to [[Turtle]]
+- **Opponent sits through to blocking leg side, rotating their hips away** (Effectiveness: High) - Your Response: Maintain seatbelt grip and follow their rotation rather than fighting it. Thread your blocking leg through to establish truck position, which offers twister, calf slicer, and continued back take opportunities. → Leads to [[Positions/Turtle]]
+- **Opponent drives forward explosively to flatten you or escape** (Effectiveness: Medium) - Your Response: Use your blocking leg as a rudder to redirect their momentum laterally while maintaining chest contact. If seatbelt is established, their forward drive actually helps you climb onto their back as they extend. → Leads to [[Positions/Turtle]]
+- **Opponent rolls over their far shoulder attempting to invert and face you** (Effectiveness: Medium) - Your Response: Keep your base leg posted firmly and follow the roll, maintaining seatbelt control throughout. As they complete the rotation, you often end up in an improved back control position with hooks partially inserted. → Leads to [[Positions/Turtle]]
+- **Opponent grabs your blocking leg and attempts to strip it or execute a leg drag** (Effectiveness: Low) - Your Response: Their hands on your leg means their hands are not defending their neck or controlling your upper body. Immediately establish seatbelt grip if not already secured and use upper body dominance to complete the back take while they focus on your leg. → Leads to [[Positions/Turtle]]
 
 
 </section>

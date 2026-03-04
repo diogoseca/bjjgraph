@@ -188,7 +188,7 @@ description: "Master attacking the Americana from Reverse Kesa-Gatame. Step-by-s
 
 Attacking the Americana from Reverse Kesa-Gatame leverages the inherent arm isolation of the reverse scarf hold to create a high-percentage shoulder lock. The top player's chest weight pins the opponent's shoulder to the mat, neutralizing the primary Americana defense before the submission even begins. The attacker's reverse orientation means the figure-four grip path is unobstructed, and the natural body mechanics of the position amplify rotational force through the shoulder joint with minimal energy expenditure. Success depends on methodical grip establishment, maintaining heavy chest pressure throughout the finishing sequence, and recognizing when to chain to complementary attacks like the Kimura when initial Americana attempts are defended.
 
-**From Position**: [[Reverse Kesa-Gatame]] (Top)
+**From Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Top)
 
 
 </section>
@@ -244,8 +244,8 @@ Attacking the Americana from Reverse Kesa-Gatame leverages the inherent arm isol
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Reverse Kesa-Gatame]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Side Control/Reverse Kesa-Gatame]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -254,10 +254,10 @@ Attacking the Americana from Reverse Kesa-Gatame leverages the inherent arm isol
 
 ## Opponent Defenses
 
-- **Opponent clasps hands together or grabs their own belt/shorts to prevent wrist isolation** (Effectiveness: High) - Your Response: Peel hands apart using leverage from your body position - drive your hip into their elbow crease while pulling the wrist. Alternatively, transition to attacking the other arm or advance to mount while their hands are occupied with defensive gripping. → Leads to [[Reverse Kesa-Gatame]]
-- **Opponent straightens their arm fully to prevent the 90-degree angle required for the Americana** (Effectiveness: Medium) - Your Response: Immediately switch to Kimura grip by circling your grip over the top of their straightened arm. The straight arm is actually more vulnerable to the Kimura, so this defensive reaction feeds directly into your chain attack. → Leads to [[Reverse Kesa-Gatame]]
-- **Opponent bridges explosively toward you to create space and disrupt the figure-four setup** (Effectiveness: Medium) - Your Response: Widen your base by extending your far leg further, drop your hips lower, and ride the bridge while maintaining the figure-four grip. The bridge creates momentary space but exhausts the defender. Re-settle weight and continue the finish as they return to the mat. → Leads to [[Reverse Kesa-Gatame]]
-- **Opponent shrimps away and extracts trapped arm during the grip transition phase** (Effectiveness: High) - Your Response: Follow with your hips immediately. If the arm is freed, transition to mount by stepping over their hip as they create space, or secure knee on belly. The space they create for the arm escape simultaneously creates the space you need for positional advancement. → Leads to [[Half Guard]]
+- **Opponent clasps hands together or grabs their own belt/shorts to prevent wrist isolation** (Effectiveness: High) - Your Response: Peel hands apart using leverage from your body position - drive your hip into their elbow crease while pulling the wrist. Alternatively, transition to attacking the other arm or advance to mount while their hands are occupied with defensive gripping. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
+- **Opponent straightens their arm fully to prevent the 90-degree angle required for the Americana** (Effectiveness: Medium) - Your Response: Immediately switch to Kimura grip by circling your grip over the top of their straightened arm. The straight arm is actually more vulnerable to the Kimura, so this defensive reaction feeds directly into your chain attack. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
+- **Opponent bridges explosively toward you to create space and disrupt the figure-four setup** (Effectiveness: Medium) - Your Response: Widen your base by extending your far leg further, drop your hips lower, and ride the bridge while maintaining the figure-four grip. The bridge creates momentary space but exhausts the defender. Re-settle weight and continue the finish as they return to the mat. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
+- **Opponent shrimps away and extracts trapped arm during the grip transition phase** (Effectiveness: High) - Your Response: Follow with your hips immediately. If the arm is freed, transition to mount by stepping over their hip as they create space, or secure knee on belly. The space they create for the arm escape simultaneously creates the space you need for positional advancement. → Leads to [[Positions/Half Guard]]
 
 
 </section>

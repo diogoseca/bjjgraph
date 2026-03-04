@@ -180,7 +180,7 @@ description: "Complete guide to executing the sit-out escape from BJJ side contr
 
 The sit-out from side control is a wrestling-derived escape executed by the bottom player to break free from the pin through explosive rotational movement. As the attacker initiating this escape, your primary goal is to create enough space at the hips to build a temporary base, then generate sufficient rotational force to swing your legs through and emerge facing the opponent in a scramble position. The technique demands commitment because half-measures expose your back without completing the escape. Success depends on reading when the top player's weight distribution creates an opening, establishing a solid pivot point with your posted hand, and driving explosively off your far foot to generate the momentum needed to clear their control. The sit-out is most effective as a surprise element in your escape game, catching the top player unprepared for a rotational escape when they have adapted to defend standard lateral shrimping.
 
-**From Position**: [[Side Control]] (Bottom)
+**From Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The sit-out from side control is a wrestling-derived escape executed by the bott
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Scramble Position]] | 50% |
-| Failure | [[Side Control]] | 30% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Scramble Position]] | 50% |
+| Failure | [[Positions/Side Control]] | 30% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ The sit-out from side control is a wrestling-derived escape executed by the bott
 
 ## Opponent Counters
 
-- **Opponent sprawls heavy and drives crossface back across your face before you complete base building** (Effectiveness: High) - Your Response: Time the sit-out when opponent shifts position or reaches for a submission. Use the peek-out variation to clear the crossface arm before initiating the rotation. → Leads to [[Side Control]]
-- **Opponent establishes seatbelt grip and begins inserting hooks during your turtle phase** (Effectiveness: High) - Your Response: Minimize time in turtle by executing the sit-out as one explosive motion without pausing. Keep elbows tight to your body to deny the over-arm portion of the seatbelt grip. → Leads to [[Back Control]]
-- **Opponent circles toward your back during the rotation phase to establish back control** (Effectiveness: Medium) - Your Response: Accelerate the rotation to complete the sit-out before they can secure position. If they begin circling, use the switch sit-out to change direction and catch them out of position. → Leads to [[Back Control]]
-- **Opponent drives knee across your hip to re-pin you before rotation completes** (Effectiveness: Medium) - Your Response: Complete the sit-out before they can re-establish the knee pin. If their knee is already advancing, switch to the peek-out variation or abort to standard shrimp escape rather than fighting through a blocked rotation. → Leads to [[Side Control]]
+- **Opponent sprawls heavy and drives crossface back across your face before you complete base building** (Effectiveness: High) - Your Response: Time the sit-out when opponent shifts position or reaches for a submission. Use the peek-out variation to clear the crossface arm before initiating the rotation. → Leads to [[Positions/Side Control]]
+- **Opponent establishes seatbelt grip and begins inserting hooks during your turtle phase** (Effectiveness: High) - Your Response: Minimize time in turtle by executing the sit-out as one explosive motion without pausing. Keep elbows tight to your body to deny the over-arm portion of the seatbelt grip. → Leads to [[Positions/Back Control]]
+- **Opponent circles toward your back during the rotation phase to establish back control** (Effectiveness: Medium) - Your Response: Accelerate the rotation to complete the sit-out before they can secure position. If they begin circling, use the switch sit-out to change direction and catch them out of position. → Leads to [[Positions/Back Control]]
+- **Opponent drives knee across your hip to re-pin you before rotation completes** (Effectiveness: Medium) - Your Response: Complete the sit-out before they can re-establish the knee pin. If their knee is already advancing, switch to the peek-out variation or abort to standard shrimp escape rather than fighting through a blocked rotation. → Leads to [[Positions/Side Control]]
 
 
 </section>

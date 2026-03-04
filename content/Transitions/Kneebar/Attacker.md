@@ -178,7 +178,7 @@ This submission capitalizes on the inherent vulnerability of the knee joint when
 
 The kneebar from Backside 50-50 integrates seamlessly into modern leg lock systems as a complementary attack to heel hooks and toe holds. When opponents defend heel hooks effectively by hiding their heel or rotating their knee outward, they often inadvertently straighten their leg, creating the exact configuration needed for kneebar entry. This makes the kneebar an essential tool for creating dilemmas within leg entanglement exchanges, forcing opponents to choose between exposing their heel or extending their leg.
 
-**From Position**: [[Backside 50-50]] (Top)
+**From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ The kneebar from Backside 50-50 integrates seamlessly into modern leg lock syste
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kneebar Control]] | 55% |
-| Failure | [[Backside 50-50]] | 30% |
-| Counter | [[50-50 Guard]] | 15% |
+| Success | [[Positions/Kneebar Control]] | 55% |
+| Failure | [[Positions/Ashi Garami/Backside 50-50]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ The kneebar from Backside 50-50 integrates seamlessly into modern leg lock syste
 
 ## Opponent Counters
 
-- **Knee bend and rotation - opponent bends their knee sharply and rotates their hip toward you, preventing hyperextension and creating space to extract their leg** (Effectiveness: High) - Your Response: Increase hip control pressure and follow their rotation, maintaining perpendicular alignment. If they successfully bend, transition back to heel hook or toe hold on the now-accessible foot → Leads to [[Backside 50-50]]
-- **Boot and push escape - opponent straightens their free leg and pushes against your hip or shoulder to create distance and extract their trapped leg** (Effectiveness: Medium) - Your Response: Squeeze your triangle lock tighter around their thigh and maintain forward hip pressure. Their push creates an opportunity to transition to the other leg or advance to back control if they over-rotate → Leads to [[Backside 50-50]]
-- **Roll toward the attack - opponent rolls their body toward you, relieving pressure on the knee by aligning their leg with your extension force** (Effectiveness: Medium) - Your Response: Follow the roll and maintain your finishing position. Their roll often exposes their back, creating back control opportunity. Alternatively, ride the roll and finish belly-down kneebar → Leads to [[50-50 Guard]]
-- **Grip fighting on ankle - opponent grabs their own ankle or your hands to prevent you from controlling their foot for the finish** (Effectiveness: Low) - Your Response: Your hip-to-knee connection creates the hyperextension, not ankle control. Continue driving hips forward. Strip their grip systematically or accept the slightly reduced leverage and finish → Leads to [[Kneebar Control]]
+- **Knee bend and rotation - opponent bends their knee sharply and rotates their hip toward you, preventing hyperextension and creating space to extract their leg** (Effectiveness: High) - Your Response: Increase hip control pressure and follow their rotation, maintaining perpendicular alignment. If they successfully bend, transition back to heel hook or toe hold on the now-accessible foot → Leads to [[Positions/Ashi Garami/Backside 50-50]]
+- **Boot and push escape - opponent straightens their free leg and pushes against your hip or shoulder to create distance and extract their trapped leg** (Effectiveness: Medium) - Your Response: Squeeze your triangle lock tighter around their thigh and maintain forward hip pressure. Their push creates an opportunity to transition to the other leg or advance to back control if they over-rotate → Leads to [[Positions/Ashi Garami/Backside 50-50]]
+- **Roll toward the attack - opponent rolls their body toward you, relieving pressure on the knee by aligning their leg with your extension force** (Effectiveness: Medium) - Your Response: Follow the roll and maintain your finishing position. Their roll often exposes their back, creating back control opportunity. Alternatively, ride the roll and finish belly-down kneebar → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Grip fighting on ankle - opponent grabs their own ankle or your hands to prevent you from controlling their foot for the finish** (Effectiveness: Low) - Your Response: Your hip-to-knee connection creates the hyperextension, not ankle control. Continue driving hips forward. Strip their grip systematically or accept the slightly reduced leverage and finish → Leads to [[Positions/Kneebar Control]]
 
 
 </section>

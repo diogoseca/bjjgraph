@@ -158,7 +158,7 @@ The critical defensive window occurs during the initial arm capture phase, befor
 
 If the crucifix entry progresses past the initial capture, your defensive priorities shift to preventing the mat return and full consolidation. Dropping to turtle before your opponent can complete the takedown on their terms gives you more defensive options than being driven to the mat in a controlled crucifix. Understanding these layered defensive responses and the timing windows for each is essential for any practitioner facing opponents who hunt for crucifix entries from standing back control.
 
-**Opponent's Starting Position**: [[Standing Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ If the crucifix entry progresses past the initial capture, your defensive priori
 ### 1. Retract arm and clamp elbow tight to ribs immediately upon feeling the redirect
 
 - **When to use**: Early in the entry when opponent begins pushing your elbow across centerline but has not yet stepped the leg through
-- **Targets**: [[Standing Back Control]]
+- **Targets**: [[Positions/Back Control/Standing Back Control]]
 - **If successful**: Return to standard standing back control bottom where you can resume defensive grip fighting with better elbow awareness
 - **Risk**: If you retract too late and the leg is already stepping through, pulling the arm back actually helps your opponent lock the trap tighter
 
 ### 2. Drop weight explosively to knees and turtle position, denying standing leverage
 
 - **When to use**: When you feel the arm has been captured and the leg step through is beginning, but before the full trap is secured and the mat return is initiated
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Reach turtle position where defensive frames and base prevent full crucifix consolidation, and you can work standard turtle escapes
 - **Risk**: Opponent may follow you down and transition to truck position or secure grounded back control with the partially trapped arm
 
 ### 3. Turn aggressively into opponent while stripping wrist control with two-on-one grip
 
 - **When to use**: When arm has been captured but the leg trap is not yet fully locked, and you still have enough mobility to rotate your torso toward your opponent
-- **Targets**: [[Standing Back Control]]
+- **Targets**: [[Positions/Back Control/Standing Back Control]]
 - **If successful**: Break free of the arm capture and potentially face your opponent, recovering to a clinch or neutral standing position
 - **Risk**: If the turn is incomplete and you remain back-exposed, opponent can use your rotation momentum to accelerate the crucifix entry or transition to mounted crucifix
 
 ### 4. Circle away from the capture side while pumping your trapped arm to create space
 
 - **When to use**: When the leg trap is partially set but not locked tight, and you have enough base to move laterally while standing
-- **Targets**: [[Standing Back Control]]
+- **Targets**: [[Positions/Back Control/Standing Back Control]]
 - **If successful**: Create enough angle change that the leg trap loosens and you can extract your arm, returning to standard back control defense
 - **Risk**: Circling away while the arm is partially trapped can expose your back further if your opponent follows your movement and completes the capture
 
@@ -229,11 +229,11 @@ If the crucifix entry progresses past the initial capture, your defensive priori
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Back Control]]
+### → [[Positions/Back Control/Standing Back Control]]
 
 Retract the exposed arm early before the leg step through by clamping your elbow tight to your ribs and using two-on-one grip control to strip opponent's hold on your wrist. Resume defensive grip fighting with improved elbow discipline.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Drop weight explosively to your knees when you feel the arm capture beginning but before the full crucifix is consolidated. Tuck into a tight turtle with elbows to knees, denying your opponent the standing leverage needed for the mat return on their terms. From turtle, work standard escape sequences.
 

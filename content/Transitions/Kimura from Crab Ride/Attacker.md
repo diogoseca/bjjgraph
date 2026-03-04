@@ -180,7 +180,7 @@ description: "Learn to attack the Kimura from Crab Ride in BJJ. Step-by-step exe
 
 From the attacker's perspective, the Kimura from Crab Ride is a calculated exploitation of defensive arm positioning. The crab ride forces the opponent into a posture where their arms become critical for base maintenance. When the far arm extends to post or frame, it becomes vulnerable to figure-four isolation. The attacker must balance maintaining ride control through the hook and chest pressure while systematically working to secure the wrist, thread the figure-four, and peel the arm into a controlled kimura position. Success depends on recognizing the exact moment the arm is most vulnerable and committing to the grip sequence without abandoning positional control. The technique rewards patience and timing over raw strength, as the positional advantage of crab ride means the attacker can afford to wait for the right opening rather than forcing the entry.
 
-**From Position**: [[Crab Ride]] (Top)
+**From Position**: [[Positions/Crab Ride]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ From the attacker's perspective, the Kimura from Crab Ride is a calculated explo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kimura Trap]] | 55% |
-| Failure | [[Crab Ride]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Kimura Trap]] | 55% |
+| Failure | [[Positions/Crab Ride]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ From the attacker's perspective, the Kimura from Crab Ride is a calculated explo
 
 ## Opponent Counters
 
-- **Opponent tucks elbow tight to body and refuses to extend the far arm** (Effectiveness: High) - Your Response: Increase chest pressure to flatten them and use your knee or shin to wedge behind the elbow crease, prying the arm away from the body. Alternatively, switch to back take since the tucked elbow actually facilitates hook insertion by removing the posting arm from defense. → Leads to [[Crab Ride]]
-- **Opponent grabs their own shorts, belt, or clasps both hands together to prevent arm isolation** (Effectiveness: Medium) - Your Response: Use two-on-one grip breaking by peeling fingers individually or by driving your hip into their grip connection point to break it mechanically. Apply steady peeling pressure rather than jerking. If grip persists, use their locked arms to advance to back control since they cannot post or frame. → Leads to [[Crab Ride]]
-- **Opponent rolls away explosively to relieve kimura pressure and escape the ride** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining the figure-four grip. As they roll, transition your body to stay connected and advance to side control or north-south kimura position. Their rolling momentum actually helps you achieve a better finishing angle than you had from crab ride. → Leads to [[Half Guard]]
-- **Opponent drives forward explosively and posts far arm straight to break base and create distance** (Effectiveness: Medium) - Your Response: Maintain hook depth and drop your weight low. If the kimura grip is partially established, use it to redirect their forward motion. A straight posted arm is actually more vulnerable to the kimura than a tucked one, so time a quick wrist grab during the post extension. → Leads to [[Crab Ride]]
+- **Opponent tucks elbow tight to body and refuses to extend the far arm** (Effectiveness: High) - Your Response: Increase chest pressure to flatten them and use your knee or shin to wedge behind the elbow crease, prying the arm away from the body. Alternatively, switch to back take since the tucked elbow actually facilitates hook insertion by removing the posting arm from defense. → Leads to [[Positions/Crab Ride]]
+- **Opponent grabs their own shorts, belt, or clasps both hands together to prevent arm isolation** (Effectiveness: Medium) - Your Response: Use two-on-one grip breaking by peeling fingers individually or by driving your hip into their grip connection point to break it mechanically. Apply steady peeling pressure rather than jerking. If grip persists, use their locked arms to advance to back control since they cannot post or frame. → Leads to [[Positions/Crab Ride]]
+- **Opponent rolls away explosively to relieve kimura pressure and escape the ride** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining the figure-four grip. As they roll, transition your body to stay connected and advance to side control or north-south kimura position. Their rolling momentum actually helps you achieve a better finishing angle than you had from crab ride. → Leads to [[Positions/Half Guard]]
+- **Opponent drives forward explosively and posts far arm straight to break base and create distance** (Effectiveness: Medium) - Your Response: Maintain hook depth and drop your weight low. If the kimura grip is partially established, use it to redirect their forward motion. A straight posted arm is actually more vulnerable to the kimura than a tucked one, so time a quick wrist grab during the post extension. → Leads to [[Positions/Crab Ride]]
 
 
 </section>

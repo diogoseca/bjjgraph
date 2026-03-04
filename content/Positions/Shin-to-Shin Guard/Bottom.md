@@ -207,29 +207,29 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 
 ## Available Escapes
 
-### [[Single Leg X Entry]] (24% of attempts)
+### [[Transitions/Single Leg X Entry]] (24% of attempts)
 
-### [[X-Guard Sweep]] (8% of attempts)
+### [[Transitions/X-Guard Sweep]] (8% of attempts)
 
-### [[Butterfly Sweep]] (9% of attempts)
+### [[Transitions/Butterfly Sweep]] (9% of attempts)
 
-### [[Outside Ashi Entry]] (8% of attempts)
+### [[Transitions/Outside Ashi Entry]] (8% of attempts)
 
-### [[De La Riva Sweep]] (8% of attempts)
+### [[Transitions/De La Riva Sweep]] (8% of attempts)
 
-### [[Technical Stand Up to Single Leg]] (8% of attempts)
+### [[Transitions/Technical Stand Up to Single Leg]] (8% of attempts)
 
-### [[Omoplata Sweep]] (6% of attempts)
+### [[Transitions/Omoplata Sweep]] (6% of attempts)
 
-### [[Shin to Shin Pull]] (8% of attempts)
+### [[Transitions/Shin to Shin Pull]] (8% of attempts)
 
-### [[Hook Sweep]] (8% of attempts)
+### [[Transitions/Hook Sweep]] (8% of attempts)
 
-### [[Tripod Sweep]] (8% of attempts)
+### [[Transitions/Tripod Sweep]] (8% of attempts)
 
-### [[Shin-to-Shin Sweep]] (3% of attempts)
+### [[Transitions/Shin-to-Shin Sweep]] (3% of attempts)
 
-### [[Shin-to-Shin to Single Leg X]] (2% of attempts)
+### [[Transitions/Shin-to-Shin to Single Leg X]] (2% of attempts)
 
 
 
@@ -240,28 +240,28 @@ Shin-to-Shin Guard from the bottom perspective represents one of the most versat
 ## Decision Making from This Position
 
 **If opponent maintains upright standing posture with weight distributed evenly and attempts to control upper body without addressing shin connection:**
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 65%)
-- Execute **[[X-Guard Sweep]]** → [[X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
+- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 55%)
 
 
 **If opponent drops their weight and attempts to smash forward with pressure, compromising their base in favor of forward movement:**
-- Execute **[[Butterfly Sweep]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Omoplata Sweep]]** → [[Mount]] (Probability: 45%)
+- Execute **[[Transitions/Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 **If opponent attempts to step over or aggressively clear the shin-to-shin connection by lifting their leg or circling:**
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 70%)
-- Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 70%)
+- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
 
 
 **If opponent backs away and creates distance to disengage from all connections and reset to standing range:**
-- Execute **[[Technical Stand Up to Single Leg]]** → [[Standing Position]] (Probability: 60%)
-- Execute **[[De La Riva Sweep]]** → [[De La Riva Guard]] (Probability: 50%)
+- Execute **[[Transitions/Technical Stand Up to Single Leg]]** → [[Positions/Standing Position]] (Probability: 60%)
+- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/De La Riva Guard]] (Probability: 50%)
 
 
 **If opponent secures strong upper body control with dominant grips and attempts to control posture for passing sequences:**
-- Execute **[[X-Guard Sweep]]** → [[X-Guard]] (Probability: 50%)
-- Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/X-Guard]] (Probability: 50%)
+- Execute **[[Principles/Guard Recovery]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 
@@ -400,16 +400,16 @@ Partner defends your first sweep attempt using one of several predetermined defe
 
 ## Related Positions and Techniques
 
-- **[[Single Leg X-Guard]]** - Primary offensive transition target when opponent attempts to clear shin connection or step forward
-- **[[X-Guard]]** - Natural evolution when opponent posts weight on shin-to-shin leg, allowing full X-guard entry
-- **[[De La Riva Guard]]** - Complementary open guard sharing distance management principles and sweeping mechanics
-- **[[Reverse De La Riva Guard]]** - Alternative leg entanglement guard with reverse positioning and similar control concepts
-- **[[Butterfly Guard]]** - Close-range guard option when opponent drops weight and attempts to pressure forward
-- **[[Outside Ashi-Garami]]** - Leg entanglement entry position accessed when opponent attempts to step over connection
-- **[[Inside Ashi-Garami]]** - Advanced leg entanglement transition option from single leg X entries
-- **[[Seated Guard]]** - Foundational seated position from which shin-to-shin is typically established
-- **[[K-Guard]]** - Related open guard utilizing similar shin control mechanics with different angle and application
-- **[[Open Guard]]** - Broader category of distance-based guard positions sharing fundamental principles
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Primary offensive transition target when opponent attempts to clear shin connection or step forward
+- **[[Positions/X-Guard]]** - Natural evolution when opponent posts weight on shin-to-shin leg, allowing full X-guard entry
+- **[[Positions/De La Riva Guard]]** - Complementary open guard sharing distance management principles and sweeping mechanics
+- **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Alternative leg entanglement guard with reverse positioning and similar control concepts
+- **[[Positions/Butterfly Guard]]** - Close-range guard option when opponent drops weight and attempts to pressure forward
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Leg entanglement entry position accessed when opponent attempts to step over connection
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Advanced leg entanglement transition option from single leg X entries
+- **[[Positions/Seated Guard]]** - Foundational seated position from which shin-to-shin is typically established
+- **[[Positions/K-Guard]]** - Related open guard utilizing similar shin control mechanics with different angle and application
+- **[[Positions/Open Guard]]** - Broader category of distance-based guard positions sharing fundamental principles
 
 
 </section>

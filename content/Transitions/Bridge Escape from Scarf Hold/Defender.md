@@ -154,7 +154,7 @@ description: "Defend against the bridge escape from scarf hold in BJJ. Learn to 
 
 Defending against the bridge escape from scarf hold requires the top player to recognize early setup indicators and preemptively adjust base and weight distribution to neutralize the explosive bridging attempt. The defender's primary tools are maintaining a wide stable base that resists rotational force, keeping the head-wrapping arm mobile to prevent trapping, and driving hip pressure to limit the bottom player's bridge power. Understanding the mechanics of the bridge escape allows the defender to anticipate each setup element and disrupt it before the bottom player can coordinate all control points. The most effective defenders do not simply resist the bridge but actively convert failed escape attempts into positional advancement opportunities, transitioning to mount or tightening control when the bottom player expends energy on unsuccessful escape attempts.
 
-**Opponent's Starting Position**: [[Scarf Hold Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control/Scarf Hold Position]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against the bridge escape from scarf hold requires the top player to r
 ### 1. Widen base preemptively by posting far arm wide and extending back leg when bridge setup is detected
 
 - **When to use**: As soon as you detect the bottom player walking feet close to hips or reaching for your arm, before they complete all setup control points
-- **Targets**: [[Scarf Hold Position]]
+- **Targets**: [[Positions/Side Control/Scarf Hold Position]]
 - **If successful**: Bridge attempt is structurally impossible due to wide base resisting rotational force, and you maintain scarf hold control with improved positioning
 - **Risk**: Wide posting temporarily reduces chest pressure, potentially allowing bottom player to create frames or transition to hip escape variant
 
 ### 2. Step over to mount as bottom player lifts hips during bridge, converting their upward momentum into your positional advancement
 
 - **When to use**: When bottom player commits to the bridge and lifts their hips, creating space for you to swing your near leg over their body and transition to mount
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You advance to mount position using the opponent's own bridge energy, gaining 4 points and establishing the most dominant control position
 - **Risk**: If timed poorly and bottom player's bridge has full rotational momentum, you may be carried over into the roll and lose position entirely
 
 ### 3. Drive hip pressure deeper and tighten head control immediately when you feel setup indicators, smothering the bridge before it develops
 
 - **When to use**: At the earliest recognition of bridge setup when bottom player begins walking feet in or tensing their body, before they establish arm trap or leg hook
-- **Targets**: [[Scarf Hold Position]]
+- **Targets**: [[Positions/Side Control/Scarf Hold Position]]
 - **If successful**: Heavy pressure limits bridge height to ineffective range and compressed breathing reduces bottom player's explosive capacity for subsequent attempts
 - **Risk**: Committing weight forward to smother may open backdoor escape or ghost escape opportunities if bottom player redirects to a different escape path
 
 ### 4. Circle head-wrapping arm free when bottom player attempts to trap it, maintaining posting ability throughout
 
 - **When to use**: The instant you feel bottom player's hand gripping your arm or sleeve, before they can secure a deep controlling grip
-- **Targets**: [[Scarf Hold Position]]
+- **Targets**: [[Positions/Side Control/Scarf Hold Position]]
 - **If successful**: Arm remains free for posting and the bottom player's bridge has zero chance of success without the arm trap, forcing them to reset the entire escape sequence
 - **Risk**: Circling the arm momentarily loosens head control, potentially allowing bottom player to turn their face toward you or create neck space
 
@@ -225,11 +225,11 @@ Defending against the bridge escape from scarf hold requires the top player to r
 
 ## Best-Case Outcomes for Defender
 
-### → [[Scarf Hold Position]]
+### → [[Positions/Side Control/Scarf Hold Position]]
 
 Maintain solid base with weight distributed through hips and wide posting leg. When bottom player attempts bridge, preemptively widen base and drive hip pressure deeper to resist the rotational force. Keep head-wrapping arm mobile and tight so it cannot be trapped. After the failed bridge, immediately re-consolidate controls by tightening arm isolation and resettling weight before they can chain into a follow-up escape.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Recognize the moment the bottom player commits their hips upward for the bridge and immediately step your near leg over their body to transition to mount. Use their upward hip movement to create the space needed for the leg to clear their body. Timing is critical: step over during the upward phase of the bridge before they generate full rotational momentum. Settle into mount with low hips and wide base immediately after clearing their body.
 

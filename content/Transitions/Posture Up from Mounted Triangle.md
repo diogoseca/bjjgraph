@@ -21,7 +21,7 @@ The technique requires careful frame placement and timing rather than explosive 
 
 Strategic awareness is essential throughout this escape sequence. The top player will actively counter posture attempts by pulling the head down, transitioning to armbar when the escaping player extends their arms, or shifting to S mount to maintain control. Successful execution demands reading the opponent's weight distribution, protecting the trapped arm from extension, and committing fully to the escape direction once sufficient posture is established. This technique integrates with the broader mounted triangle defense framework as one of several escape options available from this critically dangerous position.
 
-**From Position**: [[Mounted Triangle]] (Bottom)
+**From Position**: [[Positions/Mount/Mounted Triangle]] (Bottom)
 **Success Rate**: 30%
 
 </section>
@@ -32,9 +32,9 @@ Strategic awareness is essential throughout this escape sequence. The top player
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 30% |
-| Failure | [[Mounted Triangle]] | 45% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 30% |
+| Failure | [[Positions/Mount/Mounted Triangle]] | 45% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -191,23 +191,23 @@ The posture up escape from mounted triangle integrates with the broader mounted 
 ## Related Techniques
 
 
-- [[Mounted Triangle]] - Source position from which this escape is attempted
+- [[Positions/Mount/Mounted Triangle]] - Source position from which this escape is attempted
 
-- [[Half Guard]] - Primary success destination after completing the posture up escape
+- [[Positions/Half Guard]] - Primary success destination after completing the posture up escape
 
-- [[Mount]] - Counter outcome position when opponent releases triangle to consolidate mount
+- [[Positions/Mount]] - Counter outcome position when opponent releases triangle to consolidate mount
 
-- [[Bridge Defense from Mounted Triangle]] - Alternative escape technique targeting opponent's base rather than creating posture
+- [[Transitions/Bridge Defense from Mounted Triangle]] - Alternative escape technique targeting opponent's base rather than creating posture
 
-- [[Frame and Escape Mounted Triangle]] - Complementary escape technique using lateral frames and shrimping movement
+- [[Transitions/Frame and Escape Mounted Triangle]] - Complementary escape technique using lateral frames and shrimping movement
 
-- [[Mounted Triangle Squeeze]] - Opponent's primary finishing technique that posture up aims to disrupt
+- [[Transitions/Mounted Triangle Squeeze]] - Opponent's primary finishing technique that posture up aims to disrupt
 
-- [[Mounted Triangle to S Mount]] - Opponent's transition threat when posture attempt partially succeeds
+- [[Transitions/Mounted Triangle to S Mount]] - Opponent's transition threat when posture attempt partially succeeds
 
-- [[Elbow Escape from Mount]] - Follow-up escape technique if counter outcome places you in mount bottom
+- [[Transitions/Elbow Escape from Mount]] - Follow-up escape technique if counter outcome places you in mount bottom
 
-- [[High Mount]] - Related dominant position opponent may advance to during escape attempts
+- [[Positions/Mount/High Mount]] - Related dominant position opponent may advance to during escape attempts
 
 
 </section>

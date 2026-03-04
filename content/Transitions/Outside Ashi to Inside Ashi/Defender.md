@@ -146,7 +146,7 @@ description: "Master defending against the Outside Ashi to Inside Ashi counter-e
 
 As the defender against the Outside Ashi to Inside Ashi transition, you are the practitioner who currently holds Outside Ashi-Garami from the bottom offensive position while your opponent attempts to counter-entangle by establishing their own Inside Ashi-Garami on your leg. Your primary objective is to maintain your controlling position and prevent the reversal, either by keeping your leg triangle tight, finishing your own submission before the counter-entanglement completes, or strategically disengaging to recover guard if the counter-entanglement becomes unavoidable. Recognizing the early signs of a counter-entanglement attempt is essential—the sooner you identify the threat, the easier it is to shut down with minimal positional compromise and energy expenditure.
 
-**Opponent's Starting Position**: [[Outside Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the Outside Ashi to Inside Ashi transition, you are the 
 ### 1. Tighten leg triangle and squeeze to eliminate all threading space around opponent's trapped leg
 
 - **When to use**: As soon as you recognize opponent's free leg moving toward your hip, before they establish any inside position across your body
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: Opponent's threading attempt is blocked and they return to defensive posture within your Outside Ashi-Garami control
 - **Risk**: Excessive triangle tightening may compromise your own submission angle if you adjust body position too aggressively
 
 ### 2. Accelerate heel hook or ankle lock attempt to force opponent back to heel defense immediately
 
 - **When to use**: When you detect early signs of counter-entanglement setup and still have heel access or a viable submission angle on their trapped leg
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: Opponent must abandon counter-entanglement to protect their heel, resetting to purely defensive posture under your control
 - **Risk**: Rushing the submission without proper setup may result in poor finishing mechanics and wasted positional energy
 
 ### 3. Disengage ashi garami entirely and recover to half guard top or standing position
 
 - **When to use**: When opponent has partially established counter-entanglement and continuing to fight from a compromised mutual entanglement is disadvantageous
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You escape the mutual entanglement and recover to a neutral or advantageous position before opponent consolidates their inside ashi
 - **Risk**: Disengaging surrenders your offensive leg entanglement position and may give opponent an opening to establish their inside ashi during your retreat
 
 ### 4. Push opponent's threading leg off your hip with hand while simultaneously hip escaping to create angle
 
 - **When to use**: When opponent's free leg has just crossed your hip line but has not yet been secured in full inside ashi configuration
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: Opponent's threading attempt is cleared and they must restart the counter-entanglement sequence from the beginning
 - **Risk**: Using hands to clear their leg temporarily reduces your upper body grip control on their trapped leg and may loosen your submission setup
 
@@ -217,11 +217,11 @@ As the defender against the Outside Ashi to Inside Ashi transition, you are the 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Outside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 Maintain tight leg triangle with constant squeeze pressure, keep offensive submission threats active to force defensive mindset, and shut down threading attempts immediately upon recognition by controlling opponent's hip rotation with grips and preventing their free leg from crossing your hip line.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If counter-entanglement becomes unavoidable, disengage your ashi garami early during the transition period and use the positional chaos to recover to half guard top position before opponent can consolidate their inside ashi. Prioritize positional recovery over maintaining a compromised leg entanglement.
 

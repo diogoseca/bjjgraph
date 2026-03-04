@@ -21,7 +21,7 @@ Unlike a full escape attempt, this transition targets an incremental positional 
 
 Strategically, this technique creates the prerequisite conditions for all higher-level escapes from side control. Without functional frames, elbow escapes, hip escapes, and guard recovery sequences cannot generate the space required for execution. The frame also creates a defensive dilemma for the top player: if they commit weight to collapsing the hip frame, the shoulder frame creates turning space, and vice versa. This two-point frame system is the mechanical foundation upon which the entire bottom side control escape hierarchy is built.
 
-**From Position**: [[Side Control Consolidation]] (Bottom)
+**From Position**: [[Positions/Side Control/Side Control Consolidation]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this technique creates the prerequisite conditions for all higher
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Side Control Consolidation]] | 35% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Side Control/Side Control Consolidation]] | 35% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Frame from Side Control Consolidation occupies the foundational layer of the
 ## Related Techniques
 
 
-- [[Side Control Consolidation]] - Starting position where this defensive frame technique is applied
+- [[Positions/Side Control/Side Control Consolidation]] - Starting position where this defensive frame technique is applied
 
-- [[Side Control]] - Target position after successful framing disrupts consolidation
+- [[Positions/Side Control]] - Target position after successful framing disrupts consolidation
 
-- [[Escape Side Control Consolidation]] - Full escape sequence that builds on established frames from this technique
+- [[Transitions/Escape Side Control Consolidation]] - Full escape sequence that builds on established frames from this technique
 
-- [[Mount]] - Counter outcome when opponent capitalizes on framing attempt to advance position
+- [[Positions/Mount]] - Counter outcome when opponent capitalizes on framing attempt to advance position
 
-- [[Half Guard]] - Common guard recovery target following successful frame-to-escape chain
+- [[Positions/Half Guard]] - Common guard recovery target following successful frame-to-escape chain
 
-- [[Knee Shield Half Guard]] - Optimal recovery position after frame creates enough space for knee insertion
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Optimal recovery position after frame creates enough space for knee insertion
 
-- [[Frame and Shrimp to Guard]] - Natural follow-up technique combining frame with hip escape for guard recovery
+- [[Transitions/Frame and Shrimp to Guard]] - Natural follow-up technique combining frame with hip escape for guard recovery
 
-- [[Elbow Escape to Guard]] - Primary escape sequence enabled once frames establish sufficient space
+- [[Transitions/Elbow Escape to Guard]] - Primary escape sequence enabled once frames establish sufficient space
 
-- [[Frame Escape from Kuzure Kesa]] - Related frame escape sharing identical forearm mechanics from different pin
+- [[Transitions/Frame Escape from Kuzure Kesa]] - Related frame escape sharing identical forearm mechanics from different pin
 
-- [[North-South]] - Position opponent may transition to when lateral frames redirect their pressure
+- [[Positions/North-South]] - Position opponent may transition to when lateral frames redirect their pressure
 
 
 </section>

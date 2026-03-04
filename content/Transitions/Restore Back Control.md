@@ -21,7 +21,7 @@ The technique operates on the principle that partial escapes create momentary vu
 
 Advanced restoration integrates seamlessly with threat cycling from back control maintenance. When the opponent begins an escape, the attacker uses the movement to transition between seat belt, collar grip, and body triangle variations while simultaneously re-establishing hook control. This transforms what appears to be a defensive recovery into an offensive repositioning that maintains continuous pressure throughout the exchange.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -32,9 +32,9 @@ Advanced restoration integrates seamlessly with threat cycling from back control
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,21 +191,21 @@ Restore Back Control sits at the critical junction between maintaining the most 
 ## Related Techniques
 
 
-- [[Back Control]] - Position being restored to full control
+- [[Positions/Back Control]] - Position being restored to full control
 
-- [[Back Control Maintenance]] - Complementary technique for sustained back control
+- [[Transitions/Back Control Maintenance]] - Complementary technique for sustained back control
 
-- [[Rear Naked Choke]] - Primary submission threat that motivates opponent escape attempts
+- [[Transitions/Rear Naked Choke]] - Primary submission threat that motivates opponent escape attempts
 
-- [[Body Triangle Lock]] - Enhanced control option during restoration sequence
+- [[Transitions/Body Triangle Lock]] - Enhanced control option during restoration sequence
 
-- [[Turtle]] - Common fallback position if restoration fails
+- [[Positions/Turtle]] - Common fallback position if restoration fails
 
-- [[Back Door Escape]] - Opponent escape technique that triggers restoration
+- [[Transitions/Back Door Escape]] - Opponent escape technique that triggers restoration
 
-- [[Half Guard]] - Position reached if opponent completes partial escape
+- [[Positions/Half Guard]] - Position reached if opponent completes partial escape
 
-- [[Crucifix]] - Alternative control when opponent exposes arm during escape
+- [[Positions/Crucifix]] - Alternative control when opponent exposes arm during escape
 
 
 </section>

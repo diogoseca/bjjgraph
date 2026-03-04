@@ -180,7 +180,7 @@ description: "How to execute the Ghost Escape from side control bottom in BJJ. C
 
 Executing the Ghost Escape requires coordinating explosive hip rotation, shoulder drive, arm extraction, and turtle establishment into a single continuous movement. The technique works because circular motion creates angles that the top player's weight distribution cannot easily follow, unlike linear shrimping which the top player can track by simply shifting laterally. The critical insight is that the escape must be initiated during a narrow timing window when the opponent's weight shifts or their grips loosen, and once started, the rotation must be completed without hesitation. Any pause mid-rotation exposes you to mount transitions or back takes. Success depends on mastering the mechanical sequence through drilling, then developing the timing sensitivity to recognize and exploit the brief moments when the top player's control is compromised.
 
-**From Position**: [[Side Control]] (Bottom)
+**From Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ Executing the Ghost Escape requires coordinating explosive hip rotation, shoulde
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Side Control]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Side Control]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -244,11 +244,11 @@ Executing the Ghost Escape requires coordinating explosive hip rotation, shoulde
 
 ## Opponent Counters
 
-- **Opponent sprawls and drives weight backward to flatten you during initial hip rotation** (Effectiveness: High) - Your Response: Abandon the ghost escape immediately and switch to elbow escape or wait for the next timing window when opponent shifts weight forward again → Leads to [[Side Control]]
-- **Opponent transitions to mount by stepping over as you begin rotating onto your side** (Effectiveness: High) - Your Response: Keep bottom knee close to chest to block the leg coming over, or accelerate the rotation to complete the escape before mount is fully established → Leads to [[Mount]]
-- **Opponent follows the rotation and secures seatbelt or harness control on your back** (Effectiveness: Medium) - Your Response: Prioritize hand fighting to prevent hooks from being inserted, keep elbows tight to knees, and work immediate guard recovery from turtle rather than settling → Leads to [[Turtle]]
-- **Opponent posts their far hand on the mat and drives crossface harder to stop rotation** (Effectiveness: Medium) - Your Response: Use the increased crossface pressure to fuel a bridge-and-roll reversal in the opposite direction, or switch to a standard hip escape while their hand is posted and unavailable for control → Leads to [[Side Control]]
-- **Opponent catches a front headlock or guillotine grip during the rotation** (Effectiveness: Low) - Your Response: Keep chin tucked firmly and continue completing the rotation to turtle where you can address the head control from a stable four-point base rather than stopping mid-rotation → Leads to [[Turtle]]
+- **Opponent sprawls and drives weight backward to flatten you during initial hip rotation** (Effectiveness: High) - Your Response: Abandon the ghost escape immediately and switch to elbow escape or wait for the next timing window when opponent shifts weight forward again → Leads to [[Positions/Side Control]]
+- **Opponent transitions to mount by stepping over as you begin rotating onto your side** (Effectiveness: High) - Your Response: Keep bottom knee close to chest to block the leg coming over, or accelerate the rotation to complete the escape before mount is fully established → Leads to [[Positions/Mount]]
+- **Opponent follows the rotation and secures seatbelt or harness control on your back** (Effectiveness: Medium) - Your Response: Prioritize hand fighting to prevent hooks from being inserted, keep elbows tight to knees, and work immediate guard recovery from turtle rather than settling → Leads to [[Positions/Turtle]]
+- **Opponent posts their far hand on the mat and drives crossface harder to stop rotation** (Effectiveness: Medium) - Your Response: Use the increased crossface pressure to fuel a bridge-and-roll reversal in the opposite direction, or switch to a standard hip escape while their hand is posted and unavailable for control → Leads to [[Positions/Side Control]]
+- **Opponent catches a front headlock or guillotine grip during the rotation** (Effectiveness: Low) - Your Response: Keep chin tucked firmly and continue completing the rotation to turtle where you can address the head control from a stable four-point base rather than stopping mid-rotation → Leads to [[Positions/Turtle]]
 
 
 </section>

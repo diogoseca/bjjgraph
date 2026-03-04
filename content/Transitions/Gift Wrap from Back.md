@@ -21,7 +21,7 @@ This transition represents a critical intermediate step in the back attack syste
 
 The Gift Wrap from Back fits into a broader positional hierarchy where control refinement precedes submission attempts. By transitioning from standard back control to the Gift Wrap, the attacker upgrades their positional dominance without meaningful risk of position loss. The reduced defensive capability of the trapped opponent makes subsequent attacks—rear naked choke, armbar on the free arm, bow and arrow choke, and transitions to mount or crucifix—significantly higher percentage than attempting them from standard back control with full hand fighting resistance.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The Gift Wrap from Back fits into a broader positional hierarchy where control r
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Gift Wrap]] | 55% |
-| Failure | [[Back Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Gift Wrap]] | 55% |
+| Failure | [[Positions/Back Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Gift Wrap from Back occupies a pivotal role in the back attack system as the
 ## Related Techniques
 
 
-- [[Back Control]] - Source position from which the Gift Wrap entry is initiated
+- [[Positions/Back Control]] - Source position from which the Gift Wrap entry is initiated
 
-- [[Gift Wrap]] - Target position achieved upon successful arm isolation
+- [[Positions/Gift Wrap]] - Target position achieved upon successful arm isolation
 
-- [[Seat Belt Control Back]] - Typical starting grip configuration before threading the gift wrap
+- [[Positions/Back Control/Seat Belt Control Back]] - Typical starting grip configuration before threading the gift wrap
 
-- [[Gift Wrap Maintenance]] - Follow-up control technique for maintaining position after establishing gift wrap
+- [[Transitions/Gift Wrap Maintenance]] - Follow-up control technique for maintaining position after establishing gift wrap
 
-- [[Gift Wrap RNC]] - Primary submission attack available after establishing gift wrap control
+- [[Submissions/Gift Wrap RNC]] - Primary submission attack available after establishing gift wrap control
 
-- [[Gift Wrap Armbar]] - Secondary submission targeting the free arm from gift wrap position
+- [[Submissions/Gift Wrap Armbar]] - Secondary submission targeting the free arm from gift wrap position
 
-- [[Back Control Maintenance]] - Alternative if gift wrap attempt fails and attacker retains back control
+- [[Transitions/Back Control Maintenance]] - Alternative if gift wrap attempt fails and attacker retains back control
 
-- [[Crucifix]] - Related arm control position accessible from back control with similar trapping concepts
+- [[Positions/Crucifix]] - Related arm control position accessible from back control with similar trapping concepts
 
-- [[Half Guard]] - Counter outcome position if opponent escapes during gift wrap attempt
+- [[Positions/Half Guard]] - Counter outcome position if opponent escapes during gift wrap attempt
 
-- [[Body Triangle]] - Complementary leg control that enhances stability during gift wrap entry
+- [[Positions/Back Control/Body Triangle]] - Complementary leg control that enhances stability during gift wrap entry
 
 
 </section>

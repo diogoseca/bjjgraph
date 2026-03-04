@@ -212,39 +212,39 @@ Advanced practitioners develop multiple passing pathways and chain them together
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (28% of attempts)
+### [[Transitions/Knee Slice Pass]] (28% of attempts)
 
-### [[Smash Pass]] (15% of attempts)
+### [[Transitions/Smash Pass]] (15% of attempts)
 
-### [[Underhook Pass]] (12% of attempts)
+### [[Transitions/Underhook Pass]] (12% of attempts)
 
-### [[Long Step Pass]] (8% of attempts)
+### [[Transitions/Long Step Pass]] (8% of attempts)
 
-### [[Crossface Pass]] (5% of attempts)
+### [[Transitions/Crossface Pass]] (5% of attempts)
 
-### [[Back Step Pass]] (5% of attempts)
+### [[Transitions/Back Step Pass]] (5% of attempts)
 
-### [[Over-Under Pass]] (4% of attempts)
+### [[Transitions/Over-Under Pass]] (4% of attempts)
 
-### [[Kimura]] (3% of attempts)
+### [[Transitions/Kimura]] (3% of attempts)
 
-### [[Half Guard to Double Jump]] (3% of attempts)
+### [[Transitions/Half Guard to Double Jump]] (3% of attempts)
 
-### [[Half Guard to Flattened Half Guard]] (3% of attempts)
+### [[Transitions/Half Guard to Flattened Half Guard]] (3% of attempts)
 
-### [[Crossface to Combat Base]] (2% of attempts)
+### [[Transitions/Crossface to Combat Base]] (2% of attempts)
 
-### [[Headquarters Pass]] (2% of attempts)
+### [[Transitions/Headquarters Pass]] (2% of attempts)
 
-### [[Half Guard to Leg Hook]] (2% of attempts)
+### [[Transitions/Half Guard to Leg Hook]] (2% of attempts)
 
-### [[Half Guard to Pocket Half Guard]] (2% of attempts)
+### [[Transitions/Half Guard to Pocket Half Guard]] (2% of attempts)
 
-### [[Half Guard to Quarter Guard]] (2% of attempts)
+### [[Transitions/Half Guard to Quarter Guard]] (2% of attempts)
 
-### [[Half Guard to Triangle Escape Position]] (2% of attempts)
+### [[Transitions/Half Guard to Triangle Escape Position]] (2% of attempts)
 
-### [[Suloev Stretch]] (2% of attempts)
+### [[Submissions/Suloev Stretch]] (2% of attempts)
 
 
 
@@ -255,28 +255,28 @@ Advanced practitioners develop multiple passing pathways and chain them together
 ## Decision Making from This Position
 
 **If opponent establishes strong knee shield with frames preventing forward pressure:**
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent is flat on back without knee shield, vulnerable to direct pressure:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Crossface Pass]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 **If opponent establishes lockdown on trapped leg, limiting mobility and threatening sweeps:**
-- Execute **[[Crossface Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Underhook Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Underhook Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent turns to side and battles for underhook, creating scramble potential:**
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 45%)
-- Execute **[[Darce Choke]]** → [[Darce Control]] (Probability: 40%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Transitions/Darce Choke]]** → [[Positions/Darce Control]] (Probability: 40%)
 
 
 **If opponent attempts to go deep half or recover full guard through hip escape:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Back Step Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Back Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 
@@ -378,16 +378,16 @@ Partner cycles through different half guard variations (Knee Shield, Lockdown, D
 
 ## Related Positions and Techniques
 
-- **[[Side Control]]** - Primary advancement target from successful half guard pass
-- **[[Deep Half Guard]]** - Common defensive response requiring specific passing adjustments
-- **[[Knee Shield Half Guard]]** - Variation requiring smash pass or long step pass approaches
-- **[[Lockdown]]** - Leg entanglement variation requiring modified passing strategy
-- **[[Headquarters Position]]** - Transitional position during passing sequences from half guard
-- **[[Dogfight Position]]** - Scramble position arising from contested half guard underhook battles
-- **[[Kimura Trap]]** - Submission opportunity when opponent overcommits to underhook battle
-- **[[Knee Slice Pass]]** - High-percentage passing technique from half guard top position
-- **[[Smash Pass]]** - Pressure-based passing technique effective against knee shield variations
-- **[[Darce Choke]]** - Submission entry when opponent turns into crossface during pass attempts
+- **[[Positions/Side Control]]** - Primary advancement target from successful half guard pass
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common defensive response requiring specific passing adjustments
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Variation requiring smash pass or long step pass approaches
+- **[[Positions/Half Guard/Lockdown]]** - Leg entanglement variation requiring modified passing strategy
+- **[[Positions/Headquarters Position]]** - Transitional position during passing sequences from half guard
+- **[[Positions/Dogfight Position]]** - Scramble position arising from contested half guard underhook battles
+- **[[Positions/Kimura Trap]]** - Submission opportunity when opponent overcommits to underhook battle
+- **[[Transitions/Knee Slice Pass]]** - High-percentage passing technique from half guard top position
+- **[[Transitions/Smash Pass]]** - Pressure-based passing technique effective against knee shield variations
+- **[[Transitions/Darce Choke]]** - Submission entry when opponent turns into crossface during pass attempts
 
 
 </section>

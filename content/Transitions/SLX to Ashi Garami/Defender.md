@@ -154,7 +154,7 @@ description: "Complete defensive guide against SLX to Ashi Garami. Recognition c
 
 As the defender against the SLX to Ashi Garami transition, you are in Single Leg X-Guard Top with one leg trapped in the opponent's hooks. Your opponent is attempting to convert their SLX control into Inside Ashi-Garami, which would give them direct access to dangerous leg lock submissions. Your defensive priorities are hierarchical: first, prevent the heel grip from being established; second, if the grip is secured, prevent the leg repositioning that converts SLX to ashi; third, if the transition begins, extract your leg before the entanglement is completed. Understanding the attacker's sequencing allows you to target the weakest moments in their transition—particularly the brief window when they remove their hip hook and their structural control is temporarily compromised. Proactive defense that disrupts the transition before it begins is far more effective than reactive escapes after ashi garami is established.
 
-**Opponent's Starting Position**: [[Single Leg X-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the SLX to Ashi Garami transition, you are in Single Leg
 ### 1. Strip heel grip immediately with two-on-one hand fighting before opponent can reinforce
 
 - **When to use**: As soon as you feel the opponent's hand contact your heel—this is the earliest and most effective intervention point
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: Opponent remains in SLX without heel control, unable to complete ashi transition and forced to re-attempt or switch to sweep
 - **Risk**: If you fail to strip the grip, your hands are now occupied and not available for base posting, increasing sweep vulnerability
 
 ### 2. Drive hips down and re-establish heavy base when hip hook releases
 
 - **When to use**: The instant you feel the opponent's hip hook lighten or disengage—this narrow window is your best opportunity to crush the transition
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: Heavy downward pressure pins opponent's hips to the mat, preventing the lateral fall needed to establish ashi garami angle
 - **Risk**: If opponent already has strong heel grip, driving forward may feed directly into the ashi entry rather than preventing it
 
 ### 3. Step over opponent's legs and initiate guard pass
 
 - **When to use**: When you detect the transition beginning but before the inside leg is threaded across your hip—once the inside leg is established, stepping over becomes much more difficult
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You extract your leg from the entanglement entirely and achieve a passing position with the opponent in open guard
 - **Risk**: If the step-over is too slow, opponent may catch your stepping leg and convert to a different entanglement or sweep
 
 ### 4. Rotate knee forcefully inward toward opponent to deny perpendicular angle
 
 - **When to use**: When opponent has begun falling to their side but has not yet completed the inside leg threading across your hip
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: Prevents establishment of ashi garami configuration by denying the body angle needed. May force opponent back to SLX neutral
 - **Risk**: Inward knee rotation with heel controlled may expose you to inside heel hook if opponent is already in partial ashi position
 
@@ -225,11 +225,11 @@ As the defender against the SLX to Ashi Garami transition, you are in Single Leg
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Extract your leg completely during the transition window when the opponent removes their hip hook. Step over their legs immediately and disengage, establishing distance and passing posture before they can re-engage SLX hooks.
 
-### → [[Single Leg X-Guard]]
+### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 Strip the heel grip early with two-on-one hand fighting and drive heavy downward pressure to pin their hips. This forces the opponent back to neutral SLX without ashi garami access, making them restart their attack sequence.
 

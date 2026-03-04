@@ -158,7 +158,7 @@ The core defensive strategy operates on two timelines. Before the backstep compl
 
 Successful defense requires balancing two competing demands: defending the original Estima Lock (preventing the footlock finish) and preventing the transition to Saddle (blocking the backstep). Sophisticated attackers exploit this dilemma by threatening the footlock to freeze the defender, then transitioning when the defender commits to ankle defense. The defender must develop the tactical awareness to recognize which threat is more immediate and allocate defensive resources accordingly, accepting that perfect defense against both simultaneously is rarely possible.
 
-**Opponent's Starting Position**: [[Estima Lock]] (Top)
+**Opponent's Starting Position**: [[Positions/Estima Lock]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful defense requires balancing two competing demands: defending the origi
 ### 1. Post your free leg on the mat or against the attacker's hip to block their rotation pathway
 
 - **When to use**: As soon as you feel the attacker's grip shift from footlock configuration to calf or knee control—this must happen before the backstep rotation begins
-- **Targets**: [[Estima Lock]]
+- **Targets**: [[Positions/Estima Lock]]
 - **If successful**: Attacker's backstep is blocked, forcing them to either reattempt the Estima Lock or disengage. You remain in the less dangerous footlock position with opportunity to work standard Estima Lock escapes.
 - **Risk**: If the post is late, the attacker may use your posted leg as leverage to complete the backstep faster, and you may end up in Saddle with your free leg compromised
 
 ### 2. Straighten your trapped leg explosively while counter-rotating your hips toward the attacker
 
 - **When to use**: When the attacker begins the backstep rotation and their inside leg starts threading between your legs—the straightened leg prevents their leg from passing through
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The straightened leg and hip rotation create space that disrupts the backstep and may allow full leg extraction, recovering to open guard where you can reestablish defensive structure.
 - **Risk**: Straightening the leg while the attacker still has footlock pressure can increase ankle stress—only use when the attacker has clearly abandoned the footlock grip
 
 ### 3. Aggressive sit-up with frames on the attacker's hips to prevent them from completing the rotation
 
 - **When to use**: During the early phase of the backstep before the attacker's inside leg has threaded past your far hip—sitting up reduces available rotation space
-- **Targets**: [[Estima Lock]]
+- **Targets**: [[Positions/Estima Lock]]
 - **If successful**: Your frames on their hips stall the backstep mid-rotation, leaving the attacker in a compromised half-completed position where they cannot establish the Saddle triangle. Forces them to restart or abandon the transition.
 - **Risk**: If your frames are weak or late, sitting up actually brings your thigh closer to their locking legs and can accelerate Saddle completion
 
 ### 4. Counter-entangle by hooking the attacker's far leg with your free foot to prevent perpendicular alignment
 
 - **When to use**: When the backstep is partially completed but the triangle has not yet been locked—your hook prevents them from achieving the perpendicular angle needed for Saddle
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Creates a scramble situation where neither player has dominant leg control, allowing you to extract your trapped leg during the positional chaos and recover to open guard.
 - **Risk**: Incorrect hooking can entangle your free leg as well, leaving both legs controlled and potentially creating a worse entanglement
 
@@ -228,11 +228,11 @@ Successful defense requires balancing two competing demands: defending the origi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Estima Lock]]
+### → [[Positions/Estima Lock]]
 
 Block the backstep rotation by posting your free leg early, framing on the attacker's hips, and counter-rotating your hips toward them. This forces the attacker back into the Estima Lock position where you face only the single footlock threat rather than the multi-attack Saddle. From here, execute standard Estima Lock escape protocols.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Straighten the trapped leg while the attacker is mid-backstep and their grip has transitioned away from the footlock. Combine the leg straightening with aggressive hip movement away from the attacker to extract your leg from the entanglement entirely. Once free, immediately establish distance with feet on hips and recompose your open guard structure.
 

@@ -180,7 +180,7 @@ description: "Execute the Homer Simpson Sweep from deep half guard. Step-by-step
 
 The Homer Simpson Sweep attacker operates from deep half guard bottom, using their positioning underneath the opponent's center of gravity to generate a powerful forward-driving sweep. The attacker's primary advantage is the mechanical leverage created by the deep underhook combined with the over-the-back grip, which forms a closed kinetic chain around the opponent's body. Success depends on timing the come-up motion to coincide with forward weight commitment from the top player, maintaining the underhook throughout the rising phase, and driving through to mount with sustained forward pressure rather than stopping at the midpoint.
 
-**From Position**: [[Deep Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ The Homer Simpson Sweep attacker operates from deep half guard bottom, using the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Deep Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Half Guard/Deep Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ The Homer Simpson Sweep attacker operates from deep half guard bottom, using the
 
 ## Opponent Counters
 
-- **Opponent sprawls hard and drives heavy crossface to flatten the bottom player** (Effectiveness: High) - Your Response: If caught early, abandon the come-up and switch to waiter sweep by redirecting your hips laterally. If partially committed, use the crossface pressure to spin underneath for a rolling back take instead of fighting the forward drive. → Leads to [[Deep Half Guard]]
-- **Opponent posts their near hand on the mat and widens base to resist the forward drive** (Effectiveness: Medium) - Your Response: Attack the posting arm with a grip strip or redirect your driving angle slightly toward the posting side to collapse their support. Alternatively, switch to the Homer Simpson to back take variation by circling behind the opponent as their weight commits to the post. → Leads to [[Half Guard]]
-- **Opponent whizzers the far leg and backsteps to extract from deep half** (Effectiveness: Medium) - Your Response: Follow the retreating leg and transition to X-Guard or Single Leg X-Guard by hooking with your feet. If the whizzer is deep, switch to electric chair threat by controlling the whizzered leg with a lockdown and extending. → Leads to [[Half Guard]]
-- **Opponent sits back and drops weight low to prevent the come-up from gaining momentum** (Effectiveness: Medium) - Your Response: Their backward weight shift opens the waiter sweep perfectly. Immediately redirect to a waiter sweep by elevating your hips and pushing their far leg over your body. The Homer Simpson threat forces the backward reaction that makes the waiter sweep high-percentage. → Leads to [[Deep Half Guard]]
+- **Opponent sprawls hard and drives heavy crossface to flatten the bottom player** (Effectiveness: High) - Your Response: If caught early, abandon the come-up and switch to waiter sweep by redirecting your hips laterally. If partially committed, use the crossface pressure to spin underneath for a rolling back take instead of fighting the forward drive. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Opponent posts their near hand on the mat and widens base to resist the forward drive** (Effectiveness: Medium) - Your Response: Attack the posting arm with a grip strip or redirect your driving angle slightly toward the posting side to collapse their support. Alternatively, switch to the Homer Simpson to back take variation by circling behind the opponent as their weight commits to the post. → Leads to [[Positions/Half Guard]]
+- **Opponent whizzers the far leg and backsteps to extract from deep half** (Effectiveness: Medium) - Your Response: Follow the retreating leg and transition to X-Guard or Single Leg X-Guard by hooking with your feet. If the whizzer is deep, switch to electric chair threat by controlling the whizzered leg with a lockdown and extending. → Leads to [[Positions/Half Guard]]
+- **Opponent sits back and drops weight low to prevent the come-up from gaining momentum** (Effectiveness: Medium) - Your Response: Their backward weight shift opens the waiter sweep perfectly. Immediately redirect to a waiter sweep by elevating your hips and pushing their far leg over your body. The Homer Simpson threat forces the backward reaction that makes the waiter sweep high-percentage. → Leads to [[Positions/Half Guard/Deep Half Guard]]
 
 
 </section>

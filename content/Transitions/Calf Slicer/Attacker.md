@@ -178,7 +178,7 @@ The technique rewards patience and positional awareness over explosive movement.
 
 Mastery of the calf slicer transforms Inside Sankaku from a single-threat position into a complete dilemma system where every defensive choice opens a different offensive pathway.
 
-**From Position**: [[Inside Sankaku]] (Top)
+**From Position**: [[Positions/Inside Sankaku]] (Top)
 
 </section>
 
@@ -232,8 +232,8 @@ Mastery of the calf slicer transforms Inside Sankaku from a single-threat positi
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Inside Sankaku]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Inside Sankaku]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ Mastery of the calf slicer transforms Inside Sankaku from a single-threat positi
 
 ## Opponent Counters
 
-- **Bending the knee to collapse the compression angle and remove the wedge pressure** (Effectiveness: High) - Your Response: Pull ankle more firmly toward you and drive hips forward harder to straighten their leg; consider transitioning to heel hook as their heel becomes exposed when bending → Leads to [[Inside Sankaku]]
-- **Rotating toward you to turn into the pressure and stack, removing compression angle** (Effectiveness: Medium) - Your Response: Follow their rotation maintaining the wedge position, or transition to Saddle entry as they turn into you; their rotation often improves heel hook angle → Leads to [[Inside Sankaku]]
-- **Explosive hip escape backward to create distance and extract the trapped leg** (Effectiveness: Medium) - Your Response: Follow their movement maintaining hip connection and shin wedge position; their escape attempt often re-exposes the heel for heel hook attack → Leads to [[Half Guard]]
-- **Grabbing your leg and attempting to pry the shin wedge out from behind the knee** (Effectiveness: Low) - Your Response: Drive hips forward more aggressively to increase pressure faster than they can remove wedge; their hand fighting creates upper body vulnerability for passing → Leads to [[Inside Sankaku]]
+- **Bending the knee to collapse the compression angle and remove the wedge pressure** (Effectiveness: High) - Your Response: Pull ankle more firmly toward you and drive hips forward harder to straighten their leg; consider transitioning to heel hook as their heel becomes exposed when bending → Leads to [[Positions/Inside Sankaku]]
+- **Rotating toward you to turn into the pressure and stack, removing compression angle** (Effectiveness: Medium) - Your Response: Follow their rotation maintaining the wedge position, or transition to Saddle entry as they turn into you; their rotation often improves heel hook angle → Leads to [[Positions/Inside Sankaku]]
+- **Explosive hip escape backward to create distance and extract the trapped leg** (Effectiveness: Medium) - Your Response: Follow their movement maintaining hip connection and shin wedge position; their escape attempt often re-exposes the heel for heel hook attack → Leads to [[Positions/Half Guard]]
+- **Grabbing your leg and attempting to pry the shin wedge out from behind the knee** (Effectiveness: Low) - Your Response: Drive hips forward more aggressively to increase pressure faster than they can remove wedge; their hand fighting creates upper body vulnerability for passing → Leads to [[Positions/Inside Sankaku]]
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Defend and counter the Feet on Hips Sickle Sweep in BJJ. Recogniti
 
 Defending the Feet on Hips Sickle Sweep requires understanding the sweep's mechanical prerequisites and disrupting them before the combined push-pull-hook force becomes irresistible. As the top player facing feet on hips guard, you must recognize the setup cues—the specific grip configuration, the dropping of one foot from your hip, and the angle change that precedes the sickle motion. Early recognition allows you to address the sweep at its weakest point during the setup phase rather than trying to resist the fully loaded sweep mechanics. Effective defense combines preventive measures such as denying grips, maintaining a wide base, and controlling the hooking leg with active counters including backstep passing, forward pressure, and grip stripping that convert the opponent's sweep attempt into a guard passing opportunity for you.
 
-**Opponent's Starting Position**: [[Feet on Hips Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Feet on Hips Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Feet on Hips Sickle Sweep requires understanding the sweep's mecha
 ### 1. Step the far foot back beyond hooking range when you feel the opponent's foot drop from your hip
 
 - **When to use**: During the setup phase before the hook is fully set, when you first notice one foot leaving your hip and traveling behind your leg
-- **Targets**: [[Feet on Hips Guard]]
+- **Targets**: [[Positions/Feet on Hips Guard]]
 - **If successful**: Sweep is prevented entirely and opponent must reset guard or transition to a different attack from the same position
 - **Risk**: Stepping back creates a wider stance that is vulnerable to the tripod sweep follow-up, so be prepared to address that chain attack
 
 ### 2. Strip the collar grip with a two-on-one grip break while driving forward pressure into the opponent's guard
 
 - **When to use**: Early in the setup when the opponent is establishing the collar grip needed for the sweep's pulling vector
-- **Targets**: [[Feet on Hips Guard]]
+- **Targets**: [[Positions/Feet on Hips Guard]]
 - **If successful**: Without the collar grip the sweep lacks the pulling force needed to off-balance you, reducing it to an easily resisted leg-only attempt
 - **Risk**: Temporarily removing one hand from passing grips may open other guard attacks or allow the opponent to re-grip
 
 ### 3. Grab the hooking leg at the ankle or pant cuff and pin it while stepping your far foot back and driving forward
 
 - **When to use**: When the hook is already set behind your ankle but the full sweep motion has not yet been initiated
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You neutralize the hook and can use control of the captured leg to initiate a guard passing sequence into half guard top or leg drag
 - **Risk**: Bending down to grab the ankle may compromise your posture if the opponent has a strong collar grip and initiates the sweep during your reach
 
 ### 4. Drive hips forward and low while sprawling weight onto the opponent to flatten their guard structure
 
 - **When to use**: When the sweep is being initiated and you feel the push-pull forces beginning to take effect on your balance
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your forward pressure flattens their guard structure and you advance past their frames into a passing position before the sweep develops
 - **Risk**: Driving forward adds momentum in the sweep direction if the hook and collar pull are well-timed, potentially accelerating the sweep
 
@@ -217,11 +217,11 @@ Defending the Feet on Hips Sickle Sweep requires understanding the sweep's mecha
 
 ## Best-Case Outcomes for Defender
 
-### → [[Feet on Hips Guard]]
+### → [[Positions/Feet on Hips Guard]]
 
 Deny the collar grip or step the far foot back early to prevent the sweep entirely, forcing the opponent to reset and attempt a different technique from guard bottom while you maintain your top position
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When you recognize the sweep attempt beginning, drive forward aggressively and use the opened guard structure to advance past one leg, establishing top position in half guard while the opponent's sweep momentum is disrupted by your forward pressure
 

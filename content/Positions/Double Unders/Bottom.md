@@ -206,19 +206,19 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 
 ## Available Escapes
 
-### [[Deep Half Entry]] (43% of attempts)
+### [[Transitions/Deep Half Entry]] (43% of attempts)
 
-### [[Granby Roll to Guard]] (15% of attempts)
+### [[Transitions/Granby Roll to Guard]] (15% of attempts)
 
-### [[Butterfly Hook Recovery]] (12% of attempts)
+### [[Transitions/Butterfly Hook Recovery]] (12% of attempts)
 
-### [[Hip Escape to Guard]] (12% of attempts)
+### [[Transitions/Hip Escape to Guard]] (12% of attempts)
 
-### [[Roll to Turtle]] (10% of attempts)
+### [[Transitions/Roll to Turtle]] (10% of attempts)
 
-### [[Guard Recovery from Double Unders]] (5% of attempts)
+### [[Transitions/Guard Recovery from Double Unders]] (5% of attempts)
 
-### [[Sweep from Double Unders]] (3% of attempts)
+### [[Transitions/Sweep from Double Unders]] (3% of attempts)
 
 
 
@@ -229,23 +229,23 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 ## Decision Making from This Position
 
 **If opponent drives heavy pressure forward and down attempting to flatten you completely onto your back:**
-- Execute **[[Deep Half Entry]]** → [[Deep Half Guard]] (Probability: 55%)
-- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 45%)
+- Execute **[[Transitions/Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 45%)
 
 
 **If opponent pauses pressure to consolidate position or adjust grips and base structure:**
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 65%)
-- Execute **[[Butterfly Hook Recovery]]** → [[Butterfly Guard]] (Probability: 50%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Butterfly Hook Recovery]]** → [[Positions/Butterfly Guard]] (Probability: 50%)
 
 
 **If opponent lifts weight or shifts laterally to clear your legs and complete passing sequence:**
-- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 60%)
-- Execute **[[Shin to Shin Pull]]** → [[Shin-to-Shin Guard]] (Probability: 40%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Shin to Shin Pull]]** → [[Positions/Shin-to-Shin Guard]] (Probability: 40%)
 
 
 **If you successfully create any frame or space between your chest and opponent's chest:**
-- Execute **[[Knee Shield Recovery]]** → [[Knee Shield Half Guard]] (Probability: 70%)
-- Execute **[[Closed Guard Recovery]]** → [[Closed Guard]] (Probability: 35%)
+- Execute **[[Knee Shield Recovery]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 70%)
+- Execute **[[Closed Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 35%)
 
 
 
@@ -385,13 +385,13 @@ Partner continuously seeks double underhooks while you work to maintain frames, 
 ## Related Positions and Techniques
 
 - **[[Double Unders Top]]** - Opposite perspective - top player's offensive position
-- **[[Headquarters Position]]** - Common preceding position where double underhooks are established
-- **[[Deep Half Guard]]** - Primary escape target from this position
-- **[[Half Guard]]** - Related defensive position with better structure
-- **[[Butterfly Guard]]** - Guard position to recover through butterfly hook insertion
-- **[[Turtle]]** - Alternative escape position via granby roll
-- **[[Deep Half Entry]]** - Primary escape transition from this position
-- **[[Granby Roll to Guard]]** - Alternative escape using opponent's forward momentum
+- **[[Positions/Headquarters Position]]** - Common preceding position where double underhooks are established
+- **[[Positions/Half Guard/Deep Half Guard]]** - Primary escape target from this position
+- **[[Positions/Half Guard]]** - Related defensive position with better structure
+- **[[Positions/Butterfly Guard]]** - Guard position to recover through butterfly hook insertion
+- **[[Positions/Turtle]]** - Alternative escape position via granby roll
+- **[[Transitions/Deep Half Entry]]** - Primary escape transition from this position
+- **[[Transitions/Granby Roll to Guard]]** - Alternative escape using opponent's forward momentum
 
 
 </section>

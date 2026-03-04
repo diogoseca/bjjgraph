@@ -21,7 +21,7 @@ The critical challenge lies in the transition window—the 1-2 seconds during wh
 
 This transition is most effective when the opponent creates distance with their frames or pushes away with their feet on hips. Their defensive action paradoxically provides the space needed to stand safely. Conversely, attempting to stand against a guard player who is actively closing distance with hooks and pulling grips carries significantly higher sweep risk. Reading the opponent's guard engagement level and selecting the appropriate moment is the difference between a clean stand up and a compromised position.
 
-**From Position**: [[Combat Base]] (Top)
+**From Position**: [[Positions/Combat Base]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition is most effective when the opponent creates distance with their 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Combat Base]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Combat Base]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Stand Up from Combat Base serves as the critical bridge between kneeling and
 ## Related Techniques
 
 
-- [[Combat Base]] - Starting position from which the stand up is initiated
+- [[Positions/Combat Base]] - Starting position from which the stand up is initiated
 
-- [[Standing Position]] - Primary success target after completing the stand up transition
+- [[Positions/Standing Position]] - Primary success target after completing the stand up transition
 
-- [[Open Guard]] - Opponent's guard state when top player achieves standing position
+- [[Positions/Open Guard]] - Opponent's guard state when top player achieves standing position
 
-- [[Closed Guard]] - Counter outcome when opponent closes guard during the transition window
+- [[Positions/Closed Guard]] - Counter outcome when opponent closes guard during the transition window
 
-- [[Headquarters Position]] - Alternative positional advancement from combat base without standing
+- [[Positions/Headquarters Position]] - Alternative positional advancement from combat base without standing
 
-- [[De La Riva Guard]] - Common guard opponent establishes against a standing passer after stand up completes
+- [[Positions/De La Riva Guard]] - Common guard opponent establishes against a standing passer after stand up completes
 
-- [[Butterfly Guard]] - Guard type that threatens sweeps during the stand up transition
+- [[Positions/Butterfly Guard]] - Guard type that threatens sweeps during the stand up transition
 
-- [[Combat Base to Headquarters]] - Alternative advancement path from the same starting position
+- [[Transitions/Combat Base to Headquarters]] - Alternative advancement path from the same starting position
 
-- [[Standing Guard]] - Related standing guard engagement position after completing the stand up
+- [[Positions/Standing Guard]] - Related standing guard engagement position after completing the stand up
 
-- [[Half Guard]] - Position that may result if the stand up is partially defended and passing begins immediately
+- [[Positions/Half Guard]] - Position that may result if the stand up is partially defended and passing begins immediately
 
 
 </section>

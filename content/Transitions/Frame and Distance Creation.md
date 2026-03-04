@@ -21,7 +21,7 @@ The technique operates on the principle that leg lock control depends heavily on
 
 Strategically, Frame and Distance Creation serves as both a standalone escape and a preparatory action for other defensive sequences. The distance created provides the mobility needed to rotate hips, extract the trapped knee, or transition to standing. Against aggressive leg lockers who commit heavily to finishing, the framing action often creates windows where passing to top position becomes viable. This technique is particularly valuable because it addresses multiple control points simultaneously rather than fighting each grip individually.
 
-**From Position**: [[Straight Ankle Lock Control]] (Top)
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, Frame and Distance Creation serves as both a standalone escape an
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 65% |
-| Failure | [[Straight Ankle Lock Control]] | 25% |
-| Counter | [[Inside Ashi-Garami]] | 10% |
+| Success | [[Positions/Open Guard]] | 65% |
+| Failure | [[Positions/Straight Ankle Lock Control]] | 25% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 10% |
 
 
 </section>
@@ -186,21 +186,21 @@ Frame and Distance Creation functions as a critical defensive tool within the le
 ## Related Techniques
 
 
-- [[Straight Ankle Lock Control]] - Starting position where ankle is controlled by attacker
+- [[Positions/Straight Ankle Lock Control]] - Starting position where ankle is controlled by attacker
 
-- [[Open Guard]] - Primary destination after successful escape
+- [[Positions/Open Guard]] - Primary destination after successful escape
 
-- [[Ashi Garami Escape]] - Alternative escape technique from similar leg entanglement positions
+- [[Transitions/Ashi Garami Escape]] - Alternative escape technique from similar leg entanglement positions
 
-- [[Hip Rotation Defense]] - Complementary defensive movement combined with framing
+- [[Transitions/Hip Rotation Defense]] - Complementary defensive movement combined with framing
 
-- [[Inside Ashi-Garami]] - Position attacker may advance to if escape fails
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Position attacker may advance to if escape fails
 
-- [[50-50 Guard]] - Alternative position that may result from mutual leg engagement
+- [[Positions/Ashi Garami/50-50 Guard]] - Alternative position that may result from mutual leg engagement
 
-- [[Half Guard]] - Recovery position if full extraction to open guard is not achieved
+- [[Positions/Half Guard]] - Recovery position if full extraction to open guard is not achieved
 
-- [[Knee Extraction]] - Follow-up extraction technique after frames create sufficient distance
+- [[Transitions/Knee Extraction]] - Follow-up extraction technique after frames create sufficient distance
 
 
 </section>

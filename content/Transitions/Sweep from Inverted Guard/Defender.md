@@ -154,7 +154,7 @@ description: "Learn to defend the Sweep from Inverted Guard. Recognition cues, b
 
 As the top player defending against the Sweep from Inverted Guard, your primary concern is recognizing the sweep attempt before rotational momentum becomes unstoppable. The inverted opponent generates sweeping force through hip rotation and hook placement, meaning your defense must focus on controlling their hips, preventing hook insertion, and maintaining a wide stable base that resists rotational displacement. Early recognition is critical because once the sweep gains momentum, defensive options narrow dramatically. Your best defense combines immediate grip control to prevent the opponent from establishing the connections needed for the sweep with base adjustments that remove the angles the sweep requires to function effectively.
 
-**Opponent's Starting Position**: [[Inverted Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Inverted Guard]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ As the top player defending against the Sweep from Inverted Guard, your primary 
 ### 1. Sprawl and drive hips down to eliminate the hook insertion angle and flatten the opponent's inverted position
 
 - **When to use**: When you feel the opponent beginning to thread their leg behind yours but before they have secured a deep hook
-- **Targets**: [[Inverted Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: Opponent's inverted position flattens, removing their ability to generate rotational force and forcing them to abandon the sweep attempt
 - **Risk**: If you drive forward too aggressively, the opponent may redirect your momentum into a berimbolo entry using your forward weight against you
 
 ### 2. Backstep and circle away from the hook side to remove the sweeping angle entirely
 
 - **When to use**: When the opponent has secured a grip but has not yet generated rotational momentum or inserted a deep hook
-- **Targets**: [[Inverted Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: The hook loses its angle and the opponent must release and reset their sweep setup from scratch
 - **Risk**: Creates space that the opponent may use to transition to other guard positions like single leg X-guard or seated guard
 
 ### 3. Stack pass through the inverted guard by driving forward with shoulder pressure to fold the opponent and complete the pass
 
 - **When to use**: When the opponent has fully committed to inversion with hips elevated but has not yet generated significant rotational momentum
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent is folded flat under stack pressure and you complete the pass to side control, converting their offensive attempt into your positional gain
 - **Risk**: If the stack is incomplete or the opponent retains grip control, they may use your forward drive to power their rotation and complete the sweep
 
 ### 4. Strip both grips immediately and disengage to reset the interaction from standing distance
 
 - **When to use**: Early in the sweep setup before hooks and grips are consolidated, while you still have time to create distance
-- **Targets**: [[Inverted Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: All connection points are removed and the opponent must re-engage and re-establish grips from scratch, giving you time to adjust your passing strategy
 - **Risk**: Opponent may use the disengagement to recover to seated guard or standing position, but this is preferable to being swept to back control
 
@@ -224,11 +224,11 @@ As the top player defending against the Sweep from Inverted Guard, your primary 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the opponent commits to deep inversion with elevated hips, immediately apply stack pressure by driving your shoulder into their legs and folding their hips toward their head. Maintain continuous forward pressure while working your hips past their legs to consolidate side control. This converts their offensive inversion into a passing opportunity for you.
 
-### → [[Inverted Guard]]
+### → [[Positions/Inverted Guard]]
 
 Strip the opponent's grips early before they can establish the dual-grip connection needed for the sweep. Use both hands to peel their pants grip while backstipping away from the hook side. Without grip connections, the sweep cannot generate sufficient force and the opponent remains in inverted guard without offensive capability, allowing you to re-engage on your terms.
 

@@ -180,7 +180,7 @@ description: "Complete attacking guide for the Rear Naked Choke from Harness. Ma
 
 Finishing the Rear Naked Choke from Harness requires converting the dominant seatbelt grip into a bilateral blood choke configuration while maintaining back control throughout the transition. The attacker must navigate the critical grip transition from seatbelt clasp to figure-four lock without allowing the defender to establish two-on-one defensive grips or create sufficient hip escape space. Success depends on precise timing of the forearm slide, incremental grip adjustments that minimize the window of vulnerability, and the integration of complementary submission threats that prevent the defender from committing their full defensive resources to choke prevention. The attacker who masters this transition possesses the single most effective finishing sequence in all of grappling.
 
-**From Position**: [[Harness]] (Top)
+**From Position**: [[Positions/Harness]] (Top)
 
 </section>
 
@@ -233,8 +233,8 @@ Finishing the Rear Naked Choke from Harness requires converting the dominant sea
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Harness]] | 35% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Harness]] | 35% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -243,10 +243,10 @@ Finishing the Rear Naked Choke from Harness requires converting the dominant sea
 
 ## Opponent Counters
 
-- **Two-on-one grip fight on the choking arm, pulling it below chin level** (Effectiveness: High) - Your Response: Use the support hand to peel their bottom grip while maintaining chest pressure and hook control. Alternatively, switch to threatening an armbar by controlling their defending arm, forcing them to release the two-on-one to defend a different submission. → Leads to [[Harness]]
-- **Aggressive chin tuck with shoulder shrug blocking forearm path** (Effectiveness: Medium) - Your Response: Walk the forearm under the chin with small wrist rotations or apply steady jaw pressure across the mandible to force the chin up. Maintain patience and incremental progress rather than forcing the arm through. → Leads to [[Harness]]
-- **Hip escape and turn toward the underhook side to face attacker** (Effectiveness: Medium) - Your Response: Drive hooks deeper and follow their hip movement by switching your own hips to maintain the back angle. Increase chest-to-back pressure to prevent the turn from completing and tighten the choking grip as they rotate. → Leads to [[Half Guard]]
-- **Strip bottom hook and rotate hips outward to create escape angle** (Effectiveness: Low) - Your Response: Prioritize completing the choking grip over recovering the hook. The RNC can finish even without hooks if the figure-four is locked and chest pressure is maintained. Use the remaining hook to prevent full rotation while finishing the choke. → Leads to [[Half Guard]]
+- **Two-on-one grip fight on the choking arm, pulling it below chin level** (Effectiveness: High) - Your Response: Use the support hand to peel their bottom grip while maintaining chest pressure and hook control. Alternatively, switch to threatening an armbar by controlling their defending arm, forcing them to release the two-on-one to defend a different submission. → Leads to [[Positions/Harness]]
+- **Aggressive chin tuck with shoulder shrug blocking forearm path** (Effectiveness: Medium) - Your Response: Walk the forearm under the chin with small wrist rotations or apply steady jaw pressure across the mandible to force the chin up. Maintain patience and incremental progress rather than forcing the arm through. → Leads to [[Positions/Harness]]
+- **Hip escape and turn toward the underhook side to face attacker** (Effectiveness: Medium) - Your Response: Drive hooks deeper and follow their hip movement by switching your own hips to maintain the back angle. Increase chest-to-back pressure to prevent the turn from completing and tighten the choking grip as they rotate. → Leads to [[Positions/Half Guard]]
+- **Strip bottom hook and rotate hips outward to create escape angle** (Effectiveness: Low) - Your Response: Prioritize completing the choking grip over recovering the hook. The RNC can finish even without hooks if the figure-four is locked and chest pressure is maintained. Use the remaining hook to prevent full rotation while finishing the choke. → Leads to [[Positions/Half Guard]]
 
 
 </section>

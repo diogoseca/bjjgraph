@@ -154,7 +154,7 @@ description: "Defend against posture escape attempts from Rubber Guard bottom. M
 
 As the defender, you are the Rubber Guard bottom player working to maintain your control position against the top player's escape attempts. Your objective is to preserve the arm trap and posture control that define the Rubber Guard while advancing through the positional hierarchy toward submission entries. When the top player initiates a posture escape, you must recognize their specific escape method and apply the appropriate counter to either re-establish control, trigger a submission entry, or execute a sweep. The Rubber Guard system is specifically designed so that common escape reactions feed directly into submission chains: pulling the arm free opens the triangle, driving forward creates omoplata entries, and sitting back enables sweeps. Your defensive strategy leverages these built-in counters to make every escape attempt a potential offensive opportunity.
 
-**Opponent's Starting Position**: [[Rubber Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender, you are the Rubber Guard bottom player working to maintain your
 ### 1. Increase leg pressure and re-break posture by pulling head down with free hand while driving shin deeper across their back
 
 - **When to use**: When you detect the initial frame on your knee and the opponent begins the escape sequence before they gain momentum
-- **Targets**: [[Rubber Guard]]
+- **Targets**: [[Positions/Rubber Guard]]
 - **If successful**: Opponent is pulled back into full Rubber Guard control with broken posture, negating their escape progress entirely
 - **Risk**: If opponent has already freed significant arm slack, the re-pull may fail and waste your energy
 
 ### 2. Release arm trap and immediately shoot for triangle by bringing the controlling leg across their neck while trapping the freed arm
 
 - **When to use**: When opponent successfully begins circular arm extraction and their arm is coming free, converting the loss of control into a submission entry
-- **Targets**: [[Rubber Guard]]
+- **Targets**: [[Positions/Rubber Guard]]
 - **If successful**: Direct triangle choke entry as the freed arm crosses their centerline, converting their escape into your submission
 - **Risk**: If opponent postures explosively during the transition window, the triangle may not close properly
 
 ### 3. Execute hip bump sweep by bridging into the opponent as they drive hips back for posture recovery, using their backward momentum against them
 
 - **When to use**: When opponent commits weight backward during the posture recovery phase, creating vulnerability to forward sweeping force
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent is swept to bottom position as their backward momentum makes them unable to resist the forward bridge
 - **Risk**: If sweep fails, you may lose Rubber Guard entirely and end up in open guard with compromised grips
 
 ### 4. Advance to New York or Invisible Collar position during the momentary pause between escape phases, increasing submission threat level
 
 - **When to use**: When opponent pauses their escape to reassess or switches between escape variations, creating a window for positional advancement
-- **Targets**: [[Rubber Guard]]
+- **Targets**: [[Positions/Rubber Guard]]
 - **If successful**: Position advances to higher-threat configuration that makes subsequent escape attempts more dangerous for the top player
 - **Risk**: Transitioning between positions requires momentary grip changes that could allow escape if timing is wrong
 
@@ -225,11 +225,11 @@ As the defender, you are the Rubber Guard bottom player working to maintain your
 
 ## Best-Case Outcomes for Defender
 
-### → [[Rubber Guard]]
+### → [[Positions/Rubber Guard]]
 
 Detect the escape attempt early through recognition cues and immediately re-break posture by increasing leg pressure and pulling the head down. Advance through the positional hierarchy whenever the opponent pauses, making each subsequent escape attempt progressively more difficult and dangerous.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a hip bump sweep during the opponent's backward hip drive phase of posture recovery. As they shift weight backward, bridge forcefully forward and to the side, using their own momentum against them. Follow through to establish top position or recover to half guard bottom if the sweep is only partially successful.
 

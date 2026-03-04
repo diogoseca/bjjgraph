@@ -21,7 +21,7 @@ The transition requires precise timing and awareness. The practitioner must reco
 
 From a systems perspective, this fallback creates a cyclical dynamic within the leg lock game. The practitioner can attack from Inside Ashi-Garami with straight ankle locks or toe holds, attempt to re-enter Saddle when conditions improve, or branch to alternative positions like Outside Ashi-Garami or Cross Ashi-Garami. Understanding this transition transforms the saddle from an all-or-nothing position into part of a fluid entanglement network where every defensive reaction from the opponent leads to another attacking opportunity rather than a reset to neutral.
 
-**From Position**: [[Saddle]] (Top)
+**From Position**: [[Positions/Ashi Garami/Saddle]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ From a systems perspective, this fallback creates a cyclical dynamic within the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 55% |
-| Failure | [[Saddle]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 55% |
+| Failure | [[Positions/Ashi Garami/Saddle]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Fallback to Inside Ashi-Garami occupies a critical role in the leg lock syst
 ## Related Techniques
 
 
-- [[Saddle]] - Source position from which this fallback initiates when control deteriorates
+- [[Positions/Ashi Garami/Saddle]] - Source position from which this fallback initiates when control deteriorates
 
-- [[Inside Ashi-Garami]] - Target position providing continued leg attack capability after successful fallback
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Target position providing continued leg attack capability after successful fallback
 
-- [[Half Guard]] - Counter outcome position when opponent escapes entirely during transition
+- [[Positions/Half Guard]] - Counter outcome position when opponent escapes entirely during transition
 
-- [[Ashi Garami Maintenance]] - Complementary technique for retaining leg entanglement control after arriving in ashi
+- [[Transitions/Ashi Garami Maintenance]] - Complementary technique for retaining leg entanglement control after arriving in ashi
 
-- [[Saddle Entry from Top]] - Reverse transition to re-enter saddle from inside ashi when conditions improve
+- [[Transitions/Saddle Entry from Top]] - Reverse transition to re-enter saddle from inside ashi when conditions improve
 
-- [[Straight Ankle Lock Entry]] - Common follow-up attack from inside ashi immediately after fallback
+- [[Transitions/Straight Ankle Lock Entry]] - Common follow-up attack from inside ashi immediately after fallback
 
-- [[Heel Hook]] - Primary saddle attack that may have been defended, triggering the fallback
+- [[Transitions/Heel Hook]] - Primary saddle attack that may have been defended, triggering the fallback
 
-- [[Outside Ashi-Garami]] - Alternative leg entanglement if inside ashi is also compromised after fallback
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative leg entanglement if inside ashi is also compromised after fallback
 
-- [[Leg Entanglement]] - Parent conceptual framework governing the leg control hierarchy this transition operates within
+- [[Positions/Leg Entanglement]] - Parent conceptual framework governing the leg control hierarchy this transition operates within
 
-- [[Ashi Garami Escape]] - Defender technique used to escape the resulting inside ashi position
+- [[Transitions/Ashi Garami Escape]] - Defender technique used to escape the resulting inside ashi position
 
 
 </section>

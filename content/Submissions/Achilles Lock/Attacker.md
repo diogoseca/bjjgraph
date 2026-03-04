@@ -176,7 +176,7 @@ description: "How to execute Achilles Lock in BJJ. Attacking perspective with se
 
 The Achilles Lock is a fundamental leg lock submission that targets the Achilles tendon and ankle joint by creating hyperextension and compression. Unlike heel hooks which attack rotational integrity, the Achilles Lock applies straight pressure to the posterior ankle, making it one of the safer leg attacks when applied with control. This submission is legal at all IBJJF belt levels (with straight ankle variations) and serves as the foundation for understanding leg lock mechanics. The position is typically entered from Ashi Garami variations, Single Leg X-Guard, or during scrambles when controlling an opponent's leg. The effectiveness of the Achilles Lock depends on precise hip placement, proper grip configuration, and the ability to create a fulcrum against the opponent's Achilles tendon using your forearm or wrist bone. Understanding this submission is essential for developing a complete leg lock game and provides critical defensive awareness for all practitioners.
 
-**From Position**: [[Inside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 
 </section>
@@ -231,8 +231,8 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Ashi Garami]] | 25% |
-| Counter | [[Open Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -241,9 +241,9 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 ## Opponent Defenses
 
-- **Opponent turns their knee inward to rotate the foot and relieve pressure on Achilles tendon** (Effectiveness: High) - Your Response: Immediately tighten your knees together and use your inside leg to prevent hip rotation. Adjust your grip to maintain heel control and reposition fulcrum as foot alignment changes. You may need to transition to outside Ashi or switch to toe hold. → Leads to [[Ashi Garami]]
-- **Opponent sits up and drives forward into you to remove the angle and reduce hip extension** (Effectiveness: Medium) - Your Response: Use your inside leg posted on their hip to create a strong frame. Maintain backward lean with your upper body and use your free hand to post behind you for base. Keep hips elevated and extend harder to maintain breaking pressure despite their forward movement. → Leads to [[Ashi Garami]]
-- **Opponent extracts their leg by pulling knee back through the gap between your legs** (Effectiveness: Medium) - Your Response: Squeeze your knees together tighter before they create space. If you feel the leg starting to extract, immediately follow their hip movement and maintain outside leg hook behind their knee. You may need to transition to a different Ashi variation or re-establish position. → Leads to [[Open Guard]]
+- **Opponent turns their knee inward to rotate the foot and relieve pressure on Achilles tendon** (Effectiveness: High) - Your Response: Immediately tighten your knees together and use your inside leg to prevent hip rotation. Adjust your grip to maintain heel control and reposition fulcrum as foot alignment changes. You may need to transition to outside Ashi or switch to toe hold. → Leads to [[Positions/Ashi Garami]]
+- **Opponent sits up and drives forward into you to remove the angle and reduce hip extension** (Effectiveness: Medium) - Your Response: Use your inside leg posted on their hip to create a strong frame. Maintain backward lean with your upper body and use your free hand to post behind you for base. Keep hips elevated and extend harder to maintain breaking pressure despite their forward movement. → Leads to [[Positions/Ashi Garami]]
+- **Opponent extracts their leg by pulling knee back through the gap between your legs** (Effectiveness: Medium) - Your Response: Squeeze your knees together tighter before they create space. If you feel the leg starting to extract, immediately follow their hip movement and maintain outside leg hook behind their knee. You may need to transition to a different Ashi variation or re-establish position. → Leads to [[Positions/Open Guard]]
 - **Opponent grabs their own foot or shin to create a defensive frame and block your hip extension** (Effectiveness: Low) - Your Response: This defense is typically ineffective against proper technique. Continue hip extension - their arm frame will not prevent the Achilles compression. Focus on maintaining fulcrum position and angle. Their grip may actually help keep the foot positioned correctly. → Leads to [[game-over]]
 
 

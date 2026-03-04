@@ -21,7 +21,7 @@ The mechanics of the crucifix armbar differ from standard armbar positions becau
 
 Within the crucifix attack system, the armbar serves as the secondary threat that complements the primary choke. This creates a powerful submission chain: threaten the choke to draw the arm into defensive position, then attack the exposed arm with the armbar. If the opponent retracts the arm to defend the armbar, the neck reopens for choke attacks. Advanced practitioners flow between these attacks seamlessly, creating an offensive loop that becomes increasingly difficult to survive.
 
-**From Position**: [[Crucifix]] (Top)
+**From Position**: [[Positions/Crucifix]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -33,8 +33,8 @@ Within the crucifix attack system, the armbar serves as the secondary threat tha
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Crucifix]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Failure | [[Positions/Crucifix]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -193,21 +193,21 @@ The Armbar from Crucifix occupies a critical position in the crucifix attack sys
 ## Related Techniques
 
 
-- [[Crucifix]] - Starting position providing the bilateral arm control that enables the attack
+- [[Positions/Crucifix]] - Starting position providing the bilateral arm control that enables the attack
 
-- [[Choke from Crucifix]] - Primary threat that creates the armbar opportunity through defensive commitment
+- [[Transitions/Choke from Crucifix]] - Primary threat that creates the armbar opportunity through defensive commitment
 
-- [[Crucifix Maintenance]] - Position retention technique that sustains control while setting up the armbar
+- [[Transitions/Crucifix Maintenance]] - Position retention technique that sustains control while setting up the armbar
 
-- [[Armbar from Back]] - Related armbar mechanics from back control sharing similar behind-opponent attack angle
+- [[Submissions/Armbar from Back]] - Related armbar mechanics from back control sharing similar behind-opponent attack angle
 
-- [[Back Control]] - Entry position and fallback if crucifix configuration is lost during armbar attempt
+- [[Positions/Back Control]] - Entry position and fallback if crucifix configuration is lost during armbar attempt
 
-- [[Mounted Crucifix]] - Enhanced crucifix variation offering improved armbar leverage through mount pressure
+- [[Positions/Mount/Mounted Crucifix]] - Enhanced crucifix variation offering improved armbar leverage through mount pressure
 
-- [[Arm Recovery from Crucifix]] - Defender's primary escape technique that the attacker must prevent during armbar setup
+- [[Transitions/Arm Recovery from Crucifix]] - Defender's primary escape technique that the attacker must prevent during armbar setup
 
-- [[Armbar Control]] - Related arm isolation control concept used in standard armbar sequences
+- [[Positions/Armbar Control]] - Related arm isolation control concept used in standard armbar sequences
 
 
 </section>

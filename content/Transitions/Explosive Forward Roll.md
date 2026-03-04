@@ -21,7 +21,7 @@ This escape is particularly effective when the opponent has consolidated harness
 
 Strategically, the explosive forward roll serves as an alternative when traditional standing escapes have failed or when the opponent is dragging you backward toward a takedown. Rather than fighting the backward pull, you redirect the energy forward and down, creating separation through inversion. This technique is seen frequently in no-gi competition where grip control is more difficult to maintain, making explosive escapes more viable than systematic grip breaks.
 
-**From Position**: [[Standing Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, the explosive forward roll serves as an alternative when traditio
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Success | [[Open Guard]] | 15% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Success | [[Positions/Open Guard]] | 15% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -188,23 +188,23 @@ The Explosive Forward Roll fits within the broader standing back control escape 
 ## Related Techniques
 
 
-- [[Standing Back Control]] - Starting position - this escape is specifically designed for standing back exposure
+- [[Positions/Back Control/Standing Back Control]] - Starting position - this escape is specifically designed for standing back exposure
 
-- [[Half Guard]] - Primary success outcome - most common guard recovery position after roll
+- [[Positions/Half Guard]] - Primary success outcome - most common guard recovery position after roll
 
-- [[Open Guard]] - Alternative success outcome - achievable with greater hip drive through
+- [[Positions/Open Guard]] - Alternative success outcome - achievable with greater hip drive through
 
-- [[Back Control]] - Failure outcome - where you end if roll is incomplete or countered
+- [[Positions/Back Control]] - Failure outcome - where you end if roll is incomplete or countered
 
-- [[Granby Roll to Guard]] - Related technique - similar inversion mechanics used for guard recovery
+- [[Transitions/Granby Roll to Guard]] - Related technique - similar inversion mechanics used for guard recovery
 
-- [[Controlled Descent]] - Alternative escape - used when rolling is too risky or space is limited
+- [[Transitions/Controlled Descent]] - Alternative escape - used when rolling is too risky or space is limited
 
-- [[Turtle]] - Bail-out position - where to go if roll must be aborted mid-execution
+- [[Positions/Turtle]] - Bail-out position - where to go if roll must be aborted mid-execution
 
-- [[Rear Naked Choke]] - Primary threat - the submission you must defend throughout the escape
+- [[Transitions/Rear Naked Choke]] - Primary threat - the submission you must defend throughout the escape
 
-- [[Mount]] - Counter outcome - opponent may achieve mount if they follow the roll successfully
+- [[Positions/Mount]] - Counter outcome - opponent may achieve mount if they follow the roll successfully
 
 
 </section>

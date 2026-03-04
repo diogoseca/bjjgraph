@@ -21,7 +21,7 @@ The mechanical challenge of this transition lies in maintaining continuous lasso
 
 Strategically, this transition serves as a reset mechanism that keeps the guard system dynamic. By cycling between inverted and upright lasso positions, the bottom player creates a constant threat environment where the opponent cannot settle into a single defensive strategy. The upright lasso guard offers different sweep angles, submission entries, and distance management options compared to the inverted variation, making the combination far more dangerous than either position alone. Top players who become comfortable defending one orientation are immediately confronted with the other, creating the dilemma-based offense that characterizes high-level guard play.
 
-**From Position**: [[Inverted Lasso Guard]] (Bottom)
+**From Position**: [[Positions/Lasso Guard/Inverted Lasso Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition serves as a reset mechanism that keeps the guard 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Lasso Guard]] | 55% |
-| Failure | [[Inverted Lasso Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Lasso Guard]] | 55% |
+| Failure | [[Positions/Lasso Guard/Inverted Lasso Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Inverted Lasso to Lasso Guard transition is a critical link in the modern la
 ## Related Techniques
 
 
-- [[Inverted Lasso Guard]] - Source position - this transition begins from inverted lasso guard bottom
+- [[Positions/Lasso Guard/Inverted Lasso Guard]] - Source position - this transition begins from inverted lasso guard bottom
 
-- [[Lasso Guard]] - Target position - successful transition establishes standard lasso guard
+- [[Positions/Lasso Guard]] - Target position - successful transition establishes standard lasso guard
 
-- [[Spider Guard]] - Adjacent guard system - shares sleeve control mechanics and can be entered from standard lasso
+- [[Positions/Spider Guard]] - Adjacent guard system - shares sleeve control mechanics and can be entered from standard lasso
 
-- [[De La Riva Guard]] - Complementary guard - common alternative if lasso hook is compromised during transition
+- [[Positions/De La Riva Guard]] - Complementary guard - common alternative if lasso hook is compromised during transition
 
-- [[Open Guard]] - Fallback position - counter outcome when lasso control is lost during recovery
+- [[Positions/Open Guard]] - Fallback position - counter outcome when lasso control is lost during recovery
 
-- [[Berimbolo Entry]] - Alternative technique - primary attack from inverted lasso when recovery is not needed
+- [[Transitions/Berimbolo Entry]] - Alternative technique - primary attack from inverted lasso when recovery is not needed
 
-- [[Inverted Guard]] - Related position - shares inverted body mechanics and flexibility requirements
+- [[Positions/Inverted Guard]] - Related position - shares inverted body mechanics and flexibility requirements
 
-- [[Collar Sleeve Guard]] - Entry pathway - often precedes the lasso guard system in guard sequences
+- [[Positions/Collar Sleeve Guard]] - Entry pathway - often precedes the lasso guard system in guard sequences
 
-- [[Sickle Sweep]] - Chain technique - commonly executed immediately after recovering to standard lasso
+- [[Transitions/Sickle Sweep]] - Chain technique - commonly executed immediately after recovering to standard lasso
 
-- [[Inverted Lasso Sweep]] - Alternative from inversion - sweep option when returning to lasso is unnecessary
+- [[Transitions/Inverted Lasso Sweep]] - Alternative from inversion - sweep option when returning to lasso is unnecessary
 
 
 </section>

@@ -146,7 +146,7 @@ description: "Complete guide to escaping kneebar control maintenance in BJJ. Lea
 
 As the defender trapped in bottom kneebar control, your immediate priority is preventing the attacker from consolidating their position to the point where finishing becomes inevitable. The attacker's maintenance cycle creates brief windows of reduced control - during grip adjustments, base repositioning, and pressure burst recovery phases - that represent your best escape opportunities. Understanding the rhythm of their maintenance allows you to time your escape attempts for moments of maximum vulnerability rather than fighting against fully consolidated control. Your defensive strategy combines active resistance to prevent consolidation, patient identification of escape windows, and explosive commitment when those windows appear.
 
-**Opponent's Starting Position**: [[Kneebar Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Kneebar Control]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender trapped in bottom kneebar control, your immediate priority is pr
 ### 1. Explosive hip rotation away from pressure combined with leg curl to extract knee from danger zone
 
 - **When to use**: When attacker adjusts their grip or shifts base, creating a brief window where their hip-to-knee connection loosens and rotational resistance drops
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your knee clears the fulcrum point and you recover to half guard bottom with top practitioner above you, eliminating immediate submission threat
 - **Risk**: Failed rotation with incomplete extraction leaves you in worse position with attacker now aware of your escape direction and pre-loaded to counter
 
 ### 2. Free leg push frame against attacker's hip to create linear distance and disrupt their weight distribution
 
 - **When to use**: When attacker commits weight forward for a submission pressure burst, making them vulnerable to being pushed off-balance in the opposite direction
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Sufficient distance created to fully extract your leg from control and recover to open guard, forcing attacker to re-engage from passing position
 - **Risk**: Attacker pins your pushing leg and now controls both legs, worsening your defensive position significantly
 
 ### 3. Aggressive knee bend with both hands pulling your own knee toward your chest to prevent extension
 
 - **When to use**: When attacker begins extension pressure burst and you cannot rotate or push - pure defensive measure to buy time and force them to abandon the finish attempt
-- **Targets**: [[Kneebar Control]]
+- **Targets**: [[Positions/Kneebar Control]]
 - **If successful**: Attacker cannot achieve hyperextension and must return to maintenance phase, giving you another cycle to identify escape opportunities
 - **Risk**: Extended defensive bending consumes energy and does not improve your position - it only maintains the status quo while you tire
 
 ### 4. Counter-entangle attacker's near leg with your free leg to threaten your own leg attack or create mutual vulnerability
 
 - **When to use**: When attacker's leg positioning exposes their near knee to counter entanglement and you have the flexibility to reach with your free leg
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Mutual leg entanglement forces attacker to release kneebar maintenance to defend their own knee, creating the escape opportunity through position reset
 - **Risk**: If counter-entangle fails, you have committed your free leg and lost your primary pushing and framing tool
 
@@ -217,11 +217,11 @@ As the defender trapped in bottom kneebar control, your immediate priority is pr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Create enough distance through push frames and hip movement to fully extract your trapped leg from the attacker's control, then immediately establish open guard frames to prevent them from re-entering leg control. Timing is critical - push during their grip adjustment or pressure burst recovery phase when resistance to linear distance is momentarily lowest.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Rotate your hips forcefully during a control gap in the attacker's maintenance cycle, extracting your knee from the hyperextension danger zone. Accept that you may end up in bottom half guard rather than a fully neutral position, but this is a significant improvement from kneebar control. Immediately establish knee shield or underhook upon arrival to prevent the attacker from re-entering kneebar from passing.
 

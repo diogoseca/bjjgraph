@@ -180,7 +180,7 @@ description: "Complete guide to executing the arm drag from clinch bottom. Step-
 
 As the attacker executing the arm drag from clinch bottom, your objective is to convert a disadvantageous standing clinch into dominant back control through precise grip manipulation and lateral movement. You are working from an inferior clinch position where your opponent has better grips, head position, or forward pressure, and you need to redirect their offensive energy into an exposed back. The arm drag is your highest-percentage option because it requires no superior strength or wrestling pedigree, only proper timing, grip placement, and footwork. Your success depends on identifying the moment your opponent commits an arm forward, establishing a secure two-on-one grip, and executing the pull-and-step simultaneously before they can retract or square their hips. The entire technique must happen as one fluid motion rather than a series of disconnected steps.
 
-**From Position**: [[Clinch]] (Bottom)
+**From Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ As the attacker executing the arm drag from clinch bottom, your objective is to 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 45% |
-| Failure | [[Clinch]] | 35% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Back Control]] | 45% |
+| Failure | [[Positions/Clinch]] | 35% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -242,10 +242,10 @@ As the attacker executing the arm drag from clinch bottom, your objective is to 
 
 ## Opponent Counters
 
-- **Opponent retracts arm immediately upon feeling the initial grip** (Effectiveness: High) - Your Response: If they retract before you can establish the two-on-one, follow their retreating arm with a snap down or convert to a collar tie on the near side. Their retraction often creates a momentary opening for a single leg entry as their weight shifts backward. → Leads to [[Clinch]]
-- **Opponent squares hips and sprawls backward during the drag attempt** (Effectiveness: Medium) - Your Response: If they sprawl, you lose the angle but maintain grip contact. Convert the failed drag into a front headlock by snapping their head down, or switch to a duck under on the opposite side since their sprawl has lowered their center of gravity and created space under their arm. → Leads to [[Clinch]]
-- **Opponent counters with a takedown as you step laterally, shooting into your exposed hip** (Effectiveness: High) - Your Response: Maintain your grip on their arm and use it as a lever to sprawl and redirect their shot. If they secure a body lock during your lateral movement, immediately pull guard to closed guard or butterfly guard rather than fighting the takedown from a compromised base. → Leads to [[Side Control]]
-- **Opponent circles toward you as you drag, re-squaring their hips before you reach the back** (Effectiveness: Medium) - Your Response: Accelerate your footwork and drive your head deeper to the outside of their body. If they successfully re-square, immediately re-engage in the clinch and look for the next arm drag opportunity or transition to a different entry like a duck under or snap down. → Leads to [[Clinch]]
+- **Opponent retracts arm immediately upon feeling the initial grip** (Effectiveness: High) - Your Response: If they retract before you can establish the two-on-one, follow their retreating arm with a snap down or convert to a collar tie on the near side. Their retraction often creates a momentary opening for a single leg entry as their weight shifts backward. → Leads to [[Positions/Clinch]]
+- **Opponent squares hips and sprawls backward during the drag attempt** (Effectiveness: Medium) - Your Response: If they sprawl, you lose the angle but maintain grip contact. Convert the failed drag into a front headlock by snapping their head down, or switch to a duck under on the opposite side since their sprawl has lowered their center of gravity and created space under their arm. → Leads to [[Positions/Clinch]]
+- **Opponent counters with a takedown as you step laterally, shooting into your exposed hip** (Effectiveness: High) - Your Response: Maintain your grip on their arm and use it as a lever to sprawl and redirect their shot. If they secure a body lock during your lateral movement, immediately pull guard to closed guard or butterfly guard rather than fighting the takedown from a compromised base. → Leads to [[Positions/Side Control]]
+- **Opponent circles toward you as you drag, re-squaring their hips before you reach the back** (Effectiveness: Medium) - Your Response: Accelerate your footwork and drive your head deeper to the outside of their body. If they successfully re-square, immediately re-engage in the clinch and look for the next arm drag opportunity or transition to a different entry like a duck under or snap down. → Leads to [[Positions/Clinch]]
 
 
 </section>

@@ -26,8 +26,8 @@ The mechanical advantage stems from controlling the opponent's hip rotation with
 **Category**: Joint Lock
 **Type**: Straight Ankle Lock
 **Target Area**: Ankle
-**Starting Position**: [[X-Guard]]
-**From Position**: [[X-Guard]] (Bottom)
+**Starting Position**: [[Positions/X-Guard]]
+**From Position**: [[Positions/X-Guard]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -77,9 +77,9 @@ The mechanical advantage stems from controlling the opponent's hip rotation with
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[X-Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
-| Failure | [[Ashi Garami]] | 15% |
+| Failure | [[Positions/X-Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami]] | 15% |
 
 
 </section>
@@ -227,11 +227,11 @@ The mechanical advantage stems from controlling the opponent's hip rotation with
 
 ## From Which Positions?
 
-- [[X-Guard]]
-- [[Single Leg X-Guard]]
-- [[Reverse X-Guard]]
-- [[Ashi Garami]]
-- [[Inside Ashi-Garami]]
+- [[Positions/X-Guard]]
+- [[Positions/X-Guard/Single Leg X-Guard]]
+- [[Positions/X-Guard/Reverse X-Guard]]
+- [[Positions/Ashi Garami]]
+- [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 </section>
@@ -240,11 +240,11 @@ The mechanical advantage stems from controlling the opponent's hip rotation with
 
 ## Related Submissions
 
-- [[Achilles Lock]]
-- [[Aoki Lock]]
-- [[Aoki Lock Finish]]
-- [[Calf Slicer]]
-- [[Calf Slicer from 50-50]]
+- [[Submissions/Achilles Lock]]
+- [[Positions/Aoki Lock]]
+- [[Transitions/Aoki Lock Finish]]
+- [[Transitions/Calf Slicer]]
+- [[Submissions/Calf Slicer from 50-50]]
 
 
 </section>
@@ -253,13 +253,13 @@ The mechanical advantage stems from controlling the opponent's hip rotation with
 
 ## Additional Related Content
 
-- [[X-Guard]] - Primary starting position providing the leg control foundation for this submission
-- [[Single Leg X-Guard]] - Alternative guard position offering simplified ankle lock entries
-- [[Ashi Garami]] - Leg entanglement system providing follow-up attacks when ankle lock is defended
-- [[Straight Ankle Lock Control]] - Control position when ankle lock is partially secured but not yet finished
-- [[Achilles Lock]] - Related ankle lock submission sharing Achilles tendon attack mechanics
-- [[Reverse X-Guard]] - Alternative X-Guard variation with inverted ankle lock entry angles
-- [[Inside Ashi-Garami]] - Advanced leg entanglement reached when transitioning from failed ankle lock attempt
+- [[Positions/X-Guard]] - Primary starting position providing the leg control foundation for this submission
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative guard position offering simplified ankle lock entries
+- [[Positions/Ashi Garami]] - Leg entanglement system providing follow-up attacks when ankle lock is defended
+- [[Positions/Straight Ankle Lock Control]] - Control position when ankle lock is partially secured but not yet finished
+- [[Submissions/Achilles Lock]] - Related ankle lock submission sharing Achilles tendon attack mechanics
+- [[Positions/X-Guard/Reverse X-Guard]] - Alternative X-Guard variation with inverted ankle lock entry angles
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Advanced leg entanglement reached when transitioning from failed ankle lock attempt
 
 
 </section>

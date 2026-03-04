@@ -21,7 +21,7 @@ The defense must be executed with precise timing and technical understanding, as
 
 Success requires both preventative awareness to avoid deep guillotine positions and reactive technical skills to escape when caught. The technique serves as a fundamental component of any complete defensive system, particularly relevant in no-gi grappling where guillotine attacks are statistically among the most successful submissions. A properly executed guillotine defense does not merely survive the attack but transitions directly into dominant top position, converting a defensive crisis into an offensive opportunity.
 
-**From Position**: [[Front Headlock]] (Bottom)
+**From Position**: [[Positions/Front Headlock]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Success requires both preventative awareness to avoid deep guillotine positions 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Front Headlock]] | 30% |
-| Counter | [[Guillotine Control]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Front Headlock]] | 30% |
+| Counter | [[Positions/Guillotine Control]] | 15% |
 
 
 </section>
@@ -201,31 +201,31 @@ Guillotine defense serves as a critical bridge technique connecting multiple pos
 ## Related Techniques
 
 
-- [[Guillotine Choke]] - Primary submission being defended - understanding offensive mechanics improves defensive success
+- [[Transitions/Guillotine Choke]] - Primary submission being defended - understanding offensive mechanics improves defensive success
 
-- [[Front Headlock]] - Starting position where guillotine threats commonly emerge
+- [[Positions/Front Headlock]] - Starting position where guillotine threats commonly emerge
 
-- [[Von Flue Choke]] - Counter-submission opportunity when opponent holds guillotine from inferior position after you pass
+- [[Submissions/Von Flue Choke]] - Counter-submission opportunity when opponent holds guillotine from inferior position after you pass
 
-- [[Guillotine Counter]] - Alternative defensive approach focusing on positional counters rather than direct escape
+- [[Transitions/Guillotine Counter]] - Alternative defensive approach focusing on positional counters rather than direct escape
 
-- [[High Elbow Guillotine]] - High-percentage guillotine variation requiring modified defensive approach with elbow fulcrum control
+- [[Submissions/High Elbow Guillotine]] - High-percentage guillotine variation requiring modified defensive approach with elbow fulcrum control
 
-- [[Arm in Guillotine]] - Arm-in variation with different defensive requirements including opposite circling direction
+- [[Submissions/Arm in Guillotine]] - Arm-in variation with different defensive requirements including opposite circling direction
 
-- [[Posture Recovery]] - Essential skill for maintaining defensive structure and spine alignment against guillotines
+- [[Transitions/Posture Recovery]] - Essential skill for maintaining defensive structure and spine alignment against guillotines
 
-- [[Frame and Shrimp to Guard]] - Foundational movement pattern used within guillotine defense for creating space
+- [[Transitions/Frame and Shrimp to Guard]] - Foundational movement pattern used within guillotine defense for creating space
 
-- [[Darce Choke]] - Related front headlock submission with similar defensive principles around arm-in neck control
+- [[Transitions/Darce Choke]] - Related front headlock submission with similar defensive principles around arm-in neck control
 
-- [[Anaconda Choke]] - Related front headlock submission with overlapping defensive concepts for arm-in chokes
+- [[Transitions/Anaconda Choke]] - Related front headlock submission with overlapping defensive concepts for arm-in chokes
 
-- [[Guillotine Setup]] - Offensive setup transition - understanding how guillotines are initiated improves defensive recognition
+- [[Transitions/Guillotine Setup]] - Offensive setup transition - understanding how guillotines are initiated improves defensive recognition
 
-- [[Side Control]] - Primary successful outcome position after completing guillotine defense
+- [[Positions/Side Control]] - Primary successful outcome position after completing guillotine defense
 
-- [[Chin Strap Guillotine]] - Guillotine variation with specific grip requiring adapted defensive hand fighting
+- [[Submissions/Chin Strap Guillotine]] - Guillotine variation with specific grip requiring adapted defensive hand fighting
 
 
 </section>

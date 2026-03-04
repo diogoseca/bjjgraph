@@ -180,7 +180,7 @@ description: "Execute the ankle lock counter with expert technique. Step-by-step
 
 As the person caught in straight ankle lock control, executing this counter requires composure under submission threat, structural defense through boot positioning, and decisive forward pressure that converts defense into offense. Your opponent has committed both hands and legs to controlling your ankle, creating a window where their guard structure and base are compromised. The counter exploits this commitment by first neutralizing the submission through boot defense and systematic grip fighting, then immediately converting the defensive position into an aggressive guard pass that lands you in side control. The critical insight is that the ankle lock attacker's mechanics work against them once the submission is nullified. Their arched posture and extended legs create openings for forward stacking pressure that would never exist from standard guard passing positions. The speed of your transition from phase one defense to phase two offense determines whether you achieve side control or allow the attacker to recompose into a more dangerous leg entanglement.
 
-**From Position**: [[Straight Ankle Lock Control]] (Top)
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the person caught in straight ankle lock control, executing this counter requ
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Straight Ankle Lock Control]] | 30% |
-| Counter | [[Inside Ashi-Garami]] | 15% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Straight Ankle Lock Control]] | 30% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 15% |
 | Counter | [[game-over]] | 15% |
 
 
@@ -245,9 +245,9 @@ As the person caught in straight ankle lock control, executing this counter requ
 ## Opponent Counters
 
 - **Attacker deepens grip and commits to finishing the ankle lock before boot defense is fully established** (Effectiveness: High) - Your Response: Prioritize boot defense completion over grip fighting. If toes are not yet tucked, abandon two-on-one grip work and focus entirely on foot positioning. A secure boot defense nullifies even deep grips, while grip fighting without boot defense leaves you vulnerable to the finish. → Leads to [[game-over]]
-- **Attacker transitions to inside ashi-garami by threading their leg through as you drive forward, using your momentum to enter a more dominant entanglement** (Effectiveness: High) - Your Response: Monitor the attacker's inside leg position throughout your forward drive. If you feel them threading a leg behind your knee, immediately redirect your hip angle by stepping your free leg laterally rather than straight forward. Deny the inside leg position before it completes. → Leads to [[Inside Ashi-Garami]]
-- **Attacker re-guards by inserting hooks or framing with legs to prevent the pass after grips are partially stripped** (Effectiveness: Medium) - Your Response: Maintain constant forward pressure without pausing after grip stripping. The transition from grip break to guard pass must be seamless. If they re-guard, treat it as a standard guard passing scenario from combat base rather than retreating to re-attempt the counter. → Leads to [[Straight Ankle Lock Control]]
-- **Attacker switches to outside ashi-garami or kneebar attack by rotating their hip position as you begin stacking forward** (Effectiveness: Medium) - Your Response: Keep your knee bent and pulled tight throughout the forward drive to deny kneebar angles. If the attacker begins rotating toward an outside position, accelerate your pass rather than pausing to re-defend, as completing the pass eliminates all leg attack threats simultaneously. → Leads to [[Straight Ankle Lock Control]]
+- **Attacker transitions to inside ashi-garami by threading their leg through as you drive forward, using your momentum to enter a more dominant entanglement** (Effectiveness: High) - Your Response: Monitor the attacker's inside leg position throughout your forward drive. If you feel them threading a leg behind your knee, immediately redirect your hip angle by stepping your free leg laterally rather than straight forward. Deny the inside leg position before it completes. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Attacker re-guards by inserting hooks or framing with legs to prevent the pass after grips are partially stripped** (Effectiveness: Medium) - Your Response: Maintain constant forward pressure without pausing after grip stripping. The transition from grip break to guard pass must be seamless. If they re-guard, treat it as a standard guard passing scenario from combat base rather than retreating to re-attempt the counter. → Leads to [[Positions/Straight Ankle Lock Control]]
+- **Attacker switches to outside ashi-garami or kneebar attack by rotating their hip position as you begin stacking forward** (Effectiveness: Medium) - Your Response: Keep your knee bent and pulled tight throughout the forward drive to deny kneebar angles. If the attacker begins rotating toward an outside position, accelerate your pass rather than pausing to re-defend, as completing the pass eliminates all leg attack threats simultaneously. → Leads to [[Positions/Straight Ankle Lock Control]]
 
 
 </section>

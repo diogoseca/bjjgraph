@@ -180,7 +180,7 @@ description: "Learn to systematically break the Z-Lock lockdown from half guard 
 
 As the top player trapped in Z-Lock Half Guard, breaking the lockdown configuration is your immediate tactical priority before attempting any guard pass. The Z-Lock's dual-threat system of lockdown hook and butterfly element creates sweep opportunities from multiple angles while restricting your passing mobility. The break requires establishing dominant upper body control first, then systematically dismantling the leg entanglement through pressure, alignment, and progressive hook stripping. Rushing the extraction without proper setup is the most common error, as the bottom player is specifically waiting for weight shifts to initiate sweep sequences that punish careless break attempts.
 
-**From Position**: [[Z-Lock Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the top player trapped in Z-Lock Half Guard, breaking the lockdown configurat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Z-Lock Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Z-Lock Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the top player trapped in Z-Lock Half Guard, breaking the lockdown configurat
 
 ## Opponent Counters
 
-- **Bottom player immediately re-grips lockdown hooks during the extraction attempt by pulling heels together and re-securing the figure-four** (Effectiveness: High) - Your Response: Increase hip pressure to compress the space before re-attempting extraction and address both hooks simultaneously rather than sequentially to prevent the re-grip window → Leads to [[Z-Lock Half Guard]]
-- **Bottom player uses the weight shift during extraction to initiate an old school sweep by threading their arm under your far leg** (Effectiveness: Medium) - Your Response: Maintain heavy shoulder pressure and widen base with free leg to resist the sweep angle, ensuring your weight stays centered rather than shifting during the extraction → Leads to [[Half Guard]]
-- **Bottom player activates butterfly hook to elevate and sweep during the extraction sequence when your weight shifts forward** (Effectiveness: High) - Your Response: Prioritize neutralizing the butterfly hook completely before addressing the lockdown, as the elevation creates the most dangerous counter-sweep opportunities → Leads to [[Half Guard]]
-- **Bottom player transitions to deep half guard during the break by ducking underneath as the pressure shifts create momentary space** (Effectiveness: Medium) - Your Response: Drive hips forward and sprawl immediately to prevent the underduck motion, maintaining crossface to block the head movement essential for deep half entry → Leads to [[Z-Lock Half Guard]]
+- **Bottom player immediately re-grips lockdown hooks during the extraction attempt by pulling heels together and re-securing the figure-four** (Effectiveness: High) - Your Response: Increase hip pressure to compress the space before re-attempting extraction and address both hooks simultaneously rather than sequentially to prevent the re-grip window → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
+- **Bottom player uses the weight shift during extraction to initiate an old school sweep by threading their arm under your far leg** (Effectiveness: Medium) - Your Response: Maintain heavy shoulder pressure and widen base with free leg to resist the sweep angle, ensuring your weight stays centered rather than shifting during the extraction → Leads to [[Positions/Half Guard]]
+- **Bottom player activates butterfly hook to elevate and sweep during the extraction sequence when your weight shifts forward** (Effectiveness: High) - Your Response: Prioritize neutralizing the butterfly hook completely before addressing the lockdown, as the elevation creates the most dangerous counter-sweep opportunities → Leads to [[Positions/Half Guard]]
+- **Bottom player transitions to deep half guard during the break by ducking underneath as the pressure shifts create momentary space** (Effectiveness: Medium) - Your Response: Drive hips forward and sprawl immediately to prevent the underduck motion, maintaining crossface to block the head movement essential for deep half entry → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
 
 
 </section>

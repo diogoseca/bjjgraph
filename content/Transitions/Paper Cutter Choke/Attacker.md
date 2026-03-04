@@ -178,7 +178,7 @@ The mechanics create a unilateral blood restriction by driving the rigid edge of
 
 Strategically, the Paper Cutter serves as an excellent complement to arm attacks from Kesa-Gatame. When opponents defend americana and armbar threats by keeping their elbows tight and chin tucked, they often inadvertently create the collar access needed for this choke. This creates a classic submission dilemma that characterizes effective top-side control offense.
 
-**From Position**: [[Kuzure Kesa-Gatame]] (Top)
+**From Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
 
 </section>
 
@@ -230,8 +230,8 @@ Strategically, the Paper Cutter serves as an excellent complement to arm attacks
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Kuzure Kesa-Gatame]] | 30% |
-| Counter | [[Half Guard]] | 12% |
+| Failure | [[Positions/Side Control/Kuzure Kesa-Gatame]] | 30% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, the Paper Cutter serves as an excellent complement to arm attacks
 
 ## Opponent Counters
 
-- **Opponent turns their chin toward you, tucking it into your armpit to block carotid access** (Effectiveness: High) - Your Response: Switch to americana or armbar attack on the now-exposed near arm, or transition to breadcutter choke which attacks from the near side → Leads to [[Kuzure Kesa-Gatame]]
-- **Opponent frames against your shoulder with their far arm to create space and prevent head pinning** (Effectiveness: Medium) - Your Response: Use your free hand to strip their grip and trap the arm, then return to choke or convert to armbar on the extended limb → Leads to [[Kuzure Kesa-Gatame]]
-- **Opponent bridges and hip escapes while you are focused on grip insertion, creating angle for guard recovery** (Effectiveness: Medium) - Your Response: Maintain heavy hip pressure throughout and be willing to abandon the choke attempt to preserve position; re-consolidate Kesa-Gatame before attempting again → Leads to [[Half Guard]]
-- **Opponent grabs your choking wrist with both hands to prevent the elbow from dropping into finishing position** (Effectiveness: Low) - Your Response: Their arm commitment creates kimura or armbar opportunities; use your positional advantage to attack the extended arms while they focus on your wrist → Leads to [[Kuzure Kesa-Gatame]]
+- **Opponent turns their chin toward you, tucking it into your armpit to block carotid access** (Effectiveness: High) - Your Response: Switch to americana or armbar attack on the now-exposed near arm, or transition to breadcutter choke which attacks from the near side → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- **Opponent frames against your shoulder with their far arm to create space and prevent head pinning** (Effectiveness: Medium) - Your Response: Use your free hand to strip their grip and trap the arm, then return to choke or convert to armbar on the extended limb → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
+- **Opponent bridges and hip escapes while you are focused on grip insertion, creating angle for guard recovery** (Effectiveness: Medium) - Your Response: Maintain heavy hip pressure throughout and be willing to abandon the choke attempt to preserve position; re-consolidate Kesa-Gatame before attempting again → Leads to [[Positions/Half Guard]]
+- **Opponent grabs your choking wrist with both hands to prevent the elbow from dropping into finishing position** (Effectiveness: Low) - Your Response: Their arm commitment creates kimura or armbar opportunities; use your positional advantage to attack the extended arms while they focus on your wrist → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
 
 
 </section>

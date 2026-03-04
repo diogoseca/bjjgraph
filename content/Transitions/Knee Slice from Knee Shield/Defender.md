@@ -154,7 +154,7 @@ description: "Complete defensive guide for stopping the knee slice pass from kne
 
 Defending the knee slice from knee shield requires early recognition and proactive intervention before the passer establishes crossface control and pins your shield leg ankle. As the defender, your primary objective is maintaining the structural integrity of your knee shield while threatening sweeps that keep the passer cautious and unable to commit fully to the pass. The critical defensive window occurs between the passer's crossface establishment and their ankle grip—if you can disrupt either of these controls, the entire passing sequence stalls. When the knee slice is initiated, you must combine hip escape to maintain distance, frame maintenance to prevent chest-to-chest connection, and grip fighting to strip their controlling grips. Your secondary objective is capitalizing on the passer's forward commitment to execute counter sweeps, particularly the underhook sweep and old school sweep that exploit their weight shift.
 
-**Opponent's Starting Position**: [[Knee Shield Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the knee slice from knee shield requires early recognition and proacti
 ### 1. Frame on passer's bicep and hip escape to maintain distance and re-angle shield
 
 - **When to use**: As soon as you feel the crossface pressure increase and before the passer controls your ankle. This is the primary early-stage defense.
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: Maintains distance and knee shield integrity, forcing the passer to restart their passing sequence from the beginning
 - **Risk**: If the frame is stripped or the passer swims past it, you lose the primary defensive structure and may be flattened
 
 ### 2. Strip ankle grip and re-insert knee shield to full extension
 
 - **When to use**: When the passer has gripped your ankle but has not yet collapsed the shield. Use your free hand to peel their grip while pushing outward with the shield.
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: Removes the mechanical key to the pass, restoring your knee shield to full defensive effectiveness
 - **Risk**: Fighting the ankle grip may leave your upper body exposed to increased crossface pressure or allow the passer to switch to a different pass
 
 ### 3. Underhook sweep as passer commits weight forward for the knee drive
 
 - **When to use**: When the passer shifts their weight forward over the passing knee, creating the forward commitment needed for the slice. This is the highest-percentage counter window.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Sweeps the passer using their own forward momentum, reversing the position to half guard top or side control top
 - **Risk**: If mistimed, the underhook attempt exposes your shoulder and the passer can capitalize with a whizzer and accelerated pass completion
 
 ### 4. Transition to deep half guard by diving underneath the passer's weight
 
 - **When to use**: When the knee shield is partially collapsed and the passer is committed forward. Rather than fighting the compromised shield, use their forward pressure against them.
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: Establishes deep half guard which provides superior sweeping angles and neutralizes the knee slice entirely by changing the positional dynamic
 - **Risk**: If the passer recognizes the deep half entry, they can sprawl and establish a smash pass position instead
 
@@ -225,11 +225,11 @@ Defending the knee slice from knee shield requires early recognition and proacti
 
 ## Best-Case Outcomes for Defender
 
-### → [[Knee Shield Half Guard]]
+### → [[Positions/Half Guard/Knee Shield Half Guard]]
 
 Maintain shield integrity by preventing the crossface and ankle control simultaneously. Frame on the passer's bicep with your near hand, strip any ankle grip attempts with your far hand, and use constant hip escape to maintain distance. Keep your shield shin pressed firmly across their torso with active outward pressure.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your underhook sweep to coincide with the passer's forward weight commitment during the knee drive. As they shift weight over their passing knee, swim your near arm under their armpit for a deep underhook, bridge into them using the momentum of their own forward drive, and roll them over your body to reverse the position. The passer's committed posture makes them vulnerable to this reversal.
 

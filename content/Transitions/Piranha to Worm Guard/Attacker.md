@@ -186,7 +186,7 @@ description: "Master the Piranha to Worm Guard transition as the attacking guard
 
 As the attacker executing the Piranha to Worm Guard transition, your objective is to convert the Piranha Guard's lapel-through-legs configuration into the Worm Guard's leg-wrapping control system. This transition requires you to re-route the lapel material from passing through your own legs to wrapping around the opponent's lead leg, establishing the characteristic worm wrap that immobilizes their base and opens superior sweeping and back-taking opportunities. The transition demands precise grip management because you must briefly reduce tension on the Piranha configuration while simultaneously establishing the new worm wrap path. Success depends on timing the transition during moments when the opponent is defending Piranha-specific threats rather than actively grip-fighting, and on using your DLR hook as a structural anchor that prevents disengagement during the re-routing phase. The reward for mastering this transition is the ability to flow between two of modern BJJ's most powerful lapel guard systems, maintaining constant offensive pressure without ever releasing fundamental lapel control.
 
-**From Position**: [[Piranha Guard]] (Bottom)
+**From Position**: [[Positions/Piranha Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the attacker executing the Piranha to Worm Guard transition, your objective i
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Worm Guard]] | 55% |
-| Failure | [[Piranha Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Worm Guard]] | 55% |
+| Failure | [[Positions/Piranha Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the attacker executing the Piranha to Worm Guard transition, your objective i
 
 ## Opponent Counters
 
-- **Opponent strips lapel during re-routing phase by pulling collar material back while your grip is transitioning between hands** (Effectiveness: High) - Your Response: If you feel the lapel slipping, immediately abandon the transition and re-consolidate Piranha Guard grips with both hands. Do not chase a half-completed worm wrap—return to full Piranha tension and wait for a better opportunity. → Leads to [[Open Guard]]
-- **Opponent steps lead leg backward to create distance and prevent the lapel from reaching around their thigh during the feed** (Effectiveness: Medium) - Your Response: Follow their retreat with hip scooting to maintain proximity while pulling the lapel toward your body. Your DLR hook should prevent full disengagement. If they create too much distance, transition to collar sleeve or standard De La Riva rather than forcing the worm entry. → Leads to [[Piranha Guard]]
-- **Opponent drives forward with aggressive pressure pass during the transition window when your grip configuration is changing** (Effectiveness: Medium) - Your Response: Use your free leg to frame on their hip and redirect their forward momentum to the side. The pressure actually helps feed the lapel under their leg if you angle correctly. Convert their forward drive into sweep momentum using the partially-completed worm wrap. → Leads to [[Open Guard]]
-- **Opponent circles their lead leg outward to prevent the DLR hook from setting and the lapel from wrapping around** (Effectiveness: Low) - Your Response: Switch your targeting to their other leg and mirror the transition to the opposite side. Their circling creates an angle that exposes the far leg. Alternatively, use the circling momentum to enter a collar drag or berimbolo from Piranha Guard. → Leads to [[Piranha Guard]]
+- **Opponent strips lapel during re-routing phase by pulling collar material back while your grip is transitioning between hands** (Effectiveness: High) - Your Response: If you feel the lapel slipping, immediately abandon the transition and re-consolidate Piranha Guard grips with both hands. Do not chase a half-completed worm wrap—return to full Piranha tension and wait for a better opportunity. → Leads to [[Positions/Open Guard]]
+- **Opponent steps lead leg backward to create distance and prevent the lapel from reaching around their thigh during the feed** (Effectiveness: Medium) - Your Response: Follow their retreat with hip scooting to maintain proximity while pulling the lapel toward your body. Your DLR hook should prevent full disengagement. If they create too much distance, transition to collar sleeve or standard De La Riva rather than forcing the worm entry. → Leads to [[Positions/Piranha Guard]]
+- **Opponent drives forward with aggressive pressure pass during the transition window when your grip configuration is changing** (Effectiveness: Medium) - Your Response: Use your free leg to frame on their hip and redirect their forward momentum to the side. The pressure actually helps feed the lapel under their leg if you angle correctly. Convert their forward drive into sweep momentum using the partially-completed worm wrap. → Leads to [[Positions/Open Guard]]
+- **Opponent circles their lead leg outward to prevent the DLR hook from setting and the lapel from wrapping around** (Effectiveness: Low) - Your Response: Switch your targeting to their other leg and mirror the transition to the opposite side. Their circling creates an angle that exposes the far leg. Alternatively, use the circling momentum to enter a collar drag or berimbolo from Piranha Guard. → Leads to [[Positions/Piranha Guard]]
 
 
 </section>

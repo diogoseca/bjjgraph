@@ -154,7 +154,7 @@ description: "Complete guide to defending the Z-Guard Pass from bottom position.
 
 The Z-Guard Pass defender is the bottom player who must maintain the elevated knee shield structure against systematic pressure while simultaneously threatening sweeps and transitions that punish the top player's passing attempts. Effective defense from this position is not passive resistance but rather an active system of frame maintenance, grip fighting, and counter-attacking that forces the passer into a dilemma: commit to the pass and risk being swept, or maintain conservative base and fail to advance. The defender's primary weapons are the underhook for sweep control, the knee shield for distance management, and hip mobility for angle creation that disrupts the passer's alignment. Understanding when to maintain the shield versus when to abandon it for transitions to deep half, butterfly, or back takes is the hallmark of an elite Z-Guard player.
 
-**Opponent's Starting Position**: [[Z-Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Z-Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ The Z-Guard Pass defender is the bottom player who must maintain the elevated kn
 ### 1. Extend knee shield forcefully and hip escape to re-establish distance and reset guard structure
 
 - **When to use**: Early in the pass attempt when the passer has begun applying pressure but has not yet established a dominant grip on your knee shield leg or secured full crossface control
-- **Targets**: [[Z-Guard]]
+- **Targets**: [[Positions/Z-Guard]]
 - **If successful**: Passer is pushed back to neutral Z-Guard top position, forced to restart the passing sequence from the beginning with their grip progress reset
 - **Risk**: If the passer has already gripped your knee, the extension fails and you waste energy fighting against their grip control, leaving you tired and in a worse defensive position
 
 ### 2. Secure deep underhook on the far side and initiate old school sweep or underhook sweep
 
 - **When to use**: When the passer commits weight forward into the knee shield and their far arm is not controlling your underhook, creating an opening to swim your arm underneath their armpit
-- **Targets**: [[Z-Guard]]
+- **Targets**: [[Positions/Z-Guard]]
 - **If successful**: Sweep completes and you come to top position, reversing the positional hierarchy and potentially ending up in side control top or half guard top
 - **Risk**: If the passer has strong crossface, the underhook entry is blocked and you may expose your back if you overcommit to the reaching motion
 
 ### 3. Abandon knee shield and dive into deep half guard entry as the shield begins collapsing
 
 - **When to use**: When the knee shield is partially collapsed and you cannot re-extend it against the passer's control, but they have not yet initiated the knee slide through the gap
-- **Targets**: [[Z-Guard]]
+- **Targets**: [[Positions/Z-Guard]]
 - **If successful**: You transition to deep half guard where you have new sweep opportunities and the passer must restart their passing approach from a different guard position
 - **Risk**: If the passer recognizes the deep half entry and sprawls or backsteps, you may end up flattened underneath them without the knee shield frame, in a worse position than before
 
 ### 4. Use knee shield bump combined with underhook to off-balance and execute timing-based sweep
 
 - **When to use**: When the passer shifts weight forward aggressively or commits to the knee slide, creating a moment of narrowed base and forward momentum that can be redirected
-- **Targets**: [[Z-Guard]]
+- **Targets**: [[Positions/Z-Guard]]
 - **If successful**: The passer is toppled over using their own forward momentum combined with your knee extension and underhook lift, resulting in a clean sweep reversal
 - **Risk**: If the passer has wide base and posts effectively, the sweep attempt fails and you may lose your knee shield position during the attempt
 
@@ -225,11 +225,11 @@ The Z-Guard Pass defender is the bottom player who must maintain the elevated kn
 
 ## Best-Case Outcomes for Defender
 
-### → [[Z-Guard]]
+### → [[Positions/Z-Guard]]
 
 Maintain active knee shield tension and win the grip fighting battle to prevent the passer from establishing the crossface and knee control needed to collapse the frame. Use hip escapes to continuously reset angles and deny the passer stable alignment for their pressure pass.
 
-### → [[Z-Guard]]
+### → [[Positions/Z-Guard]]
 
 Time a sweep during the passer's weight commitment, either as they drive into the knee shield or as they initiate the knee slide. Secure the underhook, use the knee shield extension to generate momentum, and redirect their forward pressure into a sweep reversal that puts you on top.
 

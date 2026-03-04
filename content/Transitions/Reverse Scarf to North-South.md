@@ -21,7 +21,7 @@ The transition serves multiple strategic purposes within the top-game control hi
 
 The critical challenge in this transition lies in maintaining constant pressure throughout the rotation. Any momentary lightening of weight creates an escape window that experienced bottom players will exploit through bridging, hip escapes, or knee insertion to recover half guard. Success requires smooth weight transfer where the chest acts as a pivot point, continuous arm control that prevents defensive framing during the vulnerable rotational phase, and the ability to read the opponent's defensive reactions to determine whether to complete the transition or abort and maintain reverse scarf hold control.
 
-**From Position**: [[Reverse Scarf Hold]] (Top)
+**From Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The critical challenge in this transition lies in maintaining constant pressure 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[North-South]] | 55% |
-| Failure | [[Reverse Scarf Hold]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/North-South]] | 55% |
+| Failure | [[Positions/Side Control/Reverse Scarf Hold]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Reverse Scarf to North-South transition occupies a critical junction in the 
 ## Related Techniques
 
 
-- [[Reverse Scarf Hold]] - Starting position - reverse orientation pin from which the rotation initiates
+- [[Positions/Side Control/Reverse Scarf Hold]] - Starting position - reverse orientation pin from which the rotation initiates
 
-- [[North-South]] - Target position - perpendicular chest-to-chest pin achieved upon successful completion
+- [[Positions/North-South]] - Target position - perpendicular chest-to-chest pin achieved upon successful completion
 
-- [[Half Guard]] - Counter outcome - bottom player recovers guard during failed transition attempt
+- [[Positions/Half Guard]] - Counter outcome - bottom player recovers guard during failed transition attempt
 
-- [[Kesa Gatame]] - Related scarf hold variant with analogous transition mechanics to north-south
+- [[Positions/Side Control/Kesa Gatame]] - Related scarf hold variant with analogous transition mechanics to north-south
 
-- [[Modified Scarf Hold]] - Alternative scarf hold position with different rotation angles for similar transitions
+- [[Positions/Side Control/Modified Scarf Hold]] - Alternative scarf hold position with different rotation angles for similar transitions
 
-- [[Reverse Kesa-Gatame]] - Judo terminology variant of the starting position with identical mechanics
+- [[Positions/Side Control/Reverse Kesa-Gatame]] - Judo terminology variant of the starting position with identical mechanics
 
-- [[Escape Reverse Scarf Hold]] - Primary defensive transition the bottom player attempts during the rotation
+- [[Transitions/Escape Reverse Scarf Hold]] - Primary defensive transition the bottom player attempts during the rotation
 
-- [[Bridge Escape from Reverse Scarf Hold]] - Bridging defense that creates the counter opportunity during rotation
+- [[Transitions/Bridge Escape from Reverse Scarf Hold]] - Bridging defense that creates the counter opportunity during rotation
 
-- [[Frame from Reverse Scarf Hold]] - Framing defense that blocks the rotation initiation
+- [[Transitions/Frame from Reverse Scarf Hold]] - Framing defense that blocks the rotation initiation
 
-- [[Reverse Scarf to Side Control]] - Alternative advancement from the same starting position
+- [[Transitions/Reverse Scarf to Side Control]] - Alternative advancement from the same starting position
 
-- [[North-South Choke]] - Primary submission follow-up available after completing the transition
+- [[Transitions/North-South Choke]] - Primary submission follow-up available after completing the transition
 
 
 </section>

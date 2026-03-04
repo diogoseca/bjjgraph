@@ -21,7 +21,7 @@ The transition requires precise timing and hip positioning. The bottom player mu
 
 Strategically, this transition serves as the bridge between SLX's leg-lock-oriented game and X-Guard's sweep-dominant platform. While SLX offers superior access to ashi garami entries and direct heel hook threats, X-Guard provides higher-percentage sweeps with greater directional control and more reliable paths to top position. Understanding when to upgrade to X-Guard versus when to attack directly from SLX is a critical decision point that separates intermediate from advanced guard players. The transition also functions as a forcing mechanism: threatening the X-Guard upgrade compels the top player to react defensively, often opening the very SLX attacks they were trying to prevent.
 
-**From Position**: [[Single Leg X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition serves as the bridge between SLX's leg-lock-orien
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[X-Guard]] | 55% |
-| Failure | [[Single Leg X-Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/X-Guard]] | 55% |
+| Failure | [[Positions/X-Guard/Single Leg X-Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The SLX to X-Guard transition occupies a critical junction in the modern guard h
 ## Related Techniques
 
 
-- [[Single Leg X-Guard]] - Source position - bottom player begins in SLX before attempting the transition to full X-Guard
+- [[Positions/X-Guard/Single Leg X-Guard]] - Source position - bottom player begins in SLX before attempting the transition to full X-Guard
 
-- [[X-Guard]] - Target position - successful transition establishes full X-Guard with bilateral leg control
+- [[Positions/X-Guard]] - Target position - successful transition establishes full X-Guard with bilateral leg control
 
-- [[Open Guard]] - Counter outcome position - opponent may strip hooks and reduce bottom player to basic open guard
+- [[Positions/Open Guard]] - Counter outcome position - opponent may strip hooks and reduce bottom player to basic open guard
 
-- [[SLX to Ashi Garami]] - Alternative transition from the same starting position offering leg lock entries instead of sweep upgrades
+- [[Transitions/SLX to Ashi Garami]] - Alternative transition from the same starting position offering leg lock entries instead of sweep upgrades
 
-- [[Backstep from Single Leg X]] - Primary defensive counter the top player uses to escape during the threading attempt
+- [[Transitions/Backstep from Single Leg X]] - Primary defensive counter the top player uses to escape during the threading attempt
 
-- [[X-Guard Sweep]] - Primary follow-up attack after successfully establishing X-Guard through this transition
+- [[Transitions/X-Guard Sweep]] - Primary follow-up attack after successfully establishing X-Guard through this transition
 
-- [[Inside Ashi Entry]] - Alternative transition from SLX that targets leg entanglement rather than positional upgrade
+- [[Transitions/Inside Ashi Entry]] - Alternative transition from SLX that targets leg entanglement rather than positional upgrade
 
-- [[Butterfly Guard]] - Related guard system sharing similar sweeping mechanics and serving as fallback if both hooks are lost
+- [[Positions/Butterfly Guard]] - Related guard system sharing similar sweeping mechanics and serving as fallback if both hooks are lost
 
-- [[De La Riva Guard]] - Common entry path into SLX that precedes this transition in longer guard sequences
+- [[Positions/De La Riva Guard]] - Common entry path into SLX that precedes this transition in longer guard sequences
 
-- [[Ashi Garami]] - Related leg entanglement position accessible when the X-Guard transition is redirected toward leg attacks
+- [[Positions/Ashi Garami]] - Related leg entanglement position accessible when the X-Guard transition is redirected toward leg attacks
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Learn to execute the Double Sleeve Sweep from bottom guard. Step-b
 
 Executing the Double Sleeve Sweep requires mastery of the push-pull dynamic that bilateral sleeve control uniquely enables. The attacker uses both sleeve grips to simultaneously prevent the opponent from posting and to direct the force of the sweep, while feet on the hips provide the pushing power that generates rotational torque. The technique rewards practitioners who develop sensitivity to weight distribution, as the optimal sweep moment occurs when the opponent's center of gravity shifts past their base. At higher levels, the sweep becomes the first link in a chain system where each defensive response opens a different sweep variant, creating an unsolvable positional dilemma for the top player.
 
-**From Position**: [[Double Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Double Sleeve Sweep requires mastery of the push-pull dynamic that
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Double Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Double Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Double Sleeve Sweep requires mastery of the push-pull dynamic that
 
 ## Opponent Counters
 
-- **Opponent posts free hand wide on the sweep side to block the directional fall** (Effectiveness: High) - Your Response: Switch sweep direction immediately to attack the now-unprotected opposite side, or transition to overhead sweep variant using both feet on hips → Leads to [[Double Sleeve Guard]]
-- **Opponent drives forward aggressively to flatten your guard structure** (Effectiveness: Medium) - Your Response: Accept their forward momentum and redirect into the overhead sweep by extending both legs upward while pulling sleeves past your head → Leads to [[Double Sleeve Guard]]
-- **Opponent pulls arms back forcefully to strip sleeve grips** (Effectiveness: High) - Your Response: Follow their backward pull by sitting up toward technical standup, or re-grip immediately before they reset posture and establish their own passing grips → Leads to [[Open Guard]]
-- **Opponent widens base and drops weight low to prevent any off-balancing** (Effectiveness: Medium) - Your Response: Transition to scissor sweep variant by placing one shin across their hip line while maintaining sleeve control for the directional pull against their widened but elevated base → Leads to [[Double Sleeve Guard]]
+- **Opponent posts free hand wide on the sweep side to block the directional fall** (Effectiveness: High) - Your Response: Switch sweep direction immediately to attack the now-unprotected opposite side, or transition to overhead sweep variant using both feet on hips → Leads to [[Positions/Double Sleeve Guard]]
+- **Opponent drives forward aggressively to flatten your guard structure** (Effectiveness: Medium) - Your Response: Accept their forward momentum and redirect into the overhead sweep by extending both legs upward while pulling sleeves past your head → Leads to [[Positions/Double Sleeve Guard]]
+- **Opponent pulls arms back forcefully to strip sleeve grips** (Effectiveness: High) - Your Response: Follow their backward pull by sitting up toward technical standup, or re-grip immediately before they reset posture and establish their own passing grips → Leads to [[Positions/Open Guard]]
+- **Opponent widens base and drops weight low to prevent any off-balancing** (Effectiveness: Medium) - Your Response: Transition to scissor sweep variant by placing one shin across their hip line while maintaining sleeve control for the directional pull against their widened but elevated base → Leads to [[Positions/Double Sleeve Guard]]
 
 
 </section>

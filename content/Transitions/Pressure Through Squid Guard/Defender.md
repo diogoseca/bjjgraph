@@ -154,7 +154,7 @@ description: "Defend against pressure passing through Squid Guard. Recognition c
 
 The defender in Pressure Through Squid Guard is the bottom player maintaining Squid Guard while the top player applies systematic pressure to collapse the guard structure. Defense requires recognizing the pressure pass early and deploying specific retention strategies that exploit the top player's committed weight distribution. The defender's primary advantages are their lapel control, hook placement, and the top player's forward commitment, which creates sweep and back take opportunities when the pressure is redirected rather than absorbed.
 
-**Opponent's Starting Position**: [[Squid Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Squid Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ The defender in Pressure Through Squid Guard is the bottom player maintaining Sq
 ### 1. Reinforce knee shield and redirect pressure laterally
 
 - **When to use**: Early in the pressure application when the top player first begins driving forward and you still have space to insert your shin across their body
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Creates a structural barrier that converts the top player's forward pressure into lateral force, preventing guard collapse and maintaining distance for guard retention
 - **Risk**: If the knee shield is bypassed or smashed through, you lose your primary frame and the pressure pass accelerates with fewer defensive options remaining
 
 ### 2. Invert underneath the pressure to threaten back take
 
 - **When to use**: When the top player commits significant weight forward and their hips rise above their shoulders, creating space underneath for inversion
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Forces the top player to abandon the pressure pass to defend their back, creating a scramble where your guard skills give you the advantage to come up on top
 - **Risk**: If the inversion is read early, the top player backsteps and flattens you, potentially achieving a worse position than before the attempt
 
 ### 3. Time a sweep using lapel tension during the top player's weight shift
 
 - **When to use**: When the top player's weight commits to one side during pressure application, creating a momentary imbalance that your lapel control can amplify
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Uses the top player's forward pressure and committed weight against them to execute a sweep, ending with you in top position
 - **Risk**: Mistiming the sweep allows the top player to post and recover, potentially advancing their pressure pass further than before
 
 ### 4. Release lapel and transition to alternative guard before structure collapses
 
 - **When to use**: When your Squid Guard structure is clearly failing under sustained pressure and further retention attempts will result in being passed to half guard
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Resets the guard exchange to a neutral open guard position where you can re-establish Squid Guard or choose a different guard system
 - **Risk**: The transition creates a brief moment of no control where the top player can accelerate their pass if they read the guard change
 
@@ -225,11 +225,11 @@ The defender in Pressure Through Squid Guard is the bottom player maintaining Sq
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Maintain strong frames and lapel tension to prevent the pressure from collapsing your guard structure. Use your free leg and hip movement to create distance when pressure intensifies, forcing the top player back to a neutral standing position where you can re-establish Squid Guard or transition to another guard system.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time sweep attempts to coincide with the top player's maximum forward weight commitment. Use lapel tension to amplify their imbalance when their weight shifts to one side. The inversion back take threat forces them to choose between defending the sweep and defending the back take, creating a dilemma that frequently results in a successful sweep to top position.
 

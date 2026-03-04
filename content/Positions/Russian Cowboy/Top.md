@@ -210,25 +210,25 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 ## Available Attacks
 
-### [[Truck Entry]] (13% of attempts)
+### [[Transitions/Truck Entry]] (13% of attempts)
 
-### [[Twister Finish]] (10% of attempts)
+### [[Transitions/Twister Finish]] (10% of attempts)
 
-### [[Back Control to Crucifix]] (12% of attempts)
+### [[Transitions/Back Control to Crucifix]] (12% of attempts)
 
-### [[Rear Naked Choke]] (11% of attempts)
+### [[Transitions/Rear Naked Choke]] (11% of attempts)
 
-### [[Calf Slicer]] (10% of attempts)
+### [[Transitions/Calf Slicer]] (10% of attempts)
 
-### [[Bow and Arrow Choke]] (10% of attempts)
+### [[Transitions/Bow and Arrow Choke]] (10% of attempts)
 
-### [[Turtle to Back Take]] (16% of attempts)
+### [[Transitions/Turtle to Back Take]] (16% of attempts)
 
-### [[Armbar from Back Transition]] (11% of attempts)
+### [[Transitions/Armbar from Back Transition]] (11% of attempts)
 
-### [[Russian Cowboy to Back Control]] (5% of attempts)
+### [[Transitions/Russian Cowboy to Back Control]] (5% of attempts)
 
-### [[Russian Cowboy RNC]] (2% of attempts)
+### [[Submissions/Russian Cowboy RNC]] (2% of attempts)
 
 
 
@@ -239,28 +239,28 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 ## Decision Making from This Position
 
 **If opponent turtles defensively with arms tight and head down:**
-- Execute **[[Truck Entry]]** → [[Truck]] (Probability: 65%)
-- Execute **[[Crucifix from Turtle]]** → [[Crucifix]] (Probability: 55%)
+- Execute **[[Transitions/Truck Entry]]** → [[Positions/Twister Control/Truck]] (Probability: 65%)
+- Execute **[[Transitions/Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 55%)
 
 
 **If opponent attempts to roll forward or granby away from the hook:**
-- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 70%)
-- Execute **[[Twister Finish]]** → [[Twister Control]] (Probability: 50%)
+- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 70%)
+- Execute **[[Transitions/Twister Finish]]** → [[Positions/Twister Control]] (Probability: 50%)
 
 
 **If opponent turns into you to escape the bottom position:**
-- Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Rear Naked Choke]]** → [[Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 60%)
 
 
 **If opponent extends their far arm to post or create distance:**
-- Execute **[[Armbar from Back Transition]]** → [[Armbar Control]] (Probability: 65%)
-- Execute **[[Back Control to Crucifix]]** → [[Crucifix]] (Probability: 70%)
+- Execute **[[Transitions/Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 65%)
+- Execute **[[Transitions/Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 70%)
 
 
 **If opponent flattens out attempting to relieve hook pressure:**
-- Execute **[[Bow and Arrow Choke]]** → [[Game Over]] (Probability: 60%)
-- Execute **[[Calf Slicer]]** → [[Truck]] (Probability: 55%)
+- Execute **[[Transitions/Bow and Arrow Choke]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Calf Slicer]]** → [[Positions/Twister Control/Truck]] (Probability: 55%)
 
 
 
@@ -394,15 +394,15 @@ Partner in turtle position with moderate defensive posture. Practice entering Ru
 
 ## Related Positions and Techniques
 
-- **[[Truck]]** - Primary transition target and related control position
-- **[[Back Control]]** - Alternative control position with similar dominance level
-- **[[Twister Control]]** - Primary submission position accessible from Russian Cowboy
-- **[[Crucifix]]** - Alternative controlling position when opponent defends truck entry
-- **[[Turtle]]** - Common starting position for Russian Cowboy entry
-- **[[Crab Ride]]** - Similar back control variant with different hook configuration
-- **[[Twister]]** - Signature submission from this position
-- **[[Truck Entry]]** - Primary offensive transition from this position
-- **[[Calf Slicer]]** - High-percentage transition to leg submission from truck pathway
+- **[[Positions/Twister Control/Truck]]** - Primary transition target and related control position
+- **[[Positions/Back Control]]** - Alternative control position with similar dominance level
+- **[[Positions/Twister Control]]** - Primary submission position accessible from Russian Cowboy
+- **[[Positions/Crucifix]]** - Alternative controlling position when opponent defends truck entry
+- **[[Positions/Turtle]]** - Common starting position for Russian Cowboy entry
+- **[[Positions/Crab Ride]]** - Similar back control variant with different hook configuration
+- **[[Submissions/Twister]]** - Signature submission from this position
+- **[[Transitions/Truck Entry]]** - Primary offensive transition from this position
+- **[[Transitions/Calf Slicer]]** - High-percentage transition to leg submission from truck pathway
 
 
 </section>

@@ -21,7 +21,7 @@ The mechanics build directly on the Matrix's rolling foundation. As the original
 
 Strategically, developing a reliable counter roll dramatically increases the overall effectiveness of the Matrix system. When practitioners know they have a safe bail-out option, they can commit more aggressively to Matrix entries, creating a psychological advantage. The technique connects the Matrix position to the rich offensive ecosystem of half guard bottom, where sweeps, back takes, and submissions become immediately available. Rather than viewing a defended Matrix as a failure, the counter roll reframes it as a pathway to a different but equally viable attacking platform.
 
-**From Position**: [[Matrix]] (Bottom)
+**From Position**: [[Positions/Matrix]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, developing a reliable counter roll dramatically increases the ove
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Failure | [[Turtle]] | 30% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Failure | [[Positions/Turtle]] | 30% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -189,21 +189,21 @@ The Counter Roll from Matrix serves as a critical contingency pathway within the
 ## Related Techniques
 
 
-- [[Matrix]] - Starting position from which the counter roll is initiated after a defended back take attempt
+- [[Positions/Matrix]] - Starting position from which the counter roll is initiated after a defended back take attempt
 
-- [[Half Guard]] - Primary target position achieved through successful counter roll execution
+- [[Positions/Half Guard]] - Primary target position achieved through successful counter roll execution
 
-- [[Back Control]] - Original target of the Matrix back take that the counter roll abandons in favor of half guard recovery
+- [[Positions/Back Control]] - Original target of the Matrix back take that the counter roll abandons in favor of half guard recovery
 
-- [[Turtle]] - Alternative outcome position when the counter roll fails to capture the opponent's leg
+- [[Positions/Turtle]] - Alternative outcome position when the counter roll fails to capture the opponent's leg
 
-- [[Deep Half Guard]] - Related recovery position accessible through the deep counter roll variant with extended rotation
+- [[Positions/Half Guard/Deep Half Guard]] - Related recovery position accessible through the deep counter roll variant with extended rotation
 
-- [[Side Control]] - Worst-case counter outcome when opponent capitalizes on the transitional vulnerability during redirect
+- [[Positions/Side Control]] - Worst-case counter outcome when opponent capitalizes on the transitional vulnerability during redirect
 
-- [[Berimbolo Entry]] - Shares inverted rolling mechanics and spatial awareness requirements with the counter roll
+- [[Transitions/Berimbolo Entry]] - Shares inverted rolling mechanics and spatial awareness requirements with the counter roll
 
-- [[Back Door Escape from Half Guard]] - Related escape concept using rolling mechanics to transition between positions under pressure
+- [[Transitions/Back Door Escape from Half Guard]] - Related escape concept using rolling mechanics to transition between positions under pressure
 
 
 </section>

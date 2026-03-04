@@ -21,7 +21,7 @@ Strategically, the stack from inverted guard serves as a high-percentage respons
 
 The technique requires precise timing. Initiating the stack too early allows the opponent to redirect your momentum for a sweep, while waiting too long gives them time to establish grips and begin their berimbolo or leg entanglement sequences. Success depends on controlling the opponent's hips before they achieve full inversion, then committing to continuous forward pressure that prevents them from recovering mobility. The stack from inverted guard is particularly effective against opponents who rely heavily on berimbolo-based systems, as it directly counters the hip elevation and rotation these systems require.
 
-**From Position**: [[Inverted Guard]] (Top)
+**From Position**: [[Positions/Inverted Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technique requires precise timing. Initiating the stack too early allows the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Inverted Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Inverted Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,21 +189,21 @@ The Stack from Inverted fits within the broader guard passing system as a direct
 ## Related Techniques
 
 
-- [[Inverted Guard]] - Source position where the opponent plays inverted guard and the stack is initiated from top
+- [[Positions/Inverted Guard]] - Source position where the opponent plays inverted guard and the stack is initiated from top
 
-- [[Half Guard]] - Primary target position after successful stack pass, where top player continues passing sequence
+- [[Positions/Half Guard]] - Primary target position after successful stack pass, where top player continues passing sequence
 
-- [[Side Control]] - Common advancement position after completing the pass through half guard following the stack
+- [[Positions/Side Control]] - Common advancement position after completing the pass through half guard following the stack
 
-- [[Headquarters Position]] - Alternative control position against inverted guard when stack is not immediately available
+- [[Positions/Headquarters Position]] - Alternative control position against inverted guard when stack is not immediately available
 
-- [[De La Riva Guard]] - Guard position that frequently transitions to inverted guard, creating stack pass opportunities
+- [[Positions/De La Riva Guard]] - Guard position that frequently transitions to inverted guard, creating stack pass opportunities
 
-- [[Stack Pass from Double Unders]] - Related stack passing technique with similar compression mechanics from different guard configuration
+- [[Transitions/Stack Pass from Double Unders]] - Related stack passing technique with similar compression mechanics from different guard configuration
 
-- [[Stack Pass from Spider]] - Related stack pass variation sharing core stacking principles and pressure application concepts
+- [[Transitions/Stack Pass from Spider]] - Related stack pass variation sharing core stacking principles and pressure application concepts
 
-- [[Back Control]] - Position the opponent threatens via berimbolo if the stack attempt fails or is poorly timed
+- [[Positions/Back Control]] - Position the opponent threatens via berimbolo if the stack attempt fails or is poorly timed
 
 
 </section>

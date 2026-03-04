@@ -182,7 +182,7 @@ The Body Lock Pass from top half guard is a systematic pressure passing techniqu
 
 The technique's effectiveness stems from removing the bottom player's primary defensive tools in sequence: the body lock prevents framing, head pressure prevents turning, flattening prevents hip movement, and systematic leg clearing completes the pass. Each phase creates the conditions necessary for the next, and rushing any step exposes the passer to sweeps and guard recoveries. Against skilled half guard players who chain multiple defensive reactions, the body lock's constant connection means every failed defense leaves them in a progressively worse position.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The technique's effectiveness stems from removing the bottom player's primary de
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 68% |
-| Failure | [[Half Guard]] | 17% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 68% |
+| Failure | [[Positions/Half Guard]] | 17% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ The technique's effectiveness stems from removing the bottom player's primary de
 
 ## Opponent Counters
 
-- **Opponent frames against your hips and shoulders to prevent being flattened** (Effectiveness: Medium) - Your Response: Secure the body lock extra tight before they can establish frames. If frames are already in place, use your head pressure aggressively and walk your hips in small increments to bypass the frames rather than driving through them directly. The tight body lock should collapse most frames. → Leads to [[Half Guard]]
-- **Opponent locks down your trapped leg with lockdown position** (Effectiveness: High) - Your Response: Do not try to rip your leg free. Focus on flattening the opponent first, which reduces their ability to maintain the lockdown. Once flat, control their far knee with one hand while keeping the body lock, and methodically work to break the figure-four on your leg. Patience is essential. → Leads to [[Half Guard]]
-- **Opponent turns into you and fights for the underhook to prevent flattening** (Effectiveness: Medium) - Your Response: Use your head position to block the turn. If they get to their side, squeeze the body lock tighter and use your head as a wedge to walk them back flat. If they successfully turn far enough, consider transitioning to a back take rather than forcing the original passing angle. → Leads to [[Half Guard]]
-- **Opponent uses whizzer (overhook) on your underhook arm** (Effectiveness: Low) - Your Response: The whizzer is largely ineffective against a properly clasped body lock because both your arms are connected behind their back. Maintain your grip configuration and continue applying pressure. The whizzer actually helps you flatten them because it pulls your weight onto their chest. → Leads to [[Half Guard]]
+- **Opponent frames against your hips and shoulders to prevent being flattened** (Effectiveness: Medium) - Your Response: Secure the body lock extra tight before they can establish frames. If frames are already in place, use your head pressure aggressively and walk your hips in small increments to bypass the frames rather than driving through them directly. The tight body lock should collapse most frames. → Leads to [[Positions/Half Guard]]
+- **Opponent locks down your trapped leg with lockdown position** (Effectiveness: High) - Your Response: Do not try to rip your leg free. Focus on flattening the opponent first, which reduces their ability to maintain the lockdown. Once flat, control their far knee with one hand while keeping the body lock, and methodically work to break the figure-four on your leg. Patience is essential. → Leads to [[Positions/Half Guard]]
+- **Opponent turns into you and fights for the underhook to prevent flattening** (Effectiveness: Medium) - Your Response: Use your head position to block the turn. If they get to their side, squeeze the body lock tighter and use your head as a wedge to walk them back flat. If they successfully turn far enough, consider transitioning to a back take rather than forcing the original passing angle. → Leads to [[Positions/Half Guard]]
+- **Opponent uses whizzer (overhook) on your underhook arm** (Effectiveness: Low) - Your Response: The whizzer is largely ineffective against a properly clasped body lock because both your arms are connected behind their back. Maintain your grip configuration and continue applying pressure. The whizzer actually helps you flatten them because it pulls your weight onto their chest. → Leads to [[Positions/Half Guard]]
 
 
 </section>

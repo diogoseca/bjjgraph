@@ -26,8 +26,8 @@ Strategically, the toe hold from Outside Ashi creates a powerful dilemma for the
 **Category**: Joint Lock
 **Type**: Foot Lock
 **Target Area**: Foot and ankle joint complex
-**Starting Position**: [[Outside Ashi-Garami]]
-**From Position**: [[Outside Ashi-Garami]] (Top)
+**Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 **Success Rate**: 40%
 
 </section>
@@ -80,8 +80,8 @@ Strategically, the toe hold from Outside Ashi creates a powerful dilemma for the
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Outside Ashi-Garami]] | 35% |
-| Counter | [[Inside Ashi-Garami]] | 25% |
+| Failure | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 35% |
+| Counter | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 25% |
 
 
 </section>
@@ -229,10 +229,10 @@ Strategically, the toe hold from Outside Ashi creates a powerful dilemma for the
 
 ## From Which Positions?
 
-- [[Outside Ashi-Garami]]
-- [[Ashi Garami]]
-- [[50-50 Guard]]
-- [[Inside Ashi-Garami]]
+- [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- [[Positions/Ashi Garami]]
+- [[Positions/Ashi Garami/50-50 Guard]]
+- [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 </section>
@@ -241,14 +241,14 @@ Strategically, the toe hold from Outside Ashi creates a powerful dilemma for the
 
 ## Related Submissions
 
-- [[Outside Heel Hook]]
-- [[Inside Heel Hook]]
-- [[Achilles Lock]]
-- [[Estima Lock]]
-- [[Aoki Lock Finish]]
-- [[Calf Slicer]]
-- [[Inside Heel Hook from Honey Hole]]
-- [[Outside Heel Hook from Cross Ashi]]
+- [[Transitions/Outside Heel Hook]]
+- [[Submissions/Inside Heel Hook]]
+- [[Submissions/Achilles Lock]]
+- [[Positions/Estima Lock]]
+- [[Transitions/Aoki Lock Finish]]
+- [[Transitions/Calf Slicer]]
+- [[Transitions/Inside Heel Hook from Honey Hole]]
+- [[Transitions/Outside Heel Hook from Cross Ashi]]
 
 
 </section>
@@ -257,14 +257,14 @@ Strategically, the toe hold from Outside Ashi creates a powerful dilemma for the
 
 ## Additional Related Content
 
-- [[Outside Ashi-Garami]] - Primary starting position where this toe hold is executed as a counter-attack from top
-- [[Ashi Garami]] - Parent position family encompassing all leg entanglement variations where toe holds apply
-- [[50-50 Guard]] - Related leg entanglement where toe holds are also available as counter-attacks
-- [[Inside Ashi-Garami]] - Related entanglement position and common counter-outcome when toe hold attempt fails
-- [[Saddle]] - Advanced leg entanglement where toe hold mechanics also apply from defensive perspective
-- [[Kneebar Control]] - Alternative lower-body submission accessible from the same counter-attacking position
-- [[Straight Ankle Lock Control]] - Related ankle attack position sharing foot and ankle targeting mechanics
-- [[Leg Entanglement]] - General category of positions where toe hold counter-attacks are strategically relevant
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Primary starting position where this toe hold is executed as a counter-attack from top
+- [[Positions/Ashi Garami]] - Parent position family encompassing all leg entanglement variations where toe holds apply
+- [[Positions/Ashi Garami/50-50 Guard]] - Related leg entanglement where toe holds are also available as counter-attacks
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related entanglement position and common counter-outcome when toe hold attempt fails
+- [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement where toe hold mechanics also apply from defensive perspective
+- [[Positions/Kneebar Control]] - Alternative lower-body submission accessible from the same counter-attacking position
+- [[Positions/Straight Ankle Lock Control]] - Related ankle attack position sharing foot and ankle targeting mechanics
+- [[Positions/Leg Entanglement]] - General category of positions where toe hold counter-attacks are strategically relevant
 
 
 </section>

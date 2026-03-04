@@ -21,7 +21,7 @@ This counter-entanglement exploits the inherent vulnerability of all leg lock po
 
 The transition occupies a critical role in the modern leg lock meta-game, where the ability to counter-entangle separates intermediate practitioners from advanced ones. Counter-entanglement mastery transforms leg lock defense from a purely reactive escape game into a dynamic offensive system where being attacked becomes an opportunity to attack. This technique is particularly effective in competition because opponents focused on finishing their own submission often fail to recognize the counter-entanglement until control has already been established.
 
-**From Position**: [[Outside Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The transition occupies a critical role in the modern leg lock meta-game, where 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 55% |
-| Failure | [[Outside Ashi-Garami]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 55% |
+| Failure | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Outside Ashi to Inside Ashi transition sits at the intersection of leg lock 
 ## Related Techniques
 
 
-- [[Outside Ashi-Garami]] - Starting position where your leg is trapped in opponent's outside ashi configuration
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Starting position where your leg is trapped in opponent's outside ashi configuration
 
-- [[Inside Ashi-Garami]] - Target position established through successful counter-entanglement
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Target position established through successful counter-entanglement
 
-- [[Half Guard]] - Counter outcome position when opponent disengages during failed transition attempt
+- [[Positions/Half Guard]] - Counter outcome position when opponent disengages during failed transition attempt
 
-- [[Ashi Garami Escape]] - Alternative defensive option from Outside Ashi-Garami Top when counter-entanglement is unavailable
+- [[Transitions/Ashi Garami Escape]] - Alternative defensive option from Outside Ashi-Garami Top when counter-entanglement is unavailable
 
-- [[Counter Entangle to 50-50 from Ashi]] - Related counter-entanglement technique establishing mutual 50-50 position
+- [[Transitions/Counter Entangle to 50-50 from Ashi]] - Related counter-entanglement technique establishing mutual 50-50 position
 
-- [[Inside Ashi to Outside Ashi]] - Reverse transition moving from inside to outside ashi configuration
+- [[Transitions/Inside Ashi to Outside Ashi]] - Reverse transition moving from inside to outside ashi configuration
 
-- [[Inside Ashi Entry]] - Offensive entry to inside ashi from the attacking perspective in Outside Ashi Bottom
+- [[Transitions/Inside Ashi Entry]] - Offensive entry to inside ashi from the attacking perspective in Outside Ashi Bottom
 
-- [[Saddle Entry from Outside Ashi]] - Alternative advancement from similar starting entanglement to more dominant control
+- [[Transitions/Saddle Entry from Outside Ashi]] - Alternative advancement from similar starting entanglement to more dominant control
 
-- [[Saddle]] - Advanced leg entanglement position accessible as follow-up from established inside ashi
+- [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement position accessible as follow-up from established inside ashi
 
-- [[Leg Entanglement]] - General positional category encompassing all ashi garami variations and transitions
+- [[Positions/Leg Entanglement]] - General positional category encompassing all ashi garami variations and transitions
 
 
 </section>

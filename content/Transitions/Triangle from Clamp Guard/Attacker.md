@@ -180,7 +180,7 @@ description: "Complete attacking guide for the Triangle from Clamp Guard. Step-b
 
 The Triangle from Clamp Guard represents one of the highest-percentage triangle entries in BJJ because the clamp position has already accomplished the hardest part of any triangle setup — arm isolation. From the attacker's perspective, the key challenge is not creating the opportunity but rather recognizing the correct moment to commit to the leg shoot and executing it with enough speed and precision to lock the triangle before the opponent can posture. The guard player must maintain patient clamp retention while reading the opponent's extraction attempts, using their defensive movement as the trigger for the triangle entry. The transition demands a single committed motion rather than incremental adjustments — once the choking leg begins its path over the shoulder, the attacker must complete the lock in one fluid sequence. Half-committed attempts give the opponent time to posture and escape. Success depends on the coordination between the shooting leg, the controlling hands, and the hip angle adjustment that follows the initial lock.
 
-**From Position**: [[Clamp Guard]] (Bottom)
+**From Position**: [[Positions/Clamp Guard]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ The Triangle from Clamp Guard represents one of the highest-percentage triangle 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Control]] | 45% |
-| Failure | [[Clamp Guard]] | 35% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Triangle Control]] | 45% |
+| Failure | [[Positions/Clamp Guard]] | 35% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ The Triangle from Clamp Guard represents one of the highest-percentage triangle 
 
 ## Opponent Counters
 
-- **Opponent postures up explosively and stacks forward before the triangle can be locked** (Effectiveness: High) - Your Response: If the posture is caught early, abort the triangle and return to clamp guard by reclamping the shin on the bicep. If the leg is already over but unlocked, use both hands on the head to fight the posture while locking as fast as possible. If stacked, transition to omoplata by rotating your hips under the driving pressure. → Leads to [[Clamp Guard]]
-- **Opponent tucks chin and grabs the shooting leg with their free hand to prevent it from crossing the neck** (Effectiveness: Medium) - Your Response: Use your free hand to strip their grip on your leg by peeling their fingers or redirecting their wrist. Simultaneously use your bottom leg to push their trapped arm further across their body, making it harder for them to dedicate their free hand to leg defense. If the grip is too strong, switch to armbar on the trapped arm — their defensive focus on the leg leaves the arm vulnerable. → Leads to [[Clamp Guard]]
-- **Opponent drives forward aggressively to flatten the guard player and close all space for the triangle entry** (Effectiveness: Medium) - Your Response: Frame on their shoulder with your free hand to redirect the forward drive laterally. Use the forward momentum against them by attempting a hip bump sweep — their weight is committed forward past their center of gravity with only one arm available for base. If they flatten you completely, transition to closed guard and reset for a new guard cycle. → Leads to [[Open Guard]]
-- **Opponent clasps hands together around the guard player's leg to prevent the triangle lock from closing** (Effectiveness: High) - Your Response: Attack the clasped hands with a two-on-one grip break, peeling the top hand first. Simultaneously squeeze your knees together to increase the pressure on their clasped grip — hand clasping against leg pressure is unsustainable. If the grip holds, shift to an armbar attempt on the trapped arm by extending your hips, which also breaks the hand clasp through leverage. → Leads to [[Clamp Guard]]
+- **Opponent postures up explosively and stacks forward before the triangle can be locked** (Effectiveness: High) - Your Response: If the posture is caught early, abort the triangle and return to clamp guard by reclamping the shin on the bicep. If the leg is already over but unlocked, use both hands on the head to fight the posture while locking as fast as possible. If stacked, transition to omoplata by rotating your hips under the driving pressure. → Leads to [[Positions/Clamp Guard]]
+- **Opponent tucks chin and grabs the shooting leg with their free hand to prevent it from crossing the neck** (Effectiveness: Medium) - Your Response: Use your free hand to strip their grip on your leg by peeling their fingers or redirecting their wrist. Simultaneously use your bottom leg to push their trapped arm further across their body, making it harder for them to dedicate their free hand to leg defense. If the grip is too strong, switch to armbar on the trapped arm — their defensive focus on the leg leaves the arm vulnerable. → Leads to [[Positions/Clamp Guard]]
+- **Opponent drives forward aggressively to flatten the guard player and close all space for the triangle entry** (Effectiveness: Medium) - Your Response: Frame on their shoulder with your free hand to redirect the forward drive laterally. Use the forward momentum against them by attempting a hip bump sweep — their weight is committed forward past their center of gravity with only one arm available for base. If they flatten you completely, transition to closed guard and reset for a new guard cycle. → Leads to [[Positions/Open Guard]]
+- **Opponent clasps hands together around the guard player's leg to prevent the triangle lock from closing** (Effectiveness: High) - Your Response: Attack the clasped hands with a two-on-one grip break, peeling the top hand first. Simultaneously squeeze your knees together to increase the pressure on their clasped grip — hand clasping against leg pressure is unsustainable. If the grip holds, shift to an armbar attempt on the trapped arm by extending your hips, which also breaks the hand clasp through leverage. → Leads to [[Positions/Clamp Guard]]
 
 
 </section>

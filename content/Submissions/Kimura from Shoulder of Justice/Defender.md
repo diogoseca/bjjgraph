@@ -150,7 +150,7 @@ description: "Defend the Kimura from Shoulder of Justice in BJJ. Recognition cue
 
 Defending the Kimura from Shoulder of Justice requires early recognition and disciplined arm positioning under intense physical pressure. The primary defensive principle is preventing the initial arm extension that creates the kimura opportunity—keeping your near arm tight to your body despite the severe discomfort of shoulder pressure grinding into your jaw. Once the attacker secures a complete figure-four grip, defensive options narrow dramatically and the submission becomes extremely difficult to escape. This makes early prevention through arm discipline far more effective than late-stage escape attempts. Understanding the attacker's pressure dilemma helps you avoid the reactive arm extension that triggers the submission chain, while recognizing grip formation cues gives you the timing windows needed to disrupt the attack before it reaches the finishing phase.
 
-**Opponent's Starting Position**: [[Shoulder of Justice]] (Top)
+**Opponent's Starting Position**: [[Positions/Shoulder of Justice]] (Top)
 
 
 </section>
@@ -188,21 +188,21 @@ Defending the Kimura from Shoulder of Justice requires early recognition and dis
 ### 1. Clasp hands together tightly and pull elbow to ribs to prevent figure-four isolation
 
 - **When to use**: As soon as you feel the attacker grip your wrist or begin threading under your arm—this must be immediate and explosive
-- **Targets**: [[Shoulder of Justice]]
+- **Targets**: [[Positions/Shoulder of Justice]]
 - **If successful**: Attacker cannot complete the figure-four and must either re-establish shoulder pressure or attempt a different submission
 - **Risk**: Clasping hands commits both arms to defense, temporarily preventing you from creating escape frames
 
 ### 2. Bridge toward the attacker and roll to disrupt their base during grip transition
 
 - **When to use**: During the 1-2 second window when the attacker is transitioning from shoulder pressure to kimura grip and their base is compromised
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Disrupts attacker's base and may allow guard recovery or position reversal during the scramble
 - **Risk**: Failed bridge wastes energy and may accelerate the attacker's grip completion if timing is wrong
 
 ### 3. Shrimp hips away explosively to create distance and recover knee shield or half guard
 
 - **When to use**: When the attacker sits back to create rotational clearance for the finish, momentarily disconnecting their hips from yours
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough distance to insert knee and recover half guard, removing the submission threat entirely
 - **Risk**: If attacker follows your hips and maintains grip, you may end up in a worse position with the kimura still locked
 
@@ -225,11 +225,11 @@ Defending the Kimura from Shoulder of Justice requires early recognition and dis
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a coordinated bridge-and-shrimp during the attacker's grip transition phase when their hips disconnect from your hip line, creating space to insert your knee and recover half guard
 
-### → [[Shoulder of Justice]]
+### → [[Positions/Shoulder of Justice]]
 
 Successfully clasp hands and maintain grip defense until the attacker abandons the kimura attempt and returns to shoulder pressure—while still a bad position, it removes the immediate submission threat
 

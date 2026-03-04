@@ -154,7 +154,7 @@ description: "Defend your inverted lasso guard against passing attempts. Recogni
 
 Defending your inverted lasso guard against a skilled passer requires maintaining the structural integrity of your lasso hook and sleeve grip while using the position's geometric advantages to counter every passing approach. As the guard player, your primary weapons are the rotational momentum created by the inversion, your free leg's ability to initiate berimbolo and sweep sequences, and the fundamental dilemma you impose on the passer: defending the overhead sweep by retreating weight opens berimbolo, while driving forward to prevent berimbolo feeds the sweep. Successful defense means either retaining your inverted guard, converting the pass attempt into a back take through well-timed berimbolo, or at minimum inserting a knee to recover half guard rather than conceding the full pass to side control. The key is recognizing which passing approach the opponent commits to and selecting the appropriate counter before they progress past the point of no return.
 
-**Opponent's Starting Position**: [[Inverted Lasso Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Lasso Guard/Inverted Lasso Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending your inverted lasso guard against a skilled passer requires maintainin
 ### 1. Initiate berimbolo rotation by threading the free leg behind the opponent's back and spinning toward their back
 
 - **When to use**: When the opponent retreats weight backward to defend overhead sweep or commits both hands to grip fighting on the lasso, reducing their ability to counter the rotation
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Complete the berimbolo to establish back control, converting their defensive positioning into your offensive advantage with the highest-value counter outcome
 - **Risk**: If the opponent follows your rotation with a cartwheel counter-pass, you may end up giving them a passing angle or back control position
 
 ### 2. Maintain lasso tension and reangle hips to reset the guard position, preventing the pass from progressing
 
 - **When to use**: When the opponent's passing attempt has stalled but they maintain connection, creating a neutral exchange where your guard structure is degraded but not broken
-- **Targets**: [[Inverted Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard/Inverted Lasso Guard]]
 - **If successful**: The guard is retained with full offensive potential, forcing the opponent to restart their passing approach from the beginning after expending energy on the failed attempt
 - **Risk**: Extended guard retention from inverted position drains energy rapidly and may allow the opponent to develop a more effective passing approach on subsequent attempts
 
 ### 3. Insert knee shield as the opponent clears the lasso, recovering to half guard rather than conceding full side control
 
 - **When to use**: When arm extraction is nearly complete and the lasso structure is compromised beyond recovery, making guard retention impossible but half guard recovery still achievable
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to half guard bottom which, while not ideal, preserves guard position and offers established escape and sweep pathways
 - **Risk**: Late knee insertion may fail against a committed passer who transitions immediately from extraction to side control without pause
 
 ### 4. Extend lasso leg and pull sleeve for overhead sweep when the opponent drives forward pressure
 
 - **When to use**: When the opponent commits forward weight for a stack pass with narrow base, as their forward momentum feeds directly into the overhead sweep mechanics
-- **Targets**: [[Inverted Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard/Inverted Lasso Guard]]
 - **If successful**: The opponent is swept overhead and you achieve a dominant top position, completely reversing the positional hierarchy
 - **Risk**: If the opponent has wide base or angled pressure, the sweep stalls and you end up deeper in the stack with less energy to defend
 
@@ -225,11 +225,11 @@ Defending your inverted lasso guard against a skilled passer requires maintainin
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Execute a berimbolo by threading the free leg behind the opponent's back when they retreat weight to defend sweeps or commit both hands to grip fighting. Time the hip rotation to coincide with their defensive weight shift, using their backward momentum to accelerate your spin toward their back. Secure seat belt grip and insert hooks immediately upon reaching the back position.
 
-### → [[Inverted Lasso Guard]]
+### → [[Positions/Lasso Guard/Inverted Lasso Guard]]
 
 Maintain constant lasso tension and use hip reangulation to reset your guard position whenever the pass attempt stalls. Keep the free leg active and threatening to prevent the opponent from committing fully to any single passing approach. Force them to abandon their pass attempt by creating enough offensive threat that they must prioritize defense over passing.
 

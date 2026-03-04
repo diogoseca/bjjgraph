@@ -180,7 +180,7 @@ description: "Complete guide to executing the Old School Pass in BJJ. Master whi
 
 The Old School Pass from the attacker perspective requires establishing and maintaining dominant upper body control through deep whizzer and heavy crossface pressure while systematically working to neutralize the lockdown configuration. The passer must read the bottom player's grip adjustments and sweep timing to identify windows for leg extraction, then execute decisive passing mechanics to complete the transition to side control. Success depends on patience, incremental pressure application, and the ability to chain multiple passing angles when initial extraction attempts are defended. The passer should approach this technique as a methodical degradation of the bottom player's control system rather than an explosive escape from the lockdown.
 
-**From Position**: [[Old School]] (Top)
+**From Position**: [[Positions/Half Guard/Old School]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ The Old School Pass from the attacker perspective requires establishing and main
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 48% |
-| Failure | [[Old School]] | 34% |
-| Counter | [[Half Guard]] | 18% |
+| Success | [[Positions/Side Control]] | 48% |
+| Failure | [[Positions/Half Guard/Old School]] | 34% |
+| Counter | [[Positions/Half Guard]] | 18% |
 
 
 </section>
@@ -244,11 +244,11 @@ The Old School Pass from the attacker perspective requires establishing and main
 
 ## Opponent Counters
 
-- **Bottom player pumps lockdown aggressively to prevent flattening and create sweep momentum** (Effectiveness: High) - Your Response: Sprawl hips back slightly while maintaining chest connection and increase crossface pressure. Avoid raising hips as this feeds the sweep. Wait for the pumping rhythm to pause before resuming extraction pressure. → Leads to [[Old School]]
-- **Bottom player deepens underhook and pulls head control tighter to initiate Old School Sweep** (Effectiveness: High) - Your Response: Immediately increase whizzer depth and clamp elbow tight to body. Post free leg wider for base and drive crossface pressure to break their pulling angle. If sweep momentum begins, switch priority to base recovery before resuming pass. → Leads to [[Half Guard]]
-- **Bottom player transitions to deep half guard by diving under the hips when flattening pressure is applied** (Effectiveness: Medium) - Your Response: Recognize the head diving motion early and sprawl hips back to prevent them from getting underneath. If they achieve deep half entry, switch to deep half passing strategy rather than fighting back to Old School top. → Leads to [[Old School]]
-- **Bottom player releases lockdown and quickly inserts knee shield or reguards to closed guard** (Effectiveness: Medium) - Your Response: Capitalize immediately on the lockdown release by driving a knee slice through before the new guard configuration can solidify. The brief window between lockdown release and knee shield insertion is the highest-percentage passing moment. → Leads to [[Old School]]
-- **Bottom player comes up to dogfight position using the underhook when crossface pressure is insufficient** (Effectiveness: Medium) - Your Response: If they are already coming up, switch strategy to whizzer-based back take or guillotine rather than fighting to flatten them again. Use their upward momentum against them by circling toward their back. → Leads to [[Old School]]
+- **Bottom player pumps lockdown aggressively to prevent flattening and create sweep momentum** (Effectiveness: High) - Your Response: Sprawl hips back slightly while maintaining chest connection and increase crossface pressure. Avoid raising hips as this feeds the sweep. Wait for the pumping rhythm to pause before resuming extraction pressure. → Leads to [[Positions/Half Guard/Old School]]
+- **Bottom player deepens underhook and pulls head control tighter to initiate Old School Sweep** (Effectiveness: High) - Your Response: Immediately increase whizzer depth and clamp elbow tight to body. Post free leg wider for base and drive crossface pressure to break their pulling angle. If sweep momentum begins, switch priority to base recovery before resuming pass. → Leads to [[Positions/Half Guard]]
+- **Bottom player transitions to deep half guard by diving under the hips when flattening pressure is applied** (Effectiveness: Medium) - Your Response: Recognize the head diving motion early and sprawl hips back to prevent them from getting underneath. If they achieve deep half entry, switch to deep half passing strategy rather than fighting back to Old School top. → Leads to [[Positions/Half Guard/Old School]]
+- **Bottom player releases lockdown and quickly inserts knee shield or reguards to closed guard** (Effectiveness: Medium) - Your Response: Capitalize immediately on the lockdown release by driving a knee slice through before the new guard configuration can solidify. The brief window between lockdown release and knee shield insertion is the highest-percentage passing moment. → Leads to [[Positions/Half Guard/Old School]]
+- **Bottom player comes up to dogfight position using the underhook when crossface pressure is insufficient** (Effectiveness: Medium) - Your Response: If they are already coming up, switch strategy to whizzer-based back take or guillotine rather than fighting to flatten them again. Use their upward momentum against them by circling toward their back. → Leads to [[Positions/Half Guard/Old School]]
 
 
 </section>

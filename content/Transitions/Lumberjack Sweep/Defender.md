@@ -154,7 +154,7 @@ description: "How to defend against Lumberjack Sweep in BJJ. Recognition cues, d
 
 Defending the Lumberjack Sweep requires the top player to recognize the setup early and address the two pillars that make the sweep possible: the deep underhook and the angular hip displacement beneath your center of gravity. As the passer in half guard top, your primary defensive framework centers on denying the underhook through aggressive crossface pressure or whizzer control, and preventing the bottom player from creating the 45-degree angle that generates sweeping leverage. When the sweep is already in motion, the defender must act decisively by posting, sprawling, or extracting the trapped leg rather than trying to resist the rotational force directly. Understanding the mechanical triggers of this sweep allows the top player to shut it down before it develops momentum, or to transition to dominant positions when the bottom player overcommits to the sweep attempt.
 
-**Opponent's Starting Position**: [[Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the Lumberjack Sweep requires the top player to recognize the setup ea
 ### 1. Establish strong crossface and flatten opponent before underhook develops
 
 - **When to use**: As soon as you recognize the bottom player attempting to swim for the underhook or beginning to hip out to create angle
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Bottom player is flattened on their back, underhook is neutralized, and you can resume systematic half guard passing with dominant upper body control
 - **Risk**: If you overcommit weight forward to crossface, the bottom player may redirect your momentum into the sweep or transition to deep half guard
 
 ### 2. Post near hand on the mat and sprawl hips back to widen base
 
 - **When to use**: When the sweep is already in motion and you feel upward lifting pressure from the underhook combined with rotational force
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Your posted hand creates a third base point that blocks the rotational sweep, and sprawling removes your weight from above their hips, killing their leverage
 - **Risk**: The posted arm is vulnerable to kimura attack if the bottom player releases the sweep and transitions to shoulder lock grip on your posted arm
 
 ### 3. Extract trapped leg and complete the pass to side control
 
 - **When to use**: When the bottom player is fully committed to the sweep and has loosened their leg grip to generate the sweeping motion
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You free your trapped leg and complete the pass, landing in side control or knee on belly while the opponent is still oriented for the sweep
 - **Risk**: If extraction fails mid-attempt, you lose your base momentarily and may be swept more easily than if you had chosen to post and defend
 
 ### 4. Apply whizzer control to neutralize the underhook and drive opponent flat
 
 - **When to use**: When the bottom player has established a shallow to moderate underhook but has not yet created full angle or generated sweep momentum
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The whizzer overhook crushes the underhook and allows you to drive opponent flat on their back, removing all sweep leverage and restoring top control
 - **Risk**: A deep whizzer commitment can be countered if the bottom player transitions to a whizzer-based sweep or uses your overhook pressure to enter deep half guard
 
@@ -224,11 +224,11 @@ Defending the Lumberjack Sweep requires the top player to recognize the setup ea
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Establish crossface before opponent completes angle creation. Drive your shoulder across their face, flattening them to their back. Strip or neutralize their underhook using whizzer pressure. Once flattened, resume systematic half guard passing with dominant upper body control.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 When sweep attempt loosens opponent's leg control, explosively extract your trapped leg by driving your knee across their thigh and completing the pass. Time the extraction for the moment they commit hip extension to the sweep, as their leg grip weakens during the sweeping motion.
 

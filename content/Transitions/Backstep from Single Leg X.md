@@ -21,7 +21,7 @@ This technique is particularly effective because it bypasses the bottom player's
 
 The backstep from SLX integrates into a broader passing system that includes headquarters passing, smash passes, and standing extraction. When the bottom player defends direct passing avenues, the backstep offers a fundamentally different vector. Advanced practitioners use the threat of the backstep to set up direct passes and vice versa, creating multi-directional passing pressure that overwhelms sophisticated guard players. The technique's reliability at competition level makes it a staple response to modern SLX guard play.
 
-**From Position**: [[Single Leg X-Guard]] (Top)
+**From Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The backstep from SLX integrates into a broader passing system that includes hea
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Single Leg X-Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/X-Guard/Single Leg X-Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,27 +195,27 @@ The backstep from SLX occupies a critical role in the modern guard passing hiera
 ## Related Techniques
 
 
-- [[Single Leg X-Guard]] - Source position where this technique originates from the top player's perspective
+- [[Positions/X-Guard/Single Leg X-Guard]] - Source position where this technique originates from the top player's perspective
 
-- [[Side Control]] - Primary target position achieved upon successful pass completion
+- [[Positions/Side Control]] - Primary target position achieved upon successful pass completion
 
-- [[Half Guard]] - Counter outcome position if bottom player disrupts the backstep mid-rotation
+- [[Positions/Half Guard]] - Counter outcome position if bottom player disrupts the backstep mid-rotation
 
-- [[Back Step Pass]] - Related backstep passing concept applied from different guard configurations
+- [[Transitions/Back Step Pass]] - Related backstep passing concept applied from different guard configurations
 
-- [[Backstep from De La Riva]] - Similar rotational pass mechanic from DLR guard sharing core hip rotation principles
+- [[Transitions/Backstep from De La Riva]] - Similar rotational pass mechanic from DLR guard sharing core hip rotation principles
 
-- [[Backstep from Deep Half]] - Analogous backstep technique from a different leg entanglement guard position
+- [[Transitions/Backstep from Deep Half]] - Analogous backstep technique from a different leg entanglement guard position
 
-- [[Backstep from Leg Knot]] - Related backstep pass from another leg-based guard requiring similar rotation timing
+- [[Transitions/Backstep from Leg Knot]] - Related backstep pass from another leg-based guard requiring similar rotation timing
 
-- [[X-Guard]] - Parent guard family that SLX derives from with related passing challenges
+- [[Positions/X-Guard]] - Parent guard family that SLX derives from with related passing challenges
 
-- [[Ashi Garami]] - Leg entanglement position the bottom player may transition to if backstep is late
+- [[Positions/Ashi Garami]] - Leg entanglement position the bottom player may transition to if backstep is late
 
-- [[Headquarters Position]] - Alternative passing platform from SLX top that complements backstep passing
+- [[Positions/Headquarters Position]] - Alternative passing platform from SLX top that complements backstep passing
 
-- [[Combat Base]] - Posture option for managing SLX before committing to the backstep rotation
+- [[Positions/Combat Base]] - Posture option for managing SLX before committing to the backstep rotation
 
 
 </section>

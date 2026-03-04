@@ -178,7 +178,7 @@ From the 50-50 position, the back take becomes available when your opponent succ
 
 This technique has become increasingly important in high-level competition as leg lock defense has improved. Rather than engaging in prolonged heel hook battles, skilled practitioners use the back take threat to create a dilemma: defend your heel aggressively and expose your back, or maintain back defense and risk the leg attack. This strategic layer makes the back take from 50-50 essential knowledge for anyone serious about leg lock systems.
 
-**From Position**: [[50-50 Guard]] (Top)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ This technique has become increasingly important in high-level competition as le
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[50-50 Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ This technique has become increasingly important in high-level competition as le
 
 ## Opponent Counters
 
-- **Opponent turns into you as you release legs, attempting to face you and recover guard** (Effectiveness: High) - Your Response: Anticipate the turn and continue circling in the same direction, using their momentum to accelerate your transition to their back rather than fighting the rotation → Leads to [[50-50 Guard]]
-- **Opponent posts their far hand and sits up aggressively during transition window** (Effectiveness: Medium) - Your Response: Drive forward pressure through your chest and use your hip control grip to pull their hip toward you, collapsing their posting arm and flattening them → Leads to [[50-50 Guard]]
-- **Opponent re-attacks your legs with heel hook attempt as you begin extracting** (Effectiveness: Medium) - Your Response: Only initiate extraction when your upper body control is secure enough to pull away; if they attack, abort the back take and return to 50-50 top to re-establish control → Leads to [[50-50 Guard]]
-- **Opponent turtles and protects their back by driving forward** (Effectiveness: Low) - Your Response: Follow them into turtle position where back control is still available through standard turtle attacks and spiral ride control → Leads to [[Back Control]]
+- **Opponent turns into you as you release legs, attempting to face you and recover guard** (Effectiveness: High) - Your Response: Anticipate the turn and continue circling in the same direction, using their momentum to accelerate your transition to their back rather than fighting the rotation → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent posts their far hand and sits up aggressively during transition window** (Effectiveness: Medium) - Your Response: Drive forward pressure through your chest and use your hip control grip to pull their hip toward you, collapsing their posting arm and flattening them → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent re-attacks your legs with heel hook attempt as you begin extracting** (Effectiveness: Medium) - Your Response: Only initiate extraction when your upper body control is secure enough to pull away; if they attack, abort the back take and return to 50-50 top to re-establish control → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent turtles and protects their back by driving forward** (Effectiveness: Low) - Your Response: Follow them into turtle position where back control is still available through standard turtle attacks and spiral ride control → Leads to [[Positions/Back Control]]
 
 
 </section>

@@ -21,7 +21,7 @@ The critical challenge in this transition lies in managing the vulnerability win
 
 Strategically, this transition is essential for any practitioner whose half guard game relies on the underhook sweep system, the old school sweep, or deep half guard entries. It prevents opponents from developing a single-strategy approach to passing your Z-Guard, as the threat of transitioning to a more offensive half guard forces them to respect multiple attack vectors. The ability to flow between Z-Guard's defensive framing and half guard's offensive sweeping creates a dynamic guard game that keeps opponents guessing and unable to commit fully to any single passing strategy.
 
-**From Position**: [[Z-Guard]] (Bottom)
+**From Position**: [[Positions/Z-Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition is essential for any practitioner whose half guar
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Z-Guard]] | 30% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Z-Guard]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -193,29 +193,29 @@ Z-Guard to Half Guard occupies a critical junction in the modern half guard ecos
 ## Related Techniques
 
 
-- [[Z-Guard]] - Source position from which the knee shield is withdrawn to initiate the transition
+- [[Positions/Z-Guard]] - Source position from which the knee shield is withdrawn to initiate the transition
 
-- [[Half Guard]] - Target position establishing underhook-based offensive platform after knee shield withdrawal
+- [[Positions/Half Guard]] - Target position establishing underhook-based offensive platform after knee shield withdrawal
 
-- [[Knee Shield Half Guard]] - Parent position category closely related to Z-Guard defensive structure
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Parent position category closely related to Z-Guard defensive structure
 
-- [[Flattened Half Guard]] - Risk position if transition is executed without proper underhook control or timing
+- [[Positions/Half Guard/Flattened Half Guard]] - Risk position if transition is executed without proper underhook control or timing
 
-- [[Deep Half Guard]] - Alternative transition destination when diving deeper instead of establishing standard half guard
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition destination when diving deeper instead of establishing standard half guard
 
-- [[Dogfight Position]] - Common follow-up position after successful underhook establishment from the new half guard
+- [[Positions/Dogfight Position]] - Common follow-up position after successful underhook establishment from the new half guard
 
-- [[Lockdown]] - Alternative intermediate control system accessible during the transition phase
+- [[Positions/Half Guard/Lockdown]] - Alternative intermediate control system accessible during the transition phase
 
-- [[Old School Sweep]] - Primary offensive technique unlocked by successfully transitioning to standard half guard
+- [[Transitions/Old School Sweep]] - Primary offensive technique unlocked by successfully transitioning to standard half guard
 
-- [[Back Door Escape from Half Guard]] - Follow-up technique available from the established half guard bottom position
+- [[Transitions/Back Door Escape from Half Guard]] - Follow-up technique available from the established half guard bottom position
 
-- [[Half Guard to X-Guard]] - Chain transition available once standard half guard position is established
+- [[Transitions/Half Guard to X-Guard]] - Chain transition available once standard half guard position is established
 
-- [[Sweep from Z-Guard]] - Alternative offensive option from Z-Guard that does not require transitioning
+- [[Transitions/Sweep from Z-Guard]] - Alternative offensive option from Z-Guard that does not require transitioning
 
-- [[Pass Z-Guard]] - Opponent's primary passing threat that may motivate transitioning to a different guard system
+- [[Transitions/Pass Z-Guard]] - Opponent's primary passing threat that may motivate transitioning to a different guard system
 
 
 </section>

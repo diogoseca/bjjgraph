@@ -188,7 +188,7 @@ As the attacker executing the Bridge to Mount from High Mount, your goal is to g
 
 The technique demands precise timing above all else. Bridging against a settled, well-based opponent in high mount is mechanically inefficient and wastes critical energy. The optimal window opens during the top player's weight shifts—when they reach for grips, begin a submission setup, or adjust position. These transitional moments elevate their center of gravity and narrow their support base, creating vulnerability to explosive upward displacement. Mastering this timing transforms the bridge from a desperate gamble into a reliable defensive tool.
 
-**From Position**: [[High Mount]] (Bottom)
+**From Position**: [[Positions/Mount/High Mount]] (Bottom)
 
 </section>
 
@@ -241,9 +241,9 @@ The technique demands precise timing above all else. Bridging against a settled,
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[High Mount]] | 30% |
-| Counter | [[S Mount]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Mount/High Mount]] | 30% |
+| Counter | [[Positions/Mount/S Mount]] | 15% |
 
 
 </section>
@@ -252,10 +252,10 @@ The technique demands precise timing above all else. Bridging against a settled,
 
 ## Opponent Counters
 
-- **Opponent posts hands wide near head and drives hips downward for tripod base stability** (Effectiveness: High) - Your Response: Wait for a different timing window when they reach for grips or submissions rather than bridging against active posting. Their posting creates a stable tripod that absorbs upward force effectively. → Leads to [[High Mount]]
-- **Opponent transitions to S Mount by sliding one knee across torso during bridge displacement** (Effectiveness: Medium) - Your Response: Immediately protect the near-side arm by clasping hands or gripping your own lapel. Work to collapse the S Mount position back through hip movement and frame creation. → Leads to [[S Mount]]
-- **Opponent grapevines both legs inside yours to eliminate hip extension leverage** (Effectiveness: High) - Your Response: Switch to small hip bumps combined with forearm frames on their hips rather than full bridges. Work to free one leg at a time by hooking their foot with yours to break the grapevine configuration. → Leads to [[High Mount]]
-- **Opponent drops chest flat and crossfaces during bridge to maintain heavy forward pressure** (Effectiveness: Medium) - Your Response: Use the chest-to-chest pressure as an opportunity to shrimp to the opposite side of the crossface and create frames for an elbow escape rather than continuing to bridge against the flattened position. → Leads to [[High Mount]]
+- **Opponent posts hands wide near head and drives hips downward for tripod base stability** (Effectiveness: High) - Your Response: Wait for a different timing window when they reach for grips or submissions rather than bridging against active posting. Their posting creates a stable tripod that absorbs upward force effectively. → Leads to [[Positions/Mount/High Mount]]
+- **Opponent transitions to S Mount by sliding one knee across torso during bridge displacement** (Effectiveness: Medium) - Your Response: Immediately protect the near-side arm by clasping hands or gripping your own lapel. Work to collapse the S Mount position back through hip movement and frame creation. → Leads to [[Positions/Mount/S Mount]]
+- **Opponent grapevines both legs inside yours to eliminate hip extension leverage** (Effectiveness: High) - Your Response: Switch to small hip bumps combined with forearm frames on their hips rather than full bridges. Work to free one leg at a time by hooking their foot with yours to break the grapevine configuration. → Leads to [[Positions/Mount/High Mount]]
+- **Opponent drops chest flat and crossfaces during bridge to maintain heavy forward pressure** (Effectiveness: Medium) - Your Response: Use the chest-to-chest pressure as an opportunity to shrimp to the opposite side of the crossface and create frames for an elbow escape rather than continuing to bridge against the flattened position. → Leads to [[Positions/Mount/High Mount]]
 
 
 </section>

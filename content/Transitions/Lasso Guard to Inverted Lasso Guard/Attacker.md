@@ -180,7 +180,7 @@ description: "How to execute the transition to inverted lasso guard. Step-by-ste
 
 Executing the transition to inverted lasso guard requires coordinating grip retention, hip movement, and momentum generation into a single fluid motion. The attacker (bottom player) must maintain the structural integrity of their lasso hook throughout a backwards roll that fundamentally changes the angle of engagement. This is not a strength-based movement but a timing and mechanics-based technique where the opponent's own pressure and reactions provide the energy needed for the inversion. The critical skill is learning to roll without losing tension on the lasso or sleeve grip, which demands specific body coordination that only develops through deliberate practice.
 
-**From Position**: [[Lasso Guard]] (Bottom)
+**From Position**: [[Positions/Lasso Guard]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ Executing the transition to inverted lasso guard requires coordinating grip rete
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inverted Lasso Guard]] | 70% |
-| Failure | [[Lasso Guard]] | 20% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Lasso Guard/Inverted Lasso Guard]] | 70% |
+| Failure | [[Positions/Lasso Guard]] | 20% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -244,10 +244,10 @@ Executing the transition to inverted lasso guard requires coordinating grip rete
 
 ## Opponent Counters
 
-- **Opponent drives forward pressure onto inverted shoulders to pin hips and prevent rotation** (Effectiveness: High) - Your Response: If caught with hips pinned, immediately abandon the inversion and return to upright lasso guard rather than fighting from a compromised position. Use the lasso hook to create a frame that prevents full pressure, then hip escape back to standard guard. → Leads to [[Lasso Guard]]
-- **Opponent strips sleeve grip during the roll by explosively pulling their arm back** (Effectiveness: Medium) - Your Response: If sleeve grip breaks mid-inversion, immediately transition to inverted guard or recover to open guard. Do not continue the inversion without sleeve control as it eliminates all subsequent attack options and leaves you exposed. → Leads to [[Open Guard]]
-- **Opponent steps over the lasso leg during the inversion transition to extract their arm** (Effectiveness: High) - Your Response: Recognize the step-over early and convert to a different attack before the extraction completes. The step-over motion often exposes their back - use your free leg to hook their far hip and follow their rotation to take the back, or abandon the inversion and attack with an omoplata on the stepping leg. → Leads to [[Lasso Guard]]
-- **Opponent creates distance by backing away as inversion initiates, denying the connection needed for the roll** (Effectiveness: Medium) - Your Response: If the opponent creates distance, the inversion will lack power and connection. Return to standard lasso guard and use the lasso hook to pull them back into range before re-attempting. Alternatively, transition to De La Riva or single leg X entries that work at longer range. → Leads to [[Lasso Guard]]
+- **Opponent drives forward pressure onto inverted shoulders to pin hips and prevent rotation** (Effectiveness: High) - Your Response: If caught with hips pinned, immediately abandon the inversion and return to upright lasso guard rather than fighting from a compromised position. Use the lasso hook to create a frame that prevents full pressure, then hip escape back to standard guard. → Leads to [[Positions/Lasso Guard]]
+- **Opponent strips sleeve grip during the roll by explosively pulling their arm back** (Effectiveness: Medium) - Your Response: If sleeve grip breaks mid-inversion, immediately transition to inverted guard or recover to open guard. Do not continue the inversion without sleeve control as it eliminates all subsequent attack options and leaves you exposed. → Leads to [[Positions/Open Guard]]
+- **Opponent steps over the lasso leg during the inversion transition to extract their arm** (Effectiveness: High) - Your Response: Recognize the step-over early and convert to a different attack before the extraction completes. The step-over motion often exposes their back - use your free leg to hook their far hip and follow their rotation to take the back, or abandon the inversion and attack with an omoplata on the stepping leg. → Leads to [[Positions/Lasso Guard]]
+- **Opponent creates distance by backing away as inversion initiates, denying the connection needed for the roll** (Effectiveness: Medium) - Your Response: If the opponent creates distance, the inversion will lack power and connection. Return to standard lasso guard and use the lasso hook to pull them back into range before re-attempting. Alternatively, transition to De La Riva or single leg X entries that work at longer range. → Leads to [[Positions/Lasso Guard]]
 
 
 </section>

@@ -21,7 +21,7 @@ The triangle setup demonstrates the principle of using the opponent's defensive 
 
 This technique serves as a gateway to multiple attacking options including the triangle choke itself, omoplata transitions, armbar variations, and back take opportunities. The setup creates a branching attack tree where every defensive reaction from the opponent opens a different offensive pathway. Mastering the setup phase dramatically increases submission success rates across all skill levels and forms the foundation of a dangerous guard game that forces constant defensive dilemmas.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ This technique serves as a gateway to multiple attacking options including the t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Control]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Triangle Control]] | 60% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -196,35 +196,35 @@ The Triangle Setup serves as a critical attacking hub within the closed guard sy
 ## Related Techniques
 
 
-- [[Closed Guard]] - Primary starting position
+- [[Positions/Closed Guard]] - Primary starting position
 
-- [[Triangle Control]] - Direct progression on successful setup
+- [[Positions/Triangle Control]] - Direct progression on successful setup
 
-- [[Triangle from Closed Guard]] - Follow-up submission finish
+- [[Submissions/Triangle from Closed Guard]] - Follow-up submission finish
 
-- [[Triangle Choke]] - Primary submission finish from triangle control
+- [[Transitions/Triangle Choke]] - Primary submission finish from triangle control
 
-- [[Triangle to Armbar]] - Alternative finish when opponent defends choke
+- [[Transitions/Triangle to Armbar]] - Alternative finish when opponent defends choke
 
-- [[Triangle to Omoplata]] - Alternative transition when opponent stacks
+- [[Transitions/Triangle to Omoplata]] - Alternative transition when opponent stacks
 
-- [[Triangle to Back]] - Alternative transition when opponent extracts arm
+- [[Transitions/Triangle to Back]] - Alternative transition when opponent extracts arm
 
-- [[Omoplata]] - Alternative submission from same arm isolation setup
+- [[Transitions/Omoplata]] - Alternative submission from same arm isolation setup
 
-- [[Armbar from Guard]] - Alternative submission sharing posture-break prerequisites
+- [[Submissions/Armbar from Guard]] - Alternative submission sharing posture-break prerequisites
 
-- [[Hip Bump Sweep]] - Combination attack — opponent defending triangle creates sweep opportunity
+- [[Transitions/Hip Bump Sweep]] - Combination attack — opponent defending triangle creates sweep opportunity
 
-- [[Pendulum Sweep]] - Alternative when triangle setup is defended with posture recovery
+- [[Transitions/Pendulum Sweep]] - Alternative when triangle setup is defended with posture recovery
 
-- [[Spider Guard]] - Alternative starting position for spider guard variant
+- [[Positions/Spider Guard]] - Alternative starting position for spider guard variant
 
-- [[Rubber Guard]] - Alternative control system enabling no-gi triangle setup
+- [[Positions/Rubber Guard]] - Alternative control system enabling no-gi triangle setup
 
-- [[Mission Control]] - Rubber guard position providing pre-broken posture for setup
+- [[Positions/Rubber Guard/Mission Control]] - Rubber guard position providing pre-broken posture for setup
 
-- [[Overhook Guard]] - Alternative starting position for overhook variant
+- [[Positions/Overhook Guard]] - Alternative starting position for overhook variant
 
 
 </section>

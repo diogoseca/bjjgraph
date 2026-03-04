@@ -182,7 +182,7 @@ Executing the escape from Twister Side Control requires disciplined layered prob
 
 The escape is built on the principle that the top player cannot maintain all three control elements at maximum effectiveness simultaneously. By systematically attacking each layer—first neutralizing spinal threat, then reducing shoulder pressure through frames, and finally extracting the trapped leg—the bottom player creates cumulative positional advantages that eventually allow transition to turtle or guard. Success depends on patience, precise frame placement, and recognition of the optimal moment to commit to the final escape movement.
 
-**From Position**: [[Twister Side Control]] (Bottom)
+**From Position**: [[Positions/Twister Control/Twister Side Control]] (Bottom)
 
 </section>
 
@@ -235,10 +235,10 @@ The escape is built on the principle that the top player cannot maintain all thr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 35% |
-| Success | [[Half Guard]] | 10% |
-| Failure | [[Twister Side Control]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Turtle]] | 35% |
+| Success | [[Positions/Half Guard]] | 10% |
+| Failure | [[Positions/Twister Control/Twister Side Control]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -247,10 +247,10 @@ The escape is built on the principle that the top player cannot maintain all thr
 
 ## Opponent Counters
 
-- **Opponent retightens leg hook by driving knee deeper behind your knee and squeezing when you begin leg extraction** (Effectiveness: High) - Your Response: Temporarily pause leg extraction, reinforce frames, and wait for the opponent to shift weight toward a submission attempt before resuming extraction during their transition → Leads to [[Twister Side Control]]
-- **Opponent increases shoulder pressure and drives your near shoulder to the mat to collapse your frames** (Effectiveness: High) - Your Response: Maintain frame structure by keeping elbows bent and connected to hips—adjust frame angle to deflect pressure laterally rather than absorbing it directly through muscular resistance → Leads to [[Twister Side Control]]
-- **Opponent follows your turning motion and transitions to back control as you expose your back during the escape** (Effectiveness: Medium) - Your Response: Control the rate of turning through frame contact—never turn faster than your frames can manage. If back is exposed, immediately transition to standard back defense with elbow and chin protection → Leads to [[Back Control]]
-- **Opponent sprawls hips back and drives forward pressure to flatten you when you attempt to create space** (Effectiveness: Medium) - Your Response: Use the forward drive against them by timing a modified granby roll underneath their pressure, redirecting their momentum to create space for guard recovery → Leads to [[Twister Side Control]]
+- **Opponent retightens leg hook by driving knee deeper behind your knee and squeezing when you begin leg extraction** (Effectiveness: High) - Your Response: Temporarily pause leg extraction, reinforce frames, and wait for the opponent to shift weight toward a submission attempt before resuming extraction during their transition → Leads to [[Positions/Twister Control/Twister Side Control]]
+- **Opponent increases shoulder pressure and drives your near shoulder to the mat to collapse your frames** (Effectiveness: High) - Your Response: Maintain frame structure by keeping elbows bent and connected to hips—adjust frame angle to deflect pressure laterally rather than absorbing it directly through muscular resistance → Leads to [[Positions/Twister Control/Twister Side Control]]
+- **Opponent follows your turning motion and transitions to back control as you expose your back during the escape** (Effectiveness: Medium) - Your Response: Control the rate of turning through frame contact—never turn faster than your frames can manage. If back is exposed, immediately transition to standard back defense with elbow and chin protection → Leads to [[Positions/Back Control]]
+- **Opponent sprawls hips back and drives forward pressure to flatten you when you attempt to create space** (Effectiveness: Medium) - Your Response: Use the forward drive against them by timing a modified granby roll underneath their pressure, redirecting their momentum to create space for guard recovery → Leads to [[Positions/Twister Control/Twister Side Control]]
 
 
 </section>

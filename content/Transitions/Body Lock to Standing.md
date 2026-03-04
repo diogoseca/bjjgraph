@@ -21,7 +21,7 @@ The technical challenge lies in disengaging safely without exposing yourself to 
 
 This transition appears at low frequency in competition because body lock represents such dominant control that voluntarily abandoning it constitutes a significant positional sacrifice. However, understanding when and how to execute this reset prevents burning excessive energy in a stalled exchange and allows you to re-engage with fresh grips and a new tactical approach. Elite competitors use this as a calculated tactical tool rather than a sign of failure, treating the reset as an opportunity to shift their offensive angle and approach from a different entry point.
 
-**From Position**: [[Body Lock]] (Top)
+**From Position**: [[Positions/Body Lock]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition appears at low frequency in competition because body lock repres
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Body Lock]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Body Lock]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,21 +191,21 @@ The Body Lock to Standing transition occupies a unique position within the broad
 ## Related Techniques
 
 
-- [[Body Lock]] - Source position from which this transition originates when body lock attacks are being defended
+- [[Positions/Body Lock]] - Source position from which this transition originates when body lock attacks are being defended
 
-- [[Standing Position]] - Target position reached upon successful disengagement from body lock control
+- [[Positions/Standing Position]] - Target position reached upon successful disengagement from body lock control
 
-- [[Half Guard]] - Counter outcome position when opponent capitalizes on the transition with a takedown
+- [[Positions/Half Guard]] - Counter outcome position when opponent capitalizes on the transition with a takedown
 
-- [[Clinch]] - Related standing control position often reached after resetting from body lock
+- [[Positions/Clinch]] - Related standing control position often reached after resetting from body lock
 
-- [[Body Lock Takedown]] - Primary alternative attack from body lock when takedown is preferred over disengagement
+- [[Transitions/Body Lock Takedown]] - Primary alternative attack from body lock when takedown is preferred over disengagement
 
-- [[Body Lock Pass]] - Ground passing alternative when body lock is maintained as opponent sits to guard
+- [[Transitions/Body Lock Pass]] - Ground passing alternative when body lock is maintained as opponent sits to guard
 
-- [[Back Take]] - Highest-value alternative attack from body lock position instead of disengaging
+- [[Transitions/Back Take]] - Highest-value alternative attack from body lock position instead of disengaging
 
-- [[Body Lock Takedown from Clinch]] - Related clinch-to-takedown technique within the body lock offensive system
+- [[Transitions/Body Lock Takedown from Clinch]] - Related clinch-to-takedown technique within the body lock offensive system
 
 
 </section>

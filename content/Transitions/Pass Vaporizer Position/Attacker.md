@@ -180,7 +180,7 @@ description: "Complete guide to passing the Vaporizer position from top. Learn l
 
 Passing the Vaporizer from top requires a methodical approach that prioritizes base stability and systematic lockdown clearance over speed. The attacker must first neutralize the whip-up pressure through base widening and shoulder pressure, then address the lockdown through controlled leg circulation movements that gradually degrade the figure-four configuration. Rushing the pass creates opportunities for the bottom player to sweep or advance to more dangerous positions like the Electric Chair or Truck. The successful passer treats this as a multi-phase operation: stabilize, neutralize upper body control, clear the lockdown, then advance to side control.
 
-**From Position**: [[Vaporizer]] (Top)
+**From Position**: [[Positions/Vaporizer]] (Top)
 
 </section>
 
@@ -231,10 +231,10 @@ Passing the Vaporizer from top requires a methodical approach that prioritizes b
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Half Guard]] | 20% |
-| Failure | [[Vaporizer]] | 15% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/Vaporizer]] | 15% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Passing the Vaporizer from top requires a methodical approach that prioritizes b
 
 ## Opponent Counters
 
-- **Bottom player re-establishes lockdown by hooking foot behind knee during extraction** (Effectiveness: High) - Your Response: Immediately return to knee-toward-mat orientation and restart the circulation process. Increase shoulder pressure to limit their ability to reposition the lock. Consider switching to the backstep extraction variant if they successfully re-lock multiple times. → Leads to [[Vaporizer]]
-- **Bottom player executes Old School sweep during weight shift, using posted hand as fulcrum** (Effectiveness: Medium) - Your Response: Widen base in the opposite direction of their sweep and drive crossface pressure harder. If sweep begins completing, post your free hand wide and work to re-establish top position in half guard rather than fighting the full sweep. → Leads to [[Half Guard]]
-- **Bottom player inserts knee for half guard retention as lockdown clears** (Effectiveness: Medium) - Your Response: Immediately transition to standard half guard passing sequence. Use crossface and underhook to flatten them before attempting knee slice or pressure pass. The critical window is preventing the knee shield from being established. → Leads to [[Half Guard]]
-- **Bottom player increases whip-up pressure and threatens Electric Chair during extraction attempt** (Effectiveness: High) - Your Response: Abandon extraction temporarily and address the whip-up by driving weight back and widening base. Keep hips heavy to prevent the leg split required for Electric Chair. Once the immediate threat passes, restart extraction from a more stable position. → Leads to [[Vaporizer]]
+- **Bottom player re-establishes lockdown by hooking foot behind knee during extraction** (Effectiveness: High) - Your Response: Immediately return to knee-toward-mat orientation and restart the circulation process. Increase shoulder pressure to limit their ability to reposition the lock. Consider switching to the backstep extraction variant if they successfully re-lock multiple times. → Leads to [[Positions/Vaporizer]]
+- **Bottom player executes Old School sweep during weight shift, using posted hand as fulcrum** (Effectiveness: Medium) - Your Response: Widen base in the opposite direction of their sweep and drive crossface pressure harder. If sweep begins completing, post your free hand wide and work to re-establish top position in half guard rather than fighting the full sweep. → Leads to [[Positions/Half Guard]]
+- **Bottom player inserts knee for half guard retention as lockdown clears** (Effectiveness: Medium) - Your Response: Immediately transition to standard half guard passing sequence. Use crossface and underhook to flatten them before attempting knee slice or pressure pass. The critical window is preventing the knee shield from being established. → Leads to [[Positions/Half Guard]]
+- **Bottom player increases whip-up pressure and threatens Electric Chair during extraction attempt** (Effectiveness: High) - Your Response: Abandon extraction temporarily and address the whip-up by driving weight back and widening base. Keep hips heavy to prevent the leg split required for Electric Chair. Once the immediate threat passes, restart extraction from a more stable position. → Leads to [[Positions/Vaporizer]]
 
 
 </section>

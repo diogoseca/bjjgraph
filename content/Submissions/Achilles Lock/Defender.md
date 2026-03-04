@@ -156,7 +156,7 @@ description: "How to defend against Achilles Lock in BJJ. Recognition, escape pa
 
 Defending the Achilles Lock requires early recognition and decisive action before the attacker establishes the three conditions for a locked finish: hip extension, fulcrum placement on the tendon, and tight knee squeeze. The defender's window of opportunity narrows rapidly once the attacker secures heel control in the armpit and begins leaning back. Unlike heel hook defense where rotation is the primary concern, Achilles Lock defense centers on preventing the attacker from creating the straight-line compression that targets the posterior ankle. The defender must address both the positional control (breaking the Ashi Garami leg configuration) and the grip mechanics (preventing the fulcrum from settling on the Achilles tendon). Early intervention through foot rotation, hip movement, and leg extraction dramatically outperforms late-stage escape attempts. Understanding the attacker's mechanical requirements allows the defender to disrupt specific elements of the finishing sequence rather than relying on pure strength to resist the submission.
 
-**Opponent's Starting Position**: [[Inside Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 
 </section>
@@ -194,28 +194,28 @@ Defending the Achilles Lock requires early recognition and decisive action befor
 ### 1. Knee rotation defense - turn your knee sharply inward toward the attacker to rotate the Achilles tendon away from the fulcrum
 
 - **When to use**: As soon as you feel the attacker positioning their wrist bone on your Achilles tendon, before they begin hip extension
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Achilles tendon rotates away from pressure point, submission becomes ineffective, and you create opportunity to work leg extraction or counter-attack
 - **Risk**: Inward knee rotation can expose your heel to heel hook attacks if the attacker transitions their grip to capture the exposed heel
 
 ### 2. Sit-up and forward drive - explosively sit up and drive your weight forward into the attacker to collapse their backward lean
 
 - **When to use**: When the attacker begins leaning back but has not yet achieved full hip extension, or when you feel the breaking angle developing
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Collapses the attacker's angle, removes the space needed for hip extension, and may allow you to establish top pressure that facilitates leg extraction
 - **Risk**: If poorly timed, the attacker may use your forward momentum to complete a belly-down variation or transition to a different submission
 
 ### 3. Leg extraction through the gap - pull your knee back through any space between the attacker's legs while pushing their top knee away
 
 - **When to use**: When you identify any gap between the attacker's knees, especially during their grip transitions or positional adjustments
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Full leg extraction frees you from the entanglement entirely, allowing guard recovery or scramble to neutral position
 - **Risk**: If the attacker maintains heel control during extraction, the pulling motion can increase pressure on the Achilles tendon momentarily
 
 ### 4. Boot defense - grab your own foot or shin with both hands to create a frame that blocks the attacker's hip extension
 
 - **When to use**: As a last resort when the attacker has already established deep heel control and is beginning hip extension
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: Creates temporary frame that slows the submission and buys time to work a higher-percentage escape like knee rotation or sit-up
 - **Risk**: This is a stalling defense only - proper technique will eventually overcome the frame, and you risk wrist injury if the attacker extends through your grip
 
@@ -238,11 +238,11 @@ Defending the Achilles Lock requires early recognition and decisive action befor
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ashi Garami]]
+### → [[Positions/Ashi Garami]]
 
 Sit up aggressively and drive forward into the attacker to collapse their angle, then use superior positioning and weight to work systematic leg extraction from top
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Successfully extract your leg through the gap between attacker's knees during a grip transition, then immediately recover guard before they can re-establish leg control
 

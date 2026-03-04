@@ -160,7 +160,7 @@ The defensive framework against the triangle from closed guard operates on a tim
 
 Successful triangle defense requires understanding the attacker's mechanics in reverse. The defender must address the three pillars that make the triangle effective: angle (by squaring up), posture (by driving upward), and arm isolation (by extracting or repositioning the trapped arm). Each defensive action carries risk - posturing can feed the armbar, turning can open the omoplata, and stacking without technique can worsen the choke. This is why systematic defensive training that accounts for the attacker's follow-up options is essential for developing reliable triangle defense at the purple belt level and above.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 
 </section>
@@ -200,28 +200,28 @@ Successful triangle defense requires understanding the attacker's mechanics in r
 ### 1. Posture up and stack defense - drive head upward while clasping hands together and driving weight forward into opponent to compress their triangle
 
 - **When to use**: When triangle is partially locked but opponent has not yet achieved proper angle; most effective in the first 2-3 seconds after leg swings over shoulder
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Opponent's triangle loosens as their hips are compressed, allowing you to extract arm and recover to closed guard top or begin passing
 - **Risk**: If opponent has good angle, stacking can actually tighten the choke; also exposes you to omoplata if they redirect your forward pressure
 
 ### 2. Turn toward the choking leg and drive shoulder into opponent's inner thigh to create space and relieve neck pressure
 
 - **When to use**: When triangle is locked and stacking is not possible due to opponent's angle; turning toward the choking leg relieves the most pressure
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Pressure on neck is relieved, creating window to extract trapped arm and begin working to pass or recover posture
 - **Risk**: If you turn too far, opponent can transition to armbar on your trapped arm; must maintain awareness of arm position during the turn
 
 ### 3. Stand up in base while maintaining posture and drive opponent's hips to the mat to break the triangle configuration
 
 - **When to use**: When you still have base and opponent's triangle is not fully locked; requires good balance and timing before they complete the lock
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Standing breaks the triangle's structural advantage; you can then work to pass guard or shake loose the triangle entirely
 - **Risk**: Opponent may transition to armbar from the standing triangle position; in competition, slamming from standing triangle is illegal
 
 ### 4. Two-on-one grip break on controlling hand while driving posture upward to prevent triangle lock completion
 
 - **When to use**: Early stage defense when opponent has wrist control and is beginning to open guard but has not yet swung leg over shoulder
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Breaking the controlling grip prevents the setup from progressing; you return to neutral closed guard top with opportunity to re-establish posture
 - **Risk**: Releasing your own grips to fight their wrist control may open brief window for opponent to attempt alternative attacks
 
@@ -245,11 +245,11 @@ Successful triangle defense requires understanding the attacker's mechanics in r
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Successfully break opponent's triangle by stacking, turning, or extracting trapped arm, then recover posture and re-establish inside their closed guard with defensive grips preventing re-attack
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Use the stack defense to fold opponent and pass directly to side control as their triangle loosens, or stand and pass while their legs are disorganized from the failed triangle attempt
 

@@ -19,7 +19,7 @@ Turtle Flatten to Side Control is a fundamental top-game transition that convert
 
 Strategically, the flatten is a high-percentage option when the opponent has excellent turtle defense or when you recognize that forcing the back take will result in scrambles that favor the bottom player. The flatten works by exploiting the structural weakness of turtle position: the base collapses when lateral pressure is applied at the hip line while controlling the upper body. By breaking the four-point base down to a flat position, you eliminate the opponent's ability to execute granby rolls, sit-throughs, or stand-ups, converting a volatile scramble-prone position into a controlled passing scenario. Competition-proven athletes frequently use this transition as a reliable pathway when back take attempts stall, particularly against opponents with strong turtle defense built around constant motion and grip fighting.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -30,9 +30,9 @@ Strategically, the flatten is a high-percentage option when the opponent has exc
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Turtle]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Turtle]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,27 +189,27 @@ Turtle Flatten to Side Control occupies a critical decision point in the turtle 
 ## Related Techniques
 
 
-- [[Turtle]] - Starting position
+- [[Positions/Turtle]] - Starting position
 
-- [[Side Control]] - Target position upon successful completion
+- [[Positions/Side Control]] - Target position upon successful completion
 
-- [[Back Take from Top]] - Primary alternative attack from turtle top
+- [[Transitions/Back Take from Top]] - Primary alternative attack from turtle top
 
-- [[Crucifix from Turtle]] - Alternative attack when opponent posts arm during flatten
+- [[Transitions/Crucifix from Turtle]] - Alternative attack when opponent posts arm during flatten
 
-- [[Kimura from Turtle]] - Submission option on posted arm during flatten defense
+- [[Submissions/Kimura from Turtle]] - Submission option on posted arm during flatten defense
 
-- [[Anaconda from Turtle]] - Front headlock submission if opponent sits through flatten
+- [[Transitions/Anaconda from Turtle]] - Front headlock submission if opponent sits through flatten
 
-- [[Arm Triangle from Turtle]] - Alternative submission when flattening exposes the neck
+- [[Transitions/Arm Triangle from Turtle]] - Alternative submission when flattening exposes the neck
 
-- [[Granby Roll to Guard]] - Primary counter opponent uses against the flatten
+- [[Transitions/Granby Roll to Guard]] - Primary counter opponent uses against the flatten
 
-- [[Side Control to Mount]] - Follow-up advancement after establishing side control
+- [[Transitions/Side Control to Mount]] - Follow-up advancement after establishing side control
 
-- [[Knee on Belly]] - Follow-up transition from the resulting side control
+- [[Positions/Knee on Belly]] - Follow-up transition from the resulting side control
 
-- [[Half Guard]] - Position opponent may recover to if flatten is partially countered
+- [[Positions/Half Guard]] - Position opponent may recover to if flatten is partially countered
 
 
 </section>

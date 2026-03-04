@@ -196,21 +196,21 @@ The defensive framework centers on three sequential priorities: first, prevent f
 ### 1. Hip frame and lateral shift to displace attacker's compression alignment
 
 - **When to use**: Immediately upon recognizing hip pressure shifting to lumbar spine, before full compression is established
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: Attacker's hips slide off the compression line, reducing pressure to manageable level and returning to standard Truck defensive situation
 - **Risk**: If attacker follows your lateral shift and re-centers, you may have burned energy without escaping and given them a more settled position
 
 ### 2. Aggressive leg extraction by circling trapped leg and attacking Truck hooks
 
 - **When to use**: When compression is beginning but attacker has not fully committed weight, creating a window where their leg control may be loosened
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Freeing the trapped leg collapses the entire Truck structure, removing the anchor for both rotational control and spinal compression
 - **Risk**: Explosive leg movement during active compression can increase spinal loading momentarily before the leg comes free
 
 ### 3. Forward roll through the compression to invert and escape the Truck entirely
 
 - **When to use**: When attacker's weight is committed forward and their balance is compromised by the compression attempt, creating opportunity to use their momentum
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Rolling through breaks the compression angle entirely and can leave you in turtle or half guard with the attacker displaced behind you
 - **Risk**: Failed roll with active compression can result in worse spinal loading if attacker follows and re-establishes on the other side
 
@@ -240,11 +240,11 @@ The defensive framework centers on three sequential priorities: first, prevent f
 
 ## Best-Case Outcomes for Defender
 
-### → [[Truck]]
+### → [[Positions/Twister Control/Truck]]
 
 Displace attacker's hip alignment through lateral shifting and framing, reducing the spine lock to a standard Truck situation where established Truck bottom escape sequences become available
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Extract trapped leg from Truck hooks during the compression attempt when attacker's focus shifts from leg retention to hip pressure application, then immediately recover to turtle and work standard escape sequences
 

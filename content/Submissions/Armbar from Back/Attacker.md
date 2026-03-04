@@ -176,7 +176,7 @@ description: "How to execute Armbar from Back in BJJ. Attacking perspective with
 
 The Armbar from Back Control represents one of the most devastating finishing sequences in Brazilian Jiu-Jitsu, combining positional dominance with precise joint manipulation. From the back mount position, where you already control the most advantageous position in grappling, the armbar becomes available when the opponent defends the rear naked choke by gripping their hands together or tucking their chin. This submission targets the elbow joint through hip extension and leg control, creating a mechanical advantage that makes escape nearly impossible once properly locked. The transition from back control to armbar requires careful weight distribution and timing, as abandoning the back position prematurely can result in losing dominant control. Elite grapplers use this technique as part of a systematic attack chain, forcing opponents into defensive dilemmas where defending the choke opens the arm, and protecting the arm exposes the neck. The armbar from back is particularly effective in competition because it maintains control throughout the transition, preventing opponents from improving position even if they defend the initial submission attempt.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 
 
 </section>
@@ -231,8 +231,8 @@ The Armbar from Back Control represents one of the most devastating finishing se
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ The Armbar from Back Control represents one of the most devastating finishing se
 
 ## Opponent Defenses
 
-- **Opponent grips their own hands together in a defensive ball** (Effectiveness: Medium) - Your Response: Maintain choke threat with one arm while using your other hand to peel their grip apart. Focus on isolating whichever arm is more extended. Use your body weight to break their posture forward, making the grip harder to maintain. → Leads to [[Back Control]]
-- **Opponent tucks chin and hides both arms defensively** (Effectiveness: Low) - Your Response: Increase back control pressure and threaten bow and arrow choke or collar chokes. As they defend these attacks, their arms will extend, creating armbar opportunities. Be patient and cycle through submission threats. → Leads to [[Back Control]]
-- **Opponent tries to roll forward to escape as you swing leg over** (Effectiveness: High) - Your Response: Keep your bottom hook in and hip connection tight to opponent's back. Don't commit fully to the armbar until you feel you have complete control. If they start rolling, abandon the armbar and retake the back or transition to mount. → Leads to [[Closed Guard]]
-- **Opponent bends their arm and tries to pull elbow to chest** (Effectiveness: Medium) - Your Response: Use both hands to control their wrist and prevent elbow flexion. Pinch knees tighter together and ensure proper thumb-up alignment. Adjust angle of your hips to be more perpendicular to their arm, making it mechanically impossible for them to maintain the bend. → Leads to [[Back Control]]
+- **Opponent grips their own hands together in a defensive ball** (Effectiveness: Medium) - Your Response: Maintain choke threat with one arm while using your other hand to peel their grip apart. Focus on isolating whichever arm is more extended. Use your body weight to break their posture forward, making the grip harder to maintain. → Leads to [[Positions/Back Control]]
+- **Opponent tucks chin and hides both arms defensively** (Effectiveness: Low) - Your Response: Increase back control pressure and threaten bow and arrow choke or collar chokes. As they defend these attacks, their arms will extend, creating armbar opportunities. Be patient and cycle through submission threats. → Leads to [[Positions/Back Control]]
+- **Opponent tries to roll forward to escape as you swing leg over** (Effectiveness: High) - Your Response: Keep your bottom hook in and hip connection tight to opponent's back. Don't commit fully to the armbar until you feel you have complete control. If they start rolling, abandon the armbar and retake the back or transition to mount. → Leads to [[Positions/Closed Guard]]
+- **Opponent bends their arm and tries to pull elbow to chest** (Effectiveness: Medium) - Your Response: Use both hands to control their wrist and prevent elbow flexion. Pinch knees tighter together and ensure proper thumb-up alignment. Adjust angle of your hips to be more perpendicular to their arm, making it mechanically impossible for them to maintain the bend. → Leads to [[Positions/Back Control]]
 - **Opponent grabs their own collar or gi to create a frame** (Effectiveness: Low) - Your Response: This defense actually helps you by keeping their arm extended. Simply control the wrist and proceed with the armbar. Their grip on the collar won't prevent the elbow from hyperextending once you establish proper position. → Leads to [[game-over]]
 
 

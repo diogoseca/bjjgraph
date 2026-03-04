@@ -210,27 +210,27 @@ Strategically, the position forces top players into impossible choices—they mu
 
 ## Available Escapes
 
-### [[Old School Sweep]] (31% of attempts)
+### [[Transitions/Old School Sweep]] (31% of attempts)
 
-### [[Kimura to Back Take]] (14% of attempts)
+### [[Transitions/Kimura to Back Take]] (14% of attempts)
 
-### [[Kimura Sweep]] (10% of attempts)
+### [[Transitions/Kimura Sweep]] (10% of attempts)
 
-### [[Rolling Kimura]] (10% of attempts)
+### [[Transitions/Rolling Kimura]] (10% of attempts)
 
-### [[Underhook Sweep from Half]] (6% of attempts)
+### [[Transitions/Underhook Sweep from Half]] (6% of attempts)
 
-### [[Half Guard to Back Take]] (6% of attempts)
+### [[Transitions/Half Guard to Back Take]] (6% of attempts)
 
-### [[Lockdown Recovery]] (6% of attempts)
+### [[Transitions/Lockdown Recovery]] (6% of attempts)
 
-### [[Electric Chair Transition]] (6% of attempts)
+### [[Transitions/Electric Chair Transition]] (6% of attempts)
 
-### [[Half Guard Pass]] (6% of attempts)
+### [[Transitions/Half Guard Pass]] (6% of attempts)
 
-### [[Kimura Counter via Roll]] (3% of attempts)
+### [[Transitions/Kimura Counter via Roll]] (3% of attempts)
 
-### [[Kimura Defense Arm Extraction]] (2% of attempts)
+### [[Transitions/Kimura Defense Arm Extraction]] (2% of attempts)
 
 
 
@@ -241,23 +241,23 @@ Strategically, the position forces top players into impossible choices—they mu
 ## Decision Making from This Position
 
 **If opponent widens base and posts far leg to defend Kimura submission:**
-- Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 70%)
-- Execute **[[Rolling Kimura]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Rolling Kimura]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent turns into Kimura grip to alleviate shoulder pressure or defend submission:**
-- Execute **[[Kimura to Back Take]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Half Guard to Back Take]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Kimura to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent drives forward aggressively to flatten hips and neutralize Kimura system:**
-- Execute **[[Rolling Kimura]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Underhook Sweep from Half]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Rolling Kimura]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Underhook Sweep from Half]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent pulls arm back and attempts to extract from Kimura grip:**
-- Execute **[[Kimura Sweep]]** → [[Armbar Control]] (Probability: 80%)
-- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Kimura Sweep]]** → [[Positions/Armbar Control]] (Probability: 80%)
+- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
 
 
 
@@ -391,16 +391,16 @@ Start in Kimura Trap Bottom. Partner cycles through four defensive reactions: (1
 
 ## Related Positions and Techniques
 
-- **[[Half Guard]]** - Primary entry position - most common starting point for establishing Kimura Trap Bottom
-- **[[Lockdown]]** - Common leg configuration - often combined with Kimura grip for enhanced control
-- **[[Old School Sweep]]** - Primary sweep option - highest percentage sweep from Kimura Trap Bottom position
-- **[[Kimura]]** - Primary submission threat - direct finish option from this control position
-- **[[Back Control]]** - Common transition target - reached when opponent turns into Kimura grip defensively
-- **[[Side Control]]** - Alternative entry position - can establish Kimura Trap when opponent commits arm
-- **[[Deep Half Guard]]** - Alternative bottom position - shares focus on creating sweeps from inferior position
-- **[[Turtle]]** - Entry position - opponent's turtle creates arm exposure for Kimura grip establishment
-- **[[Kimura to Back Take]]** - Key transition - used when opponent turns into grip defensively
-- **[[Electric Chair]]** - Connected attack - accessible when opponent defends Kimura from lockdown
+- **[[Positions/Half Guard]]** - Primary entry position - most common starting point for establishing Kimura Trap Bottom
+- **[[Positions/Half Guard/Lockdown]]** - Common leg configuration - often combined with Kimura grip for enhanced control
+- **[[Transitions/Old School Sweep]]** - Primary sweep option - highest percentage sweep from Kimura Trap Bottom position
+- **[[Transitions/Kimura]]** - Primary submission threat - direct finish option from this control position
+- **[[Positions/Back Control]]** - Common transition target - reached when opponent turns into Kimura grip defensively
+- **[[Positions/Side Control]]** - Alternative entry position - can establish Kimura Trap when opponent commits arm
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative bottom position - shares focus on creating sweeps from inferior position
+- **[[Positions/Turtle]]** - Entry position - opponent's turtle creates arm exposure for Kimura grip establishment
+- **[[Transitions/Kimura to Back Take]]** - Key transition - used when opponent turns into grip defensively
+- **[[Positions/Half Guard/Electric Chair]]** - Connected attack - accessible when opponent defends Kimura from lockdown
 
 
 </section>

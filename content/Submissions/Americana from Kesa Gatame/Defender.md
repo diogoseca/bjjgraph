@@ -156,7 +156,7 @@ description: "Complete defensive guide for surviving and escaping the Americana 
 
 Defending the Americana from Kesa Gatame requires recognizing the submission threat before the figure-four grip is secured. The critical defensive window occurs when the attacker transitions from head control to arm control—this momentary release of head pressure creates the best opportunity for escape. The defender must prioritize preventing wrist isolation, maintaining the trapped arm in a bent protective position, and timing explosive escapes to coincide with the attacker's grip transitions rather than fighting against peak pressure. Once the figure-four is fully locked and the paint motion begins, defensive options narrow dramatically, making early recognition and immediate proactive defense essential for survival. Understanding the mechanical progression of the Americana allows the defender to intervene at the optimal point in the sequence rather than reacting to the finished position.
 
-**Opponent's Starting Position**: [[Kesa Gatame]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
 
 
 </section>
@@ -194,28 +194,28 @@ Defending the Americana from Kesa Gatame requires recognizing the submission thr
 ### 1. Pull wrist free using a circular motion toward your own centerline before the figure-four is threaded
 
 - **When to use**: Immediately upon feeling the opponent's hand contact your wrist—this is the earliest and highest-percentage defensive window
-- **Targets**: [[Kesa Gatame]]
+- **Targets**: [[Positions/Side Control/Kesa Gatame]]
 - **If successful**: Opponent fails to isolate the wrist and must either re-attempt or return to standard Kesa Gatame control
 - **Risk**: If you fail to free the wrist, the opponent may accelerate the figure-four transition while you are actively moving
 
 ### 2. Bridge explosively toward the opponent during the moment they release head control to thread the figure-four
 
 - **When to use**: When you feel head pressure release as the opponent begins threading the figure-four arm under your trapped arm
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The bridge disrupts opponent's base during their most vulnerable transition moment, creating space for hip escape to half guard
 - **Risk**: If the bridge is poorly timed or underpowered, the opponent absorbs it and completes the figure-four while you are fatigued
 
 ### 3. Grip own lapel, belt, or opposite wrist with the trapped hand to anchor it and prevent repositioning
 
 - **When to use**: When you cannot free the wrist but the figure-four has not yet been completed—gripping an anchor point prevents the attacker from positioning your arm for the lock
-- **Targets**: [[Kesa Gatame]]
+- **Targets**: [[Positions/Side Control/Kesa Gatame]]
 - **If successful**: Opponent cannot complete the figure-four or position your arm correctly, forcing them to abandon the Americana and return to positional control
 - **Risk**: Gripping your own lapel commits your trapped arm to a static position, reducing your ability to use it for other defensive actions
 
 ### 4. Straighten the trapped arm forcefully before the figure-four is secured, then immediately frame and hip escape
 
 - **When to use**: When you feel the figure-four beginning to form but it is not yet tight—the straight arm prevents the lock and the immediate hip escape exploits the space created
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The straightened arm prevents the Americana and the hip escape recovers half guard, significantly improving your position
 - **Risk**: A straightened arm is vulnerable to armbar transition—you must immediately follow the straightening with a hip escape rather than leaving the arm extended
 
@@ -238,7 +238,7 @@ Defending the Americana from Kesa Gatame requires recognizing the submission thr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a bridge-and-hip-escape during the moment the opponent transitions from head control to arm control, exploiting the brief window of reduced positional control to insert your knee and recover half guard
 

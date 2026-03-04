@@ -184,7 +184,7 @@ From a strategic perspective, the Kimura from Back serves dual purposes as both 
 
 The technique exemplifies the principle of systematic attack chains from back control. Rather than abandoning position when the choke is defended, the practitioner transitions smoothly to the kimura while maintaining all back control elements. This cycling between attacks—triangle choke to kimura to armbar—overwhelms the opponent's defensive capacity and eventually creates finishing opportunities through accumulated defensive fatigue.
 
-**From Position**: [[Rear Triangle]] (Top)
+**From Position**: [[Positions/Triangle Control/Rear Triangle]] (Top)
 
 </section>
 
@@ -236,9 +236,9 @@ The technique exemplifies the principle of systematic attack chains from back co
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kimura Trap]] | 55% |
-| Failure | [[Rear Triangle]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Kimura Trap]] | 55% |
+| Failure | [[Positions/Triangle Control/Rear Triangle]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -247,10 +247,10 @@ The technique exemplifies the principle of systematic attack chains from back co
 
 ## Opponent Counters
 
-- **Opponent grabs their own pants or belt to anchor the trapped arm** (Effectiveness: Medium) - Your Response: Drive their elbow toward their hip to break the grip, or transition to armbar by extending their arm while they grip → Leads to [[Rear Triangle]]
-- **Opponent rotates their body to face you, reducing shoulder torque** (Effectiveness: High) - Your Response: Tighten triangle legs and use chest pressure to prevent rotation, or accept the rotation and transition to mounted triangle → Leads to [[Back Control]]
-- **Opponent straightens arm to prevent elbow pinning** (Effectiveness: Medium) - Your Response: Convert directly to armbar by controlling the wrist and extending hips against the straightened elbow → Leads to [[Rear Triangle]]
-- **Opponent bridges explosively to create space** (Effectiveness: Low) - Your Response: Follow the bridge maintaining chest contact, the triangle structure keeps them controlled through the movement → Leads to [[Rear Triangle]]
+- **Opponent grabs their own pants or belt to anchor the trapped arm** (Effectiveness: Medium) - Your Response: Drive their elbow toward their hip to break the grip, or transition to armbar by extending their arm while they grip → Leads to [[Positions/Triangle Control/Rear Triangle]]
+- **Opponent rotates their body to face you, reducing shoulder torque** (Effectiveness: High) - Your Response: Tighten triangle legs and use chest pressure to prevent rotation, or accept the rotation and transition to mounted triangle → Leads to [[Positions/Back Control]]
+- **Opponent straightens arm to prevent elbow pinning** (Effectiveness: Medium) - Your Response: Convert directly to armbar by controlling the wrist and extending hips against the straightened elbow → Leads to [[Positions/Triangle Control/Rear Triangle]]
+- **Opponent bridges explosively to create space** (Effectiveness: Low) - Your Response: Follow the bridge maintaining chest contact, the triangle structure keeps them controlled through the movement → Leads to [[Positions/Triangle Control/Rear Triangle]]
 
 
 </section>

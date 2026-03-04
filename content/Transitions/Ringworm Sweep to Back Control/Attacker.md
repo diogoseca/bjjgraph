@@ -178,7 +178,7 @@ The sweep functions by using the lapel wrap as a lever to prevent the opponent f
 
 Strategically, this sweep is most effective when the opponent attempts to stand and create distance from Ringworm Guard, as their elevated center of gravity makes them more susceptible to rotational sweeps. The back take variation is particularly valuable because it bypasses the typical guard passing battle that follows a sweep to mount, immediately establishing the most dominant control position in Brazilian Jiu-Jitsu.
 
-**From Position**: [[Ringworm Guard]] (Bottom)
+**From Position**: [[Positions/Ringworm Guard]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategically, this sweep is most effective when the opponent attempts to stand 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Ringworm Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Ringworm Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, this sweep is most effective when the opponent attempts to stand 
 
 ## Opponent Counters
 
-- **Opponent posts free hand wide and bases out to prevent sweep completion** (Effectiveness: High) - Your Response: Transition to triangle attack by immediately threading your leg over their posting arm while maintaining lapel control, creating a triangle setup from the compromised position → Leads to [[Ringworm Guard]]
-- **Opponent strips the lapel grip before sweep can be executed** (Effectiveness: High) - Your Response: Immediately transition to Squid Guard or Worm Guard configuration to maintain some lapel-based control, or switch to De La Riva Guard if grip cannot be recovered → Leads to [[Ringworm Guard]]
-- **Opponent drops weight and smashes forward during sweep attempt** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by switching to an omoplata entry, threading your leg over their driving shoulder while maintaining the lapel → Leads to [[Ringworm Guard]]
-- **Opponent spins toward you during back take attempt to face you** (Effectiveness: Medium) - Your Response: Accept mount position as secondary outcome if back control fails, immediately transitioning to high mount to capitalize on the positional gain → Leads to [[Back Control]]
+- **Opponent posts free hand wide and bases out to prevent sweep completion** (Effectiveness: High) - Your Response: Transition to triangle attack by immediately threading your leg over their posting arm while maintaining lapel control, creating a triangle setup from the compromised position → Leads to [[Positions/Ringworm Guard]]
+- **Opponent strips the lapel grip before sweep can be executed** (Effectiveness: High) - Your Response: Immediately transition to Squid Guard or Worm Guard configuration to maintain some lapel-based control, or switch to De La Riva Guard if grip cannot be recovered → Leads to [[Positions/Ringworm Guard]]
+- **Opponent drops weight and smashes forward during sweep attempt** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by switching to an omoplata entry, threading your leg over their driving shoulder while maintaining the lapel → Leads to [[Positions/Ringworm Guard]]
+- **Opponent spins toward you during back take attempt to face you** (Effectiveness: Medium) - Your Response: Accept mount position as secondary outcome if back control fails, immediately transitioning to high mount to capitalize on the positional gain → Leads to [[Positions/Back Control]]
 
 
 </section>

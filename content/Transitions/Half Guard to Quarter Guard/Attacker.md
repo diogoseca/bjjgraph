@@ -174,7 +174,7 @@ description: "Complete guide to executing the Transition to Quarter Guard from H
 
 As the attacker executing the Transition to Quarter Guard, your objective is to methodically advance your trapped leg past the bottom player's hip line while maintaining dominant upper body control. This is not an explosive technique but a systematic degradation of your opponent's guard retention through precise pressure application, frame elimination, and incremental hip advancement. The transition begins with establishing upper body dominance through crossface and underhook control, proceeds through isolating and weakening the bottom player's leg entanglement, and concludes with driving your knee past their hip centerline to establish quarter guard. Success requires patience, pressure sensitivity, and the ability to read when defensive structures have been sufficiently compromised to advance.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ As the attacker executing the Transition to Quarter Guard, your objective is to 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Quarter Guard]] | 70% |
-| Failure | [[Half Guard]] | 20% |
-| Counter | [[Deep Half Guard]] | 10% |
+| Success | [[Positions/Quarter Guard]] | 70% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 10% |
 
 
 </section>
@@ -238,10 +238,10 @@ As the attacker executing the Transition to Quarter Guard, your objective is to 
 
 ## Opponent Counters
 
-- **Bottom player fights to recover underhook during hip advancement** (Effectiveness: High) - Your Response: Immediately apply heavy shoulder pressure or whizzer to strip the recovering underhook. If they secure it before you can counter, pause advancement and re-establish upper body dominance before continuing. An active underhook gives them sweep and back take options that make continued advancement dangerous. → Leads to [[Half Guard]]
-- **Bottom player hip escapes to create angle and recover knee shield** (Effectiveness: Medium) - Your Response: Follow their hip escape by adjusting your angle to match, maintaining chest contact throughout. Use your free hand to control their far hip and prevent further rotation. If they recover a partial knee shield, use smash pass pressure to re-collapse it before continuing the transition. → Leads to [[Half Guard]]
-- **Bottom player drops underneath for deep half guard entry during weight commitment** (Effectiveness: High) - Your Response: If you feel them diving underneath, immediately sprawl your hips back and apply downward pressure to prevent them from getting their head beneath your hips. Post your hand on the mat on the far side and drive weight down. If they achieve deep half, you must address that position specifically rather than continuing the quarter guard transition. → Leads to [[Deep Half Guard]]
-- **Bottom player uses lockdown to trap your advancing leg** (Effectiveness: Medium) - Your Response: If they catch your leg in lockdown during advancement, stop forward progress and apply heavy chest pressure to flatten them. Work to break the lockdown by straightening your trapped leg and driving your knee to the mat while maintaining upper body control. Do not try to advance through lockdown—break it first, then resume the transition. → Leads to [[Half Guard]]
+- **Bottom player fights to recover underhook during hip advancement** (Effectiveness: High) - Your Response: Immediately apply heavy shoulder pressure or whizzer to strip the recovering underhook. If they secure it before you can counter, pause advancement and re-establish upper body dominance before continuing. An active underhook gives them sweep and back take options that make continued advancement dangerous. → Leads to [[Positions/Half Guard]]
+- **Bottom player hip escapes to create angle and recover knee shield** (Effectiveness: Medium) - Your Response: Follow their hip escape by adjusting your angle to match, maintaining chest contact throughout. Use your free hand to control their far hip and prevent further rotation. If they recover a partial knee shield, use smash pass pressure to re-collapse it before continuing the transition. → Leads to [[Positions/Half Guard]]
+- **Bottom player drops underneath for deep half guard entry during weight commitment** (Effectiveness: High) - Your Response: If you feel them diving underneath, immediately sprawl your hips back and apply downward pressure to prevent them from getting their head beneath your hips. Post your hand on the mat on the far side and drive weight down. If they achieve deep half, you must address that position specifically rather than continuing the quarter guard transition. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Bottom player uses lockdown to trap your advancing leg** (Effectiveness: Medium) - Your Response: If they catch your leg in lockdown during advancement, stop forward progress and apply heavy chest pressure to flatten them. Work to break the lockdown by straightening your trapped leg and driving your knee to the mat while maintaining upper body control. Do not try to advance through lockdown—break it first, then resume the transition. → Leads to [[Positions/Half Guard]]
 
 
 </section>

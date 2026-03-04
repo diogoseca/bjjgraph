@@ -205,15 +205,15 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 ## Available Attacks
 
-### [[Anaconda Choke]] (50% of attempts)
+### [[Transitions/Anaconda Choke]] (50% of attempts)
 
-### [[Anaconda Control to Dead Orchard Control]] (20% of attempts)
+### [[Transitions/Anaconda Control to Dead Orchard Control]] (20% of attempts)
 
-### [[Switch to Darce Configuration]] (15% of attempts)
+### [[Transitions/Switch to Darce Configuration]] (15% of attempts)
 
-### [[Anaconda to Side Control]] (10% of attempts)
+### [[Transitions/Anaconda to Side Control]] (10% of attempts)
 
-### [[Back Take from Anaconda]] (5% of attempts)
+### [[Transitions/Back Take from Anaconda]] (5% of attempts)
 
 
 
@@ -224,23 +224,23 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 ## Decision Making from This Position
 
 **If opponent's base is strong and they resist rolling:**
-- Execute **[[Anaconda Choke]]** → [[game-over]] (Probability: 70%)
-- Execute **[[Front Headlock to Anaconda]]** → [[Front Headlock]] (Probability: 50%)
+- Execute **[[Transitions/Anaconda Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Transitions/Front Headlock to Anaconda]]** → [[Positions/Front Headlock]] (Probability: 50%)
 
 
 **If opponent rolls away from pressure to escape:**
-- Execute **[[Anaconda from Turtle]]** → [[Side Control]] (Probability: 80%)
-- Execute **[[Anaconda Choke]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Transitions/Anaconda from Turtle]]** → [[Positions/Side Control]] (Probability: 80%)
+- Execute **[[Transitions/Anaconda Choke]]** → [[game-over]] (Probability: 75%)
 
 
 **If opponent turns into the grip exposing their back:**
-- Execute **[[Back Take from Anaconda]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Transitions/Back Take from Anaconda]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent straightens their trapped arm in defense:**
-- Execute **[[Front Headlock to Darce]]** → [[Darce Control]] (Probability: 70%)
-- Execute **[[Anaconda Choke]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Transitions/Front Headlock to Darce]]** → [[Positions/Darce Control]] (Probability: 70%)
+- Execute **[[Transitions/Anaconda Choke]]** → [[game-over]] (Probability: 65%)
 
 
 
@@ -362,14 +362,14 @@ Start with anaconda grip established, bottom player works to escape while top pl
 
 ## Related Positions and Techniques
 
-- **[[Front Headlock]]** - Primary entry position - anaconda grip often secured from front headlock situations
-- **[[Darce Control]]** - Sister position - similar arm-in configuration with different hand positioning and mechanics
-- **[[Turtle]]** - Common entry position - opponent's turtle creates ideal circumstances for anaconda grip
-- **[[Anaconda Choke]]** - Primary submission - main finishing technique from this control position
-- **[[Anaconda Control to Dead Orchard Control]]** - Key transition - technical sequence for advancing to dead orchard control
-- **[[Switch to Darce Configuration]]** - System transition - interchange between anaconda and darce arm-in positions
-- **[[Side Control]]** - Advancement target - position gained after successful roll-through from anaconda
-- **[[Back Take from Anaconda]]** - Alternative advancement when opponent turns away from anaconda pressure
+- **[[Positions/Front Headlock]]** - Primary entry position - anaconda grip often secured from front headlock situations
+- **[[Positions/Darce Control]]** - Sister position - similar arm-in configuration with different hand positioning and mechanics
+- **[[Positions/Turtle]]** - Common entry position - opponent's turtle creates ideal circumstances for anaconda grip
+- **[[Transitions/Anaconda Choke]]** - Primary submission - main finishing technique from this control position
+- **[[Transitions/Anaconda Control to Dead Orchard Control]]** - Key transition - technical sequence for advancing to dead orchard control
+- **[[Transitions/Switch to Darce Configuration]]** - System transition - interchange between anaconda and darce arm-in positions
+- **[[Positions/Side Control]]** - Advancement target - position gained after successful roll-through from anaconda
+- **[[Transitions/Back Take from Anaconda]]** - Alternative advancement when opponent turns away from anaconda pressure
 
 
 </section>

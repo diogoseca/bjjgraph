@@ -146,7 +146,7 @@ description: "Defend and counter the Half Butterfly Sweep in BJJ. Recognition cu
 
 Defending the Half Butterfly Sweep requires the top player to recognize the sweep setup early and apply specific defensive measures before the bottom player can coordinate their elevation drive with upper body pulling mechanics. The primary defensive strategy centers on preventing the conditions necessary for the sweep: disrupting the butterfly hook's elevation capacity through low hip pressure, neutralizing the underhook through whizzer or overhook control, and managing weight distribution to avoid being loaded forward over the hook. Early recognition of the sweep setup through tactile cues allows the defender to choose between defensive responses ranging from conservative sprawling to aggressive counter-passing, each with different risk-reward profiles depending on the bottom player's grip configuration and commitment level.
 
-**Opponent's Starting Position**: [[Half Butterfly]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Half Butterfly Sweep requires the top player to recognize the swee
 ### 1. Sprawl hips back and drive heavy crossface to flatten opponent's posture and kill the hook
 
 - **When to use**: When you feel butterfly hook begin to elevate or opponent establishes underhook on butterfly side
-- **Targets**: [[Half Butterfly]]
+- **Targets**: [[Positions/Butterfly Guard/Half Butterfly]]
 - **If successful**: Opponent's sweep attempt is neutralized, butterfly hook loses leverage, and you maintain top position with passing initiative
 - **Risk**: If too aggressive with forward pressure during sprawl, opponent may redirect your energy into a deep half guard entry
 
 ### 2. Whizzer the opponent's underhook arm and drive shoulder pressure to strip their grip
 
 - **When to use**: Immediately when opponent establishes underhook on butterfly side, before they can coordinate the full sweep sequence
-- **Targets**: [[Half Butterfly]]
+- **Targets**: [[Positions/Butterfly Guard/Half Butterfly]]
 - **If successful**: Opponent loses the critical upper body control needed for sweep execution and must re-establish grips before attempting again
 - **Risk**: Whizzer can be countered by opponent ducking underneath for deep half guard entry using your whizzer pressure against you
 
 ### 3. Backstep around the half guard and drive knee through to initiate guard pass during sweep setup
 
 - **When to use**: When you read the sweep setup early and the opponent's butterfly hook is not yet fully loaded with your weight
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You advance past the half butterfly guard entirely, establishing side control or regular half guard top position
 - **Risk**: Backstep during an already-loaded sweep can accelerate the sweep by removing your own base in the opponent's direction
 
 ### 4. Post far hand wide on the mat and widen base against the sweep direction
 
 - **When to use**: As emergency base when sweep is already in motion and you need immediate stability to prevent being toppled
-- **Targets**: [[Half Butterfly]]
+- **Targets**: [[Positions/Butterfly Guard/Half Butterfly]]
 - **If successful**: Creates emergency base point that prevents sweep completion and gives you time to reset your defensive positioning
 - **Risk**: Hand post commits weight to one side and occupies one arm, potentially opening you to old school sweep or arm drag to back take
 
@@ -217,11 +217,11 @@ Defending the Half Butterfly Sweep requires the top player to recognize the swee
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Butterfly]]
+### → [[Positions/Butterfly Guard/Half Butterfly]]
 
 Sprawl hips back immediately when you feel elevation pressure, apply heavy crossface to flatten the opponent's posture, and strip their underhook through whizzer control. The sweep fails and you maintain top position with the initiative to begin passing sequences.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the opponent overcommits to the sweep and fails, capitalize on their compromised guard structure by driving forward through the weakened guard with a backstep or knee slice pass, killing the butterfly hook and establishing side control top.
 

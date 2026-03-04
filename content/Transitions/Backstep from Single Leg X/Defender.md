@@ -146,7 +146,7 @@ description: "Complete guide to defending the Backstep from Single Leg X-Guard. 
 
 The defender in the Backstep from Single Leg X is the bottom player maintaining SLX guard who must recognize and counter the top player's rotational passing attempt. Effective defense requires early recognition of the backstep setup, active hook management that follows the rotation rather than holding static position, and readiness to transition to alternative attacks or guard configurations when hooks are compromised. The defender's greatest advantage is the brief vulnerability window during the top player's mid-rotation where their base is transitioning between legs and their back is partially turned. Capitalizing on this window through well-timed sweeps, leg entries, or hook re-establishment is the key to consistent defense against backstep passing.
 
-**Opponent's Starting Position**: [[Single Leg X-Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ The defender in the Backstep from Single Leg X is the bottom player maintaining 
 ### 1. Chase the rotation with active hip hook by following the top player's movement with your foot and re-hooking their hip on the far side
 
 - **When to use**: As soon as you detect the backstep initiation through weight shift or hip rotation. Must react within the first half of their rotation before they complete the full turn.
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: You maintain SLX guard with hooks re-established, forcing the top player to reset and re-address your guard from the beginning
 - **Risk**: If your hip hook is pinned or stripped and you chase too late, you end up extending your legs without connection, making the pass easier
 
 ### 2. Thread legs into ashi garami entry during the rotation window by inserting your outside leg into inside ashi position on their rotating leg
 
 - **When to use**: When the top player's rotation is past 90 degrees and their base is compromised mid-turn. Their commitment to rotating exposes their leg to entanglement entries.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You transition from SLX into a leg entanglement position where you threaten heel hooks or use the entanglement to sweep and come on top
 - **Risk**: If the ashi entry is incomplete, you end up in a scramble with no guard established and the top player can complete the pass
 
 ### 3. Frame against the top player's hips and shoulders as they land post-rotation to prevent side control consolidation and re-insert your knee
 
 - **When to use**: When the backstep rotation has succeeded in clearing hooks but the top player has not yet established crossface and settled weight. This is the last-chance defense.
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: You insert your knee and recover to half guard or re-establish a guard position, preventing the pass from completing to side control
 - **Risk**: Extending arms for frames exposes them to arm attacks from the passing player, and late frame attempts against settled weight are ineffective
 
 ### 4. Bridge explosively during the mid-rotation moment when the top player's base is transitioning between their two legs
 
 - **When to use**: When you recognize the rotation at approximately 90 degrees and the top player's weight is momentarily unsupported between their posted leg and the completing step
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The bridge disrupts the top player's rotation, potentially toppling them and allowing you to come up into a sweeping or scramble position
 - **Risk**: Poorly timed bridges waste energy and may actually help the top player complete their rotation by adding momentum in the passing direction
 
@@ -217,11 +217,11 @@ The defender in the Backstep from Single Leg X is the bottom player maintaining 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Single Leg X-Guard]]
+### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 Retain guard by chasing the rotation with active hooks. The moment you detect the backstep initiation through the weight shift to the free leg, aggressively drive your hip hook to follow their rotation. Maintain tight inside hook tension on the ankle to prevent rotational clearance. Keep at least one sleeve or wrist grip to limit their rotation freedom. If your hip hook re-catches their hip on the far side of the rotation, you have successfully retained SLX.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Counter the pass by exploiting the mid-rotation vulnerability window. When the top player is committed to the backstep at approximately 90 degrees of rotation, their base is compromised with weight transitioning between legs. Either thread your legs into an ashi garami entry on their rotating leg, or time an explosive bridge to topple them during this unstable moment. Even inserting a knee during their landing to catch half guard represents a successful defensive outcome.
 

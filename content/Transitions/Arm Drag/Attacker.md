@@ -178,7 +178,7 @@ The attacking methodology requires understanding that the arm drag is not a stre
 
 Advanced arm drag attacking integrates setups, feints, and chain reactions into a complete system. Rather than attempting isolated arm drags, you create the conditions for success through preliminary movements like snap downs, push-pull sequences, and level changes that force the opponent to extend or post their arms. When they defend the arm drag, their defensive reaction itself becomes the setup for your next attack, whether that is a re-drag, single leg entry, or front headlock transition.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ Advanced arm drag attacking integrates setups, feints, and chain reactions into 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Front Headlock]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Front Headlock]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ Advanced arm drag attacking integrates setups, feints, and chain reactions into 
 
 ## Opponent Counters
 
-- **Opponent retracts arm immediately when feeling initial grip, pulling elbow tight to their body** (Effectiveness: Medium) - Your Response: Anticipate the retraction and use their backward pull to advance yourself forward into their space. Convert to a snap down or front headlock entry as their retraction drops their posture. Alternatively, maintain your tricep grip and follow their retraction to stay connected for an immediate re-drag attempt when the arm extends again. → Leads to [[Standing Position]]
-- **Opponent whizzers over your dragging arm with an overhook to prevent the back take and square their hips** (Effectiveness: High) - Your Response: Accept the whizzer rather than fighting it directly. Transition to an inside trip using the whizzer as a control point, or pull guard while maintaining the arm connection. The whizzer blocks the back take but immobilizes their arm, opening opportunities for duck-unders or level changes to the opposite side. → Leads to [[Standing Position]]
-- **Opponent posts their far hand on the mat or your body and squares their hips to deny the angle** (Effectiveness: Medium) - Your Response: Attack the posted arm with a second arm drag to that side, creating a chain-drag sequence. Alternatively, use their posting commitment as an opportunity to snap them down toward the posted hand, converting the exchange into a front headlock or go-behind. Their post fixes their base in one direction, making them vulnerable to attacks from the opposite side. → Leads to [[Standing Position]]
-- **Opponent sprawls their hips back explosively, creating distance and denying your ability to circle behind the shoulder line** (Effectiveness: High) - Your Response: If you maintain grip connection during their sprawl, follow them down and convert to a front headlock or snap down position. If grips break, immediately re-engage with a level change or guard pull. A sprawl against an arm drag often leaves the opponent bent forward at the waist, making them vulnerable to snap downs and front headlock entries. → Leads to [[Front Headlock]]
+- **Opponent retracts arm immediately when feeling initial grip, pulling elbow tight to their body** (Effectiveness: Medium) - Your Response: Anticipate the retraction and use their backward pull to advance yourself forward into their space. Convert to a snap down or front headlock entry as their retraction drops their posture. Alternatively, maintain your tricep grip and follow their retraction to stay connected for an immediate re-drag attempt when the arm extends again. → Leads to [[Positions/Standing Position]]
+- **Opponent whizzers over your dragging arm with an overhook to prevent the back take and square their hips** (Effectiveness: High) - Your Response: Accept the whizzer rather than fighting it directly. Transition to an inside trip using the whizzer as a control point, or pull guard while maintaining the arm connection. The whizzer blocks the back take but immobilizes their arm, opening opportunities for duck-unders or level changes to the opposite side. → Leads to [[Positions/Standing Position]]
+- **Opponent posts their far hand on the mat or your body and squares their hips to deny the angle** (Effectiveness: Medium) - Your Response: Attack the posted arm with a second arm drag to that side, creating a chain-drag sequence. Alternatively, use their posting commitment as an opportunity to snap them down toward the posted hand, converting the exchange into a front headlock or go-behind. Their post fixes their base in one direction, making them vulnerable to attacks from the opposite side. → Leads to [[Positions/Standing Position]]
+- **Opponent sprawls their hips back explosively, creating distance and denying your ability to circle behind the shoulder line** (Effectiveness: High) - Your Response: If you maintain grip connection during their sprawl, follow them down and convert to a front headlock or snap down position. If grips break, immediately re-engage with a level change or guard pull. A sprawl against an arm drag often leaves the opponent bent forward at the waist, making them vulnerable to snap downs and front headlock entries. → Leads to [[Positions/Front Headlock]]
 
 
 </section>

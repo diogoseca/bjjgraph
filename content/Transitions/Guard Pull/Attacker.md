@@ -174,7 +174,7 @@ description: "How to execute Guard Pull in BJJ. Attacking perspective with setup
 
 The Guard Pull is a fundamental BJJ transition that allows practitioners to move from standing position directly into their guard game, bypassing the takedown exchange entirely. This technique is particularly valuable in sport BJJ contexts where bottom guard position offers numerous attacking opportunities and where takedown exchanges may not align with a practitioner's strengths. The guard pull requires precise grip establishment, proper body positioning, and excellent timing to execute safely and effectively. When performed correctly, it allows the practitioner to immediately begin implementing their guard strategy while controlling distance and grips. The technique has become increasingly sophisticated in modern competition, with various entries designed to land directly into specific guard positions rather than a generic seated guard. Understanding when and how to pull guard effectively is essential for building a complete competition game.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The Guard Pull is a fundamental BJJ transition that allows practitioners to move
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 75% |
-| Failure | [[Standing Position]] | 15% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Closed Guard]] | 75% |
+| Failure | [[Positions/Standing Position]] | 15% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -238,10 +238,10 @@ The Guard Pull is a fundamental BJJ transition that allows practitioners to move
 
 ## Opponent Counters
 
-- **Opponent steps back or creates distance as you sit** (Effectiveness: High) - Your Response: Maintain strong grip tension throughout and pull opponent into your guard as you sit. If they successfully create distance, technical stand-up immediately to prevent them from establishing passing position rather than chasing from your back. → Leads to [[Standing Position]]
-- **Opponent sprawls with hips back and chest forward to deny guard closure** (Effectiveness: Medium) - Your Response: Use your grips to prevent full sprawl position by keeping opponent's hips close to you. If they achieve sprawl, immediately work feet to their hips and transition to open guard retention. The sprawl gives them pressure but your leg frames can create the distance needed to re-establish guard. → Leads to [[Standing Position]]
-- **Opponent immediately initiates leg drag or knee cut pass as you land** (Effectiveness: Medium) - Your Response: Establish strong frames with your arms and create distance with your legs before they can consolidate passing position. Hip escape away from the passing pressure and re-establish guard position. The key is keeping your hips mobile during the landing so you can immediately respond to passing direction. → Leads to [[Standing Position]]
-- **Opponent uses your pull momentum to jump over guard into side control** (Effectiveness: Low) - Your Response: Maintain connection with your legs throughout the sit and keep your knees between you and the opponent at all times. If opponent attempts to jump, use your grips to pull them down and redirect their momentum into your closed guard or hook sweep attempt. This counter only works when you pull with excessive backward momentum. → Leads to [[Standing Position]]
+- **Opponent steps back or creates distance as you sit** (Effectiveness: High) - Your Response: Maintain strong grip tension throughout and pull opponent into your guard as you sit. If they successfully create distance, technical stand-up immediately to prevent them from establishing passing position rather than chasing from your back. → Leads to [[Positions/Standing Position]]
+- **Opponent sprawls with hips back and chest forward to deny guard closure** (Effectiveness: Medium) - Your Response: Use your grips to prevent full sprawl position by keeping opponent's hips close to you. If they achieve sprawl, immediately work feet to their hips and transition to open guard retention. The sprawl gives them pressure but your leg frames can create the distance needed to re-establish guard. → Leads to [[Positions/Standing Position]]
+- **Opponent immediately initiates leg drag or knee cut pass as you land** (Effectiveness: Medium) - Your Response: Establish strong frames with your arms and create distance with your legs before they can consolidate passing position. Hip escape away from the passing pressure and re-establish guard position. The key is keeping your hips mobile during the landing so you can immediately respond to passing direction. → Leads to [[Positions/Standing Position]]
+- **Opponent uses your pull momentum to jump over guard into side control** (Effectiveness: Low) - Your Response: Maintain connection with your legs throughout the sit and keep your knees between you and the opponent at all times. If opponent attempts to jump, use your grips to pull them down and redirect their momentum into your closed guard or hook sweep attempt. This counter only works when you pull with excessive backward momentum. → Leads to [[Positions/Standing Position]]
 
 
 </section>

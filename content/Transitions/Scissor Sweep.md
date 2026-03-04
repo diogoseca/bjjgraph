@@ -21,7 +21,7 @@ What makes the Scissor Sweep particularly effective is its reliance on timing an
 
 The Scissor Sweep integrates seamlessly into the closed guard attack system, working in combination with other sweeps like the Hip Bump and Pendulum Sweep. When opponents defend one sweep, they often create the opening for another, establishing a systematic approach to attacking from guard. Mastering this technique provides practitioners with a cornerstone skill that remains effective throughout their BJJ journey.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 75%
 
 </section>
@@ -32,9 +32,9 @@ The Scissor Sweep integrates seamlessly into the closed guard attack system, wor
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 75% |
-| Failure | [[Closed Guard]] | 15% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Mount]] | 75% |
+| Failure | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -187,25 +187,25 @@ The Scissor Sweep serves as a cornerstone technique within the closed guard atta
 ## Related Techniques
 
 
-- [[Hip Bump Sweep]] - Complementary sweep - when opponent defends Scissor by pulling weight back, Hip Bump becomes available
+- [[Transitions/Hip Bump Sweep]] - Complementary sweep - when opponent defends Scissor by pulling weight back, Hip Bump becomes available
 
-- [[Pendulum Sweep]] - Alternative sweep from same position - works on opposite side when Scissor is defended
+- [[Transitions/Pendulum Sweep]] - Alternative sweep from same position - works on opposite side when Scissor is defended
 
-- [[Flower Sweep]] - Related technique with similar leg positioning but different mechanics
+- [[Transitions/Flower Sweep]] - Related technique with similar leg positioning but different mechanics
 
-- [[Closed Guard]] - Starting position - fundamental guard position where technique is executed
+- [[Positions/Closed Guard]] - Starting position - fundamental guard position where technique is executed
 
-- [[Mount]] - Ending position - direct result of successful sweep execution
+- [[Positions/Mount]] - Ending position - direct result of successful sweep execution
 
-- [[Kimura from Guard]] - Follow-up submission when opponent posts to defend sweep
+- [[Submissions/Kimura from Guard]] - Follow-up submission when opponent posts to defend sweep
 
-- [[Triangle from Closed Guard]] - Alternative attack when opponent's posture is broken but sweep timing is unavailable
+- [[Submissions/Triangle from Closed Guard]] - Alternative attack when opponent's posture is broken but sweep timing is unavailable
 
-- [[Elevator Sweep]] - Related sweep from closed guard using butterfly hook mechanics as alternative angle
+- [[Transitions/Elevator Sweep]] - Related sweep from closed guard using butterfly hook mechanics as alternative angle
 
-- [[Armbar from Guard]] - High-percentage submission attack available from same broken posture setup
+- [[Submissions/Armbar from Guard]] - High-percentage submission attack available from same broken posture setup
 
-- [[Pass to Side Control]] - Opponent's objective - technique prevents their passing attempts and reverses position
+- [[Transitions/Pass to Side Control]] - Opponent's objective - technique prevents their passing attempts and reverses position
 
 
 </section>

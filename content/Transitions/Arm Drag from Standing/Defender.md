@@ -154,7 +154,7 @@ description: "Defend the standing arm drag in BJJ. Recognition cues, counter mov
 
 Defending the standing arm drag requires early recognition of the opponent's grip setup and immediate corrective action to prevent them from crossing your arm past their centerline. The defender's primary objective is to maintain frontal facing with the attacker, denying them the angular access needed to step behind you. This means defending the arm drag in its earliest phase, during grip acquisition, is far more effective than trying to recover once the pull has begun. If the pull does begin, the defender must choose between circling toward the attacker to re-face them, framing with the free arm to prevent the step-behind, or tactically pulling guard to convert the disadvantage into a controlled ground engagement. Understanding which response fits each phase of the arm drag attempt is the key to consistent defense.
 
-**Opponent's Starting Position**: [[Standing Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the standing arm drag requires early recognition of the opponent's gri
 ### 1. Circle toward the drag direction to re-face the opponent before they establish rear position
 
 - **When to use**: As soon as you feel the two-on-one pull beginning to cross your centerline, before the opponent steps behind you
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You return to neutral standing engagement with frontal facing, denying the back take completely
 - **Risk**: If you circle too slowly, the opponent may already have chest-to-back contact and your circling exposes your back further
 
 ### 2. Post your free arm as a stiff frame against the opponent's near hip to block their step-behind
 
 - **When to use**: When the drag pull has begun but the opponent has not yet stepped past your shoulder line
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: The frame prevents the opponent from closing distance behind you, giving you time to strip their grips and re-establish neutral position
 - **Risk**: A strong opponent can swim under the frame with an underhook, collapsing your post and completing the back take anyway
 
 ### 3. Sit to guard by pulling the opponent into your open guard as they commit to stepping behind you
 
 - **When to use**: When the drag has progressed past the point where circling or framing can prevent the back take and the opponent is committed behind you
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You convert a losing standing position into a controlled ground engagement in your guard, denying the back take points
 - **Risk**: Opponent may follow you down with bodylock passing pressure, converting the back take attempt into an immediate guard pass
 
 ### 4. Strip the wrist grip with a sharp circular motion before the opponent secures the tricep grip
 
 - **When to use**: At the earliest stage of the drag attempt, when the opponent has only secured your wrist and is reaching for the second grip
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You break the drag before it begins, returning to neutral grip fighting with the opponent having failed their setup
 - **Risk**: If the strip fails and the opponent secures the tricep grip, you have used your free hand for the strip rather than framing, leaving no post to block the step-behind
 
@@ -224,11 +224,11 @@ Defending the standing arm drag requires early recognition of the opponent's gri
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Recognize the drag attempt during grip acquisition and immediately strip the wrist grip with a circular break or retract your arm sharply while stepping backward. If the pull has begun, circle aggressively toward the drag direction to re-face the opponent before they can establish chest-to-back contact. Frame with your free arm on their hip as a secondary defense to buy time for the rotation.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 If the arm drag progresses past the recoverable phase and the opponent is committed behind you, sit to guard before they consolidate the standing rear clinch. Drop your hips while pulling the opponent into your guard with whatever grips you can establish. This converts a losing standing battle into a ground engagement where you can play guard and prevents them from scoring back take points.
 

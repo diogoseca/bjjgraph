@@ -148,7 +148,7 @@ Defending the arm drag sweep requires understanding the technique's dual-threat 
 
 The most critical defensive concept is that your response to the arm drag directly determines which threat materializes. If you post your free arm to prevent the sweep, you expose your back. If you turn aggressively to face the opponent, you may walk into a submission setup. Effective defense requires a balanced response that addresses both threats simultaneously: recovering the dragged arm while maintaining structural posture and hip alignment that prevents both the sweep and the back exposure. Understanding this dual-threat dynamic allows you to make informed defensive choices rather than reactive ones that solve one problem while creating another.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -186,28 +186,28 @@ The most critical defensive concept is that your response to the arm drag direct
 ### 1. Immediately retract the controlled arm by pulling your elbow sharply back to your ribs while driving your hips forward and down to re-center your base
 
 - **When to use**: Early in the sequence when you first feel the wrist grip tighten and the secondary hand reach for your tricep or lat, before the drag has gained momentum
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover your arm to a neutral posting position, re-establish centered posture inside the guard, and deny the attacker the drag depth needed to execute the sweep
 - **Risk**: If the elbow retraction is too slow, the opponent has already secured deep control and your pull-back creates a push-pull dynamic they can exploit
 
 ### 2. Circle your hips toward the direction of the drag while posting your free hand on the mat and driving your shoulder into the opponent's chest to flatten them
 
 - **When to use**: Mid-sequence when the arm has already been partially dragged but the sweep has not yet been completed and your base is still partially intact
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You re-face the opponent squarely, neutralize the angular advantage they created, and return to standard closed guard top with opportunity to re-establish posture
 - **Risk**: Circling too slowly allows the opponent to complete the sweep before you recover alignment, and aggressive circling can walk you into triangle or omoplata setups
 
 ### 3. Stand up immediately by driving both feet to the mat, straightening your legs, and using your height advantage to strip the opponent's grips through posture and distance
 
 - **When to use**: When the arm drag is partially set but the sweep has not committed, and you have enough base to safely stand without being pulled off balance
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Standing nullifies the sweep threat entirely since the opponent cannot sweep you from guard when you are standing with proper base, and creates distance that breaks many grip configurations
 - **Risk**: If your base is already compromised, standing can accelerate the sweep by raising your center of gravity while one arm is controlled
 
 ### 4. Accept partial back exposure and immediately counter-rotate by sitting your hips through to the opposite side, driving into the opponent to prevent them from establishing hooks
 
 - **When to use**: Late in the sequence when the sweep is nearly complete and your primary concern shifts to preventing back control rather than preventing the positional change
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You deny the back take by keeping your hips connected to the opponent and turning into them, potentially ending up in their guard or half guard in a defensible position
 - **Risk**: Failed counter-rotation results in full back exposure with the opponent already behind you and one hook likely in place
 
@@ -219,11 +219,11 @@ The most critical defensive concept is that your response to the arm drag direct
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Retract the controlled arm early by pulling your elbow back to your ribs while re-centering your base. Circle your hips toward the drag direction to re-face the opponent squarely. Re-establish both hands on their hips or biceps and drive your posture upright. The key is speed of recognition—the earlier you detect the arm drag, the simpler the recovery.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When you feel the drag setup, immediately initiate a standing guard break by posting both feet and driving upward. Your height and standing posture strip the grips needed for the arm drag. From standing, you are in a superior position to begin guard opening and passing. This transforms a defensive reaction into an offensive opportunity.
 

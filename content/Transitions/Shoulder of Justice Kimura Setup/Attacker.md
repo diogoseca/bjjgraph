@@ -180,7 +180,7 @@ description: "Master the Kimura setup from Shoulder of Justice top position. Ste
 
 From the attacker perspective, the Shoulder of Justice Kimura Setup is a methodical transition that converts relentless shoulder pressure into arm control. The attacker maintains their Shoulder of Justice position with maximum jaw pressure, patiently waiting for or actively provoking the opponent's near arm to extend defensively. The moment the arm creates space between the elbow and the ribs, the attacker threads their near-side arm underneath the opponent's tricep and secures a deep figure-four Kimura grip. The key is maintaining shoulder pressure throughout the grip establishment—if pressure releases during the transition, the opponent can retract the arm and reestablish their defensive structure. Success depends on the attacker's ability to multitask: sustaining body weight pressure through the shoulder while simultaneously executing precise arm threading and grip locking mechanics.
 
-**From Position**: [[Shoulder of Justice]] (Top)
+**From Position**: [[Positions/Shoulder of Justice]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ From the attacker perspective, the Shoulder of Justice Kimura Setup is a methodi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kimura Trap]] | 55% |
-| Failure | [[Shoulder of Justice]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Kimura Trap]] | 55% |
+| Failure | [[Positions/Shoulder of Justice]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ From the attacker perspective, the Shoulder of Justice Kimura Setup is a methodi
 
 ## Opponent Counters
 
-- **Opponent keeps near arm pinned tightly to ribs, refusing to extend despite pressure** (Effectiveness: High) - Your Response: Incrementally increase pressure intensity by walking feet forward and dropping hips lower. Alternatively, briefly lift pressure then immediately reapply to provoke a reflexive arm extension. If arm remains tight, transition to mount advancement instead. → Leads to [[Shoulder of Justice]]
-- **Opponent explosively bridges and shrimps during the grip threading phase** (Effectiveness: Medium) - Your Response: Ride the bridge by basing out with your far knee and maintaining hip connection. The bridge creates momentary arm extension that can actually assist your grip establishment. Re-consolidate pressure as the bridge exhausts and complete the threading. → Leads to [[Half Guard]]
-- **Opponent turns away toward turtle to prevent Kimura grip establishment** (Effectiveness: Medium) - Your Response: Follow the turn and transition to back control or north-south rather than forcing the Kimura. Their turning motion exposes the back and creates alternative offensive pathways that may be higher percentage than continuing the Kimura pursuit. → Leads to [[Shoulder of Justice]]
-- **Opponent grabs their own belt or pants to prevent arm extraction into Kimura position** (Effectiveness: High) - Your Response: Maintain the partial Kimura grip and use weight distribution to slowly pry their grip loose. Apply incremental rotational pressure while keeping their arm loaded. Alternatively, transition to an Americana attack which works with the same arm position but rotates in the opposite direction. → Leads to [[Shoulder of Justice]]
+- **Opponent keeps near arm pinned tightly to ribs, refusing to extend despite pressure** (Effectiveness: High) - Your Response: Incrementally increase pressure intensity by walking feet forward and dropping hips lower. Alternatively, briefly lift pressure then immediately reapply to provoke a reflexive arm extension. If arm remains tight, transition to mount advancement instead. → Leads to [[Positions/Shoulder of Justice]]
+- **Opponent explosively bridges and shrimps during the grip threading phase** (Effectiveness: Medium) - Your Response: Ride the bridge by basing out with your far knee and maintaining hip connection. The bridge creates momentary arm extension that can actually assist your grip establishment. Re-consolidate pressure as the bridge exhausts and complete the threading. → Leads to [[Positions/Half Guard]]
+- **Opponent turns away toward turtle to prevent Kimura grip establishment** (Effectiveness: Medium) - Your Response: Follow the turn and transition to back control or north-south rather than forcing the Kimura. Their turning motion exposes the back and creates alternative offensive pathways that may be higher percentage than continuing the Kimura pursuit. → Leads to [[Positions/Shoulder of Justice]]
+- **Opponent grabs their own belt or pants to prevent arm extraction into Kimura position** (Effectiveness: High) - Your Response: Maintain the partial Kimura grip and use weight distribution to slowly pry their grip loose. Apply incremental rotational pressure while keeping their arm loaded. Alternatively, transition to an Americana attack which works with the same arm position but rotates in the opposite direction. → Leads to [[Positions/Shoulder of Justice]]
 
 
 </section>

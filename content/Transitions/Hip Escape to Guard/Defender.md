@@ -158,7 +158,7 @@ The key to retaining Gift Wrap against hip escapes is understanding that each es
 
 Your positional advantage is substantial but requires active maintenance. Static Gift Wrap control allows the bottom player to time their escapes perfectly. Instead, keep your opponent reactive by alternating between submission threats and positional adjustments. When they begin hip escaping, you have several high-percentage options: follow and re-engage the back control, transition to mount while maintaining the arm trap, or capitalize on the weakened neck defense to attack the rear naked choke.
 
-**Opponent's Starting Position**: [[Gift Wrap]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Gift Wrap]] (Bottom)
 
 </section>
 
@@ -197,28 +197,28 @@ Your positional advantage is substantial but requires active maintenance. Static
 ### 1. Drive hips forward and tighten chest connection to follow opponent's shrimp
 
 - **When to use**: Immediately when you feel opponent's hips beginning to slide away from you
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Opponent's hip escape creates no usable distance and they remain trapped in Gift Wrap with depleted energy
 - **Risk**: If you overcommit forward, opponent may use your momentum for a rolling escape or turtle transition
 
 ### 2. Attack rear naked choke when opponent redirects free hand away from neck defense
 
 - **When to use**: When opponent removes their free hand from neck to create frames or attempt arm extraction
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Opponent must abandon escape attempt entirely and return to two-handed choke defense
 - **Risk**: If choke is not deep enough, opponent continues escape with improved position while you lose control hand
 
 ### 3. Transition to mount while maintaining arm trap during lateral displacement
 
 - **When to use**: When opponent creates significant lateral distance through multiple hip escapes making back control difficult to maintain
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You achieve mounted Gift Wrap which maintains arm control advantage with mount pressure
 - **Risk**: The mount transition momentarily loosens the arm trap, potentially allowing arm extraction
 
 ### 4. Flatten opponent by driving weight through their shoulder and re-establishing heavy hooks
 
 - **When to use**: When opponent achieves side position and is preparing their first hip escape
-- **Targets**: [[Gift Wrap]]
+- **Targets**: [[Positions/Gift Wrap]]
 - **If successful**: Opponent is driven flat on their back, eliminating hip escape effectiveness entirely
 - **Risk**: Flattening pressure may create opportunity for opponent to bridge and create scramble
 
@@ -230,11 +230,11 @@ Your positional advantage is substantial but requires active maintenance. Static
 
 ## Best-Case Outcomes for Defender
 
-### → [[Gift Wrap]]
+### → [[Positions/Gift Wrap]]
 
 Maintain tight chest-to-back connection and follow every hip escape by driving your hips forward to close space. Keep the trapped arm pulled high across opponent's chest and use active hooks to control their hip mobility. Deny the initial side position by driving your weight through their shoulder to keep them flat.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When opponent creates significant lateral distance through hip escapes, proactively transition to mount rather than losing back control entirely. Step over their hip while maintaining the Gift Wrap arm control. The mounted Gift Wrap preserves your arm trap advantage while adding the pressure and control of the mount position.
 

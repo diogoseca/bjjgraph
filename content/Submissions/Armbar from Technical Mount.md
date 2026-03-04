@@ -26,8 +26,8 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint (hyperextension) and shoulder girdle
-**Starting Position**: [[Technical Mount]]
-**From Position**: [[Technical Mount]] (Top)
+**Starting Position**: [[Positions/Mount/Technical Mount]]
+**From Position**: [[Positions/Mount/Technical Mount]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -77,8 +77,8 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Technical Mount]] | 25% |
-| Counter | [[Closed Guard]] | 20% |
+| Failure | [[Positions/Mount/Technical Mount]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -230,9 +230,9 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 
 ## From Which Positions?
 
-- [[Technical Mount]]
-- [[Mount]]
-- [[S Mount]]
+- [[Positions/Mount/Technical Mount]]
+- [[Positions/Mount]]
+- [[Positions/Mount/S Mount]]
 
 
 </section>
@@ -241,13 +241,13 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 
 ## Related Submissions
 
-- [[Armbar from Mount]]
-- [[Armbar from S Mount]]
-- [[Armbar from High Mount]]
-- [[Americana from Technical Mount]]
-- [[Armbar from Side Control]]
-- [[Belly Down Armbar]]
-- [[Armbar from Guard]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Armbar from S Mount]]
+- [[Submissions/Armbar from High Mount]]
+- [[Submissions/Americana from Technical Mount]]
+- [[Submissions/Armbar from Side Control]]
+- [[Submissions/Belly Down Armbar]]
+- [[Submissions/Armbar from Guard]]
 
 
 </section>
@@ -256,14 +256,14 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 
 ## Additional Related Content
 
-- [[Technical Mount]] - Starting position providing asymmetric leg positioning and arm isolation for armbar execution
-- [[Mount]] - Parent position from which Technical Mount is established before armbar attack
-- [[Armbar Control]] - Finishing control position reached during armbar execution before applying breaking pressure
-- [[Back Control]] - Alternative advancement when defender turns away to avoid the armbar threat
-- [[S Mount]] - Related mount variation with similar perpendicular body angle for armbar mechanics
-- [[High Mount]] - Related mount variation offering elevated platform for arm isolation and submission entry
-- [[Mounted Triangle]] - Alternative submission chain when armbar defense creates neck exposure
-- [[Closed Guard]] - Position defender may recover to if armbar attempt is successfully countered
+- [[Positions/Mount/Technical Mount]] - Starting position providing asymmetric leg positioning and arm isolation for armbar execution
+- [[Positions/Mount]] - Parent position from which Technical Mount is established before armbar attack
+- [[Positions/Armbar Control]] - Finishing control position reached during armbar execution before applying breaking pressure
+- [[Positions/Back Control]] - Alternative advancement when defender turns away to avoid the armbar threat
+- [[Positions/Mount/S Mount]] - Related mount variation with similar perpendicular body angle for armbar mechanics
+- [[Positions/Mount/High Mount]] - Related mount variation offering elevated platform for arm isolation and submission entry
+- [[Positions/Mount/Mounted Triangle]] - Alternative submission chain when armbar defense creates neck exposure
+- [[Positions/Closed Guard]] - Position defender may recover to if armbar attempt is successfully countered
 
 
 </section>

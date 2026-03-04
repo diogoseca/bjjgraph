@@ -93,23 +93,23 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 ### Available Transitions
 
 
-- **[[Overhook Sweep]]** (13% of attempts)
+- **[[Transitions/Overhook Sweep]]** (13% of attempts)
 
-- **[[Hip Bump Sweep]]** (21% of attempts)
+- **[[Transitions/Hip Bump Sweep]]** (21% of attempts)
 
-- **[[Omoplata from Guard]]** (11% of attempts)
+- **[[Submissions/Omoplata from Guard]]** (11% of attempts)
 
-- **[[Arm Drag to Back]]** (10% of attempts)
+- **[[Transitions/Arm Drag to Back]]** (10% of attempts)
 
-- **[[Triangle Setup]]** (13% of attempts)
+- **[[Transitions/Triangle Setup]]** (13% of attempts)
 
-- **[[Kimura from Guard]]** (11% of attempts)
+- **[[Submissions/Kimura from Guard]]** (11% of attempts)
 
-- **[[Armbar from Guard]]** (13% of attempts)
+- **[[Submissions/Armbar from Guard]]** (13% of attempts)
 
-- **[[Overhook Guard Sweep]]** (5% of attempts)
+- **[[Transitions/Overhook Guard Sweep]]** (5% of attempts)
 
-- **[[Overhook to Closed Guard]]** (3% of attempts)
+- **[[Transitions/Overhook to Closed Guard]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -170,21 +170,21 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 ### Available Transitions
 
 
-- **[[Smash Pass]]** (24% of attempts)
+- **[[Transitions/Smash Pass]]** (24% of attempts)
 
-- **[[Knee Slice Pass]]** (15% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (15% of attempts)
 
-- **[[Over-Under Pass]]** (14% of attempts)
+- **[[Transitions/Over-Under Pass]]** (14% of attempts)
 
-- **[[Kimura from Guard]]** (14% of attempts)
+- **[[Submissions/Kimura from Guard]]** (14% of attempts)
 
-- **[[Arm Drag to Back]]** (12% of attempts)
+- **[[Transitions/Arm Drag to Back]]** (12% of attempts)
 
-- **[[Side Control to Mount]]** (12% of attempts)
+- **[[Transitions/Side Control to Mount]]** (12% of attempts)
 
-- **[[Break Overhook Guard]]** (6% of attempts)
+- **[[Transitions/Break Overhook Guard]]** (6% of attempts)
 
-- **[[Pass Overhook Guard]]** (3% of attempts)
+- **[[Transitions/Pass Overhook Guard]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -227,25 +227,25 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 ## Related Positions
 
 
-- **[[Closed Guard]]** - Primary base position where overhook is frequently established
+- **[[Positions/Closed Guard]]** - Primary base position where overhook is frequently established
 
-- **[[Half Guard]]** - Common position where overhook creates sweep and back take opportunities
+- **[[Positions/Half Guard]]** - Common position where overhook creates sweep and back take opportunities
 
-- **[[Butterfly Guard]]** - Position where overhook amplifies hook sweep effectiveness
+- **[[Positions/Butterfly Guard]]** - Position where overhook amplifies hook sweep effectiveness
 
-- **[[Kimura Trap]]** - Natural progression from overhook when opponent turns away
+- **[[Positions/Kimura Trap]]** - Natural progression from overhook when opponent turns away
 
-- **[[Triangle Control]]** - Common submission setup when opponent attempts to escape overhook
+- **[[Positions/Triangle Control]]** - Common submission setup when opponent attempts to escape overhook
 
-- **[[Back Control]]** - Frequent target position for overhook-based attacks
+- **[[Positions/Back Control]]** - Frequent target position for overhook-based attacks
 
-- **[[Omoplata Control]]** - Submission position accessed when opponent posts on overhooked arm
+- **[[Positions/Omoplata Control]]** - Submission position accessed when opponent posts on overhooked arm
 
-- **[[Deep Half Guard]]** - Position that combines well with overhook for enhanced sweeping power
+- **[[Positions/Half Guard/Deep Half Guard]]** - Position that combines well with overhook for enhanced sweeping power
 
-- **[[Rubber Guard]]** - Advanced guard system that utilizes overhook principles with leg control
+- **[[Positions/Rubber Guard]]** - Advanced guard system that utilizes overhook principles with leg control
 
-- **[[Overhook Control]]** - Complementary control concept with similar arm positioning mechanics
+- **[[Positions/Overhook Control]]** - Complementary control concept with similar arm positioning mechanics
 
 
 </section>

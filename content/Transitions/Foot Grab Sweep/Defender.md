@@ -158,7 +158,7 @@ The most critical defensive window occurs during the setup phase, before the bot
 
 Defensive success depends on disciplined base management, active grip fighting, and the willingness to abandon a compromised stance rather than trying to muscle through a sweep that has already been initiated. The defender who can recognize the foot grab attempt within the first half-second has a significant advantage over one who reacts only after feeling the pull.
 
-**Opponent's Starting Position**: [[Seated Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Seated Guard]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Defensive success depends on disciplined base management, active grip fighting, 
 ### 1. Retract the targeted foot and circle away from the sweep direction while maintaining your upper body posture
 
 - **When to use**: As soon as you feel or see the opponent's hand reaching for your foot, before they secure the grip
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: Sweep attempt fails completely, opponent returns to seated guard without any control, and you maintain your passing position with initiative
 - **Risk**: Circling away may create distance that allows opponent to stand up or reset their guard position
 
 ### 2. Drive your weight forward onto the grabbed foot while crossfacing or pressuring opponent's upper body to flatten them
 
 - **When to use**: When the opponent has already gripped your foot but has not yet generated rotational force
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: Your weight on the foot makes it impossible for them to lift or pull it across their body, killing the sweep mechanics entirely
 - **Risk**: Driving forward aggressively may overcommit your weight and expose you to a different sweep direction or guillotine
 
 ### 3. Strip the upper body grip by peeling their controlling hand off your sleeve or collar, removing the anchor point the sweep requires
 
 - **When to use**: When opponent has both grips established but has not yet initiated the hip drive and rotational sweep
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: Without the upper body grip, the foot control alone cannot generate the necessary off-balancing force to complete the sweep
 - **Risk**: Focusing on grip fighting may delay your passing and allow opponent to re-establish grips or switch to a different attack
 
 ### 4. Step over the sweeping motion and immediately attack with a leg drag or toreando pass, converting their sweep attempt into a passing opportunity
 
 - **When to use**: When the sweep is already in motion but you have enough base to redirect your momentum into a passing angle
-- **Targets**: [[Seated Guard]]
+- **Targets**: [[Positions/Seated Guard]]
 - **If successful**: You bypass their guard entirely and establish a dominant top position, punishing their offensive attempt
 - **Risk**: Mistiming the step-over can accelerate the sweep and put you in a worse position than if you had simply defended
 
@@ -229,11 +229,11 @@ Defensive success depends on disciplined base management, active grip fighting, 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Seated Guard]]
+### → [[Positions/Seated Guard]]
 
 Defend the sweep by retracting the targeted foot early, breaking the upper body grip, or loading weight onto the grabbed foot to kill the sweep mechanics. Any of these actions returns the position to the starting state where you retain your passing initiative and the opponent must rebuild their attack from scratch.
 
-### → [[Seated Guard]]
+### → [[Positions/Seated Guard]]
 
 Convert the sweep defense into a guard pass by timing a step-over or leg drag as the opponent commits to the sweeping motion. When they reach for your foot, their upper body is momentarily unprotected, and their hips are committed to the sweep angle. Use this opening to change your angle and pass to side control, turning their offensive attempt into your advancement.
 

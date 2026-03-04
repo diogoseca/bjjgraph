@@ -154,7 +154,7 @@ description: "Learn to escape and survive the Truck position in BJJ. Systematic 
 
 Defending against truck maintenance requires a systematic approach to dismantling the three control pillars: boot pressure, leg entanglement, and upper body connection. The defender must resist the urge to panic despite the uncomfortable body configuration and multiple simultaneous submission threats. Survival depends on addressing control points in the correct sequence: clearing the boot first removes the torque engine, extracting the trapped leg restores lower body mobility, and escaping to a safe position completes the defense. Each moment spent in the truck drains energy and morale, making efficient and composed defensive work essential for successful escape before submissions can be applied.
 
-**Opponent's Starting Position**: [[Truck]] (Top)
+**Opponent's Starting Position**: [[Positions/Twister Control/Truck]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against truck maintenance requires a systematic approach to dismantlin
 ### 1. Clear boot pressure through persistent hand fighting and hip rotation to remove the primary torque control
 
 - **When to use**: When attacker's boot is partially displaced or when attacker shifts weight for a submission attempt that momentarily reduces boot pressure
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Removes the foundational torque control, significantly weakening leg entanglement effectiveness and allowing re-turtling
 - **Risk**: Both hands occupied with boot fighting exposes neck to twister grips and rear choke attempts
 
 ### 2. Extract trapped leg through hip rotation and explosive movement when entanglement loosens
 
 - **When to use**: After boot pressure has been partially cleared or when attacker's leg entanglement loosens during a submission attempt transition
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recovers lower body mobility and enables guard recovery to half guard or open guard position
 - **Risk**: Extending leg during extraction attempt can be exploited for calf slicer if timing is incorrect
 
 ### 3. Execute granby roll escape using forward hip momentum to break through entanglement
 
 - **When to use**: When attacker's weight is committed forward over your upper body or during submission attempts that reduce chest-to-back contact
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Full rotation breaks both leg entanglement and boot control simultaneously, recovering open guard
 - **Risk**: If roll stalls halfway, back is further exposed and attacker may transition to traditional back control with hooks
 
 ### 4. Forward roll into opponent's legs to break entanglement from underneath
 
 - **When to use**: When boot pressure is momentarily weakened and attacker is focused on upper body attack setups
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Breaks leg entanglement through forward momentum and returns you to turtle position with hips underneath
 - **Risk**: Incomplete roll may result in deeper entanglement or opponent re-establishing truck from a tighter angle
 
@@ -225,11 +225,11 @@ Defending against truck maintenance requires a systematic approach to dismantlin
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Clear boot pressure first through persistent hand fighting, then extract trapped leg using explosive hip rotation when attacker's entanglement loosens. Insert knee shield immediately after leg extraction to establish half guard and prevent attacker from re-entering truck.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Fight boot pressure until attacker's torque control weakens below effective threshold, then use the reduced hip restriction to pull knees underneath your body and re-turtle. Even partial turtle recovery removes the perpendicular angle that makes truck dangerous.
 

@@ -210,21 +210,21 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 ## Available Escapes
 
-### [[Old School Sweep]] (26% of attempts)
+### [[Transitions/Old School Sweep]] (26% of attempts)
 
-### [[Turtle to Truck]] (16% of attempts)
+### [[Transitions/Turtle to Truck]] (16% of attempts)
 
-### [[Electric Chair Transition]] (18% of attempts)
+### [[Transitions/Electric Chair Transition]] (18% of attempts)
 
-### [[Closed Guard to Omoplata]] (8% of attempts)
+### [[Transitions/Closed Guard to Omoplata]] (8% of attempts)
 
-### [[Half Guard to Back Take]] (13% of attempts)
+### [[Transitions/Half Guard to Back Take]] (13% of attempts)
 
-### [[Lockdown Recovery]] (13% of attempts)
+### [[Transitions/Lockdown Recovery]] (13% of attempts)
 
-### [[Escape Vaporizer]] (4% of attempts)
+### [[Transitions/Escape Vaporizer]] (4% of attempts)
 
-### [[Roll from Vaporizer]] (2% of attempts)
+### [[Transitions/Roll from Vaporizer]] (2% of attempts)
 
 
 
@@ -235,23 +235,23 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 ## Decision Making from This Position
 
 **If opponent maintains heavy pressure and resists whip-up motion with wide base:**
-- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 55%)
-- Execute **[[Turtle to Truck]]** → [[Twister Control]] (Probability: 45%)
+- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 55%)
+- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control]] (Probability: 45%)
 
 
 **If opponent posts hand or attempts to create distance:**
-- Execute **[[Old School Sweep]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Lockdown Recovery]]** → [[Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Old School Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Lockdown Recovery]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 **If opponent commits weight forward to counter lockdown pressure:**
-- Execute **[[Half Guard to Back Take]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 45%)
+- Execute **[[Transitions/Half Guard to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 45%)
 
 
 **If opponent successfully widens base and prevents whip-up:**
-- Execute **[[Turtle to Truck]]** → [[Twister Control]] (Probability: 50%)
-- Execute **[[Electric Chair Transition]]** → [[Electric Chair]] (Probability: 50%)
+- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control]] (Probability: 50%)
+- Execute **[[Transitions/Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 50%)
 
 
 
@@ -385,14 +385,14 @@ From Vaporizer, attempt Old School sweep. When partner defends, immediately tran
 
 ## Related Positions and Techniques
 
-- **[[Lockdown]]** - Parent position providing foundational control
-- **[[Electric Chair]]** - Primary submission transition
-- **[[Twister Control]]** - Advanced transition target
-- **[[Half Guard]]** - Foundational position
-- **[[Old School]]** - Primary sweep position
-- **[[Rubber Guard]]** - Related 10th Planet position
-- **[[Deep Half Guard]]** - Alternative half guard approach
-- **[[Back Control]]** - Target position from rolling back take
+- **[[Positions/Half Guard/Lockdown]]** - Parent position providing foundational control
+- **[[Positions/Half Guard/Electric Chair]]** - Primary submission transition
+- **[[Positions/Twister Control]]** - Advanced transition target
+- **[[Positions/Half Guard]]** - Foundational position
+- **[[Positions/Half Guard/Old School]]** - Primary sweep position
+- **[[Positions/Rubber Guard]]** - Related 10th Planet position
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative half guard approach
+- **[[Positions/Back Control]]** - Target position from rolling back take
 
 
 </section>

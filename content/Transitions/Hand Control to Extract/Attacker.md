@@ -184,7 +184,7 @@ The technique operates on the principle that the gogoplata is a self-contained s
 
 Strategically, this escape works best when the gogoplata is not fully locked. The window for this technique opens when the opponent is still working to secure their foot behind your head or when their grip on their own foot is loose. Practitioners must develop sensitivity to recognize when hand fighting is viable versus when emergency escapes are necessary. The technique demands precise timing and methodical execution rather than explosive movement, making it particularly effective for technically proficient defenders who remain calm under submission pressure.
 
-**From Position**: [[Gogoplata Control]] (Top)
+**From Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
 
@@ -237,10 +237,10 @@ Strategically, this escape works best when the gogoplata is not fully locked. Th
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Gogoplata Control]] | 25% |
-| Counter | [[Triangle Control]] | 10% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Gogoplata Control]] | 25% |
+| Counter | [[Positions/Triangle Control]] | 10% |
 
 
 </section>
@@ -249,10 +249,10 @@ Strategically, this escape works best when the gogoplata is not fully locked. Th
 
 ## Opponent Counters
 
-- **Opponent switches to overhook control on your arm during hand fighting** (Effectiveness: High) - Your Response: If they release their foot grip to overhook, immediately extract your head before they can re-establish. Their overhook without foot control is less dangerous than the gogoplata. → Leads to [[Closed Guard]]
-- **Opponent elevates hips and tightens shin pressure during your hand fight** (Effectiveness: High) - Your Response: Abandon the hand fight and address the immediate choke threat. Return to emergency escape protocols if breathing becomes restricted. Hand fighting only works when you have time. → Leads to [[Gogoplata Control]]
-- **Opponent transitions to triangle by releasing gogoplata grip and switching leg position** (Effectiveness: Medium) - Your Response: The triangle transition creates space for posture recovery. As they switch legs, drive posture up and begin triangle defense immediately. You have exchanged one threat for another but gained time. → Leads to [[Triangle Control]]
-- **Opponent uses free hand to push your head deeper as you strip their other grip** (Effectiveness: Medium) - Your Response: Address both hands simultaneously. If they push your head with one hand, they cannot pull their foot deep with both. Swim your head toward the pushing hand side to escape the pressure. → Leads to [[Gogoplata Control]]
+- **Opponent switches to overhook control on your arm during hand fighting** (Effectiveness: High) - Your Response: If they release their foot grip to overhook, immediately extract your head before they can re-establish. Their overhook without foot control is less dangerous than the gogoplata. → Leads to [[Positions/Closed Guard]]
+- **Opponent elevates hips and tightens shin pressure during your hand fight** (Effectiveness: High) - Your Response: Abandon the hand fight and address the immediate choke threat. Return to emergency escape protocols if breathing becomes restricted. Hand fighting only works when you have time. → Leads to [[Positions/Gogoplata Control]]
+- **Opponent transitions to triangle by releasing gogoplata grip and switching leg position** (Effectiveness: Medium) - Your Response: The triangle transition creates space for posture recovery. As they switch legs, drive posture up and begin triangle defense immediately. You have exchanged one threat for another but gained time. → Leads to [[Positions/Triangle Control]]
+- **Opponent uses free hand to push your head deeper as you strip their other grip** (Effectiveness: Medium) - Your Response: Address both hands simultaneously. If they push your head with one hand, they cannot pull their foot deep with both. Swim your head toward the pushing hand side to escape the pressure. → Leads to [[Positions/Gogoplata Control]]
 
 
 </section>

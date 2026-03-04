@@ -154,7 +154,7 @@ description: "Learn to defend against the Technical Stand Up from Open Guard in 
 
 As the defender against the Technical Stand Up from Open Guard, you are the top player whose objective is to prevent the bottom player from successfully returning to their feet. Your primary tools are pressure, distance closing, and grip control. The moment you recognize the stand-up attempt, you must make a critical decision: close distance immediately to smother the movement, or time a takedown entry to capitalize on their transitional vulnerability. Understanding the mechanics of the technical stand up allows you to identify the precise moments of weakness in the sequence and exploit them before the bottom player completes their transition to standing. Effective defense requires reading the initial posting and framing movements that telegraph the stand-up attempt and responding before the bottom player gains upward momentum.
 
-**Opponent's Starting Position**: [[Open Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the Technical Stand Up from Open Guard, you are the top 
 ### 1. Close distance immediately with forward pressure and chest-to-chest connection
 
 - **When to use**: As soon as you recognize the posting hand placement or initial hip shift, before the bottom player creates sufficient distance with their leg frames
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Bottom player is driven back to supine position with their stand-up attempt smothered, returning to standard open guard engagement
 - **Risk**: If you close distance recklessly, the bottom player may use your forward momentum for a sweep or collar drag
 
 ### 2. Grab the posting-side ankle or pant leg to prevent the base foot from setting properly
 
 - **When to use**: When the bottom player has created too much distance for immediate pressure but has committed to the posting position, exposing their legs
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Bottom player cannot set their base foot properly and must abort the stand-up, returning to guard retention while you maintain positional control with an advantageous grip
 - **Risk**: Reaching for the ankle requires lowering your level, which may expose you to collar drag or guillotine if poorly timed
 
 ### 3. Shoot a takedown entry as the bottom player reaches the final standing phase with narrowest base
 
 - **When to use**: When the bottom player has nearly completed the stand-up and is transitioning from tripod to full standing with feet coming together
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You capitalize on their momentary base instability during the standing transition to score a takedown, landing in a passing or half guard top position
 - **Risk**: If the bottom player reads the shot early, they may sprawl effectively and establish a front headlock, reversing the initiative entirely
 
 ### 4. Establish collar tie and snap down as opponent reaches standing before establishing full balance
 
 - **When to use**: When the bottom player successfully reaches standing but has not yet established full balance and defensive hand position
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You snap the freshly-standing opponent back down to the mat before they can establish their standing base, potentially gaining front headlock control
 - **Risk**: Opponent may counter the snap-down with their own collar tie or arm drag if their hands are already up and positioned defensively
 
@@ -225,11 +225,11 @@ As the defender against the Technical Stand Up from Open Guard, you are the top 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Close distance immediately when you recognize the posting hand placement, drive forward with heavy chest pressure to collapse their tripod base before they can elevate their hips. Maintain grip control on their sleeves or collar to prevent them from reposting and reattempting.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a level change or shot as the opponent reaches the vulnerable final standing phase when their feet are coming together and their base is narrowest. A well-timed single leg on their base foot or a body lock entry during this transition capitalizes on their temporary instability and puts you in a dominant position.
 

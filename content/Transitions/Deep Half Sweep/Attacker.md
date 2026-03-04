@@ -180,7 +180,7 @@ description: "Execute the Deep Half Sweep from deep half guard bottom. Step-by-s
 
 As the attacker executing the Deep Half Sweep, your objective is to leverage your deep underhook position and body placement underneath the opponent to generate sufficient upward force to displace their base and complete a sweep to side control top. The sweep relies on proper body mechanics rather than explosive athleticism, making it effective across weight classes when executed with correct timing and positioning. Your entire body functions as a unified lever: the shoulder wedge against the opponent's inner thigh creates the fulcrum, the deep underhook provides the control handle, and hip elevation generates the force that drives the sweep through to completion.
 
-**From Position**: [[Deep Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Deep Half Sweep, your objective is to leverage you
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Deep Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Half Guard/Deep Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Deep Half Sweep, your objective is to leverage you
 
 ## Opponent Counters
 
-- **Crossface pressure to flatten bottom player and prevent hip elevation** (Effectiveness: High) - Your Response: Use the crossface pressure as a timing cue. When opponent drives forward with crossface, their weight commits forward which actually loads the sweep. Maintain your underhook and use their forward pressure to fuel the elevation. → Leads to [[Deep Half Guard]]
-- **Sprawl hips back to remove weight from bottom player's leverage point** (Effectiveness: High) - Your Response: When opponent sprawls, immediately transition to the rolling variation by rolling underneath them toward the far side, or switch to X-Guard or Single Leg X by hooking their retreating legs with your feet. → Leads to [[Deep Half Guard]]
-- **Backstep around bottom player's legs to pass guard entirely** (Effectiveness: Medium) - Your Response: Follow the backstep with your hips and maintain the underhook. If they commit to the backstep, use their rotation to enter a rolling back take or transition to half butterfly guard on the other side. → Leads to [[Half Guard]]
-- **Whizzer on the underhook arm to prevent elevation and strip control** (Effectiveness: Medium) - Your Response: When opponent applies whizzer, their far leg becomes lighter and more accessible. Switch to Electric Chair entry by using the whizzer pressure to feed your lockdown deeper, or drive through the whizzer with increased hip elevation pressure. → Leads to [[Deep Half Guard]]
+- **Crossface pressure to flatten bottom player and prevent hip elevation** (Effectiveness: High) - Your Response: Use the crossface pressure as a timing cue. When opponent drives forward with crossface, their weight commits forward which actually loads the sweep. Maintain your underhook and use their forward pressure to fuel the elevation. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Sprawl hips back to remove weight from bottom player's leverage point** (Effectiveness: High) - Your Response: When opponent sprawls, immediately transition to the rolling variation by rolling underneath them toward the far side, or switch to X-Guard or Single Leg X by hooking their retreating legs with your feet. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Backstep around bottom player's legs to pass guard entirely** (Effectiveness: Medium) - Your Response: Follow the backstep with your hips and maintain the underhook. If they commit to the backstep, use their rotation to enter a rolling back take or transition to half butterfly guard on the other side. → Leads to [[Positions/Half Guard]]
+- **Whizzer on the underhook arm to prevent elevation and strip control** (Effectiveness: Medium) - Your Response: When opponent applies whizzer, their far leg becomes lighter and more accessible. Switch to Electric Chair entry by using the whizzer pressure to feed your lockdown deeper, or drive through the whizzer with increased hip elevation pressure. → Leads to [[Positions/Half Guard/Deep Half Guard]]
 
 
 </section>

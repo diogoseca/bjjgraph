@@ -17,7 +17,7 @@ description: "Learn North-South Escape in BJJ. Step-by-step execution from North
 
 The North-South Escape is a fundamental defensive technique designed to recover guard from one of the most dominant pinning positions in Brazilian Jiu-Jitsu. When trapped in north-south position, the top player maintains heavy chest pressure and controls your movement with their hips and arms, making escape extremely difficult without proper technique. This escape relies on precise hip movement, frame creation, and timing to create the space necessary to recover to a safer bottom position. The technique emphasizes the principle of creating distance through bridging and shrimping mechanics while preventing your opponent from transitioning to more dangerous positions like mount or side control. Success requires understanding weight distribution, maintaining defensive posture throughout the escape sequence, and capitalizing on small windows of opportunity when the top player adjusts their position. The north-south escape is essential for any practitioner's defensive arsenal, as it addresses a common scenario where opponents achieve dominant control through passing or transitioning from other top positions.
 
-**From Position**: [[North-South]] (Bottom)
+**From Position**: [[Positions/North-South]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -28,11 +28,11 @@ The North-South Escape is a fundamental defensive technique designed to recover 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Success | [[Closed Guard]] | 25% |
-| Failure | [[North-South]] | 20% |
-| Counter | [[Side Control]] | 10% |
-| Counter | [[Mount]] | 5% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Success | [[Positions/Closed Guard]] | 25% |
+| Failure | [[Positions/North-South]] | 20% |
+| Counter | [[Positions/Side Control]] | 10% |
+| Counter | [[Positions/Mount]] | 5% |
 
 
 </section>
@@ -192,29 +192,29 @@ The north-south escape is a critical component of the comprehensive pin escape s
 ## Related Techniques
 
 
-- [[North-South]] - Starting position - the inferior position being escaped from
+- [[Positions/North-South]] - Starting position - the inferior position being escaped from
 
-- [[Half Guard]] - Primary ending position - common guard recovery destination
+- [[Positions/Half Guard]] - Primary ending position - common guard recovery destination
 
-- [[Closed Guard]] - Alternative ending position - full guard recovery destination
+- [[Positions/Closed Guard]] - Alternative ending position - full guard recovery destination
 
-- [[Hip Escape to Guard]] - Fundamental movement - core mechanic used during the escape
+- [[Transitions/Hip Escape to Guard]] - Fundamental movement - core mechanic used during the escape
 
-- [[Bridge and Roll]] - Related technique - alternative escape using bridging mechanics
+- [[Transitions/Bridge and Roll]] - Related technique - alternative escape using bridging mechanics
 
-- [[Elbow Escape to Guard]] - Related technique - similar framing and shrimping principles
+- [[Transitions/Elbow Escape to Guard]] - Related technique - similar framing and shrimping principles
 
-- [[Side Control Escape]] - Related escape - may be needed if opponent transitions during attempt
+- [[Transitions/Side Control Escape]] - Related escape - may be needed if opponent transitions during attempt
 
-- [[Frame and Shrimp to Guard]] - Fundamental movement - core mechanic used throughout sequence
+- [[Transitions/Frame and Shrimp to Guard]] - Fundamental movement - core mechanic used throughout sequence
 
-- [[Turtle]] - Alternative ending - intermediate position during some escape variations
+- [[Positions/Turtle]] - Alternative ending - intermediate position during some escape variations
 
-- [[North-South Choke]] - Submission threat - must defend against while escaping
+- [[Transitions/North-South Choke]] - Submission threat - must defend against while escaping
 
-- [[Kimura]] - Submission threat - common attack to be aware of during escape
+- [[Transitions/Kimura]] - Submission threat - common attack to be aware of during escape
 
-- [[Knee Shield Half Guard]] - Transitional position - intermediate guard during escape sequence
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Transitional position - intermediate guard during escape sequence
 
 
 </section>

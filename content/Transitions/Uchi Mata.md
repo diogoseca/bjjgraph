@@ -17,7 +17,7 @@ description: "Master Uchi Mata in BJJ. Complete standing throw from Clinch to Si
 
 The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile throwing techniques, highly effective in both gi and no-gi grappling. Translated as 'inner thigh reap,' this technique involves using your inner thigh to sweep your opponent's supporting leg while simultaneously rotating them over your hip. The Uchi Mata is particularly effective against taller opponents or those who stand upright in the clinch, as it exploits their high center of gravity. When executed properly, this throw generates tremendous force and typically results in a direct transition to side control or mount, making it one of the highest-percentage scoring techniques in BJJ competition. The technique requires precise timing, proper kuzushi (off-balancing), and coordinated hip and leg movement. Unlike some throws that rely purely on strength, Uchi Mata is a technical throw that uses rotational momentum and leverage to amplify your power. Its effectiveness has made it a staple in the arsenals of many high-level BJJ competitors who incorporate judo into their standing game.
 
-**From Position**: [[Clinch]] (Top)
+**From Position**: [[Positions/Clinch]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -28,9 +28,9 @@ The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 70% |
-| Failure | [[Clinch]] | 20% |
-| Counter | [[Clinch]] | 10% |
+| Success | [[Positions/Side Control]] | 70% |
+| Failure | [[Positions/Clinch]] | 20% |
+| Counter | [[Positions/Clinch]] | 10% |
 
 
 </section>
@@ -193,29 +193,29 @@ Uchi Mata serves as a fundamental cornerstone of an effective standing game in B
 ## Related Techniques
 
 
-- [[Osoto Gari]] - Combination attack - fake Uchi Mata to draw forward defense, then execute Osoto Gari
+- [[Transitions/Osoto Gari]] - Combination attack - fake Uchi Mata to draw forward defense, then execute Osoto Gari
 
-- [[Harai Goshi]] - Similar throw family - alternative when hip positioning differs
+- [[Transitions/Harai Goshi]] - Similar throw family - alternative when hip positioning differs
 
-- [[Kouchi Gari]] - Combination attack - use small inner reap to off-balance before Uchi Mata
+- [[Transitions/Kouchi Gari]] - Combination attack - use small inner reap to off-balance before Uchi Mata
 
-- [[Side Control]] - Primary landing position - immediate follow-up after successful throw
+- [[Positions/Side Control]] - Primary landing position - immediate follow-up after successful throw
 
-- [[Mount]] - Alternative landing position - transition here if opponent turns during throw
+- [[Positions/Mount]] - Alternative landing position - transition here if opponent turns during throw
 
-- [[Kimura from Side Control]] - Follow-up submission - natural attack after establishing side control from throw
+- [[Submissions/Kimura from Side Control]] - Follow-up submission - natural attack after establishing side control from throw
 
-- [[Ippon Seoi Nage]] - Alternative throw - use when opponent defends Uchi Mata by preventing hip contact
+- [[Transitions/Ippon Seoi Nage]] - Alternative throw - use when opponent defends Uchi Mata by preventing hip contact
 
-- [[Front Headlock]] - Backup position - if throw fails, secure front headlock during scramble
+- [[Positions/Front Headlock]] - Backup position - if throw fails, secure front headlock during scramble
 
-- [[Body Lock]] - Setup position - establish body lock as entry point for no-gi Uchi Mata variation
+- [[Positions/Body Lock]] - Setup position - establish body lock as entry point for no-gi Uchi Mata variation
 
-- [[Clinch]] - Starting position - all grip fighting and kuzushi occurs from clinch engagement
+- [[Positions/Clinch]] - Starting position - all grip fighting and kuzushi occurs from clinch engagement
 
-- [[Double Leg Entry]] - Chain attack - switch to double leg if Uchi Mata entry is stuffed and opponent's hips are exposed
+- [[Transitions/Double Leg Entry]] - Chain attack - switch to double leg if Uchi Mata entry is stuffed and opponent's hips are exposed
 
-- [[Deashi Harai]] - Timing complement - foot sweep that shares the same kuzushi direction and sets up Uchi Mata
+- [[Transitions/Deashi Harai]] - Timing complement - foot sweep that shares the same kuzushi direction and sets up Uchi Mata
 
 
 </section>

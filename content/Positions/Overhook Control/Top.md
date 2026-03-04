@@ -212,25 +212,25 @@ The transitional nature of top overhook distinguishes it from static control pos
 
 ## Available Attacks
 
-### [[Kimura]] (16% of attempts)
+### [[Transitions/Kimura]] (16% of attempts)
 
-### [[Darce Choke]] (10% of attempts)
+### [[Transitions/Darce Choke]] (10% of attempts)
 
-### [[Anaconda Choke]] (9% of attempts)
+### [[Transitions/Anaconda Choke]] (9% of attempts)
 
-### [[Arm Drag to Back]] (11% of attempts)
+### [[Transitions/Arm Drag to Back]] (11% of attempts)
 
-### [[Two-on-One to Back Take]] (10% of attempts)
+### [[Transitions/Two-on-One to Back Take]] (10% of attempts)
 
-### [[Snap Down to Front Headlock]] (11% of attempts)
+### [[Transitions/Snap Down to Front Headlock]] (11% of attempts)
 
-### [[Crab Ride to Back]] (10% of attempts)
+### [[Transitions/Crab Ride to Back]] (10% of attempts)
 
-### [[Crucifix from Turtle]] (8% of attempts)
+### [[Transitions/Crucifix from Turtle]] (8% of attempts)
 
-### [[Side Control to Mount]] (11% of attempts)
+### [[Transitions/Side Control to Mount]] (11% of attempts)
 
-### [[Overhook Pass to Side Control]] (4% of attempts)
+### [[Transitions/Overhook Pass to Side Control]] (4% of attempts)
 
 
 
@@ -241,28 +241,28 @@ The transitional nature of top overhook distinguishes it from static control pos
 ## Decision Making from This Position
 
 **If opponent's posture is upright and they are trying to pull their arm back against your pressure:**
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 65%)
-- Execute **[[Two-on-One to Back Take]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 65%)
+- Execute **[[Transitions/Two-on-One to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent drops their weight forward and drives into you with pressure:**
-- Execute **[[Darce Choke]]** → [[Darce Control]] (Probability: 60%)
-- Execute **[[Anaconda Choke]]** → [[Anaconda Control]] (Probability: 55%)
+- Execute **[[Transitions/Darce Choke]]** → [[Positions/Darce Control]] (Probability: 60%)
+- Execute **[[Transitions/Anaconda Choke]]** → [[Positions/Anaconda Control]] (Probability: 55%)
 
 
 **If opponent stands up or increases distance trying to escape the overhook:**
-- Execute **[[Snap Down to Front Headlock]]** → [[Front Headlock]] (Probability: 70%)
-- Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 70%)
+- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 65%)
 
 
 **If opponent circles toward their trapped arm side attempting to create escape angle:**
-- Execute **[[Arm Drag to Back]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Crab Ride to Back]]** → [[Crab Ride]] (Probability: 58%)
+- Execute **[[Transitions/Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 58%)
 
 
 **If opponent turns away from overhook or drops to turtle position to defend:**
-- Execute **[[Crucifix from Turtle]]** → [[Crucifix]] (Probability: 50%)
-- Execute **[[Crab Ride to Back]]** → [[Crab Ride]] (Probability: 58%)
+- Execute **[[Transitions/Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 50%)
+- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 58%)
 
 
 
@@ -396,15 +396,15 @@ Start with overhook control from turtle top position. Practice different back ta
 
 ## Related Positions and Techniques
 
-- **[[Kimura Trap]]** - Primary submission control accessed when opponent pulls back against overhook pressure
-- **[[Darce Control]]** - Front headlock submission position entered when opponent drives forward into overhook
-- **[[Front Headlock]]** - Often combined with overhook for complete upper body control and submission setup
-- **[[Anaconda Control]]** - Alternative front headlock submission from overhook when opponent drops their head
-- **[[Back Control]]** - Common advancement target using arm drag, two-on-one, or crab ride from overhook
-- **[[Crab Ride]]** - Transitional position accessed via overhook control when opponent turns away
-- **[[Crucifix]]** - Advanced control position accessible from overhook on turtle through proper mechanics
-- **[[Turtle]]** - Common bottom position where top player uses overhook to control and attack
-- **[[Overhook Guard]]** - Guard position that mirrors top overhook concepts from bottom perspective
+- **[[Positions/Kimura Trap]]** - Primary submission control accessed when opponent pulls back against overhook pressure
+- **[[Positions/Darce Control]]** - Front headlock submission position entered when opponent drives forward into overhook
+- **[[Positions/Front Headlock]]** - Often combined with overhook for complete upper body control and submission setup
+- **[[Positions/Anaconda Control]]** - Alternative front headlock submission from overhook when opponent drops their head
+- **[[Positions/Back Control]]** - Common advancement target using arm drag, two-on-one, or crab ride from overhook
+- **[[Positions/Crab Ride]]** - Transitional position accessed via overhook control when opponent turns away
+- **[[Positions/Crucifix]]** - Advanced control position accessible from overhook on turtle through proper mechanics
+- **[[Positions/Turtle]]** - Common bottom position where top player uses overhook to control and attack
+- **[[Positions/Overhook Guard]]** - Guard position that mirrors top overhook concepts from bottom perspective
 
 
 </section>

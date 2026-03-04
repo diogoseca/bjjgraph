@@ -146,7 +146,7 @@ description: "Complete guide to preventing clinch breaks in BJJ. Learn grip main
 
 Defending against the clinch break means maintaining your clinch control when your opponent attempts to create separation and disengage to standing distance. As the clinch controller, your objective is to keep the engagement at close range where your superior grips, head position, and body pressure give you access to takedowns, throws, and other offensive transitions. The defender must read the precursors to a break attempt, including grip stripping, frame creation, and backward weight shifts, and preemptively counter these actions before full separation occurs. Successful defense relies on maintaining at least one strong anchor point on the opponent at all times, following their movement with immediate forward pressure, and having counter-attacks ready that capitalize on the mechanical vulnerabilities inherent in the break attempt. The best clinch defenders turn their opponent's escape attempts into offensive opportunities through well-timed snap-downs, level changes, and grip transitions.
 
-**Opponent's Starting Position**: [[Clinch]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Clinch]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ Defending against the clinch break means maintaining your clinch control when yo
 ### 1. Re-pummel to inside position and tighten clinch grip before frames are established
 
 - **When to use**: When you recognize early grip-fighting cues before the opponent has established solid inside frames on your chest
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: You maintain clinch control with tighter grips than before, and the opponent has wasted energy on the failed break attempt
 - **Risk**: If your re-pummel is too slow, the opponent uses the grip transition moment to accelerate their separation
 
 ### 2. Execute snap-down during the push-off phase when the opponent's arms are extended and weight is shifting backward
 
 - **When to use**: When the opponent commits to the explosive separation and extends their frames, creating a lever you can redirect downward
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You convert the break attempt into a front headlock position with dominant head control and the opponent on their knees
 - **Risk**: If the opponent's head position is strong with chin tucked, the snap-down may fail and you lose your clinch grips in the process
 
 ### 3. Follow with forward pressure and step into the separation to close distance before the opponent can circle away
 
 - **When to use**: When the opponent creates initial separation but has not yet changed angle or established fighting stance at distance
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: You re-establish the clinch before the opponent can reset, and their backward momentum may actually compromise their balance as you drive forward
 - **Risk**: If you overcommit forward and the opponent circles sharply, you may stumble past them and give up back angle
 
 ### 4. Transition to body lock during the opponent's grip-fighting phase to eliminate frame-based separation entirely
 
 - **When to use**: When you recognize early break setup cues and can lock hands around the opponent's torso before they establish inside frames
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: The body lock eliminates the frame-and-push break as an option, and you gain access to body lock takedowns and lifts
 - **Risk**: Committing to the body lock requires abandoning your current grip configuration, creating a brief vulnerability during the transition
 
@@ -218,11 +218,11 @@ Defending against the clinch break means maintaining your clinch control when yo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Re-engage immediately after a failed break attempt by pummeling to inside position with tighter grips. Use the opponent's backward momentum to pull them off-balance as you close distance. Establish a stronger grip configuration than before the break attempt so subsequent separation becomes harder.
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Time the snap-down to the exact moment the opponent extends their frames for the push-off. Pull their head downward while stepping your hips back, using their extended arms as levers that accelerate the downward pull. Immediately circle to the side of their head to consolidate front headlock control before they can posture back up.
 

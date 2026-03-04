@@ -21,7 +21,7 @@ The technical challenge lies in releasing the lockdown figure-four without creat
 
 Recognizing when to abandon the Vaporizer is a hallmark of positional intelligence within the 10th Planet system. Committing too long to a neutralized position wastes energy and allows the opponent to organize their passing game. Transitioning to open guard provides access to De La Riva hooks, butterfly elevators, and collar sleeve controls that attack from fundamentally different angles than the lockdown-based proximity game, forcing the opponent to recalibrate their defensive strategy entirely.
 
-**From Position**: [[Vaporizer]] (Bottom)
+**From Position**: [[Positions/Vaporizer]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Recognizing when to abandon the Vaporizer is a hallmark of positional intelligen
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Failure | [[Lockdown]] | 30% |
-| Counter | [[Flattened Half Guard]] | 20% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 20% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Escape Vaporizer connects the 10th Planet lockdown system to the broader ope
 ## Related Techniques
 
 
-- [[Lockdown]] - Parent control position providing the foundational lockdown mechanics that the escape releases
+- [[Positions/Half Guard/Lockdown]] - Parent control position providing the foundational lockdown mechanics that the escape releases
 
-- [[Half Guard]] - Foundational position family that the Vaporizer extends and that serves as fallback during failed transitions
+- [[Positions/Half Guard]] - Foundational position family that the Vaporizer extends and that serves as fallback during failed transitions
 
-- [[Open Guard]] - Target position after successful escape, providing fresh offensive systems
+- [[Positions/Open Guard]] - Target position after successful escape, providing fresh offensive systems
 
-- [[Electric Chair]] - Primary Vaporizer submission threat whose neutralization often triggers the escape decision
+- [[Positions/Half Guard/Electric Chair]] - Primary Vaporizer submission threat whose neutralization often triggers the escape decision
 
-- [[Deep Half Guard]] - Alternative half guard transition when open guard distance cannot be established
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative half guard transition when open guard distance cannot be established
 
-- [[Flattened Half Guard]] - Common counter position reached when the opponent capitalizes on the lockdown release
+- [[Positions/Half Guard/Flattened Half Guard]] - Common counter position reached when the opponent capitalizes on the lockdown release
 
-- [[Rubber Guard]] - Related 10th Planet guard system sharing similar positional intelligence principles
+- [[Positions/Rubber Guard]] - Related 10th Planet guard system sharing similar positional intelligence principles
 
-- [[Back Door Escape from Half Guard]] - Related escape concept demonstrating tactical retreat from half guard positions
+- [[Transitions/Back Door Escape from Half Guard]] - Related escape concept demonstrating tactical retreat from half guard positions
 
-- [[Deep Half Entry from Half Guard]] - Alternative transition path available from the half guard family
+- [[Transitions/Deep Half Entry from Half Guard]] - Alternative transition path available from the half guard family
 
-- [[Butterfly Guard]] - Specific open guard variation accessible through the quick-release butterfly variant
+- [[Positions/Butterfly Guard]] - Specific open guard variation accessible through the quick-release butterfly variant
 
 
 </section>

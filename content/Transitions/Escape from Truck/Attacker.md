@@ -182,7 +182,7 @@ As the attacker executing the Escape from Truck, you are the bottom player trapp
 
 Your escape sequence follows a strict priority hierarchy: protect the neck first to prevent spinal submissions, then clear the boot pressure that generates torque, then extract the trapped leg from the entanglement, and finally execute the escape roll or scramble to achieve guard recovery or a top position. Rushing any step or skipping the hierarchy consistently results in submission or worsened position. The granby roll is your highest-percentage escape tool once the foundational control points have been addressed.
 
-**From Position**: [[Truck]] (Bottom)
+**From Position**: [[Positions/Twister Control/Truck]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ Your escape sequence follows a strict priority hierarchy: protect the neck first
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 35% |
-| Failure | [[Truck]] | 40% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Side Control]] | 35% |
+| Failure | [[Positions/Twister Control/Truck]] | 40% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -245,10 +245,10 @@ Your escape sequence follows a strict priority hierarchy: protect the neck first
 
 ## Opponent Counters
 
-- **Opponent increases boot pressure and flattens you with chest weight during escape attempt** (Effectiveness: High) - Your Response: Pause escape sequence, re-establish neck protection, and work to re-address the boot before continuing. Use hip elevation and free leg posting to resist flattening while fighting the boot with your hand. → Leads to [[Truck]]
-- **Opponent abandons truck and transitions to back control by inserting hooks during your escape movement** (Effectiveness: Medium) - Your Response: Immediately shift to back defense protocol with chin tuck and hand fighting on choking arm. Your escape created movement that the opponent exploited, so address the new position rather than continuing the truck escape. → Leads to [[Back Control]]
-- **Opponent attacks calf slicer on your trapped leg when you begin extraction** (Effectiveness: Medium) - Your Response: Sharply bend your knee to reduce compression on the joint while using the opponent's leg extension commitment to initiate a forward roll escape. Their weight shift for the calf slicer creates a window for rolling through. → Leads to [[Truck]]
-- **Opponent follows your granby roll rotation and maintains back exposure throughout** (Effectiveness: Medium) - Your Response: Continue the roll without stopping and transition to a sit-out or scramble rather than settling in a compromised position. Use the momentum of the roll to create distance and face your opponent before they can re-consolidate control. → Leads to [[Back Control]]
+- **Opponent increases boot pressure and flattens you with chest weight during escape attempt** (Effectiveness: High) - Your Response: Pause escape sequence, re-establish neck protection, and work to re-address the boot before continuing. Use hip elevation and free leg posting to resist flattening while fighting the boot with your hand. → Leads to [[Positions/Twister Control/Truck]]
+- **Opponent abandons truck and transitions to back control by inserting hooks during your escape movement** (Effectiveness: Medium) - Your Response: Immediately shift to back defense protocol with chin tuck and hand fighting on choking arm. Your escape created movement that the opponent exploited, so address the new position rather than continuing the truck escape. → Leads to [[Positions/Back Control]]
+- **Opponent attacks calf slicer on your trapped leg when you begin extraction** (Effectiveness: Medium) - Your Response: Sharply bend your knee to reduce compression on the joint while using the opponent's leg extension commitment to initiate a forward roll escape. Their weight shift for the calf slicer creates a window for rolling through. → Leads to [[Positions/Twister Control/Truck]]
+- **Opponent follows your granby roll rotation and maintains back exposure throughout** (Effectiveness: Medium) - Your Response: Continue the roll without stopping and transition to a sit-out or scramble rather than settling in a compromised position. Use the momentum of the roll to create distance and face your opponent before they can re-consolidate control. → Leads to [[Positions/Back Control]]
 
 
 </section>

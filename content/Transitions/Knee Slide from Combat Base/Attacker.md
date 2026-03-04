@@ -180,7 +180,7 @@ description: "Complete guide to executing the Knee Slide from Combat Base. Step-
 
 Executing the Knee Slide from Combat Base requires understanding the biomechanical relationship between crossface pressure, underhook control, and diagonal knee placement. The attacker's primary objective is to drive the lead knee across the opponent's thigh line while maintaining heavy upper body control that prevents the bottom player from creating defensive angles. Success depends on proper timing of the weight transfer from combat base to the cutting position, coordinated upper and lower body movement, and the ability to read and react to defensive responses in real time. The technique rewards patience and methodical pressure over explosive speed, making it accessible to practitioners of all body types while remaining effective at the highest competitive levels. The crossface-knee cut combination creates a mechanical vise that channels the passer's entire body weight through the cutting line, making it one of the most difficult passes to stop once properly initiated.
 
-**From Position**: [[Combat Base]] (Top)
+**From Position**: [[Positions/Combat Base]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Knee Slide from Combat Base requires understanding the biomechanic
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Combat Base]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Combat Base]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Knee Slide from Combat Base requires understanding the biomechanic
 
 ## Opponent Counters
 
-- **Opponent inserts knee shield before the cutting knee crosses the thigh line, creating a frame that blocks forward progress** (Effectiveness: High) - Your Response: Drive your crossface shoulder into the top of their knee shield to flatten it toward the mat. If the shield holds, transition to a smash pass by walking your hips around the shield, or switch to a long step pass by stepping over the shield to the far side. → Leads to [[Half Guard]]
-- **Opponent wins the underhook on the near side, turning into you and threatening sweeps or back takes from half guard** (Effectiveness: High) - Your Response: Immediately apply a whizzer with heavy shoulder pressure to neutralize their underhook leverage. If the underhook is deep, transition to a kimura grip on the underhook arm to attack the arm directly or use it to peel the underhook and re-establish crossface control. → Leads to [[Half Guard]]
-- **Opponent frames hard against the crossface shoulder with both hands, creating distance that prevents the knee from cutting through** (Effectiveness: Medium) - Your Response: Swim your crossface arm inside their frames to collapse the distance, or grip their framing wrist and pin it to the mat while driving your shoulder past the frame. Alternatively, use the frame as an opportunity to switch to an arm drag that pulls the framing arm across their body. → Leads to [[Combat Base]]
-- **Opponent hip escapes explosively away from the cutting knee, creating distance and recovering open guard with feet on hips** (Effectiveness: Medium) - Your Response: Follow the hip escape by maintaining crossface pressure and adjusting the cutting angle to track their movement. If distance is created, reset to combat base and re-engage with a toreando pass or repeat the knee slide setup from the new angle rather than chasing a lost passing lane. → Leads to [[Combat Base]]
+- **Opponent inserts knee shield before the cutting knee crosses the thigh line, creating a frame that blocks forward progress** (Effectiveness: High) - Your Response: Drive your crossface shoulder into the top of their knee shield to flatten it toward the mat. If the shield holds, transition to a smash pass by walking your hips around the shield, or switch to a long step pass by stepping over the shield to the far side. → Leads to [[Positions/Half Guard]]
+- **Opponent wins the underhook on the near side, turning into you and threatening sweeps or back takes from half guard** (Effectiveness: High) - Your Response: Immediately apply a whizzer with heavy shoulder pressure to neutralize their underhook leverage. If the underhook is deep, transition to a kimura grip on the underhook arm to attack the arm directly or use it to peel the underhook and re-establish crossface control. → Leads to [[Positions/Half Guard]]
+- **Opponent frames hard against the crossface shoulder with both hands, creating distance that prevents the knee from cutting through** (Effectiveness: Medium) - Your Response: Swim your crossface arm inside their frames to collapse the distance, or grip their framing wrist and pin it to the mat while driving your shoulder past the frame. Alternatively, use the frame as an opportunity to switch to an arm drag that pulls the framing arm across their body. → Leads to [[Positions/Combat Base]]
+- **Opponent hip escapes explosively away from the cutting knee, creating distance and recovering open guard with feet on hips** (Effectiveness: Medium) - Your Response: Follow the hip escape by maintaining crossface pressure and adjusting the cutting angle to track their movement. If distance is created, reset to combat base and re-engage with a toreando pass or repeat the knee slide setup from the new angle rather than chasing a lost passing lane. → Leads to [[Positions/Combat Base]]
 
 
 </section>

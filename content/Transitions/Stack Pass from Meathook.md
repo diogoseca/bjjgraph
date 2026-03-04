@@ -21,7 +21,7 @@ The technique carries inherent risk because driving forward in Meathook can feed
 
 Stack passing from Meathook represents one of the more aggressive escape options from Rubber Guard positions. While arm extraction and posture recovery are generally safer escape paths, the stack pass offers the advantage of potentially advancing past guard entirely rather than merely returning to a neutral closed guard position. This makes it a valuable tool for competitors who need to advance position and score points, though the risk-reward calculus must be carefully considered given the gogoplata danger. The technique works best against opponents with moderate flexibility, as extremely flexible practitioners can maintain hook pressure even when folded, while less flexible opponents may not establish deep enough Meathook to warrant this aggressive response.
 
-**From Position**: [[Meathook]] (Top)
+**From Position**: [[Positions/Rubber Guard/Meathook]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,11 +32,11 @@ Stack passing from Meathook represents one of the more aggressive escape options
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Success | [[Side Control]] | 10% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Gogoplata Control]] | 15% |
-| Failure | [[Meathook]] | 10% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Success | [[Positions/Side Control]] | 10% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Gogoplata Control]] | 15% |
+| Failure | [[Positions/Rubber Guard/Meathook]] | 10% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Stack Pass from Meathook occupies a specific niche within the Rubber Guard e
 ## Related Techniques
 
 
-- [[Meathook]] - Source position where this technique is initiated from the top player's trapped position
+- [[Positions/Rubber Guard/Meathook]] - Source position where this technique is initiated from the top player's trapped position
 
-- [[Half Guard]] - Primary success destination after partial pass through the Meathook guard structure
+- [[Positions/Half Guard]] - Primary success destination after partial pass through the Meathook guard structure
 
-- [[Side Control]] - Full pass destination when stack completely neutralizes guard retention
+- [[Positions/Side Control]] - Full pass destination when stack completely neutralizes guard retention
 
-- [[Closed Guard]] - Common fallback position when stack pass fails but arm is extracted
+- [[Positions/Closed Guard]] - Common fallback position when stack pass fails but arm is extracted
 
-- [[Gogoplata Control]] - Primary counter-attack risk when driving forward feeds opponent's shin to throat
+- [[Positions/Gogoplata Control]] - Primary counter-attack risk when driving forward feeds opponent's shin to throat
 
-- [[Mission Control]] - Related Rubber Guard control position that precedes Meathook in the system
+- [[Positions/Rubber Guard/Mission Control]] - Related Rubber Guard control position that precedes Meathook in the system
 
-- [[Rubber Guard]] - Parent guard system containing Meathook and related control positions
+- [[Positions/Rubber Guard]] - Parent guard system containing Meathook and related control positions
 
-- [[Posture Recovery from Meathook]] - Alternative and generally safer escape technique from the same trapped position
+- [[Transitions/Posture Recovery from Meathook]] - Alternative and generally safer escape technique from the same trapped position
 
-- [[Carni]] - Related Rubber Guard position the bottom player may transition to during failed stack
+- [[Positions/Rubber Guard/Carni]] - Related Rubber Guard position the bottom player may transition to during failed stack
 
-- [[Omoplata Control]] - Secondary counter-attack risk if bottom player redirects during stack attempt
+- [[Positions/Omoplata Control]] - Secondary counter-attack risk if bottom player redirects during stack attempt
 
 
 </section>

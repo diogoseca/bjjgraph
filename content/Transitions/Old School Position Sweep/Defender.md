@@ -146,7 +146,7 @@ description: "Defend the Old School Position Sweep from half guard top. Recognit
 
 As the defender against the Old School Position Sweep, you are the top player caught in the opponent's lockdown half guard with their underhook and head control threatening a powerful rotational sweep. Your primary objective is to neutralize the three-point control system that powers the sweep: the lockdown on your trapped leg, the deep underhook under your arm, and the head control pulling your posture down. Success requires immediate defensive structure through whizzer control and crossface pressure, combined with systematic base management that prevents the opponent from generating the rotational force needed to complete the sweep. Understanding the sweep's mechanics allows you to predict timing and exploit the specific moments when the attacker is most vulnerable to counter-attacks.
 
-**Opponent's Starting Position**: [[Old School]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Old School]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ As the defender against the Old School Position Sweep, you are the top player ca
 ### 1. Establish deep whizzer and drive crossface pressure to flatten opponent onto their back
 
 - **When to use**: Immediately upon recognizing the underhook and head control establishment, before the opponent can turn fully onto their side
-- **Targets**: [[Old School]]
+- **Targets**: [[Positions/Half Guard/Old School]]
 - **If successful**: Opponent loses the side angle needed for the sweep and must either abandon the sweep attempt or transition to an alternative attack like deep half guard entry
 - **Risk**: If crossface is too aggressive, opponent may redirect your forward momentum into the sweep itself
 
 ### 2. Post free leg wide and sprawl hips back to remove rotational leverage
 
 - **When to use**: When you feel the lockdown pump beginning and the opponent starts driving their hips forward to initiate the sweep rotation
-- **Targets**: [[Old School]]
+- **Targets**: [[Positions/Half Guard/Old School]]
 - **If successful**: The wide base and hip sprawl completely neutralize the circular sweep path, leaving the opponent unable to generate sufficient rotational force
 - **Risk**: Sprawling too far back may create space for the opponent to transition to deep half guard or recover to a different guard
 
 ### 3. Extract trapped leg from lockdown and immediately initiate a guard pass to side control
 
 - **When to use**: When you feel a brief moment of lockdown slack, typically when the opponent transitions between pumping and sweep initiation
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Breaking the lockdown removes the foundation of the entire sweep system, allowing you to pass directly to side control
 - **Risk**: Forcefully pulling the trapped leg can feed into the opponent's sweep mechanics if they time the extension with your extraction attempt
 
 ### 4. Counter-rotate by driving your whizzer deep and circling toward the opponent's back
 
 - **When to use**: When the opponent commits fully to the sweep and begins coming up on their underhook, exposing their back in the process
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: The opponent's sweeping momentum is redirected and you end up in a dominant position rather than being swept
 - **Risk**: Mistiming the counter-rotation may accelerate the sweep completion if the opponent reads the movement
 
@@ -218,11 +218,11 @@ As the defender against the Old School Position Sweep, you are the top player ca
 
 ## Best-Case Outcomes for Defender
 
-### → [[Old School]]
+### → [[Positions/Half Guard/Old School]]
 
 Establish immediate whizzer control and heavy crossface pressure to flatten the opponent onto their back, destroying their side angle. Maintain wide base with free leg posted and keep hips low and heavy. Work patiently to extract the trapped leg from the lockdown through hip pressure and ankle manipulation.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Exploit the opponent's sweep commitment by extracting the trapped leg during their lockdown transition moment, then immediately drive a knee slice or smash pass through to side control. Alternatively, counter-rotate with the whizzer when the opponent overcommits to the sweep, using their momentum to advance past their guard.
 

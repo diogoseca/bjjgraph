@@ -205,33 +205,33 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 ## Available Escapes
 
-### [[Triangle Setup]] (30% of attempts)
+### [[Transitions/Triangle Setup]] (30% of attempts)
 
-### [[Omoplata Sweep]] (9% of attempts)
+### [[Transitions/Omoplata Sweep]] (9% of attempts)
 
-### [[Balloon Sweep]] (9% of attempts)
+### [[Transitions/Balloon Sweep]] (9% of attempts)
 
-### [[Scissor Sweep]] (8% of attempts)
+### [[Transitions/Scissor Sweep]] (8% of attempts)
 
-### [[De La Riva Sweep]] (8% of attempts)
+### [[Transitions/De La Riva Sweep]] (8% of attempts)
 
-### [[Spider Guard to Omoplata]] (9% of attempts)
+### [[Transitions/Spider Guard to Omoplata]] (9% of attempts)
 
-### [[Pendulum Sweep]] (7% of attempts)
+### [[Transitions/Pendulum Sweep]] (7% of attempts)
 
-### [[Armbar Finish]] (6% of attempts)
+### [[Transitions/Armbar Finish]] (6% of attempts)
 
-### [[Guard Recovery from Spider Guard]] (6% of attempts)
+### [[Transitions/Guard Recovery from Spider Guard]] (6% of attempts)
 
-### [[Spider Sweep]] (2% of attempts)
+### [[Transitions/Spider Sweep]] (2% of attempts)
 
-### [[Spider to Lasso Guard]] (1% of attempts)
+### [[Transitions/Spider to Lasso Guard]] (1% of attempts)
 
-### [[Triangle from Spider Guard]] (1% of attempts)
+### [[Transitions/Triangle from Spider Guard]] (1% of attempts)
 
-### [[Omoplata from Spider Guard]] (2% of attempts)
+### [[Submissions/Omoplata from Spider Guard]] (2% of attempts)
 
-### [[Triangle from Spider Guard Bottom]] (2% of attempts)
+### [[Submissions/Triangle from Spider Guard Bottom]] (2% of attempts)
 
 
 
@@ -242,23 +242,23 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 ## Decision Making from This Position
 
 **If opponent stands upright with extended posture trying to break grips:**
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 55%)
-- Execute **[[Omoplata Sweep]]** → [[Omoplata Control]] (Probability: 45%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 45%)
 
 
 **Else if opponent drives forward with low posture attempting pressure pass:**
-- Execute **[[Balloon Sweep]]** → [[Mount]] (Probability: 55%)
-- Execute **[[Scissor Sweep]]** → [[Mount]] (Probability: 45%)
+- Execute **[[Transitions/Balloon Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Scissor Sweep]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 **Else if opponent steps to side attempting toreando or knee cut pass:**
-- Execute **[[De La Riva Sweep]]** → [[Back Control]] (Probability: 50%)
-- Execute **[[Pendulum Sweep]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **Else if opponent secures strong grips and controls distance effectively:**
-- Execute **[[Guard Recovery from Spider Guard]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Butterfly Hook Recovery]]** → [[Butterfly Guard]] (Probability: 45%)
+- Execute **[[Transitions/Guard Recovery from Spider Guard]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Butterfly Hook Recovery]]** → [[Positions/Butterfly Guard]] (Probability: 45%)
 
 
 
@@ -392,16 +392,16 @@ Start with compromised spider guard position (weak grips or poor foot placement)
 
 ## Related Positions and Techniques
 
-- **[[Lasso Guard]]** - Common variation where one leg wraps over opponent's shoulder for enhanced control
-- **[[Open Guard]]** - Parent category that includes spider guard as specific variation
-- **[[De La Riva Guard]]** - Complementary guard that works well in combination with spider guard
-- **[[Collar Sleeve Guard]]** - Similar guard variation using collar and sleeve grips instead of double sleeve
-- **[[Triangle Control]]** - Primary submission target from spider guard attacks
-- **[[Omoplata Control]]** - High-percentage submission and sweep option from spider guard
-- **[[X-Guard]]** - Guard variation that can be transitioned to from spider guard
-- **[[Closed Guard]]** - Fallback defensive position when spider guard is compromised
-- **[[Single Leg X-Guard]]** - Transition target when opponent stands tall in Spider Guard
-- **[[Butterfly Guard]]** - Alternative open guard for closer range engagement
+- **[[Positions/Lasso Guard]]** - Common variation where one leg wraps over opponent's shoulder for enhanced control
+- **[[Positions/Open Guard]]** - Parent category that includes spider guard as specific variation
+- **[[Positions/De La Riva Guard]]** - Complementary guard that works well in combination with spider guard
+- **[[Positions/Collar Sleeve Guard]]** - Similar guard variation using collar and sleeve grips instead of double sleeve
+- **[[Positions/Triangle Control]]** - Primary submission target from spider guard attacks
+- **[[Positions/Omoplata Control]]** - High-percentage submission and sweep option from spider guard
+- **[[Positions/X-Guard]]** - Guard variation that can be transitioned to from spider guard
+- **[[Positions/Closed Guard]]** - Fallback defensive position when spider guard is compromised
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Transition target when opponent stands tall in Spider Guard
+- **[[Positions/Butterfly Guard]]** - Alternative open guard for closer range engagement
 
 
 </section>

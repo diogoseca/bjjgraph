@@ -146,7 +146,7 @@ description: "Complete defensive guide against the Z-Guard pass. Recognition cue
 
 As the defender against the Z-Guard pass, your primary objective is maintaining the integrity of your knee shield defensive structure while threatening sweeps that keep the passer reactive and hesitant. The Z-Guard provides exceptional retention capabilities when actively managed, but it requires constant adjustment and awareness of the passer's grip progression and pressure angles. Your defense operates on multiple levels: maintaining the knee shield frame to prevent pass completion, threatening offensive sweeps to force the passer to defend rather than attack, and having contingency transitions—particularly to deep half guard—when the knee shield is compromised. The most common mistake defenders make is treating Z-Guard as a static hold rather than a dynamic defensive system that requires continuous movement and adjustment.
 
-**Opponent's Starting Position**: [[Z-Lock Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the Z-Guard pass, your primary objective is maintaining 
 ### 1. Secure deep underhook and threaten old school sweep to force passer to defend
 
 - **When to use**: When the passer's crossface is not fully established and you can swim your underhook to a deep position under their far armpit
-- **Targets**: [[Z-Lock Half Guard]]
+- **Targets**: [[Positions/Half Guard/Z-Lock Half Guard]]
 - **If successful**: Passer must abandon pass attempt to defend the sweep threat, resetting to neutral Z-Guard engagement
 - **Risk**: If underhook is shallow, passer can whizzer and use your commitment to accelerate the pass
 
 ### 2. Dive underneath for deep half guard transition when knee shield begins collapsing
 
 - **When to use**: When the passer has successfully begun collapsing your knee shield and continued retention is becoming unsustainable
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: You transition to deep half guard where you have strong sweep options and the passer must restart their passing approach entirely
 - **Risk**: If you dive too late, the passer can sprawl and flatten you, completing the pass instead of allowing the deep half entry
 
 ### 3. Hip escape and forcefully re-extend knee shield after partial collapse
 
 - **When to use**: When the passer has partially collapsed your knee shield but has not yet established dominant grips or committed their weight fully
-- **Targets**: [[Z-Lock Half Guard]]
+- **Targets**: [[Positions/Half Guard/Z-Lock Half Guard]]
 - **If successful**: Knee shield is re-established at full extension, forcing the passer to restart the collapse sequence from the beginning
 - **Risk**: Uses significant energy if repeated multiple times, and each re-extension becomes harder as fatigue accumulates
 
 ### 4. Follow the passer's backstep with back take or crab ride entry
 
 - **When to use**: When the passer circles their far leg backward to attempt a backstep pass, exposing their back during the rotation
-- **Targets**: [[Z-Lock Half Guard]]
+- **Targets**: [[Positions/Half Guard/Z-Lock Half Guard]]
 - **If successful**: You capitalize on the passer's rotation to establish back control or crab ride, completely reversing the positional dynamic
 - **Risk**: If the backstep is fast and controlled, you may end up in a worse passing position with the passer behind your guard
 
@@ -217,11 +217,11 @@ As the defender against the Z-Guard pass, your primary objective is maintaining 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Z-Lock Half Guard]]
+### → [[Positions/Half Guard/Z-Lock Half Guard]]
 
 Win the underhook battle, maintain active knee shield pressure, and threaten sweeps to keep the passer defensive. Strip their controlling grips immediately when established and continuously adjust hip angle to prevent being flattened.
 
-### → [[Deep Half Guard]]
+### → [[Positions/Half Guard/Deep Half Guard]]
 
 When the knee shield is being successfully collapsed, proactively transition to deep half guard by diving underneath the passer before they can settle their weight. Time the entry when the passer commits their weight forward, using their momentum to facilitate your transition underneath them.
 

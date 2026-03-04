@@ -148,7 +148,7 @@ description: "Learn to defend the Mount to Knee on Belly transition. Recognize s
 
 Defending the Mount to Knee on Belly transition requires recognizing the setup cues and exploiting the brief window of reduced control during the top player's weight shift. While being mounted is already disadvantageous, the transition moment creates a fleeting opportunity to recover guard or establish half guard before the top player settles into KOB. The key defensive principle is identifying when the top player begins to shift their base asymmetrically and immediately executing defensive frames or hip escapes that prevent KOB establishment. Failing to act during this window typically results in concentrated diaphragm pressure that makes subsequent defensive actions significantly more difficult and energy-intensive. The defender who can consistently exploit the transition window transforms one of the most oppressive positional sequences in BJJ into a reliable guard recovery opportunity.
 
-**Opponent's Starting Position**: [[Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -186,21 +186,21 @@ Defending the Mount to Knee on Belly transition requires recognizing the setup c
 ### 1. Frame on hip and shrimp away before knee lifts
 
 - **When to use**: As soon as you detect the asymmetric base change or foot posting that signals the transition attempt
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Prevents the transition entirely, forcing the top player to re-settle into mount without having gained the KOB position
 - **Risk**: If the frame is too high or arms extend, the top player may attack the exposed arm with Americana or armbar
 
 ### 2. Catch the transitioning leg between your legs for half guard
 
 - **When to use**: During the moment the top player lifts their knee from the mat and begins bringing it across your body
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Forces the top player from mount to half guard top, a significant positional regression requiring them to re-pass your guard
 - **Risk**: Mistiming the catch allows the knee to land on your solar plexus, establishing full KOB with your legs out of position
 
 ### 3. Bridge and bump during the weight shift to disrupt balance
 
 - **When to use**: When the top player's weight is forward through their grips and their base is unstable during the transition
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Disrupts the transition and forces the top player to post and re-settle into mount, buying time for additional defensive preparation
 - **Risk**: If the bridge is poorly timed, it may actually help the top player complete the transition faster by creating space under their knee
 
@@ -212,7 +212,7 @@ Defending the Mount to Knee on Belly transition requires recognizing the setup c
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your hip escape and leg catch for the exact moment the top player lifts their knee to transition. As they shift weight to post their base foot, shoot your inside leg between their legs and lock the transitioning leg while simultaneously shrimping your hips away. This forces the top player to re-pass from half guard rather than maintaining dominant position, representing a massive positional improvement from mount bottom.
 

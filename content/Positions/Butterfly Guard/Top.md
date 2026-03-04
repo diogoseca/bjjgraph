@@ -211,31 +211,31 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (11% of attempts)
+### [[Transitions/Knee Slice Pass]] (11% of attempts)
 
-### [[Double Under Pass]] (2% of attempts)
+### [[Transitions/Double Under Pass]] (2% of attempts)
 
-### [[Butterfly Pass]] (10% of attempts)
+### [[Transitions/Butterfly Pass]] (10% of attempts)
 
-### [[Long Step Pass]] (2% of attempts)
+### [[Transitions/Long Step Pass]] (2% of attempts)
 
-### [[Over-Under Pass]] (2% of attempts)
+### [[Transitions/Over-Under Pass]] (2% of attempts)
 
-### [[Toreando Pass]] (1% of attempts)
+### [[Transitions/Toreando Pass]] (1% of attempts)
 
-### [[Butterfly Smash]] (47% of attempts)
+### [[Transitions/Butterfly Smash]] (47% of attempts)
 
-### [[Body Lock Pass]] (9% of attempts)
+### [[Transitions/Body Lock Pass]] (9% of attempts)
 
-### [[Leg Drag Pass]] (7% of attempts)
+### [[Transitions/Leg Drag Pass]] (7% of attempts)
 
-### [[Standing up in Base]] (3% of attempts)
+### [[Transitions/Standing up in Base]] (3% of attempts)
 
-### [[X Pass]] (5% of attempts)
+### [[Transitions/X Pass]] (5% of attempts)
 
-### [[Butterfly Guard to Butterfly Half Guard]] (0% of attempts)
+### [[Transitions/Butterfly Guard to Butterfly Half Guard]] (0% of attempts)
 
-### [[Butterfly Guard to Half Butterfly]] (1% of attempts)
+### [[Transitions/Butterfly Guard to Half Butterfly]] (1% of attempts)
 
 
 
@@ -246,28 +246,28 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 ## Decision Making from This Position
 
 **If opponent maintains strong upright posture with deep hooks and dominant grips:**
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 48%)
-- Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Toreando Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent extends arms or creates distance for grip fighting:**
-- Execute **[[Double Under Pass]]** → [[Side Control]] (Probability: 52%)
-- Execute **[[Butterfly Pass]]** → [[Side Control]] (Probability: 48%)
+- Execute **[[Transitions/Double Under Pass]]** → [[Positions/Side Control]] (Probability: 52%)
+- Execute **[[Transitions/Butterfly Pass]]** → [[Positions/Side Control]] (Probability: 48%)
 
 
 **If opponent commits to sweep attempt and momentarily loses optimal structure:**
-- Execute **[[Butterfly Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Butterfly Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent sits very upright with high knees creating stack vulnerability:**
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 46%)
-- Execute **[[Over-Under Pass]]** → [[Side Control]] (Probability: 54%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 46%)
+- Execute **[[Transitions/Over-Under Pass]]** → [[Positions/Side Control]] (Probability: 54%)
 
 
 **If opponent transitions to single hook or half guard configuration:**
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 58%)
-- Execute **[[Half Guard Pass]]** → [[Side Control]] (Probability: 52%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 58%)
+- Execute **[[Transitions/Half Guard Pass]]** → [[Positions/Side Control]] (Probability: 52%)
 
 
 
@@ -381,11 +381,11 @@ Partner initiates common butterfly sweeps while you practice recognizing the ini
 
 ## Related Positions and Techniques
 
-- **[[Side Control]]** - Primary target position after successfully passing butterfly guard
-- **[[Half Guard]]** - Common intermediate position when butterfly pass is partially successful
-- **[[Combat Base]]** - Fundamental position for maintaining base and stability against butterfly guard attacks
-- **[[Headquarters Position]]** - Alternative controlling position when disengaging from butterfly guard hooks
-- **[[Open Guard]]** - Tactical option for clearing hooks and transitioning to standing passes
+- **[[Positions/Side Control]]** - Primary target position after successfully passing butterfly guard
+- **[[Positions/Half Guard]]** - Common intermediate position when butterfly pass is partially successful
+- **[[Positions/Combat Base]]** - Fundamental position for maintaining base and stability against butterfly guard attacks
+- **[[Positions/Headquarters Position]]** - Alternative controlling position when disengaging from butterfly guard hooks
+- **[[Positions/Open Guard]]** - Tactical option for clearing hooks and transitioning to standing passes
 
 
 </section>

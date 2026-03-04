@@ -190,7 +190,7 @@ Strategically, the toe hold functions as the third prong of the backside 50-50 a
 
 The backside 50-50 angle provides a distinct mechanical advantage over toe holds from other entanglements: your chest pressure pins the opponent's hip, eliminating the body rotation that is the toe hold's primary defensive counter. This transforms the toe hold from a position-dependent opportunistic attack into a high-percentage finish. The toe hold threat forces opponents into a defensive choice - hide the heel and expose the foot, or protect the foot and expose the heel - creating the submission dilemma that makes backside 50-50 top a dominant attacking platform.
 
-**From Position**: [[Backside 50-50]] (Top)
+**From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 
 </section>
 
@@ -244,8 +244,8 @@ The backside 50-50 angle provides a distinct mechanical advantage over toe holds
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Backside 50-50]] | 30% |
-| Counter | [[50-50 Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami/Backside 50-50]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -254,9 +254,9 @@ The backside 50-50 angle provides a distinct mechanical advantage over toe holds
 
 ## Opponent Counters
 
-- **Opponent rotates their entire body in the direction of the toe hold to relieve rotational pressure on the ankle and attempts to extract the foot from the kimura grip** (Effectiveness: Medium) - Your Response: The backside 50-50 chest pressure significantly limits this rotation compared to other positions. Drive hips forward to maintain the pin. If they do rotate partially, their heel often becomes exposed - release the toe hold and immediately transition to inside heel hook on the now-accessible heel → Leads to [[Backside 50-50]]
-- **Opponent reaches down with both hands and grip-fights the kimura configuration, attempting to peel your figure-four apart before rotational pressure is applied** (Effectiveness: Medium) - Your Response: Keep elbows pinned tight to your ribs where their grip-fighting angle is weakest. If they commit both hands to stripping your grip, they abandon all other defense - transition to back control by walking your hips up their body while they focus on your hands → Leads to [[Backside 50-50]]
-- **Opponent inverts and rolls through the toe hold, attempting to enter standard 50-50 guard or completely reverse the entanglement to escape the pressure** (Effectiveness: High) - Your Response: Anticipate the inversion by driving hips forward and flattening their hip before they can initiate the roll. If the inversion begins, release the toe hold and follow them - their rotation often exposes the heel or creates a direct pathway to back control as they turtle during the scramble → Leads to [[50-50 Guard]]
+- **Opponent rotates their entire body in the direction of the toe hold to relieve rotational pressure on the ankle and attempts to extract the foot from the kimura grip** (Effectiveness: Medium) - Your Response: The backside 50-50 chest pressure significantly limits this rotation compared to other positions. Drive hips forward to maintain the pin. If they do rotate partially, their heel often becomes exposed - release the toe hold and immediately transition to inside heel hook on the now-accessible heel → Leads to [[Positions/Ashi Garami/Backside 50-50]]
+- **Opponent reaches down with both hands and grip-fights the kimura configuration, attempting to peel your figure-four apart before rotational pressure is applied** (Effectiveness: Medium) - Your Response: Keep elbows pinned tight to your ribs where their grip-fighting angle is weakest. If they commit both hands to stripping your grip, they abandon all other defense - transition to back control by walking your hips up their body while they focus on your hands → Leads to [[Positions/Ashi Garami/Backside 50-50]]
+- **Opponent inverts and rolls through the toe hold, attempting to enter standard 50-50 guard or completely reverse the entanglement to escape the pressure** (Effectiveness: High) - Your Response: Anticipate the inversion by driving hips forward and flattening their hip before they can initiate the roll. If the inversion begins, release the toe hold and follow them - their rotation often exposes the heel or creates a direct pathway to back control as they turtle during the scramble → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 - **Opponent straightens their leg explosively to create distance between their foot and your grip, attempting to break the kimura configuration through extension force** (Effectiveness: Low) - Your Response: A straightened leg actually increases toe hold leverage by lengthening the moment arm from ankle to knee. Maintain the grip, tighten your leg entanglement to prevent full extension, and apply rotation - the extended leg makes the finish more mechanically efficient → Leads to [[game-over]]
 
 

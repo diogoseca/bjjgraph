@@ -21,7 +21,7 @@ From a strategic standpoint, the mounted crucifix entry represents the natural e
 
 The technical requirements for this entry demand precise timing and weight distribution. You must maintain sufficient mount pressure to prevent bridging escapes while creating the space needed to thread your leg over the opponent's second arm. This balance between control and mobility distinguishes successful crucifix entries from failed attempts that result in positional loss. The transition requires reading opponent reactions and capitalizing on their defensive movements rather than forcing the position against strong resistance.
 
-**From Position**: [[S Mount]] (Top)
+**From Position**: [[Positions/Mount/S Mount]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The technical requirements for this entry demand precise timing and weight distr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mounted Crucifix]] | 55% |
-| Failure | [[S Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/Mounted Crucifix]] | 55% |
+| Failure | [[Positions/Mount/S Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,23 +193,23 @@ The Mounted Crucifix Entry serves as a critical link between S Mount attacking s
 ## Related Techniques
 
 
-- [[S Mount]] - Starting position - crucifix entry begins from established S Mount control
+- [[Positions/Mount/S Mount]] - Starting position - crucifix entry begins from established S Mount control
 
-- [[Mounted Crucifix]] - Target position - successful entry establishes mounted crucifix control
+- [[Positions/Mount/Mounted Crucifix]] - Target position - successful entry establishes mounted crucifix control
 
-- [[Armbar from Mount]] - Chain attack - failed armbar defense often creates crucifix entry opportunity
+- [[Submissions/Armbar from Mount]] - Chain attack - failed armbar defense often creates crucifix entry opportunity
 
-- [[Gift Wrap]] - Alternative entry - gift wrap control can transition to crucifix
+- [[Positions/Gift Wrap]] - Alternative entry - gift wrap control can transition to crucifix
 
-- [[Choke from Crucifix]] - Follow-up attack - primary submission from established crucifix
+- [[Transitions/Choke from Crucifix]] - Follow-up attack - primary submission from established crucifix
 
-- [[Armbar from Crucifix]] - Follow-up attack - secondary submission option from crucifix
+- [[Transitions/Armbar from Crucifix]] - Follow-up attack - secondary submission option from crucifix
 
-- [[High Mount]] - Related position - high mount also offers crucifix entry opportunities
+- [[Positions/Mount/High Mount]] - Related position - high mount also offers crucifix entry opportunities
 
-- [[Back Take from Top]] - Alternative advancement - back take available if crucifix fails but opponent turns
+- [[Transitions/Back Take from Top]] - Alternative advancement - back take available if crucifix fails but opponent turns
 
-- [[Mount to Armbar]] - Primary chain - armbar setup from mount creates crucifix entry windows
+- [[Transitions/Mount to Armbar]] - Primary chain - armbar setup from mount creates crucifix entry windows
 
 
 </section>

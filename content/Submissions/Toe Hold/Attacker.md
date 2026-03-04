@@ -186,7 +186,7 @@ The Toe Hold is most commonly applied from leg entanglement positions such as As
 
 What makes the Toe Hold particularly dangerous and effective is the speed at which it can be applied and the difficulty opponents have in recognizing the danger until it's too late. Unlike heel hooks which have clear warning signs, the Toe Hold can go from a controlling position to a fight-ending submission in a fraction of a second. This rapid application, combined with the fact that the ankle and foot contain numerous small, vulnerable structures, makes proper safety protocols absolutely essential when training this technique.
 
-**From Position**: [[Toe Hold Control]] (Top)
+**From Position**: [[Positions/Toe Hold Control]] (Top)
 
 
 </section>
@@ -244,8 +244,8 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 48% |
-| Failure | [[Toe Hold Control]] | 30% |
-| Counter | [[Ashi Garami]] | 22% |
+| Failure | [[Positions/Toe Hold Control]] | 30% |
+| Counter | [[Positions/Ashi Garami]] | 22% |
 
 
 </section>
@@ -254,11 +254,11 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 
 ## Opponent Defenses
 
-- **Crossing the trapped foot over the knee of the free leg (creating a triangle configuration)** (Effectiveness: High) - Your Response: Before they complete the cross, use your outside hand to grip their free leg's knee and push it away, breaking the connection. Alternatively, transition to attacking the free leg instead. → Leads to [[Toe Hold Control]]
-- **Rolling toward you to relieve rotational pressure** (Effectiveness: Medium) - Your Response: Use your inside leg as a post against their hip or torso to prevent the roll. Alternatively, allow the roll and follow them into a modified Saddle position where you maintain the submission. → Leads to [[Ashi Garami]]
-- **Straightening the trapped leg explosively to create space and extract heel** (Effectiveness: Medium) - Your Response: Your legs must be actively blocking this extension. Keep your outside leg heavy over their thigh and your inside leg controlling their hip. If you feel the leg straightening, immediately abandon the toe grip and re-establish heel control. → Leads to [[Ashi Garami]]
-- **Grabbing their own ankle or your hands to prevent rotation** (Effectiveness: Low) - Your Response: Maintain patience and work to clear their grips systematically. Use hip pressure and leg positioning to make them uncomfortable. Often they will release grips to address positional discomfort, giving you the opportunity to finish. → Leads to [[Toe Hold Control]]
-- **Tucking toes away and hiding the foot** (Effectiveness: High) - Your Response: This must be addressed before attempting the submission. Use your free hand to pry the foot out from behind your leg. Alternatively, switch to a straight ankle lock or heel hook if the foot remains inaccessible. → Leads to [[Toe Hold Control]]
+- **Crossing the trapped foot over the knee of the free leg (creating a triangle configuration)** (Effectiveness: High) - Your Response: Before they complete the cross, use your outside hand to grip their free leg's knee and push it away, breaking the connection. Alternatively, transition to attacking the free leg instead. → Leads to [[Positions/Toe Hold Control]]
+- **Rolling toward you to relieve rotational pressure** (Effectiveness: Medium) - Your Response: Use your inside leg as a post against their hip or torso to prevent the roll. Alternatively, allow the roll and follow them into a modified Saddle position where you maintain the submission. → Leads to [[Positions/Ashi Garami]]
+- **Straightening the trapped leg explosively to create space and extract heel** (Effectiveness: Medium) - Your Response: Your legs must be actively blocking this extension. Keep your outside leg heavy over their thigh and your inside leg controlling their hip. If you feel the leg straightening, immediately abandon the toe grip and re-establish heel control. → Leads to [[Positions/Ashi Garami]]
+- **Grabbing their own ankle or your hands to prevent rotation** (Effectiveness: Low) - Your Response: Maintain patience and work to clear their grips systematically. Use hip pressure and leg positioning to make them uncomfortable. Often they will release grips to address positional discomfort, giving you the opportunity to finish. → Leads to [[Positions/Toe Hold Control]]
+- **Tucking toes away and hiding the foot** (Effectiveness: High) - Your Response: This must be addressed before attempting the submission. Use your free hand to pry the foot out from behind your leg. Alternatively, switch to a straight ankle lock or heel hook if the foot remains inaccessible. → Leads to [[Positions/Toe Hold Control]]
 
 
 </section>

@@ -21,7 +21,7 @@ Strategically, the transition to Kesa Gatame serves multiple purposes in a top p
 
 The critical element of this transition is the hip rotation: the top player must rotate their hips approximately 90 degrees from perpendicular alignment to face the opponent's head while simultaneously securing head control and arm isolation. This rotation must be executed smoothly while maintaining constant pressure, as any space created during the rotation allows the bottom player to insert frames or begin guard recovery. The transition is most effective when chained with other positional threats, using the opponent's defensive reactions to standard side control attacks as the entry window for the Kesa Gatame shift.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 **Success Rate**: 72%
 
 </section>
@@ -32,9 +32,9 @@ The critical element of this transition is the hip rotation: the top player must
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kesa Gatame]] | 70% |
-| Failure | [[Side Control]] | 20% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control/Kesa Gatame]] | 70% |
+| Failure | [[Positions/Side Control]] | 20% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -191,29 +191,29 @@ The transition to Kesa Gatame occupies a critical position within the side contr
 ## Related Techniques
 
 
-- [[Side Control]] - Starting position from which the Kesa Gatame transition is initiated
+- [[Positions/Side Control]] - Starting position from which the Kesa Gatame transition is initiated
 
-- [[Kesa Gatame]] - Target position achieved upon successful completion of the transition
+- [[Positions/Side Control/Kesa Gatame]] - Target position achieved upon successful completion of the transition
 
-- [[Kuzure Kesa-Gatame]] - Modified scarf hold variation accessible from similar hip rotation
+- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Modified scarf hold variation accessible from similar hip rotation
 
-- [[Reverse Kesa-Gatame]] - Alternative scarf hold variation facing opposite direction
+- [[Positions/Side Control/Reverse Kesa-Gatame]] - Alternative scarf hold variation facing opposite direction
 
-- [[Side Control to Mount]] - Alternative positional advancement that creates dilemma with Kesa Gatame threat
+- [[Transitions/Side Control to Mount]] - Alternative positional advancement that creates dilemma with Kesa Gatame threat
 
-- [[Side Control to North-South]] - Alternative transition when opponent defends the Kesa Gatame rotation
+- [[Transitions/Side Control to North-South]] - Alternative transition when opponent defends the Kesa Gatame rotation
 
-- [[Americana]] - Primary submission available from established Kesa Gatame position
+- [[Transitions/Americana]] - Primary submission available from established Kesa Gatame position
 
-- [[Kimura]] - High-percentage submission chain from Kesa Gatame arm control
+- [[Transitions/Kimura]] - High-percentage submission chain from Kesa Gatame arm control
 
-- [[Arm Triangle]] - Submission accessible when opponent defends arm isolation during transition
+- [[Transitions/Arm Triangle]] - Submission accessible when opponent defends arm isolation during transition
 
-- [[North-South]] - Recovery position if Kesa Gatame control is lost during transition
+- [[Positions/North-South]] - Recovery position if Kesa Gatame control is lost during transition
 
-- [[Knee on Belly]] - Alternative transitional position from side control
+- [[Positions/Knee on Belly]] - Alternative transitional position from side control
 
-- [[Modified Scarf Hold]] - Variation with different leg positioning available during the transition
+- [[Positions/Side Control/Modified Scarf Hold]] - Variation with different leg positioning available during the transition
 
 
 </section>

@@ -21,7 +21,7 @@ Strategically, this sweep addresses a critical problem: the reverse half guard b
 
 The technique integrates naturally into a reverse half guard attack system that includes back takes and guard recovery options. Threatening the sweep forces the top player to moderate their forward pressure, which in turn opens windows for alternative attacks. This creates a fundamental dilemma: drive forward and risk being swept, or stay conservative and allow the bottom player time to transition to more favorable positions like deep half guard or dogfight.
 
-**From Position**: [[Reverse Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Reverse Half Guard]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ The technique integrates naturally into a reverse half guard attack system that 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 40% |
-| Failure | [[Reverse Half Guard]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Mount]] | 40% |
+| Failure | [[Positions/Half Guard/Reverse Half Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Sweep from Reverse Half Guard sits at a critical junction in the bottom half
 ## Related Techniques
 
 
-- [[Reverse Half Guard]] - Starting position from which this sweep is executed
+- [[Positions/Half Guard/Reverse Half Guard]] - Starting position from which this sweep is executed
 
-- [[Mount]] - Primary target position achieved on successful sweep completion
+- [[Positions/Mount]] - Primary target position achieved on successful sweep completion
 
-- [[Side Control]] - Position opponent may achieve if they counter the sweep attempt
+- [[Positions/Side Control]] - Position opponent may achieve if they counter the sweep attempt
 
-- [[Half Guard]] - Standard half guard from which reverse half guard often originates
+- [[Positions/Half Guard]] - Standard half guard from which reverse half guard often originates
 
-- [[Deep Half Guard]] - Alternative attack option when sweep timing is not available
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative attack option when sweep timing is not available
 
-- [[Dogfight Position]] - Intermediate position accessible during failed sweep recovery
+- [[Positions/Dogfight Position]] - Intermediate position accessible during failed sweep recovery
 
-- [[Escape Reverse Half Guard]] - Defensive transition the top player uses to prevent sweeps
+- [[Transitions/Escape Reverse Half Guard]] - Defensive transition the top player uses to prevent sweeps
 
-- [[Backstep from Reverse Half]] - Top player's primary passing option that creates the reverse half guard scenario
+- [[Transitions/Backstep from Reverse Half]] - Top player's primary passing option that creates the reverse half guard scenario
 
-- [[Invert from Reverse Half Guard]] - Alternative offensive transition from the same starting position
+- [[Transitions/Invert from Reverse Half Guard]] - Alternative offensive transition from the same starting position
 
-- [[Old School]] - Related sweep position utilizing similar half guard mechanics
+- [[Positions/Half Guard/Old School]] - Related sweep position utilizing similar half guard mechanics
 
-- [[Back Control]] - Alternative offensive target from reverse half guard bottom
+- [[Positions/Back Control]] - Alternative offensive target from reverse half guard bottom
 
-- [[Pass Reverse Half]] - Opponent's passing technique that the sweep directly counters
+- [[Transitions/Pass Reverse Half]] - Opponent's passing technique that the sweep directly counters
 
 
 </section>

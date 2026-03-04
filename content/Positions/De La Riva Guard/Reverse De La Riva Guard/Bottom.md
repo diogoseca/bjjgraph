@@ -212,25 +212,25 @@ Strategically, Reverse De La Riva operates on the principle of creating rotation
 
 ## Available Escapes
 
-### [[Waiter Sweep]] (12% of attempts)
+### [[Transitions/Waiter Sweep]] (12% of attempts)
 
-### [[Kiss of the Dragon]] (31% of attempts)
+### [[Transitions/Kiss of the Dragon]] (31% of attempts)
 
-### [[Berimbolo Entry]] (13% of attempts)
+### [[Transitions/Berimbolo Entry]] (13% of attempts)
 
-### [[De La Riva to X-Guard Transition]] (9% of attempts)
+### [[Transitions/De La Riva to X-Guard Transition]] (9% of attempts)
 
-### [[Single Leg X Entry]] (10% of attempts)
+### [[Transitions/Single Leg X Entry]] (10% of attempts)
 
-### [[Omoplata Sweep]] (4% of attempts)
+### [[Transitions/Omoplata Sweep]] (4% of attempts)
 
-### [[Reverse De La Riva Recovery]] (12% of attempts)
+### [[Transitions/Reverse De La Riva Recovery]] (12% of attempts)
 
-### [[Tripod Sweep]] (6% of attempts)
+### [[Transitions/Tripod Sweep]] (6% of attempts)
 
-### [[Kiss of the Dragon from RDLR]] (2% of attempts)
+### [[Transitions/Kiss of the Dragon from RDLR]] (2% of attempts)
 
-### [[RDLR to Crab Ride]] (1% of attempts)
+### [[Transitions/RDLR to Crab Ride]] (1% of attempts)
 
 
 
@@ -241,28 +241,28 @@ Strategically, Reverse De La Riva operates on the principle of creating rotation
 ## Decision Making from This Position
 
 **If opponent drives weight forward and attempts to smash pass through your guard:**
-- Execute **[[Waiter Sweep]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Omoplata Sweep]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Waiter Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent stands up tall or attempts to disengage from hook engagement:**
-- Execute **[[Kiss of the Dragon]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Kiss of the Dragon]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent backsteps or attempts to clear the inverted hook with hand control:**
-- Execute **[[De La Riva to X-Guard Transition]]** → [[X-Guard]] (Probability: 70%)
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 75%)
+- Execute **[[Transitions/De La Riva to X-Guard Transition]]** → [[Positions/X-Guard]] (Probability: 70%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 75%)
 
 
 **If opponent shifts weight to near leg and attempts leg drag passing sequence:**
-- Execute **[[Crab Ride to Back]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Berimbolo Entry]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent establishes strong grips and attempts to break hook structure systematically:**
-- Execute **[[Turtle to Truck]]** → [[Truck]] (Probability: 50%)
-- Execute **[[Guard Recovery]]** → [[Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
+- Execute **[[Principles/Guard Recovery]]** → [[Positions/Open Guard]] (Probability: 60%)
 
 
 
@@ -396,15 +396,15 @@ From established Reverse De La Riva position, practice elevating and rotating hi
 
 ## Related Positions and Techniques
 
-- **[[De La Riva Guard]]** - Traditional variation - shares fundamental principles but uses standard hook orientation
-- **[[Single Leg X-Guard]]** - Common transition target when opponent backsteps to defend inverted hook
-- **[[X-Guard]]** - Related position accessible through hook adjustments and rotational transitions
-- **[[Back Control]]** - Primary offensive target through kiss of the dragon and berimbolo sequences
-- **[[Truck]]** - Alternative back-taking position sharing similar inversion mechanics
-- **[[Lasso Guard]]** - Can be combined with RDLR for hybrid guard systems offering multiple control layers
-- **[[Spider Guard]]** - Alternative open guard sharing distance management principles
-- **[[Open Guard]]** - Parent category and recovery position when RDLR structure is compromised
-- **[[Combat Base]]** - Common defensive position adopted by opponent to counter RDLR mechanics
+- **[[Positions/De La Riva Guard]]** - Traditional variation - shares fundamental principles but uses standard hook orientation
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Common transition target when opponent backsteps to defend inverted hook
+- **[[Positions/X-Guard]]** - Related position accessible through hook adjustments and rotational transitions
+- **[[Positions/Back Control]]** - Primary offensive target through kiss of the dragon and berimbolo sequences
+- **[[Positions/Twister Control/Truck]]** - Alternative back-taking position sharing similar inversion mechanics
+- **[[Positions/Lasso Guard]]** - Can be combined with RDLR for hybrid guard systems offering multiple control layers
+- **[[Positions/Spider Guard]]** - Alternative open guard sharing distance management principles
+- **[[Positions/Open Guard]]** - Parent category and recovery position when RDLR structure is compromised
+- **[[Positions/Combat Base]]** - Common defensive position adopted by opponent to counter RDLR mechanics
 
 
 </section>

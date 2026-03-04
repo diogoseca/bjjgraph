@@ -21,7 +21,7 @@ Strategically, this transition represents a conscious decision to trade immediat
 
 The transition is particularly valuable against opponents with strong neck defense or experienced anaconda escape sequences. By shifting from an immediate-finish mentality to a patient-control framework, the attacker removes the defender's primary survival strategy of weathering the initial squeeze. The dead orchard configuration instead creates cumulative pressure that compounds over time, eventually breaking defensive grips and breathing patterns that would otherwise survive a conventional anaconda attempt.
 
-**From Position**: [[Anaconda Control]] (Top)
+**From Position**: [[Positions/Anaconda Control]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ The transition is particularly valuable against opponents with strong neck defen
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Dead Orchard Control]] | 65% |
-| Failure | [[Anaconda Control]] | 20% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Dead Orchard Control]] | 65% |
+| Failure | [[Positions/Anaconda Control]] | 20% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Transition to Dead Orchard Control occupies a critical decision point in the
 ## Related Techniques
 
 
-- [[Anaconda Control]] - Starting position for this transition
+- [[Positions/Anaconda Control]] - Starting position for this transition
 
-- [[Dead Orchard Control]] - Target position achieved on success
+- [[Positions/Dead Orchard Control]] - Target position achieved on success
 
-- [[Anaconda Choke]] - Alternative path from anaconda control that prioritizes immediate finish over extended control
+- [[Transitions/Anaconda Choke]] - Alternative path from anaconda control that prioritizes immediate finish over extended control
 
-- [[Darce Control]] - Sister control position accessible via grip reconfiguration during this transition
+- [[Positions/Darce Control]] - Sister control position accessible via grip reconfiguration during this transition
 
-- [[Front Headlock]] - Upstream position in the attack chain that precedes anaconda control
+- [[Positions/Front Headlock]] - Upstream position in the attack chain that precedes anaconda control
 
-- [[Turtle]] - Common opponent position during this transition and counter escape target
+- [[Positions/Turtle]] - Common opponent position during this transition and counter escape target
 
-- [[Front Headlock to Darce]] - Alternative transition path when dead orchard grip adjustments create darce angle
+- [[Transitions/Front Headlock to Darce]] - Alternative transition path when dead orchard grip adjustments create darce angle
 
-- [[Anaconda from Turtle]] - Transition that typically establishes the anaconda control prerequisite
+- [[Transitions/Anaconda from Turtle]] - Transition that typically establishes the anaconda control prerequisite
 
-- [[Back Take from Top]] - Chain attack option when opponent turns away during grip deepening
+- [[Transitions/Back Take from Top]] - Chain attack option when opponent turns away during grip deepening
 
-- [[Guillotine Control]] - Alternative front headlock control accessible if anaconda grip breaks during transition
+- [[Positions/Guillotine Control]] - Alternative front headlock control accessible if anaconda grip breaks during transition
 
 
 </section>

@@ -21,7 +21,7 @@ The technical foundation of this escape relies on understanding the mechanical d
 
 Strategically, Inside Position Recovery represents the preferred escape pathway when you cannot prevent the leg drag but have maintained enough hip mobility to create space. Unlike rolling to turtle (which concedes position) or fighting for half guard (which may still leave you in a compromised state), successful Inside Position Recovery puts you in butterfly guard with active hooks and offensive options. This makes it particularly valuable in competition where guard retention and immediate counter-attacks are essential for scoring and momentum.
 
-**From Position**: [[Leg Drag Control]] (Bottom)
+**From Position**: [[Positions/Leg Drag Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, Inside Position Recovery represents the preferred escape pathway 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Butterfly Guard]] | 58% |
-| Failure | [[Leg Drag Control]] | 27% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Butterfly Guard]] | 58% |
+| Failure | [[Positions/Leg Drag Control]] | 27% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -193,29 +193,29 @@ Inside Position Recovery sits at the intersection of guard retention and guard r
 ## Related Techniques
 
 
-- [[Leg Drag Control]] - Starting position for this escape
+- [[Positions/Leg Drag Control]] - Starting position for this escape
 
-- [[Butterfly Guard]] - Primary target position upon successful recovery
+- [[Positions/Butterfly Guard]] - Primary target position upon successful recovery
 
-- [[Single Leg X-Guard]] - Alternative guard recovery when opponent stands
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative guard recovery when opponent stands
 
-- [[Half Guard]] - Fallback position if full recovery is blocked
+- [[Positions/Half Guard]] - Fallback position if full recovery is blocked
 
-- [[Butterfly Sweep]] - Primary follow-up attack after successful recovery
+- [[Transitions/Butterfly Sweep]] - Primary follow-up attack after successful recovery
 
-- [[Technical Stand-up]] - Alternative escape when inside recovery fails
+- [[Transitions/Technical Stand-up]] - Alternative escape when inside recovery fails
 
-- [[Granby Roll to Guard]] - Alternative escape creating distance
+- [[Transitions/Granby Roll to Guard]] - Alternative escape creating distance
 
-- [[Arm Drag]] - Follow-up technique from butterfly guard
+- [[Transitions/Arm Drag]] - Follow-up technique from butterfly guard
 
-- [[Hip Escape to Guard]] - Fundamental movement underlying this technique
+- [[Transitions/Hip Escape to Guard]] - Fundamental movement underlying this technique
 
-- [[Guillotine Control]] - Submission threat available from recovered butterfly guard
+- [[Positions/Guillotine Control]] - Submission threat available from recovered butterfly guard
 
-- [[Side Control]] - Worst-case outcome if recovery fails and opponent consolidates
+- [[Positions/Side Control]] - Worst-case outcome if recovery fails and opponent consolidates
 
-- [[Leg Drag Counter to Half Guard]] - Alternative escape pathway from same starting position
+- [[Transitions/Leg Drag Counter to Half Guard]] - Alternative escape pathway from same starting position
 
 
 </section>

@@ -17,7 +17,7 @@ description: "Learn the Hitchhiker Escape from armbar control in BJJ. Master rot
 
 The Hitchhiker Escape is an advanced defensive technique used to escape from a fully extended armbar attack by exploiting rotational mechanics and timing. This escape requires exceptional flexibility, precise timing, and deep understanding of leverage principles. The technique involves rotating the thumb outward (the 'hitchhiker' motion) while simultaneously turning into the opponent and creating space to recover guard. While primarily associated with high-level competition and no-gi grappling, the Hitchhiker Escape represents a last-resort defensive option when positional escapes have failed and the armbar is nearly locked. The escape is particularly effective against opponents who rely purely on extension without proper shoulder control, as it exploits the natural weakness in the grip when the thumb is pointed away from the body. Success requires reading the opponent's finishing mechanics and executing the rotation at the precise moment before full extension is achieved.
 
-**From Position**: [[Armbar Control]] (Bottom)
+**From Position**: [[Positions/Armbar Control]] (Bottom)
 **Success Rate**: 62%
 
 </section>
@@ -28,10 +28,10 @@ The Hitchhiker Escape is an advanced defensive technique used to escape from a f
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Success | [[Turtle]] | 20% |
-| Failure | [[Armbar Control]] | 20% |
-| Counter | [[Triangle Control]] | 10% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Success | [[Positions/Turtle]] | 20% |
+| Failure | [[Positions/Armbar Control]] | 20% |
+| Counter | [[Positions/Triangle Control]] | 10% |
 
 
 </section>
@@ -190,27 +190,27 @@ The Hitchhiker Escape represents a critical last-line defensive option within th
 ## Related Techniques
 
 
-- [[Armbar Defense]] - Primary defensive system - positional defenses should be attempted before Hitchhiker Escape
+- [[Transitions/Armbar Defense]] - Primary defensive system - positional defenses should be attempted before Hitchhiker Escape
 
-- [[Armbar from Guard]] - Understanding the offensive mechanics improves defensive timing and recognition
+- [[Submissions/Armbar from Guard]] - Understanding the offensive mechanics improves defensive timing and recognition
 
-- [[Armbar from Mount]] - Alternative armbar position where similar escape principles may apply
+- [[Submissions/Armbar from Mount]] - Alternative armbar position where similar escape principles may apply
 
-- [[Guard Recovery]] - Follow-up technique after successful escape execution
+- [[Principles/Guard Recovery]] - Follow-up technique after successful escape execution
 
-- [[Armbar Control]] - Parent position from which this escape is executed
+- [[Positions/Armbar Control]] - Parent position from which this escape is executed
 
-- [[Triangle Control]] - Related control position - opponent may transition here if escape fails
+- [[Positions/Triangle Control]] - Related control position - opponent may transition here if escape fails
 
-- [[Half Guard]] - Common recovery position after successful escape
+- [[Positions/Half Guard]] - Common recovery position after successful escape
 
-- [[Turtle]] - Alternative recovery position when guard cannot be established
+- [[Positions/Turtle]] - Alternative recovery position when guard cannot be established
 
-- [[Closed Guard]] - Ideal recovery position after successful escape
+- [[Positions/Closed Guard]] - Ideal recovery position after successful escape
 
-- [[Armbar Finish]] - The finishing transition the escape is designed to prevent
+- [[Transitions/Armbar Finish]] - The finishing transition the escape is designed to prevent
 
-- [[Belly Down Armbar]] - Attacker may transition to belly-down variant if rotation is partially completed
+- [[Submissions/Belly Down Armbar]] - Attacker may transition to belly-down variant if rotation is partially completed
 
 
 </section>

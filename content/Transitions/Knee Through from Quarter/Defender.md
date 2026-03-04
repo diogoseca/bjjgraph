@@ -154,7 +154,7 @@ description: "Master defending the Knee Through from Quarter Guard in BJJ. Learn
 
 Defending the Knee Through from Quarter Guard demands immediate recognition and proactive response, as this transition represents the final moment before the position deteriorates from recoverable quarter guard to fully established mount. The defender must identify the telltale signs of the knee drive—increased crossface pressure, weight shift toward the passing side, and the opponent's knee beginning to advance past the hip line—and respond with frame creation, hip escape, or guard recovery before the knee clears the defensive barrier. The window for effective defense is narrow, typically two to three seconds, making early recognition and pre-positioned defensive structures essential for preventing the mount. Passive defense guarantees failure at this stage; the defender must commit to an active defensive action the moment the drive initiates.
 
-**Opponent's Starting Position**: [[Quarter Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Quarter Guard]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the Knee Through from Quarter Guard demands immediate recognition and 
 ### 1. Re-insert knee shield by driving your near-side knee between the opponent's hip and your body, re-establishing the defensive barrier before the knee clears
 
 - **When to use**: As soon as you feel the crossface pressure increase and before the opponent's knee begins its forward drive. Most effective in the setup phase before full commitment.
-- **Targets**: [[Quarter Guard]]
+- **Targets**: [[Positions/Quarter Guard]]
 - **If successful**: Opponent's knee drive is blocked by the re-established knee shield, forcing them to restart the passing sequence from quarter guard or switch to an alternative pass
 - **Risk**: If timed too late, your knee insertion attempt may be pinned by the opponent's advancing knee, leaving you in a worse defensive position with your leg trapped awkwardly
 
 ### 2. Explosive hip escape away from the passing direction while using far-side hand to frame against opponent's hip, creating space to re-engage full half guard leg entanglement
 
 - **When to use**: When the opponent commits weight forward for the knee drive and their crossface pressure fixes them to a specific angle. The forward commitment creates a direction you can escape laterally.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover full half guard with both legs re-engaging the opponent's trapped leg, resetting the passing sequence to a more defensible position with multiple offensive options
 - **Risk**: If the hip escape is insufficient and the opponent follows your hips while maintaining crossface, you may end up flattened in a worse quarter guard with reduced defensive options
 
 ### 3. Underhook come-up timed to the opponent's knee drive commitment, using their forward weight shift to come up to your side and threaten back take or sweep
 
 - **When to use**: When you have maintained a functional underhook and the opponent begins the knee drive without first stripping it. Their forward commitment makes it difficult to resist the underhook pull.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You achieve a dominant underhook position and either take the back or sweep the opponent, completely reversing the positional exchange from near-pass to dominant control
 - **Risk**: If the opponent anticipates the come-up and drives a whizzer or switches to darce choke, you may expose your neck or end up in a worse position than the original quarter guard
 
 ### 4. Frame against opponent's passing knee with both hands, physically blocking its forward advancement while maintaining active hip escape to create recovery space
 
 - **When to use**: As a last resort when the knee drive has already begun and re-inserting the knee shield is no longer possible. Use skeletal frames rather than muscular pushing.
-- **Targets**: [[Quarter Guard]]
+- **Targets**: [[Positions/Quarter Guard]]
 - **If successful**: The knee drive stalls mid-transition, giving you time to hip escape and recover a more functional defensive position such as half guard or knee shield
 - **Risk**: Extended arms framing against the knee can be isolated for kimura or americana attacks if the opponent recognizes the arm exposure and switches from passing to submission
 
@@ -224,11 +224,11 @@ Defending the Knee Through from Quarter Guard demands immediate recognition and 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a decisive hip escape to coincide with the opponent's forward weight commitment during the knee drive, creating enough lateral space to re-engage both legs around their thigh and recover full half guard before they can re-establish quarter guard pressure. The key is using their commitment momentum against them—as they drive forward, their lateral mobility is temporarily reduced.
 
-### → [[Quarter Guard]]
+### → [[Positions/Quarter Guard]]
 
 Maintain active knee shield or leg frames throughout the exchange, re-inserting defensive structure each time the opponent attempts to clear it. Combined with hip mobility and frame maintenance, this forces the opponent to abandon the knee through attempt and reset their passing approach, buying time for a more favorable defensive or offensive opportunity.
 

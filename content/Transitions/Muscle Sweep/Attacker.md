@@ -174,7 +174,7 @@ description: "How to execute Muscle Sweep in BJJ. Attacking perspective with set
 
 The Muscle Sweep is a fundamental attacking technique from Closed Guard that exploits the opponent's forward pressure and broken posture. Unlike more technical sweeps that rely on precise leverage points, the Muscle Sweep uses a combination of hip movement, upper body control, and explosive power to drive the opponent backward and sweep them to Mount position. This sweep is particularly effective when the opponent is defending other attacks and their weight is distributed forward, or when they attempt to posture up from a broken-down position. The technique requires good timing and the ability to coordinate upper body pulling with lower body hip elevation. While often considered a 'strength-based' technique by its name, proper execution relies more on timing the opponent's weight distribution and creating the correct angle of attack. The Muscle Sweep serves as an excellent foundational sweep for beginners while remaining effective at advanced levels when combined with other guard attacks.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -228,9 +228,9 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 70% |
-| Failure | [[Closed Guard]] | 20% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Mount]] | 70% |
+| Failure | [[Positions/Closed Guard]] | 20% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -239,11 +239,11 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 
 ## Opponent Counters
 
-- **Opponent posts hard with free arm to prevent rollover** (Effectiveness: High) - Your Response: Switch to attacking the posted arm with Kimura or armbar, or transition to alternative sweep like Hip Bump Sweep if they post too wide → Leads to [[Closed Guard]]
-- **Opponent maintains strong posture and prevents forward weight distribution** (Effectiveness: High) - Your Response: Chain to different attacks like Triangle or Omoplata that work from upright posture, or use hip bump to break posture again → Leads to [[Closed Guard]]
-- **Opponent sprawls legs back as you attempt to sweep** (Effectiveness: Medium) - Your Response: Transition to Guillotine control or follow to Turtle position for back take opportunity → Leads to [[Closed Guard]]
-- **Opponent drives forward aggressively and stacks your hips to neutralize angle** (Effectiveness: Medium) - Your Response: Use their forward momentum to reguard with overhook control or switch to Pendulum Sweep taking advantage of their committed weight distribution → Leads to [[Closed Guard]]
-- **Opponent circles away from sweep direction to realign their base** (Effectiveness: Low) - Your Response: Follow their circular movement and either sweep to opposite side or transition to Triangle setup as they move, exploiting the space their rotation creates → Leads to [[Closed Guard]]
+- **Opponent posts hard with free arm to prevent rollover** (Effectiveness: High) - Your Response: Switch to attacking the posted arm with Kimura or armbar, or transition to alternative sweep like Hip Bump Sweep if they post too wide → Leads to [[Positions/Closed Guard]]
+- **Opponent maintains strong posture and prevents forward weight distribution** (Effectiveness: High) - Your Response: Chain to different attacks like Triangle or Omoplata that work from upright posture, or use hip bump to break posture again → Leads to [[Positions/Closed Guard]]
+- **Opponent sprawls legs back as you attempt to sweep** (Effectiveness: Medium) - Your Response: Transition to Guillotine control or follow to Turtle position for back take opportunity → Leads to [[Positions/Closed Guard]]
+- **Opponent drives forward aggressively and stacks your hips to neutralize angle** (Effectiveness: Medium) - Your Response: Use their forward momentum to reguard with overhook control or switch to Pendulum Sweep taking advantage of their committed weight distribution → Leads to [[Positions/Closed Guard]]
+- **Opponent circles away from sweep direction to realign their base** (Effectiveness: Low) - Your Response: Follow their circular movement and either sweep to opposite side or transition to Triangle setup as they move, exploiting the space their rotation creates → Leads to [[Positions/Closed Guard]]
 
 
 </section>

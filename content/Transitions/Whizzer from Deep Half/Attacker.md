@@ -180,7 +180,7 @@ description: "Master the attacker perspective of the Whizzer from Deep Half Guar
 
 As the attacker executing the whizzer from deep half guard, your primary objective is to neutralize the bottom player's deep underhook and convert their offensive position into a passing opportunity. The whizzer is applied as an overhook on the arm your opponent has wrapped around your far leg, creating counter-pressure that prevents them from using that underhook to generate sweep leverage. Combined with proper hip sprawling, weight distribution, and systematic leg extraction, the whizzer transforms the dangerous deep half position into a controlled passing sequence. The key to success lies in timing the whizzer establishment before the bottom player fully loads their sweep, then methodically working through the flattening, extraction, and passing phases without rushing any single step.
 
-**From Position**: [[Deep Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Deep Half Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the whizzer from deep half guard, your primary objecti
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Deep Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Deep Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the whizzer from deep half guard, your primary objecti
 
 ## Opponent Counters
 
-- **Bottom player transitions to electric chair by hooking your trapped leg with lockdown and driving hips upward** (Effectiveness: High) - Your Response: Immediately break the lockdown by straightening your trapped leg and driving your knee to the mat. If the lockdown is already deep, disengage the whizzer and address the lockdown first by prying their feet apart before re-establishing the overhook. Preventing lockdown establishment is far easier than breaking it after the fact. → Leads to [[Deep Half Guard]]
-- **Bottom player releases underhook and transitions to X-Guard or Single Leg X by repositioning feet on your hips** (Effectiveness: Medium) - Your Response: The moment they release the underhook, your whizzer becomes a wasted grip. Immediately redirect to a passing sequence appropriate for the new guard they are entering. Step back and establish headquarters position, or drive forward to smash pass before they can fully establish hooks on your hips. → Leads to [[Half Guard]]
-- **Bottom player re-pumps underhook deeper by circling their arm underneath and fighting through the whizzer pressure** (Effectiveness: Medium) - Your Response: Increase downward pressure through the whizzer and add more aggressive sprawling. If they successfully re-pump, you may need to briefly release and re-establish the overhook at a tighter angle. Consider transitioning to kimura grip to create a submission threat that discourages the re-pump attempt entirely. → Leads to [[Deep Half Guard]]
-- **Bottom player bridges explosively and rolls underneath while you are committing weight to the whizzer** (Effectiveness: Low) - Your Response: Maintain wide base with your free leg posted far to the side. An explosive bridge against a well-established whizzer with wide base has low success probability. If you feel the bridge loading, shift your weight slightly toward your free posted leg to anchor yourself while driving crossface pressure to prevent the rotation they need. → Leads to [[Half Guard]]
+- **Bottom player transitions to electric chair by hooking your trapped leg with lockdown and driving hips upward** (Effectiveness: High) - Your Response: Immediately break the lockdown by straightening your trapped leg and driving your knee to the mat. If the lockdown is already deep, disengage the whizzer and address the lockdown first by prying their feet apart before re-establishing the overhook. Preventing lockdown establishment is far easier than breaking it after the fact. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Bottom player releases underhook and transitions to X-Guard or Single Leg X by repositioning feet on your hips** (Effectiveness: Medium) - Your Response: The moment they release the underhook, your whizzer becomes a wasted grip. Immediately redirect to a passing sequence appropriate for the new guard they are entering. Step back and establish headquarters position, or drive forward to smash pass before they can fully establish hooks on your hips. → Leads to [[Positions/Half Guard]]
+- **Bottom player re-pumps underhook deeper by circling their arm underneath and fighting through the whizzer pressure** (Effectiveness: Medium) - Your Response: Increase downward pressure through the whizzer and add more aggressive sprawling. If they successfully re-pump, you may need to briefly release and re-establish the overhook at a tighter angle. Consider transitioning to kimura grip to create a submission threat that discourages the re-pump attempt entirely. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Bottom player bridges explosively and rolls underneath while you are committing weight to the whizzer** (Effectiveness: Low) - Your Response: Maintain wide base with your free leg posted far to the side. An explosive bridge against a well-established whizzer with wide base has low success probability. If you feel the bridge loading, shift your weight slightly toward your free posted leg to anchor yourself while driving crossface pressure to prevent the rotation they need. → Leads to [[Positions/Half Guard]]
 
 
 </section>

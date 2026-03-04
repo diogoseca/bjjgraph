@@ -21,7 +21,7 @@ This transition exploits a fundamental biomechanical reality: the inverted hip p
 
 Strategically, this transition is most valuable when standard escape routes to turtle or standing are blocked by the opponent's superior leg control. Rather than fighting against deep entanglement with diminishing returns, the deep half entry accepts proximity to the opponent while fundamentally changing the positional dynamic. Once deep half guard is established, the defender gains access to waiter sweeps, Homer Simpson sweeps, and electric chair variations that can completely reverse the position. The transition requires precise timing during the opponent's grip adjustment phases and strong understanding of both leg entanglement mechanics and deep half guard principles.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition is most valuable when standard escape routes to t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Deep Half Guard]] | 55% |
-| Failure | [[Ushiro Ashi-Garami]] | 25% |
-| Counter | [[Honey Hole]] | 20% |
+| Success | [[Positions/Half Guard/Deep Half Guard]] | 55% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 25% |
+| Counter | [[Positions/Ashi Garami/Honey Hole]] | 20% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Ushiro Ashi-Garami to Deep Half transition fills a critical gap in the leg e
 ## Related Techniques
 
 
-- [[Deep Half Guard]] - Target position providing sweep and recovery platform
+- [[Positions/Half Guard/Deep Half Guard]] - Target position providing sweep and recovery platform
 
-- [[Ashi Garami Escape]] - Alternative escape system from same starting position
+- [[Transitions/Ashi Garami Escape]] - Alternative escape system from same starting position
 
-- [[Inversion to Turtle]] - Alternative defensive pathway from ushiro bottom
+- [[Transitions/Inversion to Turtle]] - Alternative defensive pathway from ushiro bottom
 
-- [[Granby Roll to Guard]] - Alternative escape that can chain into deep half entry
+- [[Transitions/Granby Roll to Guard]] - Alternative escape that can chain into deep half entry
 
-- [[Counter Ashi Entry]] - Counter-attack alternative from same position
+- [[Transitions/Counter Ashi Entry]] - Counter-attack alternative from same position
 
-- [[Honey Hole]] - Opponent counter-position if entry fails and they deepen control
+- [[Positions/Ashi Garami/Honey Hole]] - Opponent counter-position if entry fails and they deepen control
 
-- [[Inside Heel Hook from Ushiro]] - Submission threat that must be defended during transition
+- [[Transitions/Inside Heel Hook from Ushiro]] - Submission threat that must be defended during transition
 
-- [[Old School Sweep]] - Primary sweep option after establishing deep half guard
+- [[Transitions/Old School Sweep]] - Primary sweep option after establishing deep half guard
 
-- [[Leg Extraction to Guard]] - Alternative escape route using leg clearing mechanics
+- [[Transitions/Leg Extraction to Guard]] - Alternative escape route using leg clearing mechanics
 
-- [[Reverse Heel Hook Counter]] - Counter-attack option available during transition scramble
+- [[Transitions/Reverse Heel Hook Counter]] - Counter-attack option available during transition scramble
 
 
 </section>

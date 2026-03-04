@@ -154,7 +154,7 @@ description: "Defend and prevent the counter sweep from outside ashi-garami. Rec
 
 As the defender against the counter sweep, you are the top player in outside ashi-garami whose opponent is attempting to use the entanglement to reverse your position. Your challenge is executing your leg extraction escape while maintaining enough base stability to prevent being swept. The fundamental tension is that effective escape movement requires committing your weight in specific directions, and each of these weight commitments creates a corresponding sweep vulnerability. Understanding how to continue your escape sequence while keeping sweep-resistant positioning is essential for surviving the modern outside ashi-garami bottom game where practitioners chain sweeps with heel hook threats. The key defensive skill is recognizing sweep initiation through your opponent's hip movement and grip changes, then responding with base adjustments or strategic acceleration of your escape before the sweep generates full momentum.
 
-**Opponent's Starting Position**: [[Outside Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ As the defender against the counter sweep, you are the top player in outside ash
 ### 1. Post free hand wide and sprawl hips back to re-establish base against the sweep force
 
 - **When to use**: Early in the sweep attempt when you feel the initial forward pressure but the opponent has not yet generated full hip drive momentum
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: Opponent is driven back to flat position and you maintain the ability to continue your escape sequence with improved base awareness
 - **Risk**: If the post is too slow or positioned too high, the opponent may attack the posting arm with a kimura threat, converting your defensive action into their offensive opportunity
 
 ### 2. Accelerate leg extraction by explosively rotating hip internally and stripping the figure-4 during the sweep initiation
 
 - **When to use**: When the opponent loosens their figure-4 configuration to generate sweep momentum, creating a leg extraction window that did not exist during their tight entanglement
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You escape the leg entanglement entirely during the chaotic transition, converting the opponent's sweep attempt into your successful extraction
 - **Risk**: If extraction is incomplete, you may end up in a worse position with a partially freed leg that the opponent can re-entangle from a different angle
 
 ### 3. Drive weight forward aggressively to flatten opponent before the sweep generates momentum
 
 - **When to use**: When the opponent begins sitting up for a sit-up counter sweep variant and their upper body has not yet established controlling grips on you
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: The opponent is driven flat on their back, the sweep attempt is shut down, and you can continue your escape from a position of control with your weight on top of them
 - **Risk**: Forward driving feeds your weight into the opponent's sweep direction if they redirect laterally, potentially accelerating the sweep rather than preventing it
 
 ### 4. Disengage entirely by releasing defensive grips and standing up explosively to create distance
 
 - **When to use**: When the sweep is well-timed and your base is irrecoverably compromised, making continued in-place defense more dangerous than resetting from distance
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You avoid the sweep and reset to a standing position from which you can re-engage your escape on your own terms without sweep pressure
 - **Risk**: If you disengage too late, the opponent has already generated enough momentum to complete the sweep regardless of your standing attempt
 
@@ -224,11 +224,11 @@ As the defender against the counter sweep, you are the top player in outside ash
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Exploit the loosened figure-4 configuration that the opponent creates during their sweep initiation. As they adjust their legs for sweep leverage, the entanglement necessarily loosens—use this window to explosively rotate your hip internally, strip the triangle hook, and extract your leg completely. The opponent's commitment to the sweep means they cannot simultaneously tighten the entanglement and generate sweep force.
 
-### → [[Outside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 Shut down the sweep early by maintaining a low, wide base and posting your free hand immediately when you feel forward pressure through the entanglement. Keep your weight centered over your base of support throughout your escape sequence rather than allowing your center of gravity to drift in any direction that creates sweep vulnerability.
 

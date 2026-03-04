@@ -174,7 +174,7 @@ description: "Learn to execute the Escape Zombie Control technique in BJJ. Step-
 
 Executing the Escape Zombie Control requires recognizing the tipping point when your Zombie lockdown game is no longer productive and committing to a systematic transition to turtle. The technique demands precise timing between releasing your primary control mechanism - the lockdown - and establishing defensive frames that prevent the top player from capitalizing on the transition. Success depends on creating a momentary window through frame pressure and hip movement, then moving explosively to establish a solid turtle base before the top player can secure back control or flatten you to the mat. The escape is a last-resort tool that must be drilled until the frame-release-turn sequence becomes automatic under pressure.
 
-**From Position**: [[Zombie]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Zombie]] (Bottom)
 
 </section>
 
@@ -225,9 +225,9 @@ Executing the Escape Zombie Control requires recognizing the tipping point when 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 50% |
-| Failure | [[Zombie]] | 30% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Turtle]] | 50% |
+| Failure | [[Positions/Rubber Guard/Zombie]] | 30% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -236,10 +236,10 @@ Executing the Escape Zombie Control requires recognizing the tipping point when 
 
 ## Opponent Counters
 
-- **Opponent drives heavy crossface pressure during frame establishment to collapse your space** (Effectiveness: High) - Your Response: Redirect frame pressure to their shoulder rather than chest, use far-side arm to block crossface, and time your lockdown release with a strong hip bump to create space → Leads to [[Zombie]]
-- **Opponent immediately attacks the back as you transition to turtle by threading seatbelt** (Effectiveness: High) - Your Response: Keep elbows extremely tight during transition, rotate your hips away from their seatbelt attempt, and immediately begin guard recovery rather than settling into turtle → Leads to [[Back Control]]
-- **Opponent drives hips forward to re-establish control as you release the lockdown** (Effectiveness: Medium) - Your Response: Use your freed leg as a push frame on their hip to maintain distance, accelerate the turtle transition without pausing mid-escape → Leads to [[Zombie]]
-- **Opponent transitions to front headlock as you enter turtle position** (Effectiveness: Medium) - Your Response: Tuck chin immediately, keep elbows tight, and circle away from the choking arm while working to recover guard or execute a sit-out → Leads to [[Back Control]]
+- **Opponent drives heavy crossface pressure during frame establishment to collapse your space** (Effectiveness: High) - Your Response: Redirect frame pressure to their shoulder rather than chest, use far-side arm to block crossface, and time your lockdown release with a strong hip bump to create space → Leads to [[Positions/Rubber Guard/Zombie]]
+- **Opponent immediately attacks the back as you transition to turtle by threading seatbelt** (Effectiveness: High) - Your Response: Keep elbows extremely tight during transition, rotate your hips away from their seatbelt attempt, and immediately begin guard recovery rather than settling into turtle → Leads to [[Positions/Back Control]]
+- **Opponent drives hips forward to re-establish control as you release the lockdown** (Effectiveness: Medium) - Your Response: Use your freed leg as a push frame on their hip to maintain distance, accelerate the turtle transition without pausing mid-escape → Leads to [[Positions/Rubber Guard/Zombie]]
+- **Opponent transitions to front headlock as you enter turtle position** (Effectiveness: Medium) - Your Response: Tuck chin immediately, keep elbows tight, and circle away from the choking arm while working to recover guard or execute a sit-out → Leads to [[Positions/Back Control]]
 
 
 </section>

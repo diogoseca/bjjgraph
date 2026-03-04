@@ -132,7 +132,7 @@ description: "Defend against the Shake Off escape from Rodeo Ride in BJJ. Learn 
 
 Defending against the Shake Off from Rodeo Ride requires the top player to maintain heavy, responsive hip pressure that denies the bottom practitioner the momentary lightness needed to generate explosive displacement. The primary defense involves recognizing the base consolidation and pressure-waiting patterns that precede the shake-off, then proactively increasing hip weight and grip depth to prevent the explosion from creating meaningful separation. When the shake-off partially succeeds, the defender must decide between immediately re-establishing Rodeo Ride control by following laterally and re-loading hip pressure, or capitalizing on the bottom practitioner's elevated hips to insert hooks for full back control advancement. The shake-off's hip elevation creates the same space that facilitates hook insertion, making it possible to convert the opponent's escape attempt into your own positional advancement.
 
-**Opponent's Starting Position**: [[Rodeo Ride]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rodeo Ride]] (Bottom)
 
 </section>
 
@@ -170,21 +170,21 @@ Defending against the Shake Off from Rodeo Ride requires the top player to maint
 ### 1. Sink hips low and increase downward pressure proactively when recognizing base consolidation patterns
 
 - **When to use**: When you detect the bottom practitioner tightening their turtle and reducing movement in preparation for an explosive attempt
-- **Targets**: [[Rodeo Ride]]
+- **Targets**: [[Positions/Rodeo Ride]]
 - **If successful**: The shake-off cannot generate sufficient force against your settled weight, and the bottom practitioner has expended energy without creating separation
 - **Risk**: Overly static heavy pressure may create openings for rotation-based escapes like the Escape from Rodeo Ride that exploit committed forward weight
 
 ### 2. Insert hooks during the bottom practitioner's hip elevation when they pop upward creating space between their body and the mat
 
 - **When to use**: When the shake-off's hip pop creates visible space between the bottom practitioner's hips and the mat, providing the clearance needed for hook threading
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You advance from Rodeo Ride directly to full back control, converting the opponent's escape attempt into your positional advancement
 - **Risk**: If the bottom practitioner detects the hook attempt and immediately sits their hips down, your entering leg may be trapped awkwardly
 
 ### 3. Follow the lateral displacement immediately by shifting your base in the same direction and re-loading hip pressure on the new angle
 
 - **When to use**: When the shake-off creates lateral separation but you maintain chest-to-back contact and can quickly reposition to the new angle
-- **Targets**: [[Rodeo Ride]]
+- **Targets**: [[Positions/Rodeo Ride]]
 - **If successful**: You re-establish Rodeo Ride control on the new angle before the bottom practitioner can chain into a follow-up escape
 - **Risk**: Following too slowly allows the bottom practitioner to chain immediately into a sit-through or technical stand-up during the separation window
 
@@ -196,11 +196,11 @@ Defending against the Shake Off from Rodeo Ride requires the top player to maint
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the bottom practitioner pops their hips upward, use the space created between their body and the mat to thread your near-side hook inside their thigh. Secure a seat belt grip simultaneously and work the far-side hook as the bottom practitioner settles back down. Their own escape movement creates the space you need for hook insertion.
 
-### → [[Rodeo Ride]]
+### → [[Positions/Rodeo Ride]]
 
 Maintain heavy low hip pressure throughout the shake-off attempt by sinking your weight proactively when you recognize the preparatory base consolidation. Keep near-arm control locked to prevent the lateral base shift that creates separation. Follow any lateral displacement immediately by shifting your own base to match, re-loading pressure before the bottom practitioner can chain into a follow-up escape.
 

@@ -180,7 +180,7 @@ description: "Master the Worm to Squid Guard transition as the bottom player. St
 
 As the bottom player initiating this transition, your primary challenge is maintaining continuous control while reconfiguring the lapel path and leg position from worm guard to squid guard. The transition requires unwinding the lapel from your shin while threading your leg through the opponent's base, creating a brief vulnerability window where your control is at its weakest. Success depends on proper sequencing: establish secondary grips before any reconfiguration, execute the leg thread with speed and precision, and immediately re-establish lapel tension in the new squid guard path. The reward for mastering this transition is the ability to flow between two of the most powerful lapel guard positions, preventing opponents from developing comfortable defensive patterns against either position in isolation.
 
-**From Position**: [[Worm Guard]] (Bottom)
+**From Position**: [[Positions/Worm Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player initiating this transition, your primary challenge is maint
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Squid Guard]] | 55% |
-| Failure | [[Worm Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Squid Guard]] | 55% |
+| Failure | [[Positions/Worm Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the bottom player initiating this transition, your primary challenge is maint
 
 ## Opponent Counters
 
-- **Opponent strips lapel during the reconfiguration window when tension is reduced** (Effectiveness: High) - Your Response: If you feel them reaching for the lapel, abort the transition and re-secure worm guard first. Alternatively, threaten a sweep to force them to use their hands defensively rather than for stripping the lapel connection. → Leads to [[Open Guard]]
-- **Opponent drives heavy forward pressure when they sense the guard structure changing** (Effectiveness: Medium) - Your Response: Use your free leg to frame on their hip and push back, creating space. If they commit heavily forward, convert their momentum into an off-balancing sweep rather than forcing the squid guard entry against pressure. → Leads to [[Open Guard]]
-- **Opponent steps back to disengage and create distance during the transition** (Effectiveness: Medium) - Your Response: Follow their retreat with hip scooting and maintain lapel tension throughout. If they create enough distance to neutralize the transition, return to worm guard attacks using the still-connected lapel rather than chasing. → Leads to [[Worm Guard]]
-- **Opponent pinches knees together to prevent the leg threading component** (Effectiveness: Medium) - Your Response: Use your free foot on their hip to push and create lateral separation between their legs. Alternatively, pull the lapel sharply to off-balance them sideways, which naturally opens a gap as they adjust their base to avoid falling. → Leads to [[Worm Guard]]
+- **Opponent strips lapel during the reconfiguration window when tension is reduced** (Effectiveness: High) - Your Response: If you feel them reaching for the lapel, abort the transition and re-secure worm guard first. Alternatively, threaten a sweep to force them to use their hands defensively rather than for stripping the lapel connection. → Leads to [[Positions/Open Guard]]
+- **Opponent drives heavy forward pressure when they sense the guard structure changing** (Effectiveness: Medium) - Your Response: Use your free leg to frame on their hip and push back, creating space. If they commit heavily forward, convert their momentum into an off-balancing sweep rather than forcing the squid guard entry against pressure. → Leads to [[Positions/Open Guard]]
+- **Opponent steps back to disengage and create distance during the transition** (Effectiveness: Medium) - Your Response: Follow their retreat with hip scooting and maintain lapel tension throughout. If they create enough distance to neutralize the transition, return to worm guard attacks using the still-connected lapel rather than chasing. → Leads to [[Positions/Worm Guard]]
+- **Opponent pinches knees together to prevent the leg threading component** (Effectiveness: Medium) - Your Response: Use your free foot on their hip to push and create lateral separation between their legs. Alternatively, pull the lapel sharply to off-balance them sideways, which naturally opens a gap as they adjust their base to avoid falling. → Leads to [[Positions/Worm Guard]]
 
 
 </section>

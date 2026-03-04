@@ -17,7 +17,7 @@ description: "Master the Peterson Roll escape from turtle in BJJ. Step-by-step e
 
 The Peterson Roll is a fundamental wrestling-based reversal adapted for BJJ that allows the bottom turtle player to reverse position and come out on top. Named after wrestler John Peterson, this technique exploits the opponent's weight commitment when they drive into you from behind. The roll uses the opponent's forward pressure against them, channeling their momentum into a rolling reversal that lands you in a dominant top position, typically side control or half guard top. The Peterson Roll is particularly effective against opponents who over-commit their weight forward while attempting to break down your turtle or establish back control. Unlike the granby roll which aims primarily for guard recovery, the Peterson Roll is an offensive reversal that puts you directly into a scoring position. The technique requires precise timing, proper arm positioning to capture the opponent's attacking limb, and explosive hip movement to generate the rotation needed to complete the roll. It forms an essential part of any complete turtle defense system, giving you a legitimate threatening option that forces opponents to respect your ability to reverse position rather than simply attacking freely.
 
-**From Position**: [[Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -28,10 +28,10 @@ The Peterson Roll is a fundamental wrestling-based reversal adapted for BJJ that
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Side Control]] | 55% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -182,23 +182,23 @@ The Peterson Roll occupies a critical role in a complete turtle defense system, 
 ## Related Techniques
 
 
-- [[Turtle]] - Starting position
+- [[Positions/Turtle]] - Starting position
 
-- [[Side Control]] - Primary outcome position after successful roll
+- [[Positions/Side Control]] - Primary outcome position after successful roll
 
-- [[Half Guard]] - Alternative outcome position
+- [[Positions/Half Guard]] - Alternative outcome position
 
-- [[Granby Roll to Guard]] - Alternative turtle escape technique
+- [[Transitions/Granby Roll to Guard]] - Alternative turtle escape technique
 
-- [[Back Control]] - Position opponent threatens if roll fails
+- [[Positions/Back Control]] - Position opponent threatens if roll fails
 
-- [[Sit Through to Guard]] - Chain option when Peterson is defended
+- [[Transitions/Sit Through to Guard]] - Chain option when Peterson is defended
 
-- [[Rolling to Guard]] - Related rolling escape concept
+- [[Transitions/Rolling to Guard]] - Related rolling escape concept
 
-- [[Deep Half Entry]] - Alternative turtle escape to leg entanglement
+- [[Transitions/Deep Half Entry]] - Alternative turtle escape to leg entanglement
 
-- [[Front Headlock]] - Position opponent may transition to from turtle top
+- [[Positions/Front Headlock]] - Position opponent may transition to from turtle top
 
 
 </section>

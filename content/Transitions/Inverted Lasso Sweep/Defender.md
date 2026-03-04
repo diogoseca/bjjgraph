@@ -146,7 +146,7 @@ description: "Master defense against the Inverted Lasso Sweep. Recognition cues,
 
 Defending the Inverted Lasso Sweep requires early recognition of the inversion attempt and immediate base adjustment to prevent the overhead sweep mechanics from developing. The defender's primary challenge is managing forward weight distribution, as the sweep specifically exploits forward momentum to generate rotational force through the lasso fulcrum. Successful defense combines posture control, strategic weight placement, and systematic grip fighting to either prevent the sweep entirely or convert failed sweep attempts into guard passing opportunities. Understanding the attacker's dilemma system between sweep and berimbolo is essential, as naive defensive responses to one attack often directly enable the other, requiring a balanced defensive approach that addresses both threats simultaneously.
 
-**Opponent's Starting Position**: [[Inverted Lasso Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Lasso Guard/Inverted Lasso Guard]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ Defending the Inverted Lasso Sweep requires early recognition of the inversion a
 ### 1. Drop weight backward and sprawl hips to remove forward momentum from the sweep mechanics
 
 - **When to use**: Immediately upon recognizing the inversion initiation, before the sweep angle and lifting force are fully established
-- **Targets**: [[Inverted Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard/Inverted Lasso Guard]]
 - **If successful**: Sweep force is neutralized and the bottom player must either hold a failed inverted position that drains energy or return to upright guard without having advanced
 - **Risk**: Excessive backward weight shift opens berimbolo entry as your center of gravity moves behind your base, creating the exact condition the berimbolo exploits
 
 ### 2. Strip the sleeve grip using a two-on-one grip break while maintaining controlled forward pressure on the inverted opponent
 
 - **When to use**: When the bottom player has established the inversion but has not yet generated full sweep momentum, creating a window for grip work
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Breaking the sleeve connection eliminates the pulling force needed for the sweep, degrading the position to basic open guard where standard passing applies
 - **Risk**: Time spent grip fighting may allow the bottom player to adjust their angle and transition to berimbolo or alternative attack before the grip breaks
 
 ### 3. Control the free leg by grabbing the ankle or pinning it with your hip to eliminate the attacker's sweep steering mechanism
 
 - **When to use**: When the bottom player posts their free foot on your hip during the sweep setup phase, before they commit to a specific attack direction
-- **Targets**: [[Inverted Lasso Guard]]
+- **Targets**: [[Positions/Lasso Guard/Inverted Lasso Guard]]
 - **If successful**: Without the free leg providing directional force and hip control, sweep mechanics are severely weakened and the attacker cannot steer the sweep or initiate berimbolo
 - **Risk**: Dedicating one hand to free leg control reduces your own posting ability and limits the number of hands available for base recovery or arm extraction
 
 ### 4. Follow the opponent's rotation with a cartwheel pass, matching their sweep movement with counter-rotation to neutralize the angle
 
 - **When to use**: When the sweep motion has already begun and direct resistance against the established rotational force would feed into their momentum
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Cartwheel counter-rotation neutralizes the sweep angle completely and can lead directly to a passing position or back control on the far side
 - **Risk**: Mistimed cartwheel can result in losing base entirely and being swept more emphatically than a direct resistance attempt would produce
 
@@ -218,11 +218,11 @@ Defending the Inverted Lasso Sweep requires early recognition of the inversion a
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip the sleeve grip connection and systematically extract the lassoed arm to break down the inverted lasso structure entirely, forcing the bottom player into basic open guard where standard pressure passing and movement passing sequences can be applied effectively
 
-### → [[Inverted Lasso Guard]]
+### → [[Positions/Lasso Guard/Inverted Lasso Guard]]
 
 Neutralize the sweep attempt by managing weight distribution and controlling the free leg, keeping the bottom player stuck in an energetically demanding inverted position that drains their stamina rapidly without yielding any offensive results, eventually forcing them to abandon the inversion
 

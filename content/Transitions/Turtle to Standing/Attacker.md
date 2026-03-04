@@ -180,7 +180,7 @@ description: "How to execute Turtle to Standing escape in BJJ. Complete attackin
 
 Executing the Turtle to Standing transition requires coordinating explosive hip extension with strategic hand posting, directional choice, and continuous neck protection. The attacker in this context is the bottom player escaping turtle, and the technique succeeds when you generate enough upward and forward momentum to overcome opponent's downward pressure while maintaining defensive integrity against chokes and back takes. The critical principle is that this escape must be executed as a single explosive movement rather than a gradual rise. Every moment spent in transition between turtle and standing is a moment of vulnerability where the opponent can attack the exposed neck, insert hooks, or drive you flat. Timing the attempt to coincide with the opponent's weight shifting or grip adjustment creates the optimal window. The direction of the stand should always move away from the opponent's center of mass, and the first action after reaching feet must be creating distance through lateral footwork rather than standing directly into the opponent's chest.
 
-**From Position**: [[Turtle]] (Bottom)
+**From Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ Executing the Turtle to Standing transition requires coordinating explosive hip 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 60% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Standing Position]] | 60% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -245,12 +245,12 @@ Executing the Turtle to Standing transition requires coordinating explosive hip 
 
 ## Opponent Counters
 
-- **Opponent drives weight forward to flatten you back to the mat** (Effectiveness: High) - Your Response: Maintain rigid posted arm and drive explosively through the pressure. If the forward drive is too strong, abort and switch direction to stand to the opposite side. Alternatively, use their forward commitment to execute a sit-through underneath their pressure. → Leads to [[Turtle]]
-- **Opponent secures seatbelt or harness control during stand attempt** (Effectiveness: High) - Your Response: Abort the stand-up immediately and address the grips. Strip the top choking hand first using two-on-one grip fighting, then clear the underhook hand. Only reinitiate the stand after grips are broken. Attempting to power through seatbelt control risks giving up full back control with hooks. → Leads to [[Back Control]]
-- **Opponent attacks with guillotine choke as you rise** (Effectiveness: Medium) - Your Response: Keep chin tucked and circle away from the choking arm while maintaining forward pressure through your posted hand. If they lock the guillotine, address the choke by peeling the wrist, posturing up, and stepping to the non-choking side. Never pull your head straight backward as this tightens the choke. → Leads to [[Turtle]]
-- **Opponent transitions to front headlock position as you rise** (Effectiveness: Medium) - Your Response: Hand fight aggressively to remove their grip on your head. Use circular movement to clear head position and deny them the angle for chokes. If head is trapped, drop your level and execute a re-shot or sit-out to escape the front headlock before they can lock in a darce or anaconda. → Leads to [[Turtle]]
-- **Opponent immediately re-shoots for takedown upon your stand** (Effectiveness: Medium) - Your Response: Sprawl immediately with hips back and chest driving forward onto their upper back. Establish crossface or front headlock control to stuff the shot. Avoid retreating in a straight line as this gives them penetration depth. After stuffing the shot, circle to re-establish distance. → Leads to [[Standing Position]]
-- **Opponent hooks your inside leg with butterfly hook to block the stand** (Effectiveness: Low) - Your Response: Clear the hook by kicking your trapped leg backward and away while simultaneously shifting your posting position to the opposite side. If the hook persists, transition to an alternative escape such as a granby roll over the hooked side or sit-through to half guard. → Leads to [[Turtle]]
+- **Opponent drives weight forward to flatten you back to the mat** (Effectiveness: High) - Your Response: Maintain rigid posted arm and drive explosively through the pressure. If the forward drive is too strong, abort and switch direction to stand to the opposite side. Alternatively, use their forward commitment to execute a sit-through underneath their pressure. → Leads to [[Positions/Turtle]]
+- **Opponent secures seatbelt or harness control during stand attempt** (Effectiveness: High) - Your Response: Abort the stand-up immediately and address the grips. Strip the top choking hand first using two-on-one grip fighting, then clear the underhook hand. Only reinitiate the stand after grips are broken. Attempting to power through seatbelt control risks giving up full back control with hooks. → Leads to [[Positions/Back Control]]
+- **Opponent attacks with guillotine choke as you rise** (Effectiveness: Medium) - Your Response: Keep chin tucked and circle away from the choking arm while maintaining forward pressure through your posted hand. If they lock the guillotine, address the choke by peeling the wrist, posturing up, and stepping to the non-choking side. Never pull your head straight backward as this tightens the choke. → Leads to [[Positions/Turtle]]
+- **Opponent transitions to front headlock position as you rise** (Effectiveness: Medium) - Your Response: Hand fight aggressively to remove their grip on your head. Use circular movement to clear head position and deny them the angle for chokes. If head is trapped, drop your level and execute a re-shot or sit-out to escape the front headlock before they can lock in a darce or anaconda. → Leads to [[Positions/Turtle]]
+- **Opponent immediately re-shoots for takedown upon your stand** (Effectiveness: Medium) - Your Response: Sprawl immediately with hips back and chest driving forward onto their upper back. Establish crossface or front headlock control to stuff the shot. Avoid retreating in a straight line as this gives them penetration depth. After stuffing the shot, circle to re-establish distance. → Leads to [[Positions/Standing Position]]
+- **Opponent hooks your inside leg with butterfly hook to block the stand** (Effectiveness: Low) - Your Response: Clear the hook by kicking your trapped leg backward and away while simultaneously shifting your posting position to the opposite side. If the hook persists, transition to an alternative escape such as a granby roll over the hooked side or sit-through to half guard. → Leads to [[Positions/Turtle]]
 
 
 </section>

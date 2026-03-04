@@ -156,7 +156,7 @@ Defending the Rolling Kimura from turtle bottom requires recognizing the attack 
 
 The most important defensive principle is prevention. Once the attacker has established a tight kimura grip and initiated the roll with proper mechanics, defensive options diminish rapidly. Early recognition of the grip attempt and immediate hand fighting to prevent arm isolation represent your highest-percentage defensive window. If the grip is already locked, your priorities shift to preventing the roll itself through base widening and posture, or if the roll has begun, using the momentum to counter-roll into a position where the kimura threat is neutralized. Understanding the attacker's mechanical requirements at each phase allows you to disrupt the technique at its most vulnerable points.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The most important defensive principle is prevention. Once the attacker has esta
 ### 1. Immediate grip fighting to strip the kimura before it locks
 
 - **When to use**: As soon as you feel the attacker gripping your wrist or threading their arm under yours, before the figure-four is secured
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Attacker loses grip control and must restart their attack sequence, returning to neutral turtle top position
 - **Risk**: If you commit both hands to grip fighting, you temporarily lose your posting base and the attacker may flatten you or transition to a different attack
 
 ### 2. Base widening and posture defense by dropping your trapped-side hip to the mat and driving away from the attacker
 
 - **When to use**: When the kimura grip is locked but the roll has not yet initiated, typically when you feel the arm being pulled away from your body
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Your lowered hip and widened base prevent the attacker from generating the rotational angle needed to initiate the roll, stalling their attack
 - **Risk**: Dropping your hip can expose you to alternative attacks such as the darce choke or flatten to side control if the attacker abandons the kimura
 
 ### 3. Counter-roll by turning into the attacker and driving your weight forward through their rolling direction
 
 - **When to use**: When the roll has already been initiated and you cannot prevent it, typically as you feel your body beginning to rotate with the attacker
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You end up in a scramble position or top position with the attacker's kimura grip weakened by the unexpected directional change, potentially allowing you to extract your arm
 - **Risk**: If poorly timed, the counter-roll can actually accelerate the attacker's technique and you may end up in a worse position with the kimura locked deeper
 
 ### 4. Stand up explosively while the attacker is committed to the floor-based rolling setup
 
 - **When to use**: Early in the attack sequence when the grip is being established but before the attacker has broken your base or positioned their body for the roll
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Standing removes the mat contact needed for the rolling mechanics, forcing the attacker to either release the grip or transition to a standing variation with reduced leverage
 - **Risk**: If the attacker maintains the grip during your standup, they can execute the standing rolling kimura variant using your upward momentum against you
 
@@ -228,11 +228,11 @@ The most important defensive principle is prevention. Once the attacker has esta
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Strip the kimura grip before it locks by fighting hands immediately upon recognition. Use two-on-one grip breaking on your own wrist to peel the attacker's fingers, then immediately retuck your elbow tight to your body and begin working a standard turtle escape to reset the position.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 If the roll has already initiated, commit to a strong counter-roll by driving your weight forward through the attacker's rolling direction. This scramble often results in you ending up on top or in a neutral position where you can disengage and recover turtle or establish guard. The key is timing the counter-roll to the moment the attacker's momentum peaks.
 

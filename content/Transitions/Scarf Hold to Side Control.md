@@ -21,7 +21,7 @@ The primary challenge lies in maintaining continuous pressure throughout the rot
 
 Strategically, this transition is most valuable when the bottom player has neutralized scarf hold submission threats through strong defensive posture, or when the top player recognizes that side control's broader submission and advancement options better serve the current tactical situation. The transition also serves as a positional reset when the bottom player begins threatening bridge-and-roll escapes that exploit scarf hold's inherent back exposure vulnerability.
 
-**From Position**: [[Scarf Hold Position]] (Top)
+**From Position**: [[Positions/Side Control/Scarf Hold Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition is most valuable when the bottom player has neutr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Scarf Hold Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Side Control/Scarf Hold Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ Scarf Hold to Side Control sits at a critical junction in the top control system
 ## Related Techniques
 
 
-- [[Scarf Hold Position]] - Starting position for this transition with perpendicular pinning angle
+- [[Positions/Side Control/Scarf Hold Position]] - Starting position for this transition with perpendicular pinning angle
 
-- [[Side Control]] - Target position offering broader submission and advancement options
+- [[Positions/Side Control]] - Target position offering broader submission and advancement options
 
-- [[Kesa Gatame]] - Traditional judo terminology for scarf hold starting position
+- [[Positions/Side Control/Kesa Gatame]] - Traditional judo terminology for scarf hold starting position
 
-- [[Modified Scarf Hold]] - Alternative scarf hold variation that may precede this transition
+- [[Positions/Side Control/Modified Scarf Hold]] - Alternative scarf hold variation that may precede this transition
 
-- [[Scarf Hold to Mount]] - Alternative advancement option from scarf hold when mount is preferred
+- [[Transitions/Scarf Hold to Mount]] - Alternative advancement option from scarf hold when mount is preferred
 
-- [[Bridge from Scarf Hold Position]] - Primary defensive counter the bottom player uses during this transition
+- [[Transitions/Bridge from Scarf Hold Position]] - Primary defensive counter the bottom player uses during this transition
 
-- [[Escape Scarf Hold Position]] - Escape technique the bottom player may attempt during transition gap
+- [[Transitions/Escape Scarf Hold Position]] - Escape technique the bottom player may attempt during transition gap
 
-- [[North-South]] - Alternative transition target accessible through intermediate rotation
+- [[Positions/North-South]] - Alternative transition target accessible through intermediate rotation
 
-- [[Half Guard]] - Counter outcome position when bottom player recovers guard during transition
+- [[Positions/Half Guard]] - Counter outcome position when bottom player recovers guard during transition
 
-- [[Knee on Belly]] - Follow-up advancement option once side control is established
+- [[Positions/Knee on Belly]] - Follow-up advancement option once side control is established
 
 
 </section>

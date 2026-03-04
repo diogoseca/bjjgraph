@@ -21,7 +21,7 @@ The strategic importance of this escape lies in understanding that conventional 
 
 This technique is particularly valuable because gogoplata attacks have become increasingly prevalent in modern competition, especially among flexible guard players utilizing rubber guard systems. Developing reliable shin removal mechanics provides essential defensive coverage against these specialized attacks while also opening pathways to dominant passing positions. The pass completion to side control transforms a defensive emergency into an offensive opportunity, making this a high-value skill for competitive practitioners.
 
-**From Position**: [[Gogoplata Control]] (Top)
+**From Position**: [[Positions/Gogoplata Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This technique is particularly valuable because gogoplata attacks have become in
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Gogoplata Control]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Gogoplata Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -184,25 +184,25 @@ Shin Removal to Pass fits into the broader gogoplata defense system as the prima
 ## Related Techniques
 
 
-- [[Gogoplata Control]] - Starting position - the submission control you are escaping from
+- [[Positions/Gogoplata Control]] - Starting position - the submission control you are escaping from
 
-- [[Side Control]] - Target position - destination after successful escape and pass completion
+- [[Positions/Side Control]] - Target position - destination after successful escape and pass completion
 
-- [[Rubber Guard]] - Related system - gogoplata typically emerges from rubber guard positions
+- [[Positions/Rubber Guard]] - Related system - gogoplata typically emerges from rubber guard positions
 
-- [[Mission Control]] - Precursor position - rubber guard control that sets up gogoplata attacks
+- [[Positions/Rubber Guard/Mission Control]] - Precursor position - rubber guard control that sets up gogoplata attacks
 
-- [[Triangle Control]] - Counter threat - opponent may transition to triangle if escape is imprecise
+- [[Positions/Triangle Control]] - Counter threat - opponent may transition to triangle if escape is imprecise
 
-- [[Closed Guard]] - Alternative outcome - acceptable position if opponent releases gogoplata during escape
+- [[Positions/Closed Guard]] - Alternative outcome - acceptable position if opponent releases gogoplata during escape
 
-- [[Head Extraction to Posture]] - Related technique - alternative escape focusing on posture recovery
+- [[Transitions/Head Extraction to Posture]] - Related technique - alternative escape focusing on posture recovery
 
-- [[Stack Defense]] - Related technique - stacking pressure can assist in escape execution
+- [[Transitions/Stack Defense]] - Related technique - stacking pressure can assist in escape execution
 
-- [[Angle Change Escape]] - Complementary technique - shares principle of changing angles to defeat submission geometry
+- [[Transitions/Angle Change Escape]] - Complementary technique - shares principle of changing angles to defeat submission geometry
 
-- [[Omoplata Control]] - Secondary counter threat - opponent may redirect to omoplata if you turn incorrectly during extraction
+- [[Positions/Omoplata Control]] - Secondary counter threat - opponent may redirect to omoplata if you turn incorrectly during extraction
 
 
 </section>

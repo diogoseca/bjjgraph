@@ -21,7 +21,7 @@ The beauty of the single leg entry lies in its versatility and the multiple fini
 
 From a strategic perspective, the single leg entry represents a crucial bridge between standing grappling and ground work. It allows BJJ practitioners to dictate where the fight takes place, avoiding guard pulls that might give up advantageous positions. The entry phase requires precise timing, proper level change mechanics, and understanding of grip fighting principles. When executed correctly, the single leg entry not only secures a takedown but often provides immediate access to dominant positions or submission opportunities, making it one of the most valuable techniques in modern BJJ.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic perspective, the single leg entry represents a crucial bridge b
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Front Headlock]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Front Headlock]] | 15% |
 
 
 </section>
@@ -205,29 +205,29 @@ The single leg entry should be viewed as part of a larger positional ecosystem t
 ## Related Techniques
 
 
-- [[Single Leg Takedown]] - Direct follow-up - natural continuation after successful entry establishes leg control for takedown completion
+- [[Transitions/Single Leg Takedown]] - Direct follow-up - natural continuation after successful entry establishes leg control for takedown completion
 
-- [[Single Leg X Entry]] - Alternative completion - guard pull option when takedown finish is defended
+- [[Transitions/Single Leg X Entry]] - Alternative completion - guard pull option when takedown finish is defended
 
-- [[Double Leg Entry]] - Complementary technique - often used in combination or as conversion option when single leg is partially defended
+- [[Transitions/Double Leg Entry]] - Complementary technique - often used in combination or as conversion option when single leg is partially defended
 
-- [[High Crotch]] - Related variation - similar mechanics with different head positioning and finish options
+- [[Transitions/High Crotch]] - Related variation - similar mechanics with different head positioning and finish options
 
-- [[Ankle Pick]] - Alternative attack - used when single leg is sprawled or as adjustment entry from failed penetration
+- [[Transitions/Ankle Pick]] - Alternative attack - used when single leg is sprawled or as adjustment entry from failed penetration
 
-- [[Sprawl Defense]] - Primary counter technique - understanding sprawl defense improves offensive single leg execution
+- [[Transitions/Sprawl Defense]] - Primary counter technique - understanding sprawl defense improves offensive single leg execution
 
-- [[Body Lock Pass]] - Related control - similar body lock mechanics applied in different passing context
+- [[Transitions/Body Lock Pass]] - Related control - similar body lock mechanics applied in different passing context
 
-- [[Front Headlock]] - Counter position - understanding this threat improves head positioning during entry
+- [[Positions/Front Headlock]] - Counter position - understanding this threat improves head positioning during entry
 
-- [[Guillotine Choke]] - Primary submission threat - awareness of this attack shapes proper head positioning
+- [[Transitions/Guillotine Choke]] - Primary submission threat - awareness of this attack shapes proper head positioning
 
-- [[Single Leg to Back Take]] - Advanced finish - one of the highest-percentage completions from established leg control
+- [[Transitions/Single Leg to Back Take]] - Advanced finish - one of the highest-percentage completions from established leg control
 
-- [[Snap Down to Front Headlock]] - Setup technique - often used to create reactive opening for single leg entry
+- [[Transitions/Snap Down to Front Headlock]] - Setup technique - often used to create reactive opening for single leg entry
 
-- [[Guard Pull]] - Strategic alternative - guard pull can be used when single leg finish is heavily defended
+- [[Transitions/Guard Pull]] - Strategic alternative - guard pull can be used when single leg finish is heavily defended
 
 
 </section>

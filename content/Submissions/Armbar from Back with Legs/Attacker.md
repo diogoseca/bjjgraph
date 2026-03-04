@@ -176,7 +176,7 @@ description: "How to execute Armbar from Back with Legs in BJJ. Attacking perspe
 
 The Armbar from Back with Legs is an advanced finishing technique that leverages the superior control position of back mount to isolate and hyperextend the opponent's elbow joint. This variation differs from standard armbar attacks by maintaining leg control throughout the submission, using the legs to trap the opponent's upper body while transitioning the arm across your hips. The technique exemplifies the principle of maintaining dominant control even during submission transitions, as you never fully relinquish the back position until the armbar is secured. This submission is particularly effective against opponents who defend the rear naked choke by keeping their chin tucked and arms tight, as it punishes defensive hand fighting by converting grip breaks into submission opportunities. The leg configuration creates a powerful fulcrum that makes escape extremely difficult once properly applied, though the transition requires precise timing and body positioning to prevent rolling escapes. Success depends on understanding how to use your legs not just for control, but as active submission tools that guide the opponent's body into the finishing position.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 
 
 </section>
@@ -232,8 +232,8 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -242,11 +242,11 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 ## Opponent Defenses
 
-- **Rolling forward over their trapped shoulder to relieve pressure** (Effectiveness: Medium) - Your Response: Anticipate the roll by keeping your top leg heavy across their face and your bottom leg hooked under their far shoulder. If they commit to rolling, follow the roll while maintaining wrist control and re-establish the position on top. Some advanced practitioners will allow the roll and finish the armbar from the top position. → Leads to [[Back Control]]
-- **Grabbing their own gi lapel or belt to create a defensive grip** (Effectiveness: Low) - Your Response: This grip only delays the inevitable if you have proper position. Continue to extend their arm and elevate your hips. The defensive grip will break under sufficient hip pressure, or you can attack the fingers to break the grip before applying full extension pressure. → Leads to [[Back Control]]
-- **Turning into you to stack your hips and compress your legs** (Effectiveness: High) - Your Response: This is the most dangerous defense and must be prevented early. Keep your top leg heavy across their face to prevent the turn. If they begin turning, you may need to abandon the armbar and transition to other back attacks, or quickly adjust to a belly-down armbar configuration if you can maintain arm control. → Leads to [[Closed Guard]]
-- **Pulling their elbow back toward their body using their free hand** (Effectiveness: Medium) - Your Response: This defense is most effective in the transition phase. Counter by ensuring your wrist control is established before fully committing to the armbar. Once your legs are in position and hips are aligned, their pulling strength is negated by your hip extension leverage. Squeeze your knees tighter to pin their shoulder and prevent the elbow from being pulled back. → Leads to [[Back Control]]
-- **Hitchhiker escape by rotating their thumb downward and turning belly-down** (Effectiveness: Low) - Your Response: Maintain constant awareness of thumb position throughout the submission. If you feel them attempting to rotate their thumb down, immediately adjust your wrist control to prevent the rotation. Pulling their wrist tighter to your chest and squeezing your knees eliminates the space needed for this escape. If they commit fully, follow their rotation and transition to a belly-down armbar. → Leads to [[Closed Guard]]
+- **Rolling forward over their trapped shoulder to relieve pressure** (Effectiveness: Medium) - Your Response: Anticipate the roll by keeping your top leg heavy across their face and your bottom leg hooked under their far shoulder. If they commit to rolling, follow the roll while maintaining wrist control and re-establish the position on top. Some advanced practitioners will allow the roll and finish the armbar from the top position. → Leads to [[Positions/Back Control]]
+- **Grabbing their own gi lapel or belt to create a defensive grip** (Effectiveness: Low) - Your Response: This grip only delays the inevitable if you have proper position. Continue to extend their arm and elevate your hips. The defensive grip will break under sufficient hip pressure, or you can attack the fingers to break the grip before applying full extension pressure. → Leads to [[Positions/Back Control]]
+- **Turning into you to stack your hips and compress your legs** (Effectiveness: High) - Your Response: This is the most dangerous defense and must be prevented early. Keep your top leg heavy across their face to prevent the turn. If they begin turning, you may need to abandon the armbar and transition to other back attacks, or quickly adjust to a belly-down armbar configuration if you can maintain arm control. → Leads to [[Positions/Closed Guard]]
+- **Pulling their elbow back toward their body using their free hand** (Effectiveness: Medium) - Your Response: This defense is most effective in the transition phase. Counter by ensuring your wrist control is established before fully committing to the armbar. Once your legs are in position and hips are aligned, their pulling strength is negated by your hip extension leverage. Squeeze your knees tighter to pin their shoulder and prevent the elbow from being pulled back. → Leads to [[Positions/Back Control]]
+- **Hitchhiker escape by rotating their thumb downward and turning belly-down** (Effectiveness: Low) - Your Response: Maintain constant awareness of thumb position throughout the submission. If you feel them attempting to rotate their thumb down, immediately adjust your wrist control to prevent the rotation. Pulling their wrist tighter to your chest and squeezing your knees eliminates the space needed for this escape. If they commit fully, follow their rotation and transition to a belly-down armbar. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

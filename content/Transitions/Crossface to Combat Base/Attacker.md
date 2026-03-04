@@ -184,7 +184,7 @@ This technique represents a methodical, low-risk approach to half guard passing.
 
 The strategic value of this transition lies in its versatility. Once combat base is established, you have access to toreando, knee slice, long step, and pressure passing options based on how your opponent defends. This makes the crossface to combat base transition a cornerstone of systematic guard passing, allowing you to chain multiple attacks while maintaining positional stability throughout.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -238,9 +238,9 @@ The strategic value of this transition lies in its versatility. Once combat base
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Combat Base]] | 65% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Combat Base]] | 65% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -249,11 +249,11 @@ The strategic value of this transition lies in its versatility. Once combat base
 
 ## Opponent Counters
 
-- **Deep underhook establishment before crossface is secured** (Effectiveness: High) - Your Response: Beat opponent to the underhook battle by establishing crossface immediately upon entering half guard. If they already have underhook, consider switching to kimura attack or backstep pass rather than forcing the combat base transition. → Leads to [[Half Guard]]
-- **Lockdown on trapped leg preventing extraction** (Effectiveness: High) - Your Response: Address the lockdown before attempting extraction by either swimming your foot free, posting on your hands and walking your hips backward to create slack, or switching to whip-up pass that uses their lockdown momentum against them. → Leads to [[Half Guard]]
-- **Hip follow as you extract leg** (Effectiveness: Medium) - Your Response: Increase crossface pressure and use your free hand to stuff their hip back down as you extract. The key is preventing the follow before it starts through heavy constant pressure rather than reacting after they've already moved. → Leads to [[Half Guard]]
-- **Knee shield insertion during transition** (Effectiveness: Medium) - Your Response: If opponent begins inserting knee shield, either drive through aggressively before it's established or transition to smash pass approach where you flatten their knee shield across their body using hip pressure. → Leads to [[Half Guard]]
-- **Far arm frame on your bicep or head** (Effectiveness: Low) - Your Response: Swim your underhook arm over their framing arm or strip the grip by grabbing their wrist and pulling it across their body. Maintain constant forward pressure to make their frame structurally weak. → Leads to [[Half Guard]]
+- **Deep underhook establishment before crossface is secured** (Effectiveness: High) - Your Response: Beat opponent to the underhook battle by establishing crossface immediately upon entering half guard. If they already have underhook, consider switching to kimura attack or backstep pass rather than forcing the combat base transition. → Leads to [[Positions/Half Guard]]
+- **Lockdown on trapped leg preventing extraction** (Effectiveness: High) - Your Response: Address the lockdown before attempting extraction by either swimming your foot free, posting on your hands and walking your hips backward to create slack, or switching to whip-up pass that uses their lockdown momentum against them. → Leads to [[Positions/Half Guard]]
+- **Hip follow as you extract leg** (Effectiveness: Medium) - Your Response: Increase crossface pressure and use your free hand to stuff their hip back down as you extract. The key is preventing the follow before it starts through heavy constant pressure rather than reacting after they've already moved. → Leads to [[Positions/Half Guard]]
+- **Knee shield insertion during transition** (Effectiveness: Medium) - Your Response: If opponent begins inserting knee shield, either drive through aggressively before it's established or transition to smash pass approach where you flatten their knee shield across their body using hip pressure. → Leads to [[Positions/Half Guard]]
+- **Far arm frame on your bicep or head** (Effectiveness: Low) - Your Response: Swim your underhook arm over their framing arm or strip the grip by grabbing their wrist and pulling it across their body. Maintain constant forward pressure to make their frame structurally weak. → Leads to [[Positions/Half Guard]]
 
 
 </section>

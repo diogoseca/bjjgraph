@@ -21,7 +21,7 @@ The technique operates on the principle that even when your leg is trapped acros
 
 From a strategic perspective, Frame and Shrimp to Guard serves as your first line of defense when caught in leg drag control before the position is fully consolidated. It should be attempted early and explosively, as hesitation allows the passer to settle their weight and eliminate the space needed for the escape. When executed properly, this technique resets the passing exchange to neutral, forcing your opponent to restart their passing sequence while you re-establish your preferred guard configuration.
 
-**From Position**: [[Leg Drag Control]] (Bottom)
+**From Position**: [[Positions/Leg Drag Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic perspective, Frame and Shrimp to Guard serves as your first lin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Leg Drag Control]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Leg Drag Control]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -194,27 +194,27 @@ Frame and Shrimp to Guard sits at the foundation of the leg drag defensive syste
 ## Related Techniques
 
 
-- [[Leg Drag Control]] - Starting position for this escape
+- [[Positions/Leg Drag Control]] - Starting position for this escape
 
-- [[Open Guard]] - Primary target position upon successful escape
+- [[Positions/Open Guard]] - Primary target position upon successful escape
 
-- [[Half Guard]] - Alternative recovery when full guard escape fails
+- [[Positions/Half Guard]] - Alternative recovery when full guard escape fails
 
-- [[Technical Stand-up]] - Alternative escape from same position
+- [[Transitions/Technical Stand-up]] - Alternative escape from same position
 
-- [[Leg Drag Counter to Half Guard]] - Related defensive transition from same position
+- [[Transitions/Leg Drag Counter to Half Guard]] - Related defensive transition from same position
 
-- [[Granby Roll to Guard]] - Follow-up option when shrimp creates significant space
+- [[Transitions/Granby Roll to Guard]] - Follow-up option when shrimp creates significant space
 
-- [[De La Riva Guard]] - Guard to establish after successful escape
+- [[Positions/De La Riva Guard]] - Guard to establish after successful escape
 
-- [[Butterfly Guard]] - Alternative guard to establish after escape
+- [[Positions/Butterfly Guard]] - Alternative guard to establish after escape
 
-- [[Roll to Turtle]] - Alternative escape when shrimp escape fails
+- [[Transitions/Roll to Turtle]] - Alternative escape when shrimp escape fails
 
-- [[Inside Position Recovery]] - Related guard recovery technique
+- [[Transitions/Inside Position Recovery]] - Related guard recovery technique
 
-- [[Side Control]] - Position opponent may consolidate if escape is countered
+- [[Positions/Side Control]] - Position opponent may consolidate if escape is countered
 
 
 </section>

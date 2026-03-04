@@ -180,7 +180,7 @@ description: "Learn to execute the Shin-to-Shin to Single Leg X-Guard entry. Ste
 
 Executing the Shin-to-Shin to Single Leg X-Guard transition requires understanding the precise moment when your shin pressure creates enough weight commitment on the opponent's trapped leg to allow safe threading of your inside leg. The attacker must coordinate upper body grip control with lower body threading mechanics, maintaining constant pressure on the shin connection until the inside leg wrap secures the ankle. The transition is most effective when disguised within the flow of normal shin-to-shin guard activity, making it appear as a natural continuation of guard play rather than a telegraphed entry attempt. Mastering the timing, angle, and grip coordination transforms this from a forced entry into an opportunistic attack that capitalizes on the opponent's weight shifts and clearing reactions.
 
-**From Position**: [[Shin-to-Shin Guard]] (Bottom)
+**From Position**: [[Positions/Shin-to-Shin Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Shin-to-Shin to Single Leg X-Guard transition requires understandi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Single Leg X-Guard]] | 55% |
-| Failure | [[Shin-to-Shin Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/X-Guard/Single Leg X-Guard]] | 55% |
+| Failure | [[Positions/Shin-to-Shin Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Shin-to-Shin to Single Leg X-Guard transition requires understandi
 
 ## Opponent Counters
 
-- **Opponent clears shin connection before inside leg can thread by stepping back or circling away from the connection angle** (Effectiveness: High) - Your Response: Follow their retreat with hip movement to maintain connection range, or transition to a direct collar drag or ankle grip pull to prevent full disengagement and create an alternative entry angle → Leads to [[Shin-to-Shin Guard]]
-- **Opponent backsteps and changes angle to deny the threading path before the inside leg can wrap the ankle** (Effectiveness: High) - Your Response: Redirect to alternative entries such as X-Guard or De La Riva if the backstep exposes the far leg, or re-establish shin-to-shin from the new angle they have created → Leads to [[Open Guard]]
-- **Opponent drives forward with heavy pressure to flatten your guard structure before the entry sequence can develop** (Effectiveness: Medium) - Your Response: Use their forward momentum to accelerate the entry by allowing the pressure to push you underneath them, converting their drive into the hip positioning you need for SLX establishment → Leads to [[Shin-to-Shin Guard]]
-- **Opponent strips your upper body grips to eliminate the pulling anchor that maintains their weight commitment over the trapped leg** (Effectiveness: Medium) - Your Response: Immediately re-grip or switch to a direct ankle grip on the trapped leg to maintain connection, or accelerate the entry before the full grip break completes if threading has already begun → Leads to [[Shin-to-Shin Guard]]
+- **Opponent clears shin connection before inside leg can thread by stepping back or circling away from the connection angle** (Effectiveness: High) - Your Response: Follow their retreat with hip movement to maintain connection range, or transition to a direct collar drag or ankle grip pull to prevent full disengagement and create an alternative entry angle → Leads to [[Positions/Shin-to-Shin Guard]]
+- **Opponent backsteps and changes angle to deny the threading path before the inside leg can wrap the ankle** (Effectiveness: High) - Your Response: Redirect to alternative entries such as X-Guard or De La Riva if the backstep exposes the far leg, or re-establish shin-to-shin from the new angle they have created → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward with heavy pressure to flatten your guard structure before the entry sequence can develop** (Effectiveness: Medium) - Your Response: Use their forward momentum to accelerate the entry by allowing the pressure to push you underneath them, converting their drive into the hip positioning you need for SLX establishment → Leads to [[Positions/Shin-to-Shin Guard]]
+- **Opponent strips your upper body grips to eliminate the pulling anchor that maintains their weight commitment over the trapped leg** (Effectiveness: Medium) - Your Response: Immediately re-grip or switch to a direct ankle grip on the trapped leg to maintain connection, or accelerate the entry before the full grip break completes if threading has already begun → Leads to [[Positions/Shin-to-Shin Guard]]
 
 
 </section>

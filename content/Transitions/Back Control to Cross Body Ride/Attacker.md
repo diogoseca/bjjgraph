@@ -174,7 +174,7 @@ description: "Master executing the transition from back control to cross body ri
 
 As the attacker executing the Transition to Cross Body Ride, your objective is to convert a deteriorating back control position into dominant perpendicular control before the opponent can fully escape. This transition is initiated when the opponent's defensive actions compromise your hooks or parallel alignment but your upper body control through the harness grip remains intact. Rather than engaging in an energy-expensive fight to re-insert hooks, you redirect your control axis from parallel to perpendicular, landing in cross body ride where your chest pressure across the opponent's back creates a new and equally dominant control framework. The key insight is that this transition should feel like flowing with the opponent's escape energy rather than fighting against it, converting their defensive success into your positional advancement.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -224,9 +224,9 @@ As the attacker executing the Transition to Cross Body Ride, your objective is t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Cross Body Ride]] | 65% |
-| Failure | [[Back Control]] | 20% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Cross Body Ride]] | 65% |
+| Failure | [[Positions/Back Control]] | 20% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -235,10 +235,10 @@ As the attacker executing the Transition to Cross Body Ride, your objective is t
 
 ## Opponent Counters
 
-- **Opponent sits out explosively as you begin the lateral rotation, creating space to face you** (Effectiveness: High) - Your Response: Follow the sit-out direction with your chest, maintaining contact and driving them back to turtle. If they complete the sit-out, immediately re-engage with front headlock or guillotine control before they establish guard. → Leads to [[Turtle]]
-- **Opponent tucks arms tight and forward rolls during the transition to escape chest pressure** (Effectiveness: Medium) - Your Response: Maintain your harness grip and follow the roll, landing in cross body ride on the opposite side. Use their rolling momentum to accelerate your positional establishment rather than fighting against the direction. → Leads to [[Back Control]]
-- **Opponent frames against your near-side knee and hip escapes to recover half guard or butterfly guard** (Effectiveness: Medium) - Your Response: Drive heavy shoulder pressure to collapse their frames before they can fully extend. If they achieve a frame, switch to a leg weave or knee slice passing approach to maintain top pressure while addressing the guard recovery. → Leads to [[Turtle]]
-- **Opponent reaches back and strips the seatbelt grip during the rotational transition** (Effectiveness: High) - Your Response: Immediately re-establish a collar tie or front headlock grip before they can fully separate. The moment you feel the harness breaking, switch to head and arm control to maintain upper body dominance even if the original grip configuration is lost. → Leads to [[Turtle]]
+- **Opponent sits out explosively as you begin the lateral rotation, creating space to face you** (Effectiveness: High) - Your Response: Follow the sit-out direction with your chest, maintaining contact and driving them back to turtle. If they complete the sit-out, immediately re-engage with front headlock or guillotine control before they establish guard. → Leads to [[Positions/Turtle]]
+- **Opponent tucks arms tight and forward rolls during the transition to escape chest pressure** (Effectiveness: Medium) - Your Response: Maintain your harness grip and follow the roll, landing in cross body ride on the opposite side. Use their rolling momentum to accelerate your positional establishment rather than fighting against the direction. → Leads to [[Positions/Back Control]]
+- **Opponent frames against your near-side knee and hip escapes to recover half guard or butterfly guard** (Effectiveness: Medium) - Your Response: Drive heavy shoulder pressure to collapse their frames before they can fully extend. If they achieve a frame, switch to a leg weave or knee slice passing approach to maintain top pressure while addressing the guard recovery. → Leads to [[Positions/Turtle]]
+- **Opponent reaches back and strips the seatbelt grip during the rotational transition** (Effectiveness: High) - Your Response: Immediately re-establish a collar tie or front headlock grip before they can fully separate. The moment you feel the harness breaking, switch to head and arm control to maintain upper body dominance even if the original grip configuration is lost. → Leads to [[Positions/Turtle]]
 
 
 </section>

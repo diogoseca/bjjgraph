@@ -180,7 +180,7 @@ description: "Master the attacker's approach to transitioning from defended knee
 
 As the attacker executing Kneebar to Ashi Garami, your objective is to convert a defended kneebar into a more versatile attacking platform without surrendering leg control. The transition requires recognizing when kneebar finish probability drops below a viable threshold, typically when the opponent establishes strong bent-knee defense and begins working their escape sequence. At this moment, continuing to force the kneebar wastes energy and risks losing position entirely. Instead, you reconfigure your legs from the kneebar extension structure into inside ashi-garami hooks while your arms maintain continuous control over the opponent's lower leg. The key insight is that their kneebar defense often exposes the very angles needed for ashi-garami attacks. Your arms serve as the anchor throughout, the constant around which your legs reorganize into a new offensive configuration.
 
-**From Position**: [[Kneebar Control]] (Top)
+**From Position**: [[Positions/Kneebar Control]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing Kneebar to Ashi Garami, your objective is to convert a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 55% |
-| Failure | [[Kneebar Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 55% |
+| Failure | [[Positions/Kneebar Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing Kneebar to Ashi Garami, your objective is to convert a
 
 ## Opponent Counters
 
-- **Opponent straightens leg explosively during reconfiguration to extract from entanglement** (Effectiveness: High) - Your Response: Immediately clamp your legs tighter and follow their leg extension by scooting your hips forward. Their straightened leg actually creates a direct ankle lock opportunity, so transition your grip to attack the ankle rather than fighting their extraction. → Leads to [[Half Guard]]
-- **Opponent rotates hips toward you and drives forward to smash through the transition** (Effectiveness: Medium) - Your Response: Use their forward drive to pull their leg deeper into your control. Thread your inside leg faster across their hip, using their pressure as assistance. Their forward motion often loads more weight onto the trapped leg, making extraction harder. → Leads to [[Kneebar Control]]
-- **Opponent clasps both hands around their knee and curls into a tight defensive ball during the transition** (Effectiveness: Medium) - Your Response: Their static defense gives you time for a deliberate transition. Focus on precision rather than speed: methodically thread each leg into position while maintaining arm control. Their defensive posture prevents escape but their hands are occupied, leaving them unable to fight your leg reconfiguration. → Leads to [[Kneebar Control]]
-- **Opponent posts on hands and attempts to stand up as you release kneebar pressure** (Effectiveness: High) - Your Response: Follow their upward movement by maintaining arm control and immediately hooking your outside leg behind their knee to prevent full standing. If they achieve a partial stand, use their elevated position to enter single leg X-guard as an intermediate step before completing the ashi-garami transition. → Leads to [[Half Guard]]
+- **Opponent straightens leg explosively during reconfiguration to extract from entanglement** (Effectiveness: High) - Your Response: Immediately clamp your legs tighter and follow their leg extension by scooting your hips forward. Their straightened leg actually creates a direct ankle lock opportunity, so transition your grip to attack the ankle rather than fighting their extraction. → Leads to [[Positions/Half Guard]]
+- **Opponent rotates hips toward you and drives forward to smash through the transition** (Effectiveness: Medium) - Your Response: Use their forward drive to pull their leg deeper into your control. Thread your inside leg faster across their hip, using their pressure as assistance. Their forward motion often loads more weight onto the trapped leg, making extraction harder. → Leads to [[Positions/Kneebar Control]]
+- **Opponent clasps both hands around their knee and curls into a tight defensive ball during the transition** (Effectiveness: Medium) - Your Response: Their static defense gives you time for a deliberate transition. Focus on precision rather than speed: methodically thread each leg into position while maintaining arm control. Their defensive posture prevents escape but their hands are occupied, leaving them unable to fight your leg reconfiguration. → Leads to [[Positions/Kneebar Control]]
+- **Opponent posts on hands and attempts to stand up as you release kneebar pressure** (Effectiveness: High) - Your Response: Follow their upward movement by maintaining arm control and immediately hooking your outside leg behind their knee to prevent full standing. If they achieve a partial stand, use their elevated position to enter single leg X-guard as an intermediate step before completing the ashi-garami transition. → Leads to [[Positions/Half Guard]]
 
 
 </section>

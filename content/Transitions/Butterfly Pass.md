@@ -17,7 +17,7 @@ description: "Master the Butterfly Pass in BJJ. Complete guide to neutralizing b
 
 The Butterfly Pass is a fundamental guard passing technique designed to neutralize and overcome the butterfly guard's sweeping threats. This pass relies on superior base, weight distribution, and methodical pressure application to eliminate your opponent's hooks while advancing to a dominant position. The technique represents the essential answer to butterfly guard retention, combining defensive posture with offensive advancement. Understanding this pass is critical because butterfly guard is one of the most dynamic and threatening guard positions in modern BJJ. The passer must simultaneously defend against powerful sweeps while creating angles to pass. Success depends on recognizing when butterfly hooks are vulnerable, maintaining proper base through strategic weight shifting, and exploiting the opponent's reactions to secure dominant control. This pass serves as the foundation for all butterfly guard passing strategies.
 
-**From Position**: [[Butterfly Guard]] (Top)
+**From Position**: [[Positions/Butterfly Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -28,9 +28,9 @@ The Butterfly Pass is a fundamental guard passing technique designed to neutrali
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 58% |
-| Failure | [[Butterfly Guard]] | 27% |
-| Counter | [[Butterfly Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 58% |
+| Failure | [[Positions/Butterfly Guard]] | 27% |
+| Counter | [[Positions/Butterfly Guard]] | 15% |
 
 
 </section>
@@ -194,29 +194,29 @@ The Butterfly Pass serves as a fundamental component of any complete guard passi
 ## Related Techniques
 
 
-- [[Butterfly Guard]] - Primary position being passed
+- [[Positions/Butterfly Guard]] - Primary position being passed
 
-- [[Butterfly Hook Control]] - Specific control being neutralized
+- [[Positions/Butterfly Guard/Butterfly Hook Control]] - Specific control being neutralized
 
-- [[Double Under Pass]] - Alternative butterfly passing strategy
+- [[Transitions/Double Under Pass]] - Alternative butterfly passing strategy
 
-- [[Knee Slice Pass]] - Follow-up pass after hook removal
+- [[Transitions/Knee Slice Pass]] - Follow-up pass after hook removal
 
-- [[Side Control]] - Primary target position after pass completion
+- [[Positions/Side Control]] - Primary target position after pass completion
 
-- [[Deep Half Guard]] - Common counter transition by defender
+- [[Positions/Half Guard/Deep Half Guard]] - Common counter transition by defender
 
-- [[Butterfly Sweep]] - Primary attack being defended against
+- [[Transitions/Butterfly Sweep]] - Primary attack being defended against
 
-- [[Pressure Pass]] - Overarching strategic framework
+- [[Transitions/Pressure Pass]] - Overarching strategic framework
 
-- [[X-Guard]] - Alternative guard transition to prevent
+- [[Positions/X-Guard]] - Alternative guard transition to prevent
 
-- [[Half Butterfly]] - Related guard position variation
+- [[Positions/Butterfly Guard/Half Butterfly]] - Related guard position variation
 
-- [[Over-Under Pass]] - Complementary pressure passing technique
+- [[Transitions/Over-Under Pass]] - Complementary pressure passing technique
 
-- [[Smash Pass]] - Alternative aggressive passing approach
+- [[Transitions/Smash Pass]] - Alternative aggressive passing approach
 
 
 </section>

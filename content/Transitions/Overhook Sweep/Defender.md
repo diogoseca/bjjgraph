@@ -154,7 +154,7 @@ description: "How to defend against the Overhook Sweep in BJJ. Recognition cues,
 
 Defending the overhook sweep requires understanding both the mechanical prerequisites the bottom player needs and the windows where those prerequisites can be disrupted. As the top player in closed guard, your opponent's overhook attempt signals a specific attacking chain that you must neutralize systematically. The defense begins before the sweep is initiated - maintaining strong posture and avoiding extended arm positions prevents the overhook from being established in the first place. Once caught in the overhook, the defense shifts to extracting the trapped arm, re-establishing posture, and preventing the angle creation that makes the sweep mechanically viable. Successful defense requires proactive grip management, posture recovery discipline, and the ability to recognize the sweep setup early enough to respond before the bottom player has coordinated all the necessary elements.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the overhook sweep requires understanding both the mechanical prerequi
 ### 1. Extract trapped arm by circling elbow down and pulling arm back toward your hip while driving posture up
 
 - **When to use**: Immediately upon feeling the overhook secure, before the bottom player can establish the angle or opposite-side control
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Returns you to neutral closed guard top with posture, denying the sweep entirely and forcing the bottom player to restart their attack
 - **Risk**: If extraction is slow, opponent may use your movement to accelerate the angle creation or switch to a triangle attempt
 
 ### 2. Drive hips forward and flatten opponent's angle by centering weight directly over their hips, pinning them flat to the mat
 
 - **When to use**: When opponent has the overhook secured and is beginning to shift hips to create the angle but has not yet opened their guard
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Neutralizes the angle needed for the sweep and creates heavy pressure that forces the bottom player to abandon the sweep attempt
 - **Risk**: Driving forward with broken posture exposes you to triangle and armbar attacks if opponent releases the overhook and transitions
 
 ### 3. Stand up in base to break closed guard, using the standing position to strip the overhook through posture and gravity
 
 - **When to use**: When the overhook is deep and arm extraction from kneeling has failed, or when opponent is actively completing the angle and sweep is imminent
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Standing breaks the guard open and removes the leg leverage needed for the sweep, transitioning to open guard passing where the overhook loses effectiveness
 - **Risk**: Opponent may follow you up with the overhook maintained or switch to a different sweep timing as you transition through the standing motion
 
 ### 4. Post free hand firmly on the mat on the side opponent is sweeping toward, blocking the roll direction
 
 - **When to use**: As a last-resort defense when the sweep is already in motion and you feel yourself being rolled
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Stops the sweep mid-execution and returns to guard position where you can work to extract the overhook
 - **Risk**: Only delays the problem - opponent can switch sweep direction toward the flower sweep or attack the posted arm with a kimura
 
@@ -224,11 +224,11 @@ Defending the overhook sweep requires understanding both the mechanical prerequi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Extract the trapped arm early by circling your elbow down and pulling it back to your hip while driving your posture upright. Re-establish both hands on hips or biceps to control distance. This resets the position to neutral closed guard top where you can resume your guard opening approach.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Stand up in base to break the guard open, using the standing position to strip the overhook through posture extension and gravity. Once standing with guard broken, transition to open guard passing where the overhook control becomes largely ineffective without the closed guard legs to anchor the position.
 

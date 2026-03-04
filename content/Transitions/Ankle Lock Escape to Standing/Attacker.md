@@ -186,7 +186,7 @@ description: "Master executing the ankle lock escape to standing. Complete guide
 
 Executing the ankle lock escape to standing requires systematic coordination of grip breaking, hip rotation, and standing mechanics under the pressure of an active submission threat. The person caught in ankle lock control must address the attacker's grip security, leg positioning, and transition readiness simultaneously rather than sequentially. Prioritizing one control element while ignoring others creates openings the attacker will exploit to deepen control or advance to more dangerous entanglements. The escape follows a clear hierarchy: establish frames, break grip, rotate hip, extract knee, stand. Each step creates the conditions necessary for the next, building momentum toward complete disengagement from the leg attack chain.
 
-**From Position**: [[Straight Ankle Lock Control]] (Top)
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the ankle lock escape to standing requires systematic coordination of 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Straight Ankle Lock Control]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Straight Ankle Lock Control]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the ankle lock escape to standing requires systematic coordination of 
 
 ## Opponent Counters
 
-- **Opponent deepens Achilles grip and increases submission pressure during your grip break attempt** (Effectiveness: High) - Your Response: If pressure becomes dangerous, tap immediately rather than forcing the escape under high submission threat. If pressure is manageable, accelerate your grip break by combining the two-on-one peel with aggressive hip rotation to reduce leverage before the pressure reaches injury threshold. → Leads to [[Straight Ankle Lock Control]]
-- **Opponent completes leg triangle wrap around your trapped leg preventing hip rotation and knee retraction** (Effectiveness: High) - Your Response: Switch from standing escape to hip rotation defense or counter-entanglement strategy. Once the leg triangle is complete, standing becomes extremely low percentage. Use your free leg to address their bottom leg while working alternative escape sequences rather than forcing the stand. → Leads to [[Straight Ankle Lock Control]]
-- **Opponent uses your upward standing momentum to sweep or off-balance you, driving you to your back** (Effectiveness: Medium) - Your Response: Maintain your frame on their body throughout the standing phase and keep your center of gravity low. If you feel your balance compromised, post your free hand on the mat behind you and sit back to controlled open guard rather than falling uncontrolled into a worse position. → Leads to [[Open Guard]]
-- **Opponent threads inside leg deeper to establish inside ashi garami during your hip rotation** (Effectiveness: High) - Your Response: Immediately reverse your rotation direction and use your free leg to kick their penetrating leg clear before they complete the inside position. If they achieve inside ashi, the standing escape must be abandoned in favor of inside ashi specific defenses. → Leads to [[Straight Ankle Lock Control]]
+- **Opponent deepens Achilles grip and increases submission pressure during your grip break attempt** (Effectiveness: High) - Your Response: If pressure becomes dangerous, tap immediately rather than forcing the escape under high submission threat. If pressure is manageable, accelerate your grip break by combining the two-on-one peel with aggressive hip rotation to reduce leverage before the pressure reaches injury threshold. → Leads to [[Positions/Straight Ankle Lock Control]]
+- **Opponent completes leg triangle wrap around your trapped leg preventing hip rotation and knee retraction** (Effectiveness: High) - Your Response: Switch from standing escape to hip rotation defense or counter-entanglement strategy. Once the leg triangle is complete, standing becomes extremely low percentage. Use your free leg to address their bottom leg while working alternative escape sequences rather than forcing the stand. → Leads to [[Positions/Straight Ankle Lock Control]]
+- **Opponent uses your upward standing momentum to sweep or off-balance you, driving you to your back** (Effectiveness: Medium) - Your Response: Maintain your frame on their body throughout the standing phase and keep your center of gravity low. If you feel your balance compromised, post your free hand on the mat behind you and sit back to controlled open guard rather than falling uncontrolled into a worse position. → Leads to [[Positions/Open Guard]]
+- **Opponent threads inside leg deeper to establish inside ashi garami during your hip rotation** (Effectiveness: High) - Your Response: Immediately reverse your rotation direction and use your free leg to kick their penetrating leg clear before they complete the inside position. If they achieve inside ashi, the standing escape must be abandoned in favor of inside ashi specific defenses. → Leads to [[Positions/Straight Ankle Lock Control]]
 
 
 </section>

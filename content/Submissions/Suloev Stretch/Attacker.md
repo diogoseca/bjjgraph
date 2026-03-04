@@ -176,7 +176,7 @@ description: "How to execute Suloev Stretch in BJJ. Attacking perspective with s
 
 The Suloev Stretch is a sophisticated knee compression submission that combines elements of both joint manipulation and muscular pressure. Named after Russian MMA fighter Amar Suloev, this technique attacks the posterior knee joint while simultaneously compressing the calf muscle against the hamstring, creating a dual-threat submission that can finish fights rapidly when applied correctly. The position is typically entered from top positions where the attacker has controlled one of the opponent's legs, most commonly from half guard top, knee shield passes, or leg entanglement positions. Unlike traditional straight leg locks that attack the ankle or traditional knee bars that hyperextend the knee joint, the Suloev Stretch creates a bending compression force on the knee while the practitioner's body weight drives the opponent's heel toward their own buttocks. This creates an intense pressure that combines knee joint stress with severe calf muscle compression, often resulting in immediate taps from even experienced grapplers. The technique requires excellent positional control and precise body mechanics, as the finishing pressure comes from hip extension and proper angle creation rather than raw pulling force. Understanding the biomechanics of knee compression and maintaining control throughout the entry and finish are essential for safe and effective application of this powerful submission.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 
 
 </section>
@@ -231,8 +231,8 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 
 ## Opponent Defenses
 
-- **Opponent attempts to straighten the trapped leg by pushing against your leg configuration** (Effectiveness: Medium) - Your Response: Tighten your figure-four lock by squeezing your knees together and pulling your feet closer to your body. Use your upper body pressure to drive them flat and prevent them from generating the leverage needed to extend the leg. If needed, adjust your angle slightly to maintain the bent knee position. → Leads to [[Half Guard]]
-- **Opponent tries to turn into you to escape or counter with a leg entanglement** (Effectiveness: Medium) - Your Response: Establish strong crossface control or overhook their far arm to prevent rotation. Keep your chest pressure heavy on their upper body. If they begin turning, you can often transition to a modified position or release and pass to a more dominant position rather than forcing a compromised submission. → Leads to [[Half Guard]]
-- **Opponent bridges explosively to create space or disrupt your position** (Effectiveness: Low) - Your Response: Maintain tight hip positioning and ride the bridge by keeping your weight distributed properly. Your figure-four lock should remain secure throughout the bridge. As they lower back down, immediately re-establish your optimal position and continue the submission sequence. Their bridge actually can increase the pressure on their own leg if your lock is secure. → Leads to [[Half Guard]]
-- **Opponent attacks your exposed leg or attempts to enter leg entanglement** (Effectiveness: Low) - Your Response: Your top position and weight distribution should prevent effective leg attacks. Keep your exposed leg's knee tight to their body and maintain heavy chest pressure. If they begin establishing dangerous leg control, assess whether to finish quickly, transition positions, or release the submission to address the counter-attack. In training, communicate and reset rather than creating a dangerous scramble. → Leads to [[Half Guard]]
+- **Opponent attempts to straighten the trapped leg by pushing against your leg configuration** (Effectiveness: Medium) - Your Response: Tighten your figure-four lock by squeezing your knees together and pulling your feet closer to your body. Use your upper body pressure to drive them flat and prevent them from generating the leverage needed to extend the leg. If needed, adjust your angle slightly to maintain the bent knee position. → Leads to [[Positions/Half Guard]]
+- **Opponent tries to turn into you to escape or counter with a leg entanglement** (Effectiveness: Medium) - Your Response: Establish strong crossface control or overhook their far arm to prevent rotation. Keep your chest pressure heavy on their upper body. If they begin turning, you can often transition to a modified position or release and pass to a more dominant position rather than forcing a compromised submission. → Leads to [[Positions/Half Guard]]
+- **Opponent bridges explosively to create space or disrupt your position** (Effectiveness: Low) - Your Response: Maintain tight hip positioning and ride the bridge by keeping your weight distributed properly. Your figure-four lock should remain secure throughout the bridge. As they lower back down, immediately re-establish your optimal position and continue the submission sequence. Their bridge actually can increase the pressure on their own leg if your lock is secure. → Leads to [[Positions/Half Guard]]
+- **Opponent attacks your exposed leg or attempts to enter leg entanglement** (Effectiveness: Low) - Your Response: Your top position and weight distribution should prevent effective leg attacks. Keep your exposed leg's knee tight to their body and maintain heavy chest pressure. If they begin establishing dangerous leg control, assess whether to finish quickly, transition positions, or release the submission to address the counter-attack. In training, communicate and reset rather than creating a dangerous scramble. → Leads to [[Positions/Half Guard]]
 
 
 </section>

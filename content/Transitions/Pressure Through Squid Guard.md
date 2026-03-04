@@ -21,7 +21,7 @@ The technique addresses the unique challenge posed by Squid Guard's lapel contro
 
 Strategic timing is essential for this pass. The optimal window opens when the bottom player's lapel tension creates a directional pull that the top player can redirect into forward pressure. By aligning their weight behind the line of the lapel pull rather than fighting against it, the passer converts the guard player's own control mechanism into a compression vector that collapses the guard from inside out.
 
-**From Position**: [[Squid Guard]] (Top)
+**From Position**: [[Positions/Squid Guard]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategic timing is essential for this pass. The optimal window opens when the b
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Open Guard]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Open Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ Pressure Through Squid Guard occupies a critical role in the guard passing hiera
 ## Related Techniques
 
 
-- [[Squid Guard]] - Starting position where this technique is applied from top
+- [[Positions/Squid Guard]] - Starting position where this technique is applied from top
 
-- [[Half Guard]] - Primary success outcome after pressure breaks through guard structure
+- [[Positions/Half Guard]] - Primary success outcome after pressure breaks through guard structure
 
-- [[Open Guard]] - Failure outcome when bottom player retains guard and resets distance
+- [[Positions/Open Guard]] - Failure outcome when bottom player retains guard and resets distance
 
-- [[Pass Squid Guard]] - Complementary passing technique using grip stripping rather than pressure
+- [[Transitions/Pass Squid Guard]] - Complementary passing technique using grip stripping rather than pressure
 
-- [[De La Riva Guard]] - Related guard system sharing hook mechanics with Squid Guard
+- [[Positions/De La Riva Guard]] - Related guard system sharing hook mechanics with Squid Guard
 
-- [[Lapel Guard]] - Related lapel-based guard requiring similar pressure passing approaches
+- [[Positions/Lapel Guard]] - Related lapel-based guard requiring similar pressure passing approaches
 
-- [[Lasso Guard]] - Alternative lapel entanglement guard where pressure passing principles transfer
+- [[Positions/Lasso Guard]] - Alternative lapel entanglement guard where pressure passing principles transfer
 
-- [[Worm Guard]] - Similar advanced lapel guard system requiring analogous pressure responses
+- [[Positions/Worm Guard]] - Similar advanced lapel guard system requiring analogous pressure responses
 
-- [[Headquarters Position]] - Intermediate passing position often reached during pressure application
+- [[Positions/Headquarters Position]] - Intermediate passing position often reached during pressure application
 
-- [[Back Control]] - Risk position if pressure application exposes back during failed attempt
+- [[Positions/Back Control]] - Risk position if pressure application exposes back during failed attempt
 
 
 </section>

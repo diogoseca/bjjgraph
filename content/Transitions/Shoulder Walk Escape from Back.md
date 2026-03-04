@@ -21,7 +21,7 @@ The mechanical principle behind the shoulder walk is straightforward: each alter
 
 Strategically, the shoulder walk serves as both a primary escape and a chain-starting technique. Even partial success forces the back controller to choose between following your movement with their hips (opening space for other escapes) or locking a body triangle (changing the defensive problem). This decision-forcing quality makes the shoulder walk a valuable component of any systematic back escape protocol, whether used in isolation or combined with hip escapes, elbow escapes, and hand fighting sequences.
 
-**From Position**: [[Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the shoulder walk serves as both a primary escape and a chain-sta
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Back Control]] | 35% |
-| Counter | [[Body Triangle]] | 15% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Back Control]] | 35% |
+| Counter | [[Positions/Back Control/Body Triangle]] | 15% |
 
 
 </section>
@@ -193,29 +193,29 @@ The shoulder walk escape occupies a unique niche in the back escape hierarchy as
 ## Related Techniques
 
 
-- [[Back Control]] - Starting position from which this escape is executed when trapped under back control with hooks
+- [[Positions/Back Control]] - Starting position from which this escape is executed when trapped under back control with hooks
 
-- [[Side Control]] - Primary success outcome position reached after clearing hooks and turning to face opponent
+- [[Positions/Side Control]] - Primary success outcome position reached after clearing hooks and turning to face opponent
 
-- [[Body Triangle]] - Counter position opponent may lock when they feel hooks becoming shallow during shoulder walk
+- [[Positions/Back Control/Body Triangle]] - Counter position opponent may lock when they feel hooks becoming shallow during shoulder walk
 
-- [[Hip Escape from Back Control]] - Complementary escape technique that chains naturally when shoulder walk makes hooks shallow enough for hip escape
+- [[Transitions/Hip Escape from Back Control]] - Complementary escape technique that chains naturally when shoulder walk makes hooks shallow enough for hip escape
 
-- [[Elbow Escape from Back]] - Alternative escape using elbow frames that can be combined with shoulder walk movement
+- [[Transitions/Elbow Escape from Back]] - Alternative escape using elbow frames that can be combined with shoulder walk movement
 
-- [[Hand Fight to Turtle from Back]] - Related escape sequence that benefits from shoulder walk loosening opponent's upper body control
+- [[Transitions/Hand Fight to Turtle from Back]] - Related escape sequence that benefits from shoulder walk loosening opponent's upper body control
 
-- [[Scoot Hips to Guard from Back]] - Similar hip-movement escape concept using hip scooting rather than shoulder drives
+- [[Transitions/Scoot Hips to Guard from Back]] - Similar hip-movement escape concept using hip scooting rather than shoulder drives
 
-- [[Back Door Escape]] - Explosive escape system that contrasts with shoulder walk's grinding incremental approach
+- [[Transitions/Back Door Escape]] - Explosive escape system that contrasts with shoulder walk's grinding incremental approach
 
-- [[Turtle]] - Intermediate escape position reachable when shoulder walk partially frees hooks
+- [[Positions/Turtle]] - Intermediate escape position reachable when shoulder walk partially frees hooks
 
-- [[Body Triangle Escape to Half Guard]] - Follow-up escape needed when opponent transitions to body triangle during shoulder walk attempt
+- [[Transitions/Body Triangle Escape to Half Guard]] - Follow-up escape needed when opponent transitions to body triangle during shoulder walk attempt
 
-- [[Seat Belt Control Back]] - Upper body control configuration that must be managed during shoulder walk execution
+- [[Positions/Back Control/Seat Belt Control Back]] - Upper body control configuration that must be managed during shoulder walk execution
 
-- [[Restore Back Control]] - Opponent's primary response to re-center hooks and negate shoulder walk progress
+- [[Transitions/Restore Back Control]] - Opponent's primary response to re-center hooks and negate shoulder walk progress
 
 
 </section>

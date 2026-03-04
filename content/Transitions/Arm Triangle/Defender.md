@@ -158,7 +158,7 @@ The most critical defensive principle is prevention: keeping your elbows tight a
 
 Advanced defenders recognize that the Arm Triangle defense creates its own offensive opportunities. Framing against the attacker's hip during the dismount can create enough space to recover half guard. Turning aggressively into the attacker before the grip locks can expose their back. Even a partially successful defense that forces the attacker to abandon the choke leaves them in a compromised position where you can immediately counter-attack.
 
-**Opponent's Starting Position**: [[High Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/High Mount]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Advanced defenders recognize that the Arm Triangle defense creates its own offen
 ### 1. Extract trapped arm by rotating shoulder inward and pulling elbow to hip before grip connects
 
 - **When to use**: Early in the setup when the attacker is still driving the arm across your face but has not yet locked the figure-four grip. This is the highest-percentage defense window.
-- **Targets**: [[High Mount]]
+- **Targets**: [[Positions/Mount/High Mount]]
 - **If successful**: Eliminates the arm-in choke structure entirely, returning to standard High Mount bottom where you can resume normal mount escapes
 - **Risk**: If extraction fails after partial commitment, you may expose your neck further and accelerate the choke lock
 
 ### 2. Bridge explosively toward the trapped arm side during the attacker's dismount transition to side control
 
 - **When to use**: During the dismount when the attacker steps their leg over your body. Their base is temporarily compromised as they shift from mount to side control. This is a narrow but high-value window.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Destabilizes the attacker during transition, allowing you to recover half guard by inserting your knee during the scramble
 - **Risk**: If the bridge is weak or mistimed, the attacker settles into side control with the choke still locked and finishes from a stronger angle
 
 ### 3. Turn aggressively into the attacker and fight to come to knees before choke is fully locked
 
 - **When to use**: When the grip is partially connected but the choke is not yet tight. Turning into the attacker reduces the choking angle and can create a scramble opportunity before the squeeze is applied.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates a scramble where you can recover to turtle or half guard, or force the attacker to abandon the choke to maintain position
 - **Risk**: If you turn and the attacker follows, they may take your back while maintaining the choke grip, resulting in a worse position
 
 ### 4. Frame on attacker's hip with free hand and shrimp away to create space during dismount
 
 - **When to use**: When the attacker begins the dismount and you cannot extract the trapped arm. The frame prevents them from settling their weight and gives you space to insert your knee for half guard.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough distance to recover half guard by inserting your knee between your body and the attacker's hip
 - **Risk**: The framing arm becomes vulnerable to isolation if the attacker abandons the choke and attacks the arm instead
 
@@ -229,11 +229,11 @@ Advanced defenders recognize that the Arm Triangle defense creates its own offen
 
 ## Best-Case Outcomes for Defender
 
-### → [[High Mount]]
+### → [[Positions/Mount/High Mount]]
 
 Extract your trapped arm before the attacker connects their grip. Rotate your shoulder inward, pull your elbow tight to your hip, and push on the attacker's head with your free hand to create separation. Once the arm is free, immediately return to standard mount defense posture with elbows tight and hands protecting your neck.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the dismount transition by bridging explosively when the attacker steps their leg over. Time the bridge to coincide with the moment their weight shifts during the step-over, then immediately shrimp and insert your inside knee between your bodies. Frame on their hip with your free hand to prevent them from re-establishing mount or tightening the choke from side control.
 

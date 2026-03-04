@@ -176,7 +176,7 @@ The transition from Open Guard to Deep Half represents a strategic guard recover
 
 This transition emphasizes proper hip movement, head positioning, and timing to safely navigate underneath the opponent's base. The entry must be treated as the first half of a two-part sequence — the dive itself is incomplete without an immediate sweep follow-up. Modern practitioners have refined this entry to work against various passing styles, making it an essential component of comprehensive guard retention systems that function against diverse body types and passing philosophies.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -228,9 +228,9 @@ This transition emphasizes proper hip movement, head positioning, and timing to 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Deep Half Guard]] | 55% |
-| Failure | [[Open Guard]] | 25% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Half Guard/Deep Half Guard]] | 55% |
+| Failure | [[Positions/Open Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -239,10 +239,10 @@ This transition emphasizes proper hip movement, head positioning, and timing to 
 
 ## Opponent Counters
 
-- **Opponent sprawls back and establishes heavy crossface pressure before you complete the entry** (Effectiveness: High) - Your Response: Maintain head position outside the leg and use near arm to frame against their hip. Continue hip movement to complete entry before crossface is fully established. If crossface succeeds before you reach deep half, abort and transition to turtle recovery or reverse De La Riva guard rather than fighting from a compromised position. → Leads to [[Open Guard]]
-- **Opponent steps their near leg backward as you begin the dive underneath** (Effectiveness: Medium) - Your Response: Follow their leg movement with your dive, using your grips to prevent full disengagement. If they create too much distance, redirect to single leg X-guard by hooking their retreating leg with both feet, or sit up into seated guard to pursue a single leg takedown. → Leads to [[Open Guard]]
-- **Opponent drives their near knee toward the mat to block the entry pathway underneath** (Effectiveness: Medium) - Your Response: Use their downward knee commitment to transition to alternative guards. Their knee drop opens butterfly guard, reverse De La Riva, or X-guard entries. Redirect your hook and grips to the new guard variation rather than fighting to maintain the deep half entry angle. → Leads to [[Open Guard]]
-- **Opponent underhooks your far arm and begins to flatten you during the dive** (Effectiveness: High) - Your Response: If they underhook before you complete the entry, you are in danger of being flattened into a passing position. Immediately pummel your arm free by circling your elbow back and re-establishing inside control. If flattened, transition to half guard recovery frames before they consolidate side control. → Leads to [[Half Guard]]
+- **Opponent sprawls back and establishes heavy crossface pressure before you complete the entry** (Effectiveness: High) - Your Response: Maintain head position outside the leg and use near arm to frame against their hip. Continue hip movement to complete entry before crossface is fully established. If crossface succeeds before you reach deep half, abort and transition to turtle recovery or reverse De La Riva guard rather than fighting from a compromised position. → Leads to [[Positions/Open Guard]]
+- **Opponent steps their near leg backward as you begin the dive underneath** (Effectiveness: Medium) - Your Response: Follow their leg movement with your dive, using your grips to prevent full disengagement. If they create too much distance, redirect to single leg X-guard by hooking their retreating leg with both feet, or sit up into seated guard to pursue a single leg takedown. → Leads to [[Positions/Open Guard]]
+- **Opponent drives their near knee toward the mat to block the entry pathway underneath** (Effectiveness: Medium) - Your Response: Use their downward knee commitment to transition to alternative guards. Their knee drop opens butterfly guard, reverse De La Riva, or X-guard entries. Redirect your hook and grips to the new guard variation rather than fighting to maintain the deep half entry angle. → Leads to [[Positions/Open Guard]]
+- **Opponent underhooks your far arm and begins to flatten you during the dive** (Effectiveness: High) - Your Response: If they underhook before you complete the entry, you are in danger of being flattened into a passing position. Immediately pummel your arm free by circling your elbow back and re-establishing inside control. If flattened, transition to half guard recovery frames before they consolidate side control. → Leads to [[Positions/Half Guard]]
 
 
 </section>

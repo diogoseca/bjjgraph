@@ -146,7 +146,7 @@ description: "Defend against the Knee Torque Sweep from half guard top. Recognit
 
 Defending the Knee Torque Sweep requires early recognition of the bottom player's leg repositioning and immediate base adjustment to neutralize the rotational force on your trapped knee. As the defender in half guard top, you must identify the scissors-like leg configuration and underhook deepening that signal the sweep attempt, then implement specific defensive responses before full torque is applied. Your primary objectives are preventing the rotational force from compromising your base, maintaining heavy top pressure to limit the attacker's mechanical advantage, and either extracting your trapped leg or flattening the bottom player to eliminate their side angle leverage. Understanding the sweep's two-force-vector mechanics allows you to prioritize which force to neutralize first, giving you the critical seconds needed to implement effective defensive responses before the compound off-balance becomes irrecoverable.
 
-**Opponent's Starting Position**: [[Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Knee Torque Sweep requires early recognition of the bottom player'
 ### 1. Drive heavy crossface and flatten opponent to eliminate side angle
 
 - **When to use**: Early in the setup phase when you recognize the leg repositioning but before full torque is applied to your knee
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent loses the side angle required to generate rotational force and cannot produce enough torque to complete the sweep
 - **Risk**: If opponent already has a deep underhook, the crossface drive alone may be insufficient to flatten them and you waste energy fighting their structure
 
 ### 2. Post free hand wide and sprawl hips back to create structural base against sweep direction
 
 - **When to use**: When you feel rotational force beginning on your trapped knee and recognize the sweep is being initiated
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Wide post and hip sprawl neutralize the compound sweep forces, allowing you to maintain top position and begin working to extract the trapped leg
 - **Risk**: The posted arm may be vulnerable to kimura attack if the opponent recognizes the posting pattern and transitions their attack
 
 ### 3. Extract trapped leg by driving hip forward and swimming the knee free during gap in entanglement
 
 - **When to use**: When opponent loosens their leg grip during torque adjustment or when you have successfully neutralized the torque through crossface pressure
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You free your trapped leg and advance past opponent's guard to side control, completely nullifying the sweep and dramatically improving your position
 - **Risk**: Failed extraction attempt may leave you off-balance and more vulnerable to the sweep if the opponent maintains their entanglement
 
 ### 4. Switch hips and backstep to change the angle of your knee relative to the torque direction
 
 - **When to use**: When the opponent has established strong torque position and direct resistance through posting or crossface is insufficient to stop the sweep
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Hip switch changes the rotational axis of your knee relative to their legs, neutralizing the torque mechanism and creating a new passing angle
 - **Risk**: The backstep may expose your back momentarily if not executed with proper upper body control and posture maintenance
 
@@ -217,11 +217,11 @@ Defending the Knee Torque Sweep requires early recognition of the bottom player'
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Use the bottom player's commitment to the sweep to time a leg extraction and guard pass. When they loosen their legs to adjust the torque angle or when they bridge and create momentary space in the entanglement, drive your hip forward and swim your knee free to advance directly to side control.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Flatten the bottom player with heavy crossface pressure to eliminate their side angle while posting your free hand wide for structural base. Once the torque threat is neutralized, maintain dominant top pressure and systematically work to advance position through standard half guard passing sequences.
 

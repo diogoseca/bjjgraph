@@ -180,7 +180,7 @@ description: "Execute the collar drag from worm guard to achieve front headlock 
 
 As the attacker executing the collar drag from worm guard, your objective is to convert the structural control of your lapel wrap into a powerful forward pull that brings you from guard bottom to front headlock top. The key advantage you possess is the lapel immobilizing the opponent's lead leg, which removes their primary mechanism for resisting a forward pull. Your collar grip works in concert with the lapel tension to create two connected pulling forces that the opponent cannot defend against simultaneously. Success depends on precise timing, explosive hip engagement to sit up as the opponent is pulled down, and immediate consolidation of front headlock control before the opponent can recover posture. The technique rewards patience in the setup phase followed by decisive commitment during execution.
 
-**From Position**: [[Worm Guard]] (Bottom)
+**From Position**: [[Positions/Worm Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the collar drag from worm guard, your objective is to 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 55% |
-| Failure | [[Worm Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Front Headlock]] | 55% |
+| Failure | [[Positions/Worm Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the collar drag from worm guard, your objective is to 
 
 ## Opponent Counters
 
-- **Opponent postures up explosively and strips the collar grip before the drag is completed** (Effectiveness: High) - Your Response: If you feel the collar grip slipping, immediately switch to an arm drag on whatever arm the opponent uses to strip your grip. Their stripping motion exposes that arm for a drag to back exposure. → Leads to [[Worm Guard]]
-- **Opponent steps their free leg forward and drives weight down to prevent being pulled forward** (Effectiveness: Medium) - Your Response: Redirect the drag angle laterally rather than straight forward. The free leg base only resists linear forward pulls. An angled drag combined with hip movement can still off-balance them despite the wider base. → Leads to [[Worm Guard]]
-- **Opponent strips the lapel wrap during the collar drag attempt, removing leg immobilization** (Effectiveness: High) - Your Response: If the lapel is stripped mid-drag, you lose the primary advantage. Immediately transition to a standard collar drag or arm drag from open guard rather than trying to re-establish worm guard during the scramble. → Leads to [[Open Guard]]
-- **Opponent posts their hands on your chest or shoulders to frame and prevent you from sitting up** (Effectiveness: Medium) - Your Response: Use the collar grip to pull them forward into their own frames, collapsing the posting arm. Alternatively, angle your sit-up to the side of their posting arm rather than directly into it, coming around the frame. → Leads to [[Worm Guard]]
+- **Opponent postures up explosively and strips the collar grip before the drag is completed** (Effectiveness: High) - Your Response: If you feel the collar grip slipping, immediately switch to an arm drag on whatever arm the opponent uses to strip your grip. Their stripping motion exposes that arm for a drag to back exposure. → Leads to [[Positions/Worm Guard]]
+- **Opponent steps their free leg forward and drives weight down to prevent being pulled forward** (Effectiveness: Medium) - Your Response: Redirect the drag angle laterally rather than straight forward. The free leg base only resists linear forward pulls. An angled drag combined with hip movement can still off-balance them despite the wider base. → Leads to [[Positions/Worm Guard]]
+- **Opponent strips the lapel wrap during the collar drag attempt, removing leg immobilization** (Effectiveness: High) - Your Response: If the lapel is stripped mid-drag, you lose the primary advantage. Immediately transition to a standard collar drag or arm drag from open guard rather than trying to re-establish worm guard during the scramble. → Leads to [[Positions/Open Guard]]
+- **Opponent posts their hands on your chest or shoulders to frame and prevent you from sitting up** (Effectiveness: Medium) - Your Response: Use the collar grip to pull them forward into their own frames, collapsing the posting arm. Alternatively, angle your sit-up to the side of their posting arm rather than directly into it, coming around the frame. → Leads to [[Positions/Worm Guard]]
 
 
 </section>

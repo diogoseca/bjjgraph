@@ -146,7 +146,7 @@ description: "Master the defender perspective for maintaining side control conso
 
 Defending against escape attempts from consolidated side control requires maintaining heavy, distributed pressure while anticipating the bottom player's framing and hip escape sequences. The top player must recognize early escape indicators such as frame construction, breathing pattern changes, and hip repositioning, then adjust weight distribution to counter bridging and shrimping before these movements gain momentum. Successful defense transforms failed escape attempts into opportunities for position advancement or submission attacks, capitalizing on the energy expenditure and defensive exposure that escape attempts create. The key defensive principle is proactive pressure adjustment rather than reactive scrambling.
 
-**Opponent's Starting Position**: [[Side Control Consolidation]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control/Side Control Consolidation]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending against escape attempts from consolidated side control requires mainta
 ### 1. Drive crossface deeper and increase chest pressure to collapse far-side frame before bridge initiates
 
 - **When to use**: When opponent first establishes far-side frame before they initiate bridging movement
-- **Targets**: [[Side Control Consolidation]]
+- **Targets**: [[Positions/Side Control/Side Control Consolidation]]
 - **If successful**: Frame collapses and opponent returns to fully controlled bottom position, unable to generate escape mechanics
 - **Risk**: Over-committing forward pressure may create space behind you that opponent exploits for ghost escape
 
 ### 2. Step over to mount as opponent bridges and turns, using their escape motion to facilitate your transition
 
 - **When to use**: When opponent commits to bridge-and-shrimp sequence and turns onto their side, creating space for your leg to pass over their hip
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You advance to mount, converting their escape attempt into worse positioning for them
 - **Risk**: If opponent anticipates the mount transition, they insert knee for half guard before you complete the step-over
 
 ### 3. Sprawl hips back and transition to north-south as opponent hip escapes laterally
 
 - **When to use**: When opponent successfully creates lateral distance through hip escape but has not yet inserted knee for half guard
-- **Targets**: [[North-South]]
+- **Targets**: [[Positions/North-South]]
 - **If successful**: You maintain dominant control in north-south, negating their hip escape progress entirely
 - **Risk**: If you lose chest connection during transition, opponent may recover to turtle or open guard
 
 ### 4. Isolate far arm for kimura or americana when opponent extends arm past safe framing angle
 
 - **When to use**: When opponent's far-side arm extends past 90 degrees during frame construction, exposing the limb for submission attacks
-- **Targets**: [[Side Control Consolidation]]
+- **Targets**: [[Positions/Side Control/Side Control Consolidation]]
 - **If successful**: Opponent must abandon escape attempt to defend submission, returning to defensive survival posture
 - **Risk**: Submission pursuit may loosen overall consolidation, creating escape window if submission attempt fails
 
@@ -217,15 +217,15 @@ Defending against escape attempts from consolidated side control requires mainta
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Time your mount transition to the opponent's bridge or turning motion. As they bridge and turn onto their side, their hip elevation creates space for your leg to step over. Thread your leg over their hip before they can insert their knee, and immediately settle your weight to consolidate mount.
 
-### → [[North-South]]
+### → [[Positions/North-South]]
 
 When the opponent hip escapes laterally creating distance, follow their movement by walking your hips toward their head rather than chasing their hips. Transition to north-south by rotating your body perpendicular to theirs with your chest on their chest, negating the lateral distance they created.
 
-### → [[Side Control Consolidation]]
+### → [[Positions/Side Control/Side Control Consolidation]]
 
 Maintain consolidation by immediately addressing escape indicators before they develop. Collapse frames through pressure angle adjustments, prevent hip mobility through hip-to-hip connection, and use weight distribution shifts timed to opponent's exhalations to progressively tighten control.
 

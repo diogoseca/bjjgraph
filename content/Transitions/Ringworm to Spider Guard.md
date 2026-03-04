@@ -21,7 +21,7 @@ The technical core of this transition involves releasing the lapel grip while si
 
 Strategically, this transition sits within the broader lapel guard ecosystem as an exit ramp to conventional gi guard play. It makes the bottom player's guard game more unpredictable and harder to strategize against, forcing the top player to defend both lapel-based and sleeve-based attacks within the same exchange. Practitioners who develop this transition gain the ability to flow between guard systems based on what the opponent gives them, embodying the principle that the best guard is the one your opponent cannot predict.
 
-**From Position**: [[Ringworm Guard]] (Bottom)
+**From Position**: [[Positions/Ringworm Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition sits within the broader lapel guard ecosystem as 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Spider Guard]] | 55% |
-| Failure | [[Ringworm Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Spider Guard]] | 55% |
+| Failure | [[Positions/Ringworm Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -189,21 +189,21 @@ The Ringworm to Spider Guard transition serves as a critical bridge between the 
 ## Related Techniques
 
 
-- [[Spider Guard]] - Target position established after successful transition completion
+- [[Positions/Spider Guard]] - Target position established after successful transition completion
 
-- [[Lapel Guard]] - Parent guard family from which Ringworm Guard originates and this transition exits
+- [[Positions/Lapel Guard]] - Parent guard family from which Ringworm Guard originates and this transition exits
 
-- [[Open Guard]] - Counter outcome position where the top player ends up if they successfully counter the transition
+- [[Positions/Open Guard]] - Counter outcome position where the top player ends up if they successfully counter the transition
 
-- [[Lasso Guard]] - Alternative transition target that can be entered as an intermediate step during the grip conversion
+- [[Positions/Lasso Guard]] - Alternative transition target that can be entered as an intermediate step during the grip conversion
 
-- [[De La Riva Guard]] - Complementary open guard sharing angular attack principles that combines well with spider hooks
+- [[Positions/De La Riva Guard]] - Complementary open guard sharing angular attack principles that combines well with spider hooks
 
-- [[Collar Sleeve Guard]] - Related grip concept using similar sleeve control principles with different foot placement
+- [[Positions/Collar Sleeve Guard]] - Related grip concept using similar sleeve control principles with different foot placement
 
-- [[Double Sleeve Guard]] - Intermediate grip configuration established during the transition sequence before feet reach biceps
+- [[Positions/Double Sleeve Guard]] - Intermediate grip configuration established during the transition sequence before feet reach biceps
 
-- [[Butterfly Guard]] - Alternative open guard fallback if spider hooks cannot be established during the transition
+- [[Positions/Butterfly Guard]] - Alternative open guard fallback if spider hooks cannot be established during the transition
 
 
 </section>

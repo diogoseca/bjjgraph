@@ -205,21 +205,21 @@ Single Leg X-Guard Top represents the controlling position when facing an oppone
 
 ## Available Attacks
 
-### [[Headquarters Pass]] (14% of attempts)
+### [[Transitions/Headquarters Pass]] (14% of attempts)
 
-### [[Knee Slice Pass]] (13% of attempts)
+### [[Transitions/Knee Slice Pass]] (13% of attempts)
 
-### [[Leg Weave Pass]] (12% of attempts)
+### [[Transitions/Leg Weave Pass]] (12% of attempts)
 
-### [[Standing up in Base]] (27% of attempts)
+### [[Transitions/Standing up in Base]] (27% of attempts)
 
-### [[Smash Pass]] (10% of attempts)
+### [[Transitions/Smash Pass]] (10% of attempts)
 
-### [[Kneebar]] (10% of attempts)
+### [[Transitions/Kneebar]] (10% of attempts)
 
-### [[Backstep from Single Leg X]] (8% of attempts)
+### [[Transitions/Backstep from Single Leg X]] (8% of attempts)
 
-### [[Standing Escape from SLX]] (6% of attempts)
+### [[Transitions/Standing Escape from SLX]] (6% of attempts)
 
 
 
@@ -230,23 +230,23 @@ Single Leg X-Guard Top represents the controlling position when facing an oppone
 ## Decision Making from This Position
 
 **If opponent has strong bottom hook and is extending for sweep:**
-- Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Kneebar]]** → [[Kneebar Control]] (Probability: 35%)
+- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Kneebar]]** → [[Positions/Kneebar Control]] (Probability: 35%)
 
 
 **If opponent's bottom hook is weak or removed:**
-- Execute **[[Headquarters Pass]]** → [[Headquarters Position]] (Probability: 65%)
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Headquarters Pass]]** → [[Positions/Headquarters Position]] (Probability: 65%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent attempts to sit up or establish upper body control:**
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Standing up in Base]]** → [[Standing Position]] (Probability: 60%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 60%)
 
 
 **If opponent transitions to different leg configuration:**
-- Execute **[[Standing up in Base]]** → [[Standing Position]] (Probability: 70%)
-- Execute **[[Leg Weave Pass]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 70%)
+- Execute **[[Transitions/Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 
@@ -380,15 +380,15 @@ Flow through all major passing options from SLX Top: headquarters, knee slice, l
 
 ## Related Positions and Techniques
 
-- **[[Single Leg X-Guard]]** - Opposite perspective - understanding bottom mechanics improves top defense
-- **[[Headquarters Position]]** - Primary passing position reached after clearing bottom hook
-- **[[X-Guard]]** - Similar leg entanglement passing scenario with different hook configuration
-- **[[Ashi Garami]]** - Related leg entanglement top position with different control mechanics
-- **[[Leg Weave Pass]]** - Primary passing technique from this position
-- **[[Single Leg X Sweep]]** - Primary threat to defend against from bottom
-- **[[Kneebar]]** - Counter attack opportunity when opponent overextends
-- **[[Knee Slice Pass]]** - Common passing option after clearing hooks
-- **[[Combat Base]]** - Alternative posture option for dealing with leg entanglements
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Opposite perspective - understanding bottom mechanics improves top defense
+- **[[Positions/Headquarters Position]]** - Primary passing position reached after clearing bottom hook
+- **[[Positions/X-Guard]]** - Similar leg entanglement passing scenario with different hook configuration
+- **[[Positions/Ashi Garami]]** - Related leg entanglement top position with different control mechanics
+- **[[Transitions/Leg Weave Pass]]** - Primary passing technique from this position
+- **[[Transitions/Single Leg X Sweep]]** - Primary threat to defend against from bottom
+- **[[Transitions/Kneebar]]** - Counter attack opportunity when opponent overextends
+- **[[Transitions/Knee Slice Pass]]** - Common passing option after clearing hooks
+- **[[Positions/Combat Base]]** - Alternative posture option for dealing with leg entanglements
 
 
 </section>

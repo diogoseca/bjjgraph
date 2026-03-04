@@ -21,7 +21,7 @@ From a mechanical standpoint, this transition involves extracting one leg from t
 
 Strategically, this transition excels when opponents defend mounted crucifix chokes effectively by tucking their chin but leave their trapped arm extended. The S Mount opens armbar entries from a different angle while maintaining the control benefits of arm isolation. Advanced practitioners chain this transition with submission attempts, using the threat of one attack to facilitate the positional change.
 
-**From Position**: [[Mounted Crucifix]] (Top)
+**From Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition excels when opponents defend mounted crucifix cho
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[S Mount]] | 65% |
-| Failure | [[Mounted Crucifix]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount/S Mount]] | 65% |
+| Failure | [[Positions/Mount/Mounted Crucifix]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -187,27 +187,27 @@ The Mounted Crucifix to S Mount transition fits within the mount attack hierarch
 ## Related Techniques
 
 
-- [[Mounted Crucifix]] - Starting position - must be secure before attempting transition
+- [[Positions/Mount/Mounted Crucifix]] - Starting position - must be secure before attempting transition
 
-- [[S Mount]] - Target position providing armbar and triangle access
+- [[Positions/Mount/S Mount]] - Target position providing armbar and triangle access
 
-- [[Technical Mount]] - Alternative target position and intermediate checkpoint
+- [[Positions/Mount/Technical Mount]] - Alternative target position and intermediate checkpoint
 
-- [[Armbar from Mount]] - Follow-up submission from S Mount
+- [[Submissions/Armbar from Mount]] - Follow-up submission from S Mount
 
-- [[Gift Wrap Transition]] - Setup technique providing additional arm security during transition
+- [[Transitions/Gift Wrap Transition]] - Setup technique providing additional arm security during transition
 
-- [[High Mount Transition]] - Alternative transition from mounted crucifix
+- [[Transitions/High Mount Transition]] - Alternative transition from mounted crucifix
 
-- [[Choke from Crucifix]] - Alternative attack from starting position
+- [[Transitions/Choke from Crucifix]] - Alternative attack from starting position
 
-- [[Armbar from Crucifix]] - Alternative attack from starting position
+- [[Transitions/Armbar from Crucifix]] - Alternative attack from starting position
 
-- [[Back Take from Top]] - Alternative transition if opponent turns during movement
+- [[Transitions/Back Take from Top]] - Alternative transition if opponent turns during movement
 
-- [[Mount Control]] - Foundation skill for maintaining base during transition
+- [[Transitions/Mount Control]] - Foundation skill for maintaining base during transition
 
-- [[Mounted Triangle]] - Submission accessible from completed S Mount position
+- [[Positions/Mount/Mounted Triangle]] - Submission accessible from completed S Mount position
 
 
 </section>

@@ -216,31 +216,31 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 
 ## Available Escapes
 
-### [[Sickle Sweep]] (48% of attempts)
+### [[Transitions/Sickle Sweep]] (48% of attempts)
 
-### [[Triangle Setup]] (12% of attempts)
+### [[Transitions/Triangle Setup]] (12% of attempts)
 
-### [[Omoplata Sweep]] (8% of attempts)
+### [[Transitions/Omoplata Sweep]] (8% of attempts)
 
-### [[De La Riva Sweep]] (5% of attempts)
+### [[Transitions/De La Riva Sweep]] (5% of attempts)
 
-### [[Omoplata from Lasso]] (5% of attempts)
+### [[Transitions/Omoplata from Lasso]] (5% of attempts)
 
-### [[Hook Sweep]] (4% of attempts)
+### [[Transitions/Hook Sweep]] (4% of attempts)
 
-### [[Lasso Sweep]] (4% of attempts)
+### [[Transitions/Lasso Sweep]] (4% of attempts)
 
-### [[X-Guard Sweep]] (3% of attempts)
+### [[Transitions/X-Guard Sweep]] (3% of attempts)
 
-### [[Berimbolo Entry]] (3% of attempts)
+### [[Transitions/Berimbolo Entry]] (3% of attempts)
 
-### [[Lasso Guard to Inverted Lasso Guard]] (3% of attempts)
+### [[Transitions/Lasso Guard to Inverted Lasso Guard]] (3% of attempts)
 
-### [[Armbar Finish]] (2% of attempts)
+### [[Transitions/Armbar Finish]] (2% of attempts)
 
-### [[Kimura Sweep]] (2% of attempts)
+### [[Transitions/Kimura Sweep]] (2% of attempts)
 
-### [[Lasso Guard to Russian Leg Lasso]] (1% of attempts)
+### [[Transitions/Lasso Guard to Russian Leg Lasso]] (1% of attempts)
 
 
 
@@ -251,28 +251,28 @@ Training Lasso Guard Bottom develops several fundamental skills that transfer ac
 ## Decision Making from This Position
 
 **If opponent maintains upright posture and attempts to break the sleeve grip while staying at distance:**
-- Execute **[[Sickle Sweep]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Sickle Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
 
 
 **If opponent drives forward with pressure attempting to smash or stack the guard:**
-- Execute **[[Omoplata Sweep]]** → [[Omoplata Control]] (Probability: 50%)
-- Execute **[[Lasso Guard to Inverted Lasso Guard]]** → [[Inverted Lasso Guard]] (Probability: 45%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Lasso Guard to Inverted Lasso Guard]]** → [[Positions/Lasso Guard/Inverted Lasso Guard]] (Probability: 45%)
 
 
 **If opponent stands tall and attempts to disengage or pass from standing:**
-- Execute **[[De La Riva Sweep]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[X-Guard Sweep]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent successfully begins to free their arm from the lasso control:**
-- Execute **[[Hook Sweep]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 45%)
+- Execute **[[Transitions/Hook Sweep]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 45%)
 
 
 **If opponent circles around the lasso leg toward your non-lasso side:**
-- Execute **[[De La Riva Sweep]]** → [[De La Riva Guard]] (Probability: 60%)
-- Execute **[[Kimura Sweep]]** → [[Kimura Trap]] (Probability: 40%)
+- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/De La Riva Guard]] (Probability: 60%)
+- Execute **[[Transitions/Kimura Sweep]]** → [[Positions/Kimura Trap]] (Probability: 40%)
 
 
 
@@ -374,14 +374,14 @@ Partner actively works to counter the lasso using various methods: stepping over
 
 ## Related Positions and Techniques
 
-- **[[Spider Guard]]** - Parent position that shares sleeve control mechanics and often transitions directly to lasso by threading the leg
-- **[[De La Riva Guard]]** - Complementary guard position that can be combined with lasso on opposite side to create hybrid control systems
-- **[[Collar Sleeve Guard]]** - Common entry position that transitions to lasso by threading leg through controlled sleeve while maintaining collar grip
-- **[[Single Leg X-Guard]]** - Primary transition target when opponent stands to pass or disengage from lasso control
-- **[[Triangle Control]]** - Natural submission progression when opponent's posture breaks forward under lasso pressure
-- **[[Omoplata Control]]** - Direct submission entry when opponent drives forward attempting to smash or clear the lasso
-- **[[Inverted Lasso Guard]]** - Advanced variation that maintains lasso control while inverted, creating berimbolo and sweep opportunities
-- **[[Open Guard]]** - Fundamental parent category providing distance management principles essential for lasso effectiveness
+- **[[Positions/Spider Guard]]** - Parent position that shares sleeve control mechanics and often transitions directly to lasso by threading the leg
+- **[[Positions/De La Riva Guard]]** - Complementary guard position that can be combined with lasso on opposite side to create hybrid control systems
+- **[[Positions/Collar Sleeve Guard]]** - Common entry position that transitions to lasso by threading leg through controlled sleeve while maintaining collar grip
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Primary transition target when opponent stands to pass or disengage from lasso control
+- **[[Positions/Triangle Control]]** - Natural submission progression when opponent's posture breaks forward under lasso pressure
+- **[[Positions/Omoplata Control]]** - Direct submission entry when opponent drives forward attempting to smash or clear the lasso
+- **[[Positions/Lasso Guard/Inverted Lasso Guard]]** - Advanced variation that maintains lasso control while inverted, creating berimbolo and sweep opportunities
+- **[[Positions/Open Guard]]** - Fundamental parent category providing distance management principles essential for lasso effectiveness
 
 
 </section>

@@ -21,7 +21,7 @@ The technique works by converting the bottom player's offensive guard structure 
 
 Strategically, the leg drag from DLR occupies a critical position in passing sequences because it chains naturally with toreando passes, knee slices, and backsteps. When a toreando is blocked, the leg drag is a natural continuation in the opposite direction. When a knee slice is stuffed, redirecting into a leg drag catches the guard player during their defensive transition. This chain-ability within a broader passing system makes the leg drag far more dangerous than it would be as an isolated technique, and understanding its integration with complementary passes is essential for consistent guard passing success.
 
-**From Position**: [[De La Riva Guard]] (Top)
+**From Position**: [[Positions/De La Riva Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the leg drag from DLR occupies a critical position in passing seq
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Leg Drag Control]] | 55% |
-| Failure | [[De La Riva Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Leg Drag Control]] | 55% |
+| Failure | [[Positions/De La Riva Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The leg drag from DLR is a core component of any systematic guard passing game. 
 ## Related Techniques
 
 
-- [[De La Riva Guard]] - Source position where the technique is initiated from the top player's perspective
+- [[Positions/De La Riva Guard]] - Source position where the technique is initiated from the top player's perspective
 
-- [[Leg Drag Control]] - Primary target position achieved on successful completion of the leg drag pass
+- [[Positions/Leg Drag Control]] - Primary target position achieved on successful completion of the leg drag pass
 
-- [[Half Guard]] - Counter outcome position if the bottom player sweeps during the drag transition
+- [[Positions/Half Guard]] - Counter outcome position if the bottom player sweeps during the drag transition
 
-- [[Side Control]] - Common consolidation target after establishing leg drag control
+- [[Positions/Side Control]] - Common consolidation target after establishing leg drag control
 
-- [[Back Control]] - High-percentage follow-up when opponent turns away from leg drag pressure
+- [[Positions/Back Control]] - High-percentage follow-up when opponent turns away from leg drag pressure
 
-- [[Backstep from De La Riva]] - Alternative passing approach from the same starting position that can chain with leg drag
+- [[Transitions/Backstep from De La Riva]] - Alternative passing approach from the same starting position that can chain with leg drag
 
-- [[Knee Slice from DLR]] - Complementary passing technique that creates passing chains with the leg drag
+- [[Transitions/Knee Slice from DLR]] - Complementary passing technique that creates passing chains with the leg drag
 
-- [[Headquarters Position]] - Intermediate passing position reached when the leg drag partially succeeds
+- [[Positions/Headquarters Position]] - Intermediate passing position reached when the leg drag partially succeeds
 
-- [[Reverse De La Riva Guard]] - Guard the bottom player may transition to when defending the drag attempt
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Guard the bottom player may transition to when defending the drag attempt
 
-- [[Single Leg X-Guard]] - Counter-guard the bottom player may enter if the drag creates space underneath
+- [[Positions/X-Guard/Single Leg X-Guard]] - Counter-guard the bottom player may enter if the drag creates space underneath
 
 
 </section>

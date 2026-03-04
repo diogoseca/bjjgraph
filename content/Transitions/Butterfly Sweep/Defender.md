@@ -156,7 +156,7 @@ Defending the butterfly sweep from the top position requires understanding the m
 
 The defender's strategic framework centers on disrupting the sweep's prerequisites rather than reacting to a fully committed sweep attempt. Once the bottom player has broken your posture, established dominant grips, and loaded your weight onto their hooks, defending becomes exponentially more difficult. Instead, the defender should fight for inside position in the grip exchange, maintain proper hip positioning that distributes weight away from the hooks, and use active passing pressure that keeps the bottom player reactive rather than offensive. When sweep attempts do occur, the defender must recognize the initiation phase early and apply the correct counter based on the specific sweep variation being attempted, whether that means posting to stop the rotation, sprawling to remove weight from hooks, or driving forward to flatten the guard player's posture.
 
-**Opponent's Starting Position**: [[Butterfly Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The defender's strategic framework centers on disrupting the sweep's prerequisit
 ### 1. Post hand firmly on the mat on the sweep side, creating a tripod base that blocks the rotational path of the sweep
 
 - **When to use**: As soon as you feel the directional commitment of the sweep - the hook driving up on one side and grips pulling you laterally. Must be before full rotation begins.
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Sweep is stopped and you maintain top position in opponent's butterfly guard. Opponent must reset and attempt a different attack or redirect the sweep.
 - **Risk**: Posted arm becomes exposed to Kimura attack or armbar if opponent anticipates the post. Also, weight committed to posted hand can be exploited if opponent redirects sweep to opposite side.
 
 ### 2. Sprawl hips backward explosively while driving crossface pressure forward, removing your weight from the hooks entirely and flattening opponent's posture
 
 - **When to use**: When opponent breaks your posture and loads your weight forward but before they commit to a specific sweep direction. Most effective against opponents who rely heavily on forward weight loading.
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Opponent's hooks lose all elevation power as your weight moves behind them. You establish heavy top pressure with potential to pass immediately through the compromised guard structure.
 - **Risk**: If sprawl is late and opponent already has rotation, you may end up sprawling into the sweep. Excessive backward sprawl can disengage contact entirely, allowing opponent to recover full guard position.
 
 ### 3. Drive forward with heavy chest-to-chest pressure while swimming your arms inside to strip opponent's grips, flattening them to their back and neutralizing the upright posture they need
 
 - **When to use**: When opponent is attempting to sit up and establish grips but has not yet loaded your weight or committed to a sweep direction. Works as a preemptive defense before sweep components are assembled.
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Opponent is flattened on their back with reduced hook effectiveness and compromised grip position. Creates passing opportunities through smash pass or over-under configurations.
 - **Risk**: If opponent maintains strong hooks during your drive forward, your committed weight becomes the force they redirect into the sweep. Must combine with grip stripping to be effective.
 
 ### 4. Widen base by stepping one leg out laterally while maintaining low hip position, creating a wide tripod that is extremely difficult to topple in any single direction
 
 - **When to use**: When opponent has established grips and hooks but has not yet committed to a sweep direction. Effective as a neutral defensive posture that denies easy elevation on either side.
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Wide base prevents effective elevation sweep in any direction. Forces opponent to narrow their attack options or transition to different guard position, giving you time to initiate passing sequence.
 - **Risk**: Extended leg may become target for single leg X-Guard entry or De La Riva hook. Widened base can reduce mobility and slow your own passing attempts.
 
@@ -227,11 +227,11 @@ The defender's strategic framework centers on disrupting the sweep's prerequisit
 
 ## Best-Case Outcomes for Defender
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 Deny the sweep while maintaining top position by posting early on the sweep side, stripping opponent's dominant grips to prevent posture breaking, and keeping your hips back with weight distributed away from hooks. After stopping the sweep attempt, immediately initiate your own passing sequence before opponent can re-establish optimal guard structure.
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 Counter the sweep attempt aggressively by sprawling backward when you feel the loading phase, then immediately driving forward with chest pressure to flatten opponent's posture. Strip grips during the transition and establish dominant passing position with crossface or underhook control. This converts a defensive moment into an offensive passing opportunity as opponent's guard structure is compromised from their failed sweep attempt.
 

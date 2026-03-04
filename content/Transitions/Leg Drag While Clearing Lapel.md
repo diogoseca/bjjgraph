@@ -21,7 +21,7 @@ The fundamental insight is that the leg drag motion naturally creates the angle 
 
 Strategically, this technique excels against opponents who rely heavily on lapel guard systems. Rather than engaging in extended grip battles that favor the bottom player's energy efficiency, you convert directly to a passing position. The leg drag position achieved offers immediate submission threats including leg attacks and back exposure, making this a high-value transition that changes the entire complexion of the exchange.
 
-**From Position**: [[Lapel Guard]] (Top)
+**From Position**: [[Positions/Lapel Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this technique excels against opponents who rely heavily on lapel
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Leg Drag Control]] | 65% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Leg Drag Control]] | 65% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -189,27 +189,27 @@ The Leg Drag While Clearing Lapel functions as a critical bridge technique in th
 ## Related Techniques
 
 
-- [[Lapel Guard]] - Starting position where opponent has established lapel configuration
+- [[Positions/Lapel Guard]] - Starting position where opponent has established lapel configuration
 
-- [[Leg Drag Control]] - Primary success outcome providing dominant passing position
+- [[Positions/Leg Drag Control]] - Primary success outcome providing dominant passing position
 
-- [[Leg Drag Pass]] - Complementary technique for completing the pass from leg drag position
+- [[Transitions/Leg Drag Pass]] - Complementary technique for completing the pass from leg drag position
 
-- [[Knee Slice from Half]] - Alternative passing route if drag stalls at half guard
+- [[Transitions/Knee Slice from Half]] - Alternative passing route if drag stalls at half guard
 
-- [[Back Step Pass]] - Alternative approach to navigating lapel guard barriers
+- [[Transitions/Back Step Pass]] - Alternative approach to navigating lapel guard barriers
 
-- [[Half Guard]] - Common counter recovery position for the bottom player
+- [[Positions/Half Guard]] - Common counter recovery position for the bottom player
 
-- [[Worm Guard Entry]] - Common lapel configuration this technique addresses
+- [[Transitions/Worm Guard Entry]] - Common lapel configuration this technique addresses
 
-- [[Side Control]] - Follow-up consolidation position after completing the pass
+- [[Positions/Side Control]] - Follow-up consolidation position after completing the pass
 
-- [[Back Take from Top]] - Alternative finish if opponent turns away during the drag
+- [[Transitions/Back Take from Top]] - Alternative finish if opponent turns away during the drag
 
-- [[Backstep Around Worm Guard]] - Alternative lapel guard passing method using backstep mechanics
+- [[Transitions/Backstep Around Worm Guard]] - Alternative lapel guard passing method using backstep mechanics
 
-- [[Lapel Clear to Toreando Pass]] - Alternative pass combining lapel clearing with toreando
+- [[Transitions/Lapel Clear to Toreando Pass]] - Alternative pass combining lapel clearing with toreando
 
 
 </section>

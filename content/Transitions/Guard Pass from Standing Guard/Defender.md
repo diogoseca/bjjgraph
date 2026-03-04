@@ -146,7 +146,7 @@ description: "Complete defensive guide for preventing the standing guard pass in
 
 Defending against the standing guard pass requires early recognition of the passer's intentions and systematic guard retention that prevents them from establishing the bilateral leg control necessary to complete the pass. The defender operates from an open guard position facing a standing opponent who has broken their closed guard or achieved standing posture from the outset. The primary defensive strategy involves maintaining active connections to the passer's body through grips, hooks, and frames that prevent bilateral leg control and restrict their lateral movement. Successful defense creates opportunities to sweep, submit, or at minimum retain guard position and force the passer to expend energy resetting. The defender must prioritize grip fighting, hip mobility, and the creation of defensive angles that make the passer's chosen direction increasingly difficult to complete while threatening offensive consequences for overcommitment.
 
-**Opponent's Starting Position**: [[Standing Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Guard]] (Top)
 
 </section>
 
@@ -185,28 +185,28 @@ Defending against the standing guard pass requires early recognition of the pass
 ### 1. Re-establish grips and frames before pass commitment
 
 - **When to use**: As soon as you feel the passer breaking your grips or establishing bilateral leg control, before they create a passing angle
-- **Targets**: [[Standing Guard]]
+- **Targets**: [[Positions/Standing Guard]]
 - **If successful**: Passer loses their control setup and must restart the grip fighting and control establishment sequence
 - **Risk**: If executed too slowly, the passer completes their control setup and commits to the pass before defensive connections are re-established
 
 ### 2. Insert shin shield or knee frame during directional commitment
 
 - **When to use**: The moment the passer commits to a lateral direction with their first explosive step and weight shift
-- **Targets**: [[Standing Guard]]
+- **Targets**: [[Positions/Standing Guard]]
 - **If successful**: Shin shield creates an impassable barrier that forces the passer to change direction or abandon the pass attempt entirely
 - **Risk**: Poorly timed shin shield can be passed over or pinned down, potentially resulting in flattened half guard
 
 ### 3. Execute sweep during passer's forward commitment phase
 
 - **When to use**: When the passer's weight shifts forward and laterally during their passing commitment, compromising their base stability
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Passer's forward momentum is redirected into a positional reversal, achieving top position for the defender
 - **Risk**: Failed sweep attempt can leave you in a worse defensive position with the passer already past your guard structure
 
 ### 4. Hip escape and re-guard before consolidation
 
 - **When to use**: After the passer has cleared your legs but before they establish crossface and hip-to-hip control in side control
-- **Targets**: [[Standing Guard]]
+- **Targets**: [[Positions/Standing Guard]]
 - **If successful**: You re-insert your legs between your bodies and re-establish guard connection, negating the pass completely
 - **Risk**: Slow recovery allows the passer to establish side control pressure before you can re-insert defensive structures
 
@@ -218,11 +218,11 @@ Defending against the standing guard pass requires early recognition of the pass
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a sweep attempt to coincide with the passer's forward commitment during the pass. Hook their lead leg with your butterfly hook or ankle grip while using their forward momentum to off-balance them laterally. Guide them to the mat while securing top position. This counter-sweep reverses the positional hierarchy, putting the former passer on bottom.
 
-### → [[Standing Guard]]
+### → [[Positions/Standing Guard]]
 
 Prevent the pass from completing by maintaining active grip connections and inserting defensive frames before the passer can commit to a direction. Strip their grips as they attempt to establish bilateral leg control, use hip mobility to create angles that obstruct their passing lanes, and threaten sweeps to force defensive reactions. Retaining guard forces them to expend energy on repeated passing attempts.
 

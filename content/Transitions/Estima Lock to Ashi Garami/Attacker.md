@@ -178,7 +178,7 @@ This technique capitalizes on the leg control already established in the Estima 
 
 Strategically, this transition embodies the chain-attack philosophy central to effective leg lock systems. The Estima Lock threatens the ankle joint; when that fails, the ashi garami threatens the heel and knee. Opponents cannot defend both simultaneously, creating the positional dilemmas that lead to submission opportunities. Understanding when to abandon the Estima Lock finish in favor of transitional advancement separates effective leg lockers from those who stall in compromised positions.
 
-**From Position**: [[Estima Lock]] (Top)
+**From Position**: [[Positions/Estima Lock]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategically, this transition embodies the chain-attack philosophy central to e
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Ashi Garami]] | 65% |
-| Failure | [[Estima Lock]] | 25% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Ashi Garami]] | 65% |
+| Failure | [[Positions/Estima Lock]] | 25% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, this transition embodies the chain-attack philosophy central to e
 
 ## Opponent Counters
 
-- **Opponent immediately extracts leg during grip change by pulling knee to chest** (Effectiveness: High) - Your Response: Delay grip release until leg triangle is fully secured; if extraction begins, follow the leg with your hips and transition to single leg X-guard or pursue the leg drag pass → Leads to [[Open Guard]]
-- **Opponent sits up and establishes frames on your hips during transition** (Effectiveness: Medium) - Your Response: Use your free hand to push their chest back down while completing the leg thread; if they achieve strong posture, abandon transition and pursue top position through leg drag → Leads to [[Estima Lock]]
-- **Opponent rolls through the transition attempting back take or reversal** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining leg control, often ending in 50-50 guard or inside sankaku depending on roll direction; be prepared to address counter leg attacks → Leads to [[Open Guard]]
-- **Opponent bridges and creates space to recover guard before ashi garami consolidates** (Effectiveness: Low) - Your Response: Ride the bridge while keeping leg triangle tight; the bridge actually assists your hip positioning if you stay connected and follow their movement → Leads to [[Estima Lock]]
+- **Opponent immediately extracts leg during grip change by pulling knee to chest** (Effectiveness: High) - Your Response: Delay grip release until leg triangle is fully secured; if extraction begins, follow the leg with your hips and transition to single leg X-guard or pursue the leg drag pass → Leads to [[Positions/Open Guard]]
+- **Opponent sits up and establishes frames on your hips during transition** (Effectiveness: Medium) - Your Response: Use your free hand to push their chest back down while completing the leg thread; if they achieve strong posture, abandon transition and pursue top position through leg drag → Leads to [[Positions/Estima Lock]]
+- **Opponent rolls through the transition attempting back take or reversal** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining leg control, often ending in 50-50 guard or inside sankaku depending on roll direction; be prepared to address counter leg attacks → Leads to [[Positions/Open Guard]]
+- **Opponent bridges and creates space to recover guard before ashi garami consolidates** (Effectiveness: Low) - Your Response: Ride the bridge while keeping leg triangle tight; the bridge actually assists your hip positioning if you stay connected and follow their movement → Leads to [[Positions/Estima Lock]]
 
 
 </section>

@@ -210,27 +210,27 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 
 ## Available Attacks
 
-### [[Turtle to Back Control]] (51% of attempts)
+### [[Transitions/Turtle to Back Control]] (51% of attempts)
 
-### [[Crucifix from Turtle]] (17% of attempts)
+### [[Transitions/Crucifix from Turtle]] (17% of attempts)
 
-### [[Twister]] (3% of attempts)
+### [[Submissions/Twister]] (3% of attempts)
 
-### [[Turtle Flatten to Side Control]] (9% of attempts)
+### [[Transitions/Turtle Flatten to Side Control]] (9% of attempts)
 
-### [[Turtle to Truck]] (7% of attempts)
+### [[Transitions/Turtle to Truck]] (7% of attempts)
 
-### [[Crab Ride to Back]] (7% of attempts)
+### [[Transitions/Crab Ride to Back]] (7% of attempts)
 
-### [[Darce from Turtle]] (1% of attempts)
+### [[Transitions/Darce from Turtle]] (1% of attempts)
 
-### [[Cross Body to Back Control]] (1% of attempts)
+### [[Transitions/Cross Body to Back Control]] (1% of attempts)
 
-### [[Cross Body to Side Control]] (1% of attempts)
+### [[Transitions/Cross Body to Side Control]] (1% of attempts)
 
-### [[Twister Entry]] (1% of attempts)
+### [[Transitions/Twister Entry]] (1% of attempts)
 
-### [[Short Choke from Cross Body]] (2% of attempts)
+### [[Submissions/Short Choke from Cross Body]] (2% of attempts)
 
 
 
@@ -241,28 +241,28 @@ Modern approaches to the Cross Body Ride emphasize dynamic control rather than s
 ## Decision Making from This Position
 
 **If opponent stays static in turtle or attempts to hide arms close to body:**
-- Execute **[[Turtle to Back Control]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Crucifix from Turtle]]** → [[Crucifix]] (Probability: 60%)
+- Execute **[[Transitions/Turtle to Back Control]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 60%)
 
 
 **If opponent attempts forward roll, granby, or explosive rotation:**
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Crab Ride to Back]]** → [[Crab Ride]] (Probability: 55%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 55%)
 
 
 **If opponent extends near arm to post or defend neck:**
-- Execute **[[Crucifix from Turtle]]** → [[Crucifix]] (Probability: 70%)
-- Execute **[[Armbar from Back Transition]]** → [[Armbar Control]] (Probability: 50%)
+- Execute **[[Transitions/Crucifix from Turtle]]** → [[Positions/Crucifix]] (Probability: 70%)
+- Execute **[[Transitions/Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 **If opponent attempts to stand or elevate hips significantly:**
-- Execute **[[Crab Ride to Back]]** → [[Crab Ride]] (Probability: 65%)
-- Execute **[[Turtle to Back Control]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 65%)
+- Execute **[[Transitions/Turtle to Back Control]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent flattens completely to belly exposing back:**
-- Execute **[[Rear Naked Choke]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Bow and Arrow Choke]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Rear Naked Choke]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Bow and Arrow Choke]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 
@@ -396,17 +396,17 @@ Start from cross body ride, bottom player given full freedom to escape using any
 
 ## Related Positions and Techniques
 
-- **[[Turtle]]** - Opposing position - bottom player's perspective
-- **[[Back Control]]** - Primary transition target from cross body ride
-- **[[Crucifix]]** - Alternative high-control position transition
-- **[[Crab Ride]]** - Variation emphasizing hip control over shoulder control
-- **[[Harness]]** - Back control variation accessed from cross body ride
-- **[[Gift Wrap]]** - Arm control position leading to back exposure
-- **[[Turtle to Back Control]]** - Primary technique executed from this position
-- **[[Crucifix from Turtle]]** - Key offensive technique when opponent extends arm
-- **[[Rear Naked Choke]]** - Primary submission after successful back take
-- **[[Bow and Arrow Choke]]** - High-percentage submission from back control transition
-- **[[Seat Belt Control Back]]** - Control configuration after securing back position
+- **[[Positions/Turtle]]** - Opposing position - bottom player's perspective
+- **[[Positions/Back Control]]** - Primary transition target from cross body ride
+- **[[Positions/Crucifix]]** - Alternative high-control position transition
+- **[[Positions/Crab Ride]]** - Variation emphasizing hip control over shoulder control
+- **[[Positions/Harness]]** - Back control variation accessed from cross body ride
+- **[[Positions/Gift Wrap]]** - Arm control position leading to back exposure
+- **[[Transitions/Turtle to Back Control]]** - Primary technique executed from this position
+- **[[Transitions/Crucifix from Turtle]]** - Key offensive technique when opponent extends arm
+- **[[Transitions/Rear Naked Choke]]** - Primary submission after successful back take
+- **[[Transitions/Bow and Arrow Choke]]** - High-percentage submission from back control transition
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Control configuration after securing back position
 
 
 </section>

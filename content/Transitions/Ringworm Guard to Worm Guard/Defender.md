@@ -156,7 +156,7 @@ Defending the Ringworm Guard to Worm Guard transition requires the top player to
 
 The defender must understand that allowing the transition to complete puts them in a significantly worse position. Worm Guard provides deeper mechanical control, more powerful sweeps, and greater submission threats than Ringworm Guard. Defensive awareness and early intervention are far more effective than attempting to deal with an established Worm Guard after the fact. The top player should maintain constant pressure on the lapel grip and monitor for the telltale signs of an incoming transition attempt.
 
-**Opponent's Starting Position**: [[Ringworm Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ringworm Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ The defender must understand that allowing the transition to complete puts them 
 ### 1. Strip the lapel grip during the rethreading window by using both hands to peel the loosened lapel from around your leg
 
 - **When to use**: The moment you feel lapel tension decrease and the wrap begins loosening around your leg
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Lapel control is completely broken, reducing the position to neutral open guard where you can re-engage with standard passing
 - **Risk**: If you commit both hands to the lapel strip and fail, your upper body is briefly uncontrolled, allowing a possible sweep attempt
 
 ### 2. Drive forward with heavy shoulder pressure and flatten the bottom player to deny rethreading space
 
 - **When to use**: When you recognize the hip escape and angle creation that precede the transition attempt
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: Bottom player cannot create sufficient space under your leg for the deeper threading, forcing them to maintain the existing Ringworm configuration
 - **Risk**: Aggressive forward pressure can be converted into sweep momentum if the bottom player still has partial lapel control
 
 ### 3. Circle your trapped leg backward and away from the threading direction while maintaining base with your free leg
 
 - **When to use**: When you feel the lapel being fed under your leg in the new direction during the rethreading
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: The leg movement disrupts the threading path and prevents the lapel from completing the deeper Worm Guard weave
 - **Risk**: Excessive circling can compromise your base and create a different sweeping opportunity for the bottom player
 
 ### 4. Stand up explosively to create distance and shake the partial lapel configuration loose before Worm Guard is consolidated
 
 - **When to use**: When the transition is partially complete but the bottom player has not yet secured full Worm Guard tension
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Distance makes it difficult for the bottom player to complete the wrap around their shin, and gravity helps loosen the partially threaded lapel
 - **Risk**: Standing can actually create space that facilitates the transition if timed too late, and you expose yourself to ankle picks or technical standup sweeps
 
@@ -225,11 +225,11 @@ The defender must understand that allowing the transition to complete puts them 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip the lapel completely during the rethreading window when tension is momentarily reduced. Use both hands to peel the material away from your leg, then immediately establish passing grips on the bottom player's legs before they can re-extract and re-feed the lapel.
 
-### → [[Ringworm Guard]]
+### → [[Positions/Ringworm Guard]]
 
 Deny the space needed for rethreading by driving forward with heavy pressure or circling your trapped leg to disrupt the threading path. The bottom player is forced to abort and re-secure their existing Ringworm configuration, which is a less threatening position than Worm Guard.
 

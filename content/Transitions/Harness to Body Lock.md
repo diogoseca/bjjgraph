@@ -21,7 +21,7 @@ Strategically, this transition addresses a common defensive pathway where skille
 
 The critical window for this transition is narrow. As your opponent begins to stand and clear hooks, you must redirect your grip path downward toward their waist before they achieve full upright posture with defensive frames established. Hesitation results in grip separation and scramble. Executed properly, the opponent stands directly into your body lock and faces immediate takedown or mat return threats with no opportunity to establish defensive positioning.
 
-**From Position**: [[Harness]] (Top)
+**From Position**: [[Positions/Harness]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -32,10 +32,10 @@ The critical window for this transition is narrow. As your opponent begins to st
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Body Lock]] | 65% |
-| Failure | [[Harness]] | 20% |
-| Failure | [[Turtle]] | 10% |
-| Counter | [[Clinch]] | 5% |
+| Success | [[Positions/Body Lock]] | 65% |
+| Failure | [[Positions/Harness]] | 20% |
+| Failure | [[Positions/Turtle]] | 10% |
+| Counter | [[Positions/Clinch]] | 5% |
 
 
 </section>
@@ -196,29 +196,29 @@ The Transition to Body Lock occupies a critical junction in the back attack syst
 ## Related Techniques
 
 
-- [[Harness]] - Source position providing the initial seat belt grip and chest-to-back connection
+- [[Positions/Harness]] - Source position providing the initial seat belt grip and chest-to-back connection
 
-- [[Body Lock]] - Target position where locked grip shifts to waist control for standing attacks
+- [[Positions/Body Lock]] - Target position where locked grip shifts to waist control for standing attacks
 
-- [[Back Control]] - Parent position system that this transition preserves control within
+- [[Positions/Back Control]] - Parent position system that this transition preserves control within
 
-- [[Mat Return to Back Mount]] - Primary follow-up technique from successful body lock establishment
+- [[Transitions/Mat Return to Back Mount]] - Primary follow-up technique from successful body lock establishment
 
-- [[Body Lock Pass]] - Alternative follow-up when opponent sits to guard from body lock
+- [[Transitions/Body Lock Pass]] - Alternative follow-up when opponent sits to guard from body lock
 
-- [[Crab Ride]] - Intermediate control position used during some variants of this transition
+- [[Positions/Crab Ride]] - Intermediate control position used during some variants of this transition
 
-- [[Standing Back Control]] - Related standing back control position with similar mechanics
+- [[Positions/Back Control/Standing Back Control]] - Related standing back control position with similar mechanics
 
-- [[Back Take]] - Follow-up from body lock to re-establish full back control on the ground
+- [[Transitions/Back Take]] - Follow-up from body lock to re-establish full back control on the ground
 
-- [[Turtle]] - Position opponent may reach if transition timing is late
+- [[Positions/Turtle]] - Position opponent may reach if transition timing is late
 
-- [[Clinch]] - Counter outcome if opponent successfully breaks grip during transition
+- [[Positions/Clinch]] - Counter outcome if opponent successfully breaks grip during transition
 
-- [[Rolling Back Take]] - Alternative technique from harness when body lock transition is not available
+- [[Transitions/Rolling Back Take]] - Alternative technique from harness when body lock transition is not available
 
-- [[Rear Naked Choke]] - Submission threat from harness that makes opponent want to stand, triggering this transition
+- [[Transitions/Rear Naked Choke]] - Submission threat from harness that makes opponent want to stand, triggering this transition
 
 
 </section>

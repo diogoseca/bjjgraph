@@ -186,7 +186,7 @@ description: "Complete guide to passing the Russian Leg Lasso guard in BJJ. Syst
 
 Passing the Russian Leg Lasso from the attacker's perspective requires a disciplined, sequential approach to dismantling one of the most complex guard configurations in modern gi jiu-jitsu. The passer must resist the temptation to force through the guard or yank the trapped arm free, instead committing to a methodical grip-breaking progression that removes the guard's supporting structures before addressing the lasso itself. The attacker's primary strategic advantage is that they can choose when and how to engage each control point, dictating the pace of the exchange. Success depends on maintaining upright posture and a wide base throughout the grip-fighting phase, then transitioning immediately to forward pressure once the lasso is neutralized, leaving no gap for the guard player to re-establish controls.
 
-**From Position**: [[Russian Leg Lasso]] (Top)
+**From Position**: [[Positions/Lasso Guard/Russian Leg Lasso]] (Top)
 
 </section>
 
@@ -239,10 +239,10 @@ Passing the Russian Leg Lasso from the attacker's perspective requires a discipl
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Failure | [[Russian Leg Lasso]] | 30% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Side Control]] | 45% |
+| Failure | [[Positions/Lasso Guard/Russian Leg Lasso]] | 30% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -251,10 +251,10 @@ Passing the Russian Leg Lasso from the attacker's perspective requires a discipl
 
 ## Opponent Counters
 
-- **Guard player re-establishes collar grip immediately after it is broken, resetting the dismantling sequence** (Effectiveness: High) - Your Response: Immediately re-break the grip using a two-on-one strip before they can re-engage their sweep mechanics, or switch to a toreando-style pass that works around the collar control rather than requiring it be broken → Leads to [[Russian Leg Lasso]]
-- **Guard player uses non-lasso leg to create De La Riva hook or butterfly hook during the grip-breaking phase** (Effectiveness: Medium) - Your Response: Maintain your grip on their non-lasso leg throughout the grip-breaking sequence using constant downward pressure on their knee to prevent any hook establishment → Leads to [[Russian Leg Lasso]]
-- **Guard player initiates overhead or rotational sweep during the moment the passer commits both hands to a grip break** (Effectiveness: Medium) - Your Response: Immediately sprawl hips back and widen base when you feel rotational force, abandoning the grip break temporarily to prioritize base recovery before resuming the sequence → Leads to [[Mount]]
-- **Guard player inserts knee for half guard recovery as the passer drives through after clearing the lasso** (Effectiveness: Low) - Your Response: Anticipate the knee insertion by driving hip pressure through quickly during pass completion, or accept the half guard position and immediately chain into a knee slice pass → Leads to [[Half Guard]]
+- **Guard player re-establishes collar grip immediately after it is broken, resetting the dismantling sequence** (Effectiveness: High) - Your Response: Immediately re-break the grip using a two-on-one strip before they can re-engage their sweep mechanics, or switch to a toreando-style pass that works around the collar control rather than requiring it be broken → Leads to [[Positions/Lasso Guard/Russian Leg Lasso]]
+- **Guard player uses non-lasso leg to create De La Riva hook or butterfly hook during the grip-breaking phase** (Effectiveness: Medium) - Your Response: Maintain your grip on their non-lasso leg throughout the grip-breaking sequence using constant downward pressure on their knee to prevent any hook establishment → Leads to [[Positions/Lasso Guard/Russian Leg Lasso]]
+- **Guard player initiates overhead or rotational sweep during the moment the passer commits both hands to a grip break** (Effectiveness: Medium) - Your Response: Immediately sprawl hips back and widen base when you feel rotational force, abandoning the grip break temporarily to prioritize base recovery before resuming the sequence → Leads to [[Positions/Mount]]
+- **Guard player inserts knee for half guard recovery as the passer drives through after clearing the lasso** (Effectiveness: Low) - Your Response: Anticipate the knee insertion by driving hip pressure through quickly during pass completion, or accept the half guard position and immediately chain into a knee slice pass → Leads to [[Positions/Half Guard]]
 
 
 </section>

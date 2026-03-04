@@ -154,7 +154,7 @@ description: "Learn to defend and escape the Darce to Anaconda Switch in BJJ. Re
 
 Defending the Darce to Anaconda Switch requires recognizing the critical window of vulnerability that opens when the attacker releases one grip configuration before establishing another. The defender faces a brief but meaningful opportunity to escape as the attacker's control temporarily weakens during the re-threading process. Understanding the mechanical differences between the two choke systems helps the defender identify the moment of transition and exploit the gap in control. The primary defensive strategy centers on immediate action during the grip change, using the momentary reduction in pressure to extract the trapped arm, recover posture, or create the space needed to escape to a safer position. Defenders who remain passive during this window allow the attacker to establish the Anaconda grip cleanly, potentially facing a fresh choke from a new angle that their previous defensive posture was not configured to resist.
 
-**Opponent's Starting Position**: [[Darce Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Darce Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Darce to Anaconda Switch requires recognizing the critical window 
 ### 1. Explosive arm extraction during grip release - pull trapped arm free using hip escape and free hand assistance while the attacker's choking loop is momentarily open
 
 - **When to use**: The instant you feel the Darce grip release and before the Anaconda grip locks, when neither choke is fully established
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Escape the front headlock position entirely and recover to half guard, turtle, or open guard depending on scramble outcome
 - **Risk**: If the attacker maintains chest pressure and re-locks quickly, you may end up in a tighter Anaconda with less defensive structure than before
 
 ### 2. Frame on the re-threading arm - use your free hand to block the attacker's arm from completing the Anaconda path around your neck by posting on their bicep or forearm
 
 - **When to use**: When you feel the arm begin to re-thread along the new path but before the grip is locked on the far side
-- **Targets**: [[Darce Control]]
+- **Targets**: [[Positions/Darce Control]]
 - **If successful**: The switch fails and the attacker is forced back to Darce control or must abandon the choke entirely, giving you time to work established Darce escapes
 - **Risk**: Committing your free hand to blocking the arm may compromise your base if the attacker changes to a positional advance instead
 
 ### 3. Granby roll during the transition window - use the momentary pressure reduction to execute an explosive roll to guard recovery
 
 - **When to use**: When you feel significant pressure reduction during the grip transition and have enough hip mobility to initiate the roll
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recover to guard position and force the attacker to restart their offensive sequence from a neutral or disadvantageous position
 - **Risk**: A poorly timed granby roll can expose your back or tighten a partially locked Anaconda grip through the rolling momentum
 
 ### 4. Turn into the attacker and establish inside position - rotate your chest to face the attacker during the grip release to deny both Darce and Anaconda angles simultaneously
 
 - **When to use**: When the attacker lifts even slight chest pressure during the transition, creating enough space to rotate your torso
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Establish chest-to-chest contact which neutralizes both arm-in choke configurations and allows guard recovery
 - **Risk**: Turning too aggressively may expose your back if the attacker reads the movement and transitions to a back take instead
 
@@ -225,7 +225,7 @@ Defending the Darce to Anaconda Switch requires recognizing the critical window 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the grip transition window by extracting your trapped arm during the release phase, then immediately hip escape to recover guard before the attacker can re-establish any front headlock control. The key is acting within the first one to two seconds of feeling the grip change, as this window closes rapidly once the Anaconda is locked.
 

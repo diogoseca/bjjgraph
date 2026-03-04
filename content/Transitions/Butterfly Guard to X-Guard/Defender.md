@@ -156,7 +156,7 @@ Defending the Butterfly Guard to X-Guard transition requires the top player to r
 
 The defender's primary strategic objective is to deny the bottom player the forward post that triggers the entire transition. This means controlling distance, managing base width, and avoiding overcommitting to butterfly guard smash attempts that expose your legs to capture. When the entry is already in progress, the defender must act decisively by retracting the targeted leg, driving the knee to the mat, or establishing strong hip frames before hooks are secured. Understanding which defensive option to deploy depends on reading the timing of the attack: early recognition allows leg retraction, mid-transition requires smash defense, and late recognition necessitates immediate X-Guard escape protocols rather than prevention.
 
-**Opponent's Starting Position**: [[Butterfly Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ The defender's primary strategic objective is to deny the bottom player the forw
 ### 1. Retract the targeted leg immediately by stepping it back and pulling the knee out of hook range before X-Guard is established
 
 - **When to use**: Early in the transition when you feel the opponent begin to slide their hips toward one side and the inside hook is not yet deep behind your knee
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Opponent falls back to butterfly guard position without X-Guard hooks, and you can re-establish combat base with improved posture and grip position
 - **Risk**: If timed too late, the opponent follows your retreating leg with their hips and captures it anyway, potentially ending up in a worse scramble position
 
 ### 2. Drive your knee to the mat on the attacked side, smashing through the hook placement attempt and flattening the opponent's guard structure with heavy downward pressure
 
 - **When to use**: When the opponent has begun the hip slide but has not yet completed the X-Guard hook configuration, and you have sufficient forward pressure to flatten their position
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Opponent's X-Guard attempt is crushed by your downward pressure, resetting them to a flattened butterfly or half guard where you can begin passing sequences
 - **Risk**: If the opponent reads your knee drive, they can redirect underneath into deep half guard entry, using your own downward pressure against you
 
 ### 3. Post your hands firmly on the opponent's hips and create strong frames to prevent their hip slide from progressing underneath your base
 
 - **When to use**: When you recognize the hip slide initiation but the opponent still has grips controlling your upper body, using frames to create distance and deny space
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Opponent cannot complete the hip slide and must reset to butterfly guard. Your frames create distance that allows you to recover posture and begin passing
 - **Risk**: Posting hands on hips removes them from grip fighting, potentially exposing you to arm drags or underhook attacks if the opponent abandons the X-Guard entry
 
 ### 4. Backstep to the opposite side, circling away from the X-Guard entry direction while establishing cross-face pressure to flatten the opponent
 
 - **When to use**: When the opponent has committed their hips to one side for X-Guard entry and you recognize you cannot retract the targeted leg in time
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: You pass around the X-Guard attempt entirely, ending up in side control or a dominant passing position on the opposite side of the opponent's committed angle
 - **Risk**: If the opponent has already secured deep hooks, backstepping can expose your back or create scramble situations where the opponent transitions to alternative leg entanglements
 
@@ -228,11 +228,11 @@ The defender's primary strategic objective is to deny the bottom player the forw
 
 ## Best-Case Outcomes for Defender
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 Deny the X-Guard entry by retracting the targeted leg early, driving the knee to mat to smash the hook attempt, or framing on hips to prevent the hip slide. This resets the opponent to butterfly guard where you can restart your passing approach with better awareness of the transition threat.
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 Capitalize on the opponent's committed angle by backstepping around their X-Guard entry attempt or timing a pass during the moment they release one butterfly hook to begin the transition. Their commitment to the hip slide creates a brief window where their guard structure is compromised and a decisive pass can succeed.
 

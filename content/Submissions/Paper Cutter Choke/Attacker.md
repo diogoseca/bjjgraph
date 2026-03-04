@@ -176,7 +176,7 @@ description: "How to execute Paper Cutter Choke in BJJ. Attacking perspective wi
 
 The Paper Cutter Choke is a highly effective blood choke executed primarily from side control, though it can also be applied from various transitional positions including north-south and turtle. The technique derives its name from the cutting motion of the choking arm across the opponent's neck, similar to how paper is cut with a blade. This submission targets both carotid arteries simultaneously through a combination of the gi collar and the attacker's forearm, creating a powerful constriction that leads to rapid unconsciousness if not defended. The Paper Cutter Choke is particularly dangerous because it can be applied with relatively little warning and often catches opponents by surprise during position transitions. The technique is valued for its mechanical efficiency—once the grip is secured and the angle is correct, very little strength is required to finish. This makes it an excellent submission for practitioners of all sizes and is especially effective against larger, stronger opponents who might resist other collar chokes. The choke is frequently taught as part of side control attack sequences and integrates seamlessly with other submissions like the cross collar choke and arm triangle.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -232,8 +232,8 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -242,11 +242,11 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 ## Opponent Defenses
 
-- **Opponent frames against your neck with near arm to create space** (Effectiveness: High) - Your Response: Trap their framing arm by switching your underhook to an overhook, or use your weight to collapse the frame before they can extend it. Alternatively, transition to modified scarf hold where their arm is controlled differently. → Leads to [[Side Control]]
-- **Opponent turns their chin down and toward you to block collar access** (Effectiveness: High) - Your Response: Use your non-choking hand to pull their chin away and create opening for collar grip, or transition to a cross collar choke variation. Can also use shoulder pressure against their jaw to force head position. Be patient and wait for them to relax their defense. → Leads to [[Side Control]]
-- **Opponent bridges explosively to create space before you secure the angle** (Effectiveness: Medium) - Your Response: Base out wide with your legs to prevent being rolled, and use your hips to counter their bridge. If they create space, follow their movement and maintain chest pressure. Consider transitioning to north-south or mount if they bridge repeatedly. → Leads to [[Half Guard]]
-- **Opponent grabs your choking wrist with both hands and pulls it away from their neck** (Effectiveness: Medium) - Your Response: Your grip in their collar should be strong enough that they cannot break it. Use your body weight and angle rather than arm strength. If they gain leverage on your wrist, switch to an arm triangle by bringing your non-choking arm under their head and locking a figure-four. → Leads to [[Side Control]]
-- **Opponent shrimps away and creates distance before choke is secured** (Effectiveness: Low) - Your Response: Maintain heavy hip pressure and follow their shrimp movement. Keep your chest connected to theirs and don't allow space between your bodies. If they create significant distance, abandon the paper cutter and re-establish side control position before attacking again. → Leads to [[Half Guard]]
+- **Opponent frames against your neck with near arm to create space** (Effectiveness: High) - Your Response: Trap their framing arm by switching your underhook to an overhook, or use your weight to collapse the frame before they can extend it. Alternatively, transition to modified scarf hold where their arm is controlled differently. → Leads to [[Positions/Side Control]]
+- **Opponent turns their chin down and toward you to block collar access** (Effectiveness: High) - Your Response: Use your non-choking hand to pull their chin away and create opening for collar grip, or transition to a cross collar choke variation. Can also use shoulder pressure against their jaw to force head position. Be patient and wait for them to relax their defense. → Leads to [[Positions/Side Control]]
+- **Opponent bridges explosively to create space before you secure the angle** (Effectiveness: Medium) - Your Response: Base out wide with your legs to prevent being rolled, and use your hips to counter their bridge. If they create space, follow their movement and maintain chest pressure. Consider transitioning to north-south or mount if they bridge repeatedly. → Leads to [[Positions/Half Guard]]
+- **Opponent grabs your choking wrist with both hands and pulls it away from their neck** (Effectiveness: Medium) - Your Response: Your grip in their collar should be strong enough that they cannot break it. Use your body weight and angle rather than arm strength. If they gain leverage on your wrist, switch to an arm triangle by bringing your non-choking arm under their head and locking a figure-four. → Leads to [[Positions/Side Control]]
+- **Opponent shrimps away and creates distance before choke is secured** (Effectiveness: Low) - Your Response: Maintain heavy hip pressure and follow their shrimp movement. Keep your chest connected to theirs and don't allow space between your bodies. If they create significant distance, abandon the paper cutter and re-establish side control position before attacking again. → Leads to [[Positions/Half Guard]]
 
 
 </section>

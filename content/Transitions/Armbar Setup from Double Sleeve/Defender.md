@@ -154,7 +154,7 @@ description: "Defend against the armbar setup from double sleeve guard. Recognit
 
 The defender against the armbar setup from double sleeve guard is the top player who must recognize and neutralize the bottom player's attempt to isolate an arm and rotate into armbar control. Defense begins well before the actual pivot - the most effective defense is preventing the conditions necessary for the attack. The defender must maintain strong posture, prevent bilateral sleeve grips from establishing the pulling angles needed for arm isolation, and recognize the telltale foot-on-bicep placement that signals an imminent armbar attempt. When caught in the rotation, the defender must immediately address the most critical elements: retract the targeted arm, prevent the leg from sealing over the head, and drive forward to stack or create the angle needed to extract from the attacking position.
 
-**Opponent's Starting Position**: [[Double Sleeve Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ The defender against the armbar setup from double sleeve guard is the top player
 ### 1. Posture up and retract the targeted arm to your chest by driving your elbow back and down
 
 - **When to use**: At the first sign of arm isolation when the opponent begins pulling your sleeve diagonally across their body
-- **Targets**: [[Double Sleeve Guard]]
+- **Targets**: [[Positions/Double Sleeve Guard]]
 - **If successful**: The armbar setup is neutralized and you maintain top position in the opponent's double sleeve guard, ready to continue passing
 - **Risk**: If timed too late, the opponent may have enough control to complete the rotation despite your retraction attempt
 
 ### 2. Strip the sleeve grips using two-on-one grip breaks combined with hip rotation to free your arms
 
 - **When to use**: Before the opponent can establish the foot-on-bicep position that enables the armbar setup
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Breaking both grips removes all offensive capability from the double sleeve guard, allowing you to initiate passing sequences
 - **Risk**: Aggressive grip breaking can compromise your own posture if the opponent redirects your momentum
 
 ### 3. Drive forward and stack the opponent by walking your feet toward their head and applying chest pressure
 
 - **When to use**: When the opponent has already begun the hip pivot and is mid-rotation into the armbar position
-- **Targets**: [[Double Sleeve Guard]]
+- **Targets**: [[Positions/Double Sleeve Guard]]
 - **If successful**: Stacking compresses the opponent's body, removing the hip space needed for the armbar finish and collapsing them back to flat guard position
 - **Risk**: Forward pressure can feed into a triangle setup if the opponent transitions their attack during the stacking motion
 
 ### 4. Circle laterally away from the foot-on-bicep side to remove the rotational angle
 
 - **When to use**: When the opponent has placed their foot on your bicep but has not yet initiated the hip pivot
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Lateral movement removes the angle needed for the rotation and can dislodge the foot from your bicep, breaking the setup entirely
 - **Risk**: Circling too aggressively may expose you to sweeps from the opposite direction if the opponent maintains sleeve control
 
@@ -226,11 +226,11 @@ The defender against the armbar setup from double sleeve guard is the top player
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip both sleeve grips using systematic grip breaking while maintaining strong posture, then step back to disengage from the guard and reset to a more favorable passing position. Use the momentum of your grip breaks to initiate a passing sequence before the opponent can re-establish controls.
 
-### → [[Double Sleeve Guard]]
+### → [[Positions/Double Sleeve Guard]]
 
 Maintain strong posture and retract the targeted arm at the first sign of arm isolation. Keep your elbows tight to your body and resist the diagonal pull. If the opponent commits to the pivot, drive forward to stack and return to top position within their guard, resetting the engagement with positional advantage.
 

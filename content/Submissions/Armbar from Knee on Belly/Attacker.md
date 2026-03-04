@@ -176,7 +176,7 @@ description: "Master attacking the armbar from knee on belly. Step-by-step execu
 
 Attacking the armbar from knee on belly requires converting the opponent's natural push reaction into an immediate submission opportunity. The sequence begins with provoking or capitalizing on the bottom player's arm extension against your knee, then rapidly transitioning through wrist capture, leg swing, and hip elevation to finish the armbar. The attacker must maintain constant wrist control throughout the entire transition — losing grip during the leg swing is the most common reason this submission fails. Timing and commitment are essential: hesitation during the transition allows the defender to retract the arm or turn into you. The finish relies on precise hip positioning tight against the shoulder and controlled extension through hip elevation rather than pulling with the arms.
 
-**From Position**: [[Knee on Belly]] (Top)
+**From Position**: [[Positions/Knee on Belly]] (Top)
 
 
 </section>
@@ -229,8 +229,8 @@ Attacking the armbar from knee on belly requires converting the opponent's natur
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Knee on Belly]] | 30% |
-| Counter | [[Closed Guard]] | 25% |
+| Failure | [[Positions/Knee on Belly]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 25% |
 
 
 </section>
@@ -239,10 +239,10 @@ Attacking the armbar from knee on belly requires converting the opponent's natur
 
 ## Opponent Defenses
 
-- **Opponent clasps hands together forming a defensive grip to prevent arm extension** (Effectiveness: High) - Your Response: Attack the grip by prying with your near hand on their wrist while wedging your forearm under their clasped hands. Alternatively, switch to a belly-down armbar rotation by turning face-down, which dramatically increases breaking power against clasped hands. → Leads to [[Knee on Belly]]
-- **Opponent turns into you and sits up during the leg swing, preventing you from securing the armbar position** (Effectiveness: High) - Your Response: If they sit up early, abandon the armbar and transition back to knee on belly or side control. Use their forward momentum to set up a guillotine or arm triangle if they come forward aggressively. → Leads to [[Knee on Belly]]
-- **Opponent bridges and rolls toward you during the finishing phase to stack and create space for escape** (Effectiveness: Medium) - Your Response: Keep your near leg heavy across their torso to prevent the roll. If they begin turning, angle your body slightly away from the roll direction and tighten knee squeeze. If they complete the roll, transition to a belly-down armbar finish. → Leads to [[Closed Guard]]
-- **Opponent retracts arm quickly before wrist capture is secured and recovers guard position** (Effectiveness: Medium) - Your Response: If you lose the arm before committing to the leg swing, do not chase it. Return to knee on belly pressure and wait for the next push reaction. Attempting the armbar without wrist control leads to scrambles and guard recovery. → Leads to [[Closed Guard]]
+- **Opponent clasps hands together forming a defensive grip to prevent arm extension** (Effectiveness: High) - Your Response: Attack the grip by prying with your near hand on their wrist while wedging your forearm under their clasped hands. Alternatively, switch to a belly-down armbar rotation by turning face-down, which dramatically increases breaking power against clasped hands. → Leads to [[Positions/Knee on Belly]]
+- **Opponent turns into you and sits up during the leg swing, preventing you from securing the armbar position** (Effectiveness: High) - Your Response: If they sit up early, abandon the armbar and transition back to knee on belly or side control. Use their forward momentum to set up a guillotine or arm triangle if they come forward aggressively. → Leads to [[Positions/Knee on Belly]]
+- **Opponent bridges and rolls toward you during the finishing phase to stack and create space for escape** (Effectiveness: Medium) - Your Response: Keep your near leg heavy across their torso to prevent the roll. If they begin turning, angle your body slightly away from the roll direction and tighten knee squeeze. If they complete the roll, transition to a belly-down armbar finish. → Leads to [[Positions/Closed Guard]]
+- **Opponent retracts arm quickly before wrist capture is secured and recovers guard position** (Effectiveness: Medium) - Your Response: If you lose the arm before committing to the leg swing, do not chase it. Return to knee on belly pressure and wait for the next push reaction. Attempting the armbar without wrist control leads to scrambles and guard recovery. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

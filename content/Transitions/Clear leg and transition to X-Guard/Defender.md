@@ -158,7 +158,7 @@ The defensive strategy operates on two levels. First, prevention: maintaining ti
 
 Strategically, the defender should view any escape attempt as an opportunity rather than a crisis. When the bottom player commits to the leg clear, they momentarily relax their heel protection and redirect their defensive frames away from submission defense toward the extraction motion. This creates windows for submission attacks, particularly heel hooks and toe holds, that may not have been available when the bottom player was in full defensive posture. The best defense against the Clear Leg to X-Guard is often an aggressive offensive response that punishes the escape attempt before it can develop.
 
-**Opponent's Starting Position**: [[Leg Knot]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Knot]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Strategically, the defender should view any escape attempt as an opportunity rat
 ### 1. Drive forward and flatten opponent's hips to the mat, eliminating the side position required for the clearing rotation
 
 - **When to use**: When you detect early hip rotation or the bottom player shifting to side-lying position before the clearing motion has generated momentum
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: Bottom player is pinned flat with no rotational mechanics available, allowing you to re-establish tight entanglement and continue submission attacks
 - **Risk**: If bottom player has already inserted one hook, your forward drive loads their X-Guard structure and assists their sweep
 
 ### 2. Backstep and disengage the entangled leg, creating distance to prevent X-Guard hook establishment
 
 - **When to use**: When the trapped leg has partially cleared and you cannot prevent the extraction, but hooks have not yet been inserted
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: You create enough distance to reset to standing or combat base, preventing X-Guard establishment and potentially re-engaging from a neutral position
 - **Risk**: If you backstep too late, the bottom player follows with single leg X-Guard on the near leg or converts to a technical standup
 
 ### 3. Re-attack the clearing leg with a fresh entanglement toward Saddle during the extraction window
 
 - **When to use**: When the bottom player commits to the clearing motion and temporarily reduces heel protection to power the extraction
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: You catch the leg during its most vulnerable moment and advance to a stronger entanglement position with improved submission access
 - **Risk**: If the re-attack fails, you have committed forward and the bottom player may establish X-Guard hooks against your advanced position
 
 ### 4. Attack heel hook or toe hold aggressively as bottom player redirects defensive frames toward escape
 
 - **When to use**: Immediately upon recognizing the two-on-one ankle grip and hip rotation—the escape attempt creates a brief submission window
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: The submission threat forces the bottom player to abandon the escape attempt and return to full defensive posture
 - **Risk**: If the submission attempt fails, you may have loosened your own entanglement control during the attack, giving the bottom player a better clearing window
 
@@ -229,11 +229,11 @@ Strategically, the defender should view any escape attempt as an opportunity rat
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Knot]]
+### → [[Positions/Leg Knot]]
 
 Maintain tight entanglement pressure by controlling the bottom player's free leg and driving forward to flatten their hips whenever you detect hip rotation. Strip the two-on-one ankle grip early and keep submission pressure active to discourage escape attempts.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 When the bottom player commits to the clearing motion and temporarily relaxes heel protection, use the opening to advance your entanglement by threading your legs into a Saddle configuration. The clearing motion often creates the space needed for you to cross your legs and achieve the superior entanglement before they can complete the extraction.
 

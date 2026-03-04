@@ -21,7 +21,7 @@ Strategically, this transition becomes essential when your Reverse X-Guard sweep
 
 The transition requires precise timing and coordinated hook movement to prevent the opponent from capitalizing on the brief moment of reduced control. Advanced practitioners use this transition fluidly as part of a continuous threat cycle, forcing opponents to defend multiple angles simultaneously. The key is maintaining constant connection with at least one hook throughout the reconfiguration while your grips keep the opponent's posture compromised.
 
-**From Position**: [[Reverse X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The transition requires precise timing and coordinated hook movement to prevent 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[X-Guard]] | 58% |
-| Failure | [[Reverse X-Guard]] | 27% |
-| Counter | [[Headquarters Position]] | 15% |
+| Success | [[Positions/X-Guard]] | 58% |
+| Failure | [[Positions/X-Guard/Reverse X-Guard]] | 27% |
+| Counter | [[Positions/Headquarters Position]] | 15% |
 
 
 </section>
@@ -193,23 +193,23 @@ The Reverse X-Guard to Standard X-Guard transition is a critical link in the mod
 ## Related Techniques
 
 
-- [[Reverse X-Guard]] - Starting position for this transition
+- [[Positions/X-Guard/Reverse X-Guard]] - Starting position for this transition
 
-- [[X-Guard]] - Target position after successful hook reconfiguration
+- [[Positions/X-Guard]] - Target position after successful hook reconfiguration
 
-- [[Single Leg X-Guard]] - Alternative transition when opponent backsteps during reconfiguration
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative transition when opponent backsteps during reconfiguration
 
-- [[Deep Half Guard]] - Bail-out position when opponent smashes during transition
+- [[Positions/Half Guard/Deep Half Guard]] - Bail-out position when opponent smashes during transition
 
-- [[Reverse X-Guard Sweep]] - Attack from starting position that sets up transition when defended
+- [[Transitions/Reverse X-Guard Sweep]] - Attack from starting position that sets up transition when defended
 
-- [[Ashi Garami]] - Leg entanglement transition option from either X-Guard variation
+- [[Positions/Ashi Garami]] - Leg entanglement transition option from either X-Guard variation
 
-- [[Butterfly Guard]] - Related elevation-based guard with similar hook mechanics
+- [[Positions/Butterfly Guard]] - Related elevation-based guard with similar hook mechanics
 
-- [[De La Riva Guard]] - Common entry path to both X-Guard variations
+- [[Positions/De La Riva Guard]] - Common entry path to both X-Guard variations
 
-- [[Headquarters Position]] - Opponent's target position if counter is successful
+- [[Positions/Headquarters Position]] - Opponent's target position if counter is successful
 
 
 </section>

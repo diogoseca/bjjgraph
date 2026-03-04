@@ -156,7 +156,7 @@ description: "Master defensive strategies against the Standing RNC from Rear Cli
 
 Defending the Standing RNC from Rear Clinch demands immediate recognition of the choking arm's transition from seatbelt to neck attack and rapid deployment of defensive hand fighting. The defender faces the unique challenge of protecting their neck while maintaining enough base to prevent being dragged backward or collapsed to the ground in a worse position. Priority one is always preventing the figure-four lock from completing—once locked, escape becomes exponentially harder. The standing position offers defensive advantages through hip movement and direction changes that are unavailable on the ground, but these require technical precision rather than panic-driven explosiveness. A systematic approach that addresses the most immediate threats first—neck protection, then grip control, then positional escape—produces dramatically better outcomes than frantic scrambling.
 
-**Opponent's Starting Position**: [[Standing Rear Clinch]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Rear Clinch]] (Top)
 
 
 </section>
@@ -196,28 +196,28 @@ Defending the Standing RNC from Rear Clinch demands immediate recognition of the
 ### 1. Two-on-one grip strip on choking arm wrist
 
 - **When to use**: When opponent's choking arm begins transitioning toward your neck but has not yet locked the figure-four, giving you access to their wrist
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: Strips the choking threat and returns to standing rear clinch control situation where you can work positional escapes
 - **Risk**: Commits both hands to one arm, leaving you unable to defend against takedowns or other attacks simultaneously
 
 ### 2. Chin tuck with shoulder raise to block forearm entry
 
 - **When to use**: As soon as you feel the choking arm begin to move toward your neck, as a first-line passive defense while preparing active grip fighting
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: Creates a physical barrier preventing the forearm from seating under the chin, buying time for grip fighting or escape attempts
 - **Risk**: Temporary defense only—skilled attackers will work around the chin tuck using head pressure, jaw manipulation, or walking you backward
 
 ### 3. Hip escape with explosive turn to face opponent
 
 - **When to use**: When opponent's control is loose or their hooks are not secured, creating a window to rotate your hips and shoulders to recover facing position
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: Recovers facing position and transitions to clinch where back exposure is eliminated and offensive options become available
 - **Risk**: If rotation is incomplete, opponent can tighten grips during the turn and establish deeper control or transition to a different choke angle
 
 ### 4. Controlled drop to turtle with chin protection
 
 - **When to use**: When standing defense is failing and the choke is partially locked, changing the angle and accessing ground-based defensive tools with better leverage
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: Changes the choke angle and body dynamics, often loosening the figure-four during the transition and providing mat-based leverage for grip fighting
 - **Risk**: Opponent may follow to ground and consolidate grounded back control with hooks, trading the standing choke threat for a more stable controlling position
 
@@ -240,11 +240,11 @@ Defending the Standing RNC from Rear Clinch demands immediate recognition of the
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Strip both controlling grips completely through persistent hand fighting, create sufficient separation through hip movement and directional changes, and recover to neutral standing position facing the opponent
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Execute successful hip escape and shoulder rotation to face the opponent while breaking their seatbelt grip, transitioning from back exposure to a neutral clinch position where both practitioners face each other
 

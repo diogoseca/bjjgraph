@@ -146,7 +146,7 @@ description: "Defend against the Smash Pass from X-Guard. Learn to recognize pre
 
 The defender against the Smash Pass from X-Guard is the bottom player who must recognize the incoming pressure pass and respond with appropriate defensive actions to either maintain X-Guard structure, transition to an alternative guard, or capitalize on the passer's weight commitment to execute a counter-sweep. Defending the smash pass requires understanding that the attacker is deliberately abandoning mobility in favor of crushing pressure, which creates opportunities for the bottom player to redirect that committed weight into sweeps. The defender's primary tools are hook depth maintenance, frame creation against the incoming pressure, and the ability to transition to alternative guard positions when the X-Guard structure begins to collapse under smash pressure.
 
-**Opponent's Starting Position**: [[X-Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/X-Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ The defender against the Smash Pass from X-Guard is the bottom player who must r
 ### 1. Maintain deep hooks and elevate for counter-sweep
 
 - **When to use**: Early in the smash pass attempt, before the passer has fully lowered their center of gravity below your hook line
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: The passer's committed forward weight is redirected into a sweep, landing you in top position with the passer in half guard bottom
 - **Risk**: If the passer's base is too wide or their timing is superior, the sweep attempt fails and the committed weight accelerates the guard collapse
 
 ### 2. Frame against shoulders and hip escape to re-angle guard
 
 - **When to use**: When the passer has begun driving forward but has not yet fully flattened your inside hook
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: You create enough space to re-establish your hook depth and angular control, resetting the X-Guard structure with improved positioning
 - **Risk**: If frames are stripped by the passer's crossface pressure, you lose the ability to create space and the smash pass accelerates
 
 ### 3. Transition to Single Leg X-Guard by retracting outside leg and converting grip to ankle control
 
 - **When to use**: When the inside hook begins to weaken under smash pressure and maintaining full X-Guard is no longer viable
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: You convert to Single Leg X-Guard which offers different sweeping angles less vulnerable to direct downward pressure, maintaining offensive guard position
 - **Risk**: The transition requires momentary hook adjustment that the passer may exploit to accelerate through the weakened guard structure
 
 ### 4. Release hooks and recover to butterfly guard with hip escape
 
 - **When to use**: When the smash pass has progressed past the point where X-Guard can be maintained and hooks are being systematically destroyed
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: You avoid being passed by recovering to a sustainable guard position from which you can re-enter X-Guard or threaten alternative attacks
 - **Risk**: The passer may follow your hip movement with continued forward pressure, preventing butterfly guard establishment and completing the pass
 
@@ -217,11 +217,11 @@ The defender against the Smash Pass from X-Guard is the bottom player who must r
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive hip elevation during the passer's weight commitment phase when their base is narrowest. Drive your inside hook upward while extending your outside leg across their hip to create rotational force. The passer's committed forward weight works against them, amplifying the sweep power and landing them in bottom half guard.
 
-### → [[X-Guard]]
+### → [[Positions/X-Guard]]
 
 Recognize the smash pass early and immediately deepen your inside hook while creating strong frames against the passer's shoulders. Hip escape to re-angle your body perpendicular to the passer's trapped leg, restoring the X-Guard structure before the pressure can collapse your hooks. Alternatively, transition to Single Leg X or butterfly guard to reset the guard exchange from a sustainable position.
 

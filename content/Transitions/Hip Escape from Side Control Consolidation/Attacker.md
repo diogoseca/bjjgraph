@@ -180,7 +180,7 @@ description: "Learn to execute the hip escape from side control consolidation. S
 
 As the bottom player executing the hip escape from consolidated side control, your objective is to systematically create and exploit space to recover half guard despite the opponent's established pressure and control. This requires a disciplined three-phase approach: frame creation to establish a structural barrier, bridge-and-shrimp to generate directional movement away from the opponent, and knee insertion to establish a guard position that stops the opponent from re-establishing side control. The key distinction between successful and unsuccessful hip escapes lies in the sequential execution of these phases and the patience to wait for genuine timing windows rather than forcing movement against fully settled pressure.
 
-**From Position**: [[Side Control Consolidation]] (Bottom)
+**From Position**: [[Positions/Side Control/Side Control Consolidation]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ As the bottom player executing the hip escape from consolidated side control, yo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Side Control Consolidation]] | 40% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Side Control/Side Control Consolidation]] | 40% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -244,11 +244,11 @@ As the bottom player executing the hip escape from consolidated side control, yo
 
 ## Opponent Counters
 
-- **Opponent drives crossface deeper and increases chest pressure when hip movement is detected** (Effectiveness: High) - Your Response: Maintain your frame and wait for their pressure to stabilize before attempting again. Use controlled breathing to ride out the pressure increase, then re-attempt the escape when they relax or adjust position. → Leads to [[Side Control Consolidation]]
-- **Opponent follows your hips by walking their knees forward to close the gap created by your shrimp** (Effectiveness: High) - Your Response: Chain a second shrimp immediately before they can fully re-settle. Each shrimp creates incremental space. If they follow once, shrimp again and insert the knee on the second or third attempt. → Leads to [[Side Control Consolidation]]
-- **Opponent steps over to mount when you create the angle by turning to your side during the escape** (Effectiveness: Medium) - Your Response: The moment you feel their leg lifting to step over, immediately insert your knee to block their hip and prevent the mount transition. If too late, transition to mount escape defense. → Leads to [[Mount]]
-- **Opponent traps your far arm to eliminate your framing ability before you can shrimp** (Effectiveness: High) - Your Response: Use your near-side arm to create a secondary frame at the neck or jaw area. If both arms are compromised, focus on bridge-and-roll mechanics or wait for them to release one arm to attack. → Leads to [[Side Control Consolidation]]
-- **Opponent transitions to north-south when they feel you beginning to shrimp away from them** (Effectiveness: Medium) - Your Response: Follow their movement with your own and use the transitional moment to granby roll or turn into them. Their transition away from side control creates a different escape window that may be more favorable. → Leads to [[Side Control Consolidation]]
+- **Opponent drives crossface deeper and increases chest pressure when hip movement is detected** (Effectiveness: High) - Your Response: Maintain your frame and wait for their pressure to stabilize before attempting again. Use controlled breathing to ride out the pressure increase, then re-attempt the escape when they relax or adjust position. → Leads to [[Positions/Side Control/Side Control Consolidation]]
+- **Opponent follows your hips by walking their knees forward to close the gap created by your shrimp** (Effectiveness: High) - Your Response: Chain a second shrimp immediately before they can fully re-settle. Each shrimp creates incremental space. If they follow once, shrimp again and insert the knee on the second or third attempt. → Leads to [[Positions/Side Control/Side Control Consolidation]]
+- **Opponent steps over to mount when you create the angle by turning to your side during the escape** (Effectiveness: Medium) - Your Response: The moment you feel their leg lifting to step over, immediately insert your knee to block their hip and prevent the mount transition. If too late, transition to mount escape defense. → Leads to [[Positions/Mount]]
+- **Opponent traps your far arm to eliminate your framing ability before you can shrimp** (Effectiveness: High) - Your Response: Use your near-side arm to create a secondary frame at the neck or jaw area. If both arms are compromised, focus on bridge-and-roll mechanics or wait for them to release one arm to attack. → Leads to [[Positions/Side Control/Side Control Consolidation]]
+- **Opponent transitions to north-south when they feel you beginning to shrimp away from them** (Effectiveness: Medium) - Your Response: Follow their movement with your own and use the transitional moment to granby roll or turn into them. Their transition away from side control creates a different escape window that may be more favorable. → Leads to [[Positions/Side Control/Side Control Consolidation]]
 
 
 </section>

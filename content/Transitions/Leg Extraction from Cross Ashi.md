@@ -21,7 +21,7 @@ The escape operates on the principle that the cross ashi structure depends on th
 
 Strategically, leg extraction from cross ashi carries moderate success rates because the crossed configuration gives the top player superior retention compared to standard ashi. However, the escape becomes viable whenever the opponent adjusts position to advance toward saddle or reaches for a deeper heel grip, creating brief windows where the cross loosens. The timing dependency makes this escape a reactive technique that rewards patient defenders who recognize these adjustment windows rather than forcing the escape against tight control. When the extraction fails, the most common consequence is the opponent advancing to saddle, making the escape more urgent but also more risky the longer the defender waits.
 
-**From Position**: [[Cross Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, leg extraction from cross ashi carries moderate success rates bec
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 45% |
-| Failure | [[Cross Ashi-Garami]] | 35% |
-| Counter | [[Saddle]] | 20% |
+| Success | [[Positions/Open Guard]] | 45% |
+| Failure | [[Positions/Ashi Garami/Cross Ashi-Garami]] | 35% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 20% |
 
 
 </section>
@@ -196,29 +196,29 @@ Leg Extraction from Cross Ashi sits within the defensive leg lock system as a pr
 ## Related Techniques
 
 
-- [[Cross Ashi-Garami]] - Starting position - the specific entanglement this escape addresses
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Starting position - the specific entanglement this escape addresses
 
-- [[Open Guard]] - Primary recovery position after successful extraction
+- [[Positions/Open Guard]] - Primary recovery position after successful extraction
 
-- [[Saddle]] - Counter outcome - opponent advances here if extraction fails during adjustment
+- [[Positions/Ashi Garami/Saddle]] - Counter outcome - opponent advances here if extraction fails during adjustment
 
-- [[Counter Entangle from Cross Ashi]] - Alternative escape entering 50-50 rather than extracting to open guard
+- [[Transitions/Counter Entangle from Cross Ashi]] - Alternative escape entering 50-50 rather than extracting to open guard
 
-- [[Heel Hook Defense Escape]] - Emergency defense when opponent secures heel grip during extraction
+- [[Transitions/Heel Hook Defense Escape]] - Emergency defense when opponent secures heel grip during extraction
 
-- [[Leg Extraction Escape from Entanglement]] - Parent concept - general leg extraction principles applied to cross ashi specifically
+- [[Transitions/Leg Extraction Escape from Entanglement]] - Parent concept - general leg extraction principles applied to cross ashi specifically
 
-- [[Heel Strip from Ashi Garami]] - Complementary technique addressing heel grip before extraction begins
+- [[Transitions/Heel Strip from Ashi Garami]] - Complementary technique addressing heel grip before extraction begins
 
-- [[Boot Scoot Escape from Saddle]] - Secondary escape when extraction fails and opponent advances to saddle
+- [[Transitions/Boot Scoot Escape from Saddle]] - Secondary escape when extraction fails and opponent advances to saddle
 
-- [[Ashi Garami]] - Parent entanglement family with different extraction geometry
+- [[Positions/Ashi Garami]] - Parent entanglement family with different extraction geometry
 
-- [[Inside Ashi-Garami]] - Related entanglement requiring different extraction angle due to inside positioning
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related entanglement requiring different extraction angle due to inside positioning
 
-- [[Backside 50-50 Entry from Ashi]] - Alternative transition from bottom of leg entanglement hierarchy
+- [[Transitions/Backside 50-50 Entry from Ashi]] - Alternative transition from bottom of leg entanglement hierarchy
 
-- [[Leg Extraction from Inside Ashi]] - Sibling technique - extraction from inside ashi with different clearing sequence
+- [[Transitions/Leg Extraction from Inside Ashi]] - Sibling technique - extraction from inside ashi with different clearing sequence
 
 
 </section>

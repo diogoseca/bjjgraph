@@ -195,28 +195,28 @@ Defending the Inverted Triangle requires understanding that this choke operates 
 ### 1. Extract trapped arm before figure-four is locked by circling elbow down and pulling toward your hip
 
 - **When to use**: Early defense when you feel your arm being dragged across your neck but legs are not yet locked in figure-four
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover to closed guard top or open guard top with posture intact and no submission threat
 - **Risk**: If you pull too aggressively without addressing the leg on your neck, you may open space for a standard triangle entry
 
 ### 2. Turn away from attacker and drive shoulders square to their hips to neutralize the perpendicular angle
 
 - **When to use**: When figure-four is partially locked but attacker has not yet achieved full perpendicular angle or hip extension
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You eliminate the perpendicular choking angle, converting the position to a weaker standard triangle angle that is easier to defend
 - **Risk**: Requires significant core strength and timing; if attacker follows your rotation, the choke may tighten during the turn
 
 ### 3. Posture explosively while controlling attacker's hips, then stack and drive forward to pass
 
 - **When to use**: When attacker's figure-four is loose or they have poor hip extension, particularly effective if their angle is not yet fully perpendicular
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You achieve top position in side control by driving through the loose triangle configuration and passing to dominant position
 - **Risk**: If the figure-four is tight, posturing can increase choke pressure; only attempt when you feel the lock is not fully secured
 
 ### 4. Stand up rapidly to create vertical distance and break the figure-four configuration through elevation
 
 - **When to use**: When attacker cannot maintain connection and their figure-four is not fully locked, particularly if their hips are not elevated
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Standing breaks the choke mechanics and allows you to strip the legs and pass to top position
 - **Risk**: In competition, slamming rules may apply; in training, never slam an inverted opponent - release safely if you stand
 
@@ -239,11 +239,11 @@ Defending the Inverted Triangle requires understanding that this choke operates 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Extract the trapped arm early before the figure-four is locked, then posture up and re-establish your base in closed guard top position with strong posture
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 If you successfully stand and strip the legs, or drive through a loose figure-four with a stack pass, you can advance directly to side control
 

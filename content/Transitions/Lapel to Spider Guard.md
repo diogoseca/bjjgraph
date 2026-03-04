@@ -23,7 +23,7 @@ The biomechanics favor the bottom player because the opponent's clearing motion 
 
 This transition is particularly valuable in competition where opponents train specific lapel guard counters. Rather than engaging in a grip fight you may lose, flowing to spider guard maintains offensive pressure and keeps the opponent reacting to you rather than executing their passing sequence.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -34,9 +34,9 @@ This transition is particularly valuable in competition where opponents train sp
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Spider Guard]] | 60% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Spider Guard]] | 60% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -187,25 +187,25 @@ The Lapel to Spider Transition fits within the broader gi guard retention system
 ## Related Techniques
 
 
-- [[Lapel Guard]] - Starting position from which this transition initiates
+- [[Positions/Lapel Guard]] - Starting position from which this transition initiates
 
-- [[Spider Guard]] - Target position achieved on successful transition
+- [[Positions/Spider Guard]] - Target position achieved on successful transition
 
-- [[Lapel to Lasso Guard]] - Alternative transition from same starting position when opponent drives forward
+- [[Transitions/Lapel to Lasso Guard]] - Alternative transition from same starting position when opponent drives forward
 
-- [[Lasso Guard]] - Related guard that combines well with spider guard for hybrid control
+- [[Positions/Lasso Guard]] - Related guard that combines well with spider guard for hybrid control
 
-- [[Collar Sleeve Guard]] - Alternative guard flow option when sleeve grips are strong
+- [[Positions/Collar Sleeve Guard]] - Alternative guard flow option when sleeve grips are strong
 
-- [[De La Riva Guard]] - Common follow-up transition from established spider guard
+- [[Positions/De La Riva Guard]] - Common follow-up transition from established spider guard
 
-- [[Triangle Control]] - Primary submission threat accessible from spider guard after transition
+- [[Positions/Triangle Control]] - Primary submission threat accessible from spider guard after transition
 
-- [[Omoplata Control]] - Secondary submission option from spider guard position
+- [[Positions/Omoplata Control]] - Secondary submission option from spider guard position
 
-- [[Half Guard]] - Counter outcome position when opponent successfully passes during transition
+- [[Positions/Half Guard]] - Counter outcome position when opponent successfully passes during transition
 
-- [[Balloon Sweep]] - High-percentage sweep available immediately from established spider guard
+- [[Transitions/Balloon Sweep]] - High-percentage sweep available immediately from established spider guard
 
 
 </section>

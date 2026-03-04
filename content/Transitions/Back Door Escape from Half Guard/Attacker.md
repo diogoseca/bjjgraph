@@ -180,7 +180,7 @@ description: "Master the Back Door Escape from Half Guard as the bottom player. 
 
 The Back Door Escape from Half Guard is executed by the bottom half guard player when conventional offensive options such as underhook sweeps and deep half entries have been neutralized by the top player's dominant pressure. The attacker recognizes that fighting toward the opponent is no longer productive and reverses direction, turning away to escape through the back door to turtle position. This requires precise timing coordinated with the opponent's weight shifts, explosive hip movement to complete the turn before the opponent can follow, and immediate establishment of a strong turtle base upon completion. The technique transforms a deteriorating half guard position into an active turtle from which guard recovery and standing options become available, converting defensive stagnation into positional initiative.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The Back Door Escape from Half Guard is executed by the bottom half guard player
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 55% |
-| Failure | [[Half Guard]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Turtle]] | 55% |
+| Failure | [[Positions/Half Guard]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Back Door Escape from Half Guard is executed by the bottom half guard player
 
 ## Opponent Counters
 
-- **Opponent follows the turn with chest glued to back and establishes seatbelt control with hook insertion** (Effectiveness: High) - Your Response: Accelerate the escape and immediately initiate turtle defense by hand fighting the choking arm, keeping elbows tight, and beginning sit-through or granby roll before the second hook is established → Leads to [[Back Control]]
-- **Opponent drives heavy crossface pressure forward to pin hips flat and prevent the initial hip escape** (Effectiveness: High) - Your Response: Use micro hip escapes and wait for opponent's weight shift before attempting the full turn, or switch to deep half entry as an alternative escape route from the flattened position → Leads to [[Half Guard]]
-- **Opponent posts far leg wide and sprawls hips back during the turn to maintain dominant top position** (Effectiveness: Medium) - Your Response: If opponent sprawls but does not take the back, continue accelerating through the transition to establish turtle base before they can consolidate. If fully stuffed before turn completes, recover half guard entanglement → Leads to [[Half Guard]]
-- **Opponent threads arm under chin during the turn to establish front headlock or darce choke position** (Effectiveness: Medium) - Your Response: Tuck chin aggressively to chest and keep near elbow tight to prevent arm penetration under the neck. If they get the arm under during the turn, continue the rotation using momentum to extract your head and settle into tight turtle with chin protected → Leads to [[Back Control]]
+- **Opponent follows the turn with chest glued to back and establishes seatbelt control with hook insertion** (Effectiveness: High) - Your Response: Accelerate the escape and immediately initiate turtle defense by hand fighting the choking arm, keeping elbows tight, and beginning sit-through or granby roll before the second hook is established → Leads to [[Positions/Back Control]]
+- **Opponent drives heavy crossface pressure forward to pin hips flat and prevent the initial hip escape** (Effectiveness: High) - Your Response: Use micro hip escapes and wait for opponent's weight shift before attempting the full turn, or switch to deep half entry as an alternative escape route from the flattened position → Leads to [[Positions/Half Guard]]
+- **Opponent posts far leg wide and sprawls hips back during the turn to maintain dominant top position** (Effectiveness: Medium) - Your Response: If opponent sprawls but does not take the back, continue accelerating through the transition to establish turtle base before they can consolidate. If fully stuffed before turn completes, recover half guard entanglement → Leads to [[Positions/Half Guard]]
+- **Opponent threads arm under chin during the turn to establish front headlock or darce choke position** (Effectiveness: Medium) - Your Response: Tuck chin aggressively to chest and keep near elbow tight to prevent arm penetration under the neck. If they get the arm under during the turn, continue the rotation using momentum to extract your head and settle into tight turtle with chin protected → Leads to [[Positions/Back Control]]
 
 
 </section>

@@ -180,7 +180,7 @@ description: "How to execute De La Riva to X-Guard Transition in BJJ. Attacking 
 
 The De La Riva to X-Guard Transition represents the systematic framework for converting the controlling mechanics of De La Riva Guard into the elevating and sweeping power of X-Guard position. Unlike isolated techniques, this concept encompasses the biomechanical principles, timing considerations, and strategic decision-making that enable seamless positional flow between these two fundamental guard systems. This transition serves as both an offensive adaptation when initial De La Riva attacks are defended and a proactive entry strategy that leverages opponent's posture and base positioning to create superior sweeping opportunities. The ability to flow between these positions transforms static guard retention into dynamic offensive pressure, making it one of the most powerful conceptual frameworks in modern guard play. Understanding this transition requires mastery of hook mechanics, grip control transitions, and the ability to read opponent weight distribution in real-time.
 
-**From Position**: [[De La Riva Guard]] (Bottom)
+**From Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ The De La Riva to X-Guard Transition represents the systematic framework for con
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[X-Guard]] | 65% |
-| Failure | [[De La Riva Guard]] | 25% |
-| Counter | [[De La Riva Guard]] | 10% |
+| Success | [[Positions/X-Guard]] | 65% |
+| Failure | [[Positions/De La Riva Guard]] | 25% |
+| Counter | [[Positions/De La Riva Guard]] | 10% |
 
 
 </section>
@@ -245,10 +245,10 @@ The De La Riva to X-Guard Transition represents the systematic framework for con
 
 ## Opponent Counters
 
-- **Opponent widens base and lowers hips to prevent elevation** (Effectiveness: High) - Your Response: Switch to Single Leg X-Guard variation by focusing both hooks on near leg, or return to De La Riva and attack with alternative sweep. Don't force elevation against heavy base pressure. → Leads to [[De La Riva Guard]]
-- **Opponent backs away during hook transition, creating distance** (Effectiveness: Medium) - Your Response: Maintain connection with collar/sleeve grips or underhook, follow their movement by extending your hooks, or transition to Reverse De La Riva Guard if they circle away. Never let hooks completely disengage. → Leads to [[De La Riva Guard]]
-- **Opponent drops weight suddenly onto your bottom hook** (Effectiveness: Medium) - Your Response: Accept the pressure temporarily, use their weight commitment to attack with alternative sweeps like the Single Leg X Sweep, or transition to Deep Half Guard if weight becomes too heavy to elevate. → Leads to [[De La Riva Guard]]
-- **Opponent clears the top hook and drives forward to pass** (Effectiveness: High) - Your Response: Immediately revert to De La Riva configuration or transition to Shin-to-Shin Guard. Alternatively, switch to Single Leg X Guard with both hooks on one leg if bottom hook is secure. → Leads to [[De La Riva Guard]]
+- **Opponent widens base and lowers hips to prevent elevation** (Effectiveness: High) - Your Response: Switch to Single Leg X-Guard variation by focusing both hooks on near leg, or return to De La Riva and attack with alternative sweep. Don't force elevation against heavy base pressure. → Leads to [[Positions/De La Riva Guard]]
+- **Opponent backs away during hook transition, creating distance** (Effectiveness: Medium) - Your Response: Maintain connection with collar/sleeve grips or underhook, follow their movement by extending your hooks, or transition to Reverse De La Riva Guard if they circle away. Never let hooks completely disengage. → Leads to [[Positions/De La Riva Guard]]
+- **Opponent drops weight suddenly onto your bottom hook** (Effectiveness: Medium) - Your Response: Accept the pressure temporarily, use their weight commitment to attack with alternative sweeps like the Single Leg X Sweep, or transition to Deep Half Guard if weight becomes too heavy to elevate. → Leads to [[Positions/De La Riva Guard]]
+- **Opponent clears the top hook and drives forward to pass** (Effectiveness: High) - Your Response: Immediately revert to De La Riva configuration or transition to Shin-to-Shin Guard. Alternatively, switch to Single Leg X Guard with both hooks on one leg if bottom hook is secure. → Leads to [[Positions/De La Riva Guard]]
 
 
 </section>

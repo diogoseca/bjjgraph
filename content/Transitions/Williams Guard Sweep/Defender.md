@@ -154,7 +154,7 @@ description: "Learn to defend and counter the Williams Guard Sweep in BJJ. Recog
 
 Defending the Williams Guard Sweep requires understanding the integrated threat system connecting the shoulder lock and sweep. The defender faces a positional dilemma where defending the submission opens the sweep and defending the sweep tightens the lock. Successful defense begins with recognizing the sweep setup cues—specifically the hip angle change and butterfly hook insertion that precede the elevation. The primary defensive strategy centers on maintaining a wide, heavy base with the free hand posted correctly to prevent being loaded onto the hook, while simultaneously working to extract the trapped arm from the shoulder lock configuration. Understanding that the sweep is powered by the butterfly hook elevation rather than the shoulder lock alone is critical—neutralizing the hook by stepping back or dropping weight removes the elevation mechanism even if the shoulder lock remains in place. The defender must address both threats systematically rather than panicking and creating additional openings through desperate movements.
 
-**Opponent's Starting Position**: [[Williams Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Williams Guard]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the Williams Guard Sweep requires understanding the integrated threat 
 ### 1. Drop weight and widen base to prevent hook elevation
 
 - **When to use**: As soon as you feel the butterfly hook insert or the opponent begin loading your weight forward through the shoulder lock pull
-- **Targets**: [[Williams Guard]]
+- **Targets**: [[Positions/Williams Guard]]
 - **If successful**: The sweep is neutralized and you maintain your passing position with the opportunity to work on arm extraction from a stable base
 - **Risk**: If weight drops too far forward, the opponent can use your momentum for an omoplata transition or roll-through sweep variation
 
 ### 2. Step back with near-side leg to remove butterfly hook access
 
 - **When to use**: When you detect the hip angle change that precedes hook insertion, before the hook is fully established
-- **Targets**: [[Williams Guard]]
+- **Targets**: [[Positions/Williams Guard]]
 - **If successful**: Eliminates the elevation mechanism entirely and forces the opponent to re-establish the sweep setup from scratch
 - **Risk**: Stepping back without maintaining posture can create distance that allows opponent to transition to different guard variation
 
 ### 3. Strip shoulder lock grip using circular arm extraction while maintaining base
 
 - **When to use**: When the opponent is focused on establishing hook position and their grip attention is divided between maintaining shoulder lock and executing sweep mechanics
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Frees your trapped arm and eliminates both the sweep and submission threat, allowing immediate transition to guard passing
 - **Risk**: If extraction is aggressive and misses, the jerking motion can accelerate the sweep or worsen shoulder lock position
 
 ### 4. Drive forward with shoulder pressure to flatten opponent's guard structure
 
 - **When to use**: When you have sufficient base stability and the opponent has not yet loaded your weight onto the hook
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Collapses the space needed for the sweep and begins guard passing sequence through pressure
 - **Risk**: Forward pressure can be redirected into roll-through sweep if the opponent maintains shoulder lock control
 
@@ -224,11 +224,11 @@ Defending the Williams Guard Sweep requires understanding the integrated threat 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Williams Guard]]
+### → [[Positions/Williams Guard]]
 
 Neutralize the sweep by dropping weight, widening base, and preventing butterfly hook elevation. Then systematically work on extracting the trapped arm using circular movements while maintaining defensive posture. The sweep is stopped and you retain your passing position.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Use the opponent's sweep setup commitment to advance your position by driving forward and beginning to pass their guard while they are committed to the sweep mechanics. Strip the shoulder lock grip during their transition and use the opening to advance past their legs into half guard top.
 

@@ -17,7 +17,7 @@ description: "Learn Shrimp Escape in BJJ. Step-by-step execution from Side Contr
 
 The Shrimp Escape, also known as the hip escape, is one of the most fundamental and essential defensive movements in Brazilian Jiu-Jitsu. This technique allows a practitioner trapped in side control to create space, recover their guard, and neutralize their opponent's positional dominance. The shrimping motion involves a coordinated hip movement that generates distance between you and your opponent, enabling you to insert your knee shield or establish frames that prevent further advancement. The effectiveness of the shrimp escape lies in its mechanical efficiency—by bridging slightly and then explosively moving your hips away from your opponent while posting with your far leg, you create the angular space necessary for guard recovery. This technique is not merely an escape; it represents a fundamental principle of creating space under pressure that applies across countless defensive scenarios in BJJ. Mastery of the shrimp escape is essential for survival in bottom positions and serves as the foundation for more advanced escapes and recoveries throughout your jiu-jitsu journey.
 
-**From Position**: [[Side Control]] (Bottom)
+**From Position**: [[Positions/Side Control]] (Bottom)
 **Success Rate**: 62%
 
 </section>
@@ -28,10 +28,10 @@ The Shrimp Escape, also known as the hip escape, is one of the most fundamental 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 50% |
-| Success | [[Knee Shield Half Guard]] | 20% |
-| Failure | [[Side Control]] | 20% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Closed Guard]] | 50% |
+| Success | [[Positions/Half Guard/Knee Shield Half Guard]] | 20% |
+| Failure | [[Positions/Side Control]] | 20% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -191,29 +191,29 @@ The shrimp escape is the foundational defensive technique that connects multiple
 ## Related Techniques
 
 
-- [[Hip Escape to Guard]] - Alternative name for the same fundamental movement pattern
+- [[Transitions/Hip Escape to Guard]] - Alternative name for the same fundamental movement pattern
 
-- [[Elbow Escape to Guard]] - Complementary escape using similar hip mechanics from mount position
+- [[Transitions/Elbow Escape to Guard]] - Complementary escape using similar hip mechanics from mount position
 
-- [[Frame and Shrimp to Guard]] - Combined technical approach emphasizing frame establishment before escape
+- [[Transitions/Frame and Shrimp to Guard]] - Combined technical approach emphasizing frame establishment before escape
 
-- [[Bridge and Roll]] - Alternative escape from side control using opposite mechanical principle
+- [[Transitions/Bridge and Roll]] - Alternative escape from side control using opposite mechanical principle
 
-- [[Ghost Escape]] - Advanced variation using shrimp mechanics with direction reversal
+- [[Transitions/Ghost Escape]] - Advanced variation using shrimp mechanics with direction reversal
 
-- [[Guard Recovery]] - Target position and endpoint of successful shrimp escape
+- [[Principles/Guard Recovery]] - Target position and endpoint of successful shrimp escape
 
-- [[Knee Shield Half Guard]] - Common intermediate position when shrimp creates partial space
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Common intermediate position when shrimp creates partial space
 
-- [[Granby Roll to Guard]] - Alternative escape method using inversion instead of lateral hip movement
+- [[Transitions/Granby Roll to Guard]] - Alternative escape method using inversion instead of lateral hip movement
 
-- [[Half Guard]] - Alternative guard recovery target when full guard is not achievable
+- [[Positions/Half Guard]] - Alternative guard recovery target when full guard is not achievable
 
-- [[Closed Guard]] - Primary target position for successful shrimp escape completion
+- [[Positions/Closed Guard]] - Primary target position for successful shrimp escape completion
 
-- [[Side Control]] - Starting position from which this escape is executed
+- [[Positions/Side Control]] - Starting position from which this escape is executed
 
-- [[Side Control Escape]] - Broader escape category that includes shrimp escape as a core technique
+- [[Transitions/Side Control Escape]] - Broader escape category that includes shrimp escape as a core technique
 
 
 </section>

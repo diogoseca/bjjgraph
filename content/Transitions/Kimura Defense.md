@@ -19,7 +19,7 @@ The Kimura Defense represents a critical defensive skill set against one of BJJ'
 
 Unlike many submission defenses that focus purely on escape, kimura defense integrates offensive transitions, as the attacker's grip commitment creates vulnerabilities. Advanced practitioners transform defensive sequences into offensive opportunities, using the opponent's kimura grip against them through rolling escapes, back takes, or sweep reversals. The transition from Kimura Trap Top most commonly leads to Half Guard recovery when the defender successfully breaks control, but failed attempts leave you trapped in the same position, and poor execution can result in the attacker consolidating to Side Control.
 
-**From Position**: [[Kimura Trap]] (Top)
+**From Position**: [[Positions/Kimura Trap]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -30,9 +30,9 @@ Unlike many submission defenses that focus purely on escape, kimura defense inte
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 70% |
-| Failure | [[Kimura Trap]] | 20% |
-| Counter | [[Side Control]] | 10% |
+| Success | [[Positions/Half Guard]] | 70% |
+| Failure | [[Positions/Kimura Trap]] | 20% |
+| Counter | [[Positions/Side Control]] | 10% |
 
 
 </section>
@@ -188,29 +188,29 @@ Kimura defense represents a universal defensive skill that applies across virtua
 ## Related Techniques
 
 
-- [[Kimura Trap]] - Offensive position being defended against
+- [[Positions/Kimura Trap]] - Offensive position being defended against
 
-- [[Kimura]] - Primary submission threat requiring this defense
+- [[Transitions/Kimura]] - Primary submission threat requiring this defense
 
-- [[Hitchhiker Escape]] - Alternative escape variation when rolling is blocked
+- [[Transitions/Hitchhiker Escape]] - Alternative escape variation when rolling is blocked
 
-- [[Kimura from Side Control]] - Common attack scenario requiring positional defense
+- [[Submissions/Kimura from Side Control]] - Common attack scenario requiring positional defense
 
-- [[Kimura from Mount]] - High-danger attack scenario with specific defensive adjustments
+- [[Submissions/Kimura from Mount]] - High-danger attack scenario with specific defensive adjustments
 
-- [[Hip Escape to Guard]] - Core defensive mechanic for creating escape space
+- [[Transitions/Hip Escape to Guard]] - Core defensive mechanic for creating escape space
 
-- [[Bridge and Roll]] - Base attack technique used in defense execution
+- [[Transitions/Bridge and Roll]] - Base attack technique used in defense execution
 
-- [[Half Guard]] - Target position after successful defense
+- [[Positions/Half Guard]] - Target position after successful defense
 
-- [[Americana]] - Related shoulder lock requiring similar defensive principles
+- [[Transitions/Americana]] - Related shoulder lock requiring similar defensive principles
 
-- [[Omoplata Control]] - Counter-attack option from certain defensive positions
+- [[Positions/Omoplata Control]] - Counter-attack option from certain defensive positions
 
-- [[Armbar Defense]] - Related submission defense sharing escape timing principles
+- [[Transitions/Armbar Defense]] - Related submission defense sharing escape timing principles
 
-- [[Kimura to Back Take]] - Offensive transition the kimura holder may attempt during defense
+- [[Transitions/Kimura to Back Take]] - Offensive transition the kimura holder may attempt during defense
 
 
 </section>

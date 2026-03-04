@@ -21,7 +21,7 @@ The mechanics rely on maintaining your underhook throughout the entire rolling s
 
 This transition exemplifies the principle of using opponent reactions to your advantage. The standard jailbreak already threatens turtle escape. When opponents learn to follow the roll to prevent this, they expose themselves to the back take. Training both options creates a true dilemma for the top player: disengage and allow the turtle escape, or follow and risk giving up their back.
 
-**From Position**: [[Jailbreak]] (Bottom)
+**From Position**: [[Positions/Jailbreak]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition exemplifies the principle of using opponent reactions to your ad
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Jailbreak]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Jailbreak]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Jailbreak to Back Take fits within the 10th Planet half guard system as the 
 ## Related Techniques
 
 
-- [[Jailbreak]] - Starting position - this transition initiates from jailbreak bottom
+- [[Positions/Jailbreak]] - Starting position - this transition initiates from jailbreak bottom
 
-- [[Back Control]] - Target position - successful completion establishes back control
+- [[Positions/Back Control]] - Target position - successful completion establishes back control
 
-- [[Half Guard]] - Parent position - jailbreak system operates from half guard bottom
+- [[Positions/Half Guard]] - Parent position - jailbreak system operates from half guard bottom
 
-- [[Turtle]] - Alternative outcome - when opponent disengages rather than following
+- [[Positions/Turtle]] - Alternative outcome - when opponent disengages rather than following
 
-- [[Lockdown]] - Related control - often precedes jailbreak attempts from half guard
+- [[Positions/Half Guard/Lockdown]] - Related control - often precedes jailbreak attempts from half guard
 
-- [[Deep Half Guard]] - Alternative transition - when opponent bases wide against jailbreak
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition - when opponent bases wide against jailbreak
 
-- [[Old School]] - Alternative attack - uses similar underhook mechanics from half guard
+- [[Positions/Half Guard/Old School]] - Alternative attack - uses similar underhook mechanics from half guard
 
-- [[Rear Naked Choke]] - Primary follow-up - main submission after establishing back control
+- [[Transitions/Rear Naked Choke]] - Primary follow-up - main submission after establishing back control
 
-- [[Electric Chair]] - Related system - part of 10th Planet half guard attack tree
+- [[Positions/Half Guard/Electric Chair]] - Related system - part of 10th Planet half guard attack tree
 
-- [[Crab Ride]] - Alternative control - when hooks are defended after reaching back
+- [[Positions/Crab Ride]] - Alternative control - when hooks are defended after reaching back
 
 
 </section>

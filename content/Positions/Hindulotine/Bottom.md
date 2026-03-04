@@ -212,23 +212,23 @@ Success from bottom Hindulotine requires understanding the interplay between you
 
 ## Available Escapes
 
-### [[Guillotine Choke]] (32% of attempts)
+### [[Transitions/Guillotine Choke]] (32% of attempts)
 
-### [[Hindulotine to Darce Choke]] (8% of attempts)
+### [[Transitions/Hindulotine to Darce Choke]] (8% of attempts)
 
-### [[Hindulotine to Anaconda Choke]] (6% of attempts)
+### [[Transitions/Hindulotine to Anaconda Choke]] (6% of attempts)
 
-### [[Back Take from Bottom]] (13% of attempts)
+### [[Transitions/Back Take from Bottom]] (13% of attempts)
 
-### [[High Elbow Guillotine Variation]] (8% of attempts)
+### [[Transitions/High Elbow Guillotine Variation]] (8% of attempts)
 
-### [[Butterfly Sweep with Guillotine]] (20% of attempts)
+### [[Transitions/Butterfly Sweep with Guillotine]] (20% of attempts)
 
-### [[Guard Recovery from Hindulotine]] (8% of attempts)
+### [[Transitions/Guard Recovery from Hindulotine]] (8% of attempts)
 
-### [[Arm Triangle Transition]] (3% of attempts)
+### [[Transitions/Arm Triangle Transition]] (3% of attempts)
 
-### [[Sweep to Mount]] (2% of attempts)
+### [[Transitions/Sweep to Mount]] (2% of attempts)
 
 
 
@@ -239,23 +239,23 @@ Success from bottom Hindulotine requires understanding the interplay between you
 ## Decision Making from This Position
 
 **If opponent maintains strong posture and prevents you from breaking them down:**
-- Execute **[[Closed Guard Recovery]]** → [[Closed Guard]] (Probability: 50%)
-- Execute **[[Butterfly Hook Setup]]** → [[Butterfly Guard]] (Probability: 45%)
+- Execute **[[Closed Guard Recovery]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Butterfly Hook Setup]]** → [[Positions/Butterfly Guard]] (Probability: 45%)
 
 
 **If opponent drives forward with pressure trying to flatten you out:**
-- Execute **[[Butterfly Sweep with Guillotine]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Transitions/Butterfly Sweep with Guillotine]]** → [[Positions/Mount]] (Probability: 55%)
 - Execute **[[Angle Adjustment for Finish]]** → [[game-over]] (Probability: 50%)
 
 
 **If opponent turns away to escape the choking pressure:**
-- Execute **[[Back Take from Bottom]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Transition to Anaconda]]** → [[Anaconda Control]] (Probability: 55%)
+- Execute **[[Transitions/Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transition to Anaconda]]** → [[Positions/Anaconda Control]] (Probability: 55%)
 
 
 **If opponent creates defensive frame with near-side arm:**
-- Execute **[[Hindulotine to Darce Choke]]** → [[Darce Control]] (Probability: 60%)
-- Execute **[[Arm Triangle Transition]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Hindulotine to Darce Choke]]** → [[Positions/Darce Control]] (Probability: 60%)
+- Execute **[[Transitions/Arm Triangle Transition]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 
@@ -384,13 +384,13 @@ Establish Hindulotine from bottom with partner actively defending by hand fighti
 
 ## Related Positions and Techniques
 
-- **[[Guillotine Control]]** - Parent position with standard mechanics
-- **[[Closed Guard]]** - Common leg configuration for bottom Hindulotine
-- **[[Butterfly Guard]]** - Alternative leg configuration for angle adjustments
-- **[[Darce Control]]** - Transition option when opponent defends with frames
-- **[[Anaconda Control]]** - Alternative finish when opponent turns
-- **[[Back Control]]** - Transition target when opponent escapes by turning
-- **[[Mount]]** - Sweep target when opponent drives forward
+- **[[Positions/Guillotine Control]]** - Parent position with standard mechanics
+- **[[Positions/Closed Guard]]** - Common leg configuration for bottom Hindulotine
+- **[[Positions/Butterfly Guard]]** - Alternative leg configuration for angle adjustments
+- **[[Positions/Darce Control]]** - Transition option when opponent defends with frames
+- **[[Positions/Anaconda Control]]** - Alternative finish when opponent turns
+- **[[Positions/Back Control]]** - Transition target when opponent escapes by turning
+- **[[Positions/Mount]]** - Sweep target when opponent drives forward
 
 
 </section>

@@ -148,7 +148,7 @@ description: "Defend against counter-entangle from Cross Ashi-Garami top. Mainta
 
 As the person controlling Cross Ashi-Garami from top, your opponent's counter-entangle attempt threatens to neutralize your dominant asymmetrical position by converting it into the neutral 50-50 Guard. Recognizing the early signs of this transition—free leg movement toward your leg structure, hip rotation toward square alignment, and increased framing pressure on your hips—allows you to preemptively tighten control, accelerate your submission chain, or capitalize on their movement to advance to Honey Hole. Maintaining constant outside leg cross tension and keeping your opponent under active submission pressure are the primary tools for denying this transition.
 
-**Opponent's Starting Position**: [[Cross Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -184,21 +184,21 @@ As the person controlling Cross Ashi-Garami from top, your opponent's counter-en
 ### 1. Tighten outside leg cross and immediately attack heel hook to punish the threading attempt
 
 - **When to use**: As soon as you detect the initial threading motion or feel their free leg moving toward the space between your legs
-- **Targets**: [[Cross Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Cross Ashi-Garami]]
 - **If successful**: Opponent abandons threading attempt and returns to full heel defense, maintaining your cross ashi top advantage
 - **Risk**: If your heel hook grip is not established quickly enough, the opponent may complete the thread while you are adjusting for the submission
 
 ### 2. Capitalize on threading motion to advance to Honey Hole by reconfiguring your leg position during the exchange
 
 - **When to use**: When the opponent's threading motion is partially complete and has disrupted the cross ashi configuration but the 50-50 triangle is not yet locked
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: You advance from cross ashi to the more dominant Honey Hole position, dramatically increasing your finishing leverage
 - **Risk**: If you abandon cross ashi control prematurely, the opponent may complete 50-50 before your Honey Hole configuration is established
 
 ### 3. Strip the threading leg by pushing it back out before the 50-50 triangle can be completed
 
 - **When to use**: When the opponent has inserted their foot but has not yet secured the inside hook or crossed their ankles for the triangle lock
-- **Targets**: [[Cross Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Cross Ashi-Garami]]
 - **If successful**: Threading is negated and opponent returns to cross ashi bottom, often with loosened framing that creates a better window for your own attacks
 - **Risk**: Pushing the leg out may require releasing your heel grip momentarily, creating a brief escape window for the opponent
 
@@ -210,11 +210,11 @@ As the person controlling Cross Ashi-Garami from top, your opponent's counter-en
 
 ## Best-Case Outcomes for Defender
 
-### → [[Cross Ashi-Garami]]
+### → [[Positions/Ashi Garami/Cross Ashi-Garami]]
 
 Prevent the counter-entangle by maintaining tight outside leg cross tension at all times and accelerating heel hook attacks when you detect threading movement. Keep constant submission pressure to deny the opponent the cognitive bandwidth and physical freedom to plan and execute the threading motion. If their attempt fails, use the momentary disorganization to deepen your cross ashi control.
 
-### → [[Honey Hole]]
+### → [[Positions/Ashi Garami/Honey Hole]]
 
 Capitalize on the opponent's threading motion by transitioning to Honey Hole during the positional exchange. When their free leg enters your leg structure, use that movement as an opportunity to reconfigure your own legs into the saddle position. Their threading actually helps open the pathway to Honey Hole because the leg movement disrupts the existing cross ashi configuration in ways that facilitate saddle entry.
 

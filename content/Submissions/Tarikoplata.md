@@ -22,8 +22,8 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Closed Guard]]
-**From Position**: [[Closed Guard]] (Bottom)
+**Starting Position**: [[Positions/Closed Guard]]
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -78,8 +78,8 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Scramble Position]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Scramble Position]] | 15% |
 
 
 </section>
@@ -227,16 +227,16 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 
 ## From Which Positions?
 
-- [[Closed Guard]]
-- [[Rubber Guard]]
-- [[Mission Control]]
-- [[New York]]
-- [[Triangle Control]]
-- [[Omoplata Control]]
-- [[Open Guard]]
-- [[Spider Guard]]
-- [[Inverted Guard]]
-- [[Half Guard]]
+- [[Positions/Closed Guard]]
+- [[Positions/Rubber Guard]]
+- [[Positions/Rubber Guard/Mission Control]]
+- [[Positions/Rubber Guard/New York]]
+- [[Positions/Triangle Control]]
+- [[Positions/Omoplata Control]]
+- [[Positions/Open Guard]]
+- [[Positions/Spider Guard]]
+- [[Positions/Inverted Guard]]
+- [[Positions/Half Guard]]
 
 
 </section>
@@ -245,16 +245,16 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 
 ## Related Submissions
 
-- [[Omoplata from Spider Guard]]
-- [[Baratoplata]]
-- [[Gogoplata Finish]]
-- [[Rear Triangle Choke]]
-- [[Rolling Omoplata]]
-- [[Armbar from Guard]]
-- [[Kimura from Kimura Trap]]
-- [[Americana]]
-- [[Mounted Triangle Finish]]
-- [[Reverse Kimura]]
+- [[Submissions/Omoplata from Spider Guard]]
+- [[Transitions/Baratoplata]]
+- [[Submissions/Gogoplata Finish]]
+- [[Submissions/Rear Triangle Choke]]
+- [[Submissions/Rolling Omoplata]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Kimura from Kimura Trap]]
+- [[Transitions/Americana]]
+- [[Submissions/Mounted Triangle Finish]]
+- [[Submissions/Reverse Kimura]]
 
 
 </section>
@@ -263,16 +263,16 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 
 ## Additional Related Content
 
-- [[Omoplata Control]] - Parent position - tarikoplata is variation with added wrist control
-- [[Mission Control]] - Optimal rubber guard position for transitioning to tarikoplata
-- [[Triangle Control]] - Alternative transition when triangle is defended - flow to tarikoplata
-- [[Baratoplata]] - Related shoulder lock variation using similar mechanics
-- [[Gogoplata Control]] - Complementary rubber guard submission, creates submission chain
-- [[Closed Guard]] - Primary starting position for tarikoplata entries
-- [[Rubber Guard]] - Guard system containing optimal tarikoplata entry positions
-- [[Inverted Guard]] - Alternative entry angle for inverted tarikoplata variation
-- [[New York]] - Advanced rubber guard position for tarikoplata transitions
-- [[Omoplata from Spider Guard]] - Related omoplata submission - master omoplata mechanics before learning tarikoplata
+- [[Positions/Omoplata Control]] - Parent position - tarikoplata is variation with added wrist control
+- [[Positions/Rubber Guard/Mission Control]] - Optimal rubber guard position for transitioning to tarikoplata
+- [[Positions/Triangle Control]] - Alternative transition when triangle is defended - flow to tarikoplata
+- [[Transitions/Baratoplata]] - Related shoulder lock variation using similar mechanics
+- [[Positions/Gogoplata Control]] - Complementary rubber guard submission, creates submission chain
+- [[Positions/Closed Guard]] - Primary starting position for tarikoplata entries
+- [[Positions/Rubber Guard]] - Guard system containing optimal tarikoplata entry positions
+- [[Positions/Inverted Guard]] - Alternative entry angle for inverted tarikoplata variation
+- [[Positions/Rubber Guard/New York]] - Advanced rubber guard position for tarikoplata transitions
+- [[Submissions/Omoplata from Spider Guard]] - Related omoplata submission - master omoplata mechanics before learning tarikoplata
 
 
 </section>

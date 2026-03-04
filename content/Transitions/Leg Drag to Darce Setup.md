@@ -21,7 +21,7 @@ The mechanics of this transition rely on timing and angle recognition. As the op
 
 Strategically, this technique transforms what many consider a neutral exchange (opponent escaping to turtle) into an offensive opportunity. High-level competitors often bait the turtle escape from leg drag specifically to attack this sequence. The Darce setup from leg drag is particularly effective because the opponent's defensive movement generates the momentum you need to sink the arm through. Understanding this transition changes how you view leg drag control—it becomes not just a passing position but a launching pad for high-percentage submission attacks.
 
-**From Position**: [[Leg Drag Control]] (Top)
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, this technique transforms what many consider a neutral exchange (
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 55% |
-| Success | [[Front Headlock]] | 10% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Darce Control]] | 55% |
+| Success | [[Positions/Front Headlock]] | 10% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -190,25 +190,25 @@ The Leg Drag to Darce Setup occupies a crucial junction in the leg drag passing 
 ## Related Techniques
 
 
-- [[Leg Drag Control]] - Starting position
+- [[Positions/Leg Drag Control]] - Starting position
 
-- [[Darce Control]] - Primary success outcome
+- [[Positions/Darce Control]] - Primary success outcome
 
-- [[Darce Choke]] - Finishing submission from setup
+- [[Transitions/Darce Choke]] - Finishing submission from setup
 
-- [[Front Headlock]] - Alternative control when Darce is shallow
+- [[Positions/Front Headlock]] - Alternative control when Darce is shallow
 
-- [[Anaconda Choke]] - Alternative submission when elbow is tight
+- [[Transitions/Anaconda Choke]] - Alternative submission when elbow is tight
 
-- [[Back Take from Top]] - Alternative attack from same position
+- [[Transitions/Back Take from Top]] - Alternative attack from same position
 
-- [[Turtle]] - Opponent's defensive position that creates opportunity
+- [[Positions/Turtle]] - Opponent's defensive position that creates opportunity
 
-- [[Leg Drag Pass to Side Control]] - Alternative consolidation from leg drag
+- [[Transitions/Leg Drag Pass to Side Control]] - Alternative consolidation from leg drag
 
-- [[Arm Triangle from Turtle]] - Related attack sequence
+- [[Transitions/Arm Triangle from Turtle]] - Related attack sequence
 
-- [[Leg Drag to Back Take]] - Alternative transition when opponent turns away
+- [[Transitions/Leg Drag to Back Take]] - Alternative transition when opponent turns away
 
 
 </section>

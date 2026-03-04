@@ -209,23 +209,23 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 ## Available Escapes
 
-### [[Technical Stand-up]] (12% of attempts)
+### [[Transitions/Technical Stand-up]] (12% of attempts)
 
-### [[Butterfly Sweep]] (11% of attempts)
+### [[Transitions/Butterfly Sweep]] (11% of attempts)
 
-### [[Scissor Sweep]] (12% of attempts)
+### [[Transitions/Scissor Sweep]] (12% of attempts)
 
-### [[Single Leg X Entry]] (11% of attempts)
+### [[Transitions/Single Leg X Entry]] (11% of attempts)
 
-### [[Ankle Pick]] (10% of attempts)
+### [[Transitions/Ankle Pick]] (10% of attempts)
 
-### [[Tripod Sweep]] (11% of attempts)
+### [[Transitions/Tripod Sweep]] (11% of attempts)
 
-### [[X-Guard Sweep]] (11% of attempts)
+### [[Transitions/X-Guard Sweep]] (11% of attempts)
 
-### [[Lumberjack Sweep]] (11% of attempts)
+### [[Transitions/Lumberjack Sweep]] (11% of attempts)
 
-### [[Foot Grab Sweep]] (11% of attempts)
+### [[Transitions/Foot Grab Sweep]] (11% of attempts)
 
 
 
@@ -236,27 +236,27 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 ## Decision Making from This Position
 
 **If opponent maintains distance and stays standing with upright posture:**
-- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 70%)
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 55%)
-- Execute **[[Ankle Pick]]** → [[Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 70%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 55%)
+- Execute **[[Transitions/Ankle Pick]]** → [[Positions/Side Control]] (Probability: 45%)
 
 
 **If opponent steps forward to close distance or attempt pass:**
-- Execute **[[Scissor Sweep]]** → [[Mount]] (Probability: 55%)
-- Execute **[[Tripod Sweep]]** → [[Side Control]] (Probability: 50%)
-- Execute **[[Butterfly Sweep]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/Scissor Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Tripod Sweep]]** → [[Positions/Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent drops to knees and attempts to establish control grips:**
-- Execute **[[Butterfly Sweep]]** → [[Mount]] (Probability: 60%)
-- Execute **[[X-Guard Sweep]]** → [[Mount]] (Probability: 50%)
-- Execute **[[Technical Stand-up]]** → [[Standing Position]] (Probability: 65%)
+- Execute **[[Transitions/Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/X-Guard Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/Technical Stand-up]]** → [[Positions/Standing Position]] (Probability: 65%)
 
 
 **If opponent establishes chest-to-chest pressure:**
-- Execute **[[Shrimp Escape]]** → [[Half Guard]] (Probability: 55%)
-- Execute **[[Hip Escape]]** → [[Half Guard]] (Probability: 50%)
-- Execute **[[Frame and Shrimp]]** → [[Butterfly Guard]] (Probability: 45%)
+- Execute **[[Transitions/Shrimp Escape]]** → [[Positions/Half Guard]] (Probability: 55%)
+- Execute **[[Hip Escape]]** → [[Positions/Half Guard]] (Probability: 50%)
+- Execute **[[Frame and Shrimp]]** → [[Positions/Butterfly Guard]] (Probability: 45%)
 
 
 
@@ -402,15 +402,15 @@ Start in seated guard. Partner attempts to pass. You defend and look for sweeps 
 
 ## Related Positions and Techniques
 
-- **[[Open Guard]]** - Parent category position, seated guard is specific type
-- **[[Butterfly Guard]]** - Natural progression by inserting hooks when opponent close
-- **[[Standing Guard]]** - Natural progression by standing up from seated
-- **[[Single Leg X-Guard]]** - Common entry from seated guard when opponent steps forward
-- **[[X-Guard]]** - Related guard variation with similar entries
-- **[[Technical Stand-up]]** - Primary escape and transition technique from seated guard
-- **[[Scissor Sweep]]** - High-percentage sweep from seated guard
-- **[[De La Riva Guard]]** - Alternative guard when opponent stands with leg forward
-- **[[Shin-to-Shin Guard]]** - Transitional guard connecting seated to leg entanglements
+- **[[Positions/Open Guard]]** - Parent category position, seated guard is specific type
+- **[[Positions/Butterfly Guard]]** - Natural progression by inserting hooks when opponent close
+- **[[Positions/Standing Guard]]** - Natural progression by standing up from seated
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Common entry from seated guard when opponent steps forward
+- **[[Positions/X-Guard]]** - Related guard variation with similar entries
+- **[[Transitions/Technical Stand-up]]** - Primary escape and transition technique from seated guard
+- **[[Transitions/Scissor Sweep]]** - High-percentage sweep from seated guard
+- **[[Positions/De La Riva Guard]]** - Alternative guard when opponent stands with leg forward
+- **[[Positions/Shin-to-Shin Guard]]** - Transitional guard connecting seated to leg entanglements
 
 
 </section>

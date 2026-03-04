@@ -146,7 +146,7 @@ description: "Counter the hip escape from front headlock in BJJ. Maintain front 
 
 The defender perspective covers the person holding front headlock who must prevent the bottom player's hip escape and guard recovery. Your primary objective is maintaining dominant head control while either keeping the position for continued submission threats or advancing to side control when the escape creates opportunity. Recognizing the hip escape attempt early through tactile and visual cues is essential, as the escape becomes much harder to stop once the bottom player achieves significant lateral movement. The defender must balance between maintaining heavy pressure to prevent the escape and staying mobile enough to capitalize on the bottom player's movements for positional advancement. Understanding the mechanics of the hip escape allows you to position your weight and grips to make the escape as difficult as possible while setting traps that turn failed escape attempts into worse positions for the bottom player.
 
-**Opponent's Starting Position**: [[Front Headlock]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ The defender perspective covers the person holding front headlock who must preve
 ### 1. Drop hips and sprawl heavy to kill hip escape movement before it develops
 
 - **When to use**: Immediately upon feeling the opponent's bridge or initial lateral hip movement, before they generate significant distance
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Opponent remains trapped in front headlock with reduced energy and failed escape attempt, maintaining your submission and positional threats
 - **Risk**: Over-committing to the sprawl can shift weight too far forward, creating space behind you if opponent switches to a roll-through escape
 
 ### 2. Follow opponent's hip escape by stepping around to establish side control
 
 - **When to use**: When the opponent achieves significant lateral hip movement and full front headlock retention is no longer viable
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You advance from front headlock to side control, a dominant pinning position with submission opportunities and scoring potential
 - **Risk**: If you release head control too early during the transition, opponent may recover guard before you consolidate side control
 
 ### 3. Tighten head control and snap opponent's head down while driving forward pressure
 
 - **When to use**: When you feel the initial setup of frames and hand fighting but before the actual hip escape movement begins
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Resets the opponent's escape attempt by collapsing their frame and re-establishing heavy downward pressure on their head and upper back
 - **Risk**: Driving forward aggressively can be exploited if opponent redirects your momentum with a roll-through or sit-through escape
 
 ### 4. Switch to guillotine grip as space opens around opponent's neck during escape attempt
 
 - **When to use**: When hip escape creates space around the neck area that opens a guillotine opportunity before guard is recovered
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Converts a defensive situation into a direct submission threat, forcing opponent to abandon the escape and address the choke
 - **Risk**: If the guillotine is not secured quickly, the opponent continues the hip escape and may recover guard with your arm trapped
 
@@ -218,11 +218,11 @@ The defender perspective covers the person holding front headlock who must preve
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Maintain heavy sprawl pressure with chest driving down into opponent's upper back. Control far shoulder to prevent turning. When you feel the bridge, immediately drop your hips and drive forward to collapse any space before the lateral hip escape develops. Keep your head tight against theirs and your choking arm deep to maintain the controlling position.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 When the opponent's hip escape creates significant angle and full front headlock retention is compromised, transition by stepping your near leg over their body while maintaining upper body control. Drive your shoulder across their face as you transition, preventing them from closing guard. Establish crossface and underhook simultaneously to consolidate side control before they can recover any guard position.
 

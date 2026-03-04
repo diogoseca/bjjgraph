@@ -158,7 +158,7 @@ The most critical defensive concept is that the grasshopper ankle lock entry is 
 
 From the top position facing grasshopper guard, you hold inherent advantages in base stability, gravity, and the ability to disengage. The attacker is inverted, burning significant energy to maintain hip elevation, and committed to a narrow attack corridor. Your defensive strategy should exploit these asymmetries by forcing the attacker to sustain their inverted position longer than they can maintain it, while staying alert to the specific moments when their legs begin the entry sequence so you can act decisively.
 
-**Opponent's Starting Position**: [[Grasshopper Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ From the top position facing grasshopper guard, you hold inherent advantages in 
 ### 1. Back step and circle away from the attacker's outside leg the moment it shoots across your hip line, removing your lead foot from their capture range before the inside leg can complete the frame
 
 - **When to use**: Immediately when you feel or see the outside leg crossing your hip line - this is the earliest and highest-percentage defensive window before any grip or entanglement is established
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: You reset to neutral standing position facing their grasshopper guard with no entanglement, forcing them to re-attempt the entry or transition to a different attack
 - **Risk**: If your back step is slow or incomplete, the attacker can follow with a rolling entry that catches your retreating leg in Outside Ashi-Garami
 
 ### 2. Drive forward aggressively with a stack pass, dropping your weight onto the attacker's inverted torso to collapse their hip elevation and fold their body before the entry sequence can complete
 
 - **When to use**: When the attacker has committed their legs to the framing sequence but has not yet secured the ankle grip - their leg commitment means they cannot easily abort and recover guard
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The attacker's inverted base collapses under your weight, their legs lose the elevation needed for the figure-four, and you advance to a passing position with their guard compromised
 - **Risk**: If the attacker already has a partial grip on your ankle, the forward drive can actually tighten their control. Also risks the attacker converting your forward momentum into an X-Guard sweep
 
 ### 3. Strip the attacker's ankle grip with a two-on-one grip break, using both hands to peel their near hand off your heel while simultaneously pulling your foot toward your body and curling your toes
 
 - **When to use**: When the attacker has secured an initial grip on your ankle but the figure-four leg configuration is not yet fully closed - this is the last reliable defensive window before full control is established
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: Your foot is freed before the figure-four locks, and the attacker is left with an incomplete entanglement that they must abandon or convert to a weaker attack
 - **Risk**: Using both hands for grip stripping temporarily compromises your base and posture, and the attacker may transition to a kneebar attack on the same leg since their legs are already partially positioned
 
 ### 4. Level change by dropping to your knees and driving your hips low, removing the standing ankle attack angle and beginning to work a kneeling guard pass
 
 - **When to use**: When you recognize the grasshopper player is specifically hunting ankle locks rather than sweeps, and you want to preemptively eliminate their preferred attack angle before they initiate
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The kneeling position removes the standing angle the attacker needs for the ankle lock entry, forcing them to abandon grasshopper and transition to a seated guard where your passing options improve
 - **Risk**: Level changing into a skilled grasshopper player can expose your legs to Inside Ashi-Garami entries at the lower level, trading one leg attack threat for another
 
@@ -228,11 +228,11 @@ From the top position facing grasshopper guard, you hold inherent advantages in 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Grasshopper Guard]]
+### → [[Positions/Grasshopper Guard]]
 
 Execute an early back step when the outside leg crosses your hip line, or strip the ankle grip before the figure-four closes. Both actions reset the position to the starting state where the attacker must re-attempt the entry from their energy-expensive inverted position, with each failed attempt draining their core endurance
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Drive forward with a committed stack pass that collapses the attacker's hip elevation, or drop to your knees to eliminate the standing angle entirely. Both responses force the attacker out of their inverted grasshopper configuration into a more neutral open guard where your passing tools are effective and their leg attack options are significantly reduced
 

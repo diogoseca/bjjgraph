@@ -180,7 +180,7 @@ Technically, the transition requires precise timing and hip angle adjustment. As
 
 Strategically, this transition exemplifies the dilemma-creation philosophy central to advanced guard play. From Meathook, opponents face impossible choices: driving forward walks into gogoplata, pulling arm upward opens triangle, spinning the arm enables omoplata. There is no safe defensive response, only selections of which submission they prefer to defend against.
 
-**From Position**: [[Meathook]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Meathook]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Strategically, this transition exemplifies the dilemma-creation philosophy centr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Gogoplata Control]] | 55% |
-| Failure | [[Meathook]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Gogoplata Control]] | 55% |
+| Failure | [[Positions/Rubber Guard/Meathook]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Strategically, this transition exemplifies the dilemma-creation philosophy centr
 
 ## Opponent Counters
 
-- **Explosive posture recovery before shin reaches throat** (Effectiveness: High) - Your Response: If opponent postures early, abort transition and re-establish Meathook—never chase a failed gogoplata attempt with compromised control → Leads to [[Meathook]]
-- **Stack defense by driving forward through the transition** (Effectiveness: Medium) - Your Response: Use their stack momentum to roll backward into omoplata position, converting failed gogoplata into shoulder lock opportunity → Leads to [[Closed Guard]]
-- **Head extraction by pulling back and down while turning chin away** (Effectiveness: Medium) - Your Response: Follow their head movement with hip adjustment—if they extract, transition to triangle setup using the now-available neck angle → Leads to [[Meathook]]
-- **Arm pummel to create inside position and block shin path** (Effectiveness: Low) - Your Response: Their arm pummel opens armbar angle—switch to Armbar from Guard if they prioritize arm positioning over head protection → Leads to [[Meathook]]
+- **Explosive posture recovery before shin reaches throat** (Effectiveness: High) - Your Response: If opponent postures early, abort transition and re-establish Meathook—never chase a failed gogoplata attempt with compromised control → Leads to [[Positions/Rubber Guard/Meathook]]
+- **Stack defense by driving forward through the transition** (Effectiveness: Medium) - Your Response: Use their stack momentum to roll backward into omoplata position, converting failed gogoplata into shoulder lock opportunity → Leads to [[Positions/Closed Guard]]
+- **Head extraction by pulling back and down while turning chin away** (Effectiveness: Medium) - Your Response: Follow their head movement with hip adjustment—if they extract, transition to triangle setup using the now-available neck angle → Leads to [[Positions/Rubber Guard/Meathook]]
+- **Arm pummel to create inside position and block shin path** (Effectiveness: Low) - Your Response: Their arm pummel opens armbar angle—switch to Armbar from Guard if they prioritize arm positioning over head protection → Leads to [[Positions/Rubber Guard/Meathook]]
 
 
 </section>

@@ -210,25 +210,25 @@ The body lock bottom position appears frequently in no-gi competition when oppon
 
 ## Available Escapes
 
-### [[Grip Break]] (39% of attempts)
+### [[Transitions/Grip Break]] (39% of attempts)
 
-### [[Sitting Guard Pull]] (19% of attempts)
+### [[Transitions/Sitting Guard Pull]] (19% of attempts)
 
-### [[Rolling to Guard]] (12% of attempts)
+### [[Transitions/Rolling to Guard]] (12% of attempts)
 
-### [[Whizzer]] (7% of attempts)
+### [[Transitions/Whizzer]] (7% of attempts)
 
-### [[Sprawl Defense]] (7% of attempts)
+### [[Transitions/Sprawl Defense]] (7% of attempts)
 
-### [[Turn In and Face]] (7% of attempts)
+### [[Transitions/Turn In and Face]] (7% of attempts)
 
-### [[Standing up in Base]] (5% of attempts)
+### [[Transitions/Standing up in Base]] (5% of attempts)
 
-### [[Escape Body Lock]] (2% of attempts)
+### [[Transitions/Escape Body Lock]] (2% of attempts)
 
-### [[Pummeling Escape from Body Lock]] (1% of attempts)
+### [[Transitions/Pummeling Escape from Body Lock]] (1% of attempts)
 
-### [[Reversal from Body Lock]] (1% of attempts)
+### [[Transitions/Reversal from Body Lock]] (1% of attempts)
 
 
 
@@ -239,23 +239,23 @@ The body lock bottom position appears frequently in no-gi competition when oppon
 ## Decision Making from This Position
 
 **If opponent has locked grip but hasn't yet driven hip pressure:**
-- Execute **[[Post on hips and create distance]]** → [[Clinch]] (Probability: 45%)
-- Execute **[[Grip Break]]** → [[Clinch]] (Probability: 40%)
+- Execute **[[Post on hips and create distance]]** → [[Positions/Clinch]] (Probability: 45%)
+- Execute **[[Transitions/Grip Break]]** → [[Positions/Clinch]] (Probability: 40%)
 
 
 **Else if opponent is driving forward pressure and breaking posture:**
-- Execute **[[Sitting Guard Pull]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Whizzer and sprawl to widen base]]** → [[Front Headlock]] (Probability: 35%)
+- Execute **[[Transitions/Sitting Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Whizzer and sprawl to widen base]]** → [[Positions/Front Headlock]] (Probability: 35%)
 
 
 **Else if opponent is lifting or attempting throw:**
-- Execute **[[Rolling to Guard]]** → [[Closed Guard]] (Probability: 50%)
-- Execute **[[Hook opponent's leg and block throw]]** → [[Clinch]] (Probability: 30%)
+- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Hook opponent's leg and block throw]]** → [[Positions/Clinch]] (Probability: 30%)
 
 
 **Else if opponent momentarily loosens grip or shifts weight:**
-- Execute **[[Standing up in Base]]** → [[Clinch]] (Probability: 45%)
-- Execute **[[Turn In and Face]]** → [[Clinch]] (Probability: 35%)
+- Execute **[[Transitions/Standing up in Base]]** → [[Positions/Clinch]] (Probability: 45%)
+- Execute **[[Transitions/Turn In and Face]]** → [[Positions/Clinch]] (Probability: 35%)
 
 
 
@@ -384,13 +384,13 @@ Partner maintains body lock while you chain together multiple escape attempts: g
 
 ## Related Positions and Techniques
 
-- **[[Clinch]]** - Target escape position - primary goal from body lock bottom is return to neutral clinch
-- **[[Closed Guard]]** - Alternative escape via controlled guard pull when standing escape fails
-- **[[Turtle]]** - Common bad outcome if opponent drives you down without complete escape
-- **[[Back Control]]** - Most dangerous threat from opponent's body lock position
-- **[[Half Guard]]** - Possible recovery position after partial mat return defense
-- **[[Overhook Control]]** - Whizzer defense connects to overhook control for creating space
-- **[[Front Headlock]]** - Possible resulting position if you sprawl and opponent loses back control angle
+- **[[Positions/Clinch]]** - Target escape position - primary goal from body lock bottom is return to neutral clinch
+- **[[Positions/Closed Guard]]** - Alternative escape via controlled guard pull when standing escape fails
+- **[[Positions/Turtle]]** - Common bad outcome if opponent drives you down without complete escape
+- **[[Positions/Back Control]]** - Most dangerous threat from opponent's body lock position
+- **[[Positions/Half Guard]]** - Possible recovery position after partial mat return defense
+- **[[Positions/Overhook Control]]** - Whizzer defense connects to overhook control for creating space
+- **[[Positions/Front Headlock]]** - Possible resulting position if you sprawl and opponent loses back control angle
 
 
 </section>

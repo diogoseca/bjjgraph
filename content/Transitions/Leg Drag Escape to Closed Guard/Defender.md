@@ -158,7 +158,7 @@ Your defensive strategy centers on maintaining pressure at the critical control 
 
 Advanced defenders learn to weaponize the bottom player's escape attempts. When they commit to framing and hip escaping, they necessarily create movement and exposure that opens pathways to back control, submission entries, or deeper consolidation. Rather than simply preventing the escape, elite passers use the escape attempt as a trigger for their own advancement, turning the bottom player's defensive effort into an offensive opportunity for the top player.
 
-**Opponent's Starting Position**: [[Leg Drag Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Advanced defenders learn to weaponize the bottom player's escape attempts. When 
 ### 1. Drive shoulder pressure through their frame and re-secure crossface or head control
 
 - **When to use**: When you feel the bottom player establishing their initial shoulder frame before they complete the hip escape
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: Collapses the escape at the first step; bottom player cannot hip escape without the frame and must reset their entire escape attempt
 - **Risk**: Overcommitting forward pressure can allow technical standup or turtle transition if bottom player redirects the energy
 
 ### 2. Follow hip escape movement and transition to back take by reaching over their far shoulder
 
 - **When to use**: When the bottom player completes a partial hip escape and begins turning their hips away from you, creating back exposure
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Converts their escape attempt into a worse position; the hip escape that creates guard recovery angle simultaneously exposes the back
 - **Risk**: If bottom player reads the back take early, they can fight the underhook and recover half guard instead
 
 ### 3. Re-secure the trapped leg by tightening your grip and driving your hips forward during their extraction attempt
 
 - **When to use**: When you feel the bottom player's knee beginning to clear your control during the leg extraction phase
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: Resets the escape by trapping the leg again after they invested energy in frames and hip escape; demoralizing and energy-draining for bottom player
 - **Risk**: If they have already created significant space, forcing the re-grip may compromise your upper body control
 
 ### 4. Transition to side control consolidation by sliding your knee across their hip as they create space
 
 - **When to use**: When the bottom player's hip escape creates enough space that maintaining pure leg drag control becomes difficult
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Converts transitional leg drag into consolidated side control before they can close guard; their hip escape movement actually helps you advance
 - **Risk**: Bottom player may use the transition to insert a knee shield and recover half guard
 
@@ -229,11 +229,11 @@ Advanced defenders learn to weaponize the bottom player's escape attempts. When 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Drag Control]]
+### → [[Positions/Leg Drag Control]]
 
 Maintain constant shoulder pressure and tight leg control grip throughout the escape attempt. Drive weight diagonally to deny the hip escape angle. When you feel frames establishing, immediately increase pressure at the shoulder rather than allowing separation. Follow any hip movement to prevent space creation. The goal is to make the escape energetically expensive and unsuccessful, forcing resets that drain the bottom player.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Use the bottom player's escape attempt as a trigger for your own advancement. When they hip escape and create space, slide your knee across their hip to establish side control before they can extract the trapped leg. Their movement actually assists your transition by creating the space you need to advance. Alternatively, follow their rotation toward back take—if they block the back take with an underhook, settle for side control as a secondary consolidation.
 

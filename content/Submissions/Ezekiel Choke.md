@@ -26,8 +26,8 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Mount]]
-**From Position**: [[Mount]] (Top)
+**Starting Position**: [[Positions/Mount]]
+**From Position**: [[Positions/Mount]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -81,8 +81,8 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Mount]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Mount]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -251,14 +251,14 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 
 ## From Which Positions?
 
-- [[Mount]]
-- [[High Mount]]
-- [[Side Control]]
-- [[North-South]]
-- [[Knee on Belly]]
-- [[Closed Guard]]
-- [[Modified Mount]]
-- [[S Mount]]
+- [[Positions/Mount]]
+- [[Positions/Mount/High Mount]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
+- [[Positions/Knee on Belly]]
+- [[Positions/Closed Guard]]
+- [[Positions/Mount/Modified Mount]]
+- [[Positions/Mount/S Mount]]
 
 
 </section>
@@ -267,18 +267,18 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 
 ## Related Submissions
 
-- [[Arm Triangle]]
-- [[Cross Collar Choke]]
-- [[Armbar from Mount]]
-- [[Ezekiel from Mount]]
-- [[North-South Choke]]
-- [[Baseball Bat Choke]]
-- [[Guillotine Choke]]
-- [[Darce Choke]]
-- [[Anaconda Choke]]
-- [[Triangle Choke]]
-- [[Americana from Mount]]
-- [[Bow and Arrow Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/Cross Collar Choke]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Ezekiel from Mount]]
+- [[Transitions/North-South Choke]]
+- [[Transitions/Baseball Bat Choke]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Anaconda Choke]]
+- [[Transitions/Triangle Choke]]
+- [[Submissions/Americana from Mount]]
+- [[Transitions/Bow and Arrow Choke]]
 
 
 </section>
@@ -287,18 +287,18 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 
 ## Additional Related Content
 
-- [[Mount]] - Primary position for executing Ezekiel choke - provides weight distribution and control necessary for safe application
-- [[High Mount]] - Optimal position variation for Ezekiel setup - riding high prevents elbow escapes and creates better threading angles
-- [[Side Control]] - Alternative position for Ezekiel choke variation - same mechanics applied from perpendicular body position
-- [[North-South]] - Transition position where reverse Ezekiel can be applied when opponent turns to avoid standard application
-- [[Arm Triangle]] - Related blood choke targeting same arteries - can transition between techniques when opponent defends one
-- [[Cross Collar Choke]] - Complementary mount submission - creates dilemma when alternated with Ezekiel attempts
-- [[Armbar from Mount]] - Complementary submission creating dilemma - when opponent defends Ezekiel with high hands, armbar becomes available
-- [[Knee on Belly]] - Alternative control position where Ezekiel can be applied with modified threading mechanics
-- [[S Mount]] - Advanced mount variation providing alternative angle for Ezekiel setup when opponent defends standard mount attacks
-- [[Modified Mount]] - Mount variation offering different base and control options for Ezekiel application
-- [[Americana from Mount]] - Complementary shoulder lock that chains naturally when opponent defends Ezekiel by extending arms
-- [[Darce Choke]] - Related arm-in choke with similar bilateral pressure mechanics for attacking the carotid arteries
+- [[Positions/Mount]] - Primary position for executing Ezekiel choke - provides weight distribution and control necessary for safe application
+- [[Positions/Mount/High Mount]] - Optimal position variation for Ezekiel setup - riding high prevents elbow escapes and creates better threading angles
+- [[Positions/Side Control]] - Alternative position for Ezekiel choke variation - same mechanics applied from perpendicular body position
+- [[Positions/North-South]] - Transition position where reverse Ezekiel can be applied when opponent turns to avoid standard application
+- [[Transitions/Arm Triangle]] - Related blood choke targeting same arteries - can transition between techniques when opponent defends one
+- [[Transitions/Cross Collar Choke]] - Complementary mount submission - creates dilemma when alternated with Ezekiel attempts
+- [[Submissions/Armbar from Mount]] - Complementary submission creating dilemma - when opponent defends Ezekiel with high hands, armbar becomes available
+- [[Positions/Knee on Belly]] - Alternative control position where Ezekiel can be applied with modified threading mechanics
+- [[Positions/Mount/S Mount]] - Advanced mount variation providing alternative angle for Ezekiel setup when opponent defends standard mount attacks
+- [[Positions/Mount/Modified Mount]] - Mount variation offering different base and control options for Ezekiel application
+- [[Submissions/Americana from Mount]] - Complementary shoulder lock that chains naturally when opponent defends Ezekiel by extending arms
+- [[Transitions/Darce Choke]] - Related arm-in choke with similar bilateral pressure mechanics for attacking the carotid arteries
 
 
 </section>

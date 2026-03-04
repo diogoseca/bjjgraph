@@ -186,7 +186,7 @@ description: "Master the Dead Orchard to Darce Switch from the attacker perspect
 
 The Dead Orchard to Darce Switch from the attacker's perspective requires reading your opponent's defensive reactions and exploiting the space they create when defending the anaconda grip. The key challenge is maintaining continuous control pressure while reconfiguring your grip architecture from the anaconda threading to the darce pathway. Success depends on timing the switch to coincide with your opponent's defensive movement, maintaining shoulder and chest pressure as your anchor throughout the transition, and completing the darce grip lock before your opponent recognizes the changed threat vector. This technique rewards patience and sensitivity to opponent movement patterns, as the optimal switch window often appears only briefly when the defender commits to a specific anaconda defense.
 
-**From Position**: [[Dead Orchard Control]] (Top)
+**From Position**: [[Positions/Dead Orchard Control]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ The Dead Orchard to Darce Switch from the attacker's perspective requires readin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 55% |
-| Failure | [[Dead Orchard Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Darce Control]] | 55% |
+| Failure | [[Positions/Dead Orchard Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ The Dead Orchard to Darce Switch from the attacker's perspective requires readin
 
 ## Opponent Counters
 
-- **Opponent tucks chin and clamps elbow tight to ribs, preventing the darce arm from threading under the armpit** (Effectiveness: High) - Your Response: If the opponent successfully blocks the darce threading, return to the anaconda dead orchard configuration while their arm is still accessible, or advance to mount or north-south using the stalled transition as a positional advancement trigger → Leads to [[Dead Orchard Control]]
-- **Opponent frames against your shoulder and creates distance during the grip switch window, building base and posturing up** (Effectiveness: High) - Your Response: Drive your weight forward and re-establish chest connection before attempting to complete the switch. If distance is too great, abandon the switch and either reset dead orchard control or transition to a front headlock snap-down to break their posture again → Leads to [[Half Guard]]
-- **Opponent rolls through explosively during the momentary grip release, using the reduced control to scramble free** (Effectiveness: Medium) - Your Response: Follow the rolling motion and look to take the back as they expose it during the roll. If back take is not available, maintain top position and work to re-establish front headlock control from the resulting scramble rather than chasing the darce grip → Leads to [[Half Guard]]
-- **Opponent turns into you and squares their hips during the transition, establishing inside position and defensive frames** (Effectiveness: Medium) - Your Response: Use their turning motion to transition to mount by stepping your leg over their body, converting the defensive turn into a positional advancement opportunity. Their attempt to face you actually facilitates the mount transition when they commit their hips to the turn → Leads to [[Dead Orchard Control]]
+- **Opponent tucks chin and clamps elbow tight to ribs, preventing the darce arm from threading under the armpit** (Effectiveness: High) - Your Response: If the opponent successfully blocks the darce threading, return to the anaconda dead orchard configuration while their arm is still accessible, or advance to mount or north-south using the stalled transition as a positional advancement trigger → Leads to [[Positions/Dead Orchard Control]]
+- **Opponent frames against your shoulder and creates distance during the grip switch window, building base and posturing up** (Effectiveness: High) - Your Response: Drive your weight forward and re-establish chest connection before attempting to complete the switch. If distance is too great, abandon the switch and either reset dead orchard control or transition to a front headlock snap-down to break their posture again → Leads to [[Positions/Half Guard]]
+- **Opponent rolls through explosively during the momentary grip release, using the reduced control to scramble free** (Effectiveness: Medium) - Your Response: Follow the rolling motion and look to take the back as they expose it during the roll. If back take is not available, maintain top position and work to re-establish front headlock control from the resulting scramble rather than chasing the darce grip → Leads to [[Positions/Half Guard]]
+- **Opponent turns into you and squares their hips during the transition, establishing inside position and defensive frames** (Effectiveness: Medium) - Your Response: Use their turning motion to transition to mount by stepping your leg over their body, converting the defensive turn into a positional advancement opportunity. Their attempt to face you actually facilitates the mount transition when they commit their hips to the turn → Leads to [[Positions/Dead Orchard Control]]
 
 
 </section>

@@ -154,7 +154,7 @@ description: "Master defending the Overhook Control Sweep in BJJ. Recognition cu
 
 Defending the Overhook Control Sweep requires recognizing the setup cues early and addressing the structural vulnerability before the sweep is initiated. The primary threat comes from the combination of your trapped arm removing your posting ability on one side while the bottom player generates lifting force with their legs and hips. Early recognition of hip angle changes, hook insertion, and overhook tightening allows you to address the sweep threat before it becomes unstoppable through base adjustments and grip breaking. The fundamental defensive principle is maintaining bilateral posting ability: as long as you can post on both sides of the bottom player, no directional sweep can succeed. This means either freeing your trapped arm, establishing an alternative posting mechanism, or removing the leg leverage that powers the sweep.
 
-**Opponent's Starting Position**: [[Overhook Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Overhook Control]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the Overhook Control Sweep requires recognizing the setup cues early a
 ### 1. Post free hand firmly on the mat toward the sweep direction
 
 - **When to use**: Immediately when you feel the sweep initiation or recognize the hip angle and hook setup indicating an imminent sweep attempt
-- **Targets**: [[Overhook Control]]
+- **Targets**: [[Positions/Overhook Control]]
 - **If successful**: Sweep is completely stopped and you maintain top position with opponent still in bottom overhook control, though you must now address the overhook grip
 - **Risk**: Your posted arm becomes vulnerable to Kimura attacks or arm drags if the bottom player transitions away from the sweep to chain attacks
 
 ### 2. Strip the overhook by rotating your shoulder and performing a limp-arm escape through the gap
 
 - **When to use**: When you recognize the sweep setup early and have time to address the grip before the sweep is fully loaded, or when there is any gap in the armpit seal
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Overhook control is broken entirely, removing both the sweep threat and all chain attacks from the overhook position, transitioning to standard open guard passing
 - **Risk**: If the bottom player reads your escape attempt, they can convert your arm extraction into an arm drag to take your back
 
 ### 3. Drive weight forward and flatten opponent's hips to eliminate sweep leverage
 
 - **When to use**: When bottom player begins angling their hips but has not yet fully committed to the sweep motion, particularly effective against bridge-based variants
-- **Targets**: [[Overhook Control]]
+- **Targets**: [[Positions/Overhook Control]]
 - **If successful**: Opponent's hips are pinned flat, removing the angle and space needed to generate sweep force, though they retain the overhook grip
 - **Risk**: Forward pressure commitment can be redirected into guillotine or front headlock entries if bottom player adapts to your drive
 
 ### 4. Widen base by stepping your near-side leg out and dropping your hip to the mat
 
 - **When to use**: When you feel the sweep beginning but cannot post or strip the overhook in time, spreading base creates structural resistance against the rotational sweep force
-- **Targets**: [[Overhook Control]]
+- **Targets**: [[Positions/Overhook Control]]
 - **If successful**: Wide base prevents the sweep from generating enough rotational force to topple you, buying time to address the overhook grip or recompose your position
 - **Risk**: Wide base can expose passing angles if bottom player abandons the sweep and transitions to other guard attacks or recomposition movements
 
@@ -226,11 +226,11 @@ Defending the Overhook Control Sweep requires recognizing the setup cues early a
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip the overhook grip by rotating your shoulder, performing a limp-arm escape, or using your free hand to peel their grip. Once the overhook is broken, immediately establish passing grips and begin advancing past their guard before they can re-establish the overhook or transition to another guard system.
 
-### → [[Overhook Control]]
+### → [[Positions/Overhook Control]]
 
 Stuff the sweep by posting firmly, widening your base, or driving your weight forward to flatten their hips. Once the sweep attempt is neutralized, immediately work to strip the overhook grip or advance your passing position while they recover from the failed sweep attempt.
 

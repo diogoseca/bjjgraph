@@ -158,7 +158,7 @@ The key to defending this escape lies in understanding that your opponent's enti
 
 Successful defense requires proactive grip management rather than reactive grip retention. Anticipating the hand fight and adjusting your foot depth, hip elevation, and grip positioning before the opponent establishes their two-on-one gives you the best chance of maintaining the gogoplata. If the grip is partially stripped, immediate transitions to triangle or omoplata capitalize on the opponent's compromised posture and hand positioning rather than fighting a losing battle to re-establish the original configuration.
 
-**Opponent's Starting Position**: [[Gogoplata Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful defense requires proactive grip management rather than reactive grip 
 ### 1. Deepen foot position and elevate hips aggressively when you feel opponent's hands engage your wrists
 
 - **When to use**: Early in the escape attempt before opponent establishes strong two-on-one control on your gripping hand
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Gogoplata tightens beyond the threshold where hand fighting is viable, forcing opponent to abandon escape or tap
 - **Risk**: If hip elevation is insufficient, you expend energy without meaningfully tightening the submission
 
 ### 2. Release foot grip with one hand and switch to overhook control on opponent's arm, trapping their bicep against your torso
 
 - **When to use**: When opponent has nearly stripped your grip and re-gripping is unlikely to succeed, but their arm is committed to the hand fight
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: You maintain head control through the overhook while using remaining hand to re-establish foot grip from a different angle
 - **Risk**: If opponent extracts head before you secure the overhook, you lose the gogoplata entirely and end up in open guard
 
 ### 3. Transition to triangle by releasing gogoplata configuration and switching to leg-over-shoulder triangle lock
 
 - **When to use**: When opponent has successfully stripped your primary grip and the gogoplata is no longer maintainable but their posture remains broken
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: You exchange gogoplata for triangle choke, maintaining a strong submission threat from an arguably tighter position
 - **Risk**: The transition creates a brief window where opponent can posture up and escape both submissions entirely
 
 ### 4. Use free leg to hook opponent's far hip or push their knee, destroying their base during the hand fight
 
 - **When to use**: When opponent commits both hands to grip fighting and their base becomes vulnerable to sweeping pressure
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Opponent must abandon hand fight to recover base, giving you time to re-establish deep foot position and tighten the submission
 - **Risk**: Moving your free leg may compromise your own hip elevation and reduce shin pressure on the throat
 
@@ -228,11 +228,11 @@ Successful defense requires proactive grip management rather than reactive grip 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Gogoplata Control]]
+### → [[Positions/Gogoplata Control]]
 
 Deepen foot position behind opponent's head before they can establish two-on-one control. Use interlocked finger grip on your own shin rather than cupping the foot, making the grip significantly harder to strip. Elevate hips aggressively at the first sign of hand engagement to tighten the submission beyond the threshold where methodical escape is viable.
 
-### → [[Triangle Control]]
+### → [[Positions/Triangle Control]]
 
 When the grip is partially stripped and re-establishment is unlikely, immediately release the gogoplata configuration and swing your choking leg over the opponent's far shoulder while your other leg closes underneath. Their broken posture and committed hand position from the grip fight makes the triangle entry high-percentage. Lock your ankles before they can posture.
 

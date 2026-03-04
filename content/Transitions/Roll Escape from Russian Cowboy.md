@@ -21,7 +21,7 @@ From a strategic standpoint, the roll escape represents a high-commitment bailou
 
 This escape integrates into the broader back defense system as a last-resort option that bridges Russian Cowboy bottom to the turtle defense framework. Practitioners who drill this technique develop critical proprioceptive awareness of hook positioning and rotational timing that transfers to other back defense scenarios, including traditional back control escapes and truck defense sequences.
 
-**From Position**: [[Russian Cowboy]] (Bottom)
+**From Position**: [[Positions/Russian Cowboy]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ This escape integrates into the broader back defense system as a last-resort opt
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 40% |
-| Failure | [[Russian Cowboy]] | 35% |
-| Counter | [[Truck]] | 25% |
+| Success | [[Positions/Turtle]] | 40% |
+| Failure | [[Positions/Russian Cowboy]] | 35% |
+| Counter | [[Positions/Twister Control/Truck]] | 25% |
 
 
 </section>
@@ -195,21 +195,21 @@ The Roll Escape from Russian Cowboy connects the back control escape system to t
 ## Related Techniques
 
 
-- [[Russian Cowboy]] - Starting position where this escape originates
+- [[Positions/Russian Cowboy]] - Starting position where this escape originates
 
-- [[Turtle]] - Target position after successful escape
+- [[Positions/Turtle]] - Target position after successful escape
 
-- [[Truck]] - Dangerous counter position if roll direction is incorrect
+- [[Positions/Twister Control/Truck]] - Dangerous counter position if roll direction is incorrect
 
-- [[Back Control]] - Related back control position with transferable escape principles
+- [[Positions/Back Control]] - Related back control position with transferable escape principles
 
-- [[Escape from Russian Cowboy]] - Primary alternative escape from the same starting position
+- [[Transitions/Escape from Russian Cowboy]] - Primary alternative escape from the same starting position
 
-- [[Hip Escape from Russian Cowboy]] - Complementary hip-based escape from Russian Cowboy
+- [[Transitions/Hip Escape from Russian Cowboy]] - Complementary hip-based escape from Russian Cowboy
 
-- [[Crab Ride]] - Similar back control variant requiring related escape mechanics
+- [[Positions/Crab Ride]] - Similar back control variant requiring related escape mechanics
 
-- [[Hand Fight to Turtle from Back]] - Related escape targeting turtle from back control positions
+- [[Transitions/Hand Fight to Turtle from Back]] - Related escape targeting turtle from back control positions
 
 
 </section>

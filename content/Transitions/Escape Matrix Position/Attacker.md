@@ -186,7 +186,7 @@ description: "Execute the Matrix escape when your back take rotation stalls. Ste
 
 From the attacker perspective, escaping the Matrix position is fundamentally about damage control and position recovery when your primary back take attack has been defended. The central challenge is transitioning from a compromised inverted or partially rotated state back to a viable defensive structure while your opponent actively seeks to capitalize on your vulnerability. Success depends on early recognition of the stall, immediate commitment to the escape path, and disciplined execution of the recovery sequence rather than desperate scrambling that exposes you to worse outcomes. The escape must be treated as a pre-planned contingency—something drilled and automatic—not an improvised reaction to failure.
 
-**From Position**: [[Matrix]] (Bottom)
+**From Position**: [[Positions/Matrix]] (Bottom)
 
 </section>
 
@@ -239,10 +239,10 @@ From the attacker perspective, escaping the Matrix position is fundamentally abo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 35% |
-| Success | [[Closed Guard]] | 20% |
-| Failure | [[Matrix]] | 25% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Turtle]] | 35% |
+| Success | [[Positions/Closed Guard]] | 20% |
+| Failure | [[Positions/Matrix]] | 25% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ From the attacker perspective, escaping the Matrix position is fundamentally abo
 
 ## Opponent Counters
 
-- **Opponent sprawls heavy and drives hips into your back during retraction** (Effectiveness: High) - Your Response: Use the downward pressure to accelerate your hip retraction rather than fighting against it. Thread your hips underneath their weight and use the compressive force to speed your turtle establishment. If their sprawl is too heavy to move through, redirect laterally and attempt a guard pull recovery instead of fighting the vertical pressure. → Leads to [[Matrix]]
-- **Opponent follows the transition and inserts hooks during the roll to turtle** (Effectiveness: High) - Your Response: Accelerate the roll and immediately begin kicking legs free before settling into turtle. If hooks are partially inserted, do not stop in turtle—continue the motion directly into a guard recovery where you can address the hooks from a better angle. Fight the deeper hook first by extending your leg explosively. → Leads to [[Back Control]]
-- **Opponent crossfaces hard to prevent the shoulder roll** (Effectiveness: Medium) - Your Response: Use the crossface pressure as a pivot point, rolling toward the pressure rather than away from it. The crossface creates a fixed point you can rotate around. Alternatively, frame against the crossfacing arm with your near hand and use hip escape movement to create the angle needed to complete the turtle recovery. → Leads to [[Matrix]]
-- **Opponent secures waist grip to prevent hip retraction** (Effectiveness: Medium) - Your Response: Strip the grip with both hands before attempting hip retraction—a waist grip during hip lowering gives them a direct connection to follow you into back control. If you cannot strip the grip, redirect to the guard pull recovery variant where their grip actually assists your transition by maintaining connection during the continued roll. → Leads to [[Matrix]]
+- **Opponent sprawls heavy and drives hips into your back during retraction** (Effectiveness: High) - Your Response: Use the downward pressure to accelerate your hip retraction rather than fighting against it. Thread your hips underneath their weight and use the compressive force to speed your turtle establishment. If their sprawl is too heavy to move through, redirect laterally and attempt a guard pull recovery instead of fighting the vertical pressure. → Leads to [[Positions/Matrix]]
+- **Opponent follows the transition and inserts hooks during the roll to turtle** (Effectiveness: High) - Your Response: Accelerate the roll and immediately begin kicking legs free before settling into turtle. If hooks are partially inserted, do not stop in turtle—continue the motion directly into a guard recovery where you can address the hooks from a better angle. Fight the deeper hook first by extending your leg explosively. → Leads to [[Positions/Back Control]]
+- **Opponent crossfaces hard to prevent the shoulder roll** (Effectiveness: Medium) - Your Response: Use the crossface pressure as a pivot point, rolling toward the pressure rather than away from it. The crossface creates a fixed point you can rotate around. Alternatively, frame against the crossfacing arm with your near hand and use hip escape movement to create the angle needed to complete the turtle recovery. → Leads to [[Positions/Matrix]]
+- **Opponent secures waist grip to prevent hip retraction** (Effectiveness: Medium) - Your Response: Strip the grip with both hands before attempting hip retraction—a waist grip during hip lowering gives them a direct connection to follow you into back control. If you cannot strip the grip, redirect to the guard pull recovery variant where their grip actually assists your transition by maintaining connection during the continued roll. → Leads to [[Positions/Matrix]]
 
 
 </section>

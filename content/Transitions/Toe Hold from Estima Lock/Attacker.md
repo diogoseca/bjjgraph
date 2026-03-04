@@ -180,7 +180,7 @@ description: "Learn to execute the Toe Hold from Estima Lock. Grip transition me
 
 The Toe Hold from Estima Lock represents a sophisticated chain attack that capitalizes on the opponent's defensive response to the primary Estima Lock submission. From the attacker's perspective, this transition requires recognizing when the opponent's counter-rotation has neutralized the Estima Lock angle and immediately redirecting the attack vector into the complementary toe hold. The grip change is relatively minimal since both attacks originate from established foot control, but precise timing and maintained hip pressure are essential to prevent escape during the transition. Mastering this chain transforms the Estima Lock from a single-threat position into a binary submission dilemma where the opponent's defense to one attack inherently opens the other.
 
-**From Position**: [[Estima Lock]] (Top)
+**From Position**: [[Positions/Estima Lock]] (Top)
 
 </section>
 
@@ -233,8 +233,8 @@ The Toe Hold from Estima Lock represents a sophisticated chain attack that capit
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Estima Lock]] | 35% |
-| Counter | [[Open Guard]] | 20% |
+| Failure | [[Positions/Estima Lock]] | 35% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Toe Hold from Estima Lock represents a sophisticated chain attack that capit
 
 ## Opponent Counters
 
-- **Opponent straightens their leg to reduce the rotational leverage available for the toe hold** (Effectiveness: Medium) - Your Response: Maintain hip pressure forward and adjust your body angle to re-establish the rotational vector. A straight leg actually provides a longer lever arm if your hip pressure stays tight against their calf as the fulcrum point. → Leads to [[Estima Lock]]
-- **Opponent pulls knee aggressively toward their chest to create slack during the grip change** (Effectiveness: High) - Your Response: Drive hips forward immediately to close the gap before extraction completes. If they gain significant slack, accelerate the grip transition or consider switching to a kneebar that capitalizes on the extended knee position. → Leads to [[Open Guard]]
-- **Opponent rolls toward the toe hold direction to relieve rotational pressure on the ankle** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining your grip and hip pressure. The roll may relieve pressure momentarily but creates opportunities to take the back or transition back to the Estima Lock angle as they rotate through. → Leads to [[Estima Lock]]
-- **Opponent executes boot defense by actively pointing toes and plantar flexing the foot** (Effectiveness: High) - Your Response: Maintain hand position around the foot without forcing through the boot defense. Wait for any momentary relaxation in their foot tension, or transition back to the Estima Lock angle where the pointed foot actually improves your leverage for the original attack. → Leads to [[Estima Lock]]
+- **Opponent straightens their leg to reduce the rotational leverage available for the toe hold** (Effectiveness: Medium) - Your Response: Maintain hip pressure forward and adjust your body angle to re-establish the rotational vector. A straight leg actually provides a longer lever arm if your hip pressure stays tight against their calf as the fulcrum point. → Leads to [[Positions/Estima Lock]]
+- **Opponent pulls knee aggressively toward their chest to create slack during the grip change** (Effectiveness: High) - Your Response: Drive hips forward immediately to close the gap before extraction completes. If they gain significant slack, accelerate the grip transition or consider switching to a kneebar that capitalizes on the extended knee position. → Leads to [[Positions/Open Guard]]
+- **Opponent rolls toward the toe hold direction to relieve rotational pressure on the ankle** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining your grip and hip pressure. The roll may relieve pressure momentarily but creates opportunities to take the back or transition back to the Estima Lock angle as they rotate through. → Leads to [[Positions/Estima Lock]]
+- **Opponent executes boot defense by actively pointing toes and plantar flexing the foot** (Effectiveness: High) - Your Response: Maintain hand position around the foot without forcing through the boot defense. Wait for any momentary relaxation in their foot tension, or transition back to the Estima Lock angle where the pointed foot actually improves your leverage for the original attack. → Leads to [[Positions/Estima Lock]]
 
 
 </section>

@@ -26,8 +26,8 @@ The Breadcutter belongs to a family of collar chokes that includes the Clock Cho
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Turtle]]
-**From Position**: [[Turtle]] (Top)
+**Starting Position**: [[Positions/Turtle]]
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -82,8 +82,8 @@ The Breadcutter belongs to a family of collar chokes that includes the Clock Cho
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -234,13 +234,13 @@ The Breadcutter belongs to a family of collar chokes that includes the Clock Cho
 
 ## From Which Positions?
 
-- [[Turtle]]
-- [[Back Control]]
-- [[Side Control]]
-- [[North-South]]
-- [[Knee on Belly]]
-- [[Kesa Gatame]]
-- [[Modified Scarf Hold]]
+- [[Positions/Turtle]]
+- [[Positions/Back Control]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
+- [[Positions/Knee on Belly]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Side Control/Modified Scarf Hold]]
 
 
 </section>
@@ -249,17 +249,17 @@ The Breadcutter belongs to a family of collar chokes that includes the Clock Cho
 
 ## Related Submissions
 
-- [[Clock Choke]]
-- [[Bow and Arrow Choke]]
-- [[Baseball Bat Choke]]
-- [[Rear Naked Choke]]
-- [[North-South Choke]]
-- [[Darce Choke]]
-- [[Anaconda Choke]]
-- [[Ezekiel Choke]]
-- [[Cross Collar Choke]]
-- [[Brabo Choke]]
-- [[Arm Triangle]]
+- [[Transitions/Clock Choke]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Transitions/Baseball Bat Choke]]
+- [[Transitions/Rear Naked Choke]]
+- [[Transitions/North-South Choke]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Anaconda Choke]]
+- [[Submissions/Ezekiel Choke]]
+- [[Transitions/Cross Collar Choke]]
+- [[Submissions/Brabo Choke]]
+- [[Transitions/Arm Triangle]]
 
 
 </section>
@@ -268,15 +268,15 @@ The Breadcutter belongs to a family of collar chokes that includes the Clock Cho
 
 ## Additional Related Content
 
-- [[Turtle]] - Primary starting position for standard Breadcutter application
-- [[Back Control]] - Alternative starting position and transition opportunity from failed RNC
-- [[Clock Choke]] - Related collar choke with circular finishing motion, natural transition option
-- [[Side Control]] - Can transition to Breadcutter as opponent attempts turtle escape
-- [[North-South]] - Breadcutter can be applied from North-South when opponent turns to side
-- [[Bow and Arrow Choke]] - Similar collar-based choking mechanism with different body positioning
-- [[Kesa Gatame]] - Can transition to Breadcutter when opponent turtles from scarf hold
-- [[Rear Naked Choke]] - Alternative back attack; Breadcutter available when RNC is defended
-- [[Knee on Belly]] - Transitional position from which Breadcutter can be initiated as opponent turtles
+- [[Positions/Turtle]] - Primary starting position for standard Breadcutter application
+- [[Positions/Back Control]] - Alternative starting position and transition opportunity from failed RNC
+- [[Transitions/Clock Choke]] - Related collar choke with circular finishing motion, natural transition option
+- [[Positions/Side Control]] - Can transition to Breadcutter as opponent attempts turtle escape
+- [[Positions/North-South]] - Breadcutter can be applied from North-South when opponent turns to side
+- [[Transitions/Bow and Arrow Choke]] - Similar collar-based choking mechanism with different body positioning
+- [[Positions/Side Control/Kesa Gatame]] - Can transition to Breadcutter when opponent turtles from scarf hold
+- [[Transitions/Rear Naked Choke]] - Alternative back attack; Breadcutter available when RNC is defended
+- [[Positions/Knee on Belly]] - Transitional position from which Breadcutter can be initiated as opponent turtles
 
 
 </section>

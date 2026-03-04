@@ -186,7 +186,7 @@ description: "Execute the Underhook Sweep from Dogfight to reverse position in B
 
 As the attacker executing the Underhook Sweep from Dogfight, you are the bottom player in a dogfight position who has established a deep underhook and is looking to convert that grip advantage into a complete positional reversal. Your primary task is to use the underhook as a lever to rotate the opponent over their trapped knee while simultaneously removing their far-side posting ability. The sweep requires coordinating three elements: forward pressure through the underhook, far-side base removal with your free hand, and explosive leg drive from your outside posting leg. Timing is critical—the sweep works best when the opponent's weight is neutral or shifting backward, not when they are driving forward with heavy whizzer pressure. Read the opponent's weight distribution through tactile feedback in the underhook and initiate the sweep during windows of compromised balance.
 
-**From Position**: [[Dogfight Position]] (Bottom)
+**From Position**: [[Positions/Dogfight Position]] (Bottom)
 
 </section>
 
@@ -239,10 +239,10 @@ As the attacker executing the Underhook Sweep from Dogfight, you are the bottom 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 35% |
-| Success | [[Mount]] | 20% |
-| Failure | [[Dogfight Position]] | 30% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 35% |
+| Success | [[Positions/Mount]] | 20% |
+| Failure | [[Positions/Dogfight Position]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the attacker executing the Underhook Sweep from Dogfight, you are the bottom 
 
 ## Opponent Counters
 
-- **Opponent posts far hand wide on the mat to create a tripod base against the sweep direction** (Effectiveness: High) - Your Response: Switch immediately to back take as the wide post exposes their far side—circle your underhook to seatbelt grip and drive toward their exposed back rather than continuing the sweep → Leads to [[Dogfight Position]]
-- **Opponent drives forward aggressively with whizzer and crossface to flatten you before the sweep initiates** (Effectiveness: High) - Your Response: Redirect their forward momentum into a deep half guard entry by ducking under their pressure, or absorb the drive momentarily and explode into the sweep as their weight shifts forward past their base → Leads to [[Flattened Half Guard]]
-- **Opponent hip switches away from the underhook and circles their hips to neutralize the leverage angle** (Effectiveness: Medium) - Your Response: Follow the hip switch with your underhook, maintaining chest-to-chest contact, and re-angle your sweep direction to match their new hip orientation—their movement creates a new off-balance angle to exploit → Leads to [[Dogfight Position]]
-- **Opponent sits back heavily, dropping their weight low to create a wide stable base resistant to forward drives** (Effectiveness: Low) - Your Response: Their backward weight shift opens the forward drive sweep—use the space created by their retreat to drive straight forward through their weakened base, or transition to the inside trip variation targeting their now-lightened near leg → Leads to [[Dogfight Position]]
+- **Opponent posts far hand wide on the mat to create a tripod base against the sweep direction** (Effectiveness: High) - Your Response: Switch immediately to back take as the wide post exposes their far side—circle your underhook to seatbelt grip and drive toward their exposed back rather than continuing the sweep → Leads to [[Positions/Dogfight Position]]
+- **Opponent drives forward aggressively with whizzer and crossface to flatten you before the sweep initiates** (Effectiveness: High) - Your Response: Redirect their forward momentum into a deep half guard entry by ducking under their pressure, or absorb the drive momentarily and explode into the sweep as their weight shifts forward past their base → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent hip switches away from the underhook and circles their hips to neutralize the leverage angle** (Effectiveness: Medium) - Your Response: Follow the hip switch with your underhook, maintaining chest-to-chest contact, and re-angle your sweep direction to match their new hip orientation—their movement creates a new off-balance angle to exploit → Leads to [[Positions/Dogfight Position]]
+- **Opponent sits back heavily, dropping their weight low to create a wide stable base resistant to forward drives** (Effectiveness: Low) - Your Response: Their backward weight shift opens the forward drive sweep—use the space created by their retreat to drive straight forward through their weakened base, or transition to the inside trip variation targeting their now-lightened near leg → Leads to [[Positions/Dogfight Position]]
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Execute Counter Entangle from Cross Ashi-Garami bottom. Threading 
 
 As the person trapped in Cross Ashi-Garami bottom, the counter-entangle converts an asymmetrical disadvantage into the more neutral 50-50 Guard by threading your free leg through the opponent's leg structure. This technique requires reading your opponent's grip adjustments, identifying the moment their outside leg cross loosens, and decisively threading your free leg to create symmetrical entanglement. Success depends on patience, precise timing, and maintaining heel defense throughout the transition to avoid submitting during the threading motion itself. The payoff is significant: 50-50 bottom offers dramatically better defensive and counter-offensive options than Cross Ashi bottom.
 
-**From Position**: [[Cross Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the person trapped in Cross Ashi-Garami bottom, the counter-entangle converts
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 40% |
-| Failure | [[Cross Ashi-Garami]] | 40% |
-| Counter | [[Honey Hole]] | 20% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 40% |
+| Failure | [[Positions/Ashi Garami/Cross Ashi-Garami]] | 40% |
+| Counter | [[Positions/Ashi Garami/Honey Hole]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the person trapped in Cross Ashi-Garami bottom, the counter-entangle converts
 
 ## Opponent Counters
 
-- **Opponent immediately tightens cross and accelerates heel hook attack when they feel initial threading movement** (Effectiveness: High) - Your Response: Abandon the threading attempt immediately and return to full heel defense. Re-engage hand fighting to strip their grips before reattempting. The timing window has closed and forcing through invites submission. → Leads to [[Cross Ashi-Garami]]
-- **Opponent capitalizes on threading motion to transition into Honey Hole by reconfiguring their leg position during the exchange** (Effectiveness: High) - Your Response: If you recognize the Honey Hole entry mid-thread, retract your free leg immediately and address the new entanglement. Focus on preventing their far-side leg from securing the saddle hook. You may need to accept 50-50 is no longer achievable and switch to pure escape tactics. → Leads to [[Honey Hole]]
-- **Opponent strips the threading leg by pushing it back out before the 50-50 triangle is completed** (Effectiveness: Medium) - Your Response: Maintain the inside hook aggressively while reattempting the triangle lock. If the hook itself is stripped, reset to framing position and wait for the next window. Often the opponent's stripping effort loosens their own cross, creating a secondary opportunity within seconds. → Leads to [[Cross Ashi-Garami]]
-- **Opponent stands up in base while maintaining heel grip to reset the position from standing** (Effectiveness: Low) - Your Response: Their standing creates significant space that actually facilitates the threading motion. Use the increased distance to complete the entangle faster. Standing also reduces their finishing leverage on heel hooks, buying additional time for the transition. → Leads to [[Cross Ashi-Garami]]
+- **Opponent immediately tightens cross and accelerates heel hook attack when they feel initial threading movement** (Effectiveness: High) - Your Response: Abandon the threading attempt immediately and return to full heel defense. Re-engage hand fighting to strip their grips before reattempting. The timing window has closed and forcing through invites submission. → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- **Opponent capitalizes on threading motion to transition into Honey Hole by reconfiguring their leg position during the exchange** (Effectiveness: High) - Your Response: If you recognize the Honey Hole entry mid-thread, retract your free leg immediately and address the new entanglement. Focus on preventing their far-side leg from securing the saddle hook. You may need to accept 50-50 is no longer achievable and switch to pure escape tactics. → Leads to [[Positions/Ashi Garami/Honey Hole]]
+- **Opponent strips the threading leg by pushing it back out before the 50-50 triangle is completed** (Effectiveness: Medium) - Your Response: Maintain the inside hook aggressively while reattempting the triangle lock. If the hook itself is stripped, reset to framing position and wait for the next window. Often the opponent's stripping effort loosens their own cross, creating a secondary opportunity within seconds. → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- **Opponent stands up in base while maintaining heel grip to reset the position from standing** (Effectiveness: Low) - Your Response: Their standing creates significant space that actually facilitates the threading motion. Use the increased distance to complete the entangle faster. Standing also reduces their finishing leverage on heel hooks, buying additional time for the transition. → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
 
 
 </section>

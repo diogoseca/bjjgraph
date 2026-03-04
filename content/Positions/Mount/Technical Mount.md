@@ -93,21 +93,21 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 ### Available Transitions
 
 
-- **[[Elbow Escape to Guard]]** (45% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (45% of attempts)
 
-- **[[Hip Escape to Guard]]** (17% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (17% of attempts)
 
-- **[[Upa Escape]]** (15% of attempts)
+- **[[Transitions/Upa Escape]]** (15% of attempts)
 
-- **[[Shrimp Escape]]** (15% of attempts)
+- **[[Transitions/Shrimp Escape]]** (15% of attempts)
 
-- **[[Bridge and Roll]]** (6% of attempts)
+- **[[Transitions/Bridge and Roll]]** (6% of attempts)
 
-- **[[Back Turn from Technical Mount]]** (1% of attempts)
+- **[[Transitions/Back Turn from Technical Mount]]** (1% of attempts)
 
-- **[[Bridge from Technical Mount]]** (0% of attempts)
+- **[[Transitions/Bridge from Technical Mount]]** (0% of attempts)
 
-- **[[Escape Technical Mount to Half Guard]]** (1% of attempts)
+- **[[Transitions/Escape Technical Mount to Half Guard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -164,27 +164,27 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 ### Available Transitions
 
 
-- **[[Mount to Armbar]]** (50% of attempts)
+- **[[Transitions/Mount to Armbar]]** (50% of attempts)
 
-- **[[Back Take]]** (20% of attempts)
+- **[[Transitions/Back Take]]** (20% of attempts)
 
-- **[[Consolidate Mount]]** (10% of attempts)
+- **[[Transitions/Consolidate Mount]]** (10% of attempts)
 
-- **[[Triangle Setup]]** (6% of attempts)
+- **[[Transitions/Triangle Setup]]** (6% of attempts)
 
-- **[[Gift Wrap Control]]** (4% of attempts)
+- **[[Transitions/Gift Wrap Control]]** (4% of attempts)
 
-- **[[High Mount Transition]]** (3% of attempts)
+- **[[Transitions/High Mount Transition]]** (3% of attempts)
 
-- **[[Technical Mount to Back Control]]** (1% of attempts)
+- **[[Transitions/Technical Mount to Back Control]]** (1% of attempts)
 
-- **[[Technical Mount to Mount]]** (1% of attempts)
+- **[[Transitions/Technical Mount to Mount]]** (1% of attempts)
 
-- **[[Technical Mount to S Mount]]** (1% of attempts)
+- **[[Transitions/Technical Mount to S Mount]]** (1% of attempts)
 
-- **[[Americana from Technical Mount]]** (2% of attempts)
+- **[[Submissions/Americana from Technical Mount]]** (2% of attempts)
 
-- **[[Armbar from Technical Mount]]** (2% of attempts)
+- **[[Submissions/Armbar from Technical Mount]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -219,27 +219,27 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 ## Related Positions
 
 
-- **[[Mount]]** - Parent position from which technical mount is most commonly entered
+- **[[Positions/Mount]]** - Parent position from which technical mount is most commonly entered
 
-- **[[S Mount]]** - Alternative name and closely related mount variation sharing leg configuration
+- **[[Positions/Mount/S Mount]]** - Alternative name and closely related mount variation sharing leg configuration
 
-- **[[High Mount]]** - Related mount variation sharing high positioning and increased submission threats
+- **[[Positions/Mount/High Mount]]** - Related mount variation sharing high positioning and increased submission threats
 
-- **[[Armbar Control]]** - Primary finishing position from technical mount transitions
+- **[[Positions/Armbar Control]]** - Primary finishing position from technical mount transitions
 
-- **[[Mounted Triangle]]** - Secondary submission target when opponent defends armbar by pulling arm back
+- **[[Positions/Mount/Mounted Triangle]]** - Secondary submission target when opponent defends armbar by pulling arm back
 
-- **[[Back Control]]** - Common advancement when opponent turns away to escape submission threats
+- **[[Positions/Back Control]]** - Common advancement when opponent turns away to escape submission threats
 
-- **[[Gift Wrap]]** - Control position available when opponent uses free arm to defend
+- **[[Positions/Gift Wrap]]** - Control position available when opponent uses free arm to defend
 
-- **[[Half Guard]]** - Common escape target from technical mount bottom perspective
+- **[[Positions/Half Guard]]** - Common escape target from technical mount bottom perspective
 
-- **[[Turtle]]** - Emergency escape option from bottom often leading to further transitions
+- **[[Positions/Turtle]]** - Emergency escape option from bottom often leading to further transitions
 
-- **[[Side Control]]** - Alternative top control position if technical mount cannot be maintained
+- **[[Positions/Side Control]]** - Alternative top control position if technical mount cannot be maintained
 
-- **[[Mounted Crucifix]]** - Alternative controlling mount variation accessible from similar arm isolation setups
+- **[[Positions/Mount/Mounted Crucifix]]** - Alternative controlling mount variation accessible from similar arm isolation setups
 
 
 </section>

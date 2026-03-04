@@ -154,7 +154,7 @@ description: "Defend against the standing guard break in closed guard. Learn rec
 
 As the defender against the stand up in closed guard, you are the bottom player in closed guard whose opponent is attempting to stand to break your guard open. Your defensive strategy operates on three layers: first, prevent the stand-up entirely through grip fighting and posture attacks; second, if they begin standing, exploit the transitional phase for sweeps and submissions; third, if they achieve standing position, manage the guard opening to transition into an organized offensive open guard rather than a scramble. Understanding each layer and recognizing the correct timing to switch between them is essential for effective defense. The best defenders do not simply react to the stand-up—they create conditions that make standing dangerous, turning the opponent's guard-breaking attempt into an offensive opportunity for sweeps and back takes.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ As the defender against the stand up in closed guard, you are the bottom player 
 ### 1. Break posture with aggressive collar drag and sleeve pull before opponent establishes standing base
 
 - **When to use**: At the earliest recognition—when you feel their hands move to your hips and weight begin shifting backward, before they post a foot
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Opponent collapses back to kneeling position with broken posture, returning to standard closed guard battle where you have offensive advantage
 - **Risk**: If timed too late after they have already posted a foot, the collar drag lacks sufficient leverage to prevent the stand and you may lose your grip position
 
 ### 2. Execute hip bump sweep during the single-knee-up transition phase when opponent's base is most compromised
 
 - **When to use**: When opponent has posted one foot but has not yet achieved full standing position—their weight is transitioning upward and their base is narrowest
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Opponent is swept to their back during the standing transition, and you end up in a dominant or neutral position from the scramble
 - **Risk**: If opponent has already established strong hand pressure on your hips, the hip bump may lack sufficient power to overcome their base
 
 ### 3. Hook opponent's posted leg with your arm and execute an overhead or flower sweep using their upward momentum against them
 
 - **When to use**: When opponent is mid-stand and committed to the upward motion, making it difficult for them to change direction or recover base laterally
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You use their standing momentum to complete the sweep, ending in top position or a favorable scramble with their leg trapped
 - **Risk**: Releasing guard control to hook the leg may accelerate the guard opening if the sweep fails, leaving you in a worse defensive position
 
 ### 4. Open guard proactively and immediately establish feet on hips with strong collar and sleeve grips before opponent can control your legs
 
 - **When to use**: When opponent has achieved full standing position with stable base and continued closed guard retention is unsustainable against gravity pressure
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You transition to an organized open guard with active frames and grips rather than having your guard forcibly broken, maintaining offensive capability
 - **Risk**: Opening guard voluntarily concedes the guard break but maintains control of the transition rather than being forced into a defensive scramble
 
@@ -224,11 +224,11 @@ As the defender against the stand up in closed guard, you are the bottom player 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Break their posture with an aggressive collar drag or sleeve pull before they can establish a posted foot. The earlier you recognize the stand-up attempt and attack their posture, the higher your success rate. Combine a strong cross-collar pull with heel pressure into their lower back to collapse their postural structure back to the kneeling position.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a hip bump sweep or flower sweep during the vulnerable single-knee-up transition phase when their base is narrowest and their weight is shifting upward. Use their upward momentum against them by directing the sweeping force perpendicular to their direction of travel, catching them in the least stable moment of the standing sequence.
 

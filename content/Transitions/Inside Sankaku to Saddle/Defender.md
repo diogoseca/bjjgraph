@@ -154,7 +154,7 @@ description: "Learn to recognize and defend the Inside Sankaku to Saddle transit
 
 From the defender's perspective, preventing the Inside Sankaku to Saddle transition is critically important because Saddle represents a dramatic escalation in positional danger. While Inside Sankaku already threatens the heel hook, the defender retains meaningful escape options through knee line clearance and hip mobility. Once Saddle is established with perpendicular hip pressure and bilateral leg control, escape probability drops significantly and submission danger increases substantially. The defender must recognize the early indicators of a Saddle entry attempt and act decisively during the narrow window when the attacker is reconfiguring their legs, exploiting the momentary reduction in control that occurs during any positional transition. Understanding the attacker's mechanics is essential for timing defensive actions correctly rather than reacting after the Saddle is already consolidated.
 
-**Opponent's Starting Position**: [[Inside Sankaku]] (Top)
+**Opponent's Starting Position**: [[Positions/Inside Sankaku]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ From the defender's perspective, preventing the Inside Sankaku to Saddle transit
 ### 1. Frame on attacker's hip with both hands during the hip switch to block perpendicular alignment
 
 - **When to use**: As soon as you feel the attacker's hips begin rotating or their outside leg releasing from the figure-four
-- **Targets**: [[Inside Sankaku]]
+- **Targets**: [[Positions/Inside Sankaku]]
 - **If successful**: Attacker cannot achieve perpendicular alignment and must abandon the Saddle attempt, returning to Inside Sankaku where your escape options remain viable
 - **Risk**: If the frame is stripped or overcome, you may have repositioned your hands away from heel protection, making you more vulnerable to immediate submission
 
 ### 2. Explosive hip escape away during the figure-four release to extract trapped leg
 
 - **When to use**: During the brief moment when the attacker releases their figure-four to reconfigure their outside leg, creating a gap in the entanglement structure
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Complete leg extraction during the transition window, recovering to Half Guard top while the attacker ends up in Half Guard bottom
 - **Risk**: If the attacker maintains their inside leg hook and follows your hip escape, you may end up in a worse position with your leg still trapped and frames compromised
 
 ### 3. Counter-rotate away from the attacker by turning your body in the opposite direction of their hip switch
 
 - **When to use**: When you recognize the early stages of the hip switch before the attacker has committed to the rotation
-- **Targets**: [[Inside Sankaku]]
+- **Targets**: [[Positions/Inside Sankaku]]
 - **If successful**: Your counter-rotation prevents the perpendicular angle from being established, keeping the attacker in Inside Sankaku where you can continue working standard escape protocols
 - **Risk**: If the attacker anticipates the counter-rotation and adjusts their angle, your rotation may expose the heel more directly
 
 ### 4. Post free leg on attacker's hip and extend forcefully to create distance during the transition
 
 - **When to use**: When the attacker begins driving their hips forward during the reconfiguration phase
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Distance created by the leg post weakens the entanglement enough for leg extraction, especially when combined with hands stripping remaining grip control
 - **Risk**: Committing the free leg to a push may leave you without a secondary frame if the push fails to create sufficient distance
 
@@ -224,11 +224,11 @@ From the defender's perspective, preventing the Inside Sankaku to Saddle transit
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the momentary gap when the attacker releases their figure-four by combining an explosive hip escape with free leg posting on their hip. Time the extraction to the exact moment of the leg reconfiguration when control is weakest. Strip any remaining grip with your hands as you pull the trapped leg free.
 
-### → [[Inside Sankaku]]
+### → [[Positions/Inside Sankaku]]
 
 Prevent the transition by establishing strong frames on the attacker's hip before they achieve perpendicular alignment. Use your free leg and both hands to block their hip rotation and maintain the existing Inside Sankaku angle where your standard escape options remain available.
 

@@ -186,7 +186,7 @@ description: "How to execute Stack Pass in BJJ. Complete attacking guide with se
 
 The Stack Pass is a fundamental pressure passing technique that uses vertical pressure and weight distribution to break through the guard. By driving the opponent's knees toward their chest and stacking their hips over their shoulders, you create a mechanical disadvantage that makes guard retention extremely difficult. This pass is particularly effective against opponents who rely on active guard retention, as the stacking pressure limits their hip mobility and ability to create defensive frames. The technique requires excellent base, timing, and the ability to maintain heavy top pressure while navigating past the legs. When executed properly, the Stack Pass transitions seamlessly into dominant side control or mount positions.
 
-**From Position**: [[Closed Guard]] (Top)
+**From Position**: [[Positions/Closed Guard]] (Top)
 
 </section>
 
@@ -241,9 +241,9 @@ The Stack Pass is a fundamental pressure passing technique that uses vertical pr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 62% |
-| Failure | [[Closed Guard]] | 23% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 62% |
+| Failure | [[Positions/Closed Guard]] | 23% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -252,11 +252,11 @@ The Stack Pass is a fundamental pressure passing technique that uses vertical pr
 
 ## Opponent Counters
 
-- **Hip escape and shrimp away to create space before full stack is established** (Effectiveness: Medium) - Your Response: Follow their hips with your weight and maintain constant forward pressure. Do not allow any distance to develop between your chest and their legs. Keep your base wide and walk your feet forward as they shrimp to stay connected. → Leads to [[Closed Guard]]
-- **Guillotine choke attempt as you drive forward into the stack** (Effectiveness: High) - Your Response: Keep your head positioned to the side with chin tucked throughout the forward drive. Maintain your head below their chest line on the passing side. If caught, immediately posture up, strip the choking grip with both hands, and re-establish your passing grips before resuming the stack. → Leads to [[Closed Guard]]
-- **Granby roll or inversion to recover guard from the stacked position** (Effectiveness: Medium) - Your Response: Maintain tight leg control and follow their rolling momentum rather than fighting it. Use their inversion to advance past their legs and secure side control or back control. Do not release your grips during their roll. → Leads to [[Closed Guard]]
-- **Stiff-arm frames on your hips or shoulders to prevent forward pressure** (Effectiveness: Low) - Your Response: Drive through their frames by keeping your hips low and transferring weight forward through your center of gravity. Use your grips to pull their legs higher toward their face, which negates the mechanical advantage of their arm frames by compressing their structure. → Leads to [[Closed Guard]]
-- **Triangle choke attempt by controlling one arm and locking legs from the stacked position** (Effectiveness: Medium) - Your Response: Keep both arms either inside their legs or posted wide on the mat. Never allow them to isolate one arm inside and one outside their guard simultaneously. If they begin to close the triangle, stack even harder and use the pressure to strip their ankle lock and free your head. → Leads to [[Closed Guard]]
+- **Hip escape and shrimp away to create space before full stack is established** (Effectiveness: Medium) - Your Response: Follow their hips with your weight and maintain constant forward pressure. Do not allow any distance to develop between your chest and their legs. Keep your base wide and walk your feet forward as they shrimp to stay connected. → Leads to [[Positions/Closed Guard]]
+- **Guillotine choke attempt as you drive forward into the stack** (Effectiveness: High) - Your Response: Keep your head positioned to the side with chin tucked throughout the forward drive. Maintain your head below their chest line on the passing side. If caught, immediately posture up, strip the choking grip with both hands, and re-establish your passing grips before resuming the stack. → Leads to [[Positions/Closed Guard]]
+- **Granby roll or inversion to recover guard from the stacked position** (Effectiveness: Medium) - Your Response: Maintain tight leg control and follow their rolling momentum rather than fighting it. Use their inversion to advance past their legs and secure side control or back control. Do not release your grips during their roll. → Leads to [[Positions/Closed Guard]]
+- **Stiff-arm frames on your hips or shoulders to prevent forward pressure** (Effectiveness: Low) - Your Response: Drive through their frames by keeping your hips low and transferring weight forward through your center of gravity. Use your grips to pull their legs higher toward their face, which negates the mechanical advantage of their arm frames by compressing their structure. → Leads to [[Positions/Closed Guard]]
+- **Triangle choke attempt by controlling one arm and locking legs from the stacked position** (Effectiveness: Medium) - Your Response: Keep both arms either inside their legs or posted wide on the mat. Never allow them to isolate one arm inside and one outside their guard simultaneously. If they begin to close the triangle, stack even harder and use the pressure to strip their ankle lock and free your head. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

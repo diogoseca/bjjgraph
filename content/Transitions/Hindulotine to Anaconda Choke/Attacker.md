@@ -178,7 +178,7 @@ This transition is particularly effective from the bottom Hindulotine position b
 
 Strategically, threatening this transition forces opponents into a dilemma: maintain tight defensive posture and remain vulnerable to the guillotine, or create space to relieve pressure and expose themselves to the anaconda. Advanced practitioners use this dynamic to control the pace of engagement, keeping opponents reactive rather than allowing them to establish settled defensive positions.
 
-**From Position**: [[Hindulotine]] (Bottom)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -230,9 +230,9 @@ Strategically, threatening this transition forces opponents into a dilemma: main
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Anaconda Control]] | 65% |
-| Failure | [[Hindulotine]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Anaconda Control]] | 65% |
+| Failure | [[Positions/Hindulotine]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ Strategically, threatening this transition forces opponents into a dilemma: main
 
 ## Opponent Counters
 
-- **Opponent retracts defensive frame before you can thread your arm under their armpit** (Effectiveness: High) - Your Response: Return to standard Hindulotine pressure and wait for the next defensive reaction, or transition to a high elbow guillotine variation → Leads to [[Hindulotine]]
-- **Opponent circles their hips away to create angle and prevent the grip lock** (Effectiveness: Medium) - Your Response: Use your legs to follow their hip movement and maintain connection, or transition to back take if they turn too far → Leads to [[Hindulotine]]
-- **Opponent tucks chin and drives forward to stack you before grip is secured** (Effectiveness: Medium) - Your Response: Load their weight on butterfly hooks and threaten a sweep while maintaining neck control, forcing them to back off → Leads to [[Hindulotine]]
-- **Opponent postures up explosively to extract head before anaconda locks** (Effectiveness: Low) - Your Response: If they create significant space, transition to closed guard control; if partial escape, ratchet grip tighter and continue hip walk → Leads to [[Closed Guard]]
+- **Opponent retracts defensive frame before you can thread your arm under their armpit** (Effectiveness: High) - Your Response: Return to standard Hindulotine pressure and wait for the next defensive reaction, or transition to a high elbow guillotine variation → Leads to [[Positions/Hindulotine]]
+- **Opponent circles their hips away to create angle and prevent the grip lock** (Effectiveness: Medium) - Your Response: Use your legs to follow their hip movement and maintain connection, or transition to back take if they turn too far → Leads to [[Positions/Hindulotine]]
+- **Opponent tucks chin and drives forward to stack you before grip is secured** (Effectiveness: Medium) - Your Response: Load their weight on butterfly hooks and threaten a sweep while maintaining neck control, forcing them to back off → Leads to [[Positions/Hindulotine]]
+- **Opponent postures up explosively to extract head before anaconda locks** (Effectiveness: Low) - Your Response: If they create significant space, transition to closed guard control; if partial escape, ratchet grip tighter and continue hip walk → Leads to [[Positions/Closed Guard]]
 
 
 </section>

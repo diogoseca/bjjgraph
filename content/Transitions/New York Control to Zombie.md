@@ -21,7 +21,7 @@ This transition exemplifies the systematic philosophy of rubber guard: positions
 
 Strategic timing distinguishes successful practitioners. The transition must occur during the extraction process, not after the opponent has fully escaped. Attempting to hold a failing New York creates stalling positions without offensive options, while transitioning too early abandons viable submission chains. The sweet spot is when overhook depth becomes insufficient but before the opponent achieves full posture recovery - typically a 1-2 second window that requires pattern recognition and immediate response.
 
-**From Position**: [[New York Control]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/New York Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategic timing distinguishes successful practitioners. The transition must occ
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Zombie]] | 60% |
-| Failure | [[New York Control]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Zombie]] | 60% |
+| Failure | [[Positions/Rubber Guard/New York Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -187,25 +187,25 @@ New York Control to Zombie represents the systematic philosophy of 10th Planet J
 ## Related Techniques
 
 
-- [[New York Control]] - Starting position
+- [[Positions/Rubber Guard/New York Control]] - Starting position
 
-- [[Zombie]] - Target position
+- [[Positions/Rubber Guard/Zombie]] - Target position
 
-- [[Mission Control]] - Alternative recovery option from failing New York
+- [[Positions/Rubber Guard/Mission Control]] - Alternative recovery option from failing New York
 
-- [[Lockdown]] - Core mechanic of Zombie position
+- [[Positions/Half Guard/Lockdown]] - Core mechanic of Zombie position
 
-- [[Old School Sweep]] - Primary sweep from established Zombie
+- [[Transitions/Old School Sweep]] - Primary sweep from established Zombie
 
-- [[Electric Chair Submission]] - Primary submission from established Zombie
+- [[Submissions/Electric Chair Submission]] - Primary submission from established Zombie
 
-- [[Deep Half Guard]] - Alternative transition when opponent drives forward
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition when opponent drives forward
 
-- [[Crackhead Control to Mission Control]] - Related rubber guard transition
+- [[Transitions/Crackhead Control to Mission Control]] - Related rubber guard transition
 
-- [[Half Guard]] - Fallback position if Zombie fails
+- [[Positions/Half Guard]] - Fallback position if Zombie fails
 
-- [[Rubber Guard]] - Parent system
+- [[Positions/Rubber Guard]] - Parent system
 
 
 </section>

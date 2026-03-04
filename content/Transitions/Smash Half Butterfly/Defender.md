@@ -154,7 +154,7 @@ description: "Defend and counter the Smash Half Butterfly pass in BJJ. Learn rec
 
 Defending against the Smash Half Butterfly requires recognizing when the top player commits to a pressure-based approach to neutralize your butterfly hook. Your primary goal is to maintain the hook's effectiveness by preserving the space needed for elevation and preventing the top player from settling their weight directly onto the hook. Early recognition and proactive responses—including re-angling your hips, fighting for underhook position, and threatening sweeps to disrupt the passer's rhythm—are essential to preventing the smash from succeeding. If the hook is neutralized, you must immediately transition to alternative half guard defensive structures such as deep half guard rather than accepting a flattened position.
 
-**Opponent's Starting Position**: [[Half Butterfly]] (Top)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending against the Smash Half Butterfly requires recognizing when the top pla
 ### 1. Time a butterfly hook elevation sweep before the smash sequence fully develops
 
 - **When to use**: As soon as you feel the top player beginning to drop their hips and shift weight forward—must be executed before they establish the pin on your hook
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You sweep the top player and achieve top position, completely reversing the exchange
 - **Risk**: If mistimed, the elevation attempt creates space the top player drives through, pinning the hook more easily
 
 ### 2. Fight for underhook and come up to contest the position before being flattened
 
 - **When to use**: When the top player commits weight forward but before they achieve the crossface—your window is during their transition from upright to smash posture
-- **Targets**: [[Half Butterfly]]
+- **Targets**: [[Positions/Butterfly Guard/Half Butterfly]]
 - **If successful**: You prevent the smash by creating a contested scramble where your underhook gives you offensive leverage and prevents flattening
 - **Risk**: Top player may counter with overhook or whizzer, driving you back down with additional pressure
 
 ### 3. Hip escape away and re-angle to maintain butterfly hook spacing and effectiveness
 
 - **When to use**: When you feel chest pressure increasing but before the hook is fully pinned—create distance with a quick hip escape away from the pressure direction
-- **Targets**: [[Half Butterfly]]
+- **Targets**: [[Positions/Butterfly Guard/Half Butterfly]]
 - **If successful**: You maintain your butterfly hook in an effective position and reset the exchange from a more favorable angle with fresh framing
 - **Risk**: Excessive hip escape may create space the top player uses to advance past the hook entirely
 
 ### 4. Abandon the hook and transition to deep half guard by diving underneath
 
 - **When to use**: When the smash is partially successful and your hook is losing effectiveness—go deep rather than fighting a losing battle for hook retention
-- **Targets**: [[Half Butterfly]]
+- **Targets**: [[Positions/Butterfly Guard/Half Butterfly]]
 - **If successful**: You escape the smash pressure entirely and establish deep half guard, a strong sweeping position with different mechanics
 - **Risk**: If the top player reads the transition, they can sprawl and drive you flat, completing the pass before you establish deep half
 
@@ -224,11 +224,11 @@ Defending against the Smash Half Butterfly requires recognizing when the top pla
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a butterfly hook elevation as the top player commits weight forward during the initial phase of the smash. Use their forward momentum against them by combining the hook lift with an underhook on the far side to sweep them over the butterfly hook. The best window is during their hip-drop transition when their base is temporarily compromised.
 
-### → [[Half Butterfly]]
+### → [[Positions/Butterfly Guard/Half Butterfly]]
 
 Maintain aggressive hook engagement and active frames throughout the smash attempt. Fight for underhook position, keep your hips angled on your side, and threaten sweeps to disrupt the top player's pressure rhythm. If you prevent the hook from being pinned and keep the top player reacting to your threats, the smash technique fails and you retain your guard.
 

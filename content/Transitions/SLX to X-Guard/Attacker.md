@@ -180,7 +180,7 @@ description: "Learn to execute the SLX to X-Guard transition. Step-by-step leg t
 
 The SLX to X-Guard transition is executed by the bottom player who already has Single Leg X-Guard established and seeks to capture the opponent's free leg to create the more powerful X-Guard configuration. The attacker's primary objective is threading their outside foot behind the opponent's free knee while maintaining existing SLX control on the trapped leg. This requires coordinating hip elevation, perpendicular angle creation, and grip management to open the window needed for the leg thread. The transition capitalizes on the opponent's need to base with their free leg, using their defensive weight distribution against them to establish bilateral control. Success depends on reading the opponent's balance and timing the thread to coincide with moments when the free leg is stationary and loaded.
 
-**From Position**: [[Single Leg X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The SLX to X-Guard transition is executed by the bottom player who already has S
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[X-Guard]] | 55% |
-| Failure | [[Single Leg X-Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/X-Guard]] | 55% |
+| Failure | [[Positions/X-Guard/Single Leg X-Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The SLX to X-Guard transition is executed by the bottom player who already has S
 
 ## Opponent Counters
 
-- **Opponent steps free leg backward out of threading range when they feel the outside foot leave their hip** (Effectiveness: High) - Your Response: Follow their retreating leg by scooting your hips in the same direction to maintain reach, or immediately redirect to an SLX sweep exploiting the base compromise created by their backward step → Leads to [[Single Leg X-Guard]]
-- **Opponent drives forward with heavy pressure to flatten the bottom player when the outside foot releases the hip frame** (Effectiveness: Medium) - Your Response: Use the forward momentum to redirect into an ashi garami entry by following their leg forward, or use the pressure to create an undertook and sweep them over your body using their own drive → Leads to [[Single Leg X-Guard]]
-- **Opponent backsteps over the threading leg and begins a passing sequence while the bottom player is mid-transition** (Effectiveness: High) - Your Response: Immediately retract outside leg to recover hip frame and SLX structure, or follow the backstep with a hip turn to maintain guard connection and prevent the pass from completing → Leads to [[Open Guard]]
-- **Opponent strips the ankle grip and pushes the trapped knee free while attention is divided during the threading attempt** (Effectiveness: Medium) - Your Response: Re-establish grip immediately on their retreating leg or transition to butterfly guard using the momentum of their push, sitting up into a seated guard position with active hooks → Leads to [[Open Guard]]
+- **Opponent steps free leg backward out of threading range when they feel the outside foot leave their hip** (Effectiveness: High) - Your Response: Follow their retreating leg by scooting your hips in the same direction to maintain reach, or immediately redirect to an SLX sweep exploiting the base compromise created by their backward step → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Opponent drives forward with heavy pressure to flatten the bottom player when the outside foot releases the hip frame** (Effectiveness: Medium) - Your Response: Use the forward momentum to redirect into an ashi garami entry by following their leg forward, or use the pressure to create an undertook and sweep them over your body using their own drive → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Opponent backsteps over the threading leg and begins a passing sequence while the bottom player is mid-transition** (Effectiveness: High) - Your Response: Immediately retract outside leg to recover hip frame and SLX structure, or follow the backstep with a hip turn to maintain guard connection and prevent the pass from completing → Leads to [[Positions/Open Guard]]
+- **Opponent strips the ankle grip and pushes the trapped knee free while attention is divided during the threading attempt** (Effectiveness: Medium) - Your Response: Re-establish grip immediately on their retreating leg or transition to butterfly guard using the momentum of their push, sitting up into a seated guard position with active hooks → Leads to [[Positions/Open Guard]]
 
 
 </section>

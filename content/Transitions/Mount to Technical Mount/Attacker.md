@@ -180,7 +180,7 @@ description: "Master the offensive mechanics of transitioning from mount to tech
 
 The Mount to Technical Mount transition from the attacker's perspective is a deliberate positional advancement that converts stable mount control into an asymmetric attacking platform. The attacker reads the bottom player's defensive reactions—particularly turning to the side or initiating hip escapes—and capitalizes on these movements by posting the far leg while inserting a hook with the near leg. This creates the technical mount configuration that dramatically improves access to armbars, triangles, and back takes. The key challenge lies in timing: posting the leg too early sacrifices mount stability, while hesitating allows the opponent to complete their escape. Successful execution requires maintaining continuous pressure throughout the transition to prevent the opponent from using the brief positional adjustment to recover guard.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ The Mount to Technical Mount transition from the attacker's perspective is a del
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Technical Mount]] | 55% |
-| Failure | [[Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/Technical Mount]] | 55% |
+| Failure | [[Positions/Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ The Mount to Technical Mount transition from the attacker's perspective is a del
 
 ## Opponent Counters
 
-- **Opponent hip escapes aggressively during leg posting, recovering half guard before hook insertion completes** (Effectiveness: High) - Your Response: Follow the hip escape with your hips, driving forward pressure to prevent full guard recovery. If they catch your posting leg, immediately work to free it using knee slice mechanics rather than abandoning the transition entirely. → Leads to [[Half Guard]]
-- **Opponent frames on near-side hip with both hands, preventing weight transfer and creating distance to reguard** (Effectiveness: Medium) - Your Response: Attack the framing arms by threatening Americana on the bottom arm or isolating the top arm for wrist control. Alternatively, maintain heavy cross-face pressure to collapse their frame before reattempting the transition. → Leads to [[Mount]]
-- **Opponent bridges explosively during the weight shift, attempting to reverse or create scramble before position consolidates** (Effectiveness: Medium) - Your Response: Ride the bridge by keeping your base wide through the posted leg. Use the bridging momentum to accelerate your transition rather than fighting it. As they return to the mat, your hook should already be inserted and position consolidated. → Leads to [[Mount]]
-- **Opponent catches posted leg with their legs during posting, trapping it in half guard configuration before hook can be inserted** (Effectiveness: High) - Your Response: If the posted leg is caught, use knee slice mechanics to free it and complete the pass to side control, or return to standard mount by withdrawing the leg and re-establishing bilateral control. Do not fight from a compromised half-mount position. → Leads to [[Half Guard]]
+- **Opponent hip escapes aggressively during leg posting, recovering half guard before hook insertion completes** (Effectiveness: High) - Your Response: Follow the hip escape with your hips, driving forward pressure to prevent full guard recovery. If they catch your posting leg, immediately work to free it using knee slice mechanics rather than abandoning the transition entirely. → Leads to [[Positions/Half Guard]]
+- **Opponent frames on near-side hip with both hands, preventing weight transfer and creating distance to reguard** (Effectiveness: Medium) - Your Response: Attack the framing arms by threatening Americana on the bottom arm or isolating the top arm for wrist control. Alternatively, maintain heavy cross-face pressure to collapse their frame before reattempting the transition. → Leads to [[Positions/Mount]]
+- **Opponent bridges explosively during the weight shift, attempting to reverse or create scramble before position consolidates** (Effectiveness: Medium) - Your Response: Ride the bridge by keeping your base wide through the posted leg. Use the bridging momentum to accelerate your transition rather than fighting it. As they return to the mat, your hook should already be inserted and position consolidated. → Leads to [[Positions/Mount]]
+- **Opponent catches posted leg with their legs during posting, trapping it in half guard configuration before hook can be inserted** (Effectiveness: High) - Your Response: If the posted leg is caught, use knee slice mechanics to free it and complete the pass to side control, or return to standard mount by withdrawing the leg and re-establishing bilateral control. Do not fight from a compromised half-mount position. → Leads to [[Positions/Half Guard]]
 
 
 </section>

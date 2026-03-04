@@ -201,25 +201,25 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 
 ## Available Escapes
 
-### [[Triangle Setup]] (40% of attempts)
+### [[Transitions/Triangle Setup]] (40% of attempts)
 
-### [[Omoplata]] (15% of attempts)
+### [[Transitions/Omoplata]] (15% of attempts)
 
-### [[Mission Control Entry from Rubber Guard]] (12% of attempts)
+### [[Transitions/Mission Control Entry from Rubber Guard]] (12% of attempts)
 
-### [[Rubber Guard to Closed Guard]] (7% of attempts)
+### [[Transitions/Rubber Guard to Closed Guard]] (7% of attempts)
 
-### [[New York Entry from Rubber Guard]] (5% of attempts)
+### [[Transitions/New York Entry from Rubber Guard]] (5% of attempts)
 
-### [[Hip Bump Sweep]] (5% of attempts)
+### [[Transitions/Hip Bump Sweep]] (5% of attempts)
 
-### [[Omoplata Sweep]] (5% of attempts)
+### [[Transitions/Omoplata Sweep]] (5% of attempts)
 
-### [[Gogoplata]] (4% of attempts)
+### [[Transitions/Gogoplata]] (4% of attempts)
 
-### [[Rubber Guard Sweep]] (4% of attempts)
+### [[Transitions/Rubber Guard Sweep]] (4% of attempts)
 
-### [[Crackhead Control Entry]] (3% of attempts)
+### [[Transitions/Crackhead Control Entry]] (3% of attempts)
 
 
 
@@ -230,28 +230,28 @@ The Rubber Guard from the bottom perspective represents one of the most innovati
 ## Decision Making from This Position
 
 **If opponent establishes strong posture and begins pulling trapped arm free:**
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 60%)
-- Execute **[[Omoplata]]** → [[Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 60%)
+- Execute **[[Transitions/Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
 
 
 **If opponent drives forward with pressure attempting to smash or stack:**
-- Execute **[[Omoplata Sweep]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 45%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 **If opponent sits back and attempts to break open the guard:**
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 55%)
-- Execute **[[Omoplata]]** → [[Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
 
 
 **If opponent successfully breaks leg grip but remains in guard:**
-- Execute **[[Rubber Guard to Closed Guard]]** → [[Closed Guard]] (Probability: 70%)
-- Execute **[[Mission Control Entry from Rubber Guard]]** → [[Mission Control]] (Probability: 55%)
+- Execute **[[Transitions/Rubber Guard to Closed Guard]]** → [[Positions/Closed Guard]] (Probability: 70%)
+- Execute **[[Transitions/Mission Control Entry from Rubber Guard]]** → [[Positions/Rubber Guard/Mission Control]] (Probability: 55%)
 
 
 **If opponent freezes without reacting and allows system advancement:**
-- Execute **[[Gogoplata]]** → [[Gogoplata Control]] (Probability: 65%)
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Gogoplata]]** → [[Positions/Gogoplata Control]] (Probability: 65%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
 
 
 
@@ -353,15 +353,15 @@ Start in established Rubber Guard position. Flow between triangle, omoplata, and
 
 ## Related Positions and Techniques
 
-- **[[Mission Control]]** - Primary sub-position within Rubber Guard system representing foundational control configuration
-- **[[New York Control]]** - Advanced Rubber Guard variation emphasizing omoplata threat and enhanced arm isolation
-- **[[Invisible Collar]]** - Submission setup position from Rubber Guard focusing on neck control without gi grips
-- **[[Crackhead Control]]** - Variation emphasizing extreme arm isolation and shoulder pressure for advanced practitioners
-- **[[Closed Guard]]** - Foundational position from which Rubber Guard is entered through posture breaking and leg elevation
-- **[[Triangle Control]]** - Primary submission target from Rubber Guard with multiple entry pathways from different variations
-- **[[Omoplata Control]]** - Secondary submission target particularly effective from New York position within Rubber Guard
-- **[[Gogoplata Control]]** - Advanced submission target requiring extreme flexibility and precise shin-across-throat positioning
-- **[[Carni]]** - High-level Rubber Guard variation combining multiple control points for advanced submission setups
+- **[[Positions/Rubber Guard/Mission Control]]** - Primary sub-position within Rubber Guard system representing foundational control configuration
+- **[[Positions/Rubber Guard/New York Control]]** - Advanced Rubber Guard variation emphasizing omoplata threat and enhanced arm isolation
+- **[[Positions/Rubber Guard/Invisible Collar]]** - Submission setup position from Rubber Guard focusing on neck control without gi grips
+- **[[Positions/Crackhead Control]]** - Variation emphasizing extreme arm isolation and shoulder pressure for advanced practitioners
+- **[[Positions/Closed Guard]]** - Foundational position from which Rubber Guard is entered through posture breaking and leg elevation
+- **[[Positions/Triangle Control]]** - Primary submission target from Rubber Guard with multiple entry pathways from different variations
+- **[[Positions/Omoplata Control]]** - Secondary submission target particularly effective from New York position within Rubber Guard
+- **[[Positions/Gogoplata Control]]** - Advanced submission target requiring extreme flexibility and precise shin-across-throat positioning
+- **[[Positions/Rubber Guard/Carni]]** - High-level Rubber Guard variation combining multiple control points for advanced submission setups
 
 
 </section>

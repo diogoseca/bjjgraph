@@ -19,7 +19,7 @@ Guard Recovery from Jailbreak is a defensive transition where the bottom player 
 
 The biomechanical challenge of this recovery lies in the non-standard body alignment that results from a failed inversion. Unlike standard guard recovery from side control where the defender starts flat on their back with a predictable orientation, the post-Jailbreak position may leave the bottom player twisted, partially inverted, or angled away from the opponent. This requires an additional orientation step before the standard frame-escape-recompose sequence can begin. The recovery window is narrow: the bottom player typically has three to five seconds before the top player capitalizes on the disorganized body position to establish dominant control. Practitioners who develop automatic post-inversion orientation and framing responses dramatically increase their guard recovery success rate, transforming what would otherwise be a catastrophic positional failure into a manageable defensive transition.
 
-**From Position**: [[Jailbreak]] (Bottom)
+**From Position**: [[Positions/Jailbreak]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -30,9 +30,9 @@ The biomechanical challenge of this recovery lies in the non-standard body align
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 45% |
-| Failure | [[Jailbreak]] | 30% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Open Guard]] | 45% |
+| Failure | [[Positions/Jailbreak]] | 30% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -189,25 +189,25 @@ Guard Recovery from Jailbreak occupies a critical defensive node in the half gua
 ## Related Techniques
 
 
-- [[Jailbreak]] - Source position - the compromised Jailbreak state from which this guard recovery initiates
+- [[Positions/Jailbreak]] - Source position - the compromised Jailbreak state from which this guard recovery initiates
 
-- [[Open Guard]] - Primary recovery target - reestablished open guard providing distance management and offensive options
+- [[Positions/Open Guard]] - Primary recovery target - reestablished open guard providing distance management and offensive options
 
-- [[Side Control]] - Counter outcome position when top player consolidates control during failed recovery attempt
+- [[Positions/Side Control]] - Counter outcome position when top player consolidates control during failed recovery attempt
 
-- [[Half Guard]] - Related position - Jailbreak originates from half guard and recovery may pass through half guard mechanics
+- [[Positions/Half Guard]] - Related position - Jailbreak originates from half guard and recovery may pass through half guard mechanics
 
-- [[Turtle]] - Alternative outcome when Jailbreak succeeds fully, avoiding the need for guard recovery
+- [[Positions/Turtle]] - Alternative outcome when Jailbreak succeeds fully, avoiding the need for guard recovery
 
-- [[Butterfly Guard]] - Alternative guard recovery option using butterfly hooks when reinserting legs from scramble position
+- [[Positions/Butterfly Guard]] - Alternative guard recovery option using butterfly hooks when reinserting legs from scramble position
 
-- [[Knee Shield Half Guard]] - Intermediate recovery position using knee shield as a barrier during transition from Jailbreak to full guard
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Intermediate recovery position using knee shield as a barrier during transition from Jailbreak to full guard
 
-- [[Seated Guard]] - Alternative guard recovery outcome when bottom player achieves seated position during scramble
+- [[Positions/Seated Guard]] - Alternative guard recovery outcome when bottom player achieves seated position during scramble
 
-- [[De La Riva Guard]] - Advanced recovery option when bottom player can hook the opponent's lead leg during recomposition
+- [[Positions/De La Riva Guard]] - Advanced recovery option when bottom player can hook the opponent's lead leg during recomposition
 
-- [[Inverted Guard]] - Related guard system that shares inversion mechanics with Jailbreak movement patterns
+- [[Positions/Inverted Guard]] - Related guard system that shares inversion mechanics with Jailbreak movement patterns
 
 
 </section>

@@ -158,7 +158,7 @@ The fundamental defensive strategy centers on denying the trigger. The back take
 
 At the competition level, the defender's goal is not merely survival but creating a counter-dilemma. By threatening to stand, turn into guard, or re-engage the leg entanglement on your own terms, you force the attacker to commit to either maintaining ashi control or pursuing the back take. This commitment gives you information about their intention and allows you to react accordingly rather than guessing which attack is coming.
 
-**Opponent's Starting Position**: [[Inside Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ At the competition level, the defender's goal is not merely survival but creatin
 ### 1. Immediately turn into the attacker and establish closed guard by facing them and closing your legs around their waist before they can complete the circle to your back
 
 - **When to use**: When you feel the inside leg release from your hip and the attacker begins circling, but before they establish seatbelt or first hook
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You face the attacker in closed guard or open guard, neutralizing the back take and resetting to a guard position where you have defensive options
 - **Risk**: If too slow, attacker establishes partial back control and you end up in a worse scramble with their hooks partially inserted
 
 ### 2. Stand up explosively and create distance by driving your hips forward and away, stripping any remaining leg hooks and upper body grips through posture and movement
 
 - **When to use**: Early in the transition when attacker has released inside leg but has not yet secured strong upper body control or seatbelt grip
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You escape to standing position with full mobility, forcing a complete reset to neutral or allowing you to re-engage on your terms
 - **Risk**: If attacker maintains grip on your leg or upper body, they can use your standing momentum to pull themselves to standing back control
 
 ### 3. Turtle defensively by dropping to hands and knees with tight elbows and tucked chin, denying the clean back take and forcing attacker to work from turtle top instead
 
 - **When to use**: When the attacker has already begun establishing back position and turning into guard is no longer viable, but full back control is not yet secured
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You reach turtle position where standard back defense and escape protocols apply, and the attacker must restart their back take sequence from turtle top
 - **Risk**: Turtle position still exposes your back and the attacker may have momentum and grips that allow immediate back control from turtle
 
 ### 4. Re-engage the leg entanglement by grabbing the attacker's leg as they release control and pulling it back into a 50-50 or counter ashi configuration
 
 - **When to use**: When the attacker releases leg control to circle and you can catch their leg before they fully disengage from the entanglement
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Both players return to leg entanglement where you now have equal or better positioning since their transition attempt disrupted their original control
 - **Risk**: Reaching for their leg may further expose your back if you fail to secure the re-entanglement
 
@@ -228,11 +228,11 @@ At the competition level, the defender's goal is not merely survival but creatin
 
 ## Best-Case Outcomes for Defender
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Deny the back take trigger by maintaining low posture during leg lock defense, or turn into the attacker immediately when they release inside leg control to establish guard position. Alternatively, stand explosively before seatbelt is established to force a complete positional reset.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 When the attacker has already begun circling and turning into guard is too late, drop to tight defensive turtle with elbows to knees and chin tucked. This prevents clean back control and forces the attacker to restart their attack sequence from turtle top, where you have established defensive protocols available.
 

@@ -178,7 +178,7 @@ The mechanics rely on recognizing the specific defensive reactions that create m
 
 Strategically, this transition serves multiple purposes in a systematic game plan. First, it provides an escape route when the gogoplata is defended without conceding position. Second, it creates a genuine dilemma for the defender who must choose between accepting submission pressure or giving up the mount. Third, it demonstrates how guard attacks and positional advancement can be seamlessly integrated rather than treated as separate objectives. The high mount achieved provides immediate access to Americana, mounted triangle, and S-mount attacks, making this transition a gateway to multiple finishing sequences.
 
-**From Position**: [[Gogoplata Control]] (Bottom)
+**From Position**: [[Positions/Gogoplata Control]] (Bottom)
 
 </section>
 
@@ -230,9 +230,9 @@ Strategically, this transition serves multiple purposes in a systematic game pla
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[High Mount]] | 58% |
-| Failure | [[Gogoplata Control]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/High Mount]] | 58% |
+| Failure | [[Positions/Gogoplata Control]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ Strategically, this transition serves multiple purposes in a systematic game pla
 
 ## Opponent Counters
 
-- **Opponent frames on hips during transition to prevent mount establishment** (Effectiveness: Medium) - Your Response: Swim your knee inside their frame before they can fully establish, or transition to knee on belly as intermediate position before forcing mount → Leads to [[Gogoplata Control]]
-- **Opponent bridges immediately as you establish mount to off-balance** (Effectiveness: High) - Your Response: Post hands wide and ride the bridge maintaining chest pressure, then return to high mount as they settle. Grapevine legs if bridges continue → Leads to [[Gogoplata Control]]
-- **Opponent turns to turtle during the transition rather than accepting mount** (Effectiveness: Medium) - Your Response: Follow to back control position, establishing seatbelt grip as they turtle. The turtle is often a better outcome than mount due to back exposure → Leads to [[High Mount]]
-- **Opponent traps your leg in half guard as you attempt to swing over** (Effectiveness: High) - Your Response: Accept half guard top temporarily and work standard half guard passing sequences. Maintain upper body pressure to prevent guard recovery → Leads to [[Half Guard]]
+- **Opponent frames on hips during transition to prevent mount establishment** (Effectiveness: Medium) - Your Response: Swim your knee inside their frame before they can fully establish, or transition to knee on belly as intermediate position before forcing mount → Leads to [[Positions/Gogoplata Control]]
+- **Opponent bridges immediately as you establish mount to off-balance** (Effectiveness: High) - Your Response: Post hands wide and ride the bridge maintaining chest pressure, then return to high mount as they settle. Grapevine legs if bridges continue → Leads to [[Positions/Gogoplata Control]]
+- **Opponent turns to turtle during the transition rather than accepting mount** (Effectiveness: Medium) - Your Response: Follow to back control position, establishing seatbelt grip as they turtle. The turtle is often a better outcome than mount due to back exposure → Leads to [[Positions/Mount/High Mount]]
+- **Opponent traps your leg in half guard as you attempt to swing over** (Effectiveness: High) - Your Response: Accept half guard top temporarily and work standard half guard passing sequences. Maintain upper body pressure to prevent guard recovery → Leads to [[Positions/Half Guard]]
 
 
 </section>

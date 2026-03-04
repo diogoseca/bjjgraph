@@ -186,7 +186,7 @@ description: "Master executing the inverted lasso guard pass from top. Step-by-s
 
 Passing the inverted lasso guard from top position requires dismantling a mechanically sophisticated guard structure that converts your forward pressure into sweep momentum. As the passer, your primary challenge is that conventional guard passing responses become counterproductive against an inverted opponent: driving forward feeds sweeps, backing away opens berimbolo, and remaining static allows the guard player to generate angles at will. Success demands early recognition of the inversion, immediate control of the free leg to eliminate berimbolo threats, systematic weakening of the lasso structure through grip fighting and directional pressure, then decisive extraction of the trapped arm followed by immediate transition to a completed pass before the guard can be re-established. The entire sequence must flow without hesitation, as pauses in the passing chain allow the guard player to reload their offensive threats.
 
-**From Position**: [[Inverted Lasso Guard]] (Top)
+**From Position**: [[Positions/Lasso Guard/Inverted Lasso Guard]] (Top)
 
 </section>
 
@@ -239,10 +239,10 @@ Passing the inverted lasso guard from top position requires dismantling a mechan
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Failure | [[Half Guard]] | 20% |
-| Failure | [[Inverted Lasso Guard]] | 20% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Side Control]] | 45% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/Lasso Guard/Inverted Lasso Guard]] | 20% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ Passing the inverted lasso guard from top position requires dismantling a mechan
 
 ## Opponent Counters
 
-- **Opponent initiates berimbolo rotation by threading their free leg behind your back during the pass attempt** (Effectiveness: High) - Your Response: Follow their rotational direction with a cartwheel counter-pass rather than fighting against the rotation. Your free hand controls their far hip while you cartwheel over their rotating body, converting their berimbolo momentum into your passing trajectory. Fighting against rotation allows the back take to complete. → Leads to [[Back Control]]
-- **Opponent extends the lasso leg for an overhead sweep as you attempt to establish passing pressure** (Effectiveness: High) - Your Response: Immediately retreat your hips backward and widen your base to remove forward momentum from the sweep equation. If you are already partially lifted, redirect laterally rather than fighting the overhead trajectory. Once the sweep energy is spent, re-approach with controlled stack pressure angled at the shoulders. → Leads to [[Inverted Lasso Guard]]
-- **Opponent abandons the inverted position and transitions to standard lasso guard or De La Riva guard to reset the exchange** (Effectiveness: Medium) - Your Response: Capitalize on the transition window where neither the old inverted lasso nor the new guard is fully established. Apply immediate passing pressure during their guard reconfiguration, as the grip changes create momentary structural weakness that standard knee cuts or toreando passes can exploit. → Leads to [[Inverted Lasso Guard]]
-- **Opponent inserts a knee shield as you attempt to clear legs for side control, recovering to half guard position** (Effectiveness: Medium) - Your Response: Accept the half guard position rather than forcing the full pass completion against the established knee shield. From half guard top, apply standard knee slide or smash pass sequences. The half guard outcome still represents significant positional advancement from the inverted lasso starting point. → Leads to [[Half Guard]]
+- **Opponent initiates berimbolo rotation by threading their free leg behind your back during the pass attempt** (Effectiveness: High) - Your Response: Follow their rotational direction with a cartwheel counter-pass rather than fighting against the rotation. Your free hand controls their far hip while you cartwheel over their rotating body, converting their berimbolo momentum into your passing trajectory. Fighting against rotation allows the back take to complete. → Leads to [[Positions/Back Control]]
+- **Opponent extends the lasso leg for an overhead sweep as you attempt to establish passing pressure** (Effectiveness: High) - Your Response: Immediately retreat your hips backward and widen your base to remove forward momentum from the sweep equation. If you are already partially lifted, redirect laterally rather than fighting the overhead trajectory. Once the sweep energy is spent, re-approach with controlled stack pressure angled at the shoulders. → Leads to [[Positions/Lasso Guard/Inverted Lasso Guard]]
+- **Opponent abandons the inverted position and transitions to standard lasso guard or De La Riva guard to reset the exchange** (Effectiveness: Medium) - Your Response: Capitalize on the transition window where neither the old inverted lasso nor the new guard is fully established. Apply immediate passing pressure during their guard reconfiguration, as the grip changes create momentary structural weakness that standard knee cuts or toreando passes can exploit. → Leads to [[Positions/Lasso Guard/Inverted Lasso Guard]]
+- **Opponent inserts a knee shield as you attempt to clear legs for side control, recovering to half guard position** (Effectiveness: Medium) - Your Response: Accept the half guard position rather than forcing the full pass completion against the established knee shield. From half guard top, apply standard knee slide or smash pass sequences. The half guard outcome still represents significant positional advancement from the inverted lasso starting point. → Leads to [[Positions/Half Guard]]
 
 
 </section>

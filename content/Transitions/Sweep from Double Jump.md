@@ -21,7 +21,7 @@ The sweep operates on the fundamental principle that once both legs are seated u
 
 Strategic context places this sweep as a high-reward terminal option within the Double Jump bottom ecosystem. While many practitioners use Double Jump primarily as a gateway to deep half guard entries and progressive sweeping chains, the direct sweep to mount represents a competition-decisive action that can dramatically shift match dynamics. The technique is particularly effective against aggressive pressure passers whose forward weight commitment provides the momentum needed for the reversal, making their own offensive pressure the catalyst for their positional collapse.
 
-**From Position**: [[Double Jump]] (Bottom)
+**From Position**: [[Positions/Double Jump]] (Bottom)
 **Success Rate**: 43%
 
 </section>
@@ -32,9 +32,9 @@ Strategic context places this sweep as a high-reward terminal option within the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 43% |
-| Failure | [[Double Jump]] | 37% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Mount]] | 43% |
+| Failure | [[Positions/Double Jump]] | 37% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -187,25 +187,25 @@ The Sweep from Double Jump occupies a critical terminal position within the Doub
 ## Related Techniques
 
 
-- [[Double Jump]] - Source position from which this sweep is executed
+- [[Positions/Double Jump]] - Source position from which this sweep is executed
 
-- [[Mount]] - Primary success destination after completing the sweep
+- [[Positions/Mount]] - Primary success destination after completing the sweep
 
-- [[Side Control]] - Counter outcome position when opponent successfully defends and passes
+- [[Positions/Side Control]] - Counter outcome position when opponent successfully defends and passes
 
-- [[Deep Half Guard]] - Related system entry when sweep is not immediately available from Double Jump
+- [[Positions/Half Guard/Deep Half Guard]] - Related system entry when sweep is not immediately available from Double Jump
 
-- [[Deep Half Sweep]] - Related sweep technique from the deep half guard position using similar mechanics
+- [[Transitions/Deep Half Sweep]] - Related sweep technique from the deep half guard position using similar mechanics
 
-- [[Homer Simpson Sweep]] - Related 10th Planet sweep sharing similar leg elevation principles
+- [[Transitions/Homer Simpson Sweep]] - Related 10th Planet sweep sharing similar leg elevation principles
 
-- [[100% Sweep]] - Alternative sweep option from similar leg positioning under opponent
+- [[Transitions/100% Sweep]] - Alternative sweep option from similar leg positioning under opponent
 
-- [[Old School Sweep]] - Foundational deep half sweep technique using comparable underhook mechanics
+- [[Transitions/Old School Sweep]] - Foundational deep half sweep technique using comparable underhook mechanics
 
-- [[Escape Double Jump]] - Opponent's escape pathway when sweep attempt stalls in neutral
+- [[Transitions/Escape Double Jump]] - Opponent's escape pathway when sweep attempt stalls in neutral
 
-- [[Electric Chair Entry from Deep Half]] - Chain attack option when sweep is defended but leg control maintained
+- [[Transitions/Electric Chair Entry from Deep Half]] - Chain attack option when sweep is defended but leg control maintained
 
 
 </section>

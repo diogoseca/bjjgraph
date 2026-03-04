@@ -180,7 +180,7 @@ description: "Complete guide to executing the reguard from Double Jump bottom in
 
 As the attacker executing the reguard from Double Jump, your objective is to transition from the dynamic but potentially compromised Double Jump bottom position to the defensive stability and offensive versatility of closed guard. This requires methodical space creation through frames, precise hip movement to extract legs from underneath the opponent, and explosive guard closure before the top player can advance to a passing position. The technique demands patience to recognize the optimal moment for execution and commitment to complete the full transition without pausing in vulnerable intermediate positions. Unlike the Escape Double Jump which settles for half guard, this reguard targets full closed guard, requiring greater range of motion but yielding a significantly more offensive recovery position.
 
-**From Position**: [[Double Jump]] (Bottom)
+**From Position**: [[Positions/Double Jump]] (Bottom)
 
 </section>
 
@@ -232,10 +232,10 @@ As the attacker executing the reguard from Double Jump, your objective is to tra
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 40% |
-| Failure | [[Double Jump]] | 30% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 40% |
+| Failure | [[Positions/Double Jump]] | 30% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the reguard from Double Jump, your objective is to tra
 
 ## Opponent Counters
 
-- **Opponent drives heavy forward pressure to prevent hip escape and flatten bottom player** (Effectiveness: High) - Your Response: Use the forward pressure to redirect into guard closure by maintaining your frame and timing the hip escape for the moment their drive peaks. Their forward commitment actually assists guard closure if you can establish the hip angle first. → Leads to [[Double Jump]]
-- **Opponent widens base and posts hands to prevent legs from closing around their waist** (Effectiveness: Medium) - Your Response: Target half guard as an intermediate position by hooking one leg first, then work to upgrade from half guard to closed guard through knee shield adjustments. Accept the partial recovery rather than forcing an exposed guard closure. → Leads to [[Half Guard]]
-- **Opponent initiates guard pass during the vulnerable leg extraction and closure window** (Effectiveness: High) - Your Response: Maintain defensive frames at all costs and prioritize getting at least one hook in to prevent the complete guard pass. If closed guard cannot be achieved, settle for half guard to maintain some form of guard entanglement. → Leads to [[Side Control]]
-- **Opponent backsteps and circles to avoid guard closure while maintaining top position** (Effectiveness: Medium) - Your Response: If opponent creates distance by backstepping, use the space to recover butterfly guard or open guard instead of forcing closed guard closure. Their retreat gives you space to establish alternative guard configurations. → Leads to [[Double Jump]]
+- **Opponent drives heavy forward pressure to prevent hip escape and flatten bottom player** (Effectiveness: High) - Your Response: Use the forward pressure to redirect into guard closure by maintaining your frame and timing the hip escape for the moment their drive peaks. Their forward commitment actually assists guard closure if you can establish the hip angle first. → Leads to [[Positions/Double Jump]]
+- **Opponent widens base and posts hands to prevent legs from closing around their waist** (Effectiveness: Medium) - Your Response: Target half guard as an intermediate position by hooking one leg first, then work to upgrade from half guard to closed guard through knee shield adjustments. Accept the partial recovery rather than forcing an exposed guard closure. → Leads to [[Positions/Half Guard]]
+- **Opponent initiates guard pass during the vulnerable leg extraction and closure window** (Effectiveness: High) - Your Response: Maintain defensive frames at all costs and prioritize getting at least one hook in to prevent the complete guard pass. If closed guard cannot be achieved, settle for half guard to maintain some form of guard entanglement. → Leads to [[Positions/Side Control]]
+- **Opponent backsteps and circles to avoid guard closure while maintaining top position** (Effectiveness: Medium) - Your Response: If opponent creates distance by backstepping, use the space to recover butterfly guard or open guard instead of forcing closed guard closure. Their retreat gives you space to establish alternative guard configurations. → Leads to [[Positions/Double Jump]]
 
 
 </section>

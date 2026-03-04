@@ -93,11 +93,11 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 ### Available Transitions
 
 
-- **[[Guard Recovery from Combat Base]]** (35% of attempts)
+- **[[Transitions/Guard Recovery from Combat Base]]** (35% of attempts)
 
-- **[[Sweep from Combat Base]]** (35% of attempts)
+- **[[Transitions/Sweep from Combat Base]]** (35% of attempts)
 
-- **[[Pull Guard from Combat Base]]** (30% of attempts)
+- **[[Transitions/Pull Guard from Combat Base]]** (30% of attempts)
 
 
 ### Common Mistakes
@@ -162,23 +162,23 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 ### Available Transitions
 
 
-- **[[Knee Slide from Combat Base]]** (22% of attempts)
+- **[[Transitions/Knee Slide from Combat Base]]** (22% of attempts)
 
-- **[[Toreando Pass]]** (18% of attempts)
+- **[[Transitions/Toreando Pass]]** (18% of attempts)
 
-- **[[Leg Drag Pass]]** (15% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (15% of attempts)
 
-- **[[Combat Base to Headquarters]]** (13% of attempts)
+- **[[Transitions/Combat Base to Headquarters]]** (13% of attempts)
 
-- **[[Long Step Pass]]** (10% of attempts)
+- **[[Transitions/Long Step Pass]]** (10% of attempts)
 
-- **[[Standing Up from Combat Base]]** (5% of attempts)
+- **[[Transitions/Standing Up from Combat Base]]** (5% of attempts)
 
-- **[[Stand Up from Combat Base]]** (3% of attempts)
+- **[[Transitions/Stand Up from Combat Base]]** (3% of attempts)
 
-- **[[Smash Pass]]** (7% of attempts)
+- **[[Transitions/Smash Pass]]** (7% of attempts)
 
-- **[[Double Under Pass]]** (7% of attempts)
+- **[[Transitions/Double Under Pass]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -221,29 +221,29 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 ## Related Positions
 
 
-- **[[Closed Guard]]** - Precursor position - Combat Base is established after opening closed guard
+- **[[Positions/Closed Guard]]** - Precursor position - Combat Base is established after opening closed guard
 
-- **[[Open Guard]]** - Parent category - Combat Base is primary stance for top player in open guard
+- **[[Positions/Open Guard]]** - Parent category - Combat Base is primary stance for top player in open guard
 
-- **[[Side Control]]** - Primary transition target - Most common destination from combat base passing
+- **[[Positions/Side Control]]** - Primary transition target - Most common destination from combat base passing
 
-- **[[Headquarters Position]]** - Advanced variation - Deeper knee position with similar passing principles
+- **[[Positions/Headquarters Position]]** - Advanced variation - Deeper knee position with similar passing principles
 
-- **[[Toreando Pass]]** - Primary transition technique - Most common dynamic pass from combat base
+- **[[Transitions/Toreando Pass]]** - Primary transition technique - Most common dynamic pass from combat base
 
-- **[[Knee Slide from Combat Base]]** - Primary transition technique - High-percentage pressure pass from combat base
+- **[[Transitions/Knee Slide from Combat Base]]** - Primary transition technique - High-percentage pressure pass from combat base
 
-- **[[De La Riva Guard]]** - Counter position - Common guard retention response to combat base
+- **[[Positions/De La Riva Guard]]** - Counter position - Common guard retention response to combat base
 
-- **[[Leg Drag Control]]** - Transition target - Alternative passing position from combat base against hooks
+- **[[Positions/Leg Drag Control]]** - Transition target - Alternative passing position from combat base against hooks
 
-- **[[Butterfly Guard]]** - Counter position - Opponent's hook-based guard for off-balancing combat base
+- **[[Positions/Butterfly Guard]]** - Counter position - Opponent's hook-based guard for off-balancing combat base
 
-- **[[Half Guard]]** - Common destination - Position often reached when passes are partially defended
+- **[[Positions/Half Guard]]** - Common destination - Position often reached when passes are partially defended
 
-- **[[Knee on Belly]]** - Alternative target - High-control position accessible from combat base passing
+- **[[Positions/Knee on Belly]]** - Alternative target - High-control position accessible from combat base passing
 
-- **[[Combat Base to Headquarters]]** - Positional advancement transition without completing a full guard pass
+- **[[Transitions/Combat Base to Headquarters]]** - Positional advancement transition without completing a full guard pass
 
 
 </section>

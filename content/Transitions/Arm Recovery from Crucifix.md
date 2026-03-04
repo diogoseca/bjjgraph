@@ -21,7 +21,7 @@ The key mechanical insight is that the leg triangle creates a directional lock�
 
 Success requires calm, methodical execution under extreme positional pressure. The crucifix's inherent danger—particularly immediate choke threats—creates psychological urgency that often drives practitioners toward explosive but ineffective escape attempts. The systematic approach of securing neck defense first, then working progressive angle changes for arm extraction, and finally recovering guard position distinguishes successful escapes from energy-wasting struggles that only tighten the opponent's control.
 
-**From Position**: [[Crucifix]] (Bottom)
+**From Position**: [[Positions/Crucifix]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Success requires calm, methodical execution under extreme positional pressure. T
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 40% |
-| Failure | [[Crucifix]] | 35% |
-| Counter | [[Mounted Crucifix]] | 25% |
+| Success | [[Positions/Closed Guard]] | 40% |
+| Failure | [[Positions/Crucifix]] | 35% |
+| Counter | [[Positions/Mount/Mounted Crucifix]] | 25% |
 
 
 </section>
@@ -195,23 +195,23 @@ Arm Recovery from Crucifix sits within the broader defensive escape hierarchy as
 ## Related Techniques
 
 
-- [[Crucifix]] - Source position requiring escape through arm recovery
+- [[Positions/Crucifix]] - Source position requiring escape through arm recovery
 
-- [[Closed Guard]] - Primary success target position after arm is freed and guard is recovered
+- [[Positions/Closed Guard]] - Primary success target position after arm is freed and guard is recovered
 
-- [[Mounted Crucifix]] - Counter outcome when opponent capitalizes on escape attempt to advance position
+- [[Positions/Mount/Mounted Crucifix]] - Counter outcome when opponent capitalizes on escape attempt to advance position
 
-- [[Back Control]] - Related defensive position in the escape hierarchy from crucifix system
+- [[Positions/Back Control]] - Related defensive position in the escape hierarchy from crucifix system
 
-- [[Arm Extraction]] - Related escape transition focusing on freeing arm to turtle rather than guard
+- [[Transitions/Arm Extraction]] - Related escape transition focusing on freeing arm to turtle rather than guard
 
-- [[Choke from Crucifix]] - Primary submission threat that must be defended during arm recovery attempts
+- [[Transitions/Choke from Crucifix]] - Primary submission threat that must be defended during arm recovery attempts
 
-- [[Armbar from Crucifix]] - Secondary submission threat requiring awareness during escape sequence
+- [[Transitions/Armbar from Crucifix]] - Secondary submission threat requiring awareness during escape sequence
 
-- [[Shrimp Escape]] - Core movement mechanic used within the arm recovery sequence
+- [[Transitions/Shrimp Escape]] - Core movement mechanic used within the arm recovery sequence
 
-- [[Hip Escape from Crucifix]] - Related escape transition sharing hip mechanics with arm recovery
+- [[Transitions/Hip Escape from Crucifix]] - Related escape transition sharing hip mechanics with arm recovery
 
 
 </section>

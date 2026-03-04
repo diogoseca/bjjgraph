@@ -188,7 +188,7 @@ description: "Complete guide to executing the Buggy Choke Finish from turtle top
 
 Executing the Buggy Choke Finish requires precise grip management and progressive pressure application from the established buggy choke control position. The attacker must systematically eliminate collar slack, drive perpendicular body weight through the opponent's back, and use hip positioning to multiply choking force. Success depends on reading the opponent's defensive reactions during the finishing sequence and distinguishing between defenses that should be overcome with pressure adjustments versus those that signal optimal transition opportunities to back control, crucifix, or alternative chokes. The finish rewards methodical body-mechanics-based pressure over explosive arm strength, making it effective across weight classes when properly executed.
 
-**From Position**: [[Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Top)
 
 
 </section>
@@ -243,9 +243,9 @@ Executing the Buggy Choke Finish requires precise grip management and progressiv
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Buggy Choke]] | 25% |
-| Failure | [[Side Control]] | 15% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Buggy Choke]] | 25% |
+| Failure | [[Positions/Side Control]] | 15% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -254,10 +254,10 @@ Executing the Buggy Choke Finish requires precise grip management and progressiv
 
 ## Opponent Defenses
 
-- **Opponent tucks chin aggressively and grip fights the primary collar grip to prevent tightening** (Effectiveness: High) - Your Response: Drive chest weight further forward to flatten opponent completely, then walk grip deeper past the chin. The collar choke acts on the sides of the neck regardless of chin position when properly tightened with body pressure. → Leads to [[Buggy Choke]]
-- **Opponent explosively sits to guard during the finishing attempt creating space** (Effectiveness: High) - Your Response: Immediately hook the near leg and follow their sitting motion to transition to back control. Maintain collar grip throughout for potential bow and arrow choke conversion from back position. → Leads to [[Half Guard]]
-- **Opponent strips the secondary support grip while protecting neck with remaining hand** (Effectiveness: Medium) - Your Response: Re-establish the secondary grip immediately if threading arm depth is maintained, or transition to side control to reset. Preserve threading arm depth to retain the option of re-entering the choke structure. → Leads to [[Side Control]]
-- **Opponent extends far arm to base and creates structural space preventing collar tightening progression** (Effectiveness: Medium) - Your Response: Abandon the choke attempt and immediately attack the extended arm for crucifix entry. The extended arm provides direct access to crucifix control with superior submission options than continuing against active defense. → Leads to [[Buggy Choke]]
+- **Opponent tucks chin aggressively and grip fights the primary collar grip to prevent tightening** (Effectiveness: High) - Your Response: Drive chest weight further forward to flatten opponent completely, then walk grip deeper past the chin. The collar choke acts on the sides of the neck regardless of chin position when properly tightened with body pressure. → Leads to [[Positions/Buggy Choke]]
+- **Opponent explosively sits to guard during the finishing attempt creating space** (Effectiveness: High) - Your Response: Immediately hook the near leg and follow their sitting motion to transition to back control. Maintain collar grip throughout for potential bow and arrow choke conversion from back position. → Leads to [[Positions/Half Guard]]
+- **Opponent strips the secondary support grip while protecting neck with remaining hand** (Effectiveness: Medium) - Your Response: Re-establish the secondary grip immediately if threading arm depth is maintained, or transition to side control to reset. Preserve threading arm depth to retain the option of re-entering the choke structure. → Leads to [[Positions/Side Control]]
+- **Opponent extends far arm to base and creates structural space preventing collar tightening progression** (Effectiveness: Medium) - Your Response: Abandon the choke attempt and immediately attack the extended arm for crucifix entry. The extended arm provides direct access to crucifix control with superior submission options than continuing against active defense. → Leads to [[Positions/Buggy Choke]]
 
 
 </section>

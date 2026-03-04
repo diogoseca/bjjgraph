@@ -180,7 +180,7 @@ description: "How to execute Butterfly Smash in BJJ. Attacking perspective with 
 
 The Butterfly Smash is a fundamental pressure passing technique designed to neutralize and collapse the butterfly guard structure. This pass exploits the inherent weakness of butterfly hooks when met with forward pressure and proper weight distribution. By driving your weight through specific points of control while systematically removing the bottom player's frames and hooks, you create a pathway to dominant top positions. The technique emphasizes pressure over speed, making it highly effective against technically proficient guard players who rely on maintaining distance and active hooks. Understanding the mechanics of hip pressure, shoulder positioning, and incremental advances makes this pass a cornerstone of any pressure-based passing system.
 
-**From Position**: [[Butterfly Guard]] (Top)
+**From Position**: [[Positions/Butterfly Guard]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The Butterfly Smash is a fundamental pressure passing technique designed to neut
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 68% |
-| Failure | [[Butterfly Guard]] | 18% |
-| Counter | [[Butterfly Guard]] | 14% |
+| Success | [[Positions/Side Control]] | 68% |
+| Failure | [[Positions/Butterfly Guard]] | 18% |
+| Counter | [[Positions/Butterfly Guard]] | 14% |
 
 
 </section>
@@ -245,10 +245,10 @@ The Butterfly Smash is a fundamental pressure passing technique designed to neut
 
 ## Opponent Counters
 
-- **Opponent sits up explosively and pumps butterfly hooks to create distance** (Effectiveness: Medium) - Your Response: Maintain head position low on their chest, drive forward harder with your shoulders, and immediately drop your hips to smother their hook movement before they can extend → Leads to [[Butterfly Guard]]
-- **Opponent arm drags your controlling arm to attack your back** (Effectiveness: High) - Your Response: Keep elbows tight to body during initial engagement. If drag begins, immediately limp arm and circle away while establishing new grips. Never let them get behind your shoulder line → Leads to [[Butterfly Guard]]
-- **Opponent switches to half guard as you begin to pass** (Effectiveness: High) - Your Response: Expect this transition and be prepared to immediately address half guard with knee slice or crossface passing. Prevent the transition by controlling the far hip with your hand as you clear the first hook → Leads to [[Butterfly Guard]]
-- **Opponent uses frames on your hips or face to create distance and re-establish hooks** (Effectiveness: Medium) - Your Response: Clear frames systematically before committing to the pass. Use your head position to strip away face frames, and maintain forward pressure to collapse hip frames. Strip one frame at a time while keeping chest connection → Leads to [[Butterfly Guard]]
+- **Opponent sits up explosively and pumps butterfly hooks to create distance** (Effectiveness: Medium) - Your Response: Maintain head position low on their chest, drive forward harder with your shoulders, and immediately drop your hips to smother their hook movement before they can extend → Leads to [[Positions/Butterfly Guard]]
+- **Opponent arm drags your controlling arm to attack your back** (Effectiveness: High) - Your Response: Keep elbows tight to body during initial engagement. If drag begins, immediately limp arm and circle away while establishing new grips. Never let them get behind your shoulder line → Leads to [[Positions/Butterfly Guard]]
+- **Opponent switches to half guard as you begin to pass** (Effectiveness: High) - Your Response: Expect this transition and be prepared to immediately address half guard with knee slice or crossface passing. Prevent the transition by controlling the far hip with your hand as you clear the first hook → Leads to [[Positions/Butterfly Guard]]
+- **Opponent uses frames on your hips or face to create distance and re-establish hooks** (Effectiveness: Medium) - Your Response: Clear frames systematically before committing to the pass. Use your head position to strip away face frames, and maintain forward pressure to collapse hip frames. Strip one frame at a time while keeping chest connection → Leads to [[Positions/Butterfly Guard]]
 
 
 </section>

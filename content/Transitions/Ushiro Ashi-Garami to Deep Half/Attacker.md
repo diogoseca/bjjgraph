@@ -178,7 +178,7 @@ This transition exploits a fundamental biomechanical reality: the inverted hip p
 
 Strategically, this transition is most valuable when standard escape routes to turtle or standing are blocked by the opponent's superior leg control. Rather than fighting against deep entanglement with diminishing returns, the deep half entry accepts proximity to the opponent while fundamentally changing the positional dynamic. Once deep half guard is established, the defender gains access to waiter sweeps, Homer Simpson sweeps, and electric chair variations that can completely reverse the position. The transition requires precise timing during the opponent's grip adjustment phases and strong understanding of both leg entanglement mechanics and deep half guard principles.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ Strategically, this transition is most valuable when standard escape routes to t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Deep Half Guard]] | 55% |
-| Failure | [[Ushiro Ashi-Garami]] | 25% |
-| Counter | [[Honey Hole]] | 20% |
+| Success | [[Positions/Half Guard/Deep Half Guard]] | 55% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 25% |
+| Counter | [[Positions/Ashi Garami/Honey Hole]] | 20% |
 
 
 </section>
@@ -242,10 +242,10 @@ Strategically, this transition is most valuable when standard escape routes to t
 
 ## Opponent Counters
 
-- **Opponent deepens leg entanglement to saddle or honey hole during your threading attempt, preventing the directional change needed for deep half entry** (Effectiveness: High) - Your Response: Abandon the deep half entry and switch to standard turtle escape or Granby roll if opponent commits to saddle. The saddle transition requires their inside leg to deepen, which creates a brief window for counter-entanglement on their free leg → Leads to [[Honey Hole]]
-- **Opponent posts their hands wide and sprawls their hips backward to prevent you from threading underneath their center of gravity** (Effectiveness: Medium) - Your Response: Use their sprawl weight commitment against them by redirecting to a single leg X-guard entry instead. Their sprawl shifts weight forward, making their posted leg vulnerable to elevation and off-balancing → Leads to [[Ushiro Ashi-Garami]]
-- **Opponent releases leg entanglement to establish top position and prevent deep half guard consolidation before hooks are set** (Effectiveness: Medium) - Your Response: If they disengage the entanglement, you have successfully escaped the dangerous position. Immediately establish any available guard including half guard, butterfly guard, or open guard. The release itself represents a defensive success → Leads to [[Ushiro Ashi-Garami]]
-- **Opponent attacks heel hook aggressively during the threading phase when your foot may momentarily lose dorsiflexion protection** (Effectiveness: High) - Your Response: Never relax dorsiflexion during any phase of the transition. If heel hook grip is established, abandon the deep half entry immediately and address the submission threat with standard heel hook defense before attempting any positional transition → Leads to [[Honey Hole]]
+- **Opponent deepens leg entanglement to saddle or honey hole during your threading attempt, preventing the directional change needed for deep half entry** (Effectiveness: High) - Your Response: Abandon the deep half entry and switch to standard turtle escape or Granby roll if opponent commits to saddle. The saddle transition requires their inside leg to deepen, which creates a brief window for counter-entanglement on their free leg → Leads to [[Positions/Ashi Garami/Honey Hole]]
+- **Opponent posts their hands wide and sprawls their hips backward to prevent you from threading underneath their center of gravity** (Effectiveness: Medium) - Your Response: Use their sprawl weight commitment against them by redirecting to a single leg X-guard entry instead. Their sprawl shifts weight forward, making their posted leg vulnerable to elevation and off-balancing → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Opponent releases leg entanglement to establish top position and prevent deep half guard consolidation before hooks are set** (Effectiveness: Medium) - Your Response: If they disengage the entanglement, you have successfully escaped the dangerous position. Immediately establish any available guard including half guard, butterfly guard, or open guard. The release itself represents a defensive success → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Opponent attacks heel hook aggressively during the threading phase when your foot may momentarily lose dorsiflexion protection** (Effectiveness: High) - Your Response: Never relax dorsiflexion during any phase of the transition. If heel hook grip is established, abandon the deep half entry immediately and address the submission threat with standard heel hook defense before attempting any positional transition → Leads to [[Positions/Ashi Garami/Honey Hole]]
 
 
 </section>

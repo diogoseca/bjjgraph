@@ -158,7 +158,7 @@ The defensive priorities follow a clear hierarchy. First, deny the arm threading
 
 The biomechanics of this defense center on eliminating the space between your arm and torso that the attacker needs to thread through. By keeping your elbows connected to your hips and your chin tucked, you deny the two essential ingredients of the Darce: arm access and neck exposure. When you must turn to escape the leg drag, do so in a controlled manner—posting on your forearm rather than your hand keeps the elbow tight. If the attacker does establish a partial grip, turning toward them rather than pulling away reduces the choking angle and gives you the best chance of stripping the grip or recovering to turtle with your neck protected.
 
-**Opponent's Starting Position**: [[Leg Drag Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The biomechanics of this defense center on eliminating the space between your ar
 ### 1. Clamp elbow tight and sit back into opponent to deny threading space
 
 - **When to use**: Early stage—as soon as you feel opponent's hand reaching under your armpit during the turtle transition
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: Opponent cannot thread arm deep enough for Darce grip and must return to leg drag control or attempt a different attack
 - **Risk**: If you sit back too aggressively without controlling their leg grip, opponent may advance to mount instead
 
 ### 2. Turn into the attacker and fight for underhook on the choking arm side
 
 - **When to use**: Mid-stage—opponent has begun threading their arm but has not yet locked the figure-four grip
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You face the opponent and strip the partial Darce grip, recovering to turtle or half guard with your neck protected
 - **Risk**: Turning in exposes your back if you fail to secure the underhook, potentially giving up back control
 
 ### 3. Strip the grip by two-on-one fighting the locking hand before the figure-four connects
 
 - **When to use**: Late stage—opponent has threaded the arm deep but has not yet completed the bicep grip connection
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Breaking the grip connection forces opponent to reattempt the lock, buying time to extract your trapped arm and recover turtle
 - **Risk**: If the grip is already locked, you waste energy on a defense that cannot succeed and lose time for alternative escapes
 
 ### 4. Post on far arm and granby roll through toward the choking arm side
 
 - **When to use**: When opponent over-commits forward pressure during the Darce setup and their hips are high
-- **Targets**: [[Leg Drag Control]]
+- **Targets**: [[Positions/Leg Drag Control]]
 - **If successful**: The inversion disrupts opponent's angle and may allow you to recover guard or reverse to a neutral scramble position
 - **Risk**: A failed granby can tighten the Darce grip if you roll into the choke rather than through it
 
@@ -228,11 +228,11 @@ The biomechanics of this defense center on eliminating the space between your ar
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Drag Control]]
+### → [[Positions/Leg Drag Control]]
 
 Deny the arm threading early by keeping elbows tight and sitting back into the attacker. The attacker cannot progress the Darce and is forced back to standard leg drag control, giving you another chance to escape through conventional leg drag defense.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 If the Darce grip is partially established, turn into the attacker aggressively and fight the locking hand with both hands. Strip the figure-four connection and immediately tuck into a tight turtle with chin protected. While turtle is still defensive, it removes the immediate Darce threat and resets the exchange.
 

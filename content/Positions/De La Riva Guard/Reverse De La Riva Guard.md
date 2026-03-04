@@ -95,25 +95,25 @@ Strategically, RDLR has become increasingly prominent in both gi and no-gi compe
 ### Available Transitions
 
 
-- **[[Waiter Sweep]]** (12% of attempts)
+- **[[Transitions/Waiter Sweep]]** (12% of attempts)
 
-- **[[Kiss of the Dragon]]** (31% of attempts)
+- **[[Transitions/Kiss of the Dragon]]** (31% of attempts)
 
-- **[[Berimbolo Entry]]** (13% of attempts)
+- **[[Transitions/Berimbolo Entry]]** (13% of attempts)
 
-- **[[De La Riva to X-Guard Transition]]** (9% of attempts)
+- **[[Transitions/De La Riva to X-Guard Transition]]** (9% of attempts)
 
-- **[[Single Leg X Entry]]** (10% of attempts)
+- **[[Transitions/Single Leg X Entry]]** (10% of attempts)
 
-- **[[Omoplata Sweep]]** (4% of attempts)
+- **[[Transitions/Omoplata Sweep]]** (4% of attempts)
 
-- **[[Reverse De La Riva Recovery]]** (12% of attempts)
+- **[[Transitions/Reverse De La Riva Recovery]]** (12% of attempts)
 
-- **[[Tripod Sweep]]** (6% of attempts)
+- **[[Transitions/Tripod Sweep]]** (6% of attempts)
 
-- **[[Kiss of the Dragon from RDLR]]** (2% of attempts)
+- **[[Transitions/Kiss of the Dragon from RDLR]]** (2% of attempts)
 
-- **[[RDLR to Crab Ride]]** (1% of attempts)
+- **[[Transitions/RDLR to Crab Ride]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -174,25 +174,25 @@ Strategically, RDLR has become increasingly prominent in both gi and no-gi compe
 ### Available Transitions
 
 
-- **[[RDLR Pass]]** (20% of attempts)
+- **[[Transitions/RDLR Pass]]** (20% of attempts)
 
-- **[[Leg Drag Pass]]** (13% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (13% of attempts)
 
-- **[[Knee Slice Pass]]** (7% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (7% of attempts)
 
-- **[[Smash Pass]]** (7% of attempts)
+- **[[Transitions/Smash Pass]]** (7% of attempts)
 
-- **[[Toreando Pass]]** (6% of attempts)
+- **[[Transitions/Toreando Pass]]** (6% of attempts)
 
-- **[[Long Step Pass]]** (9% of attempts)
+- **[[Transitions/Long Step Pass]]** (9% of attempts)
 
-- **[[Body Lock Pass]]** (8% of attempts)
+- **[[Transitions/Body Lock Pass]]** (8% of attempts)
 
-- **[[Headquarters Pass]]** (14% of attempts)
+- **[[Transitions/Headquarters Pass]]** (14% of attempts)
 
-- **[[Back Step Pass]]** (13% of attempts)
+- **[[Transitions/Back Step Pass]]** (13% of attempts)
 
-- **[[RDLR Backstep Counter]]** (3% of attempts)
+- **[[Transitions/RDLR Backstep Counter]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -235,25 +235,25 @@ Strategically, RDLR has become increasingly prominent in both gi and no-gi compe
 ## Related Positions
 
 
-- **[[De La Riva Guard]]** - Parent position - RDLR inverts the traditional hook orientation while maintaining similar control principles
+- **[[Positions/De La Riva Guard]]** - Parent position - RDLR inverts the traditional hook orientation while maintaining similar control principles
 
-- **[[X-Guard]]** - Primary transition target when opponent backsteps or attempts to clear the inverted hook
+- **[[Positions/X-Guard]]** - Primary transition target when opponent backsteps or attempts to clear the inverted hook
 
-- **[[Single Leg X-Guard]]** - Related guard variation sharing similar hook mechanics and natural transition from RDLR
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Related guard variation sharing similar hook mechanics and natural transition from RDLR
 
-- **[[Back Control]]** - Primary offensive target via berimbolo, kiss of the dragon, and crab ride sequences
+- **[[Positions/Back Control]]** - Primary offensive target via berimbolo, kiss of the dragon, and crab ride sequences
 
-- **[[Truck]]** - Alternative back-taking position sharing similar inversion mechanics and rotational control
+- **[[Positions/Twister Control/Truck]]** - Alternative back-taking position sharing similar inversion mechanics and rotational control
 
-- **[[Lasso Guard]]** - Can be combined with RDLR for hybrid guard systems offering multiple control layers
+- **[[Positions/Lasso Guard]]** - Can be combined with RDLR for hybrid guard systems offering multiple control layers
 
-- **[[Open Guard]]** - Parent category and recovery position when RDLR structure is compromised
+- **[[Positions/Open Guard]]** - Parent category and recovery position when RDLR structure is compromised
 
-- **[[Combat Base]]** - Common defensive position adopted by opponent to counter RDLR sweeps
+- **[[Positions/Combat Base]]** - Common defensive position adopted by opponent to counter RDLR sweeps
 
-- **[[Headquarters Position]]** - Key passing position top player seeks to establish when defending RDLR
+- **[[Positions/Headquarters Position]]** - Key passing position top player seeks to establish when defending RDLR
 
-- **[[Deep Half Guard]]** - Alternative inversion-based guard with similar back attack potential and rotational mechanics
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative inversion-based guard with similar back attack potential and rotational mechanics
 
 
 </section>

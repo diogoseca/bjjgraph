@@ -184,7 +184,7 @@ The fundamental concept involves using your elbows as wedges against your oppone
 
 This escape is particularly effective against the invisible collar because it doesn't require you to remove your hands from neck defense to fight hooks. The elbow mechanics allow you to address both threats simultaneously—protecting your neck while dismantling their lower body control. Successful execution requires patience, proper sequencing, and the discipline to complete each phase fully before moving to the next. Rushing any step typically results in the opponent simply re-establishing the cleared hook.
 
-**From Position**: [[Invisible Collar]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
 
 </section>
 
@@ -237,9 +237,9 @@ This escape is particularly effective against the invisible collar because it do
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Invisible Collar]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Rubber Guard/Invisible Collar]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -248,10 +248,10 @@ This escape is particularly effective against the invisible collar because it do
 
 ## Opponent Counters
 
-- **Opponent switches to body triangle when they feel hook being cleared** (Effectiveness: High) - Your Response: Recognize the switch early and address it before triangle is locked. If locked, the escape sequence changes entirely—you must address the body triangle before continuing hook escape → Leads to [[Back Control]]
-- **Opponent drives forward pressure when you hip escape, flattening you out** (Effectiveness: Medium) - Your Response: Use the forward pressure to help your rotation—swim your inside arm under as they drive forward and continue turning into them rather than away → Leads to [[Invisible Collar]]
-- **Opponent abandons hooks to take armbar or choke when you commit to hook removal** (Effectiveness: Medium) - Your Response: Maintain neck defense throughout and keep elbows tight to body. The elbow escape method allows one arm to remain protecting neck while other addresses hooks → Leads to [[Back Control]]
-- **Opponent re-inserts hook immediately after you clear it by cycling legs** (Effectiveness: Medium) - Your Response: You must trap the cleared hook with your legs before addressing the second hook. Triangle your legs around their cleared limb to prevent re-insertion → Leads to [[Invisible Collar]]
+- **Opponent switches to body triangle when they feel hook being cleared** (Effectiveness: High) - Your Response: Recognize the switch early and address it before triangle is locked. If locked, the escape sequence changes entirely—you must address the body triangle before continuing hook escape → Leads to [[Positions/Back Control]]
+- **Opponent drives forward pressure when you hip escape, flattening you out** (Effectiveness: Medium) - Your Response: Use the forward pressure to help your rotation—swim your inside arm under as they drive forward and continue turning into them rather than away → Leads to [[Positions/Rubber Guard/Invisible Collar]]
+- **Opponent abandons hooks to take armbar or choke when you commit to hook removal** (Effectiveness: Medium) - Your Response: Maintain neck defense throughout and keep elbows tight to body. The elbow escape method allows one arm to remain protecting neck while other addresses hooks → Leads to [[Positions/Back Control]]
+- **Opponent re-inserts hook immediately after you clear it by cycling legs** (Effectiveness: Medium) - Your Response: You must trap the cleared hook with your legs before addressing the second hook. Triangle your legs around their cleared limb to prevent re-insertion → Leads to [[Positions/Rubber Guard/Invisible Collar]]
 
 
 </section>

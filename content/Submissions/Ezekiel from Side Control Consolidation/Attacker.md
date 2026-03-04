@@ -182,7 +182,7 @@ description: "Learn to execute the Ezekiel choke from Side Control Consolidation
 
 Executing the Ezekiel choke from Side Control Consolidation requires disguising the choke setup within your standard crossface control. The key advantage of this attack is that your arm is already threaded beneath the opponent's head as part of normal side control mechanics, eliminating the most telegraphed portion of the Ezekiel setup. Your primary challenge is threading the choking hand into your sleeve without lifting your chest pressure, which would alert the opponent and create defensive openings. Successful execution depends on maintaining crushing top pressure throughout the entire sequence, using your body weight rather than arm strength to generate finishing force. The choke becomes nearly inescapable once the sleeve grip is secured and the forearm closes across the throat, making the setup phase the most critical window for both attacker and defender.
 
-**From Position**: [[Side Control Consolidation]] (Top)
+**From Position**: [[Positions/Side Control/Side Control Consolidation]] (Top)
 
 
 </section>
@@ -236,8 +236,8 @@ Executing the Ezekiel choke from Side Control Consolidation requires disguising 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Side Control Consolidation]] | 40% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Side Control/Side Control Consolidation]] | 40% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -246,10 +246,10 @@ Executing the Ezekiel choke from Side Control Consolidation requires disguising 
 
 ## Opponent Defenses
 
-- **Opponent uses far hand to frame against your wrist or forearm, physically blocking sleeve entry before the loop closes** (Effectiveness: High) - Your Response: Switch to americana attack on the framing arm since it is now extended and isolated, then return to Ezekiel when they retract the arm to defend the shoulder lock → Leads to [[Side Control Consolidation]]
-- **Opponent times an explosive bridge during your arm adjustment phase to create space for hip escape to half guard** (Effectiveness: High) - Your Response: Follow their hip movement with your own hips, re-establish crossface and chest pressure immediately, and reset the choke setup from consolidated position → Leads to [[Half Guard]]
-- **Opponent tucks chin tightly against chest to prevent forearm from accessing the throat and carotid arteries** (Effectiveness: Medium) - Your Response: Drive your sternum against their forehead to force the chin up, or redirect the forearm angle to target above the chin line toward the jaw and ear for mandibular compression → Leads to [[Side Control Consolidation]]
-- **Opponent turns hard into you attempting to establish an underhook and disrupt the perpendicular angle needed for the choke** (Effectiveness: Medium) - Your Response: Use their turning momentum to deepen the crossface arm and transition to arm triangle setup instead, capitalizing on the arm they bring across their own neck during the turn → Leads to [[Side Control Consolidation]]
+- **Opponent uses far hand to frame against your wrist or forearm, physically blocking sleeve entry before the loop closes** (Effectiveness: High) - Your Response: Switch to americana attack on the framing arm since it is now extended and isolated, then return to Ezekiel when they retract the arm to defend the shoulder lock → Leads to [[Positions/Side Control/Side Control Consolidation]]
+- **Opponent times an explosive bridge during your arm adjustment phase to create space for hip escape to half guard** (Effectiveness: High) - Your Response: Follow their hip movement with your own hips, re-establish crossface and chest pressure immediately, and reset the choke setup from consolidated position → Leads to [[Positions/Half Guard]]
+- **Opponent tucks chin tightly against chest to prevent forearm from accessing the throat and carotid arteries** (Effectiveness: Medium) - Your Response: Drive your sternum against their forehead to force the chin up, or redirect the forearm angle to target above the chin line toward the jaw and ear for mandibular compression → Leads to [[Positions/Side Control/Side Control Consolidation]]
+- **Opponent turns hard into you attempting to establish an underhook and disrupt the perpendicular angle needed for the choke** (Effectiveness: Medium) - Your Response: Use their turning momentum to deepen the crossface arm and transition to arm triangle setup instead, capitalizing on the arm they bring across their own neck during the turn → Leads to [[Positions/Side Control/Side Control Consolidation]]
 
 
 </section>

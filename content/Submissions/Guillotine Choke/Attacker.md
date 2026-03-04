@@ -176,7 +176,7 @@ description: "How to execute Guillotine Choke in BJJ. Attacking perspective with
 
 The Guillotine Choke is one of the most versatile and high-percentage submissions in Brazilian Jiu-Jitsu, capable of being executed from standing positions, guard, or transitional scrambles. This blood choke targets the carotid arteries while also applying pressure to the trachea, making it a powerful finishing technique when applied correctly. The guillotine's effectiveness stems from its ability to capitalize on common defensive movements, particularly when opponents shoot for takedowns or attempt to pass guard with poor posture. The technique works by using your arm as a fulcrum around the opponent's neck while using hip pressure and body positioning to create the choking force. Its versatility allows for execution from numerous positions including standing, closed guard, half guard, and even during scrambles, making it an essential weapon for practitioners at all levels. The guillotine family includes multiple variations such as the high elbow guillotine, arm-in guillotine, and ten-finger guillotine, each with specific applications based on the situation and opponent's defensive reactions.
 
-**From Position**: [[Guillotine Control]] (Top)
+**From Position**: [[Positions/Guillotine Control]] (Top)
 
 
 </section>
@@ -231,8 +231,8 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Guillotine Control]] | 25% |
-| Counter | [[Closed Guard]] | 20% |
+| Failure | [[Positions/Guillotine Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -241,11 +241,11 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 
 ## Opponent Defenses
 
-- **Opponent pushes your hips away to create space** (Effectiveness: High) - Your Response: Immediately close your guard if in bottom position, or sprawl your hips back and down if standing. Use your non-choking arm to overhook their arm that's pushing your hips to prevent the frame. → Leads to [[Guillotine Control]]
-- **Opponent tucks their chin to protect the neck** (Effectiveness: Medium) - Your Response: Transition to arm-in guillotine variation or use your choking forearm to force their chin up by driving it upward. Alternatively, transition to darce or anaconda choke variations. → Leads to [[Guillotine Control]]
-- **Opponent circles their body toward your choking arm side** (Effectiveness: High) - Your Response: Follow their circular movement and maintain the angle. If they succeed in circling, quickly transition to high elbow guillotine or adjust to mounted guillotine position. → Leads to [[Guillotine Control]]
-- **Opponent postures up aggressively** (Effectiveness: Medium) - Your Response: Use your legs to break their posture back down if in guard. If standing, use your body weight to pull them back down. Maintain grip connection and reset the choking angle once posture is broken. → Leads to [[Closed Guard]]
-- **Opponent drives forward through the choke attempting to pass guard (Von Flue defense)** (Effectiveness: Low) - Your Response: Transition to mounted guillotine by following their pass attempt and climbing to mount while maintaining grip. The mount position makes the guillotine even more effective as they cannot push your hips away. → Leads to [[Closed Guard]]
+- **Opponent pushes your hips away to create space** (Effectiveness: High) - Your Response: Immediately close your guard if in bottom position, or sprawl your hips back and down if standing. Use your non-choking arm to overhook their arm that's pushing your hips to prevent the frame. → Leads to [[Positions/Guillotine Control]]
+- **Opponent tucks their chin to protect the neck** (Effectiveness: Medium) - Your Response: Transition to arm-in guillotine variation or use your choking forearm to force their chin up by driving it upward. Alternatively, transition to darce or anaconda choke variations. → Leads to [[Positions/Guillotine Control]]
+- **Opponent circles their body toward your choking arm side** (Effectiveness: High) - Your Response: Follow their circular movement and maintain the angle. If they succeed in circling, quickly transition to high elbow guillotine or adjust to mounted guillotine position. → Leads to [[Positions/Guillotine Control]]
+- **Opponent postures up aggressively** (Effectiveness: Medium) - Your Response: Use your legs to break their posture back down if in guard. If standing, use your body weight to pull them back down. Maintain grip connection and reset the choking angle once posture is broken. → Leads to [[Positions/Closed Guard]]
+- **Opponent drives forward through the choke attempting to pass guard (Von Flue defense)** (Effectiveness: Low) - Your Response: Transition to mounted guillotine by following their pass attempt and climbing to mount while maintaining grip. The mount position makes the guillotine even more effective as they cannot push your hips away. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

@@ -178,7 +178,7 @@ The strategic value of ringworm lies in its ability to create compounding dilemm
 
 From a game theory perspective, ringworm represents an investment position. The complexity of establishing the full configuration means higher setup risk compared to basic worm or squid guard, but the payoff is a control position with dramatically higher submission and sweep percentages. Advanced practitioners use ringworm as an endgame configuration, transitioning into it from simpler lapel guards once they've read their opponent's defensive tendencies and identified optimal attack vectors.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ From a game theory perspective, ringworm represents an investment position. The 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Ringworm Guard]] | 58% |
-| Failure | [[Lapel Guard]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ringworm Guard]] | 58% |
+| Failure | [[Positions/Lapel Guard]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ From a game theory perspective, ringworm represents an investment position. The 
 
 ## Opponent Counters
 
-- **Early posture recovery and lapel strip before full configuration** (Effectiveness: High) - Your Response: If opponent postures before you complete the arm wrap, transition back to basic worm guard and wait for another posting opportunity rather than forcing the incomplete ringworm → Leads to [[Lapel Guard]]
-- **Backstep around the leg entanglement while freeing the arm** (Effectiveness: Medium) - Your Response: Follow their backstep rotation and pursue the back take aggressively—their movement actually opens the path to their back if you maintain lapel tension and hip follow → Leads to [[Half Guard]]
-- **Heavy forward pressure to smash through the configuration** (Effectiveness: Medium) - Your Response: Use their forward drive to load sweep mechanics—their pressure adds momentum to your sweep if you time the hip elevation with their weight commitment → Leads to [[Ringworm Guard]]
-- **Standing up explosively to create distance and reset** (Effectiveness: Low) - Your Response: Maintain grips and follow them up to standing, converting to technical standup sweeps or transitioning to single leg X-guard entries with the lapel still engaged → Leads to [[Lapel Guard]]
+- **Early posture recovery and lapel strip before full configuration** (Effectiveness: High) - Your Response: If opponent postures before you complete the arm wrap, transition back to basic worm guard and wait for another posting opportunity rather than forcing the incomplete ringworm → Leads to [[Positions/Lapel Guard]]
+- **Backstep around the leg entanglement while freeing the arm** (Effectiveness: Medium) - Your Response: Follow their backstep rotation and pursue the back take aggressively—their movement actually opens the path to their back if you maintain lapel tension and hip follow → Leads to [[Positions/Half Guard]]
+- **Heavy forward pressure to smash through the configuration** (Effectiveness: Medium) - Your Response: Use their forward drive to load sweep mechanics—their pressure adds momentum to your sweep if you time the hip elevation with their weight commitment → Leads to [[Positions/Ringworm Guard]]
+- **Standing up explosively to create distance and reset** (Effectiveness: Low) - Your Response: Maintain grips and follow them up to standing, converting to technical standup sweeps or transitioning to single leg X-guard entries with the lapel still engaged → Leads to [[Positions/Lapel Guard]]
 
 
 </section>

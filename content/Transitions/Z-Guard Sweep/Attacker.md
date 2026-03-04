@@ -180,7 +180,7 @@ description: "Execute the Z-Guard Sweep in BJJ. Complete attacker guide covering
 
 The Z-Guard Sweep attacker operates from Z-Guard bottom using the elevated knee shield as the primary sweeping lever combined with far-side grip control to topple the opponent toward side control. This technique is distinguished from the underhook-based sweep by its reliance on the push-pull dynamic between the knee shield extension and upper body pulling grips, making it available in situations where the underhook battle is contested. The attacker must establish proper angle, secure far-side control to eliminate the opponent's posting ability, time the sweep with the opponent's forward pressure, and commit fully to the extension and follow-through to complete the sweep to top position. Success demands coordinating multiple body systems simultaneously: the knee shield extends forcefully, the gripping hand pulls the opponent's upper body across, the hips drive laterally, and the bottom hook maintains the trapped leg as the fulcrum point.
 
-**From Position**: [[Z-Guard]] (Bottom)
+**From Position**: [[Positions/Z-Guard]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ The Z-Guard Sweep attacker operates from Z-Guard bottom using the elevated knee 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Z-Guard]] | 30% |
-| Counter | [[Flattened Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Z-Guard]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ The Z-Guard Sweep attacker operates from Z-Guard bottom using the elevated knee 
 
 ## Opponent Counters
 
-- **Opponent drops hips low and widens base to resist the rotational force of the sweep** (Effectiveness: High) - Your Response: Switch to the underhook-based Sweep from Z-Guard or transition to deep half guard entry, as their low posture and wide base creates the space needed for diving underneath → Leads to [[Z-Guard]]
-- **Opponent strips the far-side grip and drives crossface pressure to flatten the bottom player** (Effectiveness: High) - Your Response: Immediately re-establish a different grip or transition to underhook entry before being flattened. If crossface is established, use the momentum to roll into deep half guard rather than fighting the pressure → Leads to [[Flattened Half Guard]]
-- **Opponent posts their far hand on the mat to prevent being toppled sideways** (Effectiveness: Medium) - Your Response: Control the posting arm by switching your far-side grip to capture the posting wrist, removing the post and reinitiating the sweep. Alternatively, use the posting reaction to transition to a collar drag or underhook entry → Leads to [[Z-Guard]]
-- **Opponent backsteps to avoid the sweep angle and circles around the knee shield** (Effectiveness: Medium) - Your Response: Follow their rotation with your hips and convert the backstep into a back take opportunity by using the underhook or collar grip to climb onto their back as they circle. Their backstep motion actually facilitates your transition to back control → Leads to [[Z-Guard]]
+- **Opponent drops hips low and widens base to resist the rotational force of the sweep** (Effectiveness: High) - Your Response: Switch to the underhook-based Sweep from Z-Guard or transition to deep half guard entry, as their low posture and wide base creates the space needed for diving underneath → Leads to [[Positions/Z-Guard]]
+- **Opponent strips the far-side grip and drives crossface pressure to flatten the bottom player** (Effectiveness: High) - Your Response: Immediately re-establish a different grip or transition to underhook entry before being flattened. If crossface is established, use the momentum to roll into deep half guard rather than fighting the pressure → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent posts their far hand on the mat to prevent being toppled sideways** (Effectiveness: Medium) - Your Response: Control the posting arm by switching your far-side grip to capture the posting wrist, removing the post and reinitiating the sweep. Alternatively, use the posting reaction to transition to a collar drag or underhook entry → Leads to [[Positions/Z-Guard]]
+- **Opponent backsteps to avoid the sweep angle and circles around the knee shield** (Effectiveness: Medium) - Your Response: Follow their rotation with your hips and convert the backstep into a back take opportunity by using the underhook or collar grip to climb onto their back as they circle. Their backstep motion actually facilitates your transition to back control → Leads to [[Positions/Z-Guard]]
 
 
 </section>

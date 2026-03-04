@@ -23,7 +23,7 @@ Strategically, this transition serves as a positional reset that maintains offen
 
 Energy management considerations make this transition particularly valuable during extended guard exchanges. Crackhead Control's aggressive positioning requires significant hip flexor engagement and core tension, leading to fatigue over time. New York offers a more sustainable control structure that allows brief recovery periods while maintaining offensive threat. Experienced rubber guard players cycle between these positions strategically, using Crackhead Control for submission bursts and New York for positional consolidation.
 
-**From Position**: [[Crackhead Control]] (Bottom)
+**From Position**: [[Positions/Crackhead Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -34,9 +34,9 @@ Energy management considerations make this transition particularly valuable duri
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[New York]] | 65% |
-| Failure | [[Crackhead Control]] | 20% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/New York]] | 65% |
+| Failure | [[Positions/Crackhead Control]] | 20% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Crackhead Control to New York transition represents a fundamental angle adju
 ## Related Techniques
 
 
-- [[Crackhead Control]] - Starting position - high-risk submission-dense rubber guard variant
+- [[Positions/Crackhead Control]] - Starting position - high-risk submission-dense rubber guard variant
 
-- [[New York]] - Target position - stable rubber guard control with different attack chains
+- [[Positions/Rubber Guard/New York]] - Target position - stable rubber guard control with different attack chains
 
-- [[Mission Control]] - Alternative transition target for positional consolidation
+- [[Positions/Rubber Guard/Mission Control]] - Alternative transition target for positional consolidation
 
-- [[New York to Invisible Collar]] - Follow-up attack available from New York position
+- [[Transitions/New York to Invisible Collar]] - Follow-up attack available from New York position
 
-- [[Progression to Zombie]] - Follow-up transition available from New York position
+- [[Transitions/Progression to Zombie]] - Follow-up transition available from New York position
 
-- [[Advance to Chill Dog]] - Alternative follow-up for gogoplata setups
+- [[Transitions/Advance to Chill Dog]] - Alternative follow-up for gogoplata setups
 
-- [[Crackhead Control to Carni]] - Omoplata pathway available from Crackhead Control
+- [[Transitions/Crackhead Control to Carni]] - Omoplata pathway available from Crackhead Control
 
-- [[Rubber Guard]] - Parent system containing both positions
+- [[Positions/Rubber Guard]] - Parent system containing both positions
 
-- [[Crackhead Control to Mission Control]] - Alternative transition from Crackhead Control
+- [[Transitions/Crackhead Control to Mission Control]] - Alternative transition from Crackhead Control
 
-- [[Closed Guard]] - Safety fallback if transition fails
+- [[Positions/Closed Guard]] - Safety fallback if transition fails
 
 
 </section>

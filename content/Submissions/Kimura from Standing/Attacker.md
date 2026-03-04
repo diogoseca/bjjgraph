@@ -182,7 +182,7 @@ description: "How to execute Kimura from Standing in BJJ. Attacking perspective 
 
 The Kimura from Standing represents one of the most versatile shoulder lock applications in Brazilian Jiu-Jitsu, bridging the gap between takedown control and submission finish. This technique capitalizes on the standing position's dynamic nature, where opponents are often less defensive against upper body attacks while focused on maintaining balance and preventing takedowns. The standing Kimura serves multiple strategic purposes: it can force an immediate tap, create a dominant takedown opportunity, or establish superior positional control as both fighters transition to the ground. Unlike ground-based Kimura applications, the standing version requires acute awareness of weight distribution, base management, and the ability to control an opponent who maintains full mobility. The technique's effectiveness stems from its integration with wrestling fundamentals—using the Kimura grip to break down posture, compromise base, and create cascading defensive dilemmas. Advanced practitioners use the standing Kimura as a systematic entry point, recognizing that even when the submission doesn't finish, the control gained opens pathways to dominant positions including back takes, side control entries, and turtle attacks. The standing application demands precise technical execution combined with strategic timing, making it a cornerstone technique for practitioners transitioning between standing and ground phases of combat.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 
 </section>
@@ -239,8 +239,8 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -249,12 +249,12 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 ## Opponent Defenses
 
-- **Arm retraction and elbow pull-in toward ribs** (Effectiveness: High) - Your Response: Counter by immediately stepping closer, using body weight to prevent retraction, and securing collar tie or head control with free hand before attempting wrist isolation. Feint takedown attacks to force arm extension. → Leads to [[Standing Position]]
-- **Counter-rotation by spinning toward trapped arm** (Effectiveness: Medium) - Your Response: Follow their rotation by circling in same direction while lifting elbow higher. Use their rotational momentum to elevate them onto toes and off-balance. Transition to back take opportunity if they over-rotate. → Leads to [[Standing Position]]
-- **Base widening and hip dropping to create heaviness** (Effectiveness: Medium) - Your Response: Respond by increasing elbow elevation and stepping to angle rather than pushing straight forward. Use upward lifting pressure to compromise their lowered base. Combine with outside trip or inside trip to capitalize on their static positioning. → Leads to [[Standing Position]]
+- **Arm retraction and elbow pull-in toward ribs** (Effectiveness: High) - Your Response: Counter by immediately stepping closer, using body weight to prevent retraction, and securing collar tie or head control with free hand before attempting wrist isolation. Feint takedown attacks to force arm extension. → Leads to [[Positions/Standing Position]]
+- **Counter-rotation by spinning toward trapped arm** (Effectiveness: Medium) - Your Response: Follow their rotation by circling in same direction while lifting elbow higher. Use their rotational momentum to elevate them onto toes and off-balance. Transition to back take opportunity if they over-rotate. → Leads to [[Positions/Standing Position]]
+- **Base widening and hip dropping to create heaviness** (Effectiveness: Medium) - Your Response: Respond by increasing elbow elevation and stepping to angle rather than pushing straight forward. Use upward lifting pressure to compromise their lowered base. Combine with outside trip or inside trip to capitalize on their static positioning. → Leads to [[Positions/Standing Position]]
 - **Free hand grabbing their own wrist/hand (defensive grip)** (Effectiveness: Low) - Your Response: This defense only delays the submission. Continue rotation pressure which forces them to choose between maintaining grip or tapping. Often breaks their defensive grip through leverage. Can also attack with forward pressure or trips while they're focused on grip battle. → Leads to [[game-over]]
-- **Explosive forward pressure and driving into you** (Effectiveness: High) - Your Response: Use their forward momentum against them by pulling and turning, executing sacrifice throw or allowing them to drive past while maintaining Kimura control. Land in top position with Kimura grip intact, now with superior position and leverage. → Leads to [[Standing Position]]
-- **Jumping guard or pulling guard to escape standing pressure** (Effectiveness: Medium) - Your Response: Expected and advantageous response. Maintain Kimura grip as they pull guard, landing in their guard with established submission control. Immediately pass guard using Kimura as control handle, transitioning to side control or north-south with superior finishing position. → Leads to [[Closed Guard]]
+- **Explosive forward pressure and driving into you** (Effectiveness: High) - Your Response: Use their forward momentum against them by pulling and turning, executing sacrifice throw or allowing them to drive past while maintaining Kimura control. Land in top position with Kimura grip intact, now with superior position and leverage. → Leads to [[Positions/Standing Position]]
+- **Jumping guard or pulling guard to escape standing pressure** (Effectiveness: Medium) - Your Response: Expected and advantageous response. Maintain Kimura grip as they pull guard, landing in their guard with established submission control. Immediately pass guard using Kimura as control handle, transitioning to side control or north-south with superior finishing position. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

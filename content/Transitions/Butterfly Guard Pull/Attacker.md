@@ -180,7 +180,7 @@ description: "Execute the Butterfly Guard Pull in BJJ. Master grip sequences, ti
 
 As the attacker executing the Butterfly Guard Pull, your objective is to transition from standing directly into butterfly guard with both hooks established and immediate offensive capability. This requires coordinating your grip fighting, timing the sit, and inserting both hooks cleanly under the opponent's thighs in a single fluid motion. The pull is not a passive retreat to the ground — it is an aggressive tactical choice that immediately places your opponent in a defensive scenario where they must address your hooks, grips, and sweeping threat simultaneously. Success depends on maintaining upper body connection throughout the transition so you arrive in butterfly guard with your posture upright, hooks active, and grips intact for immediate sweep attempts.
 
-**From Position**: [[Standing Position]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Butterfly Guard Pull, your objective is to transit
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Butterfly Guard]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Butterfly Guard]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Butterfly Guard Pull, your objective is to transit
 
 ## Opponent Counters
 
-- **Opponent sprawls and drives hips back immediately upon recognizing the pull initiation** (Effectiveness: High) - Your Response: If they sprawl early before you commit, abort the pull and return to standing. If you are mid-descent, convert to a different guard entry such as De La Riva by hooking their lead leg as they sprawl, or transition to seated guard with feet on hips to maintain distance control. → Leads to [[Standing Position]]
-- **Opponent drives forward aggressively and applies heavy top pressure to flatten you before hooks establish** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by timing an immediate elevator sweep as they drive in. If hooks are shallow, frame with forearms against their shoulders and work to insert hooks deeper. If you cannot establish butterfly, transition to closed guard or half guard to prevent the pass. → Leads to [[Open Guard]]
-- **Opponent strips grips and creates distance to disengage during the sit** (Effectiveness: High) - Your Response: If grips break during descent, immediately transition to feet on hips guard to maintain distance control and re-establish grips from seated position. Use your hooks as frames rather than elevators until upper body connection is re-established. Alternatively, pursue a technical standup to reset. → Leads to [[Standing Position]]
-- **Opponent stuffs hooks by driving knees together and pinning your feet to the mat** (Effectiveness: Medium) - Your Response: If hooks are denied entirely, do not fight for them against a strong knee-together defense. Instead, transition immediately to closed guard if you have waist connection, use arm drags from seated position to take the back, or work for a front headlock if they are driving their head low. → Leads to [[Open Guard]]
+- **Opponent sprawls and drives hips back immediately upon recognizing the pull initiation** (Effectiveness: High) - Your Response: If they sprawl early before you commit, abort the pull and return to standing. If you are mid-descent, convert to a different guard entry such as De La Riva by hooking their lead leg as they sprawl, or transition to seated guard with feet on hips to maintain distance control. → Leads to [[Positions/Standing Position]]
+- **Opponent drives forward aggressively and applies heavy top pressure to flatten you before hooks establish** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by timing an immediate elevator sweep as they drive in. If hooks are shallow, frame with forearms against their shoulders and work to insert hooks deeper. If you cannot establish butterfly, transition to closed guard or half guard to prevent the pass. → Leads to [[Positions/Open Guard]]
+- **Opponent strips grips and creates distance to disengage during the sit** (Effectiveness: High) - Your Response: If grips break during descent, immediately transition to feet on hips guard to maintain distance control and re-establish grips from seated position. Use your hooks as frames rather than elevators until upper body connection is re-established. Alternatively, pursue a technical standup to reset. → Leads to [[Positions/Standing Position]]
+- **Opponent stuffs hooks by driving knees together and pinning your feet to the mat** (Effectiveness: Medium) - Your Response: If hooks are denied entirely, do not fight for them against a strong knee-together defense. Instead, transition immediately to closed guard if you have waist connection, use arm drags from seated position to take the back, or work for a front headlock if they are driving their head low. → Leads to [[Positions/Open Guard]]
 
 
 </section>

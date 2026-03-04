@@ -180,7 +180,7 @@ description: "Master guard recovery from quarter guard bottom. Learn frame creat
 
 As the attacker executing Recover Full Guard from Quarter Guard, you are the bottom player fighting to recover functional guard from a severely compromised quarter guard position. Your primary objective is to create enough space through framing and hip movement to reinsert your knee and re-establish half guard entanglement before the top player can consolidate the pass. This requires precise timing—you must identify the moment when your opponent adjusts weight or commits to a passing action, then exploit that window with coordinated upper and lower body movement. The technique demands efficiency and decisiveness because quarter guard deteriorates rapidly, meaning every second spent in passive defense reduces your probability of successful recovery.
 
-**From Position**: [[Quarter Guard]] (Bottom)
+**From Position**: [[Positions/Quarter Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing Recover Full Guard from Quarter Guard, you are the bot
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Quarter Guard]] | 30% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Quarter Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing Recover Full Guard from Quarter Guard, you are the bot
 
 ## Opponent Counters
 
-- **Opponent drives heavy crossface to prevent hip escape and flatten you back down** (Effectiveness: High) - Your Response: Use your free hand to block the crossface before it establishes by framing against their bicep or shoulder. If crossface is already established, redirect your recovery to deep half guard entry by getting underneath their weight rather than trying to create distance against their pressure. → Leads to [[Side Control]]
-- **Opponent drops weight and sprawls hips back when feeling your frame and hip escape initiation** (Effectiveness: Medium) - Your Response: When opponent sprawls, their leg position often loosens momentarily. Use this window to hook their leg with your bottom foot and pull it back into half guard entanglement. The sprawl actually assists your recovery if you can capture the leg before they re-establish forward pressure. → Leads to [[Quarter Guard]]
-- **Opponent backsteps around your recovery attempt to take a different passing angle** (Effectiveness: Medium) - Your Response: Follow their movement with your hips and adjust your knee shield orientation to face the new passing angle. If they backstep far enough, you may have space to recover to open guard or establish butterfly hooks rather than half guard. Stay connected to their leg to prevent complete disengagement. → Leads to [[Side Control]]
-- **Opponent posts far hand on mat and drives knee through the gap you created during hip escape** (Effectiveness: High) - Your Response: If the knee drives through before your knee shield establishes, immediately switch to underhook and come up to dogfight position rather than trying to re-close the guard. The posted hand creates a back take opportunity if you can get your underhook deep and come up to your knees alongside them. → Leads to [[Side Control]]
+- **Opponent drives heavy crossface to prevent hip escape and flatten you back down** (Effectiveness: High) - Your Response: Use your free hand to block the crossface before it establishes by framing against their bicep or shoulder. If crossface is already established, redirect your recovery to deep half guard entry by getting underneath their weight rather than trying to create distance against their pressure. → Leads to [[Positions/Side Control]]
+- **Opponent drops weight and sprawls hips back when feeling your frame and hip escape initiation** (Effectiveness: Medium) - Your Response: When opponent sprawls, their leg position often loosens momentarily. Use this window to hook their leg with your bottom foot and pull it back into half guard entanglement. The sprawl actually assists your recovery if you can capture the leg before they re-establish forward pressure. → Leads to [[Positions/Quarter Guard]]
+- **Opponent backsteps around your recovery attempt to take a different passing angle** (Effectiveness: Medium) - Your Response: Follow their movement with your hips and adjust your knee shield orientation to face the new passing angle. If they backstep far enough, you may have space to recover to open guard or establish butterfly hooks rather than half guard. Stay connected to their leg to prevent complete disengagement. → Leads to [[Positions/Side Control]]
+- **Opponent posts far hand on mat and drives knee through the gap you created during hip escape** (Effectiveness: High) - Your Response: If the knee drives through before your knee shield establishes, immediately switch to underhook and come up to dogfight position rather than trying to re-close the guard. The posted hand creates a back take opportunity if you can get your underhook deep and come up to your knees alongside them. → Leads to [[Positions/Side Control]]
 
 
 </section>

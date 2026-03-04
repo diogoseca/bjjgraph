@@ -146,7 +146,7 @@ description: "Complete guide to defending against the Stack Pass from Carni bott
 
 As the bottom player in Carni defending against your opponent's stack pass attempt, your primary objective is to prevent the forward pressure from collapsing your leg entanglement structure. The stack pass represents one of the most aggressive escape attempts your opponent can deploy from Carni top, and recognizing it early is critical because the technique builds momentum that becomes increasingly difficult to counter once established. The key defensive insight is that the opponent's forward driving pressure, while threatening to your Carni control, also creates exploitable opportunities. Their commitment to forward motion opens space between their knees for saddle entry hooks, and their weight shift forward compromises their base for potential re-entanglement from inverted angles. Effective defense therefore combines active position retention with opportunistic advancement to superior positions when the opponent's pass attempt creates openings.
 
-**Opponent's Starting Position**: [[Carni]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Carni]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the bottom player in Carni defending against your opponent's stack pass attem
 ### 1. Thread inside leg deeper for saddle entry as opponent drives forward and opens space between knees
 
 - **When to use**: When opponent commits to forward stacking pressure and their forward momentum creates space for your inside hook to thread deeper past their hip line
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Advance to saddle position with deeper control and immediate heel hook finishing threat from mechanically superior angle
 - **Risk**: If the hook fails to set before the stack compresses you, opponent may complete the pass with your leg partially extended
 
 ### 2. Invert under stacking pressure and re-establish Carni from opposite angle
 
 - **When to use**: When stacking pressure is moderate and sufficient space exists to rotate underneath before full compression builds
-- **Targets**: [[Carni]]
+- **Targets**: [[Positions/Rubber Guard/Carni]]
 - **If successful**: Reset Carni control from fresh angle with maintained leg entanglement, forcing opponent to restart their escape
 - **Risk**: Failed inversion under heavy pressure results in being folded and passed directly with no guard recovery
 
 ### 3. Tighten heel grip and apply immediate finishing pressure to force opponent to abandon the stack
 
 - **When to use**: When your heel grip is deep and secure at the moment the opponent initiates forward pressure, before the stacking angle changes your finishing mechanics
-- **Targets**: [[Carni]]
+- **Targets**: [[Positions/Rubber Guard/Carni]]
 - **If successful**: Opponent abandons stack pass attempt and returns to defensive Carni position to address submission threat
 - **Risk**: Aggressive heel hook during dynamic forward movement increases injury risk for both practitioners
 
 ### 4. Frame against opponent's shoulders to stall forward pressure and create space for hip adjustment
 
 - **When to use**: When you need time to decide between saddle entry, inversion, or heel hook attack and the forward pressure is building quickly
-- **Targets**: [[Carni]]
+- **Targets**: [[Positions/Rubber Guard/Carni]]
 - **If successful**: Stall the pass momentarily allowing you to select and execute your preferred counter-technique
 - **Risk**: Extended framing fatigues arms and delays your offensive response, giving opponent time to build more pressure
 
@@ -217,11 +217,11 @@ As the bottom player in Carni defending against your opponent's stack pass attem
 
 ## Best-Case Outcomes for Defender
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 Use the opponent's forward driving pressure to thread your inside leg deeper through the space created between their knees. Their forward momentum carries your hook past the retraction point, establishing saddle with deeper control than you had from Carni.
 
-### → [[Carni]]
+### → [[Positions/Rubber Guard/Carni]]
 
 Invert underneath the stacking pressure before it builds full momentum, using the rotation to re-establish Carni control from a fresh angle while maintaining the critical inside leg hook and heel grip.
 

@@ -164,7 +164,7 @@ Defending the Japanese Necktie Setup requires immediate recognition and decisive
 
 The defender's strategic priority follows a clear hierarchy: first, prevent the arm from threading deep under the neck by keeping elbows tight and chin tucked; second, fight to keep the far arm free so you can post and block the roll; third, if the setup is partially established, create angles and movement to disrupt the attacker's body alignment before they can initiate the roll. Understanding that the Japanese Necktie requires a very specific body configuration to finish means that disrupting any single element—arm depth, far arm control, or rolling angle—can neutralize the entire attack.
 
-**Opponent's Starting Position**: [[Front Headlock]] (Top)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -202,28 +202,28 @@ The defender's strategic priority follows a clear hierarchy: first, prevent the 
 ### 1. Strip the threading arm at the wrist before it passes under your chin, then circle away to re-establish turtle defensive posture
 
 - **When to use**: Early in the setup when attacker first begins threading arm under your neck and grip is not yet locked
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Return to standard front headlock defensive position where you can work escapes against less immediate submission threat
 - **Risk**: If you fail to strip the arm, the attacker may accelerate the setup while your hand is occupied, losing your posting ability
 
 ### 2. Post your far hand firmly on the mat and widen your base to block the roll, then use the posted base to drive forward and flatten the attacker
 
 - **When to use**: When attacker has threaded arm but has not yet captured your far arm, and you feel them loading weight for the roll
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: Roll is blocked, attacker loses momentum and must release grip or transition to different attack, resetting to front headlock exchange
 - **Risk**: Extended posting arm can be captured for the setup if attacker switches to controlling it, or they may transition to Darce using your extended arm
 
 ### 3. Turn your body aggressively toward the attacker and shoot your hips away to create a perpendicular angle that eliminates the rolling path
 
 - **When to use**: When the attacker has partial setup with arm threaded and is beginning to shift weight for the roll
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Angle change prevents the roll from completing, and you escape to standard turtle where the Japanese Necktie angle no longer exists
 - **Risk**: Turning into the attacker may expose your neck to a standard guillotine if the arm thread is shallow enough for them to adjust
 
 ### 4. Sit through to guard by threading your inside leg through and turning to face the attacker, disrupting the entire front headlock configuration
 
 - **When to use**: When attacker commits weight forward for the setup and their base becomes narrow, creating space underneath
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Escape front headlock entirely and recover to half guard or closed guard, completely neutralizing the submission threat
 - **Risk**: If timing is wrong and attacker maintains connection during sit-through, you may end up in a worse position with partial choke still engaged
 
@@ -235,11 +235,11 @@ The defender's strategic priority follows a clear hierarchy: first, prevent the 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Strip the threading arm early before the grip locks by using two hands on their wrist to peel the arm away from your neck, then immediately tuck chin and re-establish tight turtle defensive posture with elbows to knees. This resets to standard front headlock defense where you have more time and options.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Create angular displacement by turning your body toward the attacker and driving hips away from their rolling direction. This eliminates the perpendicular alignment the Japanese Necktie requires. Combine with aggressive hand fighting on the threading arm to prevent re-establishment of the setup. From recovered turtle, work standard escapes to guard or standing.
 

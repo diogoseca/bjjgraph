@@ -21,7 +21,7 @@ The technique requires coordinated action between the upper and lower body. The 
 
 From a strategic perspective, successful posture recovery represents the critical first phase of any triangle escape sequence. Without establishing structural posture, all subsequent escape techniques operate at dramatically reduced effectiveness because the opponent maintains the mechanical advantages that make the triangle dangerous. The position bridges the gap between immediate survival and offensive transition, transforming a high-danger submission scenario into a manageable guard passing situation where the top player can leverage gravity and forward pressure to complete the escape and advance position.
 
-**From Position**: [[Triangle Escape Position]] (Top)
+**From Position**: [[Positions/Triangle Escape Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic perspective, successful posture recovery represents the critica
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Triangle Escape Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Triangle Escape Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,23 +193,23 @@ Posture in Triangle serves as the essential first link in all triangle escape ch
 ## Related Techniques
 
 
-- [[Complete Triangle Escape from Top]] - Primary follow-up transition after posture is successfully recovered
+- [[Transitions/Complete Triangle Escape from Top]] - Primary follow-up transition after posture is successfully recovered
 
-- [[Complete Triangle Escape]] - Alternative full escape sequence from triangle position
+- [[Transitions/Complete Triangle Escape]] - Alternative full escape sequence from triangle position
 
-- [[Posture Up from Triangle]] - Related posture technique with different mechanical emphasis
+- [[Transitions/Posture Up from Triangle]] - Related posture technique with different mechanical emphasis
 
-- [[Posture Recovery]] - Fundamental posture recovery concept applicable across multiple positions
+- [[Transitions/Posture Recovery]] - Fundamental posture recovery concept applicable across multiple positions
 
-- [[Posture in Triangle Escape]] - Complementary posture technique from alternative triangle escape angle
+- [[Transitions/Posture in Triangle Escape]] - Complementary posture technique from alternative triangle escape angle
 
-- [[Open Guard]] - Target position achieved on successful posture recovery and escape
+- [[Positions/Open Guard]] - Target position achieved on successful posture recovery and escape
 
-- [[Half Guard]] - Position reached if opponent counters posture attempt with sweep
+- [[Positions/Half Guard]] - Position reached if opponent counters posture attempt with sweep
 
-- [[Combat Base]] - Intermediate base position used during posture recovery sequences
+- [[Positions/Combat Base]] - Intermediate base position used during posture recovery sequences
 
-- [[Armbar Defense]] - Critical defensive skill needed when opponent transitions from triangle during posture attempt
+- [[Transitions/Armbar Defense]] - Critical defensive skill needed when opponent transitions from triangle during posture attempt
 
 
 </section>

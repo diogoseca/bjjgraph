@@ -146,7 +146,7 @@ description: "Learn to defend the Backstep from K-Guard as the bottom player. Re
 
 The Backstep from K-Guard Defender perspective addresses the bottom player's response when the top player attempts to extract their trapped leg by stepping backward around the K-Guard hook system. As the defender, your primary objectives are to recognize the backstep initiation early through weight transfer cues, maintain hook tension to prevent extraction, and transition to alternative guard positions if the backstep begins to succeed. The K-Guard's inverted hook provides strong retention against forward pressure but is more vulnerable to backward directional changes, making early recognition critical for successful defense. The key defensive decision is understanding when to fight for K-Guard retention versus flowing to Single Leg X-Guard or other entanglements that capitalize on the backstep motion.
 
-**Opponent's Starting Position**: [[K-Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/K-Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ The Backstep from K-Guard Defender perspective addresses the bottom player's res
 ### 1. Increase inverted hook tension and pull trapped leg aggressively across centerline to resist extraction
 
 - **When to use**: At the first recognition cue, before the backstep motion begins, when you still have full hook contact
-- **Targets**: [[K-Guard]]
+- **Targets**: [[Positions/K-Guard]]
 - **If successful**: Top player cannot extract their leg and remains in K-Guard where you retain all offensive options
 - **Risk**: If top player has already committed to backstep with momentum, excessive pulling without frame support may unbalance you
 
 ### 2. Transition to Single Leg X-Guard by catching the backstepping leg with both feet at the hip
 
 - **When to use**: When the backstep extraction has begun and K-Guard retention is clearly failing despite your defensive efforts
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: You establish Single Leg X-Guard with immediate sweep threats and legitimate offensive options from the new guard position
 - **Risk**: If you release K-Guard hooks too early before confirming the backstep, you may end up in open space without any guard structure
 
 ### 3. Follow the backstep direction with hip escape to maintain guard angle and re-establish hooks
 
 - **When to use**: During the backstep motion when you have upper body frames but hook contact is becoming compromised
-- **Targets**: [[K-Guard]]
+- **Targets**: [[Positions/K-Guard]]
 - **If successful**: You re-establish K-Guard or recover to butterfly guard with functional hooks and maintained distance control
 - **Risk**: Over-rotating during the hip escape exposes your back if you turn past perpendicular to the mat
 
 ### 4. Load butterfly hook with maximum elevation during the weight transfer phase to destabilize posting base
 
 - **When to use**: When you feel the top player shift weight to their posting leg during backstep setup
-- **Targets**: [[K-Guard]]
+- **Targets**: [[Positions/K-Guard]]
 - **If successful**: Elevation disrupts the top player's base and aborts the backstep attempt by removing their stable posting position
 - **Risk**: If timing is off and you extend hooks without proper loading, you lose retention structure and accelerate the pass
 
@@ -217,11 +217,11 @@ The Backstep from K-Guard Defender perspective addresses the bottom player's res
 
 ## Best-Case Outcomes for Defender
 
-### → [[K-Guard]]
+### → [[Positions/K-Guard]]
 
 Recognize the backstep early through weight transfer cues and immediately increase inverted hook tension while loading butterfly hook with elevation pressure. The combination of lateral pull and vertical force makes the extraction nearly impossible if applied before the backstep motion begins. Maintain upper body frames to prevent the top player from anchoring your torso during repeated attempts.
 
-### → [[Single Leg X-Guard]]
+### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 When the backstep extraction begins to succeed and the inverted hook loses contact with the trapped leg, release the inverted hook and immediately reconfigure to Single Leg X-Guard by catching the backstepping leg at the hip with both feet. This transitions the failed K-Guard retention into an offensive sweeping position with strong leg control and immediate sweep threats.
 

@@ -190,7 +190,7 @@ Executing the Rear Naked Choke from Seat Belt requires mastering the transition 
 
 Elite practitioners develop the ability to chain multiple RNC attempts with alternative attacks, creating an offensive cycle where each defensive reaction opens a different submission pathway. The choking arm's positioning within the seat belt means repeated attempts can be launched without losing positional dominance, provided the attacker understands grip recovery and maintains disciplined positional control between finishing attempts.
 
-**From Position**: [[Seat Belt Control Back]] (Top)
+**From Position**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
 
 
 </section>
@@ -245,8 +245,8 @@ Elite practitioners develop the ability to chain multiple RNC attempts with alte
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Seat Belt Control Back]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Failure | [[Positions/Back Control/Seat Belt Control Back]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -255,11 +255,11 @@ Elite practitioners develop the ability to chain multiple RNC attempts with alte
 
 ## Opponent Defenses
 
-- **Opponent tucks chin tightly to chest and uses both hands to block forearm entry under the jawline** (Effectiveness: High) - Your Response: Use progressive forearm pressure walking across the jawline combined with pushing the crown of their head forward with your non-choking hand. Alternatively, transition to short choke variation or switch to armbar attack when both their hands commit to chin defense. → Leads to [[Seat Belt Control Back]]
-- **Opponent grabs the choking wrist or forearm with a two-on-one grip and strips it away from the neck** (Effectiveness: High) - Your Response: Use your non-choking hand to peel their bottom grip off your choking wrist, isolating one defending hand at a time. Re-establish seat belt if the strip is complete, then re-attack from the opposite angle. Chain immediately to armbar on the exposed arm if they overcommit both hands to the strip. → Leads to [[Seat Belt Control Back]]
-- **Opponent turns their body toward the choking arm side to reduce the angle and create space for escape** (Effectiveness: Medium) - Your Response: Follow their rotation with your hooks and chest pressure, maintaining perpendicular alignment to their spine. If they create significant angle, transition to bow and arrow choke using the momentum of their turn, or allow the rotation and take mount while maintaining upper body control. → Leads to [[Back Control]]
-- **Opponent bridges explosively while hand fighting to create separation between your chest and their back** (Effectiveness: Medium) - Your Response: Drop your weight low by sliding hips toward their hips and drive hooks deeper to prevent hip elevation. Ride the bridge by following their movement with your body weight rather than fighting it statically. Re-tighten chest-to-back connection immediately as the bridge collapses. → Leads to [[Seat Belt Control Back]]
-- **Opponent peels the figure-four apart by attacking the hand behind their head before the squeeze is fully applied** (Effectiveness: Low) - Your Response: Immediately switch to gable grip (palm-to-palm) with the choking arm still across the neck, maintaining choking pressure through elbow squeeze even without the figure-four. Alternatively, re-thread the hand behind the head from the opposite angle while maintaining forearm pressure on the neck. → Leads to [[Seat Belt Control Back]]
+- **Opponent tucks chin tightly to chest and uses both hands to block forearm entry under the jawline** (Effectiveness: High) - Your Response: Use progressive forearm pressure walking across the jawline combined with pushing the crown of their head forward with your non-choking hand. Alternatively, transition to short choke variation or switch to armbar attack when both their hands commit to chin defense. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
+- **Opponent grabs the choking wrist or forearm with a two-on-one grip and strips it away from the neck** (Effectiveness: High) - Your Response: Use your non-choking hand to peel their bottom grip off your choking wrist, isolating one defending hand at a time. Re-establish seat belt if the strip is complete, then re-attack from the opposite angle. Chain immediately to armbar on the exposed arm if they overcommit both hands to the strip. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
+- **Opponent turns their body toward the choking arm side to reduce the angle and create space for escape** (Effectiveness: Medium) - Your Response: Follow their rotation with your hooks and chest pressure, maintaining perpendicular alignment to their spine. If they create significant angle, transition to bow and arrow choke using the momentum of their turn, or allow the rotation and take mount while maintaining upper body control. → Leads to [[Positions/Back Control]]
+- **Opponent bridges explosively while hand fighting to create separation between your chest and their back** (Effectiveness: Medium) - Your Response: Drop your weight low by sliding hips toward their hips and drive hooks deeper to prevent hip elevation. Ride the bridge by following their movement with your body weight rather than fighting it statically. Re-tighten chest-to-back connection immediately as the bridge collapses. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
+- **Opponent peels the figure-four apart by attacking the hand behind their head before the squeeze is fully applied** (Effectiveness: Low) - Your Response: Immediately switch to gable grip (palm-to-palm) with the choking arm still across the neck, maintaining choking pressure through elbow squeeze even without the figure-four. Alternatively, re-thread the hand behind the head from the opposite angle while maintaining forearm pressure on the neck. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
 
 
 </section>

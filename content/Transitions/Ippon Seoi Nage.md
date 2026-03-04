@@ -21,7 +21,7 @@ In the BJJ context, Ippon Seoi Nage offers several strategic advantages: it gene
 
 The modern application of Ippon Seoi Nage in BJJ emphasizes grip control, timing against forward pressure, and smooth transitions to ground control positions. Successful execution requires coordinating multiple elements: breaking your opponent's balance forward and to the side, achieving deep penetration with your hips below theirs, maintaining continuous pulling action throughout the throw, and controlling the landing to secure top position immediately.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The modern application of Ippon Seoi Nage in BJJ emphasizes grip control, timing
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Standing Position]] | 20% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Standing Position]] | 20% |
 
 
 </section>
@@ -194,25 +194,25 @@ Ippon Seoi Nage serves as a high-percentage entry into the top game from standin
 ## Related Techniques
 
 
-- [[Morote Seoi Nage]] - Two-handed variation sharing identical entry mechanics, preferred in no-gi
+- [[Transitions/Morote Seoi Nage]] - Two-handed variation sharing identical entry mechanics, preferred in no-gi
 
-- [[Side Control]] - Primary landing position after successful throw execution
+- [[Positions/Side Control]] - Primary landing position after successful throw execution
 
-- [[Guard Pull]] - Alternative standing transition that can fake into Seoi Nage entry
+- [[Transitions/Guard Pull]] - Alternative standing transition that can fake into Seoi Nage entry
 
-- [[Osoto Gari]] - Follow-up throw when opponent defends Seoi Nage by stepping backward
+- [[Transitions/Osoto Gari]] - Follow-up throw when opponent defends Seoi Nage by stepping backward
 
-- [[Kouchi Gari]] - Setup attack creating the forward momentum required for Seoi Nage entry
+- [[Transitions/Kouchi Gari]] - Setup attack creating the forward momentum required for Seoi Nage entry
 
-- [[Ankle Pick]] - Counter option when Seoi Nage entry is defended with a sprawl
+- [[Transitions/Ankle Pick]] - Counter option when Seoi Nage entry is defended with a sprawl
 
-- [[Harai Goshi]] - Hip throw alternative sharing similar kuzushi and entry angle requirements
+- [[Transitions/Harai Goshi]] - Hip throw alternative sharing similar kuzushi and entry angle requirements
 
-- [[Standing Position]] - Starting position from which this throw is initiated
+- [[Positions/Standing Position]] - Starting position from which this throw is initiated
 
-- [[Knee on Belly]] - Secondary landing position achievable with strong forward momentum on the throw
+- [[Positions/Knee on Belly]] - Secondary landing position achievable with strong forward momentum on the throw
 
-- [[Back Control]] - Available if opponent over-rotates during their defensive turn
+- [[Positions/Back Control]] - Available if opponent over-rotates during their defensive turn
 
 
 </section>

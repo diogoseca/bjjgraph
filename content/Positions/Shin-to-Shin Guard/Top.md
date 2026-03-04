@@ -207,25 +207,25 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (11% of attempts)
+### [[Transitions/Knee Slice Pass]] (11% of attempts)
 
-### [[Long Step Pass]] (22% of attempts)
+### [[Transitions/Long Step Pass]] (22% of attempts)
 
-### [[Leg Drag Pass]] (10% of attempts)
+### [[Transitions/Leg Drag Pass]] (10% of attempts)
 
-### [[Stack Pass]] (9% of attempts)
+### [[Transitions/Stack Pass]] (9% of attempts)
 
-### [[Pressure Pass]] (11% of attempts)
+### [[Transitions/Pressure Pass]] (11% of attempts)
 
-### [[X Pass]] (10% of attempts)
+### [[Transitions/X Pass]] (10% of attempts)
 
-### [[Knee Through]] (10% of attempts)
+### [[Transitions/Knee Through]] (10% of attempts)
 
-### [[Smash Pass]] (11% of attempts)
+### [[Transitions/Smash Pass]] (11% of attempts)
 
-### [[Pass Shin-to-Shin Guard]] (4% of attempts)
+### [[Transitions/Pass Shin-to-Shin Guard]] (4% of attempts)
 
-### [[Pressure from Shin-to-Shin]] (2% of attempts)
+### [[Transitions/Pressure from Shin-to-Shin]] (2% of attempts)
 
 
 
@@ -236,28 +236,28 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 ## Decision Making from This Position
 
 **If opponent maintains strong shin connection with active pressure but has weak or contested upper body grips:**
-- Execute **[[Knee Slice Pass]]** → [[Headquarters Position]] (Probability: 60%)
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Headquarters Position]] (Probability: 60%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent's shin connection is weak or passive, allowing opportunity for immediate pressure:**
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Smash Pass]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent attempts to transition to single leg X or extend leg for entry to leg entanglement:**
-- Execute **[[Leg Drag Pass]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[X Pass]]** → [[Side Control]] (Probability: 58%)
+- Execute **[[Transitions/Leg Drag Pass]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Transitions/X Pass]]** → [[Positions/Side Control]] (Probability: 58%)
 
 
 **If opponent has strong upper body grips and distance management preventing forward pressure:**
-- Execute **[[Long Step Pass]]** → [[Side Control]] (Probability: 62%)
-- Execute **[[Knee Slice Pass]]** → [[Headquarters Position]] (Probability: 55%)
+- Execute **[[Transitions/Long Step Pass]]** → [[Positions/Side Control]] (Probability: 62%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Headquarters Position]] (Probability: 55%)
 
 
 **If opponent maintains high guard retention posture with hips elevated and mobile:**
-- Execute **[[Stack Pass]]** → [[Side Control]] (Probability: 58%)
-- Execute **[[Knee Through]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/Stack Pass]]** → [[Positions/Side Control]] (Probability: 58%)
+- Execute **[[Transitions/Knee Through]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 
@@ -396,14 +396,14 @@ Partner maintains shin-to-shin with moderate resistance. Practice applying diffe
 
 ## Related Positions and Techniques
 
-- **[[Headquarters Position]]** - Common position achieved after partial shin clearing, platform for continued passing sequences
-- **[[Combat Base]]** - Fundamental posture for maintaining base while working to clear shin connection and prevent sweeps
-- **[[Standing Position]]** - Alternative posture for passing shin-to-shin, particularly effective with circling and long step approaches
-- **[[Single Leg X-Guard]]** - Primary transition threat that must be recognized and prevented during clearing sequences
-- **[[X-Guard]]** - Dangerous transition option if opponent successfully elevates and establishes X-guard hooks
-- **[[Side Control]]** - Primary objective position after successfully passing shin-to-shin guard
-- **[[Open Guard]]** - Broader category of guard positions requiring similar passing principles and strategies
-- **[[De La Riva Guard]]** - Related open guard that opponent may transition to if shin-to-shin is successfully cleared
+- **[[Positions/Headquarters Position]]** - Common position achieved after partial shin clearing, platform for continued passing sequences
+- **[[Positions/Combat Base]]** - Fundamental posture for maintaining base while working to clear shin connection and prevent sweeps
+- **[[Positions/Standing Position]]** - Alternative posture for passing shin-to-shin, particularly effective with circling and long step approaches
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Primary transition threat that must be recognized and prevented during clearing sequences
+- **[[Positions/X-Guard]]** - Dangerous transition option if opponent successfully elevates and establishes X-guard hooks
+- **[[Positions/Side Control]]** - Primary objective position after successfully passing shin-to-shin guard
+- **[[Positions/Open Guard]]** - Broader category of guard positions requiring similar passing principles and strategies
+- **[[Positions/De La Riva Guard]]** - Related open guard that opponent may transition to if shin-to-shin is successfully cleared
 
 
 </section>

@@ -21,7 +21,7 @@ The transition exploits a specific timing window that occurs when the top player
 
 Strategically, this transition serves as the gateway to the most dynamic attacks available from lasso guard. Once inverted, the bottom player threatens berimbolo back takes, overhead sweeps, kiss of the dragon sequences, and various submission entries that are geometrically unavailable from upright lasso. The top player faces a dilemma: address the inversion early and potentially open themselves to standard lasso sweeps, or allow the inversion and face the amplified threat set. This decision pressure is what makes the transition to inverted lasso a cornerstone of modern competition guard play.
 
-**From Position**: [[Lasso Guard]] (Bottom)
+**From Position**: [[Positions/Lasso Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition serves as the gateway to the most dynamic attacks
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inverted Lasso Guard]] | 70% |
-| Failure | [[Lasso Guard]] | 20% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Lasso Guard/Inverted Lasso Guard]] | 70% |
+| Failure | [[Positions/Lasso Guard]] | 20% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -191,21 +191,21 @@ The transition to inverted lasso guard occupies a critical junction in the moder
 ## Related Techniques
 
 
-- [[Lasso Guard]] - Starting position - standard lasso guard provides the foundation grips and hooks for the inversion entry
+- [[Positions/Lasso Guard]] - Starting position - standard lasso guard provides the foundation grips and hooks for the inversion entry
 
-- [[Inverted Lasso Guard]] - Target position - the inverted variation reached upon successful completion of this transition
+- [[Positions/Lasso Guard/Inverted Lasso Guard]] - Target position - the inverted variation reached upon successful completion of this transition
 
-- [[Berimbolo Entry]] - Primary follow-up technique - inverted lasso creates ideal angles for berimbolo back take sequences
+- [[Transitions/Berimbolo Entry]] - Primary follow-up technique - inverted lasso creates ideal angles for berimbolo back take sequences
 
-- [[Spider Guard]] - Alternative entry point - spider guard positions can transition directly to inverted lasso through compound movement
+- [[Positions/Spider Guard]] - Alternative entry point - spider guard positions can transition directly to inverted lasso through compound movement
 
-- [[Inverted Guard]] - Related movement pattern - shares inversion mechanics and shoulder-based weight distribution principles
+- [[Positions/Inverted Guard]] - Related movement pattern - shares inversion mechanics and shoulder-based weight distribution principles
 
-- [[Kiss of the Dragon]] - Chain technique - inverted lasso naturally flows into kiss of the dragon back take when opponent defends berimbolo
+- [[Transitions/Kiss of the Dragon]] - Chain technique - inverted lasso naturally flows into kiss of the dragon back take when opponent defends berimbolo
 
-- [[Lasso Guard Pass]] - Opponent's primary counter - understanding pass mechanics informs optimal inversion timing
+- [[Transitions/Lasso Guard Pass]] - Opponent's primary counter - understanding pass mechanics informs optimal inversion timing
 
-- [[De La Riva Guard]] - Complementary guard system - shares similar inversion pathways and can be combined with lasso in hybrid sequences
+- [[Positions/De La Riva Guard]] - Complementary guard system - shares similar inversion pathways and can be combined with lasso in hybrid sequences
 
 
 </section>

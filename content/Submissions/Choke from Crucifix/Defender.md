@@ -154,7 +154,7 @@ The critical window for successful defense occurs before the choking arm is full
 
 Energy management is paramount because the crucifix is inherently exhausting for the bottom player. Explosive movements that fail to produce escape often tighten the attacker's control and accelerate fatigue. Measured, technical responses that exploit the attacker's weight shifts during choke attempts create the highest probability of survival and escape. Accepting that escape may require multiple sequential efforts rather than a single explosive movement is the mindset that produces consistent defensive success from this position.
 
-**Opponent's Starting Position**: [[Crucifix]] (Top)
+**Opponent's Starting Position**: [[Positions/Crucifix]] (Top)
 
 
 </section>
@@ -193,21 +193,21 @@ Energy management is paramount because the crucifix is inherently exhausting for
 ### 1. Aggressive chin tuck with shoulder elevation to deny forearm insertion under the chin
 
 - **When to use**: Immediately upon recognizing the choke attempt, before attacker's arm passes under the chin. This is your first-line defense when both arms remain trapped.
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Denies the choke entry, forcing attacker to work for chin exposure or switch to alternative attacks, buying time for arm extraction
 - **Risk**: Low risk defense but becomes less effective as attacker applies jaw pressure or flattens you further
 
 ### 2. Hip escape and rolling attempt to disrupt attacker's base and create arm extraction opportunity
 
 - **When to use**: When attacker commits both hands to the choke and reduces leg pressure on your trapped arms during the finishing attempt. Time the explosive hip movement to the moment of their weight shift.
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Disrupts attacker's position enough to extract one or both arms, transitioning to standard back control defense where hands are available for grip fighting
 - **Risk**: If poorly timed, can actually help attacker flatten you further and expose your neck more. Requires precise timing with attacker's weight commitment.
 
 ### 3. Forward roll through the crucifix to scramble and recover position
 
 - **When to use**: When attacker's base is high and they are focused on choking arm insertion rather than maintaining low hip pressure. Best attempted before the choke is fully seated.
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Disrupts the entire crucifix position, often resulting in a scramble where you can recover to turtle or guard. Even partial success removes the immediate choking threat.
 - **Risk**: High energy expenditure and if attacker follows the roll, you may end up in mounted crucifix which is worse. Only attempt when base disruption is likely.
 
@@ -230,11 +230,11 @@ Energy management is paramount because the crucifix is inherently exhausting for
 
 ## Best-Case Outcomes for Defender
 
-### → [[Crucifix]]
+### → [[Positions/Crucifix]]
 
 Deny the choke through persistent chin tuck and shoulder defense, forcing the attacker to abandon the submission attempt and reset to pure positional control where you can work standard crucifix escapes
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Successfully extract one or both arms during the attacker's choke attempt through well-timed hip movement, converting from crucifix bottom to standard back control bottom where full defensive hand fighting becomes available
 

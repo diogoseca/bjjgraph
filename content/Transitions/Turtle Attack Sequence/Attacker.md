@@ -180,7 +180,7 @@ description: "How to attack from Turtle top in BJJ. Systematic back take entries
 
 As the top player attacking turtle, your objective is converting positional advantage into back control, submission entries, or superior pin positions before the defender can escape. The turtle top position is inherently time-sensitive because the defender is actively working granby rolls, sit-throughs, and technical standups to recover guard or stand. Your attacking methodology follows a priority hierarchy: establish dominant upper body control through seat belt or harness grip, prevent the defender's hips from moving through chest pressure and weight distribution, then systematically insert hooks or transition to front headlock attacks based on the defender's reactions. The most common error at this position is rushing hook insertion before securing upper body control, which allows the defender to spin out or sit through. Patient grip establishment followed by explosive positional advancement yields the highest conversion rate from turtle to back control.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -235,9 +235,9 @@ As the top player attacking turtle, your objective is converting positional adva
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -246,11 +246,11 @@ As the top player attacking turtle, your objective is converting positional adva
 
 ## Opponent Counters
 
-- **Defender fights seat belt aggressively with two-on-one grip, stripping the overhook before hooks are inserted** (Effectiveness: High) - Your Response: Switch to double underhook control or transition to front headlock if their hand fighting creates space above their shoulders. If they strip the overhook, immediately re-establish with the other arm or circle to front headlock position where their hand fighting exposes the neck. → Leads to [[Turtle]]
-- **Defender executes granby roll away from your hook side, inverting to recover guard** (Effectiveness: High) - Your Response: Follow the roll by maintaining chest contact and circling with their rotation. Keep your harness grip tight throughout the roll and use their momentum to continue into back control on the other side. If you lose chest contact, immediately transition to front headlock or sprawl to prevent guard recovery. → Leads to [[Back Control]]
-- **Defender sits through explosively to butterfly guard or half guard** (Effectiveness: Medium) - Your Response: Anticipate the sit-through by monitoring hip movement. When defender begins hip rotation, drive your near knee across their hip line to block the sit-through, or switch to front headlock as their upper body turns. If the sit-through succeeds partially, immediately work to pass the resulting guard before they consolidate. → Leads to [[Turtle]]
-- **Defender explosively stands up using technical standup to break all controls** (Effectiveness: Medium) - Your Response: As defender begins to post for standup, heavy your weight forward onto their shoulders to collapse their posting arm. If they get to one knee, lock body triangle or transition to standing back control. Drive them back to the mat using your harness grip and forward pressure before they achieve full standing posture. → Leads to [[Back Control]]
-- **Defender tucks elbows extremely tight and creates a static defensive shell preventing all grip penetration** (Effectiveness: Medium) - Your Response: Use cross-face and far hip control to flatten the defender from turtle to their belly, breaking the four-point base. Once flattened, the defensive shell loses structural integrity and you can work underhooks and harness from the flattened position. Alternatively, circle to front headlock to attack the neck since their tight elbows prevent them from defending head position. → Leads to [[Turtle]]
+- **Defender fights seat belt aggressively with two-on-one grip, stripping the overhook before hooks are inserted** (Effectiveness: High) - Your Response: Switch to double underhook control or transition to front headlock if their hand fighting creates space above their shoulders. If they strip the overhook, immediately re-establish with the other arm or circle to front headlock position where their hand fighting exposes the neck. → Leads to [[Positions/Turtle]]
+- **Defender executes granby roll away from your hook side, inverting to recover guard** (Effectiveness: High) - Your Response: Follow the roll by maintaining chest contact and circling with their rotation. Keep your harness grip tight throughout the roll and use their momentum to continue into back control on the other side. If you lose chest contact, immediately transition to front headlock or sprawl to prevent guard recovery. → Leads to [[Positions/Back Control]]
+- **Defender sits through explosively to butterfly guard or half guard** (Effectiveness: Medium) - Your Response: Anticipate the sit-through by monitoring hip movement. When defender begins hip rotation, drive your near knee across their hip line to block the sit-through, or switch to front headlock as their upper body turns. If the sit-through succeeds partially, immediately work to pass the resulting guard before they consolidate. → Leads to [[Positions/Turtle]]
+- **Defender explosively stands up using technical standup to break all controls** (Effectiveness: Medium) - Your Response: As defender begins to post for standup, heavy your weight forward onto their shoulders to collapse their posting arm. If they get to one knee, lock body triangle or transition to standing back control. Drive them back to the mat using your harness grip and forward pressure before they achieve full standing posture. → Leads to [[Positions/Back Control]]
+- **Defender tucks elbows extremely tight and creates a static defensive shell preventing all grip penetration** (Effectiveness: Medium) - Your Response: Use cross-face and far hip control to flatten the defender from turtle to their belly, breaking the four-point base. Once flattened, the defensive shell loses structural integrity and you can work underhooks and harness from the flattened position. Alternatively, circle to front headlock to attack the neck since their tight elbows prevent them from defending head position. → Leads to [[Positions/Turtle]]
 
 
 </section>

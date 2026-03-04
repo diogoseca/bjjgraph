@@ -180,7 +180,7 @@ description: "Learn to execute posture recovery inside the triangle choke. Step-
 
 As the attacker executing posture recovery from inside the triangle, your primary objective is re-establishing vertical spine alignment to neutralize the choking mechanism before the opponent can perfect their finishing angle. This technique demands controlled, structural movement rather than explosive bursts. You must coordinate leg drive from your base with free hand positioning on the opponent's hip to simultaneously create vertical distance and prevent angle optimization. The posture recovery phase is time-critical because every second spent with broken posture allows the triangle player to tighten their lock, adjust their angle, and deepen the blood restriction that leads to unconsciousness. Success requires understanding that posture is recovered through your legs and skeletal alignment, not through pulling with your back muscles, which fatigues rapidly under sustained triangle pressure.
 
-**From Position**: [[Triangle Escape Position]] (Top)
+**From Position**: [[Positions/Triangle Escape Position]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ As the attacker executing posture recovery from inside the triangle, your primar
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Triangle Escape Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Triangle Escape Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing posture recovery from inside the triangle, your primar
 
 ## Opponent Counters
 
-- **Opponent clasps hands behind your head and pulls down with full body force to re-break posture** (Effectiveness: High) - Your Response: Drive upward explosively from your legs while pressing down on their hip. If they maintain the pull, walk your knees forward to stack their weight and reduce their pulling leverage. Break their hand clasp by driving your head straight up while stepping to your trapped arm side. → Leads to [[Triangle Escape Position]]
-- **Opponent scoots hips laterally to optimize perpendicular finishing angle during your posture attempt** (Effectiveness: Medium) - Your Response: Match their lateral movement by stepping in the same direction while maintaining downward pressure on their hip with your free hand. Prevent the angle change by pinning their hip to the mat and continuing your forward stacking pressure to eliminate their mobility. → Leads to [[Triangle Escape Position]]
-- **Opponent transitions to armbar on trapped arm by extending hips and pivoting while you focus on posture** (Effectiveness: High) - Your Response: Immediately rotate toward your trapped arm side while keeping that elbow pinned to your ribs. Stack your weight more aggressively onto their shoulders to limit the hip extension needed for armbar finish. Follow their rotation rather than resisting it, turning the armbar transition into a passing opportunity. → Leads to [[Half Guard]]
-- **Opponent uses shin across your back to create additional downward leverage preventing posture recovery** (Effectiveness: Medium) - Your Response: Address the leg pressure by walking your base forward to change the angle of their shin contact. The shin loses leverage as you move your torso forward past the perpendicular line of their legs. Continue driving from your legs while maintaining hip control with your free hand. → Leads to [[Triangle Escape Position]]
+- **Opponent clasps hands behind your head and pulls down with full body force to re-break posture** (Effectiveness: High) - Your Response: Drive upward explosively from your legs while pressing down on their hip. If they maintain the pull, walk your knees forward to stack their weight and reduce their pulling leverage. Break their hand clasp by driving your head straight up while stepping to your trapped arm side. → Leads to [[Positions/Triangle Escape Position]]
+- **Opponent scoots hips laterally to optimize perpendicular finishing angle during your posture attempt** (Effectiveness: Medium) - Your Response: Match their lateral movement by stepping in the same direction while maintaining downward pressure on their hip with your free hand. Prevent the angle change by pinning their hip to the mat and continuing your forward stacking pressure to eliminate their mobility. → Leads to [[Positions/Triangle Escape Position]]
+- **Opponent transitions to armbar on trapped arm by extending hips and pivoting while you focus on posture** (Effectiveness: High) - Your Response: Immediately rotate toward your trapped arm side while keeping that elbow pinned to your ribs. Stack your weight more aggressively onto their shoulders to limit the hip extension needed for armbar finish. Follow their rotation rather than resisting it, turning the armbar transition into a passing opportunity. → Leads to [[Positions/Half Guard]]
+- **Opponent uses shin across your back to create additional downward leverage preventing posture recovery** (Effectiveness: Medium) - Your Response: Address the leg pressure by walking your base forward to change the angle of their shin contact. The shin loses leverage as you move your torso forward past the perpendicular line of their legs. Continue driving from your legs while maintaining hip control with your free hand. → Leads to [[Positions/Triangle Escape Position]]
 
 
 </section>

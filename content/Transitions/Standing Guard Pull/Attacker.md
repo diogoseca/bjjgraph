@@ -180,7 +180,7 @@ description: "Learn to execute the Standing Guard Pull as the attacker. Step-by-
 
 As the attacker executing the Standing Guard Pull, your objective is to transition from standing engagement to an established open guard position where you control distance, grips, and angles. Success depends on three critical phases: grip establishment that gives you pulling power and posture control, a committed descent that maintains connection throughout the transition, and immediate guard structure creation upon landing. The guard pull is not a retreat—it is a deliberate offensive transition that places you in your preferred attacking position. Elite guard pullers treat this as an aggressive action, immediately threatening sweeps and submissions within the first two seconds of landing. The difference between a successful pull and a failed one lies entirely in the preparation and commitment of the first phase—grips dictate everything that follows.
 
-**From Position**: [[Standing Position]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Standing Guard Pull, your objective is to transiti
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Standing Guard Pull, your objective is to transiti
 
 ## Opponent Counters
 
-- **Opponent sprawls and drives hips down during descent, denying guard establishment** (Effectiveness: High) - Your Response: Maintain grip tension throughout the sprawl and use their forward drive to load a butterfly hook sweep or collar drag. If they sprawl hard, their weight commits forward, which can be redirected into a technical stand-up or converted to a seated guard position where you can re-engage on your terms. → Leads to [[Standing Position]]
-- **Opponent strips controlling grips before or during the pull attempt** (Effectiveness: High) - Your Response: If grips are stripped before commitment, abort the pull and re-engage in grip fighting from standing. If grips break mid-descent, immediately transition to a seated guard pull by scooting forward to re-establish contact rather than lying on your back without connection. → Leads to [[Standing Position]]
-- **Opponent drives forward aggressively during descent to pass immediately** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by loading a butterfly hook sweep as they drive in. Their aggressive forward pressure actually aids sweeps if you have hooks inserted. Frame with your knee shield and redirect their pressure laterally to create an angle for guard recovery. → Leads to [[Half Guard]]
-- **Opponent circles laterally to avoid the pull trajectory and disengage** (Effectiveness: Medium) - Your Response: Track their lateral movement by adjusting your hip angle during descent to face them. Use your sleeve grip to prevent full disengagement and rotate your guard structure to match their new angle. If they completely disengage, technical stand-up and re-initiate the sequence. → Leads to [[Standing Position]]
+- **Opponent sprawls and drives hips down during descent, denying guard establishment** (Effectiveness: High) - Your Response: Maintain grip tension throughout the sprawl and use their forward drive to load a butterfly hook sweep or collar drag. If they sprawl hard, their weight commits forward, which can be redirected into a technical stand-up or converted to a seated guard position where you can re-engage on your terms. → Leads to [[Positions/Standing Position]]
+- **Opponent strips controlling grips before or during the pull attempt** (Effectiveness: High) - Your Response: If grips are stripped before commitment, abort the pull and re-engage in grip fighting from standing. If grips break mid-descent, immediately transition to a seated guard pull by scooting forward to re-establish contact rather than lying on your back without connection. → Leads to [[Positions/Standing Position]]
+- **Opponent drives forward aggressively during descent to pass immediately** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by loading a butterfly hook sweep as they drive in. Their aggressive forward pressure actually aids sweeps if you have hooks inserted. Frame with your knee shield and redirect their pressure laterally to create an angle for guard recovery. → Leads to [[Positions/Half Guard]]
+- **Opponent circles laterally to avoid the pull trajectory and disengage** (Effectiveness: Medium) - Your Response: Track their lateral movement by adjusting your hip angle during descent to face them. Use your sleeve grip to prevent full disengagement and rotate your guard structure to match their new angle. If they completely disengage, technical stand-up and re-initiate the sequence. → Leads to [[Positions/Standing Position]]
 
 
 </section>

@@ -21,7 +21,7 @@ The mechanics revolve around three sequential priorities: creating initial separ
 
 From a systems perspective, this transition serves as the primary safety valve in BJJ's positional hierarchy. Elite practitioners use it as a deliberate tactical reset rather than a desperate escape, flowing from scramble chaos into their preferred guard system with purpose and precision. The ability to recover guard reliably under pressure dramatically reduces the cost of failed offensive attempts, enabling a more aggressive overall game because the practitioner knows they can always reset to a functional guard position.
 
-**From Position**: [[Scramble Position]] (Bottom)
+**From Position**: [[Positions/Scramble Position]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ From a systems perspective, this transition serves as the primary safety valve i
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Scramble Position]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Scramble Position]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -193,29 +193,29 @@ Stabilize to Guard from Scramble serves as the critical defensive reset mechanis
 ## Related Techniques
 
 
-- [[Scramble Position]] - Source position—the chaotic neutral state from which guard recovery is initiated
+- [[Positions/Scramble Position]] - Source position—the chaotic neutral state from which guard recovery is initiated
 
-- [[Open Guard]] - Primary target position upon successful guard stabilization
+- [[Positions/Open Guard]] - Primary target position upon successful guard stabilization
 
-- [[Side Control]] - Position reached by opponent if they counter the guard recovery attempt and pass
+- [[Positions/Side Control]] - Position reached by opponent if they counter the guard recovery attempt and pass
 
-- [[Half Guard]] - Intermediate recovery position when full open guard cannot be established
+- [[Positions/Half Guard]] - Intermediate recovery position when full open guard cannot be established
 
-- [[Closed Guard]] - Alternative guard recovery target offering maximum security at the cost of mobility
+- [[Positions/Closed Guard]] - Alternative guard recovery target offering maximum security at the cost of mobility
 
-- [[Butterfly Guard]] - Specific guard variation commonly entered from scramble recovery via butterfly hook insertion
+- [[Positions/Butterfly Guard]] - Specific guard variation commonly entered from scramble recovery via butterfly hook insertion
 
-- [[De La Riva Guard]] - Advanced guard system accessible after initial stabilization against standing opponents
+- [[Positions/De La Riva Guard]] - Advanced guard system accessible after initial stabilization against standing opponents
 
-- [[Standing Position]] - Alternative scramble exit via technical stand-up when guard recovery is not viable
+- [[Positions/Standing Position]] - Alternative scramble exit via technical stand-up when guard recovery is not viable
 
-- [[Scramble to Top Position]] - Alternative scramble strategy prioritizing top position over guard recovery
+- [[Transitions/Scramble to Top Position]] - Alternative scramble strategy prioritizing top position over guard recovery
 
-- [[Scramble from Failed Sweep]] - Related transition that often precedes scramble situations requiring guard recovery
+- [[Transitions/Scramble from Failed Sweep]] - Related transition that often precedes scramble situations requiring guard recovery
 
-- [[Guard Recovery from Combat Base]] - Related guard recovery technique from a more structured starting position
+- [[Transitions/Guard Recovery from Combat Base]] - Related guard recovery technique from a more structured starting position
 
-- [[Pull Guard from Standing]] - Related guard establishment technique sharing similar frame and grip mechanics
+- [[Transitions/Pull Guard from Standing]] - Related guard establishment technique sharing similar frame and grip mechanics
 
 
 </section>

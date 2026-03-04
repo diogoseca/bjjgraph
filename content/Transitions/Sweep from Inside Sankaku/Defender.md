@@ -146,7 +146,7 @@ description: "Master defending the Sweep from Inside Sankaku. Learn to recognize
 
 As the defender against the Sweep from Inside Sankaku, you are the top player maintaining the Inside Sankaku entanglement who must prevent the bottom player from reversing your dominant position. Your defensive strategy balances maintaining submission pressure with base preservation, recognizing that over-commitment to the heel hook creates the weight shifts that enable the sweep. Effective defense requires reading the bottom player's setup indicators including grip establishment, hip loading, and directional preparation, then responding with base adjustments, weight redistribution, and positional advancement before the sweep can develop. The defender who maintains awareness of sweep threats while systematically pursuing the submission creates an unsolvable problem for the bottom player.
 
-**Opponent's Starting Position**: [[Inside Sankaku]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Inside Sankaku]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the Sweep from Inside Sankaku, you are the top player ma
 ### 1. Drop weight and widen base by posting the far hand firmly on the mat
 
 - **When to use**: When you detect grip establishment or hip loading indicating an imminent sweep attempt from the bottom player
-- **Targets**: [[Inside Sankaku]]
+- **Targets**: [[Positions/Inside Sankaku]]
 - **If successful**: The sweep attempt fails completely as your posted hand prevents the reversal and you maintain Inside Sankaku control with submission access
 - **Risk**: Posting the hand removes it from heel hook grip establishment, temporarily pausing your submission attack while you stabilize position
 
 ### 2. Advance to Saddle by bringing your far leg across to trap both opponent legs
 
 - **When to use**: When sweep threats are persistent and the bottom player has strong upper body grips that compromise your base in Inside Sankaku
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: You transition to the Saddle, which provides tighter control with both legs trapped and eliminates the sweep mechanics available from Inside Sankaku
 - **Risk**: The transition creates a brief moment of instability where the bottom player may escape entirely if you do not execute the Saddle entry precisely
 
 ### 3. Strip the opponent's upper body grips before they can coordinate with hip movement
 
 - **When to use**: Early in the sweep setup when the bottom player is establishing wrist or body grips but has not yet loaded their hips for the bridge
-- **Targets**: [[Inside Sankaku]]
+- **Targets**: [[Positions/Inside Sankaku]]
 - **If successful**: Without upper body grips the sweep becomes ineffective, and you maintain control while the opponent must restart their entire sweep setup sequence
 - **Risk**: Grip fighting requires hand movement away from heel hook position, creating a brief window where the bottom player might use the distraction to hip escape instead
 
 ### 4. Attack the exposed heel aggressively when the bottom player sacrifices heel protection for sweep grips
 
 - **When to use**: When the bottom player releases their heel protection to establish the upper body grips needed for the sweep, creating a submission window
-- **Targets**: [[Inside Sankaku]]
+- **Targets**: [[Positions/Inside Sankaku]]
 - **If successful**: The heel hook threat forces the bottom player to abandon the sweep and return to heel protection, resetting the exchange in your favor
 - **Risk**: Reaching aggressively for the heel can shift your weight forward, which is exactly the weight distribution the bottom player needs for the sweep
 
@@ -217,11 +217,11 @@ As the defender against the Sweep from Inside Sankaku, you are the top player ma
 
 ## Best-Case Outcomes for Defender
 
-### → [[Inside Sankaku]]
+### → [[Positions/Inside Sankaku]]
 
 Maintain balanced weight distribution with a low center of gravity, keep your posting hand free, strip the opponent's upper body grips before they coordinate with hip movement, and apply steady submission pressure without over-committing forward.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 When sweep threats become persistent, transition to Saddle by bringing your far leg across to trap both opponent legs. This eliminates the sweep mechanics while upgrading your control to a tighter entanglement with superior submission access.
 

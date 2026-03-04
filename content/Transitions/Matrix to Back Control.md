@@ -21,7 +21,7 @@ The critical insight underlying this transition is that the Matrix rotation, whi
 
 This transition demands exceptional timing, spatial awareness during dynamic movement, and the discipline to follow rather than resist the rotation. It represents the highest-percentage counter to the Matrix because it not only prevents the back take but immediately establishes four-point back control. The technique pairs naturally with other Matrix defensive strategies, as opponents who learn to defend the follow-through become more susceptible to sprawl-based defenses, and vice versa.
 
-**From Position**: [[Matrix]] (Top)
+**From Position**: [[Positions/Matrix]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition demands exceptional timing, spatial awareness during dynamic mov
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Matrix]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Matrix]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,23 +191,23 @@ The Matrix to Back Control counter sits at the intersection of Matrix defense an
 ## Related Techniques
 
 
-- [[Matrix]] - Source position where this transition originates from top perspective
+- [[Positions/Matrix]] - Source position where this transition originates from top perspective
 
-- [[Back Control]] - Target position achieved upon successful completion of the counter
+- [[Positions/Back Control]] - Target position achieved upon successful completion of the counter
 
-- [[Half Guard]] - Counter outcome position if bottom player successfully defends the back take
+- [[Positions/Half Guard]] - Counter outcome position if bottom player successfully defends the back take
 
-- [[Turtle]] - Common preceding position where Matrix entries are frequently initiated
+- [[Positions/Turtle]] - Common preceding position where Matrix entries are frequently initiated
 
-- [[Seat Belt Control Back]] - Grip configuration established during successful completion of this transition
+- [[Positions/Back Control/Seat Belt Control Back]] - Grip configuration established during successful completion of this transition
 
-- [[Counter Roll from Matrix]] - Related counter technique using different mechanical approach against Matrix
+- [[Transitions/Counter Roll from Matrix]] - Related counter technique using different mechanical approach against Matrix
 
-- [[Back Take from Top]] - Alternative back take approach from similar top positions
+- [[Transitions/Back Take from Top]] - Alternative back take approach from similar top positions
 
-- [[Crab Ride]] - Alternative back attack system that shares timing windows with Matrix counters
+- [[Positions/Crab Ride]] - Alternative back attack system that shares timing windows with Matrix counters
 
-- [[Escape Matrix Position]] - Related escape technique from the Matrix position
+- [[Transitions/Escape Matrix Position]] - Related escape technique from the Matrix position
 
 
 </section>

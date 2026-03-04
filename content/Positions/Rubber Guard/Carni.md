@@ -95,23 +95,23 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 ### Available Transitions
 
 
-- **[[Heel Hook]]** (12% of attempts)
+- **[[Transitions/Heel Hook]]** (12% of attempts)
 
-- **[[Saddle Entry from Top]]** (17% of attempts)
+- **[[Transitions/Saddle Entry from Top]]** (17% of attempts)
 
-- **[[Rolling Back Take]]** (11% of attempts)
+- **[[Transitions/Rolling Back Take]]** (11% of attempts)
 
-- **[[Roll to Truck]]** (12% of attempts)
+- **[[Transitions/Roll to Truck]]** (12% of attempts)
 
-- **[[Calf Slicer]]** (11% of attempts)
+- **[[Transitions/Calf Slicer]]** (11% of attempts)
 
-- **[[Outside Ashi Entry]]** (12% of attempts)
+- **[[Transitions/Outside Ashi Entry]]** (12% of attempts)
 
-- **[[Kneebar Finish]]** (11% of attempts)
+- **[[Transitions/Kneebar Finish]]** (11% of attempts)
 
-- **[[Side Control to North-South]]** (9% of attempts)
+- **[[Transitions/Side Control to North-South]]** (9% of attempts)
 
-- **[[Carni to Gogoplata Setup]]** (5% of attempts)
+- **[[Transitions/Carni to Gogoplata Setup]]** (5% of attempts)
 
 
 ### Common Mistakes
@@ -176,21 +176,21 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 ### Available Transitions
 
 
-- **[[Stack Defense]]** (24% of attempts)
+- **[[Transitions/Stack Defense]]** (24% of attempts)
 
-- **[[Rolling Kimura Escape]]** (16% of attempts)
+- **[[Transitions/Rolling Kimura Escape]]** (16% of attempts)
 
-- **[[Technical Stand-up]]** (14% of attempts)
+- **[[Transitions/Technical Stand-up]]** (14% of attempts)
 
-- **[[Leg Drag Pass]]** (13% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (13% of attempts)
 
-- **[[Granby Roll to Guard]]** (14% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (14% of attempts)
 
-- **[[Knee Slice Pass]]** (11% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (11% of attempts)
 
-- **[[Posture Recovery from Carni]]** (5% of attempts)
+- **[[Transitions/Posture Recovery from Carni]]** (5% of attempts)
 
-- **[[Stack Pass from Carni]]** (3% of attempts)
+- **[[Transitions/Stack Pass from Carni]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -233,21 +233,21 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 ## Related Positions
 
 
-- **[[Ashi Garami]]** - Entry position - standard leg entanglement from which Carni is often accessed
+- **[[Positions/Ashi Garami]]** - Entry position - standard leg entanglement from which Carni is often accessed
 
-- **[[Single Leg X-Guard]]** - Entry position - common starting point for Carni entries with inside leg positioning
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Entry position - common starting point for Carni entries with inside leg positioning
 
-- **[[Saddle]]** - Primary advancement target - most common transition when opponent defends heel
+- **[[Positions/Ashi Garami/Saddle]]** - Primary advancement target - most common transition when opponent defends heel
 
-- **[[Truck]]** - Back exposure transition - accessed when opponent turns belly down
+- **[[Positions/Twister Control/Truck]]** - Back exposure transition - accessed when opponent turns belly down
 
-- **[[Back Control]]** - Alternative finish position - taken when opponent rolls to defend leg attack
+- **[[Positions/Back Control]]** - Alternative finish position - taken when opponent rolls to defend leg attack
 
-- **[[Outside Ashi-Garami]]** - Related entanglement - alternative leg position with different attack angles
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Related entanglement - alternative leg position with different attack angles
 
-- **[[Reverse De La Riva Guard]]** - Entry position - common guard to initiate Carni entries
+- **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Entry position - common guard to initiate Carni entries
 
-- **[[Inside Ashi-Garami]]** - Related control position - shares similar leg entanglement principles
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Related control position - shares similar leg entanglement principles
 
 
 </section>

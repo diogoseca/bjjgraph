@@ -186,7 +186,7 @@ description: "How to execute Half Guard to Back Take in BJJ. Attacking perspecti
 
 Half Guard to Back Take represents an advanced positional transition that transforms a defensive half guard position into the highly dominant back control. This transition is fundamental to modern half guard systems and represents one of the highest-percentage paths to dominance from bottom position. The technique relies on establishing an underhook, creating a perpendicular angle to the opponent, and systematically climbing to their back while they attempt to maintain top pressure. This transition is particularly effective because it exploits the opponent's forward pressure against them, using their own weight commitment to facilitate the back take. Mastery of this transition is essential for any serious half guard player and represents a key component of offensive half guard systems developed by experts like Bernardo Faria and Craig Jones.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -241,9 +241,9 @@ Half Guard to Back Take represents an advanced positional transition that transf
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 75% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 75% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -252,11 +252,11 @@ Half Guard to Back Take represents an advanced positional transition that transf
 
 ## Opponent Counters
 
-- **Opponent turns into guard** (Effectiveness: High) - Your Response: Maintain underhook control and follow their rotation, transitioning to butterfly guard or continuing to take the back as they expose it during the turn → Leads to [[Half Guard]]
-- **Crossface pressure to flatten** (Effectiveness: High) - Your Response: Use inside arm to frame against their neck while using underhook to create angle anyway, or transition to deep half guard if crossface becomes too dominant → Leads to [[Half Guard]]
-- **Opponent bases out wide with posted hands and sprawled legs** (Effectiveness: Medium) - Your Response: Use their wide base against them by attacking far side with underhook sweep variations, or transition to lockdown to break down their base structure before reattempting → Leads to [[Half Guard]]
-- **Knee shield insertion to create distance and block angle creation** (Effectiveness: Medium) - Your Response: Address knee shield by controlling their shin with your top hand while maintaining underhook, then either remove shield or transition to different half guard variation → Leads to [[Half Guard]]
-- **Whizzer overhook to kill underhook and drive hip pressure** (Effectiveness: Low) - Your Response: Accept the whizzer and use it as leverage for the back take, as the overhook actually helps you climb to their back when properly exploited by circling underneath → Leads to [[Back Control]]
+- **Opponent turns into guard** (Effectiveness: High) - Your Response: Maintain underhook control and follow their rotation, transitioning to butterfly guard or continuing to take the back as they expose it during the turn → Leads to [[Positions/Half Guard]]
+- **Crossface pressure to flatten** (Effectiveness: High) - Your Response: Use inside arm to frame against their neck while using underhook to create angle anyway, or transition to deep half guard if crossface becomes too dominant → Leads to [[Positions/Half Guard]]
+- **Opponent bases out wide with posted hands and sprawled legs** (Effectiveness: Medium) - Your Response: Use their wide base against them by attacking far side with underhook sweep variations, or transition to lockdown to break down their base structure before reattempting → Leads to [[Positions/Half Guard]]
+- **Knee shield insertion to create distance and block angle creation** (Effectiveness: Medium) - Your Response: Address knee shield by controlling their shin with your top hand while maintaining underhook, then either remove shield or transition to different half guard variation → Leads to [[Positions/Half Guard]]
+- **Whizzer overhook to kill underhook and drive hip pressure** (Effectiveness: Low) - Your Response: Accept the whizzer and use it as leverage for the back take, as the overhook actually helps you climb to their back when properly exploited by circling underneath → Leads to [[Positions/Back Control]]
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Master the leg extraction escape from Inside Ashi-Garami. Step-by-
 
 As the person executing the leg extraction, your primary objective is to systematically dismantle the opponent's ashi-garami control structure and recover to a safe guard position without exposing your knee or heel to submission attacks during the escape process. The extraction requires addressing three control points in sequence: first neutralize their heel grip, then clear their inside leg from your hip, and finally extract your leg past their outside hook. Rushing any of these steps invites deeper entanglement or submission. The extraction demands patience, precise hand fighting, and coordinated hip movement. You must remain calm under the threat of leg attacks and execute each step deliberately rather than panicking and yanking your leg free, which typically results in knee exposure and increased danger.
 
-**From Position**: [[Inside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ As the person executing the leg extraction, your primary objective is to systema
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 50% |
-| Failure | [[Inside Ashi-Garami]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Open Guard]] | 50% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the person executing the leg extraction, your primary objective is to systema
 
 ## Opponent Counters
 
-- **Opponent tightens heel grip and threatens immediate heel hook as you begin extraction** (Effectiveness: High) - Your Response: Stop extraction movement immediately and re-prioritize heel protection. Strip their grip with two-on-one before resuming extraction. Never pull your leg while they have a finishing grip—this accelerates the submission. → Leads to [[Inside Ashi-Garami]]
-- **Opponent transitions to saddle or honey hole as you clear their inside leg** (Effectiveness: High) - Your Response: Recognize the transition early by monitoring their outside leg movement. If they begin threading deeper, abandon the extraction and switch to counter-entanglement by establishing your own hooks in 50-50 or fight to re-square your hips before they consolidate the advanced position. → Leads to [[Inside Ashi-Garami]]
-- **Opponent re-hooks your leg with their outside leg after you clear their inside leg** (Effectiveness: Medium) - Your Response: Maintain your hip rotation angle so their re-hook lands on the outside of your knee rather than behind it. Continue driving your knee toward the mat while hand-fighting to prevent them from establishing a new inside leg across your hip. Persistence through their re-hooking attempts usually succeeds within 2-3 cycles. → Leads to [[Inside Ashi-Garami]]
-- **Opponent sits up and reaches for upper body grips to prevent your guard recovery after extraction** (Effectiveness: Medium) - Your Response: Use your freed legs to create immediate frames on their hips and shoulders before they can close distance. Establish collar or sleeve grips quickly to control their posture. If they achieve chest contact, transition to closed guard temporarily for safety. → Leads to [[Open Guard]]
+- **Opponent tightens heel grip and threatens immediate heel hook as you begin extraction** (Effectiveness: High) - Your Response: Stop extraction movement immediately and re-prioritize heel protection. Strip their grip with two-on-one before resuming extraction. Never pull your leg while they have a finishing grip—this accelerates the submission. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent transitions to saddle or honey hole as you clear their inside leg** (Effectiveness: High) - Your Response: Recognize the transition early by monitoring their outside leg movement. If they begin threading deeper, abandon the extraction and switch to counter-entanglement by establishing your own hooks in 50-50 or fight to re-square your hips before they consolidate the advanced position. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent re-hooks your leg with their outside leg after you clear their inside leg** (Effectiveness: Medium) - Your Response: Maintain your hip rotation angle so their re-hook lands on the outside of your knee rather than behind it. Continue driving your knee toward the mat while hand-fighting to prevent them from establishing a new inside leg across your hip. Persistence through their re-hooking attempts usually succeeds within 2-3 cycles. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent sits up and reaches for upper body grips to prevent your guard recovery after extraction** (Effectiveness: Medium) - Your Response: Use your freed legs to create immediate frames on their hips and shoulders before they can close distance. Establish collar or sleeve grips quickly to control their posture. If they achieve chest contact, transition to closed guard temporarily for safety. → Leads to [[Positions/Open Guard]]
 
 
 </section>

@@ -158,7 +158,7 @@ The defender's primary strategy revolves around three phases: preventing the und
 
 The key mechanical principle for the defender is that hip mobility defeats chest pressure. Every defensive action should prioritize creating angles and generating hip movement that breaks the passer's alignment. A flat-on-back position with square hips is the worst possible defensive configuration. Angling your body even 30 degrees to one side fundamentally changes the leverage dynamics and opens escape pathways that do not exist when pinned square.
 
-**Opponent's Starting Position**: [[Open Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ The key mechanical principle for the defender is that hip mobility defeats chest
 ### 1. Frame on biceps and push hips away to prevent underhook establishment
 
 - **When to use**: At the earliest sign of the passer attempting to swim an arm underneath your leg—this is the highest-percentage defense when applied before the first underhook is secured
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Passer is pushed back to neutral open guard engagement where you can re-establish grips and guard structure
 - **Risk**: If your frames are too high on their shoulders instead of biceps, they can swim underneath while collapsing your arms
 
 ### 2. Lock closed guard by crossing ankles behind passer's back before they consolidate pressure
 
 - **When to use**: When the passer has established one or both underhooks but has not yet dropped full chest pressure or clasped hands—you must act before they lock their grip
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover closed guard, neutralizing the pass attempt and returning to an offensive guard position with sweep and submission options
 - **Risk**: If the passer already has deep underhooks with hands clasped, your closed guard will be loose and they can stack through it
 
 ### 3. Hip escape and insert knee shield to recover half guard
 
 - **When to use**: When the passer has consolidated double under control and begins lateral movement to clear your legs—insert your near-side knee across their hip line as they step
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You recover half guard or knee shield half guard, creating a defensive barrier that stops the pass and provides a new offensive platform
 - **Risk**: If your hip escape is too late or too shallow, the passer drives through your knee frame with their chest pressure and completes the pass
 
 ### 4. Granby roll to invert and recover guard when the passer commits to stacking pressure
 
 - **When to use**: When the passer drives forward vertically to stack you rather than passing laterally—use their forward momentum to roll through and recover open guard
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You invert underneath the passer, clear your legs, and recover open guard or potentially achieve a leg entanglement position
 - **Risk**: Failed inversion can leave you in turtle or with your back exposed, and excessive stacking pressure can compress your cervical spine
 
@@ -229,11 +229,11 @@ The key mechanical principle for the defender is that hip mobility defeats chest
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Create early frames on the passer's biceps and maintain feet on hips to prevent underhook entry. If underhooks are partially established, hip escape aggressively to one side while pushing their head to the opposite side, breaking their alignment and forcing them to release one or both underhooks to recover base. Re-establish grips on sleeves or collar and recover open guard structure with active legs.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 As the passer attempts to swim their second underhook, immediately overhook one of their arms and pull them forward while shooting your legs high on their back and crossing your ankles. The overhook prevents them from achieving the deep bilateral grip they need, and your closed guard locks before they can consolidate chest pressure. This works best when you catch them during the transition between first and second underhook.
 

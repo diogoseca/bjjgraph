@@ -180,7 +180,7 @@ description: "Execute the Rear Triangle to Armbar transition with precision. Ste
 
 As the attacker executing the Rear Triangle to Armbar transition, your objective is to convert existing back triangle control into a high-percentage armbar by exploiting the trapped arm. This transition is initiated when the opponent successfully defends the rear triangle choke, typically by tucking their chin or fighting your grip access to the neck. Rather than burning energy fighting for a choke that has been neutralized, you redirect your attack toward the trapped arm which is already isolated inside the triangle structure. The transition requires precise sequencing: securing wrist control, pivoting your hips from a posterior choking angle to a perpendicular armbar angle, swinging your leg over the opponent's face, and establishing the classic armbar control configuration. The key insight is that the rear triangle has already done most of the work by trapping the arm - you simply need to change the angle of attack from neck to elbow.
 
-**From Position**: [[Rear Triangle]] (Top)
+**From Position**: [[Positions/Triangle Control/Rear Triangle]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Rear Triangle to Armbar transition, your objective
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 55% |
-| Failure | [[Rear Triangle]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Armbar Control]] | 55% |
+| Failure | [[Positions/Triangle Control/Rear Triangle]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Rear Triangle to Armbar transition, your objective
 
 ## Opponent Counters
 
-- **Opponent clasps hands together to prevent arm isolation** (Effectiveness: High) - Your Response: Use a two-on-one grip break by prying the wrist free with both hands, or switch to attacking the free arm instead. Alternatively, wedge your forearm between their clasped hands and lever them apart using your hips as a fulcrum. → Leads to [[Rear Triangle]]
-- **Opponent bridges and turns into the attacker during hip pivot** (Effectiveness: Medium) - Your Response: Follow their rotation by continuing to move with them. If they turn fully toward you, the rotation actually assists your transition to a mounted armbar variation. Maintain wrist control throughout and use their momentum to accelerate your leg swing over their face. → Leads to [[Half Guard]]
-- **Opponent tucks elbow tight to body and curls arm defensively** (Effectiveness: High) - Your Response: Maintain the rear triangle position and alternate between choke attempts and armbar attempts to force them to choose which to defend. Use your legs to straighten their arm by extending your hips while pulling their wrist, or transition to a kimura attack on the bent arm. → Leads to [[Rear Triangle]]
-- **Opponent creates distance by posting free hand and shrimping away** (Effectiveness: Medium) - Your Response: Follow the opponent aggressively with your hips, closing any space they create. Use the trapped arm as a handle to pull yourself toward them. If significant space is created, prioritize re-establishing chest contact before continuing the armbar transition. → Leads to [[Half Guard]]
+- **Opponent clasps hands together to prevent arm isolation** (Effectiveness: High) - Your Response: Use a two-on-one grip break by prying the wrist free with both hands, or switch to attacking the free arm instead. Alternatively, wedge your forearm between their clasped hands and lever them apart using your hips as a fulcrum. → Leads to [[Positions/Triangle Control/Rear Triangle]]
+- **Opponent bridges and turns into the attacker during hip pivot** (Effectiveness: Medium) - Your Response: Follow their rotation by continuing to move with them. If they turn fully toward you, the rotation actually assists your transition to a mounted armbar variation. Maintain wrist control throughout and use their momentum to accelerate your leg swing over their face. → Leads to [[Positions/Half Guard]]
+- **Opponent tucks elbow tight to body and curls arm defensively** (Effectiveness: High) - Your Response: Maintain the rear triangle position and alternate between choke attempts and armbar attempts to force them to choose which to defend. Use your legs to straighten their arm by extending your hips while pulling their wrist, or transition to a kimura attack on the bent arm. → Leads to [[Positions/Triangle Control/Rear Triangle]]
+- **Opponent creates distance by posting free hand and shrimping away** (Effectiveness: Medium) - Your Response: Follow the opponent aggressively with your hips, closing any space they create. Use the trapped arm as a handle to pull yourself toward them. If significant space is created, prioritize re-establishing chest contact before continuing the armbar transition. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -26,8 +26,8 @@ The calf slicer from this position requires precise leg threading mechanics and 
 **Category**: Compression
 **Type**: Calf Crush
 **Target Area**: Calf muscle and knee joint
-**Starting Position**: [[Rodeo Ride]]
-**From Position**: [[Rodeo Ride]] (Top)
+**Starting Position**: [[Positions/Rodeo Ride]]
+**From Position**: [[Positions/Rodeo Ride]] (Top)
 **Success Rate**: 40%
 
 </section>
@@ -79,9 +79,9 @@ The calf slicer from this position requires precise leg threading mechanics and 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Rodeo Ride]] | 25% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Rodeo Ride]] | 25% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -229,9 +229,9 @@ The calf slicer from this position requires precise leg threading mechanics and 
 
 ## From Which Positions?
 
-- [[Rodeo Ride]]
-- [[Back Control]]
-- [[Turtle]]
+- [[Positions/Rodeo Ride]]
+- [[Positions/Back Control]]
+- [[Positions/Turtle]]
 
 
 </section>
@@ -240,11 +240,11 @@ The calf slicer from this position requires precise leg threading mechanics and 
 
 ## Related Submissions
 
-- [[Calf Slicer]]
-- [[Calf Slicer from 50-50]]
-- [[Calf Slicer from Truck]]
-- [[Banana Split]]
-- [[Bicep Slicer]]
+- [[Transitions/Calf Slicer]]
+- [[Submissions/Calf Slicer from 50-50]]
+- [[Submissions/Calf Slicer from Truck]]
+- [[Submissions/Banana Split]]
+- [[Submissions/Bicep Slicer]]
 
 
 </section>
@@ -253,13 +253,13 @@ The calf slicer from this position requires precise leg threading mechanics and 
 
 ## Additional Related Content
 
-- [[Calf Slicer]] - Parent technique family encompassing all calf slicer variations and finishing mechanics
-- [[Calf Slicer from Truck]] - Related calf slicer variation from similar leg entanglement control position
-- [[Calf Slicer from 50-50]] - Alternative calf slicer entry from guard-based leg entanglement
-- [[Turtle]] - Base defensive position from which Rodeo Ride control develops
-- [[Back Control]] - Alternative advancement path from Rodeo Ride instead of calf slicer
-- [[Truck]] - Related control position offering similar leg-based compression submissions
-- [[Banana Split]] - Related leg submission accessible from similar turtle attack control positions
+- [[Transitions/Calf Slicer]] - Parent technique family encompassing all calf slicer variations and finishing mechanics
+- [[Submissions/Calf Slicer from Truck]] - Related calf slicer variation from similar leg entanglement control position
+- [[Submissions/Calf Slicer from 50-50]] - Alternative calf slicer entry from guard-based leg entanglement
+- [[Positions/Turtle]] - Base defensive position from which Rodeo Ride control develops
+- [[Positions/Back Control]] - Alternative advancement path from Rodeo Ride instead of calf slicer
+- [[Positions/Twister Control/Truck]] - Related control position offering similar leg-based compression submissions
+- [[Submissions/Banana Split]] - Related leg submission accessible from similar turtle attack control positions
 
 
 </section>

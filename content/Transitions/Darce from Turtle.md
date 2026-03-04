@@ -21,7 +21,7 @@ The technique requires precise arm positioning, sustained chest-to-back pressure
 
 This submission setup has become a staple in the arsenals of high-level competitors due to its effectiveness against various turtle defensive strategies and its ability to chain seamlessly with anaconda choke, guillotine, and back take options from the same initial front headlock control. The shared entry point creates genuine submission dilemmas for the defender, who must choose which attack to prioritize defending while the attacker reads their reactions and flows between threats.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ This submission setup has become a staple in the arsenals of high-level competit
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 60% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Darce Control]] | 60% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -194,25 +194,25 @@ The Darce from turtle is a cornerstone technique in the modern front headlock su
 ## Related Techniques
 
 
-- [[Darce Choke]] - Primary submission finish from Darce Control position
+- [[Transitions/Darce Choke]] - Primary submission finish from Darce Control position
 
-- [[Anaconda from Turtle]] - Alternative choke sharing same initial front headlock control
+- [[Transitions/Anaconda from Turtle]] - Alternative choke sharing same initial front headlock control
 
-- [[Darce Setup]] - Entry variation from standing or scramble positions
+- [[Transitions/Darce Setup]] - Entry variation from standing or scramble positions
 
-- [[Guillotine from Turtle]] - Alternative when opponent sits through during threading
+- [[Transitions/Guillotine from Turtle]] - Alternative when opponent sits through during threading
 
-- [[Crucifix from Turtle]] - Alternative attack from same turtle top control
+- [[Transitions/Crucifix from Turtle]] - Alternative attack from same turtle top control
 
-- [[Front Headlock to Guillotine]] - Part of same front headlock attack system
+- [[Transitions/Front Headlock to Guillotine]] - Part of same front headlock attack system
 
-- [[Arm Triangle from Turtle]] - Alternative submission from similar control position
+- [[Transitions/Arm Triangle from Turtle]] - Alternative submission from similar control position
 
-- [[Front Headlock to Darce]] - Systematic entry method from front headlock
+- [[Transitions/Front Headlock to Darce]] - Systematic entry method from front headlock
 
-- [[Anaconda Choke]] - Sister technique with mirror-image arm threading mechanics
+- [[Transitions/Anaconda Choke]] - Sister technique with mirror-image arm threading mechanics
 
-- [[Back Take from Top]] - Positional alternative when submission attacks are defended
+- [[Transitions/Back Take from Top]] - Positional alternative when submission attacks are defended
 
 
 </section>

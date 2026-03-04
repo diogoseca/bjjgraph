@@ -21,7 +21,7 @@ The execution demands precise sequencing: thread the choking arm deep with palm-
 
 This technique has become a staple of modern no-gi grappling, particularly effective because the dynamic roll is unexpected and frequently secures the finish before opponents can mount a proper defense. It represents sophisticated understanding of front headlock mechanics combined with dynamic movement principles. The anaconda integrates naturally with other turtle top attacks, creating a branching decision tree where defending one threat exposes another.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This technique has become a staple of modern no-gi grappling, particularly effec
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Anaconda Control]] | 58% |
-| Failure | [[Turtle]] | 28% |
-| Counter | [[Turtle]] | 14% |
+| Success | [[Positions/Anaconda Control]] | 58% |
+| Failure | [[Positions/Turtle]] | 28% |
+| Counter | [[Positions/Turtle]] | 14% |
 
 
 </section>
@@ -201,27 +201,27 @@ The anaconda from turtle is part of the front headlock attack family and represe
 ## Related Techniques
 
 
-- [[Darce from Turtle]] - Alternative front headlock choke trapping far arm instead of near arm with different finishing mechanics
+- [[Transitions/Darce from Turtle]] - Alternative front headlock choke trapping far arm instead of near arm with different finishing mechanics
 
-- [[Guillotine from Turtle]] - Alternative choke option from turtle top using neck control without arm trap
+- [[Transitions/Guillotine from Turtle]] - Alternative choke option from turtle top using neck control without arm trap
 
-- [[Anaconda Choke]] - The finishing submission this setup technique transitions into from anaconda control
+- [[Transitions/Anaconda Choke]] - The finishing submission this setup technique transitions into from anaconda control
 
-- [[Front Headlock]] - Parent position family from which anaconda attacks are launched
+- [[Positions/Front Headlock]] - Parent position family from which anaconda attacks are launched
 
-- [[Back Take from Top]] - Alternative turtle top attack focusing on positional advancement rather than submission
+- [[Transitions/Back Take from Top]] - Alternative turtle top attack focusing on positional advancement rather than submission
 
-- [[Anaconda Control]] - Target position where successful execution leads for finishing sequence
+- [[Positions/Anaconda Control]] - Target position where successful execution leads for finishing sequence
 
-- [[Front Headlock to Anaconda]] - Alternative entry path to anaconda position from standing or scramble front headlock
+- [[Transitions/Front Headlock to Anaconda]] - Alternative entry path to anaconda position from standing or scramble front headlock
 
-- [[Crucifix from Turtle]] - Alternative control and submission option from turtle top when arm is extended
+- [[Transitions/Crucifix from Turtle]] - Alternative control and submission option from turtle top when arm is extended
 
-- [[Arm Triangle from Turtle]] - Alternative arm-in choke option from turtle using different wrapping mechanics
+- [[Transitions/Arm Triangle from Turtle]] - Alternative arm-in choke option from turtle using different wrapping mechanics
 
-- [[Darce Choke]] - Sister submission with similar grip structure but different arm trap and finishing angle
+- [[Transitions/Darce Choke]] - Sister submission with similar grip structure but different arm trap and finishing angle
 
-- [[Front Headlock to Guillotine]] - System integration as part of comprehensive front headlock attack series from turtle
+- [[Transitions/Front Headlock to Guillotine]] - System integration as part of comprehensive front headlock attack series from turtle
 
 
 </section>

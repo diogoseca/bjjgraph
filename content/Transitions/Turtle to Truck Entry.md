@@ -21,7 +21,7 @@ This technique exploits the turtle position's structural vulnerability to latera
 
 The Turtle to Truck Entry is a gateway to the entire Twister submission system. Once the initial hook is threaded and the leg triangle begins to form, the opponent's defensive options narrow dramatically. The entry creates an immediate fork: the opponent must choose between defending the leg entanglement (exposing their back) or defending their back (allowing the Truck to consolidate). This dilemma-based attacking framework makes the entry exceptionally valuable for practitioners who want to develop a systematic turtle attacking game beyond conventional back takes.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The Turtle to Truck Entry is a gateway to the entire Twister submission system. 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Truck]] | 65% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Twister Control/Truck]] | 65% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -193,29 +193,29 @@ The Turtle to Truck Entry serves as the critical gateway between conventional tu
 ## Related Techniques
 
 
-- [[Truck]] - Target position - the end state of successful entry
+- [[Positions/Twister Control/Truck]] - Target position - the end state of successful entry
 
-- [[Turtle]] - Starting position - where the entry begins
+- [[Positions/Turtle]] - Starting position - where the entry begins
 
-- [[Calf Slicer from Truck]] - Follow-up submission available after successful entry
+- [[Submissions/Calf Slicer from Truck]] - Follow-up submission available after successful entry
 
-- [[Banana Split]] - Follow-up submission accessible from consolidated Truck
+- [[Submissions/Banana Split]] - Follow-up submission accessible from consolidated Truck
 
-- [[Roll to Truck]] - Alternative entry - dynamic rolling variation to same position
+- [[Transitions/Roll to Truck]] - Alternative entry - dynamic rolling variation to same position
 
-- [[Crab Ride]] - Related position - alternative leg-based control from turtle top
+- [[Positions/Crab Ride]] - Related position - alternative leg-based control from turtle top
 
-- [[Twister Control]] - Follow-up position - natural progression from Truck for Twister finish
+- [[Positions/Twister Control]] - Follow-up position - natural progression from Truck for Twister finish
 
-- [[Back Control]] - Alternative attack - traditional option when Truck entry is defended
+- [[Positions/Back Control]] - Alternative attack - traditional option when Truck entry is defended
 
-- [[Electric Chair]] - Related position - shares leg entanglement mechanics in 10th Planet system
+- [[Positions/Half Guard/Electric Chair]] - Related position - shares leg entanglement mechanics in 10th Planet system
 
-- [[Lockdown]] - Technical similarity - uses related leg triangle mechanics
+- [[Positions/Half Guard/Lockdown]] - Technical similarity - uses related leg triangle mechanics
 
-- [[Crucifix]] - Alternative attack - arm isolation option from turtle top
+- [[Positions/Crucifix]] - Alternative attack - arm isolation option from turtle top
 
-- [[Front Headlock]] - Alternative position - upper body attack chain from turtle top
+- [[Positions/Front Headlock]] - Alternative position - upper body attack chain from turtle top
 
 
 </section>

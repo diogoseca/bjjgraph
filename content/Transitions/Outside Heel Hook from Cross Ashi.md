@@ -21,7 +21,7 @@ This submission has become a cornerstone of elite no-gi competition, featuring p
 
 Understanding this technique requires appreciation of both the grip mechanics and the rotational dynamics involved. The attacker must expose the heel, secure a figure-four or S-grip configuration behind the Achilles tendon, and apply controlled external rotation while preventing the opponent from counter-rotating or extracting their leg. The defender must recognize the attack early, fight grips aggressively, and either strip the heel exposure or counter-entangle before the finish is locked in.
 
-**From Position**: [[Cross Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -33,8 +33,8 @@ Understanding this technique requires appreciation of both the grip mechanics an
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Cross Ashi-Garami]] | 35% |
-| Counter | [[50-50 Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami/Cross Ashi-Garami]] | 35% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Outside Heel Hook from Cross Ashi-Garami sits at the apex of modern leg lock
 ## Related Techniques
 
 
-- [[Cross Ashi-Garami]] - Starting position - the leg entanglement from which this heel hook is executed
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Starting position - the leg entanglement from which this heel hook is executed
 
-- [[Outside Heel Hook]] - The submission being applied - general outside heel hook mechanics
+- [[Transitions/Outside Heel Hook]] - The submission being applied - general outside heel hook mechanics
 
-- [[Inside Heel Hook]] - Alternative heel hook targeting the medial knee structures from similar positions
+- [[Submissions/Inside Heel Hook]] - Alternative heel hook targeting the medial knee structures from similar positions
 
-- [[Heel Hook from Saddle]] - Similar heel hook finish from the saddle/honey hole entanglement
+- [[Transitions/Heel Hook from Saddle]] - Similar heel hook finish from the saddle/honey hole entanglement
 
-- [[Saddle]] - Common transition target when heel hook defense forces positional advancement
+- [[Positions/Ashi Garami/Saddle]] - Common transition target when heel hook defense forces positional advancement
 
-- [[Ashi Garami]] - Parent leg entanglement system from which cross ashi derives
+- [[Positions/Ashi Garami]] - Parent leg entanglement system from which cross ashi derives
 
-- [[Inside Ashi-Garami]] - Related entanglement position accessible when opponent turns to defend
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related entanglement position accessible when opponent turns to defend
 
-- [[Leg Extraction from Cross Ashi]] - Defender's primary escape technique from this entanglement
+- [[Transitions/Leg Extraction from Cross Ashi]] - Defender's primary escape technique from this entanglement
 
-- [[Counter Entangle from Cross Ashi]] - Defender's counter-attack pathway to establish mutual leg entanglement
+- [[Transitions/Counter Entangle from Cross Ashi]] - Defender's counter-attack pathway to establish mutual leg entanglement
 
-- [[Outside Heel Hook from Backside 50-50]] - Similar outside heel hook finish from the backside 50-50 entanglement
+- [[Submissions/Outside Heel Hook from Backside 50-50]] - Similar outside heel hook finish from the backside 50-50 entanglement
 
-- [[Heel Hook Defense Escape]] - Defender's technique for escaping heel hook threats before the finish
+- [[Transitions/Heel Hook Defense Escape]] - Defender's technique for escaping heel hook threats before the finish
 
-- [[Kneebar Control]] - Alternative attack available when opponent hides heel through knee flexion
+- [[Positions/Kneebar Control]] - Alternative attack available when opponent hides heel through knee flexion
 
 
 </section>

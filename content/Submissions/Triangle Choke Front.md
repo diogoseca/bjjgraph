@@ -26,7 +26,7 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and one shoulder
-**Starting Position**: [[Closed Guard]]
+**Starting Position**: [[Positions/Closed Guard]]
 **Success Rate**: 58%
 
 </section>
@@ -79,8 +79,8 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Open Guard]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -234,16 +234,16 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 ## From Which Positions?
 
-- [[Closed Guard]]
-- [[Spider Guard]]
-- [[Open Guard]]
-- [[Rubber Guard]]
-- [[Collar Sleeve Guard]]
-- [[Lasso Guard]]
-- [[De La Riva Guard]]
-- [[Overhook Guard]]
-- [[Butterfly Guard]]
-- [[Seated Guard]]
+- [[Positions/Closed Guard]]
+- [[Positions/Spider Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/Rubber Guard]]
+- [[Positions/Collar Sleeve Guard]]
+- [[Positions/Lasso Guard]]
+- [[Positions/De La Riva Guard]]
+- [[Positions/Overhook Guard]]
+- [[Positions/Butterfly Guard]]
+- [[Positions/Seated Guard]]
 
 
 </section>
@@ -252,16 +252,16 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 ## Related Submissions
 
-- [[Triangle Choke]]
-- [[Triangle from Closed Guard]]
-- [[Triangle from De La Riva]]
-- [[Triangle from Spider Guard]]
-- [[Armbar from Guard]]
-- [[Omoplata]]
-- [[Omoplata from Guard]]
-- [[Guillotine Choke]]
-- [[Kimura]]
-- [[Inverted Triangle]]
+- [[Transitions/Triangle Choke]]
+- [[Submissions/Triangle from Closed Guard]]
+- [[Submissions/Triangle from De La Riva]]
+- [[Transitions/Triangle from Spider Guard]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Omoplata]]
+- [[Submissions/Omoplata from Guard]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Kimura]]
+- [[Transitions/Inverted Triangle]]
 
 
 </section>
@@ -270,16 +270,16 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 ## Additional Related Content
 
-- [[Triangle Choke]] - Parent submission - generic triangle technique encompassing all variations
-- [[Triangle from Closed Guard]] - Primary setup variation from closed guard bottom position
-- [[Triangle from Spider Guard]] - Setup variation utilizing spider guard sleeve control for arm isolation
-- [[Triangle from De La Riva]] - Setup variation from De La Riva guard using hook control to create angle
-- [[Armbar from Guard]] - Primary transition when opponent defends triangle by pulling head back
-- [[Omoplata]] - Alternative submission when triangle is defended by posting or stacking
-- [[Closed Guard]] - Primary starting position for front triangle attacks
-- [[Spider Guard]] - Open guard variation offering effective triangle entry opportunities
-- [[Triangle Control]] - Control position established once triangle is locked before finishing
-- [[Inverted Triangle]] - Related triangle variation applied with inverted leg configuration
+- [[Transitions/Triangle Choke]] - Parent submission - generic triangle technique encompassing all variations
+- [[Submissions/Triangle from Closed Guard]] - Primary setup variation from closed guard bottom position
+- [[Transitions/Triangle from Spider Guard]] - Setup variation utilizing spider guard sleeve control for arm isolation
+- [[Submissions/Triangle from De La Riva]] - Setup variation from De La Riva guard using hook control to create angle
+- [[Submissions/Armbar from Guard]] - Primary transition when opponent defends triangle by pulling head back
+- [[Transitions/Omoplata]] - Alternative submission when triangle is defended by posting or stacking
+- [[Positions/Closed Guard]] - Primary starting position for front triangle attacks
+- [[Positions/Spider Guard]] - Open guard variation offering effective triangle entry opportunities
+- [[Positions/Triangle Control]] - Control position established once triangle is locked before finishing
+- [[Transitions/Inverted Triangle]] - Related triangle variation applied with inverted leg configuration
 
 
 </section>

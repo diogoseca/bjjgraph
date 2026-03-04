@@ -21,7 +21,7 @@ The primary escape pathway targets half guard recovery through a coordinated seq
 
 Advanced practitioners integrate multiple escape variations into a flowing system, reading the top player's pressure configuration and adjusting their escape path accordingly. The classic elbow-knee escape, ghost escape, running escape to turtle, and bridge-and-roll reversal each address different pressure angles and control configurations. The ability to chain between these variations based on opponent reactions transforms a desperate survival situation into a methodical guard recovery process that frustrates even dominant top players.
 
-**From Position**: [[Side Control Consolidation]] (Bottom)
+**From Position**: [[Positions/Side Control/Side Control Consolidation]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,11 +32,11 @@ Advanced practitioners integrate multiple escape variations into a flowing syste
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Open Guard]] | 5% |
-| Failure | [[Side Control Consolidation]] | 30% |
-| Counter | [[Mount]] | 20% |
-| Counter | [[North-South]] | 10% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Open Guard]] | 5% |
+| Failure | [[Positions/Side Control/Side Control Consolidation]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
+| Counter | [[Positions/North-South]] | 10% |
 
 
 </section>
@@ -196,25 +196,25 @@ The side control consolidation escape sits at the critical juncture between pin 
 ## Related Techniques
 
 
-- [[Side Control Consolidation]] - Starting position this escape initiates from
+- [[Positions/Side Control/Side Control Consolidation]] - Starting position this escape initiates from
 
-- [[Half Guard]] - Primary escape target and guard recovery destination
+- [[Positions/Half Guard]] - Primary escape target and guard recovery destination
 
-- [[Open Guard]] - Alternative escape destination when full hip escape creates sufficient distance
+- [[Positions/Open Guard]] - Alternative escape destination when full hip escape creates sufficient distance
 
-- [[Mount]] - Counter risk position if opponent advances during failed escape attempt
+- [[Positions/Mount]] - Counter risk position if opponent advances during failed escape attempt
 
-- [[North-South]] - Counter risk position if opponent redirects during escape
+- [[Positions/North-South]] - Counter risk position if opponent redirects during escape
 
-- [[Knee Shield Half Guard]] - Optimal recovery sub-position after successful escape to half guard
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Optimal recovery sub-position after successful escape to half guard
 
-- [[Side Control]] - Parent position category encompassing the consolidated variant
+- [[Positions/Side Control]] - Parent position category encompassing the consolidated variant
 
-- [[Turtle]] - Alternative escape destination via running escape or Granby roll
+- [[Positions/Turtle]] - Alternative escape destination via running escape or Granby roll
 
-- [[Bridge Escape from Kesa Gatame]] - Related escape sharing bridging mechanics from similar pin position
+- [[Transitions/Bridge Escape from Kesa Gatame]] - Related escape sharing bridging mechanics from similar pin position
 
-- [[Escape Shoulder of Justice]] - Related side control escape addressing different control configuration
+- [[Transitions/Escape Shoulder of Justice]] - Related side control escape addressing different control configuration
 
 
 </section>

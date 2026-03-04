@@ -154,7 +154,7 @@ description: "Learn to defend the Chill Dog sweep reversal. Recognize setup cues
 
 As the defender against the Sweep from Chill Dog, you are the top player working to maintain your dominant turtle control while your opponent attempts to reverse you to mount through a sit-out and hip switch. This is a higher-stakes defensive challenge than defending standard turtle escapes because a successful sweep puts you directly under mount rather than in a neutral guard engagement. Your primary advantage is awareness - you can feel the bottom player's pre-sweep weight shifts and arm control attempts through your chest-to-back contact. By maintaining proper weight distribution, keeping your hips mobile rather than rigidly committed forward, and recognizing the arm control setup that precedes the sit-out, you can either shut down the sweep entirely or convert the failed attempt into an even more dominant position. The key defensive insight is that this sweep requires forward weight commitment from you to work, so managing your own pressure distribution is the most reliable prevention method.
 
-**Opponent's Starting Position**: [[Chill Dog]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Chill Dog]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the Sweep from Chill Dog, you are the top player working
 ### 1. Drop hips straight down and sprawl to remove the forward weight commitment the sweep requires
 
 - **When to use**: When you detect the arm control setup or feel the loading weight shift that precedes the sit-out
-- **Targets**: [[Chill Dog]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: Bottom player cannot generate the rotational energy needed for the reversal because your weight is distributed downward through your hips rather than forward through your chest
 - **Risk**: Excessive backward sprawl may create space for a Granby roll or technical stand-up escape chain
 
 ### 2. Strip the far-side arm grip and immediately re-establish hip control with that hand
 
 - **When to use**: When you feel the bottom player grab your far wrist or forearm in the sweep setup phase
-- **Targets**: [[Chill Dog]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: Removing the arm control eliminates the sweep's critical setup requirement, forcing the bottom player to re-establish the grip before they can attempt the reversal again
 - **Risk**: The grip stripping motion temporarily removes one of your own control points, creating a brief window for alternative escapes
 
 ### 3. Circle away from the sit-out direction while maintaining chest pressure to deny the rotation angle
 
 - **When to use**: When the sit-out has initiated but has not yet generated full rotational momentum
-- **Targets**: [[Chill Dog]]
+- **Targets**: [[Positions/Rubber Guard/Chill Dog]]
 - **If successful**: Your lateral movement matches the sit-out angle, preventing the angular displacement needed to break your chest-to-back connection and keeping you in dominant turtle top
 - **Risk**: Circling too aggressively may disengage contact entirely, giving the bottom player space to recover open guard
 
 ### 4. Post far hand wide on the mat immediately and drive hips forward to stop the reversal mid-rotation
 
 - **When to use**: When the sweep is in progress and you feel rotational momentum building despite your arm being controlled
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The wide post stops the reversal momentum and prevents being swept to mount, though the bottom player's Chill Dog frame is likely broken during the exchange
 - **Risk**: If the arm control is strong, you may not be able to free the posting arm in time, allowing the reversal to complete
 
@@ -225,11 +225,11 @@ As the defender against the Sweep from Chill Dog, you are the top player working
 
 ## Best-Case Outcomes for Defender
 
-### → [[Chill Dog]]
+### → [[Positions/Rubber Guard/Chill Dog]]
 
 Prevent the sweep by managing your weight distribution and denying the arm control setup. Keep your hips heavy and centered rather than driving chest forward. When you detect the arm grip attempt, immediately strip it and control the bottom player's near hip. This shuts down the sweep at its foundation without creating openings for other escapes.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 If the sweep attempt partially succeeds in breaking the Chill Dog frame but fails to complete the reversal, the bottom player ends up with their defensive shell compromised and typically falls to their back in open guard. Immediately advance to pass the now-exposed open guard before they can establish leg frames and grips, capitalizing on their structural displacement.
 

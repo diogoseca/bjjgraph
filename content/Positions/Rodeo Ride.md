@@ -93,25 +93,25 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 ### Available Transitions
 
 
-- **[[Turtle to Guard]]** (34% of attempts)
+- **[[Transitions/Turtle to Guard]]** (34% of attempts)
 
-- **[[Technical Stand-up]]** (15% of attempts)
+- **[[Transitions/Technical Stand-up]]** (15% of attempts)
 
-- **[[Granby Roll to Guard]]** (12% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (12% of attempts)
 
-- **[[Rolling to Guard]]** (14% of attempts)
+- **[[Transitions/Rolling to Guard]]** (14% of attempts)
 
-- **[[Elbow Escape to Guard]]** (9% of attempts)
+- **[[Transitions/Elbow Escape to Guard]]** (9% of attempts)
 
-- **[[Sit Through Escape]]** (7% of attempts)
+- **[[Transitions/Sit Through Escape]]** (7% of attempts)
 
-- **[[Standing up in Base]]** (5% of attempts)
+- **[[Transitions/Standing up in Base]]** (5% of attempts)
 
-- **[[Roll from Rodeo Ride]]** (2% of attempts)
+- **[[Transitions/Roll from Rodeo Ride]]** (2% of attempts)
 
-- **[[Shake Off Rodeo Ride]]** (1% of attempts)
+- **[[Transitions/Shake Off Rodeo Ride]]** (1% of attempts)
 
-- **[[Escape from Rodeo Ride]]** (1% of attempts)
+- **[[Transitions/Escape from Rodeo Ride]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -176,31 +176,31 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 ### Available Transitions
 
 
-- **[[Turtle to Back Take]]** (28% of attempts)
+- **[[Transitions/Turtle to Back Take]]** (28% of attempts)
 
-- **[[Crab Ride to Back]]** (12% of attempts)
+- **[[Transitions/Crab Ride to Back]]** (12% of attempts)
 
-- **[[Turtle to Truck]]** (10% of attempts)
+- **[[Transitions/Turtle to Truck]]** (10% of attempts)
 
-- **[[Crucifix from Turtle]]** (10% of attempts)
+- **[[Transitions/Crucifix from Turtle]]** (10% of attempts)
 
-- **[[Clock Choke]]** (8% of attempts)
+- **[[Transitions/Clock Choke]]** (8% of attempts)
 
-- **[[Bow and Arrow Choke]]** (6% of attempts)
+- **[[Transitions/Bow and Arrow Choke]]** (6% of attempts)
 
-- **[[Consolidate Mount]]** (8% of attempts)
+- **[[Transitions/Consolidate Mount]]** (8% of attempts)
 
-- **[[Rolling Back Take]]** (6% of attempts)
+- **[[Transitions/Rolling Back Take]]** (6% of attempts)
 
-- **[[Darce from Turtle]]** (5% of attempts)
+- **[[Transitions/Darce from Turtle]]** (5% of attempts)
 
-- **[[Rodeo Ride to Back Control]]** (2% of attempts)
+- **[[Transitions/Rodeo Ride to Back Control]]** (2% of attempts)
 
-- **[[Rodeo Ride to Turtle]]** (1% of attempts)
+- **[[Transitions/Rodeo Ride to Turtle]]** (1% of attempts)
 
-- **[[Calf Slicer from Rodeo Ride]]** (2% of attempts)
+- **[[Submissions/Calf Slicer from Rodeo Ride]]** (2% of attempts)
 
-- **[[Rear Naked Choke from Rodeo]]** (2% of attempts)
+- **[[Submissions/Rear Naked Choke from Rodeo]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -243,19 +243,19 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 ## Related Positions
 
 
-- **[[Turtle]]** - Parent position from which Rodeo Ride develops
+- **[[Positions/Turtle]]** - Parent position from which Rodeo Ride develops
 
-- **[[Back Control]]** - Primary advancement target from Rodeo Ride
+- **[[Positions/Back Control]]** - Primary advancement target from Rodeo Ride
 
-- **[[Crab Ride]]** - Related turtle attack position with similar control mechanics
+- **[[Positions/Crab Ride]]** - Related turtle attack position with similar control mechanics
 
-- **[[Crucifix]]** - Submission position accessible from Rodeo Ride when opponent extends arms
+- **[[Positions/Crucifix]]** - Submission position accessible from Rodeo Ride when opponent extends arms
 
-- **[[Side Control]]** - Alternative control position when opponent flattens
+- **[[Positions/Side Control]]** - Alternative control position when opponent flattens
 
-- **[[Mount]]** - Advancement position when opponent flattens on stomach
+- **[[Positions/Mount]]** - Advancement position when opponent flattens on stomach
 
-- **[[Front Headlock]]** - Related transitional attack position from turtle scenarios
+- **[[Positions/Front Headlock]]** - Related transitional attack position from turtle scenarios
 
 
 </section>

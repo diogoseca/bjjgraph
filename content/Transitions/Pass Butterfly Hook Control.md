@@ -21,7 +21,7 @@ The pass operates on the principle that butterfly hooks require both elevation a
 
 What makes this pass particularly important is its versatility across gi and no-gi contexts. While specific grips differ, the core mechanics of upper body control, hook neutralization, and pressure completion remain constant. The pass also creates a natural decision tree: if the guard player defends aggressively, their reactions open alternative passing routes including backstep, leg drag, and knee slice entries.
 
-**From Position**: [[Butterfly Hook Control]] (Top)
+**From Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ What makes this pass particularly important is its versatility across gi and no-
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Failure | [[Butterfly Hook Control]] | 25% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Side Control]] | 45% |
+| Failure | [[Positions/Butterfly Guard/Butterfly Hook Control]] | 25% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -192,25 +192,25 @@ Passing butterfly hook control sits at the intersection of guard engagement and 
 ## Related Techniques
 
 
-- [[Butterfly Hook Control]] - Starting position where the pass is initiated from top
+- [[Positions/Butterfly Guard/Butterfly Hook Control]] - Starting position where the pass is initiated from top
 
-- [[Side Control]] - Primary target position upon successful pass completion
+- [[Positions/Side Control]] - Primary target position upon successful pass completion
 
-- [[Half Guard]] - Common intermediate position when pass is only partially completed
+- [[Positions/Half Guard]] - Common intermediate position when pass is only partially completed
 
-- [[Butterfly Guard]] - Related guard system that the pass must navigate through
+- [[Positions/Butterfly Guard]] - Related guard system that the pass must navigate through
 
-- [[Butterfly Smash]] - Complementary technique that neutralizes hooks through driving pressure
+- [[Transitions/Butterfly Smash]] - Complementary technique that neutralizes hooks through driving pressure
 
-- [[Body Lock Pass]] - Alternative passing method from butterfly hook engagement
+- [[Transitions/Body Lock Pass]] - Alternative passing method from butterfly hook engagement
 
-- [[Combat Base]] - Foundational posture used before initiating the pass sequence
+- [[Positions/Combat Base]] - Foundational posture used before initiating the pass sequence
 
-- [[Headquarters Position]] - Intermediate passing platform accessible during hook neutralization
+- [[Positions/Headquarters Position]] - Intermediate passing platform accessible during hook neutralization
 
-- [[Back Step Pass]] - Alternative passing direction when forward pass is defended
+- [[Transitions/Back Step Pass]] - Alternative passing direction when forward pass is defended
 
-- [[Mount]] - Position opponent reaches if they counter-sweep during pass attempt
+- [[Positions/Mount]] - Position opponent reaches if they counter-sweep during pass attempt
 
 
 </section>

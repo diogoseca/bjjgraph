@@ -21,7 +21,7 @@ From a strategic perspective, reaching a submission control position is only hal
 
 Competition data consistently shows that the highest-percentage finishes originate from back control, where the rear naked choke represents the gold standard of submission finishing. The principles demonstrated in back control finishes - maintaining secondary control while applying primary choking pressure, eliminating escape angles before committing to the squeeze, and using incremental force rather than explosive cranking - translate directly to every other submission in the BJJ system and form the core framework of this transition.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -33,8 +33,8 @@ Competition data consistently shows that the highest-percentage finishes origina
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Transition to Game Over is the terminal link in every submission chain withi
 ## Related Techniques
 
 
-- [[Game Over]] - Terminal sink node reached upon successful submission finish
+- [[Positions/Game Over]] - Terminal sink node reached upon successful submission finish
 
-- [[Back Control]] - Highest-percentage submission control position feeding into this transition via rear chokes
+- [[Positions/Back Control]] - Highest-percentage submission control position feeding into this transition via rear chokes
 
-- [[Armbar Control]] - Common joint lock control position requiring precise hyperextension finishing mechanics
+- [[Positions/Armbar Control]] - Common joint lock control position requiring precise hyperextension finishing mechanics
 
-- [[Mounted Triangle]] - High-control choke position with squeeze-based finishing path to game-over
+- [[Positions/Mount/Mounted Triangle]] - High-control choke position with squeeze-based finishing path to game-over
 
-- [[Rear Triangle]] - Rear-mounted triangle control with choke and armbar finish options
+- [[Positions/Triangle Control/Rear Triangle]] - Rear-mounted triangle control with choke and armbar finish options
 
-- [[Guillotine Control]] - Front headlock submission requiring specific choking angle for the finish
+- [[Positions/Guillotine Control]] - Front headlock submission requiring specific choking angle for the finish
 
-- [[Ashi Garami]] - Leg entanglement family providing heel hook and ankle lock finishing paths
+- [[Positions/Ashi Garami]] - Leg entanglement family providing heel hook and ankle lock finishing paths
 
-- [[Omoplata Control]] - Shoulder lock control position with rotational finishing mechanics
+- [[Positions/Omoplata Control]] - Shoulder lock control position with rotational finishing mechanics
 
-- [[RNC from Seat Belt]] - Highest-percentage specific submission finish demonstrating core choking principles
+- [[Submissions/RNC from Seat Belt]] - Highest-percentage specific submission finish demonstrating core choking principles
 
-- [[Bow and Arrow from Seat Belt]] - Gi-specific high-percentage finish showcasing lapel-based choking mechanics
+- [[Submissions/Bow and Arrow from Seat Belt]] - Gi-specific high-percentage finish showcasing lapel-based choking mechanics
 
-- [[Armbar Finish]] - Universal joint lock finish transition demonstrating incremental pressure principles
+- [[Transitions/Armbar Finish]] - Universal joint lock finish transition demonstrating incremental pressure principles
 
 
 </section>

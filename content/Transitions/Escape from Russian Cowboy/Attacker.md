@@ -180,7 +180,7 @@ description: "Step-by-step guide to escaping Russian Cowboy position in BJJ. Lea
 
 As the bottom player executing the Escape from Russian Cowboy, your objective is to systematically dismantle the top player's asymmetric control structure. The escape begins with immediate neck defense and hand fighting to prevent submission, followed by creating frames that generate the space needed for hip movement. Your key advantage is the single-hook configuration—unlike full back control, you only need to address one leg hook, which allows you to direct your escape efforts more efficiently. The critical decision point is choosing between turning into the opponent's free leg side for a guard recovery or executing a roll underneath for a full reversal to side control top. Both pathways require the same initial sequence of neck defense, grip stripping, and frame establishment before diverging at the execution phase.
 
-**From Position**: [[Russian Cowboy]] (Bottom)
+**From Position**: [[Positions/Russian Cowboy]] (Bottom)
 
 </section>
 
@@ -231,9 +231,9 @@ As the bottom player executing the Escape from Russian Cowboy, your objective is
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 33% |
-| Failure | [[Russian Cowboy]] | 42% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Side Control]] | 33% |
+| Failure | [[Positions/Russian Cowboy]] | 42% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -242,10 +242,10 @@ As the bottom player executing the Escape from Russian Cowboy, your objective is
 
 ## Opponent Counters
 
-- **Opponent tightens seatbelt and drives chest forward to re-establish pressure** (Effectiveness: High) - Your Response: Return to step one and re-establish neck defense. Use the increased forward pressure as leverage by timing a hip escape when their weight commits forward, exploiting their overcommitment to chest pressure. → Leads to [[Russian Cowboy]]
-- **Opponent inserts second hook to transition to full back control during escape** (Effectiveness: High) - Your Response: Immediately address the new hook with your free leg by crossing your ankle over their foot and pushing it out. If full back control establishes, transition to standard back control escape protocols with hand fighting priority. → Leads to [[Back Control]]
-- **Opponent follows your hip movement and adjusts hook position to match** (Effectiveness: Medium) - Your Response: Chain multiple hip escape movements in quick succession rather than relying on a single shrimp. Each successive shrimp should change angle slightly, making it progressively harder for the opponent to track your movement with their hook. → Leads to [[Russian Cowboy]]
-- **Opponent attacks a choke or submission during the escape attempt** (Effectiveness: Medium) - Your Response: Immediately pause the positional escape and return to hand fighting defense on the choking arm. Use the opponent's submission commitment as a window—when they release the hook or loosen seatbelt to attack, redirect your escape through the space they created. → Leads to [[Russian Cowboy]]
+- **Opponent tightens seatbelt and drives chest forward to re-establish pressure** (Effectiveness: High) - Your Response: Return to step one and re-establish neck defense. Use the increased forward pressure as leverage by timing a hip escape when their weight commits forward, exploiting their overcommitment to chest pressure. → Leads to [[Positions/Russian Cowboy]]
+- **Opponent inserts second hook to transition to full back control during escape** (Effectiveness: High) - Your Response: Immediately address the new hook with your free leg by crossing your ankle over their foot and pushing it out. If full back control establishes, transition to standard back control escape protocols with hand fighting priority. → Leads to [[Positions/Back Control]]
+- **Opponent follows your hip movement and adjusts hook position to match** (Effectiveness: Medium) - Your Response: Chain multiple hip escape movements in quick succession rather than relying on a single shrimp. Each successive shrimp should change angle slightly, making it progressively harder for the opponent to track your movement with their hook. → Leads to [[Positions/Russian Cowboy]]
+- **Opponent attacks a choke or submission during the escape attempt** (Effectiveness: Medium) - Your Response: Immediately pause the positional escape and return to hand fighting defense on the choking arm. Use the opponent's submission commitment as a window—when they release the hook or loosen seatbelt to attack, redirect your escape through the space they created. → Leads to [[Positions/Russian Cowboy]]
 
 
 </section>

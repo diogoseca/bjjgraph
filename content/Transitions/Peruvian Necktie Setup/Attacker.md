@@ -180,7 +180,7 @@ description: "How to execute Peruvian Necktie Setup in BJJ. Attacking perspectiv
 
 The Peruvian Necktie Setup is an advanced submission transition that exploits opponent's defensive turtle position or failed takedown attempts. This technique combines elements of front headlock control with creative body positioning to establish a powerful choking mechanism. The setup requires precise timing and exceptional understanding of weight distribution, as the practitioner must maintain control while transitioning their body underneath the opponent. Unlike traditional front headlock attacks, the Peruvian Necktie utilizes the opponent's own shoulder as a fulcrum point, creating a unique choking mechanism that attacks both the carotid arteries and applies pressure to the neck. The technique gained prominence in modern no-gi competition and represents the evolution of front headlock finishing sequences. Success with this setup demands strong grip control, flexibility to maneuver underneath the opponent, and the ability to recognize the precise moment when defensive posture creates the necessary opening for entry.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -235,8 +235,8 @@ The Peruvian Necktie Setup is an advanced submission transition that exploits op
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Front Headlock]] | 35% |
-| Counter | [[Turtle]] | 15% |
+| Failure | [[Positions/Front Headlock]] | 35% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -245,11 +245,11 @@ The Peruvian Necktie Setup is an advanced submission transition that exploits op
 
 ## Opponent Counters
 
-- **Opponent pulls trapped arm free before overhook is secured** (Effectiveness: High) - Your Response: Immediately switch to traditional front headlock attacks like anaconda or guillotine, or re-establish gable grip and work for back take → Leads to [[Front Headlock]]
-- **Opponent postures up and sprawls backward before leg can thread through** (Effectiveness: High) - Your Response: Follow opponent's backward movement, maintain head control, and transition to standing guillotine or snap them back down to turtle → Leads to [[Front Headlock]]
-- **Opponent rolls through toward your legs as you invert** (Effectiveness: Medium) - Your Response: Use their rolling momentum to establish back control or transition to mounted triangle position → Leads to [[Turtle]]
-- **Opponent creates frame with free arm against your hip** (Effectiveness: Medium) - Your Response: Kick your outside leg through faster to prevent frame establishment, or use their frame to pivot into alternative front headlock finishes → Leads to [[Front Headlock]]
-- **Opponent stands up while you're mid-transition** (Effectiveness: Low) - Your Response: Maintain head control and overhook, allow yourself to hang from opponent, then use your body weight to pull them back down or transition to standing guillotine → Leads to [[Front Headlock]]
+- **Opponent pulls trapped arm free before overhook is secured** (Effectiveness: High) - Your Response: Immediately switch to traditional front headlock attacks like anaconda or guillotine, or re-establish gable grip and work for back take → Leads to [[Positions/Front Headlock]]
+- **Opponent postures up and sprawls backward before leg can thread through** (Effectiveness: High) - Your Response: Follow opponent's backward movement, maintain head control, and transition to standing guillotine or snap them back down to turtle → Leads to [[Positions/Front Headlock]]
+- **Opponent rolls through toward your legs as you invert** (Effectiveness: Medium) - Your Response: Use their rolling momentum to establish back control or transition to mounted triangle position → Leads to [[Positions/Turtle]]
+- **Opponent creates frame with free arm against your hip** (Effectiveness: Medium) - Your Response: Kick your outside leg through faster to prevent frame establishment, or use their frame to pivot into alternative front headlock finishes → Leads to [[Positions/Front Headlock]]
+- **Opponent stands up while you're mid-transition** (Effectiveness: Low) - Your Response: Maintain head control and overhook, allow yourself to hang from opponent, then use your body weight to pull them back down or transition to standing guillotine → Leads to [[Positions/Front Headlock]]
 
 
 </section>

@@ -188,7 +188,7 @@ description: "Execute the North-South Choke from Reverse Scarf Hold. Complete at
 
 Attacking the North-South Choke from Reverse Scarf Hold requires understanding the precise sequence of arm threading, hip transition, and pressure application that transforms an already dominant pin into a fight-ending blood choke. The attacker leverages the reverse scarf hold's existing chest pressure and arm control to create a choking channel before the defender can establish effective neck defense. The key mechanical insight is that the choke does not come from arm squeezing alone but from the coordinated compression of the bicep against one carotid and the shoulder-chest structure against the opposite carotid. Mastering the hip transition from reverse scarf to north-south alignment while maintaining continuous pressure is the technical crux that separates successful finishes from failed attempts that alert the defender and give them time to escape.
 
-**From Position**: [[Reverse Scarf Hold]] (Top)
+**From Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Top)
 
 
 </section>
@@ -243,9 +243,9 @@ Attacking the North-South Choke from Reverse Scarf Hold requires understanding t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 42% |
-| Failure | [[Reverse Scarf Hold]] | 28% |
-| Failure | [[North-South]] | 15% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control/Reverse Scarf Hold]] | 28% |
+| Failure | [[Positions/North-South]] | 15% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -254,10 +254,10 @@ Attacking the North-South Choke from Reverse Scarf Hold requires understanding t
 
 ## Opponent Defenses
 
-- **Opponent hand fights to prevent choking arm from threading under neck** (Effectiveness: High) - Your Response: Use your far hand to strip their grip or pin their defending arm across their body. If hand fighting is persistent, threaten an americana on the extended arm to force a defensive choice, then re-attempt the thread when they retract. → Leads to [[Reverse Scarf Hold]]
-- **Opponent bridges explosively during hip transition to north-south** (Effectiveness: Medium) - Your Response: Widen your base immediately and ride the bridge by sprawling your hips. If the bridge is powerful enough to create space, use their upward energy to advance to mount instead and re-attack the choke from a different angle later. → Leads to [[North-South]]
-- **Opponent tucks chin tightly to prevent arm depth under neck** (Effectiveness: High) - Your Response: Use your free hand to apply pressure to their forehead, tilting their head back to expose the neck. Alternatively, apply cross-face pressure with your forearm across their jaw to create the space needed for the arm to pass beneath. Never force the arm against a locked chin. → Leads to [[Reverse Scarf Hold]]
-- **Opponent frames against chest and hip escapes to create distance before choke locks** (Effectiveness: Medium) - Your Response: Follow their hip escape by maintaining chest-to-chest contact and driving your weight forward. If they create significant distance, transition to north-south control and re-establish the choking position from a standard north-south entry rather than forcing the reverse scarf entry. → Leads to [[Half Guard]]
+- **Opponent hand fights to prevent choking arm from threading under neck** (Effectiveness: High) - Your Response: Use your far hand to strip their grip or pin their defending arm across their body. If hand fighting is persistent, threaten an americana on the extended arm to force a defensive choice, then re-attempt the thread when they retract. → Leads to [[Positions/Side Control/Reverse Scarf Hold]]
+- **Opponent bridges explosively during hip transition to north-south** (Effectiveness: Medium) - Your Response: Widen your base immediately and ride the bridge by sprawling your hips. If the bridge is powerful enough to create space, use their upward energy to advance to mount instead and re-attack the choke from a different angle later. → Leads to [[Positions/North-South]]
+- **Opponent tucks chin tightly to prevent arm depth under neck** (Effectiveness: High) - Your Response: Use your free hand to apply pressure to their forehead, tilting their head back to expose the neck. Alternatively, apply cross-face pressure with your forearm across their jaw to create the space needed for the arm to pass beneath. Never force the arm against a locked chin. → Leads to [[Positions/Side Control/Reverse Scarf Hold]]
+- **Opponent frames against chest and hip escapes to create distance before choke locks** (Effectiveness: Medium) - Your Response: Follow their hip escape by maintaining chest-to-chest contact and driving your weight forward. If they create significant distance, transition to north-south control and re-establish the choking position from a standard north-south entry rather than forcing the reverse scarf entry. → Leads to [[Positions/Half Guard]]
 
 
 </section>

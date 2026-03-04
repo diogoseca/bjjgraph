@@ -180,7 +180,7 @@ description: "Execute the Roll Escape from Russian Cowboy in BJJ. Step-by-step g
 
 Executing the Roll Escape from Russian Cowboy requires precise understanding of rotational mechanics, hook positioning, and timing windows. As the bottom player, you must identify the correct rolling direction based on where the opponent's hook is positioned, protect your neck throughout the motion, and commit fully to the escape once initiated. The technique demands explosive hip movement combined with upper body coordination to generate sufficient rotational force to overcome the opponent's controlling pressure. Success depends on reading the opponent's weight distribution and capitalizing on moments when their chest pressure shifts or their hook engagement loosens. This is a high-commitment technique that should be drilled extensively before attempting in live sparring, as incorrect execution directly feeds into the opponent's truck position.
 
-**From Position**: [[Russian Cowboy]] (Bottom)
+**From Position**: [[Positions/Russian Cowboy]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ Executing the Roll Escape from Russian Cowboy requires precise understanding of 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 40% |
-| Failure | [[Russian Cowboy]] | 35% |
-| Counter | [[Truck]] | 25% |
+| Success | [[Positions/Turtle]] | 40% |
+| Failure | [[Positions/Russian Cowboy]] | 35% |
+| Counter | [[Positions/Twister Control/Truck]] | 25% |
 
 
 </section>
@@ -244,10 +244,10 @@ Executing the Roll Escape from Russian Cowboy requires precise understanding of 
 
 ## Opponent Counters
 
-- **Opponent follows the roll by maintaining chest contact and threading the second leg into truck position** (Effectiveness: High) - Your Response: Maintain ankle grip control throughout the roll and immediately kick the hooked leg free upon landing. If they achieve truck, transition to truck defense by controlling both ankles and working leg extraction. → Leads to [[Truck]]
-- **Opponent drives chest weight forward and sprawls hips to kill rotational momentum before roll completes** (Effectiveness: High) - Your Response: If the roll is stuffed mid-rotation, immediately chain into a hip escape toward the same direction using whatever space the partial rotation created rather than resetting to original position. → Leads to [[Russian Cowboy]]
-- **Opponent tightens seatbelt grip and deepens hook to prevent loading phase from developing** (Effectiveness: Medium) - Your Response: Return to grip fighting fundamentals by stripping the seatbelt with two-on-one before re-attempting the roll. Consider switching to a hip escape or arm extraction escape instead. → Leads to [[Russian Cowboy]]
-- **Opponent releases upper body control and transitions to turtle top attack position as you complete the roll** (Effectiveness: Medium) - Your Response: Establish tight turtle immediately and begin hand fighting to prevent back re-take. The roll succeeded in escaping Russian Cowboy even though they maintained proximity. → Leads to [[Turtle]]
+- **Opponent follows the roll by maintaining chest contact and threading the second leg into truck position** (Effectiveness: High) - Your Response: Maintain ankle grip control throughout the roll and immediately kick the hooked leg free upon landing. If they achieve truck, transition to truck defense by controlling both ankles and working leg extraction. → Leads to [[Positions/Twister Control/Truck]]
+- **Opponent drives chest weight forward and sprawls hips to kill rotational momentum before roll completes** (Effectiveness: High) - Your Response: If the roll is stuffed mid-rotation, immediately chain into a hip escape toward the same direction using whatever space the partial rotation created rather than resetting to original position. → Leads to [[Positions/Russian Cowboy]]
+- **Opponent tightens seatbelt grip and deepens hook to prevent loading phase from developing** (Effectiveness: Medium) - Your Response: Return to grip fighting fundamentals by stripping the seatbelt with two-on-one before re-attempting the roll. Consider switching to a hip escape or arm extraction escape instead. → Leads to [[Positions/Russian Cowboy]]
+- **Opponent releases upper body control and transitions to turtle top attack position as you complete the roll** (Effectiveness: Medium) - Your Response: Establish tight turtle immediately and begin hand fighting to prevent back re-take. The roll succeeded in escaping Russian Cowboy even though they maintained proximity. → Leads to [[Positions/Turtle]]
 
 
 </section>

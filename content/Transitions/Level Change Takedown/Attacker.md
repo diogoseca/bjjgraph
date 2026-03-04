@@ -180,7 +180,7 @@ description: "Master executing the level change takedown. Step-by-step guide cov
 
 Executing the level change takedown requires coordinating multiple technical elements into one explosive sequence. The attacker must disguise their intentions through grip fighting and movement, then drop their hips below the opponent's center of gravity using proper knee bend mechanics. The penetration step drives forward to close distance, and the finish depends on whether you secure a single leg, double leg, or transition to alternative attacks based on defensive reactions. Success demands understanding that the level change itself is the entry, and the actual takedown finish is a separate technical phase that varies based on your opponent's defensive response. At the highest levels, the level change becomes a platform for chain wrestling where each defensive reaction opens a new offensive path.
 
-**From Position**: [[Standing Position]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the level change takedown requires coordinating multiple technical ele
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the level change takedown requires coordinating multiple technical ele
 
 ## Opponent Counters
 
-- **Sprawl defense where opponent drives hips back and drops weight onto your upper back** (Effectiveness: High) - Your Response: If opponent sprawls early, redirect to a single leg by capturing the near leg and circling to the side. Use your head position to prevent them from establishing front headlock control and keep driving forward to prevent them from settling their sprawl weight. → Leads to [[Standing Position]]
-- **Guillotine attempt wrapping your neck as you shoot with head exposed** (Effectiveness: Medium) - Your Response: Keep your head on the inside of their hip and maintain aggressive forward pressure. If they lock a guillotine, drive through to side control where the choke loses effectiveness due to the angle change. Never stop moving forward once a guillotine is being applied during a shot. → Leads to [[Open Guard]]
-- **Crossface and hip check redirecting your shot angle before you secure legs** (Effectiveness: Medium) - Your Response: Change shooting angle by sliding your penetration step to the other side. Use the contact to transition from double leg to single leg on the far leg, or drop to an ankle pick. The crossface creates a pivot point you can work around rather than fighting through directly. → Leads to [[Standing Position]]
-- **Knee block or downward pressure stuffing the penetration step entry** (Effectiveness: Low) - Your Response: Drive through the block with superior forward pressure and hip drive. If the knee blocks your penetration step, angle off to the open side and finish as a single leg. Alternatively, use the stalled position to switch to an inside trip or body lock finish that bypasses the leg defense entirely. → Leads to [[Standing Position]]
+- **Sprawl defense where opponent drives hips back and drops weight onto your upper back** (Effectiveness: High) - Your Response: If opponent sprawls early, redirect to a single leg by capturing the near leg and circling to the side. Use your head position to prevent them from establishing front headlock control and keep driving forward to prevent them from settling their sprawl weight. → Leads to [[Positions/Standing Position]]
+- **Guillotine attempt wrapping your neck as you shoot with head exposed** (Effectiveness: Medium) - Your Response: Keep your head on the inside of their hip and maintain aggressive forward pressure. If they lock a guillotine, drive through to side control where the choke loses effectiveness due to the angle change. Never stop moving forward once a guillotine is being applied during a shot. → Leads to [[Positions/Open Guard]]
+- **Crossface and hip check redirecting your shot angle before you secure legs** (Effectiveness: Medium) - Your Response: Change shooting angle by sliding your penetration step to the other side. Use the contact to transition from double leg to single leg on the far leg, or drop to an ankle pick. The crossface creates a pivot point you can work around rather than fighting through directly. → Leads to [[Positions/Standing Position]]
+- **Knee block or downward pressure stuffing the penetration step entry** (Effectiveness: Low) - Your Response: Drive through the block with superior forward pressure and hip drive. If the knee blocks your penetration step, angle off to the open side and finish as a single leg. Alternatively, use the stalled position to switch to an inside trip or body lock finish that bypasses the leg defense entirely. → Leads to [[Positions/Standing Position]]
 
 
 </section>

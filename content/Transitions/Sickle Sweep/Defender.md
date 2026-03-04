@@ -158,7 +158,7 @@ The defender's strategic framework centers on denying the sweeping angle while m
 
 Advanced defenders learn to use the Sickle Sweep attempt as a passing opportunity. When the guard player commits to the sickle motion, they necessarily extend their legs and shift their weight, creating momentary openings for backstep passes, leg drag entries, and pressure passes that exploit the guard player's committed body position. This counter-offensive mindset transforms defensive awareness into passing opportunities.
 
-**Opponent's Starting Position**: [[De La Riva Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/De La Riva Guard]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Advanced defenders learn to use the Sickle Sweep attempt as a passing opportunit
 ### 1. Step far leg back and widen base while stripping collar grip
 
 - **When to use**: Early prevention - when you recognize the hip angle shift and collar grip establishment before the sickle motion begins
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Neutralize the sweep entirely and maintain your passing position with improved base, allowing you to restart your pass attempt
 - **Risk**: Widening base too much can expose you to X-Guard or Single Leg X entries if the guard player reads your adjustment
 
 ### 2. Post hand firmly on the mat on the side you're being swept toward while maintaining low center of gravity
 
 - **When to use**: Mid-sweep reaction - when the sickle motion has already begun and you cannot widen base in time to prevent the off-balance
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Stop the sweep mid-execution and create an opportunity to reset your base or transition to a passing sequence
 - **Risk**: Posted arm becomes vulnerable to omoplata attack or the opponent may use it to climb to your back
 
 ### 3. Drop weight forward and drive hips into the guard player to flatten their angle and collapse the sweeping structure
 
 - **When to use**: When you feel the collar grip pulling you forward and the hook beginning to extend - use their own pull to drive into them
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Flatten the guard player's hips, killing the 45-degree angle and neutralizing both the hook leverage and the sickle motion
 - **Risk**: Committing weight forward exposes you to Kiss of the Dragon inversions and Reverse De La Riva back takes
 
 ### 4. Backstep over the De La Riva hook to extract your leg and immediately initiate a backstep pass
 
 - **When to use**: When you read the sweep setup early and want to counter-attack rather than simply defend, using their commitment against them
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: Extract your leg from the hook entirely and land in a passing position behind the guard player's legs
 - **Risk**: Mistimed backstep can put you in a worse position with your back partially turned to an active guard player
 
@@ -229,11 +229,11 @@ Advanced defenders learn to use the Sickle Sweep attempt as a passing opportunit
 
 ## Best-Case Outcomes for Defender
 
-### → [[De La Riva Guard]]
+### → [[Positions/De La Riva Guard]]
 
 Strip the collar grip early and widen your base by stepping your far leg back before the sickle motion generates momentum. Once the immediate sweep threat is neutralized, work to address the DLR hook through backstep or pressure to begin your pass. This resets the position to a neutral guard engagement where you retain initiative.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 When the sweep attempt fails completely - either through successful base widening, collar grip strip, or the guard player overcommitting to the sweep and losing hook contact - immediately capitalize by initiating a guard pass before they can re-establish their DLR control structure. The moment of sweep failure creates a brief window where the guard player's legs are extended and grips are compromised.
 

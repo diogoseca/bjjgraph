@@ -154,7 +154,7 @@ description: "Complete defender guide for the Knee Slice from Z-Guard. Learn rec
 
 Defending the Knee Slice from Z-Guard requires early recognition of the passing sequence and proactive disruption before the knee slice reaches the point of no return. The defender's primary advantage lies in the Z-Guard's superior framing geometry, which provides multiple opportunities to re-insert the knee shield, enter deep half guard, or use framing to create enough space for guard recovery. The critical defensive principle is never allowing the top player to simultaneously control the upper body and collapse the knee shield—disrupting either element derails the pass. Once the passer achieves both upper body control and shield collapse, defensive options narrow rapidly, making early intervention essential for consistent defense.
 
-**Opponent's Starting Position**: [[Z-Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Z-Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Knee Slice from Z-Guard requires early recognition of the passing 
 ### 1. Re-insert the knee shield before the slice initiates
 
 - **When to use**: Early in the sequence when the passer has begun collapsing the shield but has not yet pinned your leg or initiated the slice
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Guard is maintained and the passer must restart their passing sequence from scratch, burning energy and time
 - **Risk**: If the re-insertion fails because the passer has already pinned the leg, you waste energy and end up in a worse position with less time to transition
 
 ### 2. Enter deep half guard by diving underneath the passer's hips
 
 - **When to use**: When the shield has collapsed past the recovery point but the slice has not yet completed—the passer's forward pressure creates the space needed to duck underneath
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: You achieve deep half guard with strong sweeping mechanics and the passer must completely change their passing approach
 - **Risk**: Mistiming the entry allows the passer to sprawl and establish heavy pressure, potentially leading to a flattened half guard or completed pass
 
 ### 3. Frame and hip escape to recover guard distance
 
 - **When to use**: When the passer's crossface is not fully established and there is enough space to create distance through hip escape movement
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Distance is re-established and you can re-insert the knee shield or transition to a different guard variation with better framing
 - **Risk**: Hip escaping against a strong crossface is ineffective and may expose your back if you turn too far away from the passer
 
 ### 4. Underhook and drive to dogfight position
 
 - **When to use**: When the passer lifts their hips during the slice attempt, creating space for you to secure an underhook and come up to knees
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You achieve the dogfight scramble position with strong sweep potential and the pass is completely neutralized
 - **Risk**: If the passer applies a strong whizzer or crossface before you complete the rise to dogfight, you may end up flattened with your underhook trapped
 
@@ -225,11 +225,11 @@ Defending the Knee Slice from Z-Guard requires early recognition of the passing 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Deep Half Guard]]
+### → [[Positions/Half Guard/Deep Half Guard]]
 
 Time your deep half entry to the moment when the passer commits their weight forward during the shield collapse or slice initiation. Dive your head and shoulders underneath their hip line while maintaining your leg entanglement. Their forward pressure actually assists your entry when timed correctly.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Maintain active shield pressure and fight for the underhook throughout the exchange. Strip the crossface grip early before it consolidates. Hip escape to create angles that make the slice trajectory ineffective. Force the passer to restart their sequence by denying at least one critical control point at all times.
 

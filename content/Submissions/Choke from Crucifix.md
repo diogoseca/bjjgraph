@@ -26,8 +26,8 @@ This technique is commonly seen in high-level competition and represents excelle
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Crucifix]]
-**From Position**: [[Crucifix]] (Top)
+**Starting Position**: [[Positions/Crucifix]]
+**From Position**: [[Positions/Crucifix]] (Top)
 **Success Rate**: 62%
 
 </section>
@@ -80,8 +80,8 @@ This technique is commonly seen in high-level competition and represents excelle
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Crucifix]] | 25% |
-| Counter | [[Back Control]] | 15% |
+| Failure | [[Positions/Crucifix]] | 25% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -230,12 +230,12 @@ This technique is commonly seen in high-level competition and represents excelle
 
 ## From Which Positions?
 
-- [[Crucifix]]
-- [[Mounted Crucifix]]
-- [[Back Control]]
-- [[Turtle]]
-- [[Gift Wrap]]
-- [[Harness]]
+- [[Positions/Crucifix]]
+- [[Positions/Mount/Mounted Crucifix]]
+- [[Positions/Back Control]]
+- [[Positions/Turtle]]
+- [[Positions/Gift Wrap]]
+- [[Positions/Harness]]
 
 
 </section>
@@ -244,15 +244,15 @@ This technique is commonly seen in high-level competition and represents excelle
 
 ## Related Submissions
 
-- [[Rear Naked Choke]]
-- [[Armbar from Crucifix]]
-- [[Clock Choke]]
-- [[Triangle Choke]]
-- [[Kimura]]
-- [[Ezekiel Choke]]
-- [[Arm Triangle]]
-- [[Bow and Arrow Choke]]
-- [[Short Choke]]
+- [[Transitions/Rear Naked Choke]]
+- [[Transitions/Armbar from Crucifix]]
+- [[Transitions/Clock Choke]]
+- [[Transitions/Triangle Choke]]
+- [[Transitions/Kimura]]
+- [[Submissions/Ezekiel Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Transitions/Short Choke]]
 
 
 </section>
@@ -261,15 +261,15 @@ This technique is commonly seen in high-level competition and represents excelle
 
 ## Additional Related Content
 
-- [[Back Control to Crucifix]] - Primary transition to reach crucifix position for this choke
-- [[Crucifix from Turtle]] - Alternative entry to crucifix when opponent turtles
-- [[Armbar from Crucifix]] - Alternative finish from same position when choke is defended
-- [[Crucifix]] - Parent control position from which this choke is executed
-- [[Mounted Crucifix]] - Variation position that provides similar choking opportunities
-- [[Seat Belt Control Back]] - Back control variation that transitions well into crucifix
-- [[Crab Ride]] - Alternative back control position with crucifix entry options
-- [[Rear Naked Choke]] - Related choke sharing similar mechanics from back position
-- [[Back Control]] - Dominant position that commonly precedes crucifix establishment
+- [[Transitions/Back Control to Crucifix]] - Primary transition to reach crucifix position for this choke
+- [[Transitions/Crucifix from Turtle]] - Alternative entry to crucifix when opponent turtles
+- [[Transitions/Armbar from Crucifix]] - Alternative finish from same position when choke is defended
+- [[Positions/Crucifix]] - Parent control position from which this choke is executed
+- [[Positions/Mount/Mounted Crucifix]] - Variation position that provides similar choking opportunities
+- [[Positions/Back Control/Seat Belt Control Back]] - Back control variation that transitions well into crucifix
+- [[Positions/Crab Ride]] - Alternative back control position with crucifix entry options
+- [[Transitions/Rear Naked Choke]] - Related choke sharing similar mechanics from back position
+- [[Positions/Back Control]] - Dominant position that commonly precedes crucifix establishment
 
 
 </section>

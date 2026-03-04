@@ -21,7 +21,7 @@ The strategic value of Controlled Descent lies in recognizing that standing back
 
 This technique represents a paradigm shift in defensive thinking - accepting a temporary positional disadvantage (grounded back exposure or turtle) in exchange for eliminating the immediate threats of standing submissions and forceful takedowns. The key distinction between Controlled Descent and simply being taken down is agency: you dictate the timing, angle, and manner of the descent, positioning yourself optimally for the next phase of escape rather than being thrown into a compromised position chosen by your opponent.
 
-**From Position**: [[Standing Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ This technique represents a paradigm shift in defensive thinking - accepting a t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 45% |
-| Success | [[Half Guard]] | 20% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Turtle]] | 45% |
+| Success | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -186,25 +186,25 @@ Controlled Descent occupies a crucial role in the defensive hierarchy from stand
 ## Related Techniques
 
 
-- [[Standing Back Control]] - Starting position - the standing back exposure this technique escapes from
+- [[Positions/Back Control/Standing Back Control]] - Starting position - the standing back exposure this technique escapes from
 
-- [[Turtle]] - Primary target position - where successful Controlled Descent typically lands
+- [[Positions/Turtle]] - Primary target position - where successful Controlled Descent typically lands
 
-- [[Back Control]] - Failure outcome - grounded back control results if descent is not controlled properly
+- [[Positions/Back Control]] - Failure outcome - grounded back control results if descent is not controlled properly
 
-- [[Half Guard]] - Alternative target - can be achieved with sit-through variant of descent
+- [[Positions/Half Guard]] - Alternative target - can be achieved with sit-through variant of descent
 
-- [[Granby Roll to Guard]] - Follow-up technique - common escape from turtle after Controlled Descent
+- [[Transitions/Granby Roll to Guard]] - Follow-up technique - common escape from turtle after Controlled Descent
 
-- [[Hip Escape to Turtle]] - Related escape - alternative method to reach turtle from standing back control
+- [[Transitions/Hip Escape to Turtle]] - Related escape - alternative method to reach turtle from standing back control
 
-- [[Rear Naked Choke]] - Primary threat - the submission this technique helps defend against
+- [[Transitions/Rear Naked Choke]] - Primary threat - the submission this technique helps defend against
 
-- [[Peterson Roll]] - Follow-up technique - turtle escape option immediately after landing
+- [[Transitions/Peterson Roll]] - Follow-up technique - turtle escape option immediately after landing
 
-- [[Grip Break and Face]] - Alternative escape - standing grip fighting option before committing to descent
+- [[Transitions/Grip Break and Face]] - Alternative escape - standing grip fighting option before committing to descent
 
-- [[Mount]] - Counter outcome - opponent achieves mount if descent angle is poorly controlled
+- [[Positions/Mount]] - Counter outcome - opponent achieves mount if descent angle is poorly controlled
 
 
 </section>

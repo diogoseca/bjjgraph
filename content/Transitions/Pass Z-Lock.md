@@ -21,7 +21,7 @@ The fundamental challenge lies in the Z-Lock's dual-leg defense system. Unlike a
 
 Strategically, this pass rewards patience and methodical progression over explosive movement. Attempting to muscle through the Z-Lock typically fails because the dual-leg system absorbs force from multiple angles. Instead, the passer should establish dominant crossface and shoulder pressure first, then systematically strip the lockdown tension before addressing the butterfly hook element. The pass integrates naturally into broader half guard passing systems and chains effectively with knee slice, smash pass, and backstep passing options when the initial Z-Lock break creates defensive reactions.
 
-**From Position**: [[Z-Lock Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this pass rewards patience and methodical progression over explos
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Z-Lock Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Z-Lock Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ Pass Z-Lock sits within the broader half guard passing system as a specialized r
 ## Related Techniques
 
 
-- [[Z-Lock Half Guard]] - Source position where this pass begins, containing the defensive structure being defeated
+- [[Positions/Half Guard/Z-Lock Half Guard]] - Source position where this pass begins, containing the defensive structure being defeated
 
-- [[Side Control]] - Primary target position upon successful completion of the pass
+- [[Positions/Side Control]] - Primary target position upon successful completion of the pass
 
-- [[Half Guard]] - Parent guard category containing Z-Lock as specialized variation
+- [[Positions/Half Guard]] - Parent guard category containing Z-Lock as specialized variation
 
-- [[Lockdown]] - Related leg entanglement system that forms the foundation of Z-Lock mechanics
+- [[Positions/Half Guard/Lockdown]] - Related leg entanglement system that forms the foundation of Z-Lock mechanics
 
-- [[Knee Shield Half Guard]] - Alternative half guard variation the bottom player may transition to if Z-Lock is compromised
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative half guard variation the bottom player may transition to if Z-Lock is compromised
 
-- [[Flattened Half Guard]] - Intermediate position created when passer successfully breaks Z-Lock tension but hasn't completed the pass
+- [[Positions/Half Guard/Flattened Half Guard]] - Intermediate position created when passer successfully breaks Z-Lock tension but hasn't completed the pass
 
-- [[Deep Half Guard]] - Common escape target for bottom player when Z-Lock retention fails under pressure
+- [[Positions/Half Guard/Deep Half Guard]] - Common escape target for bottom player when Z-Lock retention fails under pressure
 
-- [[Escape Z-Lock Half Guard]] - Defender's primary technique for recovering from compromised Z-Lock position
+- [[Transitions/Escape Z-Lock Half Guard]] - Defender's primary technique for recovering from compromised Z-Lock position
 
-- [[Lockdown Break from Z-Lock]] - Related technique focused specifically on breaking the lockdown component of the Z-Lock
+- [[Transitions/Lockdown Break from Z-Lock]] - Related technique focused specifically on breaking the lockdown component of the Z-Lock
 
-- [[Headquarters Position]] - Alternative passing hub position accessible if passer extracts leg but doesn't complete the pass
+- [[Positions/Headquarters Position]] - Alternative passing hub position accessible if passer extracts leg but doesn't complete the pass
 
-- [[Dogfight Position]] - Scramble position that may result if bottom player recovers underhook during the pass
+- [[Positions/Dogfight Position]] - Scramble position that may result if bottom player recovers underhook during the pass
 
 
 </section>

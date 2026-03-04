@@ -26,8 +26,8 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Ankle, toes, and foot ligaments
-**Starting Position**: [[Ashi Garami]]
-**From Position**: [[Toe Hold Control]] (Top)
+**Starting Position**: [[Positions/Ashi Garami]]
+**From Position**: [[Positions/Toe Hold Control]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -84,8 +84,8 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 48% |
-| Failure | [[Toe Hold Control]] | 30% |
-| Counter | [[Ashi Garami]] | 22% |
+| Failure | [[Positions/Toe Hold Control]] | 30% |
+| Counter | [[Positions/Ashi Garami]] | 22% |
 
 
 </section>
@@ -246,14 +246,14 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 
 ## From Which Positions?
 
-- [[Ashi Garami]]
-- [[50-50 Guard]]
-- [[Saddle]]
-- [[Inside Ashi-Garami]]
-- [[Cross Ashi-Garami]]
-- [[Honey Hole]]
-- [[Headquarters Position]]
-- [[Toe Hold Control]]
+- [[Positions/Ashi Garami]]
+- [[Positions/Ashi Garami/50-50 Guard]]
+- [[Positions/Ashi Garami/Saddle]]
+- [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- [[Positions/Ashi Garami/Honey Hole]]
+- [[Positions/Headquarters Position]]
+- [[Positions/Toe Hold Control]]
 
 
 </section>
@@ -262,15 +262,15 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 
 ## Related Submissions
 
-- [[Heel Hook]]
-- [[Inside Heel Hook]]
-- [[Outside Heel Hook]]
-- [[Achilles Lock]]
-- [[Kneebar]]
-- [[Calf Slicer]]
-- [[Estima Lock]]
-- [[Calf Slicer from 50-50]]
-- [[Aoki Lock]]
+- [[Transitions/Heel Hook]]
+- [[Submissions/Inside Heel Hook]]
+- [[Transitions/Outside Heel Hook]]
+- [[Submissions/Achilles Lock]]
+- [[Transitions/Kneebar]]
+- [[Transitions/Calf Slicer]]
+- [[Positions/Estima Lock]]
+- [[Submissions/Calf Slicer from 50-50]]
+- [[Positions/Aoki Lock]]
 
 
 </section>
@@ -279,17 +279,17 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 
 ## Additional Related Content
 
-- [[Ashi Garami]] - Primary starting position for Toe Hold application with inside leg control
-- [[50-50 Guard]] - Symmetrical leg entanglement position allowing Toe Hold attacks from both top and bottom
-- [[Saddle]] - Superior leg entanglement position with enhanced Toe Hold control and finishing angles
-- [[Heel Hook]] - Related leg lock attacking knee through rotational pressure, often combined in leg attack sequences
-- [[Achilles Lock]] - Alternative ankle attack using compression rather than rotation, often used when Toe Hold is defended
-- [[Kneebar]] - Complementary leg lock attacking knee joint, creates submission dilemmas when combined with Toe Hold threats
-- [[Inside Heel Hook]] - Primary heel attack from inside positions, often chained with Toe Hold in submission sequences
-- [[Outside Heel Hook]] - Heel attack from outside positions, creates dilemmas when combined with Toe Hold threats
-- [[Calf Slicer]] - Compression-based leg attack that can be combined with Toe Hold in certain leg entanglement positions
-- [[Inside Ashi-Garami]] - Inside leg entanglement providing strong Toe Hold setups with superior hip control
-- [[Cross Ashi-Garami]] - Cross-body leg entanglement offering unique Toe Hold angles and enhanced control
+- [[Positions/Ashi Garami]] - Primary starting position for Toe Hold application with inside leg control
+- [[Positions/Ashi Garami/50-50 Guard]] - Symmetrical leg entanglement position allowing Toe Hold attacks from both top and bottom
+- [[Positions/Ashi Garami/Saddle]] - Superior leg entanglement position with enhanced Toe Hold control and finishing angles
+- [[Transitions/Heel Hook]] - Related leg lock attacking knee through rotational pressure, often combined in leg attack sequences
+- [[Submissions/Achilles Lock]] - Alternative ankle attack using compression rather than rotation, often used when Toe Hold is defended
+- [[Transitions/Kneebar]] - Complementary leg lock attacking knee joint, creates submission dilemmas when combined with Toe Hold threats
+- [[Submissions/Inside Heel Hook]] - Primary heel attack from inside positions, often chained with Toe Hold in submission sequences
+- [[Transitions/Outside Heel Hook]] - Heel attack from outside positions, creates dilemmas when combined with Toe Hold threats
+- [[Transitions/Calf Slicer]] - Compression-based leg attack that can be combined with Toe Hold in certain leg entanglement positions
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Inside leg entanglement providing strong Toe Hold setups with superior hip control
+- [[Positions/Ashi Garami/Cross Ashi-Garami]] - Cross-body leg entanglement offering unique Toe Hold angles and enhanced control
 
 
 </section>

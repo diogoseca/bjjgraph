@@ -148,7 +148,7 @@ description: "Defend against the ankle lock from X-Guard in BJJ. Recognition cue
 
 Defending the ankle lock from X-Guard demands early recognition and systematic response rather than panicked reaction. The defender must identify the shift from sweep threat to submission attempt, typically signaled by the attacker releasing upper body grips and reaching for the ankle with both hands while repositioning their hips to face the trapped leg. Early defense focuses on preventing grip establishment through foot extraction and knee rotation, while late defense requires addressing the figure-four grip through boot defense, progressive grip stripping, and positional escapes. Understanding that the ankle lock creates a gateway to more dangerous leg entanglements — including heel hooks and toe holds in Ashi Garami — motivates immediate defensive action rather than passive acceptance of the position. The most effective defenders treat the ankle lock threat as a positional problem requiring systematic resolution rather than a panic-inducing emergency.
 
-**Opponent's Starting Position**: [[X-Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/X-Guard]] (Bottom)
 
 
 </section>
@@ -186,28 +186,28 @@ Defending the ankle lock from X-Guard demands early recognition and systematic r
 ### 1. Early foot extraction by rotating knee inward and pulling sharply before figure-four grip is established
 
 - **When to use**: As soon as you recognize the attacker releasing upper body grips and reaching for your ankle — this defense must be executed before the figure-four locks
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You escape the leg entanglement entirely and can re-establish standing base or begin passing the now-compromised guard
 - **Risk**: If timed too late, pulling the foot back can actually tighten the attacker's grip and accelerate the transition to Ashi Garami
 
 ### 2. Boot defense with toe pointing combined with knee rotation to neutralize Achilles pressure
 
 - **When to use**: When the figure-four grip is already partially or fully secured but the attacker has not yet achieved perpendicular alignment or begun hip extension
-- **Targets**: [[X-Guard]]
+- **Targets**: [[Positions/X-Guard]]
 - **If successful**: You stall the submission and force the attacker to release or transition, buying time for a more complete escape or grip strip
 - **Risk**: Boot defense alone does not address the leg entanglement — the attacker may transition to toe hold, heel hook, or improved Ashi Garami position while you defend statically
 
 ### 3. Step over with free leg to initiate guard pass while ankle is controlled
 
 - **When to use**: When the attacker has committed both arms to the ankle grip, leaving no hands available to control your free leg or address your upper body movement
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You escape the ankle lock and begin advancing to a passing or top position, potentially forcing the attacker to release the grip entirely
 - **Risk**: If the ankle grip is deep and the Ashi Garami legs are controlling your hip, stepping over can be difficult and may expose the knee to heel hook entries during the transition
 
 ### 4. Sit down and engage counter leg entanglement to neutralize the submission while establishing your own offensive position
 
 - **When to use**: When foot extraction is not immediately possible and the attacker has strong grip and leg control that prevents simple escape
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: You neutralize the ankle lock threat by changing the positional dynamics and establish your own leg attack opportunities
 - **Risk**: Entering a leg entanglement exchange requires strong offensive and defensive leg lock knowledge — without it, you may trade one bad position for a worse one
 
@@ -230,11 +230,11 @@ Defending the ankle lock from X-Guard demands early recognition and systematic r
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Extract the trapped foot early by rotating the knee inward and pulling sharply before the figure-four grip is locked, then step free leg over to begin passing the compromised guard
 
-### → [[X-Guard]]
+### → [[Positions/X-Guard]]
 
 Successfully strip the figure-four grip through persistent hand fighting combined with boot defense, forcing the attacker to abandon the submission and return to sweep-based guard play
 

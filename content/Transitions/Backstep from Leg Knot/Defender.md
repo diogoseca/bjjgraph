@@ -154,7 +154,7 @@ description: "Defend and counter the Backstep from Leg Knot in BJJ. Recognition 
 
 As the defender against the Backstep from Leg Knot, your primary objective is to prevent the top player from disengaging from the leg entanglement and establishing side control. You occupy the bottom position in the leg knot, and while this is not an advantageous position, it is vastly preferable to being pinned in side control where your submission threats disappear entirely. Your defensive strategy centers on three priorities: re-entangling the opponent's legs as they attempt to extract, inserting your knee to recover at least half guard if re-entanglement fails, and framing to recover full open guard as a last resort. Early recognition of the backstep attempt is critical because the technique is most vulnerable during its initial phase when the opponent is still partially entangled but beginning to rotate away.
 
-**Opponent's Starting Position**: [[Leg Knot]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Knot]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ As the defender against the Backstep from Leg Knot, your primary objective is to
 ### 1. Re-hook the extracting leg with your inside hook and pull it back into the entanglement
 
 - **When to use**: Early in the backstep when the opponent's leg is partially extracted but not yet cleared past your hooks
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: Returns both players to the original leg knot configuration, nullifying the pass attempt
 - **Risk**: If timed too late, you may only delay the extraction while expending energy without preventing the pass
 
 ### 2. Insert your knee between the opponent's hips and your body to establish half guard
 
 - **When to use**: When re-entanglement has failed and the opponent's leg is clearing but they have not yet established crossface
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Recovers half guard position where you retain leg control and can work systematic escapes or sweeps
 - **Risk**: If the opponent drives through the knee insertion attempt, you may end up in a worse position with your knee trapped
 
 ### 3. Frame with both arms against the opponent's shoulders and shrimp away to recover open guard
 
 - **When to use**: When the backstep is nearly complete but the opponent has not yet consolidated crossface and chest pressure
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Creates enough distance to insert both legs for full guard recovery, resetting the engagement entirely
 - **Risk**: Strong frames can be collapsed by a heavy opponent, and shrimping exposes your back if the opponent changes angle
 
 ### 4. Follow the opponent's hip rotation and sit up to establish an underhook before they settle
 
 - **When to use**: When you feel the opponent's weight shift forward during the backstep and their hip pressure momentarily decreases
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Establishes an underhook that prevents side control consolidation and creates sweep or back take opportunities
 - **Risk**: Sitting up without the underhook exposes you to being driven back flat with crossface pressure
 
@@ -226,11 +226,11 @@ As the defender against the Backstep from Leg Knot, your primary objective is to
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Knot]]
+### → [[Positions/Leg Knot]]
 
 React immediately to the first signs of leg extraction by re-hooking with your inside hook and pulling the opponent's leg back into the entanglement. The earlier you catch the extraction attempt, the higher the success rate of maintaining the knot.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 When re-entanglement fails and the backstep progresses past the point of no return, immediately commit to guard recovery by framing hard against both shoulders and performing a strong hip escape away from the opponent. Insert both feet on their hips before they can establish crossface to complete the guard recovery.
 

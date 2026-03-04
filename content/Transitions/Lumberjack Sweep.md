@@ -21,7 +21,7 @@ This technique serves as a cornerstone of modern half guard systems, providing a
 
 This sweep integrates seamlessly with other half guard attacks, forming part of a comprehensive sweeping system that keeps opponents defensive and hesitant to engage. When the opponent defends the lumberjack sweep, they expose themselves to deep half entries, kimura attacks on posted arms, and back takes through the dogfight position, making the sweep threat valuable even when not completed.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ This sweep integrates seamlessly with other half guard attacks, forming part of 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 60% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 60% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -190,29 +190,29 @@ The lumberjack sweep is a cornerstone technique of modern half guard bottom syst
 ## Related Techniques
 
 
-- [[Half Guard]] - Primary starting position for this technique
+- [[Positions/Half Guard]] - Primary starting position for this technique
 
-- [[Deep Half Guard]] - Alternative position when lumberjack sweep is defended with crossface
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative position when lumberjack sweep is defended with crossface
 
-- [[Old School Sweep]] - Complementary sweep from half guard that works against different defensive postures
+- [[Transitions/Old School Sweep]] - Complementary sweep from half guard that works against different defensive postures
 
-- [[Lockdown]] - Variation using lockdown leg control for additional security
+- [[Positions/Half Guard/Lockdown]] - Variation using lockdown leg control for additional security
 
-- [[Half Guard to Back Take]] - Follow-up when opponent turtles to defend sweep
+- [[Transitions/Half Guard to Back Take]] - Follow-up when opponent turtles to defend sweep
 
-- [[Kimura Sweep]] - Submission attack when opponent posts arm to defend sweep
+- [[Transitions/Kimura Sweep]] - Submission attack when opponent posts arm to defend sweep
 
-- [[Side Control]] - Common ending position after successful sweep completion
+- [[Positions/Side Control]] - Common ending position after successful sweep completion
 
-- [[Knee on Belly]] - Alternative top position finish when opponent rolls through
+- [[Positions/Knee on Belly]] - Alternative top position finish when opponent rolls through
 
-- [[Electric Chair]] - Position accessible when opponent sprawls to defend the sweep
+- [[Positions/Half Guard/Electric Chair]] - Position accessible when opponent sprawls to defend the sweep
 
-- [[Dogfight Position]] - Transitional position when coming up on underhook after blocked sweep
+- [[Positions/Dogfight Position]] - Transitional position when coming up on underhook after blocked sweep
 
-- [[Butterfly Guard]] - Recovery option if opponent extracts leg during sweep attempt
+- [[Positions/Butterfly Guard]] - Recovery option if opponent extracts leg during sweep attempt
 
-- [[Deep Half Entry]] - Chain transition when crossface prevents sweep completion
+- [[Transitions/Deep Half Entry]] - Chain transition when crossface prevents sweep completion
 
 
 </section>

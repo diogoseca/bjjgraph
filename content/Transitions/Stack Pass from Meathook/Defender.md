@@ -154,7 +154,7 @@ description: "Defend against the Stack Pass from Meathook as the bottom Rubber G
 
 As the defender against the Stack Pass from Meathook, you are the bottom player who has established Meathook control and must now counter your opponent's attempt to stack and pass your guard. Your primary advantage is that the stack pass drives the top player forward, which is exactly the direction that feeds your highest-percentage submissions, particularly the gogoplata. The key defensive framework involves reading the stack initiation early, adjusting your shin position to capitalize on their forward drive, and maintaining hip mobility to prevent the compression that enables their arm extraction. Your defensive strategy should be proactive rather than reactive: their stack attempt opens attack windows that are more dangerous to them than your Meathook is to you in its neutral state.
 
-**Opponent's Starting Position**: [[Meathook]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Meathook]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the Stack Pass from Meathook, you are the bottom player 
 ### 1. Redirect shin to opponent's throat as they drive forward for gogoplata entry
 
 - **When to use**: When you recognize the forward drive early and their chin tuck is imperfect, leaving throat accessible during the stacking motion
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Opponent drives directly into your gogoplata, converting their passing energy into submission pressure
 - **Risk**: If their chin is properly tucked, the shin contacts the jaw rather than the throat, providing no choke leverage and potentially losing hook position
 
 ### 2. Hip escape laterally during the stack to create angle for triangle or omoplata
 
 - **When to use**: When the forward drive begins and you feel compression building on your hips, escape laterally before full compression immobilizes your hip movement
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Lateral angle prevents the direct compression needed for arm extraction and opens triangle or omoplata pathways
 - **Risk**: Lateral movement may release the Meathook shin hook if not executed with proper hook maintenance, allowing the opponent to extract freely
 
 ### 3. Frame against driving shoulder with free hand to control stack speed and maintain space
 
 - **When to use**: As the first defensive response when you feel any forward pressure initiation, before committing to a specific counter-attack
-- **Targets**: [[Meathook]]
+- **Targets**: [[Positions/Rubber Guard/Meathook]]
 - **If successful**: Slows or stalls the stack progression, maintaining your Meathook control and allowing time to select the optimal counter-attack based on their adjustments
 - **Risk**: Extended arm framing against a powerful drive may be overwhelmed, and the frame arm could be isolated if they swim through it
 
 ### 4. Deepen the shin hook by pulling trapped arm further across body as compression builds
 
 - **When to use**: When you feel the stack beginning to compromise hook depth, actively pull the trapped arm deeper to maintain isolation mechanics
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Maintains the arm isolation that is the foundation of Meathook control, preventing the extraction that the stack is designed to enable
 - **Risk**: Over-commitment to deepening the hook during active stacking may strain your hip flexors and compromise your ability to transition to counter-attacks
 
@@ -225,11 +225,11 @@ As the defender against the Stack Pass from Meathook, you are the bottom player 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Gogoplata Control]]
+### → [[Positions/Gogoplata Control]]
 
 Read the stack initiation early through chin tuck and base widening cues. As they drive forward, adjust your shin hook from tricep position to throat position by rotating your hip slightly and extending the hooking leg. Their forward momentum carries their throat directly into your shin, establishing gogoplata control. Works best when their chin tuck is imperfect or when they lead with head rather than shoulder.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the stack compresses your hips, hip escape laterally to prevent direct compression and use the angle change to transition from Meathook to closed guard with superior grips. While losing Meathook control, you maintain guard position and deny their passing advancement, resetting the guard exchange from a position where you still have offensive options.
 

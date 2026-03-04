@@ -211,31 +211,31 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (40% of attempts)
+### [[Transitions/Rear Naked Choke]] (40% of attempts)
 
-### [[Armbar from Back Transition]] (13% of attempts)
+### [[Transitions/Armbar from Back Transition]] (13% of attempts)
 
-### [[Back Control to Crucifix]] (8% of attempts)
+### [[Transitions/Back Control to Crucifix]] (8% of attempts)
 
-### [[Triangle from Back]] (4% of attempts)
+### [[Transitions/Triangle from Back]] (4% of attempts)
 
-### [[Bow and Arrow Choke]] (10% of attempts)
+### [[Transitions/Bow and Arrow Choke]] (10% of attempts)
 
-### [[Short Choke]] (5% of attempts)
+### [[Transitions/Short Choke]] (5% of attempts)
 
-### [[Rolling Back Take]] (3% of attempts)
+### [[Transitions/Rolling Back Take]] (3% of attempts)
 
-### [[Back Control Maintenance]] (2% of attempts)
+### [[Transitions/Back Control Maintenance]] (2% of attempts)
 
-### [[Kimura from Back]] (6% of attempts)
+### [[Transitions/Kimura from Back]] (6% of attempts)
 
-### [[Gift Wrap Transition]] (4% of attempts)
+### [[Transitions/Gift Wrap Transition]] (4% of attempts)
 
-### [[Hand Fighting from Back]] (3% of attempts)
+### [[Transitions/Hand Fighting from Back]] (3% of attempts)
 
-### [[Harness to Body Lock]] (1% of attempts)
+### [[Transitions/Harness to Body Lock]] (1% of attempts)
 
-### [[RNC from Harness]] (1% of attempts)
+### [[Transitions/RNC from Harness]] (1% of attempts)
 
 
 
@@ -246,28 +246,28 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 ## Decision Making from This Position
 
 **If opponent is defending choke with both hands high, protecting neck:**
-- Execute **[[Armbar from Back Transition]]** → [[Armbar Control]] (Probability: 70%)
-- Execute **[[Back Control to Crucifix]]** → [[Crucifix]] (Probability: 65%)
+- Execute **[[Transitions/Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 70%)
+- Execute **[[Transitions/Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 65%)
 
 
 **If opponent is working to remove hooks and turn into you:**
-- Execute **[[Rolling Back Take]]** → [[Body Triangle]] (Probability: 60%)
-- Execute **[[Rear Naked Choke]]** → [[Game Over]] (Probability: 75%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control/Body Triangle]] (Probability: 60%)
+- Execute **[[Transitions/Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 75%)
 
 
 **If opponent strips top arm and begins to turn to guard:**
-- Execute **[[Back Control to Crucifix]]** → [[Crucifix]] (Probability: 65%)
-- Execute **[[Triangle from Back]]** → [[Rear Triangle]] (Probability: 55%)
+- Execute **[[Transitions/Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 65%)
+- Execute **[[Transitions/Triangle from Back]]** → [[Positions/Triangle Control/Rear Triangle]] (Probability: 55%)
 
 
 **If opponent turtles and hides arms defensively:**
-- Execute **[[Bow and Arrow Choke]]** → [[Game Over]] (Probability: 70%)
-- Execute **[[Rear Naked Choke]]** → [[Game Over]] (Probability: 80%)
+- Execute **[[Transitions/Bow and Arrow Choke]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Transitions/Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 80%)
 
 
 **If opponent is flat on stomach trying to prevent hooks:**
-- Execute **[[Rolling Back Take]]** → [[Body Triangle]] (Probability: 65%)
-- Execute **[[Short Choke]]** → [[Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control/Body Triangle]] (Probability: 65%)
+- Execute **[[Transitions/Short Choke]]** → [[Positions/Game Over]] (Probability: 60%)
 
 
 
@@ -413,18 +413,18 @@ Partner starts in turtle position. Practice back take entry establishing harness
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Parent position category with fully established hooks
-- **[[Seat Belt Control Back]]** - Alternative classification name for same position
-- **[[Body Triangle]]** - Advanced variation with leg triangle instead of hooks
-- **[[Crucifix]]** - Common advancement when opponent defends choking arm
-- **[[Gift Wrap]]** - Alternative control configuration from back
-- **[[Rear Triangle]]** - Submission position accessible from here
-- **[[Mounted Crucifix]]** - Related dominant control position
-- **[[Turtle]]** - Common entry position before back take
-- **[[Standing Back Control]]** - Standing application of same principles
-- **[[Armbar Control]]** - Control position for armbar finish from back
-- **[[Rear Naked Choke]]** - Primary submission from this position
-- **[[Bow and Arrow Choke]]** - High-percentage gi choke from back control
+- **[[Positions/Back Control]]** - Parent position category with fully established hooks
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Alternative classification name for same position
+- **[[Positions/Back Control/Body Triangle]]** - Advanced variation with leg triangle instead of hooks
+- **[[Positions/Crucifix]]** - Common advancement when opponent defends choking arm
+- **[[Positions/Gift Wrap]]** - Alternative control configuration from back
+- **[[Positions/Triangle Control/Rear Triangle]]** - Submission position accessible from here
+- **[[Positions/Mount/Mounted Crucifix]]** - Related dominant control position
+- **[[Positions/Turtle]]** - Common entry position before back take
+- **[[Positions/Back Control/Standing Back Control]]** - Standing application of same principles
+- **[[Positions/Armbar Control]]** - Control position for armbar finish from back
+- **[[Transitions/Rear Naked Choke]]** - Primary submission from this position
+- **[[Transitions/Bow and Arrow Choke]]** - High-percentage gi choke from back control
 
 
 </section>

@@ -178,7 +178,7 @@ The mechanical principle underlying this consolidation is the progressive transf
 
 Strategically, this pass should be executed when the opponent flattens out rather than turning away or attempting to sit up. If they turn away, the back take becomes the higher-percentage option. If they turn toward you aggressively, north-south or crucifix transitions may be more appropriate. The side control consolidation is optimal against opponents who accept the bottom position and focus on frame-based defense rather than dynamic escape attempts.
 
-**From Position**: [[Leg Drag Control]] (Top)
+**From Position**: [[Positions/Leg Drag Control]] (Top)
 
 </section>
 
@@ -230,9 +230,9 @@ Strategically, this pass should be executed when the opponent flattens out rathe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Leg Drag Control]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Leg Drag Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ Strategically, this pass should be executed when the opponent flattens out rathe
 
 ## Opponent Counters
 
-- **Hip escape and knee insertion during leg release** (Effectiveness: High) - Your Response: Never release leg grip until crossface and hip block are established. If knee enters, immediately switch to knee slice finishing mechanics or backstep to leg entanglement. → Leads to [[Half Guard]]
-- **Underhook and turn into passer** (Effectiveness: Medium) - Your Response: Anticipate the underhook attempt and establish a whizzer overhook before they secure deep underhook position. Use the whizzer to flatten them back out or transition to north-south. → Leads to [[Leg Drag Control]]
-- **Explosive bridge during weight transfer** (Effectiveness: Medium) - Your Response: Post your free hand wide for base when you feel the bridge loading. Ride the bridge by keeping your hips low and following their movement, then re-settle as they return to the mat. → Leads to [[Leg Drag Control]]
-- **Frame on shoulder preventing crossface** (Effectiveness: Low) - Your Response: Swim your crossface arm inside their frame, using your shoulder to push their forearm down. Alternatively, accept the frame temporarily and attack the americana on the extended arm. → Leads to [[Leg Drag Control]]
+- **Hip escape and knee insertion during leg release** (Effectiveness: High) - Your Response: Never release leg grip until crossface and hip block are established. If knee enters, immediately switch to knee slice finishing mechanics or backstep to leg entanglement. → Leads to [[Positions/Half Guard]]
+- **Underhook and turn into passer** (Effectiveness: Medium) - Your Response: Anticipate the underhook attempt and establish a whizzer overhook before they secure deep underhook position. Use the whizzer to flatten them back out or transition to north-south. → Leads to [[Positions/Leg Drag Control]]
+- **Explosive bridge during weight transfer** (Effectiveness: Medium) - Your Response: Post your free hand wide for base when you feel the bridge loading. Ride the bridge by keeping your hips low and following their movement, then re-settle as they return to the mat. → Leads to [[Positions/Leg Drag Control]]
+- **Frame on shoulder preventing crossface** (Effectiveness: Low) - Your Response: Swim your crossface arm inside their frame, using your shoulder to push their forearm down. Alternatively, accept the frame temporarily and attack the americana on the extended arm. → Leads to [[Positions/Leg Drag Control]]
 
 
 </section>

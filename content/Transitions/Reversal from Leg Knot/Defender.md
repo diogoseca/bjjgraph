@@ -154,7 +154,7 @@ description: "Defend the Reversal from Leg Knot as the top player. Maintain base
 
 Defending the Reversal from Leg Knot requires the top player to maintain base awareness throughout their offensive sequences while recognizing the early indicators of a sweep attempt from the bottom player. The defender must balance commitment to leg lock setups with the need to preserve posting ability, adjusting weight distribution and hand positioning to prevent the bottom player from generating the hip rotation and leverage necessary for the reversal. Effective defense transitions between passive resistance through base maintenance and active counter-advancement, using the bottom player's reversal movement to progress to more dominant positions like the Saddle. The key insight is that over-committing to submissions creates the base vulnerability the reversal exploits.
 
-**Opponent's Starting Position**: [[Leg Knot]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Knot]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Reversal from Leg Knot requires the top player to maintain base aw
 ### 1. Post free hand immediately when hip rotation begins and drive weight into the sweep direction
 
 - **When to use**: As soon as you feel the bottom player's hips begin rotating or their free leg posts against your hip
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: Reversal is blocked and you maintain Leg Knot control with awareness of opponent's intent
 - **Risk**: Posting hand temporarily removes one control point from the leg entanglement
 
 ### 2. Tighten leg entanglement by squeezing knees together and dropping weight to neutralize hip mobility
 
 - **When to use**: When you recognize early reversal indicators but the sweep has not yet been initiated with full commitment
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: Bottom player's hip rotation is restricted and the reversal attempt stalls without generating sweep force
 - **Risk**: Dropping weight commits you to a static position that may limit your own submission options
 
 ### 3. Advance to Saddle by crossing knee line during the bottom player's hip rotation movement
 
 - **When to use**: When the reversal attempt loosens the leg knot configuration and creates space for you to advance your leg positioning
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: You convert the opponent's reversal attempt into a positional advancement to the more dominant Saddle position
 - **Risk**: If the Saddle entry is incomplete, the loosened entanglement may actually facilitate the reversal
 
 ### 4. Release leg control and establish upper body crossface to flatten the bottom player
 
 - **When to use**: When the reversal momentum is too strong to resist through posting and you need to change the engagement entirely
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: Bottom player is flattened and the reversal momentum is neutralized through upper body control
 - **Risk**: Voluntarily releasing leg control abandons your submission position and may allow guard recovery
 
@@ -225,11 +225,11 @@ Defending the Reversal from Leg Knot requires the top player to maintain base aw
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Knot]]
+### → [[Positions/Leg Knot]]
 
 Maintain base awareness and post immediately when reversal indicators appear. Keep weight centered and at least one hand free for posting throughout submission attempts. Shut down the sweep early before the bottom player generates committed hip rotation.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 Use the bottom player's reversal attempt as an opportunity to advance position. Their hip rotation and grip fighting loosens the leg knot configuration, creating windows to cross the knee line and establish Saddle. Time the advancement to coincide with their movement rather than fighting against it.
 

@@ -26,8 +26,8 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint
-**Starting Position**: [[Closed Guard]]
-**From Position**: [[Closed Guard]] (Bottom)
+**Starting Position**: [[Positions/Closed Guard]]
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -80,8 +80,8 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Mount]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -237,16 +237,16 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 
 ## From Which Positions?
 
-- [[Closed Guard]]
-- [[Open Guard]]
-- [[Mount]]
-- [[Spider Guard]]
-- [[Armbar Control]]
-- [[Scramble Position]]
-- [[Triangle Control]]
-- [[Standing Position]]
-- [[Turtle]]
-- [[Overhook Control]]
+- [[Positions/Closed Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/Mount]]
+- [[Positions/Spider Guard]]
+- [[Positions/Armbar Control]]
+- [[Positions/Scramble Position]]
+- [[Positions/Triangle Control]]
+- [[Positions/Standing Position]]
+- [[Positions/Turtle]]
+- [[Positions/Overhook Control]]
 
 
 </section>
@@ -255,17 +255,17 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 
 ## Related Submissions
 
-- [[Armbar from Guard]]
-- [[Armbar from Mount]]
-- [[Triangle Choke]]
-- [[Omoplata]]
-- [[Kimura]]
-- [[Flying Armbar]]
-- [[Belly Down Armbar]]
-- [[Armbar from Side Control]]
-- [[Far Side Armbar]]
-- [[Baratoplata]]
-- [[Rolling Armbar]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Armbar from Mount]]
+- [[Transitions/Triangle Choke]]
+- [[Transitions/Omoplata]]
+- [[Transitions/Kimura]]
+- [[Submissions/Flying Armbar]]
+- [[Submissions/Belly Down Armbar]]
+- [[Submissions/Armbar from Side Control]]
+- [[Submissions/Far Side Armbar]]
+- [[Transitions/Baratoplata]]
+- [[Submissions/Rolling Armbar]]
 
 
 </section>
@@ -274,18 +274,18 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 
 ## Additional Related Content
 
-- [[Flying Armbar]] - Another explosive armbar variation requiring timing and commitment
-- [[Armbar from Mount]] - Traditional setup position for spinning armbar from top
-- [[Triangle Choke]] - Creates arm isolation that can lead to spinning armbar entry
-- [[Omoplata]] - Alternative dynamic attack from similar positions
-- [[Armbar from Guard]] - Related armbar entry that shares control principles
-- [[Closed Guard]] - Primary starting position for spinning armbar entries
-- [[Mount]] - Dominant position offering spinning armbar opportunities
-- [[Scramble Position]] - Dynamic environment where spinning armbar opportunities emerge
-- [[Triangle Control]] - Position that provides arm isolation leading to spinning armbar
-- [[Belly Down Armbar]] - Alternative finishing position when opponent stacks during spin
-- [[Kimura]] - Complementary shoulder lock that chains with spinning armbar
-- [[Armbar Control]] - Target control position after completing the spin
+- [[Submissions/Flying Armbar]] - Another explosive armbar variation requiring timing and commitment
+- [[Submissions/Armbar from Mount]] - Traditional setup position for spinning armbar from top
+- [[Transitions/Triangle Choke]] - Creates arm isolation that can lead to spinning armbar entry
+- [[Transitions/Omoplata]] - Alternative dynamic attack from similar positions
+- [[Submissions/Armbar from Guard]] - Related armbar entry that shares control principles
+- [[Positions/Closed Guard]] - Primary starting position for spinning armbar entries
+- [[Positions/Mount]] - Dominant position offering spinning armbar opportunities
+- [[Positions/Scramble Position]] - Dynamic environment where spinning armbar opportunities emerge
+- [[Positions/Triangle Control]] - Position that provides arm isolation leading to spinning armbar
+- [[Submissions/Belly Down Armbar]] - Alternative finishing position when opponent stacks during spin
+- [[Transitions/Kimura]] - Complementary shoulder lock that chains with spinning armbar
+- [[Positions/Armbar Control]] - Target control position after completing the spin
 
 
 </section>

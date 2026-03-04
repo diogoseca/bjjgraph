@@ -212,25 +212,25 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 
 ## Available Attacks
 
-### [[Inside Heel Hook from Ushiro]] (13% of attempts)
+### [[Transitions/Inside Heel Hook from Ushiro]] (13% of attempts)
 
-### [[Follow to Back Control]] (16% of attempts)
+### [[Transitions/Follow to Back Control]] (16% of attempts)
 
-### [[Ankle Lock Finish]] (7% of attempts)
+### [[Transitions/Ankle Lock Finish]] (7% of attempts)
 
-### [[Cross Ashi Transition]] (10% of attempts)
+### [[Transitions/Cross Ashi Transition]] (10% of attempts)
 
-### [[Outside Heel Hook Adjustment]] (5% of attempts)
+### [[Transitions/Outside Heel Hook Adjustment]] (5% of attempts)
 
-### [[Return to Outside Ashi]] (12% of attempts)
+### [[Transitions/Return to Outside Ashi]] (12% of attempts)
 
-### [[Kneebar from Ushiro]] (15% of attempts)
+### [[Transitions/Kneebar from Ushiro]] (15% of attempts)
 
-### [[Saddle Entry from Top]] (12% of attempts)
+### [[Transitions/Saddle Entry from Top]] (12% of attempts)
 
-### [[Toe Hold]] (8% of attempts)
+### [[Transitions/Toe Hold]] (8% of attempts)
 
-### [[Heel Hook from Ushiro Ashi]] (2% of attempts)
+### [[Submissions/Heel Hook from Ushiro Ashi]] (2% of attempts)
 
 
 
@@ -241,23 +241,23 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 ## Decision Making from This Position
 
 **If opponent's inversion is shallow and leg clearing has not progressed significantly:**
-- Execute **[[Immediate Heel Hook Attempt]]** → [[Game Over]] (Probability: 50%)
-- Execute **[[Estima Lock to Saddle]]** → [[Saddle]] (Probability: 55%)
+- Execute **[[Immediate Heel Hook Attempt]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Transitions/Estima Lock to Saddle]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
 
 
 **If opponent is actively rotating toward turtle with committed movement:**
-- Execute **[[Follow to Back Control]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Ankle Lock During Transition]]** → [[Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Follow to Back Control]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Ankle Lock During Transition]]** → [[Positions/Game Over]] (Probability: 45%)
 
 
 **If opponent has cleared outside leg and is working to clear inside leg:**
-- Execute **[[Immediate Saddle Transition]]** → [[Saddle]] (Probability: 55%)
-- Execute **[[Return to Outside Ashi]]** → [[Outside Ashi-Garami]] (Probability: 50%)
+- Execute **[[Immediate Saddle Transition]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
+- Execute **[[Transitions/Return to Outside Ashi]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 50%)
 
 
 **If opponent is attempting counter-attack on attacker's legs:**
-- Execute **[[Accelerate Heel Hook Finish]]** → [[Game Over]] (Probability: 50%)
-- Execute **[[Cross Ashi Defense]]** → [[Cross Ashi-Garami]] (Probability: 45%)
+- Execute **[[Accelerate Heel Hook Finish]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Cross Ashi Defense]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 45%)
 
 
 
@@ -391,14 +391,14 @@ Begin in ushiro ashi-garami with both practitioners working at 60% intensity. De
 
 ## Related Positions and Techniques
 
-- **[[Outside Ashi-Garami]]** - Primary position that ushiro ashi-garami transitions from during opponent's inversion
-- **[[Saddle]]** - High-percentage transition target when opponent clears outside leg from ushiro
-- **[[Inside Heel Hook]]** - Primary submission finish from ushiro ashi-garami with adjusted mechanics
-- **[[Back Control]]** - Common transition target when following opponent's continued inversion
-- **[[Honey Hole]]** - Alternative high-control position accessible from ushiro configuration
-- **[[Leg Entanglement]]** - Fundamental principle governing all ushiro ashi-garami control and submission options
-- **[[Cross Ashi-Garami]]** - Related entanglement with different mechanical properties for transition options
-- **[[Inside Ashi-Garami]]** - Alternative standard configuration for comparison of finishing mechanics
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Primary position that ushiro ashi-garami transitions from during opponent's inversion
+- **[[Positions/Ashi Garami/Saddle]]** - High-percentage transition target when opponent clears outside leg from ushiro
+- **[[Submissions/Inside Heel Hook]]** - Primary submission finish from ushiro ashi-garami with adjusted mechanics
+- **[[Positions/Back Control]]** - Common transition target when following opponent's continued inversion
+- **[[Positions/Ashi Garami/Honey Hole]]** - Alternative high-control position accessible from ushiro configuration
+- **[[Positions/Leg Entanglement]]** - Fundamental principle governing all ushiro ashi-garami control and submission options
+- **[[Positions/Ashi Garami/Cross Ashi-Garami]]** - Related entanglement with different mechanical properties for transition options
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Alternative standard configuration for comparison of finishing mechanics
 
 
 </section>

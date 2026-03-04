@@ -154,7 +154,7 @@ description: "How to defend against Tomoe Nage in BJJ. Recognition cues, defensi
 
 Defending Tomoe Nage requires early recognition of the sacrifice throw setup and immediate postural adjustments to deny the conditions the thrower needs. As the defender, your primary advantage is that Tomoe Nage requires the attacker to sacrifice their own base, meaning a failed throw leaves them in an inferior position on their back. The key defensive challenge is reading the timing correctly: if you react too late, the throw is already loaded and difficult to stop mid-flight. Effective defense begins in the grip fighting phase by denying the dominant collar and sleeve combination that powers the technique, continues through postural awareness to prevent your weight from being pulled forward over your toes, and concludes with specific counters that punish the sacrifice attempt. Understanding that Tomoe Nage exploits forward momentum means your defensive framework should center on hip positioning, weight distribution, and the ability to disengage or redirect when you sense the drop beginning.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending Tomoe Nage requires early recognition of the sacrifice throw setup and
 ### 1. Sprawl hips backward and widen base as opponent drops, denying foot placement on your hip
 
 - **When to use**: When you recognize the drop early, before their foot contacts your hip or abdomen
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You remain standing with opponent on their back. Immediately establish passing position by controlling their legs and beginning a guard pass sequence.
 - **Risk**: If you sprawl too late after foot is already placed, you may still be elevated. Late sprawl can also leave you off-balance if you lean too far forward.
 
 ### 2. Strip grips and circle laterally to avoid the throwing arc, stepping to the side rather than backward
 
 - **When to use**: When you feel the forward pulling tension increase but before the actual drop begins
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You maintain standing position with grip advantage. Opponent must recover from failed grip sequence and you can immediately re-engage or attack.
 - **Risk**: If grip break is incomplete, opponent may redirect the throw laterally. Circling into their power side can increase throw effectiveness.
 
 ### 3. Drive forward and flatten opponent before they can extend their leg, smashing through the throw attempt
 
 - **When to use**: When the drop has already begun but their leg is still bent and not yet extended, in the brief window between drop and elevation
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You end up in top position inside their open guard with their throw attempt neutralized. Begin immediate guard passing to capitalize on their compromised position.
 - **Risk**: If their foot is already loaded and you drive forward, you add momentum to their throw. Timing must be precise to catch the window before extension.
 
 ### 4. Post hands on their hips to frame and block foot placement while stepping backward to create distance
 
 - **When to use**: When the drop initiates but you cannot sprawl fast enough due to grip tension pulling you forward
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Your frames prevent the foot from reaching your hip, neutralizing the lever. Step back to break free and re-establish standing distance.
 - **Risk**: Posting both hands commits your arms forward and prevents you from maintaining your own grips. If they transition to butterfly guard, your posted arms are vulnerable.
 
@@ -226,11 +226,11 @@ Defending Tomoe Nage requires early recognition of the sacrifice throw setup and
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Deny the throw through early recognition and hip withdrawal. Strip the dominant collar grip before the attacker can commit to the drop. Sprawl hips backward when you sense the sacrifice beginning, keeping your weight behind your feet. Once the throw fails, maintain standing position and immediately pressure the downed opponent or disengage to reset grips on your terms.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 If you cannot prevent the throw entirely, redirect the arc by circling to one side rather than going straight overhead. Tuck your chin and protect your neck during the flight. Land in a controlled position and immediately establish frames and hip escapes to recover guard rather than being pinned. This outcome is salvageable because you maintain mobility and guard recovery options.
 

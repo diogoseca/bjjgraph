@@ -21,7 +21,7 @@ The technique works by controlling the opponent's wrist and tricep simultaneousl
 
 Mastery of the Arm Drag opens entire systematic approaches to grappling, as it serves as both an entry point for attacks and a fundamental movement pattern for creating angles. The technique chains naturally into back takes, single leg entries, front headlock sequences, and guard sweeps. In no-gi grappling, the arm drag is arguably the single most important upper body technique because it functions as the primary mechanism for creating the off-angle access that all back attacks require. Building a game around arm drags means building a game around angles, and angles are the currency of positional dominance in jiu-jitsu.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Mastery of the Arm Drag opens entire systematic approaches to grappling, as it s
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Front Headlock]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Front Headlock]] | 15% |
 
 
 </section>
@@ -197,23 +197,23 @@ The arm drag serves as a fundamental connector between numerous positions in the
 ## Related Techniques
 
 
-- [[Back Control]] - Primary destination - arm drag's most common finishing position
+- [[Positions/Back Control]] - Primary destination - arm drag's most common finishing position
 
-- [[Butterfly Guard]] - Starting position variant - arm drag from butterfly is a high-percentage guard attack
+- [[Positions/Butterfly Guard]] - Starting position variant - arm drag from butterfly is a high-percentage guard attack
 
-- [[Front Headlock]] - Alternative destination - can transition to front headlock if back take is blocked
+- [[Positions/Front Headlock]] - Alternative destination - can transition to front headlock if back take is blocked
 
-- [[Arm Drag to Back]] - Follow-up transition - specific back take sequence continuing from arm drag
+- [[Transitions/Arm Drag to Back]] - Follow-up transition - specific back take sequence continuing from arm drag
 
-- [[Arm Drag Sweep]] - Alternative application - sweep variation from bottom guard positions
+- [[Transitions/Arm Drag Sweep]] - Alternative application - sweep variation from bottom guard positions
 
-- [[Rear Naked Choke]] - Follow-up submission - primary finish once back control is secured
+- [[Transitions/Rear Naked Choke]] - Follow-up submission - primary finish once back control is secured
 
-- [[Standing Position]] - Starting position - most common origin for standing arm drag attempts
+- [[Positions/Standing Position]] - Starting position - most common origin for standing arm drag attempts
 
-- [[Clinch]] - Related position - arm drags frequently initiated from clinch engagements
+- [[Positions/Clinch]] - Related position - arm drags frequently initiated from clinch engagements
 
-- [[Arm Drag Escape]] - Counter transition - opponent's primary defensive response
+- [[Transitions/Arm Drag Escape]] - Counter transition - opponent's primary defensive response
 
 
 </section>

@@ -152,7 +152,7 @@ Your defensive methodology follows a layered approach. The first layer is preven
 
 The most effective defense combines constant forward pressure with active hook management. Never allow your hook to become passive or shallow. When you feel the bottom player loading weight onto their hands, immediately increase chest pressure and drive your hooking foot deeper across their thigh. If they begin rotating despite your control, follow their movement by circling in the same direction rather than resisting the rotation—this maintains your positional advantage through the transition and often results in improved back control as they expend energy on a failed escape attempt.
 
-**Opponent's Starting Position**: [[Crab Ride]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Crab Ride]] (Bottom)
 
 </section>
 
@@ -187,21 +187,21 @@ The most effective defense combines constant forward pressure with active hook m
 ### 1. Drive chest pressure forward and deepen hook insertion as soon as you feel weight shift onto their hands
 
 - **When to use**: At the earliest recognition cue, before rotation has begun, when you feel them loading weight forward onto their posted hands
-- **Targets**: [[Crab Ride]]
+- **Targets**: [[Positions/Crab Ride]]
 - **If successful**: Escape attempt is shut down at the preparation phase, opponent remains in crab ride bottom with your control intact and potentially improved
 - **Risk**: If you over-commit forward pressure and they reverse direction into a Granby roll, you may lose positional control momentarily
 
 ### 2. Follow their rotation by circling in the same direction, maintaining chest-to-back connection and transitioning your hook to the opposite hip as they turn
 
 - **When to use**: When the rotation has already begun and cannot be stopped by pressure alone, requiring you to move with their momentum
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You advance from crab ride to full back control by following their rotation and inserting hooks on the opposite side as they complete the turn
 - **Risk**: If your timing is off or they accelerate through the rotation faster than you can follow, they complete the escape to open guard
 
 ### 3. Secure seat belt grip with choking arm over their shoulder and clamp your elbows tight, preventing independent torso rotation through upper body connection
 
 - **When to use**: Proactively when you sense the opponent is building toward an escape attempt through increased movement or hand repositioning
-- **Targets**: [[Crab Ride]]
+- **Targets**: [[Positions/Crab Ride]]
 - **If successful**: Upper body connection prevents the rotation entirely, as their torso cannot rotate independently of your control, forcing them to abandon the sit through
 - **Risk**: Reaching for the seat belt momentarily loosens your base positioning and may create a window for a different escape direction like Granby roll
 
@@ -213,11 +213,11 @@ The most effective defense combines constant forward pressure with active hook m
 
 ## Best-Case Outcomes for Defender
 
-### → [[Crab Ride]]
+### → [[Positions/Crab Ride]]
 
 Shut down the escape attempt early by increasing forward chest pressure and deepening your hook the moment you feel their weight shift forward onto their hands. Keep your hooking foot actively driving across their thigh so there is no clearance for the leg swing. This preventive approach stops the escape before the rotation phase begins.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the rotation begins despite your initial defense, follow their movement by circling in the same direction with your chest glued to their back. As they rotate, use the momentum to insert your second hook on the far side and establish full seat belt control. Their energy expenditure on the failed escape creates a window to consolidate deeper back control than you had from crab ride.
 

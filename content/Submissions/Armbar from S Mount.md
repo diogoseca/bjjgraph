@@ -26,8 +26,8 @@ Defensively, the armbar from S Mount presents an extremely challenging scenario.
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint (hyperextension) and shoulder joint
-**Starting Position**: [[S Mount]]
-**From Position**: [[S Mount]] (Top)
+**Starting Position**: [[Positions/Mount/S Mount]]
+**From Position**: [[Positions/Mount/S Mount]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -77,9 +77,9 @@ Defensively, the armbar from S Mount presents an extremely challenging scenario.
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[S Mount]] | 20% |
-| Failure | [[Mount]] | 15% |
-| Counter | [[Closed Guard]] | 10% |
+| Failure | [[Positions/Mount/S Mount]] | 20% |
+| Failure | [[Positions/Mount]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -231,9 +231,9 @@ Defensively, the armbar from S Mount presents an extremely challenging scenario.
 
 ## From Which Positions?
 
-- [[S Mount]]
-- [[Mount]]
-- [[High Mount]]
+- [[Positions/Mount/S Mount]]
+- [[Positions/Mount]]
+- [[Positions/Mount/High Mount]]
 
 
 </section>
@@ -242,13 +242,13 @@ Defensively, the armbar from S Mount presents an extremely challenging scenario.
 
 ## Related Submissions
 
-- [[Armbar from Mount]]
-- [[Armbar from High Mount]]
-- [[Armbar from Technical Mount]]
-- [[Belly Down Armbar]]
-- [[Americana from Mount]]
-- [[Armbar from Side Control]]
-- [[Armbar from Back]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Armbar from High Mount]]
+- [[Submissions/Armbar from Technical Mount]]
+- [[Submissions/Belly Down Armbar]]
+- [[Submissions/Americana from Mount]]
+- [[Submissions/Armbar from Side Control]]
+- [[Submissions/Armbar from Back]]
 
 
 </section>
@@ -257,13 +257,13 @@ Defensively, the armbar from S Mount presents an extremely challenging scenario.
 
 ## Additional Related Content
 
-- [[S Mount]] - Source position providing optimal arm isolation and perpendicular control for armbar execution
-- [[Mount]] - Parent position from which S Mount is established before armbar attack
-- [[High Mount]] - Alternative attacking position that can transition through S Mount to armbar
-- [[Armbar Control]] - Control position achieved during armbar execution before finishing extension
-- [[Mounted Triangle]] - Alternative submission chain when armbar defense exposes the neck
-- [[Back Control]] - Alternative advancement when opponent turns away to defend armbar
-- [[Closed Guard]] - Position opponent may recover to if armbar attempt fails and space is created
+- [[Positions/Mount/S Mount]] - Source position providing optimal arm isolation and perpendicular control for armbar execution
+- [[Positions/Mount]] - Parent position from which S Mount is established before armbar attack
+- [[Positions/Mount/High Mount]] - Alternative attacking position that can transition through S Mount to armbar
+- [[Positions/Armbar Control]] - Control position achieved during armbar execution before finishing extension
+- [[Positions/Mount/Mounted Triangle]] - Alternative submission chain when armbar defense exposes the neck
+- [[Positions/Back Control]] - Alternative advancement when opponent turns away to defend armbar
+- [[Positions/Closed Guard]] - Position opponent may recover to if armbar attempt fails and space is created
 
 
 </section>

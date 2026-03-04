@@ -24,8 +24,8 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
-**Starting Position**: [[Scramble Position]]
-**From Position**: [[Scramble Position]] (Bottom)
+**Starting Position**: [[Positions/Scramble Position]]
+**From Position**: [[Positions/Scramble Position]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -81,8 +81,8 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Scramble Position]] | 25% |
-| Counter | [[Closed Guard]] | 20% |
+| Failure | [[Positions/Scramble Position]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -234,16 +234,16 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 
 ## From Which Positions?
 
-- [[Scramble Position]]
-- [[Closed Guard]]
-- [[Open Guard]]
-- [[De La Riva Guard]]
-- [[Reverse De La Riva Guard]]
-- [[Lasso Guard]]
-- [[Butterfly Guard]]
-- [[Half Guard]]
-- [[Inverted Guard]]
-- [[Collar Sleeve Guard]]
+- [[Positions/Scramble Position]]
+- [[Positions/Closed Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/De La Riva Guard]]
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
+- [[Positions/Lasso Guard]]
+- [[Positions/Butterfly Guard]]
+- [[Positions/Half Guard]]
+- [[Positions/Inverted Guard]]
+- [[Positions/Collar Sleeve Guard]]
 
 
 </section>
@@ -252,14 +252,14 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 
 ## Related Submissions
 
-- [[Omoplata from Spider Guard]]
-- [[Baratoplata]]
-- [[Gogoplata Finish]]
-- [[Armbar from Guard]]
-- [[Mounted Triangle Finish]]
-- [[Buggy Choke Finish]]
-- [[Gift Wrap Armbar]]
-- [[Kimura from Kimura Trap]]
+- [[Submissions/Omoplata from Spider Guard]]
+- [[Transitions/Baratoplata]]
+- [[Submissions/Gogoplata Finish]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Mounted Triangle Finish]]
+- [[Submissions/Buggy Choke Finish]]
+- [[Submissions/Gift Wrap Armbar]]
+- [[Submissions/Kimura from Kimura Trap]]
 
 
 </section>
@@ -268,16 +268,16 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 
 ## Additional Related Content
 
-- [[Omoplata Control]] - Control position achieved before finishing the rolling omoplata submission
-- [[Triangle Control]] - Alternative control position when omoplata is defended by grabbing belt or turning in
-- [[Back Control]] - Positional transition follow-up when opponent rolls through the omoplata
-- [[Reverse De La Riva Guard]] - Setup position providing excellent momentum for the rolling entry against pressure passers
-- [[Inverted Guard]] - Positional relationship where inverted positioning creates rolling omoplata opportunities
-- [[Closed Guard]] - Related guard with traditional omoplata entries that inform rolling variations
-- [[Scramble Position]] - Primary setup context where rolling omoplata capitalizes on scramble dynamics
-- [[Kimura Trap]] - Alternative attack using similar arm isolation principles with different finishing mechanics
-- [[Half Guard]] - Transitional position where half guard sweeps can load into rolling omoplata entries
-- [[Collar Sleeve Guard]] - Guard variation providing sleeve control that facilitates rolling omoplata arm isolation
+- [[Positions/Omoplata Control]] - Control position achieved before finishing the rolling omoplata submission
+- [[Positions/Triangle Control]] - Alternative control position when omoplata is defended by grabbing belt or turning in
+- [[Positions/Back Control]] - Positional transition follow-up when opponent rolls through the omoplata
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Setup position providing excellent momentum for the rolling entry against pressure passers
+- [[Positions/Inverted Guard]] - Positional relationship where inverted positioning creates rolling omoplata opportunities
+- [[Positions/Closed Guard]] - Related guard with traditional omoplata entries that inform rolling variations
+- [[Positions/Scramble Position]] - Primary setup context where rolling omoplata capitalizes on scramble dynamics
+- [[Positions/Kimura Trap]] - Alternative attack using similar arm isolation principles with different finishing mechanics
+- [[Positions/Half Guard]] - Transitional position where half guard sweeps can load into rolling omoplata entries
+- [[Positions/Collar Sleeve Guard]] - Guard variation providing sleeve control that facilitates rolling omoplata arm isolation
 
 
 </section>

@@ -154,7 +154,7 @@ description: "Prevent posture recovery against your triangle choke in BJJ. Maint
 
 As the triangle holder, your primary defensive objective against the posture recovery attempt is maintaining broken posture and preventing your opponent from recovering the vertical spinal alignment that enables escape. The posture-up is the most fundamental escape your opponent will attempt, and your ability to shut it down determines whether your triangle finishes or fails. Your defensive system relies on three interconnected mechanisms working simultaneously: active head control that resists the upward drive, hip extension that maintains choking pressure and leg compression, and angle preservation that ensures optimal choking geometry even as the opponent fights for posture. Understanding that the opponent's posture recovery is hip-driven rather than neck-driven is the critical insight that informs your defensive strategy, because you must address their hip movement and base positioning rather than simply pulling their head down. When the posture recovery does begin to succeed, recognizing the transition window to armbar on the trapped arm provides a secondary offensive pathway that maintains your submission threat throughout the exchange.
 
-**Opponent's Starting Position**: [[Triangle Escape Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Triangle Escape Position]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the triangle holder, your primary defensive objective against the posture rec
 ### 1. Pull head down aggressively with both hands behind the neck while extending hips and squeezing knees to maximize choking pressure
 
 - **When to use**: Immediately when you feel opponent establishing free hand on your hip or beginning any upward drive through knee walking
-- **Targets**: [[Triangle Escape Position]]
+- **Targets**: [[Positions/Triangle Escape Position]]
 - **If successful**: Opponent's posture recovery is defeated and they remain trapped in the triangle with choking pressure maintained or increased
 - **Risk**: If their posterior chain drive overpowers your pulling force, they may achieve partial posture while your grip energy is depleted
 
 ### 2. Hip-walk laterally to maintain perpendicular 30-45 degree choking angle as opponent attempts to square their shoulders
 
 - **When to use**: When you feel opponent rotating their torso or walking their knees laterally to square their shoulders to your hips
-- **Targets**: [[Triangle Escape Position]]
+- **Targets**: [[Positions/Triangle Escape Position]]
 - **If successful**: Optimal choking geometry is preserved despite their squaring effort, maintaining full submission threat and arterial compression
 - **Risk**: Hip movement under stacking pressure may momentarily loosen the triangle lock, creating a brief extraction window
 
 ### 3. Transition to armbar by isolating the trapped arm when posture recovery creates sufficient space that compromises triangle finishing probability
 
 - **When to use**: When opponent achieves significant posture that makes triangle finishing unlikely but their trapped arm remains accessible with elbow separating from ribs
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: Creates new armbar submission threat from their escape attempt, maintaining offensive pressure through a different attack pathway
 - **Risk**: Releasing the triangle removes the choking threat permanently; if the armbar transition fails, opponent may complete escape to half guard
 
 ### 4. Attack opponent's base by hip-bumping or using underhook to sweep when their weight shifts upward during posture attempt
 
 - **When to use**: When opponent's center of gravity rises above their base during the upward drive phase, compromising their lateral stability
-- **Targets**: [[Triangle Escape Position]]
+- **Targets**: [[Positions/Triangle Escape Position]]
 - **If successful**: Opponent is swept or destabilized, breaking their posture recovery momentum and resetting them back into broken posture within the triangle
 - **Risk**: If sweep attempt fails, the triangle may loosen during the sweep motion and opponent may exploit the momentary instability
 
@@ -225,11 +225,11 @@ As the triangle holder, your primary defensive objective against the posture rec
 
 ## Best-Case Outcomes for Defender
 
-### → [[Triangle Escape Position]]
+### → [[Positions/Triangle Escape Position]]
 
 Prevent posture recovery by maintaining constant head pull, hip extension, and angle preservation working together as an integrated system. Attack the opponent's base positioning by disrupting their knee-walking with hip bumps, and control their free hand placement on your hip by stripping or redirecting it. Force repeated posture recovery resets until opponent fatigues from the sustained effort of fighting against your combined defensive mechanisms.
 
-### → [[Armbar Control]]
+### → [[Positions/Armbar Control]]
 
 When opponent achieves partial posture that compromises triangle finishing probability, immediately transition to armbar by opening your legs, pivoting your hips to isolate the trapped arm, and swinging your leg across their face for control. The optimal transition moment occurs when their elbow separates from their ribs during the posture recovery extension. The armbar converts a failing triangle into a new submission threat that maintains your offensive initiative.
 

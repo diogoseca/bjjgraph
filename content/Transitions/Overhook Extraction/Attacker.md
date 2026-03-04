@@ -184,7 +184,7 @@ The technique operates on the principle that the overhook, while strong, has a s
 
 Strategically, overhook extraction should not be attempted in isolation. The sequence must address base and posture concerns simultaneously. Attempting extraction without stable base invites sweeps; attempting it without addressing posture allows the bottom player to transition to other attacks like triangles or omoplatas. When executed correctly within the proper sequence, overhook extraction serves as the gateway from defensive survival in New York to offensive guard passing opportunities.
 
-**From Position**: [[New York]] (Top)
+**From Position**: [[Positions/Rubber Guard/New York]] (Top)
 
 </section>
 
@@ -236,9 +236,9 @@ Strategically, overhook extraction should not be attempted in isolation. The seq
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 65% |
-| Failure | [[New York]] | 25% |
-| Counter | [[Triangle Control]] | 10% |
+| Success | [[Positions/Closed Guard]] | 65% |
+| Failure | [[Positions/Rubber Guard/New York]] | 25% |
+| Counter | [[Positions/Triangle Control]] | 10% |
 
 
 </section>
@@ -247,10 +247,10 @@ Strategically, overhook extraction should not be attempted in isolation. The seq
 
 ## Opponent Counters
 
-- **Opponent deepens overhook and tightens shoulder-to-armpit pressure when they feel extraction beginning** (Effectiveness: High) - Your Response: Pause the extraction and focus on grip-fighting their shin control instead. Once shin control is compromised, return to the extraction sequence. → Leads to [[New York]]
-- **Opponent shoots leg over your shoulder for triangle as your arm extracts** (Effectiveness: High) - Your Response: Drive posture up and stack immediately. The triangle attempt requires your head down - keeping posture defeats the counter and may create passing opportunities. → Leads to [[Triangle Control]]
-- **Opponent uses your extraction motion to generate hip bump sweep momentum** (Effectiveness: Medium) - Your Response: Maintain wide base throughout and keep weight centered over both knees. If sweep begins, post with free hand and drive weight toward the sweep direction to counter. → Leads to [[New York]]
-- **Opponent transitions to Invisible Collar or Zombie before extraction completes** (Effectiveness: Medium) - Your Response: Recognize early and shift to stack defense rather than continuing extraction. Address the new position before returning to overhook extraction attempts. → Leads to [[New York]]
+- **Opponent deepens overhook and tightens shoulder-to-armpit pressure when they feel extraction beginning** (Effectiveness: High) - Your Response: Pause the extraction and focus on grip-fighting their shin control instead. Once shin control is compromised, return to the extraction sequence. → Leads to [[Positions/Rubber Guard/New York]]
+- **Opponent shoots leg over your shoulder for triangle as your arm extracts** (Effectiveness: High) - Your Response: Drive posture up and stack immediately. The triangle attempt requires your head down - keeping posture defeats the counter and may create passing opportunities. → Leads to [[Positions/Triangle Control]]
+- **Opponent uses your extraction motion to generate hip bump sweep momentum** (Effectiveness: Medium) - Your Response: Maintain wide base throughout and keep weight centered over both knees. If sweep begins, post with free hand and drive weight toward the sweep direction to counter. → Leads to [[Positions/Rubber Guard/New York]]
+- **Opponent transitions to Invisible Collar or Zombie before extraction completes** (Effectiveness: Medium) - Your Response: Recognize early and shift to stack defense rather than continuing extraction. Address the new position before returning to overhook extraction attempts. → Leads to [[Positions/Rubber Guard/New York]]
 
 
 </section>

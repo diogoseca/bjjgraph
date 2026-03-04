@@ -21,7 +21,7 @@ This pass is most effective when the bottom player's hips begin to sag from fati
 
 Strategically, this pass works as a pressure-based counter to the high-energy inverted guard game. While many practitioners attempt to avoid engagement with inverted guards entirely, the pressure pass through center embraces direct confrontation, using superior weight distribution and timing to break through the guard structure. This approach is particularly valuable when you recognize that the bottom player is tiring or has overcommitted to an attack, creating the window for your forward drive.
 
-**From Position**: [[Grasshopper Guard]] (Top)
+**From Position**: [[Positions/Grasshopper Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this pass works as a pressure-based counter to the high-energy in
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Grasshopper Guard]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Grasshopper Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -185,23 +185,23 @@ The Pressure Pass through Center occupies a specific niche in the guard passing 
 ## Related Techniques
 
 
-- [[Grasshopper Guard]] - Starting position - opponent holds this guard
+- [[Positions/Grasshopper Guard]] - Starting position - opponent holds this guard
 
-- [[Side Control]] - Primary destination after successful pass
+- [[Positions/Side Control]] - Primary destination after successful pass
 
-- [[Closed Guard]] - Counter outcome position when opponent recovers guard during failed pass
+- [[Positions/Closed Guard]] - Counter outcome position when opponent recovers guard during failed pass
 
-- [[Back Step Pass]] - Alternative passing option when opponent's structure is strong
+- [[Transitions/Back Step Pass]] - Alternative passing option when opponent's structure is strong
 
-- [[Leg Drag Pass]] - Alternative pass that can combine with pressure pass
+- [[Transitions/Leg Drag Pass]] - Alternative pass that can combine with pressure pass
 
-- [[Knee Slice Pass]] - Finishing option when opponent's legs separate during pressure
+- [[Transitions/Knee Slice Pass]] - Finishing option when opponent's legs separate during pressure
 
-- [[Inverted Guard]] - Parent guard category that grasshopper belongs to
+- [[Positions/Inverted Guard]] - Parent guard category that grasshopper belongs to
 
-- [[Cartwheel Pass]] - Alternative dynamic passing option against inverted guards
+- [[Transitions/Cartwheel Pass]] - Alternative dynamic passing option against inverted guards
 
-- [[Bullfighter Pass]] - Alternative speed-based pass using leg control from standing
+- [[Transitions/Bullfighter Pass]] - Alternative speed-based pass using leg control from standing
 
 
 </section>

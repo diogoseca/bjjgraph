@@ -180,7 +180,7 @@ description: "Master the attacking mechanics of the Overhook Guard Sweep. Learn 
 
 The Overhook Guard Sweep is executed from closed guard bottom by leveraging a deep overhook to eliminate the opponent's ability to post on one side while simultaneously controlling their opposite arm. The attacker creates an angle with their hips toward the overhook side, then uses coordinated leg drive and pulling mechanics to roll the opponent over the trapped arm, following through directly to mount. The sweep's effectiveness comes from systematic removal of all posting options before initiating the sweep motion, making it reliable against larger and stronger opponents when properly set up. The technique rewards patience and methodical execution over explosive force, with each preparatory step dramatically increasing the probability of a clean sweep to mount.
 
-**From Position**: [[Overhook Guard]] (Bottom)
+**From Position**: [[Positions/Overhook Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ The Overhook Guard Sweep is executed from closed guard bottom by leveraging a de
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Overhook Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Overhook Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Overhook Guard Sweep is executed from closed guard bottom by leveraging a de
 
 ## Opponent Counters
 
-- **Opponent posts free hand wide to establish base before sweep initiates** (Effectiveness: High) - Your Response: Transition to triangle by shooting your overhook-side leg over their posting shoulder, as their arm extension creates the opening for the triangle entry → Leads to [[Overhook Guard]]
-- **Opponent drives weight forward aggressively to flatten you and prevent angle creation** (Effectiveness: Medium) - Your Response: Use their forward pressure to set up omoplata by redirecting their momentum with hip movement and threading your leg over their shoulder on the overhook side → Leads to [[Overhook Guard]]
-- **Opponent strips overhook by explosively circling their arm out and posturing up** (Effectiveness: High) - Your Response: Immediately transition to triangle or armbar as their arm extracts, using the pulling motion to shoot your hips up and attack the now-free arm before they re-establish posture → Leads to [[Half Guard]]
-- **Opponent sprawls hips back and widens base to resist the sweep direction** (Effectiveness: Medium) - Your Response: Switch to hip bump sweep as their weight shifts backward, or re-close guard and re-establish the overhook setup from the newly created space → Leads to [[Overhook Guard]]
+- **Opponent posts free hand wide to establish base before sweep initiates** (Effectiveness: High) - Your Response: Transition to triangle by shooting your overhook-side leg over their posting shoulder, as their arm extension creates the opening for the triangle entry → Leads to [[Positions/Overhook Guard]]
+- **Opponent drives weight forward aggressively to flatten you and prevent angle creation** (Effectiveness: Medium) - Your Response: Use their forward pressure to set up omoplata by redirecting their momentum with hip movement and threading your leg over their shoulder on the overhook side → Leads to [[Positions/Overhook Guard]]
+- **Opponent strips overhook by explosively circling their arm out and posturing up** (Effectiveness: High) - Your Response: Immediately transition to triangle or armbar as their arm extracts, using the pulling motion to shoot your hips up and attack the now-free arm before they re-establish posture → Leads to [[Positions/Half Guard]]
+- **Opponent sprawls hips back and widens base to resist the sweep direction** (Effectiveness: Medium) - Your Response: Switch to hip bump sweep as their weight shifts backward, or re-close guard and re-establish the overhook setup from the newly created space → Leads to [[Positions/Overhook Guard]]
 
 
 </section>

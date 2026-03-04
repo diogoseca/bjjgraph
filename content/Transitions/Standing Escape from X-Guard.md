@@ -21,7 +21,7 @@ The technique operates by addressing the three primary control points that const
 
 Strategically, this escape serves as the primary reset option when standard passing approaches are failing against a well-established X-Guard. Competition practitioners use it to deny the bottom player sweeping momentum and force re-engagement on neutral terms. Advanced players combine the standing escape with immediate passing re-entry, creating a disengage-and-attack rhythm that prevents the bottom player from re-establishing guard structure. The technique integrates with broader guard passing systems by providing an escape valve that avoids the high-risk passing attempts through an opponent's strongest guard configuration.
 
-**From Position**: [[X-Guard]] (Top)
+**From Position**: [[Positions/X-Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape serves as the primary reset option when standard pass
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[X-Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/X-Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ The Standing Escape from X-Guard functions as a critical safety valve within the
 ## Related Techniques
 
 
-- [[X-Guard]] - Source position — the guard configuration being escaped from
+- [[Positions/X-Guard]] - Source position — the guard configuration being escaped from
 
-- [[Standing Position]] - Target position on successful escape — neutral standing engagement
+- [[Positions/Standing Position]] - Target position on successful escape — neutral standing engagement
 
-- [[Half Guard]] - Counter outcome position when bottom player sweeps during escape attempt
+- [[Positions/Half Guard]] - Counter outcome position when bottom player sweeps during escape attempt
 
-- [[Single Leg X-Guard]] - Related guard the bottom player may transition to when X-Guard hooks become shallow during escape
+- [[Positions/X-Guard/Single Leg X-Guard]] - Related guard the bottom player may transition to when X-Guard hooks become shallow during escape
 
-- [[Butterfly Guard]] - Common fallback position for bottom player when X-Guard structure collapses
+- [[Positions/Butterfly Guard]] - Common fallback position for bottom player when X-Guard structure collapses
 
-- [[Knee Pin from X-Guard]] - Alternative escape technique using knee pressure to pin and disengage from X-Guard
+- [[Transitions/Knee Pin from X-Guard]] - Alternative escape technique using knee pressure to pin and disengage from X-Guard
 
-- [[Standing Escape from SLX]] - Analogous escape technique from Single Leg X requiring similar extraction principles
+- [[Transitions/Standing Escape from SLX]] - Analogous escape technique from Single Leg X requiring similar extraction principles
 
-- [[Half Guard to X-Guard]] - Reverse transition showing common pathway into X-Guard that this escape undoes
+- [[Transitions/Half Guard to X-Guard]] - Reverse transition showing common pathway into X-Guard that this escape undoes
 
-- [[Ankle Lock from X-Guard]] - Submission threat the bottom player may attempt during failed escape creating urgency to complete extraction
+- [[Submissions/Ankle Lock from X-Guard]] - Submission threat the bottom player may attempt during failed escape creating urgency to complete extraction
 
-- [[Combat Base]] - Intermediate base position that may be used during controlled extraction from X-Guard
+- [[Positions/Combat Base]] - Intermediate base position that may be used during controlled extraction from X-Guard
 
 
 </section>

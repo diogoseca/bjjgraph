@@ -21,7 +21,7 @@ The mechanical foundation of this transition involves releasing the deep overhoo
 
 This transition serves multiple strategic purposes within the rubber guard framework. It provides an escape route when Crackhead Control becomes untenable due to back exposure threats, offers a way to reset when submission attempts stall, and creates opportunities to attack from a different angle when the opponent has adapted to your Crackhead Control offense. Advanced practitioners flow between these positions fluidly, using the transition itself as a setup for submissions when opponents anticipate a simple positional change.
 
-**From Position**: [[Crackhead Control]] (Bottom)
+**From Position**: [[Positions/Crackhead Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This transition serves multiple strategic purposes within the rubber guard frame
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mission Control]] | 65% |
-| Failure | [[Crackhead Control]] | 20% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Rubber Guard/Mission Control]] | 65% |
+| Failure | [[Positions/Crackhead Control]] | 20% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -195,27 +195,27 @@ The Crackhead Control to Mission Control transition represents a critical pathwa
 ## Related Techniques
 
 
-- [[Crackhead Control]] - Starting position - the high-risk overhook guard you transition from
+- [[Positions/Crackhead Control]] - Starting position - the high-risk overhook guard you transition from
 
-- [[Mission Control]] - Target position - the stable rubber guard control you transition to
+- [[Positions/Rubber Guard/Mission Control]] - Target position - the stable rubber guard control you transition to
 
-- [[Rubber Guard]] - Parent system - both positions are core elements of this guard family
+- [[Positions/Rubber Guard]] - Parent system - both positions are core elements of this guard family
 
-- [[New York]] - Alternative target - similar transition mechanics with different angle
+- [[Positions/Rubber Guard/New York]] - Alternative target - similar transition mechanics with different angle
 
-- [[Carni]] - Alternative when opponent drives forward during transition
+- [[Positions/Rubber Guard/Carni]] - Alternative when opponent drives forward during transition
 
-- [[Closed Guard to Triangle]] - Direct attack option from Mission Control after transition
+- [[Transitions/Closed Guard to Triangle]] - Direct attack option from Mission Control after transition
 
-- [[Closed Guard to Omoplata]] - Follow-up attack chain from established Mission Control
+- [[Transitions/Closed Guard to Omoplata]] - Follow-up attack chain from established Mission Control
 
-- [[Gogoplata]] - Advanced submission available from Mission Control platform
+- [[Transitions/Gogoplata]] - Advanced submission available from Mission Control platform
 
-- [[Closed Guard]] - Fallback position if transition fails or back exposure danger peaks
+- [[Positions/Closed Guard]] - Fallback position if transition fails or back exposure danger peaks
 
-- [[Crackhead Control to Carni]] - Alternative transition when forward pressure favors Carni entry
+- [[Transitions/Crackhead Control to Carni]] - Alternative transition when forward pressure favors Carni entry
 
-- [[Crackhead Control to New York]] - Alternative transition when arm positioning favors New York
+- [[Transitions/Crackhead Control to New York]] - Alternative transition when arm positioning favors New York
 
 
 </section>

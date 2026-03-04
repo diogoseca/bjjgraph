@@ -21,7 +21,7 @@ From a strategic perspective, the Aoki Lock Finish serves as the terminal option
 
 The finishing mechanics involve driving your hips forward and down into the opponent's shoulder while keeping their arm extended and isolated between your legs. Unlike traditional shoulder locks that rely primarily on arm manipulation, the Aoki Lock uses your entire lower body as a unified control mechanism, making it extremely difficult to escape once properly secured. The position carries significant injury risk, requiring strict adherence to safety protocols including progressive pressure application and immediate release upon tap signals.
 
-**From Position**: [[Aoki Lock]] (Top)
+**From Position**: [[Positions/Aoki Lock]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -33,8 +33,8 @@ The finishing mechanics involve driving your hips forward and down into the oppo
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Aoki Lock]] | 25% |
-| Counter | [[Open Guard]] | 10% |
+| Failure | [[Positions/Aoki Lock]] | 25% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Aoki Lock Finish represents the terminal offensive option from Aoki Lock top
 ## Related Techniques
 
 
-- [[Aoki Lock]] - Starting position - must establish this control before attempting finish
+- [[Positions/Aoki Lock]] - Starting position - must establish this control before attempting finish
 
-- [[Omoplata Control]] - Related position with similar shoulder lock mechanics using leg-based control
+- [[Positions/Omoplata Control]] - Related position with similar shoulder lock mechanics using leg-based control
 
-- [[Kimura Trap]] - Related system - alternative shoulder lock control using figure-four grip
+- [[Positions/Kimura Trap]] - Related system - alternative shoulder lock control using figure-four grip
 
-- [[Back Control]] - Primary transition target when finish is defended and opponent rolls
+- [[Positions/Back Control]] - Primary transition target when finish is defended and opponent rolls
 
-- [[Truck]] - Alternative transition when opponent turns away during defense
+- [[Positions/Twister Control/Truck]] - Alternative transition when opponent turns away during defense
 
-- [[Crucifix]] - Transition target when opponent exposes far arm while defending
+- [[Positions/Crucifix]] - Transition target when opponent exposes far arm while defending
 
-- [[Aoki Lock to Back Control]] - Follow-up transition when direct finish fails but leg control remains
+- [[Transitions/Aoki Lock to Back Control]] - Follow-up transition when direct finish fails but leg control remains
 
-- [[Aoki Lock to Crucifix]] - Alternative attack chain when opponent's defense creates arm exposure
+- [[Transitions/Aoki Lock to Crucifix]] - Alternative attack chain when opponent's defense creates arm exposure
 
-- [[Open Guard]] - Counter outcome position when defender fully escapes leg entanglement
+- [[Positions/Open Guard]] - Counter outcome position when defender fully escapes leg entanglement
 
-- [[Omoplata]] - Related submission sharing similar shoulder rotation mechanics
+- [[Transitions/Omoplata]] - Related submission sharing similar shoulder rotation mechanics
 
 
 </section>

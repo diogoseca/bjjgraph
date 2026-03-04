@@ -180,7 +180,7 @@ description: "Learn to recover closed guard from Squid Guard as the bottom playe
 
 As the bottom player in Squid Guard, your guard configuration relies on a specific combination of lapel threading, leg positioning, and grip control that creates an asymmetric web of control over the opponent. When the top player strips the lapel grip, clears the threading leg, or otherwise dismantles the Squid Guard structure, the position deteriorates rapidly because its effectiveness depends on all components working together. Guard recovery requires a decisive transition from the complex Squid Guard configuration to the fundamental simplicity of closed guard. You must release your lapel threading, withdraw your legs from their advanced positioning, and close guard around the opponent's torso before they can capitalize on the momentary disorganization of your guard structure. The critical challenge is that Squid Guard positions your legs asymmetrically—one threading through and one framing—and both must be repositioned to standard closed guard configuration during the recovery window.
 
-**From Position**: [[Squid Guard]] (Bottom)
+**From Position**: [[Positions/Squid Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player in Squid Guard, your guard configuration relies on a specif
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Failure | [[Squid Guard]] | 35% |
-| Counter | [[Combat Base]] | 20% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Failure | [[Positions/Squid Guard]] | 35% |
+| Counter | [[Positions/Combat Base]] | 20% |
 
 
 </section>
@@ -243,9 +243,9 @@ As the bottom player in Squid Guard, your guard configuration relies on a specif
 
 ## Opponent Counters
 
-- **Opponent strips the lapel grip and immediately stands up to disengage from all leg contact before guard can close** (Effectiveness: High) - Your Response: If the opponent stands before you can withdraw your threading leg and close guard, transition to feet-on-hips open guard with collar and sleeve grips rather than attempting closed guard from the ground against a standing opponent. Use feet on hips to control distance and set up sweeps. → Leads to [[Combat Base]]
-- **Opponent drives heavy forward pressure after clearing the threading leg, collapsing your frames and pinning your hips flat** (Effectiveness: High) - Your Response: Use your shoulder frame to redirect their pressure past your centerline and hip escape in the opposite direction. If they establish heavy pressure, abandon closed guard recovery and work for half guard by trapping their near leg as a minimum defensive position. → Leads to [[Combat Base]]
-- **Opponent redirects your threading leg to one side and initiates a leg drag pass during the withdrawal** (Effectiveness: Medium) - Your Response: If your threading leg is dragged past the opponent's hip, turn to face the direction of the drag and fight to recover guard from the leg drag position. Pummel your leg back to center using hip rotation and knee-elbow connection rather than pulling against the drag with leg strength alone. → Leads to [[Squid Guard]]
+- **Opponent strips the lapel grip and immediately stands up to disengage from all leg contact before guard can close** (Effectiveness: High) - Your Response: If the opponent stands before you can withdraw your threading leg and close guard, transition to feet-on-hips open guard with collar and sleeve grips rather than attempting closed guard from the ground against a standing opponent. Use feet on hips to control distance and set up sweeps. → Leads to [[Positions/Combat Base]]
+- **Opponent drives heavy forward pressure after clearing the threading leg, collapsing your frames and pinning your hips flat** (Effectiveness: High) - Your Response: Use your shoulder frame to redirect their pressure past your centerline and hip escape in the opposite direction. If they establish heavy pressure, abandon closed guard recovery and work for half guard by trapping their near leg as a minimum defensive position. → Leads to [[Positions/Combat Base]]
+- **Opponent redirects your threading leg to one side and initiates a leg drag pass during the withdrawal** (Effectiveness: Medium) - Your Response: If your threading leg is dragged past the opponent's hip, turn to face the direction of the drag and fight to recover guard from the leg drag position. Pummel your leg back to center using hip rotation and knee-elbow connection rather than pulling against the drag with leg strength alone. → Leads to [[Positions/Squid Guard]]
 
 
 </section>

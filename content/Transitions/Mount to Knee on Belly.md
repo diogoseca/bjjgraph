@@ -21,7 +21,7 @@ The mechanical execution hinges on precise weight transfer through an intermedia
 
 Within the broader positional hierarchy, this transition enables a dynamic cycling strategy where the top practitioner flows between mount, knee on belly, and side control based on opponent reactions. This constant positional cycling prevents the development of effective defensive patterns and creates compounding fatigue that degrades escape quality over time. The transition also serves as a tactical reset when mount submission chains stall, providing fresh angles for attacks like the baseball bat choke, armbar, and cross collar choke from the KOB platform.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ Within the broader positional hierarchy, this transition enables a dynamic cycli
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Knee on Belly]] | 60% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Knee on Belly]] | 60% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Mount to Knee on Belly transition connects two of the most dominant top posi
 ## Related Techniques
 
 
-- [[Mount]] - Source position providing the dominant platform from which this transition initiates
+- [[Positions/Mount]] - Source position providing the dominant platform from which this transition initiates
 
-- [[Knee on Belly]] - Target position offering dynamic pressure control and enhanced submission mobility
+- [[Positions/Knee on Belly]] - Target position offering dynamic pressure control and enhanced submission mobility
 
-- [[Half Guard]] - Counter outcome position when bottom player catches the transitioning leg during weight shift
+- [[Positions/Half Guard]] - Counter outcome position when bottom player catches the transitioning leg during weight shift
 
-- [[Side Control]] - Alternative top control position connected through the KOB cycling system
+- [[Positions/Side Control]] - Alternative top control position connected through the KOB cycling system
 
-- [[KOB to Mount]] - Return transition completing the mount-KOB positional cycle
+- [[Transitions/KOB to Mount]] - Return transition completing the mount-KOB positional cycle
 
-- [[KOB to Side Control]] - Alternative transition from KOB when dropping back to consolidate control
+- [[Transitions/KOB to Side Control]] - Alternative transition from KOB when dropping back to consolidate control
 
-- [[Frame and Shrimp from Knee on Belly]] - Primary defensive escape the bottom player uses after KOB is established
+- [[Transitions/Frame and Shrimp from Knee on Belly]] - Primary defensive escape the bottom player uses after KOB is established
 
-- [[Armbar from Knee on Belly]] - High-percentage submission available from the target KOB position
+- [[Submissions/Armbar from Knee on Belly]] - High-percentage submission available from the target KOB position
 
-- [[Cross Collar Choke from KOB]] - Gi-based submission threat from the target KOB position
+- [[Submissions/Cross Collar Choke from KOB]] - Gi-based submission threat from the target KOB position
 
-- [[Consolidation to Knee on Belly]] - Alternative KOB entry from side control that shares similar mechanics
+- [[Transitions/Consolidation to Knee on Belly]] - Alternative KOB entry from side control that shares similar mechanics
 
 
 </section>

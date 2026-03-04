@@ -212,27 +212,27 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (33% of attempts)
+### [[Transitions/Rear Naked Choke]] (33% of attempts)
 
-### [[Armbar on Free Arm]] (9% of attempts)
+### [[Transitions/Armbar on Free Arm]] (9% of attempts)
 
-### [[Gift Wrap to Technical Mount]] (13% of attempts)
+### [[Transitions/Gift Wrap to Technical Mount]] (13% of attempts)
 
-### [[Short Choke Attack]] (7% of attempts)
+### [[Transitions/Short Choke Attack]] (7% of attempts)
 
-### [[Bow and Arrow Choke Setup]] (6% of attempts)
+### [[Transitions/Bow and Arrow Choke Setup]] (6% of attempts)
 
-### [[Body Triangle Lock]] (7% of attempts)
+### [[Transitions/Body Triangle Lock]] (7% of attempts)
 
-### [[Back Control to Crucifix]] (9% of attempts)
+### [[Transitions/Back Control to Crucifix]] (9% of attempts)
 
-### [[Kimura on Trapped Arm]] (9% of attempts)
+### [[Transitions/Kimura on Trapped Arm]] (9% of attempts)
 
-### [[Gift Wrap Maintenance]] (3% of attempts)
+### [[Transitions/Gift Wrap Maintenance]] (3% of attempts)
 
-### [[Gift Wrap Armbar]] (2% of attempts)
+### [[Submissions/Gift Wrap Armbar]] (2% of attempts)
 
-### [[Gift Wrap RNC]] (2% of attempts)
+### [[Submissions/Gift Wrap RNC]] (2% of attempts)
 
 
 
@@ -243,33 +243,33 @@ Understanding Gift Wrap Top requires recognizing it as part of a larger submissi
 ## Decision Making from This Position
 
 **If opponent is passive and defending neck with free arm only:**
-- Execute **[[Rear Naked Choke Attack]]** → [[Game Over]] (Probability: 60%)
-- Execute **[[Gift Wrap to Technical Mount]]** → [[Technical Mount]] (Probability: 30%)
-- Execute **[[Maintain control and set up body triangle]]** → [[Body Triangle]] (Probability: 55%)
+- Execute **[[Rear Naked Choke Attack]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Gift Wrap to Technical Mount]]** → [[Positions/Mount/Technical Mount]] (Probability: 30%)
+- Execute **[[Maintain control and set up body triangle]]** → [[Positions/Back Control/Body Triangle]] (Probability: 55%)
 
 
 **If opponent is actively trying to recover trapped arm with explosive movements:**
-- Execute **[[Rear Naked Choke as Arm Recovery Creates Opening]]** → [[Game Over]] (Probability: 65%)
-- Execute **[[Transition to Crucifix]]** → [[Crucifix]] (Probability: 50%)
-- Execute **[[Reinforce Gift Wrap and Reset Control]]** → [[Gift Wrap]] (Probability: 45%)
+- Execute **[[Rear Naked Choke as Arm Recovery Creates Opening]]** → [[Positions/Game Over]] (Probability: 65%)
+- Execute **[[Transition to Crucifix]]** → [[Positions/Crucifix]] (Probability: 50%)
+- Execute **[[Reinforce Gift Wrap and Reset Control]]** → [[Positions/Gift Wrap]] (Probability: 45%)
 
 
 **If opponent overextends free arm attempting to create frames or break grips:**
-- Execute **[[Armbar on Free Arm]]** → [[Armbar Control]] (Probability: 55%)
-- Execute **[[Gift Wrap to Technical Mount]]** → [[Technical Mount]] (Probability: 45%)
-- Execute **[[Maintain Gift Wrap and Attack Neck]]** → [[Game Over]] (Probability: 50%)
+- Execute **[[Transitions/Armbar on Free Arm]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Gift Wrap to Technical Mount]]** → [[Positions/Mount/Technical Mount]] (Probability: 45%)
+- Execute **[[Maintain Gift Wrap and Attack Neck]]** → [[Positions/Game Over]] (Probability: 50%)
 
 
 **If opponent attempts to turn into attacker or escape hips away:**
-- Execute **[[Follow to Technical Mount]]** → [[Technical Mount]] (Probability: 60%)
-- Execute **[[Transition to Crucifix]]** → [[Crucifix]] (Probability: 50%)
-- Execute **[[Maintain Gift Wrap and Follow Movement]]** → [[Gift Wrap]] (Probability: 55%)
+- Execute **[[Follow to Technical Mount]]** → [[Positions/Mount/Technical Mount]] (Probability: 60%)
+- Execute **[[Transition to Crucifix]]** → [[Positions/Crucifix]] (Probability: 50%)
+- Execute **[[Maintain Gift Wrap and Follow Movement]]** → [[Positions/Gift Wrap]] (Probability: 55%)
 
 
 **If opponent rolls to belly exposing back of head and neck:**
-- Execute **[[Short Choke or Rear Naked Choke]]** → [[Game Over]] (Probability: 70%)
-- Execute **[[Transition to Crucifix with Arm Trap]]** → [[Crucifix]] (Probability: 60%)
-- Execute **[[Bow and Arrow Choke Setup]]** → [[Game Over]] (Probability: 50%)
+- Execute **[[Short Choke or Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Transition to Crucifix with Arm Trap]]** → [[Positions/Crucifix]] (Probability: 60%)
+- Execute **[[Transitions/Bow and Arrow Choke Setup]]** → [[Positions/Game Over]] (Probability: 50%)
 
 
 
@@ -414,14 +414,14 @@ Start from standard back control and race to establish Gift Wrap before partner 
 
 ## Related Positions and Techniques
 
-- **[[Back Control]]** - Parent position - Gift Wrap is refinement of standard back control
-- **[[Seat Belt Control Back]]** - Entry position - Gift Wrap evolves from seat belt grip
-- **[[Crucifix]]** - Natural advancement when opponent attempts belly-down escape
-- **[[Technical Mount]]** - Positional progression maintaining arm trap advantage
-- **[[Rear Naked Choke]]** - Primary submission attack from Gift Wrap position
-- **[[Armbar from Back]]** - Secondary submission targeting the free arm
-- **[[Body Triangle]]** - Leg control option that combines with Gift Wrap arm control
-- **[[Twister Control]]** - Alternative back control system with related arm trapping concepts
+- **[[Positions/Back Control]]** - Parent position - Gift Wrap is refinement of standard back control
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Entry position - Gift Wrap evolves from seat belt grip
+- **[[Positions/Crucifix]]** - Natural advancement when opponent attempts belly-down escape
+- **[[Positions/Mount/Technical Mount]]** - Positional progression maintaining arm trap advantage
+- **[[Transitions/Rear Naked Choke]]** - Primary submission attack from Gift Wrap position
+- **[[Submissions/Armbar from Back]]** - Secondary submission targeting the free arm
+- **[[Positions/Back Control/Body Triangle]]** - Leg control option that combines with Gift Wrap arm control
+- **[[Positions/Twister Control]]** - Alternative back control system with related arm trapping concepts
 
 
 </section>

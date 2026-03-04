@@ -156,7 +156,7 @@ description: "Defend the Triangle Choke from Spider Guard. Recognition cues, esc
 
 Defending the Triangle from Spider Guard Bottom demands early recognition and proactive response before the bottom player completes arm isolation. The danger begins not when the leg comes over the shoulder, but when one arm is pulled across the centerline. Prevention is far more effective than escape once the triangle is locked. Key defensive strategies include maintaining strong posture, fighting grip battles aggressively, and recognizing the asymmetric push-pull patterns that precede every triangle attempt from this position. When caught in the triangle, stacking and posture recovery become the primary survival tools, and the defender must balance escape efforts against the risk of exposing secondary submissions such as the omoplata or armbar during the escape sequence.
 
-**Opponent's Starting Position**: [[Spider Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Spider Guard]] (Bottom)
 
 
 </section>
@@ -194,28 +194,28 @@ Defending the Triangle from Spider Guard Bottom demands early recognition and pr
 ### 1. Posture up and retract the arm being pulled across the centerline before the leg comes over
 
 - **When to use**: At the earliest recognition of arm isolation - when you feel one sleeve being pulled across while the opposite foot pushes your other arm away
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: Returns to neutral spider guard engagement with both arms retracted and posture restored
 - **Risk**: If the pull is too advanced, posturing may expose your neck to the incoming leg rather than preventing the triangle
 
 ### 2. Strip the cross-grip with a two-on-one break before the arm isolation is completed
 
 - **When to use**: When you recognize the cross-pull pattern early and still have your free arm available to assist in the grip break
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Breaks the opponent's control structure and disrupts their spider guard, forcing them to re-establish grips
 - **Risk**: Committing both hands to the grip break temporarily removes your ability to post and defend sweeps
 
 ### 3. Stack through the locked triangle by driving weight forward while turning toward the trapped arm side
 
 - **When to use**: When the triangle is already locked and you cannot prevent the leg from coming over - your primary post-lock escape option
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Relieves choking pressure and creates opportunity to extract the head and pass to half guard top
 - **Risk**: If you pause during the stacking sequence, the opponent readjusts the angle and retightens the choke
 
 ### 4. Stand up with posture and attempt to lift and slam-free the triangle before the angle is cut
 
 - **When to use**: When caught in the triangle but the angle has not been cut and you still have strong base and posture
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Standing creates distance and gravitational advantage that makes it harder for the opponent to maintain tight triangle control
 - **Risk**: Standing with a locked triangle can actually tighten the choke if the opponent hangs their weight and achieves the angle while you elevate them
 
@@ -237,11 +237,11 @@ Defending the Triangle from Spider Guard Bottom demands early recognition and pr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Stack through the triangle attempt by driving your weight forward and turning toward the trapped arm side, then extract your head and consolidate half guard top position
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Posture up aggressively and strip the controlling sleeve grips with two-on-one breaks, forcing the opponent to abandon the triangle and re-establish open guard control
 

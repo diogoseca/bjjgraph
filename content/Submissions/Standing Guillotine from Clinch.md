@@ -26,8 +26,8 @@ In competition, the standing guillotine creates a compelling strategic dilemma. 
 **Category**: Choke
 **Type**: Guillotine Choke
 **Target Area**: Neck
-**Starting Position**: [[Clinch]]
-**From Position**: [[Clinch]] ()
+**Starting Position**: [[Positions/Clinch]]
+**From Position**: [[Positions/Clinch]] ()
 **Success Rate**: 40%
 
 </section>
@@ -78,9 +78,9 @@ In competition, the standing guillotine creates a compelling strategic dilemma. 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 40% |
-| Failure | [[Guillotine Control]] | 20% |
-| Failure | [[Clinch]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Guillotine Control]] | 20% |
+| Failure | [[Positions/Clinch]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -226,9 +226,9 @@ In competition, the standing guillotine creates a compelling strategic dilemma. 
 
 ## From Which Positions?
 
-- [[Clinch]]
-- [[Standing Position]]
-- [[Front Headlock]]
+- [[Positions/Clinch]]
+- [[Positions/Standing Position]]
+- [[Positions/Front Headlock]]
 
 
 </section>
@@ -237,12 +237,12 @@ In competition, the standing guillotine creates a compelling strategic dilemma. 
 
 ## Related Submissions
 
-- [[Guillotine from Butterfly Guard]]
-- [[Arm in Guillotine]]
-- [[Chin Strap Guillotine]]
-- [[Anaconda Choke]]
-- [[Arm Triangle]]
-- [[Brabo Choke]]
+- [[Submissions/Guillotine from Butterfly Guard]]
+- [[Submissions/Arm in Guillotine]]
+- [[Submissions/Chin Strap Guillotine]]
+- [[Transitions/Anaconda Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Brabo Choke]]
 
 
 </section>
@@ -251,14 +251,14 @@ In competition, the standing guillotine creates a compelling strategic dilemma. 
 
 ## Additional Related Content
 
-- [[Clinch]] - Primary starting position where the guillotine opportunity is created through clinch exchanges
-- [[Standing Position]] - General standing context from which clinch engagements and guillotine entries develop
-- [[Front Headlock]] - Alternative control position when guillotine grip cannot be secured; shares snap-down entries
-- [[Guillotine Control]] - Ground-based continuation if standing finish stalls; attacker pulls guard maintaining grip
-- [[Closed Guard]] - Common guard position after pulling guard to finish the guillotine on the ground
-- [[Body Lock]] - Clinch variation that can transition to guillotine when opponent drops head to fight body lock
-- [[Arm in Guillotine]] - Key submission variation trapping the arm inside the choke for added compression
-- [[Guillotine from Butterfly Guard]] - Ground-based guillotine finish sharing core grip mechanics with the standing version
+- [[Positions/Clinch]] - Primary starting position where the guillotine opportunity is created through clinch exchanges
+- [[Positions/Standing Position]] - General standing context from which clinch engagements and guillotine entries develop
+- [[Positions/Front Headlock]] - Alternative control position when guillotine grip cannot be secured; shares snap-down entries
+- [[Positions/Guillotine Control]] - Ground-based continuation if standing finish stalls; attacker pulls guard maintaining grip
+- [[Positions/Closed Guard]] - Common guard position after pulling guard to finish the guillotine on the ground
+- [[Positions/Body Lock]] - Clinch variation that can transition to guillotine when opponent drops head to fight body lock
+- [[Submissions/Arm in Guillotine]] - Key submission variation trapping the arm inside the choke for added compression
+- [[Submissions/Guillotine from Butterfly Guard]] - Ground-based guillotine finish sharing core grip mechanics with the standing version
 
 
 </section>

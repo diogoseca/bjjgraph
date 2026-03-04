@@ -17,7 +17,7 @@ description: "Learn Headquarters Pass in BJJ. Step-by-step execution from headqu
 
 The Headquarters Pass is a fundamental position and passing sequence that establishes dominant control over the half guard player before advancing to side control. This position, popularized by modern no-gi grapplers, creates a stable platform where the passer controls the opponent's legs while maintaining strong shoulder pressure and crossface control. The headquarters position neutralizes most half guard retention strategies by controlling the opponent's bottom leg and preventing them from creating frames or recovering full guard. From this controlling position, the passer can systematically break down the opponent's defenses and transition to side control with minimal risk of being swept or re-guarded. The headquarters pass is particularly effective because it allows the passer to pause, assess the opponent's defensive reactions, and choose from multiple finishing options based on how the opponent responds.
 
-**From Position**: [[Headquarters Position]] (Top)
+**From Position**: [[Positions/Headquarters Position]] (Top)
 **Success Rate**: 72%
 
 </section>
@@ -28,9 +28,9 @@ The Headquarters Pass is a fundamental position and passing sequence that establ
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 75% |
-| Failure | [[Headquarters Position]] | 15% |
-| Counter | [[Headquarters Position]] | 10% |
+| Success | [[Positions/Side Control]] | 75% |
+| Failure | [[Positions/Headquarters Position]] | 15% |
+| Counter | [[Positions/Headquarters Position]] | 10% |
 
 
 </section>
@@ -183,25 +183,25 @@ The headquarters pass is a fundamental component of modern half guard passing sy
 ## Related Techniques
 
 
-- [[Knee Slice Pass]] - Primary follow-up technique - knee slice is a common finishing option from headquarters
+- [[Transitions/Knee Slice Pass]] - Primary follow-up technique - knee slice is a common finishing option from headquarters
 
-- [[Long Step Pass]] - Alternative variation - used when standard headquarters mechanics are being defended
+- [[Transitions/Long Step Pass]] - Alternative variation - used when standard headquarters mechanics are being defended
 
-- [[Underhook Pass]] - Variation - underhook control can replace crossface in headquarters setup
+- [[Transitions/Underhook Pass]] - Variation - underhook control can replace crossface in headquarters setup
 
-- [[Half Guard Pass]] - Category - headquarters pass is a specific type within general half guard passing
+- [[Transitions/Half Guard Pass]] - Category - headquarters pass is a specific type within general half guard passing
 
-- [[Smash Pass]] - Related pressure pass - uses similar shoulder pressure and control concepts
+- [[Transitions/Smash Pass]] - Related pressure pass - uses similar shoulder pressure and control concepts
 
-- [[Knee Cut Pass]] - Follow-up option - can be used to finish from headquarters position
+- [[Transitions/Knee Cut Pass]] - Follow-up option - can be used to finish from headquarters position
 
-- [[Re-Guard from Headquarters]] - Counter technique - what the bottom player attempts to prevent this pass
+- [[Transitions/Re-Guard from Headquarters]] - Counter technique - what the bottom player attempts to prevent this pass
 
-- [[Pressure Pass]] - Related concept - shares pressure-based passing philosophy
+- [[Transitions/Pressure Pass]] - Related concept - shares pressure-based passing philosophy
 
-- [[Kimura from Half Guard]] - Submission threat - can be used to set up headquarters position or finish from it
+- [[Transitions/Kimura from Half Guard]] - Submission threat - can be used to set up headquarters position or finish from it
 
-- [[Knee Shield Retention]] - Counter concept - what this pass aims to neutralize
+- [[Transitions/Knee Shield Retention]] - Counter concept - what this pass aims to neutralize
 
 
 </section>

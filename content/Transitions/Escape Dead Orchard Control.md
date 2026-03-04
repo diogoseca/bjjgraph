@@ -21,7 +21,7 @@ The escape centers on a frame-first approach where the bottom player establishes
 
 Strategically, this escape represents the critical survival skill for anyone training with partners who use front headlock choke systems. The technique teaches fundamental principles applicable across all compressed defensive positions: calm breathing under restriction, frame-based space creation, and incremental positional improvement over explosive movement. Success requires reading the opponent's weight distribution to identify momentary windows where escape movements can succeed against reduced resistance.
 
-**From Position**: [[Dead Orchard Control]] (Bottom)
+**From Position**: [[Positions/Dead Orchard Control]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,11 +32,11 @@ Strategically, this escape represents the critical survival skill for anyone tra
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 30% |
-| Success | [[Half Guard]] | 10% |
-| Failure | [[Dead Orchard Control]] | 35% |
-| Counter | [[Back Control]] | 15% |
-| Counter | [[Game Over]] | 10% |
+| Success | [[Positions/Front Headlock]] | 30% |
+| Success | [[Positions/Half Guard]] | 10% |
+| Failure | [[Positions/Dead Orchard Control]] | 35% |
+| Counter | [[Positions/Back Control]] | 15% |
+| Counter | [[Positions/Game Over]] | 10% |
 
 
 </section>
@@ -198,27 +198,27 @@ The Escape Dead Orchard Control occupies a critical defensive node in the front 
 ## Related Techniques
 
 
-- [[Dead Orchard Control]] - Source position - the control state this escape addresses
+- [[Positions/Dead Orchard Control]] - Source position - the control state this escape addresses
 
-- [[Front Headlock]] - Primary escape target - reduced threat state after successful escape
+- [[Positions/Front Headlock]] - Primary escape target - reduced threat state after successful escape
 
-- [[Anaconda Control]] - Parent control family - dead orchard is an advanced anaconda variation
+- [[Positions/Anaconda Control]] - Parent control family - dead orchard is an advanced anaconda variation
 
-- [[Anaconda Grip Break to Front Headlock]] - Related escape - similar grip-breaking mechanics from standard anaconda
+- [[Transitions/Anaconda Grip Break to Front Headlock]] - Related escape - similar grip-breaking mechanics from standard anaconda
 
-- [[Dead Orchard to Anaconda Finish]] - Primary threat - submission the escape must prevent
+- [[Transitions/Dead Orchard to Anaconda Finish]] - Primary threat - submission the escape must prevent
 
-- [[Dead Orchard to Darce Switch]] - Secondary threat - alternative submission during escape attempts
+- [[Transitions/Dead Orchard to Darce Switch]] - Secondary threat - alternative submission during escape attempts
 
-- [[Darce Control]] - Related control position - similar defensive challenges apply
+- [[Positions/Darce Control]] - Related control position - similar defensive challenges apply
 
-- [[Arm Extraction]] - Key sub-technique - trapped arm extraction is central to the escape
+- [[Transitions/Arm Extraction]] - Key sub-technique - trapped arm extraction is central to the escape
 
-- [[Turtle]] - Common preceding position - dead orchard often established from turtle
+- [[Positions/Turtle]] - Common preceding position - dead orchard often established from turtle
 
-- [[Half Guard]] - Best-case escape destination - full guard recovery target
+- [[Positions/Half Guard]] - Best-case escape destination - full guard recovery target
 
-- [[Back Control]] - Counter position - risk of giving up back during escape attempts
+- [[Positions/Back Control]] - Counter position - risk of giving up back during escape attempts
 
 
 </section>

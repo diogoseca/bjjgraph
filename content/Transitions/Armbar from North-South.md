@@ -21,7 +21,7 @@ Strategically, this armbar setup serves as a primary offensive option when the o
 
 The mechanical foundation relies on pivoting your body perpendicular to the opponent's arm while maintaining control of their wrist and elbow. Your legs create the fulcrum for the hyperextension by clamping across their chest and shoulder line. Success depends on controlling the arm throughout the transition—any slack allows defensive hitchhiker escapes or guard recovery attempts.
 
-**From Position**: [[North-South]] (Top)
+**From Position**: [[Positions/North-South]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The mechanical foundation relies on pivoting your body perpendicular to the oppo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 58% |
-| Failure | [[North-South]] | 30% |
-| Counter | [[Half Guard]] | 12% |
+| Success | [[Positions/Armbar Control]] | 58% |
+| Failure | [[Positions/North-South]] | 30% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>
@@ -189,27 +189,27 @@ The Armbar from North-South is a cornerstone attack within the North-South contr
 ## Related Techniques
 
 
-- [[North-South]] - Starting position for this transition
+- [[Positions/North-South]] - Starting position for this transition
 
-- [[Armbar Control]] - Primary success outcome position
+- [[Positions/Armbar Control]] - Primary success outcome position
 
-- [[Armbar Finish]] - Follow-up finish transition from Armbar Control
+- [[Transitions/Armbar Finish]] - Follow-up finish transition from Armbar Control
 
-- [[North-South to Kimura]] - Complementary attack creating offensive dilemma
+- [[Transitions/North-South to Kimura]] - Complementary attack creating offensive dilemma
 
-- [[North-South Choke]] - Alternative submission from same starting position
+- [[Transitions/North-South Choke]] - Alternative submission from same starting position
 
-- [[Armbar from Mount]] - Related armbar entry with similar finishing mechanics
+- [[Submissions/Armbar from Mount]] - Related armbar entry with similar finishing mechanics
 
-- [[Armbar from Side Control]] - Alternative entry to same submission control
+- [[Submissions/Armbar from Side Control]] - Alternative entry to same submission control
 
-- [[Back Take from Top]] - Transition option when armbar rotation is defended
+- [[Transitions/Back Take from Top]] - Transition option when armbar rotation is defended
 
-- [[Half Guard]] - Common counter position if rotation fails
+- [[Positions/Half Guard]] - Common counter position if rotation fails
 
-- [[Belly Down Armbar]] - Variant finish against hitchhiker defense
+- [[Submissions/Belly Down Armbar]] - Variant finish against hitchhiker defense
 
-- [[Hitchhiker Escape]] - Primary defensive escape the attacker must counter
+- [[Transitions/Hitchhiker Escape]] - Primary defensive escape the attacker must counter
 
 
 </section>

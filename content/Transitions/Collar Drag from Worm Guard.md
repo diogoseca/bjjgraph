@@ -21,7 +21,7 @@ Strategically, the collar drag from worm guard serves as a critical tool for pla
 
 The collar drag also functions as an excellent chain attack within the worm guard system. When opponents successfully defend sweep attempts, they often shift their weight backward and establish a wider base. This defensive posture actually makes them more vulnerable to the collar drag, since their weight is already elevated and their forward resistance is reduced. Understanding when to switch from sweep attempts to the collar drag separates intermediate worm guard players from advanced practitioners who can threaten on multiple planes.
 
-**From Position**: [[Worm Guard]] (Bottom)
+**From Position**: [[Positions/Worm Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The collar drag also functions as an excellent chain attack within the worm guar
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 55% |
-| Failure | [[Worm Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Front Headlock]] | 55% |
+| Failure | [[Positions/Worm Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The collar drag from worm guard integrates into the broader worm guard attack sy
 ## Related Techniques
 
 
-- [[Worm Guard]] - Starting position providing the lapel control framework for the collar drag
+- [[Positions/Worm Guard]] - Starting position providing the lapel control framework for the collar drag
 
-- [[Front Headlock]] - Primary target position achieved on successful collar drag execution
+- [[Positions/Front Headlock]] - Primary target position achieved on successful collar drag execution
 
-- [[Open Guard]] - Fallback position if worm guard is stripped during failed collar drag attempt
+- [[Positions/Open Guard]] - Fallback position if worm guard is stripped during failed collar drag attempt
 
-- [[Collar Drag from Open Guard]] - Related technique using similar collar drag mechanics from standard open guard
+- [[Transitions/Collar Drag from Open Guard]] - Related technique using similar collar drag mechanics from standard open guard
 
-- [[Lapel Guard]] - Parent guard category that worm guard belongs to
+- [[Positions/Lapel Guard]] - Parent guard category that worm guard belongs to
 
-- [[Guillotine Setup]] - Primary follow-up attack available from front headlock after successful drag
+- [[Transitions/Guillotine Setup]] - Primary follow-up attack available from front headlock after successful drag
 
-- [[Anaconda Setup]] - Follow-up submission setup available from front headlock position
+- [[Transitions/Anaconda Setup]] - Follow-up submission setup available from front headlock position
 
-- [[Arm Drag]] - Alternative drag technique that can be chained when collar drag is defended
+- [[Transitions/Arm Drag]] - Alternative drag technique that can be chained when collar drag is defended
 
-- [[Back Control]] - High-value position accessible through front headlock after collar drag
+- [[Positions/Back Control]] - High-value position accessible through front headlock after collar drag
 
-- [[De La Riva Guard]] - Related guard system that can transition to worm guard for collar drag setup
+- [[Positions/De La Riva Guard]] - Related guard system that can transition to worm guard for collar drag setup
 
-- [[Backstep from Worm Guard]] - Opponent's common passing response that can be exploited during drag timing
+- [[Transitions/Backstep from Worm Guard]] - Opponent's common passing response that can be exploited during drag timing
 
 
 </section>

@@ -194,28 +194,28 @@ Defending the Baseball Bat Choke requires early recognition and immediate action
 ### 1. Strip the far collar grip before the second grip is established by using both hands to peel the thumb out of the collar and pushing the arm across your body
 
 - **When to use**: Immediately when you feel the attacker's hand feeding into your far collar - this is the highest-percentage defensive window
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Attacker loses the foundation of the choke and must re-establish grips, returning to neutral top control
 - **Risk**: Low risk - you are simply removing a grip while maintaining defensive posture
 
 ### 2. Bridge and turn into the attacker to face them while fighting the near collar grip, working to recover half guard or closed guard before the choke tightens
 
 - **When to use**: When both grips are established but the elbows have not yet begun the scissoring action - you have a narrow window to rotate
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover a guard position where the baseball bat grip configuration becomes ineffective due to angle change
 - **Risk**: Medium risk - turning incorrectly can tighten the choke if you rotate the wrong direction
 
 ### 3. Create a frame against the attacker's chest with your near forearm and explosively shrimp your hips away to generate enough space to insert a knee and recover guard
 
 - **When to use**: When attacker has grips but has not yet committed full chest weight onto your shoulder - there is still space to frame
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough distance that the collar grips lose tension and the attacker must either release grips or lose positional control
 - **Risk**: Medium risk - if the frame is insufficient, the attacker can collapse onto you and finish the choke
 
 ### 4. Tuck chin aggressively and raise the near shoulder to close off collar space while pulling the far collar grip shallow with both hands
 
 - **When to use**: When you cannot bridge or shrimp due to heavy pressure but need to buy time and weaken the grip
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: The chin tuck and shoulder elevation reduce the effective depth of the collar grips, potentially stalling the choke long enough to work other escapes
 - **Risk**: Low risk - this is a stalling defense that does not commit you to a direction, though it may not fully escape
 
@@ -238,11 +238,11 @@ Defending the Baseball Bat Choke requires early recognition and immediate action
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Strip the far collar grip early before the second grip is established, forcing the attacker to abandon the submission and reset to standard top control
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Bridge and turn into the attacker to recover guard while fighting grips, using the rotational movement to break the choke angle and insert a knee shield
 

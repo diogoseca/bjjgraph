@@ -26,8 +26,8 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Back Control]]
-**From Position**: [[Back Control]] (Top)
+**Starting Position**: [[Positions/Back Control]]
+**From Position**: [[Positions/Back Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -84,8 +84,8 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -234,11 +234,11 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 
 ## From Which Positions?
 
-- [[Back Control]]
-- [[Body Triangle]]
-- [[Seat Belt Control Back]]
-- [[Gift Wrap]]
-- [[Standing Back Control]]
+- [[Positions/Back Control]]
+- [[Positions/Back Control/Body Triangle]]
+- [[Positions/Back Control/Seat Belt Control Back]]
+- [[Positions/Gift Wrap]]
+- [[Positions/Back Control/Standing Back Control]]
 
 
 </section>
@@ -247,16 +247,16 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 
 ## Related Submissions
 
-- [[Triangle Choke]]
-- [[Rear Naked Choke]]
-- [[Armbar from Back with Legs]]
-- [[Triangle Choke Front]]
-- [[Gogoplata]]
-- [[Inverted Triangle]]
-- [[Choke from Crucifix]]
-- [[Armbar from Back]]
-- [[Bow and Arrow Choke]]
-- [[Triangle Choke Side]]
+- [[Transitions/Triangle Choke]]
+- [[Transitions/Rear Naked Choke]]
+- [[Submissions/Armbar from Back with Legs]]
+- [[Submissions/Triangle Choke Front]]
+- [[Transitions/Gogoplata]]
+- [[Transitions/Inverted Triangle]]
+- [[Transitions/Choke from Crucifix]]
+- [[Submissions/Armbar from Back]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Submissions/Triangle Choke Side]]
 
 
 </section>
@@ -265,16 +265,16 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 
 ## Additional Related Content
 
-- [[Back Control]] - Primary starting position for this submission
-- [[Triangle Choke]] - Base technique variation (front triangle) with similar finishing mechanics
-- [[Rear Naked Choke]] - Primary back attack that creates the setup for this triangle through defensive reactions
-- [[Armbar from Back with Legs]] - Alternative submission in the chain when triangle is defended or arm escapes
-- [[Body Triangle]] - Optimal back control variation for setting up this triangle due to stable base
-- [[Gift Wrap]] - Alternative back control position that creates excellent triangle setup
-- [[Seat Belt Control Back]] - Standard back control grip used during the initial phase of this technique
-- [[Mounted Triangle]] - Related triangle variation from mount position with similar finishing mechanics
-- [[Crucifix]] - Alternative back control position for arm isolation and finishing attacks
-- [[Armbar from Back]] - Chain submission option when opponent defends the triangle
+- [[Positions/Back Control]] - Primary starting position for this submission
+- [[Transitions/Triangle Choke]] - Base technique variation (front triangle) with similar finishing mechanics
+- [[Transitions/Rear Naked Choke]] - Primary back attack that creates the setup for this triangle through defensive reactions
+- [[Submissions/Armbar from Back with Legs]] - Alternative submission in the chain when triangle is defended or arm escapes
+- [[Positions/Back Control/Body Triangle]] - Optimal back control variation for setting up this triangle due to stable base
+- [[Positions/Gift Wrap]] - Alternative back control position that creates excellent triangle setup
+- [[Positions/Back Control/Seat Belt Control Back]] - Standard back control grip used during the initial phase of this technique
+- [[Positions/Mount/Mounted Triangle]] - Related triangle variation from mount position with similar finishing mechanics
+- [[Positions/Crucifix]] - Alternative back control position for arm isolation and finishing attacks
+- [[Submissions/Armbar from Back]] - Chain submission option when opponent defends the triangle
 
 
 </section>

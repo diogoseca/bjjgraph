@@ -180,7 +180,7 @@ description: "How to execute Roll to Truck in BJJ. Attacking perspective with se
 
 The Roll to Truck from the attacker's perspective is a reactive transition that converts an opponent's granby escape attempt into dominant truck position. The technique requires sensitivity to your opponent's movement intentions—you are not forcing the roll but rather following their defensive momentum and redirecting it into a position that is worse for them than the buggy choke they were escaping. The attacker must maintain hip-to-hip connection throughout the rotation, preserve upper body grips, and prioritize boot control establishment immediately upon completing the roll. This transition bridges the front headlock and turtle attack systems with the 10th Planet truck and twister systems, expanding the attacker's offensive arsenal from collar-and-choke-based finishes to the full spectrum of truck-based submissions including twister, calf slicer, banana split, and back control entries.
 
-**From Position**: [[Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ The Roll to Truck from the attacker's perspective is a reactive transition that 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Truck]] | 55% |
-| Failure | [[Buggy Choke]] | 25% |
-| Counter | [[Turtle]] | 20% |
+| Success | [[Positions/Twister Control/Truck]] | 55% |
+| Failure | [[Positions/Buggy Choke]] | 25% |
+| Counter | [[Positions/Turtle]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ The Roll to Truck from the attacker's perspective is a reactive transition that 
 
 ## Opponent Counters
 
-- **Opponent stops rotation midway and returns to turtle defense before truck is established** (Effectiveness: High) - Your Response: Immediately return to buggy choke attack or transition to standard back take if grips are lost during the exchange → Leads to [[Buggy Choke]]
-- **Opponent posts with far arm during roll to prevent being flattened and rotated fully** (Effectiveness: Medium) - Your Response: Attack the posted arm for crucifix entry or use their posting motion to set up darce choke from the resulting angle → Leads to [[Truck]]
-- **Opponent accelerates rotation and completes full granby roll escaping both buggy choke and truck attempt** (Effectiveness: Medium) - Your Response: Follow their momentum and immediately re-engage with turtle top control or transition to crab ride position to maintain back exposure → Leads to [[Turtle]]
-- **Opponent clears hip connection before roll begins, creating space to escape underneath** (Effectiveness: High) - Your Response: Abandon the roll attempt and return to pressure passing or reset to turtle top attacks with fresh grip establishment → Leads to [[Buggy Choke]]
+- **Opponent stops rotation midway and returns to turtle defense before truck is established** (Effectiveness: High) - Your Response: Immediately return to buggy choke attack or transition to standard back take if grips are lost during the exchange → Leads to [[Positions/Buggy Choke]]
+- **Opponent posts with far arm during roll to prevent being flattened and rotated fully** (Effectiveness: Medium) - Your Response: Attack the posted arm for crucifix entry or use their posting motion to set up darce choke from the resulting angle → Leads to [[Positions/Twister Control/Truck]]
+- **Opponent accelerates rotation and completes full granby roll escaping both buggy choke and truck attempt** (Effectiveness: Medium) - Your Response: Follow their momentum and immediately re-engage with turtle top control or transition to crab ride position to maintain back exposure → Leads to [[Positions/Turtle]]
+- **Opponent clears hip connection before roll begins, creating space to escape underneath** (Effectiveness: High) - Your Response: Abandon the roll attempt and return to pressure passing or reset to turtle top attacks with fresh grip establishment → Leads to [[Positions/Buggy Choke]]
 
 
 </section>

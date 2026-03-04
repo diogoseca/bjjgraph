@@ -182,7 +182,7 @@ Restoring back control is the essential recovery skill that maintains the most d
 
 The restoration process follows a hierarchy: chest connection is the anchor, hooks are the frame, and grips are the tools. If chest connection is maintained, hooks can be re-inserted. If hooks remain, grips can be re-established. Understanding this hierarchy allows you to prioritize your recovery efforts and avoid wasting energy on lower-priority elements while higher-priority connections deteriorate.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The restoration process follows a hierarchy: chest connection is the anchor, hoo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -245,9 +245,9 @@ The restoration process follows a hierarchy: chest connection is the anchor, hoo
 
 ## Opponent Counters
 
-- **Opponent accelerates escape by explosively turning to face you before hooks are re-inserted** (Effectiveness: High) - Your Response: If they fully turn, transition to front headlock or guillotine control rather than fighting to maintain back position. You can also transition to crucifix if their far arm is exposed during the turn. → Leads to [[Turtle]]
-- **Opponent grabs your re-inserting foot and prevents hook from engaging** (Effectiveness: Medium) - Your Response: Attack with rear naked choke or collar choke using the distraction of their hands being occupied with your foot. Their grip fighting on the hook exposes their neck. Alternatively, switch to body triangle which requires only one leg to lock. → Leads to [[Back Control]]
-- **Opponent bridges explosively and creates space between your chest and their back** (Effectiveness: Medium) - Your Response: Use the space they create to slide your hips lower and re-attach hooks from a lower angle. Follow their bridge by dropping your weight and maintaining connection through your arms until you can re-establish chest contact. → Leads to [[Half Guard]]
+- **Opponent accelerates escape by explosively turning to face you before hooks are re-inserted** (Effectiveness: High) - Your Response: If they fully turn, transition to front headlock or guillotine control rather than fighting to maintain back position. You can also transition to crucifix if their far arm is exposed during the turn. → Leads to [[Positions/Turtle]]
+- **Opponent grabs your re-inserting foot and prevents hook from engaging** (Effectiveness: Medium) - Your Response: Attack with rear naked choke or collar choke using the distraction of their hands being occupied with your foot. Their grip fighting on the hook exposes their neck. Alternatively, switch to body triangle which requires only one leg to lock. → Leads to [[Positions/Back Control]]
+- **Opponent bridges explosively and creates space between your chest and their back** (Effectiveness: Medium) - Your Response: Use the space they create to slide your hips lower and re-attach hooks from a lower angle. Follow their bridge by dropping your weight and maintaining connection through your arms until you can re-establish chest contact. → Leads to [[Positions/Half Guard]]
 
 
 </section>

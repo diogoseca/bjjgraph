@@ -207,21 +207,21 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 ## Available Escapes
 
-### [[Hip Escape to Guard]] (39% of attempts)
+### [[Transitions/Hip Escape to Guard]] (39% of attempts)
 
-### [[Granby Roll to Guard]] (21% of attempts)
+### [[Transitions/Granby Roll to Guard]] (21% of attempts)
 
-### [[Turtle to Standing]] (13% of attempts)
+### [[Transitions/Turtle to Standing]] (13% of attempts)
 
-### [[Peterson Roll]] (8% of attempts)
+### [[Transitions/Peterson Roll]] (8% of attempts)
 
-### [[Sit Through Escape]] (10% of attempts)
+### [[Transitions/Sit Through Escape]] (10% of attempts)
 
-### [[Rolling Back Take]] (3% of attempts)
+### [[Transitions/Rolling Back Take]] (3% of attempts)
 
-### [[Crab Ride Escape to Guard]] (4% of attempts)
+### [[Transitions/Crab Ride Escape to Guard]] (4% of attempts)
 
-### [[Escape from Crab Ride]] (2% of attempts)
+### [[Transitions/Escape from Crab Ride]] (2% of attempts)
 
 
 
@@ -232,23 +232,23 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 ## Decision Making from This Position
 
 **If opponent has only one hook and is trying to insert second hook:**
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Shrimp to Butterfly Guard]]** → [[Butterfly Guard]] (Probability: 35%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Shrimp to Butterfly Guard]]** → [[Positions/Butterfly Guard]] (Probability: 35%)
 
 
 **If opponent has strong upper body control and is breaking you down:**
-- Execute **[[Granby Roll to Guard]]** → [[Closed Guard]] (Probability: 40%)
-- Execute **[[Rolling Escape to Guard]]** → [[Closed Guard]] (Probability: 30%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Rolling Escape to Guard]]** → [[Positions/Closed Guard]] (Probability: 30%)
 
 
 **If opponent is high on your back with loose hook control:**
-- Execute **[[Turtle to Standing]]** → [[Standing Position]] (Probability: 50%)
-- Execute **[[Rolling Back Take]]** → [[Back Control]] (Probability: 25%)
+- Execute **[[Transitions/Turtle to Standing]]** → [[Positions/Standing Position]] (Probability: 50%)
+- Execute **[[Transitions/Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 25%)
 
 
 **If opponent commits weight to one side for truck entry:**
-- Execute **[[Turtle to Guard]]** → [[Half Guard]] (Probability: 45%)
-- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 35%)
+- Execute **[[Transitions/Turtle to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
 
 
 
@@ -382,14 +382,14 @@ Bottom player flows through all escape options (hip escape, granby, stand up, si
 
 ## Related Positions and Techniques
 
-- **[[Crab Ride]]** - Hub page for this position
-- **[[Turtle]]** - Common entry position - where crab ride is often established from
-- **[[Back Control]]** - Primary threat position - what opponent is working toward
-- **[[Truck]]** - Alternative control position - similar defensive challenges
-- **[[Granby Roll to Guard]]** - Primary escape technique - most common technical solution
-- **[[Hip Escape to Guard]]** - Fundamental escape - basic defensive movement to recover guard
-- **[[Rolling Back Take]]** - Counter-attack option - offensive opportunity from defensive position
-- **[[Crab Ride Escape to Guard]]** - Direct escape transition from this position to guard recovery
+- **[[Positions/Crab Ride]]** - Hub page for this position
+- **[[Positions/Turtle]]** - Common entry position - where crab ride is often established from
+- **[[Positions/Back Control]]** - Primary threat position - what opponent is working toward
+- **[[Positions/Twister Control/Truck]]** - Alternative control position - similar defensive challenges
+- **[[Transitions/Granby Roll to Guard]]** - Primary escape technique - most common technical solution
+- **[[Transitions/Hip Escape to Guard]]** - Fundamental escape - basic defensive movement to recover guard
+- **[[Transitions/Rolling Back Take]]** - Counter-attack option - offensive opportunity from defensive position
+- **[[Transitions/Crab Ride Escape to Guard]]** - Direct escape transition from this position to guard recovery
 
 
 </section>

@@ -21,7 +21,7 @@ The transition capitalizes on the opponent's inability to effectively defend the
 
 What makes this technique particularly dangerous is the three-way dilemma it creates: pulling the arm back exposes front headlock entries, turning in accelerates the back take, and sprawling opens duck-under pathways. No single defensive response neutralizes all threats, which is why the two-on-one remains a cornerstone of competitive no-gi grappling at every level.
 
-**From Position**: [[Clinch]] (Top)
+**From Position**: [[Positions/Clinch]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ What makes this technique particularly dangerous is the three-way dilemma it cre
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Clinch]] | 30% |
-| Counter | [[Clinch]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Clinch]] | 30% |
+| Counter | [[Positions/Clinch]] | 15% |
 
 
 </section>
@@ -193,29 +193,29 @@ The two-on-one to back take serves as a critical bridge position in the standing
 ## Related Techniques
 
 
-- [[Back Control]] - Primary ending position after successful back take
+- [[Positions/Back Control]] - Primary ending position after successful back take
 
-- [[Seat Belt Control Back]] - Specific back control grip configuration established upon completion
+- [[Positions/Back Control/Seat Belt Control Back]] - Specific back control grip configuration established upon completion
 
-- [[Clinch]] - Primary starting position for this transition
+- [[Positions/Clinch]] - Primary starting position for this transition
 
-- [[Arm Drag to Back]] - Alternative back access method from similar standing control
+- [[Transitions/Arm Drag to Back]] - Alternative back access method from similar standing control
 
-- [[Front Headlock]] - Alternative transition target if back take is denied
+- [[Positions/Front Headlock]] - Alternative transition target if back take is denied
 
-- [[Duck Under]] - Related pathway technique for accessing opponent's back from clinch
+- [[Transitions/Duck Under]] - Related pathway technique for accessing opponent's back from clinch
 
-- [[Overhook Control]] - Complementary clinch control position that can set up two-on-one
+- [[Positions/Overhook Control]] - Complementary clinch control position that can set up two-on-one
 
-- [[Collar Drag]] - Initial clinch technique that can create two-on-one opportunities
+- [[Transitions/Collar Drag]] - Initial clinch technique that can create two-on-one opportunities
 
-- [[Rear Naked Choke]] - Primary submission threat from resulting back control position
+- [[Transitions/Rear Naked Choke]] - Primary submission threat from resulting back control position
 
-- [[Body Lock]] - Alternative control option if opponent turns in during back take attempt
+- [[Positions/Body Lock]] - Alternative control option if opponent turns in during back take attempt
 
-- [[Snap Down to Front Headlock]] - Chain attack when back take is denied from clinch
+- [[Transitions/Snap Down to Front Headlock]] - Chain attack when back take is denied from clinch
 
-- [[Back Take]] - Generic back take transition sharing core principles
+- [[Transitions/Back Take]] - Generic back take transition sharing core principles
 
 
 </section>

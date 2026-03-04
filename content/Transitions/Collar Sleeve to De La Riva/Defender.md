@@ -138,7 +138,7 @@ description: "Defend against the collar sleeve to De La Riva guard transition. R
 
 As the defender facing this transition, your primary objective is to prevent the bottom player from converting their collar sleeve guard into the more dangerous De La Riva structure. DLR guard gives the bottom player superior sweeping leverage and back take pathways compared to collar sleeve, so allowing this transition means facing an upgraded threat level. Your defensive strategy centers on recognizing the transition triggers early, denying the hook insertion through footwork and positioning, and exploiting the grip conversion window where the bottom player is most vulnerable. The most effective defense is prevention rather than reaction: if you can maintain kneeling posture or strip key grips before the transition begins, the bottom player has no trigger to initiate the switch.
 
-**Opponent's Starting Position**: [[Collar Sleeve Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Collar Sleeve Guard]] (Bottom)
 
 </section>
 
@@ -176,28 +176,28 @@ As the defender facing this transition, your primary objective is to prevent the
 ### 1. Backstep the lead leg before the hook threads behind your knee
 
 - **When to use**: The moment you recognize the hip escape angle and the circular leg motion beginning. Must be executed before their foot passes behind your knee.
-- **Targets**: [[Collar Sleeve Guard]]
+- **Targets**: [[Positions/Collar Sleeve Guard]]
 - **If successful**: The bottom player's hook attempt catches air and they must either re-attempt from a worse angle or revert to collar sleeve guard. You maintain your passing posture.
 - **Risk**: If you backstep too aggressively without maintaining base, the bottom player can use your momentum shift for an off-balancing sweep using their collar grip.
 
 ### 2. Drop knee to the mat and drive forward with pressure before the hook sets
 
 - **When to use**: When you recognize the transition initiation but are too close for an effective backstep. Dropping your posture removes the standing trigger entirely.
-- **Targets**: [[Collar Sleeve Guard]]
+- **Targets**: [[Positions/Collar Sleeve Guard]]
 - **If successful**: You return the engagement to kneeling collar sleeve guard where DLR is not viable. Your forward pressure may also create passing opportunities as the bottom player adjusts.
 - **Risk**: Dropping posture aggressively plays into collar sleeve guard's strengths, as the collar pull is most effective against kneeling opponents. You may be swept if you drive forward without controlling their grips.
 
 ### 3. Strip the ankle grip and circle away from the hook immediately after it sets
 
 - **When to use**: When the hook has already been inserted but the bottom player is still converting grips. The grip conversion window is your best counterattack opportunity.
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Without the ankle grip, the DLR hook has minimal sweeping power and you can clear it with a simple backstep while maintaining your passing initiative. You arrive in open guard top with grip advantage.
 - **Risk**: If the bottom player has already secured both grips before you strip the ankle, your hand is committed to grip fighting rather than base, potentially exposing you to sweeps.
 
 ### 4. Cross-face and drive the bottom player flat during the transition
 
 - **When to use**: When you have a free hand available and the bottom player is mid-transition with their hips exposed. Drive your shoulder into their jaw line while pressuring their hips flat.
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Flattening the bottom player eliminates their hip mobility, making the DLR hook ineffective and creating an immediate passing opportunity through the compromised guard structure.
 - **Risk**: Driving forward into a partially established DLR hook can expose you to berimbolo entries if the bottom player already has sufficient hook depth and collar control.
 
@@ -209,11 +209,11 @@ As the defender facing this transition, your primary objective is to prevent the
 
 ## Best-Case Outcomes for Defender
 
-### → [[Collar Sleeve Guard]]
+### → [[Positions/Collar Sleeve Guard]]
 
 Deny the hook insertion by backsteping your lead leg or dropping to your knees before the transition completes. The bottom player reverts to collar sleeve guard, which you were already working to pass. Maintain your existing grip fighting strategy and resume passing from the original guard configuration.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Exploit the grip conversion window when the bottom player releases their sleeve grip to reach for your ankle. Strip any partially established grips, clear the incomplete hook, and immediately initiate a passing sequence before they can rebuild guard structure. The momentary control gap during grip conversion is your highest percentage counterattack window.
 

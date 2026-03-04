@@ -154,7 +154,7 @@ description: "Learn to defend your Mission Control against the top player's post
 
 As the bottom player in Mission Control, defending against the top player's posture break attempt requires understanding exactly which control mechanisms the top player will target and reinforcing them proactively. Your defense centers on maintaining the three pillars of Mission Control: continuous head control, elevated hip positioning, and shoulder isolation through the high guard leg. When the top player initiates a posture break, your primary strategy is not to fight their escape directly with strength, but to redirect their energy into positional advances—transitioning to New York, Zombie, or submission entries that capitalize on the openings created by their escape attempt. The most effective defense against the posture break is making every escape attempt more costly than remaining in Mission Control.
 
-**Opponent's Starting Position**: [[Mission Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Mission Control]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ As the bottom player in Mission Control, defending against the top player's post
 ### 1. Transition to New York by redirecting the trapped arm into deeper isolation as the top player strips your head control grips
 
 - **When to use**: When the top player successfully strips your primary head control grip and begins creating posture distance, but their trapped arm is still available for redirection
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: Top player is caught in New York position with deeper arm isolation and new submission threats, negating the posture break entirely
 - **Risk**: If the transition is too slow, the top player may extract their arm completely and recover to closed guard before New York is established
 
 ### 2. Immediately re-establish head control with the opposite hand while driving hips higher to re-tighten shoulder isolation and prevent further posture recovery
 
 - **When to use**: When the top player strips one grip but has not yet posted on your hip or begun the active posture drive phase
-- **Targets**: [[Mission Control]]
+- **Targets**: [[Positions/Rubber Guard/Mission Control]]
 - **If successful**: Mission Control is fully re-established with renewed control, neutralizing the top player's escape attempt and resetting to the original controlling position
 - **Risk**: Repeated grip fighting without transitioning can fatigue your forearms and grip endurance, progressively weakening control over extended exchanges
 
 ### 3. Time the top player's upward posture drive to bring your outside leg across their face, threatening triangle entry and forcing them to abort the posture break
 
 - **When to use**: When the top player commits to driving posture upward, creating the vertical space needed for your leg to cross their face for triangle position
-- **Targets**: [[Mission Control]]
+- **Targets**: [[Positions/Rubber Guard/Mission Control]]
 - **If successful**: Top player is forced to abandon the posture break and drive weight back down to defend the triangle threat, returning to compromised posture in Mission Control
 - **Risk**: If the triangle entry is incomplete, the top player may stack through the attempt and advance to a passing position rather than returning to Mission Control
 
 ### 4. Use the top player's backward movement to elevate into an omoplata attempt on the trapped arm, converting their escape energy into a submission threat
 
 - **When to use**: When the top player drives backward aggressively and their trapped arm remains inside your high guard, creating the rotational angle needed for omoplata entry
-- **Targets**: [[New York]]
+- **Targets**: [[Positions/Rubber Guard/New York]]
 - **If successful**: Top player's escape momentum is converted into a submission or sweep opportunity, potentially advancing to omoplata control or back take
 - **Risk**: If the omoplata entry is not timed correctly, the arm may slip free during the transition, giving the top player the extraction they needed
 
@@ -226,11 +226,11 @@ As the bottom player in Mission Control, defending against the top player's post
 
 ## Best-Case Outcomes for Defender
 
-### → [[New York]]
+### → [[Positions/Rubber Guard/New York]]
 
 When the top player commits to stripping grips and recovering posture, use the transitional window to flow into New York control. As they fight your head control, redirect the trapped arm into deeper isolation by bringing your leg over and across, establishing New York before they can extract the arm completely. The top player's focus on grip stripping creates the opening for this transition.
 
-### → [[Mission Control]]
+### → [[Positions/Rubber Guard/Mission Control]]
 
 Neutralize the posture break by maintaining at least one head control grip throughout the attempt while keeping hips actively elevated. When the top player's initial break momentum fades and their energy dips, re-establish full two-handed head control and drive their posture back down to reset Mission Control with renewed structural integrity.
 

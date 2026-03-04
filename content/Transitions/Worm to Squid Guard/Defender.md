@@ -154,7 +154,7 @@ description: "Defend against the Worm to Squid Guard transition as the top playe
 
 Defending against the Worm to Squid Guard transition requires recognizing the reconfiguration window and exploiting the momentary control gap that occurs when your opponent shifts between guard systems. The bottom player must temporarily reduce their lapel tension and reposition their hooking leg, creating a vulnerability that the alert top player can exploit. Your primary defensive objectives are either stripping the lapel during this window to neutralize the guard entirely, or preventing the leg threading that establishes squid guard's characteristic deep hook. Understanding the mechanical sequence of this transition allows you to read initiation cues and respond decisively before the new guard configuration solidifies into a stable attacking platform that offers even more dangerous attack angles than the worm guard you were originally facing.
 
-**Opponent's Starting Position**: [[Worm Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Worm Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against the Worm to Squid Guard transition requires recognizing the re
 ### 1. Strip the lapel during the tension drop using a two-handed grip break
 
 - **When to use**: As soon as you feel lapel tension decrease around your leg, indicating the reconfiguration has begun and the lapel is at its weakest
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You neutralize the entire lapel guard system and can proceed with standard open guard passing against a guardeiro who has lost their primary weapon
 - **Risk**: If the stripping attempt fails, your hands are occupied and the bottom player may accelerate the transition while your grip fighting is focused on the lapel
 
 ### 2. Drive controlled forward pressure through the compromised guard structure
 
 - **When to use**: When you recognize the guard is between configurations and the bottom player's leg control is transitioning, creating a structural gap
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You flatten the bottom player and collapse the transitioning guard, often advancing to half guard or side control as the reconfiguration fails under pressure
 - **Risk**: Forward pressure against a guard that is more intact than you estimated can be redirected into a sweep using the remaining lapel connection
 
 ### 3. Pinch knees together to block the leg threading pathway
 
 - **When to use**: When you feel the bottom player's leg attempting to pass between your legs for the squid guard hook
-- **Targets**: [[Worm Guard]]
+- **Targets**: [[Positions/Worm Guard]]
 - **If successful**: You prevent the squid guard hook from establishing, forcing them to remain in worm guard or abandon the transition attempt entirely
 - **Risk**: Pinching creates a momentarily static base that limits your own mobility and can be exploited for off-balancing sweeps from the remaining worm guard structure
 
 ### 4. Step back and disengage to reset the engagement on your terms
 
 - **When to use**: When the transition attempt has created enough disruption that neither guard is fully established and you want to dictate the re-engagement
-- **Targets**: [[Worm Guard]]
+- **Targets**: [[Positions/Worm Guard]]
 - **If successful**: You create distance and can re-engage with a clear passing strategy against a guard player who must re-establish their position from scratch
 - **Risk**: Disengaging gives the bottom player time and space to either complete the squid guard transition or re-establish a fully configured worm guard
 
@@ -225,11 +225,11 @@ Defending against the Worm to Squid Guard transition requires recognizing the re
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip the lapel during the reconfiguration window when tension drops using a two-handed grip break followed by immediate clearing of the fabric away from your legs. This completely neutralizes the lapel guard system and leaves you in a standard open guard passing situation with significant advantage.
 
-### → [[Worm Guard]]
+### → [[Positions/Worm Guard]]
 
 Block the leg threading by pinching your knees together or stepping back to prevent the squid guard hook from establishing. While this keeps you dealing with worm guard, it prevents the upgrade to squid guard's more dangerous sweep angles and back take sequences.
 

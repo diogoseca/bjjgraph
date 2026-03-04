@@ -21,7 +21,7 @@ The technique functions as the primary positional advancement tool from Williams
 
 Timing separates successful execution from failed attempts. The sweep works best when initiated during the opponent's defensive adjustments to shoulder lock pressure, specifically when their weight distribution is transitioning and posting ability is momentarily compromised. Launching the sweep from a static position without first generating a defensive reaction typically allows the opponent to base with their free hand and shut down the elevation. Elite practitioners read the weight shift created by shoulder lock defense and use that transitional moment as the trigger for hook elevation and sweep commitment.
 
-**From Position**: [[Williams Guard]] (Bottom)
+**From Position**: [[Positions/Williams Guard]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Timing separates successful execution from failed attempts. The sweep works best
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 50% |
-| Failure | [[Williams Guard]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Mount]] | 50% |
+| Failure | [[Positions/Williams Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Williams Guard Sweep serves as the primary positional advancement pathway fr
 ## Related Techniques
 
 
-- [[Williams Guard]] - Source position providing shoulder lock control foundation for sweep
+- [[Positions/Williams Guard]] - Source position providing shoulder lock control foundation for sweep
 
-- [[Mount]] - Primary sweep target position representing highest positional value
+- [[Positions/Mount]] - Primary sweep target position representing highest positional value
 
-- [[Half Guard]] - Counter outcome position when opponent advances during failed sweep attempt
+- [[Positions/Half Guard]] - Counter outcome position when opponent advances during failed sweep attempt
 
-- [[Omoplata Control]] - Alternative attack from Williams Guard when sweep is defended with base adjustment
+- [[Positions/Omoplata Control]] - Alternative attack from Williams Guard when sweep is defended with base adjustment
 
-- [[Butterfly Guard]] - Related guard system sharing butterfly hook elevation mechanics used in the sweep
+- [[Positions/Butterfly Guard]] - Related guard system sharing butterfly hook elevation mechanics used in the sweep
 
-- [[Open Guard]] - General guard category that Williams Guard builds upon
+- [[Positions/Open Guard]] - General guard category that Williams Guard builds upon
 
-- [[Rubber Guard]] - Related arm control guard concept with similar isolation philosophy
+- [[Positions/Rubber Guard]] - Related arm control guard concept with similar isolation philosophy
 
-- [[Triangle Control]] - Alternative submission chain accessible when opponent defends both sweep and shoulder lock
+- [[Positions/Triangle Control]] - Alternative submission chain accessible when opponent defends both sweep and shoulder lock
 
-- [[Back Control]] - High-value position accessible through Williams Guard system when opponent turns away
+- [[Positions/Back Control]] - High-value position accessible through Williams Guard system when opponent turns away
 
-- [[Single Leg X-Guard]] - Alternative sweeping position if Williams Guard control breaks during engagement
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative sweeping position if Williams Guard control breaks during engagement
 
 
 </section>

@@ -154,7 +154,7 @@ description: "How to defend against Triangle to Omoplata in BJJ. Recognition cue
 
 Defending the triangle to omoplata transition requires understanding that you are caught between two distinct submission threats during a critical transition window. As the defender, your primary advantage is that the attacker must release the triangle lock before establishing omoplata control—this transition window is your highest-percentage escape opportunity. The defender who recognizes the transition early can exploit the brief moment when neither the triangle nor the omoplata is fully secured to extract the trapped arm, recover posture, or reverse position. Successful defense demands reading the attacker's hip movement and leg repositioning as early warning signals, then executing decisive defensive action during the vulnerable transition phase rather than waiting until the omoplata is consolidated. The key defensive principle is that prevention is far more effective than escape—addressing the transition during its execution is significantly easier than fighting a fully established omoplata control position.
 
-**Opponent's Starting Position**: [[Triangle Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Triangle Control]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending the triangle to omoplata transition requires understanding that you ar
 ### 1. Arm extraction during transition window—immediately retract trapped arm by driving elbow toward your own hip while the triangle legs are unlocking
 
 - **When to use**: The instant you feel the triangle ankle lock release and before the attacker's leg completes the swing over your back
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You free your arm and can immediately posture up, establish grips, and begin guard passing or return to neutral position
 - **Risk**: If extraction fails, you lose posture and end up deeper in the omoplata with less defensive leverage than before
 
 ### 2. Forward roll through the omoplata—tuck chin, post free hand, and roll forward over the trapped shoulder before the attacker establishes hip control
 
 - **When to use**: When the attacker has completed the leg swing but has not yet established belt grip or torso control to prevent the roll
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You escape the shoulder lock and can end up in top position or at minimum reset to a neutral guard passing situation
 - **Risk**: Attacker follows the roll and transitions to back control with hooks, putting you in an equally or more dangerous position
 
 ### 3. Drive weight backward and square hips—push backward forcefully while turning your trapped shoulder toward the attacker to reduce rotational pressure
 
 - **When to use**: When the attacker begins the hip rotation but before the leg swing is complete—the backward drive prevents perpendicular alignment
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: You return to the triangle position where the attacker's triangle is now looser, giving you a better opportunity to execute standard triangle escapes
 - **Risk**: If you drive backward too aggressively, you may extend your own arm further and deepen the omoplata shoulder rotation angle
 
 ### 4. Posture explosively during transition—drive up with your legs and core to create vertical distance before the omoplata is consolidated
 
 - **When to use**: During the transition window when the attacker's legs are transitioning between configurations and control is at its weakest
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You create enough distance to extract the trapped arm and disengage from the submission threat entirely
 - **Risk**: The posture attempt may be countered by the attacker pulling you back down using their leg across your back and wrist control
 
@@ -226,11 +226,11 @@ Defending the triangle to omoplata transition requires understanding that you ar
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Extract the trapped arm during the transition window when the triangle is released but the omoplata is not yet established. Drive the elbow toward your own hip while simultaneously posturing up. The arm extraction eliminates both submission threats and returns you to a neutral guard passing position.
 
-### → [[Triangle Control]]
+### → [[Positions/Triangle Control]]
 
 Drive weight backward and square your hips when you recognize the transition beginning. This prevents the attacker from achieving the perpendicular hip angle needed for the omoplata and forces them back into the triangle position. From here, the triangle is typically looser than before the transition attempt, improving your escape chances.
 

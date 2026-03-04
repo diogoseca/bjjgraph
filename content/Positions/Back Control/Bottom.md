@@ -211,33 +211,33 @@ The escape hierarchy follows a strict sequence: neck defense first through chin 
 
 ## Available Escapes
 
-### [[Hand Fighting from Back]] (22% of attempts)
+### [[Transitions/Hand Fighting from Back]] (22% of attempts)
 
-### [[Back Door Escape]] (20% of attempts)
+### [[Transitions/Back Door Escape]] (20% of attempts)
 
-### [[Hip Escape to Turtle]] (13% of attempts)
+### [[Transitions/Hip Escape to Turtle]] (13% of attempts)
 
-### [[Elbow Escape to Remove Hooks]] (12% of attempts)
+### [[Transitions/Elbow Escape to Remove Hooks]] (12% of attempts)
 
-### [[Turn In and Face]] (8% of attempts)
+### [[Transitions/Turn In and Face]] (8% of attempts)
 
-### [[Hip Escape from Back Control]] (5% of attempts)
+### [[Transitions/Hip Escape from Back Control]] (5% of attempts)
 
-### [[Turtle from Back Control]] (5% of attempts)
+### [[Transitions/Turtle from Back Control]] (5% of attempts)
 
-### [[Shoulder Walk Escape from Back]] (5% of attempts)
+### [[Transitions/Shoulder Walk Escape from Back]] (5% of attempts)
 
-### [[Scoot Hips to Guard from Back]] (4% of attempts)
+### [[Transitions/Scoot Hips to Guard from Back]] (4% of attempts)
 
-### [[Turn into Opponent from Back]] (3% of attempts)
+### [[Transitions/Turn into Opponent from Back]] (3% of attempts)
 
-### [[Elbow Escape from Back]] (2% of attempts)
+### [[Transitions/Elbow Escape from Back]] (2% of attempts)
 
-### [[Hand Fight to Turtle from Back]] (1% of attempts)
+### [[Transitions/Hand Fight to Turtle from Back]] (1% of attempts)
 
-### [[Granby Roll to Guard]] (0% of attempts)
+### [[Transitions/Granby Roll to Guard]] (0% of attempts)
 
-### [[Rolling Escape to Guard]] (0% of attempts)
+### [[Transitions/Rolling Escape to Guard]] (0% of attempts)
 
 
 
@@ -248,28 +248,28 @@ The escape hierarchy follows a strict sequence: neck defense first through chin 
 ## Decision Making from This Position
 
 **If opponent has both hooks in and harness grip with arm attacking your neck:**
-- Execute **[[Immediate chin tuck and two-on-one hand fighting on choking arm]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Strip seatbelt grip with bottom hand while maintaining neck defense]]** → [[Back Control]] (Probability: 65%)
+- Execute **[[Immediate chin tuck and two-on-one hand fighting on choking arm]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Strip seatbelt grip with bottom hand while maintaining neck defense]]** → [[Positions/Back Control]] (Probability: 65%)
 
 
 **If you successfully defend neck and opponent maintains hooks without immediate submission threat:**
-- Execute **[[Systematic hook removal starting with weaker underhook side]]** → [[Turtle]] (Probability: 45%)
-- Execute **[[Hip escape creating angle toward underhook side for turn]]** → [[Half Guard]] (Probability: 40%)
+- Execute **[[Systematic hook removal starting with weaker underhook side]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Hip escape creating angle toward underhook side for turn]]** → [[Positions/Half Guard]] (Probability: 40%)
 
 
 **If opponent has body triangle locked and attacking neck simultaneously:**
-- Execute **[[Turn toward triangle leg side to reduce squeeze while defending neck]]** → [[Back Control]] (Probability: 35%)
-- Execute **[[Accept defensive holding position while managing energy and breathing]]** → [[Back Control]] (Probability: 50%)
+- Execute **[[Turn toward triangle leg side to reduce squeeze while defending neck]]** → [[Positions/Back Control]] (Probability: 35%)
+- Execute **[[Accept defensive holding position while managing energy and breathing]]** → [[Positions/Back Control]] (Probability: 50%)
 
 
 **If you create space and remove one hook successfully:**
-- Execute **[[Hip escape to turtle position before opponent re-establishes hook]]** → [[Turtle]] (Probability: 55%)
-- Execute **[[Turn into half guard using frames on shoulder and hip]]** → [[Half Guard]] (Probability: 50%)
+- Execute **[[Hip escape to turtle position before opponent re-establishes hook]]** → [[Positions/Turtle]] (Probability: 55%)
+- Execute **[[Turn into half guard using frames on shoulder and hip]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 **If opponent overcommits to choke attempt and loosens hook or seatbelt control:**
-- Execute **[[Exploit loosened control with immediate hip escape sequence]]** → [[Open Guard]] (Probability: 45%)
-- Execute **[[Strip loosened hook and begin rotation to face opponent]]** → [[Closed Guard]] (Probability: 40%)
+- Execute **[[Exploit loosened control with immediate hip escape sequence]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Strip loosened hook and begin rotation to face opponent]]** → [[Positions/Closed Guard]] (Probability: 40%)
 
 
 
@@ -371,13 +371,13 @@ Partner establishes back control with both hooks but does not attack submissions
 
 ## Related Positions and Techniques
 
-- **[[Back Door Escape]]** - Comprehensive escape system addressing back control escape through systematic positional improvement
-- **[[Granby Roll to Guard]]** - Alternative inversion-based escape movement for creating space and recovering guard from back control
-- **[[Turtle]]** - Common intermediate escape target offering better defensive options than back control
-- **[[Half Guard]]** - Improved position often achieved through partial back escape and rotation
-- **[[Rear Naked Choke]]** - Primary submission threat requiring constant defensive attention and hand fighting
-- **[[Closed Guard]]** - Neutral guard position achievable through complete escape and rotation sequence
-- **[[Hand Fighting from Back]]** - Critical defensive transition for neutralizing opponent's choking arm before escape
+- **[[Transitions/Back Door Escape]]** - Comprehensive escape system addressing back control escape through systematic positional improvement
+- **[[Transitions/Granby Roll to Guard]]** - Alternative inversion-based escape movement for creating space and recovering guard from back control
+- **[[Positions/Turtle]]** - Common intermediate escape target offering better defensive options than back control
+- **[[Positions/Half Guard]]** - Improved position often achieved through partial back escape and rotation
+- **[[Transitions/Rear Naked Choke]]** - Primary submission threat requiring constant defensive attention and hand fighting
+- **[[Positions/Closed Guard]]** - Neutral guard position achievable through complete escape and rotation sequence
+- **[[Transitions/Hand Fighting from Back]]** - Critical defensive transition for neutralizing opponent's choking arm before escape
 
 
 </section>

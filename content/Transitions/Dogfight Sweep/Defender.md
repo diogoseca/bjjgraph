@@ -146,7 +146,7 @@ description: "Defensive guide against the Dogfight Sweep. Recognition cues, whiz
 
 The Dogfight Sweep defender is the top half guard player facing an opponent who has risen to the kneeling Dogfight Position with an established underhook. The primary defensive challenge is preventing the opponent from simultaneously controlling your far leg and driving forward with underhook pressure. Effective defense requires active whizzer control to neutralize the underhook, strategic far leg positioning to deny the critical grip, and the ability to apply crossface pressure to flatten the sweeper back to the mat. Recognizing the sweep attempt early through tactile cues is essential, as the technique becomes extremely difficult to stop once the far leg grip is established and forward momentum is generated. The best defenders do not merely prevent the sweep but use their defensive actions to create passing opportunities.
 
-**Opponent's Starting Position**: [[Dogfight Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Dogfight Position]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ The Dogfight Sweep defender is the top half guard player facing an opponent who 
 ### 1. Heavy whizzer with hip sprawl to flatten the sweeper backward
 
 - **When to use**: As soon as you feel increased forward pressure and the free hand reaching for your far leg, apply maximum downward whizzer force while sprawling your hips back
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: The sweeper is driven back to flat half guard bottom, losing their elevated posture and all offensive momentum from the Dogfight position
 - **Risk**: Over-committing to the whizzer can expose your back if the sweeper redirects to a back take instead of continuing the sweep
 
 ### 2. Retract far leg and circle hips to deny the grip
 
 - **When to use**: When you see or feel the opponent's free hand reaching for your far knee, immediately pull the far leg back and circle your hips away from the reaching hand
-- **Targets**: [[Dogfight Position]]
+- **Targets**: [[Positions/Dogfight Position]]
 - **If successful**: The sweep is denied because the critical far leg grip cannot be established, and the position remains in neutral Dogfight where you can reset your defense
 - **Risk**: Pulling the far leg back can expose your back to the sweeper if they immediately transition to a back take entry
 
 ### 3. Crossface and drive forward to stuff the sweep before it develops
 
 - **When to use**: At the earliest recognition of sweep initiation, drive your forearm or shoulder across the sweeper's face and neck to turn their head away and break their posture
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: The crossface disrupts the sweeper's head position and forward drive, allowing you to flatten them and begin passing sequences from half guard top
 - **Risk**: If the crossface is not strong enough, the sweeper may continue driving through it and complete the sweep despite the pressure
 
 ### 4. Post far arm on mat and base out wide to resist the topple
 
 - **When to use**: When the sweep is already mid-execution and the far leg grip has been established, post your far hand on the mat to create an additional base point
-- **Targets**: [[Dogfight Position]]
+- **Targets**: [[Positions/Dogfight Position]]
 - **If successful**: The hand post creates enough resistance to stall the sweep, allowing you to recover your far leg position and reset the Dogfight engagement
 - **Risk**: Posting the hand leaves it vulnerable to grip stripping and reduces your ability to apply whizzer or crossface pressure simultaneously
 
@@ -216,11 +216,11 @@ The Dogfight Sweep defender is the top half guard player facing an opponent who 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Apply heavy whizzer downward pressure combined with crossface and hip sprawl to drive the sweeper flat onto their back. Once flattened, immediately begin half guard passing sequences using crossface and underhook to prevent them from re-elevating to Dogfight.
 
-### → [[Dogfight Position]]
+### → [[Positions/Dogfight Position]]
 
 Deny the far leg grip through active leg retraction and hip circling, then maintain whizzer control to keep the position neutral. From the stalled Dogfight, work to re-flatten the opponent or initiate your own passing sequence by stripping their underhook and establishing crossface dominance.
 

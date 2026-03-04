@@ -140,7 +140,7 @@ description: "Learn to defend against the Escape Leg Hook from top position. Mai
 
 As the defender against the Escape Leg Hook, you are the top player working to maintain your leg hook control and prevent the bottom player from recovering standard Half Guard. Your leg hook represents an advanced stage of the passing sequence, and losing it means your opponent recovers to a position with far more offensive and defensive options. Your defensive strategy centers on recognizing the methodical escape attempt early, maintaining constant pressure that limits frame effectiveness and hip escape movement, dynamically adjusting hook depth and angle to match the bottom player's extraction efforts, and capitalizing on failed escape attempts to advance to side control. Unlike defending the explosive Counter Leg Hook, here you are countering a patient, incremental process that you can disrupt at multiple stages.
 
-**Opponent's Starting Position**: [[Leg Hook]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Hook]] (Bottom)
 
 </section>
 
@@ -177,21 +177,21 @@ As the defender against the Escape Leg Hook, you are the top player working to m
 ### 1. Increase forward pressure and re-deepen the hook when you feel the bottom player creating initial hip angle
 
 - **When to use**: At the earliest sign of hip escape movement, before significant space has been created
-- **Targets**: [[Leg Hook]]
+- **Targets**: [[Positions/Leg Hook]]
 - **If successful**: Bottom player's escape attempt is reset, returning to controlled Leg Hook Bottom with potentially less energy and frame structure
 - **Risk**: Over-committing forward pressure may open deep half guard entry if the bottom player redirects underneath your base
 
 ### 2. Follow the hip escape with your own hip adjustment, maintaining hip-to-hip contact throughout the bottom player's movement
 
 - **When to use**: When the bottom player has begun shrimping but has not yet created enough space for extraction
-- **Targets**: [[Leg Hook]]
+- **Targets**: [[Positions/Leg Hook]]
 - **If successful**: Your hip tracking neutralizes the space created by their hip escape, keeping the hook engaged and preventing extraction
 - **Risk**: Chasing their hips laterally can compromise your base if they suddenly reverse direction or attempt a sweep
 
 ### 3. Release the hook and advance directly to side control pass when the bottom player overcommits to the extraction movement
 
 - **When to use**: When the bottom player's escape movement creates a clear passing lane and they are focused on leg extraction rather than guard re-establishment
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You bypass the hook battle entirely and complete the pass to a dominant position, converting the escape attempt into a worse outcome for the bottom player
 - **Risk**: If the bottom player is prepared, they may insert a knee shield or recover guard during your transition from hook to pass
 
@@ -203,11 +203,11 @@ As the defender against the Escape Leg Hook, you are the top player working to m
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Hook]]
+### → [[Positions/Leg Hook]]
 
 Shut down the escape by maintaining constant chest pressure that limits frame effectiveness, tracking the bottom player's hip escapes with your own hip adjustments, and re-deepening the hook whenever they create angle. The key is proactive response at the earliest escape phases rather than reactive response after significant space exists.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Capitalize on the bottom player's extraction movement by releasing the hook and advancing directly to side control when their focus is on freeing the leg rather than preventing the pass. Drive your weight through their hip line and clear the legs while they are momentarily committed to the extraction motion.
 

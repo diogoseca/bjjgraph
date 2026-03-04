@@ -176,7 +176,7 @@ The Reverse X to Ashi Garami Entry converts the sweeping platform of Reverse X-G
 
 The entry demands precise coordination between hip elevation, grip transfer, and leg reconfiguration. The attacker must time the transition when the opponent's weight distribution creates vulnerability, then execute a fluid secondary leg transfer that establishes the cross-body clamp defining Ashi Garami. Once the structure is complete, immediate knee line control determines whether the position produces submission threats or allows escape.
 
-**From Position**: [[Reverse X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 
 </section>
 
@@ -228,9 +228,9 @@ The entry demands precise coordination between hip elevation, grip transfer, and
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Ashi Garami]] | 58% |
-| Failure | [[Reverse X-Guard]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami]] | 58% |
+| Failure | [[Positions/X-Guard/Reverse X-Guard]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -239,10 +239,10 @@ The entry demands precise coordination between hip elevation, grip transfer, and
 
 ## Opponent Counters
 
-- **Opponent backsteps during transition to free their leg and establish passing position** (Effectiveness: High) - Your Response: Follow their backstep by inverting and transitioning to back take or maintain connection and enter Honey Hole instead → Leads to [[Reverse X-Guard]]
-- **Opponent drives forward and smashes through hooks before Ashi structure completes** (Effectiveness: Medium) - Your Response: Accept the forward pressure and transition to Deep Half Guard while maintaining some form of leg control → Leads to [[Half Guard]]
-- **Opponent posts their free hand and pulls their leg back forcefully during secondary leg transfer** (Effectiveness: Medium) - Your Response: Maintain sleeve control to prevent posting, or switch to Single Leg X-Guard to follow their retreating leg → Leads to [[Reverse X-Guard]]
-- **Opponent kicks their trapped leg straight to prevent knee pinch from closing** (Effectiveness: Low) - Your Response: Use the straight leg position to enter Outside Ashi Garami instead, where the straight leg actually assists your control → Leads to [[Ashi Garami]]
+- **Opponent backsteps during transition to free their leg and establish passing position** (Effectiveness: High) - Your Response: Follow their backstep by inverting and transitioning to back take or maintain connection and enter Honey Hole instead → Leads to [[Positions/X-Guard/Reverse X-Guard]]
+- **Opponent drives forward and smashes through hooks before Ashi structure completes** (Effectiveness: Medium) - Your Response: Accept the forward pressure and transition to Deep Half Guard while maintaining some form of leg control → Leads to [[Positions/Half Guard]]
+- **Opponent posts their free hand and pulls their leg back forcefully during secondary leg transfer** (Effectiveness: Medium) - Your Response: Maintain sleeve control to prevent posting, or switch to Single Leg X-Guard to follow their retreating leg → Leads to [[Positions/X-Guard/Reverse X-Guard]]
+- **Opponent kicks their trapped leg straight to prevent knee pinch from closing** (Effectiveness: Low) - Your Response: Use the straight leg position to enter Outside Ashi Garami instead, where the straight leg actually assists your control → Leads to [[Positions/Ashi Garami]]
 
 
 </section>

@@ -21,7 +21,7 @@ Establishing the seat belt from general back control requires precise timing and
 
 The strategic importance of this transition cannot be overstated. Without the seat belt, back control submissions remain low-percentage because the attacker lacks the mechanical framework to systematically break down neck defenses. The seat belt provides the structural foundation for rear naked choke entries, armbar transitions, and bow and arrow attacks. Completing this transition effectively upgrades back control from a positional advantage into an active submission threat that forces the defender into increasingly difficult defensive dilemmas where protecting against one attack exposes vulnerability to another.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 **Success Rate**: 70%
 
 </section>
@@ -32,9 +32,9 @@ The strategic importance of this transition cannot be overstated. Without the se
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Seat Belt Control Back]] | 70% |
-| Failure | [[Back Control]] | 20% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control/Seat Belt Control Back]] | 70% |
+| Failure | [[Positions/Back Control]] | 20% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -189,31 +189,31 @@ The Back Control to Seat Belt transition occupies a critical link in the positio
 ## Related Techniques
 
 
-- [[Back Control]] - Source position from which this seat belt grip transition is initiated
+- [[Positions/Back Control]] - Source position from which this seat belt grip transition is initiated
 
-- [[Seat Belt Control Back]] - Target position achieved upon successful seat belt grip establishment
+- [[Positions/Back Control/Seat Belt Control Back]] - Target position achieved upon successful seat belt grip establishment
 
-- [[Body Triangle]] - Alternative back control leg configuration often combined with seat belt grip
+- [[Positions/Back Control/Body Triangle]] - Alternative back control leg configuration often combined with seat belt grip
 
-- [[Turtle]] - Position opponent may escape to if grip transition creates defensive window
+- [[Positions/Turtle]] - Position opponent may escape to if grip transition creates defensive window
 
-- [[Harness]] - Related upper body control concept sharing grip mechanics with seat belt configuration
+- [[Positions/Harness]] - Related upper body control concept sharing grip mechanics with seat belt configuration
 
-- [[Gift Wrap]] - Alternative upper body control configuration from back when seat belt is unavailable
+- [[Positions/Gift Wrap]] - Alternative upper body control configuration from back when seat belt is unavailable
 
-- [[Back Control Maintenance]] - Positional retention transition that preserves back control during failed seat belt attempts
+- [[Transitions/Back Control Maintenance]] - Positional retention transition that preserves back control during failed seat belt attempts
 
-- [[Rear Naked Choke]] - Primary submission attack enabled by successful seat belt establishment
+- [[Transitions/Rear Naked Choke]] - Primary submission attack enabled by successful seat belt establishment
 
-- [[Back Control to Crucifix]] - Alternative transition from back control when opponent's arm positioning prevents seat belt
+- [[Transitions/Back Control to Crucifix]] - Alternative transition from back control when opponent's arm positioning prevents seat belt
 
-- [[Armbar from Back Transition]] - Complementary back attack that benefits from seat belt control structure
+- [[Transitions/Armbar from Back Transition]] - Complementary back attack that benefits from seat belt control structure
 
-- [[RNC from Seat Belt]] - Direct submission finish enabled once seat belt grip is fully established
+- [[Submissions/RNC from Seat Belt]] - Direct submission finish enabled once seat belt grip is fully established
 
-- [[Bow and Arrow from Seat Belt]] - Gi-based submission option available from established seat belt position
+- [[Submissions/Bow and Arrow from Seat Belt]] - Gi-based submission option available from established seat belt position
 
-- [[Crucifix]] - Advanced position accessible when opponent exposes arms defending seat belt establishment
+- [[Positions/Crucifix]] - Advanced position accessible when opponent exposes arms defending seat belt establishment
 
 
 </section>

@@ -21,7 +21,7 @@ The pass typically involves driving weight forward and low to reduce the hook's 
 
 Strategically, Pass Half Butterfly sits at a critical juncture in modern guard passing chains. Many passing sequences through butterfly-based guards funnel into this position when one hook has been cleared but the second remains active. The passer who understands how to read the bottom player's hook engagement and respond with appropriate weight shifts and angle changes can reliably convert this transitional moment into a completed pass. Failure to address the hook systematically often results in sweep attempts that catch even experienced passers off guard.
 
-**From Position**: [[Half Butterfly]] (Top)
+**From Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, Pass Half Butterfly sits at a critical juncture in modern guard p
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Half Butterfly]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Butterfly Guard/Half Butterfly]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ Pass Half Butterfly occupies a critical position in the guard passing hierarchy,
 ## Related Techniques
 
 
-- [[Half Butterfly]] - Source position from which this pass is initiated
+- [[Positions/Butterfly Guard/Half Butterfly]] - Source position from which this pass is initiated
 
-- [[Side Control]] - Primary target position on successful pass completion
+- [[Positions/Side Control]] - Primary target position on successful pass completion
 
-- [[Half Guard]] - Related position that the bottom player may recover if pass partially fails
+- [[Positions/Half Guard]] - Related position that the bottom player may recover if pass partially fails
 
-- [[Butterfly Guard]] - Parent guard system sharing butterfly hook mechanics
+- [[Positions/Butterfly Guard]] - Parent guard system sharing butterfly hook mechanics
 
-- [[Deep Half Guard]] - Common escape destination for the bottom player during pass attempts
+- [[Positions/Half Guard/Deep Half Guard]] - Common escape destination for the bottom player during pass attempts
 
-- [[Smash Half Butterfly]] - Alternative pressure-based passing technique from same position
+- [[Transitions/Smash Half Butterfly]] - Alternative pressure-based passing technique from same position
 
-- [[Knee Slice from Butterfly Half]] - Complementary passing technique that chains with this pass
+- [[Transitions/Knee Slice from Butterfly Half]] - Complementary passing technique that chains with this pass
 
-- [[Half Butterfly Sweep]] - Primary counter-technique the bottom player threatens during the pass
+- [[Transitions/Half Butterfly Sweep]] - Primary counter-technique the bottom player threatens during the pass
 
-- [[Half Butterfly to Dogfight]] - Bottom player's transition option if they establish underhook during pass
+- [[Transitions/Half Butterfly to Dogfight]] - Bottom player's transition option if they establish underhook during pass
 
-- [[Headquarters Position]] - Related passing hub position for managing open guard transitions
+- [[Positions/Headquarters Position]] - Related passing hub position for managing open guard transitions
 
-- [[Knee Shield Half Guard]] - Alternative guard the bottom player may transition to during defense
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative guard the bottom player may transition to during defense
 
-- [[Body Lock Pass]] - Alternative passing method applicable from similar positions
+- [[Transitions/Body Lock Pass]] - Alternative passing method applicable from similar positions
 
 
 </section>

@@ -154,7 +154,7 @@ description: "How to defend against Roll to Truck in BJJ. Recognition cues, defe
 
 Defending the Roll to Truck requires understanding that the attacker is exploiting your own granby escape momentum. The most effective defense begins before the roll starts—by recognizing the setup conditions and choosing defensive movements that do not feed the attacker's transition. When caught mid-roll, the defender must prioritize preventing boot control establishment, as the boot is the foundation of truck position. Without boot pressure on the hip, the attacker cannot generate the torque needed for truck submissions. The defender should focus on clearing hip connection, stopping rotation midway to return to turtle, or accelerating through the roll to escape completely rather than getting stuck in the entanglement.
 
-**Opponent's Starting Position**: [[Buggy Choke]] (Top)
+**Opponent's Starting Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the Roll to Truck requires understanding that the attacker is exploiti
 ### 1. Stop rotation and return to turtle by posting both hands and driving hips back to base
 
 - **When to use**: Early in the roll when you recognize the attacker is following your granby momentum rather than being left behind
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: You return to turtle with buggy choke pressure but deny the truck transition completely
 - **Risk**: If attacker has deep grips, stopping midway may leave you in a compromised half-rolled position
 
 ### 2. Accelerate granby roll explosively to complete full rotation and create separation before truck is established
 
 - **When to use**: When attacker follows but has not yet secured leg entanglement or boot control
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You escape both buggy choke and truck attempt, resetting to turtle or recovering guard
 - **Risk**: If attacker maintains hip connection through the acceleration, you may end up in worse position with committed momentum
 
 ### 3. Fight boot control immediately by using both hands to clear attacker's foot from your hip before it sets
 
 - **When to use**: When roll is completed and attacker is establishing truck—this is your last high-percentage defensive window
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Without boot pressure, the truck control collapses and you can extract legs and recover to turtle or guard
 - **Risk**: Using both hands on boot leaves neck and upper body undefended against twister setup
 
 ### 4. Clear hip connection before committing to granby by using frames to push attacker's hip away first
 
 - **When to use**: Before initiating your granby escape from buggy choke—preventive defense
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: Your granby succeeds as a pure escape without giving attacker the hip pivot needed for roll to truck
 - **Risk**: Spending time clearing hip before granby may allow attacker to finish buggy choke while you delay escape
 
@@ -224,11 +224,11 @@ Defending the Roll to Truck requires understanding that the attacker is exploiti
 
 ## Best-Case Outcomes for Defender
 
-### → [[Buggy Choke]]
+### → [[Positions/Buggy Choke]]
 
 Stop your rotation early by posting hands and driving hips back to base when you recognize the attacker following your granby. This returns you to turtle under buggy choke pressure, which while still threatening, is preferable to truck position.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Accelerate through the roll explosively to outpace the attacker's follow, or fight boot control after the roll to collapse truck structure. Strip the attacker's foot from your hip with both hands, then straighten your legs to break the leg entanglement and recover turtle base.
 

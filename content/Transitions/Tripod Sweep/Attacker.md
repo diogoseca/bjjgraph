@@ -174,7 +174,7 @@ description: "How to execute Tripod Sweep in BJJ. Attacking perspective with set
 
 The Tripod Sweep is a fundamental open guard technique that creates a mechanical advantage through angles and off-balancing. From Spider Guard, the practitioner establishes a three-point base (two feet and one hand on the opponent) to create an unstable platform, forcing the opponent to react and creating sweep opportunities. This technique is particularly effective against opponents attempting to maintain distance and posture in the guard, as it exploits their upright stance and converts their weight distribution into a sweeping motion. The name 'tripod' refers to the three points of contact that control the opponent's base while simultaneously removing one of their legs from the equation. This sweep is a cornerstone of modern Spider Guard systems and provides entry points into multiple dominant positions including mount, knee on belly, or standing control. The tripod structure allows for dynamic transitions and combinations, making it an essential technique for competitors at all levels who wish to develop an active, attacking guard game.
 
-**From Position**: [[Spider Guard]] (Bottom)
+**From Position**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
 
@@ -227,9 +227,9 @@ The Tripod Sweep is a fundamental open guard technique that creates a mechanical
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 65% |
-| Failure | [[Spider Guard]] | 25% |
-| Counter | [[Spider Guard]] | 10% |
+| Success | [[Positions/Standing Position]] | 65% |
+| Failure | [[Positions/Spider Guard]] | 25% |
+| Counter | [[Positions/Spider Guard]] | 10% |
 
 
 </section>
@@ -238,10 +238,10 @@ The Tripod Sweep is a fundamental open guard technique that creates a mechanical
 
 ## Opponent Counters
 
-- **Opponent sits back and disengages, removing forward pressure and making sweep mechanics impossible** (Effectiveness: High) - Your Response: Immediately transition to alternative spider guard attacks such as triangle setup, omoplata, or switch to De La Riva guard to maintain offensive pressure → Leads to [[Spider Guard]]
-- **Opponent posts second hand to mat when feeling off-balance, creating stable base with both hands down** (Effectiveness: Medium) - Your Response: Release ankle grip and immediately attack the posted arm with omoplata or transition to overhead sweep by elevating their posted arms with both feet → Leads to [[Spider Guard]]
-- **Opponent circles away from sweep direction, moving laterally to escape sweep vector** (Effectiveness: Medium) - Your Response: Follow their movement by switching your tripod base to opposite side and attacking with mirror image sweep, or transition to Sickle Sweep targeting their new positioning → Leads to [[Spider Guard]]
-- **Opponent grabs your posted leg/ankle, removing tripod base stability and threatening guard pass** (Effectiveness: Low) - Your Response: Switch immediately to tomoe nage or balloon sweep using their forward commitment, or retract posted leg and return to full spider guard with both hooks active → Leads to [[Spider Guard]]
+- **Opponent sits back and disengages, removing forward pressure and making sweep mechanics impossible** (Effectiveness: High) - Your Response: Immediately transition to alternative spider guard attacks such as triangle setup, omoplata, or switch to De La Riva guard to maintain offensive pressure → Leads to [[Positions/Spider Guard]]
+- **Opponent posts second hand to mat when feeling off-balance, creating stable base with both hands down** (Effectiveness: Medium) - Your Response: Release ankle grip and immediately attack the posted arm with omoplata or transition to overhead sweep by elevating their posted arms with both feet → Leads to [[Positions/Spider Guard]]
+- **Opponent circles away from sweep direction, moving laterally to escape sweep vector** (Effectiveness: Medium) - Your Response: Follow their movement by switching your tripod base to opposite side and attacking with mirror image sweep, or transition to Sickle Sweep targeting their new positioning → Leads to [[Positions/Spider Guard]]
+- **Opponent grabs your posted leg/ankle, removing tripod base stability and threatening guard pass** (Effectiveness: Low) - Your Response: Switch immediately to tomoe nage or balloon sweep using their forward commitment, or retract posted leg and return to full spider guard with both hooks active → Leads to [[Positions/Spider Guard]]
 
 
 </section>

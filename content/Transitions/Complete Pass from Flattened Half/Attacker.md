@@ -180,7 +180,7 @@ description: "Learn to complete the guard pass from flattened half guard. Expert
 
 As the attacker executing the Complete Pass from Flattened Half Guard, you have already accomplished the hardest part of the pressure-passing sequence: collapsing your opponent's frames, establishing the crossface, and driving them flat. The remaining challenge is extracting your trapped leg from their half guard hook without surrendering any of the positional advantage you earned. This requires understanding that the extraction is not a separate event from the pressure maintenance but rather a continuation of the same systematic pressure that got you here. Every movement must serve the dual purpose of advancing the pass while sustaining the control that keeps your opponent pinned. The moment you separate these objectives and focus solely on freeing your leg, you create the space your opponent needs to recover frames and reset the entire passing sequence.
 
-**From Position**: [[Flattened Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Flattened Half Guard]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ As the attacker executing the Complete Pass from Flattened Half Guard, you have 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Flattened Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Flattened Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ As the attacker executing the Complete Pass from Flattened Half Guard, you have 
 
 ## Opponent Counters
 
-- **Re-hooking the leg during extraction by catching the ankle or calf** (Effectiveness: High) - Your Response: Curl your heel tight to your buttock during extraction to make re-hooking extremely difficult. If they catch your ankle, drive your hips forward and re-attempt the knee slice from the new angle rather than pulling the leg back. → Leads to [[Flattened Half Guard]]
-- **Hip escape during extraction to create space for knee shield recovery** (Effectiveness: Medium) - Your Response: Block the far hip before initiating extraction to prevent the shrimp. If they manage to create space, immediately increase chest pressure and re-flatten before reattempting the extraction. Do not chase the leg - control the upper body first. → Leads to [[Half Guard]]
-- **Underhook recovery when pressure shifts during leg extraction** (Effectiveness: Medium) - Your Response: Maintain heavy shoulder pressure throughout the extraction to prevent underhook insertion. If they begin to establish an underhook, drive your shoulder into their chin and use a whizzer to neutralize it before continuing the pass. → Leads to [[Half Guard]]
-- **Deep half entry by diving underneath during momentary pressure reduction** (Effectiveness: Medium) - Your Response: Keep your hips low and heavy throughout extraction - never allow your hips to rise above your opponent's hip line. If they begin threading underneath, immediately sprawl your hips back down and re-establish chest pressure to collapse the deep half attempt. → Leads to [[Half Guard]]
+- **Re-hooking the leg during extraction by catching the ankle or calf** (Effectiveness: High) - Your Response: Curl your heel tight to your buttock during extraction to make re-hooking extremely difficult. If they catch your ankle, drive your hips forward and re-attempt the knee slice from the new angle rather than pulling the leg back. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Hip escape during extraction to create space for knee shield recovery** (Effectiveness: Medium) - Your Response: Block the far hip before initiating extraction to prevent the shrimp. If they manage to create space, immediately increase chest pressure and re-flatten before reattempting the extraction. Do not chase the leg - control the upper body first. → Leads to [[Positions/Half Guard]]
+- **Underhook recovery when pressure shifts during leg extraction** (Effectiveness: Medium) - Your Response: Maintain heavy shoulder pressure throughout the extraction to prevent underhook insertion. If they begin to establish an underhook, drive your shoulder into their chin and use a whizzer to neutralize it before continuing the pass. → Leads to [[Positions/Half Guard]]
+- **Deep half entry by diving underneath during momentary pressure reduction** (Effectiveness: Medium) - Your Response: Keep your hips low and heavy throughout extraction - never allow your hips to rise above your opponent's hip line. If they begin threading underneath, immediately sprawl your hips back down and re-establish chest pressure to collapse the deep half attempt. → Leads to [[Positions/Half Guard]]
 
 
 </section>

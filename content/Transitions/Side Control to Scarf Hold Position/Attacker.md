@@ -180,7 +180,7 @@ description: "Learn how to transition from Side Control to Scarf Hold in BJJ. St
 
 Executing the Transition to Scarf Hold Position requires precise coordination of hip rotation, arm isolation, and head control while maintaining continuous pressure on the bottom player. The attacker must rotate from a parallel chest-on-chest configuration to a perpendicular hip-on-ribs position without creating space that allows guard recovery or escape. The transition demands understanding of weight transfer mechanics, as your center of gravity shifts dramatically during the rotation. Success depends on controlling the opponent's near arm before initiating the hip switch, securing head control during the rotation, and immediately consolidating hip pressure upon arrival. The entire movement should feel like a controlled rotation around the axis of the opponent's trapped arm rather than a lift-and-replace repositioning that creates space.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Transition to Scarf Hold Position requires precise coordination of
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Scarf Hold Position]] | 70% |
-| Failure | [[Side Control]] | 20% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control/Scarf Hold Position]] | 70% |
+| Failure | [[Positions/Side Control]] | 20% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Transition to Scarf Hold Position requires precise coordination of
 
 ## Opponent Counters
 
-- **Opponent frames on your hip and shrimps during the rotation to recover half guard** (Effectiveness: High) - Your Response: Accelerate the hip switch and immediately drive your hip past their frame before it becomes established. If they get the frame, use your near arm to strip it while driving forward pressure to flatten them back down. → Leads to [[Half Guard]]
-- **Opponent bridges explosively during the weight transfer to create space and turn into you** (Effectiveness: Medium) - Your Response: Ride the bridge by maintaining tight chest contact and using your head wrap to keep their head turned away. As the bridge collapses, immediately consolidate scarf hold pressure before they can chain a second attempt. → Leads to [[Side Control]]
-- **Opponent extracts their near arm during the transition when your grip loosens** (Effectiveness: Medium) - Your Response: If the arm comes free, immediately transition to modified scarf hold using an underhook instead, or abandon the scarf hold and return to standard side control crossface to re-establish control before attempting again. → Leads to [[Side Control]]
-- **Opponent turns away and turtles during the rotation when chest pressure momentarily lightens** (Effectiveness: Low) - Your Response: Follow their turtle with back control entry by establishing seatbelt grip and inserting hooks. The turtle escape actually gives you an opportunity to advance to a higher-value position than scarf hold. → Leads to [[Side Control]]
+- **Opponent frames on your hip and shrimps during the rotation to recover half guard** (Effectiveness: High) - Your Response: Accelerate the hip switch and immediately drive your hip past their frame before it becomes established. If they get the frame, use your near arm to strip it while driving forward pressure to flatten them back down. → Leads to [[Positions/Half Guard]]
+- **Opponent bridges explosively during the weight transfer to create space and turn into you** (Effectiveness: Medium) - Your Response: Ride the bridge by maintaining tight chest contact and using your head wrap to keep their head turned away. As the bridge collapses, immediately consolidate scarf hold pressure before they can chain a second attempt. → Leads to [[Positions/Side Control]]
+- **Opponent extracts their near arm during the transition when your grip loosens** (Effectiveness: Medium) - Your Response: If the arm comes free, immediately transition to modified scarf hold using an underhook instead, or abandon the scarf hold and return to standard side control crossface to re-establish control before attempting again. → Leads to [[Positions/Side Control]]
+- **Opponent turns away and turtles during the rotation when chest pressure momentarily lightens** (Effectiveness: Low) - Your Response: Follow their turtle with back control entry by establishing seatbelt grip and inserting hooks. The turtle escape actually gives you an opportunity to advance to a higher-value position than scarf hold. → Leads to [[Positions/Side Control]]
 
 
 </section>

@@ -174,7 +174,7 @@ description: "How to execute Lasso Guard Pass in BJJ. Attacking perspective with
 
 The Lasso Guard Pass from the attacker's perspective is about systematically dismantling one of the most mechanically strong open guard controls in gi BJJ. The passer must understand that the lasso creates a lever system through the trapped arm, and that fighting this lever head-on wastes energy while creating sweep opportunities for the guard player. Instead, the pass follows a precise sequence: control the sleeve to limit the guard player's offensive options, stand to reduce the lasso's mechanical advantage, step outside the lasso leg to change the angle of the lever, clear the hook through shoulder rotation, and immediately secure hip control before completing the pass to side control. Each step builds on the previous one, and skipping steps typically results in the guard player recovering or sweeping.
 
-**From Position**: [[Lasso Guard]] (Top)
+**From Position**: [[Positions/Lasso Guard]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The Lasso Guard Pass from the attacker's perspective is about systematically dis
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Lasso Guard]] | 25% |
-| Counter | [[Lasso Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Lasso Guard]] | 25% |
+| Counter | [[Positions/Lasso Guard]] | 10% |
 
 
 </section>
@@ -238,11 +238,11 @@ The Lasso Guard Pass from the attacker's perspective is about systematically dis
 
 ## Opponent Counters
 
-- **Opponent sits up and attempts to re-establish the lasso while you're standing** (Effectiveness: Medium) - Your Response: Maintain sleeve control and use your free hand to post on their shoulder, preventing them from sitting forward. Circle away from the lasso side while keeping tension on the sleeve. → Leads to [[Lasso Guard]]
-- **Opponent switches to spider guard or collar sleeve configuration** (Effectiveness: High) - Your Response: Immediately adjust your grips to address the new guard configuration. If they establish spider, control both sleeves and use a knee cut or stack pass. Anticipate these transitions during your pass. → Leads to [[Lasso Guard]]
-- **Opponent uses their free leg to hook your far leg for a sweep** (Effectiveness: High) - Your Response: Keep your far leg posted wide and back, making it difficult to hook. If they begin to hook, hop that leg back or switch to a different passing angle like knee slice to the opposite side. → Leads to [[Lasso Guard]]
-- **Opponent grabs your ankle or pant leg with their free hand** (Effectiveness: Medium) - Your Response: Use your superior positioning to break this grip by stepping back and circling. You can also switch to a pressure passing approach by dropping your weight onto their chest. → Leads to [[Lasso Guard]]
-- **Opponent extends the lasso and pushes off your chest with their free foot** (Effectiveness: Low) - Your Response: This actually helps your pass by creating space. Maintain sleeve control and use the momentum to circle around the lasso leg more aggressively. Their extension reduces their ability to follow you. → Leads to [[Lasso Guard]]
+- **Opponent sits up and attempts to re-establish the lasso while you're standing** (Effectiveness: Medium) - Your Response: Maintain sleeve control and use your free hand to post on their shoulder, preventing them from sitting forward. Circle away from the lasso side while keeping tension on the sleeve. → Leads to [[Positions/Lasso Guard]]
+- **Opponent switches to spider guard or collar sleeve configuration** (Effectiveness: High) - Your Response: Immediately adjust your grips to address the new guard configuration. If they establish spider, control both sleeves and use a knee cut or stack pass. Anticipate these transitions during your pass. → Leads to [[Positions/Lasso Guard]]
+- **Opponent uses their free leg to hook your far leg for a sweep** (Effectiveness: High) - Your Response: Keep your far leg posted wide and back, making it difficult to hook. If they begin to hook, hop that leg back or switch to a different passing angle like knee slice to the opposite side. → Leads to [[Positions/Lasso Guard]]
+- **Opponent grabs your ankle or pant leg with their free hand** (Effectiveness: Medium) - Your Response: Use your superior positioning to break this grip by stepping back and circling. You can also switch to a pressure passing approach by dropping your weight onto their chest. → Leads to [[Positions/Lasso Guard]]
+- **Opponent extends the lasso and pushes off your chest with their free foot** (Effectiveness: Low) - Your Response: This actually helps your pass by creating space. Maintain sleeve control and use the momentum to circle around the lasso leg more aggressively. Their extension reduces their ability to follow you. → Leads to [[Positions/Lasso Guard]]
 
 
 </section>

@@ -17,7 +17,7 @@ description: "Master Lockdown Recovery from Modified Mount bottom. Step-by-step 
 
 Lockdown Recovery is a specialized escape from Modified Mount that exploits the position's asymmetric structure to capture the opponent's posted leg and establish the powerful Lockdown half guard control. When mounted in Modified Mount, the opponent's posted leg creates both stability for them and an opportunity for the bottom practitioner - that extended leg is vulnerable to being captured if proper timing and technique are applied. The escape centers on creating enough hip space through frames and movement to shoot your legs around the posted leg and establish the figure-four lockdown configuration before the opponent can retract. This technique represents a fundamental principle in BJJ defensive strategy: rather than fighting directly against the mount, you transition to a position where your leg control creates immediate problems for the top player. Once Lockdown is established, the dynamic shifts dramatically - the opponent cannot effectively pass or mount because their leg mobility is completely compromised. The technique requires precise timing, as attempting the leg capture too early leaves you vulnerable to submission attempts, while waiting too long allows the opponent to consolidate mount or transition to a more dominant position. Advanced practitioners use this recovery as part of a broader escape system, threatening the Lockdown entry to create reactions that open other escape paths like deep half guard or standard hip escapes.
 
-**From Position**: [[Modified Mount]] (Bottom)
+**From Position**: [[Positions/Mount/Modified Mount]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -28,9 +28,9 @@ Lockdown Recovery is a specialized escape from Modified Mount that exploits the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Lockdown]] | 65% |
-| Failure | [[Modified Mount]] | 25% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Half Guard/Lockdown]] | 65% |
+| Failure | [[Positions/Mount/Modified Mount]] | 25% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -185,25 +185,25 @@ Lockdown Recovery occupies a critical position in the BJJ escape hierarchy, spec
 ## Related Techniques
 
 
-- [[Modified Mount]] - Starting position - the asymmetric mount configuration this escape targets
+- [[Positions/Mount/Modified Mount]] - Starting position - the asymmetric mount configuration this escape targets
 
-- [[Lockdown]] - Target position - the half guard control position established upon success
+- [[Positions/Half Guard/Lockdown]] - Target position - the half guard control position established upon success
 
-- [[Electric Chair Submission]] - Primary follow-up - immediate attack chain available after Lockdown recovery
+- [[Submissions/Electric Chair Submission]] - Primary follow-up - immediate attack chain available after Lockdown recovery
 
-- [[Hip Escape to Guard]] - Chain option - backup escape when Lockdown capture fails
+- [[Transitions/Hip Escape to Guard]] - Chain option - backup escape when Lockdown capture fails
 
-- [[Deep Half Guard]] - Conversion option - alternative guard recovery when Lockdown entry is partially blocked
+- [[Positions/Half Guard/Deep Half Guard]] - Conversion option - alternative guard recovery when Lockdown entry is partially blocked
 
-- [[Old School Sweep]] - Follow-up sweep - primary sweep option from established Lockdown bottom position
+- [[Transitions/Old School Sweep]] - Follow-up sweep - primary sweep option from established Lockdown bottom position
 
-- [[Electric Chair Transition]] - Advanced follow-up - direct transition bypassing standard Lockdown consolidation
+- [[Transitions/Electric Chair Transition]] - Advanced follow-up - direct transition bypassing standard Lockdown consolidation
 
-- [[Half Guard Recovery]] - Related escape - similar concept targeting leg capture from mounted position
+- [[Transitions/Half Guard Recovery]] - Related escape - similar concept targeting leg capture from mounted position
 
-- [[Mount]] - Counter outcome - position opponent achieves if they consolidate during failed attempt
+- [[Positions/Mount]] - Counter outcome - position opponent achieves if they consolidate during failed attempt
 
-- [[Half Guard]] - Alternative recovery - standard half guard achieved if Lockdown configuration is incomplete
+- [[Positions/Half Guard]] - Alternative recovery - standard half guard achieved if Lockdown configuration is incomplete
 
 
 </section>

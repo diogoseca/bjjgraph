@@ -101,27 +101,27 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 ### Available Transitions
 
 
-- **[[Matrix Back Take]]** (52% of attempts)
+- **[[Transitions/Matrix Back Take]]** (52% of attempts)
 
-- **[[Rolling Back Take]]** (7% of attempts)
+- **[[Transitions/Rolling Back Take]]** (7% of attempts)
 
-- **[[Arm Drag to Back]]** (7% of attempts)
+- **[[Transitions/Arm Drag to Back]]** (7% of attempts)
 
-- **[[Chair Sit to Back]]** (5% of attempts)
+- **[[Transitions/Chair Sit to Back]]** (5% of attempts)
 
-- **[[Granby Roll to Guard]]** (13% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (13% of attempts)
 
-- **[[Rolling to Guard]]** (7% of attempts)
+- **[[Transitions/Rolling to Guard]]** (7% of attempts)
 
-- **[[Berimbolo Entry]]** (1% of attempts)
+- **[[Transitions/Berimbolo Entry]]** (1% of attempts)
 
-- **[[Turtle to Guard]]** (7% of attempts)
+- **[[Transitions/Turtle to Guard]]** (7% of attempts)
 
-- **[[Counter Roll from Matrix]]** (0% of attempts)
+- **[[Transitions/Counter Roll from Matrix]]** (0% of attempts)
 
-- **[[Escape Matrix Position]]** (0% of attempts)
+- **[[Transitions/Escape Matrix Position]]** (0% of attempts)
 
-- **[[Sweep from Matrix]]** (1% of attempts)
+- **[[Transitions/Sweep from Matrix]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -182,27 +182,27 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 ### Available Transitions
 
 
-- **[[Sprawl Defense]]** (11% of attempts)
+- **[[Transitions/Sprawl Defense]]** (11% of attempts)
 
-- **[[Crossface Pass]]** (10% of attempts)
+- **[[Transitions/Crossface Pass]]** (10% of attempts)
 
-- **[[Back Step]]** (8% of attempts)
+- **[[Transitions/Back Step]]** (8% of attempts)
 
-- **[[Knee Slice Pass]]** (8% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (8% of attempts)
 
-- **[[Back Take from Top]]** (26% of attempts)
+- **[[Transitions/Back Take from Top]]** (26% of attempts)
 
-- **[[Darce from Turtle]]** (8% of attempts)
+- **[[Transitions/Darce from Turtle]]** (8% of attempts)
 
-- **[[Guillotine from Turtle]]** (8% of attempts)
+- **[[Transitions/Guillotine from Turtle]]** (8% of attempts)
 
-- **[[Anaconda from Turtle]]** (6% of attempts)
+- **[[Transitions/Anaconda from Turtle]]** (6% of attempts)
 
-- **[[Turtle Flatten to Side Control]]** (10% of attempts)
+- **[[Transitions/Turtle Flatten to Side Control]]** (10% of attempts)
 
-- **[[Matrix to Back Control]]** (3% of attempts)
+- **[[Transitions/Matrix to Back Control]]** (3% of attempts)
 
-- **[[Matrix to Side Control]]** (2% of attempts)
+- **[[Transitions/Matrix to Side Control]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -241,21 +241,21 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 ## Related Positions
 
 
-- **[[Turtle]]** - Primary starting position for Matrix entries from bottom
+- **[[Positions/Turtle]]** - Primary starting position for Matrix entries from bottom
 
-- **[[Back Control]]** - Target destination position for successful Matrix completion
+- **[[Positions/Back Control]]** - Target destination position for successful Matrix completion
 
-- **[[Crab Ride]]** - Alternative back attack approach with similar timing windows
+- **[[Positions/Crab Ride]]** - Alternative back attack approach with similar timing windows
 
-- **[[Deep Half Guard]]** - Shares rotational mechanics and can transition to Matrix
+- **[[Positions/Half Guard/Deep Half Guard]]** - Shares rotational mechanics and can transition to Matrix
 
-- **[[Closed Guard]]** - Fallback position if Matrix rotation is defended
+- **[[Positions/Closed Guard]]** - Fallback position if Matrix rotation is defended
 
-- **[[Seat Belt Control Back]]** - Grip configuration achieved during successful Matrix completion
+- **[[Positions/Back Control/Seat Belt Control Back]]** - Grip configuration achieved during successful Matrix completion
 
-- **[[Gift Wrap]]** - Alternative control when Matrix brings arm across body
+- **[[Positions/Gift Wrap]]** - Alternative control when Matrix brings arm across body
 
-- **[[Front Headlock]]** - Alternative attacking position when Matrix is countered from top
+- **[[Positions/Front Headlock]]** - Alternative attacking position when Matrix is countered from top
 
 
 </section>

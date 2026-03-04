@@ -186,7 +186,7 @@ description: "Learn to execute the Double Sleeve to Lasso guard transition. Step
 
 Executing the Double Sleeve to Lasso transition requires precise coordination between grip tension, hip mobility, and timing. As the attacker, your objective is to thread your shin across the opponent's arm while maintaining control throughout the transition. The fundamental challenge lies in creating enough space to insert your leg without compromising your existing sleeve grip structure. Success depends on reading the opponent's weight distribution and grip-fighting patterns to identify the optimal moment for entry, rather than forcing the transition against a settled opponent. Developing this sensitivity transforms the lasso entry from a random attempt into a reliable positional upgrade that serves as the foundation for a complete lasso guard offensive system.
 
-**From Position**: [[Double Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Double Sleeve to Lasso transition requires precise coordination be
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Lasso Guard]] | 55% |
-| Failure | [[Double Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Lasso Guard]] | 55% |
+| Failure | [[Positions/Double Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Double Sleeve to Lasso transition requires precise coordination be
 
 ## Opponent Counters
 
-- **Opponent retracts arm rapidly before the thread completes, pulling elbow tight to their body** (Effectiveness: High) - Your Response: Immediately attempt the thread on the opposite arm which is now relatively extended, or convert to spider guard foot-on-bicep on the retracting arm → Leads to [[Double Sleeve Guard]]
-- **Opponent drives forward with shoulder pressure during the threading attempt to collapse guard structure** (Effectiveness: Medium) - Your Response: Use their forward momentum to complete the thread by pulling the sleeve and extending the lasso leg simultaneously, converting their pressure into lasso leverage → Leads to [[Lasso Guard]]
-- **Opponent strips both sleeve grips simultaneously during the threading attempt using explosive grip breaks** (Effectiveness: High) - Your Response: Immediately post feet on hips to maintain distance, hip escape to create angle, and re-establish grips or transition to feet-on-hips guard for recovery → Leads to [[Open Guard]]
-- **Opponent circles laterally toward the threading side to flatten the lasso angle and prevent shin crossing** (Effectiveness: Medium) - Your Response: Follow their movement with hip rotation and consider switching the threading attempt to the opposite arm, which becomes more accessible as they circle away from it → Leads to [[Double Sleeve Guard]]
+- **Opponent retracts arm rapidly before the thread completes, pulling elbow tight to their body** (Effectiveness: High) - Your Response: Immediately attempt the thread on the opposite arm which is now relatively extended, or convert to spider guard foot-on-bicep on the retracting arm → Leads to [[Positions/Double Sleeve Guard]]
+- **Opponent drives forward with shoulder pressure during the threading attempt to collapse guard structure** (Effectiveness: Medium) - Your Response: Use their forward momentum to complete the thread by pulling the sleeve and extending the lasso leg simultaneously, converting their pressure into lasso leverage → Leads to [[Positions/Lasso Guard]]
+- **Opponent strips both sleeve grips simultaneously during the threading attempt using explosive grip breaks** (Effectiveness: High) - Your Response: Immediately post feet on hips to maintain distance, hip escape to create angle, and re-establish grips or transition to feet-on-hips guard for recovery → Leads to [[Positions/Open Guard]]
+- **Opponent circles laterally toward the threading side to flatten the lasso angle and prevent shin crossing** (Effectiveness: Medium) - Your Response: Follow their movement with hip rotation and consider switching the threading attempt to the opposite arm, which becomes more accessible as they circle away from it → Leads to [[Positions/Double Sleeve Guard]]
 
 
 </section>

@@ -174,7 +174,7 @@ description: "How to execute the Knee Through pass in BJJ. Complete attacking gu
 
 The Knee Through pass attacks from half guard top by driving the trapped knee forward in a straight line through the opponent's guard structure while maintaining crushing upper body pressure. This pass rewards patience and systematic control establishment over explosive movement. The key mechanical principle is that forward knee drive combined with aligned shoulder pressure creates a unified force vector that the bottom player cannot redirect with frames or hip escapes. Unlike passes that require you to create angles or change levels, the Knee Through succeeds through direct, relentless forward pressure that compresses the opponent's defensive structure until it collapses. Mastery requires understanding the precise sequence of upper body control, hip alignment, knee insertion, leg clearing, and immediate consolidation that transforms half guard top into dominant side control.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -225,9 +225,9 @@ The Knee Through pass attacks from half guard top by driving the trapped knee fo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 68% |
-| Failure | [[Half Guard]] | 20% |
-| Counter | [[Half Guard]] | 12% |
+| Success | [[Positions/Side Control]] | 68% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>
@@ -236,11 +236,11 @@ The Knee Through pass attacks from half guard top by driving the trapped knee fo
 
 ## Opponent Counters
 
-- **Opponent establishes underhook on near side and drives into you, creating space and threatening to come to knees** (Effectiveness: High) - Your Response: Switch to Knee Slice Pass variation that accommodates their underhook, or fight to regain underhook control with a whizzer before continuing. If their underhook creates upward space, consider stepping over into mount. → Leads to [[Half Guard]]
-- **Bottom player extends knee shield frame to create distance and prevent shoulder pressure from landing** (Effectiveness: High) - Your Response: Address the knee shield first by driving it to the mat with your free hand or hip weight. Alternatively, transition to Long Step Pass to bypass the frame entirely by stepping around it. → Leads to [[Half Guard]]
-- **Opponent hip escapes away from the pass direction, creating space for guard recovery or re-composition** (Effectiveness: Medium) - Your Response: Follow their hip movement with your body, maintaining shoulder pressure throughout. Use their escape motion to accelerate your knee through as their hip escape actually opens the path for your knee. → Leads to [[Half Guard]]
-- **Bottom player locks deep half guard as you attempt to extract your leg, diving underneath your base** (Effectiveness: Medium) - Your Response: Abandon the Knee Through and address the Deep Half Guard position with a backstep or whizzer to free your leg. Do not continue driving forward as this feeds their sweep mechanics. → Leads to [[Half Guard]]
-- **Opponent rolls to turtle position as you clear the legs, denying side control consolidation** (Effectiveness: Low) - Your Response: Accept the turtle position and immediately attack with back takes, front headlock entries, or clock choke setups. Turtle is a worse position for them than half guard. → Leads to [[Side Control]]
+- **Opponent establishes underhook on near side and drives into you, creating space and threatening to come to knees** (Effectiveness: High) - Your Response: Switch to Knee Slice Pass variation that accommodates their underhook, or fight to regain underhook control with a whizzer before continuing. If their underhook creates upward space, consider stepping over into mount. → Leads to [[Positions/Half Guard]]
+- **Bottom player extends knee shield frame to create distance and prevent shoulder pressure from landing** (Effectiveness: High) - Your Response: Address the knee shield first by driving it to the mat with your free hand or hip weight. Alternatively, transition to Long Step Pass to bypass the frame entirely by stepping around it. → Leads to [[Positions/Half Guard]]
+- **Opponent hip escapes away from the pass direction, creating space for guard recovery or re-composition** (Effectiveness: Medium) - Your Response: Follow their hip movement with your body, maintaining shoulder pressure throughout. Use their escape motion to accelerate your knee through as their hip escape actually opens the path for your knee. → Leads to [[Positions/Half Guard]]
+- **Bottom player locks deep half guard as you attempt to extract your leg, diving underneath your base** (Effectiveness: Medium) - Your Response: Abandon the Knee Through and address the Deep Half Guard position with a backstep or whizzer to free your leg. Do not continue driving forward as this feeds their sweep mechanics. → Leads to [[Positions/Half Guard]]
+- **Opponent rolls to turtle position as you clear the legs, denying side control consolidation** (Effectiveness: Low) - Your Response: Accept the turtle position and immediately attack with back takes, front headlock entries, or clock choke setups. Turtle is a worse position for them than half guard. → Leads to [[Positions/Side Control]]
 
 
 </section>

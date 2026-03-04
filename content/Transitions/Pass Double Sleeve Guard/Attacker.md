@@ -180,7 +180,7 @@ description: "Complete attacking guide for passing Double Sleeve Guard. Step-by-
 
 As the attacker passing Double Sleeve Guard, your primary objective is to systematically dismantle the guard player's bilateral sleeve control while maintaining posture and base. The pass requires a methodical approach: first neutralize the grips that give the guard player their control framework, then immediately establish your own controlling grips before they can recover. The critical insight is that the sleeve grips and foot placement work as an integrated system — breaking grips without addressing the feet, or vice versa, leaves the pass incomplete and the guard player can quickly reset. Your posture is your most important asset; every successful double sleeve sweep and submission entry requires breaking your posture forward, so maintaining upright alignment with hips back defeats the majority of the guard player's offensive threats before they begin.
 
-**From Position**: [[Double Sleeve Guard]] (Top)
+**From Position**: [[Positions/Double Sleeve Guard]] (Top)
 
 </section>
 
@@ -233,10 +233,10 @@ As the attacker passing Double Sleeve Guard, your primary objective is to system
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Failure | [[Half Guard]] | 15% |
-| Failure | [[Double Sleeve Guard]] | 25% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 45% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Double Sleeve Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ As the attacker passing Double Sleeve Guard, your primary objective is to system
 
 ## Opponent Counters
 
-- **Opponent immediately re-grips sleeve after break** (Effectiveness: High) - Your Response: Accelerate your passing sequence — do not pause after grip breaks. Immediately secure leg control and begin angling before they can re-establish. If they re-grip, step back and attempt the break from a different angle rather than fighting the same grip repeatedly. → Leads to [[Double Sleeve Guard]]
-- **Opponent inserts knee or foot to create a half guard frame** (Effectiveness: Medium) - Your Response: If they insert a knee early in the pass, transition to a knee slice pass through the half guard rather than retreating to restart. Use your chest pressure and crossface to flatten them while slicing your knee through to complete the pass from half guard. → Leads to [[Half Guard]]
-- **Opponent executes scissor or push sweep during pass attempt** (Effectiveness: Medium) - Your Response: Maintain a wide base with your trailing foot posted back during the pass. If you feel your weight being redirected, immediately post the hand on the sweep side and backstep to reset your base. Do not lean forward during the pass as this amplifies sweep leverage. → Leads to [[Open Guard]]
-- **Opponent transitions to Spider Guard by placing feet on biceps** (Effectiveness: High) - Your Response: Address bicep hooks immediately by swimming your elbows inside their feet to knock them off, or step back quickly to break the hook before it settles. Never allow both bicep hooks to establish simultaneously with sleeve grips as this creates a significantly stronger guard. → Leads to [[Double Sleeve Guard]]
+- **Opponent immediately re-grips sleeve after break** (Effectiveness: High) - Your Response: Accelerate your passing sequence — do not pause after grip breaks. Immediately secure leg control and begin angling before they can re-establish. If they re-grip, step back and attempt the break from a different angle rather than fighting the same grip repeatedly. → Leads to [[Positions/Double Sleeve Guard]]
+- **Opponent inserts knee or foot to create a half guard frame** (Effectiveness: Medium) - Your Response: If they insert a knee early in the pass, transition to a knee slice pass through the half guard rather than retreating to restart. Use your chest pressure and crossface to flatten them while slicing your knee through to complete the pass from half guard. → Leads to [[Positions/Half Guard]]
+- **Opponent executes scissor or push sweep during pass attempt** (Effectiveness: Medium) - Your Response: Maintain a wide base with your trailing foot posted back during the pass. If you feel your weight being redirected, immediately post the hand on the sweep side and backstep to reset your base. Do not lean forward during the pass as this amplifies sweep leverage. → Leads to [[Positions/Open Guard]]
+- **Opponent transitions to Spider Guard by placing feet on biceps** (Effectiveness: High) - Your Response: Address bicep hooks immediately by swimming your elbows inside their feet to knock them off, or step back quickly to break the hook before it settles. Never allow both bicep hooks to establish simultaneously with sleeve grips as this creates a significantly stronger guard. → Leads to [[Positions/Double Sleeve Guard]]
 
 
 </section>

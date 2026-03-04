@@ -26,8 +26,8 @@ From a strategic perspective, the Twister finish represents the culmination of a
 **Category**: Joint Lock
 **Type**: Spinal Lock
 **Target Area**: Spine
-**Starting Position**: [[Twister Side Control]]
-**From Position**: [[Twister Side Control]] (Top)
+**Starting Position**: [[Positions/Twister Control/Twister Side Control]]
+**From Position**: [[Positions/Twister Control/Twister Side Control]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -81,8 +81,8 @@ From a strategic perspective, the Twister finish represents the culmination of a
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Twister Side Control]] | 35% |
-| Counter | [[Turtle]] | 20% |
+| Failure | [[Positions/Twister Control/Twister Side Control]] | 35% |
+| Counter | [[Positions/Turtle]] | 20% |
 
 
 </section>
@@ -234,9 +234,9 @@ From a strategic perspective, the Twister finish represents the culmination of a
 
 ## From Which Positions?
 
-- [[Twister Side Control]]
-- [[Twister Control]]
-- [[Truck]]
+- [[Positions/Twister Control/Twister Side Control]]
+- [[Positions/Twister Control]]
+- [[Positions/Twister Control/Truck]]
 
 
 </section>
@@ -245,12 +245,12 @@ From a strategic perspective, the Twister finish represents the culmination of a
 
 ## Related Submissions
 
-- [[Calf Slicer from Truck]]
-- [[Banana Split]]
-- [[Electric Chair Finish]]
-- [[Calf Slicer from Rodeo Ride]]
-- [[RNC from Seat Belt]]
-- [[Rear Naked Choke from Rodeo]]
+- [[Submissions/Calf Slicer from Truck]]
+- [[Submissions/Banana Split]]
+- [[Submissions/Electric Chair Finish]]
+- [[Submissions/Calf Slicer from Rodeo Ride]]
+- [[Submissions/RNC from Seat Belt]]
+- [[Submissions/Rear Naked Choke from Rodeo]]
 
 
 </section>
@@ -259,12 +259,12 @@ From a strategic perspective, the Twister finish represents the culmination of a
 
 ## Additional Related Content
 
-- [[Twister Side Control]] - Primary starting position providing the lateral control and leg entanglement foundation
-- [[Truck]] - Related control position within the 10th Planet twister attack system
-- [[Twister Control]] - Advanced spinal control variant sharing rotational mechanics
-- [[Back Control]] - Alternative control position accessible from the same entry pathways
-- [[Calf Slicer from Truck]] - Alternative submission available from the same leg entanglement system
-- [[Banana Split]] - Related 10th Planet submission attacking from similar leg control positions
+- [[Positions/Twister Control/Twister Side Control]] - Primary starting position providing the lateral control and leg entanglement foundation
+- [[Positions/Twister Control/Truck]] - Related control position within the 10th Planet twister attack system
+- [[Positions/Twister Control]] - Advanced spinal control variant sharing rotational mechanics
+- [[Positions/Back Control]] - Alternative control position accessible from the same entry pathways
+- [[Submissions/Calf Slicer from Truck]] - Alternative submission available from the same leg entanglement system
+- [[Submissions/Banana Split]] - Related 10th Planet submission attacking from similar leg control positions
 
 
 </section>

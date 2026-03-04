@@ -154,7 +154,7 @@ description: "Complete guide to defending the Combat Base to Headquarters transi
 
 Defending the Combat Base to Headquarters transition requires early recognition and proactive frame establishment before the top player can pin your leg. Once headquarters is established, defensive options narrow significantly—making prevention far more effective than late-stage escape. The primary defensive strategy centers on maintaining active legs through butterfly hooks, knee shields, and hip movement that prevent the top player from isolating and pinning a single leg. The defender must read the passer's grip changes and weight shifts as telegraphs of the impending entry, responding with immediate defensive structures rather than waiting for the pin to develop. When prevention fails, the defender must transition to appropriate half guard variations or create sweep opportunities rather than accepting a static headquarters position that favors the passer's systematic approach.
 
-**Opponent's Starting Position**: [[Combat Base]] (Top)
+**Opponent's Starting Position**: [[Positions/Combat Base]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Combat Base to Headquarters transition requires early recognition 
 ### 1. Insert knee shield across passer's torso before the knee drive reaches your thigh line
 
 - **When to use**: At the first recognition cue—as soon as you detect the passer gripping your knee or shifting their posted knee forward, immediately frame with your shin across their body
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Blocks the knee drive entirely and forces the passer to reset to combat base, maintaining the open guard exchange where you have full defensive options
 - **Risk**: If inserted too late after the knee is already past your thigh, the passer can collapse the shield and use it as a passing lane for a smash pass
 
 ### 2. Insert butterfly hook under passer's thigh and elevate during their weight transfer phase
 
 - **When to use**: When the passer commits weight forward during the knee drive, creating a window where their base is temporarily narrow and their center of gravity is shifting
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Elevates and sweeps the passer during their most vulnerable moment, reversing the position entirely and landing in top half guard or scramble
 - **Risk**: If the elevation fails, you have given up the leg position needed for other defensive options and the passer can strip the hook and complete the pin
 
 ### 3. Frame on passer's hips with both feet and extend legs to push them away before the knee drive begins
 
 - **When to use**: When you recognize the entry setup but before the passer has broken your foot-on-hip frames—this works best as a preemptive distance-creation response
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Creates distance that resets the guard exchange to a range where the passer cannot reach your legs to establish headquarters control
 - **Risk**: Extending both legs fully to push can leave you flat on your back without frames if the passer redirects your legs laterally with a toreando-style grip
 
 ### 4. Establish De La Riva hook on passer's advancing leg to prevent the knee from driving through
 
 - **When to use**: When the passer's posted knee begins moving forward and you can thread your outside foot around their shin before they clear the path
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Entangles the advancing leg in De La Riva control, making it impossible for the passer to complete the pin and often opening back take or sweep opportunities
 - **Risk**: If the passer recognizes the hook early and strips it by circling their foot inward, you may lose time that could have been used for other defensive options
 
@@ -225,11 +225,11 @@ Defending the Combat Base to Headquarters transition requires early recognition 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a butterfly hook elevation during the passer's weight transfer phase when their base is narrow and center of gravity is shifting forward. The elevation must come as the passer's knee is mid-drive but before the pin is established. Commit fully to the sweep direction and follow through to top position.
 
-### → [[Combat Base]]
+### → [[Positions/Combat Base]]
 
 Establish preventive frames—knee shield, foot-on-hip, or De La Riva hook—before the passer can drive their knee past your thigh line. Maintain active leg pummeling and grip fighting to deny the passer the clean path and controlling grip needed to initiate the transition. Force repeated resets to combat base that fatigue the passer's passing attempts.
 

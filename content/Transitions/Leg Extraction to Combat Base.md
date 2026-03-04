@@ -19,7 +19,7 @@ Leg Extraction to Combat Base is the essential defensive transition when trapped
 
 Once successfully extracted, the practitioner immediately establishes combat base, creating a stable platform for guard passing. The technique represents the critical bridge between being stuck in lockdown and initiating offensive passing sequences, making it an indispensable skill for any practitioner facing 10th Planet or lockdown-based half guard players. The extraction demands patience and precise timing rather than brute force—attempting to rip the leg free telegraphs the escape and invites counters. Practitioners who master this transition effectively neutralize one of the most frustrating control positions in modern no-gi grappling and restore their ability to impose a top-side passing game.
 
-**From Position**: [[Lockdown]] (Top)
+**From Position**: [[Positions/Half Guard/Lockdown]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -30,9 +30,9 @@ Once successfully extracted, the practitioner immediately establishes combat bas
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Combat Base]] | 55% |
-| Failure | [[Lockdown]] | 30% |
-| Counter | [[Deep Half Guard]] | 15% |
+| Success | [[Positions/Combat Base]] | 55% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 30% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 15% |
 
 
 </section>
@@ -193,29 +193,29 @@ Leg Extraction to Combat Base serves as the critical bridge between being trappe
 ## Related Techniques
 
 
-- [[Lockdown]] - Starting position - the half guard variant this technique escapes
+- [[Positions/Half Guard/Lockdown]] - Starting position - the half guard variant this technique escapes
 
-- [[Combat Base]] - Target position - stable platform established after successful extraction
+- [[Positions/Combat Base]] - Target position - stable platform established after successful extraction
 
-- [[Half Guard Pass]] - Follow-up technique - primary passing option after establishing combat base
+- [[Transitions/Half Guard Pass]] - Follow-up technique - primary passing option after establishing combat base
 
-- [[Knee Slice from Half]] - Follow-up technique - high-percentage pass available from combat base
+- [[Transitions/Knee Slice from Half]] - Follow-up technique - high-percentage pass available from combat base
 
-- [[Crossface Pass]] - Related technique - uses same upper body control principles
+- [[Transitions/Crossface Pass]] - Related technique - uses same upper body control principles
 
-- [[Deep Half Guard]] - Counter position - where opponent may transition if extraction is telegraphed
+- [[Positions/Half Guard/Deep Half Guard]] - Counter position - where opponent may transition if extraction is telegraphed
 
-- [[Electric Chair Submission]] - Threat to avoid - opponent's primary attack if extraction performed incorrectly
+- [[Submissions/Electric Chair Submission]] - Threat to avoid - opponent's primary attack if extraction performed incorrectly
 
-- [[Old School Sweep]] - Threat to avoid - sweep opponent attempts during failed extraction
+- [[Transitions/Old School Sweep]] - Threat to avoid - sweep opponent attempts during failed extraction
 
-- [[Whip-up Sweep]] - Threat to avoid - sweep opponent attempts if upper body control is lost
+- [[Transitions/Whip-up Sweep]] - Threat to avoid - sweep opponent attempts if upper body control is lost
 
-- [[Lockdown Recovery]] - Opponent's recapture technique if extraction is incomplete
+- [[Transitions/Lockdown Recovery]] - Opponent's recapture technique if extraction is incomplete
 
-- [[Dogfight Position]] - Scramble position that may result if opponent completes whip-up during extraction
+- [[Positions/Dogfight Position]] - Scramble position that may result if opponent completes whip-up during extraction
 
-- [[Deep Half Entry]] - Counter transition opponent uses when extraction creates space underneath
+- [[Transitions/Deep Half Entry]] - Counter transition opponent uses when extraction creates space underneath
 
 
 </section>

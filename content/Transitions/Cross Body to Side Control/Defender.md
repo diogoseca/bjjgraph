@@ -146,7 +146,7 @@ description: "Master defending against the Cross Body to Side Control transition
 
 As the defender against Cross Body to Side Control, your primary objective is to prevent the opponent from collapsing your turtle structure and establishing side control. This requires maintaining active defensive posture, recognizing the specific pressure patterns that signal a flattening attempt versus a back take attempt, and timing your defensive responses to exploit the moments when the attacker's weight shifts during the transition. The defender must balance two competing priorities: preventing the flatten while not exposing the back for alternative attacks. Success requires continuous movement, intelligent framing, and the discipline to chain defensive responses rather than relying on single explosive escape attempts that waste energy when they fail.
 
-**Opponent's Starting Position**: [[Cross Body Ride]] (Top)
+**Opponent's Starting Position**: [[Positions/Cross Body Ride]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against Cross Body to Side Control, your primary objective is to
 ### 1. Granby roll to guard recovery
 
 - **When to use**: Execute when you feel the opponent's weight commit forward during the initial flattening phase before they have established far hip control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover half guard or full guard, forcing the opponent to restart their passing sequence from a guard position
 - **Risk**: If timed poorly, the opponent follows the roll and establishes a deeper control position or takes the back during the rotation
 
 ### 2. Rebuild turtle base by driving hips away from pressure
 
 - **When to use**: When the opponent has begun flattening pressure but has not yet blocked your far hip or established the crossface
-- **Targets**: [[Cross Body Ride]]
+- **Targets**: [[Positions/Cross Body Ride]]
 - **If successful**: You maintain turtle position and force the opponent to restart their flattening sequence, potentially opening back take defense opportunities
 - **Risk**: Extended periods of base rebuilding drain energy and eventually fail against persistent pressure if no escape is attempted
 
 ### 3. Sit-through to half guard recovery
 
 - **When to use**: When the opponent commits their weight forward past your centerline during the transition, creating space on your far side
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You rotate under the opponent and recover half guard, transitioning from a turtle defense situation to a guard retention position
 - **Risk**: Failed sit-through can accelerate the flatten and leave you in a worse position with depleted energy
 
 ### 4. Frame and shrimp to prevent side control consolidation
 
 - **When to use**: As a last resort when the flatten has largely succeeded but side control is not yet fully established—during the transitional moment between turtle and side control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You insert a knee and establish half guard before the opponent can settle their crossface and hip control in side control
 - **Risk**: Late frame attempts against settled side control waste energy and may expose arms to submission attacks
 
@@ -217,11 +217,11 @@ As the defender against Cross Body to Side Control, your primary objective is to
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a granby roll or sit-through during the attacker's weight shift to recover half guard before side control is established. The key window is when the attacker transitions their chest from your back to your side—this brief repositioning creates the space needed for guard insertion.
 
-### → [[Cross Body Ride]]
+### → [[Positions/Cross Body Ride]]
 
 Rebuild your turtle base by driving hips away from the pressure angle while keeping elbows tight and chin tucked. Deny the far hip control that enables the flatten by keeping your hips mobile and your base wide. Force the attacker to remain in cross body ride where you maintain more escape options than in side control.
 

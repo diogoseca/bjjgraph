@@ -180,7 +180,7 @@ description: "How to execute Triangle to Armbar in BJJ. Attacking perspective wi
 
 The Triangle to Armbar transition represents one of the most fundamental and high-percentage submission chains in Brazilian Jiu-Jitsu. When an opponent defends the triangle choke by maintaining proper posture or hand positioning, the armbar becomes immediately available because the trapped arm is already isolated. This transition capitalizes on the opponent's defensive response, creating a two-attack system where defending one submission opens the path to another. The technical execution requires precise angle adjustment, hip mobility, and control of the defending arm. Unlike standalone armbars, this variation benefits from the leg control already established during the triangle attempt, making escape significantly more difficult. The triangle-to-armbar system exemplifies the principle of submission chains where multiple attacks flow seamlessly based on the opponent's reactions, maximizing offensive pressure while minimizing energy expenditure.
 
-**From Position**: [[Triangle Control]] (Bottom)
+**From Position**: [[Positions/Triangle Control]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ The Triangle to Armbar transition represents one of the most fundamental and hig
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 55% |
-| Failure | [[Triangle Control]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Armbar Control]] | 55% |
+| Failure | [[Positions/Triangle Control]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -245,11 +245,11 @@ The Triangle to Armbar transition represents one of the most fundamental and hig
 
 ## Opponent Counters
 
-- **Opponent stacks forward aggressively during the pivot** (Effectiveness: Medium) - Your Response: Use the forward momentum to transition to omoplata instead by releasing the far leg and swinging it over their back, or maintain triangle control and reset the angle before attempting the armbar again → Leads to [[Triangle Control]]
-- **Opponent pulls their arm back and attempts to posture up explosively** (Effectiveness: High) - Your Response: Tighten triangle squeeze immediately and break posture down with head control grips, then wait for their next defensive attempt before re-initiating the transition with better arm isolation → Leads to [[Triangle Control]]
-- **Opponent rolls through the armbar attempting to escape or reverse** (Effectiveness: Low) - Your Response: Maintain grip on the arm and follow the roll, either finishing the belly-down armbar in the new position or transitioning to back control as they expose their back during the roll → Leads to [[Armbar Control]]
-- **Opponent keeps elbow tight to their body preventing arm isolation** (Effectiveness: Medium) - Your Response: Return to triangle choke pressure to force a response, use gift wrap control on the near arm, or attack the opposite arm with a wrist lock or kimura grip if it becomes available → Leads to [[Triangle Control]]
-- **Opponent stands up to create distance and break the triangle configuration** (Effectiveness: High) - Your Response: Maintain triangle lock, hang your weight to break posture back down, or transition to mounted triangle if they elevate significantly, using gravity and body weight as your primary tools → Leads to [[Closed Guard]]
+- **Opponent stacks forward aggressively during the pivot** (Effectiveness: Medium) - Your Response: Use the forward momentum to transition to omoplata instead by releasing the far leg and swinging it over their back, or maintain triangle control and reset the angle before attempting the armbar again → Leads to [[Positions/Triangle Control]]
+- **Opponent pulls their arm back and attempts to posture up explosively** (Effectiveness: High) - Your Response: Tighten triangle squeeze immediately and break posture down with head control grips, then wait for their next defensive attempt before re-initiating the transition with better arm isolation → Leads to [[Positions/Triangle Control]]
+- **Opponent rolls through the armbar attempting to escape or reverse** (Effectiveness: Low) - Your Response: Maintain grip on the arm and follow the roll, either finishing the belly-down armbar in the new position or transitioning to back control as they expose their back during the roll → Leads to [[Positions/Armbar Control]]
+- **Opponent keeps elbow tight to their body preventing arm isolation** (Effectiveness: Medium) - Your Response: Return to triangle choke pressure to force a response, use gift wrap control on the near arm, or attack the opposite arm with a wrist lock or kimura grip if it becomes available → Leads to [[Positions/Triangle Control]]
+- **Opponent stands up to create distance and break the triangle configuration** (Effectiveness: High) - Your Response: Maintain triangle lock, hang your weight to break posture back down, or transition to mounted triangle if they elevate significantly, using gravity and body weight as your primary tools → Leads to [[Positions/Closed Guard]]
 
 
 </section>

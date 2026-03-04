@@ -184,7 +184,7 @@ From an established lapel guard position, the practitioner uses the wrapped lape
 
 Strategically, this setup creates a powerful dilemma system. Opponents who posture aggressively to avoid the triangle expose themselves to sweeps from the lapel configuration. Those who stay low and heavy to prevent sweeping find their arm increasingly isolated and vulnerable to the triangle threat. This forced-choice dynamic makes the Lapel Triangle Setup a high-percentage attack against experienced practitioners who understand they cannot defend both options simultaneously.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -238,9 +238,9 @@ Strategically, this setup creates a powerful dilemma system. Opponents who postu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Control]] | 55% |
-| Failure | [[Lapel Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Triangle Control]] | 55% |
+| Failure | [[Positions/Lapel Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -249,10 +249,10 @@ Strategically, this setup creates a powerful dilemma system. Opponents who postu
 
 ## Opponent Counters
 
-- **Posture immediately when triangle threat is recognized, stacking weight forward to prevent hip movement** (Effectiveness: High) - Your Response: Use their forward stack momentum to elevate hips higher—their pressure aids your triangle entry. Alternatively, transition to omoplata as stacking opens that angle. → Leads to [[Lapel Guard]]
-- **Strip lapel grip before triangle leg can swing over, removing the arm isolation mechanism** (Effectiveness: High) - Your Response: Transition immediately to spider or lasso guard using the freed fabric. The grip break opens traditional guard options while you retain leg engagement. → Leads to [[Lapel Guard]]
-- **Circle toward the trapped arm side to change angle and relieve lapel pressure** (Effectiveness: Medium) - Your Response: Follow their rotation with your hips, using their movement to load a sweep. Their circling actually helps establish the perpendicular angle you need. → Leads to [[Lapel Guard]]
-- **Drive knee through the middle to split the guard and prevent leg from swinging over** (Effectiveness: Medium) - Your Response: Use the knee drive to off-balance them forward, then pummel your leg inside their knee to re-establish guard. Their forward commitment opens back take opportunities. → Leads to [[Half Guard]]
+- **Posture immediately when triangle threat is recognized, stacking weight forward to prevent hip movement** (Effectiveness: High) - Your Response: Use their forward stack momentum to elevate hips higher—their pressure aids your triangle entry. Alternatively, transition to omoplata as stacking opens that angle. → Leads to [[Positions/Lapel Guard]]
+- **Strip lapel grip before triangle leg can swing over, removing the arm isolation mechanism** (Effectiveness: High) - Your Response: Transition immediately to spider or lasso guard using the freed fabric. The grip break opens traditional guard options while you retain leg engagement. → Leads to [[Positions/Lapel Guard]]
+- **Circle toward the trapped arm side to change angle and relieve lapel pressure** (Effectiveness: Medium) - Your Response: Follow their rotation with your hips, using their movement to load a sweep. Their circling actually helps establish the perpendicular angle you need. → Leads to [[Positions/Lapel Guard]]
+- **Drive knee through the middle to split the guard and prevent leg from swinging over** (Effectiveness: Medium) - Your Response: Use the knee drive to off-balance them forward, then pummel your leg inside their knee to re-establish guard. Their forward commitment opens back take opportunities. → Leads to [[Positions/Half Guard]]
 
 
 </section>

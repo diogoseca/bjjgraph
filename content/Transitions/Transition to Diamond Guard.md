@@ -21,7 +21,7 @@ Executing this transition requires understanding the sequential grip establishme
 
 The strategic value of this transition lies in converting a position of balanced engagement into one of clear offensive superiority. While standard closed guard provides offensive options, the diamond frame creates submission dilemmas where defending any single threat necessarily opens another pathway. Mastering this transition builds the critical bridge between fundamental closed guard play and the advanced submission-chain attacks that define high-level guard work at purple belt and above.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ The strategic value of this transition lies in converting a position of balanced
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Diamond Guard]] | 45% |
-| Failure | [[Closed Guard]] | 35% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Closed Guard/Diamond Guard]] | 45% |
+| Failure | [[Positions/Closed Guard]] | 35% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Transition to Diamond Guard occupies a critical branching point in the close
 ## Related Techniques
 
 
-- [[Closed Guard]] - Source position — transition begins from standard closed guard bottom
+- [[Positions/Closed Guard]] - Source position — transition begins from standard closed guard bottom
 
-- [[Diamond Guard]] - Target position — successful transition establishes the diamond frame
+- [[Positions/Closed Guard/Diamond Guard]] - Target position — successful transition establishes the diamond frame
 
-- [[Overhook Guard]] - Related guard using overhook control — diamond guard adds head control to overhook concept
+- [[Positions/Overhook Guard]] - Related guard using overhook control — diamond guard adds head control to overhook concept
 
-- [[Open Guard]] - Counter outcome position if guard is opened during grip transition
+- [[Positions/Open Guard]] - Counter outcome position if guard is opened during grip transition
 
-- [[Hip Bump Sweep]] - Complementary sweep threat that creates dilemma — defending hip bump opens diamond entry
+- [[Transitions/Hip Bump Sweep]] - Complementary sweep threat that creates dilemma — defending hip bump opens diamond entry
 
-- [[Kimura from Diamond Guard]] - Primary submission chain accessible once diamond frame is established
+- [[Transitions/Kimura from Diamond Guard]] - Primary submission chain accessible once diamond frame is established
 
-- [[Guard Pass from Diamond Guard]] - Opponent's primary response to established diamond — understanding it informs transition timing
+- [[Transitions/Guard Pass from Diamond Guard]] - Opponent's primary response to established diamond — understanding it informs transition timing
 
-- [[Overhook Strip from Diamond Guard]] - Key defensive counter — understanding it reveals how to deepen overhook during entry
+- [[Transitions/Overhook Strip from Diamond Guard]] - Key defensive counter — understanding it reveals how to deepen overhook during entry
 
-- [[Rubber Guard]] - Related advanced guard concept using leg flexibility for similar head control objective
+- [[Positions/Rubber Guard]] - Related advanced guard concept using leg flexibility for similar head control objective
 
-- [[Kimura Trap]] - Alternative offensive grip system accessible from the overhook control component
+- [[Positions/Kimura Trap]] - Alternative offensive grip system accessible from the overhook control component
 
 
 </section>

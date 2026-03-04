@@ -146,7 +146,7 @@ description: "Master defending against the Leg Weave Pass Completion in BJJ. Rec
 
 Defending the Leg Weave Pass Completion requires recognizing the precise moment the passer commits to finishing and deploying the appropriate defensive response before the window closes. The defender's primary challenge is that the passer has already established significant control through the leg weave, and the completion phase represents the final opportunity to prevent consolidation into side control. Effective defense at this stage relies on early recognition of the passer's commitment, pre-positioned defensive structures, and decisive action within a narrow timing window. The defender must understand that passive resistance at this stage almost always results in a completed pass, and that active committed defensive movements are required even though they carry risk. The most successful defensive strategies involve redirecting the passer's momentum rather than opposing it directly, using the passer's forward drive to create openings for guard recovery, deep half entries, or positional reversals.
 
-**Opponent's Starting Position**: [[Leg Weave]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Weave]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Leg Weave Pass Completion requires recognizing the precise moment 
 ### 1. Frame against crossface and execute explosive hip escape to create space for knee shield insertion
 
 - **When to use**: Early in the completion attempt when the passer is just beginning to transition weight forward and you still have space to shrimp
-- **Targets**: [[Leg Weave]]
+- **Targets**: [[Positions/Leg Weave]]
 - **If successful**: Knee shield re-established, passer must restart the passing sequence from a disrupted leg weave position
 - **Risk**: If the hip escape is too late or too shallow, the passer drives through the weakened frame and completes the pass with even less resistance
 
 ### 2. Dive underneath for deep half guard entry by threading your head and torso under the passer's base
 
 - **When to use**: When the passer commits heavy forward pressure and their weight is concentrated over your upper body, creating space under their hips
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Transition to deep half guard where you have superior sweeping angles and the passer must abandon the completion entirely
 - **Risk**: If the deep half entry is incomplete, you end up partially underneath in a smashed position with less defensive structure than before
 
 ### 3. Secure underhook and drive to dogfight position by coming up on your elbow and hand while maintaining leg connection
 
 - **When to use**: When the passer's crossface is weak or you have successfully framed their head away, creating an opening for the underhook
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Achieve dogfight position where you can threaten sweeps and back takes, completely negating the pass completion attempt
 - **Risk**: Exposes your back if the underhook is shallow or the passer has strong head control, potentially leading to back take
 
 ### 4. Time an explosive bridge at the peak of the passer's weight transition to disrupt their balance and create recovery space
 
 - **When to use**: During the exact moment the passer's hips are in transit between the weave position and side control, when their base is most narrow
-- **Targets**: [[Leg Weave]]
+- **Targets**: [[Positions/Leg Weave]]
 - **If successful**: Passer must re-establish base and control, resetting the completion sequence and giving you time to improve defensive position
 - **Risk**: If mistimed, the bridge expends significant energy without creating enough disruption, and the passer settles into side control on the landing
 
@@ -217,11 +217,11 @@ Defending the Leg Weave Pass Completion requires recognizing the precise moment 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Weave]]
+### → [[Positions/Leg Weave]]
 
 Use frame-based defense with precise hip escaping to prevent the passer from completing the transition. Maintain your far-side hook and reinsert a knee shield or recover half guard frames that force the passer to restart their passing sequence from the leg weave position.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a deep half entry, underhook escape, or knee shield recovery during the passer's weight transition moment. Commit fully to one defensive movement and redirect the passer's forward momentum to create the space needed for guard recovery or positional improvement.
 

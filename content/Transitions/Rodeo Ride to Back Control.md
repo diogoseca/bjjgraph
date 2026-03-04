@@ -21,7 +21,7 @@ Strategically, this transition exploits a fundamental defensive dilemma in turtl
 
 The critical mechanical challenge lies in maintaining unbroken chest-to-back connection throughout the entire transition. Any separation during the hook insertion phase gives the bottom player space to execute escape sequences. Advanced practitioners address this by inserting hooks in sequence rather than simultaneously, using the first hook as an anchor to stabilize position while methodically working to secure the second hook and complete the transition. The seat belt grip establishment must happen in coordination with or immediately after the first hook insertion to prevent the opponent from exploiting the weight shift required for the second hook.
 
-**From Position**: [[Rodeo Ride]] (Top)
+**From Position**: [[Positions/Rodeo Ride]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The critical mechanical challenge lies in maintaining unbroken chest-to-back con
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Rodeo Ride]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Rodeo Ride]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,29 +193,29 @@ The Rodeo Ride to Back Control transition is the critical link between the turtl
 ## Related Techniques
 
 
-- [[Back Control]] - Primary target position achieved through this transition, providing 4 points and highest submission percentage
+- [[Positions/Back Control]] - Primary target position achieved through this transition, providing 4 points and highest submission percentage
 
-- [[Turtle]] - Defensive position the opponent occupies, from which Rodeo Ride control develops
+- [[Positions/Turtle]] - Defensive position the opponent occupies, from which Rodeo Ride control develops
 
-- [[Crab Ride]] - Alternative turtle attack position with complementary back take pathways
+- [[Positions/Crab Ride]] - Alternative turtle attack position with complementary back take pathways
 
-- [[Seat Belt Control Back]] - Upper body control configuration established during the transition sequence
+- [[Positions/Back Control/Seat Belt Control Back]] - Upper body control configuration established during the transition sequence
 
-- [[Harness]] - Grip control mechanism fundamental to maintaining connection during hook insertion
+- [[Positions/Harness]] - Grip control mechanism fundamental to maintaining connection during hook insertion
 
-- [[Half Guard]] - Position reached when opponent successfully counters the back take attempt
+- [[Positions/Half Guard]] - Position reached when opponent successfully counters the back take attempt
 
-- [[Crucifix]] - Alternative attacking position accessible from Rodeo Ride when back take is blocked
+- [[Positions/Crucifix]] - Alternative attacking position accessible from Rodeo Ride when back take is blocked
 
-- [[Body Triangle]] - Back control leg variation available after completing this transition
+- [[Positions/Back Control/Body Triangle]] - Back control leg variation available after completing this transition
 
-- [[Escape from Rodeo Ride]] - Defender's primary escape transition that this back take must overcome
+- [[Transitions/Escape from Rodeo Ride]] - Defender's primary escape transition that this back take must overcome
 
-- [[Calf Slicer from Rodeo Ride]] - Submission threat from Rodeo Ride that creates dilemma openings for hook insertion
+- [[Submissions/Calf Slicer from Rodeo Ride]] - Submission threat from Rodeo Ride that creates dilemma openings for hook insertion
 
-- [[Back Take]] - General back take transition category this technique belongs to
+- [[Transitions/Back Take]] - General back take transition category this technique belongs to
 
-- [[Rear Naked Choke]] - Primary follow-up submission after achieving back control through this transition
+- [[Transitions/Rear Naked Choke]] - Primary follow-up submission after achieving back control through this transition
 
 
 </section>

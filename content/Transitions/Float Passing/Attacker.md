@@ -174,7 +174,7 @@ description: "How to execute Float Passing in BJJ. Attacking perspective with se
 
 Float passing from the attacker's perspective is about maintaining constant lateral movement while staying light on your base, using grip control to manipulate the opponent's legs, and exploding through passing windows the instant they appear. The passer must resist the temptation to commit weight early, instead staying patient and mobile until the opponent's guard structure breaks down from constant angle changes. The floating phase is information gathering and structure breaking; the passing phase is explosive commitment. Success depends on reading the opponent's guard retention patterns, varying your movement rhythm to prevent anticipation, and transitioning immediately from floating to consolidated side control or knee on belly when the window opens. This passing style rewards practitioners with strong footwork, grip fighting ability, and the athletic capacity to sustain constant movement while maintaining precise leg control.
 
-**From Position**: [[Open Guard]] (Top)
+**From Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 
@@ -227,10 +227,10 @@ Float passing from the attacker's perspective is about maintaining constant late
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Success | [[Knee on Belly]] | 10% |
-| Failure | [[Open Guard]] | 25% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 55% |
+| Success | [[Positions/Knee on Belly]] | 10% |
+| Failure | [[Positions/Open Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -239,10 +239,10 @@ Float passing from the attacker's perspective is about maintaining constant late
 
 ## Opponent Counters
 
-- **Opponent establishes strong collar and sleeve grips to control distance** (Effectiveness: High) - Your Response: Break grips immediately using two-on-one grip breaks before resuming floating. If grips are deeply set, change levels to combat base to reduce their leverage, or transition to toreando passing which works well when opponent is gripping your collar. → Leads to [[Open Guard]]
-- **Opponent recovers guard with quick shrimping and hip escapes** (Effectiveness: Medium) - Your Response: Anticipate the shrimp by maintaining connection with your grips and following their hip movement. Float to the opposite side as they recover, using their shrimping momentum to create a new passing angle. Their recovery movement often opens the other side. → Leads to [[Open Guard]]
-- **Opponent sits up aggressively and pursues upper body control or wrestling ties** (Effectiveness: Medium) - Your Response: Use their forward commitment to change levels and circle behind them. As they sit up, their legs become less active in guard retention. Snap down to front headlock, or continue floating at a lower level from headquarters position. → Leads to [[Open Guard]]
-- **Opponent times a sweep during your lateral floating movement** (Effectiveness: High) - Your Response: Maintain proper base and weight distribution throughout the floating phase. If a sweep is initiated, immediately post your free hand, sprawl your hips back, and maintain at least one leg grip to prevent completion. Reset to standing rather than fighting the sweep from a compromised position. → Leads to [[Open Guard]]
+- **Opponent establishes strong collar and sleeve grips to control distance** (Effectiveness: High) - Your Response: Break grips immediately using two-on-one grip breaks before resuming floating. If grips are deeply set, change levels to combat base to reduce their leverage, or transition to toreando passing which works well when opponent is gripping your collar. → Leads to [[Positions/Open Guard]]
+- **Opponent recovers guard with quick shrimping and hip escapes** (Effectiveness: Medium) - Your Response: Anticipate the shrimp by maintaining connection with your grips and following their hip movement. Float to the opposite side as they recover, using their shrimping momentum to create a new passing angle. Their recovery movement often opens the other side. → Leads to [[Positions/Open Guard]]
+- **Opponent sits up aggressively and pursues upper body control or wrestling ties** (Effectiveness: Medium) - Your Response: Use their forward commitment to change levels and circle behind them. As they sit up, their legs become less active in guard retention. Snap down to front headlock, or continue floating at a lower level from headquarters position. → Leads to [[Positions/Open Guard]]
+- **Opponent times a sweep during your lateral floating movement** (Effectiveness: High) - Your Response: Maintain proper base and weight distribution throughout the floating phase. If a sweep is initiated, immediately post your free hand, sprawl your hips back, and maintain at least one leg grip to prevent completion. Reset to standing rather than fighting the sweep from a compromised position. → Leads to [[Positions/Open Guard]]
 
 
 </section>

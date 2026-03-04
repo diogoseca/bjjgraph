@@ -209,19 +209,19 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 
 ## Available Escapes
 
-### [[Defensive Roll]] (40% of attempts)
+### [[Transitions/Defensive Roll]] (40% of attempts)
 
-### [[Hip Escape to Guard]] (20% of attempts)
+### [[Transitions/Hip Escape to Guard]] (20% of attempts)
 
-### [[Arm Extraction]] (20% of attempts)
+### [[Transitions/Arm Extraction]] (20% of attempts)
 
-### [[Anaconda Grip Break to Front Headlock]] (10% of attempts)
+### [[Transitions/Anaconda Grip Break to Front Headlock]] (10% of attempts)
 
-### [[Frame and Posture from Anaconda]] (5% of attempts)
+### [[Transitions/Frame and Posture from Anaconda]] (5% of attempts)
 
-### [[Roll Defense from Anaconda]] (3% of attempts)
+### [[Transitions/Roll Defense from Anaconda]] (3% of attempts)
 
-### [[Rolling Escape from Anaconda]] (2% of attempts)
+### [[Transitions/Rolling Escape from Anaconda]] (2% of attempts)
 
 
 
@@ -232,27 +232,27 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 ## Decision Making from This Position
 
 **If opponent has secured anaconda grip but hasn't stepped over or rolled yet:**
-- Execute **[[Grip Break]]** → [[Front Headlock]] (Probability: 40%)
-- Execute **[[Hip Escape to Guard]]** → [[Turtle]] (Probability: 35%)
-- Execute **[[Arm Extraction]]** → [[Open Guard]] (Probability: 25%)
+- Execute **[[Transitions/Grip Break]]** → [[Positions/Front Headlock]] (Probability: 40%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Turtle]] (Probability: 35%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Open Guard]] (Probability: 25%)
 
 
 **If opponent begins stepping over your head to finish the choke:**
-- Execute **[[Rolling to Guard]]** → [[Half Guard]] (Probability: 30%)
-- Execute **[[Bridge and Roll]]** → [[Half Guard]] (Probability: 25%)
-- Execute **[[Counter Sweep]]** → [[Open Guard]] (Probability: 20%)
+- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Half Guard]] (Probability: 30%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Half Guard]] (Probability: 25%)
+- Execute **[[Transitions/Counter Sweep]]** → [[Positions/Open Guard]] (Probability: 20%)
 
 
 **If opponent attempts to roll you to complete the choke:**
-- Execute **[[Rolling Escape from Anaconda]]** → [[Turtle]] (Probability: 35%)
-- Execute **[[Arm Extraction]]** → [[Front Headlock]] (Probability: 30%)
-- Execute **[[Guard Pull]]** → [[Closed Guard]] (Probability: 25%)
+- Execute **[[Transitions/Rolling Escape from Anaconda]]** → [[Positions/Turtle]] (Probability: 35%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Front Headlock]] (Probability: 30%)
+- Execute **[[Transitions/Guard Pull]]** → [[Positions/Closed Guard]] (Probability: 25%)
 
 
 **If the choke is partially locked but opponent hasn't finished:**
-- Execute **[[Anaconda Grip Break to Front Headlock]]** → [[Front Headlock]] (Probability: 45%)
-- Execute **[[Hip Escape to Guard]]** → [[Turtle]] (Probability: 30%)
-- Execute **[[Rolling to Guard]]** → [[Half Guard]] (Probability: 25%)
+- Execute **[[Transitions/Anaconda Grip Break to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 45%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Turtle]] (Probability: 30%)
+- Execute **[[Transitions/Rolling to Guard]]** → [[Positions/Half Guard]] (Probability: 25%)
 
 
 
@@ -386,14 +386,14 @@ Partner has anaconda grip with moderate tightness. Bottom player focuses solely 
 
 ## Related Positions and Techniques
 
-- **[[Anaconda Choke]]** - Submission being defended - critical to understand finishing mechanics
-- **[[Front Headlock]]** - Precursor position - preventing anaconda grip from this position
-- **[[Darce Control]]** - Similar front headlock choke control requiring similar defensive concepts
-- **[[Guillotine Control]]** - Related front headlock submission requiring comparable escape principles
-- **[[Turtle]]** - Common starting position before anaconda control is established
-- **[[Anaconda from Turtle]]** - Transition that creates this position - understanding entry helps prevention
-- **[[Anaconda Grip Break to Front Headlock]]** - Primary grip-breaking escape transition from anaconda bottom
-- **[[Rolling Escape from Anaconda]]** - Key escape transition for recovering guard from anaconda bottom
+- **[[Transitions/Anaconda Choke]]** - Submission being defended - critical to understand finishing mechanics
+- **[[Positions/Front Headlock]]** - Precursor position - preventing anaconda grip from this position
+- **[[Positions/Darce Control]]** - Similar front headlock choke control requiring similar defensive concepts
+- **[[Positions/Guillotine Control]]** - Related front headlock submission requiring comparable escape principles
+- **[[Positions/Turtle]]** - Common starting position before anaconda control is established
+- **[[Transitions/Anaconda from Turtle]]** - Transition that creates this position - understanding entry helps prevention
+- **[[Transitions/Anaconda Grip Break to Front Headlock]]** - Primary grip-breaking escape transition from anaconda bottom
+- **[[Transitions/Rolling Escape from Anaconda]]** - Key escape transition for recovering guard from anaconda bottom
 
 
 </section>

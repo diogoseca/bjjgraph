@@ -156,7 +156,7 @@ Defending the Shin to Shin Pull requires awareness, timing, and decisive action 
 
 Successful defense operates on a timeline: the earlier you react, the more options you retain. Pre-pull defense involves grip fighting to deny the sleeve control they need and maintaining a stance that keeps your lead shin out of easy reach. Mid-pull defense focuses on backstep or circling movements that deny the shin angle while maintaining your balance. Post-pull defense—when they have already established connection—shifts to systematic clearing and immediate passing pressure before they can threaten sweeps or transitions. Understanding this timeline and matching your response to the appropriate phase is the key to neutralizing this increasingly common guard pulling strategy.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ Successful defense operates on a timeline: the earlier you react, the more optio
 ### 1. Backstep and disengage the lead leg by pulling it away from the shin contact point while simultaneously stripping the sleeve grip
 
 - **When to use**: As soon as you feel the opponent begin to sit and their shin reach toward your lead leg, before full connection is established
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You maintain standing position with neutral grips and your opponent is seated without effective guard structure, allowing you to re-engage on your terms or initiate passing
 - **Risk**: If you backstep too aggressively, you may lose balance or create distance that allows opponent to stand back up and reset the exchange
 
 ### 2. Drive forward with controlled pressure into the opponent's upper body as they sit, preventing them from establishing an upright seated posture and flattening their guard structure
 
 - **When to use**: When the opponent commits to sitting but has not yet consolidated strong shin angle and upper body grips simultaneously
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You flatten the guard player onto their back with compromised guard structure, establishing a dominant top position from which you can initiate passing sequences
 - **Risk**: If the guard player already has strong shin connection and sleeve grip, your forward pressure plays into their off-balancing mechanics and may result in being swept
 
 ### 3. Circle away from the shin-to-shin side while maintaining posture and upper body control, denying the perpendicular angle needed for effective shin connection
 
 - **When to use**: When the opponent has partially established shin contact but has not yet locked in the ideal perpendicular angle and you need to create a new angle to break the connection
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: You break the shin connection angle and force the guard player to readjust, buying time to establish passing grips or re-engage from a dominant angle
 - **Risk**: Excessive circling without addressing grips gives the guard player time to adjust their hip angle and re-establish connection or transition to De La Riva guard
 
 ### 4. Strip the controlling sleeve or wrist grip using a two-on-one break while simultaneously widening your base to resist off-balancing, then step your lead leg back out of range
 
 - **When to use**: When you recognize the grip establishment phase before the opponent begins sitting, as a pre-emptive denial of the pull's most critical prerequisite
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Without the sleeve grip, the opponent cannot generate effective off-balancing force and the shin connection alone is insufficient to threaten sweeps, forcing them to re-engage grip fighting
 - **Risk**: The two-on-one grip break momentarily ties up both your hands, creating a brief window where the opponent could switch to a different guard pull entry
 
@@ -227,11 +227,11 @@ Successful defense operates on a timeline: the earlier you react, the more optio
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Deny the shin connection through early backstep or circling movement while stripping the controlling sleeve grip, then maintain standing posture and re-engage grip fighting from a neutral position where you dictate the terms of engagement.
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Drive controlled forward pressure into the opponent as they commit to sitting, flattening their guard structure before they can establish the perpendicular shin angle. Immediately begin passing sequences while their guard is compromised and they lack the posture to generate sweeping force.
 

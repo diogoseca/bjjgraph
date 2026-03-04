@@ -178,7 +178,7 @@ The technique capitalizes on the stability provided by the body triangle, which 
 
 Strategically, the Short Choke fits into a systematic back attack game where you cycle between RNC attempts and collar chokes based on the opponent's defensive reactions. When they defend one attack, it often opens the other. The Short Choke is particularly effective in gi competition where collar access is readily available, and it requires less physical exertion than fighting for the deep RNC position. Elite practitioners use this choke as part of a continuous threat cycle that eventually overwhelms the defender's ability to protect all attack vectors simultaneously.
 
-**From Position**: [[Body Triangle]] (Bottom)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
 
@@ -230,8 +230,8 @@ Strategically, the Short Choke fits into a systematic back attack game where you
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Body Triangle]] | 25% |
-| Counter | [[Back Control]] | 10% |
+| Failure | [[Positions/Back Control/Body Triangle]] | 25% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, the Short Choke fits into a systematic back attack game where you
 
 ## Opponent Counters
 
-- **Two-on-one grip fighting where opponent uses both hands to strip your collar grip before the choke tightens** (Effectiveness: High) - Your Response: Transition immediately to armbar on the exposed arm since both their hands are occupied with grip breaking → Leads to [[Body Triangle]]
-- **Turning into you by rotating toward the choking arm to reduce pressure angle and create space** (Effectiveness: Medium) - Your Response: Follow the turn and transition to bow and arrow choke as their rotation gives you better pulling angle → Leads to [[Back Control]]
-- **Tucking chin extremely deep and hunching shoulders to create barrier against forearm blade** (Effectiveness: Medium) - Your Response: Use non-choking hand to push their forehead and extend their neck, or switch to clock choke variation → Leads to [[Body Triangle]]
-- **Bridge and roll attempt to reverse position while defending the choke** (Effectiveness: Low) - Your Response: Body triangle prevents effective rolling - increase squeeze and continue choke finish → Leads to [[Back Control]]
+- **Two-on-one grip fighting where opponent uses both hands to strip your collar grip before the choke tightens** (Effectiveness: High) - Your Response: Transition immediately to armbar on the exposed arm since both their hands are occupied with grip breaking → Leads to [[Positions/Back Control/Body Triangle]]
+- **Turning into you by rotating toward the choking arm to reduce pressure angle and create space** (Effectiveness: Medium) - Your Response: Follow the turn and transition to bow and arrow choke as their rotation gives you better pulling angle → Leads to [[Positions/Back Control]]
+- **Tucking chin extremely deep and hunching shoulders to create barrier against forearm blade** (Effectiveness: Medium) - Your Response: Use non-choking hand to push their forehead and extend their neck, or switch to clock choke variation → Leads to [[Positions/Back Control/Body Triangle]]
+- **Bridge and roll attempt to reverse position while defending the choke** (Effectiveness: Low) - Your Response: Body triangle prevents effective rolling - increase squeeze and continue choke finish → Leads to [[Positions/Back Control]]
 
 
 </section>

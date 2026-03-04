@@ -208,27 +208,27 @@ Escape pathways generally involve either explosive bridging to disrupt the trian
 
 ## Available Escapes
 
-### [[Bridge and Roll]] (11% of attempts)
+### [[Transitions/Bridge and Roll]] (11% of attempts)
 
-### [[Elbow Escape to Guard]] (35% of attempts)
+### [[Transitions/Elbow Escape to Guard]] (35% of attempts)
 
-### [[Granby Roll to Guard]] (5% of attempts)
+### [[Transitions/Granby Roll to Guard]] (5% of attempts)
 
-### [[Hip Escape to Guard]] (13% of attempts)
+### [[Transitions/Hip Escape to Guard]] (13% of attempts)
 
-### [[Upa Escape]] (9% of attempts)
+### [[Transitions/Upa Escape]] (9% of attempts)
 
-### [[Frame and Shrimp to Guard]] (12% of attempts)
+### [[Transitions/Frame and Shrimp to Guard]] (12% of attempts)
 
-### [[Shrimp Escape]] (5% of attempts)
+### [[Transitions/Shrimp Escape]] (5% of attempts)
 
-### [[Arm Extraction]] (6% of attempts)
+### [[Transitions/Arm Extraction]] (6% of attempts)
 
-### [[Bridge Defense from Mounted Triangle]] (2% of attempts)
+### [[Transitions/Bridge Defense from Mounted Triangle]] (2% of attempts)
 
-### [[Frame and Escape Mounted Triangle]] (1% of attempts)
+### [[Transitions/Frame and Escape Mounted Triangle]] (1% of attempts)
 
-### [[Posture Up from Mounted Triangle]] (1% of attempts)
+### [[Transitions/Posture Up from Mounted Triangle]] (1% of attempts)
 
 
 
@@ -239,23 +239,23 @@ Escape pathways generally involve either explosive bridging to disrupt the trian
 ## Decision Making from This Position
 
 **If opponent has loose triangle structure without full lock:**
-- Execute **[[Arm Extraction]]** → [[Mount]] (Probability: 40%)
-- Execute **[[Hip Escape to Guard]]** → [[Half Guard]] (Probability: 35%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Mount]] (Probability: 40%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 35%)
 
 
 **If opponent commits heavily to triangle finish with hips high:**
-- Execute **[[Bridge and Roll]]** → [[Closed Guard]] (Probability: 30%)
-- Execute **[[Granby Roll to Guard]]** → [[Turtle]] (Probability: 25%)
+- Execute **[[Transitions/Bridge and Roll]]** → [[Positions/Closed Guard]] (Probability: 30%)
+- Execute **[[Transitions/Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 25%)
 
 
 **If opponent transitions to armbar attempt from mounted triangle:**
-- Execute **[[Arm Extraction]]** → [[Mount]] (Probability: 35%)
-- Execute **[[Elbow Escape to Guard]]** → [[Half Guard]] (Probability: 30%)
+- Execute **[[Transitions/Arm Extraction]]** → [[Positions/Mount]] (Probability: 35%)
+- Execute **[[Transitions/Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 30%)
 
 
 **If opponent maintains stable mounted triangle with moderate pressure:**
-- Execute **[[Frame and Shrimp to Guard]]** → [[Open Guard]] (Probability: 35%)
-- Execute **[[Hip Escape to Guard]]** → [[Open Guard]] (Probability: 30%)
+- Execute **[[Transitions/Frame and Shrimp to Guard]]** → [[Positions/Open Guard]] (Probability: 35%)
+- Execute **[[Transitions/Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 30%)
 
 
 
@@ -389,13 +389,13 @@ Partner establishes mounted triangle and signals commitment to finishing angle. 
 
 ## Related Positions and Techniques
 
-- **[[Mount]]** - Parent position that mounted triangle develops from
-- **[[Triangle Control]]** - Related triangle position with similar defensive mechanics
-- **[[Armbar Control]]** - Common transition threat requiring parallel defensive awareness
-- **[[Turtle]]** - Recovery position during escape attempts from mounted triangle
-- **[[Bridge and Roll]]** - Primary explosive escape technique for disrupting mounted triangle structure
-- **[[Hip Escape to Guard]]** - Fundamental movement pattern for creating space and escaping mounted triangle
-- **[[Half Guard]]** - Common escape destination when creating space from mounted triangle
+- **[[Positions/Mount]]** - Parent position that mounted triangle develops from
+- **[[Positions/Triangle Control]]** - Related triangle position with similar defensive mechanics
+- **[[Positions/Armbar Control]]** - Common transition threat requiring parallel defensive awareness
+- **[[Positions/Turtle]]** - Recovery position during escape attempts from mounted triangle
+- **[[Transitions/Bridge and Roll]]** - Primary explosive escape technique for disrupting mounted triangle structure
+- **[[Transitions/Hip Escape to Guard]]** - Fundamental movement pattern for creating space and escaping mounted triangle
+- **[[Positions/Half Guard]]** - Common escape destination when creating space from mounted triangle
 
 
 </section>

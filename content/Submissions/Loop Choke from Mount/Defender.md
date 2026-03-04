@@ -156,7 +156,7 @@ description: "How to defend against Loop Choke from Mount in BJJ. Recognition, e
 
 Defending the Loop Choke from Mount requires immediate recognition and proactive collar defense, because once both grips are established and the diagonal vectors are applied, escape becomes extremely difficult. The defender faces a dual challenge: they must prevent the attacker from establishing deep collar penetration while simultaneously managing the fundamental threat of being mounted. Every defensive action against the collar exposes the arms to alternative attacks, creating a dilemma that skilled attackers exploit systematically. The key to survival lies in early intervention during the grip-setting phase rather than attempting to escape once the choke is locked. Defenders must prioritize collar protection with their near-side hand, maintain their chin tucked to block grip insertion, and use frames on the attacker's hips to prevent them from settling into the optimal finishing posture. When prevention fails, the escape window narrows rapidly, and defenders must choose between bridging to disrupt the attacker's base, stripping the lapel grip before the loop closes, or turning into the attacker to create scramble opportunities that trade mount for less dangerous positions.
 
-**Opponent's Starting Position**: [[Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount]] (Top)
 
 
 </section>
@@ -196,28 +196,28 @@ Defending the Loop Choke from Mount requires immediate recognition and proactive
 ### 1. Strip the deep collar grip before the loop is established by two-on-one grip breaking on the attacker's choking hand wrist
 
 - **When to use**: As soon as you feel fingers entering your collar - this is the highest percentage defense because it prevents the choke from forming entirely
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Attacker must restart their grip sequence, giving you time to re-establish defensive frames and collar protection
 - **Risk**: Extending both arms to strip the grip exposes them to armbar or Americana attacks if the grip break fails
 
 ### 2. Bridge explosively toward the deep-grip side when attacker reaches for the secondary lapel grip, exploiting the momentary base compromise
 
 - **When to use**: When the attacker releases one hand from base to grab the lapel - their posting hand is occupied, creating a structural weakness in their mount
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Bridge disrupts mount, potentially reversing to closed guard or creating enough space for guard recovery
 - **Risk**: If bridge fails, you've expended significant energy and the attacker may use the bridging motion to tighten the collar grip deeper
 
 ### 3. Turn into the attacker and drive your near shoulder into their chest to collapse the space needed for diagonal pulling vectors
 
 - **When to use**: When both grips are established but before full finishing pressure is applied - turning eliminates the angle required for the X-pattern finish
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Collapses the choke angle, forcing attacker to readjust or abandon the loop configuration, returning to neutral mount battle
 - **Risk**: Turning exposes your back and the attacker may transition to back control or technical mount with the collar grip still intact
 
 ### 4. Create maximum hip escape distance while simultaneously pulling the near-side lapel grip off with your free hand
 
 - **When to use**: When you feel the loop beginning to tighten but the attacker has not yet committed their full weight forward for the finish
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Breaking the lapel grip prevents the loop mechanism while hip escape creates distance to recover guard
 - **Risk**: Hip escape from mount is always risky and may not create enough distance before the choke tightens fully
 
@@ -240,11 +240,11 @@ Defending the Loop Choke from Mount requires immediate recognition and proactive
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time an explosive bridge to the moment the attacker shifts weight to establish the second grip, trapping their arm and leg on the same side for a full upa reversal that lands you in closed guard
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Strip the deep collar grip early using two-on-one grip breaking, then immediately re-establish defensive frames on the attacker's hips to return to a standard mount defense where you can work systematic escapes
 

@@ -21,7 +21,7 @@ The sweep works by combining a butterfly hook elevation with the pulling tension
 
 Strategically, the Lapel Elevator Sweep fits into the broader lapel guard attack system as a primary sweeping threat that creates dilemmas. Opponents who defend the sweep by keeping heavy base expose themselves to back takes and omoplata entries. Those who try to clear the lapel configuration first open windows for the sweep execution. This technique rewards patience and positional awareness over explosive athleticism.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Lapel Elevator Sweep fits into the broader lapel guard attack
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 65% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Mount]] | 65% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -185,23 +185,23 @@ The Lapel Elevator Sweep serves as a primary sweeping threat within the broader 
 ## Related Techniques
 
 
-- [[Lapel Guard]] - Starting position - establishes the lapel configuration required for this sweep
+- [[Positions/Lapel Guard]] - Starting position - establishes the lapel configuration required for this sweep
 
-- [[Worm Guard]] - Primary lapel variation - specific configuration for executing elevator sweep
+- [[Positions/Worm Guard]] - Primary lapel variation - specific configuration for executing elevator sweep
 
-- [[Mount]] - Target position - primary destination when sweep succeeds
+- [[Positions/Mount]] - Target position - primary destination when sweep succeeds
 
-- [[Butterfly Sweep]] - Technical foundation - shares hook elevation mechanics
+- [[Transitions/Butterfly Sweep]] - Technical foundation - shares hook elevation mechanics
 
-- [[Omoplata Control]] - Chain attack - available when opponent posts to defend sweep
+- [[Positions/Omoplata Control]] - Chain attack - available when opponent posts to defend sweep
 
-- [[Back Control]] - Alternative finish - available when opponent postures away
+- [[Positions/Back Control]] - Alternative finish - available when opponent postures away
 
-- [[Spider Guard]] - Backup position - transition option if lapel grip is stripped
+- [[Positions/Spider Guard]] - Backup position - transition option if lapel grip is stripped
 
-- [[Lasso Guard]] - Alternative guard - shares control principles with lapel systems
+- [[Positions/Lasso Guard]] - Alternative guard - shares control principles with lapel systems
 
-- [[De La Riva Guard]] - Entry position - common guard for initiating lapel extractions
+- [[Positions/De La Riva Guard]] - Entry position - common guard for initiating lapel extractions
 
 
 </section>

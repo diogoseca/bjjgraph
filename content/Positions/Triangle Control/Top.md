@@ -211,21 +211,21 @@ The defensive hierarchy from Triangle Control Top follows a clear priority seque
 
 ## Available Attacks
 
-### [[Triangle Escape]] (22% of attempts)
+### [[Transitions/Triangle Escape]] (22% of attempts)
 
-### [[Posture Recovery]] (16% of attempts)
+### [[Transitions/Posture Recovery]] (16% of attempts)
 
-### [[Stack Defense]] (12% of attempts)
+### [[Transitions/Stack Defense]] (12% of attempts)
 
-### [[Guard Recovery from Triangle Control]] (5% of attempts)
+### [[Transitions/Guard Recovery from Triangle Control]] (5% of attempts)
 
-### [[Triangle Clear to Side]] (5% of attempts)
+### [[Transitions/Triangle Clear to Side]] (5% of attempts)
 
-### [[Triangle Choke]] (37% of attempts)
+### [[Transitions/Triangle Choke]] (37% of attempts)
 
-### [[Posture Up from Triangle]] (2% of attempts)
+### [[Transitions/Posture Up from Triangle]] (2% of attempts)
 
-### [[Stack Escape from Triangle]] (1% of attempts)
+### [[Transitions/Stack Escape from Triangle]] (1% of attempts)
 
 
 
@@ -236,27 +236,27 @@ The defensive hierarchy from Triangle Control Top follows a clear priority seque
 ## Decision Making from This Position
 
 **If opponent has triangle locked but not yet extended hips for full pressure:**
-- Execute **[[Posture Recovery]]** → [[Open Guard]] (Probability: 45%)
-- Execute **[[Triangle Escape]]** → [[Closed Guard]] (Probability: 40%)
-- Execute **[[Stack Defense]]** → [[Open Guard]] (Probability: 30%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Triangle Escape]]** → [[Positions/Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Stack Defense]]** → [[Positions/Open Guard]] (Probability: 30%)
 
 
 **If opponent is actively finishing the choke with hip extension and head control:**
-- Execute **[[Triangle Escape]]** → [[Side Control]] (Probability: 35%)
-- Execute **[[Stack Defense]]** → [[Side Control]] (Probability: 25%)
-- Execute **[[Posture Recovery]]** → [[Open Guard]] (Probability: 20%)
+- Execute **[[Transitions/Triangle Escape]]** → [[Positions/Side Control]] (Probability: 35%)
+- Execute **[[Transitions/Stack Defense]]** → [[Positions/Side Control]] (Probability: 25%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 20%)
 
 
 **If opponent begins transitioning to armbar or omoplata from triangle:**
-- Execute **[[Triangle Escape]]** → [[Side Control]] (Probability: 45%)
-- Execute **[[Guard Recovery from Triangle Control]]** → [[Closed Guard]] (Probability: 35%)
-- Execute **[[Triangle Clear to Side]]** → [[Side Control]] (Probability: 30%)
+- Execute **[[Transitions/Triangle Escape]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Guard Recovery from Triangle Control]]** → [[Positions/Closed Guard]] (Probability: 35%)
+- Execute **[[Transitions/Triangle Clear to Side]]** → [[Positions/Side Control]] (Probability: 30%)
 
 
 **If opponent's triangle is loose or legs are not fully locked:**
-- Execute **[[Triangle Escape]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Posture Recovery]]** → [[Open Guard]] (Probability: 45%)
-- Execute **[[Triangle Clear to Side]]** → [[Side Control]] (Probability: 40%)
+- Execute **[[Transitions/Triangle Escape]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Triangle Clear to Side]]** → [[Positions/Side Control]] (Probability: 40%)
 
 
 
@@ -358,17 +358,17 @@ Start in triangle control with posture broken. Bottom player provides progressiv
 
 ## Related Positions and Techniques
 
-- **[[Triangle Escape]]** - Primary escape technique from this defensive position
-- **[[Triangle Choke Front]]** - Primary submission threat the defender faces from this position
-- **[[Posture Recovery]]** - Critical defensive technique for relieving choking pressure
-- **[[Stack Defense]]** - Alternative defensive approach using forward pressure against triangle
-- **[[Armbar Control]]** - Common transition target for the attacking opponent from triangle
-- **[[Omoplata Control]]** - Alternative submission threat the bottom player can transition to
-- **[[Triangle to Armbar]]** - Opponent's primary transition technique threatening armbar
-- **[[Triangle to Omoplata]]** - Opponent's transition option when defender attempts to stack
-- **[[Closed Guard]]** - Common escape destination after successful triangle defense
-- **[[Guard Recovery from Triangle Control]]** - Technique for re-establishing guard after partial escape
-- **[[Triangle Clear to Side]]** - Direct escape technique clearing triangle to pass
+- **[[Transitions/Triangle Escape]]** - Primary escape technique from this defensive position
+- **[[Submissions/Triangle Choke Front]]** - Primary submission threat the defender faces from this position
+- **[[Transitions/Posture Recovery]]** - Critical defensive technique for relieving choking pressure
+- **[[Transitions/Stack Defense]]** - Alternative defensive approach using forward pressure against triangle
+- **[[Positions/Armbar Control]]** - Common transition target for the attacking opponent from triangle
+- **[[Positions/Omoplata Control]]** - Alternative submission threat the bottom player can transition to
+- **[[Transitions/Triangle to Armbar]]** - Opponent's primary transition technique threatening armbar
+- **[[Transitions/Triangle to Omoplata]]** - Opponent's transition option when defender attempts to stack
+- **[[Positions/Closed Guard]]** - Common escape destination after successful triangle defense
+- **[[Transitions/Guard Recovery from Triangle Control]]** - Technique for re-establishing guard after partial escape
+- **[[Transitions/Triangle Clear to Side]]** - Direct escape technique clearing triangle to pass
 
 
 </section>

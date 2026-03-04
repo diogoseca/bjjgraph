@@ -21,7 +21,7 @@ When an opponent successfully defends the kneebar by bending their knee, maintai
 
 The technical challenge lies in maintaining continuous control throughout the reconfiguration. The attacker must release kneebar extension pressure while simultaneously threading their legs into the ashi-garami configuration, all without creating gaps that allow leg extraction. This requires coordinated movement between the arms, which maintain the leg grip, and the legs, which reconfigure from kneebar structure to ashi hooks. Timing is critical: initiating the transition too early wastes a viable kneebar attempt, while waiting too long allows the opponent to fully establish their defense and begin escaping.
 
-**From Position**: [[Kneebar Control]] (Top)
+**From Position**: [[Positions/Kneebar Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The technical challenge lies in maintaining continuous control throughout the re
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 55% |
-| Failure | [[Kneebar Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 55% |
+| Failure | [[Positions/Kneebar Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Kneebar to Ashi Garami transition occupies a critical junction in the modern
 ## Related Techniques
 
 
-- [[Kneebar Control]] - Source position from which this transition initiates when kneebar finish is defended
+- [[Positions/Kneebar Control]] - Source position from which this transition initiates when kneebar finish is defended
 
-- [[Inside Ashi-Garami]] - Primary target position providing access to heel hooks and ankle locks
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary target position providing access to heel hooks and ankle locks
 
-- [[Half Guard]] - Counter outcome position when opponent successfully escapes during transition
+- [[Positions/Half Guard]] - Counter outcome position when opponent successfully escapes during transition
 
-- [[Kneebar Control Maintenance]] - Alternative option when transition conditions are not met and kneebar control should be preserved
+- [[Transitions/Kneebar Control Maintenance]] - Alternative option when transition conditions are not met and kneebar control should be preserved
 
-- [[Kneebar to 50-50 Transition]] - Alternative leg reconfiguration pathway from defended kneebar to symmetrical entanglement
+- [[Transitions/Kneebar to 50-50 Transition]] - Alternative leg reconfiguration pathway from defended kneebar to symmetrical entanglement
 
-- [[Heel Hook]] - Primary submission threat available after successful transition to inside ashi-garami
+- [[Transitions/Heel Hook]] - Primary submission threat available after successful transition to inside ashi-garami
 
-- [[Straight Ankle Lock Entry]] - Foundational submission accessible from the target inside ashi-garami position
+- [[Transitions/Straight Ankle Lock Entry]] - Foundational submission accessible from the target inside ashi-garami position
 
-- [[Saddle]] - Advanced entanglement accessible through further progression from inside ashi-garami
+- [[Positions/Ashi Garami/Saddle]] - Advanced entanglement accessible through further progression from inside ashi-garami
 
-- [[Ashi Garami]] - Parent positional family encompassing the target position and related entanglements
+- [[Positions/Ashi Garami]] - Parent positional family encompassing the target position and related entanglements
 
-- [[Inside Ashi Entry]] - Related transition sharing the same target position through different entry mechanics
+- [[Transitions/Inside Ashi Entry]] - Related transition sharing the same target position through different entry mechanics
 
 
 </section>

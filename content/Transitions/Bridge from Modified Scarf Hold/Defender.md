@@ -140,7 +140,7 @@ description: "Defend against bridge escapes from Modified Scarf Hold top. Learn 
 
 As the defender against the Bridge from Modified Scarf Hold, you are the top player who must maintain your dominant pinning position against explosive escape attempts. Your primary tools are anticipatory weight distribution, dynamic base adjustment, and the ability to convert failed escape attempts into positional advancement. The bridge is your opponent's strongest escape weapon from this position, generating forces that can exceed your body weight, so defeating it requires technique and timing rather than brute force resistance. Skilled defenders learn to read bridge telegraphs before they launch, adjust pressure angles to neutralize directional bridges, and use the space created by bridge attempts to advance to mount or north-south rather than fighting to re-establish the original pin.
 
-**Opponent's Starting Position**: [[Modified Scarf Hold]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control/Modified Scarf Hold]] (Bottom)
 
 </section>
 
@@ -178,21 +178,21 @@ As the defender against the Bridge from Modified Scarf Hold, you are the top pla
 ### 1. Sprawl and drive chest weight downward while widening base
 
 - **When to use**: At the first sign of bridge preparation cues such as foot repositioning or core tensing, before the bridge launches
-- **Targets**: [[Modified Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Modified Scarf Hold]]
 - **If successful**: Opponent's bridge attempt is smothered before generating meaningful force, draining their energy without positional change
 - **Risk**: If mistimed, the sprawl can create momentary space that a well-timed bridge exploits
 
 ### 2. Walk knees forward to transition to mount as bridge creates space
 
 - **When to use**: When the bridge elevates opponent's hips creating space between bodies that makes re-settling Modified Scarf Hold difficult
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Convert opponent's escape energy into positional advancement, arriving in mount which is an even more dominant position
 - **Risk**: If opponent recognizes the mount transition, they may insert a knee to recover half guard
 
 ### 3. Post arm on the mat in the bridge direction to anchor base and block rotation
 
 - **When to use**: When you detect the directional intent of the bridge based on opponent's frame placement and head turn
-- **Targets**: [[Modified Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Modified Scarf Hold]]
 - **If successful**: Bridge rotation is blocked by your posted arm, and opponent falls back to bottom with depleted energy
 - **Risk**: Committing the post to one side creates vulnerability on the opposite side if opponent switches bridge direction
 
@@ -204,11 +204,11 @@ As the defender against the Bridge from Modified Scarf Hold, you are the top pla
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When you feel the bridge creating space between your chest and opponent's chest, immediately walk your knees over their hips while they are elevated. Use their upward momentum to slide into mount position rather than fighting to maintain Modified Scarf Hold from a compromised base.
 
-### → [[Modified Scarf Hold]]
+### → [[Positions/Side Control/Modified Scarf Hold]]
 
 Counter the bridge by dropping your chest weight and driving hips forward into the bridge force at the earliest detection. After the bridge fails, re-establish deeper chest pressure with improved arm control to punish the energy expenditure and reduce future escape probability.
 

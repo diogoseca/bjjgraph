@@ -184,7 +184,7 @@ From High Mount, the Arm Triangle becomes available when the opponent attempts t
 
 Strategically, the Arm Triangle serves as a cornerstone technique that chains seamlessly with other attacks. When opponents defend by keeping elbows tight to prevent the arm from crossing, they expose themselves to americanas and collar chokes. When they extend arms to create frames, they create the exact opening needed for the Arm Triangle setup. This dilemma-based approach makes the Arm Triangle particularly effective at higher levels where opponents understand the danger but must choose which submission to defend.
 
-**From Position**: [[High Mount]] (Top)
+**From Position**: [[Positions/Mount/High Mount]] (Top)
 
 </section>
 
@@ -236,9 +236,9 @@ Strategically, the Arm Triangle serves as a cornerstone technique that chains se
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Darce Control]] | 58% |
-| Failure | [[High Mount]] | 30% |
-| Counter | [[Half Guard]] | 12% |
+| Success | [[Positions/Darce Control]] | 58% |
+| Failure | [[Positions/Mount/High Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>
@@ -247,10 +247,10 @@ Strategically, the Arm Triangle serves as a cornerstone technique that chains se
 
 ## Opponent Counters
 
-- **Frame on bicep and create space before arm crosses centerline** (Effectiveness: High) - Your Response: Switch to americana or kimura attack on the framing arm, or use their extended arm for armbar setup → Leads to [[High Mount]]
-- **Turn into the attacker and attempt to come to knees before choke is locked** (Effectiveness: Medium) - Your Response: Follow their turn and transition to back control, or maintain the choke grip and finish from back mount → Leads to [[Half Guard]]
-- **Extract trapped arm by turning shoulder and pulling elbow back before grip connects** (Effectiveness: Medium) - Your Response: Immediately attack the exposed neck with cross collar choke or transition to gift wrap control → Leads to [[High Mount]]
-- **Bridge explosively during dismount transition to destabilize position** (Effectiveness: Low) - Your Response: Maintain heavy hip pressure and sprawl into the choke, or abandon dismount and retain mount → Leads to [[Half Guard]]
+- **Frame on bicep and create space before arm crosses centerline** (Effectiveness: High) - Your Response: Switch to americana or kimura attack on the framing arm, or use their extended arm for armbar setup → Leads to [[Positions/Mount/High Mount]]
+- **Turn into the attacker and attempt to come to knees before choke is locked** (Effectiveness: Medium) - Your Response: Follow their turn and transition to back control, or maintain the choke grip and finish from back mount → Leads to [[Positions/Half Guard]]
+- **Extract trapped arm by turning shoulder and pulling elbow back before grip connects** (Effectiveness: Medium) - Your Response: Immediately attack the exposed neck with cross collar choke or transition to gift wrap control → Leads to [[Positions/Mount/High Mount]]
+- **Bridge explosively during dismount transition to destabilize position** (Effectiveness: Low) - Your Response: Maintain heavy hip pressure and sprawl into the choke, or abandon dismount and retain mount → Leads to [[Positions/Half Guard]]
 
 
 </section>

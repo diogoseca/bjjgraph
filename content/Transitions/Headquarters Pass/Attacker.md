@@ -174,7 +174,7 @@ description: "How to execute Headquarters Pass in BJJ. Attacking perspective wit
 
 The Headquarters Pass is a fundamental position and passing sequence that establishes dominant control over the half guard player before advancing to side control. This position, popularized by modern no-gi grapplers, creates a stable platform where the passer controls the opponent's legs while maintaining strong shoulder pressure and crossface control. The headquarters position neutralizes most half guard retention strategies by controlling the opponent's bottom leg and preventing them from creating frames or recovering full guard. From this controlling position, the passer can systematically break down the opponent's defenses and transition to side control with minimal risk of being swept or re-guarded. The headquarters pass is particularly effective because it allows the passer to pause, assess the opponent's defensive reactions, and choose from multiple finishing options based on how the opponent responds.
 
-**From Position**: [[Headquarters Position]] (Top)
+**From Position**: [[Positions/Headquarters Position]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The Headquarters Pass is a fundamental position and passing sequence that establ
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 75% |
-| Failure | [[Headquarters Position]] | 15% |
-| Counter | [[Headquarters Position]] | 10% |
+| Success | [[Positions/Side Control]] | 75% |
+| Failure | [[Positions/Headquarters Position]] | 15% |
+| Counter | [[Positions/Headquarters Position]] | 10% |
 
 
 </section>
@@ -238,10 +238,10 @@ The Headquarters Pass is a fundamental position and passing sequence that establ
 
 ## Opponent Counters
 
-- **Opponent establishes strong underhook and drives into you** (Effectiveness: High) - Your Response: Circle your hips away from the underhook, maintain crossface pressure, and transition to a different passing angle or establish a whizzer control to neutralize the underhook → Leads to [[Headquarters Position]]
-- **Opponent recovers knee shield or frames against your hip** (Effectiveness: Medium) - Your Response: Use knee cut or long step variation to move around the frame, maintain shoulder pressure, and control the framing arm to prevent effective defensive structure → Leads to [[Headquarters Position]]
-- **Opponent attempts to sit up or create angle** (Effectiveness: Medium) - Your Response: Increase crossface pressure, drive your weight forward onto their chest, and stuff their head back to the mat while maintaining leg control → Leads to [[Headquarters Position]]
-- **Opponent attempts deep half guard entry** (Effectiveness: Low) - Your Response: Keep your hips low and forward, maintain near leg control, and if necessary transition to headquarters position with better leg isolation before continuing the pass → Leads to [[Headquarters Position]]
+- **Opponent establishes strong underhook and drives into you** (Effectiveness: High) - Your Response: Circle your hips away from the underhook, maintain crossface pressure, and transition to a different passing angle or establish a whizzer control to neutralize the underhook → Leads to [[Positions/Headquarters Position]]
+- **Opponent recovers knee shield or frames against your hip** (Effectiveness: Medium) - Your Response: Use knee cut or long step variation to move around the frame, maintain shoulder pressure, and control the framing arm to prevent effective defensive structure → Leads to [[Positions/Headquarters Position]]
+- **Opponent attempts to sit up or create angle** (Effectiveness: Medium) - Your Response: Increase crossface pressure, drive your weight forward onto their chest, and stuff their head back to the mat while maintaining leg control → Leads to [[Positions/Headquarters Position]]
+- **Opponent attempts deep half guard entry** (Effectiveness: Low) - Your Response: Keep your hips low and forward, maintain near leg control, and if necessary transition to headquarters position with better leg isolation before continuing the pass → Leads to [[Positions/Headquarters Position]]
 
 
 </section>

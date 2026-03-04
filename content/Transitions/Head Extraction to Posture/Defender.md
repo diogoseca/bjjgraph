@@ -162,7 +162,7 @@ As the bottom player holding gogoplata control, your objective when the opponent
 
 The critical window for defensive action occurs when the top player begins addressing your foot position. Once they start pushing the foot laterally, you have a narrow timeframe to either deepen the foot, elevate your hips to restore compression angle, or redirect to an alternative submission. Understanding this timing allows you to layer your defensive responses: first maintain the gogoplata, then transition to triangle if the shin slides, and finally redirect to omoplata if they turn into the attacking leg. This three-layer response system ensures that even a partially successful extraction attempt by the opponent opens them to secondary threats that maintain your offensive control throughout the exchange.
 
-**Opponent's Starting Position**: [[Gogoplata Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Gogoplata Control]] (Top)
 
 </section>
 
@@ -197,35 +197,35 @@ The critical window for defensive action occurs when the top player begins addre
 ### 1. Elevate hips and pull foot deeper behind opponent's head using both hands to re-tighten the closed-loop configuration
 
 - **When to use**: When opponent begins driving hips forward to flatten your angle or when you feel shin pressure decreasing
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Restores full gogoplata compression and resets the opponent's escape progress to zero, forcing them to restart the extraction sequence
 - **Risk**: If opponent has already loosened the foot significantly, attempting to re-tighten may fail and waste the transition window to triangle
 
 ### 2. Transition to triangle by switching leg configuration as the shin begins sliding off the throat, locking ankles in triangle position
 
 - **When to use**: When the opponent successfully loosens the foot behind the head and begins lateral head extraction, making gogoplata maintenance unlikely
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Establishes triangle control which is a high-percentage submission position with its own submission chain including armbar and omoplata transitions
 - **Risk**: If opponent maintains strong forward posture during the transition, they may stack through the triangle attempt and achieve top position
 
 ### 3. Redirect to omoplata by releasing the gogoplata configuration and capturing the opponent's arm as they turn toward the attacking leg
 
 - **When to use**: When the opponent turns their shoulder toward your shin during extraction, exposing their arm and shoulder angle for omoplata entry
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Captures the opponent in omoplata control where you can sweep, submit, or transition to back control from their compromised shoulder position
 - **Risk**: If opponent recognizes the redirect early and pulls their arm free while posturing, you may end up in open guard without offensive control
 
 ### 4. Grip the back of opponent's head with both hands and curl them forward while squeezing knees together to prevent any postural recovery
 
 - **When to use**: Early in the escape attempt when opponent first begins trying to create breathing space by turning their chin
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Prevents the opponent from completing even the first step of the extraction by maintaining broken posture and direct trachea compression
 - **Risk**: Removing hands from your own foot to grip their head may allow them to push the foot loose more easily if your foot position is shallow
 
 ### 5. Use your free leg to hook behind opponent's far knee and sweep them laterally while maintaining shin pressure across their throat
 
 - **When to use**: When opponent commits both hands to your hips for forward driving pressure, removing their base for lateral stability
-- **Targets**: [[Gogoplata Control]]
+- **Targets**: [[Positions/Gogoplata Control]]
 - **If successful**: Off-balances the opponent laterally which disrupts their forward pressure and resets them into a compromised position where the gogoplata pressure increases
 - **Risk**: The sweeping motion may momentarily reduce your own hip elevation, creating a brief window where shin angle weakens
 
@@ -237,11 +237,11 @@ The critical window for defensive action occurs when the top player begins addre
 
 ## Best-Case Outcomes for Defender
 
-### → [[Gogoplata Control]]
+### → [[Positions/Gogoplata Control]]
 
 Maintain hip elevation and pull foot deeper behind their head whenever they create looseness. Control their posture by gripping the back of their head and curling them forward. Squeeze knees together to maintain perpendicular shin alignment. The moment they begin driving forward, elevate hips higher to restore compression angle.
 
-### → [[Triangle Control]]
+### → [[Positions/Triangle Control]]
 
 As the shin begins sliding off the throat during their extraction, immediately transition by bringing your opposite leg over their shoulder while the foot that was behind their head assists in locking the triangle. Time this transition to the moment their head begins moving laterally, using their extraction momentum to help set the triangle lock before they can recover posture.
 

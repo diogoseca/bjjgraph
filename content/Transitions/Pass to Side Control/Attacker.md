@@ -184,7 +184,7 @@ The fundamental challenge of this pass is extracting your legs from the symmetri
 
 This transition exemplifies the principle that positional dominance sometimes outweighs submission hunting. Against defensive opponents who excel at heel protection, repeatedly attacking leg locks may waste energy with diminishing returns. Recognizing when to abandon the entanglement and advance position separates intermediate practitioners from advanced ones. The 3 points earned for the pass often proves more valuable than continued position-neutral leg lock exchanges.
 
-**From Position**: [[50-50 Guard]] (Top)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
 
@@ -236,9 +236,9 @@ This transition exemplifies the principle that positional dominance sometimes ou
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[50-50 Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 10% |
 
 
 </section>
@@ -247,10 +247,10 @@ This transition exemplifies the principle that positional dominance sometimes ou
 
 ## Opponent Counters
 
-- **Re-capturing legs by hooking your extracting leg before it clears** (Effectiveness: High) - Your Response: If opponent begins to re-hook, immediately return to chest pressure and restart grip fighting sequence. Do not force extraction against active leg defense. → Leads to [[50-50 Guard]]
-- **Hip escape and knee insertion during transition to recover half guard** (Effectiveness: Medium) - Your Response: Keep constant forward pressure and use your knee on their hip to block insertion. If they start hip escaping, accelerate your pass to beat their recovery timing. → Leads to [[Side Control]]
-- **Sitting up during extraction to reach for leg attacks on your partially cleared leg** (Effectiveness: Medium) - Your Response: Drive crossface aggressively to flatten them. Your chest weight should prevent sit-up; if they manage to rise, abort pass and re-establish 50-50 top pressure. → Leads to [[50-50 Guard]]
-- **Inverting or granby rolling to follow your movement and re-establish guard** (Effectiveness: Low) - Your Response: Follow their rotation with your pressure, staying heavy on their chest throughout. Their inversion creates back exposure that you can exploit by circling to their back instead of completing side control. → Leads to [[50-50 Guard]]
+- **Re-capturing legs by hooking your extracting leg before it clears** (Effectiveness: High) - Your Response: If opponent begins to re-hook, immediately return to chest pressure and restart grip fighting sequence. Do not force extraction against active leg defense. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Hip escape and knee insertion during transition to recover half guard** (Effectiveness: Medium) - Your Response: Keep constant forward pressure and use your knee on their hip to block insertion. If they start hip escaping, accelerate your pass to beat their recovery timing. → Leads to [[Positions/Side Control]]
+- **Sitting up during extraction to reach for leg attacks on your partially cleared leg** (Effectiveness: Medium) - Your Response: Drive crossface aggressively to flatten them. Your chest weight should prevent sit-up; if they manage to rise, abort pass and re-establish 50-50 top pressure. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Inverting or granby rolling to follow your movement and re-establish guard** (Effectiveness: Low) - Your Response: Follow their rotation with your pressure, staying heavy on their chest throughout. Their inversion creates back exposure that you can exploit by circling to their back instead of completing side control. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 
 
 </section>

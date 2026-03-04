@@ -182,7 +182,7 @@ description: "Master the Estima Lock Finish from the attacker perspective. Step-
 
 Executing the Estima Lock Finish requires precise mechanical understanding of the inverted footlock's rotational submission mechanics. The attacker must consolidate positional control before initiating the finishing sequence, ensuring the figure-four grip is secure, hip pressure is established against the opponent's calf as a fulcrum, and the opponent's free leg is neutralized. The finish relies on progressive rotational pressure rather than explosive force, making mechanical precision the primary determinant of success. Understanding when to persist with the finish versus transitioning to alternative leg attacks such as toe holds or ankle locks is essential for maintaining offensive momentum against skilled defenders who employ counter-rotation and framing defenses.
 
-**From Position**: [[Estima Lock]] (Top)
+**From Position**: [[Positions/Estima Lock]] (Top)
 
 
 </section>
@@ -236,8 +236,8 @@ Executing the Estima Lock Finish requires precise mechanical understanding of th
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Estima Lock]] | 30% |
-| Counter | [[50-50 Guard]] | 20% |
+| Failure | [[Positions/Estima Lock]] | 30% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 20% |
 
 
 </section>
@@ -246,10 +246,10 @@ Executing the Estima Lock Finish requires precise mechanical understanding of th
 
 ## Opponent Defenses
 
-- **Opponent counter-rotates ankle to neutralize rotational torque** (Effectiveness: High) - Your Response: Increase hip pressure against the calf to amplify the fulcrum, or transition to a toe hold when the counter-rotation exposes the toes at a favorable attack angle → Leads to [[Estima Lock]]
-- **Opponent pushes your hips away with free leg to create distance and reduce fulcrum pressure** (Effectiveness: Medium) - Your Response: Use your legs to trap or redirect their free leg before it establishes the frame, or follow their hip push by scooting your body forward to re-establish hip contact with the calf → Leads to [[50-50 Guard]]
-- **Opponent strips figure-four grip using two-on-one hand fighting on your controlling hand** (Effectiveness: High) - Your Response: Re-secure the grip immediately before they can complete extraction, or transition to an alternative grip configuration that maintains foot control while adjusting to their grip break angle → Leads to [[Estima Lock]]
-- **Opponent sits up and establishes frames on your hips while beginning leg retraction** (Effectiveness: Medium) - Your Response: Drive them flat with increased hip pressure and upper body weight, or accept the positional change and transition to ashi garami or saddle position to maintain offensive leg entanglement → Leads to [[50-50 Guard]]
+- **Opponent counter-rotates ankle to neutralize rotational torque** (Effectiveness: High) - Your Response: Increase hip pressure against the calf to amplify the fulcrum, or transition to a toe hold when the counter-rotation exposes the toes at a favorable attack angle → Leads to [[Positions/Estima Lock]]
+- **Opponent pushes your hips away with free leg to create distance and reduce fulcrum pressure** (Effectiveness: Medium) - Your Response: Use your legs to trap or redirect their free leg before it establishes the frame, or follow their hip push by scooting your body forward to re-establish hip contact with the calf → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent strips figure-four grip using two-on-one hand fighting on your controlling hand** (Effectiveness: High) - Your Response: Re-secure the grip immediately before they can complete extraction, or transition to an alternative grip configuration that maintains foot control while adjusting to their grip break angle → Leads to [[Positions/Estima Lock]]
+- **Opponent sits up and establishes frames on your hips while beginning leg retraction** (Effectiveness: Medium) - Your Response: Drive them flat with increased hip pressure and upper body weight, or accept the positional change and transition to ashi garami or saddle position to maintain offensive leg entanglement → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 
 
 </section>

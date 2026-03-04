@@ -154,7 +154,7 @@ description: "Defend the armbar from clamp guard in BJJ. Recognition cues, escap
 
 When your arm is trapped in a clamp guard, the armbar is the primary threat you must anticipate and neutralize. As the defender, your objective is twofold: prevent the transition from clamp to armbar control, and if caught mid-transition, survive long enough to escape before the finish. The critical moment occurs when the attacker swings their leg over your head — this is simultaneously the most dangerous instant and your best opportunity to extract your arm, because the clamp must momentarily loosen to allow the leg to reposition. Recognizing the setup cues before the swing begins, maintaining your posture throughout, and timing your extraction to exploit the transition gap are the keys to consistent defense against this attack. The defender who reads the hip angle change and reacts before the leg swing has a dramatically higher survival rate than one who waits until the armbar is already established.
 
-**Opponent's Starting Position**: [[Clamp Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Clamp Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ When your arm is trapped in a clamp guard, the armbar is the primary threat you 
 ### 1. Explosive posture recovery and arm retraction during the leg swing
 
 - **When to use**: The instant you feel the attacker's hip angle change or see their outside leg begin to lift, immediately drive your posture upward and pull your trapped arm back toward your body
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Your arm extracts from the loosened clamp during the transition window, and the attacker falls back to open guard without armbar control. You are now in open guard top position with passing opportunities.
 - **Risk**: If your timing is late and the leg has already cleared your head, posturing up can actually extend your arm into the armbar rather than extracting it.
 
 ### 2. Stack and drive forward through the leg swing
 
 - **When to use**: When the attacker has already initiated the leg swing and extraction is not possible, immediately drive your weight forward and stack their hips upward to compromise the armbar angle
-- **Targets**: [[Clamp Guard]]
+- **Targets**: [[Positions/Clamp Guard]]
 - **If successful**: The forward pressure prevents the attacker from establishing perpendicular hip alignment, degrading their armbar leverage. From the stacked position, you can work to extract your arm or force them to abandon the armbar for a less threatening position.
 - **Risk**: Driving forward with your head down can expose you to a triangle if the attacker transitions their leg from armbar to triangle position.
 
 ### 3. Grip the attacking leg and turn into the armbar
 
 - **When to use**: When the leg has already crossed over your head and the armbar is partially established but the attacker's hips are not yet tight to your shoulder
-- **Targets**: [[Clamp Guard]]
+- **Targets**: [[Positions/Clamp Guard]]
 - **If successful**: Controlling the leg across your face and turning your body toward the trapped arm removes the attacker's finishing leverage and creates an opportunity to extract your arm or recover to a neutral position within the clamp.
 - **Risk**: If the attacker's hips are already tight and knees pinched, turning in can actually tighten the armbar rather than loosening it.
 
 ### 4. Strip the wrist grip before the transition begins
 
 - **When to use**: When you recognize the early setup cues — hip angle change, far hand moving to posture break — and the leg swing has not yet initiated
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Without wrist control, the attacker cannot maintain arm isolation during the leg swing, and the armbar entry collapses. You can then work on extracting your arm from the clamp entirely.
 - **Risk**: Focusing on grip stripping may take your free hand away from posting, momentarily compromising your base against sweeps.
 
@@ -225,11 +225,11 @@ When your arm is trapped in a clamp guard, the armbar is the primary threat you 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Time your arm retraction to the exact moment the attacker's clamping leg loosens to allow the outside leg to swing. This transition gap lasts less than one second but provides a window where the clamp force drops significantly. Combine the retraction with an explosive upward posture recovery to create maximum extraction force. Breaking the wrist grip before or during this moment dramatically increases extraction success.
 
-### → [[Clamp Guard]]
+### → [[Positions/Clamp Guard]]
 
 If full extraction is not possible, stack the attacker's hips by driving forward while keeping your elbow bent and tight to your body. The stacking pressure prevents them from establishing perpendicular hip alignment needed for the armbar finish. From this stacked position, work to turn your body toward the trapped arm and walk your feet toward their head to increase pressure until they abandon the armbar attempt and you return to the clamp guard engagement.
 

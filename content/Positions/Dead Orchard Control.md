@@ -89,21 +89,21 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 ### Available Transitions
 
 
-- **[[Shrimp Escape]]** (33% of attempts)
+- **[[Transitions/Shrimp Escape]]** (33% of attempts)
 
-- **[[Rolling to Guard]]** (18% of attempts)
+- **[[Transitions/Rolling to Guard]]** (18% of attempts)
 
-- **[[Granby Roll to Guard]]** (11% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (11% of attempts)
 
-- **[[Arm Extraction]]** (19% of attempts)
+- **[[Transitions/Arm Extraction]]** (19% of attempts)
 
-- **[[Hip Escape to Guard]]** (11% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (11% of attempts)
 
-- **[[Escape Dead Orchard Control]]** (5% of attempts)
+- **[[Transitions/Escape Dead Orchard Control]]** (5% of attempts)
 
-- **[[Roll from Dead Orchard]]** (2% of attempts)
+- **[[Transitions/Roll from Dead Orchard]]** (2% of attempts)
 
-- **[[Escape from Dead Orchard]]** (1% of attempts)
+- **[[Transitions/Escape from Dead Orchard]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -168,21 +168,21 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 ### Available Transitions
 
 
-- **[[Anaconda Choke]]** (35% of attempts)
+- **[[Transitions/Anaconda Choke]]** (35% of attempts)
 
-- **[[Darce from Turtle]]** (13% of attempts)
+- **[[Transitions/Darce from Turtle]]** (13% of attempts)
 
-- **[[Front Headlock to Back]]** (18% of attempts)
+- **[[Transitions/Front Headlock to Back]]** (18% of attempts)
 
-- **[[Side Control to Mount]]** (18% of attempts)
+- **[[Transitions/Side Control to Mount]]** (18% of attempts)
 
-- **[[Side Control to North-South]]** (8% of attempts)
+- **[[Transitions/Side Control to North-South]]** (8% of attempts)
 
-- **[[Dead Orchard to Anaconda Finish]]** (4% of attempts)
+- **[[Transitions/Dead Orchard to Anaconda Finish]]** (4% of attempts)
 
-- **[[Dead Orchard to Darce Switch]]** (2% of attempts)
+- **[[Transitions/Dead Orchard to Darce Switch]]** (2% of attempts)
 
-- **[[Anaconda Finish from Dead Orchard]]** (2% of attempts)
+- **[[Submissions/Anaconda Finish from Dead Orchard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -221,25 +221,25 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 ## Related Positions
 
 
-- **[[Anaconda Control]]** - Parent technique - standard anaconda without dead orchard control emphasis
+- **[[Positions/Anaconda Control]]** - Parent technique - standard anaconda without dead orchard control emphasis
 
-- **[[Darce Control]]** - Sister position - alternative arm-in choke with similar control mechanics
+- **[[Positions/Darce Control]]** - Sister position - alternative arm-in choke with similar control mechanics
 
-- **[[Front Headlock]]** - Entry position - common setup state for dead orchard establishment
+- **[[Positions/Front Headlock]]** - Entry position - common setup state for dead orchard establishment
 
-- **[[Guillotine Control]]** - Alternative control - different front headlock choke configuration
+- **[[Positions/Guillotine Control]]** - Alternative control - different front headlock choke configuration
 
-- **[[Turtle]]** - Common entry state where dead orchard is frequently established
+- **[[Positions/Turtle]]** - Common entry state where dead orchard is frequently established
 
-- **[[Mount]]** - Transition target - high-percentage advancement when submission is defended
+- **[[Positions/Mount]]** - Transition target - high-percentage advancement when submission is defended
 
-- **[[Back Control]]** - Alternative advancement - positional transition when opponent drives forward
+- **[[Positions/Back Control]]** - Alternative advancement - positional transition when opponent drives forward
 
-- **[[North-South]]** - Control alternative - transition option when maintaining top pressure
+- **[[Positions/North-South]]** - Control alternative - transition option when maintaining top pressure
 
-- **[[Closed Guard]]** - Escape target from bottom - primary defensive objective
+- **[[Positions/Closed Guard]]** - Escape target from bottom - primary defensive objective
 
-- **[[Half Guard]]** - Secondary escape target - achievable defensive recovery position
+- **[[Positions/Half Guard]]** - Secondary escape target - achievable defensive recovery position
 
 
 </section>

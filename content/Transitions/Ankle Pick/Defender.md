@@ -156,7 +156,7 @@ Defending the Ankle Pick requires early recognition and decisive response before
 
 The defensive hierarchy against the ankle pick follows three stages: prevention through posture and grip denial, reaction through sprawl or foot retraction when the attack initiates, and recovery through guard pull or scramble if the attacker establishes their grip. Understanding which stage you are in determines your optimal response. Attempting a sprawl when the attacker already has a locked heel cup is far less effective than pulling guard to neutralize the takedown threat. Conversely, pulling guard preemptively when you could simply deny the collar tie wastes a positional opportunity. Reading the attack's progression accurately is the foundation of effective ankle pick defense.
 
-**Opponent's Starting Position**: [[Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ The defensive hierarchy against the ankle pick follows three stages: prevention 
 ### 1. Sprawl and hip retraction: Drive hips back and down while posting both hands on opponent's head and shoulders to stuff the level change before they reach your ankle
 
 - **When to use**: Immediately when you feel the level change initiate and before opponent secures the heel cup grip on your ankle
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Returns both athletes to neutral standing with you having possible front headlock control if their head is low
 - **Risk**: If timed too late and opponent already has ankle grip, the sprawl may drive your weight forward into their pull and accelerate the takedown
 
 ### 2. Ankle retraction and circular step: Pull your lead foot backward and circle away from opponent's angle while maintaining your own collar tie or posting on their head to create distance
 
 - **When to use**: When you recognize the angle creation and collar tie pressure before the actual level change begins
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Denies the ankle pick entry entirely and resets to neutral standing with the attacker having wasted energy on a failed setup
 - **Risk**: Stepping backward without head control can allow opponent to follow with a double leg entry or snap down
 
 ### 3. Guillotine counter: When opponent level changes with head inside your body line, secure an arm-in or high-elbow guillotine as they reach for your ankle
 
 - **When to use**: When opponent makes the critical error of dropping their head inside your body rather than keeping it outside, and you can secure a chin strap or arm-in grip
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You establish guillotine control and can either finish the submission or use it to pull guard with a dominant attacking grip
 - **Risk**: If the guillotine is not tight, opponent completes the takedown and you end up on bottom with a loose grip that wastes energy
 
 ### 4. Guard pull conversion: When opponent has already secured heel cup and you cannot retract your ankle, sit to guard by pulling them into your closed guard using collar tie and sleeve control
 
 - **When to use**: When the ankle grip is already established and sprawl defense is no longer viable, as a damage control measure to avoid being taken down to bottom side control
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You pull into closed guard where you have offensive options rather than being driven to the mat and ending up in bottom side control
 - **Risk**: You concede bottom position and any potential advantage points, but avoid the worse outcome of bottom side control
 
@@ -227,11 +227,11 @@ The defensive hierarchy against the ankle pick follows three stages: prevention 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Deny the attack in the early stages through proactive grip fighting that prevents collar tie establishment, or use immediate sprawl and hip retraction when level change initiates before the heel cup is secured. Circular footwork away from the attacker's angle forces them to reset and spend additional energy re-establishing their attack position.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 When the ankle pick is too far along to sprawl effectively, convert to a guard pull using your existing collar and sleeve grips. Sit to guard before the attacker can drive you flat to the mat. This converts their takedown attempt into your guard game where you have sweeps and submissions available. A well-timed guillotine counter during their level change can also land you in closed guard with a dominant attacking grip.
 

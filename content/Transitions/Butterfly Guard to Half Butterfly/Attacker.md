@@ -180,7 +180,7 @@ description: "How to execute the Transition to Half Butterfly in BJJ. Systematic
 
 As the attacker executing this transition, your objective is to systematically dismantle the bottom player's butterfly guard by clearing one hook while maintaining upper body control. This converts the position from a dangerous, sweep-heavy guard into an asymmetric configuration where your passing options multiply. The key insight is that you are not trying to pass the guard in one motion. You are removing one layer of the bottom player's defense, creating a position where subsequent passing techniques have dramatically higher success rates. Patience and pressure discipline are more important than speed. Establish your controls, identify the weaker hook, and execute the clearing sequence with deliberate precision.
 
-**From Position**: [[Butterfly Guard]] (Top)
+**From Position**: [[Positions/Butterfly Guard]] (Top)
 
 </section>
 
@@ -233,10 +233,10 @@ As the attacker executing this transition, your objective is to systematically d
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Butterfly]] | 65% |
-| Failure | [[Butterfly Guard]] | 20% |
-| Failure | [[Half Guard]] | 10% |
-| Counter | [[Mount]] | 5% |
+| Success | [[Positions/Butterfly Guard/Half Butterfly]] | 65% |
+| Failure | [[Positions/Butterfly Guard]] | 20% |
+| Failure | [[Positions/Half Guard]] | 10% |
+| Counter | [[Positions/Mount]] | 5% |
 
 
 </section>
@@ -245,10 +245,10 @@ As the attacker executing this transition, your objective is to systematically d
 
 ## Opponent Counters
 
-- **Opponent elevates with both hooks as you begin weight shift** (Effectiveness: High) - Your Response: Immediately post both hands wide and sprawl hips back to kill the elevation. Reset upper body control before reattempting the clear. Do not fight the sweep mid-elevation. → Leads to [[Mount]]
-- **Opponent re-inserts hook immediately after clearing by scooting hips** (Effectiveness: Medium) - Your Response: Maintain constant forward pressure and pin their ankle or foot with your shin as you clear. If they re-insert, immediately re-drive the knee down rather than accepting the recovery. → Leads to [[Butterfly Guard]]
-- **Opponent transitions to deep half guard during weight shift** (Effectiveness: Medium) - Your Response: If you feel them diving under, immediately sprawl hips back and drive crossface pressure to flatten them before they complete the deep half entry. Maintain head position above their shoulder line. → Leads to [[Half Guard]]
-- **Opponent arm drags during the clearing sequence** (Effectiveness: High) - Your Response: Keep your elbows tight and maintain inside position with your clearing-side arm. If the arm drag connects, circle toward their back to avoid giving up back control and reset to combat base. → Leads to [[Mount]]
+- **Opponent elevates with both hooks as you begin weight shift** (Effectiveness: High) - Your Response: Immediately post both hands wide and sprawl hips back to kill the elevation. Reset upper body control before reattempting the clear. Do not fight the sweep mid-elevation. → Leads to [[Positions/Mount]]
+- **Opponent re-inserts hook immediately after clearing by scooting hips** (Effectiveness: Medium) - Your Response: Maintain constant forward pressure and pin their ankle or foot with your shin as you clear. If they re-insert, immediately re-drive the knee down rather than accepting the recovery. → Leads to [[Positions/Butterfly Guard]]
+- **Opponent transitions to deep half guard during weight shift** (Effectiveness: Medium) - Your Response: If you feel them diving under, immediately sprawl hips back and drive crossface pressure to flatten them before they complete the deep half entry. Maintain head position above their shoulder line. → Leads to [[Positions/Half Guard]]
+- **Opponent arm drags during the clearing sequence** (Effectiveness: High) - Your Response: Keep your elbows tight and maintain inside position with your clearing-side arm. If the arm drag connects, circle toward their back to avoid giving up back control and reset to combat base. → Leads to [[Positions/Mount]]
 
 
 </section>

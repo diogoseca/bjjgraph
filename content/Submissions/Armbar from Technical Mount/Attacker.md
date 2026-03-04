@@ -182,7 +182,7 @@ description: "Execute the Armbar from Technical Mount with precision. Step-by-st
 
 Attacking the Armbar from Technical Mount is among the most mechanically efficient submissions in Brazilian Jiu-Jitsu because the position already provides the arm isolation and leg configuration needed for the finish. The attacker's primary advantage is that the transition from control to submission requires minimal movement — the posted leg simply swings over the opponent's face while the attacker sits back to apply breaking pressure. The key to high-percentage finishing lies in maintaining wrist and elbow control throughout the entire transition, keeping hips tight to the opponent's shoulder, and committing fully once the swing-over is initiated. Hesitation during execution allows the defender to retract their arm, establish defensive grips, or begin escape sequences that dramatically reduce success probability. The position rewards decisive action and punishes half-measures.
 
-**From Position**: [[Technical Mount]] (Top)
+**From Position**: [[Positions/Mount/Technical Mount]] (Top)
 
 
 </section>
@@ -237,8 +237,8 @@ Attacking the Armbar from Technical Mount is among the most mechanically efficie
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Technical Mount]] | 25% |
-| Counter | [[Closed Guard]] | 20% |
+| Failure | [[Positions/Mount/Technical Mount]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -247,10 +247,10 @@ Attacking the Armbar from Technical Mount is among the most mechanically efficie
 
 ## Opponent Defenses
 
-- **Opponent clasps hands together in gable grip or grips own collar to prevent arm extension** (Effectiveness: High) - Your Response: Use a figure-four grip break by rotating their wrist toward the thumb side to peel hands apart. Alternatively, drive hips forward while stacking their gripped hands toward their face to create separation angle. If the grip remains unbreakable, consider switching to mounted triangle by threading your leg under their chin. → Leads to [[Technical Mount]]
-- **Opponent bridges explosively and follows your swing-over momentum to stack you** (Effectiveness: Medium) - Your Response: Ride the bridge by staying heavy on your legs and maintaining hip proximity to their shoulder. Use their upward momentum to accelerate your sit-back. If stacking continues, angle your body away and hook your near leg behind their head to prevent posturing. In worst case, abandon the armbar and recover mount position. → Leads to [[Closed Guard]]
-- **Opponent turns away to expose their back instead of defending the arm extension** (Effectiveness: Medium) - Your Response: Immediately abandon the armbar and transition to back control. Maintain wrist control as they turn, establish seat belt grip by threading your arm under their armpit, and convert your posted leg into your first hook. The back take is a higher-value outcome than forcing a stalled armbar. → Leads to [[Technical Mount]]
-- **Opponent posts free hand against your hip to block the swing-over transition** (Effectiveness: Medium) - Your Response: Attack the posting arm with a gift wrap by swimming your hand under their framing arm and grabbing their far shoulder or collar. The gift wrap simultaneously neutralizes their defense and creates an even better armbar entry. Alternatively, pin their posting hand to their chest with your knee pressure before continuing the swing-over. → Leads to [[Technical Mount]]
+- **Opponent clasps hands together in gable grip or grips own collar to prevent arm extension** (Effectiveness: High) - Your Response: Use a figure-four grip break by rotating their wrist toward the thumb side to peel hands apart. Alternatively, drive hips forward while stacking their gripped hands toward their face to create separation angle. If the grip remains unbreakable, consider switching to mounted triangle by threading your leg under their chin. → Leads to [[Positions/Mount/Technical Mount]]
+- **Opponent bridges explosively and follows your swing-over momentum to stack you** (Effectiveness: Medium) - Your Response: Ride the bridge by staying heavy on your legs and maintaining hip proximity to their shoulder. Use their upward momentum to accelerate your sit-back. If stacking continues, angle your body away and hook your near leg behind their head to prevent posturing. In worst case, abandon the armbar and recover mount position. → Leads to [[Positions/Closed Guard]]
+- **Opponent turns away to expose their back instead of defending the arm extension** (Effectiveness: Medium) - Your Response: Immediately abandon the armbar and transition to back control. Maintain wrist control as they turn, establish seat belt grip by threading your arm under their armpit, and convert your posted leg into your first hook. The back take is a higher-value outcome than forcing a stalled armbar. → Leads to [[Positions/Mount/Technical Mount]]
+- **Opponent posts free hand against your hip to block the swing-over transition** (Effectiveness: Medium) - Your Response: Attack the posting arm with a gift wrap by swimming your hand under their framing arm and grabbing their far shoulder or collar. The gift wrap simultaneously neutralizes their defense and creates an even better armbar entry. Alternatively, pin their posting hand to their chest with your knee pressure before continuing the swing-over. → Leads to [[Positions/Mount/Technical Mount]]
 
 
 </section>

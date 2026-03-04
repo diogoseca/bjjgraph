@@ -154,7 +154,7 @@ description: "Defend against the Butterfly Smash in BJJ. Recognition cues, defen
 
 Defending the Butterfly Smash requires the bottom player to recognize early indicators of the smash attempt and respond with preventive measures before the top player's weight commits through the hook. The defender's primary objective is to maintain hook elevation and prevent the top player's knee from driving past the hook line. When prevention fails, the defender must transition to secondary defensive positions—typically deep half guard, knee shield half guard, or complete hook recovery—before the top player consolidates the half guard passing position. Early recognition and immediate response are critical because once the hook is fully collapsed and pinned by the shin, recovery becomes significantly more difficult and energy-intensive. The most effective defense combines active hook management with upper body grip fighting that denies the attacker the crossface and collar controls that enable the smash.
 
-**Opponent's Starting Position**: [[Butterfly Hook Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Butterfly Smash requires the bottom player to recognize early indi
 ### 1. Pump hooks explosively and execute butterfly sweep during the weight transfer phase
 
 - **When to use**: When you feel the top player begin shifting weight to one side for the smash, before their knee has passed the hook line
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You sweep the opponent using their committed weight distribution against them, achieving mount or top position
 - **Risk**: If mistimed or the opponent's base is too wide, the pumping action may actually accelerate their drive through the hook
 
 ### 2. Frame against crossface with forearms and hip escape laterally to recover distance and re-insert hooks
 
 - **When to use**: When the smash has partially begun but the hook is not yet fully collapsed and pinned by the shin
-- **Targets**: [[Butterfly Hook Control]]
+- **Targets**: [[Positions/Butterfly Guard/Butterfly Hook Control]]
 - **If successful**: You recover butterfly hooks and reset the guard position with active elevation, forcing the attacker to restart
 - **Risk**: If your frames are too weak against heavy pressure, the opponent drives through them and completes the smash while you waste energy
 
 ### 3. Transition to deep half guard by getting your shoulder underneath the opponent's hips as the hook collapses
 
 - **When to use**: When the hook is collapsing and you cannot prevent the drive through, but the opponent has not yet consolidated half guard
-- **Targets**: [[Butterfly Hook Control]]
+- **Targets**: [[Positions/Butterfly Guard/Butterfly Hook Control]]
 - **If successful**: You establish deep half guard where you have strong sweeping mechanics and the smash has been redirected into a new positional exchange
 - **Risk**: If initiated too late, the opponent sprawls their hips away and you end up in flattened half guard with no offensive options
 
 ### 4. Insert knee shield between your hip and their driving knee as the hook collapses to establish defensive half guard
 
 - **When to use**: When one hook is lost and you cannot recover it, but the top player has not yet achieved chest-to-chest pressure in half guard
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish knee shield half guard which provides frames and distance management, preventing the attacker from immediately advancing their pass
 - **Risk**: The attacker may be able to smash through the knee shield with continued pressure or transition to a knee slice pass
 
@@ -225,11 +225,11 @@ Defending the Butterfly Smash requires the bottom player to recognize early indi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Time your hook elevation and butterfly sweep to coincide with the moment the top player commits weight to one side for the smash. Their narrowed base during the weight transfer creates a vulnerability window for sweeping in the opposite direction. Pull with your collar or underhook grip to direct their weight off-balance while pumping the hook on their weakened base side.
 
-### → [[Butterfly Hook Control]]
+### → [[Positions/Butterfly Guard/Butterfly Hook Control]]
 
 Frame against the crossface immediately when you feel pressure increasing on one side. Pump hooks actively to prevent weight from settling. If one hook is partially collapsed, hip escape laterally and re-insert the hook before the opponent can pin it with their shin. Maintain grip fighting to deny them the upper body control needed to reinitiate the smash.
 

@@ -22,8 +22,8 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Front Headlock]]
-**From Position**: [[Front Headlock]] (Top)
+**Starting Position**: [[Positions/Front Headlock]]
+**From Position**: [[Positions/Front Headlock]] (Top)
 **Success Rate**: 52%
 
 </section>
@@ -80,8 +80,8 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Turtle]] | 15% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -234,11 +234,11 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 ## From Which Positions?
 
-- [[Front Headlock]]
-- [[Turtle]]
-- [[Scramble Position]]
-- [[North-South]]
-- [[Crucifix]]
+- [[Positions/Front Headlock]]
+- [[Positions/Turtle]]
+- [[Positions/Scramble Position]]
+- [[Positions/North-South]]
+- [[Positions/Crucifix]]
 
 
 </section>
@@ -247,15 +247,15 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 ## Related Submissions
 
-- [[Guillotine Choke]]
-- [[Darce Choke]]
-- [[Anaconda Choke]]
-- [[Arm Triangle]]
-- [[Rear Naked Choke]]
-- [[Brabo Choke]]
-- [[Arm in Guillotine]]
-- [[Japanese Necktie]]
-- [[Peruvian Necktie]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Anaconda Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/Rear Naked Choke]]
+- [[Submissions/Brabo Choke]]
+- [[Submissions/Arm in Guillotine]]
+- [[Submissions/Japanese Necktie]]
+- [[Submissions/Peruvian Necktie]]
 
 
 </section>
@@ -264,15 +264,15 @@ The Peruvian Necktie is a sophisticated blood choke that attacks the carotid art
 
 ## Additional Related Content
 
-- [[Front Headlock]] - Primary control position for entries and setup variations
-- [[Guillotine Choke]] - Alternative finish from same position when arm not trapped
-- [[Darce Choke]] - Parallel choke option using arm-in configuration
-- [[Anaconda Choke]] - Alternative front headlock finish using opposite arm configuration
-- [[Turtle]] - Primary attacking position where Peruvian Necktie opportunities arise
-- [[Back Control]] - Alternative attack option when Peruvian Necktie is defended
-- [[Arm Triangle]] - Related arm-in choking attack from similar positions
-- [[Crucifix]] - Alternative control position when opponent defends front headlock attacks
-- [[Japanese Necktie]] - Closely related front headlock choke with similar leg threading mechanics
+- [[Positions/Front Headlock]] - Primary control position for entries and setup variations
+- [[Transitions/Guillotine Choke]] - Alternative finish from same position when arm not trapped
+- [[Transitions/Darce Choke]] - Parallel choke option using arm-in configuration
+- [[Transitions/Anaconda Choke]] - Alternative front headlock finish using opposite arm configuration
+- [[Positions/Turtle]] - Primary attacking position where Peruvian Necktie opportunities arise
+- [[Positions/Back Control]] - Alternative attack option when Peruvian Necktie is defended
+- [[Transitions/Arm Triangle]] - Related arm-in choking attack from similar positions
+- [[Positions/Crucifix]] - Alternative control position when opponent defends front headlock attacks
+- [[Submissions/Japanese Necktie]] - Closely related front headlock choke with similar leg threading mechanics
 
 
 </section>

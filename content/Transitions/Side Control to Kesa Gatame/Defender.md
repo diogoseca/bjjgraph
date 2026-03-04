@@ -154,7 +154,7 @@ description: "How to defend and prevent the side control to Kesa Gatame transiti
 
 Defending the transition to Kesa Gatame requires recognizing the specific preparatory movements that distinguish this transition from mount or north-south attempts and deploying targeted defensive responses before the scarf hold is fully established. The defender's primary advantage is that the transition requires the top player to change their grip configuration and rotate their hips, both of which create brief windows of reduced pressure and control. The most effective defense occurs during the transition itself, before Kesa Gatame is consolidated, because escaping an established Kesa Gatame is significantly harder than preventing its establishment. The defender must be vigilant for two key indicators: the deepening of the crossface into a head wrap (arm threading under the neck) and the beginning of hip rotation toward the head. These two movements always precede the Kesa Gatame transition and provide the defender with approximately 1-2 seconds of warning. Defenders who master the recognition of these cues and develop automatic responses can consistently prevent the transition and either maintain their current defensive position in side control or capitalize on the transitional moment to improve their own position through guard recovery or back take.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the transition to Kesa Gatame requires recognizing the specific prepar
 ### 1. Shrug your shoulder and tuck your chin to prevent the crossface from deepening into a head wrap, while simultaneously pushing their threading arm away with your far hand
 
 - **When to use**: At the earliest recognition cue when you feel them start to thread their arm deeper under your neck, before the head wrap is secured
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You prevent the head wrap that anchors the entire Kesa Gatame position, forcing them to either remain in standard side control or attempt a different transition
 - **Risk**: If timed too late, your far arm extending to fight the head wrap may be trapped, giving them an additional control point
 
 ### 2. Frame your near-side elbow against their hip and straighten your arm to create space as they begin the hip rotation, then shrimp your hips away to begin guard recovery
 
 - **When to use**: When you feel their hips beginning to rotate but before the rotation is complete and the arm trap is secured
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough space during the transitional moment to insert your knee and recover half guard or knee shield, returning to a guard position
 - **Risk**: If your arm is already trapped, you cannot execute this frame and the rotation will complete into full Kesa Gatame
 
 ### 3. Turn into the opponent during the rotation and attack their back, using the inherent back exposure of the Kesa Gatame angle to get chest-to-chest and begin back take
 
 - **When to use**: When the Kesa Gatame is partially or fully established and the opponent's back is exposed due to their seated perpendicular positioning
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You reverse the position entirely by exploiting the primary structural weakness of Kesa Gatame, potentially achieving back control or at minimum recovering to a neutral position
 - **Risk**: If the opponent reads your turn-in, they can transition to mount by stepping over as you rotate, potentially putting you in a worse position than Kesa Gatame
 
 ### 4. Bridge toward their posted leg while controlling their far arm to prevent them from basing out, executing a bridge-and-roll escape
 
 - **When to use**: When Kesa Gatame is established but their base leg is positioned too close or their weight is too high, compromising their stability
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You sweep them over their posted leg, reversing the position and landing in a top position or at minimum scrambling to a neutral stance
 - **Risk**: If the bridge fails against a wide base, you expend significant energy and remain in Kesa Gatame with reduced ability to attempt subsequent escapes
 
@@ -225,11 +225,11 @@ Defending the transition to Kesa Gatame requires recognizing the specific prepar
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Prevent the transition entirely by blocking the head wrap from deepening and maintaining active near-side frames during the rotation attempt. Fight the grip changes early and force the top player to abandon the Kesa Gatame attempt, returning to standard side control where you can continue working your normal escape sequences.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the transitional moment when the top player's base is compromised during the hip rotation by inserting your knee between your bodies. The rotation creates a brief window where their hip-to-hip connection is broken, and your knee insertion during this window recovers half guard and neutralizes the Kesa Gatame attempt.
 

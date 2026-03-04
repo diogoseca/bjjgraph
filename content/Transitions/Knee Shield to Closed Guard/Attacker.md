@@ -180,7 +180,7 @@ description: "Learn how to execute the Knee Shield to Closed Guard recovery as t
 
 As the attacker executing this guard recovery, your objective is to leverage the distance created by your knee shield frame to extract your trapped bottom leg and establish full closed guard around your opponent's waist. This is fundamentally a position upgrade technique—you are trading the limited offensive options of knee shield half guard for the comprehensive sweep and submission platform of closed guard. Success depends on coordinating your hip escape timing with grip control and knee shield management, executing the extraction during a window where your opponent cannot drive forward to flatten you. The key insight is that your knee shield must remain active as a barrier until the exact moment your leg clears the entanglement, creating a seamless transition from half guard frame to closed guard lock.
 
-**From Position**: [[Knee Shield Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing this guard recovery, your objective is to leverage the
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Knee Shield Half Guard]] | 30% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Knee Shield Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -243,9 +243,9 @@ As the attacker executing this guard recovery, your objective is to leverage the
 
 ## Opponent Counters
 
-- **Opponent drives forward with heavy crossface pressure during extraction attempt to collapse space and flatten position** (Effectiveness: High) - Your Response: Abandon extraction immediately, re-establish knee shield frame with strong push, and hip escape to recreate distance before reattempting when pressure subsides → Leads to [[Flattened Half Guard]]
-- **Opponent backsteps or creates angle during leg extraction to prevent guard closure from a different direction** (Effectiveness: Medium) - Your Response: Follow their movement with your hips, maintain controlling grips, and adjust knee shield angle to match their new position before reattempting the extraction sequence → Leads to [[Knee Shield Half Guard]]
-- **Opponent strips controlling grips and postures up aggressively before guard can be closed after extraction** (Effectiveness: Medium) - Your Response: Use feet on hips as temporary frames to maintain distance while immediately re-establishing grips, then either reattempt closure or transition to open guard retention system → Leads to [[Knee Shield Half Guard]]
+- **Opponent drives forward with heavy crossface pressure during extraction attempt to collapse space and flatten position** (Effectiveness: High) - Your Response: Abandon extraction immediately, re-establish knee shield frame with strong push, and hip escape to recreate distance before reattempting when pressure subsides → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent backsteps or creates angle during leg extraction to prevent guard closure from a different direction** (Effectiveness: Medium) - Your Response: Follow their movement with your hips, maintain controlling grips, and adjust knee shield angle to match their new position before reattempting the extraction sequence → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
+- **Opponent strips controlling grips and postures up aggressively before guard can be closed after extraction** (Effectiveness: Medium) - Your Response: Use feet on hips as temporary frames to maintain distance while immediately re-establishing grips, then either reattempt closure or transition to open guard retention system → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 
 
 </section>

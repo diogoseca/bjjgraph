@@ -21,7 +21,7 @@ Strategically, the Mat Return addresses the key limitation of standing back cont
 
 The mat return requires precise timing and coordinated movement between upper and lower body. The harness or seat belt grip must remain locked throughout the descent, while the legs work to break the opponent's base and guide them to the mat. Successful execution depends on maintaining chest-to-back connection, choosing the correct direction for the takedown based on opponent's stance and balance, and immediately establishing hooks upon landing to prevent scrambles.
 
-**From Position**: [[Standing Back Control]] (Top)
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The mat return requires precise timing and coordinated movement between upper an
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Standing Back Control]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Back Control/Standing Back Control]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Mat Return to Back Mount serves as the critical bridge between standing back
 ## Related Techniques
 
 
-- [[Standing Back Control]] - Starting position for this transition
+- [[Positions/Back Control/Standing Back Control]] - Starting position for this transition
 
-- [[Back Control]] - Target position upon successful completion
+- [[Positions/Back Control]] - Target position upon successful completion
 
-- [[Rear Naked Choke]] - Primary submission follow-up after establishing grounded back control
+- [[Transitions/Rear Naked Choke]] - Primary submission follow-up after establishing grounded back control
 
-- [[Body Triangle Lock]] - Control enhancement option after landing in back mount
+- [[Transitions/Body Triangle Lock]] - Control enhancement option after landing in back mount
 
-- [[Bow and Arrow Choke]] - Gi-specific submission option from grounded back control
+- [[Transitions/Bow and Arrow Choke]] - Gi-specific submission option from grounded back control
 
-- [[Turtle]] - Common defensive transition if opponent escapes during descent
+- [[Positions/Turtle]] - Common defensive transition if opponent escapes during descent
 
-- [[Back Take]] - Prerequisite technique for establishing standing back control
+- [[Transitions/Back Take]] - Prerequisite technique for establishing standing back control
 
-- [[Crucifix Transition]] - Alternative attack pathway if arm control opportunity presents during descent
+- [[Transitions/Crucifix Transition]] - Alternative attack pathway if arm control opportunity presents during descent
 
-- [[Harness]] - Essential grip configuration maintained throughout the technique
+- [[Positions/Harness]] - Essential grip configuration maintained throughout the technique
 
-- [[Back Control Maintenance]] - Follow-up control sequence after successfully landing in back mount
+- [[Transitions/Back Control Maintenance]] - Follow-up control sequence after successfully landing in back mount
 
-- [[Controlled Descent]] - Related transition concept involving managing the path to ground
+- [[Transitions/Controlled Descent]] - Related transition concept involving managing the path to ground
 
 
 </section>

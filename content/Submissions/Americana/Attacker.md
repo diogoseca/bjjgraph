@@ -242,8 +242,8 @@ From a strategic perspective, the Americana exemplifies positional control befor
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -252,11 +252,11 @@ From a strategic perspective, the Americana exemplifies positional control befor
 
 ## Opponent Defenses
 
-- **Keeping arm glued to body with defensive frames** (Effectiveness: High) - Your Response: Use progressive pressure and weight distribution to gradually extend the arm. Consider transitioning to other attacks like the armbar or gift wrap to create reactions, then return to the Americana when they extend to defend. Alternatively, attack the far arm to draw their attention away from the near side. → Leads to [[Mount]]
-- **Grabbing own gi pants, belt, or creating a gable grip to prevent arm isolation** (Effectiveness: High) - Your Response: Apply heavy cross-face pressure and shoulder pressure to break their grip strength. Use your body weight rather than trying to muscle the grip break. Consider transitioning to mount to armbar or Ezekiel choke, forcing them to release their defensive grip to address the new threat. → Leads to [[Mount]]
-- **Bridging explosively to create space or attempt to roll** (Effectiveness: Medium) - Your Response: Anticipate the bridge by maintaining wide base and posting with your free hand. As they bridge, ride the movement and step over to technical mount or S Mount, which provides better angle for the Americana while neutralizing their bridging power. Lower your hips and widen your base preventatively. → Leads to [[Closed Guard]]
-- **Straightening the trapped arm forcefully to prevent the 90-degree angle** (Effectiveness: Medium) - Your Response: If they successfully straighten the arm, transition immediately to straight armbar mechanics or switch to a Kimura by reversing your grip. Use their straightening force against them by following the movement and attacking the extended arm. Do not fight strength with strength. → Leads to [[Mount]]
-- **Using free hand to push your head, create frames, or strip grips** (Effectiveness: Low) - Your Response: Control the free hand by trapping it with your knee (from mount), using head position to pin it, or establishing a gift wrap position. If their push creates distance, maintain the Americana grip and follow their movement while keeping pressure constant. Consider transitioning to crucifix position if you can trap both arms. → Leads to [[Mount]]
+- **Keeping arm glued to body with defensive frames** (Effectiveness: High) - Your Response: Use progressive pressure and weight distribution to gradually extend the arm. Consider transitioning to other attacks like the armbar or gift wrap to create reactions, then return to the Americana when they extend to defend. Alternatively, attack the far arm to draw their attention away from the near side. → Leads to [[Positions/Mount]]
+- **Grabbing own gi pants, belt, or creating a gable grip to prevent arm isolation** (Effectiveness: High) - Your Response: Apply heavy cross-face pressure and shoulder pressure to break their grip strength. Use your body weight rather than trying to muscle the grip break. Consider transitioning to mount to armbar or Ezekiel choke, forcing them to release their defensive grip to address the new threat. → Leads to [[Positions/Mount]]
+- **Bridging explosively to create space or attempt to roll** (Effectiveness: Medium) - Your Response: Anticipate the bridge by maintaining wide base and posting with your free hand. As they bridge, ride the movement and step over to technical mount or S Mount, which provides better angle for the Americana while neutralizing their bridging power. Lower your hips and widen your base preventatively. → Leads to [[Positions/Closed Guard]]
+- **Straightening the trapped arm forcefully to prevent the 90-degree angle** (Effectiveness: Medium) - Your Response: If they successfully straighten the arm, transition immediately to straight armbar mechanics or switch to a Kimura by reversing your grip. Use their straightening force against them by following the movement and attacking the extended arm. Do not fight strength with strength. → Leads to [[Positions/Mount]]
+- **Using free hand to push your head, create frames, or strip grips** (Effectiveness: Low) - Your Response: Control the free hand by trapping it with your knee (from mount), using head position to pin it, or establishing a gift wrap position. If their push creates distance, maintain the Americana grip and follow their movement while keeping pressure constant. Consider transitioning to crucifix position if you can trap both arms. → Leads to [[Positions/Mount]]
 
 
 </section>

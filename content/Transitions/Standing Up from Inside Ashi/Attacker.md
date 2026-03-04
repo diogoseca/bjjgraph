@@ -180,7 +180,7 @@ description: "Master executing the standup from Inside Ashi-Garami bottom. Detai
 
 Executing the standup from Inside Ashi-Garami requires methodical base recovery while managing the transition from a supine attacking position to standing. The key challenge is maintaining balance during the intermediate phase where you are neither fully grounded nor fully standing. Success depends on proper hand posting, hip positioning, and timing the standup when your opponent is preoccupied with defending submissions rather than attacking your base. This transition works best when combined with submission threats that force the opponent to focus on their trapped leg rather than preventing your rise. The standup connects seamlessly with standing ankle lock finishes or full positional resets depending on your strategic objective.
 
-**From Position**: [[Inside Ashi-Garami]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the standup from Inside Ashi-Garami requires methodical base recovery 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Inside Ashi-Garami]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the standup from Inside Ashi-Garami requires methodical base recovery 
 
 ## Opponent Counters
 
-- **Opponent grabs your posting wrist or sleeve to collapse your base before you can elevate your hips** (Effectiveness: High) - Your Response: Switch to posting with the opposite hand on the other side of your body, or abandon the standup temporarily and threaten a submission to force them to release the wrist grip before reattempting → Leads to [[Inside Ashi-Garami]]
-- **Opponent hooks their free leg behind your far hip and scissors to sweep during the knee recovery phase** (Effectiveness: High) - Your Response: Drive your hips forward rather than upward to neutralize the scissor angle, and use your posted hand to push their hooking leg down before continuing the standup sequence → Leads to [[Open Guard]]
-- **Opponent sits up and follows your standup movement to establish open guard hooks before you achieve full standing** (Effectiveness: Medium) - Your Response: Accelerate the final standing phase and immediately step back to create distance, controlling their approaching feet with your hands to prevent hook establishment on your legs → Leads to [[Open Guard]]
-- **Opponent rotates and re-entangles your legs during the transition phase to recover ashi garami position** (Effectiveness: Low) - Your Response: Keep your inside leg tight to your body during the knee recovery to prevent re-hooking, and drive through the standup with increased urgency once you detect the re-entanglement attempt → Leads to [[Inside Ashi-Garami]]
+- **Opponent grabs your posting wrist or sleeve to collapse your base before you can elevate your hips** (Effectiveness: High) - Your Response: Switch to posting with the opposite hand on the other side of your body, or abandon the standup temporarily and threaten a submission to force them to release the wrist grip before reattempting → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- **Opponent hooks their free leg behind your far hip and scissors to sweep during the knee recovery phase** (Effectiveness: High) - Your Response: Drive your hips forward rather than upward to neutralize the scissor angle, and use your posted hand to push their hooking leg down before continuing the standup sequence → Leads to [[Positions/Open Guard]]
+- **Opponent sits up and follows your standup movement to establish open guard hooks before you achieve full standing** (Effectiveness: Medium) - Your Response: Accelerate the final standing phase and immediately step back to create distance, controlling their approaching feet with your hands to prevent hook establishment on your legs → Leads to [[Positions/Open Guard]]
+- **Opponent rotates and re-entangles your legs during the transition phase to recover ashi garami position** (Effectiveness: Low) - Your Response: Keep your inside leg tight to your body during the knee recovery to prevent re-hooking, and drive through the standup with increased urgency once you detect the re-entanglement attempt → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 
 </section>

@@ -184,7 +184,7 @@ The mechanical foundation of this transition lies in using the lapel grip as an 
 
 Strategically, this transition is most valuable against opponents who have learned to address worm guard or squid guard configurations but may be less prepared for the angle changes and inversion threats of De La Riva. The transition also opens pathways to X-Guard, Single Leg X, and berimbolo entries that are difficult to access from pure lapel guard. Advanced practitioners use this as part of a flowing guard system where they move between lapel, DLR, and other open guards based on opponent reactions, creating a constantly evolving puzzle that frustrates passing attempts.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -236,9 +236,9 @@ Strategically, this transition is most valuable against opponents who have learn
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[De La Riva Guard]] | 60% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/De La Riva Guard]] | 60% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -247,10 +247,10 @@ Strategically, this transition is most valuable against opponents who have learn
 
 ## Opponent Counters
 
-- **Opponent steps back to prevent DLR hook insertion while the lapel configuration is momentarily loosened** (Effectiveness: High) - Your Response: Maintain strong lapel tension throughout—never release the lapel to thread the hook. Use the lapel pull to prevent backward stepping. → Leads to [[Lapel Guard]]
-- **Opponent drives heavy forward pressure to smash through the transition attempt and flatten your guard** (Effectiveness: Medium) - Your Response: Convert their forward momentum into berimbolo entry or kiss of the dragon—their pressure actually enables these inversions. → Leads to [[Half Guard]]
-- **Opponent circles away from the DLR hook side to avoid the hook insertion angle** (Effectiveness: Medium) - Your Response: Follow with hip movement to maintain angle, or transition to reverse De La Riva on the opposite side using the same lapel anchor. → Leads to [[Lapel Guard]]
-- **Opponent strips the lapel configuration during the transition when your attention is on the hook** (Effectiveness: Low) - Your Response: If DLR hook is already established, continue with standard DLR game. If not, immediately re-establish lapel guard before opponent advances. → Leads to [[Half Guard]]
+- **Opponent steps back to prevent DLR hook insertion while the lapel configuration is momentarily loosened** (Effectiveness: High) - Your Response: Maintain strong lapel tension throughout—never release the lapel to thread the hook. Use the lapel pull to prevent backward stepping. → Leads to [[Positions/Lapel Guard]]
+- **Opponent drives heavy forward pressure to smash through the transition attempt and flatten your guard** (Effectiveness: Medium) - Your Response: Convert their forward momentum into berimbolo entry or kiss of the dragon—their pressure actually enables these inversions. → Leads to [[Positions/Half Guard]]
+- **Opponent circles away from the DLR hook side to avoid the hook insertion angle** (Effectiveness: Medium) - Your Response: Follow with hip movement to maintain angle, or transition to reverse De La Riva on the opposite side using the same lapel anchor. → Leads to [[Positions/Lapel Guard]]
+- **Opponent strips the lapel configuration during the transition when your attention is on the hook** (Effectiveness: Low) - Your Response: If DLR hook is already established, continue with standard DLR game. If not, immediately re-establish lapel guard before opponent advances. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -214,27 +214,27 @@ The position also demands excellent leg lock defense awareness. Many of the bott
 
 ## Available Attacks
 
-### [[Back Step Pass]] (15% of attempts)
+### [[Transitions/Back Step Pass]] (15% of attempts)
 
-### [[Leg Drag Pass]] (12% of attempts)
+### [[Transitions/Leg Drag Pass]] (12% of attempts)
 
-### [[Stack Pass from Inversion]] (10% of attempts)
+### [[Transitions/Stack Pass from Inversion]] (10% of attempts)
 
-### [[Step Over to Mount]] (5% of attempts)
+### [[Transitions/Step Over to Mount]] (5% of attempts)
 
-### [[Knee Slice Pass]] (8% of attempts)
+### [[Transitions/Knee Slice Pass]] (8% of attempts)
 
-### [[Sprawl and Disengage]] (14% of attempts)
+### [[Transitions/Sprawl and Disengage]] (14% of attempts)
 
-### [[Toreando Pass]] (12% of attempts)
+### [[Transitions/Toreando Pass]] (12% of attempts)
 
-### [[Cartwheel Pass]] (3% of attempts)
+### [[Transitions/Cartwheel Pass]] (3% of attempts)
 
-### [[Pressure Pass through Center]] (5% of attempts)
+### [[Transitions/Pressure Pass through Center]] (5% of attempts)
 
-### [[Counter Ashi Entry]] (8% of attempts)
+### [[Transitions/Counter Ashi Entry]] (8% of attempts)
 
-### [[Double Under Pass]] (8% of attempts)
+### [[Transitions/Double Under Pass]] (8% of attempts)
 
 
 
@@ -245,23 +245,23 @@ The position also demands excellent leg lock defense awareness. Many of the bott
 ## Decision Making from This Position
 
 **Bottom player inverts deeply with both legs engaged in entanglement attempts:**
-- Execute **[[Back Step Pass]]** → [[Side Control]] (Probability: 70%)
-- Execute **[[Circle Away and Reset]]** → [[Standing Position]] (Probability: 75%)
+- Execute **[[Transitions/Back Step Pass]]** → [[Positions/Side Control]] (Probability: 70%)
+- Execute **[[Circle Away and Reset]]** → [[Positions/Standing Position]] (Probability: 75%)
 
 
 **Bottom player's hips drop toward mat, losing elevation:**
-- Execute **[[Stack Pass Forward]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Knee Cut through Center]]** → [[Side Control]] (Probability: 70%)
+- Execute **[[Stack Pass Forward]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Knee Cut through Center]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
 **Bottom player maintains one leg hook while other leg seeks entanglement:**
-- Execute **[[Leg Drag on Free Side]]** → [[Side Control]] (Probability: 75%)
-- Execute **[[Step Over to Mount]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Leg Drag on Free Side]]** → [[Positions/Side Control]] (Probability: 75%)
+- Execute **[[Transitions/Step Over to Mount]]** → [[Positions/Mount]] (Probability: 60%)
 
 
 **Bottom player begins rolling motion for submission attempt:**
-- Execute **[[Sprawl Immediately]]** → [[Turtle]] (Probability: 70%)
-- Execute **[[Back Step and Clear]]** → [[Side Control]] (Probability: 65%)
+- Execute **[[Sprawl Immediately]]** → [[Positions/Turtle]] (Probability: 70%)
+- Execute **[[Back Step and Clear]]** → [[Positions/Side Control]] (Probability: 65%)
 
 
 
@@ -395,13 +395,13 @@ Partner holds grasshopper position but signals by dropping hips 2-3 times per ro
 
 ## Related Positions and Techniques
 
-- **[[Back Step Pass]]** - Primary passing technique for escaping leg entanglement danger
-- **[[Leg Drag Pass]]** - High-percentage pass when bottom player has one leg extended
-- **[[Inverted Guard]]** - Parent category - understanding general inverted guard defense applies here
-- **[[Side Control]]** - Primary destination after successful pass completion
-- **[[Combat Base]]** - Stable base option for controlled engagement against inverted guards
-- **[[Turtle]]** - Opponent destination after successful sprawl disrupts their roll
-- **[[Knee Slice Pass]]** - Alternative pass when opponent's inversion weakens
+- **[[Transitions/Back Step Pass]]** - Primary passing technique for escaping leg entanglement danger
+- **[[Transitions/Leg Drag Pass]]** - High-percentage pass when bottom player has one leg extended
+- **[[Positions/Inverted Guard]]** - Parent category - understanding general inverted guard defense applies here
+- **[[Positions/Side Control]]** - Primary destination after successful pass completion
+- **[[Positions/Combat Base]]** - Stable base option for controlled engagement against inverted guards
+- **[[Positions/Turtle]]** - Opponent destination after successful sprawl disrupts their roll
+- **[[Transitions/Knee Slice Pass]]** - Alternative pass when opponent's inversion weakens
 
 
 </section>

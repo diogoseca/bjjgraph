@@ -180,7 +180,7 @@ description: "Execute the Roll from Rodeo Ride escape in BJJ. Step-by-step rolli
 
 From the attacker perspective, executing the Roll from Rodeo Ride requires reading the top player's weight distribution and committing to an explosive rotational escape at the optimal moment. The technique demands coordination between hip rotation, arm posting, and leg threading to convert a vulnerable turtle position into a stable guard recovery. Success hinges on timing the roll to coincide with the opponent's forward pressure commitment, maintaining structural integrity through the rotation, and immediately establishing guard grips upon completion. Unlike the more methodical Escape from Rodeo Ride that targets side control top, this rolling escape prioritizes speed of guard recovery over positional dominance, accepting a bottom guard position in exchange for rapid extraction from the dangerous Rodeo Ride control.
 
-**From Position**: [[Rodeo Ride]] (Bottom)
+**From Position**: [[Positions/Rodeo Ride]] (Bottom)
 
 </section>
 
@@ -231,10 +231,10 @@ From the attacker perspective, executing the Roll from Rodeo Ride requires readi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Open Guard]] | 10% |
-| Failure | [[Rodeo Ride]] | 30% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Rodeo Ride]] | 30% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ From the attacker perspective, executing the Roll from Rodeo Ride requires readi
 
 ## Opponent Counters
 
-- **Opponent sprawls hips backward and drives chest weight down onto upper back to kill rotational momentum before the roll completes** (Effectiveness: High) - Your Response: Abort the roll and reset to defensive turtle, then immediately look for alternative escapes like the sit-through or technical stand-up. The opponent's sprawl may have shifted their weight backward, creating a different escape window. → Leads to [[Rodeo Ride]]
-- **Opponent follows the roll maintaining chest-to-back contact throughout the rotation and immediately inserts hooks as your back becomes exposed** (Effectiveness: High) - Your Response: Accelerate through the final phase of the rotation to create momentary separation, prioritizing getting your back to the mat with frames established before hooks can settle. If hooks are already in, transition immediately to back escape sequences. → Leads to [[Back Control]]
-- **Opponent posts wide with far leg and drives weight laterally to pin your hip and stop the rotation in its early phase** (Effectiveness: Medium) - Your Response: If the rotation stops early, use whatever momentum you generated to reverse direction into a sit-through escape instead of forcing the incomplete roll. The opponent's wide posting may create space on the opposite side. → Leads to [[Rodeo Ride]]
-- **Opponent releases Rodeo Ride control to snap down on neck for front headlock during the exposed rotation phase** (Effectiveness: Medium) - Your Response: Tuck chin aggressively and circle away from the snap-down direction, using the rotational energy to create distance rather than allowing them to consolidate front headlock. Keep your posting arm active to prevent your head from being driven to the mat. → Leads to [[Rodeo Ride]]
+- **Opponent sprawls hips backward and drives chest weight down onto upper back to kill rotational momentum before the roll completes** (Effectiveness: High) - Your Response: Abort the roll and reset to defensive turtle, then immediately look for alternative escapes like the sit-through or technical stand-up. The opponent's sprawl may have shifted their weight backward, creating a different escape window. → Leads to [[Positions/Rodeo Ride]]
+- **Opponent follows the roll maintaining chest-to-back contact throughout the rotation and immediately inserts hooks as your back becomes exposed** (Effectiveness: High) - Your Response: Accelerate through the final phase of the rotation to create momentary separation, prioritizing getting your back to the mat with frames established before hooks can settle. If hooks are already in, transition immediately to back escape sequences. → Leads to [[Positions/Back Control]]
+- **Opponent posts wide with far leg and drives weight laterally to pin your hip and stop the rotation in its early phase** (Effectiveness: Medium) - Your Response: If the rotation stops early, use whatever momentum you generated to reverse direction into a sit-through escape instead of forcing the incomplete roll. The opponent's wide posting may create space on the opposite side. → Leads to [[Positions/Rodeo Ride]]
+- **Opponent releases Rodeo Ride control to snap down on neck for front headlock during the exposed rotation phase** (Effectiveness: Medium) - Your Response: Tuck chin aggressively and circle away from the snap-down direction, using the rotational energy to create distance rather than allowing them to consolidate front headlock. Keep your posting arm active to prevent your head from being driven to the mat. → Leads to [[Positions/Rodeo Ride]]
 
 
 </section>

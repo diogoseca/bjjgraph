@@ -186,7 +186,7 @@ description: "Master the Stack Pass from Spider Guard as the passer. Learn timin
 
 As the attacker executing the Stack Pass from Spider Guard, your role is to recognize and exploit the precise moment when the spider guard bottom player commits to a submission entry or aggressive sweep. The key insight is that spider guard attacks require the bottom player to release foot pressure from your biceps and elevate their hips—the very actions that remove their primary defensive tools. Your success depends on converting that brief window of reduced guard integrity into a committed forward drive that compresses the bottom player onto their neck and shoulders, eliminating their hip mobility and framing ability. The stack pass rewards patience in the initial spider guard engagement followed by explosive commitment when the opening appears. You must transition from systematic grip fighting to aggressive forward pressure the instant you recognize the trigger, then methodically walk around the stacked opponent to complete the pass to side control.
 
-**From Position**: [[Spider Guard]] (Top)
+**From Position**: [[Positions/Spider Guard]] (Top)
 
 </section>
 
@@ -239,10 +239,10 @@ As the attacker executing the Stack Pass from Spider Guard, your role is to reco
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Success | [[Half Guard]] | 15% |
-| Failure | [[Spider Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 40% |
+| Success | [[Positions/Half Guard]] | 15% |
+| Failure | [[Positions/Spider Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the attacker executing the Stack Pass from Spider Guard, your role is to reco
 
 ## Opponent Counters
 
-- **Bottom player hip escapes and re-establishes foot-on-bicep hooks during initial forward drive** (Effectiveness: High) - Your Response: Accelerate your forward drive and strip grips simultaneously rather than pausing. If they re-establish hooks, disengage and return to systematic grip breaking before reattempting. → Leads to [[Spider Guard]]
-- **Bottom player shoots triangle during the stacking transition by catching your head and arm before full stack is established** (Effectiveness: Medium) - Your Response: Keep your head high and posture strong during the initial drive. If caught in triangle position, immediately posture up inside the triangle and use the stacking pressure to begin triangle escape sequences rather than pulling backward. → Leads to [[Half Guard]]
-- **Bottom player frames against your shoulders or hips to prevent full compression and creates distance to recover guard** (Effectiveness: Medium) - Your Response: Swim your arms inside their frames to collapse them, then re-drive the stack. Alternatively, switch to a leg drag pass if the frames prevent stacking by controlling one leg and dragging it across their body. → Leads to [[Spider Guard]]
-- **Bottom player uses the stacking momentum to invert and recover guard underneath you or sweep by rolling over their shoulder** (Effectiveness: Low) - Your Response: Maintain heavy hip pressure on their thighs to prevent the inversion. If they begin inverting, follow their rotation and use the exposed back to transition to a back take or pass to the opposite side from their rotation direction. → Leads to [[Half Guard]]
+- **Bottom player hip escapes and re-establishes foot-on-bicep hooks during initial forward drive** (Effectiveness: High) - Your Response: Accelerate your forward drive and strip grips simultaneously rather than pausing. If they re-establish hooks, disengage and return to systematic grip breaking before reattempting. → Leads to [[Positions/Spider Guard]]
+- **Bottom player shoots triangle during the stacking transition by catching your head and arm before full stack is established** (Effectiveness: Medium) - Your Response: Keep your head high and posture strong during the initial drive. If caught in triangle position, immediately posture up inside the triangle and use the stacking pressure to begin triangle escape sequences rather than pulling backward. → Leads to [[Positions/Half Guard]]
+- **Bottom player frames against your shoulders or hips to prevent full compression and creates distance to recover guard** (Effectiveness: Medium) - Your Response: Swim your arms inside their frames to collapse them, then re-drive the stack. Alternatively, switch to a leg drag pass if the frames prevent stacking by controlling one leg and dragging it across their body. → Leads to [[Positions/Spider Guard]]
+- **Bottom player uses the stacking momentum to invert and recover guard underneath you or sweep by rolling over their shoulder** (Effectiveness: Low) - Your Response: Maintain heavy hip pressure on their thighs to prevent the inversion. If they begin inverting, follow their rotation and use the exposed back to transition to a back take or pass to the opposite side from their rotation direction. → Leads to [[Positions/Half Guard]]
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Master executing the Technical Mount to S Mount transition. Comple
 
 Executing the Technical Mount to S Mount transition requires converting your diagonal body position into a fully perpendicular alignment while maintaining unbroken control of the opponent's isolated arm. The transition begins from an established Technical Mount where your posted leg provides base and your inside leg hooks underneath the opponent. The critical movement is a controlled hip rotation that swings your body perpendicular to your opponent's torso, positioning both legs in the characteristic S-shape—one over the head and one across the chest. Throughout this rotation, your two-on-one grip on the opponent's arm must remain secure, as any lapse in arm control during the weight shift creates immediate escape opportunities. The transition rewards practitioners who combine patient arm control with decisive rotational commitment, and represents the final positioning step before high-percentage armbar attacks.
 
-**From Position**: [[Technical Mount]] (Top)
+**From Position**: [[Positions/Mount/Technical Mount]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Technical Mount to S Mount transition requires converting your dia
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[S Mount]] | 55% |
-| Failure | [[Technical Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount/S Mount]] | 55% |
+| Failure | [[Positions/Mount/Technical Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Technical Mount to S Mount transition requires converting your dia
 
 ## Opponent Counters
 
-- **Opponent retracts arm by bending elbow and gripping own collar during the rotation** (Effectiveness: High) - Your Response: If arm retraction begins during rotation, immediately abandon the S Mount transition and return to Technical Mount. Re-establish arm control before attempting the transition again. Do not chase a partially retracted arm while in an unstable mid-rotation position. → Leads to [[Technical Mount]]
-- **Opponent times an explosive hip escape during the weight shift, shrimping away from the controlled arm** (Effectiveness: Medium) - Your Response: Follow their hip movement by scooting your hips with them, maintaining the hip-to-shoulder seal. If they create significant space, decide quickly: either complete the rotation explosively to S Mount before they recover, or settle back into Technical Mount and reclaim the lost ground. → Leads to [[Technical Mount]]
-- **Opponent bridges explosively during the mid-rotation instability, attempting to reverse position** (Effectiveness: Medium) - Your Response: Ride the bridge by staying heavy on your posted leg and keeping your center of gravity low. Use their upward momentum to accelerate your rotation into S Mount. If the bridge is powerful enough to displace you, prioritize maintaining arm control and landing in a recoverable position. → Leads to [[Half Guard]]
-- **Opponent frames against your hip with their free arm to block the rotation path** (Effectiveness: Low) - Your Response: The free arm frame exposes that arm to attack. Strip the frame by swimming your arm under theirs for gift wrap control, or simply drive through the frame using your rotation momentum and body weight. Their frame creates offensive opportunities rather than genuine defensive barriers. → Leads to [[Technical Mount]]
+- **Opponent retracts arm by bending elbow and gripping own collar during the rotation** (Effectiveness: High) - Your Response: If arm retraction begins during rotation, immediately abandon the S Mount transition and return to Technical Mount. Re-establish arm control before attempting the transition again. Do not chase a partially retracted arm while in an unstable mid-rotation position. → Leads to [[Positions/Mount/Technical Mount]]
+- **Opponent times an explosive hip escape during the weight shift, shrimping away from the controlled arm** (Effectiveness: Medium) - Your Response: Follow their hip movement by scooting your hips with them, maintaining the hip-to-shoulder seal. If they create significant space, decide quickly: either complete the rotation explosively to S Mount before they recover, or settle back into Technical Mount and reclaim the lost ground. → Leads to [[Positions/Mount/Technical Mount]]
+- **Opponent bridges explosively during the mid-rotation instability, attempting to reverse position** (Effectiveness: Medium) - Your Response: Ride the bridge by staying heavy on your posted leg and keeping your center of gravity low. Use their upward momentum to accelerate your rotation into S Mount. If the bridge is powerful enough to displace you, prioritize maintaining arm control and landing in a recoverable position. → Leads to [[Positions/Half Guard]]
+- **Opponent frames against your hip with their free arm to block the rotation path** (Effectiveness: Low) - Your Response: The free arm frame exposes that arm to attack. Strip the frame by swimming your arm under theirs for gift wrap control, or simply drive through the frame using your rotation momentum and body weight. Their frame creates offensive opportunities rather than genuine defensive barriers. → Leads to [[Positions/Mount/Technical Mount]]
 
 
 </section>

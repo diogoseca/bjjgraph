@@ -180,7 +180,7 @@ description: "Execute the Reversal from Body Lock to escape standing body lock c
 
 As the attacker executing the Reversal from Body Lock, your objective is to systematically dismantle the opponent's locked grip control, create separation between your torso and their chest, and transition from a highly disadvantageous standing position into half guard where you have legitimate offensive options. The reversal demands precise timing, explosive hip movement, and immediate guard consolidation upon landing. Every second spent in body lock bottom without active escape attempts increases the probability of being taken down into back control or side control, making urgency a fundamental component of successful execution. The grip break is the mechanical cornerstone of this technique, and understanding where your opponent's grip is weakest determines whether the reversal succeeds or fails.
 
-**From Position**: [[Body Lock]] (Bottom)
+**From Position**: [[Positions/Body Lock]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Reversal from Body Lock, your objective is to syst
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 40% |
-| Failure | [[Body Lock]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 40% |
+| Failure | [[Positions/Body Lock]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Reversal from Body Lock, your objective is to syst
 
 ## Opponent Counters
 
-- **Opponent tightens grip and increases forward hip pressure to prevent separation** (Effectiveness: High) - Your Response: Abandon the standing grip break and transition to the controlled guard pull variant - sit to half guard proactively by hooking their leg during a controlled descent rather than fighting a losing grip battle → Leads to [[Body Lock]]
-- **Opponent executes immediate mat return or takedown before grip break completes** (Effectiveness: High) - Your Response: During the takedown, focus on hooking one of their legs with your own legs to establish half guard as you land rather than fighting the takedown itself. Accepting the descent while securing leg entanglement converts their takedown into your guard recovery → Leads to [[Side Control]]
-- **Opponent re-locks grip at a different height after initial break attempt fails** (Effectiveness: Medium) - Your Response: Chain multiple grip break attempts together, attacking from alternating angles. Each re-lock is slightly weaker than the previous one because the opponent loses optimal hand positioning. Use the re-locking moment when their hands are transitioning as the window for your next break attempt → Leads to [[Body Lock]]
-- **Opponent circles laterally and angles off to maintain control while avoiding your grip break attacks** (Effectiveness: Medium) - Your Response: Match their lateral movement with your own footwork while continuing to lower your center of gravity. Their circling creates momentary weight shifts that weaken the lock connection. Time your grip break with their weight transfer onto the far foot when their drive is weakest → Leads to [[Body Lock]]
+- **Opponent tightens grip and increases forward hip pressure to prevent separation** (Effectiveness: High) - Your Response: Abandon the standing grip break and transition to the controlled guard pull variant - sit to half guard proactively by hooking their leg during a controlled descent rather than fighting a losing grip battle → Leads to [[Positions/Body Lock]]
+- **Opponent executes immediate mat return or takedown before grip break completes** (Effectiveness: High) - Your Response: During the takedown, focus on hooking one of their legs with your own legs to establish half guard as you land rather than fighting the takedown itself. Accepting the descent while securing leg entanglement converts their takedown into your guard recovery → Leads to [[Positions/Side Control]]
+- **Opponent re-locks grip at a different height after initial break attempt fails** (Effectiveness: Medium) - Your Response: Chain multiple grip break attempts together, attacking from alternating angles. Each re-lock is slightly weaker than the previous one because the opponent loses optimal hand positioning. Use the re-locking moment when their hands are transitioning as the window for your next break attempt → Leads to [[Positions/Body Lock]]
+- **Opponent circles laterally and angles off to maintain control while avoiding your grip break attacks** (Effectiveness: Medium) - Your Response: Match their lateral movement with your own footwork while continuing to lower your center of gravity. Their circling creates momentary weight shifts that weaken the lock connection. Time your grip break with their weight transfer onto the far foot when their drive is weakest → Leads to [[Positions/Body Lock]]
 
 
 </section>

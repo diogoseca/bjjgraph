@@ -180,7 +180,7 @@ description: "Master attacking mechanics for the Reverse Scarf to Side Control t
 
 Executing the Reverse Scarf to Side Control transition requires precise coordination of hip rotation, weight transfer, and grip switching while maintaining unbroken pressure on your opponent. As the attacker, your goal is to rotate from the reverse-facing orientation to a perpendicular side control position without creating space that allows defensive frame insertion or guard recovery. The transition begins with securing your base and controlling your opponent's near arm, then progresses through a controlled hip switch that redirects your pressure angle while your upper body slides into crossface position. Timing is critical—initiating this transition while your opponent is still processing the reverse scarf pressure or recovering from a failed escape yields the highest success rates. The rotation should feel like a single coordinated movement rather than a sequence of separate adjustments, with your hip bone maintaining contact with their torso throughout the arc.
 
-**From Position**: [[Reverse Scarf Hold]] (Top)
+**From Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Reverse Scarf to Side Control transition requires precise coordina
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 60% |
-| Failure | [[Reverse Scarf Hold]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 60% |
+| Failure | [[Positions/Side Control/Reverse Scarf Hold]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Reverse Scarf to Side Control transition requires precise coordina
 
 ## Opponent Counters
 
-- **Opponent inserts forearm frame against your shoulder or neck during the rotation window before crossface is established** (Effectiveness: High) - Your Response: If frame is just initiating, accelerate rotation and drive your shoulder through the frame using rotational momentum before it becomes structural. If frame is already established with elbow-to-knee connection, abort rotation, re-settle reverse scarf pressure, and strip the frame before reattempting. → Leads to [[Reverse Scarf Hold]]
-- **Opponent shrimps hips away during the momentary pressure reduction of the hip switching phase to create distance** (Effectiveness: Medium) - Your Response: Follow their hip escape by driving your hips forward to chase their retreating movement, using their escape direction to accelerate your rotation into perpendicular alignment at their new angle. Their hip escape paradoxically assists your transition if you follow rather than fight it. → Leads to [[Half Guard]]
-- **Opponent inserts near knee between your bodies during rotation to recover half guard hooks before you can consolidate** (Effectiveness: High) - Your Response: If knee is only partially inserted, immediately sprawl your trapped leg back and apply heavy crossface to flatten opponent before they establish full half guard structure. If fully inserted, accept half guard top and work systematic passing with crossface pressure. → Leads to [[Half Guard]]
-- **Opponent times an explosive bridge during the mid-rotation moment when your base is narrowest and most compromised** (Effectiveness: Medium) - Your Response: Post your far hand immediately and widen base to absorb the bridge force. If bridge is powerful enough to threaten your balance, abort transition and re-establish reverse scarf hold base with wide legs before attempting the rotation again with better timing. → Leads to [[Reverse Scarf Hold]]
+- **Opponent inserts forearm frame against your shoulder or neck during the rotation window before crossface is established** (Effectiveness: High) - Your Response: If frame is just initiating, accelerate rotation and drive your shoulder through the frame using rotational momentum before it becomes structural. If frame is already established with elbow-to-knee connection, abort rotation, re-settle reverse scarf pressure, and strip the frame before reattempting. → Leads to [[Positions/Side Control/Reverse Scarf Hold]]
+- **Opponent shrimps hips away during the momentary pressure reduction of the hip switching phase to create distance** (Effectiveness: Medium) - Your Response: Follow their hip escape by driving your hips forward to chase their retreating movement, using their escape direction to accelerate your rotation into perpendicular alignment at their new angle. Their hip escape paradoxically assists your transition if you follow rather than fight it. → Leads to [[Positions/Half Guard]]
+- **Opponent inserts near knee between your bodies during rotation to recover half guard hooks before you can consolidate** (Effectiveness: High) - Your Response: If knee is only partially inserted, immediately sprawl your trapped leg back and apply heavy crossface to flatten opponent before they establish full half guard structure. If fully inserted, accept half guard top and work systematic passing with crossface pressure. → Leads to [[Positions/Half Guard]]
+- **Opponent times an explosive bridge during the mid-rotation moment when your base is narrowest and most compromised** (Effectiveness: Medium) - Your Response: Post your far hand immediately and widen base to absorb the bridge force. If bridge is powerful enough to threaten your balance, abort transition and re-establish reverse scarf hold base with wide legs before attempting the rotation again with better timing. → Leads to [[Positions/Side Control/Reverse Scarf Hold]]
 
 
 </section>

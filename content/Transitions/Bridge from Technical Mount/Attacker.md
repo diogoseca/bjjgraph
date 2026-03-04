@@ -180,7 +180,7 @@ description: "Complete guide to executing the bridge escape from technical mount
 
 The bridge from technical mount is executed by the bottom player as a defensive escape to create space and recover guard position. Unlike standard mount bridges where bridging direction is relatively flexible, technical mount's asymmetric leg configuration demands precise directional awareness—you must bridge toward the opponent's inside leg where their base is weakest, never toward the posted leg which absorbs force like a tripod. Success requires explosive hip extension timed to the top player's weight shifts, particularly when they commit forward for submission attempts. The bridge itself is only the first movement in a multi-step escape chain: the vertical displacement must be immediately followed by hip escape, knee insertion, and guard recovery to complete the positional transition.
 
-**From Position**: [[Technical Mount]] (Bottom)
+**From Position**: [[Positions/Mount/Technical Mount]] (Bottom)
 
 </section>
 
@@ -232,10 +232,10 @@ The bridge from technical mount is executed by the bottom player as a defensive 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 25% |
-| Success | [[Closed Guard]] | 10% |
-| Failure | [[Technical Mount]] | 40% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 25% |
+| Success | [[Positions/Closed Guard]] | 10% |
+| Failure | [[Positions/Mount/Technical Mount]] | 40% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -244,10 +244,10 @@ The bridge from technical mount is executed by the bottom player as a defensive 
 
 ## Opponent Counters
 
-- **Top player sprawls hips and widens posted leg base to absorb bridge force** (Effectiveness: High) - Your Response: Abandon the bridge attempt and immediately switch to elbow escape or hip escape while they are extended in the sprawl. Their sprawl creates distance between their hips and your body that can be exploited for alternative escapes. → Leads to [[Technical Mount]]
-- **Top player follows your turning motion during the bridge and transitions to back control** (Effectiveness: High) - Your Response: Prevent the back take by keeping your elbows tight and immediately recovering guard rather than continuing to turn. If they begin establishing hooks, address the seatbelt grip immediately and work standard back defense before they consolidate control. → Leads to [[Back Control]]
-- **Top player tightens arm control and accelerates armbar attempt using bridge momentum** (Effectiveness: Medium) - Your Response: If they catch the arm during the bridge, immediately commit to stacking defense by following their rotation and coming to your knees. The bridge momentum can be redirected into a stack that prevents them from completing the armbar extension. → Leads to [[Technical Mount]]
-- **Top player posts free hand on the mat to stabilize against bridge displacement** (Effectiveness: Medium) - Your Response: Their posted hand removes one controlling grip from your arm. Capitalize by immediately retracting the threatened arm to safety while continuing the hip escape. Their base is now single-armed, creating vulnerability to a second bridge attempt. → Leads to [[Technical Mount]]
+- **Top player sprawls hips and widens posted leg base to absorb bridge force** (Effectiveness: High) - Your Response: Abandon the bridge attempt and immediately switch to elbow escape or hip escape while they are extended in the sprawl. Their sprawl creates distance between their hips and your body that can be exploited for alternative escapes. → Leads to [[Positions/Mount/Technical Mount]]
+- **Top player follows your turning motion during the bridge and transitions to back control** (Effectiveness: High) - Your Response: Prevent the back take by keeping your elbows tight and immediately recovering guard rather than continuing to turn. If they begin establishing hooks, address the seatbelt grip immediately and work standard back defense before they consolidate control. → Leads to [[Positions/Back Control]]
+- **Top player tightens arm control and accelerates armbar attempt using bridge momentum** (Effectiveness: Medium) - Your Response: If they catch the arm during the bridge, immediately commit to stacking defense by following their rotation and coming to your knees. The bridge momentum can be redirected into a stack that prevents them from completing the armbar extension. → Leads to [[Positions/Mount/Technical Mount]]
+- **Top player posts free hand on the mat to stabilize against bridge displacement** (Effectiveness: Medium) - Your Response: Their posted hand removes one controlling grip from your arm. Capitalize by immediately retracting the threatened arm to safety while continuing the hip escape. Their base is now single-armed, creating vulnerability to a second bridge attempt. → Leads to [[Positions/Mount/Technical Mount]]
 
 
 </section>

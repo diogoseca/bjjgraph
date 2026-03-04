@@ -19,7 +19,7 @@ The Berimbolo Entry is a revolutionary back-taking technique that emerged from t
 
 The berimbolo represents a paradigm shift in guard play, prioritizing movement and angles over traditional sweeping mechanics. By inverting underneath the opponent, the practitioner creates a unique angle of attack that bypasses conventional passing defenses. The technique requires excellent hip mobility, timing, and spatial awareness, but when executed properly, it offers one of the highest percentage paths to back control in modern jiu-jitsu. The entry phase is crucial - proper De La Riva hook placement and grip control determine whether the inversion will be successful or if the opponent can counter-rotate to prevent the back take.
 
-**From Position**: [[De La Riva Guard]] (Bottom)
+**From Position**: [[Positions/De La Riva Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -30,9 +30,9 @@ The berimbolo represents a paradigm shift in guard play, prioritizing movement a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[De La Riva Guard]] | 25% |
-| Counter | [[De La Riva Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/De La Riva Guard]] | 25% |
+| Counter | [[Positions/De La Riva Guard]] | 10% |
 
 
 </section>
@@ -188,29 +188,29 @@ The Berimbolo Entry is a cornerstone technique of modern sport jiu-jitsu guard s
 ## Related Techniques
 
 
-- [[Kiss of the Dragon]] - Alternative finish when De La Riva hook is compromised
+- [[Transitions/Kiss of the Dragon]] - Alternative finish when De La Riva hook is compromised
 
-- [[De La Riva Sweep]] - Primary setup position and complementary attack
+- [[Transitions/De La Riva Sweep]] - Primary setup position and complementary attack
 
-- [[Rolling Back Take]] - Related inversion-based back attack from similar positions
+- [[Transitions/Rolling Back Take]] - Related inversion-based back attack from similar positions
 
-- [[Reverse De La Riva Guard]] - Alternative guard position for reverse berimbolo entries
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Alternative guard position for reverse berimbolo entries
 
-- [[X-Guard]] - Transition option when full berimbolo rotation is blocked
+- [[Positions/X-Guard]] - Transition option when full berimbolo rotation is blocked
 
-- [[Deep Half Guard]] - Fallback position when berimbolo is countered during rotation
+- [[Positions/Half Guard/Deep Half Guard]] - Fallback position when berimbolo is countered during rotation
 
-- [[Single Leg X-Guard]] - Entry position for standing berimbolo variations
+- [[Positions/X-Guard/Single Leg X-Guard]] - Entry position for standing berimbolo variations
 
-- [[Crab Ride to Back]] - Alternative back-taking method with similar end position
+- [[Transitions/Crab Ride to Back]] - Alternative back-taking method with similar end position
 
-- [[Rear Naked Choke]] - Primary submission after successful berimbolo to back control
+- [[Transitions/Rear Naked Choke]] - Primary submission after successful berimbolo to back control
 
-- [[Seated Guard]] - Starting position for guard pull entries into berimbolo system
+- [[Positions/Seated Guard]] - Starting position for guard pull entries into berimbolo system
 
-- [[Inverted Guard]] - Related position utilizing inversion mechanics
+- [[Positions/Inverted Guard]] - Related position utilizing inversion mechanics
 
-- [[Bolo Sweep]] - Alternative De La Riva attack in same technical family
+- [[Transitions/Bolo Sweep]] - Alternative De La Riva attack in same technical family
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Execute the Complete Leg Weave Pass to finish guard passing from l
 
 The Complete Leg Weave Pass from the attacker's perspective demands mastery of the critical transition between established leg weave control and consolidated side control. The passer must solve the core mechanical problem of extracting the threaded leg while maintaining enough pressure to prevent guard recovery. This requires understanding the interplay between upper body anchoring through crossface and underhook control, lower body extraction through hip angle and leg rotation, and the precise moment to commit weight perpendicular to the opponent's torso. The attacker who masters this finishing sequence transforms every leg weave engagement into a high-probability path to dominant position, eliminating the common stalling pattern where passers maintain leg weave indefinitely without completing the pass.
 
-**From Position**: [[Leg Weave]] (Top)
+**From Position**: [[Positions/Leg Weave]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ The Complete Leg Weave Pass from the attacker's perspective demands mastery of t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Leg Weave]] | 25% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Leg Weave]] | 25% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ The Complete Leg Weave Pass from the attacker's perspective demands mastery of t
 
 ## Opponent Counters
 
-- **Hip escape and knee shield re-insertion before leg extraction completes** (Effectiveness: High) - Your Response: Increase crossface pressure and drive your shoulder into their jaw to prevent the hip escape. If the knee begins entering, collapse it with your hip weight and re-establish the weave depth before reattempting extraction. → Leads to [[Leg Weave]]
-- **Deep half guard entry during weight transfer phase** (Effectiveness: Medium) - Your Response: When you feel the opponent diving under you, immediately sprawl your hips back and drive your weight down through your chest. If they secure deep half, backstep over their body to reverse the guard before they establish sweeping position. → Leads to [[Half Guard]]
-- **Underhook recovery and dogfight transition as chest pressure shifts** (Effectiveness: Medium) - Your Response: Maintain your crossface as the primary anchor and use your far hand to block the underhook by controlling their elbow. If the underhook is secured, switch to a whizzer and drive forward to flatten them back down before they can come to their knees. → Leads to [[Half Guard]]
-- **Bridge and hook re-engagement during leg extraction** (Effectiveness: High) - Your Response: Absorb the bridge by lowering your center of gravity and widening your base with your posting leg. Wait for the bridge to exhaust, then immediately resume extraction before they can generate a second bridge. Timing the extraction between bridge attempts is critical. → Leads to [[Leg Weave]]
+- **Hip escape and knee shield re-insertion before leg extraction completes** (Effectiveness: High) - Your Response: Increase crossface pressure and drive your shoulder into their jaw to prevent the hip escape. If the knee begins entering, collapse it with your hip weight and re-establish the weave depth before reattempting extraction. → Leads to [[Positions/Leg Weave]]
+- **Deep half guard entry during weight transfer phase** (Effectiveness: Medium) - Your Response: When you feel the opponent diving under you, immediately sprawl your hips back and drive your weight down through your chest. If they secure deep half, backstep over their body to reverse the guard before they establish sweeping position. → Leads to [[Positions/Half Guard]]
+- **Underhook recovery and dogfight transition as chest pressure shifts** (Effectiveness: Medium) - Your Response: Maintain your crossface as the primary anchor and use your far hand to block the underhook by controlling their elbow. If the underhook is secured, switch to a whizzer and drive forward to flatten them back down before they can come to their knees. → Leads to [[Positions/Half Guard]]
+- **Bridge and hook re-engagement during leg extraction** (Effectiveness: High) - Your Response: Absorb the bridge by lowering your center of gravity and widening your base with your posting leg. Wait for the bridge to exhaust, then immediately resume extraction before they can generate a second bridge. Timing the extraction between bridge attempts is critical. → Leads to [[Positions/Leg Weave]]
 
 
 </section>

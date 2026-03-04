@@ -186,7 +186,7 @@ description: "Execute the Electric Chair entry from Deep Half Guard. Step-by-ste
 
 As the attacker executing the Electric Chair Entry from Deep Half, your objective is to layer lockdown control onto your existing deep half underhook to create an inescapable sweep-submission configuration. You already control the opponent's base through the deep half position. The Electric Chair entry adds a second axis of control through the lockdown, trapping their near leg while your underhook controls the far leg. This dual-leg control creates the splitting pressure that defines the Electric Chair and makes the position nearly impossible to defend without conceding either the sweep or the submission. Success depends on maintaining your deep underhook throughout the lockdown threading process and timing the hip extension to catch the opponent before they can establish crossface or extract their leg.
 
-**From Position**: [[Deep Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the attacker executing the Electric Chair Entry from Deep Half, your objectiv
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Electric Chair]] | 55% |
-| Failure | [[Deep Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard/Electric Chair]] | 55% |
+| Failure | [[Positions/Half Guard/Deep Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the attacker executing the Electric Chair Entry from Deep Half, your objectiv
 
 ## Opponent Counters
 
-- **Opponent establishes crossface pressure before lockdown is completed, flattening the bottom player and preventing hip extension** (Effectiveness: High) - Your Response: Frame against their crossfacing shoulder with your free hand while maintaining the underhook. If severely flattened, temporarily abandon the Electric Chair entry and use the deep half position to execute a Waiter Sweep or Old School instead, then return to the Electric Chair when you recover angle. → Leads to [[Deep Half Guard]]
-- **Opponent drives hips backward and attempts to extract their near leg before the lockdown can be fully triangled** (Effectiveness: High) - Your Response: Immediately chase their retreating leg with your threading leg and accelerate the lockdown completion. If they extract the leg entirely, transition to X-Guard or Single Leg X by hooking their retreating leg with your feet. Do not remain in deep half without control of the near leg. → Leads to [[Half Guard]]
-- **Opponent whizzers the underhook arm aggressively to prevent the pulling action needed for the Electric Chair split** (Effectiveness: Medium) - Your Response: Use the whizzer pressure against them by ducking your shoulder deeper and rolling underneath. The whizzer actually helps create the angle needed for the Electric Chair if you can maintain the lockdown. Alternatively, the whizzer creates space for the Old School sweep as they overcommit to controlling your arm. → Leads to [[Deep Half Guard]]
-- **Opponent posts their free hand on the mat and shifts weight to the far side to prevent being swept over the lockdown side** (Effectiveness: Medium) - Your Response: Increase the submission pressure on the split rather than forcing the sweep. Their posting hand removes their ability to defend the submission. Alternatively, switch to attacking the posting arm with a kimura grip while maintaining the lockdown. → Leads to [[Electric Chair]]
+- **Opponent establishes crossface pressure before lockdown is completed, flattening the bottom player and preventing hip extension** (Effectiveness: High) - Your Response: Frame against their crossfacing shoulder with your free hand while maintaining the underhook. If severely flattened, temporarily abandon the Electric Chair entry and use the deep half position to execute a Waiter Sweep or Old School instead, then return to the Electric Chair when you recover angle. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Opponent drives hips backward and attempts to extract their near leg before the lockdown can be fully triangled** (Effectiveness: High) - Your Response: Immediately chase their retreating leg with your threading leg and accelerate the lockdown completion. If they extract the leg entirely, transition to X-Guard or Single Leg X by hooking their retreating leg with your feet. Do not remain in deep half without control of the near leg. → Leads to [[Positions/Half Guard]]
+- **Opponent whizzers the underhook arm aggressively to prevent the pulling action needed for the Electric Chair split** (Effectiveness: Medium) - Your Response: Use the whizzer pressure against them by ducking your shoulder deeper and rolling underneath. The whizzer actually helps create the angle needed for the Electric Chair if you can maintain the lockdown. Alternatively, the whizzer creates space for the Old School sweep as they overcommit to controlling your arm. → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Opponent posts their free hand on the mat and shifts weight to the far side to prevent being swept over the lockdown side** (Effectiveness: Medium) - Your Response: Increase the submission pressure on the split rather than forcing the sweep. Their posting hand removes their ability to defend the submission. Alternatively, switch to attacking the posting arm with a kimura grip while maintaining the lockdown. → Leads to [[Positions/Half Guard/Electric Chair]]
 
 
 </section>

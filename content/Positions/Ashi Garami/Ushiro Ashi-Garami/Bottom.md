@@ -212,21 +212,21 @@ Energy management in ushiro ashi-garami bottom is critical, as panicked escape a
 
 ## Available Escapes
 
-### [[Ushiro Ashi-Garami Escape]] (11% of attempts)
+### [[Transitions/Ushiro Ashi-Garami Escape]] (11% of attempts)
 
-### [[Inversion to Turtle]] (39% of attempts)
+### [[Transitions/Inversion to Turtle]] (39% of attempts)
 
-### [[Ushiro Ashi-Garami to Deep Half]] (11% of attempts)
+### [[Transitions/Ushiro Ashi-Garami to Deep Half]] (11% of attempts)
 
-### [[Single Leg X Recovery]] (12% of attempts)
+### [[Transitions/Single Leg X Recovery]] (12% of attempts)
 
-### [[Reverse Heel Hook Counter]] (4% of attempts)
+### [[Transitions/Reverse Heel Hook Counter]] (4% of attempts)
 
-### [[Leg Extraction to Guard]] (14% of attempts)
+### [[Transitions/Leg Extraction to Guard]] (14% of attempts)
 
-### [[Counter-entangle to 50-50 Guard]] (7% of attempts)
+### [[Transitions/Counter-entangle to 50-50 Guard]] (7% of attempts)
 
-### [[Sweep from Ushiro Ashi-Garami]] (2% of attempts)
+### [[Transitions/Sweep from Ushiro Ashi-Garami]] (2% of attempts)
 
 
 
@@ -237,23 +237,23 @@ Energy management in ushiro ashi-garami bottom is critical, as panicked escape a
 ## Decision Making from This Position
 
 **If opponent has shallow leg entanglement with weak upper body control:**
-- Execute **[[Complete Escape Sequence]]** → [[Standing Position]] (Probability: 55%)
-- Execute **[[Turtle Recovery]]** → [[Turtle]] (Probability: 60%)
+- Execute **[[Complete Escape Sequence]]** → [[Positions/Standing Position]] (Probability: 55%)
+- Execute **[[Turtle Recovery]]** → [[Positions/Turtle]] (Probability: 60%)
 
 
 **If opponent has deep entanglement and is establishing heel grip:**
-- Execute **[[Counter Heel Hook]]** → [[Inside Ashi-Garami]] (Probability: 35%)
-- Execute **[[Accept Turtle Position]]** → [[Turtle]] (Probability: 50%)
+- Execute **[[Counter Heel Hook]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 35%)
+- Execute **[[Accept Turtle Position]]** → [[Positions/Turtle]] (Probability: 50%)
 
 
 **If opponent transitions to saddle or honey hole during inversion:**
-- Execute **[[Immediate Turtle Roll]]** → [[Turtle]] (Probability: 45%)
-- Execute **[[Deep Half Transition]]** → [[Deep Half Guard]] (Probability: 40%)
+- Execute **[[Immediate Turtle Roll]]** → [[Positions/Turtle]] (Probability: 45%)
+- Execute **[[Deep Half Transition]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 40%)
 
 
 **If clearing outside leg successfully but inside leg remains:**
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 50%)
-- Execute **[[Complete Leg Clear]]** → [[Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 50%)
+- Execute **[[Complete Leg Clear]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
 
@@ -387,14 +387,14 @@ Start in ushiro ashi-garami with partner attempting to secure heel hook grips. P
 
 ## Related Positions and Techniques
 
-- **[[Outside Ashi-Garami]]** - Primary position that inversion attempts originate from during escape sequences
-- **[[Saddle]]** - Position opponent may transition to during escape, requiring defensive awareness
-- **[[Ashi Garami Escape]]** - Core escape system that includes ushiro variation as one technique branch
-- **[[Turtle]]** - Common transitional position when accepting safe recovery over forced leg extraction
-- **[[Deep Half Guard]]** - Alternative recovery position accessible during partial leg clearing
-- **[[Leg Entanglement]]** - Fundamental principle governing all ashi-garami escape and counter-attack options
-- **[[Single Leg X-Guard]]** - Recovery position accessible when partially clearing reversed entanglement
-- **[[Inside Ashi-Garami]]** - Counter-attack position accessible when opponent exposes their leg during adjustments
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Primary position that inversion attempts originate from during escape sequences
+- **[[Positions/Ashi Garami/Saddle]]** - Position opponent may transition to during escape, requiring defensive awareness
+- **[[Transitions/Ashi Garami Escape]]** - Core escape system that includes ushiro variation as one technique branch
+- **[[Positions/Turtle]]** - Common transitional position when accepting safe recovery over forced leg extraction
+- **[[Positions/Half Guard/Deep Half Guard]]** - Alternative recovery position accessible during partial leg clearing
+- **[[Positions/Leg Entanglement]]** - Fundamental principle governing all ashi-garami escape and counter-attack options
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Recovery position accessible when partially clearing reversed entanglement
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Counter-attack position accessible when opponent exposes their leg during adjustments
 
 
 </section>

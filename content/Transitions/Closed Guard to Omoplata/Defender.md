@@ -154,7 +154,7 @@ description: "How to defend against Closed Guard to Omoplata in BJJ. Recognition
 
 Defending the omoplata transition from closed guard requires early recognition and decisive action before the attacker secures leg position over your shoulder. The omoplata is a progressive attack - the deeper the attacker gets into the sequence, the fewer defensive options remain available. Your primary defensive strategy centers on posture maintenance and arm withdrawal during the initial setup phase, transitioning to stack-based defenses and forward rolling escapes once the leg has been threaded. Understanding the attacker's sequential requirements (arm isolation, angle creation, leg threading, base breaking) reveals specific windows where intervention is most effective. At purple belt and above, defending the omoplata becomes less about preventing the initial entry and more about managing the position once established, denying the finish while working to extract your arm or recover to a neutral guard position. The defender who recognizes the setup early and addresses it at the arm control phase will almost always succeed, while the defender who allows the full leg threading must rely on more energy-intensive escape methods with lower success rates.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the omoplata transition from closed guard requires early recognition a
 ### 1. Posture up and withdraw the targeted arm by pulling your elbow sharply back to your hip while driving your chest upright
 
 - **When to use**: Early phase - when you feel the opponent establishing the overhook or pulling your arm across their body before leg threading begins
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You recover to standard closed guard top position with posture intact, denying the entire omoplata sequence and forcing the opponent to restart their attack
 - **Risk**: If your arm withdrawal is too slow, the opponent may switch to a triangle by bringing their other leg across your neck as your arm retreats
 
 ### 2. Drive forward into a stack position, pinning opponent's shoulders to the mat while turning toward their legs to relieve shoulder pressure
 
 - **When to use**: Mid-phase - when the opponent has already threaded their leg over your shoulder but has not yet completed the rotation to sit up behind you
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You neutralize the shoulder lock by compressing the opponent flat, preventing them from sitting up and completing the rotation needed for the finish. From the stack you can work to extract your arm and re-establish guard top
 - **Risk**: If the opponent has already established strong hip angle, stacking may increase rotational pressure on your shoulder rather than relieve it
 
 ### 3. Execute a controlled forward roll over your trapped shoulder, landing in top position and immediately turning to face the opponent
 
 - **When to use**: Late phase - when the opponent has fully established the omoplata position with leg over your shoulder and is beginning to sit up for the finish
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You escape the shoulder lock by rolling through the pressure direction, potentially ending in top position. The roll eliminates the shoulder angle that creates submission danger
 - **Risk**: A skilled attacker will follow your roll and transition to back control or maintain the omoplata through the roll. Poorly timed rolls can also increase shoulder stress
 
 ### 4. Lock your hands together in a gable grip or grab your own belt to prevent arm extension while working to turn into the opponent
 
 - **When to use**: Emergency defense - when fully caught in omoplata and opponent is applying finishing pressure, buying time to work a proper escape
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You temporarily prevent the shoulder lock finish by preventing your arm from being extended. This buys time to work the forward roll or posture recovery
 - **Risk**: This is a stalling defense only - the opponent can sweep you or adjust position while you grip fight. Eventually they will break your defensive grip
 
@@ -225,11 +225,11 @@ Defending the omoplata transition from closed guard requires early recognition a
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Withdraw your arm early during the setup phase by pulling your elbow sharply to your hip while driving your posture upright. Alternatively, stack the opponent flat and methodically extract your arm while maintaining heavy forward pressure. In both cases, re-establish strong posture and grip fighting position before the opponent can re-attack.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Execute a forward roll when fully caught in the omoplata, timing the roll as the opponent sits up rather than after they establish full control. Roll over your trapped shoulder toward the opponent's feet, immediately turn to face them on landing, and establish distance with your legs. Be prepared for the opponent to transition to open guard attacks as you disengage.
 

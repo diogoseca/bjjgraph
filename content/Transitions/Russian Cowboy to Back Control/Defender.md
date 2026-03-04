@@ -154,7 +154,7 @@ description: "Defensive guide against the Russian Cowboy to Back Control transit
 
 Defending the Russian Cowboy to Back Control transition is a critical survival skill, as allowing the second hook means transitioning from a difficult but escapable position into the most dominant control in the sport. The defender's primary objective is preventing the free leg from crossing over and establishing the second hook. This requires constant awareness of the attacker's free leg position, active hand fighting to block threading attempts, and the tactical intelligence to exploit the brief instability created during the insertion attempt. Successful defense often converts the attacker's offensive commitment into an escape opportunity, as the moment of hook threading is when the attacker's base and control are most compromised. The defender who recognizes and capitalizes on this window can reverse the situation entirely.
 
-**Opponent's Starting Position**: [[Russian Cowboy]] (Top)
+**Opponent's Starting Position**: [[Positions/Russian Cowboy]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the Russian Cowboy to Back Control transition is a critical survival s
 ### 1. Block the threading leg with your far hand by posting it on their knee or shin as it arcs toward your far hip
 
 - **When to use**: As soon as you feel the attacker's free leg lifting off the mat and moving toward your body, immediately post your far hand on their knee to block the arc path
-- **Targets**: [[Russian Cowboy]]
+- **Targets**: [[Positions/Russian Cowboy]]
 - **If successful**: The attacker's hook insertion is blocked and they remain in Russian Cowboy without advancing to full back control
 - **Risk**: Removing your far hand from neck defense may expose you to a choke if the hook attempt was a feint designed to clear your hand
 
 ### 2. Explosive hip escape and turn-in toward the attacker during the threading motion to establish half guard
 
 - **When to use**: When you feel the attacker commit their free leg to the threading arc, creating a brief window where their base is compromised and they cannot follow your hip movement
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You escape the back control entirely and establish half guard top, completely reversing the positional hierarchy
 - **Risk**: If mistimed, the turn-in can be intercepted by the seatbelt control and the attacker may use your rotation to assist their hook insertion
 
 ### 3. Clamp your thighs together and pinch your knees inward to close the entry path for the second hook
 
 - **When to use**: As a preventive measure when you sense the hook insertion is imminent but cannot free a hand to block, particularly when both hands are occupied defending a choke
-- **Targets**: [[Russian Cowboy]]
+- **Targets**: [[Positions/Russian Cowboy]]
 - **If successful**: The attacker's foot cannot penetrate past your clamped thighs and the insertion fails, keeping the position in Russian Cowboy
 - **Risk**: Clamping thighs is a temporary measure that does not address the underlying positional problem and the attacker will reattempt with a different approach
 
 ### 4. Bridge into the attacker and scoot hips downward to create distance that extends the threading arc beyond reach
 
 - **When to use**: When the attacker begins shifting their hips for the threading motion, bridge your hips upward into their body while simultaneously scooting downward to extend their free leg's travel distance
-- **Targets**: [[Russian Cowboy]]
+- **Targets**: [[Positions/Russian Cowboy]]
 - **If successful**: The increased distance makes the threading arc too long to complete, forcing the attacker to reposition their free leg and attempt again
 - **Risk**: Bridging can create space that the attacker exploits for deeper seatbelt control or alternative submissions if the distance creation is insufficient
 
@@ -224,11 +224,11 @@ Defending the Russian Cowboy to Back Control transition is a critical survival s
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the attacker's compromised base during the hook threading attempt by executing an explosive hip escape and turn-in toward the attacker. Time the movement for the exact moment their free leg commits to the arc, when their weight is shifted and their base is narrowest. Drive your far elbow to the mat, bridge into them, and rotate to face them while trapping their leg between yours to establish half guard.
 
-### → [[Russian Cowboy]]
+### → [[Positions/Russian Cowboy]]
 
 Prevent the hook insertion entirely by maintaining active far-hand blocking on the threading leg, clamping your thighs to deny entry, and managing the distance through hip escapes that extend the arc beyond the attacker's reach. While remaining in Russian Cowboy is not ideal, preventing the upgrade to full back control preserves your escape options and avoids the dramatically worse position.
 

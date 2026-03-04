@@ -186,7 +186,7 @@ description: "Execute the body triangle escape to half guard. Step-by-step clear
 
 From the attacker's perspective, the Body Triangle Escape to Half Guard demands systematic execution under significant physical and psychological pressure. You must simultaneously manage breathing restriction, protect your neck from submission attempts, and methodically attack the mechanical weakness of the triangle lock. The escape centers on identifying the triangle leg's crossing direction, turning toward that side to reduce squeeze effectiveness, and attacking the foot behind your opponent's knee to collapse the figure-four structure. Success requires patience, precise timing, and the discipline to execute technical clearing mechanics rather than explosive scrambling that wastes energy under breathing restriction. The reward is substantial—recovering half guard provides immediate offensive options that transform you from a survival state to an active engagement position.
 
-**From Position**: [[Body Triangle]] (Bottom)
+**From Position**: [[Positions/Back Control/Body Triangle]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ From the attacker's perspective, the Body Triangle Escape to Half Guard demands 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 30% |
-| Failure | [[Body Triangle]] | 45% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Half Guard]] | 30% |
+| Failure | [[Positions/Back Control/Body Triangle]] | 45% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -251,10 +251,10 @@ From the attacker's perspective, the Body Triangle Escape to Half Guard demands 
 
 ## Opponent Counters
 
-- **Opponent tightens triangle squeeze and pulls you back flat when you begin turning toward the triangle side** (Effectiveness: High) - Your Response: Wait for squeeze to relax slightly during the opponent's next grip adjustment, then use a sharp explosive turn rather than gradual rotation. The opponent cannot maintain maximum squeeze indefinitely and brief relaxation windows always occur during upper body transitions. → Leads to [[Body Triangle]]
-- **Opponent attacks neck with rear naked choke when you redirect your hand from neck defense to the triangle lock point** (Effectiveness: High) - Your Response: Immediately return to neck defense and abandon the clearing attempt. Alternate between brief clearing attempts and neck protection rather than committing both hands to the triangle for extended periods. Develop a rhythm of defend-clear-defend that limits your neck exposure window. → Leads to [[Body Triangle]]
-- **Opponent transitions to standard hooks when the triangle is partially cleared, inserting feet inside your thighs** (Effectiveness: Medium) - Your Response: Accept this as a positional improvement – standard hooks are significantly easier to clear than body triangle. Immediately begin standard back escape sequences using hip escape and hook removal before the opponent can re-establish the triangle lock. → Leads to [[Back Control]]
-- **Opponent re-drives foot behind knee to re-lock the triangle after you partially clear the ankle** (Effectiveness: Medium) - Your Response: When attacking the foot, push it completely clear and immediately wedge your elbow into the space between your body and their leg to prevent re-locking. Do not release wedge pressure until you have completed the hip escape. The frame must occupy the space before they can drive the foot back. → Leads to [[Body Triangle]]
+- **Opponent tightens triangle squeeze and pulls you back flat when you begin turning toward the triangle side** (Effectiveness: High) - Your Response: Wait for squeeze to relax slightly during the opponent's next grip adjustment, then use a sharp explosive turn rather than gradual rotation. The opponent cannot maintain maximum squeeze indefinitely and brief relaxation windows always occur during upper body transitions. → Leads to [[Positions/Back Control/Body Triangle]]
+- **Opponent attacks neck with rear naked choke when you redirect your hand from neck defense to the triangle lock point** (Effectiveness: High) - Your Response: Immediately return to neck defense and abandon the clearing attempt. Alternate between brief clearing attempts and neck protection rather than committing both hands to the triangle for extended periods. Develop a rhythm of defend-clear-defend that limits your neck exposure window. → Leads to [[Positions/Back Control/Body Triangle]]
+- **Opponent transitions to standard hooks when the triangle is partially cleared, inserting feet inside your thighs** (Effectiveness: Medium) - Your Response: Accept this as a positional improvement – standard hooks are significantly easier to clear than body triangle. Immediately begin standard back escape sequences using hip escape and hook removal before the opponent can re-establish the triangle lock. → Leads to [[Positions/Back Control]]
+- **Opponent re-drives foot behind knee to re-lock the triangle after you partially clear the ankle** (Effectiveness: Medium) - Your Response: When attacking the foot, push it completely clear and immediately wedge your elbow into the space between your body and their leg to prevent re-locking. Do not release wedge pressure until you have completed the hip escape. The frame must occupy the space before they can drive the foot back. → Leads to [[Positions/Back Control/Body Triangle]]
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Master hook insertion from seat belt back control. Learn systemati
 
 As the attacker executing Seat Belt to Full Back Control, your objective is converting the upper body dominance of the seat belt grip into complete positional control by inserting both leg hooks inside the defender's thighs. The seat belt provides the structural foundation—maintaining chest-to-back pressure and preventing the defender from turning to face you—while hook insertion adds the critical hip control layer that transforms a grip-dependent position into a mechanically dominant one. The key challenge is threading each hook without creating enough space for the defender to exploit the momentary adjustment. This requires understanding the timing relationship between seat belt pressure maintenance and leg positioning, recognizing when the defender's defensive attention is occupied elsewhere, and executing hook insertion with precision rather than force.
 
-**From Position**: [[Seat Belt Control Back]] (Top)
+**From Position**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing Seat Belt to Full Back Control, your objective is conv
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Seat Belt Control Back]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Back Control/Seat Belt Control Back]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing Seat Belt to Full Back Control, your objective is conv
 
 ## Opponent Counters
 
-- **Defender clamps knees together to block hook insertion between thighs** (Effectiveness: High) - Your Response: Use your top leg as a lever by placing your knee on top of the defender's thigh and prying their legs apart with downward pressure. Alternatively, use a pulsing pressure technique—squeeze the seat belt grip tight to distract their upper body attention, then thread the hook during the defensive distraction. → Leads to [[Seat Belt Control Back]]
-- **Defender explosively turns hips during hook insertion attempt to create space for escape** (Effectiveness: High) - Your Response: Immediately abandon the hook attempt and reinforce seat belt grip by tightening chest-to-back pressure and following their hip movement with your body. Re-stabilize the seat belt control position before attempting hook insertion again. Chasing the hook during explosive movement risks losing the entire position. → Leads to [[Half Guard]]
-- **Defender reaches back to grab your legs or feet to prevent hook insertion** (Effectiveness: Medium) - Your Response: When the defender's hands leave neck defense to fight your legs, immediately threaten the rear naked choke by sliding your choking arm toward their exposed neck. This forces them to choose between blocking hooks and defending the choke—they cannot do both simultaneously. Insert hooks when hands return to neck defense. → Leads to [[Seat Belt Control Back]]
-- **Defender bridges and creates distance between their back and your chest during hook attempt** (Effectiveness: Medium) - Your Response: Follow the bridge by driving your hips forward and dropping your weight low, closing the space the bridge created. Use the momentary hip elevation from the bridge as an opportunity to slide your bottom hook in while their thighs are temporarily more accessible. The bridge actually helps your insertion if you stay tight. → Leads to [[Seat Belt Control Back]]
+- **Defender clamps knees together to block hook insertion between thighs** (Effectiveness: High) - Your Response: Use your top leg as a lever by placing your knee on top of the defender's thigh and prying their legs apart with downward pressure. Alternatively, use a pulsing pressure technique—squeeze the seat belt grip tight to distract their upper body attention, then thread the hook during the defensive distraction. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
+- **Defender explosively turns hips during hook insertion attempt to create space for escape** (Effectiveness: High) - Your Response: Immediately abandon the hook attempt and reinforce seat belt grip by tightening chest-to-back pressure and following their hip movement with your body. Re-stabilize the seat belt control position before attempting hook insertion again. Chasing the hook during explosive movement risks losing the entire position. → Leads to [[Positions/Half Guard]]
+- **Defender reaches back to grab your legs or feet to prevent hook insertion** (Effectiveness: Medium) - Your Response: When the defender's hands leave neck defense to fight your legs, immediately threaten the rear naked choke by sliding your choking arm toward their exposed neck. This forces them to choose between blocking hooks and defending the choke—they cannot do both simultaneously. Insert hooks when hands return to neck defense. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
+- **Defender bridges and creates distance between their back and your chest during hook attempt** (Effectiveness: Medium) - Your Response: Follow the bridge by driving your hips forward and dropping your weight low, closing the space the bridge created. Use the momentary hip elevation from the bridge as an opportunity to slide your bottom hook in while their thighs are temporarily more accessible. The bridge actually helps your insertion if you stay tight. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
 
 
 </section>

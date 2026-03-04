@@ -21,7 +21,7 @@ The transition centers on a precise sequencing problem: you must insert hooks on
 
 Strategically, this transition distinguishes practitioners who simply arrive at the back from those who systematically consolidate dominant control. The seat belt grip provides the foundation, but hooks provide the architecture. Without hooks, the defender's primary escape tool—hip rotation and turning to face—remains available. With hooks secured, the defender's escape options narrow dramatically, retention rates increase substantially, and the attacker gains the stable platform necessary for methodical submission hunting through rear naked choke, armbar, and bow and arrow sequences.
 
-**From Position**: [[Seat Belt Control Back]] (Top)
+**From Position**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition distinguishes practitioners who simply arrive at 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Seat Belt Control Back]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Back Control/Seat Belt Control Back]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ Seat Belt to Full Back Control sits at the pivotal junction between back take en
 ## Related Techniques
 
 
-- [[Seat Belt Control Back]] - Starting position providing upper body control foundation for hook insertion
+- [[Positions/Back Control/Seat Belt Control Back]] - Starting position providing upper body control foundation for hook insertion
 
-- [[Back Control]] - Target position representing complete back control with hooks and grip
+- [[Positions/Back Control]] - Target position representing complete back control with hooks and grip
 
-- [[Back Control Maintenance]] - Complementary technique for sustaining control once hooks are established
+- [[Transitions/Back Control Maintenance]] - Complementary technique for sustaining control once hooks are established
 
-- [[Restore Back Control]] - Recovery technique when hooks are lost after initial establishment
+- [[Transitions/Restore Back Control]] - Recovery technique when hooks are lost after initial establishment
 
-- [[Seat Belt to Body Triangle]] - Alternative consolidation path upgrading to body triangle instead of hooks
+- [[Transitions/Seat Belt to Body Triangle]] - Alternative consolidation path upgrading to body triangle instead of hooks
 
-- [[Rear Naked Choke]] - Primary submission threat unlocked by completing back control consolidation
+- [[Transitions/Rear Naked Choke]] - Primary submission threat unlocked by completing back control consolidation
 
-- [[Body Triangle]] - Alternative leg control configuration achievable after or instead of hook insertion
+- [[Positions/Back Control/Body Triangle]] - Alternative leg control configuration achievable after or instead of hook insertion
 
-- [[Turtle]] - Common entry position from which seat belt is established before hook insertion
+- [[Positions/Turtle]] - Common entry position from which seat belt is established before hook insertion
 
-- [[Half Guard]] - Position defender may recover to if hook insertion fails and hip control is lost
+- [[Positions/Half Guard]] - Position defender may recover to if hook insertion fails and hip control is lost
 
-- [[Escape Seat Belt Control]] - Defensive transition the attacker must prevent during hook insertion window
+- [[Transitions/Escape Seat Belt Control]] - Defensive transition the attacker must prevent during hook insertion window
 
-- [[Bow and Arrow Choke]] - High-percentage gi submission accessible once full back control is established
+- [[Transitions/Bow and Arrow Choke]] - High-percentage gi submission accessible once full back control is established
 
 
 </section>

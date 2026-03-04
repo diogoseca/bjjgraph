@@ -180,7 +180,7 @@ description: "Learn how to defend the standing switch as the controlling player 
 
 As the attacker executing the Standing Switch Defense, you are the controlling player in a standing rear clinch who must recognize and neutralize your opponent's switch escape attempt. Your primary objective is preventing the opponent from completing their 180-degree hip pivot by applying forward hip pressure, tightening your grip configuration, and widening your base to create a structural barrier against the rotation. The defense operates best when recognized early during the opponent's initial hip drop, allowing you to kill the switch before momentum builds. Late recognition demands more dynamic responses including following the rotation and re-establishing control from a new angle. Success in this defense preserves your positional advantage and opens immediate offensive opportunities against an off-balance opponent.
 
-**From Position**: [[Standing Rear Clinch]] (Top)
+**From Position**: [[Positions/Standing Rear Clinch]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Standing Switch Defense, you are the controlling p
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Standing Rear Clinch]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Standing Rear Clinch]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Standing Switch Defense, you are the controlling p
 
 ## Opponent Counters
 
-- **Opponent fakes the switch and immediately chains to a sit-out escape, redirecting downward momentum laterally** (Effectiveness: High) - Your Response: Maintain heavy forward pressure and be ready to follow their hip movement downward. If they sit out, immediately transition to a mat return or sprawl to maintain top control before they can complete the directional change. → Leads to [[Half Guard]]
-- **Opponent uses explosive speed to complete the switch before defensive base can be established** (Effectiveness: Medium) - Your Response: Develop faster pattern recognition through repetitive drilling. If the switch completes, immediately hand fight and circle to re-engage from neutral standing rather than allowing them to establish their own rear clinch control. → Leads to [[Standing Position]]
-- **Opponent drops level and shoots a single leg takedown after the initial switch attempt is stuffed** (Effectiveness: Medium) - Your Response: As you feel them drop level after the switch attempt, widen your base and apply downward shoulder pressure. Be prepared to transition from rear clinch defense to sprawl mechanics as the attack vector changes from rotational to penetration-based. → Leads to [[Half Guard]]
-- **Opponent peels your grip with aggressive two-on-one hand fighting during the switch attempt** (Effectiveness: High) - Your Response: Switch your grip configuration before they complete the peel. Transition from bodylock to seatbelt or from seatbelt to collar tie to maintain at least one controlling grip throughout their hand fighting sequence and preserve chest-to-back connection. → Leads to [[Standing Rear Clinch]]
+- **Opponent fakes the switch and immediately chains to a sit-out escape, redirecting downward momentum laterally** (Effectiveness: High) - Your Response: Maintain heavy forward pressure and be ready to follow their hip movement downward. If they sit out, immediately transition to a mat return or sprawl to maintain top control before they can complete the directional change. → Leads to [[Positions/Half Guard]]
+- **Opponent uses explosive speed to complete the switch before defensive base can be established** (Effectiveness: Medium) - Your Response: Develop faster pattern recognition through repetitive drilling. If the switch completes, immediately hand fight and circle to re-engage from neutral standing rather than allowing them to establish their own rear clinch control. → Leads to [[Positions/Standing Position]]
+- **Opponent drops level and shoots a single leg takedown after the initial switch attempt is stuffed** (Effectiveness: Medium) - Your Response: As you feel them drop level after the switch attempt, widen your base and apply downward shoulder pressure. Be prepared to transition from rear clinch defense to sprawl mechanics as the attack vector changes from rotational to penetration-based. → Leads to [[Positions/Half Guard]]
+- **Opponent peels your grip with aggressive two-on-one hand fighting during the switch attempt** (Effectiveness: High) - Your Response: Switch your grip configuration before they complete the peel. Transition from bodylock to seatbelt or from seatbelt to collar tie to maintain at least one controlling grip throughout their hand fighting sequence and preserve chest-to-back connection. → Leads to [[Positions/Standing Rear Clinch]]
 
 
 </section>

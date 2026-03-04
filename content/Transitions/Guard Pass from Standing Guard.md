@@ -21,7 +21,7 @@ The strategic value of passing from standing lies in the mechanical advantage th
 
 Success requires a systematic approach: first neutralize the guard player's offensive connections through grip stripping and distance management, then establish bilateral control of their legs or hips to restrict guard retention movements, and finally execute a committed directional pass that navigates around their defensive structure to achieve side control. The timing of commitment is critical—passing too early before establishing control leads to sweep vulnerability, while waiting too long allows the guard player to reset their defensive framework and re-establish controlling connections.
 
-**From Position**: [[Standing Guard]] (Top)
+**From Position**: [[Positions/Standing Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Success requires a systematic approach: first neutralize the guard player's offe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Standing Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Standing Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ The standing guard pass is the critical bridge between the standing phase of eng
 ## Related Techniques
 
 
-- [[Side Control]] - Primary target position after successful pass completion
+- [[Positions/Side Control]] - Primary target position after successful pass completion
 
-- [[Half Guard]] - Position resulting from counter when guard player sweeps during pass attempt
+- [[Positions/Half Guard]] - Position resulting from counter when guard player sweeps during pass attempt
 
-- [[Open Guard]] - Guard configuration being addressed from standing position
+- [[Positions/Open Guard]] - Guard configuration being addressed from standing position
 
-- [[Toreando Pass]] - Specific speed-based variant of standing guard pass using bilateral leg redirection
+- [[Transitions/Toreando Pass]] - Specific speed-based variant of standing guard pass using bilateral leg redirection
 
-- [[Leg Drag Pass]] - Complementary standing pass variant using cross-body leg control
+- [[Transitions/Leg Drag Pass]] - Complementary standing pass variant using cross-body leg control
 
-- [[Headquarters Position]] - Transitional position during incomplete or stalled pass sequences
+- [[Positions/Headquarters Position]] - Transitional position during incomplete or stalled pass sequences
 
-- [[Knee on Belly]] - Alternative consolidation position after passing from standing
+- [[Positions/Knee on Belly]] - Alternative consolidation position after passing from standing
 
-- [[De La Riva Guard]] - Common guard type requiring specific passing adjustments from standing
+- [[Positions/De La Riva Guard]] - Common guard type requiring specific passing adjustments from standing
 
-- [[Butterfly Guard]] - Hook-based guard variant frequently encountered when passing from standing
+- [[Positions/Butterfly Guard]] - Hook-based guard variant frequently encountered when passing from standing
 
-- [[Combat Base]] - Alternative stance option if standing pass stalls and reset is needed
+- [[Positions/Combat Base]] - Alternative stance option if standing pass stalls and reset is needed
 
 
 </section>

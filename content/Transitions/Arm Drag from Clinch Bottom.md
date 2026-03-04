@@ -21,7 +21,7 @@ The technique operates on a fundamental biomechanical principle: when you pull y
 
 In competitive BJJ and submission grappling, the arm drag from clinch serves as a critical escape mechanism from inferior standing positions. Athletes like Marcelo Garcia popularized this entry as a primary back take system, demonstrating that you do not need superior wrestling to reach back control. The technique chains naturally with other clinch attacks including duck unders, snap downs, and single leg entries, creating a multi-threat standing game that keeps opponents guessing about your true intention.
 
-**From Position**: [[Clinch]] (Bottom)
+**From Position**: [[Positions/Clinch]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ In competitive BJJ and submission grappling, the arm drag from clinch serves as 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 45% |
-| Failure | [[Clinch]] | 35% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Back Control]] | 45% |
+| Failure | [[Positions/Clinch]] | 35% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -191,27 +191,27 @@ The arm drag from clinch bottom integrates into the broader BJJ standing game as
 ## Related Techniques
 
 
-- [[Clinch]] - Starting position where the arm drag is initiated from bottom clinch
+- [[Positions/Clinch]] - Starting position where the arm drag is initiated from bottom clinch
 
-- [[Back Control]] - Primary target position achieved through successful arm drag execution
+- [[Positions/Back Control]] - Primary target position achieved through successful arm drag execution
 
-- [[Side Control]] - Counter outcome position when opponent successfully defends and takes you down
+- [[Positions/Side Control]] - Counter outcome position when opponent successfully defends and takes you down
 
-- [[Arm Drag to Back]] - Related arm drag transition from neutral clinch position
+- [[Transitions/Arm Drag to Back]] - Related arm drag transition from neutral clinch position
 
-- [[Arm Drag from Clinch]] - Parent technique covering arm drag from general clinch engagement
+- [[Transitions/Arm Drag from Clinch]] - Parent technique covering arm drag from general clinch engagement
 
-- [[Duck Under]] - Alternative back take entry from clinch that chains with arm drag attempts
+- [[Transitions/Duck Under]] - Alternative back take entry from clinch that chains with arm drag attempts
 
-- [[Single Leg Takedown]] - Fallback takedown option when arm drag fails but opponent's weight shifts forward
+- [[Transitions/Single Leg Takedown]] - Fallback takedown option when arm drag fails but opponent's weight shifts forward
 
-- [[Back Take]] - General back take methodology that the arm drag feeds into
+- [[Transitions/Back Take]] - General back take methodology that the arm drag feeds into
 
-- [[Snap Down to Front Headlock]] - Setup technique that creates arm extension for subsequent arm drag entry
+- [[Transitions/Snap Down to Front Headlock]] - Setup technique that creates arm extension for subsequent arm drag entry
 
-- [[Body Lock Takedown from Clinch]] - Alternative clinch attack that can be chained with arm drag feints
+- [[Transitions/Body Lock Takedown from Clinch]] - Alternative clinch attack that can be chained with arm drag feints
 
-- [[Standing Position]] - General standing state from which clinch engagement develops
+- [[Positions/Standing Position]] - General standing state from which clinch engagement develops
 
 
 </section>

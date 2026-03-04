@@ -217,19 +217,19 @@ From a learning progression standpoint, developing effective New York Top defens
 
 ## Available Attacks
 
-### [[Posture Recovery]] (19% of attempts)
+### [[Transitions/Posture Recovery]] (19% of attempts)
 
-### [[Overhook Extraction]] (19% of attempts)
+### [[Transitions/Overhook Extraction]] (19% of attempts)
 
-### [[Guard Opening Sequence]] (14% of attempts)
+### [[Transitions/Guard Opening Sequence]] (14% of attempts)
 
-### [[Stack Defense]] (25% of attempts)
+### [[Transitions/Stack Defense]] (25% of attempts)
 
-### [[Pressure Pass]] (9% of attempts)
+### [[Transitions/Pressure Pass]] (9% of attempts)
 
-### [[Posture Recovery to Closed Guard]] (9% of attempts)
+### [[Transitions/Posture Recovery to Closed Guard]] (9% of attempts)
 
-### [[New York Pass to Side Control]] (5% of attempts)
+### [[Transitions/New York Pass to Side Control]] (5% of attempts)
 
 
 
@@ -240,23 +240,23 @@ From a learning progression standpoint, developing effective New York Top defens
 ## Decision Making from This Position
 
 **If opponent maintains static New York control without immediate attack:**
-- Execute **[[Posture Recovery]]** → [[Closed Guard]] (Probability: 55%)
-- Execute **[[Overhook Extraction]]** → [[Closed Guard]] (Probability: 45%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Overhook Extraction]]** → [[Positions/Closed Guard]] (Probability: 45%)
 
 
 **If opponent begins transition to Invisible Collar or Zombie:**
-- Execute **[[Stack Defense]]** → [[Closed Guard]] (Probability: 60%)
-- Execute **[[Overhook Extraction]]** → [[Closed Guard]] (Probability: 40%)
+- Execute **[[Transitions/Stack Defense]]** → [[Positions/Closed Guard]] (Probability: 60%)
+- Execute **[[Transitions/Overhook Extraction]]** → [[Positions/Closed Guard]] (Probability: 40%)
 
 
 **If opponent attempts triangle setup or other arm-based submission:**
-- Execute **[[Stack Defense]]** → [[Closed Guard]] (Probability: 50%)
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Stack Defense]]** → [[Positions/Closed Guard]] (Probability: 50%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent's grip on shin momentarily weakens or releases:**
-- Execute **[[Posture Recovery]]** → [[Closed Guard]] (Probability: 70%)
-- Execute **[[Pressure Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 70%)
+- Execute **[[Transitions/Pressure Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 
@@ -395,13 +395,13 @@ Partner establishes New York control, you have 60 seconds to escape to better po
 
 ## Related Positions and Techniques
 
-- **[[Closed Guard]]** - Target position after successful New York escape
-- **[[Side Control]]** - Target position after successful pass from New York escape
-- **[[Combat Base]]** - Intermediate position during posture recovery sequence
-- **[[Open Guard]]** - Alternative target position after breaking New York control
-- **[[Triangle Control]]** - Primary submission threat to defend during escape
-- **[[Omoplata Control]]** - Secondary submission threat when overhook is compromised
-- **[[Mount]]** - Position bottom player achieves if sweep succeeds
+- **[[Positions/Closed Guard]]** - Target position after successful New York escape
+- **[[Positions/Side Control]]** - Target position after successful pass from New York escape
+- **[[Positions/Combat Base]]** - Intermediate position during posture recovery sequence
+- **[[Positions/Open Guard]]** - Alternative target position after breaking New York control
+- **[[Positions/Triangle Control]]** - Primary submission threat to defend during escape
+- **[[Positions/Omoplata Control]]** - Secondary submission threat when overhook is compromised
+- **[[Positions/Mount]]** - Position bottom player achieves if sweep succeeds
 
 
 </section>

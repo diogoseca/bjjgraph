@@ -91,33 +91,33 @@ Back control variations include the standard hooks configuration, body triangle 
 ### Available Transitions
 
 
-- **[[Hand Fighting from Back]]** (22% of attempts)
+- **[[Transitions/Hand Fighting from Back]]** (22% of attempts)
 
-- **[[Back Door Escape]]** (20% of attempts)
+- **[[Transitions/Back Door Escape]]** (20% of attempts)
 
-- **[[Hip Escape to Turtle]]** (13% of attempts)
+- **[[Transitions/Hip Escape to Turtle]]** (13% of attempts)
 
-- **[[Elbow Escape to Remove Hooks]]** (12% of attempts)
+- **[[Transitions/Elbow Escape to Remove Hooks]]** (12% of attempts)
 
-- **[[Turn In and Face]]** (8% of attempts)
+- **[[Transitions/Turn In and Face]]** (8% of attempts)
 
-- **[[Hip Escape from Back Control]]** (5% of attempts)
+- **[[Transitions/Hip Escape from Back Control]]** (5% of attempts)
 
-- **[[Turtle from Back Control]]** (5% of attempts)
+- **[[Transitions/Turtle from Back Control]]** (5% of attempts)
 
-- **[[Shoulder Walk Escape from Back]]** (5% of attempts)
+- **[[Transitions/Shoulder Walk Escape from Back]]** (5% of attempts)
 
-- **[[Scoot Hips to Guard from Back]]** (4% of attempts)
+- **[[Transitions/Scoot Hips to Guard from Back]]** (4% of attempts)
 
-- **[[Turn into Opponent from Back]]** (3% of attempts)
+- **[[Transitions/Turn into Opponent from Back]]** (3% of attempts)
 
-- **[[Elbow Escape from Back]]** (2% of attempts)
+- **[[Transitions/Elbow Escape from Back]]** (2% of attempts)
 
-- **[[Hand Fight to Turtle from Back]]** (1% of attempts)
+- **[[Transitions/Hand Fight to Turtle from Back]]** (1% of attempts)
 
-- **[[Granby Roll to Guard]]** (0% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (0% of attempts)
 
-- **[[Rolling Escape to Guard]]** (0% of attempts)
+- **[[Transitions/Rolling Escape to Guard]]** (0% of attempts)
 
 
 ### Common Mistakes
@@ -178,51 +178,51 @@ Back control variations include the standard hooks configuration, body triangle 
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (49% of attempts)
+- **[[Transitions/Rear Naked Choke]]** (49% of attempts)
 
-- **[[Back Control Maintenance]]** (15% of attempts)
+- **[[Transitions/Back Control Maintenance]]** (15% of attempts)
 
-- **[[Bow and Arrow Choke]]** (6% of attempts)
+- **[[Transitions/Bow and Arrow Choke]]** (6% of attempts)
 
-- **[[Gift Wrap from Back]]** (4% of attempts)
+- **[[Transitions/Gift Wrap from Back]]** (4% of attempts)
 
-- **[[Armbar from Back Transition]]** (3% of attempts)
+- **[[Transitions/Armbar from Back Transition]]** (3% of attempts)
 
-- **[[Body Triangle Lock]]** (2% of attempts)
+- **[[Transitions/Body Triangle Lock]]** (2% of attempts)
 
-- **[[Back Control to Crucifix]]** (2% of attempts)
+- **[[Transitions/Back Control to Crucifix]]** (2% of attempts)
 
-- **[[Short Choke Attack]]** (1% of attempts)
+- **[[Transitions/Short Choke Attack]]** (1% of attempts)
 
-- **[[Armbar on Free Arm]]** (1% of attempts)
+- **[[Transitions/Armbar on Free Arm]]** (1% of attempts)
 
-- **[[Rear Naked Choke Setup]]** (1% of attempts)
+- **[[Transitions/Rear Naked Choke Setup]]** (1% of attempts)
 
-- **[[Kimura from Back]]** (1% of attempts)
+- **[[Transitions/Kimura from Back]]** (1% of attempts)
 
-- **[[Triangle from Back]]** (1% of attempts)
+- **[[Transitions/Triangle from Back]]** (1% of attempts)
 
-- **[[Standing Back Control Entry]]** (1% of attempts)
+- **[[Transitions/Standing Back Control Entry]]** (1% of attempts)
 
-- **[[Mat Return to Back Mount]]** (1% of attempts)
+- **[[Transitions/Mat Return to Back Mount]]** (1% of attempts)
 
-- **[[Back Control to Seat Belt Control Back]]** (1% of attempts)
+- **[[Transitions/Back Control to Seat Belt Control Back]]** (1% of attempts)
 
-- **[[Gift Wrap Control]]** (1% of attempts)
+- **[[Transitions/Gift Wrap Control]]** (1% of attempts)
 
-- **[[Back Control to Cross Body Ride]]** (1% of attempts)
+- **[[Transitions/Back Control to Cross Body Ride]]** (1% of attempts)
 
-- **[[Back Control to Reverse Half Guard]]** (1% of attempts)
+- **[[Transitions/Back Control to Reverse Half Guard]]** (1% of attempts)
 
-- **[[Restore Back Control]]** (1% of attempts)
+- **[[Transitions/Restore Back Control]]** (1% of attempts)
 
-- **[[Transition to Game Over]]** (1% of attempts)
+- **[[Transitions/Transition to Game Over]]** (1% of attempts)
 
-- **[[Armbar from Back]]** (2% of attempts)
+- **[[Submissions/Armbar from Back]]** (2% of attempts)
 
-- **[[Armbar from Back with Legs]]** (2% of attempts)
+- **[[Submissions/Armbar from Back with Legs]]** (2% of attempts)
 
-- **[[Triangle Choke Back]]** (2% of attempts)
+- **[[Submissions/Triangle Choke Back]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -261,15 +261,15 @@ Back control variations include the standard hooks configuration, body triangle 
 ## Related Positions
 
 
-- **[[Mount]]** - Alternative dominant position with similar control and submission opportunities but different mechanical advantages
+- **[[Positions/Mount]]** - Alternative dominant position with similar control and submission opportunities but different mechanical advantages
 
-- **[[Crucifix]]** - Advanced back control variation where both opponent's arms are trapped providing enhanced submission control
+- **[[Positions/Crucifix]]** - Advanced back control variation where both opponent's arms are trapped providing enhanced submission control
 
-- **[[Turtle]]** - Common entry position for establishing back control when opponent assumes turtle defensive position
+- **[[Positions/Turtle]]** - Common entry position for establishing back control when opponent assumes turtle defensive position
 
-- **[[Twister Control]]** - Related back attack position with different leg configuration leading to twister and calf slicer submissions
+- **[[Positions/Twister Control]]** - Related back attack position with different leg configuration leading to twister and calf slicer submissions
 
-- **[[Gift Wrap]]** - Arm trap variation used to isolate opponent's arm during back control for submission entries
+- **[[Positions/Gift Wrap]]** - Arm trap variation used to isolate opponent's arm during back control for submission entries
 
 
 </section>

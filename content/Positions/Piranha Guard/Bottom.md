@@ -210,25 +210,25 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 
 ## Available Escapes
 
-### [[Pendulum Sweep]] (21% of attempts)
+### [[Transitions/Pendulum Sweep]] (21% of attempts)
 
-### [[Collar Drag]] (10% of attempts)
+### [[Transitions/Collar Drag]] (10% of attempts)
 
-### [[Triangle Setup]] (10% of attempts)
+### [[Transitions/Triangle Setup]] (10% of attempts)
 
-### [[Omoplata Sweep]] (10% of attempts)
+### [[Transitions/Omoplata Sweep]] (10% of attempts)
 
-### [[De La Riva Sweep]] (10% of attempts)
+### [[Transitions/De La Riva Sweep]] (10% of attempts)
 
-### [[Berimbolo Entry]] (10% of attempts)
+### [[Transitions/Berimbolo Entry]] (10% of attempts)
 
-### [[Flower Sweep]] (11% of attempts)
+### [[Transitions/Flower Sweep]] (11% of attempts)
 
-### [[Armbar from Guard]] (10% of attempts)
+### [[Submissions/Armbar from Guard]] (10% of attempts)
 
-### [[Piranha Guard Sweep]] (5% of attempts)
+### [[Transitions/Piranha Guard Sweep]] (5% of attempts)
 
-### [[Piranha to Worm Guard]] (3% of attempts)
+### [[Transitions/Piranha to Worm Guard]] (3% of attempts)
 
 
 
@@ -239,28 +239,28 @@ From a tactical perspective, Piranha Guard represents the evolution of modern la
 ## Decision Making from This Position
 
 **If opponent establishes strong base and attempts to clear lapel with both hands:**
-- Execute **[[Berimbolo Entry]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Transition to Worm Guard]]** → [[Worm Guard]] (Probability: 40%)
+- Execute **[[Transitions/Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transition to Worm Guard]]** → [[Positions/Worm Guard]] (Probability: 40%)
 
 
 **If opponent drives forward with pressure attempting knee cut or smash pass:**
-- Execute **[[Pendulum Sweep]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Omoplata Sweep]]** → [[Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 50%)
 
 
 **If opponent stands tall and attempts to disengage from lapel entanglement:**
-- Execute **[[De La Riva Sweep]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Flower Sweep]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Transitions/Flower Sweep]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent commits to one side to clear hooks or posts arm defensively:**
-- Execute **[[Collar Drag]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Armbar from Guard]]** → [[Armbar Control]] (Probability: 45%)
+- Execute **[[Transitions/Collar Drag]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Submissions/Armbar from Guard]]** → [[Positions/Armbar Control]] (Probability: 45%)
 
 
 **If opponent maintains low posture attempting to control your legs and hips:**
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 55%)
-- Execute **[[Omoplata Setup]]** → [[Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Omoplata Setup]]** → [[Positions/Omoplata Control]] (Probability: 50%)
 
 
 
@@ -399,16 +399,16 @@ Partner attempts various guard passes (knee slice, toreando, long step, stack pa
 
 ## Related Positions and Techniques
 
-- **[[Worm Guard]]** - Sister lapel guard system sharing similar control principles and transition opportunities with different configuration
-- **[[Squid Guard]]** - Alternative lapel guard variation with similar entry mechanics and sweep angles using different lapel threading
-- **[[De La Riva Guard]]** - Foundational guard position that shares hooking concepts and can transition seamlessly to Piranha Guard
-- **[[Lapel Guard]]** - Parent category of lapel-based guard systems including Piranha variations and related positions
-- **[[Berimbolo Entry]]** - Key transition technique from Piranha Guard leading directly to back control positions
-- **[[Triangle Control]]** - Common submission position accessed from Piranha Guard through triangle setup when opponent postures
-- **[[Omoplata Control]]** - Primary submission target when opponent posts arm defensively during sweep attempts
-- **[[Spider Guard]]** - Alternative open guard that shares similar distance control principles and can be combined with lapel concepts
-- **[[Back Control]]** - Dominant position accessed via berimbolo and collar drag transitions from Piranha Guard
-- **[[Butterfly Guard]]** - Alternative guard for transitioning when lapel configuration is compromised
+- **[[Positions/Worm Guard]]** - Sister lapel guard system sharing similar control principles and transition opportunities with different configuration
+- **[[Positions/Squid Guard]]** - Alternative lapel guard variation with similar entry mechanics and sweep angles using different lapel threading
+- **[[Positions/De La Riva Guard]]** - Foundational guard position that shares hooking concepts and can transition seamlessly to Piranha Guard
+- **[[Positions/Lapel Guard]]** - Parent category of lapel-based guard systems including Piranha variations and related positions
+- **[[Transitions/Berimbolo Entry]]** - Key transition technique from Piranha Guard leading directly to back control positions
+- **[[Positions/Triangle Control]]** - Common submission position accessed from Piranha Guard through triangle setup when opponent postures
+- **[[Positions/Omoplata Control]]** - Primary submission target when opponent posts arm defensively during sweep attempts
+- **[[Positions/Spider Guard]]** - Alternative open guard that shares similar distance control principles and can be combined with lapel concepts
+- **[[Positions/Back Control]]** - Dominant position accessed via berimbolo and collar drag transitions from Piranha Guard
+- **[[Positions/Butterfly Guard]]** - Alternative guard for transitioning when lapel configuration is compromised
 
 
 </section>

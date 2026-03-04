@@ -186,7 +186,7 @@ description: "Learn to execute the Crab Ride Escape to Guard as the bottom playe
 
 Executing the Crab Ride Escape to Guard requires systematic dismantling of the top player's control architecture. As the person trapped in crab ride bottom, your primary objective is to neutralize the hooking leg, rotate your hips toward the opponent, and establish a guard position that puts you back in an offensive framework. The escape demands patience and precise timing rather than explosive athleticism, making it accessible to practitioners of all body types. Success depends on understanding the top player's control hierarchy and attacking each element in the correct sequence - address the hook before rotating, rotate before pulling into guard. Rushing any phase typically results in the opponent advancing to full back control, which represents the worst-case outcome. The methodical nature of this escape makes it reliable under fatigue, as each phase can be paused and resumed without losing progress.
 
-**From Position**: [[Crab Ride]] (Bottom)
+**From Position**: [[Positions/Crab Ride]] (Bottom)
 
 </section>
 
@@ -239,10 +239,10 @@ Executing the Crab Ride Escape to Guard requires systematic dismantling of the t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 35% |
-| Success | [[Half Guard]] | 20% |
-| Failure | [[Crab Ride]] | 25% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Closed Guard]] | 35% |
+| Success | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/Crab Ride]] | 25% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ Executing the Crab Ride Escape to Guard requires systematic dismantling of the t
 
 ## Opponent Counters
 
-- **Opponent deepens hook and increases chest pressure when they feel stripping attempts on the hooking foot** (Effectiveness: High) - Your Response: Pause the strip, re-establish neck defense, and wait for the next grip adjustment or weight shift before attempting again. Use intermittent pressure on the hook rather than constant pulling to prevent the opponent from bracing against a predictable force direction. → Leads to [[Crab Ride]]
-- **Opponent releases crab ride and transitions to seatbelt grip with second hook insertion when rotation creates space** (Effectiveness: High) - Your Response: If you feel the second hook coming, immediately accelerate the rotation and pull the opponent into guard before both hooks are established. The transition window between crab ride and full back control is your last opportunity - commit fully to the guard pull rather than trying to block the second hook. → Leads to [[Back Control]]
-- **Opponent sprawls heavy weight onto your upper back when you begin the turning sequence** (Effectiveness: Medium) - Your Response: Use the sprawl pressure to flatten slightly then redirect by shooting your hips laterally rather than rotating. Create an angle change that disrupts the sprawl alignment, then resume the rotation from the new angle where their weight distribution is no longer optimal. → Leads to [[Crab Ride]]
-- **Opponent abandons hook and switches to front headlock or darce grip when you turn toward them** (Effectiveness: Medium) - Your Response: Continue the rotation aggressively and pull them into guard before the choke tightens. Once you are facing them with legs engaged, the front headlock or darce becomes much harder to finish from inside your guard. Prioritize getting your hips under them and establishing guard closure. → Leads to [[Crab Ride]]
+- **Opponent deepens hook and increases chest pressure when they feel stripping attempts on the hooking foot** (Effectiveness: High) - Your Response: Pause the strip, re-establish neck defense, and wait for the next grip adjustment or weight shift before attempting again. Use intermittent pressure on the hook rather than constant pulling to prevent the opponent from bracing against a predictable force direction. → Leads to [[Positions/Crab Ride]]
+- **Opponent releases crab ride and transitions to seatbelt grip with second hook insertion when rotation creates space** (Effectiveness: High) - Your Response: If you feel the second hook coming, immediately accelerate the rotation and pull the opponent into guard before both hooks are established. The transition window between crab ride and full back control is your last opportunity - commit fully to the guard pull rather than trying to block the second hook. → Leads to [[Positions/Back Control]]
+- **Opponent sprawls heavy weight onto your upper back when you begin the turning sequence** (Effectiveness: Medium) - Your Response: Use the sprawl pressure to flatten slightly then redirect by shooting your hips laterally rather than rotating. Create an angle change that disrupts the sprawl alignment, then resume the rotation from the new angle where their weight distribution is no longer optimal. → Leads to [[Positions/Crab Ride]]
+- **Opponent abandons hook and switches to front headlock or darce grip when you turn toward them** (Effectiveness: Medium) - Your Response: Continue the rotation aggressively and pull them into guard before the choke tightens. Once you are facing them with legs engaged, the front headlock or darce becomes much harder to finish from inside your guard. Prioritize getting your hips under them and establishing guard closure. → Leads to [[Positions/Crab Ride]]
 
 
 </section>

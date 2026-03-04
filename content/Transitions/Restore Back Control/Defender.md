@@ -150,7 +150,7 @@ Defending against back control restoration means completing your escape before t
 
 The most critical defensive principle is continuous movement. Pausing during an escape attempt gives the attacker time to readjust and restore control elements. Once you commit to an escape direction, you must follow through with sustained effort rather than stopping after clearing a single hook or grip. Each element you clear should flow directly into attacking the next element in a chain that leads to complete escape.
 
-**Opponent's Starting Position**: [[Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -187,21 +187,21 @@ The most critical defensive principle is continuous movement. Pausing during an 
 ### 1. Accelerate the turn by explosively rotating your torso toward the underhook side while framing on their choking arm
 
 - **When to use**: When you have cleared at least one hook and the attacker is attempting chest contact restoration. Your turn must be explosive and committed.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Completes the escape to a guard position where you can re-establish defensive structure
 - **Risk**: If the remaining hook is deep, the turn can be redirected into a crucifix or armbar from back
 
 ### 2. Strip the re-inserting hook by straightening your leg and pushing their foot away with your hand before it can engage
 
 - **When to use**: When you feel the attacker's leg beginning to curl back under your thigh. Must be timed precisely as the foot approaches.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Prevents hook restoration and maintains escape momentum toward turtle or guard recovery
 - **Risk**: Using your hand to fight the hook removes it from neck defense, creating brief submission vulnerability
 
 ### 3. Scoot hips away from the attacker to break chest connection before they can re-insert hooks
 
 - **When to use**: When the attacker has lost both hooks but maintains upper body grip. Creating hip distance breaks the chest anchor that enables restoration.
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Breaks the chest-to-back connection that is the foundation of all restoration attempts
 - **Risk**: If attacker maintains strong grip on collar or wrist, hip distance alone may not complete the escape
 
@@ -213,11 +213,11 @@ The most critical defensive principle is continuous movement. Pausing during an 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Complete the turn to face opponent before they restore both hooks. Establish half guard by trapping one of their legs between yours during the transition. The half guard provides a stable recovery position.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Clear both hooks and break chest connection to establish a neutral turtle position. From turtle, you can work to stand or transition to a guard position.
 

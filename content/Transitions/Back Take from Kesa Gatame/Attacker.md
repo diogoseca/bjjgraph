@@ -186,7 +186,7 @@ description: "Execute the Back Take from Kesa Gatame. Step-by-step guide for bot
 
 As the bottom player in Kesa Gatame, you hold a counterintuitive advantage: your opponent's perpendicular positioning exposes their back in a way that standard side control does not. The Back Take from Kesa Gatame is your highest-value escape option, converting one of the worst defensive positions directly into the most dominant offensive position in BJJ. Executing this technique requires understanding that the escape direction is toward the opponent rather than away. While your instinct may be to shrimp and create distance, the optimal path exploits the geometric weakness of Kesa Gatame by turning into the opponent, threading past their body, and establishing back control with hooks and harness grip. The technique demands precise timing—attacking when the opponent's weight shifts either forward for submissions or backward for consolidation—and full commitment to the rotation once initiated.
 
-**From Position**: [[Kesa Gatame]] (Bottom)
+**From Position**: [[Positions/Side Control/Kesa Gatame]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the bottom player in Kesa Gatame, you hold a counterintuitive advantage: your
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 45% |
-| Failure | [[Kesa Gatame]] | 35% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Back Control]] | 45% |
+| Failure | [[Positions/Side Control/Kesa Gatame]] | 35% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the bottom player in Kesa Gatame, you hold a counterintuitive advantage: your
 
 ## Opponent Counters
 
-- **Opponent drops weight and sprawls hips back to re-establish heavy chest pressure** (Effectiveness: High) - Your Response: If they sprawl before you begin rotating, abandon the back take and switch to bridge-and-roll or ghost escape. If they sprawl mid-rotation, use the momentum of their sprawl to continue under them and complete the turn by threading underneath rather than around. → Leads to [[Kesa Gatame]]
-- **Opponent transitions to mount by stepping their far leg over your body during your turn-in** (Effectiveness: Medium) - Your Response: Use your outside leg to hook their stepping leg before it clears your body, pulling them back into half guard rather than allowing full mount. If mount is established, you have improved your escape angle and can immediately work mount escapes from a better position than Kesa Gatame. → Leads to [[Mount]]
-- **Opponent releases head control and posts both hands on the mat to prevent being taken over** (Effectiveness: Medium) - Your Response: Their release of head control is actually a gift—immediately execute a hip escape to recover guard since the primary control mechanism of Kesa Gatame has been voluntarily abandoned. If they re-engage head control, resume the back take sequence. → Leads to [[Kesa Gatame]]
-- **Opponent transitions to North-South by circling toward your head before you complete the rotation** (Effectiveness: High) - Your Response: Follow their movement with your hips, attempting to maintain chest contact and prevent them from establishing North-South control. If they complete the transition to North-South, you have at least escaped Kesa Gatame and face a different defensive problem with its own escape pathways. → Leads to [[Kesa Gatame]]
+- **Opponent drops weight and sprawls hips back to re-establish heavy chest pressure** (Effectiveness: High) - Your Response: If they sprawl before you begin rotating, abandon the back take and switch to bridge-and-roll or ghost escape. If they sprawl mid-rotation, use the momentum of their sprawl to continue under them and complete the turn by threading underneath rather than around. → Leads to [[Positions/Side Control/Kesa Gatame]]
+- **Opponent transitions to mount by stepping their far leg over your body during your turn-in** (Effectiveness: Medium) - Your Response: Use your outside leg to hook their stepping leg before it clears your body, pulling them back into half guard rather than allowing full mount. If mount is established, you have improved your escape angle and can immediately work mount escapes from a better position than Kesa Gatame. → Leads to [[Positions/Mount]]
+- **Opponent releases head control and posts both hands on the mat to prevent being taken over** (Effectiveness: Medium) - Your Response: Their release of head control is actually a gift—immediately execute a hip escape to recover guard since the primary control mechanism of Kesa Gatame has been voluntarily abandoned. If they re-engage head control, resume the back take sequence. → Leads to [[Positions/Side Control/Kesa Gatame]]
+- **Opponent transitions to North-South by circling toward your head before you complete the rotation** (Effectiveness: High) - Your Response: Follow their movement with your hips, attempting to maintain chest contact and prevent them from establishing North-South control. If they complete the transition to North-South, you have at least escaped Kesa Gatame and face a different defensive problem with its own escape pathways. → Leads to [[Positions/Side Control/Kesa Gatame]]
 
 
 </section>

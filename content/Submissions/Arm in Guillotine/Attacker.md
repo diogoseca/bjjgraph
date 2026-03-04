@@ -236,8 +236,8 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -246,10 +246,10 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 ## Opponent Defenses
 
-- **Opponent attempts to pull trapped arm out** (Effectiveness: Medium) - Your Response: Increase hip extension pressure while simultaneously turning your choking shoulder down toward their head. This creates additional torque on the trapped arm and makes extraction nearly impossible while maintaining choke pressure. → Leads to [[Front Headlock]]
-- **Opponent drives forward to stack and create space** (Effectiveness: Medium) - Your Response: If standing, sprawl harder and sit to your hip pulling them into guard. If already in guard, open guard and place butterfly hooks or shin on biceps to off-balance them, then re-close guard at a higher angle on their back. → Leads to [[Front Headlock]]
-- **Opponent turns toward choking arm to alleviate pressure** (Effectiveness: High) - Your Response: This is a dangerous escape. Counter by immediately elevating your choking elbow while driving your opposite shoulder into their back. Follow their rotation if necessary, potentially transitioning to anaconda or darce position while maintaining neck control. → Leads to [[Closed Guard]]
-- **Opponent postures up forcefully with free arm** (Effectiveness: Low) - Your Response: Use their upward momentum to jump to closed guard, pulling them forward and down as you fall back. This converts their escape attempt into a better finishing position for you with guard control added to the choke. → Leads to [[Front Headlock]]
+- **Opponent attempts to pull trapped arm out** (Effectiveness: Medium) - Your Response: Increase hip extension pressure while simultaneously turning your choking shoulder down toward their head. This creates additional torque on the trapped arm and makes extraction nearly impossible while maintaining choke pressure. → Leads to [[Positions/Front Headlock]]
+- **Opponent drives forward to stack and create space** (Effectiveness: Medium) - Your Response: If standing, sprawl harder and sit to your hip pulling them into guard. If already in guard, open guard and place butterfly hooks or shin on biceps to off-balance them, then re-close guard at a higher angle on their back. → Leads to [[Positions/Front Headlock]]
+- **Opponent turns toward choking arm to alleviate pressure** (Effectiveness: High) - Your Response: This is a dangerous escape. Counter by immediately elevating your choking elbow while driving your opposite shoulder into their back. Follow their rotation if necessary, potentially transitioning to anaconda or darce position while maintaining neck control. → Leads to [[Positions/Closed Guard]]
+- **Opponent postures up forcefully with free arm** (Effectiveness: Low) - Your Response: Use their upward momentum to jump to closed guard, pulling them forward and down as you fall back. This converts their escape attempt into a better finishing position for you with guard control added to the choke. → Leads to [[Positions/Front Headlock]]
 - **Opponent rolls to put you on bottom with them on top in your guard** (Effectiveness: Low) - Your Response: This is often a desperation move that actually improves your position. Close guard immediately and use high guard or closed guard to break their posture back down. The choke often tightens during this transition. → Leads to [[game-over]]
 
 

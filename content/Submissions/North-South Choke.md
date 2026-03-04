@@ -22,8 +22,8 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[North-South]]
-**From Position**: [[North-South]] (Top)
+**Starting Position**: [[Positions/North-South]]
+**From Position**: [[Positions/North-South]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -77,8 +77,8 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[North-South]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/North-South]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -224,14 +224,14 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 
 ## From Which Positions?
 
-- [[North-South]]
-- [[Side Control]]
-- [[Kesa Gatame]]
-- [[Scarf Hold Position]]
-- [[Modified Scarf Hold]]
-- [[Crucifix]]
-- [[Mount]]
-- [[Knee on Belly]]
+- [[Positions/North-South]]
+- [[Positions/Side Control]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Side Control/Scarf Hold Position]]
+- [[Positions/Side Control/Modified Scarf Hold]]
+- [[Positions/Crucifix]]
+- [[Positions/Mount]]
+- [[Positions/Knee on Belly]]
 
 
 </section>
@@ -240,17 +240,17 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 
 ## Related Submissions
 
-- [[Kimura]]
-- [[Arm Triangle]]
-- [[Kimura from Side Control]]
-- [[Armbar from Side Control]]
-- [[Armbar from Guard]]
-- [[Ezekiel Choke]]
-- [[Darce Choke]]
-- [[Anaconda Choke]]
-- [[Baseball Bat Choke]]
-- [[Americana from Side Control]]
-- [[Guillotine Choke]]
+- [[Transitions/Kimura]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Kimura from Side Control]]
+- [[Submissions/Armbar from Side Control]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Ezekiel Choke]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Anaconda Choke]]
+- [[Transitions/Baseball Bat Choke]]
+- [[Submissions/Americana from Side Control]]
+- [[Transitions/Guillotine Choke]]
 
 
 </section>
@@ -259,16 +259,16 @@ The North-South Choke is a powerful compression-based blood choke applied from t
 
 ## Additional Related Content
 
-- [[North-South]] - Primary position from which this choke is executed
-- [[Side Control]] - Common transitional position before moving to North-South for the choke
-- [[Side Control Consolidation]] - Control principles that transfer to North-South pressure and submission execution
-- [[Kesa Gatame]] - Alternative pinning position with similar body positioning concepts for transitioning to North-South
-- [[Crucifix]] - Position from which North-South Choke can be set up as opponent's arms are controlled
-- [[Arm Triangle]] - Mechanically similar blood choke using body pressure and arm positioning for compression
-- [[Mount]] - Top position that can transition to North-South when opponent turns to escape
-- [[Kimura]] - Alternative submission chain when opponent defends the choke by exposing their arm
-- [[Darce Choke]] - Related head and arm choke with similar pressure principles
-- [[Half Guard]] - Common recovery position for defender who successfully counters the choke attempt
+- [[Positions/North-South]] - Primary position from which this choke is executed
+- [[Positions/Side Control]] - Common transitional position before moving to North-South for the choke
+- [[Positions/Side Control/Side Control Consolidation]] - Control principles that transfer to North-South pressure and submission execution
+- [[Positions/Side Control/Kesa Gatame]] - Alternative pinning position with similar body positioning concepts for transitioning to North-South
+- [[Positions/Crucifix]] - Position from which North-South Choke can be set up as opponent's arms are controlled
+- [[Transitions/Arm Triangle]] - Mechanically similar blood choke using body pressure and arm positioning for compression
+- [[Positions/Mount]] - Top position that can transition to North-South when opponent turns to escape
+- [[Transitions/Kimura]] - Alternative submission chain when opponent defends the choke by exposing their arm
+- [[Transitions/Darce Choke]] - Related head and arm choke with similar pressure principles
+- [[Positions/Half Guard]] - Common recovery position for defender who successfully counters the choke attempt
 
 
 </section>

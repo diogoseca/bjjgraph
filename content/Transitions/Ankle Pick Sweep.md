@@ -21,7 +21,7 @@ The technique is particularly effective against opponents who maintain an uprigh
 
 This sweep serves as a cornerstone technique in modern no-gi grappling and has been refined by competitive grapplers who utilize seated guard as a primary defensive and offensive position. The Ankle Pick Sweep can be executed with minimal energy expenditure when timed correctly, making it an excellent option for practitioners of all sizes and strength levels. Its effectiveness lies in the mechanical advantage created rather than relying on superior strength or athleticism.
 
-**From Position**: [[Seated Guard]] (Bottom)
+**From Position**: [[Positions/Seated Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This sweep serves as a cornerstone technique in modern no-gi grappling and has b
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Headquarters Position]] | 55% |
-| Failure | [[Seated Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Headquarters Position]] | 55% |
+| Failure | [[Positions/Seated Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -201,29 +201,29 @@ In the broader context of guard systems, the ankle pick sweep represents the bri
 ## Related Techniques
 
 
-- [[Single Leg X Sweep]] - Alternative sweep that targets the same leg but with full leg entanglement control
+- [[Transitions/Single Leg X Sweep]] - Alternative sweep that targets the same leg but with full leg entanglement control
 
-- [[Butterfly Sweep]] - Follow-up when opponent drops level to defend ankle pick
+- [[Transitions/Butterfly Sweep]] - Follow-up when opponent drops level to defend ankle pick
 
-- [[Arm Drag to Back]] - Combination attack using ankle pick threat to set up arm drag
+- [[Transitions/Arm Drag to Back]] - Combination attack using ankle pick threat to set up arm drag
 
-- [[Single Leg Entry]] - Conversion when ankle pick partially succeeds and you come up on knees
+- [[Transitions/Single Leg Entry]] - Conversion when ankle pick partially succeeds and you come up on knees
 
-- [[Elevator Sweep]] - Alternative sweep with similar off-balancing principle from seated position
+- [[Transitions/Elevator Sweep]] - Alternative sweep with similar off-balancing principle from seated position
 
-- [[Tripod Sweep]] - Alternative sweep that uses foot placement instead of hand for ankle control
+- [[Transitions/Tripod Sweep]] - Alternative sweep that uses foot placement instead of hand for ankle control
 
-- [[Sickle Sweep]] - Related sweep that hooks ankle with leg instead of hand
+- [[Transitions/Sickle Sweep]] - Related sweep that hooks ankle with leg instead of hand
 
-- [[Kimura from Guard]] - Counter-attack when opponent posts hand defending the sweep
+- [[Submissions/Kimura from Guard]] - Counter-attack when opponent posts hand defending the sweep
 
-- [[X-Guard Sweep]] - Follow-up when opponent partially defends ankle pick and you enter X-Guard
+- [[Transitions/X-Guard Sweep]] - Follow-up when opponent partially defends ankle pick and you enter X-Guard
 
-- [[Single Leg X-Guard]] - Transition position when opponent sprawls during ankle pick attempt
+- [[Positions/X-Guard/Single Leg X-Guard]] - Transition position when opponent sprawls during ankle pick attempt
 
-- [[Technical Stand-up]] - Alternative standing option from the same seated guard position
+- [[Transitions/Technical Stand-up]] - Alternative standing option from the same seated guard position
 
-- [[Seated Guard]] - Starting position where this technique is executed from
+- [[Positions/Seated Guard]] - Starting position where this technique is executed from
 
 
 </section>

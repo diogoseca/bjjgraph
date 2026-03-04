@@ -21,7 +21,7 @@ The technique requires coordinated use of frames, hip rotation, and strategic lo
 
 Successfully executing this transition shifts the positional dynamic dramatically, transforming a defensive survival position into an active guard where sweeps, submissions, and further guard improvements become available. While lower-percentage than dedicated sweeps like the Old School, the Turn to Face provides a reliable fallback when offensive Zombie attacks are neutralized.
 
-**From Position**: [[Zombie]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Zombie]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ Successfully executing this transition shifts the positional dynamic dramaticall
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Success | [[Open Guard]] | 10% |
-| Failure | [[Zombie]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Rubber Guard/Zombie]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -192,25 +192,25 @@ The Turn to Face from Zombie serves as the primary guard recovery pathway within
 ## Related Techniques
 
 
-- [[Half Guard]] - Primary target position after successful turn - bottom player recovers to standard half guard structure
+- [[Positions/Half Guard]] - Primary target position after successful turn - bottom player recovers to standard half guard structure
 
-- [[Open Guard]] - Secondary target position when turn creates significant space for full guard recovery
+- [[Positions/Open Guard]] - Secondary target position when turn creates significant space for full guard recovery
 
-- [[Lockdown]] - Core control mechanic used during the turn - lockdown anchors the bottom player during rotation
+- [[Positions/Half Guard/Lockdown]] - Core control mechanic used during the turn - lockdown anchors the bottom player during rotation
 
-- [[Knee Shield Half Guard]] - Common guard structure established upon completing the turn with knee shield insertion
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Common guard structure established upon completing the turn with knee shield insertion
 
-- [[Escape Zombie Control]] - Alternative escape technique from Zombie position using different mechanics
+- [[Transitions/Escape Zombie Control]] - Alternative escape technique from Zombie position using different mechanics
 
-- [[Strip Grip from Zombie]] - Top player counter-technique that can disrupt the Turn to Face setup
+- [[Transitions/Strip Grip from Zombie]] - Top player counter-technique that can disrupt the Turn to Face setup
 
-- [[Old School Sweep]] - Higher-percentage alternative technique from Zombie bottom when sweep conditions are favorable
+- [[Transitions/Old School Sweep]] - Higher-percentage alternative technique from Zombie bottom when sweep conditions are favorable
 
-- [[Deep Half Guard]] - Alternative guard recovery destination accessible from similar setups when opponent drives forward
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative guard recovery destination accessible from similar setups when opponent drives forward
 
-- [[Side Control]] - Risk position if opponent successfully counters the turn and completes the pass
+- [[Positions/Side Control]] - Risk position if opponent successfully counters the turn and completes the pass
 
-- [[Posture Recovery from Zombie]] - Top player transition that can create opportunities for the Turn to Face when pressure temporarily lifts
+- [[Transitions/Posture Recovery from Zombie]] - Top player transition that can create opportunities for the Turn to Face when pressure temporarily lifts
 
 
 </section>

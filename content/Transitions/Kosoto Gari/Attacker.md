@@ -180,7 +180,7 @@ description: "How to execute Kosoto Gari in BJJ. Attacking perspective with setu
 
 Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has become essential in modern BJJ's standing game. Unlike explosive forward throws, Kosoto Gari capitalizes on subtle weight distribution, timing, and off-balancing to sweep the opponent's weight-bearing leg from beneath them. The technique combines a pulling motion with upper body control while simultaneously reaping the opponent's heel backward and upward. This creates a powerful rotation that deposits the opponent on their back, allowing immediate transition to dominant positions like side control or knee on belly. The beauty of Kosoto Gari lies in its mechanical efficiency - it requires minimal strength when executed with proper timing, making it accessible to practitioners of all sizes. The technique is particularly effective against opponents who resist forward throws by posting their weight backward, as this natural defensive reaction places them perfectly into Kosoto Gari's zone of vulnerability. In competition, Kosoto Gari scores as a throw and frequently results in immediate positional dominance, making it a high-percentage technique for gi and no-gi contexts alike.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -245,10 +245,10 @@ Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has
 
 ## Opponent Counters
 
-- **Opponent steps back with attacked leg before sweep makes contact** (Effectiveness: High) - Your Response: Chain immediately to Kouchi Gari (attacking opposite leg) or Deashi Harai (pursuing their retreating foot). Maintain collar grip and continue off-balancing pattern. → Leads to [[Standing Position]]
-- **Opponent drives forward aggressively to counter backward pull** (Effectiveness: Medium) - Your Response: Switch to forward throw like Tai Otoshi or Uchi Mata, using their forward momentum against them. This is reactive rather than resistant - flow with their energy. → Leads to [[Standing Position]]
-- **Opponent widens stance and lowers center of gravity to create stable base** (Effectiveness: Medium) - Your Response: Create multiple off-balancing attempts in different directions to force weight shifts. Attack when they inevitably transfer weight to make adjustment. Alternatively, drop for single leg or ankle pick. → Leads to [[Standing Position]]
-- **Opponent breaks your collar grip before you can execute throw** (Effectiveness: High) - Your Response: Immediately re-establish grip or transition to wrestling-based attacks (single leg, double leg). Never allow extended period without upper body control. → Leads to [[Standing Position]]
+- **Opponent steps back with attacked leg before sweep makes contact** (Effectiveness: High) - Your Response: Chain immediately to Kouchi Gari (attacking opposite leg) or Deashi Harai (pursuing their retreating foot). Maintain collar grip and continue off-balancing pattern. → Leads to [[Positions/Standing Position]]
+- **Opponent drives forward aggressively to counter backward pull** (Effectiveness: Medium) - Your Response: Switch to forward throw like Tai Otoshi or Uchi Mata, using their forward momentum against them. This is reactive rather than resistant - flow with their energy. → Leads to [[Positions/Standing Position]]
+- **Opponent widens stance and lowers center of gravity to create stable base** (Effectiveness: Medium) - Your Response: Create multiple off-balancing attempts in different directions to force weight shifts. Attack when they inevitably transfer weight to make adjustment. Alternatively, drop for single leg or ankle pick. → Leads to [[Positions/Standing Position]]
+- **Opponent breaks your collar grip before you can execute throw** (Effectiveness: High) - Your Response: Immediately re-establish grip or transition to wrestling-based attacks (single leg, double leg). Never allow extended period without upper body control. → Leads to [[Positions/Standing Position]]
 
 
 </section>

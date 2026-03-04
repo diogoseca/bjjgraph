@@ -156,7 +156,7 @@ description: "Defend and escape the Bow and Arrow choke from back control. Recog
 
 Defending the Bow and Arrow from Seat Belt requires early recognition and decisive grip fighting before the attacker achieves collar depth. Once the full extension is initiated with a deep collar grip and leg control established, escape becomes extremely difficult, making prevention the primary defensive strategy. The defender must monitor the attacker's over-shoulder arm for any release from the seat belt configuration, as this movement signals the collar grip attempt. Immediate two-on-one grip fighting on the collar hand, combined with active turning toward the attacker, represents the highest-percentage defensive response. Understanding the submission's mechanical progression allows defenders to identify the diminishing escape windows and invest their energy at the stages where defense is most effective rather than wasting effort against a fully locked finish.
 
-**Opponent's Starting Position**: [[Seat Belt Control Back]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
 
 
 </section>
@@ -195,28 +195,28 @@ Defending the Bow and Arrow from Seat Belt requires early recognition and decisi
 ### 1. Two-on-one grip strip the collar hand before it achieves depth
 
 - **When to use**: Immediately when you feel the attacker's over-shoulder hand release from the seat belt and begin feeding into your collar
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Attacker's collar grip is stripped, forcing them to return to seat belt position or attempt a different attack
 - **Risk**: Both hands committed to grip fighting leaves your neck temporarily exposed to RNC if the attacker abandons the bow and arrow
 
 ### 2. Turn aggressively toward the attacker to reduce extension angle and begin guard recovery
 
 - **When to use**: When the collar grip is establishing but before the attacker has secured your far leg and committed to the fall
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Turning into the attacker defeats the diagonal extension angle, potentially recovering to half guard or closed guard
 - **Risk**: If the attacker maintains the collar grip through the turn, they may finish from a mounted bow and arrow position
 
 ### 3. Strip the pants grip on your far leg to maintain rotational freedom
 
 - **When to use**: After the collar is established and the attacker reaches for your far leg, targeting the second control point needed for the finish
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Without leg control, the attacker cannot prevent your rotation, significantly reducing the choke's effectiveness and potentially forcing them to abandon the attempt
 - **Risk**: Fighting the pants grip with your hands means less defense available for the collar grip and neck protection
 
 ### 4. Tuck chin and create frame against the collar forearm to delay the finish
 
 - **When to use**: As a last resort when both collar and leg control are established and the extension has begun
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Buys time for the attacker's grip to fatigue or for you to find a grip-stripping opportunity during the extension
 - **Risk**: This is a delay tactic only - full extension with proper angles will overcome chin defense, so this buys seconds rather than providing a true escape
 
@@ -239,11 +239,11 @@ Defending the Bow and Arrow from Seat Belt requires early recognition and decisi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Successfully strip the collar grip or fight the pants grip and turn aggressively into the attacker before the extension locks in, recovering to half guard where you escape back control entirely
 
-### → [[Seat Belt Control Back]]
+### → [[Positions/Back Control/Seat Belt Control Back]]
 
 Prevent the collar from reaching finishing depth through early grip fighting, forcing the attacker to abandon the bow and arrow attempt and return to basic seat belt back control
 

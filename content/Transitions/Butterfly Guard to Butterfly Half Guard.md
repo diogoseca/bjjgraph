@@ -21,7 +21,7 @@ The technical challenge lies in clearing one hook without creating the space or 
 
 From a strategic perspective, this transition represents the first checkpoint in a systematic butterfly guard passing sequence. Rather than attempting to pass butterfly guard in a single explosive movement, high-level passers break the problem into stages: clear one hook to reach butterfly half guard, then address the remaining hook and half guard trap from a position of greater stability. This incremental approach reduces risk and forces the bottom player to solve increasingly difficult retention problems. The transition also creates opportunities for submission entries, as the bottom player's defensive reactions to hook clearing often expose the neck or arms.
 
-**From Position**: [[Butterfly Guard]] (Top)
+**From Position**: [[Positions/Butterfly Guard]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic perspective, this transition represents the first checkpoint in
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Butterfly Half Guard]] | 65% |
-| Failure | [[Butterfly Guard]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard/Butterfly Half Guard]] | 65% |
+| Failure | [[Positions/Butterfly Guard]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ This transition occupies a critical junction in the butterfly guard passing tree
 ## Related Techniques
 
 
-- [[Butterfly Guard]] - Starting position where opponent has full butterfly hooks
+- [[Positions/Butterfly Guard]] - Starting position where opponent has full butterfly hooks
 
-- [[Butterfly Half Guard]] - Target position achieved after clearing one hook
+- [[Positions/Half Guard/Butterfly Half Guard]] - Target position achieved after clearing one hook
 
-- [[Half Butterfly]] - Related hybrid position from the butterfly guard system
+- [[Positions/Butterfly Guard/Half Butterfly]] - Related hybrid position from the butterfly guard system
 
-- [[Butterfly Pass]] - Alternative passing approach from the same starting position
+- [[Transitions/Butterfly Pass]] - Alternative passing approach from the same starting position
 
-- [[Butterfly Smash]] - Complementary technique using forward pressure to collapse butterfly structure
+- [[Transitions/Butterfly Smash]] - Complementary technique using forward pressure to collapse butterfly structure
 
-- [[Knee Slice Pass]] - High-percentage follow-up pass from the resulting butterfly half guard top
+- [[Transitions/Knee Slice Pass]] - High-percentage follow-up pass from the resulting butterfly half guard top
 
-- [[Half Guard Pass]] - Follow-up passing technique applicable once in butterfly half guard
+- [[Transitions/Half Guard Pass]] - Follow-up passing technique applicable once in butterfly half guard
 
-- [[Body Lock Pass]] - Alternative passing method that can bypass butterfly guard entirely
+- [[Transitions/Body Lock Pass]] - Alternative passing method that can bypass butterfly guard entirely
 
-- [[Butterfly Sweep]] - Primary threat from bottom that creates counter-transition windows
+- [[Transitions/Butterfly Sweep]] - Primary threat from bottom that creates counter-transition windows
 
-- [[Butterfly Hook Recovery]] - Opponent's primary defensive response to regain full butterfly guard
+- [[Transitions/Butterfly Hook Recovery]] - Opponent's primary defensive response to regain full butterfly guard
 
-- [[Long Step Pass]] - Passing technique that uses similar backstep mechanics to clear hooks
+- [[Transitions/Long Step Pass]] - Passing technique that uses similar backstep mechanics to clear hooks
 
 
 </section>

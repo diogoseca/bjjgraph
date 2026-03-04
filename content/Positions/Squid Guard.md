@@ -93,27 +93,27 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 ### Available Transitions
 
 
-- **[[Kiss of the Dragon]]** (22% of attempts)
+- **[[Transitions/Kiss of the Dragon]]** (22% of attempts)
 
-- **[[X-Guard Sweep]]** (10% of attempts)
+- **[[Transitions/X-Guard Sweep]]** (10% of attempts)
 
-- **[[Single Leg X Sweep]]** (9% of attempts)
+- **[[Transitions/Single Leg X Sweep]]** (9% of attempts)
 
-- **[[Berimbolo Entry]]** (9% of attempts)
+- **[[Transitions/Berimbolo Entry]]** (9% of attempts)
 
-- **[[De La Riva Sweep]]** (9% of attempts)
+- **[[Transitions/De La Riva Sweep]]** (9% of attempts)
 
-- **[[Guard Recovery from Squid Guard]]** (10% of attempts)
+- **[[Transitions/Guard Recovery from Squid Guard]]** (10% of attempts)
 
-- **[[Omoplata Sweep]]** (8% of attempts)
+- **[[Transitions/Omoplata Sweep]]** (8% of attempts)
 
-- **[[Triangle Setup]]** (8% of attempts)
+- **[[Transitions/Triangle Setup]]** (8% of attempts)
 
-- **[[Omoplata to Back]]** (9% of attempts)
+- **[[Transitions/Omoplata to Back]]** (9% of attempts)
 
-- **[[Squid Guard Sweep]]** (4% of attempts)
+- **[[Transitions/Squid Guard Sweep]]** (4% of attempts)
 
-- **[[Squid to Ringworm Guard]]** (2% of attempts)
+- **[[Transitions/Squid to Ringworm Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -174,21 +174,21 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 ### Available Transitions
 
 
-- **[[Stack Pass]]** (14% of attempts)
+- **[[Transitions/Stack Pass]]** (14% of attempts)
 
-- **[[Leg Drag Pass]]** (13% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (13% of attempts)
 
-- **[[Back Step]]** (12% of attempts)
+- **[[Transitions/Back Step]]** (12% of attempts)
 
-- **[[Toreando Pass]]** (14% of attempts)
+- **[[Transitions/Toreando Pass]]** (14% of attempts)
 
-- **[[Pressure Pass]]** (24% of attempts)
+- **[[Transitions/Pressure Pass]]** (24% of attempts)
 
-- **[[Knee Slice Pass]]** (14% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (14% of attempts)
 
-- **[[Pass Squid Guard]]** (6% of attempts)
+- **[[Transitions/Pass Squid Guard]]** (6% of attempts)
 
-- **[[Pressure Through Squid Guard]]** (3% of attempts)
+- **[[Transitions/Pressure Through Squid Guard]]** (3% of attempts)
 
 
 ### Common Mistakes
@@ -227,21 +227,21 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 ## Related Positions
 
 
-- **[[De La Riva Guard]]** - Parent position - shares hook mechanics and concepts
+- **[[Positions/De La Riva Guard]]** - Parent position - shares hook mechanics and concepts
 
-- **[[Reverse De La Riva Guard]]** - Similar position - alternative hook placement strategy
+- **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Similar position - alternative hook placement strategy
 
-- **[[X-Guard]]** - Common transition target from both perspectives
+- **[[Positions/X-Guard]]** - Common transition target from both perspectives
 
-- **[[Single Leg X-Guard]]** - Natural progression sharing single leg control
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Natural progression sharing single leg control
 
-- **[[Lasso Guard]]** - Related guard - alternative lapel control system
+- **[[Positions/Lasso Guard]]** - Related guard - alternative lapel control system
 
-- **[[Spider Guard]]** - Related guard - complementary open guard system
+- **[[Positions/Spider Guard]]** - Related guard - complementary open guard system
 
-- **[[Back Control]]** - Primary advancement target via back takes
+- **[[Positions/Back Control]]** - Primary advancement target via back takes
 
-- **[[Worm Guard]]** - Similar lapel-based guard system
+- **[[Positions/Worm Guard]]** - Similar lapel-based guard system
 
 
 </section>

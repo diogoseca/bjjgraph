@@ -186,7 +186,7 @@ description: "Master the Knee Pin from X-Guard as the top player. Step-by-step g
 
 As the attacker executing the Knee Pin from X-Guard, you are the top player facing an opponent who has established X-Guard underneath you. Your objective is to neutralize the guard's sweeping power by driving their inside hooking knee to the mat, collapsing the X-structure, and extracting your trapped leg to advance into Half Guard Top. The technique requires coordinating upper body anchoring, precise hand placement on the hooking knee, committed bodyweight transfer into the pin, and controlled leg extraction. Success depends on reading the bottom player's hook depth and grip engagement to identify the optimal moment for committing to the pin. The knee pin is most effective when chained with follow-up passes rather than treated as an isolated technique.
 
-**From Position**: [[X-Guard]] (Top)
+**From Position**: [[Positions/X-Guard]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ As the attacker executing the Knee Pin from X-Guard, you are the top player faci
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[X-Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/X-Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the attacker executing the Knee Pin from X-Guard, you are the top player faci
 
 ## Opponent Counters
 
-- **Bottom player re-pummels inside hook before the pin is fully completed by driving their knee back behind yours** (Effectiveness: High) - Your Response: Increase commitment speed and use elbow pressure to block the re-pummel path. If the hook recovers, immediately chain to a knee slice or long step pass while the opponent is momentarily focused on hook recovery rather than sweeping. → Leads to [[X-Guard]]
-- **Bottom player executes hip bump sweep by elevating hips explosively when you commit weight forward to the pin** (Effectiveness: Medium) - Your Response: Maintain a wide base and avoid overcommitting your center of gravity past the midline. Keep your free leg posted far back for base and use the upper body anchor to resist the elevation force. → Leads to [[Half Guard]]
-- **Bottom player transitions to Single Leg X or Butterfly Guard by withdrawing the compromised hook and reconfiguring legs** (Effectiveness: Medium) - Your Response: Follow the opponent's hips with continuous forward pressure during the transition. The moment they release the inside hook to reconfigure, accelerate your leg extraction and advance past the weakened guard structure before they can establish the new position. → Leads to [[X-Guard]]
-- **Bottom player uses upper body grips to pull you off-balance laterally while the pin disrupts your forward base** (Effectiveness: Low) - Your Response: Strip or redirect grips before committing to the pin. Maintain the upper body anchor grip throughout the technique and keep your elbows in to prevent the opponent from generating lateral torque on your posture. → Leads to [[X-Guard]]
+- **Bottom player re-pummels inside hook before the pin is fully completed by driving their knee back behind yours** (Effectiveness: High) - Your Response: Increase commitment speed and use elbow pressure to block the re-pummel path. If the hook recovers, immediately chain to a knee slice or long step pass while the opponent is momentarily focused on hook recovery rather than sweeping. → Leads to [[Positions/X-Guard]]
+- **Bottom player executes hip bump sweep by elevating hips explosively when you commit weight forward to the pin** (Effectiveness: Medium) - Your Response: Maintain a wide base and avoid overcommitting your center of gravity past the midline. Keep your free leg posted far back for base and use the upper body anchor to resist the elevation force. → Leads to [[Positions/Half Guard]]
+- **Bottom player transitions to Single Leg X or Butterfly Guard by withdrawing the compromised hook and reconfiguring legs** (Effectiveness: Medium) - Your Response: Follow the opponent's hips with continuous forward pressure during the transition. The moment they release the inside hook to reconfigure, accelerate your leg extraction and advance past the weakened guard structure before they can establish the new position. → Leads to [[Positions/X-Guard]]
+- **Bottom player uses upper body grips to pull you off-balance laterally while the pin disrupts your forward base** (Effectiveness: Low) - Your Response: Strip or redirect grips before committing to the pin. Maintain the upper body anchor grip throughout the technique and keep your elbows in to prevent the opponent from generating lateral torque on your posture. → Leads to [[Positions/X-Guard]]
 
 
 </section>

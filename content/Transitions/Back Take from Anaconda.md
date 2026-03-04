@@ -21,7 +21,7 @@ The strategic value of this transition embodies the fundamental BJJ principle of
 
 The transition demands precise timing during the grip exchange window—the brief moment where the attacker releases the anaconda configuration and must immediately establish seatbelt control before the defender can turn to face them. This window typically lasts less than two seconds, and mastery of this timing separates practitioners who systematically advance from front headlock positions from those who become stuck chasing a single submission against competent defenders.
 
-**From Position**: [[Anaconda Control]] (Top)
+**From Position**: [[Positions/Anaconda Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ The transition demands precise timing during the grip exchange window—the brie
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Anaconda Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Anaconda Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Back Take from Anaconda integrates into the broader front headlock and head-
 ## Related Techniques
 
 
-- [[Anaconda Control]] - Source position from which the back take is initiated when choke defense is effective
+- [[Positions/Anaconda Control]] - Source position from which the back take is initiated when choke defense is effective
 
-- [[Back Control]] - Target position achieved on successful back take with hooks and harness established
+- [[Positions/Back Control]] - Target position achieved on successful back take with hooks and harness established
 
-- [[Half Guard]] - Counter outcome position where defender successfully reverses the transition attempt
+- [[Positions/Half Guard]] - Counter outcome position where defender successfully reverses the transition attempt
 
-- [[Anaconda Choke]] - Primary alternative attack from the same starting position when choke angle is favorable
+- [[Transitions/Anaconda Choke]] - Primary alternative attack from the same starting position when choke angle is favorable
 
-- [[Anaconda to Side Control]] - Alternative positional advancement from anaconda when back take and choke are both defended
+- [[Transitions/Anaconda to Side Control]] - Alternative positional advancement from anaconda when back take and choke are both defended
 
-- [[Seat Belt Control Back]] - Specific back control variation with seatbelt grip achieved through this transition
+- [[Positions/Back Control/Seat Belt Control Back]] - Specific back control variation with seatbelt grip achieved through this transition
 
-- [[Front Headlock]] - Precursor position from which anaconda control is typically established before back take
+- [[Positions/Front Headlock]] - Precursor position from which anaconda control is typically established before back take
 
-- [[Darce Control]] - Sister position with similar arm-in mechanics offering alternative back take entries
+- [[Positions/Darce Control]] - Sister position with similar arm-in mechanics offering alternative back take entries
 
-- [[Turtle]] - Common defensive posture that creates anaconda entry opportunities leading to back take
+- [[Positions/Turtle]] - Common defensive posture that creates anaconda entry opportunities leading to back take
 
-- [[Back Control Maintenance]] - Transition used to consolidate and maintain position after successful back take
+- [[Transitions/Back Control Maintenance]] - Transition used to consolidate and maintain position after successful back take
 
-- [[Anaconda Grip Break to Front Headlock]] - Defender's primary escape transition that the attacker must prevent during back take attempt
+- [[Transitions/Anaconda Grip Break to Front Headlock]] - Defender's primary escape transition that the attacker must prevent during back take attempt
 
 
 </section>

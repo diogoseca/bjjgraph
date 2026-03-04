@@ -160,7 +160,7 @@ The most critical defensive principle is preventing the arm from being trapped a
 
 Successful defense combines proactive arm management with reactive escape mechanics. Keeping elbows tight, fighting for inside position on grips, and maintaining awareness of your arm placement relative to your own neck are the foundations. When the triangle does lock, the defender must immediately address the three control points the attacker needs - trapped arm position, perpendicular angle, and free arm control - by disrupting at least one of them to create escape opportunity.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -198,28 +198,28 @@ Successful defense combines proactive arm management with reactive escape mechan
 ### 1. Retract the trapped arm before the triangle locks by pulling your elbow tight to your ribs and turning your shoulder away from your own neck to clear the arm past your centerline
 
 - **When to use**: Immediately upon recognizing the arm is being guided across your neck - this is the highest-percentage defense but only available in the first 1-2 seconds of the attack before the leg swings over
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Returns you to standard side control bottom position with no immediate submission threat, allowing you to resume normal escape sequences
 - **Risk**: Low risk - worst case is the arm remains trapped and you must progress to later-stage defenses
 
 ### 2. Insert your free hand into the triangle space between your neck and the attacker's thigh, creating a wedge that prevents full carotid compression and opens space to work your head free
 
 - **When to use**: When the triangle has been locked but the attacker has not yet controlled your free arm - this must be done immediately upon feeling the figure-four close around your neck
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Prevents the choke from finishing and creates space to begin working your head out of the triangle, eventually returning to side control bottom
 - **Risk**: Medium risk - if the attacker strips your inserted hand, you lose your primary defensive tool and the choke tightens immediately
 
 ### 3. Bridge explosively and turn your body toward the attacker to disrupt the perpendicular angle, stack their hips, and work to pass over their legs to escape the triangle entirely
 
 - **When to use**: When the triangle is locked and you need to address the angle component - particularly effective if the attacker's base is compromised or they are focused on controlling your free arm
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Disrupts the choking angle and may allow you to pass over the attacker's legs, recovering to half guard or a neutral scramble position
 - **Risk**: High risk - a failed bridge attempt expends significant energy and can actually tighten the triangle if the attacker maintains their perpendicular position
 
 ### 4. Frame against the attacker's hip with your free hand and shrimp your hips away to create distance, then work to extract your head from the triangle by pulling it toward the opening
 
 - **When to use**: When the triangle is locked but you have maintained free arm control and the attacker's squeeze is not yet at full compression - requires space to hip escape
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Creates enough distance to slip your head out of the triangle configuration, allowing guard recovery to half guard or open guard
 - **Risk**: Medium risk - shrimping away can temporarily tighten the choke if you move in the wrong direction before finding the extraction angle
 
@@ -242,11 +242,11 @@ Successful defense combines proactive arm management with reactive escape mechan
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Successfully retract the trapped arm before the triangle locks by pulling your elbow tight and turning your shoulder, or insert free hand and work your head out of the triangle to return to standard side control bottom where you can resume normal escape sequences
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Bridge and turn into the attacker to disrupt their perpendicular angle, then use the momentum and space created to insert your knee between bodies and recover half guard, which provides a far more defensible position than remaining in the triangle
 

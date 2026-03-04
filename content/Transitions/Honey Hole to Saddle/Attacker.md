@@ -186,7 +186,7 @@ description: "Complete guide to executing the Honey Hole to Saddle transition. L
 
 Executing the Honey Hole to Saddle transition requires recognizing the gap between your current catch and optimal finishing position, then systematically closing that gap through controlled reconfiguration. The attacker must balance the need for positional improvement against the risk of creating escape windows during adjustment. Success depends on maintaining constant connection through at least one control point while adjusting others sequentially, ensuring the opponent never has a moment where both your hip pressure and leg triangle are simultaneously loosened. The transition rewards patience and mechanical precision over speed, with elite practitioners completing the reconfiguration in two to three seconds of deliberate movement rather than a single explosive adjustment.
 
-**From Position**: [[Honey Hole]] (Top)
+**From Position**: [[Positions/Ashi Garami/Honey Hole]] (Top)
 
 </section>
 
@@ -240,9 +240,9 @@ Executing the Honey Hole to Saddle transition requires recognizing the gap betwe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Saddle]] | 55% |
-| Failure | [[Honey Hole]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Saddle]] | 55% |
+| Failure | [[Positions/Ashi Garami/Honey Hole]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ Executing the Honey Hole to Saddle transition requires recognizing the gap betwe
 
 ## Opponent Counters
 
-- **Opponent explosively rotates toward you during the reconfiguration window when hip pressure momentarily decreases** (Effectiveness: High) - Your Response: Immediately abandon the transition and re-drive hip pressure forward to re-establish Honey Hole control. Follow their rotation by adjusting your angle to maintain inside position. Do not fight the rotation directly; instead ride it while tightening your triangle. → Leads to [[Honey Hole]]
-- **Opponent frames on your hip with their free leg and creates space to extract their trapped leg during loosened control** (Effectiveness: High) - Your Response: Use your outside hand to strip or redirect the framing leg while driving your hips forward to close the space. If extraction begins, immediately transition to Inside Ashi-Garami as a fallback rather than forcing the Saddle against a partially freed leg. → Leads to [[Half Guard]]
-- **Opponent uses free leg to push your outside leg off their hip, preventing you from establishing the deeper shin wedge** (Effectiveness: Medium) - Your Response: Pin their free leg with your outside hand or hook it with your outside foot before reattempting the outside leg adjustment. Alternatively, complete the other adjustments first and use your improved hip pressure to overcome their frame on the final step. → Leads to [[Honey Hole]]
-- **Opponent initiates counter-entanglement toward 50-50 Guard by threading their free leg during your adjustment period** (Effectiveness: Medium) - Your Response: Recognize the counter-entangle attempt early and either complete the Saddle transition quickly before they achieve 50-50, or disengage your outside leg to block their threading attempt. If 50-50 is partially established, immediately work to re-establish inside position. → Leads to [[Half Guard]]
+- **Opponent explosively rotates toward you during the reconfiguration window when hip pressure momentarily decreases** (Effectiveness: High) - Your Response: Immediately abandon the transition and re-drive hip pressure forward to re-establish Honey Hole control. Follow their rotation by adjusting your angle to maintain inside position. Do not fight the rotation directly; instead ride it while tightening your triangle. → Leads to [[Positions/Ashi Garami/Honey Hole]]
+- **Opponent frames on your hip with their free leg and creates space to extract their trapped leg during loosened control** (Effectiveness: High) - Your Response: Use your outside hand to strip or redirect the framing leg while driving your hips forward to close the space. If extraction begins, immediately transition to Inside Ashi-Garami as a fallback rather than forcing the Saddle against a partially freed leg. → Leads to [[Positions/Half Guard]]
+- **Opponent uses free leg to push your outside leg off their hip, preventing you from establishing the deeper shin wedge** (Effectiveness: Medium) - Your Response: Pin their free leg with your outside hand or hook it with your outside foot before reattempting the outside leg adjustment. Alternatively, complete the other adjustments first and use your improved hip pressure to overcome their frame on the final step. → Leads to [[Positions/Ashi Garami/Honey Hole]]
+- **Opponent initiates counter-entanglement toward 50-50 Guard by threading their free leg during your adjustment period** (Effectiveness: Medium) - Your Response: Recognize the counter-entangle attempt early and either complete the Saddle transition quickly before they achieve 50-50, or disengage your outside leg to block their threading attempt. If 50-50 is partially established, immediately work to re-establish inside position. → Leads to [[Positions/Half Guard]]
 
 
 </section>

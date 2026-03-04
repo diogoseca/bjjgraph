@@ -22,8 +22,8 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and windpipe
-**Starting Position**: [[Front Headlock]]
-**From Position**: [[Guillotine Control]] (Top)
+**Starting Position**: [[Positions/Front Headlock]]
+**From Position**: [[Positions/Guillotine Control]] (Top)
 **Success Rate**: 62%
 
 </section>
@@ -76,8 +76,8 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Guillotine Control]] | 25% |
-| Counter | [[Closed Guard]] | 20% |
+| Failure | [[Positions/Guillotine Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -237,17 +237,17 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 
 ## From Which Positions?
 
-- [[Front Headlock]]
-- [[Closed Guard]]
-- [[Half Guard]]
-- [[Standing Position]]
-- [[Clinch]]
-- [[Turtle]]
-- [[Butterfly Guard]]
-- [[Open Guard]]
-- [[Deep Half Guard]]
-- [[Knee Shield Half Guard]]
-- [[Guillotine Control]]
+- [[Positions/Front Headlock]]
+- [[Positions/Closed Guard]]
+- [[Positions/Half Guard]]
+- [[Positions/Standing Position]]
+- [[Positions/Clinch]]
+- [[Positions/Turtle]]
+- [[Positions/Butterfly Guard]]
+- [[Positions/Open Guard]]
+- [[Positions/Half Guard/Deep Half Guard]]
+- [[Positions/Half Guard/Knee Shield Half Guard]]
+- [[Positions/Guillotine Control]]
 
 
 </section>
@@ -256,18 +256,18 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 
 ## Related Submissions
 
-- [[High Elbow Guillotine]]
-- [[Arm in Guillotine]]
-- [[Ten Finger Guillotine]]
-- [[Chin Strap Guillotine]]
-- [[Darce Choke]]
-- [[Anaconda Choke]]
-- [[Japanese Necktie]]
-- [[Peruvian Necktie]]
-- [[Marce Choke]]
-- [[Rear Naked Choke]]
-- [[Arm Triangle]]
-- [[Von Flue Choke]]
+- [[Submissions/High Elbow Guillotine]]
+- [[Submissions/Arm in Guillotine]]
+- [[Submissions/Ten Finger Guillotine]]
+- [[Submissions/Chin Strap Guillotine]]
+- [[Transitions/Darce Choke]]
+- [[Transitions/Anaconda Choke]]
+- [[Submissions/Japanese Necktie]]
+- [[Submissions/Peruvian Necktie]]
+- [[Submissions/Marce Choke]]
+- [[Transitions/Rear Naked Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Submissions/Von Flue Choke]]
 
 
 </section>
@@ -276,15 +276,15 @@ The Guillotine Choke is one of the most versatile and high-percentage submission
 
 ## Additional Related Content
 
-- [[Guillotine Control]] - Primary controlling position for guillotine submissions
-- [[Front Headlock]] - Starting control position for guillotine setups
-- [[Guillotine Setup]] - Transition technique for establishing guillotine entries
-- [[Guillotine Defense]] - Defensive concepts for escaping guillotine attacks
-- [[Front Headlock to Guillotine]] - Transition pathway from front headlock to guillotine finish
-- [[Head Control]] - Fundamental principle for guillotine effectiveness
-- [[Closed Guard]] - Common position for guillotine execution from bottom
-- [[Half Guard]] - Position where arm-in guillotine variation is highly effective
-- [[Darce Choke]] - Related head-and-arm choke that chains from failed guillotine attempts
+- [[Positions/Guillotine Control]] - Primary controlling position for guillotine submissions
+- [[Positions/Front Headlock]] - Starting control position for guillotine setups
+- [[Transitions/Guillotine Setup]] - Transition technique for establishing guillotine entries
+- [[Transitions/Guillotine Defense]] - Defensive concepts for escaping guillotine attacks
+- [[Transitions/Front Headlock to Guillotine]] - Transition pathway from front headlock to guillotine finish
+- [[Principles/Head Control]] - Fundamental principle for guillotine effectiveness
+- [[Positions/Closed Guard]] - Common position for guillotine execution from bottom
+- [[Positions/Half Guard]] - Position where arm-in guillotine variation is highly effective
+- [[Transitions/Darce Choke]] - Related head-and-arm choke that chains from failed guillotine attempts
 
 
 </section>

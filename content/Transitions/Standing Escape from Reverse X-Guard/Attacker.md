@@ -186,7 +186,7 @@ description: "Execute the Standing Escape from Reverse X-Guard as the top player
 
 Executing the Standing Escape from Reverse X-Guard requires systematic dismantling of the bottom player's control structure through grip breaking, hook neutralization, and base recovery. The top player must resist the temptation to simply yank their legs free, as this typically results in off-balancing and sweep completion. Instead, success comes from methodical pressure application that progressively weakens the guard player's hooks and control points, followed by decisive leg extraction when the structure collapses. Understanding the bottom player's sweeping mechanics is essential for timing the escape during their vulnerable moments between attack chains.
 
-**From Position**: [[Reverse X-Guard]] (Top)
+**From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Top)
 
 </section>
 
@@ -240,9 +240,9 @@ Executing the Standing Escape from Reverse X-Guard requires systematic dismantli
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 45% |
-| Failure | [[Reverse X-Guard]] | 35% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Standing Position]] | 45% |
+| Failure | [[Positions/X-Guard/Reverse X-Guard]] | 35% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -251,10 +251,10 @@ Executing the Standing Escape from Reverse X-Guard requires systematic dismantli
 
 ## Opponent Counters
 
-- **Bottom player increases hip elevation and attempts immediate sweep during base widening phase** (Effectiveness: High) - Your Response: Drive hips forward aggressively to flatten their elevation before committing to hook removal. If the sweep momentum is already strong, abandon the escape temporarily and focus on base recovery before reattempting. → Leads to [[Half Guard]]
-- **Bottom player transitions to Single Leg X-Guard as hooks begin to slip during extraction** (Effectiveness: Medium) - Your Response: Recognize the transition early and address the Single Leg X configuration through backstep or long step pass rather than continuing the standing escape sequence against a fresh guard structure. → Leads to [[Reverse X-Guard]]
-- **Bottom player grabs ankle with both hands to prevent final leg extraction step** (Effectiveness: Medium) - Your Response: Use a sharp circular foot motion to strip the ankle grip rather than pulling straight back. Step your free leg forward to create an angle that makes their two-hand grip alignment ineffective, then extract laterally. → Leads to [[Reverse X-Guard]]
-- **Bottom player inverts underneath to attempt back take during the escape sequence** (Effectiveness: High) - Your Response: Immediately sprawl hips down and drive weight onto their upper body to prevent inversion completion. Circle toward their head rather than away to deny the back take angle, then re-address hooks once the inversion is stopped. → Leads to [[Half Guard]]
+- **Bottom player increases hip elevation and attempts immediate sweep during base widening phase** (Effectiveness: High) - Your Response: Drive hips forward aggressively to flatten their elevation before committing to hook removal. If the sweep momentum is already strong, abandon the escape temporarily and focus on base recovery before reattempting. → Leads to [[Positions/Half Guard]]
+- **Bottom player transitions to Single Leg X-Guard as hooks begin to slip during extraction** (Effectiveness: Medium) - Your Response: Recognize the transition early and address the Single Leg X configuration through backstep or long step pass rather than continuing the standing escape sequence against a fresh guard structure. → Leads to [[Positions/X-Guard/Reverse X-Guard]]
+- **Bottom player grabs ankle with both hands to prevent final leg extraction step** (Effectiveness: Medium) - Your Response: Use a sharp circular foot motion to strip the ankle grip rather than pulling straight back. Step your free leg forward to create an angle that makes their two-hand grip alignment ineffective, then extract laterally. → Leads to [[Positions/X-Guard/Reverse X-Guard]]
+- **Bottom player inverts underneath to attempt back take during the escape sequence** (Effectiveness: High) - Your Response: Immediately sprawl hips down and drive weight onto their upper body to prevent inversion completion. Circle toward their head rather than away to deny the back take angle, then re-address hooks once the inversion is stopped. → Leads to [[Positions/Half Guard]]
 
 
 </section>

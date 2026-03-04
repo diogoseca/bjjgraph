@@ -21,7 +21,7 @@ Strategically, the Armbar Finish operates as the highest-percentage terminal opt
 
 The finish itself requires coordinated opposing vectors: hips drive toward the ceiling using the glutes and core while both hands pull the wrist toward the sternum. The elbow joint, trapped between the thighs with the blade of the forearm pressed against the pubic bone, receives the combined force of these two movements. Advanced practitioners learn to micro-adjust the angle of hip elevation to target the weakest plane of the opponent's elbow based on their forearm rotation, making the submission effective even against strong grip-fighting defense.
 
-**From Position**: [[Armbar Control]] (Top)
+**From Position**: [[Positions/Armbar Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -33,8 +33,8 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 65% |
-| Failure | [[Armbar Control]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Failure | [[Positions/Armbar Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -198,25 +198,25 @@ The Armbar Finish is the terminal submission conversion from Armbar Control, rep
 ## Related Techniques
 
 
-- [[Armbar Control]] - Starting position - must establish this control before attempting the finish
+- [[Positions/Armbar Control]] - Starting position - must establish this control before attempting the finish
 
-- [[Triangle Control]] - Primary chain attack when opponent stacks or postures to defend armbar
+- [[Positions/Triangle Control]] - Primary chain attack when opponent stacks or postures to defend armbar
 
-- [[Omoplata Control]] - Chain attack when opponent bends arm defensively during finish attempt
+- [[Positions/Omoplata Control]] - Chain attack when opponent bends arm defensively during finish attempt
 
-- [[Armbar from Mount]] - Common entry path that leads to armbar control and finish
+- [[Submissions/Armbar from Mount]] - Common entry path that leads to armbar control and finish
 
-- [[Armbar from Guard]] - Alternative entry establishing armbar control from bottom position
+- [[Submissions/Armbar from Guard]] - Alternative entry establishing armbar control from bottom position
 
-- [[Armbar from Side Control]] - Entry variation from side control top position
+- [[Submissions/Armbar from Side Control]] - Entry variation from side control top position
 
-- [[Belly Down Armbar]] - Variant finish when opponent rolls during standard armbar finish attempt
+- [[Submissions/Belly Down Armbar]] - Variant finish when opponent rolls during standard armbar finish attempt
 
-- [[Hitchhiker Escape]] - Primary defensive counter the opponent uses against this finish
+- [[Transitions/Hitchhiker Escape]] - Primary defensive counter the opponent uses against this finish
 
-- [[Bicep Slicer]] - Secondary submission threat when opponent grip-fights the armbar extension
+- [[Submissions/Bicep Slicer]] - Secondary submission threat when opponent grip-fights the armbar extension
 
-- [[Armbar from Back]] - Entry variation from back control position
+- [[Submissions/Armbar from Back]] - Entry variation from back control position
 
 
 </section>

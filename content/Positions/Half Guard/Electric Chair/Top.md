@@ -198,13 +198,13 @@ The Electric Chair Top position is particularly common in 10th Planet Jiu-Jitsu 
 
 ## Available Attacks
 
-### [[Lockdown Break and Pass]] (28% of attempts)
+### [[Transitions/Lockdown Break and Pass]] (28% of attempts)
 
-### [[Limp Leg Escape to Pass]] (24% of attempts)
+### [[Transitions/Limp Leg Escape to Pass]] (24% of attempts)
 
-### [[Back Take from Lockdown Defense]] (18% of attempts)
+### [[Transitions/Back Take from Lockdown Defense]] (18% of attempts)
 
-### [[Darce from Lockdown Counter]] (30% of attempts)
+### [[Transitions/Darce from Lockdown Counter]] (30% of attempts)
 
 
 
@@ -215,23 +215,23 @@ The Electric Chair Top position is particularly common in 10th Planet Jiu-Jitsu 
 ## Decision Making from This Position
 
 **If opponent has strong lockdown with underhook and is attempting Electric Chair submission:**
-- Execute **[[Limp Leg Defense]]** → [[Electric Chair]] (Probability: 70%)
-- Execute **[[Pressure Forward and Crossface]]** → [[Electric Chair]] (Probability: 60%)
+- Execute **[[Limp Leg Defense]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 70%)
+- Execute **[[Pressure Forward and Crossface]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 60%)
 
 
 **If opponent releases lockdown pressure to attempt sweep or transition:**
-- Execute **[[Immediate Leg Extraction]]** → [[Half Guard]] (Probability: 65%)
-- Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Immediate Leg Extraction]]** → [[Positions/Half Guard]] (Probability: 65%)
+- Execute **[[Transitions/Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent attempts Old School sweep by rolling backwards:**
-- Execute **[[Whizzer Counter]]** → [[Side Control]] (Probability: 60%)
-- Execute **[[Base Out and Sprawl]]** → [[Turtle]] (Probability: 50%)
+- Execute **[[Whizzer Counter]]** → [[Positions/Side Control]] (Probability: 60%)
+- Execute **[[Base Out and Sprawl]]** → [[Positions/Turtle]] (Probability: 50%)
 
 
 **If opponent exposes back while attempting lockdown attacks:**
-- Execute **[[Backstep to Back Take]]** → [[Back Control]] (Probability: 55%)
-- Execute **[[Truck Entry]]** → [[Truck]] (Probability: 45%)
+- Execute **[[Backstep to Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Truck Entry]]** → [[Positions/Twister Control/Truck]] (Probability: 45%)
 
 
 
@@ -365,15 +365,15 @@ Partner attempts Old School sweep from lockdown while you defend with proper bas
 
 ## Related Positions and Techniques
 
-- **[[Electric Chair]]** - Hub position for this perspective
-- **[[Lockdown]]** - Common entry position for opponent
-- **[[Half Guard]]** - Target position after lockdown escape
-- **[[Old School]]** - Common sweep threat from this position
-- **[[Dogfight Position]]** - Possible transition if opponent releases lockdown
-- **[[Side Control]]** - Common passing target after lockdown break
-- **[[Back Control]]** - Counter-attack option if opponent overextends
-- **[[Truck]]** - Counter option when opponent exposes back
-- **[[Deep Half Guard]]** - Position opponent may transition to
+- **[[Positions/Half Guard/Electric Chair]]** - Hub position for this perspective
+- **[[Positions/Half Guard/Lockdown]]** - Common entry position for opponent
+- **[[Positions/Half Guard]]** - Target position after lockdown escape
+- **[[Positions/Half Guard/Old School]]** - Common sweep threat from this position
+- **[[Positions/Dogfight Position]]** - Possible transition if opponent releases lockdown
+- **[[Positions/Side Control]]** - Common passing target after lockdown break
+- **[[Positions/Back Control]]** - Counter-attack option if opponent overextends
+- **[[Positions/Twister Control/Truck]]** - Counter option when opponent exposes back
+- **[[Positions/Half Guard/Deep Half Guard]]** - Position opponent may transition to
 
 
 </section>

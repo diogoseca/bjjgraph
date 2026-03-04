@@ -148,7 +148,7 @@ As the defender against the Pressure Pass from Leg Knot, your primary objective 
 
 Successful defense requires reading the attacker's intention early and responding before they consolidate the crossface. The moment you recognize the opponent is transitioning from leg lock attacks to a pressure passing strategy, your defensive priorities shift from heel protection to frame establishment and re-entanglement. The defender who maintains active legs and prevents the crossface from settling can force the attacker back into the leg lock exchange where the bottom player retains offensive capability.
 
-**Opponent's Starting Position**: [[Leg Knot]] (Top)
+**Opponent's Starting Position**: [[Positions/Leg Knot]] (Top)
 
 </section>
 
@@ -186,28 +186,28 @@ Successful defense requires reading the attacker's intention early and respondin
 ### 1. Frame against the shoulder and deny the crossface before it settles
 
 - **When to use**: As soon as you recognize the opponent reaching forward for upper body control, before the crossface is established
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: Opponent cannot establish the upper body anchor needed for the pass, forcing them to either fight for grips or return to leg lock attacks
 - **Risk**: If your frame is weak or your arms are extended, the opponent can swim through and establish an even deeper crossface
 
 ### 2. Re-hook the opponent's extracting leg with your free leg to re-establish entanglement
 
 - **When to use**: During the knee slide phase when the opponent's leg is in motion and partially freed from the entanglement
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: The opponent's extraction fails and they return to the entangled position where you maintain offensive leg lock capability
 - **Risk**: If you miss the re-hook, your free leg is now committed and out of position for framing or alternative defense
 
 ### 3. Hip escape laterally to create angle and insert a knee shield
 
 - **When to use**: When the opponent has established the crossface and you cannot prevent it, use hip escape to create enough space for knee shield insertion
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You transition to Half Guard Bottom with a knee shield that provides distance management and offensive capability from the guard position
 - **Risk**: The hip escape temporarily reduces your leg entanglement control, potentially allowing the opponent to complete the pass to side control
 
 ### 4. Bridge and redirect the opponent's forward pressure into a sweep
 
 - **When to use**: When the opponent overcommits their weight forward during the extraction phase, creating a top-heavy position vulnerable to direction change
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You sweep the opponent and end up in top position, completely reversing the positional exchange
 - **Risk**: If the bridge is mistimed or the opponent has a wide base, you expend significant energy without achieving the reversal and may end up flattened
 
@@ -219,11 +219,11 @@ Successful defense requires reading the attacker's intention early and respondin
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Knot]]
+### → [[Positions/Leg Knot]]
 
 Deny the crossface early through strong frames on the opponent's shoulder and bicep. Maintain active legs that constantly re-hook and re-entangle whenever the opponent attempts extraction. Force the opponent back into the leg entanglement exchange where you retain offensive leg lock capability and they must restart their passing attempt from scratch.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a bridge-and-redirect sweep during the opponent's forward weight transfer when they commit heavily to the crossface or extraction phase. Use the momentum of their forward drive against them by bridging at a 45-degree angle and redirecting their weight over your shoulder. The opponent's commitment to the pressure pass creates the top-heavy posture that makes this sweep available.
 

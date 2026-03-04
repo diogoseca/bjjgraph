@@ -146,7 +146,7 @@ description: "Defend the collar drag from worm guard in BJJ. Recognition cues, p
 
 Defending the collar drag from worm guard requires recognizing the setup before the drag is fully committed, as the technique becomes extremely difficult to stop once the explosive pull is initiated. As the defender in this situation, you are already in a compromised position because your leg is immobilized by the worm guard lapel wrap, which limits your ability to step back and resist the forward pull. Your defensive priority is to prevent the deep collar grip from being established, and if that fails, to resist the drag long enough to strip the lapel wrap and recover to a standing passing position. Understanding the attacker's mechanics allows you to anticipate the drag and preemptively shut down the setup before the explosive phase begins.
 
-**Opponent's Starting Position**: [[Worm Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Worm Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the collar drag from worm guard requires recognizing the setup before 
 ### 1. Strip the collar grip before the drag is initiated using a two-on-one grip break on the opponent's collar hand
 
 - **When to use**: As soon as you recognize the opponent reaching for a deep collar grip behind your neck
-- **Targets**: [[Worm Guard]]
+- **Targets**: [[Positions/Worm Guard]]
 - **If successful**: Opponent remains in worm guard bottom but loses the collar grip needed for the drag, forcing them to re-setup or try different attacks
 - **Risk**: Both hands committed to grip break momentarily leaves you vulnerable to alternative worm guard attacks like sweeps
 
 ### 2. Drive forward with heavy pressure immediately when the drag is initiated, using your weight to prevent the opponent from sitting up
 
 - **When to use**: The instant you feel the explosive collar pull beginning and realize the drag is being attempted
-- **Targets**: [[Worm Guard]]
+- **Targets**: [[Positions/Worm Guard]]
 - **If successful**: Your forward drive counteracts their pull and pins them flat, preventing the sit-up needed to come around to front headlock
 - **Risk**: Driving forward into worm guard can expose you to other sweep threats if the collar drag was a feint
 
 ### 3. Strip the lapel wrap to free your leg and immediately step backward out of collar drag range
 
 - **When to use**: When you have enough time to address the lapel before the collar drag is fully committed
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Both the worm guard and the collar drag threat are neutralized simultaneously, leaving you in an advantageous open guard top position
 - **Risk**: Stripping the lapel requires time and attention, and if the collar drag fires during the strip, you may be caught mid-transition
 
 ### 4. Post your far hand and circle away from the drag direction, preventing the opponent from coming around to front headlock
 
 - **When to use**: When the drag has already partially succeeded and you are being pulled forward
-- **Targets**: [[Worm Guard]]
+- **Targets**: [[Positions/Worm Guard]]
 - **If successful**: You avoid the front headlock position even though you were dragged forward, allowing recovery to a more neutral scramble position
 - **Risk**: Circling may create angles that the opponent exploits for back exposure if they release the collar and follow your movement
 
@@ -217,11 +217,11 @@ Defending the collar drag from worm guard requires recognizing the setup before 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Strip the lapel wrap during the collar drag defense to simultaneously neutralize both the worm guard and the drag threat. Focus on removing the lapel as your primary defensive objective, as this both prevents the drag from succeeding and eliminates the worm guard entirely, leaving you in an advantageous passing position.
 
-### → [[Worm Guard]]
+### → [[Positions/Worm Guard]]
 
 Deny the collar grip or drive forward to prevent the sit-up motion. While remaining against worm guard is not ideal, you have avoided the worse outcome of being dragged to front headlock where immediate submission threats exist.
 

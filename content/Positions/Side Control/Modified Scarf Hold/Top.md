@@ -213,27 +213,27 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 
 ## Available Attacks
 
-### [[Americana]] (12% of attempts)
+### [[Transitions/Americana]] (12% of attempts)
 
-### [[Kimura]] (11% of attempts)
+### [[Transitions/Kimura]] (11% of attempts)
 
-### [[Armbar Finish]] (10% of attempts)
+### [[Transitions/Armbar Finish]] (10% of attempts)
 
-### [[Side Control to Mount]] (21% of attempts)
+### [[Transitions/Side Control to Mount]] (21% of attempts)
 
-### [[Side Control to North-South]] (12% of attempts)
+### [[Transitions/Side Control to North-South]] (12% of attempts)
 
-### [[North-South Choke]] (9% of attempts)
+### [[Transitions/North-South Choke]] (9% of attempts)
 
-### [[Armbar on Free Arm]] (8% of attempts)
+### [[Transitions/Armbar on Free Arm]] (8% of attempts)
 
-### [[Arm Triangle]] (9% of attempts)
+### [[Transitions/Arm Triangle]] (9% of attempts)
 
-### [[Modified Scarf to Kesa Gatame]] (4% of attempts)
+### [[Transitions/Modified Scarf to Kesa Gatame]] (4% of attempts)
 
-### [[Modified Scarf to Mount]] (2% of attempts)
+### [[Transitions/Modified Scarf to Mount]] (2% of attempts)
 
-### [[Kimura from Modified Scarf Hold]] (2% of attempts)
+### [[Submissions/Kimura from Modified Scarf Hold]] (2% of attempts)
 
 
 
@@ -244,19 +244,19 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 ## Decision Making from This Position
 
 **If opponent's near arm is isolated and extended:**
-- Execute **[[Americana]]** → [[Americana Control]] (Probability: 65%)
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 55%)
-- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 50%)
+- Execute **[[Transitions/Americana]]** → [[Americana Control]] (Probability: 65%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
+- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 **If opponent attempts to bridge or turn away from pressure:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 70%)
-- Execute **[[Back Take from Top]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Back Take from Top]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent turns into you to escape chest pressure:**
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 75%)
-- Execute **[[North-South Choke]]** → [[North-South]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 75%)
+- Execute **[[Transitions/North-South Choke]]** → [[Positions/North-South]] (Probability: 50%)
 
 
 
@@ -378,14 +378,14 @@ Partner attempts specific escape (bridge, turtle, turn-in) and you counter with 
 
 ## Related Positions and Techniques
 
-- **[[Side Control]]** - Parent position family
-- **[[Kesa Gatame]]** - Traditional scarf hold variant
-- **[[North-South]]** - Common transition destination
-- **[[Mount]]** - Advancement position
-- **[[Americana]]** - Primary submission attack transition
-- **[[Kimura]]** - High-percentage submission transition
-- **[[Arm Triangle]]** - Core choke submission
-- **[[Reverse Scarf Hold]]** - Related scarf hold variation
+- **[[Positions/Side Control]]** - Parent position family
+- **[[Positions/Side Control/Kesa Gatame]]** - Traditional scarf hold variant
+- **[[Positions/North-South]]** - Common transition destination
+- **[[Positions/Mount]]** - Advancement position
+- **[[Transitions/Americana]]** - Primary submission attack transition
+- **[[Transitions/Kimura]]** - High-percentage submission transition
+- **[[Transitions/Arm Triangle]]** - Core choke submission
+- **[[Positions/Side Control/Reverse Scarf Hold]]** - Related scarf hold variation
 
 
 </section>

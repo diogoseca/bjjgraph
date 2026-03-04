@@ -178,7 +178,7 @@ From a strategic perspective, this transition follows the principle of using sub
 
 The crucifix destination represents a significant positional upgrade from Aoki Lock. While Aoki Lock offers a single submission threat with moderate escape routes, the crucifix eliminates virtually all defensive options and opens multiple high-percentage finishing paths including rear naked choke, arm-in chokes, and armbars. Practitioners who master this transition develop the ability to convert stalled submission attempts into dominant control positions, embodying the position-before-submission principle at an advanced level.
 
-**From Position**: [[Aoki Lock]] (Top)
+**From Position**: [[Positions/Aoki Lock]] (Top)
 
 </section>
 
@@ -230,9 +230,9 @@ The crucifix destination represents a significant positional upgrade from Aoki L
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Crucifix]] | 65% |
-| Failure | [[Aoki Lock]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Crucifix]] | 65% |
+| Failure | [[Positions/Aoki Lock]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ The crucifix destination represents a significant positional upgrade from Aoki L
 
 ## Opponent Counters
 
-- **Opponent explosively extracts near arm during transition when leg entanglement loosens** (Effectiveness: High) - Your Response: Maintain constant leg squeeze throughout transition; if arm begins to free, abandon crucifix attempt and revert to Aoki Lock or transition to back control → Leads to [[Aoki Lock]]
-- **Opponent tucks far arm tight to body preventing capture** (Effectiveness: Medium) - Your Response: Continue Aoki Lock pressure to force arm movement; alternatively transition to back control or truck if arm remains protected after two pressure cycles → Leads to [[Aoki Lock]]
-- **Opponent rolls forward through the transition creating scramble** (Effectiveness: Medium) - Your Response: Follow the roll maintaining whatever arm control exists; often converts directly to back control with seatbelt, which can then lead to crucifix from a different angle → Leads to [[Turtle]]
-- **Opponent posts and creates base preventing hip transition** (Effectiveness: Low) - Your Response: Attack the posting arm directly—the post itself is the arm you want to capture for crucifix; collapse the post while securing the grip → Leads to [[Crucifix]]
+- **Opponent explosively extracts near arm during transition when leg entanglement loosens** (Effectiveness: High) - Your Response: Maintain constant leg squeeze throughout transition; if arm begins to free, abandon crucifix attempt and revert to Aoki Lock or transition to back control → Leads to [[Positions/Aoki Lock]]
+- **Opponent tucks far arm tight to body preventing capture** (Effectiveness: Medium) - Your Response: Continue Aoki Lock pressure to force arm movement; alternatively transition to back control or truck if arm remains protected after two pressure cycles → Leads to [[Positions/Aoki Lock]]
+- **Opponent rolls forward through the transition creating scramble** (Effectiveness: Medium) - Your Response: Follow the roll maintaining whatever arm control exists; often converts directly to back control with seatbelt, which can then lead to crucifix from a different angle → Leads to [[Positions/Turtle]]
+- **Opponent posts and creates base preventing hip transition** (Effectiveness: Low) - Your Response: Attack the posting arm directly—the post itself is the arm you want to capture for crucifix; collapse the post while securing the grip → Leads to [[Positions/Crucifix]]
 
 
 </section>

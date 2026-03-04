@@ -21,7 +21,7 @@ The mechanics require precise coordination between grip establishment, weight di
 
 Strategic context plays a significant role in the decision to pull guard. Practitioners with superior guard games frequently prefer this pathway over extended wrestling exchanges, particularly when facing opponents with strong takedown credentials. The guard pull creates a tactical shortcut to a preferred engagement range, but carries inherent risk if executed without proper grip security or against an opponent prepared to initiate immediate guard passing sequences upon landing.
 
-**From Position**: [[Clinch]] (Bottom)
+**From Position**: [[Positions/Clinch]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategic context plays a significant role in the decision to pull guard. Practi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Clinch]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Clinch]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -194,27 +194,27 @@ The guard pull from clinch serves as a critical pathway connecting the standing 
 ## Related Techniques
 
 
-- [[Clinch]] - Source position where guard pull is initiated from standing clinch exchange
+- [[Positions/Clinch]] - Source position where guard pull is initiated from standing clinch exchange
 
-- [[Closed Guard]] - Primary target position after successful guard pull with ankles locked
+- [[Positions/Closed Guard]] - Primary target position after successful guard pull with ankles locked
 
-- [[Open Guard]] - Fallback position when guard pull is countered or closed guard cannot be established
+- [[Positions/Open Guard]] - Fallback position when guard pull is countered or closed guard cannot be established
 
-- [[Butterfly Guard Pull]] - Alternative guard pull variant landing in butterfly guard instead of closed guard
+- [[Transitions/Butterfly Guard Pull]] - Alternative guard pull variant landing in butterfly guard instead of closed guard
 
-- [[Arm Drag from Clinch]] - Alternative offensive action from the same clinch position
+- [[Transitions/Arm Drag from Clinch]] - Alternative offensive action from the same clinch position
 
-- [[Body Lock Takedown from Clinch]] - Alternative clinch transition favoring top position over guard pull
+- [[Transitions/Body Lock Takedown from Clinch]] - Alternative clinch transition favoring top position over guard pull
 
-- [[Double Leg Entry]] - Wrestling-based alternative to guard pull from clinch engagement
+- [[Transitions/Double Leg Entry]] - Wrestling-based alternative to guard pull from clinch engagement
 
-- [[Single Leg Takedown]] - Takedown alternative when guard pull is not tactically preferred
+- [[Transitions/Single Leg Takedown]] - Takedown alternative when guard pull is not tactically preferred
 
-- [[Standing Position]] - Pre-clinch standing context from which clinch engagement originates
+- [[Positions/Standing Position]] - Pre-clinch standing context from which clinch engagement originates
 
-- [[Half Guard]] - Possible landing position when guard pull is partially defended
+- [[Positions/Half Guard]] - Possible landing position when guard pull is partially defended
 
-- [[Break Clinch]] - Opponent's option to disengage from clinch before guard pull can be attempted
+- [[Transitions/Break Clinch]] - Opponent's option to disengage from clinch before guard pull can be attempted
 
 
 </section>

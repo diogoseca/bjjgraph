@@ -154,7 +154,7 @@ description: "How to defend against X Pass in BJJ. Recognition cues, defensive o
 
 Defending the X Pass requires early recognition of the passer's intent and immediate action to disrupt their pressure sequence before the angular drive is established. The bottom player's primary objective is to prevent the passer from completing the three-stage sequence of crossface establishment, angular stepping, and leg clearing. Defense begins with maintaining strong frames and an active knee shield that prevents the passer from settling chest-to-chest pressure. When the passer initiates the wide step that signals the X Pass, the defender must immediately address either the angle (by following with their hips) or the pressure (by establishing or recovering frames). The most critical defensive window occurs between the passer's wide step and their diagonal drive, as this is when their weight is momentarily in transition and most vulnerable to disruption. Successful defense requires understanding that the X Pass attacks defensive frames from an unconventional angle, meaning standard linear frames will fail against the diagonal pressure. The defender must angle their frames to match the passer's diagonal line or, preferably, attack the pass at its source by fighting for underhooks, establishing lockdown, or transitioning to deep half guard before the flattening sequence completes.
 
-**Opponent's Starting Position**: [[Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the X Pass requires early recognition of the passer's intent and immed
 ### 1. Establish or recover strong knee shield by inserting shin across passer's torso and extending to create distance before the crossface is locked
 
 - **When to use**: Early in the X Pass sequence before the passer has established deep crossface or driven their angle. Most effective when you can feel them beginning to settle weight but before the diagonal pressure line is committed.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Passer is pushed back to neutral top half guard position, forced to restart their passing attempt against your re-established guard structure
 - **Risk**: If the passer has already committed their angle, the knee shield may be too late and they can smash through it using the diagonal pressure
 
 ### 2. Fight for deep underhook on the trapped leg side, turn to your side, and use it to come up to dogfight position or threaten back take
 
 - **When to use**: When you feel the passer beginning to drive crossface but before your shoulders are fully flattened. The underhook battle is the decisive exchange; winning it converts the X Pass attempt into your offensive opportunity.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to an offensive half guard position with underhook control, threatening sweeps and back takes while neutralizing the X Pass threat entirely
 - **Risk**: If the passer has already established deep crossface, reaching for the underhook exposes your arm to whizzer control or kimura attacks
 
 ### 3. Hip escape to follow the passer's wide step, re-squaring your hips to face them and preventing the diagonal angle from materializing
 
 - **When to use**: The moment you feel the passer step their free leg wide. This is the critical timing window between their step and their diagonal drive when their weight is in transition.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Passer's wide step is neutralized because you have matched their angle change with your own hip movement, returning the exchange to neutral half guard
 - **Risk**: Requires timing and hip mobility; if your hips are already pinned by pressure, the hip escape will be insufficient to match their angle
 
 ### 4. Transition to deep half guard by diving underneath the passer as they commit their weight forward into the angular drive
 
 - **When to use**: When the passer commits heavily to forward pressure and you cannot maintain knee shield or win the underhook battle. Their forward commitment creates the opening to go underneath them.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You establish deep half guard with superior sweeping angles, converting their passing pressure into your offensive position
 - **Risk**: If the passer recognizes the deep half entry early, they can sprawl their hips back and crossface to prevent you from getting underneath
 
@@ -225,11 +225,11 @@ Defending the X Pass requires early recognition of the passer's intent and immed
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Disrupt the passer's sequence early by maintaining strong knee shield, following their angle with hip escapes, or re-establishing frames before the diagonal drive commits. This forces them back to neutral top half guard where they must restart their pass attempt.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Win the underhook battle to convert the X Pass attempt into your offensive opportunity. Use the underhook to come to your side, threaten sweeps and back takes, and force the passer to abandon the X Pass to defend your offense. Alternatively, transition to deep half guard by going underneath their committed forward pressure.
 

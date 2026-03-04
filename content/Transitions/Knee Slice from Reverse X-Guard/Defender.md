@@ -146,7 +146,7 @@ description: "Complete defensive guide against the Knee Slice from Reverse X-Gua
 
 As the defender in Reverse X-Guard Bottom facing a knee slice pass attempt, your primary objective is to maintain your hook structure and prevent the top player from cutting their knee across your thigh line. You hold a positionally advantageous guard with strong sweeping mechanics, so your defensive strategy should be proactive rather than reactive—keep the attacker busy defending sweeps and managing hooks so they never reach the setup phase for the knee slice. When the pass attempt does materialize, early recognition and immediate response determine whether you retain your guard, recover to half guard, or counter-transition to an even stronger attacking position like Single Leg X-Guard. Understanding the specific windows where the knee slice becomes dangerous allows you to preemptively shut down the pass before it develops momentum.
 
-**Opponent's Starting Position**: [[Reverse X-Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/X-Guard/Reverse X-Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender in Reverse X-Guard Bottom facing a knee slice pass attempt, your
 ### 1. Re-hook behind the knee immediately when you feel the primary hook being stripped
 
 - **When to use**: As soon as you feel the top player's hand or hip movement targeting your primary hook. Must act before the hook fully clears—once the knee starts slicing, re-hooking becomes extremely difficult.
-- **Targets**: [[Reverse X-Guard]]
+- **Targets**: [[Positions/X-Guard/Reverse X-Guard]]
 - **If successful**: Full Reverse X-Guard structure is maintained and you can immediately counter-attack with sweeps while the opponent has committed energy to the failed pass attempt
 - **Risk**: If timed too late, your re-hook catches a knee that is already slicing through, resulting in a weak half guard position rather than full Reverse X-Guard
 
 ### 2. Frame on the opponent's hip with both hands to block the knee from cutting across your thigh line
 
 - **When to use**: When the primary hook has been stripped and the knee slice has begun but has not yet passed the midline of your body. This is a last-resort defense when re-hooking is no longer possible.
-- **Targets**: [[Reverse X-Guard]]
+- **Targets**: [[Positions/X-Guard/Reverse X-Guard]]
 - **If successful**: The knee slice stalls against your frame, giving you time to re-establish hooks or transition to another guard position
 - **Risk**: Strong frames can be swum through by the attacker, and your arms are occupied framing rather than controlling grips, making you vulnerable to crossface or upper body control
 
 ### 3. Insert your knee to catch half guard as the slice passes through
 
 - **When to use**: When the knee slice has committed and you cannot prevent it from cutting through, but can still insert your inside knee before full side control is established. This is a damage-limitation defense.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to half guard bottom, which provides guard retention and potential for underhook, dog fight, or deep half transitions
 - **Risk**: A strong crossface combined with the knee slice can flatten your half guard immediately, giving the passer a very advantageous passing position
 
 ### 4. Redirect the slicing knee into Single Leg X-Guard hooks by catching their ankle and re-positioning your legs
 
 - **When to use**: When the opponent commits to the slice but their forward momentum creates space between their legs. Requires quick hip adjustment and ankle control to catch the passing leg in a new hook configuration.
-- **Targets**: [[Single Leg X-Guard]]
+- **Targets**: [[Positions/X-Guard/Single Leg X-Guard]]
 - **If successful**: You transition to Single Leg X-Guard, which provides sweeping opportunities, heel hook entries, and strong guard retention against continued passing
 - **Risk**: Requires precise timing and coordination. If the opponent recognizes the transition early, they can backstep to avoid the Single Leg X hooks entirely
 
@@ -217,11 +217,11 @@ As the defender in Reverse X-Guard Bottom facing a knee slice pass attempt, your
 
 ## Best-Case Outcomes for Defender
 
-### → [[Single Leg X-Guard]]
+### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 As the opponent initiates the knee slice and their leg begins to cut across, redirect their momentum by catching their ankle with your far hand while repositioning your inside hook from behind the knee to across their hip. Thread your outside leg through to establish the second Single Leg X hook. This transitions you from a defensive situation into a strong attacking guard with sweep and leg lock options.
 
-### → [[Reverse X-Guard]]
+### → [[Positions/X-Guard/Reverse X-Guard]]
 
 Maintain constant hook activity and grip fighting to prevent the opponent from ever reaching the setup phase. When they attempt to strip your primary hook, immediately reinforce it by adjusting your hip angle to deepen the hook and pulling on their sleeve to break their posture. Combine active hook maintenance with sweep threats to keep them defensive and unable to commit to the passing sequence.
 

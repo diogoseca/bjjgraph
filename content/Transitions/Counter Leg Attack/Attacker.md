@@ -178,7 +178,7 @@ The technique requires precise timing and understanding of when the opponent's f
 
 Strategically, the Counter Leg Attack should be viewed as a last-resort option when standard escapes have failed or when you possess superior leg lock finishing ability compared to your opponent. The transition to 50-50 Guard equalizes the position, while successful entry to your own Ashi Garami can actually reverse the positional hierarchy. Understanding the timing windows, proper leg threading mechanics, and heel protection throughout the counter-attack sequence is essential for success.
 
-**From Position**: [[Inside Sankaku]] (Bottom)
+**From Position**: [[Positions/Inside Sankaku]] (Bottom)
 
 </section>
 
@@ -230,10 +230,10 @@ Strategically, the Counter Leg Attack should be viewed as a last-resort option w
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 45% |
-| Success | [[Ashi Garami]] | 20% |
-| Failure | [[Inside Sankaku]] | 25% |
-| Counter | [[Saddle]] | 10% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 45% |
+| Success | [[Positions/Ashi Garami]] | 20% |
+| Failure | [[Positions/Inside Sankaku]] | 25% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ Strategically, the Counter Leg Attack should be viewed as a last-resort option w
 
 ## Opponent Counters
 
-- **Opponent releases Inside Sankaku to defend their free leg before you complete the entry** (Effectiveness: High) - Your Response: Accept the release as a successful escape outcome and immediately recompose to guard before they can re-enter leg entanglements → Leads to [[Inside Sankaku]]
-- **Opponent drives forward and stacks you while you attempt to thread your leg** (Effectiveness: Medium) - Your Response: Use the forward momentum to complete a technical standup or granby roll escape rather than fighting the pressure from flat position → Leads to [[Inside Sankaku]]
-- **Opponent accelerates their heel hook attack when they sense the counter-entry beginning** (Effectiveness: High) - Your Response: Prioritize heel protection - if they begin applying rotational pressure, tap immediately rather than continuing counter-attack into injury → Leads to [[Inside Sankaku]]
-- **Opponent transitions to Saddle to trap both your legs before counter-attack completes** (Effectiveness: Medium) - Your Response: Abort counter-attack and focus purely on preventing second leg entry, then reassess escape options from new position → Leads to [[Saddle]]
+- **Opponent releases Inside Sankaku to defend their free leg before you complete the entry** (Effectiveness: High) - Your Response: Accept the release as a successful escape outcome and immediately recompose to guard before they can re-enter leg entanglements → Leads to [[Positions/Inside Sankaku]]
+- **Opponent drives forward and stacks you while you attempt to thread your leg** (Effectiveness: Medium) - Your Response: Use the forward momentum to complete a technical standup or granby roll escape rather than fighting the pressure from flat position → Leads to [[Positions/Inside Sankaku]]
+- **Opponent accelerates their heel hook attack when they sense the counter-entry beginning** (Effectiveness: High) - Your Response: Prioritize heel protection - if they begin applying rotational pressure, tap immediately rather than continuing counter-attack into injury → Leads to [[Positions/Inside Sankaku]]
+- **Opponent transitions to Saddle to trap both your legs before counter-attack completes** (Effectiveness: Medium) - Your Response: Abort counter-attack and focus purely on preventing second leg entry, then reassess escape options from new position → Leads to [[Positions/Ashi Garami/Saddle]]
 
 
 </section>

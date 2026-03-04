@@ -154,7 +154,7 @@ description: "Defend the Rolling Back Take from Half Butterfly with early recogn
 
 Defending the Rolling Back Take from Half Butterfly requires early recognition of the setup sequence and immediate disruption before the roll gains momentum. The top player must monitor the depth of the bottom player's underhook, the elevation angle of their butterfly hook, and any attempt to lower their head beneath your arm. Once the rolling motion initiates, defensive options diminish rapidly, making prevention far more effective than mid-roll recovery. The defender's primary tools include whizzer control to limit underhook depth, forward pressure to prevent head positioning, and sprawling mechanics to counter the rotational momentum. Understanding the specific setup prerequisites allows the top player to intervene at the earliest and most effective stage of the attack sequence.
 
-**Opponent's Starting Position**: [[Half Butterfly]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Rolling Back Take from Half Butterfly requires early recognition o
 ### 1. Apply deep whizzer on the underhook arm by clamping your armpit down on their upper arm and rotating your forearm over their tricep
 
 - **When to use**: As soon as you feel the underhook deepening past your armpit toward your far hip, before it reaches full depth
-- **Targets**: [[Half Butterfly]]
+- **Targets**: [[Positions/Butterfly Guard/Half Butterfly]]
 - **If successful**: Prevents the bottom player from achieving the underhook depth needed for the roll, forcing them to abandon the attempt or redirect to a standard sweep that you can defend separately
 - **Risk**: If the whizzer is applied loosely, the bottom player can power through and complete the roll with slight delay, arriving at back control despite the defensive effort
 
 ### 2. Sprawl hips backward forcefully while driving chest weight onto the opponent's shoulders to kill rolling momentum
 
 - **When to use**: When you detect the head ducking beneath your arm or feel the initial rotational pull of the rolling motion beginning
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Kills the rolling momentum entirely and flattens the bottom player, creating an immediate guard passing opportunity to advance to side control as they are stuck in a compromised position
 - **Risk**: If timed too late after the roll has generated sufficient momentum, the sprawl may not stop the rotation and you lose back position while being carried forward
 
 ### 3. Drive forward with crossface pressure while closing the armpit space to prevent the head duck entry
 
 - **When to use**: When the butterfly hook begins elevated pushing and the opponent's head starts lowering toward your armpit, during the early setup phase
-- **Targets**: [[Half Butterfly]]
+- **Targets**: [[Positions/Butterfly Guard/Half Butterfly]]
 - **If successful**: Prevents the head duck-under essential for the roll by closing the space under your arm and forcing the bottom player's head back to neutral, neutralizing the primary entry mechanism
 - **Risk**: Forward pressure increases vulnerability to standard butterfly sweeps if the bottom player redirects their attack laterally rather than continuing the rolling attempt
 
 ### 4. Strip the underhook entirely using two-on-one arm control by grabbing their wrist with both hands and pulling it back across your centerline
 
 - **When to use**: Early in the setup when the underhook is still developing and has not yet reached full depth past your armpit
-- **Targets**: [[Half Butterfly]]
+- **Targets**: [[Positions/Butterfly Guard/Half Butterfly]]
 - **If successful**: Completely removes the primary mechanical anchor for the rolling back take, neutralizing the threat at its foundation and allowing you to resume passing without roll danger
 - **Risk**: Requires temporarily releasing passing grips to address the underhook, which may allow the bottom player to improve guard position or attempt alternative attacks during the transition
 
@@ -225,11 +225,11 @@ Defending the Rolling Back Take from Half Butterfly requires early recognition o
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Sprawl hips back forcefully when you detect the rolling motion initiating, drive your weight forward to flatten the bottom player as their roll stalls, then immediately work to clear the half guard and advance past their legs to consolidate side control while they are in a compromised transitional position.
 
-### → [[Half Butterfly]]
+### → [[Positions/Butterfly Guard/Half Butterfly]]
 
 Apply early whizzer pressure on the deepening underhook and maintain heavy forward chest pressure to close the armpit space, preventing the bottom player from completing the setup prerequisites. The attacker remains in half butterfly bottom unable to generate the rolling motion, and you maintain your top passing position.
 

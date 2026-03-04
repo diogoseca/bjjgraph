@@ -158,7 +158,7 @@ The primary defensive strategy centers on maintaining your entanglement control 
 
 Effective defense also requires having contingency plans when partial reversals occur. If the bottom player manages to clear their trapped leg or establish a hip angle, you must decide quickly between re-consolidating your Leg Knot control, advancing to a more dominant position like Saddle, or disengaging to reset. Each response carries different risks, and the correct choice depends on how far the reversal has progressed and what grips remain intact.
 
-**Opponent's Starting Position**: [[Leg Knot]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Knot]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ Effective defense also requires having contingency plans when partial reversals 
 ### 1. Widen base and post hands to block rotation
 
 - **When to use**: When you detect the bottom player establishing hip angle and reaching for your far leg, before they have secured the grip
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: Bottom player cannot generate rotation and remains in defensive Leg Knot Bottom; you retain attacking initiative and can continue submission threats
 - **Risk**: Posting hands temporarily reduces your ability to attack submissions; a skilled bottom player may use this pause to address other defensive concerns
 
 ### 2. Drive forward and stack to collapse rotation angle
 
 - **When to use**: When the bottom player has turned onto their side and begun the hip switch but has not yet completed the 180-degree rotation
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: Your forward pressure flattens the bottom player and eliminates the hip angle they need; you can re-consolidate Leg Knot Top and resume attacking
 - **Risk**: If the bottom player is already committed to the rotation, your forward drive may accelerate their hip switch by providing momentum they redirect
 
 ### 3. Counter-rotate and advance to Saddle
 
 - **When to use**: When the bottom player has partially cleared their trapped leg and the standard Leg Knot configuration is compromised
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: You advance to a more dominant leg entanglement position with superior submission access, turning their reversal attempt into a worse outcome for them
 - **Risk**: If your counter-rotation timing is off, you may lose the entanglement entirely and end up in a scramble with neither player having established control
 
 ### 4. Strip far leg grip and re-tighten entanglement
 
 - **When to use**: Immediately upon feeling the bottom player's hand contact your far knee or thigh, before they can establish a secure grip
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: Removes the foundational grip that enables the entire reversal sequence; bottom player must restart their setup from scratch
 - **Risk**: Using your hand to strip the grip temporarily removes it from controlling the bottom player's trapped leg, potentially creating a brief submission defense window
 
@@ -227,11 +227,11 @@ Effective defense also requires having contingency plans when partial reversals 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Knot]]
+### → [[Positions/Leg Knot]]
 
 Deny the far leg grip early by keeping your far knee tight and away from their reaching hand. Maintain forward hip pressure to prevent hip angle creation. When you detect the reversal setup, widen your base and drive your weight into the entanglement to flatten the bottom player. Strip any grips they establish on your far leg immediately. Re-tighten your leg crossing configuration and resume your submission attack sequence.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 When the bottom player commits to the reversal and partially clears their trapped leg, use their movement to advance your own position rather than simply trying to maintain Leg Knot. Counter-rotate into the space they create by stepping your far leg over their clearing leg and establishing Saddle configuration. Their reversal attempt creates the opening you need to cross their knee line and achieve the more dominant entanglement. This transforms their offensive action into a positional gift.
 

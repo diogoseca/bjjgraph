@@ -150,7 +150,7 @@ Defending against this chain technique requires understanding that the half guar
 
 The critical defensive decision point is the leg extraction. If you feel the opponent has a deep underhook and is inviting you to extract your leg, you must either deny the extraction entirely (consolidate half guard top with crossface) or extract while simultaneously shutting down the come-up with heavy shoulder pressure and hip positioning.
 
-**Opponent's Starting Position**: [[Mount]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount]] (Bottom)
 
 </section>
 
@@ -186,21 +186,21 @@ The critical defensive decision point is the leg extraction. If you feel the opp
 ### 1. Establish immediate crossface and deny the underhook by swimming your arm across their face and driving shoulder pressure
 
 - **When to use**: Immediately after your mount is escaped to half guard. The crossface must be established before or simultaneously with their underhook attempt.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Flattens opponent and denies the underhook needed for the back take, allowing you to work your half guard passing game
 - **Risk**: If their underhook is already deep, crossface alone may not be enough to prevent the come-up
 
 ### 2. Extract your leg while driving your weight forward into the opponent rather than pulling backward
 
 - **When to use**: When you must extract your trapped leg but the opponent has an underhook. Drive your hip and shoulder into them as you extract to deny the space they need.
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Recovers mount or advances to side control while preventing the back take
 - **Risk**: If extraction is too slow, opponent may use your forward commitment to sweep
 
 ### 3. Abandon leg extraction and consolidate half guard top with heavy crossface and underhook denial
 
 - **When to use**: When you recognize the bait—their half guard is loose and they have a deep underhook. Do not extract.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Denies the back take opportunity entirely and allows you to pass from half guard top at your own pace
 - **Risk**: Remaining in half guard gives opponent time to work other half guard attacks
 
@@ -212,11 +212,11 @@ The critical defensive decision point is the leg extraction. If you feel the opp
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Re-establish mount by extracting the trapped leg while keeping heavy pressure forward, preventing the opponent from coming up. Step over their hip as you free the leg.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Settle into half guard top with strong crossface and begin systematic passing. Deny the underhook to eliminate the back take threat entirely.
 

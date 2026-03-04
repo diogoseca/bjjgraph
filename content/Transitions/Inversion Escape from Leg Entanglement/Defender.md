@@ -154,7 +154,7 @@ description: "Prevent the inversion escape from your leg entanglement by recogni
 
 As the person maintaining the leg entanglement, your objective is to prevent the opponent's inversion from disrupting your control structure. The inversion escape targets the fundamental weakness of leg entanglements: control optimized for two-dimensional retention can be defeated by three-dimensional rotational movement. Your defensive strategy must address this by maintaining control points that function across multiple planes of motion, recognizing the inversion setup before it develops full momentum, and positioning your body to follow or block the roll rather than being bypassed by it. Successfully shutting down the inversion also creates opportunities to advance to the saddle position, as the opponent's failed escape attempt frequently exposes their leg to deeper entanglement.
 
-**Opponent's Starting Position**: [[Leg Entanglement]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Entanglement]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the person maintaining the leg entanglement, your objective is to prevent the
 ### 1. Drive hip pressure forward and pinch knees to block the rotation before it develops
 
 - **When to use**: As soon as you feel the opponent framing with their free leg on your hip or see them posting a hand, before the inversion has started
-- **Targets**: [[Leg Entanglement]]
+- **Targets**: [[Positions/Leg Entanglement]]
 - **If successful**: The opponent's inversion attempt is blocked at the setup phase, and they remain in the original entanglement with their escape option spent
 - **Risk**: If you over-commit forward pressure, the opponent may use your momentum against you and redirect into a different escape
 
 ### 2. Follow the inversion by rotating your body with the opponent while maintaining grip on the ankle and leg configuration
 
 - **When to use**: When the inversion has already begun and blocking the rotation is no longer possible - you must ride the roll rather than fight it
-- **Targets**: [[Leg Entanglement]]
+- **Targets**: [[Positions/Leg Entanglement]]
 - **If successful**: You maintain the entanglement through the opponent's roll and end up in a re-established control position, often with the opponent more fatigued from the failed escape
 - **Risk**: Following the roll requires letting go of some positional anchors, and you may end up in a scramble if your grips slip during the rotation
 
 ### 3. Release the original entanglement and backstep to capture saddle position as the opponent's legs become exposed during the roll
 
 - **When to use**: When the inversion is developing and you recognize that maintaining the current entanglement through the roll is unlikely, but the opponent's legs are temporarily exposed
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: You advance from a general leg entanglement to the dominant saddle position, dramatically improving your submission options and control
 - **Risk**: If the backstep is too slow or mistimed, the opponent completes the escape and you lose the entanglement entirely
 
 ### 4. Attack the heel during the moment of inversion when the rotational motion temporarily exposes the joint
 
 - **When to use**: When the opponent initiates the inversion and their heel becomes momentarily accessible during the transition - this is an advanced timing-dependent option
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: You secure the heel grip during the opponent's escape attempt and transition directly to a finishing position with deep control
 - **Risk**: Attacking during dynamic movement requires precise timing - if mistimed, you lose positional control with no grip established
 
@@ -225,11 +225,11 @@ As the person maintaining the leg entanglement, your objective is to prevent the
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Entanglement]]
+### → [[Positions/Leg Entanglement]]
 
 Block the inversion at the setup phase by driving hip pressure forward and pinching knees when you feel the free leg frame or see the posting hand. Prevent the roll from developing momentum by eliminating the space needed for rotation.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 When the opponent commits to the inversion and their leg becomes temporarily exposed during the roll, release the original entanglement and backstep to capture the saddle position. The opponent's rolling motion often exposes their leg at optimal angles for saddle entry during the transition.
 

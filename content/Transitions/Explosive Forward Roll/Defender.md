@@ -158,7 +158,7 @@ The key defensive challenge is that the forward roll is a sudden, high-commitmen
 
 The defender's optimal strategy varies based on what stage of the roll you recognize the attempt. Early recognition allows a sprawl that completely shuts down the technique. Mid-roll recognition requires riding the momentum and transitioning to mount or side control. Late recognition means scrambling to prevent guard recovery. Understanding these different timing windows and having trained responses for each separates competent back controllers from those who consistently lose position to explosive escapes.
 
-**Opponent's Starting Position**: [[Standing Back Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Back Control/Standing Back Control]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ The defender's optimal strategy varies based on what stage of the roll you recog
 ### 1. Sprawl hips back and sit weight down immediately when you feel opponent bend forward, driving your hips away from the roll direction while maintaining harness grip
 
 - **When to use**: At earliest recognition - when opponent begins bending forward or establishing two-on-one wrist control before the roll has started
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Completely negates the roll attempt and maintains your standing back control position, often with opponent in a weakened bent-forward posture
 - **Risk**: If timed late, your sprawl may not stop the roll and you end up dragged over with less control than if you had ridden the roll
 
 ### 2. Release harness and post your hand on the mat as opponent rolls, then immediately scramble to establish mount or side control on the downed opponent
 
 - **When to use**: When the roll has already been initiated and cannot be stopped - mid-roll when you are being carried over
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You transition directly to mount or side control, converting their escape attempt into a worse position for them
 - **Risk**: Releasing the harness means losing back control entirely if you fail to establish mount, potentially ending in open guard or scramble
 
 ### 3. Ride the roll by maintaining chest connection and harness grip, following the opponent through the inversion and immediately re-establishing hooks upon landing
 
 - **When to use**: When the roll is committed but your grips are strong enough to maintain through the motion - you follow rather than resist
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You maintain back control through the roll, landing in grounded back control with hooks ready to re-insert
 - **Risk**: If opponent drives hips away aggressively after landing, you may lose connection and end up in half guard or open guard bottom
 
 ### 4. Secure body triangle before opponent can initiate - lock your legs around their waist in figure-four configuration to eliminate the hip mobility needed for the roll
 
 - **When to use**: Proactively when you sense the opponent is setting up for explosive escape attempts based on their grip fighting patterns
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Body triangle prevents the roll entirely, forcing opponent to abandon this escape and address leg control first
 - **Risk**: Body triangle commitment can be countered if opponent addresses the lock before attempting the roll, and triangle itself can be uncomfortable to maintain standing
 
@@ -228,11 +228,11 @@ The defender's optimal strategy varies based on what stage of the roll you recog
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Sprawl immediately when you feel the forward bend, driving hips back while maintaining harness grip. Keep your weight low and heavy rather than following the opponent forward. Alternatively, ride the roll through while maintaining chest-to-back connection and immediately re-establish hooks on landing.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the roll is already in motion and cannot be stopped, release the harness, post your hand on the mat to control your landing, and use the opponent's rolling momentum to establish mount as they land on their back. Drive your hips forward immediately upon landing to prevent them from inserting legs for guard.
 

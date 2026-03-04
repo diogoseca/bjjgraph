@@ -146,7 +146,7 @@ description: "Defend against hip escape attempts from consolidated side control.
 
 As the top player defending against hip escape attempts from consolidated side control, your primary objective is maintaining the positional dominance you have established while capitalizing on the opponent's escape attempts to either tighten control or advance to mount. The hip escape is the most common escape from side control, so developing reliable counter-mechanics is essential for any effective top game. Successful defense requires recognizing the early stages of the escape attempt, applying immediate counter-pressure to shut down hip movement, and using the opponent's momentum against them to improve your position rather than merely maintaining it.
 
-**Opponent's Starting Position**: [[Side Control Consolidation]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control/Side Control Consolidation]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the top player defending against hip escape attempts from consolidated side c
 ### 1. Drive crossface pressure deeper and drop hip weight lower against opponent's near-side ribs
 
 - **When to use**: Immediately when you feel the opponent beginning to create a frame or turn to their side, before the shrimp is initiated
-- **Targets**: [[Side Control Consolidation]]
+- **Targets**: [[Positions/Side Control/Side Control Consolidation]]
 - **If successful**: Opponent's frame collapses under increased pressure and they are driven flat, resetting their escape attempt entirely
 - **Risk**: Over-committing pressure forward can create a rolling vulnerability if opponent has already secured a frame
 
 ### 2. Follow opponent's hips by walking your knees forward to close the gap created by their shrimp
 
 - **When to use**: When the opponent has already begun shrimping and you need to match their lateral movement to prevent knee insertion
-- **Targets**: [[Side Control Consolidation]]
+- **Targets**: [[Positions/Side Control/Side Control Consolidation]]
 - **If successful**: You re-establish hip-to-hip connection and can resettle your pressure, negating the space the opponent created
 - **Risk**: If you follow too slowly, opponent inserts the knee shield before you can close the distance
 
 ### 3. Step over to mount when opponent creates angle by turning to their side during escape attempt
 
 - **When to use**: When opponent commits to turning onto their side and their far hip lifts, creating a pathway for your leg to step over
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You advance to mount, converting their escape attempt into a position that awards you 4 additional points
 - **Risk**: If the step-over is not completed before their knee enters, you may end up in half guard or a scramble
 
 ### 4. Trap the far arm to eliminate framing capability before opponent can create structural space
 
 - **When to use**: When you recognize the opponent positioning their far arm for a frame against your hip or chest
-- **Targets**: [[Side Control Consolidation]]
+- **Targets**: [[Positions/Side Control/Side Control Consolidation]]
 - **If successful**: Without a frame, the opponent cannot create the space needed for hip escape and is stuck under your pressure
 - **Risk**: Reaching for the arm may temporarily lighten your chest pressure, giving a brief escape window
 
@@ -217,11 +217,11 @@ As the top player defending against hip escape attempts from consolidated side c
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control Consolidation]]
+### → [[Positions/Side Control/Side Control Consolidation]]
 
 Shut down the escape attempt early by recognizing framing and turning cues, then immediately driving crossface deeper and lowering hip pressure to collapse their defensive structure and resettle full consolidation.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the opponent commits to turning onto their side for the hip escape, use their angle creation as an opportunity to step over and advance to mount. Their turned position actually facilitates the mount transition because their far hip is elevated and their defensive frames are oriented for lateral escape rather than blocking the step-over.
 

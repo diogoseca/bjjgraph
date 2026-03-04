@@ -21,7 +21,7 @@ The technique requires precise timing rather than raw strength. The optimal mome
 
 Strategically, this escape serves as a reset mechanism when other North-South escapes fail or are unavailable. Unlike the bridge-and-turn escape to turtle, which requires committing to a turning direction, this technique keeps you on your back in a guard position where your legs become your primary defensive weapons. This makes it particularly valuable for guard players who prefer to work from closed guard or half guard rather than scrambling through turtle positions.
 
-**From Position**: [[North-South]] (Bottom)
+**From Position**: [[Positions/North-South]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, this escape serves as a reset mechanism when other North-South es
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 45% |
-| Success | [[Half Guard]] | 20% |
-| Failure | [[North-South]] | 25% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Closed Guard]] | 45% |
+| Success | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/North-South]] | 25% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -192,25 +192,25 @@ The Explosive Bridge to Guard Recovery occupies a critical position in the North
 ## Related Techniques
 
 
-- [[North-South]] - Starting position for this escape technique
+- [[Positions/North-South]] - Starting position for this escape technique
 
-- [[Closed Guard]] - Primary target position on successful guard recovery
+- [[Positions/Closed Guard]] - Primary target position on successful guard recovery
 
-- [[Half Guard]] - Secondary target position when closed guard is unavailable
+- [[Positions/Half Guard]] - Secondary target position when closed guard is unavailable
 
-- [[Bridge and Turn to Turtle]] - Alternative escape when guard recovery is blocked by opponent pressure
+- [[Transitions/Bridge and Turn to Turtle]] - Alternative escape when guard recovery is blocked by opponent pressure
 
-- [[Hip Escape to Guard]] - Chain option when bridge creates partial space but not enough for full guard
+- [[Transitions/Hip Escape to Guard]] - Chain option when bridge creates partial space but not enough for full guard
 
-- [[Butterfly Guard]] - Variant target when opponent sprawls hips away during escape
+- [[Positions/Butterfly Guard]] - Variant target when opponent sprawls hips away during escape
 
-- [[North-South to Kimura]] - Primary threat from top player whose setup creates timing windows for escape
+- [[Transitions/North-South to Kimura]] - Primary threat from top player whose setup creates timing windows for escape
 
-- [[North-South Choke]] - Submission threat that creates timing windows when opponent commits weight
+- [[Transitions/North-South Choke]] - Submission threat that creates timing windows when opponent commits weight
 
-- [[Bridge and Roll]] - Related bridging escape sharing fundamental hip extension mechanics
+- [[Transitions/Bridge and Roll]] - Related bridging escape sharing fundamental hip extension mechanics
 
-- [[Frame and Shrimp to Guard]] - Complementary escape used when bridge creates partial space
+- [[Transitions/Frame and Shrimp to Guard]] - Complementary escape used when bridge creates partial space
 
 
 </section>

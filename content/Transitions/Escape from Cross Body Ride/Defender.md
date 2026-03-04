@@ -140,7 +140,7 @@ description: "Learn to defend against cross body ride escape attempts in BJJ. Co
 
 Defending against the Escape from Cross Body Ride means maintaining your dominant position when the bottom player attempts to displace your weight and reverse the position. As the rider, your objective is to read escape attempts early, neutralize frame creation, and either maintain cross body control or transition to an even more dominant position like full back control. The most effective defense combines heavy settled pressure with the ability to follow the bottom player's hip movement, converting their escape energy into your own advancement opportunities. Recognizing the difference between moments to maintain pressure and moments to flow with their movement into back control separates competent riders from those who lose position to well-executed escapes.
 
-**Opponent's Starting Position**: [[Cross Body Ride]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Cross Body Ride]] (Bottom)
 
 </section>
 
@@ -178,21 +178,21 @@ Defending against the Escape from Cross Body Ride means maintaining your dominan
 ### 1. Drop chest pressure and sprawl hips back to collapse the hip escape space
 
 - **When to use**: When you feel the bottom player begin to shift hips laterally or sense them establishing a frame against your hip before the escape develops
-- **Targets**: [[Cross Body Ride]]
+- **Targets**: [[Positions/Cross Body Ride]]
 - **If successful**: Bottom player's escape is neutralized and they return to fully controlled cross body ride position under your pressure
 - **Risk**: If you sprawl too aggressively, you may overshoot and create space that allows the bottom player to sit through in the opposite direction
 
 ### 2. Follow the hip escape and insert hooks to transition to full back control
 
 - **When to use**: When the bottom player has already created significant space and the hip escape is partially successful, making it impractical to recover cross body ride
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You advance from cross body ride to full back control with hooks, which is a superior dominant position with higher submission percentage
 - **Risk**: If you chase hooks too eagerly without maintaining upper body harness control, the bottom player may complete the reversal during the transition
 
 ### 3. Control near-side arm and strip the underhook before the reversal can complete
 
 - **When to use**: When the bottom player has created some space and is actively attempting to thread an underhook underneath your armpit for the reversal
-- **Targets**: [[Cross Body Ride]]
+- **Targets**: [[Positions/Cross Body Ride]]
 - **If successful**: Underhook is prevented, bottom player cannot generate the leverage needed for the reversal, and you re-establish heavy cross body pressure
 - **Risk**: Focusing on arm control may reduce your chest pressure, allowing the bottom player to escape their hips further or switch to a different escape direction
 
@@ -204,11 +204,11 @@ Defending against the Escape from Cross Body Ride means maintaining your dominan
 
 ## Best-Case Outcomes for Defender
 
-### → [[Cross Body Ride]]
+### → [[Positions/Cross Body Ride]]
 
 Maintain heavy perpendicular pressure and control the near-side arm to prevent frame establishment. When the bottom player attempts to hip escape, follow their movement with your weight and re-establish chest-to-back contact before they can complete the reversal or establish an underhook.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the bottom player creates space with their hip escape, use that space to insert hooks inside their thighs rather than fighting to recover cross body ride. Maintain harness grip on the upper body while threading your legs for hooks, converting their escape energy into your own positional advancement to the highest-value position in BJJ.
 

@@ -21,7 +21,7 @@ The primary challenge lies in managing the momentary vulnerability created when 
 
 Successful execution demands unbroken hip-to-hip connection throughout the entire transition. The critical error most practitioners make is lifting their hips during the step-over, creating space that the bottom player immediately exploits for escape. Instead, the top player should maintain constant downward pressure while sliding or stepping the leg across, using the far arm post for balance without transferring weight away from the opponent. The transition integrates naturally with submission threats from scarf hold—americana and arm triangle setups force defensive reactions that create ideal mounting opportunities as the bottom player's attention diverts to the submission threat.
 
-**From Position**: [[Scarf Hold Position]] (Top)
+**From Position**: [[Positions/Side Control/Scarf Hold Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Successful execution demands unbroken hip-to-hip connection throughout the entir
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Scarf Hold Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Side Control/Scarf Hold Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Scarf Hold to Mount transition serves as a critical link in the top player's
 ## Related Techniques
 
 
-- [[Scarf Hold Position]] - Source position from which this transition initiates
+- [[Positions/Side Control/Scarf Hold Position]] - Source position from which this transition initiates
 
-- [[Mount]] - Target position representing successful transition completion
+- [[Positions/Mount]] - Target position representing successful transition completion
 
-- [[Half Guard]] - Counter outcome when defender inserts knee during step-over
+- [[Positions/Half Guard]] - Counter outcome when defender inserts knee during step-over
 
-- [[Kesa Gatame]] - Traditional judo terminology for the source scarf hold position
+- [[Positions/Side Control/Kesa Gatame]] - Traditional judo terminology for the source scarf hold position
 
-- [[Modified Scarf Hold]] - Related scarf hold variant with alternative arm positioning for mount entry
+- [[Positions/Side Control/Modified Scarf Hold]] - Related scarf hold variant with alternative arm positioning for mount entry
 
-- [[Consolidation to Mount]] - Parallel mount entry transition from side control positions
+- [[Transitions/Consolidation to Mount]] - Parallel mount entry transition from side control positions
 
-- [[Modified Scarf to Mount]] - Similar transition from modified scarf hold variant
+- [[Transitions/Modified Scarf to Mount]] - Similar transition from modified scarf hold variant
 
-- [[Bridge from Scarf Hold Position]] - Primary defensive technique that counters this transition
+- [[Transitions/Bridge from Scarf Hold Position]] - Primary defensive technique that counters this transition
 
-- [[Americana]] - Submission threat that creates the opening for mount transition
+- [[Transitions/Americana]] - Submission threat that creates the opening for mount transition
 
-- [[KOB to Mount]] - Alternative mount entry pathway through knee on belly
+- [[Transitions/KOB to Mount]] - Alternative mount entry pathway through knee on belly
 
 
 </section>

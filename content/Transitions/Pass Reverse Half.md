@@ -21,7 +21,7 @@ The strategic importance of this pass lies in its timing-dependent nature. Rever
 
 Successful execution demands reading the bottom player's defensive reactions. When they flatten and defend the back take, the pass becomes the highest-percentage option. The technique chains naturally with other reverse half guard attacks—threatening the back take forces defensive reactions that open the pass, while threatening the pass forces rotations that expose the back. This dilemma-based approach makes the complete reverse half guard passing system greater than the sum of its individual techniques.
 
-**From Position**: [[Reverse Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Reverse Half Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Successful execution demands reading the bottom player's defensive reactions. Wh
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Reverse Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Reverse Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ Pass Reverse Half connects the backstep passing system to side control consolida
 ## Related Techniques
 
 
-- [[Reverse Half Guard]] - Source position from which this pass is executed
+- [[Positions/Half Guard/Reverse Half Guard]] - Source position from which this pass is executed
 
-- [[Side Control]] - Target position achieved on successful pass completion
+- [[Positions/Side Control]] - Target position achieved on successful pass completion
 
-- [[Half Guard]] - Position the bottom player may recover to if pass fails or they counter
+- [[Positions/Half Guard]] - Position the bottom player may recover to if pass fails or they counter
 
-- [[Backstep from Reverse Half]] - Entry transition that often precedes this pass attempt
+- [[Transitions/Backstep from Reverse Half]] - Entry transition that often precedes this pass attempt
 
-- [[Escape Reverse Half Guard]] - Defender's primary technique for preventing this pass
+- [[Transitions/Escape Reverse Half Guard]] - Defender's primary technique for preventing this pass
 
-- [[Invert from Reverse Half Guard]] - Defender's inversion-based counter to the pass attempt
+- [[Transitions/Invert from Reverse Half Guard]] - Defender's inversion-based counter to the pass attempt
 
-- [[Back Take from Top]] - Alternative offensive option from the same position when opponent turns
+- [[Transitions/Back Take from Top]] - Alternative offensive option from the same position when opponent turns
 
-- [[Deep Half Guard]] - Guard variation the defender may recover to during failed pass
+- [[Positions/Half Guard/Deep Half Guard]] - Guard variation the defender may recover to during failed pass
 
-- [[Crab Ride]] - Alternative transitional position from reverse half guard for back attacks
+- [[Positions/Crab Ride]] - Alternative transitional position from reverse half guard for back attacks
 
-- [[Leg Drag Control]] - Related passing position using similar leg drag mechanics
+- [[Positions/Leg Drag Control]] - Related passing position using similar leg drag mechanics
 
 
 </section>

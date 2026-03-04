@@ -186,7 +186,7 @@ description: "How to execute Double Leg Setup in BJJ. Attacking perspective with
 
 The Double Leg Setup is a fundamental wrestling entry adapted for Brazilian Jiu-Jitsu that creates the optimal conditions for executing a double leg takedown. This preparatory sequence focuses on controlling distance, manipulating opponent reactions, and establishing proper positioning before committing to the explosive penetration step. The setup phase is arguably more important than the finish itself, as it determines whether you'll achieve a clean takedown or expose yourself to sprawl defense and guillotine attacks. Effective setup work involves a combination of grip fighting, level changes, angle creation, and timing that forces your opponent into defensive postures while creating offensive opportunities. The modern approach to double leg setups emphasizes tactical entries over purely athletic explosiveness, making it accessible to practitioners of all physical abilities. Understanding the setup mechanics allows you to chain together multiple takedown attempts, use feints to create openings, and seamlessly transition between standing and ground techniques when opportunities arise.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -241,9 +241,9 @@ The Double Leg Setup is a fundamental wrestling entry adapted for Brazilian Jiu-
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Clinch]] | 70% |
-| Failure | [[Standing Position]] | 20% |
-| Counter | [[Front Headlock]] | 10% |
+| Success | [[Positions/Clinch]] | 70% |
+| Failure | [[Positions/Standing Position]] | 20% |
+| Counter | [[Positions/Front Headlock]] | 10% |
 
 
 </section>
@@ -252,11 +252,11 @@ The Double Leg Setup is a fundamental wrestling entry adapted for Brazilian Jiu-
 
 ## Opponent Counters
 
-- **Sprawl defense with hips driven backward** (Effectiveness: High) - Your Response: Immediately transition to single leg position by releasing one leg and circling to the side, or convert to a body lock if they sprawl without creating distance → Leads to [[Standing Position]]
-- **Guillotine choke attempt as you shoot** (Effectiveness: High) - Your Response: Keep your head tight to their hip rather than floating in front, drive through to complete the takedown which often breaks the guillotine grip, or bail out by pulling your head free and resetting to standing → Leads to [[Front Headlock]]
-- **Whizzer overhook on your shooting arm** (Effectiveness: Medium) - Your Response: Continue driving forward while switching to single leg grip on the non-whizzered side, or use the whizzer as a pivot point to circle behind for back access → Leads to [[Standing Position]]
-- **Cross-face with strong head control** (Effectiveness: Medium) - Your Response: Lower your level even further and drive through their base before they can establish the cross-face, or release and re-shoot from a different angle → Leads to [[Standing Position]]
-- **Limp leg withdrawal where they pull leg back** (Effectiveness: Low) - Your Response: Chase the retreating leg by advancing your penetration step further, or switch to attacking the planted leg which now bears all their weight → Leads to [[Clinch]]
+- **Sprawl defense with hips driven backward** (Effectiveness: High) - Your Response: Immediately transition to single leg position by releasing one leg and circling to the side, or convert to a body lock if they sprawl without creating distance → Leads to [[Positions/Standing Position]]
+- **Guillotine choke attempt as you shoot** (Effectiveness: High) - Your Response: Keep your head tight to their hip rather than floating in front, drive through to complete the takedown which often breaks the guillotine grip, or bail out by pulling your head free and resetting to standing → Leads to [[Positions/Front Headlock]]
+- **Whizzer overhook on your shooting arm** (Effectiveness: Medium) - Your Response: Continue driving forward while switching to single leg grip on the non-whizzered side, or use the whizzer as a pivot point to circle behind for back access → Leads to [[Positions/Standing Position]]
+- **Cross-face with strong head control** (Effectiveness: Medium) - Your Response: Lower your level even further and drive through their base before they can establish the cross-face, or release and re-shoot from a different angle → Leads to [[Positions/Standing Position]]
+- **Limp leg withdrawal where they pull leg back** (Effectiveness: Low) - Your Response: Chase the retreating leg by advancing your penetration step further, or switch to attacking the planted leg which now bears all their weight → Leads to [[Positions/Clinch]]
 
 
 </section>

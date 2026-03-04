@@ -154,7 +154,7 @@ description: "Learn to defend against the Bridge Escape from Reverse Scarf Hold.
 
 Defending against the Bridge Escape from Reverse Scarf Hold requires the top player to maintain awareness of the bottom player's escape setup while preserving the heavy hip pressure and arm control that define the position. The defender must recognize bridge preparation cues—foot repositioning, frame establishment, breathing patterns—and preemptively adjust base width and weight distribution to absorb the explosive force. Effective defense transforms the opponent's bridge attempt into a transition opportunity, allowing advancement to mount or north-south rather than merely surviving the escape. The key principle is proactive base management rather than reactive scrambling after the bridge initiates.
 
-**Opponent's Starting Position**: [[Reverse Scarf Hold]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Bottom)
 
 </section>
 
@@ -190,28 +190,28 @@ Defending against the Bridge Escape from Reverse Scarf Hold requires the top pla
 ### 1. Widen base and drop hips lower onto opponent's chest before bridge initiates
 
 - **When to use**: When you recognize bridge preparation cues such as foot repositioning or frame establishment before the explosive effort begins
-- **Targets**: [[Reverse Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Reverse Scarf Hold]]
 - **If successful**: Bridge attempt is absorbed by your widened base and lowered center of gravity, opponent wastes energy without creating positional change
 - **Risk**: Widening base too much may open hip escape pathways on the opposite side
 
 ### 2. Ride the bridge momentum and step over to mount position
 
 - **When to use**: When the opponent commits to a powerful bridge that lifts your hips, use their upward energy to transition rather than fighting to stay in reverse scarf hold
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Convert the opponent's escape attempt into positional advancement to mount, a more dominant position worth 4 points
 - **Risk**: Mistiming the step-over can result in the opponent inserting a knee and recovering half guard
 
 ### 3. Attack near-side arm with kimura or americana to force submission defense over escape
 
 - **When to use**: When the opponent's bridge preparation reveals their near-side arm is not fully protected, particularly when their elbow drifts away from their ribs during frame attempts
-- **Targets**: [[Reverse Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Reverse Scarf Hold]]
 - **If successful**: Opponent must abandon bridge escape attempt entirely to defend the submission, resetting their escape progress and draining energy
 - **Risk**: Committing both hands to the submission temporarily compromises your base against the bridge
 
 ### 4. Shift weight forward and transition toward north-south during bridge disruption
 
 - **When to use**: When the bridge creates space that makes maintaining reverse scarf hold difficult but mount transition is not available
-- **Targets**: [[Reverse Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Reverse Scarf Hold]]
 - **If successful**: Transition to north-south control before opponent can establish half guard, maintaining top position dominance
 - **Risk**: The transition moment creates a window where the opponent may insert frames for guard recovery
 
@@ -223,11 +223,11 @@ Defending against the Bridge Escape from Reverse Scarf Hold requires the top pla
 
 ## Best-Case Outcomes for Defender
 
-### → [[Reverse Scarf Hold]]
+### → [[Positions/Side Control/Reverse Scarf Hold]]
 
 Preemptively widen your base and drop your hip weight lower when you recognize bridge preparation cues. Absorb the bridge force through your expanded base, then immediately resettle full chest pressure and re-secure arm control before the opponent can chain into a hip escape.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the opponent commits to a powerful bridge that significantly lifts your hips, ride their upward momentum by stepping your far leg over their body toward mount. Time the step-over for the apex of their bridge when their hips are highest and your weight is already displaced. Complete the mount transition before they can insert a knee.
 

@@ -26,8 +26,8 @@ This submission pairs naturally with armbar and baseball bat choke attacks from 
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Neck
-**Starting Position**: [[Knee on Belly]]
-**From Position**: [[Knee on Belly]] (Top)
+**Starting Position**: [[Positions/Knee on Belly]]
+**From Position**: [[Positions/Knee on Belly]] (Top)
 **Success Rate**: 42%
 
 </section>
@@ -75,9 +75,9 @@ This submission pairs naturally with armbar and baseball bat choke attacks from 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Knee on Belly]] | 30% |
-| Failure | [[Side Control]] | 15% |
-| Counter | [[Half Guard]] | 10% |
+| Failure | [[Positions/Knee on Belly]] | 30% |
+| Failure | [[Positions/Side Control]] | 15% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -221,8 +221,8 @@ This submission pairs naturally with armbar and baseball bat choke attacks from 
 
 ## From Which Positions?
 
-- [[Knee on Belly]]
-- [[Side Control]]
+- [[Positions/Knee on Belly]]
+- [[Positions/Side Control]]
 
 
 </section>
@@ -231,14 +231,14 @@ This submission pairs naturally with armbar and baseball bat choke attacks from 
 
 ## Related Submissions
 
-- [[Baseball Bat Choke]]
-- [[Armbar from Knee on Belly]]
-- [[Cross Collar Choke]]
-- [[Cross Collar Choke from High Mount]]
-- [[Breadcutter Choke]]
-- [[Brabo Choke]]
-- [[Bow and Arrow Choke]]
-- [[Americana from Side Control]]
+- [[Transitions/Baseball Bat Choke]]
+- [[Submissions/Armbar from Knee on Belly]]
+- [[Transitions/Cross Collar Choke]]
+- [[Submissions/Cross Collar Choke from High Mount]]
+- [[Transitions/Breadcutter Choke]]
+- [[Submissions/Brabo Choke]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Submissions/Americana from Side Control]]
 
 
 </section>
@@ -247,13 +247,13 @@ This submission pairs naturally with armbar and baseball bat choke attacks from 
 
 ## Additional Related Content
 
-- [[Knee on Belly]] - Primary starting position providing the pressure platform for collar grip establishment
-- [[Side Control]] - Alternative starting position and common fallback when KOB is lost during choke attempt
-- [[Baseball Bat Choke]] - Complementary gi choke from KOB creating dual collar attack threats
-- [[Armbar from Knee on Belly]] - Primary alternative attack when opponent extends arms to defend collar grips
-- [[Cross Collar Choke]] - Parent technique — this variation applies the same grip mechanics from the KOB platform
-- [[Mount]] - Advancement option when choke attempt forces opponent to create space enabling transition
-- [[Half Guard]] - Common recovery position for the defender after disrupting the choke attempt
+- [[Positions/Knee on Belly]] - Primary starting position providing the pressure platform for collar grip establishment
+- [[Positions/Side Control]] - Alternative starting position and common fallback when KOB is lost during choke attempt
+- [[Transitions/Baseball Bat Choke]] - Complementary gi choke from KOB creating dual collar attack threats
+- [[Submissions/Armbar from Knee on Belly]] - Primary alternative attack when opponent extends arms to defend collar grips
+- [[Transitions/Cross Collar Choke]] - Parent technique — this variation applies the same grip mechanics from the KOB platform
+- [[Positions/Mount]] - Advancement option when choke attempt forces opponent to create space enabling transition
+- [[Positions/Half Guard]] - Common recovery position for the defender after disrupting the choke attempt
 
 
 </section>

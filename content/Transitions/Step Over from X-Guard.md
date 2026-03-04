@@ -21,7 +21,7 @@ This technique operates on the principle of exploiting transitional windows rath
 
 Strategically, the step over complements slower pressure-based approaches by adding an explosive option to the top player's X-Guard passing repertoire. When the bottom player anticipates grinding smash passes or methodical knee slices, the sudden step over catches them off-guard. The pass is most effective when chained with other passing attempts that draw the bottom player's defensive attention in one direction, creating the opening for the step over in the opposite direction. This makes it a valuable secondary technique within a comprehensive X-Guard passing system.
 
-**From Position**: [[X-Guard]] (Top)
+**From Position**: [[Positions/X-Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the step over complements slower pressure-based approaches by add
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[X-Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/X-Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,21 +193,21 @@ The Step Over from X-Guard occupies a niche but important role within the top pl
 ## Related Techniques
 
 
-- [[X-Guard]] - Source position where this pass is initiated from the top
+- [[Positions/X-Guard]] - Source position where this pass is initiated from the top
 
-- [[Side Control]] - Primary target position achieved upon successful completion of the pass
+- [[Positions/Side Control]] - Primary target position achieved upon successful completion of the pass
 
-- [[Half Guard]] - Counter outcome position when bottom player sweeps during step over attempt
+- [[Positions/Half Guard]] - Counter outcome position when bottom player sweeps during step over attempt
 
-- [[Knee Pin from X-Guard]] - Complementary passing technique from the same position that sets up step over opportunities
+- [[Transitions/Knee Pin from X-Guard]] - Complementary passing technique from the same position that sets up step over opportunities
 
-- [[Single Leg X-Guard]] - Related guard position bottom player may transition to when step over is threatened
+- [[Positions/X-Guard/Single Leg X-Guard]] - Related guard position bottom player may transition to when step over is threatened
 
-- [[Headquarters Position]] - Intermediate control position that may be reached during incomplete step over execution
+- [[Positions/Headquarters Position]] - Intermediate control position that may be reached during incomplete step over execution
 
-- [[Standing Escape from X-Guard]] - Alternative approach to escaping X-Guard that creates different passing angles
+- [[Transitions/Standing Escape from X-Guard]] - Alternative approach to escaping X-Guard that creates different passing angles
 
-- [[Butterfly Guard]] - Recovery position bottom player may reach if step over fails to clear hooks completely
+- [[Positions/Butterfly Guard]] - Recovery position bottom player may reach if step over fails to clear hooks completely
 
 
 </section>

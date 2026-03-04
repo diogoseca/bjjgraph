@@ -180,7 +180,7 @@ description: "How to execute the arm-in guillotine variation from top guillotine
 
 Executing the arm-in guillotine from top position requires recognizing the trapped-arm configuration and making immediate mechanical adjustments. The key distinction from standard guillotine finishing is the grip angle and wrist positioning—the choking arm must be adjusted to drive the blade of the wrist across the front of the throat while the trapped arm compresses the lateral neck structures. Success depends on maintaining heavy top pressure to prevent the opponent from creating the space needed to extract their arm or posture up, while simultaneously driving the elbow toward the ceiling to maximize bilateral compression through the opponent's own trapped shoulder. The arm-in variation rewards technical precision over brute force—when positioned correctly, the finish requires surprisingly little effort because the opponent's own anatomy does half the work.
 
-**From Position**: [[Guillotine Control]] (Top)
+**From Position**: [[Positions/Guillotine Control]] (Top)
 
 </section>
 
@@ -235,8 +235,8 @@ Executing the arm-in guillotine from top position requires recognizing the trapp
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Guillotine Control]] | 25% |
-| Counter | [[Closed Guard]] | 20% |
+| Failure | [[Positions/Guillotine Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -245,10 +245,10 @@ Executing the arm-in guillotine from top position requires recognizing the trapp
 
 ## Opponent Counters
 
-- **Opponent postures up forcefully with their free arm to break choking angle and create space** (Effectiveness: Medium) - Your Response: Sprawl your hips harder while pulling the head down with your choking arm. Use your chest to drive into the back of their head, preventing posture recovery. If they create significant space, follow by walking your hips forward and re-establishing heavy top pressure before they can fully extend. → Leads to [[Guillotine Control]]
-- **Opponent attempts to extract the trapped arm by turning toward the choking arm and circling their hips** (Effectiveness: High) - Your Response: Increase hip pressure on the trapped-arm side while elevating your choking elbow higher. If the arm begins sliding out, immediately decide: increase torque to re-trap it, or let the arm clear and transition to a standard high-elbow guillotine. Do not chase a half-trapped arm—commit to one configuration. → Leads to [[Guillotine Control]]
-- **Opponent drives forward aggressively to stack and walks to the choking-arm side to reduce compression angle** (Effectiveness: Medium) - Your Response: Use their forward pressure against them by sitting to your hip on the non-choking side and pulling to closed guard while maintaining the grip. The transition to guard often tightens the choke as their forward momentum feeds into your body extension. Alternatively, backstep and re-establish top position with adjusted angle. → Leads to [[Guillotine Control]]
-- **Opponent pulls you into closed guard while tucking chin and applying Von Flue shoulder pressure** (Effectiveness: High) - Your Response: If they pull you into guard, immediately elevate your elbow higher and adjust your wrist angle to attack behind their chin tuck. Walk your hips away from the Von Flue pressure side. If the Von Flue pressure becomes significant, release the guillotine and posture up to address the guard position rather than risk losing consciousness to the counter-choke. → Leads to [[Closed Guard]]
+- **Opponent postures up forcefully with their free arm to break choking angle and create space** (Effectiveness: Medium) - Your Response: Sprawl your hips harder while pulling the head down with your choking arm. Use your chest to drive into the back of their head, preventing posture recovery. If they create significant space, follow by walking your hips forward and re-establishing heavy top pressure before they can fully extend. → Leads to [[Positions/Guillotine Control]]
+- **Opponent attempts to extract the trapped arm by turning toward the choking arm and circling their hips** (Effectiveness: High) - Your Response: Increase hip pressure on the trapped-arm side while elevating your choking elbow higher. If the arm begins sliding out, immediately decide: increase torque to re-trap it, or let the arm clear and transition to a standard high-elbow guillotine. Do not chase a half-trapped arm—commit to one configuration. → Leads to [[Positions/Guillotine Control]]
+- **Opponent drives forward aggressively to stack and walks to the choking-arm side to reduce compression angle** (Effectiveness: Medium) - Your Response: Use their forward pressure against them by sitting to your hip on the non-choking side and pulling to closed guard while maintaining the grip. The transition to guard often tightens the choke as their forward momentum feeds into your body extension. Alternatively, backstep and re-establish top position with adjusted angle. → Leads to [[Positions/Guillotine Control]]
+- **Opponent pulls you into closed guard while tucking chin and applying Von Flue shoulder pressure** (Effectiveness: High) - Your Response: If they pull you into guard, immediately elevate your elbow higher and adjust your wrist angle to attack behind their chin tuck. Walk your hips away from the Von Flue pressure side. If the Von Flue pressure becomes significant, release the guillotine and posture up to address the guard position rather than risk losing consciousness to the counter-choke. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

@@ -158,7 +158,7 @@ The most effective defense operates at the prevention layer. Stripping or neutra
 
 Understanding the biomechanics of this attack reveals its defensive vulnerabilities. The technique requires forward momentum from the top player to generate the rolling force. By denying forward weight commitment through wide base positioning and hip-back posture, you remove the mechanical energy the bottom player needs. The decision point occurs within the first quarter of the roll - this is where your reaction determines the outcome, and any hesitation or half-commitment guarantees the worst result.
 
-**Opponent's Starting Position**: [[Jailbreak]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Jailbreak]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Understanding the biomechanics of this attack reveals its defensive vulnerabilit
 ### 1. Strip the underhook by driving whizzer pressure and pummeling to overhook control before the roll initiates
 
 - **When to use**: When you feel the bottom player establishing a deep underhook but before they begin inverting - this is the highest-percentage prevention window
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Bottom player loses the mechanical connection required for jailbreak, returning to standard half guard battle where you maintain top position with overhook control
 - **Risk**: If the underhook is already deep and the bottom player has strong shoulder positioning, the pummeling attempt may create space they exploit for guard recovery
 
 ### 2. Flatten the bottom player with heavy crossface and shoulder pressure, driving their shoulders to the mat to remove inversion space
 
 - **When to use**: When the bottom player has the underhook but has not yet begun the rolling motion - heavy pressure removes the space needed for hip generation
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Bottom player is pinned flat with no space to invert, forcing them to abandon jailbreak and fight for frames to re-establish guard structure
 - **Risk**: Committing weight forward for flattening pressure is the exact condition the bottom player needs for the jailbreak roll - if they time it correctly, your pressure fuels their escape
 
 ### 3. Disengage by pulling hips back and posting hands wide to base out, conceding turtle position rather than exposing your back
 
 - **When to use**: When the roll has already begun and the bottom player has achieved rotational momentum - this is the damage-control option when prevention has failed
-- **Targets**: [[Jailbreak]]
+- **Targets**: [[Positions/Jailbreak]]
 - **If successful**: Bottom player reaches turtle but you maintain top position with ability to attack front headlock, back re-take, or reset to half guard top
 - **Risk**: Conceding turtle gives the bottom player a positional improvement and initiative to work turtle escapes or stand-up sequences
 
 ### 4. Follow the roll with committed hip sprawl, driving your hips to the mat while maintaining chest connection to prevent back exposure
 
 - **When to use**: When the roll begins but you believe you can maintain chest-to-back contact through the rotation by sprawling hard and staying heavy
-- **Targets**: [[Jailbreak]]
+- **Targets**: [[Positions/Jailbreak]]
 - **If successful**: You ride through the roll maintaining top pressure, ending in turtle control or side control without exposing your back
 - **Risk**: If your hip sprawl is too slow or the bottom player accelerates faster than expected, you end up giving your back during the chase - the worst possible outcome
 
@@ -228,11 +228,11 @@ Understanding the biomechanics of this attack reveals its defensive vulnerabilit
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Strip the underhook early through whizzer pressure and pummeling before the bottom player can initiate the rolling motion. Without the underhook connection, the jailbreak cannot function and the position resets to standard half guard where you maintain top control.
 
-### → [[Jailbreak]]
+### → [[Positions/Jailbreak]]
 
 When prevention fails and the roll begins, disengage by pulling hips back and basing wide to concede turtle rather than giving up back control. Accept the positional concession of turtle as significantly better than the alternative of losing your back.
 

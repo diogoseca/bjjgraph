@@ -21,7 +21,7 @@ This technique represents a fundamental shift in strategic approach during the d
 
 From a positional systems perspective, the snap down connects the half guard passing game to the front headlock submission system, unlocking pathways to guillotines, anacondas, darces, and back takes that are unavailable from the dogfight itself. This makes it a high-value transitional technique that converts a neutral scramble into dominant offensive control, particularly effective in no-gi grappling where collar tie and head control mechanics are essential foundational skills.
 
-**From Position**: [[Dogfight Position]] (Top)
+**From Position**: [[Positions/Dogfight Position]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ From a positional systems perspective, the snap down connects the half guard pas
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 45% |
-| Failure | [[Dogfight Position]] | 35% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Front Headlock]] | 45% |
+| Failure | [[Positions/Dogfight Position]] | 35% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -191,27 +191,27 @@ The snap down from dogfight serves as a critical bridge between the half guard p
 ## Related Techniques
 
 
-- [[Dogfight Position]] - Starting position where the snap down is initiated from the top player's perspective during kneeling underhook battle
+- [[Positions/Dogfight Position]] - Starting position where the snap down is initiated from the top player's perspective during kneeling underhook battle
 
-- [[Front Headlock]] - Primary target position achieved upon successful execution of the snap down technique
+- [[Positions/Front Headlock]] - Primary target position achieved upon successful execution of the snap down technique
 
-- [[Half Guard]] - Counter outcome position where attacker may end up if opponent capitalizes on forward commitment during snap attempt
+- [[Positions/Half Guard]] - Counter outcome position where attacker may end up if opponent capitalizes on forward commitment during snap attempt
 
-- [[Crossface from Dogfight]] - Complementary technique from dogfight top that pairs with snap down to create multi-directional attacking pressure
+- [[Transitions/Crossface from Dogfight]] - Complementary technique from dogfight top that pairs with snap down to create multi-directional attacking pressure
 
-- [[Re-flatten from Dogfight]] - Alternative dogfight top technique that drives opponent backward, contrasting with the snap down's forward pulling attack
+- [[Transitions/Re-flatten from Dogfight]] - Alternative dogfight top technique that drives opponent backward, contrasting with the snap down's forward pulling attack
 
-- [[Forward Drive Sweep from Dogfight]] - Bottom player's primary offensive threat that creates the forward pressure the snap down exploits
+- [[Transitions/Forward Drive Sweep from Dogfight]] - Bottom player's primary offensive threat that creates the forward pressure the snap down exploits
 
-- [[Dogfight Sweep]] - Bottom player sweep attempt that may be disrupted by threatening the snap down as a preemptive counter
+- [[Transitions/Dogfight Sweep]] - Bottom player sweep attempt that may be disrupted by threatening the snap down as a preemptive counter
 
-- [[Anaconda Setup]] - Follow-up submission entry available once front headlock is established after successful snap down
+- [[Transitions/Anaconda Setup]] - Follow-up submission entry available once front headlock is established after successful snap down
 
-- [[Guillotine Control]] - Submission control position accessible from front headlock after the snap down breaks opponent's posture
+- [[Positions/Guillotine Control]] - Submission control position accessible from front headlock after the snap down breaks opponent's posture
 
-- [[Turtle]] - Alternative outcome where opponent may collapse to turtle rather than full front headlock if snap is partially defended
+- [[Positions/Turtle]] - Alternative outcome where opponent may collapse to turtle rather than full front headlock if snap is partially defended
 
-- [[Arm Triangle from Front Headlock]] - Submission transition available from front headlock after establishing control via the snap down
+- [[Transitions/Arm Triangle from Front Headlock]] - Submission transition available from front headlock after establishing control via the snap down
 
 
 </section>

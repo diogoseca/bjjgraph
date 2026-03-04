@@ -208,25 +208,25 @@ Understanding the position's relationship to the broader passing game is essenti
 
 ## Available Attacks
 
-### [[Knee Slice from Half]] (38% of attempts)
+### [[Transitions/Knee Slice from Half]] (38% of attempts)
 
-### [[Crossface Pass]] (15% of attempts)
+### [[Transitions/Crossface Pass]] (15% of attempts)
 
-### [[Underhook Pass]] (11% of attempts)
+### [[Transitions/Underhook Pass]] (11% of attempts)
 
-### [[Back Take]] (9% of attempts)
+### [[Transitions/Back Take]] (9% of attempts)
 
-### [[Arm Triangle Setup]] (9% of attempts)
+### [[Transitions/Arm Triangle Setup]] (9% of attempts)
 
-### [[Half Guard Pass]] (9% of attempts)
+### [[Transitions/Half Guard Pass]] (9% of attempts)
 
-### [[Kimura]] (5% of attempts)
+### [[Transitions/Kimura]] (5% of attempts)
 
-### [[Complete Pass from Flattened Half]] (2% of attempts)
+### [[Transitions/Complete Pass from Flattened Half]] (2% of attempts)
 
-### [[Knee Slide from Flattened Half]] (1% of attempts)
+### [[Transitions/Knee Slide from Flattened Half]] (1% of attempts)
 
-### [[Cross Face Pass from Flattened Half]] (1% of attempts)
+### [[Transitions/Cross Face Pass from Flattened Half]] (1% of attempts)
 
 
 
@@ -237,18 +237,18 @@ Understanding the position's relationship to the broader passing game is essenti
 ## Decision Making from This Position
 
 **If opponent maintains leg hook but loses all upper body frames and structure:**
-- Execute **[[Knee Slice from Half]]** → [[Side Control]] (Probability: 65%)
-- Execute **[[Crossface Pass]]** → [[Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/Crossface Pass]]** → [[Positions/Side Control]] (Probability: 55%)
 
 
 **If opponent turns away to escape crossface pressure or prevent pass completion:**
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 50%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 40%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 40%)
 
 
 **If opponent extends arm to establish underhook or create frame against crossface:**
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 40%)
-- Execute **[[Arm Triangle Setup]]** → [[Arm Triangle]] (Probability: 45%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 40%)
+- Execute **[[Transitions/Arm Triangle Setup]]** → [[Transitions/Arm Triangle]] (Probability: 45%)
 
 
 
@@ -370,13 +370,13 @@ Begin in flattened half guard and flow through your passing sequences - knee sli
 
 ## Related Positions and Techniques
 
-- **[[Half Guard]]** - Parent position where establishing flattening control is primary objective
-- **[[Side Control]]** - Target position achieved after completing pass from flattened half guard
-- **[[Knee Shield Half Guard]]** - Position opponent attempts to recover when you lose pressure control
-- **[[Knee Slice from Half]]** - Primary passing technique executed from flattened half guard control
-- **[[Crossface Pass]]** - High-percentage pass using crossface pressure mechanics
-- **[[Underhook Pass]]** - Alternative passing approach utilizing underhook control
-- **[[Back Control]]** - Position achieved when opponent turns away during pass attempts
+- **[[Positions/Half Guard]]** - Parent position where establishing flattening control is primary objective
+- **[[Positions/Side Control]]** - Target position achieved after completing pass from flattened half guard
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Position opponent attempts to recover when you lose pressure control
+- **[[Transitions/Knee Slice from Half]]** - Primary passing technique executed from flattened half guard control
+- **[[Transitions/Crossface Pass]]** - High-percentage pass using crossface pressure mechanics
+- **[[Transitions/Underhook Pass]]** - Alternative passing approach utilizing underhook control
+- **[[Positions/Back Control]]** - Position achieved when opponent turns away during pass attempts
 
 
 </section>

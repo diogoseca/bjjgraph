@@ -156,7 +156,7 @@ The defender's role in the Back Take from Armbar requires recognizing when the a
 
 The transition window between armbar control and back control represents a brief moment of reduced control where the attacker is between grip configurations. An alert defender can exploit this gap to create distance, block hooks, or reverse the positional exchange entirely. The key is recognizing the attacker's intent shift through tactile and visual cues, then applying the appropriate defensive response before the attacker can establish the seatbelt grip and hooks that make back control escape significantly more difficult.
 
-**Opponent's Starting Position**: [[Armbar Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Armbar Control]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ The transition window between armbar control and back control represents a brief
 ### 1. Stop rotation and flatten back to mat to deny back access
 
 - **When to use**: As soon as you feel the attacker release the leg across your face and shift grip to your shoulder, indicating back take intent
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: You return to standard armbar defense position where the attacker must restart their attack sequence from armbar control
 - **Risk**: If the attacker has already established the seatbelt, stopping rotation may be insufficient and you remain in armbar control with reduced defensive options
 
 ### 2. Explosive hip escape away from attacker during grip transition
 
 - **When to use**: During the brief window when the attacker has released armbar grips but has not yet established seatbelt control, typically as they shift from wrist to shoulder grip
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough distance to disengage from both the armbar and the back take attempt, recovering to half guard with the attacker on bottom
 - **Risk**: If mistimed or too slow, the attacker follows your hip escape and secures back control during your movement
 
 ### 3. Block hook insertion by pinching elbows to hips and turtling tight
 
 - **When to use**: When the attacker has already committed to the back take and you cannot stop your rotation, focus on preventing hook establishment
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: You deny the attacker full back control hooks, leaving them in a seatbelt-only position with turtle defense options available
 - **Risk**: The attacker may use alternative hook entries or transition to crucifix if your arms are pinched too tight to your body
 
 ### 4. Catch and control the threading leg before hook is established
 
 - **When to use**: When you feel the attacker's leg beginning to thread around your hip, trap it with your hands before the hook seats deep inside your thigh
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You prevent the first hook from establishing, disrupting the entire back take sequence and creating an opportunity to escape during the attacker's positional confusion
 - **Risk**: Reaching for the leg removes your hand from armbar defense, potentially exposing your arm if the attacker reverts to the armbar
 
@@ -225,11 +225,11 @@ The transition window between armbar control and back control represents a brief
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a powerful hip escape during the attacker's grip transition window when they have released armbar grips but have not yet established seatbelt control. Use the momentary gap in control to shrimp away forcefully, create distance, and recover to half guard top position where you have significantly better defensive and offensive options.
 
-### → [[Armbar Control]]
+### → [[Positions/Armbar Control]]
 
 Recognize the back take attempt early through grip and weight changes, then immediately stop your own rotation and flatten your back to the mat. By denying the attacker access to your back, you force them to return to standard armbar control where you can resume conventional armbar escape techniques with their transition having been neutralized.
 

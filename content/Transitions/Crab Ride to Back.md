@@ -21,7 +21,7 @@ Historically developed and refined through wrestling's emphasis on top control, 
 
 What makes this transition particularly effective is the combination of mechanical advantage and limited defensive options available to the bottom player. From the Crab Ride, the top player controls crucial aspects of their opponent's base and posture, making it extremely difficult to resist the back take. Understanding proper weight distribution, hook placement, and timing of the roll or slide to back control separates successful execution from defensive stalemates. This technique exemplifies the principle of positional dominance leading to back control, one of the most advantageous positions in all of grappling.
 
-**From Position**: [[Crab Ride]] (Top)
+**From Position**: [[Positions/Crab Ride]] (Top)
 **Success Rate**: 72%
 
 </section>
@@ -32,9 +32,9 @@ What makes this transition particularly effective is the combination of mechanic
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 72% |
-| Failure | [[Crab Ride]] | 18% |
-| Counter | [[Crab Ride]] | 10% |
+| Success | [[Positions/Back Control]] | 72% |
+| Failure | [[Positions/Crab Ride]] | 18% |
+| Counter | [[Positions/Crab Ride]] | 10% |
 
 
 </section>
@@ -197,29 +197,29 @@ From a competition and training perspective, the Crab Ride to Back transition re
 ## Related Techniques
 
 
-- [[Crab Ride]] - Starting position - the control platform from which this back take is executed
+- [[Positions/Crab Ride]] - Starting position - the control platform from which this back take is executed
 
-- [[Back Control]] - Target position - the dominant 4-point control achieved through successful execution
+- [[Positions/Back Control]] - Target position - the dominant 4-point control achieved through successful execution
 
-- [[Crucifix]] - Alternative transition - different attacking path when opponent exposes their near arm
+- [[Positions/Crucifix]] - Alternative transition - different attacking path when opponent exposes their near arm
 
-- [[Seat Belt Control Back]] - Ending grip configuration - the harness control established during this transition
+- [[Positions/Back Control/Seat Belt Control Back]] - Ending grip configuration - the harness control established during this transition
 
-- [[Rear Naked Choke]] - Follow-up submission - primary finishing technique from achieved back control
+- [[Transitions/Rear Naked Choke]] - Follow-up submission - primary finishing technique from achieved back control
 
-- [[Truck]] - Alternative path - intermediate position when direct back take is defended via far leg control
+- [[Positions/Twister Control/Truck]] - Alternative path - intermediate position when direct back take is defended via far leg control
 
-- [[Kimura from Turtle]] - Complementary attack - submission threat that creates back take opportunities
+- [[Submissions/Kimura from Turtle]] - Complementary attack - submission threat that creates back take opportunities
 
-- [[Armbar from Back]] - Follow-up submission - alternative finishing option from back control
+- [[Submissions/Armbar from Back]] - Follow-up submission - alternative finishing option from back control
 
-- [[Bow and Arrow Choke]] - Follow-up submission - high-percentage finish from back control in gi
+- [[Transitions/Bow and Arrow Choke]] - Follow-up submission - high-percentage finish from back control in gi
 
-- [[Back Defense Protocol]] - Counter system - defensive framework opponents use to defend this transition
+- [[Systems/Back Defense Protocol]] - Counter system - defensive framework opponents use to defend this transition
 
-- [[Body Triangle]] - Alternative leg control - enhanced hip control option after securing back position
+- [[Positions/Back Control/Body Triangle]] - Alternative leg control - enhanced hip control option after securing back position
 
-- [[Crucifix from Turtle]] - Branching transition - alternative attack when near arm becomes available during crab ride
+- [[Transitions/Crucifix from Turtle]] - Branching transition - alternative attack when near arm becomes available during crab ride
 
 
 </section>

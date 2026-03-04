@@ -180,7 +180,7 @@ description: "Execute the Standing Escape from Single Leg X-Guard with proper ba
 
 As the attacker executing the Standing Escape from SLX, your primary objective is complete disengagement from the bottom player's leg entanglement to return to neutral standing. This requires a disciplined, sequential approach that prioritizes base stability over speed. The escape begins with establishing an unshakeable foundation through your free leg, progresses through systematic removal of the opponent's controlling hooks, and concludes with smooth extraction of the trapped leg. Throughout the entire sequence, you must maintain constant awareness of sweep angles and resist the temptation to rush, which creates the off-balance moments your opponent is actively hunting for. The technique rewards patience and structural discipline, relying on posture and alignment rather than explosive athleticism.
 
-**From Position**: [[Single Leg X-Guard]] (Top)
+**From Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ As the attacker executing the Standing Escape from SLX, your primary objective i
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Single Leg X-Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/X-Guard/Single Leg X-Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -244,11 +244,11 @@ As the attacker executing the Standing Escape from SLX, your primary objective i
 
 ## Opponent Counters
 
-- **Bottom player re-hooks hip immediately after top hook is cleared** (Effectiveness: High) - Your Response: Maintain constant downward pressure on their foot with your controlling hand even after clearing the hook. Keep your hip turned slightly away from their hooking foot to deny the angle needed for re-insertion. If they do re-hook, repeat the clearing process rather than trying to force extraction through an active hook. → Leads to [[Single Leg X-Guard]]
-- **Bottom player extends legs for sweep as you begin extracting trapped leg** (Effectiveness: High) - Your Response: Immediately widen your base with the free leg and lower your hips by bending your knee more deeply. Post your near hand on the mat if needed for emergency stability. Pause the extraction and re-stabilize before continuing. The sweep requires momentum, so stopping your movement removes their timing window. → Leads to [[Half Guard]]
-- **Bottom player transitions to X-Guard by inserting second hook during escape** (Effectiveness: Medium) - Your Response: Recognize the second hook insertion attempt early and block it with your free hand before it reaches behind your other knee. If they achieve X-Guard, you face a different escape problem. Speed of hook clearing is critical - do not allow a leisurely transition to a stronger guard position. → Leads to [[Single Leg X-Guard]]
-- **Bottom player sits up and grabs ankle or pants during leg extraction** (Effectiveness: Medium) - Your Response: Use a sharp push on their shoulder or chest with your free hand to drive them back down as you extract. If they secure the ankle, circle your foot to break the grip rather than pulling straight back. Maintain backward hip pressure to keep them at maximum distance where their reaching grip has minimal strength. → Leads to [[Single Leg X-Guard]]
-- **Bottom player follows your retreating leg by scooting hips forward to maintain connection** (Effectiveness: Medium) - Your Response: Match their forward movement with faster backward stepping to maintain the separation gap. Use your hands on their knees or shins to create a frame that prevents them from closing distance. If they are aggressively following, consider pushing their knees to one side to flatten them before continuing extraction. → Leads to [[Single Leg X-Guard]]
+- **Bottom player re-hooks hip immediately after top hook is cleared** (Effectiveness: High) - Your Response: Maintain constant downward pressure on their foot with your controlling hand even after clearing the hook. Keep your hip turned slightly away from their hooking foot to deny the angle needed for re-insertion. If they do re-hook, repeat the clearing process rather than trying to force extraction through an active hook. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Bottom player extends legs for sweep as you begin extracting trapped leg** (Effectiveness: High) - Your Response: Immediately widen your base with the free leg and lower your hips by bending your knee more deeply. Post your near hand on the mat if needed for emergency stability. Pause the extraction and re-stabilize before continuing. The sweep requires momentum, so stopping your movement removes their timing window. → Leads to [[Positions/Half Guard]]
+- **Bottom player transitions to X-Guard by inserting second hook during escape** (Effectiveness: Medium) - Your Response: Recognize the second hook insertion attempt early and block it with your free hand before it reaches behind your other knee. If they achieve X-Guard, you face a different escape problem. Speed of hook clearing is critical - do not allow a leisurely transition to a stronger guard position. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Bottom player sits up and grabs ankle or pants during leg extraction** (Effectiveness: Medium) - Your Response: Use a sharp push on their shoulder or chest with your free hand to drive them back down as you extract. If they secure the ankle, circle your foot to break the grip rather than pulling straight back. Maintain backward hip pressure to keep them at maximum distance where their reaching grip has minimal strength. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
+- **Bottom player follows your retreating leg by scooting hips forward to maintain connection** (Effectiveness: Medium) - Your Response: Match their forward movement with faster backward stepping to maintain the separation gap. Use your hands on their knees or shins to create a frame that prevents them from closing distance. If they are aggressively following, consider pushing their knees to one side to flatten them before continuing extraction. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
 
 
 </section>

@@ -182,7 +182,7 @@ As the attacker executing the Stack from Chill Dog, your objective is to use sus
 
 The key insight is that you are not fighting against the opponent's muscular strength but rather exploiting the biomechanical limitations of the position. No matter how strong the defensive frame, there is a point where forward loading exceeds the ability of the hands and knees to maintain base. Your job is to reach that tipping point through patient, sustained pressure rather than explosive bursts that the opponent can time and counter. Think of your body as a slowly advancing wall that the opponent cannot escape from or push back against.
 
-**From Position**: [[Chill Dog]] (Top)
+**From Position**: [[Positions/Rubber Guard/Chill Dog]] (Top)
 
 </section>
 
@@ -234,9 +234,9 @@ The key insight is that you are not fighting against the opponent's muscular str
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Failure | [[Chill Dog]] | 35% |
-| Counter | [[Closed Guard]] | 20% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Failure | [[Positions/Rubber Guard/Chill Dog]] | 35% |
+| Counter | [[Positions/Closed Guard]] | 20% |
 
 
 </section>
@@ -245,10 +245,10 @@ The key insight is that you are not fighting against the opponent's muscular str
 
 ## Opponent Counters
 
-- **Opponent widens base and posts hands wide to resist forward pressure** (Effectiveness: Medium) - Your Response: Shift to a perpendicular angle and use the walk-around stack variant, or take advantage of the widened base to insert a near hook for back control since the elbow-to-knee frame is now open. → Leads to [[Chill Dog]]
-- **Opponent executes Granby roll using stacking momentum to invert and recover guard** (Effectiveness: High) - Your Response: Follow the roll tightly and work to establish top position inside their guard rather than allowing them to create distance. If you anticipate the roll, stop forward pressure momentarily and switch to hook insertion as they begin rotating. → Leads to [[Closed Guard]]
-- **Opponent sits through to butterfly guard by turning hips and establishing hooks** (Effectiveness: Medium) - Your Response: As they turn, drive your near knee across their thigh to prevent the butterfly hook from establishing. Use the turning motion to advance to half guard top by catching their far leg before they can recover full guard structure. → Leads to [[Closed Guard]]
-- **Opponent explodes backward with hips to create separation and reset turtle position** (Effectiveness: Medium) - Your Response: Maintain hip control with your hand on their hip crease to prevent full separation. If they do create space, immediately re-establish chest contact and restart the stacking sequence from a more committed position. Consider switching to a different attack like front headlock if they repeatedly reset. → Leads to [[Chill Dog]]
+- **Opponent widens base and posts hands wide to resist forward pressure** (Effectiveness: Medium) - Your Response: Shift to a perpendicular angle and use the walk-around stack variant, or take advantage of the widened base to insert a near hook for back control since the elbow-to-knee frame is now open. → Leads to [[Positions/Rubber Guard/Chill Dog]]
+- **Opponent executes Granby roll using stacking momentum to invert and recover guard** (Effectiveness: High) - Your Response: Follow the roll tightly and work to establish top position inside their guard rather than allowing them to create distance. If you anticipate the roll, stop forward pressure momentarily and switch to hook insertion as they begin rotating. → Leads to [[Positions/Closed Guard]]
+- **Opponent sits through to butterfly guard by turning hips and establishing hooks** (Effectiveness: Medium) - Your Response: As they turn, drive your near knee across their thigh to prevent the butterfly hook from establishing. Use the turning motion to advance to half guard top by catching their far leg before they can recover full guard structure. → Leads to [[Positions/Closed Guard]]
+- **Opponent explodes backward with hips to create separation and reset turtle position** (Effectiveness: Medium) - Your Response: Maintain hip control with your hand on their hip crease to prevent full separation. If they do create space, immediately re-establish chest contact and restart the stacking sequence from a more committed position. Consider switching to a different attack like front headlock if they repeatedly reset. → Leads to [[Positions/Rubber Guard/Chill Dog]]
 
 
 </section>

@@ -22,8 +22,8 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 **Category**: Joint Lock
 **Type**: Ankle Lock
 **Target Area**: Ankle joint, Achilles tendon, and foot ligaments
-**Starting Position**: [[Ashi Garami]]
-**From Position**: [[Straight Ankle Lock Control]] (Top)
+**Starting Position**: [[Positions/Ashi Garami]]
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -77,8 +77,8 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 45% |
-| Failure | [[Straight Ankle Lock Control]] | 45% |
-| Counter | [[Open Guard]] | 10% |
+| Failure | [[Positions/Straight Ankle Lock Control]] | 45% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -230,14 +230,14 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 
 ## From Which Positions?
 
-- [[Ashi Garami]]
-- [[Inside Ashi-Garami]]
-- [[50-50 Guard]]
-- [[Single Leg X-Guard]]
-- [[Butterfly Guard]]
-- [[Half Guard]]
-- [[De La Riva Guard]]
-- [[Straight Ankle Lock Control]]
+- [[Positions/Ashi Garami]]
+- [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- [[Positions/Ashi Garami/50-50 Guard]]
+- [[Positions/X-Guard/Single Leg X-Guard]]
+- [[Positions/Butterfly Guard]]
+- [[Positions/Half Guard]]
+- [[Positions/De La Riva Guard]]
+- [[Positions/Straight Ankle Lock Control]]
 
 
 </section>
@@ -246,15 +246,15 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 
 ## Related Submissions
 
-- [[Heel Hook]]
-- [[Inside Heel Hook]]
-- [[Outside Heel Hook]]
-- [[Toe Hold]]
-- [[Kneebar]]
-- [[Achilles Lock]]
-- [[Calf Slicer]]
-- [[Estima Lock]]
-- [[Kneebar from Guard]]
+- [[Transitions/Heel Hook]]
+- [[Submissions/Inside Heel Hook]]
+- [[Transitions/Outside Heel Hook]]
+- [[Transitions/Toe Hold]]
+- [[Transitions/Kneebar]]
+- [[Submissions/Achilles Lock]]
+- [[Transitions/Calf Slicer]]
+- [[Positions/Estima Lock]]
+- [[Submissions/Kneebar from Guard]]
 
 
 </section>
@@ -263,16 +263,16 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 
 ## Additional Related Content
 
-- [[Ashi Garami]] - Primary control position for straight ankle lock application
-- [[Inside Ashi-Garami]] - Most common variation of Ashi Garami for this submission
-- [[Heel Hook]] - Primary follow-up submission when opponent defends by internal knee rotation
-- [[Toe Hold]] - Alternative ankle attack when opponent turns knee inward to defend
-- [[Kneebar]] - Leg attack targeting different joint, often chained with straight ankle lock
-- [[Single Leg X-Guard]] - Common entry position that transitions into leg entanglement for ankle lock
-- [[Leg Entanglement]] - Fundamental principle underlying all leg lock positions and controls
-- [[50-50 Guard]] - Symmetrical leg entanglement offering mutual straight ankle lock opportunities
-- [[Straight Ankle Lock Control]] - Control position variant used when securing the finish
-- [[Open Guard]] - Position defender may recover to when successfully escaping the ankle lock attempt
+- [[Positions/Ashi Garami]] - Primary control position for straight ankle lock application
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Most common variation of Ashi Garami for this submission
+- [[Transitions/Heel Hook]] - Primary follow-up submission when opponent defends by internal knee rotation
+- [[Transitions/Toe Hold]] - Alternative ankle attack when opponent turns knee inward to defend
+- [[Transitions/Kneebar]] - Leg attack targeting different joint, often chained with straight ankle lock
+- [[Positions/X-Guard/Single Leg X-Guard]] - Common entry position that transitions into leg entanglement for ankle lock
+- [[Positions/Leg Entanglement]] - Fundamental principle underlying all leg lock positions and controls
+- [[Positions/Ashi Garami/50-50 Guard]] - Symmetrical leg entanglement offering mutual straight ankle lock opportunities
+- [[Positions/Straight Ankle Lock Control]] - Control position variant used when securing the finish
+- [[Positions/Open Guard]] - Position defender may recover to when successfully escaping the ankle lock attempt
 
 
 </section>

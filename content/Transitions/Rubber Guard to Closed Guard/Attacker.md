@@ -180,7 +180,7 @@ description: "Master the Rubber Guard to Closed Guard transition from the bottom
 
 As the bottom player executing the Rubber Guard to Closed Guard transition, your objective is to smoothly reset from the specialized rubber guard position to the foundational closed guard while maintaining continuous posture control over your opponent. This transition requires precise coordination between grip replacement and leg repositioning—the two actions must overlap so there is never a moment where the opponent has freedom to recover posture or open the guard. The attacker must think of this as a positional withdrawal that preserves offensive capability rather than a retreat, immediately establishing closed guard attack sequences upon completion. Success depends on timing the transition during moments of relative stability, establishing strong replacement grips before releasing rubber guard control, and executing the leg slide with deliberate smoothness rather than rushed urgency.
 
-**From Position**: [[Rubber Guard]] (Bottom)
+**From Position**: [[Positions/Rubber Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the bottom player executing the Rubber Guard to Closed Guard transition, your
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Rubber Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Rubber Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the bottom player executing the Rubber Guard to Closed Guard transition, your
 
 ## Opponent Counters
 
-- **Explosive posture recovery during leg repositioning, driving head and chest upward while the elevated leg is mid-slide** (Effectiveness: High) - Your Response: Maintain maximum downward pull on collar and head grips throughout the transition. If posture recovery begins, abort the leg slide and re-establish rubber guard leg position rather than completing the transition against recovered posture → Leads to [[Open Guard]]
-- **Aggressive grip stripping targeting the replacement collar and head grips during the transition window** (Effectiveness: Medium) - Your Response: Establish multiple simultaneous contact points rather than relying on a single grip. Use legs to maintain pressure while re-gripping, and if grips are stripped, immediately cross ankles to close guard before addressing grip control → Leads to [[Open Guard]]
-- **Forward stack pressure pinning the elevated leg in high position and preventing the downward slide** (Effectiveness: Medium) - Your Response: Hip escape laterally to create the angle needed to slide the leg past the stacking pressure. Use the forward pressure to your advantage by framing on their shoulder with the free hand to create space for leg movement → Leads to [[Rubber Guard]]
-- **Rapid arm extraction timed with the moment of reduced leg control during the transition** (Effectiveness: Medium) - Your Response: Accelerate the ankle crossing to establish closed guard immediately, accepting imperfect positioning. Once closed guard is locked, use the newly available offensive options to address the opponent's improved arm position → Leads to [[Open Guard]]
+- **Explosive posture recovery during leg repositioning, driving head and chest upward while the elevated leg is mid-slide** (Effectiveness: High) - Your Response: Maintain maximum downward pull on collar and head grips throughout the transition. If posture recovery begins, abort the leg slide and re-establish rubber guard leg position rather than completing the transition against recovered posture → Leads to [[Positions/Open Guard]]
+- **Aggressive grip stripping targeting the replacement collar and head grips during the transition window** (Effectiveness: Medium) - Your Response: Establish multiple simultaneous contact points rather than relying on a single grip. Use legs to maintain pressure while re-gripping, and if grips are stripped, immediately cross ankles to close guard before addressing grip control → Leads to [[Positions/Open Guard]]
+- **Forward stack pressure pinning the elevated leg in high position and preventing the downward slide** (Effectiveness: Medium) - Your Response: Hip escape laterally to create the angle needed to slide the leg past the stacking pressure. Use the forward pressure to your advantage by framing on their shoulder with the free hand to create space for leg movement → Leads to [[Positions/Rubber Guard]]
+- **Rapid arm extraction timed with the moment of reduced leg control during the transition** (Effectiveness: Medium) - Your Response: Accelerate the ankle crossing to establish closed guard immediately, accepting imperfect positioning. Once closed guard is locked, use the newly available offensive options to address the opponent's improved arm position → Leads to [[Positions/Open Guard]]
 
 
 </section>

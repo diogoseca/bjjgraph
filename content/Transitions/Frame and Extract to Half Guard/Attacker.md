@@ -178,7 +178,7 @@ The strategic importance of this escape cannot be overstated - Inside Sankaku re
 
 The transition to Half Guard specifically is chosen because it allows you to immediately establish a knee shield and begin rebuilding your guard structure, rather than scrambling to an undefined open guard position. From Half Guard, you have clear pathways to guard recovery, sweeps, or standing back up - all superior to remaining in leg entanglement danger.
 
-**From Position**: [[Inside Sankaku]] (Bottom)
+**From Position**: [[Positions/Inside Sankaku]] (Bottom)
 
 </section>
 
@@ -229,9 +229,9 @@ The transition to Half Guard specifically is chosen because it allows you to imm
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 65% |
-| Failure | [[Inside Sankaku]] | 25% |
-| Counter | [[Saddle]] | 10% |
+| Success | [[Positions/Half Guard]] | 65% |
+| Failure | [[Positions/Inside Sankaku]] | 25% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 10% |
 
 
 </section>
@@ -240,10 +240,10 @@ The transition to Half Guard specifically is chosen because it allows you to imm
 
 ## Opponent Counters
 
-- **Opponent follows hip escape by advancing hips forward to maintain connection** (Effectiveness: High) - Your Response: Continue generating distance with multiple hip escapes, use free leg to kick their hip away, or transition to Granby roll if they overcommit forward → Leads to [[Inside Sankaku]]
-- **Opponent attacks heel hook before you can create frames** (Effectiveness: High) - Your Response: Tap immediately if submission is locked. If grip is still being established, commit fully to heel protection and deny the grip before attempting frames → Leads to [[Inside Sankaku]]
-- **Opponent transitions to Saddle as you create angle** (Effectiveness: Medium) - Your Response: Recognize the transition early and reset heel protection priorities. Never turn into opponent - continue escaping away even if it means temporary position loss → Leads to [[Saddle]]
-- **Opponent grabs your pants or gi to prevent hip escape** (Effectiveness: Medium) - Your Response: Strip grips using your free hand before attempting hip escape. In no-gi, use wrist control on their gripping hand to clear the obstacle → Leads to [[Inside Sankaku]]
+- **Opponent follows hip escape by advancing hips forward to maintain connection** (Effectiveness: High) - Your Response: Continue generating distance with multiple hip escapes, use free leg to kick their hip away, or transition to Granby roll if they overcommit forward → Leads to [[Positions/Inside Sankaku]]
+- **Opponent attacks heel hook before you can create frames** (Effectiveness: High) - Your Response: Tap immediately if submission is locked. If grip is still being established, commit fully to heel protection and deny the grip before attempting frames → Leads to [[Positions/Inside Sankaku]]
+- **Opponent transitions to Saddle as you create angle** (Effectiveness: Medium) - Your Response: Recognize the transition early and reset heel protection priorities. Never turn into opponent - continue escaping away even if it means temporary position loss → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent grabs your pants or gi to prevent hip escape** (Effectiveness: Medium) - Your Response: Strip grips using your free hand before attempting hip escape. In no-gi, use wrist control on their gripping hand to clear the obstacle → Leads to [[Positions/Inside Sankaku]]
 
 
 </section>

@@ -180,7 +180,7 @@ description: "Complete guide to executing the Overhook to Closed Guard transitio
 
 As the attacker executing the Overhook to Closed Guard transition, your objective is to convert your existing overhook arm control into a fully locked closed guard by walking your hips into position and crossing your ankles behind the opponent's back. This is fundamentally a guard consolidation technique where you trade the specialized but more vulnerable overhook guard configuration for the broader offensive platform and superior defensive security of closed guard. The overhook itself is your primary tool for executing this transition, as it breaks posture, controls distance, and restricts the opponent's ability to create space during the critical moment of ankle crossing. Success depends on maintaining constant overhook pressure throughout the transition, controlling the opponent's free arm to eliminate their primary escape mechanism, and timing your hip movement to match windows of broken posture.
 
-**From Position**: [[Overhook Guard]] (Bottom)
+**From Position**: [[Positions/Overhook Guard]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ As the attacker executing the Overhook to Closed Guard transition, your objectiv
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Overhook Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Overhook Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ As the attacker executing the Overhook to Closed Guard transition, your objectiv
 
 ## Opponent Counters
 
-- **Opponent explosively postures by driving hips back and straightening their spine against the overhook pull** (Effectiveness: High) - Your Response: Follow their posture by sitting up with them rather than staying flat. If they create distance, immediately attack with hip bump sweep using their upright posture against them, or transition to triangle setup since their arm is still controlled by the overhook. → Leads to [[Overhook Guard]]
-- **Opponent strips overhook by circling their trapped arm out and immediately creating distance with frames** (Effectiveness: High) - Your Response: As the overhook is being stripped, immediately transition your overhook hand to wrist control or collar grip on the same side. Switch to alternative guard retention using feet on hips or collar sleeve guard rather than fighting for a lost overhook grip. → Leads to [[Open Guard]]
-- **Opponent drives forward and stacks your hips attempting to flatten you and prevent hip walking** (Effectiveness: Medium) - Your Response: Use their forward pressure to your advantage by pivoting your hips toward the overhook side. Their drive actually brings their waist closer to your hips, potentially making the closure easier. If they stack hard, redirect momentum into an omoplata or triangle threat from the angle. → Leads to [[Overhook Guard]]
-- **Opponent windshield wipers their legs and circles hips laterally to break the guard closure attempt** (Effectiveness: Medium) - Your Response: Anticipate the lateral movement and time your ankle cross for the moment their hips commit to one direction. Use the overhook to prevent them from completing the full rotation. If they successfully circle, maintain overhook and reset your hip position for another closure attempt. → Leads to [[Open Guard]]
+- **Opponent explosively postures by driving hips back and straightening their spine against the overhook pull** (Effectiveness: High) - Your Response: Follow their posture by sitting up with them rather than staying flat. If they create distance, immediately attack with hip bump sweep using their upright posture against them, or transition to triangle setup since their arm is still controlled by the overhook. → Leads to [[Positions/Overhook Guard]]
+- **Opponent strips overhook by circling their trapped arm out and immediately creating distance with frames** (Effectiveness: High) - Your Response: As the overhook is being stripped, immediately transition your overhook hand to wrist control or collar grip on the same side. Switch to alternative guard retention using feet on hips or collar sleeve guard rather than fighting for a lost overhook grip. → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward and stacks your hips attempting to flatten you and prevent hip walking** (Effectiveness: Medium) - Your Response: Use their forward pressure to your advantage by pivoting your hips toward the overhook side. Their drive actually brings their waist closer to your hips, potentially making the closure easier. If they stack hard, redirect momentum into an omoplata or triangle threat from the angle. → Leads to [[Positions/Overhook Guard]]
+- **Opponent windshield wipers their legs and circles hips laterally to break the guard closure attempt** (Effectiveness: Medium) - Your Response: Anticipate the lateral movement and time your ankle cross for the moment their hips commit to one direction. Use the overhook to prevent them from completing the full rotation. If they successfully circle, maintain overhook and reset your hip position for another closure attempt. → Leads to [[Positions/Open Guard]]
 
 
 </section>

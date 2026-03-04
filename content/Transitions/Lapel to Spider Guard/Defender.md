@@ -158,7 +158,7 @@ The defender's primary objective is to prevent the opponent from completing the 
 
 Successful defense demands recognizing that aggressive forward pressure during the transition window is your strongest tool. The bottom player is temporarily between guard systems—neither fully in lapel guard nor in spider guard—and this transitional vulnerability is exploitable through immediate, committed passing action rather than cautious grip fighting.
 
-**Opponent's Starting Position**: [[Lapel Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ Successful defense demands recognizing that aggressive forward pressure during t
 ### 1. Immediate pressure pass during transition window
 
 - **When to use**: The moment you clear their lapel grip and before their feet reach your biceps—you have approximately one to two seconds
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You bypass the spider guard entirely and achieve a passing position, typically arriving in half guard or side control
 - **Risk**: If you commit forward and they establish even one spider hook, your momentum loads their sweep mechanics
 
 ### 2. Strip sleeve grips before feet establish on biceps
 
 - **When to use**: When you feel their lapel grip weakening and notice them adjusting sleeve grips—attack the grips before the transition completes
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Without sleeve grips the opponent cannot establish spider guard and must reset to a neutral guard position or re-engage lapel
 - **Risk**: Focusing on grip stripping can slow your forward progress, allowing them time to re-establish lapel guard or find alternative grips
 
 ### 3. Pin elbows tight and crowd their hip space
 
 - **When to use**: When their feet begin moving toward your biceps—keep elbows pinched to torso and drive your weight into their hips to deny extension space
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Their feet cannot seat in the bicep pockets and the compressed distance prevents effective spider guard extension, allowing you to initiate a pressure pass
 - **Risk**: Crowding their hips puts you in range for lasso guard entries or closed guard recovery if you do not maintain active passing
 
 ### 4. Circle laterally and change angle during transition
 
 - **When to use**: When you have broken the lapel but they maintain strong sleeve grips—lateral movement disrupts the bilateral symmetry spider guard requires
-- **Targets**: [[Spider Guard]]
+- **Targets**: [[Positions/Spider Guard]]
 - **If successful**: You prevent the symmetrical spider guard structure and force them into a weaker single-sided spider that is easier to pass through
 - **Risk**: Lateral movement without forward pressure can give them time to adjust hip angle and track your movement with their feet
 
@@ -227,11 +227,11 @@ Successful defense demands recognizing that aggressive forward pressure during t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Drive immediate forward pressure the moment the lapel clears, cutting an angle with a knee slice or pressure pass before spider guard establishes. Target the hip on the side where their foot is slower to reach your bicep and commit your weight through that lane.
 
-### → [[Lapel Guard]]
+### → [[Positions/Lapel Guard]]
 
 Strip both sleeve grips during the transition window by using two-on-one grip breaks while maintaining posture. Without sleeve anchors the opponent cannot establish spider guard and is forced to either re-extract the lapel or settle into a neutral open guard that favors your passing.
 

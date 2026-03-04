@@ -160,7 +160,7 @@ The most critical defensive window occurs during the transition phase when the a
 
 Defense against this submission requires understanding both the prevention phase (stopping the triangle from being established) and the survival phase (escaping once the triangle is locked). Prevention focuses on keeping your arms in safe positions, denying the hip angle, and maintaining shoulder pressure against the attacker. Survival focuses on posture creation, trapped arm extraction, and turning into the attacker to convert the rear triangle into a more manageable front triangle position where standard defenses apply.
 
-**Opponent's Starting Position**: [[Back Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control]] (Top)
 
 
 </section>
@@ -199,28 +199,28 @@ Defense against this submission requires understanding both the prevention phase
 ### 1. Posture and turn into attacker before triangle locks
 
 - **When to use**: During the transition phase when attacker shifts hips and attempts to thread leg over your shoulder - the highest percentage defensive window
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Convert the position to front-facing where you end up in their closed guard or open guard, eliminating the back control advantage entirely
 - **Risk**: If you turn too late and the triangle catches during rotation, you may end up in a tighter front triangle with less escape opportunity
 
 ### 2. Strip trapped arm to hip and extract from triangle
 
 - **When to use**: When triangle is partially locked but attacker has not yet achieved full perpendicular angle - there is still space to work the arm free
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Remove the arm from the triangle configuration, reducing it to a head-only squeeze which is significantly weaker and easier to escape, returning to standard back control defense
 - **Risk**: Fighting the arm aggressively can expose your neck if the arm suddenly comes free and creates space in the triangle for the choke to bite
 
 ### 3. Stack and pressure walk to relieve choking angle
 
 - **When to use**: When triangle is fully locked and the choke is beginning to set in - emergency defense when other options have been exhausted
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Reduce the choke pressure by stacking your weight onto the attacker and denying them the perpendicular angle needed for bilateral carotid compression
 - **Risk**: Requires significant energy expenditure and may not fully relieve the choke if attacker has excellent angle control
 
 ### 4. Block the leg from crossing over your shoulder during entry
 
 - **When to use**: At the earliest moment of recognition when the attacker's leg begins rising toward your shoulder - the absolute best defensive timing
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Prevent the triangle from being established entirely, forcing the attacker to abandon the attempt and return to standard back control attacks
 - **Risk**: Using your hand to block the leg means temporarily releasing neck defense which may expose you to RNC if the attacker switches back
 
@@ -243,11 +243,11 @@ Defense against this submission requires understanding both the prevention phase
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Extract trapped arm from triangle early in the sequence before the attacker achieves full angle, then return to standard back control defense with both arms available for neck protection
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Turn fully into the attacker during the triangle transition, converting the rear triangle into a front triangle from closed guard where you have significantly better escape options and can begin standard triangle defense protocols
 

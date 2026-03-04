@@ -158,7 +158,7 @@ Defending the Outside Heel Hook requires recognizing the threat before the attac
 
 The critical defensive principle is knee line rotation: by turning the knee inward toward the attacker, the defender reduces the rotational torque on the knee joint and creates opportunities to extract the leg. Combined with aggressive hand fighting to prevent or strip the heel grip, hip mobility to create escape angles, and tactical awareness of when to tap versus when to continue defending, the defender can survive and escape from even well-established outside heel hook attempts. Understanding this defense is not optional for anyone training in environments where heel hooks are permitted - it is a fundamental safety skill that prevents career-ending injuries.
 
-**Opponent's Starting Position**: [[Outside Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
 
 
 </section>
@@ -197,21 +197,21 @@ The critical defensive principle is knee line rotation: by turning the knee inwa
 ### 1. Rotate knee line inward and strip heel grip
 
 - **When to use**: As soon as you recognize outside ashi-garami being established, before opponent secures the heel cup
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: Opponent loses outside positioning and heel access, returning to neutral leg entanglement where you can work standard escapes
 - **Risk**: Low risk if executed before heel grip is locked; moderate risk if attempted against established grip as movement may create momentary torque
 
 ### 2. Stand up and extract leg using height advantage
 
 - **When to use**: When opponent's leg triangle is loose or you have prevented their inside leg from controlling your hip effectively
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Full escape to standing position where you can disengage or re-engage on your terms with no leg lock threat
 - **Risk**: Moderate - standing creates space that may allow opponent to tighten position if extraction fails; must protect heel during the attempt
 
 ### 3. Counter-entangle into opponent's legs for mutual threat
 
 - **When to use**: When opponent loosens their leg control during grip transition or positional adjustment, exposing their own legs
-- **Targets**: [[Outside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **If successful**: Creates mutual leg lock threat that forces opponent to defend, breaking their offensive sequence and potentially giving you the superior position
 - **Risk**: Moderate to high - entering your own leg entanglement while already trapped requires precise timing; failed attempt may worsen position
 
@@ -241,11 +241,11 @@ The critical defensive principle is knee line rotation: by turning the knee inwa
 
 ## Best-Case Outcomes for Defender
 
-### → [[Outside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 Successfully rotate knee line inward and strip the heel grip before opponent establishes the figure-four lock, then work standard ashi garami escape sequence to extract your leg from the entanglement
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Exploit a loose leg triangle or broken grip to stand up with base, using height advantage and gravity to extract trapped leg while maintaining heel protection throughout the standing sequence
 

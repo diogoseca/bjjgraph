@@ -180,7 +180,7 @@ description: "Complete guide to passing Z-Lock Half Guard from the top position.
 
 As the passer, your objective is to systematically dismantle the bottom player's Z-Lock configuration while maintaining constant pressure that prevents them from re-establishing defensive structures or launching sweep attacks. The Z-Lock is a dual-threat system combining lockdown control with butterfly hook mechanics, so your passing approach must address both elements in sequence rather than attempting to force through both simultaneously. Success requires establishing dominant upper body control first, then progressively stripping the leg configuration before completing the pass to side control. The key mental framework is patience through pressure: make the position increasingly uncomfortable for the bottom player until the Z-Lock becomes unsustainable, then capitalize on the openings that appear as they attempt to adjust.
 
-**From Position**: [[Z-Lock Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the passer, your objective is to systematically dismantle the bottom player's
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Z-Lock Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Z-Lock Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the passer, your objective is to systematically dismantle the bottom player's
 
 ## Opponent Counters
 
-- **Bottom player hip escapes and re-establishes the Z-Lock configuration by reinserting butterfly hook** (Effectiveness: High) - Your Response: Immediately re-establish hip-to-hip contact and drive shoulder pressure forward. Block their far hip aggressively and restart the lockdown stripping sequence from step 3. → Leads to [[Z-Lock Half Guard]]
-- **Bottom player recovers underhook and comes up to dogfight position threatening sweeps** (Effectiveness: High) - Your Response: Apply immediate whizzer control on the underhook arm while driving shoulder into their head. Use the whizzer to re-flatten them and re-establish crossface before they can generate sweeping momentum. → Leads to [[Z-Lock Half Guard]]
-- **Bottom player transitions to deep half guard by ducking under your pressure during leg extraction** (Effectiveness: Medium) - Your Response: Maintain heavy hips and prevent them from getting their head underneath you. If they begin the deep half entry, immediately backstep to address the position change rather than continuing the forward pass. → Leads to [[Z-Lock Half Guard]]
-- **Bottom player executes old school sweep or electric chair attack during the lockdown break** (Effectiveness: Medium) - Your Response: Base out wide with your free leg and drive crossface pressure to flatten their angle. The old school sweep requires them to be on their side with an underhook, so denying the underhook and flattening them neutralizes the sweep threat. → Leads to [[Half Guard]]
+- **Bottom player hip escapes and re-establishes the Z-Lock configuration by reinserting butterfly hook** (Effectiveness: High) - Your Response: Immediately re-establish hip-to-hip contact and drive shoulder pressure forward. Block their far hip aggressively and restart the lockdown stripping sequence from step 3. → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
+- **Bottom player recovers underhook and comes up to dogfight position threatening sweeps** (Effectiveness: High) - Your Response: Apply immediate whizzer control on the underhook arm while driving shoulder into their head. Use the whizzer to re-flatten them and re-establish crossface before they can generate sweeping momentum. → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
+- **Bottom player transitions to deep half guard by ducking under your pressure during leg extraction** (Effectiveness: Medium) - Your Response: Maintain heavy hips and prevent them from getting their head underneath you. If they begin the deep half entry, immediately backstep to address the position change rather than continuing the forward pass. → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
+- **Bottom player executes old school sweep or electric chair attack during the lockdown break** (Effectiveness: Medium) - Your Response: Base out wide with your free leg and drive crossface pressure to flatten their angle. The old school sweep requires them to be on their side with an underhook, so denying the underhook and flattening them neutralizes the sweep threat. → Leads to [[Positions/Half Guard]]
 
 
 </section>

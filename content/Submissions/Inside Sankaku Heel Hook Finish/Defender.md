@@ -156,7 +156,7 @@ description: "Complete defensive guide to surviving the Inside Sankaku heel hook
 
 Defending the Inside Sankaku heel hook finish is one of the most urgent and dangerous defensive scenarios in Brazilian Jiu-Jitsu. The defender must recognize that once the attacker has established Inside Sankaku control and begins transitioning to the heel hook grip, the window for successful defense narrows rapidly - measured in seconds, not minutes. The fundamental defensive hierarchy is absolute: protect the heel first, fight the grip second, create space third, extract the leg fourth. Violating this sequence by attempting to pull the leg free before addressing the grip and positional control dramatically increases the risk of catastrophic knee injury. The defender's greatest asset is early recognition - identifying the heel hook threat before the finishing grip is fully locked allows defensive options that become impossible once the submission is set. Composure under pressure is essential, as panic-driven explosive movements are the primary cause of training injuries from this position. When defense fails and the submission is locked, the only correct response is an immediate tap.
 
-**Opponent's Starting Position**: [[Inside Sankaku]] (Top)
+**Opponent's Starting Position**: [[Positions/Inside Sankaku]] (Top)
 
 
 </section>
@@ -196,21 +196,21 @@ Defending the Inside Sankaku heel hook finish is one of the most urgent and dang
 ### 1. Hide the heel by pressing it against your own hip and rotating your knee inward
 
 - **When to use**: Immediately when you feel the attacker reaching for your heel or when Inside Sankaku is first established
-- **Targets**: [[Inside Sankaku]]
+- **Targets**: [[Positions/Inside Sankaku]]
 - **If successful**: Prevents the finishing grip from being established, buying time for positional escape attempts
 - **Risk**: Exposes your ankle to alternative attacks like toe holds and straight ankle locks
 
 ### 2. Two-on-one grip fighting to strip the attacker's heel grip at the thumbs
 
 - **When to use**: When attacker has gripped the heel but has not yet applied rotational pressure
-- **Targets**: [[Inside Sankaku]]
+- **Targets**: [[Positions/Inside Sankaku]]
 - **If successful**: Breaks the finishing grip and forces the attacker to re-establish, creating time for escape
 - **Risk**: Engages both your hands in grip fighting, preventing you from framing or pushing for escape
 
 ### 3. Explosive counter-entanglement to 50-50 Guard by threading your free leg
 
 - **When to use**: When the attacker focuses on grip establishment and temporarily loosens hip pressure
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Neutralizes the asymmetric control advantage by establishing symmetrical entanglement
 - **Risk**: May worsen heel exposure if executed poorly or if attacker maintains grip during transition
 
@@ -240,11 +240,11 @@ Defending the Inside Sankaku heel hook finish is one of the most urgent and dang
 
 ## Best-Case Outcomes for Defender
 
-### → [[Inside Sankaku]]
+### → [[Positions/Inside Sankaku]]
 
 Successfully hide the heel and fight off all grip attempts, then maintain defensive posture until the attacker gives up the submission attempt and returns to positional control
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Thread your free leg into the entanglement during a moment of reduced hip pressure to establish symmetrical 50-50 Guard, neutralizing the attacker's dominant inside position
 

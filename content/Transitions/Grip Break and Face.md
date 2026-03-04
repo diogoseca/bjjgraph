@@ -21,7 +21,7 @@ The technique operates on the principle that standing back control is transition
 
 Strategically, this escape is preferred when you have sufficient space to rotate and the opponent has not yet secured hooks or body triangle. It requires less energy than dropping to turtle and allows you to immediately threaten offensive positions from the resulting clinch. Advanced practitioners chain this with immediate underhooks or collar ties to gain clinch advantage after completing the rotation.
 
-**From Position**: [[Standing Back Control]] (Bottom)
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape is preferred when you have sufficient space to rotate
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Clinch]] | 55% |
-| Failure | [[Standing Back Control]] | 30% |
-| Counter | [[Front Headlock]] | 15% |
+| Success | [[Positions/Clinch]] | 55% |
+| Failure | [[Positions/Back Control/Standing Back Control]] | 30% |
+| Counter | [[Positions/Front Headlock]] | 15% |
 
 
 </section>
@@ -187,25 +187,25 @@ Grip Break and Face is a cornerstone escape from standing back control that fits
 ## Related Techniques
 
 
-- [[Standing Back Control]] - Starting position - the defensive situation this technique escapes from
+- [[Positions/Back Control/Standing Back Control]] - Starting position - the defensive situation this technique escapes from
 
-- [[Clinch]] - Primary success outcome - neutral position achieved after completing rotation
+- [[Positions/Clinch]] - Primary success outcome - neutral position achieved after completing rotation
 
-- [[Arm Drag]] - Offensive follow-up - same grip mechanics can convert to back take attempt
+- [[Transitions/Arm Drag]] - Offensive follow-up - same grip mechanics can convert to back take attempt
 
-- [[Back Control]] - Related position - grounded version requires different escape mechanics
+- [[Positions/Back Control]] - Related position - grounded version requires different escape mechanics
 
-- [[Front Headlock]] - Counter position - where opponent may end up if they catch you during rotation
+- [[Positions/Front Headlock]] - Counter position - where opponent may end up if they catch you during rotation
 
-- [[Turtle]] - Alternative escape - preferred when opponent has hooks secured
+- [[Positions/Turtle]] - Alternative escape - preferred when opponent has hooks secured
 
-- [[Hip Escape to Turtle]] - Alternative escape pathway - different strategic choice from same starting position
+- [[Transitions/Hip Escape to Turtle]] - Alternative escape pathway - different strategic choice from same starting position
 
-- [[Duck Under]] - Variant technique - similar rotation mechanics with different arm relationship
+- [[Transitions/Duck Under]] - Variant technique - similar rotation mechanics with different arm relationship
 
-- [[Harness]] - Control configuration - the grip you must defeat to execute this escape
+- [[Positions/Harness]] - Control configuration - the grip you must defeat to execute this escape
 
-- [[Controlled Descent]] - Alternative escape - dropping to turtle when hooks prevent rotation
+- [[Transitions/Controlled Descent]] - Alternative escape - dropping to turtle when hooks prevent rotation
 
 
 </section>

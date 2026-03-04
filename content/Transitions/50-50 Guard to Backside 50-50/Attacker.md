@@ -180,7 +180,7 @@ description: "Complete guide to executing the rotation from 50-50 Guard to Backs
 
 As the attacker executing the Transition to Backside 50-50, your objective is to rotate from standard face-to-face 50-50 top position to a chest-against-back configuration while maintaining tight leg entanglement throughout. The rotation creates a decisive positional upgrade by giving you superior pressure, visual access to your opponent's legs, and the dual threat of heel hooks plus back control. Success depends on controlling the rotation timing relative to your opponent's defensive focus, maintaining inside leg position as your pivot point, and arriving behind them with your chest heavy on their back before they can turn to face you. The entire sequence should feel like a smooth arc rather than a jerky repositioning.
 
-**From Position**: [[50-50 Guard]] (Top)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Transition to Backside 50-50, your objective is to
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Backside 50-50]] | 60% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[50-50 Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Backside 50-50]] | 60% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Transition to Backside 50-50, your objective is to
 
 ## Opponent Counters
 
-- **Opponent hip escapes and turns to face you during the rotation, re-establishing standard 50-50 alignment** (Effectiveness: High) - Your Response: If they begin turning, immediately accelerate your rotation and drive chest pressure forward to beat their turn. Alternatively, abandon the rotation and attack the heel hook while their focus is on turning rather than heel defense. Their hip movement during the counter often exposes the heel. → Leads to [[50-50 Guard]]
-- **Opponent breaks your anchor grip on their ankle and begins extracting their leg from the entanglement** (Effectiveness: Medium) - Your Response: Immediately re-grip their leg at a different control point such as above the knee or on the shin. If re-gripping fails, switch to Back Take from 50-50 since their leg extraction creates upper body exposure. Their focus on grip fighting their leg free leaves their back vulnerable. → Leads to [[50-50 Guard]]
-- **Opponent bridges explosively and attempts to sweep you during the rotation when your base is temporarily compromised** (Effectiveness: Medium) - Your Response: Post immediately with your free hand and drive your hips low to re-establish base. If the sweep succeeds partially, use the momentum to continue your rotation rather than fighting it, potentially arriving in Backside 50-50 from a different angle. Stay connected to the entanglement throughout. → Leads to [[50-50 Guard]]
-- **Opponent matches your rotation by spinning their body in the same direction, preventing you from getting behind them** (Effectiveness: High) - Your Response: Immediately reverse your rotation direction to catch them turning the wrong way, or pin their hips with increased downward pressure to prevent the matching spin. If they successfully match, you return to standard 50-50 with no loss - reset and attempt again when they are distracted by a submission threat. → Leads to [[50-50 Guard]]
+- **Opponent hip escapes and turns to face you during the rotation, re-establishing standard 50-50 alignment** (Effectiveness: High) - Your Response: If they begin turning, immediately accelerate your rotation and drive chest pressure forward to beat their turn. Alternatively, abandon the rotation and attack the heel hook while their focus is on turning rather than heel defense. Their hip movement during the counter often exposes the heel. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent breaks your anchor grip on their ankle and begins extracting their leg from the entanglement** (Effectiveness: Medium) - Your Response: Immediately re-grip their leg at a different control point such as above the knee or on the shin. If re-gripping fails, switch to Back Take from 50-50 since their leg extraction creates upper body exposure. Their focus on grip fighting their leg free leaves their back vulnerable. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent bridges explosively and attempts to sweep you during the rotation when your base is temporarily compromised** (Effectiveness: Medium) - Your Response: Post immediately with your free hand and drive your hips low to re-establish base. If the sweep succeeds partially, use the momentum to continue your rotation rather than fighting it, potentially arriving in Backside 50-50 from a different angle. Stay connected to the entanglement throughout. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
+- **Opponent matches your rotation by spinning their body in the same direction, preventing you from getting behind them** (Effectiveness: High) - Your Response: Immediately reverse your rotation direction to catch them turning the wrong way, or pin their hips with increased downward pressure to prevent the matching spin. If they successfully match, you return to standard 50-50 with no loss - reset and attempt again when they are distracted by a submission threat. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 
 
 </section>

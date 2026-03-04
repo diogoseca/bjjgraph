@@ -156,7 +156,7 @@ As the defender against the mat return, your primary challenge is preventing the
 
 The defensive hierarchy follows a strict sequence: first, recognize the mat return attempt through grip tightening and hip positioning cues before the descent begins; second, widen your base and drive hips forward to resist being pulled down; third, if the descent begins, fight to turn and face the opponent during the fall; fourth, if you reach the ground, immediately address hook attempts by controlling leg placement and hip positioning. Each phase has progressively lower success probability, so early recognition and base defense are critical. The goal is not necessarily to escape the rear clinch entirely but to prevent the opponent from achieving the transition to ground back control, which dramatically increases their submission threat.
 
-**Opponent's Starting Position**: [[Standing Rear Clinch]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Rear Clinch]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The defensive hierarchy follows a strict sequence: first, recognize the mat retu
 ### 1. Widen base and sprawl hips forward to create structural resistance against being pulled down
 
 - **When to use**: Immediately upon recognizing mat return preparation cues before the descent has begun, when you still have time to adjust your stance
-- **Targets**: [[Standing Rear Clinch]]
+- **Targets**: [[Positions/Standing Rear Clinch]]
 - **If successful**: Opponent's mat return stalls and they must reset or attempt an alternative takedown, keeping the engagement standing where you have better escape options
 - **Risk**: If base widening is too late, the opponent may use the trip-assisted variation to sweep your now-committed legs
 
 ### 2. Execute aggressive two-on-one grip fighting to break the opponent's bodylock or seatbelt before descent
 
 - **When to use**: When you feel the opponent's grip settling into a locked configuration and you have at least one hand free to attack their clasp
-- **Targets**: [[Scramble Position]]
+- **Targets**: [[Positions/Scramble Position]]
 - **If successful**: Breaking the grip creates separation that allows you to turn and face the opponent or create distance for a scramble reset
 - **Risk**: Committing both hands to grip fighting removes your ability to post during the descent if the grip break fails
 
 ### 3. Turn aggressively into the opponent during the descent to face them and prevent back exposure on landing
 
 - **When to use**: When the descent has already begun and you cannot stop the takedown, use the transitional moment to rotate your shoulders and hips
-- **Targets**: [[Clinch]]
+- **Targets**: [[Positions/Clinch]]
 - **If successful**: You land facing the opponent in a neutral clinch or scramble position rather than with your back exposed for hook insertion
 - **Risk**: If the turn is incomplete, you may land in a worse position with partial back exposure and no defensive frames established
 
 ### 4. Post arm on mat and hip escape immediately upon landing to prevent hook insertion
 
 - **When to use**: When the takedown is successful and you have reached the ground but the opponent has not yet inserted hooks
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You establish a turtle defensive position where escape options are more available than from full back control with hooks
 - **Risk**: If the hip escape is too slow, opponent inserts hooks during your movement and establishes full ground back control
 
@@ -228,11 +228,11 @@ The defensive hierarchy follows a strict sequence: first, recognize the mat retu
 
 ## Best-Case Outcomes for Defender
 
-### → [[Scramble Position]]
+### → [[Positions/Scramble Position]]
 
 Execute explosive two-on-one grip break during the opponent's descent phase when their hands are under maximum tension from the pulling force. The moment the grip breaks, immediately turn to face them and drive forward to create a neutral scramble where neither player has dominant control.
 
-### → [[Clinch]]
+### → [[Positions/Clinch]]
 
 Time a hard turn toward the opponent as they initiate the descent, using the transitional moment when their grip shifts from static control to active pulling as the window to rotate your shoulders and hips. The key is committing fully to the turn and driving your chest into their chest to establish facing position before you reach the ground.
 

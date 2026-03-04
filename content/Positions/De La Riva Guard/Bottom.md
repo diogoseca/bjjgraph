@@ -206,31 +206,31 @@ The guard's strategic depth lies in the dilemma structure it creates. When the t
 
 ## Available Escapes
 
-### [[De La Riva Sweep]] (11% of attempts)
+### [[Transitions/De La Riva Sweep]] (11% of attempts)
 
-### [[De La Riva to X-Guard Transition]] (21% of attempts)
+### [[Transitions/De La Riva to X-Guard Transition]] (21% of attempts)
 
-### [[Berimbolo Entry]] (12% of attempts)
+### [[Transitions/Berimbolo Entry]] (12% of attempts)
 
-### [[Kiss of the Dragon]] (8% of attempts)
+### [[Transitions/Kiss of the Dragon]] (8% of attempts)
 
-### [[Single Leg X Entry]] (12% of attempts)
+### [[Transitions/Single Leg X Entry]] (12% of attempts)
 
-### [[Waiter Sweep]] (6% of attempts)
+### [[Transitions/Waiter Sweep]] (6% of attempts)
 
-### [[Balloon Sweep]] (5% of attempts)
+### [[Transitions/Balloon Sweep]] (5% of attempts)
 
-### [[Outside Ashi Entry]] (5% of attempts)
+### [[Transitions/Outside Ashi Entry]] (5% of attempts)
 
-### [[Sickle Sweep]] (4% of attempts)
+### [[Transitions/Sickle Sweep]] (4% of attempts)
 
-### [[Tripod Sweep]] (8% of attempts)
+### [[Transitions/Tripod Sweep]] (8% of attempts)
 
-### [[Omoplata]] (4% of attempts)
+### [[Transitions/Omoplata]] (4% of attempts)
 
-### [[Triangle Setup from De La Riva]] (2% of attempts)
+### [[Transitions/Triangle Setup from De La Riva]] (2% of attempts)
 
-### [[Triangle from De La Riva]] (2% of attempts)
+### [[Submissions/Triangle from De La Riva]] (2% of attempts)
 
 
 
@@ -241,23 +241,23 @@ The guard's strategic depth lies in the dilemma structure it creates. When the t
 ## Decision Making from This Position
 
 **If opponent maintains upright posture and resists being pulled forward:**
-- Execute **[[De La Riva to X-Guard Transition]]** → [[X-Guard]] (Probability: 70%)
-- Execute **[[Single Leg X Entry]]** → [[Single Leg X-Guard]] (Probability: 65%)
+- Execute **[[Transitions/De La Riva to X-Guard Transition]]** → [[Positions/X-Guard]] (Probability: 70%)
+- Execute **[[Transitions/Single Leg X Entry]]** → [[Positions/X-Guard/Single Leg X-Guard]] (Probability: 65%)
 
 
 **If opponent drives forward with pressure attempting to smash the guard:**
-- Execute **[[Berimbolo Entry]]** → [[Back Control]] (Probability: 60%)
-- Execute **[[Kiss of the Dragon]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Berimbolo Entry]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Kiss of the Dragon]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent posts on your non-hooking leg and attempts to clear the De La Riva hook:**
-- Execute **[[De La Riva Sweep]]** → [[Mount]] (Probability: 65%)
-- Execute **[[Waiter Sweep]]** → [[Side Control]] (Probability: 60%)
+- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/Mount]] (Probability: 65%)
+- Execute **[[Transitions/Waiter Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
 
 
 **If opponent stands upright with weight on their heels and attempts to disengage:**
-- Execute **[[Outside Ashi Entry]]** → [[Outside Ashi-Garami]] (Probability: 55%)
-- Execute **[[Balloon Sweep]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Balloon Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 
@@ -359,13 +359,13 @@ Partner maintains upright posture in your DLR guard. Practice the transition to 
 
 ## Related Positions and Techniques
 
-- **[[X-Guard]]** - Common transition target from De La Riva when opponent maintains upright posture
-- **[[Single Leg X-Guard]]** - Alternative guard option when opponent stands or posts on free leg
-- **[[Reverse De La Riva Guard]]** - Counter-option when opponent drives forward with smash passing pressure
-- **[[Back Control]]** - Primary dominant position target via berimbolo and kiss of the dragon entries
-- **[[Outside Ashi-Garami]]** - Leg entanglement option when opponent stands to disengage
-- **[[K-Guard]]** - Modern guard accessible through DLR inversions, sharing leg entanglement pathways
-- **[[Collar Sleeve Guard]]** - Alternative open guard that shares grip principles and can be combined with DLR hook
+- **[[Positions/X-Guard]]** - Common transition target from De La Riva when opponent maintains upright posture
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Alternative guard option when opponent stands or posts on free leg
+- **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Counter-option when opponent drives forward with smash passing pressure
+- **[[Positions/Back Control]]** - Primary dominant position target via berimbolo and kiss of the dragon entries
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Leg entanglement option when opponent stands to disengage
+- **[[Positions/K-Guard]]** - Modern guard accessible through DLR inversions, sharing leg entanglement pathways
+- **[[Positions/Collar Sleeve Guard]]** - Alternative open guard that shares grip principles and can be combined with DLR hook
 
 
 </section>

@@ -182,7 +182,7 @@ Executing the Reverse Mount to Mount transition requires solving a fundamental b
 
 The attacker's decision-making centers on two variables: which direction to spin and how quickly to execute. Spinning toward the opponent's stronger defensive side risks encountering frames but may be necessary to establish the crossface. Spinning away from their frames avoids immediate resistance but may leave the opponent's strong side uncontrolled upon arrival. Speed must be calibrated to the opponent's energy level—an exhausted opponent allows a deliberate stepover while a fresh opponent requires a committed, explosive spin that outpaces their defensive reaction time.
 
-**From Position**: [[Reverse Mount]] (Top)
+**From Position**: [[Positions/Reverse Mount]] (Top)
 
 </section>
 
@@ -236,9 +236,9 @@ The attacker's decision-making centers on two variables: which direction to spin
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Reverse Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Reverse Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -247,10 +247,10 @@ The attacker's decision-making centers on two variables: which direction to spin
 
 ## Opponent Counters
 
-- **Opponent bridges explosively during the rotation when weight is momentarily compromised** (Effectiveness: High) - Your Response: Pause mid-rotation and ride the bridge by driving your hips down and spreading your base wide. Complete the rotation only after they land from the bridge when they are momentarily flat and exhausted from the effort. → Leads to [[Half Guard]]
-- **Opponent inserts a knee shield during the rotation gap to recover half guard** (Effectiveness: High) - Your Response: If you feel the knee entering, abort the spin and immediately apply a knee slice pass through the newly created half guard. Alternatively, reverse direction and re-establish reverse mount before attempting the rotation from the other side. → Leads to [[Half Guard]]
-- **Opponent shrimps away and turns to their side during the rotation creating distance** (Effectiveness: Medium) - Your Response: Abandon the mount conversion and instead follow them toward back control by inserting hooks from the reverse position. Their turn actually improves your back take angle rather than helping their escape. → Leads to [[Reverse Mount]]
-- **Opponent grabs your rotating leg to prevent it from clearing their body** (Effectiveness: Medium) - Your Response: Use your free hand to strip their grip while keeping hip pressure constant. If the grip is too strong, switch to a stepover conversion where you post your foot and use your leg strength to break through their grip rather than relying on arc momentum. → Leads to [[Reverse Mount]]
+- **Opponent bridges explosively during the rotation when weight is momentarily compromised** (Effectiveness: High) - Your Response: Pause mid-rotation and ride the bridge by driving your hips down and spreading your base wide. Complete the rotation only after they land from the bridge when they are momentarily flat and exhausted from the effort. → Leads to [[Positions/Half Guard]]
+- **Opponent inserts a knee shield during the rotation gap to recover half guard** (Effectiveness: High) - Your Response: If you feel the knee entering, abort the spin and immediately apply a knee slice pass through the newly created half guard. Alternatively, reverse direction and re-establish reverse mount before attempting the rotation from the other side. → Leads to [[Positions/Half Guard]]
+- **Opponent shrimps away and turns to their side during the rotation creating distance** (Effectiveness: Medium) - Your Response: Abandon the mount conversion and instead follow them toward back control by inserting hooks from the reverse position. Their turn actually improves your back take angle rather than helping their escape. → Leads to [[Positions/Reverse Mount]]
+- **Opponent grabs your rotating leg to prevent it from clearing their body** (Effectiveness: Medium) - Your Response: Use your free hand to strip their grip while keeping hip pressure constant. If the grip is too strong, switch to a stepover conversion where you post your foot and use your leg strength to break through their grip rather than relying on arc momentum. → Leads to [[Positions/Reverse Mount]]
 
 
 </section>

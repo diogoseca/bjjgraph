@@ -26,8 +26,8 @@ The technical execution of the triangle from closed guard requires precise angle
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Closed Guard]]
-**From Position**: [[Closed Guard]] (Bottom)
+**Starting Position**: [[Positions/Closed Guard]]
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 65%
 
 </section>
@@ -84,8 +84,8 @@ The technical execution of the triangle from closed guard requires precise angle
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -241,14 +241,14 @@ The technical execution of the triangle from closed guard requires precise angle
 
 ## From Which Positions?
 
-- [[Closed Guard]]
-- [[Rubber Guard]]
-- [[Mission Control]]
-- [[Overhook Guard]]
-- [[Collar Sleeve Guard]]
-- [[Double Sleeve Guard]]
-- [[Lasso Guard]]
-- [[Spider Guard]]
+- [[Positions/Closed Guard]]
+- [[Positions/Rubber Guard]]
+- [[Positions/Rubber Guard/Mission Control]]
+- [[Positions/Overhook Guard]]
+- [[Positions/Collar Sleeve Guard]]
+- [[Positions/Double Sleeve Guard]]
+- [[Positions/Lasso Guard]]
+- [[Positions/Spider Guard]]
 
 
 </section>
@@ -257,14 +257,14 @@ The technical execution of the triangle from closed guard requires precise angle
 
 ## Related Submissions
 
-- [[Triangle Choke]]
-- [[Armbar from Guard]]
-- [[Gogoplata]]
-- [[Cross Collar Choke]]
-- [[Guillotine Choke]]
-- [[Baratoplata]]
-- [[Omoplata from Guard]]
-- [[Inverted Triangle]]
+- [[Transitions/Triangle Choke]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Gogoplata]]
+- [[Transitions/Cross Collar Choke]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Baratoplata]]
+- [[Submissions/Omoplata from Guard]]
+- [[Transitions/Inverted Triangle]]
 
 
 </section>
@@ -273,18 +273,18 @@ The technical execution of the triangle from closed guard requires precise angle
 
 ## Additional Related Content
 
-- [[Closed Guard]] - Primary starting position for this submission; fundamental guard position where triangle is most commonly initiated
-- [[Triangle Control]] - The control position achieved when triangle is locked but not yet finished; intermediate position before submission completion
-- [[Armbar from Guard]] - Primary follow-up submission when opponent defends triangle by turning or extracting arm; creates submission chain with triangle
-- [[Triangle Choke]] - Generic triangle choke technique applicable from multiple positions; this is specific closed guard variation
-- [[Rubber Guard]] - Advanced guard system that provides excellent triangle setups through high guard and Mission Control positions
-- [[Mission Control]] - 10th Planet rubber guard position that creates ideal conditions for triangle entry with extreme posture control
-- [[Spider Guard]] - Alternative guard providing triangle opportunities when opponent's posture is managed with foot placement on biceps
-- [[Omoplata Control]] - Alternative finish when opponent turns away from triangle; completes the triangle-armbar-omoplata attack system
-- [[Guillotine Choke]] - Related blood choke that can be combined with triangle attempts or used as alternative when triangle is defended
-- [[Lasso Guard]] - Guard variation that can transition to triangle when opponent attempts to clear the lasso control
-- [[Gogoplata]] - Advanced submission available from triangle position when posture is completely broken and shin can access throat
-- [[Collar Sleeve Guard]] - Guard variation providing excellent triangle setups through sleeve control and collar grip posture breaking
+- [[Positions/Closed Guard]] - Primary starting position for this submission; fundamental guard position where triangle is most commonly initiated
+- [[Positions/Triangle Control]] - The control position achieved when triangle is locked but not yet finished; intermediate position before submission completion
+- [[Submissions/Armbar from Guard]] - Primary follow-up submission when opponent defends triangle by turning or extracting arm; creates submission chain with triangle
+- [[Transitions/Triangle Choke]] - Generic triangle choke technique applicable from multiple positions; this is specific closed guard variation
+- [[Positions/Rubber Guard]] - Advanced guard system that provides excellent triangle setups through high guard and Mission Control positions
+- [[Positions/Rubber Guard/Mission Control]] - 10th Planet rubber guard position that creates ideal conditions for triangle entry with extreme posture control
+- [[Positions/Spider Guard]] - Alternative guard providing triangle opportunities when opponent's posture is managed with foot placement on biceps
+- [[Positions/Omoplata Control]] - Alternative finish when opponent turns away from triangle; completes the triangle-armbar-omoplata attack system
+- [[Transitions/Guillotine Choke]] - Related blood choke that can be combined with triangle attempts or used as alternative when triangle is defended
+- [[Positions/Lasso Guard]] - Guard variation that can transition to triangle when opponent attempts to clear the lasso control
+- [[Transitions/Gogoplata]] - Advanced submission available from triangle position when posture is completely broken and shin can access throat
+- [[Positions/Collar Sleeve Guard]] - Guard variation providing excellent triangle setups through sleeve control and collar grip posture breaking
 
 
 </section>

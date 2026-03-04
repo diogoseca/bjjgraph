@@ -166,7 +166,7 @@ The defensive framework operates on a timing continuum. Early in the inversion, 
 
 Successful defense demands awareness of where the attacker is in their follow sequence. The most critical defensive window is the moment between their leg release and seat belt establishment—this is when framing, hip movement, and directional changes are most effective. Once both hooks and seat belt are secured, you are in full back control defense, which is a significantly worse position than any earlier defensive intervention point.
 
-**Opponent's Starting Position**: [[Ushiro Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
 
@@ -204,28 +204,28 @@ Successful defense demands awareness of where the attacker is in their follow se
 ### 1. Accelerate rotation to consolidated turtle with elbows tight to knees and chin tucked
 
 - **When to use**: When you feel the attacker release the figure-four and begin following—you must complete rotation before they arrive at your back
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You reach a defensive turtle with strong structure before the attacker can establish seat belt or hooks, forcing them into a turtle attack game rather than free back control
 - **Risk**: If rotation is too slow, the attacker arrives at your back during the transition with you in a compromised half-turtle position
 
 ### 2. Reverse direction and shoot hips back to re-engage guard before attacker commits to follow
 
 - **When to use**: When the attacker releases leg entanglement early or you sense hesitation in their follow—requires detecting the release timing accurately
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: You recover guard position or re-engage leg entanglement from a more favorable angle, forcing the attacker back into the leg game
 - **Risk**: If the attacker reads the reversal, they can re-engage their own leg entanglement from a superior angle or catch you mid-direction-change
 
 ### 3. Frame against attacker's lead shoulder and hip escape to create angle for guard recovery
 
 - **When to use**: When the attacker has arrived at your back but has not yet secured seat belt—use frames to prevent their chest from settling on your back
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: You create enough space to turn into the attacker and recover half guard or closed guard, neutralizing the back take attempt completely
 - **Risk**: If your frames are weak or the attacker powers through them, you end up on your side with partial back exposure and the attacker has momentum advantage
 
 ### 4. Strip the underhook and turn into the attacker while they attempt to establish seat belt
 
 - **When to use**: When the attacker has one arm over your shoulder but the underhook is shallow—attack the weaker grip before it deepens
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: You break the incomplete seat belt and turn to face the attacker, recovering to a guard position or neutral scramble
 - **Risk**: If you turn into a deeply established seat belt, you may give the attacker a better angle for the choking arm across your neck
 
@@ -237,11 +237,11 @@ Successful defense demands awareness of where the attacker is in their follow se
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Complete your rotation with maximum speed and immediately consolidate a tight turtle position with elbows glued to knees, chin tucked, and rounded back. The key is arriving in turtle before the attacker can establish seat belt control. A well-structured turtle forces the attacker into a separate attacking sequence with lower success rates than a free back take.
 
-### → [[Ushiro Ashi-Garami]]
+### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Reverse direction during the attacker's follow by shooting your hips back toward them and re-engaging guard or leg entanglement. This works best when you detect the attacker's leg release early and can change direction before they commit their hips to the follow. Frame against their lead shoulder to create separation, then hip escape to face them and recover guard.
 

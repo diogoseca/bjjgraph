@@ -22,8 +22,8 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
-**Starting Position**: [[Back Control]]
-**From Position**: [[Back Control]] (Top)
+**Starting Position**: [[Positions/Back Control]]
+**From Position**: [[Positions/Back Control]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -79,7 +79,7 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 78% |
-| Failure | [[Back Control]] | 22% |
+| Failure | [[Positions/Back Control]] | 22% |
 
 
 </section>
@@ -232,14 +232,14 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 ## From Which Positions?
 
-- [[Back Control]]
-- [[Turtle]]
-- [[Crucifix]]
-- [[Mount]]
-- [[Closed Guard]]
-- [[Half Guard]]
-- [[Gift Wrap]]
-- [[Standing Rear Clinch]]
+- [[Positions/Back Control]]
+- [[Positions/Turtle]]
+- [[Positions/Crucifix]]
+- [[Positions/Mount]]
+- [[Positions/Closed Guard]]
+- [[Positions/Half Guard]]
+- [[Positions/Gift Wrap]]
+- [[Positions/Standing Rear Clinch]]
 
 
 </section>
@@ -248,20 +248,20 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 ## Related Submissions
 
-- [[Triangle Choke Back]]
-- [[Armbar from Back]]
-- [[Armbar from Back with Legs]]
-- [[Bow and Arrow Choke]]
-- [[Clock Choke]]
-- [[Short Choke]]
-- [[Arm Triangle]]
-- [[Guillotine Choke]]
-- [[Choke from Crucifix]]
-- [[Ezekiel Choke]]
-- [[North-South Choke]]
-- [[Baseball Bat Choke]]
-- [[Paper Cutter Choke]]
-- [[Cross Collar Choke]]
+- [[Submissions/Triangle Choke Back]]
+- [[Submissions/Armbar from Back]]
+- [[Submissions/Armbar from Back with Legs]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Transitions/Clock Choke]]
+- [[Transitions/Short Choke]]
+- [[Transitions/Arm Triangle]]
+- [[Transitions/Guillotine Choke]]
+- [[Transitions/Choke from Crucifix]]
+- [[Submissions/Ezekiel Choke]]
+- [[Transitions/North-South Choke]]
+- [[Transitions/Baseball Bat Choke]]
+- [[Transitions/Paper Cutter Choke]]
+- [[Transitions/Cross Collar Choke]]
 
 
 </section>
@@ -270,16 +270,16 @@ The Rear Naked Choke (RNC) is widely considered the highest-percentage submissio
 
 ## Additional Related Content
 
-- [[Back Control]] - Primary attacking position for this submission
-- [[Gift Wrap]] - Control position that traps one arm, making neck defense difficult
-- [[Harness]] - Alternative back control grip system for controlling opponent
-- [[Body Triangle]] - Lower body control variation that prevents hip escapes during choke
-- [[Turtle]] - Common entry position for establishing back control
-- [[Crucifix]] - Advanced arm-trapping position that eliminates neck defense
-- [[Seat Belt Control Back]] - Primary grip configuration for controlling opponent from back
-- [[Short Choke]] - Faster variation using palm on head instead of bicep grip
-- [[Bow and Arrow Choke]] - Alternative high-percentage choke from back control using gi
-- [[Armbar from Back]] - Arm attack option when choke defense is strong
+- [[Positions/Back Control]] - Primary attacking position for this submission
+- [[Positions/Gift Wrap]] - Control position that traps one arm, making neck defense difficult
+- [[Positions/Harness]] - Alternative back control grip system for controlling opponent
+- [[Positions/Back Control/Body Triangle]] - Lower body control variation that prevents hip escapes during choke
+- [[Positions/Turtle]] - Common entry position for establishing back control
+- [[Positions/Crucifix]] - Advanced arm-trapping position that eliminates neck defense
+- [[Positions/Back Control/Seat Belt Control Back]] - Primary grip configuration for controlling opponent from back
+- [[Transitions/Short Choke]] - Faster variation using palm on head instead of bicep grip
+- [[Transitions/Bow and Arrow Choke]] - Alternative high-percentage choke from back control using gi
+- [[Submissions/Armbar from Back]] - Arm attack option when choke defense is strong
 
 
 </section>

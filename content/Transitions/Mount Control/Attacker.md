@@ -174,7 +174,7 @@ description: "How to execute Mount Control in BJJ. Attacking perspective with se
 
 Mount Control represents the ongoing process of maintaining dominant position against an actively escaping opponent. Unlike initial consolidation which establishes the mount, Mount Control addresses the dynamic battle that continues throughout the position - reading escape attempts, adjusting base in real-time, and using pressure to drain defensive resources. The fundamental principle is that mount maintenance is not passive holding but active control through constant micro-adjustments. Every time your opponent creates a frame, you eliminate it. Every bridge attempt requires base adjustment. Every hip escape must be blocked before it generates momentum. This constant responsiveness transforms mount from a position that can be escaped with patience into an inescapable cage that progressively worsens for the defender. The strategic goal of Mount Control extends beyond simply staying on top - it involves systematically degrading your opponent's defensive capacity through sustained pressure while preserving your energy and creating submission opportunities. Skilled practitioners use Mount Control to create dilemmas: the opponent's attempts to escape actually open them to attacks, while staying still allows you to advance position. This creates a lose-lose scenario for the defender where their best option becomes surrendering to a submission rather than continuing to fight the mount.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 
 </section>
 
@@ -224,9 +224,9 @@ Mount Control represents the ongoing process of maintaining dominant position ag
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 70% |
-| Failure | [[Half Guard]] | 20% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Mount]] | 70% |
+| Failure | [[Positions/Half Guard]] | 20% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -235,9 +235,9 @@ Mount Control represents the ongoing process of maintaining dominant position ag
 
 ## Opponent Counters
 
-- **Explosive upa (bridge and roll) with arm and leg trapped on one side** (Effectiveness: Medium) - Your Response: Post hand wide on the trapped side and sprawl hips; if roll begins, swim free arm under their neck for cross-face and ride to quarter mount before re-establishing full mount → Leads to [[Closed Guard]]
-- **Elbow-knee escape with hip movement toward half guard** (Effectiveness: High) - Your Response: Block their hip with your knee before the escape gains momentum; if they insert knee shield, immediately address it by either passing to side control or working to re-clear the leg → Leads to [[Half Guard]]
-- **Strong two-handed frame on hips creating space** (Effectiveness: Medium) - Your Response: Swim both elbows inside simultaneously, driving them to the mat while increasing chest pressure; alternatively, isolate one arm for Americana threat which forces them to abandon the frame → Leads to [[Mount]]
+- **Explosive upa (bridge and roll) with arm and leg trapped on one side** (Effectiveness: Medium) - Your Response: Post hand wide on the trapped side and sprawl hips; if roll begins, swim free arm under their neck for cross-face and ride to quarter mount before re-establishing full mount → Leads to [[Positions/Closed Guard]]
+- **Elbow-knee escape with hip movement toward half guard** (Effectiveness: High) - Your Response: Block their hip with your knee before the escape gains momentum; if they insert knee shield, immediately address it by either passing to side control or working to re-clear the leg → Leads to [[Positions/Half Guard]]
+- **Strong two-handed frame on hips creating space** (Effectiveness: Medium) - Your Response: Swim both elbows inside simultaneously, driving them to the mat while increasing chest pressure; alternatively, isolate one arm for Americana threat which forces them to abandon the frame → Leads to [[Positions/Mount]]
 
 
 </section>

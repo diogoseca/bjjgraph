@@ -146,7 +146,7 @@ description: "Defend against leg extraction from Inside Ashi-Garami. Techniques 
 
 As the defender against leg extraction—meaning you are the leg lock player maintaining Inside Ashi-Garami while your opponent attempts to free their trapped leg—your objective is to either maintain the entanglement for submission opportunities or advance to a more dominant leg entanglement position. Successful defense requires recognizing extraction attempts early, tightening your control structure in response, and punishing extraction attempts with submission threats or positional advancements. The best defenders do not simply resist the extraction passively but use the opponent's escape movement as triggers to transition to saddle, honey hole, or other superior entanglements where the same extraction mechanics become ineffective.
 
-**Opponent's Starting Position**: [[Inside Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ As the defender against leg extraction—meaning you are the leg lock player mai
 ### 1. Tighten heel grip and threaten submission finish
 
 - **When to use**: When opponent begins extraction but has not yet stripped your heel control. Counter-intuitively, their extraction movement can expose the heel more during the struggle.
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Opponent abandons extraction to defend the submission, maintaining your attacking position with potentially improved heel exposure
 - **Risk**: If you commit fully to the finish and miss, opponent may use the moment to complete extraction
 
 ### 2. Advance to Saddle or Honey Hole during extraction attempt
 
 - **When to use**: When opponent clears your inside leg from their hip but has not yet freed their leg from your outside hook. Their cleared hip creates the space needed to thread deeper into advanced entanglement.
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You achieve a more dominant leg entanglement position where basic extraction mechanics no longer work, with superior submission options
 - **Risk**: Failed advancement during a scramble can result in losing all entanglement control
 
 ### 3. Switch to Outside Ashi-Garami as extraction progresses
 
 - **When to use**: When inside ashi control is genuinely compromised and opponent has cleared significant control points, but you can redirect your legs to maintain some form of leg entanglement
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You maintain leg entanglement in a different configuration, preserving attacking options even though the original inside ashi was lost
 - **Risk**: Outside ashi provides less control than inside ashi, and opponent may complete extraction before you consolidate the new position
 
 ### 4. Scramble to top position during guard recovery
 
 - **When to use**: When extraction is nearly complete and maintaining entanglement is no longer viable, use the transition moment to scramble forward into a passing or top position
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You achieve top position in open guard, converting the lost entanglement into a passing opportunity
 - **Risk**: Scramble is contested and may result in neutral open guard position with no advantage for either player
 
@@ -218,11 +218,11 @@ As the defender against leg extraction—meaning you are the leg lock player mai
 
 ## Best-Case Outcomes for Defender
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Tighten all hooks immediately when extraction begins, drive your inside leg deeper across their hip, and clamp your legs with maximum inward pressure. Threaten heel hook or ankle lock to force them to abandon extraction and address the submission.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 If entanglement is lost, immediately scramble forward as their leg clears. Use the momentum of their extraction to drive into their guard, establishing top position before they can set up defensive frames. Prioritize speed over technique in this scramble window.
 

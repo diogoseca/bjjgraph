@@ -146,7 +146,7 @@ description: "How to prevent the Turtle to Standing escape in BJJ. Recognition c
 
 As the top player in turtle, your objective when the bottom player attempts to stand is to maintain control and either keep them on the mat or capitalize on their movement to advance to a superior position such as back control. The defender in this context is the turtle top player who must recognize the stand-up attempt early through specific physical cues and respond with the appropriate counter-strategy. The critical defensive principle is that preventing the stand-up requires forward pressure and grip establishment before the explosive phase begins. Once the bottom player commits to the explosive upward drive, your ability to stop them drops dramatically. Therefore, early recognition and pre-emptive grip and weight management are the foundation of effective defense. The secondary principle is converting failed prevention into position advancement: if the bottom player partially stands, their movement creates opportunities for seatbelt control, front headlock transitions, or leg attacks that would not be available against a static turtle.
 
-**Opponent's Starting Position**: [[Turtle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ As the top player in turtle, your objective when the bottom player attempts to s
 ### 1. Drive weight forward and down to collapse their posting base before explosive phase
 
 - **When to use**: As soon as you feel their weight shift or see them begin to post a hand, before they commit to the explosive upward drive
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Bottom player's posted arm collapses and they return to flat turtle, allowing you to reestablish heavy top pressure and begin your attacking sequence
 - **Risk**: If you over-commit forward and they redirect with a sit-through or granby roll, you may end up in their guard or lose top position entirely
 
 ### 2. Secure seatbelt control by shooting choking arm under chin and locking harness grip
 
 - **When to use**: When you feel the initial weight shift but before their hips leave the mat, locking the harness prevents them from completing the stand even with explosive movement
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You establish full seatbelt control which prevents the stand-up and creates the platform for inserting hooks and transitioning to full back control
 - **Risk**: If your grip is not secured quickly enough, they may strip it with two-on-one fighting and use the grip battle to create a stand-up window
 
 ### 3. Transition to front headlock by circling to their head as they begin to rise
 
 - **When to use**: When the bottom player's head rises above turtle level during a partially successful stand attempt and you cannot maintain back position
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You establish front headlock control which shuts down the stand-up and creates immediate submission threats including guillotine, anaconda, and darce chokes
 - **Risk**: Circling to the head abandons back control position, and if they complete the stand during your transition you may end up in a neutral clinch without dominant grips
 
 ### 4. Insert near-side hook during their upward movement to follow them to back control
 
 - **When to use**: When the bottom player begins to stand and you cannot prevent the upward movement, riding their motion while inserting hooks converts their escape into your back take
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You establish at least one hook during their stand attempt, and combined with harness control you achieve standing back control or drag them back to the mat with back control established
 - **Risk**: If the hook is not secured before they create distance, you lose all control and they complete the escape to neutral standing
 
@@ -218,11 +218,11 @@ As the top player in turtle, your objective when the bottom player attempts to s
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Drive forward weight onto their upper back the instant you feel their hips begin to load for the stand-up. Collapse their posted arm by pushing diagonally downward through their shoulder on the posting side. Once they are flat, reestablish heavy chest-to-back pressure and begin your attacking sequence of seatbelt establishment, hook insertion, or front headlock transition.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When you feel the stand-up initiate, immediately lock seatbelt control by shooting your choking arm under their chin and clasping hands in a harness grip. Follow their upward movement by keeping your chest glued to their back and inserting the near-side hook as their hips extend. If they reach standing, you achieve standing back control which can be converted to a mat return and full back mount. The key is maintaining chest-to-back contact throughout their movement rather than trying to pull them back down.
 

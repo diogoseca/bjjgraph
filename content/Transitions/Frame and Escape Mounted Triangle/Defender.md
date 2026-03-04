@@ -146,7 +146,7 @@ description: "Counter the frame and escape from mounted triangle. Techniques for
 
 Defending against the frame and escape from mounted triangle requires the top player to recognize framing patterns early and respond with pressure adjustments, angle changes, and submission transitions before the escape sequence completes. The mounted triangle position offers tremendous submission potential, but its stability depends on preventing the bottom player from establishing the structural frames that create incremental space. Understanding common escape mechanics allows the top player to preemptively shut down escape pathways while maintaining offensive pressure through triangle tightening, armbar transitions on exposed arms, and mount re-establishment when the triangle structure becomes compromised beyond recovery.
 
-**Opponent's Starting Position**: [[Mounted Triangle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Mount/Mounted Triangle]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ Defending against the frame and escape from mounted triangle requires the top pl
 ### 1. Tighten triangle angle and increase active leg squeeze while pulling opponent's head with free hand
 
 - **When to use**: Immediately upon feeling the first frame placement against your hip before it solidifies
-- **Targets**: [[Mounted Triangle]]
+- **Targets**: [[Positions/Mount/Mounted Triangle]]
 - **If successful**: Escape attempt stalls completely, maintain triangle with renewed submission pressure and finishing potential
 - **Risk**: Sustained maximum squeeze is metabolically expensive; if escape continues despite effort, leg fatigue may compromise control
 
 ### 2. Target the extended framing arm for armbar transition by controlling the wrist and pivoting hips
 
 - **When to use**: When opponent's free arm extends and becomes isolated during framing, creating clear armbar pathway
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: Catch armbar on the framing arm, transitioning from triangle position to armbar control submission
 - **Risk**: Releasing triangle pressure to pursue armbar may create enough space for opponent to recover guard if armbar is not secured
 
 ### 3. Drive weight down and post wide on the escape side to block hip escape momentum
 
 - **When to use**: When feeling opponent initiate the first hip escape movement laterally toward their trapped arm side
-- **Targets**: [[Mounted Triangle]]
+- **Targets**: [[Positions/Mount/Mounted Triangle]]
 - **If successful**: Pin opponent's hips and prevent space creation while maintaining triangle pressure for submission finish
 - **Risk**: Wide posting may shift your balance point and create angle for opponent to extract arm or insert knee shield
 
 ### 4. Release triangle and immediately drive forward to re-establish high mount with crossface control
 
 - **When to use**: When triangle structure is significantly compromised by multiple successful hip escapes and frame is solid
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: Return to dominant mounted position with opportunity to re-attack with fresh submission sequences
 - **Risk**: If timing is poor, opponent may complete guard recovery during the transition and reach half guard or closed guard
 
@@ -216,11 +216,11 @@ Defending against the frame and escape from mounted triangle requires the top pl
 
 ## Best-Case Outcomes for Defender
 
-### → [[Mounted Triangle]]
+### → [[Positions/Mount/Mounted Triangle]]
 
 React immediately to framing attempts by tightening triangle squeeze, pulling opponent's head down with your free hand, and driving weight low through hips to pin their lateral movement. Maintain constant angle adjustment to nullify frame effectiveness and keep submission pressure active.
 
-### → [[Armbar Control]]
+### → [[Positions/Armbar Control]]
 
 When the opponent extends their framing arm during escape, control their wrist immediately and begin pivoting your hips for armbar. Their frame extension creates the exact arm exposure needed for the armbar transition. Secure elbow control before fully committing to the pivot to prevent them from retracting the arm.
 

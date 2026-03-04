@@ -156,7 +156,7 @@ description: "How to defend and escape the Armbar from Side Control in BJJ. Reco
 
 Defending the Armbar from Side Control requires understanding the attack's sequential nature—the submission cannot be applied instantly, so each phase of the attacker's setup presents a distinct defensive window. The most critical defensive moment occurs during the arm isolation phase, before the attacker steps over your head. Once the leg crosses your face and the hips are set perpendicular, escape becomes exponentially more difficult. Your defensive hierarchy should prioritize preventing arm isolation first, disrupting the step-over transition second, and fighting the finished position as a last resort. Understanding that each defensive action either returns you to side control bottom (where you can work standard escapes) or creates space to recover guard transforms this from a panic situation into a systematic defensive problem with clear solutions at each stage.
 
-**Opponent's Starting Position**: [[Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -196,28 +196,28 @@ Defending the Armbar from Side Control requires understanding the attack's seque
 ### 1. Clasp hands and turn into attacker during step-over
 
 - **When to use**: When the attacker has isolated your arm and begins stepping their leg over your head—this is the primary defensive window
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You prevent the perpendicular position from being established and return to side control bottom where standard escapes apply
 - **Risk**: If you turn too aggressively without controlling the arm, the attacker may take mount instead of completing the armbar
 
 ### 2. Bridge and roll toward the attacker as they transition
 
 - **When to use**: When the attacker commits their weight to the step-over and temporarily loses base on the far side—their momentum is your opportunity
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You end up inside their closed guard or in a scramble position where the armbar threat is neutralized
 - **Risk**: Mistiming the bridge allows the attacker to ride it and settle into the finished armbar with better control
 
 ### 3. Stack and drive forward from the finished position
 
 - **When to use**: As a last resort when caught in the completed armbar position with hips perpendicular and arm extended—drive your weight over them immediately
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You close the angle needed for hip extension, relieve pressure on the elbow, and can begin extracting your arm to recover top position
 - **Risk**: If the attacker has strong leg control and tight knees, stacking may not relieve enough pressure and you remain in the submission
 
 ### 4. Extract arm by rotating elbow down and pulling through
 
 - **When to use**: When the attacker's knees are not pinched tightly and there is space between their thighs—slip your elbow down toward the mat and pull the arm free
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Your arm is completely free and you can work to recover side control bottom or begin standing up
 - **Risk**: If the attacker feels the extraction attempt, they will pinch knees tighter and potentially accelerate the finish
 
@@ -241,11 +241,11 @@ Defending the Armbar from Side Control requires understanding the attack's seque
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Turn into the attacker during the step-over phase or stack from the finished position to collapse the submission angle and recover your original bottom position, then work standard side control escapes
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Bridge and roll during the attacker's transition to end up between their legs in closed guard, completely neutralizing the armbar and resetting to a neutral guard position
 

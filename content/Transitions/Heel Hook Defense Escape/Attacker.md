@@ -186,7 +186,7 @@ description: "Master heel hook defense escape execution from Honey Hole bottom. 
 
 As the person executing the Heel Hook Defense Escape, you are caught in the Honey Hole bottom position with your leg trapped in your opponent's inside leg triangle and your heel exposed for heel hook attack. Your immediate priority is protecting your heel from their grip, then executing an explosive rotational escape to extract your leg and recover to open guard. Success depends entirely on speed of reaction, total commitment to the escape direction, and the ability to chain grip fighting with rotational movement before your opponent can establish finishing mechanics. Every second of hesitation dramatically reduces your escape probability — this is a technique where explosive commitment in the first two seconds determines the outcome.
 
-**From Position**: [[Honey Hole]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Honey Hole]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ As the person executing the Heel Hook Defense Escape, you are caught in the Hone
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 40% |
-| Failure | [[Honey Hole]] | 35% |
-| Counter | [[Kneebar Control]] | 25% |
+| Success | [[Positions/Open Guard]] | 40% |
+| Failure | [[Positions/Ashi Garami/Honey Hole]] | 35% |
+| Counter | [[Positions/Kneebar Control]] | 25% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the person executing the Heel Hook Defense Escape, you are caught in the Hone
 
 ## Opponent Counters
 
-- **Opponent re-grips heel during rotation by cupping with other hand** (Effectiveness: High) - Your Response: Continue rotation with even more explosive commitment while using your near hand to strip the new grip. If they re-grip successfully, immediately assess whether you can complete the rotation or need to chain into inversion escape. → Leads to [[Honey Hole]]
-- **Opponent tightens triangle and follows rotation with their hips** (Effectiveness: High) - Your Response: Switch from rotational escape to inversion escape, rolling toward their legs to change the geometric angle. If triangle remains tight through both attempts, prepare to tap if heel hook pressure begins. → Leads to [[Honey Hole]]
-- **Opponent transitions to kneebar as your leg extends during extraction** (Effectiveness: Medium) - Your Response: Immediately bend your knee and pull it to your chest to prevent full extension. If kneebar is established, transition to kneebar defense protocols — boot defense and rotational escape from kneebar control. → Leads to [[Kneebar Control]]
-- **Opponent controls your free leg to eliminate posting ability** (Effectiveness: Medium) - Your Response: Kick the free leg aggressively to break their grip before they establish two-leg control. Use your hands to push their reaching arm away and immediately re-post the free foot on their hip to maintain escape capability. → Leads to [[Honey Hole]]
+- **Opponent re-grips heel during rotation by cupping with other hand** (Effectiveness: High) - Your Response: Continue rotation with even more explosive commitment while using your near hand to strip the new grip. If they re-grip successfully, immediately assess whether you can complete the rotation or need to chain into inversion escape. → Leads to [[Positions/Ashi Garami/Honey Hole]]
+- **Opponent tightens triangle and follows rotation with their hips** (Effectiveness: High) - Your Response: Switch from rotational escape to inversion escape, rolling toward their legs to change the geometric angle. If triangle remains tight through both attempts, prepare to tap if heel hook pressure begins. → Leads to [[Positions/Ashi Garami/Honey Hole]]
+- **Opponent transitions to kneebar as your leg extends during extraction** (Effectiveness: Medium) - Your Response: Immediately bend your knee and pull it to your chest to prevent full extension. If kneebar is established, transition to kneebar defense protocols — boot defense and rotational escape from kneebar control. → Leads to [[Positions/Kneebar Control]]
+- **Opponent controls your free leg to eliminate posting ability** (Effectiveness: Medium) - Your Response: Kick the free leg aggressively to break their grip before they establish two-leg control. Use your hands to push their reaching arm away and immediately re-post the free foot on their hip to maintain escape capability. → Leads to [[Positions/Ashi Garami/Honey Hole]]
 
 
 </section>

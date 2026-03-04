@@ -21,7 +21,7 @@ This counter relies on the fundamental principle that when an attacker commits f
 
 Strategically, the Counter Heel Hook represents the highest-level defensive option from 50-50 Bottom because it maintains engagement in the leg lock exchange rather than conceding position through escape. This approach is favored by elite leg lock specialists who have confidence in their submission finishing ability. However, it carries significant risk since both practitioners are simultaneously attacking and defending, making tap recognition and injury prevention critical considerations.
 
-**From Position**: [[50-50 Guard]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, the Counter Heel Hook represents the highest-level defensive opti
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 45% |
-| Success | [[Honey Hole]] | 20% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[Ashi Garami]] | 10% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 45% |
+| Success | [[Positions/Ashi Garami/Honey Hole]] | 20% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami]] | 10% |
 
 
 </section>
@@ -192,25 +192,25 @@ The Counter Heel Hook sits at the highest level of 50-50 Guard Bottom defense, r
 ## Related Techniques
 
 
-- [[50-50 Guard]] - Starting position for this counter technique
+- [[Positions/Ashi Garami/50-50 Guard]] - Starting position for this counter technique
 
-- [[Inside Heel Hook]] - Primary submission finish after successful counter
+- [[Submissions/Inside Heel Hook]] - Primary submission finish after successful counter
 
-- [[Inside Ashi-Garami]] - Primary success outcome providing improved control for finishing
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary success outcome providing improved control for finishing
 
-- [[Honey Hole]] - Advanced success outcome providing dominant finishing position
+- [[Positions/Ashi Garami/Honey Hole]] - Advanced success outcome providing dominant finishing position
 
-- [[Ashi Garami]] - Counter outcome position when opponent reverses the exchange
+- [[Positions/Ashi Garami]] - Counter outcome position when opponent reverses the exchange
 
-- [[Heel Hook]] - Core submission mechanic underlying both attack and defense
+- [[Transitions/Heel Hook]] - Core submission mechanic underlying both attack and defense
 
-- [[Kneebar]] - Chain attack when opponent straightens leg to extract heel
+- [[Transitions/Kneebar]] - Chain attack when opponent straightens leg to extract heel
 
-- [[Back Take from 50-50]] - Positional alternative when leg lock exchanges are stalemated
+- [[Transitions/Back Take from 50-50]] - Positional alternative when leg lock exchanges are stalemated
 
-- [[Ashi Garami Escape]] - Fallback option when counter attempt fails and extraction is needed
+- [[Transitions/Ashi Garami Escape]] - Fallback option when counter attempt fails and extraction is needed
 
-- [[Straight Ankle Lock]] - Alternative leg attack available from the 50-50 entanglement
+- [[Submissions/Straight Ankle Lock]] - Alternative leg attack available from the 50-50 entanglement
 
 
 </section>

@@ -21,7 +21,7 @@ Unlike traditional sweeps that rely primarily on hip movement or timing, the Sin
 
 The Single Leg X Sweep is a cornerstone technique in modern leg entanglement systems and connects seamlessly to various offensive sequences including back takes, other leg attacks, and transitional positions. Its high success rate across skill levels makes it an essential technique for any guard player, particularly those who favor open guard systems and leg-based guards. The sweep's effectiveness comes from its ability to work against standing or kneeling opponents and its natural progression into dominant positions or submission opportunities.
 
-**From Position**: [[Single Leg X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Single Leg X-Guard]] (Bottom)
 **Success Rate**: 78%
 
 </section>
@@ -32,9 +32,9 @@ The Single Leg X Sweep is a cornerstone technique in modern leg entanglement sys
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 75% |
-| Failure | [[Single Leg X-Guard]] | 15% |
-| Counter | [[Single Leg X-Guard]] | 10% |
+| Success | [[Positions/Standing Position]] | 75% |
+| Failure | [[Positions/X-Guard/Single Leg X-Guard]] | 15% |
+| Counter | [[Positions/X-Guard/Single Leg X-Guard]] | 10% |
 
 
 </section>
@@ -201,25 +201,25 @@ The Single Leg X Sweep is a cornerstone technique within the broader X-Guard and
 ## Related Techniques
 
 
-- [[Single Leg X Entry]] - Primary entry technique to establish the position
+- [[Transitions/Single Leg X Entry]] - Primary entry technique to establish the position
 
-- [[X-Guard Sweep]] - Related sweep from connected position
+- [[Transitions/X-Guard Sweep]] - Related sweep from connected position
 
-- [[Technical Stand Up to Single Leg]] - Alternative completion method from same position
+- [[Transitions/Technical Stand Up to Single Leg]] - Alternative completion method from same position
 
-- [[Waiter Sweep]] - Variation that uses similar mechanics with different angle
+- [[Transitions/Waiter Sweep]] - Variation that uses similar mechanics with different angle
 
-- [[Kneebar]] - Follow-up submission opportunity from sweep completion
+- [[Transitions/Kneebar]] - Follow-up submission opportunity from sweep completion
 
-- [[Elevator Sweep]] - Alternative sweep using similar elevation principles
+- [[Transitions/Elevator Sweep]] - Alternative sweep using similar elevation principles
 
-- [[De La Riva Sweep]] - Related guard sweep that often precedes Single Leg X entry
+- [[Transitions/De La Riva Sweep]] - Related guard sweep that often precedes Single Leg X entry
 
-- [[Butterfly Sweep]] - Complementary sweep in open guard system
+- [[Transitions/Butterfly Sweep]] - Complementary sweep in open guard system
 
-- [[Standing to Single Leg X]] - Entry pathway from standing guard
+- [[Transitions/Standing to Single Leg X]] - Entry pathway from standing guard
 
-- [[Ankle Pick Sweep]] - Alternative sweep targeting similar positions
+- [[Transitions/Ankle Pick Sweep]] - Alternative sweep targeting similar positions
 
 
 </section>

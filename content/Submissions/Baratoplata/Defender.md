@@ -156,7 +156,7 @@ description: "How to defend against Baratoplata in BJJ. Recognition cues, escape
 
 Defending the Baratoplata requires understanding the position's progression from rubber guard through arm weave to shoulder rotation finish. The defender's primary advantage is that the Baratoplata has multiple setup stages, each offering a distinct defensive window. Early recognition is critical because once the arm weave is fully locked with the attacker's grip secured on their shin, defensive options become extremely limited and the shoulder is already in danger. The defender must prioritize posture recovery and arm extraction above all else, as the submission cannot be finished if the attacker cannot maintain broken posture and arm isolation. Understanding the specific mechanics of the arm weave allows the defender to target the weakest link in the control chain rather than fighting the entire system. The most successful defensive approach combines proactive posture maintenance, aggressive grip fighting to prevent the weave, and awareness of transition opportunities when the attacker overcommits to the setup.
 
-**Opponent's Starting Position**: [[Rubber Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard]] (Bottom)
 
 
 </section>
@@ -196,28 +196,28 @@ Defending the Baratoplata requires understanding the position's progression from
 ### 1. Posture recovery with explosive bridge and arm extraction
 
 - **When to use**: Early stage - when opponent is transitioning from Mission Control to New York but before arm weave is threaded
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Returns to neutral closed guard or open guard where you can begin passing sequences
 - **Risk**: If timed poorly, the upward movement can assist opponent's triangle entry from rubber guard
 
 ### 2. Stack and drive forward to collapse high guard position
 
 - **When to use**: Mid stage - when opponent has begun threading the weave but has not yet secured grip on their shin
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Collapses the rubber guard structure, forcing opponent back to closed guard with broken control
 - **Risk**: Forward drive can feed into omoplata if opponent redirects your momentum and rotates underneath
 
 ### 3. Free arm post and frame to prevent hip extension
 
 - **When to use**: Late stage - when arm weave is partially or fully locked but opponent has not yet begun finishing hip extension
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Prevents the rotational pressure needed to finish, buying time to work arm extraction
 - **Risk**: Opponent may hook your free arm with their bottom leg, transitioning toward crucifix control
 
 ### 4. Grip fight to strip the shin grip and break the arm weave chain
 
 - **When to use**: Any stage where you can access opponent's grip on their own shin with your free hand
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Breaks the closed kinetic chain of the arm weave, allowing arm extraction and position recovery
 - **Risk**: Reaching across to fight grips can expose your neck to triangle or other choke entries
 
@@ -240,11 +240,11 @@ Defending the Baratoplata requires understanding the position's progression from
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Recover posture before arm weave is established by driving weight back and up while fighting head control grips, then extract trapped arm and establish combat base for guard passing
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Strip the attacker's shin grip to break the arm weave chain, then use free arm frames to create space and extract trapped arm while maintaining forward pressure
 

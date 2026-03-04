@@ -154,7 +154,7 @@ description: "Defend against the Smash Pass from Knee Shield in BJJ. Recognition
 
 As the defender against the Smash Pass from Knee Shield, your objective is to prevent the top player from collapsing your knee shield barrier and advancing to side control. Your defensive strategy operates on three levels: first, maintain the structural integrity of the knee shield through active frame management and hip mobility; second, threaten offensive counters like underhook sweeps and deep half transitions that force the passer to respect your guard; and third, recognize the critical moments in the pass sequence where defensive interventions are most effective. The smash pass is a grinding, pressure-based technique, so your defense must be equally systematic—explosive bursts of energy without strategic purpose will exhaust you while barely slowing the passer. Instead, combine skeletal frames with timed hip escapes and grip fighting to deny the passer the control points they need to complete the sequence.
 
-**Opponent's Starting Position**: [[Knee Shield Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the Smash Pass from Knee Shield, your objective is to pr
 ### 1. Frame on passer's shoulder and hip escape away to re-establish knee shield distance
 
 - **When to use**: Early in the pass sequence before the shield has been driven past your centerline, when you still have frame strength and hip mobility
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: Knee shield is re-established at full strength with distance restored, forcing the passer to restart their sequence
 - **Risk**: If the hip escape is too slow or the frame collapses, the passer follows your movement and continues the collapse with increased momentum
 
 ### 2. Thread underhook on near side and elevate to dogfight or sweep position
 
 - **When to use**: When the passer commits weight forward during the collapse and their near arm is occupied with crossface, creating space to swim for the underhook
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: You achieve an underhook sweep to top position or establish dogfight where you have equal or better positioning
 - **Risk**: If the passer whizzers your underhook and drives you flat, you lose the shield and end up in a worse position than before
 
 ### 3. Dive underneath passer's hips to transition to deep half guard
 
 - **When to use**: When the shield is partially collapsed and re-establishing it is no longer viable, but the passer has not yet completed the hip switch
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: You establish deep half guard with sweep potential, negating the smash pass by changing the positional dynamic entirely
 - **Risk**: If the passer sprawls before you get underneath, you end up flattened in a degraded half guard with no shield and limited options
 
 ### 4. Extend knee shield aggressively outward while gripping passer's collar or head to create maximum distance
 
 - **When to use**: When you detect the initial angling and grip establishment phase, before the passer has committed to the lateral drive
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: The extended shield creates too much distance for the passer to maintain shoulder contact, forcing them to reset or switch passing approaches
 - **Risk**: An over-extended shield is vulnerable to backstep passes and can be redirected more easily if the passer releases and re-engages from a different angle
 
@@ -225,11 +225,11 @@ As the defender against the Smash Pass from Knee Shield, your objective is to pr
 
 ## Best-Case Outcomes for Defender
 
-### → [[Knee Shield Half Guard]]
+### → [[Positions/Half Guard/Knee Shield Half Guard]]
 
 Maintain active knee shield with constant outward pressure, combine frames with timed hip escapes to deny the passer the angle needed for the collapse. Control at least one of the passer's arms and threaten sweeps to keep them defensive. The goal is to force the passer to reset or abandon the smash pass entirely.
 
-### → [[Knee Shield Half Guard]]
+### → [[Positions/Half Guard/Knee Shield Half Guard]]
 
 Time your underhook sweep when the passer commits their weight forward during the shield collapse. Thread your near arm for a deep underhook while they are focused on controlling the shield leg and driving crossface. Come up to dogfight and use their forward momentum against them to complete the sweep to top position.
 

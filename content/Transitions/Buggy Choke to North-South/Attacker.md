@@ -180,7 +180,7 @@ description: "Execute the Buggy Choke to North-South transition in BJJ. Step-by-
 
 As the attacker executing the Buggy Choke to North-South transition, your objective is to recognize when the buggy choke submission is stalling and smoothly convert your existing control structure into north-south pin dominance. This transition requires reading your opponent's defensive commitment, maintaining continuous pressure during the grip release and body repositioning, and establishing north-south control before the opponent can exploit the transitional gap to recover turtle, sit to guard, or create scramble opportunities. The key insight is that your buggy choke grips have already broken down the opponent's turtle posture — the transition capitalizes on this structural damage rather than abandoning it. Successful execution transforms a failing submission attempt into a dominant control position with fresh submission pathways.
 
-**From Position**: [[Buggy Choke]] (Top)
+**From Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the Buggy Choke to North-South transition, your object
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[North-South]] | 55% |
-| Failure | [[Buggy Choke]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/North-South]] | 55% |
+| Failure | [[Positions/Buggy Choke]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the Buggy Choke to North-South transition, your object
 
 ## Opponent Counters
 
-- **Opponent sits to guard during grip release, recovering half guard or closed guard before north-south is established** (Effectiveness: High) - Your Response: Maintain heavy hip pressure on their near hip during the grip release to prevent sitting motion. If they begin sitting, immediately hook their near leg and convert to a back take rather than continuing to north-south. → Leads to [[Half Guard]]
-- **Opponent drives up to turtle base and recovers posture during the hip walk, reestablishing defensive turtle structure** (Effectiveness: Medium) - Your Response: Increase chest weight and drive downward pressure continuously during the transition. If they recover turtle, re-enter the buggy choke or switch to an alternative turtle attack rather than forcing the north-south slide against a posted opponent. → Leads to [[Buggy Choke]]
-- **Opponent granby rolls away during the transition gap, creating distance and recovering to open guard or standing** (Effectiveness: Medium) - Your Response: Anticipate the granby by keeping your head heavy and connected to the opponent's body. If the roll begins, follow with your hips and convert to a truck entry or sprawl to re-engage on their turtle before they complete the roll to guard. → Leads to [[Half Guard]]
-- **Opponent frames against your chest with forearms as you arrive in north-south, preventing full pressure establishment** (Effectiveness: Low) - Your Response: Collapse the frames by driving your chest forward and angling your shoulders to slip past their forearms. Use your hands to strip their frames one at a time while maintaining body weight pressure. Alternatively, switch to side control if frames prevent north-south consolidation. → Leads to [[Buggy Choke]]
+- **Opponent sits to guard during grip release, recovering half guard or closed guard before north-south is established** (Effectiveness: High) - Your Response: Maintain heavy hip pressure on their near hip during the grip release to prevent sitting motion. If they begin sitting, immediately hook their near leg and convert to a back take rather than continuing to north-south. → Leads to [[Positions/Half Guard]]
+- **Opponent drives up to turtle base and recovers posture during the hip walk, reestablishing defensive turtle structure** (Effectiveness: Medium) - Your Response: Increase chest weight and drive downward pressure continuously during the transition. If they recover turtle, re-enter the buggy choke or switch to an alternative turtle attack rather than forcing the north-south slide against a posted opponent. → Leads to [[Positions/Buggy Choke]]
+- **Opponent granby rolls away during the transition gap, creating distance and recovering to open guard or standing** (Effectiveness: Medium) - Your Response: Anticipate the granby by keeping your head heavy and connected to the opponent's body. If the roll begins, follow with your hips and convert to a truck entry or sprawl to re-engage on their turtle before they complete the roll to guard. → Leads to [[Positions/Half Guard]]
+- **Opponent frames against your chest with forearms as you arrive in north-south, preventing full pressure establishment** (Effectiveness: Low) - Your Response: Collapse the frames by driving your chest forward and angling your shoulders to slip past their forearms. Use your hands to strip their frames one at a time while maintaining body weight pressure. Alternatively, switch to side control if frames prevent north-south consolidation. → Leads to [[Positions/Buggy Choke]]
 
 
 </section>

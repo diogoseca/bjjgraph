@@ -158,7 +158,7 @@ Defending the belly down armbar finish represents one of the most challenging su
 
 The defensive hierarchy requires immediate arm protection through bending the elbow and establishing a clasped grip, followed by body rotation to follow the attacker's movement and reduce isolation angle, and finally exploitation of any transitional gaps to extract the arm or recover to a safer position. Energy management is critical because the belly-down position favors the attacker's endurance, making explosive but failed escape attempts progressively more costly. The defender who maintains composure, protects the arm structurally rather than muscularly, and identifies the correct timing window has the best chance of survival and escape.
 
-**Opponent's Starting Position**: [[Armbar Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Armbar Control]] (Top)
 
 
 </section>
@@ -197,28 +197,28 @@ The defensive hierarchy requires immediate arm protection through bending the el
 ### 1. Immediately bend arm and grip own lapel, belt, or opposite wrist to create structural extension resistance
 
 - **When to use**: As soon as you feel the rotational cue from the attacker's hips beginning to turn away
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: Prevents full extension in the belly-down position, forcing attacker to work a grip break from a less dominant angle
 - **Risk**: If the clasped grip is weak or established too late, attacker can peel it and finish from the stronger belly-down angle
 
 ### 2. Follow the attacker's rotation by turning your body in the same direction to reduce arm isolation angle
 
 - **When to use**: During the transitional window before the attacker settles into the fully established prone position
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Reduces arm isolation angle and creates scramble opportunity where you can potentially recover guard
 - **Risk**: If attacker has deep wrist control and tight knees, following the rotation may not create sufficient escape angle
 
 ### 3. Explosive bridge combined with arm retraction during the transition gap between supine and prone
 
 - **When to use**: In the brief moment when attacker's control loosens during the supine-to-prone rotational movement
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Extracts arm completely during the weakest point of the attacker's control and recovers to guard
 - **Risk**: Requires precise timing as the window is very brief. Too early and attacker has not yet loosened, too late and prone is established
 
 ### 4. Roll toward the attacker to reduce extension leverage and create a top position scramble
 
 - **When to use**: When attacker has completed the prone transition but has not yet settled full hip pressure onto the mat
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: Creates a scramble where the attacker's prone position becomes disadvantageous and you can work to free the arm
 - **Risk**: Can accelerate the submission if the roll is misdirected or if arm extension increases during the rolling movement
 
@@ -241,11 +241,11 @@ The defensive hierarchy requires immediate arm protection through bending the el
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time a bridge and arm retraction during the attacker's rotational transition, extracting the arm before prone position is established, then close guard as the attacker loses control
 
-### → [[Armbar Control]]
+### → [[Positions/Armbar Control]]
 
 Establish a strong clasped-hand grip that prevents extension, forcing the attacker to abandon the belly-down attempt and return to standard armbar control where more defensive options exist
 

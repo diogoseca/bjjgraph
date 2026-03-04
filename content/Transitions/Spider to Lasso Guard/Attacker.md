@@ -180,7 +180,7 @@ description: "Master the Spider to Lasso Guard transition from the attacker pers
 
 From Spider Guard Bottom, the transition to Lasso Guard represents a strategic upgrade in your guard control hierarchy. By threading your shin underneath and across the opponent's arm while maintaining your sleeve grip, you convert simple bicep pressure into a powerful lever system that dramatically restricts the top player's ability to pass. This transition requires precise timing and grip coordination, as the brief window during leg threading creates vulnerability that the opponent can exploit. Mastering this entry is essential for any serious gi guard player, as it allows you to reactively escalate control whenever the opponent begins settling against your spider guard or attempts to break your foot-on-bicep pressure.
 
-**From Position**: [[Spider Guard]] (Bottom)
+**From Position**: [[Positions/Spider Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ From Spider Guard Bottom, the transition to Lasso Guard represents a strategic u
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Lasso Guard]] | 55% |
-| Failure | [[Spider Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Lasso Guard]] | 55% |
+| Failure | [[Positions/Spider Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ From Spider Guard Bottom, the transition to Lasso Guard represents a strategic u
 
 ## Opponent Counters
 
-- **Opponent strips sleeve grip during the threading motion when foot leaves bicep** (Effectiveness: High) - Your Response: Accelerate the threading if grip is partially maintained, or immediately recover foot to bicep to reestablish spider guard before they advance → Leads to [[Spider Guard]]
-- **Opponent retracts arm and steps back to create distance before leg can thread underneath** (Effectiveness: Medium) - Your Response: Follow with hip movement to maintain range, use the sleeve grip pull to prevent full withdrawal, or redirect to the opposite arm for lasso entry on the other side → Leads to [[Spider Guard]]
-- **Opponent drives forward with aggressive stacking pressure during the transition window** (Effectiveness: High) - Your Response: Post the non-lasso foot on their hip to create frame against the stack, angle your hips away from the pressure, and use the forward momentum to accelerate the threading motion → Leads to [[Open Guard]]
-- **Opponent circles to the outside of the threading leg to bypass the lasso before it seats** (Effectiveness: Medium) - Your Response: Follow their movement with hip rotation to maintain the perpendicular angle, or abandon the lasso and transition to De La Riva guard using their circling leg as the hook target → Leads to [[Spider Guard]]
+- **Opponent strips sleeve grip during the threading motion when foot leaves bicep** (Effectiveness: High) - Your Response: Accelerate the threading if grip is partially maintained, or immediately recover foot to bicep to reestablish spider guard before they advance → Leads to [[Positions/Spider Guard]]
+- **Opponent retracts arm and steps back to create distance before leg can thread underneath** (Effectiveness: Medium) - Your Response: Follow with hip movement to maintain range, use the sleeve grip pull to prevent full withdrawal, or redirect to the opposite arm for lasso entry on the other side → Leads to [[Positions/Spider Guard]]
+- **Opponent drives forward with aggressive stacking pressure during the transition window** (Effectiveness: High) - Your Response: Post the non-lasso foot on their hip to create frame against the stack, angle your hips away from the pressure, and use the forward momentum to accelerate the threading motion → Leads to [[Positions/Open Guard]]
+- **Opponent circles to the outside of the threading leg to bypass the lasso before it seats** (Effectiveness: Medium) - Your Response: Follow their movement with hip rotation to maintain the perpendicular angle, or abandon the lasso and transition to De La Riva guard using their circling leg as the hook target → Leads to [[Positions/Spider Guard]]
 
 
 </section>

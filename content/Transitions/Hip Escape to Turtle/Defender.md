@@ -156,7 +156,7 @@ As the defender against Hip Escape to Turtle, you are the person maintaining bod
 
 Your primary tools are squeeze pressure modulation, upper body attack timing, and positional adjustments that follow your opponent's movement. The hip escape to turtle attempt creates predictable defensive patterns you can exploit: when they turn toward your triangle leg, their neck becomes more accessible; when they focus on the lock, their neck defense weakens; when they hip escape, they create space you can fill by following with your hips. Mastering the retention game from body triangle means understanding the escape mechanics well enough to counter each phase before it gains momentum.
 
-**Opponent's Starting Position**: [[Body Triangle]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ Your primary tools are squeeze pressure modulation, upper body attack timing, an
 ### 1. Increase squeeze pressure and pull opponent back to center alignment when they begin turning toward the triangle leg
 
 - **When to use**: As soon as you feel opponent rotating their shoulders toward your triangle leg side, before they complete the turn
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: Opponent is forced back to a flat or neutral position where the squeeze is maximally effective and their escape angle is eliminated
 - **Risk**: Sustained maximum squeeze is metabolically expensive and your legs will fatigue if you maintain peak pressure for extended periods
 
 ### 2. Attack the neck with rear naked choke or collar choke whenever opponent moves their hands from neck defense to work on the triangle lock
 
 - **When to use**: The moment opponent removes their defensive hand from their neck to push on your ankle or foot, creating an immediate window for choke entry
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: Opponent must abandon triangle clearing to defend neck, resetting their escape and potentially leading to submission finish
 - **Risk**: If your choke attempt is defended, you may briefly loosen your upper body control, giving opponent a window to continue escape work
 
 ### 3. Follow opponent's hip escape with your own hip adjustment to maintain optimal squeezing angle and chest-to-back connection
 
 - **When to use**: When opponent shrimps or hip escapes to create distance between their body and your locked legs
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: You negate the space creation and maintain the same relative position, forcing opponent to restart their escape sequence
 - **Risk**: Following too aggressively can compromise your own base and potentially allow opponent to roll you or create scramble opportunities
 
 ### 4. Transition to standard hooks when the body triangle lock is compromised, maintaining back control through hook insertion before opponent reaches turtle
 
 - **When to use**: When opponent has partially cleared the figure-four lock and re-establishing the triangle would require releasing too much control
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You maintain back control with hooks, which while less dominant than body triangle still prevents the escape and retains your attacking position
 - **Risk**: Hooks are easier for opponent to clear than body triangle, so you are accepting a downgrade in control quality
 
@@ -227,11 +227,11 @@ Your primary tools are squeeze pressure modulation, upper body attack timing, an
 
 ## Best-Case Outcomes for Defender
 
-### → [[Body Triangle]]
+### → [[Positions/Back Control/Body Triangle]]
 
 Shut down the escape at the earliest phase by maintaining tight chest-to-back connection, following hip movement, and attacking the neck whenever opponent redirects their hands to work on the lock. Periodically re-set your figure-four lock depth to prevent gradual loosening.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the body triangle lock is compromised beyond recovery, immediately transition to standard hooks by inserting your feet inside opponent's thighs before they can reach turtle. Maintain seatbelt grip throughout the transition to preserve upper body control and submission threat.
 

@@ -186,7 +186,7 @@ description: "Learn to execute the stack pass from inverted lasso guard. Step-by
 
 The stack from inverted lasso guard is a pressure-based passing technique where the top player exploits the bottom player's extended inverted posture by driving compressive forward pressure through their shoulders and chest. This folds the inverted player over their own spine, neutralizing hip elevation and sweep mechanics while creating slack in the lasso hook for arm extraction. The technique requires precise timing and angle selection — initiating the stack during the commitment phase of the inversion creates maximum compression while the bottom player's defensive options are limited by their inverted body position. Success depends on controlling the angle of pressure to compress rather than elevate, maintaining wide base throughout to resist counter-sweeps, and systematically extracting the lassoed arm once sufficient slack is generated.
 
-**From Position**: [[Inverted Lasso Guard]] (Top)
+**From Position**: [[Positions/Lasso Guard/Inverted Lasso Guard]] (Top)
 
 </section>
 
@@ -240,10 +240,10 @@ The stack from inverted lasso guard is a pressure-based passing technique where 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Side Control]] | 20% |
-| Failure | [[Inverted Lasso Guard]] | 25% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Side Control]] | 20% |
+| Failure | [[Positions/Lasso Guard/Inverted Lasso Guard]] | 25% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -252,9 +252,9 @@ The stack from inverted lasso guard is a pressure-based passing technique where 
 
 ## Opponent Counters
 
-- **Bottom player frames against shoulders and hip escapes to prevent compression from establishing** (Effectiveness: High) - Your Response: Lower your angle of attack to drive beneath the frames, targeting the midsection rather than the chest where frames are strongest. Alternatively, transition to a different passing approach if frames fully block shoulder access. → Leads to [[Inverted Lasso Guard]]
-- **Bottom player redirects stacking momentum into overhead sweep by extending lasso hook and pulling with grips** (Effectiveness: Medium) - Your Response: Widen your base immediately when you feel your weight traveling past the balance point. Shift hips back and lower your center of gravity rather than continuing forward. If the sweep initiates, backstep to one side rather than fighting the momentum. → Leads to [[Mount]]
-- **Bottom player extends lasso hook forcefully to resist the spinal fold and maintain hip elevation** (Effectiveness: Medium) - Your Response: Change the angle of compressive pressure to attack perpendicular to the lasso's structural line rather than fighting directly against the extension. Angle your drive slightly to one side to collapse the lasso's leverage advantage. → Leads to [[Inverted Lasso Guard]]
+- **Bottom player frames against shoulders and hip escapes to prevent compression from establishing** (Effectiveness: High) - Your Response: Lower your angle of attack to drive beneath the frames, targeting the midsection rather than the chest where frames are strongest. Alternatively, transition to a different passing approach if frames fully block shoulder access. → Leads to [[Positions/Lasso Guard/Inverted Lasso Guard]]
+- **Bottom player redirects stacking momentum into overhead sweep by extending lasso hook and pulling with grips** (Effectiveness: Medium) - Your Response: Widen your base immediately when you feel your weight traveling past the balance point. Shift hips back and lower your center of gravity rather than continuing forward. If the sweep initiates, backstep to one side rather than fighting the momentum. → Leads to [[Positions/Mount]]
+- **Bottom player extends lasso hook forcefully to resist the spinal fold and maintain hip elevation** (Effectiveness: Medium) - Your Response: Change the angle of compressive pressure to attack perpendicular to the lasso's structural line rather than fighting directly against the extension. Angle your drive slightly to one side to collapse the lasso's leverage advantage. → Leads to [[Positions/Lasso Guard/Inverted Lasso Guard]]
 
 
 </section>

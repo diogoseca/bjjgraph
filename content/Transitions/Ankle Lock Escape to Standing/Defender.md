@@ -146,7 +146,7 @@ description: "Master preventing the ankle lock escape to standing. Complete guid
 
 From the perspective of the ankle lock attacker, preventing the escape to standing requires reading the defender's escape initiation cues and immediately tightening the appropriate control elements before the escape gains momentum. The primary defensive challenge is maintaining grip security on the ankle while simultaneously preventing the hip rotation and framing that precede standing attempts. Effective prevention begins at the earliest indicators, addressing free-hand posting and weight shifting rather than reacting to a fully committed standing attempt. The ankle lock attacker who waits until their opponent is mid-stand has already conceded the positional battle and must shift to counter-transition strategies rather than control retention.
 
-**Opponent's Starting Position**: [[Straight Ankle Lock Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ From the perspective of the ankle lock attacker, preventing the escape to standi
 ### 1. Deepen Achilles grip and increase submission pressure to force tap or disrupt escape mechanics
 
 - **When to use**: When the opponent begins grip fighting but has not yet broken your primary ankle control, use increased pressure to force them to prioritize defending the submission over continuing the escape
-- **Targets**: [[Straight Ankle Lock Control]]
+- **Targets**: [[Positions/Straight Ankle Lock Control]]
 - **If successful**: Opponent abandons escape attempt due to submission threat and must address ankle pressure before resuming escape sequence
 - **Risk**: Over-commitment to finishing may sacrifice leg control, opening the escape pathway if the submission attempt is unsuccessful
 
 ### 2. Complete leg triangle wrap to prevent hip rotation and knee retraction
 
 - **When to use**: Immediately upon detecting hip rotation preparation or free leg pushing against your controlling legs, close the leg triangle to lock the trapped leg in extended position
-- **Targets**: [[Straight Ankle Lock Control]]
+- **Targets**: [[Positions/Straight Ankle Lock Control]]
 - **If successful**: Opponent loses hip mobility and standing capability, forcing them to abandon standing escape in favor of lower percentage alternative defenses
 - **Risk**: If the opponent has already created significant rotational angle, completing the triangle may be difficult and attempting it exposes your legs to counter-kicks
 
 ### 3. Use opponent's upward standing momentum to come on top by following their movement and establishing top position
 
 - **When to use**: When the opponent commits fully to the standing drive and your grip on the ankle is loosening, follow their upward movement to transition from bottom to top position
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You arrive in top position with the opponent on their back in open guard, converting a lost ankle lock into a favorable passing position
 - **Risk**: If your timing is late, the opponent completes the stand and you end up in a neutral standing position having lost all control
 
 ### 4. Thread inside leg to transition to inside ashi garami using the opponent's escape movement
 
 - **When to use**: When the opponent rotates their hip away from you during the escape, creating the space needed for your inside leg to penetrate to the far side
-- **Targets**: [[Straight Ankle Lock Control]]
+- **Targets**: [[Positions/Straight Ankle Lock Control]]
 - **If successful**: The escape attempt transforms into your advancement to inside ashi garami, a more dominant leg entanglement with heel hook opportunities
 - **Risk**: If the opponent recognizes the threading attempt, they may reverse their rotation or kick your leg free, completing their standing escape
 
@@ -217,11 +217,11 @@ From the perspective of the ankle lock attacker, preventing the escape to standi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Straight Ankle Lock Control]]
+### → [[Positions/Straight Ankle Lock Control]]
 
 Maintain ankle grip security through dynamic re-gripping that defeats two-on-one breaks while simultaneously completing the leg triangle to prevent hip rotation. Address escape cues at their earliest appearance rather than waiting for full commitment. The combination of unbreakable grip and complete leg control eliminates the standing escape as a viable option.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 When grip retention fails and the opponent begins standing, follow their upward movement by releasing the submission attempt and using the remaining leg connection to transition to top position. Time the release to coincide with their weight transfer to the posting leg, using that brief moment of single-leg balance to drive them back to the mat.
 

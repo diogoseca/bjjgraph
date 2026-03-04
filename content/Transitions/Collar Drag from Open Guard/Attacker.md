@@ -182,7 +182,7 @@ As the attacker executing the collar drag from open guard, your primary objectiv
 
 The collar drag rewards patience and reading ability over explosiveness. The best collar drags appear effortless because the attacker waits for the precise moment when the opponent's weight shifts forward, then applies the drag at the peak of their forward commitment. This requires developing sensitivity to your opponent's weight distribution through your grips and leg frames, recognizing the subtle shifts that signal opportunity. Once you internalize this timing, the collar drag becomes one of the highest-percentage techniques in your open guard arsenal, capable of reversing position against larger, stronger opponents with minimal energy expenditure.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ The collar drag rewards patience and reading ability over explosiveness. The bes
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 55% |
-| Failure | [[Open Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Front Headlock]] | 55% |
+| Failure | [[Positions/Open Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ The collar drag rewards patience and reading ability over explosiveness. The bes
 
 ## Opponent Counters
 
-- **Opponent posts hand and sprawls hips back immediately upon feeling the drag** (Effectiveness: High) - Your Response: If the post is strong, release the drag and immediately transition to an arm drag on the posting arm, or reset your guard and re-establish foot frames. The posted arm is vulnerable because it is extended and weight-bearing. → Leads to [[Open Guard]]
-- **Opponent strips the collar grip before you can initiate the drag by two-on-one grip breaking** (Effectiveness: High) - Your Response: Immediately re-grip or switch to a same-side collar grip. If they consistently strip grips, feint the collar drag and attack with a different technique when their hands are occupied with grip fighting. → Leads to [[Open Guard]]
-- **Opponent drives forward aggressively through the drag attempt, using their momentum to smash past your guard** (Effectiveness: Medium) - Your Response: If they drive too hard, use their forward momentum to pull them into a guillotine or convert to butterfly hooks and elevate for a sweep. Their aggressive forward drive can be redirected if you maintain hip connection. → Leads to [[Half Guard]]
-- **Opponent circles laterally away from the drag direction, negating the pulling angle** (Effectiveness: Medium) - Your Response: Follow their circling motion with your hips and readjust your pulling angle. If they circle consistently to one side, set up an arm drag to the opposite side to exploit their lateral movement pattern. → Leads to [[Open Guard]]
+- **Opponent posts hand and sprawls hips back immediately upon feeling the drag** (Effectiveness: High) - Your Response: If the post is strong, release the drag and immediately transition to an arm drag on the posting arm, or reset your guard and re-establish foot frames. The posted arm is vulnerable because it is extended and weight-bearing. → Leads to [[Positions/Open Guard]]
+- **Opponent strips the collar grip before you can initiate the drag by two-on-one grip breaking** (Effectiveness: High) - Your Response: Immediately re-grip or switch to a same-side collar grip. If they consistently strip grips, feint the collar drag and attack with a different technique when their hands are occupied with grip fighting. → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward aggressively through the drag attempt, using their momentum to smash past your guard** (Effectiveness: Medium) - Your Response: If they drive too hard, use their forward momentum to pull them into a guillotine or convert to butterfly hooks and elevate for a sweep. Their aggressive forward drive can be redirected if you maintain hip connection. → Leads to [[Positions/Half Guard]]
+- **Opponent circles laterally away from the drag direction, negating the pulling angle** (Effectiveness: Medium) - Your Response: Follow their circling motion with your hips and readjust your pulling angle. If they circle consistently to one side, set up an arm drag to the opposite side to exploit their lateral movement pattern. → Leads to [[Positions/Open Guard]]
 
 
 </section>

@@ -21,7 +21,7 @@ The break requires a systematic approach that addresses both the lockdown hook a
 
 Understanding when to break the Z-Lock versus when to attempt passes around it represents a key strategic decision. Against opponents with strong lockdown games, early intervention through the break prevents them from establishing the offensive rhythm that makes the Z-Lock system dangerous. The break is most effective when executed immediately after the Z-Lock is established, before the bottom player settles into preferred attacking sequences and establishes the upper body grips that complement their leg control.
 
-**From Position**: [[Z-Lock Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Understanding when to break the Z-Lock versus when to attempt passes around it r
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Z-Lock Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Z-Lock Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,23 +189,23 @@ The Lockdown Break from Z-Lock occupies a critical role in the top player's half
 ## Related Techniques
 
 
-- [[Z-Lock Half Guard]] - Source position where this technique begins; the lockdown configuration being broken
+- [[Positions/Half Guard/Z-Lock Half Guard]] - Source position where this technique begins; the lockdown configuration being broken
 
-- [[Half Guard]] - Target position after successful lockdown break where standard passing options become available
+- [[Positions/Half Guard]] - Target position after successful lockdown break where standard passing options become available
 
-- [[Lockdown]] - Related leg entanglement system; the Z-Lock is an advanced lockdown variation sharing core mechanics
+- [[Positions/Half Guard/Lockdown]] - Related leg entanglement system; the Z-Lock is an advanced lockdown variation sharing core mechanics
 
-- [[Knee Shield Half Guard]] - Common follow-up defensive position the bottom player may establish after the Z-Lock is broken
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Common follow-up defensive position the bottom player may establish after the Z-Lock is broken
 
-- [[Deep Half Guard]] - Transition target the bottom player may attempt if the break creates space underneath
+- [[Positions/Half Guard/Deep Half Guard]] - Transition target the bottom player may attempt if the break creates space underneath
 
-- [[Dogfight Position]] - Scramble outcome if the break attempt leads to contested underhook exchanges and both players come up
+- [[Positions/Dogfight Position]] - Scramble outcome if the break attempt leads to contested underhook exchanges and both players come up
 
-- [[Flattened Half Guard]] - Favorable outcome for top player when the break also flattens the bottom player's defensive structure
+- [[Positions/Half Guard/Flattened Half Guard]] - Favorable outcome for top player when the break also flattens the bottom player's defensive structure
 
-- [[Butterfly Half Guard]] - Related hybrid position sharing mechanical similarities with the Z-Lock butterfly hook element
+- [[Positions/Half Guard/Butterfly Half Guard]] - Related hybrid position sharing mechanical similarities with the Z-Lock butterfly hook element
 
-- [[Electric Chair]] - Primary counter-submission threat the bottom player uses during failed break attempts from the Z-Lock
+- [[Positions/Half Guard/Electric Chair]] - Primary counter-submission threat the bottom player uses during failed break attempts from the Z-Lock
 
 
 </section>

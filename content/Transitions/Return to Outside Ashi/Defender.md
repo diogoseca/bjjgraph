@@ -152,7 +152,7 @@ The critical defensive window occurs when the attacker releases their outside le
 
 Defensive success depends on maintaining the momentum you created during your initial inversion. The attacker's transition relies on your rotation stalling, so continuous movement and active resistance with your free leg prevent them from reversing your hip orientation. Understanding the biomechanical principles that make outside ashi dangerous for you reinforces the urgency of preventing this positional recapture and maintaining whatever escape progress you have achieved.
 
-**Opponent's Starting Position**: [[Ushiro Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
 
@@ -188,21 +188,21 @@ Defensive success depends on maintaining the momentum you created during your in
 ### 1. Accelerate rotation to turtle by committing fully to the inversion escape, using your free leg to push off the attacker's hip and complete the turn before they can reverse your hips
 
 - **When to use**: When you feel the attacker begin to drive your knee line back but before they have released their outside leg crossing, giving you a head start on completing the escape
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: You complete the escape to turtle position, clearing the leg entanglement entirely or forcing the attacker to abandon the transition and follow to back control
 - **Risk**: If the attacker maintains strong inside leg control, accelerating rotation without clearing your leg may worsen entanglement or expose your heel during the movement
 
 ### 2. Post strongly with your free leg against the attacker's hip or the mat, creating a structural frame that prevents them from driving your knee line back to neutral alignment
 
 - **When to use**: When the attacker has begun the transition and is actively pushing your trapped knee, but has not yet released their outside leg to reposition
-- **Targets**: [[Ushiro Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **If successful**: The attacker cannot reverse your hip orientation, forcing them to either maintain degrading ushiro control or abandon leg entanglement entirely to follow your rotation
 - **Risk**: If the attacker hooks behind your posting knee with their outside leg, your free leg becomes trapped and they may transition to saddle instead of outside ashi
 
 ### 3. Counter-rotate your hips into the attacker's transition, threading your free leg through to establish a mirrored leg entanglement and create 50-50 guard
 
 - **When to use**: When the attacker has released their outside leg crossing and is mid-transition with temporarily reduced control, creating the opening for you to enter counter-entanglement
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You neutralize the attacker's positional advantage by establishing symmetrical leg entanglement where both practitioners have equal submission and escape access
 - **Risk**: Mistiming the counter-rotation may leave you in a worse position than ushiro, potentially ending up in outside ashi with the attacker having already consolidated control
 
@@ -214,11 +214,11 @@ Defensive success depends on maintaining the momentum you created during your in
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ushiro Ashi-Garami]]
+### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Maintain the ushiro configuration by continuously rotating away from the attacker and posting with your free leg to prevent hip reversal. The ushiro position, while still dangerous, gives you better escape angles and compromises the attacker's heel hook mechanics compared to outside ashi-garami.
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Counter-rotate into the attacker's transition when they release their outside leg crossing, threading your free leg to establish mirrored leg entanglement. Time the counter-rotation to coincide with their vulnerable repositioning moment when control is temporarily reduced.
 

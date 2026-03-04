@@ -154,7 +154,7 @@ description: "Defend the Sweep from Honey Hole in BJJ. Maintain dominant leg ent
 
 Defending against the Sweep from Honey Hole requires the top player to maintain positional dominance while recognizing and shutting down reversal attempts from the trapped practitioner. As the defender, you hold the advantageous Honey Hole top position with direct heel hook access, but your opponent's sweep attempts threaten to reverse this dynamic entirely. Your defensive approach must balance maintaining offensive pressure toward heel hook finishes while keeping sufficient base and weight distribution to resist sweep momentum. The key defensive principle is anticipation—recognizing sweep setup cues before explosive execution allows you to preemptively adjust weight distribution, tighten your triangle control, or accelerate your own submission attempt to end the exchange before the sweep develops. Successful defense often means converting the opponent's sweep attempt into an improved attacking position for yourself.
 
-**Opponent's Starting Position**: [[Honey Hole]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Honey Hole]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending against the Sweep from Honey Hole requires the top player to maintain 
 ### 1. Drive hips down and tighten inside leg triangle to kill sweep momentum before it develops
 
 - **When to use**: Immediately upon recognizing any hip loading or far-side grip establishment by the opponent
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: Opponent's sweep attempt is neutralized and they remain trapped in Honey Hole bottom with diminished energy reserves from the failed attempt
 - **Risk**: Minimal risk—tightening control is always beneficial and costs little energy
 
 ### 2. Post far hand on the mat to base out against the sweep direction
 
 - **When to use**: When you feel the sweep momentum beginning to shift your balance and hip pressure alone is insufficient to stop it
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: The post stops the sweep dead and allows you to resettle your weight and re-establish full control from Honey Hole top
 - **Risk**: Posting temporarily removes one hand from heel hook setup, potentially allowing opponent to strip grips or hide their heel
 
 ### 3. Accelerate heel hook finish to end the exchange before sweep completes
 
 - **When to use**: When you have already secured heel hook grip and opponent initiates sweep rather than defending—use their movement to add rotational force to your finish
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: Submission finish before sweep develops, ending the exchange entirely with a tap
 - **Risk**: High risk if heel grip is not fully secured—rushing the finish without proper mechanics may allow escape during the sweep motion
 
 ### 4. Control opponent's free leg by hooking it with your far leg or gripping behind the knee
 
 - **When to use**: Preemptively when you recognize the opponent positioning their free leg for posting or pendulum generation
-- **Targets**: [[Honey Hole]]
+- **Targets**: [[Positions/Ashi Garami/Honey Hole]]
 - **If successful**: Eliminates the opponent's primary sweep engine, making any reversal attempt mechanically impossible without free leg mobility
 - **Risk**: Controlling the free leg may compromise your own leg triangle tightness or remove a hand from heel hook position
 
@@ -225,7 +225,7 @@ Defending against the Sweep from Honey Hole requires the top player to maintain 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Honey Hole]]
+### → [[Positions/Ashi Garami/Honey Hole]]
 
 Maintain tight inside leg triangle with constant hip pressure throughout opponent's sweep attempt. Drive hips down immediately upon recognizing hip loading or far-side grip establishment. Use the opponent's failed sweep attempt as an opportunity to advance your heel hook grip while their attention is divided between sweep execution and heel defense.
 

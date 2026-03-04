@@ -211,31 +211,31 @@ From a strategic perspective, the Saddle functions differently depending on rule
 
 ## Available Attacks
 
-### [[Heel Hook]] (40% of attempts)
+### [[Transitions/Heel Hook]] (40% of attempts)
 
-### [[Outside Heel Hook]] (5% of attempts)
+### [[Transitions/Outside Heel Hook]] (5% of attempts)
 
-### [[Straight Ankle Lock Entry]] (10% of attempts)
+### [[Transitions/Straight Ankle Lock Entry]] (10% of attempts)
 
-### [[Toe Hold]] (9% of attempts)
+### [[Transitions/Toe Hold]] (9% of attempts)
 
-### [[Kneebar]] (3% of attempts)
+### [[Transitions/Kneebar]] (3% of attempts)
 
-### [[Back Take from Ashi]] (10% of attempts)
+### [[Transitions/Back Take from Ashi]] (10% of attempts)
 
-### [[Cross Ashi Transition]] (6% of attempts)
+### [[Transitions/Cross Ashi Transition]] (6% of attempts)
 
-### [[Backside 50-50 Entry from Ashi]] (5% of attempts)
+### [[Transitions/Backside 50-50 Entry from Ashi]] (5% of attempts)
 
-### [[Calf Slicer]] (3% of attempts)
+### [[Transitions/Calf Slicer]] (3% of attempts)
 
-### [[Estima Lock]] (2% of attempts)
+### [[Positions/Estima Lock]] (2% of attempts)
 
-### [[Fallback to Inside Ashi-Garami]] (3% of attempts)
+### [[Transitions/Fallback to Inside Ashi-Garami]] (3% of attempts)
 
-### [[Heel Hook from Saddle]] (0% of attempts)
+### [[Transitions/Heel Hook from Saddle]] (0% of attempts)
 
-### [[Saddle Fallback to Inside Ashi]] (4% of attempts)
+### [[Transitions/Saddle Fallback to Inside Ashi]] (4% of attempts)
 
 
 
@@ -246,29 +246,29 @@ From a strategic perspective, the Saddle functions differently depending on rule
 ## Decision Making from This Position
 
 **You have achieved perpendicular positioning with inside control but opponent is framing on your hips:**
-- Execute **[[Clear frames systematically]]** → [[Saddle]] (Probability: 70%)
-- Execute **[[Transition to Inside Ashi-Garami]]** → [[Inside Ashi-Garami]] (Probability: 30%)
+- Execute **[[Clear frames systematically]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
+- Execute **[[Transition to Inside Ashi-Garami]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 30%)
 
 
 **Opponent's heel is fully exposed and you have established figure-four grip:**
-- Execute **[[Heel Hook]]** → [[Game Over]] (Probability: 80%)
-- Execute **[[Outside Heel Hook]]** → [[Game Over]] (Probability: 20%)
+- Execute **[[Transitions/Heel Hook]]** → [[Positions/Game Over]] (Probability: 80%)
+- Execute **[[Transitions/Outside Heel Hook]]** → [[Positions/Game Over]] (Probability: 20%)
 
 
 **Opponent is hiding heel by rotating knee inward:**
-- Execute **[[Straight Ankle Lock Entry]]** → [[Game Over]] (Probability: 60%)
-- Execute **[[Toe Hold]]** → [[Game Over]] (Probability: 40%)
+- Execute **[[Transitions/Straight Ankle Lock Entry]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Toe Hold]]** → [[Positions/Game Over]] (Probability: 40%)
 
 
 **Opponent is attempting to turn into you to escape:**
-- Execute **[[Maintain hip pressure and ride the turn]]** → [[Saddle]] (Probability: 55%)
-- Execute **[[Back Take from Ashi]]** → [[Back Control]] (Probability: 45%)
+- Execute **[[Maintain hip pressure and ride the turn]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
+- Execute **[[Transitions/Back Take from Ashi]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 **You have loose control with space between your bodies:**
-- Execute **[[Reestablish hip pressure and perpendicular alignment]]** → [[Saddle]] (Probability: 50%)
-- Execute **[[Cross Ashi Transition]]** → [[Cross Ashi-Garami]] (Probability: 35%)
-- Execute **[[Counter-entangle to 50-50 Guard]]** → [[50-50 Guard]] (Probability: 15%)
+- Execute **[[Reestablish hip pressure and perpendicular alignment]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 50%)
+- Execute **[[Transitions/Cross Ashi Transition]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 35%)
+- Execute **[[Transitions/Counter-entangle to 50-50 Guard]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 15%)
 
 
 
@@ -397,14 +397,14 @@ Establish Saddle, partner executes specific escape sequences (hip clear, frame c
 
 ## Related Positions and Techniques
 
-- **[[Honey Hole]]** - Identical position with alternative naming convention
-- **[[Inside Ashi-Garami]]** - Common entry position and fallback when saddle is defended
-- **[[Outside Ashi-Garami]]** - Primary entry pathway via back step progression
-- **[[50-50 Guard]]** - Entry position with elevation and clearing mechanics
-- **[[Inside Heel Hook]]** - Primary finishing submission from this position
-- **[[Outside Heel Hook]]** - Alternative heel hook attack when inside is defended
-- **[[Straight Ankle Lock]]** - Lower-risk finishing option when heel is hidden
-- **[[Leg Entanglement]]** - Conceptual framework for position hierarchy
+- **[[Positions/Ashi Garami/Honey Hole]]** - Identical position with alternative naming convention
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Common entry position and fallback when saddle is defended
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Primary entry pathway via back step progression
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Entry position with elevation and clearing mechanics
+- **[[Submissions/Inside Heel Hook]]** - Primary finishing submission from this position
+- **[[Transitions/Outside Heel Hook]]** - Alternative heel hook attack when inside is defended
+- **[[Submissions/Straight Ankle Lock]]** - Lower-risk finishing option when heel is hidden
+- **[[Positions/Leg Entanglement]]** - Conceptual framework for position hierarchy
 
 
 </section>

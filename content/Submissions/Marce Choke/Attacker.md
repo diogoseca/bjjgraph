@@ -176,7 +176,7 @@ description: "How to execute the Marce Choke in BJJ. Attacking perspective with 
 
 Executing the Marce Choke requires mastery of lapel manipulation from dominant top positions. The attacker must first establish heavy positional control in side control, north-south, or kesa gatame before beginning the lapel feed sequence. The critical attacking skill is the ability to access the opponent's far lapel, feed it deep across their neck to create bilateral carotid compression, and then use body weight to drive the finishing pressure through the lapel material. Unlike arm-powered chokes, the Marce Choke derives its finishing force from perpendicular chest pressure through the lapel, creating a noose effect that tightens as you drive your weight downward. This mechanical advantage means the choke is effective regardless of size disparity and is extremely energy-efficient when properly executed. The attacker must develop sensitivity to lapel depth, understand the relationship between body angle and choking pressure, and maintain positional control throughout the entire submission sequence to prevent defensive counters.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -231,8 +231,8 @@ Executing the Marce Choke requires mastery of lapel manipulation from dominant t
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 58% |
-| Failure | [[Side Control]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -241,11 +241,11 @@ Executing the Marce Choke requires mastery of lapel manipulation from dominant t
 
 ## Opponent Defenses
 
-- **Frames against your chest to create space** (Effectiveness: Medium) - Your Response: Transition to north-south or modified mount to remove their framing angles, maintaining lapel grip throughout. Use your head to control their frames and collapse them with shoulder pressure before they become structural. → Leads to [[Side Control]]
-- **Turns into you to escape side control** (Effectiveness: High) - Your Response: This is their best defense - prevent it by controlling their near arm and maintaining heavy shoulder pressure. If they start turning, transition to back control or switch to a darce choke rather than forcing the Marce Choke from a compromised angle. → Leads to [[Half Guard]]
-- **Grabs your choking arm with both hands to strip the lapel grip** (Effectiveness: Low) - Your Response: Your lapel grip is extremely difficult to break once established deep. Maintain the grip and continue applying pressure with your body weight. Their grip strength will fade as the choke tightens and blood flow to the brain is restricted. → Leads to [[Side Control]]
+- **Frames against your chest to create space** (Effectiveness: Medium) - Your Response: Transition to north-south or modified mount to remove their framing angles, maintaining lapel grip throughout. Use your head to control their frames and collapse them with shoulder pressure before they become structural. → Leads to [[Positions/Side Control]]
+- **Turns into you to escape side control** (Effectiveness: High) - Your Response: This is their best defense - prevent it by controlling their near arm and maintaining heavy shoulder pressure. If they start turning, transition to back control or switch to a darce choke rather than forcing the Marce Choke from a compromised angle. → Leads to [[Positions/Half Guard]]
+- **Grabs your choking arm with both hands to strip the lapel grip** (Effectiveness: Low) - Your Response: Your lapel grip is extremely difficult to break once established deep. Maintain the grip and continue applying pressure with your body weight. Their grip strength will fade as the choke tightens and blood flow to the brain is restricted. → Leads to [[Positions/Side Control]]
 - **Tucks chin to protect neck from lapel feed** (Effectiveness: Low) - Your Response: The Marce Choke compresses the sides of the neck, not the front of the throat. A tucked chin provides minimal protection against a properly deep lapel feed. Continue feeding the lapel deep across both carotids and apply pressure - the choke will still work effectively. → Leads to [[game-over]]
-- **Bridges explosively to create space and disrupt your base** (Effectiveness: Medium) - Your Response: Anticipate the bridge by widening your base and dropping your hips low. Ride out the bridge while maintaining your lapel grip and chest pressure. As they return to the mat, immediately re-establish full perpendicular pressure before they can capitalize on the momentary space. → Leads to [[Side Control]]
+- **Bridges explosively to create space and disrupt your base** (Effectiveness: Medium) - Your Response: Anticipate the bridge by widening your base and dropping your hips low. Ride out the bridge while maintaining your lapel grip and chest pressure. As they return to the mat, immediately re-establish full perpendicular pressure before they can capitalize on the momentary space. → Leads to [[Positions/Side Control]]
 
 
 </section>

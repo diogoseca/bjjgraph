@@ -154,7 +154,7 @@ description: "How to defend against Headquarters Pass in BJJ. Recognition cues, 
 
 Defending the Headquarters Pass requires understanding that your opponent has reached a critical control platform from which multiple high-percentage passes become available. As the bottom player in half guard facing a consolidated headquarters position, your defensive window narrows rapidly once the passer establishes crossface control, near leg pressure, and their free leg in the posted headquarters stance. Effective defense demands immediate action to disrupt at least one of these three control pillars before the passer can begin their leg clearing and extraction sequence. The defensive hierarchy prioritizes maintaining your underhook or knee shield to prevent the passer from flattening you, recovering frames when control is established, and creating angles through hip movement that force the passer to reset their headquarters platform. Passivity is the greatest enemy in this position - every second spent flat on your back with the passer's crossface established makes escape exponentially more difficult as they systematically eliminate your remaining defensive structures.
 
-**Opponent's Starting Position**: [[Headquarters Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Headquarters Position]] (Top)
 
 </section>
 
@@ -190,28 +190,28 @@ Defending the Headquarters Pass requires understanding that your opponent has re
 ### 1. Establish a strong underhook on the passer's far side and drive your shoulder into their chest to sit up into a dogfight position, squaring your hips and threatening a sweep or back take
 
 - **When to use**: Early in the headquarters establishment before the crossface is fully locked in and while you still have shoulder mobility to reach the underhook
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: You reach dogfight position with an underhook advantage, forcing the passer onto the defensive and creating sweep or back take opportunities
 - **Risk**: If the passer has already established a deep crossface, your underhook attempt exposes your arm to a whizzer counter or d'arce choke threat
 
 ### 2. Insert your far knee as a shield between your body and the passer's chest, creating a frame that blocks their forward pressure and prevents them from settling weight on your torso
 
 - **When to use**: When the passer is transitioning into headquarters and has not yet fully controlled your far leg - your knee shield must be established before they clear it
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: The knee shield stalls the pass and forces the passer to address your frame before continuing, buying time to recover full half guard retention or transition to a more favorable guard position
 - **Risk**: A committed knee shield can be smashed through by a skilled passer who collapses your shield inward, flattening you and accelerating their pass
 
 ### 3. Execute a hip escape (shrimp) away from the passer while framing against their shoulder and hip to create space, then re-insert your bottom leg to recover full half guard or closed guard
 
 - **When to use**: When the passer commits weight forward during the leg extraction phase, momentarily lightening pressure on your hips and creating a window for hip movement
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: You recover guard position by re-inserting your legs between your body and the passer, forcing them to restart their passing sequence from a neutral half guard position
 - **Risk**: If the shrimp is mistimed or too shallow, the passer can follow your hips and consolidate side control during your movement
 
 ### 4. Initiate a deep half guard entry by threading your body under the passer's hips, controlling their far leg, and inverting your defensive angle to attack from underneath their base
 
 - **When to use**: When the passer's weight is high on your chest and their hips are elevated, creating space underneath for you to slide into deep half position
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: You transition to deep half guard where you have sweep opportunities and the passer's headquarters controls are completely negated by the positional change
 - **Risk**: A failed deep half entry can leave you flattened under the passer with your back exposed, accelerating their pass to side control or allowing a crossface to pin you
 
@@ -223,11 +223,11 @@ Defending the Headquarters Pass requires understanding that your opponent has re
 
 ## Best-Case Outcomes for Defender
 
-### → [[Headquarters Position]]
+### → [[Positions/Headquarters Position]]
 
 Recover guard by combining hip escape with frame creation the moment the passer shifts weight during leg extraction. Frame against their far shoulder with your forearm while shrimping your hips away, then re-insert your knee or shin between your bodies to re-establish half guard retention. The passer remains on top but must restart their passing sequence from a less dominant position.
 
-### → [[Headquarters Position]]
+### → [[Positions/Headquarters Position]]
 
 Achieve a sweep or positional reversal by securing a strong underhook and driving into a dogfight position before the crossface is consolidated. From dogfight, use your underhook leverage to off-balance the passer and come on top. Alternatively, enter deep half guard and execute a sweep from underneath, reversing the position entirely so you end up in the top headquarters or top half guard position.
 

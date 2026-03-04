@@ -174,7 +174,7 @@ description: "How to execute Underhook Sweep from Half in BJJ. Attacking perspec
 
 The Underhook Sweep from Half Guard is a fundamental attacking technique that exploits the power of the underhook control to off-balance and sweep opponents from bottom half guard. This sweep represents one of the highest percentage attacks available from half guard, combining proper angle creation, hip movement, and timing to reverse position. The technique capitalizes on the underhook's ability to control the opponent's posture and weight distribution, creating the mechanical advantage necessary to complete the reversal. By establishing the underhook on the trapped leg side, you create a powerful lever that disrupts your opponent's base while simultaneously generating the momentum needed for the sweep. This technique serves as a cornerstone of modern half guard systems, offering a reliable pathway from defensive bottom position to dominant top control.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -228,9 +228,9 @@ The Underhook Sweep from Half Guard is a fundamental attacking technique that ex
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -239,11 +239,11 @@ The Underhook Sweep from Half Guard is a fundamental attacking technique that ex
 
 ## Opponent Counters
 
-- **Opponent whizzers your underhook arm, overhooking and controlling it tightly** (Effectiveness: High) - Your Response: Switch to Old School Sweep by posting on your free hand and kicking the trapped leg out, or transition to deep half guard where the whizzer becomes less effective → Leads to [[Half Guard]]
-- **Opponent posts their far leg out wide for base when they feel the sweep coming** (Effectiveness: Medium) - Your Response: Use your hip control grip to prevent the post, or switch to a back take by using the underhook to climb up their back as they defend the sweep → Leads to [[Half Guard]]
-- **Opponent flattens you out by driving their chest down and sprawling their hips back** (Effectiveness: High) - Your Response: Maintain underhook and transition to knee shield half guard or pump your half guard to create space for re-establishing angle and sweep opportunity → Leads to [[Half Guard]]
-- **Opponent grabs your pants or ankle to control your sweeping leg** (Effectiveness: Medium) - Your Response: Use your mobility to kick the leg free or switch to butterfly hook on the non-trapped side for alternative sweeping mechanics → Leads to [[Half Guard]]
-- **Opponent sits back and removes their weight before sweep completes** (Effectiveness: Low) - Your Response: Follow them up immediately using underhook to maintain connection, potentially transitioning to butterfly guard or single leg attack as they create distance → Leads to [[Half Guard]]
+- **Opponent whizzers your underhook arm, overhooking and controlling it tightly** (Effectiveness: High) - Your Response: Switch to Old School Sweep by posting on your free hand and kicking the trapped leg out, or transition to deep half guard where the whizzer becomes less effective → Leads to [[Positions/Half Guard]]
+- **Opponent posts their far leg out wide for base when they feel the sweep coming** (Effectiveness: Medium) - Your Response: Use your hip control grip to prevent the post, or switch to a back take by using the underhook to climb up their back as they defend the sweep → Leads to [[Positions/Half Guard]]
+- **Opponent flattens you out by driving their chest down and sprawling their hips back** (Effectiveness: High) - Your Response: Maintain underhook and transition to knee shield half guard or pump your half guard to create space for re-establishing angle and sweep opportunity → Leads to [[Positions/Half Guard]]
+- **Opponent grabs your pants or ankle to control your sweeping leg** (Effectiveness: Medium) - Your Response: Use your mobility to kick the leg free or switch to butterfly hook on the non-trapped side for alternative sweeping mechanics → Leads to [[Positions/Half Guard]]
+- **Opponent sits back and removes their weight before sweep completes** (Effectiveness: Low) - Your Response: Follow them up immediately using underhook to maintain connection, potentially transitioning to butterfly guard or single leg attack as they create distance → Leads to [[Positions/Half Guard]]
 
 
 </section>

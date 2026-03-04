@@ -210,31 +210,31 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 
 ## Available Attacks
 
-### [[Triangle Choke]] (22% of attempts)
+### [[Transitions/Triangle Choke]] (22% of attempts)
 
-### [[Armbar Finish]] (9% of attempts)
+### [[Transitions/Armbar Finish]] (9% of attempts)
 
-### [[Switch to Triangle]] (8% of attempts)
+### [[Transitions/Switch to Triangle]] (8% of attempts)
 
-### [[Back Take]] (8% of attempts)
+### [[Transitions/Back Take]] (8% of attempts)
 
-### [[Consolidate Mount]] (9% of attempts)
+### [[Transitions/Consolidate Mount]] (9% of attempts)
 
-### [[Gift Wrap]] (6% of attempts)
+### [[Positions/Gift Wrap]] (6% of attempts)
 
-### [[Kimura to Back Take]] (6% of attempts)
+### [[Transitions/Kimura to Back Take]] (6% of attempts)
 
-### [[S-Mount Transition]] (9% of attempts)
+### [[Transitions/S-Mount Transition]] (9% of attempts)
 
-### [[Triangle to Armbar]] (9% of attempts)
+### [[Transitions/Triangle to Armbar]] (9% of attempts)
 
-### [[Triangle to Back]] (7% of attempts)
+### [[Transitions/Triangle to Back]] (7% of attempts)
 
-### [[Mounted Triangle Squeeze]] (3% of attempts)
+### [[Transitions/Mounted Triangle Squeeze]] (3% of attempts)
 
-### [[Mounted Triangle to S Mount]] (2% of attempts)
+### [[Transitions/Mounted Triangle to S Mount]] (2% of attempts)
 
-### [[Mounted Triangle Finish]] (2% of attempts)
+### [[Submissions/Mounted Triangle Finish]] (2% of attempts)
 
 
 
@@ -245,28 +245,28 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 ## Decision Making from This Position
 
 **If opponent keeps trapped arm bent and protects neck with chin tuck:**
-- Execute **[[Armbar Finish]]** → [[game-over]] (Probability: 60%)
-- Execute **[[Triangle to Armbar]]** → [[Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Armbar Finish]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Transitions/Triangle to Armbar]]** → [[Positions/Armbar Control]] (Probability: 55%)
 
 
 **If opponent extends trapped arm or loosens defensive posture:**
-- Execute **[[Triangle Choke]]** → [[game-over]] (Probability: 70%)
-- Execute **[[Switch to Triangle]]** → [[Triangle Control]] (Probability: 65%)
+- Execute **[[Transitions/Triangle Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Transitions/Switch to Triangle]]** → [[Positions/Triangle Control]] (Probability: 65%)
 
 
 **If opponent turns to side to escape triangle pressure:**
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Triangle to Back]]** → [[Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Triangle to Back]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent bridges explosively or creates significant space:**
-- Execute **[[Consolidate Mount]]** → [[High Mount]] (Probability: 75%)
-- Execute **[[S-Mount Transition]]** → [[S Mount]] (Probability: 65%)
+- Execute **[[Transitions/Consolidate Mount]]** → [[Positions/Mount/High Mount]] (Probability: 75%)
+- Execute **[[Transitions/S-Mount Transition]]** → [[Positions/Mount/S Mount]] (Probability: 65%)
 
 
 **If opponent extends free arm for defensive frames:**
-- Execute **[[Gift Wrap]]** → [[Gift Wrap]] (Probability: 55%)
-- Execute **[[Kimura to Back Take]]** → [[Back Control]] (Probability: 45%)
+- Execute **[[Positions/Gift Wrap]]** → [[Positions/Gift Wrap]] (Probability: 55%)
+- Execute **[[Transitions/Kimura to Back Take]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
 
@@ -412,16 +412,16 @@ Partner explosively bridges or creates space from mounted triangle. Practice imm
 
 ## Related Positions and Techniques
 
-- **[[High Mount]]** - Primary position from which mounted triangle is established
-- **[[Triangle Control]]** - Alternative triangle position from guard rather than mount
-- **[[Armbar Control]]** - Key transition target from mounted triangle when opponent defends neck
-- **[[S Mount]]** - Related mount variation that facilitates triangle entry and transitions
-- **[[Back Control]]** - Common transition when opponent turns to escape mounted triangle
-- **[[Gift Wrap]]** - Arm control position used during mounted triangle setup and maintenance
-- **[[Mount]]** - Fundamental mount principles applied to mounted triangle positioning
-- **[[Triangle Setup]]** - Entry mechanics and setup sequences for establishing mounted triangle
-- **[[Triangle to Armbar]]** - Primary offensive transition sequence from mounted triangle
-- **[[Armbar from Mount]]** - Related submission attack from similar positioning
+- **[[Positions/Mount/High Mount]]** - Primary position from which mounted triangle is established
+- **[[Positions/Triangle Control]]** - Alternative triangle position from guard rather than mount
+- **[[Positions/Armbar Control]]** - Key transition target from mounted triangle when opponent defends neck
+- **[[Positions/Mount/S Mount]]** - Related mount variation that facilitates triangle entry and transitions
+- **[[Positions/Back Control]]** - Common transition when opponent turns to escape mounted triangle
+- **[[Positions/Gift Wrap]]** - Arm control position used during mounted triangle setup and maintenance
+- **[[Positions/Mount]]** - Fundamental mount principles applied to mounted triangle positioning
+- **[[Transitions/Triangle Setup]]** - Entry mechanics and setup sequences for establishing mounted triangle
+- **[[Transitions/Triangle to Armbar]]** - Primary offensive transition sequence from mounted triangle
+- **[[Submissions/Armbar from Mount]]** - Related submission attack from similar positioning
 
 
 </section>

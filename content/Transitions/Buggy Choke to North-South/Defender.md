@@ -146,7 +146,7 @@ description: "Defend and counter the Buggy Choke to North-South transition in BJ
 
 As the defender facing the Buggy Choke to North-South transition, you are in turtle bottom position where your opponent has abandoned their buggy choke attempt and is now sliding to establish north-south control. This transition represents both a threat and an opportunity — while the attacker is converting control structures, there is a brief window where their grips change and pressure distribution shifts that you can exploit for escape. Your defensive priority shifts from defending the choke to preventing the north-south establishment, ideally recovering to half guard, sitting to guard, or using the transitional moment to create a scramble. The critical insight is that the grip release moment provides your best escape opportunity, and failing to act during this window results in being pinned in north-south, which is one of the most difficult positions to escape in all of jiu-jitsu.
 
-**Opponent's Starting Position**: [[Buggy Choke]] (Top)
+**Opponent's Starting Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender facing the Buggy Choke to North-South transition, you are in tur
 ### 1. Sit to half guard immediately during grip release
 
 - **When to use**: As soon as you feel the buggy choke grips release and before the attacker can establish shoulder control or begin the hip walk
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover to half guard bottom where you have established defensive and offensive systems, completely preventing north-south establishment
 - **Risk**: If too slow, the attacker drives you flat during the sit attempt and establishes north-south or side control with your legs partially exposed
 
 ### 2. Turn into the attacker and face them to recover open guard
 
 - **When to use**: During the early phase of the hip walk when the attacker's weight is shifting and their base is temporarily compromised
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You face the attacker and establish guard frames, preventing perpendicular alignment and creating offensive opportunities from guard
 - **Risk**: If the attacker anticipates the turn, they may catch you mid-rotation with a darce choke or front headlock control
 
 ### 3. Drive up to recover turtle posture and resist flattening
 
 - **When to use**: When the attacker begins walking hips but has not yet committed full weight to the flattening phase
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: You return to defensive turtle position, preventing north-south and forcing the attacker to re-initiate their attack sequence from turtle top
 - **Risk**: If the attacker has already committed weight to the slide, driving up expends energy without preventing the transition and may create worse positioning
 
 ### 4. Granby roll away to create distance and recover guard
 
 - **When to use**: When the attacker releases grips but before they establish new shoulder control, particularly effective when there is a momentary gap in pressure
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create distance through the roll and recover to guard position, completely escaping the turtle attack sequence
 - **Risk**: If the attacker follows the roll, you may end up in truck position or with the attacker on your back with hooks
 
@@ -217,7 +217,7 @@ As the defender facing the Buggy Choke to North-South transition, you are in tur
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the grip release moment by immediately sitting to guard or turning to face the attacker before they can establish perpendicular north-south alignment. Act within the first two seconds of recognizing the transition to maximize your chances of recovering guard.
 

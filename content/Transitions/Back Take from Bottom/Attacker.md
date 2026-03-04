@@ -184,7 +184,7 @@ This technique transforms a failed or stalled submission attempt into a dominant
 
 The back take from bottom Hindulotine is particularly effective because the opponent often commits fully to the turn, believing they are escaping danger. This commitment makes the back exposure more complete and the subsequent control establishment more secure. The position integrates seamlessly into front headlock and guillotine attack systems, providing a reliable secondary option when the primary choke stalls.
 
-**From Position**: [[Hindulotine]] (Bottom)
+**From Position**: [[Positions/Hindulotine]] (Bottom)
 
 </section>
 
@@ -237,9 +237,9 @@ The back take from bottom Hindulotine is particularly effective because the oppo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[Hindulotine]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Hindulotine]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -248,10 +248,10 @@ The back take from bottom Hindulotine is particularly effective because the oppo
 
 ## Opponent Counters
 
-- **Opponent stops mid-turn and re-faces to prevent back exposure** (Effectiveness: High) - Your Response: If they stop the turn, immediately re-establish guillotine grip and continue attacking the choke, or transition to darce if their arm position allows → Leads to [[Hindulotine]]
-- **Opponent turns fully through and faces you, preventing back control establishment** (Effectiveness: Medium) - Your Response: Accept the guard recovery and look for immediate sweep or submission from the new guard configuration, using your seatbelt attempt as an arm drag setup → Leads to [[Closed Guard]]
-- **Opponent posts hands on mat and creates distance during transition** (Effectiveness: Medium) - Your Response: Use butterfly hooks to elevate their hips and follow them as they create distance, or transition to technical stand-up and pursue from standing → Leads to [[Hindulotine]]
-- **Opponent turtles defensively before you can insert hooks** (Effectiveness: Low) - Your Response: Maintain seatbelt control on turtle and work standard back take entries from turtle, or transition to front headlock if they lower their hips → Leads to [[Back Control]]
+- **Opponent stops mid-turn and re-faces to prevent back exposure** (Effectiveness: High) - Your Response: If they stop the turn, immediately re-establish guillotine grip and continue attacking the choke, or transition to darce if their arm position allows → Leads to [[Positions/Hindulotine]]
+- **Opponent turns fully through and faces you, preventing back control establishment** (Effectiveness: Medium) - Your Response: Accept the guard recovery and look for immediate sweep or submission from the new guard configuration, using your seatbelt attempt as an arm drag setup → Leads to [[Positions/Closed Guard]]
+- **Opponent posts hands on mat and creates distance during transition** (Effectiveness: Medium) - Your Response: Use butterfly hooks to elevate their hips and follow them as they create distance, or transition to technical stand-up and pursue from standing → Leads to [[Positions/Hindulotine]]
+- **Opponent turtles defensively before you can insert hooks** (Effectiveness: Low) - Your Response: Maintain seatbelt control on turtle and work standard back take entries from turtle, or transition to front headlock if they lower their hips → Leads to [[Positions/Back Control]]
 
 
 </section>

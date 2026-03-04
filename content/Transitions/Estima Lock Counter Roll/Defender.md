@@ -154,7 +154,7 @@ description: "Learn to prevent and counter the Estima Lock Counter Roll. Recogni
 
 Defending against the Estima Lock Counter Roll requires the Estima Lock holder to recognize the bottom player's rolling setup and respond with base adjustments, grip modifications, or positional transitions that prevent the roll from completing successfully. The defender's primary advantage lies in awareness—understanding that the counter roll requires specific setup conditions including free leg posting, upper body angling, and directional commitment, and disrupting those conditions before the roll gains momentum. Effective defense combines preventive measures that remove the roll's prerequisites with reactive techniques that convert failed roll attempts into deeper entanglements or accelerated submission finishes. The defender who anticipates the counter roll transforms a potential vulnerability into an offensive opportunity, using the opponent's movement to transition into saddle position or finish the Estima Lock during the moment of maximum ankle exposure.
 
-**Opponent's Starting Position**: [[Estima Lock]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Estima Lock]] (Bottom)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending against the Estima Lock Counter Roll requires the Estima Lock holder t
 ### 1. Drive hips forward into the trapped leg and increase rotational finishing pressure to eliminate rolling space
 
 - **When to use**: When you recognize free leg posting and upper body angling before the roll has initiated—preventive response during the setup phase
-- **Targets**: [[Estima Lock]]
+- **Targets**: [[Positions/Estima Lock]]
 - **If successful**: Bottom player cannot generate rolling momentum and remains trapped in the Estima Lock with increased submission pressure
 - **Risk**: Over-committing forward pressure without maintaining wide base can be exploited if the bottom player switches to a different escape method
 
 ### 2. Follow the roll direction and backstep into saddle position during the opponent's rotation
 
 - **When to use**: When the roll has already begun and cannot be stopped through pressure alone—reactive transition during the rotation phase
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Convert the escape attempt into a deeper leg entanglement with inside heel hook access, making the opponent's position significantly worse than the original Estima Lock
 - **Risk**: Requires technical proficiency with saddle entries—a mistimed backstep can result in losing all leg control and the opponent completing the roll to top
 
 ### 3. Base out wide with far hand and drive shoulder pressure into the bottom player's turning shoulder to stuff the roll
 
 - **When to use**: During the initial phase of the roll when rotational momentum is still building and can be stopped with structural resistance
-- **Targets**: [[Estima Lock]]
+- **Targets**: [[Positions/Estima Lock]]
 - **If successful**: Roll is stopped in its early phase and bottom player returns to trapped defensive position with Estima Lock still fully applied
 - **Risk**: Removing one hand from the grip to base temporarily weakens the submission hold and may create a window for conventional grip escape
 
 ### 4. Transition grip to toe hold configuration as the rotation begins, attacking the newly exposed foot angle
 
 - **When to use**: When the roll creates a grip angle change that makes maintaining the Estima Lock configuration difficult but exposes the toes for alternative attack
-- **Targets**: [[Estima Lock]]
+- **Targets**: [[Positions/Estima Lock]]
 - **If successful**: New submission threat halts the roll immediately as the bottom player must address the toe hold defense, resetting the escape to a new defensive crisis
 - **Risk**: Grip transition during dynamic movement may result in losing all foot control if the toe hold grip is not established cleanly
 
@@ -226,11 +226,11 @@ Defending against the Estima Lock Counter Roll requires the Estima Lock holder t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Estima Lock]]
+### → [[Positions/Estima Lock]]
 
 Prevent the roll entirely by maintaining heavy hip pressure, widening your base when setup cues are detected, and controlling the bottom player's far shoulder to block the rotation. Drive forward finishing pressure when free leg posting is identified to close the escape window.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 When the roll cannot be prevented, follow the rotation and backstep into saddle position by stepping your free leg over and behind the bottom player's trapped leg during their rotation. This converts their escape attempt into a deeper entanglement with inside heel hook access, punishing the roll attempt.
 

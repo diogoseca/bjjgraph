@@ -150,7 +150,7 @@ Defending the Pressure Pass through Center from Grasshopper Guard bottom require
 
 The most effective defense begins before the pass is initiated. By maintaining active hip elevation, cycling between leg configurations, and avoiding committing both legs to a single entanglement attempt simultaneously, you deny the passer the timing window they need. When you recognize the pass initiation, your response must be immediate and decisive—half-measures or delayed reactions allow the passer's momentum to build to a point where defensive options become severely limited. Understanding the biomechanics of what makes this pass work—forward pressure collapsing core-dependent hip elevation—reveals that your defense must address either the pressure itself through redirection, or the structural collapse by reinforcing your inversion with frames and leg repositioning.
 
-**Opponent's Starting Position**: [[Grasshopper Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Top)
 
 </section>
 
@@ -185,21 +185,21 @@ The most effective defense begins before the pass is initiated. By maintaining a
 ### 1. Granby roll to guard recovery - execute a shoulder roll in the direction of the passer's drive, using their forward momentum to carry you through to a guard recovery position with legs between you and the passer
 
 - **When to use**: Immediately upon recognizing the forward drive initiation, before the passer's weight fully loads onto your inverted structure and while you still have rotational freedom in your shoulders
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: You complete the roll and establish closed guard or open guard with feet on hips, neutralizing the pass and forcing the passer to restart their passing sequence from a non-inverted guard
 - **Risk**: If timed late, the passer's weight pins your shoulders and prevents the roll from completing, leaving you flattened and in worse position than before the attempt
 
 ### 2. Re-inversion with hook insertion - shoot your legs back into the passer's hip crease and behind their knees as they drive forward, re-establishing the inverted guard structure with fresh hook placement
 
 - **When to use**: When you detect the initial level change but before the passer has controlled your legs against your body, while your legs are still free to reposition and create new entanglement angles
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: You re-establish grasshopper guard with fresh hooks that disrupt the passer's base, forcing them to clear your new leg configuration before they can attempt another pass
 - **Risk**: If the passer has already pinned your legs during their drive, attempting re-inversion fails and you expend energy without improving position, accelerating the fatigue that enabled the pass attempt
 
 ### 3. Frame and hip escape to half guard - post forearms against the passer's shoulders and neck as they drive through, create a frame to slow their advance, then hip escape laterally to insert a knee and recover half guard
 
 - **When to use**: When the pass has progressed past your initial leg defenses and the passer is clearing your legs, as a last-resort recovery option when re-inversion and Granby roll are no longer available
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: You establish defensive frames that slow the pass completion long enough to recover half guard or re-insert a leg to prevent full side control consolidation
 - **Risk**: Frames against a committed pressure drive may collapse under the weight, and the hip escape creates turning momentum that the passer can exploit for an even faster pass to side control
 
@@ -211,11 +211,11 @@ The most effective defense begins before the pass is initiated. By maintaining a
 
 ## Best-Case Outcomes for Defender
 
-### → [[Grasshopper Guard]]
+### → [[Positions/Grasshopper Guard]]
 
 Maintain active hip elevation by constantly cycling leg configurations and never committing both legs to a single entanglement. When the passer begins their level change, immediately re-invert by shooting fresh hooks behind their knees before they can control your legs. This resets the position and forces them to address your new leg placement, buying time for your hips to recover elevation.
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Execute a Granby roll the instant you recognize the forward drive initiating. Roll your shoulders in the direction of their pressure, allowing their momentum to carry you through the rotation. As you complete the roll, immediately wrap your legs around their waist and lock your ankles to establish closed guard. This converts their aggressive forward drive into a neutral guard position where they must restart their passing approach entirely.
 

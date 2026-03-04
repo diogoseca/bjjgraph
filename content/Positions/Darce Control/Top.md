@@ -208,19 +208,19 @@ From a strategic perspective, Darce Control Top exemplifies the modern submissio
 
 ## Available Attacks
 
-### [[Darce Choke]] (48% of attempts)
+### [[Transitions/Darce Choke]] (48% of attempts)
 
-### [[Turtle to Back Take]] (18% of attempts)
+### [[Transitions/Turtle to Back Take]] (18% of attempts)
 
-### [[Switch to Anaconda Configuration]] (13% of attempts)
+### [[Transitions/Switch to Anaconda Configuration]] (13% of attempts)
 
-### [[Side Control to Mount]] (10% of attempts)
+### [[Transitions/Side Control to Mount]] (10% of attempts)
 
-### [[Side Control to North-South]] (6% of attempts)
+### [[Transitions/Side Control to North-South]] (6% of attempts)
 
-### [[Darce Control Maintenance]] (3% of attempts)
+### [[Transitions/Darce Control Maintenance]] (3% of attempts)
 
-### [[Darce to Anaconda Switch]] (2% of attempts)
+### [[Transitions/Darce to Anaconda Switch]] (2% of attempts)
 
 
 
@@ -231,18 +231,18 @@ From a strategic perspective, Darce Control Top exemplifies the modern submissio
 ## Decision Making from This Position
 
 **If opponent keeps elbows tight and chin tucked, defending the choke finish:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 70%)
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 65%)
 
 
 **Else if opponent attempts to roll through or turn into the choke:**
-- Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Darce Choke]]** → [[Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Darce Choke]]** → [[Positions/Game Over]] (Probability: 60%)
 
 
 **Else if opponent's defensive posture breaks down and arm remains trapped:**
-- Execute **[[Darce Choke]]** → [[Game Over]] (Probability: 80%)
-- Execute **[[Anaconda from Turtle]]** → [[Anaconda Control]] (Probability: 55%)
+- Execute **[[Transitions/Darce Choke]]** → [[Positions/Game Over]] (Probability: 80%)
+- Execute **[[Transitions/Anaconda from Turtle]]** → [[Positions/Anaconda Control]] (Probability: 55%)
 
 
 
@@ -371,14 +371,14 @@ Start from front headlock or turtle positions and work to establish darce contro
 
 ## Related Positions and Techniques
 
-- **[[Darce Control]]** - Hub position covering both perspectives
-- **[[Front Headlock]]** - Precursor position and common entry point
-- **[[Anaconda Control]]** - Similar position with alternative front headlock choke configuration
-- **[[Darce Choke]]** - Primary submission finishing technique from this position
-- **[[Turtle]]** - Common preceding position where darce opportunities arise
-- **[[Mount]]** - Positional advancement when choke is defended
-- **[[Back Control]]** - High-percentage transition when opponent rolls to escape
-- **[[North-South]]** - Alternative transition when choke is blocked
+- **[[Positions/Darce Control]]** - Hub position covering both perspectives
+- **[[Positions/Front Headlock]]** - Precursor position and common entry point
+- **[[Positions/Anaconda Control]]** - Similar position with alternative front headlock choke configuration
+- **[[Transitions/Darce Choke]]** - Primary submission finishing technique from this position
+- **[[Positions/Turtle]]** - Common preceding position where darce opportunities arise
+- **[[Positions/Mount]]** - Positional advancement when choke is defended
+- **[[Positions/Back Control]]** - High-percentage transition when opponent rolls to escape
+- **[[Positions/North-South]]** - Alternative transition when choke is blocked
 
 
 </section>

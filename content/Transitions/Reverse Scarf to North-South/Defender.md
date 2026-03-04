@@ -154,7 +154,7 @@ description: "Defend against the Reverse Scarf to North-South transition in BJJ.
 
 As the defender against the Reverse Scarf to North-South transition, your objective is to prevent the top player from converting the reverse scarf hold pin into the more dominant north-south position. The transition creates a brief but critical window of vulnerability for the attacker as they shift weight and rotate their body, and your defensive strategy must exploit this window through precise timing of frames, bridges, and knee insertions. Understanding the mechanical sequence of the transition allows you to anticipate each phase and apply the correct defensive response at the optimal moment, either blocking the rotation entirely to keep them in reverse scarf hold where you have practiced escape patterns, or exploiting the transitional gap to recover half guard.
 
-**Opponent's Starting Position**: [[Reverse Scarf Hold]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Reverse Scarf Hold]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the Reverse Scarf to North-South transition, your object
 ### 1. Frame on attacker's hip with far arm to block rotation initiation
 
 - **When to use**: Immediately upon feeling the forward weight shift that precedes the rotation. Your forearm should be perpendicular to their hip creating a skeletal brace.
-- **Targets**: [[Reverse Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Reverse Scarf Hold]]
 - **If successful**: Rotation is mechanically blocked and the attacker remains in reverse scarf hold where your practiced escape sequences remain available. The frame forces them to address your defense before reattempting.
 - **Risk**: If the frame is weak or poorly positioned, the attacker can collapse it by driving their hip through your forearm and complete the rotation with increased momentum from overcoming your resistance.
 
 ### 2. Bridge and hip escape during mid-rotation when attacker's base is narrowest
 
 - **When to use**: During the mid-rotation phase when the attacker's legs are transitioning between reverse scarf base and north-south base. Their base width is temporarily compromised during the walking arc.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Bridge creates enough space for hip escape and knee insertion, recovering half guard before the attacker can consolidate north-south control. You transition from a pinned defensive position to an active guard.
 - **Risk**: If mistimed, the bridge lifts your shoulders off the mat and the attacker uses your upward energy to accelerate their rotation, completing the transition to north-south with even heavier pressure on the descent.
 
 ### 3. Insert near-side knee between bodies during weight shift phase
 
 - **When to use**: When you feel momentary pressure reduction as the attacker shifts their weight forward and begins rotating. The gap between their hip and your torso opens briefly during the transition.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Knee creates a structural barrier that prevents the attacker from achieving chest-to-chest north-south contact. From knee shield position you can work to recover full half guard or open guard.
 - **Risk**: If the knee insertion is too slow, the attacker drives their chest down to pin the knee flat and completes the rotation with your leg trapped in an uncomfortable position rather than a functional half guard.
 
 ### 4. Turn into attacker and fight for underhook during grip transition
 
 - **When to use**: During the grip transition phase when the attacker is releasing reverse scarf grips to establish north-south underhooks. This brief window of reduced arm control allows you to turn toward them.
-- **Targets**: [[Reverse Scarf Hold]]
+- **Targets**: [[Positions/Side Control/Reverse Scarf Hold]]
 - **If successful**: Your turn-in disrupts the rotation and forces the attacker back toward reverse scarf hold or side control, while your underhook establishes an offensive platform for escape sequences.
 - **Risk**: If the attacker anticipates the turn, they can use your rotation to accelerate into north-south or transition directly to mount by stepping over your turning body.
 
@@ -225,11 +225,11 @@ As the defender against the Reverse Scarf to North-South transition, your object
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time your bridge or knee insertion during the rotation window when the attacker's weight shifts forward and their base narrows. As they begin walking their legs around, their base temporarily compromises, creating the opportunity to insert your near-side knee between your bodies or complete a hip escape. The key is acting during the transition phase rather than after north-south is consolidated, as escaping from established north-south is significantly harder than exploiting the transition window.
 
-### → [[Reverse Scarf Hold]]
+### → [[Positions/Side Control/Reverse Scarf Hold]]
 
 Establish a strong frame on the attacker's hip with your far arm before the rotation builds momentum. A perpendicular forearm brace against their hip mechanically blocks the rotational arc. Combined with keeping your near arm tight to prevent grip transitions, this defense forces the attacker to remain in reverse scarf hold where your escape patterns are already established. Preventing advancement is a defensive success even though you remain in a bottom pin.
 

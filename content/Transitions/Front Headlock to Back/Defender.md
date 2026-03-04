@@ -158,7 +158,7 @@ The defensive hierarchy prioritizes stopping the back take above all else, becau
 
 Successful defense also requires accepting that the front headlock itself is a compromised position and that your escape may not result in a dominant position. Recovering to a neutral standing position, pulling the attacker into your guard, or even re-establishing a strong turtle base all represent successful defensive outcomes. The worst outcome is passively allowing the attacker to progress through their checkpoints unchallenged, which virtually guarantees back control establishment.
 
-**Opponent's Starting Position**: [[Front Headlock]] (Top)
+**Opponent's Starting Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ Successful defense also requires accepting that the front headlock itself is a c
 ### 1. Sit back to guard by dropping your hips toward the attacker's legs and pulling them into closed or half guard
 
 - **When to use**: Early in the transition before any hooks are inserted, ideally as the attacker begins circling and before they pass 45 degrees
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You pull the attacker into your closed guard or half guard, neutralizing the back take and creating your own offensive opportunities from bottom position
 - **Risk**: If timed poorly, the attacker maintains headlock and transitions to a guillotine choke as you sit back, or follows you down while inserting a hook
 
 ### 2. Circle to face the attacker by pivoting on your knees or hands, turning your body to match their lateral movement and deny the back angle
 
 - **When to use**: Continuously throughout the transition attempt, matching the attacker's circling motion step-for-step to prevent them from getting behind you
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You maintain a front-facing position relative to the attacker, preventing hook insertion and forcing them to reset their attack or switch to a submission attempt from the front
 - **Risk**: Continuous circling is energy-intensive and the attacker may use your turning momentum to accelerate past you or switch directions to catch you off balance
 
 ### 3. Explosive stand-up by posting on both hands and driving upward while maintaining chin tuck, then circling away from the headlock control
 
 - **When to use**: When the attacker's weight momentarily shifts during their circling motion, creating a lighter pressure window, and before any hooks have been established
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You return to a standing position where most back take mechanics fail, forcing the attacker to either release the headlock or transition to a standing guillotine attempt
 - **Risk**: If the attacker maintains heavy downward pressure and you fail to fully stand, you waste significant energy and may end up in a worse position with compromised base
 
 ### 4. Hip switch and arm drag to reverse the front headlock by grabbing the attacker's far wrist and pulling it across while switching your hips to face them
 
 - **When to use**: When the attacker overcommits to circling and briefly lightens their pressure, or when their free arm is poorly positioned and available for the drag
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You reverse the positional dynamic, potentially achieving a single leg or establishing your own front headlock control on the attacker
 - **Risk**: If the arm drag fails, you have temporarily released your defensive frame and the attacker can accelerate their back take with reduced resistance
 
@@ -228,11 +228,11 @@ Successful defense also requires accepting that the front headlock itself is a c
 
 ## Best-Case Outcomes for Defender
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Circle to face the attacker continuously, matching their lateral movement step-for-step to deny the back angle. Control their far hip with your hand to slow their progression. When their weight shifts during circling, execute an explosive stand-up, then immediately circle away from the headlock side. This forces the attacker to restart their transition from the original front headlock position, buying you time and opportunities.
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Time a sit-back to guard as the attacker begins their circling motion but before they pass 45 degrees. Drop your hips toward their legs while controlling their choking arm at the wrist. Pull them into your closed guard by wrapping your legs around their waist as you sit. This converts the front headlock into a guard position where you have offensive opportunities and the back take threat is neutralized.
 

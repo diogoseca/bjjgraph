@@ -158,7 +158,7 @@ From the defender's perspective, the greatest danger is not the squid guard itse
 
 When prevention fails and the arm wrap is partially or fully established, the defender must choose between stripping the lapel configuration through technical unwinding, changing angle through backstep to reduce the wrap's effectiveness, or driving heavy pressure to compress the bottom player and limit their offensive options. Each approach carries different risks, and the correct choice depends on the depth of the wrap and the bottom player's hip positioning.
 
-**Opponent's Starting Position**: [[Lapel Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ When prevention fails and the arm wrap is partially or fully established, the de
 ### 1. Retract posting arm and create distance before wrap completes
 
 - **When to use**: Early in the entry when lapel is being threaded but has not locked behind shoulder
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Bottom player remains in lapel guard without squid configuration, resetting the exchange to neutral lapel guard
 - **Risk**: If too slow, partial wrap may still catch the arm; pulling back without stripping collar grip leaves you in range for re-attempt
 
 ### 2. Circle arm in windshield-wiper motion to strip lapel before it sets
 
 - **When to use**: When lapel has partially wrapped but has not locked behind the shoulder with a deep grip
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Lapel falls free from arm, returning exchange to standard lapel guard passing scenario
 - **Risk**: Circular motion temporarily compromises your base and posting ability, creating sweep vulnerability during the strip attempt
 
 ### 3. Backstep to change angle and reduce wrap effectiveness
 
 - **When to use**: When arm wrap is established but bottom player has not yet angled hips for full configuration
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Changes the geometry so the wrap loses tension and can be cleared, and may open passing angle around the guard
 - **Risk**: Backstep exposes your back if bottom player follows your rotation aggressively for a back take
 
 ### 4. Drive heavy knee cut pass through the legs to advance position despite the arm wrap
 
 - **When to use**: When arm wrap is set but bottom player has neglected leg frames and you have clear path for knee cut
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Pass through the legs into half guard or side control, making the arm wrap irrelevant once you consolidate top position
 - **Risk**: If bottom player has active leg frames, the knee cut stalls and you are stuck with trapped arm and no base
 
@@ -229,11 +229,11 @@ When prevention fails and the arm wrap is partially or fully established, the de
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lapel Guard]]
+### → [[Positions/Lapel Guard]]
 
 Strip the lapel wrap before it locks by retracting the arm early, circling the arm to shed the fabric, or creating distance that breaks the bottom player's secondary collar grip. Return to standard lapel guard passing where you can address the lapel configuration with your preferred approach.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Drive a decisive knee cut pass through the bottom player's legs before they establish leg frames. The arm wrap becomes less relevant once you advance past their legs and consolidate in half guard or side control. Requires committing forward pressure at the right moment when their legs are not blocking.
 

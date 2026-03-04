@@ -178,7 +178,7 @@ The technique typically emerges from front headlock positions, turtle attacks, o
 
 Strategically, the anaconda excels when opponents shoot takedowns or turn into you from turtle. The arm-in configuration makes the choke extremely difficult to defend once locked because the trapped arm actually reinforces the choking mechanism rather than creating space for escape. Understanding when to commit to the finish versus maintaining control position is crucial for high-percentage success.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 
 </section>
 
@@ -229,9 +229,9 @@ Strategically, the anaconda excels when opponents shoot takedowns or turn into y
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Anaconda Control]] | 60% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Turtle]] | 15% |
+| Success | [[Positions/Anaconda Control]] | 60% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Turtle]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ Strategically, the anaconda excels when opponents shoot takedowns or turn into y
 
 ## Opponent Counters
 
-- **Opponent pulls trapped arm free before grip is secured** (Effectiveness: High) - Your Response: Immediately transition to Darce choke by threading your arm deeper across their neck. The arm escape actually opens the Darce angle that wasn't available before. → Leads to [[Front Headlock]]
-- **Opponent posts hand to block the gator roll** (Effectiveness: Medium) - Your Response: Maintain the grip and chest pressure, then walk your hips further to the opposite side to change the roll angle. Alternatively, finish the choke standing by pulling up on the grip while driving your chest down. → Leads to [[Front Headlock]]
-- **Opponent creates space by bridging before you can roll** (Effectiveness: Medium) - Your Response: Drive chest deeper into their trapped shoulder as they bridge - their elevation actually exposes their neck more. Walk hips laterally to maintain perpendicular angle and use their bridge momentum to time your roll. → Leads to [[Front Headlock]]
-- **Opponent turns into you exposing their back** (Effectiveness: Low) - Your Response: Release the anaconda grip and transition to back take. Their turn gives you access to hooks and seat belt control for a higher-percentage position. → Leads to [[Turtle]]
+- **Opponent pulls trapped arm free before grip is secured** (Effectiveness: High) - Your Response: Immediately transition to Darce choke by threading your arm deeper across their neck. The arm escape actually opens the Darce angle that wasn't available before. → Leads to [[Positions/Front Headlock]]
+- **Opponent posts hand to block the gator roll** (Effectiveness: Medium) - Your Response: Maintain the grip and chest pressure, then walk your hips further to the opposite side to change the roll angle. Alternatively, finish the choke standing by pulling up on the grip while driving your chest down. → Leads to [[Positions/Front Headlock]]
+- **Opponent creates space by bridging before you can roll** (Effectiveness: Medium) - Your Response: Drive chest deeper into their trapped shoulder as they bridge - their elevation actually exposes their neck more. Walk hips laterally to maintain perpendicular angle and use their bridge momentum to time your roll. → Leads to [[Positions/Front Headlock]]
+- **Opponent turns into you exposing their back** (Effectiveness: Low) - Your Response: Release the anaconda grip and transition to back take. Their turn gives you access to hooks and seat belt control for a higher-percentage position. → Leads to [[Positions/Turtle]]
 
 
 </section>

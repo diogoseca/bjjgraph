@@ -186,7 +186,7 @@ Unlike near-side armbars which require significant position changes, the far sid
 
 This submission appears frequently in both gi and no-gi competition at all levels, often as part of systematic attack sequences that force opponents into defensive dilemmas. When combined with other submissions like the kimura, americana, or transition to mount, the far side armbar becomes even more potent as it capitalizes on the opponent's defensive reactions to create finishing opportunities.
 
-**From Position**: [[Side Control]] (Top)
+**From Position**: [[Positions/Side Control]] (Top)
 
 
 </section>
@@ -242,8 +242,8 @@ This submission appears frequently in both gi and no-gi competition at all level
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -252,11 +252,11 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 ## Opponent Defenses
 
-- **Clasping hands together (prayer defense)** (Effectiveness: High) - Your Response: Attack the grip by peeling fingers, using your legs to torque their body, or transitioning to kimura/americana on the near arm before returning to far side armbar → Leads to [[Side Control]]
-- **Turning toward you to hide the arm** (Effectiveness: Medium) - Your Response: Use your legs and hips to prevent the turn, or allow the turn and transition to back control or alternative submissions like the crucifix → Leads to [[Side Control]]
-- **Pulling the arm back toward their body** (Effectiveness: Medium) - Your Response: Maintain firm grip on the wrist and use your body weight to keep the arm extended; if they succeed in bending it, transition to mounted position or other attacks → Leads to [[Side Control]]
-- **Bridging explosively to roll attacker over** (Effectiveness: Low) - Your Response: Maintain heavy hip pressure and low center of gravity; use your legs to base out and prevent being rolled; their bridging often exposes the arm even more → Leads to [[Closed Guard]]
-- **Grabbing your gi or leg to create frames** (Effectiveness: Low) - Your Response: These grips typically don't prevent the finish if your position is sound; continue applying pressure and their grips will break as the armbar tightens → Leads to [[Side Control]]
+- **Clasping hands together (prayer defense)** (Effectiveness: High) - Your Response: Attack the grip by peeling fingers, using your legs to torque their body, or transitioning to kimura/americana on the near arm before returning to far side armbar → Leads to [[Positions/Side Control]]
+- **Turning toward you to hide the arm** (Effectiveness: Medium) - Your Response: Use your legs and hips to prevent the turn, or allow the turn and transition to back control or alternative submissions like the crucifix → Leads to [[Positions/Side Control]]
+- **Pulling the arm back toward their body** (Effectiveness: Medium) - Your Response: Maintain firm grip on the wrist and use your body weight to keep the arm extended; if they succeed in bending it, transition to mounted position or other attacks → Leads to [[Positions/Side Control]]
+- **Bridging explosively to roll attacker over** (Effectiveness: Low) - Your Response: Maintain heavy hip pressure and low center of gravity; use your legs to base out and prevent being rolled; their bridging often exposes the arm even more → Leads to [[Positions/Closed Guard]]
+- **Grabbing your gi or leg to create frames** (Effectiveness: Low) - Your Response: These grips typically don't prevent the finish if your position is sound; continue applying pressure and their grips will break as the armbar tightens → Leads to [[Positions/Side Control]]
 
 
 </section>

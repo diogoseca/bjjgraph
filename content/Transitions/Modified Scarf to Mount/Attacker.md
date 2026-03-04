@@ -186,7 +186,7 @@ description: "Learn to execute the Modified Scarf Hold to Mount transition. Step
 
 Executing the Modified Scarf to Mount transition requires coordinating leg clearance, crossface control retention, and weight transfer that maintains top pressure throughout a significant positional change. The attacker moves from a lateral chest-pressure pin into a straddling mount position, fundamentally altering the control geometry while keeping the bottom player pinned. The critical skill is maintaining at least two control anchors at all times during the movement—crossface and near arm control persist while the legs reposition. The transition rewards practitioners who understand that mount entry from Modified Scarf Hold is as much about creating the right conditions through sustained pressure and submission threats as it is about executing the correct mechanics during the leg swing itself.
 
-**From Position**: [[Modified Scarf Hold]] (Top)
+**From Position**: [[Positions/Side Control/Modified Scarf Hold]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ Executing the Modified Scarf to Mount transition requires coordinating leg clear
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Modified Scarf Hold]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Side Control/Modified Scarf Hold]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ Executing the Modified Scarf to Mount transition requires coordinating leg clear
 
 ## Opponent Counters
 
-- **Bottom player inserts far knee between bodies during the leg swing creating a knee shield** (Effectiveness: High) - Your Response: Use your swinging leg to hook behind their inserting knee and push it flat. If the knee is already established, abort the mount entry and return to Modified Scarf Hold to re-establish control. Attack their extended arms to force frame retraction before reattempting. → Leads to [[Half Guard]]
-- **Bottom player frames on hip with far arm to create distance and block leg clearance** (Effectiveness: Medium) - Your Response: Address the frame before initiating the swing by swimming your arm inside the frame or driving your shoulder into it to collapse the structure. Alternatively, threaten an americana on the framing arm to force them to retract it, then immediately initiate the leg swing. → Leads to [[Modified Scarf Hold]]
-- **Bottom player times an explosive bridge during the weight transfer to disrupt base and balance** (Effectiveness: Medium) - Your Response: Post your free hand on the mat to absorb the bridge force and maintain your base. Keep your crossface pressure and wait for the bridge to collapse before completing the mount entry. If the bridge is strong enough to threaten your balance, settle back to Modified Scarf Hold rather than landing in compromised mount. → Leads to [[Modified Scarf Hold]]
-- **Bottom player turns toward you and attempts to create a scramble or recover guard** (Effectiveness: Low) - Your Response: Their turn toward you actually assists the mount entry by exposing their far hip. Capitalize by accelerating the leg swing over the exposed side and driving hips forward into mount before they complete the guard recovery. Maintain crossface to prevent them from getting underneath you. → Leads to [[Half Guard]]
+- **Bottom player inserts far knee between bodies during the leg swing creating a knee shield** (Effectiveness: High) - Your Response: Use your swinging leg to hook behind their inserting knee and push it flat. If the knee is already established, abort the mount entry and return to Modified Scarf Hold to re-establish control. Attack their extended arms to force frame retraction before reattempting. → Leads to [[Positions/Half Guard]]
+- **Bottom player frames on hip with far arm to create distance and block leg clearance** (Effectiveness: Medium) - Your Response: Address the frame before initiating the swing by swimming your arm inside the frame or driving your shoulder into it to collapse the structure. Alternatively, threaten an americana on the framing arm to force them to retract it, then immediately initiate the leg swing. → Leads to [[Positions/Side Control/Modified Scarf Hold]]
+- **Bottom player times an explosive bridge during the weight transfer to disrupt base and balance** (Effectiveness: Medium) - Your Response: Post your free hand on the mat to absorb the bridge force and maintain your base. Keep your crossface pressure and wait for the bridge to collapse before completing the mount entry. If the bridge is strong enough to threaten your balance, settle back to Modified Scarf Hold rather than landing in compromised mount. → Leads to [[Positions/Side Control/Modified Scarf Hold]]
+- **Bottom player turns toward you and attempts to create a scramble or recover guard** (Effectiveness: Low) - Your Response: Their turn toward you actually assists the mount entry by exposing their far hip. Capitalize by accelerating the leg swing over the exposed side and driving hips forward into mount before they complete the guard recovery. Maintain crossface to prevent them from getting underneath you. → Leads to [[Positions/Half Guard]]
 
 
 </section>

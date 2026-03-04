@@ -176,7 +176,7 @@ description: "How to execute Brabo Choke in BJJ. Attacking perspective with setu
 
 The Brabo Choke is a powerful blood choke from the front headlock position, closely related to the Darce and Anaconda chokes. The technique involves threading your arm under the opponent's near arm and across their neck, securing a grip on your own bicep to create a vice-like constriction of the carotid arteries. The name 'Brabo' is a Portuguese pronunciation variation of 'Darce,' though some practitioners distinguish between the two based on subtle grip and angle differences. This submission is particularly effective when the opponent is defending a front headlock by keeping their elbows tight, creating the necessary space for arm insertion. The Brabo Choke excels in scramble situations, turtle attacks, and failed takedown defense scenarios. Its effectiveness comes from the mechanical advantage created by using your entire body weight to compress the opponent's neck against their own shoulder, making it extremely difficult to defend once properly locked. The choke works in both gi and no-gi contexts, though grip variations differ slightly between formats. Modern competitors favor this submission for its high finishing rate and the control it provides throughout the execution process.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 
 
 </section>
@@ -232,8 +232,8 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Front Headlock]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Front Headlock]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 ## Opponent Defenses
 
-- **Hand fighting to prevent arm insertion under armpit** (Effectiveness: High) - Your Response: Use head control to break opponent's posture downward, creating space. Alternatively, fake the insertion to elicit a reaction, then thread when they adjust. Use your free hand to clear their defensive hand before threading. → Leads to [[Front Headlock]]
-- **Tucking chin and pulling head away from your hip** (Effectiveness: Medium) - Your Response: Increase shoulder pressure on their upper back to prevent posture recovery. Circle away from their head movement while maintaining front headlock control. Consider transitioning to Anaconda choke if angle changes significantly. → Leads to [[Front Headlock]]
-- **Rolling toward you to relieve pressure and escape** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining grip and chest pressure. Land in modified mount or side control position with choke still locked. Use the momentum of their roll to tighten the choke further. → Leads to [[Half Guard]]
-- **Driving forward and standing to break position** (Effectiveness: Low) - Your Response: Keep hips low and sprawl your legs back to maintain chest pressure. If they stand, use your weight to drag them back down or transition to guillotine variation. Standing actually can help finish if you maintain proper angle. → Leads to [[Front Headlock]]
+- **Hand fighting to prevent arm insertion under armpit** (Effectiveness: High) - Your Response: Use head control to break opponent's posture downward, creating space. Alternatively, fake the insertion to elicit a reaction, then thread when they adjust. Use your free hand to clear their defensive hand before threading. → Leads to [[Positions/Front Headlock]]
+- **Tucking chin and pulling head away from your hip** (Effectiveness: Medium) - Your Response: Increase shoulder pressure on their upper back to prevent posture recovery. Circle away from their head movement while maintaining front headlock control. Consider transitioning to Anaconda choke if angle changes significantly. → Leads to [[Positions/Front Headlock]]
+- **Rolling toward you to relieve pressure and escape** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining grip and chest pressure. Land in modified mount or side control position with choke still locked. Use the momentum of their roll to tighten the choke further. → Leads to [[Positions/Half Guard]]
+- **Driving forward and standing to break position** (Effectiveness: Low) - Your Response: Keep hips low and sprawl your legs back to maintain chest pressure. If they stand, use your weight to drag them back down or transition to guillotine variation. Standing actually can help finish if you maintain proper angle. → Leads to [[Positions/Front Headlock]]
 - **Grabbing your choking arm and attempting to pull it out** (Effectiveness: Low) - Your Response: Once bicep grip is secured, their leverage is minimal. Increase shoulder drive and expand chest to override their pulling attempt. Adjust angle slightly to hide your elbow from their defensive grips. → Leads to [[game-over]]
 
 

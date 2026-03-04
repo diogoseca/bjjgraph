@@ -95,23 +95,23 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 ### Available Transitions
 
 
-- **[[Hip Escape to Turtle]]** (10% of attempts)
+- **[[Transitions/Hip Escape to Turtle]]** (10% of attempts)
 
-- **[[Rolling to Guard]]** (6% of attempts)
+- **[[Transitions/Rolling to Guard]]** (6% of attempts)
 
-- **[[Granby Roll to Guard]]** (5% of attempts)
+- **[[Transitions/Granby Roll to Guard]]** (5% of attempts)
 
-- **[[Grip Break and Face]]** (13% of attempts)
+- **[[Transitions/Grip Break and Face]]** (13% of attempts)
 
-- **[[Controlled Descent]]** (30% of attempts)
+- **[[Transitions/Controlled Descent]]** (30% of attempts)
 
-- **[[Explosive Forward Roll]]** (4% of attempts)
+- **[[Transitions/Explosive Forward Roll]]** (4% of attempts)
 
-- **[[Turn In and Face]]** (15% of attempts)
+- **[[Transitions/Turn In and Face]]** (15% of attempts)
 
-- **[[Arm Drag Escape]]** (7% of attempts)
+- **[[Transitions/Arm Drag Escape]]** (7% of attempts)
 
-- **[[Standing up in Base]]** (10% of attempts)
+- **[[Transitions/Standing up in Base]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -172,29 +172,29 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (28% of attempts)
+- **[[Transitions/Rear Naked Choke]]** (28% of attempts)
 
-- **[[Takedown to Grounded Back Control]]** (18% of attempts)
+- **[[Transitions/Takedown to Grounded Back Control]]** (18% of attempts)
 
-- **[[Body Triangle Lock]]** (7% of attempts)
+- **[[Transitions/Body Triangle Lock]]** (7% of attempts)
 
-- **[[Armbar from Back Transition]]** (9% of attempts)
+- **[[Transitions/Armbar from Back Transition]]** (9% of attempts)
 
-- **[[Crucifix Transition]]** (7% of attempts)
+- **[[Transitions/Crucifix Transition]]** (7% of attempts)
 
-- **[[Truck Position Entry]]** (5% of attempts)
+- **[[Transitions/Truck Position Entry]]** (5% of attempts)
 
-- **[[Snap Down to Front Headlock]]** (4% of attempts)
+- **[[Transitions/Snap Down to Front Headlock]]** (4% of attempts)
 
-- **[[Follow to Back Control]]** (9% of attempts)
+- **[[Transitions/Follow to Back Control]]** (9% of attempts)
 
-- **[[Mat Return to Back Mount]]** (7% of attempts)
+- **[[Transitions/Mat Return to Back Mount]]** (7% of attempts)
 
-- **[[Back Control to Seat Belt Control Back]]** (2% of attempts)
+- **[[Transitions/Back Control to Seat Belt Control Back]]** (2% of attempts)
 
-- **[[Bow and Arrow Setup from Standing Back]]** (2% of attempts)
+- **[[Transitions/Bow and Arrow Setup from Standing Back]]** (2% of attempts)
 
-- **[[Standing RNC]]** (2% of attempts)
+- **[[Submissions/Standing RNC]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -233,19 +233,19 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 ## Related Positions
 
 
-- **[[Back Control]]** - Grounded version of this position - common transition target for both players
+- **[[Positions/Back Control]]** - Grounded version of this position - common transition target for both players
 
-- **[[Clinch]]** - Neutral starting position - standing back control often emerges from clinch scrambles
+- **[[Positions/Clinch]]** - Neutral starting position - standing back control often emerges from clinch scrambles
 
-- **[[Turtle]]** - Common defensive transition - bottom player often moves here when escaping standing back control
+- **[[Positions/Turtle]]** - Common defensive transition - bottom player often moves here when escaping standing back control
 
-- **[[Body Lock]]** - Alternative control method - can be used instead of harness for standing back control
+- **[[Positions/Body Lock]]** - Alternative control method - can be used instead of harness for standing back control
 
-- **[[Harness]]** - Primary control mechanism - seat belt grip configuration essential for maintaining standing back control
+- **[[Positions/Harness]]** - Primary control mechanism - seat belt grip configuration essential for maintaining standing back control
 
-- **[[Body Triangle]]** - Advanced leg control - can be applied from standing to prevent escape attempts
+- **[[Positions/Back Control/Body Triangle]]** - Advanced leg control - can be applied from standing to prevent escape attempts
 
-- **[[Front Headlock]]** - Alternative control if bottom player begins turning to face top player
+- **[[Positions/Front Headlock]]** - Alternative control if bottom player begins turning to face top player
 
 
 </section>

@@ -21,7 +21,7 @@ The strategic importance of this escape cannot be overstated - Inside Sankaku re
 
 The transition to Half Guard specifically is chosen because it allows you to immediately establish a knee shield and begin rebuilding your guard structure, rather than scrambling to an undefined open guard position. From Half Guard, you have clear pathways to guard recovery, sweeps, or standing back up - all superior to remaining in leg entanglement danger.
 
-**From Position**: [[Inside Sankaku]] (Bottom)
+**From Position**: [[Positions/Inside Sankaku]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The transition to Half Guard specifically is chosen because it allows you to imm
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 65% |
-| Failure | [[Inside Sankaku]] | 25% |
-| Counter | [[Saddle]] | 10% |
+| Success | [[Positions/Half Guard]] | 65% |
+| Failure | [[Positions/Inside Sankaku]] | 25% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 10% |
 
 
 </section>
@@ -189,21 +189,21 @@ Frame and Extract to Half Guard serves as a critical survival technique within t
 ## Related Techniques
 
 
-- [[Inside Sankaku]] - Starting position
+- [[Positions/Inside Sankaku]] - Starting position
 
-- [[Half Guard]] - Target escape destination
+- [[Positions/Half Guard]] - Target escape destination
 
-- [[Granby Roll to Guard]] - Alternative escape when frames fail
+- [[Transitions/Granby Roll to Guard]] - Alternative escape when frames fail
 
-- [[Inside Heel Hook]] - Submission threat being defended
+- [[Submissions/Inside Heel Hook]] - Submission threat being defended
 
-- [[Saddle]] - Position to avoid if escape direction is wrong
+- [[Positions/Ashi Garami/Saddle]] - Position to avoid if escape direction is wrong
 
-- [[Hip Escape to Guard]] - Related defensive technique using similar mechanics
+- [[Transitions/Hip Escape to Guard]] - Related defensive technique using similar mechanics
 
-- [[Knee Shield Half Guard]] - Preferred Half Guard configuration after escape
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Preferred Half Guard configuration after escape
 
-- [[Outside Ashi-Garami]] - Related leg entanglement with similar escape principles
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related leg entanglement with similar escape principles
 
 
 </section>

@@ -156,7 +156,7 @@ From the defender's perspective in armbar defense, you are the practitioner who 
 
 Maintaining the armbar requires constant adjustment to your opponent's escape attempts. Each defensive element your opponent removes - breaking your wrist grip, loosening your leg control, stacking your hips - compromises your finishing position incrementally. Your response must address the most critical control loss first while maintaining secondary controls. When the escape progresses beyond recoverable thresholds, transitioning to alternative submissions such as triangle, omoplata, or back take becomes more productive than fighting for a deteriorating armbar position.
 
-**Opponent's Starting Position**: [[Armbar Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Armbar Control]] (Bottom)
 
 </section>
 
@@ -208,7 +208,7 @@ Maintaining the armbar requires constant adjustment to your opponent's escape at
 ### 3. Reposition hips away from stacking pressure by scooting your hips laterally while maintaining arm control, re-establishing perpendicular alignment
 
 - **When to use**: When opponent begins driving forward to stack your hips but has not yet achieved significant forward pressure - early intervention prevents the stack from developing
-- **Targets**: [[Armbar Control]]
+- **Targets**: [[Positions/Armbar Control]]
 - **If successful**: Stacking pressure is neutralized and you maintain armbar control with restored hip angle for finishing
 - **Risk**: Lateral movement may create momentary space that allows opponent to extract arm if grip control is not maintained
 
@@ -231,7 +231,7 @@ Maintaining the armbar requires constant adjustment to your opponent's escape at
 
 Maintain constant wrist control and break opponent's defensive grip before they can initiate rotation. Keep knees pinched, hips elevated, and finish with coordinated hip thrust and arm pull. Alternatively, transition to triangle or omoplata when their defensive movements create openings for alternative submissions.
 
-### → [[Armbar Control]]
+### → [[Positions/Armbar Control]]
 
 When opponent's escape attempt stalls but you cannot immediately finish, re-consolidate control by scooting hips tight to their shoulder, re-establishing leg position across face and chest, and securing fresh wrist grips. Reset the position to restart your finishing sequence with opponent's energy depleted from the failed escape.
 

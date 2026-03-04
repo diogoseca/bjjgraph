@@ -180,7 +180,7 @@ description: "Master executing the backstep from back control to reverse half gu
 
 As the attacker executing this transition, you are converting deteriorating back control into a strong top position in reverse half guard. The key recognition point is when your hooks are being cleared and fighting to maintain them becomes a losing battle. Rather than expending energy in a defensive hook fight, you proactively backstep your free leg over the defender's body, threading it between their legs from behind. This positions your hips behind theirs with your chest driving into their back or hips, establishing the reverse half guard top configuration. The transition preserves your offensive momentum and creates immediate passing and back take opportunities from the new position. Success depends on timing the backstep to coincide with the defender's rotational movement, using their escape energy to fuel your positional conversion rather than opposing it.
 
-**From Position**: [[Back Control]] (Top)
+**From Position**: [[Positions/Back Control]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing this transition, you are converting deteriorating back
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Reverse Half Guard]] | 55% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Half Guard/Reverse Half Guard]] | 55% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing this transition, you are converting deteriorating back
 
 ## Opponent Counters
 
-- **Defender completes rotation to face you before backstep is finished** (Effectiveness: High) - Your Response: If they fully face you, you end up in standard half guard top rather than reverse. Accept the position and work your passing game from there. Prevent this by maintaining chest pressure and timing the backstep earlier in the escape sequence. → Leads to [[Half Guard]]
-- **Defender shrimps away explosively during the backstep to create distance** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own hips and maintain chest pressure. If they create significant distance, you may need to re-engage from a passing position rather than reverse half guard. Use the leg drag to cut off their shrimping angle. → Leads to [[Half Guard]]
-- **Defender catches your backstep leg in deep half guard configuration** (Effectiveness: Medium) - Your Response: If they trap your backstep leg underneath them in deep half, you need to address this before establishing reverse half guard. Post on their hip and work to extract your leg, or accept the deep half position and use standard deep half passing techniques. → Leads to [[Half Guard]]
-- **Defender re-inserts a hook on your backstep leg to recover back control position** (Effectiveness: Low) - Your Response: This is unlikely if you maintain forward pressure, but if it happens, immediately address the hook by controlling their foot with your hand. Your weight advantage in the reverse half position makes their hook ineffective as long as you stay heavy. → Leads to [[Back Control]]
+- **Defender completes rotation to face you before backstep is finished** (Effectiveness: High) - Your Response: If they fully face you, you end up in standard half guard top rather than reverse. Accept the position and work your passing game from there. Prevent this by maintaining chest pressure and timing the backstep earlier in the escape sequence. → Leads to [[Positions/Half Guard]]
+- **Defender shrimps away explosively during the backstep to create distance** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own hips and maintain chest pressure. If they create significant distance, you may need to re-engage from a passing position rather than reverse half guard. Use the leg drag to cut off their shrimping angle. → Leads to [[Positions/Half Guard]]
+- **Defender catches your backstep leg in deep half guard configuration** (Effectiveness: Medium) - Your Response: If they trap your backstep leg underneath them in deep half, you need to address this before establishing reverse half guard. Post on their hip and work to extract your leg, or accept the deep half position and use standard deep half passing techniques. → Leads to [[Positions/Half Guard]]
+- **Defender re-inserts a hook on your backstep leg to recover back control position** (Effectiveness: Low) - Your Response: This is unlikely if you maintain forward pressure, but if it happens, immediately address the hook by controlling their foot with your hand. Your weight advantage in the reverse half position makes their hook ineffective as long as you stay heavy. → Leads to [[Positions/Back Control]]
 
 
 </section>

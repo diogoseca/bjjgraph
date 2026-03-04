@@ -21,7 +21,7 @@ From a tactical standpoint, reverse mount offers a unique combination of control
 
 The transition requires precise weight management and timing. Moving from North-South chest pressure to a seated position creates a vulnerability window where the opponent can escape if the transition is executed poorly. Success depends on maintaining continuous pressure throughout the movement, securing hip control before releasing chest pressure, and establishing the mounted position before the opponent can create defensive frames or hip escape.
 
-**From Position**: [[North-South]] (Top)
+**From Position**: [[Positions/North-South]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The transition requires precise weight management and timing. Moving from North-
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Reverse Mount]] | 58% |
-| Failure | [[North-South]] | 30% |
-| Counter | [[Half Guard]] | 12% |
+| Success | [[Positions/Reverse Mount]] | 58% |
+| Failure | [[Positions/North-South]] | 30% |
+| Counter | [[Positions/Half Guard]] | 12% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Reverse Mount Transition expands your North-South attack options by providin
 ## Related Techniques
 
 
-- [[North-South]] - Starting position for this transition
+- [[Positions/North-South]] - Starting position for this transition
 
-- [[Reverse Mount]] - Target position achieved through this transition
+- [[Positions/Reverse Mount]] - Target position achieved through this transition
 
-- [[Armbar from Mount]] - Primary submission follow-up from reverse mount
+- [[Submissions/Armbar from Mount]] - Primary submission follow-up from reverse mount
 
-- [[North-South Choke]] - Alternative submission from starting position
+- [[Transitions/North-South Choke]] - Alternative submission from starting position
 
-- [[Mount]] - Alternative positional advancement if reverse mount is defended
+- [[Positions/Mount]] - Alternative positional advancement if reverse mount is defended
 
-- [[High Mount Transition]] - Related positional advancement concept
+- [[Transitions/High Mount Transition]] - Related positional advancement concept
 
-- [[Side Control]] - Adjacent control position in the top game system
+- [[Positions/Side Control]] - Adjacent control position in the top game system
 
-- [[Half Guard]] - Counter outcome position when opponent recovers leg during transition
+- [[Positions/Half Guard]] - Counter outcome position when opponent recovers leg during transition
 
-- [[S Mount]] - Advanced follow-up position from reverse mount for belly-down armbar
+- [[Positions/Mount/S Mount]] - Advanced follow-up position from reverse mount for belly-down armbar
 
-- [[Back Control]] - Alternative advancement if opponent turns away during transition
+- [[Positions/Back Control]] - Alternative advancement if opponent turns away during transition
 
 
 </section>

@@ -190,7 +190,7 @@ Strategically, the inverted triangle serves as a critical tool in the triangle a
 
 The biomechanics of the inverted triangle differ significantly from the standard variation. The choking pressure comes from the opposite angle, with your legs positioned to compress the carotid arteries from behind rather than in front. This requires adjusting your hip angle, leg positioning, and grip placement to accommodate the reversed geometry. The inverted triangle also opens up different transition options, including back takes and armbar variations that aren't available from the standard triangle position.
 
-**From Position**: [[Triangle Control]] (Bottom)
+**From Position**: [[Positions/Triangle Control]] (Bottom)
 
 </section>
 
@@ -244,8 +244,8 @@ The biomechanics of the inverted triangle differ significantly from the standard
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Triangle Control]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Triangle Control]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -254,10 +254,10 @@ The biomechanics of the inverted triangle differ significantly from the standard
 
 ## Opponent Counters
 
-- **Posture recovery during rotation—opponent straightens spine and creates distance before you complete the inversion** (Effectiveness: High) - Your Response: Maintain constant downward pressure on head throughout rotation, use far hip grip to pull yourself through faster, or abort to standard triangle if posture breaks free → Leads to [[Triangle Control]]
-- **Stack defense—opponent drives forward and puts weight on your hips during the transition** (Effectiveness: Medium) - Your Response: Continue rotation through the stack, the inverted angle actually becomes easier to achieve when stacked, transition to omoplata if completely flattened → Leads to [[Triangle Control]]
-- **Arm extraction—opponent pulls trapped arm free during the rotation when triangle lock loosens momentarily** (Effectiveness: Medium) - Your Response: Immediately transition to back take as opponent's arm extraction creates space for you to climb onto their back, or switch to armbar on the now-free arm → Leads to [[Side Control]]
-- **Sprawl and head extraction—opponent sprawls hips back while pulling head out during the transition phase** (Effectiveness: Low) - Your Response: Keep legs locked throughout rotation, if they begin extracting head, squeeze tighter and complete standard triangle instead of inverting → Leads to [[Side Control]]
+- **Posture recovery during rotation—opponent straightens spine and creates distance before you complete the inversion** (Effectiveness: High) - Your Response: Maintain constant downward pressure on head throughout rotation, use far hip grip to pull yourself through faster, or abort to standard triangle if posture breaks free → Leads to [[Positions/Triangle Control]]
+- **Stack defense—opponent drives forward and puts weight on your hips during the transition** (Effectiveness: Medium) - Your Response: Continue rotation through the stack, the inverted angle actually becomes easier to achieve when stacked, transition to omoplata if completely flattened → Leads to [[Positions/Triangle Control]]
+- **Arm extraction—opponent pulls trapped arm free during the rotation when triangle lock loosens momentarily** (Effectiveness: Medium) - Your Response: Immediately transition to back take as opponent's arm extraction creates space for you to climb onto their back, or switch to armbar on the now-free arm → Leads to [[Positions/Side Control]]
+- **Sprawl and head extraction—opponent sprawls hips back while pulling head out during the transition phase** (Effectiveness: Low) - Your Response: Keep legs locked throughout rotation, if they begin extracting head, squeeze tighter and complete standard triangle instead of inverting → Leads to [[Positions/Side Control]]
 
 
 </section>

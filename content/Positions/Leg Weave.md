@@ -93,23 +93,23 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 ### Available Transitions
 
 
-- **[[Frame and Shrimp to Guard]]** (15% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard]]** (15% of attempts)
 
-- **[[Underhook Sweep from Half]]** (11% of attempts)
+- **[[Transitions/Underhook Sweep from Half]]** (11% of attempts)
 
-- **[[Deep Half Entry]]** (13% of attempts)
+- **[[Transitions/Deep Half Entry]]** (13% of attempts)
 
-- **[[Old School Sweep]]** (8% of attempts)
+- **[[Transitions/Old School Sweep]]** (8% of attempts)
 
-- **[[Dogfight Position]]** (27% of attempts)
+- **[[Positions/Dogfight Position]]** (27% of attempts)
 
-- **[[Lockdown Recovery]]** (15% of attempts)
+- **[[Transitions/Lockdown Recovery]]** (15% of attempts)
 
-- **[[Half Guard Recovery]]** (6% of attempts)
+- **[[Transitions/Half Guard Recovery]]** (6% of attempts)
 
-- **[[Leg Weave Escape to Half Guard]]** (3% of attempts)
+- **[[Transitions/Leg Weave Escape to Half Guard]]** (3% of attempts)
 
-- **[[Sweep from Leg Weave]]** (2% of attempts)
+- **[[Transitions/Sweep from Leg Weave]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -166,25 +166,25 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 ### Available Transitions
 
 
-- **[[Leg Weave Pass]]** (15% of attempts)
+- **[[Transitions/Leg Weave Pass]]** (15% of attempts)
 
-- **[[Knee Slice Pass]]** (32% of attempts)
+- **[[Transitions/Knee Slice Pass]]** (32% of attempts)
 
-- **[[Leg Drag Pass]]** (10% of attempts)
+- **[[Transitions/Leg Drag Pass]]** (10% of attempts)
 
-- **[[Smash Pass]]** (11% of attempts)
+- **[[Transitions/Smash Pass]]** (11% of attempts)
 
-- **[[Over-Under Pass]]** (10% of attempts)
+- **[[Transitions/Over-Under Pass]]** (10% of attempts)
 
-- **[[Long Step Pass]]** (10% of attempts)
+- **[[Transitions/Long Step Pass]]** (10% of attempts)
 
-- **[[Back Step]]** (7% of attempts)
+- **[[Transitions/Back Step]]** (7% of attempts)
 
-- **[[Backstep from Leg Weave]]** (3% of attempts)
+- **[[Transitions/Backstep from Leg Weave]]** (3% of attempts)
 
-- **[[Complete Leg Weave Pass]]** (1% of attempts)
+- **[[Transitions/Complete Leg Weave Pass]]** (1% of attempts)
 
-- **[[Leg Weave Pass Completion]]** (1% of attempts)
+- **[[Transitions/Leg Weave Pass Completion]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -219,23 +219,23 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 ## Related Positions
 
 
-- **[[Half Guard]]** - Parent position where leg weave commonly develops during passing sequences
+- **[[Positions/Half Guard]]** - Parent position where leg weave commonly develops during passing sequences
 
-- **[[Knee Shield Half Guard]]** - Primary recovery target for bottom player escaping leg weave pressure
+- **[[Positions/Half Guard/Knee Shield Half Guard]]** - Primary recovery target for bottom player escaping leg weave pressure
 
-- **[[Deep Half Guard]]** - Common counter-entry when top player drives forward pressure in leg weave
+- **[[Positions/Half Guard/Deep Half Guard]]** - Common counter-entry when top player drives forward pressure in leg weave
 
-- **[[Side Control]]** - Primary completion target for top player passing from leg weave
+- **[[Positions/Side Control]]** - Primary completion target for top player passing from leg weave
 
-- **[[Headquarters Position]]** - Related passing position with similar pressure and control concepts
+- **[[Positions/Headquarters Position]]** - Related passing position with similar pressure and control concepts
 
-- **[[Dogfight Position]]** - Transitional position when bottom player comes up on elbow from leg weave
+- **[[Positions/Dogfight Position]]** - Transitional position when bottom player comes up on elbow from leg weave
 
-- **[[Lockdown]]** - Alternative bottom strategy to trap weaving leg and counter passing pressure
+- **[[Positions/Half Guard/Lockdown]]** - Alternative bottom strategy to trap weaving leg and counter passing pressure
 
-- **[[Flattened Half Guard]]** - Common result when bottom player fails to defend leg weave effectively
+- **[[Positions/Half Guard/Flattened Half Guard]]** - Common result when bottom player fails to defend leg weave effectively
 
-- **[[Leg Drag Control]]** - Alternative passing finish when bottom player turns during leg weave
+- **[[Positions/Leg Drag Control]]** - Alternative passing finish when bottom player turns during leg weave
 
 
 </section>

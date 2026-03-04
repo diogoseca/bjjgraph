@@ -154,7 +154,7 @@ description: "Learn to defend and prevent the seat belt to body triangle transit
 
 As the defender facing the Seat Belt to Body Triangle transition, your primary objective is preventing the attacker from upgrading their back control from hooks to the mechanically superior body triangle configuration. This defense is fundamentally about timing and recognition — the transition requires the attacker to temporarily release one hook, creating a vulnerability window that you must exploit before the figure-four closes. If you fail to prevent the transition, your escape difficulty increases substantially because body triangle eliminates the standard hook-clearing escape sequences that work against regular back control. Your defensive awareness must track not only the attacker's upper body grip and choking threats but also their leg positioning, recognizing the threading attempt early enough to mount an effective defense before the lock is established.
 
-**Opponent's Starting Position**: [[Seat Belt Control Back]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control/Seat Belt Control Back]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ As the defender facing the Seat Belt to Body Triangle transition, your primary o
 ### 1. Explosive hip escape during single-hook phase
 
 - **When to use**: The moment you feel one hook withdraw — immediately shrimp away from the remaining hook to create space and prevent the threading leg from crossing your centerline
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Forces the attacker to abort the threading and re-insert the hook, returning to standard seat belt back control without the body triangle upgrade
 - **Risk**: If the hip escape is poorly timed or weak, the attacker may complete the threading during your movement and lock the triangle while you are partially turned
 
 ### 2. Grab and block the crossing leg with both hands
 
 - **When to use**: When the crossing leg begins threading across your torso but has not yet passed your centerline — use both hands to grab the shin or ankle and prevent further advancement
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Stalls the threading and forces the attacker to either abandon the attempt or release seat belt grip to fight your hands, creating escape opportunities
 - **Risk**: Both hands on the leg means zero hands defending your neck — the attacker may immediately switch to a rear naked choke attempt if they recognize the opening
 
 ### 3. Turn into attacker during hook release
 
 - **When to use**: When the attacker releases a hook and you have sufficient angle and hip mobility to begin turning to face them before the body triangle locks
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Converts back control into a scramble situation, potentially recovering half guard or creating a positional reset where the attacker must re-establish back control
 - **Risk**: Turning into a still-connected seat belt can result in mount rather than guard recovery if the timing is poor or the attacker follows your turn
 
 ### 4. Straighten legs and bridge to prevent figure-four closure
 
 - **When to use**: When the crossing leg has passed your centerline but the figure-four has not yet locked — extend your legs and bridge your hips to create distance that prevents the closing foot from reaching behind the knee
-- **Targets**: [[Seat Belt Control Back]]
+- **Targets**: [[Positions/Back Control/Seat Belt Control Back]]
 - **If successful**: Prevents the lock from closing, forcing the attacker to either withdraw the crossing leg and return to hooks or maintain an unlocked leg position that provides less control than either configuration
 - **Risk**: Bridging is energy-intensive and cannot be sustained — if the attacker simply waits for you to return to the mat, they can close the lock during your descent
 
@@ -224,11 +224,11 @@ As the defender facing the Seat Belt to Body Triangle transition, your primary o
 
 ## Best-Case Outcomes for Defender
 
-### → [[Seat Belt Control Back]]
+### → [[Positions/Back Control/Seat Belt Control Back]]
 
 Exploit the single-hook vulnerability window by executing an immediate hip escape the moment you recognize one hook being withdrawn. The combination of your hip movement and the attacker's reduced leg control frequently forces them to abort the threading and re-insert the hook, returning to standard back control where your hook-clearing escape sequences remain viable.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If you cannot prevent the threading but can turn into the attacker before the lock closes, aggressively turn your shoulders toward them while inserting a knee between your bodies. This converts the back control situation into half guard recovery where you have guard frames and the attacker has lost the back angle. This requires committing to the turn early in the threading process rather than waiting for the lock to close.
 

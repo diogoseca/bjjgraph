@@ -178,7 +178,7 @@ From a biomechanical perspective, the trapped arm position places the shoulder i
 
 The Kimura on Trapped Arm serves as both a direct submission threat and a control consolidation tool. Even when the submission doesn't finish, the Kimura grip provides exceptional control that can be used to transition to mounted positions, advance to the crucifix, or set up alternative attacks. Understanding this dual purpose transforms the technique from a one-dimensional submission attempt into a systematic control weapon.
 
-**From Position**: [[Gift Wrap]] (Top)
+**From Position**: [[Positions/Gift Wrap]] (Top)
 
 </section>
 
@@ -232,8 +232,8 @@ The Kimura on Trapped Arm serves as both a direct submission threat and a contro
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Gift Wrap]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Failure | [[Positions/Gift Wrap]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ The Kimura on Trapped Arm serves as both a direct submission threat and a contro
 
 ## Opponent Counters
 
-- **Opponent straightens the trapped arm before Kimura grip is established, removing shoulder vulnerability** (Effectiveness: High) - Your Response: If arm straightens, switch to armbar attack on the now-extended limb or re-establish Gift Wrap control before reattempting → Leads to [[Gift Wrap]]
+- **Opponent straightens the trapped arm before Kimura grip is established, removing shoulder vulnerability** (Effectiveness: High) - Your Response: If arm straightens, switch to armbar attack on the now-extended limb or re-establish Gift Wrap control before reattempting → Leads to [[Positions/Gift Wrap]]
 - **Opponent turns into attacker and rolls belly-down to reduce shoulder rotation angle** (Effectiveness: Medium) - Your Response: Follow the roll and transition to mounted Kimura position or crucifix; belly-down actually improves finishing angle in many cases → Leads to [[game-over]]
-- **Opponent grabs their own belt, pants, or interlocks hands to prevent wrist movement** (Effectiveness: Medium) - Your Response: Use hip pressure and body rotation to break the grip; alternatively attack the free arm or transition to choke while they defend → Leads to [[Gift Wrap]]
-- **Opponent explosively bridges and rotates to face attacker, escaping back control** (Effectiveness: High) - Your Response: Maintain Kimura grip during rotation and transition to mounted Kimura or side control Kimura position → Leads to [[Back Control]]
+- **Opponent grabs their own belt, pants, or interlocks hands to prevent wrist movement** (Effectiveness: Medium) - Your Response: Use hip pressure and body rotation to break the grip; alternatively attack the free arm or transition to choke while they defend → Leads to [[Positions/Gift Wrap]]
+- **Opponent explosively bridges and rotates to face attacker, escaping back control** (Effectiveness: High) - Your Response: Maintain Kimura grip during rotation and transition to mounted Kimura or side control Kimura position → Leads to [[Positions/Back Control]]
 
 
 </section>

@@ -158,7 +158,7 @@ The critical defensive concept is that the rolling reversal requires three seque
 
 Your positional advantage as the back controller with body triangle is substantial - you have gravity, mechanical leverage, and breathing restriction working in your favor. The rolling reversal is a desperation technique that requires precise timing and full commitment from your opponent, meaning that even partial defense typically results in your opponent returning to the same disadvantageous position with less energy. Recognize the setup cues early, maintain your base discipline, and use your opponent's failed attempts as opportunities to tighten control and accelerate your submission attacks.
 
-**Opponent's Starting Position**: [[Body Triangle]] (Top)
+**Opponent's Starting Position**: [[Positions/Back Control/Body Triangle]] (Top)
 
 </section>
 
@@ -196,28 +196,28 @@ Your positional advantage as the back controller with body triangle is substanti
 ### 1. Post your free arm on the mat immediately when you feel opponent pulling your choking arm across their body
 
 - **When to use**: As soon as you recognize the two-on-one grip on your choking arm and feel them pulling it toward the triangle side
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: The posted arm creates an immovable block that prevents the roll from completing, returning opponent to defensive position with depleted energy
 - **Risk**: Temporarily reduces your choking threat as your arm is occupied posting rather than attacking the neck
 
 ### 2. Drive chest forward and flatten opponent to mat while squeezing body triangle tighter to eliminate hip angle
 
 - **When to use**: When you feel opponent shifting their hips or creating an angle toward the triangle side before they initiate the roll
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: Eliminates the hip angle needed to initiate rotation and reestablishes dominant chest-to-back pressure, making the roll mechanically impossible
 - **Risk**: Aggressive forward pressure may briefly loosen your upper body grip configuration
 
 ### 3. Release the body triangle preemptively and transition to standard hooks or mount when rolling attempt is imminent
 
 - **When to use**: When opponent has secured arm control and created sufficient angle that the roll may succeed despite your defensive efforts
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Removes the locked-leg vulnerability that enables the reversal, transitioning to a position where the roll cannot be completed against you
 - **Risk**: Gives up the superior body triangle control and may allow opponent to escape to turtle or half guard during the transition
 
 ### 4. Switch your choking arm to the opposite side and attack from a different angle to disrupt opponent's two-on-one grip setup
 
 - **When to use**: Early in the setup when opponent first begins securing grip on your choking arm but before they establish full two-on-one control
-- **Targets**: [[Body Triangle]]
+- **Targets**: [[Positions/Back Control/Body Triangle]]
 - **If successful**: Forces opponent to restart their grip sequence from scratch while you maintain body triangle control and continue hunting submissions
 - **Risk**: Momentary reduction in submission threat as you reconfigure your upper body attack angle
 
@@ -229,11 +229,11 @@ Your positional advantage as the back controller with body triangle is substanti
 
 ## Best-Case Outcomes for Defender
 
-### → [[Body Triangle]]
+### → [[Positions/Back Control/Body Triangle]]
 
 Shut down the roll attempt by posting your free arm on the mat, driving your chest forward to flatten opponent, and squeezing the body triangle tighter. Once the attempt fails, immediately increase submission pressure while opponent has depleted energy from the failed reversal.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 If the rolling attempt develops dangerous momentum, preemptively release the body triangle and use the rotational energy to transition to mount position. Slide your hips over opponent's torso as they roll, establishing mount control before they can complete the back take.
 

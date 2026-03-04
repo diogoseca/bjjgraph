@@ -21,7 +21,7 @@ The technique requires significant flexibility, spatial awareness, and precise t
 
 Modern leg lock defense integrates the inversion escape as one option within a comprehensive escape hierarchy rather than a primary response. The technique pairs naturally with boot scooting, grip fighting, and guard recovery methods, giving the defender multiple tools to address different entanglement configurations. Against systematic leg lockers who anticipate inversions and adjust their control accordingly, the escape becomes most effective when chained with other defensive movements, using the initial inversion attempt to create scramble opportunities even if the full escape is not achieved.
 
-**From Position**: [[Leg Entanglement]] (Bottom)
+**From Position**: [[Positions/Leg Entanglement]] (Bottom)
 **Success Rate**: 35%
 
 </section>
@@ -32,9 +32,9 @@ Modern leg lock defense integrates the inversion escape as one option within a c
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Butterfly Guard]] | 35% |
-| Failure | [[Leg Entanglement]] | 40% |
-| Counter | [[Saddle]] | 25% |
+| Success | [[Positions/Butterfly Guard]] | 35% |
+| Failure | [[Positions/Leg Entanglement]] | 40% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 25% |
 
 
 </section>
@@ -193,25 +193,25 @@ The inversion escape occupies a specific niche within the leg entanglement defen
 ## Related Techniques
 
 
-- [[Leg Entanglement]] - Starting position - the entanglement system this escape addresses
+- [[Positions/Leg Entanglement]] - Starting position - the entanglement system this escape addresses
 
-- [[Butterfly Guard]] - Primary target position after successful inversion escape
+- [[Positions/Butterfly Guard]] - Primary target position after successful inversion escape
 
-- [[Saddle]] - Position opponent may advance to if inversion is countered
+- [[Positions/Ashi Garami/Saddle]] - Position opponent may advance to if inversion is countered
 
-- [[Ashi Garami]] - Parent category of common starting entanglement configurations
+- [[Positions/Ashi Garami]] - Parent category of common starting entanglement configurations
 
-- [[Inside Ashi-Garami]] - Specific entanglement variant this escape is commonly attempted from
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Specific entanglement variant this escape is commonly attempted from
 
-- [[Inverted Guard]] - Intermediate position during backward inversion variant
+- [[Positions/Inverted Guard]] - Intermediate position during backward inversion variant
 
-- [[Ashi Garami Escape]] - Related primary escape technique from leg entanglements
+- [[Transitions/Ashi Garami Escape]] - Related primary escape technique from leg entanglements
 
-- [[Boot Scoot Escape from Saddle]] - Complementary escape method that can chain with inversion attempts
+- [[Transitions/Boot Scoot Escape from Saddle]] - Complementary escape method that can chain with inversion attempts
 
-- [[Forward Roll from Saddle]] - Related rolling escape technique from dominant leg entanglement
+- [[Transitions/Forward Roll from Saddle]] - Related rolling escape technique from dominant leg entanglement
 
-- [[Counter Sweep from Leg Entanglement]] - Alternative defensive option from the same starting position
+- [[Transitions/Counter Sweep from Leg Entanglement]] - Alternative defensive option from the same starting position
 
 
 </section>

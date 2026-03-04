@@ -93,17 +93,17 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 ### Available Transitions
 
 
-- **[[Reverse the entanglement to Outside Ashi]]** (26% of attempts)
+- **[[Transitions/Reverse the entanglement to Outside Ashi]]** (26% of attempts)
 
-- **[[Counter-entangle to 50-50 Guard]]** (18% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard]]** (18% of attempts)
 
-- **[[Extract leg and establish Single Leg X]]** (18% of attempts)
+- **[[Transitions/Extract leg and establish Single Leg X]]** (18% of attempts)
 
-- **[[Limp leg extraction to Half Guard]]** (18% of attempts)
+- **[[Transitions/Limp leg extraction to Half Guard]]** (18% of attempts)
 
-- **[[Clear leg and transition to X-Guard]]** (13% of attempts)
+- **[[Transitions/Clear leg and transition to X-Guard]]** (13% of attempts)
 
-- **[[Reversal from Leg Knot]]** (7% of attempts)
+- **[[Transitions/Reversal from Leg Knot]]** (7% of attempts)
 
 
 ### Common Mistakes
@@ -168,15 +168,15 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 ### Available Transitions
 
 
-- **[[Heel Hook from Saddle]]** (35% of attempts)
+- **[[Transitions/Heel Hook from Saddle]]** (35% of attempts)
 
-- **[[Backstep from Leg Knot]]** (20% of attempts)
+- **[[Transitions/Backstep from Leg Knot]]** (20% of attempts)
 
-- **[[Toe Hold from Outside Ashi]]** (20% of attempts)
+- **[[Transitions/Toe Hold from Outside Ashi]]** (20% of attempts)
 
-- **[[Pressure Pass from Leg Knot]]** (15% of attempts)
+- **[[Transitions/Pressure Pass from Leg Knot]]** (15% of attempts)
 
-- **[[Leg Extraction from Leg Knot]]** (10% of attempts)
+- **[[Transitions/Leg Extraction from Leg Knot]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -215,25 +215,25 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 ## Related Positions
 
 
-- **[[Saddle]]** - Primary advancement target from top position, consolidation of leg entanglement control
+- **[[Positions/Ashi Garami/Saddle]]** - Primary advancement target from top position, consolidation of leg entanglement control
 
-- **[[Inside Ashi-Garami]]** - Common entry position and related leg entanglement configuration
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Common entry position and related leg entanglement configuration
 
-- **[[Outside Ashi-Garami]]** - Alternative entry position and potential reversal target
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Alternative entry position and potential reversal target
 
-- **[[50-50 Guard]]** - Symmetric leg entanglement option when neither achieves dominance
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Symmetric leg entanglement option when neither achieves dominance
 
-- **[[Honey Hole]]** - Advanced leg entanglement position sharing similar control principles
+- **[[Positions/Ashi Garami/Honey Hole]]** - Advanced leg entanglement position sharing similar control principles
 
-- **[[Single Leg X-Guard]]** - Escape target position with maintained leg control
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Escape target position with maintained leg control
 
-- **[[Half Guard]]** - Common safe escape target from compromised leg entanglement
+- **[[Positions/Half Guard]]** - Common safe escape target from compromised leg entanglement
 
-- **[[X-Guard]]** - Alternative guard recovery option maintaining offensive capability
+- **[[Positions/X-Guard]]** - Alternative guard recovery option maintaining offensive capability
 
-- **[[Deep Half Guard]]** - Related leg-based control position with similar entanglement principles
+- **[[Positions/Half Guard/Deep Half Guard]]** - Related leg-based control position with similar entanglement principles
 
-- **[[Leg Entanglement]]** - Core conceptual framework and parent category
+- **[[Positions/Leg Entanglement]]** - Core conceptual framework and parent category
 
 
 </section>

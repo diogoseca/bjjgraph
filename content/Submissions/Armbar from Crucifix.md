@@ -22,8 +22,8 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint
-**Starting Position**: [[Crucifix]]
-**From Position**: [[Crucifix]] (Top)
+**Starting Position**: [[Positions/Crucifix]]
+**From Position**: [[Positions/Crucifix]] (Top)
 **Success Rate**: 62%
 
 </section>
@@ -77,8 +77,8 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Crucifix]] | 25% |
-| Counter | [[Back Control]] | 15% |
+| Failure | [[Positions/Crucifix]] | 25% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -229,14 +229,14 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 
 ## From Which Positions?
 
-- [[Crucifix]]
-- [[Mounted Crucifix]]
-- [[Back Control]]
-- [[Seat Belt Control Back]]
-- [[Gift Wrap]]
-- [[Turtle]]
-- [[Side Control]]
-- [[North-South]]
+- [[Positions/Crucifix]]
+- [[Positions/Mount/Mounted Crucifix]]
+- [[Positions/Back Control]]
+- [[Positions/Back Control/Seat Belt Control Back]]
+- [[Positions/Gift Wrap]]
+- [[Positions/Turtle]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
 
 
 </section>
@@ -245,17 +245,17 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 
 ## Related Submissions
 
-- [[Armbar from Mount]]
-- [[Armbar from Guard]]
-- [[Choke from Crucifix]]
-- [[Armbar from Back]]
-- [[Armbar from Side Control]]
-- [[Rear Naked Choke]]
-- [[Armbar from Back with Legs]]
-- [[Far Side Armbar]]
-- [[Belly Down Armbar]]
-- [[Kimura]]
-- [[Americana]]
+- [[Submissions/Armbar from Mount]]
+- [[Submissions/Armbar from Guard]]
+- [[Transitions/Choke from Crucifix]]
+- [[Submissions/Armbar from Back]]
+- [[Submissions/Armbar from Side Control]]
+- [[Transitions/Rear Naked Choke]]
+- [[Submissions/Armbar from Back with Legs]]
+- [[Submissions/Far Side Armbar]]
+- [[Submissions/Belly Down Armbar]]
+- [[Transitions/Kimura]]
+- [[Transitions/Americana]]
 
 
 </section>
@@ -264,16 +264,16 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 
 ## Additional Related Content
 
-- [[Back Control to Crucifix]] - Primary entry transition - establishes the crucifix position from back control
-- [[Mount to Armbar]] - Similar armbar mechanics but from mount position - study for arm isolation principles
-- [[Crucifix from Turtle]] - Alternative entry to crucifix position - direct setup for this submission
-- [[Crucifix]] - Foundation control position required before attempting this submission
-- [[Mounted Crucifix]] - Variation position offering similar armbar opportunities with different weight distribution
-- [[Back Control]] - Primary position for entering crucifix and armbar sequence
-- [[Arm Extraction]] - Key transition skill for isolating the arm from crucifix position
-- [[Rodeo Ride]] - Alternative back control position with similar arm isolation opportunities
-- [[Harness]] - Upper body control position that can transition to crucifix armbar
-- [[Turtle]] - Common position from which crucifix can be established for armbar attack
+- [[Transitions/Back Control to Crucifix]] - Primary entry transition - establishes the crucifix position from back control
+- [[Transitions/Mount to Armbar]] - Similar armbar mechanics but from mount position - study for arm isolation principles
+- [[Transitions/Crucifix from Turtle]] - Alternative entry to crucifix position - direct setup for this submission
+- [[Positions/Crucifix]] - Foundation control position required before attempting this submission
+- [[Positions/Mount/Mounted Crucifix]] - Variation position offering similar armbar opportunities with different weight distribution
+- [[Positions/Back Control]] - Primary position for entering crucifix and armbar sequence
+- [[Transitions/Arm Extraction]] - Key transition skill for isolating the arm from crucifix position
+- [[Positions/Rodeo Ride]] - Alternative back control position with similar arm isolation opportunities
+- [[Positions/Harness]] - Upper body control position that can transition to crucifix armbar
+- [[Positions/Turtle]] - Common position from which crucifix can be established for armbar attack
 
 
 </section>

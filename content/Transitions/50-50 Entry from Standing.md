@@ -21,7 +21,7 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 
 From a strategic standpoint, the 50-50 entry from standing bypasses many traditional guard-pulling exchanges and immediately places both competitors in a complex leg entanglement scenario. The attacker who initiates the entry typically gains a slight advantage through inside position control and superior grip placement, provided the entry mechanics are executed correctly. This technique is classified as a positional control tool, as it establishes a controlling guard position rather than directly threatening a submission.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 52%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic standpoint, the 50-50 entry from standing bypasses many traditi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 60% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 60% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -198,29 +198,29 @@ Strategically, the 50-50 entry from standing is particularly valuable in no-gi c
 ## Related Techniques
 
 
-- [[50-50 Guard]] - Target position - the end state of this technique
+- [[Positions/Ashi Garami/50-50 Guard]] - Target position - the end state of this technique
 
-- [[Outside Ashi-Garami]] - Alternative leg entanglement entry from standing
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative leg entanglement entry from standing
 
-- [[Inside Ashi-Garami]] - Related leg entanglement entry option
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related leg entanglement entry option
 
-- [[Guard Pull]] - General category - 50-50 entry is a specific type of guard pull
+- [[Transitions/Guard Pull]] - General category - 50-50 entry is a specific type of guard pull
 
-- [[Inside Heel Hook]] - Primary submission attack from 50-50 position
+- [[Submissions/Inside Heel Hook]] - Primary submission attack from 50-50 position
 
-- [[Reverse X-Guard]] - Alternative leg entanglement entry that can convert to 50-50
+- [[Positions/X-Guard/Reverse X-Guard]] - Alternative leg entanglement entry that can convert to 50-50
 
-- [[Saddle]] - Follow-up position achieved by adjusting from 50-50
+- [[Positions/Ashi Garami/Saddle]] - Follow-up position achieved by adjusting from 50-50
 
-- [[Heel Hook]] - Common submission finish from 50-50 position
+- [[Transitions/Heel Hook]] - Common submission finish from 50-50 position
 
-- [[Standing Position]] - Starting position for this entry technique
+- [[Positions/Standing Position]] - Starting position for this entry technique
 
-- [[50-50 Entry]] - Related entry to 50-50 from non-standing positions
+- [[Transitions/50-50 Entry]] - Related entry to 50-50 from non-standing positions
 
-- [[Back Take from 50-50]] - Key follow-up transition when submissions are defended in 50-50
+- [[Transitions/Back Take from 50-50]] - Key follow-up transition when submissions are defended in 50-50
 
-- [[Ashi Garami]] - Parent system of leg entanglements that includes 50-50
+- [[Positions/Ashi Garami]] - Parent system of leg entanglements that includes 50-50
 
 
 </section>

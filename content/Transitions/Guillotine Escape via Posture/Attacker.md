@@ -186,7 +186,7 @@ description: "Master the attacker perspective for Guillotine Escape via Posture.
 
 As the person caught in a bottom guillotine, your primary objective is systematic posture recovery that breaks the mechanical advantage of the choke. The escape demands immediate recognition of the threat, purposeful hand placement on the choking wrist, and aggressive hip-forward posture that exploits the structural weakness of the bottom guillotine grip. Rather than panicking and pulling backward—which tightens the choke—you must drive forward and up, walking your knees past the opponent's hips to create the spine extension angle needed to strip the grip. Every second of delay allows the opponent to deepen their grip, close their guard, and transition to higher-percentage guillotine variations that resist posture escapes entirely.
 
-**From Position**: [[Guillotine Control]] (Bottom)
+**From Position**: [[Positions/Guillotine Control]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ As the person caught in a bottom guillotine, your primary objective is systemati
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Guillotine Control]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Guillotine Control]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -251,9 +251,9 @@ As the person caught in a bottom guillotine, your primary objective is systemati
 
 ## Opponent Counters
 
-- **Opponent closes guard high on your back and pulls head down with legs to prevent posture recovery** (Effectiveness: High) - Your Response: Prevent guard closure by keeping knees wide and driving forward before they can lock ankles. If guard closes, address the legs first by posturing inside closed guard and working to break the ankle lock before re-attempting the escape. → Leads to [[Guillotine Control]]
-- **Opponent switches to high elbow guillotine variation by driving choking elbow toward ceiling during your posture attempt** (Effectiveness: High) - Your Response: If you feel the elbow driving toward the ceiling and choking pressure increasing, immediately stop posturing upward and transition to a Von Flue choke counter by driving your shoulder into their choking arm, or address the new grip angle by turning into the choke before continuing. → Leads to [[Guillotine Control]]
-- **Opponent executes hip bump sweep using your upward posture momentum to roll you over their hip to mount** (Effectiveness: Medium) - Your Response: Maintain a wide base with your posted hand and keep weight distributed forward rather than rising straight up. Drive your shoulder into the opponent as you posture to prevent the bridge angle needed for the sweep. If swept, immediately frame against mount and work to recover half guard. → Leads to [[Mount]]
+- **Opponent closes guard high on your back and pulls head down with legs to prevent posture recovery** (Effectiveness: High) - Your Response: Prevent guard closure by keeping knees wide and driving forward before they can lock ankles. If guard closes, address the legs first by posturing inside closed guard and working to break the ankle lock before re-attempting the escape. → Leads to [[Positions/Guillotine Control]]
+- **Opponent switches to high elbow guillotine variation by driving choking elbow toward ceiling during your posture attempt** (Effectiveness: High) - Your Response: If you feel the elbow driving toward the ceiling and choking pressure increasing, immediately stop posturing upward and transition to a Von Flue choke counter by driving your shoulder into their choking arm, or address the new grip angle by turning into the choke before continuing. → Leads to [[Positions/Guillotine Control]]
+- **Opponent executes hip bump sweep using your upward posture momentum to roll you over their hip to mount** (Effectiveness: Medium) - Your Response: Maintain a wide base with your posted hand and keep weight distributed forward rather than rising straight up. Drive your shoulder into the opponent as you posture to prevent the bridge angle needed for the sweep. If swept, immediately frame against mount and work to recover half guard. → Leads to [[Positions/Mount]]
 
 
 </section>

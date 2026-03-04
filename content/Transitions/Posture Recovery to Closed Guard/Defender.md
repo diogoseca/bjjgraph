@@ -158,7 +158,7 @@ Successful defense requires recognizing the early warning signs of guard recover
 
 The strategic framework centers on a simple principle: deny space and maintain connection. Every guard recovery requires the bottom player to create space between your hips and theirs. Your defensive tools - heavy hip pressure, grip re-establishment, crossface control, and hook insertion - all serve to collapse that space before it becomes sufficient for guard insertion. When you feel the bottom player's frame against your body, that is your cue to intensify pressure rather than retreat.
 
-**Opponent's Starting Position**: [[Crackhead Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ The strategic framework centers on a simple principle: deny space and maintain c
 ### 1. Drive hips forward and re-establish controlling grip immediately when feeling frame establishment or grip strip
 
 - **When to use**: At the earliest sign of guard recovery - when you feel the frame post against your body or feel your grip being stripped
-- **Targets**: [[Crackhead Control]]
+- **Targets**: [[Positions/Crackhead Control]]
 - **If successful**: Bottom player's frame collapses under your forward pressure and they return to defensive turtle with your grips re-established
 - **Risk**: Over-committing forward can be used by the bottom player to accelerate their guard closure if they time the rotation with your drive
 
 ### 2. Insert near-side hook during the hip escape window when bottom player's elbows flare and hips rotate
 
 - **When to use**: When the bottom player has committed to hip rotation and their elbow separates from their ribs during the escape movement
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You convert the failed guard recovery attempt into full back control with at least one hook established and seatbelt maintained
 - **Risk**: If the bottom player traps your foot before you secure the hook, they may use it as leverage to complete their rotation faster
 
 ### 3. Apply crossface pressure with your near-side arm while sprawling hips heavy to flatten opponent back to turtle
 
 - **When to use**: When the bottom player has established a frame but hasn't yet committed to the hip escape - the intermediate phase of their recovery
-- **Targets**: [[Crackhead Control]]
+- **Targets**: [[Positions/Crackhead Control]]
 - **If successful**: Crossface flattens the bottom player's posture, destroys their frame, and resets them to a compromised turtle position
 - **Risk**: The bottom player may use the crossface pressure direction to hip escape to the opposite side, exploiting your weight commitment
 
 ### 4. Disengage and circle to front headlock position when guard closure appears imminent
 
 - **When to use**: When the bottom player's hips have already rotated significantly and guard closure is likely - this is a bail-out option to avoid being pulled into closed guard
-- **Targets**: [[Crackhead Control]]
+- **Targets**: [[Positions/Crackhead Control]]
 - **If successful**: You avoid being pulled into closed guard and establish front headlock or top position with passing opportunity
 - **Risk**: Disengaging concedes turtle control and may give the bottom player butterfly guard or seated guard instead
 
@@ -229,11 +229,11 @@ The strategic framework centers on a simple principle: deny space and maintain c
 
 ## Best-Case Outcomes for Defender
 
-### → [[Crackhead Control]]
+### → [[Positions/Crackhead Control]]
 
 Maintain heavy hip pressure and immediately re-establish grips when stripped. Drive forward into frames to collapse them rather than allowing space creation. Use crossface to flatten the bottom player's posture before they can complete spinal alignment recovery.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Time hook insertion for the moment when the bottom player's elbows flare during their hip escape attempt. Their commitment to rotation creates the gap between their elbow and ribs that your hook needs. Maintain seatbelt control throughout and follow their hip movement with your chest-to-back connection.
 

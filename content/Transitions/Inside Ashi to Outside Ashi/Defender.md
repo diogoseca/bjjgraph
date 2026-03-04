@@ -146,7 +146,7 @@ description: "Complete guide to defending the Inside Ashi to Outside Ashi transi
 
 As the defender, your leg is trapped in the opponent's inside ashi-garami and they are attempting to reconfigure their entanglement to outside ashi-garami. This reconfiguration changes the angle of submission threat from inside heel hooks to outside heel hooks, and your defensive priorities shift accordingly. The transition creates a brief window of loosened control that represents your best escape opportunity. Recognizing the transition early and exploiting the vulnerability window is far more effective than trying to defend the fully established outside ashi after the switch is complete. Your primary defensive strategy should focus on preventing the angle change during the transition rather than defending from the new position once it is established.
 
-**Opponent's Starting Position**: [[Inside Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
 
 </section>
 
@@ -185,28 +185,28 @@ As the defender, your leg is trapped in the opponent's inside ashi-garami and th
 ### 1. Retract leg through the loosened triangle during the transition window
 
 - **When to use**: Immediately upon recognizing the hip rotation and feeling the figure-four triangle loosen as the attacker switches legs
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You extract your trapped leg completely, escaping the leg entanglement and recovering to half guard or open guard where you can rebuild your defensive structure
 - **Risk**: If the attacker maintains heel grip despite your retraction attempt, you may end up in a worse position with your leg extended and their grip strengthened
 
 ### 2. Frame with free leg against attacker's hip to prevent angle completion
 
 - **When to use**: As soon as you detect the attacker beginning their hip rotation, before the outside leg crosses over your thigh
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You prevent the outside ashi configuration from being established, forcing the attacker back to inside ashi where their original attacks were being defended
 - **Risk**: Committing the free leg to framing may open counter-entanglement opportunities if the attacker redirects to capture your free leg
 
 ### 3. Rotate knee forcefully inward to deny heel exposure and reverse the angle
 
 - **When to use**: When the attacker has partially completed the transition but has not yet locked the outside figure-four triangle
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: Your inward knee rotation denies the outside heel hook angle and may force the attacker to abandon the outside ashi attempt, returning to inside ashi where you can continue your original defensive strategy
 - **Risk**: Strong inward rotation against a locked outside figure-four can stress your own knee if the attacker has already established the position
 
 ### 4. Stand up explosively during the transition vulnerability window
 
 - **When to use**: When you detect loosened leg control and have sufficient base and energy to drive to standing
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Standing creates height advantage that dramatically reduces submission leverage and provides the best platform for complete leg extraction from any ashi configuration
 - **Risk**: If the attacker maintains heel control while you stand, you may be swept or taken back down with the heel now more exposed
 
@@ -218,11 +218,11 @@ As the defender, your leg is trapped in the opponent's inside ashi-garami and th
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the transition vulnerability window by retracting your heel the moment you feel the figure-four triangle loosen. Combine heel retraction with explosive hip movement away from the attacker to create distance. Once your leg is partially extracted, continue moving to establish half guard or open guard rather than stopping. The key timing is reacting within the first half-second of feeling the leg triangle open.
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Prevent the transition from completing by establishing strong frames with your free leg against the attacker's hip and rotating your knee inward to deny the outside angle. If the attacker cannot complete the outside ashi configuration, they are forced back to inside ashi where your existing defensive structure was already working. This outcome preserves the status quo rather than allowing the attacker to expand their attack surface.
 

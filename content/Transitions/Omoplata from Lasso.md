@@ -21,7 +21,7 @@ This transition is particularly effective because it capitalizes on the opponent
 
 Strategically, the omoplata threat from lasso creates a powerful branching attack system. If the opponent defends the omoplata entry by posturing up, they become vulnerable to lasso sweeps. If they drive forward to prevent the hip rotation, they open themselves to triangle entries. This makes the mere threat of the omoplata as valuable as the technique itself, forcing the top player into a defensive dilemma where every reaction opens a different attacking pathway for the guard player.
 
-**From Position**: [[Lasso Guard]] (Bottom)
+**From Position**: [[Positions/Lasso Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the omoplata threat from lasso creates a powerful branching attac
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Omoplata Control]] | 55% |
-| Failure | [[Lasso Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Omoplata Control]] | 55% |
+| Failure | [[Positions/Lasso Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Omoplata from Lasso Guard occupies a critical junction in the open guard att
 ## Related Techniques
 
 
-- [[Lasso Guard]] - Starting position providing the arm isolation and control foundation for the omoplata entry
+- [[Positions/Lasso Guard]] - Starting position providing the arm isolation and control foundation for the omoplata entry
 
-- [[Omoplata Control]] - Target position on successful execution where shoulder lock finish and sweep options become available
+- [[Positions/Omoplata Control]] - Target position on successful execution where shoulder lock finish and sweep options become available
 
-- [[Open Guard]] - Fallback position if opponent successfully counters by breaking the lasso during the transition
+- [[Positions/Open Guard]] - Fallback position if opponent successfully counters by breaking the lasso during the transition
 
-- [[Spider Guard]] - Related guard system sharing similar sleeve control mechanics with alternative omoplata entry paths
+- [[Positions/Spider Guard]] - Related guard system sharing similar sleeve control mechanics with alternative omoplata entry paths
 
-- [[Lasso Sweep]] - Complementary attack from lasso guard that creates a sweep-or-omoplata dilemma for the opponent
+- [[Transitions/Lasso Sweep]] - Complementary attack from lasso guard that creates a sweep-or-omoplata dilemma for the opponent
 
-- [[Omoplata Sweep]] - Follow-up technique from omoplata control when opponent defends the shoulder lock finish
+- [[Transitions/Omoplata Sweep]] - Follow-up technique from omoplata control when opponent defends the shoulder lock finish
 
-- [[Inverted Lasso Guard]] - Variation position enabling alternative omoplata entries through inversion under the opponent
+- [[Positions/Lasso Guard/Inverted Lasso Guard]] - Variation position enabling alternative omoplata entries through inversion under the opponent
 
-- [[Collar Sleeve Guard]] - Adjacent guard position that can transition to lasso for omoplata setups when collar control is established
+- [[Positions/Collar Sleeve Guard]] - Adjacent guard position that can transition to lasso for omoplata setups when collar control is established
 
-- [[De La Riva Guard]] - Complementary guard system that can be combined with lasso for hybrid omoplata entries
+- [[Positions/De La Riva Guard]] - Complementary guard system that can be combined with lasso for hybrid omoplata entries
 
-- [[Russian Leg Lasso]] - Advanced lasso variation with double leg threading that creates unique omoplata entry angles
+- [[Positions/Lasso Guard/Russian Leg Lasso]] - Advanced lasso variation with double leg threading that creates unique omoplata entry angles
 
 
 </section>

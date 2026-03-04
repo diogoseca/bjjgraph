@@ -26,8 +26,8 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 **Category**: Joint Lock
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (glenohumeral) and elbow
-**Starting Position**: [[Shoulder of Justice]]
-**From Position**: [[Shoulder of Justice]] (Top)
+**Starting Position**: [[Positions/Shoulder of Justice]]
+**From Position**: [[Positions/Shoulder of Justice]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -78,8 +78,8 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Shoulder of Justice]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Shoulder of Justice]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -223,9 +223,9 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 
 ## From Which Positions?
 
-- [[Shoulder of Justice]]
-- [[Side Control]]
-- [[North-South]]
+- [[Positions/Shoulder of Justice]]
+- [[Positions/Side Control]]
+- [[Positions/North-South]]
 
 
 </section>
@@ -234,14 +234,14 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 
 ## Related Submissions
 
-- [[Americana from Side Control]]
-- [[Kimura from Modified Scarf Hold]]
-- [[Arm Triangle from Scarf Hold]]
-- [[Americana from Kesa Gatame]]
-- [[Kimura from Kimura Trap]]
-- [[Armbar from Knee on Belly]]
-- [[Americana from Reverse Kesa]]
-- [[Ezekiel from Side Control Consolidation]]
+- [[Submissions/Americana from Side Control]]
+- [[Submissions/Kimura from Modified Scarf Hold]]
+- [[Submissions/Arm Triangle from Scarf Hold]]
+- [[Submissions/Americana from Kesa Gatame]]
+- [[Submissions/Kimura from Kimura Trap]]
+- [[Submissions/Armbar from Knee on Belly]]
+- [[Submissions/Americana from Reverse Kesa]]
+- [[Submissions/Ezekiel from Side Control Consolidation]]
 
 
 </section>
@@ -250,14 +250,14 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 
 ## Additional Related Content
 
-- [[Shoulder of Justice]] - Starting position—submission is set up directly from this high-pressure side control variation
-- [[Side Control]] - Parent position category—Shoulder of Justice is a specialized side control variation
-- [[Kimura Trap]] - Control position used to maintain the kimura grip if opponent defends the immediate finish
-- [[North-South]] - Alternative pressure position accessible when kimura attempt fails and position shifts
-- [[Kesa Gatame]] - Related pressure position with similar near-arm attack opportunities
-- [[Half Guard]] - Common escape destination for the defender during kimura scrambles
-- [[Americana from Side Control]] - Alternative shoulder lock when opponent keeps elbow tight rather than extending arm
-- [[Kimura from Modified Scarf Hold]] - Similar kimura attack from an adjacent side control variation
+- [[Positions/Shoulder of Justice]] - Starting position—submission is set up directly from this high-pressure side control variation
+- [[Positions/Side Control]] - Parent position category—Shoulder of Justice is a specialized side control variation
+- [[Positions/Kimura Trap]] - Control position used to maintain the kimura grip if opponent defends the immediate finish
+- [[Positions/North-South]] - Alternative pressure position accessible when kimura attempt fails and position shifts
+- [[Positions/Side Control/Kesa Gatame]] - Related pressure position with similar near-arm attack opportunities
+- [[Positions/Half Guard]] - Common escape destination for the defender during kimura scrambles
+- [[Submissions/Americana from Side Control]] - Alternative shoulder lock when opponent keeps elbow tight rather than extending arm
+- [[Submissions/Kimura from Modified Scarf Hold]] - Similar kimura attack from an adjacent side control variation
 
 
 </section>

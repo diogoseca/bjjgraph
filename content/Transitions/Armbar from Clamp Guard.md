@@ -21,7 +21,7 @@ The entry works by converting the bilateral leg clamp into a unilateral armbar c
 
 Strategically, the armbar from clamp guard functions as the primary submission threat within the clamp system. The mere possibility of this attack forces the top player into desperate extraction attempts, which create openings for triangle and omoplata entries. The opponent cannot defend all three submissions simultaneously, and each defensive reaction feeds directly into an alternative attack path. When the opponent pulls their arm straight back, the armbar becomes highest percentage. When they circle outward, the triangle opens. When they drive forward, sweeps become available. This trilemma is what makes the clamp guard armbar the centerpiece of the system.
 
-**From Position**: [[Clamp Guard]] (Bottom)
+**From Position**: [[Positions/Clamp Guard]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the armbar from clamp guard functions as the primary submission t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 50% |
-| Failure | [[Clamp Guard]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Armbar Control]] | 50% |
+| Failure | [[Positions/Clamp Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -193,25 +193,25 @@ The armbar from clamp guard sits at the center of a triangular submission system
 ## Related Techniques
 
 
-- [[Clamp Guard]] - Source position providing the arm isolation that enables this armbar entry
+- [[Positions/Clamp Guard]] - Source position providing the arm isolation that enables this armbar entry
 
-- [[Armbar Control]] - Primary success target position where the armbar finish is executed
+- [[Positions/Armbar Control]] - Primary success target position where the armbar finish is executed
 
-- [[Open Guard]] - Position reached when opponent successfully counters and extracts from the clamp
+- [[Positions/Open Guard]] - Position reached when opponent successfully counters and extracts from the clamp
 
-- [[Triangle Setup]] - Alternative submission entry when opponent defends the armbar by circling arm outward
+- [[Transitions/Triangle Setup]] - Alternative submission entry when opponent defends the armbar by circling arm outward
 
-- [[Arm Extraction from Clamp Guard]] - Opponent's primary defensive transition that this armbar targets and exploits
+- [[Transitions/Arm Extraction from Clamp Guard]] - Opponent's primary defensive transition that this armbar targets and exploits
 
-- [[Armbar Finish]] - Follow-up submission transition from armbar control to game-over
+- [[Transitions/Armbar Finish]] - Follow-up submission transition from armbar control to game-over
 
-- [[Omoplata Control]] - Tertiary submission destination when opponent bends arm defensively against the armbar
+- [[Positions/Omoplata Control]] - Tertiary submission destination when opponent bends arm defensively against the armbar
 
-- [[Spider Guard]] - Related guard system sharing the shin-on-bicep control concept in different configuration
+- [[Positions/Spider Guard]] - Related guard system sharing the shin-on-bicep control concept in different configuration
 
-- [[Closed Guard]] - Alternative guard position if clamp is lost before armbar entry completes
+- [[Positions/Closed Guard]] - Alternative guard position if clamp is lost before armbar entry completes
 
-- [[Armbar from Mount]] - Related armbar entry from a different position sharing core finishing mechanics
+- [[Submissions/Armbar from Mount]] - Related armbar entry from a different position sharing core finishing mechanics
 
 
 </section>

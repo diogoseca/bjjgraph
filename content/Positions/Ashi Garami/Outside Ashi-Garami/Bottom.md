@@ -209,19 +209,19 @@ From this position, the practitioner has access to outside heel hooks, straight 
 
 ## Available Escapes
 
-### [[Outside Heel Hook]] (32% of attempts)
+### [[Transitions/Outside Heel Hook]] (32% of attempts)
 
-### [[Inside Ashi Entry]] (25% of attempts)
+### [[Transitions/Inside Ashi Entry]] (25% of attempts)
 
-### [[Straight Ankle Lock Entry]] (14% of attempts)
+### [[Transitions/Straight Ankle Lock Entry]] (14% of attempts)
 
-### [[Saddle Entry from Top]] (9% of attempts)
+### [[Transitions/Saddle Entry from Top]] (9% of attempts)
 
-### [[Kneebar Setup]] (9% of attempts)
+### [[Transitions/Kneebar Setup]] (9% of attempts)
 
-### [[Cross Ashi Transition]] (7% of attempts)
+### [[Transitions/Cross Ashi Transition]] (7% of attempts)
 
-### [[Counter Sweep from Outside Ashi]] (4% of attempts)
+### [[Transitions/Counter Sweep from Outside Ashi]] (4% of attempts)
 
 
 
@@ -232,23 +232,23 @@ From this position, the practitioner has access to outside heel hooks, straight 
 ## Decision Making from This Position
 
 **If opponent attempts to rotate hip externally (turning knee outward) to escape:**
-- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 60%)
-- Execute **[[Outside Heel Hook]]** → [[game-over]] (Probability: 40%)
+- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 60%)
+- Execute **[[Transitions/Outside Heel Hook]]** → [[game-over]] (Probability: 40%)
 
 
 **Else if opponent leans back or attempts to stand creating distance:**
-- Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 65%)
-- Execute **[[Inside Ashi-Garami to Cross Ashi]]** → [[Cross Ashi-Garami]] (Probability: 35%)
+- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 65%)
+- Execute **[[Transitions/Inside Ashi-Garami to Cross Ashi]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 35%)
 
 
 **Else if opponent remains static with leg trapped:**
-- Execute **[[Straight Ankle Lock]]** → [[Straight Ankle Lock Control]] (Probability: 50%)
-- Execute **[[Outside Heel Hook]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Submissions/Straight Ankle Lock]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 50%)
+- Execute **[[Transitions/Outside Heel Hook]]** → [[game-over]] (Probability: 50%)
 
 
 **Else if opponent drives forward attempting to stack or smash:**
-- Execute **[[Inside Ashi Entry]]** → [[Inside Ashi-Garami]] (Probability: 55%)
-- Execute **[[Kneebar Setup]]** → [[Kneebar Control]] (Probability: 45%)
+- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 55%)
+- Execute **[[Transitions/Kneebar Setup]]** → [[Positions/Kneebar Control]] (Probability: 45%)
 
 
 
@@ -382,16 +382,16 @@ Start in established outside ashi garami, bottom player works to maintain positi
 
 ## Related Positions and Techniques
 
-- **[[Inside Ashi-Garami]]** - More dominant leg entanglement variation with higher finish rate
-- **[[Saddle]]** - Primary advancement target from outside ashi
-- **[[Cross Ashi-Garami]]** - Perpendicular variation offering different submission angles
-- **[[50-50 Guard]]** - Alternative leg entanglement with mutual control
-- **[[Ashi Garami]]** - Parent position family encompassing all ashi variations
-- **[[Outside Heel Hook]]** - Primary submission from this position
-- **[[Straight Ankle Lock]]** - Alternative submission targeting ankle joint
-- **[[Ashi Garami Escape]]** - Opponent's primary escape sequence to understand
-- **[[Single Leg X-Guard]]** - Related leg control position with different angles
-- **[[Honey Hole]]** - Alternative advanced entanglement commonly transitioned to
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - More dominant leg entanglement variation with higher finish rate
+- **[[Positions/Ashi Garami/Saddle]]** - Primary advancement target from outside ashi
+- **[[Positions/Ashi Garami/Cross Ashi-Garami]]** - Perpendicular variation offering different submission angles
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Alternative leg entanglement with mutual control
+- **[[Positions/Ashi Garami]]** - Parent position family encompassing all ashi variations
+- **[[Transitions/Outside Heel Hook]]** - Primary submission from this position
+- **[[Submissions/Straight Ankle Lock]]** - Alternative submission targeting ankle joint
+- **[[Transitions/Ashi Garami Escape]]** - Opponent's primary escape sequence to understand
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Related leg control position with different angles
+- **[[Positions/Ashi Garami/Honey Hole]]** - Alternative advanced entanglement commonly transitioned to
 
 
 </section>

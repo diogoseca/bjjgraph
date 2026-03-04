@@ -154,7 +154,7 @@ description: "Learn to prevent knee shield recovery from flattened half guard as
 
 As the top player defending against knee shield recovery, your objective is to maintain the flattened position that eliminates your opponent's offensive capabilities while systematically working toward completing the guard pass. You have established dominant pressure through chest-to-chest contact and crossface control, and the bottom player is now attempting to create the space needed to re-insert their knee shield. Your defensive strategy must address both the immediate threat of shield recovery and the opportunity to advance position when their recovery movements create exploitable openings. The key is remaining dynamically heavy rather than statically pinning - following their hip movements with your own pressure adjustments while recognizing when their recovery attempt actually gives you the passing angle you need.
 
-**Opponent's Starting Position**: [[Flattened Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Flattened Half Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the top player defending against knee shield recovery, your objective is to m
 ### 1. Drive crossface deeper and increase forward chest pressure while following their hip escape with your own hip movement
 
 - **When to use**: As soon as you feel the bottom player begin their first hip escape attempt or underhook fight
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Bottom player's hip escape is neutralized and they remain flat with no space for frame insertion
 - **Risk**: Overcommitting forward pressure without base can create an opening for deep half guard entry if the bottom player dives underneath
 
 ### 2. Strip their underhook by swimming your arm through and establishing a whizzer or overhook on their underhooking arm
 
 - **When to use**: When you feel the bottom player's arm swimming through toward your far armpit seeking the underhook
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Removes the structural foundation of their recovery, making subsequent hip escapes ineffective and unsupported
 - **Risk**: The grip battle for the underhook can create momentary space if you lift your arm too high during the swim
 
 ### 3. Time a knee slice through the gap as the bottom player creates space with their hip escape
 
 - **When to use**: When the bottom player has created partial space but has not yet inserted their knee shield across your body
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You complete the guard pass by driving your knee through the space they created, transitioning to side control
 - **Risk**: If the bottom player's hook is tight and their shield insertion is faster than your slice, you may end up in knee shield half guard
 
 ### 4. Sprawl hips back and re-flatten by driving weight diagonally downward toward their recovering knee
 
 - **When to use**: When the bottom player's knee begins rising toward your hip line but has not fully crossed your centerline
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Collapses the partially established knee shield before it can gain structural integrity, resetting the position to full flattened control
 - **Risk**: The sprawl creates distance between your chest and theirs, which the bottom player can exploit to insert deeper frames if you do not immediately re-close the gap
 
@@ -225,11 +225,11 @@ As the top player defending against knee shield recovery, your objective is to m
 
 ## Best-Case Outcomes for Defender
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Maintain constant underhook denial and dynamic crossface pressure that follows the bottom player's hip escape direction. Address every micro-movement immediately rather than allowing incremental gains to compound. Keep your hips heavy and connected to prevent space creation.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Exploit the space the bottom player creates during recovery attempts by timing your knee slice or passing sequence to coincide with their hip escape movement. Their commitment to lateral movement loosens the leg hook, creating the passing opportunity. Drive your knee through the gap before they can redirect it into a shield frame.
 

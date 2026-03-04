@@ -21,7 +21,7 @@ The strategic value of squid guard lies in its ability to shut down pressure pas
 
 From a systems perspective, squid guard serves as both an offensive platform and a defensive refuge. When worm guard configurations are being cleared, transitioning to squid guard maintains lapel control while changing the control point. The arm wrap also opens unique submission pathways including omoplata entries and triangle setups that exploit the opponent's compromised posture. Mastery of squid guard entry dramatically expands your lapel guard game by adding a complementary configuration that addresses worm guard's weaknesses.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ From a systems perspective, squid guard serves as both an offensive platform and
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Squid Guard]] | 58% |
-| Failure | [[Lapel Guard]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Squid Guard]] | 58% |
+| Failure | [[Positions/Lapel Guard]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,27 +189,27 @@ Squid guard entry serves as a critical node in the lapel guard system, providing
 ## Related Techniques
 
 
-- [[Lapel Guard]] - Starting position for squid guard entry
+- [[Positions/Lapel Guard]] - Starting position for squid guard entry
 
-- [[Squid Guard]] - Target position upon successful entry
+- [[Positions/Squid Guard]] - Target position upon successful entry
 
-- [[Worm Guard]] - Complementary lapel configuration using leg wrap instead of arm wrap
+- [[Positions/Worm Guard]] - Complementary lapel configuration using leg wrap instead of arm wrap
 
-- [[Omoplata]] - Primary submission available from established squid guard
+- [[Transitions/Omoplata]] - Primary submission available from established squid guard
 
-- [[Spider Guard]] - Fallback guard when squid entry fails
+- [[Positions/Spider Guard]] - Fallback guard when squid entry fails
 
-- [[Lasso Guard]] - Alternative configuration using similar arm control principles
+- [[Positions/Lasso Guard]] - Alternative configuration using similar arm control principles
 
-- [[De La Riva Guard]] - Complementary guard that can combine with lapel grips
+- [[Positions/De La Riva Guard]] - Complementary guard that can combine with lapel grips
 
-- [[Triangle Control]] - Submission option from squid guard when opponent postures
+- [[Positions/Triangle Control]] - Submission option from squid guard when opponent postures
 
-- [[Back Take]] - Follow-up when opponent attempts backstep escape from squid guard
+- [[Transitions/Back Take]] - Follow-up when opponent attempts backstep escape from squid guard
 
-- [[Lapel Sweep to Back]] - Primary sweep option using squid guard configuration
+- [[Transitions/Lapel Sweep to Back]] - Primary sweep option using squid guard configuration
 
-- [[Ringworm Guard]] - Advanced lapel configuration that can incorporate squid guard elements
+- [[Positions/Ringworm Guard]] - Advanced lapel configuration that can incorporate squid guard elements
 
 
 </section>

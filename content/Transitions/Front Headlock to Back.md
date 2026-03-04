@@ -21,7 +21,7 @@ The effectiveness of this transition lies in its ability to capitalize on the op
 
 This technique serves as a cornerstone of modern no-gi grappling and has proven equally effective in gi competition. Its prevalence in high-level competition stems from its reliability and the difficulty opponents face in defending it once proper front headlock control is established. The transition connects seamlessly with submission attacks including the rear naked choke, making it both a positional advancement and a direct path to fight-ending submissions.
 
-**From Position**: [[Front Headlock]] (Top)
+**From Position**: [[Positions/Front Headlock]] (Top)
 **Success Rate**: 68%
 
 </section>
@@ -32,9 +32,9 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 68% |
-| Failure | [[Front Headlock]] | 20% |
-| Counter | [[Front Headlock]] | 12% |
+| Success | [[Positions/Back Control]] | 68% |
+| Failure | [[Positions/Front Headlock]] | 20% |
+| Counter | [[Positions/Front Headlock]] | 12% |
 
 
 </section>
@@ -189,25 +189,25 @@ The front headlock to back take serves as a critical connector in the overall BJ
 ## Related Techniques
 
 
-- [[Front Headlock to Anaconda]] - Alternative attack - Submission option from same starting position when opponent keeps arms tight
+- [[Transitions/Front Headlock to Anaconda]] - Alternative attack - Submission option from same starting position when opponent keeps arms tight
 
-- [[Front Headlock to Darce]] - Alternative attack - Submission option from same starting position when opponent exposes near arm
+- [[Transitions/Front Headlock to Darce]] - Alternative attack - Submission option from same starting position when opponent exposes near arm
 
-- [[Front Headlock to Guillotine]] - Alternative attack - Submission option from same starting position when opponent lifts head
+- [[Transitions/Front Headlock to Guillotine]] - Alternative attack - Submission option from same starting position when opponent lifts head
 
-- [[Rear Naked Choke]] - Follow-up - Primary submission from achieved back control position
+- [[Transitions/Rear Naked Choke]] - Follow-up - Primary submission from achieved back control position
 
-- [[Arm Drag to Back]] - Alternative setup - Different path to back control from guard positions
+- [[Transitions/Arm Drag to Back]] - Alternative setup - Different path to back control from guard positions
 
-- [[Crucifix from Turtle]] - Alternative advancement - Different dominant position from similar starting point
+- [[Transitions/Crucifix from Turtle]] - Alternative advancement - Different dominant position from similar starting point
 
-- [[Chair Sit to Back]] - Related technique - Alternative back take method from turtle attack position
+- [[Transitions/Chair Sit to Back]] - Related technique - Alternative back take method from turtle attack position
 
-- [[Back Take from Top]] - Related transition - Alternative back take pathway from top position
+- [[Transitions/Back Take from Top]] - Related transition - Alternative back take pathway from top position
 
-- [[Arm Triangle from Front Headlock]] - Alternative attack - Choke option available when opponent defends back take
+- [[Transitions/Arm Triangle from Front Headlock]] - Alternative attack - Choke option available when opponent defends back take
 
-- [[Guillotine Defense]] - Defensive counter - Opponent may use guillotine defense concepts to prevent the transition
+- [[Transitions/Guillotine Defense]] - Defensive counter - Opponent may use guillotine defense concepts to prevent the transition
 
 
 </section>

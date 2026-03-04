@@ -206,33 +206,33 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 
 ## Available Escapes
 
-### [[Tripod Sweep]] (69% of attempts)
+### [[Transitions/Tripod Sweep]] (69% of attempts)
 
-### [[Omoplata Sweep]] (4% of attempts)
+### [[Transitions/Omoplata Sweep]] (4% of attempts)
 
-### [[Triangle Setup]] (8% of attempts)
+### [[Transitions/Triangle Setup]] (8% of attempts)
 
-### [[Omoplata]] (4% of attempts)
+### [[Transitions/Omoplata]] (4% of attempts)
 
-### [[Guard Recovery from Double Sleeve Guard]] (4% of attempts)
+### [[Transitions/Guard Recovery from Double Sleeve Guard]] (4% of attempts)
 
-### [[Sickle Sweep]] (6% of attempts)
+### [[Transitions/Sickle Sweep]] (6% of attempts)
 
-### [[Flower Sweep]] (2% of attempts)
+### [[Transitions/Flower Sweep]] (2% of attempts)
 
-### [[Pendulum Sweep]] (2% of attempts)
+### [[Transitions/Pendulum Sweep]] (2% of attempts)
 
-### [[Armbar Setup from Double Sleeve]] (0% of attempts)
+### [[Transitions/Armbar Setup from Double Sleeve]] (0% of attempts)
 
-### [[Double Sleeve Sweep]] (0% of attempts)
+### [[Transitions/Double Sleeve Sweep]] (0% of attempts)
 
-### [[Double Sleeve to De La Riva]] (0% of attempts)
+### [[Transitions/Double Sleeve to De La Riva]] (0% of attempts)
 
-### [[Double Sleeve to Lasso]] (0% of attempts)
+### [[Transitions/Double Sleeve to Lasso]] (0% of attempts)
 
-### [[Double Sleeve to Spider]] (0% of attempts)
+### [[Transitions/Double Sleeve to Spider]] (0% of attempts)
 
-### [[Double Sleeve to Spider Guard]] (1% of attempts)
+### [[Transitions/Double Sleeve to Spider Guard]] (1% of attempts)
 
 
 
@@ -243,25 +243,25 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 ## Decision Making from This Position
 
 **If opponent maintains strong upright posture and attempts to break grips by pulling arms back:**
-- Execute **[[Tripod Sweep]]** → [[Open Guard]] (Probability: 60%)
-- Execute **[[Sickle Sweep]]** → [[Open Guard]] (Probability: 55%)
+- Execute **[[Transitions/Tripod Sweep]]** → [[Positions/Open Guard]] (Probability: 60%)
+- Execute **[[Transitions/Sickle Sweep]]** → [[Positions/Open Guard]] (Probability: 55%)
 
 
 **If opponent leans forward with weight attempting to break grips and establish chest pressure:**
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 55%)
-- Execute **[[Scissor Sweep]]** → [[Mount]] (Probability: 60%)
-- Execute **[[Omoplata Sweep]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Scissor Sweep]]** → [[Positions/Mount]] (Probability: 60%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent attempts to circle or step to one side to initiate passing sequence:**
-- Execute **[[Pendulum Sweep]]** → [[Mount]] (Probability: 55%)
-- Execute **[[Flower Sweep]]** → [[Mount]] (Probability: 58%)
-- Execute **[[De La Riva Sweep]]** → [[De La Riva Guard]] (Probability: 52%)
+- Execute **[[Transitions/Pendulum Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Flower Sweep]]** → [[Positions/Mount]] (Probability: 58%)
+- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/De La Riva Guard]] (Probability: 52%)
 
 
 **If opponent successfully breaks one sleeve grip and establishes pants grip:**
-- Execute **[[Guard Recovery from Double Sleeve Guard]]** → [[Open Guard]] (Probability: 45%)
-- Execute **[[Overhook Sweep]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/Guard Recovery from Double Sleeve Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
+- Execute **[[Transitions/Overhook Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 
@@ -395,16 +395,16 @@ Start from double sleeve guard and transition to spider guard, lasso guard, or D
 
 ## Related Positions and Techniques
 
-- **[[Spider Guard]]** - Natural transition when opponent stands or extends arms
-- **[[Lasso Guard]]** - Common transition when opponent circles to one side
-- **[[Closed Guard]]** - Can transition to closed guard if opponent closes distance
-- **[[Open Guard]]** - Parent category position
-- **[[Collar Sleeve Guard]]** - Similar guard with mixed grip strategy
-- **[[Scissor Sweep]]** - Primary offensive technique from this position
-- **[[Flower Sweep]]** - High-percentage sweep option
-- **[[Triangle Control]]** - Primary submission entry from broken posture
-- **[[Omoplata Control]]** - Submission control position from shoulder isolation
-- **[[De La Riva Guard]]** - Advanced guard transition against standing opponent
+- **[[Positions/Spider Guard]]** - Natural transition when opponent stands or extends arms
+- **[[Positions/Lasso Guard]]** - Common transition when opponent circles to one side
+- **[[Positions/Closed Guard]]** - Can transition to closed guard if opponent closes distance
+- **[[Positions/Open Guard]]** - Parent category position
+- **[[Positions/Collar Sleeve Guard]]** - Similar guard with mixed grip strategy
+- **[[Transitions/Scissor Sweep]]** - Primary offensive technique from this position
+- **[[Transitions/Flower Sweep]]** - High-percentage sweep option
+- **[[Positions/Triangle Control]]** - Primary submission entry from broken posture
+- **[[Positions/Omoplata Control]]** - Submission control position from shoulder isolation
+- **[[Positions/De La Riva Guard]]** - Advanced guard transition against standing opponent
 
 
 </section>

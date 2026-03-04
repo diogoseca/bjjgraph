@@ -182,7 +182,7 @@ Turtle Flatten to Side Control is a fundamental top-game transition that convert
 
 Strategically, the flatten is a high-percentage option when the opponent has excellent turtle defense or when you recognize that forcing the back take will result in scrambles that favor the bottom player. The flatten works by exploiting the structural weakness of turtle position: the base collapses when lateral pressure is applied at the hip line while controlling the upper body. By breaking the four-point base down to a flat position, you eliminate the opponent's ability to execute granby rolls, sit-throughs, or stand-ups, converting a volatile scramble-prone position into a controlled passing scenario. Competition-proven athletes frequently use this transition as a reliable pathway when back take attempts stall, particularly against opponents with strong turtle defense built around constant motion and grip fighting.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -235,9 +235,9 @@ Strategically, the flatten is a high-percentage option when the opponent has exc
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Turtle]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Turtle]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -246,10 +246,10 @@ Strategically, the flatten is a high-percentage option when the opponent has exc
 
 ## Opponent Counters
 
-- **Opponent granby rolls as you initiate the flatten, using your forward pressure to invert and recover guard** (Effectiveness: High) - Your Response: Recognize the roll initiation by their hip lift and immediately backstep or follow the roll while maintaining harness control to end up in back control rather than losing position → Leads to [[Half Guard]]
-- **Opponent sits through to half guard or butterfly guard as you commit weight laterally for the flatten** (Effectiveness: Medium) - Your Response: If they sit through toward you, immediately transition to front headlock position and attack with guillotine or anaconda; if away, follow their hips and re-establish top pressure → Leads to [[Half Guard]]
-- **Opponent posts a strong far arm and hip escapes during the flatten to create frames and recover guard** (Effectiveness: Medium) - Your Response: Drive through their posted arm with your crossface pressure, collapsing their frame. Alternatively, switch to kimura attack on the posted arm to either submit or use the grip to continue flattening → Leads to [[Turtle]]
-- **Opponent explosively stands up as you release upper body control to establish drive angle** (Effectiveness: High) - Your Response: Maintain at least one control point at all times. If they begin standing, immediately transition to body lock or snap down to front headlock rather than chasing the flatten → Leads to [[Turtle]]
+- **Opponent granby rolls as you initiate the flatten, using your forward pressure to invert and recover guard** (Effectiveness: High) - Your Response: Recognize the roll initiation by their hip lift and immediately backstep or follow the roll while maintaining harness control to end up in back control rather than losing position → Leads to [[Positions/Half Guard]]
+- **Opponent sits through to half guard or butterfly guard as you commit weight laterally for the flatten** (Effectiveness: Medium) - Your Response: If they sit through toward you, immediately transition to front headlock position and attack with guillotine or anaconda; if away, follow their hips and re-establish top pressure → Leads to [[Positions/Half Guard]]
+- **Opponent posts a strong far arm and hip escapes during the flatten to create frames and recover guard** (Effectiveness: Medium) - Your Response: Drive through their posted arm with your crossface pressure, collapsing their frame. Alternatively, switch to kimura attack on the posted arm to either submit or use the grip to continue flattening → Leads to [[Positions/Turtle]]
+- **Opponent explosively stands up as you release upper body control to establish drive angle** (Effectiveness: High) - Your Response: Maintain at least one control point at all times. If they begin standing, immediately transition to body lock or snap down to front headlock rather than chasing the flatten → Leads to [[Positions/Turtle]]
 
 
 </section>

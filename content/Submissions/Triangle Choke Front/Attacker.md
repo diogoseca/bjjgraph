@@ -234,8 +234,8 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Open Guard]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -244,11 +244,11 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 ## Opponent Defenses
 
-- **Opponent stands up to defend triangle** (Effectiveness: Medium) - Your Response: Transition to armbar or omoplata as they stand, or hook their far leg with your free hand to prevent full standing posture and sweep them → Leads to [[Open Guard]]
-- **Opponent grabs their own ankle or knee to prevent triangle lock** (Effectiveness: High) - Your Response: Establish temporary hold with legs unlocked, use hands to strip their defensive grip while maintaining posture control, then immediately lock triangle before they can reestablish defense → Leads to [[Closed Guard]]
+- **Opponent stands up to defend triangle** (Effectiveness: Medium) - Your Response: Transition to armbar or omoplata as they stand, or hook their far leg with your free hand to prevent full standing posture and sweep them → Leads to [[Positions/Open Guard]]
+- **Opponent grabs their own ankle or knee to prevent triangle lock** (Effectiveness: High) - Your Response: Establish temporary hold with legs unlocked, use hands to strip their defensive grip while maintaining posture control, then immediately lock triangle before they can reestablish defense → Leads to [[Positions/Closed Guard]]
 - **Opponent tries to pull head straight back** (Effectiveness: Low) - Your Response: Maintain angle and trapped arm control - pulling head straight back increases pressure on their own shoulder and typically fails if triangle is properly locked and angled → Leads to [[game-over]]
-- **Opponent attempts to stack and drive forward** (Effectiveness: Medium) - Your Response: Swim your legs higher on their shoulders as they stack, maintain the lock, and be prepared to transition to omoplata if the stack becomes too severe → Leads to [[Closed Guard]]
-- **Opponent tries to create space by pushing on hip or knee** (Effectiveness: Medium) - Your Response: Squeeze knees tighter together, pull their head down harder, and consider switching to armbar on their posted arm if they commit significant pressure → Leads to [[Open Guard]]
+- **Opponent attempts to stack and drive forward** (Effectiveness: Medium) - Your Response: Swim your legs higher on their shoulders as they stack, maintain the lock, and be prepared to transition to omoplata if the stack becomes too severe → Leads to [[Positions/Closed Guard]]
+- **Opponent tries to create space by pushing on hip or knee** (Effectiveness: Medium) - Your Response: Squeeze knees tighter together, pull their head down harder, and consider switching to armbar on their posted arm if they commit significant pressure → Leads to [[Positions/Open Guard]]
 
 
 </section>

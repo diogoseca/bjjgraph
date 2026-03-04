@@ -146,7 +146,7 @@ description: "Master defending sweeps from Combat Base in BJJ. Learn to recogniz
 
 As the defender in combat base facing sweep attempts, your primary objective is maintaining the structural integrity of your asymmetric stance while continuing to advance your passing game. The guard player's sweep attacks target the diagonal weakness inherent in combat base, so your defense centers on neutralizing the three elements they need: hook engagement, upper body grip control, and angular displacement. Effective sweep defense does not mean becoming passive and static, which actually increases sweep vulnerability by giving the guard player time to establish optimal grips and angles. Instead, the best defense integrates active base adjustment with forward pressure and grip fighting that disrupts the guard player's setup while maintaining your passing posture. Understanding the specific mechanics of how sweeps work against combat base allows you to feel the early stages of a sweep attempt and shut it down before the guard player reaches the point of no return.
 
-**Opponent's Starting Position**: [[Combat Base]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Combat Base]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ As the defender in combat base facing sweep attempts, your primary objective is 
 ### 1. Post far hand on the mat and widen base to block the sweep direction
 
 - **When to use**: When you feel your weight being loaded onto the hook and upper body being pulled diagonally, post your far hand wide on the mat to create a fourth base point that stops the rotational momentum
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Sweep attempt is nullified and you maintain combat base with the guard player having committed grips that may be exploitable for passing
 - **Risk**: If the guard player controls your posting arm with a sleeve grip, you cannot post and the sweep continues. Also, posting momentarily takes one hand out of guard passing engagement
 
 ### 2. Backstep and disengage the posted knee from the hook to remove the lifting mechanism
 
 - **When to use**: When you feel a hook being inserted or loaded but before the guard player has committed to the elevation, step the posted knee backward out of range while maintaining upper body posture
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: The hook engagement is broken and you can re-establish combat base at a distance that prevents immediate re-insertion, or transition to standing passing
 - **Risk**: Creating distance gives the guard player space to establish their preferred open guard, and the backstep can be followed by shin-to-shin or single leg X entries on the retreating leg
 
 ### 3. Drive forward aggressively to flatten the hook and initiate a smash pass through the sweep attempt
 
 - **When to use**: When the guard player has a shallow hook and incomplete grip control, drive your hips forward and down to pin their hooking leg to the mat while advancing into a pressure passing position
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You not only nullify the sweep but convert the defensive situation into a guard pass, arriving in side control by smashing through the guard player's structure
 - **Risk**: If the guard player has strong upper body grips, your forward drive can be redirected into a collar drag or pendulum sweep that uses your own momentum against you
 
 ### 4. Strip the controlling grips before the sweep can be initiated
 
 - **When to use**: At the earliest stage of the sweep setup when the guard player is establishing their collar and sleeve grips, break their grips by circling your wrists and peeling fingers before they can consolidate control
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Without upper body grip control, the guard player cannot load your weight onto their hook and the sweep attempt collapses before it begins
 - **Risk**: Grip fighting takes your hands away from controlling the guard player's legs, potentially giving them time to establish hooks or enter a different guard position
 
@@ -218,11 +218,11 @@ As the defender in combat base facing sweep attempts, your primary objective is 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Combat Base]]
+### → [[Positions/Combat Base]]
 
 Neutralize the sweep attempt early by fighting grips aggressively, preventing hook engagement, or posting immediately when you feel weight being loaded. Maintain your combat base integrity and resume passing from the same position with the guard player having expended energy on a failed sweep attempt.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Convert the guard player's sweep commitment into a passing opportunity by driving forward aggressively when their hook is shallow and grips are incomplete. Use their committed hip angle against them by smash passing over the exposed side, or strip their grips and immediately execute a knee slice or toreando pass while they are recovering from the failed sweep setup.
 

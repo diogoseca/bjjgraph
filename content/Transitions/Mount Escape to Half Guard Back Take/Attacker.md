@@ -182,7 +182,7 @@ This chain technique transforms the worst position in BJJ (mount bottom) into th
 
 The technique requires reading the opponent's response at the half guard checkpoint. If they settle into half guard top and begin passing, you default to standard half guard defense. If they aggressively try to extract their leg (the more common response), you capitalize on their movement to take the back. This read-and-react element makes the technique highly adaptable.
 
-**From Position**: [[Mount]] (Bottom)
+**From Position**: [[Positions/Mount]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ The technique requires reading the opponent's response at the half guard checkpo
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 50% |
-| Failure | [[Half Guard]] | 30% |
-| Counter | [[Mount]] | 20% |
+| Success | [[Positions/Back Control]] | 50% |
+| Failure | [[Positions/Half Guard]] | 30% |
+| Counter | [[Positions/Mount]] | 20% |
 
 
 </section>
@@ -244,9 +244,9 @@ The technique requires reading the opponent's response at the half guard checkpo
 
 ## Opponent Counters
 
-- **Opponent recognizes the underhook and applies heavy crossface to flatten you back to half guard bottom** (Effectiveness: High) - Your Response: If crossface is established before you can come up, abandon the back take and default to standard half guard bottom game. Use knee shield to re-establish distance and look for sweep opportunities instead. → Leads to [[Half Guard]]
-- **Opponent does not extract their leg and instead settles into half guard top with heavy pressure** (Effectiveness: Medium) - Your Response: If they settle rather than extract, you are in standard half guard bottom with an underhook—a strong position. Work your regular half guard sweep game or transition to deep half guard. → Leads to [[Half Guard]]
-- **Opponent re-mounts by posting their free leg over your hip during your come-up attempt** (Effectiveness: Medium) - Your Response: If they step over during your come-up, immediately flatten back down and reset the half guard. The re-mount attempt often leaves one leg shallow enough to trap again for another escape attempt. → Leads to [[Mount]]
+- **Opponent recognizes the underhook and applies heavy crossface to flatten you back to half guard bottom** (Effectiveness: High) - Your Response: If crossface is established before you can come up, abandon the back take and default to standard half guard bottom game. Use knee shield to re-establish distance and look for sweep opportunities instead. → Leads to [[Positions/Half Guard]]
+- **Opponent does not extract their leg and instead settles into half guard top with heavy pressure** (Effectiveness: Medium) - Your Response: If they settle rather than extract, you are in standard half guard bottom with an underhook—a strong position. Work your regular half guard sweep game or transition to deep half guard. → Leads to [[Positions/Half Guard]]
+- **Opponent re-mounts by posting their free leg over your hip during your come-up attempt** (Effectiveness: Medium) - Your Response: If they step over during your come-up, immediately flatten back down and reset the half guard. The re-mount attempt often leaves one leg shallow enough to trap again for another escape attempt. → Leads to [[Positions/Mount]]
 
 
 </section>

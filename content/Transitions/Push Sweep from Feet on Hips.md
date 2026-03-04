@@ -21,7 +21,7 @@ The technique occupies a central role in the feet-on-hips guard system because i
 
 Execution demands precise timing and grip coordination rather than raw strength. The push must coincide with the opponent's weight shift forward, and the upper body grips must complement the leg extension direction to prevent the opponent from posting or recovering balance. Follow-up is equally critical: the bottom player must immediately come to their feet or establish a controlling top position rather than remaining on the ground after the sweep.
 
-**From Position**: [[Feet on Hips Guard]] (Bottom)
+**From Position**: [[Positions/Feet on Hips Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Execution demands precise timing and grip coordination rather than raw strength.
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Feet on Hips Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Feet on Hips Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The push sweep serves as the primary deterrent against forward pressure in the f
 ## Related Techniques
 
 
-- [[Feet on Hips Guard]] - Starting position for this sweep technique
+- [[Positions/Feet on Hips Guard]] - Starting position for this sweep technique
 
-- [[Standing Position]] - Primary success outcome after completing the sweep
+- [[Positions/Standing Position]] - Primary success outcome after completing the sweep
 
-- [[Open Guard]] - Counter outcome when opponent strips feet during sweep attempt
+- [[Positions/Open Guard]] - Counter outcome when opponent strips feet during sweep attempt
 
-- [[Feet on Hips Tripod Sweep]] - Complementary sweep targeting lateral base from same position
+- [[Transitions/Feet on Hips Tripod Sweep]] - Complementary sweep targeting lateral base from same position
 
-- [[Feet on Hips Sickle Sweep]] - Complementary sweep targeting opposite direction from same guard
+- [[Transitions/Feet on Hips Sickle Sweep]] - Complementary sweep targeting opposite direction from same guard
 
-- [[Tomoe Nage]] - Related throwing sweep using similar foot-on-hip extension mechanics
+- [[Transitions/Tomoe Nage]] - Related throwing sweep using similar foot-on-hip extension mechanics
 
-- [[Balloon Sweep]] - Related sweep using bilateral leg extension against forward pressure
+- [[Transitions/Balloon Sweep]] - Related sweep using bilateral leg extension against forward pressure
 
-- [[Lumberjack Sweep]] - Alternative sweep from feet-on-hips using pant grip pulling mechanics
+- [[Transitions/Lumberjack Sweep]] - Alternative sweep from feet-on-hips using pant grip pulling mechanics
 
-- [[Technical Stand Up from Open Guard]] - Follow-up technique after creating distance with the push
+- [[Transitions/Technical Stand Up from Open Guard]] - Follow-up technique after creating distance with the push
 
-- [[De La Riva Guard]] - Guard transition alternative when push sweep timing is unavailable
+- [[Positions/De La Riva Guard]] - Guard transition alternative when push sweep timing is unavailable
 
-- [[Toreando Pass]] - Common top player passing approach that creates push sweep opportunities
+- [[Transitions/Toreando Pass]] - Common top player passing approach that creates push sweep opportunities
 
 
 </section>

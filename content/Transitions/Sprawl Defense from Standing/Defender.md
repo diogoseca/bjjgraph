@@ -154,7 +154,7 @@ description: "Survive and counter the sprawl defense in BJJ. Learn to recognize 
 
 As the defender in the sprawl scenario, you are the person whose takedown attempt is being defended. Your shot has been read and your opponent is driving their weight onto your back to stuff it. Your immediate priorities follow a clear hierarchy: first, protect your neck from submission threats by keeping your chin tucked to your chest; second, maintain your base by keeping your knees under your hips to prevent being completely flattened; and third, work toward recovery by either powering through the sprawl, sitting to guard, or circling to create angle for standing. The worst outcome is being stuck in front headlock where your opponent has access to guillotines, anacondas, darces, and back takes. Understanding the mechanics of the sprawl allows you to recognize when your shot is dead and switch to recovery mode rather than forcing a lost takedown attempt into a worse position.
 
-**Opponent's Starting Position**: [[Standing Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
 
@@ -191,28 +191,28 @@ As the defender in the sprawl scenario, you are the person whose takedown attemp
 ### 1. Drive legs hard and power through the sprawl pressure to maintain forward penetration and recover standing position
 
 - **When to use**: In the first second of the sprawl before opponent's full bodyweight has settled onto your back and while you still have leg drive available
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Return to neutral standing exchange with both practitioners upright and no positional disadvantage
 - **Risk**: If drive fails against fully committed sprawl, you expend significant energy and end up deeper under opponent's weight in worse front headlock position
 
 ### 2. Sit to guard by releasing your shot grips and pulling opponent into your open guard as the sprawl drives you down
 
 - **When to use**: When sprawl pressure is too heavy to drive through and the shot is clearly stuffed, before opponent establishes front headlock control grips
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Transition to open guard bottom with established grips and frames, converting a deteriorating position into a structured guard game
 - **Risk**: Opponent may establish front headlock control before you can secure guard grips, leaving you in the worst-case submission position
 
 ### 3. Circle to the side and change angle to escape sprawl pressure and avoid front headlock establishment
 
 - **When to use**: When opponent's head control is loose but sprawl pressure prevents standing directly upward, and lateral space is available for movement
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Create enough angle to escape the sprawl weight and either stand up or disengage to reset the standing exchange
 - **Risk**: Opponent follows your circular movement and uses your turning motion to take the back or tighten front headlock from a new angle
 
 ### 4. Duck under opponent's chest pressure and re-shoot from a different angle by posting on the mat and changing levels
 
 - **When to use**: When opponent commits weight too far forward over your back during the sprawl, creating space underneath their chest for you to change direction
-- **Targets**: [[Standing Position]]
+- **Targets**: [[Positions/Standing Position]]
 - **If successful**: Clear the sprawl pressure completely and re-engage with a fresh shot from a better angle or recover to standing position
 - **Risk**: If mistimed, opponent snaps your head down harder and deepens their front headlock control as you expose your neck during the directional change
 
@@ -224,11 +224,11 @@ As the defender in the sprawl scenario, you are the person whose takedown attemp
 
 ## Best-Case Outcomes for Defender
 
-### → [[Standing Position]]
+### → [[Positions/Standing Position]]
 
 Fight through the sprawl pressure by maintaining leg drive and posting arms to prevent flattening. Circle to create angle and recover upright posture before opponent can establish front headlock grips. The key is acting immediately — every second under sprawl pressure makes recovery harder.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 When the shot is definitively stuffed and standing recovery is unavailable, proactively convert the failed takedown into a guard pull by sitting back, establishing sleeve or collar grips, and inserting hooks before the opponent can consolidate front headlock control. This requires recognizing the dead shot early and committing to the transition.
 

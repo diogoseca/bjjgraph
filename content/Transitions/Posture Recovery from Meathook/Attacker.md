@@ -186,7 +186,7 @@ description: "Master executing Posture Recovery from Meathook as the top player.
 
 As the attacker executing Posture Recovery from Meathook, you are the top player trapped in the Rubber Guard's arm isolation system. Your trapped arm is hooked under the bottom player's shin, your posture is broken by their collar or head grip, and multiple submission threats are escalating with every second you remain controlled. Your objective is to systematically extract your trapped arm through rotational mechanics, strip the controlling grip, and restore upright posture to resume guard passing. The execution demands precise timing—explosive extraction during the bottom player's transitional moments when hook pressure briefly loosens—combined with strategic base widening that generates the mechanical leverage needed to overcome the shin hook's resistance angle. Success requires accepting that maintaining top position during extraction may be impossible; conceding temporary guard recovery is preferable to remaining trapped in Meathook's submission web.
 
-**From Position**: [[Meathook]] (Top)
+**From Position**: [[Positions/Rubber Guard/Meathook]] (Top)
 
 </section>
 
@@ -238,9 +238,9 @@ As the attacker executing Posture Recovery from Meathook, you are the top player
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Failure | [[Meathook]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Side Control]] | 45% |
+| Failure | [[Positions/Rubber Guard/Meathook]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -249,10 +249,10 @@ As the attacker executing Posture Recovery from Meathook, you are the top player
 
 ## Opponent Counters
 
-- **Bottom player re-establishes shin hook during extraction by tightening legs and pulling shoulder forward** (Effectiveness: High) - Your Response: Reset base position and wait for next transitional moment. Attempting repeated extraction against a re-tightened hook wastes energy. Instead, use grip fighting to loosen the system incrementally before the next explosive attempt. → Leads to [[Meathook]]
-- **Bottom player pivots hips to take the back as top player creates space during posture recovery** (Effectiveness: Medium) - Your Response: Keep hips low and maintain hip-to-hip connection during recovery. If you feel the bottom player's hips rotating behind you, immediately sit back and address hooks before they establish back control. Prioritize denying the back over completing posture recovery. → Leads to [[Back Control]]
-- **Bottom player transitions to triangle setup as the arm comes free by throwing leg over the neck** (Effectiveness: High) - Your Response: As the arm extracts, keep your head posture high and chin up. If the leg comes over your head, immediately posture up with both hands on their hips before the triangle locks. Speed of posture recovery determines whether the triangle materializes or collapses. → Leads to [[Meathook]]
-- **Bottom player shifts to Gogoplata angle as top player begins posture recovery by adjusting shin to throat** (Effectiveness: Medium) - Your Response: Recognize the hip shift toward Gogoplata early. If the shin begins moving toward your throat, tuck your chin aggressively and drive your weight laterally away from the shin. Stack if necessary to compress the angle and prevent the shin from reaching your throat. → Leads to [[Meathook]]
+- **Bottom player re-establishes shin hook during extraction by tightening legs and pulling shoulder forward** (Effectiveness: High) - Your Response: Reset base position and wait for next transitional moment. Attempting repeated extraction against a re-tightened hook wastes energy. Instead, use grip fighting to loosen the system incrementally before the next explosive attempt. → Leads to [[Positions/Rubber Guard/Meathook]]
+- **Bottom player pivots hips to take the back as top player creates space during posture recovery** (Effectiveness: Medium) - Your Response: Keep hips low and maintain hip-to-hip connection during recovery. If you feel the bottom player's hips rotating behind you, immediately sit back and address hooks before they establish back control. Prioritize denying the back over completing posture recovery. → Leads to [[Positions/Back Control]]
+- **Bottom player transitions to triangle setup as the arm comes free by throwing leg over the neck** (Effectiveness: High) - Your Response: As the arm extracts, keep your head posture high and chin up. If the leg comes over your head, immediately posture up with both hands on their hips before the triangle locks. Speed of posture recovery determines whether the triangle materializes or collapses. → Leads to [[Positions/Rubber Guard/Meathook]]
+- **Bottom player shifts to Gogoplata angle as top player begins posture recovery by adjusting shin to throat** (Effectiveness: Medium) - Your Response: Recognize the hip shift toward Gogoplata early. If the shin begins moving toward your throat, tuck your chin aggressively and drive your weight laterally away from the shin. Stack if necessary to compress the angle and prevent the shin from reaching your throat. → Leads to [[Positions/Rubber Guard/Meathook]]
 
 
 </section>

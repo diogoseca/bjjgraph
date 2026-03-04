@@ -180,7 +180,7 @@ description: "Master the attacker perspective for guard recovery from double und
 
 As the bottom player executing guard recovery from double unders, your primary objective is to break the crushing pressure cycle and re-establish a functional guard position. This requires systematic frame creation against the top player's head and shoulders, precise hip escape timing to create lateral space, and aggressive leg repositioning to insert barriers between your body and theirs. The technique demands patience during the framing phase and explosiveness during the actual recovery window. Understanding the top player's weight distribution and pressure patterns allows you to identify moments of vulnerability where recovery attempts have the highest probability of success. Your frames must use skeletal alignment rather than muscular effort so they can be sustained against significantly heavier opponents without exhausting your arms before the recovery window opens.
 
-**From Position**: [[Double Unders]] (Bottom)
+**From Position**: [[Positions/Double Unders]] (Bottom)
 
 </section>
 
@@ -232,10 +232,10 @@ As the bottom player executing guard recovery from double unders, your primary o
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 40% |
-| Success | [[Open Guard]] | 15% |
-| Failure | [[Double Unders]] | 25% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Closed Guard]] | 40% |
+| Success | [[Positions/Open Guard]] | 15% |
+| Failure | [[Positions/Double Unders]] | 25% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the bottom player executing guard recovery from double unders, your primary o
 
 ## Opponent Counters
 
-- **Opponent increases forward stacking pressure and drives chest into your frame to collapse separation** (Effectiveness: High) - Your Response: Redirect their forward pressure laterally through hip escape rather than opposing it directly. Their committed forward drive actually assists your lateral escape when combined with proper hip movement and angle creation. → Leads to [[Double Unders]]
-- **Opponent walks knees past your hips during your hip escape attempt to complete the guard pass** (Effectiveness: High) - Your Response: Abandon the standard frame-and-escape sequence and commit fully to either a granby roll using their forward momentum or pivot to a deep half guard entry by threading underneath their advancing hips before the pass completes. → Leads to [[Side Control]]
-- **Opponent re-clasps hands and tightens underhook connection after you partially break the grip** (Effectiveness: Medium) - Your Response: Maintain your frame pressure and hip angle rather than resetting flat. The partial break means their grip is weaker than initial establishment. Continue working the same-side leg extraction while their grip is compromised. → Leads to [[Double Unders]]
-- **Opponent transitions to over-under or leg weave passing configuration when one leg escapes** (Effectiveness: Medium) - Your Response: Use the freed leg to immediately establish knee shield or butterfly hook before they can consolidate the new passing position. The transition between passing configurations creates a window where their control is weaker than either position alone. → Leads to [[Side Control]]
+- **Opponent increases forward stacking pressure and drives chest into your frame to collapse separation** (Effectiveness: High) - Your Response: Redirect their forward pressure laterally through hip escape rather than opposing it directly. Their committed forward drive actually assists your lateral escape when combined with proper hip movement and angle creation. → Leads to [[Positions/Double Unders]]
+- **Opponent walks knees past your hips during your hip escape attempt to complete the guard pass** (Effectiveness: High) - Your Response: Abandon the standard frame-and-escape sequence and commit fully to either a granby roll using their forward momentum or pivot to a deep half guard entry by threading underneath their advancing hips before the pass completes. → Leads to [[Positions/Side Control]]
+- **Opponent re-clasps hands and tightens underhook connection after you partially break the grip** (Effectiveness: Medium) - Your Response: Maintain your frame pressure and hip angle rather than resetting flat. The partial break means their grip is weaker than initial establishment. Continue working the same-side leg extraction while their grip is compromised. → Leads to [[Positions/Double Unders]]
+- **Opponent transitions to over-under or leg weave passing configuration when one leg escapes** (Effectiveness: Medium) - Your Response: Use the freed leg to immediately establish knee shield or butterfly hook before they can consolidate the new passing position. The transition between passing configurations creates a window where their control is weaker than either position alone. → Leads to [[Positions/Side Control]]
 
 
 </section>

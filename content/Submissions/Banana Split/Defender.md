@@ -150,7 +150,7 @@ description: "How to defend against Banana Split in BJJ. Recognition cues, escap
 
 Defending the Banana Split requires early recognition and immediate action, as this compression submission becomes exponentially harder to escape once the splitting angle is established. The defender's primary objective is preventing the attacker from isolating the far leg and creating the opposing forces that generate the split. Because the banana split targets muscle groups without a clear structural stopping point, late defense carries significant injury risk. Unlike defending a joint lock where you can feel the submission building incrementally, the banana split can go from uncomfortable to dangerous very quickly once the attacker achieves the correct angle. Defense begins with recognizing the lockdown or twister hook as the foundation of the attack, then systematically addressing the leg isolation and body positioning that enables the split. The best defensive window is before the far leg is fully controlled - once both legs are trapped and the attacker has established their wedge, escaping without conceding the tap becomes extremely difficult.
 
-**Opponent's Starting Position**: [[Truck]] (Top)
+**Opponent's Starting Position**: [[Positions/Twister Control/Truck]] (Top)
 
 
 </section>
@@ -190,21 +190,21 @@ Defending the Banana Split requires early recognition and immediate action, as t
 ### 1. Drive forward with heavy chest pressure to collapse attacker's structure
 
 - **When to use**: Early in the setup when attacker is still establishing far leg control and has not yet loaded the split. Most effective before the wedge angle is created.
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: Flatten the attacker and negate their ability to extend hips, returning to standard deep half guard top position where you can work to extract your leg
 - **Risk**: If attacker has strong underhook and upper body control, driving forward can increase their leverage for the electric chair sweep
 
 ### 2. Pull trapped knee toward chest to break lockdown and extract near leg
 
 - **When to use**: When lockdown is the primary control mechanism and attacker has not yet secured a deep grip on the far leg. Focus on breaking the figure-four ankle configuration first.
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: Breaking the lockdown eliminates the foundation of the banana split, allowing you to recover base and work toward passing
 - **Risk**: Pulling the knee in can momentarily compromise your base, making you vulnerable to other sweeps from deep half if you lose balance
 
 ### 3. Cartwheel or forward roll over the attacker to escape the leg configuration
 
 - **When to use**: When the split is partially loaded and you cannot free your legs through direct extraction. This is a late-stage escape that uses momentum to clear the leg entanglement.
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You clear the leg entanglement entirely but may end up with opponent on your back. Preferable to taking the submission.
 - **Risk**: Attacker may follow your roll and establish back control. The roll itself can cause injury if split is already deep and you roll against the stretching direction.
 
@@ -227,11 +227,11 @@ Defending the Banana Split requires early recognition and immediate action, as t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Deep Half Guard]]
+### → [[Positions/Half Guard/Deep Half Guard]]
 
 Break the lockdown by pulling knee to chest and creating space to extract your near leg. Once free, establish wide base with crossface pressure and work to pass from standard deep half guard top position.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Use a forward roll or cartwheel over the attacker to escape the leg entanglement. While this concedes back exposure, it eliminates the groin stretch immediately. Work standard back defense from the resulting position.
 

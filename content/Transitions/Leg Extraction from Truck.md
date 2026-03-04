@@ -21,7 +21,7 @@ The technique's strategic value lies in its directness. While other truck escape
 
 At advanced levels, the leg extraction functions as both a standalone escape and a component within the broader truck escape chain. A partially successful extraction that loosens the entanglement without fully freeing the leg creates the angles needed for subsequent granby rolls or hip escapes. Conversely, failed granby attempts often create the space and angles that make subsequent leg extraction possible. Understanding this interplay transforms truck bottom defense from a series of isolated desperate attempts into an integrated escape system with compounding probability of success.
 
-**From Position**: [[Truck]] (Bottom)
+**From Position**: [[Positions/Twister Control/Truck]] (Bottom)
 **Success Rate**: 38%
 
 </section>
@@ -32,9 +32,9 @@ At advanced levels, the leg extraction functions as both a standalone escape and
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 38% |
-| Failure | [[Truck]] | 40% |
-| Counter | [[Back Control]] | 22% |
+| Success | [[Positions/Turtle]] | 38% |
+| Failure | [[Positions/Twister Control/Truck]] | 40% |
+| Counter | [[Positions/Back Control]] | 22% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Leg Extraction from Truck connects the truck bottom escape hierarchy to the 
 ## Related Techniques
 
 
-- [[Truck]] - Starting position from which leg must be extracted
+- [[Positions/Twister Control/Truck]] - Starting position from which leg must be extracted
 
-- [[Turtle]] - Primary escape destination after successful extraction
+- [[Positions/Turtle]] - Primary escape destination after successful extraction
 
-- [[Back Control]] - Counter outcome when opponent capitalizes on extraction attempt
+- [[Positions/Back Control]] - Counter outcome when opponent capitalizes on extraction attempt
 
-- [[Escape from Truck]] - Related general escape technique using granby roll mechanics
+- [[Transitions/Escape from Truck]] - Related general escape technique using granby roll mechanics
 
-- [[Hip Escape from Truck]] - Alternative escape using shrimping to reach half guard
+- [[Transitions/Hip Escape from Truck]] - Alternative escape using shrimping to reach half guard
 
-- [[Calf Slicer from Truck]] - Submission threat that increases during leg extraction attempts
+- [[Submissions/Calf Slicer from Truck]] - Submission threat that increases during leg extraction attempts
 
-- [[Twister Control]] - Primary submission threat motivating urgent escape from truck
+- [[Positions/Twister Control]] - Primary submission threat motivating urgent escape from truck
 
-- [[Crab Ride]] - Related back attack position with similar leg entanglement challenges
+- [[Positions/Crab Ride]] - Related back attack position with similar leg entanglement challenges
 
-- [[Half Guard]] - Alternative escape destination through hip escape variant
+- [[Positions/Half Guard]] - Alternative escape destination through hip escape variant
 
-- [[Deep Half Guard]] - Alternative escape destination accessible via forward roll
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative escape destination accessible via forward roll
 
 
 </section>

@@ -206,23 +206,23 @@ Russian Leg Lasso Bottom represents one of the most technically sophisticated op
 
 ## Available Escapes
 
-### [[Overhook Sweep]] (35% of attempts)
+### [[Transitions/Overhook Sweep]] (35% of attempts)
 
-### [[Triangle Setup]] (11% of attempts)
+### [[Transitions/Triangle Setup]] (11% of attempts)
 
-### [[Omoplata Sweep]] (12% of attempts)
+### [[Transitions/Omoplata Sweep]] (12% of attempts)
 
-### [[Back Take from Bottom]] (6% of attempts)
+### [[Transitions/Back Take from Bottom]] (6% of attempts)
 
-### [[Sickle Sweep]] (13% of attempts)
+### [[Transitions/Sickle Sweep]] (13% of attempts)
 
-### [[Berimbolo Entry]] (8% of attempts)
+### [[Transitions/Berimbolo Entry]] (8% of attempts)
 
-### [[Omoplata]] (10% of attempts)
+### [[Transitions/Omoplata]] (10% of attempts)
 
-### [[Russian Lasso Sweep]] (3% of attempts)
+### [[Transitions/Russian Lasso Sweep]] (3% of attempts)
 
-### [[Russian Lasso to De La Riva]] (2% of attempts)
+### [[Transitions/Russian Lasso to De La Riva]] (2% of attempts)
 
 
 
@@ -233,23 +233,23 @@ Russian Leg Lasso Bottom represents one of the most technically sophisticated op
 ## Decision Making from This Position
 
 **If opponent maintains distance and attempts to break collar grip:**
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 55%)
-- Execute **[[Overhook Sweep]]** → [[Mount]] (Probability: 45%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Overhook Sweep]]** → [[Positions/Mount]] (Probability: 45%)
 
 
 **If opponent drives forward with pressure attempting to smash pass:**
-- Execute **[[Elevator Sweep]]** → [[Mount]] (Probability: 55%)
-- Execute **[[Omoplata Sweep]]** → [[Omoplata Control]] (Probability: 45%)
+- Execute **[[Transitions/Elevator Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Omoplata Control]] (Probability: 45%)
 
 
 **If opponent circles away from lasso attempting to disengage:**
-- Execute **[[Sickle Sweep]]** → [[Mount]] (Probability: 50%)
-- Execute **[[De La Riva Sweep]]** → [[Back Control]] (Probability: 50%)
+- Execute **[[Transitions/Sickle Sweep]]** → [[Positions/Mount]] (Probability: 50%)
+- Execute **[[Transitions/De La Riva Sweep]]** → [[Positions/Back Control]] (Probability: 50%)
 
 
 **If opponent establishes strong base and begins systematic grip breaking:**
-- Execute **[[Back Take from Bottom]]** → [[Back Control]] (Probability: 45%)
-- Execute **[[Armbar Finish]]** → [[Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Back Take from Bottom]]** → [[Positions/Back Control]] (Probability: 45%)
+- Execute **[[Transitions/Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 55%)
 
 
 
@@ -383,15 +383,15 @@ Russian Leg Lasso established, but top player actively works to break collar and
 
 ## Related Positions and Techniques
 
-- **[[Lasso Guard]]** - Parent position - standard lasso guard from which Russian variation evolved with additional controls
-- **[[Spider Guard]]** - Related open guard sharing grip principles and often combined in modern guard systems
-- **[[De La Riva Guard]]** - Complementary guard frequently integrated with Russian Leg Lasso for enhanced control and sweep options
-- **[[Collar Sleeve Guard]]** - Shares fundamental grip configuration and can serve as entry or transition point
-- **[[Inverted Lasso Guard]]** - Alternative lasso variation with different mechanical properties and applications
-- **[[Triangle Control]]** - Primary submission entry from Russian Leg Lasso when opponent defends sweeps
-- **[[Omoplata Control]]** - Alternative submission path when opponent postures or drives into lasso
-- **[[Open Guard]]** - Parent category and foundation for understanding all open guard variations
-- **[[Overhook Sweep]]** - Core offensive technique applicable from this guard configuration
+- **[[Positions/Lasso Guard]]** - Parent position - standard lasso guard from which Russian variation evolved with additional controls
+- **[[Positions/Spider Guard]]** - Related open guard sharing grip principles and often combined in modern guard systems
+- **[[Positions/De La Riva Guard]]** - Complementary guard frequently integrated with Russian Leg Lasso for enhanced control and sweep options
+- **[[Positions/Collar Sleeve Guard]]** - Shares fundamental grip configuration and can serve as entry or transition point
+- **[[Positions/Lasso Guard/Inverted Lasso Guard]]** - Alternative lasso variation with different mechanical properties and applications
+- **[[Positions/Triangle Control]]** - Primary submission entry from Russian Leg Lasso when opponent defends sweeps
+- **[[Positions/Omoplata Control]]** - Alternative submission path when opponent postures or drives into lasso
+- **[[Positions/Open Guard]]** - Parent category and foundation for understanding all open guard variations
+- **[[Transitions/Overhook Sweep]]** - Core offensive technique applicable from this guard configuration
 
 
 </section>

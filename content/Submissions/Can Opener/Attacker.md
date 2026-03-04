@@ -176,7 +176,7 @@ description: "How to execute Can Opener in BJJ. Attacking perspective with setup
 
 The Can Opener attack is documented here strictly for educational and defensive awareness purposes, as this technique is banned under IBJJF rules and most competition rulesets due to its extreme injury potential to the cervical spine. The attacker applies this neck crank from inside the opponent's closed guard by interlacing fingers behind the head and using forearm pressure against the neck while pulling the head forward and down, creating dangerous compression on the cervical vertebrae. The technique exploits a mechanical trap where the defender's own closed guard prevents them from creating the distance needed to relieve pressure. Understanding the attacker's mechanics is critical for developing effective prevention and early-stage defense, but practitioners should invest their training time in legal guard-breaking alternatives such as standing breaks, toreando passing, and pressure-based methods that develop proper fundamentals without endangering training partners.
 
-**From Position**: [[Closed Guard]] (Top)
+**From Position**: [[Positions/Closed Guard]] (Top)
 
 
 </section>
@@ -232,8 +232,8 @@ The Can Opener attack is documented here strictly for educational and defensive 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Open Guard]] | 20% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -242,12 +242,12 @@ The Can Opener attack is documented here strictly for educational and defensive 
 
 ## Opponent Defenses
 
-- **Strong collar and sleeve grips preventing hand positioning** (Effectiveness: High) - Your Response: This is the primary and most effective defense. If opponent maintains proper grips, Can Opener setup becomes nearly impossible. Cannot effectively counter strong grip fighting. → Leads to [[Closed Guard]]
-- **Breaking attacker's posture down to chest level** (Effectiveness: High) - Your Response: When posture is fully broken, your arms cannot generate the mechanical advantage needed for compression. Opponent's defensive posture break neutralizes the technique completely. → Leads to [[Closed Guard]]
-- **Opening guard immediately and transitioning to different guard** (Effectiveness: High) - Your Response: Smart opponent opens guard voluntarily before pressure builds, moving to open guard, butterfly, or scrambling position. This achieves your goal of opening guard but maintains opponent's defensive control. → Leads to [[Open Guard]]
-- **Framing against hips and creating distance** (Effectiveness: Medium) - Your Response: Opponent uses frames on your hips to push away creating space that reduces neck pressure. You can counter by sitting back and maintaining hand position, but effectiveness drops significantly. → Leads to [[Open Guard]]
-- **Hand fighting to break finger clasp** (Effectiveness: Medium) - Your Response: Opponent reaches up to peel fingers apart or strike wrists to break grip. If successful, entire technique structure collapses. Maintaining grip becomes primary battle. → Leads to [[Closed Guard]]
-- **Angle change and hip escape** (Effectiveness: Medium) - Your Response: By angling body and shrimping, opponent can reduce compression angle making technique less effective. Creates opportunities for them to establish better guard position or sweep. → Leads to [[Open Guard]]
+- **Strong collar and sleeve grips preventing hand positioning** (Effectiveness: High) - Your Response: This is the primary and most effective defense. If opponent maintains proper grips, Can Opener setup becomes nearly impossible. Cannot effectively counter strong grip fighting. → Leads to [[Positions/Closed Guard]]
+- **Breaking attacker's posture down to chest level** (Effectiveness: High) - Your Response: When posture is fully broken, your arms cannot generate the mechanical advantage needed for compression. Opponent's defensive posture break neutralizes the technique completely. → Leads to [[Positions/Closed Guard]]
+- **Opening guard immediately and transitioning to different guard** (Effectiveness: High) - Your Response: Smart opponent opens guard voluntarily before pressure builds, moving to open guard, butterfly, or scrambling position. This achieves your goal of opening guard but maintains opponent's defensive control. → Leads to [[Positions/Open Guard]]
+- **Framing against hips and creating distance** (Effectiveness: Medium) - Your Response: Opponent uses frames on your hips to push away creating space that reduces neck pressure. You can counter by sitting back and maintaining hand position, but effectiveness drops significantly. → Leads to [[Positions/Open Guard]]
+- **Hand fighting to break finger clasp** (Effectiveness: Medium) - Your Response: Opponent reaches up to peel fingers apart or strike wrists to break grip. If successful, entire technique structure collapses. Maintaining grip becomes primary battle. → Leads to [[Positions/Closed Guard]]
+- **Angle change and hip escape** (Effectiveness: Medium) - Your Response: By angling body and shrimping, opponent can reduce compression angle making technique less effective. Creates opportunities for them to establish better guard position or sweep. → Leads to [[Positions/Open Guard]]
 
 
 </section>

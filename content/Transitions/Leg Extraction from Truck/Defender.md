@@ -148,7 +148,7 @@ As the truck top player defending against the leg extraction attempt, your objec
 
 Your defensive strategy combines reactive hook tightening with proactive submission threats. When you feel the bottom player's ankle begin to rotate within your entanglement, immediately squeeze your hooks and consider attacking the calf slicer to punish the movement. If the entanglement is clearly loosening despite your adjustments, transition proactively to back control rather than losing position entirely.
 
-**Opponent's Starting Position**: [[Truck]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Twister Control/Truck]] (Bottom)
 
 </section>
 
@@ -185,28 +185,28 @@ Your defensive strategy combines reactive hook tightening with proactive submiss
 ### 1. Squeeze hooks and tighten figure-four entanglement around the trapped leg
 
 - **When to use**: At the first sign of ankle rotation or knee drive within the entanglement, before significant loosening has occurred
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: Extraction attempt is shut down, leg remains trapped, and bottom player must restart their escape sequence from an earlier stage
 - **Risk**: Focusing entirely on squeezing hooks may reduce upper body control, allowing the bottom player to chain into a granby roll while you are focused low
 
 ### 2. Attack calf slicer on the partially extracted leg to punish the movement
 
 - **When to use**: When the bottom player's knee begins driving outward and the leg is partially extending during the extraction spiral
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: Bottom player must abandon extraction to defend the calf slicer, resetting to full defensive mode and burning energy on submission defense
 - **Risk**: Committing to the calf slicer requires extending the leg further, which may actually accelerate the extraction if the submission is not secured
 
 ### 3. Increase boot pressure and flatten with chest weight to restrict hip rotation
 
 - **When to use**: When the bottom player begins the hip rotation phase of their extraction, indicating they have created some ankle and knee space
-- **Targets**: [[Truck]]
+- **Targets**: [[Positions/Twister Control/Truck]]
 - **If successful**: Hip rotation is prevented by boot torque, eliminating the third dimension of the extraction spiral and making the circular movement incomplete
 - **Risk**: Forward chest weight commitment can create space for a granby roll if the bottom player redirects from extraction to rolling escape
 
 ### 4. Transition to back control by releasing entanglement and inserting hooks
 
 - **When to use**: When the leg entanglement has loosened beyond recovery despite hook tightening and the extraction appears imminent
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Dominant position is preserved through back control, maintaining submission threats and scoring potential despite losing the truck
 - **Risk**: If the transition is mistimed, the bottom player may complete extraction and achieve turtle before hooks are established
 
@@ -218,11 +218,11 @@ Your defensive strategy combines reactive hook tightening with proactive submiss
 
 ## Best-Case Outcomes for Defender
 
-### → [[Truck]]
+### → [[Positions/Twister Control/Truck]]
 
 Recognize extraction attempts early through ankle rotation and knee drive cues, immediately tighten figure-four hooks, maintain boot pressure to restrict hip rotation, and use calf slicer threats to force the bottom player back to defensive mode.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the entanglement is irreversibly loosening, proactively transition to back control by abandoning the figure-four and quickly inserting hooks and establishing seatbelt grip before the bottom player can achieve turtle. Time this transition to the moment just before full extraction rather than after the leg is free.
 

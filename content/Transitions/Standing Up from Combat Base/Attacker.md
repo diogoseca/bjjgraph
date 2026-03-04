@@ -180,7 +180,7 @@ description: "Learn to execute standing up from combat base in BJJ. Step-by-step
 
 As the attacker executing the stand-up from combat base, your objective is to transition from a kneeling position to a fully standing stance while maintaining sufficient control to prevent the opponent from establishing new guard entanglements. The stand-up is not merely about getting to your feet—it is about arriving in a standing position with dominant grips, proper posture, and immediate passing threat. The quality of your grip management before, during, and after the stand determines whether you reach a commanding standing position or expose yourself to sweeps and guard re-establishments. Timing the stand-up when the opponent's grips are weakest and their hooks are cleared transforms this transition from a gamble into a high-percentage positional improvement that unlocks your entire standing passing arsenal.
 
-**From Position**: [[Combat Base]] (Top)
+**From Position**: [[Positions/Combat Base]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing the stand-up from combat base, your objective is to tr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Combat Base]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Combat Base]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing the stand-up from combat base, your objective is to tr
 
 ## Opponent Counters
 
-- **Opponent grabs collar and sleeve grips to pull you back down during the stand** (Effectiveness: High) - Your Response: Strip grips before committing to the stand. If grips are established mid-stand, complete the stand explosively and then break grips from standing where you have superior leverage. Use circular wrist movements and posture to break collar grips from the elevated position. → Leads to [[Combat Base]]
-- **Opponent threads a De La Riva hook around your lead leg as you begin standing** (Effectiveness: High) - Your Response: Drive the hooked knee forward and inward to strip the hook before it sets. If the hook establishes, immediately backstep or switch your lead leg to remove the entanglement. Pushing the opponent's hooking knee to the mat with your free hand denies the hook angle. → Leads to [[Half Guard]]
-- **Opponent sits up and grabs a single leg during the transition window** (Effectiveness: Medium) - Your Response: Use your established pants grips to push the opponent's hips back to the mat before they can fully sit up. If they get the single leg, immediately whizzer the trapped leg arm and circle away from their head while pushing their head down to break the grip. Avoid backing straight up which loads their driving angle. → Leads to [[Half Guard]]
-- **Opponent establishes shin-to-shin contact and prevents full standing extension** (Effectiveness: Medium) - Your Response: Pin the shin-to-shin leg to the mat using your same-side grip while stepping the contacted leg backward out of range. Alternatively, complete the stand quickly before the shin-to-shin can develop into a full X-guard or single leg X entry. Speed through the transition eliminates this counter window. → Leads to [[Combat Base]]
+- **Opponent grabs collar and sleeve grips to pull you back down during the stand** (Effectiveness: High) - Your Response: Strip grips before committing to the stand. If grips are established mid-stand, complete the stand explosively and then break grips from standing where you have superior leverage. Use circular wrist movements and posture to break collar grips from the elevated position. → Leads to [[Positions/Combat Base]]
+- **Opponent threads a De La Riva hook around your lead leg as you begin standing** (Effectiveness: High) - Your Response: Drive the hooked knee forward and inward to strip the hook before it sets. If the hook establishes, immediately backstep or switch your lead leg to remove the entanglement. Pushing the opponent's hooking knee to the mat with your free hand denies the hook angle. → Leads to [[Positions/Half Guard]]
+- **Opponent sits up and grabs a single leg during the transition window** (Effectiveness: Medium) - Your Response: Use your established pants grips to push the opponent's hips back to the mat before they can fully sit up. If they get the single leg, immediately whizzer the trapped leg arm and circle away from their head while pushing their head down to break the grip. Avoid backing straight up which loads their driving angle. → Leads to [[Positions/Half Guard]]
+- **Opponent establishes shin-to-shin contact and prevents full standing extension** (Effectiveness: Medium) - Your Response: Pin the shin-to-shin leg to the mat using your same-side grip while stepping the contacted leg backward out of range. Alternatively, complete the stand quickly before the shin-to-shin can develop into a full X-guard or single leg X entry. Speed through the transition eliminates this counter window. → Leads to [[Positions/Combat Base]]
 
 
 </section>

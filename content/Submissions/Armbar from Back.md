@@ -22,8 +22,8 @@ The Armbar from Back Control represents one of the most devastating finishing se
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Elbow joint
-**Starting Position**: [[Back Control]]
-**From Position**: [[Back Control]] (Top)
+**Starting Position**: [[Positions/Back Control]]
+**From Position**: [[Positions/Back Control]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -75,8 +75,8 @@ The Armbar from Back Control represents one of the most devastating finishing se
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Back Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Back Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -229,14 +229,14 @@ The Armbar from Back Control represents one of the most devastating finishing se
 
 ## From Which Positions?
 
-- [[Back Control]]
-- [[Body Triangle]]
-- [[Seat Belt Control Back]]
-- [[Crucifix]]
-- [[Mounted Crucifix]]
-- [[Gift Wrap]]
-- [[Harness]]
-- [[Turtle]]
+- [[Positions/Back Control]]
+- [[Positions/Back Control/Body Triangle]]
+- [[Positions/Back Control/Seat Belt Control Back]]
+- [[Positions/Crucifix]]
+- [[Positions/Mount/Mounted Crucifix]]
+- [[Positions/Gift Wrap]]
+- [[Positions/Harness]]
+- [[Positions/Turtle]]
 
 
 </section>
@@ -245,16 +245,16 @@ The Armbar from Back Control represents one of the most devastating finishing se
 
 ## Related Submissions
 
-- [[Rear Naked Choke]]
-- [[Armbar from Guard]]
-- [[Armbar from Back with Legs]]
-- [[Triangle from Back]]
-- [[Bow and Arrow Choke]]
-- [[Belly Down Armbar]]
-- [[Armbar from Mount]]
-- [[Armbar from Crucifix]]
-- [[Kimura]]
-- [[Choke from Crucifix]]
+- [[Transitions/Rear Naked Choke]]
+- [[Submissions/Armbar from Guard]]
+- [[Submissions/Armbar from Back with Legs]]
+- [[Transitions/Triangle from Back]]
+- [[Transitions/Bow and Arrow Choke]]
+- [[Submissions/Belly Down Armbar]]
+- [[Submissions/Armbar from Mount]]
+- [[Transitions/Armbar from Crucifix]]
+- [[Transitions/Kimura]]
+- [[Transitions/Choke from Crucifix]]
 
 
 </section>
@@ -263,16 +263,16 @@ The Armbar from Back Control represents one of the most devastating finishing se
 
 ## Additional Related Content
 
-- [[Back Control]] - Primary starting position for this submission
-- [[Body Triangle]] - Alternative back control configuration offering superior control during armbar transition
-- [[Armbar Control]] - Control position established during armbar finish
-- [[Arm Drag to Back]] - Common entry to back control before armbar
-- [[Chair Sit to Back]] - Alternative back take leading to armbar setup
-- [[Back Control to Crucifix]] - Related transition when opponent defends armbar
-- [[Mount]] - Alternative position for armbar application with similar mechanics
-- [[Rear Triangle]] - Follow-up submission when armbar is defended by bent arm
-- [[Gift Wrap]] - Alternative back control grip enabling armbar entry
-- [[Seat Belt Control Back]] - Standard grip configuration for back control armbar setup
+- [[Positions/Back Control]] - Primary starting position for this submission
+- [[Positions/Back Control/Body Triangle]] - Alternative back control configuration offering superior control during armbar transition
+- [[Positions/Armbar Control]] - Control position established during armbar finish
+- [[Transitions/Arm Drag to Back]] - Common entry to back control before armbar
+- [[Transitions/Chair Sit to Back]] - Alternative back take leading to armbar setup
+- [[Transitions/Back Control to Crucifix]] - Related transition when opponent defends armbar
+- [[Positions/Mount]] - Alternative position for armbar application with similar mechanics
+- [[Positions/Triangle Control/Rear Triangle]] - Follow-up submission when armbar is defended by bent arm
+- [[Positions/Gift Wrap]] - Alternative back control grip enabling armbar entry
+- [[Positions/Back Control/Seat Belt Control Back]] - Standard grip configuration for back control armbar setup
 
 
 </section>

@@ -166,7 +166,7 @@ Defending the armbar from S Mount is one of the most challenging defensive scena
 
 The critical defensive principle is that a bent arm cannot be armbarred. As long as the defender maintains their elbow at 90 degrees or greater with the hand gripping their own collar, lapel, or opposite shoulder, the attacker cannot complete the hyperextension. Every defensive action—framing, escaping, grip fighting—must be performed while maintaining this bent-arm protection. The moment the arm straightens under the attacker's control, the submission is functionally complete and the tap becomes inevitable. Understanding this timing distinction between defensible and finished is the foundation of armbar survival from S Mount.
 
-**Opponent's Starting Position**: [[S Mount]] (Top)
+**Opponent's Starting Position**: [[Positions/Mount/S Mount]] (Top)
 
 
 </section>
@@ -206,28 +206,28 @@ The critical defensive principle is that a bent arm cannot be armbarred. As long
 ### 1. Clasp hands together or grip own collar to prevent arm extension
 
 - **When to use**: Immediately upon feeling arm isolation—this is your primary defense that must be established before anything else
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: Attacker cannot finish the armbar and must work to break your grip, buying time for escape
 - **Risk**: If attacker breaks the grip with figure-four technique, arm extends into submission position
 
 ### 2. Bridge explosively toward attacker and turn to face them while maintaining arm protection
 
 - **When to use**: When attacker begins leaning back for the finish or shifts weight during grip transition
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Disrupts attacker's base and collapses S Mount back to standard mount where more escapes are available
 - **Risk**: Failed bridge wastes energy and may extend the trapped arm during explosive movement
 
 ### 3. Hip escape toward attacker's legs while extracting trapped arm during their adjustment
 
 - **When to use**: When attacker adjusts grip or position, creating a momentary window of reduced control
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Create enough distance to pull arm free and recover closed guard, resetting to neutral guard battle
 - **Risk**: Requires precise timing—premature attempt tightens attacker's control rather than creating escape
 
 ### 4. Control attacker's near leg with free hand to prevent full step-over and armbar completion
 
 - **When to use**: Continuously from the moment S Mount is established, as a preventive defensive measure
-- **Targets**: [[S Mount]]
+- **Targets**: [[Positions/Mount/S Mount]]
 - **If successful**: Prevents attacker from fully extending leg over head, limiting their ability to lean back and finish
 - **Risk**: Using free hand for leg control means it cannot create frames for positional escape
 
@@ -251,11 +251,11 @@ The critical defensive principle is that a bent arm cannot be armbarred. As long
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time a hip escape during the attacker's grip transition or lean-back phase, extracting the trapped arm and inserting your knee to recover guard position
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Bridge explosively during attacker's weight shift to collapse S Mount back to standard mount where more escape options are available
 

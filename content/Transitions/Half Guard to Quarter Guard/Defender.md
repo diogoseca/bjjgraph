@@ -154,7 +154,7 @@ description: "Complete defensive guide against the Transition to Quarter Guard. 
 
 Defending against the Transition to Quarter Guard requires recognizing the early warning signs of positional deterioration and responding with immediate, decisive action before the top player advances past the point of no return. As the bottom player in half guard, you must identify when the top player begins systematically extracting their trapped leg and respond by either reinforcing your guard retention, initiating offensive actions that force them to abandon the passing attempt, or transitioning to alternative guard positions that offer better defensive or offensive prospects. The critical window for effective defense is narrow—once the top player's knee passes your hip centerline, your guard retention capacity drops dramatically and recovery becomes exponentially more difficult. Proactive defense that disrupts the transition before it begins is vastly superior to reactive defense that tries to recover after the position is compromised.
 
-**Opponent's Starting Position**: [[Half Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard]] (Top)
 
 </section>
 
@@ -193,28 +193,28 @@ Defending against the Transition to Quarter Guard requires recognizing the early
 ### 1. Fight aggressively to recover or maintain underhook while hip escaping to create defensive angle
 
 - **When to use**: Early in the transition when top player first begins advancing hips but has not yet passed your hip centerline
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You recover full half guard with underhook control, resetting the positional battle to a contested half guard exchange
 - **Risk**: If underhook recovery fails, the delay may allow the top player to advance further, making subsequent defense more difficult
 
 ### 2. Drop underneath for deep half guard entry by getting your head below their hips
 
 - **When to use**: When the top player commits significant weight forward during hip advancement, creating space underneath their body
-- **Targets**: [[Deep Half Guard]]
+- **Targets**: [[Positions/Half Guard/Deep Half Guard]]
 - **If successful**: You establish deep half guard which offers superior sweeping angles and neutralizes their passing pressure
 - **Risk**: If the top player recognizes the deep half entry early, they can sprawl and flatten you, accelerating the pass completion
 
 ### 3. Initiate old school sweep or underhook sweep exploiting their forward weight commitment
 
 - **When to use**: When the top player posts a hand on the mat or shifts weight excessively forward during the transition
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You sweep the top player and achieve a dominant top position, completely reversing the positional dynamic
 - **Risk**: Failed sweep attempt from compromised position may leave you flatter and more vulnerable to immediate pass completion
 
 ### 4. Insert butterfly hook with free leg and elevate to disrupt their base and pressure
 
 - **When to use**: When there is sufficient space between your bodies to insert the hook and your hips have not been fully pinned
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You create enough space to recover full half guard or transition to butterfly half guard with improved defensive structure
 - **Risk**: If the hook insertion is too late, the top player may use the movement to accelerate past your hip line into quarter guard
 
@@ -226,11 +226,11 @@ Defending against the Transition to Quarter Guard requires recognizing the early
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Recover underhook control and hip angle early in the transition before their knee passes your hip centerline. Use active hip escaping combined with underhook pulling to prevent flattening and re-establish the contested half guard dynamic.
 
-### → [[Deep Half Guard]]
+### → [[Positions/Half Guard/Deep Half Guard]]
 
 When the top player overcommits weight forward during advancement, use that momentum to dive underneath their body, getting your head below their hips and establishing deep half guard hooks. Their forward commitment makes it difficult to prevent the deep half entry if timed correctly.
 

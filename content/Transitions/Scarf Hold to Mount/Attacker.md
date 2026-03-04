@@ -180,7 +180,7 @@ description: "Master the offensive mechanics of transitioning from Scarf Hold to
 
 Executing the Scarf Hold to Mount transition requires precise coordination between pressure maintenance, grip management, and leg movement. The attacker must maintain constant hip connection throughout the step-over while managing the momentary vulnerability created by releasing head control. The transition works best as part of a sequential attack system where submission threats from scarf hold force defensive reactions that expose the far hip and create mounting opportunities. Understanding the mechanical requirements of each entry variation—step-over, slide-through, and walk-around—allows the attacker to select the appropriate method based on the defender's positioning, energy level, and defensive focus.
 
-**From Position**: [[Scarf Hold Position]] (Top)
+**From Position**: [[Positions/Side Control/Scarf Hold Position]] (Top)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Scarf Hold to Mount transition requires precise coordination betwe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Scarf Hold Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Side Control/Scarf Hold Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Scarf Hold to Mount transition requires precise coordination betwe
 
 ## Opponent Counters
 
-- **Explosive bridge during step-over when only one leg is posted** (Effectiveness: High) - Your Response: Anticipate the bridge by keeping your center of gravity low and your posting arm firmly planted. If they bridge early, abort the step-over, reset head control, and return to consolidated scarf hold. Use the failed bridge as your next timing window since their explosive capacity is temporarily depleted. → Leads to [[Scarf Hold Position]]
-- **Far knee insertion to recover half guard during the leg swing** (Effectiveness: Medium) - Your Response: Keep your stepping knee driving tight against their far hip throughout the arc to block the insertion path. If they get the knee partially in, drive your weight through your chest and use a knee slice motion to clear their knee and complete the mount. If fully established, consolidate half guard top and work a passing sequence. → Leads to [[Half Guard]]
-- **Strong frame on hip blocking the step-over path** (Effectiveness: Medium) - Your Response: Swim your near arm inside their frame to redirect it toward their head, neutralizing the blocking force. Alternatively, switch to the slide-through variation by keeping your knee on the mat and sliding across their belly below the frame. If the frame is too established, abandon the attempt and reset to threaten a submission. → Leads to [[Scarf Hold Position]]
-- **Turn into attacker and establish underhook during head control release** (Effectiveness: Low) - Your Response: Use your posting arm to crossface and drive their head away, preventing them from completing the turn. If they commit to turning, follow their rotation and take the mount from the opposite side as they roll toward you, or transition directly to back control if they expose their back during the turn. → Leads to [[Scarf Hold Position]]
+- **Explosive bridge during step-over when only one leg is posted** (Effectiveness: High) - Your Response: Anticipate the bridge by keeping your center of gravity low and your posting arm firmly planted. If they bridge early, abort the step-over, reset head control, and return to consolidated scarf hold. Use the failed bridge as your next timing window since their explosive capacity is temporarily depleted. → Leads to [[Positions/Side Control/Scarf Hold Position]]
+- **Far knee insertion to recover half guard during the leg swing** (Effectiveness: Medium) - Your Response: Keep your stepping knee driving tight against their far hip throughout the arc to block the insertion path. If they get the knee partially in, drive your weight through your chest and use a knee slice motion to clear their knee and complete the mount. If fully established, consolidate half guard top and work a passing sequence. → Leads to [[Positions/Half Guard]]
+- **Strong frame on hip blocking the step-over path** (Effectiveness: Medium) - Your Response: Swim your near arm inside their frame to redirect it toward their head, neutralizing the blocking force. Alternatively, switch to the slide-through variation by keeping your knee on the mat and sliding across their belly below the frame. If the frame is too established, abandon the attempt and reset to threaten a submission. → Leads to [[Positions/Side Control/Scarf Hold Position]]
+- **Turn into attacker and establish underhook during head control release** (Effectiveness: Low) - Your Response: Use your posting arm to crossface and drive their head away, preventing them from completing the turn. If they commit to turning, follow their rotation and take the mount from the opposite side as they roll toward you, or transition directly to back control if they expose their back during the turn. → Leads to [[Positions/Side Control/Scarf Hold Position]]
 
 
 </section>

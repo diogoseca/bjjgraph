@@ -21,7 +21,7 @@ The distinction matters because many practitioners sit in butterfly guard with s
 
 Strategically, this transition is most critical after initial guard recovery or when re-engaging after a scramble. The window to establish full butterfly hook control is narrow—if the top player recognizes incomplete hooks or poor posture, they will attack with pressure passes or smash attempts before the bottom player can consolidate. Timing the consolidation with the opponent's weight shifts, grip breaks, or positional adjustments creates the opening needed to lock in deep hooks and establish the seated posture that makes butterfly hook control one of the most dangerous offensive guards in modern grappling.
 
-**From Position**: [[Butterfly Guard]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard]] (Bottom)
 **Success Rate**: 65%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition is most critical after initial guard recovery or 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Butterfly Hook Control]] | 65% |
-| Failure | [[Butterfly Guard]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Butterfly Guard/Butterfly Hook Control]] | 65% |
+| Failure | [[Positions/Butterfly Guard]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ Transition to Butterfly Hook Control sits at a critical junction in the guard re
 ## Related Techniques
 
 
-- [[Butterfly Guard]] - Parent position from which this consolidation transition originates
+- [[Positions/Butterfly Guard]] - Parent position from which this consolidation transition originates
 
-- [[Butterfly Hook Control]] - Target position achieved upon successful consolidation of hooks and posture
+- [[Positions/Butterfly Guard/Butterfly Hook Control]] - Target position achieved upon successful consolidation of hooks and posture
 
-- [[Butterfly Sweep]] - Primary offensive technique available after establishing full hook control
+- [[Transitions/Butterfly Sweep]] - Primary offensive technique available after establishing full hook control
 
-- [[Arm Drag to Back]] - High-percentage back take available once hooks and posture are consolidated
+- [[Transitions/Arm Drag to Back]] - High-percentage back take available once hooks and posture are consolidated
 
-- [[Butterfly Guard to X-Guard]] - Alternative transition path when opponent stands to avoid hook consolidation
+- [[Transitions/Butterfly Guard to X-Guard]] - Alternative transition path when opponent stands to avoid hook consolidation
 
-- [[Butterfly Hook Recovery]] - Defensive recovery technique when hooks are partially cleared during consolidation
+- [[Transitions/Butterfly Hook Recovery]] - Defensive recovery technique when hooks are partially cleared during consolidation
 
-- [[Half Butterfly]] - Intermediate position when only one hook is successfully consolidated
+- [[Positions/Butterfly Guard/Half Butterfly]] - Intermediate position when only one hook is successfully consolidated
 
-- [[Deep Half Guard]] - Fallback position when opponent smashes during consolidation attempt
+- [[Positions/Half Guard/Deep Half Guard]] - Fallback position when opponent smashes during consolidation attempt
 
-- [[Elevator Sweep]] - Sweep option that becomes available with deep hook insertion
+- [[Transitions/Elevator Sweep]] - Sweep option that becomes available with deep hook insertion
 
-- [[Hook Sweep]] - Rotational sweep enabled by proper butterfly hook positioning
+- [[Transitions/Hook Sweep]] - Rotational sweep enabled by proper butterfly hook positioning
 
 
 </section>

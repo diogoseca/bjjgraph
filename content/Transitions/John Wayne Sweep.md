@@ -21,7 +21,7 @@ The sweep operates on a three-phase mechanical sequence: first, two-on-one sleev
 
 This sweep is particularly effective in gi grappling where grip control provides leverage advantages, though no-gi variations exist using wrist and tricep controls. The technique integrates naturally into a broader half guard attack system, chaining with underhook sweeps, back takes, deep half entries, and kimura attacks depending on the opponent's defensive reaction. Competition practitioners value the sweep for its direct path to a 4-point mount position.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This sweep is particularly effective in gi grappling where grip control provides
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 58% |
-| Failure | [[Half Guard]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 58% |
+| Failure | [[Positions/Half Guard]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -198,25 +198,25 @@ The John Wayne Sweep is a cornerstone technique within the offensive half guard 
 ## Related Techniques
 
 
-- [[Half Guard]] - Starting position - foundational position from which technique is executed
+- [[Positions/Half Guard]] - Starting position - foundational position from which technique is executed
 
-- [[Knee Shield Half Guard]] - Related half guard variation - knee shield can set up underhook for sweep entry
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Related half guard variation - knee shield can set up underhook for sweep entry
 
-- [[Mount]] - Ending position - primary destination when sweep is successful
+- [[Positions/Mount]] - Ending position - primary destination when sweep is successful
 
-- [[Old School]] - Alternative technique - classic half guard underhook sweep with different finish
+- [[Positions/Half Guard/Old School]] - Alternative technique - classic half guard underhook sweep with different finish
 
-- [[Deep Half Guard]] - Backup position - safety transition when opponent establishes strong crossface
+- [[Positions/Half Guard/Deep Half Guard]] - Backup position - safety transition when opponent establishes strong crossface
 
-- [[Dogfight Position]] - Related position - underhook battle that can set up or result from sweep attempt
+- [[Positions/Dogfight Position]] - Related position - underhook battle that can set up or result from sweep attempt
 
-- [[Arm Drag to Back]] - Chain technique - option when opponent defends by withdrawing hips
+- [[Transitions/Arm Drag to Back]] - Chain technique - option when opponent defends by withdrawing hips
 
-- [[Kimura from Guard]] - Counter technique - submission attack on posted arm instead of pistol break
+- [[Submissions/Kimura from Guard]] - Counter technique - submission attack on posted arm instead of pistol break
 
-- [[Lockdown]] - Alternative half guard control - can be used to control opponent before sweep setup
+- [[Positions/Half Guard/Lockdown]] - Alternative half guard control - can be used to control opponent before sweep setup
 
-- [[Back Take from Bottom]] - Chain technique - back take option when opponent over-defends the sweep
+- [[Transitions/Back Take from Bottom]] - Chain technique - back take option when opponent over-defends the sweep
 
 
 </section>

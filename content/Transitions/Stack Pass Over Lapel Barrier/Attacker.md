@@ -178,7 +178,7 @@ This technique becomes particularly effective when the opponent has established 
 
 Strategically, the stack pass works best against opponents who rely heavily on the technical advantages of their lapel configuration without adequate upper body frames. The forward drive nullifies the pull of the lapel while your weight distribution prevents sweep attempts. Success requires committing fully to the pressure rather than hesitating in a compromised standing position where the lapel player has maximum leverage.
 
-**From Position**: [[Lapel Guard]] (Top)
+**From Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
 
@@ -230,9 +230,9 @@ Strategically, the stack pass works best against opponents who rely heavily on t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ Strategically, the stack pass works best against opponents who rely heavily on t
 
 ## Opponent Counters
 
-- **Opponent creates angle by turning hips before compression is complete, preventing full stack** (Effectiveness: High) - Your Response: Address early by controlling their far leg grip and using your head position to block their rotation. If they create significant angle, abandon the stack and transition to a leg drag or toreando pass. → Leads to [[Lapel Guard]]
-- **Opponent frames on your shoulder to prevent forward drive and maintain space** (Effectiveness: Medium) - Your Response: Swim under their frames by dipping your shoulder and attacking from a lower angle. Use your collar grip to pull their upper body toward you while driving forward, collapsing their frame structure. → Leads to [[Lapel Guard]]
-- **Opponent releases lapel grip and transitions to spider guard or lasso as you commit forward** (Effectiveness: Medium) - Your Response: Continue the pass momentum—their guard transition is reactive and won't be fully established. The forward pressure that worked against lapel guard works equally well against partially-formed spider or lasso configurations. → Leads to [[Lapel Guard]]
-- **Opponent locks closed guard around your waist as you drive forward into compression range** (Effectiveness: High) - Your Response: Immediately widen your knees and establish posture before they can break you down. If they lock the guard, switch to standard closed guard top passing sequences—your forward pressure has at least removed the lapel configuration advantage. → Leads to [[Closed Guard]]
+- **Opponent creates angle by turning hips before compression is complete, preventing full stack** (Effectiveness: High) - Your Response: Address early by controlling their far leg grip and using your head position to block their rotation. If they create significant angle, abandon the stack and transition to a leg drag or toreando pass. → Leads to [[Positions/Lapel Guard]]
+- **Opponent frames on your shoulder to prevent forward drive and maintain space** (Effectiveness: Medium) - Your Response: Swim under their frames by dipping your shoulder and attacking from a lower angle. Use your collar grip to pull their upper body toward you while driving forward, collapsing their frame structure. → Leads to [[Positions/Lapel Guard]]
+- **Opponent releases lapel grip and transitions to spider guard or lasso as you commit forward** (Effectiveness: Medium) - Your Response: Continue the pass momentum—their guard transition is reactive and won't be fully established. The forward pressure that worked against lapel guard works equally well against partially-formed spider or lasso configurations. → Leads to [[Positions/Lapel Guard]]
+- **Opponent locks closed guard around your waist as you drive forward into compression range** (Effectiveness: High) - Your Response: Immediately widen your knees and establish posture before they can break you down. If they lock the guard, switch to standard closed guard top passing sequences—your forward pressure has at least removed the lapel configuration advantage. → Leads to [[Positions/Closed Guard]]
 
 
 </section>

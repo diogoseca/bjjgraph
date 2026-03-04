@@ -146,7 +146,7 @@ description: "Complete defender guide for Break Overhook Guard. Learn to maintai
 
 As the defender against Break Overhook Guard, you are the bottom player whose overhook is being targeted for removal. Your overhook represents a significant positional advantage that limits your opponent's passing options and creates direct pathways to sweeps and submissions. Losing the overhook returns you to neutral closed guard where the top player regains their full passing game. Your defensive strategy focuses on maintaining overhook depth and tension while actively punishing break attempts with counter-attacks that exploit the top player's compromised base and divided attention. The best defense is an aggressive offense: every time the top player commits resources to stripping the overhook, they create openings for sweeps and submissions that you must be prepared to exploit immediately.
 
-**Opponent's Starting Position**: [[Overhook Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Overhook Guard]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against Break Overhook Guard, you are the bottom player whose ov
 ### 1. Deepen overhook and re-break posture by pulling elbow to hip while driving heels into lower back
 
 - **When to use**: Early in the break attempt when the top player begins establishing wrist control or driving posture, before they have built sufficient separation
-- **Targets**: [[Overhook Guard]]
+- **Targets**: [[Positions/Overhook Guard]]
 - **If successful**: Top player's break attempt is neutralized and they return to compromised posture inside your overhook guard
 - **Risk**: If overhook depth was already shallow, the re-breaking attempt may fail and waste energy without preventing the strip
 
 ### 2. Hip escape to create angle and execute overhook sweep as top player's base is compromised by the break attempt
 
 - **When to use**: When the top player commits both hands to the grip fight and their base narrows or shifts during the stripping motion
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: Top player is swept to mount bottom, achieving a dominant position change from a defensive situation
 - **Risk**: If the sweep fails and you lose the overhook simultaneously, you end up in neutral closed guard without the overhook advantage
 
 ### 3. Shoot overhook-side leg over the clearing arm to threaten triangle as the arm begins to circulate free
 
 - **When to use**: When the top player's elbow begins clearing the overhook and creates space between their arm and their torso during the circulation
-- **Targets**: [[Overhook Guard]]
+- **Targets**: [[Positions/Overhook Guard]]
 - **If successful**: Triangle threat forces the top player to abandon the break and defend the submission, re-establishing your offensive initiative
 - **Risk**: If the triangle attempt fails, you may have opened your guard and lost both the overhook and guard closure
 
 ### 4. Convert overhook to kimura grip by catching the top player's wrist as they circulate the elbow
 
 - **When to use**: When the top player extends their arm during the circulation and their wrist becomes accessible as it clears the overhook
-- **Targets**: [[Overhook Guard]]
+- **Targets**: [[Positions/Overhook Guard]]
 - **If successful**: Kimura grip establishes even stronger control than the original overhook, creating immediate submission threat and sweep opportunities
 - **Risk**: If the kimura grip is not secured cleanly, the top player may complete the elbow circulation while you transition grips
 
@@ -217,11 +217,11 @@ As the defender against Break Overhook Guard, you are the bottom player whose ov
 
 ## Best-Case Outcomes for Defender
 
-### → [[Overhook Guard]]
+### → [[Positions/Overhook Guard]]
 
 Maintain deep overhook throughout the break attempt by keeping your elbow pinned to your hip, hand gripping the lat, and legs actively pulling the top player's hips toward you. When you feel the break attempt beginning, immediately re-break their posture and control their free wrist with your opposite hand to deny them the grip needed for the strip.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When the top player commits both hands to the grip fight during the break attempt, their base becomes narrow and their weight shifts. Hip escape to create a 45-degree angle on the overhook side and execute an overhook sweep or hip bump sweep, using their divided attention and compromised base to complete the sweep to mount.
 

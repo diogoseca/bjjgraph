@@ -21,7 +21,7 @@ Strategically, this transition serves multiple purposes within the pinning hiera
 
 The timing of this transition is critical. The optimal window opens when the bottom player commits energy to defending standard Kesa Gatame attacks or when they attempt to create frames against the top player's head. Their defensive commitment creates the opening for the rotational switch, and their existing frames become irrelevant once the top player completes the pivot. This makes the transition an excellent answer to active defensive opponents who frustrate attacks from standard scarf hold.
 
-**From Position**: [[Kesa Gatame]] (Top)
+**From Position**: [[Positions/Side Control/Kesa Gatame]] (Top)
 **Success Rate**: 65%
 
 </section>
@@ -32,9 +32,9 @@ The timing of this transition is critical. The optimal window opens when the bot
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Reverse Kesa-Gatame]] | 65% |
-| Failure | [[Kesa Gatame]] | 20% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control/Reverse Kesa-Gatame]] | 65% |
+| Failure | [[Positions/Side Control/Kesa Gatame]] | 20% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -195,25 +195,25 @@ This transition sits at the intersection of the scarf hold family and the broade
 ## Related Techniques
 
 
-- [[Kesa Gatame]] - Starting position for this transition
+- [[Positions/Side Control/Kesa Gatame]] - Starting position for this transition
 
-- [[Reverse Kesa-Gatame]] - Target position upon successful completion
+- [[Positions/Side Control/Reverse Kesa-Gatame]] - Target position upon successful completion
 
-- [[Side Control]] - Parent category of pinning positions in the control hierarchy
+- [[Positions/Side Control]] - Parent category of pinning positions in the control hierarchy
 
-- [[Kuzure Kesa-Gatame]] - Alternative scarf hold variation accessible from similar starting position
+- [[Positions/Side Control/Kuzure Kesa-Gatame]] - Alternative scarf hold variation accessible from similar starting position
 
-- [[North-South]] - Alternative transition target from Kesa Gatame using similar rotational mechanics
+- [[Positions/North-South]] - Alternative transition target from Kesa Gatame using similar rotational mechanics
 
-- [[Side Control to North-South]] - Related rotational transition sharing similar weight transfer principles
+- [[Transitions/Side Control to North-South]] - Related rotational transition sharing similar weight transfer principles
 
-- [[Side Control to Mount]] - Alternative advancement option from the same starting position
+- [[Transitions/Side Control to Mount]] - Alternative advancement option from the same starting position
 
-- [[Kimura]] - Primary submission chain available after completing transition
+- [[Transitions/Kimura]] - Primary submission chain available after completing transition
 
-- [[Americana]] - Secondary submission chain available from Reverse Kesa-Gatame
+- [[Transitions/Americana]] - Secondary submission chain available from Reverse Kesa-Gatame
 
-- [[Modified Scarf Hold]] - Related scarf hold variation in the pinning family
+- [[Positions/Side Control/Modified Scarf Hold]] - Related scarf hold variation in the pinning family
 
 
 </section>

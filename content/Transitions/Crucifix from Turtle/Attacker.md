@@ -180,7 +180,7 @@ description: "How to execute Crucifix from Turtle in BJJ. Attacking perspective 
 
 Executing the crucifix from turtle requires a methodical approach that prioritizes arm control sequencing over speed. The attacker must recognize the entry window when the opponent posts an arm or creates space between their elbow and knee, then systematically establish near-side arm control, insert a hook, swim for the far-side arm, and thread the leg over the shoulder to complete the crucifix configuration. Each phase builds on the previous one, and skipping steps leads to position loss. The key insight is that chest-to-back pressure must remain constant throughout the entire transition - any gap in pressure allows the opponent to sit to guard, roll, or stand. Advanced practitioners use this technique as the second prong of a back attack dilemma: threatening standard hooks forces arm exposure, and arm exposure feeds the crucifix entry.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -234,10 +234,10 @@ Executing the crucifix from turtle requires a methodical approach that prioritiz
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Crucifix]] | 55% |
-| Failure | [[Turtle]] | 25% |
-| Counter | [[Turtle]] | 10% |
-| Failure | [[Back Control]] | 10% |
+| Success | [[Positions/Crucifix]] | 55% |
+| Failure | [[Positions/Turtle]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
+| Failure | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -246,10 +246,10 @@ Executing the crucifix from turtle requires a methodical approach that prioritiz
 
 ## Opponent Counters
 
-- **Opponent sits back to guard before hooks are established** (Effectiveness: High) - Your Response: Follow them to seated position while maintaining initial arm control. Transition immediately to back control with seatbelt grip, or switch to front headlock if they turn to face you. Use the arm control to prevent them from establishing effective guard grips. → Leads to [[Turtle]]
-- **Opponent rolls forward into a somersault escape** (Effectiveness: Medium) - Your Response: Maintain arm control and follow the roll with your chest glued to their back. The somersault often stalls halfway when you maintain pressure, leaving them in a worse position. If they complete the roll, your arm control frequently converts directly into standard back control with hooks. → Leads to [[Turtle]]
-- **Opponent retracts trapped arm before leg thread completes** (Effectiveness: High) - Your Response: Immediately abandon the crucifix attempt and transition to traditional back control with both hooks, or switch to alternative attacks such as the bow and arrow choke setup or clock choke. Do not fight to re-establish crucifix grip on a retracted arm - the window has closed. → Leads to [[Back Control]]
-- **Opponent explodes to standing before control is established** (Effectiveness: Medium) - Your Response: Maintain connection to their back using initial grips and transition to standing back control. Use a body lock or harness to execute a mat return, dragging them back to the ground. Follow their upward movement rather than trying to anchor them down from a low position. → Leads to [[Turtle]]
+- **Opponent sits back to guard before hooks are established** (Effectiveness: High) - Your Response: Follow them to seated position while maintaining initial arm control. Transition immediately to back control with seatbelt grip, or switch to front headlock if they turn to face you. Use the arm control to prevent them from establishing effective guard grips. → Leads to [[Positions/Turtle]]
+- **Opponent rolls forward into a somersault escape** (Effectiveness: Medium) - Your Response: Maintain arm control and follow the roll with your chest glued to their back. The somersault often stalls halfway when you maintain pressure, leaving them in a worse position. If they complete the roll, your arm control frequently converts directly into standard back control with hooks. → Leads to [[Positions/Turtle]]
+- **Opponent retracts trapped arm before leg thread completes** (Effectiveness: High) - Your Response: Immediately abandon the crucifix attempt and transition to traditional back control with both hooks, or switch to alternative attacks such as the bow and arrow choke setup or clock choke. Do not fight to re-establish crucifix grip on a retracted arm - the window has closed. → Leads to [[Positions/Back Control]]
+- **Opponent explodes to standing before control is established** (Effectiveness: Medium) - Your Response: Maintain connection to their back using initial grips and transition to standing back control. Use a body lock or harness to execute a mat return, dragging them back to the ground. Follow their upward movement rather than trying to anchor them down from a low position. → Leads to [[Positions/Turtle]]
 
 
 </section>

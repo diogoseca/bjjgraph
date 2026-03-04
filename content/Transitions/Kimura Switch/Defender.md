@@ -158,7 +158,7 @@ The primary defensive strategy centers on disrupting the grip transition before 
 
 From a positional perspective, your best defensive outcomes are either forcing the attacker back to the Aoki Lock position where you can resume your original escape plan, or exploiting the transition chaos to recover turtle position and work standard turtle escapes. Understanding which defensive actions create which outcomes allows you to make intelligent choices based on your preferred escape pathway and the attacker's specific grip progression during the switch.
 
-**Opponent's Starting Position**: [[Aoki Lock]] (Top)
+**Opponent's Starting Position**: [[Positions/Aoki Lock]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ From a positional perspective, your best defensive outcomes are either forcing t
 ### 1. Straighten your trapped arm explosively as soon as you feel the attacker reaching for your far wrist, denying the figure-four grip configuration
 
 - **When to use**: Early in the switch sequence when the attacker's near-side hand first releases hip control to reach for your wrist, before any Kimura grips are established
-- **Targets**: [[Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock]]
 - **If successful**: Forces attacker to abandon the Kimura Switch and return to Aoki Lock leg entanglement, resetting you to your original defensive scenario where you can continue standard Aoki Lock escapes
 - **Risk**: If the arm extension is incomplete or slow, the attacker may capture your wrist anyway. The extended arm also temporarily increases Aoki Lock leverage if they re-engage legs quickly.
 
 ### 2. Explosively turn into the attacker during the leg release phase, using the brief control gap to recover turtle position with elbows tucked and chin down
 
 - **When to use**: During or immediately after the attacker releases their leg entanglement, when their primary control is transitioning from legs to grips and chest pressure is momentarily lighter
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You recover standard turtle position where you can work granby rolls, sit-outs, and stand-ups without facing an established Kimura grip system
 - **Risk**: If the attacker maintains heavy chest pressure during the turn, you may end up in a worse position with Kimura grips still intact plus lost defensive structure.
 
 ### 3. Use your free hand to strip the attacker's initial C-grip on your wrist by peeling their fingers and pulling your wrist toward your centerline while keeping your elbow tight
 
 - **When to use**: Immediately after you feel the attacker's hand close around your far wrist but before they thread the second arm for the figure-four configuration
-- **Targets**: [[Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock]]
 - **If successful**: Prevents the Kimura grip from forming entirely, forcing the attacker to either re-attempt the wrist capture or abandon the switch and return to Aoki Lock control
 - **Risk**: Using your free hand for grip fighting temporarily removes your ability to frame or post, which the attacker can exploit to flatten you or advance position.
 
 ### 4. Bridge explosively toward the attacker while pulling your trapped arm tight to your body, creating space to extract your arm from between the attacker's loosening legs
 
 - **When to use**: When you feel the attacker's legs opening to release the entanglement, indicating they believe their Kimura grips are secure enough to transition
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You extract your arm from the collapsing leg control and recover to turtle before the Kimura grip system can be consolidated with proper base and hip positioning
 - **Risk**: If the attacker's Kimura grips are already secure, the bridge may accelerate the transition into their Kimura Trap control rather than creating an escape.
 
@@ -228,11 +228,11 @@ From a positional perspective, your best defensive outcomes are either forcing t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Aoki Lock]]
+### → [[Positions/Aoki Lock]]
 
 Force the attacker back to Aoki Lock by straightening your arm when they reach for Kimura grips, or strip their initial wrist capture with your free hand. The key is preventing the figure-four configuration from being established, which leaves the attacker with only their original leg entanglement. This returns you to the Aoki Lock scenario where you can resume rolling escapes, base attacks, and arm extraction techniques.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Exploit the transition window during leg release to turn into the attacker and recover turtle position. Time your explosive turning motion for the moment you feel leg entanglement loosening, using the brief control gap to tuck elbows, drop chin, and establish a defensive turtle shell. From turtle, you have access to granby rolls, sit-outs, technical stand-ups, and other standard escape sequences without facing an established Kimura grip.
 

@@ -156,7 +156,7 @@ description: "How to defend against Cross Collar Choke in BJJ. Recognition, esca
 
 Defending the Cross Collar Choke requires understanding the attack's progression from initial collar grip to finishing squeeze and knowing exactly where to intervene at each stage. The defense operates on a strict timeline—the earlier you address the threat, the less energy and risk involved. Once both grips are established at depth with the scissoring action initiated, defensive options become extremely limited and the choke becomes nearly inescapable. Effective defense therefore prioritizes early recognition and grip prevention over late-stage escape attempts. The defender must balance active grip fighting to deny collar access with maintaining positional integrity, since overcommitting to grip stripping can create openings for other attacks like armbars and triangles. Understanding the attacker's setup sequence allows you to disrupt at the highest-percentage intervention points: preventing the first deep grip, defending posture breaks, and blocking the second grip entry.
 
-**Opponent's Starting Position**: [[Closed Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Closed Guard]] (Bottom)
 
 
 </section>
@@ -196,28 +196,28 @@ Defending the Cross Collar Choke requires understanding the attack's progression
 ### 1. Two-on-one grip strip on the first collar grip before depth is achieved
 
 - **When to use**: As soon as you recognize the opponent's hand entering your collar—this is the highest-percentage defense because it prevents the entire attack sequence
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Resets the attack entirely and forces opponent to re-establish their first grip, buying significant time and maintaining your posture
 - **Risk**: Low risk if executed with elbows tight; moderate risk if you extend arms to strip, exposing them to armbar
 
 ### 2. Posture up aggressively and create distance by driving hips back and extending arms on opponent's hips
 
 - **When to use**: When opponent has established the first grip but has not yet broken your posture—maintaining upright posture prevents them from threading the second grip effectively
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Creates distance that makes the second grip entry extremely difficult and may open guard to begin passing
 - **Risk**: Moderate—if opponent maintains grip during posture up, they can use the momentum to pull you into sweeps or adjust angle for continued attack
 
 ### 3. Frame on biceps with forearms to block the second hand from entering the collar
 
 - **When to use**: When opponent has the first grip at depth and is attempting to thread the second hand—this blocks the most critical step in the choke sequence
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Prevents the cross configuration from being established, forcing opponent to either attempt a single-grip variation or abandon the choke for a different attack
 - **Risk**: Moderate—extended bicep frames can be swum under by skilled attackers, and the framing arm can be isolated for armbar if opponent switches attacks
 
 ### 4. Tuck chin firmly to sternum and turn head to the side while hands fight inside the choke
 
 - **When to use**: Last resort when both grips are established but the finish hasn't begun—buys time but does not solve the problem alone
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Temporarily blocks full choke application and may allow time to work grip breaks or positional escape
 - **Risk**: High—skilled attackers can work around the chin tuck with angle adjustments, and this defense is purely temporary without following up with grip strips or positional escape
 
@@ -240,11 +240,11 @@ Defending the Cross Collar Choke requires understanding the attack's progression
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Strip the first or second collar grip using two-on-one breaks before the choke is locked at depth, then re-establish posture and resume guard passing sequence
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Posture up aggressively and stand while controlling opponent's hips to break guard open, creating distance that makes collar choke re-entry difficult while transitioning to passing
 

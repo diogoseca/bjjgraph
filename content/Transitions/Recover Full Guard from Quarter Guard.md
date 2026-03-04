@@ -21,7 +21,7 @@ The recovery works by creating momentary space through framing and hip movement,
 
 Strategically, this recovery represents the last viable opportunity to retain guard before conceding side control. It integrates with the broader quarter guard bottom game where the bottom player must decide between offensive options like sweeps and back takes versus defensive recovery to more sustainable guard positions. The technique is most effective when combined with the threat of sweeps, as the top player's reaction to sweep attempts often creates the space needed for guard recovery. Understanding when to abandon offensive quarter guard attacks in favor of guard recovery is a key decision-making skill that separates competent guard players from those who get passed repeatedly.
 
-**From Position**: [[Quarter Guard]] (Bottom)
+**From Position**: [[Positions/Quarter Guard]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this recovery represents the last viable opportunity to retain gu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Quarter Guard]] | 30% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Quarter Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -191,27 +191,27 @@ Recover Full Guard from Quarter Guard occupies a critical position in BJJ's guar
 ## Related Techniques
 
 
-- [[Quarter Guard]] - Starting position from which guard recovery is attempted
+- [[Positions/Quarter Guard]] - Starting position from which guard recovery is attempted
 
-- [[Half Guard]] - Primary recovery target position providing functional guard with offensive options
+- [[Positions/Half Guard]] - Primary recovery target position providing functional guard with offensive options
 
-- [[Side Control]] - Position opponent achieves if guard recovery fails and pass is completed
+- [[Positions/Side Control]] - Position opponent achieves if guard recovery fails and pass is completed
 
-- [[Knee Shield Half Guard]] - Alternative recovery target using knee shield frame for distance management
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Alternative recovery target using knee shield frame for distance management
 
-- [[Knee Shield from Quarter Guard]] - Related recovery technique targeting knee shield configuration instead of standard half guard
+- [[Transitions/Knee Shield from Quarter Guard]] - Related recovery technique targeting knee shield configuration instead of standard half guard
 
-- [[Complete Pass from Quarter]] - Opposing technique the top player uses to advance past quarter guard to side control
+- [[Transitions/Complete Pass from Quarter]] - Opposing technique the top player uses to advance past quarter guard to side control
 
-- [[Knee Through from Quarter]] - Top player passing technique that guard recovery must defend against
+- [[Transitions/Knee Through from Quarter]] - Top player passing technique that guard recovery must defend against
 
-- [[Deep Half Guard]] - Alternative guard recovery option when opponent drives weight forward during pass attempt
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative guard recovery option when opponent drives weight forward during pass attempt
 
-- [[Flattened Half Guard]] - Compromised position that may result from incomplete guard recovery
+- [[Positions/Half Guard/Flattened Half Guard]] - Compromised position that may result from incomplete guard recovery
 
-- [[Old School Sweep]] - Offensive quarter guard technique whose threat creates space for guard recovery
+- [[Transitions/Old School Sweep]] - Offensive quarter guard technique whose threat creates space for guard recovery
 
-- [[Elbow Escape from Flattened Half]] - Related escape technique using similar hip escape mechanics from compromised bottom position
+- [[Transitions/Elbow Escape from Flattened Half]] - Related escape technique using similar hip escape mechanics from compromised bottom position
 
 
 </section>

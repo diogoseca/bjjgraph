@@ -186,7 +186,7 @@ description: "How to execute the Omoplata to Back transition in BJJ. Step-by-ste
 
 The Omoplata to Back transition converts your opponent's forward roll escape into dominant back control. When you have the omoplata locked and your opponent commits to rolling over their trapped shoulder, you follow their momentum while maintaining your leg across their shoulder girdle, then immediately establish hooks and seatbelt as they complete the rotation. The technique requires reading the roll initiation early, maintaining unbroken hip-to-shoulder connection throughout the entire rotation, and threading your first hook the moment their hips become accessible. Speed of seatbelt establishment after the roll determines whether you consolidate back control or lose the position as they turn to face you. This is one of the highest-percentage back takes available from guard because the opponent's own escape momentum carries them directly into your control.
 
-**From Position**: [[Omoplata Control]] (Top)
+**From Position**: [[Positions/Omoplata Control]] (Top)
 
 </section>
 
@@ -241,9 +241,9 @@ The Omoplata to Back transition converts your opponent's forward roll escape int
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 60% |
-| Failure | [[Omoplata Control]] | 25% |
-| Counter | [[Omoplata Control]] | 15% |
+| Success | [[Positions/Back Control]] | 60% |
+| Failure | [[Positions/Omoplata Control]] | 25% |
+| Counter | [[Positions/Omoplata Control]] | 15% |
 
 
 </section>
@@ -252,10 +252,10 @@ The Omoplata to Back transition converts your opponent's forward roll escape int
 
 ## Opponent Counters
 
-- **Opponent rolls explosively to create separation and break the shoulder connection mid-roll** (Effectiveness: Medium) - Your Response: Pre-emptively tighten shoulder connection when you feel them loading weight forward. If separation occurs, immediately pursue to turtle top for front headlock, darce, or anaconda attacks rather than chasing the lost back take. → Leads to [[Omoplata Control]]
-- **Opponent turns into you immediately after completing the roll to prevent back exposure** (Effectiveness: High) - Your Response: Use the seatbelt grip to redirect them back to their side or stomach before they complete the turn. If they successfully face you, transition to closed guard with an overhook on their arm or attack the triangle from the resulting position. → Leads to [[Omoplata Control]]
-- **Opponent refuses to roll and postures up aggressively to escape the omoplata** (Effectiveness: Low) - Your Response: This counter does not apply to the back take itself since it prevents the transition from starting. Maintain the omoplata and finish the shoulder lock, sweep to mount, or transition to triangle or armbar from the maintained position. → Leads to [[Omoplata Control]]
-- **Opponent grabs your legs during the roll to prevent hook insertion while completing the escape** (Effectiveness: Medium) - Your Response: Prioritize seatbelt control over hooks. With upper body control secured, use off-balancing and hip pressure to free your legs one at a time. If hooks remain blocked, transition to body triangle by threading one leg across their torso and locking behind your own knee. → Leads to [[Back Control]]
+- **Opponent rolls explosively to create separation and break the shoulder connection mid-roll** (Effectiveness: Medium) - Your Response: Pre-emptively tighten shoulder connection when you feel them loading weight forward. If separation occurs, immediately pursue to turtle top for front headlock, darce, or anaconda attacks rather than chasing the lost back take. → Leads to [[Positions/Omoplata Control]]
+- **Opponent turns into you immediately after completing the roll to prevent back exposure** (Effectiveness: High) - Your Response: Use the seatbelt grip to redirect them back to their side or stomach before they complete the turn. If they successfully face you, transition to closed guard with an overhook on their arm or attack the triangle from the resulting position. → Leads to [[Positions/Omoplata Control]]
+- **Opponent refuses to roll and postures up aggressively to escape the omoplata** (Effectiveness: Low) - Your Response: This counter does not apply to the back take itself since it prevents the transition from starting. Maintain the omoplata and finish the shoulder lock, sweep to mount, or transition to triangle or armbar from the maintained position. → Leads to [[Positions/Omoplata Control]]
+- **Opponent grabs your legs during the roll to prevent hook insertion while completing the escape** (Effectiveness: Medium) - Your Response: Prioritize seatbelt control over hooks. With upper body control secured, use off-balancing and hip pressure to free your legs one at a time. If hooks remain blocked, transition to body triangle by threading one leg across their torso and locking behind your own knee. → Leads to [[Positions/Back Control]]
 
 
 </section>

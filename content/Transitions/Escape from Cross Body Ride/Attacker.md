@@ -180,7 +180,7 @@ description: "Learn to execute the Escape from Cross Body Ride in BJJ. Step-by-s
 
 Executing the Escape from Cross Body Ride requires precise timing, decisive hip movement, and an understanding of how perpendicular pressure creates exploitable structural weaknesses. As the bottom player, your objective is to displace the rider's weight through coordinated frame-and-hip-escape sequences, then capitalize on the resulting instability to complete a reversal to side control top. The escape demands reading weight distribution patterns and committing fully to the chosen escape direction rather than making half-hearted attempts that waste energy and telegraph your intentions to the rider. Every moment spent passively under cross body pressure allows the rider to advance toward back control, so urgency balanced with technical precision is the hallmark of successful execution.
 
-**From Position**: [[Cross Body Ride]] (Bottom)
+**From Position**: [[Positions/Cross Body Ride]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the Escape from Cross Body Ride requires precise timing, decisive hip 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 40% |
-| Failure | [[Cross Body Ride]] | 35% |
-| Counter | [[Back Control]] | 25% |
+| Success | [[Positions/Side Control]] | 40% |
+| Failure | [[Positions/Cross Body Ride]] | 35% |
+| Counter | [[Positions/Back Control]] | 25% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the Escape from Cross Body Ride requires precise timing, decisive hip 
 
 ## Opponent Counters
 
-- **Rider drops weight and re-establishes heavy chest pressure to kill hip escape space** (Effectiveness: High) - Your Response: If the rider drops weight before you complete the hip switch, redirect to a sit-through escape in the opposite direction, using their committed downward weight against them → Leads to [[Cross Body Ride]]
-- **Rider transitions to back control by inserting hooks during the escape attempt** (Effectiveness: High) - Your Response: Immediately abort the reversal and switch to back escape protocol, fighting the hooks before they are fully established while protecting your neck with chin tuck and hand control → Leads to [[Back Control]]
-- **Rider sprawls hips back and circles to maintain perpendicular angle** (Effectiveness: Medium) - Your Response: Follow their movement with a second hip switch in the same direction, using the momentum of their sprawl to create additional space for the underhook entry before they resettle → Leads to [[Cross Body Ride]]
-- **Rider attacks neck with choke during the escape transition when arms are occupied** (Effectiveness: Medium) - Your Response: Tuck chin immediately and use two-on-one grip to strip the choking hand before resuming the escape sequence from a protected defensive posture → Leads to [[Cross Body Ride]]
+- **Rider drops weight and re-establishes heavy chest pressure to kill hip escape space** (Effectiveness: High) - Your Response: If the rider drops weight before you complete the hip switch, redirect to a sit-through escape in the opposite direction, using their committed downward weight against them → Leads to [[Positions/Cross Body Ride]]
+- **Rider transitions to back control by inserting hooks during the escape attempt** (Effectiveness: High) - Your Response: Immediately abort the reversal and switch to back escape protocol, fighting the hooks before they are fully established while protecting your neck with chin tuck and hand control → Leads to [[Positions/Back Control]]
+- **Rider sprawls hips back and circles to maintain perpendicular angle** (Effectiveness: Medium) - Your Response: Follow their movement with a second hip switch in the same direction, using the momentum of their sprawl to create additional space for the underhook entry before they resettle → Leads to [[Positions/Cross Body Ride]]
+- **Rider attacks neck with choke during the escape transition when arms are occupied** (Effectiveness: Medium) - Your Response: Tuck chin immediately and use two-on-one grip to strip the choking hand before resuming the escape sequence from a protected defensive posture → Leads to [[Positions/Cross Body Ride]]
 
 
 </section>

@@ -21,7 +21,7 @@ The strategic value of this setup lies in its ability to solve two problems simu
 
 This technique creates a powerful tactical dilemma for the defender. If they focus on stripping the collar grip, they compromise their base and accelerate the takedown. If they widen their stance to resist being taken down, their collar becomes more accessible and the attacker can deepen the grip. This dual-threat structure is what gives the technique its reliability across all competition levels, particularly in gi-based formats where collar access is the primary limiting factor for bow and arrow choke success.
 
-**From Position**: [[Standing Back Control]] (Top)
+**From Position**: [[Positions/Back Control/Standing Back Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This technique creates a powerful tactical dilemma for the defender. If they foc
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Failure | [[Standing Back Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Back Control]] | 55% |
+| Failure | [[Positions/Back Control/Standing Back Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Bow and Arrow Setup from Standing Back Control occupies a critical juncture 
 ## Related Techniques
 
 
-- [[Standing Back Control]] - Source position where this transition begins, providing the platform for collar grip establishment
+- [[Positions/Back Control/Standing Back Control]] - Source position where this transition begins, providing the platform for collar grip establishment
 
-- [[Back Control]] - Primary target position on successful execution, where the bow and arrow finish is completed
+- [[Positions/Back Control]] - Primary target position on successful execution, where the bow and arrow finish is completed
 
-- [[Half Guard]] - Counter outcome position when opponent successfully escapes during the transition to ground
+- [[Positions/Half Guard]] - Counter outcome position when opponent successfully escapes during the transition to ground
 
-- [[Bow and Arrow from Seat Belt]] - The finishing submission this setup directly feeds into from grounded back control
+- [[Submissions/Bow and Arrow from Seat Belt]] - The finishing submission this setup directly feeds into from grounded back control
 
-- [[Bow and Arrow Choke]] - The choking technique this transition specifically configures the attacker to execute
+- [[Transitions/Bow and Arrow Choke]] - The choking technique this transition specifically configures the attacker to execute
 
-- [[Seat Belt Control Back]] - Grip configuration used as the starting control before transitioning to collar grip
+- [[Positions/Back Control/Seat Belt Control Back]] - Grip configuration used as the starting control before transitioning to collar grip
 
-- [[RNC from Seat Belt]] - Alternative submission from the same starting position when collar is unavailable
+- [[Submissions/RNC from Seat Belt]] - Alternative submission from the same starting position when collar is unavailable
 
-- [[Body Triangle]] - Advanced leg control option that can be combined with bow and arrow setup for enhanced control
+- [[Positions/Back Control/Body Triangle]] - Advanced leg control option that can be combined with bow and arrow setup for enhanced control
 
-- [[Turtle]] - Defensive position opponent may reach if they successfully defend during the ground transition
+- [[Positions/Turtle]] - Defensive position opponent may reach if they successfully defend during the ground transition
 
-- [[Back Control to Seat Belt Control Back]] - Related transition for establishing seat belt grip configuration from back control
+- [[Transitions/Back Control to Seat Belt Control Back]] - Related transition for establishing seat belt grip configuration from back control
 
 
 </section>

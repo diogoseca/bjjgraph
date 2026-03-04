@@ -158,7 +158,7 @@ The most dangerous aspect of this sweep is the back exposure that follows the sw
 
 Successful defense depends heavily on timing - early intervention through grip stripping and base maintenance is far more effective than late-stage scrambling after the sweep momentum has begun. Develop the habit of addressing the lapel wrap as your first priority whenever you recognize Ringworm Guard configuration, rather than attempting to pass through the entanglement.
 
-**Opponent's Starting Position**: [[Ringworm Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ringworm Guard]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Successful defense depends heavily on timing - early intervention through grip s
 ### 1. Strip the lapel grip using both hands in a systematic grip-breaking sequence before the sweep is initiated
 
 - **When to use**: Early defense - as soon as you recognize the Ringworm configuration and before the bottom player establishes secondary grips or creates angular loading
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: Bottom player loses primary mechanical advantage and must re-thread the lapel or transition to an alternative guard, giving you initiative to pass
 - **Risk**: Committing both hands to grip breaking temporarily exposes your upper body to collar drags and secondary attacks
 
 ### 2. Drop your base low and drive weight backward away from the wrapped leg, denying the elevated center of gravity the sweep requires
 
 - **When to use**: When the bottom player begins creating angle and loading the sweep but has not yet committed to the explosive hip drive
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: Sweep attempt fails due to insufficient leverage against your low, heavy base, forcing bottom player to reset or attempt alternative attacks
 - **Risk**: Remaining in low base position for extended periods allows the bottom player to work secondary setups like triangle entries or omoplata
 
 ### 3. Post your free hand wide and sprawl your hips back during the sweep motion to arrest the rotational momentum
 
 - **When to use**: Emergency defense when the sweep has already been initiated and you feel yourself being off-balanced laterally
-- **Targets**: [[Ringworm Guard]]
+- **Targets**: [[Positions/Ringworm Guard]]
 - **If successful**: Sweep momentum is arrested and you can work to recover base and address the lapel grip from a stabilized position
 - **Risk**: Extended posting arm may be vulnerable to triangle setup if the bottom player recognizes the defensive post and chains attacks
 
 ### 4. If swept, immediately spin toward the bottom player and face them rather than allowing back exposure during the fall
 
 - **When to use**: When the sweep cannot be prevented and you are already falling - focus shifts from sweep prevention to back defense
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You concede the sweep but land facing the opponent, preventing back control and ending in half guard or scramble position instead
 - **Risk**: Spinning incorrectly may accelerate the back take if the bottom player follows your rotation with hook insertion
 
@@ -229,11 +229,11 @@ Successful defense depends heavily on timing - early intervention through grip s
 
 ## Best-Case Outcomes for Defender
 
-### → [[Ringworm Guard]]
+### → [[Positions/Ringworm Guard]]
 
 Strip the lapel grip early using both hands before the bottom player establishes secondary grips. Address the wrap systematically by peeling the lapel from around your leg while controlling their grip-fighting hand. Once the lapel is free, immediately establish passing grips before they can re-thread.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 If the sweep cannot be prevented, spin toward the sweeping player during the fall to face them and prevent back exposure. Post your hands and establish frames as you land, then immediately work to recover guard or establish half guard position. Conceding the sweep to half guard is far preferable to giving up back control.
 

@@ -21,7 +21,7 @@ The mechanics involve retracting the posted leg back to a traditional mount conf
 
 This transition reflects a fundamental principle of sophisticated mount offense: the willingness to cycle between mount variations based on offensive opportunity rather than stubbornly pursuing a single attack pathway. Returning to mount preserves dominant position while allowing the top player to reassess defensive patterns, establish fresh grips, and launch new attacks from a stable platform. Competition-level practitioners frequently cycle between mount, technical mount, high mount, and S mount multiple times per exchange, treating each variation as a phase in a continuous pressure campaign rather than a terminal endpoint.
 
-**From Position**: [[Technical Mount]] (Top)
+**From Position**: [[Positions/Mount/Technical Mount]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This transition reflects a fundamental principle of sophisticated mount offense:
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Technical Mount]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Mount/Technical Mount]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ Technical Mount to Mount sits at the core of the mount variation cycling system 
 ## Related Techniques
 
 
-- [[Technical Mount]] - Source position from which this consolidation transition begins
+- [[Positions/Mount/Technical Mount]] - Source position from which this consolidation transition begins
 
-- [[Mount]] - Target position achieved on successful consolidation
+- [[Positions/Mount]] - Target position achieved on successful consolidation
 
-- [[Half Guard]] - Position the defender may recover if they successfully counter during the transition
+- [[Positions/Half Guard]] - Position the defender may recover if they successfully counter during the transition
 
-- [[Mount to Technical Mount]] - Reverse transition completing the mount variation cycling loop
+- [[Transitions/Mount to Technical Mount]] - Reverse transition completing the mount variation cycling loop
 
-- [[Back Turn from Technical Mount]] - Alternative transition from technical mount when opponent turns away
+- [[Transitions/Back Turn from Technical Mount]] - Alternative transition from technical mount when opponent turns away
 
-- [[Armbar from Technical Mount]] - Primary submission that typically precedes the decision to consolidate
+- [[Submissions/Armbar from Technical Mount]] - Primary submission that typically precedes the decision to consolidate
 
-- [[S Mount]] - Related asymmetric mount variation within the mount cycling system
+- [[Positions/Mount/S Mount]] - Related asymmetric mount variation within the mount cycling system
 
-- [[High Mount]] - Alternative mount advancement option instead of consolidating to standard mount
+- [[Positions/Mount/High Mount]] - Alternative mount advancement option instead of consolidating to standard mount
 
-- [[3-4 Mount to Technical Mount]] - Related mount variation transition within the mount progression pathway
+- [[Transitions/3-4 Mount to Technical Mount]] - Related mount variation transition within the mount progression pathway
 
-- [[Elbow Escape from Mount]] - Common defensive response the bottom player attempts after successful consolidation
+- [[Transitions/Elbow Escape from Mount]] - Common defensive response the bottom player attempts after successful consolidation
 
 
 </section>

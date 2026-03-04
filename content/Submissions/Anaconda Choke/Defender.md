@@ -160,7 +160,7 @@ The defender must address the choking pressure as the first priority, not positi
 
 The Anaconda's bilateral compression mechanism means that both your opponent's arm and your own trapped shoulder are working against you. This makes the trapped arm the key defensive battleground - extracting or straightening that arm removes half the choking pressure and often forces your opponent to abandon the Anaconda entirely or transition to a different attack. Skilled defenders learn to use the arm extraction as an offensive counter, since a straightened arm opens guard recovery and scramble opportunities.
 
-**Opponent's Starting Position**: [[Anaconda Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Anaconda Control]] (Top)
 
 
 </section>
@@ -200,28 +200,28 @@ The Anaconda's bilateral compression mechanism means that both your opponent's a
 ### 1. Straighten trapped arm and pull it free from the choking loop before figure-four completion
 
 - **When to use**: During the early setup phase when opponent is still threading their arm and has not yet locked the grip - this is the highest percentage window
-- **Targets**: [[Anaconda Control]]
+- **Targets**: [[Positions/Anaconda Control]]
 - **If successful**: Removes bilateral compression, forcing opponent to either abandon the choke or transition to Darce. You recover to turtle or front headlock defense
 - **Risk**: If opponent reads the arm extraction, they may immediately switch to Darce choke which attacks from the opposite angle
 
 ### 2. Hand fight the choking wrist with your free hand and create space at the neck before grip locks
 
 - **When to use**: When opponent has begun threading but has not yet completed the figure-four grip - use your free hand to grab their choking wrist and pull it away from your neck
-- **Targets**: [[Anaconda Control]]
+- **Targets**: [[Positions/Anaconda Control]]
 - **If successful**: Prevents the figure-four from closing, allowing you to circle away and recover to turtle or standing position
 - **Risk**: Dedicating your free hand to grip fighting leaves your body less defended against positional changes like back take
 
 ### 3. Circle away from the choking arm side and recover guard or stand up
 
 - **When to use**: When the grip is partially established but not fully locked - circling creates the angle that makes finishing impossible and opens escape paths
-- **Targets**: [[Front Headlock]]
+- **Targets**: [[Positions/Front Headlock]]
 - **If successful**: You escape the Anaconda configuration entirely and recover to half guard, closed guard, or standing position
 - **Risk**: Circling the wrong direction (toward the choke) tightens the submission instead of loosening it
 
 ### 4. Post on opponent's hip to prevent the roll and deny the finishing position
 
 - **When to use**: When opponent has the figure-four locked and is beginning to initiate the roll to their side - posting blocks the rotation that creates finishing pressure
-- **Targets**: [[Anaconda Control]]
+- **Targets**: [[Positions/Anaconda Control]]
 - **If successful**: Opponent cannot complete the roll and must either hold the position from top (where finishing is much harder) or release and reset
 - **Risk**: Requires precise timing - if the roll has already begun, posting may be too late and you waste energy fighting momentum
 
@@ -244,11 +244,11 @@ The Anaconda's bilateral compression mechanism means that both your opponent's a
 
 ## Best-Case Outcomes for Defender
 
-### → [[Anaconda Control]]
+### → [[Positions/Anaconda Control]]
 
 Prevent the figure-four from locking by hand fighting the choking wrist early, straightening your trapped arm to remove bilateral pressure, and circling away before opponent can complete the roll
 
-### → [[Front Headlock]]
+### → [[Positions/Front Headlock]]
 
 Successfully extract your trapped arm and circle away from the choke, reducing the position to standard front headlock defense where you have more escape options available
 

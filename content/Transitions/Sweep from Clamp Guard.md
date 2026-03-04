@@ -21,7 +21,7 @@ Strategically, the sweep serves multiple purposes within the clamp guard system.
 
 The execution requires precise timing. The sweep is highest percentage when the opponent shifts weight forward or commits their free arm to an action other than basing. Premature sweep attempts against a well-based opponent waste energy and may compromise the clamp position. Patient guard players who threaten submissions to draw defensive reactions before sweeping achieve significantly higher success rates than those who attempt the sweep in isolation.
 
-**From Position**: [[Clamp Guard]] (Bottom)
+**From Position**: [[Positions/Clamp Guard]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ The execution requires precise timing. The sweep is highest percentage when the 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 45% |
-| Failure | [[Clamp Guard]] | 35% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Mount]] | 45% |
+| Failure | [[Positions/Clamp Guard]] | 35% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -189,21 +189,21 @@ The Sweep from Clamp Guard occupies a critical role within the clamp guard attac
 ## Related Techniques
 
 
-- [[Clamp Guard]] - Source position providing the arm isolation foundation that enables this sweep
+- [[Positions/Clamp Guard]] - Source position providing the arm isolation foundation that enables this sweep
 
-- [[Mount]] - Primary target position achieved on successful sweep completion
+- [[Positions/Mount]] - Primary target position achieved on successful sweep completion
 
-- [[Side Control]] - Position opponent may achieve if they counter the sweep and pass guard
+- [[Positions/Side Control]] - Position opponent may achieve if they counter the sweep and pass guard
 
-- [[Armbar from Clamp Guard]] - Complementary attack that creates sweep openings when opponent defends submissions
+- [[Transitions/Armbar from Clamp Guard]] - Complementary attack that creates sweep openings when opponent defends submissions
 
-- [[Arm Extraction from Clamp Guard]] - Opponent's primary defensive transition that the sweep can punish
+- [[Transitions/Arm Extraction from Clamp Guard]] - Opponent's primary defensive transition that the sweep can punish
 
-- [[Stack Pass from Clamp Guard]] - Passing threat that the sweep directly counters by exploiting forward weight commitment
+- [[Transitions/Stack Pass from Clamp Guard]] - Passing threat that the sweep directly counters by exploiting forward weight commitment
 
-- [[Open Guard]] - Parent guard family from which clamp guard and its sweeps derive
+- [[Positions/Open Guard]] - Parent guard family from which clamp guard and its sweeps derive
 
-- [[Closed Guard]] - Fallback guard if clamp is lost during sweep attempt without completing the roll
+- [[Positions/Closed Guard]] - Fallback guard if clamp is lost during sweep attempt without completing the roll
 
 
 </section>

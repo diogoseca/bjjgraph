@@ -154,7 +154,7 @@ description: "Defend against the Crucifix to Mount transition in BJJ. Recognitio
 
 Defending the Crucifix to Mount transition requires recognizing the brief window of opportunity that opens when the attacker releases their leg trap on your arm. This moment represents the single best defensive opportunity in the entire crucifix sequence, as the bilateral arm isolation that makes crucifix so devastating is momentarily broken. The defender must immediately capitalize on the freed arm to create frames, initiate hip escapes, or time explosive bridges that disrupt the attacker's weight transfer. Understanding the attacker's movement sequence allows the defender to predict and exploit the exact moments of vulnerability during the transition, transforming what would be a position-to-position advancement into a reversal opportunity.
 
-**Opponent's Starting Position**: [[Crucifix]] (Top)
+**Opponent's Starting Position**: [[Positions/Crucifix]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Crucifix to Mount transition requires recognizing the brief window
 ### 1. Explosive bridge timed to the leg swing when attacker's base is most compromised
 
 - **When to use**: As the attacker releases the leg trap and begins swinging their leg over your body, creating the maximum instability in their base
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Disrupts the attacker's weight transfer and can result in a sweep to half guard top or create enough space for full guard recovery
 - **Risk**: If mistimed early, the attacker abandons the transition and tightens crucifix. If mistimed late, the attacker settles into mount with forward momentum.
 
 ### 2. Immediate frame creation with the freed arm against attacker's hip or shoulder
 
 - **When to use**: The instant the leg trap opens and the near arm becomes mobile, before the attacker can complete the leg swing
-- **Targets**: [[Crucifix]]
+- **Targets**: [[Positions/Crucifix]]
 - **If successful**: Blocks mount entry by creating a structural barrier, forcing the attacker back to crucifix position or into a scramble where both arms are now available for defense
 - **Risk**: Attacker may swim through the frame using shoulder pressure, or control the framing arm through kimura grip, worsening the position
 
 ### 3. Hip escape and knee insertion as attacker repositions for mount entry
 
 - **When to use**: During the weight shift as the attacker moves their hips from perpendicular toward center over your torso
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Establishes half guard with knee shield, dramatically improving defensive position compared to both crucifix and mount
 - **Risk**: Incomplete knee insertion allows the attacker to smash through to mount. Hip escape may open back exposure if attacker redirects to back control.
 
 ### 4. Underhook and sit-up using the freed arm to drive into the attacker during transition
 
 - **When to use**: As the attacker shifts weight forward through the crossface and before the leg completes the swing over
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Achieves reversal to top position by driving through the attacker's compromised base during the transition
 - **Risk**: Requires significant timing and energy. Failure leaves you flat with the attacker accelerating into mount with momentum.
 
@@ -225,11 +225,11 @@ Defending the Crucifix to Mount transition requires recognizing the brief window
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive bridge or hip escape during the attacker's leg swing when their base is most compromised, then immediately insert a knee to establish half guard. The reversal to half guard top provides a dramatically improved position with full guard recovery or sweep opportunities available.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 While being mounted is still disadvantageous, it represents a significant defensive improvement over crucifix because both arms are now free. Accept the mount establishment if crucifix escape has failed, then immediately begin systematic mount escape sequences using the full defensive capability of both arms for frames, bridges, and hip escapes.
 

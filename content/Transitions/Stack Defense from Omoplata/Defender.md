@@ -146,7 +146,7 @@ description: "Learn to counter the stack defense from omoplata. Recognition cues
 
 The defender in this scenario is the practitioner whose shoulder is trapped in the omoplata, attempting to use a stacking approach to escape. When the omoplata player begins defending the stack through hip angle adjustments and grip control, you must adapt your escape strategy based on the specific defensive reactions you encounter. Understanding the mechanics of the stack defense allows you to identify windows of opportunity where the omoplata player's adjustments create momentary vulnerabilities—particularly during the hip escape movement when their leg control may briefly loosen, or when they commit to the sweep redirection and expose space for arm extraction. The defender's primary advantage is forward momentum and gravitational weight, but these must be applied strategically rather than blindly to avoid being swept by the very force you generate.
 
-**Opponent's Starting Position**: [[Omoplata Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Omoplata Control]] (Bottom)
 
 </section>
 
@@ -183,28 +183,28 @@ The defender in this scenario is the practitioner whose shoulder is trapped in t
 ### 1. Widen base with free hand posting wide on the mat while driving hips forward with maximum pressure
 
 - **When to use**: When you feel the opponent angling away and beginning to redirect your forward momentum laterally toward a sweep
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Opponent cannot execute the counter-sweep and may lose omoplata control under sustained and well-based stacking pressure
 - **Risk**: Extended posting arm may be vulnerable to grip attacks or wrist control by the omoplata player
 
 ### 2. Abandon the stack and transition to forward roll or cartwheel escape
 
 - **When to use**: When the stack defense is fully established with the opponent having strong lateral angle and secure belt grip control
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: Reset the positional dynamic and attempt a different escape avenue that may have better success odds
 - **Risk**: If the transition is poorly timed, the omoplata player may follow the roll to establish back control
 
 ### 3. Strip the opponent's belt grip with your free hand before committing fully to the forward stack
 
 - **When to use**: Early in the stacking sequence before the opponent establishes their full defensive framework and grip control
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Remove the opponent's primary control mechanism for redirecting your momentum, making the direct stack viable again
 - **Risk**: Using your free hand to strip the grip temporarily removes your base support on that side
 
 ### 4. Drive through explosively before the opponent completes their lateral angle adjustment
 
 - **When to use**: In the first one to two seconds of the stack when you have momentum advantage and the opponent has not yet adjusted their hip angle
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Overwhelm the defense before it is established and escape the omoplata through superior pressure and timing
 - **Risk**: If the opponent reads the explosive drive, the added momentum amplifies the effectiveness of their counter-sweep
 
@@ -216,7 +216,7 @@ The defender in this scenario is the practitioner whose shoulder is trapped in t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Commit to the stack with proper base width and grip management, overwhelming the opponent's defensive angle adjustments before they can establish the counter-sweep framework. Keep your head positioned directly over your base while driving your hips forward and upward to relieve shoulder pressure. Attack their belt grip early to remove their steering control over your momentum.
 

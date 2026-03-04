@@ -152,7 +152,7 @@ The critical recognition is that this counter-entry only becomes possible when y
 
 When you do recognize the counter-entry beginning, you face a tactical decision tree. You can race to finish the ankle lock before 50-50 is established, withdraw your far leg to deny the entry target, or redirect the exchange into inside ashi-garami by exploiting your opponent's hip rotation toward you. Each option carries different risk profiles, and choosing correctly depends on reading the timing and commitment level of the counter-entry attempt.
 
-**Opponent's Starting Position**: [[Straight Ankle Lock Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 </section>
 
@@ -190,21 +190,21 @@ When you do recognize the counter-entry beginning, you face a tactical decision 
 ### 1. Finish the ankle lock before entry completes
 
 - **When to use**: When you have strong finishing grips and opponent has only begun the early stages of counter-entry (hip rotation started but leg not yet threaded)
-- **Targets**: [[Straight Ankle Lock Control]]
+- **Targets**: [[Positions/Straight Ankle Lock Control]]
 - **If successful**: Opponent taps to ankle lock submission, ending the exchange before 50-50 is established
 - **Risk**: If the finish fails, you have committed breaking pressure while opponent continues threading, potentially losing both the submission and positional control
 
 ### 2. Withdraw far leg and deny entry target
 
 - **When to use**: When you recognize the counter-entry early and your far leg is still free - pull your far knee to your chest and tuck your foot behind your body
-- **Targets**: [[Straight Ankle Lock Control]]
+- **Targets**: [[Positions/Straight Ankle Lock Control]]
 - **If successful**: Counter-entry fails completely and you maintain original ankle lock control with opponent having wasted energy on a failed attempt
 - **Risk**: Withdrawing your far leg may loosen your leg triangle control, temporarily reducing your finishing leverage on the ankle lock
 
 ### 3. Redirect into inside ashi-garami advancement
 
 - **When to use**: When opponent has committed to hip rotation toward you and their threading leg is partway through - use their rotation to advance your position
-- **Targets**: [[Inside Ashi-Garami]]
+- **Targets**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **If successful**: You convert their counter-entry attempt into a positional advancement for yourself, achieving inside ashi-garami where you have superior heel hook access
 - **Risk**: Requires precise timing - if opponent completes their thread before you redirect, you end up in 50-50 instead of inside ashi
 
@@ -216,11 +216,11 @@ When you do recognize the counter-entry beginning, you face a tactical decision 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Straight Ankle Lock Control]]
+### → [[Positions/Straight Ankle Lock Control]]
 
 Maintain tight leg triangle throughout your ankle lock attack, denying the threading pathway. If counter-entry begins, immediately withdraw your far leg by pulling your knee to your chest and tucking your foot behind your body. Retighten your leg control and either finish the ankle lock or transition to a more dominant entanglement.
 
-### → [[Inside Ashi-Garami]]
+### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 When opponent rotates their hips toward you during counter-entry, follow their rotation by threading your inside leg deeper across their hip. Their movement toward you facilitates your advancement to inside ashi-garami. Use your existing ankle control as a lever while your legs transition to the inside ashi configuration, converting their counter-attack into your positional advancement.
 

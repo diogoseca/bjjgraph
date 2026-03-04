@@ -180,7 +180,7 @@ What makes the triangle from closed guard particularly powerful is its accessibi
 
 The technical execution of the triangle from closed guard requires precise angle creation, hip mobility, and an understanding of how to break the opponent's defensive posture while maintaining control throughout the transition. Success depends not on strength or speed, but on proper positioning of the legs, correct angle relative to the opponent, and the ability to control their posture and arm placement. When executed with proper technique, the triangle becomes nearly unstoppable, which is why it remains a cornerstone submission across all levels of competition from local tournaments to the highest levels of professional grappling.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 
 
 </section>
@@ -236,8 +236,8 @@ The technical execution of the triangle from closed guard requires precise angle
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Closed Guard]] | 25% |
-| Counter | [[Side Control]] | 15% |
+| Failure | [[Positions/Closed Guard]] | 25% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -246,10 +246,10 @@ The technical execution of the triangle from closed guard requires precise angle
 
 ## Opponent Defenses
 
-- **Standing up to stack or slam** (Effectiveness: High) - Your Response: Hook opponent's far leg with your bottom arm immediately as they start to stand, preventing them from achieving the base needed to stack effectively. Alternatively, if already standing, release triangle and transition to armbar or sweep rather than risk injury from slam. → Leads to [[Side Control]]
-- **Posturing up aggressively with arms pushing on hips/knees** (Effectiveness: High) - Your Response: Instead of fighting their posture directly, release one grip to control their far arm and pull it across, using their defensive posture against them. Alternatively, open to armbar transition when they commit to posting both hands. Never allow sustained upright posture as this makes triangle ineffective. → Leads to [[Closed Guard]]
-- **Turning toward the choking leg to relieve pressure** (Effectiveness: Medium) - Your Response: Follow their turn by adjusting your angle - move your shoulders in the direction they're turning while maintaining triangle lock. You can also transition to armbar on the trapped arm as they turn, or switch to opposite-side triangle if they fully turn out. → Leads to [[Closed Guard]]
-- **Extracting the trapped arm by pulling elbow back** (Effectiveness: Medium) - Your Response: Immediately switch to armbar when they pull their arm back - their extraction attempt pulls their arm into perfect armbar position. Alternatively, overhook their arm and pull it deeper across their centerline before they can fully extract it. → Leads to [[Closed Guard]]
+- **Standing up to stack or slam** (Effectiveness: High) - Your Response: Hook opponent's far leg with your bottom arm immediately as they start to stand, preventing them from achieving the base needed to stack effectively. Alternatively, if already standing, release triangle and transition to armbar or sweep rather than risk injury from slam. → Leads to [[Positions/Side Control]]
+- **Posturing up aggressively with arms pushing on hips/knees** (Effectiveness: High) - Your Response: Instead of fighting their posture directly, release one grip to control their far arm and pull it across, using their defensive posture against them. Alternatively, open to armbar transition when they commit to posting both hands. Never allow sustained upright posture as this makes triangle ineffective. → Leads to [[Positions/Closed Guard]]
+- **Turning toward the choking leg to relieve pressure** (Effectiveness: Medium) - Your Response: Follow their turn by adjusting your angle - move your shoulders in the direction they're turning while maintaining triangle lock. You can also transition to armbar on the trapped arm as they turn, or switch to opposite-side triangle if they fully turn out. → Leads to [[Positions/Closed Guard]]
+- **Extracting the trapped arm by pulling elbow back** (Effectiveness: Medium) - Your Response: Immediately switch to armbar when they pull their arm back - their extraction attempt pulls their arm into perfect armbar position. Alternatively, overhook their arm and pull it deeper across their centerline before they can fully extract it. → Leads to [[Positions/Closed Guard]]
 - **Defending the choke by tucking chin or grabbing own lapel** (Effectiveness: Low) - Your Response: These are stalling tactics, not escapes. Maintain position, adjust your angle slightly, and ensure proper hip extension. The structural pressure will eventually overcome chin tuck. Against lapel grab, break the grip and immediately pull head lower while extending hips. → Leads to [[game-over]]
 
 

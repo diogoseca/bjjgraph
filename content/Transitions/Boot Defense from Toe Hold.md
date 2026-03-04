@@ -21,7 +21,7 @@ The mechanical principle centers on eliminating the slack in the ankle joint tha
 
 Strategic deployment requires reading the toe hold threat early in the grip establishment phase rather than reacting after full rotational pressure is applied. The boot defense integrates with comprehensive leg lock defensive systems, serving as the initial stabilization that creates time for more complete escapes such as guard recovery, counter-entanglement, or full leg extraction. Critically, practitioners must understand that the boot has a limited effective window—once the attacker adjusts angle and begins applying pressure against the rigid structure, continuing to defend without progressing toward escape risks ankle ligament damage. The discipline to tap when the boot fails and escape options are exhausted represents an essential component of safe toe hold defense.
 
-**From Position**: [[Toe Hold Control]] (Bottom)
+**From Position**: [[Positions/Toe Hold Control]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Strategic deployment requires reading the toe hold threat early in the grip esta
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 45% |
-| Failure | [[Toe Hold Control]] | 35% |
-| Counter | [[Kneebar Control]] | 20% |
+| Success | [[Positions/Open Guard]] | 45% |
+| Failure | [[Positions/Toe Hold Control]] | 35% |
+| Counter | [[Positions/Kneebar Control]] | 20% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Boot Defense from Toe Hold occupies a critical first-response position withi
 ## Related Techniques
 
 
-- [[Toe Hold Control]] - Source position where this defense is initiated from the bottom role
+- [[Positions/Toe Hold Control]] - Source position where this defense is initiated from the bottom role
 
-- [[Open Guard]] - Primary recovery position after successful boot defense and leg extraction
+- [[Positions/Open Guard]] - Primary recovery position after successful boot defense and leg extraction
 
-- [[Kneebar Control]] - Counter outcome when opponent transitions from toe hold to kneebar during boot defense
+- [[Positions/Kneebar Control]] - Counter outcome when opponent transitions from toe hold to kneebar during boot defense
 
-- [[Ashi Garami Escape]] - Complementary escape technique from broader leg entanglement positions
+- [[Transitions/Ashi Garami Escape]] - Complementary escape technique from broader leg entanglement positions
 
-- [[Angle Change Escape]] - Alternative defensive transition that uses angle adjustment rather than foot rigidity
+- [[Transitions/Angle Change Escape]] - Alternative defensive transition that uses angle adjustment rather than foot rigidity
 
-- [[Ankle Lock Escape to Standing]] - Related leg lock defense technique with similar grip fighting and extraction principles
+- [[Transitions/Ankle Lock Escape to Standing]] - Related leg lock defense technique with similar grip fighting and extraction principles
 
-- [[Ashi Garami]] - Parent positional category governing leg entanglement control and defense principles
+- [[Positions/Ashi Garami]] - Parent positional category governing leg entanglement control and defense principles
 
-- [[Outside Ashi-Garami]] - Related ashi position where similar defensive boot mechanics apply against heel hook threats
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Related ashi position where similar defensive boot mechanics apply against heel hook threats
 
-- [[50-50 Guard]] - Possible recovery position through counter-entanglement during boot defense sequence
+- [[Positions/Ashi Garami/50-50 Guard]] - Possible recovery position through counter-entanglement during boot defense sequence
 
-- [[Straight Ankle Lock Control]] - Related leg lock control position where foot rigidity defenses share mechanical principles
+- [[Positions/Straight Ankle Lock Control]] - Related leg lock control position where foot rigidity defenses share mechanical principles
 
 
 </section>

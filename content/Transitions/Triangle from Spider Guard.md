@@ -21,7 +21,7 @@ The entry works by converting the push-pull dynamic of spider guard into a trian
 
 Strategically, this transition creates a powerful forcing mechanism within the spider guard attack system. The opponent must respect the triangle threat, which opens other attacks like omoplatas, sweeps, and armbars. When the opponent focuses on defending one threat, others become available. This technique connects directly to the broader spider guard offensive framework and serves as a centerpiece attack that makes all other spider guard techniques more dangerous by creating the constant threat of triangle entry.
 
-**From Position**: [[Spider Guard]] (Bottom)
+**From Position**: [[Positions/Spider Guard]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition creates a powerful forcing mechanism within the s
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Control]] | 50% |
-| Failure | [[Spider Guard]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Triangle Control]] | 50% |
+| Failure | [[Positions/Spider Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -193,29 +193,29 @@ The Triangle from Spider Guard occupies a central role in the spider guard offen
 ## Related Techniques
 
 
-- [[Spider Guard]] - Source position providing the sleeve control framework for triangle entry
+- [[Positions/Spider Guard]] - Source position providing the sleeve control framework for triangle entry
 
-- [[Triangle Control]] - Target position reached upon successful triangle lock establishment
+- [[Positions/Triangle Control]] - Target position reached upon successful triangle lock establishment
 
-- [[Open Guard]] - Fallback position when triangle attempt is countered and guard structure is lost
+- [[Positions/Open Guard]] - Fallback position when triangle attempt is countered and guard structure is lost
 
-- [[Omoplata from Spider Guard]] - Chain attack available when triangle entry is blocked but sleeve control is maintained
+- [[Submissions/Omoplata from Spider Guard]] - Chain attack available when triangle entry is blocked but sleeve control is maintained
 
-- [[Spider Sweep]] - Complementary sweep from spider guard that forces reactions opening triangle entries
+- [[Transitions/Spider Sweep]] - Complementary sweep from spider guard that forces reactions opening triangle entries
 
-- [[Lasso Guard]] - Related guard variation serving as intermediate position for triangle setup
+- [[Positions/Lasso Guard]] - Related guard variation serving as intermediate position for triangle setup
 
-- [[Collar Sleeve Guard]] - Alternative guard with similar grip structure offering parallel triangle entries
+- [[Positions/Collar Sleeve Guard]] - Alternative guard with similar grip structure offering parallel triangle entries
 
-- [[De La Riva Guard]] - Complementary guard system combining with spider guard in comprehensive open guard game
+- [[Positions/De La Riva Guard]] - Complementary guard system combining with spider guard in comprehensive open guard game
 
-- [[Armbar Setup from Double Sleeve]] - Related attack using similar bilateral sleeve control for submission entry
+- [[Transitions/Armbar Setup from Double Sleeve]] - Related attack using similar bilateral sleeve control for submission entry
 
-- [[Triangle from Open Guard]] - Similar triangle entry from less structured open guard position
+- [[Submissions/Triangle from Open Guard]] - Similar triangle entry from less structured open guard position
 
-- [[Closed Guard]] - Defensive fallback position and alternative platform for triangle attacks
+- [[Positions/Closed Guard]] - Defensive fallback position and alternative platform for triangle attacks
 
-- [[Double Sleeve Guard]] - Grip configuration foundational to spider guard triangle setups
+- [[Positions/Double Sleeve Guard]] - Grip configuration foundational to spider guard triangle setups
 
 
 </section>

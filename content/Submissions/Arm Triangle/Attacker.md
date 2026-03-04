@@ -230,8 +230,8 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Side Control]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Side Control]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -240,10 +240,10 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 ## Opponent Defenses
 
-- **Frame against your neck/chin with trapped arm** (Effectiveness: High) - Your Response: Maintain crossface pressure and wait for arm to fatigue, or use your weight to collapse the frame by driving your shoulder through their arm structure. Once frame collapses, thread deeper immediately. → Leads to [[Side Control]]
-- **Turn into you to recover guard** (Effectiveness: High) - Your Response: Prevent the turn by maintaining heavy crossface and hip pressure. If they begin turning, you can transition to taking the back or switching to a guillotine variation. Do not fight the turn if they commit—flow with it to back control. → Leads to [[Closed Guard]]
-- **Bridge and create space at the hips** (Effectiveness: Medium) - Your Response: Base wide with your legs and keep your weight distributed through your shoulder toward their head, not your hips. A proper arm triangle keeps weight high on the shoulders, making hip escapes less effective. Tighten your head position to their head. → Leads to [[Side Control]]
-- **Grab your choking arm wrist and pull down** (Effectiveness: Medium) - Your Response: This defense only works before the lock is complete. Once your hands are locked and head position is tight, their pulling provides minimal relief. Counter by accelerating your shoulder walk and angle adjustment to finish before they can create significant space. → Leads to [[Side Control]]
+- **Frame against your neck/chin with trapped arm** (Effectiveness: High) - Your Response: Maintain crossface pressure and wait for arm to fatigue, or use your weight to collapse the frame by driving your shoulder through their arm structure. Once frame collapses, thread deeper immediately. → Leads to [[Positions/Side Control]]
+- **Turn into you to recover guard** (Effectiveness: High) - Your Response: Prevent the turn by maintaining heavy crossface and hip pressure. If they begin turning, you can transition to taking the back or switching to a guillotine variation. Do not fight the turn if they commit—flow with it to back control. → Leads to [[Positions/Closed Guard]]
+- **Bridge and create space at the hips** (Effectiveness: Medium) - Your Response: Base wide with your legs and keep your weight distributed through your shoulder toward their head, not your hips. A proper arm triangle keeps weight high on the shoulders, making hip escapes less effective. Tighten your head position to their head. → Leads to [[Positions/Side Control]]
+- **Grab your choking arm wrist and pull down** (Effectiveness: Medium) - Your Response: This defense only works before the lock is complete. Once your hands are locked and head position is tight, their pulling provides minimal relief. Counter by accelerating your shoulder walk and angle adjustment to finish before they can create significant space. → Leads to [[Positions/Side Control]]
 - **Straighten trapped arm to create space** (Effectiveness: Low) - Your Response: If your angle and shoulder pressure are correct, straightening the arm actually tightens the choke by creating a more rigid compression structure. Continue walking your shoulder forward and maintain head-to-head pressure. → Leads to [[game-over]]
 
 

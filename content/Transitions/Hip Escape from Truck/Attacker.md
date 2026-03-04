@@ -186,7 +186,7 @@ description: "Execute the hip escape from truck position to recover half guard. 
 
 As the person executing the hip escape from truck, your objective is to systematically dismantle the opponent's control structure and extract your trapped leg to recover half guard. This requires a sequential approach: first protect against immediate submission threats, then address the opponent's primary control mechanism (boot pressure), create distance through hip escape movement, and finally extract the trapped leg to establish half guard. The technique rewards patience and systematic execution over explosive movements, as the truck position's strength lies in its ability to punish panicked escape attempts with back control transitions or submission entries.
 
-**From Position**: [[Truck]] (Bottom)
+**From Position**: [[Positions/Twister Control/Truck]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the person executing the hip escape from truck, your objective is to systemat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 45% |
-| Failure | [[Truck]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Half Guard]] | 45% |
+| Failure | [[Positions/Twister Control/Truck]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the person executing the hip escape from truck, your objective is to systemat
 
 ## Opponent Counters
 
-- **Opponent increases boot pressure and leg entanglement tightness during escape attempt** (Effectiveness: High) - Your Response: Switch to incremental micro-shrimps rather than large movements. Address boot pressure more aggressively with hand fighting before attempting subsequent hip escapes. Consider transitioning to granby roll if boot pressure makes shrimping ineffective. → Leads to [[Truck]]
-- **Opponent transitions to back control by inserting hooks during hip escape movement** (Effectiveness: High) - Your Response: If you feel hooks being inserted, immediately address the hooks using standard back control escape mechanics. The hip escape has partially weakened their truck control, so even if they achieve back control, the transition may leave their hooks shallow and escapable. → Leads to [[Back Control]]
-- **Opponent attacks calf slicer on trapped leg during extraction attempt** (Effectiveness: Medium) - Your Response: Bend the trapped knee sharply to reduce calf slicer pressure while continuing the circular extraction motion. The extraction movement itself can relieve calf slicer pressure by changing the angle of compression. If slicer is locked, tap immediately to prevent knee injury. → Leads to [[Truck]]
-- **Opponent follows hip escape movement with matching pressure to close distance** (Effectiveness: Medium) - Your Response: Maintain frames actively and immediately execute second hip escape before opponent can settle their weight. Chain hip escapes rapidly when opponent is in motion rather than allowing them to re-establish static pressure. Use their forward movement momentum against them. → Leads to [[Truck]]
+- **Opponent increases boot pressure and leg entanglement tightness during escape attempt** (Effectiveness: High) - Your Response: Switch to incremental micro-shrimps rather than large movements. Address boot pressure more aggressively with hand fighting before attempting subsequent hip escapes. Consider transitioning to granby roll if boot pressure makes shrimping ineffective. → Leads to [[Positions/Twister Control/Truck]]
+- **Opponent transitions to back control by inserting hooks during hip escape movement** (Effectiveness: High) - Your Response: If you feel hooks being inserted, immediately address the hooks using standard back control escape mechanics. The hip escape has partially weakened their truck control, so even if they achieve back control, the transition may leave their hooks shallow and escapable. → Leads to [[Positions/Back Control]]
+- **Opponent attacks calf slicer on trapped leg during extraction attempt** (Effectiveness: Medium) - Your Response: Bend the trapped knee sharply to reduce calf slicer pressure while continuing the circular extraction motion. The extraction movement itself can relieve calf slicer pressure by changing the angle of compression. If slicer is locked, tap immediately to prevent knee injury. → Leads to [[Positions/Twister Control/Truck]]
+- **Opponent follows hip escape movement with matching pressure to close distance** (Effectiveness: Medium) - Your Response: Maintain frames actively and immediately execute second hip escape before opponent can settle their weight. Chain hip escapes rapidly when opponent is in motion rather than allowing them to re-establish static pressure. Use their forward movement momentum against them. → Leads to [[Positions/Twister Control/Truck]]
 
 
 </section>

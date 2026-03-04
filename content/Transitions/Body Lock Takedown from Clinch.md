@@ -21,7 +21,7 @@ The technique's effectiveness stems from the mechanical advantage created by int
 
 In competition BJJ and no-gi grappling, the body lock takedown has become a staple technique for practitioners who prefer to dictate where the fight goes to the ground. Its reliability, relatively low risk of back exposure, and consistent ability to land in side control make it a foundational takedown for any practitioner looking to build a complete standing game. The technique chains naturally with other clinch-based attacks, creating a takedown system where defending one threat opens opportunities for another.
 
-**From Position**: [[Clinch]] (Top)
+**From Position**: [[Positions/Clinch]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ In competition BJJ and no-gi grappling, the body lock takedown has become a stap
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Clinch]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Clinch]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ The body lock takedown occupies a central role in the standing-to-ground transit
 ## Related Techniques
 
 
-- [[Clinch]] - Starting position where body lock grip is established through clinch engagement
+- [[Positions/Clinch]] - Starting position where body lock grip is established through clinch engagement
 
-- [[Body Lock]] - Control position sharing the same grip configuration used during the takedown
+- [[Positions/Body Lock]] - Control position sharing the same grip configuration used during the takedown
 
-- [[Side Control]] - Primary landing position after successful takedown completion
+- [[Positions/Side Control]] - Primary landing position after successful takedown completion
 
-- [[Half Guard]] - Common counter-result when defender hooks leg during takedown descent
+- [[Positions/Half Guard]] - Common counter-result when defender hooks leg during takedown descent
 
-- [[Standing Position]] - General standing state from which clinch engagement initiates
+- [[Positions/Standing Position]] - General standing state from which clinch engagement initiates
 
-- [[Body Lock Pass]] - Related technique using same grip mechanics for guard passing on the ground
+- [[Transitions/Body Lock Pass]] - Related technique using same grip mechanics for guard passing on the ground
 
-- [[Double Leg Entry]] - Alternative takedown requiring level change, chains with body lock when defended
+- [[Transitions/Double Leg Entry]] - Alternative takedown requiring level change, chains with body lock when defended
 
-- [[Single Leg Takedown]] - Complementary takedown that becomes available when body lock drive is stuffed
+- [[Transitions/Single Leg Takedown]] - Complementary takedown that becomes available when body lock drive is stuffed
 
-- [[Arm Drag from Clinch]] - Alternative clinch attack creating back exposure when body lock is unavailable
+- [[Transitions/Arm Drag from Clinch]] - Alternative clinch attack creating back exposure when body lock is unavailable
 
-- [[Snap Down to Front Headlock]] - Chain attack when opponent postures high to resist body lock closure
+- [[Transitions/Snap Down to Front Headlock]] - Chain attack when opponent postures high to resist body lock closure
 
-- [[Guard Pull]] - Defensive response body lock neutralizes by maintaining chest-to-chest connection
+- [[Transitions/Guard Pull]] - Defensive response body lock neutralizes by maintaining chest-to-chest connection
 
 
 </section>

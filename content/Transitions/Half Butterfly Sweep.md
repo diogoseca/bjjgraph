@@ -21,7 +21,7 @@ This sweep is most effective when the opponent's weight is centered or committed
 
 Strategically, the Half Butterfly Sweep anchors the entire half butterfly offensive system. Its constant threat forces the top player into defensive weight management that constrains their passing options. When the top player adjusts to defend the sweep, they necessarily compromise either their crossface pressure or their hip positioning, opening complementary attacks that make the half butterfly guard a persistent offensive platform.
 
-**From Position**: [[Half Butterfly]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Bottom)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Half Butterfly Sweep anchors the entire half butterfly offens
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Half Butterfly]] | 30% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Butterfly Guard/Half Butterfly]] | 30% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Half Butterfly Sweep is the primary offensive weapon from half butterfly gua
 ## Related Techniques
 
 
-- [[Half Butterfly]] - Starting position from which this sweep is executed
+- [[Positions/Butterfly Guard/Half Butterfly]] - Starting position from which this sweep is executed
 
-- [[Side Control]] - Target position achieved on successful sweep completion
+- [[Positions/Side Control]] - Target position achieved on successful sweep completion
 
-- [[Butterfly Guard]] - Parent guard system sharing core butterfly hook elevation mechanics
+- [[Positions/Butterfly Guard]] - Parent guard system sharing core butterfly hook elevation mechanics
 
-- [[Half Guard]] - Foundation position from which half butterfly is derived
+- [[Positions/Half Guard]] - Foundation position from which half butterfly is derived
 
-- [[Deep Half Guard]] - Transition target when sweep is defended by opponent sprawling backward
+- [[Positions/Half Guard/Deep Half Guard]] - Transition target when sweep is defended by opponent sprawling backward
 
-- [[Butterfly Half Guard Sweep]] - Related sweep from butterfly half guard sharing similar mechanical principles
+- [[Transitions/Butterfly Half Guard Sweep]] - Related sweep from butterfly half guard sharing similar mechanical principles
 
-- [[Basic Butterfly Sweep]] - Related technique sharing core butterfly hook elevation and underhook mechanics
+- [[Transitions/Basic Butterfly Sweep]] - Related technique sharing core butterfly hook elevation and underhook mechanics
 
-- [[Dogfight Position]] - Transitional position that can occur during incomplete sweep execution
+- [[Positions/Dogfight Position]] - Transitional position that can occur during incomplete sweep execution
 
-- [[X-Guard]] - Transition option when opponent stands to disengage from butterfly hook threat
+- [[Positions/X-Guard]] - Transition option when opponent stands to disengage from butterfly hook threat
 
-- [[Lockdown]] - Defensive fallback when being flattened, preserving half guard control for recovery
+- [[Positions/Half Guard/Lockdown]] - Defensive fallback when being flattened, preserving half guard control for recovery
 
 
 </section>

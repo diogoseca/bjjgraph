@@ -21,7 +21,7 @@ The technique relies on precise hand fighting at the opponent's grip junction co
 
 Successfully breaking the anaconda grip deposits you in front headlock bottom position. While still disadvantageous, front headlock bottom offers significantly more defensive options and lower immediate submission danger compared to anaconda control. From front headlock, you can work standing escapes, guard recovery, or granby rolls—none of which are available while the anaconda grip remains intact. The grip break is therefore not the final escape but rather the essential first step in a defensive chain that leads to positional safety.
 
-**From Position**: [[Anaconda Control]] (Bottom)
+**From Position**: [[Positions/Anaconda Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Successfully breaking the anaconda grip deposits you in front headlock bottom po
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Front Headlock]] | 55% |
-| Failure | [[Anaconda Control]] | 30% |
-| Counter | [[Darce Control]] | 15% |
+| Success | [[Positions/Front Headlock]] | 55% |
+| Failure | [[Positions/Anaconda Control]] | 30% |
+| Counter | [[Positions/Darce Control]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The anaconda grip break occupies a critical node in the defensive escape hierarc
 ## Related Techniques
 
 
-- [[Anaconda Control]] - Source position where this escape transition originates from bottom
+- [[Positions/Anaconda Control]] - Source position where this escape transition originates from bottom
 
-- [[Front Headlock]] - Target position achieved after successful grip break
+- [[Positions/Front Headlock]] - Target position achieved after successful grip break
 
-- [[Darce Control]] - Alternative control opponent may transition to if anaconda grip is partially compromised
+- [[Positions/Darce Control]] - Alternative control opponent may transition to if anaconda grip is partially compromised
 
-- [[Anaconda Choke]] - Primary submission being defended against during the grip break sequence
+- [[Transitions/Anaconda Choke]] - Primary submission being defended against during the grip break sequence
 
-- [[Anaconda Setup]] - Entry transition that creates the anaconda control requiring this escape
+- [[Transitions/Anaconda Setup]] - Entry transition that creates the anaconda control requiring this escape
 
-- [[Guillotine Control]] - Related front headlock submission the opponent may transition to after grip break
+- [[Positions/Guillotine Control]] - Related front headlock submission the opponent may transition to after grip break
 
-- [[Turtle]] - Common position from which anaconda control originates before grip break is needed
+- [[Positions/Turtle]] - Common position from which anaconda control originates before grip break is needed
 
-- [[Arm Extraction]] - Related escape concept involving extracting trapped limbs from control positions
+- [[Transitions/Arm Extraction]] - Related escape concept involving extracting trapped limbs from control positions
 
-- [[Anaconda from Turtle]] - Transition that commonly leads to the anaconda control requiring this escape
+- [[Transitions/Anaconda from Turtle]] - Transition that commonly leads to the anaconda control requiring this escape
 
-- [[Back Take from Anaconda]] - Alternative advancement opponent may attempt if grip break stalls
+- [[Transitions/Back Take from Anaconda]] - Alternative advancement opponent may attempt if grip break stalls
 
 
 </section>

@@ -21,7 +21,7 @@ Strategically, the knee slice from seated guard occupies a central role in the p
 
 The most common outcome is reaching half guard top with crossface control, which represents a significant positional advancement from seated guard. From this intermediate position, the passer can continue with standard half guard passing sequences to complete the pass to side control. Clean entries that avoid the opponent's leg defense can produce direct passes to side control, though experienced guard players typically catch the slicing leg in half guard, making the half guard transition the expected and trainable outcome.
 
-**From Position**: [[Seated Guard]] (Top)
+**From Position**: [[Positions/Seated Guard]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -32,9 +32,9 @@ The most common outcome is reaching half guard top with crossface control, which
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 50% |
-| Failure | [[Seated Guard]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Half Guard]] | 50% |
+| Failure | [[Positions/Seated Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -191,25 +191,25 @@ The knee slice from seated guard occupies a critical junction in the guard passi
 ## Related Techniques
 
 
-- [[Half Guard]] - Primary target position reached after successful knee slice entry
+- [[Positions/Half Guard]] - Primary target position reached after successful knee slice entry
 
-- [[Knee Slice Pass]] - Related passing technique used to complete the pass from half guard top
+- [[Transitions/Knee Slice Pass]] - Related passing technique used to complete the pass from half guard top
 
-- [[Headquarters Position]] - Alternative intermediate position when knee slice creates angle but does not fully pass
+- [[Positions/Headquarters Position]] - Alternative intermediate position when knee slice creates angle but does not fully pass
 
-- [[Knee Shield Half Guard]] - Common defensive response by the guard player to block the knee slice entry
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Common defensive response by the guard player to block the knee slice entry
 
-- [[Toreando Pass]] - Primary chain pass when knee slice is defended by knee shield
+- [[Transitions/Toreando Pass]] - Primary chain pass when knee slice is defended by knee shield
 
-- [[Combat Base]] - Kneeling starting position often used to set up the knee slice entry
+- [[Positions/Combat Base]] - Kneeling starting position often used to set up the knee slice entry
 
-- [[Butterfly Guard]] - Alternative guard the opponent may transition to when defending the slice
+- [[Positions/Butterfly Guard]] - Alternative guard the opponent may transition to when defending the slice
 
-- [[Long Step Pass]] - Alternative pass direction when opponent over-commits to knee slice defense
+- [[Transitions/Long Step Pass]] - Alternative pass direction when opponent over-commits to knee slice defense
 
-- [[Dogfight Position]] - Scramble position arising when defender wins the underhook battle during half guard
+- [[Positions/Dogfight Position]] - Scramble position arising when defender wins the underhook battle during half guard
 
-- [[Back Step Pass]] - Complementary pass used when knee slice defender shifts weight laterally
+- [[Transitions/Back Step Pass]] - Complementary pass used when knee slice defender shifts weight laterally
 
 
 </section>

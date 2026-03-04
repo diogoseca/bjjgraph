@@ -21,7 +21,7 @@ The escape works by using your near-side elbow as a wedge against the opponent's
 
 This technique is particularly valuable because it maintains a defensive posture throughout the escape sequence, minimizing risk of transitioning to worse positions like back control or crucifix. The escape naturally flows into open guard rather than requiring you to fight through multiple transitional positions. For practitioners facing skilled buggy choke attacks, developing proficiency in this escape is essential for building a complete turtle defense system that doesn't rely solely on preventing the initial grip establishment.
 
-**From Position**: [[Buggy Choke]] (Bottom)
+**From Position**: [[Positions/Buggy Choke]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This technique is particularly valuable because it maintains a defensive posture
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 58% |
-| Failure | [[Buggy Choke]] | 30% |
-| Counter | [[Side Control]] | 12% |
+| Success | [[Positions/Open Guard]] | 58% |
+| Failure | [[Positions/Buggy Choke]] | 30% |
+| Counter | [[Positions/Side Control]] | 12% |
 
 
 </section>
@@ -187,25 +187,25 @@ The Elbow Escape to Guard functions as a critical link in the comprehensive bugg
 ## Related Techniques
 
 
-- [[Buggy Choke]] - Starting position that this escape defends against
+- [[Positions/Buggy Choke]] - Starting position that this escape defends against
 
-- [[Open Guard]] - Primary destination position after successful escape
+- [[Positions/Open Guard]] - Primary destination position after successful escape
 
-- [[Turtle]] - Related defensive position where buggy choke attacks originate
+- [[Positions/Turtle]] - Related defensive position where buggy choke attacks originate
 
-- [[Side Control]] - Counter outcome position if opponent passes during failed escape
+- [[Positions/Side Control]] - Counter outcome position if opponent passes during failed escape
 
-- [[Back Control]] - Alternative escape destination if opponent transitions during escape attempt
+- [[Positions/Back Control]] - Alternative escape destination if opponent transitions during escape attempt
 
-- [[Half Guard]] - Alternative guard recovery option from turtle defense
+- [[Positions/Half Guard]] - Alternative guard recovery option from turtle defense
 
-- [[Granby Roll to Guard]] - Alternative explosive escape from turtle and buggy choke situations
+- [[Transitions/Granby Roll to Guard]] - Alternative explosive escape from turtle and buggy choke situations
 
-- [[Back Door Escape]] - Alternative turtle escape when buggy choke grips are too deep for elbow escape
+- [[Transitions/Back Door Escape]] - Alternative turtle escape when buggy choke grips are too deep for elbow escape
 
-- [[Butterfly Sweep]] - Common follow-up attack from recovered open guard position
+- [[Transitions/Butterfly Sweep]] - Common follow-up attack from recovered open guard position
 
-- [[Frame and Shrimp to Guard]] - Related escape technique sharing hip escape and framing mechanics
+- [[Transitions/Frame and Shrimp to Guard]] - Related escape technique sharing hip escape and framing mechanics
 
 
 </section>

@@ -21,7 +21,7 @@ This entry represents a fundamental pathway within the modern leg lock game, con
 
 Strategically, this technique creates a powerful dilemma for the top player: defend the sweep and expose leg attack entries, or focus on leg defense and become vulnerable to sweeps. Advanced practitioners use this transition as part of a flowing attack system where failed sweeps naturally funnel into leg entanglements, maintaining offensive pressure throughout.
 
-**From Position**: [[Reverse X-Guard]] (Bottom)
+**From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this technique creates a powerful dilemma for the top player: def
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Ashi Garami]] | 58% |
-| Failure | [[Reverse X-Guard]] | 27% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami]] | 58% |
+| Failure | [[Positions/X-Guard/Reverse X-Guard]] | 27% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,27 +191,27 @@ Reverse X to Ashi Garami Entry serves as a critical connection between the moder
 ## Related Techniques
 
 
-- [[Reverse X-Guard]] - Starting position for this transition
+- [[Positions/X-Guard/Reverse X-Guard]] - Starting position for this transition
 
-- [[Ashi Garami]] - Target position upon successful entry
+- [[Positions/Ashi Garami]] - Target position upon successful entry
 
-- [[Inside Ashi-Garami]] - Alternative target entanglement with tighter knee line
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Alternative target entanglement with tighter knee line
 
-- [[Outside Ashi-Garami]] - Alternative target entanglement with more distance
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative target entanglement with more distance
 
-- [[Honey Hole]] - Advanced target entanglement via deeper threading
+- [[Positions/Ashi Garami/Honey Hole]] - Advanced target entanglement via deeper threading
 
-- [[Single Leg X-Guard]] - Alternative transition when Ashi entry is blocked
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative transition when Ashi entry is blocked
 
-- [[Deep Half Guard]] - Bail-out position when opponent smashes forward
+- [[Positions/Half Guard/Deep Half Guard]] - Bail-out position when opponent smashes forward
 
-- [[Back Take from Ashi]] - Follow-up when opponent backsteps out of entanglement
+- [[Transitions/Back Take from Ashi]] - Follow-up when opponent backsteps out of entanglement
 
-- [[Heel Hook]] - Primary submission from completed Ashi Garami
+- [[Transitions/Heel Hook]] - Primary submission from completed Ashi Garami
 
-- [[X-Guard]] - Related guard with similar elevation and entry mechanics
+- [[Positions/X-Guard]] - Related guard with similar elevation and entry mechanics
 
-- [[Half Guard]] - Position reached when opponent counters successfully
+- [[Positions/Half Guard]] - Position reached when opponent counters successfully
 
 
 </section>

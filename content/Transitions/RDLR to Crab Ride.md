@@ -21,7 +21,7 @@ The technique begins with standard RDLR hook and ankle control, using hip elevat
 
 Strategically, this transition excels against opponents who have developed strong defenses against direct berimbolo back takes. By stopping at crab ride instead of committing to the full rotation, the attacker avoids the scramble positions that often result from defended berimbolo entries. The crab ride position itself creates a systematic platform for back-taking, crucifix attacks, and rolling sequences that are difficult to defend once established. This makes RDLR to Crab Ride a critical tool in modern guard systems, particularly effective in no-gi competition where the shorter control pathway reduces grip dependency.
 
-**From Position**: [[Reverse De La Riva Guard]] (Bottom)
+**From Position**: [[Positions/De La Riva Guard/Reverse De La Riva Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition excels against opponents who have developed stron
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Crab Ride]] | 55% |
-| Failure | [[Reverse De La Riva Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Crab Ride]] | 55% |
+| Failure | [[Positions/De La Riva Guard/Reverse De La Riva Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ RDLR to Crab Ride serves as a critical link in the modern inversion-based back a
 ## Related Techniques
 
 
-- [[Reverse De La Riva Guard]] - Source position providing the inverted hook structure and ankle control needed to initiate the transition
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Source position providing the inverted hook structure and ankle control needed to initiate the transition
 
-- [[Crab Ride]] - Target position achieved on successful completion, offering systematic back attack and submission pathways
+- [[Positions/Crab Ride]] - Target position achieved on successful completion, offering systematic back attack and submission pathways
 
-- [[Back Control]] - Ultimate positional target accessible from crab ride after consolidation
+- [[Positions/Back Control]] - Ultimate positional target accessible from crab ride after consolidation
 
-- [[Open Guard]] - Fallback position if the transition is countered and guard structure is compromised
+- [[Positions/Open Guard]] - Fallback position if the transition is countered and guard structure is compromised
 
-- [[Turtle]] - Intermediate positional state the opponent enters as the attacker arrives at crab ride
+- [[Positions/Turtle]] - Intermediate positional state the opponent enters as the attacker arrives at crab ride
 
-- [[Truck]] - Related twister system position accessible from crab ride sharing similar rotational control mechanics
+- [[Positions/Twister Control/Truck]] - Related twister system position accessible from crab ride sharing similar rotational control mechanics
 
-- [[Kiss of the Dragon from RDLR]] - Related back-taking technique from the same starting position using similar inversion mechanics
+- [[Transitions/Kiss of the Dragon from RDLR]] - Related back-taking technique from the same starting position using similar inversion mechanics
 
-- [[Berimbolo Entry]] - Alternative inversion-based back attack from RDLR that commits to full rotation rather than stopping at crab ride
+- [[Transitions/Berimbolo Entry]] - Alternative inversion-based back attack from RDLR that commits to full rotation rather than stopping at crab ride
 
-- [[Crab Ride Escape to Guard]] - Defender's primary escape technique from the target position
+- [[Transitions/Crab Ride Escape to Guard]] - Defender's primary escape technique from the target position
 
-- [[RDLR Backstep Counter]] - Opponent's primary counter-passing technique that must be addressed before attempting the inversion
+- [[Transitions/RDLR Backstep Counter]] - Opponent's primary counter-passing technique that must be addressed before attempting the inversion
 
 
 </section>

@@ -154,7 +154,7 @@ description: "How to defend against Float Passing in BJJ. Recognition cues, defe
 
 Defending against float passing requires a fundamentally different approach than defending against pressure passing. Because the float passer maintains light contact and constant movement, the defender cannot rely on framing against heavy pressure. Instead, the guard player must focus on maintaining active connection points, tracking the passer's lateral movement with hip adjustments, and creating dilemmas through grip fighting and offensive threats that force the passer to stop moving. The defender's primary objective is to prevent the passer from finding a clean window by keeping their legs active, hips angled, and grips engaged throughout the floating phase. When the passer does commit to passing, the defender must recognize the commitment instantly and either stuff the pass with a knee shield or use the passer's forward momentum to initiate a sweep.
 
-**Opponent's Starting Position**: [[Open Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending against float passing requires a fundamentally different approach than
 ### 1. Establish collar and sleeve grips to anchor the passer and limit their lateral freedom of movement
 
 - **When to use**: Early in the engagement when the passer is establishing their initial floating position and before they begin circling
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Passer cannot freely float and must address your grips, resetting to neutral open guard engagement
 - **Risk**: If grips are broken quickly, you may be momentarily without leg frames as you reached for upper body control
 
 ### 2. Hip escape and angle to follow the passer's lateral movement, keeping legs as barriers between you
 
 - **When to use**: When the passer is actively circling and you need to track their movement without losing guard structure
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You maintain guard structure and deny the passing window by keeping your legs aligned with the passer's position
 - **Risk**: Sustained hip escaping is energy-intensive and the passer may be waiting for you to tire before committing
 
 ### 3. Sit up aggressively and pursue wrestling ties or front headlock when the passer creates distance during floating
 
 - **When to use**: When the passer floats too far away and their grip control on your legs loosens during a direction change
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You collapse the distance, neutralize the floating advantage, and establish upper body control that prevents further floating
 - **Risk**: If the passer reads your sit-up and circles behind you, they gain a passing angle or potential back take opportunity
 
 ### 4. Time a sweep attempt during the passer's direction change when their base is momentarily narrow
 
 - **When to use**: When the passer changes direction and their weight shifts, creating a brief moment of compromised balance
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You sweep the passer and achieve top position, completely reversing the engagement
 - **Risk**: A mistimed sweep attempt may open a passing window by disrupting your own guard structure
 
@@ -224,11 +224,11 @@ Defending against float passing requires a fundamentally different approach than
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Maintain active guard retention by tracking the passer's movement with hip escapes, establishing controlling grips that limit their floating freedom, and threatening offensive attacks that force them to reset. Deny passing windows by keeping your legs active and hips angled throughout the floating phase.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Time a sweep during the passer's direction change when their base narrows and weight shifts. Use their lateral momentum against them by attacking with sweeps that exploit the direction they are already moving. Butterfly hook elevation or collar drag sweeps are particularly effective during direction changes.
 

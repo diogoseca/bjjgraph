@@ -21,7 +21,7 @@ This escape requires a two-phase approach: first neutralizing the immediate coll
 
 Strategically, the Standing Escape is most effective when combined with other escape threats from Invisible Collar bottom. If the attacker is focused on defending your hip escape or rolling escape attempts, the sudden posture change to standing catches them out of position. The escape integrates into a layered defensive system where each escape attempt creates openings for others, making the defender unpredictable and forcing the attacker to address multiple threats simultaneously.
 
-**From Position**: [[Invisible Collar]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Standing Escape is most effective when combined with other es
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 65% |
-| Failure | [[Invisible Collar]] | 25% |
-| Counter | [[Invisible Collar]] | 10% |
+| Success | [[Positions/Open Guard]] | 65% |
+| Failure | [[Positions/Rubber Guard/Invisible Collar]] | 25% |
+| Counter | [[Positions/Rubber Guard/Invisible Collar]] | 10% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Standing Escape occupies a specific tactical niche within the Invisible Coll
 ## Related Techniques
 
 
-- [[Invisible Collar]] - Starting position—the deceptive collar grip this escape neutralizes
+- [[Positions/Rubber Guard/Invisible Collar]] - Starting position—the deceptive collar grip this escape neutralizes
 
-- [[Open Guard]] - Primary target position after successful escape completion
+- [[Positions/Open Guard]] - Primary target position after successful escape completion
 
-- [[Back Control]] - Parent position system that Invisible Collar derives from
+- [[Positions/Back Control]] - Parent position system that Invisible Collar derives from
 
-- [[Hip Escape to Guard]] - Alternative lateral escape from same starting position
+- [[Transitions/Hip Escape to Guard]] - Alternative lateral escape from same starting position
 
-- [[Rolling Escape to Guard]] - Alternative forward escape that chains with standing attempts
+- [[Transitions/Rolling Escape to Guard]] - Alternative forward escape that chains with standing attempts
 
-- [[Granby Roll to Guard]] - Alternative inverted escape from Invisible Collar bottom
+- [[Transitions/Granby Roll to Guard]] - Alternative inverted escape from Invisible Collar bottom
 
-- [[Elbow Escape to Remove Hooks]] - Complementary escape focusing on hook removal before standing
+- [[Transitions/Elbow Escape to Remove Hooks]] - Complementary escape focusing on hook removal before standing
 
-- [[Hand Fighting to Remove Collar Grip]] - Prerequisite grip fighting technique that enables standing escape
+- [[Transitions/Hand Fighting to Remove Collar Grip]] - Prerequisite grip fighting technique that enables standing escape
 
-- [[Back Door Escape]] - Broader escape system framework this technique belongs to
+- [[Transitions/Back Door Escape]] - Broader escape system framework this technique belongs to
 
-- [[Rear Naked Choke]] - Alternative submission opponent may transition to during escape
+- [[Transitions/Rear Naked Choke]] - Alternative submission opponent may transition to during escape
 
 
 </section>

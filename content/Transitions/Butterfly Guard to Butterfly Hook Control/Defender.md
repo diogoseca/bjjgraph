@@ -148,7 +148,7 @@ As the defender against this transition, you are the top player working to preve
 
 The most effective defensive strategy is proactive rather than reactive. Rather than waiting for the bottom player to consolidate and then trying to deal with a fully loaded butterfly hook control, you should constantly apply pressure that prevents the consolidation from completing. This means maintaining forward pressure that prevents the sit-up, actively working to shallow or clear hooks, and fighting grips to deny the upper body connections that complete the position.
 
-**Opponent's Starting Position**: [[Butterfly Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Butterfly Guard]] (Bottom)
 
 </section>
 
@@ -186,28 +186,28 @@ The most effective defensive strategy is proactive rather than reactive. Rather 
 ### 1. Drive heavy crossface pressure and flatten the bottom player before hooks consolidate
 
 - **When to use**: When you recognize the sit-up attempt early and can apply shoulder pressure before the bottom player achieves upright posture
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Bottom player is driven flat with shallow hooks and poor grips, returning to general butterfly guard where passing is easier
 - **Risk**: If you overcommit weight forward, the bottom player can redirect your momentum into an elevator sweep
 
 ### 2. Drive knees together to squeeze hooks shallow and prevent deepening
 
 - **When to use**: When you feel hooks beginning to curl deeper toward your hip creases during the consolidation sequence
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Hooks remain at mid-thigh where they generate less elevation and are easier to clear for passing
 - **Risk**: Narrowing your base to squeeze hooks reduces your lateral stability and can make you vulnerable to off-angle sweeps
 
 ### 3. Stand up to disengage from hooks entirely and reset to standing pass
 
 - **When to use**: When the bottom player has already recovered posture and is actively deepening hooks—standing removes the hook control before it fully consolidates
-- **Targets**: [[Butterfly Guard]]
+- **Targets**: [[Positions/Butterfly Guard]]
 - **If successful**: Hooks disengage as you stand and you can reinitiate from standing passes with better leverage
 - **Risk**: Standing gives the bottom player entries to X-Guard or single leg X-Guard if they follow your hips
 
 ### 4. Clear one hook aggressively with a knee slice or step-over while the bottom player is focused on consolidating
 
 - **When to use**: When the bottom player commits attention to inserting or deepening the second hook, creating a window where the first hook is unguarded
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Position transitions to half guard where you have a significant passing advantage over half butterfly
 - **Risk**: If the hook clear fails, you may end up in a worse position with compromised base
 
@@ -219,11 +219,11 @@ The most effective defensive strategy is proactive rather than reactive. Rather 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Clear one hook by driving your knee through to the mat during the consolidation attempt, converting butterfly guard to half guard where your passing options are superior. Time the hook clear with the moment the bottom player is focused on deepening the opposite hook.
 
-### → [[Butterfly Guard]]
+### → [[Positions/Butterfly Guard]]
 
 Prevent the consolidation from completing by maintaining forward pressure that keeps the bottom player flat, keeping hooks shallow through knee pressure, and aggressively breaking upper body grips. The bottom player remains in general butterfly guard where their offensive options are limited compared to full hook control.
 

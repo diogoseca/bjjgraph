@@ -21,7 +21,7 @@ The technique represents a high-percentage pathway to back control because it ne
 
 Success requires precise hip positioning, weight distribution, and grip sequencing to prevent common defensive reactions such as rolling or sitting through. The chair sit acts as a transitional control position that bridges the gap between attacking turtle and securing full back mount with hooks established. When the opponent does manage to sit through, the position flows naturally into truck and twister system attacks, making it a win-win proposition for the attacker.
 
-**From Position**: [[Turtle]] (Top)
+**From Position**: [[Positions/Turtle]] (Top)
 **Success Rate**: 68%
 
 </section>
@@ -32,9 +32,9 @@ Success requires precise hip positioning, weight distribution, and grip sequenci
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 68% |
-| Failure | [[Turtle]] | 20% |
-| Counter | [[Turtle]] | 12% |
+| Success | [[Positions/Back Control]] | 68% |
+| Failure | [[Positions/Turtle]] | 20% |
+| Counter | [[Positions/Turtle]] | 12% |
 
 
 </section>
@@ -193,29 +193,29 @@ The chair sit to back take occupies a central position within the turtle attack 
 ## Related Techniques
 
 
-- [[Turtle]] - Starting position where opponent assumes defensive posture
+- [[Positions/Turtle]] - Starting position where opponent assumes defensive posture
 
-- [[Back Control]] - Target position after successful back take completion
+- [[Positions/Back Control]] - Target position after successful back take completion
 
-- [[Seat Belt Control Back]] - Key grip configuration established during transition
+- [[Positions/Back Control/Seat Belt Control Back]] - Key grip configuration established during transition
 
-- [[Crab Ride]] - Alternative turtle control position that chains with chair sit
+- [[Positions/Crab Ride]] - Alternative turtle control position that chains with chair sit
 
-- [[Truck]] - Secondary destination when opponent sits through blocking leg
+- [[Positions/Twister Control/Truck]] - Secondary destination when opponent sits through blocking leg
 
-- [[Gift Wrap]] - Alternative arm control accessible from turtle attack sequence
+- [[Positions/Gift Wrap]] - Alternative arm control accessible from turtle attack sequence
 
-- [[Harness]] - Upper body control system used during and after transition
+- [[Positions/Harness]] - Upper body control system used during and after transition
 
-- [[Rear Naked Choke]] - Primary submission threat from established back control
+- [[Transitions/Rear Naked Choke]] - Primary submission threat from established back control
 
-- [[Bow and Arrow Choke]] - High-percentage gi choke available after completing back take
+- [[Transitions/Bow and Arrow Choke]] - High-percentage gi choke available after completing back take
 
-- [[Armbar from Back]] - Submission option from the back mount position achieved
+- [[Submissions/Armbar from Back]] - Submission option from the back mount position achieved
 
-- [[Twister]] - Submission available if transition flows into truck position
+- [[Submissions/Twister]] - Submission available if transition flows into truck position
 
-- [[Crab Ride to Back]] - Alternative back take pathway from similar turtle control
+- [[Transitions/Crab Ride to Back]] - Alternative back take pathway from similar turtle control
 
 
 </section>

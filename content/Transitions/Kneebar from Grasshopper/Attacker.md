@@ -180,7 +180,7 @@ From a systematic perspective, the Kneebar from Grasshopper functions as both a 
 
 The inverted nature of this entry makes it particularly effective in no-gi competition where the absence of gi grips means the top player cannot easily control your inverting motion. The technique gained prominence through modern leg lock systems that emphasize attacking from bottom positions against standing opponents, reversing traditional assumptions about who holds positional advantage.
 
-**From Position**: [[Grasshopper Guard]] (Bottom)
+**From Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kneebar Control]] | 55% |
-| Failure | [[Grasshopper Guard]] | 30% |
-| Counter | [[Side Control]] | 15% |
+| Success | [[Positions/Kneebar Control]] | 55% |
+| Failure | [[Positions/Grasshopper Guard]] | 30% |
+| Counter | [[Positions/Side Control]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 
 ## Opponent Counters
 
-- **Step back and disengage before entry completes** (Effectiveness: High) - Your Response: Follow with rolling motion to maintain leg contact, or convert to Single Leg X or X-Guard entry as they retreat → Leads to [[Grasshopper Guard]]
-- **Straighten leg and pull foot toward their hips to prevent heel control** (Effectiveness: Medium) - Your Response: Maintain hip pressure and transition to calf slicer if they straighten, or adjust angle to recapture heel control → Leads to [[Grasshopper Guard]]
-- **Sprawl heavily to flatten your grasshopper position** (Effectiveness: Medium) - Your Response: If you sense the sprawl coming, abort entry and Granby roll to guard recovery before being flattened → Leads to [[Side Control]]
-- **Turn toward you and drive knee to mat to kill the angle** (Effectiveness: Medium) - Your Response: Use their turn to transition to inside ashi garami on the same leg - their rotation often exposes better entanglement → Leads to [[Grasshopper Guard]]
+- **Step back and disengage before entry completes** (Effectiveness: High) - Your Response: Follow with rolling motion to maintain leg contact, or convert to Single Leg X or X-Guard entry as they retreat → Leads to [[Positions/Grasshopper Guard]]
+- **Straighten leg and pull foot toward their hips to prevent heel control** (Effectiveness: Medium) - Your Response: Maintain hip pressure and transition to calf slicer if they straighten, or adjust angle to recapture heel control → Leads to [[Positions/Grasshopper Guard]]
+- **Sprawl heavily to flatten your grasshopper position** (Effectiveness: Medium) - Your Response: If you sense the sprawl coming, abort entry and Granby roll to guard recovery before being flattened → Leads to [[Positions/Side Control]]
+- **Turn toward you and drive knee to mat to kill the angle** (Effectiveness: Medium) - Your Response: Use their turn to transition to inside ashi garami on the same leg - their rotation often exposes better entanglement → Leads to [[Positions/Grasshopper Guard]]
 
 
 </section>

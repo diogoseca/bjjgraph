@@ -202,15 +202,15 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 
 ## Available Attacks
 
-### [[Posture Recovery]] (22% of attempts)
+### [[Transitions/Posture Recovery]] (22% of attempts)
 
-### [[Guard Pass from Diamond Guard]] (22% of attempts)
+### [[Transitions/Guard Pass from Diamond Guard]] (22% of attempts)
 
-### [[Posture Recovery from Diamond Guard]] (20% of attempts)
+### [[Transitions/Posture Recovery from Diamond Guard]] (20% of attempts)
 
-### [[Guard Opening Sequence]] (18% of attempts)
+### [[Transitions/Guard Opening Sequence]] (18% of attempts)
 
-### [[Overhook Strip from Diamond Guard]] (18% of attempts)
+### [[Transitions/Overhook Strip from Diamond Guard]] (18% of attempts)
 
 
 
@@ -221,28 +221,28 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 ## Decision Making from This Position
 
 **If opponent keeps both arms inside and fights to recover posture:**
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 55%)
-- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
+- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 50%)
 
 
 **If opponent posts free hand on mat to prevent being pulled forward:**
-- Execute **[[Kimura from Diamond Guard]]** → [[Kimura Trap]] (Probability: 50%)
-- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 55%)
+- Execute **[[Transitions/Kimura from Diamond Guard]]** → [[Positions/Kimura Trap]] (Probability: 50%)
+- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent attempts to strip overhook by pulling arm back:**
-- Execute **[[Closed Guard to Omoplata]]** → [[Omoplata Control]] (Probability: 50%)
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 45%)
+- Execute **[[Transitions/Closed Guard to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 50%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 45%)
 
 
 **If opponent drives forward with shoulder pressure to flatten guard player:**
-- Execute **[[Hip Bump Sweep]]** → [[Mount]] (Probability: 55%)
-- Execute **[[Triangle Setup]]** → [[Triangle Control]] (Probability: 45%)
+- Execute **[[Transitions/Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 55%)
+- Execute **[[Transitions/Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 45%)
 
 
 **If top player begins standing up to break diamond and open guard:**
-- Execute **[[Guard Opening Sequence]]** → [[Open Guard]] (Probability: 50%)
-- Execute **[[Posture Recovery]]** → [[Closed Guard]] (Probability: 55%)
+- Execute **[[Transitions/Guard Opening Sequence]]** → [[Positions/Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 55%)
 
 
 
@@ -376,16 +376,16 @@ Practice escaping diamond guard from the top. Partner establishes diamond with p
 
 ## Related Positions and Techniques
 
-- **[[Closed Guard]]** - Parent position — Diamond Guard is a specialized variation of closed guard
-- **[[Triangle Control]]** - Primary submission destination from diamond guard bottom
-- **[[Omoplata Control]]** - Secondary submission destination from overhook adjustment
-- **[[Kimura Trap]]** - Tertiary attack destination using the overhook control
-- **[[Rubber Guard]]** - Related control concept using leg flexibility instead of overhook for head control
-- **[[Overhook Guard]]** - Shared control mechanism — Diamond Guard adds head control to overhook
-- **[[Mission Control]]** - Related rubber guard position providing similar head control objective
-- **[[Open Guard]]** - Fallback position if closed guard is opened during diamond control
-- **[[Half Guard]]** - Common transition if top player partially escapes while diamond is maintained
-- **[[Mount]]** - Destination from hip bump sweep when opponent resists posture break
+- **[[Positions/Closed Guard]]** - Parent position — Diamond Guard is a specialized variation of closed guard
+- **[[Positions/Triangle Control]]** - Primary submission destination from diamond guard bottom
+- **[[Positions/Omoplata Control]]** - Secondary submission destination from overhook adjustment
+- **[[Positions/Kimura Trap]]** - Tertiary attack destination using the overhook control
+- **[[Positions/Rubber Guard]]** - Related control concept using leg flexibility instead of overhook for head control
+- **[[Positions/Overhook Guard]]** - Shared control mechanism — Diamond Guard adds head control to overhook
+- **[[Positions/Rubber Guard/Mission Control]]** - Related rubber guard position providing similar head control objective
+- **[[Positions/Open Guard]]** - Fallback position if closed guard is opened during diamond control
+- **[[Positions/Half Guard]]** - Common transition if top player partially escapes while diamond is maintained
+- **[[Positions/Mount]]** - Destination from hip bump sweep when opponent resists posture break
 
 
 </section>

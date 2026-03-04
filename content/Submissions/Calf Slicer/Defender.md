@@ -164,7 +164,7 @@ description: "How to defend against Calf Slicer in BJJ. Recognition cues, escape
 
 Defending the Calf Slicer requires immediate recognition of the threat and decisive action before the attacker establishes full control. The compression nature of this submission means pain onset can be delayed, making early recognition of positional cues more important than waiting to feel the pressure. Your primary defensive windows are: preventing shin insertion across your calf, straightening your trapped leg before hooks are secured, and rotating your leg to move the calf muscle away from the compression point. Once all three control elements are locked in (shin across calf, foot controlled, bottom hook preventing extension), escape becomes extremely difficult and tapping early is the safest option. The defender must understand that this is not a submission you can tough out - muscle and tendon damage accumulates silently before pain fully registers.
 
-**Opponent's Starting Position**: [[50-50 Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 
 </section>
@@ -203,28 +203,28 @@ Defending the Calf Slicer requires immediate recognition of the threat and decis
 ### 1. Straighten trapped leg forcefully by driving your heel away and extending your knee
 
 - **When to use**: Early defense before attacker secures their bottom leg hook over your thigh. Most effective when you still have some range of motion in the trapped leg.
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Eliminates the compression angle entirely and returns to neutral leg entanglement where you can re-engage grip fighting
 - **Risk**: If attacker has strong bottom hook, explosive straightening can increase compression momentarily before relieving it
 
 ### 2. Rotate trapped leg internally or externally to slide calf off attacker's shin
 
 - **When to use**: When attacker's foot control is not yet fully secured. Most effective before they establish figure-four ankle grip or armpit trap on your foot.
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Removes the calf muscle from the compression point, completely neutralizing the submission and allowing you to reset to neutral leg entanglement
 - **Risk**: If rotation is incomplete, attacker can follow the rotation and re-establish shin contact at a worse angle
 
 ### 3. Push attacker's hips away with free leg while simultaneously extracting trapped leg
 
 - **When to use**: When attacker begins hip extension for the finish. Use your free leg as a frame against their hip to break their alignment and create distance.
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Breaks the attacker's hip extension leverage and creates enough space to extract your leg from the entanglement entirely
 - **Risk**: Overcommitting the free leg to the push can expose it to attack if the opponent transitions to a different leg lock
 
 ### 4. Strip attacker's foot grip with both hands and immediately rotate leg free
 
 - **When to use**: When you can reach their hands on your foot or ankle. Most effective when attacker uses a loose single-hand grip rather than figure-four.
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Breaking foot control allows immediate leg rotation to escape compression, returning to neutral entanglement
 - **Risk**: Reaching for their hands may compromise your upper body posture and expose you to transitional attacks
 
@@ -248,15 +248,15 @@ Defending the Calf Slicer requires immediate recognition of the threat and decis
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Successfully rotate your leg or straighten it to neutralize the compression, then fight for inside position to re-establish neutral 50-50 engagement with the threat eliminated
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Push attacker's hips away with your free leg while extracting the trapped leg from the entanglement, then re-establish half guard with knee shield to prevent re-entry
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Complete leg extraction from the entanglement and disengage to open guard distance where you can reset with full leg mobility and deny re-entry to leg entanglement
 

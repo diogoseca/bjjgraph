@@ -17,7 +17,7 @@ description: "Master the Toreando Pass in BJJ. Control opponent's legs, create a
 
 The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard passing technique that exploits superior grips and angular movement to control and redirect the opponent's legs. Named after the bullfighter's movements when evading a charging bull, this pass emphasizes controlling the opponent's knees or pant legs while stepping laterally to create passing angles. The technique is particularly effective against players who rely on open guard systems like De La Riva, Spider Guard, or Collar Sleeve Guard. By dominating the leg grips and using explosive lateral movement, the passer forces the guard player's legs to one side while their upper body remains stationary, creating a clear path to side control or knee on belly. The Toreando Pass is a cornerstone of modern guard passing systems, valued for its versatility across gi and no-gi contexts, its effectiveness against multiple guard styles, and its ability to chain seamlessly with other passing sequences. When executed correctly, it creates immense pressure on the opponent's defensive structure while maintaining the passer's balance and base throughout the movement.
 
-**From Position**: [[Open Guard]] (Top)
+**From Position**: [[Positions/Open Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -28,9 +28,9 @@ The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard pa
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 65% |
-| Failure | [[Open Guard]] | 25% |
-| Counter | [[Open Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 65% |
+| Failure | [[Positions/Open Guard]] | 25% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -195,33 +195,33 @@ The Toreando Pass serves as a cornerstone technique in modern guard passing syst
 ## Related Techniques
 
 
-- [[Knee Cut Pass]] - Complementary technique - chain from Toreando when opponent turns to defend
+- [[Transitions/Knee Cut Pass]] - Complementary technique - chain from Toreando when opponent turns to defend
 
-- [[Leg Drag Pass]] - Alternative finish - transition from Toreando motion to leg drag position
+- [[Transitions/Leg Drag Pass]] - Alternative finish - transition from Toreando motion to leg drag position
 
-- [[Double Under Pass]] - Follow-up technique - natural progression when Toreando creates initial penetration
+- [[Transitions/Double Under Pass]] - Follow-up technique - natural progression when Toreando creates initial penetration
 
-- [[Long Step Pass]] - Complementary technique - transition when opponent creates distance against Toreando
+- [[Transitions/Long Step Pass]] - Complementary technique - transition when opponent creates distance against Toreando
 
-- [[Over-Under Pass]] - Direct combination - transition when opponent follows Toreando lateral movement
+- [[Transitions/Over-Under Pass]] - Direct combination - transition when opponent follows Toreando lateral movement
 
-- [[De La Riva Guard]] - Common starting position - must clear hook before executing Toreando
+- [[Positions/De La Riva Guard]] - Common starting position - must clear hook before executing Toreando
 
-- [[Spider Guard]] - Common starting position - Toreando effective after clearing sleeve grips
+- [[Positions/Spider Guard]] - Common starting position - Toreando effective after clearing sleeve grips
 
-- [[Collar Sleeve Guard]] - Common starting position - Toreando works well against this guard style
+- [[Positions/Collar Sleeve Guard]] - Common starting position - Toreando works well against this guard style
 
-- [[Headquarters Position]] - Transitional position - often reached when Toreando is partially successful
+- [[Positions/Headquarters Position]] - Transitional position - often reached when Toreando is partially successful
 
-- [[Combat Base]] - Starting position - Toreando can be initiated from combat base or standing
+- [[Positions/Combat Base]] - Starting position - Toreando can be initiated from combat base or standing
 
-- [[Side Control]] - End position - primary finishing position for successful Toreando Pass
+- [[Positions/Side Control]] - End position - primary finishing position for successful Toreando Pass
 
-- [[Knee on Belly]] - Alternative end position - can transition here instead of side control
+- [[Positions/Knee on Belly]] - Alternative end position - can transition here instead of side control
 
-- [[Bullfighter Pass]] - Alternate name reference - Bullfighter Pass and Toreando Pass are the same technique
+- [[Transitions/Bullfighter Pass]] - Alternate name reference - Bullfighter Pass and Toreando Pass are the same technique
 
-- [[Open Guard]] - Starting position - primary guard configuration the Toreando is designed to pass
+- [[Positions/Open Guard]] - Starting position - primary guard configuration the Toreando is designed to pass
 
 
 </section>

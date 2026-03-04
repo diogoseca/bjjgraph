@@ -21,7 +21,7 @@ The mechanics of posturing up require coordinating multiple body systems simulta
 
 Strategic timing is critical for success. Attempting to posture too early before securing proper grips and base wastes energy, while waiting too long allows the bottom player to optimize their choking angle and hip extension. The ideal window opens when the triangle is locked but the bottom player has not yet achieved their 30-45 degree angle adjustment, as this is the phase where the choking mechanics are least efficient and posture recovery faces the least resistance. The posture-up functions as part of a complete triangle defense system alongside stacking, lateral clearing, and grip fighting escapes.
 
-**From Position**: [[Triangle Control]] (Top)
+**From Position**: [[Positions/Triangle Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategic timing is critical for success. Attempting to posture too early before
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Triangle Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Triangle Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ Posture Up from Triangle is a critical component of the complete triangle defens
 ## Related Techniques
 
 
-- [[Triangle Control]] - Source position where this escape technique is initiated from the top defensive role
+- [[Positions/Triangle Control]] - Source position where this escape technique is initiated from the top defensive role
 
-- [[Open Guard]] - Primary target position reached upon successful posture recovery and triangle extraction
+- [[Positions/Open Guard]] - Primary target position reached upon successful posture recovery and triangle extraction
 
-- [[Half Guard]] - Counter outcome position when triangle holder sweeps during posture-up attempt
+- [[Positions/Half Guard]] - Counter outcome position when triangle holder sweeps during posture-up attempt
 
-- [[Posture Recovery]] - Related defensive concept sharing core posture mechanics applicable across guard positions
+- [[Transitions/Posture Recovery]] - Related defensive concept sharing core posture mechanics applicable across guard positions
 
-- [[Complete Triangle Escape from Top]] - Comprehensive escape sequence that may incorporate posture-up as initial phase
+- [[Transitions/Complete Triangle Escape from Top]] - Comprehensive escape sequence that may incorporate posture-up as initial phase
 
-- [[Stack Defense]] - Alternative triangle defense that combines with posture-up in chain escapes
+- [[Transitions/Stack Defense]] - Alternative triangle defense that combines with posture-up in chain escapes
 
-- [[Triangle Choke]] - The primary submission threat being defended against through posture recovery
+- [[Transitions/Triangle Choke]] - The primary submission threat being defended against through posture recovery
 
-- [[Armbar Control]] - Secondary threat position the triangle holder may transition to during posture-up
+- [[Positions/Armbar Control]] - Secondary threat position the triangle holder may transition to during posture-up
 
-- [[Closed Guard]] - Common position reached if posture recovery is partial and triangle is cleared incompletely
+- [[Positions/Closed Guard]] - Common position reached if posture recovery is partial and triangle is cleared incompletely
 
-- [[Omoplata Control]] - Alternate submission threat when posture-up creates stacking angle for triangle holder
+- [[Positions/Omoplata Control]] - Alternate submission threat when posture-up creates stacking angle for triangle holder
 
 
 </section>

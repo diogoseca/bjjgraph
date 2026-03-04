@@ -158,7 +158,7 @@ The critical defensive principle is that the anaconda switch requires the attack
 
 The defender must also understand that remaining passive in turtle during this transition guarantees the anaconda grip will lock. The attacker is counting on the defender maintaining their turtle posture while the grip change occurs overhead. Breaking this expectation through immediate, decisive movement—whether forward drive, arm extraction, or guard pull—disrupts the attacker's timing and forces them to choose between completing the anaconda grip or maintaining positional control. This defensive urgency is the single most important factor in surviving the anaconda switch from buggy choke.
 
-**Opponent's Starting Position**: [[Buggy Choke]] (Top)
+**Opponent's Starting Position**: [[Positions/Buggy Choke]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ The defender must also understand that remaining passive in turtle during this t
 ### 1. Tuck chin hard and drive forward explosively to block neck encirclement, using forehead pressure into the mat to create a structural barrier against the threading arm wrapping around the neck
 
 - **When to use**: Immediately when you feel the collar grip release and the arm begins redirecting around your neck, before the threading arm achieves full circumference around the throat
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: The attacker cannot complete the anaconda grip and must either return to buggy choke collar grip, switch to front headlock, or abandon the attack sequence entirely
 - **Risk**: If the forward drive is too aggressive without maintaining base, the attacker can use the momentum to snap you down into a front headlock or guillotine from the new angle
 
 ### 2. Extract near arm from between head and attacker's chest by pulling elbow tight and swimming the arm out before the figure-four grip locks, removing the trapped arm that enables bilateral compression
 
 - **When to use**: When you feel the threading arm has begun encircling your neck but the figure-four grip has not yet connected, and your near arm is still mobile enough to retract
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: Without the trapped arm, the anaconda loses its bilateral compression mechanic and the attacker must transition to guillotine, darce, or release to re-establish the buggy choke
 - **Risk**: The arm extraction creates space that the attacker may exploit to deepen the neck grip or switch to a darce configuration where the freed arm actually improves the darce angle
 
 ### 3. Sit to half guard explosively by dropping hip to the mat and threading inside leg between attacker's legs during the grip transition window when chest pressure is momentarily reduced
 
 - **When to use**: When the attacker has begun the grip change and their chest pressure has lightened during the transition, creating a window for hip movement that does not exist during consolidated buggy choke control
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You escape turtle entirely and establish half guard bottom, which provides frames, knee shield, and distance management options that make the anaconda grip much harder to maintain or finish
 - **Risk**: If the sit is too slow, the attacker follows and completes the anaconda grip while you are transitioning, leaving you in a worse position than turtle with the grip already locked
 
 ### 4. Post far arm on the mat and drive into the attacker while turning to face them, eliminating the perpendicular angle required for anaconda mechanics and forcing a front headlock scramble
 
 - **When to use**: When the attacker has partial neck control but has not yet threaded the support arm under your far armpit, and you have sufficient base to turn your torso toward them
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: The anaconda angle is eliminated and the exchange becomes a front headlock scramble where the defender has more defensive options and can work toward guard recovery or standing
 - **Risk**: The posted far arm is vulnerable to crucifix attacks if the attacker reads the posting motion and traps the extended arm with their legs before you complete the turn
 
@@ -228,11 +228,11 @@ The defender must also understand that remaining passive in turtle during this t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Buggy Choke]]
+### → [[Positions/Buggy Choke]]
 
 Disrupt the grip transition before the figure-four locks by tucking chin and driving forward to block neck encirclement, extracting the near arm to eliminate trapped-arm compression, or turning into the attacker to destroy the perpendicular angle. Any of these actions forces the attacker back to the original buggy choke control or into a less threatening front headlock position.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Exploit the momentary reduction in chest pressure during the grip transition by explosively sitting to half guard. Drop your near hip to the mat and thread your inside leg between the attacker's legs while they are focused on the grip change. The key timing is during the 1-2 second window after the collar release and before the anaconda figure-four connects, when the attacker's control is at its weakest.
 

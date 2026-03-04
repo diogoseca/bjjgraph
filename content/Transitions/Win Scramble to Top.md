@@ -21,7 +21,7 @@ From a strategic perspective, scramble victories depend on three critical factor
 
 Training scramble scenarios with progressive resistance develops the pattern recognition and automatic responses necessary to capitalize on these fleeting transitional windows. Competition data consistently shows that athletes with strong wrestling backgrounds win a disproportionate number of scramble exchanges precisely because they have internalized the hip-positioning and underhook principles that govern these chaotic moments.
 
-**From Position**: [[Scramble Position]] (Bottom)
+**From Position**: [[Positions/Scramble Position]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Training scramble scenarios with progressive resistance develops the pattern rec
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Scramble Position]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Scramble Position]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ Win Scramble to Top occupies a critical junction in the BJJ positional hierarchy
 ## Related Techniques
 
 
-- [[Scramble Position]] - Source position from which this transition initiates during chaotic exchanges
+- [[Positions/Scramble Position]] - Source position from which this transition initiates during chaotic exchanges
 
-- [[Side Control]] - Primary success outcome providing dominant top control and submission platform
+- [[Positions/Side Control]] - Primary success outcome providing dominant top control and submission platform
 
-- [[Open Guard]] - Counter outcome when opponent successfully inserts guard frames during transition
+- [[Positions/Open Guard]] - Counter outcome when opponent successfully inserts guard frames during transition
 
-- [[Stabilize to Guard from Scramble]] - Alternative scramble exit prioritizing guard recovery over top position
+- [[Transitions/Stabilize to Guard from Scramble]] - Alternative scramble exit prioritizing guard recovery over top position
 
-- [[Scramble from Failed Sweep]] - Common entry point that creates the scramble situation this transition addresses
+- [[Transitions/Scramble from Failed Sweep]] - Common entry point that creates the scramble situation this transition addresses
 
-- [[Scramble to Top Position]] - Related scramble transition with similar mechanics and objectives
+- [[Transitions/Scramble to Top Position]] - Related scramble transition with similar mechanics and objectives
 
-- [[Back Control]] - Alternative high-value target accessible when opponent turns away during scramble
+- [[Positions/Back Control]] - Alternative high-value target accessible when opponent turns away during scramble
 
-- [[Turtle]] - Transitional position that often occurs during failed scramble attempts
+- [[Positions/Turtle]] - Transitional position that often occurs during failed scramble attempts
 
-- [[Standing Position]] - Alternative scramble exit when top position is not achievable
+- [[Positions/Standing Position]] - Alternative scramble exit when top position is not achievable
 
-- [[Half Guard]] - Intermediate position that may result from partially successful scramble attempts
+- [[Positions/Half Guard]] - Intermediate position that may result from partially successful scramble attempts
 
 
 </section>

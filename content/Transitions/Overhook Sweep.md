@@ -21,7 +21,7 @@ The overhook sweep is highly reliable because it works with the opponent's natur
 
 This sweep serves as an anchor technique within the closed guard attacking system. Its true power lies in the branching attack tree it creates: when the sweep is defended, the overhook control naturally transitions to kimura attacks, triangle setups, or omoplata entries. Competition practitioners use the overhook sweep threat to force defensive reactions that open higher-percentage finishes. The sweep can be executed both in gi and no-gi scenarios, though grip configurations differ slightly between the two contexts.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This sweep serves as an anchor technique within the closed guard attacking syste
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Closed Guard]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -192,27 +192,27 @@ The overhook sweep is a cornerstone technique within the closed guard bottom att
 ## Related Techniques
 
 
-- [[Hip Bump Sweep]] - Alternative sweep when overhook is defended or not available
+- [[Transitions/Hip Bump Sweep]] - Alternative sweep when overhook is defended or not available
 
-- [[Scissor Sweep]] - Complementary sweep attacking opposite angle from closed guard
+- [[Transitions/Scissor Sweep]] - Complementary sweep attacking opposite angle from closed guard
 
-- [[Pendulum Sweep]] - Chain technique when opponent bases to prevent overhook sweep
+- [[Transitions/Pendulum Sweep]] - Chain technique when opponent bases to prevent overhook sweep
 
-- [[Flower Sweep]] - Follow-up sweep when opponent posts free hand wide
+- [[Transitions/Flower Sweep]] - Follow-up sweep when opponent posts free hand wide
 
-- [[Kimura from Guard]] - Submission attack from the same overhook control
+- [[Submissions/Kimura from Guard]] - Submission attack from the same overhook control
 
-- [[Triangle from Closed Guard]] - Alternative attack when opponent pulls arm free from overhook
+- [[Submissions/Triangle from Closed Guard]] - Alternative attack when opponent pulls arm free from overhook
 
-- [[Omoplata from Guard]] - Transition option from overhook control when sweep is stuffed
+- [[Submissions/Omoplata from Guard]] - Transition option from overhook control when sweep is stuffed
 
-- [[Butterfly Sweep]] - Related sweeping mechanics using leg leverage and angle
+- [[Transitions/Butterfly Sweep]] - Related sweeping mechanics using leg leverage and angle
 
-- [[Arm Drag to Back]] - Alternative to sweeping when opponent postures hard
+- [[Transitions/Arm Drag to Back]] - Alternative to sweeping when opponent postures hard
 
-- [[Mount]] - Primary target position achieved on successful sweep
+- [[Positions/Mount]] - Primary target position achieved on successful sweep
 
-- [[Closed Guard]] - Starting position from which the overhook sweep is initiated
+- [[Positions/Closed Guard]] - Starting position from which the overhook sweep is initiated
 
 
 </section>

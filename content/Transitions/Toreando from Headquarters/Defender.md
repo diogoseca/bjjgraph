@@ -146,7 +146,7 @@ description: "Complete defensive guide against the Toreando pass from Headquarte
 
 Defending the Toreando from Headquarters requires recognizing the transition from headquarters leg control to bilateral leg grips and responding before the passer initiates the explosive lateral step. The toreando is a speed-based pass that succeeds when the defender's legs are redirected laterally while the passer circles in the opposite direction. Effective defense centers on preventing bilateral grip acquisition, retracting legs before the lateral push begins, and maintaining hip mobility to follow the passer's lateral movement. The defender must understand that the toreando exploits distance creation, meaning the defensive strategies that work against pressure passes can actually create the very conditions the toreando requires. This defensive paradox makes reading the passer's grip transitions and weight shifts essential for selecting the appropriate defensive response.
 
-**Opponent's Starting Position**: [[Headquarters Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Headquarters Position]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Toreando from Headquarters requires recognizing the transition fro
 ### 1. Retract both legs immediately by pulling knees to chest and establishing closed or butterfly guard structure before the passer can redirect
 
 - **When to use**: At the earliest recognition that the passer is transitioning from headquarters grips to bilateral leg grips, before they establish firm control at the knee line
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Passer loses bilateral grip opportunity, is forced to re-establish headquarters control or attempt alternative pass, and you recover defensive guard structure
 - **Risk**: If retraction is too slow, the passer already has grips and the retraction becomes ineffective, potentially pulling the passer forward into a stack pass
 
 ### 2. Establish strong collar grip on the passer's lapel or neck with your near hand, anchoring them and preventing the explosive lateral step
 
 - **When to use**: When you recognize the toreando setup but cannot retract legs quickly enough to prevent grip acquisition, the collar grip creates an anchor point
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Passer cannot generate sufficient lateral speed with a collar grip anchoring them, pass stalls and they must strip your grip before reattempting, buying time for guard recovery
 - **Risk**: If the passer strips the collar grip and you have committed your arm forward, you temporarily lose that arm for framing and may be vulnerable to the pass
 
 ### 3. Hip escape toward the passing direction while inserting your near knee between your bodies, following the passer's lateral movement and recovering half guard or knee shield
 
 - **When to use**: When the passer has already initiated the lateral step and your legs have been partially redirected, making leg retraction no longer viable as a primary defense
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You catch the passer's leg with your knee insertion and establish half guard, converting the speed pass into a grinding positional battle where you have defensive options
 - **Risk**: If the hip escape is too slow or the passer has already cleared your hip line, the knee insertion fails and the passer achieves side control
 
 ### 4. Post both feet on the passer's hips and extend arms to create maximum distance, pushing them away to break grips and reset the passing exchange
 
 - **When to use**: When the passer is transitioning grip positions and has not yet established firm bilateral control, using the distance to strip incomplete grips
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Passer is pushed to maximum distance, bilateral grips are broken, and you can recover seated guard or open guard posture to re-engage defensively
 - **Risk**: Extended legs with feet on hips are exactly what the toreando exploits if the passer secures grips before you can push them away, potentially accelerating the pass
 
@@ -217,11 +217,11 @@ Defending the Toreando from Headquarters requires recognizing the transition fro
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a hip escape toward the passing direction as the passer commits to the lateral step. Insert your near knee between your bodies during the passer's forward commitment, catching their trailing leg and establishing half guard. The passer's lateral momentum makes it difficult for them to retract their leg once caught, converting their speed pass into a positional exchange where you have sweeping and back-taking options from half guard bottom.
 
-### → [[Headquarters Position]]
+### → [[Positions/Headquarters Position]]
 
 Deny the toreando by retracting your legs before the passer establishes bilateral grips, or by anchoring the passer with a strong collar grip that prevents their lateral step. Force the passer to abandon the toreando and return to headquarters, where you can reset your guard defensive structures and prepare for their next passing attempt.
 

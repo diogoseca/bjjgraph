@@ -26,8 +26,8 @@ Strategically, the Americana from Reverse Kesa serves as one of the primary subm
 **Category**: Joint Lock
 **Type**: Arm Lock
 **Target Area**: Shoulder and elbow joint
-**Starting Position**: [[Reverse Kesa-Gatame]]
-**From Position**: [[Reverse Kesa-Gatame]] (Top)
+**Starting Position**: [[Positions/Side Control/Reverse Kesa-Gatame]]
+**From Position**: [[Positions/Side Control/Reverse Kesa-Gatame]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -76,8 +76,8 @@ Strategically, the Americana from Reverse Kesa serves as one of the primary subm
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 50% |
-| Failure | [[Reverse Kesa-Gatame]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Failure | [[Positions/Side Control/Reverse Kesa-Gatame]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -227,9 +227,9 @@ Strategically, the Americana from Reverse Kesa serves as one of the primary subm
 
 ## From Which Positions?
 
-- [[Reverse Kesa-Gatame]]
-- [[Kesa Gatame]]
-- [[Side Control]]
+- [[Positions/Side Control/Reverse Kesa-Gatame]]
+- [[Positions/Side Control/Kesa Gatame]]
+- [[Positions/Side Control]]
 
 
 </section>
@@ -238,11 +238,11 @@ Strategically, the Americana from Reverse Kesa serves as one of the primary subm
 
 ## Related Submissions
 
-- [[Americana from Kesa Gatame]]
-- [[Americana from Side Control]]
-- [[Americana from Mount]]
-- [[Americana from Technical Mount]]
-- [[Arm Triangle from Scarf Hold]]
+- [[Submissions/Americana from Kesa Gatame]]
+- [[Submissions/Americana from Side Control]]
+- [[Submissions/Americana from Mount]]
+- [[Submissions/Americana from Technical Mount]]
+- [[Submissions/Arm Triangle from Scarf Hold]]
 
 
 </section>
@@ -251,12 +251,12 @@ Strategically, the Americana from Reverse Kesa serves as one of the primary subm
 
 ## Additional Related Content
 
-- [[Reverse Kesa-Gatame]] - Primary starting position providing natural arm isolation for the Americana
-- [[Kesa Gatame]] - Related scarf hold position with similar Americana setups from different orientation
-- [[Side Control]] - Parent positional family with alternate Americana entries
-- [[Americana from Kesa Gatame]] - Same submission from traditional scarf hold with different grip mechanics
-- [[Americana from Side Control]] - Same submission from standard cross-body side control
-- [[Kimura Trap]] - Primary chain submission when opponent straightens arm to defend Americana
+- [[Positions/Side Control/Reverse Kesa-Gatame]] - Primary starting position providing natural arm isolation for the Americana
+- [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position with similar Americana setups from different orientation
+- [[Positions/Side Control]] - Parent positional family with alternate Americana entries
+- [[Submissions/Americana from Kesa Gatame]] - Same submission from traditional scarf hold with different grip mechanics
+- [[Submissions/Americana from Side Control]] - Same submission from standard cross-body side control
+- [[Positions/Kimura Trap]] - Primary chain submission when opponent straightens arm to defend Americana
 
 
 </section>

@@ -93,25 +93,25 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 ### Available Transitions
 
 
-- **[[Inversion Escape]]** (14% of attempts)
+- **[[Transitions/Inversion Escape]]** (14% of attempts)
 
-- **[[Hip Escape to Guard]]** (7% of attempts)
+- **[[Transitions/Hip Escape to Guard]]** (7% of attempts)
 
-- **[[Angle Change Escape]]** (9% of attempts)
+- **[[Transitions/Angle Change Escape]]** (9% of attempts)
 
-- **[[Ashi Garami Escape]]** (7% of attempts)
+- **[[Transitions/Ashi Garami Escape]]** (7% of attempts)
 
-- **[[Counter-entangle to 50-50 Guard]]** (37% of attempts)
+- **[[Transitions/Counter-entangle to 50-50 Guard]]** (37% of attempts)
 
-- **[[Counter heel hook]]** (3% of attempts)
+- **[[Transitions/Counter heel hook]]** (3% of attempts)
 
-- **[[Reverse the entanglement to Outside Ashi]]** (8% of attempts)
+- **[[Transitions/Reverse the entanglement to Outside Ashi]]** (8% of attempts)
 
-- **[[Grip Break]]** (13% of attempts)
+- **[[Transitions/Grip Break]]** (13% of attempts)
 
-- **[[Standing Escape]]** (1% of attempts)
+- **[[Transitions/Standing Escape]]** (1% of attempts)
 
-- **[[Sweep from Honey Hole]]** (1% of attempts)
+- **[[Transitions/Sweep from Honey Hole]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -176,25 +176,25 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 ### Available Transitions
 
 
-- **[[Outside Heel Hook]]** (12% of attempts)
+- **[[Transitions/Outside Heel Hook]]** (12% of attempts)
 
-- **[[Heel Hook]]** (42% of attempts)
+- **[[Transitions/Heel Hook]]** (42% of attempts)
 
-- **[[Kneebar Finish]]** (14% of attempts)
+- **[[Transitions/Kneebar Finish]]** (14% of attempts)
 
-- **[[Toe Hold]]** (8% of attempts)
+- **[[Transitions/Toe Hold]]** (8% of attempts)
 
-- **[[Back Take from Ashi]]** (14% of attempts)
+- **[[Transitions/Back Take from Ashi]]** (14% of attempts)
 
-- **[[Estima Lock]]** (3% of attempts)
+- **[[Positions/Estima Lock]]** (3% of attempts)
 
-- **[[Backside 50-50 Entry from Ashi]]** (3% of attempts)
+- **[[Transitions/Backside 50-50 Entry from Ashi]]** (3% of attempts)
 
-- **[[Calf Slicer]]** (2% of attempts)
+- **[[Transitions/Calf Slicer]]** (2% of attempts)
 
-- **[[Honey Hole to Saddle]]** (1% of attempts)
+- **[[Transitions/Honey Hole to Saddle]]** (1% of attempts)
 
-- **[[Inside Heel Hook from Honey Hole]]** (1% of attempts)
+- **[[Transitions/Inside Heel Hook from Honey Hole]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -233,29 +233,29 @@ From a competitive standpoint, Honey Hole has revolutionized modern no-gi grappl
 ## Related Positions
 
 
-- **[[Saddle]]** - Alternative terminology for identical position configuration
+- **[[Positions/Ashi Garami/Saddle]]** - Alternative terminology for identical position configuration
 
-- **[[Inside Ashi-Garami]]** - Foundational leg entanglement preceding full Honey Hole establishment
+- **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Foundational leg entanglement preceding full Honey Hole establishment
 
-- **[[Outside Ashi-Garami]]** - Contrasting leg entanglement with different control mechanics and submission access
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Contrasting leg entanglement with different control mechanics and submission access
 
-- **[[50-50 Guard]]** - Common escape target via counter-entanglement from bottom perspective
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Common escape target via counter-entanglement from bottom perspective
 
-- **[[Cross Ashi-Garami]]** - Related leg entanglement within ashi garami positional family
+- **[[Positions/Ashi Garami/Cross Ashi-Garami]]** - Related leg entanglement within ashi garami positional family
 
-- **[[Single Leg X-Guard]]** - Frequent entry position for establishing Honey Hole from bottom guard
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Frequent entry position for establishing Honey Hole from bottom guard
 
-- **[[X-Guard]]** - Strategic guard position enabling Honey Hole entry transitions
+- **[[Positions/X-Guard]]** - Strategic guard position enabling Honey Hole entry transitions
 
-- **[[Backside 50-50]]** - Alternative leg entanglement accessible through rotational transitions
+- **[[Positions/Ashi Garami/Backside 50-50]]** - Alternative leg entanglement accessible through rotational transitions
 
-- **[[Ashi Garami]]** - Parent positional family encompassing all ashi variations
+- **[[Positions/Ashi Garami]]** - Parent positional family encompassing all ashi variations
 
-- **[[Inside Heel Hook]]** - Primary submission finish from this position with highest success rate
+- **[[Submissions/Inside Heel Hook]]** - Primary submission finish from this position with highest success rate
 
-- **[[Kneebar]]** - Secondary submission option when heel exposure is defended
+- **[[Transitions/Kneebar]]** - Secondary submission option when heel exposure is defended
 
-- **[[Leg Entanglement]]** - Conceptual framework governing all leg lock positions
+- **[[Positions/Leg Entanglement]]** - Conceptual framework governing all leg lock positions
 
 
 </section>

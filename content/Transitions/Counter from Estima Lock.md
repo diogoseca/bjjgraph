@@ -21,7 +21,7 @@ Success in this counter depends on understanding the biomechanical principles un
 
 This transition connects the Estima Lock defensive position to open guard recovery and represents an essential skill within comprehensive leg lock defense systems. The escape integrates counter-rotation principles found in other footlock defenses with grip-breaking mechanics specific to the Estima Lock's figure-four configuration. Practitioners who develop proficiency in this counter can engage more confidently in leg entanglement exchanges, knowing they possess reliable defensive options when opponents secure the characteristic inverted footlock grip.
 
-**From Position**: [[Estima Lock]] (Bottom)
+**From Position**: [[Positions/Estima Lock]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ This transition connects the Estima Lock defensive position to open guard recove
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 40% |
-| Failure | [[Estima Lock]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Open Guard]] | 40% |
+| Failure | [[Positions/Estima Lock]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -187,25 +187,25 @@ The Counter from Estima Lock connects the defensive Estima Lock bottom position 
 ## Related Techniques
 
 
-- [[Estima Lock]] - Source position where this counter is initiated from the bottom
+- [[Positions/Estima Lock]] - Source position where this counter is initiated from the bottom
 
-- [[Estima Lock Finish]] - The submission threat being escaped through this counter technique
+- [[Submissions/Estima Lock Finish]] - The submission threat being escaped through this counter technique
 
-- [[Open Guard]] - Primary recovery target position upon successful counter execution
+- [[Positions/Open Guard]] - Primary recovery target position upon successful counter execution
 
-- [[Side Control]] - Position reached if opponent transitions to guard pass during failed counter
+- [[Positions/Side Control]] - Position reached if opponent transitions to guard pass during failed counter
 
-- [[Ashi Garami Escape]] - Related leg entanglement escape sharing counter-rotation and extraction principles
+- [[Transitions/Ashi Garami Escape]] - Related leg entanglement escape sharing counter-rotation and extraction principles
 
-- [[Counter Rotation from Toe Hold]] - Similar counter-rotation escape mechanics applied to a different footlock threat
+- [[Transitions/Counter Rotation from Toe Hold]] - Similar counter-rotation escape mechanics applied to a different footlock threat
 
-- [[Ankle Lock Escape to Standing]] - Related footlock escape using standing base to generate extraction leverage
+- [[Transitions/Ankle Lock Escape to Standing]] - Related footlock escape using standing base to generate extraction leverage
 
-- [[Boot Defense from Toe Hold]] - Complementary foot defense technique with overlapping ankle protection principles
+- [[Transitions/Boot Defense from Toe Hold]] - Complementary foot defense technique with overlapping ankle protection principles
 
-- [[50-50 Guard]] - Common preceding position where Estima Lock threats frequently develop
+- [[Positions/Ashi Garami/50-50 Guard]] - Common preceding position where Estima Lock threats frequently develop
 
-- [[Leg Entanglement]] - Broader positional category encompassing the Estima Lock position
+- [[Positions/Leg Entanglement]] - Broader positional category encompassing the Estima Lock position
 
 
 </section>

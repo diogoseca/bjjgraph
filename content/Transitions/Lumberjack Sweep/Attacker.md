@@ -174,7 +174,7 @@ description: "How to execute Lumberjack Sweep in BJJ. Attacking perspective with
 
 The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on underhook control to off-balance and sweep an opponent who is attempting to pass. Named for the chopping motion used to break down the opponent's base, this technique is particularly effective against opponents who overcommit their weight forward or fail to establish proper crossface control. The sweep combines hip movement, underhook leverage, and precise timing to elevate the opponent and transition to a dominant top position. This technique serves as a cornerstone of modern half guard systems, providing a reliable option when the opponent is pressuring into your half guard. The Lumberjack Sweep's effectiveness lies in its ability to exploit the opponent's forward momentum, turning their pressure into a liability. By controlling the underhook and creating the proper angle, the bottom player can generate significant leverage despite being in an inferior position. This sweep integrates seamlessly with other half guard attacks, forming part of a comprehensive sweeping system that keeps opponents defensive and hesitant to engage.
 
-**From Position**: [[Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard]] (Bottom)
 
 </section>
 
@@ -226,9 +226,9 @@ The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on under
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 60% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 60% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -237,10 +237,10 @@ The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on under
 
 ## Opponent Counters
 
-- **Opponent establishes strong crossface and flattens you** (Effectiveness: High) - Your Response: Abandon sweep and transition to deep half guard or electric chair position. Use your underhook to swim back to deep half, or switch to attacking the far knee for old school sweep variation. → Leads to [[Half Guard]]
-- **Opponent posts their free hand on the mat to block the sweep** (Effectiveness: Medium) - Your Response: Use your free hand to strip their posting arm while continuing sweeping pressure. Alternatively, transition to kimura attack on the posted arm, or switch to waiter sweep if they overextend their post. → Leads to [[Half Guard]]
-- **Opponent extracts their trapped leg and begins passing** (Effectiveness: High) - Your Response: If leg begins extracting, immediately switch to butterfly hook or transition to single leg x-guard. Use your underhook to prevent them from establishing side control and create frames to recover full guard. → Leads to [[Half Guard]]
-- **Opponent sprawls back and pulls their weight away** (Effectiveness: Medium) - Your Response: Follow their movement by transitioning to deep half guard or coming up on the single leg. Use their backward motion to establish deep position or attack their base with single leg control. → Leads to [[Half Guard]]
+- **Opponent establishes strong crossface and flattens you** (Effectiveness: High) - Your Response: Abandon sweep and transition to deep half guard or electric chair position. Use your underhook to swim back to deep half, or switch to attacking the far knee for old school sweep variation. → Leads to [[Positions/Half Guard]]
+- **Opponent posts their free hand on the mat to block the sweep** (Effectiveness: Medium) - Your Response: Use your free hand to strip their posting arm while continuing sweeping pressure. Alternatively, transition to kimura attack on the posted arm, or switch to waiter sweep if they overextend their post. → Leads to [[Positions/Half Guard]]
+- **Opponent extracts their trapped leg and begins passing** (Effectiveness: High) - Your Response: If leg begins extracting, immediately switch to butterfly hook or transition to single leg x-guard. Use your underhook to prevent them from establishing side control and create frames to recover full guard. → Leads to [[Positions/Half Guard]]
+- **Opponent sprawls back and pulls their weight away** (Effectiveness: Medium) - Your Response: Follow their movement by transitioning to deep half guard or coming up on the single leg. Use their backward motion to establish deep position or attack their base with single leg control. → Leads to [[Positions/Half Guard]]
 
 
 </section>

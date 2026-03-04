@@ -148,7 +148,7 @@ description: "Defend against the Stack Escape from Triangle in BJJ. Learn to mai
 
 Defending against the Stack Escape requires the triangle bottom player to maintain choking geometry under increasing forward pressure while preparing secondary attack transitions. As the practitioner with the triangle locked, your primary defensive objective is to preserve the perpendicular angle that generates arterial compression by constantly adjusting hip position through hip escaping to the choking leg side. When the stack progresses beyond a recoverable triangle angle, transitioning to the omoplata represents the highest-percentage counter, using the opponent's own forward commitment against them. Understanding the decision point between maintaining the triangle and transitioning to omoplata is the critical defensive skill that separates effective triangle players from those who lose their position entirely when opponents commit to the stack. The defender must also maintain constant head control and hip extension to resist the stack before it develops full compression, as early intervention is significantly more effective than late-stage resistance.
 
-**Opponent's Starting Position**: [[Triangle Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Triangle Control]] (Top)
 
 </section>
 
@@ -186,21 +186,21 @@ Defending against the Stack Escape requires the triangle bottom player to mainta
 ### 1. Hip escape to choking leg side to re-establish perpendicular finishing angle before stack develops full pressure
 
 - **When to use**: When opponent begins driving forward but has not yet fully committed to the stack with both feet posted
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Maintain full triangle choking pressure with restored perpendicular angle, forcing opponent to restart their escape sequence
 - **Risk**: If timed too late, the opponent's forward momentum overrides the angle adjustment and the stack continues with additional compression
 
 ### 2. Transition to omoplata by releasing triangle lock and pivoting hips to capture trapped arm at the shoulder
 
 - **When to use**: When the stack has progressed to the point where your triangle angle is fully compromised and your back is being driven flat despite hip adjustments
-- **Targets**: [[Omoplata Control]]
+- **Targets**: [[Positions/Omoplata Control]]
 - **If successful**: Establish dominant omoplata control with sweep and submission options, converting the opponent's escape attempt into a worse position
 - **Risk**: If the pivot is incomplete or too slow, the opponent may extract their arm and complete the pass to side control
 
 ### 3. Pull opponent's head down with both hands while extending hips upward to break their posture and re-establish choking pressure
 
 - **When to use**: Early in the stack attempt before the opponent has established full upright posture and bilateral hip grips
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: Collapse opponent's posture back into the triangle, restoring full choking pressure and denying the postural foundation for the stack
 - **Risk**: If opponent's posture is already too established, pulling the head wastes energy without breaking the stack and delays the omoplata transition window
 
@@ -212,11 +212,11 @@ Defending against the Stack Escape requires the triangle bottom player to mainta
 
 ## Best-Case Outcomes for Defender
 
-### → [[Triangle Control]]
+### → [[Positions/Triangle Control]]
 
 Maintain the perpendicular choking angle through constant hip escaping to the choking leg side. Pull the opponent's head down aggressively with both hands, extend hips for maximum upward pressure, and keep the choking leg's knee pointing toward the trapped shoulder to sustain arterial compression despite stacking attempts.
 
-### → [[Omoplata Control]]
+### → [[Positions/Omoplata Control]]
 
 When the stack neutralizes your triangle angle beyond recovery, immediately release the lock and pivot your hips toward the trapped arm side. Shoot your top leg through to capture the opponent's arm at the shoulder joint, establishing omoplata control before they can posture up and extract the arm. Use their forward stacking momentum to assist the rotation.
 

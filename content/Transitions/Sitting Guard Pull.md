@@ -19,7 +19,7 @@ The Sitting Guard Pull is one of the most fundamental and reliable methods for e
 
 The sitting guard pull's high success rate across all skill levels makes it an essential technique for competitors who prefer playing guard, as it reliably achieves the desired position while minimizing risk of injury or positional disadvantage. The critical window of vulnerability occurs during the descent phase, where grip tension and controlled movement determine whether you land in a strong guard or give your opponent a free passing opportunity. Mastery of this technique provides a solid platform for developing a comprehensive guard game, and the mechanical principles transfer directly to guard recovery situations throughout a match.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 75%
 
 </section>
@@ -30,9 +30,9 @@ The sitting guard pull's high success rate across all skill levels makes it an e
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Seated Guard]] | 75% |
-| Failure | [[Standing Position]] | 15% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Seated Guard]] | 75% |
+| Failure | [[Positions/Standing Position]] | 15% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -192,29 +192,29 @@ The sitting guard pull serves as the primary bridge between standing neutral pos
 ## Related Techniques
 
 
-- [[Seated Guard]] - Primary ending position - the sitting guard pull establishes seated guard configuration
+- [[Positions/Seated Guard]] - Primary ending position - the sitting guard pull establishes seated guard configuration
 
-- [[Butterfly Guard]] - Common variation - sitting directly to butterfly guard with hooks inserted
+- [[Positions/Butterfly Guard]] - Common variation - sitting directly to butterfly guard with hooks inserted
 
-- [[De La Riva Guard]] - Common variation - establishing DLR hook and control immediately upon sitting
+- [[Positions/De La Riva Guard]] - Common variation - establishing DLR hook and control immediately upon sitting
 
-- [[Standing Position]] - Starting position - the neutral standing state from which the guard pull initiates
+- [[Positions/Standing Position]] - Starting position - the neutral standing state from which the guard pull initiates
 
-- [[Pull guard]] - Related technique - generic guard pulling category that includes sitting variation
+- [[Transitions/Pull guard]] - Related technique - generic guard pulling category that includes sitting variation
 
-- [[Jumping Guard]] - Alternative approach - more dynamic guard pull versus controlled sitting
+- [[Transitions/Jumping Guard]] - Alternative approach - more dynamic guard pull versus controlled sitting
 
-- [[Guard Recovery]] - Related concept - sitting mechanics apply to guard recovery scenarios
+- [[Principles/Guard Recovery]] - Related concept - sitting mechanics apply to guard recovery scenarios
 
-- [[Butterfly Sweep]] - Follow-up technique - immediate offensive option after butterfly guard pull
+- [[Transitions/Butterfly Sweep]] - Follow-up technique - immediate offensive option after butterfly guard pull
 
-- [[De La Riva Sweep]] - Follow-up technique - offensive action from DLR guard pull variation
+- [[Transitions/De La Riva Sweep]] - Follow-up technique - offensive action from DLR guard pull variation
 
-- [[Open Guard]] - Parent guard category that seated guard belongs to
+- [[Positions/Open Guard]] - Parent guard category that seated guard belongs to
 
-- [[Toreando Pass]] - Primary counter technique opponent uses against seated guard establishment
+- [[Transitions/Toreando Pass]] - Primary counter technique opponent uses against seated guard establishment
 
-- [[Leg Drag Pass]] - Counter technique opponent may attempt during or after the guard pull
+- [[Transitions/Leg Drag Pass]] - Counter technique opponent may attempt during or after the guard pull
 
 
 </section>

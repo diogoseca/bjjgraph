@@ -180,7 +180,7 @@ description: "Complete guide to executing the systematic frame-and-hip escape fr
 
 Executing the frame-and-hip escape from Modified Scarf Hold requires disciplined, incremental space creation rather than explosive power. The bottom player uses structural frames against the opponent's hip and shoulder to convert each hip escape movement into cumulative positional improvement. Unlike the bridge escape that relies on timing a single explosive movement, this technique rewards patience and mechanical precision, making it the higher-percentage option against larger opponents and pressure specialists. Success depends on establishing effective frames before moving the hips, maintaining those frames through each shrimp cycle, and recognizing the moment when enough space exists to insert a knee and recover guard. The technique is the cornerstone of Modified Scarf Hold defense because it provides consistent forward progress with minimal energy expenditure and lower counter risk than explosive alternatives.
 
-**From Position**: [[Modified Scarf Hold]] (Bottom)
+**From Position**: [[Positions/Side Control/Modified Scarf Hold]] (Bottom)
 
 </section>
 
@@ -232,11 +232,11 @@ Executing the frame-and-hip escape from Modified Scarf Hold requires disciplined
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 35% |
-| Success | [[Open Guard]] | 10% |
-| Failure | [[Modified Scarf Hold]] | 30% |
-| Counter | [[Mount]] | 15% |
-| Counter | [[North-South]] | 10% |
+| Success | [[Positions/Half Guard]] | 35% |
+| Success | [[Positions/Open Guard]] | 10% |
+| Failure | [[Positions/Side Control/Modified Scarf Hold]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
+| Counter | [[Positions/North-South]] | 10% |
 
 
 </section>
@@ -245,10 +245,10 @@ Executing the frame-and-hip escape from Modified Scarf Hold requires disciplined
 
 ## Opponent Counters
 
-- **Opponent drives chest pressure forward and sprawls to collapse the hip frame** (Effectiveness: High) - Your Response: If the opponent sprawls into your frame, use their forward momentum to switch to a bridge escape. Their sprawl shifts weight forward past your center, making them vulnerable to a directional bridge toward their head. Chain the techniques: frame escape attempt draws the sprawl, bridge escape exploits the sprawl. → Leads to [[Modified Scarf Hold]]
-- **Opponent circles toward your head to transition to north-south during hip escape** (Effectiveness: Medium) - Your Response: When you feel the opponent circling toward your head, immediately redirect your frames to their new approach angle and shrimp in the direction they are circling. Turn your body to face them and insert both knees as a barrier. If they complete the north-south transition, switch to north-south escape protocols immediately. → Leads to [[North-South]]
-- **Opponent steps over to mount when hip escape creates space** (Effectiveness: High) - Your Response: The moment you feel the opponent's knee lifting for a mount transition, immediately drive your near knee across their path as a block. If you have already created hip angle, use this to slide your knee in front of their advancing leg. If the mount is established, transition to mount escape without hesitation. → Leads to [[Mount]]
-- **Opponent deepens near-arm control by swimming under the armpit** (Effectiveness: Medium) - Your Response: If the opponent deepens arm control in response to your hip escape, temporarily prioritize arm recovery over continued hip movement. Use your free hand to fight their grip on the near arm, re-anchor your elbow to your ribs, and then resume the frame-and-shrimp sequence. Never continue hip escapes with a fully isolated near arm. → Leads to [[Modified Scarf Hold]]
+- **Opponent drives chest pressure forward and sprawls to collapse the hip frame** (Effectiveness: High) - Your Response: If the opponent sprawls into your frame, use their forward momentum to switch to a bridge escape. Their sprawl shifts weight forward past your center, making them vulnerable to a directional bridge toward their head. Chain the techniques: frame escape attempt draws the sprawl, bridge escape exploits the sprawl. → Leads to [[Positions/Side Control/Modified Scarf Hold]]
+- **Opponent circles toward your head to transition to north-south during hip escape** (Effectiveness: Medium) - Your Response: When you feel the opponent circling toward your head, immediately redirect your frames to their new approach angle and shrimp in the direction they are circling. Turn your body to face them and insert both knees as a barrier. If they complete the north-south transition, switch to north-south escape protocols immediately. → Leads to [[Positions/North-South]]
+- **Opponent steps over to mount when hip escape creates space** (Effectiveness: High) - Your Response: The moment you feel the opponent's knee lifting for a mount transition, immediately drive your near knee across their path as a block. If you have already created hip angle, use this to slide your knee in front of their advancing leg. If the mount is established, transition to mount escape without hesitation. → Leads to [[Positions/Mount]]
+- **Opponent deepens near-arm control by swimming under the armpit** (Effectiveness: Medium) - Your Response: If the opponent deepens arm control in response to your hip escape, temporarily prioritize arm recovery over continued hip movement. Use your free hand to fight their grip on the near arm, re-anchor your elbow to your ribs, and then resume the frame-and-shrimp sequence. Never continue hip escapes with a fully isolated near arm. → Leads to [[Positions/Side Control/Modified Scarf Hold]]
 
 
 </section>

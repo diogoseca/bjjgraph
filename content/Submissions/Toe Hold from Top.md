@@ -26,7 +26,7 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Ankle and knee ligaments (lateral ankle complex, medial collateral ligament)
-**Starting Position**: [[Inside Ashi-Garami]]
+**Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]]
 **Success Rate**: 58%
 
 </section>
@@ -83,8 +83,8 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Inside Ashi-Garami]] | 25% |
-| Counter | [[Open Guard]] | 15% |
+| Failure | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 25% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -243,16 +243,16 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 
 ## From Which Positions?
 
-- [[Inside Ashi-Garami]]
-- [[Outside Ashi-Garami]]
-- [[50-50 Guard]]
-- [[Saddle]]
-- [[Cross Ashi-Garami]]
-- [[Single Leg X-Guard]]
-- [[Headquarters Position]]
-- [[Knee Shield Half Guard]]
-- [[Deep Half Guard]]
-- [[Reverse De La Riva Guard]]
+- [[Positions/Ashi Garami/Inside Ashi-Garami]]
+- [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- [[Positions/Ashi Garami/50-50 Guard]]
+- [[Positions/Ashi Garami/Saddle]]
+- [[Positions/Ashi Garami/Cross Ashi-Garami]]
+- [[Positions/X-Guard/Single Leg X-Guard]]
+- [[Positions/Headquarters Position]]
+- [[Positions/Half Guard/Knee Shield Half Guard]]
+- [[Positions/Half Guard/Deep Half Guard]]
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 
 
 </section>
@@ -261,18 +261,18 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 
 ## Related Submissions
 
-- [[Heel Hook]]
-- [[Inside Heel Hook]]
-- [[Outside Heel Hook]]
-- [[Straight Ankle Lock]]
-- [[Kneebar]]
-- [[Kneebar from Top]]
-- [[Toe Hold from 50-50]]
-- [[Toe Hold]]
-- [[Achilles Lock]]
-- [[Calf Slicer]]
-- [[Estima Lock]]
-- [[Kneebar from 50-50]]
+- [[Transitions/Heel Hook]]
+- [[Submissions/Inside Heel Hook]]
+- [[Transitions/Outside Heel Hook]]
+- [[Submissions/Straight Ankle Lock]]
+- [[Transitions/Kneebar]]
+- [[Submissions/Kneebar from Top]]
+- [[Submissions/Toe Hold from 50-50]]
+- [[Transitions/Toe Hold]]
+- [[Submissions/Achilles Lock]]
+- [[Transitions/Calf Slicer]]
+- [[Positions/Estima Lock]]
+- [[Submissions/Kneebar from 50-50]]
 
 
 </section>
@@ -281,16 +281,16 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 
 ## Additional Related Content
 
-- [[Inside Ashi-Garami]] - Primary starting position for toe hold application with fundamental leg control structure
-- [[Outside Ashi-Garami]] - Alternative starting position providing excellent toe hold control and preventing opponent's counter-rotation
-- [[Saddle]] - Advanced leg entanglement position where toe hold serves as alternative to heel hook when heel is defended
-- [[50-50 Guard]] - Symmetrical entanglement position where toe hold can be applied in competitive race situations
-- [[Heel Hook]] - More dangerous leg lock that shares similar positions and can be used to set up or chain with toe hold attacks
-- [[Straight Ankle Lock]] - Related foot lock submission that can be transitioned to from toe hold if rotation is unsuccessful
-- [[Kneebar from Top]] - Alternative leg lock that attacks same leg from similar positions, often used in combination sequences
-- [[Leg Entanglement]] - Conceptual framework for understanding the positional control required before attempting toe hold
-- [[Kneebar Control]] - Control position for alternative leg attack accessible from same leg entanglements
-- [[Toe Hold Control]] - Control position representing the established toe hold grip before finishing pressure
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Primary starting position for toe hold application with fundamental leg control structure
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative starting position providing excellent toe hold control and preventing opponent's counter-rotation
+- [[Positions/Ashi Garami/Saddle]] - Advanced leg entanglement position where toe hold serves as alternative to heel hook when heel is defended
+- [[Positions/Ashi Garami/50-50 Guard]] - Symmetrical entanglement position where toe hold can be applied in competitive race situations
+- [[Transitions/Heel Hook]] - More dangerous leg lock that shares similar positions and can be used to set up or chain with toe hold attacks
+- [[Submissions/Straight Ankle Lock]] - Related foot lock submission that can be transitioned to from toe hold if rotation is unsuccessful
+- [[Submissions/Kneebar from Top]] - Alternative leg lock that attacks same leg from similar positions, often used in combination sequences
+- [[Positions/Leg Entanglement]] - Conceptual framework for understanding the positional control required before attempting toe hold
+- [[Positions/Kneebar Control]] - Control position for alternative leg attack accessible from same leg entanglements
+- [[Positions/Toe Hold Control]] - Control position representing the established toe hold grip before finishing pressure
 
 
 </section>

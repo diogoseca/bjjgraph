@@ -180,7 +180,7 @@ The technique's effectiveness stems from the combination of positional dominance
 
 The Americana from Mount serves as a cornerstone technique in any top game arsenal, functioning not only as a direct finishing option but also as a gateway to other submissions and positional advancements. Its reliability in both gi and no-gi competition, combined with its straightforward mechanics, makes it an essential submission for practitioners at all levels.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 
 
 </section>
@@ -235,8 +235,8 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -245,11 +245,11 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 
 ## Opponent Defenses
 
-- **Opponent keeps elbows tight to body and refuses to extend arms** (Effectiveness: High) - Your Response: Use collar control or gift wraps to isolate an arm, or transition to other mount attacks like cross-collar chokes or armbars to force defensive reactions that expose the arm → Leads to [[Mount]]
-- **Opponent attempts to roll or bridge explosively when arm is captured** (Effectiveness: Medium) - Your Response: Widen your base immediately upon capturing the wrist, post your opposite leg out, and drive your weight forward and down to flatten them. If the roll is committed, follow them over and establish side control or maintain the americana grip during the transition → Leads to [[Closed Guard]]
-- **Opponent grabs their own belt, pants, or gi to create a defensive grip** (Effectiveness: Medium) - Your Response: Use your free hand to break the grip by attacking the weakest point (typically the thumb), or transition your weight to trap their defensive hand against their body, then peel it away with controlled pressure → Leads to [[Mount]]
-- **Opponent straightens their arm completely to prevent the 90-degree angle** (Effectiveness: Low) - Your Response: This defensive attempt actually exposes them to an armbar. Maintain wrist control, swing your leg over their face, and transition to mounted armbar while keeping your grip on their wrist throughout → Leads to [[Mount]]
-- **Opponent uses their free arm to push your head or create frames** (Effectiveness: Low) - Your Response: Use your head position and shoulder pressure to pin their free arm, or capture it for a mounted crucifix position. Your body weight should make their frames ineffective if your base is proper → Leads to [[Mount]]
+- **Opponent keeps elbows tight to body and refuses to extend arms** (Effectiveness: High) - Your Response: Use collar control or gift wraps to isolate an arm, or transition to other mount attacks like cross-collar chokes or armbars to force defensive reactions that expose the arm → Leads to [[Positions/Mount]]
+- **Opponent attempts to roll or bridge explosively when arm is captured** (Effectiveness: Medium) - Your Response: Widen your base immediately upon capturing the wrist, post your opposite leg out, and drive your weight forward and down to flatten them. If the roll is committed, follow them over and establish side control or maintain the americana grip during the transition → Leads to [[Positions/Closed Guard]]
+- **Opponent grabs their own belt, pants, or gi to create a defensive grip** (Effectiveness: Medium) - Your Response: Use your free hand to break the grip by attacking the weakest point (typically the thumb), or transition your weight to trap their defensive hand against their body, then peel it away with controlled pressure → Leads to [[Positions/Mount]]
+- **Opponent straightens their arm completely to prevent the 90-degree angle** (Effectiveness: Low) - Your Response: This defensive attempt actually exposes them to an armbar. Maintain wrist control, swing your leg over their face, and transition to mounted armbar while keeping your grip on their wrist throughout → Leads to [[Positions/Mount]]
+- **Opponent uses their free arm to push your head or create frames** (Effectiveness: Low) - Your Response: Use your head position and shoulder pressure to pin their free arm, or capture it for a mounted crucifix position. Your body weight should make their frames ineffective if your base is proper → Leads to [[Positions/Mount]]
 
 
 </section>

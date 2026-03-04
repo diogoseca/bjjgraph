@@ -186,7 +186,7 @@ description: "Master the systematic approach to passing collar sleeve guard. Lea
 
 From the passer's perspective, defeating collar sleeve guard requires a systematic approach that prioritizes grip elimination before positional advancement. The core challenge lies in breaking two interconnected grips that work together to control your posture and base while the guard player threatens sweeps and submissions. Success demands patience to complete the full grip-breaking sequence rather than rushing into passing attempts while grips remain active, which is the most common reason passes against collar sleeve guard fail at every level of competition.
 
-**From Position**: [[Collar Sleeve Guard]] (Top)
+**From Position**: [[Positions/Collar Sleeve Guard]] (Top)
 
 </section>
 
@@ -239,11 +239,11 @@ From the passer's perspective, defeating collar sleeve guard requires a systemat
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Half Guard]] | 10% |
-| Failure | [[Collar Sleeve Guard]] | 22% |
-| Counter | [[Closed Guard]] | 12% |
-| Counter | [[Mount]] | 6% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Half Guard]] | 10% |
+| Failure | [[Positions/Collar Sleeve Guard]] | 22% |
+| Counter | [[Positions/Closed Guard]] | 12% |
+| Counter | [[Positions/Mount]] | 6% |
 
 
 </section>
@@ -252,10 +252,10 @@ From the passer's perspective, defeating collar sleeve guard requires a systemat
 
 ## Opponent Counters
 
-- **Guard player immediately re-grips collar during the passing transition between grip breaks** (Effectiveness: High) - Your Response: Maintain wrist control on the freed hand throughout the entire sequence and do not release it until forward chest pressure is established, eliminating the re-gripping window → Leads to [[Collar Sleeve Guard]]
-- **Guard player shoots triangle when your arm extends forward during the two-on-one grip break** (Effectiveness: Medium) - Your Response: Keep elbows pinned to your ribs during grip breaks and use hip extension rather than arm extension to generate breaking force, denying the arm isolation needed for triangle entry → Leads to [[Closed Guard]]
-- **Guard player executes pendulum or flower sweep during forward driving phase** (Effectiveness: Medium) - Your Response: Do not commit full weight forward until both grips are broken, and base out wide with hands ready to post if you feel loading for a sweep during the drive-through → Leads to [[Mount]]
-- **Guard player hip escapes and re-inserts knee shield or hooks as you drive through the centerline** (Effectiveness: High) - Your Response: Maintain heavy crossface pressure and drive your knee through their thigh line immediately as you clear the hips, occupying space before they can establish frames or recover hooks → Leads to [[Half Guard]]
+- **Guard player immediately re-grips collar during the passing transition between grip breaks** (Effectiveness: High) - Your Response: Maintain wrist control on the freed hand throughout the entire sequence and do not release it until forward chest pressure is established, eliminating the re-gripping window → Leads to [[Positions/Collar Sleeve Guard]]
+- **Guard player shoots triangle when your arm extends forward during the two-on-one grip break** (Effectiveness: Medium) - Your Response: Keep elbows pinned to your ribs during grip breaks and use hip extension rather than arm extension to generate breaking force, denying the arm isolation needed for triangle entry → Leads to [[Positions/Closed Guard]]
+- **Guard player executes pendulum or flower sweep during forward driving phase** (Effectiveness: Medium) - Your Response: Do not commit full weight forward until both grips are broken, and base out wide with hands ready to post if you feel loading for a sweep during the drive-through → Leads to [[Positions/Mount]]
+- **Guard player hip escapes and re-inserts knee shield or hooks as you drive through the centerline** (Effectiveness: High) - Your Response: Maintain heavy crossface pressure and drive your knee through their thigh line immediately as you clear the hips, occupying space before they can establish frames or recover hooks → Leads to [[Positions/Half Guard]]
 
 
 </section>

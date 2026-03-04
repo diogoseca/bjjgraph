@@ -21,7 +21,7 @@ The technique operates on the fundamental principle that the seat belt grip, whi
 
 Strategic timing is critical for successful execution. The optimal escape windows occur when the back controller commits to submission attempts, adjusts hooks, or shifts weight for positional changes. During these moments of transitional instability, the grip-breaking sequence succeeds at significantly higher rates than when attempted against a fully settled opponent. The escape demands composure under extreme pressure, as the proximity to rear naked choke and other high-percentage submissions creates urgency that must be channeled into technical precision rather than panicked movement.
 
-**From Position**: [[Seat Belt Control Back]] (Bottom)
+**From Position**: [[Positions/Back Control/Seat Belt Control Back]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ Strategic timing is critical for successful execution. The optimal escape window
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 35% |
-| Success | [[Half Guard]] | 10% |
-| Failure | [[Seat Belt Control Back]] | 40% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Turtle]] | 35% |
+| Success | [[Positions/Half Guard]] | 10% |
+| Failure | [[Positions/Back Control/Seat Belt Control Back]] | 40% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -196,25 +196,25 @@ The Escape Seat Belt Control sits within the broader back defense system as a sp
 ## Related Techniques
 
 
-- [[Seat Belt Control Back]] - Starting position - the dominant back control configuration this escape targets
+- [[Positions/Back Control/Seat Belt Control Back]] - Starting position - the dominant back control configuration this escape targets
 
-- [[Turtle]] - Primary escape destination - most common landing position after successful grip break
+- [[Positions/Turtle]] - Primary escape destination - most common landing position after successful grip break
 
-- [[Back Control]] - Parent position category containing seat belt as a specific grip configuration
+- [[Positions/Back Control]] - Parent position category containing seat belt as a specific grip configuration
 
-- [[Half Guard]] - Alternative escape destination when turning generates partial guard recovery
+- [[Positions/Half Guard]] - Alternative escape destination when turning generates partial guard recovery
 
-- [[Mount]] - Counter outcome position when opponent follows the escape turn and transitions to mount
+- [[Positions/Mount]] - Counter outcome position when opponent follows the escape turn and transitions to mount
 
-- [[Body Triangle]] - Related back control variant requiring modified escape approach due to leg lock control
+- [[Positions/Back Control/Body Triangle]] - Related back control variant requiring modified escape approach due to leg lock control
 
-- [[Elbow Escape from Back]] - Complementary escape technique focusing on hook removal rather than grip breaking
+- [[Transitions/Elbow Escape from Back]] - Complementary escape technique focusing on hook removal rather than grip breaking
 
-- [[Back Door Escape]] - Alternative escape method using lateral sliding rather than grip dismantling
+- [[Transitions/Back Door Escape]] - Alternative escape method using lateral sliding rather than grip dismantling
 
-- [[Back Control Maintenance]] - Opposing technique the top player uses to prevent this escape
+- [[Transitions/Back Control Maintenance]] - Opposing technique the top player uses to prevent this escape
 
-- [[Closed Guard]] - Alternative recovery position when escape generates enough rotation to face opponent
+- [[Positions/Closed Guard]] - Alternative recovery position when escape generates enough rotation to face opponent
 
 
 </section>

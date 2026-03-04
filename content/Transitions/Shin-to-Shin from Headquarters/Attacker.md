@@ -180,7 +180,7 @@ description: "Master the Shin-to-Shin entry from Headquarters bottom. Learn timi
 
 As the attacker executing Shin-to-Shin from Headquarters, you are the bottom player trapped in a systematically disadvantageous position. The top player's headquarters structure is designed to funnel you into progressively worse positions through knee cuts, leg drags, and toreando passes. Your objective is to break this cycle by proactively inserting your free shin across their posting leg's shin, establishing a perpendicular connection that arrests their passing system and creates an entirely new positional dynamic in your favor. This requires precise timing, efficient hip movement, and coordinated grip work to exploit the brief windows that appear when the top player adjusts weight distribution to initiate specific passes. The transition demands patience to wait for the correct moment rather than forcing insertion against full pressure, combined with explosive execution once the window appears.
 
-**From Position**: [[Headquarters Position]] (Bottom)
+**From Position**: [[Positions/Headquarters Position]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ As the attacker executing Shin-to-Shin from Headquarters, you are the bottom pla
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Shin-to-Shin Guard]] | 50% |
-| Failure | [[Headquarters Position]] | 30% |
-| Counter | [[Open Guard]] | 20% |
+| Success | [[Positions/Shin-to-Shin Guard]] | 50% |
+| Failure | [[Positions/Headquarters Position]] | 30% |
+| Counter | [[Positions/Open Guard]] | 20% |
 
 
 </section>
@@ -243,10 +243,10 @@ As the attacker executing Shin-to-Shin from Headquarters, you are the bottom pla
 
 ## Opponent Counters
 
-- **Top player drives knee forward through insertion attempt, collapsing shin connection before it's established** (Effectiveness: High) - Your Response: If insertion is collapsed, immediately retract and use the free leg as a butterfly hook instead, converting the failed shin-to-shin into a butterfly guard recovery that still disrupts their headquarters structure → Leads to [[Headquarters Position]]
-- **Top player backsteps their posting leg away from the insertion, removing the target shin entirely** (Effectiveness: Medium) - Your Response: Follow the retreating leg with your hips, using the space created by their backstep to recover full guard or establish De La Riva hook on their remaining lead leg, converting their avoidance into a guard recovery opportunity → Leads to [[Open Guard]]
-- **Top player strips grips and applies heavy cross-face pressure to flatten you during insertion** (Effectiveness: High) - Your Response: Frame on the cross-face side with your elbow and forearm to prevent being flattened, then use the frame to create space for a secondary hip escape. If flattened, switch to half guard retention rather than continuing the shin-to-shin attempt → Leads to [[Headquarters Position]]
-- **Top player grabs your inserting foot or ankle and redirects it away from their shin** (Effectiveness: Medium) - Your Response: Use the grip on your foot as an anchor to pull your hips closer and attempt a different guard entry — the foot grip commitment opens their upper body for collar drag or arm drag sequences that create scramble opportunities → Leads to [[Open Guard]]
+- **Top player drives knee forward through insertion attempt, collapsing shin connection before it's established** (Effectiveness: High) - Your Response: If insertion is collapsed, immediately retract and use the free leg as a butterfly hook instead, converting the failed shin-to-shin into a butterfly guard recovery that still disrupts their headquarters structure → Leads to [[Positions/Headquarters Position]]
+- **Top player backsteps their posting leg away from the insertion, removing the target shin entirely** (Effectiveness: Medium) - Your Response: Follow the retreating leg with your hips, using the space created by their backstep to recover full guard or establish De La Riva hook on their remaining lead leg, converting their avoidance into a guard recovery opportunity → Leads to [[Positions/Open Guard]]
+- **Top player strips grips and applies heavy cross-face pressure to flatten you during insertion** (Effectiveness: High) - Your Response: Frame on the cross-face side with your elbow and forearm to prevent being flattened, then use the frame to create space for a secondary hip escape. If flattened, switch to half guard retention rather than continuing the shin-to-shin attempt → Leads to [[Positions/Headquarters Position]]
+- **Top player grabs your inserting foot or ankle and redirects it away from their shin** (Effectiveness: Medium) - Your Response: Use the grip on your foot as an anchor to pull your hips closer and attempt a different guard entry — the foot grip commitment opens their upper body for collar drag or arm drag sequences that create scramble opportunities → Leads to [[Positions/Open Guard]]
 
 
 </section>

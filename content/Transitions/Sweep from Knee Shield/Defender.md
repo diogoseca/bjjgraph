@@ -154,7 +154,7 @@ description: "Learn to defend and counter the Sweep from Knee Shield in BJJ. Rec
 
 As the defender against the Sweep from Knee Shield, your primary objective is to maintain your top position while systematically dismantling the bottom player's sweep prerequisites. The sweep requires several elements working together—underhook, angle, far side control, and knee shield leverage—and your defensive strategy targets removing any one of these elements to neutralize the threat. Understanding the sweep mechanics from the top perspective allows you to recognize the setup before it develops, maintain your base against off-balancing attempts, and potentially counter the sweep into a guard pass. The best defense creates a dynamic where the bottom player's sweep attempts actually open passing opportunities for you.
 
-**Opponent's Starting Position**: [[Knee Shield Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the Sweep from Knee Shield, your primary objective is to
 ### 1. Whizzer the underhook by threading your arm over their underhook arm and driving your shoulder into their bicep
 
 - **When to use**: Immediately when you feel the opponent establishing the underhook—the whizzer must be applied before they achieve depth reaching your back
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: Neutralizes the sweep engine and allows you to begin working your passing sequence with the opponent's primary weapon neutralized
 - **Risk**: Over-rotation of the whizzer can expose your back if the opponent redirects to a back take
 
 ### 2. Post far hand wide on the mat and shift your base laterally away from the sweep direction
 
 - **When to use**: When the sweep is already in motion and you need to stabilize immediately—this is an emergency base recovery response
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: Stops the sweep momentum and allows you to reset your base and posture before the opponent can chain to another attack
 - **Risk**: Posting removes one hand from the grip fight, potentially giving the opponent additional control or transition opportunities
 
 ### 3. Drive heavy crossface and flatten the opponent before they complete the sweep setup
 
 - **When to use**: When you recognize the angle creation early—before the underhook is deep and before the far side grip is established
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Collapses the knee shield entirely and advances your position toward a guard pass, potentially reaching side control
 - **Risk**: Driving forward loads your weight toward the opponent, which can be redirected into the sweep if their setup is more advanced than anticipated
 
 ### 4. Backstep away from the sweep direction to remove your weight from the knee shield lever entirely
 
 - **When to use**: When the opponent has established deep underhook and far side control making the sweep imminent—tactical retreat preserves position
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: Removes your weight from the sweep trajectory and resets the engagement to a neutral knee shield battle
 - **Risk**: Creates space that the opponent can use to follow your movement, transition to other guards, or come up to a wrestling exchange
 
@@ -225,11 +225,11 @@ As the defender against the Sweep from Knee Shield, your primary objective is to
 
 ## Best-Case Outcomes for Defender
 
-### → [[Knee Shield Half Guard]]
+### → [[Positions/Half Guard/Knee Shield Half Guard]]
 
 Prevent the sweep entirely by controlling the near-side arm through whizzer, crossface, or wrist control. Deny the underhook and maintain your base with wide posting. Reset to your passing sequence from a stable top knee shield position.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Counter the sweep attempt by driving heavy crossface pressure as the opponent commits to the sweep setup. Their offensive commitment opens passing lanes—drive through the collapsing knee shield to establish side control. Time the crossface drive to the moment they release their defensive frame to pursue the underhook.
 

@@ -21,7 +21,7 @@ This technique represents the convergence of positional dominance and limb isola
 
 From a strategic perspective, the Armbar on Free Arm creates a powerful dilemma for the defender. If they protect their neck with the free arm, they make it available for armbar attack. If they use the arm to frame or create escape angles, they expose their neck to choke threats. This forcing function makes the Gift Wrap to Armbar combination one of the most reliable submission chains from back control positions.
 
-**From Position**: [[Gift Wrap]] (Top)
+**From Position**: [[Positions/Gift Wrap]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ From a strategic perspective, the Armbar on Free Arm creates a powerful dilemma 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 58% |
-| Failure | [[Gift Wrap]] | 30% |
-| Counter | [[Back Control]] | 12% |
+| Success | [[Positions/Armbar Control]] | 58% |
+| Failure | [[Positions/Gift Wrap]] | 30% |
+| Counter | [[Positions/Back Control]] | 12% |
 
 
 </section>
@@ -191,27 +191,27 @@ The Armbar on Free Arm fits within the Gift Wrap attack system as a primary limb
 ## Related Techniques
 
 
-- [[Gift Wrap]] - Starting position - armbar attacks from Gift Wrap control
+- [[Positions/Gift Wrap]] - Starting position - armbar attacks from Gift Wrap control
 
-- [[Armbar Control]] - Target position - successful attack leads to armbar control
+- [[Positions/Armbar Control]] - Target position - successful attack leads to armbar control
 
-- [[Armbar from Guard]] - Related submission sharing armbar finishing mechanics
+- [[Submissions/Armbar from Guard]] - Related submission sharing armbar finishing mechanics
 
-- [[Rear Naked Choke]] - Alternative attack - chains with armbar as threat combination
+- [[Transitions/Rear Naked Choke]] - Alternative attack - chains with armbar as threat combination
 
-- [[Back Control]] - Parent position - Gift Wrap evolves from back control
+- [[Positions/Back Control]] - Parent position - Gift Wrap evolves from back control
 
-- [[Crucifix]] - Alternative progression if armbar fails and arm position allows
+- [[Positions/Crucifix]] - Alternative progression if armbar fails and arm position allows
 
-- [[Technical Mount]] - Positional option for mounted armbar variant
+- [[Positions/Mount/Technical Mount]] - Positional option for mounted armbar variant
 
-- [[Armbar from Back]] - Related technique - similar mechanics from different back control
+- [[Submissions/Armbar from Back]] - Related technique - similar mechanics from different back control
 
-- [[Body Triangle]] - Leg control that combines with Gift Wrap for armbar setup
+- [[Positions/Back Control/Body Triangle]] - Leg control that combines with Gift Wrap for armbar setup
 
-- [[Armbar Finish]] - Finishing transition from armbar control position
+- [[Transitions/Armbar Finish]] - Finishing transition from armbar control position
 
-- [[Belly Down Armbar]] - Variant finish when opponent rotates during armbar attempt
+- [[Submissions/Belly Down Armbar]] - Variant finish when opponent rotates during armbar attempt
 
 
 </section>

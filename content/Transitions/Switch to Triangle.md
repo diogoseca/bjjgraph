@@ -21,7 +21,7 @@ The switch to triangle exemplifies the principle of offensive combinations and s
 
 Mastering this transition is essential for developing a dangerous closed guard game and represents a critical milestone in understanding how submissions work together as a system rather than as isolated techniques. At the highest levels, the initial attack is often thrown specifically to bait a defensive reaction that opens the triangle, transforming what appears to be a failed technique into a deliberate setup for the real finishing submission.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Mastering this transition is essential for developing a dangerous closed guard g
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Control]] | 55% |
-| Failure | [[Closed Guard]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Triangle Control]] | 55% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -199,31 +199,31 @@ The switch to triangle is a cornerstone transition in the closed guard offensive
 ## Related Techniques
 
 
-- [[Triangle Choke]] - Primary destination submission for this transition
+- [[Transitions/Triangle Choke]] - Primary destination submission for this transition
 
-- [[Triangle from Closed Guard]] - Specific application context for this technique
+- [[Submissions/Triangle from Closed Guard]] - Specific application context for this technique
 
-- [[Armbar from Guard]] - Most common starting position before switching to triangle
+- [[Submissions/Armbar from Guard]] - Most common starting position before switching to triangle
 
-- [[Kimura from Guard]] - Alternative starting attack that commonly leads to triangle switch
+- [[Submissions/Kimura from Guard]] - Alternative starting attack that commonly leads to triangle switch
 
-- [[Omoplata from Guard]] - Related submission chain option with similar transition mechanics
+- [[Submissions/Omoplata from Guard]] - Related submission chain option with similar transition mechanics
 
-- [[Triangle to Armbar]] - Reverse chain when opponent defends triangle
+- [[Transitions/Triangle to Armbar]] - Reverse chain when opponent defends triangle
 
-- [[Triangle to Omoplata]] - Additional chain option from triangle control
+- [[Transitions/Triangle to Omoplata]] - Additional chain option from triangle control
 
-- [[Hip Bump Sweep]] - Failed sweep that often creates triangle opportunities
+- [[Transitions/Hip Bump Sweep]] - Failed sweep that often creates triangle opportunities
 
-- [[Closed Guard to Triangle]] - Direct entry without prior attack setup
+- [[Transitions/Closed Guard to Triangle]] - Direct entry without prior attack setup
 
-- [[Triangle Setup]] - General setup techniques and positioning for triangle entries
+- [[Transitions/Triangle Setup]] - General setup techniques and positioning for triangle entries
 
-- [[Mission Control]] - Rubber guard position that facilitates triangle transitions
+- [[Positions/Rubber Guard/Mission Control]] - Rubber guard position that facilitates triangle transitions
 
-- [[Triangle Control]] - Ending position and control framework after successful transition
+- [[Positions/Triangle Control]] - Ending position and control framework after successful transition
 
-- [[Closed Guard]] - Primary starting position for this transition family
+- [[Positions/Closed Guard]] - Primary starting position for this transition family
 
 
 </section>

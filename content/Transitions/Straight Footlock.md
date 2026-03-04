@@ -21,7 +21,7 @@ Strategically, committing to the Straight Footlock finish carries inherent risk.
 
 The technique is legal at all belt levels under IBJJF rules and represents the foundational leg lock finish that every practitioner must master. Its relatively lower injury risk compared to heel hooks makes it the appropriate introduction to finishing mechanics in leg entanglement systems, though the Achilles tendon remains vulnerable to serious damage from explosive or improperly applied pressure. Advanced practitioners chain the finishing threat with positional transitions, using the defender's reactions to the extension attempt as information that dictates the next attack in the sequence.
 
-**From Position**: [[Straight Ankle Lock Control]] (Bottom)
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -33,8 +33,8 @@ The technique is legal at all belt levels under IBJJF rules and represents the f
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Straight Ankle Lock Control]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Failure | [[Positions/Straight Ankle Lock Control]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -191,29 +191,29 @@ The Straight Footlock occupies the terminal position in the straight ankle lock 
 ## Related Techniques
 
 
-- [[Straight Ankle Lock Control]] - Starting position - the control state from which this finish is executed
+- [[Positions/Straight Ankle Lock Control]] - Starting position - the control state from which this finish is executed
 
-- [[Ankle Lock Finish]] - Alternative finishing transition from similar ankle lock control configurations
+- [[Transitions/Ankle Lock Finish]] - Alternative finishing transition from similar ankle lock control configurations
 
-- [[Straight Ankle Lock]] - Submission targeting the same anatomical structure with similar mechanics
+- [[Submissions/Straight Ankle Lock]] - Submission targeting the same anatomical structure with similar mechanics
 
-- [[Achilles Lock]] - Related submission targeting the same anatomical structure with similar mechanics
+- [[Submissions/Achilles Lock]] - Related submission targeting the same anatomical structure with similar mechanics
 
-- [[Inside Ashi-Garami]] - Transition target when defender's hip rotation away defeats the finish attempt
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Transition target when defender's hip rotation away defeats the finish attempt
 
-- [[Outside Ashi-Garami]] - Transition target when defender rotates hip toward attacker during the finish
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Transition target when defender rotates hip toward attacker during the finish
 
-- [[Kneebar Control]] - Alternative attack when boot defense prevents ankle lock finishing mechanics
+- [[Positions/Kneebar Control]] - Alternative attack when boot defense prevents ankle lock finishing mechanics
 
-- [[50-50 Guard]] - Common positional context from which the ankle lock control is established
+- [[Positions/Ashi Garami/50-50 Guard]] - Common positional context from which the ankle lock control is established
 
-- [[Single Leg X-Guard]] - Fallback position when defender's standing escape defeats the finish attempt
+- [[Positions/X-Guard/Single Leg X-Guard]] - Fallback position when defender's standing escape defeats the finish attempt
 
-- [[Ashi Garami Escape]] - Primary escape method used by defenders against the finishing sequence
+- [[Transitions/Ashi Garami Escape]] - Primary escape method used by defenders against the finishing sequence
 
-- [[Inside Ashi Entry]] - Transition pathway when defender's hip rotation opens inside leg entanglement
+- [[Transitions/Inside Ashi Entry]] - Transition pathway when defender's hip rotation opens inside leg entanglement
 
-- [[Outside Ashi Entry]] - Transition pathway when defender rotates toward attacker during finish attempt
+- [[Transitions/Outside Ashi Entry]] - Transition pathway when defender rotates toward attacker during finish attempt
 
 
 </section>

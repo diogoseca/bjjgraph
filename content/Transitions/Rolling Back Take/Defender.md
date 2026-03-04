@@ -154,7 +154,7 @@ description: "How to defend against Rolling Back Take in BJJ. Recognition cues, 
 
 Defending the Rolling Back Take requires early recognition and immediate defensive action from the turtle bottom position. The technique is dangerous precisely because it bypasses the incremental controls that give defenders time to react. Your primary defensive objective is to prevent the roll from initiating or, if it begins, to disrupt the rotation before your opponent can land with control. Understanding the attacker's weight loading patterns and grip sequences allows you to recognize the setup phase and deploy countermeasures before momentum becomes irrecoverable. Successful defense relies on maintaining structural integrity in your turtle, controlling at least one of the attacker's grips, and being prepared to transition to guard recovery or scramble positions when the roll is disrupted.
 
-**Opponent's Starting Position**: [[Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Rolling Back Take requires early recognition and immediate defensi
 ### 1. Post far arm wide and base out to block the rolling path
 
 - **When to use**: As soon as you feel the attacker loading weight onto one shoulder and before they initiate forward momentum
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Attacker's roll is blocked and they must abandon the technique, returning to standard turtle top with you maintaining defensive turtle
 - **Risk**: Extended arm may be vulnerable to armbar or crucifix if attacker transitions to arm attacks
 
 ### 2. Turn into the attacker during the roll to recover guard
 
 - **When to use**: During the rotation phase when the attacker has committed to the roll but has not yet landed with hooks
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: You face the attacker and recover to closed guard or half guard, neutralizing the back take entirely
 - **Risk**: If timing is off, you may end up in a worse position with the attacker on top in mount or side control
 
 ### 3. Strip the under-arm grip and drive forward to flatten attacker
 
 - **When to use**: During the setup phase when you feel the attacker threading their arm under your far armpit before they load weight
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Without the under-arm grip, the attacker cannot maintain connection during the roll and loses the technique entirely
 - **Risk**: Focusing on grip stripping may create openings for alternative attacks like front headlock or traditional back take
 
 ### 4. Sprawl hips back and lower base to prevent weight loading
 
 - **When to use**: When you feel the attacker shifting their weight forward onto your shoulders but before the roll initiates
-- **Targets**: [[Turtle]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Lowered base prevents the attacker from generating sufficient momentum to complete the roll over your shoulder
 - **Risk**: Extended sprawl may create space that allows attacker to switch to traditional hook insertion or front headlock
 
@@ -225,11 +225,11 @@ Defending the Rolling Back Take requires early recognition and immediate defensi
 
 ## Best-Case Outcomes for Defender
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Block the roll by posting your far arm wide and basing out when you feel the attacker loading weight onto your shoulder. Strip their under-arm grip with your near hand while maintaining structural integrity in your turtle. The attacker returns to standard top turtle without having advanced position.
 
-### → [[Turtle]]
+### → [[Positions/Turtle]]
 
 Time your turn to coincide with the attacker's committed rotation. As they roll over your shoulder, turn your hips and shoulders toward them aggressively, using their own momentum to help you face them. If executed correctly during the mid-roll phase, you recover to a guard position or at minimum force a scramble where you end up facing your opponent.
 

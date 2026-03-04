@@ -21,7 +21,7 @@ The technical foundation relies on asymmetric force application: the target arm'
 
 This technique integrates seamlessly into the double sleeve guard's broader offensive framework alongside sweeps and triangle setups. When opponents retract their arms to defend the armbar, they create vulnerability to tripod sweeps and sickle sweeps. When they post wide to defend sweeps, the extended arm becomes available for armbar entry. This offensive dilemma between armbar defense and sweep defense is what elevates the double sleeve guard from a controlling position to a genuinely threatening attacking platform.
 
-**From Position**: [[Double Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Double Sleeve Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This technique integrates seamlessly into the double sleeve guard's broader offe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Armbar Control]] | 55% |
-| Failure | [[Double Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Armbar Control]] | 55% |
+| Failure | [[Positions/Double Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The armbar setup from double sleeve guard occupies a critical position in the op
 ## Related Techniques
 
 
-- [[Double Sleeve Guard]] - Source position providing the bilateral sleeve control foundation for this technique
+- [[Positions/Double Sleeve Guard]] - Source position providing the bilateral sleeve control foundation for this technique
 
-- [[Armbar Control]] - Target position on successful execution where the submission finish is completed
+- [[Positions/Armbar Control]] - Target position on successful execution where the submission finish is completed
 
-- [[Open Guard]] - Fallback position when opponent successfully counters the setup and breaks guard structure
+- [[Positions/Open Guard]] - Fallback position when opponent successfully counters the setup and breaks guard structure
 
-- [[Triangle Setup]] - Alternative submission entry from the same double sleeve guard position creating offensive dilemma
+- [[Transitions/Triangle Setup]] - Alternative submission entry from the same double sleeve guard position creating offensive dilemma
 
-- [[Armbar from Guard]] - Related submission technique sharing similar hip rotation and arm isolation mechanics
+- [[Submissions/Armbar from Guard]] - Related submission technique sharing similar hip rotation and arm isolation mechanics
 
-- [[Spider Guard]] - Related guard position with foot-on-bicep mechanics used in variant setups
+- [[Positions/Spider Guard]] - Related guard position with foot-on-bicep mechanics used in variant setups
 
-- [[Tripod Sweep]] - Complementary sweep attack that creates offensive dilemma paired with armbar threat
+- [[Transitions/Tripod Sweep]] - Complementary sweep attack that creates offensive dilemma paired with armbar threat
 
-- [[Collar Sleeve Guard]] - Alternative guard offering similar armbar entries with different grip configuration
+- [[Positions/Collar Sleeve Guard]] - Alternative guard offering similar armbar entries with different grip configuration
 
-- [[Omoplata]] - Chain attack when opponent bends arm to defend the armbar setup during rotation
+- [[Transitions/Omoplata]] - Chain attack when opponent bends arm to defend the armbar setup during rotation
 
-- [[Armbar Finish]] - Follow-up transition from armbar control to complete the submission
+- [[Transitions/Armbar Finish]] - Follow-up transition from armbar control to complete the submission
 
 
 </section>

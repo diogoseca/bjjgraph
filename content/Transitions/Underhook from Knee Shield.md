@@ -21,7 +21,7 @@ This transition occupies a pivotal role in the half guard hierarchy. The knee sh
 
 Success requires precise coordination between removing the knee shield, swimming for the underhook, and immediately driving forward to elevate into the Dogfight. The transition must be executed as one fluid motion rather than sequential steps, because any pause between removing the frame and establishing the underhook creates a window for the top player to collapse the position into flattened half guard. Elite practitioners treat this as a single-beat movement triggered by the opponent's weight shift or grip adjustment, converting defensive energy into offensive momentum in one decisive action.
 
-**From Position**: [[Knee Shield Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Success requires precise coordination between removing the knee shield, swimming
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Dogfight Position]] | 55% |
-| Failure | [[Knee Shield Half Guard]] | 30% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Dogfight Position]] | 55% |
+| Failure | [[Positions/Half Guard/Knee Shield Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -193,29 +193,29 @@ The Underhook from Knee Shield sits at the critical junction between the defensi
 ## Related Techniques
 
 
-- [[Knee Shield Half Guard]] - Starting position for this transition—the knee shield frame must be active before initiating
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Starting position for this transition—the knee shield frame must be active before initiating
 
-- [[Dogfight Position]] - Primary target position after successful underhook establishment and elevation to knees
+- [[Positions/Dogfight Position]] - Primary target position after successful underhook establishment and elevation to knees
 
-- [[Flattened Half Guard]] - Counter outcome when top player capitalizes on knee shield removal to flatten position
+- [[Positions/Half Guard/Flattened Half Guard]] - Counter outcome when top player capitalizes on knee shield removal to flatten position
 
-- [[Half Guard]] - Parent position in the guard hierarchy—underhook from knee shield is a specialized half guard transition
+- [[Positions/Half Guard]] - Parent position in the guard hierarchy—underhook from knee shield is a specialized half guard transition
 
-- [[Deep Half Guard]] - Alternative transition when underhook is blocked or opponent drives heavy whizzer pressure
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition when underhook is blocked or opponent drives heavy whizzer pressure
 
-- [[Back Control]] - Ultimate offensive target reached through the Dogfight chain after successful underhook entry
+- [[Positions/Back Control]] - Ultimate offensive target reached through the Dogfight chain after successful underhook entry
 
-- [[Dogfight Sweep]] - Primary follow-up sweep available after reaching Dogfight through this transition
+- [[Transitions/Dogfight Sweep]] - Primary follow-up sweep available after reaching Dogfight through this transition
 
-- [[Forward Drive Sweep from Dogfight]] - Complementary Dogfight attack chained from successful underhook entry
+- [[Transitions/Forward Drive Sweep from Dogfight]] - Complementary Dogfight attack chained from successful underhook entry
 
-- [[Underhook Sweep from Dogfight]] - Related Dogfight technique that directly leverages the underhook established by this transition
+- [[Transitions/Underhook Sweep from Dogfight]] - Related Dogfight technique that directly leverages the underhook established by this transition
 
-- [[Old School Sweep]] - Classic sweep available from Dogfight that chains naturally from this entry
+- [[Transitions/Old School Sweep]] - Classic sweep available from Dogfight that chains naturally from this entry
 
-- [[Smash from Knee Shield]] - Top player's passing threat that can create timing windows for the underhook attempt
+- [[Transitions/Smash from Knee Shield]] - Top player's passing threat that can create timing windows for the underhook attempt
 
-- [[Knee Slice from Knee Shield]] - Top player's primary pass that triggers reactive underhook opportunities
+- [[Transitions/Knee Slice from Knee Shield]] - Top player's primary pass that triggers reactive underhook opportunities
 
 
 </section>

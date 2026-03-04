@@ -156,7 +156,7 @@ Defending the Grasshopper Sweep requires understanding the mechanics that make i
 
 The critical defensive window occurs during the setup phase before the bottom player fires the sweep. Once deep hooks are established, grips are secured, and hip elevation begins, the sweep becomes extremely difficult to stop through raw base alone. Your defensive strategy should therefore be proactive rather than reactive: deny hook depth through base management, strip ankle grips through hand fighting, and prevent elevation by keeping your weight back and hips away from the engagement zone. Recognizing the sweep threat early through visual and tactile cues allows you to implement these countermeasures before the bottom player reaches the critical threshold for execution.
 
-**Opponent's Starting Position**: [[Grasshopper Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The critical defensive window occurs during the setup phase before the bottom pl
 ### 1. Widen base and sit hips back before hooks establish
 
 - **When to use**: Early recognition phase when bottom player begins inverting and reaching for your legs but before deep hooks are set
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: Bottom player cannot generate sufficient elevation for the sweep and must abandon the attempt or transition to alternative attacks
 - **Risk**: If you sit back too far you disengage entirely, allowing bottom player to follow with rolling attacks or re-establish guard on their terms
 
 ### 2. Back step to extract legs from hook engagement
 
 - **When to use**: When you feel hooks beginning to curl behind your knees but before ankle grips are secured
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: Removes your legs from the danger zone and may create passing opportunities as bottom player's guard structure collapses
 - **Risk**: Bottom player follows your back step with re-inversion and pursuit, reestablishing contact on your trailing leg
 
 ### 3. Forward sprawl and pressure to flatten the inverted guard
 
 - **When to use**: When bottom player's hip elevation is still developing and their shoulder base is not yet fully stable
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Flattens the bottom player's inverted posture, eliminating their hip elevation and potentially allowing you to pass directly to side control
 - **Risk**: If timed incorrectly when hooks and grips are already deep, your forward momentum feeds directly into the sweep and accelerates the elevation
 
 ### 4. Strip ankle grips through aggressive hand fighting
 
 - **When to use**: When bottom player has hooks set but is still reaching for or has just secured your ankle grips
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: Without ankle grips the sweep loses significant pulling leverage, forcing the bottom player to rely solely on hooks which are insufficient for most practitioners
 - **Risk**: Focusing on hand fighting diverts attention from base management, potentially allowing the bottom player to transition to leg entanglements while you look at your hands
 
@@ -227,11 +227,11 @@ The critical defensive window occurs during the setup phase before the bottom pl
 
 ## Best-Case Outcomes for Defender
 
-### → [[Grasshopper Guard]]
+### → [[Positions/Grasshopper Guard]]
 
 Deny sweep conditions proactively by widening base, sitting hips back, stripping ankle grips, or back stepping to extract legs from hooks. Any of these actions performed early enough forces the bottom player to reset their attack, returning you to the neutral Grasshopper Guard engagement where you retain top position advantages.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Time a forward sprawl when the bottom player's inversion is still developing and their shoulder base is unstable. Drive your weight forward and down to collapse their inverted posture, then immediately advance past their compromised guard to establish side control. This requires precise timing - too early and they re-invert, too late and you feed the sweep.
 

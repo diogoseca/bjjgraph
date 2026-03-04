@@ -156,7 +156,7 @@ As the defender against the Crackhead Control to Carni transition, you are the t
 
 Defending this transition requires balancing two competing demands: maintaining enough forward pressure to control the turtle position effectively, and keeping enough base awareness to retract your hips when you feel the bottom player begin threading underneath. Advanced defenders develop sensitivity to the subtle shift in the bottom player's hip movement that signals a transition attempt versus normal crackhead defense movement. The distinction is directional: normal defensive movement circles horizontally, while transition setup movement angles underneath toward your legs. Recognizing this directional change within the first fraction of a second is what separates defenders who prevent the entry from those who end up fighting from inside the carni.
 
-**Opponent's Starting Position**: [[Crackhead Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Crackhead Control]] (Bottom)
 
 </section>
 
@@ -195,28 +195,28 @@ Defending this transition requires balancing two competing demands: maintaining 
 ### 1. Sprawl hips back immediately and retract near leg away from bottom player's threading attempt
 
 - **When to use**: At the earliest recognition of inversion attempt, before inside leg hook is established
-- **Targets**: [[Crackhead Control]]
+- **Targets**: [[Positions/Crackhead Control]]
 - **If successful**: Bottom player's inversion fails and they return to standard crackhead control defense. You may need to re-establish chair-sit position
 - **Risk**: Sprawling creates space that allows guard recovery if you cannot re-establish control quickly
 
 ### 2. Step free leg over the bottom player's body to block the leg threading path and re-establish heavy top pressure
 
 - **When to use**: When you recognize the inversion mid-execution but before the leg entanglement is locked
-- **Targets**: [[Crackhead Control]]
+- **Targets**: [[Positions/Crackhead Control]]
 - **If successful**: You block the entanglement and can immediately transition to back take or consolidate crackhead control with improved positioning
 - **Risk**: Stepping over while they are mid-inversion can result in them capturing your stepping leg instead
 
 ### 3. Drive forward aggressively with chest pressure to flatten the bottom player before they complete the inversion
 
 - **When to use**: When the bottom player has just begun the inversion and has not yet cleared their hips underneath
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Bottom player is flattened and you advance to back control with hooks, converting their failed transition into your dominant position
 - **Risk**: If timed late, your forward drive actually assists their inversion momentum and accelerates the carni entry
 
 ### 4. Release crackhead control and disengage to standing position, resetting the engagement entirely
 
 - **When to use**: When the transition is partially established and you cannot safely prevent it without risking leg entanglement
-- **Targets**: [[Crackhead Control]]
+- **Targets**: [[Positions/Crackhead Control]]
 - **If successful**: You escape the entanglement threat entirely and can re-engage from standing on your terms
 - **Risk**: Gives up dominant top position and any accumulated control advantage
 
@@ -228,11 +228,11 @@ Defending this transition requires balancing two competing demands: maintaining 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Crackhead Control]]
+### → [[Positions/Crackhead Control]]
 
 React early to the inversion attempt by sprawling hips back, stepping over to block, or disengaging to standing. The bottom player returns to defensive turtle and you maintain or re-establish top control. Early recognition is the key factor.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 If the bottom player commits to a poorly timed inversion, drive forward aggressively to flatten them and immediately transition to back control with hooks. Their failed transition exposes their back during the rotation, which you capitalize on by following their movement and securing seatbelt control.
 

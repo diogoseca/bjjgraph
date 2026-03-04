@@ -154,7 +154,7 @@ description: "Defend against standing up from combat base in BJJ. Recognition cu
 
 As the defender against the stand-up from combat base, your objective is to prevent the top player from reaching a dominant standing position or, failing that, to immediately establish an effective distance guard that neutralizes their standing passing advantages. The stand-up represents a strategic shift by the top player away from kneeling passes, and your defensive response must deny the clean transition they seek. Your primary weapons are pulling grips that resist the elevation, hook entries that entangle their legs during the transition window, and immediate guard establishment if they do reach standing. Understanding the timing windows and mechanical vulnerabilities of the stand-up allows you to convert their transitional moment into offensive opportunities including sweeps and guard re-establishments.
 
-**Opponent's Starting Position**: [[Combat Base]] (Top)
+**Opponent's Starting Position**: [[Positions/Combat Base]] (Top)
 
 </section>
 
@@ -192,28 +192,28 @@ As the defender against the stand-up from combat base, your objective is to prev
 ### 1. Establish strong collar grip and pull downward during the elevation to collapse posture and prevent standing
 
 - **When to use**: Early in the stand-up preparation, before the opponent has broken your grips or committed to the upward drive
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Opponent's stand-up attempt collapses and they return to kneeling combat base where your guard structures are most effective
 - **Risk**: If the opponent strips the collar grip and stands anyway, you lose grip position and may be in a weaker guard configuration
 
 ### 2. Thread a De La Riva hook around the lead leg as the opponent begins to elevate from the mat
 
 - **When to use**: During the transition window when the opponent's posted knee lifts off the mat and the lead leg is momentarily unguarded
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Deep DLR hook prevents full standing and can pull the opponent off balance into a half guard position or enable a sweep
 - **Risk**: If timing is late, the opponent reaches standing with a shallow hook that is easily stripped, wasting the defensive attempt
 
 ### 3. Sit up and attack a single leg as the opponent transitions through the squat position
 
 - **When to use**: When the opponent has both feet on the mat in the squat phase before reaching full standing extension
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You secure the single leg and drive forward, collapsing the opponent's base and reversing to a top position or establishing half guard
 - **Risk**: If the opponent sprawls or pushes your head down, you may end up in a worse position with your back exposed
 
 ### 4. Establish lasso grip on the sleeve to maintain pulling connection through the stand-up transition
 
 - **When to use**: When you have sleeve control and the opponent begins grip-stripping your collar grip in preparation to stand
-- **Targets**: [[Combat Base]]
+- **Targets**: [[Positions/Combat Base]]
 - **If successful**: Lasso grip provides persistent connection that either prevents the stand-up or immediately establishes lasso guard if they do stand
 - **Risk**: Opponent can strip the lasso by circling their arm and standing with posture, leaving you without connection
 
@@ -225,11 +225,11 @@ As the defender against the stand-up from combat base, your objective is to prev
 
 ## Best-Case Outcomes for Defender
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a De La Riva hook entry or single leg attack during the transition window when the opponent lifts their posted knee off the mat. The brief squat position during the stand-up creates a mechanical disadvantage where pulling attacks and leg entanglements are most effective. Drive your hook or single leg grip forward to collapse their base before they achieve full standing extension.
 
-### → [[Combat Base]]
+### → [[Positions/Combat Base]]
 
 Maintain a strong pulling grip on the opponent's collar throughout their stand-up attempt. As they begin to elevate, pull sharply downward while extending your legs against their hips to create opposing forces that collapse their posture back to kneeling. The key is acting before they break your grips—once grips are stripped, the pulling defense becomes unavailable.
 

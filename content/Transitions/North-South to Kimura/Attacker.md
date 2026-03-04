@@ -174,7 +174,7 @@ description: "How to execute North-South to Kimura in BJJ. Attacking perspective
 
 The North-South to Kimura transition is executed from one of BJJ's most dominant pinning positions. The attacker uses perpendicular chest-to-chest pressure to pin the opponent's shoulders flat, then systematically isolates the near-side arm and feeds it across the body to establish the figure-four Kimura grip. The technique capitalizes on the bottom player's severely compromised mobility under North-South pressure, where effective defensive framing is difficult and arm exposure is common during escape attempts. The attacker must maintain continuous downward pressure throughout the grip transition phase, as any momentary weight shift creates space for the opponent to turn, bridge, or recover guard. Once the Kimura grip is locked with elbows tight and proper wrist-to-wrist connection, the attacker adjusts body angle to establish the Kimura Trap control position, from which multiple finishing and transitional options become available. The position's effectiveness stems from combining positional dominance with joint lock control, creating an overwhelming double-threat that forces the defender into increasingly compromised defensive choices.
 
-**From Position**: [[North-South]] (Top)
+**From Position**: [[Positions/North-South]] (Top)
 
 </section>
 
@@ -227,9 +227,9 @@ The North-South to Kimura transition is executed from one of BJJ's most dominant
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kimura Trap]] | 60% |
-| Failure | [[North-South]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Kimura Trap]] | 60% |
+| Failure | [[Positions/North-South]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -238,10 +238,10 @@ The North-South to Kimura transition is executed from one of BJJ's most dominant
 
 ## Opponent Counters
 
-- **Opponent grabs their own belt, lapel, or shorts to prevent arm isolation** (Effectiveness: High) - Your Response: Attack the far-side arm with a North-South choke or armbar threat to force them to release their defensive grip, then immediately return to the Kimura attack before they can re-establish the grip → Leads to [[North-South]]
-- **Opponent bridges explosively to disrupt your base and create scramble opportunity** (Effectiveness: Medium) - Your Response: Widen your base immediately, lower your center of gravity, and use your head to post on the mat beside their hip. Ride out the bridge and re-establish chest pressure as they return to the mat with depleted energy → Leads to [[North-South]]
-- **Opponent turns into you and attempts to recover half guard or closed guard** (Effectiveness: Medium) - Your Response: Follow their rotation while maintaining the Kimura grip. If grip is established, use it as a control handle to take the back. If grip is not yet set, drive crossface pressure to flatten them back and re-isolate the arm → Leads to [[Half Guard]]
-- **Opponent straightens their arm to prevent the figure-four grip from closing** (Effectiveness: Low) - Your Response: Immediately switch to an armbar attack since their extended arm is perfectly positioned, or threaten the armbar to force them to bend their elbow defensively, then quickly transition back to the Kimura grip → Leads to [[North-South]]
+- **Opponent grabs their own belt, lapel, or shorts to prevent arm isolation** (Effectiveness: High) - Your Response: Attack the far-side arm with a North-South choke or armbar threat to force them to release their defensive grip, then immediately return to the Kimura attack before they can re-establish the grip → Leads to [[Positions/North-South]]
+- **Opponent bridges explosively to disrupt your base and create scramble opportunity** (Effectiveness: Medium) - Your Response: Widen your base immediately, lower your center of gravity, and use your head to post on the mat beside their hip. Ride out the bridge and re-establish chest pressure as they return to the mat with depleted energy → Leads to [[Positions/North-South]]
+- **Opponent turns into you and attempts to recover half guard or closed guard** (Effectiveness: Medium) - Your Response: Follow their rotation while maintaining the Kimura grip. If grip is established, use it as a control handle to take the back. If grip is not yet set, drive crossface pressure to flatten them back and re-isolate the arm → Leads to [[Positions/Half Guard]]
+- **Opponent straightens their arm to prevent the figure-four grip from closing** (Effectiveness: Low) - Your Response: Immediately switch to an armbar attack since their extended arm is perfectly positioned, or threaten the armbar to force them to bend their elbow defensively, then quickly transition back to the Kimura grip → Leads to [[Positions/North-South]]
 
 
 </section>

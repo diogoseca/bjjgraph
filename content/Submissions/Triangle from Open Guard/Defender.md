@@ -156,7 +156,7 @@ description: "Defend and escape the Triangle Choke from Open Guard. Recognition 
 
 Defending the Triangle from Open Guard requires early recognition of the setup cues—posture breaking attempts, arm isolation, and hip angle creation—before the attacker can lock the figure-four leg configuration. The defender must maintain strong posture as the primary prevention tool, keeping their head up and elbows tight to prevent arm isolation across the centerline. Once the triangle is locked, every second matters: the defender must act immediately to posture up, stack the attacker, or create a passing angle, because the submission becomes exponentially more difficult to escape once the angle is fully cut and the bilateral squeeze is applied to the carotid arteries. Understanding the progressive danger stages—grip establishment, angle creation, leg shot, lock, angle cut, squeeze—allows the defender to match the appropriate response to each stage and escape before reaching the point of no return.
 
-**Opponent's Starting Position**: [[Open Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 
 </section>
@@ -193,28 +193,28 @@ Defending the Triangle from Open Guard requires early recognition of the setup c
 ### 1. Posture up immediately by driving hips back, extending spine, and pressing hands on opponent's hips to create distance
 
 - **When to use**: As the first response the moment you recognize triangle entry—most effective before the lock is secured but still valuable after
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Breaks the leg configuration before it closes, returning to open guard engagement where you can reset grips and posture
 - **Risk**: If posture attempt fails and legs are already high, you expose your arm to armbar transition as you extend
 
 ### 2. Stack the opponent by driving forward, pinning their shoulders to the mat, and compressing their spine to neutralize the squeeze
 
 - **When to use**: When the triangle is already locked and posturing alone is insufficient—drive your trapped-side shoulder into them and walk forward on your toes
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Compresses attacker's spine, reduces squeeze power, and creates passing opportunity through the triangle to side control
 - **Risk**: Driving forward can tighten the choke if you don't keep your posture elevated during the stack; watch for omoplata transition
 
 ### 3. Hide the targeted arm by pulling it back to your hip and turning your elbow inward before the arm crosses centerline
 
 - **When to use**: During the setup phase when opponent is attempting to pull your arm across—prevention is the easiest defense
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Prevents arm isolation entirely, forcing attacker to abandon triangle attempt and re-establish grips from scratch
 - **Risk**: Focusing too much on one arm may leave you vulnerable to attacks on the other side or to sweep attempts
 
 ### 4. Stand up and create distance by lifting your hips, pressing down on opponent's legs, and stepping backward out of triangle range
 
 - **When to use**: When you feel grips being established but legs have not yet shot—standing changes the angle dynamics and makes triangle entry much harder
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Resets the engagement to standing versus open guard where your passing options improve and triangle threat diminishes
 - **Risk**: Standing with compromised posture can lead to sweeps; ensure you have base before committing to standing
 
@@ -237,11 +237,11 @@ Defending the Triangle from Open Guard requires early recognition of the setup c
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Stack the triangle attempt aggressively by driving forward with your shoulder, walk your feet to the far side, and pass through the triangle to establish side control as the attacker's squeeze breaks down under spinal compression
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Recognize the triangle setup early during grip establishment or angle creation phase, maintain strong posture to prevent arm isolation, and break grips before the attacker can shoot legs into triangle position
 

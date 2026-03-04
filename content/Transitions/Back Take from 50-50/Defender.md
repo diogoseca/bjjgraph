@@ -158,7 +158,7 @@ The defensive strategy centers on maintaining the ability to turn and face your 
 
 Advanced defense integrates counter-attacking into the defensive sequence. Rather than purely reacting to the back take, skilled practitioners use the opponent's commitment to the transition as an opportunity to re-attack their legs or reverse position. When your opponent releases their leg entanglement to pursue the back, their own legs become momentarily vulnerable to counter heel hooks and re-entanglement. This counter-offensive mindset transforms defense from a passive survival exercise into an active strategic exchange.
 
-**Opponent's Starting Position**: [[50-50 Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 
 </section>
 
@@ -194,28 +194,28 @@ Advanced defense integrates counter-attacking into the defensive sequence. Rathe
 ### 1. Turn hips toward opponent and frame on their shoulder to prevent chest-to-back connection while re-engaging legs into 50-50
 
 - **When to use**: As soon as you detect opponent reaching for upper body control or loosening leg entanglement tension
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You re-establish the 50-50 entanglement with inside position advantage since opponent released their leg control, potentially reversing to top position
 - **Risk**: If you turn too aggressively, opponent may use your momentum to accelerate their path around to your back
 
 ### 2. Counter-attack opponent's exposed legs with heel hook or ankle lock as they begin extracting from the entanglement
 
 - **When to use**: When opponent commits to extracting their legs and you can feel their leg control loosening while their attention shifts to upper body
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: Opponent must abandon back take attempt to defend their own legs, returning to leg lock exchange where you now have offensive initiative
 - **Risk**: If opponent has already secured strong upper body control, chasing their legs may accelerate the back take by pulling you further from neutral alignment
 
 ### 3. Sit up explosively using far-side posting hand while stripping opponent's hip control grip with your near-side hand
 
 - **When to use**: During the brief transition window after opponent releases leg entanglement but before they complete the circling motion to your back
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You achieve seated posture facing your opponent, preventing back control and potentially establishing a scramble or guard recovery position
 - **Risk**: If opponent has strong forward pressure and harness grip already established, the sit-up attempt may be stuffed and you waste critical energy
 
 ### 4. Turtle immediately and protect neck while denying hooks by keeping knees tight and elbows tucked
 
 - **When to use**: When opponent has already achieved chest-to-back connection and preventing the back take entirely is no longer possible
-- **Targets**: [[50-50 Guard]]
+- **Targets**: [[Positions/Ashi Garami/50-50 Guard]]
 - **If successful**: You deny hooks and harness completion from turtle, creating opportunities to re-guard, sit out, or use granby roll to recover position
 - **Risk**: Turtling against an opponent with upper body control already established gives them a strong platform to complete the back take through standard turtle attacks
 
@@ -227,11 +227,11 @@ Advanced defense integrates counter-attacking into the defensive sequence. Rathe
 
 ## Best-Case Outcomes for Defender
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Turn your hips toward your opponent at the first sign of back take attempt and use frames on their shoulder to prevent chest-to-back connection. As they release their leg entanglement, re-engage your legs into the 50-50 configuration and use the momentum of your turn to sweep to top position, capitalizing on their compromised base from abandoning leg control.
 
-### → [[50-50 Guard]]
+### → [[Positions/Ashi Garami/50-50 Guard]]
 
 When opponent begins extracting their legs to pursue the back take, immediately counter-attack their now-exposed heel or ankle with your own submission attempt. This forces them to abort the back take and return to defending their own legs. Even if the counter-submission does not finish, it re-establishes the 50-50 dynamic where your defensive heel protection gives you time to work.
 

@@ -21,7 +21,7 @@ The sweep initiates from the standard omoplata entry where your leg crosses the 
 
 This technique is particularly valuable in competition because it transitions seamlessly into mount, the highest-scoring dominant position. The sweep works in both gi and no-gi, though gi sleeve grips simplify arm control. For purple and brown belts, the omoplata sweep should be trained as part of a systematic closed guard attack chain where it flows naturally from triangle and armbar attempts, creating a branching attack tree that becomes progressively harder to defend as the opponent's energy depletes.
 
-**From Position**: [[Closed Guard]] (Bottom)
+**From Position**: [[Positions/Closed Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ This technique is particularly valuable in competition because it transitions se
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Closed Guard]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -196,31 +196,31 @@ The omoplata sweep is a central technique in the closed guard attack system, rep
 ## Related Techniques
 
 
-- [[Omoplata]] - Primary submission threat that creates the sweep opportunity through dilemma
+- [[Transitions/Omoplata]] - Primary submission threat that creates the sweep opportunity through dilemma
 
-- [[Omoplata from Guard]] - Direct submission finish if opponent defends sweep incorrectly
+- [[Submissions/Omoplata from Guard]] - Direct submission finish if opponent defends sweep incorrectly
 
-- [[Omoplata to Back]] - Alternative transition when opponent rolls forward to defend
+- [[Transitions/Omoplata to Back]] - Alternative transition when opponent rolls forward to defend
 
-- [[Closed Guard to Omoplata]] - Entry transition that establishes the omoplata position for sweep attempt
+- [[Transitions/Closed Guard to Omoplata]] - Entry transition that establishes the omoplata position for sweep attempt
 
-- [[Hip Bump Sweep]] - Complementary sweep that attacks opposite side reaction from closed guard
+- [[Transitions/Hip Bump Sweep]] - Complementary sweep that attacks opposite side reaction from closed guard
 
-- [[Pendulum Sweep]] - Chain attack when opponent posts hand to defend omoplata sweep
+- [[Transitions/Pendulum Sweep]] - Chain attack when opponent posts hand to defend omoplata sweep
 
-- [[Triangle from Closed Guard]] - Alternative submission from similar guard break setup sharing initial grips
+- [[Submissions/Triangle from Closed Guard]] - Alternative submission from similar guard break setup sharing initial grips
 
-- [[Armbar from Guard]] - Follow-up submission available once mount is established after sweep
+- [[Submissions/Armbar from Guard]] - Follow-up submission available once mount is established after sweep
 
-- [[Kimura from Guard]] - Attack on posted arm when opponent defends sweep by bracing
+- [[Submissions/Kimura from Guard]] - Attack on posted arm when opponent defends sweep by bracing
 
-- [[Rolling Omoplata]] - Dynamic variation when opponent rolls forward aggressively during sweep
+- [[Submissions/Rolling Omoplata]] - Dynamic variation when opponent rolls forward aggressively during sweep
 
-- [[Omoplata to Sweep]] - Related sweep transition from omoplata control position
+- [[Transitions/Omoplata to Sweep]] - Related sweep transition from omoplata control position
 
-- [[Closed Guard]] - Starting position from which this technique is initiated
+- [[Positions/Closed Guard]] - Starting position from which this technique is initiated
 
-- [[Mount]] - Primary target position upon successful sweep completion
+- [[Positions/Mount]] - Primary target position upon successful sweep completion
 
 
 </section>

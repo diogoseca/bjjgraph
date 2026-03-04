@@ -21,7 +21,7 @@ The defense centers on disrupting the rolling mechanics through posting, base wi
 
 Strategic awareness is essential because this defense exists within a narrow timing window. Execute too early and the attacker adjusts their angle or switches to a stationary finish. Execute too late and the roll has already generated enough momentum to be unstoppable. Reading the attacker's weight shift and hip repositioning that signals roll initiation is the critical skill that separates successful defense from getting caught in the finishing sequence.
 
-**From Position**: [[Anaconda Control]] (Bottom)
+**From Position**: [[Positions/Anaconda Control]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -32,9 +32,9 @@ Strategic awareness is essential because this defense exists within a narrow tim
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 40% |
-| Failure | [[Anaconda Control]] | 35% |
-| Counter | [[Side Control]] | 25% |
+| Success | [[Positions/Turtle]] | 40% |
+| Failure | [[Positions/Anaconda Control]] | 35% |
+| Counter | [[Positions/Side Control]] | 25% |
 
 
 </section>
@@ -193,29 +193,29 @@ The Roll Defense from Anaconda sits at a critical juncture in the front headlock
 ## Related Techniques
 
 
-- [[Anaconda Control]] - Starting position where the roll defense is executed from bottom
+- [[Positions/Anaconda Control]] - Starting position where the roll defense is executed from bottom
 
-- [[Turtle]] - Primary recovery target after successful roll defense
+- [[Positions/Turtle]] - Primary recovery target after successful roll defense
 
-- [[Side Control]] - Position opponent achieves if roll defense fails and they complete the roll
+- [[Positions/Side Control]] - Position opponent achieves if roll defense fails and they complete the roll
 
-- [[Frame and Posture from Anaconda]] - Alternative defensive transition from same starting position
+- [[Transitions/Frame and Posture from Anaconda]] - Alternative defensive transition from same starting position
 
-- [[Anaconda Grip Break to Front Headlock]] - Complementary escape option targeting grip destruction rather than roll denial
+- [[Transitions/Anaconda Grip Break to Front Headlock]] - Complementary escape option targeting grip destruction rather than roll denial
 
-- [[Anaconda Choke]] - The submission being defended against during the roll-through sequence
+- [[Transitions/Anaconda Choke]] - The submission being defended against during the roll-through sequence
 
-- [[Anaconda to Side Control]] - The attacker's transition that succeeds when roll defense fails
+- [[Transitions/Anaconda to Side Control]] - The attacker's transition that succeeds when roll defense fails
 
-- [[Front Headlock]] - Position that often precedes anaconda control establishment
+- [[Positions/Front Headlock]] - Position that often precedes anaconda control establishment
 
-- [[Darce Control]] - Sister submission position with similar roll-through finishing mechanics
+- [[Positions/Darce Control]] - Sister submission position with similar roll-through finishing mechanics
 
-- [[Dead Orchard Control]] - Advanced control the attacker may transition to if standard roll is defended
+- [[Positions/Dead Orchard Control]] - Advanced control the attacker may transition to if standard roll is defended
 
-- [[Rolling Escape from Anaconda]] - Related escape using rolling mechanics to recover guard rather than turtle
+- [[Transitions/Rolling Escape from Anaconda]] - Related escape using rolling mechanics to recover guard rather than turtle
 
-- [[Back Take from Anaconda]] - Alternative attacker pathway if roll defense creates back exposure
+- [[Transitions/Back Take from Anaconda]] - Alternative attacker pathway if roll defense creates back exposure
 
 
 </section>

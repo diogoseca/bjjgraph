@@ -182,7 +182,7 @@ As the attacker executing the Finish from Hindulotine, your objective is convert
 
 The attacker must manage two simultaneous objectives: increasing choking pressure toward submission and maintaining positional control against defensive movements. Opponents will attempt to bridge, roll, hand-fight the grip, tuck their chin, and create frames to relieve pressure. Each of these defensive responses has a specific counter that either maintains the finish or opens transition opportunities. The attacker who can read defensive reactions and respond with appropriate adjustments creates an inescapable progression toward the tap.
 
-**From Position**: [[Hindulotine]] (Top)
+**From Position**: [[Positions/Hindulotine]] (Top)
 
 </section>
 
@@ -235,8 +235,8 @@ The attacker must manage two simultaneous objectives: increasing choking pressur
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 55% |
-| Failure | [[Hindulotine]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Failure | [[Positions/Hindulotine]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -245,10 +245,10 @@ The attacker must manage two simultaneous objectives: increasing choking pressur
 
 ## Opponent Counters
 
-- **Opponent tucks chin tightly to block forearm from reaching carotid arteries** (Effectiveness: Medium) - Your Response: Walk your choking arm higher through incremental adjustments while increasing hip rotation angle. The rotational torque works around the chin tuck by compressing from the sides. Alternatively, apply pressure directly through the chin, creating enough discomfort to force an opening or a tap from jaw compression. → Leads to [[Hindulotine]]
-- **Opponent hand-fights aggressively to break or loosen the choking grip** (Effectiveness: High) - Your Response: Maintain grip lock integrity by keeping elbows tight and driving weight through the grip rather than fighting individual hand battles. If their grip fighting creates space, use your non-choking arm to control their wrist. Increase rotational pressure to force them to choose between grip fighting and defending the choke. → Leads to [[Hindulotine]]
-- **Opponent bridges explosively and rolls through your base** (Effectiveness: Medium) - Your Response: Maintain wide tripod base and drive hip into their shoulder on the rolling side. If the roll succeeds, follow while maintaining the grip and transition to a guard-based guillotine finish. Prevention through wide base is more reliable than following the roll. → Leads to [[Half Guard]]
-- **Opponent stacks upward to posture and relieve rotational pressure on neck** (Effectiveness: High) - Your Response: Snap their posture back down immediately by pulling with the grip while sprawling your hips backward. If they achieve significant posture, transition to a standing guillotine follow or snap down to front headlock control and reset the Hindulotine position rather than chasing a weakened grip. → Leads to [[Hindulotine]]
+- **Opponent tucks chin tightly to block forearm from reaching carotid arteries** (Effectiveness: Medium) - Your Response: Walk your choking arm higher through incremental adjustments while increasing hip rotation angle. The rotational torque works around the chin tuck by compressing from the sides. Alternatively, apply pressure directly through the chin, creating enough discomfort to force an opening or a tap from jaw compression. → Leads to [[Positions/Hindulotine]]
+- **Opponent hand-fights aggressively to break or loosen the choking grip** (Effectiveness: High) - Your Response: Maintain grip lock integrity by keeping elbows tight and driving weight through the grip rather than fighting individual hand battles. If their grip fighting creates space, use your non-choking arm to control their wrist. Increase rotational pressure to force them to choose between grip fighting and defending the choke. → Leads to [[Positions/Hindulotine]]
+- **Opponent bridges explosively and rolls through your base** (Effectiveness: Medium) - Your Response: Maintain wide tripod base and drive hip into their shoulder on the rolling side. If the roll succeeds, follow while maintaining the grip and transition to a guard-based guillotine finish. Prevention through wide base is more reliable than following the roll. → Leads to [[Positions/Half Guard]]
+- **Opponent stacks upward to posture and relieve rotational pressure on neck** (Effectiveness: High) - Your Response: Snap their posture back down immediately by pulling with the grip while sprawling your hips backward. If they achieve significant posture, transition to a standing guillotine follow or snap down to front headlock control and reset the Hindulotine position rather than chasing a weakened grip. → Leads to [[Positions/Hindulotine]]
 
 
 </section>

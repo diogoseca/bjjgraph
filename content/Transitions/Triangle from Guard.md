@@ -21,7 +21,7 @@ The technique exploits a critical timing window when the opponent attempts to re
 
 Strategically, the Triangle from Guard serves as the cornerstone threat that makes the entire Mission Control system functional. Without a credible triangle threat, the top person can focus entirely on posture recovery without consequence. The threat of the triangle forces the opponent into defensive arm positioning that opens omoplata entries, and attempts to defend the omoplata reopen the triangle. This creates the dilemma-based offense that defines effective rubber guard play. Advanced practitioners chain the triangle threat with New York transitions, omoplata sweeps, and gogoplata entries, using the triangle as the hub of a submission web that forces opponents into increasingly compromised defensive positions.
 
-**From Position**: [[Mission Control]] (Bottom)
+**From Position**: [[Positions/Rubber Guard/Mission Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,10 +32,10 @@ Strategically, the Triangle from Guard serves as the cornerstone threat that mak
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Triangle Control]] | 55% |
-| Failure | [[Mission Control]] | 25% |
-| Failure | [[Closed Guard]] | 10% |
-| Counter | [[Headquarters Position]] | 10% |
+| Success | [[Positions/Triangle Control]] | 55% |
+| Failure | [[Positions/Rubber Guard/Mission Control]] | 25% |
+| Failure | [[Positions/Closed Guard]] | 10% |
+| Counter | [[Positions/Headquarters Position]] | 10% |
 
 
 </section>
@@ -192,29 +192,29 @@ The Triangle from Guard is the central submission threat that makes the entire M
 ## Related Techniques
 
 
-- [[Mission Control]] - Starting position - Triangle from Guard is executed from Mission Control bottom
+- [[Positions/Rubber Guard/Mission Control]] - Starting position - Triangle from Guard is executed from Mission Control bottom
 
-- [[Triangle Control]] - Primary destination - successful entry leads to Triangle Control position
+- [[Positions/Triangle Control]] - Primary destination - successful entry leads to Triangle Control position
 
-- [[Triangle Choke Front]] - Follow-up finish - completes the submission from Triangle Control
+- [[Submissions/Triangle Choke Front]] - Follow-up finish - completes the submission from Triangle Control
 
-- [[Closed Guard to Omoplata]] - Chain attack - primary alternative when triangle is defended by stacking
+- [[Transitions/Closed Guard to Omoplata]] - Chain attack - primary alternative when triangle is defended by stacking
 
-- [[Armbar from Guard]] - Chain attack - available when opponent extracts arm during triangle attempt
+- [[Submissions/Armbar from Guard]] - Chain attack - available when opponent extracts arm during triangle attempt
 
-- [[Triangle Setup]] - Alternative entry - standard closed guard triangle setup without rubber guard
+- [[Transitions/Triangle Setup]] - Alternative entry - standard closed guard triangle setup without rubber guard
 
-- [[Crackhead Control to New York]] - System connection - Crackhead Control provides alternative triangle entry path
+- [[Transitions/Crackhead Control to New York]] - System connection - Crackhead Control provides alternative triangle entry path
 
-- [[New York Control to Zombie]] - System connection - New York offers alternative submission entries when triangle is defended
+- [[Transitions/New York Control to Zombie]] - System connection - New York offers alternative submission entries when triangle is defended
 
-- [[Triangle Escape]] - Counter technique - understanding opponent's escapes improves attack refinement
+- [[Transitions/Triangle Escape]] - Counter technique - understanding opponent's escapes improves attack refinement
 
-- [[Rubber Guard]] - Parent system - Mission Control and triangle are core rubber guard techniques
+- [[Positions/Rubber Guard]] - Parent system - Mission Control and triangle are core rubber guard techniques
 
-- [[Mounted Triangle]] - Positional upgrade - sweeping from triangle can lead to mounted triangle finish
+- [[Positions/Mount/Mounted Triangle]] - Positional upgrade - sweeping from triangle can lead to mounted triangle finish
 
-- [[Inverted Triangle]] - Variation - alternative triangle configuration available from similar setups
+- [[Transitions/Inverted Triangle]] - Variation - alternative triangle configuration available from similar setups
 
 
 </section>

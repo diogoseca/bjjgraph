@@ -146,7 +146,7 @@ description: "Complete guide to defending the Transition to Vaporizer in BJJ. Le
 
 As the defender against the Transition to Vaporizer, you are the top player in lockdown facing an opponent who is attempting to escalate their control from static lockdown retention into the dynamic Vaporizer attacking platform. Your primary objective is to prevent the three synchronized mechanics that create the Vaporizer: deny the deep underhook, resist the whip-up hip motion, and work to extract your trapped leg from the lockdown. The defensive challenge is that these three threats operate simultaneously, making it difficult to address all of them at once. Effective defense requires understanding the priority hierarchy: neutralize the underhook first because it provides the leverage for everything else, then manage the whip-up through base and weight distribution, and finally work methodically to extract the trapped leg. Successful defense returns you to standard lockdown top or half guard top, from where you can resume passing.
 
-**Opponent's Starting Position**: [[Lockdown]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the Transition to Vaporizer, you are the top player in l
 ### 1. Establish whizzer and crossface to deny underhook depth
 
 - **When to use**: Immediately when you feel the opponent's arm beginning to thread for the underhook, before they achieve depth past your armpit
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Opponent cannot generate effective whip-up leverage and remains in static lockdown without Vaporizer control
 - **Risk**: If the whizzer is too committed, opponent may switch to overhook entry or use the whizzer commitment to set up Electric Chair
 
 ### 2. Drive heavy shoulder pressure to flatten opponent before whip-up
 
 - **When to use**: When the opponent begins turning to their side and pulling chest contact, drive your weight forward through your shoulder into their face and chest
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Opponent is flattened on their back with limited hip mobility, unable to generate the upward hip drive needed for the whip-up
 - **Risk**: If you commit too much weight forward without base, a skilled opponent may redirect your momentum into a rolling sweep
 
 ### 3. Widen base and sprawl to resist whip-up motion
 
 - **When to use**: When you feel the opponent's hips begin driving upward and your weight starting to shift laterally, immediately sprawl your free leg wide
-- **Targets**: [[Lockdown]]
+- **Targets**: [[Positions/Half Guard/Lockdown]]
 - **If successful**: Your widened base creates a stable platform that the whip-up cannot roll, buying time to address the underhook and lockdown
 - **Risk**: A widened base exposes you to Electric Chair submission because your legs are spread and easier to split
 
 ### 4. Begin systematic leg extraction through circular knee movements
 
 - **When to use**: When you have neutralized the underhook threat and established upper body control, begin working your trapped knee toward the mat in circular motions
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Trapped leg is freed from lockdown, returning you to standard half guard top where you can resume passing sequences
 - **Risk**: During extraction, temporary loss of pressure may allow opponent to re-establish underhook and reattempt the Vaporizer transition
 
@@ -217,11 +217,11 @@ As the defender against the Transition to Vaporizer, you are the top player in l
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lockdown]]
+### → [[Positions/Half Guard/Lockdown]]
 
 Deny the underhook by establishing a whizzer or crossface, drive heavy shoulder pressure to flatten the opponent on their back, and use your weight distribution to prevent the whip-up from generating sufficient force. This returns the position to static lockdown where the opponent retains the leg entanglement but cannot advance to Vaporizer.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 After neutralizing the underhook and flattening the opponent, systematically extract your trapped leg using circular knee movements combined with hip pressure and weight shifts. Point your knee toward the mat to narrow your leg profile, then gradually work your heel toward your buttocks. Once the lockdown breaks, immediately establish combat base or begin a passing sequence before they can re-establish the lockdown.
 

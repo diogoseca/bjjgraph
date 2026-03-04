@@ -21,7 +21,7 @@ Strategically, this transition exemplifies the modern leg lock philosophy of mai
 
 Success depends on reading defensive reactions, maintaining hip-to-leg connection throughout the grip transition, and immediately establishing the fundamental ashi garami controls before the opponent can exploit the positional adjustment. Practitioners who master this flow transform their leg lock game from isolated single-attack attempts into a systematic chain where every defense opens a new offensive pathway, embodying the Danaher principle that leg attacks function as an interconnected system rather than disconnected techniques.
 
-**From Position**: [[Toe Hold Control]] (Top)
+**From Position**: [[Positions/Toe Hold Control]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Success depends on reading defensive reactions, maintaining hip-to-leg connectio
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Inside Ashi-Garami]] | 55% |
-| Failure | [[Toe Hold Control]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 55% |
+| Failure | [[Positions/Toe Hold Control]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Toe Hold to Ashi Garami transition occupies a pivotal role within the leg lo
 ## Related Techniques
 
 
-- [[Inside Ashi-Garami]] - Target position providing foundational leg entanglement hub for expanded attack chains
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Target position providing foundational leg entanglement hub for expanded attack chains
 
-- [[Toe Hold Control]] - Source position from which this transition originates when toe hold finish is defended
+- [[Positions/Toe Hold Control]] - Source position from which this transition originates when toe hold finish is defended
 
-- [[Outside Ashi-Garami]] - Alternative ashi configuration accessible from inside ashi-garami after transition completes
+- [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative ashi configuration accessible from inside ashi-garami after transition completes
 
-- [[Saddle]] - Advanced entanglement position reachable from inside ashi-garami for superior heel control
+- [[Positions/Ashi Garami/Saddle]] - Advanced entanglement position reachable from inside ashi-garami for superior heel control
 
-- [[Ashi Garami]] - Parent positional category governing all leg entanglement mechanics and principles
+- [[Positions/Ashi Garami]] - Parent positional category governing all leg entanglement mechanics and principles
 
-- [[Kneebar Control]] - Alternative leg attack accessible from ashi garami when opponent extends trapped leg
+- [[Positions/Kneebar Control]] - Alternative leg attack accessible from ashi garami when opponent extends trapped leg
 
-- [[Half Guard]] - Defensive recovery position for opponent if they successfully escape during transition
+- [[Positions/Half Guard]] - Defensive recovery position for opponent if they successfully escape during transition
 
-- [[Honey Hole]] - Advanced entanglement accessible from inside ashi-garami for inside heel hook attacks
+- [[Positions/Ashi Garami/Honey Hole]] - Advanced entanglement accessible from inside ashi-garami for inside heel hook attacks
 
-- [[Straight Ankle Lock Control]] - Primary submission control position accessible from the resulting inside ashi-garami
+- [[Positions/Straight Ankle Lock Control]] - Primary submission control position accessible from the resulting inside ashi-garami
 
-- [[Leg Entanglement]] - Fundamental conceptual framework governing all ashi-based positions and transitions
+- [[Positions/Leg Entanglement]] - Fundamental conceptual framework governing all ashi-based positions and transitions
 
 
 </section>

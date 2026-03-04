@@ -146,7 +146,7 @@ description: "Defend against the grip fight escape from your rear triangle top p
 
 As the defender against the grip fight escape, you are the practitioner maintaining the rear triangle top position. Your opponent has begun systematically attacking your triangle lock through targeted grip fighting, primarily aimed at breaking the ankle-knee connection that holds your figure-four together. Your objective is to maintain the triangle structure, prevent the escape, and either finish the choke or transition to an alternative dominant position. Success requires recognizing the grip fight early, reinforcing the structural integrity of your triangle lock, and making the opponent pay for committing their free hand to the escape rather than protecting their neck. Understanding the attacker's grip fight sequence allows you to preemptively defend each stage and close the escape window before it opens.
 
-**Opponent's Starting Position**: [[Rear Triangle]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Triangle Control/Rear Triangle]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the defender against the grip fight escape, you are the practitioner maintain
 ### 1. Squeeze triangle tighter and angle hips to accelerate choke finish
 
 - **When to use**: When you feel the opponent's hand reaching for your ankle, immediately tighten the lock to create urgency that forces them to abandon the grip fight and return to choke defense
-- **Targets**: [[Rear Triangle]]
+- **Targets**: [[Positions/Triangle Control/Rear Triangle]]
 - **If successful**: Opponent abandons grip fight and returns to defensive posture, or the choke finishes before the grip fight succeeds
 - **Risk**: If the opponent maintains composure and continues the grip fight despite increased pressure, you expend significant leg energy on squeezing
 
 ### 2. Strip opponent's grip on your ankle using your free hands
 
 - **When to use**: The moment you feel fingers wrapping around your ankle at the lock point, use one or both hands to peel their grip off before they can generate breaking force
-- **Targets**: [[Rear Triangle]]
+- **Targets**: [[Positions/Triangle Control/Rear Triangle]]
 - **If successful**: Opponent's grip fight is reset to the beginning, forcing them to re-establish the grip while you maintain position
 - **Risk**: Using your hands to defend the ankle removes them from controlling the opponent's arms, potentially creating other escape opportunities
 
 ### 3. Transition to standard back control with hooks if triangle becomes compromised
 
 - **When to use**: When you feel the ankle-knee connection loosening and cannot re-tighten the triangle before the opponent extracts their arm
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You maintain a dominant back control position with hooks even though the triangle is lost
 - **Risk**: The transition creates a brief moment of loosened control where the opponent may escape to turtle or guard
 
 ### 4. Attack the trapped arm with armbar transition during grip fight
 
 - **When to use**: When the opponent commits their free hand fully to the ankle grip fight, leaving the trapped arm unprotected and available for armbar extension
-- **Targets**: [[Rear Triangle]]
+- **Targets**: [[Positions/Triangle Control/Rear Triangle]]
 - **If successful**: Opponent must abandon grip fight to defend the armbar, allowing you to re-secure the triangle lock
 - **Risk**: The armbar transition requires loosening the triangle slightly, which may give the opponent enough space to extract their arm
 
@@ -217,11 +217,11 @@ As the defender against the grip fight escape, you are the practitioner maintain
 
 ## Best-Case Outcomes for Defender
 
-### → [[Rear Triangle]]
+### → [[Positions/Triangle Control/Rear Triangle]]
 
 Recognize the grip fight early, tighten the triangle lock immediately, and strip the opponent's ankle grip before they generate breaking force. Maintain constant choking pressure to force them to choose between the grip fight and defending the choke. Use your hands to actively deny the opponent's free hand access to the lock point.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 If the triangle becomes compromised, proactively transition to standard back control by inserting hooks and establishing seatbelt grip before the opponent can fully escape. This maintains a dominant position even when the triangle is lost, rather than allowing a complete escape to turtle.
 

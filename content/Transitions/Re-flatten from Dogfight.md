@@ -21,7 +21,7 @@ The technique operates on a fundamental biomechanical principle: the dogfight bo
 
 Strategically, the re-flatten occupies an important position in the top player's dogfight decision tree. While more aggressive options like the crossface pass or back step exist, the re-flatten provides the highest-percentage method for stabilizing the position and resetting to a controlled passing scenario. Advanced practitioners layer the re-flatten threat with other attacks, using the bottom player's defensive reactions to re-flattening pressure as entries for passes and submissions. The technique is particularly valuable against skilled half guard players who consistently achieve dogfight, as it allows the top player to deny the offensive position rather than repeatedly defending sweeps and back takes.
 
-**From Position**: [[Dogfight Position]] (Top)
+**From Position**: [[Positions/Dogfight Position]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the re-flatten occupies an important position in the top player's
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Dogfight Position]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Dogfight Position]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Re-flatten from Dogfight serves as the critical reset mechanism in the half 
 ## Related Techniques
 
 
-- [[Dogfight Position]] - Starting position where the bottom player has elevated to kneeling posture with underhook control
+- [[Positions/Dogfight Position]] - Starting position where the bottom player has elevated to kneeling posture with underhook control
 
-- [[Half Guard]] - Target position after successful re-flatten returns opponent to flat half guard configuration
+- [[Positions/Half Guard]] - Target position after successful re-flatten returns opponent to flat half guard configuration
 
-- [[Flattened Half Guard]] - Specific half guard sub-variation that results from a successful re-flatten with dominant crossface
+- [[Positions/Half Guard/Flattened Half Guard]] - Specific half guard sub-variation that results from a successful re-flatten with dominant crossface
 
-- [[Deep Half Guard]] - Common defensive escape when bottom player drops level to avoid the re-flattening pressure
+- [[Positions/Half Guard/Deep Half Guard]] - Common defensive escape when bottom player drops level to avoid the re-flattening pressure
 
-- [[Knee Shield Half Guard]] - Half guard variation the bottom player may re-insert during recovery after being partially flattened
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Half guard variation the bottom player may re-insert during recovery after being partially flattened
 
-- [[Back Control]] - Position the bottom player threatens if re-flatten is poorly timed or executed without adequate control
+- [[Positions/Back Control]] - Position the bottom player threatens if re-flatten is poorly timed or executed without adequate control
 
-- [[Side Control]] - Potential advancement target when re-flatten is combined with immediate passing sequences
+- [[Positions/Side Control]] - Potential advancement target when re-flatten is combined with immediate passing sequences
 
-- [[Crossface from Dogfight]] - Alternative top player technique from dogfight that shares crossface mechanics with the re-flatten
+- [[Transitions/Crossface from Dogfight]] - Alternative top player technique from dogfight that shares crossface mechanics with the re-flatten
 
-- [[Dogfight Sweep]] - Bottom player sweep threat that the re-flatten preempts by collapsing offensive posture
+- [[Transitions/Dogfight Sweep]] - Bottom player sweep threat that the re-flatten preempts by collapsing offensive posture
 
-- [[Forward Drive Sweep from Dogfight]] - Another bottom player sweep that becomes available if the re-flatten attempt stalls
+- [[Transitions/Forward Drive Sweep from Dogfight]] - Another bottom player sweep that becomes available if the re-flatten attempt stalls
 
 
 </section>

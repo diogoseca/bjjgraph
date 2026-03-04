@@ -158,7 +158,7 @@ The most effective defensive strategy combines proactive hook management with su
 
 Advanced defenders develop sensitivity to the early phases of hook removal attempts. The telltale signs—elbow dropping inside the hip, subtle hip shifting away from one hook, legs beginning to clamp together—all signal that the escape sequence has begun. Responding within the first one to two seconds of recognition dramatically increases your retention rate. Once the first hook is fully cleared and trapped, recovery becomes significantly harder, making early intervention the cornerstone of effective defense against this escape.
 
-**Opponent's Starting Position**: [[Invisible Collar]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Invisible Collar]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ Advanced defenders develop sensitivity to the early phases of hook removal attem
 ### 1. Deepen threatened hook and increase choking pressure simultaneously
 
 - **When to use**: When you feel opponent's elbow beginning to wedge against your hook but before they execute the hip escape
-- **Targets**: [[Invisible Collar]]
+- **Targets**: [[Positions/Rubber Guard/Invisible Collar]]
 - **If successful**: Opponent abandons hook removal and returns both hands to neck defense, resetting to starting position with you maintaining full control
 - **Risk**: If you over-commit to deepening the hook, you may shift your weight and create an opening for opponent to escape on the opposite side
 
 ### 2. Switch to body triangle before first hook is cleared
 
 - **When to use**: When you recognize the elbow escape pattern starting and have time to transition your leg configuration before they gain leverage
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: Body triangle eliminates the hook removal escape entirely, forcing opponent to use completely different escape mechanics that you can prepare for
 - **Risk**: The transition between hooks and body triangle creates a brief window where neither control is fully established, potentially allowing a scramble
 
 ### 3. Drive forward and flatten opponent while re-pummel hooks deeper
 
 - **When to use**: When opponent begins the hip escape phase and creates lateral space—drive your chest weight forward to collapse the space they created
-- **Targets**: [[Invisible Collar]]
+- **Targets**: [[Positions/Rubber Guard/Invisible Collar]]
 - **If successful**: Opponent is flattened with hooks re-seated deeper, forcing them to restart the entire escape sequence from a worse position
 - **Risk**: Forward driving pressure can be redirected by experienced opponents who swim their arm under and use your momentum to complete the turn to guard
 
 ### 4. Re-insert cleared hook immediately while opponent addresses second hook
 
 - **When to use**: When opponent has cleared your first hook but not yet secured it with a leg triangle trap
-- **Targets**: [[Invisible Collar]]
+- **Targets**: [[Positions/Rubber Guard/Invisible Collar]]
 - **If successful**: First hook returns to position, negating all of opponent's escape progress and forcing them to restart from the beginning
 - **Risk**: If opponent has already triangled their legs around your cleared limb, re-insertion attempts waste energy and may create space that helps their rotation
 
@@ -229,11 +229,11 @@ Advanced defenders develop sensitivity to the early phases of hook removal attem
 
 ## Best-Case Outcomes for Defender
 
-### → [[Invisible Collar]]
+### → [[Positions/Rubber Guard/Invisible Collar]]
 
 Apply immediate choking pressure whenever opponent diverts a hand from neck defense to address hooks, forcing them to abandon the escape and return to survival mode. Combine this with active hook retention by driving heels toward their far hip when you feel the elbow wedge initiating.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 Switch to body triangle when you recognize the early phases of the elbow escape attempt. This changes the control mechanism entirely and forces opponent into a different, often less familiar escape pathway. Alternatively, if one hook is cleared, immediately consolidate with the remaining hook while adjusting your upper body control to prevent rotation.
 

@@ -184,7 +184,7 @@ What makes the Outside Ashi Entry distinctive is its versatility - it can be exe
 
 This technique has become increasingly prevalent in modern competition due to its effectiveness in both gi and no-gi environments. The systematic approach to entering outside ashi creates a clear pathway to leg lock submissions while maintaining defensive integrity throughout the transition. Understanding this entry is essential for any practitioner looking to develop a comprehensive leg lock game, as it serves as a gateway to multiple finishing positions and creates dilemmas that force opponents into defensive reactions.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ This technique has become increasingly prevalent in modern competition due to it
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Outside Ashi-Garami]] | 65% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Ashi Garami/Outside Ashi-Garami]] | 65% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -250,11 +250,11 @@ This technique has become increasingly prevalent in modern competition due to it
 
 ## Opponent Counters
 
-- **Opponent sprawls heavily backward as you drop level** (Effectiveness: Medium) - Your Response: Maintain grip on the leg and follow their backward movement, using their momentum to complete your rotation. Alternatively, transition to a single leg finish if the leg is elevated high enough. → Leads to [[Standing Position]]
-- **Opponent steps over with free leg during entry** (Effectiveness: High) - Your Response: Immediately switch to inside ashi entry or abandon the leg entanglement in favor of guard pull or other positional transition. Do not force the outside entry if they successfully step over. → Leads to [[Standing Position]]
-- **Opponent maintains strong posture and pulls leg free** (Effectiveness: Medium) - Your Response: Chase the leg as they pull back, using their retraction to accelerate your forward movement. Alternatively, transition to single leg X-guard entry if they create vertical distance. → Leads to [[Standing Position]]
-- **Opponent drops weight onto you before rotation completes** (Effectiveness: Low) - Your Response: Use the compression to create a reaction, then explode into the rotation as they attempt to establish base. The added weight can actually assist your rotation if timed correctly. → Leads to [[Outside Ashi-Garami]]
-- **Opponent attacks front headlock as you drop level** (Effectiveness: High) - Your Response: Protect your neck immediately by posturing your head to the outside and accelerating through the entry. If front headlock is secured, abandon leg entry and address the headlock threat first. → Leads to [[Standing Position]]
+- **Opponent sprawls heavily backward as you drop level** (Effectiveness: Medium) - Your Response: Maintain grip on the leg and follow their backward movement, using their momentum to complete your rotation. Alternatively, transition to a single leg finish if the leg is elevated high enough. → Leads to [[Positions/Standing Position]]
+- **Opponent steps over with free leg during entry** (Effectiveness: High) - Your Response: Immediately switch to inside ashi entry or abandon the leg entanglement in favor of guard pull or other positional transition. Do not force the outside entry if they successfully step over. → Leads to [[Positions/Standing Position]]
+- **Opponent maintains strong posture and pulls leg free** (Effectiveness: Medium) - Your Response: Chase the leg as they pull back, using their retraction to accelerate your forward movement. Alternatively, transition to single leg X-guard entry if they create vertical distance. → Leads to [[Positions/Standing Position]]
+- **Opponent drops weight onto you before rotation completes** (Effectiveness: Low) - Your Response: Use the compression to create a reaction, then explode into the rotation as they attempt to establish base. The added weight can actually assist your rotation if timed correctly. → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
+- **Opponent attacks front headlock as you drop level** (Effectiveness: High) - Your Response: Protect your neck immediately by posturing your head to the outside and accelerating through the entry. If front headlock is secured, abandon leg entry and address the headlock threat first. → Leads to [[Positions/Standing Position]]
 
 
 </section>

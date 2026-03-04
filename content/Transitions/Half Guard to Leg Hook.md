@@ -21,7 +21,7 @@ This transition addresses one of the most common stalling points in half guard t
 
 Strategically, this transition is most effective when combined with strong upper body pressure. The crossface or underhook must be established before attempting the hook insertion, as the brief weight shift required to reposition the leg creates a vulnerability window. Advanced practitioners chain this transition into knee slice passes, leg drags, and smash passes, making the leg hook a critical intermediate position in systematic half guard passing sequences.
 
-**From Position**: [[Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard]] (Top)
 **Success Rate**: 60%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this transition is most effective when combined with strong upper
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Leg Hook]] | 60% |
-| Failure | [[Half Guard]] | 25% |
-| Counter | [[Deep Half Guard]] | 15% |
+| Success | [[Positions/Leg Hook]] | 60% |
+| Failure | [[Positions/Half Guard]] | 25% |
+| Counter | [[Positions/Half Guard/Deep Half Guard]] | 15% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Transition to Leg Hook occupies a critical position in the half guard passin
 ## Related Techniques
 
 
-- [[Half Guard]] - Starting position - this transition begins from Half Guard Top
+- [[Positions/Half Guard]] - Starting position - this transition begins from Half Guard Top
 
-- [[Leg Hook]] - Target position - successful execution establishes Leg Hook Top control
+- [[Positions/Leg Hook]] - Target position - successful execution establishes Leg Hook Top control
 
-- [[Deep Half Guard]] - Counter position - bottom player may enter Deep Half if hook insertion timing is poor
+- [[Positions/Half Guard/Deep Half Guard]] - Counter position - bottom player may enter Deep Half if hook insertion timing is poor
 
-- [[Knee Slice Pass]] - Follow-up technique - primary pass completion from Leg Hook Top
+- [[Transitions/Knee Slice Pass]] - Follow-up technique - primary pass completion from Leg Hook Top
 
-- [[Leg Drag Pass]] - Follow-up technique - alternative passing option from established hook
+- [[Transitions/Leg Drag Pass]] - Follow-up technique - alternative passing option from established hook
 
-- [[Smash Pass]] - Follow-up technique - pressure passing option after hook establishment
+- [[Transitions/Smash Pass]] - Follow-up technique - pressure passing option after hook establishment
 
-- [[Crossface Pass]] - Complementary technique - upper body control that enables hook insertion
+- [[Transitions/Crossface Pass]] - Complementary technique - upper body control that enables hook insertion
 
-- [[Back Step Pass]] - Alternative approach - backstep variant of hook entry uses similar mechanics
+- [[Transitions/Back Step Pass]] - Alternative approach - backstep variant of hook entry uses similar mechanics
 
-- [[Knee Shield Half Guard]] - Defensive structure that must be cleared before attempting hook insertion
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Defensive structure that must be cleared before attempting hook insertion
 
-- [[Lockdown]] - Defensive counter - bottom player may establish lockdown to prevent hook conversion
+- [[Positions/Half Guard/Lockdown]] - Defensive counter - bottom player may establish lockdown to prevent hook conversion
 
-- [[Headquarters Position]] - Related passing position with similar intermediate control concepts
+- [[Positions/Headquarters Position]] - Related passing position with similar intermediate control concepts
 
 
 </section>

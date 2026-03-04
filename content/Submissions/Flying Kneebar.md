@@ -22,8 +22,8 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 **Category**: Joint Lock
 **Type**: Leg Lock
 **Target Area**: Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)
-**Starting Position**: [[Standing Guard]]
-**From Position**: [[Standing Position]] ()
+**Starting Position**: [[Positions/Standing Guard]]
+**From Position**: [[Positions/Standing Position]] ()
 **Success Rate**: 40%
 
 </section>
@@ -82,8 +82,8 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Standing Guard]] | 15% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Standing Guard]] | 15% |
 
 
 </section>
@@ -235,12 +235,12 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 ## From Which Positions?
 
-- [[Standing Guard]]
-- [[Standing Position]]
-- [[Open Guard]]
-- [[Seated Guard]]
-- [[Spider Guard]]
-- [[De La Riva Guard]]
+- [[Positions/Standing Guard]]
+- [[Positions/Standing Position]]
+- [[Positions/Open Guard]]
+- [[Positions/Seated Guard]]
+- [[Positions/Spider Guard]]
+- [[Positions/De La Riva Guard]]
 
 
 </section>
@@ -249,16 +249,16 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 ## Related Submissions
 
-- [[Inside Heel Hook]]
-- [[Flying Armbar]]
-- [[Straight Ankle Lock]]
-- [[Outside Heel Hook]]
-- [[Heel Hook]]
-- [[Toe Hold]]
-- [[Estima Lock]]
-- [[Achilles Lock]]
-- [[Calf Slicer]]
-- [[Belly Down Armbar]]
+- [[Submissions/Inside Heel Hook]]
+- [[Submissions/Flying Armbar]]
+- [[Submissions/Straight Ankle Lock]]
+- [[Transitions/Outside Heel Hook]]
+- [[Transitions/Heel Hook]]
+- [[Transitions/Toe Hold]]
+- [[Positions/Estima Lock]]
+- [[Submissions/Achilles Lock]]
+- [[Transitions/Calf Slicer]]
+- [[Submissions/Belly Down Armbar]]
 
 
 </section>
@@ -267,16 +267,16 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 ## Additional Related Content
 
-- [[Inside Heel Hook]] - Common transition when opponent defends by turning into kneebar
-- [[Inside Ashi-Garami]] - Landing position after successful flying kneebar entry
-- [[Single Leg X-Guard]] - Alternative leg entanglement with similar control structure
-- [[Flying Armbar]] - Similar dynamic aerial submission with comparable risk/reward profile
-- [[Ashi Garami]] - Static entry to same leg lock position system
-- [[Leg Entanglement]] - Core concept governing all leg lock positions and transitions
-- [[Kneebar Control]] - Control position for ground-based kneebar finish
-- [[50-50 Guard]] - Related leg entanglement with kneebar finishing options
-- [[Straight Ankle Lock]] - Alternative leg lock from similar leg configurations
-- [[Calf Slicer]] - Transition option when opponent bends knee defensively
+- [[Submissions/Inside Heel Hook]] - Common transition when opponent defends by turning into kneebar
+- [[Positions/Ashi Garami/Inside Ashi-Garami]] - Landing position after successful flying kneebar entry
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative leg entanglement with similar control structure
+- [[Submissions/Flying Armbar]] - Similar dynamic aerial submission with comparable risk/reward profile
+- [[Positions/Ashi Garami]] - Static entry to same leg lock position system
+- [[Positions/Leg Entanglement]] - Core concept governing all leg lock positions and transitions
+- [[Positions/Kneebar Control]] - Control position for ground-based kneebar finish
+- [[Positions/Ashi Garami/50-50 Guard]] - Related leg entanglement with kneebar finishing options
+- [[Submissions/Straight Ankle Lock]] - Alternative leg lock from similar leg configurations
+- [[Transitions/Calf Slicer]] - Transition option when opponent bends knee defensively
 
 
 </section>

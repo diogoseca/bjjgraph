@@ -21,7 +21,7 @@ The mechanical foundation centers on disrupting the chest-to-back alignment that
 
 Strategically, this escape transforms a purely defensive survival situation into an active offensive platform. Half guard bottom offers legitimate sweep and submission threats that force the former back controller to address entirely new problems. The escape chains naturally with other defensive options—if the half guard catch fails, the bottom player can continue turning to face the opponent or transition to turtle, making this a low-risk component within a broader back escape system.
 
-**From Position**: [[Harness]] (Bottom)
+**From Position**: [[Positions/Harness]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape transforms a purely defensive survival situation into
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Harness]] | 30% |
-| Counter | [[Mount]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Harness]] | 30% |
+| Counter | [[Positions/Mount]] | 15% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Harness Escape to Half Guard connects the back defense system directly to th
 ## Related Techniques
 
 
-- [[Harness]] - Source position from which this escape initiates
+- [[Positions/Harness]] - Source position from which this escape initiates
 
-- [[Half Guard]] - Target position reached upon successful escape
+- [[Positions/Half Guard]] - Target position reached upon successful escape
 
-- [[Back Control]] - Parent position category encompassing the harness configuration
+- [[Positions/Back Control]] - Parent position category encompassing the harness configuration
 
-- [[Body Triangle]] - Related back control variant requiring different escape mechanics
+- [[Positions/Back Control/Body Triangle]] - Related back control variant requiring different escape mechanics
 
-- [[Seat Belt Control Back]] - Alternative classification of the starting control position
+- [[Positions/Back Control/Seat Belt Control Back]] - Alternative classification of the starting control position
 
-- [[Knee Shield Half Guard]] - Common half guard variation established after completing escape
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Common half guard variation established after completing escape
 
-- [[Turtle]] - Alternative escape target when half guard catch fails
+- [[Positions/Turtle]] - Alternative escape target when half guard catch fails
 
-- [[Elbow Escape from Back]] - Complementary back escape technique targeting guard recovery
+- [[Transitions/Elbow Escape from Back]] - Complementary back escape technique targeting guard recovery
 
-- [[Body Triangle Escape to Half Guard]] - Similar escape concept from body triangle back control variant
+- [[Transitions/Body Triangle Escape to Half Guard]] - Similar escape concept from body triangle back control variant
 
-- [[Escape Seat Belt Control]] - Related escape addressing the same grip configuration
+- [[Transitions/Escape Seat Belt Control]] - Related escape addressing the same grip configuration
 
-- [[Mount]] - Common counter position opponent may achieve if escape is poorly timed
+- [[Positions/Mount]] - Common counter position opponent may achieve if escape is poorly timed
 
 
 </section>

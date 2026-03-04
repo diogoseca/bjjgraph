@@ -180,7 +180,7 @@ description: "Complete attacker guide for the knee slice pass from deep half gua
 
 As the top player in deep half guard, the knee slice pass is your most direct route to side control when you have established sufficient upper body control to begin leg extraction. The technique demands that you first neutralize the bottom player's sweep leverage through crossface pressure and weight distribution, then commit to driving your knee across their body with decisive forward momentum. The critical challenge is managing the brief instability created when your knee lifts to slice, as this is precisely when your opponent will attempt their highest-percentage sweeps. Success requires blending pressure, timing, and commitment into a single coordinated action that overwhelms the guard player's defensive structure.
 
-**From Position**: [[Deep Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Deep Half Guard]] (Top)
 
 </section>
 
@@ -233,9 +233,9 @@ As the top player in deep half guard, the knee slice pass is your most direct ro
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 50% |
-| Failure | [[Deep Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 50% |
+| Failure | [[Positions/Half Guard/Deep Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -244,11 +244,11 @@ As the top player in deep half guard, the knee slice pass is your most direct ro
 
 ## Opponent Counters
 
-- **Opponent maintains tight deep underhook and blocks knee extraction** (Effectiveness: High) - Your Response: Increase crossface pressure to flatten their upper body, use near hand to strip grip on your leg, and consider switching to a backstep pass if the underhook remains unbreakable → Leads to [[Deep Half Guard]]
-- **Opponent times a Homer Simpson sweep as your knee lifts off the mat** (Effectiveness: High) - Your Response: Post your free hand on the mat immediately and sprawl your trailing leg back to base out. If the sweep is advanced, abandon the knee slice and focus on base recovery before reattempting → Leads to [[Half Guard]]
-- **Opponent elevates hips into waiter sweep during the transitional moment** (Effectiveness: Medium) - Your Response: Drive your weight forward and down into their chest to kill the elevation. Widen your base with the posted leg and focus on smashing their upper body flat before reattempting the slice → Leads to [[Half Guard]]
-- **Opponent frames on your hip with free hand to create distance and block the knee path** (Effectiveness: Medium) - Your Response: Swim through the frame with your near arm or pin their framing wrist to the mat. Increase forward pressure to close the distance their frame created before continuing the knee slice → Leads to [[Deep Half Guard]]
-- **Opponent transitions to X-Guard or Single Leg X by hooking your posted leg** (Effectiveness: Medium) - Your Response: Immediately backstep your posted leg out of their hook range. Drop your hips and drive crossface pressure to prevent them from establishing the new guard position → Leads to [[Deep Half Guard]]
+- **Opponent maintains tight deep underhook and blocks knee extraction** (Effectiveness: High) - Your Response: Increase crossface pressure to flatten their upper body, use near hand to strip grip on your leg, and consider switching to a backstep pass if the underhook remains unbreakable → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Opponent times a Homer Simpson sweep as your knee lifts off the mat** (Effectiveness: High) - Your Response: Post your free hand on the mat immediately and sprawl your trailing leg back to base out. If the sweep is advanced, abandon the knee slice and focus on base recovery before reattempting → Leads to [[Positions/Half Guard]]
+- **Opponent elevates hips into waiter sweep during the transitional moment** (Effectiveness: Medium) - Your Response: Drive your weight forward and down into their chest to kill the elevation. Widen your base with the posted leg and focus on smashing their upper body flat before reattempting the slice → Leads to [[Positions/Half Guard]]
+- **Opponent frames on your hip with free hand to create distance and block the knee path** (Effectiveness: Medium) - Your Response: Swim through the frame with your near arm or pin their framing wrist to the mat. Increase forward pressure to close the distance their frame created before continuing the knee slice → Leads to [[Positions/Half Guard/Deep Half Guard]]
+- **Opponent transitions to X-Guard or Single Leg X by hooking your posted leg** (Effectiveness: Medium) - Your Response: Immediately backstep your posted leg out of their hook range. Drop your hips and drive crossface pressure to prevent them from establishing the new guard position → Leads to [[Positions/Half Guard/Deep Half Guard]]
 
 
 </section>

@@ -166,7 +166,7 @@ The fundamental defensive principle is that the back step creates a momentary wi
 
 Successful defense requires reading the passer's weight shifts and stance changes that telegraph the back step. Experienced passers disguise these tells, but the physical requirement of shifting weight to the base leg before stepping creates an unavoidable mechanical signature that trained practitioners can detect and exploit.
 
-**Opponent's Starting Position**: [[Grasshopper Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Grasshopper Guard]] (Top)
 
 </section>
 
@@ -203,28 +203,28 @@ Successful defense requires reading the passer's weight shifts and stance change
 ### 1. Chase with reinversion - roll your shoulders and reinvert toward the direction of the retreating leg, threading your hooks to reestablish grasshopper guard contact
 
 - **When to use**: Immediately upon recognizing the back step initiation, before the passer's leg clears your hook range. Most effective when you still have at least one hook behind their knee.
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: You reestablish grasshopper guard with maintained leg contact, nullifying the pass attempt and resetting to your offensive position
 - **Risk**: If the passer anticipates your reinversion and accelerates their forward drive, you may be flattened in a worse position than standard grasshopper
 
 ### 2. Shoot legs through for ashi garami - as the passer's weight shifts to their base leg, thread your legs around the stationary base leg to establish inside or outside ashi garami
 
 - **When to use**: When you detect the weight transfer to the base leg and recognize you cannot follow the retreating leg. The base leg becomes momentarily vulnerable as it bears full weight.
-- **Targets**: [[Ashi Garami]]
+- **Targets**: [[Positions/Ashi Garami]]
 - **If successful**: You transition from a defensive situation into an offensive leg entanglement, converting their passing attempt into your submission opportunity
 - **Risk**: If the passer sprawls or back steps the second leg before you secure hooks, you end up flat with both legs cleared and no guard structure
 
 ### 3. Frame and recover butterfly guard - immediately create forearm frames against the passer's shoulders as they drive forward, then insert butterfly hooks before they consolidate side control
 
 - **When to use**: When the back step has already cleared the entanglement and the forward drive is beginning. This is the last-resort defense when reinversion and leg threading windows have closed.
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: You prevent the pass from completing and recover to butterfly guard or open guard where you can reestablish offensive guard play
 - **Risk**: If your frames are weak or the passer's crossface establishes before your hooks insert, you concede side control with exhausted arms
 
 ### 4. Technical standup to wrestling - abandon the guard entirely and come up to standing as the passer disengages, using their backward motion as an opportunity to stand
 
 - **When to use**: When you recognize that the back step will clear your entanglement and you have sufficient energy and base to come up before the forward drive reaches you
-- **Targets**: [[Grasshopper Guard]]
+- **Targets**: [[Positions/Grasshopper Guard]]
 - **If successful**: You reset the exchange to standing where neither player has positional advantage and you can choose to re-engage on your terms
 - **Risk**: If the passer completes their forward drive faster than your standup, you get driven back down with no guard structure in place
 
@@ -236,11 +236,11 @@ Successful defense requires reading the passer's weight shifts and stance change
 
 ## Best-Case Outcomes for Defender
 
-### → [[Grasshopper Guard]]
+### → [[Positions/Grasshopper Guard]]
 
 Follow the retreating leg with a reinversion, threading your hooks back into their knee space before the extraction completes. Time your reinversion to begin as you feel the weight shift, not after the leg has already cleared. Alternatively, recover any open guard position by framing and creating distance before the forward drive consolidates.
 
-### → [[Ashi Garami]]
+### → [[Positions/Ashi Garami]]
 
 Attack the stationary base leg as the passer shifts weight onto it for the back step. Thread your inside leg hook around their standing leg and secure outside control with your other leg, transitioning directly into inside or outside ashi garami. The base leg is most vulnerable during the single-leg weight bearing phase of the back step.
 

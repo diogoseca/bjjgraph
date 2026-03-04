@@ -186,7 +186,7 @@ description: "Learn to execute the Counter Rotation from Toe Hold. Step-by-step 
 
 As the attacker executing this transition, you are the practitioner caught in Toe Hold Control Bottom who initiates a full body rotation in the direction of the submission pressure to neutralize the ankle torque. Your objective is to convert a defensive crisis into a neutral 50-50 Guard position where you have equal opportunity. Success depends on recognizing the correct moment to rotate, maintaining connection with your opponent's legs throughout the movement, and establishing 50-50 hooks before the opponent can disengage or deepen their entanglement. The counter rotation is not simply spinning away from danger but a deliberate repositioning that uses the opponent's own force vector to facilitate your escape.
 
-**From Position**: [[Toe Hold Control]] (Bottom)
+**From Position**: [[Positions/Toe Hold Control]] (Bottom)
 
 </section>
 
@@ -239,9 +239,9 @@ As the attacker executing this transition, you are the practitioner caught in To
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[50-50 Guard]] | 45% |
-| Failure | [[Toe Hold Control]] | 35% |
-| Counter | [[Saddle]] | 20% |
+| Success | [[Positions/Ashi Garami/50-50 Guard]] | 45% |
+| Failure | [[Positions/Toe Hold Control]] | 35% |
+| Counter | [[Positions/Ashi Garami/Saddle]] | 20% |
 
 
 </section>
@@ -250,10 +250,10 @@ As the attacker executing this transition, you are the practitioner caught in To
 
 ## Opponent Counters
 
-- **Opponent follows the rotation maintaining toe hold grip throughout the movement** (Effectiveness: High) - Your Response: Accelerate the rotation speed to outpace their adjustment. If they follow completely, switch to a rolling counter rotation that covers more distance. The key is creating enough rotational velocity that their grip loosens during the dynamic movement. → Leads to [[Toe Hold Control]]
-- **Opponent releases toe hold during rotation and transitions to saddle by threading their leg through** (Effectiveness: High) - Your Response: Immediately stop the rotation when you feel the toe hold grip release and check your leg positioning. If they are threading into saddle, use your free leg to block the far hook and work inside position to prevent full saddle establishment. Prioritize preventing the second hook over completing your rotation. → Leads to [[Saddle]]
-- **Opponent tightens grip explosively before rotation can neutralize the torque** (Effectiveness: Medium) - Your Response: If the grip tightens to submission-level torque before your rotation takes effect, tap immediately. Do not force a rotation through locked submission mechanics. If the grip tightens but is not yet at finishing intensity, increase your rotation speed and bridge simultaneously to create the space needed for the rotation to relieve pressure. → Leads to [[Toe Hold Control]]
-- **Opponent uses free hand to block your hip rotation by posting on your hip or knee** (Effectiveness: Medium) - Your Response: Use your near-side hand to strip the blocking grip from your hip before recommitting to the rotation. If stripping fails, redirect your rotation through a different vector by bridging over your opposite shoulder instead of rotating flat. The hip block only works against one rotational plane. → Leads to [[Toe Hold Control]]
+- **Opponent follows the rotation maintaining toe hold grip throughout the movement** (Effectiveness: High) - Your Response: Accelerate the rotation speed to outpace their adjustment. If they follow completely, switch to a rolling counter rotation that covers more distance. The key is creating enough rotational velocity that their grip loosens during the dynamic movement. → Leads to [[Positions/Toe Hold Control]]
+- **Opponent releases toe hold during rotation and transitions to saddle by threading their leg through** (Effectiveness: High) - Your Response: Immediately stop the rotation when you feel the toe hold grip release and check your leg positioning. If they are threading into saddle, use your free leg to block the far hook and work inside position to prevent full saddle establishment. Prioritize preventing the second hook over completing your rotation. → Leads to [[Positions/Ashi Garami/Saddle]]
+- **Opponent tightens grip explosively before rotation can neutralize the torque** (Effectiveness: Medium) - Your Response: If the grip tightens to submission-level torque before your rotation takes effect, tap immediately. Do not force a rotation through locked submission mechanics. If the grip tightens but is not yet at finishing intensity, increase your rotation speed and bridge simultaneously to create the space needed for the rotation to relieve pressure. → Leads to [[Positions/Toe Hold Control]]
+- **Opponent uses free hand to block your hip rotation by posting on your hip or knee** (Effectiveness: Medium) - Your Response: Use your near-side hand to strip the blocking grip from your hip before recommitting to the rotation. If stripping fails, redirect your rotation through a different vector by bridging over your opposite shoulder instead of rotating flat. The hip block only works against one rotational plane. → Leads to [[Positions/Toe Hold Control]]
 
 
 </section>

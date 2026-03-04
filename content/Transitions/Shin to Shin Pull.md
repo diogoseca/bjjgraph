@@ -21,7 +21,7 @@ Unlike traditional guard pulls that rely solely on grips, the shin-to-shin pull 
 
 The shin-to-shin pull has become increasingly popular in modern competition BJJ due to its versatility and the difficulty opponents face when trying to disengage. It forms the foundation of systematic guard-based games built around leg entanglement positions and provides a safe entry into offensive guard positions without giving up top position unnecessarily. When executed properly, it immediately places the opponent in a defensive posture while you maintain offensive initiative.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ The shin-to-shin pull has become increasingly popular in modern competition BJJ 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Shin-to-Shin Guard]] | 65% |
-| Failure | [[Standing Position]] | 25% |
-| Counter | [[Standing Position]] | 10% |
+| Success | [[Positions/Shin-to-Shin Guard]] | 65% |
+| Failure | [[Positions/Standing Position]] | 25% |
+| Counter | [[Positions/Standing Position]] | 10% |
 
 
 </section>
@@ -191,29 +191,29 @@ The shin-to-shin pull serves as a critical entry point into the modern guard-bas
 ## Related Techniques
 
 
-- [[Single Leg X-Guard]] - Primary transition target from shin-to-shin guard
+- [[Positions/X-Guard/Single Leg X-Guard]] - Primary transition target from shin-to-shin guard
 
-- [[Single Leg X Entry]] - Direct follow-up technique from shin-to-shin position
+- [[Transitions/Single Leg X Entry]] - Direct follow-up technique from shin-to-shin position
 
-- [[Single Leg X Sweep]] - Common sweep option from shin-to-shin control
+- [[Transitions/Single Leg X Sweep]] - Common sweep option from shin-to-shin control
 
-- [[X-Guard Sweep]] - Alternative sweep entry from shin-to-shin connection
+- [[Transitions/X-Guard Sweep]] - Alternative sweep entry from shin-to-shin connection
 
-- [[X-Guard]] - Related guard position accessible from shin-to-shin
+- [[Positions/X-Guard]] - Related guard position accessible from shin-to-shin
 
-- [[De La Riva Guard]] - Related guard pull system with similar mechanics
+- [[Positions/De La Riva Guard]] - Related guard pull system with similar mechanics
 
-- [[Reverse De La Riva Guard]] - Transition option when opponent circles away
+- [[Positions/De La Riva Guard/Reverse De La Riva Guard]] - Transition option when opponent circles away
 
-- [[Butterfly Sweep]] - Alternative guard pull and sweep option from standing
+- [[Transitions/Butterfly Sweep]] - Alternative guard pull and sweep option from standing
 
-- [[Elevator Sweep]] - Related sweeping mechanism using leg elevation
+- [[Transitions/Elevator Sweep]] - Related sweeping mechanism using leg elevation
 
-- [[Guard Pull]] - General category of guard establishment techniques
+- [[Transitions/Guard Pull]] - General category of guard establishment techniques
 
-- [[Standing Position]] - Starting position from which this pull is executed
+- [[Positions/Standing Position]] - Starting position from which this pull is executed
 
-- [[Shin-to-Shin Guard]] - Target guard position established by this technique
+- [[Positions/Shin-to-Shin Guard]] - Target guard position established by this technique
 
 
 </section>

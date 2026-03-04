@@ -156,7 +156,7 @@ description: "How to defend against Straight Ankle Lock in BJJ. Recognition, esc
 
 Defending the Straight Ankle Lock requires understanding the submission's mechanical chain and interrupting it at the earliest possible stage. The ankle lock's finishing power comes from three connected elements: heel trapped in the attacker's armpit, forearm blade across the top of the foot creating a fulcrum, and hip extension driving hyperextension pressure into the ankle joint. Your defensive strategy targets these elements in reverse order of urgency—first prevent the finish by disrupting hip extension, then work to extract your heel from the armpit, and finally disengage from the leg entanglement entirely. Early recognition is critical because the straight ankle lock's progressive pressure application means each second of inaction allows the attacker to tighten their control and close defensive windows. The most effective defenders address the submission at the control phase before finishing pressure begins, using boot (foot positioning to hide the heel), knee rotation, and grip fighting to prevent the attacker from ever reaching a finishing position. When caught deep, the priority shifts to immediate survival through grip breaks and posture disruption before working systematic escapes back to neutral position or guard recovery.
 
-**Opponent's Starting Position**: [[Straight Ankle Lock Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Straight Ankle Lock Control]] (Top)
 
 
 </section>
@@ -194,28 +194,28 @@ Defending the Straight Ankle Lock requires understanding the submission's mechan
 ### 1. Boot defense with immediate heel extraction—flex foot into plantar flexion while pulling knee toward your chest to retract the heel from their armpit
 
 - **When to use**: As soon as you recognize the ankle lock setup, before the attacker establishes deep armpit control and chest-to-knee connection
-- **Targets**: [[Straight Ankle Lock Control]]
+- **Targets**: [[Positions/Straight Ankle Lock Control]]
 - **If successful**: Heel comes free from armpit, eliminating the submission threat and allowing you to work on escaping the leg entanglement
 - **Risk**: If performed too explosively while heel is deeply trapped, you may injure your own ankle by pulling against a locked fulcrum point
 
 ### 2. Internal knee rotation—turn your trapped knee inward toward the attacker while simultaneously grabbing your own shin or foot with both hands to create a frame preventing hip extension
 
 - **When to use**: When the attacker has established armpit control but has not yet applied full finishing pressure—the transition window between setup and finish
-- **Targets**: [[Straight Ankle Lock Control]]
+- **Targets**: [[Positions/Straight Ankle Lock Control]]
 - **If successful**: Changes the pressure axis away from ankle hyperextension, stalls the finish, and creates time to work heel extraction or guard recovery
 - **Risk**: Turning the knee inward may expose you to toe hold attacks if the attacker recognizes and follows the rotation to a different submission
 
 ### 3. Sit up and break posture—drive forward explosively to push the attacker's chest away from your knee while reaching for their head or collar to collapse their upper body
 
 - **When to use**: When attacker is committed to the finish with deep control and you cannot extract your heel—disrupting their posture eliminates hip extension power
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Breaks the attacker's chest-to-knee connection, eliminates their ability to generate hip extension pressure, and often creates scramble opportunities or guard recovery
 - **Risk**: Sitting up forward may temporarily increase pressure on the ankle before you reach their posture, and exposes your back if the attacker maintains control
 
 ### 4. Cartwheel or roll escape—commit to a full body rotation over the attacker to relieve ankle pressure and disengage the leg entanglement entirely
 
 - **When to use**: As a last resort when other defenses have failed and finishing pressure is imminent—requires explosive commitment and timing
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Complete disengagement from the leg entanglement and return to neutral or top position
 - **Risk**: High risk if attacker maintains inside leg hook and chest connection—the roll may fail and leave you in a worse position with the attacker on top
 
@@ -238,11 +238,11 @@ Defending the Straight Ankle Lock requires understanding the submission's mechan
 
 ## Best-Case Outcomes for Defender
 
-### → [[Straight Ankle Lock Control]]
+### → [[Positions/Straight Ankle Lock Control]]
 
 Extract your heel from the attacker's armpit through boot defense and knee retraction before they establish deep finishing control, then maintain top position in the leg entanglement to work systematic leg extraction
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Break the attacker's posture by sitting up and collapsing their chest-to-knee connection, then use the disruption to retract your leg and re-establish guard position with distance from the attacker
 

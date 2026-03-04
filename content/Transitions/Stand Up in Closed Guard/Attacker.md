@@ -186,7 +186,7 @@ description: "Master the standing guard break from closed guard top. Step-by-ste
 
 As the attacker executing the stand up in closed guard, your objective is to transition from a kneeling position inside your opponent's closed guard to a controlled standing position that uses gravity to break their ankle lock. This is fundamentally a positional escape followed by a guard opening—you are converting a defensively disadvantaged kneeling position into an offensively advantaged standing position. Success requires a methodical sequence: secure posture, establish hand position, stand with controlled balance, apply guard-breaking pressure, then immediately transition to passing. The most common mistake is rushing the stand-up without first recovering posture and breaking dangerous grips, which exposes you to sweeps and submissions during the vulnerable transition phase. Patience in the setup creates explosiveness in the execution.
 
-**From Position**: [[Closed Guard]] (Top)
+**From Position**: [[Positions/Closed Guard]] (Top)
 
 </section>
 
@@ -240,9 +240,9 @@ As the attacker executing the stand up in closed guard, your objective is to tra
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Open Guard]] | 55% |
-| Failure | [[Closed Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Open Guard]] | 55% |
+| Failure | [[Positions/Closed Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ As the attacker executing the stand up in closed guard, your objective is to tra
 
 ## Opponent Counters
 
-- **Bottom player breaks posture with collar drag or head pull during stand-up attempt, collapsing the standing structure** (Effectiveness: High) - Your Response: Secure hand position on both hips before initiating stand, break collar grip with two-on-one grip break before committing to the standing motion → Leads to [[Closed Guard]]
-- **Bottom player shoots hips up for armbar or triangle during the single-knee-up transition phase** (Effectiveness: Medium) - Your Response: Keep elbows tight to your body and weight back over your base during the transition—never lean forward or post hands on the mat where they can be isolated → Leads to [[Half Guard]]
-- **Bottom player hooks your sleeve and uses upward momentum to execute overhead or flower sweep during the standing transition** (Effectiveness: Medium) - Your Response: Strip sleeve grip before committing to stand, maintain both hands connected to opponent's body throughout the ascent to deny them leverage for sweeping → Leads to [[Half Guard]]
-- **Bottom player opens guard preemptively and immediately establishes feet on hips with strong grips before you can control their legs** (Effectiveness: Medium) - Your Response: Anticipate early guard opening by maintaining hand contact with their legs throughout—transition instantly from hip pressure to ankle or knee control without pausing → Leads to [[Open Guard]]
+- **Bottom player breaks posture with collar drag or head pull during stand-up attempt, collapsing the standing structure** (Effectiveness: High) - Your Response: Secure hand position on both hips before initiating stand, break collar grip with two-on-one grip break before committing to the standing motion → Leads to [[Positions/Closed Guard]]
+- **Bottom player shoots hips up for armbar or triangle during the single-knee-up transition phase** (Effectiveness: Medium) - Your Response: Keep elbows tight to your body and weight back over your base during the transition—never lean forward or post hands on the mat where they can be isolated → Leads to [[Positions/Half Guard]]
+- **Bottom player hooks your sleeve and uses upward momentum to execute overhead or flower sweep during the standing transition** (Effectiveness: Medium) - Your Response: Strip sleeve grip before committing to stand, maintain both hands connected to opponent's body throughout the ascent to deny them leverage for sweeping → Leads to [[Positions/Half Guard]]
+- **Bottom player opens guard preemptively and immediately establishes feet on hips with strong grips before you can control their legs** (Effectiveness: Medium) - Your Response: Anticipate early guard opening by maintaining hand contact with their legs throughout—transition instantly from hip pressure to ankle or knee control without pausing → Leads to [[Positions/Open Guard]]
 
 
 </section>

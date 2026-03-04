@@ -146,7 +146,7 @@ description: "Learn to defend and counter the Scissor Sweep from Open Guard in B
 
 Defending the Scissor Sweep from Open Guard requires early recognition of the setup grips and immediate corrective action before the scissoring motion begins. The sweep becomes exponentially harder to defend once the attacker establishes their shin across your midsection and begins the lateral rotation, making early intervention the primary defensive strategy. Effective defense prioritizes posture maintenance to prevent the collar grip from breaking your alignment, base widening to resist the lateral topple, and strategic weight distribution that denies the mechanical advantage the scissoring legs create. Understanding the sweep's mechanics from the defender's perspective reveals multiple intervention points where small postural adjustments or grip strips completely neutralize the technique before it can develop. At the purple and brown belt level, defending the scissor sweep should transition seamlessly into guard passing opportunities, using the attacker's committed leg position as a vulnerability to exploit during the recovery window.
 
-**Opponent's Starting Position**: [[Open Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ Defending the Scissor Sweep from Open Guard requires early recognition of the se
 ### 1. Widen base and post far hand on mat immediately when shin contacts your midsection
 
 - **When to use**: As soon as you feel the opponent's shin across your stomach and before the scissoring motion begins, particularly when your sleeve is free
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: The lateral toppling force is absorbed by your widened base and hand post, neutralizing the sweep completely
 - **Risk**: Over-posting to one side can leave you vulnerable to collar drags or arm drags in the opposite direction
 
 ### 2. Strip the sleeve grip using a two-on-one break and immediately establish your own pant or knee grip
 
 - **When to use**: During the grip fighting phase before the opponent has fully loaded the sweep position with both legs committed
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Without sleeve control your posting hand is permanently free, making any scissor sweep attempt futile regardless of timing
 - **Risk**: Momentary loss of your own offensive grips during the strip may open a transition window for guard entries
 
 ### 3. Drive forward aggressively to stack the opponent's hips and flatten their scissor angle while controlling their legs
 
 - **When to use**: When you recognize the sweep setup early and can commit forward pressure before the scissoring motion fully initiates
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Your forward drive neutralizes the sweep and the opponent's committed leg position creates a passing opportunity to side control
 - **Risk**: If your forward drive is insufficiently committed, the momentum can be redirected into the scissor sweep itself
 
 ### 4. Stand up with strong posture, removing your weight from the scissoring range entirely
 
 - **When to use**: When you feel the collar grip pull and shin contact simultaneously but before full leg commitment to the sweep
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Standing posture eliminates the scissor sweep threat entirely and resets the positional engagement from a superior angle
 - **Risk**: Standing opens you to feet-on-hips attacks, de la riva hook entries, and technical standup from the bottom player
 
@@ -217,11 +217,11 @@ Defending the Scissor Sweep from Open Guard requires early recognition of the se
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Maintain strong posture against the collar grip, strip the sleeve control early using a two-on-one grip break, and widen your base when you feel any shin contact across your midsection. Proactive grip fighting prevents the sweep from being fully loaded.
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Recognize the sweep setup early and drive forward forcefully to flatten the opponent's hips, then use their committed leg position to backstep or pressure through to side control while their legs are tangled in the failed scissoring position.
 

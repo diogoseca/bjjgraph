@@ -158,7 +158,7 @@ Effective defense against arm extraction requires proactive pressure management 
 
 The most successful defenders combine heavy pressure with positional awareness, recognizing that every escape attempt from the bottom creates brief windows of vulnerability that can be exploited. Rather than simply trying to hold position statically, the top player should view arm extraction attempts as opportunities to advance—the bottom player's movement and commitment to escape often opens pathways to mount, knee on belly, or submission attacks that would not be available against a passive opponent.
 
-**Opponent's Starting Position**: [[Side Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Side Control]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ The most successful defenders combine heavy pressure with positional awareness, 
 ### 1. Drive crossface pressure and flatten opponent's shoulders back to the mat by dropping your shoulder weight across their neck and face while sprawling your hips low
 
 - **When to use**: As soon as you detect shoulder rotation beginning—the earlier you intervene, the more effective this counter. Most effective when opponent has not yet created significant space.
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Opponent is flattened back to the mat with both shoulders down, eliminating the rotational space needed for extraction and resetting to full side control pin
 - **Risk**: If you overcommit the crossface while opponent has already created space, they may use your forward momentum against you with a bridge and roll reversal
 
 ### 2. Transition to mount by stepping your far leg over opponent's hips when you feel them creating space for knee insertion after partial arm extraction
 
 - **When to use**: When opponent has successfully created some space and is working to insert their knee—the space they created for guard recovery is the same space you need to step over to mount
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You advance to mount position, converting their escape attempt into a worse position for them and gaining additional competition points
 - **Risk**: If your timing is poor or opponent has already inserted a knee, you may end up in half guard or have your leg trapped during the mount transition
 
 ### 3. Switch your hip position to north-south by rotating your body 90 degrees toward opponent's head when their frames make chest-to-chest pressure unsustainable
 
 - **When to use**: When opponent's frames are strong enough that continuing to fight for side control chest pressure is energy-inefficient and you cannot flatten them back down
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You eliminate the effectiveness of their arm extraction frames by changing the angle of control, resetting the escape sequence they were building, and potentially opening north-south choke opportunities
 - **Risk**: The transition to north-south momentarily reduces control and gives opponent a window to insert knees or complete guard recovery if your rotation is sloppy
 
 ### 4. Attack the exposed arm with americana or kimura when opponent extends their arm during the extraction threading motion, isolating it against their body
 
 - **When to use**: When opponent's arm is mid-extraction and exposed between bodies—the threading motion creates a brief window where the arm is neither fully trapped nor fully framed
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: You threaten a submission that forces opponent to abandon the escape attempt and address the immediate arm attack, resetting your dominant control position
 - **Risk**: Overcommitting to the submission attempt may create space that opponent exploits to complete the extraction or transition to a different escape pathway
 
@@ -229,11 +229,11 @@ The most successful defenders combine heavy pressure with positional awareness, 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Maintain constant chest-to-chest pressure and follow opponent's shoulder rotation with your own weight. When you feel frames being established, immediately drive your crossface shoulder down to flatten their shoulders back to the mat. Control their near-side hip to prevent shrimping. Re-settle your weight and re-establish full pin control after each failed extraction attempt.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 When opponent creates space during their extraction attempt and begins working to insert their knee, use that same space to step your far leg over their hips. Time the mount transition for the moment when their hips are moving away from you (shrimping), as their hip escape motion actually creates the pathway for your leg to clear. Drive your knee to the mat on the far side and immediately establish mount control with grapevines or high mount before they can recover guard.
 

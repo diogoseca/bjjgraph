@@ -146,7 +146,7 @@ description: "Defend against the inversion from reverse half guard top. Recognit
 
 As the top player in reverse half guard, your opponent's inversion attempt represents both a threat and an opportunity. The inversion is most dangerous when you fail to recognize it early and allow a clean rotation to open guard recovery. However, a poorly timed or incomplete inversion exposes the bottom player's back more than any other escape attempt from this position. Your defensive strategy centers on early recognition of rotation setup cues, pressure maintenance to prevent the rotation from starting, and capitalizing aggressively on failed or half-completed attempts by taking the back. Understanding the granby roll mechanics helps you anticipate the timing window and shut it down before it develops into a clean escape.
 
-**Opponent's Starting Position**: [[Reverse Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Reverse Half Guard]] (Bottom)
 
 </section>
 
@@ -184,28 +184,28 @@ As the top player in reverse half guard, your opponent's inversion attempt repre
 ### 1. Drive crossface pressure into bottom player's head to pin their shoulders flat against the mat
 
 - **When to use**: As soon as you recognize any hip turning or shoulder shifting that indicates inversion setup, before the rotation develops
-- **Targets**: [[Reverse Half Guard]]
+- **Targets**: [[Positions/Half Guard/Reverse Half Guard]]
 - **If successful**: Bottom player remains pinned in reverse half guard with no rotational option available, allowing you to continue your passing sequence
 - **Risk**: If crossface is applied too late, bottom player may already have enough rotation angle and momentum to complete the movement
 
 ### 2. Circle toward opponent's exposed back as they rotate, following their movement to insert hooks and establish back control
 
 - **When to use**: When the inversion is already initiated and has enough momentum that it cannot realistically be stopped with pressure alone
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You establish back control with hooks during their most vulnerable inverted phase, converting their escape attempt into the most dominant counter position
 - **Risk**: If they complete the rotation faster than you can circle, they establish open guard and you lose your reverse half guard advantage entirely
 
 ### 3. Control the near-side arm through overhook, wrist grip, or body pressure to prevent the posting frame
 
 - **When to use**: Early in the setup phase before any rotation has begun, when you feel the bottom player reaching toward your hip to establish a frame
-- **Targets**: [[Reverse Half Guard]]
+- **Targets**: [[Positions/Half Guard/Reverse Half Guard]]
 - **If successful**: Without the posting frame, the bottom player cannot create the space or angle needed to begin the shoulder rotation
 - **Risk**: Dedicating a hand to arm control may reduce your base and passing pressure, potentially opening other escape paths
 
 ### 4. Drive hips forward and low to smash through the rotation attempt with direct body pressure
 
 - **When to use**: When you feel the bottom player's hips beginning to turn and you have solid base to commit forward without being swept
-- **Targets**: [[Reverse Half Guard]]
+- **Targets**: [[Positions/Half Guard/Reverse Half Guard]]
 - **If successful**: Your forward pressure flattens the bottom player completely and removes any space for the inversion to develop or continue
 - **Risk**: Overcommitting forward pressure may open you to a momentum-based sweep if the bottom player redirects your forward drive into a different technique
 
@@ -217,11 +217,11 @@ As the top player in reverse half guard, your opponent's inversion attempt repre
 
 ## Best-Case Outcomes for Defender
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the inversion begins and you cannot prevent it, immediately circle toward the bottom player's exposed back rather than fighting the rotation. As they pass through the inverted position, follow their movement and work to insert hooks and establish seat belt control. The inverted phase is when they are most vulnerable to back takes because their arms are tucked and their back is maximally exposed.
 
-### → [[Reverse Half Guard]]
+### → [[Positions/Half Guard/Reverse Half Guard]]
 
 Shut down the inversion before it starts by maintaining heavy diagonal chest pressure toward their far shoulder, controlling the near arm to prevent the posting frame, and driving a strong crossface. Recognize the earliest setup cues and immediately increase forward pressure to pin the bottom player flat, eliminating any space for rotation to begin.
 

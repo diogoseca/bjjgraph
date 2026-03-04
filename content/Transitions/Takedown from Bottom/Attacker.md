@@ -180,7 +180,7 @@ description: "Execute takedowns from a disadvantaged standing position. Step-by-
 
 Executing a takedown from a disadvantaged standing position requires superior timing, commitment, and mechanical precision to overcome your opponent's grip advantage or postural dominance. The attacker must create a momentary break in the opponent's defensive structure through feints, grip breaks, or angle changes before committing to the level change and penetration step. Success depends on explosive hip drive, proper head positioning inside the opponent's hip line, and finishing with decisive lateral pressure to establish dominant top position. This is fundamentally a timing-based technique that punishes overextension or momentary lapses in the opponent's base, making setup quality more important than raw athleticism.
 
-**From Position**: [[Standing Position]] (Bottom)
+**From Position**: [[Positions/Standing Position]] (Bottom)
 
 </section>
 
@@ -232,10 +232,10 @@ Executing a takedown from a disadvantaged standing position requires superior ti
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Standing Position]] | 20% |
-| Counter | [[Front Headlock]] | 15% |
-| Counter | [[Closed Guard]] | 10% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Standing Position]] | 20% |
+| Counter | [[Positions/Front Headlock]] | 15% |
+| Counter | [[Positions/Closed Guard]] | 10% |
 
 
 </section>
@@ -244,10 +244,10 @@ Executing a takedown from a disadvantaged standing position requires superior ti
 
 ## Opponent Counters
 
-- **Opponent sprawls immediately, dropping hips back and driving chest weight onto your upper back to stuff the shot** (Effectiveness: High) - Your Response: Switch to a single leg by grabbing the near leg and driving your head to the outside while circling to create a new angle for the finish → Leads to [[Front Headlock]]
-- **Opponent pulls guard during the shot, sitting down and wrapping legs to establish closed guard before the takedown completes** (Effectiveness: Medium) - Your Response: Maintain posture and base as they sit, immediately address their grips and begin working to pass or stand back up to disengage from the guard → Leads to [[Closed Guard]]
-- **Opponent executes a crossface and whizzer combination, blocking your inside arm and driving your head sideways to kill the angle** (Effectiveness: High) - Your Response: Switch hips and re-shoot on the opposite side, or transition to a body lock by connecting your hands around their waist below the whizzer to negate its leverage → Leads to [[Standing Position]]
-- **Opponent catches a guillotine choke during the level change as your head drops below their chest line and into the pocket** (Effectiveness: Medium) - Your Response: Drive forward aggressively to pass to side control which relieves guillotine pressure, or pop your head up and re-establish posture before the choke tightens fully → Leads to [[Front Headlock]]
+- **Opponent sprawls immediately, dropping hips back and driving chest weight onto your upper back to stuff the shot** (Effectiveness: High) - Your Response: Switch to a single leg by grabbing the near leg and driving your head to the outside while circling to create a new angle for the finish → Leads to [[Positions/Front Headlock]]
+- **Opponent pulls guard during the shot, sitting down and wrapping legs to establish closed guard before the takedown completes** (Effectiveness: Medium) - Your Response: Maintain posture and base as they sit, immediately address their grips and begin working to pass or stand back up to disengage from the guard → Leads to [[Positions/Closed Guard]]
+- **Opponent executes a crossface and whizzer combination, blocking your inside arm and driving your head sideways to kill the angle** (Effectiveness: High) - Your Response: Switch hips and re-shoot on the opposite side, or transition to a body lock by connecting your hands around their waist below the whizzer to negate its leverage → Leads to [[Positions/Standing Position]]
+- **Opponent catches a guillotine choke during the level change as your head drops below their chest line and into the pocket** (Effectiveness: Medium) - Your Response: Drive forward aggressively to pass to side control which relieves guillotine pressure, or pop your head up and re-establish posture before the choke tightens fully → Leads to [[Positions/Front Headlock]]
 
 
 </section>

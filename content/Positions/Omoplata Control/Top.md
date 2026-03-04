@@ -207,17 +207,17 @@ Omoplata Control Top represents a dominant shoulder lock position where the top 
 
 ## Available Attacks
 
-### [[Omoplata]] (19% of attempts)
+### [[Transitions/Omoplata]] (19% of attempts)
 
-### [[Omoplata to Back]] (19% of attempts)
+### [[Transitions/Omoplata to Back]] (19% of attempts)
 
-### [[Omoplata Sweep]] (17% of attempts)
+### [[Transitions/Omoplata Sweep]] (17% of attempts)
 
-### [[Triangle Setup]] (14% of attempts)
+### [[Transitions/Triangle Setup]] (14% of attempts)
 
-### [[Armbar from Guard]] (17% of attempts)
+### [[Submissions/Armbar from Guard]] (17% of attempts)
 
-### [[Rolling Back Take]] (14% of attempts)
+### [[Transitions/Rolling Back Take]] (14% of attempts)
 
 
 
@@ -228,23 +228,23 @@ Omoplata Control Top represents a dominant shoulder lock position where the top 
 ## Decision Making from This Position
 
 **If opponent attempts forward roll escape and posts their free hand on the mat:**
-- Execute **[[Omoplata to Back]]** → [[Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Omoplata to Back]]** → [[Positions/Back Control]] (Probability: 75%)
 - Execute **[[Maintain Omoplata Control and Finish]]** → [[game-over]] (Probability: 65%)
 
 
 **If opponent sits up and tries to stack or create upright posture:**
 - Execute **[[Hip Adjustment to Finish Omoplata]]** → [[game-over]] (Probability: 70%)
-- Execute **[[Omoplata Sweep]]** → [[Mount]] (Probability: 68%)
+- Execute **[[Transitions/Omoplata Sweep]]** → [[Positions/Mount]] (Probability: 68%)
 
 
 **If opponent successfully extracts arm but remains in close range:**
-- Execute **[[Switch to Triangle]]** → [[Triangle Control]] (Probability: 60%)
-- Execute **[[Armbar from Guard]]** → [[Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Switch to Triangle]]** → [[Positions/Triangle Control]] (Probability: 60%)
+- Execute **[[Submissions/Armbar from Guard]]** → [[Positions/Armbar Control]] (Probability: 55%)
 
 
 **If opponent attempts to create distance and pull arm away:**
-- Execute **[[Follow to Back Control]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Re-Guard]]** → [[Open Guard]] (Probability: 50%)
+- Execute **[[Transitions/Follow to Back Control]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Re-Guard]]** → [[Positions/Open Guard]] (Probability: 50%)
 
 
 
@@ -379,15 +379,15 @@ Partner in omoplata control position attempts forward roll escape. Practice timi
 ## Related Positions and Techniques
 
 - **[[Omoplata Control Bottom]]** - Sibling variant - opposite perspective of same position
-- **[[Omoplata]]** - Primary submission finish from this position
-- **[[Omoplata from Guard]]** - Common entry submission technique
-- **[[Triangle Control]]** - Alternative shoulder attack position with similar control mechanics
-- **[[Armbar Control]]** - Alternative arm attack position from similar guard entries
-- **[[Back Control]]** - Common transition target when opponent defends omoplata
-- **[[Spider Guard]]** - Common entry position for establishing omoplata control
-- **[[Omoplata to Back]]** - Key transition technique from this position
-- **[[Omoplata Sweep]]** - Alternative offensive option maintaining control
-- **[[Baratoplata]]** - Related shoulder lock variation with similar mechanics
+- **[[Transitions/Omoplata]]** - Primary submission finish from this position
+- **[[Submissions/Omoplata from Guard]]** - Common entry submission technique
+- **[[Positions/Triangle Control]]** - Alternative shoulder attack position with similar control mechanics
+- **[[Positions/Armbar Control]]** - Alternative arm attack position from similar guard entries
+- **[[Positions/Back Control]]** - Common transition target when opponent defends omoplata
+- **[[Positions/Spider Guard]]** - Common entry position for establishing omoplata control
+- **[[Transitions/Omoplata to Back]]** - Key transition technique from this position
+- **[[Transitions/Omoplata Sweep]]** - Alternative offensive option maintaining control
+- **[[Transitions/Baratoplata]]** - Related shoulder lock variation with similar mechanics
 
 
 </section>

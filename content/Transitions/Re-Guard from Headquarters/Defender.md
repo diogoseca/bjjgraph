@@ -156,7 +156,7 @@ As the passer in Headquarters position, your opponent's re-guard attempt is the 
 
 The fundamental defensive strategy against re-guard is maintaining heavy hip-to-hip contact while controlling the bottom player's ability to create angles. Every inch of space they create with frames or shrimps must be immediately reclaimed through forward pressure, weight redistribution, or grip adjustments. The transition from Headquarters to a fully consolidated pass is a race: you are racing to establish crossface, underhook, and chest pressure before they can recover their legs. Prioritize upper body control over chasing their legs, because once you control their head and shoulders, their hip mobility drops dramatically and leg recovery becomes mechanically impossible.
 
-**Opponent's Starting Position**: [[Headquarters Position]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Headquarters Position]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The fundamental defensive strategy against re-guard is maintaining heavy hip-to-
 ### 1. Drive crossface and drop chest weight to flatten opponent before they establish frames
 
 - **When to use**: Immediately upon establishing Headquarters, before bottom player initiates any recovery sequence
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Bottom player is flattened with head turned away, eliminating hip mobility and allowing you to consolidate to full side control
 - **Risk**: If you overcommit chest weight forward without securing underhook, bottom player may use your momentum for a granby roll or deep half entry
 
 ### 2. Control near-side knee or thigh with your hand, pinning it to the mat to block leg recovery
 
 - **When to use**: When bottom player begins hip escaping and you feel their near-side knee pulling toward their chest
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Near-side leg recovery is blocked, forcing bottom player to attempt less effective far-side recovery or reset their escape sequence
 - **Risk**: Using your hand to control the knee temporarily removes it from upper body control, potentially allowing bottom player to establish a strong frame on that side
 
 ### 3. Follow their hip escape by stepping your hips forward and re-establishing pressure at their new angle
 
 - **When to use**: When bottom player executes a shrimp and creates initial space, before they can insert a knee or hook
-- **Targets**: [[Headquarters Position]]
+- **Targets**: [[Positions/Headquarters Position]]
 - **If successful**: Space created by the shrimp is immediately reclaimed, resetting the bottom player's escape progress to zero while maintaining your passing position
 - **Risk**: Following too aggressively can shift your weight forward and create opportunities for the bottom player to use your pressure for a sweep or inversion
 
 ### 4. Switch to knee slice or smash pass the moment their knee begins to enter, using their partial recovery as a passing lane
 
 - **When to use**: When bottom player has partially recovered their near-side knee but hasn't fully established a guard structure
-- **Targets**: [[Side Control]]
+- **Targets**: [[Positions/Side Control]]
 - **If successful**: Their partially recovered knee becomes the pathway for your knee slice, completing the pass through the gap they created rather than allowing guard recovery
 - **Risk**: If the bottom player's knee shield is already strong, your knee slice attempt may stall and allow them to complete full guard recovery to half guard or butterfly
 
@@ -227,11 +227,11 @@ The fundamental defensive strategy against re-guard is maintaining heavy hip-to-
 
 ## Best-Case Outcomes for Defender
 
-### → [[Side Control]]
+### → [[Positions/Side Control]]
 
 Secure crossface and underhook combination early, flatten the bottom player onto their back, and drive chest pressure while walking your hips around to perpendicular alignment. Complete the consolidation before they can establish frames by prioritizing upper body control over leg management.
 
-### → [[Headquarters Position]]
+### → [[Positions/Headquarters Position]]
 
 Follow each hip escape attempt by adjusting your angle and re-establishing hip-to-hip contact. Control the near-side knee to prevent leg recovery and maintain Headquarters control. This keeps you in the passing position to attempt another pass variation while denying their guard recovery.
 

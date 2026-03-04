@@ -21,7 +21,7 @@ The fundamental challenge lies in maintaining pressure continuity during the wei
 
 Strategically, the ability to threaten the mount transition from consolidated side control creates a cascading dilemma system. When the bottom player allocates defensive resources to preventing the mount, they necessarily weaken their defense against alternative attacks such as knee on belly transitions, kimura entries, and arm triangle setups. The mount threat functions as a positional forcing function that degrades the opponent's overall defensive coherence, making every other attack from side control more effective regardless of whether the mount transition itself is executed.
 
-**From Position**: [[Side Control Consolidation]] (Top)
+**From Position**: [[Positions/Side Control/Side Control Consolidation]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the ability to threaten the mount transition from consolidated si
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Side Control Consolidation]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Side Control/Side Control Consolidation]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -193,25 +193,25 @@ This transition serves as the primary pathway from the consolidation phase of si
 ## Related Techniques
 
 
-- [[Side Control Consolidation]] - Source position from which this transition originates after establishing dominant control
+- [[Positions/Side Control/Side Control Consolidation]] - Source position from which this transition originates after establishing dominant control
 
-- [[Mount]] - Target position achieved upon successful transition, providing highest-value control and submission platform
+- [[Positions/Mount]] - Target position achieved upon successful transition, providing highest-value control and submission platform
 
-- [[Half Guard]] - Counter outcome position where the bottom player recovers guard by inserting knee during the transition
+- [[Positions/Half Guard]] - Counter outcome position where the bottom player recovers guard by inserting knee during the transition
 
-- [[Knee on Belly]] - Alternative positional advancement from side control consolidation and intermediate step in staged mount entry
+- [[Positions/Knee on Belly]] - Alternative positional advancement from side control consolidation and intermediate step in staged mount entry
 
-- [[North-South]] - Alternative control advancement when mount transition is blocked by strong hip defense
+- [[Positions/North-South]] - Alternative control advancement when mount transition is blocked by strong hip defense
 
-- [[Side Control]] - Parent position category encompassing the consolidation phase where this transition begins
+- [[Positions/Side Control]] - Parent position category encompassing the consolidation phase where this transition begins
 
-- [[High Mount]] - Advanced mount variation to target after establishing initial mount control
+- [[Positions/Mount/High Mount]] - Advanced mount variation to target after establishing initial mount control
 
-- [[Technical Mount]] - Mount variation accessible when opponent turns during or after mount establishment
+- [[Positions/Mount/Technical Mount]] - Mount variation accessible when opponent turns during or after mount establishment
 
-- [[Kesa Gatame]] - Alternative side control variation offering different mounting angle and pathway
+- [[Positions/Side Control/Kesa Gatame]] - Alternative side control variation offering different mounting angle and pathway
 
-- [[Modified Scarf Hold]] - Related control position with hip-based mount entry option through leg swing
+- [[Positions/Side Control/Modified Scarf Hold]] - Related control position with hip-based mount entry option through leg swing
 
 
 </section>

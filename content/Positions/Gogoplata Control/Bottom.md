@@ -216,17 +216,17 @@ Strategically, bottom gogoplata control functions as a high-risk, high-reward po
 
 ## Available Escapes
 
-### [[Gogoplata]] (27% of attempts)
+### [[Transitions/Gogoplata]] (27% of attempts)
 
-### [[Closed Guard to Omoplata]] (15% of attempts)
+### [[Transitions/Closed Guard to Omoplata]] (15% of attempts)
 
-### [[Back Take]] (14% of attempts)
+### [[Transitions/Back Take]] (14% of attempts)
 
-### [[Mission Control Recovery]] (24% of attempts)
+### [[Transitions/Mission Control Recovery]] (24% of attempts)
 
-### [[Switch to Triangle]] (18% of attempts)
+### [[Transitions/Switch to Triangle]] (18% of attempts)
 
-### [[Gogoplata Finish]] (2% of attempts)
+### [[Submissions/Gogoplata Finish]] (2% of attempts)
 
 
 
@@ -237,23 +237,23 @@ Strategically, bottom gogoplata control functions as a high-risk, high-reward po
 ## Decision Making from This Position
 
 **If opponent maintains static posture and attempts to hand-fight the foot behind their head:**
-- Execute **[[Gogoplata Finish]]** → [[game-over]] (Probability: 50%)
-- Execute **[[Triangle Transition]]** → [[Triangle Control]] (Probability: 65%)
+- Execute **[[Submissions/Gogoplata Finish]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Triangle Transition]]** → [[Positions/Triangle Control]] (Probability: 65%)
 
 
 **If opponent attempts to posture up and create distance by extending arms and pushing hips back:**
-- Execute **[[Hip Elevation Maintenance]]** → [[Gogoplata Control]] (Probability: 45%)
-- Execute **[[Armbar Attack]]** → [[Armbar Control]] (Probability: 60%)
+- Execute **[[Hip Elevation Maintenance]]** → [[Positions/Gogoplata Control]] (Probability: 45%)
+- Execute **[[Armbar Attack]]** → [[Positions/Armbar Control]] (Probability: 60%)
 
 
 **If opponent turns shoulder away from choking shin to escape the throat compression:**
-- Execute **[[Omoplata Transition]]** → [[Omoplata Control]] (Probability: 60%)
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 55%)
+- Execute **[[Omoplata Transition]]** → [[Positions/Omoplata Control]] (Probability: 60%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent attempts forward roll through the position to escape shin pressure:**
-- Execute **[[Back Control Transition]]** → [[Back Control]] (Probability: 70%)
-- Execute **[[Mount Recovery]]** → [[High Mount]] (Probability: 50%)
+- Execute **[[Back Control Transition]]** → [[Positions/Back Control]] (Probability: 70%)
+- Execute **[[Mount Recovery]]** → [[Positions/Mount/High Mount]] (Probability: 50%)
 
 
 
@@ -387,14 +387,14 @@ Establish gogoplata control position and focus exclusively on maintaining elevat
 
 ## Related Positions and Techniques
 
-- **[[Rubber Guard]]** - Primary entry system providing control prerequisites for gogoplata setup
-- **[[Mission Control]]** - Specific rubber guard variation optimized for gogoplata entries
-- **[[Triangle Control]]** - Related leg-based control sharing similar mechanics and transition pathways
-- **[[Omoplata Control]]** - Alternative shoulder attack available when opponent defends gogoplata
-- **[[Closed Guard]]** - Foundation position from which rubber guard chain develops
-- **[[Back Control]]** - Transition target when opponent rolls forward to escape
-- **[[Gogoplata]]** - Submission finish executed from this control position
-- **[[High Mount]]** - Alternative transition target if opponent's escape creates mount opportunity
+- **[[Positions/Rubber Guard]]** - Primary entry system providing control prerequisites for gogoplata setup
+- **[[Positions/Rubber Guard/Mission Control]]** - Specific rubber guard variation optimized for gogoplata entries
+- **[[Positions/Triangle Control]]** - Related leg-based control sharing similar mechanics and transition pathways
+- **[[Positions/Omoplata Control]]** - Alternative shoulder attack available when opponent defends gogoplata
+- **[[Positions/Closed Guard]]** - Foundation position from which rubber guard chain develops
+- **[[Positions/Back Control]]** - Transition target when opponent rolls forward to escape
+- **[[Transitions/Gogoplata]]** - Submission finish executed from this control position
+- **[[Positions/Mount/High Mount]]** - Alternative transition target if opponent's escape creates mount opportunity
 
 
 </section>

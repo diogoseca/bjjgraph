@@ -180,7 +180,7 @@ description: "Execute the collar sleeve to spider guard transition. Master grip 
 
 As the attacker executing the collar sleeve to spider guard transition, your objective is to convert your current asymmetric grip structure into the bilateral control of spider guard without sacrificing positional integrity. The transition demands precise sequencing where your feet lead the conversion by establishing bicep contact before your hands change grips. The critical moment occurs when you release the collar grip to reach for the second sleeve, creating a brief vulnerability window that must be minimized through preparatory foot positioning and opponent off-balancing. Success depends on reading your opponent's posture and timing the grip switch during moments when they cannot capitalize on the temporary control gap.
 
-**From Position**: [[Collar Sleeve Guard]] (Bottom)
+**From Position**: [[Positions/Collar Sleeve Guard]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ As the attacker executing the collar sleeve to spider guard transition, your obj
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Spider Guard]] | 55% |
-| Failure | [[Collar Sleeve Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Spider Guard]] | 55% |
+| Failure | [[Positions/Collar Sleeve Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ As the attacker executing the collar sleeve to spider guard transition, your obj
 
 ## Opponent Counters
 
-- **Opponent rushes forward with heavy pressure during the collar grip release** (Effectiveness: High) - Your Response: Ensure both feet are already on biceps before releasing collar. If they surge forward, use bilateral bicep push to create distance and complete the grip switch from extended position. If overwhelmed, recover collar grip and reset. → Leads to [[Open Guard]]
-- **Opponent strips the existing sleeve grip during the transition to remove all upper body control** (Effectiveness: Medium) - Your Response: Maintain collar grip and use feet on biceps to control distance while re-establishing sleeve grip. Do not release the collar until sleeve control is restored. Use feet as primary control until grips are re-secured. → Leads to [[Collar Sleeve Guard]]
-- **Opponent pulls their free arm back and away to prevent second sleeve grip** (Effectiveness: Medium) - Your Response: Use your foot on their bicep to extend their arm and bring the sleeve within reach. If they withdraw the arm completely, pivot to lasso guard by threading your leg under the controlled arm, creating an alternative guard configuration. → Leads to [[Collar Sleeve Guard]]
-- **Opponent circles laterally to create an angle that bypasses your feet-on-biceps structure** (Effectiveness: Medium) - Your Response: Follow their lateral movement with your hips, maintaining perpendicular orientation. Use the near-side foot to hook their bicep and the far-side foot to track their hip. If they create significant angle, transition to De La Riva guard on the near leg instead of completing spider. → Leads to [[Open Guard]]
+- **Opponent rushes forward with heavy pressure during the collar grip release** (Effectiveness: High) - Your Response: Ensure both feet are already on biceps before releasing collar. If they surge forward, use bilateral bicep push to create distance and complete the grip switch from extended position. If overwhelmed, recover collar grip and reset. → Leads to [[Positions/Open Guard]]
+- **Opponent strips the existing sleeve grip during the transition to remove all upper body control** (Effectiveness: Medium) - Your Response: Maintain collar grip and use feet on biceps to control distance while re-establishing sleeve grip. Do not release the collar until sleeve control is restored. Use feet as primary control until grips are re-secured. → Leads to [[Positions/Collar Sleeve Guard]]
+- **Opponent pulls their free arm back and away to prevent second sleeve grip** (Effectiveness: Medium) - Your Response: Use your foot on their bicep to extend their arm and bring the sleeve within reach. If they withdraw the arm completely, pivot to lasso guard by threading your leg under the controlled arm, creating an alternative guard configuration. → Leads to [[Positions/Collar Sleeve Guard]]
+- **Opponent circles laterally to create an angle that bypasses your feet-on-biceps structure** (Effectiveness: Medium) - Your Response: Follow their lateral movement with your hips, maintaining perpendicular orientation. Use the near-side foot to hook their bicep and the far-side foot to track their hip. If they create significant angle, transition to De La Riva guard on the near leg instead of completing spider. → Leads to [[Positions/Open Guard]]
 
 
 </section>

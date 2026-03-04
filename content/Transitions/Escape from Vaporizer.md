@@ -21,7 +21,7 @@ The escape follows a strict hierarchy: first stabilize base to resist the whip-u
 
 Timing and patience define the difference between successful and failed escape attempts. Explosive movements play directly into the bottom player's game by creating the space and momentum they need for sweeps and transitions. Instead, steady grinding pressure that gradually degrades the opponent's control points while maintaining defensive stability produces consistently higher escape rates. The top player must accept that this escape often takes 30-60 seconds of methodical work rather than a single decisive movement.
 
-**From Position**: [[Vaporizer]] (Top)
+**From Position**: [[Positions/Vaporizer]] (Top)
 **Success Rate**: 30%
 
 </section>
@@ -32,11 +32,11 @@ Timing and patience define the difference between successful and failed escape a
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 20% |
-| Success | [[Side Control]] | 10% |
-| Failure | [[Vaporizer]] | 40% |
-| Counter | [[Mount]] | 20% |
-| Counter | [[Back Control]] | 10% |
+| Success | [[Positions/Half Guard]] | 20% |
+| Success | [[Positions/Side Control]] | 10% |
+| Failure | [[Positions/Vaporizer]] | 40% |
+| Counter | [[Positions/Mount]] | 20% |
+| Counter | [[Positions/Back Control]] | 10% |
 
 
 </section>
@@ -195,29 +195,29 @@ The Escape from Vaporizer occupies a critical defensive role within the half gua
 ## Related Techniques
 
 
-- [[Vaporizer]] - Source position from which this escape is initiated
+- [[Positions/Vaporizer]] - Source position from which this escape is initiated
 
-- [[Lockdown]] - Control mechanism that must be cleared to complete the escape
+- [[Positions/Half Guard/Lockdown]] - Control mechanism that must be cleared to complete the escape
 
-- [[Half Guard]] - Primary escape destination after clearing the lockdown
+- [[Positions/Half Guard]] - Primary escape destination after clearing the lockdown
 
-- [[Side Control]] - Target dominant position after successful escape and pass completion
+- [[Positions/Side Control]] - Target dominant position after successful escape and pass completion
 
-- [[Electric Chair]] - Submission threat that increases when escape attempts are poorly timed
+- [[Positions/Half Guard/Electric Chair]] - Submission threat that increases when escape attempts are poorly timed
 
-- [[Old School]] - Sweep position the opponent may transition to during escape attempts
+- [[Positions/Half Guard/Old School]] - Sweep position the opponent may transition to during escape attempts
 
-- [[Defend Vaporizer Sweep]] - Complementary defensive transition addressing sweep threats from the Vaporizer
+- [[Transitions/Defend Vaporizer Sweep]] - Complementary defensive transition addressing sweep threats from the Vaporizer
 
-- [[Escape Vaporizer]] - Related transition where the bottom player voluntarily releases lockdown to open guard
+- [[Transitions/Escape Vaporizer]] - Related transition where the bottom player voluntarily releases lockdown to open guard
 
-- [[Back Control]] - Risk position if opponent takes the back during a failed escape scramble
+- [[Positions/Back Control]] - Risk position if opponent takes the back during a failed escape scramble
 
-- [[Mount]] - Risk position if opponent completes an Old School sweep during the escape
+- [[Positions/Mount]] - Risk position if opponent completes an Old School sweep during the escape
 
-- [[Combat Base]] - Intermediate recovery position used during the escape sequence
+- [[Positions/Combat Base]] - Intermediate recovery position used during the escape sequence
 
-- [[Rubber Guard]] - Related 10th Planet guard system sharing similar control philosophy
+- [[Positions/Rubber Guard]] - Related 10th Planet guard system sharing similar control philosophy
 
 
 </section>

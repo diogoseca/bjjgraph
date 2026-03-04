@@ -21,7 +21,7 @@ This transition is particularly effective against pressure passers who commit th
 
 From a systems perspective, the butterfly to X-Guard pathway is the most natural and high-percentage method of entering X-Guard in both gi and no-gi competition. It creates a seamless chain where failed butterfly sweeps flow directly into X-Guard entries, maintaining constant offensive pressure and preventing the top player from ever settling into a stable passing position. Mastery of this transition transforms butterfly guard from a single-threat position into a multi-layered attack platform with sweeps, transitions, and leg entanglement entries all available from the same starting configuration.
 
-**From Position**: [[Butterfly Guard]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ From a systems perspective, the butterfly to X-Guard pathway is the most natural
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[X-Guard]] | 58% |
-| Failure | [[Butterfly Guard]] | 30% |
-| Counter | [[Butterfly Guard]] | 12% |
+| Success | [[Positions/X-Guard]] | 58% |
+| Failure | [[Positions/Butterfly Guard]] | 30% |
+| Counter | [[Positions/Butterfly Guard]] | 12% |
 
 
 </section>
@@ -195,29 +195,29 @@ The butterfly guard to X-Guard transition represents a crucial link in modern gu
 ## Related Techniques
 
 
-- [[Butterfly Guard]] - Starting position providing hooks and elevation mechanics
+- [[Positions/Butterfly Guard]] - Starting position providing hooks and elevation mechanics
 
-- [[X-Guard]] - Target position after successful transition
+- [[Positions/X-Guard]] - Target position after successful transition
 
-- [[Single Leg X-Guard]] - Alternative ending position when full X-Guard is not achievable
+- [[Positions/X-Guard/Single Leg X-Guard]] - Alternative ending position when full X-Guard is not achievable
 
-- [[Butterfly Hook Control]] - Prerequisite control concept for maintaining active hooks
+- [[Positions/Butterfly Guard/Butterfly Hook Control]] - Prerequisite control concept for maintaining active hooks
 
-- [[Basic Butterfly Sweep]] - Setup technique that creates the forward post enabling X-Guard entry
+- [[Transitions/Basic Butterfly Sweep]] - Setup technique that creates the forward post enabling X-Guard entry
 
-- [[X-Guard Sweep]] - Primary follow-up technique after establishing X-Guard
+- [[Transitions/X-Guard Sweep]] - Primary follow-up technique after establishing X-Guard
 
-- [[De La Riva to X-Guard Transition]] - Alternative X-Guard entry from different guard
+- [[Transitions/De La Riva to X-Guard Transition]] - Alternative X-Guard entry from different guard
 
-- [[Deep Half Guard]] - Alternative transition when opponent smashes through X-Guard entry
+- [[Positions/Half Guard/Deep Half Guard]] - Alternative transition when opponent smashes through X-Guard entry
 
-- [[Half Butterfly]] - Alternative starting position with single hook variation
+- [[Positions/Butterfly Guard/Half Butterfly]] - Alternative starting position with single hook variation
 
-- [[Single Leg X Entry]] - Related entry technique to adjacent leg entanglement position
+- [[Transitions/Single Leg X Entry]] - Related entry technique to adjacent leg entanglement position
 
-- [[Elevator Sweep]] - Related butterfly elevation technique that creates same forward post reaction
+- [[Transitions/Elevator Sweep]] - Related butterfly elevation technique that creates same forward post reaction
 
-- [[Arm Drag to Back]] - Alternative attack from butterfly when opponent defends X-Guard entry
+- [[Transitions/Arm Drag to Back]] - Alternative attack from butterfly when opponent defends X-Guard entry
 
 
 </section>

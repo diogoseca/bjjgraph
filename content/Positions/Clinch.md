@@ -91,19 +91,19 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 ### Available Transitions
 
 
-- **[[Guard Pull from Clinch]]** (22% of attempts)
+- **[[Transitions/Guard Pull from Clinch]]** (22% of attempts)
 
-- **[[Guard Pull]]** (18% of attempts)
+- **[[Transitions/Guard Pull]]** (18% of attempts)
 
-- **[[Underhook Pummeling from Clinch]]** (15% of attempts)
+- **[[Transitions/Underhook Pummeling from Clinch]]** (15% of attempts)
 
-- **[[Break Clinch]]** (15% of attempts)
+- **[[Transitions/Break Clinch]]** (15% of attempts)
 
-- **[[Arm Drag from Clinch]]** (10% of attempts)
+- **[[Transitions/Arm Drag from Clinch]]** (10% of attempts)
 
-- **[[Duck Under from Clinch]]** (10% of attempts)
+- **[[Transitions/Duck Under from Clinch]]** (10% of attempts)
 
-- **[[Arm Drag from Clinch Bottom]]** (10% of attempts)
+- **[[Transitions/Arm Drag from Clinch Bottom]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -168,35 +168,35 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 ### Available Transitions
 
 
-- **[[Double Leg Entry]]** (10% of attempts)
+- **[[Transitions/Double Leg Entry]]** (10% of attempts)
 
-- **[[Single Leg Takedown]]** (10% of attempts)
+- **[[Transitions/Single Leg Takedown]]** (10% of attempts)
 
-- **[[Snap Down to Front Headlock]]** (10% of attempts)
+- **[[Transitions/Snap Down to Front Headlock]]** (10% of attempts)
 
-- **[[Duck Under]]** (10% of attempts)
+- **[[Transitions/Duck Under]]** (10% of attempts)
 
-- **[[Fireman's Carry]]** (10% of attempts)
+- **[[Transitions/Fireman's Carry]]** (10% of attempts)
 
-- **[[Kouchi Gari]]** (8% of attempts)
+- **[[Transitions/Kouchi Gari]]** (8% of attempts)
 
-- **[[Uchi Mata]]** (8% of attempts)
+- **[[Transitions/Uchi Mata]]** (8% of attempts)
 
-- **[[Arm Drag to Back]]** (7% of attempts)
+- **[[Transitions/Arm Drag to Back]]** (7% of attempts)
 
-- **[[Body Lock Pass]]** (7% of attempts)
+- **[[Transitions/Body Lock Pass]]** (7% of attempts)
 
-- **[[High Crotch]]** (5% of attempts)
+- **[[Transitions/High Crotch]]** (5% of attempts)
 
-- **[[Collar Drag]]** (5% of attempts)
+- **[[Transitions/Collar Drag]]** (5% of attempts)
 
-- **[[Ankle Pick]]** (4% of attempts)
+- **[[Transitions/Ankle Pick]]** (4% of attempts)
 
-- **[[Body Lock Takedown from Clinch]]** (2% of attempts)
+- **[[Transitions/Body Lock Takedown from Clinch]]** (2% of attempts)
 
-- **[[Two-on-One to Back Take]]** (2% of attempts)
+- **[[Transitions/Two-on-One to Back Take]]** (2% of attempts)
 
-- **[[Standing Guillotine from Clinch]]** (2% of attempts)
+- **[[Submissions/Standing Guillotine from Clinch]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -239,27 +239,27 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 ## Related Positions
 
 
-- **[[Body Lock]]** - Advanced clinch control with torso engagement
+- **[[Positions/Body Lock]]** - Advanced clinch control with torso engagement
 
-- **[[Front Headlock]]** - Common transition target from clinch snap downs
+- **[[Positions/Front Headlock]]** - Common transition target from clinch snap downs
 
-- **[[Standing Position]]** - General standing state containing clinch as a sub-position
+- **[[Positions/Standing Position]]** - General standing state containing clinch as a sub-position
 
-- **[[Double Leg Entry]]** - Primary offensive transition from clinch
+- **[[Transitions/Double Leg Entry]]** - Primary offensive transition from clinch
 
-- **[[Guard Pull]]** - Alternative transition pathway to ground engagement
+- **[[Transitions/Guard Pull]]** - Alternative transition pathway to ground engagement
 
-- **[[Overhook Control]]** - Defensive grip configuration within clinch
+- **[[Positions/Overhook Control]]** - Defensive grip configuration within clinch
 
-- **[[Arm Drag to Back]]** - High-percentage back take from clinch grip fighting
+- **[[Transitions/Arm Drag to Back]]** - High-percentage back take from clinch grip fighting
 
-- **[[Single Leg Takedown]]** - Essential wrestling takedown from clinch engagement
+- **[[Transitions/Single Leg Takedown]]** - Essential wrestling takedown from clinch engagement
 
-- **[[Back Control]]** - Primary destination when arm drag succeeds
+- **[[Positions/Back Control]]** - Primary destination when arm drag succeeds
 
-- **[[Closed Guard]]** - Common landing position after guard pull
+- **[[Positions/Closed Guard]]** - Common landing position after guard pull
 
-- **[[Snap Down to Front Headlock]]** - Key clinch-to-control transition via level change
+- **[[Transitions/Snap Down to Front Headlock]]** - Key clinch-to-control transition via level change
 
 
 </section>

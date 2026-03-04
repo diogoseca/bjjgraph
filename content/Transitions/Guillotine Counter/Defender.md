@@ -146,7 +146,7 @@ description: "How to defend against your opponent's guillotine counter in BJJ. M
 
 The Guillotine Counter Defender is the practitioner who has secured a guillotine choke and must now deal with the opponent's systematic escape attempt. This is a critical phase where the guillotine holder must recognize the counter early, adjust grip mechanics, and make tactical decisions about whether to fight for the finish, transition to alternative attacks, or accept positional change. The defender's primary challenge is that the opponent's forward pressure and circular movement directly undermine the choking mechanics. Success requires understanding which adjustments preserve the choke's effectiveness — tightening the grip, elevating the elbow, closing guard higher on the back, or switching to a different submission entirely — versus which reactions waste energy on a lost cause. The best guillotine players treat the counter attempt as an expected phase of the submission sequence rather than a crisis, having pre-planned responses for each stage of the escape.
 
-**Opponent's Starting Position**: [[Guillotine Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Guillotine Control]] (Top)
 
 </section>
 
@@ -184,28 +184,28 @@ The Guillotine Counter Defender is the practitioner who has secured a guillotine
 ### 1. Elevate elbow and switch to high elbow guillotine variation while closing guard higher on opponent's back
 
 - **When to use**: Early in the counter when opponent begins driving forward but before they have established full hand control on your choking arm
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: Nullifies the forward pressure advantage by changing the choking angle, re-establishing a tight submission threat that forces opponent to restart their defense
 - **Risk**: If the adjustment is too slow, opponent uses the moment of grip transition to accelerate the escape and extract their head
 
 ### 2. Release guillotine and immediately re-pummel to deeper front headlock control or transition to anaconda grip as opponent circles
 
 - **When to use**: When the guillotine has been significantly compromised by opponent's forward pressure and continued squeezing is no longer threatening a finish
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: Secures a fresh attacking grip from a different angle, catching opponent off guard during what they expected to be a successful escape sequence
 - **Risk**: Releasing the grip gives the opponent a window to fully posture up and pass, potentially losing all offensive control
 
 ### 3. Use hip bump sweep timing as opponent drives weight forward, rolling them to mount while maintaining whatever choke grip remains
 
 - **When to use**: When opponent commits heavily to forward pressure, creating the momentum needed for a sweep but before they have circled to the safe side
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: Reverses the positional dynamic entirely, achieving mount while potentially maintaining the guillotine grip from a now-dominant top position
 - **Risk**: Failed sweep attempt leaves you flat on your back with opponent in strong passing position and your guillotine grip further compromised
 
 ### 4. Lock closed guard higher on opponent's back and pull head down aggressively to re-break posture before they complete the escape
 
 - **When to use**: When opponent begins posturing but has not yet established strong forward drive or hand control on your choking arm
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: Re-establishes the original guillotine control position with opponent's posture broken, resetting their escape attempt from the beginning
 - **Risk**: If opponent's posture is already too strong, the pulling effort wastes energy and fails to re-break their alignment
 
@@ -217,11 +217,11 @@ The Guillotine Counter Defender is the practitioner who has secured a guillotine
 
 ## Best-Case Outcomes for Defender
 
-### → [[Guillotine Control]]
+### → [[Positions/Guillotine Control]]
 
 Maintain or deepen guillotine grip by immediately switching to high elbow variation when you feel the counter begin. Close guard higher on opponent's back, squeeze knees together, and pull their head down before they can build forward pressure momentum. The key is reacting to the first tactile cue rather than waiting for the escape to develop.
 
-### → [[Guillotine Control]]
+### → [[Positions/Guillotine Control]]
 
 When the top guillotine grip is compromised beyond recovery, use the opponent's forward drive to execute a hip bump sweep to mount, maintaining whatever grip contact remains. From mount, re-establish a fresh guillotine or transition to mounted triangle. Alternatively, release and immediately re-pummel to an anaconda or darce grip as the opponent circles, catching them in a new submission threat from bottom.
 

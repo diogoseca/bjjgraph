@@ -180,7 +180,7 @@ description: "Learn to execute the Technical Stand Up from Ground. Step-by-step 
 
 From the attacker's perspective, the Technical Stand Up from Ground requires precise coordination of hand posting, hip elevation, and leg positioning to create a safe pathway from ground to standing. The movement demands constant awareness of the opponent's position and potential offensive reactions throughout every phase. Success depends on creating sufficient distance before initiating the stand up, maintaining a defensive frame with the non-posting hand throughout the transition, and immediately establishing proper distance and stance upon reaching standing. The attacker must sequence the movement efficiently while remaining prepared to abort and recover guard if the opponent closes distance or establishes controlling grips during the transition.
 
-**From Position**: [[Standing Guard]] (Bottom)
+**From Position**: [[Positions/Standing Guard]] (Bottom)
 
 </section>
 
@@ -233,9 +233,9 @@ From the attacker's perspective, the Technical Stand Up from Ground requires pre
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 55% |
-| Failure | [[Standing Guard]] | 30% |
-| Counter | [[Open Guard]] | 15% |
+| Success | [[Positions/Standing Position]] | 55% |
+| Failure | [[Positions/Standing Guard]] | 30% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -244,10 +244,10 @@ From the attacker's perspective, the Technical Stand Up from Ground requires pre
 
 ## Opponent Counters
 
-- **Opponent drives forward with heavy pressure to collapse your frames before you can establish your post** (Effectiveness: High) - Your Response: Abort the stand up attempt and immediately recover guard position using hip escapes and leg frames. Re-establish distance before attempting again. → Leads to [[Standing Guard]]
-- **Opponent shoots a takedown as you rise through the mid-transition phase when your base is compromised** (Effectiveness: High) - Your Response: If high enough in the transition, sprawl and defend the takedown. If still low, abort and pull guard immediately rather than fighting the takedown from a compromised position. → Leads to [[Open Guard]]
-- **Opponent grabs your posting-side ankle or foot during the kick-through to prevent full elevation** (Effectiveness: Medium) - Your Response: Circle the trapped foot free using rotational movement or use your free leg to push the opponent's grip-controlling arm away. If the grip holds, switch to standing up on the opposite side. → Leads to [[Standing Guard]]
-- **Opponent attempts a guillotine choke as your head drops forward during the rising phase of the transition** (Effectiveness: Medium) - Your Response: Keep chin tucked and head elevated throughout the transition. If caught, immediately address the choke by circling to the choking side and working to posture up rather than continuing the stand up. → Leads to [[Open Guard]]
+- **Opponent drives forward with heavy pressure to collapse your frames before you can establish your post** (Effectiveness: High) - Your Response: Abort the stand up attempt and immediately recover guard position using hip escapes and leg frames. Re-establish distance before attempting again. → Leads to [[Positions/Standing Guard]]
+- **Opponent shoots a takedown as you rise through the mid-transition phase when your base is compromised** (Effectiveness: High) - Your Response: If high enough in the transition, sprawl and defend the takedown. If still low, abort and pull guard immediately rather than fighting the takedown from a compromised position. → Leads to [[Positions/Open Guard]]
+- **Opponent grabs your posting-side ankle or foot during the kick-through to prevent full elevation** (Effectiveness: Medium) - Your Response: Circle the trapped foot free using rotational movement or use your free leg to push the opponent's grip-controlling arm away. If the grip holds, switch to standing up on the opposite side. → Leads to [[Positions/Standing Guard]]
+- **Opponent attempts a guillotine choke as your head drops forward during the rising phase of the transition** (Effectiveness: Medium) - Your Response: Keep chin tucked and head elevated throughout the transition. If caught, immediately address the choke by circling to the choking side and working to posture up rather than continuing the stand up. → Leads to [[Positions/Open Guard]]
 
 
 </section>

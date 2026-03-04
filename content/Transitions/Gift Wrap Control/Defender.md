@@ -158,7 +158,7 @@ The biomechanical challenge of Gift Wrap defense centers on the fact that the at
 
 From a systematic perspective, Gift Wrap defense integrates into the broader Kuzure Kesa-Gatame escape framework. The defender must balance between preventing the wrap (which requires arm management) and working standard bottom escapes (which require hip movement and framing). Over-focusing on either creates openings for the other. Advanced defenders learn to use their wrap prevention efforts as setup for hip escapes—when the attacker reaches for the far wrist, their weight shifts slightly, creating a momentary window for bridging or shrimping that can restore guard position.
 
-**Opponent's Starting Position**: [[Kuzure Kesa-Gatame]] (Top)
+**Opponent's Starting Position**: [[Positions/Side Control/Kuzure Kesa-Gatame]] (Top)
 
 </section>
 
@@ -195,28 +195,28 @@ From a systematic perspective, Gift Wrap defense integrates into the broader Kuz
 ### 1. Post far hand on attacker's hip to create a frame that prevents wrist access
 
 - **When to use**: Before attacker secures wrist control—this is the earliest and most effective prevention point
-- **Targets**: [[Kuzure Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Kuzure Kesa-Gatame]]
 - **If successful**: Attacker cannot initiate the wrap and must return to standard Kuzure Kesa-Gatame attacks, giving you time to work hip escapes
 - **Risk**: Extended arm may be vulnerable to americana or kimura if attacker switches attacks
 
 ### 2. Explosively straighten the far arm before it crosses the throat line
 
 - **When to use**: When attacker has wrist control and begins threading your arm across your body—you must act before the arm crosses the throat
-- **Targets**: [[Kuzure Kesa-Gatame]]
+- **Targets**: [[Positions/Side Control/Kuzure Kesa-Gatame]]
 - **If successful**: Denies the fold needed to complete the wrap, forces attacker to either abandon wrap or switch to armbar/americana on the extended arm
 - **Risk**: Extended arm is exposed to armbar finish if attacker reads the straightening and transitions immediately
 
 ### 3. Explosive bridge timed to the moment attacker releases wrist to secure wrap grip
 
 - **When to use**: During the grip transition when attacker switches from wrist control to figure-four lock—this is the weakest moment in their control chain
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Bridge disrupts attacker's base during their most vulnerable moment, creating space to recover guard or escape to turtle
 - **Risk**: If mistimed, attacker re-secures control and you have spent energy without gaining position
 
 ### 4. Turn aggressively into the attacker during wrap attempt to deny head positioning
 
 - **When to use**: When attacker commits to driving head past your far shoulder—turning into them prevents the head from reaching past your shoulder
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Disrupts the wrap consolidation and may create scramble opportunity to recover half guard or closed guard
 - **Risk**: Turning into attacker without sufficient arm defense may accelerate the mount transition
 
@@ -228,11 +228,11 @@ From a systematic perspective, Gift Wrap defense integrates into the broader Kuz
 
 ## Best-Case Outcomes for Defender
 
-### → [[Kuzure Kesa-Gatame]]
+### → [[Positions/Side Control/Kuzure Kesa-Gatame]]
 
 Prevent the wrap entirely by maintaining a stiff arm frame on the attacker's hip with your far hand. This denies wrist access and forces the attacker to abandon the wrap attempt, returning to standard Kuzure Kesa-Gatame where you retain both arms for defense. Combine the frame with small hip escapes to begin working toward standard bottom escapes.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time an explosive bridge to the precise moment the attacker transitions from wrist control to the wrap grip. This brief window where both hands are occupied creates maximum base vulnerability. Bridge perpendicular to their posting leg and immediately shrimp your hips away to insert a knee shield, recovering to half guard where you have full use of both arms.
 

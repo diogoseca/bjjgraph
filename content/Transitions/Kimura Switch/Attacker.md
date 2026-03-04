@@ -178,7 +178,7 @@ This transition exploits a fundamental defensive dilemma: defending the Aoki Loc
 
 Strategically, the Kimura Switch serves as a pressure relief valve that prevents stalemates in the Aoki Lock position. Rather than forcing a defended submission, you flow to an equally dangerous attack that catches opponents during their defensive adjustment. The technique requires precise timing, rapid grip acquisition, and understanding of how the two shoulder lock systems complement each other within the broader positional hierarchy.
 
-**From Position**: [[Aoki Lock]] (Top)
+**From Position**: [[Positions/Aoki Lock]] (Top)
 
 </section>
 
@@ -230,9 +230,9 @@ Strategically, the Kimura Switch serves as a pressure relief valve that prevents
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kimura Trap]] | 65% |
-| Failure | [[Aoki Lock]] | 25% |
-| Counter | [[Turtle]] | 10% |
+| Success | [[Positions/Kimura Trap]] | 65% |
+| Failure | [[Positions/Aoki Lock]] | 25% |
+| Counter | [[Positions/Turtle]] | 10% |
 
 
 </section>
@@ -241,10 +241,10 @@ Strategically, the Kimura Switch serves as a pressure relief valve that prevents
 
 ## Opponent Counters
 
-- **Opponent straightens arm before you secure figure-four grip, preventing Kimura capture** (Effectiveness: High) - Your Response: Immediately return to Aoki Lock pressure by re-engaging leg entanglement before they can fully extend. Their straightened arm actually improves Aoki Lock mechanics. → Leads to [[Aoki Lock]]
-- **Opponent turns into you during leg release, recovering turtle position and escaping control** (Effectiveness: Medium) - Your Response: Maintain heavy chest pressure throughout transition and keep near-side knee blocking their hip. If they turn, follow to maintain top position in side control with Kimura grips intact. → Leads to [[Turtle]]
-- **Opponent grabs their own belt or pants to anchor their arm against Kimura rotation** (Effectiveness: Medium) - Your Response: Use the grip break by driving their elbow toward their head first, then peel their grip using your chest weight and hip rotation. Alternatively, transition to a rolling Kimura from the anchored position. → Leads to [[Kimura Trap]]
-- **Opponent rolls toward their trapped arm to relieve pressure** (Effectiveness: Low) - Your Response: Follow the roll while maintaining Kimura grips to end in mounted Kimura position. Their roll actually improves your control by placing you in mount with the submission already secured. → Leads to [[Kimura Trap]]
+- **Opponent straightens arm before you secure figure-four grip, preventing Kimura capture** (Effectiveness: High) - Your Response: Immediately return to Aoki Lock pressure by re-engaging leg entanglement before they can fully extend. Their straightened arm actually improves Aoki Lock mechanics. → Leads to [[Positions/Aoki Lock]]
+- **Opponent turns into you during leg release, recovering turtle position and escaping control** (Effectiveness: Medium) - Your Response: Maintain heavy chest pressure throughout transition and keep near-side knee blocking their hip. If they turn, follow to maintain top position in side control with Kimura grips intact. → Leads to [[Positions/Turtle]]
+- **Opponent grabs their own belt or pants to anchor their arm against Kimura rotation** (Effectiveness: Medium) - Your Response: Use the grip break by driving their elbow toward their head first, then peel their grip using your chest weight and hip rotation. Alternatively, transition to a rolling Kimura from the anchored position. → Leads to [[Positions/Kimura Trap]]
+- **Opponent rolls toward their trapped arm to relieve pressure** (Effectiveness: Low) - Your Response: Follow the roll while maintaining Kimura grips to end in mounted Kimura position. Their roll actually improves your control by placing you in mount with the submission already secured. → Leads to [[Positions/Kimura Trap]]
 
 
 </section>

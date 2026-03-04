@@ -180,7 +180,7 @@ description: "How to execute the transition to feet on hips guard in BJJ. Step-b
 
 Executing the transition to feet on hips guard requires precise coordination of hip elevation, foot placement, and grip fighting within a narrow timing window. As the attacker (bottom player initiating this guard establishment), your goal is to convert an unstructured open guard exchange into a controlled distance management position where your leg frames dictate the engagement range. The transition begins with recognizing the correct moment—typically when the opponent is standing or in combat base with accessible hips—and proceeds through a deliberate sequence of hip elevation, bilateral foot placement on the hip bones, and simultaneous grip acquisition. Success depends on placing your feet before the opponent can secure dominant grips on your ankles or pants, as ankle control allows them to redirect or stack your legs, defeating the transition entirely. The mechanical key is driving your hips upward and forward as your feet contact the hip bones, creating immediate pushing tension that arrests the opponent's forward momentum and establishes the defensive frame structure.
 
-**From Position**: [[Open Guard]] (Bottom)
+**From Position**: [[Positions/Open Guard]] (Bottom)
 
 </section>
 
@@ -232,9 +232,9 @@ Executing the transition to feet on hips guard requires precise coordination of 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Feet on Hips Guard]] | 60% |
-| Failure | [[Open Guard]] | 25% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Feet on Hips Guard]] | 60% |
+| Failure | [[Positions/Open Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -243,10 +243,10 @@ Executing the transition to feet on hips guard requires precise coordination of 
 
 ## Opponent Counters
 
-- **Opponent grabs both ankles or pants to strip feet off hips** (Effectiveness: High) - Your Response: Retract legs immediately toward chest, circle feet to break grips, then re-establish feet on hips from a different angle. If grips persist, transition to butterfly guard by placing hooks inside their thighs instead. → Leads to [[Open Guard]]
-- **Opponent drives forward with heavy pressure to collapse the leg frames** (Effectiveness: Medium) - Your Response: Use their forward momentum by pulling with grips while extending legs to load their weight onto your feet, creating sweep opportunities. If pressure overwhelms, close guard around their waist before they achieve chest-to-chest contact. → Leads to [[Feet on Hips Guard]]
-- **Opponent circles laterally to bypass frames and initiate toreando pass** (Effectiveness: Medium) - Your Response: Walk hips in the same direction to maintain square alignment. Push harder with the foot on the side they are circling toward. If they achieve a significant angle, transition to De La Riva guard on the near leg to maintain guard structure. → Leads to [[Open Guard]]
-- **Opponent drops to combat base below your feet level, making hip placement impossible** (Effectiveness: High) - Your Response: Immediately transition to butterfly guard by inserting hooks inside their thighs, or establish shin-on-shin frames across their legs. Feet-on-hips requires the opponent's hips to be at or above your foot level—when they drop low, switch to guards designed for that range. → Leads to [[Half Guard]]
+- **Opponent grabs both ankles or pants to strip feet off hips** (Effectiveness: High) - Your Response: Retract legs immediately toward chest, circle feet to break grips, then re-establish feet on hips from a different angle. If grips persist, transition to butterfly guard by placing hooks inside their thighs instead. → Leads to [[Positions/Open Guard]]
+- **Opponent drives forward with heavy pressure to collapse the leg frames** (Effectiveness: Medium) - Your Response: Use their forward momentum by pulling with grips while extending legs to load their weight onto your feet, creating sweep opportunities. If pressure overwhelms, close guard around their waist before they achieve chest-to-chest contact. → Leads to [[Positions/Feet on Hips Guard]]
+- **Opponent circles laterally to bypass frames and initiate toreando pass** (Effectiveness: Medium) - Your Response: Walk hips in the same direction to maintain square alignment. Push harder with the foot on the side they are circling toward. If they achieve a significant angle, transition to De La Riva guard on the near leg to maintain guard structure. → Leads to [[Positions/Open Guard]]
+- **Opponent drops to combat base below your feet level, making hip placement impossible** (Effectiveness: High) - Your Response: Immediately transition to butterfly guard by inserting hooks inside their thighs, or establish shin-on-shin frames across their legs. Feet-on-hips requires the opponent's hips to be at or above your foot level—when they drop low, switch to guards designed for that range. → Leads to [[Positions/Half Guard]]
 
 
 </section>

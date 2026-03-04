@@ -140,7 +140,7 @@ description: "Defend against the Frame and Shrimp escape from Knee on Belly. Top
 
 As the top player defending against the Frame and Shrimp escape from Knee on Belly, your objective is to maintain your dominant position by anticipating and neutralizing the bottom player's escape mechanics. The Frame and Shrimp is one of the most fundamental KOB escapes, relying on frames against your knee and hip followed by coordinated hip escape movement. Your defense revolves around three primary strategies: preventing effective frames from being established through grip control, following hip escape movement to maintain knee contact on the torso, and capitalizing on escape attempts by transitioning to mount or re-establishing pressure. Understanding the mechanics of this escape allows you to predict its initiation and respond with weight adjustments, grip changes, and positional transitions that either maintain your KOB or advance to an even more dominant position.
 
-**Opponent's Starting Position**: [[Knee on Belly]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Knee on Belly]] (Bottom)
 
 </section>
 
@@ -177,21 +177,21 @@ As the top player defending against the Frame and Shrimp escape from Knee on Bel
 ### 1. Follow the hip escape by hopping your knee to the bottom player's new torso position, maintaining pressure contact throughout their lateral movement
 
 - **When to use**: When you feel the bottom player beginning to shrimp away from your knee and their frames are pushing your knee laterally — match their movement with your knee repositioning
-- **Targets**: [[Knee on Belly]]
+- **Targets**: [[Positions/Knee on Belly]]
 - **If successful**: KOB is re-established on the opponent's new position, forcing them to restart the entire escape sequence with less energy
 - **Risk**: If you commit too aggressively to following, you may overextend your base and create a larger gap for guard recovery than the opponent's shrimp alone would have produced
 
 ### 2. Transition to mount by stepping over the bottom player's body as they create space with their shrimp, using the escape gap as your entry to a more stable dominant position
 
 - **When to use**: When the bottom player has displaced their hips significantly but has not yet inserted their knee — the space they created for guard recovery also permits your leg to pass over
-- **Targets**: [[Mount]]
+- **Targets**: [[Positions/Mount]]
 - **If successful**: You advance to full mount, a more stable dominant position with higher submission potential and control than KOB
 - **Risk**: If the bottom player times their knee insertion correctly during your transition, you end up in their half guard rather than achieving mount
 
 ### 3. Attack the framing arm with an armbar setup or wrist control when the bottom player extends their forearm against your knee, forcing them to retract their frames
 
 - **When to use**: When the bottom player's forearm is positioned against your knee with their elbow slightly elevated from their body, creating submission vulnerability in their extended arm
-- **Targets**: [[Knee on Belly]]
+- **Targets**: [[Positions/Knee on Belly]]
 - **If successful**: The submission threat forces the bottom player to retract their frames, eliminating the structural foundation required for the escape and resetting them to a passive defensive position
 - **Risk**: Shifting your attention and weight toward the arm attack may compromise your knee pressure and inadvertently create the space the bottom player needs to execute their escape
 
@@ -203,11 +203,11 @@ As the top player defending against the Frame and Shrimp escape from Knee on Bel
 
 ## Best-Case Outcomes for Defender
 
-### → [[Knee on Belly]]
+### → [[Positions/Knee on Belly]]
 
 Follow the bottom player's hip escape by adjusting your knee position to track their torso rather than anchoring to a mat position. Use your grips on collar and belt to limit their movement range and re-settle your weight after each escape attempt. Punish their framing arms with submission threats to discourage repeated attempts.
 
-### → [[Mount]]
+### → [[Positions/Mount]]
 
 Capitalize on the space the bottom player creates during their shrimp by stepping your free leg over their body to establish mount. The critical timing is after their hips move but before their knee inserts — swing your far leg across and settle your hips before they can close the gap with their knee barrier.
 

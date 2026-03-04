@@ -154,7 +154,7 @@ description: "Learn to defend and counter the Shin-to-Shin to Single Leg X-Guard
 
 Defending the Shin-to-Shin to Single Leg X-Guard entry requires recognizing the setup cues early and acting decisively before the bottom player completes their leg thread and establishes hooks. The defender's primary objective is preventing the transition from the manageable shin-to-shin position to the far more dangerous SLX configuration, where sweeps and leg attacks become high-percentage threats. Effective defense combines proactive shin clearing, base management, and upper body grip fighting to remove the conditions necessary for the entry. The defender who waits until the thread is underway faces a significantly harder task than one who disrupts the setup before it develops, making early recognition the most valuable defensive skill in this exchange.
 
-**Opponent's Starting Position**: [[Shin-to-Shin Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Shin-to-Shin Guard]] (Bottom)
 
 </section>
 
@@ -192,28 +192,28 @@ Defending the Shin-to-Shin to Single Leg X-Guard entry requires recognizing the 
 ### 1. Clear the shin connection by circling your trapped leg backward while controlling opponent's upper body to prevent re-establishment
 
 - **When to use**: When you recognize increased shin pressure or hip angle adjustment indicating entry preparation before threading begins
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You establish an open guard passing position with the shin connection broken and superior upper body control for immediate passing
 - **Risk**: If too aggressive in circling, opponent may use your momentum to enter SLX from the opposite angle or transition to De La Riva
 
 ### 2. Drive forward with controlled pressure to flatten opponent's guard structure before the thread initiates
 
 - **When to use**: When opponent begins reclining and adjusting angle but has not yet started the inside leg thread motion
-- **Targets**: [[Shin-to-Shin Guard]]
+- **Targets**: [[Positions/Shin-to-Shin Guard]]
 - **If successful**: Opponent's guard structure collapses, preventing the hip positioning needed for SLX entry and limiting their offensive options
 - **Risk**: Forward pressure without upper body control can be redirected into a butterfly sweep or elevation if applied recklessly
 
 ### 3. Strip opponent's upper body grips to eliminate the pulling anchor before addressing the shin connection directly
 
 - **When to use**: When opponent has strong sleeve or collar grips that are actively loading your weight onto the trapped leg
-- **Targets**: [[Shin-to-Shin Guard]]
+- **Targets**: [[Positions/Shin-to-Shin Guard]]
 - **If successful**: Without pulling grips, opponent cannot effectively commit your weight, removing the primary setup condition for the entry
 - **Risk**: Grip fighting takes focus and time during which opponent may initiate a quick entry attempt if threading path is already open
 
 ### 4. Backstep away from the threading angle while maintaining upper body connection to prevent opponent from following
 
 - **When to use**: When the inside leg thread has already begun but is not yet secured around your ankle with a deep wrap
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You create distance and angle that prevents the thread from completing, transitioning to an advantageous passing angle
 - **Risk**: Opponent may follow your backstep with a collar drag or switch to an alternative guard entry from the new angle
 
@@ -225,11 +225,11 @@ Defending the Shin-to-Shin to Single Leg X-Guard entry requires recognizing the 
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Clear the shin connection through systematic circling or backstep before the inside leg thread begins, then immediately advance into a passing sequence while the opponent is recovering from the disrupted entry attempt
 
-### → [[Shin-to-Shin Guard]]
+### → [[Positions/Shin-to-Shin Guard]]
 
 Strip the opponent's pulling grips and apply controlled downward pressure to flatten their guard structure, preventing the hip angle and positioning needed for the SLX entry while maintaining your top position advantage
 

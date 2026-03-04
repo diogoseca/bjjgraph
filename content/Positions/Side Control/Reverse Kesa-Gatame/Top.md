@@ -206,23 +206,23 @@ Reverse Kesa-Gatame Top is a dominant pinning position where the top practitione
 
 ## Available Attacks
 
-### [[Side Control to Mount]] (24% of attempts)
+### [[Transitions/Side Control to Mount]] (24% of attempts)
 
-### [[Side Control to North-South]] (15% of attempts)
+### [[Transitions/Side Control to North-South]] (15% of attempts)
 
-### [[Kimura]] (15% of attempts)
+### [[Transitions/Kimura]] (15% of attempts)
 
-### [[Americana]] (13% of attempts)
+### [[Transitions/Americana]] (13% of attempts)
 
-### [[Arm Triangle]] (10% of attempts)
+### [[Transitions/Arm Triangle]] (10% of attempts)
 
-### [[Back Take]] (13% of attempts)
+### [[Transitions/Back Take]] (13% of attempts)
 
-### [[Reverse Kesa to North-South]] (5% of attempts)
+### [[Transitions/Reverse Kesa to North-South]] (5% of attempts)
 
-### [[Reverse Kesa to Side Control]] (3% of attempts)
+### [[Transitions/Reverse Kesa to Side Control]] (3% of attempts)
 
-### [[Americana from Reverse Kesa]] (2% of attempts)
+### [[Submissions/Americana from Reverse Kesa]] (2% of attempts)
 
 
 
@@ -233,24 +233,24 @@ Reverse Kesa-Gatame Top is a dominant pinning position where the top practitione
 ## Decision Making from This Position
 
 **If opponent remains flat and defensive with minimal movement:**
-- Execute **[[Kimura]]** → [[Kimura Trap]] (Probability: 60%)
-- Execute **[[Americana]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Arm Triangle]]** → [[Side Control]] (Probability: 50%)
+- Execute **[[Transitions/Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
+- Execute **[[Transitions/Americana]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Transitions/Arm Triangle]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent attempts to bridge and create space upward:**
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 70%)
-- Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/North-South]] (Probability: 65%)
 
 
 **If opponent shrimps away attempting elbow escape:**
-- Execute **[[Knee on Belly]]** → [[Knee on Belly]] (Probability: 65%)
-- Execute **[[Side Control to Mount]]** → [[Mount]] (Probability: 60%)
+- Execute **[[Positions/Knee on Belly]]** → [[Positions/Knee on Belly]] (Probability: 65%)
+- Execute **[[Transitions/Side Control to Mount]]** → [[Positions/Mount]] (Probability: 60%)
 
 
 **If opponent turns into you exposing their back:**
-- Execute **[[Back Take]]** → [[Back Control]] (Probability: 75%)
-- Execute **[[Side Control to North-South]]** → [[Crucifix]] (Probability: 55%)
+- Execute **[[Transitions/Back Take]]** → [[Positions/Back Control]] (Probability: 75%)
+- Execute **[[Transitions/Side Control to North-South]]** → [[Positions/Crucifix]] (Probability: 55%)
 
 
 
@@ -384,16 +384,16 @@ Begin in standard side control, practice entering reverse kesa by securing far a
 
 ## Related Positions and Techniques
 
-- **[[Kesa Gatame]]** - Traditional scarf hold variation - parent position with forward-facing orientation
-- **[[Reverse Scarf Hold]]** - Alternative scarf hold variation with similar control mechanics
-- **[[Side Control]]** - Entry position and fallback option if reverse kesa is compromised
-- **[[North-South]]** - Natural transition target when opponent bridges
-- **[[Mount]]** - Primary advancement position when opponent creates space with shrimp
-- **[[Kuzure Kesa-Gatame]]** - Modified scarf hold variation with different arm control
-- **[[Kimura Trap]]** - Primary submission control available from reverse kesa
-- **[[Back Control]]** - Transition target when opponent turns in to escape chest pressure
-- **[[Knee on Belly]]** - Transitional position when opponent creates space
-- **[[Modified Scarf Hold]]** - Alternative scarf variation with different control points
+- **[[Positions/Side Control/Kesa Gatame]]** - Traditional scarf hold variation - parent position with forward-facing orientation
+- **[[Positions/Side Control/Reverse Scarf Hold]]** - Alternative scarf hold variation with similar control mechanics
+- **[[Positions/Side Control]]** - Entry position and fallback option if reverse kesa is compromised
+- **[[Positions/North-South]]** - Natural transition target when opponent bridges
+- **[[Positions/Mount]]** - Primary advancement position when opponent creates space with shrimp
+- **[[Positions/Side Control/Kuzure Kesa-Gatame]]** - Modified scarf hold variation with different arm control
+- **[[Positions/Kimura Trap]]** - Primary submission control available from reverse kesa
+- **[[Positions/Back Control]]** - Transition target when opponent turns in to escape chest pressure
+- **[[Positions/Knee on Belly]]** - Transitional position when opponent creates space
+- **[[Positions/Side Control/Modified Scarf Hold]]** - Alternative scarf variation with different control points
 
 
 </section>

@@ -154,7 +154,7 @@ description: "Defend your diamond guard overhook against stripping attempts in B
 
 As the bottom player defending against the Overhook Strip from Diamond Guard, your overhook represents the offensive foundation of the diamond position. Losing it reduces your guard from a specialized submission-hunting platform to a standard closed guard with significantly diminished attacking options. Your defensive strategy combines active grip maintenance with opportunistic counter-attacks that punish the top player's stripping attempts. The overhook strip creates specific vulnerability windows — particularly during the circular arm extraction phase — where you can exploit the top player's divided attention with triangle entries, kimura conversions, and sweep attempts. Recognition of the stripping sequence's phases allows you to preemptively tighten controls before the extraction reaches its most dangerous point, and to launch counter-attacks at moments when the top player's base is most compromised by the grip fight.
 
-**Opponent's Starting Position**: [[Diamond Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Closed Guard/Diamond Guard]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ As the bottom player defending against the Overhook Strip from Diamond Guard, yo
 ### 1. Deepen overhook and increase head control pull simultaneously to re-break posture and deny extraction leverage
 
 - **When to use**: Early in the stripping sequence when you feel the top player's free hand reaching for your wrist or their hips beginning to drive forward, before they have established firm wrist control
-- **Targets**: [[Diamond Guard]]
+- **Targets**: [[Positions/Closed Guard/Diamond Guard]]
 - **If successful**: The stripping attempt is neutralized and the top player returns to fully broken posture inside diamond guard, resetting their escape progress to zero
 - **Risk**: If the re-sinking comes too late and the top player already has wrist control and partial posture, the tightening effort may be insufficient to prevent the extraction
 
 ### 2. Shoot overhook-side leg over the clearing arm to enter triangle as the elbow begins circulating free during the extraction window
 
 - **When to use**: When the top player's elbow begins clearing the overhook and creates space between their arm and torso, opening the gap needed for your leg to pass over their shoulder
-- **Targets**: [[Triangle Control]]
+- **Targets**: [[Positions/Triangle Control]]
 - **If successful**: You transition from diamond guard into triangle control, maintaining offensive initiative and threatening an immediate submission that the top player must address
 - **Risk**: Opening your guard for the triangle removes the closed guard anchor, and if the triangle attempt fails, the top player is free to pass against an open guard without overhook restriction
 
 ### 3. Convert overhook to kimura grip by catching the top player's wrist as their elbow rotates during the circular extraction
 
 - **When to use**: When the top player extends their arm during the circular extraction and their wrist becomes momentarily accessible as it traces through the gap
-- **Targets**: [[Diamond Guard]]
+- **Targets**: [[Positions/Closed Guard/Diamond Guard]]
 - **If successful**: The kimura grip establishes stronger control than the original overhook, creating immediate submission threat and additional sweep opportunities from the figure-four configuration
 - **Risk**: If the kimura grip is not secured cleanly, the top player may complete the extraction during the grip transition, losing both the overhook and the kimura attempt
 
 ### 4. Execute hip bump sweep when the top player's weight shifts backward during the postural adjustment phase of the stripping sequence
 
 - **When to use**: When you feel the top player's hip pressure lighten as they shift weight to generate postural leverage for the extraction, creating the elevated hip and compromised base needed for the sweep
-- **Targets**: [[Diamond Guard]]
+- **Targets**: [[Positions/Closed Guard/Diamond Guard]]
 - **If successful**: The sweep threat forces the top player to abandon the stripping sequence and re-establish forward pressure, resetting their progress and depleting their energy
 - **Risk**: If the sweep fails and you release head control for the sit-up motion, the diamond frame degrades to an overhook-only configuration with less offensive potential
 
@@ -224,11 +224,11 @@ As the bottom player defending against the Overhook Strip from Diamond Guard, yo
 
 ## Best-Case Outcomes for Defender
 
-### → [[Diamond Guard]]
+### → [[Positions/Closed Guard/Diamond Guard]]
 
 Maintain constant diamond frame pressure by actively monitoring and re-sinking overhook depth whenever slack develops, coordinating with head control to keep the top player's posture broken. Use submission threats to interrupt stripping sequences before they progress to the extraction phase. Control the top player's free hand with your opposite-side grip to deny the wrist control that enables every stripping variant.
 
-### → [[Triangle Control]]
+### → [[Positions/Triangle Control]]
 
 Recognize the extraction window when the top player's elbow begins clearing the overhook and immediately shoot your overhook-side leg over their clearing arm while angling your hips toward the overhook side. The space created by the elbow's circular motion is exactly the gap your leg needs to pass over their shoulder. Time the leg entry to coincide with the moment of maximum arm separation for highest success probability.
 

@@ -176,7 +176,7 @@ description: "How to execute Kimura from Mount in BJJ. Attacking perspective wit
 
 The Kimura from Mount represents one of the highest-percentage shoulder lock attacks in Brazilian Jiu-Jitsu, combining the dominant control of mount with the mechanical advantage of the double-wrist grip. This submission targets the shoulder joint through a figure-four grip configuration that isolates the opponent's arm while leveraging superior positional control. From mount, the attacking grappler can transition seamlessly between maintaining positional dominance and applying submission pressure, creating a strategic dilemma where defensive movements often expose additional attacks. The technique's effectiveness stems from the ability to use bodyweight, hip pressure, and precise angle creation to generate overwhelming torque on the shoulder capsule. Unlike Kimuras from other positions, the mount variation offers exceptional control over the opponent's ability to roll or escape, making it particularly reliable in both training and competition scenarios. The submission can be finished while maintaining mount or used as a transition mechanism to take the back or establish other dominant positions.
 
-**From Position**: [[Mount]] (Top)
+**From Position**: [[Positions/Mount]] (Top)
 
 
 </section>
@@ -232,8 +232,8 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[game-over]] | 60% |
-| Failure | [[Mount]] | 25% |
-| Counter | [[Closed Guard]] | 15% |
+| Failure | [[Positions/Mount]] | 25% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -242,11 +242,11 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 ## Opponent Defenses
 
-- **Grabbing their own gi pants or belt (defensive grip)** (Effectiveness: Medium) - Your Response: Maintain pressure and use your bodyweight to break the grip by continuing the circular motion. Alternatively, post your hand on their head and use leverage to force their hand away from their body, then complete the arc toward their head. → Leads to [[Mount]]
-- **Rolling toward the trapped arm to relieve pressure** (Effectiveness: Low) - Your Response: Follow the roll while maintaining figure-four grip. As they roll, transition your legs to take the back with seat belt control, or use the momentum to transition to a crucifix position. The Kimura grip remains secure throughout the transition. → Leads to [[Closed Guard]]
-- **Bridging explosively to disrupt base and mount control** (Effectiveness: Medium) - Your Response: Lower your hips and widen your base immediately when you feel the bridge. Post your head on the mat on the trapped arm side to prevent being swept. Keep the figure-four grip locked and maintain elbow height - even if mount is threatened, the submission pressure continues. → Leads to [[Closed Guard]]
-- **Straightening the trapped arm to prevent rotation** (Effectiveness: Low) - Your Response: If they straighten the arm, you gain access to a straight armbar. Simply adjust your angle, bring your leg over their face, and fall back for the armbar. The Kimura grip naturally transitions to armbar control when they extend. → Leads to [[Mount]]
-- **Using free hand to push your face or create distance** (Effectiveness: Low) - Your Response: Pin their pushing hand with your head pressure or trap it with your free knee. Alternatively, threaten to transition your attack to their free arm, forcing them to retract the defensive hand. Your mount control and figure-four grip remain primary throughout. → Leads to [[Mount]]
+- **Grabbing their own gi pants or belt (defensive grip)** (Effectiveness: Medium) - Your Response: Maintain pressure and use your bodyweight to break the grip by continuing the circular motion. Alternatively, post your hand on their head and use leverage to force their hand away from their body, then complete the arc toward their head. → Leads to [[Positions/Mount]]
+- **Rolling toward the trapped arm to relieve pressure** (Effectiveness: Low) - Your Response: Follow the roll while maintaining figure-four grip. As they roll, transition your legs to take the back with seat belt control, or use the momentum to transition to a crucifix position. The Kimura grip remains secure throughout the transition. → Leads to [[Positions/Closed Guard]]
+- **Bridging explosively to disrupt base and mount control** (Effectiveness: Medium) - Your Response: Lower your hips and widen your base immediately when you feel the bridge. Post your head on the mat on the trapped arm side to prevent being swept. Keep the figure-four grip locked and maintain elbow height - even if mount is threatened, the submission pressure continues. → Leads to [[Positions/Closed Guard]]
+- **Straightening the trapped arm to prevent rotation** (Effectiveness: Low) - Your Response: If they straighten the arm, you gain access to a straight armbar. Simply adjust your angle, bring your leg over their face, and fall back for the armbar. The Kimura grip naturally transitions to armbar control when they extend. → Leads to [[Positions/Mount]]
+- **Using free hand to push your face or create distance** (Effectiveness: Low) - Your Response: Pin their pushing hand with your head pressure or trap it with your free knee. Alternatively, threaten to transition your attack to their free arm, forcing them to retract the defensive hand. Your mount control and figure-four grip remain primary throughout. → Leads to [[Positions/Mount]]
 
 
 </section>

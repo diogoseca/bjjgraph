@@ -186,7 +186,7 @@ description: "Learn to execute the Forward Drive Sweep from Dogfight in BJJ. Ste
 
 The Forward Drive Sweep is your primary direct offensive weapon from Dogfight. As the bottom player with an established underhook, you use coordinated forward pressure through your underhook arm, hip control with your free hand, and explosive leg drive to topple the top player backward and follow through to mount. This sweep punishes passive top players and creates the initial threat that makes all other Dogfight attacks viable through chain-attack sequences. Success depends on committing fully to the drive with proper angle and timing rather than relying on strength alone.
 
-**From Position**: [[Dogfight Position]] (Bottom)
+**From Position**: [[Positions/Dogfight Position]] (Bottom)
 
 </section>
 
@@ -240,9 +240,9 @@ The Forward Drive Sweep is your primary direct offensive weapon from Dogfight. A
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Dogfight Position]] | 30% |
-| Counter | [[Flattened Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Dogfight Position]] | 30% |
+| Counter | [[Positions/Half Guard/Flattened Half Guard]] | 15% |
 
 
 </section>
@@ -251,10 +251,10 @@ The Forward Drive Sweep is your primary direct offensive weapon from Dogfight. A
 
 ## Opponent Counters
 
-- **Opponent sprawls hips back and drops weight to resist forward drive** (Effectiveness: High) - Your Response: If the sprawl stalls your drive, immediately redirect to a Dogfight Sweep by changing the direction of your sweep angle laterally, or duck under into Deep Half Guard entry using their forward-sprawl momentum against them. → Leads to [[Dogfight Position]]
-- **Opponent crossfaces with free hand and drives you backward to flatten your posture** (Effectiveness: High) - Your Response: Absorb the crossface by tucking your chin and maintaining underhook depth. If you cannot maintain upright posture, flow into Deep Half Guard entry by dropping your level beneath the crossface pressure rather than fighting it head-on. → Leads to [[Flattened Half Guard]]
-- **Opponent posts far leg wide and sprawls laterally to create base against the drive** (Effectiveness: Medium) - Your Response: Their wide post exposes them to the Dogfight Sweep targeting the now-extended far leg, or creates back exposure for a back take as their hips open. Immediately chain to whichever secondary attack the wide post creates. → Leads to [[Dogfight Position]]
-- **Opponent sits to their hip and attempts to pull you into their guard during the drive** (Effectiveness: Low) - Your Response: Continue your forward drive through their guard attempt. Their sitting motion actually assists your sweep momentum. Maintain hip control and follow through to complete the sweep into top position rather than accepting the guard pull. → Leads to [[Dogfight Position]]
+- **Opponent sprawls hips back and drops weight to resist forward drive** (Effectiveness: High) - Your Response: If the sprawl stalls your drive, immediately redirect to a Dogfight Sweep by changing the direction of your sweep angle laterally, or duck under into Deep Half Guard entry using their forward-sprawl momentum against them. → Leads to [[Positions/Dogfight Position]]
+- **Opponent crossfaces with free hand and drives you backward to flatten your posture** (Effectiveness: High) - Your Response: Absorb the crossface by tucking your chin and maintaining underhook depth. If you cannot maintain upright posture, flow into Deep Half Guard entry by dropping your level beneath the crossface pressure rather than fighting it head-on. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
+- **Opponent posts far leg wide and sprawls laterally to create base against the drive** (Effectiveness: Medium) - Your Response: Their wide post exposes them to the Dogfight Sweep targeting the now-extended far leg, or creates back exposure for a back take as their hips open. Immediately chain to whichever secondary attack the wide post creates. → Leads to [[Positions/Dogfight Position]]
+- **Opponent sits to their hip and attempts to pull you into their guard during the drive** (Effectiveness: Low) - Your Response: Continue your forward drive through their guard attempt. Their sitting motion actually assists your sweep momentum. Maintain hip control and follow through to complete the sweep into top position rather than accepting the guard pull. → Leads to [[Positions/Dogfight Position]]
 
 
 </section>

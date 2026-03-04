@@ -140,7 +140,7 @@ description: "Learn to prevent the Knee Shield to Closed Guard recovery as the t
 
 As the defender in this scenario, you are the top player in knee shield half guard and your opponent is attempting to extract their trapped leg to close full guard around your waist. Your objective is to prevent this guard recovery, which would move you from an offensive passing position into the defensively disadvantaged closed guard top. Prevention requires maintaining forward pressure that eliminates the space your opponent needs for the hip escape and leg extraction, while monitoring their grip changes and hip movements for early signs of the recovery attempt. The most effective defense is proactive—collapsing the knee shield and establishing dominant passing grips before the recovery is ever initiated, rather than reacting to an attempt already in progress.
 
-**Opponent's Starting Position**: [[Knee Shield Half Guard]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Bottom)
 
 </section>
 
@@ -178,21 +178,21 @@ As the defender in this scenario, you are the top player in knee shield half gua
 ### 1. Drive forward with heavy crossface pressure to collapse space and flatten opponent's position
 
 - **When to use**: As soon as you feel opponent shrimping away or sense increased pushing pressure from their knee shield without offensive intent
-- **Targets**: [[Flattened Half Guard]]
+- **Targets**: [[Positions/Half Guard/Flattened Half Guard]]
 - **If successful**: Opponent loses knee shield frame and you establish dominant flattened half guard top with crossface and underhook control
 - **Risk**: If timed poorly or opponent has strong underhook, your forward momentum can be redirected into a sweep
 
 ### 2. Backstep and create angle to prevent guard closure while maintaining top control from a different direction
 
 - **When to use**: When opponent's leg is partially extracted but guard is not yet closed—stepping back removes the wrapping angle they need
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: You prevent guard closure and maintain half guard top position with the option to restart your passing sequence
 - **Risk**: Creates momentary space that opponent may use for alternative transitions like deep half guard entry
 
 ### 3. Strip opponent's controlling grips and establish strong upright posture to deny the pull needed for guard closure
 
 - **When to use**: When opponent's grips are the primary mechanism enabling them to pull you into closed guard after leg extraction
-- **Targets**: [[Knee Shield Half Guard]]
+- **Targets**: [[Positions/Half Guard/Knee Shield Half Guard]]
 - **If successful**: Without controlling grips, opponent cannot break your posture or pull you close enough to lock their ankles behind your back
 - **Risk**: Momentary loss of your own control during grip stripping may allow opponent to complete the extraction
 
@@ -204,11 +204,11 @@ As the defender in this scenario, you are the top player in knee shield half gua
 
 ## Best-Case Outcomes for Defender
 
-### → [[Flattened Half Guard]]
+### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Drive forward with crossface pressure the moment you detect the hip escape attempt, collapsing the knee shield frame and establishing heavy top pressure that pins opponent flat to the mat with your underhook controlling their far shoulder
 
-### → [[Knee Shield Half Guard]]
+### → [[Positions/Half Guard/Knee Shield Half Guard]]
 
 Shut down the recovery attempt early by maintaining tight leg entanglement on their trapped leg and controlling their near hip to prevent the shrimping motion, forcing them to abandon the extraction and reset to neutral knee shield position
 

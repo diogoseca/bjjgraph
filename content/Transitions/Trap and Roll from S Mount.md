@@ -21,7 +21,7 @@ Unlike the standard upa from regular mount, executing a trap and roll from S Mou
 
 This technique carries inherent risk because the bridging motion can inadvertently extend the trapped arm, creating the exact armbar finish the top player is seeking. Successful execution demands precise timing — ideally when the opponent adjusts position, changes grips, or shifts weight momentarily — combined with committed follow-through to establish half guard before the opponent can re-establish S Mount or transition to a different dominant position. The thirty percent success rate reflects the extreme difficulty of escaping S Mount, making this one of the hardest trap and roll applications in the entire positional hierarchy.
 
-**From Position**: [[S Mount]] (Bottom)
+**From Position**: [[Positions/Mount/S Mount]] (Bottom)
 **Success Rate**: 30%
 
 </section>
@@ -32,9 +32,9 @@ This technique carries inherent risk because the bridging motion can inadvertent
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 30% |
-| Failure | [[S Mount]] | 45% |
-| Counter | [[Mount]] | 25% |
+| Success | [[Positions/Half Guard]] | 30% |
+| Failure | [[Positions/Mount/S Mount]] | 45% |
+| Counter | [[Positions/Mount]] | 25% |
 
 
 </section>
@@ -193,25 +193,25 @@ The Trap and Roll from S Mount serves as the primary explosive escape within the
 ## Related Techniques
 
 
-- [[S Mount]] - Origin position — this escape is executed from S Mount bottom against perpendicular control
+- [[Positions/Mount/S Mount]] - Origin position — this escape is executed from S Mount bottom against perpendicular control
 
-- [[Half Guard]] - Primary success destination — successful trap and roll recovers to half guard bottom
+- [[Positions/Half Guard]] - Primary success destination — successful trap and roll recovers to half guard bottom
 
-- [[Mount]] - Counter outcome position — failed attempts may result in opponent transitioning to regular mount
+- [[Positions/Mount]] - Counter outcome position — failed attempts may result in opponent transitioning to regular mount
 
-- [[Bridge Escape from S Mount]] - Complementary escape technique using similar bridging mechanics with different follow-through
+- [[Transitions/Bridge Escape from S Mount]] - Complementary escape technique using similar bridging mechanics with different follow-through
 
-- [[Frame and Shrimp from S Mount]] - Alternative escape using hip escape mechanics instead of explosive bridge reversal
+- [[Transitions/Frame and Shrimp from S Mount]] - Alternative escape using hip escape mechanics instead of explosive bridge reversal
 
-- [[S Mount Armbar Setup]] - Primary offensive threat being escaped — understanding this attack improves escape timing
+- [[Transitions/S Mount Armbar Setup]] - Primary offensive threat being escaped — understanding this attack improves escape timing
 
-- [[Armbar from S Mount]] - Submission danger motivating escape — the consequence of failed defense from this position
+- [[Submissions/Armbar from S Mount]] - Submission danger motivating escape — the consequence of failed defense from this position
 
-- [[Trap and Roll from Mount]] - Related technique from regular mount — similar mechanics but different bridging angles
+- [[Transitions/Trap and Roll from Mount]] - Related technique from regular mount — similar mechanics but different bridging angles
 
-- [[Elbow Escape from Mount]] - Related escape methodology using incremental hip escape rather than explosive bridge
+- [[Transitions/Elbow Escape from Mount]] - Related escape methodology using incremental hip escape rather than explosive bridge
 
-- [[High Mount]] - Related dominant position in mount progression hierarchy
+- [[Positions/Mount/High Mount]] - Related dominant position in mount progression hierarchy
 
 
 </section>

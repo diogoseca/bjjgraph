@@ -178,7 +178,7 @@ The critical insight separating successful execution from failure is that postur
 
 Timing is the decisive factor. The optimal moment to initiate occurs when the opponent's weight shifts forward during their own attack attempts - their forward commitment creates the space behind them that your hip escape exploits. Use their pressure as fuel rather than fighting against it. The entire sequence from frame establishment to guard closure should take 2-4 seconds; longer transitions give the opponent time to adjust and insert hooks.
 
-**From Position**: [[Crackhead Control]] (Bottom)
+**From Position**: [[Positions/Crackhead Control]] (Bottom)
 
 </section>
 
@@ -230,9 +230,9 @@ Timing is the decisive factor. The optimal moment to initiate occurs when the op
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Crackhead Control]] | 30% |
-| Counter | [[Back Control]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Crackhead Control]] | 30% |
+| Counter | [[Positions/Back Control]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ Timing is the decisive factor. The optimal moment to initiate occurs when the op
 
 ## Opponent Counters
 
-- **Opponent drives forward aggressively when sensing guard recovery attempt** (Effectiveness: High) - Your Response: Use their forward momentum to assist your hip rotation; their drive actually helps you get under them if you time the guard closure correctly. Accelerate your rotation as they commit forward. → Leads to [[Closed Guard]]
-- **Opponent backs out and disengages to reset in open guard passing position** (Effectiveness: Medium) - Your Response: Pursue with butterfly hooks or seated guard immediately; do not let them establish distance without inserting some form of guard. Their disengagement is actually a partial success - you've escaped turtle. → Leads to [[Crackhead Control]]
-- **Opponent counters by inserting hook as you rotate hips toward mat** (Effectiveness: High) - Your Response: Trap their foot with your same-side hand before completing rotation; if hook enters, immediately address hook removal before continuing guard recovery. A single hook is manageable but two hooks mean back control. → Leads to [[Back Control]]
-- **Opponent sprawls heavy and crossfaces to flatten you back to turtle** (Effectiveness: Medium) - Your Response: Use crossface pressure to fuel lateral hip escape to opposite side; their weight commitment to one direction creates opening for alternative escape angle on the other side. → Leads to [[Crackhead Control]]
+- **Opponent drives forward aggressively when sensing guard recovery attempt** (Effectiveness: High) - Your Response: Use their forward momentum to assist your hip rotation; their drive actually helps you get under them if you time the guard closure correctly. Accelerate your rotation as they commit forward. → Leads to [[Positions/Closed Guard]]
+- **Opponent backs out and disengages to reset in open guard passing position** (Effectiveness: Medium) - Your Response: Pursue with butterfly hooks or seated guard immediately; do not let them establish distance without inserting some form of guard. Their disengagement is actually a partial success - you've escaped turtle. → Leads to [[Positions/Crackhead Control]]
+- **Opponent counters by inserting hook as you rotate hips toward mat** (Effectiveness: High) - Your Response: Trap their foot with your same-side hand before completing rotation; if hook enters, immediately address hook removal before continuing guard recovery. A single hook is manageable but two hooks mean back control. → Leads to [[Positions/Back Control]]
+- **Opponent sprawls heavy and crossfaces to flatten you back to turtle** (Effectiveness: Medium) - Your Response: Use crossface pressure to fuel lateral hip escape to opposite side; their weight commitment to one direction creates opening for alternative escape angle on the other side. → Leads to [[Positions/Crackhead Control]]
 
 
 </section>

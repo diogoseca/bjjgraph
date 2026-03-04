@@ -184,7 +184,7 @@ The technique derives its name from the explosive whipping motion where the bott
 
 Strategically, the whip-up sweep creates a binary dilemma when paired with the Old School sweep. If the opponent sits back with their weight to defend the whip-up, they expose themselves to the Old School. If they drive forward to prevent the Old School, the whip-up becomes available. This forced choice is the foundation of lockdown offense and the reason the system has proven effective at the highest levels of no-gi competition. Advanced practitioners chain the whip-up with immediate back takes, truck entries, and submission threats during the dogfight scramble that follows a successful sweep.
 
-**From Position**: [[Lockdown]] (Bottom)
+**From Position**: [[Positions/Half Guard/Lockdown]] (Bottom)
 
 </section>
 
@@ -236,10 +236,10 @@ Strategically, the whip-up sweep creates a binary dilemma when paired with the O
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Dogfight Position]] | 50% |
-| Success | [[Side Control]] | 15% |
-| Failure | [[Lockdown]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Dogfight Position]] | 50% |
+| Success | [[Positions/Side Control]] | 15% |
+| Failure | [[Positions/Half Guard/Lockdown]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -248,10 +248,10 @@ Strategically, the whip-up sweep creates a binary dilemma when paired with the O
 
 ## Opponent Counters
 
-- **Opponent sits back with weight away from you, removing the forward pressure needed for the whip-up** (Effectiveness: High) - Your Response: Switch immediately to Old School sweep or Electric Chair entry, as sitting back opens both of these attacks by creating space underneath the opponent → Leads to [[Lockdown]]
-- **Opponent establishes strong crossface and flattens you before you can initiate the underhook and whip-up sequence** (Effectiveness: High) - Your Response: Frame against the crossface with your outside arm, extend the lockdown to create space, and re-fight for the underhook before reattempting the whip-up → Leads to [[Lockdown]]
-- **Opponent posts their free hand wide when they feel the off-balance, preventing the sweep from completing** (Effectiveness: Medium) - Your Response: Continue driving forward into dogfight and use your underhook to circle behind them since their posted hand creates a window for back take entry → Leads to [[Dogfight Position]]
-- **Opponent uses the whip-up motion to accelerate their own leg extraction from the lockdown during the transition** (Effectiveness: Medium) - Your Response: If lockdown breaks during the whip-up, immediately transition to traditional half guard sweeps or butterfly hook entries rather than trying to re-establish the lockdown mid-sweep → Leads to [[Half Guard]]
+- **Opponent sits back with weight away from you, removing the forward pressure needed for the whip-up** (Effectiveness: High) - Your Response: Switch immediately to Old School sweep or Electric Chair entry, as sitting back opens both of these attacks by creating space underneath the opponent → Leads to [[Positions/Half Guard/Lockdown]]
+- **Opponent establishes strong crossface and flattens you before you can initiate the underhook and whip-up sequence** (Effectiveness: High) - Your Response: Frame against the crossface with your outside arm, extend the lockdown to create space, and re-fight for the underhook before reattempting the whip-up → Leads to [[Positions/Half Guard/Lockdown]]
+- **Opponent posts their free hand wide when they feel the off-balance, preventing the sweep from completing** (Effectiveness: Medium) - Your Response: Continue driving forward into dogfight and use your underhook to circle behind them since their posted hand creates a window for back take entry → Leads to [[Positions/Dogfight Position]]
+- **Opponent uses the whip-up motion to accelerate their own leg extraction from the lockdown during the transition** (Effectiveness: Medium) - Your Response: If lockdown breaks during the whip-up, immediately transition to traditional half guard sweeps or butterfly hook entries rather than trying to re-establish the lockdown mid-sweep → Leads to [[Positions/Half Guard]]
 
 
 </section>

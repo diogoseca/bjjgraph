@@ -21,7 +21,7 @@ The sweep derives its mechanical power from the bottom player's positioning comp
 
 Strategically, the Homer Simpson Sweep functions as a high-percentage complement to the waiter and old school sweeps within the deep half guard system. When opponents learn to defend lateral sweeps by widening their base or posting to the sides, the direct forward drive of the Homer Simpson Sweep exploits the gap in their defense. The sweep is particularly effective against opponents who commit heavy forward pressure from deep half guard top, as their own weight momentum feeds directly into the sweep mechanics. At the purple and brown belt level, chaining the Homer Simpson Sweep with the waiter sweep creates a binary dilemma that forces the top player to choose between defending lateral or forward sweeping threats.
 
-**From Position**: [[Deep Half Guard]] (Bottom)
+**From Position**: [[Positions/Half Guard/Deep Half Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Homer Simpson Sweep functions as a high-percentage complement
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Deep Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Half Guard/Deep Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -191,25 +191,25 @@ The Homer Simpson Sweep occupies a critical role within the deep half guard offe
 ## Related Techniques
 
 
-- [[Deep Half Guard]] - Starting position - sweep is executed from deep half guard bottom
+- [[Positions/Half Guard/Deep Half Guard]] - Starting position - sweep is executed from deep half guard bottom
 
-- [[Mount]] - Primary target position achieved on successful sweep completion
+- [[Positions/Mount]] - Primary target position achieved on successful sweep completion
 
-- [[Waiter Sweep]] - Complementary lateral sweep from same position creating directional dilemma
+- [[Transitions/Waiter Sweep]] - Complementary lateral sweep from same position creating directional dilemma
 
-- [[Old School Sweep]] - Alternative sweep from deep half using single-leg style come-up mechanics
+- [[Transitions/Old School Sweep]] - Alternative sweep from deep half using single-leg style come-up mechanics
 
-- [[Deep Half Sweep]] - Related sweeping technique from the deep half guard system
+- [[Transitions/Deep Half Sweep]] - Related sweeping technique from the deep half guard system
 
-- [[Electric Chair Entry from Deep Half]] - Alternative offensive option when sweep path is blocked but leg control remains
+- [[Transitions/Electric Chair Entry from Deep Half]] - Alternative offensive option when sweep path is blocked but leg control remains
 
-- [[Rolling Back Take]] - Chain attack option when opponent defends Homer Simpson by turning away
+- [[Transitions/Rolling Back Take]] - Chain attack option when opponent defends Homer Simpson by turning away
 
-- [[Half Guard]] - Fallback position when Homer Simpson Sweep is countered and deep half lost
+- [[Positions/Half Guard]] - Fallback position when Homer Simpson Sweep is countered and deep half lost
 
-- [[Deep Half to X-Guard]] - Transition option when opponent pulls far leg back to defend sweep
+- [[Transitions/Deep Half to X-Guard]] - Transition option when opponent pulls far leg back to defend sweep
 
-- [[Backstep from Deep Half]] - Top player counter-technique that bypasses deep half entirely
+- [[Transitions/Backstep from Deep Half]] - Top player counter-technique that bypasses deep half entirely
 
 
 </section>

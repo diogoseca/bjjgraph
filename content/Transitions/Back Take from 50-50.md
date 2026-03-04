@@ -21,7 +21,7 @@ From the 50-50 position, the back take becomes available when your opponent succ
 
 This technique has become increasingly important in high-level competition as leg lock defense has improved. Rather than engaging in prolonged heel hook battles, skilled practitioners use the back take threat to create a dilemma: defend your heel aggressively and expose your back, or maintain back defense and risk the leg attack. This strategic layer makes the back take from 50-50 essential knowledge for anyone serious about leg lock systems.
 
-**From Position**: [[50-50 Guard]] (Top)
+**From Position**: [[Positions/Ashi Garami/50-50 Guard]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -32,9 +32,9 @@ This technique has become increasingly important in high-level competition as le
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 65% |
-| Failure | [[50-50 Guard]] | 25% |
-| Counter | [[50-50 Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 65% |
+| Failure | [[Positions/Ashi Garami/50-50 Guard]] | 25% |
+| Counter | [[Positions/Ashi Garami/50-50 Guard]] | 10% |
 
 
 </section>
@@ -185,25 +185,25 @@ The Back Take from 50-50 represents a critical junction point in the modern leg 
 ## Related Techniques
 
 
-- [[50-50 Guard]] - Starting position for this transition
+- [[Positions/Ashi Garami/50-50 Guard]] - Starting position for this transition
 
-- [[Back Control]] - Target position achieved on successful execution
+- [[Positions/Back Control]] - Target position achieved on successful execution
 
-- [[Inside Heel Hook]] - Primary alternative attack when back take is unavailable
+- [[Submissions/Inside Heel Hook]] - Primary alternative attack when back take is unavailable
 
-- [[Kneebar from 50-50]] - Secondary leg attack option before transitioning
+- [[Submissions/Kneebar from 50-50]] - Secondary leg attack option before transitioning
 
-- [[Crab Ride]] - Alternative control position during back take transition
+- [[Positions/Crab Ride]] - Alternative control position during back take transition
 
-- [[Rear Naked Choke]] - Primary submission follow-up from achieved back control
+- [[Transitions/Rear Naked Choke]] - Primary submission follow-up from achieved back control
 
-- [[50-50 Guard to Inside Ashi]] - Alternative transition when back take is defended
+- [[Transitions/50-50 Guard to Inside Ashi]] - Alternative transition when back take is defended
 
-- [[Turtle]] - Common intermediate position if opponent turtles during transition
+- [[Positions/Turtle]] - Common intermediate position if opponent turtles during transition
 
-- [[Harness]] - Key grip configuration used during back take execution
+- [[Positions/Harness]] - Key grip configuration used during back take execution
 
-- [[Back Take from Ashi]] - Related back take technique from similar leg entanglement position
+- [[Transitions/Back Take from Ashi]] - Related back take technique from similar leg entanglement position
 
 
 </section>

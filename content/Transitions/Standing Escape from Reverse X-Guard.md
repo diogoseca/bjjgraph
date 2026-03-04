@@ -21,7 +21,7 @@ The technique requires precise sequencing of defensive actions to avoid being sw
 
 Strategically, this escape represents the top player's reset option when direct passing approaches from Reverse X-Guard prove too risky or energy-intensive. Rather than committing to a backstep or knee slice that may expose leg lock entries, the standing escape allows complete disengagement and reengagement on the top player's terms. This technique is especially valuable in competition settings where energy conservation and positional safety take priority over aggressive passing attempts against well-established inverted guard positions.
 
-**From Position**: [[Reverse X-Guard]] (Top)
+**From Position**: [[Positions/X-Guard/Reverse X-Guard]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, this escape represents the top player's reset option when direct 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Standing Position]] | 45% |
-| Failure | [[Reverse X-Guard]] | 35% |
-| Counter | [[Half Guard]] | 20% |
+| Success | [[Positions/Standing Position]] | 45% |
+| Failure | [[Positions/X-Guard/Reverse X-Guard]] | 35% |
+| Counter | [[Positions/Half Guard]] | 20% |
 
 
 </section>
@@ -197,23 +197,23 @@ The Standing Escape from Reverse X-Guard occupies a critical position within the
 ## Related Techniques
 
 
-- [[Reverse X-Guard]] - Starting position - the guard the top player is escaping from
+- [[Positions/X-Guard/Reverse X-Guard]] - Starting position - the guard the top player is escaping from
 
-- [[Standing Position]] - Target position upon successful escape completion
+- [[Positions/Standing Position]] - Target position upon successful escape completion
 
-- [[Backstep Pass from Reverse X-Guard]] - Alternative approach from the same starting position
+- [[Transitions/Backstep Pass from Reverse X-Guard]] - Alternative approach from the same starting position
 
-- [[X-Guard]] - Related guard with similar escape mechanics and hook structure
+- [[Positions/X-Guard]] - Related guard with similar escape mechanics and hook structure
 
-- [[Single Leg X-Guard]] - Position bottom player may transition to during escape attempt
+- [[Positions/X-Guard/Single Leg X-Guard]] - Position bottom player may transition to during escape attempt
 
-- [[Half Guard]] - Potential counter outcome if swept during escape
+- [[Positions/Half Guard]] - Potential counter outcome if swept during escape
 
-- [[De La Riva Guard]] - Common entry point leading to Reverse X-Guard establishment
+- [[Positions/De La Riva Guard]] - Common entry point leading to Reverse X-Guard establishment
 
-- [[Open Guard]] - Recovery position bottom player may fall back to after escape
+- [[Positions/Open Guard]] - Recovery position bottom player may fall back to after escape
 
-- [[Ashi Garami]] - Leg entanglement threat during escape transition
+- [[Positions/Ashi Garami]] - Leg entanglement threat during escape transition
 
 
 </section>

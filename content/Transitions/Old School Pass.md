@@ -21,7 +21,7 @@ The fundamental challenge lies in the bottom player's multi-layered control syst
 
 Strategic timing distinguishes successful Old School Pass execution from failed attempts. Rather than forcing the pass against a fully engaged bottom player, the top player builds incremental pressure that eventually forces the bottom player to release one element of their control system. When the lockdown loosens, the underhook weakens, or the head control slips, the top player capitalizes immediately with decisive leg extraction and pass completion to side control. The pass integrates seamlessly with crossface passing, whizzer-based backsteps, and smash passing chains that create compound pressure the bottom player cannot simultaneously defend.
 
-**From Position**: [[Old School]] (Top)
+**From Position**: [[Positions/Half Guard/Old School]] (Top)
 **Success Rate**: 48%
 
 </section>
@@ -32,9 +32,9 @@ Strategic timing distinguishes successful Old School Pass execution from failed 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 48% |
-| Failure | [[Old School]] | 34% |
-| Counter | [[Half Guard]] | 18% |
+| Success | [[Positions/Side Control]] | 48% |
+| Failure | [[Positions/Half Guard/Old School]] | 34% |
+| Counter | [[Positions/Half Guard]] | 18% |
 
 
 </section>
@@ -193,27 +193,27 @@ The Old School Pass connects the lockdown half guard defensive system to the sid
 ## Related Techniques
 
 
-- [[Old School]] - Source position where this pass originates from the top perspective
+- [[Positions/Half Guard/Old School]] - Source position where this pass originates from the top perspective
 
-- [[Side Control]] - Primary target position upon successful pass completion
+- [[Positions/Side Control]] - Primary target position upon successful pass completion
 
-- [[Half Guard]] - Parent positional category containing Old School as a specialized variant
+- [[Positions/Half Guard]] - Parent positional category containing Old School as a specialized variant
 
-- [[Lockdown]] - Core control mechanism the passer must neutralize to complete the pass
+- [[Positions/Half Guard/Lockdown]] - Core control mechanism the passer must neutralize to complete the pass
 
-- [[Crossface from Old School]] - Complementary passing technique using crossface pressure as primary weapon
+- [[Transitions/Crossface from Old School]] - Complementary passing technique using crossface pressure as primary weapon
 
-- [[Lockdown Whizzer Pass]] - Alternative passing technique specifically targeting the lockdown configuration
+- [[Transitions/Lockdown Whizzer Pass]] - Alternative passing technique specifically targeting the lockdown configuration
 
-- [[Defend Old School Sweep]] - Defensive counter that often precedes or enables the Old School Pass
+- [[Transitions/Defend Old School Sweep]] - Defensive counter that often precedes or enables the Old School Pass
 
-- [[Old School Sweep]] - Primary sweep threat from bottom that the passer must neutralize during the pass
+- [[Transitions/Old School Sweep]] - Primary sweep threat from bottom that the passer must neutralize during the pass
 
-- [[Deep Half Guard]] - Position bottom player may transition to when Old School controls are compromised
+- [[Positions/Half Guard/Deep Half Guard]] - Position bottom player may transition to when Old School controls are compromised
 
-- [[Dogfight Position]] - Scramble position that can arise if bottom player comes up on underhook during pass
+- [[Positions/Dogfight Position]] - Scramble position that can arise if bottom player comes up on underhook during pass
 
-- [[Flattened Half Guard]] - Intermediate position achieved through crossface pressure before completing the pass
+- [[Positions/Half Guard/Flattened Half Guard]] - Intermediate position achieved through crossface pressure before completing the pass
 
 
 </section>

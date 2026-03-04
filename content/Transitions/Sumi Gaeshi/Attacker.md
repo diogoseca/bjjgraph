@@ -178,7 +178,7 @@ In modern BJJ, Sumi Gaeshi serves multiple strategic purposes: as a direct taked
 
 The beauty of Sumi Gaeshi lies in its versatility across different grip configurations and situations. Whether you're working with collar and sleeve grips in the gi, double underhooks in no-gi, or countering a standing opponent from guard, the core mechanics remain consistent: create an angle, drop your weight, position your lifting leg at their hip or thigh, and execute the circular throwing motion that brings them overhead into a dominant position.
 
-**From Position**: [[Standing Position]] (Top)
+**From Position**: [[Positions/Standing Position]] (Top)
 
 </section>
 
@@ -231,9 +231,9 @@ The beauty of Sumi Gaeshi lies in its versatility across different grip configur
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Mount]] | 55% |
-| Failure | [[Standing Position]] | 30% |
-| Counter | [[Closed Guard]] | 15% |
+| Success | [[Positions/Mount]] | 55% |
+| Failure | [[Positions/Standing Position]] | 30% |
+| Counter | [[Positions/Closed Guard]] | 15% |
 
 
 </section>
@@ -242,10 +242,10 @@ The beauty of Sumi Gaeshi lies in its versatility across different grip configur
 
 ## Opponent Counters
 
-- **Opponent sprawls and widens base when they feel the angle creation** (Effectiveness: High) - Your Response: Switch to alternative sweep or takedown, or use their sprawl reaction to transition to single leg X-guard entry → Leads to [[Standing Position]]
-- **Opponent circles away from your lifting leg side** (Effectiveness: Medium) - Your Response: Follow their movement with your angle and re-establish the setup, or chain to opposite-side technique like ankle pick → Leads to [[Standing Position]]
-- **Opponent posts hand on mat during the throw** (Effectiveness: Medium) - Your Response: Continue rotation and attack the posted arm for kimura or use momentum to establish side control instead of mount → Leads to [[Mount]]
-- **Opponent jumps over during execution and lands in guard position** (Effectiveness: Low) - Your Response: Immediately transition to butterfly guard or closed guard as they land, maintaining grip control for immediate re-attack → Leads to [[Closed Guard]]
+- **Opponent sprawls and widens base when they feel the angle creation** (Effectiveness: High) - Your Response: Switch to alternative sweep or takedown, or use their sprawl reaction to transition to single leg X-guard entry → Leads to [[Positions/Standing Position]]
+- **Opponent circles away from your lifting leg side** (Effectiveness: Medium) - Your Response: Follow their movement with your angle and re-establish the setup, or chain to opposite-side technique like ankle pick → Leads to [[Positions/Standing Position]]
+- **Opponent posts hand on mat during the throw** (Effectiveness: Medium) - Your Response: Continue rotation and attack the posted arm for kimura or use momentum to establish side control instead of mount → Leads to [[Positions/Mount]]
+- **Opponent jumps over during execution and lands in guard position** (Effectiveness: Low) - Your Response: Immediately transition to butterfly guard or closed guard as they land, maintaining grip control for immediate re-attack → Leads to [[Positions/Closed Guard]]
 
 
 </section>

@@ -156,7 +156,7 @@ Defending the Granby Roll to Guard requires the top player to recognize the esca
 
 The most critical defensive window exists in the first fraction of a second when you feel the bottom player create space with their hips or begin posting their far arm. Once the granby roll achieves rotational momentum past the halfway point, stopping it becomes exponentially harder and your best option shifts from prevention to following the roll into back control. Understanding this timing distinction separates effective top players from those who repeatedly lose dominant turtle positions to inverting opponents.
 
-**Opponent's Starting Position**: [[Buggy Choke]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Buggy Choke]] (Bottom)
 
 </section>
 
@@ -194,28 +194,28 @@ The most critical defensive window exists in the first fraction of a second when
 ### 1. Drive chest pressure forward and sprawl hips back when you feel the initial hip bump space creation
 
 - **When to use**: Immediately upon feeling the bottom player's hips shift backward to create space, before any rolling motion begins
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: Bottom player is re-flattened with their escape momentum killed, allowing you to reconsolidate Buggy Choke grips and resume attack
 - **Risk**: If mistimed and the roll has already begun, your forward drive may actually assist their rotational momentum
 
 ### 2. Follow the roll by maintaining chest-to-back connection, hooking the near leg, and converting to back control
 
 - **When to use**: When the granby has already initiated past the prevention point and stopping the roll is no longer viable
-- **Targets**: [[Back Control]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You transition from Buggy Choke to Back Control with hooks established, maintaining dominant position despite the escape attempt
 - **Risk**: If you cannot maintain connection during the roll, the bottom player completes to guard and you lose top position entirely
 
 ### 3. Block the far-side posting arm by reaching across and pinning it to the mat or trapping it under your body
 
 - **When to use**: When you recognize the far-side arm posting as an early pre-roll indicator before momentum generation
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: Bottom player cannot establish the pivot point needed for the shoulder roll, completely shutting down the granby escape and forcing them to attempt alternative escapes
 - **Risk**: Reaching for the arm may temporarily lighten your chest pressure, creating a brief window for the bottom player to exploit with a different escape
 
 ### 4. Angle your body perpendicular and drop your near-side knee across the bottom player's hip line to block rotation
 
 - **When to use**: When you feel the initial chin tuck and head turn that signal rolling commitment but before full momentum develops
-- **Targets**: [[Buggy Choke]]
+- **Targets**: [[Positions/Buggy Choke]]
 - **If successful**: Your knee acts as a physical barrier preventing the hip rotation needed for the granby, and your perpendicular angle resists the rolling force
 - **Risk**: The perpendicular angle may open space on the opposite side, allowing the bottom player to redirect into a reverse granby or sit-out escape
 
@@ -227,11 +227,11 @@ The most critical defensive window exists in the first fraction of a second when
 
 ## Best-Case Outcomes for Defender
 
-### → [[Buggy Choke]]
+### → [[Positions/Buggy Choke]]
 
 Prevent the roll entirely by maintaining heavy forward pressure, blocking the posting arm, and immediately re-flattening the bottom player whenever they attempt to create space. Consolidate grips quickly after shutting down each escape attempt to narrow the remaining defensive windows.
 
-### → [[Back Control]]
+### → [[Positions/Back Control]]
 
 When the granby roll has progressed past the stopping point, immediately commit to following the roll rather than fighting it. Maintain chest-to-back contact throughout the rotation, hook the near leg with your leg as they complete the inversion, and establish seatbelt grip to convert the failed Buggy Choke into full back control with hooks.
 

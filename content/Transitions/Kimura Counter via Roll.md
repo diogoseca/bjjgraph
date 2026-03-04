@@ -21,7 +21,7 @@ This technique represents a critical decision point within the Kimura Trap syste
 
 Strategically, the Kimura Counter via Roll serves as an essential safety valve that allows practitioners to commit fully to Kimura Trap attacks knowing they have a reliable exit when the grip fails. Without this technique, failed Kimura attempts from bottom often result in guard passes and significant positional losses. By converting a deteriorating Kimura Trap into closed guard, the bottom player maintains an offensive platform for sweeps, submissions, and re-entry into the Kimura system, creating a sustainable cycle of attack and recovery.
 
-**From Position**: [[Kimura Trap]] (Bottom)
+**From Position**: [[Positions/Kimura Trap]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,9 +32,9 @@ Strategically, the Kimura Counter via Roll serves as an essential safety valve t
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 55% |
-| Failure | [[Kimura Trap]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Closed Guard]] | 55% |
+| Failure | [[Positions/Kimura Trap]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -189,25 +189,25 @@ The Kimura Counter via Roll integrates into the broader Kimura Trap system as a 
 ## Related Techniques
 
 
-- [[Kimura Trap]] - Source position from which this counter-roll is initiated
+- [[Positions/Kimura Trap]] - Source position from which this counter-roll is initiated
 
-- [[Closed Guard]] - Primary target position on successful completion of the roll
+- [[Positions/Closed Guard]] - Primary target position on successful completion of the roll
 
-- [[Half Guard]] - Position reached when opponent successfully counters the roll attempt
+- [[Positions/Half Guard]] - Position reached when opponent successfully counters the roll attempt
 
-- [[Rolling Kimura]] - Related rolling technique from Kimura Trap that aims for top position rather than guard recovery
+- [[Transitions/Rolling Kimura]] - Related rolling technique from Kimura Trap that aims for top position rather than guard recovery
 
-- [[Old School Sweep]] - Alternative sweep from Kimura Trap Bottom when opponent widens base
+- [[Transitions/Old School Sweep]] - Alternative sweep from Kimura Trap Bottom when opponent widens base
 
-- [[Kimura]] - Foundational grip and submission that anchors the Kimura Trap system
+- [[Transitions/Kimura]] - Foundational grip and submission that anchors the Kimura Trap system
 
-- [[Kimura to Back Take]] - Alternative transition when opponent turns into the Kimura grip defensively
+- [[Transitions/Kimura to Back Take]] - Alternative transition when opponent turns into the Kimura grip defensively
 
-- [[Kimura Sweep]] - Related sweep using Kimura grip mechanics from bottom positions
+- [[Transitions/Kimura Sweep]] - Related sweep using Kimura grip mechanics from bottom positions
 
-- [[Lockdown]] - Complementary leg control often combined with Kimura Trap that must be released for the roll
+- [[Positions/Half Guard/Lockdown]] - Complementary leg control often combined with Kimura Trap that must be released for the roll
 
-- [[Back Control]] - Alternative high-value target from Kimura Trap system when opponent exposes their back
+- [[Positions/Back Control]] - Alternative high-value target from Kimura Trap system when opponent exposes their back
 
 
 </section>

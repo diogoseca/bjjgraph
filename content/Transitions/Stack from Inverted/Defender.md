@@ -154,7 +154,7 @@ description: "Learn to defend the stack pass from inverted guard. Recognition cu
 
 As the defender playing inverted guard against a stack attempt, your primary objective is to prevent the top player from compressing your inverted structure and passing your guard. The stack attacks your hip mobility and rotational freedom, which are the foundations of effective inverted guard play. Your defensive priorities are maintaining distance through frames, redirecting the stacking pressure laterally to create escape angles, and threatening counter-attacks that discourage committed stacking attempts. Early recognition of the stack attempt is crucial because once the top player has fully committed their weight and compressed your hips toward your face, escape becomes significantly more difficult and the risk of being passed increases substantially. Your defensive strategy must balance structural frame defense with active transitional escapes.
 
-**Opponent's Starting Position**: [[Inverted Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Inverted Guard]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ As the defender playing inverted guard against a stack attempt, your primary obj
 ### 1. Frame on opponent's hips with both feet and push to create distance, preventing the stack from engaging your inverted structure
 
 - **When to use**: Immediately when you feel the opponent gripping your hips and beginning to lower their level for the stack, before they commit full body weight
-- **Targets**: [[Inverted Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: Opponent's stack attempt fails and you maintain inverted guard with opportunity to re-establish offensive grips and resume berimbolo or leg entanglement entries
 - **Risk**: If frames are stripped or bypassed, opponent achieves deeper stack position with your legs already displaced from defensive alignment
 
 ### 2. Execute granby roll to the side opposite the stacking direction to escape compression and recover to a sustainable guard position
 
 - **When to use**: When opponent has begun driving forward but has not yet fully compressed your hips, and you have enough hip mobility to initiate rotation
-- **Targets**: [[Inverted Guard]]
+- **Targets**: [[Positions/Inverted Guard]]
 - **If successful**: You escape the stack pressure entirely and recover to De La Riva guard, open guard, or re-establish inverted guard from a fresh angle
 - **Risk**: If the roll is too slow or opponent maintains hip control, they follow your rotation and achieve passing position on the new angle
 
 ### 3. Hook opponent's lead leg with your foot during the stack to initiate a sweep or transition to single leg X-guard
 
 - **When to use**: When opponent commits forward pressure and their legs become accessible during the stack drive, particularly if they step too close
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You sweep the opponent using their forward momentum against them or establish a leg entanglement position that reverses the dynamic
 - **Risk**: Failed hook attempt leaves your leg extended away from your defensive frame structure, accelerating the pass
 
 ### 4. Use collar or belt grip to redirect opponent's forward momentum into a berimbolo or rolling counter-attack underneath them
 
 - **When to use**: When opponent drives forward without first controlling your upper body grips, leaving you with strong redirecting grip options
-- **Targets**: [[Half Guard]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: You convert the opponent's stacking momentum into a rolling sequence that passes them over you and puts you on top or achieves back control
 - **Risk**: If the redirect fails, opponent uses your maintained grip contact to further control your upper body during the completed stack
 
@@ -224,11 +224,11 @@ As the defender playing inverted guard against a stack attempt, your primary obj
 
 ## Best-Case Outcomes for Defender
 
-### → [[Inverted Guard]]
+### → [[Positions/Inverted Guard]]
 
 Maintain strong frames on the opponent's hips with both feet, preventing them from closing distance for the stack. Keep your hips elevated and mobile, creating lateral angles that prevent the stack from engaging directly. Re-establish offensive grips on their collar and sleeve once the stack attempt is neutralized to resume your inverted guard offense.
 
-### → [[Half Guard]]
+### → [[Positions/Half Guard]]
 
 Time a leg hook or sweep attempt as the opponent commits forward momentum into the stack. Use their drive against them by redirecting with a collar or belt grip while inserting a hook behind their lead knee to off-balance and sweep. Their committed weight distribution during the stack makes them vulnerable to redirection-based counters.
 

@@ -178,7 +178,7 @@ The technique becomes particularly viable when the opponent commits to heel hook
 
 Strategically, the kneebar from ushiro functions as a chain attack within the leg entanglement system, forcing opponents to defend multiple threat vectors simultaneously. Defenders who focus exclusively on heel hook prevention often neglect proper knee alignment, creating windows for kneebar entry. This dilemma-based approach maximizes offensive efficiency from positions that might otherwise become defensive stalemates when facing sophisticated heel hook defense.
 
-**From Position**: [[Ushiro Ashi-Garami]] (Top)
+**From Position**: [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (Top)
 
 </section>
 
@@ -230,9 +230,9 @@ Strategically, the kneebar from ushiro functions as a chain attack within the le
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Kneebar Control]] | 55% |
-| Failure | [[Ushiro Ashi-Garami]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Kneebar Control]] | 55% |
+| Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -241,10 +241,10 @@ Strategically, the kneebar from ushiro functions as a chain attack within the le
 
 ## Opponent Counters
 
-- **Boot defense by turning knee outward and flexing the leg** (Effectiveness: High) - Your Response: Maintain ankle control and follow their rotation, transitioning to calf slicer or returning to heel hook attack as their defense opens different vulnerabilities → Leads to [[Ushiro Ashi-Garami]]
-- **Pulling leg out by driving hips toward attacker** (Effectiveness: Medium) - Your Response: Pinch knees tighter and extend your hips away from opponent while maintaining ankle grip, using their forward drive to increase hyperextension pressure → Leads to [[Half Guard]]
-- **Rolling through to escape and face attacker** (Effectiveness: Medium) - Your Response: Follow their roll while maintaining leg control, transitioning to standard ashi-garami or saddle position as they rotate toward you → Leads to [[Half Guard]]
-- **Kicking free leg to create space and posture** (Effectiveness: Low) - Your Response: Use your outside leg to trap their free leg, preventing them from generating the hip movement needed to extract the trapped leg → Leads to [[Ushiro Ashi-Garami]]
+- **Boot defense by turning knee outward and flexing the leg** (Effectiveness: High) - Your Response: Maintain ankle control and follow their rotation, transitioning to calf slicer or returning to heel hook attack as their defense opens different vulnerabilities → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
+- **Pulling leg out by driving hips toward attacker** (Effectiveness: Medium) - Your Response: Pinch knees tighter and extend your hips away from opponent while maintaining ankle grip, using their forward drive to increase hyperextension pressure → Leads to [[Positions/Half Guard]]
+- **Rolling through to escape and face attacker** (Effectiveness: Medium) - Your Response: Follow their roll while maintaining leg control, transitioning to standard ashi-garami or saddle position as they rotate toward you → Leads to [[Positions/Half Guard]]
+- **Kicking free leg to create space and posture** (Effectiveness: Low) - Your Response: Use your outside leg to trap their free leg, preventing them from generating the hip movement needed to extract the trapped leg → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 
 </section>

@@ -21,7 +21,7 @@ This counter relies on precise timing and understanding of the top player's weig
 
 While turtling may seem like a lateral move rather than an improvement, it resets the passing sequence and provides well-defined escape routes through granby rolls, sit-outs, and technical stand-ups. For practitioners with strong turtle defense, this counter transforms an increasingly deteriorating leg hook bottom position into a position with clearer offensive and defensive pathways.
 
-**From Position**: [[Leg Hook]] (Bottom)
+**From Position**: [[Positions/Leg Hook]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -32,10 +32,10 @@ While turtling may seem like a lateral move rather than an improvement, it reset
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 35% |
-| Success | [[Half Guard]] | 20% |
-| Failure | [[Leg Hook]] | 25% |
-| Counter | [[Side Control]] | 20% |
+| Success | [[Positions/Turtle]] | 35% |
+| Success | [[Positions/Half Guard]] | 20% |
+| Failure | [[Positions/Leg Hook]] | 25% |
+| Counter | [[Positions/Side Control]] | 20% |
 
 
 </section>
@@ -192,25 +192,25 @@ The Counter Leg Hook occupies a critical defensive node in the half guard retent
 ## Related Techniques
 
 
-- [[Leg Hook]] - Starting position from which this counter is executed
+- [[Positions/Leg Hook]] - Starting position from which this counter is executed
 
-- [[Turtle]] - Primary successful outcome position after counter
+- [[Positions/Turtle]] - Primary successful outcome position after counter
 
-- [[Half Guard]] - Alternative recovery position after successful counter
+- [[Positions/Half Guard]] - Alternative recovery position after successful counter
 
-- [[Side Control]] - Worst-case outcome if counter fails and pass completes
+- [[Positions/Side Control]] - Worst-case outcome if counter fails and pass completes
 
-- [[Granby Roll to Guard]] - Follow-up escape technique from turtle after counter
+- [[Transitions/Granby Roll to Guard]] - Follow-up escape technique from turtle after counter
 
-- [[Technical Stand-up]] - Alternative follow-up escape from turtle position
+- [[Transitions/Technical Stand-up]] - Alternative follow-up escape from turtle position
 
-- [[Deep Half Entry]] - Alternative counter option from leg hook bottom
+- [[Transitions/Deep Half Entry]] - Alternative counter option from leg hook bottom
 
-- [[Knee Shield Half Guard]] - Recovery target when guard re-insertion is possible
+- [[Positions/Half Guard/Knee Shield Half Guard]] - Recovery target when guard re-insertion is possible
 
-- [[Dogfight Position]] - Transition target when underhook counter variant succeeds
+- [[Positions/Dogfight Position]] - Transition target when underhook counter variant succeeds
 
-- [[Back Door Escape from Half Guard]] - Related escape concept using similar hip movement principles
+- [[Transitions/Back Door Escape from Half Guard]] - Related escape concept using similar hip movement principles
 
 
 </section>

@@ -156,7 +156,7 @@ As the lapel guard bottom player, your opponent's distance creation attempt repr
 
 The defender holds significant tactical advantage during distance creation attempts because the top player must execute a multi-step sequence—grip control, lapel clearing, backstep, and re-engagement—each step creating a brief window where their base is compromised or their attention is divided. By recognizing the early indicators of a reset attempt, you can preemptively tighten your configuration, initiate sweeps timed to their weight shifts, or aggressively pursue back takes when they begin moving backward. The key principle is that their backward movement creates forward opportunities for you.
 
-**Opponent's Starting Position**: [[Lapel Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Lapel Guard]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ The defender holds significant tactical advantage during distance creation attem
 ### 1. Tighten lapel configuration and deepen the wrap by pulling more fabric through while fighting to maintain your gripping hand
 
 - **When to use**: Immediately when you feel opponent controlling your wrist or beginning to address the lapel wrap—before they establish posture
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Opponent remains trapped in your lapel configuration with the wrap even deeper than before, forcing them to spend additional energy on a second clearing attempt
 - **Risk**: If you focus exclusively on deepening the wrap and opponent has already established strong posture, your pulling motion may load their backstep and accelerate their disengagement
 
 ### 2. Sit up aggressively and pursue back take as opponent initiates backstep, using their backward movement to create the angle for your rotation behind them
 
 - **When to use**: When opponent has cleared the primary wrap and begins the explosive backstep—their weight is shifting backward and their arms are occupied with the clearing sequence
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: You attach to their back during the transition, converting their reset attempt into a back take or forcing them to re-engage defensively in your guard
 - **Risk**: If opponent anticipates the sit-up and sprawls or circles, you end up seated without guard configuration and they achieve the clean reset they wanted
 
 ### 3. Insert De La Riva hook on their lead leg as they create distance, using the space they generate to thread your outside leg behind their knee
 
 - **When to use**: When the lapel wrap has been cleared and opponent is stepping back—the increased space between you actually facilitates De La Riva hook insertion
-- **Targets**: [[De La Riva Guard]]
+- **Targets**: [[Positions/De La Riva Guard]]
 - **If successful**: You establish De La Riva guard with hook and grips before they can complete the reset to neutral standing, maintaining an active guard position
 - **Risk**: Hook insertion without upper body grips may result in a shallow De La Riva that opponent can strip quickly, giving them the standing reset with only minor delay
 
 ### 4. Hook opponent's retreating ankle with your foot and simultaneously grip their far sleeve to prevent the backstep from completing
 
 - **When to use**: As opponent begins the explosive backstep phase—timing the foot hook to catch their stepping leg before it clears your range
-- **Targets**: [[Lapel Guard]]
+- **Targets**: [[Positions/Lapel Guard]]
 - **If successful**: Opponent's backstep stalls and you can re-extract the lapel or transition to an alternative guard while they remain within your control range
 - **Risk**: Mistimed ankle hook against an explosive backstep may result in your foot being dragged or your hip position being compromised as opponent powers through
 
@@ -224,11 +224,11 @@ The defender holds significant tactical advantage during distance creation attem
 
 ## Best-Case Outcomes for Defender
 
-### → [[Lapel Guard]]
+### → [[Positions/Lapel Guard]]
 
 Prevent the reset by tightening your lapel configuration the moment you sense clearing attempts. Fight aggressively for your gripping hand—use your free hand to re-grip the lapel deeper or switch to a different lapel anchor point. If opponent begins the backstep, sit up immediately and attach to their upper body, forcing them back into your guard structure. The goal is to make the energy cost of their reset exceed the cost of engaging with your guard.
 
-### → [[De La Riva Guard]]
+### → [[Positions/De La Riva Guard]]
 
 When the lapel wrap is cleared and opponent creates backward distance, immediately insert a De La Riva hook on their lead leg while securing a cross grip on their far sleeve or collar. The space they create during backstep actually facilitates DLR hook insertion. Establish the hook and grips before they complete the standing reset—transitioning from lapel guard to De La Riva maintains an active offensive guard rather than conceding neutral open guard.
 

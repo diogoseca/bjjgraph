@@ -180,7 +180,7 @@ description: "Execute the bridge escape from S Mount in BJJ. Step-by-step mechan
 
 Executing the bridge escape from S Mount requires precise coordination of arm protection, explosive hip mechanics, and immediate guard recovery. As the bottom player trapped in S Mount, you face one of the most dangerous positional threats in BJJ with the opponent's perpendicular body angle optimized for armbar attacks. The bridge escape works by generating explosive upward and lateral force through your hips to disrupt the opponent's hip-to-shoulder connection, creating a momentary window to retract your trapped arm and recover guard. Success depends entirely on timing the bridge to coincide with the opponent's weight shift toward the armbar, maintaining strict arm protection throughout the movement, and immediately transitioning to guard recovery before the opponent can re-establish control. This escape demands commitment - half-measures result in arm exposure and accelerated submission.
 
-**From Position**: [[S Mount]] (Bottom)
+**From Position**: [[Positions/Mount/S Mount]] (Bottom)
 
 </section>
 
@@ -234,9 +234,9 @@ Executing the bridge escape from S Mount requires precise coordination of arm pr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Closed Guard]] | 30% |
-| Failure | [[S Mount]] | 40% |
-| Counter | [[Armbar Control]] | 30% |
+| Success | [[Positions/Closed Guard]] | 30% |
+| Failure | [[Positions/Mount/S Mount]] | 40% |
+| Counter | [[Positions/Armbar Control]] | 30% |
 
 
 </section>
@@ -245,10 +245,10 @@ Executing the bridge escape from S Mount requires precise coordination of arm pr
 
 ## Opponent Counters
 
-- **Top player drops hips and sprawls to absorb bridge force, maintaining hip-to-shoulder pressure** (Effectiveness: High) - Your Response: If the bridge is absorbed, immediately transition to frame-and-shrimp escape rather than attempting a second bridge. Use the energy expenditure from their sprawl as a window for the alternative escape path. → Leads to [[S Mount]]
-- **Top player capitalizes on bridge momentum to extend trapped arm and accelerate armbar finish** (Effectiveness: High) - Your Response: If you feel your arm being extended during the bridge, abort the escape immediately and re-establish the collar grip. Pull your elbow back to your ribs and reset your defensive posture before attempting any further escape. → Leads to [[Armbar Control]]
-- **Top player repositions leg over head during bridge disruption to re-establish perpendicular control** (Effectiveness: Medium) - Your Response: If they lift their leg to reposition, use that momentary weight reduction to accelerate your hip escape. Their leg repositioning creates a brief window where their base is compromised on both sides. → Leads to [[S Mount]]
-- **Top player posts hand on mat and shifts weight laterally to counter the bridge direction** (Effectiveness: Medium) - Your Response: If they post their hand, consider immediately switching bridge direction to the opposite side where their base is now weakened. The hand post removes one arm from controlling your trapped arm, creating a potential extraction window. → Leads to [[S Mount]]
+- **Top player drops hips and sprawls to absorb bridge force, maintaining hip-to-shoulder pressure** (Effectiveness: High) - Your Response: If the bridge is absorbed, immediately transition to frame-and-shrimp escape rather than attempting a second bridge. Use the energy expenditure from their sprawl as a window for the alternative escape path. → Leads to [[Positions/Mount/S Mount]]
+- **Top player capitalizes on bridge momentum to extend trapped arm and accelerate armbar finish** (Effectiveness: High) - Your Response: If you feel your arm being extended during the bridge, abort the escape immediately and re-establish the collar grip. Pull your elbow back to your ribs and reset your defensive posture before attempting any further escape. → Leads to [[Positions/Armbar Control]]
+- **Top player repositions leg over head during bridge disruption to re-establish perpendicular control** (Effectiveness: Medium) - Your Response: If they lift their leg to reposition, use that momentary weight reduction to accelerate your hip escape. Their leg repositioning creates a brief window where their base is compromised on both sides. → Leads to [[Positions/Mount/S Mount]]
+- **Top player posts hand on mat and shifts weight laterally to counter the bridge direction** (Effectiveness: Medium) - Your Response: If they post their hand, consider immediately switching bridge direction to the opposite side where their base is now weakened. The hand post removes one arm from controlling your trapped arm, creating a potential extraction window. → Leads to [[Positions/Mount/S Mount]]
 
 
 </section>

@@ -158,7 +158,7 @@ Successful defense requires proactive recognition and rapid response. The counte
 
 The defender must balance between shutting down the counter-entangle and maintaining their existing attacking position. Overreacting to the counter-entangle threat by abandoning your grips or posture can create worse problems than the counter-entangle itself. The optimal approach is to address the threading attempt with your free hand or leg positioning while keeping your primary attacking structure intact, then capitalizing on your opponent's failed attempt by advancing to a more dominant configuration.
 
-**Opponent's Starting Position**: [[Leg Knot]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Leg Knot]] (Bottom)
 
 </section>
 
@@ -196,28 +196,28 @@ The defender must balance between shutting down the counter-entangle and maintai
 ### 1. Sprawl hips back and use free hand to block the threading leg at the knee or ankle before it passes between your legs
 
 - **When to use**: When you recognize the opponent retracting their free leg and beginning the threading motion early in the sequence
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: Opponent's counter-entangle is denied and they return to defensive Leg Knot Bottom with their free leg frame compromised
 - **Risk**: Sprawling creates momentary space that opponent could use for full leg extraction to Half Guard if you overcommit
 
 ### 2. Accelerate transition to Saddle by immediately crossing your legs into a tighter figure-four configuration and driving perpendicular to opponent's body
 
 - **When to use**: When you sense the counter-entangle is imminent or the opponent's free leg becomes highly active, making Leg Knot unsustainable
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: You achieve Saddle position where counter-entanglement to 50-50 is geometrically impossible and you have superior submission access
 - **Risk**: Rushing the Saddle transition without proper mechanics may leave gaps that allow the opponent to extract their leg entirely
 
 ### 3. Attack the heel hook aggressively during the threading motion when opponent's heel becomes briefly exposed during hip rotation
 
 - **When to use**: When the opponent has already initiated the threading motion and their heel protection is compromised by the rotational movement
-- **Targets**: [[Saddle]]
+- **Targets**: [[Positions/Ashi Garami/Saddle]]
 - **If successful**: Opponent must abandon the counter-entangle to address the immediate heel hook threat, or you finish the submission
 - **Risk**: If opponent completes the 50-50 despite your attack, they now have equal heel hook access and the position is neutralized
 
 ### 4. Post your free leg wide and heavy to block the threading pathway while maintaining your existing grips and upper body control
 
 - **When to use**: When you want to maintain your current attacking position without risking a major positional change
-- **Targets**: [[Leg Knot]]
+- **Targets**: [[Positions/Leg Knot]]
 - **If successful**: Opponent cannot thread through your widened base and must return to passive defense or attempt a different escape route
 - **Risk**: Wide posting may compromise your base if opponent uses the posted leg as leverage for a different sweep or escape
 
@@ -229,11 +229,11 @@ The defender must balance between shutting down the counter-entangle and maintai
 
 ## Best-Case Outcomes for Defender
 
-### → [[Leg Knot]]
+### → [[Positions/Leg Knot]]
 
 Block the threading attempt with your free hand or sprawled hip positioning, then immediately re-establish your Leg Knot Top grips and hip pressure. The opponent's failed counter-entangle leaves them with a compromised free leg frame, giving you an improved attacking position compared to before their attempt.
 
-### → [[Saddle]]
+### → [[Positions/Ashi Garami/Saddle]]
 
 Use the opponent's counter-entangle attempt as the trigger to accelerate your own positional advancement. As they retract their free leg and begin rotating their hips, immediately cross into Saddle configuration by driving perpendicular and tightening your leg entanglement. Their hip rotation toward you actually assists your Saddle entry angle.
 

@@ -21,7 +21,7 @@ The technique operates on the principle that no locked grip can withstand proper
 
 Understanding this escape is essential for any serious competitor. Body lock takedowns and back takes from standing have become dominant strategies in modern no-gi competition, and without reliable escape mechanics you become vulnerable to systematic scoring sequences that begin with the body lock and end in back control or dominant ground positions. The technique chains naturally with other defensive options from body lock bottom, creating a layered defensive system where each failed attempt flows into the next.
 
-**From Position**: [[Body Lock]] (Bottom)
+**From Position**: [[Positions/Body Lock]] (Bottom)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ Understanding this escape is essential for any serious competitor. Body lock tak
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Turtle]] | 30% |
-| Success | [[Clinch]] | 15% |
-| Failure | [[Body Lock]] | 35% |
-| Counter | [[Back Control]] | 20% |
+| Success | [[Positions/Turtle]] | 30% |
+| Success | [[Positions/Clinch]] | 15% |
+| Failure | [[Positions/Body Lock]] | 35% |
+| Counter | [[Positions/Back Control]] | 20% |
 
 
 </section>
@@ -194,25 +194,25 @@ The Escape Body Lock occupies a critical defensive node in the standing grapplin
 ## Related Techniques
 
 
-- [[Body Lock]] - Source position from which this escape is executed
+- [[Positions/Body Lock]] - Source position from which this escape is executed
 
-- [[Turtle]] - Primary success outcome when full standing escape is not achievable
+- [[Positions/Turtle]] - Primary success outcome when full standing escape is not achievable
 
-- [[Clinch]] - Ideal escape target returning to neutral standing engagement
+- [[Positions/Clinch]] - Ideal escape target returning to neutral standing engagement
 
-- [[Back Control]] - Counter threat if escape attempt is poorly timed or executed
+- [[Positions/Back Control]] - Counter threat if escape attempt is poorly timed or executed
 
-- [[Body Lock Takedown]] - Opponent's primary threat that makes this escape urgent
+- [[Transitions/Body Lock Takedown]] - Opponent's primary threat that makes this escape urgent
 
-- [[Body Lock to Standing]] - Related escape option focusing on returning to standing position
+- [[Transitions/Body Lock to Standing]] - Related escape option focusing on returning to standing position
 
-- [[Pummeling Escape from Body Lock]] - Alternative escape technique using inside control to break body lock
+- [[Transitions/Pummeling Escape from Body Lock]] - Alternative escape technique using inside control to break body lock
 
-- [[Back Take]] - Opponent's highest-value transition that this escape aims to prevent
+- [[Transitions/Back Take]] - Opponent's highest-value transition that this escape aims to prevent
 
-- [[Scramble Position]] - Possible intermediate position during escape scramble
+- [[Positions/Scramble Position]] - Possible intermediate position during escape scramble
 
-- [[Half Guard]] - Alternative recovery position if escape transitions to ground engagement
+- [[Positions/Half Guard]] - Alternative recovery position if escape transitions to ground engagement
 
 
 </section>

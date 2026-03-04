@@ -178,7 +178,7 @@ Strategically, this technique exemplifies the dilemma-based approach that makes 
 
 The technique requires timing recognition and commitment to the back take pathway. Many practitioners successfully initiate the sweep but hesitate when the opponent begins rotating, losing the back take opportunity. Understanding that the opponent's rotation IS the technique working—not a failed sweep—is critical for successful execution.
 
-**From Position**: [[Lapel Guard]] (Bottom)
+**From Position**: [[Positions/Lapel Guard]] (Bottom)
 
 </section>
 
@@ -230,10 +230,10 @@ The technique requires timing recognition and commitment to the back take pathwa
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Back Control]] | 55% |
-| Success | [[Mount]] | 10% |
-| Failure | [[Lapel Guard]] | 25% |
-| Counter | [[Half Guard]] | 10% |
+| Success | [[Positions/Back Control]] | 55% |
+| Success | [[Positions/Mount]] | 10% |
+| Failure | [[Positions/Lapel Guard]] | 25% |
+| Counter | [[Positions/Half Guard]] | 10% |
 
 
 </section>
@@ -242,10 +242,10 @@ The technique requires timing recognition and commitment to the back take pathwa
 
 ## Opponent Counters
 
-- **Posting the hand to base and prevent rotation** (Effectiveness: High) - Your Response: Ensure sleeve control is established before initiating sweep; if they free the arm, switch to alternative sweep that doesn't require rotation → Leads to [[Lapel Guard]]
-- **Backstep escape to clear lapel and disengage** (Effectiveness: Medium) - Your Response: Follow their backstep aggressively with your sit-up; their backstep actually accelerates your path to their back if you stay attached → Leads to [[Lapel Guard]]
-- **Dropping weight and driving forward to flatten guard player** (Effectiveness: Medium) - Your Response: Use their forward pressure to load a different sweep direction; transition to squid guard configuration if they commit heavily forward → Leads to [[Half Guard]]
-- **Stripping the lapel grip before sweep is loaded** (Effectiveness: Low) - Your Response: Transition to spider guard or lasso guard using the same collar/sleeve grips; re-extract lapel from safer position once they tire from clearing → Leads to [[Lapel Guard]]
+- **Posting the hand to base and prevent rotation** (Effectiveness: High) - Your Response: Ensure sleeve control is established before initiating sweep; if they free the arm, switch to alternative sweep that doesn't require rotation → Leads to [[Positions/Lapel Guard]]
+- **Backstep escape to clear lapel and disengage** (Effectiveness: Medium) - Your Response: Follow their backstep aggressively with your sit-up; their backstep actually accelerates your path to their back if you stay attached → Leads to [[Positions/Lapel Guard]]
+- **Dropping weight and driving forward to flatten guard player** (Effectiveness: Medium) - Your Response: Use their forward pressure to load a different sweep direction; transition to squid guard configuration if they commit heavily forward → Leads to [[Positions/Half Guard]]
+- **Stripping the lapel grip before sweep is loaded** (Effectiveness: Low) - Your Response: Transition to spider guard or lasso guard using the same collar/sleeve grips; re-extract lapel from safer position once they tire from clearing → Leads to [[Positions/Lapel Guard]]
 
 
 </section>

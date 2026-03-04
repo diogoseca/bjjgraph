@@ -160,7 +160,7 @@ description: "How to defend against Toreando Pass in BJJ. Recognition cues, defe
 
 Defending the Toreando Pass requires early recognition, disciplined grip fighting, and active hip engagement to prevent the passer from establishing the bilateral leg control and lateral angle that make this pass so effective. The guard player's primary objective is to deny the passer's knee or pant grips, maintain at least one foot-on-hip frame, and keep the hips aligned toward the passer so that any lateral movement can be tracked. Because the Toreando relies on explosive speed and simultaneous leg redirection, the defender must respond in the earliest stages of the pass — once the passer has committed to the lateral step with strong grips, the window for effective defense narrows dramatically. Successful defense creates opportunities to either retain open guard through hip tracking and re-framing, or to capitalize on the passer's lateral commitment by attacking with sweeps that exploit their displaced base. The best defenders treat Toreando defense not as a passive survival exercise but as an offensive opportunity: the passer's movement creates predictable angles that can be countered with well-timed inversions, hip switches, and collar drags.
 
-**Opponent's Starting Position**: [[Open Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Open Guard]] (Top)
 
 </section>
 
@@ -198,35 +198,35 @@ Defending the Toreando Pass requires early recognition, disciplined grip fightin
 ### 1. Strip passer's grip with two-on-one grip break and immediately re-establish foot-on-hip frame
 
 - **When to use**: At the earliest stage when passer is establishing grips on your knees or pants, before they commit to the lateral step
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Passer's pass attempt is nullified, you retain open guard with defensive frames intact and can re-engage on your terms
 - **Risk**: If grip break fails, passer may use the momentary distraction to accelerate the pass while your hands are occupied fighting grips
 
 ### 2. Hip-switch to follow the passer's lateral movement, rotating your body to keep hips and feet aligned toward them
 
 - **When to use**: When the passer has committed to the lateral step and is mid-movement, track their direction with an immediate hip rotation toward the passing side
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Your hips follow the passer's movement, preventing them from clearing your legs and maintaining guard structure despite their lateral angle
 - **Risk**: If your hip movement is too slow, the passer completes the angle and you end up with your back partially turned, exposing you to a faster pass completion
 
 ### 3. Establish collar drag or sleeve pull to off-balance the passer as they step laterally
 
 - **When to use**: When the passer begins the explosive lateral step, use their forward and sideways momentum against them by pulling them off-balance with an upper body grip
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Passer is swept or off-balanced, potentially resulting in a top position reversal or at minimum a complete reset of their passing attempt
 - **Risk**: Requires committing a hand to the collar or sleeve, temporarily reducing your framing ability; if the drag fails, you have one fewer defensive structure
 
 ### 4. Invert and granby roll to recover guard as passer advances past your hip line
 
 - **When to use**: When the passer has partially completed the pass and your legs have been redirected to one side, use a granby roll to create distance and face the passer again
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You escape the near-complete pass and re-establish open guard facing the passer, often from a De La Riva or Reverse De La Riva position
 - **Risk**: Inversion requires flexibility and timing; a mistimed granby can result in the passer taking your back or establishing a deeper passing position
 
 ### 5. Insert knee shield and transition to half guard retention as passer's hips approach your hip line
 
 - **When to use**: As a last-resort defense when the passer has cleared your open guard legs and is settling toward side control — insert the near-side knee between your bodies
-- **Targets**: [[Open Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: You prevent full side control consolidation and establish a defensive half guard or knee shield position from which you can work systematic escapes
 - **Risk**: If the passer anticipates the knee insertion, they can switch to a knee cut or backstep to pass through the half guard immediately
 
@@ -238,11 +238,11 @@ Defending the Toreando Pass requires early recognition, disciplined grip fightin
 
 ## Best-Case Outcomes for Defender
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Deny the passer's grips through proactive grip fighting and maintain your foot-on-hip frames to prevent them from ever initiating the lateral step. When the grip break succeeds, immediately re-establish your preferred open guard configuration with active hooks and grips before the passer can re-engage.
 
-### → [[Open Guard]]
+### → [[Positions/Open Guard]]
 
 Capitalize on the passer's lateral commitment by using a collar drag, arm drag, or technical stand-up when their base is displaced by the explosive side step. The passer's weight is briefly on one foot during the Toreando, creating a sweep window if you time your pull to coincide with their weight transfer.
 

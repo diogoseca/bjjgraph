@@ -21,7 +21,7 @@ The key strategic insight is that the Russian Leg Lasso derives its power from t
 
 This pass fits within a broader open guard passing framework where the passer must first identify which control points are active, prioritize their dismantling sequence, and then execute the pass through the weakened guard structure. Practitioners who attempt to force through established Russian Leg Lasso controls without systematic grip breaking have significantly lower passing success rates compared to those who invest time in methodical control point removal before committing to the pass.
 
-**From Position**: [[Russian Leg Lasso]] (Top)
+**From Position**: [[Positions/Lasso Guard/Russian Leg Lasso]] (Top)
 **Success Rate**: 45%
 
 </section>
@@ -32,10 +32,10 @@ This pass fits within a broader open guard passing framework where the passer mu
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 45% |
-| Failure | [[Russian Leg Lasso]] | 30% |
-| Failure | [[Half Guard]] | 15% |
-| Counter | [[Mount]] | 10% |
+| Success | [[Positions/Side Control]] | 45% |
+| Failure | [[Positions/Lasso Guard/Russian Leg Lasso]] | 30% |
+| Failure | [[Positions/Half Guard]] | 15% |
+| Counter | [[Positions/Mount]] | 10% |
 
 
 </section>
@@ -192,25 +192,25 @@ Pass Russian Leg Lasso serves as a critical technique within the broader open gu
 ## Related Techniques
 
 
-- [[Russian Leg Lasso]] - Source position where the pass begins, with the passer caught in the bottom player's Russian Leg Lasso guard
+- [[Positions/Lasso Guard/Russian Leg Lasso]] - Source position where the pass begins, with the passer caught in the bottom player's Russian Leg Lasso guard
 
-- [[Side Control]] - Primary target position achieved upon successful completion of the guard pass
+- [[Positions/Side Control]] - Primary target position achieved upon successful completion of the guard pass
 
-- [[Half Guard]] - Partial pass outcome when the guard player recovers half guard during pass completion
+- [[Positions/Half Guard]] - Partial pass outcome when the guard player recovers half guard during pass completion
 
-- [[Lasso Guard]] - Parent guard category sharing similar passing mechanics and grip-breaking principles
+- [[Positions/Lasso Guard]] - Parent guard category sharing similar passing mechanics and grip-breaking principles
 
-- [[Lasso Guard Backstep Pass]] - Complementary passing technique from standard lasso using backstep angle creation
+- [[Transitions/Lasso Guard Backstep Pass]] - Complementary passing technique from standard lasso using backstep angle creation
 
-- [[Lasso Guard Stack Pass]] - Alternative pressure-based passing approach applicable to lasso guard variations
+- [[Transitions/Lasso Guard Stack Pass]] - Alternative pressure-based passing approach applicable to lasso guard variations
 
-- [[De La Riva Guard]] - Related open guard often combined with Russian Leg Lasso requiring integrated passing strategy
+- [[Positions/De La Riva Guard]] - Related open guard often combined with Russian Leg Lasso requiring integrated passing strategy
 
-- [[Collar Sleeve Guard]] - Guard sharing grip configurations that can transition into Russian Leg Lasso
+- [[Positions/Collar Sleeve Guard]] - Guard sharing grip configurations that can transition into Russian Leg Lasso
 
-- [[Headquarters Position]] - Intermediate passing position accessible when lasso control is partially broken
+- [[Positions/Headquarters Position]] - Intermediate passing position accessible when lasso control is partially broken
 
-- [[Open Guard]] - Parent guard category providing foundational passing principles for all open guard variations
+- [[Positions/Open Guard]] - Parent guard category providing foundational passing principles for all open guard variations
 
 
 </section>

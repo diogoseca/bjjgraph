@@ -154,7 +154,7 @@ description: "Complete defensive guide against the Ten Finger Guillotine Variati
 
 Defending the Ten Finger Guillotine Variation requires early recognition and precise timing. The defender's best opportunity comes during the grip transition—the brief one-to-two-second window when the attacker releases their original grip and reconfigures to the interlaced finger position. During this window, the attacker's control is at its weakest because neither grip is fully secured, and explosive posture recovery can break the submission threat entirely. If the interlaced grip locks before the defender responds, defense shifts from escape to survival, using chin tuck, framing, and incremental position improvement to prevent the finish while working toward guard closure or grip separation. Understanding the mechanical differences between this grip and standard guillotine configurations is essential for developing effective defensive responses.
 
-**Opponent's Starting Position**: [[Guillotine Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Guillotine Control]] (Top)
 
 </section>
 
@@ -191,28 +191,28 @@ Defending the Ten Finger Guillotine Variation requires early recognition and pre
 ### 1. Explosive posture recovery during grip transition window
 
 - **When to use**: The moment you feel the original grip release and before the new interlace locks—this one-to-two-second window is your highest-percentage escape opportunity
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Head extracts from the choke entirely, opponent falls into your closed guard without submission threat
 - **Risk**: If posture attempt fails, you burn energy and may end up in a worse position with the ten finger grip now locked
 
 ### 2. Hand fight to prevent finger interlace completion
 
 - **When to use**: When you feel opponent's hands coming together on the far side of your neck—target the fingers before they mesh past the second knuckle
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: Opponent cannot complete the ten finger grip and must return to their previous grip configuration, buying you time
 - **Risk**: Focusing both hands on grip fighting may leave your posture undefended if they abandon the switch and squeeze
 
 ### 3. Swim arm inside and close guard to limit finishing angle
 
 - **When to use**: When opponent's attention shifts to the grip change and their leg positioning opens enough for guard closure
-- **Targets**: [[Closed Guard]]
+- **Targets**: [[Positions/Closed Guard]]
 - **If successful**: Guard closure prevents opponent from using sprawl and hip drive for finishing pressure, neutralizing the top position advantage
 - **Risk**: Swimming arm in may create an arm-in guillotine variation if opponent adjusts grip accordingly
 
 ### 4. Two-hand peel of forearm from throat during transition
 
 - **When to use**: During the grip release moment when the forearm is held in place by pressure alone without a reinforcing hand grip
-- **Targets**: [[Guillotine Control]]
+- **Targets**: [[Positions/Guillotine Control]]
 - **If successful**: Forearm displacement eliminates the choking structure entirely, forcing opponent to re-establish the guillotine from scratch
 - **Risk**: If peel attempt is too slow, opponent completes the interlace around your hands, trapping them against your own neck
 
@@ -224,11 +224,11 @@ Defending the Ten Finger Guillotine Variation requires early recognition and pre
 
 ## Best-Case Outcomes for Defender
 
-### → [[Closed Guard]]
+### → [[Positions/Closed Guard]]
 
 Time your posture recovery to the exact moment the opponent releases their original grip. Drive your head upward and back while framing against their hips with both hands. If you create sufficient space, immediately close your guard to prevent the opponent from re-establishing guillotine control from top position.
 
-### → [[Guillotine Control]]
+### → [[Positions/Guillotine Control]]
 
 Prevent the finish through chin tuck and active hand fighting against the interlaced fingers while maintaining guard structure. Though you remain in guillotine control, forcing the opponent back to their original grip configuration or stalling their finish buys time for further defensive opportunities as their arms fatigue.
 

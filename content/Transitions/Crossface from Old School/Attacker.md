@@ -186,7 +186,7 @@ description: "Execute the Crossface from Old School to pass lockdown half guard.
 
 As the attacker executing the Crossface from Old School, your objective is to use systematic shoulder and forearm pressure to turn your opponent's head away from their underhook, breaking their sweeping angle and flattening their posture. This eliminates the geometric alignment that makes Old School sweeps effective and creates the conditions needed to extract your trapped leg from the lockdown and complete the pass to side control. The technique requires patience and progressive pressure rather than explosive movement, as the lockdown bottom player specifically trains to exploit reactive movements. Your whizzer serves as the anchor that prevents the opponent from recovering underhook depth while the crossface incrementally degrades their positional structure.
 
-**From Position**: [[Old School]] (Top)
+**From Position**: [[Positions/Half Guard/Old School]] (Top)
 
 </section>
 
@@ -240,9 +240,9 @@ As the attacker executing the Crossface from Old School, your objective is to us
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Side Control]] | 55% |
-| Failure | [[Old School]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Side Control]] | 55% |
+| Failure | [[Positions/Half Guard/Old School]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -251,11 +251,11 @@ As the attacker executing the Crossface from Old School, your objective is to us
 
 ## Opponent Counters
 
-- **Bottom player pumps lockdown aggressively to create sweep momentum before crossface is established** (Effectiveness: High) - Your Response: Immediately sprawl hips back while maintaining chest pressure to remove sweep leverage. Increase whizzer depth and wait for the pumping to exhaust before reinitiating crossface drive. → Leads to [[Half Guard]]
-- **Bottom player releases head control and frames against crossface shoulder with forearm** (Effectiveness: Medium) - Your Response: Swim your crossface hand inside their frame and re-establish crossface below their forearm. Their frame actually helps you because releasing head control eliminates one of the controls you need to break. → Leads to [[Old School]]
-- **Bottom player dives under for deep half guard entry during crossface weight shift** (Effectiveness: High) - Your Response: If you feel them scooping under your hips, immediately sprawl heavy and drive your crossface deeper to prevent them from completing the rotation under you. Keep hips low and forward to deny the space they need for deep half entry. → Leads to [[Half Guard]]
-- **Bottom player times Old School Sweep during the crossface weight transfer forward** (Effectiveness: High) - Your Response: Post your free hand on the mat and widen your base leg immediately. The sweep relies on catching you during a weight shift, so pausing the crossface and resettling your base before continuing denies the timing window. → Leads to [[Half Guard]]
-- **Bottom player attempts to re-pummel underhook as crossface turns their head** (Effectiveness: Medium) - Your Response: Clamp your whizzer elbow tight to your body and drop your shoulder weight to trap their arm. Their head is already turned away, so their underhook attempt lacks the body alignment needed for effective depth. → Leads to [[Old School]]
+- **Bottom player pumps lockdown aggressively to create sweep momentum before crossface is established** (Effectiveness: High) - Your Response: Immediately sprawl hips back while maintaining chest pressure to remove sweep leverage. Increase whizzer depth and wait for the pumping to exhaust before reinitiating crossface drive. → Leads to [[Positions/Half Guard]]
+- **Bottom player releases head control and frames against crossface shoulder with forearm** (Effectiveness: Medium) - Your Response: Swim your crossface hand inside their frame and re-establish crossface below their forearm. Their frame actually helps you because releasing head control eliminates one of the controls you need to break. → Leads to [[Positions/Half Guard/Old School]]
+- **Bottom player dives under for deep half guard entry during crossface weight shift** (Effectiveness: High) - Your Response: If you feel them scooping under your hips, immediately sprawl heavy and drive your crossface deeper to prevent them from completing the rotation under you. Keep hips low and forward to deny the space they need for deep half entry. → Leads to [[Positions/Half Guard]]
+- **Bottom player times Old School Sweep during the crossface weight transfer forward** (Effectiveness: High) - Your Response: Post your free hand on the mat and widen your base leg immediately. The sweep relies on catching you during a weight shift, so pausing the crossface and resettling your base before continuing denies the timing window. → Leads to [[Positions/Half Guard]]
+- **Bottom player attempts to re-pummel underhook as crossface turns their head** (Effectiveness: Medium) - Your Response: Clamp your whizzer elbow tight to your body and drop your shoulder weight to trap their arm. Their head is already turned away, so their underhook attempt lacks the body alignment needed for effective depth. → Leads to [[Positions/Half Guard/Old School]]
 
 
 </section>

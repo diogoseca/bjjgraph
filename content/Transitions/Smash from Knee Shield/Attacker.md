@@ -186,7 +186,7 @@ description: "Learn to execute the Smash from Knee Shield as the attacking passe
 
 Playing as the attacker in the Smash from Knee Shield, your objective is to systematically collapse the opponent's defensive shin frame using angled pressure and grip control. The technique demands patience—rushing into the shield generates counterproductive force that the bottom player can redirect into sweeps. Success depends on establishing crossface control, securing the knee shield ankle, and driving compressive pressure from a 45-degree angle that bypasses the shield's strongest resistance axis. The smash transitions you from the stalled knee shield top position into standard half guard top where your full passing arsenal becomes available, making it an essential gateway technique in the pressure passing system.
 
-**From Position**: [[Knee Shield Half Guard]] (Top)
+**From Position**: [[Positions/Half Guard/Knee Shield Half Guard]] (Top)
 
 </section>
 
@@ -239,9 +239,9 @@ Playing as the attacker in the Smash from Knee Shield, your objective is to syst
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Half Guard]] | 55% |
-| Failure | [[Knee Shield Half Guard]] | 30% |
-| Counter | [[Half Guard]] | 15% |
+| Success | [[Positions/Half Guard]] | 55% |
+| Failure | [[Positions/Half Guard/Knee Shield Half Guard]] | 30% |
+| Counter | [[Positions/Half Guard]] | 15% |
 
 
 </section>
@@ -250,10 +250,10 @@ Playing as the attacker in the Smash from Knee Shield, your objective is to syst
 
 ## Opponent Counters
 
-- **Hip escape to recreate distance and re-angle knee shield frame** (Effectiveness: High) - Your Response: Follow their hip movement with your own hips, maintaining crossface pressure and ankle grip. Do not allow space to open between your shoulder and their chest. Reset your angle if needed but never release both grips simultaneously. → Leads to [[Knee Shield Half Guard]]
-- **Pummel for underhook and come up to knees for dogfight sweep** (Effectiveness: Medium) - Your Response: Immediately whizzer their underhook arm and drive your weight forward. Use your crossface shoulder to prevent them from turning their body upright. If they get the underhook, switch to overhook control and drive them back flat before they establish the dogfight. → Leads to [[Half Guard]]
-- **Frame on shoulder and bicep to block pressure descent into chest** (Effectiveness: High) - Your Response: Swim your arm inside their elbow frame to strip the secondary frame, then immediately re-apply shoulder pressure. Use short explosive bursts of pressure to overwhelm individual frames rather than grinding against both frames simultaneously. → Leads to [[Knee Shield Half Guard]]
-- **Dive underneath to deep half guard as shield begins to collapse** (Effectiveness: Medium) - Your Response: Sprawl your hips back immediately and drive your weight downward to prevent them from getting underneath your center of gravity. If you sense the deep half entry beginning, post your free hand on the mat and widen your base to resist the inversion. → Leads to [[Knee Shield Half Guard]]
+- **Hip escape to recreate distance and re-angle knee shield frame** (Effectiveness: High) - Your Response: Follow their hip movement with your own hips, maintaining crossface pressure and ankle grip. Do not allow space to open between your shoulder and their chest. Reset your angle if needed but never release both grips simultaneously. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
+- **Pummel for underhook and come up to knees for dogfight sweep** (Effectiveness: Medium) - Your Response: Immediately whizzer their underhook arm and drive your weight forward. Use your crossface shoulder to prevent them from turning their body upright. If they get the underhook, switch to overhook control and drive them back flat before they establish the dogfight. → Leads to [[Positions/Half Guard]]
+- **Frame on shoulder and bicep to block pressure descent into chest** (Effectiveness: High) - Your Response: Swim your arm inside their elbow frame to strip the secondary frame, then immediately re-apply shoulder pressure. Use short explosive bursts of pressure to overwhelm individual frames rather than grinding against both frames simultaneously. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
+- **Dive underneath to deep half guard as shield begins to collapse** (Effectiveness: Medium) - Your Response: Sprawl your hips back immediately and drive your weight downward to prevent them from getting underneath your center of gravity. If you sense the deep half entry beginning, post your free hand on the mat and widen your base to resist the inversion. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 
 
 </section>
